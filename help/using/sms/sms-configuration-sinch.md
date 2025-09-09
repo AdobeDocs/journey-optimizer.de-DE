@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1107'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Gehen Sie wie folgt vor, um Ihren Sinch-Anbieter zum Senden von SMS-Nachrichten 
    | Opt-out-Nachricht | Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Opt-out-Nachricht gesendet wird. |
    | Hilfe-Keywords | Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre **Hilfenachricht** automatisch ausgelöst wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte. |
    | Hilfenachricht | Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfenachricht** gesendet wird. |
-   | Double-Opt-in-Keywords | Geben Sie die Keywords ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3440289/?learn=on&captions=ger). |
+   | Double-Opt-in-Keywords | Geben Sie die Keywords ein, die den Double-Opt-in-Prozess auslösen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Double-Opt-in-Nachricht | Geben Sie die benutzerdefinierte Antwort ein, die automatisch nach der Double-Opt-in-Bestätigung gesendet wird. |
    | Eingehende Nummer | Fügen Sie Ihre eindeutige eingehende Nummer oder Ihren eindeutigen Kurz-Code hinzu. Auf diese Weise können Sie dieselben API-Anmeldedaten für verschiedene Sandboxes verwenden, von denen jede über eine eigene eingehende Zahl oder einen eigenen Kurz-Code verfügt. |
    | Benutzerdefinierte eingehende Keywords | Definieren Sie eindeutige Keywords für bestimmte Aktionen, z. B. RABATT, ANGEBOTE, REGISTRIEREN. Diese Keywords werden als Attribute im Profil erfasst und gespeichert, sodass Sie eine Streaming-Segmentqualifikation innerhalb der Journey auslösen und eine benutzerdefinierte Antwort oder Aktion bereitstellen können. |
@@ -66,9 +66,9 @@ Gehen Sie wie folgt vor, um Ihren Sinch-Anbieter zum Senden von SMS-Nachrichten 
 
    +++
 
-1. Aktivieren Sie die **[!UICONTROL Fuzzy-Opt-out]**-Option, um Nachrichten zu erkennen, die Opt-out-Schlüsselwörtern ähneln (z. B. „CANCIL„), und passen Sie die Bestätigungsantwort im Feld **[!UICONTROL Fuzzy Auto Reply]** an.
+1. Aktivieren Sie die Option **[!UICONTROL Unpräzises Opt-out]**, um Nachrichten zu erkennen, die Opt-out-Schlüsselwörtern ähneln (z. B. „ABNELDEN“), und passen Sie die Bestätigungsantwort im Feld **[!UICONTROL Unpräzise automatische Antwort]** an.
 
-   **[!UICONTROL Unscharfe Abmeldung]** kennzeichnet SMS-Nachrichten, die darauf hinweisen, dass ein Benutzer das Abonnement kündigen möchte, auch wenn die Nachricht nicht genau mit einem definierten Abmeldeschlüsselwort übereinstimmt. Es kann häufig verwendete Opt-out-Phrasen und bestimmte anstößige Begriffe erkennen und sicherstellen, dass Ihre Kampagnen die Benutzerpräferenzen respektieren und die Regeln einhalten.
+   **[!UICONTROL Unpräzises Opt-out]** kennzeichnet SMS-Nachrichten, die darauf hinweisen, dass jemand das Abonnement kündigen möchte, auch wenn die Nachricht nicht genau mit einem definierten Keyword zum Abmelden übereinstimmt. Es kann häufig verwendete Opt-out-Phrasen und bestimmte anstößige Begriffe erkennen und sicherstellen, dass Ihre Kampagnen die Benutzerpräferenzen respektieren und die Regeln einhalten.
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
@@ -76,9 +76,9 @@ Gehen Sie wie folgt vor, um Ihren Sinch-Anbieter zum Senden von SMS-Nachrichten 
 
 1. Um vorhandene Anmeldedaten zu ändern, suchen Sie die gewünschten API-Anmeldedaten und klicken Sie auf die Option **[!UICONTROL Bearbeiten]**, um die erforderlichen Änderungen vorzunehmen.
 
-1. Klicken Sie auf **[!UICONTROL SMS-Verbindung überprüfen]**, um Ihre SMS-API-Anmeldeinformationen über eine Beispielnachricht an ein bestimmtes Gerät zu testen und zu überprüfen.
+1. Klicken Sie anhand Ihrer bestehenden API-Anmeldedaten auf **[!UICONTROL SMS-Verbindung überprüfen]**, um Ihre SMS-API-Anmeldedaten zu testen und zu überprüfen, indem Sie eine Beispielnachricht an ein bestimmtes Gerät senden.
 
-1. Füllen Sie die Felder **Zahl** und **Nachricht** aus und klicken Sie auf **[!UICONTROL Verbindung überprüfen]**.
+1. Füllen Sie die Felder **Anzahl** und **Nachricht** aus und klicken Sie auf **[!UICONTROL Verbindung überprüfen]**.
 
    >[!IMPORTANT]
    >

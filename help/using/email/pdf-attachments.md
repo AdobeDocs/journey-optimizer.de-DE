@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Anhängen einer PDF-Datei an eine E-Mail
-description: Erfahren Sie, wie Sie statische PDF-Dateien an eine E-Mail anhängen
+description: Informationen dazu, wie Sie statische PDF-Dateien an eine E-Mail anhängen
 feature: Email Design
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Beginner
 keywords: E-Mail, Nachricht, Anhang, PDF, Editor
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um eine PDF-Datei an eine E-Mail-Nachricht anzuhängen.
 
 1. Erstellen Sie eine E-Mail in einer Journey oder Kampagne. [Weitere Informationen](create-email.md)
 
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Inhalt]** der Journey oder Kampagne **&#x200B;**&#x200B;Abschnitt **[!UICONTROL Anlage]** aus.
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Inhalt]** der Journey oder Kampagne im Abschnitt **[!UICONTROL Anhang]** die Option **[!UICONTROL Asset hinzufügen]** aus.
 
    ![](assets/email-select-pdf.png)
 
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um eine PDF-Datei an eine E-Mail-Nachricht anzuhängen.
 
    >[!NOTE]
    >
-   >Beim Entwerfen von Nachrichten greifen Sie direkt über die Journey Optimizer-Benutzeroberfläche auf das Assets Essentials-Repository zu. Weitere Informationen zur Benutzeroberfläche von Embedded [!DNL Assets Essentials] finden Sie in der [Dokumentation zu Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target="_blank"}.
+   >Beim Entwerfen von Nachrichten greifen Sie über die Journey Optimizer-Benutzeroberfläche direkt auf das Assets Essentials-Repository zu. Weitere Informationen zur eingebetteten [!DNL Assets Essentials]-Benutzeroberfläche finden Sie in der [Dokumentation zu Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target="_blank"}.
 
 1. Verwenden Sie den **[!UICONTROL PDF]**-Filter im Abschnitt **[!UICONTROL MIME-Typ]**, um die Auswahl auf das richtige Dateiformat zu beschränken.
 
@@ -66,10 +66,10 @@ Gehen Sie wie folgt vor, um eine PDF-Datei an eine E-Mail-Nachricht anzuhängen.
 
 1. Anschließend werden Name und Größe der ausgewählten Datei im Abschnitt **[!UICONTROL Anlage]** angezeigt.
 
-   Sie können die ausgewählte Datei mithilfe des Symbols Mehr Aktionen neben dem Dateinamen entfernen.
+   Sie können die ausgewählte Datei mithilfe des Symbols „Weitere Aktionen“ neben dem Dateinamen entfernen.
 
    ![](assets/email-remove-attachment.png)
 
 >[!NOTE]
 >
->Wenn Sie Ihre Nachricht als [Inhaltsvorlage](../content-management/create-content-templates.md) speichern, wird der PDF-Anhang nicht in der Vorlage beibehalten. Wenn Sie eine neue E-Mail aus der gespeicherten Inhaltsvorlage erstellen, müssen Sie die Datei erneut anhängen.
+>Wenn Sie Ihre Nachricht als [Inhaltsvorlage](../content-management/create-content-templates.md) speichern, wird der PDF-Anhang nicht in der Vorlage beibehalten. Wenn Sie eine neue E-Mail aus der gespeicherten Inhaltsvorlage erstellen, müssen Sie also die Datei erneut anhängen.

@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -40,9 +40,9 @@ Um Twilio mit Journey Optimizer zu konfigurieren, müssen Sie neue API-Anmeldeda
 
 1. Um vorhandene Anmeldedaten zu ändern, suchen Sie die gewünschten API-Anmeldedaten und klicken Sie auf die Option **[!UICONTROL Bearbeiten]**, um die erforderlichen Änderungen vorzunehmen.
 
-1. Klicken Sie auf **[!UICONTROL SMS-Verbindung überprüfen]**, um Ihre SMS-API-Anmeldeinformationen über eine Beispielnachricht an ein bestimmtes Gerät zu testen und zu überprüfen.
+1. Klicken Sie anhand Ihrer bestehenden API-Anmeldedaten auf **[!UICONTROL SMS-Verbindung überprüfen]**, um Ihre SMS-API-Anmeldedaten zu testen und zu überprüfen, indem Sie eine Beispielnachricht an ein bestimmtes Gerät senden.
 
-1. Füllen Sie die Felder **Zahl** und **Nachricht** aus und klicken Sie auf **[!UICONTROL Verbindung überprüfen]**.
+1. Füllen Sie die Felder **Anzahl** und **Nachricht** aus und klicken Sie auf **[!UICONTROL Verbindung überprüfen]**.
 
    >[!IMPORTANT]
    >

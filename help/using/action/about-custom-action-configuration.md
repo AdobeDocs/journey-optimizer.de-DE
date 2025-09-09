@@ -10,9 +10,9 @@ level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1749'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Benutzerdefinierte Aktionen unterstützen das JSON-Format nur bei Verwendung von
 
 >[!NOTE]
 >
->Wenn ein Endpunkt eine Antwortzeit von mehr als 0,75 Sekunden hat, werden seine benutzerdefinierten Aktionsaufrufe über einen dedizierten [Service für benutzerdefinierte Aktionen](../configuration/external-systems.md#response-time) anstelle des Standardservices weitergeleitet.
+>Wenn ein Endpunkt eine Antwortzeit von mehr als 0,75 Sekunden hat, werden seine benutzerdefinierten Aktionsaufrufe über einen dedizierten, langsamen [Service für benutzerdefinierte Aktionen](../configuration/external-systems.md#response-time) anstelle des Standard-Service weitergeleitet.
 
 
 ## Best Practices{#custom-action-enhancements-best-practices}
@@ -122,7 +122,7 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
    >
    > Die Methode **DELETE** wird nicht unterstützt. Wenn Sie eine vorhandene Ressource aktualisieren müssen, wählen Sie die Methode **PUT**.
 
-1. Verarbeiten Sie potenzielle Weiterleitungen (302 Antworten). **Benutzerdefinierte Aktionen** folgen HTTP 302-Weiterleitungen automatisch auf Anfrage.
+1. Verarbeiten Sie potenzielle Weiterleitungen (302 Antworten). **Benutzerdefinierte Aktionen** folgen automatisch HTTP 302-Weiterleitungen auf Basis einzelner Anfragen.
 
 1. Definieren Sie die Header und Abfrageparameter:
 

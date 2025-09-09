@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1081'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,9 +86,9 @@ Gehen Sie wie folgt vor, um in Journey Optimizer SMS- und RCS-Nachrichten mit ei
 
    ![](assets/sms_byo_4.png)
 
-1. Klicken Sie auf **[!UICONTROL SMS-Verbindung überprüfen]**, um Ihre SMS-API-Anmeldeinformationen über eine Beispielnachricht an ein bestimmtes Gerät zu testen und zu überprüfen.
+1. Klicken Sie anhand Ihrer bestehenden API-Anmeldedaten auf **[!UICONTROL SMS-Verbindung überprüfen]**, um Ihre SMS-API-Anmeldedaten zu testen und zu überprüfen, indem Sie eine Beispielnachricht an ein bestimmtes Gerät senden.
 
-1. Füllen Sie die Felder **Zahl** und **Nachricht** aus und klicken Sie auf **[!UICONTROL Verbindung überprüfen]**.
+1. Füllen Sie die Felder **Anzahl** und **Nachricht** aus und klicken Sie auf **[!UICONTROL Verbindung überprüfen]**.
 
    >[!IMPORTANT]
    >

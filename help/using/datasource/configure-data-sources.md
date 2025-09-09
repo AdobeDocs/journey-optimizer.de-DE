@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Daten, Quelle, Konfiguration, Feld
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
 source-git-commit: 521b643dfea095c2e9499db60038dc7202fc8648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Die Anzahl der Journeys, die eine Feldergruppe verwendet, wird im Feld **[!UICON
 
 Sie können Felder zu einer Feldergruppe hinzufügen oder daraus entfernen, die in keiner Entwurfs- oder Live-Journey verwendet wird.
 
-Wenn die Feldergruppe in einem oder mehreren Entwurfs- oder Live-Journey verwendet wird, können Sie inkrementell neue Felder aus dem ausgewählten Schema hinzufügen, aber nicht die Auswahl bereits ausgewählter Felder aufheben/entfernen/ändern. Aktualisierungen einer Feldergruppe sind nicht zulässig, wenn vorhandene Schemafelder, die bereits von Entwurfs- oder Live-Journey verwendet werden, geändert werden - z. B. durch Ändern des Datentyps eines Felds. Dadurch wird verhindert, dass Journey zerstört werden
+Wenn die Feldergruppe in einer oder mehreren Entwurfs- oder Live-Journeys verwendet wird, können Sie inkrementell neue Felder aus dem ausgewählten Schema hinzufügen, aber nicht die Auswahl bereits ausgewählter Felder aufheben/entfernen/ändern. Aktualisierungen einer Feldergruppe sind nicht zulässig, wenn vorhandene Schemafelder, die bereits von Entwurfs- oder Live-Journeys verwendet werden, geändert werden, etwa durch Ändern des Datentyps eines Felds. Dadurch wird verhindert, dass Journeys unterbrochen werden.
 
 Gehen Sie wie folgt vor, um ein Feld aus einer Feldergruppe zu löschen, die für eine oder mehrere Journeys verwendet wird. Verwenden wir als Beispiel eine Feldergruppe namens „Feldergruppe A“.
 

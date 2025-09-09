@@ -8,9 +8,9 @@ role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1367'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,4 +101,4 @@ Wenn wir z. B. die Performance einer TS-Strategie (Thompson-Stichprobenverfahre
 
 >[!NOTE]
 >
->Derzeit ist der Bericht „Aufstiegsmessung“ nur für das KI-Modell [Personalisierte Optimierung](personalized-optimization-model.md) verfügbar. [Weitere Informationen zum Reporting über Entscheidungen](../../reports/campaign-global-report-cja-code.md#decisioning-reporting)
+>Derzeit ist der Bericht zur Steigerungsmessung nur für das KI-Modell zur [personalisierten Optimierung](personalized-optimization-model.md) verfügbar. [Weitere Informationen über Berichte zur Entscheidungsfindung](../../reports/campaign-global-report-cja-code.md#decisioning-reporting)

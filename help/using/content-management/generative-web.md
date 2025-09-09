@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
 source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 >[!IMPORTANT]
 >
 >Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Leitlinien und Einschränkungen](gs-generative.md#generative-guardrails).
->&#x200B;></br>
+>></br>
 >
 >Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, damit Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
@@ -55,7 +55,7 @@ Der KI-Assistent in Journey Optimizer kann Ihnen dabei helfen, die Wirkung Ihrer
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
-   * **[!UICONTROL Languages]**: Wählen Sie die Sprache Ihrer erzeugten Inhalte.
+   * **[!UICONTROL Sprachen]**: Wählen Sie die Sprache Ihrer generierten Inhalte.
    * **[!UICONTROL Ton]**: Der Ton der Web-Seite sollte bei Ihrer Zielgruppe ankommen. Ob Sie nun informativ, humorvoll oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
    * **Textlänge**: Wählen Sie mit dem Schieberegler die gewünschte Länge des Textes aus.
 

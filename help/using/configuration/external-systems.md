@@ -9,9 +9,9 @@ level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1615'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -78,9 +78,9 @@ Für **benutzerdefinierte Aktionen** müssen Sie die Kapazität Ihrer externen A
 
 ## Endpunkte mit langsamer Reaktionszeit {#response-time}
 
-Wenn ein Endpunkt eine Antwortzeit von mehr als 0,75 Sekunden hat, werden seine benutzerdefinierten Aktionsaufrufe über einen dedizierten **langsamen benutzerdefinierten Aktionsdienst** anstelle des Standarddienstes weitergeleitet.
+Wenn ein Endpunkt eine Antwortzeit von mehr als 0,75 Sekunden hat, werden seine benutzerdefinierten Aktionsaufrufe über einen dedizierten **langsamen Service für benutzerdefinierte Aktionen** anstelle des Standard-Service weitergeleitet.
 
-Dieser Service für langsame benutzerdefinierte Aktionen wendet eine Begrenzung von 150.000 Aufrufen alle 30 Sekunden an. Die Beschränkung wird mithilfe eines Schiebefensters erzwungen, das innerhalb dieses 30-Sekunden-Zeitraums um eine beliebige Millisekunde beginnen kann. Sobald das Fenster voll ist, werden zusätzliche Aufrufe mit Begrenzungsfehlern abgelehnt. Das System wartet nicht auf das nächste feste Intervall, sondern beginnt mit der Begrenzung sofort nach Erreichen des 30-Sekunden-Schwellenwerts.
+Dieser langsame Service für benutzerdefinierte Aktionen wendet eine Begrenzung auf 150.000 Aufrufe alle 30 Sekunden an. Die Beschränkung wird mithilfe eines gleitenden Fensters durchgesetzt, das zu einer beliebigen Millisekunde innerhalb dieses 30-Sekunden-Zeitraums beginnen kann. Sobald das Fenster voll ist, werden zusätzliche Aufrufe mit Begrenzungsfehlern abgelehnt. Das System wartet nicht auf das nächste feste Intervall, sondern beginnt mit dem Begrenzen sofort nach Erreichen des 30-Sekunden-Schwellenwerts.
 
 Da langsame Endpunkte zu Verzögerungen bei allen Aktionen in der Warteschlange in der Pipeline führen können, wird empfohlen, benutzerdefinierte Aktionen nicht mit Endpunkten zu konfigurieren, die langsame Antwortzeiten aufweisen. Das Routing solcher Aktionen zum langsamen Service trägt zum Schutz der gesamten Systemleistung bei und verhindert zusätzliche Latenzen für andere benutzerdefinierte Aktionen.
 
@@ -124,9 +124,9 @@ Sie können in jeder Journey eine Zeitüberschreitungsdauer festlegen. Die Zeit�
 
 Wenn der IP-Proxy aktiviert ist und eine Drosselungskonfiguration für den Zielendpunkt definiert ist, basiert die Anzahl der Verbindungen auf der Rate (dies sind Schätzungen, keine garantierten Zahlen):
 
-* Zwischen 200 und 2000 C/s: 50 Anschlüsse
-* zwischen 2000 und 3000: 75 Anschlüsse
-* zwischen 3000 und 4000: 100 Anschlüsse
-* zwischen 4000 und 5000: 125 Anschlüsse
+* zwischen 200 und 2.000 V/s: 50 Verbindungen
+* zwischen 2.000 und 3.000: 75 Verbindungen
+* zwischen 3.000 und 4.000: 100 Verbindungen
+* zwischen 4.000 und 5.000: 125 Verbindungen
 
-Wenn für einen Endpunkt keine Drosselungskonfiguration definiert ist, ist die Journey Optimizer-Engine so konzipiert, dass sie hochskaliert wird und eine hohe Anzahl von Verbindungen (über 2.000) erreichen kann. Um eine begrenzte Anzahl von Verbindungen zu erhalten, müssen Kunden eine Drosselungskonfiguration verwenden.
+Wenn für einen Endpunkt keine Drosselungskonfiguration definiert ist, ist die Journey Optimizer-Engine so konzipiert, dass sie hochskaliert wird und eine hohe Anzahl von Verbindungen (über 2.000) erreichen kann. Um eine begrenzte Anzahl von Verbindungen zu erhalten, müssen Kundinnen und Kunden eine Drosselungskonfiguration verwenden.

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
 source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -23,25 +23,25 @@ Sobald Ihr Inhalt definiert und personalisiert ist, können Sie ihn überprüfen
 
 ![](assets/content-card-image.png)
 
-Wählen Sie **[!UICONTROL Abschnitt „Layout]** Inhaltskarte“ eine der drei Optionen für das Bild-Layout aus, die Ihren Messaging-Anforderungen entsprechen.
+Wählen Sie im Abschnitt **[!UICONTROL Inhaltskarten-Layout]** eine der drei Optionen für das Bild-Layout aus, je nach Ihren Messaging-Anforderungen.
 
 * **[!UICONTROL Kleines Bild]**: Zeigt ein kompaktes Bild zusammen mit Text an, ideal für Nachrichten, bei denen Inhalt Vorrang vor Visualisierungen hat.
 
-  Weitere Informationen finden Sie in [ Dokumentation zu Adobe Developer iOS ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/)für [für Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/).
+  Weitere Informationen finden Sie in der Adobe-Entwicklerdokumentation [für iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) und [für Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/).
 
 * **[!UICONTROL Großes Bild]**: Ein hervorgehobenes Bild über oder neben dem Text, wodurch der visuelle Aspekt zum Hauptfokus Ihrer Nachricht wird.
 
-  Weitere Informationen finden Sie in [ Dokumentation zu Adobe Developer iOS ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/)für [für Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/).
+  Weitere Informationen finden Sie in der Adobe-Entwicklerdokumentation [für iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) und [für Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/).
 
 * **[!UICONTROL Nur Bild]**: Zeigt das Bild ohne begleitenden Text an, perfekt für visuell gesteuerte Nachrichten oder eigenständige Bilder.
 
-  Weitere Informationen finden Sie in [ Dokumentation zu Adobe Developer iOS ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/)für [für Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/).
+  Weitere Informationen finden Sie in der Adobe-Entwicklerdokumentation [für iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) und [für Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/).
 
 ## Registerkarte „Inhalt“ {#content-tab}
 
 Auf der Registerkarte **[!UICONTROL Inhalt]** können Sie Ihre Inhaltskarten anpassen, indem Sie Inhalte definieren und Medien- und Aktionsschaltflächen direkt auf dieser Registerkarte hinzufügen.
 
-### Textinhalt {#title-body}
+### Textinhalte {#title-body}
 
 ![](assets/content-card-design-2.png)
 
@@ -57,9 +57,9 @@ Im Feld **[!UICONTROL Medien]** können Sie Ihre Inhaltskarten durch Hinzufügen
 
 Um Medien einzubinden, geben Sie entweder die URL der gewünschten Medien ein oder klicken Sie auf das Symbol **[!UICONTROL Assets auswählen]**, um aus den in Ihrer Assets-Bibliothek gespeicherten Assets auszuwählen. [Weitere Informationen über Asset-Management.](../integrations/assets.md)
 
-+++Weitere Optionen mit erweiterter Formatierung
++++Mehr Optionen mit erweiterter Formatierung
 
-Wenn der **[!UICONTROL Modus Erweiterte Formatierung]** eingeschaltet ist, können Sie einen **[!UICONTROL Alternativtext]** für Bildschirmlesehilfen und ein anderes Asset in das Feld **[!UICONTROL URL für dunkle Medien]** einfügen.
+Wenn der **[!UICONTROL Modus „Erweiterte Formatierung“]** eingeschaltet ist, können Sie einen **[!UICONTROL Alternativtext]** für Bildschirmlesehilfen und ein anderes Asset in das Feld **[!UICONTROL Medien-URL für dunklen Modus]** einfügen.
 
 +++
 
@@ -90,11 +90,11 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 +++
 -->
 
-### Schaltfläche verwerfen {#close-button}
+### Schaltfläche „Verwerfen“ {#close-button}
 
 ![](assets/content-card-design-1.png)
 
-Wählen Sie den **[!UICONTROL Stil]** für Ihre Schaltfläche **[!UICONTROL Verwerfen]**, um ihr Erscheinungsbild anzupassen.
+Wählen Sie den **[!UICONTROL Stil]** für Ihre **[!UICONTROL Schaltfläche „Verwerfen“]**, um deren Erscheinungsbild anzupassen.
 
 Sie können aus den folgenden Optionen auswählen:
 

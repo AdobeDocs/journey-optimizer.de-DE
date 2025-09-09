@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
 source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1650'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene Landingp
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
-   * **[!UICONTROL Languages]**: Wählen Sie die Sprache Ihrer erzeugten Inhalte.
+   * **[!UICONTROL Sprachen]**: Wählen Sie die Sprache Ihrer generierten Inhalte.
    * **[!UICONTROL Ton]**: Der Ton Ihrer Landingpage sollte bei Ihrer Zielgruppe ankommen. Ob Sie nun informativ, humorvoll oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
 
    ![](assets/lp-full-gen-3.png){zoomable="yes"}
@@ -127,7 +127,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer Landi
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
-   * **[!UICONTROL Languages]**: Wählen Sie die Sprache Ihrer erzeugten Inhalte.
+   * **[!UICONTROL Sprachen]**: Wählen Sie die Sprache Ihrer generierten Inhalte.
    * **[!UICONTROL Ton]**: Der Ton Ihrer Landingpage sollte bei Ihrer Zielgruppe ankommen. Ob Sie nun informativ, humorvoll oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
    * **Textlänge**: Wählen Sie mit dem Schieberegler die gewünschte Länge des Textes aus.
 
