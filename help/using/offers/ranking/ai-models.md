@@ -8,10 +8,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: c79b860d4220b3125bbee2240e047552a04fe118
+source-git-commit: 58a5737a1eb56ab88aa71ba0a740dd51258e5248
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ So können Sie beispielsweise ein KI-Modell für den E-Mail-Kanal und ein andere
 >[!IMPORTANT]
 >
 >Derzeit werden KI-Modelle in von Journey Optimizer erstellten Kanälen nicht unterstützt.
+
+➡️ [Funktion im Video kennenlernen](#video)
 
 ## KI-Modelltypen {#ai-model-types}
 
@@ -56,3 +58,9 @@ Die wichtigsten Schritte zum Erstellen und Verwenden von KI-Modellen sind:
    >KI-Modelle erfordern, dass Feedback-Ereignisse als Erlebnisereignisse gesendet werden, damit sie erfasst werden können. [Weitere Informationen zur Datenerfassung beim Entscheidungs-Management](../data-collection/data-collection.md)
 
 1. Weisen Sie das KI-Modell einer Platzierung in einer Entscheidung zu, um eine Rangliste der geeigneten Angebote zu erstellen. [Weitere Informationen](../offer-activities/configure-offer-selection.md)
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie ein KI-Modell für Offer Decisioning erstellen und wie es auf eine Entscheidung angewendet wird.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
