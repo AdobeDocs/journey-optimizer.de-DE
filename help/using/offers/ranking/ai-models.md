@@ -63,4 +63,4 @@ Die wichtigsten Schritte zum Erstellen und Verwenden von KI-Modellen sind:
 
 Erfahren Sie, wie Sie ein KI-Modell für Offer Decisioning erstellen und wie es auf eine Entscheidung angewendet wird.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445653?quality=12&captions=ger)
