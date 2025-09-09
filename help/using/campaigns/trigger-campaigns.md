@@ -9,16 +9,25 @@ role: User
 level: Intermediate
 keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+source-git-commit: 1d3638499a9e8261a5f1b09744b82642198a5d5d
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 65%
 
 ---
+
 
 # Ausführen einer Kampagne, die durch API ausgelöst wird {#execute}
 
 Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-Anfrage abrufen und im API verwenden, um Ihre Payload zu erstellen und die Kampagne auszulösen.
+
+## Wichtige Informationen {#must-read}
+
+* **Start-/Enddatum der Kampagne** - Wenn Sie bei der Erstellung der Kampagne ein bestimmtes Start- und/oder Enddatum konfiguriert haben, wird sie außerhalb dieses Zeitraums nicht ausgeführt und API-Aufrufe schlagen fehl.
+
+* **Aufrufzeitüberschreitung** - Der Aufruf der REST-API zur Ausführung interaktiver Nachrichten hat eine Zeitüberschreitung von 60 Sekunden. Im Falle unerwarteter Zeitüberschreitungen sind jedoch interne erneute Zustellversuche vorhanden, um den Versand zu gewährleisten.
+
+## Trigger der Kampagne {#trigger}
 
 1. Öffnen Sie die Kampagne, kopieren Sie dann die Payload-Anfrage aus dem Abschnitt **[!UICONTROL cURL-Anfrage]** und fügen Sie diese ein. Diese Payload enthält nun alle Personalisierungsvariablen (Profil und Kontext), die in der Nachricht verwendet werden. Sie ist verfügbar, sobald die Kampagne aktiv ist.
 
@@ -26,9 +35,4 @@ Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-
 
 1. Verwenden Sie diese cURL-Anfrage in den APIs, um Ihre Payload zu erstellen und die Kampagne auszulösen. Weitere Informationen finden Sie in der [Dokumentation zur API für die Ausführung interaktiver Nachrichten](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
-
    Beispiele für API-Aufrufe finden Sie auch auf [dieser Seite](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
-
-   >[!NOTE]
-   >
-   >Beachten Sie, dass, wenn Sie bei der Erstellung der Kampagne ein bestimmtes Start- und/oder Enddatum konfiguriert haben, die Kampagne außerhalb dieses Zeitraums nicht ausgeführt wird und API-Aufrufe fehlschlagen.
