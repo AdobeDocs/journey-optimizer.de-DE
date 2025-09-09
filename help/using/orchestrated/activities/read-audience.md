@@ -8,12 +8,12 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
-# Lesen der Zielgruppe {#read-audience}
+# Zielgruppe lesen {#read-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
@@ -24,13 +24,13 @@ Mit der Aktivität **[!UICONTROL Zielgruppe lesen]** können Sie eine vorhandene
 
 Nachdem die Zielgruppe geladen wurde, können Sie sie optional verfeinern, indem Sie ein Feld für eine eindeutige Identität auswählen und die Zielgruppe mit zusätzlichen Profilattributen für Targeting-, Personalisierungs- oder Berichtszwecke anreichern.
 
-## Zielgruppen-Cache lesen {#cache}
+## Cache für „Zielgruppe lesen“ {#cache}
 
-Beim Testen einer orchestrierten Kampagne dauert die Aktivität **[!UICONTROL Zielgruppe lesen]** normalerweise einige Zeit, um Daten abzurufen, was dazu führen kann, dass Testläufe länger dauern. Um dies zu beschleunigen, ist ein **[!UICONTROL Zielgruppe lesen]**-Cache verfügbar.
+Beim Testen einer orchestrierten Kampagne dauert das Abrufen von Daten durch die Aktivität **[!UICONTROL Zielgruppe lesen]** normalerweise einige Zeit, was dazu führen kann, dass Testläufe länger dauern. Um dies zu beschleunigen, ist ein Cache für **[!UICONTROL Zielgruppe lesen]** verfügbar.
 
-Der Cache speichert die Zielgruppe zusammen mit den ausgewählten Attributen für **bis zu zwei Stunden**. Während dieser Zeit können alle nachfolgenden Testausführungen die zwischengespeicherten Ergebnisse verwenden, sodass die Daten nicht erneut abgerufen werden müssen. Nach Ablauf des **Zweistundenzeitraums** müssen die Daten neu abgerufen werden.
+Der Cache speichert die Zielgruppe zusammen mit den ausgewählten Attributen für **bis zu zwei Stunden**. Während dieser Zeit können alle nachfolgenden Testausführungen die zwischengespeicherten Ergebnisse verwenden, sodass die Daten nicht erneut abgerufen werden müssen. Nach Ablauf des **zweistündigen Zeitraums** müssen die Daten neu abgerufen werden.
 
-Der Cache wird für jede orchestrierte Kampagne gespeichert, nicht für die Audience selbst. Wenn dieselbe Zielgruppe in einer Aktivität **[!UICONTROL Zielgruppe lesen]** innerhalb einer anderen orchestrierten Kampagne verwendet wird, muss das System die Daten dennoch erneut abrufen.
+Der Cache wird für jede orchestrierte Kampagne gespeichert, nicht für die Zielgruppe selbst. Wenn dieselbe Zielgruppe in einer Aktivität **[!UICONTROL Zielgruppe lesen]** innerhalb einer anderen orchestrierten Kampagne verwendet wird, muss das System die Daten dennoch erneut abrufen.
 
 Der Cache wird in den folgenden Fällen nicht beibehalten:
 

@@ -11,7 +11,7 @@ exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -123,9 +123,9 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 
 1. Passen Sie den Inhalt an, indem Sie Ihre gewünschte Anfrage in das Feld **[!UICONTROL Prompt]** auf Französisch, Spanisch, Deutsch, Italienisch, Japanisch, Schwedisch, Niederländisch oder Norwegisch eingeben.
 
-1. Passen Sie Ihre Eingabeaufforderung mit der Option **[!UICONTROL Texteinstellungen]** an und wählen Sie die gewünschten **[!UICONTROL Sprachen]** für Ihren generierten Inhalt aus.
+1. Passen Sie Ihren Prompt mit der Option **[!UICONTROL Texteinstellungen]** an und wählen Sie die gewünschten **[!UICONTROL Sprachen]** für Ihren generierten Inhalt aus.
 
-1. Personalisieren Sie Ihre Eingabeaufforderung nach Bedarf weiter und klicken Sie auf **[!UICONTROL Generieren]**.
+1. Personalisieren Sie Ihren Prompt nach Bedarf weiter und klicken Sie auf **[!UICONTROL Generieren]**.
 
 1. Überprüfen Sie die **[!UICONTROL Variantenvorschläge]** in Ihrer ausgewählten Sprache.
 

@@ -29,7 +29,7 @@ In Situationen, in denen Ihre Kundschaft für viele Journeys, Kampagnen oder Mit
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Priorität"
->abstract="Weisen Sie der Journey eine Prioritätsbewertung zu. Die Priorität ist von wesentlicher Bedeutung, um eine Journey zu priorisieren, wenn eine erzwungene Begrenzung vorliegt, z. B. eine Frequenzbegrenzung.</br>Geben Sie einen numerischen Wert ein (0–100). Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. Wenn zwei Kampagnen die gleiche Prioritätsbewertung haben, wird die Journey angezeigt, die zuerst aktiviert wurde."
+>abstract="Weisen Sie der Journey eine Prioritätsbewertung zu. Die Priorität ist von wesentlicher Bedeutung, um eine Journey zu priorisieren, wenn eine erzwungene Begrenzung vorliegt, z. B. eine Häufigkeitsbegrenzung.</br>Geben Sie einen numerischen Wert ein (0–100). Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. Wenn zwei Kampagnen die gleiche Prioritätsbewertung haben, wird die Journey angezeigt, die zuerst aktiviert wurde."
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -54,7 +54,7 @@ Wenn Sie diese Kampagne erstellen und sicherstellen möchten, dass der Inhalt di
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
 >title="Priorität"
->abstract="Weisen Sie der Journey-Aktion eine Prioritätsbewertung zu. Die Priorität ist von wesentlicher Bedeutung, um eine eingehende Aktion zu priorisieren, wenn mehrere Journey-Aktionen oder -Kampagnen dieselbe Kanalkonfiguration verwenden.</br>Geben Sie einen numerischen Wert ein (0–100). Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. Standardmäßig wird der Prioritätswert für die Aktion vom Gesamtprioritätswert für die Journey übernommen."
+>abstract="Weisen Sie der Journey-Aktion eine Prioritätsbewertung zu. Die Priorität ist von wesentlicher Bedeutung, um eine eingehende Aktion zu priorisieren, wenn mehrere Journey-Aktionen oder Kampagnen dieselbe Kanalkonfiguration verwenden.</br>Geben Sie einen numerischen Wert ein (0–100). Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. Standardmäßig wird der Prioritätswert für die Aktion vom Gesamtprioritätswert für die Journey übernommen."
 
 Journey Optimizer ermöglicht es Ihnen auch, den eingehenden Kanalaktionen innerhalb der Aktivität **[!UICONTROL Aktion“ einen]** zuzuweisen.
 
@@ -72,4 +72,4 @@ Um den eingehenden Aktionen, die in der Aktivität **[!UICONTROL Action]** defin
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445010?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

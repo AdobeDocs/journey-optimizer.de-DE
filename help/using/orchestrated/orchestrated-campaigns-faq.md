@@ -10,7 +10,7 @@ exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
 source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 7%
+ht-degree: 23%
 
 ---
 
@@ -24,7 +24,7 @@ Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf d
 
 Die Kampagnenorchestrierung ist eine Funktion von Journey Optimizer, die ein- oder mehrstufige Workflows unterstützt, welche den relationalen Datenspeicher nutzen, um Zielgruppen für die Batch-Interaktion zu erstellen und zu segmentieren.
 
-Damit steht Journey Optimizer ein neuer Kampagnentyp zur Verfügung: **Orchestrierte Kampagnen**. Mit orchestrierten Kampagnen können Marken komplexe, direkte Marketing-Kampagnen im benötigten Umfang durchführen. Sie sind für markeninitiierte Interaktionen konzipiert, z. B. für Werbeaktionen, saisonale Kampagnen oder Account-basierte Kommunikation.
+Damit steht Journey Optimizer ein neuer Kampagnentyp zur Verfügung: **Orchestrierte Kampagnen**. Mit orchestrierten Kampagnen können Marken komplexe, direkte Marketing-Kampagnen im benötigten Umfang durchführen. Sie sind für markenbezogene Interaktionen konzipiert, z. B. für Werbeaktionen, saisonale Kampagnen oder kontobasierte Kommunikation.
 
 Verglichen mit Einzelversand-/Aktionskampagnen ermöglichen sie **Orchestrierung und Sequenzierung** ausgehendem Marketing: Zielgruppen durchlaufen einen mehrstufigen Workflow gemeinsam, anstatt einen einmaligen Schuss zu erhalten.
 
@@ -32,10 +32,10 @@ Verglichen mit Einzelversand-/Aktionskampagnen ermöglichen sie **Orchestrierung
 
 Die wichtigsten Funktionen ermöglichen Folgendes:
 
-* **On-Demand-Zielgruppen**: Zielgruppen mithilfe von relationalen Abfragen sofort erstellen und verfeinern.
-* **Segmentierung mehrerer Entitäten**: Erstellen Sie präzise Zielgruppen, indem Sie Kundendaten mit verwandten Entitäten (z. B. Konten, Käufen, Buchungen) verbinden.
-* **Sichtbarkeit vor dem Versand**: Zur Optimierung der Zielgruppenbestimmung ist die genaue Anzahl der Zielgruppen vor dem Start anzuzeigen.
-* **Mehrstufige Workflows**: Führen Sie sequenzielle Kampagnen wie saisonale Werbeaktionen, Produkteinführungen oder Treueangebote aus.
+* **On-Demand-Zielgruppen**: Sofortiges Erstellen und Verfeinern von Zielgruppen mithilfe von relationalen Abfragen.
+* **Segmentierung für mehrere Entitäten**: Erstellen präziser Zielgruppen durch die Verknüpfung von Kundendaten mit zugehörigen Entitäten (z. B. Konten, Käufe, Buchungen).
+* **Sichtbarkeit vor dem Versand**: Anzeigen der genauen Zielgruppenzahlen vor dem Start, um das Targeting zu optimieren.
+* **Mehrstufige Workflows**: Durchführung von sequenziellen Kampagnen wie saisonalen Werbeaktionen, Produkteinführungen oder Treueangeboten.
 
 >[!BEGINSHADEBOX]
 
@@ -72,7 +72,7 @@ Sie können orchestrierte Kampagnen erstellen, um (E **Mails**, **SMS** und **Pu
 ## Wie unterscheiden sich orchestrierte Kampagnen von Journey? {#oc-vs-journeys}
 
 * **Orchestrierte Kampagnen**: Optimiert für **Batch-, Eins-zu-Viele-**-Kampagnen. Zielgruppen werden in großen Mengen nach einem Zeitplan ausgeführt.
-* **Journey**: Am besten geeignet für **Echtzeit-, Eins-zu-eins-**-Interaktion. Jeder Kunde bewegt sich in seinem eigenen Tempo durch die Journey, ausgelöst durch Verhalten oder Ereignisse.
+* **Journeys**: Am besten geeignet für **Echtzeit-1:1-Interaktion**. Jede Person durchläuft die Customer Journey in ihrem eigenen Tempo, ausgelöst durch ihr Verhalten oder bestimmte Ereignisse.
 
 >[!BEGINSHADEBOX]
 
@@ -108,7 +108,7 @@ Kampagnen verwenden eine **relationale Datenbank**. Auf diese Weise können Sie 
 
 ## Kann ich Nachrichten mit diesen Daten personalisieren? {#personalization}
 
-Ja. In Campaign Orchestration kann ein als „Personenentität“ bekanntes Empfängerprofil aktualisiert werden und diese Daten können für die Personalisierung verwendet werden. Darüber hinaus können angereicherte Daten aus verknüpften Entitäten in der relationalen Datenbank auch für die Personalisierung verwendet werden. Sie können Kundenprofile zusammen mit verknüpften Daten (wie Käufen oder Abonnements) verwenden, um Inhalte über alle unterstützten Kanäle hinweg zu personalisieren.
+Ja. In Campaign Orchestration kann ein als „Personenentität“ bekanntes Empfängerprofil aktualisiert werden und diese Daten können für die Personalisierung verwendet werden. Darüber hinaus können angereicherte Daten aus verknüpften Entitäten in der relationalen Datenbank auch für die Personalisierung verwendet werden. Sie können Kundenprofile zusammen mit verknüpften Daten (wie etwa Käufen oder Abonnements) verwenden, um Inhalte über alle unterstützten Kanäle hinweg zu personalisieren.
 
 >[!BEGINSHADEBOX]
 
@@ -127,7 +127,7 @@ Ja. Die Kampagnenorchestrierung ist nativ mit integriert:
 
 * **Customer Journey Analytics**: Berichte zur Kampagnenorchestrierung sind verfügbar.
 * **Real-Time CDP**: In Campaign integrierte Audiences können in Real-Time CDP gelesen werden.
-* **Federated Audience Composition (FAC)**: als Add-on verfügbar.
+* **Komposition föderierter Zielgruppen (FAC)**: als Add-on verfügbar.
 
 ## Was ist mit Berechtigungen und Einverständnis? {#permissions}
 

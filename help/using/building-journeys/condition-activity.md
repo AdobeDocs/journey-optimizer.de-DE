@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aktivität „Bedingung“
+title: Aktivität des Typs „Bedingung“
 description: Erfahren Sie mehr über Bedingungsaktivitäten
 feature: Journeys, Activities
 topic: Content Management
@@ -13,17 +13,17 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1542'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Aktivität „Bedingung“ {#condition-activity}
+# Aktivität des Typs „Bedingung“ {#condition-activity}
 
 ## Hinzufügen einer Aktivität „Bedingung“ {#add-condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
->title="Aktivität „Bedingung“"
+>title="Aktivität des Typs „Bedingung“"
 >abstract="Mit der Aktivität **Bedingung** können Sie festlegen, wie Kontakte Ihre Journey durchlaufen, indem Sie mehrere Pfade auf Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen."
 
 Mit der Aktivität **Bedingung** können Sie festlegen, wie Kontakte Ihre Journey durchlaufen, indem Sie mehrere Pfade auf Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen.
@@ -32,7 +32,7 @@ Mit der Aktivität **Bedingung** können Sie festlegen, wie Kontakte Ihre Journe
 
 Folgende Bedingungstypen sind verfügbar:
 
-* [Bedingung der Datenquelle](#data_source_condition)
+* [Datenquellenbedingung](#data_source_condition)
 * [Bedingung für die Uhrzeit](#time_condition)
 * [Prozentuale Aufspaltung](#percentage_split)
 * [Bedingung für das Datum](#date_condition)
@@ -64,7 +64,7 @@ Sie können einen anderen Pfad für Zielgruppen erstellen, für die die definier
 Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Feldern durchführen. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Felder per Drag-and-Drop in den Hauptbereich ziehen. Um die verschiedenen Elemente zu kombinieren, diese verschachteln, um Gruppen und/oder Gruppenebenen zu erstellen. Definieren Sie dann einen logischen Operator zwischen Elementen desselben Niveaus:
 
 * UND bildet die Schnittmenge aus zwei Kriterien. Nur Elemente, die allen Kriterien entsprechen, werden berücksichtigt.
-* ODER bildet die Vereinigungsmenge aus zwei Kriterien. Elemente, die wenigstens einem der Kriterien entsprechen, werden berücksichtigt.
+* ODER bildet die Vereinigungsmenge aus zwei Kriterien. Elemente, die mindestens einem der Kriterien entsprechen, werden berücksichtigt.
 
 ![](assets/journey64.png)
 
@@ -81,7 +81,7 @@ Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey 
 
 Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ unter den Kategorien „Ereignis“ und „Datenquelle“. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen.  Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die aufgetretenen Fehler. [Weitere Informationen](expression/journey-properties.md)
 
-## Bedingung der Datenquelle {#data_source_condition}
+## Datenquellenbedingung {#data_source_condition}
 
 Verwenden Sie eine **[!UICONTROL Datenquellenbedingung]**, um eine Definition basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen zu definieren. Dieser Bedingungstyp wird mit dem Ausdruckseditor definiert. In [diesem Abschnitt](expression/expressionadvanced.md) erfahren Sie, wie Sie den Ausdruckseditor verwenden.
 
@@ -91,7 +91,7 @@ Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearb
 
 ![](assets/journey50.png)
 
-## Bedingung für die Uhrzeit {#time_condition}
+## Zeitbedingung {#time_condition}
 
 Verwenden Sie eine **[!UICONTROL Zeitbedingung]**, um je nach Tageszeit und/oder Wochentag unterschiedliche Aktionen durchführen. So können Sie beispielsweise entscheiden, an Werktagen tagsüber Push-Benachrichtigung und nachts E-Mails zu versenden.
 
@@ -99,14 +99,14 @@ Verwenden Sie eine **[!UICONTROL Zeitbedingung]**, um je nach Tageszeit und/oder
 >
 >* Die Zeitzone hängt nicht von einer Bedingung ab und wird auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 >
->* Standardmäßig wird die **[!UICONTROL Bedingung]** von Stunde festgelegt, von 00 :00 12 :00.
+>* Standardmäßig wird die **[!UICONTROL Zeitbedingung]** in Stunden von 00:00 bis 12:00 eingestellt.
 
 ![](assets/journey51.png)
 
 Es stehen drei Zeitfilteroptionen zur Verfügung:
 
 * Stunde: ermöglicht die Einrichtung einer Bedingung basierend auf der Tageszeit. Sie legen dann die Start- und Endzeit fest. Einzelpersonen geben den Pfad nur innerhalb des definierten Stundenbereichs ein.
-* Wochentag: ermöglicht die Einrichtung einer Bedingung basierend auf dem Wochentag. Wählen Sie dann aus, an welchen Tagen die Einzelanwender den Pfad eingeben sollen.
+* Wochentag: ermöglicht die Einrichtung einer Bedingung basierend auf dem Wochentag. Wählen Sie dann aus, an welchen Tagen die Einzelpersonen in den Pfad eintreten sollen.
 * Wochentag und Stunde: Diese Option kombiniert die ersten beiden Optionen.
 
 ## Prozentuale Aufspaltung {#percentage_split}
@@ -164,7 +164,7 @@ In diesem Abschnitt wird erläutert, wie eine Zielgruppe in einer Journey-Beding
 
 Gehen Sie wie folgt vor, um in einer Journey-Bedingung eine Zielgruppe zu verwenden:
 
-1. Öffnen Sie eine Journey, legen Sie eine Aktivität vom Typ **[!UICONTROL Bedingung]** ab und wählen Sie die **Bedingung der Datenquelle**.
+1. Öffnen Sie eine Journey, legen Sie eine Aktivität vom Typ **[!UICONTROL Bedingung]** ab und wählen Sie die **Datenquellenbedingung**.
 
    ![](assets/segment3.png)
 

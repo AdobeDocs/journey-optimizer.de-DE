@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
 workflow-type: tm+mt
 source-wordcount: '2429'
-ht-degree: 82%
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 82%
 >title="Pausieren einer Journey"
 >abstract="Das Pausieren einer Live-Journey verhindert den Eintritt neuer Profile. Es besteht die Wahl, ob Profile, die sich derzeit in der Journey befinden, verworfen oder beibehalten werden sollen. Werden sie beibehalten, setzen sie die Ausführung bei der nächsten Aktionsaktivität fort, sobald die Journey neu gestartet wird. Perfekt für Updates oder Notstopps ohne Fortschrittsverlust."
 
-Sie können Ihre Live-Journeys pausieren, um alle erforderlichen Änderungen vorzunehmen, und danach jederzeit wieder fortsetzen.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Während der Pause können Sie [Beendigungskriterien für Profilattribute anwenden](#journey-exit-criteria) um Profile basierend auf ihren Attributen auszuschließen. Die Journey wird nach Ablauf des Pausierungszeitraums automatisch fortgesetzt. Sie kann auch [manuell fortgesetzt werden](#journey-resume-steps).
+Sie können Ihre Live-Journeys pausieren, um alle erforderlichen Änderungen vorzunehmen, und danach jederzeit wieder fortsetzen.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Während der Pause können Sie [Profilattribut-Ausstiegskriterien anwenden](#journey-exit-criteria), um Profile anhand ihrer Attribute auszuschließen. Die Journey wird nach Ablauf des Pausierungszeitraums automatisch fortgesetzt. Sie kann auch [manuell fortgesetzt werden](#journey-resume-steps).
 
 ## Wichtigste Vorteile {#journey-pause-benefits}
 
@@ -60,15 +60,15 @@ Gehen Sie wie folgt vor, um Ihre Journey zu pausieren:
 
 1. Klicken Sie zur Bestätigung auf die Schaltfläche **Anhalten**.
 
-Die maximale Anzahl von Profilen, die in pausierten Journey für Ihr Unternehmen gespeichert werden können, ist im Journey-Inventar zu sehen. Sie wird nur angezeigt, wenn mindestens eine Journey angehalten wurde. Dieser Indikator zeigt auch die Gesamtzahl der pausierten Journey an. Er wird alle 30 Minuten aktualisiert. Weitere Informationen finden Sie unter [ und Einschränkungen](#guardrails-and-limitations).
+Die maximale Anzahl von Profilen, die in pausierten Journeys für Ihr Unternehmen enthalten sein können, ist im Journey-Inventar zu sehen. Sie wird nur angezeigt, wenn mindestens eine Journey pausiert wurde. Dieser Indikator zeigt auch die Gesamtzahl der pausierten Journeys an. Er wird alle 30 Minuten aktualisiert. Weitere Informationen finden Sie unter [Leitlinien und Einschränkungen](#guardrails-and-limitations).
 
-![Anzahl der angehaltenen Journey und Profile, die derzeit angehalten sind](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+![Anzahl der derzeit angehaltenen Journeys und Profile](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
 
 In der Liste der Journeys können eine oder mehrere **Live**-Journeys pausiert werden. Wählen Sie zum Pausieren einer Gruppe von Journeys (_Massenpause_) die Journeys in der Liste aus und klicken Sie auf die Schaltfläche **Anhalten** in der blauen Leiste am unteren Bildschirmrand. Die Schaltfläche **Anhalten** ist nur verfügbar, wenn **Live**-Journeys ausgewählt sind.
 
 ![Massenpause von zwei Live-Journeys über die untere Leiste](assets/bulk-pause-journeys.png)
 
-## Ausgesetzte Journey-Ausführungslogik {#journey-pause-exec}
+## Ausführungslogik für pausierte Journeys {#journey-pause-exec}
 
 Wenn eine Journey pausiert wird, werden neue Eintritte unabhängig vom Modus zum Halten/Verwerfen immer verworfen.
 
@@ -115,23 +115,23 @@ Mit den folgenden Schritten wird eine pausierte Journey fortgesetzt und Journey-
 Aus der Liste der Journeys können eine oder mehrere **pausierte** Journeys fortgesetzt werden. Um eine Gruppe von Journeys fortzusetzen (_Massenfortsetzung_), wählen Sie diese aus und klicken Sie auf die Schaltfläche **Fortsetzen** in der blauen Leiste am unteren Bildschirmrand. Beachten Sie, dass die Schaltfläche **Fortsetzen** nur verfügbar ist, wenn **pausierte** Journeys ausgewählt sind.
 
 
-## Anwenden von Beendigungskriterien in einer angehaltenen Journey {#journey-exit-criteria}
+## Anwenden von Ausstiegskriterien in einer pausierten Journey {#journey-exit-criteria}
 
-Wenn ein Journey angehalten wird, können Sie auf der Grundlage von Profilattributen ein Beendigungskriterium anwenden. Dieser Filter ermöglicht den Ausschluss von Profilen, die zum Zeitpunkt der Fortsetzung dem definierten Ausdruck entsprechen. Sobald die auf Profilattributen basierenden Beendigungskriterien festgelegt sind, werden sie auf Aktionsknoten erzwungen, auch für den Eintritt neuer Profile. Bestehende Profile, die den Kriterien entsprechen, und neue Profile, die in die Journey eintreten, werden **beim nächsten Aktionsknoten**, auf den Sie treffen, von der Journey ausgeschlossen.
+Wenn eine Journey pausiert ist, kann ein Ausstiegskriterium basierend auf Profilattributen angewendet werden. Dieser Filter ermöglicht den Ausschluss von Profilen, die zum Zeitpunkt der Fortsetzung dem definierten Ausdruck entsprechen. Sobald der auf Profilattributen basierende Filter festgelegt ist, wird er auf Aktionsknoten erzwungen, auch für den Eintritt neuer Profile. Bestehende Profile, die den Kriterien entsprechen, und neue Profile, die in die Journey eintreten, werden **beim nächsten Aktionsknoten**, auf den Sie treffen, von der Journey ausgeschlossen.
 
 Mit diesen Schritten werden z. B. alle französischen Kundinnen und Kunden von einer pausierten Journey ausgeschlossen:
 
 1. Navigieren Sie zur pausierten Journey, die geändert werden soll.
 
-1. Wählen Sie das Symbol **Beendigungskriterien** aus.
+1. Wählen Sie das Symbol **Ausstiegskriterium** aus.
 
-   ![Kriterien für das Beenden eines Profilattributs zu einer angehaltenen Journey hinzufügen](assets/add-exit-criteria.png)
+   ![Hinzufügen von Profilattribut-Ausstiegskriterien zu einer pausierten Journey](assets/add-exit-criteria.png)
 
-1. Klicken Sie **den Einstellungen** Ausstiegskriterien hinzufügen **, um** Filter auf der Grundlage von Profilattributen zu definieren.
+1. Klicken Sie in den Einstellungen für **Ausstiegskriterien** auf **Ausstiegskriterien hinzufügen**, um einen Filter basierend auf Profilattributen zu definieren.
 
 1. Legen Sie den Ausdruck zum Ausschluss von Profilen fest, deren Länderattribut gleich Frankreich ist.
 
-   ![Kriterien für das Beenden eines Profilattributs zu einer angehaltenen Journey hinzufügen](assets/add-country-filter.png)
+   ![Hinzufügen von Profilattribut-Ausstiegskriterien zu einer pausierten Journey](assets/add-country-filter.png)
 
 1. Speichern Sie den Filter und klicken Sie auf die Schaltfläche **Journey aktualisieren**, um die Änderungen anzuwenden.
 
@@ -139,17 +139,17 @@ Mit diesen Schritten werden z. B. alle französischen Kundinnen und Kunden von 
 
    Bei der Fortsetzung werden alle Profile mit dem Länderattribut Frankreich beim nächsten Aktionsknoten automatisch von der Journey ausgeschlossen. Alle neuen Profile mit dem Länderattribut Frankreich, die versuchen, in die Journey einzutreten, werden ebenfalls beim nächsten Aktionsknoten blockiert.
 
-Beachten Sie, dass Profilausschlüsse für Profile, die sich derzeit auf der Journey befinden, und für neue Profile nur auftreten, **wenn sie einen Aktionsknoten erreichen**.
+Beachten Sie, dass Profilausschlüsse für Profile, die sich derzeit in der Journey befinden, und für neue Profile nur dann erfolgen, **wenn sie einen Aktionsknoten erreichen**.
 
 >[!CAUTION]
 >
->* Pro Journey können nur **ein** Profilattribut-basierte Beendigungskriterien festgelegt werden.
+>* Pro Journey können Sie nur **ein** auf Profilattributen basierendes Ausstiegskriterium festlegen.
 >
->* Sie können nur ein auf Profilattributen basierendes Beendigungskriterium in den Journey **Paused** erstellen, aktualisieren oder löschen.
+>* Sie können ein auf Profilattributen basierendes Ausstiegskriterium nur in **pausierten** Journeys erstellen, aktualisieren oder löschen.
 >
->* Weitere Informationen zu den auf Profilattributen basierenden Beendigungskriterien finden Sie [ diesem Abschnitt](journey-properties.md#profile-exit-criteria).
+>* Weitere Informationen zu den auf Profilattributen basierenden Ausstiegskriterien finden Sie [in diesem Abschnitt](journey-properties.md#profile-exit-criteria).
 
-## Schutzmechanismen und Einschränkungen {#journey-pause-guardrails}
+## Leitlinien und Einschränkungen {#journey-pause-guardrails}
 
 * Eine Journey-Version kann bis zu **14 Tage** lang pausiert werden, wobei in pausierten Journeys in Ihrem Unternehmen insgesamt maximal **10 Millionen Profile** zulässig sind.
 Dieses Limit wird alle 30 Minuten überprüft. Dies bedeutet, dass Sie den Schwellenwert von 10 Millionen möglicherweise vorübergehend überschreiten. Sobald das System dies jedoch erkennt, werden alle zusätzlichen Profile automatisch verworfen.

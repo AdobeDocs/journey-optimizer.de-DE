@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -76,7 +76,7 @@ Jede orchestrierte Kampagne enthält:
 
 * **Aktivitäten**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll. Die verschiedenen Aktivitäten werden auf der Arbeitsfläche durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften sowie andere Eigenschaften, die für alle Aktivitäten gelten.
 
-  In einer orchestrierten Kampagnen-Arbeitsfläche kann eine bestimmte Aktivität mehrere Aufgaben hervorrufen, insbesondere wenn eine Schleife oder wiederkehrende Aktionen vorliegen.
+  In einer Arbeitsfläche für eine orchestrierte Kampagne kann eine bestimmte Aktivität mehrere Aufgaben erzeugen, insbesondere wenn es sich um eine Schleife oder wiederkehrende Aktionen handelt.
 
 * **Transitionen**: Transitionen verknüpfen eine Quellaktivität mit einer Zielaktivität und definieren deren Sequenz.
 

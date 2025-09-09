@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -116,4 +116,4 @@ Auf beiden Registerkarten können Sie die angezeigten Spalten und ihre Reihenfol
 
 ## Nächste Schritte {#next}
 
-Nach dem Start der Arbeitsfläche für orchestrierte Kampagnen können Sie die Reporting-Funktionen von Journey Optimizer verwenden, um Einblicke zu erhalten, z. B. das Verhalten der Zielgruppe zu verstehen und die Leistung der einzelnen Schritte auf Ihrem Kunden-Journey zu messen. [Weitere Informationen über das Reporting zu orchestrierten Kampagnen](../orchestrated/reporting-campaigns.md)
+Nach dem Start der Arbeitsfläche für die koordinierte Kampagne können Sie die Reporting-Funktionen von Journey Optimizer verwenden, um Erkenntnisse zu erhalten, z. B. um das Verhalten der Zielgruppe zu verstehen und die Leistung der einzelnen Schritte in Ihrer Customer Journey zu messen. [Weitere Informationen über das Reporting zu orchestrierten Kampagnen](../orchestrated/reporting-campaigns.md)

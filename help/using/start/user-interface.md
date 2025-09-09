@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Verwalten Sie Ihre Daten aus diesem Abschnitt.
 
 * **[!UICONTROL Schemata]**: Verwenden Sie Adobe Experience Platform, um Experience Data Model(XDM)-Schemata auf einer interaktiven visuellen Arbeitsfläche zu erstellen und zu verwalten, die als Schema-Editor bezeichnet wird. [Weitere Informationen](../data/get-started-schemas.md)
 
-* **[!UICONTROL Datensätze]**: Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben als Datensätze im Data Lake erhalten. Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. [Weitere Informationen](../data/get-started-datasets.md)
+* **[!UICONTROL Datensätze]**: Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben als Datensätze im Data Lake erhalten. Ein Datensatz ist ein Konstrukt zur Speicherung und Verwaltung einer Sammlung von Daten, in der Regel eine Tabelle, die ein Schema (Spalten) und Felder (Zeilen) enthält. [Weitere Informationen](../data/get-started-datasets.md)
 
 * **[!UICONTROL Abfragen]**: Verwenden Sie den Abfrage-Service von Adobe Experience Platform, um Abfragen zu schreiben und auszuführen, zuvor ausgeführte Abfragen anzuzeigen und auf Abfragen zuzugreifen, die von Benutzern in Ihrem Unternehmen gespeichert wurden. [Weitere Informationen](../data/get-started-queries.md)
 
@@ -181,17 +181,17 @@ Verwenden Sie auf jeder Seite kontextbezogene Hilfe-Schaltflächen, um mehr übe
 
 ## Produktinterne Benachrichtigungen {#in-product-notifications}
 
-Sie können **Warnhinweise im Produkt und per E-Mail** aktivieren, um über verschiedene Ereignisse benachrichtigt zu werden, die Sie möglicherweise interessieren: vom System erkannte Fehler, Genehmigungsanfragen und/oder [!DNL Journey Optimizer] Produktversionen.
+Sie können **Warnhinweise im Produkt und per E-Mail** aktivieren, um über verschiedene Ereignisse benachrichtigt zu werden, die Sie möglicherweise interessieren: vom System erkannte Fehler, Genehmigungsanfragen und/oder [!DNL Journey Optimizer]-Produktversionen.
 
 Gehen Sie wie folgt vor, um diese Benachrichtigungen zu aktivieren.
 
 1. Navigieren Sie zu [!DNL Adobe Experience Cloud] **[!UICONTROL Voreinstellungen]**.
-1. Suchen Sie **[!UICONTROL Benachrichtigungen]** nach **[!UICONTROL Journey Optimizer]**.
+1. Suchen Sie unter **[!UICONTROL Benachrichtigungen]** den Eintrag **[!UICONTROL Journey Optimizer]**.
 1. Aktivieren Sie In-App- und/oder E-Mail-Benachrichtigungen nach Bedarf:
 
    * **[!UICONTROL Warnhinweise]**: Bei einem Fehler können Sie Systembenachrichtigungen für die Warnhinweise erhalten, die Sie abonniert haben. [Weitere Informationen](../reports/alerts.md)
-   * **[!UICONTROL Genehmigungen]**: Sie werden benachrichtigt, wenn jemand Sie auffordert, ein Objekt oder den Zugriff auf ein Objekt zu genehmigen.
-   * **[!UICONTROL Neue Versionen]**: Sie werden über alle neuen [!DNL Journey Optimizer] Produktversionen informiert.
+   * **[!UICONTROL Genehmigungen]**: Sie werden benachrichtigt, wenn jemand Sie bittet, ein Objekt oder den Zugriff auf ein Objekt zu genehmigen.
+   * **[!UICONTROL Neue Versionen]**: Sie werden über alle neuen [!DNL Journey Optimizer]-Produktversionen informiert.
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aktivität „Bedingung“
+title: Aktivität des Typs „Bedingung“
 description: Erfahren Sie mehr über Bedingungsaktivitäten
 feature: Journeys, Activities
 topic: Content Management
@@ -15,7 +15,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1601'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -24,31 +24,31 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Bedingungen"
->abstract="Mit Bedingungen können Sie festlegen, wie Personen Ihre Journey durchlaufen, indem Sie mehrere Pfade auf Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen."
+>abstract="Mit Bedingungen können Sie festlegen, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade basierend auf Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen."
 
-Mit **Bedingungen** können Sie festlegen, wie Kontakte durch Ihren Journey voranschreiten, indem Sie mehrere Pfade auf der Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen.
+Mit **Bedingungen** können Sie festlegen, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade basierend auf bestimmten Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen.
 
 >[!AVAILABILITY]
 >
->Diese Bedingungen sind über die Aktivität **Optimieren** verfügbar, auf die bei eingeschränkter Verfügbarkeit nach Bedarf zugegriffen werden kann. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+>Diese Bedingungen sind über die Aktivität **Optimieren** verfügbar, auf die nach Bedarf zugegriffen werden kann, jedoch mit eingeschränkter Verfügbarkeit. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
 >
->Wenn Sie keinen Zugriff auf diese Kapazität haben, können Sie weiterhin die alte Aktivität [Bedingung“ ](condition-activity.md).
+>Wenn Sie keinen Zugriff auf diese Funktion haben, können Sie weiterhin die ältere [Bedingungsaktivität](condition-activity.md) verwenden.
 
 ## Hinzufügen einer Bedingung {#add-condition-activity}
 
-Gehen Sie wie folgt vor, um eine Bedingung zu Ihrem Journey hinzuzufügen.
+Gehen Sie wie folgt vor, um Ihrer Journey eine Bedingung hinzuzufügen.
 
-1. Ziehen Sie die Aktivität **[!UICONTROL Optimieren]** in die Arbeitsfläche Journey. [Weitere Informationen](optimize.md)
+1. Ziehen Sie die Aktivität **[!UICONTROL Optimieren]** in die Journey-Arbeitsfläche. [Weitere Informationen](optimize.md)
 
-1. Fügen Sie eine optionale Beschriftung hinzu, um die Aktivität in den Reporting- und Testmodusprotokollen zu identifizieren.
+1. Fügen Sie ein optionales Label hinzu, um die Aktivität in den Reporting- und Testmodusprotokollen zu identifizieren.
 
-1. Wählen Sie eine Bedingung aus der Dropdown **[!UICONTROL Liste]** Methode“ aus.
+1. Wählen Sie eine Bedingung aus der Dropdown-Liste **[!UICONTROL Methode]** aus.
 
    ![](assets/journey-optimize-condition.png){width=80%}
 
    Folgende Bedingungstypen sind verfügbar:
 
-   * [Bedingung der Datenquelle](#data_source_condition)
+   * [Bedingung für die Datenquelle](#data_source_condition)
    * [Bedingung für die Uhrzeit](#time_condition)
    * [Prozentuale Aufspaltung](#percentage_split)
    * [Bedingung für das Datum](#date_condition)
@@ -74,16 +74,16 @@ Nehmen wir beispielsweise die Bedingung eines ersten Pfads „Die Person ist ein
 
 ![](assets/journey48.png)
 
-Sie können einen anderen Pfad für Audiences erstellen, für die die definierten Bedingungen nicht gelten, indem Sie die Option **[!UICONTROL Pfad für andere Fälle als die obigen zeigen]** aktivieren.
+Sie können einen anderen Pfad für Zielgruppen erstellen, für die die definierten Bedingungen nicht gelten, indem Sie die Option **[!UICONTROL Pfad für andere Fälle als die obigen zeigen]** aktivieren.
 
 >[!NOTE]
 >
->Diese Option ist in Bedingungen für die Aufspaltung nicht verfügbar. [Weitere Informationen](#percentage_split)
+>Diese Option ist bei Aufspaltungsbedingungen nicht verfügbar. [Weitere Informationen](#percentage_split)
 
 Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Feldern durchführen. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Felder per Drag-and-Drop in den Hauptbereich ziehen. Um die verschiedenen Elemente zu kombinieren, diese verschachteln, um Gruppen und/oder Gruppenebenen zu erstellen. Definieren Sie dann einen logischen Operator zwischen Elementen desselben Niveaus:
 
-* **AND** - Eine Schnittmenge aus zwei Kriterien. Nur Elemente, die allen Kriterien entsprechen, werden berücksichtigt.
-* **OR** - Eine Vereinigung von zwei Kriterien. Elemente, die wenigstens einem der Kriterien entsprechen, werden berücksichtigt.
+* **UND** bildet die Schnittmenge aus zwei Kriterien. Nur Elemente, die allen Kriterien entsprechen, werden berücksichtigt.
+* **ODER** bildet die Vereinigungsmenge aus zwei Kriterien. Elemente, die mindestens einem der Kriterien entsprechen, werden berücksichtigt.
 
 ![](assets/journey64.png){width=80%}
 
@@ -97,9 +97,9 @@ Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey 
 
 Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ unter den Kategorien „Ereignis“ und „Datenquelle“. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen.  Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die aufgetretenen Fehler. [Weitere Informationen](expression/journey-properties.md)
 
-## Bedingung der Datenquelle {#data_source_condition}
+## Datenquellenbedingung {#data_source_condition}
 
-Verwenden Sie eine **[!UICONTROL Datenquellenbedingung]**, um eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen zu definieren. Dieser Bedingungstyp wird mit dem Ausdruckseditor definiert. [Erfahren Sie, wie Sie den Ausdruckseditor verwenden](expression/expressionadvanced.md)
+Verwenden Sie eine **[!UICONTROL Datenquellenbedingung]**, um eine Definition basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen zu definieren. Dieser Bedingungstyp wird mit dem Ausdruckseditor definiert. [Informationen dazu, wie Sie den Ausdruckseditor verwenden](expression/expressionadvanced.md)
 
 Beim Targeting einer Zielgruppe mit Anreicherungsattributen, die mithilfe eines Kompositions-Workflows oder eines benutzerdefinierten Uploads (CSV-Datei) generiert wurden, können Sie beispielsweise diese Anreicherungsattribute nutzen, um Ihre Bedingung zu erstellen.
 
@@ -129,7 +129,7 @@ Im Testmodus wird beim Erreichen einer Aufspaltung immer die obere Verzweigung a
 
 ![](assets/journey52.png)
 
-## Bedingung für die Uhrzeit {#time_condition}
+## Zeitbedingung {#time_condition}
 
 Verwenden Sie eine **[!UICONTROL Zeitbedingung]**, um je nach Tageszeit und/oder Wochentag unterschiedliche Aktionen durchführen. So können Sie beispielsweise entscheiden, an Werktagen tagsüber Push-Benachrichtigung und nachts E-Mails zu versenden.
 
@@ -137,15 +137,15 @@ Verwenden Sie eine **[!UICONTROL Zeitbedingung]**, um je nach Tageszeit und/oder
 >
 >* Die Zeitzone hängt nicht von einer Bedingung ab und wird auf Journey-Ebene in den Eigenschaften der Journey festgelegt. [Weitere Informationen](../building-journeys/timezone-management.md)
 >
->* Standardmäßig wird die **[!UICONTROL Bedingung]** von Stunde festgelegt, von 00 :00 12 :00.
+>* Standardmäßig wird die **[!UICONTROL Zeitbedingung]** in Stunden von 00:00 bis 12:00 eingestellt.
 
 ![](assets/journey51.png)
 
 Es stehen drei Zeitfilteroptionen zur Verfügung:
 
-* **Stunde** - Ermöglicht die Einrichtung einer Bedingung, die auf der Tageszeit basiert. Sie legen dann die Start- und Endzeit fest. Einzelpersonen geben den Pfad nur innerhalb des definierten Stundenbereichs ein.
-* **Wochentag** - Ermöglicht die Einrichtung einer Bedingung basierend auf dem Wochentag. Wählen Sie dann aus, an welchen Tagen die Einzelanwender den Pfad eingeben sollen.
-* **Wochentag und Stunde** - Diese Option kombiniert die ersten beiden Optionen.
+* **Stunde** – Ermöglicht es Ihnen, eine Bedingung basierend auf der Tageszeit festzulegen. Sie legen dann die Start- und Endzeit fest. Einzelpersonen geben den Pfad nur innerhalb des definierten Stundenbereichs ein.
+* **Wochentag** – Ermöglicht es Ihnen, eine Bedingung basierend auf dem Wochentag festzulegen. Wählen Sie dann aus, an welchen Tagen die Einzelpersonen in den Pfad eintreten sollen.
+* **Wochentag und Stunde** – Diese Option kombiniert die ersten beiden Optionen.
 
 ## Profilbegrenzung {#profile_cap}
 
@@ -174,13 +174,13 @@ Die Profilbegrenzung wird im Testmodus nicht berücksichtigt.
 
 ![](assets/profile-cap-condition.png)
 
-## Verwenden von Audiences in Bedingungen {#using-a-segment}
+## Verwenden von Zielgruppen in Bedingungen {#using-a-segment}
 
 In diesem Abschnitt wird erläutert, wie eine Zielgruppe in einer Journey-Bedingung verwendet wird. Weitere Informationen zu Zielgruppen und deren Erstellung finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
 
 Gehen Sie wie folgt vor, um in einer Journey-Bedingung eine Zielgruppe zu verwenden:
 
-1. Öffnen Sie eine Journey, legen Sie eine Aktivität **[!UICONTROL Optimieren]** ab und wählen Sie die **[!UICONTROL Datenquellenbedingung]**.
+1. Öffnen Sie eine Journey, fügen Sie eine Aktivität vom Typ **[!UICONTROL Optimieren]** ein und wählen Sie die **[!UICONTROL Datenquellenbedingung]**.
 
    ![](assets/segment3.png)
 

@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1391'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Zusätzlich zur Journey-Liste bietet [!DNL Journey Optimizer] eine Kalenderansic
 
 Darstellung von Journeys:
 
-* Standardmäßig zeigt das Kalenderraster alle Live- und geplanten Journey für die ausgewählte Woche an. Zusätzliche Filteroptionen können abgeschlossene, gestoppte und beendete Aktivierungen oder Aktivierungen anzeigen.
+* Standardmäßig zeigt das Kalenderraster alle Live- und geplanten Journeys für die ausgewählte Woche an. Zusätzliche Filteroptionen können abgeschlossene, gestoppte und beendete Aktivierungen oder Aktivierungen anzeigen.
 * Journey-Entwürfe und Journeys im Testmodus werden nicht angezeigt.
 * Journeys, die sich über mehrere Tage erstrecken, werden oben im Kalenderraster angezeigt.
 * Wenn keine Startzeit angegeben ist, wird die nächste manuelle Aktivierungszeit zur Positionierung im Kalender verwendet.
@@ -69,27 +69,27 @@ So navigieren Sie in Ihrem Journey-Kalender:
 
 1. Verwenden Sie die Pfeiltasten oder die Datumsauswahl über dem Kalender, um zwischen Wochen zu wechseln.
 
-   Der Kalender zeigt alle für die aktuelle Woche geplanten Journey an.
+   Der Kalender zeigt alle für die aktuelle Woche geplanten Journeys an.
 
    ![Kalenderansicht mit Live-Journeys](assets/timeline-journeys.png)
 
-1. Klicken Sie auf ![Zahnradsymbol](assets/do-not-localize/Smock_Gears_18_N.png), um die Anzeige von Elementen umzuschalten, die sich über mehrere Tage oder Wochen erstrecken.
+1. Klicken Sie auf das Symbol ![Zahnradsymbol](assets/do-not-localize/Smock_Gears_18_N.png), um die Anzeige von Elementen umzuschalten, die sich über mehrere Tage oder Wochen erstrecken.
 
    ![Kalenderansicht mit Live-Kampagnen](assets/journey-calendar-1.png)
 
-1. Klicken Sie auf das ![Kalender hinzufügen](assets/do-not-localize/Smock_CalendarAdd_18_N.svg)-Symbol, um bis zu drei externe Kalender zu verwalten und hinzuzufügen.
+1. Klicken Sie auf das Symbol ![Kalender hinzufügen](assets/do-not-localize/Smock_CalendarAdd_18_N.svg), um bis zu drei externe Kalender zu verwalten und hinzuzufügen.
 
    ![Kalenderansicht mit externen Kalendern](assets/journey-calendar-2.png)
 
-1. CSV-Dateien mit Ereignisnamen, Start- und Enddaten per Drag-and-Drop verschieben.
+1. Verschieben Sie Ihre CSV-Dateien mit den Namen der Veranstaltungen sowie Start- und Enddaten per Drag-and-Drop.
 
-   Hochgeladene Ereignisse werden für alle Benutzenden in Ihrer Organisation angezeigt und sowohl im Journey- als auch im Kampagnenkalender angezeigt.
+   Hochgeladene Ereignisse werden für alle Benutzenden in Ihrer Organisation angezeigt und erscheinen sowohl im Journey- als auch im Kampagnenkalender.
 
-   +++Das CSV-Format sollte wie folgt lauten:
+   +++Das CSV-Format sollte wie folgt aussehen:
 
-   | Spalte 1 | Spalte 2 | Spalte 3 |
+   | Spalte1 | Spalte2 | Spalte3 |
    |-|-|-|
-   | Ereignisname | Startdatum im Format MM/TT/JJ | Enddatum im Format MM/TT/JJ |
+   | Ereignisname | Startdatum im Format TT/MM/JJ | Enddatum im Format TT/MM/JJ |
 
    +++
 
@@ -172,15 +172,15 @@ Gehen Sie dazu wie folgt vor:
 
 ## Massenvorgänge {#bulk-operations}
 
-In der Liste Ihrer Journey können Sie mehrere **Live**-Journey anhalten. Wählen Sie zum Pausieren einer Gruppe von Journeys (_Massenpause_) die Journeys in der Liste aus und klicken Sie auf die Schaltfläche **Anhalten** in der blauen Leiste am unteren Bildschirmrand. Die Schaltfläche **Anhalten** ist nur verfügbar, wenn **Live**-Journeys ausgewählt sind.
+In der Liste der Journeys können Sie eine oder mehrere **Live-Journeys** pausieren. Wählen Sie zum Pausieren einer Gruppe von Journeys (_Massenpause_) die Journeys in der Liste aus und klicken Sie auf die Schaltfläche **Anhalten** in der blauen Leiste am unteren Bildschirmrand. Die Schaltfläche **Anhalten** ist nur verfügbar, wenn **Live**-Journeys ausgewählt sind.
 
 ![Massenpause von zwei Live-Journeys über die untere Leiste](assets/bulk-pause-journeys.png)
 
-Sie können auch ein oder mehrere (**) Journey**. Um eine Gruppe von Journeys fortzusetzen (_Massenfortsetzung_), wählen Sie diese aus und klicken Sie auf die Schaltfläche **Fortsetzen** in der blauen Leiste am unteren Bildschirmrand. Beachten Sie, dass die Schaltfläche **Fortsetzen** nur verfügbar ist, wenn **pausierte** Journeys ausgewählt sind.
+Sie können auch eine oder mehrere **pausierte** Journeys fortsetzen. Um eine Gruppe von Journeys fortzusetzen (_Massenfortsetzung_), wählen Sie diese aus und klicken Sie auf die Schaltfläche **Fortsetzen** in der blauen Leiste am unteren Bildschirmrand. Beachten Sie, dass die Schaltfläche **Fortsetzen** nur verfügbar ist, wenn **pausierte** Journeys ausgewählt sind.
 
-[Erfahren Sie mehr über Pause/Fortsetzen von Journey](journey-pause.md).
+[Erfahren Sie mehr über das Pausieren/Fortsetzen von Journeys](journey-pause.md).
 
 >[!NOTE]
 >
->Sie können bis zu 10 Journey pro Vorgang anhalten/fortsetzen.
+>Sie können bis zu 10 Journeys pro Vorgang pausieren/fortsetzen.
 

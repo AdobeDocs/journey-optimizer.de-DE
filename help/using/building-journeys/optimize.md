@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aktivität „Optimieren“
+title: Optimierungaktivität
 description: Informationen zur Aktivität „Optimieren“
 feature: Journeys, Activities
 topic: Content Management
@@ -14,22 +14,22 @@ version: Journey Orchestration
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '1220'
-ht-degree: 10%
+ht-degree: 43%
 
 ---
 
-# Aktivität „Optimieren“ {#journey-path-optimization}
+# Optimierungaktivität {#journey-path-optimization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
->title="Aktivität „Optimieren“"
->abstract="Mit der Aktivität **Optimieren** können Sie festlegen, wie Personen Ihre Journey durchlaufen, indem Sie mehrere Pfade auf Grundlage bestimmter Kriterien erstellen, darunter Experimente, Targeting und bestimmte Bedingungen."
+>title="Optimierungaktivität"
+>abstract="Mit der Aktivität **Optimieren** können Sie festlegen, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade auf der Grundlage spezifischer Kriterien erstellen, darunter Experimente, Targeting und bestimmte Bedingungen."
 
 >[!AVAILABILITY]
 >
 >Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
 
-Mit der Aktivität **Optimieren** können Sie festlegen, wie Kontakte über Ihren Journey voranschreiten, indem Sie mehrere **Pfade** basierend auf bestimmten Kriterien erstellen, einschließlich Experimentieren, Targeting und bestimmten Bedingungen. So stellen Sie ein Höchstmaß an Interaktion und Erfolg sicher, um hochgradig angepasste und effektive Journey zu erstellen.
+Mit der Aktivität **Optimieren** können Sie festlegen, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere **Pfade** auf der Grundlage spezifischer Kriterien erstellen, darunter Experimente, Targeting und bestimmte Bedingungen. So gewährleisten Sie ein Höchstmaß an Engagement und Erfolg, um hochgradig personalisierte und effektive Journeys zu erstellen.
 
 Ein Journey **Pfad** kann aus einer der folgenden Variablen bestehen: Sequenzierung der Kommunikation, dazwischen liegende Zeit, Anzahl der Kommunikationen oder eine beliebige Kombination dieser drei Variablen.
 
@@ -39,13 +39,13 @@ Ein Pfad kann beispielsweise eine E-Mail enthalten, ein anderer zwei SMS-Nachric
 
 Durch die Aktivität **Optimieren** können Sie die folgenden Aktionen für die resultierenden Pfade ausführen:
 
-* Ausführen [Pfadexperimenten](#experimentation)
-* Nutzen [Targeting](#targeting)-Regeln in jedem Journey-Pfad
-* Anwenden [Bedingungen](#conditions) auf Ihre Pfade
+* [Pfadexperimente](#experimentation) durchführen
+* [Targeting](#targeting)-Regeln in jedem Journey-Pfad nutzen
+* [Bedingungen](#conditions) auf Ihre Pfade anwenden
 
 ![](assets/journey-optimize.png)
 
-Sobald die Journey live ist, werden die Profile anhand der definierten Kriterien bewertet. Anhand übereinstimmender Kriterien werden sie dann vom Journey in den entsprechenden Pfad weitergeleitet.
+Sobald die Journey live ist, werden die Profile anhand der definierten Kriterien bewertet und basierend auf den passenden Kriterien auf den entsprechenden Pfad der Journey weitergeleitet.
 
 ## Verwenden von Experimenten {#experimentation}
 
@@ -54,21 +54,21 @@ Sobald die Journey live ist, werden die Profile anhand der definierten Kriterien
 >title="Erfolgsmetrik"
 >abstract="Die Erfolgsmetrik wird verwendet, um die Abwandlung mit der besten Leistung in einem Experiment zu verfolgen und auszuwerten."
 
-Mit Experimenten können Sie verschiedene Pfade auf der Grundlage einer zufälligen Aufspaltung testen, um anhand vordefinierter Erfolgsmetriken zu bestimmen, welche am besten abschneidet.
+Mit Experimenten können Sie verschiedene Pfade auf der Grundlage einer zufälligen Aufteilung testen, um anhand vordefinierter Erfolgsmetriken zu ermitteln, welcher Pfad am besten funktioniert.
 
 Gehen Sie wie folgt vor, um Pfadexperimente auf einer Journey einzurichten.
 
 Angenommen, Sie möchten drei Pfade vergleichen:
 
-* ein Pfad mit einer E-Mail;
+* einen Pfad mit einer E-Mail,
 * einen zweiten Pfad mit einem **[!UICONTROL Warte]**-Knoten von zwei Tagen und einer E-Mail;
-* einem dritten Pfad mit einer E-Mail-Adresse und einer SMS-Nachricht.
+* einen dritten Pfad mit einer E-Mail und dann einer SMS-Nachricht.
 
 1. Ziehen Sie aus dem Abschnitt **[!UICONTROL Orchestrierung]** die Aktivität **[!UICONTROL Optimieren]** per Drag-and-Drop auf die Journey-Arbeitsfläche.
 
 1. Fügen Sie eine optionale Beschriftung hinzu, die nützlich sein kann, um die Aktivität in Reporting- und Testmodusprotokollen zu identifizieren.
 
-1. Wählen Sie **[!UICONTROL Experiment]** aus der **[!UICONTROL Methode]** Dropdown-Liste aus.
+1. Wählen Sie **[!UICONTROL Experiment]** aus der Dropdown-Liste **[!UICONTROL Methode]** aus.
 
    ![](assets/journey-optimize-experiment.png){width=75%}
 
@@ -123,17 +123,17 @@ Angenommen, Sie möchten drei Pfade vergleichen:
 
 1. [Veröffentlichen](publishing-the-journey.md) Ihres Journey.
 
-Sobald die Journey live ist, werden die Benutzenden nach dem Zufallsprinzip zugewiesen, verschiedene Pfade zu durchlaufen. [!DNL Journey Optimizer] verfolgt, welcher Pfad am besten funktioniert, und liefert verwertbare Einblicke.
+Sobald die Journey live ist, werden die Benutzenden nach dem Zufallsprinzip zugewiesen, um verschiedene Pfade zu durchlaufen. [!DNL Journey Optimizer] verfolgt, welcher Pfad am besten funktioniert, und liefert verwertbare Einblicke.
 
 <!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### Anwendungsfälle für Experimente {#uc-experiment}
 
-Die folgenden Beispiele zeigen, wie Sie mit der Aktivität **[!UICONTROL Optimieren]** mit der Methode **[!UICONTROL Experiment]** ermitteln, welcher Pfad insgesamt am besten funktioniert.
+Die folgenden Beispiele zeigen, wie Sie mit der Aktivität **[!UICONTROL Optimieren]** zusammen mit der Methode **[!UICONTROL Experiment]** ermitteln, welcher Pfad insgesamt am besten funktioniert.
 
 +++Kanaleffektivität
 
-Testen Sie, ob das Senden der ersten Nachricht per E-Mail oder SMS zu höheren Konversionen führt.
+Testen Sie, ob das Senden der ersten Nachricht per E-Mail oder per SMS zu höheren Konversionen führt.
 
 ➡️ Konversionsrate als Optimierungsmetrik verwenden (z. B.: Käufe, Anmeldungen).
 
@@ -151,17 +151,17 @@ Verwenden Sie Käufe oder die Abmelderate als Optimierungsmetrik.
 
 +++Wartezeit zwischen Nachrichten
 
-Vergleich einer Wartezeit von 24 Stunden mit einer Wartezeit von 72 Stunden vor einer Nachbeobachtung, um zu bestimmen, welcher Zeitpunkt die Interaktion maximiert.
+Vergleichen Sie eine Wartezeit von 24 Stunden mit einer Wartezeit von 72 Stunden vor einem Nachfassen, um zu ermitteln, welcher Zeitraum die Interaktion maximiert.
 
 ➡️ Verwenden Sie die Clickthrough-Rate oder den Umsatz als Optimierungsmetrik.
 
 +++
 
-## Verwenden von Targeting {#targeting}
+## Nutzen von Targeting {#targeting}
 
 Mit Targeting-Regeln können Sie bestimmte Regeln oder Qualifikationen festlegen, die eine Kundin oder ein Kunde basierend auf bestimmten Zielgruppensegmenten erfüllen muss, um für den Eintritt in einen der Journey-Pfade berechtigt zu <!-- depending on profile attributes or contextual attributes-->.
 
-Im Gegensatz zu Experimenten, bei denen es sich um eine zufällige Zuweisung eines bestimmten Pfads handelt, ist die Zielgruppenbestimmung deterministisch, indem sichergestellt wird, dass die richtige Zielgruppe oder das richtige Profil in den angegebenen Pfad eintritt.
+Im Gegensatz zu Experimenten, bei denen es sich um eine zufällige Zuweisung eines bestimmten Pfads handelt, ist das Targeting deterministisch, da sichergestellt wird, dass die richtige Zielgruppe oder das richtige Profil in den angegebenen Pfad eintritt.
 
 <!--With targeting, specific rules can be defined based on:
 
@@ -171,7 +171,7 @@ Im Gegensatz zu Experimenten, bei denen es sich um eine zufällige Zuweisung ein
 
 * **Audiences** which can be used to include or exclude profiles that have a particular audience membership.-->
 
-Gehen Sie wie folgt vor, um das Targeting auf einer Journey einzurichten.
+Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 
 1. Ziehen Sie aus dem Abschnitt **[!UICONTROL Orchestrierung]** die Aktivität **[!UICONTROL Optimieren]** per Drag-and-Drop auf die Journey-Arbeitsfläche.
 
@@ -181,17 +181,17 @@ Gehen Sie wie folgt vor, um das Targeting auf einer Journey einzurichten.
 
    ![](assets/journey-optimize-targeting.png){width=70%}
 
-1. Klicken Sie **[!UICONTROL Zielgruppenregel erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Targeting-Regel erstellen]**.
 
 1. Verwenden Sie den Regel-Builder, um Ihre Kriterien festzulegen. Definieren Sie beispielsweise eine Regel für Gold-Mitglieder des Treueprogramms (`loyalty.status.equals("Gold", false)`) und eine Regel für die anderen Mitglieder (`loyalty.status.notEqualTo("Gold", false)`).
 
    ![](assets/journey-targeting-rule.png)
 
-1. Wählen Sie nach Bedarf **[!UICONTROL Fallback-Inhalte aktivieren]** aus. Mit Fallback-Inhalten kann Ihre Zielgruppe Standardinhalte empfangen, wenn keine Targeting-Regeln qualifiziert sind. Wenn Sie diese Option nicht auswählen, gibt jede Zielgruppe, die sich nicht für eine der oben definierten Zielgruppenbestimmungsregeln qualifiziert, keinen Fallback-Pfad ein.
+1. Wählen Sie nach Bedarf **[!UICONTROL Fallback-Inhalte aktivieren]** aus. Mit Fallback-Inhalten kann Ihre Zielgruppe einen Standardinhalt erhalten, falls keine der Targeting-Regeln erfüllt ist. Falls Sie diese Option nicht auswählen, wechseln Zielgruppen, die sich nicht für eine der oben definierten Targeting-Regeln qualifizieren, nicht in einen Fallback-Pfad.
 
 1. Klicken Sie **[!UICONTROL Erstellen]** um Ihre Einstellungen für die Zielgruppenregel zu speichern.
 
-1. Legen Sie bestimmte Aktionen auf der Journey ab, um jeden Pfad anzupassen. Erstellen Sie beispielsweise eine E-Mail mit personalisierten Angeboten für Mitglieder des Treueprogramms Gold und eine SMS-Erinnerung für alle anderen Mitglieder.
+1. Kehren Sie zur Journey zurück und fügen Sie bestimmte Aktionen hinzu, um jeden Pfad anzupassen. Erstellen Sie beispielsweise eine E-Mail mit personalisierten Angeboten für Mitglieder des Treueprogramms Gold und eine SMS-Erinnerung für alle anderen Mitglieder.
 
    ![](assets/journey-targeting-paths.png)
 
@@ -225,7 +225,7 @@ Mitglieder des Treueprogramms mit Gold-Status können personalisierte Angebote p
 
 +++Verhaltensbasiertes Targeting
 
-Kunden, die eine E-Mail geöffnet, aber nicht geklickt haben, können eine Push-Benachrichtigung erhalten, während diejenigen, die überhaupt nicht geöffnet haben, eine SMS erhalten.
+Kundinnen und Kunden, die eine E-Mail geöffnet, aber nicht geklickt haben, können eine Push-Benachrichtigung erhalten, während diejenigen, die sie überhaupt nicht geöffnet haben, eine SMS erhalten.
 
 ➡️ Verwenden Sie die Clickthrough-Rate oder nachgelagerte Konversionen als Optimierungsmetrik.
 
@@ -233,7 +233,7 @@ Kunden, die eine E-Mail geöffnet, aber nicht geklickt haben, können eine Push-
 
 +++Zielgruppenbestimmung bezüglich des Kaufverlaufs
 
-Kunden, die kürzlich gekauft haben, können einen kurzen „Danke + Crosssell“-Weg einschlagen, während Kunden ohne Kaufhistorie eine längere Pflege-Journey erhalten.
+Kundinnen und Kunden, die kürzlich gekauft haben, können in einen kurzen „Danke + Crosssell“-Pfad eintreten, während Kundinnen und Kunden ohne Kaufhistorie eine längere Nurturing-Journey durchlaufen.
 
 ➡️ Verwenden Sie die Wiederholungskaufrate oder Interaktionsrate als Optimierungsmetrik.
 
@@ -241,15 +241,15 @@ Kunden, die kürzlich gekauft haben, können einen kurzen „Danke + Crosssell�
 
 ## Hinzufügen einer Bedingung {#conditions}
 
-Sie können eine Bedingung hinzufügen, um zu definieren, wie Kontakte durch Ihren Journey voranschreiten, indem Sie mehrere Pfade auf der Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen.
+Sie können eine Bedingung hinzufügen, um zu definieren, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade basierend auf bestimmten Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen.
 
 ![](assets/journey-condition.png)
 
-Erfahren Sie in ([ Abschnitt), wie Sie eine Bedingung ](conditions.md).
+Erfahren Sie in [diesem Abschnitt](conditions.md), wie Sie eine Bedingung definieren.
 
 Folgende Bedingungstypen sind verfügbar:
 
-* [Bedingung der Datenquelle](condition-activity.md#data_source_condition)
+* [Datenquellenbedingung](condition-activity.md#data_source_condition)
 * [Bedingung für die Uhrzeit](condition-activity.md#time_condition)
 * [Prozentuale Aufspaltung](condition-activity.md#percentage_split)
 * [Bedingung für das Datum](condition-activity.md#date_condition)

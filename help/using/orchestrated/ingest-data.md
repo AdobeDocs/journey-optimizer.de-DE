@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 Adobe Experience Platform ermöglicht die Aufnahme von Daten aus externen Quellen und bietet spezielle Experience Platform-Services, mittels derer Sie eingehende Daten strukturieren, beschriften und erweitern können. Daten können aus verschiedensten Quellen aufgenommen werden, darunter etwa Adobe-Anwendungen, Cloud-basierte Datenspeicher und Datenbanken.
 
-Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. Daten, die erfolgreich in Experience Platform aufgenommen werden, werden im Data Lake als Datensätze gespeichert.
+Ein Datensatz ist ein Konstrukt zur Speicherung und Verwaltung einer Sammlung von Daten, in der Regel eine Tabelle, die ein Schema (Spalten) und Felder (Zeilen) enthält. Daten, die erfolgreich in Experience Platform aufgenommen wurden, werden im Data Lake als Datensätze gespeichert.
 
 ## Unterstützte Quellen für orchestrierte Kampagnen {#supported}
 
@@ -101,7 +101,7 @@ Dieses Beispiel zeigt, wie sich ein Datenfluss konfigurieren lässt, der struktu
 
    ![](assets/admin_sources_2.png)
 
-1. Wählen Sie die Daten aus, die in Adobe Experience Platform aufgenommen werden sollen.
+1. Wählen Sie die Daten aus, die Sie in Adobe Experience Platform aufnehmen möchten.
 
    ![](assets/S3_config_1.png)
 
@@ -123,7 +123,7 @@ Dieses Beispiel zeigt, wie sich ein Datenfluss konfigurieren lässt, der struktu
 
    Beachten Sie, dass die unterstützte Größe maximal 100 MB beträgt.
 
-1. Überprüfen Sie **[!UICONTROL Fenster]** Zuordnung“, ob jedes Quelldateiattribut den entsprechenden Feldern im Zielschema korrekt zugeordnet ist. [Erfahren Sie mehr über Zielgruppendimensionen](target-dimension.md)
+1. Überprüfen Sie im Fenster **[!UICONTROL Zuordnung]**, ob jedes Quelldateiattribut korrekt den entsprechenden Feldern im Zielschema zugeordnet ist. [Erfahren Sie mehr über Zielgruppendimensionen](target-dimension.md)
 
    Klicken Sie auf **[!UICONTROL Weiter]**, sobald Sie fertig sind.
 

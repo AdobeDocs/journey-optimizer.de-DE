@@ -9,7 +9,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
 source-wordcount: '2186'
-ht-degree: 80%
+ht-degree: 85%
 
 ---
 
@@ -52,13 +52,13 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 
 1. Das Feld **Tags** ermöglicht es Ihnen, Ihren Entscheidungselementen einheitliche Adobe Experience Platform-Tags zuzuweisen. Dies erleichtert die Klassifizierung und die Suche. [Erfahren Sie, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
 
-1. Verwenden Sie Fragmente , um dem Entscheidungselement mehrere Inhalte hinzuzufügen - beispielsweise, wenn Sie unterschiedliche Inhalte für mehrere Mobilgerätemodelle anzeigen möchten. [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
+1. Verwenden Sie Fragmente, um dem Entscheidungselement mehrere Inhalte hinzuzufügen – beispielsweise, wenn Sie für verschiedene Modelle von Mobilgeräten unterschiedliche Inhalte anzeigen möchten. [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
 
    >[!AVAILABILITY]
    >
-   >Fragmente in Entscheidungselementen sind derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+   >Fragmente in Entscheidungselementen sind derzeit nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
 
-   Wählen **[!UICONTROL im Abschnitt]** Fragmente“ die veröffentlichten Fragmente aus, die Sie verwenden möchten, und weisen Sie ihnen einen Referenzschlüssel zu. Sie können diese Fragmente dann in Ihren Entscheidungsrichtlinien nutzen. [Weitere Informationen](create-decision.md#fragments)
+   Wählen Sie im Abschnitt **[!UICONTROL Fragmente]** die veröffentlichten Fragmente aus, die Sie verwenden möchten, und weisen Sie ihnen einen Referenzschlüssel zu. Sie können diese Fragmente dann in Ihren Entscheidungsrichtlinien nutzen. [Weitere Informationen](create-decision.md#fragments)
 
    ![](assets/item-fragments.png){width=70%}
 
@@ -68,7 +68,7 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
    >
    >Derzeit werden nur [Ausdrucksfragmente](../personalization/use-expression-fragments.md) unterstützt.
    >
-   >Verschachtelte Fragmente (Fragmente, die auf andere Fragmente verweisen) können nicht verwendet werden. Die [Genehmigung“ des Entscheidungselements schlägt ](#approve), wenn Sie ein solches Fragment hinzufügen.
+   >Verschachtelte Fragmente (d. h. Fragmente, die auf andere Fragmente verweisen) können nicht verwendet werden. Die [Genehmigung](#approve) des Entscheidungselements schlägt fehl, wenn Sie ein solches Fragment hinzufügen.
 
 1. Geben Sie benutzerdefinierte Attribute an (optional). Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente definiert. [Erfahren Sie, wie Sie mit Vorlagen arbeiten](catalogs.md)
 
@@ -195,7 +195,7 @@ Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf 
 <!--* Identifying how many times a given customer has been shown a decision item. 
 If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
-## Entscheidungselement überprüfen und genehmigen {#approve}
+## Überprüfen und Genehmigen des Entscheidungselements {#approve}
 
 1. Sobald die Eignungs- und Begrenzungsregeln für das Entscheidungselement definiert sind, klicken Sie auf **[!UICONTROL Weiter]**, um das Element zu überprüfen und zu speichern.
 

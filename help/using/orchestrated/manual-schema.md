@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens
 
    * Mindestens einen Primärschlüssel,
    * eine Versionskennung, z. B. ein `lastmodified`-Feld vom Typ `datetime` oder `number`.
-   * Bei der Aufnahme von Change Data Capture (CDC) gibt eine spezielle Spalte mit dem Namen `_change_request_type` vom Typ `String` den Typ der Datenänderung an (z. B. Einfügen, Aktualisieren, Löschen) und ermöglicht die inkrementelle Verarbeitung. Beachten Sie, dass `_change_request_type` nicht Teil des Tabellenschemas sein sollte, sondern nur während der Aufnahme zur Datendatei hinzugefügt werden sollte.
+   * Bei einer Aufnahme mit Änderungsdatenerfassung (Change Data Capture, CDC) gibt es eine spezielle Spalte mit dem Namen `_change_request_type` vom Typ `String`, die den Typ der Datenänderung angibt (z. B. Einfügen, Aktualisieren, Löschen) und eine inkrementelle Verarbeitung ermöglicht. Beachten Sie, dass `_change_request_type` nicht Teil des Tabellenschemas sein, sondern erst während der Aufnahme zur Datendatei hinzugefügt werden sollte.
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 

@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglic
 
 ![Liste der Targeting-Aktivitäten](../assets/targeting-activities.png){width="40%" align="left"}
 
-Verfügbare Zielgruppenbestimmungsaktivitäten sind:
+Die verfügbaren Aktivitäten zur Zielgruppenbestimmung sind:
 
 * [Zielgruppe erstellen](build-audience.md): Mit dieser Aktivität definieren Sie Ihre Zielpopulation. Sie können entweder eine vorhandene Zielgruppe auswählen oder den Regel-Builder verwenden, um Ihre eigene Abfrage zu definieren.
 * [Dimensionsänderung](change-dimension.md): Mit dieser Aktivität ändern Sie die Zielgruppendimension, während Sie Ihre orchestrierte Kampagne erstellen.

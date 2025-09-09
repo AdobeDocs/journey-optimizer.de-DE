@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
 
    ![](assets/journey-web-activity.png)
 
-1. Sie können auch die Aktivität **[!UICONTROL Aktion]** auswählen, mit der Sie mehrere eingehende Aktionen auswählen können. [Weitere Informationen](journey-action.md)
+1. Sie können auch die Akivität **[!UICONTROL Aktion]** auswählen, mit der Sie mehrere eingehende Aktionen auswählen können. [Weitere Informationen](journey-action.md)
 
 1. Konfigurieren Sie Ihre Aktivität. Ausführliche Konfigurationsrichtlinien finden Sie unter den folgenden Links.
 

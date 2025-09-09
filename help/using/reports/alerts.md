@@ -11,22 +11,22 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
 workflow-type: tm+mt
 source-wordcount: '1216'
-ht-degree: 34%
+ht-degree: 80%
 
 ---
 
 # Abrufen und Abonnieren von Systemwarnhinweisen {#alerts}
 
-Verwenden Sie beim Erstellen Ihrer Journey und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler zu überprüfen und zu beheben, bevor Sie sie ausführen oder veröffentlichen:
+Verwenden Sie beim Erstellen Ihrer Journeys und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler vor der Ausführung oder Veröffentlichung zu überprüfen und zu beheben:
 
-* Auf dieser Seite erfahren Sie, wie Sie Fehler bei Ihren Journey [ beheben ](../building-journeys/troubleshooting.md).
+* Weitere Informationen zum Beheben von Fehlern in Journeys finden Sie auf [dieser Seite](../building-journeys/troubleshooting.md).
 * Weitere Informationen zum Überprüfen von Kampagnen finden Sie auf [dieser Seite](../campaigns/review-activate-campaign.md).
 
-Über das dedizierte Menü **[!UICONTROL Warnhinweise]** können Sie auch [!DNL Adobe Journey Optimizer] Systemwarnhinweise abonnieren, wie auf dieser Seite beschrieben.
+Über das dedizierte Menü **[!UICONTROL Warnhinweise]** können Sie auch [!DNL Adobe Journey Optimizer]-Systemwarnhinweise abonnieren, wie auf dieser Seite beschrieben.
 
 ## Zugriff auf Warnhinweise {#access-alerts}
 
-Wenn ein Fehler auftritt, können Sie Systemwarnungen im Journey Optimizer-Benachrichtigungszentrum (In-App-Warnungen) erhalten und/oder eine E-Mail erhalten. Gehen Sie wie folgt vor, um auf diese Warnhinweise zuzugreifen.
+Wenn ein Fehler auftritt, können Sie Systemwarnungen im Journey Optimizer-Benachrichtigungszentrum (In-App-Warnungen) und/oder als E-Mail erhalten. Gehen Sie wie folgt vor, um auf diese Warnhinweise zuzugreifen:
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
@@ -36,42 +36,42 @@ Wenn ein Fehler auftritt, können Sie Systemwarnungen im Journey Optimizer-Benac
 
 Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONTROL Warnhinweise]**. Für Journey Optimizer sind mehrere vorkonfigurierte Warnhinweise verfügbar.
 
-Sie werden wie folgt aufgelistet und jede Warnmeldung wird nachfolgend beschrieben.
+Sie werden hier aufgelistet und jeder Warnhinweis wird nachfolgend beschrieben.
 
-* Spezifische Warnhinweise für Journey:
+* Spezifische Warnhinweise für Journeys:
 
-   * Warnhinweis für Fehler bei benutzerdefinierter Aktion für [&#128279;](#alert-custom-actions)Journey
-   * Warnhinweis [Zielgruppen-Trigger lesen ](#alert-read-audiences) nicht erfolgreich)
+   * Warnhinweis beim [Fehlschlagen einer benutzerdefinierten Journey-Aktion](#alert-custom-actions)
+   * Warnhinweis [Auslösen von „Zielgruppe lesen“ fehlgeschlagen](#alert-read-audiences)
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis für fehlenden DNS-Eintrag der AJO[Domäne ](#alert-dns-record-missing)
+   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
   <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
    * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
 
-1. Sie können jeden Warnhinweis einzeln über die Benutzeroberfläche abonnieren, indem Sie die Option **[!UICONTROL Abonnieren]** auswählen.
+1. Sie können jeden Warnhinweis einzeln über die Benutzeroberfläche abonnieren, indem Sie die Option **[!UICONTROL Abonnieren]** auswählen. 
 
    ![](assets/alert-subscribe.png){width=80%}
 
    >[!NOTE]
    >
-   >Das Abonnement gilt nur für eine bestimmte Sandbox. Sie müssen Warnhinweise für jede Sandbox einzeln abonnieren.
+   >Das Abonnement gilt nur für eine bestimmte Sandbox. Sie müssen also Warnhinweise für jede Sandbox einzeln abonnieren.
 
-1. Verwenden Sie dieselbe Methode zum **[!UICONTROL Abmelden]**.
+1. Auf dieselbe Weise können Sie sich auch wieder **[!UICONTROL abmelden]**.
 
-1. Sie können Warnhinweise auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren. Warnregeln sind in verschiedene Abonnementpakete unterteilt. Ereignisabonnements, die den spezifischen Journey Optimizer-Warnhinweisen entsprechen, werden [unten](#journey-alerts) beschrieben.
+1. Sie können Warnhinweise auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren. Warnhinweisregeln sind in verschiedene Abonnementpakete unterteilt. Abonnements für Ereignisse, die den jeweiligen Journey Optimizer-Warnhinweisen entsprechen, werden [nachfolgend](#journey-alerts) beschrieben.
 
-1. Wenn ein unerwartetes Verhalten auftritt und/oder eine Reihe von Bedingungen in Ihren Vorgängen erfüllt werden (z. B. ein potenzielles Problem, wenn das System einen Schwellenwert überschreitet), werden Warnbenachrichtigungen an alle Benutzenden in Ihrer Organisation gesendet, die sich für sie angemeldet haben.
+1. Wenn ein unerwartetes Verhalten auftritt und/oder bestimmte Bedingungen in Ihren Vorgängen erfüllt sind (z. B. ein potenzielles Problem, wenn das System einen Schwellenwert überschreitet), werden Warnhinweise an alle Benutzenden in Ihrer Organisation gesendet, die diese abonniert haben.
 
-Je nach den Voreinstellungen des Abonnenten werden Warnhinweise per E-Mail und/oder direkt im Journey Optimizer-Benachrichtigungszentrum in der oberen rechten Ecke der Benutzeroberfläche gesendet (In-App-Benachrichtigungen). Wählen Sie in der [!DNL Adobe Experience Cloud] (Voreinstellungen) aus **[!UICONTROL wie Sie diese Warnhinweise]** möchten. [Weitere Informationen](../start/user-interface.md#in-product-alerts)
+Je nach den Benutzereinstellungen werden Warnhinweise per E-Mail gesendet und/oder erscheinen direkt im Journey Optimizer-Benachrichtigungszentrum oben rechts in der Benutzeroberfläche. Wählen Sie in den **[!UICONTROL Voreinstellungen]** von [!DNL Adobe Experience Cloud] aus, wie Sie diese Warnhinweise erhalten möchten. [Weitere Informationen](../start/user-interface.md#in-product-alerts)
 
 >[!NOTE]
 >
->Standardmäßig sind nur In-App-Warnungen aktiviert.
+>Standardmäßig sind nur In-App-Warnhinweise aktiviert.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 Wenn ein Warnhinweis aufgelöst wurde, erhalten die Abonnentinnen und Abonnenten die Benachrichtigung „Aufgelöst“.
 
@@ -81,17 +81,17 @@ Um Warnhinweise zu verwalten, wählen Sie ein Element aus und verwenden Sie die 
 
 ![](assets/alert-more-actions.png){width=80%}
 
-Standardmäßig sind alle Warnhinweise aktiviert. Um einen Warnhinweis zu deaktivieren, wählen Sie die Option **[!UICONTROL Warnhinweis deaktivieren]** aus dem Menü **[!UICONTROL Mehr Aktionen]** aus. Alle Abonnentinnen und Abonnenten dieses Warnhinweises erhalten nicht mehr die zugehörigen Benachrichtigungen.
+Standardmäßig sind alle Warnhinweise aktiviert. Um einen Warnhinweis zu deaktivieren, wählen Sie aus dem Menü **[!UICONTROL Mehr Aktionen]** die Option **[!UICONTROL Warnhinweis deaktivieren]** aus. Alle Abonnentinnen und Abonnenten dieses Warnhinweises erhalten dann die zugehörigen Benachrichtigungen nicht mehr.
 
-Wählen Sie **[!UICONTROL Warnhinweis-Abonnenten verwalten]** aus, um die Liste der Benutzer anzuzeigen, die den Warnhinweis abonniert haben. Verwenden Sie das leere Feld, um weitere Abonnenten hinzuzufügen.
+Wählen Sie **[!UICONTROL Warnhinweis-Abonnierende verwalten]** aus, um die Liste der Benutzenden anzuzeigen, die den Warnhinweis abonniert haben. Verwenden Sie das leere Feld, um weitere Abonnentinnen und Abonnenten hinzuzufügen.
 
 ![](assets/alert-subscribers.png){width=80%}
 
-Die möglichen Warnhinweisstatus sind unten aufgeführt:
+Die möglichen Status von Warnhinweisen sind unten aufgeführt:
 
-* **[!UICONTROL Aktiviert]** - Der Warnhinweis ist aktiviert und überwacht derzeit den Zustand des Triggers.
-* **[!UICONTROL Deaktiviert]** - Der Warnhinweis ist deaktiviert und überwacht derzeit den Zustand des Triggers nicht. Sie erhalten keine Benachrichtigungen für diesen Warnhinweis.
-* **[!UICONTROL Ausgelöst]** - Die Bedingung für den Trigger des Warnhinweises wird derzeit erfüllt.
+* **[!UICONTROL Aktiviert]** – Der Warnhinweis ist aktiviert, und es wird derzeit auf die Auslösebedingung überwacht.
+* **[!UICONTROL Deaktiviert]** – Der Warnhinweis ist deaktiviert, und es wird derzeit nicht auf die Auslösebedingung überwacht. Sie erhalten keine Benachrichtigungen für diesen Warnhinweis.
+* **[!UICONTROL Ausgelöst]** – Die Auslösebedingung für den Warnhinweis ist derzeit erfüllt.
 
 ## Journey-Warnhinweise {#journey-alerts}
 
@@ -145,11 +145,11 @@ Der Name des E/A-Ereignisabonnements, das dem **Alert Read Audience Trigger Unsu
 
 ![](assets/alert-troubleshooting-1.png)
 
-## Konfigurationswarnungen {#configuration-alerts}
+## Konfigurationswarnhinweise {#configuration-alerts}
 
-### AJO Domain-DNS-Eintrag fehlt {#alert-dns-record-missing}
+### DNS-Eintrag für AJO-Domain fehlt {#alert-dns-record-missing}
 
-Dieser Warnhinweis benachrichtigt Sie, wenn kritische DNS-Einträge (NS oder CNAME), die für eine ordnungsgemäße Zustellbarkeitskonfiguration erforderlich sind, fehlen oder falsch konfiguriert sind. Ohne diese Datensätze kann die E-Mail-Zustellbarkeit beeinträchtigt sein.
+Dieser Warnhinweis benachrichtigt Sie, wenn kritische DNS-Einträge (NS oder CNAME), die für eine ordnungsgemäße Zustellbarkeitskonfiguration erforderlich sind, fehlen oder falsch konfiguriert sind. Ohne diese Einträge kann die E-Mail-Zustellbarkeit beeinträchtigt sein.
 
 >[!NOTE]
 >
@@ -157,21 +157,21 @@ Dieser Warnhinweis benachrichtigt Sie, wenn kritische DNS-Einträge (NS oder CNA
 >
 >* CNAME-Einträge unterstützen die Einrichtung von CNAME-Subdomains. [Weitere Informationen](../configuration/about-subdomain-delegation.md#cname-subdomain-setup)
 
-Der **AJO Domain-DNS-Eintrag fehlt** Warnhinweis wird ausgelöst, wenn das System erkennt, dass die erforderlichen NS- oder CNAME-Einträge fehlen oder nicht den Konfigurationsstandards entsprechen.
+Der Warnhinweis **DNS-Eintrag für AJO-Domain fehlt** wird ausgelöst, wenn das System erkennt, dass die erforderlichen NS- oder CNAME-Einträge fehlen oder nicht den Konfigurationsstandards entsprechen.
 
-1. Klicken Sie auf den Warnhinweis, um zur betroffenen [Subdomain](../configuration/delegate-subdomain.md) in der [!DNL Journey Optimizer] weitergeleitet zu werden.
+1. Klicken Sie auf den Warnhinweis, um zur betroffenen [Subdomain](../configuration/delegate-subdomain.md) in der [!DNL Journey Optimizer]-Benutzeroberfläche weitergeleitet zu werden.
 
    <!--For guidance on editing delegated subdomains, see [this section](../configuration/delegate-subdomain.md).-->
 
-1. Stellen Sie die DNS-Konfiguration wieder her, indem Sie die Einträge korrekt festlegen und [die Subdomain übermitteln](../configuration/delegate-subdomain.md#submit-subdomain)Delegierung erneut durchführen.
+1. Stellen Sie die DNS-Konfiguration wieder her, indem Sie die Einträge korrekt festlegen und die Delegierung der [Subdomain erneut übermitteln](../configuration/delegate-subdomain.md#submit-subdomain).
 
    >[!NOTE]
    >
    >Stellen Sie sicher, dass alle Einträge ordnungsgemäß in Ihrer Domain-Hosting-Lösung erstellt wurden, bevor Sie fortfahren.
 
-1. Wenn Sie sich nicht sicher sind, welche Werte richtig sind, können Sie eine neue Subdomain in [!DNL Journey Optimizer] mit demselben Namen wie die betroffene Subdomain erstellen. [Erfahren Sie, wie Sie eine neue Subdomain einrichten](../configuration/delegate-subdomain.md#set-up-subdomain)
+1. Wenn Sie sich nicht sicher sind, welche Werte richtig sind, können Sie in [!DNL Journey Optimizer] eine neue Subdomain mit demselben Namen wie die betroffene Subdomain erstellen. [Informationen dazu, wie Sie eine neue Subdomain einrichten](../configuration/delegate-subdomain.md#set-up-subdomain)
 
-Wenn das Problem durch die Änderungen nicht behoben wird, wird derselbe Warnhinweis am nächsten Tag erneut ausgelöst.
+Wenn das Problem trotz der Änderungen weiterhin besteht, wird derselbe Warnhinweis am nächsten Tag erneut ausgelöst.
 
 <!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?-->
 

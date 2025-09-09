@@ -11,7 +11,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: cf9c6370af9541dc0e1361eb42c942d1744a1aae
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 >Nehmen Sie an unserer [Live-Funktionsvorstellung](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"} teil, um die Funktionen in der Praxis selbst zu erkunden und die vielfältigen Einsatzmöglichkeiten zu verstehen.
 
 
-Der KI-Assistent in Adobe Journey Optimizer, der von Microsoft Azure OpenAI und Adobe Firefly unterstützt wird, liefert proaktiv Vorschläge zur Variation von Text- und Bildinhalten. Diese neue Funktion bietet eine **Text- und Bildgenerierung**. Die Bildgenerierung wird mit Adobe Firefly gehandhabt.
+Der KI-Assistent in Adobe Journey Optimizer, der von Microsoft Azure OpenAI und Adobe Firefly unterstützt wird, liefert proaktiv Vorschläge zur Variation von Text- und Bildinhalten. Diese neue Funktion bietet eine **auf Prompts basierende Text- und Bildgenerierung**. Die Bildgenerierung wird von Adobe Firefly vewaltet.
 
 Der KI-Assistent unterstützt die Generierung **in mehreren Sprachen** sodass Sie unterschiedliche globale Zielgruppen erreichen und ansprechen können. Der KI-Assistent ist in den folgenden Sprachen verfügbar:
 
@@ -67,7 +67,7 @@ Der KI-Assistent unterstützt die Generierung **in mehreren Sprachen** sodass Si
   </tbody>
 </table>
 
-Sie können den KI-Assistenten in Adobe Journey Optimizer verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Generieren Sie mehrere Varianten und erstellen Sie ein Experiment, um sie zu vergleichen. Mithilfe des **Journey Optimizer** Inhaltsexperiments können Sie mehrere Nachrichtenbehandlungen definieren, um zu messen, welche für Ihre Zielgruppe am besten geeignet ist. Sie haben die Möglichkeit, Inhalt oder Betreff des Versands zu variieren. Die Zielgruppe der Nachricht wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert. Weiterführende Informationen zum Inhaltsexperiment finden Sie in [diesem Abschnitt](../content-management/content-experiment.md).
+Sie können den KI-Assistenten in Adobe Journey Optimizer verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Generieren Sie mehrere Varianten und erstellen Sie ein Experiment, um sie zu vergleichen. Mit dem **Journey Optimizer-Inhaltsexperiment** können Sie mehrere Nachrichtenabwandlungen definieren, um zu messen, welche bei Ihrer Zielgruppe am besten ankommt. Sie haben die Möglichkeit, Inhalt oder Betreff des Versands zu variieren. Die Zielgruppe der Nachricht wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert. Weiterführende Informationen zum Inhaltsexperiment finden Sie in [diesem Abschnitt](../content-management/content-experiment.md).
 
 >[!IMPORTANT]
 >
@@ -104,7 +104,7 @@ Die Benutzerin oder der Benutzer erhält eine E-Mail mit Anweisungen zum Zugriff
 
 +++
 
-## Schutzmechanismen und Einschränkungen {#generative-guardrails}
+## Leitlinien und Einschränkungen {#generative-guardrails}
 
 Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des KI-Assistenten in Adobe Journey Optimizer für die E-Mail-Generierung aufgeführt:
 

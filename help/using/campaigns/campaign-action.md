@@ -13,7 +13,7 @@ exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Nutzen der Optimierung**
 
-   Verwenden Sie den **[!UICONTROL Optimierung]**, um Inhaltsexperimente durchzuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experiment und Targeting zu verwenden. Diese verschiedenen Optionen und die zu befolgenden Schritte werden in [diesem Abschnitt) ](campaigns-message-optimization.md).
+   Verwenden Sie den Abschnitt **[!UICONTROL Optimierung]**, um Inhaltsexperimente durchzuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experimenten und Targeting zu verwenden. Diese verschiedenen Optionen und die zu befolgenden Schritte werden in [diesem Abschnitt](campaigns-message-optimization.md) ausführlich beschrieben.
 <!--
 1. **Create a content experiment**
 
@@ -78,7 +78,7 @@ Der Schnellversandmodus ist ein Add-on für [!DNL Journey Optimizer], das den se
 
 +++**Zuweisen von Prioritätswerten** (Web, In-App, Code-basiert)
 
-Wenn Sie der Kampagne einen Prioritätswert zuweisen, können Sie die Priorität einer eingehenden Kampagne festlegen, wenn eine Einschränkung vorliegt, z. B. eine Häufigkeitsbegrenzung. Geben Sie einen numerischen Wert ein (0–100). Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. [Informationen zum Zuweisen von Prioritätswerten zu Journeys und Kampagnen](../conflict-prioritization/priority-scores.md)
+Wenn Sie der Kampagne einen Prioritätswert zuweisen, können Sie eine eingehende Kampagne bei erzwungenen Begrenzungen wie z. B. einer Frequenzbegrenzung priorisieren. Geben Sie einen numerischen Wert ein (0–100). Bitte beachten Sie: Je höher die Zahl, desto höher die Priorität. [Informationen zum Zuweisen von Prioritätswerten zu Journeys und Kampagnen](../conflict-prioritization/priority-scores.md)
 
 +++
 
@@ -107,9 +107,9 @@ Um die Orchestrierung einer Kampagne zu vereinfachen, können Sie in einer Kampa
 >
 >Diese Funktion ist nur für eingehende Kanäle verfügbar. Derzeit werden ausgehende Kanäle wie E-Mail nicht unterstützt.
 
-Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, ohne unterschiedliche Kampagnen erstellen zu müssen. Dies erleichtert die Bereitstellung Ihrer Kampagne und ermöglicht ein reibungsloseres Reporting, indem alle Daten in einer einzigen Kampagne zusammengefasst werden.
+Mit dieser Funktion können Sie mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitstellen, ohne unterschiedliche Kampagnen erstellen zu müssen. Dies erleichtert die Bereitstellung Ihrer Journey und ermöglicht ein reibungsloseres Reporting, indem alle Daten in einer einzigen Kampagne zusammengefasst werden.
 
-Sie können beispielsweise ein Code-basiertes Erlebnis an mehrere Endpunkte mit geringfügig unterschiedlichen Inhalten senden. Erstellen Sie dazu verschiedene Code-basierte Aktionen innerhalb derselben Kampagne mit jeweils einer anderen Endpunktkonfiguration.
+Sie können beispielsweise ein Code-basiertes Erlebnis mit geringfügig unterschiedlichen Inhalten an mehrere Endpunkte senden. Erstellen Sie dazu verschiedene Code-basierte Aktionen innerhalb derselben Kampagne mit jeweils einer anderen Endpunktkonfiguration.
 
 Gehen Sie wie folgt vor, um in einer Kampagne mehrere eingehende Aktionen zu definieren.
 

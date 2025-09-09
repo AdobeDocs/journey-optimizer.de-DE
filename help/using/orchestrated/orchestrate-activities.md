@@ -8,24 +8,24 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # Orchestrieren von Kampagnenaktivitäten {#orchestrate}
 
-Nachdem Sie [eine orchestrierte Kampagne erstellt haben](gs-campaign-creation.md), können Sie mit der Orchestrierung der verschiedenen Aufgaben beginnen, die ausgeführt werden sollen. Dazu wird eine visuelle Arbeitsfläche bereitgestellt, mit der Sie eine orchestrierte Kampagnen-Arbeitsfläche erstellen können. Auf dieser Arbeitsfläche können Sie verschiedene Aktivitäten hinzufügen und in sequenzieller Reihenfolge miteinander verbinden.
+Nachdem Sie [eine orchestrierte Kampagne erstellt haben](gs-campaign-creation.md), können Sie mit der Orchestrierung der verschiedenen Aufgaben beginnen, die ausgeführt werden sollen. Zu diesem Zweck steht Ihnen eine visuelle Arbeitsfläche zur Verfügung, auf der Sie eine Arbeitsfläche für orchestrierte Kampagnen erstellen können. Innerhalb dieser Arbeitsfläche können Sie verschiedene Aktivitäten hinzufügen und sie in einer sequenziellen Reihenfolge verbinden.
 
 ## Hinzufügen von Aktivitäten {#add}
 
-In diesem Schritt der Konfiguration wird die Arbeitsfläche Orchestrierte Kampagne mit einem Startsymbol angezeigt, das den Beginn Ihrer Orchestrierten Kampagne darstellt. Um Ihre erste Aktivität hinzuzufügen, klicken Sie auf die Schaltfläche **+**, die mit dem Startsymbol verbunden ist.
+In dieser Phase der Konfiguration wird die Arbeitsfläche „Orchestrierte Kampagne“ mit einem Start-Symbol angezeigt, das den Beginn Ihrer orchestrierten Kampagne darstellt. Um Ihre erste Aktivität hinzuzufügen, klicken Sie auf die Schaltfläche **+**, die mit dem Startsymbol verbunden ist.
 
-Eine Liste der Aktivitäten, die der orchestrierten Kampagnen-Arbeitsfläche hinzugefügt werden können, wird angezeigt. Die verfügbaren Aktivitäten hängen von Ihrer Position auf der Arbeitsfläche der orchestrierten Kampagne ab. Wenn Sie Ihre erste Aktivität hinzufügen, können Sie Ihre orchestrierte Kampagne starten, indem Sie beispielsweise eine Zielgruppe ansprechen, den Pfad Ihrer orchestrierten Kampagne aufspalten oder eine Aktivität vom Typ **Warten** zum Verzögern der Ausführung der orchestrierten Kampagne festlegen. Andererseits können Sie nach der Aktivität **Zielgruppe erstellen** Ihre Zielgruppe mit Targeting-Aktivitäten verfeinern, einen Versand an Ihre Zielgruppe mit Kanalaktivitäten durchführen oder den Prozess der orchestrierten Kampagne mit Flusskontrollaktivitäten organisieren.
+Es wird eine Liste der Aktivitäten angezeigt, die zur Arbeitsfläche „Orchestrierte Kampagne“ hinzugefügt werden können. Welche Aktivitäten verfügbar sind, hängt von Ihrer Position innerhalb der Arbeitsfläche „Orchestrierte Kampagne“ ab. Wenn Sie Ihre erste Aktivität hinzufügen, können Sie Ihre orchestrierte Kampagne starten, indem Sie beispielsweise eine Zielgruppe ansprechen, den Pfad Ihrer orchestrierten Kampagne aufspalten oder eine Aktivität vom Typ **Warten** zum Verzögern der Ausführung der orchestrierten Kampagne festlegen. Andererseits können Sie nach der Aktivität **Zielgruppe erstellen** Ihre Zielgruppe mit Targeting-Aktivitäten verfeinern, einen Versand an Ihre Zielgruppe mit Kanalaktivitäten durchführen oder den Prozess der orchestrierten Kampagne mit Flusskontrollaktivitäten organisieren.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 
-Nachdem eine Aktivität zur Arbeitsfläche hinzugefügt wurde, wird ein rechter Bereich angezeigt, in dem Sie sie mit bestimmten Einstellungen konfigurieren können. Detaillierte Informationen über die Konfiguration jeder Aktivität finden Sie in [diesem Abschnitt](activities/about-activities.md).
+Sobald eine Aktivität zur Arbeitsfläche hinzugefügt wurde, erscheint rechts ein Bereich, in dem Sie die Aktivität mit spezifischen Einstellungen konfigurieren können. Detaillierte Informationen über die Konfiguration jeder Aktivität finden Sie in [diesem Abschnitt](activities/about-activities.md).
 
 ![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
@@ -86,7 +86,7 @@ Um die kopierten Aktivitäten einzufügen, klicken Sie auf die Schaltfläche **+
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-## Beispiel für die Arbeitsfläche {#example}
+## Beispiel einer Arbeitsfläche {#example}
 
 Im Folgenden finden Sie ein Beispiel für eine orchestrierte Kampagne, die eine E-Mail an alle Kundinnen und Kunden senden soll, die einen Kauf in der Höhe von mindestens 100 $ getätigt haben. Gleichzeitig werden alle Kundinnen und Kunden ausgeschlossen, die über weniger als 50 Treuepunkte verfügen.
 
@@ -107,4 +107,4 @@ Um dies zu bewerkstelligen, wurden die folgenden Aktivitäten hinzugefügt:
 
 ## Nächste Schritte {#next}
 
-Nachdem Sie die Arbeitsfläche für orchestrierte Kampagnen erfolgreich entworfen haben, können Sie die orchestrierte Kampagne ausführen und den Fortschritt der verschiedenen Aufgaben verfolgen. [Weitere Informationen zum Start einer orchestrierten Kampagne und zur Überwachung ihrer Ausführung](start-monitor-campaigns.md)
+Nachdem Sie die Arbeitsfläche der orchestrierten Kampagne erfolgreich entworfen haben, können Sie die orchestrierte Kampagne ausführen und den Fortschritt der verschiedenen Aufgaben verfolgen. [Weitere Informationen zum Start einer orchestrierten Kampagne und zur Überwachung ihrer Ausführung](start-monitor-campaigns.md)
