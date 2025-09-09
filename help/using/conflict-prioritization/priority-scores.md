@@ -72,4 +72,4 @@ Um den eingehenden Aktionen, die in der Aktivität **[!UICONTROL Action]** defin
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445010?quality=12&captions=ger)
