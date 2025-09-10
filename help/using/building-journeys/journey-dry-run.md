@@ -9,10 +9,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 100%
+source-wordcount: '1127'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 
 Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren.  Mit dieser Funktion können Journey-Anwendende Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie die Journey live veröffentlichen.
 
+➡️ [Weitere Informationen zum Journey von Probelauf finden Sie in diesem Video](#dry-run-video)
 
 ## Wichtigste Vorteile {#journey-dry-run-benefits}
 
@@ -144,3 +145,8 @@ Wenn Sie stepEvent-Daten in **externe Systeme** exportieren, können Sie Ausfüh
 
 Bei der Analyse von **Journey-Reporting-Metriken** mit dem Abfrage-Service von Adobe Experience Platform müssen die vom Probelauf generierten Schrittereignisse ausgeschlossen werden. Legen Sie dazu die Markierung `inDryRun` auf `false` fest.
 
+## Anleitungsvideo {#dry-run-video}
+
+In diesem Video erfahren Sie, wie Sie Ihre Journey trocknen und ausführen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

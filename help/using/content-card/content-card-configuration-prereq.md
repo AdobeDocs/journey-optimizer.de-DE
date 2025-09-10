@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
@@ -19,8 +19,8 @@ Damit Adobe Journey Optimizer Inhaltskarten korrekt anzeigt, müssen Sie die fol
 
 * **Adobe Experience Platform – Datenerfassung**
 
-  [Erstellen Sie einen Datenstrom](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure) und [fügen Sie den Dienst „Experience Platform“ hinzu](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure#aep). Aktivieren Sie die Optionen **[!UICONTROL Edge Segmentation]** und **[!UICONTROL Adobe Journey Optimizer]**. Dadurch wird sichergestellt, dass Ereignisse von Journey Optimizer vom Adobe Experience Platform Edge Network verarbeitet werden.
-Fügen Sie die Feldgruppe **Erlebnisereignis – Interaktion mit dem Angebot** zu Ihrem Datensatz hinzu, um diese Daten in Ihre Berichte aufzunehmen. [Weitere Informationen zu Datenströmen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure)
+  [Erstellen Sie einen Datenstrom](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure){target="_blank"} und [fügen Sie den Dienst „Experience Platform“ hinzu](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Aktivieren Sie die Optionen **[!UICONTROL Edge Segmentation]** und **[!UICONTROL Adobe Journey Optimizer]**. Dadurch wird sichergestellt, dass Ereignisse von Journey Optimizer vom Adobe Experience Platform Edge Network verarbeitet werden.
+Fügen Sie die Feldgruppe **Erlebnisereignis – Interaktion mit dem Angebot** zu Ihrem Datensatz hinzu, um diese Daten in Ihre Berichte aufzunehmen. [Weitere Informationen zu Datenströmen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
@@ -32,7 +32,7 @@ Fügen Sie die Feldgruppe **Erlebnisereignis – Interaktion mit dem Angebot** 
 
 * **Adobe Experience Platform Mobile- oder Platform Web SDK**
 
-  Für mobile und Web-Anwendungen müssen Sie entweder das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview) auf Ihrer Website oder das [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/) auf Ihren mobilen Apps implementieren, um Änderungen an Ihren Webseiten oder mobilen Apps vorzunehmen.
+  Für mobile und Web-Anwendungen müssen Sie entweder das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"} auf Ihrer Website oder das [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/){target="_blank"} auf Ihren mobilen Apps implementieren, um Änderungen an Ihren Webseiten oder mobilen Apps vorzunehmen.
 
 * **Journey Optimizer**
 
@@ -40,10 +40,10 @@ Fügen Sie die Feldgruppe **Erlebnisereignis – Interaktion mit dem Angebot** 
 
 * **Fehlerbehebung**
 
-  Verwenden Sie die Ansicht **Edge-Versand** in **Adobe Experience Platform Assurance**, um Fehler in mobilen Erlebnissen zu beheben. Sie kann Anfragen untersuchen, Edge-Aufrufe überprüfen und Profildaten untersuchen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/view/edge-delivery)
+  Verwenden Sie die Ansicht **Edge-Versand** in **Adobe Experience Platform Assurance**, um Fehler in mobilen Erlebnissen zu beheben. Sie kann Anfragen untersuchen, Edge-Aufrufe überprüfen und Profildaten untersuchen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
 
 * **Experimente mit Inhalten**
 
-  Stellen Sie sicher, dass der im [Datenstrom](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/overview#_blank) Ihrer App verwendete Datensatz auch in der Konfiguration für das Reporting von Experimenten mit Inhalten enthalten ist. App-Daten werden nicht in Berichten angezeigt, wenn die Datensätze nicht übereinstimmen.
+  Stellen Sie sicher, dass der im [Datenstrom](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/overview#_blank){target="_blank"} Ihrer App verwendete Datensatz auch in der Konfiguration für das Reporting von Experimenten mit Inhalten enthalten ist. App-Daten werden nicht in Berichten angezeigt, wenn die Datensätze nicht übereinstimmen.
 
   In [diesem Abschnitt](../reports/reporting-configuration.md) erfahren Sie, wie Sie Datensätze für das Reporting zu Inhaltsexperimenten hinzufügen.

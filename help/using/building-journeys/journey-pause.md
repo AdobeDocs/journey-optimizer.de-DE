@@ -9,7 +9,7 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
+source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 91%
@@ -197,7 +197,7 @@ Wenn Sie diese Journey fortsetzen:
 1. Neue Journey-Eintritte beginnen innerhalb einer Minute.
 1. Profile, die zu dem Zeitpunkt in der Journey auf Aktivitäten vom Typ **Aktion** gewartet haben, werden mit einer Rate von 5.000 TPS fortgesetzt. Sie können dann in die **Aktion** eintreten, auf die sie gewartet haben, und die Journey fortsetzen.
 
-## Fehlerbehebung bei Profilverwerfen in pausierten Journey  {#discards-troubleshoot}
+## Fehlerbehebung bei Profilverwerfen in pausierten Journey {#discards-troubleshoot}
 
 Sie können den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden, um Schrittereignisse abzufragen, die je nach Zeitpunkt weitere Informationen zu Profilverwerfen enthalten können.
 
