@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
@@ -32,7 +32,6 @@ ht-degree: 100%
 Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Maßnahmen mit Eins-zu-eins-Kundeninteraktionen aufeinander abstimmen können. Die Benutzeroberfläche ermöglicht es, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen, um eine Journey zu erstellen. Die Journey-Benutzeroberfläche wird auf [dieser Seite](journey-ui.md) beschrieben.
 
 ![Beispiel einer Journey-Arbeitsfläche](assets/journey38.png)
-
 
 Die wichtigsten Schritte zum Erstellen einer Journey werden auf dieser Seite beschrieben. Sie wurden wie folgt optimiert:
 
