@@ -149,4 +149,4 @@ Bei der Analyse von **Journey-Reporting-Metriken** mit dem Abfrage-Service von A
 
 In diesem Video erfahren Sie, wie Sie Ihre Journey trocknen und ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464691/?learn=on&enablevpops&captions=ger)
