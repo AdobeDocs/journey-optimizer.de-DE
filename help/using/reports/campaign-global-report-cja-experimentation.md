@@ -1,22 +1,21 @@
 ---
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+solution: Journey Optimizer
+product: journey optimizer
+title: Kampagnenbericht
+description: Informationen zum Verwenden von Experimentdaten aus dem Kampagnenbericht
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
+exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 57%
+source-wordcount: '336'
+ht-degree: 64%
 
 ---
-@ -0,0 +1,71 @@
----
-Lösung: Journey Optimizer
-Produkt: Journey Optimizer
-Titel: Kampagnenbericht
-Beschreibung: Erfahren Sie, wie Sie Experimentierdaten aus dem Kampagnenbericht verwenden
-Funktion: Berichterstellung
-Thema: Content-Management
-Rolle: Benutzer
-Ebene: Mittel
-exl-id: 69742163-7378-49ab-929e-86213d6e65e3
----
+
+
 # Experimente – Kampagnenbericht {#campaign-global-report-cja-experimentation}
 
 >[!CONTEXTUALHELP]
