@@ -11,10 +11,10 @@ keywords: Aktivität, Bedingung, Arbeitsfläche, Journey, Optimierung
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 43%
+source-wordcount: '1297'
+ht-degree: 37%
 
 ---
 
@@ -50,7 +50,7 @@ Sobald die Journey live ist, werden die Profile anhand der definierten Kriterien
 ## Verwenden von Experimenten {#experimentation}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_path_experiment_success_metric"
+>id="ajo_path_experiment_success_metric"
 >title="Erfolgsmetrik"
 >abstract="Die Erfolgsmetrik wird verwendet, um die Abwandlung mit der besten Leistung in einem Experiment zu verfolgen und auszuwerten."
 
@@ -70,7 +70,7 @@ Angenommen, Sie möchten drei Pfade vergleichen:
 
 1. Wählen Sie **[!UICONTROL Experiment]** aus der Dropdown-Liste **[!UICONTROL Methode]** aus.
 
-   ![](assets/journey-optimize-experiment.png){width=75%}
+   ![](assets/journey-optimize-experiment.png){width=65%}
 
 1. Klicken Sie **[!UICONTROL Experiment erstellen]**.
 
@@ -137,15 +137,17 @@ Testen Sie, ob das Senden der ersten Nachricht per E-Mail oder per SMS zu höher
 
 ➡️ Konversionsrate als Optimierungsmetrik verwenden (z. B.: Käufe, Anmeldungen).
 
-![](assets/journey-optimize-experiment-uc.png)
+![](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
 +++Nachrichtenfrequenz
 
-➡️ Führen Sie ein Experiment aus, um zu überprüfen, ob der Versand einer E-Mail im Vergleich zu drei E-Mails pro Woche zu mehr Käufen führt.
+Führen Sie ein Experiment durch, um zu überprüfen, ob der Versand einer E-Mail im Vergleich zu drei E-Mails pro Woche zu mehr Käufen führt.
 
-Verwenden Sie Käufe oder die Abmelderate als Optimierungsmetrik.
+➡️ Verwenden Sie Käufe oder die Abmelderate als Optimierungsmetrik.
+
+![](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -155,9 +157,16 @@ Vergleichen Sie eine Wartezeit von 24 Stunden mit einer Wartezeit von 72 Stunden
 
 ➡️ Verwenden Sie die Clickthrough-Rate oder den Umsatz als Optimierungsmetrik.
 
+![](assets/journey-optimize-experiment-uc-wait.png)
+
 +++
 
 ## Nutzen von Targeting {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_path_targeting_fallback"
+>title="Was ist ein Fallback-Pfad?"
+>abstract="Fallback erstellt einen neuen Pfad für die Zielgruppe, der keiner der oben definierten Zielgruppenbestimmungsregeln entspricht.</br>Wenn Sie diese Option nicht auswählen, gibt jede Zielgruppe, die sich nicht für eine Zielgruppenbestimmungsregel qualifiziert, den Fallback-Pfad nicht ein."
 
 Mit Targeting-Regeln können Sie bestimmte Regeln oder Qualifikationen festlegen, die eine Kundin oder ein Kunde basierend auf bestimmten Zielgruppensegmenten erfüllen muss, um für den Eintritt in einen der Journey-Pfade berechtigt zu <!-- depending on profile attributes or contextual attributes-->.
 
@@ -179,7 +188,7 @@ Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 
 1. Wählen **[!UICONTROL Zielgruppenbestimmungsregel]** aus der Dropdown **[!UICONTROL Liste]** Methode“ aus.
 
-   ![](assets/journey-optimize-targeting.png){width=70%}
+   ![](assets/journey-optimize-targeting.png){width=60%}
 
 1. Klicken Sie auf **[!UICONTROL Targeting-Regel erstellen]**.
 
@@ -187,7 +196,11 @@ Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 
    ![](assets/journey-targeting-rule.png)
 
-1. Wählen Sie nach Bedarf **[!UICONTROL Fallback-Inhalte aktivieren]** aus. Mit Fallback-Inhalten kann Ihre Zielgruppe einen Standardinhalt erhalten, falls keine der Targeting-Regeln erfüllt ist. Falls Sie diese Option nicht auswählen, wechseln Zielgruppen, die sich nicht für eine der oben definierten Targeting-Regeln qualifizieren, nicht in einen Fallback-Pfad.
+1. Wählen Sie bei **[!UICONTROL die Option]** Fallback-Inhalt aktivieren“ aus. Diese Aktion erstellt einen Fallback-Pfad für die Zielgruppe, der keiner der oben definierten Zielgruppenbestimmungsregeln entspricht.
+
+   >[!NOTE]
+   >
+   >Wenn Sie diese Option nicht auswählen, gibt jede Zielgruppe, die sich nicht für eine Zielgruppenbestimmungsregel qualifiziert, den Fallback-Pfad nicht ein.
 
 1. Klicken Sie **[!UICONTROL Erstellen]** um Ihre Einstellungen für die Zielgruppenregel zu speichern.
 
@@ -195,7 +208,11 @@ Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 
    ![](assets/journey-targeting-paths.png)
 
-1. Verwenden Sie optional den **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** um eine Ausweichaktion zu definieren. [Weitere Informationen](using-the-journey-designer.md#paths)
+1. Wenn Sie bei der Definition der **[!UICONTROL die Option]** Fallback-Inhalt aktivieren“ ausgewählt haben, definieren Sie eine oder mehrere Aktionen für den automatisch hinzugefügten Fallback-Pfad.
+
+   ![](assets/journey-targeting-fallback.png){width=70%}
+
+1. Verwenden Sie optional den **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** um eine alternative Aktion zu definieren, falls Probleme auftreten. [Weitere Informationen](using-the-journey-designer.md#paths)
 
 1. Entwerfen Sie geeignete Inhalte für jede Aktion, die jeder durch Ihre Zielgruppenregeleinstellungen definierten Gruppe entspricht. Sie können für jede Aktion nahtlos zwischen den verschiedenen Inhalten navigieren.
 
@@ -219,7 +236,7 @@ Mitglieder des Treueprogramms mit Gold-Status können personalisierte Angebote p
 
 ➡️ Verwenden Sie den Umsatz pro Profil oder die Konversionsrate als Optimierungsmetrik.
 
-![](assets/journey-optimize-targeting-uc.png)
+![](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -229,6 +246,8 @@ Kundinnen und Kunden, die eine E-Mail geöffnet, aber nicht geklickt haben, kön
 
 ➡️ Verwenden Sie die Clickthrough-Rate oder nachgelagerte Konversionen als Optimierungsmetrik.
 
+![](assets/journey-optimize-targeting-uc-behavior.png)
+
 +++
 
 +++Zielgruppenbestimmung bezüglich des Kaufverlaufs
@@ -236,6 +255,8 @@ Kundinnen und Kunden, die eine E-Mail geöffnet, aber nicht geklickt haben, kön
 Kundinnen und Kunden, die kürzlich gekauft haben, können in einen kurzen „Danke + Crosssell“-Pfad eintreten, während Kundinnen und Kunden ohne Kaufhistorie eine längere Nurturing-Journey durchlaufen.
 
 ➡️ Verwenden Sie die Wiederholungskaufrate oder Interaktionsrate als Optimierungsmetrik.
+
+![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
