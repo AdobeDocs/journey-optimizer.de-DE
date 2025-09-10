@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2926'
 ht-degree: 99%
 
 ---
@@ -41,14 +41,14 @@ ht-degree: 99%
       + [Erste Schritte als Datentechniker](using/start/path/data-engineer.md)
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
-   + [Benutzeroberfläche](using/start/user-interface.md)
-   + [Suchen, Filtern, Kategorisieren](using/start/search-filter-categorize.md)
-   + [Barrierefreiheit](using/start/accessibility.md)
+   + Benutzeroberfläche {#ui}
+      + [Erste Schritte mit der Benutzeroberfläche](using/start/user-interface.md)
+      + [Suchen, Filtern, Kategorisieren](using/start/search-filter-categorize.md)
+      + [Barrierefreiheit](using/start/accessibility.md)
    + [Arbeiten mit dem KI-Assistenten](using/start/ai-assistant.md)
-   + [Leitlinien](using/start/guardrails.md)
-   + [Best Practices](using/start/best-practices.md)
+   + [Anwendungsfall-Playbooks](using/start/playbooks.md)
+   + [Leitlinien und Einschränkungen](using/start/guardrails.md)
    + [Fehlerbehebung](using/start/troubleshooting.md)
-   + [Playbooks](using/start/playbooks.md)
 + Journeys {#orchestrate-journeys}
    + [Journeys](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)
