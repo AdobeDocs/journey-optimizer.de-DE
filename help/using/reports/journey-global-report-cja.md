@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 100%
+source-wordcount: '971'
+ht-degree: 94%
 
 ---
 
@@ -145,5 +145,23 @@ Die Tabelle **[!UICONTROL Ereignisüberblick]** zeigt an, wie viele Profile im Z
 +++ Weitere Informationen zu den Metriken „Journey-Statistiken“
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Ereignisse eignen.
+
++++
+
+## Targeting-Übersicht {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+Wenn Sie **[!UICONTROL Targeting-Regeln]** für Ihre Inhalte einrichten, bietet die Tabelle **[!UICONTROL Targeting-Übersicht]** eine detaillierte Ansicht der wichtigsten Interaktionsmetriken, die zeigt, wie die Zielgruppenprofile für jede Regel mit Ihren Inhalten interagiert haben.
+
+➡️ [Weitere Informationen zu Zielgruppenbestimmungsregeln](../campaigns/campaigns-message-optimization.md)
+
++++ Weitere Informationen über Übersichtsmetriken zum Targeting
+
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Ereignisse eignen.
+
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in einer E-Mail geklickt haben.
+
+* **[!UICONTROL Rate von Einzelklicks]**: Prozentsatz der Zielgruppenprofile, die mindestens einmal geklickt haben.
 
 +++

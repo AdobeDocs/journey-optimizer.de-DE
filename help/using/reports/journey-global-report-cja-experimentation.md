@@ -1,42 +1,41 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
+title: Kampagnenbericht
+description: Erfahren Sie, wie Sie Experimentierdaten aus dem Journey-Bericht verwenden
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 57%
+source-wordcount: '386'
+ht-degree: 37%
 
 ---
-@ -0,0 +1,71 @@
----
-Lösung: Journey Optimizer
-Produkt: Journey Optimizer
-Titel: Kampagnenbericht
-Beschreibung: Erfahren Sie, wie Sie Experimentierdaten aus dem Kampagnenbericht verwenden
-Funktion: Berichterstellung
-Thema: Content-Management
-Rolle: Benutzer
-Ebene: Mittel
-exl-id: 69742163-7378-49ab-929e-86213d6e65e3
----
-# Experimente – Kampagnenbericht {#campaign-global-report-cja-experimentation}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="Erfolgsmetrik"
->abstract="Der Gesamtwert der Erfolgsmetrik, die zuvor beim Erstellen der Experimente ausgewählt wurde, dividiert durch die Anzahl der Profile."
+# Experimentier-Journey-Bericht {#campaign-global-report-cja-experimentation}
 
-## Experimentieren {#experimentation}
+Ihr Journey-Bericht bietet Ihnen einen vollständigen Überblick über die Leistung Ihres Experiments sowie die wichtigsten Metriken, die Sie benötigen, um die Auswirkungen zu verstehen.
 
-Die Registerkarte **[!UICONTROL Experimentieren]** bietet wichtige Einblicke in die Performance der einzelnen Varianten und ermittelt die erfolgreichste Variante.
+In Journey Optimizer ist das Journey-Experimentieren in zwei Typen unterteilt:
 
-Beachten Sie, dass es ein wenig dauern kann, um die beste Leistung zu ermitteln.  Wenn Ihr Experiment nicht erfolgreich ist, wird es auf **Nicht stichhaltig** gesetzt.
+* [Inhaltsexperimente](../content-management/content-experiment.md)
+* [Pfadexperimente](../building-journeys/optimize.md)
 
-![](assets/cja-experimentation-1.png)
+## Pfadexperiment {#experimentation}
+
+>[!NOTE]
+>
+> Die für Ihr Inhaltsexperiment detaillierten Tabellen und KPIs sind mit denen für ein Pfadexperiment identisch. Wenn Sie ein Inhaltsexperiment eingerichtet haben, lesen Sie die folgende Dokumentation.
 
 ### Experiment-KPIs {#experimentation-kpis}
 
-![](assets/cja-experimentation-kpis.png)
+![](assets/journey-report-experiment-1.png)
 
-Die KPIs (Key Performance Indicators) zum **[!UICONTROL Experimentieren]** dienen als allumfassendes Dashboard und liefern eine Analyse der wesentlichen Metriken, die mit Ihren Experimenten verknüpft sind.
+Die **Experimentzusammenfassung** bietet wichtige Einblicke in die Leistung Ihres Experiments und ermittelt die erfolgreichste Variante. Beachten Sie, dass es ein wenig dauern kann, um die beste Leistung zu ermitteln.  Wenn Ihr Experiment nicht erfolgreich ist, wird es auf **Nicht stichhaltig** gesetzt.
+
+Die **Experiment-KPIs** dienen als umfassendes Dashboard und liefern eine Analyse der wichtigsten Metriken, die mit Ihrem Experiment verbunden sind.
 
 +++ Weitere Informationen zu den Metriken für Experiment-KPIs
 
@@ -46,7 +45,9 @@ Die KPIs (Key Performance Indicators) zum **[!UICONTROL Experimentieren]** diene
 
 +++
 
-### Variante nach Erfolgsmetrik {#variant-inbound}
+
+
+### Varianten nach Erfolgsmetriken {#variant-inbound}
 
 ![](assets/cja-experimentation-variants.png)
 
@@ -74,6 +75,5 @@ Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf
 ### Konversionsrate für Erfolgsmetriken {#conversion-rate}
 
 ![](assets/cja-experimentation-conversion.png)
-
 
 Das Diagramm **[!UICONTROL Konfidenzintervall]** zeigt den Bereich der möglichen Verbesserung an, indem die Grundlinie mit der Behandlung mit der besten Leistung für die ausgewählte Erfolgsmetrik verglichen wird. [Weitere Informationen](../content-management/experiment-calculations.md#confidence-intervals).
