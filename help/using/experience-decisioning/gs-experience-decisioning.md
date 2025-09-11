@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
 1. **Erstellen Sie Entscheidungselemente**, um die Zielgruppe anzuzeigen.
 
-   ➡️ [Informationen zum Erstellen von Entscheidungselementen](items.md) in der Benutzeroberfläche (und in der [API-Dokumentation](api-reference/decisions-items/create.md))
+   ➡️ [Erfahren Sie, wie Sie ](items.md) in der Benutzeroberfläche (und in der [-Dokumentation) ](api-reference/decisions-items/create.md).
 
 1. **Mit Sammlungen organisieren**: Verwenden Sie Sammlungen, um Entscheidungselemente basierend auf attributbasierten Regeln zu kategorisieren. Sammlungen können in Auswahlstrategien integriert werden, um zu bestimmen, welche Sammlung von Entscheidungselementen berücksichtigt werden soll.
 
