@@ -12,10 +12,10 @@ keywords: Dunkler Modus, E-Mail, Farbe, Editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 0501691c29d82dd1b8c94e0366e66cf5534cd1d2
+source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 73%
+source-wordcount: '1524'
+ht-degree: 70%
 
 ---
 
@@ -115,7 +115,9 @@ In diesem Fall sollten die spezifischen Einstellungen angezeigt werden, die Sie 
 >
 >In diesem Abschnitt erfahren Sie, wie Sie mit der E-Mail-Designer benutzerdefinierte Einstellungen für [ Dunkelmodus ](#define-custom-dark-mode).
 
-Es können jedoch einige Einschränkungen gelten. Beispielsweise erzeugen einige E-Mail-Clients wie Apple Mail 16 (macOs 13) keinen Dunkelmodus, wenn im E-Mail-Inhalt Bilder vorhanden sind.
+Je nach E-Mail-Client können jedoch einige Einschränkungen gelten. Beispielsweise erzeugen einige Clients wie Apple Mail 16 (macOs 13) keinen Dunkelmodus, wenn im E-Mail-Inhalt Bilder vorhanden sind.
+
+Um optimale Ergebnisse zu erzielen, testen Sie Ihren Inhalt mit den anvisierten E-Mail-Clients. Um eine Simulation anzuzeigen, die dem Endergebnis für jeden Client so nahe wie möglich kommt, verwenden Sie die Option [E-Mail-Rendering](../content-management/rendering.md) in der E-Mail-Designer.
 
 ## Dunkler Modus im E-Mail-Designer {#dark-mode-email-designer}
 
