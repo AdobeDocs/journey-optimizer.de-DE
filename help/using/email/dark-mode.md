@@ -12,10 +12,10 @@ keywords: Dunkler Modus, E-Mail, Farbe, Editor
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
+source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 70%
+source-wordcount: '1527'
+ht-degree: 64%
 
 ---
 
@@ -24,21 +24,16 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Wechseln zum dunklen Modus"
->abstract="Zum dunklen Modus wechseln, in dem eine Vorschau des Renderings angezeigt und bestimmte benutzerdefinierte Einstellungen definiert werden können. <br>Vorsicht: Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
-
->[!CONTEXTUALHELP]
->id="ac_edition_darkmode_image"
->title="Verwenden eines bestimmten Bildes für den dunklen Modus"
->abstract="Es kann ein anderes Bild ausgewählt werden, das angezeigt wird, wenn der dunkle Modus aktiviert ist. <br>Vorsicht: Das Hinzufügen eines bestimmten Bildes für den dunklen Modus garantiert nicht, dass es in allen E-Mail-Clients ordnungsgemäß gerendert wird. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
+>abstract="Wechseln Sie in den Dunkelmodus, in dem Sie eine Vorschau des Renderings anzeigen und spezifische benutzerdefinierte Einstellungen definieren können. <br>Das endgültige Rendering hängt vom E-Mail-Client des Empfängers ab. Beachten Sie, dass nicht alle E-Mail-Clients den benutzerdefinierten Dunkelmodus unterstützen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Wechseln zum dunklen Modus"
->abstract="Wechseln Sie zum dunklen Modus, um eine Vorschau des Renderings auf unterstützenden E-Mail-Clients anzuzeigen. <br>Vorsicht: Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
+>abstract="Wechseln Sie zum dunklen Modus, um eine Vorschau des Renderings auf unterstützenden E-Mail-Clients anzuzeigen. <br>Das endgültige Rendering hängt vom E-Mail-Client des Empfängers ab. Beachten Sie, dass alle E-Mail-Clients den Dunkelmodus nicht unterstützen."
 
 >[!AVAILABILITY]
 >
->Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. Wenden Sie sich an den Adobe-Support, um am Beta-Programm teilzunehmen.
+>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. <!--To join the beta program, contact your Adobe representative.-->
 
 Designer Beim Entwerfen Ihrer E-Mails können Sie mit [!DNL Journey Optimizer] [E-Mail-](get-started-email-design.md)) zur Ansicht **[!UICONTROL Dunkelmodus]** wechseln.
 
@@ -73,6 +68,7 @@ Bevor Sie den Dunkelmodus in der [!DNL Journey Optimizer] E-Mail-Designer verwen
 ### Clients unterstützen keinen Dunkelmodus {#not-supporting}
 
 Einige E-Mail-Clients unterstützen diese Funktion überhaupt nicht, z. B.:
+
 * Yahoo!Mail
 * AOL
 
@@ -80,7 +76,9 @@ Unabhängig davon, ob Sie benutzerdefinierte Einstellungen für den Dunkelmodus 
 
 ### Clients, die ihren eigenen Dunkelmodus anwenden {#default-support}
 
-Einige E-Mail-Clients wenden systematisch ihren eigenen standardmäßigen Dunkelmodus auf alle empfangenen E-Mails an. Farben, Hintergründe, Bilder usw. werden automatisch mit den Dunkelmoduseinstellungen des E-Mail-Clients angepasst.
+Einige E-Mail-Clients wenden systematisch ihren eigenen standardmäßigen Dunkelmodus auf alle empfangenen E-Mails an. Farben, Hintergründe, Bilder usw. werden automatisch mit den für den E-Mail-Client spezifischen Einstellungen für den Dunkelmodus angepasst, was bedeutet, dass keine externe Änderung möglich ist.
+
+<!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
 Diese Clients sind zum Beispiel:
 
@@ -173,6 +171,11 @@ Das bedeutet, dass Bereiche mit hellen und dunklen Elementen erkannt und inverti
 Here you can see that we have applied a different background, defined another image and change the color of the text and button.-->
 
 ### Definieren des benutzerdefinierten dunklen Modus {#define-custom-dark-mode}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_darkmode_image"
+>title="Verwenden eines bestimmten Bildes für den dunklen Modus"
+>abstract="Es kann ein anderes Bild ausgewählt werden, das angezeigt wird, wenn der dunkle Modus aktiviert ist. <br>Das Hinzufügen eines bestimmten Bildes für den Dunkelmodus garantiert nicht, dass es in allen E-Mail-Clients korrekt gerendert wird. Beachten Sie, dass nicht alle E-Mail-Clients den benutzerdefinierten Dunkelmodus unterstützen."
 
 Nach dem Wechsel in den **[!UICONTROL dunklen Modus]** können Sie bestimmte Stilelemente Ihres Inhalts bearbeiten, die nur angezeigt werden, wenn der dunkle Modus im E-Mail-Client der Empfängerin bzw. des Empfängers aktiviert ist, sofern diese Funktion unterstützt wird.
 

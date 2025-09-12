@@ -11,10 +11,10 @@ keywords: Aktivität, Bedingung, Arbeitsfläche, Journey, Optimierung
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 37%
+source-wordcount: '1257'
+ht-degree: 35%
 
 ---
 
@@ -135,7 +135,7 @@ Die folgenden Beispiele zeigen, wie Sie mit der Aktivität **[!UICONTROL Optimie
 
 Testen Sie, ob das Senden der ersten Nachricht per E-Mail oder per SMS zu höheren Konversionen führt.
 
-➡️ Konversionsrate als Optimierungsmetrik verwenden (z. B.: Käufe, Anmeldungen).
+➡️ Verwenden Sie die Konversionsrate als Erfolgsmetrik (z. B.: Käufe, Anmeldungen).
 
 ![](assets/journey-optimize-experiment-uc-channel.png)
 
@@ -145,7 +145,7 @@ Testen Sie, ob das Senden der ersten Nachricht per E-Mail oder per SMS zu höher
 
 Führen Sie ein Experiment durch, um zu überprüfen, ob der Versand einer E-Mail im Vergleich zu drei E-Mails pro Woche zu mehr Käufen führt.
 
-➡️ Verwenden Sie Käufe oder die Abmelderate als Optimierungsmetrik.
+➡️ Verwenden Sie Käufe oder die Abmelderate als Erfolgsmetrik.
 
 ![](assets/journey-optimize-experiment-uc-frequency.png)
 
@@ -155,7 +155,7 @@ Führen Sie ein Experiment durch, um zu überprüfen, ob der Versand einer E-Mai
 
 Vergleichen Sie eine Wartezeit von 24 Stunden mit einer Wartezeit von 72 Stunden vor einem Nachfassen, um zu ermitteln, welcher Zeitraum die Interaktion maximiert.
 
-➡️ Verwenden Sie die Clickthrough-Rate oder den Umsatz als Optimierungsmetrik.
+➡️ Verwenden Sie die Clickthrough-Rate oder den Umsatz als Erfolgsmetrik.
 
 ![](assets/journey-optimize-experiment-uc-wait.png)
 
@@ -166,7 +166,7 @@ Vergleichen Sie eine Wartezeit von 24 Stunden mit einer Wartezeit von 72 Stunden
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="Was ist ein Fallback-Pfad?"
->abstract="Fallback erstellt einen neuen Pfad für die Zielgruppe, der keiner der oben definierten Zielgruppenbestimmungsregeln entspricht.</br>Wenn Sie diese Option nicht auswählen, gibt jede Zielgruppe, die sich nicht für eine Zielgruppenbestimmungsregel qualifiziert, den Fallback-Pfad nicht ein."
+>abstract="Fallback-Pfade ermöglichen es Ihrer Zielgruppe, einen alternativen Pfad einzugeben, wenn keine Targeting-Regeln qualifiziert sind. </br>Wenn Sie diese Option nicht auswählen, wird die Zielgruppe, die sich nicht für eine Zielgruppenbestimmungsregel qualifiziert, nicht in den Fallback-Pfad aufgenommen und die Journey wird beendet."
 
 Mit Targeting-Regeln können Sie bestimmte Regeln oder Qualifikationen festlegen, die eine Kundin oder ein Kunde basierend auf bestimmten Zielgruppensegmenten erfüllen muss, um für den Eintritt in einen der Journey-Pfade berechtigt zu <!-- depending on profile attributes or contextual attributes-->.
 
@@ -196,11 +196,11 @@ Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 
    ![](assets/journey-targeting-rule.png)
 
-1. Wählen Sie bei **[!UICONTROL die Option]** Fallback-Inhalt aktivieren“ aus. Diese Aktion erstellt einen Fallback-Pfad für die Zielgruppe, der keiner der oben definierten Zielgruppenbestimmungsregeln entspricht.
+1. Wählen Sie bei **[!UICONTROL die Option]** Fallback-Pfad aktivieren“ aus. Diese Aktion erstellt einen Fallback-Pfad für die Zielgruppe, der keiner der oben definierten Zielgruppenbestimmungsregeln entspricht.
 
    >[!NOTE]
    >
-   >Wenn Sie diese Option nicht auswählen, gibt jede Zielgruppe, die sich nicht für eine Zielgruppenbestimmungsregel qualifiziert, den Fallback-Pfad nicht ein.
+   >Wenn Sie diese Option nicht auswählen, gibt jede Zielgruppe, die sich nicht für eine Zielgruppenbestimmungsregel qualifiziert, den Fallback-Pfad nicht ein und beendet die Journey.
 
 1. Klicken Sie **[!UICONTROL Erstellen]** um Ihre Einstellungen für die Zielgruppenregel zu speichern.
 
@@ -234,7 +234,7 @@ Die folgenden Beispiele zeigen, wie die Aktivität **[!UICONTROL Optimieren]** m
 
 Mitglieder des Treueprogramms mit Gold-Status können personalisierte Angebote per E-Mail erhalten, während alle anderen Mitglieder zu SMS-Erinnerungen weitergeleitet werden.
 
-➡️ Verwenden Sie den Umsatz pro Profil oder die Konversionsrate als Optimierungsmetrik.
+<!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-segment.png)
 
@@ -244,7 +244,7 @@ Mitglieder des Treueprogramms mit Gold-Status können personalisierte Angebote p
 
 Kundinnen und Kunden, die eine E-Mail geöffnet, aber nicht geklickt haben, können eine Push-Benachrichtigung erhalten, während diejenigen, die sie überhaupt nicht geöffnet haben, eine SMS erhalten.
 
-➡️ Verwenden Sie die Clickthrough-Rate oder nachgelagerte Konversionen als Optimierungsmetrik.
+<!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-behavior.png)
 
@@ -254,15 +254,15 @@ Kundinnen und Kunden, die eine E-Mail geöffnet, aber nicht geklickt haben, kön
 
 Kundinnen und Kunden, die kürzlich gekauft haben, können in einen kurzen „Danke + Crosssell“-Pfad eintreten, während Kundinnen und Kunden ohne Kaufhistorie eine längere Nurturing-Journey durchlaufen.
 
-➡️ Verwenden Sie die Wiederholungskaufrate oder Interaktionsrate als Optimierungsmetrik.
+<!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
-## Hinzufügen einer Bedingung {#conditions}
+### Hinzufügen einer Bedingung {#conditions}
 
-Sie können eine Bedingung hinzufügen, um zu definieren, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade basierend auf bestimmten Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen.
+Bedingungen sind eine Art von [Targeting](#targeting)-Regeln, mit denen Sie festlegen können, wie sich Personen durch Ihren Journey bewegen, indem Sie mehrere Pfade auf der Grundlage bestimmter Kriterien erstellen.
 
 ![](assets/journey-condition.png)
 
