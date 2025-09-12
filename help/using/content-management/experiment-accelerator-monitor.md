@@ -10,9 +10,9 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1108'
 ht-degree: 5%
 
 ---
@@ -71,11 +71,13 @@ Das **[!UICONTROL Experimentergebnis]** bietet Ihnen einen schnellen Überblick 
 
 ### Einrichten {#set-up}
 
-![](assets/experiment-monitor-hypothesis.png)
-
 Die **[!UICONTROL Hypothese]** erfasst die geplanten Änderungen, die getestet werden sollen, und dokumentiert die erwarteten Auswirkungen auf die primäre Metrik. Durch die Definition einer klaren **[!UICONTROL Hypothese]** wird sichergestellt, dass jedes Experiment ein messbares Ziel hat. Dies erleichtert die Bewertung der Ergebnisse und die Ermittlung, ob die Änderungen zu sinnvollen Verbesserungen führen.
 
+Beachten Sie, [ Sie Hypothesen- und Behandlungsdetails sowie die statistische Signifikanz bestätigen müssen, um „Experimenteinblicke](#insights) zu generieren.
+
 1. Klicken Sie **[!UICONTROL Hinzufügen]**, um eine **[!UICONTROL Hypothese]** für Ihr Experiment zu erstellen.
+
+   ![](assets/experiment-monitor-setup-1.png)
 
 1. Geben Sie Ihre **[!UICONTROL Hypothese) ein]** indem Sie die vorgenommenen Änderungen und deren Auswirkungen auf die primäre Metrik detailliert beschreiben.
 
@@ -83,7 +85,9 @@ Die **[!UICONTROL Hypothese]** erfasst die geplanten Änderungen, die getestet w
 
 1. Klicken Sie **[!UICONTROL Überprüfen]**, um das Bild für jede Variante hinzuzufügen oder zu ersetzen.
 
-1. Wählen Sie **[!UICONTROL Bild hinzufügen]** oder **[!UICONTROL Bild ersetzen]**, um aus Ihren lokalen Dateien den besten Screenshot für Ihre **[!UICONTROL Behandlungen]** auszuwählen.
+   ![](assets/experiment-monitor-setup-2.png)
+
+1. Abwandlungsbilder werden automatisch generiert. Bei Bedarf können Sie jedoch **[!UICONTROL Bild hinzufügen]** oder **[!UICONTROL Bild ersetzen]** auswählen, um einen bevorzugten Screenshot aus Ihren lokalen Dateien für Ihre **[!UICONTROL Abwandlungen]** hochzuladen.
 
    Beachten Sie, dass der Screenshot die gesamte Seite erfassen sollte.
 
@@ -123,17 +127,17 @@ Unten im Widget finden Sie eine kurze Zusammenfassung Ihrer Experimentkonfigurat
 >
 >Die Opportunities-Funktion ist auf Experimente mit textbasierten Änderungen beschränkt.
 
-![](assets/experiment-monitor-opportunities.png)
-
 Das Bedienfeld **[!UICONTROL Opportunities]** zeigt KI-generierte Empfehlungen an, die darauf ausgelegt sind, die Testleistung zu verbessern und sie an breiter gefasste Geschäftsziele und KPIs anzupassen.
 
-1. Wählen Sie die gewünschte Opportunity aus und klicken Sie auf **[!UICONTROL Opportunity anzeigen]**.
+Beachten Sie, dass Sie für die Generierung von Experimentmöglichkeiten zunächst ([ und Behandlungsdetails) ](#set-up) müssen.
+
+1. Durchsuchen Sie die vorgeschlagene Opportunity und klicken Sie auf **[!UICONTROL Opportunity anzeigen]**.
+
+   ![](assets/experiment-monitor-opportunities.png)
 
 1. Wenn Sie eine Opportunity auswählen **wird das Fenster „Opportunity** Details“ geöffnet, in dem eine bestimmte, von Experimentation Accelerator vorgeschlagene Abwandlung oder Variante beschrieben wird. Diese Ansicht enthält:
 
    * **[!UICONTROL Hypothese]**: Eine KI-generierte Hypothese, die das erwartete Ergebnis der vorgeschlagenen Behandlung erklärt.
-
-   * **[!UICONTROL Beispiel für eine neue Textbehandlung]**: Wörter oder Ausdrücke, die den von der KI empfohlenen Stil zeigen.
 
    * **[!UICONTROL Rationale]**: Eine Erklärung, warum die Experimentation Accelerator diese Möglichkeit vorgeschlagen hat.
 
@@ -142,12 +146,19 @@ Das Bedienfeld **[!UICONTROL Opportunities]** zeigt KI-generierte Empfehlungen a
       * **[!UICONTROL Lernpotenzial]**: Eine Schätzung, wie viel neues insight die Opportunity bereitstellen könnte, basierend auf der Unterschiede zu dem, was bereits zuvor getestet wurde.
 
       * **[!UICONTROL Konversionspotenzial]**: Eine Schätzung der Wahrscheinlichkeit, dass die Chance die aktuellen Behandlungen übertrifft, basierend auf Ähnlichkeiten mit Strategien, die in der Vergangenheit gut funktioniert haben.
+   <!--
+   * **[!UICONTROL New text treatment example]**: Words or phrases that demonstrate the style the AI recommends using.
+   -->
 
-1. Sie können dann Ihre Opportunity **[!UICONTROL freigeben]** oder sie direkt aktivieren, indem Sie „Experiment **[!UICONTROL &quot;]**.
+   ![](assets/experiment-monitor-opportunities-2.png)
+
+1. Sie können es dann direkt zu Ihrem Experiment hinzufügen, indem Sie **[!UICONTROL Experiment öffnen]** auswählen.
 
 1. Wenn das Originalexperiment in Adobe Journey Optimizer erstellt und verwaltet wurde, wird durch diese Aktion das **[!UICONTROL Bedienfeld Inhaltsexperiment]** in dieser Kampagne geöffnet.
 
    Bei Experimenten, die aus **[!DNL Adobe Target]** stammen, werden die vorgeschlagenen Änderungen stattdessen in den Experimentier-Workflow von **[!DNL Adobe Target]** geladen.
+
+   ➡️ [Weitere Informationen finden Sie in der Dokumentation zu Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. Innerhalb der Experimentansicht können Sie auf dieselbe KI **[!UICONTROL Experimentationsmöglichkeiten]** zugreifen, die auch von der Experimentation Accelerator angezeigt wird.
 
@@ -163,9 +174,9 @@ Die **[!UICONTROL Ergebnisse]**-Tabelle bietet eine detaillierte Leistungsaufsch
 
 * **[!UICONTROL Ort]**: Position der Abwandlung nach Leistung, wobei angegeben wird, wie sie mit anderen Abwandlungen verglichen wird.
 
-* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
-
 * **[!UICONTROL Erfolgsmetrik]** von Journey Optimizer oder die **[!UICONTROL Primäre]** von Adobe Target, je nachdem, was während der Experimenterstellung konfiguriert wurde.
+
+* **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
 * **[!UICONTROL Steigerung]**: Messung der prozentualen Verbesserung der Konversionsrate einer bestimmten Abwandlung im Vergleich zur Baseline.
 
@@ -179,10 +190,12 @@ Die **[!UICONTROL Ergebnisse]**-Tabelle bietet eine detaillierte Leistungsaufsch
 >
 >Die Funktion Experiment Insights ist auf Experimente mit textbasierten Änderungen beschränkt.
 
-![](assets/experiment-monitor-insights.png)
-
 **[!UICONTROL Experiment-Insights]** sind KI-generierte Lerninhalte, die aus diesem Experiment abgeleitet wurden. Diese Erkenntnisse werden verfügbar, sobald das Experiment statistische Signifikanz erreicht hat und bieten ein kontextuelles Verständnis dessen, was zu seinem Erfolg beigetragen hat. Sie heben die Schlüsselattribute hervor, die in der erfolgreichsten Abwandlung vorhanden sind und sich von der Kontrolle unterscheiden, die wahrscheinlich das Ergebnis beeinflusst hat.
 
 Beachten Sie, dass Sie zum Generieren von Experimenteinblicken zunächst [Hypothese- und Behandlungsdetails bestätigen](#set-up) und statistische Signifikanz erreichen müssen.
 
 Klicken Sie **[!UICONTROL Details anzeigen]**, um mehr über die einzelnen Einblicke zu erfahren.
+
+</br>
+
+![](assets/experiment-monitor-insights.png)
