@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
+source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '879'
 ht-degree: 70%
 
 ---
@@ -57,6 +57,31 @@ ht-degree: 70%
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
 >abstract="Kampagnentyp auswählen. Die verfügbaren Kanäle variieren je nach ausgewähltem Typ. <br>**Geplante Kampagnen** (Aktionskampagnen) - Ideal für einfache, einmalige Batch-Nachrichten, deren Ausführung zu einem bestimmten Zeitpunkt geplant werden kann.<br>**API-ausgelöste Kampagnen** - Wird über einen API-Aufruf aktiviert, wodurch automatisiertes, ereignisbasiertes Messaging direkt von externen Systemen aus ermöglicht wird.<br>**Orchestrierte Kampagnen** - Stellen Sie eine visuelle Drag-and-Drop-Arbeitsfläche bereit, um komplexe, mehrstufige Marketing-Workflows zu entwerfen und zu automatisieren, von der Zielgruppensegmentierung bis zum kanalübergreifenden Versand personalisierter Nachrichten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_orchestration"
+>title="Kampagnen"
+>abstract="Erstellen Sie Ihren Segmentierungsfluss, erstellen Sie Ihre kanalübergreifenden Nachrichten und planen Sie Ihre Kampagnen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigung."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_marketing"
+>title="Kampagnen"
+>abstract="Einmalige oder wiederkehrende ausgehende Sendungen oder fortlaufende eingehende Aktionen bereitstellen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_transactional"
+>title="Kampagnen"
+>abstract="Einmalige oder wiederkehrende ausgehende Transaktionsaktionen bereitstellen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_marketing"
+>title="Kampagnen"
+>abstract="Personalisierte Marketing-Kommunikation für ausgewählte Zielgruppen bereitstellen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigungen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_transactional"
+>title="Kampagnen"
+>abstract="Transaktionsnachrichten an einzelne Profile oder Profilgruppen senden. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigungen."
 
 Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für eine bestimmte Zielgruppe bereitzustellen. Bei Verwendung von Journeys werden die Aktionen nacheinander ausgeführt. Bei Kampagnen werden die Aktionen gleichzeitig ausgeführt, entweder sofort oder nach einem bestimmten Zeitplan.
 
