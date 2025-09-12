@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b63dea783a2f85d17aacc12c23a9f63d880aeeee
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 36%
 
 ---
@@ -21,13 +21,12 @@ Ihr Journey-Bericht bietet Ihnen einen vollständigen Überblick über die Leist
 In Journey Optimizer ist das Journey-Experimentieren in zwei Typen unterteilt:
 
 * [Inhaltsexperimente](../content-management/content-experiment.md)
+
+  Beachten Sie, dass die für Ihr Inhaltsexperiment detaillierten Tabellen und KPIs mit denen für ein Pfadexperiment übereinstimmen. Wenn Sie [ Inhaltsexperiment eingerichtet haben, lesen ](#experimentation) die folgende Dokumentation.
+
 * [Pfadexperimente](../building-journeys/optimize.md)
 
 ## Pfadexperiment {#experimentation}
-
->[!NOTE]
->
-> Die für Ihr Inhaltsexperiment detaillierten Tabellen und KPIs sind mit denen für ein Pfadexperiment identisch. Wenn Sie ein Inhaltsexperiment eingerichtet haben, lesen Sie die folgende Dokumentation.
 
 ### Experiment-KPIs {#experimentation-kpis}
 

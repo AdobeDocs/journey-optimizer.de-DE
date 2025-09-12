@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 3ce799231e90828e8d061261e0ef69042e69daba
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '5035'
 ht-degree: 99%
 
 ---
@@ -221,6 +221,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Sie können jetzt Rich-Communication-Services (RCS)-Nachrichten über einen Drittanbieter konfigurieren, anpassen und bereitstellen, indem Sie sie mit einer benutzerdefinierten SMS-Anbieterlösung integrieren.</p>
+<p>Weitere Informationen finden Sie in der <a href="../sms/sms-configuration-custom.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
