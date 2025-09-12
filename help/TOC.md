@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '2926'
-ht-degree: 99%
+source-wordcount: '2940'
+ht-degree: 98%
 
 ---
 
@@ -547,7 +547,10 @@ ht-degree: 99%
       + [Erstellen eines Inhaltsexperiments](using/content-management/content-experiment.md)
       + Experimentbeschleuniger {#experiment}
          + [Erste Schritte mit dem Experimentbeschleuniger](using/content-management/experiment-accelerator.md)
+         + [Datennutzung in KI mit Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
+         + [Best Practices für Experimentbeschleuniger](using/content-management/experiment-accelerator-best-practices.md)
          + [Überwachung des Experimentbeschleunigers](using/content-management/experiment-accelerator-monitor.md)
+         + [Experiment-Beschleunigermetriken](using/content-management/experiment-accelerator-metrics.md)
       + Technotes {#technotes}
          + [Technotes](/help/rp_landing_pages/technotes-landing-page.md)
          + [Verstehen von statistischen Berechnungen](using/content-management/experiment-calculations.md)

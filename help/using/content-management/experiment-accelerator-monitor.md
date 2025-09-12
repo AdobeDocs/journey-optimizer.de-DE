@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator
+title: Experimentation Accelerator-Monitor
 description: Verbessern Sie Ihre Fähigkeit, Experimente effektiv durchzuführen und Erkenntnisse zu gewinnen
 feature: Experimentation
 topic: Content Management
@@ -10,19 +10,22 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 hide: true
 hidefromtoc: true
-source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 6%
+source-wordcount: '1069'
+ht-degree: 5%
 
 ---
 
-# Registerkarte „Experimente“ {#monitor}
+# Verfolgen von Experimenten {#monitor}
 
 >[!BEGINSHADEBOX]
 
 * [Erste Schritte mit Experimentation Accelerator](experiment-accelerator.md)
-* **[Registerkarte „Experimente“](experiment-accelerator-monitor.md)**
+* [Datennutzung in KI mit Experimentation Accelerator](experiment-accelerator-security.md)
+* [Best Practices für Experimentation Accelerator](experiment-accelerator-best-practices.md)
+* **[Experimente überwachen](experiment-accelerator-monitor.md)**
+* [Experimentier-Metriken](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
@@ -180,6 +183,6 @@ Die **[!UICONTROL Ergebnisse]**-Tabelle bietet eine detaillierte Leistungsaufsch
 
 **[!UICONTROL Experiment-Insights]** sind KI-generierte Lerninhalte, die aus diesem Experiment abgeleitet wurden. Diese Erkenntnisse werden verfügbar, sobald das Experiment statistische Signifikanz erreicht hat und bieten ein kontextuelles Verständnis dessen, was zu seinem Erfolg beigetragen hat. Sie heben die Schlüsselattribute hervor, die in der erfolgreichsten Abwandlung vorhanden sind und sich von der Kontrolle unterscheiden, die wahrscheinlich das Ergebnis beeinflusst hat.
 
-Damit Experimenteinblicke generiert werden können, müssen Sie zunächst die [Hypothese und Behandlungsdetails) ](#set-up).
+Beachten Sie, dass Sie zum Generieren von Experimenteinblicken zunächst [Hypothese- und Behandlungsdetails bestätigen](#set-up) und statistische Signifikanz erreichen müssen.
 
 Klicken Sie **[!UICONTROL Details anzeigen]**, um mehr über die einzelnen Einblicke zu erfahren.
