@@ -8,16 +8,26 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 100%
+source-wordcount: '1492'
+ht-degree: 91%
 
 ---
 
 # Modelle für die automatische Optimierung {#auto-optimization-model}
 
 Mit einem Modell mit automatischer Optimierung werden Angebote geschaltet, die den von den Geschäftskunden festgelegten Gewinn (KPIs) maximieren. Diese KPIs können in Form von Konversionsraten, Umsatz usw. vorliegen. Im Moment bezieht sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit dem Ziel der Angebotskonvertierung. Die automatische Optimierung ist nicht personalisiert und erfolgt auf der Grundlage der „globalen“ Performance der Angebote.
+
+## Datensatzanforderungen
+
+Um ein Modell mit automatischer Optimierung zu trainieren, muss der Datensatz die folgenden Mindestanforderungen erfüllen:
+
+* Mindestens 2 Angebote im Datensatz müssen innerhalb der letzten 14 Tage mindestens 100 Anzeigeereignisse und 5 Klickereignisse haben.
+* Angebote mit weniger als 100 Anzeigen und/oder 5 Klickereignissen innerhalb der letzten 14 Tage werden vom Modell als neue Angebote behandelt und sind nur für die Bereitstellung durch den Explorationsbandit geeignet.
+* Angebote mit mehr als 100 Anzeigen und 5 Klickereignissen in den letzten 14 Tagen werden vom Modell als vorhandene Angebote behandelt und können sowohl von Exploration- als auch von Exploitation-Banditen bedient werden.
+
+Bis zum ersten Mal ein Modell für die automatische Optimierung trainiert wird, werden Angebote innerhalb einer Auswahlstrategie, die ein Modell für die automatische Optimierung verwendet, nach dem Zufallsprinzip bereitgestellt.
 
 ## Einschränkungen {#limitations}
 
