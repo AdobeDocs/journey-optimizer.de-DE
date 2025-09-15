@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
-source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
+source-git-commit: 57890eede1d5a0de6002f31b9ce8807a903b84f7
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 2%
@@ -31,7 +31,7 @@ Dementsprechend finden Sie im Folgenden die Best Practices für die Gestaltung b
 >
 >Dagegen wird die Barrierefreiheit der [!DNL Journey Optimizer]-Schnittstelle selbst in ([ Abschnitt) ](../start/accessibility.md).
 > 
->## Textlesbarkeit sicherstellen {#text-readability}
+## Textlesbarkeit sicherstellen {#text-readability}
 
 Verwenden Sie die Registerkarte **[!UICONTROL Stile]** der Komponente **[!UICONTROL Text]**, um sicherzustellen, dass Ihr Text lesbar ist, z. B. mit einem ordnungsgemäßen Farbkontrast und einfachen Schriftarten. [Weitere Informationen](content-components.md#text)
 
@@ -102,7 +102,7 @@ Befolgen Sie die folgenden Richtlinien für effektiven Alternativtext in digital
 
 Verwenden Sie die für E-Mail-Designer [Inhaltskomponenten](content-components.md) sowie die Optionen im Bereich **[!UICONTROL Stile]** , um Ihre Inhalte übersichtlich, logisch und präzise zu organisieren, sodass sie für alle zugänglich sind.
 
-![](assets/accessible-components.png){width="1000%"}
+![](assets/accessible-components.png){width="100%"}
 
 * Verwenden Sie eine strukturierte, semantische HTML mit korrekten Überschriften, Absätzen, Listen und Tabellen.
 * Stellen Sie sicher, dass der Inhalt einem logischen Fluss von links nach rechts, von oben nach unten folgt.
