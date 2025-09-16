@@ -20,7 +20,7 @@ Durch das Erstellen von Zielgruppen in Adobe Journey Optimizer können Sie die P
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen von Segmentdefinitionen in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Zielgruppensegmente definieren, einschließlich schrittwei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Erste Schritte mit der Zielgruppenkomposition
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Zielgruppen über CSV-Dateien importieren und Attribute Pr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Komposition föderierter Zielgruppen
 

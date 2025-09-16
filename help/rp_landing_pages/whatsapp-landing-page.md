@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie WhatsApp mit Adobe Journey Optimizer integrieren, einschli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren des WhatsApp-Kanals
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie personalisierte WhatsApp-Nachrichten, einschließlich Vorl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=de)
 
 Vorschau, Validierung und Senden von WhatsApp-Nachrichten
 

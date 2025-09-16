@@ -20,7 +20,7 @@ Die Kanalkonfiguration in Adobe Journey Optimizer ermöglicht es Ihnen, zu verwa
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit der Kanalkonfiguration
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer Kanäle konfigurieren, einschli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Einrichten und Verwalten von Kanalkonfigurationen
 
@@ -40,7 +40,7 @@ Befolgen Sie eine detaillierte Anleitung zum Erstellen, Bearbeiten, Deaktivieren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Anleitung zur Kanaleinrichtung
 
@@ -50,7 +50,7 @@ Konfigurieren Sie Mobile- und Web-Kanäle effizient mit schrittweisen Anleitunge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Delegieren und Verwalten von E-Mail-Subdomains
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie E-Mail-Subdomains delegieren und konfigurieren, um die Zus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Implementieren eines IP-Aufwärmplans
 
@@ -70,7 +70,7 @@ Erstellen und führen Sie IP-Aufwärmpläne aus, um die Reputation des Absenders
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Überwachen der Zustellbarkeit und Reputation von E-Mails
 

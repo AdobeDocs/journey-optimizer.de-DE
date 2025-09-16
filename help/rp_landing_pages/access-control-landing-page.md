@@ -20,7 +20,7 @@ Die Zugriffssteuerung in Adobe Journey Optimizer ermöglicht es Admins, den Benu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit der Zugriffssteuerung
 
@@ -70,7 +70,7 @@ Erfahren Sie mehr über Berechtigungen auf hoher und niedriger Ebene und darübe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Attributbasierte Zugriffssteuerung
 

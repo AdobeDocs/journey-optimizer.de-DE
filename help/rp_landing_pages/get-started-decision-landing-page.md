@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie Eignungskriterien verfeinern und Angebote mithilfe von ben
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Verwenden personalisierter Angebote in einer E-Mail
 

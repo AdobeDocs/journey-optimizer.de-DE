@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Delegieren von Subdomains an Adobe, einschließlich
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Festlegen von DMARC-Einträgen
 
@@ -50,7 +50,7 @@ Konfigurieren Sie DMARC-Einträge, um die Sicherheit und Zustellbarkeit von E-Ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Hinzufügen eines Google TXT-Eintrags
 

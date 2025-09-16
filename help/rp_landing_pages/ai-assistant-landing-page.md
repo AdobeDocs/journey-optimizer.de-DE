@@ -60,7 +60,7 @@ Verwenden Sie den KI-Assistenten, um SMS-Inhalte zu generieren und zu verfeinern
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
 
 Generieren von Web-Seiteninhalten und Assets
 

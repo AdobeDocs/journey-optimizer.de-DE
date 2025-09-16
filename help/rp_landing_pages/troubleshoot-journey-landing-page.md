@@ -64,4 +64,4 @@ Validieren und debuggen Sie benutzerdefinierte Aktionen mit der Funktion „Test
 
 ### Weitere Ressourcen
 
-Lesen Sie außerdem [diesen Blog-Beitrag in der Adobe Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884), in dem häufige Fehler-Codes und deren effektive Behebung beschrieben werden.
+Lesen Sie außerdem [diesen Blog-Beitrag in der Adobe Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de), in dem häufige Fehler-Codes und deren effektive Behebung beschrieben werden.

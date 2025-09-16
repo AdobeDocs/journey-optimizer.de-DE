@@ -20,7 +20,7 @@ Die Einverständnisverwaltung ist der Schlüssel zum Aufbau von Vertrauen gegen�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Verwalten des Opt-outs und des Einverständnisses mit Personalisierung
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Opt-out-Voreinstellungen verwalten und das Personalisierun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Arbeiten mit Einverständnisrichtlinien
 

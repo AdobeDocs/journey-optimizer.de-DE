@@ -30,7 +30,7 @@ Erfahren Sie mehr über Datenquellen, ihre Typen, Anwendungsfälle und Feldergru
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren einer Datenquelle
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Konfigurieren von Datenquellen und Verwalten von Feld
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Datenquelle von Adobe Experience Platform
 

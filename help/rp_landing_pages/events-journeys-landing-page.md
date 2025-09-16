@@ -30,7 +30,7 @@ Erfahren Sie mehr über Journey-Ereignisse, ihre Typen, den Lebenszyklus und die
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Konfigurieren eines unitären Ereignisses
 

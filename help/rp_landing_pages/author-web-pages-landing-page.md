@@ -20,7 +20,7 @@ Entdecken Sie, wie Sie Web-Erlebnisse mit den leistungsstarken Tools von Adobe J
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Bearbeiten von Inhalten mit dem Web-Designer
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit dem visuellen Web-Designer in Adobe Journey Optimizer 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Bearbeiten von Web-Inhalten mit dem nicht-visuellen Editor
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Web-Änderungen mithilfe des Bereichs „Änderungen“ ve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Überwachen Ihrer Web-Erlebnisse
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie die Web-Interaktion mithilfe von Berichten und Klick-Track
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Erstellen von Single Page Applications in Adobe Journey Optimizer
 

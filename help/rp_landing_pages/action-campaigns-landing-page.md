@@ -20,7 +20,7 @@ Mit Aktionskampagnen in Adobe Journey Optimizer können Sie zeitnahe, zielgerich
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen einer Aktionskampagne
 
@@ -70,7 +70,7 @@ Entwerfen, testen und konfigurieren Sie Inhalte für Ihre Aktionskampagnen über
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
 
 Definieren der Zielgruppe einer Kampagne
 

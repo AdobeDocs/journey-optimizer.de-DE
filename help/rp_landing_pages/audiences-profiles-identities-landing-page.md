@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Kundenidentitäten mithilfe des Identitätsdiagramms und d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Lizenznutzungs-Dashboard
 

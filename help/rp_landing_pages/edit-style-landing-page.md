@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie im E-Mail-Designer von Adobe Journey Optimizer Hintergrund
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Anpassen der vertikalen Ausrichtung und der Auffüllung
 
