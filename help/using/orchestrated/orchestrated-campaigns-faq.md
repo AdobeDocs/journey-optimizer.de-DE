@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zu orchestrierten Kampagnen
 description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Kampagnen
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 028f5d506d5fdbd2ed19ad7ded8c1fcd0a391702
+source-git-commit: aea8e1bc6f34400070234195f576fa7df59dca7d
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 21%
+source-wordcount: '1000'
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 21%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu mit Adobe Journey Optimizer orchestrierten Kampagnen.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder verbinden Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder verbinden Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Was ist eine Kampagnenorchestrierung? {#what-are-oc}
 
@@ -119,14 +119,14 @@ Ja. In Campaign Orchestration kann ein als „Personenentität“ bekanntes Empf
 
 >[!ENDSHADEBOX]
 
+<!--
+## Do Orchestrated campaigns integrate with other Adobe solutions? {#integrations}
 
-## Integrieren sich orchestrierte Kampagnen mit anderen Adobe-Lösungen? {#integrations}
+Yes. Campaign orchestration is natively integrated with:
 
-Ja. Die Kampagnenorchestrierung ist nativ mit integriert:
-
-* **Customer Journey Analytics**: Berichte zur Kampagnenorchestrierung sind verfügbar.
-* **Real-Time CDP**: In Campaign integrierte Audiences können in Real-Time CDP gelesen werden.
-* **Komposition föderierter Zielgruppen (FAC)**: als Add-on verfügbar.
+* **Customer Journey Analytics**: Campaign orchestration reports are available.  
+* **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
+* **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
 ## Was ist mit Berechtigungen und Einverständnis? {#permissions}
 
