@@ -3,18 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Wechseln zum dunklen Modus
 description: Erfahren Sie, wie Sie den dunklen Modus im E-Mail-Designer verwenden
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: Dunkler Modus, E-Mail, Farbe, Editor
-hide: true
-hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
+source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1513'
 ht-degree: 64%
 
 ---
@@ -30,10 +27,6 @@ ht-degree: 64%
 >id="ac_edition_darkmode_preview"
 >title="Wechseln zum dunklen Modus"
 >abstract="Wechseln Sie zum dunklen Modus, um eine Vorschau des Renderings auf unterstützenden E-Mail-Clients anzuzeigen. <br>Das endgültige Rendering hängt vom E-Mail-Client des Empfängers ab. Beachten Sie, dass alle E-Mail-Clients den Dunkelmodus nicht unterstützen."
-
->[!AVAILABILITY]
->
->Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. <!--To join the beta program, contact your Adobe representative.-->
 
 Designer Beim Entwerfen Ihrer E-Mails können Sie mit [!DNL Journey Optimizer] [E-Mail-](get-started-email-design.md)) zur Ansicht **[!UICONTROL Dunkelmodus]** wechseln.
 
