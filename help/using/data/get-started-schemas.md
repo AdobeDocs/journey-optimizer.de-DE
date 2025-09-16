@@ -8,37 +8,53 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Schemata, Plattform, Daten, Struktur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 70f647cf4e95c1152a5c16395b88b11a6b72865c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Erste Schritte mit Schemata {#schemas-gs}
 
-Schemata sind die Standardmethode zur Beschreibung von Daten in Experience Platform. Dadurch können alle Daten, die mit Schemata konform sind, innerhalb einer Organisation ohne Konflikte wiederverwendet oder sogar von mehreren Organisationen gemeinsam genutzt werden.
+[!DNL Adobe Journey Optimizer] stützt sich auf **Adobe Experience Platform** Schemata, um die Datenstruktur konsistent und wiederverwendbar zu beschreiben. Ein Schema bietet eine abstrakte Definition eines realen Objekts (z. B. einer Person) und legt fest, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Name, Geburtsdatum usw.). Wenn Daten in Experience Platform aufgenommen werden, sind sie immer nach einem **XDM-Schema** strukturiert.
 
-➡️ [In diesem Video erfahren Sie, wie Sie ein Schema erstellen und konfigurieren](#video-schema) (Video)
+## Standard- und relationale Schemata
 
-Ein Schema ist ein Regelsatz, der die Datenstruktur und das Datenformat darstellt und überprüft. Auf hoher Ebene bieten Schemata eine abstrakte Definition eines realen Objekts (z. B. einer Person) und legen dar, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Vorname, Nachname, Geburtsdatum usw.).
+In Adobe Experience Platform gibt es zwei Arten von Schemata:
 
-Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target="_blank"}, wie Sie Schemata erstellen.
+* **Standardschemata** sind hierarchische Schemata, die Klassen und Feldergruppen zur Erfassung von Datensatz- oder Zeitreihendaten verwenden.
 
-Der Arbeitsbereich **Schemata** in der [!DNL Adobe Journey Optimizer]-Benutzeroberfläche ermöglicht Ihnen die Verwaltung von XDM-Ressourcen (Experience-Datenmodell), einschließlich Schemata, Klassen, Schemafeldern und Datentypen. Sie können die von Adobe bereitgestellten Kernressourcen anzeigen und untersuchen sowie benutzerdefinierte Ressourcen und Schemata für Ihr Unternehmen erstellen.
+  Ein Standardschema besteht aus:
 
-![](assets/schemas-home.png)
+   * Eine **Klasse** (die das Datenverhalten definiert: Datensatz oder Zeitreihe).
+   * Eine oder mehrere **Feldergruppen** (die dem Schema bestimmte Felder hinzufügen).
 
-Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de){target="_blank"}, wie Sie die Benutzeroberfläche für Schemata verwenden
+  In Journey Optimizer werden Standardschemata normalerweise verwendet, um **Einzelpersonen und ihre**) darzustellen, **Zeitreiheninteraktionen** Klicks, Käufe oder Anmeldungen zu erfassen und **Echtzeit-Kundenprofil** für die Segmentierung und Personalisierung zu nutzen.
 
-Eine Schritt-für-Schritt-Dokumentation zum Erstellen eines Schemas mit dem Schema-Editor finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de){target="_blank"}.
+  ➡️ [Erfahren Sie in diesem Video, wie Sie ein Standardschema erstellen und konfigurieren](#video-schema) (Video)
 
-Eine vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Schema-Wörterbuch für Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
+* **Relationale Schemata** sind flache, nicht hierarchische Schemata, die keine Klassen oder Feldergruppen verwenden. Sie werden verwendet, um Datensatzdaten für relationale Entitäten zu erfassen, und werden hauptsächlich in [!DNL Journey Optimizer] (**Kampagnen** verwendet.
 
+  Beispiele für relationale Entitäten:
+   * Buchungen, Verträge oder Abonnements
+   * Produkte oder Kataloge
+   * Stores, Standorte oder Partner
+
+  Mit relationalen Schemata können Sie eine Nachricht pro Entität senden (z. B. pro Buchung, pro Abonnement), Segmente basierend auf Entitätsattributen erstellen (z. B. Produktkategorie, Store-Standort) und die Adressierbarkeit verbessern, indem Sie alle mit einer Entität verknüpften Kontakte erreichen.
+
+  Funktionsweise von relationalen Schemata:
+
+   1. **Schemata manuell erstellen oder über DDL importieren**
+   1. **Verknüpfungsschemata** zur Definition von Beziehungen zwischen Entitäten und Personen (z. B. mit Mitgliedern verknüpfte Treuetransaktionen, mit Marken verknüpfte Belohnungen).
+   1. **Nehmen Sie Daten** aus unterstützten Quellen in Ihren Datensatz auf.
+
+  ➡️ [Erfahren Sie, wie Sie relationale Schemata und Datensätze verwalten](../orchestrated/gs-schemas.md)
+➡️ [Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-schemas.md)
 
 ## Anleitungsvideo{#video-schema}
 
-Erfahren Sie, wie Sie ein Schema erstellen, Feldergruppen hinzufügen, benutzerdefinierte Feldergruppen erstellen und konfigurieren.
+Erfahren Sie, wie Sie ein Standardschema erstellen, Feldergruppen hinzufügen sowie benutzerdefinierte Feldergruppen erstellen und konfigurieren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
