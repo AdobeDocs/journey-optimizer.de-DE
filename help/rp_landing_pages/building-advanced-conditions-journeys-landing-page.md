@@ -5,10 +5,10 @@ title: Erstellen von Ausdrücken
 description: Erstellen von Ausdrücken
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer enthält einen **erweiterten Ausdruckseditor** mit dem S
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Verwenden des erweiterten Ausdruckseditors
 
@@ -40,7 +40,7 @@ Beherrschen Sie die Syntaxregeln, bedingten Anweisungen und Datentypen, die zum 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Funktionen in Adobe Journey Optimizer
 
@@ -48,5 +48,27 @@ Greifen Sie auf ein umfassendes Handbuch zu Funktionen für die Datenbearbeitung
 
 [Verfügbare Funktionen entdecken](main-functions-journey-landing-page.md)
 :::
+
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Beispiele für Abfragen in Journey Optimizer-Datensätzen und zugehörige Anwendungsfälle
+
+Greifen Sie auf praktische SQL-Abfragebeispiele zu, um Daten in verschiedenen Journey Optimizer-Datensätzen für verschiedene Anwendungsfälle zu analysieren und zu verwalten.
+
+[Anwendungsfälle entdecken](../using/data/datasets-query-examples.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Beispiel-SQL-Abfragen für die Datenanalyse
+
+Greifen Sie auf Beispiel-SQL-Abfragen für die Analyse von Journey Optimizer-Daten in einem Data Lake zu, von der Fehlerbehebung bis hin zu Reporting und Zielgruppensegmentierung.
+
+[Journey-Erstellung erkunden](../using/reports/query-examples.md)
+:::
+
 
 ::::
