@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 35%
+ht-degree: 53%
 
 ---
 
@@ -27,22 +27,22 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
 >title="Datensatzsuche"
->abstract="Wählen Sie unter allen Adobe Experience Platform-Datensätzen, die für die Suche aktiviert wurden, den Datensatz mit den erforderlichen Attributen aus und wählen Sie dann einen Zuordnungsschlüssel (z. B. Flugnummer oder Kunden-ID) aus, der sowohl in den Entscheidungselementattributen als auch im Datensatz vorhanden ist."
+>abstract="Wählen Sie unter allen für die Suche aktivierten Adobe Experience Platform-Datensätzen den Datensatz mit den erforderlichen Attributen und dann einen Zuordnungsschlüssel (z. B. Flugnummer oder Kunden-ID) aus, der sowohl in den Entscheidungselementattributen als auch im Datensatz vorhanden ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="Datensatzsuche"
->abstract="Wählen Sie den Adobe Experience Platform-Datensatz mit den benötigten Attributen aus. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert haben und eine Datensatz-Suchzuordnung erstellt haben."
+>abstract="Wählen Sie den Adobe Experience Platform-Datensatz mit den erforderlichen Attributen aus. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert und eine Suchzuordnung für den Datensatz erstellt haben."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Datensatzsuche"
->abstract="Verwenden Sie [!DNL Adobe Experience Platform] Datensatzattribute, um die Rangfolgelogik dynamisch anzupassen und damit reale Bedingungen widerzuspiegeln. Klicken Sie **[!UICONTROL Datensatz hinzufügen]**, um den Adobe Experience Platform-Datensatz mit den benötigten Attributen auszuwählen. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert haben und eine Datensatz-Suchzuordnung erstellt haben."
+>abstract="Verwenden Sie Datensatzattribute aus [!DNL Adobe Experience Platform], um die Rangfolgelogik dynamisch anzupassen und reale Bedingungen widerzuspiegeln. Klicken Sie auf **[!UICONTROL Datensatz hinzufügen]**, um den Adobe Experience Platform-Datensatz mit den erforderlichen Attributen auszuwählen. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert und eine Suchzuordnung für den Datensatz erstellt haben."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="Datensatz hinzufügen"
->abstract="Verwenden Sie [!DNL Adobe Experience Platform] Datensatzattribute, um Begrenzungskriterien zu definieren, die auf dynamischen, externen Attributen basieren. Klicken Sie **[!UICONTROL Datensatz hinzufügen]**, um den Adobe Experience Platform-Datensatz mit den benötigten Attributen auszuwählen. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert haben und eine Datensatz-Suchzuordnung erstellt haben."
+>title="Hinzufügen eines Datensatzes"
+>abstract="Verwenden Sie Datensatzattribute aus [!DNL Adobe Experience Platform], um die Begrenzungskriterien basierend auf dynamischen, externen Attributen zu definieren. Klicken Sie auf **[!UICONTROL Datensatz hinzufügen]**, um den Adobe Experience Platform-Datensatz mit den erforderlichen Attributen auszuwählen. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert und eine Suchzuordnung für den Datensatz erstellt haben."
 
 >[!AVAILABILITY]
 >

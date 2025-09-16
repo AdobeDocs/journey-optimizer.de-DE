@@ -9,7 +9,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '2186'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -112,7 +112,7 @@ Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, können Sie Informatio
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Ausdruck"
->abstract="Stattdessen können Sie mit einem statischen Wert für den Begrenzungsschwellenwert Ihren eigenen Ausdruck definieren. Auf diese Weise können Sie den Schwellenwert dynamisch mithilfe von Entscheidungsattributen und/oder externen Attributen aus einem Adobe Experience Platform-Datensatz berechnen.<br/><br/>Begrenzungsregel **Ausdrücke** sind derzeit als eingeschränkte Verfügbarkeit für alle Benutzer verfügbar. Sie werden nur für den Begrenzungstyp **[!UICONTROL Insgesamt]** unterstützt."
+>abstract="Anstatt einen statischen Wert für den Begrenzungsschwellenwert zu verwenden, können Sie Ihren eigenen Ausdruck definieren. Auf diese Weise können Sie den Schwellenwert dynamisch mithilfe von Entscheidungsattributen und/oder externen Attributen aus einem Adobe Experience Platform-Datensatz berechnen.<br/><br/>Begrenzungsregel **-Ausdrücke** sind derzeit im Rahmen einer eingeschränkten Verfügbarkeit für alle Benutzenden verfügbar. Sie werden nur für den Begrenzungstyp **[!UICONTROL Insgesamt]** unterstützt."
 
 Die Begrenzung wird als Einschränkung verwendet, um zu definieren, wie oft ein Angebotselement maximal angezeigt werden kann. Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kundinnen und Kunden übermäßig umworben werden, und können jeden Touchpoint mit dem besten Angebot optimieren. Sie können bis zu 10 Begrenzungen für ein bestimmtes Entscheidungselement erstellen.
 
@@ -166,7 +166,7 @@ Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf 
 
    +++Schwellenwert für Ausdruck
 
-   Stattdessen können Sie mit einem statischen Wert für den Begrenzungsschwellenwert Ihren eigenen Ausdruck definieren. Auf diese Weise können Sie den Schwellenwert dynamisch mithilfe von Entscheidungsattributen und/oder externen Attributen aus einem Adobe Experience Platform-Datensatz berechnen.
+   Anstatt einen statischen Wert für den Begrenzungsschwellenwert zu verwenden, können Sie Ihren eigenen Ausdruck definieren. Auf diese Weise können Sie den Schwellenwert dynamisch mithilfe von Entscheidungsattributen und/oder externen Attributen aus einem Adobe Experience Platform-Datensatz berechnen.
 
    Beispielsweise kann ein Marketer beschließen, einen Multiplikator hinzuzufügen, um die Exposition anzupassen. Beispielsweise könnten sie den verfügbaren Bestand mit zwei multiplizieren, sodass das Angebot doppelt so vielen Kunden angezeigt wird wie die verfügbaren Einheiten. Dieser Ansatz geht davon aus, dass nicht alle Kunden konvertieren werden, um eine bessere Reichweite ohne Überverkäufe zu gewährleisten.
 

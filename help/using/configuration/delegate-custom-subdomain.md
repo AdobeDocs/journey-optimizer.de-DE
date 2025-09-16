@@ -69,7 +69,7 @@ Um eine benutzerdefinierte Subdomain einzurichten, führen Sie die folgenden Sch
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="Schlüssellänge auswählen"
+>title="Auswählen der Schlüssellänge"
 >abstract="Die Schlüssellänge kann nur 2.048 oder 4.096 Bit betragen. Sie kann nach dem Senden der Subdomain nicht mehr geändert werden."
 
 1. Klicken Sie im Abschnitt **[!UICONTROL SSL-Zertifikat]** auf **[!UICONTROL CSR generieren]**.

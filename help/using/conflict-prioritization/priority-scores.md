@@ -7,7 +7,7 @@ exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 63%
+ht-degree: 64%
 
 ---
 
@@ -49,7 +49,7 @@ Wenn Sie diese Kampagne erstellen und sicherstellen möchten, dass der Inhalt di
 >
 >Wenn zwei Journeys oder Kampagnen den gleichen Prioritätswert haben, verfügt das System über keinen Unentschiedenheitsmechanismus. Stellen Sie sicher, dass Prioritätswerte eindeutig sind, um Konflikte zu vermeiden.
 
-## Zuweisen von Prioritätswerten zu eingehenden Kanalaktionen {#priority-action}
+## Zuweisen von Prioritätswerten für Aktionen in Inbound-Kanälen {#priority-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_priority"
@@ -72,4 +72,4 @@ Um den eingehenden Aktionen, die in der Aktivität **[!UICONTROL Action]** defin
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445010?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

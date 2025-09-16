@@ -14,7 +14,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="Für Lookup aktivieren"
->abstract="Durch die Aktivierung eines Datensatzes für die Suche können Sie dessen Daten mit Personalisierungs- und Entscheidungsfunktionen von Journey Optimizer nutzen."
+>abstract="Durch die Aktivierung eines Datensatzes für die Suche können Sie dessen Daten mit den Funktionen der Personalisierung und Entscheidungsfindung von Journey Optimizer nutzen."
 
 >[!AVAILABILITY]
 >

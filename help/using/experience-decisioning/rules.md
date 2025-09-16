@@ -9,7 +9,7 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Erstellen von Entscheidungsregeln"
->abstract="Entscheidungsregeln ermöglichen es, die Zielgruppe für Entscheidungselemente zu definieren, indem Einschränkungen angewendet werden, entweder direkt auf der Entscheidungselementebene oder innerhalb einer bestimmten Auswahlstrategie. Dadurch kann genauer gesteuert werden, welche Artikel wem präsentiert werden sollen.<br/><br/>Wählen Sie **[!UICONTROL Regel mit Datensatz erstellen]** aus, um Adobe Experience Platform-Daten in Entscheidungsregeln zu verwenden. Auf diese Weise können Sie Eignungskriterien basierend auf dynamischen, externen Attributen definieren, sodass Entscheidungselemente nur angezeigt werden, wenn sie relevant sind."
+>abstract="Entscheidungsregeln ermöglichen es, die Zielgruppe für Entscheidungselemente zu definieren, indem Einschränkungen angewendet werden, entweder direkt auf der Entscheidungselementebene oder innerhalb einer bestimmten Auswahlstrategie. Dadurch kann genauer gesteuert werden, welche Artikel wem präsentiert werden sollen.<br/><br/>Wählen Sie **[!UICONTROL Regel mit Datensatz erstellen]** aus, um Adobe Experience Platform-Daten in Entscheidungsregeln zu verwenden. Dadurch können Sie Eignungskriterien definieren, die auf dynamischen, externen Attributen basieren, sodass Entscheidungselemente nur angezeigt werden, wenn sie relevant sind."
 
 ## Über Entscheidungsregeln {#about}
 

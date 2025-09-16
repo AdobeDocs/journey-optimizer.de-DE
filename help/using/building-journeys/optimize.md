@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
 source-wordcount: '1257'
-ht-degree: 35%
+ht-degree: 37%
 
 ---
 
@@ -52,7 +52,7 @@ Sobald die Journey live ist, werden die Profile anhand der definierten Kriterien
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
 >title="Erfolgsmetrik"
->abstract="Die Erfolgsmetrik wird verwendet, um die Abwandlung mit der besten Leistung in einem Experiment zu verfolgen und auszuwerten."
+>abstract="Die Erfolgsmetrik wird verwendet, um die Abwandlung mit der besten Leistung in einem Experiment zu verfolgen und zu bewerten."
 
 Mit Experimenten können Sie verschiedene Pfade auf der Grundlage einer zufälligen Aufteilung testen, um anhand vordefinierter Erfolgsmetriken zu ermitteln, welcher Pfad am besten funktioniert.
 
