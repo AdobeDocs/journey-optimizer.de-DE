@@ -9,7 +9,7 @@ keywords: tobool, Funktion, Ausdruck, Journey
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
 ht-degree: 100%
 

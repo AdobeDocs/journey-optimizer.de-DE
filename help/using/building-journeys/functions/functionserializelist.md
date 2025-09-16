@@ -9,7 +9,7 @@ keywords: serializeList, Funktion, Ausdruck, Journey
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
 ht-degree: 100%
 

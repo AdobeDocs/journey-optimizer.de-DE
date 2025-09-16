@@ -9,7 +9,7 @@ keywords: Aufspaltung, Funktion, Ausdruck, Journey
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
 

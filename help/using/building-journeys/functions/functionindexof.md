@@ -9,7 +9,7 @@ keywords: indexOf, Funktion, Ausdruck, Journey
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '67'
 ht-degree: 100%
 

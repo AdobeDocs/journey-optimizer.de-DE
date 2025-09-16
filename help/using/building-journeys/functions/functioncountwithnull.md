@@ -9,7 +9,7 @@ keywords: countWithNull, Funktion, Ausdruck, Journey
 exl-id: 8d53b6d8-f00f-4d1a-b6df-951f84a15430
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
 ht-degree: 100%
 

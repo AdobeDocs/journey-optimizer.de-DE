@@ -9,7 +9,7 @@ keywords: replaceAll, Funktion, Ausdruck, Journey
 exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 

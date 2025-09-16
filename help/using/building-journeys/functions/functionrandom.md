@@ -9,7 +9,7 @@ keywords: random, Funktion, Ausdruck, Journey
 exl-id: df006301-d309-4cb0-b505-317f623df494
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '30'
 ht-degree: 100%
 

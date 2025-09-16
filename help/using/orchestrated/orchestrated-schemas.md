@@ -6,7 +6,7 @@ description: Informationen zum Erstellen und Verwalten relationaler Schemata fü
 exl-id: b0125a50-d187-49fc-ad12-bbe6650f8f1e
 version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '72'
 ht-degree: 100%
 

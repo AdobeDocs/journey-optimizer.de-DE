@@ -9,7 +9,7 @@ keywords: enthalten, Funktion, Ausdruck, Journey
 exl-id: 8855c382-a91a-4fe2-92db-91ce6dfab3b0
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '40'
 ht-degree: 100%
 

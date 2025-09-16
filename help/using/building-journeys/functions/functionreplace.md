@@ -9,7 +9,7 @@ keywords: replace, Funktion, Ausdruck, Journey
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
 ht-degree: 100%
 

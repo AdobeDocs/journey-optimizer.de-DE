@@ -9,7 +9,7 @@ keywords: distinctWithNull, Funktion, Ausdruck, Journey
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
 ht-degree: 100%
 

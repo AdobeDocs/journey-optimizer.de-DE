@@ -9,7 +9,7 @@ keywords: inNextDays, Funktion, Ausdruck, Journey
 exl-id: 0cb3e0db-dc5b-4d4e-a057-af030d9bdb21
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
 ht-degree: 100%
 

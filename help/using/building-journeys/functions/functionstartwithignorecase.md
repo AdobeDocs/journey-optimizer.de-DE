@@ -9,7 +9,7 @@ keywords: startWithIgnoreCase, Funktion, Ausdruck, Journey
 exl-id: b6bd9f77-272f-4c2b-b085-20ab5f043793
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
 ht-degree: 100%
 

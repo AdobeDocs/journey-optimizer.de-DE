@@ -9,7 +9,7 @@ keywords: listSize, Funktion, Ausdruck, Journey
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '78'
 ht-degree: 100%
 

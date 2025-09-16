@@ -10,7 +10,7 @@ level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
 source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
 ht-degree: 100%
 

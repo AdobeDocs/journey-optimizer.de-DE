@@ -9,7 +9,7 @@ keywords: inLastDays, Funktion, Ausdruck, Journey
 exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '46'
 ht-degree: 100%
 
