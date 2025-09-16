@@ -9,75 +9,75 @@ exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
 source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # Erstellen einer Journey{#section-overview}
 
-Das Erstellen eines Journey in Adobe Journey Optimizer ermöglicht es Ihnen, personalisierte, automatisierte Kundenerlebnisse zu erstellen, die sich an individuelle Verhaltensweisen und Vorlieben anpassen. Unabhängig davon, ob Sie eine Marketing-Kampagne entwerfen oder Workflows für den Kunden-Support orchestrieren, erfahren Sie, wie Sie Schlüsselelemente wie Trigger, Zielgruppen und Aktionen mithilfe einer intuitiven Drag-and-Drop-Oberfläche konfigurieren. Von der Einstellung von Eigenschaften und Testszenarien bis hin zur Verfolgung der Live-Leistung und zur Verwaltung von Updates baut jeder Schritt auf dem nächsten auf, um sicherzustellen, dass Ihr Journey sowohl wirkungsvoll als auch fehlerfrei ist. Durch die Beherrschung dieser Tools verfügen Sie über alles, was Sie benötigen, um kanalübergreifend nahtlose, datengesteuerte Momente bereitzustellen.
+Das Erstellen einer Journey in Adobe Journey Optimizer ermöglicht es Ihnen, personalisierte, automatisierte Kundenerlebnisse zu erstellen, die sich an individuelle Verhaltensweisen und Vorlieben anpassen. Ganz gleich, ob Sie eine Marketing-Kampagne entwerfen oder Workflows für den Kunden-Support orchestrieren – Sie lernen, wie Sie wichtige Elemente wie Trigger, Zielgruppen und Aktionen mithilfe einer intuitiven Drag-and-Drop-Oberfläche konfigurieren. Von der Festlegung von Eigenschaften und Testszenarien bis hin zur Verfolgung der Live-Performance und der Verwaltung von Updates baut jeder Schritt auf dem vorherigen auf, um sicherzustellen, dass Ihre Journey sowohl wirkungsvoll als auch fehlerfrei ist. Wenn Sie diese Tools beherrschen, verfügen Sie über alles, was Sie benötigen, um nahtlose, datengestützte Momente über alle Kanäle hinweg zu bereitzustellen.
 
 ## Erstellen einer Journey
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-So erstellen Sie Ihre erste Kunden-Journey
+Erstellen Ihrer ersten Customer Journey
 
-Erfahren Sie anhand einer schrittweisen Anleitung, wie Sie Ihre erste Kunden-Journey erstellen, entwerfen, testen und veröffentlichen.
+Erfahren Sie in einer schrittweisen Anleitung, wie Sie Ihre erste Customer Journey erstellen, entwerfen, testen und veröffentlichen.
 
-[Erste Journey starten](../using/building-journeys/journey-gs.md)
+[Erste Schritte mit der ersten Journey](../using/building-journeys/journey-gs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definieren und Verwalten von Journey-Eigenschaften
 
-Konfigurieren Sie Eintrittsregeln, zeitbezogene Einstellungen, Zugriffsverwaltung und mehr für Ihre Journey.
+Konfigurieren Sie Eintrittsregeln, zeitbezogene Einstellungen, Zugriffsverwaltung und mehr für Ihre Journeys.
 
-[Festlegen von Journey-Eigenschaften](../using/building-journeys/journey-properties.md)
+[Journey-Eigenschaften festlegen](../using/building-journeys/journey-properties.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-So entwerfen Sie Ihren Journey
+Entwerfen einer Journey
 
-Verwenden Sie die Drag-and-Drop-Oberfläche, um personalisierte, mehrstufige Marketing-Journey zu entwerfen.
+Verwenden Sie die Drag-and-Drop-Oberfläche, um personalisierte, mehrstufige Marketing-Journeys zu entwerfen.
 
-[Journey-Design lernen](../using/building-journeys/using-the-journey-designer.md)
+[Informationen zum Journey-Design](../using/building-journeys/using-the-journey-designer.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Testen des Journey
+Testen der Journey
 
-Testen Sie Ihre Journey mit simulierten Profilen und erkennen Sie Fehler, bevor Sie live gehen.
+Testen Sie Ihre Journeys mit simulierten Profilen und erkennen Sie Fehler, bevor Sie live gehen.
 
-[Testen der Journey](../using/building-journeys/testing-the-journey.md)
+[Journey testen](../using/building-journeys/testing-the-journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
-Testen von Journey im Probelauf-Modus
+Testen von Journeys im Probelauf-Modus
 
-Validieren Sie Ihre Journey mit echten Produktionsdaten, ohne sich an Kunden zu wenden oder Profile zu aktualisieren.
+Validieren Sie Ihre Journeys mit echten Produktionsdaten, ohne sich an Kundinnen oder Kunden zu wenden oder Profile zu aktualisieren.
 
-[Informationen zu Probelauf](../using/building-journeys/journey-dry-run.md)
+[Informationen zu Probeläufen](../using/building-journeys/journey-dry-run.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Veröffentlichen einer Journey
 
 Erfahren Sie, wie Sie Ihre Journey veröffentlichen, Versionen verwalten und die Gültigkeit sicherstellen.
 
-[Veröffentlichen Ihrer Journey](../using/building-journeys/publishing-the-journey.md)
+[Journey veröffentlichen](../using/building-journeys/publishing-the-journey.md)
 :::
 
 ::::
@@ -85,6 +85,6 @@ Erfahren Sie, wie Sie Ihre Journey veröffentlichen, Versionen verwalten und die
 
 ## Weitere Ressourcen
 
-- **[Verwalten angehaltener Journey](../using/building-journeys/journey-pause.md)** - Sicheres Anhalten und Fortsetzen von Live-Journey, Verwalten von Profilen und Anwenden globaler Filter während Pausen.
-- **[Konfigurieren und Verfolgen von Journey-](../using/building-journeys/success-metrics.md)**: Definieren, zuweisen und überwachen Sie Metriken, um den Erfolg Ihrer Journey zu bewerten.
-- **[Live-Reporting auf der Journey-Arbeitsfläche](../using/building-journeys/report-journey.md)** - Überwachen Sie Journey-Metriken in Echtzeit und erhalten Sie direkt auf der Arbeitsfläche Einblicke in die Leistung.
+- **[Verwalten angehaltener Journeys](../using/building-journeys/journey-pause.md)** – Sicheres Anhalten und Fortsetzen von Live-Journeys, Verwalten von Profilen und Anwenden globaler Filter während der Pausen.
+- **[Konfigurieren und Verfolgen von Journey-Metriken](../using/building-journeys/success-metrics.md)** – Definieren Sie Metriken, weisen Sie sie zu und überwachen Sie sie, um den Erfolg Ihrer Journeys zu bewerten.
+- **[Live-Reporting auf der Journey-Arbeitsfläche](../using/building-journeys/report-journey.md)** – Überwachen Sie Journey-Metriken in Echtzeit und erhalten Sie direkt auf der Arbeitsfläche Erkenntnisse zur Leistung.
