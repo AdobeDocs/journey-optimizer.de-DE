@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zu orchestrierten Kampagnen
 description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Kampagnen
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: aea8e1bc6f34400070234195f576fa7df59dca7d
+source-git-commit: 9ae0d910f6246b87683b04db97bbdb7355beb349
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 20%
+source-wordcount: '1419'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 20%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu mit Adobe Journey Optimizer orchestrierten Kampagnen.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder verbinden Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder verbinden Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Was ist eine Kampagnenorchestrierung? {#what-are-oc}
 
@@ -51,22 +51,6 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 Für einen Zugriff auf die Kampagnenorchestrierung muss die Lizenz entweder das Paket **Journey Optimizer – Kampagnen und Journeys** oder das Paket **Journey Optimizer – Kampagnen** enthalten. Wenden Sie sich an den Adobe-Support, um Ihre Lizenz zu bestätigen und bei Bedarf zu aktualisieren.
 
 Weitere Informationen zum Lizenzierungsmodell für Campaign Orchestration finden Sie in der [Adobe Journey Optimizer-](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
-
-## Welche Kanäle werden unterstützt? {#channels}
-
-Sie können orchestrierte Kampagnen erstellen, um (E **Mails**, **SMS** und **Push-Benachrichtigungen** zu senden.
-
-
->[!BEGINSHADEBOX]
-
-**Recommendations**
-
-* Passen Sie den Kanal an die **Art Ihrer Nachricht** an (z. B. Dringend = SMS, personalisierte Angebote = E-Mail, Kontextuell = Push).
-* Überprüfen Sie immer die Einverständnis- und Abonnementvoreinstellungen, bevor Sie einen Kanal aktivieren.
-* Testen Sie das Rendern von Nachrichten auf mehreren Geräten und Clients, um ein konsistentes Erlebnis zu gewährleisten.
-
->[!ENDSHADEBOX]
-
 
 ## Wie unterscheiden sich orchestrierte Kampagnen von Journey? {#oc-vs-journeys}
 
@@ -128,6 +112,31 @@ Yes. Campaign orchestration is natively integrated with:
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
+## Welche Kanäle werden unterstützt? {#channels}
+
+Sie können orchestrierte Kampagnen erstellen, um (E **Mails**, **SMS** und **Push-Benachrichtigungen** zu senden.
+
+## Können mehrere Kommunikationen und verschiedene Kanäle innerhalb derselben orchestrierten Kampagne gestartet werden?
+
+Ja, orchestrierte Kampagnen unterstützen eine kanalübergreifende Orchestrierung.
+
+## Sind orchestrierte Kampagnenvorlagen verfügbar?
+
+Nein, Sie können keine Kampagnenvorlagen definieren oder verwenden. Sie können jedoch Inhaltsvorlagen für Ihre Kommunikation verwenden.
+
+## Ist der Content Designer für Nachrichten spezifisch für orchestrierte Kampagnen?
+
+Nein, Content Designer einschließlich E-Mail-Designer ist in allen Funktionen von Journey Optimizer gleich.
+
+## Wie sind die verschiedenen Kanäle in orchestrierten Kampagnen verbunden?
+
+Die Kanalkomponente und die Laufzeitumgebung sind in allen Journey Optimizer-Kampagnen vorhanden. Die unterstützten Kanäle unterscheiden sich jedoch.
+
+## Können sich orchestrierte Kampagnen mit ausgehenden Kanälen (Web, InApp) verbinden?
+
+Nein, ausgehende Kanäle werden in koordinierten Kampagnen nicht unterstützt.
+
+
 ## Was ist mit Berechtigungen und Einverständnis? {#permissions}
 
 Berechtigungen und Einverständnis für orchestrierte Kampagnen und Journey werden in Adobe Experience Platform zentral verwaltet. Diese Einstellungen werden vor dem Versand für beide Lösungen auf jede Empfängerin und jeden Empfänger angewendet.
@@ -156,7 +165,9 @@ In der Kampagnenorchestrierung wird die Ad-hoc-Segmentierung als „Live-Segment
 
 >[!ENDSHADEBOX]
 
+## Greift Campaign Orchestration nur auf Daten zu, die über Batch geladen werden, oder kann es auch aktualisierte Echtzeit-Tabellen (wie Analytics-Daten) abfragen?
 
+Die Orchestrierung von Journey Optimizer Campaign kann zunächst eine Ad-hoc-Abfrage auf der Grundlage von relationalen Schemata erstellen. Relationale Schemata unterstützen derzeit nur Batch-Quellen. Darüber hinaus unterstützt sie „Zielgruppe lesen“ aus jeder Art von Adobe Experience Platform-Zielgruppe.
 
 ## Unterstützen orchestrierte Kampagnen die Entscheidungsfindung? {#decisioning}
 
@@ -187,6 +198,39 @@ Yes, follow the best practices below:
 * Establish a **monitoring routine**—track delivery logs, error rates, and opt-outs after each send.  
 * Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
 -->
+
+## Welche Beziehung besteht zwischen Empfänger- und Profilentitäten?
+
+Die Segmentierung wird für Empfängerinnen und Empfänger beim Versand über das Adobe Experience Platform-Profil durchgeführt. Die Zielgruppendimension „Empfänger“ erweitert das einheitliche Profil um zusätzliche Daten, die für die Segmentierung in orchestrierten Kampagnen verwendet werden, während „Empfänger“ zur Laufzeit mit dem Profil abgeglichen wird, um Nachrichten zu senden und die Einverständnisrichtlinie und die Geschäftsregeln zu überprüfen. Diese Abstimmung ist nützlich, um Geschäftsregeln und Einverständnisanträge auf Profilebene zu vereinheitlichen
+
+![](assets/recipients-and-profiles.png)
+
+
+## In welchen Fällen wird die Verwendung von Empfänger- und Profilentitäten empfohlen?
+
+Wenn Sie mit „Ja“ antworten, wird der beste Datenspeicher vorgeschlagen. Bestätigen Sie jedoch immer den besten Ansatz basierend auf Ihrem Anwendungsfall und den Einschränkungen mit Ihrem Adobe-Support-Mitarbeiter.
+
+| relationaler Speicher | Echtzeit-Kundenprofil |
+|---------|----------|
+| Ist die Quelle der Daten bereits relational? | Ist die Quelle des Daten-Streaming? |
+| Beabsichtigen Sie, Daten direkt für Marketing-Anwendungsfälle zu erfassen? | Ist die Datenfrische eine wichtige Anforderung? |
+| Gibt es eine große Menge an historischen Daten (`>` 2 Monate), die für Anwendungsfälle der Marketing-Aktivierung benötigt werden? | Gibt es Szenarien, in denen aktuelle Aktionen oder Entscheidungen Daten erfordern? |
+| Gibt es Ad-hoc-Anforderungen für die Erstellung, Auswertung und Aktivierung von Zielgruppen? | Können die Verhaltensdaten mithilfe vorberechneter Aggregate auf `<` 90 Tage beschränkt werden? |
+|  | Sind Daten erforderlich, um Nachrichten in Echtzeit zu personalisieren? |
+
+
+## Wie viele Aktivitäten sind pro orchestrierter Kampagne maximal zulässig?
+
+Die Anzahl der Aktivitäten in einer orchestrierten Kampagne ist auf 500 begrenzt.
+
+## Ist es möglich, Anreicherungen durchzuführen, um zusätzliche Daten hinzuzufügen?
+
+Ja, Sie können Daten aus dem relationalen Speicher und aus Adobe Experience Platform-Zielgruppen anreichern.
+
+## Müssen alle Filter über Zielgruppen definiert werden, oder kann ein bestimmter Filtertyp konfiguriert werden?
+
+Orchestrierte Kampagnen unterstützen vordefinierte Filter: Sie können eine Abfrage definieren und als Filter speichern und zu Ihren Favoriten hinzufügen, um sie für weitere Segmentierungsaufgaben wiederzuverwenden.
+
 
 
 >[!MORELIKETHIS]
