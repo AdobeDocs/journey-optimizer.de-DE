@@ -4,43 +4,43 @@ product: Journey Optimizer
 title: Zugriffssteuerung
 description: Zugriffssteuerung
 redpen-status: CREATED_||_2025-08-11_21-19-16
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
-workflow-type: tm+mt
+exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Zugriffssteuerung{#section-overview}
 
-Die Zugriffssteuerung in Adobe Journey Optimizer ermöglicht es Administratoren, den Benutzerzugriff gemäß den Anforderungen des Unternehmens und den Governance-Standards zu verwalten. Mit **Rollen**, **Berechtigungen**, **Sandboxes** und erweiterten Modellen wie objektbasierten und attributbasierten Steuerelementen können Sie den Zugriff so anpassen, dass vertrauliche Daten geschützt werden und gleichzeitig die Zusammenarbeit ermöglicht wird. Integrierte Rollen vereinfachen die Einrichtung, während benutzerdefinierte Berechtigungen und Beschriftungen eine präzisere Steuerung bieten. Diese Tools tragen dazu bei, ein ausgewogenes Verhältnis zwischen Sicherheit und Flexibilität zu erzielen, sodass Teams den Zugriff erhalten, den sie benötigen, ohne die Einhaltung von Vorschriften zu beeinträchtigen.
+Die Zugriffssteuerung in Adobe Journey Optimizer ermöglicht es Admins, den Benutzerzugriff gemäß den Anforderungen und Governance-Standards des Unternehmens zu verwalten. Mit **Rollen**, **Berechtigungen**, **Sandboxes** und erweiterten Modellen wie objektbasierten und attributbasierten Steuerelementen können Sie den Zugriff so anpassen, dass vertrauliche Daten geschützt werden und gleichzeitig die Zusammenarbeit ermöglicht wird. Integrierte Rollen vereinfachen die Einrichtung, während benutzerdefinierte Berechtigungen und Labels eine präzisere Steuerung bieten. Diese Tools tragen dazu bei, ein ausgewogenes Verhältnis zwischen Sicherheit und Flexibilität zu erzielen, sodass Teams den Zugriff erhalten, den sie benötigen, ohne die Einhaltung von Vorschriften zu beeinträchtigen.
 
-## Funktionen zur Zugriffssteuerung
+## Zugriffssteuerungsfunktionen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit der Zugriffssteuerung
 
 Lernen Sie die Konzepte und Prozesse zum Verwalten von Benutzerberechtigungen, Rollen, Sandboxes und Zugriffssteuerungsmechanismen in Adobe Journey Optimizer kennen.
 
-[Überblick](../using/administration/permissions-overview.md)
+[Überblick erkunden](../using/administration/permissions-overview.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Verwalten von Benutzern und Rollen
+Verwalten von Benutzenden und Rollen
 
-Schrittweise Anleitungen zum Zuweisen, Bearbeiten und Erstellen von Rollen zur Steuerung des Benutzerzugriffs und der Berechtigungen in Adobe Journey Optimizer.
+Schrittweise Anleitung zum Zuweisen, Bearbeiten und Erstellen von Rollen, um den Benutzerzugriff und die Berechtigungen in Adobe Journey Optimizer zu steuern.
 
-[Erfahren Sie, wie Sie Rollen verwalten](../using/administration/permissions.md)
+[Informationen zur Verwaltung von Rollen](../using/administration/permissions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Integrierte Rollen
 
@@ -50,33 +50,33 @@ Entdecken Sie die vordefinierten Rollen und die zugehörigen Berechtigungen, um 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Integrierte Berechtigungen
 
 Machen Sie sich mit den verfügbaren Berechtigungen und deren Funktionen zur Konfiguration der rollenbasierten Zugriffssteuerung in Adobe Journey Optimizer vertraut.
 
-[Erkunden von Berechtigungen](../using/administration/ootb-permissions.md)
+[Berechtigungen erkunden](../using/administration/ootb-permissions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Berechtigungsebenen
+Berechtigungsstufen
 
 Erfahren Sie mehr über Berechtigungen auf hoher und niedriger Ebene und darüber, wie sie eine granulare Kontrolle über Funktionen und Zugriff ermöglichen.
 
-[Berechtigungsebenen verstehen](../using/administration/high-low-permissions.md)
+[Grundlegendes zu Berechtigungsebenen](../using/administration/high-low-permissions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Attributbasierte Zugriffssteuerung
 
-Verwalten Sie den Datenzugriff mithilfe von Kennzeichnungen, schützen Sie sensible Assets und setzen Sie Governance-Richtlinien mit attributbasierter Zugriffssteuerung durch.
+Verwalten Sie mit attributbasierter Zugriffssteuerung den Datenzugriff mithilfe von Labels, schützen Sie sensible Assets und setzen Sie Governance-Richtlinien durch.
 
-[Informationen zu ABAC](../using/administration/attribute-based-access.md)
+[Informationen zur attributbasierten Zugriffssteuerung](../using/administration/attribute-based-access.md)
 :::
 
 ::::
@@ -84,4 +84,4 @@ Verwalten Sie den Datenzugriff mithilfe von Kennzeichnungen, schützen Sie sensi
 
 ## Weitere Ressourcen
 
-- **[Zugriffssteuerung auf Objektebene](../using/administration/object-based-access.md)** - Definieren und verwalten Sie den Datenzugriff auf Objektebene mit Kennzeichnungen, um Governance sicherzustellen und sensible digitale Assets zu schützen.
+- **[Zugriffssteuerung auf Objektebene](../using/administration/object-based-access.md)** – Definieren und verwalten Sie den Datenzugriff auf Objektebene mit Labels, um Governance sicherzustellen und sensible digitale Assets zu schützen.

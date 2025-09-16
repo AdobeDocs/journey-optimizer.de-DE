@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: LINE
 description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
-source-git-commit: 588b0f805e9fcf1087e0eb368ebf31bbddaa30d4
-workflow-type: tm+mt
+exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
-
 
 # LINE{#section-overview}
 
@@ -30,33 +30,33 @@ Bevor Sie Ihre LINE-Nachricht erstellen, konfigurieren Sie Ihren LINE-Kanal mit 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren des LINE-Kanals
 
-Folgen Sie den schrittweisen Anweisungen, um den LINE-Kanal manuell zu konfigurieren oder Kanaleinstellungen mithilfe der -API in Adobe Journey Optimizer einzurichten.
+Folgen Sie den schrittweisen Anweisungen, um den LINE-Kanal manuell zu konfigurieren oder Kanaleinstellungen mithilfe der API in Adobe Journey Optimizer einzurichten.
 
 [Informationen zur Konfiguration](../using/line/line-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Konfigurieren von LINE-Nachrichten
 
-Erfahren Sie, wie Sie Journey und Kampagnen LINE-Nachrichten hinzufügen, Inhalte personalisieren und Inhaltstests durchführen.
+Erfahren Sie, wie Sie LINE-Nachrichten zu Journeys und Kampagnen hinzufügen, Inhalte personalisieren und Inhaltstests durchführen.
 
-[Erstellen von Nachrichten starten](../using/line/create-line.md)
+[Mit der Erstellung von Nachrichten beginnen](../using/line/create-line.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Prüfen und Senden von LINE-Nachrichten
+Überprüfen und Senden von LINE-Nachrichten
 
 Sie können LINE-Nachrichten in Adobe Journey Optimizer in der Vorschau anzeigen, validieren und senden, um einen erfolgreichen Versand mit Best Practices sicherzustellen.
 
-[Tipps zum Senden von Nachrichten](../using/line/send-line.md)
+[Tipps zum Senden von Nachrichten erhalten](../using/line/send-line.md)
 :::
 
 ::::

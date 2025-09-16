@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: Mehrsprachige Inhalte
 description: Mehrsprachige Inhalte
 redpen-status: CREATED_||_2025-08-12_00-43-28
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: 3f02694e-2237-4022-8e05-b76a5a1443b5
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Mehrsprachige Inhalte{#section-overview}
 
-Mit der Funktion für mehrsprachige Inhalte in Adobe Journey Optimizer können Sie durch die mehrsprachige Erstellung von Inhalten personalisierte Erlebnisse für globale Zielgruppen bereitstellen. Unabhängig davon, ob Sie sich für manuelle Übersetzung oder automatisierte Workflows entscheiden, vereinfacht dieses Tool den Prozess der Anpassung von Kampagnen an verschiedene Gebietsschemata. Sie erfahren, wie Sie Spracheinstellungen konfigurieren, Übersetzungsdienstleister einrichten und die Erstellung und Überprüfung mehrsprachiger Inhalte verwalten. Von der Hinzufügung neuer Gebietsschemata bis zur Nutzung von Fallback-Voreinstellungen - jedes Thema wurde entwickelt, um Sie bei der effizienten Lokalisierung Ihrer Nachrichten und der Kontaktaufnahme mit Benutzern in ihrer bevorzugten Sprache zu unterstützen.
+Die Funktion für mehrsprachige Inhalte in Adobe Journey Optimizer ermöglicht es Ihnen, personalisierte Erlebnisse für globale Zielgruppen bereitzustellen, indem Sie Inhalte in mehreren Sprachen erstellen. Unabhängig davon, ob Sie sich für manuelle Übersetzungen oder automatisierte Workflows entscheiden, vereinfacht dieses Tool den Prozess der Anpassung von Kampagnen an verschiedene Gebietsschemata. Sie erfahren, wie Sie Spracheinstellungen konfigurieren, Übersetzungsdienstleister einrichten und die Erstellung und Überprüfung mehrsprachiger Inhalte verwalten. Von der Hinzufügung neuer Sprachversionen bis hin zur Nutzung von Fallback-Einstellungen – jedes Thema wird Ihnen dabei helfen, Ihre Nachrichten effizient zu lokalisieren und mit den Benutzenden in ihrer bevorzugten Sprache zu kommunizieren.
 
-## Mehrsprachige Inhalte - Übersicht
+## Überblick über mehrsprachige Inhalte
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit mehrsprachigen Inhalten
 
@@ -30,43 +30,43 @@ Erfahren Sie, wie Sie die Funktion für mehrsprachige Inhalte in Adobe Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen eines Gebietsschemas für mehrsprachige Inhalte
 
-Folgen Sie den schrittweisen Anweisungen, um neue Gebietsschemata für mehrsprachige Inhalte zu erstellen und zu verwalten.
+Folgen Sie den schrittweisen Anleitungen, um neue Gebietsschemata für mehrsprachige Inhalte zu erstellen und zu verwalten.
 
-[Erfahren Sie, wie Sie Gebietsschemata hinzufügen](../using/content-management/multilingual-locale.md)
+[Informationen zum Hinzufügen von Gebietsschemata](../using/content-management/multilingual-locale.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Hinzufügen und Konfigurieren von Sprachanbietern
+Erstellen und Konfigurieren von Sprachdienstleistern
 
-Einrichten von Übersetzungsanbietern von Drittanbietern, um eine nahtlose Integration und effizientes mehrsprachiges Inhaltsmanagement zu gewährleisten.
+Richten Sie externe Übersetzungsdienstleister ein, um eine nahtlose Integration und eine effiziente Verwaltung mehrsprachiger Inhalte zu gewährleisten.
 
-[Konfigurieren von Providern](../using/content-management/multilingual-provider.md)
+[Anbieter konfigurieren](../using/content-management/multilingual-provider.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Erstellen mehrsprachiger Inhalte mit manueller Übersetzung
 
-Erfahren Sie, wie Sie mehrsprachige Kampagnen und Journey manuell erstellen, die auf bestimmte Gebietsschemata und Voreinstellungen zugeschnitten sind.
+Erfahren Sie, wie Sie mehrsprachige Kampagnen und Journeys manuell erstellen, die auf bestimmte Gebietsschemata und Voreinstellungen zugeschnitten sind.
 
-[Manuelle Übersetzung kennenlernen](../using/content-management/multilingual-manual.md)
+[Manuelle Übersetzung erkunden](../using/content-management/multilingual-manual.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Erstellen mehrsprachiger Inhalte mit automatisierter Übersetzung
+Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung
 
 Optimieren Sie den Prozess der Erstellung mehrsprachiger Inhalte mithilfe automatisierter Übersetzungs-Workflows und -Tools.
 
-[Erkunden Sie automatisierte Übersetzungen](../using/content-management/multilingual-automated.md)
+[Automatisierte Übersetzung entdecken](../using/content-management/multilingual-automated.md)
 :::
 
 ::::

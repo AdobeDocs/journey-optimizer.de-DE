@@ -1,60 +1,60 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Briefpost
-description: Briefpost
+title: Direkt-Mail
+description: Direkt-Mail
 redpen-status: CREATED_||_2025-08-11_20-39-20
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 024fd5b5-5707-47ad-b90f-26e0d62f2fd2
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
+# Direkt-Mail{#section-overview}
 
-# Briefpost{#section-overview}
+Direkt-Mail in Adobe Journey Optimizer ermöglicht es Ihnen, Kundinnen und Kunden offline zu erreichen, indem Sie personalisierte, datengestützte Kampagnen erstellen, die greifbar und wirkungsvoll sind. Ganz gleich, ob Sie Zielgruppendateien für vertrauenswürdige Drittanbieter erstellen oder die Einhaltung von Einverständnisrichtlinien sicherstellen möchten – diese Funktion vereinfacht die Integration von Offline-Kanälen in Ihre breitere Marketing-Strategie. Sie erfahren alles von der Konfiguration des Datei-Routings bis hin zur Erstellung und Verwaltung von Kampagnen, zur Vorschau von Extraktionsdateien und zur Aktivierung von Nachrichten. Durch die Kombination von Automatisierung mit Personalisierung hilft Ihnen Direkt-Mail dabei, die Lücke zwischen digitaler und physischer Interaktion zu schließen und jede Kundeninteraktion noch aussagekräftiger zu gestalten.
 
-Briefpost in Adobe Journey Optimizer ermöglicht es Ihnen, Kunden offline zu erreichen, indem Sie personalisierte, datengesteuerte Kampagnen erstellen, die sich greifbar und wirkungsvoll anfühlen. Unabhängig davon, ob Sie Zielgruppendateien für vertrauenswürdige Drittanbieter generieren oder die Einhaltung von Einverständnisrichtlinien sicherstellen, vereinfacht diese Funktion den Prozess der Integration von Offline-Kanälen in Ihre breitere Marketing-Strategie. Sie erfahren alles von der Konfiguration des Datei-Routings bis hin zur Erstellung und Verwaltung von Kampagnen, zur Vorschau von Extraktionsdateien und zur Aktivierung von Nachrichten. Durch die Kombination von Automatisierung mit Personalisierung hilft Ihnen Direct Mail dabei, die Lücke zwischen digitaler und physischer Interaktion zu schließen und jede Kundeninteraktion aussagekräftiger zu gestalten.
-
-## Briefpost-Dokumentation
+## Dokumentation zu Direkt-Mail
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Einführung in Briefpostkampagnen
+Einführung in Direkt-Mail-Kampagnen
 
-Erfahren Sie mehr über Briefpostkampagnen in Adobe Journey Optimizer, einschließlich Extraktionsdateien und Überlegungen zur Einhaltung von Vorschriften.
+Erfahren Sie mehr über Direkt-Mail-Kampagnen in Adobe Journey Optimizer, einschließlich Extraktionsdateien und Überlegungen zur Compliance.
 
 [Einführung lesen](../using/direct-mail/get-started-direct-mail.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Erstellen einer Briefpostkampagne
+Erstellen einer Direkt-Mail-Kampagne
 
-Schrittweise Anleitung zum Erstellen von Briefpostkampagnen und zum Konfigurieren von Extraktionsdateien für Anbieter.
+Schrittweise Anleitung zum Erstellen von Direkt-Mail-Kampagnen und zum Konfigurieren von Extraktionsdateien für Anbieter.
 
-[Tutorial](../using/direct-mail/create-direct-mail.md)
+[Tutorial verwenden](../using/direct-mail/create-direct-mail.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-So überprüfen und senden Sie eine Briefpostkampagne
+Überprüfen und Senden einer Direkt-Mail-Kampagne
 
-Effektive Vorschau, Validierung, Aktivierung und Verwaltung des Einverständnisses für Briefpostkampagnen.
+Gehen Sie bei Vorschau, Validierung, Aktivierung und Verwaltung des Einverständnisses für Direkt-Mail-Kampagnen effektiv vor.
 
-[Erfahren Sie mehr über den Prozess](../using/direct-mail/test-send-direct-mail.md)
+[Informationen zum Prozess](../using/direct-mail/test-send-direct-mail.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Konfigurieren des Briefpostkanals
+Konfigurieren des Direkt-Mail-Kanals
 
-Richten Sie die Konfigurationen für Datei-Routing und Briefpost zum Exportieren von Zielgruppendaten-Dateien auf Server ein.
+Richten Sie die Konfigurationen für Datei-Routing und Direkt-Mail zum Exportieren von Zielgruppendaten-Dateien auf Servern ein.
 
 [Kanal konfigurieren](../using/direct-mail/direct-mail-configuration.md)
 :::

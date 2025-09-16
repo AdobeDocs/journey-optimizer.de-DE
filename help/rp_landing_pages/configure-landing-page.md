@@ -4,25 +4,25 @@ product: Journey Optimizer
 title: Konfigurieren des Inhaltskartenkanals
 description: Konfigurieren des Inhaltskartenkanals
 redpen-status: CREATED_||_2025-08-11_20-43-03
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 430e1c63-0f82-4515-9cc2-2e1346742da5
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # Konfigurieren des Inhaltskartenkanals{#section-overview}
 
-Im Abschnitt „Konfigurieren des Inhaltskarten-Kanals“ in Adobe Journey Optimizer können Sie über dynamische Inhaltskarten personalisierte, ansprechende Erlebnisse für Web-, Mobil- und andere Plattformen bereitstellen. Durch die Definition von Oberflächen mit spezifischen Touchpoints, die mithilfe eindeutiger URIs identifiziert werden, und die Anpassung von Konfigurationen können Sie das Aussehen Ihrer Nachrichten und die Interaktion mit Benutzern anpassen. Dieser Abschnitt führt Sie durch die wichtigsten Einrichtungsschritte, von der Integration mit Adobe Experience Platform SDKs bis zur Fehlerbehebung und Verfeinerung Ihrer Designs. Unabhängig davon, ob Sie Regeln für die Web-Personalisierung erstellen oder Mobile SDK-Funktionen zur Verfolgung von Benutzerinteraktionen nutzen, bietet jedes Thema einen klaren Pfad, der Ihnen dabei hilft, die Inhaltsbereitstellung zu optimieren und sinnvolle Interaktionen zu fördern.
+Im Abschnitt „Konfigurieren des Inhaltskartenkanals“ in Adobe Journey Optimizer können Sie über dynamische Inhaltskarten personalisierte, ansprechende Erlebnisse für Web-, Mobile- und andere Plattformen bereitstellen. Durch die Definition von Oberflächen mit spezifischen Touchpoints, die mithilfe eindeutiger URIs identifiziert werden, und die Anpassung von Konfigurationen können Sie das Aussehen Ihrer Nachrichten und die Interaktion mit Benutzenden anpassen. Dieser Abschnitt führt Sie durch die wichtigsten Einrichtungsschritte, von der Integration mit Adobe Experience Platform-SDKs bis hin zur Fehlerbehebung und Verfeinerung Ihrer Designs. Ob Sie nun Regeln für die Web-Personalisierung erstellen oder Mobile SDK-Funktionen für die Verfolgung von Benutzerinteraktionen nutzen – jedes Thema bietet Ihnen einen klaren Weg, um die Bereitstellung von Inhalten zu optimieren und eine sinnvolle Interaktion zu fördern.
 
 ## Konfigurieren des Inhaltskartenkanals
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Voraussetzungen für die Konfiguration des Inhaltskarten-Kanals
+Voraussetzungen für die Konfiguration von Inhaltskarten-Kanälen
 
 Erfahren Sie, welche Konfigurationen und Einstellungen erforderlich sind, um den Inhaltskarten-Kanal in Adobe Journey Optimizer zu aktivieren.
 
@@ -30,33 +30,33 @@ Erfahren Sie, welche Konfigurationen und Einstellungen erforderlich sind, um den
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Konfigurieren des Inhaltskarten-Kanals in Journey Optimizer
 
 Folgen Sie den schrittweisen Anweisungen, um URI-Oberflächen zu definieren und Inhaltskartenkonfigurationen für verschiedene Plattformen zu erstellen.
 
-[Konfiguration starten](../using/content-card/content-card-configuration.md)
+[Mit der Konfiguration beginnen](../using/content-card/content-card-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Konfigurieren der Unterstützung für Inhaltskarten in Mobile SDK
+Konfigurieren der Unterstützung für Inhaltskarten im Mobile SDK
 
-Aktivieren und Anpassen von Inhaltskarten in Mobile Apps mit Adobe Experience Platform Mobile SDKs.
+Aktivieren und passen Sie Inhaltskarten in Apps mithilfe von Adobe Experience Platform Mobile SDKs an.
 
-[Einrichten von Mobile SDK](../using/content-card/content-card-lp.md)
+[Mobile SDK einrichten](../using/content-card/content-card-lp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Konfigurieren der Unterstützung für Inhaltskarten in Web SDK
+Konfigurieren der Unterstützung für Inhaltskarten im Web SDK
 
-Implementieren von Inhaltskarten in Web-Anwendungen mit Adobe Experience Platform Web SDK für dynamische Personalisierung.
+Implementieren Sie Inhaltskarten in Web-Anwendungen mit dem Adobe Experience Platform Web SDK für dynamische Personalisierung.
 
-[Einrichten von Web SDK](../using/content-card/content-card-configuration-sdk.md)
+[Web SDK einrichten](../using/content-card/content-card-configuration-sdk.md)
 :::
 
 ::::

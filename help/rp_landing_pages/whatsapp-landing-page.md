@@ -4,25 +4,25 @@ product: Journey Optimizer
 title: WhatsApp
 description: WhatsApp
 redpen-status: CREATED_||_2025-08-11_20-44-12
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 43d23d66-7c15-42e2-94ff-3dc80927d07a
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # WhatsApp{#section-overview}
 
-Adobe Journey Optimizer ermöglicht es Ihnen, sich mit Ihrer Audience über WhatsApp zu verbinden, einen Kanal, der perfekt für personalisierte Kommunikation in Echtzeit geeignet ist. Unabhängig davon, ob Sie Updates, Promotions oder wichtige Informationen senden, hilft Ihnen diese Funktion bei der nahtlosen Integration von WhatsApp in Ihre Kampagnen und Journey mithilfe der Cloud-API von Meta. Sie erfahren, wie Sie den Kanal konfigurieren, ansprechende Nachrichten erstellen, Inhalte in der Vorschau anzeigen und validieren und einen reibungslosen Versand sicherstellen, während Sie gleichzeitig die Richtlinien von Meta einhalten. Jedes Thema baut auf dem letzten auf und bietet Ihnen einen klaren, schrittweisen Weg zur Beherrschung von WhatsApp-Nachrichten für eine wirkungsvolle Kundeninteraktion.
+Adobe Journey Optimizer ermöglicht es Ihnen, sich mit Ihrer Zielgruppe über WhatsApp zu verbinden, einen Kanal, der perfekt für personalisierte Kommunikation in Echtzeit geeignet ist. Ganz gleich, ob Sie Updates, Werbeaktionen oder wichtige Informationen versenden – diese Funktion hilft Ihnen dabei, WhatsApp mithilfe der Cloud-API von Meta nahtlos in Ihre Kampagnen und Journeys zu integrieren. Sie erfahren, wie Sie den Kanal konfigurieren, ansprechende Nachrichten erstellen, Inhalte in der Vorschau anzeigen und validieren und einen reibungslosen Versand sicherstellen, während Sie gleichzeitig die Richtlinien von Meta einhalten. Jedes Thema baut auf dem vorherigen auf und bietet Ihnen einen klaren, schrittweisen Weg zur Beherrschung von WhatsApp-Nachrichten für eine wirkungsvolle Kundeninteraktion.
 
 ## WhatsApp-Dokumentation
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Erste Schritte mit WhatsApp-Nachrichten
+Erste Schritte mit WhatsApp-Messaging
 
 Erfahren Sie, wie Sie WhatsApp mit Adobe Journey Optimizer integrieren, einschließlich Voraussetzungen, Einschränkungen und Einrichtungsschritten.
 
@@ -30,33 +30,33 @@ Erfahren Sie, wie Sie WhatsApp mit Adobe Journey Optimizer integrieren, einschli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-WhatsApp-Kanal konfigurieren
+Konfigurieren des WhatsApp-Kanals
 
-Schrittweise Anweisungen zum Einrichten von WhatsApp-API-Anmeldeinformationen, Webhooks und Kanalkonfigurationen für das Messaging.
+Schrittweise Anleitungen zum Einrichten von WhatsApp-API-Anmeldeinformationen, Webhooks und Kanalkonfigurationen für das Messaging.
 
 [Kanal konfigurieren](../using/whatsapp/whatsapp-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen von WhatsApp-Nachrichten
 
 Erfahren Sie, wie Sie personalisierte WhatsApp-Nachrichten, einschließlich Vorlagen, unterstützten Elementen und Aktionsaufrufen, entwerfen und senden.
 
-[Erstellen einer Nachricht](../using/whatsapp/create-whatsapp.md)
+[Nachricht erstellen](../using/whatsapp/create-whatsapp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
 
 Vorschau, Validierung und Senden von WhatsApp-Nachrichten
 
-Erfahren Sie, wie Sie WhatsApp-Nachrichten in der Vorschau anzeigen, validieren und senden, während Sie Fehler beheben und Richtlinien einhalten.
+Erfahren Sie, wie Sie WhatsApp-Nachrichten in der Vorschau anzeigen, validieren und versenden und dabei Fehler beheben sowie Richtlinien einhalten.
 
-[Nachrichten überprüfen und senden](../using/whatsapp/send-whatsapp.md)
+[Nachrichten senden und überprüfen](../using/whatsapp/send-whatsapp.md)
 :::
 
 ::::

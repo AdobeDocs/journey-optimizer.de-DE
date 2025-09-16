@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Überwachen von E-Mail-Adressen
-description: Überwachen von E-Mail-Adressen
+title: E-Mail-Adressen überwachen
+description: E-Mail-Adressen überwachen
 redpen-status: CREATED_||_2025-08-11_21-08-58
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: cbc8b2af-9df7-4523-88eb-fe73f74f2b01
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
+# E-Mail-Adressen überwachen{#section-overview}
 
-# Überwachen von E-Mail-Adressen{#section-overview}
-
-Die Verwaltung des Zustands Ihrer E-Mail-Kampagnen beginnt mit der Überwachung der E-Mail-Adressen, die Sie senden, um sicherzustellen, dass Ihre Nachrichten die richtigen Posteingänge erreichen, während Ihre Reputation als Absender geschützt wird. In Adobe Journey Optimizer erfahren Sie, wie Sie Tools wie Unterdrückungslisten verwenden können, um problematische Adressen zu blockieren, erneute Versuche, temporäre Probleme zu behandeln, und Zulassungslisten, um zu steuern, wer Ihre E-Mails erhält. Jedes Thema baut auf dem letzten auf und zeigt Ihnen, wie Sie Versandfehler verhindern, Ausschlüsse verwalten und eine sichere, effiziente Kommunikation mit Ihrer Audience gewährleisten können. Unabhängig davon, ob Sie Bounces beheben, Einstellungen verfeinern oder Kampagnen sicher testen, geben Ihnen diese Funktionen die Kontrolle über Ihre E-Mail-Zustellbarkeitsstrategie.
+Das Verwalten des Status Ihrer E-Mail-Kampagnen beginnt mit der Überwachung der E-Mail-Adressen, die Sie senden, um sicherzustellen, dass Ihre Nachrichten die richtigen Posteingänge erreichen, während gleichzeitig Ihre Reputation als Absender geschützt wird. In Adobe Journey Optimizer lernen Sie, wie Sie diverse Tools verwenden, beispielsweise Unterdrückungslisten, um problematische Adressen zu blockieren, Wiederholungsversuche, um vorübergehende Probleme zu beheben, oder Zulassungslisten, um zu kontrollieren, wer Ihre E-Mails erhält. Jedes Thema baut auf dem vorherigen auf und zeigt Ihnen, wie Sie Versandfehler verhindern, Ausschlüsse verwalten und eine sichere, effiziente Kommunikation mit Ihrer Zielgruppe gewährleisten können. Ganz gleich, ob Sie Bounces beheben, Einstellungen verfeinern oder Kampagnen sicher testen – diese Funktionen geben Ihnen die Kontrolle über Ihre E-Mail-Zustellbarkeitsstrategie.
 
 ## Überwachen von E-Mail-Adressen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwalten der Unterdrückungsliste
 
@@ -30,23 +30,23 @@ Erfahren Sie, wie Sie die E-Mail-Zustellbarkeit durch die Verwaltung von Unterdr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verwalten von weiteren Zustellversuchen und Unterdrückungslisten
 
 Verstehen und konfigurieren Sie Wiederholungsmechanismen für Softbounce-Fehler, um die Zustellbarkeit von E-Mails und die Unterdrückungsregeln zu optimieren.
 
-[Weitere Zustellversuche](../using/configuration/retries.md)
+[Informationen zu weiteren Zustellversuchen](../using/configuration/retries.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Konfigurieren der Zulassungsliste
 
 Erfahren Sie, wie Sie eine Zulassungsliste konfigurieren, um eine sichere und autorisierte E-Mail-Kommunikation für Tests und die Produktion sicherzustellen.
 
-[Erkunden der Zulassungsliste-Konfiguration](../using/configuration/allow-list.md)
+[Konfiguration der Zulassungsliste erkunden](../using/configuration/allow-list.md)
 :::
 
 ::::

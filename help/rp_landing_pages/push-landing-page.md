@@ -4,17 +4,17 @@ product: Journey Optimizer
 title: Kanal für Push-Benachrichtigungen
 description: Kanal für Push-Benachrichtigungen
 redpen-status: CREATED_||_2025-08-11_20-37-12
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 8d82ef2f-91ee-4502-9a01-f66ccbd55fea
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
-
 # Kanal für Push-Benachrichtigungen{#section-overview}
 
-Push-Benachrichtigungen in Adobe Journey Optimizer sind eine leistungsstarke Methode, um Benutzende Ihrer Mobile App anzusprechen, indem sie zeitnahe, personalisierte Nachrichten direkt an ihre Geräte senden - auch wenn sie Ihre App nicht aktiv verwenden. Unabhängig davon, ob Sie inaktive Benutzende erneut ansprechen, Updates freigeben oder bestimmte Aktionen fördern möchten, können Sie mit diesem Kanal wirkungsvolle Kampagnen erstellen, die auf Ihre Audience zugeschnitten sind. In diesem Abschnitt erfahren Sie alles, von der Einrichtung von Push-Benachrichtigungen und der Gestaltung überzeugender Inhalte bis zur Validierung und zum Versand Ihrer Nachrichten. Im Laufe der Zeit erfahren Sie, wie Sie für verschiedene Plattformen (iOS und Android) optimieren, Opt-ins verwalten und erweiterte Funktionen wie stille Benachrichtigungen und Schnellversand-Modi für eine groß angelegte Öffentlichkeitsarbeit nutzen können. Verwandeln wir Ihre App in einen dynamischen Kommunikations-Hub!
+Push-Benachrichtigungen in Adobe Journey Optimizer sind eine leistungsstarke Möglichkeit, die Benutzenden Ihrer App zu binden, indem Sie zeitnahe, personalisierte Nachrichten direkt auf ihre Geräte senden – selbst wenn sie Ihre App gerade nicht aktiv nutzen. Ganz gleich, ob Sie inaktive Benutzende wieder ansprechen, Updates teilen oder bestimmte Aktionen fördern möchten: Mit diesem Kanal können Sie wirkungsvolle Kampagnen erstellen, die auf Ihre Zielgruppe zugeschnitten sind. In diesem Abschnitt erfahren Sie alles, von der Einrichtung von Push-Benachrichtigungen über die Gestaltung ansprechender Inhalte bis hin zur Validierung und zum Versand Ihrer Nachrichten. Dabei lernen Sie, wie Sie die Benachrichtigungen für verschiedene Plattformen (iOS und Android) optimieren, Opt-ins verwalten und erweiterte Funktionen wie stille Benachrichtigungen und schnelle Zustellungsmodi für groß angelegte Kampagnen nutzen können. Verwandeln wir Ihre App in einen dynamischen Kommunikations-Hub!
 
 >[!IMPORTANT]
 >
@@ -38,29 +38,29 @@ Push-Benachrichtigungen können erstellt werden:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Push-Benachrichtigungen erstellen und konfigurieren
+Erstellen und Konfigurieren von Push-Benachrichtigungen
 
-Schrittweise Anleitung zum Erstellen und Konfigurieren von Push-Benachrichtigungen, einschließlich des Schnellversand-Modus für dringende, groß angelegte Kampagnen.
+Schritt-für-Schritt-Handbuch zum Erstellen und Konfigurieren von Push-Benachrichtigungen, einschließlich des Schnellversand-Modus für dringende, groß angelegte Kampagnen.
 
-[Erstellen von](../using/push/create-push.md)
+[Erste Schritte mit der Erstellung](../using/push/create-push.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Gestalten einer Push-Benachrichtigung
 
-Erfahren Sie, wie Sie Push-Benachrichtigungen mit Medien, Schaltflächen, stillen Benachrichtigungen, benutzerdefinierten Daten und erweiterten Optionen entwerfen und personalisieren können.
+Entdecken Sie, wie Sie Push-Benachrichtigungen mit Medien, Schaltflächen, stillen Benachrichtigungen, benutzerdefinierten Daten und erweiterten Optionen entwerfen und personalisieren können.
 
 [Jetzt entwerfen](../using/push/design-push.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Vorschau, Validierung und Senden von Push-Benachrichtigungen
+Vorschau, Validieren und Senden von Push-Benachrichtigungen
 
 Erfahren Sie, wie Sie Push-Benachrichtigungen in der Vorschau anzeigen, validieren und senden, um eine erfolgreiche Bereitstellung und Fehlerbehebung sicherzustellen.
 
@@ -68,7 +68,7 @@ Erfahren Sie, wie Sie Push-Benachrichtigungen in der Vorschau anzeigen, validier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfiguration von Push-Benachrichtigungen
 

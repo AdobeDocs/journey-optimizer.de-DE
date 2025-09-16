@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: Entscheidungsfindung
 description: Entscheidungsfindung
 redpen-status: CREATED_||_2025-08-11_20-57-38
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # Entscheidungsfindung{#section-overview}
 
-Mit der Entscheidungsfunktion von Adobe Journey Optimizer können Sie personalisierte Marketing-Angebote bereitstellen, indem Sie einen zentralisierten Katalog von Entscheidungselementen mit einer leistungsstarken Entscheidungs-Engine kombinieren. Unabhängig davon, ob Sie Inhalte für einzelne Zielgruppen anpassen oder Strategien mit KI-gestützten Rankings optimieren, bietet Decisioning die Tools, um datengestützte Entscheidungen im benötigten Umfang zu treffen. Machen Sie sich mit den wichtigsten Konzepten wie Entscheidungselementen, Regeln und Richtlinien vertraut und erkunden Sie, wie diese Elemente zusammenarbeiten, um die besten Inhalte für Ihre Kampagnen auszuwählen und zu priorisieren. Von der Verwaltung von Sammlungen und Platzierungen bis zur Nutzung von Adobe Experience Platform-Daten hilft Ihnen dieses umfassende Handbuch, eine intelligentere Personalisierung zu erschließen und wirkungsvolle Kundenerlebnisse zu schaffen.
+Mit der Entscheidungsfunktion von Adobe Journey Optimizer können Sie personalisierte Marketing-Angebote bereitstellen, indem Sie einen zentralisierten Katalog von Entscheidungselementen mit einer leistungsstarken Entscheidungs-Engine kombinieren. Ganz gleich, ob Sie Inhalte für einzelne Zielgruppen anpassen oder Strategien mit KI-gestützten Ranglisten optimieren möchten – die Entscheidungsfindung bietet Ihnen die Tools, um datengestützte Entscheidungen im benötigten Umfang zu treffen. Tauchen Sie ein in die wichtigsten Konzepte wie Entscheidungselemente, Regeln und Richtlinien und erfahren Sie, wie diese Elemente zusammenwirken, um die besten Inhalte für Ihre Kampagnen auszuwählen und zu priorisieren. Von der Verwaltung von Sammlungen und Platzierungen bis zur Nutzung von Adobe Experience Platform-Daten hilft Ihnen dieses umfassende Handbuch, intelligentere Personalisierung zu erschließen und wirkungsvolle Kundenerlebnisse zu schaffen.
 
 ## Entscheidungsfunktionen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Einführung in die Entscheidungsfindung
 
@@ -30,53 +30,53 @@ Lernen Sie die Grundlagen der Entscheidungsfindung in Adobe Journey Optimizer ke
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-Leitplanken und Einschränkungen bei Entscheidungen
+Leitlinien und Einschränkungen bei der Entscheidungsfindung
 
-Machen Sie sich mit den Einschränkungen und Best Practices für die effektive Verwendung von Decisioning in Adobe Journey Optimizer vertraut.
+Machen Sie sich mit den Einschränkungen und Best Practices für die effektive Verwendung der Entscheidungsfindung in Adobe Journey Optimizer vertraut.
 
-[Informationen zu Leitplanken](../using/experience-decisioning/decisioning-guardrails.md)
+[Informationen zu Leitlinien](../using/experience-decisioning/decisioning-guardrails.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API-Referenz: Angebote unterbreiten
 
-Erfahren Sie, wie Sie Angebote mit dem Code-basierten Erlebniskanal und verschiedenen Implementierungsmethoden bereitstellen können.
+Erfahren Sie, wie Sie mit dem Code-basierten Erlebniskanal und verschiedenen Implementierungsmethoden Angebote unterbreiten können.
 
 [API-Referenz anzeigen](experience-decisioning-api-reference-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Entscheidungselemente und Kataloge verwalten
+Verwalten von Entscheidungselementen und Katalogen
 
 Konfigurieren und verwalten Sie Entscheidungselemente, Kataloge und Sammlungen, um Marketing-Angebote zu organisieren und zu personalisieren.
 
-[Verwalten von Entscheidungselementen](manage-decision-items-landing-page.md)
+[Entscheidungselemente verwalten](manage-decision-items-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Entscheidungsregeln erstellen
+Erstellen von Entscheidungsregeln
 
 Definieren Sie Entscheidungsregeln, um Zielgruppen mithilfe von Einschränkungen und Segmentierungs-Tools präzise anzusprechen.
 
-[Erstellen von Entscheidungsregeln](../using/experience-decisioning/rules.md)
+[Entscheidungsregeln erstellen](../using/experience-decisioning/rules.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Erstellen von Rankings mit KI-Modellen
+Erstellen von Ranklisten mit KI-Modellen
 
 Optimieren Sie die Entscheidungsfindung mit Ranking-Methoden und KI-Modellen, um Marketing-Angebote effektiv zu priorisieren.
 
-[Informationen zu Rankings](experience-decisioning-rankings-landing-page.md)
+[Mehr zu Ranglisten](experience-decisioning-rankings-landing-page.md)
 :::
 
 ::::
@@ -84,9 +84,9 @@ Optimieren Sie die Entscheidungsfindung mit Ranking-Methoden und KI-Modellen, um
 
 ## Weitere Ressourcen
 
-- **[Erstellen von E-Mail](../using/experience-decisioning/placements.md)** Platzierungen - Erfahren Sie, wie Sie Platzierungen für E-Mail-Kampagnen erstellen, um Entscheidungselemente effektiv darzustellen.
-- **[Adobe Experience Platform-Daten verwenden](aep-data-landing-page.md)** - Integration von Adobe Experience Platform-Daten zur Anreicherung von Entscheidungsregeln und Rangfolgeformeln.
-- **[Auswahlstrategien erstellen](../using/experience-decisioning/selection-strategies.md)** Erstellen wiederverwendbarer Auswahlstrategien, um den Versand von Angeboten mithilfe von Ranking-Methoden und Einschränkungen zu bestimmen.
-- **[Entscheidungsrichtlinien erstellen](../using/experience-decisioning/create-decision.md)** - Konfigurieren von Entscheidungsrichtlinien, um Inhalte für Zielgruppenprofile dynamisch zu personalisieren.
-- **[Bericht zur Entscheidungsfindung](../using/experience-decisioning/cja-reporting.md)** - Überwachen Sie Entscheidungs-KPIs und erstellen Sie benutzerdefinierte Reporting-Dashboards mit Customer Journey Analytics.
-- **[Anwendungsfälle für Entscheidungen](../using/experience-decisioning/experience-decisioning-uc.md)** - Erfahren Sie, wie Sie Entscheidungsstrategien für Code-basierte Erlebnisse und Inhaltsexperimente implementieren.
+- **[Erstellen von E-Mail-Platzierungen](../using/experience-decisioning/placements.md)** – Erfahren Sie, wie Sie Platzierungen für E-Mail-Kampagnen erstellen, um Entscheidungselemente effektiv darzustellen.
+- **[Verwenden von Adobe Experience Platform-Daten](aep-data-landing-page.md)** – Integrieren Sie Adobe Experience Platform-Daten zur Anreicherung von Entscheidungsregeln und Ranglistenformeln.
+- **[Erstellen von Auswahlstrategien](../using/experience-decisioning/selection-strategies.md)** – Erstellen Sie wiederverwendbare Auswahlstrategien, um die Bereitstellung von Angeboten mithilfe von Ranking-Methoden und Einschränkungen zu bestimmen.
+- **[Erstellen Sie Entscheidungsrichtlinien](../using/experience-decisioning/create-decision.md)** – Konfigurieren Sie Entscheidungsrichtlinien, um Inhalte für Zielgruppenprofile dynamisch zu personalisieren.
+- **[Berichte zur Entscheidungsfindung](../using/experience-decisioning/cja-reporting.md)** – Überwachen Sie KPIs zur Entscheidungsfindung und erstellen Sie mit Customer Journey Analytics benutzerdefinierte Berichts-Dashboards.
+- **[Anwendungsfälle für die Entscheidungsfindung](../using/experience-decisioning/experience-decisioning-uc.md)** – Erfahren Sie, wie Sie Entscheidungsstrategien für Code-basierte Erlebnisse und Inhaltsexperimente implementieren.

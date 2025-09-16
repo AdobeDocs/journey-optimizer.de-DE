@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: Code-basiertes Erlebnis
 description: Code-basiertes Erlebnis
 redpen-status: CREATED_||_2025-08-11_20-42-30
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 55b07a0b-b09a-47e6-8b9f-e05e2dd7b47e
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # Code-basiertes Erlebnis{#section-overview}
 
-Code-basierte Erlebnisse in Adobe Journey Optimizer ermöglichen es Ihnen, hochgradig personalisierte Inhalte für bestimmte Touchpoints innerhalb Ihrer Apps oder Websites bereitzustellen, und bieten Entwickelnden und Marketing-Experten gleichermaßen eine beispiellose Flexibilität. Unabhängig davon, ob Sie benutzerdefinierte Erlebnisse über APIs erstellen oder mit SDKs integrieren, können Sie mit diesem Ansatz Inhalte dynamisch auf der Grundlage des Benutzerverhaltens oder des Kontexts anpassen. Sie werden untersuchen, wie sich diese Methode von anderen Kanälen unterscheidet, lernen, wann sie ausgewählt wird, und lernen praktische Schritte für Einrichtung, Tests und Bereitstellung kennen. Durch die Beherrschung dieser Tools eröffnen Sie neue Möglichkeiten, Ihre Zielgruppe anzusprechen und nahtlose, wirkungsvolle Journey zu erstellen.
+Code-basierte Erlebnisse in Adobe Journey Optimizer ermöglichen es Ihnen, hochgradig personalisierte Inhalte für bestimmte Touchpoints innerhalb Ihrer Apps oder Websites bereitzustellen, und bieten Entwickelnden und Marketing-Fachleuten gleichermaßen eine beispiellose Flexibilität. Unabhängig davon, ob Sie benutzerdefinierte Erlebnisse über APIs erstellen oder mit SDKs integrieren, können Sie mit diesem Ansatz Inhalte dynamisch auf der Grundlage des Benutzerverhaltens oder des Kontexts anpassen. Sie werden herausfinden, wie sich diese Methode von anderen Kanälen unterscheidet, lernen, wann Sie sie wählen sollten, und praktische Schritte für die Einrichtung, das Testen und die Bereitstellung kennenlernen. Wenn Sie diese Tools beherrschen, eröffnen sich Ihnen neue Möglichkeiten, Ihre Zielgruppe anzusprechen und nahtlose, wirkungsvolle Benutzer-Journeys zu erstellen.
 
 ## Code-basierte Erlebnisressourcen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in Code-basierte Erlebnisse
 
@@ -30,23 +30,23 @@ Erfahren Sie mehr über Code-basierte Erlebnisse, ihre Anwendungsfälle und schr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Konfigurieren von Code-basierten Kanälen
+Konfigurieren eines Code-basierten Kanals
 
-Beherrschen Sie die Einrichtung und Verwaltung von Code-basierten Kanälen, einschließlich Voraussetzungen, Oberflächen und plattformspezifischen Konfigurationen.
+Beherrschen Sie die Einrichtung und Verwaltung von Code-basierten Kanälen, einschließlich der Voraussetzungen, Oberflächen und plattformspezifischen Konfigurationen.
 
-[Erfahren Sie, wie Sie Code-basierte Kanäle konfigurieren](configure-code-based-channel-landing-page.md)
+[Informationen zur Konfiguration Code-basierter Kanäle](configure-code-based-channel-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen von Code-basierten Erlebnissen
 
-Erfahren Sie in den Tutorials und Schritt-für-Schritt-Anweisungen zum Erstellen, Testen und Veröffentlichen von Code-basierten Erlebnissen in -Kampagnen und -Journey.
+Entdecken Sie Tutorials und Schritt-für-Schritt-Anleitungen zum Erstellen, Testen und Veröffentlichen von Code-basierten Erlebnissen in Kampagnen und Journeys.
 
-[Erstellen von Code-basierten Erlebnissen](create-code-based-experiences-landing-page.md)
+[Erste Schritte mit dem Erstellen von Code-basierten Erlebnissen](create-code-based-experiences-landing-page.md)
 :::
 
 ::::

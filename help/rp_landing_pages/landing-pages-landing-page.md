@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: Landingpages
 description: Landingpages
 redpen-status: CREATED_||_2025-08-12_00-37-59
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Landingpages{#section-overview}
 
-Mit Landingpages in Adobe Journey Optimizer können Sie maßgeschneiderte, eigenständige Web-Seiten erstellen, die Ihre Audience ansprechen und spezifische Aktionen fördern, z. B. das Abonnieren eines Newsletters, das Abmelden von Nachrichten oder das Bestätigen einer E-Mail. Egal, ob Sie Abonnement-Listen verwalten, interaktive Inhalte entwerfen oder die Leistung verfolgen, Landingpages sind ein vielseitiges Tool zur Verbesserung der Journey der Kunden. In diesem Abschnitt wird alles von der Einrichtung und dem Entwurf von Seiten bis zur Verwendung von Echtzeitdaten und -berichten aufgeschlüsselt, um sicherzustellen, dass Sie über die Tools verfügen, um wirkungsvolle, benutzerfreundliche Erlebnisse zu erstellen. Tauchen Sie ein, um zu erfahren, wie jede Funktion eine Verbindung zu Ihren Zielen herstellt und nahtlose Kundeninteraktionen aufbaut.
+Mit Landingpages in Adobe Journey Optimizer können Sie maßgeschneiderte, eigenständige Web-Seiten erstellen, die Ihre Zielgruppe ansprechen und spezifische Aktionen fördern, z. B. das Abonnieren eines Newsletters, das Abmelden von Nachrichten oder das Bestätigen einer E-Mail. Ob Sie Abonnementlisten verwalten, interaktive Inhalte entwerfen oder die Leistung verfolgen – Landingpages sind ein vielseitiges Tool zur Verbesserung der Customer Journeys. In diesem Abschnitt wird alles von der Einrichtung und Gestaltung von Seiten bis hin zur Verwendung von Echtzeitdaten und -berichten erläutert, um sicherzustellen, dass Sie über die Tools verfügen, um wirkungsvolle, benutzerfreundliche Erlebnisse zu schaffen. Tauchen Sie ein und erfahren Sie, wie jede Funktion mit Ihren Zielen zusammenhängt und nahtlose Kundeninteraktionen ermöglicht.
 
 ## Landingpages in Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in Landingpages
 
@@ -30,47 +30,47 @@ Lernen Sie die Grundlagen von Landingpages, ihre Funktionalität und die Integra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Landingpages erstellen und veröffentlichen
+Erstellen und Veröffentlichen von Landingpages
 
 Schrittweise Anleitungen zum effektiven Erstellen, Konfigurieren, Testen und Veröffentlichen von Landingpages.
 
-[Erfahren Sie, wie Sie Landingpages erstellen](../using/landing-pages/create-lp.md)
+[Informationen zum Erstellen von Landingpages](../using/landing-pages/create-lp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwalten von Landingpages
 
-Zugreifen auf, Organisieren und Ausführen von Aktionen wie Veröffentlichen, Duplizieren und Taggen von Landingpages.
+Greifen Sie auf Landingpages zu, organisieren Sie sie und führen Sie Aktionen wie Veröffentlichen, Duplizieren und Taggen durch.
 
-[Verwalten von Landingpages](../using/landing-pages/manage-lp.md)
+[Verwaltung von Landingpages erkunden](../using/landing-pages/manage-lp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Gestalten von Inhalten für Landingpages
 
-Erstellen und passen Sie Landingpages mit Vorlagen, Formularen und erweiterten JavaScript-Funktionen an.
+Erstellen Sie Landingpages und passen Sie sie mit Vorlagen, Formularen und erweiterten JavaScript-Funktionen an.
 
-[Beginnen Sie mit der Gestaltung von Landingpages](landing-pages-design-landing-page.md)
+[Mit der Gestaltung von Landingpages beginnen](landing-pages-design-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Abonnement-Listen erstellen und verwalten
+Erstellen und Verwalten von Abonnementlisten
 
-Richten Sie Abonnement-Listen ein, um Opt-in-Profile zu verwalten und zielgerichtete Kommunikation zu optimieren.
+Richten Sie Abonnementlisten ein, um angemeldete Profile zu verwalten und zielgerichtete Kommunikation zu optimieren.
 
-[Informationen zu Abonnement-Listen](../using/landing-pages/subscription-list.md)
+[Informationen zu Abonnementlisten](../using/landing-pages/subscription-list.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Anwendungsfälle für Landingpages
 
@@ -84,4 +84,4 @@ Entdecken Sie praktische Anwendungsfälle für Landingpages, einschließlich Abo
 
 ## Weitere Ressourcen
 
-- **[Konfigurieren von Landingpages](lp-configuration-landing-page.md)** - Umfassende Anleitung zur Konfiguration von Subdomains und Voreinstellungen zur Optimierung der Verwaltung von Landingpages.
+- **[Konfigurieren von Landingpages](lp-configuration-landing-page.md)** – Umfassende Anleitung zur Konfiguration von Subdomains und Voreinstellungen zur Optimierung der Verwaltung von Landingpages.

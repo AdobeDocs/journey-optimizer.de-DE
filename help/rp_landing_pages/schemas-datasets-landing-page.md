@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: Verwalten von relationalen Schemata und Datensätzen
 description: Verwalten von relationalen Schemata und Datensätzen
 redpen-status: CREATED_||_2025-08-11_20-23-42
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 17c64a34-d571-46d0-a144-d4b746118c96
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '216'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-
 # Verwalten von relationalen Schemata und Datensätzen{#section-overview}
 
-Die Verwaltung relationaler Schemata und Datensätze in Adobe Journey Optimizer hilft Ihnen, Ihre Daten für wirkungsvolle, personalisierte Kampagnen zu strukturieren und zu organisieren. Unabhängig davon, ob Sie Datenbeziehungen manuell oder mithilfe von DDL-Dateien definieren, bilden diese Schemata die Grundlage für die nahtlose Verbindung von Kundendatensätzen und Kampagnendaten. Außerdem erfahren Sie, wie Sie Datensätze erstellen und Daten aus verschiedenen Quellen aufnehmen, um sicherzustellen, dass sie für die Orchestrierung und Zielgruppenbestimmung in Echtzeit bereit sind. Jedes Thema - von der Schemaerstellung bis zur Verknüpfung und Datenaufnahme - führt Sie Schritt für Schritt an, sodass Sie Rohdaten sicher in umsetzbare Einblicke umwandeln und außergewöhnliche Kundenerlebnisse bereitstellen können.
+Die Verwaltung relationaler Schemata und Datensätze in Adobe Journey Optimizer hilft Ihnen, Ihre Daten für wirkungsvolle, personalisierte Kampagnen zu strukturieren und zu organisieren. Ganz gleich, ob Sie Datenbeziehungen manuell oder mithilfe von DDL-Dateien definieren – diese Schemata bilden die Grundlage für das nahtlose Verbinden von Kundeneinträgen und Kampagnendaten. Außerdem erfahren Sie, wie Sie Datensätze erstellen und Daten aus verschiedenen Quellen aufnehmen, um sicherzustellen, dass sie für die Echtzeit-Orchestrierung und -Targeting bereit sind. In jedem Thema – von der Schemaerstellung bis zur Verknüpfung und Datenaufnahme – werden Sie Schritt für Schritt angeleitet, sodass Sie Rohdaten sicher in umsetzbare Erkenntnisse umwandeln und außergewöhnliche Kundenerlebnisse bereitstellen können.
 
 ## Verwalten von relationalen Schemata und Datensätzen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit relationalen Schemata und Datensätzen
 
@@ -30,31 +30,31 @@ Erfahren Sie, wie Sie Schemata erstellen, Datensätze konfigurieren und Daten f�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Einrichten eines manuellen relationalen Schemas
 
-Schrittweise Anweisungen zum manuellen Erstellen von Schemata, Hinzufügen von Attributen, Verknüpfen von Schemata und Konfigurieren von Datensätzen.
+Schrittweise Anleitungen zum manuellen Erstellen von Schemata, Hinzufügen von Attributen, Verknüpfen von Schemata und Konfigurieren von Datensätzen.
 
-[Manuelles Setup erlernen](../using/orchestrated/manual-schema.md)
+[Informationen zum manuellen Setup](../using/orchestrated/manual-schema.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Erstellen relationaler Schemata mithilfe einer DDL-Datei
 
-Schemata definieren durch Hochladen von DDL-Dateien, Verknüpfen von Tabellen und Einrichten von Beziehungen für orchestrierte Kampagnen.
+Definieren Sie Schemata durch Hochladen von DDL-Dateien, Verknüpfen von Tabellen und Einrichten von Beziehungen für orchestrierte Kampagnen.
 
-[Erkunden der DDL-Schemaerstellung](../using/orchestrated/file-upload-schema.md)
+[DDL-Schemaerstellung erkunden](../using/orchestrated/file-upload-schema.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Daten für Adobe Journey Optimizer-Kampagnen aufnehmen
+Aufnehmen von Daten für Adobe Journey Optimizer-Kampagnen
 
-Konfigurieren der Datenaufnahme aus unterstützten Quellen in Adobe Experience Platform zur Verwendung in Kampagnen.
+Konfigurieren Sie die Datenaufnahme aus unterstützten Quellen in Adobe Experience Platform zur Verwendung in Kampagnen.
 
 [Handbuch zur Datenaufnahme anzeigen](../using/orchestrated/ingest-data.md)
 :::

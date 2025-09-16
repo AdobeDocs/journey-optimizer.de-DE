@@ -4,57 +4,57 @@ product: Journey Optimizer
 title: Konfiguration von Datenquellen
 description: Konfiguration von Datenquellen
 redpen-status: CREATED_||_2025-08-11_21-11-22
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: e940bc83-77d2-4c5a-9895-20534d70e7ee
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # Konfiguration von Datenquellen{#section-overview}
 
-Datenquellen in Adobe Journey Optimizer ermöglichen es Ihnen, eine Verbindung zu Systemen herzustellen, die Ihre Journey mit personalisierten Echtzeitdaten anreichern - unabhängig davon, ob diese von der integrierten Adobe-Plattform oder von externen Systemen stammen, die Sie konfigurieren. Durch die Einrichtung dieser Verbindungen können Sie Ihre Journey mit dynamischen Bedingungen, personalisierten Nachrichten und mehr anpassen. In diesem Abschnitt werden die verschiedenen Arten von Datenquellen (vorkonfiguriert und extern), die Verwaltung der benötigten Felder mithilfe von Feldergruppen und die Schritte zum Einrichten und Anpassen dieser Integrationen untersucht. Mit klaren Anleitungen und Beispielen lernen Sie, die Leistungsfähigkeit von Daten zu erschließen, um intelligentere, wirkungsvollere Kundenerlebnisse zu schaffen.
+Datenquellen in Adobe Journey Optimizer ermöglichen es Ihnen, eine Verbindung zu Systemen herzustellen, die Ihre Journey mit personalisierten Echtzeitdaten anreichern – unabhängig davon, ob diese von der integrierten Adobe-Plattform oder von externen Systemen stammen, die Sie konfigurieren. Durch das Einrichten dieser Verbindungen können Sie Ihre Journeys mit dynamischen Bedingungen, personalisierten Nachrichten und mehr anpassen. In diesem Abschnitt werden die verschiedenen Arten von Datenquellen (vorkonfiguriert und extern), die Verwaltung der benötigten Felder mithilfe von Feldergruppen und die Schritte zum Einrichten und Anpassen dieser Integrationen untersucht. Mit klaren Anleitungen und Beispielen lernen Sie, die Möglichkeiten von Daten zu erschließen, um noch intelligentere und wirkungsvollere Kundenerlebnisse zu schaffen.
 
-## Konfiguration von Data Source
+## Konfiguration von Datenquellen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Datenquellen
 
 Erfahren Sie mehr über Datenquellen, ihre Typen, Anwendungsfälle und Feldergruppen. Enthält ein Video-Tutorial, das Ihnen bei den ersten Schritten hilft.
 
-[Artikel entdecken](../using/datasource/about-data-sources.md)
+[Artikel erkunden](../using/datasource/about-data-sources.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Konfigurieren eines Daten-Source
+Konfigurieren einer Datenquelle
 
-Schrittweise Anleitung zum Konfigurieren von Datenquellen und Verwalten von Feldergruppen für Journey-Benutzerinnen und -Benutzer in Adobe Journey Optimizer.
+Schrittweise Anleitung zum Konfigurieren von Datenquellen und Verwalten von Feldergruppen für Journeys in Adobe Journey Optimizer.
 
 [Tutorial lesen](../using/datasource/configure-data-sources.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Adobe Experience Platform Data Source
+Datenquelle von Adobe Experience Platform
 
 Erfahren Sie, wie Sie die integrierte Adobe Experience Platform-Datenquelle zum Abrufen von Echtzeit-Kundenprofildaten konfigurieren.
 
-[Handbuch anzeigen](../using/datasource/adobe-experience-platform-data-source.md)
+[Handbuch ansehen](../using/datasource/adobe-experience-platform-data-source.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Konfigurieren von externen Datenquellen
+Konfigurieren externer Datenquellen
 
-Definieren und Einrichten externer Datenquellenverbindungen, einschließlich API-Integration, Authentifizierung und Token-Injektion.
+Definieren und richten Sie externe Datenquellenverbindungen ein, einschließlich API-Integration, Authentifizierung und Token-Injektion.
 
 [Weitere Informationen](../using/datasource/external-data-sources.md)
 :::

@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: KI-Assistent für die Inhaltsgenerierung
 description: KI-Assistent für die Inhaltsgenerierung
 redpen-status: CREATED_||_2025-08-12_00-42-48
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # KI-Assistent für die Inhaltsgenerierung{#section-overview}
 
-Der KI-Assistent von Adobe Journey Optimizer revolutioniert die Inhaltserstellung, indem er generative KI nutzt, um personalisierten Text und personalisierte Visualisierungen für E-Mails, SMS, Push-Benachrichtigungen, Web-Seiten und mehr zu erstellen. Unabhängig davon, ob Sie vollständige Kampagnen generieren oder bestimmte Assets verfeinern, hilft Ihnen diese Funktion, Inhalte nahtlos an Ihren Markenrichtlinien auszurichten und dabei Zeit zu sparen. Sie erfahren, wie Sie auf den KI-Assistenten zugreifen, dessen Schutzmaßnahmen verstehen und dessen Funktionen kanalübergreifend nutzen können. Jedes Unterthema bietet praktische Anleitungen - von der Erstellung ansprechender E-Mails bis hin zum Experimentieren mit Inhaltsvarianten - damit Sie auf sichere Weise wirkungsvolle, markeninterne Kampagnen erstellen können, die bei Ihrer Audience Anklang finden.
+Der KI-Assistent von Adobe Journey Optimizer revolutioniert die Erstellung von Inhalten, indem er generative KI nutzt, um personalisierte Texte und Grafiken für E-Mails, SMS, Push-Benachrichtigungen, Web-Seiten und mehr zu erstellen. Unabhängig davon, ob Sie vollständige Kampagnen generieren oder bestimmte Assets verfeinern, hilft Ihnen diese Funktion, Inhalte nahtlos an Ihren Markenrichtlinien auszurichten und dabei noch Zeit zu sparen. Sie erfahren, wie Sie auf den KI-Assistenten zugreifen, die Schutzmaßnahmen verstehen und die Funktionen kanalübergreifend nutzen können. Jedes Unterthema bietet praktische Anleitungen – von der Erstellung ansprechender E-Mails bis hin zum Experimentieren mit Inhaltsvarianten –, damit Sie mit Zuversicht wirkungsvolle, markengerechte Kampagnen erstellen können, die bei Ihrer Zielgruppe Anklang finden.
 
-## KI-Assistent für die Inhaltserstellung
+## KI-Assistent für die Inhaltsgenerierung
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit dem KI-Assistenten
 
-Erfahren Sie, wie Sie auf die Funktion des KI-Assistenten zugreifen und sie konfigurieren können, um die Inhaltserstellung und Personalisierung zu verbessern.
+Erfahren Sie, wie Sie auf die Funktion „KI-Assistent“ zugreifen und diese konfigurieren können, um die Erstellung und Personalisierung von Inhalten zu verbessern.
 
 [Erste Schritte mit dem KI-Assistenten](../using/content-management/gs-generative.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-E-Mail-Inhaltserstellung mit KI
+Generieren von E-Mail-Inhalten mit KI
 
 Erfahren Sie, wie Sie mit dem KI-Assistenten E-Mail-Inhalte mit Markenausrichtung erstellen, anpassen und optimieren können.
 
-[Informationen zur E-Mail-Erstellung](../using/content-management/generative-email.md)
+[Informationen zur E-Mail-Generierung](../using/content-management/generative-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
-Inhaltserstellung für Push-Benachrichtigungen
+Generieren von Inhalten für Push-Benachrichtigungen
 
-Erstellen und personalisieren Sie Push-Benachrichtigungs-Inhalte mit KI, einschließlich Text und Bildern, die an Ihrer Marke ausgerichtet sind.
+Erstellen und personalisieren Sie mit KI Inhalte für Push-Benachrichtigungen, einschließlich Text und Bildern, die mit Ihrer Marke konform sind.
 
 [Push-Benachrichtigungen generieren](../using/content-management/generative-push.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
-SMS-Inhaltserstellung mit KI
+Generieren von SMS-Inhalten mit KI
 
-Verwenden Sie den KI-Assistenten, um SMS-Inhalte zu generieren und zu verfeinern, die bei Einhaltung der Markenrichtlinien mit Ihrer Zielgruppe Resonanz finden.
+Verwenden Sie den KI-Assistenten, um SMS-Inhalte zu generieren und zu verfeinern, die Ihre Zielgruppe ansprechen und gleichzeitig die Markenrichtlinien einhalten.
 
-[Erkunden der SMS-Generierung](../using/content-management/generative-sms.md)
+[SMS-Generierung erkunden](../using/content-management/generative-sms.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
-Erstellen von Web-Seiteninhalten und Assets
+Generieren von Web-Seiteninhalten und Assets
 
-Verbessern Sie den Inhalt und die Visualisierung von Web-Seiten mit dem KI-Assistenten, um eine Abstimmung mit den Markenrichtlinien sicherzustellen.
+Verbessern Sie mit dem KI-Assistenten den Inhalt und die visuelle Gestaltung Ihrer Web-Seiten und stellen Sie sicher, dass diese den Markenrichtlinien entsprechen.
 
-[Generieren von Webseiteninhalten](../using/content-management/generative-web.md)
+[Inhalte von Web-Seiten generieren](../using/content-management/generative-web.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
 
 Generieren von Landingpages mit KI
 
-Erstellen und verfeinern Sie Landingpage-Inhalte und -Assets, einschließlich Text und Visualisierungen, um die Interaktion zu fördern.
+Erstellen und optimieren Sie Inhalte und Assets für Landingpages, einschließlich Text und Bildmaterial, um die Interaktion zu steigern.
 
-[Generieren von Landingpages](../using/content-management/generative-lp.md)
+[Landingpages generieren](../using/content-management/generative-lp.md)
 :::
 
 ::::
@@ -84,6 +84,6 @@ Erstellen und verfeinern Sie Landingpage-Inhalte und -Assets, einschließlich Te
 
 ## Weitere Ressourcen
 
-- **[Inhaltsexperiment mit KI](../using/content-management/generative-experimentation.md)** - Testen und messen Sie die Leistung mehrerer Inhaltsvarianten mit der Funktion „Inhaltsexperiment“.
-- **[KI-Assistenten-Anwendungsfälle](../using/content-management/generative-uc.md)** - Erkunden Sie verschiedene Möglichkeiten, den KI-Assistenten für die Inhaltserstellung, -verfeinerung und -anpassung zu nutzen.
-- **[Markenverwaltung und -ausrichtung](brands-landing-page.md)** - Verwalten Sie Markenrichtlinien und stellen Sie eine konsistente Ausrichtung über KI-generierte Inhalte und Kampagnen hinweg sicher.
+- **[Inhaltsexperimente mit KI](../using/content-management/generative-experimentation.md)** – Testen und messen Sie die Leistung mehrerer Inhaltsvarianten mit der Funktion für Inhaltsexperimente.
+- **[Anwendungsfälle des KI-Assistenten](../using/content-management/generative-uc.md)** – Erkunden Sie verschiedene Möglichkeiten, den KI-Assistenten für die Generierung, Optimierung und Anpassung von Inhalten zu nutzen.
+- **[Markenverwaltung und -ausrichtung](brands-landing-page.md)** – Verwalten Sie Markenrichtlinien und stellen Sie eine konsistente Ausrichtung über KI-generierte Inhalte und Kampagnen hinweg sicher.

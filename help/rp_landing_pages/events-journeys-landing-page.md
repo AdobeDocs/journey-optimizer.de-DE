@@ -4,35 +4,35 @@ product: Journey Optimizer
 title: Ereigniskonfiguration
 description: Ereigniskonfiguration
 redpen-status: CREATED_||_2025-08-11_21-10-50
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # Ereigniskonfiguration{#section-overview}
 
-Bei der Ereigniskonfiguration in Adobe Journey Optimizer geht es um die Einrichtung der Trigger, mit denen Ihre personalisierten Kunden-Journey gestartet werden. Unabhängig davon, ob Sie auf einzelne Benutzeraktionen (unitäre Ereignisse) reagieren oder Aktualisierungen an breitere Zielgruppen (Geschäftsereignisse) senden, wandeln diese Konfigurationen Daten in umsetzbare Momente um. Sie erfahren, wie verschiedene Ereignistypen - wie profilspezifische Trigger, zielgruppenbasierte Ereignisse und Adobe Analytics-Integrationen - in das größere Journey-Framework passen. Mit Themen, die von Datenschemata und Payload-Definitionen bis hin zu API-basiertem Echtzeit-Streaming reichen, bietet dieser Abschnitt die Möglichkeit, dynamische, präzise und wirkungsvolle Journey zu erstellen.
+Bei der Ereigniskonfiguration in Adobe Journey Optimizer geht es um die Einrichtung der Trigger, mit denen Ihre personalisierten Customer Journeys gestartet werden. Unabhängig davon, ob Sie auf einzelne Benutzeraktionen reagieren (unitäre Ereignisse) oder Aktualisierungen an breitere Zielgruppen senden (Geschäftsereignisse), verwandeln diese Konfigurationen Daten in umsetzbare Momente. Sie erfahren, wie verschiedene Ereignistypen – wie profilspezifische Trigger, zielgruppenbasierte Ereignisse und Adobe Analytics-Integrationen – in das größere Journey-Framework passen. Mit Themen, die von Datenschemata und Payload-Definitionen bis hin zu API-basiertem Echtzeit-Streaming reichen, bietet dieser Abschnitt die Möglichkeit, dynamische, präzise und wirkungsvolle Journeys zu erstellen.
 
 ## Ereigniskonfiguration
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Arbeiten mit Journey-Ereignissen
 
-Erfahren Sie mehr über Journey-Ereignisse, ihre Typen, den Lebenszyklus und die Konfiguration, um personalisierte Journey effektiv zu Triggern.
+Erfahren Sie mehr über Journey-Ereignisse, ihre Typen, den Lebenszyklus und die Konfiguration, um personalisierte Journeys effektiv zu auszulösen.
 
 [Weitere Informationen](../using/event/about-events.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Konfigurieren eines einheitlichen Ereignisses
+Konfigurieren eines unitären Ereignisses
 
 Folgen Sie einer schrittweisen Anleitung zum Konfigurieren von unitären Ereignissen, einschließlich der Definition von Payloads und Identitätstypen.
 
@@ -40,43 +40,43 @@ Folgen Sie einer schrittweisen Anleitung zum Konfigurieren von unitären Ereigni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-ExperienceEvent-Schemata
+Erlebnisereignis-Schemata
 
-Grundlegendes zu den Schemaanforderungen und -konfigurationen für die Ereignisaufnahme und erweiterte Funktionen.
+Verstehen Sie die Schemaanforderungen und Konfigurationen für die Ereignisaufnahme und erweiterte Funktionen.
 
-[Lesen der Richtlinien](../using/event/experience-event-schema.md)
+[Richtlinien lesen](../using/event/experience-event-schema.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Adobe Analytics-Integration
 
-Erfahren Sie, wie Sie Adobe Analytics-Daten integrieren können, um Journey zu automatisieren und personalisierte Erlebnisse zu erstellen.
+Erfahren Sie, wie Sie Adobe Analytics-Daten integrieren können, um Journeys zu automatisieren und personalisierte Erlebnisse zu erstellen.
 
 [Tutorial anzeigen](../using/event/about-analytics.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Konfigurieren eines Geschäftsereignisses
 
-Schrittweise Anweisungen zum Konfigurieren von Geschäftsereignissen, einschließlich Schemadefinition und Payload-Einrichtung.
+Schrittweise Anleitungen zum Konfigurieren von Geschäftsereignissen, einschließlich Schemadefinition und Payload-Einrichtung.
 
-[Konfiguration starten](../using/event/about-creating-business.md)
+[Mit der Konfiguration beginnen](../using/event/about-creating-business.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Senden von Ereignissen mithilfe von Streaming-APIs
 
 Erfahren Sie mehr über die zusätzlichen Schritte zum Senden von Ereignissen mithilfe von Streaming-Aufnahme-APIs, einschließlich Payload-Vorbereitung und API-Aufrufen.
 
-[Folgen Sie der Anleitung](../using/event/additional-steps-to-send-events-to-journey.md)
+[Handbuch verwenden](../using/event/additional-steps-to-send-events-to-journey.md)
 :::
 
 ::::

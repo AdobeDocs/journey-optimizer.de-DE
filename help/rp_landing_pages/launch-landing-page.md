@@ -4,23 +4,23 @@ product: Journey Optimizer
 title: Starten Ihrer ersten orchestrierten Kampagne
 description: Starten Ihrer ersten orchestrierten Kampagne
 redpen-status: CREATED_||_2025-08-11_20-24-42
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-
 # Starten Ihrer ersten orchestrierten Kampagne{#section-overview}
 
-Durch den Start Ihrer ersten orchestrierten Kampagne in Adobe Journey Optimizer können Sie nahtlose, personalisierte Kundenerlebnisse erstellen, die sich an den Journey jedes Einzelnen anpassen. Dieses Handbuch führt Sie durch alle Schritte, von der Einrichtung Ihrer Kampagne und der Gestaltung ihres Flusses mithilfe einer intuitiven visuellen Arbeitsfläche bis hin zum Testen, Starten, Überwachen und Analysieren ihrer Leistung. Sie lernen, wie Sie Aktivitäten abstimmen, das Timing anpassen und umsetzbare Einblicke nutzen können, um Ergebnisse zu optimieren. Unabhängig davon, ob Sie einmalige Nachrichten planen oder erweiterte Retargeting-Strategien entwickeln, jedes Thema wurde entwickelt, um Ihr Selbstvertrauen zu stärken und Ihnen zu helfen, Ihre Marketing-Vision zum Leben zu erwecken.
+Mit dem Start Ihrer ersten orchestrierten Kampagne in Adobe Journey Optimizer können Sie nahtlose, personalisierte Kundenerlebnisse schaffen, die sich an die Journey jeder Einzelperson anpassen. Dieses Handbuch führt Sie durch alle Schritte, von der Einrichtung Ihrer Kampagne und der Gestaltung ihres Flusses mithilfe einer intuitiven visuellen Arbeitsfläche bis hin zum Testen, Starten, Überwachen und Analysieren ihrer Leistung. Sie lernen, wie Sie Aktivitäten aufeinander abstimmen, das Timing optimieren und umsetzbare Erkenntnisse nutzen, um die Ergebnisse zu optimieren. Ganz gleich, ob Sie einmalige Nachrichten planen oder erweiterte Retargeting-Strategien entwickeln – jedes Thema ist darauf ausgelegt, Ihr Selbstvertrauen zu stärken und Ihnen dabei zu helfen, Ihre Marketing-Vision zum Leben zu erwecken.
 
-## Starten der ersten orchestrierten Kampagne
+## Starten Ihrer ersten orchestrierten Kampagne
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Schrittweise Anleitung zum Erstellen einer orchestrierten Kampagne
 
@@ -30,19 +30,19 @@ Lernen Sie die wichtigsten Schritte zum Erstellen, Verwalten und Analysieren ein
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Planen einer orchestrierten Kampagne
 
-Erfahren Sie, wie Sie Kampagneneigenschaften und Ausführungspläne erstellen und konfigurieren und eine optimale Leistung sicherstellen.
+Erfahren Sie, wie Sie Kampagneneigenschaften und Ausführungspläne erstellen und konfigurieren und optimale Leistung sicherstellen.
 
-[Erfahren Sie, wie Sie erstellen und planen](../using/orchestrated/create-orchestrated-campaign.md)
+[Informationen zum Erstellen und Planen](../using/orchestrated/create-orchestrated-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Kampagnenaktivitäten orchestrieren
+Orchestrieren von Kampagnenaktivitäten
 
 Meistern Sie die visuelle Arbeitsfläche, um Aktivitäten für Ihre orchestrierten Kampagnen zu entwerfen und zu konfigurieren.
 
@@ -50,21 +50,21 @@ Meistern Sie die visuelle Arbeitsfläche, um Aktivitäten für Ihre orchestriert
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Starten und Überwachen von Kampagnen
+Starten und Überwachen Ihrer Kampagnen
 
 Erfahren Sie, wie Sie Ihre orchestrierten Kampagnen für eine erfolgreiche Ausführung testen, veröffentlichen und überwachen können.
 
-[Starten und Überwachen Ihrer Kampagnen](../using/orchestrated/start-monitor-campaigns.md)
+[Kampagnen starten und überwachen](../using/orchestrated/start-monitor-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Reporting für orchestrierte Kampagnen
 
-Zugriff auf umsetzbare Einblicke und Leistungsmetriken mit detaillierten Berichten für Ihre orchestrierten Kampagnen.
+Greifen Sie mit detaillierten Berichten für Ihre orchestrierten Kampagnen auf umsetzbare Erkenntnisse und Leistungskennzahlen zu.
 
 [Einblick in das Reporting](../using/orchestrated/reporting-campaigns.md)
 :::

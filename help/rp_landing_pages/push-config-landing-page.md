@@ -4,25 +4,25 @@ product: Journey Optimizer
 title: Konfigurieren von Push-Benachrichtigungen
 description: Konfigurieren von Push-Benachrichtigungen
 redpen-status: CREATED_||_2025-08-11_20-36-35
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 52a58dc4-20fa-467d-b790-d9c7eecbdaf6
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Konfigurieren von Push-Benachrichtigungen{#section-overview}
 
-Push-Benachrichtigungen in Adobe Journey Optimizer ermöglichen es Ihnen, in Echtzeit mit Ihrer Audience zu kommunizieren und zeitnahe und personalisierte Nachrichten direkt an ihre Mobilgeräte zu senden. Dieser Abschnitt führt Sie durch alles, was Sie für die effektive Konfiguration und Verwendung von Push-Benachrichtigungen benötigen, vom Verständnis des Datenflusses und der Integration mit Services wie Firebase und Apple Push Notification Service (APNs) bis zum Einrichten von Mobile Apps und Testbenachrichtigungen. Unabhängig davon, ob Sie Administrator sind, Berechtigungen festlegen, die Mobile SDK integrieren oder Marketing-Experten Kampagnen erstellen, erfahren Sie, wie diese Komponenten zusammenarbeiten, um nahtlose, wirkungsvolle Kundenerlebnisse zu schaffen.
+Push-Benachrichtigungen in Adobe Journey Optimizer ermöglichen es Ihnen, in Echtzeit mit Ihrer Zielgruppe zu kommunizieren und zeitnahe und personalisierte Nachrichten direkt an ihre Mobilgeräte zu senden. Dieser Abschnitt führt Sie durch alles, was Sie für die effektive Konfiguration und Verwendung von Push-Benachrichtigungen benötigen, vom Verständnis des Datenflusses und der Integration mit Services wie Firebase und Apple Push Notification Service (APNs) bis hin zum Einrichten von Apps und dem Testen von Benachrichtigungen. Unabhängig davon, ob Sie als Admin Berechtigungen festlegen, als Entwicklerin oder Entwickler das Mobile SDK integrieren oder als Marketing-Fachkraft Kampagnen erstellen – Sie erfahren, wie diese Komponenten zusammenarbeiten, um nahtlose, wirkungsvolle Kundenerlebnisse zu schaffen.
 
 ## Konfigurieren von Push-Benachrichtigungen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Datenfluss und Konfiguration von Push-Benachrichtigungen
+Datenfluss und Komponenten von Push-Benachrichtigungen
 
 Machen Sie sich mit den Komponenten, Workflows und Datenflüssen vertraut, die für den Versand von Push-Benachrichtigungen mit Adobe Journey Optimizer erforderlich sind.
 
@@ -30,23 +30,23 @@ Machen Sie sich mit den Komponenten, Workflows und Datenflüssen vertraut, die f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfiguration des Push-Benachrichtigungskanals
 
 Schrittweise Anleitungen zum Einrichten von Berechtigungen, zur Integration von Apps und zur Konfiguration des Push-Benachrichtigungskanals.
 
-[Konfigurieren des Push-Benachrichtigungskanals](../using/push/push-configuration.md)
+[Push-Benachrichtigungskanal konfigurieren](../using/push/push-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Schnellstart-Workflow für Mobile-Onboarding
 
-Schnelle Konfiguration der mobilen Ereignisdatenerfassung und Aktivierung von Push-Benachrichtigungen mit einem automatisierten Workflow.
+Konfigurieren Sie schnell die Erfassung mobiler Ereignisdaten und aktivieren Sie Push-Benachrichtigungen mit einem automatisierten Workflow.
 
-[Mobile-Onboarding-Workflow starten](../using/push/mobile-onboarding-wf.md)
+[Workflow für Mobile-Onboarding starten](../using/push/mobile-onboarding-wf.md)
 :::
 
 ::::

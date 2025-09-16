@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Durch API ausgelöste Kampagnen
 description: Durch API ausgelöste Kampagnen
 redpen-status: CREATED_||_2025-08-11_20-23-06
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Durch API ausgelöste Kampagnen{#section-overview}
 
-Mit API-ausgelösten Kampagnen in Adobe Journey Optimizer können Sie mithilfe von REST-API-Aufrufen personalisierte Nachrichten wie Kaufbestätigungen oder Werbeangebote in Echtzeit genau dann bereitstellen, wenn sie benötigt werden. Unabhängig davon, ob Sie Transaktionsaktualisierungen oder Marketing-Nachrichten senden, sorgt diese Funktion für einen präzisen, automatisierten Versand, der auf Ihre Audience zugeschnitten ist. Sie erfahren, wie Sie Kampagneneigenschaften definieren, Aktionen wie mehrsprachiges Inhalts- oder Interaktions-Tracking konfigurieren und Audiences mit Identitätstypen einrichten. Von der Planung bis zur Aktivierung und Ausführung baut jeder Schritt auf zu einer nahtlosen, wirkungsvollen Kommunikation auf. Mit praktischen Anleitungen und Beispielen sind Sie in der Lage, Kampagnen zu erstellen, die im Moment eine Verbindung herstellen.
+Mit durch API ausgelösten Kampagnen in Adobe Journey Optimizer können Sie mithilfe von REST-API-Aufrufen personalisierte Nachrichten wie Kaufbestätigungen oder Werbeangebote in Echtzeit genau dann bereitstellen, wenn sie benötigt werden. Unabhängig davon, ob Sie Transaktionsaktualisierungen oder Marketing-Nachrichten versenden, gewährleistet diese Funktion einen präzisen, automatisierten Versand, der auf Ihre Zielgruppe zugeschnitten ist. Sie erfahren, wie Sie Kampagneneigenschaften definieren, Aktionen wie mehrsprachiges Inhalts- oder Interaktions-Tracking konfigurieren und Zielgruppen mit Identitätstypen einrichten. Von der Planung über die Aktivierung bis hin zur Ausführung trägt jeder Schritt zu einer nahtlosen, wirkungsvollen Kommunikation bei. Mit praktischen Anleitungen und Beispielen sind Sie bestens gerüstet, um Kampagnen zu erstellen, die im richtigen Moment ankommen.
 
 ## Durch API ausgelöste Kampagnen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen und Verwalten von API-ausgelösten Kampagnen
 
-Erfahren Sie, wie Sie API-ausgelöste Kampagnen in Adobe Journey Optimizer mithilfe von REST-APIs für Echtzeit-Messaging erstellen, konfigurieren und verwalten.
+Erfahren Sie, wie Sie durch API ausgelöste Kampagnen in Adobe Journey Optimizer mithilfe von REST-APIs für Echtzeit-Messaging erstellen, konfigurieren und verwalten.
 
-[Erste Schritte mit API-ausgelösten Kampagnen](../using/campaigns/api-triggered-campaigns.md)
+[Erste Schritte mit durch API ausgelösten Kampagnen](../using/campaigns/api-triggered-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Definieren der API-ausgelösten Kampagneneigenschaften
+Definieren der Eigenschaften einer durch API ausgelösten Kampagne
 
-Folgen Sie den schrittweisen Anweisungen, um Kampagneneigenschaften wie Benennung, Tagging und Zugriffsbeschränkungen für API-ausgelöste Kampagnen zu definieren.
+Folgen Sie den schrittweisen Anleitungen, um Kampagneneigenschaften wie Benennung, Tagging und Zugriffsbeschränkungen für durch API ausgelöste Kampagnen zu definieren.
 
-[Definieren von Kampagneneigenschaften](../using/campaigns/api-triggered-campaign-properties.md)
+[Kampagneneigenschaften definieren](../using/campaigns/api-triggered-campaign-properties.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Konfigurieren der API-ausgelösten Kampagnenaktion
+Konfigurieren der durch API ausgelösten Kampagnenaktion
 
 Erfahren Sie, wie Sie Aktionen konfigurieren, Kommunikationskanäle auswählen, den Nachrichtenversand optimieren und zusätzliche Funktionen wie den Schnellversandmodus aktivieren.
 
-[Konfigurieren von Kampagnenaktionen](../using/campaigns/api-triggered-campaign-action.md)
+[Kampagnenaktionen konfigurieren](../using/campaigns/api-triggered-campaign-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Bearbeiten und Personalisieren von API-ausgelösten Kampagneninhalten
+Bearbeiten und Personalisieren der Inhalte einer durch API ausgelösten Kampagne
 
-Anpassen und Personalisieren von Kampagneninhalten mithilfe von kontextuellen Daten. Erfahren Sie, wie Sie effektive Nachrichten entwerfen, testen und konfigurieren.
+Passen Sie Kampagneninhalte mithilfe von kontextuellen Daten an und personalisieren Sie sie. Erfahren Sie, wie Sie effektive Nachrichten entwerfen, testen und konfigurieren.
 
-[Bearbeiten und Personalisieren von Inhalt](../using/campaigns/api-triggered-campaign-content.md)
+[Inhalte bearbeiten und personalisieren](../using/campaigns/api-triggered-campaign-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
-Definieren der API-ausgelösten Kampagnen-Audience
+Definieren der Zielgruppe einer durch API ausgelösten Kampagne
 
-Richten Sie die Campaign-Audience ein, indem Sie Profile auswählen, Identitätstypen konfigurieren und die automatische Profilerstellung während der Ausführung aktivieren.
+Richten Sie die Zielgruppe der Kampagne ein, indem Sie Profile auswählen, Identitätstypen konfigurieren und die automatische Profilerstellung während der Ausführung aktivieren.
 
-[Definieren von Kampagnen-Audiences](../using/campaigns/api-triggered-campaign-audience.md)
+[Kampagnenzielgruppen definieren](../using/campaigns/api-triggered-campaign-audience.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
-Planen einer API-ausgelösten Kampagne
+Planen einer durch API ausgelösten Kampagne
 
-Erfahren Sie, wie Sie Start- und Endzeiten für API-ausgelöste Kampagnen festlegen, um einen zeitnahen und effektiven Nachrichtenversand sicherzustellen.
+Erfahren Sie, wie Sie Start- und Endzeiten für durch API ausgelöste Kampagnen festlegen, um einen zeitnahen und effektiven Nachrichtenversand sicherzustellen.
 
-[Planung der Kampagne](../using/campaigns/api-triggered-campaign-schedule.md)
+[Kampagne planen](../using/campaigns/api-triggered-campaign-schedule.md)
 :::
 
 ::::
@@ -84,5 +84,5 @@ Erfahren Sie, wie Sie Start- und Endzeiten für API-ausgelöste Kampagnen festle
 
 ## Weitere Ressourcen
 
-- **[API-ausgelöste Kampagnen überprüfen und aktivieren](../using/campaigns/review-activate-api-triggered-campaign.md)** - Durchführung von Konfigurationsprüfungen, Beheben von Fehlern, Aktivieren von Kampagnen und Überwachen ihrer Leistung mit detaillierten Berichten.
-- **[Ausführen einer API-ausgelösten Kampagne](../using/campaigns/trigger-campaigns.md)** - Erfahren Sie, wie Sie die cURL-Anfrage abrufen, die Payload erstellen und Trigger-API-ausgelöste Kampagnen effektiv in Adobe Journey Optimizer erstellen.
+- **[Überprüfen und Aktivieren von durch API ausgelösten Kampagnen](../using/campaigns/review-activate-api-triggered-campaign.md)** – Führen Sie Konfigurationsprüfungen durch, beheben Sie Fehler, aktivieren Sie Kampagnen und überwachen Sie deren Leistung mit detaillierten Berichten.
+- **[Ausführen einer durch API ausgelösten Kampagne](../using/campaigns/trigger-campaigns.md)** – Erfahren Sie, wie Sie die cURL-Anfrage abrufen, die Payload erstellen und durch API ausgelöste Kampagnen in Adobe Journey Optimizer effektiv auslösen.

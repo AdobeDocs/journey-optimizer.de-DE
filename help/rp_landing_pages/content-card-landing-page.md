@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: Inhaltskarten
 description: Inhaltskarten
 redpen-status: CREATED_||_2025-08-11_20-43-30
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
-
 
 # Inhaltskarten{#section-overview}
 
@@ -23,33 +23,33 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, Benutzenden relevante Rich-M
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Inhaltskarten-Kanal konfigurieren
+Konfigurieren des Inhaltskartenkanals
 
-Richten Sie den Kanal Inhaltskarten für Web-, Mobil- und Kiosk-Plattformen ein und integrieren Sie ihn mit dynamischer Personalisierung.
+Richten Sie den Inhaltskartenkanal für Web-, Mobile- und Terminal-Plattformen mit dynamischer Personalisierung ein und integrieren Sie ihn.
 
 [Kanal konfigurieren](configure-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen und Konfigurieren von Inhaltskarten
 
-Schritt-für-Schritt-Tutorial zum Erstellen, Anpassen und Implementieren von Inhaltskarten für personalisiertes Messaging in Journey oder Kampagnen.
+Schritt-für-Schritt-Tutorial zum Erstellen, Anpassen und Implementieren von Inhaltskarten für personalisiertes Messaging in Journeys oder Kampagnen.
 
-[Erstellen von Inhaltskarten](../using/content-card/create-content-card.md)
+[Mit dem Erstellen von Inhaltskarten beginnen](../using/content-card/create-content-card.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Gestalten von Inhaltskarten
+Entwerfen von Inhaltskarten
 
-Entwerfen und Anpassen von Inhaltskarten mit personalisierten Nachrichten, Medien, Aktionsschaltflächen und benutzerdefinierten Daten.
+Entwerfen Sie Inhaltskarten und passen Sie diese mit personalisierten Nachrichten, Medien, Aktionsschaltflächen und benutzerdefinierten Daten an.
 
-[Erfahren Sie mehr über das Entwerfen von Inhaltskarten](../using/content-card/design-content-card.md)
+[Informationen zum Entwerfen von Inhaltskarten](../using/content-card/design-content-card.md)
 :::
 
 ::::

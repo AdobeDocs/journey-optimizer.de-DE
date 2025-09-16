@@ -4,43 +4,43 @@ product: Journey Optimizer
 title: Lösungsübergreifende Anwendungsfälle
 description: Lösungsübergreifende Anwendungsfälle
 redpen-status: CREATED_||_2025-08-12_00-41-19
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: df3c6e57-9f76-4ce4-ad0d-c1e3c16daa8f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # Lösungsübergreifende Anwendungsfälle{#section-overview}
 
-Die lösungsübergreifenden Anwendungsfälle von Adobe Journey Optimizer ermöglichen Ihnen die nahtlose Integration mit anderen Adobe-Tools, um Inhalte wie nie zuvor zu erstellen, zu verwalten und zu personalisieren. Unabhängig davon, ob Sie beeindruckende Grafiken aus Adobe Stock beziehen, Assets mit Adobe Express bearbeiten oder KI nutzen, um mit GenStudio dynamische Kampagnen zu erstellen, diese Integrationen wurden entwickelt, um Ihre Workflows zu optimieren und Ihre Marketing-Maßnahmen zu verstärken. Erfahren Sie, wie jedes Tool - wie Experience Manager für Inhaltsfragmente oder Dynamic Media für personalisierte Visualisierungen - in Ihre Strategie passt, sodass Sie auf allen Kanälen für effektive, kohärente Kundenerlebnisse sorgen können. Erschließen wir neue Möglichkeiten, eine Lösung nach der anderen!
+Die lösungsübergreifenden Anwendungsfälle von Adobe Journey Optimizer ermöglichen Ihnen die nahtlose Integration mit anderen Adobe-Tools, um wie nie zuvor Inhalte zu erstellen, zu verwalten und zu personalisieren. Unabhängig davon, ob Sie beeindruckende Grafiken aus Adobe Stock beziehen, Assets mit Adobe Express bearbeiten oder KI nutzen, um mit GenStudio dynamische Kampagnen zu erstellen – diese Integrationen wurden entwickelt, um Ihre Workflows zu optimieren und Ihre Marketing-Maßnahmen zu verbessern. Erkunden Sie, wie jedes Tool – wie etwa Experience Manager für Inhaltsfragmente oder Dynamic Media für personalisierte Grafiken – in Ihre Strategie passt, sodass Sie auf allen Kanälen für effektive, kohärente Kundenerlebnisse sorgen können. Erschließen wir neue Möglichkeiten, eine Lösung nach der anderen!
 
 ## Lösungsübergreifende Anwendungsfälle
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Kombinieren von Adobe-Lösungen zur Verwaltung von Inhalten
 
 Erfahren Sie, wie Sie Adobe Journey Optimizer mit anderen Adobe-Lösungen wie Experience Manager, Stock, Express und GenStudio integrieren können, um Workflows zu optimieren und Kampagnen zu verbessern.
 
-[Erkunden von Inhaltsintegrationen](../using/integrations/content-integrations.md)
+[Inhaltsintegrationen erkunden](../using/integrations/content-integrations.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Verwenden von Adobe Experience Manager Assets
 
 Schrittweise Anleitungen zum Integrieren, Hochladen und Verwalten von Assets aus Adobe Experience Manager Assets in Adobe Journey Optimizer.
 
-[Erfahren Sie, wie Sie AEM Assets verwenden](../using/integrations/assets.md)
+[Informationen zur Nutzung von AEM Assets](../using/integrations/assets.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
 
 Arbeiten mit Adobe Stock-Bildern
 
@@ -50,33 +50,33 @@ Erfahren Sie, wie Sie Adobe Stock-Bilder für die Verwendung in E-Mail-Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
 
-Assets mit Adobe Express bearbeiten
+Bearbeiten Ihrer Assets mit Adobe Express
 
-Erfahren Sie, wie Sie mit in Adobe Journey Optimizer integrierter Adobe Express die Größe von Assets ändern, Hintergründe zuschneiden und daraus entfernen können.
+Erfahren Sie, wie Sie mit Adobe Express, das in Adobe Journey Optimizer integriert ist, die Größe von Assets ändern, sie zuschneiden und Hintergründe entfernen können.
 
-[Bearbeitung mit Adobe Express starten](../using/integrations/express.md)
+[Erste Schritte mit der Bearbeitung in Adobe Express](../using/integrations/express.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Arbeiten mit AEM-Inhaltsfragmenten
 
-Schrittweise Anleitungen zur Integration von AEM-Inhaltsfragmenten in Adobe Journey Optimizer, um die Personalisierung in Kampagnen und Journey zu verbessern.
+Schrittweise Anleitungen zur Integration von AEM-Inhaltsfragmenten mit Adobe Journey Optimizer, um die Personalisierung in Kampagnen und Journeys zu verbessern.
 
 [Informationen zu AEM-Inhaltsfragmenten](../using/integrations/aem-fragments.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Arbeiten mit Dynamic Media
 
 Integrieren Sie AEM Dynamic Media mit Journey Optimizer, um Echtzeit-Updates, Personalisierung und Optimierung für dynamische Inhalte zu ermöglichen.
 
-[Verwenden von Dynamic Media in Ihren Kampagnen](../using/integrations/aem-dynamic.md)
+[Dynamic Media in Kampagnen verwenden](../using/integrations/aem-dynamic.md)
 :::
 
 ::::
@@ -84,4 +84,4 @@ Integrieren Sie AEM Dynamic Media mit Journey Optimizer, um Echtzeit-Updates, Pe
 
 ## Weitere Ressourcen
 
-- **[Arbeiten mit GenStudio for Performance Marketing](../using/integrations/genstudio.md)** - Erfahren Sie, wie Sie GenStudio mit Journey Optimizer integrieren können, um KI-gestützte, markenkonforme und personalisierte E-Mail-Kampagnen zu erstellen.
+- **[Arbeiten mit GenStudio for Performance Marketing](../using/integrations/genstudio.md)**: Erfahren Sie, wie Sie GenStudio mit Journey Optimizer integrieren können, um KI-gestützte, markenkonforme und personalisierte E-Mail-Kampagnen zu erstellen.

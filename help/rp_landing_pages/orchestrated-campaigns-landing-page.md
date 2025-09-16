@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Orchestrierte Kampagnen
 description: Orchestrierte Kampagnen
 redpen-status: CREATED_||_2025-08-11_20-27-33
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # Orchestrierte Kampagnen{#section-overview}
 
-Orchestrierte Kampagnen in Adobe Journey Optimizer ermöglichen es Ihnen, anspruchsvolle, mehrstufige Marketing-Kampagnen zu entwerfen und auszuführen, die der richtigen Zielgruppe im benötigten Umfang die richtige Botschaft liefern. Im Gegensatz zu Echtzeit-Journey verarbeiten diese Batch-Kampagnen Zielgruppensegmente und -profile gemeinsam, sodass sie sich ideal für geplante, datengesteuerte Marketing-Initiativen eignen. In diesem Video erfahren Sie, wie Aktivitäten wie Zielgruppensegmentierung, Transitionen und Arbeitstabellen zusammenarbeiten, um nahtlose Workflows zu erstellen. Außerdem erfahren Sie, wie sich orchestrierte Kampagnen von Journey unterscheiden, Daten für die Personalisierung konfigurieren, Kampagnen erstellen und starten und die Performance optimieren - alles mit einer intuitiven visuellen Arbeitsfläche. Machen Sie sich bereit, Ihre Marketing-Automatisierung auf die nächste Stufe zu heben!
+Orchestrierte Kampagnen in Adobe Journey Optimizer ermöglichen es Ihnen, anspruchsvolle, mehrstufige Marketing-Kampagnen zu entwerfen und auszuführen, die der richtigen Zielgruppe im benötigten Umfang die richtige Botschaft bereitstellen. Im Gegensatz zu Echtzeit-Journeys verarbeiten diese Batch-Kampagnen Zielgruppensegmente und -profile gemeinsam, sodass sie sich ideal für geplante Initiativen im Data-driven Marketing eignen. Sie erkunden das Zusammenspiel von Aktivitäten wie Zielgruppensegmentierung, Transitionen und Arbeitstabellen, um nahtlose Workflows zu erstellen. Dabei erfahren Sie, wie sich orchestrierte Kampagnen von Journeys unterscheiden, und lernen, Daten für die Personalisierung zu konfigurieren, Kampagnen zu erstellen und zu starten sowie die Leistung zu optimieren – alles mit einer intuitiven visuellen Arbeitsfläche. Machen Sie sich bereit, Ihre Marketing-Automatisierung auf die nächste Stufe zu heben.
 
-## Übersicht über orchestrierte Kampagnen
+## Überblick über orchestrierte Kampagnen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Einführung in koordinierte Kampagnen
+Einführung in orchestrierte Kampagnen
 
-Erfahren Sie mehr über die Kernfunktionen, Komponenten und Unterschiede von orchestrierten Kampagnen in Adobe Journey Optimizer.
+Erfahren Sie mehr über die Kernfunktionen, Komponenten und Besonderheiten von orchestrierten Kampagnen in Adobe Journey Optimizer.
 
 [Erste Schritte mit orchestrierten Kampagnen](../using/orchestrated/gs-orchestrated-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-Schutzmechanismen und Einschränkungen
+Leitlinien und Einschränkungen
 
-Machen Sie sich mit den Einschränkungen und Einschränkungen vertraut, die bei der Verwendung orchestrierter Kampagnen zu beachten sind.
+Machen Sie sich mit den Einschränkungen und Grenzen vertraut, die bei der Verwendung orchestrierter Kampagnen zu berücksichtigen sind.
 
-[Leitplanken und Einschränkungen anzeigen](../using/orchestrated/guardrails.md)
+[Leitlinien und Einschränkungen anzeigen](../using/orchestrated/guardrails.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Datenkonfiguration für koordinierte Kampagnen
+Datenkonfiguration für orchestrierte Kampagnen
 
-Konfigurieren Sie relationale Schemata, Datensätze und Kanäle, um sicherzustellen, dass die Daten für koordinierte Kampagnen bereit sind.
+Konfigurieren Sie relationale Schemata, Datensätze und Kanäle, um sicherzustellen, dass die Daten für orchestrierte Kampagnen bereit sind.
 
-[Erkunden der Datenkonfiguration](data-configuration-landing-page.md)
+[Datenkonfiguration erkunden](data-configuration-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Starten und Verwalten von orchestrierten Kampagnen
 
 Eine schrittweise Anleitung zum Erstellen, Orchestrieren, Überwachen und Analysieren Ihrer ersten orchestrierten Kampagne.
 
-[Erfahren Sie, wie Sie Kampagnen starten](launch-landing-page.md)
+[Informationen zum Starten von Kampagnen](launch-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Abfrage der Datenbank nach orchestrierten Kampagnen
+Abfragen der Datenbank nach orchestrierten Kampagnen
 
-Meistern Sie Datenbankabfragen, um Zielgruppen in orchestrierten Kampagnen effektiv anzusprechen, zu segmentieren und erneut anzusprechen.
+Beherrschen Sie Datenbankabfragen, um Zielgruppen in orchestrierten Kampagnen effektiv anzusprechen, zu segmentieren und erneut anzusprechen.
 
-[Informationen zur Datenbankabfrage](query-database-landing-page.md)
+[Informationen zu Datenbankabfragen](query-database-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Umfassender Leitfaden zu Kampagnenaktivitäten
+Umfassendes Handbuch zu Kampagnenaktivitäten
 
-Erfahren Sie mehr über die Aktivitäten für Zielgruppenbestimmung, Kanal und Flusskontrolle, die für die Gestaltung orchestrierter Kampagnen verfügbar sind.
+Erfahren Sie mehr über die Aktivitäten für Targeting, Kanäle und Flusskontrolle, die für die Gestaltung orchestrierter Kampagnen verfügbar sind.
 
-[Erkunden von Kampagnenaktivitäten](design-campaigns-landing-page.md)
+[Aktivitäten für orchestrierte Kampagnen erkunden](design-campaigns-landing-page.md)
 :::
 
 ::::

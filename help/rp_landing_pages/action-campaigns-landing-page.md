@@ -1,80 +1,80 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: AJO-Kampagnen
-description: AJO-Kampagnen
+title: Aktionskampagnen
+description: Aktionskampagnen
 redpen-status: CREATED_||_2025-08-11_20-22-10
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
+# Aktionskampagnen{#section-overview}
 
-# AJO-Kampagnen{#section-overview}
-
-Mit Aktionskampagnen in Adobe Journey Optimizer können Sie zeitnahe, zielgerichtete Nachrichten für Batch-Nachrichten wie Werbeaktionen, Aktualisierungen oder rechtliche Hinweise versenden. Diese Kampagnen wurden im Hinblick auf Flexibilität entwickelt. Sie ermöglichen es Ihnen, Eigenschaften zu definieren, Kommunikationskanäle auszuwählen, Inhalte zu optimieren, Audiences festzulegen, den Versand zu planen und Kampagnen zu aktivieren. Unabhängig davon, ob Sie mehrsprachige Inhalte erstellen, Varianten testen oder vordringliche Benachrichtigungen einsetzen - jeder Schritt baut auf eine wirkungsvolle und personalisierte Öffentlichkeitsarbeit auf. In diesem Abschnitt wird der Prozess in überschaubare Schritte unterteilt, die Sie von der Planung bis zur Ausführung begleiten, sodass Sie Kampagnen entwerfen können, die Ihre Audience ansprechen und Ergebnisse fördern.
+Mit Aktionskampagnen in Adobe Journey Optimizer können Sie zeitnahe, zielgerichtete Nachrichten für Batch-Kommunikationen wie Werbeaktionen, Updates oder rechtliche Hinweise versenden. Diese Kampagnen wurden im Hinblick auf Flexibilität entwickelt. Sie ermöglichen es Ihnen, Eigenschaften zu definieren, Kommunikationskanäle auszuwählen, Inhalte zu optimieren, Zielgruppen festzulegen, den Versand zu planen und Kampagnen mühelos zu aktivieren. Ganz gleich, ob Sie mehrsprachige Inhalte erstellen, Varianten testen oder dringende Benachrichtigungen priorisieren – jeder Schritt trägt dazu bei, eine wirkungsvolle und personalisierte Kommunikation zu schaffen. In diesem Abschnitt wird der Prozess in überschaubare Schritte unterteilt, die Sie von der Planung bis zur Ausführung begleiten, sodass Sie mit Zuversicht Kampagnen entwerfen können, die bei Ihrer Zielgruppe Anklang finden und Ergebnisse erzielen.
 
 ## Ressourcen für Aktionskampagnen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen einer Aktionskampagne
 
-Erfahren Sie, wie Sie Aktionskampagnen erstellen und verwalten, einschließlich Eigenschaften, Aktionen, Audience, Planung und Aktivierung.
+Erfahren Sie, wie Sie Aktionskampagnen erstellen und verwalten, einschließlich Eigenschaften, Aktionen, Zielgruppe, Planung und Aktivierung.
 
 [Tutorial starten](../using/campaigns/create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Definieren der Eigenschaften einer Kampagne
+Definieren der Eigenschaften einer Aktionskampagne
 
-Schrittweise Anweisungen zum Definieren von Kampagneneigenschaften wie Namen, Tags und Zugriffskennzeichnungen.
+Schrittweise Anleitungen zum Definieren von Kampagneneigenschaften wie Namen, Tags und Zugriffs-Labels.
 
 [Weitere Informationen](../using/campaigns/campaign-properties.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Konfigurieren von Kampagnenaktionen
 
-Anleitung zum Einrichten von Kampagnenaktionen, einschließlich Kanalauswahl, Optimierung und mehrsprachigen Inhalten.
+Handbuch zum Einrichten von Kampagnenaktionen, einschließlich Kanalauswahl, Optimierung und mehrsprachigen Inhalten.
 
 [Konfigurationshandbuch erkunden](../using/campaigns/campaign-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Nutzen der Nachrichtenoptimierung
 
 Verwenden Sie Targeting und Experimente, um die Interaktion zu maximieren und personalisierte Kampagnen zu erstellen.
 
-[Optimieren von Kampagnen](../using/campaigns/campaigns-message-optimization.md)
+[Kampagnen optimieren](../using/campaigns/campaigns-message-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
-Kampagneninhalt bearbeiten
+Bearbeiten von Kampagneninhalten
 
 Entwerfen, testen und konfigurieren Sie Inhalte für Ihre Aktionskampagnen über mehrere Kanäle hinweg.
 
-[Bearbeiten von Inhalten](../using/campaigns/campaign-content.md)
+[Inhalte bearbeiten](../using/campaigns/campaign-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
-Campaign-Audience definieren
+Definieren der Zielgruppe einer Kampagne
 
-Wählen Sie die Audience und den Identitätstyp für Ihre Kampagne aus, um eine effektive Zielgruppenbestimmung zu gewährleisten.
+Wählen Sie die Zielgruppe und den Identitätstyp für Ihre Kampagne aus, um ein effektives Targeting zu gewährleisten.
 
 [Zielgruppe festlegen](../using/campaigns/campaign-audience.md)
 :::
@@ -84,5 +84,5 @@ Wählen Sie die Audience und den Identitätstyp für Ihre Kampagne aus, um eine 
 
 ## Weitere Ressourcen
 
-- **[Kampagne planen](../using/campaigns/campaign-schedule.md)** - Konfigurieren Sie Start- und Enddatum, Häufigkeit und kanalspezifische Planung für Ihre Kampagne.
-- **[Aktionskampagne überprüfen und aktivieren](../using/campaigns/review-activate-campaign.md)** - Validieren, überprüfen und aktivieren Sie Ihre Aktionskampagne mit schrittweisen Anweisungen.
+- **[Planen der Aktionskampagne](../using/campaigns/campaign-schedule.md)** – Konfigurieren Sie Start- und Enddatum, Häufigkeit und die kanalspezifische Planung für Ihre Kampagne.
+- **[Überprüfen und Aktivieren der Aktionskampagne](../using/campaigns/review-activate-campaign.md)** – Überprüfen, validieren und aktivieren Sie Ihre Aktionskampagne mit Schritt-für-Schritt-Anweisungen.

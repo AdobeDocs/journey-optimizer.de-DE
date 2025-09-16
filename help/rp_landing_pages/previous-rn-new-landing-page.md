@@ -4,35 +4,35 @@ product: Journey Optimizer
 title: Frühere Versionshinweise
 description: Frühere Versionshinweise
 redpen-status: CREATED_||_2025-08-11_20-02-38
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 74d13927-18ca-4b7a-8e0e-fd69b38c0eff
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-
 # Frühere Versionshinweise{#section-overview}
 
-Die Versionshinweise von Adobe Journey Optimizer enthalten eine monatliche Übersicht über die neuesten Funktionen, Updates und Erweiterungen, die Ihren Kunden die Journey erleichtern. Unabhängig davon, ob Sie Erlebnisse mit Entscheidungs-Tools personalisieren, die Nachrichtenerstellung mit mehrsprachigen Optionen optimieren oder Kampagnen mit einem Journey-Probelauf testen möchten, diese Updates wurden speziell entwickelt, um Kunden effektiver anzusprechen. In jedem Abschnitt werden bestimmte Fortschritte behandelt - wie RCS-Messaging, Content-Management oder KI-gesteuerte Tools -, damit Sie leicht feststellen können, was für Ihre Ziele am relevantesten ist. Tauchen Sie ein, um neue Möglichkeiten zur Optimierung und Innovation Ihrer Marketing-Strategien zu entdecken.
+Die Versionshinweise zu Adobe Journey Optimizer bieten einen monatlichen Überblick über die neuesten Funktionen, Updates und Verbesserungen, die Ihre Customer Journeys optimieren sollen. Ganz gleich, ob Sie Erlebnisse mit Entscheidungs-Tools personalisieren, die Erstellung von Nachrichten mit mehrsprachigen Optionen optimieren oder Kampagnen mit einem Journey-Probelauf testen möchten – diese Updates sind darauf zugeschnitten, Ihnen zu helfen, Ihre Kundschaft effektiver anzusprechen. Jeder Abschnitt konzentriert sich auf bestimmte Fortschritte – wie RCS-Messaging, Content-Management oder KI-gesteuerte Tools –, sodass Sie leicht herausfinden können, was für Ihre Ziele am relevantesten ist. Tauchen Sie ein, um neue Möglichkeiten zur Optimierung und Innovation Ihrer Marketing-Strategien zu entdecken.
 
 ## Frühere Versionshinweise
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Versionshinweise zu Adobe Journey Optimizer 2025
+Versionshinweise 2025 zu Adobe Journey Optimizer
 
-Informieren Sie sich über alle Funktionen, Updates und Verbesserungen, die 2025 für Adobe Journey Optimizer eingeführt wurden und nach Veröffentlichungsmonaten geordnet sind.
+Informieren Sie sich über alle Funktionen, Updates und Verbesserungen, die 2025 für Adobe Journey Optimizer eingeführt wurden, nach Veröffentlichungsmonaten geordnet.
 
 [Versionshinweise für 2025 anzeigen](../using/rn/release-notes-2025.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Versionshinweise zu Adobe Journey Optimizer 2024
+Versionshinweise 2024 zu Adobe Journey Optimizer
 
 Entdecken Sie die Funktionen, Verbesserungen und Aktualisierungen, die im Laufe des Jahres 2024 in Adobe Journey Optimizer eingeführt wurden, einschließlich Verbesserungen in verschiedenen Kanälen und Integrationen.
 

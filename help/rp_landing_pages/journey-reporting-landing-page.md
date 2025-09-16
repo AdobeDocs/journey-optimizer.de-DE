@@ -4,45 +4,45 @@ product: Journey Optimizer
 title: Journey-Berichte
 description: Journey-Berichte
 redpen-status: CREATED_||_2025-08-11_20-51-07
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 1feffdeb-2bdc-4197-8c04-e4ae48879401
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Journey-Berichte{#section-overview}
 
-Journey-Berichte in Adobe Journey Optimizer bieten leistungsstarke Tools, mit denen Kunden analysieren können, wie sie über verschiedene Kanäle wie E-Mail, SMS, Web, Push-Benachrichtigungen und mehr mit Ihren Kampagnen interagieren. Indem Sie Metriken wie Interaktion, Ausschlüsse, Fehler und Klicktrends aufschlüsseln, helfen Ihnen diese Berichte zu verstehen, was funktioniert und was verbessert werden muss. Visuelle Tools wie Leistungsdiagramme und die Journey-Arbeitsfläche erleichtern die Verfolgung von Benutzerpfaden und die Feinabstimmung von Strategien. Egal, ob Sie E-Mail-Öffnungsraten, SMS-Versandstatistiken oder Web-Clickthroughs untersuchen, jeder Bericht konzentriert sich auf bestimmte Kanäle, um Ihnen maßgeschneiderte Einblicke zu bieten, die Ihnen das Vertrauen geben, jeden Touchpoint zu optimieren.
+Journey-Berichte in Adobe Journey Optimizer bieten leistungsstarke Tools, um zu analysieren, wie Kundinnen und Kunden mit Ihren Kampagnen über verschiedene Kanäle wie E-Mail, SMS, Web, Push-Benachrichtigungen und mehr interagieren. Indem Sie Metriken wie Interaktion, Ausschlüsse, Fehler und Klick-Trends aufschlüsseln, helfen Ihnen diese Berichte zu verstehen, was funktioniert und was verbessert werden muss. Visuelle Tools wie Leistungsdiagramme und die Journey-Arbeitsfläche erleichtern die Verfolgung von Benutzerpfaden und die Feinabstimmung Ihrer Strategien. Ganz gleich, ob Sie E-Mail-Öffnungsraten, SMS-Zustellungsstatistiken oder Web-Klickraten untersuchen – jeder Bericht konzentriert sich auf bestimmte Kanäle, um maßgeschneiderte Erkenntnisse zu liefern, die Ihnen die Sicherheit geben, jeden Touchpoint zu optimieren.
 
-## Journey Reports
+## Journey-Berichte
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Analysieren von Journey-Berichten
 
-Erfahren Sie, wie Sie die Journey-Leistung mithilfe von Metriken, visuellen Tools und wichtigen Erkenntnissen analysieren und optimieren können.
+Erfahren Sie, wie Sie die Leistung von Journeys mithilfe von Metriken, visuellen Tools und wichtigen Erkenntnissen analysieren und optimieren können.
 
-[Weitere Informationen zum Journey von Berichten](../using/reports/journey-global-report-cja.md)
+[Informationen zu Journey-Berichten](../using/reports/journey-global-report-cja.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Codebasierte Journey-Berichte
+Code-basierte Journey-Berichte
 
-Verstehen und analysieren Sie Metriken für die Interaktion mit Code-basierten Erlebnissen in Ihren Journey.
+Verstehen und analysieren Sie Metriken für die Interaktion mit Code-basierten Erlebnissen in Ihren Journeys.
 
-[Code-basierte Journey-Berichte](../using/reports/journey-global-report-cja-code.md)
+[Code-basierte Journey-Berichte erkunden](../using/reports/journey-global-report-cja-code.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Interaktion mit der Inhaltskarte
+Interaktion mit Inhaltskarten
 
 Erfahren Sie, wie Sie die Benutzerinteraktion mit Inhaltskarten mithilfe detaillierter Metriken messen und auswerten können.
 
@@ -50,33 +50,33 @@ Erfahren Sie, wie Sie die Benutzerinteraktion mit Inhaltskarten mithilfe detaill
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-Briefpost-Metriken
+Metriken zu Direkt-Mail
 
-Analyse und Interpretation von Schlüsselmetriken für Briefpostkampagnen, einschließlich Versandstatus und Fehler.
+Analysieren und interpretieren Sie wichtige Metriken für Direkt-Mail-Kampagnen, einschließlich Bereitstellungsstatus und Fehler.
 
-[Briefpostberichte überprüfen](../using/reports/journey-global-report-cja-direct.md)
+[Direkt-Mail-Berichte überprüfen](../using/reports/journey-global-report-cja-direct.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
-E-Mail Journey Reporting
+Reporting zu E-Mail-Journeys
 
-Gewinnen Sie Einblicke in die E-Mail-Leistung, Interaktion und Versandmetriken für Ihre Kampagnen.
+Gewinnen Sie Erkenntnisse zu E-Mail-Leistung, Interaktion und Versandmetriken für Ihre Kampagnen.
 
-[Analysieren von E-Mail-Berichten](../using/reports/journey-global-report-cja-email.md)
+[E-Mail-Berichten analysieren](../using/reports/journey-global-report-cja-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-In-App Messaging Insights
+Erkenntnisse z um In-App-Messaging
 
-Machen Sie sich mit der Benutzerinteraktion mit In-App-Nachrichten vertraut und analysieren Sie Metriken wie CTR und Trends beim Verwerfen.
+Verstehen Sie die Interaktion der Benutzenden mit In-App-Nachrichten und analysieren Sie Metriken wie CTR und Trends beim Zurückweisen.
 
-[Erkunden von In-App-Berichten](../using/reports/journey-global-report-cja-inapp.md)
+[In-App-Berichte erkunden](../using/reports/journey-global-report-cja-inapp.md)
 :::
 
 ::::
@@ -84,6 +84,6 @@ Machen Sie sich mit der Benutzerinteraktion mit In-App-Nachrichten vertraut und 
 
 ## Weitere Ressourcen
 
-- **[Analyse der Push-Benachrichtigung](../using/reports/journey-global-report-cja-push.md)** - Bewertung der Leistung von Push-Benachrichtigungen mit Metriken zu Versand, Interaktion und Fehlern.
-- **[SMS-Journey-Leistung](../using/reports/journey-global-report-cja-sms.md)** - Analysieren Sie SMS-Kampagnen mit Metriken zu Versand, Bounces, Interaktion und Ausschlüssen.
-- **[Web-Interaktionsanalyse](../using/reports/journey-global-report-cja-web.md)** - Verwenden Sie Web-Daten aus Journey-Berichten, um Benutzerinteraktionen zu analysieren und die Leistung von Web-Inhalten zu optimieren.
+- **[Analyse der Push-Benachrichtigungen](../using/reports/journey-global-report-cja-push.md)** – Bewerten Sie die Leistung von Push-Benachrichtigungen anhand von Metriken zu Versand, Interaktion und Fehlern.
+- **[Leistung von SMS-Journeys](../using/reports/journey-global-report-cja-sms.md)** – Analysieren Sie SMS-Kampagnen mit Metriken zu Versand, Bounces, Interaktion und Ausschlüssen.
+- **[Analyse der Web-Interaktionen](../using/reports/journey-global-report-cja-web.md)** – Verwenden Sie Web-Daten aus Journey-Berichten, um Benutzerinteraktionen zu analysieren und die Leistung von Web-Inhalten zu optimieren.

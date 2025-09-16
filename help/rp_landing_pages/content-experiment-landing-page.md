@@ -1,46 +1,46 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Inhaltsexperiment
-description: Inhaltsexperiment
+title: Inhaltsexperimente
+description: Inhaltsexperimente
 redpen-status: CREATED_||_2025-08-12_00-44-26
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: 7f01dd97-ef28-498a-8a8b-d72abaa7fdd4
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
+# Inhaltsexperimente{#section-overview}
 
-# Inhaltsexperiment{#section-overview}
-
-Inhaltsexperimente in Adobe Journey Optimizer ermöglichen es Ihnen, Ihre Marketing-Kampagnen zu testen und zu verfeinern, indem Sie die Leistung verschiedener Inhaltsvarianten mit Ihrer Audience vergleichen. Durch den Einsatz randomisierter Studien können Sie herausfinden, welche Botschaften am besten ankommen, was zu besserer Interaktion führt und Ihre Ergebnisse basierend auf echten Daten optimiert. In diesem Abschnitt werden die wichtigsten Konzepte vorgestellt, vom Verständnis des Zwecks von Experimenten über deren Einrichtung, die Analyse von Ergebnissen bis hin zur Skalierung erfolgreicher Strategien. Auf dem Weg lernen Sie praktische Tipps kennen, erkunden statistische Einblicke und entdecken, wie Sie fundierte Entscheidungen treffen können, die Ihre Marketing-Effektivität verbessern. Machen Sie sich bereit, Erkenntnisse mit Zuversicht in die Tat umzusetzen!
+Mit Inhaltsexperimenten in Adobe Journey Optimizer können Sie Ihre Marketing-Kampagnen testen und optimieren, indem Sie die Leistung verschiedener Varianten Ihrer Inhalte bei Ihrer Zielgruppe vergleichen. Mithilfe von randomisierten Tests können Sie herausfinden, welche Botschaften am besten ankommen, um so eine höhere Interaktion zu erzielen und Ihre Ergebnisse auf der Grundlage realer Daten zu optimieren. In diesem Abschnitt werden die wichtigsten Konzepte vorgestellt, vom Verständnis des Zwecks von Experimenten über deren Einrichtung und die Analyse der Ergebnisse bis hin zur Skalierung erfolgreicher Strategien. Dabei erhalten Sie praktische Tipps, erkunden statistische Erkenntnisse und erfahren, wie Sie fundierte Entscheidungen treffen können, die Ihre Marketing-Effektivität steigern. Machen Sie sich bereit, Erkenntnisse mit Zuversicht in die Tat umzusetzen.
 
 ## Ressourcen für Inhaltsexperimente
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Inhaltsexperimenten
 
 Erfahren Sie mehr über die Grundlagen von Inhaltsexperimenten, ihren Zweck und wie Sie sie einrichten, ausführen und analysieren, um Kampagnenergebnisse zu optimieren.
 
-[Beginnen mit Inhaltsexperimenten](../using/content-management/get-started-experiment.md)
+[Erste Schritte mit Inhaltsexperimenten](../using/content-management/get-started-experiment.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Skalieren von Inhaltsexperimenten
 
-Eine schrittweise Anleitung zum Erstellen, Konfigurieren und Skalieren von Experimenten zum Testen und Optimieren der Interaktion mit Zielgruppen mit verschiedenen Inhaltsbehandlungen.
+Eine schrittweise Anleitung zum Erstellen, Konfigurieren und Skalieren von Experimenten, um die Interaktion Ihrer Zielgruppe mit verschiedenen Inhalten zu testen und zu optimieren.
 
-[Erfahren Sie, wie Sie Experimente erstellen](../using/content-management/content-experiment.md)
+[Informationen zum Erstellen von Experimenten](../using/content-management/content-experiment.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Fortgeschrittene statistische Verfahren für Experimente
 

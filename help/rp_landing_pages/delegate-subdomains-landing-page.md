@@ -1,56 +1,56 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Delegieren von E-Mail-Subdomains
-description: Delegieren von E-Mail-Subdomains
+title: E-Mail-Subdomains delegieren
+description: E-Mail-Subdomains delegieren
 redpen-status: CREATED_||_2025-08-11_21-07-51
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
+# E-Mail-Subdomains delegieren{#section-overview}
 
-# Delegieren von E-Mail-Subdomains{#section-overview}
+Durch das Delegieren von E-Mail-Subdomains in Adobe Journey Optimizer können Admins die E-Mail-Zustellbarkeit verbessern, die Domain-Reputation schützen und die Kampagnenverwaltung optimieren. Durch das Einrichten von Subdomains können verschiedene Arten von E-Mail-Traffic, wie z. B. Marketing- und Transaktionsnachrichten, isoliert und gleichzeitig die Einhaltung von Branchenstandards sichergestellt werden. In diesem Abschnitt werden wichtige Konfigurationsmethoden wie vollständige Delegierung und CNAME-Setups vorgestellt und untersucht, wie sie sich in Aufwand und Kontrolle unterscheiden. Außerdem lernen Sie, wichtige DNS-Einträge wie DMARC und PTR zu verwalten, die Zustellbarkeit von Gmail mit Google TXT-Einträgen zu verbessern und IPs mithilfe von IP-Pools zu gruppieren. Unabhängig davon, ob Sie die Sicherheit oder die Reputation optimieren möchten, macht dieses Handbuch den Prozess zugänglich und effektiv.
 
-Durch das Zuweisen von E-Mail-Subdomains in Adobe Journey Optimizer können Administratoren die E-Mail-Zustellbarkeit verbessern, die Domain-Reputation schützen und die Kampagnenverwaltung optimieren. Durch das Einrichten von Subdomains können verschiedene Arten von E-Mail-Traffic, wie z. B. Marketing- und Transaktionsnachrichten, isoliert und gleichzeitig die Einhaltung von Branchenstandards sichergestellt werden. In diesem Abschnitt werden wichtige Konfigurationsmethoden wie vollständige Delegierung und CNAME-Setups vorgestellt und untersucht, wie sie sich in Aufwand und Kontrolle unterscheiden. Außerdem lernen Sie, wichtige DNS-Einträge wie DMARC und PTR zu verwalten, die Zustellbarkeit von Gmail mit Google TXT-Einträgen zu verbessern und IPs mithilfe von IP-Pools zu gruppieren. Unabhängig davon, ob Sie Sicherheit oder Reputation optimieren, macht dieses Handbuch den Prozess ansprechbar und effektiv.
-
-## E-Mail-Subdomains delegieren
+## Delegieren von E-Mail-Subdomains
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Erste Schritte mit der Zuweisung von Subdomains
+Erste Schritte mit der Delegierung von Subdomains
 
 Erfahren Sie mehr über die Vorteile, Konfigurationsmethoden und Überlegungen zum Delegieren von Subdomains in Adobe Journey Optimizer.
 
-[Delegieren von Subdomains starten](../using/configuration/about-subdomain-delegation.md)
+[Mit dem Delegieren von Subdomains starten](../using/configuration/about-subdomain-delegation.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Delegieren einer Subdomain
 
 Schrittweise Anleitungen zum Delegieren von Subdomains an Adobe, einschließlich vollständiger Delegierung und CNAME-Einrichtung.
 
-[Erfahren Sie, wie Sie delegieren](../using/configuration/delegate-subdomain.md)
+[Informationen zum Delegieren](../using/configuration/delegate-subdomain.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-Einrichten von DMARC-Einträgen
+Festlegen von DMARC-Einträgen
 
-Konfigurieren Sie DMARC-Einträge, um die E-Mail-Sicherheit und Zustellbarkeit für delegierte Subdomains zu verbessern.
+Konfigurieren Sie DMARC-Einträge, um die Sicherheit und Zustellbarkeit von E-Mails für delegierte Subdomains zu verbessern.
 
 [DMARC jetzt einrichten](../using/configuration/dmarc-record.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Hinzufügen eines Google TXT-Eintrags
 
@@ -60,17 +60,17 @@ Hinzufügen eines Google TXT-Eintrags
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Zugreifen auf und Bearbeiten von PTR-Einträgen
 
-Verwalten Sie PTR-Einträge für delegierte Subdomains, einschließlich der Bearbeitung und des Aktualisierungsstatus.
+Verwalten Sie PTR-Einträge für delegierte Subdomains, bearbeiten Sie diese und verstehen Sie die Aktualisierungsstatus.
 
 [PTR-Einträge bearbeiten](../using/configuration/ptr-records.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen von IP-Pools
 

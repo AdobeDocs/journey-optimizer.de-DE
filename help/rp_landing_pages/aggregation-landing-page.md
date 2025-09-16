@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: Aggregation
 description: Aggregation
 redpen-status: CREATED_||_2025-08-11_20-12-06
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: fd46c749-c77a-4cda-94ec-58c58d136595
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # Aggregation{#section-overview}
 
-Mit Aggregationsfunktionen in Adobe Journey Optimizer können Sie aussagekräftige Einblicke aus komplexen Datensätzen zusammenfassen, analysieren und extrahieren und so fundierte Entscheidungen in Ihren Kunden-Journey-Strategien treffen.
+Mit Aggregationsfunktionen in Adobe Journey Optimizer können Sie aussagekräftige Erkenntnisse aus komplexen Datensätzen zusammenfassen, analysieren und extrahieren und so fundierte Entscheidungen in Ihren Strategien für Customer Journeys treffen.
 
 ## Aggregationsfunktionen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Durchschn.-Funktion in Adobe Journey Optimizer
+Funktion „avg“ in Adobe Journey Optimizer
 
 Erfahren Sie anhand von Beispielen und Syntaxdetails, wie Sie mit der Funktion „avg“ den Durchschnittswert in Ausdrücken berechnen können.
 
-[Durchschn. Funktion](../using/building-journeys/functions/functionavg.md)
+[Funktion „avg“ erkunden](../using/building-journeys/functions/functionavg.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Dokumentation zur Zählungsfunktion
+Dokumentation zur Funktion „count“
 
 Machen Sie sich mit der Funktion „count“ für die Aggregation von Daten in Listen vertraut, einschließlich Syntax, Parametern und Beispielen.
 
-[Informationen zur Zählungsfunktion](../using/building-journeys/functions/functioncount.md)
+[Informationen zur Funktion „count“](../using/building-journeys/functions/functioncount.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Funktion countOnlyNull - Werte in Listen zählen null
+Funktion „countOnlyNull“ – Nullwerte in Listen zählen
 
-Erfahren Sie, wie die Funktion „countOnlyNull“ Nullwerte in einer Liste mit detaillierten Beispielen und Syntax zählt.
+Erfahren Sie anhand von detaillierten Beispielen und Syntax, wie die Funktion „countOnlyNull“ Nullwerte in einer Liste zählt.
 
-[Funktion countOnlyNull überprüfen](../using/building-journeys/functions/functioncountonlynull.md)
+[Funktion „countOnlyNull“ erkunden](../using/building-journeys/functions/functioncountonlynull.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Übersicht über die Funktion countWithNull
+Überblick über die Funktion „countWithNull“
 
-Erfahren Sie, wie die Funktion „countWithNull“ alle Elemente in einer Liste einschließlich Nullwerten zählt, einschließlich Syntax und Beispielen.
+Erfahren Sie anhand von Syntax und Beispielen, wie die Funktion „countWithNull“ alle Elemente in einer Liste einschließlich Nullwerten zählt.
 
-[Funktion countWithNull anzeigen](../using/building-journeys/functions/functioncountwithnull.md)
+[Funktion „countWithNull“ anzeigen](../using/building-journeys/functions/functioncountwithnull.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-distinctCount-Funktion in Adobe Journey Optimizer
+Funktion „distinctCount“ in Adobe Journey Optimizer
 
-Erkunden Sie die Funktion „distinctCount“ zum Zählen eindeutiger Werte in einer Liste anhand von Syntax- und Nutzungsbeispielen.
+Erkunden Sie anhand von Syntax- und Nutzungsbeispielen die Funktion „distinctCount“ zum Zählen der eindeutigen Werte in einer Liste.
 
-[Informationen zur distinctCount-Funktion](../using/building-journeys/functions/functiondistinctcount.md)
+[Informationen zur Funktion „distinctCount“](../using/building-journeys/functions/functiondistinctcount.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-distinctCountWithNull-Funktion: Eindeutige Werte zählen (einschließlich NULL)
+Funktion „distinctCountWithNull“: Eindeutige Werte zählen (einschließlich Nullwerten)
 
-Verstehen Sie die Funktion „distinctCountWithNull“ zum Zählen eindeutiger Werte, einschließlich NULL, mit Beispielen und Syntax.
+Lernen Sie anhand von Beispielen und Syntax die Funktion „distinctCountWithNull“ zum Zählen eindeutiger Werte kennen, einschließlich Nullwerten.
 
-[Funktion distinctCountWithNull erkunden](../using/building-journeys/functions/functiondistinctcountwithnull.md)
+[Funktion „distinctCountWithNull“ erkunden](../using/building-journeys/functions/functiondistinctcountwithnull.md)
 :::
 
 ::::
@@ -84,6 +84,6 @@ Verstehen Sie die Funktion „distinctCountWithNull“ zum Zählen eindeutiger W
 
 ## Weitere Ressourcen
 
-- **[Verwenden der Funktion „max“ in Adobe Journey Optimizer](../using/building-journeys/functions/functionmax.md)** - Erfahren Sie mit Syntax und Beispielen, wie Sie mit der Funktion „max“ den Höchstwert in einer Ausdrucksgruppe finden.
-- **[Verwenden der Funktion „min“ in Adobe Journey Optimizer](../using/building-journeys/functions/functionmin.md)** - Erfahren Sie anhand von Beispielen und Syntax, wie Sie mit der Funktion „min“ den Mindestwert in einer Ausdrucksgruppe finden.
-- **[Summenfunktion in Adobe Journey Optimizer](../using/building-journeys/functions/functionsum.md)** - Erfahren Sie anhand von Beispielen und Syntaxdetails, wie Sie die Funktion „sum“ zum Aggregieren numerischer Werte verwenden.
+- **[Verwenden der Funktion „max“ in Adobe Journey Optimizer](../using/building-journeys/functions/functionmax.md)** – Erfahren Sie anhand von Syntax und Beispielen, wie Sie mit der Funktion „max“ den Höchstwert in einer Ausdrucksgruppe finden.
+- **[Verwenden der Funktion „min“ in Adobe Journey Optimizer](../using/building-journeys/functions/functionmin.md)** – Erfahren Sie anhand von Beispielen und Syntax, wie Sie mit der Funktion „min“ den Mindestwert in einer Ausdrucksgruppe finden.
+- **[Funktion „sum“ in Adobe Journey Optimizer](../using/building-journeys/functions/functionsum.md)** – Erfahren Sie anhand von Beispielen und Syntaxdetails, wie Sie die Funktion „sum“ zum Aggregieren numerischer Werte verwenden.

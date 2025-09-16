@@ -1,82 +1,82 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Gestalten von Inhalten
-description: Gestalten von Inhalten
+title: Gestalten Ihrer Inhalte
+description: Gestalten Ihrer Inhalte
 redpen-status: CREATED_||_2025-08-11_20-32-28
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
+# Gestalten Ihrer Inhalte{#section-overview}
 
-# Gestalten von Inhalten{#section-overview}
-
-Bei der Gestaltung Ihrer Inhalte in Adobe Journey Optimizer geht es um die Erstellung personalisierter, wirkungsvoller E-Mail-Erlebnisse, die mit Ihrer Audience verbunden sind. Unabhängig davon, ob Sie dynamische Layouts, wiederverwendbare visuelle Fragmente oder benutzerdefinierte Links hinzufügen, arbeitet jedes Tool zusammen, um Ihnen die volle Kontrolle über Ihr E-Mail-Design zu geben. Außerdem erfahren Sie, wie Sie Metadaten für bessere Barrierefreiheit integrieren, Angebote relevanter personalisieren und mithilfe von benutzerdefiniertem CSS sogar erweiterte Stile anwenden können. Diese Funktionen ermöglichen es Ihnen, mit Schritt-für-Schritt-Anleitungen E-Mails zu erstellen, die nicht nur visuell beeindruckend sind, sondern auch auf Ihre Ziele und die Bedürfnisse Ihrer Zielgruppe zugeschnitten sind.
+Beim Gestalten Ihrer Inhalte in Adobe Journey Optimizer geht es darum, personalisierte, wirkungsvolle E-Mail-Erlebnisse zu schaffen, die Ihre Zielgruppe ansprechen. Unabhängig davon, ob Sie dynamische Layouts, wiederverwendbare visuelle Fragmente oder benutzerdefinierte Links hinzufügen – jedes Tool arbeitet mit den anderen zusammen, um Ihnen die volle Kontrolle über Ihr E-Mail-Design zu geben. Außerdem erfahren Sie, wie Sie Metadaten für Barrierefreiheit integrieren, Angebote für eine größere Relevanz personalisieren und sogar erweiterte Stile mithilfe von benutzerdefiniertem CSS anwenden können. Diese Funktionen ermöglichen es Ihnen, mit Schritt-für-Schritt-Anleitungen E-Mails zu erstellen, die nicht nur optisch ansprechend sind, sondern auch auf Ihre Ziele und die Bedürfnisse Ihrer Zielgruppe zugeschnitten sind.
 
 ## Gestalten von Inhalten
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Verwenden von Inhaltskomponenten
 
 Erfahren Sie, wie Sie Komponenten wie Text, Schaltflächen, Bilder und mehr hinzufügen und anpassen können, um dynamische E-Mail-Layouts zu erstellen.
 
-[Verwenden von Inhaltskomponenten](../using/email/content-components.md)
+[Erste Schritte mit dem Verwenden von Inhaltskomponenten](../using/email/content-components.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
-Verwenden von visuellen Fragmenten
+Nutzen von visuellen Fragmenten
 
-Erfahren Sie, wie Sie wiederverwendbare Fragmente erstellen, um Ihr E-Mail-Design zu optimieren und die Konsistenz der Inhalte zu verbessern.
+Entdecken Sie, wie Sie wiederverwendbare Fragmente erstellen, um Ihr E-Mail-Design zu optimieren und die Konsistenz der Inhalte zu verbessern.
 
 [Informationen zu visuellen Fragmenten](../using/email/use-visual-fragments.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Links hinzufügen und Nachrichten verfolgen
+Hinzufügen von Links und Nachverfolgen von Nachrichten
 
-Aktivieren Sie Tracking, fügen Sie Links ein und verwalten Sie Link-Erscheinungsbilder, um Ihre E-Mail-Kampagnen zu optimieren.
+Aktivieren Sie Tracking, fügen Sie Links ein und verwalten Sie das Erscheinungsbild von Links, um Ihre E-Mail-Kampagnen zu optimieren.
 
-[Erkunden von Tracking und Links](../using/email/message-tracking.md)
+[Tracking und Links erkunden](../using/email/message-tracking.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Einfügen personalisierter Angebote
+Einfügen von personalisierten Angeboten
 
-Verwenden Sie das Entscheidungs-Management zur dynamischen Anzeige personalisierter Angebote, die auf Ihre Audience zugeschnitten sind.
+Verwenden Sie das Entscheidungs-Management zur dynamischen Anzeige personalisierter Angebote, die auf Ihre Zielgruppe zugeschnitten sind.
 
-[Hinzufügen personalisierter Angebote](../using/email/add-offers-email.md)
+[Personalisierte Angebote hinzufügen](../using/email/add-offers-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
-Textversion generieren
+Generieren der Textversion
 
-Erstellen und passen Sie die Nur-Text-Version Ihrer E-Mail für Empfängerinnen und Empfänger an, die HTML-Inhalte nicht anzeigen können.
+Erstellen und passen Sie die Nur-Text-Version Ihrer E-Mail für Empfängerinnen und Empfänger an, die keine HTML-Inhalte anzeigen können.
 
-[Erstellen einer Textversion](../using/email/text-version-email.md)
+[Textversion erstellen](../using/email/text-version-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Hinzufügen von Metadaten
 
-Verbessern Sie die Lesbarkeit von E-Mails und die Barrierefreiheit, indem Sie Metadaten wie Preheader und Dokumentsprache konfigurieren.
+Verbessern Sie die Lesbarkeit von E-Mails und die Barrierefreiheit, indem Sie Metadaten wie Preheader und Dokumentensprache konfigurieren.
 
-[Konfigurieren von E-Mail-Metadaten](../using/email/email-metadata.md)
+[E-Mail-Metadaten konfigurieren](../using/email/email-metadata.md)
 :::
 
 ::::
@@ -84,4 +84,4 @@ Verbessern Sie die Lesbarkeit von E-Mails und die Barrierefreiheit, indem Sie Me
 
 ## Weitere Ressourcen
 
-- **[Benutzerdefiniertes CSS hinzufügen](../using/email/custom-css.md)** - Erhalten Sie erweiterte Stilsteuerelemente, indem Sie benutzerdefiniertes CSS auf Ihren E-Mail-Inhalt anwenden.
+- **[Fügen Sie benutzerdefiniertes CSS hinzu](../using/email/custom-css.md)** – Erhalten Sie erweiterte Gestaltungskontrolle, indem Sie benutzerdefiniertes CSS auf Ihren E-Mail-Inhalt anwenden.

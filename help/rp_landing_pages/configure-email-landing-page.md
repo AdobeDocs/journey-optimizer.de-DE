@@ -4,35 +4,35 @@ product: Journey Optimizer
 title: Konfigurieren des E-Mail-Kanals
 description: Konfigurieren des E-Mail-Kanals
 redpen-status: CREATED_||_2025-08-11_20-34-10
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: c9377c3c-d716-4fae-adc8-458cbe7213dd
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # Konfigurieren des E-Mail-Kanals{#section-overview}
 
-Durch die Konfiguration des E-Mail-Kanals in Adobe Journey Optimizer können Sie effektive und personalisierte E-Mail-Erlebnisse für Ihre Zielgruppe erstellen. Dieser Abschnitt führt Sie durch wichtige Schritte wie die Zuweisung von Subdomains für die Zustellbarkeit, das IP-Pooling für die Reputationsverwaltung und die Handhabung von Unterdrückungslisten, um die Einhaltung der Vorgaben sicherzustellen. Außerdem erfahren Sie, wie Sie E-Mail-Kopfzeilen einrichten, Einstellungen für mehrere Marken personalisieren, das URL-Tracking für Analysen aktivieren und sogar einen Link zur Abmeldung mit einem Klick hinzufügen, um das Abonnieren für den Benutzer zu vereinfachen. Jedes Thema baut auf dem letzten auf und bietet Ihnen die Tools zur Feinabstimmung Ihrer E-Mail-Strategie bei gleichzeitiger Kontrolle und Präzision.
+Durch das Konfigurieren des E-Mail-Kanals in Adobe Journey Optimizer können Sie wirkungsvolle, personalisierte E-Mail-Erlebnisse schaffen, die Ihre Zielgruppe effektiv ansprechen. Dieser Abschnitt führt Sie durch wichtige Schritte wie die Delegierung von Subdomains für die Zustellbarkeit, das IP-Pooling für die Reputationsverwaltung und die Handhabung von Unterdrückungslisten, um die Einhaltung von Vorschriften sicherzustellen. Außerdem entdecken Sie, wie Sie E-Mail-Header einrichten, Einstellungen für mehrere Marken personalisieren, das URL-Tracking für Analysen aktivieren und sogar für mehr Benutzerfreundlichkeit einen Link zur Abmeldung mit einem Klick hinzufügen können. Jedes Thema baut auf dem vorherigen auf und gibt Ihnen die Tools an die Hand, mit denen Sie Ihre E-Mail-Strategie optimieren und gleichzeitig die Kontrolle behalten und Präzision sicherstellen können.
 
-## E-Mail-Kanal konfigurieren
+## Konfigurieren des E-Mail-Kanals
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Erste Schritte mit der E-Mail-Konfiguration
+Erste Schritte bei der E-Mail-Konfiguration
 
-Erfahren Sie mehr über die wichtigsten Schritte zur Konfiguration von E-Mail-Funktionen, einschließlich Subdomain-Zuweisung, IP-Pools und Verwaltung von Unterdrückungslisten.
+Erfahren Sie mehr über die wichtigsten Schritte zur Konfiguration von E-Mail-Funktionen, einschließlich Subdomain-Delegierung, IP-Pools und Verwaltung von Unterdrückungslisten.
 
-[Konfigurieren von E-Mails](../using/email/get-started-email-config.md)
+[Mit der Konfiguration von E-Mails beginnen](../using/email/get-started-email-config.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-E-Mail-Konfigurationseinstellungen definieren
+Definieren von E-Mail-Konfigurationseinstellungen
 
 Richten Sie E-Mail-Konfigurationen für Zustellbarkeit, Compliance und Anpassung mit erweiterten Funktionen wie BCC, Unterdrückungsüberschreibungen und URL-Tracking ein.
 
@@ -40,43 +40,43 @@ Richten Sie E-Mail-Konfigurationen für Zustellbarkeit, Compliance und Anpassung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Abmeldeliste aktivieren und konfigurieren
+Erstellen und Konfigurieren der Listen-Abmeldung
 
-Erfahren Sie, wie Sie die Funktion „Abmelden von einer Liste“ aktivieren, um 1-Klick-Abmelde-URLs in E-Mail-Kopfzeilen für Empfänger-Opt-outs einzuschließen.
+Erfahren Sie, wie Sie die Funktion zur Listen-Abmeldung aktivieren, um für das Opt-out von Empfängerinnen und Empfängern URLs zum Abmelden mit einem Klick in E-Mail-Header einzufügen.
 
-[Abmeldeliste einrichten](../using/email/list-unsubscribe.md)
+[Listen-Abmeldung einrichten](../using/email/list-unsubscribe.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Konfigurieren von E-Mail-Header-Parametern
+Konfigurieren von Header-Parametern für E-Mails
 
 Passen Sie Absender- und Antwort-E-Mail-Adressen an, behandeln Sie Fehler und leiten Sie E-Mails weiter, um eine effektive Kommunikation zu gewährleisten.
 
-[Einrichten von Kopfzeilenparametern](../using/email/header-parameters.md)
+[Header-Parameter einrichten](../using/email/header-parameters.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Konfigurieren des URL-Trackings für den E-Mail-Kanal
 
-Einrichten von URL-Tracking-Parametern, um die Effektivität von E-Mail-Kampagnen zu messen und sie in Analytics-Tools zu integrieren.
+Richten Sie URL-Tracking-Parameter ein, um die Effektivität von E-Mail-Kampagnen zu messen und sie in Analyse-Tools zu integrieren.
 
 [URL-Tracking einrichten](../using/email/url-tracking.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Konfigurationseinstellungen für personalisierte E-Mails
+Personalisierte Einstellungen der E-Mail-Konfiguration
 
-Richten Sie dynamische Subdomains, personalisierte Kopfzeilen und URL-Tracking ein, um maßgeschneiderte E-Mail-Erlebnisse bereitzustellen.
+Richten Sie dynamische Subdomains, personalisierte Header und URL-Tracking ein, um maßgeschneiderte E-Mail-Erlebnisse zu bieten.
 
-[Personalisierte E-Mail konfigurieren](../using/email/surface-personalization.md)
+[Personalisierte E-Mails konfigurieren](../using/email/surface-personalization.md)
 :::
 
 ::::

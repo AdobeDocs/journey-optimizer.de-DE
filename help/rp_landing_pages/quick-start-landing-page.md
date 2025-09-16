@@ -1,62 +1,62 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Rollen und Zuständigkeiten
-description: Rollen und Zuständigkeiten
+title: Rollen und Verantwortlichkeiten
+description: Rollen und Verantwortlichkeiten
 redpen-status: CREATED_||_2025-08-11_20-03-47
 source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# Rollen und Zuständigkeiten{#section-overview}
+# Rollen und Verantwortlichkeiten{#section-overview}
 
-Der Erfolg von Adobe Journey Optimizer hängt davon ab, dass ein Team von Fachleuten zusammenarbeitet, die jeweils eine klare, auf ihre Kompetenzen zugeschnittene Rolle und Verantwortung wahrnehmen. Unabhängig davon, ob Sie als Administrator Umgebungen einrichten, als Datentechniker Datenflüsse verwalten, als Entwickler oder Integrator von Apps fungieren oder als Marketing-Experte bzw. Marketing-Expertin, die Journey entwirft, wird in diesem Handbuch erläutert, wer was tut und warum es wichtig ist. Sie werden erkunden, wie diese Rollen interagieren, wie die Reihenfolge für die Implementierung ist und welche praktischen Schritte für die ersten Schritte erforderlich sind. Wenn Sie dieses Framework verstehen, sind Sie in der Lage, effektiv zusammenzuarbeiten und das volle Potenzial von Adobe Journey Optimizer zu erschließen.
+Der Erfolg von Adobe Journey Optimizer hängt von einem Team von Fachleuten ab, die zusammenarbeiten und jeweils klare, auf ihre Fähigkeiten zugeschnittene Rollen und Verantwortlichkeiten haben. Ob Sie nun als Admin Umgebungen einrichten, als Data Engineer Datenflüsse verwalten, als Entwicklerin oder Entwickler Apps integrieren oder als Marketing-Fachkraft Customer Journeys entwerfen – dieses Handbuch zeigt auf, wer was macht und warum das wichtig ist. Sie erfahren, wie diese Rollen zusammenwirken, in welcher Reihenfolge die Implementierung erfolgt und welche praktischen Schritte erforderlich sind, um loszulegen. Wenn Sie dieses Framework verstehen, sind Sie in der Lage, effektiv zusammenzuarbeiten und das volle Potenzial von Adobe Journey Optimizer zu erschließen.
 
-## Rollen und Zuständigkeiten
+## Rollen und Verantwortlichkeiten
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Überblick über Rollen und Zuständigkeiten
+Überblick der Rollen und Verantwortlichkeiten
 
-Erfahren Sie mehr über die wichtigsten Rollen, Zuständigkeiten und Abhängigkeiten, die für die erfolgreiche Implementierung von Adobe Journey Optimizer erforderlich sind.
+Erfahren Sie mehr über die wichtigsten Rollen, Verantwortlichkeiten und Abhängigkeiten, die für die erfolgreiche Implementierung von Adobe Journey Optimizer erforderlich sind.
 
-[Überblick](../using/start/quick-start.md)
+[Überblick erkunden](../using/start/quick-start.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Erste Schritte als Marketer
+Erste Schritte als Marketing-Fachkraft
 
-Eine schrittweise Anleitung für Marketing-Fachleute zum Erstellen von Zielgruppen, Hinzufügen von Personalisierung, Entwerfen von Journey und Überwachen der Leistung.
+Eine schrittweise Anleitung für Marketing-Fachleute zum Erstellen von Zielgruppen, Hinzufügen von Personalisierung, Entwerfen von Journeys und Überwachen der Leistung.
 
-[Weitere Informationen für Marketing-Experten](../using/start/path/marketer.md)
+[Informationen für Marketing-Fachleute](../using/start/path/marketer.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Erste Schritte als Datentechniker
+Erste Schritte als Data Engineer
 
-Detaillierte Anweisungen für Dateningenieure zum Vorbereiten von Schemata, Datensätzen und Konfigurieren von Identity-Namespaces und Quell-Connectoren.
+Detaillierte Anweisungen für Data Engineers zum Vorbereiten von Schemata und Datensätzen und zum Konfigurieren von Identity-Namespaces und Quell-Connectoren.
 
-[Weitere Informationen für Data Engineers](../using/start/path/data-engineer.md)
+[Informationen für Data Engineers](../using/start/path/data-engineer.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Erste Schritte als Systemadministrator
+Erste Schritte als Systemadmin
 
-Umfassendes Handbuch für Systemadministratoren zum Einrichten von Umgebungen, Zuweisen von Rollen, Konfigurieren von Berechtigungen und Verwalten der Zustellbarkeit.
+Umfassendes Handbuch für Systemadmins zum Einrichten von Umgebungen, Zuweisen von Rollen, Konfigurieren von Berechtigungen und Verwalten der Zustellbarkeit.
 
-[Weitere Informationen für Admins](../using/start/path/administrator.md)
+[Informationen für Admins](../using/start/path/administrator.md)
 :::
 
 ::::
