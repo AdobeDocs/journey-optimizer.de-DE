@@ -5,16 +5,16 @@ title: Orchestrierte Kampagnen
 description: Orchestrierte Kampagnen
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 77%
 
 ---
 
 # Orchestrierte Kampagnen{#section-overview}
 
-Orchestrierte Kampagnen in Adobe Journey Optimizer ermöglichen es Ihnen, anspruchsvolle, mehrstufige Marketing-Kampagnen zu entwerfen und auszuführen, die der richtigen Zielgruppe im benötigten Umfang die richtige Botschaft bereitstellen. Im Gegensatz zu Echtzeit-Journeys verarbeiten diese Batch-Kampagnen Zielgruppensegmente und -profile gemeinsam, sodass sie sich ideal für geplante Initiativen im Data-driven Marketing eignen. Sie erkunden das Zusammenspiel von Aktivitäten wie Zielgruppensegmentierung, Transitionen und Arbeitstabellen, um nahtlose Workflows zu erstellen. Dabei erfahren Sie, wie sich orchestrierte Kampagnen von Journeys unterscheiden, und lernen, Daten für die Personalisierung zu konfigurieren, Kampagnen zu erstellen und zu starten sowie die Leistung zu optimieren – alles mit einer intuitiven visuellen Arbeitsfläche. Machen Sie sich bereit, Ihre Marketing-Automatisierung auf die nächste Stufe zu heben.
+Orchestrierte Kampagnen in Adobe Journey Optimizer ermöglichen es Ihnen, anspruchsvolle, mehrstufige Marketing-Kampagnen zu entwerfen und auszuführen, die der richtigen Zielgruppe im benötigten Umfang die richtige Botschaft bereitstellen. Im Gegensatz zu Echtzeit-Journeys verarbeiten diese Batch-Kampagnen Zielgruppensegmente und -profile gemeinsam, sodass sie sich ideal für geplante Initiativen im Data-driven Marketing eignen. In diesem Video erfahren Sie, wie Aktivitäten wie Zielgruppensegmentierung, Transitionen und Arbeitstabellen zusammenarbeiten, um nahtlose Workflows zu erstellen. Außerdem erfahren Sie, wie sich orchestrierte Kampagnen von Journey unterscheiden, Daten für die Personalisierung konfigurieren, Kampagnen erstellen und starten und die Performance optimieren - alles mit einer intuitiven visuellen Arbeitsfläche. Machen Sie sich bereit, Ihre Marketing-Automatisierung auf die nächste Stufe zu heben.
 
 ## Überblick über orchestrierte Kampagnen
 
@@ -80,3 +80,8 @@ Erfahren Sie mehr über die Aktivitäten für Targeting, Kanäle und Flusskontro
 :::
 
 ::::
+
+## Weitere Ressourcen
+
+- **[Häufig gestellte Fragen](../using/orchestrated/orchestrated-campaigns-faq.md)** - Erkunden Sie die häufig gestellten Fragen (FAQ) zu von Adobe Journey Optimizer orchestrierten Kampagnen.
+.
