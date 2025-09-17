@@ -10,7 +10,7 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 hide: true
 hidefromtoc: true
-source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
+source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 15%
@@ -68,7 +68,7 @@ Um **[!UICONTROL Journey Optimizer Experimentation Accelerator]** verwenden zu k
 * **[!UICONTROL Experimente anzeigen]**
 * **[!UICONTROL Experiment-Metada verwalten]**
 
-+++ Erfahren Sie, wie Sie experimentellen Berechtigungen zuweisen
++++ Erfahren Sie, wie Sie experimentbezogene Berechtigungen zuweisen
 
 1. Wechseln Sie im **[!DNL Permissions]** Produkt zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie die gewünschte **[!UICONTROL Rolle]** aus.
 
