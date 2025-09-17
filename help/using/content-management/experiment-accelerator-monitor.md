@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator-Monitor
+title: Journey Optimizer Experimentation Accelerator-Monitor
 description: Verbessern Sie Ihre Fähigkeit, Experimente effektiv durchzuführen und Erkenntnisse zu gewinnen
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 hide: true
 hidefromtoc: true
-source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1122'
 ht-degree: 5%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-* [Erste Schritte mit Experimentation Accelerator](experiment-accelerator.md)
-* [Datennutzung in KI mit Experimentation Accelerator](experiment-accelerator-security.md)
-* [Best Practices für Experimentation Accelerator](experiment-accelerator-best-practices.md)
+* [Erste Schritte mit Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
+* [Datennutzung in KI mit Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
+* [Best Practices für Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
 * **[Experimente überwachen](experiment-accelerator-monitor.md)**
 * [Experimentier-Metriken](experiment-accelerator-metrics.md)
 
@@ -135,11 +135,11 @@ Beachten Sie, dass Sie für die Generierung von Experimentmöglichkeiten zunäch
 
    ![](assets/experiment-monitor-opportunities.png)
 
-1. Wenn Sie eine Opportunity auswählen **wird das Fenster „Opportunity** Details“ geöffnet, in dem eine bestimmte, von Experimentation Accelerator vorgeschlagene Abwandlung oder Variante beschrieben wird. Diese Ansicht enthält:
+1. Wenn Sie eine Opportunity auswählen **wird das Fenster „Opportunity** Details“ geöffnet, in dem eine bestimmte, von Journey Optimizer Experimentation Accelerator vorgeschlagene Abwandlung oder Variante beschrieben wird. Diese Ansicht enthält:
 
    * **[!UICONTROL Hypothese]**: Eine KI-generierte Hypothese, die das erwartete Ergebnis der vorgeschlagenen Behandlung erklärt.
 
-   * **[!UICONTROL Rationale]**: Eine Erklärung, warum die Experimentation Accelerator diese Möglichkeit vorgeschlagen hat.
+   * **[!UICONTROL Rationale]**: Eine Erklärung, warum die Journey Optimizer Experimentation Accelerator diese Möglichkeit vorgeschlagen hat.
 
    * **[!UICONTROL Opportunity-Evaluierung]** Eine doppelte Bewertung der Empfehlung auf der Grundlage:
 
@@ -158,9 +158,9 @@ Beachten Sie, dass Sie für die Generierung von Experimentmöglichkeiten zunäch
 
    Bei Experimenten, die aus **[!DNL Adobe Target]** stammen, werden die vorgeschlagenen Änderungen stattdessen in den Experimentier-Workflow von **[!DNL Adobe Target]** geladen.
 
-   ➡️ [Weitere Informationen finden Sie in der Dokumentation zu Adobe Target](https://experienceleague.adobe.com/de/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Weitere Informationen finden Sie in der Dokumentation zu Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
-1. Innerhalb der Experimentansicht können Sie auf dieselbe KI **[!UICONTROL Experimentationsmöglichkeiten]** zugreifen, die auch von der Experimentation Accelerator angezeigt wird.
+1. Innerhalb der Experimentansicht können Sie auf dieselbe KI **[!UICONTROL Experimentationsmöglichkeiten]** zugreifen, die auch von der Journey Optimizer Experimentation Accelerator angezeigt wird.
 
    Wählen **[!UICONTROL Anzeigen]**, um die Opportunity-Details zu öffnen.
 
