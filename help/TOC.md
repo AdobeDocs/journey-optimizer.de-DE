@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e269babd228063d465e0790435d916e479701a7
+source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2946'
 ht-degree: 98%
 
 ---
@@ -121,8 +121,8 @@ ht-degree: 98%
             + [max](using/building-journeys/functions/functionmax.md)
             + [min](using/building-journeys/functions/functionmin.md)
             + [sum](using/building-journeys/functions/functionsum.md)
-         + Konversion {#conversion}
-            + [Konversion](/help/rp_landing_pages/conversion-landing-page.md)
+         + Konvertierung {#conversion}
+            + [Konvertierung](/help/rp_landing_pages/conversion-landing-page.md)
             + [toBool](using/building-journeys/functions/functiontobool.md)
             + [toDateOnly](using/building-journeys/functions/functiontodateonly.md)
             + [toDateTime](using/building-journeys/functions/functiontodatetime.md)
@@ -159,8 +159,8 @@ ht-degree: 98%
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
-         + Math {#math}
-            + [Math](/help/rp_landing_pages/math-landing-page.md)
+         + Mathematik {#math}
+            + [Mathematik](/help/rp_landing_pages/math-landing-page.md)
             + [random](using/building-journeys/functions/functionrandom.md)
             + [round](using/building-journeys/functions/functionround.md)
          + String {#string}
@@ -309,8 +309,8 @@ ht-degree: 98%
       + Gestalten von E-Mail-Inhalten {#design-email}
          + [Gestalten von E-Mail-Inhalten](/help/rp_landing_pages/design-email-landing-page.md)
          + [Erste Schritte beim Gestalten von E-Mails](using/email/get-started-email-design.md)
-         + Beginnen mit dem Erstellen von Inhalten {#start-creating-content}
-            + [Beginnen mit dem Erstellen von Inhalten](/help/rp_landing_pages/start-creating-content-landing-page.md)
+         + Erste Schritte mit dem Erstellen von Inhalten {#start-creating-content}
+            + [Erste Schritte mit dem Erstellen von Inhalten](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Inhalte von Grund auf gestalten](using/email/content-from-scratch.md)
             + [Importieren von Content](using/email/existing-content.md)
             + [Programmieren von eigenem Inhalt](using/email/code-content.md)
@@ -343,8 +343,8 @@ ht-degree: 98%
          + [Header-Parameter](using/email/header-parameters.md)
          + [URL-Tracking](using/email/url-tracking.md)
          + [Personalisieren der E-Mail-Konfiguration](using/email/surface-personalization.md)
-      + E-Mail-Zustellbarkeit {#deliverability}
-         + [E-Mail-Zustellbarkeit](/help/rp_landing_pages/deliverability-landing-page.md)
+      + Zustellbarkeit von E-Mails {#deliverability}
+         + [Zustellbarkeit von E-Mails](/help/rp_landing_pages/deliverability-landing-page.md)
          + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
          + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
          + [Neue DMARC-Anforderung](using/configuration/dmarc-record-update.md)
@@ -383,7 +383,7 @@ ht-degree: 98%
          + [Konfigurieren eines benutzerdefinierten Anbieters](using/sms/sms-configuration-custom.md)
          + [Erstellen einer SMS/MMS/RCS-Konfiguration](using/sms/sms-configuration-surface.md)
    + Briefpost {#direct-mail}
-      + [Briefpost](/help/rp_landing_pages/direct-mail-landing-page.md)
+      + [Direkt-Mail](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
       + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
       + [Überprüfen und Senden einer Briefpostnachricht](using/direct-mail/test-send-direct-mail.md)
@@ -453,7 +453,7 @@ ht-degree: 98%
       + [Wiederverwenden von Ausdrucksfragmenten](using/personalization/use-expression-fragments.md)
       + [Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta)](using/personalization/aep-data-perso.md)
       + Liste mit Hilfsfunktionen {#functions}
-         + [Liste mit Hilfsfunktionen](/help/rp_landing_pages/functions-landing-page.md)
+         + [Liste der Hilfsfunktionen](/help/rp_landing_pages/functions-landing-page.md)
          + [Erste Schritte mit Helper-Funktionen](using/personalization/functions/functions.md)
          + [Helper zur Suche externer Daten](using/personalization/external-data-lookup.md)
          + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
@@ -482,6 +482,7 @@ ht-degree: 98%
          + [Erstellen der Landingpage-Inhalte](using/landing-pages/lp-content.md)
          + [Erstellen von Vorlagen](using/landing-pages/lp-templates.md)
          + [Hinzufügen von benutzerdefiniertem JavaScript](using/landing-pages/lp-custom-js.md)
+      + [Nutzen von Formularen in Ihren Landingpages](using/landing-pages/lp-forms.md)
       + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
       + [Lernen durch Anwendungsfälle](using/landing-pages/lp-use-cases.md)
       + Konfigurieren von Landingpages {#lp-configuration}
@@ -541,8 +542,8 @@ ht-degree: 98%
       + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)
       + [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](using/content-management/multilingual-automated.md)
    + [Nachrichtenoptimierung](using/campaigns/campaigns-message-optimization.md)
-   + Inhaltsexperiment {#content-experiment}
-      + [Inhaltsexperiment](/help/rp_landing_pages/content-experiment-landing-page.md)
+   + Inhaltsexperimente {#content-experiment}
+      + [Inhaltsexperimente](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Erste Schritte mit dem Inhaltsexperiment](using/content-management/get-started-experiment.md)
       + [Erstellen eines Inhaltsexperiments](using/content-management/content-experiment.md)
       + Experimentbeschleuniger {#experiment}
@@ -586,8 +587,8 @@ ht-degree: 98%
       + [Kampagnen-Live-Bericht](using/reports/campaign-live-report.md)
       + [Live-Bericht zu Landingpages](using/reports/lp-report-live.md)
       + [Live-Bericht zu Abonnement-Listen](using/reports/subscription-report-live.md)
-   + Bericht für gesamte Zeit {#channel-report}
-      + [Bericht für gesamte Zeit](/help/rp_landing_pages/channel-report-landing-page.md)
+   + Bericht für die gesamte Zeit {#channel-report}
+      + [Bericht für die gesamte Zeit](/help/rp_landing_pages/channel-report-landing-page.md)
       + [Erste Schritte mit dem Bericht für die gesamte Zeit](using/reports/report-gs-cja.md)
       + [Liste der Metriken](using/reports/global-report-components-cja.md)
       + [Manuelles Konfigurieren von Customer Journey Analytics](using/reports/cja-ajo.md)
@@ -675,14 +676,14 @@ ht-degree: 98%
                + [Liste der Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [Aktualisieren von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [Unterbreiten von Angeboten mithilfe des Code-basierten Erlebniskanals](using/experience-decisioning/api-reference/deliver.md)
-      + Verwalten von Entscheidungselementen {#manage-decision-items}
-         + [Verwalten von Entscheidungselementen](/help/rp_landing_pages/manage-decision-items-landing-page.md)
+      + Entscheidungselemente verwalten {#manage-decision-items}
+         + [Entscheidungselemente verwalten](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)
          + [Erstellen von Entscheidungselementen](using/experience-decisioning/items.md)
          + [Verwalten von Elementsammlungen](using/experience-decisioning/collections.md)
       + [Erstellen von Entscheidungsregeln](using/experience-decisioning/rules.md)
-      + Erstellen von Rankings {#experience-decisioning-rankings}
-         + [Erstellen von Rankings](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
+      + Erstellen von Ranglisten {#experience-decisioning-rankings}
+         + [Erstellen von Ranglisten](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
          + [Erstellen von Rangfolgenmethoden](using/experience-decisioning/ranking/ranking.md)
          + [Verwenden des KI-Formel-Builder](using/experience-decisioning/ranking/ranking-formulas.md)
          + KI-Modelle {#experience-decisioning-ai-models}
@@ -719,8 +720,8 @@ ht-degree: 98%
          + [Erstellen von Platzierungen](using/offers/offer-library/creating-placements.md)
          + [Erstellen von Entscheidungsregeln](using/offers/offer-library/creating-decision-rules.md)
          + [Erstellen von Sammlungsqualifizierern](using/offers/offer-library/creating-tags.md)
-      + Erstellen von Rankings {#rankings}
-         + [Erstellen von Rankings](/help/rp_landing_pages/rankings-landing-page.md)
+      + Erstellen von Ranglisten {#rankings}
+         + [Erstellen von Ranglisten](/help/rp_landing_pages/rankings-landing-page.md)
          + [Erste Schritte mit Rankings](using/offers/ranking/get-started-rankings.md)
          + [Rangfolgenformeln](using/offers/ranking/create-ranking-formulas.md)
          + KI-Modelle {#ai-models}
@@ -754,8 +755,8 @@ ht-degree: 98%
          + [Erste Schritte mit Kontextdaten](using/offers/context-data.md)
          + [Kontextdaten und Edge Decisioning-Anfragen](using/offers/context-data-edge.md)
          + [Kontextdaten und Entscheidungsanfragen](using/offers/context-data-decisioning.md)
-      + Erstellen von Entscheidungs-Management-Berichten {#create-reports}
-         + [Erstellen von Entscheidungs-Management-Berichten](/help/rp_landing_pages/create-reports-landing-page.md)
+      + Erstellen von Berichten zum Entscheidungs-Management {#create-reports}
+         + [Erstellen von Berichten zum Entscheidungs-Management](/help/rp_landing_pages/create-reports-landing-page.md)
          + [Arbeiten mit Entscheidungs-Management-Ereignissen](using/offers/reports/get-started-events.md)
          + [Zugriff auf XDM-Felder von Ereignissen](using/offers/reports/xdm-fields.md)
       + Exportieren des Angebotskatalogs {#export-catalog}
@@ -879,12 +880,12 @@ ht-degree: 98%
    + [Kanalkonfiguration](/help/rp_landing_pages/configuration-landing-page.md)
    + [Erste Schritte bei der Kanalkonfiguration](using/configuration/get-started-configuration.md)
    + [Einrichten von Kanalkonfigurationen](using/configuration/channel-surfaces.md)
-   + Anleitung zur Kanaleinrichtung {#guided-setup}
-      + [Anleitung zur Kanaleinrichtung](/help/rp_landing_pages/guided-setup-landing-page.md)
+   + Geführte Kanaleinrichtung {#guided-setup}
+      + [Geführte Kanaleinrichtung](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Erste Schritte mit der Anleitung zur Kanaleinrichtung](using/configuration/set-mobile-config.md)
       + [Erstellen einer Kanaleinrichtung](using/configuration/create-channel-set-up.md)
-   + Delegieren von E-Mail-Subdomains {#delegate-subdomains}
-      + [Delegieren von E-Mail-Subdomains](/help/rp_landing_pages/delegate-subdomains-landing-page.md)
+   + E-Mail-Subdomains delegieren {#delegate-subdomains}
+      + [E-Mail-Subdomains delegieren](/help/rp_landing_pages/delegate-subdomains-landing-page.md)
       + [Erste Schritte mit der Delegierung von Subdomains](using/configuration/about-subdomain-delegation.md)
       + [Delegieren einer Subdomain](using/configuration/delegate-subdomain.md)
       + [Einrichten einer benutzerdefinierten Subdomain](using/configuration/delegate-custom-subdomain.md)
@@ -899,7 +900,7 @@ ht-degree: 98%
       + [Erstellen eines IP-Aufwärmplans](using/configuration/ip-warmup-plan.md)
       + [Ausführen des IP-Aufwärmplans](using/configuration/ip-warmup-execution.md)
       + [Dateien für den IP-Aufwärmplan](using/configuration/ip-warmup-plan-files.md)
-   + Überwachen von E-Mail-Adressen {#monitor-reputation}
+   + E-Mail-Adressen überwachen {#monitor-reputation}
       + [Überwachen von E-Mail-Adressen](/help/rp_landing_pages/monitor-reputation-landing-page.md)
       + [E-Mail-Fehlertypen](using/configuration/email-error-types.md)
       + [Unterdrückungsliste](using/configuration/manage-suppression-list.md)
