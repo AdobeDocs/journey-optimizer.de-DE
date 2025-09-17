@@ -5,10 +5,10 @@ title: Arbeiten mit Aktivitäten orchestrierter Kampagnen
 description: Informationen zu Aktivitäten orchestrierter Kampagnen
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 96%
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,10 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
 >[!NOTE]
 >
->Je nach Lizenzmodell, Ihren Berechtigungen und Ihrer Implementierung können die verfügbaren Aktivitäten unterschiedlich sein.
+>* Je nach Lizenzmodell, Ihren Berechtigungen und Ihrer Implementierung können die verfügbaren Aktivitäten unterschiedlich sein.
+>
+>* Die Anzahl der Aktivitäten in einer orchestrierten Kampagne ist auf 500 begrenzt.
+
 
 ## Targeting-Aktivitäten {#targeting}
 
@@ -48,7 +51,9 @@ Die verfügbaren Aktivitäten zur Zielgruppenbestimmung sind:
 
 ## Kanalaktivitäten {#channel}
 
-In Adobe Journey Optimizer können Sie Marketing-Kampagnen automatisieren und über mehrere Kanäle hinweg ausführen. Sie können Kanalaktivitäten auf der Arbeitsfläche kombinieren, um orchestrierte Cross-Channel-Kampagnen zu erstellen, bei denen je nach Kundenverhalten Aktionen ausgelöst werden können. Die folgenden **Kanalaktivitäten** sind verfügbar: E-Mail und SMS. [Erfahren Sie, wie Sie im Kontext einer orchestrierten Kampagne eine Kanalaktion erstellen](channels.md).
+In Adobe Journey Optimizer können Sie Marketing-Kampagnen automatisieren und über mehrere Kanäle hinweg ausführen. Sie können [Kanalaktivitäten](channels.md) in der Arbeitsfläche kombinieren, um eine kanalübergreifende orchestrierte Kampagne zu erstellen, mit der Trigger-Aktionen basierend auf dem Kundenverhalten erstellt werden können.
+
+Erfahren Sie, wie [eine Kanalaktion in einer orchestrierten Kampagne erstellen](channels.md).
 
 ## Aktivitäten zur Flusskontrolle {#flow-control}
 

@@ -6,10 +6,10 @@ description: Informationen zu den ersten Schritten mit orchestrierten Kampagnen
 short-description: Entdecken Sie wichtige Funktionen und Anwendungsfälle von orchestrierten Kampagnen.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -74,7 +74,7 @@ Die Arbeitsfläche für orchestrierte Kampagnen zeigt, was passieren soll. Sie b
 
 Jede orchestrierte Kampagne enthält:
 
-* **Aktivitäten**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll. Die verschiedenen Aktivitäten werden auf der Arbeitsfläche durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften sowie andere Eigenschaften, die für alle Aktivitäten gelten.
+* **Aktivitäten**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll. Die [verschiedenen Aktivitäten](activities/about-activities.md) werden auf der Arbeitsfläche durch Symbole dargestellt. Jede Aktivität verfügt über bestimmte Eigenschaften sowie andere Eigenschaften, die für alle Aktivitäten gelten.
 
   In einer Arbeitsfläche für eine orchestrierte Kampagne kann eine bestimmte Aktivität mehrere Aufgaben erzeugen, insbesondere wenn es sich um eine Schleife oder wiederkehrende Aktionen handelt.
 
