@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 100%
+source-wordcount: '1226'
+ht-degree: 97%
 
 ---
 
@@ -65,12 +65,7 @@ Gehen Sie wie folgt vor, um einen Kanalregelsatz zu erstellen:
 
    Der Zähler läuft für jeden Zeitraum wie folgt ab:
 
-   * **[!UICONTROL Stündlich]**: Die Frequenzbegrenzung ist für die ausgewählte Anzahl an Stunden gültig (mindestens 3 Stunden). Der Zähler wird zu Beginn jedes Zeitfensters automatisch zurückgesetzt. Bei einer Frequenzbegrenzung von 3 Stunden wird er alle 3 Stunden zurückgesetzt, übereinstimmend mit dem Ende einer UTC-Stunde.
-
-     >[!AVAILABILITY]
-     >
-     >Diese Funktion ist nur für eine ausgewählte Gruppe an Organisationen verfügbar (eingeschränkte Verfügbarkeit). Wenden Sie sich an die Kundenunterstützung, um sie zu aktivieren.
-
+   * **[!UICONTROL Stündlich]** - Die Häufigkeitsbegrenzung ist für die ausgewählte Anzahl von Stunden gültig. Der Zähler wird zu Beginn jedes Zeitfensters automatisch zurückgesetzt. Bei einer Frequenzlimitierung von 1 Stunde wird die Einstellung stündlich zurückgesetzt, was mit dem Ende einer UTC-Stunde zusammenfällt.
    * **[!UICONTROL Täglich]**: Die tägliche Frequenzbegrenzung ist für den Tag bis 23:59:59 UTC gültig und wird zu Beginn des nächsten Tages auf 0 zurückgesetzt.
    * **[!UICONTROL Wöchentlich]**: Die Frequenzbegrenzung gilt bis Samstag, 23:59:59 UTC der betreffenden Woche, da die Kalenderwoche am Sonntag beginnt. Das Ablaufdatum gilt unabhängig davon, wann die Regel erstellt wurde. Wenn die Regel beispielsweise am Donnerstag erstellt wird, gilt diese Regel bis Samstag um 23 Uhr:59:59.
    * **[!UICONTROL Monatlich]**: Die Frequenzbegrenzung ist bis zum letzten Tag des Monats um 23:59:59 UTC gültig. Beispielsweise beträgt die monatliche Gültigkeit für den 31.01.23:59:59 UTC.
@@ -83,7 +78,7 @@ Gehen Sie wie folgt vor, um einen Kanalregelsatz zu erstellen:
 
 1. Mit dem Feld **[!UICONTROL Alle]** können Sie die Regeln zur Frequenzbegrenzung je nach angegebener Dauer über mehrere Stunden, Tage, Wochen oder Monate hinweg wiederholen. Beispiel: Wenden Sie die Regel zur Frequenzbegrenzung für 2 Wochen an.
 
-   Stellen Sie sicher, dass Sie einen Wert eingeben, der dem ausgewählten Zeitdauertyp entspricht: 3–23 für „Stündlich“, 1–30 für „Täglich“, 1–4 für „Wöchentlich“ und 1–3 für „Monatlich“.
+   Stellen Sie sicher, dass Sie einen Wert eingeben, der dem ausgewählten Zeitdauertyp entspricht: 1-23 für „Stündlich“, 1-30 für „Täglich“, 1-4 für „Wöchentlich“ und 1-3 für „Monatlich“.
 
    Der Zähler wird automatisch auf 0 zurückgesetzt, wenn ein neues Zeitfenster beginnt. Bei einer Frequenzbegrenzung von 2 Tagen erfolgt dieses Zurücksetzen alle zwei Tage um Mitternacht UTC.
 
@@ -166,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
