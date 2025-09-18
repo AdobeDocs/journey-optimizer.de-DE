@@ -3,10 +3,10 @@ title: Verwenden zusätzlicher Kennungen in Journeys
 description: Erfahren Sie, wie Sie zusätzliche Kennungen in Journeys verwenden.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
-source-wordcount: '1257'
-ht-degree: 100%
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
+workflow-type: tm+mt
+source-wordcount: '1366'
+ht-degree: 83%
 
 ---
 
@@ -17,45 +17,37 @@ ht-degree: 100%
 >title="Verwenden einer zusätzlichen Kennung"
 >abstract="Die zusätzliche Kennung ist eine sekundäre Kennung, die zusätzlichen Kontext für die Ausführung einer Journey bereitstellt. Um sie zu definieren, das Feld auswählen, das als zusätzliche Kennung verwendet werden soll, und einen Namespace auswählen, der mit ihr verknüpft werden soll."
 
-Standardmäßig werden Journeys im Kontext einer **Profilkennung** ausgeführt. Das bedeutet, dass das Profil nicht erneut in eine andere Journey eintreten kann, solange es in einer bestimmten Journey aktiv ist. Um dies zu verhindern, können Sie in [!DNL Journey Optimizer] zusätzlich zur Profilkennung eine **zusätzliche Kennung** erfassen, z. B. eine Bestell-ID, eine Abonnement-ID oder eine Rezept-ID.
-In diesem Beispiel haben wir eine Buchungs-ID als zusätzliche Kennung hinzugefügt.
+<!--
+By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
+In this example, we have added a booking ID as a supplemental identifier. 
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
 
-Dadurch werden die Journeys im Kontext der Profilkennung ausgeführt, die der zusätzlichen Kennung zugeordnet ist (hier die Buchungs-ID). Für jede Iteration der zusätzlichen Kennung wird eine Instanz der Journey ausgeführt. Dadurch kann dieselbe Profilkennung mehrfach in Journeys eintreten, wenn sie unterschiedliche Buchungen vorgenommen haben.
+By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
 
-Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzlichen Kennung (z. B. Buchungsnummer, Datum der Rezeptverlängerung, Produkttyp) für die Nachrichtenanpassung nutzen, um eine hochrelevante Kommunikation sicherzustellen. <!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px; border: none;">
+      <p>Standardmäßig werden Journeys im Kontext einer <b>Profilkennung</b> ausgeführt. Das bedeutet, dass das Profil nicht erneut in eine andere Journey eintreten kann, solange es in einer bestimmten Journey aktiv ist. Um dies zu verhindern, können Sie mit Journey Optimizer <b> zusätzlich zur Profil-ID eine </b>zusätzliche Kennung“ erfassen, z. B. eine Bestell-ID, Abonnement-ID, Verschreibungs-ID.  
+      <p>In diesem Beispiel haben wir eine <b>Buchungs-ID</b> als zusätzliche Kennung hinzugefügt.</p>
+      <p>Dadurch werden die Journeys im Kontext der Profilkennung ausgeführt, die der zusätzlichen Kennung zugeordnet ist (hier die Buchungs-ID). Für jede Iteration der zusätzlichen Kennung wird eine Instanz der Journey ausgeführt. Dadurch kann dieselbe Profilkennung mehrfach in Journeys eintreten, wenn sie unterschiedliche Buchungen vorgenommen haben.</p>
+      <p>Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzlichen Kennung (z. B. Buchungsnummer, Datum der Rezeptverlängerung, Produkttyp) für die Nachrichtenanpassung nutzen, um hochrelevante Kommunikation sicherzustellen.</p>
+    </td>
+    <td style="vertical-align: top; border: none; text-align: center; width: 40%;">
+      <img src="assets/event-supplemental-id.png" alt="Beispiel für eine zusätzliche Kennung" style="max-width:100%;" />
+    </td>
+  </tr>
+</table>
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
 ## Leitlinien und Einschränkungen {#guardrails}
 
-* **Unterstützte Journeys**: Derzeit ist die Verwendung zusätzlicher Kennungen für Journeys vom Typ **ereignisausgelöst** und **Zielgruppe lesen** verfügbar. Sie ist nicht für Journeys des Typs „Zielgruppen-Qualifizierung“ verfügbar.
+* **Unterstützte Journey**: Zusätzliche Kennungen werden für die Journey **ereignisgesteuert** und **Zielgruppe lesen** unterstützt. Sie werden **nicht unterstützt** für Journey zur Zielgruppen-Qualifizierung (d. h. Journey, die mit einer Zielgruppen-Qualifizierungsaktivität beginnen).
 
 * **Beschränkungen gleichzeitiger Instanzen**: Profile können nicht über mehr als 10 gleichzeitige Journey-Instanzen verfügen.
-
-<!--* **Array depth**: Supplemental identifier objects can have a maximum depth of 3 levels (2 levels of nesting).
-
-    +++Example
-
-    ```
-    [
-    (level 1) "Atorvastatin" : {
-    "description" : "used to lower cholesterol",
-    "renewal_date" : "11/20/25",
-    "dosage" : "10mg"
-    (level 2) "ingredients" : [
-    (level 3) "Atorvastatin calcium",
-    "lactose monohydrate",
-    "microcrystalline cellulose",
-    "other" ]
-    }
-    ]
-    ```
-
-    +++
--->
-* **Ausstiegskriterien**: Ausgelöste Ausstiegskriterien würden zu einem Ausstieg aller Instanzen des Profils führen, die zu diesem Zeitpunkt in der Journey live sind. Sie wären nicht kontextuell für die Kombination aus Profilkennung und zusätzlicher Kennung.
 
 * **Häufigkeitsregeln**: Jede Journey-Instanz, die über die Nutzung der zusätzlichen Kennung erstellt wurde, wird der Frequenzbegrenzung angerechnet, auch wenn ein einzelnes Ereignis zu mehreren Journey-Instanzen führt.
 
@@ -77,8 +69,20 @@ Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzliche
 * **Journeys vom Typ „Zielgruppe lesen“**
 
    * Die zusätzliche Kennung ist deaktiviert, wenn Sie ein Geschäftsereignis verwenden.
-
    * Die zusätzliche Kennung muss ein Feld aus dem Profil sein (d. h. kein Ereignis-/Kontextfeld).
+   * Bei Journey, die eine gelesene Zielgruppe mit zusätzlichen IDs verwenden, ist die Leserate der Aktivität „Zielgruppe lesen“ für jede Journey-Instanz auf maximal 500 Profile pro Sekunde beschränkt.
+
+## Verhalten bei Ausstiegskriterien mit zusätzlichen IDs {#exit-criteria}
+
+Voraussetzung: Journey für zusätzliche ID aktiviert (über unitäres Ereignis oder Aktivitäten zum Lesen von Zielgruppen)
+
+In der folgenden Tabelle wird das Verhalten von Profilen auf einer zusätzlichen ID-aktivierten Journey erläutert, wenn die Beendigungskriterien konfiguriert sind:
+
+| Konfiguration der Ausstiegskriterien | Verhalten, wenn Ausstiegskriterien erfüllt sind |
+| ---------------------------- | ---------------------------------- |
+| Basierend auf einem Ereignis ohne zusätzliche ID | Alle Instanzen des entsprechenden Profils in dieser Journey werden beendet. |
+| Basierend auf einem zusätzlichen ID-Ereignis <br/>*Hinweis: Der zusätzliche ID-Namespace muss mit dem des ursprünglichen Knotens übereinstimmen.* | Es wird nur das übereinstimmende Profil + die zusätzliche ID-Instanz beendet. |
+| Basierend auf einer Zielgruppe | Alle Instanzen des entsprechenden Profils in dieser Journey werden beendet. |
 
 ## Hinzufügen einer zusätzlichen Kennung und Verwenden der Kennung in einer Journey {#add}
 
@@ -251,4 +255,4 @@ In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attrib
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
