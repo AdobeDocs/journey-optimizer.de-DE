@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 59a6413fb111c3ac595416d8e5933b981bc64d3c
+source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 26%
+source-wordcount: '1540'
+ht-degree: 30%
 
 ---
 
@@ -77,13 +77,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent</strong><br/></th>
+<th><strong>Journey Agent ist da!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Agent ermöglicht es Journey Optimizer-Anwendern, Journey über eine natürliche Sprachschnittstelle zu erstellen, zu analysieren und zu optimieren. Mit Journey Agent können Anwender Zeitplankonflikte oder Zielgruppenkonflikte schnell erkennen und beheben, Leistungs- und Abfallpunkte analysieren und leistungsstarke Journey identifizieren, die für zukünftige Kampagnen repliziert werden können.</p>
+<p>Der KI-Assistent beinhaltet jetzt grundlegende Journey Agent-Kenntnisse für Journey Optimizer, sodass Anwender Journey über eine natürliche Sprachschnittstelle analysieren können. Mit diesen neuen Kenntnissen können Benutzende Journey analysieren und erstellen (in Kürze verfügbar), um potenzielle Zeitplan- oder Zielgruppenkonflikte zu erkennen und zu lösen.</p>
 </td>
 </tr>
 </tbody>
@@ -110,6 +110,24 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Benutzerdefinierte Formulare für Landingpages</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit [!DNL Journey Optimizer] können Sie jetzt Profilattribute über Ihre Landingpages erfassen.</p>
+<p>Erstellen, entwerfen und verwalten Sie benutzerdefinierte Formulare, die auf Ihre Anforderungen zugeschnitten sind und auf einem bestimmten Datensatz basieren. Sie können diese Formulare dann in Landingpages nutzen, um die Profilattribute Ihrer Wahl zu dem für jedes Formular definierten Datensatz hinzuzufügen.</p>
+<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
+<!--p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
