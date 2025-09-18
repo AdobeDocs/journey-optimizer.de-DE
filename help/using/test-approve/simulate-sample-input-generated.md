@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="Private Beta" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: 9155a16a0557a32c1d59b66b03fc84c5bc7b8463
+source-git-commit: 53d8fbb28e8516e4ee79f556a335b2d084af42e7
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 2%
@@ -28,13 +28,7 @@ ht-degree: 2%
 
 Beim Rendern von Inhalten für die Simulation oder das Proofing analysiert das System Ihre Inhalte und identifiziert alle Personalisierungs-Token und Verzweigungsregeln. Es ersetzt Personalisierungs-Token durch aussagekräftige Werte, die eine nahezu realistische Vorschau des endgültigen Inhalts bieten.
 
-Stellen Sie sich eine E-Mail-Vorlage für Finanzdienstleistungen mit Verzweigungslogik vor, die auf **Investorentyp**, **Altersgruppe**, **Familienstand**, **Steuer-ID-** und **Ort** basiert.
-
-Ohne Variantengenerierung müssten Sie Dutzende von Varianten manuell erstellen, um alle Pfade zu validieren. Mit automatisch generierten Varianten erzeugt das System repräsentative Varianten, die diese Bedingungen automatisch abdecken.  Jede generierte Variante wird im Vorschaubereich gerendert und zeigt genau an, welche Blöcke und Bedingungen angewendet werden.
-
->[!NOTE]
->
->Diese Funktion funktioniert auf die gleiche Weise wie die standardmäßige Funktion „Inhaltsvarianten simulieren“. Weitere Informationen zu Inhaltsvariantensimulationen und den zugehörigen Leitplanken und Einschränkungen finden Sie in diesem Abschnitt: [Inhaltsvarianten simulieren](../test-approve/simulate-sample-input.md)
+Stellen Sie sich eine E-Mail-Vorlage für Finanzdienstleistungen mit Verzweigungslogik vor, die auf **Investorentyp**, **Altersgruppe**, **Familienstand**, **Steuer-ID-** und **Ort** basiert. Ohne Variantengenerierung müssten Sie Dutzende von Varianten manuell erstellen, um alle Pfade zu validieren. Mit automatisch generierten Varianten erzeugt das System repräsentative Varianten, die diese Bedingungen automatisch abdecken.  Jede generierte Variante wird im Vorschaubereich gerendert und zeigt genau an, welche Blöcke und Bedingungen angewendet werden.
 
 ## Inhaltsvarianten generieren
 
@@ -51,3 +45,7 @@ Gehen Sie wie folgt vor, um Varianten für Ihren Inhalt zu generieren und eine V
 3. [!DNL Journey Optimizer] generiert basierend auf erkannten Attributen automatisch Varianten.
 
 4. Überprüfen Sie die Liste der generierten Varianten im linken Bereich und wählen Sie eine Variante aus, um ihr personalisiertes Rendering im Vorschaubereich anzuzeigen.
+
+>[!NOTE]
+>
+>Diese Funktion funktioniert auf die gleiche Weise wie die standardmäßige Funktion „Inhaltsvarianten simulieren“. Weitere Informationen zu Inhaltsvariantensimulationen und den zugehörigen Leitplanken und Einschränkungen finden Sie in diesem Abschnitt: [Inhaltsvarianten simulieren](../test-approve/simulate-sample-input.md)
