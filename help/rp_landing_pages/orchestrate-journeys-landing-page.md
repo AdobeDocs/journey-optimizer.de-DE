@@ -5,16 +5,16 @@ title: Journeys
 description: Journeys
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '276'
-ht-degree: 100%
+source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 85%
 
 ---
 
 # Journeys{#section-overview}
 
-Mit Journeys in Adobe Journey Optimizer können Sie personalisierte, mehrstufige Customer Journeys erstellen, die sich in Echtzeit an das Verhalten und die Bedürfnisse Ihrer Zielgruppe anpassen. Mithilfe einer intuitiven Drag-and-Drop-Arbeitsfläche können Sie Nachrichten und Aktionen über mehrere Kanäle hinweg orchestrieren und dabei kontextuelle Daten und Zielgruppen-Targeting nutzen, um maximale Wirkung zu erzielen. Ob Sie sich mit Echtzeit-Triggern beschäftigen, Journey-Eigenschaften verwalten oder erweiterte Tools wie benutzerdefinierte Aktionen und Ausdrücke verwenden – dieser Abschnitt bietet Ihnen eine klare Roadmap. Tauchen Sie ein in Handbücher, Anwendungsfälle und Tipps zur Fehlerbehebung, um mit Zuversicht Journeys zu entwerfen und zu verfeinern, die aussagekräftige und zeitgerechte Kundenerlebnisse bieten.
+Mit den Journey in Adobe Journey Optimizer können Sie personalisierte, mehrstufige Journey erstellen, die sich in Echtzeit an das Verhalten und die Bedürfnisse Ihrer Zielgruppe anpassen. Mithilfe einer intuitiven Drag-and-Drop-Arbeitsfläche können Sie Nachrichten und Aktionen über mehrere Kanäle hinweg orchestrieren und dabei kontextuelle Daten und Zielgruppen-Targeting nutzen, um maximale Wirkung zu erzielen. Ob Sie sich mit Echtzeit-Triggern beschäftigen, Journey-Eigenschaften verwalten oder erweiterte Tools wie benutzerdefinierte Aktionen und Ausdrücke verwenden – dieser Abschnitt bietet Ihnen eine klare Roadmap. Tauchen Sie ein in Handbücher, Anwendungsfälle und Tipps zur Fehlerbehebung, um mit Zuversicht Journeys zu entwerfen und zu verfeinern, die aussagekräftige und zeitgerechte Kundenerlebnisse bieten.
 
 ## Überblick über Journeys
 
@@ -85,3 +85,7 @@ Erkunden Sie die realen Anwendungen von Adobe Journey Optimizer, einschließlich
 ## Weitere Ressourcen
 
 - **[Fehlerbehebung bei Customer Journeys](troubleshoot-journey-landing-page.md)** – Diagnostizieren und beheben Sie Probleme bei der Ausführung von Journeys mit Tools, Fehler-Codes und Best Practices für Debugging und Optimierung.
+
+- **[Journey-Warnhinweise abonnieren](../using/reports/alerts.md)** - Erfahren Sie, wie Sie Systemwarnungen verwalten, Benachrichtigungen abonnieren und Probleme in Journey und Kampagnen beheben.
+
+
