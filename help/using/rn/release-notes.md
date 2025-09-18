@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
+source-git-commit: 09b56bacb61f64e5292a6c1b9b7706b9fa390d0c
 workflow-type: tm+mt
 source-wordcount: '2226'
 ht-degree: 87%
@@ -376,7 +376,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Entscheidungsfindung**
 
-   * **Anhängen von Fragmenten an Entscheidungselemente** – Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können. Diese Funktion ist für eine ausgewählte Kundengruppe eingeschränkt verfügbar. [Weitere Informationen](../experience-decisioning/create-decision.md#fragments)
+   * **Anhängen von Fragmenten an Entscheidungselemente** – Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können. Diese Funktion ist für eine Reihe von Kunden in begrenzter Verfügbarkeit verfügbar. [Weitere Informationen](../experience-decisioning/create-decision.md#fragments)
 
 * **Journeys**
 
