@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e7db0386b4616828ed5282cfd45e080455d1c22a
+source-git-commit: 5f601a79244a9f10bb9762656449729184b887ec
 workflow-type: tm+mt
-source-wordcount: '3120'
-ht-degree: 66%
+source-wordcount: '2975'
+ht-degree: 69%
 
 ---
 
@@ -79,21 +79,20 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 </tbody>
 </table>
 
-
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>Neue Quell-Connectoren für Treue-Apps</strong><br/></th>
+<th><strong>New source connectors for loyalty apps</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In Adobe Experience Platform sind jetzt neue Quell-Connectoren für die Treueprogramme von Talon.One, Capillary und Kobie verfügbar. Mit diesen Connectoren können Sie Treueprogramm-Daten nahtlos in Adobe Experience Platform streamen und diese Daten in Journey Optimizer nutzen.</p>
+<p>New source connectors are now available in Adobe Experience Platform for the Talon.One, Capillary, and Kobie loyalty apps. These connectors let you seamlessly stream loyalty data into Adobe Experience Platform and leverage these data in Journey Optimizer.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <table>
 <thead>
@@ -265,15 +264,15 @@ Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Mög
 * **Simulieren von Inhaltsvarianten für alle eingehenden Kanäle**\
   Zuvor nur für die Kanäle E-Mail, SMS und Push-Benachrichtigungen verfügbar, gilt die Simulation von Inhaltsvarianten jetzt auch für alle eingehenden Kanäle.
 
-* **Webhook-Unterstützung für API-ausgelöste Kampagnen**\
-  API-ausgelöste Kampagnen unterstützen jetzt Webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen für jede Nachricht in Echtzeit zu erhalten, was die Beobachtbarkeit verbessert und eine nahtlose Überwachung und Automatisierung ermöglicht.
+<!--* **Webhook support for API triggered campaigns**  
+  API triggered campaigns now support webhooks. Configure a webhook URL to receive real-time status updates for every message, improving observability and enabling seamless monitoring and automation.-->
 
 * **Umleitungsunterstützung beim Journey benutzerdefinierter Aktionen**\
   Weiterleitungen (302) werden jetzt beim Journey benutzerdefinierter Aktionen unterstützt.
 
-* **Hoher Durchsatzmodus für API-ausgelöste E-Mail-Kampagnen**\
-  In API-ausgelösten Kampagnen ist jetzt ein neuer Modus mit hohem Durchsatz verfügbar. Dieser Modus wurde für umfangreiches Echtzeit-Messaging (bis zu 5.000 Transaktionen pro Sekunde) entwickelt und bietet eine höhere Verfügbarkeit mit geringerer Latenz.\
-  Diese Funktion ist nur für den E-Mail-Kanal für Unternehmen verfügbar, die das Add-on Adobe Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie vom Adobe-Support.
+<!--* **High throughput mode for API triggered email campaigns**  
+  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
+  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.-->
 
 * **Stündliches Zurücksetzen der Begrenzungsfrequenz** – Sie können jetzt eine Begrenzung auf stündlicher Basis für Kanalregelsätze anwenden. Zuvor in eingeschränkter Verfügbarkeit verfügbar, ist diese Funktion jetzt für alle Umgebungen verfügbar und ermöglicht Ihnen die Auswahl von 1 Stunde (zuvor 3 Stunden). [Weitere Informationen](../conflict-prioritization/channel-capping.md). Verfügbarkeitsdatum: 17. September
 
