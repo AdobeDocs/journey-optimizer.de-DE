@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4765ec89dfee24227d13c5cb04595f63409186cb
+source-git-commit: dc2a984a093ee1bf5a856658d6c6f43c7d617823
 workflow-type: tm+mt
 source-wordcount: '3148'
 ht-degree: 65%
@@ -236,64 +236,64 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 
 ### Verbesserungen
 
-- **Berechtigungen für Genehmigungsrichtlinien**
+* **Berechtigungen für Genehmigungsrichtlinien**
 Beim Erstellen oder Festlegen einer Validierungsrichtlinie wurde eine Option hinzugefügt, um zu verhindern, dass Journey-/Kampagnenerstellende ihre eigenen Objekte validieren.
 
-- **Neue Journey-Warnhinweise**\
+* **Neue Journey-Warnhinweise**\
   Neue vorkonfigurierte Warnhinweise sind für Journey verfügbar:
-   - Profil-Verwerfungsrate überschritten: Verhältnis der Verwerfen-Aktionen von Profilen zu den eingegebenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten.
-   - Fehlerrate für benutzerdefinierte Aktion überschritten: Verhältnis der Fehler benutzerdefinierter Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten überschritten. Schwellenwert
-   - Profilfehlerrate überschritten: Verhältnis der fehlerhaften Profile zu den eingegebenen Profilen in den letzten 5 Minuten haben den Schwellenwert überschritten.
+   * Profil-Verwerfungsrate überschritten: Verhältnis der Verwerfen-Aktionen von Profilen zu den eingegebenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten.
+   * Fehlerrate für benutzerdefinierte Aktion überschritten: Verhältnis der Fehler benutzerdefinierter Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten überschritten. Schwellenwert
+   * Profilfehlerrate überschritten: Verhältnis der fehlerhaften Profile zu den eingegebenen Profilen in den letzten 5 Minuten haben den Schwellenwert überschritten.
 
-- **Verschachtelte JSON-Textparameter werden jetzt in der benutzerdefinierten Authentifizierung unterstützt**\
+* **Verschachtelte JSON-Textparameter werden jetzt in der benutzerdefinierten Authentifizierung unterstützt**\
   Beim Konfigurieren der benutzerdefinierten Authentifizierung für eine benutzerdefinierte Aktion werden jetzt verschachtelte JSON-Objekte (z. B. Unterobjekte innerhalb von `bodyParams`) unterstützt.
 
-- **Anhängen von Fragmenten an Entscheidungselemente**\
+* **Anhängen von Fragmenten an Entscheidungselemente**\
   Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können.
 
-- **Unterstützung benutzerdefinierter Attribute mit 1-Klick-Abmelde-URL**\
+* **Unterstützung benutzerdefinierter Attribute mit 1-Klick-Abmelde-URL**\
   Wenn Sie mit Journey Optimizer das Einverständnis außerhalb von Adobe verwalten, können Sie einen externen benutzerdefinierten Endpunkt festlegen, indem Sie Ihren eigenen Link zur Abmeldung mit einem Klick in der E-Mail-Konfiguration definieren. Wenn Ihre Empfängerinnen oder Empfänger auf den Link zum Abmelden klicken, fügt Journey Optimizer standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
 
   Um die Abmelde-E-Mail-Adresse weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden. Diese Funktion ist bereits seit der Version vom 25. August für den benutzerdefinierten Ein-Klick-Abmelde-Link verfügbar.
 
-- ***mTLS-Unterstützung für SMS-Kanal**
+* ***mTLS-Unterstützung für SMS-Kanal**
 Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Möglichkeit, die gegenseitige TLS-Authentifizierung (MTLS) zu aktivieren. Dazu müssen sowohl der Client als auch der Server die Identitäten der anderen Seite bestätigen, bevor eine sichere Verbindung hergestellt wird.
 
-- **Modellbasierte Schemata**\
+* **Modellbasierte Schemata**\
   Für ein klareres und intuitiveres Erlebnis werden relationale Schemata in orchestrierten Kampagnen jetzt als modellbasierte Schemata bezeichnet.
 
-- **Unterstützung der Datensatzsuche in Journey**\
+* **Unterstützung der Datensatzsuche in Journey**\
   Eine neue Aktivität in Journey, **Datensatzsuche**, ermöglicht während der Laufzeit das dynamische Abrufen von Daten aus Adobe Experience Platform-Datensatzdatensätzen. Durch die Nutzung dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden, um sicherzustellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitnah sind.
 
-- **Simulieren von Inhaltsvarianten für alle eingehenden Kanäle**\
+* **Simulieren von Inhaltsvarianten für alle eingehenden Kanäle**\
   Zuvor nur für die Kanäle E-Mail, SMS und Push-Benachrichtigungen verfügbar, gilt die Simulation von Inhaltsvarianten jetzt auch für alle eingehenden Kanäle.
 
-- **Webhook-Unterstützung für API-ausgelöste Kampagnen**\
+* **Webhook-Unterstützung für API-ausgelöste Kampagnen**\
   API-ausgelöste Kampagnen unterstützen jetzt Webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen für jede Nachricht in Echtzeit zu erhalten, was die Beobachtbarkeit verbessert und eine nahtlose Überwachung und Automatisierung ermöglicht.
 
-- **Umleitungsunterstützung beim Journey benutzerdefinierter Aktionen**\
+* **Umleitungsunterstützung beim Journey benutzerdefinierter Aktionen**\
   Weiterleitungen (302) werden jetzt beim Journey benutzerdefinierter Aktionen unterstützt.
 
-- **Hoher Durchsatzmodus für API-ausgelöste E-Mail-Kampagnen**\
+* **Hoher Durchsatzmodus für API-ausgelöste E-Mail-Kampagnen**\
   In API-ausgelösten Kampagnen ist jetzt ein neuer Modus mit hohem Durchsatz verfügbar. Dieser Modus wurde für umfangreiches Echtzeit-Messaging (bis zu 5.000 Transaktionen pro Sekunde) entwickelt und bietet eine höhere Verfügbarkeit mit geringerer Latenz.\
   Diese Funktion ist nur für den E-Mail-Kanal für Unternehmen verfügbar, die das Add-on Adobe Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie vom Adobe-Support.
 
 
-- **Stündliches Zurücksetzen der Begrenzungsfrequenz** – Sie können jetzt eine Begrenzung auf stündlicher Basis für Kanalregelsätze anwenden. Zuvor in eingeschränkter Verfügbarkeit verfügbar, ist diese Funktion jetzt für alle Umgebungen verfügbar und ermöglicht Ihnen die Auswahl von 1 Stunde (zuvor 3 Stunden). [Weitere Informationen](../conflict-prioritization/channel-capping.md). Verfügbarkeitsdatum: 17. September
+* **Stündliches Zurücksetzen der Begrenzungsfrequenz** – Sie können jetzt eine Begrenzung auf stündlicher Basis für Kanalregelsätze anwenden. Zuvor in eingeschränkter Verfügbarkeit verfügbar, ist diese Funktion jetzt für alle Umgebungen verfügbar und ermöglicht Ihnen die Auswahl von 1 Stunde (zuvor 3 Stunden). [Weitere Informationen](../conflict-prioritization/channel-capping.md). Verfügbarkeitsdatum: 17. September
 
-- **Unterstützung dynamischer Domains** - Journey Optimizer unterstützt jetzt die vollständige/Basis-URL-Personalisierung für vordefinierte Domains, die von Adobe akzeptiert werden. [Weitere Informationen](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
+* **Unterstützung dynamischer Domains** - Journey Optimizer unterstützt jetzt die vollständige/Basis-URL-Personalisierung für vordefinierte Domains, die von Adobe akzeptiert werden. [Weitere Informationen](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
   >[!NOTE]
   >
   >Diese Funktion ist für eine Reihe von Kunden in begrenzter Verfügbarkeit verfügbar.
 
-- **Ausdruck für Entscheidungs-Begrenzungsregeln** - Sie können jetzt eigene Ausdrücke erstellen, um den Schwellenwert einer Begrenzungsregel für ein Entscheidungselement zu definieren. [Weitere Informationen](../experience-decisioning/items.md#capping)
+* **Ausdruck für Entscheidungs-Begrenzungsregeln** - Sie können jetzt eigene Ausdrücke erstellen, um den Schwellenwert einer Begrenzungsregel für ein Entscheidungselement zu definieren. [Weitere Informationen](../experience-decisioning/items.md#capping)
 
->[!NOTE]
->
->Diese Funktion ist derzeit nur in begrenztem Umfang für alle Benutzer verfügbar.
+  >[!NOTE]
+  >
+  >Diese Funktion ist derzeit nur in begrenztem Umfang für alle Benutzer verfügbar.
 
-- **Warnhinweise zur Überwachung der Kanalkonfiguration** - Sie können jetzt Systemwarnungen abonnieren, entweder per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum, falls ein E-Mail-Kanalkonfigurationsfehler beim Verwenden der benutzerdefinierten Subdomain-Delegierung auftritt. [Weitere Informationen](../reports/alerts.md#alert-dns-record-missing)
+* **Warnhinweise zur Überwachung der Kanalkonfiguration** - Sie können jetzt Systemwarnungen abonnieren, entweder per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum, falls ein E-Mail-Kanalkonfigurationsfehler beim Verwenden der benutzerdefinierten Subdomain-Delegierung auftritt. [Weitere Informationen](../reports/alerts.md#alert-dns-record-missing)
 
 
 ## Versionshinweise für August 2025 {#25-8-rn}
@@ -487,72 +487,72 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 
 Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
-&#x200B;* **Administration**
+* **Administration**
 
-   &#x200B;* **Warnhinweise zur Kanalkonfiguration** – Sie können nun Systemwarnungen per E-Mail oder im Journey Optimizer- Benachrichtigungszentrum abonnieren, falls <!--a channel configuration failure happens or if -->ein DNS-Eintrag fehlt. [Weitere Informationen](../reports/alerts.md#alert-dns-record-missing)
+   * **Warnhinweise zur Kanalkonfiguration** – Sie können nun Systemwarnungen per E-Mail oder im Journey Optimizer- Benachrichtigungszentrum abonnieren, falls <!--a channel configuration failure happens or if -->ein DNS-Eintrag fehlt. [Weitere Informationen](../reports/alerts.md#alert-dns-record-missing)
 
-&#x200B;* **KI-Assistent**
+* **KI-Assistent**
 
-   &#x200B;* **Inhaltserstellung in mehreren Sprachen** – Inhalte können jetzt auf Französisch, Spanisch, Deutsch, Italienisch, Japanisch, Schwedisch, Niederländisch und Norwegisch generiert werden. [Weitere Informationen](../content-management/generative-uc.md#languages)
+   * **Inhaltserstellung in mehreren Sprachen** – Inhalte können jetzt auf Französisch, Spanisch, Deutsch, Italienisch, Japanisch, Schwedisch, Niederländisch und Norwegisch generiert werden. [Weitere Informationen](../content-management/generative-uc.md#languages)
 
      Verfügbarkeitsdatum: 25. August
 
 
-&#x200B;* **Kampagnen**
+* **Kampagnen**
 
-   &#x200B;* **Ratensteuerung in ausgehenden Kampagnen** – Sie können jetzt die Ratensteuerung für ausgehende Kampagnen (E-Mail, SMS, Push-Benachrichtigungen) aktivieren, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundendienstplattformen zu verhindern. [Weitere Informationen](../campaigns/campaign-schedule.md#rate-control)
+   * **Ratensteuerung in ausgehenden Kampagnen** – Sie können jetzt die Ratensteuerung für ausgehende Kampagnen (E-Mail, SMS, Push-Benachrichtigungen) aktivieren, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundendienstplattformen zu verhindern. [Weitere Informationen](../campaigns/campaign-schedule.md#rate-control)
 
-   &#x200B;* **Kampagnenplanung für Aktionen**: Die täglichen, wöchentlichen und monatlichen Kampagnenplaner wurden aktualisiert, um eine detailliertere Kontrolle über wiederkehrende Zeitpläne zu ermöglichen:
+   * **Kampagnenplanung für Aktionen**: Die täglichen, wöchentlichen und monatlichen Kampagnenplaner wurden aktualisiert, um eine detailliertere Kontrolle über wiederkehrende Zeitpläne zu ermöglichen:
 
-      &#x200B;* **Wöchentliches Intervall**: Sie können die Kampagne jetzt wöchentlich oder alle zwei Wochen wiederholen und die Wochentage auswählen, an denen sie ausgeführt werden soll.
+      * **Wöchentliches Intervall**: Sie können die Kampagne jetzt wöchentlich oder alle zwei Wochen wiederholen und die Wochentage auswählen, an denen sie ausgeführt werden soll.
 
-      &#x200B;* **Monatliches Intervall**: Sie können die Kampagne jetzt jeden Monat oder jeden zweiten Monat wiederholen und den Tag des Monats auswählen, an dem sie ausgeführt werden soll.
+      * **Monatliches Intervall**: Sie können die Kampagne jetzt jeden Monat oder jeden zweiten Monat wiederholen und den Tag des Monats auswählen, an dem sie ausgeführt werden soll.
 
-      &#x200B;* **Tägliche, wöchentliche oder monatliche Zeitpläne**: Sie können angeben, ob der wiederkehrende Zeitplan an einem bestimmten Datum oder nach einer bestimmten Anzahl von Wiederholungen beendet werden soll.
+      * **Tägliche, wöchentliche oder monatliche Zeitpläne**: Sie können angeben, ob der wiederkehrende Zeitplan an einem bestimmten Datum oder nach einer bestimmten Anzahl von Wiederholungen beendet werden soll.
 
-   &#x200B;* **Geplante Transaktionsaktionskampagnen** :Geplante Transaktionsaktionskampagnen sind jetzt zum Senden von zielgruppenbasierten Batch-Transaktionsnachrichten über E-Mail-, SMS- und Push-Kanäle verfügbar.
+   * **Geplante Transaktionsaktionskampagnen** :Geplante Transaktionsaktionskampagnen sind jetzt zum Senden von zielgruppenbasierten Batch-Transaktionsnachrichten über E-Mail-, SMS- und Push-Kanäle verfügbar.
 
-&#x200B;* **Kanal – Inhaltskarten**
+* **Kanal – Inhaltskarten**
 
-   &#x200B;* **Layout-Vorlagen für Inhaltskarten** – Der Kanal für Inhaltskarten bietet jetzt vordefinierte Nachrichten-Layouts, die Ihr Authoring-Erlebnis optimieren. Diese Version umfasst die Layout-Vorlagen „Kleines Bild“, „Großes Bild“ und „Nur Bild“. [Weitere Informationen](../content-card/design-content-card.md)
+   * **Layout-Vorlagen für Inhaltskarten** – Der Kanal für Inhaltskarten bietet jetzt vordefinierte Nachrichten-Layouts, die Ihr Authoring-Erlebnis optimieren. Diese Version umfasst die Layout-Vorlagen „Kleines Bild“, „Großes Bild“ und „Nur Bild“. [Weitere Informationen](../content-card/design-content-card.md)
 
-&#x200B;* **Kanal – Push**
+* **Kanal – Push**
 
-   &#x200B;* **Ablaufdatum für Push-Benachrichtigungen**: Sie können nun für jede Push-Benachrichtigung ein Ablaufdatum angeben, wodurch verhindert wird, dass zeitkritische Nachrichten (z. B. zum Black Friday Sale) nach einem bestimmten Datum gesendet werden, und somit eine schlechte Kundenerfahrung vermieden wird.
+   * **Ablaufdatum für Push-Benachrichtigungen**: Sie können nun für jede Push-Benachrichtigung ein Ablaufdatum angeben, wodurch verhindert wird, dass zeitkritische Nachrichten (z. B. zum Black Friday Sale) nach einem bestimmten Datum gesendet werden, und somit eine schlechte Kundenerfahrung vermieden wird.
 
-&#x200B;* **Kanal – SMS**
+* **Kanal – SMS**
 
-   &#x200B;* **Unpräzises Opt-out**: Wenn diese Option aktiviert ist, erkennt das **unpräzise Opt-out** eingehende Nachrichten, die definierten Opt-out-Schlüsselwörtern sehr ähnlich sind (z. B. „CANCIL“), und sendet automatisch eine Bestätigungsantwort, um die Abmeldeabsicht der Benutzenden zu überprüfen. Wenn die Benutzenden über den definierter Prompt bestätigen, wird das Abonnement gekündigt. [Weitere Informationen](../sms/sms-configuration-sinch.md)
+   * **Unpräzises Opt-out**: Wenn diese Option aktiviert ist, erkennt das **unpräzise Opt-out** eingehende Nachrichten, die definierten Opt-out-Schlüsselwörtern sehr ähnlich sind (z. B. „CANCIL“), und sendet automatisch eine Bestätigungsantwort, um die Abmeldeabsicht der Benutzenden zu überprüfen. Wenn die Benutzenden über den definierter Prompt bestätigen, wird das Abonnement gekündigt. [Weitere Informationen](../sms/sms-configuration-sinch.md)
 
      >[!NOTE]
      >
      >Beachten Sie, dass **Unpräzises Opt-out** nur mit Sinch und Infobip verfügbar ist.
 
-   &#x200B;* **SMS-Verbindung überprüfen** – Sie können nun Ihre SMS-API-Anmeldedaten ganz einfach in Adobe Journey Optimizer testen und überprüfen, indem Sie eine Beispielnachricht an ein bestimmtes Gerät senden. [Weitere Informationen](../sms/sms-configuration-sinch.md)
+   * **SMS-Verbindung überprüfen** – Sie können nun Ihre SMS-API-Anmeldedaten ganz einfach in Adobe Journey Optimizer testen und überprüfen, indem Sie eine Beispielnachricht an ein bestimmtes Gerät senden. [Weitere Informationen](../sms/sms-configuration-sinch.md)
 
-&#x200B;* **Konfiguration**
+* **Konfiguration**
 
-   &#x200B;* **Unterstützung benutzerdefinierter Attribute mit einer URL zum Abmelden mit einem Klick**: Bei Journey Optimizer können Sie einen externen, benutzerdefinierten Endpunkt festlegen, indem Sie einen individuellen Link zum Abmelden mit einem Klick in der E-Mail-Konfiguration definieren, wenn das Einverständnis außerhalb von Adobe verwaltet wird. Wenn Ihre Empfängerinnen oder Empfänger auf den Link zum Abmelden klicken, fügt Journey Optimizer standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
+   * **Unterstützung benutzerdefinierter Attribute mit einer URL zum Abmelden mit einem Klick**: Bei Journey Optimizer können Sie einen externen, benutzerdefinierten Endpunkt festlegen, indem Sie einen individuellen Link zum Abmelden mit einem Klick in der E-Mail-Konfiguration definieren, wenn das Einverständnis außerhalb von Adobe verwaltet wird. Wenn Ihre Empfängerinnen oder Empfänger auf den Link zum Abmelden klicken, fügt Journey Optimizer standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
 
      Um einen Link zum Abmelden mit einem Klick weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden. [Weitere Informationen](../email/list-unsubscribe.md#custom-attributes)
 
-&#x200B;* **Datensätze**
+* **Datensätze**
 
-   &#x200B;* **Repository der Erlebnis-Entscheidungs-Objekte – personalisierte Angebotselemente**: Der integrierte Exportdatensatz erfasst jetzt alle Angebotsattribute und den Lebenszyklusstatus und ermöglicht so eine vollständige Personalisierung und ein vollständiges Reporting. [Weitere Informationen](../data/export-datasets.md)
+   * **Repository der Erlebnis-Entscheidungs-Objekte – personalisierte Angebotselemente**: Der integrierte Exportdatensatz erfasst jetzt alle Angebotsattribute und den Lebenszyklusstatus und ermöglicht so eine vollständige Personalisierung und ein vollständiges Reporting. [Weitere Informationen](../data/export-datasets.md)
 
-   &#x200B;* Die Versionsüberprüfung über das Feld `etag` wurde eingeführt, um die Konsistenz zu verbessern und Änderungen zu verfolgen, sodass Elemente zuverlässiger angeboten werden können.
+   * Die Versionsüberprüfung über das Feld `etag` wurde eingeführt, um die Konsistenz zu verbessern und Änderungen zu verfolgen, sodass Elemente zuverlässiger angeboten werden können.
 
-&#x200B;* **Entscheidungsfindung**
+* **Entscheidungsfindung**
 
-   &#x200B;* **Anhängen von Fragmenten an Entscheidungselemente** – Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können. Diese Funktion ist für eine Reihe von Kunden in begrenzter Verfügbarkeit verfügbar. [Weitere Informationen](../experience-decisioning/create-decision.md#fragments)
+   * **Anhängen von Fragmenten an Entscheidungselemente** – Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können. Diese Funktion ist für eine Reihe von Kunden in begrenzter Verfügbarkeit verfügbar. [Weitere Informationen](../experience-decisioning/create-decision.md#fragments)
 
-&#x200B;* **Journeys**
+* **Journeys**
 
-   &#x200B;* **Journey-Massenvorgänge**: Sie können nun mehrere Elemente aus der Liste Ihrer Journeys auswählen. Nach der Auswahl können Sie bis zu 10 Journeys gleichzeitig anhalten oder fortsetzen.
+   * **Journey-Massenvorgänge**: Sie können nun mehrere Elemente aus der Liste Ihrer Journeys auswählen. Nach der Auswahl können Sie bis zu 10 Journeys gleichzeitig anhalten oder fortsetzen.
 
-   &#x200B;* **Unterstützung von Umleitungen (302) in benutzerdefinierten Aktionen**: Benutzerdefinierte Aktionen können jetzt HTTP-302-Umleitungen jeweils pro Anfrage verarbeiten. Dadurch können Journeys mit APIs integriert werden, die Anfragen an lokalisierte oder regionsspezifische URLs umleiten. Umleitungen werden automatisch befolgt, damit sichergestellt ist, dass der richtige Inhalt ohne zusätzliche Konfiguration bereitgestellt wird.
+   * **Unterstützung von Umleitungen (302) in benutzerdefinierten Aktionen**: Benutzerdefinierte Aktionen können jetzt HTTP-302-Umleitungen jeweils pro Anfrage verarbeiten. Dadurch können Journeys mit APIs integriert werden, die Anfragen an lokalisierte oder regionsspezifische URLs umleiten. Umleitungen werden automatisch befolgt, damit sichergestellt ist, dass der richtige Inhalt ohne zusätzliche Konfiguration bereitgestellt wird.
 
-   &#x200B;* **Mehrere eingehende Aktionen in Journeys** – Um die Orchestrierung Ihrer Journeys zu vereinfachen, können Sie jetzt mehrere eingehende Aktionen in einer einzigen Journey definieren. Diese Funktion, die zuvor in Kampagnen verfügbar war, ermöglicht es Ihnen, mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitzustellen, wobei jede Aktion einen bestimmten Inhalt enthält. [Weitere Informationen](../building-journeys/journey-action.md#multi-action)
+   * **Mehrere eingehende Aktionen in Journeys** – Um die Orchestrierung Ihrer Journeys zu vereinfachen, können Sie jetzt mehrere eingehende Aktionen in einer einzigen Journey definieren. Diese Funktion, die zuvor in Kampagnen verfügbar war, ermöglicht es Ihnen, mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen gleichzeitig an verschiedenen Orten bereitzustellen, wobei jede Aktion einen bestimmten Inhalt enthält. [Weitere Informationen](../building-journeys/journey-action.md#multi-action)
 
 ## Kampagnenorchestrierung
 
@@ -570,19 +570,19 @@ Dazu gehören [relationale Schemata und Datensätze](#oc-relational) und eine [K
 
 ### Wichtige Funktionen {#oc-capabilities}
 
-&#x200B;* **Mehrstufige Workflows**
+* **Mehrstufige Workflows**
 
   Fördern Sie anspruchsvolle Multi-Channel-Batch-Kampagnen mit der neuen, speziell entwickelten Arbeitsfläche für die Kampagnenorchestrierung.
 
-&#x200B;* **On-Demand-Zielgruppen**
+* **On-Demand-Zielgruppen**
 
   Segmentieren Sie Zielgruppen nach Bedarf, um sie sofort zu aktivieren.
 
-&#x200B;* **Segmentierung mehrerer Entitäten**
+* **Segmentierung mehrerer Entitäten**
 
   Erstellen Sie Zielgruppen auf Grundlage von Geschäftskontexten (Nicht-Personen-Dimensionen) wie Produkten, Ladengeschäften, Erneuerungen, Reservierungen und mehr.
 
-&#x200B;* **Sichtbarkeit vor dem Senden**
+* **Sichtbarkeit vor dem Senden**
 
   Überprüfen, verfeinern und optimieren Sie Zielgruppen und Kampagnen vor dem Start sowie während er Ausführung von Kampagnen.
 
@@ -590,23 +590,23 @@ Dazu gehören [relationale Schemata und Datensätze](#oc-relational) und eine [K
 
 Eine brandneue visuelle Orchestrierungsoberfläche, die speziell für Batch-Kampagnen entwickelt wurde. Diese Arbeitsfläche ermöglicht Folgendes:
 
-&#x200B;* Visuelle Planung von mehrstufigen Multi-Channel-Kampagnenflüssen
+* Visuelle Planung von mehrstufigen Multi-Channel-Kampagnenflüssen
 
-&#x200B;* Unterstützung für aus relationalen Abfragen erstellte On-Demand-Zielgruppen
+* Unterstützung für aus relationalen Abfragen erstellte On-Demand-Zielgruppen
 
-&#x200B;* Erweiterte Zielgruppenaufspaltung, Wartezeiten und bedingte Logik
+* Erweiterte Zielgruppenaufspaltung, Wartezeiten und bedingte Logik
 
-&#x200B;* Präzise Zählung vor dem Senden nach Anwendung von Geschäftsregeln und Filtern
+* Präzise Zählung vor dem Senden nach Anwendung von Geschäftsregeln und Filtern
 
 ### Relationale Schemata und Datensätze {#oc-relational}
 
 Adobe Journey Optimizer unterstützt jetzt relationale Entitäten (z. B. Produkte, Ladengeschäfte, Buchungen, Verträge), die mit personenbasierten Profilen verknüpft sind. Dies ermöglicht die Segmentierung und Personalisierung über mehrdimensionale Datenstrukturen hinweg und ermöglicht Anwendungsfälle wie:
 
-&#x200B;* Eine Nachricht pro Buchung, Abonnement oder Vertrag
+* Eine Nachricht pro Buchung, Abonnement oder Vertrag
 
-&#x200B;* Segmentierung basierend auf zugehörigen Entitätsattributen (z. B. Produktkategorie oder Geschäftsstandort)
+* Segmentierung basierend auf zugehörigen Entitätsattributen (z. B. Produktkategorie oder Geschäftsstandort)
 
-&#x200B;* Verbesserte Adressierbarkeit (z. B. Senden an alle bekannten, mit einer Entität verknüpften Kontakte)
+* Verbesserte Adressierbarkeit (z. B. Senden an alle bekannten, mit einer Entität verknüpften Kontakte)
 
 ### Warum dies wichtig ist
 
