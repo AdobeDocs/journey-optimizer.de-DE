@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5f601a79244a9f10bb9762656449729184b887ec
+source-git-commit: 69328c4ba2be1b842074ea88e6230f227c91e166
 workflow-type: tm+mt
-source-wordcount: '2975'
-ht-degree: 69%
+source-wordcount: '3045'
+ht-degree: 68%
 
 ---
 
@@ -270,9 +270,9 @@ Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Mög
 * **Umleitungsunterstützung beim Journey benutzerdefinierter Aktionen**\
   Weiterleitungen (302) werden jetzt beim Journey benutzerdefinierter Aktionen unterstützt.
 
-<!--* **High throughput mode for API triggered email campaigns**  
-  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
-  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.-->
+* **Hoher Durchsatzmodus für API-ausgelöste E-Mail-Kampagnen**\
+  In API-ausgelösten Kampagnen ist jetzt ein neuer Modus mit hohem Durchsatz verfügbar. Dieser Modus wurde für umfangreiches Echtzeit-Messaging (bis zu 5.000 Transaktionen pro Sekunde) entwickelt und bietet eine höhere Verfügbarkeit mit geringerer Latenz.\
+  Diese Funktion ist nur für den E-Mail-Kanal für Unternehmen verfügbar, die das Add-on Adobe Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie vom Adobe-Support.
 
 * **Stündliches Zurücksetzen der Begrenzungsfrequenz** – Sie können jetzt eine Begrenzung auf stündlicher Basis für Kanalregelsätze anwenden. Zuvor in eingeschränkter Verfügbarkeit verfügbar, ist diese Funktion jetzt für alle Umgebungen verfügbar und ermöglicht Ihnen die Auswahl von 1 Stunde (zuvor 3 Stunden). [Weitere Informationen](../conflict-prioritization/channel-capping.md). Verfügbarkeitsdatum: 17. September
 
