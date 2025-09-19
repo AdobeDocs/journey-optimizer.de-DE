@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9155a16a0557a32c1d59b66b03fc84c5bc7b8463
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '2950'
+source-wordcount: '2948'
 ht-degree: 98%
 
 ---
@@ -80,12 +80,12 @@ ht-degree: 98%
       + [Reaktion](using/building-journeys/reaction-events.md)
       + [Zielgruppen-Qualifizierung](using/building-journeys/audience-qualification-events.md)
       + [Optimieren](using/building-journeys/optimize.md)
-      + [Bedingungen](using/building-journeys/conditions.md)
-      + [Aktivität des Typs „Bedingung“](using/building-journeys/condition-activity.md)
       + [Zielgruppe lesen](using/building-journeys/read-audience.md)
       + [Warten](using/building-journeys/wait-activity.md)
+      + [Bedingungen](using/building-journeys/conditions.md)
+      + [Bedingung](using/building-journeys/condition-activity.md)
       + [Inhaltsentscheidung](using/building-journeys/content-decision.md)
-      + [Aktivität „Aktion“](using/building-journeys/journey-action.md)
+      + [Aktion](using/building-journeys/journey-action.md)
       + [Integrierte Kanalaktionen](using/building-journeys/journeys-message.md)
       + [Benutzerdefinierte Aktionen](using/building-journeys/using-custom-actions.md)
       + [Aktionen in Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
