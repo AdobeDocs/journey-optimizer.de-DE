@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 09b56bacb61f64e5292a6c1b9b7706b9fa390d0c
+source-git-commit: 4765ec89dfee24227d13c5cb04595f63409186cb
 workflow-type: tm+mt
-source-wordcount: '2226'
-ht-degree: 87%
+source-wordcount: '3148'
+ht-degree: 65%
 
 ---
 
@@ -22,9 +22,133 @@ ht-degree: 87%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Updates vom 25. September {#sep-updates}
 
-### Neue Funktionen {#Sep-25-features}
+## Hinweise zur Vorabversion vom September 2025 {#25-9-rn}
+
+**Die nachfolgenden Vorab- Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentationen werden in den Versionshinweisen am Veröffentlichungsdatum veröffentlicht.
+
+Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**Veröffentlichungsdatum**: 23.-24. September 2025
+
+### Neue Funktionen {#sept-25-9-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Öffentliche API zum Abrufen von Journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eine neue Journey Optimizer-API ist jetzt verfügbar, um Journey und ihre zugehörigen Objekte wie Kampagnen und Oberflächen abzurufen.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>New Web Push notifications channel</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
+<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Überwachung und Reporting benutzerdefinierter Aktionen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Überwachung und Reporting benutzerdefinierter Aktionen sind jetzt verfügbar. Diese Funktion bietet einen besseren Einblick in den Zustand und die Ausführung von Journey, einschließlich Lebenszyklusstatus- und Leistungswarnungen. Sie können jetzt schnell verstehen, wann, wo und warum eine anomale Situation in einer benutzerdefinierten Aktion auftritt.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Neue Quell-Connectoren für Treue-Apps</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In Adobe Experience Platform sind jetzt neue Quell-Connectoren für die Treueprogramme von Talon.One, Capillary und Kobie verfügbar. Mit diesen Connectoren können Sie Treueprogramm-Daten nahtlos in Adobe Experience Platform streamen und diese Daten in Journey Optimizer nutzen.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent ist da!</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Der KI-Assistent beinhaltet jetzt grundlegende Journey Agent-Kenntnisse für Journey Optimizer, sodass Anwender Journey über eine natürliche Sprachschnittstelle analysieren können. Mit diesen neuen Kenntnissen können Benutzende Journey analysieren und erstellen (in Kürze verfügbar), um potenzielle Zeitplan- oder Zielgruppenkonflikte zu erkennen und zu lösen.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer Experimentation Accelerator</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer Experimentation Accelerator ist ein KI-First-Produkt, das Ihre Experimente auf ein höheres Niveau bringt. Sie wurde für Adobe Journey Optimizer- und Adobe Target-Anwender entwickelt und vereinheitlicht das Experimentmanagement, liefert KI-gestützte Einblicke und Chancen und führt einen neuen Experimentationsagenten ein.</p>
+<p>Freuen Sie sich auf:</p>
+<ul>
+<li><strong>Einheitliches Experimentinventar:</strong> Schnelles Anzeigen, Filtern und Verwalten aller Experimente aus Adobe Journey Optimizer und Adobe Target in einem zentralen Arbeitsbereich.</li>
+<li><strong>Einblicke und Chancen durch KI-Experimente:</strong> Mit GenAI-gestützten Einblicken und Empfehlungen über statistische Auslesewerte hinaus. Jedes Experiment bietet jetzt umsetzbare Möglichkeiten, einschließlich unterstützender Begründungen, sodass Teams sicherer entscheiden können, was als Nächstes getestet werden soll.</li>
+<li><strong>Unterstützung für Multi-Armed Bandit (MAB) in Journey Optimizer:</strong> Maximieren Sie die Wirkung und reduzieren Sie den verschwendeten Traffic durch Multi-Armed Bandit-Experimente. Anstatt Zielgruppen gleichmäßig zu verteilen, ordnet MAB automatisch mehr Besucher in Echtzeit den leistungsstärksten Varianten zu, sodass Sie mehr Kunden bessere Erlebnisse bieten können, während Sie gleichzeitig lernen, was funktioniert.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Benutzerdefinierte Formulare für Landingpages</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit [!DNL Journey Optimizer] können Sie jetzt Profilattribute über Ihre Landingpages erfassen.</p>
+<p>Erstellen, entwerfen und verwalten Sie benutzerdefinierte Formulare, die auf Ihre Anforderungen zugeschnitten sind und auf einem bestimmten Datensatz basieren. Sie können diese Formulare dann in Landingpages nutzen, um die Profilattribute Ihrer Wahl zu dem für jedes Formular definierten Datensatz hinzuzufügen.</p>
+<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
+<!--p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -90,7 +214,7 @@ ht-degree: 87%
 <table>
 <thead>
 <tr>
-<th><strong>Verwenden von Adobe Experience Platform-Daten für Personalisierung und Entscheidungsfindung - Eingeschränkte Verfügbarkeit</strong><br/></th>
+<th><strong>Verwenden von Adobe Experience Platform-Daten für Personalisierung und Entscheidungsfindung</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -110,23 +234,67 @@ ht-degree: 87%
 </tbody>
 </table>
 
-### Verbesserungen {#Sep-25-improv}
+### Verbesserungen
 
-* **Stündliches Zurücksetzen der Begrenzungsfrequenz** – Sie können jetzt eine Begrenzung auf stündlicher Basis für Kanalregelsätze anwenden. Zuvor in eingeschränkter Verfügbarkeit verfügbar, ist diese Funktion jetzt für alle Umgebungen verfügbar und ermöglicht Ihnen die Auswahl von 1 Stunde (zuvor 3 Stunden). [Weitere Informationen](../conflict-prioritization/channel-capping.md). Verfügbarkeitsdatum: 17. September
+- **Berechtigungen für Genehmigungsrichtlinien**
+Beim Erstellen oder Festlegen einer Validierungsrichtlinie wurde eine Option hinzugefügt, um zu verhindern, dass Journey-/Kampagnenerstellende ihre eigenen Objekte validieren.
 
-* **Unterstützung dynamischer Domains** - Journey Optimizer unterstützt jetzt die vollständige/Basis-URL-Personalisierung für vordefinierte Domains, die von Adobe akzeptiert werden. [Weitere Informationen](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
+- **Neue Journey-Warnhinweise**\
+  Neue vorkonfigurierte Warnhinweise sind für Journey verfügbar:
+   - Profil-Verwerfungsrate überschritten: Verhältnis der Verwerfen-Aktionen von Profilen zu den eingegebenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten.
+   - Fehlerrate für benutzerdefinierte Aktion überschritten: Verhältnis der Fehler benutzerdefinierter Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten überschritten. Schwellenwert
+   - Profilfehlerrate überschritten: Verhältnis der fehlerhaften Profile zu den eingegebenen Profilen in den letzten 5 Minuten haben den Schwellenwert überschritten.
+
+- **Verschachtelte JSON-Textparameter werden jetzt in der benutzerdefinierten Authentifizierung unterstützt**\
+  Beim Konfigurieren der benutzerdefinierten Authentifizierung für eine benutzerdefinierte Aktion werden jetzt verschachtelte JSON-Objekte (z. B. Unterobjekte innerhalb von `bodyParams`) unterstützt.
+
+- **Anhängen von Fragmenten an Entscheidungselemente**\
+  Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können.
+
+- **Unterstützung benutzerdefinierter Attribute mit 1-Klick-Abmelde-URL**\
+  Wenn Sie mit Journey Optimizer das Einverständnis außerhalb von Adobe verwalten, können Sie einen externen benutzerdefinierten Endpunkt festlegen, indem Sie Ihren eigenen Link zur Abmeldung mit einem Klick in der E-Mail-Konfiguration definieren. Wenn Ihre Empfängerinnen oder Empfänger auf den Link zum Abmelden klicken, fügt Journey Optimizer standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
+
+  Um die Abmelde-E-Mail-Adresse weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden. Diese Funktion ist bereits seit der Version vom 25. August für den benutzerdefinierten Ein-Klick-Abmelde-Link verfügbar.
+
+- ***mTLS-Unterstützung für SMS-Kanal**
+Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Möglichkeit, die gegenseitige TLS-Authentifizierung (MTLS) zu aktivieren. Dazu müssen sowohl der Client als auch der Server die Identitäten der anderen Seite bestätigen, bevor eine sichere Verbindung hergestellt wird.
+
+- **Modellbasierte Schemata**\
+  Für ein klareres und intuitiveres Erlebnis werden relationale Schemata in orchestrierten Kampagnen jetzt als modellbasierte Schemata bezeichnet.
+
+- **Unterstützung der Datensatzsuche in Journey**\
+  Eine neue Aktivität in Journey, **Datensatzsuche**, ermöglicht während der Laufzeit das dynamische Abrufen von Daten aus Adobe Experience Platform-Datensatzdatensätzen. Durch die Nutzung dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden, um sicherzustellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitnah sind.
+
+- **Simulieren von Inhaltsvarianten für alle eingehenden Kanäle**\
+  Zuvor nur für die Kanäle E-Mail, SMS und Push-Benachrichtigungen verfügbar, gilt die Simulation von Inhaltsvarianten jetzt auch für alle eingehenden Kanäle.
+
+- **Webhook-Unterstützung für API-ausgelöste Kampagnen**\
+  API-ausgelöste Kampagnen unterstützen jetzt Webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen für jede Nachricht in Echtzeit zu erhalten, was die Beobachtbarkeit verbessert und eine nahtlose Überwachung und Automatisierung ermöglicht.
+
+- **Umleitungsunterstützung beim Journey benutzerdefinierter Aktionen**\
+  Weiterleitungen (302) werden jetzt beim Journey benutzerdefinierter Aktionen unterstützt.
+
+- **Hoher Durchsatzmodus für API-ausgelöste E-Mail-Kampagnen**\
+  In API-ausgelösten Kampagnen ist jetzt ein neuer Modus mit hohem Durchsatz verfügbar. Dieser Modus wurde für umfangreiches Echtzeit-Messaging (bis zu 5.000 Transaktionen pro Sekunde) entwickelt und bietet eine höhere Verfügbarkeit mit geringerer Latenz.\
+  Diese Funktion ist nur für den E-Mail-Kanal für Unternehmen verfügbar, die das Add-on Adobe Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie vom Adobe-Support.
+
+
+- **Stündliches Zurücksetzen der Begrenzungsfrequenz** – Sie können jetzt eine Begrenzung auf stündlicher Basis für Kanalregelsätze anwenden. Zuvor in eingeschränkter Verfügbarkeit verfügbar, ist diese Funktion jetzt für alle Umgebungen verfügbar und ermöglicht Ihnen die Auswahl von 1 Stunde (zuvor 3 Stunden). [Weitere Informationen](../conflict-prioritization/channel-capping.md). Verfügbarkeitsdatum: 17. September
+
+- **Unterstützung dynamischer Domains** - Journey Optimizer unterstützt jetzt die vollständige/Basis-URL-Personalisierung für vordefinierte Domains, die von Adobe akzeptiert werden. [Weitere Informationen](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
 
   >[!NOTE]
   >
   >Diese Funktion ist für eine Reihe von Kunden in begrenzter Verfügbarkeit verfügbar.
 
-* **Ausdruck für Entscheidungs-Begrenzungsregeln** - Sie können jetzt eigene Ausdrücke erstellen, um den Schwellenwert einer Begrenzungsregel für ein Entscheidungselement zu definieren. [Weitere Informationen](../experience-decisioning/items.md#capping)
+- **Ausdruck für Entscheidungs-Begrenzungsregeln** - Sie können jetzt eigene Ausdrücke erstellen, um den Schwellenwert einer Begrenzungsregel für ein Entscheidungselement zu definieren. [Weitere Informationen](../experience-decisioning/items.md#capping)
 
-  >[!NOTE]
-  >
-  >Diese Funktion ist derzeit nur in begrenztem Umfang für alle Benutzer verfügbar.
+>[!NOTE]
+>
+>Diese Funktion ist derzeit nur in begrenztem Umfang für alle Benutzer verfügbar.
 
-* **Warnhinweise zur Überwachung der Kanalkonfiguration** - Sie können jetzt Systemwarnungen abonnieren, entweder per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum, falls ein E-Mail-Kanalkonfigurationsfehler beim Verwenden der benutzerdefinierten Subdomain-Delegierung auftritt. [Weitere Informationen](../reports/alerts.md#alert-dns-record-missing)
+- **Warnhinweise zur Überwachung der Kanalkonfiguration** - Sie können jetzt Systemwarnungen abonnieren, entweder per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum, falls ein E-Mail-Kanalkonfigurationsfehler beim Verwenden der benutzerdefinierten Subdomain-Delegierung auftritt. [Weitere Informationen](../reports/alerts.md#alert-dns-record-missing)
+
 
 ## Versionshinweise für August 2025 {#25-8-rn}
 

@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8d732c417d23e47a16d58999e00a2019b9db34a8
+source-git-commit: 4765ec89dfee24227d13c5cb04595f63409186cb
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 30%
+source-wordcount: '39'
+ht-degree: 100%
 
 ---
 
@@ -18,57 +18,42 @@ ht-degree: 30%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden am Ende jedes Monats in den [Versionshinweisen](release-notes.md) zusammengefasst.
 
-## Hinweise zur Vorabversion vom September 2025 {#25-9-rn}
+<!--
+## September '25 pre-release notes {#25-9-rn}
 
-**Die nachfolgenden Vorab- Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentationen werden in den Versionshinweisen am Veröffentlichungsdatum veröffentlicht.
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Veröffentlichungsdatum**: 23.-24. September 2025
+**Release date**: September 23-24, 2025
 
-### Neue Funktionen {#sept-25-9-features}
+### New capabilities {#sept-25-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>Öffentliche API zum Abrufen von Journeys</strong><br/></th>
+<th><strong>Public API to retrieve journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Eine neue Journey Optimizer-API ist jetzt verfügbar, um Journey und ihre zugehörigen Objekte wie Kampagnen und Oberflächen abzurufen.</p>
+<p>A new Journey Optimizer API is now available to retrieve journeys and their associated objects such as campaigns and surfaces.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>New Web Push notifications channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
-<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
-<th><strong>Überwachung und Reporting benutzerdefinierter Aktionen</strong><br/></th>
+<th><strong>Custom action monitoring and reporting</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Überwachung und Reporting benutzerdefinierter Aktionen sind jetzt verfügbar. Diese Funktion bietet einen besseren Einblick in den Zustand und die Ausführung von Journey, einschließlich Lebenszyklusstatus- und Leistungswarnungen. Sie können jetzt schnell verstehen, wann, wo und warum eine anomale Situation in einer benutzerdefinierten Aktion auftritt.</p>
+<p>Custom action monitoring and reporting is now available. This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
 </td>
 </tr>
 </tbody>
@@ -78,13 +63,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Neue Quell-Connectoren für Treue-Apps</strong><br/></th>
+<th><strong>New source connectors for loyalty apps</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In Adobe Experience Platform sind jetzt neue Quell-Connectoren für die Treueprogramme von Talon.One, Capillary und Kobie verfügbar. Mit diesen Connectoren können Sie Treueprogramm-Daten nahtlos in Adobe Experience Platform streamen und diese Daten in Journey Optimizer nutzen.</p>
+<p>New source connectors are now available in Adobe Experience Platform for the Talon.One, Capillary, and Kobie loyalty apps. These connectors let you seamlessly stream loyalty data into Adobe Experience Platform and leverage these data in Journey Optimizer.</p>
 </td>
 </tr>
 </tbody>
@@ -93,13 +78,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent ist da!</strong><br/></th>
+<th><strong>Journey Agent is here!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der KI-Assistent beinhaltet jetzt grundlegende Journey Agent-Kenntnisse für Journey Optimizer, sodass Anwender Journey über eine natürliche Sprachschnittstelle analysieren können. Mit diesen neuen Kenntnissen können Benutzende Journey analysieren und erstellen (in Kürze verfügbar), um potenzielle Zeitplan- oder Zielgruppenkonflikte zu erkennen und zu lösen.</p>
+<p>AI Assistant now includes foundational Journey Agent skills for Journey Optimizer, enabling practitioners to analyze journeys through a natural language interface. With these new skills, users can analyze and create (coming soon) journeys to detect and resolve potential schedule or audience conflicts.</p>
 </td>
 </tr>
 </tbody>
@@ -114,12 +99,12 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator ist ein KI-First-Produkt, das Ihre Experimente auf ein höheres Niveau bringt. Sie wurde für Adobe Journey Optimizer- und Adobe Target-Anwender entwickelt und vereinheitlicht das Experimentmanagement, liefert KI-gestützte Einblicke und Chancen und führt einen neuen Experimentationsagenten ein.</p>
-<p>Freuen Sie sich auf:</p>
+<p>Journey Optimizer Experimentation Accelerator is an AI-first product designed to take your experimentation to the next level. Built for Adobe Journey Optimizer and Adobe Target users, it unifies experiment management, delivers AI-powered insights and opportunities, and introduces a new experimentation agent.</p>
+<p>You can look forward to:</p>
 <ul>
-<li><strong>Einheitliches Experimentinventar:</strong> Schnelles Anzeigen, Filtern und Verwalten aller Experimente aus Adobe Journey Optimizer und Adobe Target in einem zentralen Arbeitsbereich.</li>
-<li><strong>Einblicke und Chancen durch KI-Experimente:</strong> Mit GenAI-gestützten Einblicken und Empfehlungen über statistische Auslesewerte hinaus. Jedes Experiment bietet jetzt umsetzbare Möglichkeiten, einschließlich unterstützender Begründungen, sodass Teams sicherer entscheiden können, was als Nächstes getestet werden soll.</li>
-<li><strong>Unterstützung für Multi-Armed Bandit (MAB) in Journey Optimizer:</strong> Maximieren Sie die Wirkung und reduzieren Sie den verschwendeten Traffic durch Multi-Armed Bandit-Experimente. Anstatt Zielgruppen gleichmäßig zu verteilen, ordnet MAB automatisch mehr Besucher in Echtzeit den leistungsstärksten Varianten zu, sodass Sie mehr Kunden bessere Erlebnisse bieten können, während Sie gleichzeitig lernen, was funktioniert.</li>
+<li><strong>Unified Experiment Inventory:</strong> Quickly view, filter, and manage all experiments from Adobe Journey Optimizer and Adobe Target in one central workspace.</li>
+<li><strong>AI Experiment Insights & Opportunities:</strong> Go beyond statistical readouts with GenAI-driven insights and recommendations. Each experiment now surfaces actionable opportunities, complete with supporting rationale, so teams can more confidently decide what to test next.</li>
+<li><strong>Multi-Armed Bandit (MAB) Support in Journey Optimizer:</strong> Maximize impact while reducing wasted traffic with Multi-Armed Bandit experiments. Instead of splitting audiences evenly, MAB automatically allocates more visitors to the best-performing variations in real time so you can deliver better experiences to more customers while still learning what works.</li>
 </ul>
 </td>
 </tr>
@@ -129,17 +114,15 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Benutzerdefinierte Formulare für Landingpages</strong><br/></th>
+<th><strong>Landing page custom forms</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit [!DNL Journey Optimizer] können Sie jetzt Profilattribute über Ihre Landingpages erfassen.</p>
-<p>Erstellen, entwerfen und verwalten Sie benutzerdefinierte Formulare, die auf Ihre Anforderungen zugeschnitten sind und auf einem bestimmten Datensatz basieren. Sie können diese Formulare dann in Landingpages nutzen, um die Profilattribute Ihrer Wahl zu dem für jedes Formular definierten Datensatz hinzuzufügen.</p>
-<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
-<!--p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+<p>With [!DNL Journey Optimizer], you can now capture profile attributes though your landing pages.</p>
+<p>Create, design and manage custom forms tailored to your needs based on a specific dataset. You can then leverage these forms in landing pages to add the profile attributes of your choice into the dataset defined for each form.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
 </td>
 </tr>
 </tbody>
@@ -148,21 +131,21 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Dunkler Modus im E-Mail-Designer</strong><br/></th>
+<th><strong>Dark mode in the Email Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der E-Mail-Designer von Journey Optimizer bietet jetzt die Möglichkeit, in die Ansicht „Dunkler Modus“ zu wechseln, in der Sie zusätzlich bestimmte benutzerdefinierte Einstellungen definieren können, die nur Empfängerinnen und Empfängern angezeigt werden, die ihre E-Mails im dunklen Modus lesen.</p>
-<p>Beachten Sie dabei Folgendes:</p>
+<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
+<p>Note the following:</p>
 <ul>
-<li>Das endgültige Rendern des dunklen Modus weicht möglicherweise ab und hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab.</li>
-<li>Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus. Darüber hinaus wenden einige E-Mail-Clients ausschließlich ihren eigenen standardmäßigen dunklen Modus auf alle empfangenen E-Mails an. In beiden Fällen können die im E-Mail-Designer definierten benutzerdefinierten Einstellungen nicht gerendert werden.</li>
+<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
+<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
 </ul>
 <p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../email/dark-mode.md">ausführlichen Dokumentation</a>.</p>
- <p>Verfügbarkeitsdatum: 16. September 2025</p>
+<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a></p>
+ <p>Availability date: Sept 16, 2025</p>
 </td>
 </tr>
 </tbody>
@@ -171,18 +154,18 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Journey-Pfadoptimierung</strong><br/></th>
+<th><strong>Journey path optimization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Verwenden Sie den neuen Optimierungsknoten, um bestimmte Zielgruppen anzusprechen, oder führen Sie A/B-Tests durch, um den besten Pfad zum Erreichen Ihrer geschäftsbezogenen KPIs zu ermitteln.</p>
-<p>Mit diesem Tool können Sie Kommunikation, Sequenzierung und Timing testen und variieren sowie anpassen, um Ihre Kundschaft optimal zu erreichen.</p>
-<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
+<p>Use the new Optimize node to target specific audiences or run A/B tests to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to test and vary, and customize communications, sequencing, and timing to best reach your customers.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/optimize.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 4. September 2025</p>
+<p>For more information, refer to the <a href="../building-journeys/optimize.md">detailed documentation</a></p>
+<p>Availability date: Sept 4, 2025</p>
 </td>
 </tr>
 </tbody>
@@ -191,16 +174,16 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Benutzerdefinierte Methode zur Delegierung von Subdomains</strong><br/></th>
+<th><strong>Custom delegation method for subdomains</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Neben der vollständigen Delegierung und CNAME-Methode ist nun eine neue Methode zur Subdomain-Konfiguration verfügbar: die benutzerdefinierte Delegierung, mit der Sie alle Aspekte von DNS, die für den Versand, das Rendern und das Tracking von Nachrichten erforderlich sind, vollständig kontrollieren und verwalten können.</p>
-<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
-<p>Weitere Informationen finden Sie in der <a href="../configuration/delegate-custom-subdomain.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 4. September 2025</p>
+<p>In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking messages.</p>
+<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>For more information, refer to the <a href="../configuration/delegate-custom-subdomain.md">detailed documentation</a></p>
+<p>Availability date: Sept 4, 2025</p>
 </td>
 </tr>
 </tbody>
@@ -209,84 +192,70 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Verwenden von Adobe Experience Platform-Daten für Personalisierung und Entscheidungsfindung</strong><br/></th>
+<th><strong>Use Adobe Experience Platform data for personalization and decisioning</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Diese Funktion wurde bereits in der öffentlichen Beta-Version veröffentlicht und steht nun allen Umgebungen mit eingeschränkter Verfügbarkeit zur Verfügung. Mit dieser Version wurden die folgenden Verbesserungen eingeführt:</p>
-<ul><li>Unterstützung für die Personalisierung der Datensatzsuche in eingehenden Kanälen.</li>
-<li>Die Hilfsfunktion „datasetLookup“ kann jetzt in Ausdrucksfragmenten verwendet werden. Derzeit ist diese Funktion nur für eine begrenzte Anzahl von Kunden verfügbar. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</li>
-<li>Eine Option in der Oberfläche zur Datensatzverwaltung ermöglicht es Ihnen jetzt, auf Datensätzen basierende Datensätze für die Lookup-Personalisierung zu aktivieren, ohne einen API-Aufruf durchführen zu müssen.</li>
-<li>Verbesserte Überwachung, um den Datenaufnahmestatus zu verfolgen und zu wissen, wann Datensätze für die Suche bereit sind.</li>
-<li>Aktualisierte Nutzungsrichtlinien und Leitplanken, um eine optimale Leistung und Zuverlässigkeit sicherzustellen.</li>
-<li>Adobe Experience Platform-Datensätze können jetzt in Entscheidungsbegrenzungsregeln genutzt werden.</li></ul></p>
-<p>Weitere Informationen finden Sie in der <a href="../data/lookup-aep-data.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 1. September 2025</p>
+<p>Previously released in public beta, this capability is now available to all environments in Limited Availability. With this release, the following enhancements have been introduced:</p>
+<ul><li>Support for dataset lookup personalization in inbound channels.</li>
+<li>The "datasetLookup" helper function can now be used within expression fragments. For now, this capability is available for a limited set of customers. To gain access, contact your Adobe representative.</li>
+<li>An option in the dataset management interface now allows you to enable record-based datasets for lookup personalization, without having to perform an API call.</li>
+<li>Enhanced monitoring to track data ingestion status and know when datasets are ready for lookup.</li>
+<li>Updated usage guidelines and guardrails to ensure optimal performance and reliability.</li>
+<li>Adobe Experience Platform Datasets can now be leveraged in Decisioning capping rules.</li></ul></p>
+<p>For more information, refer to the <a href="../data/lookup-aep-data.md">detailed documentation</a></p>
+<p>Availability date: Sept 1, 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Verbesserungen
+### Improvements
 
-- **Berechtigungen für Genehmigungsrichtlinien**
-Beim Erstellen oder Festlegen einer Validierungsrichtlinie wurde eine Option hinzugefügt, um zu verhindern, dass Journey-/Kampagnenerstellende ihre eigenen Objekte validieren.
+- **Approval policy permissions**
+  Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects.
 
-- **Neue Journey-Warnhinweise**\
-  Neue vorkonfigurierte Warnhinweise sind für Journey verfügbar:
-   - Profil-Verwerfungsrate überschritten: Verhältnis der Verwerfen-Aktionen von Profilen zu den eingegebenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten.
-   - Fehlerrate für benutzerdefinierte Aktion überschritten: Verhältnis der Fehler benutzerdefinierter Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten überschritten. Schwellenwert
-   - Profilfehlerrate überschritten: Verhältnis der fehlerhaften Profile zu den eingegebenen Profilen in den letzten 5 Minuten haben den Schwellenwert überschritten.
+- **New Journey Alerts**  
+  New pre-configured alerts are available for journeys:  
+  - Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  - Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  - Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
-- **Verschachtelte JSON-Textparameter werden jetzt in der benutzerdefinierten Authentifizierung unterstützt**\
-  Beim Konfigurieren der benutzerdefinierten Authentifizierung für eine benutzerdefinierte Aktion werden jetzt verschachtelte JSON-Objekte (z. B. Unterobjekte innerhalb von `bodyParams`) unterstützt.
+- **Nested JSON body params now supported in custom authentication**  
+  When configuring custom authentication for a custom action, nested JSON objects (e.g., sub-objects within `bodyParams`) are now supported.
 
-- **Anhängen von Fragmenten an Entscheidungselemente**\
-  Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können.
+- **Attach fragments to decision items**  
+  Journey Optimizer now provides the ability to attach fragments to decision items which can be leveraged in code-based experience campaigns through decision policies.
 
-- **Unterstützung benutzerdefinierter Attribute mit 1-Klick-Abmelde-URL**\
-  Wenn Sie mit Journey Optimizer das Einverständnis außerhalb von Adobe verwalten, können Sie einen externen benutzerdefinierten Endpunkt festlegen, indem Sie Ihren eigenen Link zur Abmeldung mit einem Klick in der E-Mail-Konfiguration definieren. Wenn Ihre Empfängerinnen oder Empfänger auf den Link zum Abmelden klicken, fügt Journey Optimizer standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
+- **Custom attributes support with One-click unsubscribe URL**  
+  With Journey Optimizer, if you are managing consent outside of Adobe, you can set an external custom endpoint by defining your own one-click unsubscribe link in the email configuration. When your recipients click the unsubscribe link, Journey Optimizer appends some default profile-specific parameters to the consent update event. 
 
-  Um die Abmelde-E-Mail-Adresse weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden. Diese Funktion ist bereits seit der Version vom 25. August für den benutzerdefinierten Ein-Klick-Abmelde-Link verfügbar.
+  To further personalize the unsubscribe email address, you can now define custom attributes that will be appended to the consent event. This capability has already been available for the custom one-click unsubscribe link since the August 25 release.
 
-- ***mTLS-Unterstützung für SMS-Kanal**
-Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Möglichkeit, die gegenseitige TLS-Authentifizierung (MTLS) zu aktivieren. Dazu müssen sowohl der Client als auch der Server die Identitäten der anderen Seite bestätigen, bevor eine sichere Verbindung hergestellt wird.
+- ***mTLS Support for SMS Channel**
+  When setting up a custom SMS provider, you now have the option to enable mutual TLS (mTLS) authentication, which requires both the client and the server to confirm each other's identities before a secure connection is established.
 
-- **Modellbasierte Schemata**\
-  Für ein klareres und intuitiveres Erlebnis werden relationale Schemata in orchestrierten Kampagnen jetzt als modellbasierte Schemata bezeichnet.
+- **Model-based Schemas**  
+  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
 
-- **Unterstützung der Datensatzsuche in Journey**\
-  Eine neue Aktivität in Journey, **Datensatzsuche**, ermöglicht während der Laufzeit das dynamische Abrufen von Daten aus Adobe Experience Platform-Datensatzdatensätzen. Durch die Nutzung dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden, um sicherzustellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitnah sind.
+- **Dataset lookup support in journeys**  
+  A new activity in journeys, **Dataset lookup**, allows you to dynamically retrieve data from Adobe Experience Platform record datasets during runtime. By leveraging this capability, you can access data that may not reside in the profile or event payload, ensuring your customer interactions are both relevant and timely.
 
-- **Simulieren von Inhaltsvarianten für alle eingehenden Kanäle**\
-  Zuvor nur für die Kanäle E-Mail, SMS und Push-Benachrichtigungen verfügbar, gilt die Simulation von Inhaltsvarianten jetzt auch für alle eingehenden Kanäle.
+- **Simulating content variations for all inbound channels**  
+  Previously only available for the Email, SMS, and Push notification channels, simulating content variations now also applies to all inbound channels.
 
-- **Webhook-Unterstützung für API-ausgelöste Kampagnen**\
-  API-ausgelöste Kampagnen unterstützen jetzt Webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen für jede Nachricht in Echtzeit zu erhalten, was die Beobachtbarkeit verbessert und eine nahtlose Überwachung und Automatisierung ermöglicht.
+- **Webhook support for API triggered campaigns**  
+  API triggered campaigns now support webhooks. Configure a webhook URL to receive real-time status updates for every message, improving observability and enabling seamless monitoring and automation.
 
-- **Umleitungsunterstützung beim Journey benutzerdefinierter Aktionen**\
-  Weiterleitungen (302) werden jetzt beim Journey benutzerdefinierter Aktionen unterstützt.
+- **Redirect Support in Journey Custom Actions**  
+  Redirects (302) are now supported in Journey Custom Actions.
 
-- **Hoher Durchsatzmodus für API-ausgelöste E-Mail-Kampagnen**\
-  In API-ausgelösten Kampagnen ist jetzt ein neuer Modus mit hohem Durchsatz verfügbar. Dieser Modus wurde für umfangreiches Echtzeit-Messaging (bis zu 5.000 Transaktionen pro Sekunde) entwickelt und bietet eine höhere Verfügbarkeit mit geringerer Latenz.\
-  Diese Funktion ist nur für den E-Mail-Kanal für Unternehmen verfügbar, die das Add-on Adobe Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie vom Adobe-Support.
+- **High throughput mode for API triggered email campaigns**  
+  A new High throughput mode is now available in API triggered campaigns. This mode is designed for large-scale, real-time messaging (up to 5000 transactions per second) and provides higher availability with lower latency.  
+  This capability is only available for the email channel, for organizations that have purchased the Adobe High throughput transactional messaging add-on offering. Contact your Adobe representative for more details.
 
 
-- **Stündliches Zurücksetzen der Begrenzungsfrequenz** – Sie können jetzt eine Begrenzung auf stündlicher Basis für Kanalregelsätze anwenden. Zuvor in eingeschränkter Verfügbarkeit verfügbar, ist diese Funktion jetzt für alle Umgebungen verfügbar und ermöglicht Ihnen die Auswahl von 1 Stunde (zuvor 3 Stunden). [Weitere Informationen](../conflict-prioritization/channel-capping.md). Verfügbarkeitsdatum: 17. September
-
-- **Unterstützung dynamischer Domains** - Journey Optimizer unterstützt jetzt die vollständige/Basis-URL-Personalisierung für vordefinierte Domains, die von Adobe akzeptiert werden. [Weitere Informationen](../personalization/personalization-build-expressions.md#where) <!--Availability date: September 12-->
-
-  >[!NOTE]
-  >
-  >Diese Funktion ist für eine Reihe von Kunden in begrenzter Verfügbarkeit verfügbar.
-
-- **Ausdruck für Entscheidungs-Begrenzungsregeln** - Sie können jetzt eigene Ausdrücke erstellen, um den Schwellenwert einer Begrenzungsregel für ein Entscheidungselement zu definieren. [Weitere Informationen](../experience-decisioning/items.md#capping)
-
->[!NOTE]
->
->Diese Funktion ist derzeit nur in begrenztem Umfang für alle Benutzer verfügbar.
-
-- **Warnhinweise zur Überwachung der Kanalkonfiguration** - Sie können jetzt Systemwarnungen abonnieren, entweder per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum, falls ein E-Mail-Kanalkonfigurationsfehler beim Verwenden der benutzerdefinierten Subdomain-Delegierung auftritt. [Weitere Informationen](../reports/alerts.md#alert-dns-record-missing)
-
+- **Hourly reset capping frequency** - You can now apply capping on an hourly basis for channel rule sets. Previously available in Limited Availability, this capability is now available to all environments and allows you to choose 1 hour (previously 3 hours). [Read more](../conflict-prioritization/channel-capping.md). Availability date: September 17
+-->
