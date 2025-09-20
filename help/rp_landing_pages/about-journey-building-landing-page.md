@@ -50,7 +50,7 @@ Erkunden Sie, wie Sie auf Tracking-Daten wie Klicks oder Öffnungen von Nachrich
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Ereignisse zur Zielgruppenqualifizierung
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Aktionen und Bedingungen basierend auf dem Status der Ziel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Verwenden der Bedingungsaktivität
 
@@ -70,7 +70,7 @@ Definieren Sie mehrere Pfade in einer Journey basierend auf Kriterien wie Zeit, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
 
 Konfigurieren der Warteaktivität
 

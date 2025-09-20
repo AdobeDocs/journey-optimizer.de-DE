@@ -60,7 +60,7 @@ Analysieren und interpretieren Sie wichtige Metriken für Direkt-Mail-Kampagnen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=de)
 
 Reporting zu E-Mail-Journeys
 

@@ -50,7 +50,7 @@ Durch die Integration von Adobe Experience Manager as a Cloud Service mit Adobe 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Neueste Versionshinweise für Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Entdecken Sie die neuesten Funktionen, Verbesserungen und Aktualisierungen in Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Frühere Versionshinweise für Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Informieren Sie sich über die umfassenden Versionshinweise der Vorjahre mit det
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Neueste Aktualisierungen der Dokumentation zu Adobe Journey Optimizer
 

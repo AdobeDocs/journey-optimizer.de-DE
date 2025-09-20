@@ -40,7 +40,7 @@ Schritt-für-Schritt-Anleitung zum Einrichten benutzerdefinierter Aktionen, eins
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen
 

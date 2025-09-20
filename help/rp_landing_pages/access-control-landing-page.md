@@ -30,7 +30,7 @@ Lernen Sie die Konzepte und Prozesse zum Verwalten von Benutzerberechtigungen, R
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Verwalten von Benutzenden und Rollen
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Zuweisen, Bearbeiten und Erstellen von Rollen, um den
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Integrierte Rollen
 
@@ -50,7 +50,7 @@ Entdecken Sie die vordefinierten Rollen und die zugehörigen Berechtigungen, um 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Integrierte Berechtigungen
 
@@ -60,7 +60,7 @@ Machen Sie sich mit den verfügbaren Berechtigungen und deren Funktionen zur Kon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Berechtigungsstufen
 

@@ -20,7 +20,7 @@ Zielgruppen in Adobe Journey Optimizer helfen Ihnen, zum richtigen Zeitpunkt mit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Zielgruppen
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Zielgruppen aktivieren und in Kampagnen und Journeys effek
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Nutzen von Anreicherungsattributen
 

@@ -20,7 +20,7 @@ Die Verwaltung relationaler Schemata und Datensätze in Adobe Journey Optimizer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit relationalen Schemata und Datensätzen
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum manuellen Erstellen von Schemata, Hinzufügen von A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Erstellen relationaler Schemata mithilfe einer DDL-Datei
 
@@ -50,7 +50,7 @@ Definieren Sie Schemata durch Hochladen von DDL-Dateien, Verknüpfen von Tabelle
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Aufnehmen von Daten für Adobe Journey Optimizer-Kampagnen
 

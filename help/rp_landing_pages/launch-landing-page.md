@@ -20,7 +20,7 @@ Mit dem Start Ihrer ersten orchestrierten Kampagne in Adobe Journey Optimizer k√
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Schrittweise Anleitung zum Erstellen einer orchestrierten Kampagne
 

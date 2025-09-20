@@ -20,7 +20,7 @@ Direkt-Mail in Adobe Journey Optimizer ermöglicht es Ihnen, Kundinnen und Kunde
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einführung in Direkt-Mail-Kampagnen
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über Direkt-Mail-Kampagnen in Adobe Journey Optimizer, einsch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen einer Direkt-Mail-Kampagne
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Erstellen von Direkt-Mail-Kampagnen und zum Konfiguri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Überprüfen und Senden einer Direkt-Mail-Kampagne
 
@@ -50,7 +50,7 @@ Gehen Sie bei Vorschau, Validierung, Aktivierung und Verwaltung des Einverständ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren des Direkt-Mail-Kanals
 

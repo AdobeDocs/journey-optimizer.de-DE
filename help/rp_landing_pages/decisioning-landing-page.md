@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie die Bereitstellung personalisierter Inhalte mithilfe von E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Entscheidungs-Management in Adobe Journey Optimizer
 

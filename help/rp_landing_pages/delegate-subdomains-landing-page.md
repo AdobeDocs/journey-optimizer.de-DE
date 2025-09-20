@@ -20,7 +20,7 @@ Durch das Delegieren von E-Mail-Subdomains in Adobe Journey Optimizer können Ad
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit der Delegierung von Subdomains
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Vorteile, Konfigurationsmethoden und Überlegungen z
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Delegieren einer Subdomain
 
@@ -60,7 +60,7 @@ Hinzufügen eines Google TXT-Eintrags
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Zugreifen auf und Bearbeiten von PTR-Einträgen
 
@@ -70,7 +70,7 @@ Verwalten Sie PTR-Einträge für delegierte Subdomains, bearbeiten Sie diese und
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen von IP-Pools
 

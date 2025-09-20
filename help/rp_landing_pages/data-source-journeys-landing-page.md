@@ -20,7 +20,7 @@ Datenquellen in Adobe Journey Optimizer ermöglichen es Ihnen, eine Verbindung z
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Datenquellen
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie die integrierte Adobe Experience Platform-Datenquelle zum 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Konfigurieren externer Datenquellen
 

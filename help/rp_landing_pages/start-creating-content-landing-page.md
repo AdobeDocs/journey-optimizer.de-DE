@@ -60,7 +60,7 @@ Sparen Sie Zeit durch die Verwendung von Beispiel- oder benutzerdefinierten E-Ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Nutzen von E-Mail-Designs
 

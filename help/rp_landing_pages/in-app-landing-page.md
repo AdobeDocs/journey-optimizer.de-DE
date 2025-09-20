@@ -31,7 +31,7 @@ Schrittweise Anleitung zum Einrichten von Berechtigungen, Versandeinstellungen u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen von In-App-Nachrichten für Mobilgeräte
 

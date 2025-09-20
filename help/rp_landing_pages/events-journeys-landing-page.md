@@ -20,7 +20,7 @@ Bei der Ereigniskonfiguration in Adobe Journey Optimizer geht es um die Einricht
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Arbeiten mit Journey-Ereignissen
 

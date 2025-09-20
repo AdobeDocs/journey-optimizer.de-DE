@@ -20,7 +20,7 @@ In Adobe Journey Optimizer können Sie durch die Erstellung von Ranglisten prior
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen und Verwenden von Ranking-Methoden
 

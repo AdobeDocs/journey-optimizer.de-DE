@@ -20,7 +20,7 @@ Wiederverwendbare Inhaltsfragmente in Adobe Journey Optimizer helfen Ihnen, Zeit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einführung in die Verwendung von Fragmenten
 

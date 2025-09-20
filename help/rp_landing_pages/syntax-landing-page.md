@@ -20,7 +20,7 @@ Machen Sie sich mit den leistungsstarken Syntaxfunktionen des erweiterten Ausdru
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Syntax des erweiterten Ausdruckseditors
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die detaillierten Syntaxregeln für die Verwendung des e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Bedingte Anweisung (if, then, else)
 
@@ -40,7 +40,7 @@ Beherrschen Sie die Verwendung bedingter Anweisungen, um komplexe Ausdrücke zu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Grundlegendes zu Datentypen
 
@@ -50,7 +50,7 @@ Verschaffen Sie sich einen umfassenden Überblick über die in Ausdrücken verwe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden von Feldverweisen
 
@@ -60,7 +60,7 @@ Verstehen Sie, wie Felder in Ausdrücken referenziert werden, einschließlich er
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Funktionen zur Verwaltung von Sammlungen
 
@@ -70,7 +70,7 @@ Erkunden Sie Funktionen wie „all“, „first“, „last“ und „at“, um 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Operatoren in erweiterten Ausdrücken
 

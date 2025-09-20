@@ -40,7 +40,7 @@ Entdecken Sie, wie Sie den nicht-visuellen Editor für Web-Änderungen verwenden
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Verwalten von Web-Änderungen in Adobe Journey Optimizer
 

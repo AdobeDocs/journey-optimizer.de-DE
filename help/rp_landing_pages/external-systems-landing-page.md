@@ -30,7 +30,7 @@ Erfahren Sie mehr über Best Practices und technische Richtlinien für die Integ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Überblick über die Begrenzungs-API und deren Implementierungshandbuch
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie mithilfe der Begrenzungs-API Begrenzungseinstellungen für
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Drosselungs-API: Konfigurations- und Verwaltungshandbuch
 

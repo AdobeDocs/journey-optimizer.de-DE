@@ -20,7 +20,7 @@ Sandboxes in Adobe Journey Optimizer sind wie virtuelle Arbeitsbereiche, mit den
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Verwalten und Zuweisen von Sandboxes
 

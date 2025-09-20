@@ -70,7 +70,7 @@ Konfigurieren Sie SMS-Subdomains für den Nachrichtenversand, einschließlich Ei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Konfigurieren des SMS-/MMS-/RCS-Kanals
 
