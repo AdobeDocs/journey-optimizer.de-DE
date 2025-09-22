@@ -11,7 +11,8 @@ keywords: Landing, Landingpage, Erstellung, Seite, Formular
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: 67283fe92282ce23c97c29fa2c0ad78132cc184a
+exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
+source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 4%
@@ -32,7 +33,7 @@ Um Profildaten mit Ihren [!DNL Journey Optimizer] Landingpages zu erfassen und I
 >id="ajo_lp_form_connection"
 >title="Auswahl des zu verwendenden Endpunkts"
 >abstract="Definieren Sie den Streaming-Endpunkt, an den Daten beim Senden des Formulars gesendet werden."
->additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Erstellen einer HTTP-API-Streaming-Verbindung"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Erstellen einer HTTP-API-Streaming-Verbindung"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +69,7 @@ Beim Erstellen einer Voreinstellung:
 
    >[!NOTE]
    >
-   >Weitere Informationen zum Erstellen einer Streaming-Quellverbindung finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Weitere Informationen zum Erstellen einer Streaming-Quellverbindung finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können eingeben, um einen bestimmten Datensatz zu durchsuchen, oder ihn aus der Liste auswählen.
 
@@ -90,11 +91,11 @@ Alle vorhandenen Formulare werden angezeigt. Sie können Formulare nach Status, 
 >id="ajo_lp_form_preset"
 >title="Voreinstellung auswählen"
 >abstract="Wählen Sie eine vordefinierte Vorgabe aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Erstellen einer Formularvorgabe"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Erstellen einer Formularvorgabe"
 
 Gehen Sie wie folgt vor, um ein Formular zu erstellen.
 
-1. Klicken Sie in der Liste **&#x200B;**&#x200B;Forms **[!UICONTROL auf „Formular erstellen]**.
+1. Klicken Sie in der Liste **** Forms **[!UICONTROL auf „Formular erstellen]**.
 
 1. Einen Namen hinzufügen. Sie können bei Bedarf eine Beschreibung hinzufügen.
 
