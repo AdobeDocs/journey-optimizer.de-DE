@@ -9,8 +9,8 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
-workflow-type: ht
+source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
+workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
 
@@ -51,4 +51,4 @@ Um die Versandrate zu steuern, aktivieren Sie die Option **[!UICONTROL Versand d
 
 ## Nächste Schritte {#next}
 
-Nachdem die Kampagnenkonfiguration und der Inhalt fertig sind, können Sie sie überprüfen und aktivieren. [Weitere Informationen](review-activate-campaign.md)
+Nachdem die Kampagnenkonfiguration und der Inhalt fertig sind, können Sie sie überprüfen und aktivieren. [Weitere Informationen](../campaigns/review-activate-api-triggered-campaign.md)

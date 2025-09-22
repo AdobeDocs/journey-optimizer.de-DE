@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 9bf642227facd44401a33a1047b53018478ed35a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 100%
+source-wordcount: '287'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,6 @@ Die Entscheidungsfindung wird derzeit im Code-basierten Erlebniskanal unterstüt
 
 Unsere bewährte Entscheidungs-Management-Funktion in Journey Optimizer nutzt eine zentrale Bibliothek mit Marketing-Angeboten und eine Entscheidungs-Engine, die Regeln und Einschränkungen auf Echtzeit-Kundenprofile anwendet und Daten aus Adobe Experience Platform nutzt, um das richtige Angebot zur richtigen Zeit bereitzustellen.
 
-Das Entscheidungs-Management unterstützt derzeit vier Kanäle: E-Mail, In-App-Messaging, Push-Benachrichtigungen und SMS.
+Entscheidungs-Management unterstützt die folgenden Kanäle: E-Mail, In-App-Messaging, Push-Benachrichtigungen, SMS und Briefpost.
 
 ➡️ [Erste Schritte mit dem Entscheidungs-Management](../offers/get-started/starting-offer-decisioning.md)

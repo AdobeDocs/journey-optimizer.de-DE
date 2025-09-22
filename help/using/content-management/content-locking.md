@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: dcbb83e72377838281e1762bb99230e7fe52ab4c
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 100%
+source-wordcount: '1273'
+ht-degree: 97%
 
 ---
 
@@ -84,7 +84,7 @@ Sie können die Inhaltssperre für eine E-Mail-Vorlage direkt im E-Mail-Designer
 
    ![](assets/template-lock-enable.png)
 
-1. Wenn Sie den Modus **[!UICONTROL Inhaltssperre]** ausgewählt haben, können Sie weiter definieren, wie Benutzende mit der Vorlage interagieren können. Aktivieren Sie die Option **[!UICONTROL Inhaltsbearbeitung aktivieren]** und wählen Sie eine der folgenden Optionen:
+1. Wenn Sie den Modus **[!UICONTROL Inhaltssperre]** ausgewählt haben, können Sie weiter definieren, wie Benutzende mit der Vorlage interagieren können. Schalten Sie die Option **[!UICONTROL Hinzufügen von Inhalten aktivieren]** ein und wählen Sie eine der folgenden Optionen:
 
    * **[!UICONTROL Hinzufügen von Struktur und Inhalten zulassen]**: Benutzende können Strukturen zwischen vorhandenen Strukturen hinzufügen und Inhaltskomponenten oder Fragmente in bearbeitbaren Strukturen hinzufügen.
 
@@ -145,7 +145,7 @@ So sperren Sie eine bestimmte Komponente in einer Struktur:
 
    ![](assets/template-lock-component.png)
 
-   * **[!UICONTROL Nur Sperre für bearbeitbare Inhalte]**: Sperrt die Stile der Komponente, ermöglicht jedoch die Inhaltsbearbeitung.
+   * **[!UICONTROL Nur bearbeitbare Inhalte]**: Sperren der Stile der Komponente, aber Bearbeitung der Inhalte möglich.
    * **[!UICONTROL Gesperrt]**: Sperrt den Inhalt und die Stile der Komponente vollständig.
 
    >[!NOTE]
@@ -169,7 +169,7 @@ Im folgenden Beispiel ist „Governance“ für den Vorlagentext aktiviert. *Str
 >title="Markieren bearbeitbarer Bereiche"
 >abstract="Je nachdem, welche Art der Sperrung auf die Vorlage angewendet ist, können Sie verschiedene Aktionen für die Strukturen und Komponenten der Vorlage ausführen. Um alle bearbeitbaren Bereiche in der Vorlage schnell zu identifizieren, schalten Sie die Option **[!UICONTROL Bearbeitbare Bereiche markieren]** ein."
 
-Bei Verwendung einer Vorlage mit gesperrtem Inhalt wird im rechten Bereich die Meldung **[!UICONTROL Governance aktiviert]** angezeigt.
+Bei Verwendung einer Vorlage mit gesperrtem Inhalt wird im rechten Bereich eine Meldung angezeigt.
 
 Je nachdem, welche Art der Sperrung auf die Vorlage angewendet ist, können Sie verschiedene Aktionen für die Strukturen und Komponenten der Vorlage ausführen. Um alle bearbeitbaren Bereiche in der Vorlage schnell zu identifizieren, schalten Sie die Option **[!UICONTROL Bearbeitbare Bereiche markieren]** ein.
 
@@ -196,4 +196,4 @@ Hier finden Sie einige Beispiele für die Bearbeitung von E-Mails und die zugeh�
 
 Erfahren Sie, wie Sie Inhalte in E-Mail-Vorlagen sperren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451616?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
