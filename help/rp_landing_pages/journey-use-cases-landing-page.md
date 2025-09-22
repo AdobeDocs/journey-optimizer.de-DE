@@ -5,10 +5,10 @@ title: Anwendungsfälle
 description: Anwendungsfälle
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 8218c4666588bb58e0529a73eebcddef3209cbd0
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 87%
 
 ---
 
@@ -86,3 +86,4 @@ Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren, um dynamische D
 
 - **[Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](../using/building-journeys/limit-throughput.md)** – Optimieren Sie den Journey-Durchsatz und verwalten Sie die Grenzwerte für externe Systeme mithilfe von Datenquellen und benutzerdefinierten Aktionen.
 - **[Verwenden benutzerdefinierter Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](../using/building-journeys/custom-action-aep.md)** – Konfigurieren Sie authentifizierte Aufrufe und HTTP-API-Endpunkte, um Journey-Ereignisse in Adobe Experience Platform zu schreiben.
+- **[Entfernen von Profilen von einer Live-Journey](../using/building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)** - Aus Geschäfts- oder Betriebsgründen müssen Sie möglicherweise einige Profile von einer Live-Journey entfernen und Profile ausschließen, die bestimmten Kriterien entsprechen, die derzeit auf der Journey vorhanden sind. Dies kann durch Pausieren der Journey geschehen.
