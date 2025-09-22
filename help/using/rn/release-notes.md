@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c27f2cec8200e6f65c22caec560dbea5bc80042
+source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
 workflow-type: tm+mt
 source-wordcount: '3097'
 ht-degree: 67%
@@ -292,6 +292,8 @@ Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Mög
 
 * **Warnhinweise zur Überwachung der Kanalkonfiguration** - Sie können jetzt Systemwarnungen abonnieren, entweder per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum, falls ein E-Mail-Kanalkonfigurationsfehler beim Verwenden der benutzerdefinierten Subdomain-Delegierung auftritt. [Weitere Informationen](../reports/alerts.md#alert-dns-record-missing)
 
+* **Abmeldeanfragen mit einem Klick** - Wir haben Verbesserungen eingeführt, die die Verarbeitung von Abmeldeanfragen mit einem Klick, die unter &quot;Adobe Managed“ konfiguriert wurden, weiter verbessern und eine zuverlässige und konsistente Verarbeitung gewährleisten.
+
 
 ## Versionshinweise für August 2025 {#25-8-rn}
 
@@ -532,8 +534,6 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
    * **Unterstützung benutzerdefinierter Attribute mit einer URL zum Abmelden mit einem Klick**: Bei Journey Optimizer können Sie einen externen, benutzerdefinierten Endpunkt festlegen, indem Sie einen individuellen Link zum Abmelden mit einem Klick in der E-Mail-Konfiguration definieren, wenn das Einverständnis außerhalb von Adobe verwaltet wird. Wenn Ihre Empfängerinnen oder Empfänger auf den Link zum Abmelden klicken, fügt Journey Optimizer standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
 
      Um einen Link zum Abmelden mit einem Klick weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden. [Weitere Informationen](../email/list-unsubscribe.md#custom-attributes)
-
-   * **Abmeldeanfragen mit einem Klick** - Wir haben Verbesserungen eingeführt, die die Verarbeitung von Abmeldeanfragen mit einem Klick, die unter &quot;Adobe Managed“ konfiguriert wurden, weiter verbessern und eine zuverlässige und konsistente Verarbeitung gewährleisten.
 
 * **Datensätze**
 
