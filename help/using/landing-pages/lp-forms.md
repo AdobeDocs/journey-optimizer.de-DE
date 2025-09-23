@@ -12,9 +12,9 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 60a4fb6b88fe94119bcbd209a5f893e12142c0f0
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1262'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Um Profildaten mit Ihren [!DNL Journey Optimizer] Landingpages zu erfassen und I
 >id="ajo_lp_form_connection"
 >title="Auswahl des zu verwendenden Endpunkts"
 >abstract="Definieren Sie den Streaming-Endpunkt, an den Daten beim Senden des Formulars gesendet werden."
->additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Erstellen einer HTTP-API-Streaming-Verbindung"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Erstellen einer HTTP-API-Streaming-Verbindung"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Beim Erstellen einer Voreinstellung:
 
    >[!NOTE]
    >
-   >Weitere Informationen zum Erstellen einer Streaming-Quellverbindung finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Weitere Informationen zum Erstellen einer Streaming-Quellverbindung finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können eingeben, um einen bestimmten Datensatz zu durchsuchen, oder ihn aus der Liste auswählen.
 
@@ -91,11 +91,11 @@ Alle vorhandenen Formulare werden angezeigt. Sie können Formulare nach Status, 
 >id="ajo_lp_form_preset"
 >title="Voreinstellung auswählen"
 >abstract="Wählen Sie eine vordefinierte Vorgabe aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Erstellen einer Formularvorgabe"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Erstellen einer Formularvorgabe"
 
 Gehen Sie wie folgt vor, um ein Formular zu erstellen.
 
-1. Klicken Sie in der Liste **&#x200B;**&#x200B;Forms **[!UICONTROL auf „Formular erstellen]**.
+1. Klicken Sie in der Liste **** Forms **[!UICONTROL auf „Formular erstellen]**.
 
 1. Einen Namen hinzufügen. Sie können bei Bedarf eine Beschreibung hinzufügen.
 
@@ -156,6 +156,32 @@ Richten Sie eine der folgenden Aktionen ein:
   >Die in einer Regel definierten Bedingungen werden sequenziell gelesen.
 
   ![](assets/lp_create-form-thank-you-conditional.png){width=40%}
+
+## Bearbeiten eines veröffentlichten Formulars {#edit-form}
+
+Sobald ein Formular veröffentlicht wurde, können Sie es weiterhin bearbeiten. Gehen Sie wie folgt vor.
+
+1. Rufen Sie die [Formularliste](#access-forms) auf und wählen Sie ein veröffentlichtes Formular aus.
+
+1. Klicken Sie auf die **[!UICONTROL Formular bearbeiten]**.
+
+   ![](assets/lp_edit-form-button.png){width=90%}
+
+1. Eine neue Version des Formulars wird mit dem Status Entwurf erstellt. Klicken Sie **[!UICONTROL Entwurfsversion erstellen]**.
+
+1. Aktualisieren Sie das Formular nach Bedarf und klicken Sie auf **[!UICONTROL Speichern]**. Das Formular hat jetzt den **[!UICONTROL Veröffentlicht (mit Entwurf]**:
+
+   * Die aktuelle Version hat weiterhin den Status **[!UICONTROL Veröffentlicht]**, bis Sie die aktualisierte Version veröffentlichen.
+
+   * Die aktualisierte Version weist den Status **[!UICONTROL Entwurf]** auf.
+
+1. Zurück in der Formularübersicht können Sie zwischen den beiden Versionen des Formulars navigieren.
+
+   ![](assets/lp_published-with-draft-form.png){width=70%}
+
+1. Im Abschnitt **[!UICONTROL Entwurf]** können Sie den Entwurf entweder veröffentlichen oder verwerfen sowie die Details oder den Inhalt des Formulars bearbeiten.
+
+   ![](assets/lp_edit-draft-form.png){width=75%}
 
 ## Verwenden des Formulars in einer Landingpage {#leverage-form-in-lp}
 
