@@ -4,10 +4,10 @@ description: Informationen zum Erstellen von Begrenzungsregeln für Ihre Journey
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
+source-git-commit: 450a6accf11d72d56e6b93cec9ec89dc8cf3c8f3
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 93%
+source-wordcount: '944'
+ht-degree: 86%
 
 ---
 
@@ -80,7 +80,9 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
    1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journeys fest, an denen ein Profil gleichzeitig teilnehmen kann.
 
-   1. Verwenden Sie das Feld **[!UICONTROL Vorschau der Priorisierung]**, um Journey-Eintritte basierend auf Prioritätswerten über einen ausgewählten Zeitraum (z. B. 1 Tag, 7 Tage, 30 Tage) zu steuern. Dies hilft bei der Priorisierung des Eintritts in Journeys mit einem höheren Wert, wenn ein Profil für mehrere Journeys qualifiziert ist.
+   1. Verwenden Sie das Feld **[!UICONTROL Priorisierung - Look-Ahead]**, um Journey-Einträge basierend auf Prioritätswerten über einen ausgewählten Zeitraum (z. B. 1 Tag, 7 Tage, 30 Tage) zu schlichten.
+
+      Diese Option scannt die anstehenden geplanten Journey für „Zielgruppe lesen“ für den Rest der Woche, um festzustellen, ob das Eintreten des Profils auf die Journey aufgrund einer bevorstehenden Journey mit höherer Priorität unterdrückt werden soll. Es hilft, den Eintritt in höherwertige Journey zu priorisieren, wenn ein Profil für mehrere Journey geeignet ist.
 
    In diesem Beispiel möchten wir Profile so einschränken, dass sie nicht in die Journey eintreten können, wenn sie bereits an einer Journey mit demselben Regelsatz teilnehmen. Wenn eine weitere Journey innerhalb der nächsten sieben Tage einen höheren Prioritätswert hat, tritt das Profil nicht in diese Journey ein.
 
@@ -117,4 +119,4 @@ Darüber hinaus können Sie den [Adobe Experience Platform Query Service](https:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447624?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
