@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 98%
+source-wordcount: '2954'
+ht-degree: 99%
 
 ---
 
@@ -42,12 +42,12 @@ ht-degree: 98%
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
    + Benutzeroberfläche {#ui}
-      + [Erste Schritte mit der Benutzeroberfläche](using/start/user-interface.md)
+      + [Erste Schritte mit der Oberfläche](using/start/user-interface.md)
       + [Suchen, Filtern, Kategorisieren](using/start/search-filter-categorize.md)
       + [Barrierefreiheit](using/start/accessibility.md)
    + [Arbeiten mit dem KI-Assistenten](using/start/ai-assistant.md)
    + [Anwendungsfall-Playbooks](using/start/playbooks.md)
-   + [Leitlinien und Einschränkungen](using/start/guardrails.md)
+   + [Schutzmechanismen und Einschränkungen](using/start/guardrails.md)
    + [Fehlerbehebung](using/start/troubleshooting.md)
 + Journeys {#orchestrate-journeys}
    + [Journeys](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
@@ -235,8 +235,8 @@ ht-degree: 98%
       + [Häufig gestellte Fragen](using/orchestrated/orchestrated-campaigns-faq.md)
       + Datenkonfiguration {#data-configuration}
          + [Datenkonfiguration](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Verwalten von relationalen Schemata und Datensätzen {#schemas-datasets}
-            + [Verwalten von relationalen Schemata und Datensätzen](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Verwalten von modellbasierten Schemata und Datensätzen {#schemas-datasets}
+            + [Verwalten von modellbasierten Schemata und Datensätzen](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Erste Schritte mit Schemata und Datensätzen](using/orchestrated/gs-schemas.md)
             + [Manuelles Schema](using/orchestrated/manual-schema.md)
             + [Datei-Upload-Schema](using/orchestrated/file-upload-schema.md)
@@ -334,7 +334,7 @@ ht-degree: 98%
             + [Hinzufügen von Inline-Stilattributen](using/email/inline-styling.md)
             + [Hinzufügen von benutzerdefiniertem CSS](using/email/custom-css.md)
             + [Verwalten von Inhalten für den dunklen Modus](using/email/dark-mode.md)
-         + [Erstellen barrierefreier Inhalte](using/email/accessible-content.md)
+         + [Erstellen von barrierefreien Inhalten](using/email/accessible-content.md)
       + [Verwalten von E-Mail-Opt-outs](using/email/email-opt-out.md)
       + Konfigurieren des E-Mail-Kanals {#configure-email}
          + [Konfigurieren des E-Mail-Kanals](/help/rp_landing_pages/configure-email-landing-page.md)
@@ -547,14 +547,15 @@ ht-degree: 98%
       + [Inhaltsexperimente](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Erste Schritte mit dem Inhaltsexperiment](using/content-management/get-started-experiment.md)
       + [Erstellen eines Inhaltsexperiments](using/content-management/content-experiment.md)
-      + Experimentbeschleuniger {#experiment}
-         + [Erste Schritte mit dem Experimentbeschleuniger](using/content-management/experiment-accelerator.md)
+      + Experimentation Accelerator {#experiment}
+         + [Erste Schritte mit Experimentation Accelerator](using/content-management/experiment-accelerator.md)
          + [Datennutzung in KI mit Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
-         + [Best Practices für Experimentbeschleuniger](using/content-management/experiment-accelerator-best-practices.md)
-         + [Überwachung des Experimentbeschleunigers](using/content-management/experiment-accelerator-monitor.md)
-         + [Experiment-Beschleunigermetriken](using/content-management/experiment-accelerator-metrics.md)
+         + [Best Practices für Experimentation Accelerator](using/content-management/experiment-accelerator-best-practices.md)
+         + [Monitoring in Experimentation Accelerator](using/content-management/experiment-accelerator-monitor.md)
+         + [Metriken zu Experimentation Accelerator](using/content-management/experiment-accelerator-metrics.md)
       + Technotes {#technotes}
          + [Technotes](/help/rp_landing_pages/technotes-landing-page.md)
+         + [A/B-Test vs. Multi-Armed Bandit](using/content-management/mab-vs-ab.md)
          + [Verstehen von statistischen Berechnungen](using/content-management/experiment-calculations.md)
          + [Verstehen der statistischen Berechnungen im Versuchsbericht](using/content-management/experiment-report-calculations.md)
 + Zielgruppen, Profile und Identität {#audiences-profiles-identities}
@@ -615,7 +616,7 @@ ht-degree: 98%
          + [Inhaltskarten-Journey-Bericht](using/reports/journey-global-report-cja-content.md)
          + [Direkt-Mail-Journey-Bericht](using/reports/journey-global-report-cja-direct.md)
          + [E-Mail-Journey-Bericht](using/reports/journey-global-report-cja-email.md)
-         + [Experimentier-Journey-Bericht](using/reports/journey-global-report-cja-experimentation.md)
+         + [Experimente-Journey-Bericht](using/reports/journey-global-report-cja-experimentation.md)
          + [In-App-Journey-Bericht](using/reports/journey-global-report-cja-inapp.md)
          + [Push-Journey-Bericht](using/reports/journey-global-report-cja-push.md)
          + [SMS-Journey-Bericht](using/reports/journey-global-report-cja-sms.md)
@@ -711,7 +712,7 @@ ht-degree: 98%
       + Erste Schritte mit dem Entscheidungs-Management {#get-started-decision}
          + [Erste Schritte mit dem Entscheidungs-Management](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [Über das Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
-         + [Leitlinien und Einschränkungen für das Entscheidungs-Management](using/offers/decision-management-guardrails.md)
+         + [Schutzmechanismen und Einschränkungen für das Entscheidungs-Management](using/offers/decision-management-guardrails.md)
          + [Benutzeroberfläche](using/offers/get-started/user-interface.md)
          + [Wichtigste Schritte bei der Angebotserstellung und -verwaltung](using/offers/offer-library/key-steps.md)
          + [Nutzen benutzerdefinierter Upload-Zielgruppen zur Entscheidungsfindung](using/offers/custom-upload-decisioning.md)

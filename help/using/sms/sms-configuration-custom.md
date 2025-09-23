@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
-workflow-type: ht
-source-wordcount: '1081'
-ht-degree: 100%
+source-git-commit: 71b4c2b711858731cfd0f627a5ff97fe9eb817a2
+workflow-type: tm+mt
+source-wordcount: '1119'
+ht-degree: 96%
 
 ---
 
@@ -65,6 +65,10 @@ Gehen Sie wie folgt vor, um in Journey Optimizer SMS- und RCS-Nachrichten mit ei
    * **[!UICONTROL Authentifizierungstyp]**: Wählen Sie Ihren Autorisierungstyp aus und [füllen Sie die entsprechenden Felder](#auth-options) je nach der ausgewählten Authentifizierungsmethode aus.
 
      ![](assets/sms-byop.png)
+
+1. Aktivieren Sie die Option **[!UICONTROL mTLS-Unterstützung]**, mit der sichergestellt wird, dass sich sowohl der Client als auch der Server gegenseitig authentifizieren, bevor eine sichere Verbindung hergestellt wird.
+
+   Um nur mTLS zu verwenden, wählen Sie **[!UICONTROL Keine Authentifizierung]** aus der Dropdown-Liste **[!UICONTROL Authentifizierungstyp]** aus und aktivieren Sie dann die **[!UICONTROL mTLS-Unterstützung]**.
 
 1. Klicken Sie im Abschnitt **[!UICONTROL Header]** auf **[!UICONTROL Neuen Parameter hinzufügen]**, um die HTTP-Header der Anfragenachricht anzugeben, die an den externen Service gesendet werden soll. 
 

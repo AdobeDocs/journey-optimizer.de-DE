@@ -2,24 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Konfigurationsschritte
-description: Erfahren Sie, wie Sie direkt über die Benutzeroberfläche relationale Schemata erstellen können.
+description: Erfahren Sie, wie Sie modellbasierte Schemata direkt über die Benutzeroberfläche erstellen.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 98%
+source-wordcount: '899'
+ht-degree: 87%
 
 ---
 
+# Einrichten eines manuellen modellbasierten Schemas {#manual-schema}
 
-# Manuelles Einrichten eines relationalen Schemas {#manual-schema}
-
-Relationale Schemata können direkt über die Benutzeroberfläche erstellt werden, was eine detaillierte Konfiguration von Attributen, Primärschlüsseln, Versionierungsfeldern und Beziehungen ermöglicht.
+Modellbasierte Schemata können direkt über die Benutzeroberfläche erstellt werden und ermöglichen so eine detaillierte Konfiguration von Attributen, Primärschlüsseln, Versionierungsfeldern und Beziehungen.
 
 Im folgenden Beispiel wird das Schema **Mitgliedschaft in Treueprogramm** manuell definiert, um die erforderliche Struktur für orchestrierte Kampagnen zu veranschaulichen.
 
-1. [Erstellen Sie manuell ein relationales Schema](#schema) mithilfe der Adobe Experience Platform-Oberfläche.
+1. [Manuelles Erstellen eines modellbasierten Schemas](#schema) mithilfe der Adobe Experience Platform-Oberfläche.
 
 1. [Fügen Sie Attribute](#schema-attributes) wie Kunden-ID, Mitgliedschaftsstufe und Statusfelder hinzu.
 
@@ -31,7 +30,7 @@ Im folgenden Beispiel wird das Schema **Mitgliedschaft in Treueprogramm** manuel
 
 ## Erstellen Ihres Schemas {#schema}
 
-Erstellen Sie zunächst manuell ein neues relationales Schema in Adobe Experience Platform. Dabei können Sie die Schemastruktur von Grund auf neu definieren, einschließlich des Namens und Verhaltens.
+Erstellen Sie zunächst manuell ein neues modellbasiertes Schema in Adobe Experience Platform. Dabei können Sie die Schemastruktur von Grund auf neu definieren, einschließlich des Namens und Verhaltens.
 
 1. Melden Sie sich bei Adobe Experience Platform an.
 
@@ -39,7 +38,7 @@ Erstellen Sie zunächst manuell ein neues relationales Schema in Adobe Experienc
 
 1. Klicken Sie auf **[!UICONTROL Schema erstellen]**.
 
-1. Wählen Sie **[!UICONTROL Relational]** als **Schematyp** aus.
+1. Wählen Sie **[!UICONTROL modellbasiert]** als **Schematyp** aus.
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -59,7 +58,7 @@ Fügen Sie als Nächstes Attribute hinzu, um die Struktur Ihres Schemas zu defin
 
 Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens ein Identitätsfeld des Typs `String` mit einem zugehörigen Identity-Namespace enthalten. Dadurch wird die Kompatibilität mit den Targeting- und Identitätsauflösungsfunktionen von Adobe Journey Optimizer sichergestellt.
 
-+++Beim Erstellen relationaler Schemata in Adobe Experience Platform werden die folgenden Funktionen unterstützt
++++Beim Erstellen modellbasierter Schemata in Adobe Experience Platform werden die folgenden Funktionen unterstützt
 
 * **ENUM**\
   ENUM-Felder werden sowohl bei der DDL-basierten als auch bei der manuellen Schemaerstellung unterstützt, sodass Sie Attribute mit einem festen Satz zulässiger Werte definieren können.
@@ -68,7 +67,7 @@ Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens
   Label werden auf der Ebene der Schemafelder unterstützt, um Data-Governance-Richtlinien wie Zugriffskontrolle und Nutzungsbeschränkungen durchzusetzen. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) verfügbar.
 
 * **Zusammengesetzter Schlüssel**\
-  In Definitionen von relationalen Schemata werden zusammengesetzte Primärschlüssel unterstützt, sodass sich mehrere Felder zusammen verwenden lassen, um Einträge eindeutig zu identifizieren.
+  Zusammengesetzte Primärschlüssel werden in modellbasierten Schemadefinitionen unterstützt, sodass mehrere Felder zusammen verwendet werden können, um Datensätze eindeutig zu identifizieren.
 
 +++
 
@@ -148,6 +147,12 @@ Nachdem Sie Ihr Schema definiert haben, besteht der nächste Schritt darin, basi
 Jetzt müssen Sie Ihren Datensatz für orchestrierte Kampagnen aktivieren.
 
 ## Aktivieren eines Datensatzes für orchestrierte Kampagnen {#enable}
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_enable_dataset_for_oc"
+>title="Orchestrierte Kampagnen"
+>abstract="Nachdem Sie Ihren Datensatz erstellt haben, müssen Sie ihn explizit für orchestrierte Kampagnen aktivieren. Dadurch wird sichergestellt, dass Ihr Datensatz in Adobe Journey Optimizer für Echtzeit-Orchestrierung und -Personalisierung verfügbar ist."
+
 
 Nachdem Sie Ihren Datensatz erstellt haben, müssen Sie ihn explizit für orchestrierte Kampagnen aktivieren. Dadurch wird sichergestellt, dass Ihr Datensatz in Adobe Journey Optimizer für Echtzeit-Orchestrierung und -Personalisierung verfügbar ist.
 

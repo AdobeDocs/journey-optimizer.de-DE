@@ -8,27 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
-hide: true
-hidefromtoc: true
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: 70fce6fae4db58c72496945c50155dbd0b4986b4
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 11%
+source-wordcount: '347'
+ht-degree: 12%
 
 ---
 
 # Metriken {#experiment-accelerator-metrics}
-
->[!BEGINSHADEBOX]
-
-* [Erste Schritte mit Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* [Datennutzung in KI mit Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
-* [Best Practices für Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
-* [Experimente überwachen](experiment-accelerator-monitor.md)
-* **[Experimentmetriken](experiment-accelerator-metrics.md)**
-
->[!ENDSHADEBOX]
 
 Auf **[!UICONTROL Seite]** Metriken“ werden Erfolgsmetriken aus Journey Optimizer- und Target-Experimenten an einer Stelle angezeigt, was die Leistungsüberwachung, den Vergleich und tiefere Einblicke ermöglicht.
 

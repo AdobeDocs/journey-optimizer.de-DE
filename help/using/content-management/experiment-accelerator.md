@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
-hide: true
-hidefromtoc: true
-source-git-commit: 11c62deaf90b961233a35b9c4be8b81264b4c8e7
+exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 15%
+source-wordcount: '464'
+ht-degree: 16%
 
 ---
 
 # Erste Schritte mit Journey Optimizer Experimentation Accelerator {#content-experiment}
-
->[!BEGINSHADEBOX]
-
-* **[Erste Schritte mit der Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)**
-* [Datennutzung in KI mit Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
-* [Best Practices für Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)
-* [Experimente überwachen](experiment-accelerator-monitor.md)
-* [Experimentier-Metriken](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

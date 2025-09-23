@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 001e05db-e343-4a95-9694-274a8c50d08c
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '742'
 ht-degree: 3%
 
 ---
 
 # Best Practices für Journey Optimizer Experimentation Accelerator {#content-experiment-best-practices}
-
->[!BEGINSHADEBOX]
-
-* [Erste Schritte mit Journey Optimizer Experimentation Accelerator](experiment-accelerator.md)
-* **[Best Practices für Journey Optimizer Experimentation Accelerator](experiment-accelerator-best-practices.md)**
-* [Datenschutz, Sicherheit und Governance in Journey Optimizer Experimentation Accelerator](experiment-accelerator-security.md)
-* [Experimente überwachen](experiment-accelerator-monitor.md)
-* [Experimentier-Metriken](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 ## Was sind A/B-Tests?
 
@@ -98,11 +87,11 @@ Beispiel: _Wir glauben, dass die Änderung von X Y aufgrund von Z erhöht._
 Ein gutes Experiment führt nicht nur zu einem Sieg, sondern auch zu einem klaren, umsetzbaren Lernen.
 Suchen Sie nach Folgendem:
 
-&check; **Statistische Konfidenz**: Der Unterschied zwischen den Varianten ist wahrscheinlich nicht zufällig bedingt.
-&check; **Ausrichtung an Zielen**: Die primäre Metrik spiegelt einen bedeutenden Fortschritt bei der Erreichung eines Geschäftsziels wider.
-&check; **Sekundäre Auswirkung**: Keine signifikanten negativen Auswirkungen auf zugehörige Metriken.
-&check; **Skalierbarkeit**: Das Ergebnis kann für zukünftige Entscheidungen genutzt oder auf andere Bereiche verallgemeinert werden.
-&check; **Clarity**: Die Ursache des Ergebnisses ist relativ isoliert und bekannt.
+&amp;check; **Statistische Konfidenz**: Der Unterschied zwischen den Varianten ist wahrscheinlich nicht zufällig bedingt.
+&amp;check; **Ausrichtung an Zielen**: Die primäre Metrik spiegelt einen bedeutenden Fortschritt bei der Erreichung eines Geschäftsziels wider.
+&amp;check; **Sekundäre Auswirkung**: Keine signifikanten negativen Auswirkungen auf zugehörige Metriken.
+&amp;check; **Skalierbarkeit**: Das Ergebnis kann für zukünftige Entscheidungen genutzt oder auf andere Bereiche verallgemeinert werden.
+&amp;check; **Clarity**: Die Ursache des Ergebnisses ist relativ isoliert und bekannt.
 
 Beim Experimentieren geht es nicht nur darum, die „beste“ Version zu finden, sondern auch darum, Wissen durch Tests und Iterationen aufzubauen. Gut durchgeführte Experimente liefern Einblicke, die zu intelligenteren Entscheidungen, besseren Anwendererlebnissen und verbesserten Ergebnissen führen.
 

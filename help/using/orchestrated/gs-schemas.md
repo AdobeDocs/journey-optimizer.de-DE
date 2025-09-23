@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Konfigurationsschritte
-description: Erfahren Sie, wie Sie in Adobe Experience Platform ein relationales Schema erstellen, indem Sie eine DDL-Datei hochladen.
+description: Erfahren Sie, wie Sie in Adobe Experience Platform ein modellbasiertes Schema erstellen, indem Sie eine DDL hochladen
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 387aa023b4cb999ae4c27cbca4a2f7bcb5edf009
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 35%
+ht-degree: 24%
 
 ---
 
 
-# Erste Schritte mit relationalen Schemata und Datensätzen{#gs-schemas}
+# Erste Schritte mit modellbasierten Schemata und Datensätzen{#gs-schemas}
 
-Dieses Handbuch führt Sie durch den Prozess der Erstellung eines relationalen Schemas, der Konfiguration eines Datensatzes für orchestrierte Kampagnen und der Aufnahme von Daten.
+Dieses Handbuch führt Sie durch den Prozess der Erstellung eines modellbasierten Schemas, der Konfiguration eines Datensatzes für orchestrierte Kampagnen und der Aufnahme von Daten.
 
 ![schema](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
@@ -35,13 +35,13 @@ Es beschreibt:
 
 Ein Datenmodell ist logisch und konzeptionell und nicht an eine physische Implementierung in Orchestered Campaign gebunden.
 
-In einem **relationalen Datenmodell** werden Daten in Tabellen organisiert, die sich auf andere Tabellen beziehen.
+In einem **modellbasierten Datenmodell** werden Daten in Tabellen organisiert, die sich auf andere Tabellen beziehen.
 
 * Jede Tabelle verfügt über Zeilen (Datensätze) und Spalten (Attribute)
 * Jede Tabelle verfügt über einen Primärschlüssel zur eindeutigen Identifizierung von Zeilen
 * Beziehungen zwischen Tabellen werden mithilfe von Fremdschlüsseln ausgedrückt
 
-Ein **relationales Schema** ist die formale Definition des relationalen Datenmodells.
+Ein **modellbasiertes Schema** ist die formale Definition des modellbasierten Datenmodells.
 
 Es wird Folgendes festgelegt:
 
@@ -50,13 +50,13 @@ Es wird Folgendes festgelegt:
 * Die Einschränkungen
 * Die Beziehungen zwischen Tabellen
 
-Beim Organisieren von Schemata oder Tabellen in einem relationalen Datenmodell geht es um die Strukturierung Ihrer Daten in mehrere Tabellen. Stellen Sie sicher, dass jede Tabelle einen Entitäts-/Schematyp speichert
+Beim Organisieren von Schemata oder Tabellen in einem modellbasierten Datenmodell geht es um die Strukturierung Ihrer Daten in mehrere Tabellen. Stellen Sie sicher, dass jede Tabelle einen Entitäts-/Schematyp speichert
 
 ## Implementierungsschritte {#implementation}
 
-Gehen Sie wie folgt vor, um Daten aufzunehmen und ein relationales Schema zu erstellen:
+Gehen Sie wie folgt vor, um Daten aufzunehmen und ein modellbasiertes Schema zu erstellen:
 
-1. Manuelles Erstellen eines [relationalen Schemas](manual-schema.md) oder Erstellen [mithilfe einer DDL-Datei](file-upload-schema.md)
+1. Erstellen [modellbasierten Schemas manuell](manual-schema.md) oder [mithilfe einer DDL-Datei](file-upload-schema.md)
 
    Definieren Sie die Struktur Ihres Datenmodells, einschließlich Tabellen, Attributen und Beziehungen. Entscheiden Sie, ob Sie das Schema manuell in der Benutzeroberfläche erstellen oder eine DDL-Datei hochladen möchten, um die Einrichtung zu beschleunigen.
 

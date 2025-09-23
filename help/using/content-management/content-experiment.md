@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
+source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 100%
+source-wordcount: '1846'
+ht-degree: 81%
 
 ---
 
@@ -68,7 +68,21 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 >title="Erfolgsmetrik"
 >abstract="Die Erfolgsmetrik wird verwendet, um die Abwandlung mit der besten Leistung in einem Experiment zu verfolgen und zu bewerten. Vor der Verwendung muss der Datensatz für bestimmte Metriken eingerichtet werden."
 
-1. Wenn Ihre Nachricht personalisiert ist, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
+Für Ihr Inhaltsexperiment können Sie zwischen drei Arten von Experimenten wählen:
+
+* **[!UICONTROL A/B-]**: Traffic-Aufteilung zwischen Abwandlungen zu Beginn des Tests definieren. Die Leistung wird anhand der von Ihnen ausgewählten Hauptmetrik bewertet. Der Experimentation Accelerator meldet dann die beobachtete Steigerung zwischen den Behandlungen.
+
+* **[!UICONTROL Multi-Armed Bandit]**: Traffic-Aufteilung zwischen Behandlungen wird automatisch verarbeitet. Alle 7 Tage wird die Leistung der primären Metrik überprüft und die Gewichtungen werden entsprechend angepasst. In den Berichten in der Experimentation Accelerator wird weiterhin die Steigerung als A/B-Test angezeigt.
+
+* **[!UICONTROL Bring your own Multi-Armed Bandit]**: Der Traffic wird automatisch zwischen den Behandlungen aufgeteilt. Sie haben die Flexibilität, zu bestimmen, wann und wie sie sich ändern sollte, indem Sie die Experiment-APIs verwenden, um Zuweisungen in Echtzeit anzupassen.
+
+➡️ [Erfahren Sie mehr über den Unterschied zwischen A/B- und Experimenten mit mehrarmigen Banditen](mab-vs-ab.md)
+
+>[!BEGINTABS]
+
+>[!TAB A/B-Experiment]
+
+1. Wenn Ihre Nachricht personalisiert wurde, klicken Sie auf der Registerkarte **[!UICONTROL Aktionen]** auf **[!UICONTROL Experiment erstellen]** um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
 
    ![](assets/content_experiment_3.png)
 
@@ -78,9 +92,11 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
    ![](assets/content_experiment_11.png)
 
-1. Beim Einrichten eines Experiments mit dem In-App- oder Web-Kanal und Auswählen der **[!UICONTROL eingehenden Klicks]**, **[!UICONTROL eindeutigen eingehenden Klicks]**, **[!UICONTROL Seitenansichten]** oder **[!UICONTROL Metriken zu individuellen Seitenansichten]** ermöglicht es Ihnen das Dropdown-Menü **[!UICONTROL Klickaktion]**, Klicks und Ansichten auf bestimmten Seiten genau nachzuverfolgen und zu überwachen.
+1. Wenn Sie ein Experiment mit dem In-App- oder Web-Kanal einrichten und die Metriken **[!UICONTROL Eingehende Klicks]**, **[!UICONTROL Eindeutige eingehende Klicks]**, **[!UICONTROL Seitenansichten]** oder **[!UICONTROL Eindeutige Seitenansichten]** auswählen, können Sie mit dem Feld **[!UICONTROL Dimensionen]** Klicks und Ansichten auf bestimmten Seiten präzise verfolgen und überwachen.
 
    ![](assets/content_experiment_20.png)
+
+1. Wenn Sie eine von einer API ausgelöste Kampagne erstellt haben, wählen Sie **[!UICONTROL A/B]** Experiment **[!UICONTROL aus der Dropdown-Liste]** Experimenttyp“ aus.
 
 1. Klicken Sie auf **[!UICONTROL Abwandlung hinzufügen]**, um so viele neue Abwandlungen wie nötig zu erstellen.
 
@@ -104,7 +120,89 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 1. Die Aktivierung des Experiments mit automatischer Skalierung ermöglicht die automatische Einführung der erfolgreichsten Variante Ihres Experiments. [Weitere Informationen zur Skalierung der erfolgreichsten Variante](#scale-winner)
 
+   ![](assets/content_experiment_14.png)
+
 1. Klicken Sie auf **[!UICONTROL Erstellen]**, wenn Ihre Konfiguration festgelegt ist.
+
+>[!TAB Mehrarmiger Bandit]
+
+Beachten Sie, dass das Experiment mit mehrarmigen Banditen nur mit den folgenden Optionen verfügbar ist:
+
+* Eingehende Kanäle
+* Unitäre Journey
+* API-ausgelöste Kampagnen (sowohl Transaktions- als auch operative)
+* Ausgehende Kanäle, wenn der Zeitplan wiederholt wird
+
+1. Wenn Ihre Nachricht personalisiert wurde, klicken Sie auf der Registerkarte **[!UICONTROL Aktionen]** auf **[!UICONTROL Experiment erstellen]** um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
+
+   ![](assets/content_experiment_3.png)
+
+1. Wählen Sie die **[!UICONTROL Erfolgsmetrik]**, die Sie für Ihr Experiment festlegen möchten.
+
+   Für unser Experiment wählen wir **[!UICONTROL E-Mail-Öffnung]**, um zu testen, ob Empfängerinnen und Empfänger ihre E-Mails öffnen, wenn sich der Promo-Code in der Betreffzeile befindet.
+
+   ![](assets/content_experiment_11.png)
+
+1. Wenn Sie eine von einer API ausgelöste Kampagne erstellt haben, wählen Sie **[!UICONTROL Multi-Armed]**) in **[!UICONTROL Dropdown-Liste Experimenttyp]** aus.
+
+   ![](assets/content-experiment-mab-1.png)
+
+1. Klicken Sie auf **[!UICONTROL Abwandlung hinzufügen]**, um so viele neue Abwandlungen wie nötig zu erstellen.
+
+   ![](assets/content-experiment-mab-2.png)
+
+1. Ändern Sie den **[!UICONTROL Titel]** Ihrer Abwandlung, um die einzelnen Abwandlungen besser unterscheiden zu können.
+
+1. Wählen Sie aus, dass eine **[!UICONTROL neutrale]** Gruppe zu Ihrem Versand hinzugefügt werden soll. Diese Gruppe erhält keine Inhalte aus dieser Kampagne.
+
+   Wenn Sie den Umschalter aktivieren, werden für diese Gruppe automatisch 10 % Ihrer Population genommen. Sie können diesen Prozentsatz bei Bedarf aber auch anpassen.
+
+   >[!IMPORTANT]
+   >
+   >Wenn eine Holdout-Gruppe in einer Aktion für ein Inhaltsexperiment verwendet wird, gilt die Holdout-Zuweisung nur für diese spezifische Aktion. Nachdem die Aktion abgeschlossen ist, werden die Profile in der Holdout-Gruppe den Journey-Pfad fortsetzen und können Nachrichten von anderen Aktionen erhalten. Stellen Sie daher sicher, dass nachfolgende Nachrichten nicht auf den Empfang einer Nachricht durch ein Profil angewiesen sind, das sich möglicherweise in einer Holdout-Gruppe befindet. Wenn dies der Fall ist, müssen Sie die Holdout-Zuweisung möglicherweise entfernen.
+
+   ![](assets/content-experiment-mab-3.png)
+
+>[!TAB Bring deinen eigenen mehrarmigen Bandit]
+
+Beachten Sie, dass das Experiment „Bring your own Multi-Armed Bandit“ nur mit den folgenden Optionen verfügbar ist:
+
+* Eingehende Kanäle
+* Unitäre Journey
+* API-ausgelöste Kampagnen (sowohl Transaktions- als auch operative)
+* Ausgehende Kanäle, wenn der Zeitplan wiederholt wird
+
+1. Wenn Ihre Nachricht personalisiert wurde, klicken Sie auf der Registerkarte **[!UICONTROL Aktionen]** auf **[!UICONTROL Experiment erstellen]** um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
+
+   ![](assets/content_experiment_3.png)
+
+1. Wählen Sie die **[!UICONTROL Erfolgsmetrik]**, die Sie für Ihr Experiment festlegen möchten.
+
+   Für unser Experiment wählen wir **[!UICONTROL E-Mail-Öffnung]**, um zu testen, ob Empfängerinnen und Empfänger ihre E-Mails öffnen, wenn sich der Promo-Code in der Betreffzeile befindet.
+
+   ![](assets/content_experiment_11.png)
+
+1. Wenn Sie eine von einer API ausgelöste Kampagne erstellt haben, wählen Sie **[!UICONTROL Eigene mehrarmige Bandit einbringen]** aus der Dropdown-Liste **[!UICONTROL Experimenttyp]** aus.
+
+   ![](assets/content-experiment-mab-4.png)
+
+1. Klicken Sie auf **[!UICONTROL Abwandlung hinzufügen]**, um so viele neue Abwandlungen wie nötig zu erstellen.
+
+   ![](assets/content-experiment-mab-5.png)
+
+1. Ändern Sie den **[!UICONTROL Titel]** Ihrer Abwandlung, um die einzelnen Abwandlungen besser unterscheiden zu können.
+
+1. Wählen Sie aus, dass eine **[!UICONTROL neutrale]** Gruppe zu Ihrem Versand hinzugefügt werden soll. Diese Gruppe erhält keine Inhalte aus dieser Kampagne.
+
+   Wenn Sie den Umschalter aktivieren, werden für diese Gruppe automatisch 10 % Ihrer Population genommen. Sie können diesen Prozentsatz bei Bedarf aber auch anpassen.
+
+   >[!IMPORTANT]
+   >
+   >Wenn eine Holdout-Gruppe in einer Aktion für ein Inhaltsexperiment verwendet wird, gilt die Holdout-Zuweisung nur für diese spezifische Aktion. Nachdem die Aktion abgeschlossen ist, werden die Profile in der Holdout-Gruppe den Journey-Pfad fortsetzen und können Nachrichten von anderen Aktionen erhalten. Stellen Sie daher sicher, dass nachfolgende Nachrichten nicht auf den Empfang einer Nachricht durch ein Profil angewiesen sind, das sich möglicherweise in einer Holdout-Gruppe befindet. Wenn dies der Fall ist, müssen Sie die Holdout-Zuweisung möglicherweise entfernen.
+
+   ![](assets/content-experiment-mab-6.png)
+
+>[!ENDTABS]
 
 ## Richten Sie das Design Ihrer Abwandlungen ein {#treatment-experiment}
 
@@ -147,7 +245,6 @@ Zwei Modi stehen zur Auswahl:
 
 * **Manuelle Skalierung** Die Experimentergebnisse werden manuell überprüft und der Rollout der erfolgreichsten Abwandlung wird mit vollständiger Kontrolle über Zeitpunkt und Entscheidungen initiiert.
 
-
 ### Automatische Skalierung {#autoscaling}
 
 Bei der automatischen Skalierung legen vordefinierte Regeln fest, wann die erfolgreichste Abwandlung oder die Fallback-Option basierend auf den Ergebnissen des Experiments eingeführt wird.
@@ -167,9 +264,9 @@ Aktivieren der automatische Skalierung in Experimenten:
    * Sobald die erfolgreichste Abwandlung gefunden ist.
    * Nachdem das Experiment für einen bestimmten Zeitraum live ist.
 
-     Die automatische Skalierung muss vor dem Enddatum des Experiments geplant werden. Wenn sie auf einen Zeitpunkt nach dem Enddatum festgelegt ist, wird eine Validierungswarnung angezeigt und die Kampagne oder Journey wird nicht veröffentlicht.
+Die automatische Skalierung muss vor dem Enddatum des Experiments geplant werden. Wenn sie auf einen Zeitpunkt nach dem Enddatum festgelegt ist, wird eine Validierungswarnung angezeigt und die Kampagne oder Journey wird nicht veröffentlicht.
 
-   ![](assets/scale-winner-2.png)
+    ![](assets/scale-winner-2.png)
 
 1. Auswählen des Fallback-Verhaltens, wenn nach der Skalierungszeit keine erfolgreichste Abwandlung gefunden wird:
 

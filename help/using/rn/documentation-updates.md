@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
+source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 93%
+source-wordcount: '2198'
+ht-degree: 96%
 
 ---
 
@@ -21,21 +21,27 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## September 2025 {#september-2025}
 
+* Für orchestrierte Kampagnen wurde eine Seite mit häufig gestellten Fragen veröffentlicht. [Weitere Informationen](../orchestrated/orchestrated-campaigns-faq.md)
+
+* Es wurde ein Abschnitt zur Fehlerbehebung zur Dokumentation Journey-Schrittereignisse mit Definitionen, allgemeinen Ursachen und Schritten zur Fehlerbehebung für die häufigsten Verwerfen-Ereignistypen hinzugefügt. [Weitere Informationen](../reports/sharing-field-list.md#troubleshoot-discarded-event-types-in-journey_step_events)
+
 * Die Dokumentation zur Verwendung zusätzlicher IDs in Journey enthält jetzt eine Tabelle, in der beschrieben wird, wie sich Profile verhalten, wenn Beendigungskriterien in Journey mithilfe zusätzlicher IDs angewendet werden. [Weitere Informationen](../building-journeys/supplemental-identifier.md#exit-criteria)
 
-* In der Dokumentation zur Schemaübersicht wurden Informationen hinzugefügt, um Standard- und relationale Schemata zu unterscheiden, die für orchestrierte Kampagnen verwendet werden. [Weitere Informationen](../data/gs-data.md)
+* Es wurde ein Abschnitt zur Fehlerbehebung hinzugefügt, um zu verstehen, wie Profile in pausierten Journey verworfen werden. [Weitere Informationen](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys)
 
-* In der Dokumentation zu Entscheidungs- und Entscheidungs-Management wurden Informationen zu den Anforderungen für das erfolgreiche Trainieren [automatische Optimierung](../experience-decisioning/ranking/auto-optimization-model.md) und [personalisierte ](../experience-decisioning/ranking/personalized-optimization-model.md)) hinzugefügt.
+* In der Dokumentation zum Schemaüberblick wurden Informationen hinzugefügt, um Standard- und relationale Schemata zu unterscheiden, die für orchestrierte Kampagnen verwendet werden. [Weitere Informationen](../data/gs-data.md)
 
-* Klargestellt, dass die REST-API-Aufrufe zur interaktiven Nachrichtenausführung eine Zeitüberschreitung von 60 Sekunden aufweisen, mit internen Wiederholungsversuchen, um den Versand sicherzustellen. [Weitere Informationen](../campaigns/trigger-campaigns.md)
+* In der Dokumentation zu Entscheidungsfindung und Entscheidungs-Management wurden Informationen zu den Anforderungen für das erfolgreiche Trainieren der Modelle für [automatische Optimierung](../experience-decisioning/ranking/auto-optimization-model.md) und [personalisierte Optimierung](../experience-decisioning/ranking/personalized-optimization-model.md) hinzugefügt.
 
-* Die Seite mit den Entscheidungselementsammlungen wurde aktualisiert, um das Verhalten des **CONTAINS“-** beim Definieren von Regeln zu verdeutlichen. [Weitere Informationen](../experience-decisioning/collections.md)
+* Es wurde klargestellt, dass REST-API-Aufrufe zur interaktiven Nachrichtenausführung ein Timeout von 60 Sekunden aufweisen, wobei es interne Wiederholungsversuche gibt, um den Versand sicherzustellen. [Weitere Informationen](../campaigns/trigger-campaigns.md)
 
-* Die Seite Prioritätswerte zuweisen wurde mit den spezifischen Schritten aktualisiert, um einen Prioritätswert für eingehende Kanalaktionen innerhalb der Aktivität **Aktion** zu definieren. [Weitere Informationen](../conflict-prioritization/priority-scores.md#priority-action)
+* Die Seite mit Entscheidungselementsammlungen wurde aktualisiert, um das Verhalten des Operators **CONTAINS** beim Definieren von Regeln zu verdeutlichen. [Weitere Informationen](../experience-decisioning/collections.md)
+
+* Die Seite „Zuweisen von Prioritätswerten“ wurde mit den spezifischen Schritten aktualisiert, um einen Prioritätswert für eingehende Kanalaktionen innerhalb der Aktivität **Aktion** zu definieren. [Weitere Informationen](../conflict-prioritization/priority-scores.md#priority-action)
 
 ## August 2025 {#august-2025}
 
-* Eine neue Seite mit den Best Practices für die Gestaltung barrierefreier E-Mail- und Landingpage-Inhalte mit [!DNL Journey Optimizer] wurde hinzugefügt. [Weitere Informationen](../email/accessible-content.md)
+* Es wurde eine neue Seite mit den Best Practices für die Gestaltung barrierefreier E-Mail- und Landingpage-Inhalte mit [!DNL Journey Optimizer] hinzugefügt. [Weitere Informationen](../email/accessible-content.md)
 
 * Die Dokumentation zu zusätzlichen Kennungen in Journeys wurde mit den folgenden Klarstellungen aktualisiert:
 
@@ -155,7 +161,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Die Seite mit den integrierten Kanalaktionen wurde neu angeordnet. [Weitere Informationen](../building-journeys/journeys-message.md)
 * Den Abschnitten „Entscheidungsfindung“ und „Entscheidungs-Management“ wurden Leitlinien und Einschränkungen hinzugefügt.
    * [Leitlinien und Einschränkungen für die Entscheidungsfindung](../experience-decisioning/decisioning-guardrails.md)
-   * [Leitlinien und Einschränkungen für das Entscheidungs-Management](../offers/decision-management-guardrails.md)
+   * [Schutzmechanismen und Einschränkungen für das Entscheidungs-Management](../offers/decision-management-guardrails.md)
 * Der Dokumentation zum Entscheidungs-Management wurde ein neuer Abschnitt zu Kontextdaten hinzugefügt. Er enthält Informationen zur Nutzung von Kontextdaten in der Entscheidungs-Engine, beispielsweise zum Entwerfen einer Entscheidungsregel, die verlangt, dass das aktuelle Wetter zum Zeitpunkt der Entscheidungsanfrage wärmer als 25 °C sein muss. [Weitere Informationen](../offers/context-data.md)
 
 ## Januar 2025 {#jan-2025}
@@ -286,7 +292,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -316,7 +322,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=de){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -391,7 +397,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -519,7 +525,7 @@ Auf dieser Seite werden alle neuesten Aktualisierungen der Dokumentation für [!
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

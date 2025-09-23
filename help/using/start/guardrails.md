@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5da036a6b352eecaf6a14f5d21bf5391fc5ed3fa
+source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
 workflow-type: tm+mt
-source-wordcount: '2817'
-ht-degree: 91%
+source-wordcount: '2825'
+ht-degree: 90%
 
 ---
 
@@ -171,7 +171,7 @@ Für [benutzerdefinierte Aktionen](../action/action.md) in Ihren Journeys gelten
 
 Für [Ereignisse](../event/about-events.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
 
-* Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde über alle Sandboxes hinweg.
+* Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde in allen Sandboxes. Weitere Informationen zu dieser Einschränkung [ Sie auf dieser Seite](../event/about-events.md#event-thoughput).
 * Bei von einem Ereignis ausgelösten Journeys kann es bis zu 5 Minuten dauern, bis die erste Aktion in der Journey verarbeitet wird.
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
 * Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Zielgruppen-Qualifizierungaktivitäten verwendet werden.

@@ -8,19 +8,18 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
+source-git-commit: 21adeb5128b22bf7b2e7e6c2cff9c31159741cee
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 80%
+source-wordcount: '1313'
+ht-degree: 65%
 
 ---
 
 # Abrufen und Abonnieren von Systemwarnhinweisen {#alerts}
 
-Verwenden Sie beim Erstellen Ihrer Journeys und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler vor der Ausführung oder Veröffentlichung zu überprüfen und zu beheben:
+Verwenden Sie beim Erstellen Ihrer Journey und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler zu überprüfen und zu beheben, bevor Sie sie ausführen oder veröffentlichen.
 
-* Weitere Informationen zum Beheben von Fehlern in Journeys finden Sie auf [dieser Seite](../building-journeys/troubleshooting.md).
-* Weitere Informationen zum Überprüfen von Kampagnen finden Sie auf [dieser Seite](../campaigns/review-activate-campaign.md).
+
 
 Über das dedizierte Menü **[!UICONTROL Warnhinweise]** können Sie auch [!DNL Adobe Journey Optimizer]-Systemwarnhinweise abonnieren, wie auf dieser Seite beschrieben.
 
@@ -42,18 +41,34 @@ Sie werden hier aufgelistet und jeder Warnhinweis wird nachfolgend beschrieben.
 
    * Warnhinweis beim [Fehlschlagen einer benutzerdefinierten Journey-Aktion](#alert-custom-actions)
    * Warnhinweis [Auslösen von „Zielgruppe lesen“ fehlgeschlagen](#alert-read-audiences)
+<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
+   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
+   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
-  <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
-   * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
+   * Warnung bei fehlgeschlagener Konfiguration des AJO[Kanals ](#alert-channel-config-failure)
+     <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
 
-1. Sie können jeden Warnhinweis einzeln über die Benutzeroberfläche abonnieren, indem Sie die Option **[!UICONTROL Abonnieren]** auswählen. 
+Wenn ein unerwartetes Verhalten auftritt und/oder bestimmte Bedingungen in Ihren Vorgängen erfüllt sind (z. B. ein potenzielles Problem, wenn das System einen Schwellenwert überschreitet), werden Warnhinweise an alle Benutzenden in Ihrer Organisation gesendet, die diese abonniert haben.
 
-   ![](assets/alert-subscribe.png){width=80%}
+Sie können jeden Warnhinweis einzeln über die Benutzeroberfläche abonnieren, entweder global über das Menü **[!UICONTROL Warnhinweise]** (siehe [Globales Abonnement](#global-subscription))<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->
+
+Je nach den Benutzereinstellungen werden Warnhinweise per E-Mail gesendet und/oder erscheinen direkt im Journey Optimizer-Benachrichtigungszentrum oben rechts in der Benutzeroberfläche. Wählen Sie in den **[!UICONTROL Voreinstellungen]** von [!DNL Adobe Experience Cloud] aus, wie Sie diese Warnhinweise erhalten möchten. [Weitere Informationen](../start/user-interface.md#in-product-alerts)
+
+Wenn ein Warnhinweis aufgelöst wurde, erhalten die Abonnentinnen und Abonnenten die Benachrichtigung „Aufgelöst“.
+
+
+### Globales Abonnement {#global-subscription}
+
+Gehen Sie wie folgt vor, um einen Warnhinweis für alle Journey und Kampagnen zu abonnieren oder abzubestellen:
+
+1. Navigieren Sie zum **[!UICONTROL Warnhinweise]**-Dashboard im linken Menü und wählen Sie die Option **[!UICONTROL Abonnieren]** für den Warnhinweis aus, den Sie abonnieren möchten.
+
+   ![Warnhinweis abonnieren](assets/alert-subscribe.png){width=80%}
 
    >[!NOTE]
    >
@@ -61,37 +76,28 @@ Sie werden hier aufgelistet und jeder Warnhinweis wird nachfolgend beschrieben.
 
 1. Auf dieselbe Weise können Sie sich auch wieder **[!UICONTROL abmelden]**.
 
-1. Sie können Warnhinweise auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren. Warnhinweisregeln sind in verschiedene Abonnementpakete unterteilt. Abonnements für Ereignisse, die den jeweiligen Journey Optimizer-Warnhinweisen entsprechen, werden [nachfolgend](#journey-alerts) beschrieben.
+Sie können auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren. Warnhinweisregeln sind in verschiedene Abonnementpakete unterteilt. Abonnements für Ereignisse, die den jeweiligen Journey Optimizer-Warnhinweisen entsprechen, werden [nachfolgend](#journey-alerts) beschrieben.
 
-1. Wenn ein unerwartetes Verhalten auftritt und/oder bestimmte Bedingungen in Ihren Vorgängen erfüllt sind (z. B. ein potenzielles Problem, wenn das System einen Schwellenwert überschreitet), werden Warnhinweise an alle Benutzenden in Ihrer Organisation gesendet, die diese abonniert haben.
+<!--DOCAC-13465
+### Unitary subscription {#unitary-subscription}
 
-Je nach den Benutzereinstellungen werden Warnhinweise per E-Mail gesendet und/oder erscheinen direkt im Journey Optimizer-Benachrichtigungszentrum oben rechts in der Benutzeroberfläche. Wählen Sie in den **[!UICONTROL Voreinstellungen]** von [!DNL Adobe Experience Cloud] aus, wie Sie diese Warnhinweise erhalten möchten. [Weitere Informationen](../start/user-interface.md#in-product-alerts)
+To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 
->[!NOTE]
->
->Standardmäßig sind nur In-App-Warnhinweise aktiviert.
+1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
 
-Wenn ein Warnhinweis aufgelöst wurde, erhalten die Abonnentinnen und Abonnenten die Benachrichtigung „Aufgelöst“.
+1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
+   
+1. To unsubscribe to an alert, unselect it from the same screen.
 
-## Verwalten von Warnhinweisen {#manage-alerts}
+1. Click **[!UICONTROL Save]** to confirm.
+-->
 
-Um Warnhinweise zu verwalten, wählen Sie ein Element aus und verwenden Sie die Schaltfläche **[!UICONTROL Weitere Aktionen]**.
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
-![](assets/alert-more-actions.png){width=80%}
 
-Standardmäßig sind alle Warnhinweise aktiviert. Um einen Warnhinweis zu deaktivieren, wählen Sie aus dem Menü **[!UICONTROL Mehr Aktionen]** die Option **[!UICONTROL Warnhinweis deaktivieren]** aus. Alle Abonnentinnen und Abonnenten dieses Warnhinweises erhalten dann die zugehörigen Benachrichtigungen nicht mehr.
 
-Wählen Sie **[!UICONTROL Warnhinweis-Abonnierende verwalten]** aus, um die Liste der Benutzenden anzuzeigen, die den Warnhinweis abonniert haben. Verwenden Sie das leere Feld, um weitere Abonnentinnen und Abonnenten hinzuzufügen.
-
-![](assets/alert-subscribers.png){width=80%}
-
-Die möglichen Status von Warnhinweisen sind unten aufgeführt:
-
-* **[!UICONTROL Aktiviert]** – Der Warnhinweis ist aktiviert, und es wird derzeit auf die Auslösebedingung überwacht.
-* **[!UICONTROL Deaktiviert]** – Der Warnhinweis ist deaktiviert, und es wird derzeit nicht auf die Auslösebedingung überwacht. Sie erhalten keine Benachrichtigungen für diesen Warnhinweis.
-* **[!UICONTROL Ausgelöst]** – Die Auslösebedingung für den Warnhinweis ist derzeit erfüllt.
 
 ## Journey-Warnhinweise {#journey-alerts}
 
@@ -99,9 +105,12 @@ Die möglichen Status von Warnhinweisen sind unten aufgeführt:
 >
 >Adobe Journey Optimizer-spezifische Warnhinweise gelten nur für **Live**-Journeys. Warnhinweise werden für Journeys im Testmodus nicht ausgelöst.
 
+
 ### Benutzerdefinierte Journey-Aktion fehlgeschlagen {#alert-custom-actions}
 
 Dieser Warnhinweis warnt Sie, wenn eine benutzerdefinierte Aktion fehlschlägt. Wir gehen davon aus, dass die Aktion fehlgeschlagen ist, wenn in den letzten 5 Minuten bei einer bestimmten benutzerdefinierten Aktion mehr als 1 % Fehler aufgetreten sind. Dies wird alle 30 Sekunden ausgewertet.
+
+Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
 
 ![](assets/alerts-custom-action.png)
 
@@ -144,6 +153,26 @@ Der Name des E/A-Ereignisabonnements, das dem **Alert Read Audience Trigger Unsu
 ![](assets/alert-troubleshooting-0.png)
 
 ![](assets/alert-troubleshooting-1.png)
+
+<!--DOCAC-13465
+
+### Profile Discard Rate Exceeded {#alert-discard-rate}
+
+This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+Click the name of the alert to check the alert details and configuration.
+
+
+### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+
+This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+### Profile Error Rate Exceeded {#alert-profile-error-rate}
+
+This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+Click the name of the alert to check the alert details and configuration.
+-->
 
 ## Konfigurationswarnhinweise {#configuration-alerts}
 
@@ -220,7 +249,61 @@ Beachten Sie beim Beheben von E-Mail-Konfigurationsproblemen die unten aufgefüh
 
 This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
 
+## Verwalten von Warnhinweisen {#manage-alerts}
+
+### Warnhinweis bearbeiten
+
+Sie können die Details eines Warnhinweises überprüfen, indem Sie auf dessen Zeile klicken. Der Name, der Status und die Benachrichtigungskanäle werden im linken Bereich angezeigt.
+<!--DOCAC-13465
+For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+
+![](assets/alert-more-actions.png){width=60%}
+
+<!--DOCAC-13465
+#### Define a custom threshold {#custom-threshold}
+
+You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+
+To change the threshold:
+
+1. Browse to the **Alerts** screen
+1. Click the **[!UICONTROL More actions]** button of the alert to update
+1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
 
 
+![](assets/alert-threshold.png){width=60%}
+
+>[!CAUTION]
+>
+>The threshold levels are global across all journeys and cannot be individually modified per journey.
+-->
+
+### Warnhinweis deaktivieren
+
+Standardmäßig sind alle Warnhinweise aktiviert. Um einen Warnhinweis zu deaktivieren, wählen Sie die Option **[!UICONTROL Warnhinweis deaktivieren]** aus: Alle Abonnenten dieses Warnhinweises erhalten dann nicht mehr die entsprechenden Benachrichtigungen.
 
 
+### Status von Warnhinweisen
+
+Die möglichen Status von Warnhinweisen sind unten aufgeführt:
+
+* **[!UICONTROL Aktiviert]** – Der Warnhinweis ist aktiviert, und es wird derzeit auf die Auslösebedingung überwacht.
+* **[!UICONTROL Deaktiviert]** – Der Warnhinweis ist deaktiviert, und es wird derzeit nicht auf die Auslösebedingung überwacht. Sie erhalten keine Benachrichtigungen für diesen Warnhinweis.
+* **[!UICONTROL Ausgelöst]** – Die Auslösebedingung für den Warnhinweis ist derzeit erfüllt.
+
+
+### Abonnenten anzeigen und aktualisieren {#manage-subscribers}
+
+Wählen Sie **[!UICONTROL Warnhinweis-Abonnenten verwalten]** aus, um die Liste der Benutzer anzuzeigen, die den Warnhinweis abonniert haben.
+
+![](assets/alert-subscribers.png){width=80%}
+
+Um weitere Abonnentinnen oder Abonnenten hinzuzufügen, geben Sie ihre E-Mail durch Kommata getrennt ein und wählen Sie **[!UICONTROL Aktualisieren]**.
+
+Um Abonnenten zu entfernen, löschen Sie deren E-Mail-Adresse von den aktuellen Abonnenten und wählen Sie **[!UICONTROL Aktualisieren]**.
+
+## Zusätzliche Ressourcen {#additional-resources-alerts}
+
+
+* Weitere Informationen zum Beheben von Fehlern in Journeys finden Sie auf [dieser Seite](../building-journeys/troubleshooting.md).
+* Weitere Informationen zum Überprüfen von Kampagnen finden Sie auf [dieser Seite](../campaigns/review-activate-campaign.md).

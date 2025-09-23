@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 54%
+source-wordcount: '601'
+ht-degree: 53%
 
 ---
 
@@ -77,11 +77,11 @@ Weitere Informationen zu eventTypes [in diesem Abschnitt](#discarded-events).
 Diese Kategorie enthält die ursprünglichen Step-Ereignisfelder. Siehe diesen [Abschnitt](../reports/sharing-legacy-fields.md).
 
 
-## Fehlerbehebung bei verworfenen Ereignistypen in Journey_step_events  {#discarded-events}
+## Fehlerbehebung bei verworfenen Ereignistypen beim Journey von Schrittereignissen  {#discarded-events}
 
-Bei der Abfrage von Journey_step_events nach Datensätzen mit `eventCode = 'discard'` können mehrere eventTypes auftreten.
+Bei der Abfrage von Journey-Schrittereignissen nach Datensätzen mit `eventCode = 'discard'` können mehrere eventTypes auftreten.
 
-Im Folgenden finden Sie Definitionen, häufige Ursachen und Schritte zur Fehlerbehebung für die häufigsten Verwerfen-Ereignistypen:
+Im Folgenden finden Sie Definitionen, häufige Ursachen und Schritte zur Fehlerbehebung für die häufigsten `eventTypes`:
 
 * EXTERNAL_KEY_COMPUTATION_ERROR: Das System konnte keine eindeutige Kennung (externen Schlüssel) für den Kunden aus den Ereignisdaten berechnen.
 Häufige Ursachen: Fehlende oder falsch formatierte Kundenkennungen (z. B. E-Mail, Kunden-ID) in der Ereignis-Payload.
