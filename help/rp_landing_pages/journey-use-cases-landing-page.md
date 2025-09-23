@@ -20,7 +20,7 @@ Mit den Anwendungsfällen von Adobe Journey Optimizer können Sie aussagekräfti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Lernen durch Anwendungsfälle
 
@@ -30,7 +30,7 @@ Hier finden Sie praktische Beispiele und Strategien zur Maximierung der Funktion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Suchen nach Erlebnisereignissen
 
@@ -40,7 +40,7 @@ Verwenden Sie Erlebnisereignisse, um Opt-outs zu verwalten, Inhalte zu personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Senden von Multi-Channel-Nachrichten
 
@@ -50,7 +50,7 @@ Erstellen Sie Journeys, die eine Zielgruppensegmentierung und Ereignis-Trigger n
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Senden einer Nachricht mit Campaign v7/v8
 
@@ -60,7 +60,7 @@ Integration von Adobe Campaign mit Journey Optimizer zum Senden von E-Mail-Nachr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Senden einer Nachricht an Abonnierende
 
@@ -70,7 +70,7 @@ Richten Sie Journeys so ein, dass Nachrichten basierend auf Voreinstellungen und
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen
 
@@ -86,4 +86,4 @@ Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren, um dynamische D
 
 - **[Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](../using/building-journeys/limit-throughput.md)** – Optimieren Sie den Journey-Durchsatz und verwalten Sie die Grenzwerte für externe Systeme mithilfe von Datenquellen und benutzerdefinierten Aktionen.
 - **[Verwenden benutzerdefinierter Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](../using/building-journeys/custom-action-aep.md)** – Konfigurieren Sie authentifizierte Aufrufe und HTTP-API-Endpunkte, um Journey-Ereignisse in Adobe Experience Platform zu schreiben.
-- **[Entfernen von Profilen von einer Live-Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** - Aus Geschäfts- oder Betriebsgründen müssen Sie möglicherweise einige Profile von einer Live-Journey entfernen und Profile ausschließen, die bestimmten Kriterien entsprechen, die derzeit auf der Journey vorhanden sind. Dies kann durch Pausieren der Journey geschehen.
+- **[Entfernen von Profilen von einer Live-Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** - Aus Geschäfts- oder Betriebsgründen müssen Sie möglicherweise einige Profile von einer Live-Journey entfernen und Profile ausschließen, die bestimmten Kriterien entsprechen, die derzeit auf der Journey vorhanden sind. Dies kann durch Pausieren der Journey geschehen.
