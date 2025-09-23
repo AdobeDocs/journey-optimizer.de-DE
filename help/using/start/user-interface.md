@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
 workflow-type: tm+mt
 source-wordcount: '1807'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch 
 
 >[!NOTE]
 >
->* Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen [ von Ihren ](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder den Adobe-Support.
+>* Welche Komponenten und Funktionen in Ihrer Umgebung verfügbar sind, hängt von Ihren [Berechtigungen](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder den Adobe-Support.
 >
 >* Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
 >
@@ -360,5 +360,5 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
->title="Datensatz-Suchaktivität"
->abstract="Die Aktivität **[!UICONTROL Datensatzsuche]** ermöglicht während der Laufzeit das dynamische Abrufen von Daten aus Adobe Experience Platform-Datensatzdatensätzen. Durch die Nutzung dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden, um sicherzustellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitnah sind."
+>title="Aktivität „Datensatzsuche“"
+>abstract="Die Aktivität **[!UICONTROL Datensatzsuche]** ermöglicht während der Laufzeit das dynamische Abrufen von Daten aus Adobe Experience Platform-Eintragsdatensätzen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind."

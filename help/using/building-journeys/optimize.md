@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
 source-wordcount: '1298'
-ht-degree: 35%
+ht-degree: 38%
 
 ---
 
@@ -166,7 +166,7 @@ Vergleichen Sie eine Wartezeit von 24 Stunden mit einer Wartezeit von 72 Stunden
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="Was ist ein Fallback-Pfad?"
->abstract="Fallback-Pfade ermöglichen es Ihrer Zielgruppe, einen alternativen Pfad einzugeben, wenn keine Targeting-Regeln qualifiziert sind. </br>Wenn Sie diese Option nicht auswählen, wird die Zielgruppe, die sich nicht für eine Zielgruppenbestimmungsregel qualifiziert, nicht in den Fallback-Pfad aufgenommen und die Journey wird beendet."
+>abstract="Mit Fallback-Pfaden kann Ihre Zielgruppe einen alternativen Pfad beschreiten, falls keine der Targeting-Regeln erfüllt wird. </br>Wenn Sie diese Option nicht aktivieren, werden Zielgruppen, die sich für keine Targeting-Regel qualifizieren, nicht in den Fallback-Pfad aufgenommen. Zudem wird die Journey beendet."
 
 Mit Targeting-Regeln können Sie bestimmte Regeln oder Qualifikationen festlegen, die eine Kundin oder ein Kunde basierend auf bestimmten Zielgruppensegmenten erfüllen muss, um für den Eintritt in einen der Journey-Pfade berechtigt zu <!-- depending on profile attributes or contextual attributes-->.
 

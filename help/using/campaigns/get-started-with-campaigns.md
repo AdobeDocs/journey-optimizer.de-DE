@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -56,52 +56,52 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
->abstract="Kampagnentyp auswählen. Die verfügbaren Kanäle variieren je nach ausgewähltem Typ. <br>**Geplante Kampagnen** (Aktionskampagnen) - Ideal für einfache, einmalige Batch-Nachrichten, deren Ausführung zu einem bestimmten Zeitpunkt geplant werden kann.<br>**API-ausgelöste Kampagnen** - Wird über einen API-Aufruf aktiviert, wodurch automatisiertes, ereignisbasiertes Messaging direkt von externen Systemen aus ermöglicht wird.<br>**Orchestrierte Kampagnen** - Stellen Sie eine visuelle Drag-and-Drop-Arbeitsfläche bereit, um komplexe, mehrstufige Marketing-Workflows zu entwerfen und zu automatisieren, von der Zielgruppensegmentierung bis zum kanalübergreifenden Versand personalisierter Nachrichten."
+>abstract="Wählen Sie den Kampagnentyp aus. Die verfügbaren Kanäle variieren je nach ausgewähltem Typ. <br>**Geplante Kampagnen** (Aktionskampagnen) – Ideal für einfache, einmalige Batch-Nachrichten, deren Ausführung für einen bestimmten Zeitpunkt geplant werden kann.<br>**Per API ausgelöste Kampagnen** – Werden über einen API-Aufruf aktiviert, wodurch direkt von externen Systemen aus automatisiertes, ereignisbasiertes Messaging ermöglicht wird.<br>**Orchestrierte Kampagnen** – Stellen eine visuelle Drag-and-Drop-Arbeitsfläche bereit, auf der komplexe, mehrstufige Marketing-Workflows entworfen und automatisiert werden können: von der Zielgruppensegmentierung bis hin zum kanalübergreifenden Versand personalisierter Nachrichten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Kampagnen"
->abstract="Erstellen Sie Ihren Segmentierungsfluss, erstellen Sie Ihre kanalübergreifenden Nachrichten und planen Sie Ihre Kampagnen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigung."
+>abstract="Erstellen Sie Ihren Segmentierungsfluss, gestalten Sie Ihre kanalübergreifenden Nachrichten und planen Sie Ihre Kampagnen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigung."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
 >title="Kampagnen"
->abstract="Einmalige oder wiederkehrende ausgehende Sendungen oder fortlaufende eingehende Aktionen bereitstellen."
+>abstract="Führen Sie einzelne oder wiederkehrende ausgehende Sendungen bzw. fortlaufende eingehende Aktionen aus."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="Kampagnen"
->abstract="Einmalige oder wiederkehrende ausgehende Transaktionsaktionen bereitstellen."
+>abstract="Stellen Sie einzelne oder wiederkehrende ausgehende Transaktionsaktionen bereit."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
 >title="Kampagnen"
->abstract="Personalisierte Marketing-Kommunikation für ausgewählte Zielgruppen bereitstellen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigungen."
+>abstract="Stellen Sie personalisierte Marketing-Nachrichten für ausgewählte Zielgruppen bereit. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigungen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
 >title="Kampagnen"
->abstract="Transaktionsnachrichten an einzelne Profile oder Profilgruppen senden. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigungen."
+>abstract="Senden Sie Transaktionsnachrichten an einzelne Profile oder Profilgruppen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigungen."
 
 Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für eine bestimmte Zielgruppe bereitzustellen. Bei Verwendung von Journeys werden die Aktionen nacheinander ausgeführt. Bei Kampagnen werden die Aktionen gleichzeitig ausgeführt, entweder sofort oder nach einem bestimmten Zeitplan.
 
 ![](assets/gs-campaigns.png)
 
-In Journey Optimizer können Sie verschiedene Kampagnentypen erstellen. Die unterstützten Kanäle und Anwendungsfälle hängen vom Kampagnentyp ab. Diese Typen sind unten aufgeführt.
+In Journey Optimizer können Sie verschiedene Kampagnentypen erstellen: Die unterstützten Kanäle und Anwendungsfälle hängen vom Kampagnentyp ab. Diese Typen sind unten aufgeführt.
 
 * **Aktionskampagnen**
 
-  Aktionskampagnen (oder geplante Kampagnen) ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen. Weitere Informationen zu den Funktionen, Anwendungsfällen und unterstützten Kanälen von Action-Kampagnen [auf dieser Seite](create-campaign.md).
+  Aktionskampagnen (oder geplante Kampagnen) ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten für Marketing-Zwecke wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen. Weitere Informationen zu Funktionen, Anwendungsfällen und unterstützten Kanälen bei Aktionskampagnen finden Sie [auf dieser Seite](create-campaign.md).
 
 * **Durch API ausgelöste Kampagnen**
 
-  API-ausgelöste Kampagnen ermöglichen es, dass Marketing-Nachrichten eine Zielgruppe zum richtigen Zeitpunkt ansprechen oder dass Transaktions-/Betriebsnachrichten an einen Kontakt gerichtet werden, z. B. zum Zurücksetzen des Kennworts. Dabei kann eine Personalisierung erforderlich sein, indem nicht nur das Profilattribut, sondern auch die Echtzeit-Kontextdaten im Trigger verwendet werden, der eine REST-API-Payload ist. Weitere Informationen zu den Funktionen, Anwendungsfällen und unterstützten Kanälen von API-ausgelösten Kampagnen [auf dieser Seite](api-triggered-campaigns.md).
+  Durch API ausgelöste Kampagnen ermöglichen den Versand von Marketing-Nachrichten an eine Zielgruppe zum richtigen Zeitpunkt oder den Versand von Transaktions-/Betriebsnachrichten an einen Kontakt, z. B. zum Zurücksetzen des Passworts. Dabei kann eine Personalisierung erforderlich sein, bei der nicht nur das Profilattribut, sondern auch die Echtzeit-Kontextdaten im Trigger verwendet werden, der eine REST-API-Payload ist. Weitere Informationen zu Funktionen, Anwendungsfällen und unterstützten Kanälen bei durch API ausgelösten Kampagnen finden Sie [auf dieser Seite](api-triggered-campaigns.md).
 
 * **Orchestrierte Kampagnen**
 
   Die Kampagnenorchestrierung in Adobe Journey Optimizer ermöglicht kanalübergreifend anspruchsvolle, markeninitiierte Marketing-Kampagnen und hilft Ihnen so, die Interaktion, den Umsatz und die Kundentreue im benötigten Umfang zu fördern.
 
-  Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen machen es nahtlos. Auf einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis hin zum Nachrichtenversand, über mehrere Kanäle hinweg entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist. Erfahren Sie mehr über die Funktionen, Anwendungsfälle und unterstützten Kanäle [auf dieser Seite](../orchestrated/gs-orchestrated-campaigns.md).
+  Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen machen es nahtlos. Auf einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis hin zum Nachrichtenversand, über mehrere Kanäle hinweg entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist. Weitere Informationen zu Funktionen, Anwendungsfällen und unterstützten Kanälen bei orchestrierten Kampagnen finden Sie [auf dieser Seite](../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Voraussetzungen {#prerequisites}
 

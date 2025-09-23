@@ -12,7 +12,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Wechseln zum dunklen Modus"
->abstract="Wechseln Sie in den Dunkelmodus, in dem Sie eine Vorschau des Renderings anzeigen und spezifische benutzerdefinierte Einstellungen definieren können. <br>Das endgültige Rendering hängt vom E-Mail-Client des Empfängers ab. Beachten Sie, dass nicht alle E-Mail-Clients den benutzerdefinierten Dunkelmodus unterstützen."
+>abstract="Wechseln Sie in den dunklen Modus, um eine Vorschau des Renderings anzuzeigen und bestimmte benutzerdefinierte Einstellungen vorzunehmen. <br>Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Beachten Sie, dass nicht alle E-Mail-Clients den benutzerdefinierten dunklen Modus unterstützen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Wechseln zum dunklen Modus"
->abstract="Wechseln Sie zum dunklen Modus, um eine Vorschau des Renderings auf unterstützenden E-Mail-Clients anzuzeigen. <br>Das endgültige Rendering hängt vom E-Mail-Client des Empfängers ab. Beachten Sie, dass alle E-Mail-Clients den Dunkelmodus nicht unterstützen."
+>abstract="Wechseln Sie zum dunklen Modus, um eine Vorschau des Renderings auf unterstützenden E-Mail-Clients anzuzeigen. <br>Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Beachten Sie, dass nicht alle E-Mail-Clients den dunklen Modus unterstützen."
 
 Designer Beim Entwerfen Ihrer E-Mails können Sie mit [!DNL Journey Optimizer] [E-Mail-](get-started-email-design.md)) zur Ansicht **[!UICONTROL Dunkelmodus]** wechseln.
 
@@ -168,7 +168,7 @@ Here you can see that we have applied a different background, defined another im
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_image"
 >title="Verwenden eines bestimmten Bildes für den dunklen Modus"
->abstract="Es kann ein anderes Bild ausgewählt werden, das angezeigt wird, wenn der dunkle Modus aktiviert ist. <br>Das Hinzufügen eines bestimmten Bildes für den Dunkelmodus garantiert nicht, dass es in allen E-Mail-Clients korrekt gerendert wird. Beachten Sie, dass nicht alle E-Mail-Clients den benutzerdefinierten Dunkelmodus unterstützen."
+>abstract="Es kann ein anderes Bild ausgewählt werden, das angezeigt wird, wenn der dunkle Modus aktiviert ist. <br>Das Hinzufügen eines bestimmten Bildes für den dunklen Modus garantiert nicht, dass es in allen E-Mail-Clients ordnungsgemäß gerendert wird. Beachten Sie, dass nicht alle E-Mail-Clients den benutzerdefinierten dunklen Modus unterstützen."
 
 Nach dem Wechsel in den **[!UICONTROL dunklen Modus]** können Sie bestimmte Stilelemente Ihres Inhalts bearbeiten, die nur angezeigt werden, wenn der dunkle Modus im E-Mail-Client der Empfängerin bzw. des Empfängers aktiviert ist, sofern diese Funktion unterstützt wird.
 
