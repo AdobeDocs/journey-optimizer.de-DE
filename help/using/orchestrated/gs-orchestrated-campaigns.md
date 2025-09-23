@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen ma
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-➡️ [Entdecken Sie orchestrierte Kampagnen im Video](#video-oc)
+➡️ [Orchestrierte Kampagnen im Video kennenlernen](#video-oc)
 
 ## Kernfunktionen
 
@@ -52,7 +52,7 @@ Unterstützt den Versand auf mehreren Ebenen, bei dem pro Profil und zugehörige
 
 >[!NOTE]
 >
->Folgende Kanäle werden unterstützt: [E](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Push-Benachrichtigungen](../push/get-started-push.md).
+>Folgende Kanäle werden unterstützt: [E-Mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Push-Benachrichtigungen](../push/get-started-push.md).
 >
 >Die verfügbaren Kanäle variieren je nach Ihrem Lizenzierungsmodell und Ihren Add-ons.
 
@@ -85,7 +85,7 @@ Jede orchestrierte Kampagne enthält:
 
 ## Einführungsvideo {#video-oc}
 
-Lernen Sie die wichtigsten Konzepte und Funktionen kennen, die mit orchestrierten Kampagnen verfügbar sind.
+Lernen Sie die wichtigsten Konzepte und Funktionen kennen, die bei orchestrierten Kampagnen verfügbar sind.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
