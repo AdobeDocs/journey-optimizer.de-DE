@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
+source-git-commit: 0d58a5075e6459ee7d46192f7bc1c9ee0b8b70bf
 workflow-type: tm+mt
-source-wordcount: '3111'
-ht-degree: 66%
+source-wordcount: '3032'
+ht-degree: 68%
 
 ---
 
@@ -237,15 +237,15 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 
 * **Berechtigungen für Genehmigungsrichtlinien**
 Beim Erstellen oder Festlegen einer Validierungsrichtlinie wurde eine Option hinzugefügt, um zu verhindern, dass Journey-/Kampagnenerstellende ihre eigenen Objekte validieren.
-<!-->
-* **Neue Journey-Warnhinweise**\
-  Neue vorkonfigurierte Warnhinweise sind für Journey verfügbar:
+<!--
+* **New Journey Alerts**  
+  New pre-configured alerts are available for journeys:
 
-   * Profil-Verwerfungsrate überschritten: Verhältnis der Verwerfen-Aktionen von Profilen zu den eingegebenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten.
-   * Fehlerrate für benutzerdefinierte Aktion überschritten: Verhältnis der Fehler benutzerdefinierter Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten überschritten. Schwellenwert
-   * Profilfehlerrate überschritten: Verhältnis der fehlerhaften Profile zu den eingegebenen Profilen in den letzten 5 Minuten haben den Schwellenwert überschritten.
+  * Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
-  Sie können Schwellenwerte ändern und Warnhinweise auf Journey-Ebene im Vergleich zu globalen Warnhinweisen abonnieren.
+  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
 -->
 
 * **Verschachtelte JSON-Textparameter werden jetzt in der benutzerdefinierten Authentifizierung unterstützt**\
