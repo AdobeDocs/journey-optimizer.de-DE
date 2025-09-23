@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Um Konformität mit den Regeln der Barrierefreiheit zu erreichen, folgt [!DNL Jo
 
 >[!NOTE]
 >
->Richtlinien zum Entwerfen barrierefreier Inhalte für Ihre E-Mails und Landingpages finden Sie [ (diesem Abschnitt](../email/accessible-content.md).
+>Richtlinien zum Entwerfen barrierefreier Inhalte für Ihre E-Mails und Landingpages finden Sie in [diesem Abschnitt](../email/accessible-content.md).
 
 Die Barrierefreiheitsfunktionen in [!DNL Adobe Journey Optimizer] werden von Adobe Experience Platform übernommen:
 

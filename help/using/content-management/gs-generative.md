@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: cf9c6370af9541dc0e1361eb42c942d1744a1aae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 97%
 
 Der KI-Assistent in Adobe Journey Optimizer, der von Microsoft Azure OpenAI und Adobe Firefly unterstützt wird, liefert proaktiv Vorschläge zur Variation von Text- und Bildinhalten. Diese neue Funktion bietet eine **auf Prompts basierende Text- und Bildgenerierung**. Die Bildgenerierung wird von Adobe Firefly vewaltet.
 
-Der KI-Assistent unterstützt die Generierung **in mehreren Sprachen** sodass Sie unterschiedliche globale Zielgruppen erreichen und ansprechen können. Der KI-Assistent ist in den folgenden Sprachen verfügbar:
+Der KI-Assistent unterstützt die Generierung **in mehreren Sprachen**, sodass Sie unterschiedliche globale Zielgruppen erreichen und ansprechen können. Der KI-Assistent ist in den folgenden Sprachen verfügbar:
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>

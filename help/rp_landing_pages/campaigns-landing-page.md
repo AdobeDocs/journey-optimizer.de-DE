@@ -6,21 +6,21 @@ description: Kampagnen
 redpen-status: CREATED_||_2025-08-11_20-28-03
 exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '210'
+ht-degree: 100%
 
 ---
 
 # Kampagnen{#section-overview}
 
-Mit Kampagnen in Adobe Journey Optimizer können Sie personalisierte, zeitnahe und wirkungsvolle Nachrichten kanalübergreifend versenden, sodass Sie Ihre Zielgruppe effektiver ansprechen können. Unabhängig davon, ob Sie eine einmalige Werbe-E-Mail planen, Echtzeit-Transaktionsnachrichten automatisieren oder komplexe mehrstufige Journey orchestrieren, es gibt einen Kampagnentyp, der auf Ihre Bedürfnisse zugeschnitten ist. In diesem Abschnitt werden die drei Hauptkampagnentypen vorgestellt: Aktionskampagnen, durch API ausgelöste Kampagnen und orchestrierte Kampagnen, wobei jeweils ihre einzigartigen Stärken und Anwendungsfälle hervorgehoben werden. Außerdem erfahren Sie mehr über die wichtigsten Bausteine wie Berechtigungen, Zielgruppen-Setup und Kanalkonfigurationen und stellen sicher, dass Sie über alle erforderlichen Elemente zum Erstellen und Verwalten von Kampagnen verfügen, die bei Ihren Kunden Anklang finden.
+Mit Kampagnen in Adobe Journey Optimizer können Sie personalisierte, zeitnahe und wirkungsvolle Nachrichten kanalübergreifend versenden, sodass Sie Ihre Zielgruppe effektiver ansprechen können. Ganz gleich, ob Sie eine einmalige Werbe-E-Mail planen, Transaktionsnachrichten in Echtzeit automatisieren oder komplexe mehrstufige Journeys orchestrieren möchten – es gibt einen Kampagnentyp, der genau auf Ihre Anforderungen zugeschnitten ist. In diesem Abschnitt werden die drei Hauptkampagnentypen vorgestellt: Aktionskampagnen, durch API ausgelöste Kampagnen und orchestrierte Kampagnen, wobei jeweils ihre einzigartigen Stärken und Anwendungsfälle hervorgehoben werden. Außerdem erfahren Sie mehr über die wichtigsten Bausteine wie Berechtigungen, Zielgruppen-Setup und Kanalkonfigurationen. So wird sichergestellt, dass Sie über alle Voraussetzungen verfügen, um Kampagnen zu erstellen und zu verwalten, die bei Ihrer Kundschaft Anklang finden.
 
 ## Überblick über Kampagnen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Kampagnen
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen von Kampagnen in Adobe Journey Optimizer kennen, einsc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Zugreifen auf und Verwalten von Kampagnen
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie auf Kampagnen zugreifen, diese verwalten, ändern oder arc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aktionskampagnen
 
@@ -50,7 +50,7 @@ Schrittweise Anleitungen zum Erstellen, Anpassen und Aktivieren von Aktionskampa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Durch API ausgelöste Kampagnen
 
@@ -60,7 +60,7 @@ Umfassende Anleitung für Entwickelnde zum Erstellen und Verwalten von durch API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Orchestrierte Kampagnen
 
