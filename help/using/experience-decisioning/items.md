@@ -79,7 +79,7 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="Hinzufügen von Zielgruppen oder Entscheidungsregeln"
->abstract="Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken.
+>abstract="Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken."
 
 <!--
 >"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
