@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2b342c80623416a7e54ac96d777da7a4aaefb3b8
-workflow-type: ht
-source-wordcount: '1807'
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+workflow-type: tm+mt
+source-wordcount: '1758'
 ht-degree: 100%
 
 ---
@@ -355,10 +355,3 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >id="ajo_journey_business_rules"
 >title="Regelsatz"
 >abstract="Regelsatz"
-
-<!-- DATASET LOOKUP IN JOURNEYS -->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_dataset_lookup"
->title="Aktivität „Datensatzsuche“"
->abstract="Die Aktivität **[!UICONTROL Datensatzsuche]** ermöglicht während der Laufzeit das dynamische Abrufen von Daten aus Adobe Experience Platform-Eintragsdatensätzen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind."

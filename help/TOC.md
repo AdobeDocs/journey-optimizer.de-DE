@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2956'
 ht-degree: 99%
 
 ---
@@ -80,18 +80,19 @@ ht-degree: 99%
       + [Reaktion](using/building-journeys/reaction-events.md)
       + [Zielgruppen-Qualifizierung](using/building-journeys/audience-qualification-events.md)
       + [Optimieren](using/building-journeys/optimize.md)
-      + [Zielgruppe lesen](using/building-journeys/read-audience.md)
-      + [Warten](using/building-journeys/wait-activity.md)
       + [Bedingungen](using/building-journeys/conditions.md)
       + [Bedingung](using/building-journeys/condition-activity.md)
+      + [Zielgruppe lesen](using/building-journeys/read-audience.md)
+      + [Warten](using/building-journeys/wait-activity.md)
       + [Inhaltsentscheidung](using/building-journeys/content-decision.md)
+      + [Datensatzsuche](using/building-journeys/dataset-lookup.md)
       + [Aktion](using/building-journeys/journey-action.md)
       + [Integrierte Kanalaktionen](using/building-journeys/journeys-message.md)
+      + [Sprung](using/building-journeys/jump.md)
+      + [Aktualisieren des Profils](using/building-journeys/update-profiles.md)
       + [Benutzerdefinierte Aktionen](using/building-journeys/using-custom-actions.md)
       + [Aktionen in Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Aktionen in Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
-      + [Sprung](using/building-journeys/jump.md)
-      + [Aktualisieren des Profils](using/building-journeys/update-profiles.md)
    + Erstellen von Ausdrücken {#building-advanced-conditions-journeys}
       + [Erstellen von Ausdrücken](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Arbeiten mit dem erweiterten Ausdruckseditor](using/building-journeys/expression/expressionadvanced.md)

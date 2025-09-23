@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '718'
 ht-degree: 94%
 
 ---
@@ -47,6 +47,7 @@ In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchest
 * [Zielgruppe lesen](read-audience.md)
 * [Warten](wait-activity.md)
 * [Inhaltsentscheidung](content-decision.md)
+* [Datensatzsuche](dataset-lookup.md)
 
 ![Palette „Orchestrierungsaktivitäten“ im Journey-Designer](assets/journey-orchestration-activities.png)
 
