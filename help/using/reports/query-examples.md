@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 86%
+source-wordcount: '1554'
+ht-degree: 83%
 
 ---
 
@@ -46,6 +46,8 @@ AND _experience.journeyOrchestration.stepEvents.nodeType='start'
 AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
+Erfahren Sie, wie Sie [Fehlerbehebung bei verworfenen Ereignistypen in Journey_STEP_EVENTS](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
@@ -473,6 +475,9 @@ ORDER BY DATE(timestamp) desc
 ```
 
 Die Abfrage gibt für den definierten Zeitraum die Anzahl der Profile zurück, die täglich in die Journey eingetreten sind. Wenn ein Profil über mehrere Identitäten eingetreten ist, wird es zweimal gezählt. Wenn der erneute Eintritt aktiviert ist, kann die Anzahl der Profile über unterschiedliche Tage hinweg mehrfach gezählt werden, wenn ein Profil an einem anderen Tag erneut in die Journey eingetreten ist.
+
+Erfahren Sie, wie Sie [Fehlerbehebung bei verworfenen Ereignistypen in Journey_STEP_EVENTS](../reports/sharing-field-list.md#discarded-events).
+
 
 +++
 
@@ -969,6 +974,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
+Erfahren Sie, wie Sie [Fehlerbehebung bei verworfenen Ereignistypen in Journey_STEP_EVENTS](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 +++Überprüfung, ob ein externes Ereignis eines Profils aus einem anderen Grund verworfen wurde
@@ -997,6 +1004,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
+Erfahren Sie, wie Sie [Fehlerbehebung bei verworfenen Ereignistypen in Journey_STEP_EVENTS](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 +++Überprüfung der Anzahl aller von stateMachine verworfenen Ereignisse nach errorCode
@@ -1016,6 +1025,8 @@ SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, CO
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
+
+Erfahren Sie, wie Sie [Fehlerbehebung bei verworfenen Ereignistypen in Journey_STEP_EVENTS](../reports/sharing-field-list.md#discarded-events).
 
 +++
 
@@ -1043,6 +1054,8 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
+Erfahren Sie, wie Sie [Fehlerbehebung bei verworfenen Ereignistypen in Journey_STEP_EVENTS](../reports/sharing-field-list.md#discarded-events).
+
 +++
 
 ## Häufige Journey-basierte Abfragen {#journey-based-queries}
@@ -1068,6 +1081,7 @@ ORDER BY DATE(timestamp) desc
 ```
 
 Die Abfrage gibt für den definierten Zeitraum die Anzahl der eindeutigen Journeys zurück, die jeden Tag ausgelöst wurden. Eine einzelne Journey, die an mehreren Tagen ausgelöst wird, wird einmal pro Tag gezählt.
+
 
 +++
 

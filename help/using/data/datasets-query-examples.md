@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 99%
 
 ---
 
@@ -241,7 +241,7 @@ group by
 
 Siehe auch einige häufig verwendete [Beispiele zum Abfragen von Journey-Schrittereignissen](../reports/query-examples.md).
 
-
+Erfahren Sie, wie Sie [Fehlerbehebung bei verworfenen Ereignistypen in Journey_STEP_EVENTS](../reports/sharing-field-list.md#discarded-events).
 
 ## Ereignisdatensatz zur Entscheidungsfindung{#ode-decisionevents}
 
