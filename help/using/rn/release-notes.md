@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
+source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
 workflow-type: tm+mt
-source-wordcount: '3097'
-ht-degree: 67%
+source-wordcount: '3111'
+ht-degree: 66%
 
 ---
 
@@ -237,7 +237,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 
 * **Berechtigungen für Genehmigungsrichtlinien**
 Beim Erstellen oder Festlegen einer Validierungsrichtlinie wurde eine Option hinzugefügt, um zu verhindern, dass Journey-/Kampagnenerstellende ihre eigenen Objekte validieren.
-
+<!-->
 * **Neue Journey-Warnhinweise**\
   Neue vorkonfigurierte Warnhinweise sind für Journey verfügbar:
 
@@ -246,6 +246,7 @@ Beim Erstellen oder Festlegen einer Validierungsrichtlinie wurde eine Option hin
    * Profilfehlerrate überschritten: Verhältnis der fehlerhaften Profile zu den eingegebenen Profilen in den letzten 5 Minuten haben den Schwellenwert überschritten.
 
   Sie können Schwellenwerte ändern und Warnhinweise auf Journey-Ebene im Vergleich zu globalen Warnhinweisen abonnieren.
+-->
 
 * **Verschachtelte JSON-Textparameter werden jetzt in der benutzerdefinierten Authentifizierung unterstützt**\
   Beim Konfigurieren der benutzerdefinierten Authentifizierung für eine benutzerdefinierte Aktion werden jetzt verschachtelte JSON-Objekte (z. B. Unterobjekte innerhalb von `bodyParams`) unterstützt.
@@ -258,9 +259,9 @@ Beim Erstellen oder Festlegen einer Validierungsrichtlinie wurde eine Option hin
 * **mTLS-Unterstützung für SMS-Kanal**
 Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Möglichkeit, die gegenseitige TLS-Authentifizierung (MTLS) zu aktivieren. Dazu müssen sowohl der Client als auch der Server die Identitäten der anderen Seite bestätigen, bevor eine sichere Verbindung hergestellt wird.
 
-<!--* **Model-based Schemas**  
-  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
--->
+
+* **Modellbasierte Schemata**\
+  Relationale Schemata werden in orchestrierten Kampagnen jetzt als modellbasierte Schemata bezeichnet.
 
 * **Unterstützung der Datensatzsuche in Journey**\
   Eine neue Aktivität in Journey, **Datensatzsuche**, ermöglicht während der Laufzeit das dynamische Abrufen von Daten aus Adobe Experience Platform-Datensatzdatensätzen. Durch die Nutzung dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden, um sicherzustellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitnah sind.
