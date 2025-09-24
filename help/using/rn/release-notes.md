@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c708f33079da6d3e739dcec86870623fad40a69b
+source-git-commit: 4bb9b6d614a434f3906fded06cbcaef14f1cb255
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 44%
+source-wordcount: '1798'
+ht-degree: 43%
 
 ---
 
@@ -276,7 +276,7 @@ Die folgenden Funktionen und Verbesserungen sind für die kommenden Tage geplant
 <p>Erstellen, entwerfen und verwalten Sie benutzerdefinierte Formulare, die auf Ihre Anforderungen zugeschnitten sind und auf einem bestimmten Datensatz basieren. Sie können diese Formulare dann in Landingpages nutzen, um die Profilattribute Ihrer Wahl zu dem für jedes Formular definierten Datensatz hinzuzufügen.</p>
 <p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../landing-pages/lp-forms.md">ausführlichen Dokumentation</a>.</p>
+<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p-->
 </td>
 </tr>
 </tbody>
@@ -310,11 +310,15 @@ Die folgenden Funktionen und Verbesserungen sind für die kommenden Tage geplant
 * **Neue Journey-Warnhinweise**\
   Neue vorkonfigurierte Warnhinweise sind für Journey verfügbar:
 
-   * [Profilverwerfungsrate überschritten](../reports/alerts.md#profile-discard-rate-exceeded): Verhältnis der Profilverwerfen zu den in den letzten 5 Minuten eingetretenen Profilen hat den Schwellenwert überschritten.
-   * [Fehlerrate für benutzerdefinierte Aktion überschritten](../reports/alerts.md#custom-action-error-rate-exceeded): Verhältnis der Fehler benutzerdefinierter Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten hat den Schwellenwert überschritten.
-   * [Profilfehlerrate überschritten](../reports/alerts.md#profile-error-rate-exceeded): Verhältnis der fehlerhaften Profile zu den eingegebenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten.
+   * Profil-Verwerfungsrate überschritten: Verhältnis der Verwerfen-Aktionen von Profilen zu den eingegebenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten.
+   * Fehlerrate für benutzerdefinierte Aktion überschritten: Verhältnis der Fehler benutzerdefinierter Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten überschritten. Schwellenwert
+   * Profilfehlerrate überschritten: Verhältnis der fehlerhaften Profile zu den eingegebenen Profilen in den letzten 5 Minuten haben den Schwellenwert überschritten.
+<!--
+  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-  Sie können Schwellenwerte ändern und Warnhinweise auf Journey-Ebene im Vergleich zu globalen Warnhinweisen abonnieren.
+Sie können Schwellenwerte ändern und Warnhinweise auf Journey-Ebene im Vergleich zu globalen Warnhinweisen abonnieren.
 
 
 * **Unterstützung benutzerdefinierter Attribute mit 1-Klick-Abmelde-URL**\
