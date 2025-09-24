@@ -148,7 +148,7 @@ Der Journey-Status hängt von ihrem Lebenszyklus ab. Es kann sich handeln um:
 
 >[!NOTE]
 >
->* Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: **Publishing** (zwischen „Entwurf“ und „Live„), **Aktivieren des Testmodus** oder **Deaktivieren des Testmodus** (zwischen **Entwurf** und **Entwurf(test)**), **Stoppen** (zwischen **Live** und **gestoppt**, **** (aused **und** Live **),** Pausing **Pausing** (LiveLive **und** Paused ****), wenn eine Journey in Status, er ist schreibgeschützt.
+>* Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: **Publishing** (zwischen „Entwurf“ und „Live„), **Aktivieren des Testmodus** oder **Deaktivieren des Testmodus** (zwischen **Entwurf** und **Entwurf(test)**), **Stoppen** (zwischen **Live** und **gestoppt**, **&#x200B;**&#x200B;(aused **und** Live **),** Pausing **Pausing** (LiveLive **und** Paused **&#x200B;**), wenn eine Journey in Status, er ist schreibgeschützt.
 >
 >* Wenn Sie eine Live **-Journey ändern müssen** erstellen [eine neue Version ](#journey-versions) Journey. Sie können Ihre Live-Journey auch anhalten, alle erforderlichen Änderungen vornehmen und sie jederzeit wieder aufnehmen. [Weitere Informationen zum Pausieren von Journey](../building-journeys/journey-pause.md)
 
