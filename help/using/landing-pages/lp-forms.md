@@ -12,9 +12,9 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 7cbc4c7964d3fe9b79cbbff3917216f624286dba
+source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1575'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ Um Profildaten mit Ihren [!DNL Journey Optimizer] Landingpages zu erfassen und I
 >id="ajo_lp_form_connection"
 >title="Auswahl des zu verwendenden Endpunkts"
 >abstract="Definieren Sie den Streaming-Endpunkt, an den Daten beim Senden des Formulars gesendet werden."
->additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Erstellen einer HTTP-API-Streaming-Verbindung"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Erstellen einer HTTP-API-Streaming-Verbindung"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Beim Erstellen einer Voreinstellung:
 
    >[!NOTE]
    >
-   >Weitere Informationen zum Erstellen einer Streaming-Quellverbindung finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Weitere Informationen zum Erstellen einer Streaming-Quellverbindung finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können eingeben, um einen bestimmten Datensatz zu durchsuchen, oder ihn aus der Liste auswählen.
 
@@ -93,11 +93,11 @@ Alle vorhandenen Formulare werden angezeigt. Sie können Formulare nach Status, 
 >id="ajo_lp_form_preset"
 >title="Voreinstellung auswählen"
 >abstract="Wählen Sie eine vordefinierte Vorgabe aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Erstellen einer Formularvorgabe"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Erstellen einer Formularvorgabe"
 
 Gehen Sie wie folgt vor, um ein Formular zu erstellen.
 
-1. Klicken Sie in der Liste **&#x200B;**&#x200B;Forms **[!UICONTROL auf „Formular erstellen]**.
+1. Klicken Sie in der Liste **** Forms **[!UICONTROL auf „Formular erstellen]**.
 
 1. Einen Namen hinzufügen. Sie können bei Bedarf eine Beschreibung hinzufügen.
 
@@ -107,39 +107,57 @@ Gehen Sie wie folgt vor, um ein Formular zu erstellen.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Der Formular-Designer wird geöffnet. Dort können Sie Strukturen und Inhalte ([) hinzufügen](../email/content-components.md#add-content-components) um Inhalte zu erstellen. Sie können die Komponenten [Text](../email/content-components.md#text) und **[!UICONTROL Feld]** verwenden.
 
-1. Um dem Formular bestimmte Felder hinzuzufügen, ziehen Sie eine Struktur per Drag-and-Drop auf die Arbeitsfläche und ziehen Sie eine Komponente **[!UICONTROL Feld]** in das Formular<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
+1. Um Profildaten und Attribute zu erfassen, fügen Sie dem Formular bestimmte Felder hinzu. [Weitere Informationen](#define-fields)
 
-   ![](assets/lp_create-form-field.png)
+1. Konfigurieren und gestalten Sie diese Felder. [Weitere Informationen](#configure-fields)
 
-   Wählen Sie dann eine der folgenden Optionen aus:
+1. Sie können das Layout, die Formatierung und die Abmessungen des Formulars nach Bedarf mithilfe des Bereichs **[!UICONTROL Stile]** anpassen. [Erfahren Sie mehr über das Styling](../email/get-started-email-style.md)
 
-   >[!BEGINTABS]
+1. Nachdem Sie alle Felder konfiguriert haben, klicken Sie auf **[!UICONTROL Speichern und schließen]**.
 
-   >[!TAB Feldattribut auswählen]
+1. Konfigurieren Sie die Dankesseite. [Weitere Informationen](#thank-you-page)
 
-   Verwenden Sie diese Option, um ein Attribut basierend auf dem Datensatzschema auszuwählen, das mit Ihrem Formular verknüpft ist.
+1. **[!UICONTROL Veröffentlichen]** des Formulars, um es für die Auswahl auf Landingpages verfügbar zu machen.
 
-   >[!NOTE]
-   >
-   >Der Datensatz wird in der für Ihr Formular ausgewählten Voreinstellung definiert. [Weitere Informationen](#create-form-preset)
+### Spezifische Felder definieren {#define-fields}
 
-   ![](assets/lp_select-field-attribute.png){width=100%}
+Um dem Formular bestimmte Felder hinzuzufügen, ziehen Sie eine Struktur per Drag-and-Drop auf die Arbeitsfläche und ziehen Sie eine Komponente **[!UICONTROL Feld]** in das Formular<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
 
-   Sie können beispielsweise die E-Mail-Adresse und die Personen-ID festlegen. Wenn Benutzer diese Felder ausfüllen, werden die eingegebenen Informationen im ausgewählten Datensatz gespeichert.
+![](assets/lp_create-form-field.png)
 
-   ![](assets/lp_create-form-field-attributes.png){width=55%}
+Wählen Sie dann eine der folgenden Optionen aus:
 
-   Um die erfassten Daten einem Profil zuzuordnen, wählen Sie ein Profilidentitätsfeld aus. Die Identitätsfelder werden in **[!UICONTROL Attributliste mit „Erforderlich]** gekennzeichnet, sodass Sie nach ihnen filtern können.
+>[!BEGINTABS]
 
-   ![](assets/lp_create-form-required-attributes.png){width=65%}
+>[!TAB Feldattribut auswählen]
 
-   >[!TAB Benutzerdefiniertes Feld hinzufügen]
+Verwenden Sie diese Option, um ein Attribut basierend auf dem Datensatzschema auszuwählen, das mit Ihrem Formular verknüpft ist.
 
-   Mit dieser Option können Sie einfach ein freies Feld definieren, ohne es einem Feld im verknüpften Datensatz zuzuordnen.
+>[!NOTE]
+>
+>Der Datensatz wird in der für Ihr Formular ausgewählten Voreinstellung definiert. [Weitere Informationen](#create-form-preset)
 
-   ![](assets/lp_create-form-custom-field.png){width=85%}
+![](assets/lp_select-field-attribute.png){width=100%}
 
-   >[!ENDTABS]
+Sie können beispielsweise die E-Mail-Adresse und die Personen-ID festlegen. Wenn Benutzer diese Felder ausfüllen, werden die eingegebenen Informationen im ausgewählten Datensatz gespeichert.
+
+![](assets/lp_create-form-field-attributes.png){width=55%}
+
+Um die erfassten Daten einem Profil zuzuordnen, wählen Sie ein Profilidentitätsfeld aus. Die Identitätsfelder werden in **[!UICONTROL Attributliste mit „Erforderlich]** gekennzeichnet, sodass Sie nach ihnen filtern können.
+
+![](assets/lp_create-form-required-attributes.png){width=65%}
+
+>[!TAB Benutzerdefiniertes Feld hinzufügen]
+
+Mit dieser Option können Sie einfach ein freies Feld definieren, ohne es einem Feld im verknüpften Datensatz zuzuordnen.
+
+![](assets/lp_create-form-custom-field.png){width=85%}
+
+>[!ENDTABS]
+
+### Konfigurieren und Entwerfen eines Felds {#configure-fields}
+
+Nachdem Sie ein Feldattribut ausgewählt oder ein benutzerdefiniertes Feld hinzugefügt haben, können Sie seine Details sowie sein Verhalten beim Senden des Formulars weiter anpassen.
 
 1. Im Abschnitt **[!UICONTROL Felddetails]** der Registerkarte **[!UICONTROL Inhalt]** auf der rechten Seite können Sie die folgenden Elemente nach Bedarf angeben:
 
@@ -166,14 +184,6 @@ Gehen Sie wie folgt vor, um ein Formular zu erstellen.
    * Wählen Sie **[!UICONTROL Eingabemaske aktivieren]**, um die Benutzereingabe durch generische Zeichen zu ersetzen. Sie können *9* für eine beliebige Zahl, *a* für einen beliebigen Buchstaben oder * für eine beliebige Zahl oder einen Buchstaben verwenden.<!--Not sure how you define that in the form-->
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
-
-1. Sie können das Layout, die Formatierung und die Abmessungen des Formulars nach Bedarf mithilfe des Bereichs **[!UICONTROL Stile]** anpassen. [Erfahren Sie mehr über das Styling](../email/get-started-email-style.md)
-
-1. Nachdem Sie alle Felder konfiguriert haben, klicken Sie auf **[!UICONTROL Speichern und schließen]**.
-
-1. Konfigurieren Sie die Dankesseite. [Weitere Informationen](#thank-you-page)
-
-1. **[!UICONTROL Veröffentlichen]** des Formulars, um es für die Auswahl auf Landingpages verfügbar zu machen.
 
 ### Konfigurieren der Dankesseite {#thank-you-page}
 
