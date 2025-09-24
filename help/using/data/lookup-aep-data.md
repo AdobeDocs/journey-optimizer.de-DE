@@ -11,10 +11,10 @@ level: Intermediate
 keywords: Ausdruck, Editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 16%
+source-wordcount: '757'
+ht-degree: 17%
 
 ---
 
@@ -55,15 +55,6 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 >[!NOTE]
 >
 >Wenn über die oben aufgeführten Leitplanken hinaus zusätzliche Volumes benötigt werden, wenden Sie sich an den Adobe-Support.
-
-### Weitere Überlegungen zur Leistung
-
-Die folgenden Empfehlungen geben Hinweise, wie Sie Verzögerungen bei der Zustellbarkeit vermeiden können:
-
-| Hinweis | Empfohlenes Limit | Beschreibung |
-| ------- | ------- | ------- |
-| Attribute pro Suche | Bis zu 20 | Anzahl der pro Datensatz in einer einzigen Suchaktivität abgerufenen Datenfelder. |
-| Aktivitäten nachschlagen | Bis zu 5 pro Journey | Jede Journey kann bis zu 5 verschiedene Lookup-Aktivitäten enthalten. Bei jeder Suche kann ein anderer Datensatz ausgewählt werden. |
 
 ## Aktivieren eines Datensatzes für Datensuchen {#enable}
 

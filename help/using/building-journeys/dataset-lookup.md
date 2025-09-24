@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 4b0355c4e871e89c1b3eeea978959a2d97fa475d
+source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 16%
+source-wordcount: '750'
+ht-degree: 14%
 
 ---
 
@@ -47,6 +47,15 @@ Der Datensatz muss für die Suche in Adobe Experience Platform aktiviert sein. D
 * Es können maximal 20 Felder ausgewählt werden.
 * Maximal 500 Schlüssel im Suchschlüssel-Array.
 * Die Größe der angereicherten Daten ist auf 10 KB beschränkt.
+
+### Weitere Überlegungen zur Leistung
+
+Die folgenden Empfehlungen geben Hinweise, wie Sie Verzögerungen bei der Zustellbarkeit vermeiden können:
+
+| Hinweis | Empfohlenes Limit | Beschreibung |
+| ------- | ------- | ------- |
+| Attribute pro Suche | Bis zu 20 | Anzahl der pro Datensatz in einer einzigen Suchaktivität abgerufenen Datenfelder. |
+| Aktivitäten nachschlagen | Bis zu 5 pro Journey | Jede Journey kann bis zu 5 verschiedene Lookup-Aktivitäten enthalten. Bei jeder Suche kann ein anderer Datensatz ausgewählt werden. |
 
 ## Konfigurieren der Datensatz-Suchaktivität {#configure}
 
