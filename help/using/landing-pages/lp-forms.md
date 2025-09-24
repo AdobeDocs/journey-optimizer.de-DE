@@ -97,7 +97,7 @@ Alle vorhandenen Formulare werden angezeigt. Sie können Formulare nach Status, 
 
 Gehen Sie wie folgt vor, um ein Formular zu erstellen.
 
-1. Klicken Sie in der Liste **** Forms **[!UICONTROL auf „Formular erstellen]**.
+1. Klicken Sie in der Liste **&#x200B;**&#x200B;Forms **[!UICONTROL auf „Formular erstellen]**.
 
 1. Einen Namen hinzufügen. Sie können bei Bedarf eine Beschreibung hinzufügen.
 
