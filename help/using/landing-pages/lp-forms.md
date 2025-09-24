@@ -12,10 +12,10 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 60a4fb6b88fe94119bcbd209a5f893e12142c0f0
+source-git-commit: 7cbc4c7964d3fe9b79cbbff3917216f624286dba
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 4%
+source-wordcount: '1520'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Um Profildaten mit Ihren [!DNL Journey Optimizer] Landingpages zu erfassen und I
 >id="ajo_lp_form_connection"
 >title="Auswahl des zu verwendenden Endpunkts"
 >abstract="Definieren Sie den Streaming-Endpunkt, an den Daten beim Senden des Formulars gesendet werden."
->additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Erstellen einer HTTP-API-Streaming-Verbindung"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Erstellen einer HTTP-API-Streaming-Verbindung"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Beim Erstellen einer Voreinstellung:
 
    >[!NOTE]
    >
-   >Weitere Informationen zum Erstellen einer Streaming-Quellverbindung finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Weitere Informationen zum Erstellen einer Streaming-Quellverbindung finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
 1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können eingeben, um einen bestimmten Datensatz zu durchsuchen, oder ihn aus der Liste auswählen.
 
@@ -85,17 +85,19 @@ Um auf die Formularliste zuzugreifen, wählen Sie **[!UICONTROL Content]** Manag
 
 Alle vorhandenen Formulare werden angezeigt. Sie können Formulare nach Status, Erstellungs- oder Änderungsdatum filtern.
 
+![](assets/lp_form-list.png)
+
 ## Erstellen und Entwerfen eines Formulars {#create-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
 >title="Voreinstellung auswählen"
 >abstract="Wählen Sie eine vordefinierte Vorgabe aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Erstellen einer Formularvorgabe"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Erstellen einer Formularvorgabe"
 
 Gehen Sie wie folgt vor, um ein Formular zu erstellen.
 
-1. Klicken Sie in der Liste **&#x200B;**&#x200B;Forms **[!UICONTROL auf „Formular erstellen]**.
+1. Klicken Sie in der Liste **** Forms **[!UICONTROL auf „Formular erstellen]**.
 
 1. Einen Namen hinzufügen. Sie können bei Bedarf eine Beschreibung hinzufügen.
 
@@ -103,29 +105,71 @@ Gehen Sie wie folgt vor, um ein Formular zu erstellen.
 
 1. Wählen Sie eine **[!UICONTROL Vorgabe]** aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält. [Erfahren Sie, wie Sie eine Formularvorgabe erstellen](#create-form-preset)
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**. Der Formular-Designer wird geöffnet. Dort können Sie Strukturen und Inhalte ([) hinzufügen](../email/content-components.md#add-content-components) um Inhalte zu erstellen. Sie können die Komponenten [Text](../email/content-components.md#text) und **[!UICONTROL Feld]** verwenden.
 
-   <!--![](assets/lp_create-form-filled.png){width=50%}-->
+1. Um dem Formular bestimmte Felder hinzuzufügen, ziehen Sie eine Struktur per Drag-and-Drop auf die Arbeitsfläche und ziehen Sie eine Komponente **[!UICONTROL Feld]** in das Formular<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
 
-1. Der Formular-Designer wird geöffnet. Fügen Sie [Komponenten](../email/content-components.md#add-content-components) hinzu, um Ihren Formularinhalt zu erstellen. Sie können Komponenten [Text](../email/content-components.md#text) und Komponenten **[!UICONTROL Feld]** verwenden.
+   ![](assets/lp_create-form-field.png)
 
-1. Mit der **[!UICONTROL Feld]**-Komponente können Sie Attribute basierend auf dem ausgewählten Datensatzschema auswählen.
+   Wählen Sie dann eine der folgenden Optionen aus:
+
+   >[!BEGINTABS]
+
+   >[!TAB Feldattribut auswählen]
+
+   Verwenden Sie diese Option, um ein Attribut basierend auf dem Datensatzschema auszuwählen, das mit Ihrem Formular verknüpft ist.
 
    >[!NOTE]
    >
-   >Um die erfassten Daten einem Profil zuzuordnen, wählen Sie ein Profilidentitätsfeld aus. Um die Identitätsfelder in der Attributliste zu identifizieren, suchen Sie nach den Feldern, die als &quot;**[!UICONTROL &quot;]** sind<!--Explain-->
+   >Der Datensatz wird in der für Ihr Formular ausgewählten Voreinstellung definiert. [Weitere Informationen](#create-form-preset)
+
+   ![](assets/lp_select-field-attribute.png){width=100%}
 
    Sie können beispielsweise die E-Mail-Adresse und die Personen-ID festlegen. Wenn Benutzer diese Felder ausfüllen, werden die eingegebenen Informationen im ausgewählten Datensatz gespeichert.
 
-   ![](assets/lp_create-form-fields.png)
+   ![](assets/lp_create-form-field-attributes.png){width=55%}
 
-1. Sie können jedes **[!UICONTROL Felddetails“]** Anweisungen, einen Standardwert, eine Validierungsmeldung, maximale Länge usw. angeben.
+   Um die erfassten Daten einem Profil zuzuordnen, wählen Sie ein Profilidentitätsfeld aus. Die Identitätsfelder werden in **[!UICONTROL Attributliste mit „Erforderlich]** gekennzeichnet, sodass Sie nach ihnen filtern können.
 
-   ![](assets/lp_create-form-field-details.png)
+   ![](assets/lp_create-form-required-attributes.png){width=65%}
+
+   >[!TAB Benutzerdefiniertes Feld hinzufügen]
+
+   Mit dieser Option können Sie einfach ein freies Feld definieren, ohne es einem Feld im verknüpften Datensatz zuzuordnen.
+
+   ![](assets/lp_create-form-custom-field.png){width=85%}
+
+   >[!ENDTABS]
+
+1. Im Abschnitt **[!UICONTROL Felddetails]** der Registerkarte **[!UICONTROL Inhalt]** auf der rechten Seite können Sie die folgenden Elemente nach Bedarf angeben:
+
+   * Passen Sie **[!UICONTROL Titel]** an, um es für die Empfänger Ihres Formulars zu verdeutlichen.
+   * Ändern Sie den **[!UICONTROL Feldtyp]** entsprechend Ihren Anforderungen. Dabei kann es sich um ein Kontrollkästchen, eine Währung, ein Datum, einen Schieberegler, eine URL usw. handeln.
+
+     >[!NOTE]
+     >
+     >Die anderen Felddetails können je nach ausgewähltem Feldtyp variieren.
+
+   * Fügen Sie einen **[!UICONTROL Platzhalter]** hinzu.<!--To explain-->
+   * Geben Sie **[!UICONTROL instructions]** an.<!--How will they be displayed in the form? To explain-->
+   * Geben Sie **[!UICONTROL Standardwert]** ein, der angezeigt wird, bevor die Benutzer Ihres Formulars das Feld ausfüllen.
+   * Sie können eine benutzerdefinierte (**[!UICONTROL )]**.
+   * Legen Sie eine **[!UICONTROL Maximale Länge]** fest. Eine Fehlermeldung wird angezeigt, wenn die Empfänger des Formulars das Limit beim Ausfüllen des Felds überschreiten.
+
+   ![](assets/lp_create-form-field-details.png){width=85%}
+
+1. Im Abschnitt **[!UICONTROL Feldverhalten]** können Sie Folgendes definieren:
+
+   * Wählen Sie **[!UICONTROL Erforderlich]**, um dieses Feld obligatorisch zu machen. Wenn Benutzende das Feld nicht ausfüllen, können sie das Formular nicht senden.
+   * Wählen Sie **[!UICONTROL Sensitive]** aus, damit bei dem Feld die Groß-/Kleinschreibung beachtet wird. <!--To confirm - do you mean retain capitalization when added to the dataset?-->
+   * Wählen Sie **[!UICONTROL Vorbefüllt aktiviert]** aus, um das Feld aus den Profilinformationen auszufüllen, falls verfügbar.<!--Even for a custom field, or a field not mapped to a profile? What happens if no data is available?-->
+   * Wählen Sie **[!UICONTROL Eingabemaske aktivieren]**, um die Benutzereingabe durch generische Zeichen zu ersetzen. Sie können *9* für eine beliebige Zahl, *a* für einen beliebigen Buchstaben oder * für eine beliebige Zahl oder einen Buchstaben verwenden.<!--Not sure how you define that in the form-->
+
+   ![](assets/lp_create-form-field-behaviors.png){width=75%}
 
 1. Sie können das Layout, die Formatierung und die Abmessungen des Formulars nach Bedarf mithilfe des Bereichs **[!UICONTROL Stile]** anpassen. [Erfahren Sie mehr über das Styling](../email/get-started-email-style.md)
 
-1. Klicken Sie **[!UICONTROL Speichern und schließen]**.
+1. Nachdem Sie alle Felder konfiguriert haben, klicken Sie auf **[!UICONTROL Speichern und schließen]**.
 
 1. Konfigurieren Sie die Dankesseite. [Weitere Informationen](#thank-you-page)
 
