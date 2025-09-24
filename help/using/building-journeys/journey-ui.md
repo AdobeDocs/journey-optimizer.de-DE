@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
-source-wordcount: '1391'
-ht-degree: 100%
+source-git-commit: 12ece43b9a52150baa71fab09653c6212aea6643
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 90%
 
 ---
 
@@ -138,18 +138,19 @@ Weitere Informationen zu Journey-Typen und der zugehörigen Eintrittsverwaltung 
 
 Der Journey-Status hängt von ihrem Lebenszyklus ab. Es kann sich handeln um:
 
-* **Geschlossen**: Die Journey wurde mithilfe der Schaltfläche **Für neue Eintritte schließen** geschlossen. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden.
 * **Entwurf**: Die Journey befindet sich in der ersten Phase. Sie wurde noch nicht veröffentlicht.
-* **Entwurf (Test)**: Der Testmodus wurde mit der Schaltfläche **Testmodus** aktiviert.
+* **Entwurf (Test)**: Der Testmodus wurde über die Schaltfläche **Testmodus** aktiviert. [Weitere Informationen](../building-journeys/testing-the-journey.md)
 * **Beendet**: Die Journey wechselt nach der [maximalen globalen Wartezeit](journey-properties.md#global_timeout) von 91 Tagen automatisch in diesen Status.  Profile, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Neue Profile können nicht mehr in die Journey eintreten. 
-* **Live**: Die Journey wurde mithilfe der Schaltfläche **Veröffentlichen** veröffentlicht.
-* **Gestoppt**: Die Journey wurde mit der Schaltfläche **Stoppen** gestoppt. Alle Einzelpersonen verlassen die Journey sofort.
+* **Live**: Die Journey wurde über die Schaltfläche **Veröffentlichen** veröffentlicht. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
+* **Paused**: Die Live-Journey wurde mithilfe der Schaltfläche **Pause** angehalten. [Weitere Informationen](../building-journeys/journey-pause.md)
+* **Gestoppt**: Die Journey wurde mit der Schaltfläche **Stoppen** gestoppt. Alle Personen verlassen die Journey sofort. [Weitere Informationen](../building-journeys/end-journey.md#stop-a-journey)
+* **Geschlossen**: Die Journey wurde mithilfe der Schaltfläche **Für neue Eintritte schließen** geschlossen. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden. [Weitere Informationen](../building-journeys/end-journey.md)
 
 >[!NOTE]
 >
->* Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: „Wird veröffentlicht“ (zwischen „Entwurf“ und „Live“), „Testmodus wird aktiviert“ oder „Testmodus wird deaktiviert“ (zwischen „Entwurf“ und „Entwurf (Test)“) und „Wird gestoppt“ (zwischen „Live“ und „Gestoppt“). Wenn sich eine Journey in einem Zwischenzustand befindet, ist sie schreibgeschützt.
+>* Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: **Publishing** (zwischen „Entwurf“ und „Live„), **Aktivieren des Testmodus** oder **Deaktivieren des Testmodus** (zwischen **Entwurf** und **Entwurf(test)**), **Stoppen** (zwischen **Live** und **gestoppt**, **** (aused **und** Live **),** Pausing **Pausing** (LiveLive **und** Paused ****), wenn eine Journey in Status, er ist schreibgeschützt.
 >
->* Wenn Sie eine **Live-Journey** ändern müssen, [erstellen Sie eine neue Version](#journey-versions) Ihrer Journey.
+>* Wenn Sie eine Live **-Journey ändern müssen** erstellen [eine neue Version ](#journey-versions) Journey. Sie können Ihre Live-Journey auch anhalten, alle erforderlichen Änderungen vornehmen und sie jederzeit wieder aufnehmen. [Weitere Informationen zum Pausieren von Journey](../building-journeys/journey-pause.md)
 
 
 ## Duplizieren einer Journey {#duplicate-a-journey}
