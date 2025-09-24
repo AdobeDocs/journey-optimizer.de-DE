@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4bb9b6d614a434f3906fded06cbcaef14f1cb255
+source-git-commit: 56fa96e7da6352fb8e0c658ced8950c011f65c9e
 workflow-type: tm+mt
-source-wordcount: '1798'
-ht-degree: 43%
+source-wordcount: '1794'
+ht-degree: 44%
 
 ---
 
@@ -197,9 +197,7 @@ Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Mög
 
 ### Demnächst {#sept-25-9-soon}
 
-Die folgenden Funktionen und Verbesserungen sind für die kommenden Tage geplant.
-
-**Der unten stehende Inhalt kann ohne vorherige Ankündigung geändert**. Links, Bildschirme und aktualisierte Dokumentationen werden veröffentlicht, wenn diese Funktionen und Verbesserungen für Produktionsumgebungen veröffentlicht werden.
+In den nächsten Tagen sollen die folgenden Funktionen und Verbesserungen veröffentlicht werden. **Informationen können sich ändern**. Aktualisierte Links, Bildschirme und Dokumentationen werden freigegeben, sobald diese Aktualisierungen in der Produktion live sind.
 
 <table>
 <thead>
