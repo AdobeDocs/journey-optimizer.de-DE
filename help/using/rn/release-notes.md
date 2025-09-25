@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
+source-git-commit: 83ed772d25cbf3e54c5ab45cff3803cb062cdfd6
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1812'
 ht-degree: 44%
 
 ---
@@ -28,6 +28,22 @@ ht-degree: 44%
 **Veröffentlichungsdatum**: 23.-24. September 2025
 
 ### Neue Funktionen {#sept-25-9-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Öffentliche API zum Abrufen von Journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eine neue Journey Optimizer-API ist jetzt verfügbar, um Journey und ihre zugehörigen Objekte wie Kampagnen und Oberflächen abzurufen.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -198,21 +214,6 @@ Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Mög
 ### Demnächst {#sept-25-9-soon}
 
 In den nächsten Tagen sollen die folgenden Funktionen und Verbesserungen veröffentlicht werden. **Informationen können sich ändern**. Aktualisierte Links, Bildschirme und Dokumentationen werden freigegeben, sobald diese Aktualisierungen in der Produktion live sind.
-
-<table>
-<thead>
-<tr>
-<th><strong>Öffentliche API zum Abrufen von Journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Eine neue Journey Optimizer-API ist jetzt verfügbar, um Journey und ihre zugehörigen Objekte wie Kampagnen und Oberflächen abzurufen.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
