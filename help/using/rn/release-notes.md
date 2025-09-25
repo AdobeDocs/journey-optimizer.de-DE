@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e20ece04067d14970883643693c540c73c38a6bc
+source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 45%
+source-wordcount: '1766'
+ht-degree: 44%
 
 ---
 
@@ -76,8 +76,8 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>Mit <a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist Journey Agent in Journey Optimizer verfügbar. Es ermöglicht die Analyse von Journey über eine natürliche Sprachschnittstelle. Der Agent erkennt Zielgruppen- oder Zeitplankonflikte und Profil-Abbrüche auf einer Journey und hilft Ihnen bei der Lösung. Bald werden Sie in der Lage sein, Journey mit agentischem Support zu erstellen.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">ausführlichen Dokumentation</a>.</p>
+<p>Mit <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist Journey Agent in Journey Optimizer verfügbar. Es ermöglicht die Analyse von Journey über eine natürliche Sprachschnittstelle. Der Agent erkennt Zielgruppen- oder Zeitplankonflikte und Profil-Abbrüche auf einer Journey und hilft Ihnen bei der Lösung. Bald werden Sie in der Lage sein, Journey mit agentischem Support zu erstellen.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -154,7 +154,7 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p>Diese Funktion wurde zuvor als Beta-Version veröffentlicht, steht aber nun für alle Umgebungen zur Verfügung (eingeschränkte Verfügbarkeit). Mit dieser Version wurden die folgenden Verbesserungen eingeführt:</p>
+<p>Diese Funktion wurde bereits in der öffentlichen Betaversion veröffentlicht und steht nun allen Umgebungen zur Verfügung. Mit dieser Version wurden die folgenden Verbesserungen eingeführt:</p>
 <ul><li>Unterstützung für die Personalisierung bei der Datensatzsuche in eingehenden Kanälen.</li>
 <li>Die Hilfsfunktion „datasetLookup“ kann jetzt in Ausdrucksfragmenten verwendet werden. Derzeit ist diese Funktion nur für eine begrenzte Anzahl von Kundinnen und Kunden verfügbar. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</li>
 <li>Mit einer Option in der Oberfläche für Datensatz-Management können Sie jetzt auf Einträgen basierende Datensätze für die Lookup-Personalisierung aktivieren, ohne dass ein API-Aufruf durchgeführt werden muss.</li>
