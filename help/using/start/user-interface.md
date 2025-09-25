@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
-workflow-type: ht
-source-wordcount: '1758'
-ht-degree: 100%
+source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
+workflow-type: tm+mt
+source-wordcount: '1903'
+ht-degree: 92%
 
 ---
 
@@ -355,3 +355,30 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 >id="ajo_journey_business_rules"
 >title="Regelsatz"
 >abstract="Regelsatz"
+
+<!-- WEBHOOKS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings"
+>title="Webhooks aktivieren"
+>abstract="Webhooks ermöglichen es, Echtzeit-Feedback zum Ausführungsstatus Ihrer Nachrichten zu erhalten. Bevor Sie diese Option aktivieren, stellen Sie sicher, dass Sie im Menü **Administration** / **Kanäle** / **Feedback Webhook** einen Webhook konfiguriert haben."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_create"
+>title="Feedback Webhooks"
+>abstract="Feedback-Webhooks ermöglichen es Ihnen, Echtzeit-Feedback zum Ausführungsstatus von Nachrichten zu erhalten, die mit durch eine Transaktions-API ausgelösten Kampagnen gesendet werden. Pro Kombination aus Organisation und Sandbox ist nur eine Webhook-Konfiguration zulässig."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_configuration"
+>title="Basiskonfiguration"
+>abstract="Geben Sie in diesem Abschnitt einen beschreibenden Namen ein, um den Webhook zu identifizieren, und wählen Sie die Kanäle aus, für die dieser Webhook Feedback erhalten soll (E-Mail und/oder SMS). Geben Sie im Feld Webhook-URL den HTTPS-Endpunkt an, an den Feedback-Ereignisse gesendet werden müssen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_authentication"
+>title="Authentifizierung"
+>abstract="Wenn für Ihren Endpunkt eine JWT-Authentifizierung erforderlich ist, wählen Sie **JWT-**) aus der Liste aus und geben Sie die erforderlichen Details an."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_header_parameters"
+>title="Header-Parameter"
+>abstract="In diesem Abschnitt können Sie zusätzliche benutzerdefinierte Kopfzeilen konfigurieren, die mit jeder Webhook-Anfrage gesendet werden sollen."
