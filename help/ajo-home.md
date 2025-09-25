@@ -5,42 +5,71 @@ title: Dokumentation zu Adobe Journey Optimizer
 description: Dokumentation zu Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+workflow-type: tm+mt
+source-wordcount: '560'
+ht-degree: 85%
 
 ---
 
 # Dokumentation zu Adobe Journey Optimizer{#section-overview}
 
-Mit Adobe Journey Optimizer können Teams nahtlose, personalisierte Kundenerlebnisse über Kanäle wie E-Mail, SMS und mehr entwerfen und bereitstellen. Durch die Kombination erweiterter Tools für die Kampagnenorchestrierung, das Daten-Management und die Entscheidungsfindung können Sie Journeys erstellen, die sich in Echtzeit an die Kundenanforderungen anpassen. Diese Dokumentation bietet eine Roadmap zum Beherrschen der Plattform – vom Erkunden der neuesten Funktionen und Integrationen bis hin zum Erlernen der Verwaltung von Zielgruppen, der Konfiguration von Journeys und der Leistungsanalyse. Egal ob Sie Marketing-Fachkraft, Datenanalystin bzw. Datenanalyst oder Kampagnen-Managerin bzw. -Manager sind – hier finden Sie Schritt-für-Schritt-Anleitungen, Best Practices und Ressourcen, die darauf zugeschnitten sind, Ihnen bei der Erreichung Ihrer Ziele zu helfen.
+Mit Adobe Journey Optimizer können Teams nahtlose, personalisierte Kundenerlebnisse über Kanäle wie E-Mail, SMS und mehr entwerfen und bereitstellen. Durch die Kombination erweiterter Tools für die Kampagnenorchestrierung, das Daten-Management und die Entscheidungsfindung können Sie Journeys erstellen, die sich in Echtzeit an die Kundenanforderungen anpassen. Diese Dokumentation bietet eine Roadmap zum Beherrschen der Plattform – vom Erkunden der neuesten Funktionen und Integrationen bis hin zum Erlernen der Verwaltung von Zielgruppen, der Konfiguration von Journeys und der Leistungsanalyse. Egal, ob Sie Marketing-Experte, Datenanalyst oder Kampagnen-Manager sind, Sie finden hier Schritt-für-Schritt-Anleitungen, Best Practices und Ressourcen, die darauf zugeschnitten sind, Ihnen bei der Erreichung Ihrer Ziele zu helfen.
+
+## Neue Funktionen {#section-overview}
+
+Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und die Dokumentation! Eine umfassende Liste der Funktionen, Verbesserungen und Fehlerbehebungen finden Sie in den detaillierten [Versionshinweisen](../using/rn/release-notes.md).
+
+>[!BEGINTABS]
+
+>[!TAB Version September 2025]
+
+Die Journey Optimizer-September-Version ist live! Entdecken Sie die neuen Funktionen und Verbesserungen, die diesen Monat in den Versionshinweisen veröffentlicht wurden.
+
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+
+>[!TAB Kampagnenorchestrierung]
+
+Journey Optimizer enthält jetzt die neue Funktion **Kampagnenorchestrierung**, die speziell für markeninitiierte Batch-Kampagnen entwickelt wurde. Diese Version führt eine Arbeitsfläche für die Kampagnenorchestrierung und eine verbesserte Datenmodellierung ein, was es Marketing-Fachleuten ermöglicht, personalisierte Cross-Channel-Kampagnen zu planen, auf eine Zielgruppe anzupassen und bereitzustellen.
+
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+
+>[!TAB Adobe Express]
+
+Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen einfachen Zugriff auf die leistungsstarken Bearbeitungs-Tools von Adobe Express beim Erstellen von Inhalten. Dank dieser Integration können Sie die Größe von Bildern ändern, Hintergründe entfernen, visuelle Elemente zuschneiden und Assets in JPEG oder PNG konvertieren, ohne zwischen Lösungen wechseln zu müssen.
+
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+
+
+>[!ENDTABS]
+
 
 ## Die Erkundung starten
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Neue Funktionen in Adobe Journey Optimizer
+Neueste Versionshinweise
 
-Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Dokumentationsänderungen in Adobe Journey Optimizer auf dem Laufenden.
+Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserungen in Adobe Journey Optimizer auf dem Laufenden.
 
-[Neue Funktionen anzeigen](./rp_landing_pages/whats-new-landing-page.md)
+[Versionshinweise anzeigen](using/rn/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Erste Schritte mit Adobe Journey Optimizer
+Erste Schritte
 
-Lernen Sie die Grundlagen von Adobe Journey Optimizer kennen, einschließlich seiner Funktionen, Architektur und Benutzeroberfläche.
+Lernen Sie die Grundlagen von Journey Optimizer kennen, einschließlich seiner Funktionen, Architektur und Benutzeroberfläche.
 
 [Erste Schritte](./rp_landing_pages/get-started-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Umfassende Anleitung für Journeys
 
@@ -50,7 +79,7 @@ Entwerfen, orchestrieren, verwalten und optimieren Sie personalisierte Kunden-Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Grundlagen und Verwalten von Kampagnen
 
@@ -60,7 +89,7 @@ Detaillierte Anleitungen zum Erstellen, Verwalten und Optimieren verschiedener K
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Kommunikationskanäle
 
@@ -70,7 +99,7 @@ Konfigurieren und verwalten Sie E-Mail, SMS, Push-Benachrichtigungen und andere 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Konflikt-Management und Priorisierung
 

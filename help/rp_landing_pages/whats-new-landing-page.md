@@ -4,9 +4,11 @@ product: Journey Optimizer
 title: Neue Funktionen
 description: Neue Funktionen
 redpen-status: CREATED_||_2025-08-11_20-03-09
+hide: true
+hidefromtoc: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -35,7 +37,7 @@ Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM-Inhaltsfragment]
 
@@ -50,7 +52,7 @@ Durch die Integration von Adobe Experience Manager as a Cloud Service mit Adobe 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Neueste Versionshinweise für Adobe Journey Optimizer
 
@@ -60,7 +62,7 @@ Entdecken Sie die neuesten Funktionen, Verbesserungen und Aktualisierungen in Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Frühere Versionshinweise für Adobe Journey Optimizer
 
@@ -70,7 +72,7 @@ Informieren Sie sich über die umfassenden Versionshinweise der Vorjahre mit det
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Neueste Aktualisierungen der Dokumentation zu Adobe Journey Optimizer
 
