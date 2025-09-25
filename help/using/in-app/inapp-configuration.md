@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 91%
+source-wordcount: '933'
+ht-degree: 86%
 
 ---
 
@@ -54,6 +54,7 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 
 ## Erstellen einer In-App-Konfiguration {#channel-prerequisites}
 
+Gehen Sie wie folgt vor, um eine In-App-Konfiguration in Journey Optimizer zu erstellen:
 
 1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
 
@@ -120,11 +121,7 @@ Sie können Ihre Konfiguration jetzt beim Erstellen Ihrer In-App-Nachricht ausw�
 >
 >Der Datensatz wird schreibgeschützt vom Reporting-System von [!DNL Journey Optimizer] verwendet und hat keine Auswirkungen auf die Erfassung oder Aufnahme von Daten.
 
-Um das Reporting für den In-App-Kanal zu aktivieren, müssen Sie sicherstellen, [ der in ](../data/get-started-datasets.md) In-App-Implementierung verwendete [Datensatz](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"} auch in Ihrer Berichtskonfiguration enthalten ist.
-
-Mit anderen Worten: Wenn Sie beim Konfigurieren des Reportings einen Datensatz hinzufügen, der nicht in Ihrem App-Datenstrom vorhanden ist, werden die App-Daten nicht in Ihren Berichten angezeigt.
-
-Erfahren Sie in [diesem Abschnitt](../reports/reporting-configuration.md#add-datasets), wie Sie Datensätze für das Reporting hinzufügen.
+Um das Reporting für den In-App-Kanal zu aktivieren, müssen Sie sicherstellen, [ der in ](../data/get-started-datasets.md) In-App-Implementierung verwendete [Datensatz](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"} auch in Ihrer Berichtskonfiguration enthalten ist. Anders ausgedrückt: Wenn Sie beim Konfigurieren von Berichten einen Datensatz hinzufügen, der nicht in Ihrem App-Datenstrom vorhanden ist, werden App-Daten nicht in Ihren Berichten angezeigt. Erfahren Sie in [diesem Abschnitt](../reports/reporting-configuration.md#add-datasets), wie Sie Datensätze für das Reporting hinzufügen.
 
 Wenn Sie die vordefinierten [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} `AEP Web SDK ExperienceEvent` und `Consumer Experience Event` (wie auf [dieser Seite](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"} definiert) für Ihr Datensatzschema **nicht** verwenden, stellen Sie sicher, dass Sie die folgenden Feldergruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` und `Web Details`. Diese werden vom Reporting in [!DNL Journey Optimizer] benötigt, da sie verfolgen, an welchen Kampagnen und Journeys die einzelnen Profile teilnehmen.
 
@@ -132,7 +129,7 @@ Wenn Sie die vordefinierten [Feldergruppen](https://experienceleague.adobe.com/d
 
 >[!NOTE]
 >
->Das Hinzufügen dieser Feldgruppen hat keine Auswirkungen auf die normale Datenerfassung. Dies ist nur für die Seiten nützlich, bei denen eine Kampagne oder Journey ausgeführt wird, sodass das Tracking aller anderen Seiten unberührt bleibt.
+>Das Hinzufügen dieser Feldergruppen wirkt sich nicht auf die normale Datenerfassung aus. Dies ist nur für die Seiten nützlich, bei denen eine Kampagne oder Journey ausgeführt wird, sodass das Tracking aller anderen Seiten unberührt bleibt.
 
 **Verwandte Themen:**
 

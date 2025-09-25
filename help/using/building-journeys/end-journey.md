@@ -9,10 +9,10 @@ level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
-source-wordcount: '753'
-ht-degree: 100%
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,6 @@ Alternativ können Sie auch folgendermaßen vorgehen:
 
 Sie können nötigenfalls den Fortschritt aller Personen in einer Journey stoppen. Beim Stoppen der Journey entsteht für alle Kontakte in der Journey ein Timeout. Wenn Sie eine Journey stoppen, wird der Fortschritt der bereits in der Journey befindlichen Personen angehalten. Die Journey wird praktisch deaktiviert. Wenn Sie eine Journey beenden möchten, sollten Sie sie gemäß Best Practice [schließen](#close-journey).
 
-
 Sie können beispielsweise eine Journey stoppen, wenn ein Marketer erkennt, dass die Journey die falsche Zielgruppe anspricht, oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht ordnungsgemäß funktioniert. Um eine Journey aus der Liste der Journeys zu entfernen, klicken Sie auf den Button mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Stoppen]** aus.
 
 ![](assets/journey-finish-quick-action.png)
@@ -102,3 +101,7 @@ Alternativ können Sie auch folgendermaßen vorgehen:
 1. Klicken Sie auf **[!UICONTROL Stoppen]** und bestätigen Sie diese Auswahl im Dialogfeld.
 
 Beim Stoppen wird der Journey-Status auf **[!UICONTROL Gestoppt]** gesetzt.
+
+>[!CAUTION]
+>
+>Berechtigungen zum Stoppen einer Journey sind auf Benutzer mit der Berechtigung **[!DNL Manage journeys]** auf hoher Ebene beschränkt. Weitere Informationen zur Verwaltung der Zugriffsrechte für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
