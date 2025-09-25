@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
+source-git-commit: 97c1d0f2e9f8100f70d5c4e40325abddc5e3dfbd
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 53%
+ht-degree: 51%
 
 ---
 
@@ -67,7 +67,7 @@ Dieses Mixin enthält alle Felder, die einem Profilexportvorgang entsprechen.
 | exportCountRealized | Ganzzahl | Die tatsächliche Anzahl von Zielgruppen, die über den Vorgang exportiert wurden |
 | exportCountFailed | Ganzzahl | Die Anzahl der Zielgruppen, bei denen der Export durch den Vorgang fehlgeschlagen ist |
 | exportSegmentID | Zeichenfolge | Die Kennung der exportierten Zielgruppe |
-| eventType | Zeichenfolge | Der Ereignistyp, der angibt, ob es sich um ein Fehlerereignis eines Informationsereignisses handelt: Info, Fehler |
+| eventType | Zeichenfolge | Der Ereignistyp, der angibt, ob es sich um ein Fehlerereignis oder ein Infoereignis handelt: Info, Fehler |
 | eventCode | Zeichenfolge | Der Fehler-Code, der den Grund für den entsprechenden eventType angibt |
 
 Weitere Informationen zu eventTypes [in diesem Abschnitt](#discarded-events).
@@ -83,24 +83,23 @@ Bei der Abfrage von Journey-Schrittereignissen nach Datensätzen mit `eventCode 
 
 Im Folgenden finden Sie Definitionen, häufige Ursachen und Schritte zur Fehlerbehebung für die häufigsten `eventTypes`:
 
-* EXTERNAL_KEY_COMPUTATION_ERROR: Das System konnte keine eindeutige Kennung (externen Schlüssel) für den Kunden aus den Ereignisdaten berechnen.
-Häufige Ursachen: Fehlende oder falsch formatierte Kundenkennungen (z. B. E-Mail, Kunden-ID) in der Ereignis-Payload.
-Fehlerbehebung: Überprüfen Sie die Ereigniskonfiguration auf erforderliche Kennungen, stellen Sie sicher, dass die Ereignisdaten vollständig und korrekt formatiert sind.
-* NO_INTERESTED_JOURNEY_FOR_SEGMENTMEMBERSHIP_EVENT: Es wurde ein Segmentqualifikationsereignis empfangen, aber es sind keine Journey konfiguriert, die auf dieses Segment reagieren.
-Häufige Ursachen: Keine Journey verwenden das Segment als Trigger, Journey befinden sich im Status Entwurf/Angehalten oder die Segment-IDs stimmen nicht überein.
-Fehlerbehebung: Stellen Sie sicher, dass mindestens eine Journey live und für das Segment konfiguriert ist, und überprüfen Sie die Segment-IDs.
-* JOURNEY_INSTANCE_ID_NOT_CREATE: Das System konnte keine Journey-Instanz für den Kunden erstellen.
-Häufige Ursachen: Doppelte Ereignisse, hohes Ereignisvolumen, Einschränkungen der Systemressourcen.
-Fehlerbehebung: Implementieren Sie die Deduplizierung, vermeiden Sie Traffic-Spitzen, optimieren Sie das Journey-Design, wenden Sie sich an den Support, wenn Sie dauerhaft sind.
-* EVENT_WITH_NO_JOURNEY: Es wurde ein Ereignis empfangen, aber es ist keine aktive Journey konfiguriert, um darauf zu reagieren.
-Häufige Ursachen: Fehlende Übereinstimmung von Ereignisnamen/ID, nicht veröffentlichte Journey, falsche Sandbox/Organisation, Testmodus/Profilabweichung.
-Fehlerbehebung: Überprüfen der Ereignis- und Journey-Konfiguration, Überprüfen des Journey-Status, Verwenden von Debuggingwerkzeugen.
+* **EXTERNAL_KEY_COMPUTATION_ERROR**: Das System konnte keine eindeutige Kennung (externen Schlüssel) für den Kunden aus den Ereignisdaten berechnen.
+   * Häufige Ursachen: Fehlende oder falsch formatierte Kundenkennungen (z. B. E-Mail, Kunden-ID) in der Ereignis-Payload.
+   * Fehlerbehebung: Überprüfen Sie die Ereigniskonfiguration auf erforderliche Kennungen, stellen Sie sicher, dass die Ereignisdaten vollständig und korrekt formatiert sind.
+* **NO_INTERESTED_JOURNEY_FOR_SEGMENTMEMBERSHIP_EVENT**: Es wurde ein Segmentqualifikationsereignis empfangen, aber es sind keine Journey konfiguriert, die auf dieses Segment reagieren.
+   * Häufige Ursachen: Keine Journey verwenden das Segment als Trigger, Journey befinden sich im Status Entwurf/Angehalten oder die Segment-IDs stimmen nicht überein.
+   * Fehlerbehebung: Stellen Sie sicher, dass mindestens eine Journey live und für das Segment konfiguriert ist, und überprüfen Sie die Segment-IDs.
+* **JOURNEY_INSTANCE_ID_NOT_CREATE**: Das System konnte keine Journey-Instanz für den Kunden erstellen.
+   * Häufige Ursachen: Doppelte Ereignisse, hohes Ereignisvolumen, Einschränkungen der Systemressourcen.
+   * Fehlerbehebung: Implementieren Sie die Deduplizierung, vermeiden Sie Traffic-Spitzen, optimieren Sie das Journey-Design, wenden Sie sich an den Support, wenn Sie dauerhaft sind.
+* **EVENT_WITH_NO_JOURNEY**: Ein Ereignis wurde empfangen, aber es ist keine aktive Journey konfiguriert, um darauf zu reagieren.
+   * Häufige Ursachen: Fehlende Übereinstimmung von Ereignisnamen/ID, nicht veröffentlichte Journey, falsche Sandbox/Organisation, nicht übereinstimmender Testmodus/Testprofil.
+   * Fehlerbehebung: Überprüfen der Ereignis- und Journey-Konfiguration, Überprüfen des Journey-Status, Verwenden von Debuggingwerkzeugen.
 
 Für Verwerfungen in pausierten Journey:
 
-* PAUSED_JOURNEY_VERSION: Verwirft Ereignisse am Eintrittspunkt des Journey.
-
-* JOURNEY_IN_PAUSED_STATE: Verwirft, was passiert ist, wenn sich Profile auf einer Journey befinden
+* **PAUSED_JOURNEY_VERSION**: Verwirft Ereignisse am Eintrittspunkt des Journey
+* **JOURNEY_IN_PAUSED_STATE**: Verwirft, was passiert ist, wenn sich Profile auf einer Journey befinden
 
 Weitere Informationen zu diesen Ereignissen und deren Fehlerbehebung finden Sie im Abschnitt [Pausieren eines Journey](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
 
