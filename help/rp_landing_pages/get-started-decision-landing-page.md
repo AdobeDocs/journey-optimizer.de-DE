@@ -60,7 +60,7 @@ Folgen Sie einer schrittweisen Anleitung zum Erstellen, Verwalten und Konfigurie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Nutzen benutzerdefinierter Upload-Zielgruppen zur Entscheidungsfindung
 

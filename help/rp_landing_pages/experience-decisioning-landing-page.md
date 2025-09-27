@@ -20,7 +20,7 @@ Mit der Entscheidungsfunktion von Adobe Journey Optimizer können Sie personalis
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Einführung in die Entscheidungsfindung
 
@@ -60,7 +60,7 @@ Konfigurieren und verwalten Sie Entscheidungselemente, Kataloge und Sammlungen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Erstellen von Entscheidungsregeln
 

@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Schemata erstellen, Datens√§tze konfigurieren und Daten f√
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Einrichten eines manuellen relationalen Schemas
 

@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Sandboxes für Partitionierungsumgebungen verwalten und zu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Kopieren von Objekten zwischen Sandboxes
 
