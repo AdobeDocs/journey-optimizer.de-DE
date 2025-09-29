@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Ausdruck, Editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 17%
+source-wordcount: '752'
+ht-degree: 90%
 
 ---
 
@@ -24,32 +24,32 @@ ht-degree: 17%
 >title="Für Lookup aktivieren"
 >abstract="Durch die Aktivierung eines Datensatzes für die Suche können Sie seine Daten in den Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung von Journey Optimizer nutzen."
 
-Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform-Daten mit Personalisierungs-, Entscheidungs- und Journey-Orchestrierungsfunktionen nutzen. Dazu müssen datensatzbasierte Datensätze, die für die Lookup-Personalisierung erforderlich sind, zunächst für den Lookup-Service aktiviert werden, wie unten beschrieben.
+Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform-Daten mit Personalisierungs-, Entscheidungs- und Journey-Orchestrierungsfunktionen nutzen. Hierzu müssen auf Einträgen basierende Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben aktiviert werden. 
 
 ## Wichtige Informationen
 
-### Leitplanken und Richtlinien {#guidelines}
+### Leitlinien und Richtlinien {#guidelines}
 
 Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinien durch:
 
 * Datensätze, die für die Suche aktiviert sind, sollten keine personenbezogenen Daten enthalten.
-* Datensätze, die für die Suche aktiviert und in der Personalisierung verwendet werden, sind nicht vor dem Löschen geschützt. Sie müssen den Überblick darüber behalten, welche Datensätze für die Personalisierung verwendet werden, um sicherzustellen, dass sie nicht gelöscht oder entfernt werden.
+* Datensätze, die für die Suche aktiviert sind und bei der Personalisierung verwendet werden, sind nicht vor Löschvorgängen geschützt. Sie müssen den Überblick darüber behalten, welche Datensätze für die Personalisierung verwendet werden, um sicherzustellen, dass sie nicht gelöscht oder entfernt werden.
 * Datensätze müssen mit einem Schema verknüpft sein, das NICHT vom Typ „Profil“ oder „Ereignis“ ist.
-* Schemata müssen eine primäre Identität aufweisen. Für die Suche kann nur ein einziger Primärschlüssel verwendet werden.
+* Die Streaming-Datenaufnahme wird für Datensätze mit aktivierter Suche unterstützt. Beachten Sie, dass die Aufnahmeverarbeitung noch abgeschlossen sein muss, bevor die Daten für Personalisierung oder Entscheidung verfügbar sind.
 
 ### Berechtigung für den Suchdienst
 
 | Funktionskomponente | Beschränkungen | Anmerkungen |
 | ------- | ------- | ------- |
-| Datensätze für die Suche aktiviert | Max. 10 pro Organisation | Maximale Anzahl von Datensätzen, die jederzeit für die Suche konfiguriert werden können. Diese Begrenzung gilt für die Gesamtzahl der kombinierten Lookup-Datensätze in Produktions- und Entwicklungs-Sandboxes innerhalb der Kundeninstanz. |
-| Anzahl der Datensätze | Bis zu 2 Millionen Datensätze pro Datensatz | Maximal zulässige Anzahl von Datensätzen in einem einzelnen Datensatz, berechnet als Gesamtanzahl aller Batches innerhalb dieses Datensatzes. |
-| Datensatzgröße | Bis zu 2 KB pro Datensatz | Standardmäßig unterstützte maximale Datensatzgröße. |
-| Datensatzgröße | Bis zu 4 GB | Maximale Größe eines einzelnen Datensatzes, nicht die kombinierte Größe aller Datensätze in einer Sandbox. Die Begrenzung der Datensatzanzahl und der Datensatzgröße sind unabhängige Leitplanken - beide müssen erfüllt sein. |
-| Aktualisierungen der Datensatzfrequenz | Bis zu 5 Aktualisierungen pro Tag pro Datensatz | Maximal zulässige Häufigkeit von Aktualisierungsvorgängen für einen einzelnen Datensatz pro Tag. |
+| Datensätze für die Suche aktiviert | Max. 10 pro Organisation | Maximale Anzahl von Datensätzen, die zu einem Zeitpunkt für die Suche konfiguriert werden können. Diese Begrenzung gilt für die Gesamtzahl der kombinierten Suchdatensätze in Produktions- und Entwicklungs-Sandboxes innerhalb der Kundeninstanz. |
+| Anzahl der Datensatzeinträge | Bis zu 2 Millionen Einträge pro Datensatz | Maximal zulässige Anzahl von Einträgen in einem einzelnen Datensatz, berechnet als Gesamtanzahl aller Batches innerhalb dieses Datensatzes. |
+| Eintragsgröße | Bis zu 2 KB pro Eintrag | Standardmäßig unterstützte maximale Eintragsgröße. |
+| Datensatzgröße | Bis zu 4 GB | Maximale Größe eines einzelnen Datensatzes, nicht die kombinierte Größe aller Datensätze in einer Sandbox. Die Begrenzung der Eintragsanzahl und der Datensatzgröße sind unabhängige Schutzmechanismen – beide müssen erfüllt sein. |
+| Aktualisierungen der Datensatzfrequenz | Bis zu 5 Aktualisierungen pro Tag und Datensatz | Maximal zulässige Häufigkeit von Aktualisierungsvorgängen für einen einzelnen Datensatz pro Tag. |
 
 >[!NOTE]
 >
->Wenn über die oben aufgeführten Leitplanken hinaus zusätzliche Volumes benötigt werden, wenden Sie sich an den Adobe-Support.
+>Wenn über die oben aufgeführten Schutzmechanismen hinaus zusätzliche Volumen benötigt werden, wenden Sie sich an den Adobe-Support.
 
 ## Aktivieren eines Datensatzes für Datensuchen {#enable}
 
@@ -57,7 +57,7 @@ Um Daten aus Ihrem Datensatz für die Personalisierung nutzen zu können, müsse
 
 ### Voraussetzungen {#prerequisites-enable}
 
-Das mit Ihrem Datensatz verknüpfte Schema, das Sie für die Suche aktivieren möchten, muss vom Typ Datensatz sein. Das Schema darf NICHT der Profil- oder Ereignisklasse angehören.
+Das mit Ihrem Datensatz verknüpfte Schema, das Sie für die Suche aktivieren möchten, muss vom Typ „Eintrag“ sein. Das Schema darf NICHT der Profil- oder Ereignisklasse angehören.
 
 +++Beispiel
 
@@ -89,11 +89,11 @@ Verwenden Sie in der Benutzeroberfläche zur Datensatzverwaltung den Umschalter,
 
 >[!NOTE]
 >
->Es wird empfohlen, den Datensatz NICHT auch für das Profil zu aktivieren, da dies zu einer Erhöhung der Profilreichhaltigkeit führen kann und nicht erforderlich ist, um die Suchen durchzuführen.
+>Es wird empfohlen, den Datensatz NICHT auch für Profil zu aktivieren, da dies zu einer Erhöhung des Profilumfangs führen kann und nicht erforderlich ist, um die Suchen durchzuführen.
 
 ### API-Methode
 
-Befolgen Sie die Anweisungen in [dieser Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) um Ihre Umgebung für das Senden von API-Befehlen zu konfigurieren.
+Befolgen Sie die Anweisungen in [dieser Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/authentication/), um Ihre Umgebung für das Senden von API-Befehlen zu konfigurieren.
 
 #### Voraussetzungen
 
@@ -103,7 +103,7 @@ Befolgen Sie die Anweisungen in [dieser Dokumentation](https://developer.adobe.c
 
 * Sie müssen über die Berechtigung zum Verwalten von Datensätzen als Teil Ihrer Rolle verfügen.
 
-* Das Schema, auf dem der Datensatz basiert, muss eine primäre Identität enthalten, die als Lookup-Schlüssel fungieren kann.
+* Das Schema, auf dem der Datensatz basiert, muss eine primäre Identität enthalten, die als Suchschlüssel fungieren kann.
 
 #### API-Aufrufstruktur
 
@@ -113,32 +113,32 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
 Dabei gilt:
 
-* URL ist `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
-* Die Datensatz-ID ist der Datensatz, für den Sie aktivieren möchten.
-* Aktion ist „Aktivieren“ ODER „Deaktivieren“.
-* Das Zugriffstoken kann über die Entwicklerkonsole abgerufen werden.
-* Der API-Schlüssel kann über die Entwicklerkonsole abgerufen werden.
-* Die IMS-Organisations-ID ist Ihre Adobe-Organisation.
-* Sandbox-Name ist der Name der Sandbox, in der sich der Datensatz befindet (d. h. Produktion, Entwicklung usw.).
+* Die URL lautet `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
+* „Dataset ID“ ist der Datensatz, den Sie aktivieren möchten.
+* „Action“ ist „Aktivieren“ ODER „Deaktivieren“.
+* „Access token“ kann aus der Developer Console abgerufen werden.
+* „API Key“ kann aus der Developer Console abgerufen werden.
+* „IMS Org ID“ ist Ihre Adobe-Organisation.
+* „Sandbox Name“ ist der Name der Sandbox, in der sich der Datensatz befindet (d. h. prod, dev usw.).
 
 >[!NOTE]
 >
->Wenn beim Versuch, einen API-Aufruf zum Aktivieren von Datensätzen durchzuführen, der unten stehende Fehler auftritt, entfernen Sie die Adobe Journey Optimizer-APIs aus Ihrem Entwicklerkonsolen-Projekt und fügen Sie sie dann erneut hinzu:
+>Wenn beim Durchführen eines API-Aufrufs zum Aktivieren von Datensätzen der folgende Fehler auftritt, versuchen Sie, die Adobe Journey Optimizer-APIs aus Ihrem Developer Console-Projekt zu entfernen und sie dann erneut hinzuzufügen.
 >
 >`"error_code": "403003",`
 >`"message": "Api Key is invalid"`
 
-## Datensatzüberwachung
+## Datensatz-Monitoring
 
-Sobald ein Datensatz für die Suche aktiviert wurde, können Sie den Status der Aufnahme in den Such-Service überprüfen, indem Sie das Menü **[!UICONTROL Überwachung]** aufrufen und die Registerkarte **[!UICONTROL Journey Optimizer]** auswählen.
+Sobald ein Datensatz für die Suche aktiviert wurde, können Sie den Status der Aufnahme in den Suchdienst überprüfen, indem Sie das Menü **[!UICONTROL Monitoring]** aufrufen und die Registerkarte **[!UICONTROL Journey Optimizer]** auswählen.
 
-Diese Prozessanzeige hilft zu verstehen, wenn neue Datenstapel im Lookup-Service verfügbar sind.
+Diese Prozessanzeige hilft zu verstehen, wenn neue Daten-Batches im Suchdienst verfügbar sind.
 
 ![](assets/aep-data-monitoring.png)
 
 ## Nächste Schritte
 
-Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Suche aktiviert wurde, können Sie die Daten mit [!DNL Journey Optimizer] Personalisierungs- und Entscheidungsfunktionen verwenden. Weitere Informationen finden Sie in den folgenden Abschnitten:
+Nachdem ein Datensatz mithilfe eines API-Aufrufs für die Suche aktiviert wurde, können Sie seine Daten mit [!DNL Journey Optimizer]-Funktionen zur Personalisierung und Entscheidungsfindung verwenden. Weitere Informationen finden Sie in den folgenden Abschnitten:
 
 * [Verwenden von Adobe Experience Platform-Daten für die Personalisierung](../personalization/aep-data-perso.md)
 * [Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../experience-decisioning/aep-data-exd.md)

@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 83%
+source-wordcount: '710'
+ht-degree: 93%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 83%
 
 >[!AVAILABILITY]
 >
->Diese Funktion steht derzeit allen Kunden als eingeschränkte Verfügbarkeitsversion zur Verfügung.
+>Diese Funktion steht derzeit allen Kundinnen und Kunden mit eingeschränkter Verfügbarkeit zur Verfügung.
 >
->Derzeit kann die Hilfsfunktion „datasetLookup“ in Ausdrucksfragmenten für eine begrenzte Anzahl von Kunden verwendet werden. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
+>Derzeit kann die Hilfsfunktion „datasetLookup“ in Ausdrucksfragmenten für eine begrenzte Anzahl von Kundinnen und Kunden verwendet werden. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
-Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform-Datensatzdatensätzen im Personalisierungseditor nutzen, um [Inhalte zu personalisieren](../personalization/personalize.md). Bevor Sie beginnen, müssen für die Lookup-Personalisierung erforderliche Datensätze zunächst für die Suche aktiviert werden. Detaillierte Informationen finden Sie in diesem Abschnitt: [Verwenden von Adobe Experience Platform-](../data/lookup-aep-data.md).
+Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform-Eintragsdatensätzen im Personalisierungseditor nutzen, um [Ihre Inhalte zu personalisieren](../personalization/personalize.md). Bevor Sie beginnen, müssen für die Lookup-Personalisierung erforderliche Datensätze zunächst für die Suche aktiviert werden. Detaillierte Informationen finden Sie in diesem Abschnitt: [Verwenden von Adobe Experience Platform-](../data/lookup-aep-data.md).
 
-Sobald ein Datensatz für die Lookup-Personalisierung aktiviert wurde, können Sie seine Daten verwenden, um Ihren Inhalt in [!DNL Journey Optimizer] zu personalisieren.
+Nachdem ein Datensatz für die Personalisierung der Suche aktiviert wurde, können Sie seine Daten nutzen, um Ihre Inhalte in [!DNL Journey Optimizer] zu personalisieren.
 
 1. Öffnen Sie den Personalisierungseditor, der in allen Kontexten verfügbar ist, in denen Sie Personalisierungen definieren können, z. B. Nachrichten. [Erfahren Sie, wie Sie mit dem Personalisierungseditor arbeiten](../personalization/personalization-build-expressions.md)
 
@@ -81,13 +81,15 @@ Sobald ein Datensatz für die Lookup-Personalisierung aktiviert wurde, können S
    >[!NOTE]
    >
    >Stellen Sie bei Verweisen auf ein Datensatzfeld sicher, dass der Verweis mit dem vollständigen Feldpfad, der im Schema definiert ist, übereinstimmt.
+   >
+   >Es gibt keine festen Beschränkungen für die Anzahl der Felder, die mit der Hilfsfunktion abgerufen werden können. Um eine optimale Leistung zu erzielen, wird jedoch empfohlen, die Anzahl der Felder unter 50 zu halten, um eine Beeinträchtigung des Durchsatzes zu vermeiden.
 
    * **result** ist der Wert, den Sie dem Parameter **result** in der Hilfsfunktion **MultiEntity** zugewiesen haben. In diesem Beispiel „Flug“.
    * **fieldID** ist die ID des Feldes, das Sie abrufen möchten. Diese ID ist in der Benutzeroberfläche von [!DNL Adobe Experience Platform] sichtbar, wenn Sie das Eintragschema durchsuchen, das mit Ihrem Datensatz verknüpft ist:
 
      +++Wo kann ich eine Feld-ID abrufen?
 
-     IDs für Felder können bei der Vorschau eines Datensatzes in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. In der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"} erfahren Sie, wie Sie eine Vorschau von Datensätzen anzeigen.
+     Feld-IDs können bei der Vorschau eines Datensatzes in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. In der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"} erfahren Sie, wie Sie eine Vorschau von Datensätzen anzeigen.
 
      ![](assets/aep-data-field.png)
 
