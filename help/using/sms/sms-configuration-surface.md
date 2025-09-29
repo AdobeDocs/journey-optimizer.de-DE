@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 86%
 
 ---
 
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
 1. Definieren Sie die **SMS-Einstellungen**.
 
-   ![](assets/sms-surface-settings.png)
+   ![](assets/sms-surface-settings.png){width=80%}
 
    Wählen Sie zunächst den **[!UICONTROL SMS-Typ]** aus, der mit der Konfiguration gesendet werden soll: **[!UICONTROL Transaktion]** oder **[!UICONTROL Marketing]**.
 
@@ -59,13 +59,17 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
 1. Geben Sie die **[!UICONTROL Absendernummer]** ein, die Sie für Ihre Sendungen verwenden möchten.
 
-1. Wählen Sie Ihr **[!UICONTROL SMS-Ausführungsfeld]**, um das mit den Telefonnummern der Profile verbundene **[!UICONTROL Profilattribut]** auszuwählen.
-
 1. Wenn Sie die URL-Verkürzungsfunktion in Ihren SMS-Nachrichten verwenden möchten, wählen Sie ein Element aus der **[!UICONTROL Subdomain]**-Liste aus.
 
    >[!NOTE]
    >
    >Um eine Subdomain auswählen zu können, müssen Sie zuvor mindestens eine SMS/MMS-Subdomain konfiguriert haben. [Weitere Informationen](sms-subdomains.md)
+
+1. Verwenden Sie im Abschnitt **[!UICONTROL Ausführungsdimension]** das Feld **[!UICONTROL SMS-Ausführung]**, um unter den Profilattributen die Telefonnummer auszuwählen, die Sie vorrangig verwenden möchten, wenn mehrere Zahlen in der Datenbank verfügbar sind. [Weitere Informationen](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+
+   >[!NOTE]
+   >
+   >Standardmäßig verwendet [!DNL Journey Optimizer] die in den &quot;[&quot; angegebene Telefonnummer ](../configuration/primary-email-addresses.md) Sandbox-Ebene. Durch die Aktualisierung dieses Felds wird der Standardwert für die Journey und Kampagnen, die diese Konfiguration verwenden, überschrieben.
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanalkonfiguration auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 

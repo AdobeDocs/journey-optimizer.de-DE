@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: primär, Ausführung, E-Mail, Zielgruppe, Profil, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 91%
+source-wordcount: '607'
+ht-degree: 69%
 
 ---
 
@@ -35,6 +35,10 @@ In diesem Fall nutzt [!DNL Journey Optimizer] **[!UICONTROL Ausführungsfelder]*
 Um die standardmäßig verwendeten Felder zu überprüfen, rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Ausführungsfelder]** auf.
 
 ![](assets/primary-address-execution-fields.png)
+
+>[!NOTE]
+>
+>Ausführungsfelder stehen für die Kanäle E-Mail und SMS zur Verfügung.
 
 Die aktuellen Werte werden für alle Sendungen auf Sandbox-Ebene verwendet. Sie können diese Felder bei Bedarf aktualisieren.
 
@@ -66,7 +70,7 @@ Das Ausführungsfeld wird aktualisiert und jetzt als primäre Adresse verwendet.
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Überschreiben des Standard-Ausführungsfelds {#override-default-execution-address}
+## Überschreiben des Standard-Ausführungsfelds in den Journey-Parametern {#override-execution-address-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
@@ -74,24 +78,16 @@ Das Ausführungsfeld wird aktualisiert und jetzt als primäre Adresse verwendet.
 >abstract="In bestimmten Fällen können Sie die standardmäßige Ausführungsadresse überschreiben. Verwenden Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben dem Feld, um eine benutzerdefinierte primäre Adresse zu definieren."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Informationen zur Ausführungsadresse"
 
-Für bestimmte Anwendungsfälle können Sie das global gesetzte Ausführungsfeld überschreiben und einen anderen Wert auf der Ebene der E-Mail-Konfiguration oder der Journey definieren.
+Für bestimmte Anwendungsfälle können Sie das global eingestellte Ausführungsfeld überschreiben und auf Journey-Ebene einen anderen Wert definieren.
 
 Diesen Wert zu überschreiben, kann zum Beispiel für folgende Zwecke nützlich sein:
 
 * Testen einer E-Mail-Adresse. Sie können ihre eigene E-Mail-Adresse hinzufügen: Nach Veröffentlichung der Journey wird die E-Mail an Sie gesendet.
 * Senden einer E-Mail an die Abonnierenden einer Liste. Weitere Informationen finden Sie in [diesem Anwendungsbeispiel](../building-journeys/message-to-subscribers-uc.md).
 
-### In der E-Mail-Konfiguration
+Beim Hinzufügen einer **[!UICONTROL E-Mail]**- oder **[!UICONTROL SMS]**-Aktion zu einer [Journey](../email/create-email.md#create-email-journey-campaign) wird die primäre E-Mail-Adresse unter den erweiterten Journey-Parametern angezeigt.
 
-Sie können das Standardausführungsfeld, das in den [allgemeinen Einstellungen](#admin-settings) festgelegt ist, bei Definition einer E-Mail-Kanalkonfiguration ändern. [Weitere Informationen](../email/email-settings.md#execution-address)
-
-Wenn eine Ausführungsadresse in der E-Mail-Konfiguration definiert ist, wird sie als primäre Adresse verwendet und überschreibt die allgemeine Einstellung auf Sandbox-Ebene.
-
-### In den Journey-Parametern {#journey-parameters}
-
-Beim Hinzufügen einer **[!UICONTROL E-]**- oder **[!UICONTROL SMS]**-Aktion zu einer [Journey](../email/create-email.md#create-email-journey-campaign) wird die primäre E-Mail-Adresse unter den erweiterten Journey-Parametern angezeigt.
-
-In bestimmten Kontexten können Sie diesen Wert mithilfe des Symbols **[!UICONTROL Parameterüberschreibungen aktivieren]** rechts neben dem Feld überschreiben.
+Überschreiben Sie diesen Wert mit dem **[!UICONTROL Parameterüberschreibungen aktivieren]** rechts neben dem Feld.
 
 ![](assets/journey-enable-parameter-override.png)
 
@@ -99,4 +95,23 @@ In bestimmten Kontexten können Sie diesen Wert mithilfe des Symbols **[!UICONTR
 >
 >Das Überschreiben von E-Mail-Adressen sollte nur für bestimmte Anwendungsfälle verwendet werden. Meistens müssen Sie die E-Mail-Adresse nicht ändern, da der Wert, der als die primäre Adresse in den **[!UICONTROL Ausführungsfeldern]** definiert ist, derjenige ist, der verwendet werden sollte.
 
+## Überschreiben des Standardausführungsfelds in der Kanalkonfiguration {#override-execution-address-channel-config}
 
+>[!CONTEXTUALHELP]
+>id="ajo_email_config_execution_address"
+>title="Überschreiben der zu verwendenden Standard-Ausführungsadresse"
+>abstract="Wenn mehrere E-Mail-Adressen oder Telefonnummern in der Datenbank verfügbar sind (privat, beruflich usw.), können Sie auswählen, welche für den Versand priorisiert werden soll. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber hier können Sie die Standardeinstellung für diese spezifische Kanalkonfiguration überschreiben."
+
+Sie können die standardmäßige Ausführungsadresse für eine bestimmte E-Mail- oder SMS-[Kanalkonfiguration) ](channel-surfaces.md).
+
+Gehen Sie dazu zum Abschnitt **[!UICONTROL Ausführungsdimension]** und bearbeiten Sie das Feld unter **[!UICONTROL Ausführungsadresse]**.
+
+![](assets/sms-config-execution-address.png){width=85%}
+
+Wählen Sie dann ein Element aus der Liste der verfügbaren XDM-Felder vom Typ E-Mail aus.
+
+![](assets/sms-config-execution-field.png)
+
+Das Ausführungsfeld wird aktualisiert und dann als primäre Adresse für die Kampagnen oder Journey verwendet, die diese Kanalkonfiguration verwenden. Sie überschreibt die [Allgemeine Einstellung](#admin-settings), die auf Sandbox-Ebene definiert ist.
+
+<!--[Learn more on the execution address in the email configuration ](../email/email-settings.md#execution-address)-->

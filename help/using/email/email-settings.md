@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 98%
 
 ---
 
@@ -187,11 +187,6 @@ Sie können **[!UICONTROL URL-Tracking-Parameter]** verwenden, um die Effektivit
 
 ## Ausführungsadresse {#execution-address}
 
->[!CONTEXTUALHELP]
->id="ajo_email_config_execution_address"
->title="Überschreiben der zu verwendenden Standard-Ausführungsadresse"
->abstract="Wenn mehrere E-Mail-Adressen in der Datenbank vorhanden sind (privat, beruflich usw.), können Sie auswählen, welche Adresse für den Versand Vorrang haben soll. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber hier können Sie die Standardeinstellung für diese spezifische E-Mail-Konfiguration überschreiben."
-
 Wenn Sie ein Profil als Ziel auswählen, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen zur Verfügung (private, berufliche E-Mail-Adresse usw.).
 
 In diesem Fall verwendet [!DNL Journey Optimizer] die in den **[!UICONTROL Ausführungsfeldern]** auf Sandbox-Ebene angegebene Adresse, um zu bestimmen, welche E-Mail-Adresse vom Profildienst vorrangig verwendet werden soll. [Weitere Informationen](../configuration/primary-email-addresses.md)
@@ -202,8 +197,6 @@ In diesem Fall verwendet [!DNL Journey Optimizer] die in den **[!UICONTROL Ausf�
 
 Dieses standardmäßige Ausführungsfeld kann jedoch auf der Konfigurationsebene des E-Mail-Kanals geändert werden. Diese Einstellung kann dann auf bestimmte Kampagnen oder Journeys angewendet werden.
 
-Bearbeiten Sie dazu das Feld **[!UICONTROL Versandadresse]** und wählen Sie ein Element aus der Liste der verfügbaren XDM-Felder vom Typ E-Mail aus.
+Bearbeiten Sie dazu das Feld **[!UICONTROL Versandadresse]** und wählen Sie ein Element aus der Liste der verfügbaren XDM-Felder vom Typ E-Mail aus. [Weitere Informationen](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
-
-Das Ausführungsfeld wird aktualisiert und dann als primäre Adresse verwendet. Dies überschreibt die allgemeine Einstellung auf Sandbox-Ebene.
