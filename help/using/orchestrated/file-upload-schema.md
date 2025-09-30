@@ -5,10 +5,10 @@ title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie in Adobe Experience Platform ein modellbasiertes Schema erstellen, indem Sie eine DDL hochladen
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 74%
+source-wordcount: '1080'
+ht-degree: 79%
 
 ---
 
@@ -28,6 +28,8 @@ Dieser Abschnitt enthält eine schrittweise Anleitung zum Erstellen eines modell
 1. [Verknüpfen von Schemata](#link-schema), um Ihre modellbasierten Daten mit vorhandenen Profilentitäten wie Empfängern oder Marken zu verbinden.
 
 1. [Nehmen Sie Daten](ingest-data.md) aus unterstützten Quellen in Ihren Datensatz auf.
+
+➡️ [Weitere Informationen zu modellbasierten Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Hochladen einer DDL-Datei{#ddl-upload}
 
@@ -74,7 +76,7 @@ Siehe folgendes Beispiel:
 1. Wählen Sie **[!UICONTROL Hochladen einer DDL-Datei]** aus, um ein Entitätsbeziehungsdiagramm zu definieren und Schemata zu erstellen.
 
    Die Tabellenstruktur muss Folgendes enthalten:
-   * Mindestens ein Primärschlüssel.
+   * Mindestens einen Primärschlüssel,
    * eine Versionskennung, z. B. ein `lastmodified`-Feld vom Typ `datetime` oder `number`.
    * Bei der Aufnahme mit Change Data Capture (CDC) gibt eine spezielle Spalte mit dem Namen `_change_request_type` vom Typ `String`, die den Typ der Datenänderung angibt (z. B. Einfügen, Aktualisieren, Löschen) und eine inkrementelle Verarbeitung ermöglicht.
    * Die DDL-Datei darf nicht mehr als 200 Tabellen definieren.
@@ -91,15 +93,15 @@ Siehe folgendes Beispiel:
 
 1. Geben Sie Ihren **[!UICONTROL Schemanamen]** ein.
 
-1. Richten Sie jedes Schema und seine Spalten ein und stellen Sie dabei sicher, dass ein Primärschlüssel angegeben wird.
+1. Richten Sie jedes Schema und seine Spalten ein, um sicherzustellen, dass ein Primärschlüssel und ein Versionsdeskriptor angegeben werden.
 
-   Ein Attribut, z. B. `lastmodified`, muss als Versionsdeskriptor (Typ `datetime`, `long` oder `int`) angegeben werden, um sicherzustellen, dass Datensätze mit den neuesten Daten aktualisiert werden. Benutzer können den Versionsdeskriptor ändern, der nach dem Festlegen obligatorisch wird. Ein Attribut kann nicht gleichzeitig ein Primärschlüssel (PK) und ein Versionsdeskriptor sein.
+   Ein Attribut, z. B. `lastmodified`, muss als Versionsdeskriptor (Typ `datetime`, `long` oder `int`) angegeben werden, um dafür zu sorgen, dass Datensätze mit den neuesten Daten aktualisiert werden. Benutzende können den Versionsdeskriptor ändern, der nach dem Festlegen obligatorisch wird. Ein Attribut kann nicht gleichzeitig ein Primärschlüssel (PK) und ein Versionsdeskriptor sein.
 
    ![](assets/admin_schema_2.png)
 
 1. Markieren Sie ein Attribut als `identity` und ordnen Sie es einem definierten Identity-Namespace zu.
 
-1. Umbenennen, Löschen oder Hinzufügen einer Beschreibung zu jeder Tabelle.
+1. Sie können jede Tabelle umbenennen, löschen oder um eine Beschreibung ergänzen.
 
 1. Klicken Sie auf **[!UICONTROL Fertig]**, sobald Sie fertig sind.
 
@@ -107,7 +109,7 @@ Sie können jetzt die Tabellen- und Felddefinitionen auf der Arbeitsfläche übe
 
 ## Definieren von Beziehungen {#relationships}
 
-Gehen Sie wie folgt vor, um logische Verbindungen zwischen Tabellen innerhalb Ihres Schemas zu definieren.
+Sie können beim Erstellen Ihres Schemas Beziehungen direkt in der DDL-Datei angeben. Wenn Sie Beziehungen lieber außerhalb der Datei definieren möchten, können Sie dies in der -Benutzeroberfläche tun, indem Sie die folgenden Schritte ausführen.
 
 1. Rufen Sie die Arbeitsflächenansicht Ihres Datenmodells auf und wählen Sie die beiden Tabellen aus, die Sie verknüpfen möchten.
 
