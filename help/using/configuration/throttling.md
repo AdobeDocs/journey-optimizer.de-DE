@@ -4,14 +4,14 @@ product: journey optimizer
 title: Einschränkungs-API
 description: Erfahren Sie, wie Sie mit der Einschränkungs-API arbeiten
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 96%
+source-wordcount: '1024'
+ht-degree: 93%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 96%
 
 Mit der Drosselungs-API können Sie Ihre Drosselungskonfigurationen erstellen, konfigurieren und überwachen, um die Anzahl der pro Sekunde gesendeten Ereignisse zu begrenzen.
 
-In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. Eine detaillierte API-Beschreibung finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/).
+In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. Eine detaillierte API-Beschreibung finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
 
 ## Wichtige Informationen
 
 * **Eine Konfiguration pro Organisation:** Pro Organisation ist derzeit nur eine Konfiguration zulässig. Eine Konfiguration muss in einer Produktions-Sandbox definiert werden (in den Headern über `x-sandbox-name` angegeben).
 * **Anwendung auf Organisationsebene:** Eine Konfiguration wird auf Organisationsebene angewendet.
 * **Umgang mit dem API-Limit:** Wenn das im API festgelegte Limit erreicht ist, werden weitere Ereignisse für bis zu 6 Stunden in die Warteschlange gestellt. Dieser Wert kann nicht geändert werden.
-* **`maxHttpConnections`-Parameter:** Der Parameter „maxHttpConnections“ ist ein optionaler Parameter im Begrenzungs-API, mit dem Sie die Anzahl der Verbindungen einschränken können, die Journey Optimizer für das externe System öffnet. [Informationen zum Arbeiten mit dem Begrenzungs-API](../configuration/capping.md)
+* **`maxHttpConnections`:** Der `maxHttpConnections` ist ein optionaler Parameter, der in der Begrenzungs-API nur verfügbar ist und mit dem Sie die Anzahl der Verbindungen einschränken können, die Journey Optimizer mit dem externen System öffnen wird. [Informationen zum Arbeiten mit dem Begrenzungs-API](../configuration/capping.md)
 
   Wenn Sie die Anzahl der Verbindungen beschränken, aber auch diese externen Aufrufe drosseln möchten, können Sie zwei Konfigurationen für denselben Endpunkt konfigurieren – eine zur Drosselung und eine zur Begrenzung. Beide Konfigurationen können für einen Endpunkt gleichzeitig bestehen. Um „maxHttpConnections“ für einen gedrosselten Endpunkt festzulegen, verwenden Sie das Drosselungs-API, um den Drosselungsschwellenwert festzulegen, und das Begrenzungs-API, um „maxHttpConnections“ festzulegen. Beim Aufrufen des Begrenzungs-APIs können Sie den Begrenzungsschwellenwert auf einen Wert festlegen, der höher ist als der Drosselungsschwellenwert, sodass die Begrenzungsregel tatsächlich nie zur Anwendung kommt.
 
@@ -45,20 +45,21 @@ In der folgenden Tabelle sind die verfügbaren Befehle für das Drosselungs-API 
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Abrufen einer Drosselungskonfiguration |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Löschen einer Drosselungskonfiguration |
 
-Darüber hinaus steht Ihnen [hier](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) – zur Unterstützung bei Ihrer Testkonfiguration – eine Postman-Sammlung zur Verfügung.
+Darüber hinaus steht Ihnen [hier](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"} – zur Unterstützung bei Ihrer Testkonfiguration – eine Postman-Sammlung zur Verfügung.
 
-Diese Sammlung wurde eingerichtet, um die Postman-Variablensammlung freizugeben, die über __[Integrationen der Adobe I/O-Konsole](https://console.adobe.io/integrations) > Testen > Für Postman herunterladen__ generiert wurde. Dadurch wird eine Postman-Umgebungsdatei mit den ausgewählten Integrationswerten erzeugt.
+Diese Sammlung wurde eingerichtet, um die Postman-Variablensammlung freizugeben, die über **[Integrationen der Adobe I/O-Konsole](https://console.adobe.io/integrations) > Testen > Für Postman herunterladen** generiert wurde. Dadurch wird eine Postman-Umgebungsdatei mit den ausgewählten Integrationswerten erzeugt.
 
 Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzufügen: `{JO_HOST}`, `{BASE_PATH}` und `{SANDBOX_NAME}`.
+
 * `{JO_HOST}`: [!DNL Journey Optimizer]-Gateway-URL.
 * `{BASE_PATH}` : Einstiegspunkt für die API.
-* `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de).
+* `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de){target="_blank"}.
 
 ## Drosselungskonfiguration{#configuration}
 
 Hier finden Sie die Struktur einer Drosselungskonfiguration. Die Attribute **name** und **description** sind optional.
 
-```
+```json
 {
     "name": "<given name - free text>",
     "description": "<given description - free text>"
@@ -70,7 +71,7 @@ Hier finden Sie die Struktur einer Drosselungskonfiguration. Die Attribute **nam
 
 Beispiel:
 
-```
+```json
 {
   "name": "throttling-config-external",
   "description": "example of throttling config for an external endpoint",
@@ -88,7 +89,7 @@ Beispiel:
 
 Beim Erstellen oder Aktualisieren einer Konfiguration validiert der Prozess die angegebene Konfiguration und gibt den Validierungsstatus zurück, der durch seine eindeutige ID identifiziert wird, entweder:
 
-```
+```json
 "ok" or "error"
 ```
 
@@ -123,7 +124,7 @@ Beim Erstellen, Löschen oder Bereitstellen einer Drosselungskonfiguration könn
 
 Beim Versuch, eine Konfiguration für Nicht-Produktions-Sandboxes zu erstellen:
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1463,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Operation not allowed on throttling config: non prod sandbox\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:384\",\"schema\":\"throttlingConfigs$ui-tests\"}",
@@ -133,7 +134,7 @@ Beim Versuch, eine Konfiguration für Nicht-Produktions-Sandboxes zu erstellen:
 
 Falls eine angegebene Sandbox nicht vorhanden ist:
 
-```
+```json
 {
     "status": 500,
     "error": "{\"code\":4000,\"family\":\"INTERNAL_ERROR\",\"message\":\"INTERNAL ERROR\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.common.exceptions.ApiErrorException:43\"}",
@@ -143,7 +144,7 @@ Falls eine angegebene Sandbox nicht vorhanden ist:
 
 Beim Versuch, eine weitere Konfiguration zu erstellen:
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1465,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Can't create throttling config: only one config allowed per org\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:108\",\"schema\":\"throttlingConfigs$prod\"}",
@@ -163,7 +164,7 @@ Beim Aktualisieren einer bereits bereitgestellten Konfiguration werden die neuen
 
 **Erstellung – POST**
 
-```
+```json
 {
     "canDeploy": {
         "validationStatus": "ok"
@@ -200,7 +201,7 @@ Beim Aktualisieren einer bereits bereitgestellten Konfiguration werden die neuen
 
 **Aktualisieren – PUT**
 
-```
+```json
 {
     "updatedElement": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -238,7 +239,7 @@ Beim Aktualisieren einer bereits bereitgestellten Konfiguration werden die neuen
 
 **Lesen (nach Aktualisierung) – GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -270,7 +271,7 @@ Beim Aktualisieren einer bereits bereitgestellten Konfiguration werden die neuen
 
 **Lesen (nach Bereitstellung) – GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
