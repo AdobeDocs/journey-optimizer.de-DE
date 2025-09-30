@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c3700e139451cbd3a33af751d5715750a0e8675e
+source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1783'
 ht-degree: 42%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 42%
 >abstract="**Adobe Journey Optimizer** bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert."
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
-
 
 ## Versionshinweise September 2025 {#25-9-rn}
 
@@ -78,8 +77,8 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p>Mit <a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist Journey Agent in Journey Optimizer verfügbar. Es ermöglicht die Analyse von Journey über eine natürliche Sprachschnittstelle. Der Agent erkennt Zielgruppen- oder Zeitplankonflikte und Profil-Abbrüche auf einer Journey und hilft Ihnen bei der Lösung. Bald werden Sie in der Lage sein, Journey mit agentischem Support zu erstellen.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">ausführlichen Dokumentation</a>.</p>
+<p>Mit <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist Journey Agent in Journey Optimizer verfügbar. Es ermöglicht die Analyse von Journey über eine natürliche Sprachschnittstelle. Der Agent erkennt Zielgruppen- oder Zeitplankonflikte und Profil-Abbrüche auf einer Journey und hilft Ihnen bei der Lösung. Bald werden Sie in der Lage sein, Journey mit agentischem Support zu erstellen.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 24. September 2025</p>
 </td>
 </tr>
@@ -173,6 +172,11 @@ ht-degree: 42%
 
 
 ### Verbesserungen {#sept-25-9-improvements}
+
+* **Webhook-Unterstützung für API-ausgelöste Kampagnen**\
+  API-ausgelöste Kampagnen unterstützen jetzt Webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen für jede Nachricht in Echtzeit zu erhalten, was die Beobachtbarkeit verbessert und eine nahtlose Überwachung und Automatisierung ermöglicht. [Weitere Informationen](../configuration/feedback-webhooks.md)
+
+  Verfügbarkeitsdatum: 29. September 2025
 
 * **Berechtigungen für Genehmigungsrichtlinien**
 Beim Erstellen oder Festlegen einer Validierungsrichtlinie wurde eine Option hinzugefügt, um zu verhindern, dass Journey-/Kampagnenerstellende ihre eigenen Objekte validieren. [Mehr dazu](../test-approve/approval-policies.md) - Verfügbarkeitsdatum: 23. September 2025
@@ -340,10 +344,5 @@ Sie können Schwellenwerte ändern und Warnhinweise auf Journey-Ebene im Verglei
 * **Hoher Durchsatzmodus für API-ausgelöste E-Mail-Kampagnen**\
   In API-ausgelösten Kampagnen ist jetzt ein neuer Modus mit hohem Durchsatz verfügbar. Dieser Modus wurde für umfangreiches Echtzeit-Messaging (bis zu 5.000 Transaktionen pro Sekunde) entwickelt und bietet eine höhere Verfügbarkeit mit geringerer Latenz.\
   Diese Funktion ist nur für den E-Mail-Kanal für Unternehmen verfügbar, die das Add-on Adobe Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie vom Adobe-Support.
-
-  <!-- Availability date: Sept XX, 2025-->
-
-* **Webhook-Unterstützung für API-ausgelöste Kampagnen**\
-  API-ausgelöste Kampagnen unterstützen jetzt Webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen für jede Nachricht in Echtzeit zu erhalten, was die Beobachtbarkeit verbessert und eine nahtlose Überwachung und Automatisierung ermöglicht.
 
   <!-- Availability date: Sept XX, 2025-->

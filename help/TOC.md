@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2954'
 ht-degree: 99%
 
 ---
@@ -911,6 +911,7 @@ ht-degree: 99%
    + [Verwenden von Testadressenlisten](using/configuration/seed-lists.md)
    + [Unterstützung für Archivierung](using/configuration/archiving-support.md)
    + [Ändern von Ausführungsadressen](using/configuration/primary-email-addresses.md)
+   + [Feedback-Webhooks erstellen](using/configuration/feedback-webhooks.md)
 + Journey-Konfiguration {#configure-journeys}
    + [Journey-Konfiguration](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [Erste Schritte bei der Journey-Konfiguration](using/configuration/about-data-sources-events-actions.md)
