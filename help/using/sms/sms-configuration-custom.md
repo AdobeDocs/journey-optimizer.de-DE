@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 71b4c2b711858731cfd0f627a5ff97fe9eb817a2
+source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 96%
+source-wordcount: '1352'
+ht-degree: 86%
 
 ---
 
@@ -175,6 +175,16 @@ Wenn keine Opt-in- oder Opt-out-Keywords angegeben werden, werden standardmäßi
 
 Nachdem Ihre API-Anmeldedaten erfolgreich erstellt wurden, besteht der nächste Schritt darin, einen Webhook zu erstellen und Ihre Einstellungen für „eingehend“ zu konfigurieren. Diese Konfiguration stellt sicher, dass Ihr System eingehende Daten oder Nachrichten ordnungsgemäß empfangen und verarbeiten kann.
 
+Beim Einrichten eines Webhooks können Sie seinen Zweck basierend auf dem Typ der Daten definieren, die Sie erfassen möchten:
+
+* **[!UICONTROL Eingehend]**: Verwenden Sie diese Option, wenn Sie Einverständnisantworten wie Opt-ins oder Opt-outs erfassen und Benutzereinstellungen erfassen möchten.
+
+* **[!UICONTROL Feedback]**: Wählen Sie diese Option, um Versand- und Interaktionsereignisse zu verfolgen, einschließlich Lesebestätigungen und Benutzerinteraktionen, um Berichte und Analysen zu unterstützen.
+
+>[!BEGINTABS]
+
+>[!TAB Inbound]
+
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL SMS-Webhooks]** unter **[!UICONTROL SMS-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
 
    ![](assets/sms_byo_5.png)
@@ -185,17 +195,21 @@ Nachdem Ihre API-Anmeldedaten erfolgreich erstellt wurden, besteht der nächste 
 
    * **[!UICONTROL SMS-Anbieter auswählen]**: Benutzerdefiniert.
 
-   * **[!UICONTROL API-Anmeldedaten auswählen]**: Wählen Sie aus der Dropdown-Liste, die Sie [zuvor konfiguriert haben, API-Anmeldedaten aus](#api-credential).
+   * **[!UICONTROL type]**: eingehend.
 
-   * **[!UICONTROL Opt-in-Keywords]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre Opt-in-Nachricht automatisch ausgelöst wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
+   * **[!UICONTROL API-Anmeldeinformationen]**: Wählen Sie aus der Dropdown-Liste [zuvor konfigurierte API-Anmeldeinformationen](#api-credential) aus.
 
-   * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Ihre Opt-in-Nachricht gesendet wird.
+1. Klicken Sie auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um Ihre Keyword-Kategorien hinzuzufügen, und konfigurieren Sie sie dann wie folgt:
 
-   * **[!UICONTROL Opt-out-Keywords]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre Opt-out-Nachricht automatisch ausgelöst wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
+   * **[!UICONTROL Eingehende Keyword-Kategorie]**: Wählen Sie Ihre Keyword-Kategorien entweder **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Hilfe]** oder **[!UICONTROL Standard]**.
 
-   * **[!UICONTROL Opt-out-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Ihre Opt-out-Nachricht gesendet wird.
+   * **[!UICONTROL Keyword eingeben]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre Nachricht automatisch Trigger erhält. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
+
+   * **[!UICONTROL Antwortnachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch gesendet wird.
 
    ![](assets/sms_byo_6.png)
+
+1. Aktivieren Sie die **[!UICONTROL Ungenaue Opt-out]**-Option, um Nachrichten zu erkennen, die Opt-out-Schlüsselwörtern ähneln (z. B. „CANCIL„).
 
 1. Klicken Sie auf **[!UICONTROL Payload-Editor anzeigen]**, um Ihre Anfrage-Payloads zu validieren und anzupassen.
 
@@ -214,6 +228,41 @@ Nachdem Ihre API-Anmeldedaten erfolgreich erstellt wurden, besteht der nächste 
 Nachdem Sie die Einstellungen für „eingehend“ für den Webhook erstellt und konfiguriert haben, müssen Sie jetzt eine [Kanalkonfiguration](sms-configuration-surface.md) für SMS-Nachrichten erstellen. 
 
 Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenbearbeitung, Personalisierung, Linktracking und Berichte nutzen.
+
+>[!TAB Feedback]
+
+1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL SMS-Webhooks]** unter **[!UICONTROL SMS-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
+
+   ![](assets/sms_byo_5.png)
+
+1. Konfigurieren Sie Ihre Webhook-Einstellungen wie unten beschrieben:
+
+   * **[!UICONTROL Name]**: Geben Sie einen Namen für Ihren Webhook ein.
+
+   * **[!UICONTROL SMS-Anbieter auswählen]**: Benutzerdefiniert.
+
+   * **[!UICONTROL Typ]**: Feedback.
+
+1. Klicken Sie auf **[!UICONTROL Payload-Editor anzeigen]**, um Ihre Anfrage-Payloads zu validieren und anzupassen.
+
+   Sie können Ihre Payload mithilfe von Profilattributen dynamisch personalisieren und mithilfe integrierter Hilfsfunktionen sicherstellen, dass genaue Daten zur Verarbeitung und Antworterstellung gesendet werden.
+
+1. Wenn Sie die Konfiguration Ihres Webhook abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
+
+1. Klicken Sie im Menü **[!UICONTROL Webhooks]** auf ![Papierkorbsymbol](assets/do-not-localize/Smock_Delete_18_N.svg), um Ihren Webhook zu löschen.
+
+1. Um vorhandene Konfigurationen zu ändern, suchen Sie den gewünschten Webhook und klicken Sie auf die Option **[!UICONTROL Bearbeiten]**, um die erforderlichen Änderungen vorzunehmen.
+
+1. Greifen Sie über Ihren zuvor gesendeten **[!UICONTROL Webhook]** auf Ihre neue **[!UICONTROL Webhook-URL]** zu und kopieren Sie sie.
+
+   ![](assets/sms_byo_7.png)
+
+Nachdem Sie die Einstellungen für „eingehend“ für den Webhook erstellt und konfiguriert haben, müssen Sie jetzt eine [Kanalkonfiguration](sms-configuration-surface.md) für SMS-Nachrichten erstellen. 
+
+Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenbearbeitung, Personalisierung, Linktracking und Berichte nutzen.
+
+>[!ENDTABS]
+
 
 ## Anleitungsvideo {#video}
 
