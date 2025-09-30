@@ -7,9 +7,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 96afe15b89b0a8291d5682bbfaa67404b5ebef93
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '767'
 ht-degree: 100%
 
 ---
@@ -102,10 +102,6 @@ Um Ihre Inhalte in einer Darstellung wiederzuverwenden, gehen Sie zur **Asset-Bi
 Um Inhalte von einem externen öffentlichen Speicherort hinzuzufügen, klicken Sie auf **[!UICONTROL URL]** und geben Sie dann die URL-Adresse des hinzuzufügenden Inhalts ein.
 
 Sie können URLs mit dem Personalisierungseditor personalisieren. Erhalten Sie mehr über [Personalisierung](../../personalization/personalize.md#use-expression-editor). 
-
-
-Sie können ein Adobe Experience Manager-Inhaltsfragment auch direkt in das Angebot einfügen, indem Sie auf **[!UICONTROL Inhaltsfragment]** klicken. Beachten Sie, dass die ausgewählte Platzierung vom Typ JSON sein muss, damit auf Inhaltsfragmente in Angeboten zugegriffen werden kann.
-Erfahren Sie mehr zur [Integration von Inhaltsfragmenten mit Journey Optimizer](../../integrations/aem-fragments.md).
 
 ![](../assets/offer-content-url.png)
 
