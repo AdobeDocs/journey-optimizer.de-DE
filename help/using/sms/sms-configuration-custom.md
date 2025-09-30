@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
+source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1357'
 ht-degree: 86%
 
 ---
@@ -199,17 +199,19 @@ Beim Einrichten eines Webhooks können Sie seinen Zweck basierend auf dem Typ de
 
    * **[!UICONTROL API-Anmeldeinformationen]**: Wählen Sie aus der Dropdown-Liste [zuvor konfigurierte API-Anmeldeinformationen](#api-credential) aus.
 
+   * **[!UICONTROL Absender-Telefonnummer &#x200B;]**: Geben Sie die Absender&#x200B;Telefonnummer ein, die Sie für Ihre Nachrichten verwenden möchten.
+
+     ![](assets/webhook-inbound.png)
+
 1. Klicken Sie auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um Ihre Keyword-Kategorien hinzuzufügen, und konfigurieren Sie sie dann wie folgt:
 
    * **[!UICONTROL Eingehende Keyword-Kategorie]**: Wählen Sie Ihre Keyword-Kategorien entweder **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Hilfe]** oder **[!UICONTROL Standard]**.
 
-   * **[!UICONTROL Keyword eingeben]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre Nachricht automatisch Trigger erhält. Verwenden Sie für mehrere Keywords kommagetrennte Werte.
+   * **[!UICONTROL Keyword eingeben]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre Nachricht automatisch Trigger erhält. Klicken Sie auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um mehrere Keywords hinzuzufügen.
 
-   * **[!UICONTROL Antwortnachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch gesendet wird.
+   * **[!UICONTROL Antwortnachricht]**: Wählen Sie aus der Dropdown-Liste die benutzerdefinierte Antwort aus, die automatisch gesendet wird.
 
    ![](assets/sms_byo_6.png)
-
-1. Aktivieren Sie die **[!UICONTROL Ungenaue Opt-out]**-Option, um Nachrichten zu erkennen, die Opt-out-Schlüsselwörtern ähneln (z. B. „CANCIL„).
 
 1. Klicken Sie auf **[!UICONTROL Payload-Editor anzeigen]**, um Ihre Anfrage-Payloads zu validieren und anzupassen.
 
@@ -243,6 +245,8 @@ Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nac
 
    * **[!UICONTROL Typ]**: Feedback.
 
+   ![](assets/webhook-feedback.png)
+
 1. Klicken Sie auf **[!UICONTROL Payload-Editor anzeigen]**, um Ihre Anfrage-Payloads zu validieren und anzupassen.
 
    Sie können Ihre Payload mithilfe von Profilattributen dynamisch personalisieren und mithilfe integrierter Hilfsfunktionen sicherstellen, dass genaue Daten zur Verarbeitung und Antworterstellung gesendet werden.
@@ -255,7 +259,7 @@ Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nac
 
 1. Greifen Sie über Ihren zuvor gesendeten **[!UICONTROL Webhook]** auf Ihre neue **[!UICONTROL Webhook-URL]** zu und kopieren Sie sie.
 
-   ![](assets/sms_byo_7.png)
+   ![](assets/sms_byo_8.png)
 
 Nachdem Sie die Einstellungen für „eingehend“ für den Webhook erstellt und konfiguriert haben, müssen Sie jetzt eine [Kanalkonfiguration](sms-configuration-surface.md) für SMS-Nachrichten erstellen. 
 
