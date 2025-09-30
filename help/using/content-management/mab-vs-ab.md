@@ -4,29 +4,23 @@ description: Erfahren Sie mehr über A/B-Tests vs. mehrarmige Bandit
 feature: A/B Testing, Experimentation
 role: User
 level: Experienced
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
+exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
+source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '607'
 ht-degree: 3%
 
 ---
 
 # A/B-Experimente vs. Experimente mit mehrarmigen Banditen {#mab-vs-ab}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
->title="Experiment type"
->abstract="Experiment type determines how traffic is allocated between treatments during your test. Choose the method that best aligns with your goals:</br>
->
->* **A/B Experiment**: Splits traffic as you define between treatments and measures performance until results are statistically significant. Best for learning which treatment performs better in a controlled comparison.
->
->* **Multi-armed Bandit**: Shifts traffic toward higher-performing treatments as data is collected, balancing speed and optimization. Useful when you want to maximize conversions during the experiment.
->
->* **Bring your own Multi-armed Bandit**: Use your own algorithm to decide traffic allocation, giving you flexibility if you have a custom model or strategy."
--->
+>title="Experimenttyp"
+>abstract="Der Experimenttyp bestimmt, wie der Traffic während des Tests zwischen den Behandlungen verteilt wird. Wählen Sie die Methode aus, die am besten zu Ihren Zielen passt:</br><b>A/B-Experiment</b>: Teilt den Traffic, während Sie zwischen Abwandlungen definieren und die Leistung messen, bis die Ergebnisse statistisch signifikant sind. Am besten können Sie lernen, welche Behandlung in einem kontrollierten Vergleich besser abschneidet.</br><b>Multi-Armed Bandit</b>: Verlagert den Traffic hin zu leistungsfähigeren Abwandlungen, wenn Daten gesammelt werden, wodurch Geschwindigkeit und Optimierung miteinander in Einklang gebracht werden. Dies ist nützlich, wenn Sie die Konversionen während des Experiments maximieren möchten.</br><b>Bring your own Multi-Armed Bandit</b>: Verwenden Sie Ihren eigenen Algorithmus, um die Traffic-Zuordnung zu bestimmen, sodass Sie flexibel sind, wenn Sie ein benutzerdefiniertes Modell oder eine benutzerdefinierte Strategie haben."
 
 Auf dieser Seite finden Sie einen detaillierten Vergleich von **A/B**- und **Multi-Armed Bandit**-Experimenten, wobei die jeweiligen Stärken, Einschränkungen und Szenarien erläutert werden, in denen jeder Ansatz am effektivsten ist.
+
 
 ## A/B {#ab-test}
 
@@ -132,4 +126,3 @@ Die wichtigsten Einschränkungen von Multi-Armed-Bandit-Methoden sind:
 | Sie verfügen über eingeschränktes Traffic und möchten den ROI schnell optimieren. | mehrarmiger Bandit |
 | Sie haben hohen Traffic und können sich langsameres Lernen leisten | A/B |
 | Stakeholder benötigen klare Entscheidungspunkte | A/B |
-
