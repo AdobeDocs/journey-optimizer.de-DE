@@ -15,7 +15,7 @@ exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
 source-wordcount: '1575'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -27,18 +27,18 @@ ht-degree: 3%
 
 Um Profildaten mit Ihren [!DNL Journey Optimizer] Landingpages zu erfassen und Ihre [!DNL Experience Platform] Datensätze anzureichern, können Sie Formulare in Ihren Landingpages nutzen.
 
-## Erstellen einer Formularvorgabe {#create-form-preset}
+## Erstellen einer Formularvoreinstellung {#create-form-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
->title="Auswahl des zu verwendenden Endpunkts"
+>title="Auswählen des zu verwendenden Endpunktes"
 >abstract="Definieren Sie den Streaming-Endpunkt, an den Daten beim Senden des Formulars gesendet werden."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Erstellen einer HTTP-API-Streaming-Verbindung"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="Auswählen eines Datensatzes"
->abstract="Definieren Sie einen Datensatz, in dem die Formularantworten gespeichert und reflektiert werden. Sie können eingeben, um einen bestimmten Datensatz zu durchsuchen, oder ihn aus der Liste auswählen."
+>abstract="Definieren Sie einen Datensatz, in dem die Formularantworten gespeichert und widergespiegelt werden. Sie können einen bestimmten Datensatz eingeben oder aus der Liste auswählen."
 
 Bevor Sie ein Formular erstellen können, müssen Sie eine dedizierte Vorgabe erstellen, in der Sie den Verbindungsendpunkt auswählen, an den Formulardaten gesendet werden, und den Datensatz, in dem die im Formular erfassten Daten gespeichert werden.
 
@@ -71,7 +71,7 @@ Beim Erstellen einer Voreinstellung:
    >
    >Weitere Informationen zum Erstellen einer Streaming-Quellverbindung finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
-1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können eingeben, um einen bestimmten Datensatz zu durchsuchen, oder ihn aus der Liste auswählen.
+1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können einen bestimmten Datensatz eingeben oder aus der Liste auswählen.
 
    >[!NOTE]
    >
@@ -87,17 +87,17 @@ Alle vorhandenen Formulare werden angezeigt. Sie können Formulare nach Status, 
 
 ![](assets/lp_form-list.png)
 
-## Erstellen und Entwerfen eines Formulars {#create-form}
+## Erstellen und Gestalten eines Formulars {#create-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
->title="Voreinstellung auswählen"
->abstract="Wählen Sie eine vordefinierte Vorgabe aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Erstellen einer Formularvorgabe"
+>title="Auswählen einer Voreinstellung"
+>abstract="Wählen Sie eine vordefinierte Voreinstellung aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Erstellen einer Formularvoreinstellung"
 
 Gehen Sie wie folgt vor, um ein Formular zu erstellen.
 
-1. Klicken Sie in der Liste **&#x200B;**&#x200B;Forms **[!UICONTROL auf „Formular erstellen]**.
+1. Klicken Sie in der Liste **** Forms **[!UICONTROL auf „Formular erstellen]**.
 
 1. Einen Namen hinzufügen. Sie können bei Bedarf eine Beschreibung hinzufügen.
 
@@ -189,8 +189,8 @@ Nachdem Sie ein Feldattribut ausgewählt oder ein benutzerdefiniertes Feld hinzu
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
->title="Dankeseite"
->abstract="Konfigurieren Sie, was passiert, wenn jemand das Formular ausfüllt oder weiterleitet."
+>title="Dankesseite"
+>abstract="Konfigurieren Sie den Vorgang, der erfolgt, wenn jemand das Formular ausfüllt oder weiterleitet."
 
 Konfigurieren Sie **[!UICONTROL Abschnitt „Dankeseite]**, was passiert, wenn ein Benutzer das Formular ausfüllt.
 
