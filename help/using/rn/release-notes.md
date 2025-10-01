@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8def78063b8477eb2eaf0a95602b7d311eb1ad2e
+source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1862'
 ht-degree: 40%
 
 ---
@@ -77,8 +77,8 @@ ht-degree: 40%
 <tbody>
 <tr>
 <td>
-<p>Mit <a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist Journey Agent in Journey Optimizer verfügbar. Es ermöglicht die Analyse von Journey über eine natürliche Sprachschnittstelle. Der Agent erkennt Zielgruppen- oder Zeitplankonflikte und Profil-Abbrüche auf einer Journey und hilft Ihnen bei der Lösung. Bald werden Sie in der Lage sein, Journey mit agentischem Support zu erstellen.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">ausführlichen Dokumentation</a>.</p>
+<p>Mit <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist Journey Agent in Journey Optimizer verfügbar. Es ermöglicht die Analyse von Journey über eine natürliche Sprachschnittstelle. Der Agent erkennt Zielgruppen- oder Zeitplankonflikte und Profil-Abbrüche auf einer Journey und hilft Ihnen bei der Lösung. Bald werden Sie in der Lage sein, Journey mit agentischem Support zu erstellen.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 24. September 2025</p>
 </td>
 </tr>
@@ -178,9 +178,6 @@ ht-degree: 40%
 
   Verfügbarkeitsdatum: 29. September 2025
 
-* **Berechtigungen für Genehmigungsrichtlinien**
-Beim Erstellen oder Festlegen einer Validierungsrichtlinie wurde eine Option hinzugefügt, um zu verhindern, dass Journey-/Kampagnenerstellende ihre eigenen Objekte validieren. [Mehr dazu](../test-approve/approval-policies.md) - Verfügbarkeitsdatum: 23. September 2025
-
 * **mTLS-Unterstützung für SMS-Kanal**
 Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Möglichkeit, die gegenseitige TLS-Authentifizierung (MTLS) zu aktivieren. Dazu müssen sowohl der Client als auch der Server die Identitäten der anderen Seite bestätigen, bevor eine sichere Verbindung hergestellt wird. [Mehr dazu](../sms/sms-configuration-custom.md) - Verfügbarkeitsdatum: 23. September 2025
 
@@ -226,6 +223,11 @@ Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Mög
    * Sie können jetzt auf undefinierte eingehende Keyword-Antworten zugreifen, die über eine SMS-Nachricht gesendet werden, einschließlich Tippfehler, Wörter oder Sätze, die in der Konfiguration nicht explizit definiert sind. Sie werden im Datensatz **AJO Email Tracking Experience Event** unter **InboundMessage** für 13 Monate gespeichert. Nur bei Sinch, Infobip und benutzerdefinierten SMS-Anbietern verfügbar. - Verfügbarkeitsdatum: 23. September 2025
 
 * **WhatsApp** - Sie können jetzt die Standard-Ausführungsadresse für WhatsApp verwenden oder eine benutzerdefinierte Adresse einrichten.
+
+<!--
+* **Approval policy permissions**
+  Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects. [Read more](../test-approve/approval-policies.md) - Availability date: Sept 23, 2025 
+-->
 
 ### Demnächst {#sept-25-9-soon}
 
