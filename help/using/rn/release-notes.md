@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
+source-git-commit: d2c6c2cabc40d896fa3bf2bd401fe1c15e7c8054
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 40%
+source-wordcount: '1843'
+ht-degree: 41%
 
 ---
 
@@ -77,8 +77,8 @@ ht-degree: 40%
 <tbody>
 <tr>
 <td>
-<p>Mit <a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist Journey Agent in Journey Optimizer verfügbar. Es ermöglicht die Analyse von Journey über eine natürliche Sprachschnittstelle. Der Agent erkennt Zielgruppen- oder Zeitplankonflikte und Profil-Abbrüche auf einer Journey und hilft Ihnen bei der Lösung. Bald werden Sie in der Lage sein, Journey mit agentischem Support zu erstellen.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">ausführlichen Dokumentation</a>.</p>
+<p>Mit <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist Journey Agent in Journey Optimizer verfügbar. Es ermöglicht die Analyse von Journey über eine natürliche Sprachschnittstelle. Der Agent erkennt Zielgruppen- oder Zeitplankonflikte und Profil-Abbrüche auf einer Journey und hilft Ihnen bei der Lösung. Bald werden Sie in der Lage sein, Journey mit agentischem Support zu erstellen.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 24. September 2025</p>
 </td>
 </tr>
@@ -221,8 +221,6 @@ Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Mög
    * Beim Einrichten eines benutzerdefinierten SMS-Anbieters können Sie jetzt ein **Standard**-Keyword definieren, das verwendet wird, wenn eine eingehende SMS ein nicht erkanntes Keyword enthält. Sie können auch **benutzerdefinierte** Schlüsselwörter für bestimmte Aktionen erstellen. [Mehr dazu](../sms/sms-configuration-custom.md) - Verfügbarkeitsdatum: 23. September 2025
 
    * Sie können jetzt auf undefinierte eingehende Keyword-Antworten zugreifen, die über eine SMS-Nachricht gesendet werden, einschließlich Tippfehler, Wörter oder Sätze, die in der Konfiguration nicht explizit definiert sind. Sie werden im Datensatz **AJO Email Tracking Experience Event** unter **InboundMessage** für 13 Monate gespeichert. Nur bei Sinch, Infobip und benutzerdefinierten SMS-Anbietern verfügbar. - Verfügbarkeitsdatum: 23. September 2025
-
-* **WhatsApp** - Sie können jetzt die Standard-Ausführungsadresse für WhatsApp verwenden oder eine benutzerdefinierte Adresse einrichten.
 
 <!--
 * **Approval policy permissions**
