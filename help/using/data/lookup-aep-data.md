@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Ausdruck, Editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
+source-git-commit: eb0da59bbdaa16eb381dda965cd06fb8548a945a
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 90%
+source-wordcount: '833'
+ht-degree: 74%
 
 ---
 
@@ -32,10 +32,22 @@ Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform-Daten mit 
 
 Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinien durch:
 
-* Datensätze, die für die Suche aktiviert sind, sollten keine personenbezogenen Daten enthalten.
-* Datensätze, die für die Suche aktiviert sind und bei der Personalisierung verwendet werden, sind nicht vor Löschvorgängen geschützt. Sie müssen den Überblick darüber behalten, welche Datensätze für die Personalisierung verwendet werden, um sicherzustellen, dass sie nicht gelöscht oder entfernt werden.
-* Datensätze müssen mit einem Schema verknüpft sein, das NICHT vom Typ „Profil“ oder „Ereignis“ ist.
-* Die Streaming-Datenaufnahme wird für Datensätze mit aktivierter Suche unterstützt. Beachten Sie, dass die Aufnahmeverarbeitung noch abgeschlossen sein muss, bevor die Daten für Personalisierung oder Entscheidung verfügbar sind.
+* **Keine personenbezogenen Daten in Datensätzen** - Datensätze, die für die Suche aktiviert sind, sollten keine personenbezogenen Daten enthalten.
+
+* 
+   * **Löschrisiko** - Datensätze, die in der Personalisierung verwendet werden, sind nicht vor dem Löschen geschützt. Sie müssen verfolgen, welche Datensätze verwendet werden, um sicherzustellen, dass sie nicht entfernt werden.
+
+* **Schematyp** - Datensätze müssen mit einem Schema verknüpft sein, das **NICHT** vom Typ Profil oder Ereignis ist.
+
+* **Lassen Sie den Umschalter für die Suche aktiviert** - Vermeiden Sie es, Datensätze wiederholt zu aktivieren und zu deaktivieren. Dies kann zu unerwartetem Indizierungsverhalten führen. Es empfiehlt sich, den Datensatz so lange aktiviert zu lassen, wie Sie ihn für Suchen verwenden möchten.
+
+* **Auswahl eines Batches von Daten** - Wenn Sie einen Batch von Daten aus Ihrem Datensatz entfernen, werden alle übereinstimmenden Schlüssel vollständig aus dem Lookup-Service entfernt. Beispiel:
+
+  **Batch 1**: SKU1, SKU2, SKU3\
+  **Batch 2**: SKU1, SKU2, SKU3, SKU4, SKU5, SKU6\
+  **Batch 3**: SKU7, SKU8, SKU9, SKU10
+
+  Wenn Sie **Batch 1** löschen, werden SKU1, SKU2 und SKU3 aus dem Suchspeicher entfernt. Die resultierenden Lookup-Daten enthalten dann: SKU4, SKU5, SKU6, SKU7, SKU8, SKU9, SKU10.
 
 ### Berechtigung für den Suchdienst
 
