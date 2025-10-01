@@ -13,27 +13,27 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
 workflow-type: tm+mt
 source-wordcount: '1863'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # Zugreifen auf und Verwalten von Kampagnen {#manage-campaigns}
 
-Bevor Sie mit Kampagnen beginnen, überprüfen Sie die folgenden Voraussetzungen [in diesem Abschnitt](get-started-with-campaigns.md#permissions). Sobald diese Voraussetzungen erfüllt sind, können Sie mit der Erstellung Ihrer Kampagne beginnen:
+Bevor Sie mit Kampagnen beginnen, überprüfen Sie [in diesem Abschnitt](get-started-with-campaigns.md#permissions) die folgenden Voraussetzungen. Sobald diese Voraussetzungen erfüllt sind, können Sie mit der Erstellung Ihrer Kampagne beginnen:
 
-* **Zugriff auf Kampagnen**. Der Zugriff auf Kampagnen erfolgt entweder über die [Kampagnenliste](#access) oder über den [Kampagnenkalender](#calendar).
+* **Rufen Sie Kampagnen auf**. Der Zugriff auf Kampagnen erfolgt entweder über die [Kampagnenliste](#access) oder den [Kampagnenkalender](#calendar).
 
-* **Erstellen der Kampagne**. Die Erstellungsschritte hängen vom [Kampagnentyp](get-started-with-campaigns.md#get-started-with-campaigns) ab. Erfahren Sie, wie Sie eine [Aktionskampagne](../campaigns/create-campaign.md) eine [API-ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) oder eine [orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md) erstellen.
+* **Erstellen Sie die Kampagne**. Die Erstellungsschritte hängen vom [Kampagnentyp](get-started-with-campaigns.md#get-started-with-campaigns) ab. Erfahren Sie, wie Sie eine [Aktionskampagne](../campaigns/create-campaign.md), eine [per API ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) oder eine [orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md) erstellen können.
 
-* **Definieren Sie die Kampagneneigenschaften**. Erfahren Sie, wie Sie Eigenschaften für eine [Aktionskampagne](../campaigns/campaign-properties.md) für eine [API-ausgelöste Kampagne](../campaigns/api-triggered-campaign-properties.md) oder eine [orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md) festlegen.
+* **Definieren Sie die Kampagneneigenschaften**. Erfahren Sie, wie Sie Eigenschaften für eine [Aktionskampagne](../campaigns/campaign-properties.md), eine [per API ausgelöste Kampagne](../campaigns/api-triggered-campaign-properties.md) oder eine [orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md) festlegen können.
 
-* **Definieren der Kampagnenkanäle und -inhalte**. Erfahren Sie, wie Sie den Inhalt einer [Aktionskampagne](../campaigns/campaign-content.md) einer [API-ausgelösten Kampagne](../campaigns/api-triggered-campaign-content.md) oder einer [orchestrierten Kampagne](../orchestrated/orchestrate-activities.md) definieren.
+* **Definieren Sie die Kampagnenkanäle und Inhalte**. Erfahren Sie, wie Sie die Inhalte einer [Aktionskampagne](../campaigns/campaign-content.md), einer [per API ausgelösten Kampagne](../campaigns/api-triggered-campaign-content.md) oder einer [orchestrierten Kampagne](../orchestrated/orchestrate-activities.md) definieren können.
 
-* **Kampagne planen** - Geplante Kampagnen können [ Kampagnenkalender ](#calendar) werden.
+* **Planen Sie Ihre Kampagne** – Geplante Kampagnen können [im Kampagnenkalender](#calendar) geprüft werden.
 
-Beginnen Sie dann mit dem Testen, verbessern und verfeinern Sie Ihre Kampagne, bevor Sie sie ausführen. Sobald Ihre Kampagne live ist, können Sie sie überwachen und auf Berichte zugreifen.
+Beginnen Sie dann mit dem Testen und verbessern und verfeinern Sie Ihre Kampagne, bevor Sie sie ausführen. Sobald Ihre Kampagne live ist, können Sie sie überwachen und auf Berichte zugreifen.
 
-Alle Kampagnenstatus und Warnhinweise anzeigen [in diesem Abschnitt](#statuses).
+Sehen Sie sich [in diesem Abschnitt](#statuses) alle Kampagnenstatus und Warnhinweise an.
 
 
 ## Zugriff auf Kampagnen {#access}
@@ -48,7 +48,7 @@ Alle Kampagnenstatus und Warnhinweise anzeigen [in diesem Abschnitt](#statuses).
 >title="Aktion"
 >abstract="In diesem Abschnitt werden alle in der orchestrierten Kampagne verwendeten Aktionen aufgelistet."
 
-Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden. Verwenden Sie die Registerkarten, um Kampagnen nach Typ zu durchsuchen: **Aktion** Kampagnen, **API-ausgelöst** Kampagnen und **orchestrierte** Kampagnen. Erfahren Sie mehr über [Kampagnentyp](get-started-with-campaigns.md#get-started-with-campaigns). Die verfügbaren Typen hängen von Ihrer Lizenzvereinbarung und Ihren Berechtigungen ab.
+Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden. Verwenden Sie die Registerkarten, um Kampagnen nach Typ zu durchsuchen: **Aktions**-Kampagnen, **per API ausgelöste** Kampagnen und **orchestrierte** Kampagnen. Erfahren Sie mehr über die [Art der Kampagne](get-started-with-campaigns.md#get-started-with-campaigns). Die verfügbaren Typen hängen von Ihrer Lizenzvereinbarung und Ihren Berechtigungen ab.
 
 >[!BEGINTABS]
 
@@ -84,20 +84,20 @@ Die Schaltfläche ![Bild mit der Schaltfläche „Mehr Aktionen“](assets/do-no
 
 ![Bild, das das Kampagneninventar zeigt](assets/inventory-actions.png)
 
-* **[!UICONTROL Alle Zeitberichte anzeigen]**/**[!UICONTROL Bericht zu letzten 24 Stunden anzeigen]** - Greifen Sie auf Berichte zu, um die Wirkung und Leistung Ihrer Kampagnen zu messen und zu visualisieren. Weitere Informationen zu [Kampagnenberichten](../reports/campaign-global-report-cja.md).
-* **[!UICONTROL Tags bearbeiten]** - Bearbeiten Sie die mit der Kampagne verknüpften Tags. Erfahren Sie, wie [ Tags in Ihren Kampagnen verwenden](../start/search-filter-categorize.md#add-tags-to-an-object)
-* **[!UICONTROL Duplizieren]** - Mit dieser Option können Sie eine Kampagne duplizieren, z. B. um eine gestoppte orchestrierte Kampagne auszuführen. [Weitere Informationen](#duplicate-a-campaign)
-* **[!UICONTROL Löschen]** - Verwenden Sie diese Option, um eine Kampagne zu löschen. [Weitere Informationen](#delete-a-campaign)
-* **[!UICONTROL Archivieren]**: Archiviert die Kampagne. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung gelöscht. Diese Aktion steht für alle Kampagnen mit Ausnahme von Kampagnen **[!UICONTROL Entwurf]** zur Verfügung. Weitere Informationen über [Kampagnenarchivierung](#archive-a-campaign).
+* **[!UICONTROL Bericht für gesamte Zeit anzeigen]** / **[!UICONTROL Bericht für letzte 24 Stunden anzeigen]**: Greifen Sie auf Berichte zu, um die Wirkung und Leistung Ihrer orchestrierten Kampagnen zu messen und zu visualisieren. Weitere Informationen zu [Kampagnenberichten](../reports/campaign-global-report-cja.md).
+* **[!UICONTROL Tags bearbeiten]**: Bearbeiten Sie die mit der Kampagne verknüpften Tags. Erfahren Sie, wie Sie [Tags in Ihren Kampagnen verwenden](../start/search-filter-categorize.md#add-tags-to-an-object) können.
+* **[!UICONTROL Duplizieren]**: Verwenden Sie diese Option, um eine Kampagne zu duplizieren, z. B. um eine orchestrierte Kampagne auszuführen, die gestoppt wurde. [Weitere Informationen](#duplicate-a-campaign)
+* **[!UICONTROL Löschen]**: Verwenden Sie diese Option, um eine Kampagne zu löschen. [Weitere Informationen](#delete-a-campaign)
+* **[!UICONTROL Archivieren]**: Archiviert die Kampagne. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung gelöscht. Diese Aktion ist für alle Kampagnen mit Ausnahme von Kampagnen im Status **[!UICONTROL Entwurf]** verfügbar. Weitere Informationen zur [Kampagnenarchivierung](#archive-a-campaign).
 
 Für von einer Aktion und durch API ausgelöste Kampagnen sind die folgenden zusätzlichen Aktionen verfügbar:
 
-* **[!UICONTROL Zu Paket hinzufügen]**: Fügt die Kampagne zu einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. Erfahren Sie, wie [ Objekte in eine andere Sandbox exportieren](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Zu Paket hinzufügen]**: Fügt die Kampagne zu einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. Erfahren Sie, wie Sie [Objekte in eine andere Sandbox exportieren](../configuration/copy-objects-to-sandbox.md) können.
 * **[!UICONTROL Entwurfsversion öffnen]**: Wenn eine neue Version der Kampagne erstellt und noch nicht aktiviert wurde, können Sie mit dieser Aktion auf ihre Entwurfsversion zugreifen.
 
 ## Kampagnenlebenszyklus {#statuses}
 
-In Adobe Journey Optimizer durchläuft jede Kampagne einen Lebenszyklus, der sich in ihrem Status in der Benutzeroberfläche widerspiegelt. Die verfügbaren Status variieren je nach Kampagnentyp: Aktion, API-ausgelöst oder orchestriert. Verwenden Sie die folgenden Registerkarten, um den Lebenszyklus und die Status für jeden Kampagnentyp zu untersuchen.
+In Adobe Journey Optimizer durchläuft jede Kampagne einen Lebenszyklus, der sich in ihrem Status in der Benutzeroberfläche widerspiegelt. Die verfügbaren Status variieren je nach Kampagnentyp: Aktion, API-ausgelöst oder orchestriert. Verwenden Sie die folgenden Registerkarten, um den Lebenszyklus und die Status für die einzelnen Kampagnentypen zu untersuchen.
 
 >[!BEGINTABS]
 
@@ -167,7 +167,7 @@ Darstellung der Kampagnen:
 
 So navigieren Sie in Ihrem Kampagnenkalender:
 
-1. Klicken Sie auf ![Kalender](assets/do-not-localize/Smock_Calendar_18_N.svg), um auf Ihren Kampagnenkalender zuzugreifen.
+1. Klicken Sie auf das Symbol ![Kalender](assets/do-not-localize/Smock_Calendar_18_N.svg), um auf Ihren Kampagnenkalender zuzugreifen.
 
 1. Verwenden Sie die Pfeiltasten oder die Datumsauswahl über dem Kalender, um zwischen Wochen zu wechseln.
 
@@ -175,23 +175,23 @@ So navigieren Sie in Ihrem Kampagnenkalender:
 
    ![Kalenderansicht mit Live-Kampagnen](assets/campaigns-timeline.png)
 
-1. Klicken Sie auf ![Zahnradsymbol](assets/do-not-localize/Smock_Gears_18_N.png), um die Anzeige von Elementen umzuschalten, die sich über mehrere Tage oder Wochen erstrecken.
+1. Klicken Sie auf das Symbol ![Zahnrad](assets/do-not-localize/Smock_Gears_18_N.png), um die Anzeige von Elementen umzuschalten, die sich über mehrere Tage oder Wochen erstrecken.
 
    ![Kalenderansicht mit Live-Kampagnen](assets/campaign-long-term.png)
 
-1. Klicken Sie auf das ![Kalender hinzufügen](assets/do-not-localize/Smock_CalendarAdd_18_N.svg)-Symbol, um bis zu drei externe Kalender zu verwalten und hinzuzufügen.
+1. Klicken Sie auf das Symbol ![Kalender hinzufügen](assets/do-not-localize/Smock_CalendarAdd_18_N.svg), um bis zu drei externe Kalender zu verwalten und hinzuzufügen.
 
    ![Kalenderansicht mit externen Kalendern](assets/campaign-external-calendar.png)
 
-1. CSV-Dateien mit Ereignisnamen, Start- und Enddaten per Drag-and-Drop verschieben.
+1. Verschieben Sie Ihre CSV-Dateien mit den Namen der Veranstaltungen sowie Start- und Enddaten per Drag-and-Drop.
 
-   Hochgeladene Ereignisse werden für alle Benutzenden in Ihrer Organisation angezeigt und sowohl im Journey- als auch im Kampagnenkalender angezeigt.
+   Hochgeladene Ereignisse werden für alle Benutzenden in Ihrer Organisation angezeigt und erscheinen sowohl im Journey- als auch im Kampagnenkalender.
 
-   +++Das CSV-Format sollte wie folgt lauten:
+   +++Das CSV-Format sollte wie folgt aussehen:
 
-   | Spalte 1 | Spalte 2 | Spalte 3 |
+   | Spalte1 | Spalte2 | Spalte3 |
    |-|-|-|
-   | Ereignisname | Startdatum im Format MM/TT/JJ | Enddatum im Format MM/TT/JJ |
+   | Ereignisname | Startdatum im Format TT/MM/JJ | Enddatum im Format TT/MM/JJ |
 
    +++
 
@@ -199,7 +199,7 @@ So navigieren Sie in Ihrem Kampagnenkalender:
 
    ![Kalenderansicht mit externen Kalendern](assets/campaign-manage-calendar.png)
 
-1. Um weitere Informationen zu einer Kampagne zu erhalten, klicken Sie auf den entsprechenden visuellen Block, um die entsprechenden Details zu öffnen. Dies öffnet einen Informationsbereich mit unterschiedlichen Informationen über die Kampagne, z. B. den Kampagnentyp, Zugriff auf die Berichte oder die zugewiesenen Tags.
+1. Durch Klicken auf den visuellen Block einer Kampagne werden weitere Details geöffnet. Dies öffnet einen Informationsbereich mit unterschiedlichen Informationen über die Kampagne, z. B. den Kampagnentyp, Zugriff auf die Berichte oder die zugewiesenen Tags.
 
    ![Kampagnenliste mit geöffnetem Informationsbereich](assets/campaign-rail.png)
 
@@ -248,19 +248,19 @@ Archivierte Kampagnen können dann mithilfe des entsprechenden Filters in der Li
 
 ## Löschen einer Kampagne {#delete}
 
-Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit ![ Auslassungspunkten (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Löschen]**.
+Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit den Auslassungspunkten ![Bild mit der Schaltfläche „Weitere Aktionen“](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Löschen]**.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
 >[!IMPORTANT]
 >
->Diese Option ist nur für Kampagnen **[!UICONTROL Entwurf]** verfügbar.
+>Diese Aktion ist nur für Kampagnen im Status **[!UICONTROL Entwurf]** verfügbar.
 
 
 ## Duplizieren einer Kampagne {#duplicate}
 
-Um eine Kampagne zu duplizieren (beispielsweise wenn sie gestoppt wurde), verwenden Sie die Schaltfläche mit den ![ (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Duplizieren]**.
+Um eine Kampagne zu duplizieren (beispielsweise wenn sie gestoppt wurde), verwenden Sie die Schaltfläche mit den Auslassungspunkten ![Bild mit der Schaltfläche „Weitere Aktionen“](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Duplizieren]**.
 
-Geben Sie den Namen der Kampagne ein und bestätigen Sie.
+Geben Sie den Namen der Kampagne ein und speichern Sie ihn. 
 
-Die Kampagne wird erstellt und der Kampagnenliste hinzugefügt.
+Die Kampagne wurde erstellt und ist nun in der Kampagnenliste sichtbar.
