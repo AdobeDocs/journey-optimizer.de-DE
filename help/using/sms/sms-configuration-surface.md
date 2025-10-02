@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
    >[!NOTE]
    >
-   >Standardmäßig verwendet [!DNL Journey Optimizer] die in den &quot;[&quot; angegebene Telefonnummer ](../configuration/primary-email-addresses.md) Sandbox-Ebene. Durch die Aktualisierung dieses Felds wird der Standardwert für die Journey und Kampagnen, die diese Konfiguration verwenden, überschrieben.
+   >Standardmäßig verwendet [!DNL Journey Optimizer] die in den &quot;[&quot; angegebene Telefonnummer &#x200B;](../configuration/primary-email-addresses.md) Sandbox-Ebene. Durch die Aktualisierung dieses Felds wird der Standardwert für die Journey und Kampagnen, die diese Konfiguration verwenden, überschrieben.
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanalkonfiguration auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 

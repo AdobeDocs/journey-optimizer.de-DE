@@ -40,7 +40,7 @@ Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres I
 
 >[!NOTE]
 >
->Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einer Kampagne oder Journey mit Code-basiertem Erlebnis mithilfe der [Entscheidungsfindung](../experience-decisioning/gs-experience-decisioning.md) simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt ](../experience-decisioning/create-decision.md#test-and-publish).
+>Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einer Kampagne oder Journey mit Code-basiertem Erlebnis mithilfe der [Entscheidungsfindung](../experience-decisioning/gs-experience-decisioning.md) simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt &#x200B;](../experience-decisioning/create-decision.md#test-and-publish).
 
 
 ## Vorschau auf Gerät {#preview-on-device}

@@ -40,7 +40,7 @@ Zu den wichtigsten Vorteilen gehören:
 
 ## Zugriff auf Journey Optimizer Experimentation Accelerator
 
-Nachdem Sie [Experiment erstellt und konfiguriert ](content-experiment.md) und Ihre Kampagnen oder Journey an Ihre Profile gesendet haben, können Sie auf die **[!UICONTROL Journey Optimizer Experimentation Accelerator]** zugreifen, um sich eingehender mit der Leistung Ihres Experiments zu befassen.
+Nachdem Sie [Experiment erstellt und konfiguriert &#x200B;](content-experiment.md) und Ihre Kampagnen oder Journey an Ihre Profile gesendet haben, können Sie auf die **[!UICONTROL Journey Optimizer Experimentation Accelerator]** zugreifen, um sich eingehender mit der Leistung Ihres Experiments zu befassen.
 
 Der Zugriff auf **[!UICONTROL Journey Optimizer Experimentation Accelerator]** entweder über das Menü links in der Dropdown-Liste [!UICONTROL Experimentieren] oder über den Apps Switcher. Beachten Sie, dass Benutzende, die nur eine Target-Lizenz haben, ausschließlich über den Anwendungsschalter darauf zugreifen können.
 

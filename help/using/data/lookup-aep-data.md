@@ -34,7 +34,7 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 
 * **Keine personenbezogenen Daten in Datensätzen** - Datensätze, die für die Suche aktiviert sind, sollten keine personenbezogenen Daten enthalten.
 
-* 
+* &#x200B;
    * **Löschrisiko** - Datensätze, die in der Personalisierung verwendet werden, sind nicht vor dem Löschen geschützt. Sie müssen verfolgen, welche Datensätze verwendet werden, um sicherzustellen, dass sie nicht entfernt werden.
 
 * **Schematyp** - Datensätze müssen mit einem Schema verknüpft sein, das **NICHT** vom Typ Profil oder Ereignis ist.

@@ -208,7 +208,7 @@ Domains außerhalb von Hotmail und aus der Domain-Gruppe „Microsoft“ werden 
 
 1. Fügen Sie alle Hotmail-Domains in derselben Zeile hinzu.
 
-   Sie können alle Hotmail-Domains [kopieren und einfügen](#copy-paste), die auf der Registerkarte [ „Vorkonfigurierte Domain-Gruppen“](#ootb-domain-groups-tab) aufgeführt sind.
+   Sie können alle Hotmail-Domains [kopieren und einfügen](#copy-paste), die auf der Registerkarte [&#x200B; „Vorkonfigurierte Domain-Gruppen“](#ootb-domain-groups-tab) aufgeführt sind.
 
 1. Fügen Sie eine weitere Zeile hinzu.
 

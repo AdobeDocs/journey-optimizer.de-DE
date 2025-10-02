@@ -102,7 +102,7 @@ Beim Hinzufügen einer **[!UICONTROL E-Mail]**- oder **[!UICONTROL SMS]**-Aktion
 >title="Überschreiben der zu verwendenden Standard-Ausführungsadresse"
 >abstract="Wenn mehrere E-Mail-Adressen oder Telefonnummern in der Datenbank verfügbar sind (privat, beruflich usw.), können Sie auswählen, welche für den Versand priorisiert werden soll. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber hier können Sie die Standardeinstellung für diese spezifische Kanalkonfiguration überschreiben."
 
-Sie können die standardmäßige Ausführungsadresse für eine bestimmte E-Mail- oder SMS-[Kanalkonfiguration) ](channel-surfaces.md).
+Sie können die standardmäßige Ausführungsadresse für eine bestimmte E-Mail- oder SMS-[Kanalkonfiguration) &#x200B;](channel-surfaces.md).
 
 Gehen Sie dazu zum Abschnitt **[!UICONTROL Ausführungsdimension]** und bearbeiten Sie das Feld unter **[!UICONTROL Ausführungsadresse]**.
 

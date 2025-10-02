@@ -106,6 +106,6 @@ Weitere Informationen zu diesen Ereignissen und deren Fehlerbehebung finden Sie 
 ## Zusätzliche Ressourcen
 
 * [Beispiele für Datensatzabfragen - Journey-Schrittereignis](../data/datasets-query-examples.md#journey-step-event).
-* [Beispiele für Abfragen - Ereignisbasierte ](query-examples.md#event-based-queries).
+* [Beispiele für Abfragen - Ereignisbasierte &#x200B;](query-examples.md#event-based-queries).
 * [Wörterbuch für integrierte Schemata](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
 

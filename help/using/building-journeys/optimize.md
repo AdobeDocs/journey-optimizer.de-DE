@@ -74,7 +74,7 @@ Angenommen, Sie möchten drei Pfade vergleichen:
 
 1. Klicken Sie auf **[!UICONTROL Experiment erstellen]**.
 
-1. Wählen Sie **[!UICONTROL Erfolgsmetrik]**, die Sie für Ihr Experiment festlegen möchten. Weitere Informationen zu den verfügbaren Metriken und zur Konfiguration der Liste finden [ in diesem Abschnitt](success-metrics.md).
+1. Wählen Sie **[!UICONTROL Erfolgsmetrik]**, die Sie für Ihr Experiment festlegen möchten. Weitere Informationen zu den verfügbaren Metriken und zur Konfiguration der Liste finden [&#x200B; in diesem Abschnitt](success-metrics.md).
 
    <!--Need to have the list of all default metrics + a description for each.
     Explain why the metric selection is important.
