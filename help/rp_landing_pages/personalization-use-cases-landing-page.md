@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie personalisierte Push-Benachrichtigungen für Aktualisierun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Handbuch zur Personalisierung von E-Mails bei Warenkorbabbrüchen
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie E-Mails zu Warenkorbabbrüchen mithilfe von Hilfsfunktione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Beispiel für die Personalisierung von E-Mails zu Rezepten für Krankenkassen
 

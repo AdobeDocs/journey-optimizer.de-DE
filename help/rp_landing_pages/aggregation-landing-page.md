@@ -20,7 +20,7 @@ Mit Aggregationsfunktionen in Adobe Journey Optimizer können Sie aussagekräfti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Funktion „avg“ in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Erfahren Sie anhand von Beispielen und Syntaxdetails, wie Sie mit der Funktion �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Dokumentation zur Funktion „count“
 
@@ -40,7 +40,7 @@ Machen Sie sich mit der Funktion „count“ für die Aggregation von Daten in L
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Funktion „countOnlyNull“ – Nullwerte in Listen zählen
 
@@ -50,7 +50,7 @@ Erfahren Sie anhand von detaillierten Beispielen und Syntax, wie die Funktion �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Überblick über die Funktion „countWithNull“
 
@@ -60,7 +60,7 @@ Erfahren Sie anhand von Syntax und Beispielen, wie die Funktion „countWithNull
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Funktion „distinctCount“ in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Erkunden Sie anhand von Syntax- und Nutzungsbeispielen die Funktion „distinctC
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Funktion „distinctCountWithNull“: Eindeutige Werte zählen (einschließlich Nullwerten)
 

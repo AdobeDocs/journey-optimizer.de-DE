@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie mit dem KI-Formel-Builder dynamische Ranglistenformeln fü
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Verstehen und Implementieren von KI-Modellen
 

@@ -50,7 +50,7 @@ Entdecken Sie die vordefinierten Rollen und die zugehörigen Berechtigungen, um 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Integrierte Berechtigungen
 
@@ -60,7 +60,7 @@ Machen Sie sich mit den verfügbaren Berechtigungen und deren Funktionen zur Kon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Berechtigungsstufen
 

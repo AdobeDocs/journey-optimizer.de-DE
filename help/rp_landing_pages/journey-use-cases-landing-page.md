@@ -70,7 +70,7 @@ Richten Sie Journeys so ein, dass Nachrichten basierend auf Voreinstellungen und
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen
 
@@ -86,4 +86,4 @@ Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren, um dynamische D
 
 - **[Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](../using/building-journeys/limit-throughput.md)** – Optimieren Sie den Journey-Durchsatz und verwalten Sie die Grenzwerte für externe Systeme mithilfe von Datenquellen und benutzerdefinierten Aktionen.
 - **[Verwenden benutzerdefinierter Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](../using/building-journeys/custom-action-aep.md)** – Konfigurieren Sie authentifizierte Aufrufe und HTTP-API-Endpunkte, um Journey-Ereignisse in Adobe Experience Platform zu schreiben.
-- **[Entfernen von Profilen von einer Live-Journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** - Aus Geschäfts- oder Betriebsgründen müssen Sie möglicherweise einige Profile von einer Live-Journey entfernen und Profile ausschließen, die bestimmten Kriterien entsprechen, die derzeit auf der Journey vorhanden sind. Dies kann durch Pausieren der Journey geschehen.
+- **[Entfernen von Profilen von einer Live-Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** - Aus Geschäfts- oder Betriebsgründen müssen Sie möglicherweise einige Profile von einer Live-Journey entfernen und Profile ausschließen, die bestimmten Kriterien entsprechen, die derzeit auf der Journey vorhanden sind. Dies kann durch Pausieren der Journey geschehen.

@@ -20,7 +20,7 @@ Aktivitäten in Adobe Journey Optimizer sind die Bausteine, die Ihre Customer Jo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einführung in Journey-Aktivitäten
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie allgemeine Ereignisse nutzen können, um Journeys auszulö
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Konfigurieren von Reaktionsereignissen
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Aktionen und Bedingungen basierend auf dem Status der Ziel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Verwenden der Bedingungsaktivität
 
@@ -70,7 +70,7 @@ Definieren Sie mehrere Pfade in einer Journey basierend auf Kriterien wie Zeit, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
 
 Konfigurieren der Warteaktivität
 

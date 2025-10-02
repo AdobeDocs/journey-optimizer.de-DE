@@ -20,7 +20,7 @@ Mit dem Entscheidungs-Management von Adobe Journey Optimizer können Marketing-F
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einführung in das Entscheidungs-Management
 
@@ -40,7 +40,7 @@ Machen Sie sich mit den betrieblichen Einschränkungen und Leistungsschwellen de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Handbuch zur Benutzeroberfläche der Angebotsbibliothek
 
@@ -50,7 +50,7 @@ Erkunden Sie die Benutzeroberfläche und Funktionen der Angebotsbibliothek, um A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Wichtigste Schritte bei der Angebotserstellung und -verwaltung
 
@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie Eignungskriterien verfeinern und Angebote mithilfe von ben
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Verwenden personalisierter Angebote in einer E-Mail
 

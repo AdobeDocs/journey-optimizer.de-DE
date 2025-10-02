@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Kontextdaten aus Adobe Experience Platform in die Entschei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung
 

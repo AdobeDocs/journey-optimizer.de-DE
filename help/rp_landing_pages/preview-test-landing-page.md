@@ -50,7 +50,7 @@ Schrittweise Anleitung zur Vorschau personalisierter Inhalte mithilfe von Testpr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 Durchführen von Testsendungen mit Testprofildaten
 

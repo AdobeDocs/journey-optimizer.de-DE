@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum effektiven Erstellen, Konfigurieren, Testen und Ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Verwalten von Landingpages
 
@@ -60,7 +60,7 @@ Erstellen Sie Landingpages und passen Sie sie mit Vorlagen, Formularen und erwei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen und Verwalten von Abonnementlisten
 

@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Journey-Berichte erstellen können, Schemata und Datensät
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Liste der Schrittereignisfelder
 

@@ -20,7 +20,7 @@ Mit dem Entscheidungs-Management in Adobe Journey Optimizer können Sie der rich
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit dem Entscheidungs-Management
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Platzierungen, Entscheidungsregeln und Sammlungskennzeichn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Erstellen und Optimieren von Ranglisten
 

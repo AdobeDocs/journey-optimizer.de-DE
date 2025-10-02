@@ -20,7 +20,7 @@ Mit Profilen in Adobe Journey Optimizer können Sie einheitliche Ansichten jeder
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Einführung in Profile
 

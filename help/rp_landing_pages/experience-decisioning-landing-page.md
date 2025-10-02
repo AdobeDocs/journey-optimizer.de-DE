@@ -20,7 +20,7 @@ Mit der Entscheidungsfunktion von Adobe Journey Optimizer können Sie personalis
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Einführung in die Entscheidungsfindung
 
@@ -40,7 +40,7 @@ Machen Sie sich mit den Einschränkungen und Best Practices für die effektive V
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 API-Referenz: Angebote unterbreiten
 

@@ -40,7 +40,7 @@ Verstehen und verwalten Sie Adobe Experience Platform- Schemata für eine effekt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
 
 Journey Optimizer-Datensätze
 
@@ -60,7 +60,7 @@ Aktivieren und nutzen Sie Adobe Experience Platform-Datensätze in Journey Optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Erste Schritte mit Abfragen in Journey Optimizer
 

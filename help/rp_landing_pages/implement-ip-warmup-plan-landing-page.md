@@ -40,7 +40,7 @@ Folgen Sie den schrittweisen Anweisungen, um Kampagnen für Ihren IP-Aufwärmpla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Erstellen und Verwalten eines IP-Aufwärmplans
 

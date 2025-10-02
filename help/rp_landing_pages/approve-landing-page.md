@@ -20,7 +20,7 @@ Durch die Genehmigung von Journeys und Kampagnen in Adobe Journey Optimizer wird
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einrichten und Verwalten von Journey- und Kampagnengenehmigungen
 

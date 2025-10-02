@@ -70,7 +70,7 @@ Gewinnen Sie Erkenntnisse zu E-Mail-Leistung, Interaktion und Versandmetriken f√
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
 
 Erkenntnisse z um In-App-Messaging
 

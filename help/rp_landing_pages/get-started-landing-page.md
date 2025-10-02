@@ -50,7 +50,7 @@ Verschaffen Sie sich einen Überblick über die Rollen und Workflows, die zur ef
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Überblick über die Benutzeroberfläche von Adobe Journey Optimizer
 
