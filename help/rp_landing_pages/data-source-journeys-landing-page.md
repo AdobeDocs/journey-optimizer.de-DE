@@ -6,7 +6,7 @@ description: Konfiguration von Datenquellen
 redpen-status: CREATED_||_2025-08-11_21-11-22
 exl-id: e940bc83-77d2-4c5a-9895-20534d70e7ee
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Datenquellen in Adobe Journey Optimizer ermöglichen es Ihnen, eine Verbindung z
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Datenquellen
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über Datenquellen, ihre Typen, Anwendungsfälle und Feldergru
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren einer Datenquelle
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Konfigurieren von Datenquellen und Verwalten von Feld
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Datenquelle von Adobe Experience Platform
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie die integrierte Adobe Experience Platform-Datenquelle zum 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Konfigurieren externer Datenquellen
 

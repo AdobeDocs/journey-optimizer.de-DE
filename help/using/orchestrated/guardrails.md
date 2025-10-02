@@ -8,14 +8,14 @@ version: Campaign Orchestration
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 70%
+ht-degree: 95%
 
 ---
 
 
 # Leitlinien und Einschränkungen {#guardrails}
 
-Unten finden Sie Leitplanken und Einschränkungen bei der Verwendung orchestrierter Kampagnen.
+Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung von orchestrierten Kampagnen.
 
 ## Einschränkungen beim Datenfluss
 
@@ -31,9 +31,9 @@ Unten finden Sie Leitplanken und Einschränkungen bei der Verwendung orchestrier
 
 * Schemata, die dem Targeting dienen, müssen mindestens **ein Identitätsfeld vom Typ`String`** enthalten, das einem definierten Identity-Namespace zugeordnet ist.
 
-* Die durchschnittliche Anzahl von Attributen pro Schema **sollte 50 Spalten nicht überschreiten** um Verwaltbarkeit und Leistung zu gewährleisten.
+* Die durchschnittliche Anzahl von Attributen pro Schema **sollte 50 Spalten nicht überschreiten**, um Verwaltbarkeit und Leistung zu gewährleisten.
 
-* Modellbasierte Schemata können nicht für Adobe Experience Platform (Profile **aktiviert**. Für Adobe Experience Platform (Profile **werden nur standardmäßige XDM-Schemata**. Modellbasierte Schemata können für orchestrierte Kampagnen oder Aktionskampagnen aktiviert werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Modellbasierte Schemata können nicht für Adobe Experience Platform (Profile **aktiviert**. Bei Adobe Experience Platform-**Profilen** werden nur standardmäßige XDM-Schemata unterstützt. Modellbasierte Schemata können für orchestrierte Kampagnen oder Aktionskampagnen aktiviert werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Datenaufnahme
 
@@ -41,15 +41,15 @@ Unten finden Sie Leitplanken und Einschränkungen bei der Verwendung orchestrier
 
 * Alle Aufnahmen müssen über **Change Data Capture**-Quellen erfolgen:
 
-   * Für **dateibasiert** ist `_change_request_type` Feld erforderlich. Unterstützte Werte sind `U` (upsert) oder `D` (delete).
+   * Falls **dateibasiert**: Das Feld `_change_request_type` ist erforderlich. Unterstützte Werte sind `U` (upsert) oder `D` (delete).
 
    * Falls **Cloud-basiert**: Die Tabellenprotokollierung muss aktiviert sein.
 
-* **Partielle Datensatzaktualisierungen sind nicht zulässig** muss jede Zeile als vollständiger Datensatz angegeben werden.
+* **Teilaktualisierungen sind nicht zulässig**, sondern jede Zeile muss als vollständiger Eintrag angegeben werden.
 
 * Die Batch-Aufnahme für die Kampagnenorchestrierung ist auf **einmal alle 15 Minuten** begrenzt.
 
-* Die Aufnahmelatenz im relationalen Speicher beträgt in der Regel **15 Minuten bis 2 Stunden** abhängig von:
+* Die Aufnahmelatenz im relationalen Speicher beträgt in der Regel **15 Minuten bis 2 Stunden**, abhängig von:
 
    * Datenvolumen
 
@@ -57,7 +57,7 @@ Unten finden Sie Leitplanken und Einschränkungen bei der Verwendung orchestrier
 
    * Art des Vorgangs (z. B. sind Einfügungen schneller als Aktualisierungen)
 
-* **Beziehung Datenfluss zu Datensatz ist 1-1**. Dies bedeutet, dass jeweils nur eine Quelle einen Datensatz befüllen kann. Um die Quelle zu wechseln, muss der vorhandene Datenfluss gelöscht und ein neuer Datenfluss mit der neuen Quelle erstellt werden.
+* **Beziehung Datenfluss zu Datensatz ist 1:1**. Dies bedeutet, dass jeweils nur eine Quelle einen Datensatz befüllen kann. Um die Quelle zu wechseln, muss der vorhandene Datenfluss gelöscht und ein neuer Datenfluss mit der neuen Quelle erstellt werden.
 
 ### Datenmodellierung
 

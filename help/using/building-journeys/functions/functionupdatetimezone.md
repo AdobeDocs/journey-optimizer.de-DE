@@ -11,7 +11,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Gibt einen Datum/Uhrzeit-Wert zurück.
 
 `updateTimeZone( toDateTime("2023-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
-Gibt 2023-08-28T17-:15:.123+02:00 zurück.
+Gibt 2023-08-28T17:15:30.123+02:00 zurück.
 
 <!--`updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), toTimeZone("Europe/Paris")))`
 Returns "2019-08-28T17:15:30.123+02:00".-->

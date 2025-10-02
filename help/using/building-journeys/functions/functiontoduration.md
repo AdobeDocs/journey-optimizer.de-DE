@@ -9,7 +9,7 @@ keywords: toDuration, Funktion, Ausdruck, Journey
 exl-id: c78e30c5-99ee-4dc7-a03a-17f7ee65f83a
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 

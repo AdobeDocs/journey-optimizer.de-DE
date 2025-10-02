@@ -9,7 +9,7 @@ keywords: inLastHours, Funktion, Ausdruck, Journey
 exl-id: c648d711-c81b-403b-9adb-792c7e79e4e2
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 100%
 

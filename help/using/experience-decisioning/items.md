@@ -9,7 +9,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 7926e90f3a2ca62b297a8db548f044086d3dab66
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -82,8 +82,8 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 >abstract="Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -118,7 +118,7 @@ Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, können Sie Informatio
 >title="Ausdruck"
 >abstract="Anstatt einen statischen Wert für den Begrenzungsschwellenwert zu verwenden, können Sie Ihren eigenen Ausdruck definieren. Auf diese Weise können Sie den Schwellenwert dynamisch mithilfe von Entscheidungsattributen und/oder externen Attributen aus einem Adobe Experience Platform-Datensatz berechnen.<br/><br/>Begrenzungsregel **-Ausdrücke** sind derzeit im Rahmen einer eingeschränkten Verfügbarkeit für alle Benutzenden verfügbar. Sie werden nur für den Begrenzungstyp **[!UICONTROL Insgesamt]** unterstützt."
 
-Die Begrenzung wird als Einschränkung verwendet, um zu definieren, wie oft ein Angebotselement maximal angezeigt werden kann. Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kundinnen und Kunden übermäßig umworben werden, und können jeden Touchpoint mit dem besten Angebot optimieren. Sie können bis zu 10 Begrenzungen für ein bestimmtes Entscheidungselement erstellen.
+Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann. Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kundinnen und Kunden übermäßig umworben werden, und können jeden Touchpoint mit dem besten Angebot optimieren. Sie können bis zu 10 Begrenzungen für ein bestimmtes Entscheidungselement erstellen.
 
 ![](assets/item-capping.png)
 
@@ -127,15 +127,15 @@ Die Begrenzung wird als Einschränkung verwendet, um zu definieren, wie oft ein 
 >
 >Die Aktualisierung des Begrenzungszählerwerts kann bis zu 3 Sekunden dauern. Angenommen, Sie zeigen auf Ihrer Website ein Webbanner an, in dem ein Angebot vorgestellt wird. Wenn eine bestimmte Person in weniger als 3 Sekunden zur nächsten Seite Ihrer Website navigiert, wird der Zählerwert für diese Person nicht erhöht.
 
-Beim Konfigurieren von Begrenzungsregeln können Sie auf Attribute verweisen, die in Adobe Experience Platform-Datensätzen gespeichert sind, um Schwellenwerte zu definieren. Um einen Datensatz zu verwenden, wählen Sie ihn im Abschnitt &quot;**[!UICONTROL &quot;]**.
+Beim Konfigurieren von Begrenzungsregeln können Sie auf Attribute verweisen, die in Adobe Experience Platform-Datensätzen gespeichert sind, um Schwellenwerte zu definieren. Um einen Datensatz zu verwenden, wählen Sie ihn im Abschnitt **[!UICONTROL Datensatz]** aus.
 
 ![](assets/exd-lookup-capping.png)
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit nur in begrenztem Umfang für alle Benutzer verfügbar. Detaillierte Informationen zur Verwendung finden Sie in diesem Abschnitt: [Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../experience-decisioning/aep-data-exd.md)
+>Diese Funktion ist derzeit im Rahmen einer eingeschränkten Verfügbarkeit für alle Benutzenden verfügbar. Detaillierte Informationen zur Verwendung finden Sie in diesem Abschnitt: [Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../experience-decisioning/aep-data-exd.md)
 
-Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf die Schaltfläche **[!UICONTROL Begrenzung erstellen]** und führen Sie dann die folgenden Schritte aus.
+Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf die Schaltfläche **[!UICONTROL Begrenzung erstellen]** und führen Sie die folgenden Schritte aus:
 
 ![](assets/item-capping-create.png)
 
@@ -168,15 +168,15 @@ Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf 
 
    +++
 
-   +++Schwellenwert für Ausdruck
+   +++Ausdruck als Schwellenwert
 
    Anstatt einen statischen Wert für den Begrenzungsschwellenwert zu verwenden, können Sie Ihren eigenen Ausdruck definieren. Auf diese Weise können Sie den Schwellenwert dynamisch mithilfe von Entscheidungsattributen und/oder externen Attributen aus einem Adobe Experience Platform-Datensatz berechnen.
 
-   Beispielsweise kann ein Marketer beschließen, einen Multiplikator hinzuzufügen, um die Exposition anzupassen. Beispielsweise könnten sie den verfügbaren Bestand mit zwei multiplizieren, sodass das Angebot doppelt so vielen Kunden angezeigt wird wie die verfügbaren Einheiten. Dieser Ansatz geht davon aus, dass nicht alle Kunden konvertieren werden, um eine bessere Reichweite ohne Überverkäufe zu gewährleisten.
+   Beispielsweise können Marketing-Fachleute beschließen, einen Multiplikator hinzuzufügen, um die Exposition anzupassen. Zum Beispiel könnten sie den verfügbaren Bestand mit zwei multiplizieren, sodass die Zahl der Kundinnen und Kunden, denen das Angebot angezeigt wird, doppelt so hoch ist wie die Zahl der verfügbaren Einheiten. Dieser Ansatz geht davon aus, dass nicht alle Kundinnen und Kunden konvertieren werden, und gewährleistet eine bessere Reichweite ohne Überverkäufe.
 
    >[!NOTE]
    >
-   >Begrenzungsregeln **Ausdrücke** sind derzeit nur in begrenztem Umfang für alle Benutzer verfügbar. Sie werden nur für den Begrenzungstyp **[!UICONTROL Insgesamt]** unterstützt.
+   >Begrenzungsregel-**Ausdrücke** sind derzeit im Rahmen einer eingeschränkten Verfügbarkeit für alle Benutzenden verfügbar. Sie werden nur für den Begrenzungstyp **[!UICONTROL Insgesamt]** unterstützt.
 
    Um einen Ausdruck zu verwenden, aktivieren Sie die Option **[!UICONTROL Ausdruck]** und bearbeiten Sie dann den Ausdruck nach Bedarf.
 

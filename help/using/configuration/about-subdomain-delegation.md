@@ -12,7 +12,7 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Mit der benutzerdefinierten Delegierungsmethode können Sie alle DNS-Aspekte, di
 
 In diesem Fall besitzen und verwalten Sie unsere eigenen Subdomains und haben die volle Kontrolle über die Zertifikate, die im Rahmen dieses Prozesses generiert werden.
 
-Erfahren Sie in ([ Abschnitt), wie Sie eine benutzerdefinierte Domain ](delegate-custom-subdomain.md).
+In [diesem Abschnitt](delegate-custom-subdomain.md) erfahren Sie, wie Sie eine benutzerdefinierte Domain einrichten können.
 
 ## Vergleich der Konfigurationsmethoden
 
@@ -108,7 +108,7 @@ Die nachstehende Tabelle bietet eine Zusammenfassung über die Funktionsweise di
 |---|---|---|
 | **Vollständige Zuweisung** | Sie erstellen die Subdomain und den Namespace-Eintrag. Adobe konfiguriert dann alle für Adobe Campaign erforderlichen DNS-Einträge.<br/><br/>Bei dieser Konfiguration hat Adobe die volle Verantwortung für die Pflege der Subdomain und aller DNS-Einträge. | Niedrig |
 | **CNAME-Methode** | Sie erstellen die Subdomain und den Namespace-Eintrag. Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern abgelegt werden sollen, und konfiguriert die entsprechenden Werte in den Adobe Campaign-DNS-Servern.<br/><br/>Bei dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich. | Hoch |
-| **Benutzerdefinierte Delegierungsmethode** | Subdomain- und Namespace-Eintrag erstellen - Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern platziert werden sollen. Laden Sie das von der Zertifizierungsstelle erhaltene SSL-Zertifikat hoch und führen Sie die Schritte der Feedback-Schleife durch Überprüfen der Domain-Eigentümerschaft und der Reporting-E-Mail-Adresse aus.<br/><br/>Bei diesem Setup sind Sie vollständig für die Pflege des DNS verantwortlich. | Sehr hoch |
+| **Methode „Benutzerdefinierte Delegierung“** | Erstellen Sie den Subdomain- und Namespace-Eintrag – Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern platziert werden sollen. Laden Sie das von der Zertifizierungsstelle erhaltene SSL-Zertifikat hoch und schließen Sie die Schritte der Feedback-Schleife ab, indem Sie Domain-Eigentümerschaft und Reporting-E-Mail-Adresse bestätigen.<br/><br/>Bei dieser Konfiguration sind Sie vollständig für die Pflege des DNS verantwortlich. | Sehr hoch |
 
 Weitere Informationen zur Domain-Konfiguration finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=de){target="_blank"}.
 

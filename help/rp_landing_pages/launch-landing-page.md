@@ -6,7 +6,7 @@ description: Starten Ihrer ersten orchestrierten Kampagne
 redpen-status: CREATED_||_2025-08-11_20-24-42
 exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Mit dem Start Ihrer ersten orchestrierten Kampagne in Adobe Journey Optimizer k�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Schrittweise Anleitung zum Erstellen einer orchestrierten Kampagne
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Kampagneneigenschaften und Ausführungspläne erstellen un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Orchestrieren von Kampagnenaktivitäten
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Ihre orchestrierten Kampagnen für eine erfolgreiche Ausf�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Reporting für orchestrierte Kampagnen
 

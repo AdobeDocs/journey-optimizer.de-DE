@@ -10,7 +10,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: ef042e3a93dccc29d66eb9ab7d837f7914a8959d
 workflow-type: tm+mt
 source-wordcount: '2753'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 >title="Informationen zur Eignung von Angeboten"
 >abstract="In diesem Abschnitt können Sie mithilfe von Entscheidungsregeln bestimmen, welche Benutzer für das Angebot geeignet sind."
 
-<!--additional-url="https://video.tv.adobe.com/v/341369?captions=ger" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -273,7 +273,7 @@ Nehmen wir beispielsweise an, die Hub-Region Ihres Unternehmens ist *NLD2* und S
 
 >[!NOTE]
 >
->Werden Zähler von einem Rand zum anderen oder von einem Hub zum anderen weitergegeben, kann eine Verzögerung von bis zu 30 Minuten auftreten.
+>Wenn Zähler von Edge- zu Hub- oder von Hub- zu Edge-Regionen übertragen werden, kann eine Verzögerung von bis zu 30 Minuten auftreten.
 
 Weitere Informationen darüber, welche Hub- und Edge-Regionen mit Ihrem Unternehmen verbunden sind, erhalten Sie vom Adobe-Support.
 

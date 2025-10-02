@@ -9,7 +9,7 @@ exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: 7ecabe24cfb7e81e6760c9841c97353921c374bb
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -43,15 +43,15 @@ Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 1. Eine oder mehrere Regeln hinzufügen, um die Elemente zu bestimmen, die in die Sammlung aufgenommen werden sollen. Gehen Sie dazu folgendermaßen vor:
 
    1. Ein Elementattribut auswählen, das als Kriterium verwendet werden soll. Die Attributliste enthält alle im Katalogschema definierten standardmäßigen und benutzerdefinierten Attribute. [Weitere Informationen zum Elementkatalog](catalogs.md)
-   1. Wählen Sie den gewünschten Operator aus und geben Sie den zu filternden Wert ein. Verwenden Sie hierzu explizit jeden Angebotsnamen, oder erstellen Sie ein Tag „luma-summer“ und weisen Sie jedem Angebot ein.
+   1. Wählen Sie den gewünschten Operator aus und geben Sie den zu filternden Wert ein. Verwenden Sie hierzu explizit die einzelnen Angebotsnamen oder erstellen Sie ein Tag „luma-summer“ und weisen Sie es den einzelnen Angeboten zu.
 
       >[!NOTE]
       >
-      >Der **CONTAINS**-Operator unterstützt keine Teil- oder Platzhalterübereinstimmungen. Es funktioniert wie ein **IN**-Operator, d. h. Sie müssen ein Array von exakten Werten für das -Attribut angeben.
+      >Der **CONTAINS**-Operator unterstützt keine Teil- oder Platzhalterübereinstimmungen. Er funktioniert wie ein **IN**-Operator, d. h. Sie müssen ein Array von exakten Werten für das Attribut angeben.
       >
-      >Angenommen, Sie möchten mehrere Sommerangebote in eine Sammlung aufnehmen: *„luma-summer-yoga“*, *„luma-summer-fitness“* und *„luma-summer-running“*. Um diese Elemente einzubeziehen, müssen Sie eine Regel wie „Angebotsname“ definieren. ENTHÄLT „luma-summer-yoga“, „luma-summer-fitness“ und „luma-summer-running“. Diese Regel gibt nur Angebote zurück, die genau mit einem der Namen in der Liste übereinstimmen.
+      >Angenommen, Sie möchten mehrere Sommerangebote in eine Sammlung aufnehmen: *„luma-summer-yoga“*, *„luma-summer-fitness“* und *„luma-summer-running“*. Um diese Elemente einzubeziehen, müssen Sie eine Regel wie „Angebotsname“ CONTAINS „luma-summer-yoga“, „luma-summer-fitness“, „luma-summer-running“ definieren. Diese Regel gibt nur Angebote zurück, die genau mit einem der Namen in der Liste übereinstimmen.
       >
-      >Wenn Sie eine teilweise Zuordnung benötigen (z. B. alle Angebote, die *„luma-summer“* enthalten), wird dies derzeit nicht unterstützt. Sie müssen jeden Angebotsnamen explizit angeben oder jedem Angebot einen *„luma-summer“* Tag zuweisen und dieses Tag in Ihrer Regel verwenden.
+      >Wenn Sie eine teilweise Übereinstimmung benötigen (z. B. alle Angebote, die *„luma-summer“* enthalten), wird dies derzeit nicht unterstützt. Sie müssen jeden Angebotsnamen explizit angeben oder jedem Angebot ein Tag *„luma-summer“* zuweisen und dieses Tag in Ihrer Regel verwenden.
 
    1. Wiederholen Sie diese Schritte gegebenenfalls, bis Sie die gewünschte Anzahl an Regeln hinzugefügt haben. Wenn mehrere Regeln hinzugefügt werden, können Sie zwischen den Operatoren **Und** und **Oder** wählen, um die Regeln zu kombinieren. Klicken Sie dazu auf das Operatorzeichen, um zwischen den beiden Optionen zu wechseln.
    1. Klicken Sie auf die Schaltfläche **[!UICONTROL Sammlung in der Vorschau anzeigen]**, um die Elemente anzuzeigen, die den von Ihnen definierten Regeln entsprechen.

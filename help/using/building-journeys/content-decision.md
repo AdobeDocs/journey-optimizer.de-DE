@@ -12,7 +12,7 @@ keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsri
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 100%
 

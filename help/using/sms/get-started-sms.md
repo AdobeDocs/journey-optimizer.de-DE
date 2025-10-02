@@ -68,26 +68,26 @@ Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder 
 
 * Das folgende Video zeigt Ihnen, wie Sie SMS-Nachrichten konfigurieren, verfassen und in Ihre Customer Journeys integrieren.
 
-  +++Siehe Video
+  +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422692?learn=on&captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
   +++
 
 * Im folgenden Video erfahren Sie, welche Mobile-Funktionen Adobe Journey Optimizer Marketing-Fachleuten bietet.
 
 
-  +++Siehe Video
+  +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430371?quality=12&learn=on&captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
   +++
 
 * Im folgenden Video erfahren Sie, wie Sie an Ihre Marke angepasste, interaktive RCS-Nachrichten in Adobe Journey Optimizer mit einem benutzerdefinierten SMS-Anbieter konfigurieren und senden. 
 
 
-  +++Siehe Video
+  +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464764?captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
   +++

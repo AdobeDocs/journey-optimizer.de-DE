@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
 source-wordcount: '718'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ In bestimmten Kontexten können Sie die Werte dieser Parameter für eine bestimm
 
 >[!NOTE]
 >
->Wenn die erweiterten Parameter ausgeblendet sind, klicken Sie auf **[!UICONTROL Schaltfläche Schreibgeschützte Felder anzeigen]**
+>Wenn die erweiterten Parameter ausgeblendet sind, klicken Sie auf die Schaltfläche **[!UICONTROL Schreibgeschützte Felder anzeigen]**.
 >
 >![Symbol „Schreibgeschützte Felder anzeigen“ in den Eigenschaften der Journey-Aktivität](assets/journey-show-read-only-fields.png){width=60%}
 

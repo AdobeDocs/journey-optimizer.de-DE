@@ -9,7 +9,7 @@ keywords: distinctCount, Funktion, Ausdruck, Journey
 exl-id: 8796ba91-5c64-43c2-a444-27ac8b719c86
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 

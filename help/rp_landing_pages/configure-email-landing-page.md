@@ -6,7 +6,7 @@ description: Konfigurieren des E-Mail-Kanals
 redpen-status: CREATED_||_2025-08-11_20-34-10
 exl-id: c9377c3c-d716-4fae-adc8-458cbe7213dd
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Durch das Konfigurieren des E-Mail-Kanals in Adobe Journey Optimizer können Sie
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte bei der E-Mail-Konfiguration
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die wichtigsten Schritte zur Konfiguration von E-Mail-Fu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definieren von E-Mail-Konfigurationseinstellungen
 
@@ -40,7 +40,7 @@ Richten Sie E-Mail-Konfigurationen für Zustellbarkeit, Compliance und Anpassung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Konfigurieren der Listen-Abmeldung
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie die Funktion zur Listen-Abmeldung aktivieren, um für das 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren von Header-Parametern für E-Mails
 
@@ -60,7 +60,7 @@ Passen Sie Absender- und Antwort-E-Mail-Adressen an, behandeln Sie Fehler und le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Konfigurieren des URL-Trackings für den E-Mail-Kanal
 
@@ -70,7 +70,7 @@ Richten Sie URL-Tracking-Parameter ein, um die Effektivität von E-Mail-Kampagne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Personalisierte Einstellungen der E-Mail-Konfiguration
 

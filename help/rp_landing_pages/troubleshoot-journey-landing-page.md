@@ -6,7 +6,7 @@ description: Fehlerbehebung
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Wenn sich eine Customer Journey nicht wie erwartet verhält, kann es schwierig s
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Fehlerbehebung vor dem Testen oder Veröffentlichen der Journey
 
@@ -31,7 +31,7 @@ Identifizieren und beheben Sie Journey-weite Fehler und Aktivitätsprobleme und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fehlerbehebung bei der Live-Journey-Ausführung in Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ Diagnostizieren Sie Probleme mit der Ereignisvalidierung, dem Profileintrag, der
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fehlerbehebung bei eingehenden Aktionen in Adobe Journey Optimizer-Journeys
 
@@ -51,7 +51,7 @@ Beheben Sie mithilfe detaillierter Handbücher Probleme mit eingehenden Aktionen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Fehlerbehebung bei benutzerdefinierten Aktionen in Adobe Journey Optimizer
 
@@ -64,4 +64,4 @@ Validieren und debuggen Sie benutzerdefinierte Aktionen mit der Funktion „Test
 
 ### Weitere Ressourcen
 
-Lesen Sie außerdem [diesen Blog-Beitrag in der Adobe Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de), in dem häufige Fehler-Codes und deren effektive Behebung beschrieben werden.
+Lesen Sie außerdem [diesen Blog-Beitrag in der Adobe Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884), in dem häufige Fehler-Codes und deren effektive Behebung beschrieben werden.

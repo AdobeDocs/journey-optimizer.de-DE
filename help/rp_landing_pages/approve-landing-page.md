@@ -6,7 +6,7 @@ description: Genehmigen von Journeys und Kampagnen
 redpen-status: CREATED_||_2025-08-11_20-30-36
 exl-id: 88c48ccd-c3b7-4235-933b-7a08f5a8f346
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Durch die Genehmigung von Journeys und Kampagnen in Adobe Journey Optimizer wird
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einrichten und Verwalten von Journey- und Kampagnengenehmigungen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie den Genehmigungsprozess für Journeys und Kampagnen einric
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Erstellen und Verwalten von Genehmigungsrichtlinien
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Erstellen, Konfigurieren und Verwalten von Genehmigun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Anfordern von Genehmigungen für Journeys und Kampagnen
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Genehmigungen für Journey und Kampagnen anfordern, einsch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Überprüfen und Genehmigen von Anfragen für Journeys und Kampagnen
 

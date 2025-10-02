@@ -234,23 +234,23 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
 * Das folgende Video zeigt, wie Sie In-App-Nachrichten in Ihren Kampagnen erstellen, konfigurieren und veröffentlichen können.
 
-  +++Siehe Video
+  +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451891?quality=12&learn=on&captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
 * Informationen dazu, wie Inhaltsexperimente konfiguriert und analysiert werden können, um In-App-Nachrichten mit A/B-Tests zu testen, gibt es im folgenden Video.
 
-  +++Siehe Video
+  +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445297/?learn=on&autoplay=true&captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
 * Das Video unten zeigt, wie eine In-App-Nachricht in einer Journey erstellt und wie die Journey getestet und veröffentlicht werden kann.
 
-  +++Siehe Video
+  +++Video ansehen
 
   >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 

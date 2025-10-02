@@ -6,7 +6,7 @@ description: Erstellen und Verwalten von Entscheidungen
 redpen-status: CREATED_||_2025-08-11_21-01-28
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ In Adobe Journey Optimizer können Sie durch die Erstellung und Verwaltung von E
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen von Entscheidungen in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Entscheidungen erstellen, Bereiche definieren, Fallback-An
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren von Angebotsauswahlmethoden
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Ranking-Methoden für Entscheidungen konfigurieren, einsch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Simulieren von Angebotsentscheidungen
 

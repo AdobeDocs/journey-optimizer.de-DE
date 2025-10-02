@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
 workflow-type: tm+mt
 source-wordcount: '2400'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Die Schritte zum Konfigurieren der Aktivität „Zielgruppe lesen“ werden im F
 
 * Maximale Wartezeit bei der Auftragsverarbeitung: Aufträge vom Typ „Zielgruppe lesen“, die aufgrund von Begrenzungen von Leitlinien nicht innerhalb von 12 Stunden verarbeitet werden können, werden automatisch bereinigt und nie ausgeführt. Dadurch wird eine Akkumulation von Aufträgen verhindert und die Systemstabilität gewährleistet.
 
-* Stellen Sie bei der Verwendung von Batch-Segmenten sicher, dass Ihre Aufnahme und täglichen Snapshot-Updates lange vor dem Start des Journey abgeschlossen sind. Ziehen Sie eine zusätzliche Wartezeit in Betracht, wenn Segmente Daten widerspiegeln müssen, die am selben Tag aufgenommen werden. Wenn die sofortige Profilaktualisierung wichtig ist, sollten Sie einen ereignisbasierten oder Streaming-Anwendungsfall anstelle eines täglichen Batch-Ansatzes verwenden oder einen zusätzlichen Wartemechanismus einfügen, damit aktualisierte Daten vor der Journey-Auswertung propagiert werden können.
+* Stellen Sie bei der Verwendung von Batch-Segmenten sicher, dass Ihre Aufnahme und tägliche Snapshot-Updates lange vor dem Start der Journey abgeschlossen sind. Ziehen Sie eine zusätzliche Wartezeit in Betracht, wenn Segmente Daten widerspiegeln müssen, die am selben Tag aufgenommen wurden. Wenn sofortige Profilaktualisierung wichtig ist, sollten Sie einen ereignisbasierten oder Streaming-Anwendungsfall anstelle eines täglichen Batch-Ansatzes verwenden oder einen zusätzlichen Wartemechanismus einfügen, damit aktualisierte Daten vor der Journey-Auswertung propagiert werden können.
 
 
 
@@ -303,4 +303,4 @@ Nicht erfolgreiche **Zielgruppen lesen**-Trigger werden erfasst und in den **War
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

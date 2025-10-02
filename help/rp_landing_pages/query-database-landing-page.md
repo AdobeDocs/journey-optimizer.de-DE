@@ -6,7 +6,7 @@ description: Abfragen der Datenbank
 redpen-status: CREATED_||_2025-08-11_20-25-18
 exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Entdecken Sie mit den leistungsstarken Datenbankabfrage-Tools von Adobe Journey 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwenden des Regel-Builders für orchestrierte Kampagnen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit dem Regel-Builder in Adobe Journey Optimizer Regeln f�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen Ihrer ersten Regel in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Erstellen und Validieren von Regeln zum Filtern und T
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Bearbeiten von Ausdrücken in Adobe Journey Optimizer
 

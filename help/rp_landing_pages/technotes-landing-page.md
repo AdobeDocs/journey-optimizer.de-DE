@@ -6,7 +6,7 @@ description: Technotes
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Technotes in Adobe Journey Optimizer bieten einen Einblick in die fortschrittlic
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Statistische Berechnungen, die in Adobe Journey Optimizer-Experimenten verwendet werden
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über fortschrittliche statistische Methoden wie Konfidenzsequ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Verstehen der statistischen Berechnungen in Experimentberichten
 

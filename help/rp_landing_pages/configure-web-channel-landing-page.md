@@ -6,7 +6,7 @@ description: Konfigurieren des Web-Kanals
 redpen-status: CREATED_||_2025-08-11_20-39-49
 exl-id: 07c6d86f-7077-4ba1-8da4-fc6752a4484d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Durch das Konfigurieren des Web-Kanals in Adobe Journey Optimizer können Sie pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Voraussetzungen für Web-Kanäle
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Voraussetzungen für die Konfiguration und Verwendun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren von Web-Subdomains
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Einrichten, Verwalten und Aufheben der Delegierung vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen und Konfigurieren eines Web-Kanals
 

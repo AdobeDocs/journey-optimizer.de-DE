@@ -6,7 +6,7 @@ description: KI-Assistent für die Inhaltsgenerierung
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Der KI-Assistent von Adobe Journey Optimizer revolutioniert die Erstellung von I
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit dem KI-Assistenten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie auf die Funktion „KI-Assistent“ zugreifen und diese ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Generieren von E-Mail-Inhalten mit KI
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie mit dem KI-Assistenten E-Mail-Inhalte mit Markenausrichtun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Generieren von Inhalten für Push-Benachrichtigungen
 
@@ -50,7 +50,7 @@ Erstellen und personalisieren Sie mit KI Inhalte für Push-Benachrichtigungen, e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Generieren von SMS-Inhalten mit KI
 
@@ -60,7 +60,7 @@ Verwenden Sie den KI-Assistenten, um SMS-Inhalte zu generieren und zu verfeinern
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Generieren von Web-Seiteninhalten und Assets
 
@@ -70,7 +70,7 @@ Verbessern Sie mit dem KI-Assistenten den Inhalt und die visuelle Gestaltung Ihr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
 
 Generieren von Landingpages mit KI
 

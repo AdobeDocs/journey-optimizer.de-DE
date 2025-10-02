@@ -6,7 +6,7 @@ description: Konfigurieren von Angeboten
 redpen-status: CREATED_||_2025-08-11_21-00-31
 exl-id: e03307f5-0024-463a-ad2b-78d49e6d158f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Der Abschnitt „Konfigurieren von Angeboten“ in Adobe Journey Optimizer ermö
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen personalisierter Angebote
 
@@ -30,7 +30,7 @@ Erfahren Sie mit einer schrittweisen Anleitung, wie Sie personalisierte Angebote
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Hinzufügen von Darstellungen zu Angeboten
 
@@ -40,7 +40,7 @@ Definieren und konfigurieren Sie mithilfe von Darstellungen, wo Angebote angezei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Hinzufügen von Einschränkungen zu Angeboten
 

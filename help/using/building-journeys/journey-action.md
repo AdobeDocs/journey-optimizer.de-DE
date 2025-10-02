@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 78%
+ht-degree: 97%
 
 ---
 
@@ -66,11 +66,11 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
 
 1. Konfigurieren Sie Ihre Aktivität entsprechend dem ausgewählten Kanal. In [diesem Abschnitt](journeys-message.md) erfahren Sie, wie Sie integrierte Kanalaktionen konfigurieren.
 
-1. Verwenden Sie den **[!UICONTROL Optimierung]**, um Inhaltsexperimente durchzuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experiment und Targeting zu verwenden.
+1. Verwenden Sie den Abschnitt **[!UICONTROL Optimierung]**, um Inhaltsexperimente auszuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experimenten und Targeting zu verwenden. 
 
    Diese verschiedenen Optionen und die erforderlichen Schritte werden in [diesem Abschnitt](../campaigns/campaigns-message-optimization.md) ausführlich beschrieben.
 
-1. Verwenden Sie den Abschnitt **[!UICONTROL Sprachen]**, um innerhalb Ihrer Journey-Aktion Inhalte in mehreren Sprachen zu erstellen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Sprachen hinzufügen]** und wählen Sie die gewünschten **[!UICONTROL Spracheinstellungen]** aus.
+1. Verwenden Sie den Abschnitt **[!UICONTROL Sprachen]**, um innerhalb Ihrer Journey-Aktion Inhalte in mehreren Sprachen zu erstellen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Sprachen hinzufügen]** und wählen Sie die gewünschten **[!UICONTROL Spracheinstellungen]** aus. 
 
    Detaillierte Informationen zum Einrichten und Verwenden mehrsprachiger Funktionen finden Sie in [diesem Abschnitt](../content-management/multilingual-gs.md).
 
@@ -78,21 +78,21 @@ Je nach ausgewähltem Kommunikationskanal stehen zusätzliche Einstellungen zur 
 
 +++**Anwenden von Begrenzungsregeln** (E-Mail, Direkt-Mail, Push, SMS)
 
-Wählen **[!UICONTROL in der Dropdown]** Liste „Geschäftsregeln“ einen Regelsatz aus, um Begrenzungsregeln auf Ihre Journey-Aktion anzuwenden.
+Wählen Sie in der Dropdown-Liste **[!UICONTROL Geschäftsregeln]** einen Regelsatz aus, um Begrenzungsregeln auf Ihre Journey-Aktion anzuwenden. 
 
 Mithilfe von Kanalregelsätzen können Sie die Frequenzlimitierung nach Kommunikationstyp festlegen, um zu verhindern, dass Kunden mit ähnlichen Nachrichten überlastet werden.
 
-[Informationen zum Arbeiten mit Regelsätzen](../conflict-prioritization/rule-sets.md)
+[Erfahren Sie, wie Sie mit Regelsätzen arbeiten](../conflict-prioritization/rule-sets.md)
 
 +++
 
 +++**Verfolgen von Interaktionen** (E-Mail, SMS).
 
-Verwenden Sie den Abschnitt **[!UICONTROL Aktions-Tracking]**, um zu verfolgen, wie Ihre Empfängerinnen und Empfänger auf Ihre E-Mail- oder SMS-Sendungen reagieren.
+Verwenden Sie den Abschnitt **[!UICONTROL Aktions-Tracking]**, um zu verfolgen, wie Empfängerinnen und Empfänger auf Ihre E-Mail- oder SMS-Sendungen reagieren. 
 
-Die Tracking-Ergebnisse sind vom Journey-Bericht aus abrufbar, sobald die Journey ausgeführt wurde.
+Die Tracking-Ergebnisse sind nach Ausführung der Journey im Journey-Bericht verfügbar. 
 
-[Weitere Informationen zum Journey von Berichten](../reports/journey-global-report-cja.md)
+[Erfahren Sie mehr über Journey-Berichte](../reports/journey-global-report-cja.md)
 
 +++
 
@@ -108,7 +108,7 @@ Weitere Informationen zur Performance bei Verwendung des Schnellversand-Modus fi
 
 +++**Zuweisen von Prioritätswerten** (Web, In-App, Code-basiert)
 
-Im **[!UICONTROL Konfliktmanagement]** können Sie der Journey-Aktion einen Prioritätswert zuweisen, sodass Sie eine eingehende Aktion priorisieren können, wenn mehrere Journey-Aktionen oder -Kampagnen mit derselben Kanalkonfiguration vorhanden sind.
+Im Bereich **[!UICONTROL Konflikt-Management]** können Sie der Journey-Aktion einen Prioritätswert zuweisen, sodass Sie eine eingehende Aktion priorisieren können, wenn mehrere Journey-Aktionen oder Kampagnen mit derselben Kanalkonfiguration vorhanden sind. 
 
 Standardmäßig wird der Prioritätswert für die Aktion vom Gesamtprioritätswert für die Journey übernommen.
 
@@ -118,17 +118,17 @@ Standardmäßig wird der Prioritätswert für die Aktion vom Gesamtprioritätswe
 
 +++**Festlegen zusätzlicher Versandregeln** (Inhaltskarten)
 
-Für Journey von Inhaltskarten können Sie zusätzliche Versandregeln aktivieren, um die Ereignisse und Kriterien auszuwählen, die Ihre Nachricht Trigger haben.
+Für Inhaltskarten-Journeys können Sie zusätzliche Versandregeln aktivieren, um die Ereignisse und Kriterien auszuwählen, die die Nachricht auslösen sollen. 
 
-[Erfahren Sie, wie Sie Inhaltskarten erstellen](../content-card/create-content-card.md)
+[Informationen zum Erstellen von Inhaltskarten](../content-card/create-content-card.md)
 
 +++
 
 +++**Definieren von Triggern** (In-App)
 
-Bei In-App-Nachrichten können Sie die Schaltfläche **[!UICONTROL Trigger bearbeiten]** verwenden, um die Ereignisse und Kriterien auszuwählen, mit denen Ihre Nachricht Trigger wird.
+Für In-App-Nachrichten können Sie über die Schaltfläche **[!UICONTROL Trigger bearbeiten]** die Ereignisse und Kriterien auswählen, die die Nachricht auslösen sollen. 
 
-[Erfahren Sie, wie Sie eine In-App-Nachricht erstellen](../in-app/create-in-app.md)
+[Informationen zum Erstellen einer In-App-Nachricht](../in-app/create-in-app.md)
 
 +++
 

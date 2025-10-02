@@ -9,7 +9,7 @@ keywords: max, Funktion, Ausdruck, Journey
 exl-id: 5c792d33-32b9-4b1b-ab99-3ebfac391678
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 

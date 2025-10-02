@@ -13,7 +13,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -88,24 +88,24 @@ Um eine benutzerdefinierte Subdomain einzurichten, führen Sie die folgenden Sch
    >
    >Die Schlüssellänge kann nur 2.048 oder 4.096 Bit betragen. Sie kann nach dem Senden der Subdomain nicht mehr geändert werden.
 
-1. Klicken Sie **[!UICONTROL CSR herunterladen]** und speichern Sie das Formular auf Ihrem lokalen Computer.
+1. Klicken Sie auf **[!UICONTROL CSR herunterladen]** und speichern Sie das Formular lokal auf Ihrem Computer. 
 
-1. Senden Sie es an die Zertifizierungsstelle, um Ihr SSL-Zertifikat zu erhalten. Bevor Sie diese CSR zur Unterzeichnung an Ihre Zertifizierungsstelle senden, sollten Sie einige wichtige Punkte beachten:
+1. Senden Sie es an die Zertifizierungsstelle (CA), um Ihr SSL-Zertifikat zu erhalten. Bevor Sie diese CSR zur Signierung an Ihre Zertifizierungsstelle senden, sollten Sie einige wichtige Punkte beachten:
 
    * Die heruntergeladene CSR aus Schritt 3 gilt nur für data.subdomain.com.
 
-   * Das Zertifikat sollte jedoch sowohl data.subdomain.com als auch cdn.subdomain.com als Subjekt-Alternativnamen (SAN) in einem einzigen Zertifikat abdecken. Wenn Sie beispielsweise example.adobe.com delegieren, entspricht data.subdomain.com data.example.adobe.com und cdn.subdomain.com cdn.example.adobe.com.
+   * Das Zertifikat sollte jedoch sowohl data.subdomain.com als auch cdn.subdomain.com als Subject Alternative Names (SAN)-Einträge in einem einzigen Zertifikat abdecken. Wenn Sie beispielsweise example.adobe.com delegieren, entspricht data.subdomain.com dem Eintrag data.example.adobe.com und cdn.subdomain.com entspricht cdn.example.adobe.com.
 
-   * Die Subdomains von Daten (data.example.adobe.com) und CDN (cdn.example.adobe.com) müssen als Peer-Einträge im selben Zertifikat hinzugefügt werden.
+   * Die Subdomains „Data“ (data.example.adobe.com) und „CDN“ (cdn.example.adobe.com) müssen als Peer-Einträge im selben Zertifikat hinzugefügt werden.
 
-   * Die meisten CAs ermöglichen es Ihnen, während des Signiervorgangs zusätzliche SANs hinzuzufügen (z. B. die CDN-Subdomain)
+   * Die meisten Zertifizierungsstellen ermöglichen es Ihnen, während des Signiervorgangs zusätzliche SANs hinzuzufügen (z. B. die Subdomain „CDN“).
 
-      * Über das CA-Portal (empfohlen, falls verfügbar) oder
-      * Durch manuelles Anfragen beim Support-Team, wenn die Portaloption nicht verfügbar ist.
+      * Das ist über das CA-Portal (empfohlen, falls verfügbar) oder
+      * durch manuelles Anfragen beim Support-Team möglich, sollte die Portaloption nicht verfügbar sein.
 
-   * Nach der Unterzeichnung stellt die Zertifizierungsstelle ein einziges Zertifikat aus, das sowohl die Data Domain als auch die CDN-Subdomain umfasst.
+   * Nach der Signierung stellt die Zertifizierungsstelle ein einziges Zertifikat aus, das sowohl die Domain „Data“ als auch die Subdomain „CDN“ umfasst.
 
-1. Klicken Sie nach dem Abrufen **[!UICONTROL SSL-Zertifikat hochladen]** und laden Sie das Zertifikat mit der vollständigen Zertifikatskette im .pem-Format in [!DNL Journey Optimizer] hoch. Im Folgenden finden Sie ein Beispiel für ein .pem-Dateiformat:
+1. Klicken Sie nach dem Erhalt auf **[!UICONTROL SSL-Zertifikat hochladen]** und laden Sie das Zertifikat im .pem-Format mit der vollständigen Zertifikatkette in [!DNL Journey Optimizer] hoch. Im Folgenden finden Sie ein Beispiel für ein .pem-Dateiformat:
 
    ```
    -----BEGIN CERTIFICATE-----

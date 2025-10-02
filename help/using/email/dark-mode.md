@@ -12,7 +12,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -21,36 +21,36 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="Wechseln zum dunklen Modus"
->abstract="Wechseln Sie in den dunklen Modus, um eine Vorschau des Renderings anzuzeigen und bestimmte benutzerdefinierte Einstellungen vorzunehmen. <br>Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Beachten Sie, dass nicht alle E-Mail-Clients den benutzerdefinierten dunklen Modus unterstützen."
+>abstract="Wechseln Sie in den dunklen Modus, um eine Vorschau des Renderings zu erhalten und spezifische benutzerdefinierte Einstellungen festzulegen. <br>Das endgültige Rendering hängt vom E-Mail-Client der Empfangenden ab. Beachten Sie, dass nicht alle E-Mail-Clients den benutzerdefinierten dunklen Modus unterstützen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="Wechseln zum dunklen Modus"
->abstract="Wechseln Sie zum dunklen Modus, um eine Vorschau des Renderings auf unterstützenden E-Mail-Clients anzuzeigen. <br>Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Beachten Sie, dass nicht alle E-Mail-Clients den dunklen Modus unterstützen."
+>abstract="Wechseln Sie zum dunklen Modus, um eine Vorschau des Renderings auf unterstützenden E-Mail-Clients anzuzeigen. <br>Das endgültige Rendering hängt vom E-Mail-Client der Empfangenden ab. Beachten Sie, dass nicht alle E-Mail-Clients den dunklen Modus unterstützen."
 
-Designer Beim Entwerfen Ihrer E-Mails können Sie mit [!DNL Journey Optimizer] [E-Mail-](get-started-email-design.md)) zur Ansicht **[!UICONTROL Dunkelmodus]** wechseln.
+Beim Gestalten Ihrer E-Mails können Sie mit dem [!DNL Journey Optimizer] [E-Mail-Designer](get-started-email-design.md) zur Ansicht **[!UICONTROL Dunkler Modus]** wechseln.
 
-In dieser Ansicht <!--Email Designer -->Dunkelmodus“ können Sie auch spezifische benutzerdefinierte Einstellungen definieren, die von den unterstützenden E-Mail-Clients angezeigt werden, wenn ihr Dunkelmodus aktiviert ist.
+In der Ansicht „Dunkler Modus“ von <!--Email Designer --> können Sie auch spezifische benutzerdefinierte Einstellungen definieren, die von den unterstützenden E-Mail-Clients angezeigt werden, wenn ihr dunkler Modus aktiviert ist.
 
 <!--When designing your emails, the Journey Optimizer Email Designer allows you to switch to Dark mode where you can define specific custom settings. When dark mode is on, the supporting email clients will display the settings that you defined for this mode.-->
 
 ## Was ist der dunkle Modus? {#what-is-dark-mode}
 
-Die Art und Weise, wie der Dunkelmodus in den verschiedenen E-Mail-Clients gerendert wird, ist komplex. Definieren wir zunächst den Dunkelmodus.
+Das Rendering des dunklen Modus in den verschiedenen E-Mail-Clients ist komplex. Definieren wir zunächst den dunklen Modus.
 
-Der Dunkelmodus ermöglicht es den unterstützenden E-Mail-Clients und -Programmen, E-Mails mit dunkleren Hintergründen und helleren Farben für Text, Schaltflächen und andere Benutzeroberflächenelemente anzuzeigen. Dadurch werden die Augen entlastet, die Akkulaufzeit verkürzt und die Lesbarkeit in schwach beleuchteten Umgebungen verbessert, sodass das Betrachten angenehmer wird.
+Der dunkle Modus ermöglicht es unterstützenden E-Mail-Clients und Anwendungen, E-Mails mit dunkleren Hintergründen und helleren Farben für Text, Schaltflächen und andere UI-Elemente anzuzeigen. Dadurch werden die Augen entlastet, die Akkulaufzeit verlängert und die Lesbarkeit in schwach beleuchteten Umgebungen verbessert – für ein angenehmeres Seherlebnis.
 
 <!--Dark Mode uses a dark color palette with light text and UI elements to reduce eye strain, save battery life, and improve readability in low-light environments.-->
 
-Aufgrund des wachsenden Trends bei den wichtigsten Betriebssystemen und Apps <!-- (Apple Mail, Gmail, Outlook, Twitter, Slack)--> es eine wichtige Überlegung im modernen E-Mail-Design, sicherzustellen, dass Inhalte für alle Benutzer lesbar und visuell ansprechend bleiben.
+Da der dunkle Modus zunehmend von führenden Betriebssystemen und Anwendungen<!-- (Apple Mail, Gmail, Outlook, Twitter, Slack)--> unterstützt wird, ist er zu einem wichtigen Bestandteil des modernen E-Mail-Designs geworden, um sicherzustellen, dass Inhalte für alle Nutzenden lesbar und visuell ansprechend bleiben.
 
 ## Leitlinien {#guardrails}
 
-Die Erwartungen in Bezug auf das Rendering im Dunkelmodus müssen mit Vorsicht berücksichtigt werden, da die Art und Weise, wie sie von den verschiedenen E-Mail-Clients angewendet wird, stark variieren kann.
+Die Erwartungen hinsichtlich des Renderings im dunklen Modus sollten unter Vorbehalt betrachtet werden, da die Umsetzung je nach E-Mail-Client stark variieren kann.
 
 <!--The dark mode final rendering depends on the recipient's email client. It is not possible to guarantee that your email will look the same in dark mode across all devices.-->
 
-Bevor Sie den Dunkelmodus in der [!DNL Journey Optimizer] E-Mail-Designer verwenden, müssen Sie wissen, wie die wichtigsten E-Mail-Clients damit umgehen. Es gibt drei Fälle, in denen unterschieden werden muss:
+Bevor Sie den dunklen Modus im E-Mail-Designer von [!DNL Journey Optimizer] verwenden, müssen Sie wissen, wie die wichtigsten E-Mail-Clients damit umgehen. Es sind drei Fälle zu unterscheiden:
 
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
@@ -58,57 +58,57 @@ Bevor Sie den Dunkelmodus in der [!DNL Journey Optimizer] E-Mail-Designer verwen
 * Learn more on Dark mode in this [Litmus blog post](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers){target="_blank"}
 -->
 
-### Clients unterstützen keinen Dunkelmodus {#not-supporting}
+### Clients, die keinen dunklen Modus unterstützen {#not-supporting}
 
-Einige E-Mail-Clients unterstützen diese Funktion überhaupt nicht, z. B.:
+Einige E-Mail-Clients unterstützen diese Funktion überhaupt nicht, z. B.:
 
 * Yahoo!Mail
 * AOL
 
-Unabhängig davon, ob Sie benutzerdefinierte Einstellungen für den Dunkelmodus in der E-Mail-Designer definieren oder nicht, zeigen diese E-Mail-Clients nie Rendering im Dunkelmodus an. <!--Regardless of whether the interface is in light or dark mode, your email will render the same.-->
+Unabhängig davon, ob Sie im E-Mail-Designer benutzerdefinierte Einstellungen für den dunklen Modus festlegen oder nicht, zeigen diese E-Mail-Clients niemals ein Rendering im dunklen Modus an. <!--Regardless of whether the interface is in light or dark mode, your email will render the same.-->
 
-### Clients, die ihren eigenen Dunkelmodus anwenden {#default-support}
+### Clients, die ihren eigenen dunklen Modus anwenden {#default-support}
 
-Einige E-Mail-Clients wenden systematisch ihren eigenen standardmäßigen Dunkelmodus auf alle empfangenen E-Mails an. Farben, Hintergründe, Bilder usw. werden automatisch mit den für den E-Mail-Client spezifischen Einstellungen für den Dunkelmodus angepasst, was bedeutet, dass keine externe Änderung möglich ist.
+Einige E-Mail-Clients wenden systematisch ihren eigenen standardmäßigen dunklen Modus auf alle empfangenen E-Mails an. Farben, Hintergründe, Bilder usw. werden automatisch mit den für den E-Mail-Client spezifischen Einstellungen für den dunklen Modus angepasst, was bedeutet, dass keine externe Änderung möglich ist.
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
-Diese Clients sind zum Beispiel:
+Zu diesen Clients gehören zum Beispiel:
 
 * Gmail (Desktop-Webmail, iOS, Android, Mobile-Webmail)
 * Outlook Windows
 * Outlook Windows Mail
 
-Wenn Sie in diesem Fall benutzerdefinierte Einstellungen für den Dunkelmodus in der E-Mail-Designer definieren, werden diese Einstellungen mit den E-Mail-Client-Einstellungen überschrieben.
+In diesem Fall werden benutzerdefinierte Einstellungen, die Sie im E-Mail-Designer für den dunklen Modus festlegen, durch die Einstellungen des E-Mail-Clients überschrieben.
 
-Es ist wichtig zu verstehen, dass diese E-Mail-Clients den Dunkelmodus verarbeiten, aber Ihr spezifisches Design für den Dunkelmodus wird nicht gerendert.
+Es ist wichtig zu verstehen, dass diese E-Mail-Clients zwar den dunklen Modus unterstützen, Ihr spezifisches Design für den dunklen Modus jedoch nicht gerendert wird.
 
 <!--In this case, the custom settings that you defined in the Email Designer cannot be rendered.-->
 
 <!--Some visual changes may also be caused by the email app or device overriding the original design.-->
 
-### Clients, die den benutzerdefinierten Dunkelmodus unterstützen {#custom-support}
+### Clients, die den benutzerdefinierten dunklen Modus unterstützen {#custom-support}
 
-Andere E-Mail-Clients bieten die Option, den benutzerdefinierten Dunkelmodus mit der `@media (prefers-color-scheme: dark)`-Abfrage zu rendern, was die von der [!DNL Journey Optimizer] E-Mail-Designer verwendete Methode ist.
+Andere E-Mail-Clients bieten die Option, den benutzerdefinierten dunklen Modus mit der Abfrage `@media (prefers-color-scheme: dark)` zu rendern. Diese Methode wird auch vom E-Mail-Designer von [!DNL Journey Optimizer] verwendet.
 
-Im Folgenden finden Sie eine Liste der wichtigsten Clients, die diese Option handhaben:
+Im Folgenden finden Sie eine Liste der wichtigsten Clients, die diese Option unterstützen:
 
-* Apple Mail macOS
-* Apple Mail iOS
-* Outlook macOS
+* Apple Mail für macOS
+* Apple Mail für iOS
+* Outlook für macOS
 * Outlook.com
-* Outlook iOS
-* Outlook Android
+* Outlook für iOS
+* Outlook für Android
 
-In diesem Fall sollten die spezifischen Einstellungen angezeigt werden, die Sie in der E-Mail-Designer definieren.
+In diesem Fall sollten die spezifischen Einstellungen angezeigt werden, die im E-Mail-Designer festgelegt wurden.
 
 >[!NOTE]
 >
->In diesem Abschnitt erfahren Sie, wie Sie mit der E-Mail-Designer benutzerdefinierte Einstellungen für [ Dunkelmodus ](#define-custom-dark-mode).
+>In [diesem Abschnitt](#define-custom-dark-mode) erfahren Sie, wie Sie mit dem E-Mail-Designer benutzerdefinierte Einstellungen für den dunklen Modus festlegen können.
 
-Je nach E-Mail-Client können jedoch einige Einschränkungen gelten. Beispielsweise erzeugen einige Clients wie Apple Mail 16 (macOs 13) keinen Dunkelmodus, wenn im E-Mail-Inhalt Bilder vorhanden sind.
+Je nach E-Mail-Client können jedoch einige Einschränkungen gelten. Beispielsweise erzeugen einige Clients wie Apple Mail 16 (macOS 13) keinen dunklen Modus, wenn im E-Mail-Content Bilder vorhanden sind.
 
-Um optimale Ergebnisse zu erzielen, testen Sie Ihren Inhalt mit den anvisierten E-Mail-Clients. Um eine Simulation anzuzeigen, die dem Endergebnis für jeden Client so nahe wie möglich kommt, verwenden Sie die Option [E-Mail-Rendering](../content-management/rendering.md) in der E-Mail-Designer.
+Um optimale Ergebnisse zu erzielen, testen Sie Ihre Inhalte mit den beabsichtigten E-Mail-Clients. Um eine Simulation anzuzeigen, die dem Endergebnis für jeden Client so nahe wie möglich kommt, verwenden Sie die Option [E-Mail-Rendering](../content-management/rendering.md) im E-Mail-Designer.
 
 ## Dunkler Modus im E-Mail-Designer {#dark-mode-email-designer}
 

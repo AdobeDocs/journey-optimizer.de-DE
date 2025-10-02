@@ -55,7 +55,7 @@ Beim Erstellen einer Voreinstellung:
 
 >[!NOTE]
 >
-> Um auf Formularvorgaben zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung **[!UICONTROL Formularvorgaben verwalten]** für die Produktions-Sandbox. Weitere Informationen zu Berechtigungen finden Sie [&#x200B; (diesem Abschnitt](../administration/high-low-permissions.md#administration-permissions).<!--TBC-->
+> Um auf Formularvorgaben zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung **[!UICONTROL Formularvorgaben verwalten]** für die Produktions-Sandbox. Weitere Informationen zu Berechtigungen finden Sie [ (diesem Abschnitt](../administration/high-low-permissions.md#administration-permissions).<!--TBC-->
 
 1. Um auf das Inventar **[!UICONTROL Formularvorgaben]** zuzugreifen, wählen Sie **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** >**[!UICONTROL Formulareinstellungen]** aus dem linken Menü aus.
 
@@ -97,7 +97,7 @@ Alle vorhandenen Formulare werden angezeigt. Sie können Formulare nach Status, 
 
 Gehen Sie wie folgt vor, um ein Formular zu erstellen.
 
-1. Klicken Sie in der Liste **&#x200B;**&#x200B;Forms **[!UICONTROL auf „Formular erstellen]**.
+1. Klicken Sie in der Liste **** Forms **[!UICONTROL auf „Formular erstellen]**.
 
 1. Einen Namen hinzufügen. Sie können bei Bedarf eine Beschreibung hinzufügen.
 
@@ -275,7 +275,7 @@ Sie können dieses Formular jetzt in eine Landingpage einbetten, um Daten zu erf
 
 1. Speichern und testen Sie Ihre Landingpage. [Weitere Informationen](create-lp.md#test-landing-page)
 
-Sobald Ihre Landingpage [veröffentlicht) &#x200B;](create-lp.md#publish-landing-page) auf einer Journey verwendet wurde und Benutzer das Formular ausfüllen, werden die eingegebenen Informationen in den ausgewählten Datensatz aufgenommen.
+Sobald Ihre Landingpage [veröffentlicht) ](create-lp.md#publish-landing-page) auf einer Journey verwendet wurde und Benutzer das Formular ausfüllen, werden die eingegebenen Informationen in den ausgewählten Datensatz aufgenommen.
 
 >[!NOTE]
 >

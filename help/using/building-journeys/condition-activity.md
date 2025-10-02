@@ -11,7 +11,7 @@ keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 100%
 

@@ -11,7 +11,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -53,4 +53,4 @@ Gibt 2023-12-12T04:11:00Z zurück.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Gibt morgen um 20 :XY Uhr zurück, wobei XY die Minuten zum Zeitpunkt der aktuellen Zeitbewertung sind. Wenn die Auswertung um 2:00 :45 erfolgt, ist die zurückgegebene Zeit 20:45 Uhr.
+Gibt morgen um 20::XY Uhr zurück, wobei XY die Minuten zum Zeitpunkt der aktuellen Zeitauswertung darstellt. Wenn die Auswertung um 2::45 Uhr erfolgt, lautet die zurückgegebene Zeit 20::45 Uhr.

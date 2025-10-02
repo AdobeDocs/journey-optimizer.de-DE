@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
 source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Klicken Sie unten auf Ihre Rolle, um auf spezifische Anleitungen zuzugreifen, di
 
 Weitere Informationen zu den wichtigsten Funktionen und Personas von Journey Optimizer finden Sie im Einführungsvideo. Das Video führt Sie durch die Benutzeroberfläche und hebt je nach rollenspezifischen Workflows zentrale Funktionen hervor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432377?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Weitere Ressourcen
 

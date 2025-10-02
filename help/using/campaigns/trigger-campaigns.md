@@ -12,7 +12,7 @@ exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
 source-git-commit: 1d3638499a9e8261a5f1b09744b82642198a5d5d
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-
 
 ## Wichtige Informationen {#must-read}
 
-* **Start-/Enddatum der Kampagne** - Wenn Sie bei der Erstellung der Kampagne ein bestimmtes Start- und/oder Enddatum konfiguriert haben, wird sie außerhalb dieses Zeitraums nicht ausgeführt und API-Aufrufe schlagen fehl.
+* **Start- und Enddatum einer Kampagne** – Wenn Sie bei der Erstellung der Kampagne ein bestimmtes Start- und/oder Enddatum konfiguriert haben, wird die Kampagne außerhalb dieses Zeitraums nicht ausgeführt und API-Aufrufe schlagen fehl.
 
-* **Aufrufzeitüberschreitung** - Der Aufruf der REST-API zur Ausführung interaktiver Nachrichten hat eine Zeitüberschreitung von 60 Sekunden. Im Falle unerwarteter Zeitüberschreitungen sind jedoch interne erneute Zustellversuche vorhanden, um den Versand zu gewährleisten.
+* **Aufrufzeitüberschreitung** – Der Aufruf der REST-API zur Ausführung interaktiver Nachrichten hat einen Zeitüberschreitungswert von 60 Sekunden. Im Falle unerwarteter Zeitüberschreitungen gibt es jedoch interne erneute Zustellversuche, um den Versand zu gewährleisten.
 
-## Trigger der Kampagne {#trigger}
+## Auslösen der Kampagne {#trigger}
 
 1. Öffnen Sie die Kampagne, kopieren Sie dann die Payload-Anfrage aus dem Abschnitt **[!UICONTROL cURL-Anfrage]** und fügen Sie diese ein. Diese Payload enthält nun alle Personalisierungsvariablen (Profil und Kontext), die in der Nachricht verwendet werden. Sie ist verfügbar, sobald die Kampagne aktiv ist.
 

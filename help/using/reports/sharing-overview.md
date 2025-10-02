@@ -11,7 +11,7 @@ exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten system
 >
 >Für den Echtzeit-Profildienst können keine Datensätze aktiviert werden. Stellen Sie sicher, dass der Umschalter **[!UICONTROL Profil]** deaktiviert ist.
 
-[!DNL Journey Optimizer] sendet Daten direkt im Streaming. Sie können diese Daten mit dem Query Service abfragen. Sie können eine Verbindung zu Customer Journey Analytics oder anderen BI-Tools herstellen, um Daten anzuzeigen, die mit diesen Schritten in Verbindung stehen.
+[!DNL Journey Optimizer] sendet Daten bei ihrem Auftreten direkt im Streaming-Modus. Sie können diese Daten mit dem Query Service abfragen. Sie können eine Verbindung zu Customer Journey Analytics oder anderen BI-Tools herstellen, um Daten anzuzeigen, die mit diesen Schritten in Verbindung stehen.
 
 Die folgenden Schemata werden erstellt:
 
@@ -63,7 +63,7 @@ Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, w
 
 ## Integration mit Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] Schrittereignisse können mit anderen Datensätzen in [Adobe Customer Journey Analytics verknüpft ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de){target="_blank"}.
+Schrittereignisse von [!DNL Journey Optimizer] können mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de){target="_blank"} verknüpft werden.
 
 Der allgemeine Workflow ist:
 
@@ -71,4 +71,4 @@ Der allgemeine Workflow ist:
 * Die **profileID** im zugehörigen „Schrittereignisschema der Journey für Journey Orchestration“ wird als Identitätsfeld definiert. In [!DNL Customer Journey Analytics] können Sie diesen Datensatz dann mit jedem anderen Datensatz verknüpfen, der denselben Wert wie die personenbasierte Kennung hat.
 * Informationen zur Verwendung dieses Datensatzes in [!DNL Customer Journey Analytics] zur kanalübergreifenden Journey-Analyse finden Sie in der [Dokumentation zu Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de){target="_blank"}.
 
-➡️ [Arbeiten mit Customer Journey Analytics](cja-ajo.md){target="_blank"}
+➡️ [Arbeiten mit Customer Journey Analytics](cja-ajo.md){target="_blank"}

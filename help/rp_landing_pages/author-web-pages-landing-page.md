@@ -6,7 +6,7 @@ description: Verfassen von Web-Seiten
 redpen-status: CREATED_||_2025-08-11_20-40-34
 exl-id: 6f1ce53e-ab5a-4c77-bbd6-fc049e3dc4f5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Entdecken Sie, wie Sie Web-Erlebnisse mit den leistungsstarken Tools von Adobe J
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Bearbeiten von Inhalten mit dem Web-Designer
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit dem visuellen Web-Designer in Adobe Journey Optimizer 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Bearbeiten von Web-Inhalten mit dem nicht-visuellen Editor
 
@@ -40,7 +40,7 @@ Entdecken Sie, wie Sie den nicht-visuellen Editor für Web-Änderungen verwenden
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verwalten von Web-Änderungen in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Web-Änderungen mithilfe des Bereichs „Änderungen“ ve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Überwachen Ihrer Web-Erlebnisse
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie die Web-Interaktion mithilfe von Berichten und Klick-Track
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Erstellen von Single Page Applications in Adobe Journey Optimizer
 

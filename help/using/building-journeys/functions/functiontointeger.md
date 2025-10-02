@@ -9,7 +9,7 @@ keywords: toInteger, Funktion, Ausdruck, Journey
 exl-id: 901a91d1-13dd-4283-b87f-223196eb072f
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 100%
 

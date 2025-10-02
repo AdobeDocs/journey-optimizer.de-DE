@@ -11,7 +11,7 @@ exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: 58a5737a1eb56ab88aa71ba0a740dd51258e5248
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,6 +61,6 @@ Die wichtigsten Schritte zum Erstellen und Verwenden von KI-Modellen sind:
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie ein KI-Modell für Offer Decisioning erstellen und wie es auf eine Entscheidung angewendet wird.
+Erfahren Sie, wie Sie ein KI-Modell für Angebotsentscheidung erstellen und wie es auf eine Entscheidung angewendet wird.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445653?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

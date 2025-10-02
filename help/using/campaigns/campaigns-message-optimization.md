@@ -10,7 +10,7 @@ exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Der Unterschied zwischen Experimenten und Targeting lässt sich wie folgt umrei�
 >[!CONTEXTUALHELP]
 >id="ajo_content_targeting_fallback"
 >title="Was sind Fallback-Inhalte?"
->abstract="Mit Fallback-Inhalten kann Ihre Zielgruppe einen Standardinhalt erhalten, falls keine der Targeting-Regeln erfüllt ist. </br>Falls Sie diese Option nicht aktivieren, erhalten Zielgruppen, die sich für keine der oben definierten Targeting-Regeln qualifizieren, keine Inhalte."
+>abstract="Mit Fallback-Inhalten kann Ihre Zielgruppe einen Standardinhalt erhalten, falls keine der Targeting-Regeln erfüllt ist. </br>Falls Sie diese Option nicht auswählen, erhalten Zielgruppen, die sich nicht für eine der oben definierten Targeting-Regeln qualifizieren, keine Inhalte."
 
 Beim Targeting werden auf der Grundlage von Benutzerprofilattributen oder kontextuellen Attributen personalisierte Inhalte für bestimmte Zielgruppensegmente bereitgestellt.
 
@@ -72,7 +72,7 @@ Gehen Sie folgendermaßen vor, um das Targeting einzurichten.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Wählen Sie bei **[!UICONTROL die Option]** Fallback-Inhalt aktivieren“ aus. Mit Fallback-Inhalten kann Ihre Zielgruppe einen Standardinhalt erhalten, falls keine der Targeting-Regeln erfüllt ist. 
+1. Wählen Sie nach Bedarf **[!UICONTROL Fallback-Inhalte aktivieren]** aus. Mit Fallback-Inhalten kann Ihre Zielgruppe einen Standardinhalt erhalten, falls keine der Targeting-Regeln erfüllt ist. 
 
    >[!NOTE]
    >
@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Erfahren Sie, wie Sie die Nachrichtenoptimierung in durch eine Aktion oder durch API ausgelösten Kampagnen nutzen. Sie erfahren, wie Sie Teilzielgruppen ansprechen, Nachrichtenvarianten je nach Standort erstellen, Fallback-Inhalte aktivieren und mehrere Experimente innerhalb einer Kampagne durchführen. In diesem Tutorial wird auch beschrieben, wie Sie Multi-Channel-Kampagnen verwalten und dabei die Konsistenz der Nachrichten beibehalten können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470377?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

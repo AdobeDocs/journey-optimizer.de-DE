@@ -6,7 +6,7 @@ description: Entscheidungsfindung
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Mit der Entscheidungsfunktion von Adobe Journey Optimizer können Sie personalis
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Einführung in die Entscheidungsfindung
 
@@ -40,7 +40,7 @@ Machen Sie sich mit den Einschränkungen und Best Practices für die effektive V
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API-Referenz: Angebote unterbreiten
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie mit dem Code-basierten Erlebniskanal und verschiedenen Imp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwalten von Entscheidungselementen und Katalogen
 
@@ -60,7 +60,7 @@ Konfigurieren und verwalten Sie Entscheidungselemente, Kataloge und Sammlungen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Erstellen von Entscheidungsregeln
 

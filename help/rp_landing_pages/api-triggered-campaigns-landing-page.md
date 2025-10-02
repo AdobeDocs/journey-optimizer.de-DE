@@ -6,7 +6,7 @@ description: Durch API ausgelöste Kampagnen
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Mit durch API ausgelösten Kampagnen in Adobe Journey Optimizer können Sie mith
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen und Verwalten von API-ausgelösten Kampagnen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie durch API ausgelöste Kampagnen in Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definieren der Eigenschaften einer durch API ausgelösten Kampagne
 
@@ -40,7 +40,7 @@ Folgen Sie den schrittweisen Anleitungen, um Kampagneneigenschaften wie Benennun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren der durch API ausgelösten Kampagnenaktion
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Aktionen konfigurieren, Kommunikationskanäle auswählen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Bearbeiten und Personalisieren der Inhalte einer durch API ausgelösten Kampagne
 
@@ -60,7 +60,7 @@ Passen Sie Kampagneninhalte mithilfe von kontextuellen Daten an und personalisie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Definieren der Zielgruppe einer durch API ausgelösten Kampagne
 
@@ -70,7 +70,7 @@ Richten Sie die Zielgruppe der Kampagne ein, indem Sie Profile auswählen, Ident
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Planen einer durch API ausgelösten Kampagne
 

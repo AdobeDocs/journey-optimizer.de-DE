@@ -6,7 +6,7 @@ description: Marken
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ In Adobe Journey Optimizer können Sie mit der Funktion „Marken“ die einziga
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Richtlinien zum Erstellen und Verwalten Ihrer Marke
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit Adobe Journey Optimizer Markenrichtlinien für eine ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Auswerten des Markenausrichtungswerts
 

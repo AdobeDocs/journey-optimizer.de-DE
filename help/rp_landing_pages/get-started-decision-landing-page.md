@@ -6,7 +6,7 @@ description: Erste Schritte mit dem Entscheidungs-Management
 redpen-status: CREATED_||_2025-08-11_20-58-31
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Folgen Sie einer schrittweisen Anleitung zum Erstellen, Verwalten und Konfigurie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Nutzen benutzerdefinierter Upload-Zielgruppen zur Entscheidungsfindung
 
@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie Eignungskriterien verfeinern und Angebote mithilfe von ben
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Verwenden personalisierter Angebote in einer E-Mail
 

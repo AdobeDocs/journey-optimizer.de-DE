@@ -6,7 +6,7 @@ description: Ereigniskonfiguration
 redpen-status: CREATED_||_2025-08-11_21-10-50
 exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Bei der Ereigniskonfiguration in Adobe Journey Optimizer geht es um die Einricht
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Arbeiten mit Journey-Ereignissen
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über Journey-Ereignisse, ihre Typen, den Lebenszyklus und die
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Konfigurieren eines unitären Ereignisses
 
@@ -40,7 +40,7 @@ Folgen Sie einer schrittweisen Anleitung zum Konfigurieren von unitären Ereigni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Erlebnisereignis-Schemata
 
@@ -50,7 +50,7 @@ Verstehen Sie die Schemaanforderungen und Konfigurationen für die Ereignisaufna
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Adobe Analytics-Integration
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Adobe Analytics-Daten integrieren können, um Journeys zu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Konfigurieren eines Geschäftsereignisses
 
@@ -70,7 +70,7 @@ Schrittweise Anleitungen zum Konfigurieren von Geschäftsereignissen, einschlie�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Senden von Ereignissen mithilfe von Streaming-APIs
 

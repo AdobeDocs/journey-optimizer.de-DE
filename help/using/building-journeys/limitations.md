@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 * Es werden nur POST- und PUT-Aufrufmethoden unterstützt. 
 * Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit &quot;.&quot; beginnen oder &quot;$&quot;. 
 * IP-Adressen sind nicht zulässig. 
-* Interne Adobe-Adressen (.adobe.js) sind nicht zulässig.
+* Interne Adobe-Adressen (.adobe.) sind nicht zulässig.
 
 ## Einschränkungen bei Ereignissen {#events-limitations}
 

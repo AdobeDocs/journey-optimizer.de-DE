@@ -10,7 +10,7 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Folgende Stile sind verfügbar:
 * **[!UICONTROL Kreis]**
 * **[!UICONTROL Benutzerdefiniertes Bild]** von einer Medien-URL oder Ihren Assets.
 
-+++Weitere Optionen mit erweiterter Formatierung
++++Mehr Optionen mit erweiterter Formatierung
 
 Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, können Sie die Option **[!UICONTROL Farbe]** prüfen, um die Farbe und Deckkraft Ihrer Schaltfläche festzulegen.
 
@@ -107,7 +107,7 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, könn
 Geben Sie Ihre Medien-URL ein oder klicken Sie auf das Symbol **[!UICONTROL Assets auswählen]**, um Ihrer In-App-Nachricht direkt Assets hinzuzufügen, die in Ihrer Assets-Bibliothek gespeichert sind. [Weitere Informationen über Asset-Management](../integrations/assets.md).
 Sie können auch einen **[!UICONTROL Alternativtext]** für Bildschirmlesehilfen hinzufügen.
 
-+++Weitere Optionen mit erweiterter Formatierung
++++Mehr Optionen mit erweiterter Formatierung
 
 Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, können Sie die Variablen **[!UICONTROL Maximale Höhe]** und **[!UICONTROL Maximale Breite]** für Ihre Medien individuell festlegen.
 
@@ -126,7 +126,7 @@ Um Ihre Nachricht zu erstellen, geben Sie den Inhalt in die Felder **[!UICONTROL
 
 Verwenden Sie das Symbol **[!UICONTROL Personalisierung]**, um für eine persönlichere Gestaltung zu sorgen. Weitere Informationen zur Personalisierung im Personalisierungseditor in Adobe Journey Optimizer finden Sie [in diesem Abschnitt](../personalization/personalize.md).
 
-+++Weitere Optionen mit erweiterter Formatierung
++++Mehr Optionen mit erweiterter Formatierung
 
 Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, können Sie folgende Parameter für Ihre **[!UICONTROL Kopfzeile]** und Ihren **[!UICONTROL Hauptteil]** wählen:
 
@@ -157,7 +157,7 @@ So personalisieren Sie Ihre Schaltfläche:
 
 1. Um mehrere Schaltflächen hinzuzufügen, klicken Sie auf **[!UICONTROL Schaltfläche hinzufügen]**.
 
-+++Weitere Optionen mit erweiterter Formatierung
++++Mehr Optionen mit erweiterter Formatierung
 
 Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können Sie für Ihre **[!UICONTROL Schaltflächen]** Folgendes auswählen:
 
@@ -222,7 +222,7 @@ Mit dem Feld **[!UICONTROL Hintergrundbild]** können Sie Ihrer In-App-Nachricht
 
 Die standardmäßig aktivierte Option „UI-Übernahme“ ermöglicht es Ihnen, den Hintergrund hinter Ihrer In-App-Nachricht abzudunkeln, um den Fokus auf Ihren Inhalt zu legen.
 
-+++Weitere Optionen mit erweiterter Formatierung
++++Mehr Optionen mit erweiterter Formatierung
 
 Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können Sie Ihre Nachricht mit den folgenden Optionen weiter personalisieren:
 

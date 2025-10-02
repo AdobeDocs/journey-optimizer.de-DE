@@ -11,7 +11,7 @@ exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 source-git-commit: 140a3fe77cea73d1ab1ecb3a13ef81a29e73b08a
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Um auf das Dashboard zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** >
 >
 >* Um das Dashboard anzuzeigen, müssen Sie über die Berechtigung zum [Anzeigen des Lizenznutzungs-Dashboards](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=de#available-permissions){target="_blank"} verfügen.
 >
->* Bestimmte Metriken (z. B. Berechnungsstunden, E-Mails) werden für Entwicklungs-Sandboxes nicht angezeigt, wie durch `N/A` in der Spalte Kontingent angegeben. Im Dashboard werden nur Werte angezeigt, die nicht null sind. Wenn Metriken null oder nahe null sind, werden sie nicht ausgefüllt.
+>* Bestimmte Metriken (z. B. Stunden berechnen, E-Mails) werden für Entwicklungs-Sandboxes nicht angezeigt, wie durch `N/A` in der Kontingentspalte angegeben. Im Dashboard werden nur Werte angezeigt, die nicht null sind. Wenn Metriken null oder nahe null sind, werden sie nicht ausgefüllt.
 
 
 In [!DNL Adobe Journey Optimizer] können Sie über das Dashboard die Anzahl der **ansprechbaren Profile** überprüfen. Ein ansprechbares Profil ist ein Eintrag mit Informationen, die einen Kontakt darstellen und im Profil-Service gespeichert sind. Diese Einträge sind Profile, mit denen Sie in den letzten 12 Monaten mithilfe der Authoring-, Entscheidungs-, Versand-, Experimentierungs- oder Orchestrierungsfunktionen von Journey Optimizer interagiert haben.

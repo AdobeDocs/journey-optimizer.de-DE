@@ -6,7 +6,7 @@ description: Zielgruppen, Profile und Identit채t
 redpen-status: CREATED_||_2025-08-11_20-47-03
 exl-id: 29d45bbb-8351-48c6-8672-dda4b1c25e29
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Zielgruppen, Profile und Identit채ten in Adobe Journey Optimizer basieren auf de
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Zielgruppen-Management und Personalisierung
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Zielgruppen mithilfe von Segmentierungs- und Anreicherungs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
 
 Profile: Verwalten und Optimieren von Kundendaten
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Profile, berechnete Attribute und Testprofile verwenden k�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
 
 Erste Schritte mit Identit채ten
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Kundenidentit채ten mithilfe des Identit채tsdiagramms und d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Lizenznutzungs-Dashboard
 

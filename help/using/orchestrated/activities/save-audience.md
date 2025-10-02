@@ -6,7 +6,7 @@ description: Informationen zur Verwendung der Aktivität „Zielgruppe speichern
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
 

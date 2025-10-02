@@ -28,7 +28,7 @@ Im folgenden Beispiel wird das Schema **Mitgliedschaft in Treueprogramm** manuel
 
 1. [Nehmen Sie Daten](ingest-data.md) aus unterstützten Quellen in Ihren Datensatz auf.
 
-➡️ [Weitere Informationen zu manuellen modellbasierten Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Weitere Informationen zu manuellen modellbasierten Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Erstellen Ihres Schemas {#schema}
 

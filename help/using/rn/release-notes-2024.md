@@ -71,7 +71,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt:
 <tbody>
 <tr>
 <td>
-<p>Mit dem Webkanal ermöglicht Ihnen Adobe Journey Optimizer das Web-Erlebnis zu personalisieren, das Sie Ihren Kundinnen und Kunden über eingehende Web-Journeys bereitstellen. Der Web-Kanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.</p>
+<p>Mit dem Web-Kanal ermöglicht Ihnen Adobe Journey Optimizer das Web-Erlebnis zu personalisieren, das Sie Ihren Kundinnen und Kunden über eingehende Web-Journeys bereitstellen. Der Web-Kanal ist jetzt auf der Journey-Arbeitsfläche verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="../web/create-web.md">ausführlichen Dokumentation</a>.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
 <p>Verfügbar seit dem 1. Oktober 2024</p>

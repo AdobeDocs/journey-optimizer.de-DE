@@ -9,7 +9,7 @@ keywords: toDateOnly, Funktion, Ausdruck, Journey
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
 

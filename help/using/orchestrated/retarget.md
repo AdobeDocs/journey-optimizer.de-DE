@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kam
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
 

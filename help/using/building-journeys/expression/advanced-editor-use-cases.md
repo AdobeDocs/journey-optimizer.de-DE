@@ -12,7 +12,7 @@ keywords: Ausdruck, Bedingung, Anwendungsfälle, Ereignisse
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
 

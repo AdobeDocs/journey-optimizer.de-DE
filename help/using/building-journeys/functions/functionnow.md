@@ -11,7 +11,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -49,8 +49,8 @@ Gibt 2023-06-03T06:30Z zurück.
 
 `toString(now())`
 
-Gibt „2023-06-03T06“ :30Z
+Gibt „2023-06-03T06:30Z“ zurück
 
 `now("Europe/Paris")`
 
-Gibt 2023-06-03T08+:30 zurück:00.
+Gibt 2023-06-03T08:30+02:00 zurück.

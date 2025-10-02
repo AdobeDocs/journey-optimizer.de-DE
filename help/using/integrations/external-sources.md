@@ -14,7 +14,7 @@ exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
 source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,13 +35,13 @@ Sie können diese Funktion verwenden, um externe Daten und Inhalte aus Drittanbi
 
 Die Beta-Version weist die folgenden Einschränkungen auf:
 
-* Ausgehende Kanäle werden nur unterstützt.
+* Es werden nur ausgehende Kanäle unterstützt.
 
 * Für API-Aufrufantworten wird nur das JSON-Format unterstützt. HTML- und Raw-Binärbildausgaben sind nicht verfügbar.
 
 * Es werden nur Abruf-APIs unterstützt, die auf bestimmte Inhalte abzielen. Auflistungs-APIs sind nicht verfügbar.
 
-* Die Integrationsfunktion ist sowohl für Journey als auch für Kampagnen verfügbar, wird aber in Fragmenten nicht unterstützt.
+* Die Integrationsfunktion ist sowohl für Journeys als auch für Kampagnen verfügbar, wird aber in Fragmenten nicht unterstützt.
 
 ## Konfigurieren Ihrer Integration {#configure}
 

@@ -6,7 +6,7 @@ description: Erstellen von Zielgruppen
 redpen-status: CREATED_||_2025-08-11_20-45-40
 exl-id: d6d73fe7-4442-474b-8d2d-49e280c01a9e
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Durch das Erstellen von Zielgruppen in Adobe Journey Optimizer können Sie die P
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen von Segmentdefinitionen in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Zielgruppensegmente definieren, einschließlich schrittwei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Erste Schritte mit der Zielgruppenkomposition
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Workflows erstellen, die bestehende Zielgruppen für perso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
 
 Importieren von Zielgruppen mithilfe eines benutzerdefinierten CSV-Uploads
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Zielgruppen über CSV-Dateien importieren und Attribute Pr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Komposition föderierter Zielgruppen
 

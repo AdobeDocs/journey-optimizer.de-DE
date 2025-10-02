@@ -9,7 +9,7 @@ keywords: lastIndexOf, Funktion, Ausdruck, Journey
 exl-id: f11f164b-51b5-4b01-8057-ff29d80d2e2c
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 100%
 

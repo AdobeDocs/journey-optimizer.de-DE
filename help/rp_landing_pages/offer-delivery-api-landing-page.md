@@ -6,7 +6,7 @@ description: Unterbreiten von Angeboten mithilfe von APIs
 redpen-status: CREATED_||_2025-08-11_21-04-29
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die APIs, die für die Bereitstellung personalisierter A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Bereitstellen von Angeboten mithilfe der Decisioning API
 

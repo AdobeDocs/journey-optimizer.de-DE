@@ -10,7 +10,7 @@ keywords: Journey, Datenquellen, Limit, Durchsatz, benutzerdefiniert, Aktionen
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 

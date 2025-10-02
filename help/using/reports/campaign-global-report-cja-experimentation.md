@@ -11,7 +11,7 @@ exl-id: 69742163-7378-49ab-929e-86213d6e65e3
 source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -49,10 +49,10 @@ Die KPIs (Key Performance Indicators) zum **[!UICONTROL Experimentieren]** diene
 
 ![](assets/cja-experimentation-variants.png)
 
-Die Tabelle **Variante nach Erfolgsmetriken** zeigt, wie jede Variante basierend auf der Erfolgsmetrik funktioniert, die beim Einrichten des Experiments ausgewählt wurde.
+Die Tabelle **Variante nach Erfolgsmetriken** zeigt, wie einzelne Varianten bezüglich der Erfolgsmetrik abschneiden, die beim Einrichten des Experiments ausgewählt wurde.
 Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf [dieser Seite](../content-management/get-started-experiment.md#interpret-results).
 
-+++ Weitere Informationen über Varianten nach Erfolgsmetrik
++++ Weitere Informationen zu Varianten nach Erfolgsmetrik
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Nachrichten eignen.
 
@@ -62,17 +62,17 @@ Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf
 
 * **[!UICONTROL Steigerung]**: Messung der prozentualen Verbesserung der Konversionsrate einer bestimmten Abwandlung im Vergleich zur Baseline.
 
-* **[!UICONTROL Konfidenzuntergrenze]**: Niedrigster geschätzter Wert der Konversionsratendifferenz zwischen der Behandlung und der Grundlinie innerhalb des gewählten Konfidenzintervalls.
+* **[!UICONTROL Konfidenzuntergrenze]**: Niedrigster geschätzter Wert der Konversionsratendifferenz zwischen der Abwandlung und der Baseline innerhalb des gewählten Konfidenzintervalls.
 
 * **[!UICONTROL Konfidenz]**: Belege dafür, dass eine bestimmte Abwandlung mit der Baseline-Abwandlung identisch ist. [Weitere Informationen](../content-management/experiment-calculations.md#understand-confidence)
 
-* **[!UICONTROL Konfidenzobergrenze]**: Höchster geschätzter Wert der Konversionsratendifferenz zwischen der Behandlung und der Grundlinie innerhalb des gewählten Konfidenzintervalls.
+* **[!UICONTROL Konfidenzobergrenze]**: Höchster geschätzter Wert der Konversionsratendifferenz zwischen der Abwandlung und der Baseline innerhalb des gewählten Konfidenzintervalls.
 
 +++
 
-### Konversionsrate für Erfolgsmetriken {#conversion-rate}
+### Konversionsrate für Erfolgsmetrik {#conversion-rate}
 
 ![](assets/cja-experimentation-conversion.png)
 
 
-Das Diagramm **[!UICONTROL Konfidenzintervall]** zeigt den Bereich der möglichen Verbesserung an, indem die Grundlinie mit der Behandlung mit der besten Leistung für die ausgewählte Erfolgsmetrik verglichen wird. [Weitere Informationen](../content-management/experiment-calculations.md#confidence-intervals).
+Das Diagramm **[!UICONTROL Konfidenzintervall]** zeigt den Bereich der möglichen Verbesserung an, indem die Baseline mit der Abwandlung mit der besten Performance bezüglich der ausgewählten Erfolgsmetrik verglichen wird. [Weitere Informationen](../content-management/experiment-calculations.md#confidence-intervals).

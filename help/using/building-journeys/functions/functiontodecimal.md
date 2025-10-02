@@ -9,7 +9,7 @@ keywords: Dezimal, Funktion, Ausdruck, Journey
 exl-id: d761fa4d-5f99-4dee-b747-3eab464c4071
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%
 

@@ -9,7 +9,7 @@ keywords: nowWithDelta, Funktion, Ausdruck, Journey
 exl-id: cb1eb221-8532-4637-ac6c-8e058463ac94
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 100%
 

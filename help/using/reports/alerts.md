@@ -11,7 +11,7 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
 workflow-type: tm+mt
 source-wordcount: '1313'
-ht-degree: 65%
+ht-degree: 83%
 
 ---
 
@@ -47,7 +47,7 @@ Sie werden hier aufgelistet und jeder Warnhinweis wird nachfolgend beschrieben.
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
+   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
    * Warnung bei fehlgeschlagener Konfiguration des AJO[Kanals ](#alert-channel-config-failure)
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
@@ -94,7 +94,7 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 1. Click **[!UICONTROL Save]** to confirm.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -204,21 +204,21 @@ Wenn das Problem trotz der Änderungen weiterhin besteht, wird derselbe Warnhinw
 
 <!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?-->
 
-### AJO-Kanalkonfigurationsfehler {#alert-channel-config-failure}
+### Fehler bei der AJO-Kanalkonfiguration {#alert-channel-config-failure}
 
 >[!IMPORTANT]
 >
 >Dieser Warnhinweis gilt nur für **E-Mail**-Kanalkonfigurationen, die den Delegierungstyp [benutzerdefinierte Subdomain](../configuration/delegate-custom-subdomain.md) verwenden. <!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
 
-Dieser Warnhinweis wird ausgelöst, wenn die Systemüberwachung Konfigurationsprobleme des E-Mail-Kanals erkennt. Zu diesen Problemen können falsch konfigurierte Kanaleinstellungen, eine ungültige DNS-Konfiguration, ein Problem mit der Unterdrückungsliste, IP-Inkonsistenzen oder andere Fehler gehören, die sich auf den E-Mail-Versand auswirken können.
+Dieser Warnhinweis wird ausgelöst, wenn das System-Audit Konfigurationsprobleme beim E-Mail-Kanal erkennt. Zu den Problemen können falsch konfigurierte Kanaleinstellungen, eine ungültige DNS-Konfiguration, ein Problem mit der Unterdrückungsliste, IP-Inkonsistenzen oder andere Fehler gehören, die sich auf den E-Mail-Versand auswirken.
 
-Wenn Sie einen solchen Warnhinweis erhalten, sind die Auflösungsschritte unten aufgeführt:
+Wenn Sie einen solchen Warnhinweis erhalten, sind die Lösungsschritte unten aufgeführt:
 
-1. Klicken Sie auf den Warnhinweis, um zur betroffenen [E-Mail-Kanalkonfiguration](../email/get-started-email-config.md) in der [!DNL Journey Optimizer] weitergeleitet zu werden.
+1. Klicken Sie auf den Warnhinweis, um zur betroffenen [E-Mail-Kanalkonfiguration](../email/get-started-email-config.md) in der [!DNL Journey Optimizer]-Benutzeroberfläche weitergeleitet zu werden.
 
    Anleitungen zum Bearbeiten von Kanalkonfigurationen finden Sie [diesem Abschnitt](../configuration/channel-surfaces.md#edit-channel-surface).
 
-1. Überprüfen Sie die Konfigurationsdetails und Fehlermeldungen. Häufige Fehlerursachen sind:
+1. Prüfen Sie die Konfigurationsdetails und Fehlermeldungen. Häufige Fehlerursachen sind:
 
    * SPF-Validierung fehlgeschlagen
    * DKIM-Validierung fehlgeschlagen
@@ -227,7 +227,7 @@ Wenn Sie einen solchen Warnhinweis erhalten, sind die Auflösungsschritte unten 
 
    >[!NOTE]
    >
-   >Die möglichen Ursachen für Konfigurationsfehler sind in [ Abschnitt ](../configuration/channel-surfaces.md).
+   >Die möglichen Ursachen für Konfigurationsfehler sind in [diesem Abschnitt](../configuration/channel-surfaces.md) aufgelistet.
 
 1. Beheben Sie das Problem:
 
@@ -236,14 +236,14 @@ Wenn Sie einen solchen Warnhinweis erhalten, sind die Auflösungsschritte unten 
 
    >[!NOTE]
    >
-   >Da eine einzelne Domain mit mehreren Kanalkonfigurationen verknüpft werden kann, können verwandte Probleme in mehreren Konfigurationen automatisch behoben werden, wenn DNS-Probleme für eine Kanalkonfiguration behoben werden.
+   >Da eine einzelne Domain mit mehreren Kanalkonfigurationen verknüpft sein kann, können verwandte Probleme in verschiedenen Konfigurationen automatisch behoben werden, wenn DNS-Probleme für eine Kanalkonfiguration behoben werden.
 
-Wenn die Änderung das Problem nicht behebt, wird derselbe Warnhinweis am nächsten Tag erneut ausgelöst.
+Wenn das Problem trotz der Änderung weiterhin besteht, wird derselbe Warnhinweis am nächsten Tag erneut ausgelöst.
 
 Beachten Sie beim Beheben von E-Mail-Konfigurationsproblemen die unten aufgeführten Best Practices:
 
-* Sofortiges Handeln - Beheben Sie Konfigurationsfehler, sobald sie erkannt werden, um Unterbrechungen beim E-Mail-Versand zu vermeiden.
-* Alle Konfigurationen überprüfen - Wenn der Warnhinweis mehrere betroffene E-Mail-Konfigurationen anzeigt, überprüfen und beheben Sie jede davon.
+* Handeln Sie sofort – Beheben Sie Konfigurationsfehler, sobald sie erkannt werden, um Unterbrechungen beim E-Mail-Versand zu vermeiden.
+* Prüfen Sie alle Konfigurationen – Wenn der Warnhinweis mehrere betroffene E-Mail-Konfigurationen anzeigt, überprüfen und beheben Sie jede einzelne davon.
 
 <!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
 

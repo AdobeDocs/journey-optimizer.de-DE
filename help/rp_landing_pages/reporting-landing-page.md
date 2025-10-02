@@ -6,7 +6,7 @@ description: Reporting
 redpen-status: CREATED_||_2025-08-11_20-54-26
 exl-id: 37e906eb-8ae0-4988-93bf-00eb135199b2
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Beim Reporting in Adobe Journey Optimizer geht es darum, Rohdaten in umsetzbare 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in das Reporting
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Reporting-Funktionen in Adobe Journey Optimizer, ein
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Live-Berichte
 
@@ -40,7 +40,7 @@ Erkunden Sie Echtzeit-Reporting-Tools, um Journeys, Kampagnen, Abonnements und K
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Berichte für die gesamte Zeit
 
@@ -50,7 +50,7 @@ Verstehen Sie Metriken, die Integration mit Customer Journey Analytics und Tools
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Benutzerdefiniertes Journey-Reporting
 

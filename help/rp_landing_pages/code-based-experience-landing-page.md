@@ -6,7 +6,7 @@ description: Code-basiertes Erlebnis
 redpen-status: CREATED_||_2025-08-11_20-42-30
 exl-id: 55b07a0b-b09a-47e6-8b9f-e05e2dd7b47e
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Code-basierte Erlebnisse in Adobe Journey Optimizer ermöglichen es Ihnen, hochg
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in Code-basierte Erlebnisse
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über Code-basierte Erlebnisse, ihre Anwendungsfälle und schr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren eines Code-basierten Kanals
 
@@ -40,7 +40,7 @@ Beherrschen Sie die Einrichtung und Verwaltung von Code-basierten Kanälen, eins
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen von Code-basierten Erlebnissen
 

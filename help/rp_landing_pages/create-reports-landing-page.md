@@ -6,7 +6,7 @@ description: Erstellen von Berichten zum Entscheidungs-Management
 redpen-status: CREATED_||_2025-08-11_21-02-56
 exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Durch das Erstellen von Berichten zum Entscheidungs-Management in Adobe Journey 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Arbeiten mit Entscheidungs-Management-Ereignissen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Entscheidungs-Management-Ereignisdatensätze für das Repo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Zugreifen auf und Erkunden von Feldern im XDM-Schema „DecisioningEvents“
 

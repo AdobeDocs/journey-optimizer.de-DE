@@ -6,7 +6,7 @@ description: Zielgruppen
 redpen-status: CREATED_||_2025-08-11_20-46-11
 exl-id: c3b9f97d-7c2f-436c-abba-60b7c0726ee4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Zielgruppen in Adobe Journey Optimizer helfen Ihnen, zum richtigen Zeitpunkt mit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Zielgruppen
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen der Zielgruppenverwaltung, Segmentierung und Aktivieru
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Verwalten von Zielgruppen
 
@@ -40,7 +40,7 @@ Entdecken Sie erweiterte Workflows für die Erstellung, Komposition und Anreiche
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aktivieren von Zielgruppen in Kampagnen und Journeys
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Zielgruppen aktivieren und in Kampagnen und Journeys effek
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Nutzen von Anreicherungsattributen
 

@@ -10,7 +10,7 @@ exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Durch Nutzung modernster Technologien beim überwachten maschinellen Lernen und 
 
 ## Datensatzanforderungen
 
-Um ein personalisiertes Optimierungsmodell zu trainieren, muss der Datensatz die folgenden Mindestanforderungen erfüllen:
+Zum Trainieren eines Modells für personalisierte Optimierung muss der Datensatz die folgenden Mindestanforderungen erfüllen:
 
-* Mindestens 2 Angebote im Datensatz müssen innerhalb der letzten 30 Tage mindestens 250 Anzeigeereignisse und 25 Erfolgsereignisse (z. B. Klicks oder Konversionen) haben.
-* Angebote mit weniger als 250 Anzeigen und/oder 25 Erfolgsereignissen innerhalb der letzten 30 Tage können in personalisierten Traffic aufgenommen werden, werden jedoch vom Personalisierungsmodell so behandelt, als würden sie auf der Ebene des Angebots mit der schlechtesten Bewertung * funktionieren, bis sie diesen Schwellenwert überschreiten.
-* Angebote mit weniger als 250 Displays und/oder 25 Erfolgsereignissen innerhalb der letzten 30 Tage bleiben für die Aufnahme in den Exploration-Traffic geeignet.
+* Mindestens 2 Angebote im Datensatz müssen innerhalb der letzten 30 Tage mindestens 250 Anzeigeereignisse und 25 Erfolgsereignisse (z. B. Klicks oder Konversionen) aufweisen.
+* Angebote mit weniger als 250 Anzeigen und/oder 25 Erfolgsereignissen innerhalb der letzten 30 Tage können in personalisierten Traffic aufgenommen werden, werden jedoch vom Personalisierungsmodell so behandelt, als würden sie auf der Ebene des Angebots mit der schlechtesten Bewertung * abschneiden, bis sie diesen Schwellenwert überschreiten.
+* Angebote mit weniger als 250 Anzeigen und/oder 25 Erfolgsereignissen innerhalb der letzten 30 Tage bleiben für die Aufnahme in den Exploration-Traffic geeignet.
 
-Bis zum ersten Mal ein personalisiertes Optimierungsmodell trainiert wird, werden Angebote innerhalb einer Auswahlstrategie mit einem personalisierten Optimierungsmodell nach dem Zufallsprinzip bereitgestellt.
+Bis ein Modell für personalisierte Optimierung zum ersten Mal trainiert wird, werden Angebote im Rahmen einer Auswahlstrategie mit einem personalisierten Optimierungsmodell nach dem Zufallsprinzip bereitgestellt.
 
 ## Grundlegende Modellannahmen und -beschränkungen {#key}
 

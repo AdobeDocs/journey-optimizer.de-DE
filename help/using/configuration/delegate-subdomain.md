@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '1906'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -107,9 +107,9 @@ Gehen Sie wie folgt vor, um in [!DNL Journey Optimizer] eine benutzerdefinierte 
 
      In [diesem Abschnitt](#cname-subdomain-setup) erfahren Sie, wie Sie Subdomains mit CNAMEs einrichten
 
-   * Benutzerdefinierte Delegierung - [Weitere Informationen](about-subdomain-delegation.md#custom-subdomain-delegation)
+   * Benutzerdefinierte Delegierung – [Weitere Informationen](about-subdomain-delegation.md#custom-subdomain-delegation)
 
-     Erfahren Sie in diesem [ Abschnitt, wie Sie benutzerdefinierte Subdomains ](delegate-custom-subdomain.md)
+     In [diesem Abschnitt](delegate-custom-subdomain.md) erfahren Sie, wie Sie benutzerdefinierte Subdomains einrichten.
 
    <!--![](assets/subdomain-method-full.png)-->
 
@@ -276,4 +276,4 @@ Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgeho
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412601?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

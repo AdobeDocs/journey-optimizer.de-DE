@@ -11,7 +11,7 @@ exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
 workflow-type: tm+mt
 source-wordcount: '1492'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ Mit einem Modell mit automatischer Optimierung werden Angebote geschaltet, die d
 
 ## Datensatzanforderungen
 
-Um ein Modell mit automatischer Optimierung zu trainieren, muss der Datensatz die folgenden Mindestanforderungen erfüllen:
+Um ein Modell für automatische Optimierung zu trainieren, muss der Datensatz die folgenden Mindestanforderungen erfüllen:
 
-* Mindestens 2 Angebote im Datensatz müssen innerhalb der letzten 14 Tage mindestens 100 Anzeigeereignisse und 5 Klickereignisse haben.
-* Angebote mit weniger als 100 Anzeigen und/oder 5 Klickereignissen innerhalb der letzten 14 Tage werden vom Modell als neue Angebote behandelt und sind nur für die Bereitstellung durch den Explorationsbandit geeignet.
-* Angebote mit mehr als 100 Anzeigen und 5 Klickereignissen in den letzten 14 Tagen werden vom Modell als vorhandene Angebote behandelt und können sowohl von Exploration- als auch von Exploitation-Banditen bedient werden.
+* Mindestens 2 Angebote im Datensatz müssen innerhalb der letzten 14 Tage mindestens 100 Anzeigeereignisse und 5 Klickereignisse aufweisen.
+* Angebote mit weniger als 100 Anzeigen und/oder 5 Klickereignissen innerhalb der letzten 14 Tage werden vom Modell als neue Angebote behandelt und sind nur für die Bereitstellung durch den Exploration-Bandit geeignet.
+* Angebote mit mehr als 100 Anzeigen und 5 Klickereignissen in den letzten 14 Tagen werden vom Modell als vorhandene Angebote behandelt und können sowohl von Exploration- als auch von Exploitation-Bandits bedient werden.
 
-Bis zum ersten Mal ein Modell für die automatische Optimierung trainiert wird, werden Angebote innerhalb einer Auswahlstrategie, die ein Modell für die automatische Optimierung verwendet, nach dem Zufallsprinzip bereitgestellt.
+Bis zum ersten Mal ein Modell für automatische Optimierung trainiert wurde, werden Angebote im Rahmen einer Auswahlstrategie, die ein Modell für automatische Optimierung verwendet, nach dem Zufallsprinzip bereitgestellt.
 
 ## Einschränkungen {#limitations}
 

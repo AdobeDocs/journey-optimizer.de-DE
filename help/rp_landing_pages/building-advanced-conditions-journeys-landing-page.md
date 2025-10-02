@@ -6,7 +6,7 @@ description: Erstellen von Ausdrücken
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer enthält einen **erweiterten Ausdruckseditor** mit dem S
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Verwenden des erweiterten Ausdruckseditors
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit dem erweiterten Ausdruckseditor benutzerdefinierte Aus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Erweiterte Syntax für Ausdrücke
 
@@ -40,7 +40,7 @@ Beherrschen Sie die Syntaxregeln, bedingten Anweisungen und Datentypen, die zum 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Funktionen in Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Greifen Sie auf ein umfassendes Handbuch zu Funktionen für die Datenbearbeitung
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Beispiele für Abfragen in Journey Optimizer-Datensätzen und zugehörige Anwendungsfälle
 
@@ -61,7 +61,7 @@ Greifen Sie auf praktische SQL-Abfragebeispiele zu, um Daten in verschiedenen Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Beispiel-SQL-Abfragen für die Datenanalyse
 

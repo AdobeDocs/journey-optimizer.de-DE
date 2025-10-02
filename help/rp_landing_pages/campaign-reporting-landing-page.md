@@ -6,7 +6,7 @@ description: Kampagnenberichte
 redpen-status: CREATED_||_2025-08-11_20-49-35
 exl-id: 01d60382-ea80-4ebd-9918-7e7821083cb9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Mit den Kampagnenberichten in Adobe Journey Optimizer erhalten Sie umsetzbare Er
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Überblick über Kampagnenberichte
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die Leistung von Kampagnen anhand von Schlüsselmetriken w
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Code-basierter Kampagnenbericht
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie personalisierte Erlebnisse und KI-gesteuerte Entscheidungs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Inhaltskarten-Kampagnenbericht
 
@@ -50,7 +50,7 @@ Analysieren Sie Inhaltskarten-Kampagnen mit Metriken wie Anzeige- und Klick-Tren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Bericht zu einer Direkt-Mail-Kampagne
 
@@ -60,7 +60,7 @@ Bewerten Sie die Effizienz von Direkt-Mail-Kampagnen, indem Sie Versandstatus, F
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
 
 Bericht zu einer E-Mail-Kampagne
 
@@ -70,7 +70,7 @@ Gewinnen Sie Erkenntnisse zu E-Mail-Leistungsmetriken, Interaktionsraten und Tri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
 
 Bericht zu einer Experimentkampagne
 

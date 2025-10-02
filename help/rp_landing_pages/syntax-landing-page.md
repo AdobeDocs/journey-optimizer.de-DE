@@ -6,7 +6,7 @@ description: Syntax
 redpen-status: CREATED_||_2025-08-11_20-10-54
 exl-id: 7f9a648a-5b4b-4ca0-a4db-47e1fa657864
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Machen Sie sich mit den leistungsstarken Syntaxfunktionen des erweiterten Ausdru
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Syntax des erweiterten Ausdruckseditors
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die detaillierten Syntaxregeln für die Verwendung des e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Bedingte Anweisung (if, then, else)
 
@@ -40,7 +40,7 @@ Beherrschen Sie die Verwendung bedingter Anweisungen, um komplexe Ausdrücke zu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Grundlegendes zu Datentypen
 
@@ -50,7 +50,7 @@ Verschaffen Sie sich einen umfassenden Überblick über die in Ausdrücken verwe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden von Feldverweisen
 
@@ -60,7 +60,7 @@ Verstehen Sie, wie Felder in Ausdrücken referenziert werden, einschließlich er
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Funktionen zur Verwaltung von Sammlungen
 
@@ -70,7 +70,7 @@ Erkunden Sie Funktionen wie „all“, „first“, „last“ und „at“, um 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Operatoren in erweiterten Ausdrücken
 

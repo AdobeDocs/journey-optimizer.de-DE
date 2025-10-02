@@ -9,7 +9,7 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -156,13 +156,13 @@ Sie möchten zum Beispiel die Priorität aller Angebote durch Hinzufügen des At
 
 Um Attribute im Zusammenhang mit Ihren Entscheidungselementen in Formeln zu nutzen, stellen Sie sicher, dass Sie die korrekte Syntax im Code Ihrer Rangfolgenformel befolgen. Erweitern Sie jeden Abschnitt, um weitere Informationen zu erhalten:
 
-+++Verwenden von Standardattributen für Entscheidungselemente
++++Verwenden von Standardattributen von Entscheidungselementen
 
 ![](../assets/formula-attribute.png)
 
 +++
 
-+++Verwenden von benutzerdefinierten Attributen für Entscheidungselemente
++++Verwenden benutzerdefinierter Attribute von Entscheidungselementen
 
 ![](../assets/formula-attribute-custom.png)
 

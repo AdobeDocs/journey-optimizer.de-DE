@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer Experimentation Accelerator-Metriken
-description: Verbessern Sie Ihre Fähigkeit, Experimente effektiv durchzuführen und Erkenntnisse zu gewinnen
+description: Verbessern Ihrer Fähigkeit, Experimente effektiv durchzuführen und Erkenntnisse zu gewinnen
 feature: Experimentation
 topic: Content Management
 role: User
@@ -12,19 +12,19 @@ exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
 source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 12%
+ht-degree: 74%
 
 ---
 
 # Metriken {#experiment-accelerator-metrics}
 
-Auf **[!UICONTROL Seite]** Metriken“ werden Erfolgsmetriken aus Journey Optimizer- und Target-Experimenten an einer Stelle angezeigt, was die Leistungsüberwachung, den Vergleich und tiefere Einblicke ermöglicht.
+Auf der Seite **[!UICONTROL Metriken]** werden Erfolgsmetriken aus Journey Optimizer- und Target-Experimenten an einer Stelle angezeigt, was eine Leistungsüberwachung, Vergleiche und gründlichere Erkenntnisse ermöglicht.
 
 ## Dashboard {#dashboard}
 
-Beim Zugriff auf die Registerkarte **[!UICONTROL Metriken]** werden alle verfügbaren Erfolgsmetriken aus Journey Optimizer und Adobe Target in einer konsolidierten Ansicht aufgelistet, damit Sie die Leistung über Initiativen hinweg verfolgen, Ergebnisse vergleichen und schnell Bereiche identifizieren können, die Aufmerksamkeit erfordern.
+Beim Zugriff auf die Registerkarte **[!UICONTROL Metriken]** werden alle verfügbaren Erfolgsmetriken aus Journey Optimizer und Adobe Target in einer konsolidierten Ansicht aufgelistet. So können die Leistung über verschiedene Initiativen hinweg verfolgen, Ergebnisse vergleichen und schnell Bereiche identifizieren, die Aufmerksamkeit erfordern.
 
-Greifen Sie auf Filter zu, indem Sie auf ![](assets/do-not-localize/Smock_Filter_18_N.svg) klicken. Dadurch stehen kontextspezifische Optionen zur Verfügung, z. B. nach **[!UICONTROL Source]** oder **[!UICONTROL In aktiven Experimenten verwendet]**.
+Greifen Sie auf Filter zu, indem Sie auf ![](assets/do-not-localize/Smock_Filter_18_N.svg) klicken. Dadurch stehen kontextspezifische Optionen zur Verfügung, z. B. Filterung nach **[!UICONTROL Quelle]** oder **[!UICONTROL In aktiven Experimenten verwendet]**.
 
 Alternativ können Sie schnell nach einer Metrik suchen, indem Sie ihren Namen in die Suchleiste eingeben.
 
@@ -36,17 +36,17 @@ Alternativ können Sie schnell nach einer Metrik suchen, indem Sie ihren Namen i
 
 ![](assets/experiment-monitor-metrics-2.png)
 
-Das Diagramm **[!UICONTROL Inkrementell im]**) bietet eine visuelle Aufschlüsselung der Entwicklung der ausgewählten Metrik über einen ausgewählten Zeitraum hinweg. Verwenden Sie das Dropdown-Menü, um zwischen der täglichen oder wöchentlichen Ansicht umzuschalten und die Granularität anzupassen.
+Das Diagramm **[!UICONTROL Inkrementell im Zeitverlauf]** bietet eine visuelle Aufschlüsselung der Entwicklung der ausgewählten Metrik über einen ausgewählten Zeitraum hinweg. Verwenden Sie das Dropdown-Menü, um zwischen der täglichen oder wöchentlichen Ansicht zu wechseln und die Granularität anzupassen.
 
-Die folgenden Zusammenfassungswerte stehen als Kurzübersicht zur Verfügung:
+Folgende Zusammenfassungswerte stehen als Kurzreferenz zur Verfügung:
 
 * **[!UICONTROL Gesamt]**: Der kumulative Wert der ausgewählten Metrik über den Berichtszeitraum.
 
 * **[!UICONTROL Durchschnitt]**: Der typische Wert der Metrik, der für den ausgewählten Zeitraum berechnet wird. Durch den Ausgleich von täglichen oder wöchentlichen Schwankungen liefert sie ein klareres Bild der normalen Leistung und kann als Ausgangsbasis für Vergleiche verwendet werden.
 
-* **[!UICONTROL Konversionsrate]**: Prozentsatz der Profile, die die gewünschte Aktion (z. B. Kauf, Anmeldung) abgeschlossen haben, nachdem sie die Behandlung gesehen haben.
+* **[!UICONTROL Konversionsrate]**: Prozentsatz der Profile, die die gewünschte Aktion (z. B. Kauf, Anmeldung) abgeschlossen haben, nachdem sie die Abwandlung gesehen haben.
 
-Jeder Wert enthält eine prozentuale Änderung gegenüber dem vorherigen Zeitraum, sodass leicht erkennbar ist, ob die Leistung sich verbessert, abnimmt oder stabil bleibt.
+Jeder Wert enthält eine prozentuale Änderung gegenüber dem vorherigen Zeitraum, sodass leicht erkennbar ist, ob die Leistung zunimmt, abnimmt oder stabil bleibt.
 
 ### Experimenteffekt
 

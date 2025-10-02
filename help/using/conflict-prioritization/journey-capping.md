@@ -7,7 +7,7 @@ exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: 450a6accf11d72d56e6b93cec9ec89dc8cf3c8f3
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -59,12 +59,12 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
 1. Erweitern Sie die folgenden Abschnitte, um zu erfahren, wie jeder Begrenzungstyp konfiguriert wird:
 
-   +++Konfigurieren einer Begrenzungsregel für Journey-Einträge
+   +++Konfigurieren einer Begrenzungsregel für Journey-Eintritte
 
    1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journeys fest, in die ein Profil eintreten kann.
    1. Legen Sie im Feld **[!UICONTROL Dauer]** den zu berücksichtigenden Zeitraum fest. Bitte beachten Sie, dass die Dauer auf der UTC-Zeitzone basiert. Zum Beispiel wird die tägliche Begrenzung um Mitternacht UTC zurückgesetzt.
 
-   In diesem Beispiel möchten wir verhindern, dass Profile in einem Monat mehr als „5“ Journey eingeben.
+   In diesem Beispiel möchten wir Profile so einschränken, dass sie in einem Monat in nicht mehr als 5 Journeys eintreten können.
 
    ![](assets/journey-capping-entry-example.png)
 
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
    +++
 
-   +++Konfigurieren einer Journey-Parallelitätsbegrenzungsregel 
+   +++Konfigurieren einer Regel für die Begrenzung gleichzeitiger Journeys 
 
    1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journeys fest, an denen ein Profil gleichzeitig teilnehmen kann.
 
@@ -115,8 +115,8 @@ Sobald eine Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-A
 
 ![](assets/journey-report.png)
 
-Darüber hinaus können Sie den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden, um Abfragen zu erstellen, um festzustellen, welche Regel dazu geführt hat, dass ein Profil nicht auf eine bestimmte Journey zugegriffen hat. Eine Abfragebeispiel ist in [diesem Abschnitt ](../reports/query-examples.md#common-queries) verfügbar.
+Darüber hinaus können Sie auch den [Abfragedienst in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} zum Erstellen von Abfragen nutzen, um herauszufinden, welche Regel dazu geführt hat, dass ein Profil nicht in eine bestimmte Journey eintreten konnte. Eine Abfragebeispiel ist in [diesem Abschnitt ](../reports/query-examples.md#common-queries) verfügbar.
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447624?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

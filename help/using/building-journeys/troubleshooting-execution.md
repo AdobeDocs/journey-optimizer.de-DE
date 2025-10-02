@@ -11,7 +11,7 @@ keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 100%
 

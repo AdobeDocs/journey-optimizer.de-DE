@@ -11,7 +11,7 @@ exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
 source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -148,20 +148,20 @@ Die Tabelle **[!UICONTROL Ereignisüberblick]** zeigt an, wie viele Profile im Z
 
 +++
 
-## Targeting-Übersicht {#targeting}
+## Targeting-Überblick {#targeting}
 
 ![](assets/cja-journey-targeting-overview.png)
 
-Wenn Sie **[!UICONTROL Targeting-Regeln]** für Ihre Inhalte einrichten, bietet die Tabelle **[!UICONTROL Targeting-Übersicht]** eine detaillierte Ansicht der wichtigsten Interaktionsmetriken, die zeigt, wie die Zielgruppenprofile für jede Regel mit Ihren Inhalten interagiert haben.
+Wenn Sie **[!UICONTROL Targeting-Regeln]** für Ihre Inhalte einrichten, bietet die Tabelle **[!UICONTROL Targeting-Überblick]** eine detaillierte Ansicht der wichtigsten Interaktionsmetriken und zeigt, wie die Zielgruppenprofile für die einzelnen Regeln mit Ihren Inhalten interagiert haben.
 
-➡️ [Weitere Informationen zu Zielgruppenbestimmungsregeln](../campaigns/campaigns-message-optimization.md)
+➡️ [Weitere Informationen zu Targeting-Regeln](../campaigns/campaigns-message-optimization.md)
 
-+++ Weitere Informationen über Übersichtsmetriken zum Targeting
++++ Weitere Informationen zu den Metriken „Targeting-Überblick“
 
 * **[!UICONTROL Personen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für Ihre Ereignisse eignen.
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in einer E-Mail geklickt haben.
 
-* **[!UICONTROL Rate von Einzelklicks]**: Prozentsatz der Zielgruppenprofile, die mindestens einmal geklickt haben.
+* **[!UICONTROL Einzelklickrate]**: Prozentsatz der Zielgruppenprofile, die mindestens einmal geklickt haben.
 
 +++

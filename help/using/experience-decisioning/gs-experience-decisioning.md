@@ -9,7 +9,7 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
 1. **Zuweisen entsprechender Berechtigungen**. Die Entscheidungsfindung steht nur Benutzenden mit Zugriff auf eine Entscheidungfindungs-bezogene **[!UICONTROL Rolle]** zur Verfügung, z. B. Entscheidungsträgern. Wenn Sie nicht auf die Entscheidungsfindung zugreifen können, müssen Ihre Berechtigungen erweitert werden.
 
-   +++Erfahren Sie, wie Sie die Rolle Entscheidungs-Manager zuweisen
+   +++Erfahren Sie, wie Sie die Rolle „Entscheidungstragende“ zuweisen
 
    1. Um Benutzenden eine Rolle im Produkt [!DNL Permissions] zuzuweisen, navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie „Entscheidungsträger“ aus.
 
@@ -64,7 +64,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
 1. **Erstellen Sie Entscheidungselemente**, um die Zielgruppe anzuzeigen.
 
-   ➡️ [Erfahren Sie, wie Sie ](items.md) in der Benutzeroberfläche (und in der [-Dokumentation) ](api-reference/decisions-items/create.md).
+   ➡️ [Informationen zum Erstellen von Entscheidungselementen](items.md) in der Benutzeroberfläche (und in der [API-Dokumentation](api-reference/decisions-items/create.md))
 
 1. **Mit Sammlungen organisieren**: Verwenden Sie Sammlungen, um Entscheidungselemente basierend auf attributbasierten Regeln zu kategorisieren. Sammlungen können in Auswahlstrategien integriert werden, um zu bestimmen, welche Sammlung von Entscheidungselementen berücksichtigt werden soll.
 

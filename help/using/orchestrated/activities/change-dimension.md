@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie die Aktivität „Dimensionsänderung“ verw
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 

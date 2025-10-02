@@ -9,7 +9,7 @@ keywords: intersect, Funktion, Ausdruck, Journey
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
 

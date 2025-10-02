@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
 workflow-type: tm+mt
 source-wordcount: '2429'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Wenn eine Journey pausiert ist, hängen die Profilverwaltung und Aktivitätsausf
 | [Ausstiegskriterien](journey-properties.md#exit-criteria) | Dasselbe Verhalten wie bei einer Live-Journey |
 
 
-Informationen zur Fehlerbehebung bei Verwerfen finden Sie [ diesem Abschnitt](#discards-troubleshoot).
+In [diesem Abschnitt](#discards-troubleshoot) erfahren Sie, wie Sie Fehler bei Verwerfungen beheben können.
 
 ## Fortsetzen pausierter Journeys {#journey-resume-steps}
 
@@ -197,9 +197,9 @@ Wenn Sie diese Journey fortsetzen:
 1. Neue Journey-Eintritte beginnen innerhalb einer Minute.
 1. Profile, die zu dem Zeitpunkt in der Journey auf Aktivitäten vom Typ **Aktion** gewartet haben, werden mit einer Rate von 5.000 TPS fortgesetzt. Sie können dann in die **Aktion** eintreten, auf die sie gewartet haben, und die Journey fortsetzen.
 
-## Fehlerbehebung bei Profilverwerfen in pausierten Journey {#discards-troubleshoot}
+## Fehlerbehebung bei Verwerfungen von Profilen in pausierten Journeys {#discards-troubleshoot}
 
-Sie können den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden, um Schrittereignisse abzufragen, die je nach Zeitpunkt weitere Informationen zu Profilverwerfen enthalten können.
+Sie können den [Abfragedienst in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden, um Schrittereignisse abzufragen, die je nach Zeitpunkt weitere Informationen zu Verwerfungen von Profilen enthalten können.
 
 * Verwenden Sie den folgenden Code für Verwerfungen, die vor dem Eintritt des Profils in die Journey erfolgen:
 
@@ -215,13 +215,13 @@ Sie können den [Adobe Experience Platform Query Service](https://experienceleag
   AND _experience.journeyOrchestration.journey.versionID=<jvId>  
   ```
 
-  Dadurch werden die Verwerfungen aufgelistet, die am Eintrittspunkt von Journey aufgetreten sind:
+  Dadurch werden die Verwerfungen aufgelistet, die beim Eintritt in die Journey aufgetreten sind:
 
-   1. Wenn eine Zielgruppen-Journey ausgeführt wird und der erste Knoten noch verarbeitet wird, werden alle nicht verarbeiteten Profile verworfen, wenn die Journey angehalten wird.
+   1. Wenn eine Zielgruppen-Journey ausgeführt wird und der erste Knoten noch verarbeitet wird, werden alle nicht verarbeiteten Profile verworfen, falls die Journey pausiert wird.
 
-   1. Wenn ein neues unitäres Ereignis für den Startknoten eintrifft (um einen Eintritt zu Triggern), während die Journey angehalten wird, wird das Ereignis verworfen.
+   1. Wenn ein neues unitäres Ereignis für den Startknoten eintrifft (um einen Eintritt auszulösen), während die Journey pausiert ist, wird das Ereignis verworfen.
 
-* Verwenden Sie den folgenden Code für Verwerfungen, die auftreten, wenn sich das Profil bereits auf der Journey befindet:
+* Verwenden Sie den folgenden Code für Verwerfungen, die auftreten, wenn sich das Profil bereits in der Journey befindet:
 
   ```sql
   SELECT
@@ -235,11 +235,11 @@ Sie können den [Adobe Experience Platform Query Service](https://experienceleag
   AND _experience.journeyOrchestration.journey.versionID=<jvId> 
   ```
 
-  Dieser Befehl listet Verwerfungen auf, die beim Speichern von Profilen auf einer Journey aufgetreten sind:
+  Dieser Befehl listet Verwerfungen auf, die beim Speichern von Profilen in einer Journey aufgetreten sind:
 
-   1. Wenn der Journey angehalten und die Option Verwerfen aktiviert ist und vor dem Anhalten bereits ein Profil eingegeben wurde, wird dieses beim Erreichen des nächsten Aktionsknotens verworfen.
+   1. Wenn die Journey pausiert und die Option „Verwerfen“ aktiviert ist und vor dem Pausieren bereits ein Profil eingegeben wurde, wird dieses Profil beim Erreichen des nächsten Aktionsknotens verworfen.
 
-   1. Wenn der Journey angehalten wurde und die Option Halten ausgewählt war, aber Profile aufgrund eines Überschreitens des 10-Millionen-Kontingents verworfen wurden, werden diese Profile auch dann verworfen, wenn sie den nächsten Aktionsknoten erreichen.
+   1. Wenn die Journey pausiert wurde und die Option „Halten“ ausgewählt war, aber Profile aufgrund eines Überschreitens des 10-Millionen-Kontingents verworfen wurden, werden diese Profile auch dann verworfen, wenn sie den nächsten Aktionsknoten erreichen.
 
 
 

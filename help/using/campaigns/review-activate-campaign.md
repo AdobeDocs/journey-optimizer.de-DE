@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 

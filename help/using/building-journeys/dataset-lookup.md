@@ -12,7 +12,7 @@ exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
@@ -52,10 +52,10 @@ Der Datensatz muss für die Suche in Adobe Experience Platform aktiviert sein. D
 
 Die folgenden Empfehlungen geben Hinweise, wie Sie Verzögerungen bei der Zustellbarkeit vermeiden können:
 
-| Hinweis | Empfohlenes Limit | Beschreibung |
+| Überlegung | Empfohlenes Limit | Beschreibung |
 | ------- | ------- | ------- |
-| Attribute pro Suche | Bis zu 20 | Anzahl der pro Datensatz in einer einzigen Suchaktivität abgerufenen Datenfelder. |
-| Aktivitäten nachschlagen | Bis zu 5 pro Journey | Jede Journey kann bis zu 5 verschiedene Lookup-Aktivitäten enthalten. Bei jeder Suche kann ein anderer Datensatz ausgewählt werden. |
+| Attribute pro Suche | Bis zu 20 | Anzahl der pro Eintrag in einer einzigen Suchaktivität abgerufenen Datenfelder. |
+| Suchaktivitäten | Bis zu 5 pro Journey | Jede Journey kann bis zu 5 verschiedene Suchaktivitäten enthalten. Bei jeder Suche kann ein anderer Datensatz ausgewählt werden. |
 
 ## Konfigurieren der Datensatz-Suchaktivität {#configure}
 

@@ -6,7 +6,7 @@ description: Konvertierung
 redpen-status: CREATED_||_2025-08-11_20-13-12
 exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Der Abschnitt „Konvertierung“ in Adobe Journey Optimizer ermöglicht es Ihne
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toBool“
 
@@ -30,7 +30,7 @@ Konvertieren Sie mithilfe der Funktion „toBool“ verschiedene Datentypen in b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDateOnly“
 
@@ -40,7 +40,7 @@ Konvertieren Sie mit der Funktion „toDateOnly“ Datumsdarstellungen in den Ty
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDateTime“
 
@@ -50,7 +50,7 @@ Konvertieren Sie mithilfe der Funktion „toDateTime“ verschiedene Eingaben in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDateTimeOnly“
 
@@ -60,7 +60,7 @@ Konvertieren Sie mithilfe der Funktion „toDateTimeOnly“ einen Wert ohne Zeit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDecimal“
 
@@ -70,7 +70,7 @@ Konvertieren Sie mithilfe der Funktion „toDecimal“ verschiedene Datentypen i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDuration“
 

@@ -6,7 +6,7 @@ description: Festlegen von Regeln für die Nachrichten- und Journey-Begrenzung
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Die Verwaltung von Begrenzungsregeln für Nachrichten und Journeys in Adobe Jour
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Arbeiten mit Regelsätzen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Regelsätze erstellen, verwalten und aktivieren, um die Re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey-Begrenzung und -Zuweisung
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Ober- und Untergrenzen für Journey-Eintritte festlegen, e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Frequenzbegrenzung nach Kanal
 

@@ -9,7 +9,7 @@ keywords: Kürzung, Funktion, Ausdruck, Journey
 exl-id: 1ee126fd-d021-4060-9538-aca5cabf8164
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 100%
 

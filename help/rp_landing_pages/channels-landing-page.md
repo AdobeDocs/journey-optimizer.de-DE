@@ -5,7 +5,7 @@ title: Kommunikationskanäle
 description: Kommunikationskanäle
 redpen-status: CREATED_||_2025-08-11_20-45-04
 source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Die Kommunikationskanäle von Adobe Journey Optimizer ermöglichen es Ihnen, üb
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in Kommunikationskanäle
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die in Adobe Journey Optimizer verfügbaren ein- und aus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-Mail-Kanal
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie E-Mail-Kampagnen erstellen, konfigurieren und optimieren k
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 In-App-Nachrichten
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie In-App-Benachrichtigungen für mobile und Web-Plattformen 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Push-Benachrichtigungs-Kanal
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Push-Benachrichtigungen für iOS und Android erstellen, ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS-/MMS-/RCS-Nachrichten
 
@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie SMS-, MMS- und RCS-Nachrichten für Marketing- und Transak
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Briefpostkampagnen
 

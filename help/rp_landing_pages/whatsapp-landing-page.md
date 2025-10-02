@@ -6,7 +6,7 @@ description: WhatsApp
 redpen-status: CREATED_||_2025-08-11_20-44-12
 exl-id: 43d23d66-7c15-42e2-94ff-3dc80927d07a
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer ermöglicht es Ihnen, sich mit Ihrer Zielgruppe über Wh
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit WhatsApp-Messaging
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie WhatsApp mit Adobe Journey Optimizer integrieren, einschli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren des WhatsApp-Kanals
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Einrichten von WhatsApp-API-Anmeldeinformationen, W
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen von WhatsApp-Nachrichten
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie personalisierte WhatsApp-Nachrichten, einschließlich Vorl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/check-circle.svg)
 
 Vorschau, Validierung und Senden von WhatsApp-Nachrichten
 

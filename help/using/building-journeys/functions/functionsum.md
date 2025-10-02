@@ -9,7 +9,7 @@ keywords: Summe, Funktion, Ausdruck, Journey
 exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 100%
 

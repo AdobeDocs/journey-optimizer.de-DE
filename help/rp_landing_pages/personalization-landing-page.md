@@ -6,7 +6,7 @@ description: Personalisierung
 redpen-status: CREATED_||_2025-08-12_00-36-08
 exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 

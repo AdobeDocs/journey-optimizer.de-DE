@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
 
    >[!NOTE]
    >
-   >Wenn die erweiterten Parameter ausgeblendet sind, klicken Sie auf **[!UICONTROL Schaltfläche Schreibgeschützte]** anzeigen im rechten Bereich.
+   >Wenn die erweiterten Parameter ausgeblendet sind, klicken Sie oben im rechten Bereich auf die Schaltfläche **[!UICONTROL Schreibgeschützte Felder anzeigen]**.
 
 ## Aktualisieren von Live Content {#update-live-content}
 
