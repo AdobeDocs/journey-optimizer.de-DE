@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0d32f1f79314694a34e1e996ed405a4484dc863d
 workflow-type: tm+mt
 source-wordcount: '1726'
-ht-degree: 44%
+ht-degree: 90%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 44%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Versionshinweise September 2025 {#25-9-rn}
+## Versionshinweise für September 2025 {#25-9-rn}
 
-**Veröffentlichungsdatum**: 23.-24. September 2025
+**Veröffentlichungsdatum**: 23.–24. September 2025
 
 ### Neue Funktionen {#sept-25-9-features}
 
@@ -54,15 +54,15 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator ist ein KI-First-Produkt, das Ihre Experimente auf ein höheres Niveau bringt. Sie wurde für Adobe Journey Optimizer- und Adobe Target-Anwender entwickelt und vereinheitlicht das Experimentmanagement, liefert KI-gestützte Einblicke und Chancen und führt einen neuen Experimentationsagenten ein.</p>
-<p>Freuen Sie sich auf:</p>
+<p>Journey Optimizer Experimentation Accelerator ist ein KI-gestütztes Produkt, das darauf ausgelegt ist, Ihre Experimente auf ein neues Niveau zu heben. Konzipiert für Benutzende von Adobe Journey Optimizer und Adobe Target, vereinheitlicht es die Verwaltung von Experimenten, bietet KI-gestützte Erkenntnisse und Chancen und stellt einen neuen Agent für Experimente vor.</p>
+<p>Folgendes erwartet Sie:</p>
 <ul>
-<li><strong>Einheitliches Experimentinventar:</strong> Schnelles Anzeigen, Filtern und Verwalten aller Experimente aus Adobe Journey Optimizer und Adobe Target in einem zentralen Arbeitsbereich.</li>
-<li><strong>Einblicke und Chancen durch KI-Experimente:</strong> Mit GenAI-gestützten Einblicken und Empfehlungen über statistische Auslesewerte hinaus. Jedes Experiment bietet jetzt umsetzbare Möglichkeiten, einschließlich unterstützender Begründungen, sodass Teams sicherer entscheiden können, was als Nächstes getestet werden soll.</li>
-<li><strong>Unterstützung für Multi-Armed Bandit (MAB) in Journey Optimizer:</strong> Maximieren Sie die Wirkung und reduzieren Sie den verschwendeten Traffic durch Multi-Armed Bandit-Experimente. Anstatt Zielgruppen gleichmäßig zu verteilen, ordnet MAB automatisch mehr Besucher in Echtzeit den leistungsstärksten Varianten zu, sodass Sie mehr Kunden bessere Erlebnisse bieten können, während Sie gleichzeitig lernen, was funktioniert.</li></ul>
+<li><strong>Einheitliches Experimentinventar:</strong> Alle Experimente aus Adobe Journey Optimizer und Adobe Target lassen sich in einem zentralen Arbeitsbereich schnell anzeigen, filtern und verwalten.</li>
+<li><strong>KI-gestützte Erkenntnisse und Möglichkeiten für Experimente:</strong> Gehen Sie mit Erkenntnissen und Empfehlungen auf Basis generativer KI über statistische Auswertungen hinaus. Jedes Experiment zeigt jetzt verwertbare Chancen auf, einschließlich einer nachvollziehbaren Begründung, sodass Teams fundierter entscheiden können, was als Nächstes getestet werden sollte.</li>
+<li><strong>Unterstützung für Multi-Armed Bandit (MAB, mehrarmiger Bandit) in Journey Optimizer:</strong> Maximieren Sie die Wirkung und reduzieren Sie unnötigen Traffic mit Multi-Armed-Bandit-Experimenten. Anstatt Zielgruppen gleichmäßig aufzuteilen, weist MAB in Echtzeit automatisch den leistungsstärksten Varianten mehr Besuchende zu. Auf diese Weise können Sie mehr Kundinnen und Kunden bessere Erlebnisse bieten und gleichzeitig Erkenntnisse darüber gewinnen, was funktioniert.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/experiment-accelerator.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 23. September 2025</p>
+<p>Verfügbarkeitsdatum: 23. September 2025</p>
 </td>
 </tr>
 </tbody>
@@ -71,15 +71,15 @@ ht-degree: 44%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent ist da!</strong><br/></th>
+<th><strong>Journey Agent ist jetzt verfügbar.</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit <a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist Journey Agent in Journey Optimizer verfügbar. Es ermöglicht die Analyse von Journey über eine natürliche Sprachschnittstelle. Der Agent erkennt Zielgruppen- oder Zeitplankonflikte und Profil-Abbrüche auf einer Journey und hilft Ihnen bei der Lösung. Bald werden Sie in der Lage sein, Journey mit agentischem Support zu erstellen.</p>
+<p>Journey Agent ist in Journey Optimizer verfügbar und wird von <a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> unterstützt. Er ermöglicht die Analyse von Journeys über eine Schnittstelle für natürliche Sprache. Der Agent erkennt Zielgruppen- oder Zeitplankonflikte und Profilabbrüche in einer Journey und hilft Ihnen, Maßnahmen zur Behebung zu ergreifen. Demnächst können Sie Journeys mit Agent-basierter Unterstützung erstellen.</p>
 <p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 24. September 2025</p>
+<p>Verfügbarkeitsdatum: 24. September 2025</p>
 </td>
 </tr>
 </tbody>
@@ -150,13 +150,13 @@ ht-degree: 44%
 <table>
 <thead>
 <tr>
-<th><strong>Verwenden von Adobe Experience Platform-Daten für die Personalisierung und Entscheidungen</strong><br/></th>
+<th><strong>Verwenden von Adobe Experience Platform-Daten für Personalisierung und Entscheidungsfindung</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Diese Funktion wurde bereits in der öffentlichen Betaversion veröffentlicht und steht nun allen Umgebungen zur Verfügung. Mit dieser Version wurden die folgenden Verbesserungen eingeführt:</p>
+<p>Diese Funktion wurde zuvor als öffentliche Beta-Version veröffentlicht, steht aber nun für alle Umgebungen zur Verfügung. Mit dieser Version wurden die folgenden Verbesserungen eingeführt:</p>
 <ul><li>Unterstützung für die Personalisierung bei der Datensatzsuche in eingehenden Kanälen.</li>
 <li>Die Hilfsfunktion „datasetLookup“ kann jetzt in Ausdrucksfragmenten verwendet werden. Derzeit ist diese Funktion nur für eine begrenzte Anzahl von Kundinnen und Kunden verfügbar. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</li>
 <li>Mit einer Option in der Oberfläche für Datensatz-Management können Sie jetzt auf Einträgen basierende Datensätze für die Lookup-Personalisierung aktivieren, ohne dass ein API-Aufruf durchgeführt werden muss.</li>
@@ -173,52 +173,52 @@ ht-degree: 44%
 
 ### Verbesserungen {#sept-25-9-improvements}
 
-* **Webhook-Unterstützung für API-ausgelöste Kampagnen**\
-  API-ausgelöste Kampagnen unterstützen jetzt Webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen für jede Nachricht in Echtzeit zu erhalten, was die Beobachtbarkeit verbessert und eine nahtlose Überwachung und Automatisierung ermöglicht. [Weitere Informationen](../configuration/feedback-webhooks.md)
+* **Webhook-Unterstützung für Kampagnen, die durch API ausgelöst werden**\
+  Kampagnen, die durch API ausgelöst werden, unterstützen jetzt Webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen für jede Nachricht in Echtzeit zu erhalten, was die Beobachtbarkeit verbessert und eine nahtlose Überwachung und Automatisierung ermöglicht. [Weitere Informationen](../configuration/feedback-webhooks.md)
 
   Verfügbarkeitsdatum: 29. September 2025
 
 * **mTLS-Unterstützung für SMS-Kanal**
-Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Möglichkeit, die gegenseitige TLS-Authentifizierung (MTLS) zu aktivieren. Dazu müssen sowohl der Client als auch der Server die Identitäten der anderen Seite bestätigen, bevor eine sichere Verbindung hergestellt wird. [Mehr dazu](../sms/sms-configuration-custom.md) - Verfügbarkeitsdatum: 23. September 2025
+Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Möglichkeit, die gegenseitige TLS-Authentifizierung (mTLS) zu aktivieren. Dazu müssen sowohl der Client als auch der Server die Identität des jeweils anderen bestätigen, bevor eine sichere Verbindung hergestellt wird. [Mehr zum Thema](../sms/sms-configuration-custom.md) – Verfügbarkeitsdatum: 23. September 2025
 
 * **Modellbasierte Schemata**\
-  Modellbasierte Schemata können jetzt von verwendet werden, um Ihre relationalen Modellierungsanforderungen in orchestrierten Kampagnen zu unterstützen. [Mehr dazu](../orchestrated/gs-schemas.md) - Verfügbarkeitsdatum: 23. September 2025
+  Modellbasierte Schemata können jetzt verwendet werden, um Ihre Anforderungen an relationale Modellierung in orchestrierten Kampagnen zu unterstützen. [Mehr zum Thema](../orchestrated/gs-schemas.md) – Verfügbarkeitsdatum: 23. September 2025
 
-* **Unterstützung der Datensatzsuche in Journey**\
-  Eine neue Aktivität in Journey, **Datensatzsuche**, ermöglicht während der Laufzeit das dynamische Abrufen von Daten aus Adobe Experience Platform-Datensatzdatensätzen. Durch die Nutzung dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden, um sicherzustellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitnah sind. [Mehr dazu](../building-journeys/dataset-lookup.md) - Verfügbarkeitsdatum: 23. September 2025
+* **Unterstützung der Datensatzsuche in Journeys**\
+  Eine neue Aktivität in Journeys, **Datensatzsuche**, ermöglicht das dynamische Abrufen von Daten aus Adobe Experience Platform-Eintragsdatensätzen während der Laufzeit. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind. [Mehr zum Thema](../building-journeys/dataset-lookup.md) – Verfügbarkeitsdatum: 23. September 2025
 
-  Diese Aktivität ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
+  Diese Aktivität ist nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
-* **Umleitungsunterstützung beim Journey benutzerdefinierter Aktionen**\
-  Weiterleitungen (302) werden jetzt beim Journey benutzerdefinierter Aktionen unterstützt. - Verfügbarkeitsdatum: 23. September 2025
+* **Unterstützung von Umleitungen in benutzerdefinierten Journey-Aktionen**\
+  Umleitungen (302) werden jetzt in benutzerdefinierten Journey-Aktionen unterstützt. – Verfügbarkeitsdatum: 23. September 2025
 
-* **Warnhinweise zum Kanalkonfigurations-Monitoring**: Sie können nun Systemwarnhinweise abonnieren – entweder per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum –, falls bei der E-Mail-Kanalkonfiguration mit dem benutzerdefinierten Subdomain-Delegierungstyp ein Fehler auftritt. [Mehr dazu](../reports/alerts.md#alert-channel-config-failure) - Verfügbarkeitsdatum: 23. September 2025
+* **Warnhinweise zum Kanalkonfigurations-Monitoring**: Sie können nun Systemwarnhinweise abonnieren – entweder per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum –, falls bei der E-Mail-Kanalkonfiguration mit dem benutzerdefinierten Subdomain-Delegierungstyp ein Fehler auftritt. [Mehr zum Thema](../reports/alerts.md#alert-channel-config-failure) – Verfügbarkeitsdatum: 23. September 2025
 
-* **Abmeldeanfragen mit einem Klick** - Wir haben Verbesserungen eingeführt, die die Verarbeitung von Abmeldeanfragen mit einem Klick, die unter &quot;Adobe Managed“ konfiguriert wurden, weiter verbessern und eine zuverlässige und konsistente Verarbeitung gewährleisten. - Verfügbarkeitsdatum: 23. September 2025
+* **Anfragen zur Abmeldung mit einem Klick** – Wir haben Verbesserungen eingeführt, die die Handhabung von Anfragen zur Abmeldung mit einem Klick, die unter „Von Adobe verwaltet“ konfiguriert wurden, weiter optimieren und eine zuverlässige und konsistente Verarbeitung sicherstellen. – Verfügbarkeitsdatum: 23. September 2025
 
-* **Verschachtelte JSON-Textparameter werden jetzt in der benutzerdefinierten Authentifizierung unterstützt**\
-  Beim Konfigurieren der benutzerdefinierten Authentifizierung für eine benutzerdefinierte Aktion werden jetzt verschachtelte JSON-Objekte (z. B. Unterobjekte innerhalb von `bodyParams`) unterstützt. [Mehr dazu](../datasource/external-data-sources.md#custom-authentication-mode) - Verfügbarkeitsdatum: 18. September 2025
+* **Verschachtelte JSON-Parameter im Nachrichtentext werden jetzt in der benutzerdefinierten Authentifizierung unterstützt**\
+  Beachten Sie beim Konfigurieren der benutzerdefinierten Authentifizierung für eine benutzerdefinierte Aktion, dass verschachtelte JSON-Objekte (z. B. Unterobjekte innerhalb von `bodyParams`) jetzt unterstützt werden. [Mehr zum Thema](../datasource/external-data-sources.md#custom-authentication-mode) – Verfügbarkeitsdatum: 18. September 2025
 
-* **Stündliches Zurücksetzen der Begrenzungsfrequenz** – Sie können jetzt eine Begrenzung auf stündlicher Basis für Kanalregelsätze anwenden. Zuvor in eingeschränkter Verfügbarkeit verfügbar, ist diese Funktion jetzt für alle Umgebungen verfügbar und ermöglicht Ihnen die Auswahl von 1 Stunde (zuvor 3 Stunden). [Mehr dazu](../conflict-prioritization/channel-capping.md) - Verfügbarkeitsdatum: 17. September 2025
+* **Stündliches Zurücksetzen der Begrenzungsfrequenz** – Sie können jetzt eine Begrenzung auf stündlicher Basis für Kanalregelsätze anwenden. Diese Funktion, die zuvor mit eingeschränkter Verfügbarkeit angeboten wurde, steht jetzt für alle Umgebungen zur Verfügung und ermöglicht die Auswahl von 1 Stunde (zuvor 3 Stunden). [Mehr zum Thema](../conflict-prioritization/channel-capping.md) – Verfügbarkeitsdatum: 17. September 2025
 
 * **Simulieren von Inhaltsvarianten für alle eingehenden Kanäle**\
-  Zuvor nur für die Kanäle E-Mail, SMS und Push-Benachrichtigungen verfügbar, gilt die Simulation von Inhaltsvarianten jetzt auch für alle eingehenden Kanäle. [Mehr dazu](../test-approve/simulate-sample-input.md) - Verfügbarkeitsdatum: 17. September 2025
+  Die Simulation von Inhaltsvarianten, die zuvor nur für die Kanäle E-Mail, SMS und Push-Benachrichtigung verfügbar war, gilt jetzt auch für alle eingehenden Kanäle. [Mehr zum Thema](../test-approve/simulate-sample-input.md) – Verfügbarkeitsdatum: 17. September 2025
 
-* **Ausdruck für Begrenzungsregeln bei der Entscheidungsfindung** – Sie können jetzt eigene Ausdrücke erstellen, um den Schwellenwert einer Begrenzungsregel für ein Entscheidungselement zu definieren. [Mehr dazu](../experience-decisioning/items.md#capping) - Verfügbarkeitsdatum: 16. September 2025
+* **Ausdruck für Begrenzungsregeln bei der Entscheidungsfindung** – Sie können jetzt eigene Ausdrücke erstellen, um den Schwellenwert einer Begrenzungsregel für ein Entscheidungselement zu definieren. [Mehr zum Thema](../experience-decisioning/items.md#capping) – Verfügbarkeitsdatum: 16. September 2025
 
-* **Unterstützung dynamischer Domains** – Journey Optimizer unterstützt jetzt die vollständige/Basis-URL-Personalisierung für vordefinierte Domains, die von Adobe akzeptiert werden. [Mehr dazu](../personalization/personalization-build-expressions.md#where) - Verfügbarkeitsdatum: 12. September 2025
+* **Unterstützung dynamischer Domains** – Journey Optimizer unterstützt jetzt die vollständige/Basis-URL-Personalisierung für vordefinierte Domains, die von Adobe akzeptiert werden. [Mehr zum Thema](../personalization/personalization-build-expressions.md#where) – Verfügbarkeitsdatum: 12. September 2025
 
-  Diese Funktion ist für eine Reihe von Kunden in begrenzter Verfügbarkeit verfügbar.
+  Diese Funktion ist für eine ausgewählte Kundengruppe eingeschränkt verfügbar.
 
 * **Webhooks** - Diese Version führt die folgenden Verbesserungen für Webhooks beim Konfigurieren eines benutzerdefinierten SMS-Anbieters ein:
 
-   * Sie können jetzt den Zweck Ihres Webhooks definieren, entweder Eingehend oder Feedback, je nach dem Typ der Daten, die Sie erfassen möchten. [Mehr dazu](../sms/sms-configuration-custom.md#webhook) - Verfügbarkeitsdatum: 23. September 2025
+   * Sie können jetzt den Zweck Ihres Webhooks definieren, entweder Eingehend oder Feedback, je nach dem Typ der Daten, die Sie erfassen möchten. [Mehr zum Thema](../sms/sms-configuration-custom.md#webhook) – Verfügbarkeitsdatum: 23. September 2025
 
-   * Die Benutzeroberfläche zur Konfiguration von Keywords wurde verbessert, um die Einrichtung zu vereinfachen. [Mehr dazu](../sms/sms-configuration-custom.md#webhook) - Verfügbarkeitsdatum: 23. September 2025
+   * Die Benutzeroberfläche zur Konfiguration von Keywords wurde verbessert, um die Einrichtung zu vereinfachen. [Mehr zum Thema](../sms/sms-configuration-custom.md#webhook) – Verfügbarkeitsdatum: 23. September 2025
 
 * **SMS**
 
-   * Beim Einrichten eines benutzerdefinierten SMS-Anbieters können Sie jetzt ein **Standard**-Keyword definieren, das verwendet wird, wenn eine eingehende SMS ein nicht erkanntes Keyword enthält. Sie können auch **benutzerdefinierte** Schlüsselwörter für bestimmte Aktionen erstellen. [Mehr dazu](../sms/sms-configuration-custom.md) - Verfügbarkeitsdatum: 23. September 2025
+   * Beim Einrichten eines benutzerdefinierten SMS-Anbieters können Sie jetzt ein **Standard**-Keyword definieren, das verwendet wird, wenn eine eingehende SMS ein nicht erkanntes Keyword enthält. Sie können auch **benutzerdefinierte** Schlüsselwörter für bestimmte Aktionen erstellen. [Mehr zum Thema](../sms/sms-configuration-custom.md) – Verfügbarkeitsdatum: 23. September 2025
 
    * Sie können jetzt auf undefinierte eingehende Keyword-Antworten zugreifen, die über eine SMS-Nachricht gesendet werden, einschließlich Tippfehler, Wörter oder Sätze, die in der Konfiguration nicht explizit definiert sind. Sie werden im Datensatz **AJO Email Tracking Experience Event** unter **InboundMessage** für 13 Monate gespeichert. Nur bei Sinch, Infobip und benutzerdefinierten SMS-Anbietern verfügbar. - Verfügbarkeitsdatum: 23. September 2025
 
@@ -229,7 +229,7 @@ Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Mög
 
 ### Demnächst {#sept-25-9-soon}
 
-In den nächsten Tagen sollen die folgenden Funktionen und Verbesserungen veröffentlicht werden. **Informationen können sich ändern**. Aktualisierte Links, Bildschirme und Dokumentationen werden freigegeben, sobald diese Aktualisierungen in der Produktion live sind.
+In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Veröffentlichung vorgesehen. **Informationen können Änderungen unterliegen**. Aktualisierte Links, Bildschirme und Dokumentationen werden freigegeben, sobald diese Aktualisierungen live in der Produktion verfügbar sind.
 
 <!--table>
 <thead>
@@ -316,7 +316,7 @@ In den nächsten Tagen sollen die folgenden Funktionen und Verbesserungen veröf
 <ul>
 <li>Pro Profil können pro Jahr bis zu 6 Nachrichten mit einem PDF-Anhang gesendet werden.</li>
 <li>Die maximale Dateigröße pro Anhang beträgt 5 MB.</li>
-<li>Für jede zusätzliche Größe oder jedes zusätzliche Volumen können Sie das Add-on PDF Attachments erwerben. Weitere Informationen erhalten Sie beim Adobe-Support.</li>
+<li>Für zusätzliche Größen oder Volumen können Sie das Zusatzpaket für PDF-Anhänge erwerben. Weitere Informationen erhalten Sie beim Adobe-Support.</li>
 </ul>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
@@ -330,24 +330,24 @@ In den nächsten Tagen sollen die folgenden Funktionen und Verbesserungen veröf
 
 
 * **Neue Journey-Warnhinweise**\
-  Neue vorkonfigurierte Warnhinweise sind für Journey verfügbar:
+  Neue vorkonfigurierte Warnhinweise sind für Journeys verfügbar:
 
-   * Profil-Verwerfungsrate überschritten: Verhältnis der Verwerfen-Aktionen von Profilen zu den eingegebenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten.
-   * Fehlerrate für benutzerdefinierte Aktion überschritten: Verhältnis der Fehler benutzerdefinierter Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten überschritten. Schwellenwert
-   * Profilfehlerrate überschritten: Verhältnis der fehlerhaften Profile zu den eingegebenen Profilen in den letzten 5 Minuten haben den Schwellenwert überschritten.
+   * Verwerfungsrate für Profile überschritten: Das Verhältnis von verworfenen Profilen zu eingetretenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten.
+   * Fehlerrate für benutzerdefinierte Aktion überschritten: Das Verhältnis von Fehlern bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten hat den Schwellenwert überschritten.
+   * Fehlerrate für Profile überschritten: Das Verhältnis von fehlerhaften Profilen zu eingetretenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten.
 <!--
   * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
   * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
   * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-Sie können Schwellenwerte ändern und Warnhinweise auf Journey-Ebene im Vergleich zu globalen Warnhinweisen abonnieren.
+Sie können Schwellenwerte anpassen und Warnhinweise entweder auf Journey-Ebene oder global abonnieren.
 
 <!-- Availability date: Sept XX, 2025-->
 
 
-* **Unterstützung benutzerdefinierter Attribute mit 1-Klick-Abmelde-URL**\
-  Wenn Sie mit Journey Optimizer das Einverständnis außerhalb von Adobe verwalten, können Sie einen externen benutzerdefinierten Endpunkt festlegen, indem Sie Ihren eigenen Link zur Abmeldung mit einem Klick in der E-Mail-Konfiguration definieren. Wenn Ihre Empfängerinnen oder Empfänger auf den Link zum Abmelden klicken, fügt Journey Optimizer standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
+* **Unterstützung benutzerdefinierter Attribute mit URL zum Abmelden mit einem Klick**\
+  Bei Journey Optimizer können Sie einen externen, benutzerdefinierten Endpunkt festlegen, indem Sie einen individuellen Link zum Abmelden mit einem Klick in der E-Mail-Konfiguration definieren, wenn das Einverständnis außerhalb von Adobe verwaltet wird. Wenn Ihre Empfängerinnen oder Empfänger auf den Link zum Abmelden klicken, fügt Journey Optimizer standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
 
-  Um die Abmelde-E-Mail-Adresse weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden. Diese Funktion ist bereits seit der Version vom 25. August für den benutzerdefinierten Ein-Klick-Abmelde-Link verfügbar.
+  Um einen Link zum Abmelden einer E-Mail-Adresse weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden. Diese Funktion ist bereits seit der Version vom 25. August für den benutzerdefinierten Link zum Abmelden mit einem Klick verfügbar.
 
   <!-- Availability date: Sept XX, 2025-->

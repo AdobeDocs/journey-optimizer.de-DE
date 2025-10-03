@@ -555,7 +555,7 @@ ht-degree: 99%
          + [Metriken zu Experimentation Accelerator](using/content-management/experiment-accelerator-metrics.md)
       + Technotes {#technotes}
          + [Technotes](/help/rp_landing_pages/technotes-landing-page.md)
-         + [A/B-Test vs. Multi-Armed Bandit](using/content-management/mab-vs-ab.md)
+         + [A/B-Test vs. mehrarmiger Bandit](using/content-management/mab-vs-ab.md)
          + [Verstehen von statistischen Berechnungen](using/content-management/experiment-calculations.md)
          + [Verstehen der statistischen Berechnungen im Versuchsbericht](using/content-management/experiment-report-calculations.md)
 + Zielgruppen, Profile und Identität {#audiences-profiles-identities}
