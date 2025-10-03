@@ -5,10 +5,10 @@ title: Erstellen einer Zielgruppendimension
 description: Erfahren Sie, wie Sie dem Kundenprofil ein relationales Schema zuordnen.
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: aa075c1ca2feb3b6ef406089ab9fffd704fd95e2
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 100%
+source-wordcount: '742'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ Fahren Sie nach der Konfiguration der **[!UICONTROL Zieldimension]** mit der Ers
 
 ## Konfigurieren der Kanalkonfiguration {#channel-configuration}
 
-Nach der Einrichtung Ihrer **[!UICONTROL Zieldimension]** müssen Sie Ihre E-Mail- oder SMS-**[!UICONTROL Kanalkonfiguration]** konfigurieren und die entsprechenden **[!UICONTROL Ausführungsdetails]** definieren. Auf diese Weise können Sie Folgendes definieren:
+Nach der Einrichtung von **[!UICONTROL Target Dimension]** müssen Sie Ihre **[!UICONTROL Kanalkonfiguration]** konfigurieren und die entsprechenden **[!UICONTROL Ausführungsdetails]** definieren. Auf diese Weise können Sie Folgendes definieren:
 
 * **Die Ebene des Nachrichtenversands**: z. B. eine Nachricht pro Empfängerin bzw. Empfänger (beispielsweise eine einzige E-Mail pro Kontakt).
 
