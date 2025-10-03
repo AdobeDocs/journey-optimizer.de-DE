@@ -5,10 +5,10 @@ title: Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 description: Informationen über das Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: 3931b1d6fd97b92c79aff2c003f8cb692fc52e47
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 98%
+source-wordcount: '1111'
+ht-degree: 96%
 
 ---
 
@@ -60,16 +60,15 @@ Beispiel:
 
 Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampagnen erstellen, die Kundinnen und Kunden über mehrere Touchpoints hinweg ansprechen, und Konversionen fördern.
 
-
 >[!CAUTION]
 >
 >In orchestrierten Kampagnen werden nur die Kanäle SMS, Push und E-Mail unterstützt.
 
+## Hinzufügen einer Kanalaktivität und Definieren ihrer Eigenschaften {#add}
+
 >[!PREREQUISITES]
 >
->Bevor Sie eine Kanalaktivität hinzufügen, definieren Sie die Zielgruppe mithilfe einer [Aktivität vom Typ „Zielgruppe erstellen“](build-audience.md).
-
-## Hinzufügen einer Kanalaktivität und Definieren ihrer Eigenschaften {#add}
+>Bevor Sie eine Kanalaktivität hinzufügen, definieren Sie die Zielgruppe mithilfe der Aktivität [Zielgruppe erstellen](build-audience.md) oder [Zielgruppe lesen](read-audience.md) .
 
 1. Fügen Sie der Arbeitsfläche eine Kanalaktivität hinzu. Verfügbare Kanalaktivitäten sind **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]** und **[!UICONTROL Push]**.
 
