@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2825'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandbox
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-Dieselbe Versand-Domain kann nicht zum Senden von E-Mail-Nachrichten von [!DNL Adobe Journey Optimizer] und von einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
+Es kann nicht dieselbe Versand-Domain zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
 
 ### Leitlinien für SMS {#sms-guardrails}
 
@@ -64,21 +64,21 @@ Für den [SMS-Kanal](../sms/get-started-sms.md) gelten die folgenden Schutzmecha
 * Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.
 * Die Einverständnisverwaltung erfolgt auf SMS-Kanalebene für MMS.
 
-### Schutzmaßnahmen bei eingehenden Kanälen {#inbound-guardrails}
+### Leitlinien für eingehende Kanäle {#inbound-guardrails}
 
-* Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 eingehenden Anfragen pro Sekunde. Diese Leitplanke gilt für alle eingehenden Anfragen, die von einem der von Journey Optimizer unterstützten eingehenden Kanäle ([Web](../web/get-started-web.md), [In-App](../in-app/get-started-in-app.md), [Code-basierte Erlebnisse](../code-based/get-started-code-based.md), [Inhaltskarten](../../rp_landing_pages/content-card-landing-page.md)) stammen können.
+* Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde. Diese Leitlinie gilt für alle eingehenden Anfragen, die von jedem der von Journey Optimizer unterstützten eingehenden Kanäle stammen können ([Web](../web/get-started-web.md), [In-App](../in-app/get-started-in-app.md), [Code-basierte Erlebnisse](../code-based/get-started-code-based.md), [Inhaltskarten](../../rp_landing_pages/content-card-landing-page.md)).
 
-  Eingehende Journey Optimizer-Kanäle zielen auf neue Profile ab, die zuvor möglicherweise noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird.
+  Die eingehenden Kanäle von Journey Optimizer sprechen neue Profile an, die zuvor noch nicht auf anderen Kanälen erreicht wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird.
 
   Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-* Journey Optimizer unterstützt zu jedem Zeitpunkt maximal 500 aktive eingehende Aktionen. Diese eingehenden Aktionen ([Web](../web/get-started-web.md), [In-App](../in-app/get-started-in-app.md), [Code-basierte Erlebnisse](../code-based/get-started-code-based.md), [Inhaltskarten](../../rp_landing_pages/content-card-landing-page.md)) werden gezählt, wenn sie Teil einer Live-Kampagne sind oder wenn sie ein Knoten sind, der in einer Live-Journey verwendet wird. Wenn Sie diese Zahl erreicht haben, müssen Sie ältere Kampagnen oder Journey, die eingehende Aktionen verwenden, deaktivieren, bevor Sie neue starten können.
+* Journey Optimizer unterstützt zu jedem Zeitpunkt maximal 500 aktive eingehende Aktionen. Diese eingehenden Aktionen ([Web](../web/get-started-web.md), [In-App](../in-app/get-started-in-app.md), [Code-basierte Erlebnisse](../code-based/get-started-code-based.md), [Inhaltskarten](../../rp_landing_pages/content-card-landing-page.md)) werden gezählt, wenn sie Teil einer Live-Kampagne sind oder wenn sie ein Knoten sind, der in einer Live-Journey verwendet wird. Sobald diese Anzahl erreicht ist, müssen Sie ältere Kampagnen oder Journeys deaktivieren, die eingehende Aktionen verwenden, bevor neue gestartet werden können.
 
-* Um [Code-basierte Erlebnis](../code-based/get-started-code-based.md)-Aktionen in [!DNL Journey Optimizer] zu verwenden und Code-Inhalts-Payload bereitzustellen, die von Ihren Programmen verwendet werden kann, folgen Sie den Voraussetzungen auf [dieser Seite](../code-based/code-based-prerequisites.md).
+* Damit Sie Aktionen für [Code-basierte Erlebnisse](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] verwenden und eine Payload mit Code-Inhalten bereitstellen zu können, die von Ihren Anwendungen genutzt werden kann, müssen die auf [dieser Seite](../code-based/code-based-prerequisites.md) beschriebenen Voraussetzungen erfüllt sein.
 
-### Schutzmaßnahmen bei Transaktionsnachrichten {#transactional-message-guardrails}
+### Leitlinien für Transaktionsnachrichten {#transactional-message-guardrails}
 
-Journey Optimizer unterstützt in Kampagnen ein Spitzenvolumen von 500 Transaktionsnachrichten pro Sekunde.
+Journey Optimizer unterstützt ein Spitzenvolumen von 500 Transaktionsnachrichten pro Sekunde für Kampagnen.
 
 ## Schutzmechanismen für Landingpages {#lp-guardrails}
 
@@ -171,7 +171,7 @@ Für [benutzerdefinierte Aktionen](../action/action.md) in Ihren Journeys gelten
 
 Für [Ereignisse](../event/about-events.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
 
-* Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde in allen Sandboxes. Weitere Informationen zu dieser Einschränkung [&#x200B; Sie auf dieser Seite](../event/about-events.md#event-thoughput).
+* Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde über alle Sandboxes hinweg. Weitere Informationen zu dieser Einschränkung finden Sie [auf dieser Seite](../event/about-events.md#event-thoughput).
 * Bei von einem Ereignis ausgelösten Journeys kann es bis zu 5 Minuten dauern, bis die erste Aktion in der Journey verarbeitet wird.
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
 * Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Zielgruppen-Qualifizierungaktivitäten verwendet werden.
@@ -204,7 +204,7 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 ### Zusätzliche Kennungen {#supplemental}
 
-Spezifische Leitplanken gelten für die Verwendung zusätzlicher IDs in Journey. Sie sind auf [dieser Seite](../building-journeys/supplemental-identifier.md#guardrails) aufgeführt.
+Für die Verwendung zusätzlicher Kennungen in Journeys gelten spezifische Leitlinien. Sie sind auf [dieser Seite](../building-journeys/supplemental-identifier.md#guardrails) aufgeführt.
 
 ### Ausdruckseditor {#expression-editor}
 
@@ -215,12 +215,12 @@ Für den [Journey-Ausdruckseditor](../building-journeys/expression/expressionadv
 
 ### Journey-Aktivitäten {#activities}
 
-#### Aktivität „Zielgruppen-Qualifizierung“ {#audience-qualif-g}
+#### Aktivität des Typs „Zielgruppen-Qualifizierung“ {#audience-qualif-g}
 
 Für die Journey-Aktivität [Zielgruppen-Qualifizierung](../building-journeys/audience-qualification-events.md) gilt der folgende Schutzmechanismus:
 
 * Die Aktivität „Zielgruppen-Qualifizierung“ kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
-* Zusätzliche Kennungen werden für Journey zur Zielgruppenqualifizierung nicht unterstützt.
+* Zusätzliche Kennungen werden für Journeys des Typs „Zielgruppen-Qualifizierung“ nicht unterstützt.
 
 #### Kampagnenaktivitäten {#ac-g}
 
@@ -253,7 +253,7 @@ Für die Aktion **[!UICONTROL In-App-Nachrichten]** gelten die folgenden Schutzm
 
 Für die Aktivität **[!UICONTROL Springen]** gelten spezifische Schutzmechanismen. Sie sind auf [dieser Seite](../building-journeys/jump.md#jump-limitations) aufgeführt.
 
-#### Aktivität „Zielgruppe lesen“ {#read-segment-g}
+#### Aktivität des Typs „Zielgruppe lesen“ {#read-segment-g}
 
 Für die Journey-Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) gelten die folgenden Schutzmechanismen:
 
@@ -264,7 +264,7 @@ Für die Journey-Aktivität [Zielgruppe lesen](../building-journeys/read-audienc
 * Eine Journey kann nur über eine Aktivität **Zielgruppe lesen** verfügen.
 * Zusätzliche Empfehlungen zur Verwendung der Aktivität **Zielgruppe lesen** finden Sie auf [dieser Seite](../building-journeys/read-audience.md).
 * Beim Abrufen des Exportauftrags werden standardmäßig weitere Versuche bei zielgruppenseitig ausgelösten Journeys durchgeführt (beginnend mit der Aktivität **Zielgruppe lesen** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden.
-* Bei Journey, die zusätzliche IDs verwenden, ist die Leserate der Aktivität „Zielgruppe lesen“ für jede Journey-Instanz auf maximal 500 Profile pro Sekunde beschränkt.
+* Bei Journeys, die zusätzliche Kennungen verwenden, ist die Leserate der Aktivität des Typs „Zielgruppe lesen“ für jede Journey-Instanz auf maximal 500 Profile pro Sekunde beschränkt.
 
 Siehe auch [diese Seite](../building-journeys/read-audience.md#must-read).
 

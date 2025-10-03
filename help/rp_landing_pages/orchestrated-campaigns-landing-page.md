@@ -6,9 +6,9 @@ description: Orchestrierte Kampagnen
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Machen Sie sich mit den Einschränkungen und Grenzen vertraut, die bei der Verwe
 
 Datenkonfiguration für orchestrierte Kampagnen
 
-Konfigurieren Sie modellbasierte Schemata, Datensätze und Kanäle, um sicherzustellen, dass die Daten für koordinierte Kampagnen bereit sind.
+Konfigurieren Sie modellbasierte Schemata, Datensätze und Kanäle, um sicherzustellen, dass die Daten für orchestrierte Kampagnen bereit sind.
 
 [Datenkonfiguration erkunden](data-configuration-landing-page.md)
 :::
@@ -83,5 +83,5 @@ Erfahren Sie mehr über die Aktivitäten für Targeting, Kanäle und Flusskontro
 
 ## Weitere Ressourcen
 
-- **[Häufig gestellte Fragen](../using/orchestrated/orchestrated-campaigns-faq.md)** - Erkunden Sie die häufig gestellten Fragen (FAQ) zu von Adobe Journey Optimizer orchestrierten Kampagnen.
+- **[Häufig gestellte Fragen](../using/orchestrated/orchestrated-campaigns-faq.md)** – Erkunden Sie häufig gestellte Fragen (FAQ) zu mit Adobe Journey Optimizer orchestrierten Kampagnen.
 

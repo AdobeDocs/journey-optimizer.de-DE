@@ -9,9 +9,9 @@ level: Experienced
 keywords: Schemata, Plattform, Daten, Struktur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -41,15 +41,15 @@ In Adobe Experience Platform gibt es zwei Arten von Schemata:
    * Produkte oder Kataloge
    * Filialen, Standorte oder Partner
 
-  Mit modellbasierten Schemata können Sie eine Nachricht pro Entität senden (z. B. pro Buchung, pro Abonnement), Segmente basierend auf Entitätsattributen erstellen (z. B. Produktkategorie, Store-Standort) und die Adressierbarkeit verbessern, indem Sie alle mit einer Entität verknüpften Kontakte erreichen.
+  Mit modellbasierten Schemata können Sie eine Nachricht pro Entität senden (z. B. pro Buchung, pro Abonnement), Segmente basierend auf Entitätsattributen erstellen (z. B. Produktkategorie, Filialstandort) und die Adressierbarkeit verbessern, indem Sie alle mit einer Entität verknüpften Kontakte ansprechen.
 
-  Funktionsweise modellbasierter Schemata:
+  Funktionsweise von modellbasierten Schemata:
 
    1. **Erstellen Sie Schemata manuell oder importieren Sie sie über DDL.**
    1. **Verknüpfen Sie Schemata**, um Beziehungen zwischen Entitäten und Personen zu definieren (z. B. mit Mitgliedern verknüpfte Treuetransaktionen, mit Marken verknüpfte Prämien).
    1. **Nehmen Sie Daten** aus unterstützten Quellen in Ihren Datensatz auf.
 
-  ➡️ [Erfahren Sie, wie Sie modellbasierte Schemata und Datensätze verwalten](../orchestrated/gs-schemas.md)
+  ➡️ [Informationen zum Verwalten von modellbasierten Schemata und Datensätzen](../orchestrated/gs-schemas.md)
 ➡️ [Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-schemas.md)
 
 ## Anleitungsvideo{#video-schema}

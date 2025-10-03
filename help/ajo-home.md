@@ -6,25 +6,25 @@ description: Dokumentation zu Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 4a575a0a403d566d81c47e6956d94fab1166f663
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Dokumentation zu Adobe Journey Optimizer{#section-overview}
 
-Mit Adobe Journey Optimizer können Teams nahtlose, personalisierte Kundenerlebnisse über Kanäle wie E-Mail, SMS und mehr entwerfen und bereitstellen. Durch die Kombination erweiterter Tools für die Kampagnenorchestrierung, das Daten-Management und die Entscheidungsfindung können Sie Journeys erstellen, die sich in Echtzeit an die Kundenanforderungen anpassen. Diese Dokumentation bietet eine Roadmap zum Beherrschen der Plattform – vom Erkunden der neuesten Funktionen und Integrationen bis hin zum Erlernen der Verwaltung von Zielgruppen, der Konfiguration von Journeys und der Leistungsanalyse. Egal, ob Sie Marketing-Experte, Datenanalyst oder Kampagnen-Manager sind, Sie finden hier Schritt-für-Schritt-Anleitungen, Best Practices und Ressourcen, die darauf zugeschnitten sind, Ihnen bei der Erreichung Ihrer Ziele zu helfen.
+Mit Adobe Journey Optimizer können Teams nahtlose, personalisierte Kundenerlebnisse über Kanäle wie E-Mail, SMS und mehr entwerfen und bereitstellen. Durch die Kombination erweiterter Tools für die Kampagnenorchestrierung, das Daten-Management und die Entscheidungsfindung können Sie Journeys erstellen, die sich in Echtzeit an die Kundenanforderungen anpassen. Diese Dokumentation bietet eine Roadmap zum Beherrschen der Plattform – vom Erkunden der neuesten Funktionen und Integrationen bis hin zum Erlernen der Verwaltung von Zielgruppen, der Konfiguration von Journeys und der Leistungsanalyse. Egal ob Sie Marketing-Fachkraft, Data Engineer oder Kampagnen-Managerin bzw. -Manager sind – hier finden Sie Schritt-für-Schritt-Anleitungen, Best Practices und Ressourcen, die darauf zugeschnitten sind, Ihnen beim Erreichen Ihrer Ziele zu helfen.
 
 ## Neue Funktionen {#section-new}
 
-Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und die Dokumentation! Eine umfassende Liste der Funktionen, Verbesserungen und Fehlerbehebungen finden Sie in den detaillierten [Versionshinweisen](using/rn/release-notes.md).
+Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und die Dokumentation. Eine umfassende Liste der Funktionen, Verbesserungen und Fehlerbehebungen finden Sie in den detaillierten [Versionshinweisen](using/rn/release-notes.md).
 
 >[!BEGINTABS]
 
 >[!TAB Version September 2025]
 
-Die Journey Optimizer-September-Version ist live! Entdecken Sie die neuen Funktionen und Verbesserungen, die diesen Monat in den Versionshinweisen veröffentlicht wurden.
+Die Version September von Journey Optimizer ist verfügbar. Die Versionshinweise enthalten die in diesem Monat veröffentlichten neuen Funktionen und Verbesserungen.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -79,7 +79,7 @@ Entwerfen, orchestrieren, verwalten und optimieren Sie personalisierte Kunden-Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Grundlagen und Verwalten von Kampagnen
 
@@ -89,7 +89,7 @@ Detaillierte Anleitungen zum Erstellen, Verwalten und Optimieren verschiedener K
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Kommunikationskanäle
 
