@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen der Personalisierung in Adobe Journey Optimizer kennen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Hinzufügen und Validieren von Personalisierung
 
@@ -60,7 +60,7 @@ Nutzen Sie wiederverwendbare Ausdrucksfragmente für effiziente und konsistente 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
 
 Verwenden von Adobe Experience Platform-Daten für die Personalisierung (Beta)
 
@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie AEP-Datensätze mit der Hilfsfunktion „datasetLookup“ 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Referenzhandbuch zu Hilfsfunktionen
 

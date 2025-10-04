@@ -70,7 +70,7 @@ Verwalten Sie PTR-Einträge für delegierte Subdomains, bearbeiten Sie diese und
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen von IP-Pools
 

@@ -70,7 +70,7 @@ Richten Sie benutzerdefinierte SMS-Anbieter ein, indem Sie API-Anmeldeinformatio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Erstellen einer SMS/MMS/RCS-Kanalkonfiguration
 

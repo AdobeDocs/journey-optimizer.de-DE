@@ -20,7 +20,7 @@ Der Abschnitt „Konfigurieren des Code-basierten Kanals“ in Adobe Journey Opt
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Voraussetzungen für Code-basierte Erlebnisse
 

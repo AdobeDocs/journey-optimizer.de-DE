@@ -20,7 +20,7 @@ Beim Erstellen von Inhalten in Adobe Journey Optimizer dreht sich alles um Flexi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Gestalten von ganz neuem E-Mail-Inhalt
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie E-Mail-Inhalte mit dem E-Mail-Designer von Adobe Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Importieren vorhandener E-Mail-Inhalte
 
@@ -40,7 +40,7 @@ Importieren Sie HTML-Inhalte in Adobe Journey Optimizer, passen Sie Design-Eleme
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Codieren Ihres eigenen E-Mail-Inhalts
 
@@ -50,7 +50,7 @@ Codieren Sie Ihre E-Mail-Inhalte manuell mit roher HTML im Adobe Journey Optimiz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Arbeiten mit E-Mail-Vorlagen
 
@@ -60,7 +60,7 @@ Sparen Sie Zeit durch die Verwendung von Beispiel- oder benutzerdefinierten E-Ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Nutzen von E-Mail-Designs
 

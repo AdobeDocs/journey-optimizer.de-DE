@@ -21,7 +21,7 @@ Das Erstellen einer Journey in Adobe Journey Optimizer ermöglicht es Ihnen, per
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen Ihrer ersten Customer Journey
 
@@ -31,7 +31,7 @@ Erfahren Sie in einer schrittweisen Anleitung, wie Sie Ihre erste Customer Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Definieren und Verwalten von Journey-Eigenschaften
 
@@ -41,7 +41,7 @@ Konfigurieren Sie Eintrittsregeln, zeitbezogene Einstellungen, Zugriffsverwaltun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Entwerfen einer Journey
 
@@ -51,7 +51,7 @@ Verwenden Sie die Drag-and-Drop-Oberfläche, um personalisierte, mehrstufige Mar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Testen der Journey
 
@@ -71,7 +71,7 @@ Validieren Sie Ihre Journeys mit echten Produktionsdaten, ohne sich an Kundinnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Veröffentlichen einer Journey
 

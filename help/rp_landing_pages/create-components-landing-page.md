@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer Platzierungen erstellen und ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 So erstellen Sie Entscheidungsregeln in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Definieren Sie Entscheidungsregeln zur Personalisierung von Angeboten, indem Sie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=de)
 
 So erstellen und verwalten Sie Sammlungskennzeichner in Adobe Journey Optimizer
 

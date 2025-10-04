@@ -40,7 +40,7 @@ Machen Sie sich mit den Definitionen und Kategorien von Metriken vertraut, die i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Live-Bericht zu einer Journey
 
@@ -50,7 +50,7 @@ Analysiert die Performance der Journeys und der zugehörigen Kommunikationskanä
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Live-Bericht zu einer Kampagne
 
@@ -60,7 +60,7 @@ Visualisieren der Kampagnenleistung über mehrere Kanäle hinweg, darunter E-Mai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Live-Bericht zu Landingpages
 
@@ -70,7 +70,7 @@ Bewertet die Leistung der Landingpage mit Echtzeitmetriken wie Besuche, Konversi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Live-Bericht zu Abonnements
 

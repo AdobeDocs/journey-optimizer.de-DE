@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Workflows erstellen, die bestehende Zielgruppen für perso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=de)
 
 Importieren von Zielgruppen mithilfe eines benutzerdefinierten CSV-Uploads
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Zielgruppen über CSV-Dateien importieren und Attribute Pr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Komposition föderierter Zielgruppen
 

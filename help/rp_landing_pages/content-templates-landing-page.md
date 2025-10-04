@@ -20,7 +20,7 @@ Inhaltsvorlagen in Adobe Journey Optimizer sind leistungsstarke Tools, die die E
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Inhaltsvorlagen
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen der Erstellung und Verwaltung von Inhaltsvorlagen kenn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Zugreifen auf und Verwalten von Vorlagen
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie auf Inhaltsvorlagen zugreifen und diese organisieren und v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Erstellen von Inhaltsvorlagen
 
@@ -50,7 +50,7 @@ Schrittweise Anleitung zum Erstellen neuer, wiederverwendbarer Inhaltsvorlagen o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Sperren von Inhalten in E-Mail-Vorlagen
 
@@ -70,7 +70,7 @@ Validieren Sie E-Mail-Vorlagen, indem Sie deren Rendering, Varianten und Testsen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Verwenden von Inhaltsvorlagen
 

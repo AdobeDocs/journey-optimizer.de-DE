@@ -40,7 +40,7 @@ Verstehen und konfigurieren Sie Wiederholungsmechanismen für Softbounce-Fehler,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Konfigurieren der Zulassungsliste
 

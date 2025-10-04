@@ -20,7 +20,7 @@ Mit benutzerdefinierten Journey-Berichten in Adobe Journey Optimizer können Sie
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Erstellen und Analysieren von Journey-Berichten
 
@@ -40,7 +40,7 @@ Erkunden Sie die umfassende Liste der Schrittereignisfelder, die kategorisiert u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Alte Schrittereignisfelder
 
@@ -50,7 +50,7 @@ Machen Sie sich mit den alten Schrittereignisfeldern vertraut, die in Adobe Jour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Beispiel-SQL-Abfragen für die Datenanalyse
 

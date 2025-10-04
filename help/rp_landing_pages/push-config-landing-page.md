@@ -20,7 +20,7 @@ Push-Benachrichtigungen in Adobe Journey Optimizer ermöglichen es Ihnen, in Ech
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Datenfluss und Komponenten von Push-Benachrichtigungen
 
@@ -30,7 +30,7 @@ Machen Sie sich mit den Komponenten, Workflows und Datenflüssen vertraut, die f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfiguration des Push-Benachrichtigungskanals
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Einrichten von Berechtigungen, zur Integration von 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Schnellstart-Workflow für Mobile-Onboarding
 

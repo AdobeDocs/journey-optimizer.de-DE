@@ -20,7 +20,7 @@ Bei der Datenkonfiguration in Adobe Journey Optimizer geht es darum, die Grundla
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Verwalten von relationalen Schemata und Datensätzen
 

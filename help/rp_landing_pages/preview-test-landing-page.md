@@ -20,7 +20,7 @@ Durch die Vorschau und das Testen von Inhalten in Adobe Journey Optimizer wird s
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Vorschau und Testen Ihrer Inhalte in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit Testprofilen und Beispieleingabedaten Inhalte in der V
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Auswählen von Testprofilen in Adobe Journey Optimizer
 

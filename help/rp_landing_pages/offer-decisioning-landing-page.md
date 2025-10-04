@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen des Entscheidungs-Managements kennen, einschließlich 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Erstellen und Verwalten von Entscheidungskomponenten
 
@@ -50,7 +50,7 @@ Lernen Sie, wie Sie mithilfe von Formeln und KI-Modellen Ranglisten von Angebote
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen und Verwalten von Angeboten
 

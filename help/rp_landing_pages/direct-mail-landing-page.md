@@ -20,7 +20,7 @@ Direkt-Mail in Adobe Journey Optimizer ermöglicht es Ihnen, Kundinnen und Kunde
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einführung in Direkt-Mail-Kampagnen
 

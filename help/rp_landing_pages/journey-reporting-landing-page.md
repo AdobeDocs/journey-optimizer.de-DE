@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die Leistung von Journeys mithilfe von Metriken, visuellen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Code-basierte Journey-Berichte
 

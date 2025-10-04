@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Stilparameter wie E-Mail-Textkörper, Struktur und Inhalts
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Personalisieren des E-Mail-Hintergrunds
 

@@ -38,7 +38,7 @@ Push-Benachrichtigungen können erstellt werden:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen und Konfigurieren von Push-Benachrichtigungen
 
@@ -48,7 +48,7 @@ Schritt-für-Schritt-Handbuch zum Erstellen und Konfigurieren von Push-Benachric
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Gestalten einer Push-Benachrichtigung
 
@@ -58,7 +58,7 @@ Entdecken Sie, wie Sie Push-Benachrichtigungen mit Medien, Schaltflächen, still
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Vorschau, Validieren und Senden von Push-Benachrichtigungen
 
@@ -68,7 +68,7 @@ Erfahren Sie, wie Sie Push-Benachrichtigungen in der Vorschau anzeigen, validier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfiguration von Push-Benachrichtigungen
 

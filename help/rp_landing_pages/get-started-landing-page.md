@@ -20,7 +20,7 @@ Mit Adobe Journey Optimizer können Unternehmen personalisierte Echtzeit-Kundene
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Wichtigste Funktionen von Adobe Journey Optimizer
 
@@ -60,7 +60,7 @@ Navigieren Sie in der Benutzeroberfläche von Adobe Journey Optimizer und erkund
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Suchen, Filtern und Organisieren von Inhalten in Adobe Journey Optimizer
 

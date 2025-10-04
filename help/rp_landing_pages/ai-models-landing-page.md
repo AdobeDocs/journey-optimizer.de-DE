@@ -20,7 +20,7 @@ KI-Modelle in Adobe Journey Optimizer helfen Ihnen dabei, intelligentere, dateng
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit KI-Modellen
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über KI-Modelle in Adobe Journey Optimizer, ihre Typen, Funkt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Grundlegendes zu Modellen für die automatische Optimierung
 

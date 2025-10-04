@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Erstellen von Testprofilen für Journey-Tests, Inha
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Arbeiten mit berechneten Attributen
 

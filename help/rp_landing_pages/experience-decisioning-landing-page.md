@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen der Entscheidungsfindung in Adobe Journey Optimizer ke
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Leitlinien und Einschränkungen bei der Entscheidungsfindung
 
@@ -60,7 +60,7 @@ Konfigurieren und verwalten Sie Entscheidungselemente, Kataloge und Sammlungen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Erstellen von Entscheidungsregeln
 

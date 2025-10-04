@@ -20,7 +20,7 @@ Bei der Verwaltung von Entscheidungselementen in Adobe Journey Optimizer geht es
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren des Elementkatalogs
 

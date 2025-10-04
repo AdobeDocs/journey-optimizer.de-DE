@@ -30,7 +30,7 @@ Erfahren Sie mehr über Ereignis-, Orchestrierungs- und Aktionsaktivitäten in A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Verwenden allgemeiner Ereignisse
 
@@ -50,7 +50,7 @@ Erkunden Sie, wie Sie auf Tracking-Daten wie Klicks oder Öffnungen von Nachrich
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Ereignisse zur Zielgruppenqualifizierung
 

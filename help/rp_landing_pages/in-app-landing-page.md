@@ -61,7 +61,7 @@ Erkunden Sie Layout-Optionen, personalisieren Sie Inhalte und verwenden Sie die 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=de)
 
 Überprüfen und Senden von In-App-Benachrichtigungen
 

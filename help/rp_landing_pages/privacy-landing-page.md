@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie den Datenschutz in Adobe Journey Optimizer und Adobe Exper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Verwalten von Datenschutzanfragen
 
@@ -50,7 +50,7 @@ Verfolgen und überwachen Sie Aktionen, die mit Adobe Journey Optimizer-Ressourc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Durchführen von Datenlebenszyklusvorgängen
 

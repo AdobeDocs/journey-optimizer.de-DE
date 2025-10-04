@@ -20,7 +20,7 @@ Durch die Implementierung eines IP-Aufwärmplans in Adobe Journey Optimizer wird
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Erste Schritte mit IP-Aufwärmplänen
 
