@@ -76,7 +76,7 @@ Zusätzlich zu diesem „Globalen Standardregelsatz“ können **Regelsätze** e
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Regeltyp"
->abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den **Frequenzlimitierung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als 1 E-Mail- oder SMS-Kommunikation pro Tag. Wählen Sie **Ruhige Stunden** (verfügbar in begrenzter Verfügbarkeit) aus, um zeitbasierte Ausschlüsse zu definieren, um sicherzustellen, dass während bestimmter Zeiträume keine Nachrichten gesendet werden.
+>abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den **Frequenzlimitierung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als 1 E-Mail- oder SMS-Kommunikation pro Tag. Wählen Sie **Ruhige Stunden** (verfügbar in begrenzter Verfügbarkeit) aus, um zeitbasierte Ausschlüsse zu definieren, um sicherzustellen, dass während bestimmter Zeiträume keine Nachrichten gesendet werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
