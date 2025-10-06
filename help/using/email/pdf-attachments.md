@@ -31,7 +31,7 @@ Sie können eine statische PDF-Datei an die E-Mail-Nachrichten anhängen, die Si
 >
 >* Die maximale Dateigröße pro Anhang beträgt 5 MB.
 >
->Für zusätzliche Größen oder Volumen können Sie das Zusatzpaket für PDF-Anhänge erwerben. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Für zusätzliche Größen oder Volumen können Sie das Add-on für PDF-Anhänge erwerben. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Gehen Sie wie folgt vor, um eine PDF-Datei an eine E-Mail-Nachricht anzuhängen.
 

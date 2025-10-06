@@ -6,7 +6,7 @@ version: Journey Orchestration
 source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
 workflow-type: tm+mt
 source-wordcount: '1381'
-ht-degree: 82%
+ht-degree: 98%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 82%
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>Standardmäßig werden Journeys im Kontext einer <b>Profilkennung</b> ausgeführt. Das bedeutet, dass das Profil nicht erneut in eine andere Journey eintreten kann, solange es in einer bestimmten Journey aktiv ist. Um dies zu verhindern, können Sie mit Journey Optimizer <b> zusätzlich zur Profil-ID eine </b>zusätzliche Kennung“ erfassen, z. B. eine Bestell-ID, Abonnement-ID, Verschreibungs-ID.  
+      <p>Standardmäßig werden Journeys im Kontext einer <b>Profilkennung</b> ausgeführt. Das bedeutet, dass das Profil nicht erneut in eine andere Journey eintreten kann, solange es in einer bestimmten Journey aktiv ist. Um dies zu verhindern, können Sie mit Journey Optimizer zusätzlich zur Profilkennung eine <b>zusätzliche Kennung</b> in Ihren Ereignissen erfassen, z. B. eine Bestell-ID, Abonnement-ID oder Rezept-ID.  
       <p>In diesem Beispiel haben wir eine <b>Buchungs-ID</b> als zusätzliche Kennung hinzugefügt.</p>
       <p>Dadurch werden die Journeys im Kontext der Profilkennung ausgeführt, die der zusätzlichen Kennung zugeordnet ist (hier die Buchungs-ID). Für jede Iteration der zusätzlichen Kennung wird eine Instanz der Journey ausgeführt. Dadurch kann dieselbe Profilkennung mehrfach in Journeys eintreten, wenn sie unterschiedliche Buchungen vorgenommen haben.</p>
-      <p>Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzlichen Kennung (z. B. Buchungsnummer, Datum der Rezeptverlängerung, Produkttyp) für die Nachrichtenanpassung nutzen, um hochrelevante Kommunikation sicherzustellen.</p>
+      <p>Darüber hinaus können Sie mit Journey Optimizer die Attribute der zusätzlichen Kennung (z. B. Buchungsnummer, Datum der Rezeptverlängerung, Produkttyp) für die Nachrichtenanpassung nutzen, um eine hochrelevante Kommunikation sicherzustellen. </p>
     </td>
     <td style="vertical-align: top; border: none; text-align: center; width: 40%;">
       <img src="assets/event-supplemental-id.png" alt="Beispiel für eine zusätzliche Kennung" style="max-width:100%;" />
@@ -35,7 +35,7 @@ ht-degree: 82%
 
 ## Leitlinien und Einschränkungen {#guardrails}
 
-* **Unterstützte Journey**: Zusätzliche Kennungen werden für die Journey **ereignisgesteuert** und **Zielgruppe lesen** unterstützt. Sie werden **nicht unterstützt** für Journey zur Zielgruppen-Qualifizierung (d. h. Journey, die mit einer Zielgruppen-Qualifizierungsaktivität beginnen).
+* **Unterstützte Journeys**: Zusätzliche Kennungen werden bei den Journeys **Ereignisgesteuert** und **Zielgruppe lesen** unterstützt. Sie werden **nicht unterstützt** bei Journeys zur Zielgruppenqualifizierung (d. h. bei Journeys, die mit einer Aktivität des Typs „Zielgruppenqualifizierung“ beginnen).
 
 * **Beschränkungen gleichzeitiger Instanzen**: Profile können nicht über mehr als 10 gleichzeitige Journey-Instanzen verfügen.
 
@@ -60,19 +60,19 @@ ht-degree: 82%
 
    * Die zusätzliche Kennung ist deaktiviert, wenn Sie ein Geschäftsereignis verwenden.
    * Die zusätzliche Kennung muss ein Feld aus dem Profil sein (d. h. kein Ereignis-/Kontextfeld).
-   * Bei Journey, die eine gelesene Zielgruppe mit zusätzlichen IDs verwenden, ist die Leserate der Aktivität „Zielgruppe lesen“ für jede Journey-Instanz auf maximal 500 Profile pro Sekunde beschränkt.
+   * Bei Journeys vom Typ „Zielgruppe lesen“, die zusätzliche Kennungen nutzen, ist die Leserate der Aktivität „Zielgruppe lesen“ für jede Journey-Instanz auf maximal 500 Profile pro Sekunde beschränkt.
    * Bei Verwendung von Journey-Dateien mit zusätzlichen IDs vom Typ „Zielgruppe lesen“ werden nur Unified Profile Service-Zielgruppen unterstützt.
 
-## Verhalten bei Ausstiegskriterien mit zusätzlichen IDs {#exit-criteria}
+## Verhalten von Ausstiegskriterien mit zusätzlichen Kennungen {#exit-criteria}
 
-Voraussetzung: Journey für zusätzliche ID aktiviert (über unitäres Ereignis oder Aktivitäten zum Lesen von Zielgruppen)
+Voraussetzung: Journey für zusätzliche Kennung aktiviert (über einziges Ereignis oder Aktivitäten des Typs „Zielgruppe lesen“)
 
-In der folgenden Tabelle wird das Verhalten von Profilen auf einer zusätzlichen ID-aktivierten Journey erläutert, wenn die Beendigungskriterien konfiguriert sind:
+In der folgenden Tabelle wird das Verhalten von Profilen in einer für eine zusätzliche Kennung aktivierten Journey erläutert, wenn Ausstiegskriterien konfiguriert sind:
 
-| Konfiguration der Ausstiegskriterien | Verhalten, wenn Ausstiegskriterien erfüllt sind |
+| Konfiguration von Ausstiegskriterien | Verhalten, wenn Ausstiegskriterien erfüllt sind |
 | ---------------------------- | ---------------------------------- |
-| Basierend auf einem Ereignis ohne zusätzliche ID | Alle Instanzen des entsprechenden Profils in dieser Journey werden beendet. |
-| Basierend auf einem zusätzlichen ID-Ereignis <br/>*Hinweis: Der zusätzliche ID-Namespace muss mit dem des ursprünglichen Knotens übereinstimmen.* | Es wird nur das übereinstimmende Profil + die zusätzliche ID-Instanz beendet. |
+| Basierend auf einem Ereignis ohne zusätzliche Kennung | Alle Instanzen des entsprechenden Profils in dieser Journey werden beendet. |
+| Basierend auf einem Ereignis mit zusätzlicher Kennung <br/>*Hinweis: Der Namespace der zusätzlichen Kennung muss mit dem des ursprünglichen Knotens übereinstimmen.* | Es werden nur die Instanzen des übereinstimmenden Profils und der zusätzlichen Kennung beendet. |
 | Basierend auf einer Zielgruppe | Alle Instanzen des entsprechenden Profils in dieser Journey werden beendet. |
 
 ## Hinzufügen einer zusätzlichen Kennung und Verwenden der Kennung in einer Journey {#add}
@@ -246,4 +246,4 @@ In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attrib
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

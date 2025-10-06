@@ -13,7 +13,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: eb0da59bbdaa16eb381dda965cd06fb8548a945a
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 74%
+ht-degree: 79%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="Für Lookup aktivieren"
->abstract="Durch die Aktivierung eines Datensatzes für die Suche können Sie seine Daten in den Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung von Journey Optimizer nutzen."
+>abstract="Durch die Aktivierung eines Datensatzes für die Suche können Sie dessen Daten mit den Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung von Journey Optimizer nutzen."
 
-Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform-Daten mit Personalisierungs-, Entscheidungs- und Journey-Orchestrierungsfunktionen nutzen. Hierzu müssen auf Einträgen basierende Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben aktiviert werden. 
+Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform mit Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung nutzen. Hierzu müssen auf Einträgen basierende Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben aktiviert werden. 
 
 ## Wichtige Informationen
 
@@ -34,7 +34,7 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 
 * **Keine personenbezogenen Daten in Datensätzen** - Datensätze, die für die Suche aktiviert sind, sollten keine personenbezogenen Daten enthalten.
 
-* &#x200B;
+* 
    * **Löschrisiko** - Datensätze, die in der Personalisierung verwendet werden, sind nicht vor dem Löschen geschützt. Sie müssen verfolgen, welche Datensätze verwendet werden, um sicherzustellen, dass sie nicht entfernt werden.
 
 * **Schematyp** - Datensätze müssen mit einem Schema verknüpft sein, das **NICHT** vom Typ Profil oder Ereignis ist.

@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Konfigurationsschritte
-description: Erfahren Sie, wie Sie modellbasierte Schemata direkt über die Benutzeroberfläche erstellen.
+description: Erfahren Sie, wie Sie direkt über die Benutzeroberfläche modellbasierte Schemata erstellen können.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 76%
+ht-degree: 87%
 
 ---
 
-# Einrichten eines manuellen modellbasierten Schemas {#manual-schema}
+# Manuelles Einrichten eines modellbasierten Schemas {#manual-schema}
 
-Modellbasierte Schemata können direkt über die Benutzeroberfläche erstellt werden und ermöglichen so eine detaillierte Konfiguration von Attributen, Primärschlüsseln, Versionierungsfeldern und Beziehungen.
+Modellbasierte Schemata können direkt über die Benutzeroberfläche erstellt werden, was eine detaillierte Konfiguration von Attributen, Primärschlüsseln, Versionierungsfeldern und Beziehungen ermöglicht.
 
 Im folgenden Beispiel wird das Schema **Mitgliedschaft in Treueprogramm** manuell definiert, um die erforderliche Struktur für orchestrierte Kampagnen zu veranschaulichen.
 
-1. [Manuelles Erstellen eines modellbasierten Schemas](#schema) mithilfe der Adobe Experience Platform-Oberfläche.
+1. [Erstellen Sie manuell ein modellbasiertes Schema](#schema) mithilfe der Adobe Experience Platform-Oberfläche.
 
 1. [Fügen Sie Attribute](#schema-attributes) wie Kunden-ID, Mitgliedschaftsstufe und Statusfelder hinzu.
 
@@ -28,7 +28,7 @@ Im folgenden Beispiel wird das Schema **Mitgliedschaft in Treueprogramm** manuel
 
 1. [Nehmen Sie Daten](ingest-data.md) aus unterstützten Quellen in Ihren Datensatz auf.
 
-➡️ [Weitere Informationen zu manuellen modellbasierten Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Weitere Informationen zu manuellen modellbasierten Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Erstellen Ihres Schemas {#schema}
 
@@ -40,7 +40,7 @@ Erstellen Sie zunächst manuell ein neues modellbasiertes Schema in Adobe Experi
 
 1. Klicken Sie auf **[!UICONTROL Schema erstellen]**.
 
-1. Wählen Sie **[!UICONTROL modellbasiert]** als **Schematyp** aus.
+1. Wählen Sie **[!UICONTROL Modellbasiert]** als **Schematyp** aus.
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -60,7 +60,7 @@ Fügen Sie als Nächstes Attribute hinzu, um die Struktur Ihres Schemas zu defin
 
 Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens ein Identitätsfeld des Typs `String` mit einem zugehörigen Identity-Namespace enthalten. Dadurch wird die Kompatibilität mit den Targeting- und Identitätsauflösungsfunktionen von Adobe Journey Optimizer sichergestellt.
 
-+++Beim Erstellen modellbasierter Schemata in Adobe Experience Platform werden die folgenden Funktionen unterstützt
++++Beim Erstellen modellbasierter Schemata in Adobe Experience Platform werden die folgenden Funktionen unterstützt:
 
 * **ENUM**\
   ENUM-Felder werden sowohl bei der DDL-basierten als auch bei der manuellen Schemaerstellung unterstützt, sodass Sie Attribute mit einem festen Satz zulässiger Werte definieren können.
@@ -69,7 +69,7 @@ Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens
   Label werden auf der Ebene der Schemafelder unterstützt, um Data-Governance-Richtlinien wie Zugriffskontrolle und Nutzungsbeschränkungen durchzusetzen. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) verfügbar.
 
 * **Zusammengesetzter Schlüssel**\
-  Zusammengesetzte Primärschlüssel werden in modellbasierten Schemadefinitionen unterstützt, sodass mehrere Felder zusammen verwendet werden können, um Datensätze eindeutig zu identifizieren.
+  In Definitionen von modellbasierten Schemata werden zusammengesetzte Primärschlüssel unterstützt, sodass sich mehrere Felder zusammen verwenden lassen, um Einträge eindeutig zu identifizieren.
 
 +++
 
