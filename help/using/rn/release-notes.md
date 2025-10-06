@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0d32f1f79314694a34e1e996ed405a4484dc863d
+source-git-commit: f534edb8d4709c74f42bf6b2456d83de128196eb
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 90%
+source-wordcount: '1768'
+ht-degree: 88%
 
 ---
 
@@ -22,28 +22,30 @@ ht-degree: 90%
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Versionshinweise für September 2025 {#25-9-rn}
+## Updates Oktober &#39;25 {#25-10-rn}
 
-**Veröffentlichungsdatum**: 23.–24. September 2025
-
-### Neue Funktionen {#sept-25-9-features}
-
-<!-- table>
+<table>
 <thead>
 <tr>
-<th><strong>Public API to retrieve journeys</strong><br/></th>
+<th><strong>Öffentliche API zum Abrufen von Journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A new Journey Optimizer API is now available to retrieve journeys and their associated objects such as campaigns and surfaces.</p>
-<p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">detailed documentation</a></p>
-<p>Availability date: Sept 25, 2025</p>
+<p>Eine neue Journey Optimizer-API ist jetzt verfügbar, um Journey und ihre zugehörigen Objekte wie Kampagnen und Oberflächen abzurufen.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 25. September 2025</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
+
+## Versionshinweise für September 2025 {#25-9-rn}
+
+**Veröffentlichungsdatum**: 23.–24. September 2025
+
+### Neue Funktionen {#sept-25-9-features}
 
 <table>
 <thead>
@@ -62,7 +64,7 @@ ht-degree: 90%
 <li><strong>Unterstützung für Multi-Armed Bandit (MAB, mehrarmiger Bandit) in Journey Optimizer:</strong> Maximieren Sie die Wirkung und reduzieren Sie unnötigen Traffic mit Multi-Armed-Bandit-Experimenten. Anstatt Zielgruppen gleichmäßig aufzuteilen, weist MAB in Echtzeit automatisch den leistungsstärksten Varianten mehr Besuchende zu. Auf diese Weise können Sie mehr Kundinnen und Kunden bessere Erlebnisse bieten und gleichzeitig Erkenntnisse darüber gewinnen, was funktioniert.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/experiment-accelerator.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 23. September 2025</p>
+<p>Verfügbarkeitsdatum: 3. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
