@@ -52,7 +52,7 @@ Es gibt an:
 
 Beim Organisieren von Schemata oder Tabellen in einem modellbasierten Datenmodell geht es um die Strukturierung Ihrer Daten in verschiedenen Tabellen. Stellen Sie sicher, dass jede Tabelle einen Entitäts-/Schematyp speichert.
 
-➡️ [Weitere Informationen zu Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Weitere Informationen zu Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Implementierungsschritte {#implementation}
 
