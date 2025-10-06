@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 56a7f3be7777e1c9f73a1c473bd6babf952333f1
+source-git-commit: ed0c1b9f219b3b855aaac1a27b5ceb704d6f6d5e
 workflow-type: tm+mt
-source-wordcount: '2745'
-ht-degree: 100%
+source-wordcount: '2931'
+ht-degree: 93%
 
 ---
 
@@ -378,6 +378,39 @@ Die Fragment-ID und der Referenzschlüssel werden später im Abschnitt **[!UICON
 >[!WARNING]
 >
 >Wenn der Fragmentschlüssel falsch oder der Fragmentinhalt ungültig ist, schlägt das Rendern fehl und verursacht einen Fehler im Edge-Aufruf.
+
+#### Schutzmechanismen bei der Verwendung von Fragmenten {#fragments-guardrails}
+
+**Entscheidungselement- und Kontextattribute**
+
+Entscheidungselement- und Kontextattribute werden in [!DNL Journey Optimizer] Fragmenten nicht standardmäßig unterstützt. Sie können jedoch stattdessen globale Variablen verwenden, wie unten beschrieben.
+
+Angenommen, Sie möchten die Variable *sport* in Ihrem Fragment verwenden.
+
+1. Verweisen Sie auf diese Variable im Fragment, z. B.:
+
+   ```
+   Elevate your practice with new {{sport}} gear!
+   ```
+
+1. Definieren Sie die Variable mit der Funktion **Let** im Block Entscheidungsrichtlinie . Im folgenden Beispiel wird *sport* mit dem Entscheidungsattribut definiert:
+
+   ```
+   {#each decisionPolicy.13e1d23d-b8a7-4f71-a32e-d833c51361e0.items as |item|}}
+   {% let sport = item._cjmstage.value %}
+   {{fragment id = get(item._experience.decisioning.offeritem.contentReferencesMap, "placement1").id }}
+   {{/each}}
+   ```
+
+**Inhaltsvalidierung von Entscheidungsfragmenten**
+
+* Aufgrund der Dynamik dieser Fragmente wird bei Verwendung in einer Kampagne die Nachrichtenvalidierung während der Erstellung des Kampagneninhalts für Fragmente übersprungen, auf die in Entscheidungselementen verwiesen wird.
+
+* Die Validierung des Fragmentinhalts erfolgt nur während der Erstellung und Veröffentlichung des Fragments.
+
+* Im Fall von JSON-Fragmenten ist die Gültigkeit des JSON-Objekts nicht sichergestellt. Stellen Sie sicher, dass der Ausdrucksfragmentinhalt ein gültiges JSON ist, damit er in Entscheidungselementen verwendet werden kann.
+
+Zur Laufzeit wird der Kampagneninhalt (einschließlich des Fragmentinhalts aus Entscheidungselementen) validiert. Im Falle eines Validierungsfehlers wird die Kampagne nicht gerendert.
 
 ## Letzte Schritte {#final-steps}
 
