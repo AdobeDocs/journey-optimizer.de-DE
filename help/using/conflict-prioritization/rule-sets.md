@@ -76,7 +76,7 @@ Zusätzlich zu diesem „Globalen Standardregelsatz“ können **Regelsätze** e
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Regeltyp"
->abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den **Frequenzlimitierung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als 1 E-Mail- oder SMS-Kommunikation pro Tag. Wählen Sie **Ruhige Stunden** (verfügbar in begrenzter Verfügbarkeit) aus, um zeitbasierte Ausschlüsse zu definieren, um sicherzustellen, dass während bestimmter Zeiträume keine Nachrichten gesendet werden."
+>abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den **Frequenzlimitierung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als 1 E-Mail- oder SMS-Kommunikation pro Tag. Wählen Sie **Ruhige Stunden** (verfügbar in begrenzter Verfügbarkeit) aus, um zeitbasierte Ausschlüsse zu definieren, um sicherzustellen, dass während bestimmter Zeiträume keine Nachrichten gesendet werden.
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -174,4 +174,4 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
