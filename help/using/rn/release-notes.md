@@ -42,7 +42,7 @@ ht-degree: 88%
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../email/pdf-attachments.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 30. September 2025</p-->
+<p>Verfügbarkeitsdatum: 30. September 2025&lt;/p-->
 </td>
 </tr>
 </tbody>
