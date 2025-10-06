@@ -10,9 +10,9 @@ level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1303'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 ## Journey-Ressource {#journey-capability}
 
-* **[!DNL Manage journeys]** der Berechtigung auf hoher Ebene können Benutzende neue Journey erstellen und sie bearbeiten/löschen/stoppen/anhalten sowie auf die Objekte zugreifen, die auf der Journey-Arbeitsfläche zum Erstellen des Journey-Flusses verwendet werden.
+* Die Berechtigung **[!DNL Manage journeys]** auf hoher Ebene ermöglicht es Benutzenden, neue Journeys zu erstellen und bestehende Journeys zu bearbeiten/löschen/stoppen bzw. anzuhalten sowie auf die Objekte zuzugreifen, die zur Erstellung des Journey-Flusses in der Journey-Arbeitsfläche verwendet werden.
 
   +++ Diese Berechtigung beinhaltet die folgenden Berechtigungen auf niedriger Ebene:  
 

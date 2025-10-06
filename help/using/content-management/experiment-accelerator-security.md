@@ -10,19 +10,19 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: b7c00cdc-430c-40a2-90c9-6dd891d2563b
 source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 # Datennutzung in KI mit Journey Optimizer Experimentation Accelerator{#experiment-accelerator-security}
 
-Mit **Adobe Journey Optimizer Journey Optimizer Experimentation Accelerator** können Sie automatisch Einblicke gewinnen und Möglichkeiten zur Verbesserung Ihrer Experimente und Experimentierprogramme empfehlen. Zur Bereitstellung dieser Empfehlungen nutzt die Lösung KI und maschinelles Lernen. Diese Anweisung verdeutlicht, wie die Daten Ihrer Kunden in **Journey Optimizer Experimentation Accelerator verwendet**.
+Mit **Adobe Journey Optimizer Experimentation Accelerator** können Sie automatisch Erkenntnisse gewinnen und Möglichkeiten zur Verbesserung Ihrer Experimente und Experimentprogramme empfehlen. Zur Bereitstellung dieser Empfehlungen nutzt die Lösung KI und maschinelles Lernen. Diese Anweisung verdeutlicht, wie die Daten Ihrer Kundinnen und Kunden in **Journey Optimizer Experimentation Accelerator** verwendet werden.
 
 ## Welche Daten verwendet Journey Optimizer Experimentation Accelerator?
 
-Derzeit gibt es drei Datentypen, die von **Journey Optimizer Experimentation Accelerator verwendet**:
+Derzeit gibt es drei Datentypen, die von **Journey Optimizer Experimentation Accelerator** verwendet werden:
 
 * **Metadaten zu Experimenten**: Experimentname, die Definition der im Experiment verwendeten Zielgruppe und die Abwandlungen im Experiment, z. B. Name, Aufspaltungsprozentsätze, Ort oder Oberfläche, in der das Experiment bereitgestellt wird.
 
@@ -32,9 +32,9 @@ Derzeit gibt es drei Datentypen, die von **Journey Optimizer Experimentation Acc
 
 ## Was macht Journey Optimizer Experimentation Accelerator mit diesen Daten?
 
-**Journey Optimizer Experimentation Accelerator** nimmt den Inhalt für jede Behandlung und erstellt eine Einbettung, d. h. eine mathematische Darstellung des Inhalts, und korreliert diese Einbettungen dann mit der Leistung der Behandlungen. Dieser Prozess ermöglicht die Extraktion der Inhaltsattribute, die am besten abgeschnitten haben, für eine zukünftige Verwendung. Diese Attribute werden dann in ein von Adobe gehostetes Large Language Model (LLM) aufgenommen, das sie in für Menschen lesbare Anweisungen umwandelt, die dazu dienen, Erkenntnisse zu generieren und Opportunities vorzuschlagen.
+**Journey Optimizer Experimentation Accelerator** nimmt die Inhalte für die einzelnen Abwandlungen und erstellt eine Einbettung (d. h. eine mathematische Darstellung des Inhalts) und korreliert diese Einbettungen dann mit der Leistung der Abwandlungen. Dieser Prozess ermöglicht die Extraktion der Inhaltsattribute, die am besten abgeschnitten haben, für eine zukünftige Verwendung. Diese Attribute werden dann in ein von Adobe gehostetes Large Language Model (LLM) aufgenommen, das sie in für Menschen lesbare Anweisungen umwandelt, die dazu dienen, Erkenntnisse zu generieren und Opportunities vorzuschlagen.
 
-## Welche Einschränkungen hat Journey Optimizer Experimentation Accelerator in Bezug auf die verwendeten Daten?
+## Welche Einschränkungen weist Journey Optimizer Experimentation Accelerator in Bezug auf die verwendeten Daten auf?
 
 Jede Kundin bzw. jeder Kunde wird einer bestimmten Organisation und Sandbox zugewiesen. Für jede Sandbox wird ein eigenes Modell trainiert. Wenn eine Sandbox gelöscht wird, werden alle zugehörigen Daten, Signale und Modelle dauerhaft entfernt.
 
@@ -48,4 +48,4 @@ Nein. **Journey Optimizer Experimentation Accelerator** empfiehlt nur, was geän
 
 ## Besteht ein Risiko für die Daten- oder Systemstabilität?
 
-**Journey Optimizer Experimentation Accelerator** nimmt nur Daten auf und analysiert sie, was Erkenntnisse und Empfehlungen für zukünftige Tests liefert. Das Tool hat keine Zugriffsberechtigung zum Ändern von Testeinstellungen. Alle im Tool generierten Vorschläge werden zur Implementierung an Target und Journey Optimizer gesendet. So wird sichergestellt, dass sie keine Auswirkungen auf die aktuellen Aktivitäten von Kundschaft haben.
+**Journey Optimizer Experimentation Accelerator** nimmt nur Daten auf und analysiert sie, wodurch Erkenntnisse und Empfehlungen für zukünftige Tests entstehen. Das Tool hat keine Zugriffsberechtigung zum Ändern von Testeinstellungen. Alle im Tool generierten Vorschläge werden zur Implementierung an Target und Journey Optimizer gesendet. So wird sichergestellt, dass sie keine Auswirkungen auf die aktuellen Aktivitäten von Kundschaft haben.

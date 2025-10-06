@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: a766eee95490660b013cae5378903d0ab3001e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1538'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -75,39 +75,39 @@ Systemgenerierte Ereignisse: Die Pipeline filtert Ereignisse mit einer Payload, 
 
 ## Über den Journey-Ereignisdurchsatz {#event-thoughput}
 
-Adobe Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 Journey-Ereignissen pro Sekunde auf Unternehmensebene über alle Sandboxes hinweg. Dieses Kontingent gilt für alle Ereignisse, die in aktiven Journey verwendet werden, darunter **Live**, **Dry Run**, **Closed** und **Paused** Journey. Wenn dieses Kontingent erreicht wird, werden neue Ereignisse mit einer Verarbeitungsrate von 5.000 pro Sekunde in die Warteschlange gestellt. Die maximale Zeit, die ein Ereignis in der Warteschlange verbringen kann, beträgt (**Stunden**.
+Adobe Journey Optimizer unterstützt auf Organisationsebene ein Spitzenvolumen von 5.000 Journey-Ereignissen pro Sekunde über alle Sandboxes hinweg. Dieses Kontingent gilt für alle Ereignisse, die in aktiven Journeys genutzt werden, darunter in Journeys vom Typ **Live**, **Probelauf**, **Geschlossen** und **Angehalten**. Sobald dieses Kontingent erreicht wird, werden neue Ereignisse mit einer Verarbeitungsrate von 5.000 pro Sekunde in die Warteschlange gestellt. Die maximale Zeit, die ein Ereignis in der Warteschlange verbringen kann, beträgt ** 24Stunden**.
 
-Die folgenden Ereignistypen werden für das Kontingent von 5.000 TPS gezählt:
+Die folgenden Ereignistypen werden auf das Kontingent von 5.000 TPS angerechnet:
 
-* **Externe unitäre Ereignisse**: Umfasst sowohl regelbasierte als auch systemgenerierte Ereignisse. Wenn dasselbe Raw-Ereignis für mehrere Regeldefinitionen qualifiziert ist, zählt jede qualifizierte Regel als separates Ereignis. Weitere Informationen finden Sie unten.
+* **Externe unitäre Ereignisse**: Umfasst sowohl regelbasierte als auch systemgenerierte Ereignisse. Wenn sich ein Raw-Ereignis für verschiedene Regeldefinitionen qualifiziert, zählt jede qualifizierte Regel als ein separates Ereignis. Weitere Informationen finden Sie unten.
 
-* **Zielgruppen-Qualifizierungsereignisse**: Wenn dieselbe Streaming-Zielgruppe in mehreren Journey verwendet wird, wird jede Verwendung separat gezählt. Wird dieselbe Zielgruppe beispielsweise in einer Zielgruppen-Qualifizierungsaktivität in zwei Journey verwendet, werden zwei Ereignisse gezählt.
+* **Zielgruppen-Qualifizierungsereignisse**: Wenn dieselbe Streaming-Zielgruppe in verschiedenen Journeys zum Einsatz kommt, wird jede Verwendung separat gezählt. Wird dieselbe Zielgruppe beispielsweise in einer Zielgruppen-Qualifizierungsaktivität in zwei Journeys verwendet, werden zwei Ereignisse gezählt.
 
-* **Reaktionsereignisse**: Ereignisse, die durch Profilreaktionen (geöffnete E-Mails, angeklickte E-Mails usw.) in einem Journey ausgelöst werden.
+* **Reaktionsereignisse**: Ereignisse, die durch Profilreaktionen (geöffnete E-Mails, angeklickte E-Mails usw.) in einer Journey ausgelöst werden.
 
 * **Geschäftsereignisse**: Ereignisse, die nicht an ein bestimmtes Profil gebunden sind, sondern an ein geschäftsbezogenes Ereignis.
 
-* **Analytics-Ereignisse**: Wenn die [Integration mit Adobe Analytics in Trigger-Journey](about-analytics.md) aktiviert wurde, sind diese Ereignisse auch enthalten.
+* **Analytics-Ereignisse**: Wenn die [Integration mit Adobe Analytics zum Auslösen von Journeys](about-analytics.md) aktiviert wurde, sind diese Ereignisse ebenfalls Teil des Umfangs.
 
-* **Ereignisse fortsetzen**: Technisches Ereignis, das ausgelöst wird, wenn ein Profil von einer angehaltenen Journey aus fortgesetzt wird. Erfahren Sie mehr über [Fortsetzen pausierter Journey](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
+* **Fortsetzungsereignisse**: Technisches Ereignis, das ausgelöst wird, wenn ein Profil von einer angehaltenen Journey aus fortgesetzt wird. Erfahren Sie mehr über das [Fortsetzen angehaltener Journeys](../building-journeys/journey-pause.md#how-to-resume-a-paused-journey).
 
-* **Warteknoten-Abschlussereignisse**: Wenn ein Profil einen Warteknoten verlässt, wird ein technisches Ereignis generiert, um das Journey fortzusetzen.
+* **Abschlussereignisse von Warteknoten**: Wenn ein Profil einen Warteknoten verlässt, wird ein technisches Ereignis generiert, um die Journey fortzusetzen.
 
 >[!NOTE]
 >
->Mit Ausnahme der Warte- und Fortsetzungsereignisse werden alle anderen Ereignistypen ebenfalls auf das Kontingent angerechnet, wenn sie in Journey auf der Grundlage von „Zielgruppen lesen“ verwendet werden.
+>Mit Ausnahme von Warte- und Fortsetzungsereignissen werden alle anderen Ereignistypen ebenfalls auf das Kontingent angerechnet, wenn sie in Journeys auf Grundlage von „Zielgruppen lesen“ verwendet werden.
 
-### Über Rohereignisse, die sich für mehrere Regeldefinitionen qualifizieren
+### Informationen zu Raw-Ereignissen, die sich für verschiedene Regeldefinitionen qualifizieren
 
-Dasselbe Raw-Ereignis kann für mehrere Regeldefinitionen in Journey qualifiziert werden. Wenn ein Ereignis im Abschnitt **Administration** für dasselbe Ereignisschema konfiguriert wird, können mehrere Ereignisregeln definiert werden. Angenommen, wir haben ein Kaufereignis mit den Feldern Stadt und Kaufwert. Betrachten wir die folgenden Szenarien:
+Ein und dasselbe Raw-Ereignis kann sich in Journeys für verschiedene Regeldefinitionen qualifizieren. Wenn ein Ereignis im Abschnitt **Administration** für dasselbe Ereignisschema konfiguriert wird, können verschiedene Ereignisregeln definiert werden. Angenommen, es ist ein Kaufereignis mit den Feldern „city“ und „purchaseValue“ vorhanden. Betrachten wir die folgenden Szenarien:
 
-1. Ein Ereignis **E1** mit dem Namen `newYorkPurchases` wird mit einer Regeldefinition erstellt, die dieses `city=='New York'` aussagt. Dieses Ereignis kann in 10 Journey verwendet werden, wird aber immer noch nur als ein Ereignis gezählt, wenn es kommt.
+1. Ein Ereignis **E1** mit dem Namen `newYorkPurchases` wird mit einer Regeldefinition erstellt, die `city=='New York'` lautet. Dieses Ereignis kann in 10 Journeys verwendet werden, wird aber dennoch nur als ein Ereignis gezählt, wenn es auftritt.
 
-1. Nehmen wir nun an, dass auch ein Ereignis **E2** namens `highValuePurchases` mit `purchaseValue > 1000` als Regeldefinition erstellt wird, und zwar im selben Ereignisschema wie **E1**. In diesem Fall wird dasselbe eingehende Ereignis anhand von zwei Regeln bewertet: `newYorkPurchases` und `highValuePurchases`. Nun kann es vorkommen, dass ein Kauf in New York auch ein hochwertiger Kauf ist.
+1. Nehmen wir nun an, dass darüber hinaus ein Ereignis **E2** mit dem Namen `highValuePurchases` mit `purchaseValue > 1000` als Regeldefinition erstellt wird, und zwar im selben Ereignisschema wie **E1**. In dem Fall wird dasselbe eingehende Ereignis anhand von zwei Regeln bewertet: `newYorkPurchases` und `highValuePurchases`. Nun kann es vorkommen, dass ein Kauf in New York auch ein hochwertiger Kauf ist.
 
-   In diesem Fall erstellt Journey Optimizer aus demselben eingehenden Ereignis zwei Ereignisse, **E1** und **E2**, wodurch dieses einzelne eingehende Ereignis als zwei Ereignisse gezählt wird.
+   In dem Fall erstellt Journey Optimizer aus demselben eingehenden Ereignis zwei Ereignisse (**E1** und **E2**), wodurch das einzelne eingehende Ereignis als zwei Ereignisse gezählt wird.
 
-   Beachten Sie, dass diese Ereignisse gezählt werden, wenn sie auf einer aktiven Journey verwendet werden, einschließlich **Live**, **Dry Run**, **Closed** und **Paused** Journey.
+   Beachten Sie, dass solche Ereignisse gezählt werden, sobald sie in einer aktiven Journey verwendet werden, darunter in Journeys vom Typ **Live**, **Probelauf**, **Abgeschlossen** und **Angehalten**.
 
 ## Aktualisieren und Löschen eines Ereignisses {#update-event}
 
@@ -120,7 +120,7 @@ Jedes Ereignis, das in **Live**-, **Entwurfs**- oder **geschlossenen** Journeys 
 
 Erfahren Sie, wie Sie ein Ereignis konfigurieren und den Streaming-Endpunkt und die Payload für ein Ereignis angeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431515?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Machen Sie sich mit den entsprechenden Anwendungsfällen für Geschäftsereignisse vertraut. Erfahren Sie, wie Sie mithilfe eines Geschäftsereignisses eine Journey erstellen und welche Best Practices anzuwenden sind.
 

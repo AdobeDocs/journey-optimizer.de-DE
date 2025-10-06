@@ -6,9 +6,9 @@ description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Ka
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu mit Adobe Journey Optimizer orchestrierten Kampagnen.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ Was ist Kampagnenorchestrierung?
 
@@ -176,13 +176,13 @@ In der Kampagnenorchestrierung wird Ad-hoc-Segmentierung als „Live-Segmentieru
 
 +++ Greift die Kampagnenorchestrierung nur auf Daten zu, die per Batch geladen werden, oder kann sie auch aktualisierte Echtzeit-Tabellen (wie Analytics-Daten) abfragen?
 
-Journey Optimizer Campaign Orchestration kann zunächst eine Ad-hoc-Abfrage auf Basis modellbasierter Schemata erstellen. Modellbasierte Schemata unterstützen derzeit nur Batch-Quellen. Darüber hinaus unterstützt sie „Zielgruppe lesen“ aus jeder Art von Adobe Experience Platform-Zielgruppe.
+Die Kampagnenorchestrierung von Journey Optimizer kann zunächst eine Ad-hoc-Abfrage auf der Grundlage von modellbasierten Schemata erstellen. Modellbasierte Schemata unterstützen derzeit nur Batch-Quellen. Darüber hinaus unterstützt sie „Zielgruppe lesen“ aus jeder Art von Adobe Experience Platform-Zielgruppe.
 
 +++
 
 +++ Unterstützen orchestrierte Kampagnen die Entscheidungsfindung?
 
-Ja. Die Entscheidungsfindung kann relationale Daten aus orchestrierten Kampagnen verwenden. Sobald modellbasierte Schemata mit XDM-Schemata verbunden sind, können XDM-Daten bei der Entscheidungsfindung verwendet werden.
+Ja. Die Entscheidungsfindung kann relationale Daten aus orchestrierten Kampagnen verwenden. Sobald ein modellbasiertes Schema mit XDM-Schemata verbunden ist, können XDM-Daten bei der Entscheidungsfindung verwendet werden.
 
 +++
 
@@ -254,9 +254,9 @@ Orchestrierte Kampagnen unterstützen vordefinierte Filter: Sie können eine Abf
 
 ## Weitere Ressourcen
 
-Weitere Informationen und Aktualisierungen finden Sie in den folgenden Ressourcen:
+Detailliertere Informationen und Updates finden Sie in den folgenden Ressourcen:
 
-* [Leitplanken und Einschränkungen für koordinierte Kampagnen](../orchestrated/guardrails.md)
+* [Leitlinien und Einschränkungen bei orchestrierten Kampagnen](../orchestrated/guardrails.md)
 * [Erste Schritte mit Schemata und Datensätzen in orchestrierten Kampagnen](../orchestrated/gs-schemas.md)
-* [Erstellen der ersten orchestrierten Kampagne](../orchestrated/gs-campaign-creation.md)
+* [Erstellen Ihrer ersten orchestrierten Kampagne](../orchestrated/gs-campaign-creation.md)
 * [Produktbeschreibung zu Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

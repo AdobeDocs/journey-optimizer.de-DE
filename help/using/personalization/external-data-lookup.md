@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1202'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Nachdem die Aktion definiert wurde, kann sie wie folgt verwendet werden:
 * Zum Abrufen von Inhalten in einer Aktivität mit benutzerdefinierter Aktion in Journeys
 * Zum Abrufen von Daten in einer eingehenden Aktion in einem externalDataLookup-Helper in Journeys und Inbound-Kampagnen.
 
-## Schutzmechanismen und Einschränkungen
+## Leitlinien und Einschränkungen
 
 Weitere Informationen finden Sie unter „Benutzerdefinierte Aktionen“ in [!DNL Journey Optimizer]-Inbound-Kanäle, Kampagnen und Journeys#Sicherheitsvorkehrungen und Richtlinien.
 
@@ -172,7 +172,7 @@ Sie können die Elemente auch abrufen und in einer Schleife durchlaufen, um ein 
 
 ### Timeouts und Fehlerbehandlung
 
-[!DNL Journey Optimizer] verwendet beim Aufruf des externen Endpunkts eine strikte Zeitüberschreitung, um die Leistungsmerkmale von Adobe Experience Platform Edge Network mit niedriger Latenz und hohem Durchsatz beizubehalten.
+[!DNL Journey Optimizer] verwendet beim Aufruf des externen Endpunkts ein striktes Timeout, um für das Adobe Experience Platform Edge Network eine Leistung mit niedriger Latenz und hohem Durchsatz zu gewährleisten.
 
 Wenn beim Erreichen des Endpunkts ein Timeout oder ein anderer Fehler auftritt, ist die Ergebnisvariable leer. Alle Verweise auf Attribute innerhalb der Ergebnisvariablen sind in diesem Fall ebenfalls leer. Wenn Sie das Attribut einfach im Inhalt anzeigen, wird es als leer angezeigt. Wenn Sie versuchen, ein Array-Attribut im Ergebnis zu durchlaufen, werden keine Elemente zurückgegeben.
 
@@ -198,7 +198,7 @@ Oder Sie können einen gesamten Inhaltsblock wie folgt bedingt rendern:
 
 ### Debugging
 
-Um das Debugging zu erleichtern, werden Zeitüberschreitungs- und Fehlerdetails für die externe Datensuche in die Edge Delivery-Ansicht in Adobe Experience Platform Assurance aufgenommen. Wenn für einen externalDataLookup-Helper in einer eingehenden Aktion nicht die erwarteten Ergebnisse angezeigt werden, können Sie eine Assurance-Sitzung starten, einen [!DNL Journey Optimizer]-Aufruf aus einer Web- oder Mobile-Implementierung initiieren und die Edge Delivery-Ansicht verwenden, um Details zum Timeout oder zu Fehlern zu ermitteln.
+Zur Unterstützung beim Debugging werden in der Edge Delivery-Ansicht in Adobe Experience Platform Assurance Timeout- und Fehlerdetails für die Suche nach externen Daten angezeigt. Wenn für einen externalDataLookup-Helper in einer eingehenden Aktion nicht die erwarteten Ergebnisse angezeigt werden, können Sie eine Assurance-Sitzung starten, einen [!DNL Journey Optimizer]-Aufruf aus einer Web- oder Mobile-Implementierung initiieren und die Edge Delivery-Ansicht verwenden, um Details zum Timeout oder zu Fehlern zu ermitteln.
 
 Beispiel:
 

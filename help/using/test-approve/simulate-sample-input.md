@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
 source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,14 +30,14 @@ Alle Attribute, die in Ihren Inhalten für die Personalisierung verwendet werden
 >
 >Varianten dienen nur zu Testzwecken für Ihre aktuellen Inhalte. Sie werden nicht in Adobe Experience Platform, sondern in Ihrer Benutzersitzung im Browser gespeichert, d. h., sie werden nicht angezeigt, wenn Sie sich abmelden oder von einem anderen Gerät aus arbeiten.
 
-## Schutzmechanismen und Einschränkungen {#limitations}
+## Leitlinien und Einschränkungen {#limitations}
 
 Bevor Sie mit dem Testen Ihrer Inhalte unter Verwendung von Beispiel-Eingabedaten beginnen, sollten Sie die folgenden Leitlinien und Voraussetzungen berücksichtigen.
 
-* **Kanäle** - Die Simulation von Inhaltsvarianten ist verfügbar für:
+* **Kanäle**: Eine Simulation von Inhaltsvarianten ist verfügbar für:
 
-   * die Kanäle E-Mail, SMS und Push-Benachrichtigung;
-   * alle eingehenden Kanäle (Web, Code-basiertes Erlebnis, In-App, Inhaltskarten).
+   * die Kanäle E-Mail, SMS und Push-Benachrichtigungen;
+   * alle Inbound-Kanäle (Web, Code-basiertes Erlebnis, In-App, Inhaltskarten).
 
 * **Unterstützte Funktionen**: Inhaltsvarianten können mit [!DNL Journey Optimizer]-Funktionen für mehrsprachige Inhalte und Inhaltsexperimente verwendet werden. Auf diese Weise können Sie Nachrichten in mehreren Sprachen testen und den Inhalt durch Experimentieren optimieren.
 
@@ -45,7 +45,7 @@ Bevor Sie mit dem Testen Ihrer Inhalte unter Verwendung von Beispiel-Eingabedate
 
   >[!NOTE]
   >
-  >Zurzeit sind Inbox Rendering und Spam-Berichte in der aktuellen Version nicht verfügbar. Um diese Funktionen zu verwenden, wählen Sie in Ihrem Inhalt die Schaltfläche **[!UICONTROL Inhalt simulieren]** aus und greifen Sie auf die vorherige Benutzeroberfläche zu.
+  >Zurzeit sind Inbox-Rendering- und Spam-Berichte im aktuellen Erlebnis nicht verfügbar. Um diese Funktionen zu verwenden, wählen Sie in Ihrem Inhalt die Schaltfläche **[!UICONTROL Inhalt simulieren]** aus und greifen Sie auf die vorherige Benutzeroberfläche zu.
 
 * **Attribute**: Sowohl Profil- als auch kontextuelle Attribute werden unterstützt.
 

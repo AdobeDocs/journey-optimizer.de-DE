@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie Daten aus unterstützten Quellen wie SFTP, Cl
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Die folgenden Quellen werden für die Verwendung mit orchestrierten Kampagnen un
 </tbody>
 </table>
 
-## Richtlinien für die modellbasierte Schemadaten-Hygiene {#cdc}
+## Richtlinien für die Datenhygiene bei modellbasierten Schemata {#cdc}
 
 Bei Datensätzen, bei denen **[!UICONTROL Änderungsdatenerfassung]** aktiviert ist, werden alle Datenänderungen, einschließlich Löschungen, automatisch vom Quellsystem in Adobe Experience Platform gespiegelt.
 
@@ -105,9 +105,9 @@ Dieses Beispiel zeigt, wie sich ein Datenfluss konfigurieren lässt, der struktu
 
    ![](assets/S3_config_1.png)
 
-1. Aktivieren Sie auf der **[!UICONTROL Datensatzdetails]** die Option **[!UICONTROL Änderungsdatenerfassung aktivieren]**, um nur Datensätze anzuzeigen, die modellbasierten Schemata zugeordnet sind und sowohl einen Primärschlüssel als auch einen Versionsdeskriptor enthalten.
+1. Aktivieren Sie auf der Seite **[!UICONTROL Datensatz-Details]** die Option **[!UICONTROL Änderungsdatenerfassung aktivieren]**, um nur Datensätze anzuzeigen, die modellbasierten Schemata zugeordnet sind und sowohl einen Primärschlüssel als auch einen Versionsdeskriptor aufweisen.
 
-[Erfahren Sie mehr über Richtlinien für modellbasierte Schemata und Datenhygiene](#cdc)
+[Weitere Informationen zu Richtlinien für modellbasierte Schemata und Datenhygiene](#cdc)
 
    >[!IMPORTANT]
    >

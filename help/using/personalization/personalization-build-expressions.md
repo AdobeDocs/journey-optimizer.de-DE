@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 09b56bacb61f64e5292a6c1b9b7706b9fa390d0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1565'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Beispiele für personalisierte URLs:
 >
 >Leerzeichen werden in den Personalisierungs-Token, die in URLs verwendet werden, nicht unterstützt.
 
-Da für eine Reihe von Kunden nur eine begrenzte Verfügbarkeit verfügbar ist, unterstützt Journey Optimizer auch die vollständige/Basis-URL-Personalisierung. Beispiel:
+Journey Optimizer unterstützt auch vollständige/Basis-URL-Personalisierung. Diese Funktion ist derzeit für bestimmte Kundinnen und Kunden eingeschränkt verfügbar. Beispiel:
 
 ```
 <a href="{{profile.social.link}}" />

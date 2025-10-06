@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer Experimentation Accelerator-Metriken
+title: Metriken zu Journey Optimizer Experimentation Accelerator
 description: Verbessern Ihrer Fähigkeit, Experimente effektiv durchzuführen und Erkenntnisse zu gewinnen
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
 source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -40,9 +40,9 @@ Das Diagramm **[!UICONTROL Inkrementell im Zeitverlauf]** bietet eine visuelle A
 
 Folgende Zusammenfassungswerte stehen als Kurzreferenz zur Verfügung:
 
-* **[!UICONTROL Gesamt]**: Der kumulative Wert der ausgewählten Metrik über den Berichtszeitraum.
+* **[!UICONTROL Gesamt]**: Der kumulative Wert der ausgewählten Metrik über den Berichtszeitraum hinweg.
 
-* **[!UICONTROL Durchschnitt]**: Der typische Wert der Metrik, der für den ausgewählten Zeitraum berechnet wird. Durch den Ausgleich von täglichen oder wöchentlichen Schwankungen liefert sie ein klareres Bild der normalen Leistung und kann als Ausgangsbasis für Vergleiche verwendet werden.
+* **[!UICONTROL Durchschnitt]**: Der typische Wert der Metrik, berechnet für den ausgewählten Zeitraum. Durch den Ausgleich von täglichen oder wöchentlichen Schwankungen liefert er ein klareres Bild der normalen Leistung und kann als Ausgangsbasis für Vergleiche verwendet werden.
 
 * **[!UICONTROL Konversionsrate]**: Prozentsatz der Profile, die die gewünschte Aktion (z. B. Kauf, Anmeldung) abgeschlossen haben, nachdem sie die Abwandlung gesehen haben.
 
@@ -52,10 +52,10 @@ Jeder Wert enthält eine prozentuale Änderung gegenüber dem vorherigen Zeitrau
 
 In diesem Abschnitt werden alle aktiven Experimente innerhalb des ausgewählten Zeitraums (letzte 90 Tage, letzte 30 Tage oder letzte 7 Tage) angezeigt und ihr Beitrag zur Metrik hervorgehoben.
 
-Die folgenden Metriken sind verfügbar:
+Folgende Metriken sind verfügbar:
 
 * **[!UICONTROL Steigerung]**: Messung der prozentualen Verbesserung der Konversionsrate einer bestimmten Abwandlung im Vergleich zur Baseline.
 
 * **[!UICONTROL Konfidenz]**: Belege dafür, dass eine bestimmte Abwandlung mit der Baseline-Abwandlung identisch ist. [Weitere Informationen](../content-management/experiment-calculations.md#understand-confidence)
 
-* **[!UICONTROL Beitrag]**: Der Anteil der Gesamtänderung der Metrik, der einem bestimmten Experiment oder einer bestimmten Behandlung zugeschrieben werden kann, sodass die Initiativen mit der größten relativen Wirkung identifiziert werden können.
+* **[!UICONTROL Beitrag]**: Der Anteil der Gesamtänderung der Metrik, der einem bestimmten Experiment oder einer bestimmten Abwandlung zugeschrieben werden kann, sodass sich die Initiativen mit der größten relativen Wirkung identifizieren lassen.

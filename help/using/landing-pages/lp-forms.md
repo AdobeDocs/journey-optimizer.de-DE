@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erstellen und Verwenden von Formularen für Landingpages
-description: Erfahren Sie, wie Sie Formulare für Ihre Landingpages in Journey Optimizer erstellen und verwenden
+description: Informationen zum Erstellen und Verwenden von Formularen für Ihre Landingpages in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -13,9 +13,9 @@ hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1575'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -23,71 +23,71 @@ ht-degree: 10%
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
-Um Profildaten mit Ihren [!DNL Journey Optimizer] Landingpages zu erfassen und Ihre [!DNL Experience Platform] Datensätze anzureichern, können Sie Formulare in Ihren Landingpages nutzen.
+Um Profildaten mit Ihren [!DNL Journey Optimizer]-Landingpages zu erfassen und Ihre [!DNL Experience Platform]-Datensätze anzureichern, können Sie in Ihren Landingpages Formulare nutzen.
 
 ## Erstellen einer Formularvoreinstellung {#create-form-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
->title="Auswählen des zu verwendenden Endpunktes"
->abstract="Definieren Sie den Streaming-Endpunkt, an den Daten beim Senden des Formulars gesendet werden."
+>title="Auswählen des zu verwendenden Endpunkts"
+>abstract="Definieren Sie den Streaming-Endpunkt, an den Daten beim Übermitteln des Formulars gesendet werden."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Erstellen einer HTTP-API-Streaming-Verbindung"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="Auswählen eines Datensatzes"
->abstract="Definieren Sie einen Datensatz, in dem die Formularantworten gespeichert und widergespiegelt werden. Sie können einen bestimmten Datensatz eingeben oder aus der Liste auswählen."
+>abstract="Definieren Sie einen Datensatz, in dem die Formularantworten gespeichert und dargestellt werden. Sie können etwas eingeben, um einen bestimmten Datensatz zu durchsuchen, oder einen Datensatz aus der Liste auswählen."
 
-Bevor Sie ein Formular erstellen können, müssen Sie eine dedizierte Vorgabe erstellen, in der Sie den Verbindungsendpunkt auswählen, an den Formulardaten gesendet werden, und den Datensatz, in dem die im Formular erfassten Daten gespeichert werden.
+Bevor Sie ein Formular erstellen können, müssen Sie eine dedizierte Voreinstellung einrichten, in der Sie den Verbindungsendpunkt auswählen, an den Formulardaten gesendet werden. Zudem müssen Sie den Datensatz auswählen, in dem die im Formular erfassten Daten gespeichert werden.
 
 Wenn Daten auf dem Streaming-Endpunkt landen, werden sie mit den Datensatzinformationen verknüpft. Mithilfe der generierten Quell-/Zielverbindungen und des Quellflusses werden die Daten dann in den Datensatz übertragen.
 
 Beim Erstellen einer Voreinstellung:
 
-* Sie können mehrere Vorgaben mit verschiedenen Kombinationen aus Datensätzen und Streaming-Verbindungen einrichten.
-* Derselbe Datensatz oder dieselbe Streaming-Verbindung kann über mehrere Voreinstellungen hinweg wiederverwendet werden.
+* Sie können mit verschiedenen Kombinationen aus Datensätzen und Streaming-Verbindungen unterschiedliche Voreinstellungen einrichten.
+* Derselbe Datensatz oder dieselbe Streaming-Verbindung kann über verschiedene Voreinstellungen hinweg wiederverwendet werden.
 * Jede Streaming-Verbindung generiert automatisch Ressourcen wie:
-   * **Source-Verbindung** - woher die Daten stammen.
-   * **Zielverbindung** - wo die Daten gespeichert oder genutzt werden.
-   * **Source-**: Die Pipeline, die Daten von der Quellverbindung in [!DNL Experience Platform] verschiebt, um Zuordnungen, Umwandlungen und Validierungen zu verarbeiten.
+   * **Quellverbindung**: Woher die Daten stammen.
+   * **Zielverbindung**: Wo die Daten gespeichert oder genutzt werden.
+   * **Quellfluss**: Die Pipeline, die Daten von der Quellverbindung in [!DNL Experience Platform] bewegt, um Zuordnungen, Umwandlungen und Validierungen zu verarbeiten.
 
 >[!NOTE]
 >
-> Um auf Formularvorgaben zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung **[!UICONTROL Formularvorgaben verwalten]** für die Produktions-Sandbox. Weitere Informationen zu Berechtigungen finden Sie [&#x200B; (diesem Abschnitt](../administration/high-low-permissions.md#administration-permissions).<!--TBC-->
+> Um auf Voreinstellungen zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von Formularvoreinstellungen]** für die Produktions-Sandbox. Weitere Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md#administration-permissions).<!--TBC-->
 
-1. Um auf das Inventar **[!UICONTROL Formularvorgaben]** zuzugreifen, wählen Sie **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** >**[!UICONTROL Formulareinstellungen]** aus dem linken Menü aus.
+1. Um auf das Inventar **[!UICONTROL Formularvoreinstellungen]** zuzugreifen, wählen Sie aus dem linken Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** >**[!UICONTROL Formulareinstellungen]** aus.
 
-1. Klicken Sie **[!UICONTROL Formularvorgabe erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Formularvoreinstellung erstellen]**.
 
-1. Aktualisieren Sie den Namen, um ihn leichter abzurufen, und fügen Sie bei Bedarf eine Beschreibung hinzu.
+1. Aktualisieren Sie den Namen, um sie leichter finden zu können, und fügen Sie bei Bedarf eine Beschreibung hinzu.
 
    ![](assets/lp_create-form-preset.png){width=80%}
 
-1. Wählen Sie die **[!UICONTROL Streaming-Verbindung]** aus, die für dieses Formular verwendet werden soll. Dies ist der Streaming-Endpunkt, an den Daten beim Senden des Formulars gesendet werden.
+1. Wählen Sie die **[!UICONTROL Streaming-Verbindung]** aus, die für dieses Formular verwendet werden soll. Dies ist der Streaming-Endpunkt, an den Daten beim Übermitteln des Formulars gesendet werden.
 
    >[!NOTE]
    >
    >Weitere Informationen zum Erstellen einer Streaming-Quellverbindung finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
-1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können einen bestimmten Datensatz eingeben oder aus der Liste auswählen.
+1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können etwas eingeben, um einen bestimmten Datensatz zu durchsuchen, oder einen Datensatz aus der Liste auswählen.
 
    >[!NOTE]
    >
-   >Derzeit stehen nur [!DNL Adobe Experience Platform] Datensätze zur Auswahl. Es kann jeweils nur ein Datensatz ausgewählt werden.
+   >Derzeit stehen nur [!DNL Adobe Experience Platform]-Datensätze zur Auswahl. Es kann jeweils nur ein Datensatz ausgewählt werden.
 
 1. Klicken Sie auf **[!UICONTROL Veröffentlichen]**. Ihre Voreinstellung kann jetzt in einem Formular verwendet werden.
 
-## Zugriff und Verwaltung von Formularen {#access-forms}
+## Aufrufen und Verwalten von Formularen {#access-forms}
 
-Um auf die Formularliste zuzugreifen, wählen Sie **[!UICONTROL Content]** Management > **[!UICONTROL Forms]** aus dem linken Menü aus.
+Um auf die Formularliste zuzugreifen, wählen Sie im Menü links **[!UICONTROL Content-Management]** > **[!UICONTROL Formulare]** aus.
 
-Alle vorhandenen Formulare werden angezeigt. Sie können Formulare nach Status, Erstellungs- oder Änderungsdatum filtern.
+Alle vorhandenen Formulare werden angezeigt. Sie können Formulare nach ihrem Status bzw. ihrem Erstellungs- oder Änderungsdatum filtern.
 
 ![](assets/lp_form-list.png)
 
-## Erstellen und Gestalten eines Formulars {#create-form}
+## Erstellen und Entwerfen eines Formulars {#create-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
@@ -97,41 +97,41 @@ Alle vorhandenen Formulare werden angezeigt. Sie können Formulare nach Status, 
 
 Gehen Sie wie folgt vor, um ein Formular zu erstellen.
 
-1. Klicken Sie in der Liste **&#x200B;**&#x200B;Forms **[!UICONTROL auf „Formular erstellen]**.
+1. Klicken Sie in der Liste **[!UICONTROL Formulare]** auf **[!UICONTROL Formular erstellen]**. 
 
-1. Einen Namen hinzufügen. Sie können bei Bedarf eine Beschreibung hinzufügen.
+1. Fügen Sie einen Namen hinzu. Sie können bei Bedarf eine Beschreibung hinzufügen.
 
    ![](assets/lp_create-form.png)
 
-1. Wählen Sie eine **[!UICONTROL Vorgabe]** aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält. [Erfahren Sie, wie Sie eine Formularvorgabe erstellen](#create-form-preset)
+1. Wählen Sie eine **[!UICONTROL Voreinstellung]** aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält. [Informationen zum Erstellen einer Formularvoreinstellung](#create-form-preset)
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**. Der Formular-Designer wird geöffnet. Dort können Sie Strukturen und Inhalte ([) hinzufügen](../email/content-components.md#add-content-components) um Inhalte zu erstellen. Sie können die Komponenten [Text](../email/content-components.md#text) und **[!UICONTROL Feld]** verwenden.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**. Der Formular-Designer wird geöffnet. Dort können Sie Strukturen und [Inhaltskomponenten](../email/content-components.md#add-content-components) hinzufügen, um Inhalte zu erstellen. Sie können die Komponenten [Text](../email/content-components.md#text) und **[!UICONTROL Feld]** nutzen.
 
-1. Um Profildaten und Attribute zu erfassen, fügen Sie dem Formular bestimmte Felder hinzu. [Weitere Informationen](#define-fields)
+1. Um Profildaten und Attribute zu erfassen, fügen Sie dem Formular spezifische Felder hinzu. [Weitere Informationen](#define-fields)
 
 1. Konfigurieren und gestalten Sie diese Felder. [Weitere Informationen](#configure-fields)
 
-1. Sie können das Layout, die Formatierung und die Abmessungen des Formulars nach Bedarf mithilfe des Bereichs **[!UICONTROL Stile]** anpassen. [Erfahren Sie mehr über das Styling](../email/get-started-email-style.md)
+1. Sie können das Layout, die Formatierung und die Abmessungen des Formulars nach Bedarf mithilfe des Bereichs **[!UICONTROL Stile]** anpassen. [Weitere Informationen zu Stilen](../email/get-started-email-style.md)
 
 1. Nachdem Sie alle Felder konfiguriert haben, klicken Sie auf **[!UICONTROL Speichern und schließen]**.
 
-1. Konfigurieren Sie die Dankesseite. [Weitere Informationen](#thank-you-page)
+1. Konfigurieren Sie die Dankeseite. [Weitere Informationen](#thank-you-page)
 
-1. **[!UICONTROL Veröffentlichen]** des Formulars, um es für die Auswahl auf Landingpages verfügbar zu machen.
+1. **[!UICONTROL Veröffentlichen]** Sie das Formular, um es für die Auswahl in Landingpages verfügbar zu machen.
 
-### Spezifische Felder definieren {#define-fields}
+### Definieren spezifischer Felder {#define-fields}
 
-Um dem Formular bestimmte Felder hinzuzufügen, ziehen Sie eine Struktur per Drag-and-Drop auf die Arbeitsfläche und ziehen Sie eine Komponente **[!UICONTROL Feld]** in das Formular<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
+Um dem Formular spezifische Felder hinzuzufügen, ziehen Sie eine Struktur per Drag-and-Drop in die Arbeitsfläche und ziehen Sie eine Komponente vom Typ **[!UICONTROL Feld]** hinein.<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
 
 ![](assets/lp_create-form-field.png)
 
-Wählen Sie dann eine der folgenden Optionen aus:
+Wählen Sie anschließend eine der folgenden Optionen aus:
 
 >[!BEGINTABS]
 
->[!TAB Feldattribut auswählen]
+>[!TAB Auswählen eines Feldattributs]
 
-Verwenden Sie diese Option, um ein Attribut basierend auf dem Datensatzschema auszuwählen, das mit Ihrem Formular verknüpft ist.
+Verwenden Sie diese Option, um ein Attribut anhand des Datensatzschemas auszuwählen, das mit dem Formular verknüpft ist.
 
 >[!NOTE]
 >
@@ -139,71 +139,71 @@ Verwenden Sie diese Option, um ein Attribut basierend auf dem Datensatzschema au
 
 ![](assets/lp_select-field-attribute.png){width=100%}
 
-Sie können beispielsweise die E-Mail-Adresse und die Personen-ID festlegen. Wenn Benutzer diese Felder ausfüllen, werden die eingegebenen Informationen im ausgewählten Datensatz gespeichert.
+Sie können beispielsweise die E-Mail-Adresse und die Personen-ID festlegen. Wenn Benutzende diese Felder ausfüllen, werden die eingegebenen Daten im ausgewählten Datensatz gespeichert.
 
 ![](assets/lp_create-form-field-attributes.png){width=55%}
 
-Um die erfassten Daten einem Profil zuzuordnen, wählen Sie ein Profilidentitätsfeld aus. Die Identitätsfelder werden in **[!UICONTROL Attributliste mit „Erforderlich]** gekennzeichnet, sodass Sie nach ihnen filtern können.
+Um die erfassten Daten einem Profil zuzuordnen, wählen Sie ein Profilidentitätsfeld aus. Die Identitätsfelder sind in der Attributliste mit **[!UICONTROL Erforderlich]** gekennzeichnet, sodass Sie nach ihnen filtern können.
 
 ![](assets/lp_create-form-required-attributes.png){width=65%}
 
->[!TAB Benutzerdefiniertes Feld hinzufügen]
+>[!TAB Hinzufügen eines benutzerdefinierten Felds]
 
-Mit dieser Option können Sie einfach ein freies Feld definieren, ohne es einem Feld im verknüpften Datensatz zuzuordnen.
+Mit dieser Option können Sie bequem ein freies Feld definieren, ohne es einem Feld im verknüpften Datensatz zuzuordnen.
 
 ![](assets/lp_create-form-custom-field.png){width=85%}
 
 >[!ENDTABS]
 
-### Konfigurieren und Entwerfen eines Felds {#configure-fields}
+### Konfigurieren und Gestalten eines Felds {#configure-fields}
 
-Nachdem Sie ein Feldattribut ausgewählt oder ein benutzerdefiniertes Feld hinzugefügt haben, können Sie seine Details sowie sein Verhalten beim Senden des Formulars weiter anpassen.
+Nachdem Sie ein Feldattribut ausgewählt oder ein benutzerdefiniertes Feld hinzugefügt haben, können Sie dessen Details sowie sein Verhalten beim Übermitteln des Formulars weiter anpassen.
 
-1. Im Abschnitt **[!UICONTROL Felddetails]** der Registerkarte **[!UICONTROL Inhalt]** auf der rechten Seite können Sie die folgenden Elemente nach Bedarf angeben:
+1. Im Abschnitt **[!UICONTROL Felddetails]** der Registerkarte **[!UICONTROL Inhalt]** auf der rechten Seite können Sie nach Bedarf die folgenden Elemente angeben:
 
-   * Passen Sie **[!UICONTROL Titel]** an, um es für die Empfänger Ihres Formulars zu verdeutlichen.
-   * Ändern Sie den **[!UICONTROL Feldtyp]** entsprechend Ihren Anforderungen. Dabei kann es sich um ein Kontrollkästchen, eine Währung, ein Datum, einen Schieberegler, eine URL usw. handeln.
+   * Passen Sie das **[!UICONTROL Label]** an, um es für die Empfängerinnen und Empfänger Ihres Formulars zu verdeutlichen.
+   * Ändern Sie bei Bedarf den **[!UICONTROL Feldtyp]**. Dabei kann es sich um ein Kontrollkästchen, eine Währung, ein Datum, einen Regler, eine URL usw. handeln.
 
      >[!NOTE]
      >
      >Die anderen Felddetails können je nach ausgewähltem Feldtyp variieren.
 
    * Fügen Sie einen **[!UICONTROL Platzhalter]** hinzu.<!--To explain-->
-   * Geben Sie **[!UICONTROL instructions]** an.<!--How will they be displayed in the form? To explain-->
-   * Geben Sie **[!UICONTROL Standardwert]** ein, der angezeigt wird, bevor die Benutzer Ihres Formulars das Feld ausfüllen.
-   * Sie können eine benutzerdefinierte (**[!UICONTROL )]**.
-   * Legen Sie eine **[!UICONTROL Maximale Länge]** fest. Eine Fehlermeldung wird angezeigt, wenn die Empfänger des Formulars das Limit beim Ausfüllen des Felds überschreiten.
+   * Geben Sie **[!UICONTROL Anweisungen]** an.<!--How will they be displayed in the form? To explain-->
+   * Geben Sie einen **[!UICONTROL Standardwert]** ein, der angezeigt wird, bevor die Benutzenden des Formulars das Feld ausfüllen.
+   * Sie können eine benutzerdefinierte **[!UICONTROL Validierungsnachricht]** definieren.
+   * Legen Sie eine **[!UICONTROL Maximale Länge]** fest. Es wird eine Fehlermeldung angezeigt, wenn die Empfängerinnen und Empfänger des Formulars beim Ausfüllen des Felds das Limit überschreiten.
 
    ![](assets/lp_create-form-field-details.png){width=85%}
 
 1. Im Abschnitt **[!UICONTROL Feldverhalten]** können Sie Folgendes definieren:
 
-   * Wählen Sie **[!UICONTROL Erforderlich]**, um dieses Feld obligatorisch zu machen. Wenn Benutzende das Feld nicht ausfüllen, können sie das Formular nicht senden.
-   * Wählen Sie **[!UICONTROL Sensitive]** aus, damit bei dem Feld die Groß-/Kleinschreibung beachtet wird. <!--To confirm - do you mean retain capitalization when added to the dataset?-->
-   * Wählen Sie **[!UICONTROL Vorbefüllt aktiviert]** aus, um das Feld aus den Profilinformationen auszufüllen, falls verfügbar.<!--Even for a custom field, or a field not mapped to a profile? What happens if no data is available?-->
-   * Wählen Sie **[!UICONTROL Eingabemaske aktivieren]**, um die Benutzereingabe durch generische Zeichen zu ersetzen. Sie können *9* für eine beliebige Zahl, *a* für einen beliebigen Buchstaben oder * für eine beliebige Zahl oder einen Buchstaben verwenden.<!--Not sure how you define that in the form-->
+   * Wählen Sie **[!UICONTROL Erforderlich]** aus, um dieses Feld obligatorisch zu machen. Wenn Benutzende das Feld nicht ausfüllen, können sie das Formular nicht absenden.
+   * Wählen Sie **[!UICONTROL Groß-/Kleinschreibung beachten]** aus, damit bei dem Feld die Groß-/Kleinschreibung beachtet wird. <!--To confirm - do you mean retain capitalization when added to the dataset?-->
+   * Wählen Sie **[!UICONTROL Vorbefüllt aktiviert]** aus, um das Feld mit den Profildaten auszufüllen, falls verfügbar.<!--Even for a custom field, or a field not mapped to a profile? What happens if no data is available?-->
+   * Wählen Sie **[!UICONTROL Eingabemaske aktivieren]**, um die Benutzereingabe durch generische Zeichen zu ersetzen. Sie können *9* für eine beliebige Zahl, *a* für einen beliebigen Buchstaben oder * für eine beliebige Zahl oder einen beliebigen Buchstaben verwenden.<!--Not sure how you define that in the form-->
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
 
-### Konfigurieren der Dankesseite {#thank-you-page}
+### Konfigurieren der Dankeseite {#thank-you-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
->title="Dankesseite"
->abstract="Konfigurieren Sie den Vorgang, der erfolgt, wenn jemand das Formular ausfüllt oder weiterleitet."
+>title="Dankeseite"
+>abstract="Konfigurieren Sie, was geschehen soll, wenn eine Person das Formular ausfüllt oder weiterleitet."
 
-Konfigurieren Sie **[!UICONTROL Abschnitt „Dankeseite]**, was passiert, wenn ein Benutzer das Formular ausfüllt.
+Konfigurieren Sie im Abschnitt **[!UICONTROL Dankeseite]**, was geschehen soll, wenn eine Person das Formular ausfüllt.
 
 ![](assets/lp_create-form-thank-you.png){width=70%}
 
 Richten Sie eine der folgenden Aktionen ein:
 
-* **[!UICONTROL Auf Seite bleiben]** - Mit dieser Option bleibt der Besucher auf derselben Seite, wenn das Formular gesendet wurde.
-* **[!UICONTROL Landingpage]** - Wählen Sie eine veröffentlichte [Landingpage](create-lp.md) aus, zu der der Benutzer nach dem Absenden des Formulars weitergeleitet wird.
-* **[!UICONTROL Externe URL]** - Geben Sie die vollständige URL ein, die als Folgeseite verwendet werden soll. Nachdem der Benutzer das Formular gesendet hat, wird er an die angegebene URL weitergeleitet.
-* **[!UICONTROL Bedingte Umleitung]** - Richten Sie Regeln ein, um verschiedene Folgeaktionen basierend auf den Formularantworten dynamisch anzuzeigen.
+* **[!UICONTROL Auf Seite bleiben]**: Mit dieser Option bleibt die Besucherin bzw. der Besucher auf derselben Seite, wenn das Formular gesendet wird.
+* **[!UICONTROL Landingpage]**: Wählen Sie eine veröffentlichte [Landingpage](create-lp.md) aus, zu der die Benutzerin bzw. der Benutzer nach dem Senden des Formulars weitergeleitet wird.
+* **[!UICONTROL Externe URL]**: Geben Sie die vollständige URL ein, die als Nachfolgeseite verwendet werden soll. Nachdem die Benutzerin bzw. der Benutzer das Formular gesendet hat, wird sie bzw. er an die angegebene URL weitergeleitet.
+* **[!UICONTROL Bedingte Umleitung]**: Richten Sie Regeln ein, um abhängig von den Formularantworten dynamisch verschiedene Nachfolgeaktionen anzuzeigen.
 
-  Sie können für jede spezifische Zielgruppe eine Regel definieren. Sie können beispielsweise eine bestimmte Landingpage für US-Bürger, eine andere Seite für Personen mit Wohnsitz in Kanada usw. anzeigen. Richten Sie abschließend eine Standardaktion für Benutzer ein, die nicht unter eine von Ihnen definierte Regel fallen.
+  Sie können für jede spezifische Zielgruppe eine Regel definieren. Sie können beispielsweise eine bestimmte Landingpage für in den USA ansässige Personen, eine andere für in Kanada ansässige Personen usw. anzeigen. Richten Sie abschließend eine Standardaktion für Benutzende ein, die nicht unter eine von Ihnen definierte Regel fallen.
 
   >[!NOTE]
   >
@@ -213,23 +213,23 @@ Richten Sie eine der folgenden Aktionen ein:
 
 ## Bearbeiten eines veröffentlichten Formulars {#edit-form}
 
-Sobald ein Formular veröffentlicht wurde, können Sie es weiterhin bearbeiten. Gehen Sie wie folgt vor.
+Sobald ein Formular veröffentlicht wurde, können Sie es weiter bearbeiten. Gehen Sie wie folgt vor.
 
 1. Rufen Sie die [Formularliste](#access-forms) auf und wählen Sie ein veröffentlichtes Formular aus.
 
-1. Klicken Sie auf die **[!UICONTROL Formular bearbeiten]**.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Formular bearbeiten]**.
 
    ![](assets/lp_edit-form-button.png){width=90%}
 
-1. Eine neue Version des Formulars wird mit dem Status Entwurf erstellt. Klicken Sie **[!UICONTROL Entwurfsversion erstellen]**.
+1. Es wird eine neue Version des Formulars mit dem Status „Entwurf“ erstellt. Klicken Sie auf **[!UICONTROL Entwurfsversion erstellen]**.
 
-1. Aktualisieren Sie das Formular nach Bedarf und klicken Sie auf **[!UICONTROL Speichern]**. Das Formular hat jetzt den **[!UICONTROL Veröffentlicht (mit Entwurf]**:
+1. Überarbeiten Sie das Formular nach Bedarf und klicken Sie auf **[!UICONTROL Speichern]**. Das Formular weist jetzt den Status **[!UICONTROL Veröffentlicht (mit Entwurf)]** auf:
 
-   * Die aktuelle Version hat weiterhin den Status **[!UICONTROL Veröffentlicht]**, bis Sie die aktualisierte Version veröffentlichen.
+   * Die aktuelle Version weist weiterhin den Status **[!UICONTROL Veröffentlicht]** auf, bis Sie die aktualisierte Version veröffentlichen.
 
    * Die aktualisierte Version weist den Status **[!UICONTROL Entwurf]** auf.
 
-1. Zurück in der Formularübersicht können Sie zwischen den beiden Versionen des Formulars navigieren.
+1. In der Formularübersicht können Sie zwischen den beiden Versionen des Formulars navigieren.
 
    ![](assets/lp_published-with-draft-form.png){width=70%}
 
@@ -243,40 +243,40 @@ Sie können dieses Formular jetzt in eine Landingpage einbetten, um Daten zu erf
 
 1. Erstellen Sie eine Landingpage. [Weitere Informationen](create-lp.md#create-landing-page)
 
-1. Wählen Sie **[!UICONTROL Landingpage-Typ]** Datenerfassung“ aus und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie als Landingpage-Typ **[!UICONTROL Datenerfassung]** aus und klicken Sie auf **[!UICONTROL Erstellen]**.
 
    ![](assets/lp_create-lp-data-capture.png){width=65%}
 
 1. Konfigurieren Sie die Primärseite. [Weitere Informationen](create-lp.md#configure-primary-page)
 
-1. Öffnen Sie den [Landingpage-Designer](design-lp.md).
+1. Öffnen Sie den [Designer für Landingpages](design-lp.md).
 
-1. Ziehen Sie per Drag-and **[!UICONTROL Drop eine]** Strukturkomponente“ in Ihren Inhalt. Ziehen Sie eine **[!UICONTROL Formular]**-Komponente in diese Struktur.
+1. Ziehen Sie eine **[!UICONTROL Strukturkomponente]** per Drag-and-Drop in Ihren Inhalt. Ziehen Sie eine **[!UICONTROL Formularkomponente]** per Drag-and-Drop in diese Struktur.
 
    >[!NOTE]
    >
-   >Auf einer Landingpage können nur veröffentlichte Formulare ausgewählt werden.
+   >In einer Landingpage können nur veröffentlichte Formulare ausgewählt werden.
 
-1. Wählen Sie im **[!UICONTROL Einbettungsformular]** das erstellte Formular aus.
+1. Wählen Sie im Abschnitt **[!UICONTROL Formular einbetten]** das erstellte Formular aus.
 
    ![](assets/lp_embed-form.png)
 
    >[!NOTE]
    >
-   >Sie können das ausgewählte Formular mithilfe der Schaltfläche **[!UICONTROL Formular bearbeiten]** aktualisieren. Das Formular wird auf einer neuen Registerkarte geöffnet. Die Schritte zum Bearbeiten des Formularinhalts sind dieselben wie in [diesem Abschnitt](#create-form) beschrieben.
+   >Sie können das ausgewählte Formular mithilfe der Schaltfläche **[!UICONTROL Formular bearbeiten]** überarbeiten. Das Formular wird in einer neuen Registerkarte geöffnet. Die Schritte zum Bearbeiten des Formularinhalts sind dieselben wie in [diesem Abschnitt](#create-form) beschrieben.
 
-1. Konfigurieren Sie **[!UICONTROL Abschnitt]** Folgenachrichtentyp), was passiert, wenn ein Benutzer das Formular ausfüllt:
+1. Konfigurieren Sie im Abschnitt **[!UICONTROL Folge-Typ]**, was geschehen soll, wenn eine Benutzerin bzw. ein Benutzer das Formular ausfüllt:
 
    * Wählen Sie **[!UICONTROL Formular definiert]** aus, um die Aktion auszuwählen, die im eingebetteten Formular definiert wurde. [Weitere Informationen](#thank-you-page)
 
-   * Sie können auch eine veröffentlichte [Landingpage) auswählen](create-lp.md) zu der der Benutzer nach dem Absenden des Formulars weitergeleitet wird.
+   * Sie können auch eine veröffentlichte [Landingpage](create-lp.md) auswählen, zu der die Benutzerin bzw. der Benutzer nach dem Absenden des Formulars weitergeleitet wird.
 
-   * Oder definieren Sie eine **[!UICONTROL externe URL]** als Folgeseite, auf die Benutzer beim Senden des Formulars weitergeleitet werden.
+   * Oder Sie definieren eine **[!UICONTROL externe URL]** als Folgeseite, auf die Benutzende beim Übermitteln des Formulars weitergeleitet werden.
 
 1. Speichern und testen Sie Ihre Landingpage. [Weitere Informationen](create-lp.md#test-landing-page)
 
-Sobald Ihre Landingpage [veröffentlicht) &#x200B;](create-lp.md#publish-landing-page) auf einer Journey verwendet wurde und Benutzer das Formular ausfüllen, werden die eingegebenen Informationen in den ausgewählten Datensatz aufgenommen.
+Nachdem Sie Ihre Landingpage [veröffentlicht](create-lp.md#publish-landing-page) haben und in einer Journey verwenden, werden eingegebene Daten in den ausgewählten Datensatz aufgenommen, wenn Benutzende das Formular ausfüllen.
 
 >[!NOTE]
 >
->Wenn Sie die Veröffentlichung eines Formulars aufheben, das in einer Landingpage verwendet wird, bearbeiten Sie dieses Formular und veröffentlichen Sie es erneut. Für die Landingpage wird immer die neueste veröffentlichte Version des Formulars verwendet.
+>Wenn Sie die Veröffentlichung eines Formulars aufheben, das in einer Landingpage verwendet wird, bearbeiten Sie das Formular und veröffentlichen Sie es erneut. Für die Landingpage wird immer die neueste veröffentlichte Version des Formulars genutzt.

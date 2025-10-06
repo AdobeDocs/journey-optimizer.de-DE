@@ -10,9 +10,9 @@ level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '958'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -241,7 +241,7 @@ group by
 
 
 
-Diese Abfrage ruft ab, welche Knoten (nach nodeID und nodeName) in der Journey mit dem Versand einer Nachricht an ein Profil verknüpft sind, und zwar mithilfe dessen Profil-ID und des Nachrichten-Feedback-Ereignisdatensatzes:
+Diese Abfrage ruft ab, welche Knoten (nach nodeID und nodeName) in der Journey mit dem Versand einer Nachricht an ein Profil verknüpft sind. Dazu dienen die Profil-ID und der Ereignisdatensatz des Nachrichten-Feedbacks:
 
 ```sql
 select
@@ -268,7 +268,7 @@ group by
 
 Siehe auch einige häufig verwendete [Beispiele zum Abfragen von Journey-Schrittereignissen](../reports/query-examples.md).
 
-Erfahren Sie, wie Sie [Fehlerbehebung bei verworfenen Ereignistypen in Journey_STEP_EVENTS](../reports/sharing-field-list.md#discarded-events).
+Erfahren Sie, wie Sie [bei verworfenen Ereignistypen in journey_step_events Fehler beheben](../reports/sharing-field-list.md#discarded-events).
 
 ## Ereignisdatensatz zur Entscheidungsfindung{#ode-decisionevents}
 

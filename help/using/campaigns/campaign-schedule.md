@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
 source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 75%
 
 Definieren Sie auf der Registerkarte **[!UICONTROL Zeitplan]** den Zeitplan der Kampagne.
 
-## Startdatum der Kampagne festlegen
+## Festlegen des Startdatums einer Kampagne
 
 Standardmäßig starten Aktionskampagnen, sobald sie manuell aktiviert werden, und enden, sobald die Nachricht einmal gesendet wurde.
 
-Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie im Abschnitt Kampagnenstart ein Datum und eine Uhrzeit für **[!UICONTROL Versand]** Nachricht angeben.
+Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand der Nachricht im Abschnitt **[!UICONTROL Kampagnenstart]** angeben.
 
 ![](assets/campaign-start.png)
 
@@ -35,17 +35,17 @@ Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, k�
 
 ## Festlegen der Ausführungshäufigkeit
 
-Für **E**, **SMS** und **Push-Benachrichtigung** können Sie die Häufigkeit definieren, mit der die Nachricht der Kampagne gesendet werden soll. Verwenden Sie dazu die Option **[!UICONTROL Aktions-Trigger]** im Bildschirm zur Kampagnenerstellung, um festzulegen, ob die Kampagne täglich, wöchentlich oder monatlich ausgeführt werden soll.
+Bei **E-Mail**-, **SMS**- und **Push-Benachrichtigungs**-Aktionen können Sie festlegen, mit welcher Häufigkeit die Nachricht der Kampagne gesendet werden soll. Verwenden Sie dazu die Option **[!UICONTROL Aktions-Trigger]** im Bildschirm zur Kampagnenerstellung, um festzulegen, ob die Kampagne täglich, wöchentlich oder monatlich ausgeführt werden soll.
 
 ![](assets/campaign-frequency.png)
 
 >[!NOTE]
 >
->Für **E-**-Aktionen können Sie spezifische IP-Aufwärmplan-Aktivierungskampagnen erstellen. Der Zeitplan der Kampagne wird von dem IP-Aufwärmplan bestimmt, mit dem er verknüpft ist. Dies bedeutet, dass der Zeitplan nicht mehr in der Kampagne selbst definiert ist. [Informationen zum Erstellen von IP-Aufwärmkampagnen](../configuration/ip-warmup-campaign.md).
+>Bei **E-Mail**-Aktionen können Sie spezifische Kampagnen zur Aktivierung eines IP-Aufwärmplans erstellen. Der Zeitplan der Kampagne wird von dem IP-Aufwärmplan bestimmt, mit dem er verknüpft ist. Dies bedeutet, dass der Zeitplan nicht mehr in der Kampagne selbst definiert ist. [Informationen zum Erstellen von IP-Aufwärmkampagnen](../configuration/ip-warmup-campaign.md).
 
-## Enddatum festlegen
+## Festlegen eines Enddatums
 
-Im **[!UICONTROL Kampagnenende]** können Sie angeben, wann die Ausführung einer Kampagne beendet werden soll. Außerhalb der angegebenen Daten wird die Kampagne nicht ausgeführt.
+Im Abschnitt **[!UICONTROL Kampagnenende]** können Sie angeben, wann die Ausführung einer Kampagne gestoppt werden soll. Außerhalb der angegebenen Daten wird die Kampagne nicht ausgeführt.
 
 ![](assets/campaign-end.png)
 

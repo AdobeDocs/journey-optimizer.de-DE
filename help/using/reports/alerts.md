@@ -9,15 +9,15 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Abrufen und Abonnieren von Systemwarnhinweisen {#alerts}
 
-Verwenden Sie beim Erstellen Ihrer Journey und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler zu überprüfen und zu beheben, bevor Sie sie ausführen oder veröffentlichen.
+Verwenden Sie beim Erstellen Ihrer Journeys und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler vor der Ausführung oder Veröffentlichung zu überprüfen und zu beheben.
 
 
 
@@ -47,15 +47,15 @@ Sie werden hier aufgelistet und jeder Warnhinweis wird nachfolgend beschrieben.
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
-   * Warnung bei fehlgeschlagener Konfiguration des AJO[Kanals &#x200B;](#alert-channel-config-failure)
+   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
+   * Warnhinweis ](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration[
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
 
 Wenn ein unerwartetes Verhalten auftritt und/oder bestimmte Bedingungen in Ihren Vorgängen erfüllt sind (z. B. ein potenzielles Problem, wenn das System einen Schwellenwert überschreitet), werden Warnhinweise an alle Benutzenden in Ihrer Organisation gesendet, die diese abonniert haben.
 
-Sie können jeden Warnhinweis einzeln über die Benutzeroberfläche abonnieren, entweder global über das Menü **[!UICONTROL Warnhinweise]** (siehe [Globales Abonnement](#global-subscription))<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->
+Sie können die Warnhinweise einzeln über die Benutzeroberfläche oder global über das Menü **[!UICONTROL Warnhinweise]** (siehe [Globales Abonnement](#global-subscription)) abonnieren<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->.
 
 Je nach den Benutzereinstellungen werden Warnhinweise per E-Mail gesendet und/oder erscheinen direkt im Journey Optimizer-Benachrichtigungszentrum oben rechts in der Benutzeroberfläche. Wählen Sie in den **[!UICONTROL Voreinstellungen]** von [!DNL Adobe Experience Cloud] aus, wie Sie diese Warnhinweise erhalten möchten. [Weitere Informationen](../start/user-interface.md#in-product-alerts)
 
@@ -64,11 +64,11 @@ Wenn ein Warnhinweis aufgelöst wurde, erhalten die Abonnentinnen und Abonnenten
 
 ### Globales Abonnement {#global-subscription}
 
-Gehen Sie wie folgt vor, um einen Warnhinweis für alle Journey und Kampagnen zu abonnieren oder abzubestellen:
+Gehen Sie wie folgt vor, um einen Warnhinweis für alle Journeys und Kampagnen zu abonnieren oder abzubestellen:
 
-1. Navigieren Sie zum **[!UICONTROL Warnhinweise]**-Dashboard im linken Menü und wählen Sie die Option **[!UICONTROL Abonnieren]** für den Warnhinweis aus, den Sie abonnieren möchten.
+1. Navigieren Sie im linken Menü zum Dashboard **[!UICONTROL Warnhinweise]** und wählen Sie die Option **[!UICONTROL Abonnieren]** für den Warnhinweis, den Sie abonnieren möchten.
 
-   ![Warnhinweis abonnieren](assets/alert-subscribe.png){width=80%}
+   ![Abonnieren eines Warnhinweises](assets/alert-subscribe.png){width=80%}
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um einen Warnhinweis für alle Journey und Kampagnen zu
 
 1. Auf dieselbe Weise können Sie sich auch wieder **[!UICONTROL abmelden]**.
 
-Sie können auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren. Warnhinweisregeln sind in verschiedene Abonnementpakete unterteilt. Abonnements für Ereignisse, die den jeweiligen Journey Optimizer-Warnhinweisen entsprechen, werden [nachfolgend](#journey-alerts) beschrieben.
+Sie können Warnhinweise auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren. Warnhinweisregeln sind in verschiedene Abonnementpakete unterteilt. Abonnements für Ereignisse, die den jeweiligen Journey Optimizer-Warnhinweisen entsprechen, werden [nachfolgend](#journey-alerts) beschrieben.
 
 <!--DOCAC-13465
 ### Unitary subscription {#unitary-subscription}
@@ -94,7 +94,7 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 1. Click **[!UICONTROL Save]** to confirm.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -251,9 +251,9 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 
 ## Verwalten von Warnhinweisen {#manage-alerts}
 
-### Warnhinweis bearbeiten
+### Bearbeiten eines Warnhinweises
 
-Sie können die Details eines Warnhinweises überprüfen, indem Sie auf dessen Zeile klicken. Der Name, der Status und die Benachrichtigungskanäle werden im linken Bereich angezeigt.
+Sie können die Details eines Warnhinweises prüfen, indem Sie auf dessen Zeile klicken. Im linken Panel werden der Name, der Status und die Benachrichtigungskanäle angezeigt.
 <!--DOCAC-13465
 For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
 
@@ -278,9 +278,9 @@ To change the threshold:
 >The threshold levels are global across all journeys and cannot be individually modified per journey.
 -->
 
-### Warnhinweis deaktivieren
+### Deaktivieren eines Warnhinweises
 
-Standardmäßig sind alle Warnhinweise aktiviert. Um einen Warnhinweis zu deaktivieren, wählen Sie die Option **[!UICONTROL Warnhinweis deaktivieren]** aus: Alle Abonnenten dieses Warnhinweises erhalten dann nicht mehr die entsprechenden Benachrichtigungen.
+Standardmäßig sind alle Warnhinweise aktiviert. Um einen Warnhinweis zu deaktivieren, wählen Sie die Option **[!UICONTROL Warnhinweis deaktivieren]**: Alle Abonnierenden dieses Warnhinweises erhalten die entsprechenden Benachrichtigungen dann nicht mehr.
 
 
 ### Status von Warnhinweisen
@@ -292,17 +292,17 @@ Die möglichen Status von Warnhinweisen sind unten aufgeführt:
 * **[!UICONTROL Ausgelöst]** – Die Auslösebedingung für den Warnhinweis ist derzeit erfüllt.
 
 
-### Abonnenten anzeigen und aktualisieren {#manage-subscribers}
+### Anzeigen und Aktualisieren von Abonnierenden {#manage-subscribers}
 
-Wählen Sie **[!UICONTROL Warnhinweis-Abonnenten verwalten]** aus, um die Liste der Benutzer anzuzeigen, die den Warnhinweis abonniert haben.
+Wählen Sie **[!UICONTROL Warnhinweis-Abonnierende verwalten]** aus, um die Liste der Benutzenden anzuzeigen, die den Warnhinweis abonniert haben. 
 
 ![](assets/alert-subscribers.png){width=80%}
 
-Um weitere Abonnentinnen oder Abonnenten hinzuzufügen, geben Sie ihre E-Mail durch Kommata getrennt ein und wählen Sie **[!UICONTROL Aktualisieren]**.
+Um weitere Abonnierende hinzuzufügen, geben Sie ihre E-Mail-Adressen durch Kommata getrennt ein und wählen Sie **[!UICONTROL Aktualisieren]** aus.
 
-Um Abonnenten zu entfernen, löschen Sie deren E-Mail-Adresse von den aktuellen Abonnenten und wählen Sie **[!UICONTROL Aktualisieren]**.
+Um Abonnierende zu entfernen, löschen Sie ihre E-Mail-Adressen aus den aktuellen Abonnierenden und wählen Sie **[!UICONTROL Aktualisieren]** aus.
 
-## Zusätzliche Ressourcen {#additional-resources-alerts}
+## Weitere Ressourcen {#additional-resources-alerts}
 
 
 * Weitere Informationen zum Beheben von Fehlern in Journeys finden Sie auf [dieser Seite](../building-journeys/troubleshooting.md).

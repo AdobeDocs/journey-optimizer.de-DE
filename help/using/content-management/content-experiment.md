@@ -10,9 +10,9 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1846'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -70,19 +70,19 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 Für Ihr Inhaltsexperiment können Sie zwischen drei Arten von Experimenten wählen:
 
-* **[!UICONTROL A/B-]**: Traffic-Aufteilung zwischen Abwandlungen zu Beginn des Tests definieren. Die Leistung wird anhand der von Ihnen ausgewählten Hauptmetrik bewertet. Der Experimentation Accelerator meldet dann die beobachtete Steigerung zwischen den Behandlungen.
+* **[!UICONTROL A/B-Test]**: Definieren Sie zu Beginn des Tests die Traffic-Aufspaltung zwischen Abwandlungen. Die Leistung wird anhand der von Ihnen ausgewählten primären Metrik bewertet. Experimentation Accelerator meldet dann die beobachtete Steigerung zwischen Abwandlungen.
 
-* **[!UICONTROL Multi-Armed Bandit]**: Traffic-Aufteilung zwischen Behandlungen wird automatisch verarbeitet. Alle 7 Tage wird die Leistung der primären Metrik überprüft und die Gewichtungen werden entsprechend angepasst. In den Berichten in der Experimentation Accelerator wird weiterhin die Steigerung als A/B-Test angezeigt.
+* **[!UICONTROL Multi-Armed Bandit]**: Die Traffic-Aufspaltung zwischen Abwandlungen erfolgt automatisch. Alle 7 Tage wird die Leistung der primären Metrik überprüft und die Gewichtungen werden entsprechend angepasst. In Berichten in Experimentation Accelerator wird weiterhin die Steigerung angezeigt (wie bei A/B-Tests).
 
-* **[!UICONTROL Bring your own Multi-Armed Bandit]**: Der Traffic wird automatisch zwischen den Behandlungen aufgeteilt. Sie haben die Flexibilität, zu bestimmen, wann und wie sie sich ändern sollte, indem Sie die Experiment-APIs verwenden, um Zuweisungen in Echtzeit anzupassen.
+* **[!UICONTROL Bring your own Multi-Armed Bandit]**: Die Traffic-Aufspaltung zwischen Abwandlungen erfolgt automatisch. Sie können flexibel festlegen, wann und wie sie sich ändern sollte, indem Sie die Experiment-APIs nutzen, um Zuordnungen in Echtzeit anzupassen.
 
-➡️ [Erfahren Sie mehr über den Unterschied zwischen A/B- und Experimenten mit mehrarmigen Banditen](mab-vs-ab.md)
+➡️ [Weitere Informationen über den Unterschied zwischen A/B-Tests und Multi-Armed-Bandit-Experimenten](mab-vs-ab.md)
 
 >[!BEGINTABS]
 
->[!TAB A/B-Experiment]
+>[!TAB A/B-Tests]
 
-1. Wenn Ihre Nachricht personalisiert wurde, klicken Sie auf der Registerkarte **[!UICONTROL Aktionen]** auf **[!UICONTROL Experiment erstellen]** um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
+1. Wenn Ihre Nachricht personalisiert ist, klicken Sie auf der Registerkarte **[!UICONTROL Aktionen]** auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
 
    ![](assets/content_experiment_3.png)
 
@@ -92,11 +92,11 @@ Für Ihr Inhaltsexperiment können Sie zwischen drei Arten von Experimenten wäh
 
    ![](assets/content_experiment_11.png)
 
-1. Wenn Sie ein Experiment mit dem In-App- oder Web-Kanal einrichten und die Metriken **[!UICONTROL Eingehende Klicks]**, **[!UICONTROL Eindeutige eingehende Klicks]**, **[!UICONTROL Seitenansichten]** oder **[!UICONTROL Eindeutige Seitenansichten]** auswählen, können Sie mit dem Feld **[!UICONTROL Dimensionen]** Klicks und Ansichten auf bestimmten Seiten präzise verfolgen und überwachen.
+1. Beim Einrichten eines Experiments mit dem In-App- oder Web-Kanal und Auswählen der **[!UICONTROL eingehenden Klicks]**, **[!UICONTROL eindeutigen eingehenden Klicks]**, **[!UICONTROL Seitenansichten]** oder **[!UICONTROL Metriken zu individuellen Seitenansichten]** ermöglicht es Ihnen das Feld **[!UICONTROL Dimensionen]**, Klicks und Ansichten auf bestimmten Seiten genau nachzuverfolgen und zu überwachen.
 
    ![](assets/content_experiment_20.png)
 
-1. Wenn Sie eine von einer API ausgelöste Kampagne erstellt haben, wählen Sie **[!UICONTROL A/B]** Experiment **[!UICONTROL aus der Dropdown-Liste]** Experimenttyp“ aus.
+1. Wenn Sie eine API-ausgelöste Kampagne erstellt haben, wählen Sie **[!UICONTROL A/B-Test]** aus der Dropdown-Liste **[!UICONTROL Experimenttyp]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Abwandlung hinzufügen]**, um so viele neue Abwandlungen wie nötig zu erstellen.
 
@@ -124,16 +124,16 @@ Für Ihr Inhaltsexperiment können Sie zwischen drei Arten von Experimenten wäh
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**, wenn Ihre Konfiguration festgelegt ist.
 
->[!TAB Mehrarmiger Bandit]
+>[!TAB Multi-Armed Bandit]
 
-Beachten Sie, dass das Experiment mit mehrarmigen Banditen nur mit den folgenden Optionen verfügbar ist:
+Beachten Sie, dass das Multi-Armed-Bandit-Experiment nur bei den folgenden Optionen verfügbar ist:
 
-* Eingehende Kanäle
-* Unitäre Journey
-* API-ausgelöste Kampagnen (sowohl Transaktions- als auch operative)
-* Ausgehende Kanäle, wenn der Zeitplan wiederholt wird
+* Inbound-Kanäle
+* Einheitliche Journeys
+* API-ausgelöste Kampagnen (sowohl transaktionsbasiert als auch betrieblich)
+* Outbound-Kanäle, wenn der Zeitplan wiederholt wird
 
-1. Wenn Ihre Nachricht personalisiert wurde, klicken Sie auf der Registerkarte **[!UICONTROL Aktionen]** auf **[!UICONTROL Experiment erstellen]** um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
+1. Wenn Ihre Nachricht personalisiert ist, klicken Sie auf der Registerkarte **[!UICONTROL Aktionen]** auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
 
    ![](assets/content_experiment_3.png)
 
@@ -143,7 +143,7 @@ Beachten Sie, dass das Experiment mit mehrarmigen Banditen nur mit den folgenden
 
    ![](assets/content_experiment_11.png)
 
-1. Wenn Sie eine von einer API ausgelöste Kampagne erstellt haben, wählen Sie **[!UICONTROL Multi-Armed]**) in **[!UICONTROL Dropdown-Liste Experimenttyp]** aus.
+1. Wenn Sie eine API-ausgelöste Kampagne erstellt haben, wählen Sie **[!UICONTROL Multi-Armed Bandit]** aus der Dropdown-Liste **[!UICONTROL Experimenttyp]** aus.
 
    ![](assets/content-experiment-mab-1.png)
 
@@ -163,16 +163,16 @@ Beachten Sie, dass das Experiment mit mehrarmigen Banditen nur mit den folgenden
 
    ![](assets/content-experiment-mab-3.png)
 
->[!TAB Bring deinen eigenen mehrarmigen Bandit]
+>[!TAB Bring your own Multi-Armed Bandit]
 
-Beachten Sie, dass das Experiment „Bring your own Multi-Armed Bandit“ nur mit den folgenden Optionen verfügbar ist:
+Beachten Sie, dass das Experiment „Bring your own Multi-Armed Bandit“ nur bei den folgenden Optionen verfügbar ist:
 
-* Eingehende Kanäle
-* Unitäre Journey
-* API-ausgelöste Kampagnen (sowohl Transaktions- als auch operative)
-* Ausgehende Kanäle, wenn der Zeitplan wiederholt wird
+* Inbound-Kanäle
+* Einheitliche Journeys
+* API-ausgelöste Kampagnen (sowohl transaktionsbasiert als auch betrieblich)
+* Outbound-Kanäle, wenn der Zeitplan wiederholt wird
 
-1. Wenn Ihre Nachricht personalisiert wurde, klicken Sie auf der Registerkarte **[!UICONTROL Aktionen]** auf **[!UICONTROL Experiment erstellen]** um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
+1. Wenn Ihre Nachricht personalisiert ist, klicken Sie auf der Registerkarte **[!UICONTROL Aktionen]** auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
 
    ![](assets/content_experiment_3.png)
 
@@ -182,7 +182,7 @@ Beachten Sie, dass das Experiment „Bring your own Multi-Armed Bandit“ nur mi
 
    ![](assets/content_experiment_11.png)
 
-1. Wenn Sie eine von einer API ausgelöste Kampagne erstellt haben, wählen Sie **[!UICONTROL Eigene mehrarmige Bandit einbringen]** aus der Dropdown-Liste **[!UICONTROL Experimenttyp]** aus.
+1. Wenn Sie eine API-ausgelöste Kampagne erstellt haben, wählen Sie **[!UICONTROL Bring your own Multi-Armed Bandit]** aus der Dropdown-Liste **[!UICONTROL Experimenttyp]** aus.
 
    ![](assets/content-experiment-mab-4.png)
 

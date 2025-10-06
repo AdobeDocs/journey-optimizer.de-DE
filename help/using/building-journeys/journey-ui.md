@@ -11,9 +11,9 @@ keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 source-git-commit: 12ece43b9a52150baa71fab09653c6212aea6643
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1444'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -139,18 +139,18 @@ Weitere Informationen zu Journey-Typen und der zugehörigen Eintrittsverwaltung 
 Der Journey-Status hängt von ihrem Lebenszyklus ab. Es kann sich handeln um:
 
 * **Entwurf**: Die Journey befindet sich in der ersten Phase. Sie wurde noch nicht veröffentlicht.
-* **Entwurf (Test)**: Der Testmodus wurde über die Schaltfläche **Testmodus** aktiviert. [Weitere Informationen](../building-journeys/testing-the-journey.md)
+* **Entwurf (Test)**: Der Testmodus wurde mit der Schaltfläche **Testmodus** aktiviert. [Weitere Informationen](../building-journeys/testing-the-journey.md)
 * **Beendet**: Die Journey wechselt nach der [maximalen globalen Wartezeit](journey-properties.md#global_timeout) von 91 Tagen automatisch in diesen Status.  Profile, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Neue Profile können nicht mehr in die Journey eintreten. 
-* **Live**: Die Journey wurde über die Schaltfläche **Veröffentlichen** veröffentlicht. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
-* **Paused**: Die Live-Journey wurde mithilfe der Schaltfläche **Pause** angehalten. [Weitere Informationen](../building-journeys/journey-pause.md)
-* **Gestoppt**: Die Journey wurde mit der Schaltfläche **Stoppen** gestoppt. Alle Personen verlassen die Journey sofort. [Weitere Informationen](../building-journeys/end-journey.md#stop-a-journey)
+* **Live**: Die Journey wurde mithilfe der Schaltfläche **Veröffentlichen** veröffentlicht. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
+* **Angehalten**: Die Live-Journey wurde mithilfe der Schaltfläche **Anhalten** angehalten. [Weitere Informationen](../building-journeys/journey-pause.md)
+* **Gestoppt**: Die Journey wurde mit der Schaltfläche **Stoppen** gestoppt. Alle Kontakte verlassen die Journey sofort. [Weitere Informationen](../building-journeys/end-journey.md#stop-a-journey)
 * **Geschlossen**: Die Journey wurde mithilfe der Schaltfläche **Für neue Eintritte schließen** geschlossen. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden. [Weitere Informationen](../building-journeys/end-journey.md)
 
 >[!NOTE]
 >
->* Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: **Publishing** (zwischen „Entwurf“ und „Live„), **Aktivieren des Testmodus** oder **Deaktivieren des Testmodus** (zwischen **Entwurf** und **Entwurf(test)**), **Stoppen** (zwischen **Live** und **gestoppt**, **&#x200B;**&#x200B;(aused **und** Live **),** Pausing **Pausing** (LiveLive **und** Paused **&#x200B;**), wenn eine Journey in Status, er ist schreibgeschützt.
+>* Der Journey-Authoring-Lebenszyklus umfasst auch eine Reihe von Zwischenstatus, die nicht zum Filtern verfügbar sind: **Wird veröffentlicht** (zwischen „Entwurf“ und „Live“), **Testmodus wird aktiviert** oder **Testmodus wird deaktiviert** (zwischen **Entwurf** und **Entwurf (Test)**), **Wird gestoppt** (zwischen **Live** und **Gestoppt**), **Wird fortgesetzt** (zwischen **Angehalten** und **Live**), **Wird ausgesetzt** (zwischen **Live** und **Angehalten**). Befindet sich eine Journey in einem Zwischenstatus, ist sie schreibgeschützt.
 >
->* Wenn Sie eine Live **-Journey ändern müssen** erstellen [eine neue Version &#x200B;](#journey-versions) Journey. Sie können Ihre Live-Journey auch anhalten, alle erforderlichen Änderungen vornehmen und sie jederzeit wieder aufnehmen. [Weitere Informationen zum Pausieren von Journey](../building-journeys/journey-pause.md)
+>* Wenn Sie eine **Live**-Journey ändern müssen, [erstellen Sie eine neue Version](#journey-versions) Ihrer Journey. Sie können Ihre Live-Journeys auch pausieren, um alle erforderlichen Änderungen vorzunehmen, und danach jederzeit wieder fortsetzen. [Weitere Informationen zum Anhalten von Journeys](../building-journeys/journey-pause.md)
 
 
 ## Duplizieren einer Journey {#duplicate-a-journey}
