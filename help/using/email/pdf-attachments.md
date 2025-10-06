@@ -8,12 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: E-Mail, Nachricht, Anhang, PDF, Editor
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
-source-git-commit: f5588c1a1d8f88b3de321e6499575ce0c11a0655
+source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 96%
+source-wordcount: '339'
+ht-degree: 100%
 
 ---
 
@@ -24,10 +23,6 @@ ht-degree: 96%
 >title="Hinzufügen eines PDF-Anhangs"
 >abstract="Wählen Sie eine PDF-Datei aus, die Sie an die E-Mail anhängen möchten.</br>Pro Profil können pro Jahr bis zu 6 Nachrichten mit einem PDF-Anhang gesendet werden. Die maximale Dateigröße pro Anhang beträgt 5 MB.</br>Für zusätzliche Größen oder Volumen können Sie ein Zusatzpaket für Anhänge erwerben. Weitere Informationen erhalten Sie beim Adobe-Support."
 
->[!AVAILABILITY]
->
->Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
-
 Sie können eine statische PDF-Datei an die E-Mail-Nachrichten anhängen, die Sie mit [!DNL Journey Optimizer] senden.
 
 >[!IMPORTANT]
@@ -36,7 +31,7 @@ Sie können eine statische PDF-Datei an die E-Mail-Nachrichten anhängen, die Si
 >
 >* Die maximale Dateigröße pro Anhang beträgt 5 MB.
 >
->Für jede zusätzliche Größe oder jedes zusätzliche Volumen können Sie das Add-on PDF Attachments erwerben. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Für zusätzliche Größen oder Volumen können Sie das Zusatzpaket für PDF-Anhänge erwerben. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Gehen Sie wie folgt vor, um eine PDF-Datei an eine E-Mail-Nachricht anzuhängen.
 
