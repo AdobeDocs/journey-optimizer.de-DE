@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
-source-git-commit: 09a0b24c7e6ae071851a60f35f50e3f5048b0148
+source-git-commit: 4c0d5be4d8783818453683190d1371b8516bc3a4
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 51%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 51%
 
 >[!AVAILABILITY]
 >
->**Journey Optimizer Experimentation Accelerator** erfordert eine kostenpflichtige Lizenz und kann entweder mit Adobe Target oder Adobe Journey Optimizer verwendet werden.
+>**Journey Optimizer Experimentation Accelerator** erfordert eine gebührenpflichtige Kundenlizenz und lässt sich nahtlos mit Adobe Target oder Adobe Journey Optimizer integrieren.
 
 **Journey Optimizer Experimentation Accelerator** ist ein leistungsstarkes Tool zur Optimierung und Verbesserung des Experimentierprozesses. Durch die Integration mit Adobe Target und Adobe Journey Optimizer bietet das Tool eine zentrale Plattform für die Verwaltung, Analyse und Optimierung von Experimenten. Durch die Nutzung KI-gesteuerter Erkenntnisse und adaptiver Tests ermöglicht Ihnen der Journey Optimizer Experimentation Accelerator datengesteuerte Entscheidungen, verbessert Marketing-Strategien und steigert messbare Ergebnisse.
 
@@ -40,7 +40,7 @@ Zu den wichtigsten Vorteilen gehören:
 
 ## Zugriff auf Journey Optimizer Experimentation Accelerator
 
-Nachdem Sie [Experiment erstellt und konfiguriert &#x200B;](content-experiment.md) und Ihre Kampagnen oder Journey an Ihre Profile gesendet haben, können Sie auf die **[!UICONTROL Journey Optimizer Experimentation Accelerator]** zugreifen, um sich eingehender mit der Leistung Ihres Experiments zu befassen.
+Nachdem Sie [Experiment erstellt und konfiguriert ](content-experiment.md) und Ihre Kampagnen oder Journey an Ihre Profile gesendet haben, können Sie auf die **[!UICONTROL Journey Optimizer Experimentation Accelerator]** zugreifen, um sich eingehender mit der Leistung Ihres Experiments zu befassen.
 
 Der Zugriff auf **[!UICONTROL Journey Optimizer Experimentation Accelerator]** entweder über das Menü links in der Dropdown-Liste [!UICONTROL Experimentieren] oder über den Apps Switcher. Beachten Sie, dass Benutzende, die nur eine Target-Lizenz haben, ausschließlich über den Anwendungsschalter darauf zugreifen können.
 
