@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 64%
+source-wordcount: '937'
+ht-degree: 61%
 
 ---
 
@@ -53,7 +53,7 @@ Nachdem eine Entscheidungsrichtlinie erstellt wurde, können die Richtlinie und 
 
 >[!ENDTABS]
 
-1. Der Code für die Entscheidungsrichtlinie wird hinzugefügt. Diese Sequenz wird so oft wiederholt, wie Sie die Entscheidungsrichtlinie zurückgeben möchten. Wenn Sie beispielsweise bei der [Erstellung der Entscheidung](#add-decision) 2 Elemente zurückgeben möchten, wird dieselbe Sequenz zweimal wiederholt.
+Nachdem der Code für die Entscheidungsrichtlinie hinzugefügt wurde, wird diese Sequenz so oft wiederholt, wie oft Sie möchten, dass die Entscheidungsrichtlinie zurückgegeben wird. Wenn Sie beispielsweise bei der [Erstellung der Entscheidung](#add-decision) 2 Elemente zurückgeben möchten, wird dieselbe Sequenz zweimal wiederholt.
 
 ## Verwenden von Attributen von Entscheidungselementen {#attributes}
 
@@ -64,7 +64,7 @@ Jetzt können Sie alle gewünschten Entscheidungsattribute zu diesem Code hinzuf
 >[!NOTE]
 >
 >Für die Nachverfolgung von Entscheidungsrichtlinienelementen muss das `trackingToken`-Attribut wie folgt für Inhalte von Entscheidungsrichtlinien hinzugefügt werden:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Um ein Attribut hinzuzufügen, klicken Sie auf das Symbol &quot;+&quot; daneben. Sie können beliebig viele Attribute zum Code hinzufügen.
 
@@ -174,7 +174,7 @@ Sobald Ihre Entwickelnden bei Code-basierten Erlebnissen einen API- oder SDK-Auf
 
 >[!NOTE]
 >
->Derzeit können Sie in einer Kampagne oder Journey mit [Code-basiertem Erlebnis](../code-based/create-code-based.md) keine Inhalte über die Benutzeroberfläche mithilfe von Entscheidungen simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt &#x200B;](../code-based/code-based-decisioning-implementations.md).
+>Derzeit können Sie in einer Kampagne oder Journey mit [Code-basiertem Erlebnis](../code-based/create-code-based.md) keine Inhalte über die Benutzeroberfläche mithilfe von Entscheidungen simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt ](../code-based/code-based-decisioning-implementations.md).
 
 Um zu sehen, wie Ihre Entscheidungen funktionieren, können Sie benutzerdefinierte [Reporting-Dashboards für Customer Journey Analytics](cja-reporting.md) erstellen.
 

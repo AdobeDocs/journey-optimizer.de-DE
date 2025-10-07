@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
 workflow-type: tm+mt
 source-wordcount: '1428'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Um Ihre Fragmente zu verwalten, greifen Sie links über das Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]** auf die Fragmentliste zu.
 
-Es werden alle in der aktuellen Sandbox entweder [über das Menü **[!UICONTROL Fragmente]** oder](#create-fragments) die Option [Als Fragment speichern](#save-as-fragment) erstellten Fragmente angezeigt. 
+Es werden alle in der aktuellen Sandbox entweder [über das Menü **[!UICONTROL Fragmente]** oder](create-fragments.md#create-fragments) die Option [Als Fragment speichern](save-fragments.md) erstellten Fragmente angezeigt. 
 
 Im Bereich auf der linken Seite können Sie Fragmente in Ordnern organisieren. Standardmäßig werden alle Fragmente angezeigt. Bei der Auswahl eines Ordners werden nur die Fragmente und Ordner angezeigt, die im ausgewählten Ordner enthalten sind. [Weitere Informationen](#folders)
 

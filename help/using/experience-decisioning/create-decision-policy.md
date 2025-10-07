@@ -5,10 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '1745'
-ht-degree: 68%
+source-wordcount: '1721'
+ht-degree: 70%
 
 ---
 
@@ -37,7 +37,7 @@ Um Ihren Kunden das beste dynamische Angebot und Erlebnis zu bieten, fügen Sie 
 1. [Entscheidungsrichtlinie konfigurieren](#configurre) - Fügen Sie einen Namen hinzu und geben Sie die Anzahl der zurückzugebenden Elemente an.
 1. [Einrichten einer Strategiesequenz](#strategy) - Wählen Sie die Elemente aus, die mit der Entscheidungsrichtlinie zurückgegeben werden sollen.
 1. [Fallback-Angebote auswählen](#fallback) (optional) - Elemente auswählen, die angezeigt werden sollen, wenn keine Elemente oder Auswahlstrategien qualifiziert sind.
-1. [Überprüfen und &#x200B;](#review): Die Auswahlstrategie
+1. [Überprüfen und ](#review): Die Auswahlstrategie
 
 >[!AVAILABILITY]
 >
@@ -88,9 +88,9 @@ Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben
 
    ![](assets/decision-code-based-details.png)
 
-   Für den E-Mail **[!UICONTROL Kanal ist das Feld]** Anzahl von Elementen“ standardmäßig auf 1 festgelegt und kann nur geändert werden, wenn die Entscheidungsrichtlinie innerhalb einer „Wiederholungsraster **[!UICONTROL -Komponente hinzugefügt]**. Um mehrere Elemente in einer E-Mail zurückzugeben, müssen Sie eine Inhaltskomponente **[!UICONTROL Raster wiederholen]** hinzufügen, um mehrere Elemente im Feld **[!UICONTROL Anzahl der Elemente]** auswählen zu können. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
+   Für den E-Mail **[!UICONTROL Kanal ist das Feld]** Anzahl von Elementen“ standardmäßig auf 1 festgelegt und kann nur geändert werden, wenn die Entscheidungsrichtlinie innerhalb einer „Wiederholungsraster **[!UICONTROL -Komponente hinzugefügt]**. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
 
-   +++Zurückgeben mehrerer Entscheidungselemente in E-Mails
+   +++Zurückgeben mehrerer Entscheidungselemente in E-Mails mithilfe einer **[!UICONTROL Wiederholungsraster]**-Komponente
 
    1. Ziehen Sie eine **[!UICONTROL Raster wiederholen]**-Komponente in Ihre E-Mail und konfigurieren Sie sie mithilfe des Bereichs **[!UICONTROL Einstellungen]** wie gewünscht.
 
@@ -114,13 +114,9 @@ Im **[!UICONTROL Sequenz Strategie]** können Sie die Entscheidungselemente ausw
 
    ![](assets/decision-code-based-strategy-sequence.png)
 
-   * **[!UICONTROL Auswahlstrategie]** - Entscheidungsstrategien nutzen Sammlungen, die mit Eignungsbegrenzungen und Ranking-Methoden verknüpft sind, um die anzuzeigenden Elemente zu bestimmen.
+   * **[!UICONTROL Auswahlstrategie]** - Entscheidungsstrategien nutzen Sammlungen, die mit Eignungsbegrenzungen und Ranking-Methoden verknüpft sind, um die anzuzeigenden Elemente zu bestimmen. Sie können eine oder mehrere vorhandene Auswahlstrategien auswählen oder eine neue mithilfe der Schaltfläche **[!UICONTROL Auswahlstrategie erstellen]** erstellen. [Informationen zum Erstellen von Auswahlstrategien](selection-strategies.md)
 
-     Sie können eine oder mehrere vorhandene Auswahlstrategien auswählen oder eine neue mithilfe der Schaltfläche **[!UICONTROL Auswahlstrategie erstellen]** erstellen. [Informationen zum Erstellen von Auswahlstrategien](selection-strategies.md)
-
-   * **[!UICONTROL Entscheidungselement]** - Wählen Sie einzelne Entscheidungselemente aus, ohne eine Auswahlstrategie durchlaufen zu müssen.
-
-     Sie können jeweils nur ein Entscheidungselement auswählen. Es werden alle für das Element festgelegten Eignungsbegrenzungen angewendet.
+   * **[!UICONTROL Entscheidungselement]** - Wählen Sie einzelne Entscheidungselemente aus, ohne eine Auswahlstrategie durchlaufen zu müssen. Sie können jeweils nur ein Entscheidungselement auswählen. Es werden alle für das Element festgelegten Eignungsbegrenzungen angewendet.
 
    >[!NOTE]
    >
@@ -227,9 +223,7 @@ Sie können eine Entscheidungsrichtlinie jederzeit mithilfe der Schaltfläche mi
 
 ## Platzierung zuweisen (E-Mail) {#placement}
 
-Für E-Mails müssen Sie eine Platzierung für die Komponente definieren, die mit der Entscheidungsrichtlinie verknüpft ist.
-
-Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Entscheidung]** im Bereich Komponenteneigenschaften und wählen Sie **[!UICONTROL Platzierung zuweisen]**. [Informationen zum Arbeiten mit Platzierungen](../experience-decisioning/placements.md)
+Für E-Mails müssen Sie eine Platzierung für die Komponente definieren, die mit der Entscheidungsrichtlinie verknüpft ist. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Entscheidung]** im Bereich Komponenteneigenschaften und wählen Sie **[!UICONTROL Platzierung zuweisen]**. [Informationen zum Arbeiten mit Platzierungen](../experience-decisioning/placements.md)
 
 ![](assets/decision-policy-rail.png)
 
