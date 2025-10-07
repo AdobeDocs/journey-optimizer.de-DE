@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 65%
+source-wordcount: '936'
+ht-degree: 64%
 
 ---
 
@@ -19,29 +19,39 @@ Nachdem eine Entscheidungsrichtlinie erstellt wurde, können die Richtlinie und 
 
 ## Einfügen des Entscheidungsrichtlinien-Codes {#insert-code}
 
-1. Öffnen Sie den Personalisierungseditor und rufen Sie das Menü **[!UICONTROL Entscheidungsrichtlinie]** auf.
+>[!BEGINTABS]
 
-1. Wählen Sie **[!UICONTROL Richtlinie einfügen]** (Code-basiertes Erlebnis) oder **[!UICONTROL Syntax einfügen]** (E-Mail) aus, um den Code hinzuzufügen, der der Entscheidungsrichtlinie entspricht.
+>[!TAB Code-basiertes Erlebnis]
 
-   +++Einfügen des Entscheidungsrichtlinien-Codes in E-Mails
+1. Öffnen Sie den Personalisierungseditor und rufen Sie das Menü **[!UICONTROL Entscheidungsrichtlinien]** auf.
 
-   ![](assets/decision-policy-add.png)
-
-   Wenn der Komponente noch keine Platzierung zugeordnet wurde, wählen Sie für E-Mails eine Platzierung aus der Liste aus und klicken Sie auf **[!UICONTROL Zuweisen]**.
-
-   ![](assets/decision-policy-placement.png)
-
-   +++
-
-   +++Einfügen des Entscheidungsrichtlinien-Codes in ein Code-basiertes Erlebnis
+1. Wählen Sie **[!UICONTROL Richtlinie einfügen]**, um den Code hinzuzufügen, der der Entscheidungsrichtlinie entspricht.
 
    ![](assets/decision-code-based-add-decision.png)
-
-   +++
 
    >[!NOTE]
    >
    >Wenn die Schaltfläche zum Einfügen von Code nicht angezeigt wird, wurde möglicherweise bereits eine Entscheidungsrichtlinie für die übergeordnete Komponente konfiguriert.
+
+1. Der Code für die Entscheidungsrichtlinie wird hinzugefügt. Diese Sequenz wird so oft wiederholt, wie Sie die Entscheidungsrichtlinie zurückgeben möchten. Wenn Sie beispielsweise bei der [Erstellung der Entscheidung](#add-decision) 2 Elemente zurückgeben möchten, wird dieselbe Sequenz zweimal wiederholt.
+
+>[!TAB E-Mail]
+
+1. Öffnen Sie den Personalisierungseditor und rufen Sie das Menü **[!UICONTROL Entscheidungsrichtlinie]** auf.
+
+1. Wählen Sie **[!UICONTROL Syntax einfügen]**, um den Code hinzuzufügen, der der Entscheidungsrichtlinie entspricht.
+
+   ![](assets/decision-policy-add.png)
+
+   >[!NOTE]
+   >
+   >Wenn die Schaltfläche zum Einfügen von Code nicht angezeigt wird, wurde möglicherweise bereits eine Entscheidungsrichtlinie für die übergeordnete Komponente konfiguriert.
+
+1. Wenn der Komponente zuvor keine Platzierung zugeordnet wurde, wählen Sie eine Platzierung aus der Liste aus und klicken Sie auf **[!UICONTROL Zuweisen]**.
+
+   ![](assets/decision-policy-placement.png)
+
+>[!ENDTABS]
 
 1. Der Code für die Entscheidungsrichtlinie wird hinzugefügt. Diese Sequenz wird so oft wiederholt, wie Sie die Entscheidungsrichtlinie zurückgeben möchten. Wenn Sie beispielsweise bei der [Erstellung der Entscheidung](#add-decision) 2 Elemente zurückgeben möchten, wird dieselbe Sequenz zweimal wiederholt.
 
@@ -54,7 +64,7 @@ Jetzt können Sie alle gewünschten Entscheidungsattribute zu diesem Code hinzuf
 >[!NOTE]
 >
 >Für die Nachverfolgung von Entscheidungsrichtlinienelementen muss das `trackingToken`-Attribut wie folgt für Inhalte von Entscheidungsrichtlinien hinzugefügt werden:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Um ein Attribut hinzuzufügen, klicken Sie auf das Symbol &quot;+&quot; daneben. Sie können beliebig viele Attribute zum Code hinzufügen.
 
@@ -164,7 +174,7 @@ Sobald Ihre Entwickelnden bei Code-basierten Erlebnissen einen API- oder SDK-Auf
 
 >[!NOTE]
 >
->Derzeit können Sie in einer Kampagne oder Journey mit [Code-basiertem Erlebnis](../code-based/create-code-based.md) keine Inhalte über die Benutzeroberfläche mithilfe von Entscheidungen simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt &#x200B;](../code-based/code-based-decisioning-implementations.md).
+>Derzeit können Sie in einer Kampagne oder Journey mit [Code-basiertem Erlebnis](../code-based/create-code-based.md) keine Inhalte über die Benutzeroberfläche mithilfe von Entscheidungen simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt ](../code-based/code-based-decisioning-implementations.md).
 
 Um zu sehen, wie Ihre Entscheidungen funktionieren, können Sie benutzerdefinierte [Reporting-Dashboards für Customer Journey Analytics](cja-reporting.md) erstellen.
 

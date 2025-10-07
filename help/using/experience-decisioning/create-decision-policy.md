@@ -5,10 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 73%
+source-wordcount: '1745'
+ht-degree: 68%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 73%
 >abstract="Die Abfolge der Auswahlstrategie bestimmt, welche Strategie zuerst bewertet wird. Es ist mindestens eine Strategie erforderlich. Entscheidungspunkte in kombinierten Strategien werden gemeinsam bewertet."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Erstellen von Strategien"
 
-Um Ihren Kunden das beste dynamische Angebot und Erlebnis zu bieten, fügen Sie Ihrem Inhalt in einer Kampagne oder auf einer Journey eine Entscheidungsrichtlinie hinzu. Konfigurieren Sie dann die zurückzugebenden Elemente und die zu verwendende Auswahlstrategie. Gehen Sie dazu wie folgt vor.
+Um Ihren Kunden das beste dynamische Angebot und Erlebnis zu bieten, fügen Sie Ihrem Inhalt in einer Kampagne oder auf einer Journey eine Entscheidungsrichtlinie hinzu. Konfigurieren Sie dann die zurückzugebenden Elemente und die zu verwendende Auswahlstrategie. Gehen Sie dazu wie folgt vor:
+
+1. [Entscheidungsrichtlinie hinzufügen](#add) - Vom Personalization-Editor oder der E-Mail-Designer.
+1. [Entscheidungsrichtlinie konfigurieren](#configurre) - Fügen Sie einen Namen hinzu und geben Sie die Anzahl der zurückzugebenden Elemente an.
+1. [Einrichten einer Strategiesequenz](#strategy) - Wählen Sie die Elemente aus, die mit der Entscheidungsrichtlinie zurückgegeben werden sollen.
+1. [Fallback-Angebote auswählen](#fallback) (optional) - Elemente auswählen, die angezeigt werden sollen, wenn keine Elemente oder Auswahlstrategien qualifiziert sind.
+1. [Überprüfen und ](#review): Die Auswahlstrategie
 
 >[!AVAILABILITY]
 >
@@ -51,9 +57,7 @@ Um Ihren Kunden das beste dynamische Angebot und Erlebnis zu bieten, fügen Sie 
    >
    >Beachten Sie, dass in der E-Mail konfigurierte Entscheidungsrichtlinien nicht in der Vorlage gespeichert werden. Wenn Sie die Vorlage auf eine andere E-Mail anwenden, müssen Sie die Richtlinie neu konfigurieren.
 
-1. Öffnen Sie den Personalisierungseditor, um die Entscheidungsrichtlinie zu erstellen.
-
-   Für E-Mails können Sie auch ein dediziertes Menü im E-Mail-Designer verwenden, um eine Entscheidungsrichtlinie zu erstellen. Erweitern Sie die folgenden Abschnitte, um die beiden Methoden zu erkunden.
+1. Öffnen Sie den **Personalisierungseditor**, um die Entscheidungsrichtlinie zu erstellen. Für E-Mails können Sie auch ein dediziertes Menü im **E-Mail-Designer** verwenden, um eine Entscheidungsrichtlinie zu erstellen. Erweitern Sie die folgenden Abschnitte, um die beiden Methoden zu erkunden.
 
    +++Erstellen einer Entscheidungsrichtlinie mit dem Personalization-Editor
 
@@ -74,7 +78,7 @@ Um Ihren Kunden das beste dynamische Angebot und Erlebnis zu bieten, fügen Sie 
 
    +++
 
-## Konfigurieren der Details der Entscheidungsrichtlinie {#configure}
+## Entscheidungsrichtlinie konfigurieren {#configure}
 
 Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, wird der Konfigurationsbildschirm für Entscheidungsrichtlinien geöffnet.
 
@@ -84,9 +88,9 @@ Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben
 
    ![](assets/decision-code-based-details.png)
 
-   Wenn Sie mehrere Elemente in einer E-Mail zurückgeben möchten, müssen Sie eine Inhaltskomponente **[!UICONTROL Raster wiederholen]** verwenden. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
+   Für den E-Mail **[!UICONTROL Kanal ist das Feld]** Anzahl von Elementen“ standardmäßig auf 1 festgelegt und kann nur geändert werden, wenn die Entscheidungsrichtlinie innerhalb einer „Wiederholungsraster **[!UICONTROL -Komponente hinzugefügt]**. Um mehrere Elemente in einer E-Mail zurückzugeben, müssen Sie eine Inhaltskomponente **[!UICONTROL Raster wiederholen]** hinzufügen, um mehrere Elemente im Feld **[!UICONTROL Anzahl der Elemente]** auswählen zu können. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
 
-   +++ Zurückgeben mehrerer Entscheidungselemente in E-Mails
+   +++Zurückgeben mehrerer Entscheidungselemente in E-Mails
 
    1. Ziehen Sie eine **[!UICONTROL Raster wiederholen]**-Komponente in Ihre E-Mail und konfigurieren Sie sie mithilfe des Bereichs **[!UICONTROL Einstellungen]** wie gewünscht.
 
@@ -102,7 +106,7 @@ Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
-## Elemente auswählen und Auswahlstrategien einrichten {#select}
+## Einrichten einer Strategiesequenz {#strategy}
 
 Im **[!UICONTROL Sequenz Strategie]** können Sie die Entscheidungselemente auswählen und Auswahlstrategien einrichten, die mit der Entscheidungsrichtlinie angezeigt werden.
 
@@ -203,7 +207,7 @@ Es können beliebige Elemente aus der Liste ausgewählt werden, die alle in der 
 >[!NOTE]
 > Fallbacks sind optional. Es können maximal so viele Elemente ausgewählt werden, wie angefordert wurden. Wenn es keine geeigneten gibt und kein Fallback festgelegt ist, wird nichts angezeigt.
 
-## Entscheidungsrichtlinie überprüfen und speichern {#save}
+## Entscheidungsrichtlinie überprüfen und speichern {#review}
 
 Nachdem Sie eine Auswahlstrategie konfiguriert und Fallback-Angebote hinzugefügt haben, klicken Sie auf **[!UICONTROL Weiter]**, um Ihre Entscheidungsrichtlinie zu überprüfen und zu speichern, und klicken Sie dann auf **[!UICONTROL Erstellen]**, um die Richtlinienerstellung zu bestätigen.
 
