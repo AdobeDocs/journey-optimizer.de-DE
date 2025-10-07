@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 73%
@@ -234,3 +234,4 @@ Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Entscheidung]** im Bereich 
 Nachdem Sie nun wissen, wie Sie eine Entscheidungsrichtlinie erstellen, können Sie sie in [!DNL Journey Optimizer] Kanälen verwenden, um Angebote zu unterbreiten.
 
 ➡️ [Erfahren Sie, wie Sie Entscheidungsrichtlinien in Nachrichten verwenden](../experience-decisioning/use-decision-policy.md)
+

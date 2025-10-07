@@ -5,7 +5,7 @@ title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie direkt über die Benutzeroberfläche modellbasierte Schemata erstellen können.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: d910abc164a713c7d8634cdd11cc4cd8b42be398
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 87%
@@ -28,7 +28,7 @@ Im folgenden Beispiel wird das Schema **Mitgliedschaft in Treueprogramm** manuel
 
 1. [Nehmen Sie Daten](ingest-data.md) aus unterstützten Quellen in Ihren Datensatz auf.
 
-➡️ [Weitere Informationen zu manuellen modellbasierten Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Weitere Informationen zu manuellen modellbasierten Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Erstellen Ihres Schemas {#schema}
 
