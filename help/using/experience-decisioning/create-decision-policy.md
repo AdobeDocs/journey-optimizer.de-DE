@@ -37,7 +37,7 @@ Um Ihren Kunden das beste dynamische Angebot und Erlebnis zu bieten, fügen Sie 
 1. [Entscheidungsrichtlinie konfigurieren](#configurre) - Fügen Sie einen Namen hinzu und geben Sie die Anzahl der zurückzugebenden Elemente an.
 1. [Einrichten einer Strategiesequenz](#strategy) - Wählen Sie die Elemente aus, die mit der Entscheidungsrichtlinie zurückgegeben werden sollen.
 1. [Fallback-Angebote auswählen](#fallback) (optional) - Elemente auswählen, die angezeigt werden sollen, wenn keine Elemente oder Auswahlstrategien qualifiziert sind.
-1. [Überprüfen und ](#review): Die Auswahlstrategie
+1. [Überprüfen und &#x200B;](#review): Die Auswahlstrategie
 
 >[!AVAILABILITY]
 >
