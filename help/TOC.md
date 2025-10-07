@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2969'
 ht-degree: 99%
 
 ---
@@ -700,7 +700,10 @@ ht-degree: 99%
          + [Verwenden von Kontextdaten](using/experience-decisioning/context-data.md)
          + [Verwenden von Adobe Experience Platform für die Entscheidungsfindung](using/experience-decisioning/aep-data-exd.md)
       + [Erstellen von Auswahlstrategien](using/experience-decisioning/selection-strategies.md)
-      + [Erstellen von Entscheidungsrichtlinien](using/experience-decisioning/create-decision.md)
+      + Unterbreiten von Angeboten mithilfe von Entscheidungsrichtlinien {#decision-policies}
+         + [Erste Schritte mit Entscheidungsrichtlinien](using/experience-decisioning/create-decision.md)
+         + [Erstellen von Entscheidungsrichtlinien](using/experience-decisioning/create-decision-policy.md)
+         + [Verwenden von Entscheidungsrichtlinien in Nachrichten](using/experience-decisioning/use-decision-policy.md)
       + [Berichten über Entscheidungsfindung](using/experience-decisioning/cja-reporting.md)
       + [Anwendungsfall für die Entscheidungsfindung](using/experience-decisioning/experience-decisioning-uc.md)
       + Erfassen von Ereignisdaten {#experience-decisioning-collect-event-data}
