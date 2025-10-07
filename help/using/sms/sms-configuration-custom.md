@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 88%
+source-wordcount: '1355'
+ht-degree: 86%
 
 ---
 
@@ -173,7 +173,7 @@ Wenn keine Opt-in- oder Opt-out-Keywords angegeben werden, werden standardmäßi
 
 >[!ENDSHADEBOX]
 
-Nachdem Ihre API-Anmeldedaten erfolgreich erstellt wurden, besteht der nächste Schritt darin, einen Webhook zu erstellen und Ihre Einstellungen für „eingehend“ zu konfigurieren. Diese Konfiguration stellt sicher, dass Ihr System eingehende Daten oder Nachrichten ordnungsgemäß empfangen und verarbeiten kann.
+Nachdem Ihre API-Anmeldeinformationen erfolgreich erstellt wurden, können Sie jetzt Webhooks konfigurieren, um eingehende Antworten für die Verwaltung des Opt-in- und Opt-out-Einverständnisses zu erfassen und Versandberichte, einschließlich Lesebestätigungen, sofern verfügbar, zu erhalten.
 
 Beim Einrichten eines Webhooks können Sie seinen Zweck basierend auf dem Typ der Daten definieren, die Sie erfassen möchten:
 

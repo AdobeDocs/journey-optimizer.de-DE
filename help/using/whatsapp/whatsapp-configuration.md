@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -84,7 +84,7 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie n
 >
 >Ohne angegebene Opt-in- oder Opt-out-Keywords sind standardmäßige Einverständnisnachrichten nicht aktiviert.
 
-Nachdem Ihre API-Anmeldedaten erfolgreich erstellt wurden, besteht der nächste Schritt darin, einen Webhook zu erstellen und Ihre Einstellungen für „eingehend“ zu konfigurieren.
+Nachdem Ihre WhatsApp-API-Anmeldeinformationen erfolgreich erstellt wurden, können Sie jetzt Webhooks konfigurieren, um eingehende Antworten für die Verwaltung des Opt-in- und Opt-out-Einverständnisses zu erfassen und Versandberichte, einschließlich Lesebestätigungen, sofern verfügbar, zu erhalten.
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL WhatsApp-Webhooks]** unter **[!UICONTROL WhatsApp-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
 
@@ -180,6 +180,6 @@ Im folgenden Video erfahren Sie, wie Sie den WhatsApp-Kanal in Adobe Journey Opt
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470277/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
