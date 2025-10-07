@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '189'
 ht-degree: 100%
 
 ---
@@ -40,16 +40,14 @@ Aktionskampagnen (oder geplante Kampagnen) ermöglichen einfache, im Batch verse
 
 ## Wichtige Schritte beim Erstellen einer Aktionskampagne {#steps}
 
+Bevor Sie mit Kampagnen beginnen, überprüfen Sie [in diesem Abschnitt](get-started-with-campaigns.md#permissions) die folgenden Voraussetzungen. Sobald diese Voraussetzungen erfüllt sind, können Sie mit der Erstellung Ihrer Kampagne beginnen:
+
 1. [Definieren der Eigenschaften einer Aktionskampagne](campaign-properties.md)
 1. [Konfigurieren der Kampagnenaktion](campaign-action.md)
 1. [Bearbeiten des Inhalts einer Aktionskampagne](campaign-content.md)
 1. [Definieren der Zielgruppe einer Aktionskampagne](campaign-audience.md)
 1. [Planen der Aktionskampagne](campaign-schedule.md)
 1. [Überprüfen und Aktivieren der Aktionskampagne](review-activate-campaign.md)
-
->[!IMPORTANT]
->
->Bevor Sie Ihre Kampagne erstellen, sollten Sie sich mit den allgemeinen [Kampagnenvoraussetzungen](../campaigns/get-started-with-campaigns.md#prerequisites) vertraut machen.
 
 ## Anleitungsvideos {#video}
 

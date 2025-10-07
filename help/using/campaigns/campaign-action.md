@@ -10,8 +10,8 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
-workflow-type: ht
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 100%
 
@@ -21,14 +21,11 @@ ht-degree: 100%
 
 Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfiguration für Ihre Nachricht auszuwählen und um zusätzliche Einstellungen wie Tracking, Inhaltsexperimente oder mehrsprachige Inhalte zu konfigurieren.
 
-
-
 1. **Auswählen des Kanals**
 
    Navigieren Sie zur Registerkarte **[!UICONTROL Aktionen]**, klicken Sie auf die Schaltfläche **[!UICONTROL Aktion hinzufügen]** und wählen Sie den Kommunikationskanal aus.
 
    ![](assets/create-campaign-add-action.png)
-
 
    >[!NOTE]
    >

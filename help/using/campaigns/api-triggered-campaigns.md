@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,8 @@ Für von einem API ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push
 
 ## Wichtige Schritte beim Erstellen von Kampagnen, die durch API ausgelöst werden {#steps}
 
+Bevor Sie mit Kampagnen beginnen, überprüfen Sie [in diesem Abschnitt](get-started-with-campaigns.md#permissions) die folgenden Voraussetzungen. Sobald diese Voraussetzungen erfüllt sind, können Sie mit der Erstellung Ihrer Kampagne beginnen:
+
 1. [Definieren der Kampagneneigenschaften](api-triggered-campaign-properties.md)
 1. [Konfigurieren der Kampagnenaktion](api-triggered-campaign-action.md)
 1. [Bearbeiten des Kampagneninhalts](api-triggered-campaign-content.md)
@@ -51,12 +53,8 @@ Für von einem API ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push
 1. [Prüfen und Aktivieren der Kampagne](review-activate-api-triggered-campaign.md)
 1. [Auslösen der Kampagnenausführung](trigger-campaigns.md)
 
->[!IMPORTANT]
->
->Bevor Sie Ihre Kampagne erstellen, sollten Sie sich mit den allgemeinen [Kampagnenvoraussetzungen](../campaigns/get-started-with-campaigns.md#prerequisites) vertraut machen.
-
 ## Anleitungsvideos {#video}
 
 Erfahren Sie, wie Sie eine Kampagne erstellen und sie von einem externen System aus basierend auf Benutzerinteraktionen auslösen, indem Sie das REST-API zur Ausführung interaktiver Nachrichten verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452734?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

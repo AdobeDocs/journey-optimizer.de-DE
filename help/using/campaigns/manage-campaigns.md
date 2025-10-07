@@ -10,33 +10,14 @@ mini-toc-levels: 1
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1709'
 ht-degree: 100%
 
 ---
 
 # Zugreifen auf und Verwalten von Kampagnen {#manage-campaigns}
-
-Bevor Sie mit Kampagnen beginnen, überprüfen Sie [in diesem Abschnitt](get-started-with-campaigns.md#permissions) die folgenden Voraussetzungen. Sobald diese Voraussetzungen erfüllt sind, können Sie mit der Erstellung Ihrer Kampagne beginnen:
-
-* **Rufen Sie Kampagnen auf**. Der Zugriff auf Kampagnen erfolgt entweder über die [Kampagnenliste](#access) oder den [Kampagnenkalender](#calendar).
-
-* **Erstellen Sie die Kampagne**. Die Erstellungsschritte hängen vom [Kampagnentyp](get-started-with-campaigns.md#get-started-with-campaigns) ab. Erfahren Sie, wie Sie eine [Aktionskampagne](../campaigns/create-campaign.md), eine [per API ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) oder eine [orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md) erstellen können.
-
-* **Definieren Sie die Kampagneneigenschaften**. Erfahren Sie, wie Sie Eigenschaften für eine [Aktionskampagne](../campaigns/campaign-properties.md), eine [per API ausgelöste Kampagne](../campaigns/api-triggered-campaign-properties.md) oder eine [orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md) festlegen können.
-
-* **Definieren Sie die Kampagnenkanäle und Inhalte**. Erfahren Sie, wie Sie die Inhalte einer [Aktionskampagne](../campaigns/campaign-content.md), einer [per API ausgelösten Kampagne](../campaigns/api-triggered-campaign-content.md) oder einer [orchestrierten Kampagne](../orchestrated/orchestrate-activities.md) definieren können.
-
-* **Planen Sie Ihre Kampagne** – Geplante Kampagnen können [im Kampagnenkalender](#calendar) geprüft werden.
-
-Beginnen Sie dann mit dem Testen und verbessern und verfeinern Sie Ihre Kampagne, bevor Sie sie ausführen. Sobald Ihre Kampagne live ist, können Sie sie überwachen und auf Berichte zugreifen.
-
-Sehen Sie sich [in diesem Abschnitt](#statuses) alle Kampagnenstatus und Warnhinweise an.
-
-
-## Zugriff auf Kampagnen {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
