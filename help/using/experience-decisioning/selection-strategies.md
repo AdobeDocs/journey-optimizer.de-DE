@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: d809b63ac3a656f4e3119c46ec26e54c71fdaa6d
+source-git-commit: d61dfddc1a7369f1246973932e1f849c0d3eafed
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 99%
+source-wordcount: '721'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 99%
 >id="ajo_exd_config_strategies"
 >title="Definieren von Auswahlstrategien"
 >abstract="Eine Auswahlstrategie ist wiederverwendbar und setzt sich aus einer Sammlung zusammen, die mit einer Eignungsbegrenzung verknüpft ist, und einer Rangfolgenmethode, mit der bestimmt wird, welche Angebote angezeigt werden, wenn sie in einer Entscheidungsrichtlinie ausgewählt sind."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision" text="Erstellen von Entscheidungsrichtlinien"
+
+<!--
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision" text="Create decision policies"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
@@ -88,7 +90,9 @@ Gehen Sie wie folgt vor, um eine neue Auswahlstrategie zu erstellen.
 >id="ajo_exd_strategy_ranking"
 >title="Festlegen der Rangfolge von Angeboten"
 >abstract="Wenn mehrere Angebote für eine bestimmte Auswahlstrategie infrage kommen, kann beim Erstellen einer Entscheidungsstrategie die Methode gewählt werden, die für jedes Profil das beste Angebot auswählt: Priorität oder Ranglistenformel."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="Erstellen von Entscheidungsrichtlinien"
+
+<!--
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="Create decision policies"-->
 
 Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Sie beim Erstellen einer Entscheidungsstrategie die Methode wählen, die für jedes Profil das beste Angebot auswählt. Sie können Angebote nach folgenden Kriterien sortieren:
 
