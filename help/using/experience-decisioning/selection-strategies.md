@@ -87,7 +87,7 @@ Gehen Sie wie folgt vor, um eine neue Auswahlstrategie zu erstellen.
 >id="ajo_exd_strategy_ranking"
 >title="Festlegen der Rangfolge von Angeboten"
 >abstract="Wenn mehrere Angebote für eine bestimmte Auswahlstrategie infrage kommen, kann beim Erstellen einer Entscheidungsstrategie die Methode gewählt werden, die für jedes Profil das beste Angebot auswählt: Priorität oder Ranglistenformel."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="Erstellen von Entscheidungsrichtlinien"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html?lang=de" text="Erstellen von Entscheidungsrichtlinien"
 
 Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Sie beim Erstellen einer Entscheidungsstrategie die Methode wählen, die für jedes Profil das beste Angebot auswählt. Sie können Angebote nach folgenden Kriterien sortieren:
 
