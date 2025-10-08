@@ -5,10 +5,10 @@ title: Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 description: Grundlegendes über Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 97%
 
 ---
 
@@ -68,6 +68,8 @@ Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung
 * Der bei der Erstellung des Datensatzes zugewiesene `table_name` ist dauerhaft und wird in allen Segmentierungs- und Personalisierungsfunktionen verwendet.
 
 * Im aktuellen Datenmodellierungs-Framework **werden Feldergruppen nicht unterstützt**.
+
+* Die Unterstützung für zusammengesetzte Primärschlüssel mit Datei-Upload-Flüssen ist derzeit nicht verfügbar.
 
 ## Einschränkungen bei Aktivitäten
 

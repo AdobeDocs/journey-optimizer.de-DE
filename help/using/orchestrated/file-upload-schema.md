@@ -5,10 +5,10 @@ title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie in Adobe Experience Platform durch Hochladen einer DDL-Datei ein modellbasiertes Schema erstellen
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 93%
+source-wordcount: '1084'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ In diesem Abschnitt wird Schritt für Schritt erklärt, wie sich ein modellbasie
 
 1. [Nehmen Sie Daten](ingest-data.md) aus unterstützten Quellen in Ihren Datensatz auf.
 
-➡️ [Weitere Informationen zu modellbasierten Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/model-based)
+➡️ [Weitere Informationen zu modellbasierten Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## Hochladen einer DDL-Datei{#ddl-upload}
 
@@ -149,6 +149,10 @@ Sie können beim Erstellen Ihres Schemas Beziehungen direkt in der DDL-Datei ang
    * **Automatisches Layout erzwingen**: Lassen Sie Schemata zur besseren Organisation automatisch anordnen.
 
    * **Zuordnung anzeigen**: Schalten Sie eine Miniatur-Zuordnungsüberlagerung ein, um leichter durch große oder komplexe Schema-Layouts zu navigieren.
+
+   * **Alle erweitern/** reduzieren: Schnelles Erweitern oder Reduzieren aller Schemaknoten, um ihre Attribute ein- oder auszublenden.
+
+   * **Download**: Laden Sie das ER-Diagramm als .png-Datei herunter.
 
 1. Klicken Sie auf **Speichern**, sobald Sie fertig sind. Diese Aktion erstellt die Schemata und die zugehörigen Datensätze und ermöglicht die Verwendung des Datensatzes in orchestrierten Kampagnen.
 
