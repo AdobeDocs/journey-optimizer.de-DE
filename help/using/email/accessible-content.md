@@ -30,7 +30,7 @@ Dementsprechend finden Sie im Folgenden Best Practices für die Gestaltung barri
 >
 >Auf dieser Seite geht es darum, Ihre Inhalte für alle Empfängerinnen und Empfänger barrierefrei zu machen, um sicherzustellen, dass Menschen mit Behinderungen Ihre mit [!DNL Journey Optimizer] entworfenen E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
 >
->Dagegen wird die Barrierefreiheit der [!DNL Journey Optimizer]-Schnittstelle selbst in ([ Abschnitt) ](../start/accessibility.md).
+>Dagegen wird die Barrierefreiheit der [!DNL Journey Optimizer]-Schnittstelle selbst in ([&#x200B; Abschnitt) &#x200B;](../start/accessibility.md).
 
 ## Sicherstellen der Lesbarkeit von Text {#text-readability}
 
