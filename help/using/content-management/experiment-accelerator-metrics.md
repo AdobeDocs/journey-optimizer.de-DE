@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 664f6bafd4cfb4d86b7a449c279484ca49933247
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -50,9 +50,11 @@ Jeder Wert enthält eine prozentuale Änderung gegenüber dem vorherigen Zeitrau
 
 ### Experimenteffekt
 
+![](assets/experiment-monitor-metrics-3.png)
+
 In diesem Abschnitt werden alle aktiven Experimente innerhalb des ausgewählten Zeitraums (letzte 90 Tage, letzte 30 Tage oder letzte 7 Tage) angezeigt und ihr Beitrag zur Metrik hervorgehoben.
 
-Folgende Metriken sind verfügbar:
+Die folgenden Metriken sind verfügbar:
 
 * **[!UICONTROL Steigerung]**: Messung der prozentualen Verbesserung der Konversionsrate einer bestimmten Abwandlung im Vergleich zur Baseline.
 
