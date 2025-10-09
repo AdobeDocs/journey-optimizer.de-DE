@@ -92,7 +92,7 @@ In der iOS-Version wird eine Kategoriekennung der Benachrichtigung angegeben. Be
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"
 >title="Über stille Benachrichtigungen"
->abstract="Senden von Benachrichtigungen, ohne den Benutzer zu stören, denn die Benachrichtigungen werden nicht im Benachrichtigungszentrum oder in der Benachrichtigungsleiste angezeigt."
+>abstract="Senden von Benachrichtigungen, ohne den Benutzer bzw. die Benutzerin zu stören, denn die Benachrichtigungen werden nicht im Benachrichtigungszentrum oder in der Benachrichtigungsleiste angezeigt."
 
 Eine stille Push-Benachrichtigung (oder Hintergrundbenachrichtigung) ist eine versteckte Anweisung, die an die Mobile App gesendet wird. Sie wird beispielsweise verwendet, um Ihre Mobile App über die Verfügbarkeit von neuem Inhalt zu informieren oder einen Download im Hintergrund zu starten.
 
