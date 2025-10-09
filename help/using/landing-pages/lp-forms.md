@@ -13,7 +13,7 @@ hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Um Profildaten mit Ihren [!DNL Journey Optimizer]-Landingpages zu erfassen und I
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
 >title="Auswählen des zu verwendenden Endpunkts"
->abstract="Definieren Sie den Streaming-Endpunkt, an den Daten beim Übermitteln des Formulars gesendet werden."
+>abstract="Den Streaming-Endpunkt definieren, an den Daten beim Senden des Formulars gesendet werden."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Erstellen einer HTTP-API-Streaming-Verbindung"
 
 >[!CONTEXTUALHELP]
