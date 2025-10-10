@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
+source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 100%
+source-wordcount: '1691'
+ht-degree: 85%
 
 ---
 
@@ -123,9 +123,13 @@ Bei der **[!UICONTROL URL zum Abmelden mit einem Klick]** muss es sich um eine P
 
 Sollten Sie bei ausgewählter Option **[!UICONTROL Kundenseitig verwaltet]** benutzerdefinierte Endpunkte eingeben und diese in einer Kampagne oder Journey verwenden, fügt [!DNL Journey Optimizer] einige standardmäßige profilspezifische Parameter an das Ereignis zur Einverständnisaktualisierung an, <!--sent to the custom endpoint -->wenn die Empfängerinnen und Empfänger auf den Abmelde-Link klicken.
 
-Um Ihre benutzerdefinierte **[!UICONTROL URL zum Abmelden mit einem Klick]** weiter zu personalisieren, können Sie benutzerdefinierte Attribute festlegen, die ebenfalls an das Einverständnisereignis angehängt werden.
+Um Ihre Endpunkte weiter zu <!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)-->, können Sie benutzerdefinierte Attribute definieren, die auch an das Einverständnisereignis angehängt werden.
 
-Verwenden Sie dazu den Abschnitt **[!UICONTROL URL-Tracking-Parameter]**. Alle URL-Tracking-Parameter, die Sie im entsprechenden Abschnitt definieren, werden zusätzlich zu den Standardparametern an das Ende Ihrer benutzerdefinierten URL zum Abmelden mit einem Klick angehängt. [Informationen dazu, wie Sie benutzerdefiniertes URL-Tracking festlegen](url-tracking.md)
+>[!AVAILABILITY]
+>
+>Für die Option **[!UICONTROL Mailto (unsubscribe)]** ist diese Funktion in begrenzter Verfügbarkeit verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten. In diesem Fall müssen Sie die neuen Abfrageparameter verwenden, die im Abschnitt **Mailto (unsubscribe) mit benutzerdefinierten Attributen (eingeschränkte Verfügbarkeit)** unten beschrieben [](#configure-decrypt-api).
+
+Um benutzerdefinierte Attribute für Ihre Endpunkte zu definieren, verwenden Sie den Abschnitt **[!UICONTROL URL-Tracking]** Parameter. Alle URL-Tracking-Parameter, die Sie im entsprechenden Abschnitt definieren, werden zusätzlich zu den Standardparametern an das Ende Ihrer benutzerdefinierten Endpunkte angehängt. [Informationen dazu, wie Sie benutzerdefiniertes URL-Tracking festlegen](url-tracking.md)
 
 ### Konfigurieren der Entschlüsselungs-API {#configure-decrypt-api}
 
@@ -220,5 +224,47 @@ Einverständnisantwort:
     "timestamp": "2024-11-26T14:25:09.316930Z"
 }
 ```
+
++++
+
++++ Mailto (abmelden) mit benutzerdefinierten Attributen (begrenzte Verfügbarkeit)
+
+Mit der Option **[!UICONTROL E-Mail an (abmelden)]** wird durch Klicken auf den Abmelde-Link eine vorausgefüllte E-Mail an die angegebene Abmelde-Adresse gesendet.
+
+Ab Oktober 2025 können Sie bei Verwendung der Option **[!UICONTROL Kundenverwaltet]** für den Endpunkt **[!UICONTROL Mailto (unsubscribe)]** benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden. In diesem Fall müssen Sie die unten beschriebenen Abfrageparameter verwenden.
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+
+Dieser GET-Aufruf sieht wie folgt aus:
+
+Endpunkt: https://platform.adobe.io/journey/imp/consent/decrypt
+
+Abfrageparameter:
+
+* **emailParamsSub**: Zeichenfolge, die aus dem Betreff der E-Mail extrahiert wurde, die an der Mailto-Adresse empfangen wurde.
+
+   * Beispiel: *unsubscribev1.abc*
+
+   * Parser-Wert: *v1.abc*
+
+* **emailParamsBody**: Zeichenfolge, die aus dem E-Mail-Textkörper (falls vorhanden) im Format *unsubscribeV1.xyz)* wurde.
+
+   * Parser-Wert: *v1.xyz*
+
+API-Beispiel: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
+
+>[!CAUTION]
+>
+>Wenn Sie die vorherige Implementierung verwendet haben (z. B.: https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>), müssen Sie die neuen Parameter **emailParamsSub** und **emailParamsBody** anstelle von **emailParams** verwenden. Weitere Informationen erhalten Sie vom Adobe-Support.
+
+Die **emailParamsSub** und **emailParamsBody** werden in das Einverständnisaktualisierungsereignis aufgenommen, das an die benutzerdefinierten Endpunkte gesendet wird.
+
+Header-Anforderungen:
+
+* x-api-key
+* x-gw-ims-org-id
+* Autorisierung (Benutzer-Token Ihres technischen Kontos)
 
 +++
