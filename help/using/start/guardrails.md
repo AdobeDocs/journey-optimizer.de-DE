@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: ht
-source-wordcount: '2825'
-ht-degree: 100%
+source-git-commit: 5bc1a3a3e41d50890237fbc431bffab921d7d19f
+workflow-type: tm+mt
+source-wordcount: '2823'
+ht-degree: 99%
 
 ---
 
@@ -274,4 +274,4 @@ Für die Aktivität **[!UICONTROL Profil aktualisieren]** gelten spezifische Sch
 
 ## Leitlinien für die Kampagnenorchestrierung {#orchestration-guardrails}
 
-Die bei der Kampagnenorchestrierung zu beachtenden Leitlinien und Einschränkungen werden in diesem Abschnitt beschrieben: [Leitlinien und Einschränkungen für das Entscheidungs-Management](../orchestrated/guardrails.md).
+Leitplanken und Einschränkungen, die bei der Arbeit mit der Kampagnenorchestrierung zu beachten sind, werden in diesem Abschnitt beschrieben: [Leitplanken und Einschränkungen](../orchestrated/guardrails.md).
