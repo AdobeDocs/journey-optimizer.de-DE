@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Adobe Journey Optimizer mit anderen Adobe-Lösungen wie Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Verwenden von Adobe Experience Manager Assets
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Adobe Stock-Bilder für die Verwendung in E-Mail-Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=de)
 
 Bearbeiten Ihrer Assets mit Adobe Express
 
@@ -70,7 +70,7 @@ Schrittweise Anleitungen zur Integration von AEM-Inhaltsfragmenten mit Adobe Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Arbeiten mit Dynamic Media
 

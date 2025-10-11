@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie den Elementkatalog in der Entscheidungsfunktion von Adobe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen und Verwalten von Entscheidungselementen
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Entscheidungselemente erstellen, konfigurieren und verwalt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Verwalten von Elementsammlungen
 

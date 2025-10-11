@@ -20,7 +20,7 @@ Die Verwaltung von Begrenzungsregeln für Nachrichten und Journeys in Adobe Jour
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Arbeiten mit Regelsätzen
 

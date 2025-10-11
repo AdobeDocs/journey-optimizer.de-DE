@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie mit dem Code-basierten Erlebniskanal und verschiedenen Imp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Verwalten von Entscheidungselementen und Katalogen
 
@@ -70,7 +70,7 @@ Definieren Sie Entscheidungsregeln, um Zielgruppen mithilfe von Einschränkungen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Erstellen von Ranklisten mit KI-Modellen
 

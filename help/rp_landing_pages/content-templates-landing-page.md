@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Abschnitte oder ganze Vorlagen sperren können, um unbeabs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Testen von Inhaltsvorlagen
 

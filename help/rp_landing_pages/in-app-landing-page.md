@@ -21,7 +21,7 @@ Der In-App-Kanal in Adobe Journey Optimizer ermöglicht es Ihnen, über personal
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 In-App-Kanalkonfiguration
 
@@ -31,7 +31,7 @@ Schrittweise Anleitung zum Einrichten von Berechtigungen, Versandeinstellungen u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen von In-App-Nachrichten für Mobilgeräte
 

@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Ranking-Methoden für Entscheidungen konfigurieren, einsch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Simulieren von Angebotsentscheidungen
 

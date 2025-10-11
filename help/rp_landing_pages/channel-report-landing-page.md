@@ -20,7 +20,7 @@ Der „Bericht für die gesamte Zeit“ in Adobe Journey Optimizer ist Ihr Tor z
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Berichten für die gesamte Zeit
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer auf die Funktion „Bericht fü
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Umfassende Liste der Metriken
 
@@ -40,7 +40,7 @@ Erkunden Sie detaillierte Definitionen von Metriken, die über verschiedene Vers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Manuelles Konfigurieren von Customer Journey Analytics
 
@@ -70,7 +70,7 @@ Richten Sie Datenquellen und Datensätze ein, um Experimente zu ermöglichen und
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Ausschlussgründe
 

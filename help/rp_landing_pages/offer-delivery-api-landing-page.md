@@ -30,7 +30,7 @@ Erfahren Sie mehr über die APIs, die für die Bereitstellung personalisierter A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Bereitstellen von Angeboten mithilfe der Decisioning API
 
@@ -40,7 +40,7 @@ Erstellen und unterbreiten Sie personalisierte Marketing-Angebote mit der Decisi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Bereitstellen von Angeboten mithilfe der Edge Decisioning API
 

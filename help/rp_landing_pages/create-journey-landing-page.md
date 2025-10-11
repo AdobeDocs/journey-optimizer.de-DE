@@ -61,7 +61,7 @@ Testen Sie Ihre Journeys mit simulierten Profilen und erkennen Sie Fehler, bevor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Testen von Journeys im Probelauf-Modus
 

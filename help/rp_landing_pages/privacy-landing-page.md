@@ -20,7 +20,7 @@ Mit den Datenschutz-Tools von Adobe Journey Optimizer können Sie vertrauliche K
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Überblick über die Datenschutzverwaltung
 
@@ -40,7 +40,7 @@ Folgen Sie den schrittweisen Anweisungen zum Erstellen und Verarbeiten von Daten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Auditprotokolle für Benutzeraktionen
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Aufgaben des Datenlebenszyklus, wie etwa das Aktualisieren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Einverständnisverwaltung
 
@@ -70,7 +70,7 @@ Verwalten Sie die Vorlieben und Richtlinien der Empfängerinnen und Empfänger i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Data-Governance-Richtlinien
 

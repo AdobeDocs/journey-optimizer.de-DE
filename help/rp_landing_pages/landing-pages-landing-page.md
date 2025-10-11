@@ -20,7 +20,7 @@ Mit Landingpages in Adobe Journey Optimizer können Sie maßgeschneiderte, eigen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einführung in Landingpages
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen von Landingpages, ihre Funktionalität und die Integra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen und Veröffentlichen von Landingpages
 
@@ -50,7 +50,7 @@ Greifen Sie auf Landingpages zu, organisieren Sie sie und führen Sie Aktionen w
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Gestalten von Inhalten für Landingpages
 
@@ -70,7 +70,7 @@ Richten Sie Abonnementlisten ein, um angemeldete Profile zu verwalten und zielge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Anwendungsfälle für Landingpages
 

@@ -20,7 +20,7 @@ Mit der Funktion „Live-Bericht“ in Adobe Journey Optimizer können Sie die E
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Live-Berichten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Live-Berichte aufrufen, anpassen und exportieren können, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Liste der Metriken
 

@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer Kanäle konfigurieren, einschli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Einrichten und Verwalten von Kanalkonfigurationen
 
@@ -40,7 +40,7 @@ Befolgen Sie eine detaillierte Anleitung zum Erstellen, Bearbeiten, Deaktivieren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Anleitung zur Kanaleinrichtung
 
@@ -70,7 +70,7 @@ Erstellen und führen Sie IP-Aufwärmpläne aus, um die Reputation des Absenders
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Überwachen der Zustellbarkeit und Reputation von E-Mails
 

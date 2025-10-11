@@ -60,7 +60,7 @@ Konfigurieren Sie Adobe Journey Optimizer für die Integration mit Adobe Campaig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Sandbox-Management in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Effektives Verwalten von virtuellen Umgebungen, Rollen und Workflows mit Sandbox
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Quell-Connectoren
 

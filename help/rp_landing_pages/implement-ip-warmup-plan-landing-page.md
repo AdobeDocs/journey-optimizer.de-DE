@@ -30,7 +30,7 @@ Erfahren Sie mehr über den Zweck, die Vorteile und die einzelnen Schritte von I
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen von IP-Aufwärmkampagnen
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Ihren IP-Aufwärmplan erstellen, konfigurieren und verwalt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Ausführen und Verwalten Ihres IP-Aufwärmplans
 

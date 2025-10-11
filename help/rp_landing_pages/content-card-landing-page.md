@@ -33,7 +33,7 @@ Richten Sie den Inhaltskartenkanal für Web-, Mobile- und Terminal-Plattformen m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen und Konfigurieren von Inhaltskarten
 

@@ -70,7 +70,7 @@ Schrittweise Anleitungen zum Konfigurieren von Gesch√§ftsereignissen, einschlie√
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Senden von Ereignissen mithilfe von Streaming-APIs
 

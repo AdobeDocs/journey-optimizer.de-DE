@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Voraussetzungen für die Verwendung von Code-basiert
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Code-basierte Erlebnisoberflächen
 
@@ -40,7 +40,7 @@ Grundlegendes zu Oberflächen und ihren Kennungen, ihrer Komposition und Verwend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Beispiele für Implementierungsmethoden
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie in Code-basierten Implementierungen eine Deduplizierung ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Erstellen einer Konfiguration für Code-basierte Erlebnisse
 

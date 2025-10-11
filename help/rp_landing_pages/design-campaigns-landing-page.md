@@ -50,7 +50,7 @@ Definieren und konfigurieren Sie Zielgruppensegmente für Ihre Kampagnen mithilf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Aktivität „Dimensionsänderung“
 

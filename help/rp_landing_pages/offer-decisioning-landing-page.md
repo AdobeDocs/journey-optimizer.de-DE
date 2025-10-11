@@ -60,7 +60,7 @@ Schrittweise Anleitungen zum Erstellen personalisierter Angebote, Fallback-Optio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Erstellen und Verwalten von Entscheidungen
 
@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie mithilfe der Angebotsentscheidungs-Engine Entscheidungen f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Verwenden der Batch-Entscheidungsfindung
 

@@ -20,7 +20,7 @@ Die Zugriffssteuerung in Adobe Journey Optimizer ermöglicht es Admins, den Benu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit der Zugriffssteuerung
 
@@ -30,7 +30,7 @@ Lernen Sie die Konzepte und Prozesse zum Verwalten von Benutzerberechtigungen, R
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Verwalten von Benutzenden und Rollen
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Zuweisen, Bearbeiten und Erstellen von Rollen, um den
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Integrierte Rollen
 
@@ -70,7 +70,7 @@ Erfahren Sie mehr über Berechtigungen auf hoher und niedriger Ebene und darübe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Attributbasierte Zugriffssteuerung
 

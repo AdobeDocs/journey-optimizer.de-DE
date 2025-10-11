@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer Profile erstellen, verwalten un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen von Testprofilen
 

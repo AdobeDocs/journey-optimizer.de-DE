@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie relationale Schemata erstellen und verwalten, Datensätze 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Konfigurieren einer Zielgruppendimension
 

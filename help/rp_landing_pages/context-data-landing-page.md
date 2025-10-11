@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Kontextdaten in der Adobe Journey Optimizer Decisioning-En
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden von Kontextdaten in Edge Decisioning-Anfragen
 

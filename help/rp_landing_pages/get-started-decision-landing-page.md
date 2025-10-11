@@ -30,7 +30,7 @@ Erfahren Sie mehr über das Entscheidungs-Management in Adobe Journey Optimizer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Leitlinien und Einschränkungen für das Entscheidungs-Management
 
@@ -60,7 +60,7 @@ Folgen Sie einer schrittweisen Anleitung zum Erstellen, Verwalten und Konfigurie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Nutzen benutzerdefinierter Upload-Zielgruppen zur Entscheidungsfindung
 

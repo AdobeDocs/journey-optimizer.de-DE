@@ -20,7 +20,7 @@ Mit den Content-Management-Funktionen von Adobe Journey Optimizer können Sie In
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Personalisierung in Adobe Journey Optimizer
 

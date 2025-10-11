@@ -20,7 +20,7 @@ Die Journey-Konfiguration in Adobe Journey Optimizer ermöglicht es Ihnen, nahtl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte bei der Konfiguration von Journeys
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Ereignisse konfigurieren und verwalten, die Journeys ausl�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfiguration von Datenquellen in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Verstehen und verwalten Sie Datenquellen, einschließlich vorkonfigurierter und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Konfiguration und Verwendung benutzerdefinierter Aktionen
 

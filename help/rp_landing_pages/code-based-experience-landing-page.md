@@ -30,7 +30,7 @@ Erfahren Sie mehr über Code-basierte Erlebnisse, ihre Anwendungsfälle und schr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren eines Code-basierten Kanals
 

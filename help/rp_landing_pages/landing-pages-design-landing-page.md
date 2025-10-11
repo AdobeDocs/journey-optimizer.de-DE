@@ -50,7 +50,7 @@ Speichern Sie Landingpages als Vorlagen und verwenden Sie sie erneut, um Ihren W
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden von benutzerdefiniertem JavaScript in Landingpages
 

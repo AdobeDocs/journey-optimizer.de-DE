@@ -40,7 +40,7 @@ Hier erfahren Sie, wie Sie Testprofile auswählen und verwalten können, um pers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Anzeigen des Inhalts in der Vorschau mithilfe von Testprofilen
 
@@ -60,7 +60,7 @@ Testen und validieren Sie Ihre E-Mail-Nachrichten, indem Sie Testsendungen mithi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=de)
 
 Testen des E-Mail-Renderings mit Litmus in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Integrieren Sie Litmus, um das E-Mail-Rendering in gängigen E-Mail-Clients in d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Simulieren und Testen von Inhaltsvarianten in Adobe Journey Optimizer
 

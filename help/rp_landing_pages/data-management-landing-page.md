@@ -20,7 +20,7 @@ Mit dem Daten-Management in Adobe Journey Optimizer können Sie Ihre Kundendaten
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Erste Schritte mit Daten-Management
 

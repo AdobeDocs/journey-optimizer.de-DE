@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit Adobe Journey Optimizer Markenrichtlinien für eine ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Auswerten des Markenausrichtungswerts
 

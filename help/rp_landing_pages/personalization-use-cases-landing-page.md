@@ -20,7 +20,7 @@ Stellen Sie sich vor, Sie könnten Kommunikationen so genau auf Ihre Zielgruppe 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Tutorial zur Personalisierung der Benachrichtigungen zum Bestellstatus
 

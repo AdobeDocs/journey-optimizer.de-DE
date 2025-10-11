@@ -20,7 +20,7 @@ Personalisierung in Adobe Journey Optimizer ermöglicht es Ihnen, maßgeschneide
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit der Personalisierung
 
@@ -40,7 +40,7 @@ Beherrschen Sie den Personalisierungseditor, um benutzerdefinierte Inhalte für 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Grundlegendes zur Syntax von Personalisierung
 
@@ -50,7 +50,7 @@ Machen Sie sich mit den Regeln und Beispielen der auf Handlebars basierenden Per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Wiederverwenden von Ausdrucksfragmenten
 

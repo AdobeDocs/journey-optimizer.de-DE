@@ -20,7 +20,7 @@ Journey-Berichte in Adobe Journey Optimizer bieten leistungsstarke Tools, um zu 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Analysieren von Journey-Berichten
 
@@ -40,7 +40,7 @@ Verstehen und analysieren Sie Metriken für die Interaktion mit Code-basierten E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Interaktion mit Inhaltskarten
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie die Benutzerinteraktion mit Inhaltskarten mithilfe detaill
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 Metriken zu Direkt-Mail
 
@@ -60,7 +60,7 @@ Analysieren und interpretieren Sie wichtige Metriken für Direkt-Mail-Kampagnen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=de)
 
 Reporting zu E-Mail-Journeys
 

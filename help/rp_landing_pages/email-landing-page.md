@@ -32,7 +32,7 @@ E-Mail-Sendungen können erstellt werden:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen einer E-Mail
 

@@ -20,7 +20,7 @@ Mit durch API ausgelösten Kampagnen in Adobe Journey Optimizer können Sie mith
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen und Verwalten von API-ausgelösten Kampagnen
 
@@ -40,7 +40,7 @@ Folgen Sie den schrittweisen Anleitungen, um Kampagneneigenschaften wie Benennun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren der durch API ausgelösten Kampagnenaktion
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Aktionen konfigurieren, Kommunikationskanäle auswählen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Bearbeiten und Personalisieren der Inhalte einer durch API ausgelösten Kampagne
 
@@ -60,7 +60,7 @@ Passen Sie Kampagneninhalte mithilfe von kontextuellen Daten an und personalisie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
 
 Definieren der Zielgruppe einer durch API ausgelösten Kampagne
 
@@ -70,7 +70,7 @@ Richten Sie die Zielgruppe der Kampagne ein, indem Sie Profile auswählen, Ident
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
 
 Planen einer durch API ausgelösten Kampagne
 

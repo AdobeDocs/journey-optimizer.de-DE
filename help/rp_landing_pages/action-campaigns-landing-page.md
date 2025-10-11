@@ -50,7 +50,7 @@ Handbuch zum Einrichten von Kampagnenaktionen, einschließlich Kanalauswahl, Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Nutzen der Nachrichtenoptimierung
 

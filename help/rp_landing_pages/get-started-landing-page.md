@@ -30,7 +30,7 @@ Entdecken Sie die Kernfunktionen, Anwendungsfälle und die Architektur von Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Überblick über die Architektur von Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Adobe Journey Optimizer mit Adobe Experience Platform integrie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Rollen und Zuständigkeiten in Adobe Journey Optimizer
 
@@ -70,7 +70,7 @@ Verwenden Sie Such-, Filter- und Tagging-Funktionen, um Ihre Journeys, Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Schutzmechanismen und Einschränkungen in Adobe Journey Optimizer
 

@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie mehrsprachige Kampagnen und Journeys manuell erstellen, di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung
 

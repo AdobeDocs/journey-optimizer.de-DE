@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie den Genehmigungsprozess für Journeys und Kampagnen einric
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Erstellen und Verwalten von Genehmigungsrichtlinien
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Genehmigungen für Journey und Kampagnen anfordern, einsch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Überprüfen und Genehmigen von Anfragen für Journeys und Kampagnen
 

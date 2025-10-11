@@ -20,7 +20,7 @@ In Adobe Journey Optimizer können Sie durch das Erstellen von Komponenten wie P
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Handbuch zum Erstellen von Platzierungen für Angebote
 
