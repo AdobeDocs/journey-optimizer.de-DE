@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a530a183c3eba87dcee59d42162fad9c0c32942
+source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 81%
+source-wordcount: '1712'
+ht-degree: 76%
 
 ---
 
@@ -20,11 +20,17 @@ ht-degree: 81%
 >title="Neue Funktionen"
 >abstract="**Adobe Journey Optimizer** bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert."
 
-[!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert. [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+[!DNL Adobe Journey Optimizer] folgt einem **Modell der kontinuierlichen Bereitstellung** sodass Adobe laufend neue Funktionen, Verbesserungen und Fehlerbehebungen bereitstellen kann. Dieser Ansatz ermöglicht einen **skalierbaren, schrittweisen Rollout** von Funktionen, um Leistung und Stabilität in allen Umgebungen sicherzustellen.
 
-## Updates Oktober &#39;25 {#25-10-rn}
+Aufgrund dieses Modells werden Versionshinweise (**monatlichen Versionen)**.  In einem speziellen Abschnitt [Neueste Aktualisierungen](#updates-rn) werden neue Funktionen und Verbesserungen bei der Bereitstellung in der Produktion hervorgehoben, sodass Sie immer in Echtzeit über alle Änderungen informiert sind. <!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
 
-### Neue Funktionen {#25-10-features}
+[!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+
+## Neueste Aktualisierungen {#updates-rn}
+
+Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen und Verbesserungen mit ihrem Verfügbarkeitsdatum aufgeführt. Sie werden mit dem Inhalt der nächsten Versionshinweise am Ende des Monats gruppiert. Siehe auch die neuesten [Versionshinweise unten](#latest-rn).
+
+### Neue Funktionen {#updates-features}
 
 <table>
 <thead>
@@ -67,7 +73,7 @@ ht-degree: 81%
 </tbody>
 </table>
 
-### Verbesserungen {#25-10-improvements}
+### Verbesserungen {#updates-improvements}
 
 **Unterstützung benutzerdefinierter Attribute für Mailto-Adresse (abmelden)**
 
@@ -81,7 +87,7 @@ Um Ihre benutzerdefinierten Endpunkte weiter zu personalisieren, können Sie jet
 
 Verfügbarkeitsdatum: 6. Oktober 2025
 
-## Versionshinweise für September 2025 {#25-9-rn}
+## Versionshinweise für September 2025 {#latest-rn}
 
 **Veröffentlichungsdatum**: 23.–24. September 2025
 
