@@ -6,7 +6,7 @@ feature: Release Notes
 description: Grundlagen zum Adobe Journey Optimizer-Versionszyklus
 hide: true
 hidefromtoc: true
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
+source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer] basiert auf einem kontinuierlichen Bereitstellungsmodell und ermöglicht so einen skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen. Dieses Modell ermöglicht es Adobe, Innovationen schneller bereitzustellen und kontinuierliche Stabilität und Leistung während des Rollouts sicherzustellen.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 > Da [!DNL Adobe Journey Optimizer] fortlaufenden Versand verwendet, können neue Funktionen schrittweise über Organisationen oder Regionen hinweg angezeigt werden.
 
@@ -35,7 +35,7 @@ Als Teil dieses Modells:
 
 [!DNL Adobe Journey Optimizer] folgt in der Regel einem monatlichen Veröffentlichungsintervall, wobei Bereitstellungen normalerweise in der letzten Woche eines jeden Monats stattfinden. Monatliche Versionshinweise und zugehörige Dokumentation werden Dienstag veröffentlicht. Vorabversionshinweise werden freitags vor der Veröffentlichungswoche veröffentlicht.
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 > Am Ende eines jeden Quartals können Versionen bis zu zwei Wochen vor Monatsende erwartet und eingeführt werden, um sie an vierteljährliche Zeitpläne oder abhängige Produktversionen anzupassen.
 
@@ -53,7 +53,7 @@ Zu den gängigen Veröffentlichungspfaden gehören:
 * **Beta → LA → GA** - Größere oder experimentelle Funktionen durchlaufen alle Test- und Validierungsphasen.
 * **Beta → GA** - Bestimmte stabile Beta-Funktionen können ohne Zwischenphase direkt auf GA umgestellt werden.
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 > Wenn Sie an einem frühzeitigen Zugriff auf Funktionen in Beta oder einer eingeschränkten Verfügbarkeit interessiert sind, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um die Teilnahmeoptionen zu besprechen.
 
