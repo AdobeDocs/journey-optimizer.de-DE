@@ -9,10 +9,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
 workflow-type: tm+mt
-source-wordcount: '2429'
-ht-degree: 100%
+source-wordcount: '2481'
+ht-degree: 97%
 
 ---
 
@@ -57,6 +57,8 @@ Gehen Sie wie folgt vor, um Ihre Journey zu pausieren:
 
    * **Halten** von Profilen – Profile warten am nächsten **Aktionsknoten** bis die Journey fortgesetzt wird
    * **Verwerfen** von Profilen – Profile werden beim nächsten **Aktionsknoten** von der Journey ausgeschlossen
+
+   Wenn Sie eine Journey anhalten, wird davon ausgegangen, dass Sie sie zu einem späteren Zeitpunkt wieder aufnehmen möchten. Eine Journey kann jedoch nicht auf unbestimmte Zeit angehalten bleiben. Um dies zu verhindern, können Sie festlegen, wie lange die Journey pausiert werden soll (zwischen 1 und 14 Tagen). Nach der eingestellten Anzahl von Tagen wird die Journey automatisch fortgesetzt.
 
 1. Klicken Sie zur Bestätigung auf die Schaltfläche **Anhalten**.
 
