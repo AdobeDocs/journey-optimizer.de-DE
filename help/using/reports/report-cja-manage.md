@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 881cae4638082f804a5e2a768dfa135193959191
 workflow-type: tm+mt
 source-wordcount: '1354'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -155,13 +155,13 @@ Sie können benutzerdefiniert berechnete Metriken direkt in Ihren Berichten erst
 
 Ihre neu erstellte Metrik wird beim Export des Berichts als PDF oder CSV-Datei einbezogen. Sie wird jedoch aus dem Bericht entfernt, sobald Sie ihn schließen.
 
-## Durchsuchen von Daten mit der Sondierungsanalyse {#exploratory}
+## Erkunden von Daten mit dem Insight Builder {#exploratory}
 
-Verwenden Sie das Tool für die Sondierungsanalyse, um mühelos Tabellen und Visualisierungen aus Ihren ausgewählten **[!UICONTROL Dimensionen]** und **[!UICONTROL Metriken]** zu erstellen. Dieses Tool optimiert die Datenforschung und ermöglicht die automatische Anpassung und Analyse von Informationen. Weitere Informationen finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+Verwenden Sie das Tool Insight Builder, um auf einfache Weise Tabellen und Visualisierungen aus Ihren ausgewählten **[!UICONTROL Dimensionen]** und **[!UICONTROL Metriken]** zu erstellen. Dieses Tool optimiert die Datenforschung und ermöglicht die automatische Anpassung und Analyse von Informationen. Weitere Informationen finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
 
-1. Greifen Sie zunächst auf den Bericht zu, in dem Sie die neue Sondierungsanalyse verwenden möchten.
+1. Beginnen Sie, indem Sie auf den Bericht zugreifen, in dem Sie den Insight Builder verwenden möchten.
 
-1. Wählen Sie im Menü in der linken Leiste das Menü „Sondierungsanalyse“ aus.
+1. Wählen Sie im Menü in der linken Leiste das Insight-Builder -Menü aus.
 
    ![](assets/exploratory_analysis_1.png)
 
