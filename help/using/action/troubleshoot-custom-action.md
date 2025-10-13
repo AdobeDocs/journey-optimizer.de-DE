@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 87%
 
 ---
 
@@ -88,3 +88,13 @@ Wenn die Anfrage fehlschlägt, können Sie Folgendes überprüfen:
 * Die Anfragemethode (GET vs. POST) und die entsprechende Payload.
 * Der API-Endpunkt und die Header, die in der benutzerdefinierten Aktion definiert sind.
 * Verwenden Sie die Antwortdaten, um potenzielle Fehlkonfigurationen zu identifizieren.
+
+## Weitere Ressourcen
+
+In den folgenden Abschnitten erfahren Sie mehr über die Konfiguration und Verwendung Ihrer benutzerdefinierten Aktionen:
+
+* [Erste Schritte mit benutzerdefinierten Aktionen](../action/action.md) - Erfahren Sie, was eine benutzerdefinierte Aktion ist und wie Sie damit eine Verbindung zu Ihren Drittanbietersystemen herstellen können
+* [Benutzerdefinierte Aktionen konfigurieren](../action/about-custom-action-configuration.md) - Erfahren Sie, wie Sie eine benutzerdefinierte Aktion erstellen und konfigurieren
+* [Verwenden benutzerdefinierter Aktionen](../building-journeys/using-custom-actions.md) - Erfahren Sie, wie Sie benutzerdefinierte Aktionen in Ihren Journey verwenden
+* [Übergeben von Sammlungen in benutzerdefinierte Aktionsparameter](../building-journeys/collections.md) - Erfahren Sie, wie Sie eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden
+
