@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 110c4895ac7f0b683a695e9705a8f8ac54d09637
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 57%
 
 ---
 
@@ -106,7 +106,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
 
 >[!NOTE]
 >
->Weitere Informationen zu Zielgruppen und zum Segmentierungs-Service finden Sie in diesem [Abschnitt](../../audience/about-audiences.md).
+>Weitere Informationen zu Zielgruppen und zum Segmentierungs-Service finden Sie [diesem Abschnitt](../../audience/about-audiences.md).
 
 
 ## Außer{#unless}
@@ -211,3 +211,78 @@ Im folgenden Beispiel können Sie die Gesamtsumme der Preise für Produkte im Wa
     {{/each}}
 {{sum}}
 ```
+
+## Ausführungsmetadaten {#execution-metadata}
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+
+Der `executionMetadata`-Helper ermöglicht die dynamische Erfassung und Speicherung benutzerdefinierter Schlüssel-Wert-Paare im Ausführungskontext der Nachricht.
+
+**Syntax**
+
+```
+{{executionMetadata key="your_key" value="your_value"}}
+```
+
+In dieser Syntax bezieht sich `key` auf den Namen der Metadaten und `value` sind die Metadaten, die beibehalten werden sollen.
+
+**Anwendungsfall**
+
+Mit dieser Funktion können Sie kontextuelle Informationen an beliebige native Aktionen Ihrer Kampagnen oder Journey anhängen. Dadurch können Sie kontextuelle Versanddaten in Echtzeit für verschiedene Zwecke wie Tracking, Analyse, Personalisierung und nachgelagerte Verarbeitung in externe Systeme exportieren.
+
+>[!NOTE]
+>
+>Die Funktion „Ausführungsmetadaten“ wird von [benutzerdefinierten Aktionen“ nicht ](../../action/action.md).
+
+Sie können beispielsweise den Helper Ausführungsmetadaten verwenden, um eine bestimmte ID an jeden Versand anzuhängen, der an jedes Profil gesendet wird. Diese Informationen werden zur Laufzeit generiert, und die angereicherten Ausführungsmetadaten können dann zur nachgelagerten Abstimmung mit einer externen Reporting-Plattform exportiert werden.
+
+**Funktionsweise**
+
+Wählen Sie in einer Kampagne oder auf einer Journey ein beliebiges Element aus Ihrem Kanalinhalt aus und fügen Sie mithilfe des Personalisierungseditors den `executionMetadata` Helper zu diesem Element hinzu.
+
+>[!NOTE]
+>
+>Die Funktion Ausführungsmetadaten ist nicht sichtbar, wenn der Inhalt selbst angezeigt wird.
+
+
+Zur Laufzeit wird der Metadatenwert dem vorhandenen **[!UICONTROL Nachrichten-Feedback-Ereignisdatensatz“ hinzugefügt]** wobei das folgende Schema hinzugefügt wird:
+
+```
+"_experience": {
+  "customerJourneyManagement": {
+    "messageExecution": {
+      "metadata": {
+        "your_key": "your_value"
+      }
+    }
+  }
+}
+```
+
+>[!NOTE]
+>
+>Weitere Informationen zu Datensätzen finden [ in diesem Abschnitt](../../data/get-started-datasets.md).
+
+**Einschränkung**
+
+Für die Schlüssel-Wert-Paare pro Aktion gibt es eine Obergrenze von 2 KB.
+
+Wenn das 2KB-Limit überschritten wird, wird die Nachricht weiterhin zugestellt, aber jedes der Schlüssel-Wert-Paare kann abgeschnitten werden.
+
+**Beispiel**
+
+```
+{{executionMetadata key="firstName" value=profile.person.name.firstName}}
+```
+
+In diesem Beispiel wird unter der Annahme `profile.person.name.firstName` = „Alex“, die resultierende Entität:
+
+```
+{
+  "key": "firstName",
+  "value": "Alex"
+}
+```
+

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '2399'
-ht-degree: 100%
+source-wordcount: '2422'
+ht-degree: 99%
 
 ---
 
@@ -436,6 +436,9 @@ Helper werden auf [dieser Seite](helpers.md) näher beschrieben.
     </tr>
     <tr>
         <td><a href="helpers.md#each">Jeweils</a></td><td>Diese Funktion wird verwendet, um über ein Array zu iterieren</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#execution-metadata">Ausführungsmetadaten</a></td><td>Dieser Helper erfasst benutzerdefinierte Schlüssel-Wert-Metadaten beim Rendern der Nachricht, damit sie im Metadatenobjekt der Laufzeitausführung gespeichert werden können</td>
     </tr>
     <tr>
         <td><a href="helpers.md#if-function">Wenn</a></td><td>Mit dieser Funktion wird ein bedingter Block definiert. Wenn die Ausdrucksauswertung „true“ zurückgibt, wird der Block gerendert</td>
