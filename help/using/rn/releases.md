@@ -6,9 +6,9 @@ feature: Release Notes
 description: Grundlagen zum Adobe Journey Optimizer-Versionszyklus
 hide: true
 hidefromtoc: true
-source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
+source-git-commit: 0de90d707c02e11bfb8a6af7b22d4273a8b6b88d
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Als Teil dieses Modells:
 >
 > Am Ende eines jeden Quartals können Versionen bis zu zwei Wochen vor Monatsende erwartet und eingeführt werden, um sie an vierteljährliche Zeitpläne oder abhängige Produktversionen anzupassen.
 
-Während die monatliche Version die wichtigsten neuen Funktionen und Fehlerbehebungen vorstellt, ermöglicht der Ansatz der kontinuierlichen Bereitstellung die Bereitstellung zusätzlicher Aktualisierungen zwischen Zyklen, wenn sie bereit sind. Versionshinweise und zugehörige Dokumentation werden dann entsprechend aktualisiert.
+Während die monatliche Version die wichtigsten neuen Funktionen und Fehlerbehebungen vorstellt, ermöglicht der Ansatz der kontinuierlichen Bereitstellung die Bereitstellung zusätzlicher Aktualisierungen zwischen Zyklen, wenn sie bereit sind. Die Versionshinweise und die zugehörige Dokumentation werden dann entsprechend aktualisiert, und das Verfügbarkeitsdatum wird angegeben. Alle Änderungen, die im Laufe des Monats veröffentlicht wurden, werden zum Veröffentlichungsdatum in den monatlichen Versionshinweisen zusammengefasst.
 
 
 ## Veröffentlichungspfade {#release-paths}
