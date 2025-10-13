@@ -9,10 +9,10 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 3d0e2817ef2b544aced441d7bb8b1a94ac2acccf
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 73%
 
 ---
 
@@ -34,7 +34,7 @@ Sie können eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, d
 
 * Objektsammlungen: ein Array von JSON-Objekten, z. B.:
 
-  ```
+  ```json
   {
   "products":[
      {
@@ -58,20 +58,52 @@ Sie können eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, d
 
 ## Einschränkungen {#limitations}
 
-* Verschachtelte Arrays von Objekten in einem Objekt-Array werden derzeit nicht unterstützt. Beispiel:
+* **Unterstützung verschachtelter Arrays in benutzerdefinierten Aktionen**
 
-  ```
-  {
-  "products":[
-    {
-       "id":"productA",
-       "name":"A",
-       "price":20,
-       "locations": [{"name": "Paris"}, {"name": "London"}]
-    },
-   ]
-  }
-  ```
+  Adobe Journey Optimizer unterstützt verschachtelte Arrays von Objekten in benutzerdefinierten Aktionen **Antwort-Payloads**, diese Unterstützung ist jedoch in **Anfrage-Payloads** beschränkt.
+
+  In Anfrage-Payloads werden verschachtelte Arrays nur dann unterstützt, wenn sie eine feste Anzahl von Elementen enthalten, wie in der Konfiguration der benutzerdefinierten Aktion definiert. Wenn ein verschachteltes Array beispielsweise immer genau drei Elemente enthält, kann es als Konstante konfiguriert werden. Wenn die Anzahl der Elemente dynamisch sein muss, können nur nicht verschachtelte Arrays (Arrays auf der unteren Ebene) als Variablen definiert werden.
+
+  Beispiel:
+
+   1. Das folgende Beispiel zeigt einen **nicht unterstützten Anwendungsfall**.
+
+      In diesem Beispiel enthält das Produkt-Array ein verschachteltes Array (`locations`) mit einer dynamischen Anzahl von Elementen, das in Anfrage-Payloads nicht unterstützt wird.
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "locations": [
+            { "name": "Paris" },
+            { "name": "London" }
+            ]
+         }
+      ]
+      }
+      ```
+
+   2. Unterstütztes Beispiel mit festen Elementen, die als Konstanten definiert sind.
+
+      In diesem Fall werden die verschachtelten Speicherorte durch feste Felder (`location1`, `location2`) ersetzt, sodass die Payload in der unterstützten Konfiguration gültig bleibt.
+
+      ```json
+      {
+      "products": [
+         {
+            "id": "productA",
+            "name": "A",
+            "price": 20,
+            "location1": { "name": "Paris" },
+            "location2": { "name": "London" }
+         }
+      ]
+      }
+      ```
+
 
 * Um Sammlungen im Testmodus zu testen, müssen Sie den Code-Ansichtsmodus verwenden. Der Code-Ansichtsmodus wird derzeit für Geschäftsereignisse nicht unterstützt. Sie können eine Sammlungen nur mit einem einzelnen Element senden.
 
@@ -79,7 +111,7 @@ Sie können eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, d
 
 In diesem Abschnitt verwenden wir das folgende JSON-Payload-Beispiel. Dies ist ein Array von Objekten mit einem Feld, das eine einfache Sammlung ist.
 
-```
+```json
 {
   "ctxt": {
     "products": [
@@ -149,7 +181,7 @@ Bei heterogenen Typen und Arrays von Arrays wird das Array mit dem Typ „listAn
 
 Beispiel eines heterogenen Typs:
 
-```
+```json
 {
     "data_mixed-types": [
         "test",
@@ -162,7 +194,7 @@ Beispiel eines heterogenen Typs:
 
 Beispiel eines Arrays von Arrays:
 
-```
+```json
 {
     "data_multiple-arrays": [
         [
