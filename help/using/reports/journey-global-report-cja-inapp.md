@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 100%
+source-wordcount: '617'
+ht-degree: 83%
 
 ---
 
@@ -37,9 +37,9 @@ Der Graph **[!UICONTROL Anzeige- und Klick-Trend]** zeigt eine detaillierte Anal
 
 +++ Weitere Informationen zu den Metriken „Anzeige- und Klick-Trend“
 
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren In-App-Nachrichten.
+* **[!UICONTROL Klicks]**: Gibt an, wie oft die Benutzenden mit den In-App-Nachrichten interagiert haben.
 
-* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
+* **[!UICONTROL Displays]**: Gibt an, wie oft die In-App-Nachricht dem Benutzer angezeigt wurde.
 
 +++
 
@@ -51,7 +51,7 @@ Der Graph **[!UICONTROL Klicks]** zeigt Metriken für In-App-Klicks an, die sowo
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren In-App-Nachrichten.
+* **[!UICONTROL Klicks]**: Gibt an, wie oft die Benutzenden mit den In-App-Nachrichten interagiert haben.
 
 +++
 
@@ -61,7 +61,7 @@ Anhand des Graphs **[!UICONTROL Anzeigen]** können Sie sowohl die Gesamtreichwe
 
 +++ Weitere Informationen zu den Metriken „Anzeigen“
 
-* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
+* **[!UICONTROL Displays]**: Gibt an, wie oft die In-App-Nachricht dem Benutzer angezeigt wurde.
 
 * **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
@@ -79,11 +79,11 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 * **[!UICONTROL Durchklick-Öffnungsrate]**: Anzahl der Öffnungen der In-App-Nachrichten.
 
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren In-App-Nachrichten.
+* **[!UICONTROL Klicks]**: Gibt an, wie oft die Benutzenden mit den In-App-Nachrichten interagiert haben.
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 
-* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
+* **[!UICONTROL Displays]**: Gibt an, wie oft die In-App-Nachricht dem Benutzer angezeigt wurde.
 
 * **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
@@ -105,9 +105,9 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren In-App-Nachrichten.
+* **[!UICONTROL Klicks]**: Gibt an, wie oft die Benutzenden mit den In-App-Nachrichten interagiert haben.
 
-* **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
+* **[!UICONTROL Displays]**: Gibt an, wie oft die In-App-Nachricht dem Benutzer angezeigt wurde.
 
 * **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
@@ -123,6 +123,6 @@ Die Tabelle **[!UICONTROL Getrackte Link-URLs]** bietet einen umfassenden Überb
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in Ihren In-App-Nachrichten.
+* **[!UICONTROL Klicks]**: Gibt an, wie oft die Benutzenden mit den In-App-Nachrichten interagiert haben.
 
 +++
