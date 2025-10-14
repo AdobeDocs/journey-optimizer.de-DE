@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
-workflow-type: ht
-source-wordcount: '975'
-ht-degree: 100%
+source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+workflow-type: tm+mt
+source-wordcount: '988'
+ht-degree: 98%
 
 ---
 
@@ -101,6 +101,8 @@ Die Tracking-Ergebnisse sind nach Ausführung der Journey im Journey-Bericht ver
 Der Schnellversand-Modus ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht.
 
 Der Schnellversand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch wäre oder wenn Sie eine dringende Push-Benachrichtigung an Mobiltelefone senden möchten, z. B. eine Eilmeldung an Benutzende, die Ihre Nachrichten-App installiert haben.
+
+Erfahren Sie auf dieser Seite , wie Sie den Schnellversandmodus für Push-[ aktivieren](../push/create-push.md#rapid-delivery).
 
 Weitere Informationen zur Performance bei Verwendung des Schnellversand-Modus finden Sie unter [Produktbeschreibung für Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
