@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
+source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
-source-wordcount: '2972'
-ht-degree: 99%
+source-wordcount: '2981'
+ht-degree: 98%
 
 ---
 
@@ -363,11 +363,13 @@ ht-degree: 99%
       + [Erste Schritte mit Push-Benachrichtigungen](using/push/get-started-push.md)
       + [Erstellen einer Push-Benachrichtigung](using/push/create-push.md)
       + [Gestalten der Push-Benachrichtigung](using/push/design-push.md)
+      + [Gestalten einer Web-Push-Benachrichtigung](using/push/design-push-web.md)
       + [Überprüfen und Senden Ihrer Push-Benachrichtigung](using/push/send-push.md)
       + Konfigurieren von Push-Benachrichtigungen {#push-config}
          + [Konfigurieren von Push-Benachrichtigungen](/help/rp_landing_pages/push-config-landing-page.md)
          + [Fluss der Push-Benachrichtigung](using/push/push-gs.md)
          + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/push/push-configuration.md)
+         + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/push/push-configuration-web.md)
          + [Schnellstart-Workflow für Mobile-Onboarding](using/push/mobile-onboarding-wf.md)
    + SMS-/MMS-/RCS-Kanal {#sms}
       + [SMS-/MMS-/RCS-Kanal](/help/rp_landing_pages/sms-landing-page.md)
