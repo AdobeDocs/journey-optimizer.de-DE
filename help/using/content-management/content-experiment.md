@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
-workflow-type: ht
-source-wordcount: '1846'
+source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
+workflow-type: tm+mt
+source-wordcount: '1843'
 ht-degree: 100%
 
 ---
@@ -264,9 +264,9 @@ Aktivieren der automatische Skalierung in Experimenten:
    * Sobald die erfolgreichste Abwandlung gefunden ist.
    * Nachdem das Experiment für einen bestimmten Zeitraum live ist.
 
-Die automatische Skalierung muss vor dem Enddatum des Experiments geplant werden. Wenn sie auf einen Zeitpunkt nach dem Enddatum festgelegt ist, wird eine Validierungswarnung angezeigt und die Kampagne oder Journey wird nicht veröffentlicht.
+   Die automatische Skalierung muss vor dem Enddatum des Experiments geplant werden. Wenn sie auf einen Zeitpunkt nach dem Enddatum festgelegt ist, wird eine Validierungswarnung angezeigt und die Kampagne oder Journey wird nicht veröffentlicht.
 
-    ![](assets/scale-winner-2.png)
+   ![](assets/scale-winner-2.png)
 
 1. Auswählen des Fallback-Verhaltens, wenn nach der Skalierungszeit keine erfolgreichste Abwandlung gefunden wird:
 
