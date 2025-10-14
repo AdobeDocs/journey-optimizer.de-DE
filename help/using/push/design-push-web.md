@@ -22,7 +22,7 @@ ht-degree: 13%
 >
 >Derzeit unterstützen Web-Push-Benachrichtigungen in Journey Optimizer nicht die Funktionen **Stille Benachrichtigung** und **Inhalt simulieren**, sie werden jedoch zu einem späteren Zeitpunkt verfügbar sein.
 
-Nachdem Sie Ihre Web-Push-Benachrichtigungskampagne oder Ihren Journey erstellt haben, können Sie den Inhalt und die Struktur entsprechend Ihren Anforderungen gestalten. Beachten Sie, dass vor dem Senden einer Web-Push-Benachrichtigung dieser Kanal zunächst in Ihrer [Kanalkonfiguration“ konfiguriert ](push-configuration-web.md) muss.
+Nachdem Sie Ihre Web-Push-Benachrichtigungskampagne oder Ihren Journey erstellt haben, können Sie den Inhalt und die Struktur entsprechend Ihren Anforderungen gestalten. Beachten Sie, dass vor dem Senden einer Web-Push-Benachrichtigung dieser Kanal zunächst in Ihrer [Kanalkonfiguration“ konfiguriert &#x200B;](push-configuration-web.md) muss.
 
 <!--
 ## Send a silent notification {#silent-notification}
@@ -38,7 +38,7 @@ Use the **Custom Data** section to include additional information in the form of
 
 ## Titel und Textkörper {#push-title-body}
 
-Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Textkörper]**. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren[ Daten zu ](../personalization/personalize.md) und [dynamische Inhalte) ](../personalization/get-started-dynamic-content.md).
+Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Textkörper]**. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren[&#x200B; Daten zu &#x200B;](../personalization/personalize.md) und [dynamische Inhalte) &#x200B;](../personalization/get-started-dynamic-content.md).
 
 Klicken Sie **[!UICONTROL Text bearbeiten mit dem KI-]**), um Ihre Inhalte mithilfe des Journey Optimizer-KI-Assistenten einfach zu generieren.
 
