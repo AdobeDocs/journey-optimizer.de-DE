@@ -133,7 +133,7 @@ Das Adobe Experience Platform Mobile-SDK stellt über Android- und iOS-kompatibl
 
 Am Ende dieses Vorgangs sollten Sie auch eine mobile Property in [!DNL Adobe Experience Platform Data Collection] erstellt und konfiguriert haben. Normalerweise wird für jede Mobile App, die verwaltet werden soll, eine Mobile Property erstellt. In der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"} erfahren Sie, wie Sie eine Mobile-Eigenschaft erstellen und konfigurieren.
 
-Um **Web-Push-Benachrichtigungen** zu aktivieren, stellen Sie sicher, dass die [pushNotifications](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications)Eigenschaft in der Web-SDK ordnungsgemäß konfiguriert ist. Verwenden Sie dann [den Befehl sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription), um Push-Abonnements bei Adobe Experience Platform zu registrieren.
+Um **Web-Push-Benachrichtigungen** zu aktivieren, stellen Sie sicher, dass die [pushNotifications](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/pushnotifications)Eigenschaft in der Web-SDK ordnungsgemäß konfiguriert ist. Verwenden Sie dann [den Befehl sendPushSubscription](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/sendpushsubscription), um Push-Abonnements bei Adobe Experience Platform zu registrieren.
 
 ## Schritt 1: Hinzufügen von Push-Anmeldedaten für die App in Journey Optimizer {#push-credentials-launch}
 
@@ -200,7 +200,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=de).
 -->
 
 ## Schritt 2: Erstellen einer Kanalkonfiguration für Push-Benachrichtigungen{#message-preset}
