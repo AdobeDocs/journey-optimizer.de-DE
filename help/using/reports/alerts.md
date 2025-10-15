@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
+source-git-commit: 0cace4defb2c52b729f1427e856b2fc87df5ec50
 workflow-type: tm+mt
-source-wordcount: '1865'
-ht-degree: 68%
+source-wordcount: '1893'
+ht-degree: 65%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 68%
 
 Verwenden Sie beim Erstellen Ihrer Journeys und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler vor der Ausführung oder Veröffentlichung zu überprüfen und zu beheben.
 
-* Auf dieser Seite erfahren Sie, wie Sie Probleme mit Ihren Journey [&#x200B; beheben](../building-journeys/troubleshooting.md)
+* Auf dieser Seite erfahren Sie, wie Sie Probleme mit Ihren Journey [ beheben](../building-journeys/troubleshooting.md)
 
-* Auf dieser Seite erfahren Sie, wie Sie Ihre Kampagnen [&#x200B; können](../campaigns/review-activate-campaign.md)
+* Auf dieser Seite erfahren Sie, wie Sie Ihre Kampagnen [ können](../campaigns/review-activate-campaign.md)
 
 
 Zusätzlich können bei Erreichen eines bestimmten Bedingungssatzes Warnmeldungen an alle Benutzer in Ihrer Organisation gesendet werden, die sich dafür angemeldet haben. Diese Warnhinweise sind im entsprechenden Menü **[!UICONTROL Warnhinweise]** verfügbar. Adobe Experience Platform bietet mehrere vordefinierte Warnhinweisregeln, die Sie für Ihr Unternehmen aktivieren können. Darüber hinaus können Sie [!DNL Adobe Journey Optimizer] Systemwarnungen abonnieren, wie auf dieser Seite beschrieben.
@@ -43,8 +43,8 @@ Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONT
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
-   * Warnhinweis [&#128279;](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration
+   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
+   * Warnhinweis ](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration[
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
@@ -80,7 +80,7 @@ Gehen Sie wie folgt vor, um einen Warnhinweis für eine bestimmte Journey zu abo
 
 1. Navigieren Sie zum Journey-Inventar und wählen Sie die Option **[!UICONTROL Warnhinweise abonnieren]** für eine bestimmte Journey aus.
 
-   ![Warnhinweis für eine bestimmte Journey abonnieren](assets/subscribe-journey-alert.png){width=80%}
+   ![Warnhinweis für eine bestimmte Journey abonnieren](assets/subscribe-journey-alert.png){width=75%}
 
 1. Wählen Sie die Warnhinweise aus. Die folgenden Warnhinweise sind verfügbar: [Profil-Verwerfungsrate überschritten](#alert-discard-rate), [Fehlerrate für benutzerdefinierte Aktion überschritten](#alert-custom-action-error-rate) und [Profilfehlerrate überschritten](#alert-profile-error-rate).
 
@@ -88,13 +88,30 @@ Gehen Sie wie folgt vor, um einen Warnhinweis für eine bestimmte Journey zu abo
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Journey-Warnhinweise {#journey-alerts}
+
+
+Alle in der Benutzeroberfläche verfügbaren Journey-Benachrichtigungen sind unten aufgeführt.
 
 >[!CAUTION]
 >
 >Adobe Journey Optimizer-spezifische Warnhinweise gelten nur für **Live**-Journeys. Warnhinweise werden für Journeys im Testmodus nicht ausgelöst.
+
+### Zielgruppe-lesen-Auslöser konnte nicht gelesen werden {#alert-read-audiences}
+
+Dieser Warnhinweis erscheint, wenn eine Aktivität **Zielgruppe lesen** 10 Minuten nach der festgelegten Ausführungszeit kein Profil bearbeitet hat. Dieser Fehler kann durch technische Probleme oder eine leere Zielgruppe verursacht werden. Wenn dieser Fehler auf technische Probleme zurückzuführen ist, sind je nach Problemtyp dennoch weitere Versuche möglich (wenn z. B. die Erstellung eines Exportauftrags fehlgeschlagen ist, erfolgt alle 10 Minuten, aber höchstens eine Stunde lang, ein erneuter Versuch).
+
+![](assets/read-audience-alert.png)
+
+Warnhinweise zu **Zielgruppe lesen** gelten nur für wiederkehrende Journey. Aktivitäten vom Typ **Zielgruppe lesen** in Live-Journeys, für deren Ausführung **Einmal** oder **So bald wie möglich** festgelegt wurde, werden ignoriert.
+
+Warnhinweise zu **Zielgruppe lesen** werden aufgelöst, wenn ein Profil den Knoten **Zielgruppe lesen** erreicht.
+
+Der Name des E/A-Ereignisabonnements, das dem **Alert Read Audience Trigger Unsuccessful** entspricht, ist **Journey read audience Delays, Failures and Errors**.
+
+Überprüfen Sie zur Fehlerbehebung von Warnhinweisen bei **Zielgruppe lesen** die Anzahl Ihrer Zielgruppen auf der Experience Platform-Oberfläche.
 
 
 ### Benutzerdefinierte Journey-Aktion fehlgeschlagen {#alert-custom-actions}
@@ -103,7 +120,8 @@ Dieser Warnhinweis warnt Sie, wenn eine benutzerdefinierte Aktion fehlschlägt. 
 
 Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
 
-![](assets/alerts-custom-action.png)
+<!--
+![](assets/alerts-custom-action.png)-->
 
 Warnhinweise zu benutzerdefinierten Aktionen werden aufgelöst, wenn in den letzten 5 Minuten:
 
@@ -115,41 +133,21 @@ Der Name des E/A-Ereignissabonnements, der dem Warnhinweis für benutzerdefinier
 
 Fehlerbehebung von Warnhinweisen bei **benutzerdefinierten Aktionen**:
 
-* Prüfen Sie Ihre benutzerdefinierte Aktion mithilfe des Testmodus in einer anderen Journey:
+* Überprüfen Sie Ihre benutzerdefinierte Aktion mit [Testmodus](../building-journeys/testing-the-journey.md) auf einer anderen Journey.
 
-  ![](assets/alert-troubleshooting-2.png)
-
-* Prüfen Sie Ihren Journey-Bericht, um die Fehlerursachen für die Aktion zu sehen.
-
-  ![](assets/alert-troubleshooting-3.png)
+* Überprüfen Sie Ihren [Journey-Bericht](../reports/journey-live-report.md) um Fehlerursachen bei Aktionen anzuzeigen.
 
 * Prüfen Sie Ihre Journey-stepEvents, um weitere Informationen zu „failureReason“ zu erhalten.
 
-* Prüfen Sie die Konfiguration Ihrer benutzerdefinierten Aktion und überprüfen Sie, ob die Authentifizierung weiterhin korrekt ist. Führen Sie beispielsweise eine manuelle Prüfung mit Postman durch.
-
-### Zielgruppe-lesen-Auslöser konnte nicht gelesen werden {#alert-read-audiences}
-
-Dieser Warnhinweis erscheint, wenn eine Aktivität **Zielgruppe lesen** 10 Minuten nach der festgelegten Ausführungszeit kein Profil bearbeitet hat. Dieser Fehler kann durch technische Probleme oder eine leere Zielgruppe verursacht werden. Wenn dieser Fehler auf technische Probleme zurückzuführen ist, sind je nach Problemtyp dennoch weitere Versuche möglich (wenn z. B. die Erstellung eines Exportauftrags fehlgeschlagen ist, erfolgt alle 10 Minuten, aber höchstens eine Stunde lang, ein erneuter Versuch).
-
-![](assets/alerts1.png)
-
-Warnhinweise zu **Zielgruppe lesen** gelten nur für wiederkehrende Journey. Aktivitäten vom Typ **Zielgruppe lesen** in Live-Journeys, für deren Ausführung **Einmal** oder **So bald wie möglich** festgelegt wurde, werden ignoriert.
-
-Warnhinweise zu **Zielgruppe lesen** werden aufgelöst, wenn ein Profil den Knoten **Zielgruppe lesen** erreicht.
-
-Der Name des E/A-Ereignisabonnements, das dem **Alert Read Audience Trigger Unsuccessful** entspricht, ist **Journey read audience Delays, Failures and Errors**.
-
-Überprüfen Sie zur Fehlerbehebung von Warnhinweisen bei **Zielgruppe lesen** die Anzahl Ihrer Zielgruppen auf der Experience Platform-Oberfläche.
-
-![](assets/alert-troubleshooting-0.png)
-
-![](assets/alert-troubleshooting-1.png)
+* Überprüfen Sie die Konfiguration Ihrer benutzerdefinierten Aktion und stellen Sie sicher, dass die Authentifizierung weiterhin gültig ist. Führen Sie beispielsweise eine manuelle Prüfung mit Postman durch.
 
 ### Rate beim Verwerfen des Profils überschritten {#alert-discard-rate}
 
 Dieser Warnhinweis warnt Sie, wenn das Verhältnis zwischen Profilverwerfen und eingegebenen Profilen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
 
 Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
+
+![](assets/profile-discard-alert.png)
 
 Es gibt mehrere Gründe, warum ein Profil verworfen werden könnte, was Informationen über die Methode zur Fehlerbehebung liefert. Einige häufige Gründe sind unten aufgeführt:
 
@@ -162,7 +160,7 @@ Es gibt mehrere Gründe, warum ein Profil verworfen werden könnte, was Informat
 
 Dieser Warnhinweis warnt Sie, wenn das Verhältnis der Fehler bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
 
-Fehler bei benutzerdefinierten Aktionen können aus verschiedenen Gründen auftreten. Sie haben folgende Möglichkeiten:
+Fehler bei benutzerdefinierten Aktionen können aus verschiedenen Gründen auftreten. Zur Behebung dieser Fehler haben Sie folgende Möglichkeiten:
 
 * Überprüfen, ob die benutzerdefinierte Aktion korrekt konfiguriert ist
 * Überprüfen Sie, ob der Endpunkt erreichbar ist und die benutzerdefinierte Aktion ihn über die Konnektivitätsprüfung für benutzerdefinierte Aktionen erreichen kann.
@@ -174,9 +172,11 @@ Dieser Warnhinweis warnt Sie, wenn das Verhältnis der Fehler bei benutzerdefini
 
 Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
 
-Um dies zu vermeiden, können Sie die Daten in Schrittereignissen abfragen, um zu verstehen, wo und warum das Profil auf der Journey fehlgeschlagen ist.
+Um Profilfehler zu beheben, können Sie die Daten in Schrittereignissen abfragen, um zu verstehen, wo und warum das Profil auf der Journey fehlgeschlagen ist.
 
 ## Konfigurationswarnhinweise {#configuration-alerts}
+
+Warnhinweise zur Überwachung der Kanalkonfiguration, die in der Benutzeroberfläche verfügbar sind, sind unten aufgeführt.
 
 ### DNS-Eintrag für AJO-Domain fehlt {#alert-dns-record-missing}
 
