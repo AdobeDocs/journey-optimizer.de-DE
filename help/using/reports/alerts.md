@@ -8,18 +8,16 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
+source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 80%
+source-wordcount: '1836'
+ht-degree: 72%
 
 ---
 
 # Abrufen und Abonnieren von Systemwarnhinweisen {#alerts}
 
 Verwenden Sie beim Erstellen Ihrer Journeys und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler vor der Ausführung oder Veröffentlichung zu überprüfen und zu beheben.
-
-
 
 Über das dedizierte Menü **[!UICONTROL Warnhinweise]** können Sie auch [!DNL Adobe Journey Optimizer]-Systemwarnhinweise abonnieren, wie auf dieser Seite beschrieben.
 
@@ -47,8 +45,8 @@ Sie werden hier aufgelistet und jeder Warnhinweis wird nachfolgend beschrieben.
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
-   * Warnhinweis [&#128279;](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration
+   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
+   * Warnhinweis ](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration[
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
@@ -92,10 +90,7 @@ Gehen Sie wie folgt vor, um einen Warnhinweis für eine bestimmte Journey zu abo
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
-
-
-
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Journey-Warnhinweise {#journey-alerts}
 
@@ -158,16 +153,30 @@ Dieser Warnhinweis warnt Sie, wenn das Verhältnis zwischen Profilverwerfen und 
 
 Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
 
+Es gibt mehrere Gründe, warum ein Profil verworfen werden könnte, was Informationen über die Methode zur Fehlerbehebung liefert. Einige häufige Gründe sind unten aufgeführt:
+
+* Profil wird bei Eintrag verworfen, da es bereits auf dieser unitären Journey live ist. Um dies zu beheben, stellen Sie sicher, dass das Profil genügend Zeit hat, um die Journey zu verlassen, bevor das nächste Ereignis für dieses Profil eintrifft.
+* Die Identität ist nicht für das Profil festgelegt oder der Namespace, der von der Journey zum Lesen von Zielgruppen verwendet wird, wird in diesem Profil nicht verwendet. Um dies zu beheben, stellen Sie sicher, dass der Namespace auf der Journey mit dem von den Profilen verwendeten Identity-Namespace übereinstimmt.
+* Ereignisdurchsatzrate wurde überschritten. Um dies zu beheben, stellen Sie sicher, dass Ereignisse, die in das System eingehen, diese Grenzwerte nicht überschreiten.
+
 
 ### Fehlerrate bei benutzerdefinierter Aktion überschritten {#alert-custom-action-error-rate}
 
 Dieser Warnhinweis warnt Sie, wenn das Verhältnis der Fehler bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
+
+Fehler bei benutzerdefinierten Aktionen können aus verschiedenen Gründen auftreten. Sie haben folgende Möglichkeiten:
+
+* Überprüfen, ob die benutzerdefinierte Aktion korrekt konfiguriert ist
+* Überprüfen Sie, ob der Endpunkt erreichbar ist und die benutzerdefinierte Aktion ihn über die Konnektivitätsprüfung für benutzerdefinierte Aktionen erreichen kann.
+* Überprüfen Sie die Authentifizierungsdaten, die Internetverbindung usw.
 
 ### Fehlerrate bei Profil überschritten {#alert-profile-error-rate}
 
 Dieser Warnhinweis warnt Sie, wenn das Verhältnis der Fehler bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
 
 Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
+
+Um dies zu vermeiden, können Sie die Daten in Schrittereignissen abfragen, um zu verstehen, wo und warum das Profil auf der Journey fehlgeschlagen ist.
 
 ## Konfigurationswarnhinweise {#configuration-alerts}
 
@@ -295,7 +304,6 @@ Um weitere Abonnierende hinzuzufügen, geben Sie ihre E-Mail-Adressen durch Komm
 Um Abonnierende zu entfernen, löschen Sie ihre E-Mail-Adressen aus den aktuellen Abonnierenden und wählen Sie **[!UICONTROL Aktualisieren]** aus.
 
 ## Weitere Ressourcen {#additional-resources-alerts}
-
 
 * Weitere Informationen zum Beheben von Fehlern in Journeys finden Sie auf [dieser Seite](../building-journeys/troubleshooting.md).
 * Weitere Informationen zum Überprüfen von Kampagnen finden Sie auf [dieser Seite](../campaigns/review-activate-campaign.md).
