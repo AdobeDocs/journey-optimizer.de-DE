@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
+source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1693'
 ht-degree: 85%
 
 ---
@@ -127,7 +127,7 @@ Um Ihre Endpunkte weiter zu <!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!
 
 >[!AVAILABILITY]
 >
->Für die Option **[!UICONTROL Mailto (unsubscribe)]** ist diese Funktion in begrenzter Verfügbarkeit verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten. In diesem Fall müssen Sie die neuen Abfrageparameter verwenden, die im Abschnitt **Mailto (unsubscribe) mit benutzerdefinierten Attributen (eingeschränkte Verfügbarkeit)** unten beschrieben [&#128279;](#configure-decrypt-api).
+>Für die Option **[!UICONTROL Mailto (unsubscribe)]** ist diese Funktion in begrenzter Verfügbarkeit verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten. In diesem Fall müssen Sie die neuen Abfrageparameter verwenden, die im Abschnitt **Mailto (unsubscribe) mit benutzerdefinierten Attributen (eingeschränkte Verfügbarkeit)** unten beschrieben [](#configure-decrypt-api).
 
 Um benutzerdefinierte Attribute für Ihre Endpunkte zu definieren, verwenden Sie den Abschnitt **[!UICONTROL URL-Tracking]** Parameter. Alle URL-Tracking-Parameter, die Sie im entsprechenden Abschnitt definieren, werden zusätzlich zu den Standardparametern an das Ende Ihrer benutzerdefinierten Endpunkte angehängt. [Informationen dazu, wie Sie benutzerdefiniertes URL-Tracking festlegen](url-tracking.md)
 
@@ -179,6 +179,12 @@ Einverständnisantwort:
     "optOutLevel": "channel",
     "channelType": "email",
     "timestamp": "2024-11-26T14:25:09.316930Z"
+    "utm": [
+         {
+            "utm_source": "AJO",
+            "utm_medium": "Email"
+        }
+    ]
 }
 ```
 
@@ -253,7 +259,7 @@ Abfrageparameter:
 
    * Parser-Wert: *v1.xyz*
 
-API-Beispiel: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API-Beispiel: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
@@ -266,5 +272,26 @@ Header-Anforderungen:
 * x-api-key
 * x-gw-ims-org-id
 * Autorisierung (Benutzer-Token Ihres technischen Kontos)
+
+Einverständnisantwort:
+
+```
+{
+    "profileNameSpace": " CRMID ",
+    "profileId": "5142733041546020095851529937068211571",
+    "emailAddress": "john@google.com",
+    "emailNameSpace": "Email",
+    "sandboxId": "sandboxId",
+    "optOutLevel": "channel",
+    "channelType": "email",
+    "timestamp": "2024-11-26T14:25:09.316930Z"
+    "utm": [
+        {
+            "utm_source": "AJO",
+            "utm_medium": "Email"
+        }
+    ]
+}
+```
 
 +++
