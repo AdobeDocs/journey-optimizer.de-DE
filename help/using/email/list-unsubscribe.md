@@ -127,7 +127,7 @@ Um Ihre Endpunkte weiter zu <!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!
 
 >[!AVAILABILITY]
 >
->Für die Option **[!UICONTROL Mailto (unsubscribe)]** ist diese Funktion in begrenzter Verfügbarkeit verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten. In diesem Fall müssen Sie die neuen Abfrageparameter verwenden, die im Abschnitt **Mailto (unsubscribe) mit benutzerdefinierten Attributen (eingeschränkte Verfügbarkeit)** unten beschrieben [](#configure-decrypt-api).
+>Für die Option **[!UICONTROL Mailto (unsubscribe)]** ist diese Funktion in begrenzter Verfügbarkeit verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten. In diesem Fall müssen Sie die neuen Abfrageparameter verwenden, die im Abschnitt **Mailto (unsubscribe) mit benutzerdefinierten Attributen (eingeschränkte Verfügbarkeit)** unten beschrieben [&#128279;](#configure-decrypt-api).
 
 Um benutzerdefinierte Attribute für Ihre Endpunkte zu definieren, verwenden Sie den Abschnitt **[!UICONTROL URL-Tracking]** Parameter. Alle URL-Tracking-Parameter, die Sie im entsprechenden Abschnitt definieren, werden zusätzlich zu den Standardparametern an das Ende Ihrer benutzerdefinierten Endpunkte angehängt. [Informationen dazu, wie Sie benutzerdefiniertes URL-Tracking festlegen](url-tracking.md)
 
@@ -259,7 +259,7 @@ Abfrageparameter:
 
    * Parser-Wert: *v1.xyz*
 
-API-Beispiel: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
+API-Beispiel: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
