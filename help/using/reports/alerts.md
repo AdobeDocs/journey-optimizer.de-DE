@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
-workflow-type: ht
-source-wordcount: '1313'
-ht-degree: 100%
+source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
+workflow-type: tm+mt
+source-wordcount: '1650'
+ht-degree: 80%
 
 ---
 
@@ -41,9 +41,9 @@ Sie werden hier aufgelistet und jeder Warnhinweis wird nachfolgend beschrieben.
 
    * Warnhinweis beim [Fehlschlagen einer benutzerdefinierten Journey-Aktion](#alert-custom-actions)
    * Warnhinweis [Auslösen von „Zielgruppe lesen“ fehlgeschlagen](#alert-read-audiences)
-<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
-   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
-   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
+   * Warnung [Profil-Verwerfungsrate überschritten](#alert-discard-rate)
+   * Warnung [Benutzerdefinierte Aktion - Fehlerrate überschritten](#alert-custom-action-error-rate)
+   * Warnung [Profilfehlerrate überschritten](#alert-profile-error-rate)
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
@@ -55,7 +55,7 @@ Sie werden hier aufgelistet und jeder Warnhinweis wird nachfolgend beschrieben.
 
 Wenn ein unerwartetes Verhalten auftritt und/oder bestimmte Bedingungen in Ihren Vorgängen erfüllt sind (z. B. ein potenzielles Problem, wenn das System einen Schwellenwert überschreitet), werden Warnhinweise an alle Benutzenden in Ihrer Organisation gesendet, die diese abonniert haben.
 
-Sie können die Warnhinweise einzeln über die Benutzeroberfläche oder global über das Menü **[!UICONTROL Warnhinweise]** (siehe [Globales Abonnement](#global-subscription)) abonnieren<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->.
+Sie können jeden Warnhinweis einzeln über die Benutzeroberfläche abonnieren, entweder global über das Menü **[!UICONTROL Warnhinweise]** (siehe [Globales Abonnement](#global-subscription)) oder einzeln für eine bestimmte Journey (siehe [Einzelabonnement](#unitary-subscription)).
 
 Je nach den Benutzereinstellungen werden Warnhinweise per E-Mail gesendet und/oder erscheinen direkt im Journey Optimizer-Benachrichtigungszentrum oben rechts in der Benutzeroberfläche. Wählen Sie in den **[!UICONTROL Voreinstellungen]** von [!DNL Adobe Experience Cloud] aus, wie Sie diese Warnhinweise erhalten möchten. [Weitere Informationen](../start/user-interface.md#in-product-alerts)
 
@@ -78,23 +78,21 @@ Gehen Sie wie folgt vor, um einen Warnhinweis für alle Journeys und Kampagnen z
 
 Sie können Warnhinweise auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren. Warnhinweisregeln sind in verschiedene Abonnementpakete unterteilt. Abonnements für Ereignisse, die den jeweiligen Journey Optimizer-Warnhinweisen entsprechen, werden [nachfolgend](#journey-alerts) beschrieben.
 
-<!--DOCAC-13465
-### Unitary subscription {#unitary-subscription}
+### Einzelzeichnung {#unitary-subscription}
 
-To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
+Gehen Sie wie folgt vor, um einen Warnhinweis für eine bestimmte Journey zu abonnieren oder abzubestellen:
 
-1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
+1. Navigieren Sie zum Journey-Inventar und wählen Sie die Option **[!UICONTROL Warnhinweise abonnieren]** für eine bestimmte Journey aus.
 
-      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
+   ![Warnhinweis für eine bestimmte Journey abonnieren](assets/subscribe-journey-alert.png){width=80%}
 
-1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
-   
-1. To unsubscribe to an alert, unselect it from the same screen.
+1. Wählen Sie die Warnhinweise aus. Die folgenden Warnhinweise sind verfügbar: [Profil-Verwerfungsrate überschritten](#alert-discard-rate), [Fehlerrate für benutzerdefinierte Aktion überschritten](#alert-custom-action-error-rate) und [Profilfehlerrate überschritten](#alert-profile-error-rate).
 
-1. Click **[!UICONTROL Save]** to confirm.
--->
+1. Um das Abonnement eines Warnhinweises zu kündigen, heben Sie im selben Bildschirm die Auswahl auf.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -154,25 +152,22 @@ Der Name des E/A-Ereignisabonnements, das dem **Alert Read Audience Trigger Unsu
 
 ![](assets/alert-troubleshooting-1.png)
 
-<!--DOCAC-13465
+### Rate beim Verwerfen des Profils überschritten {#alert-discard-rate}
 
-### Profile Discard Rate Exceeded {#alert-discard-rate}
+Dieser Warnhinweis warnt Sie, wenn das Verhältnis zwischen Profilverwerfen und eingegebenen Profilen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
 
-This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
-
-Click the name of the alert to check the alert details and configuration.
+Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
 
 
-### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+### Fehlerrate bei benutzerdefinierter Aktion überschritten {#alert-custom-action-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+Dieser Warnhinweis warnt Sie, wenn das Verhältnis der Fehler bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
 
-### Profile Error Rate Exceeded {#alert-profile-error-rate}
+### Fehlerrate bei Profil überschritten {#alert-profile-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+Dieser Warnhinweis warnt Sie, wenn das Verhältnis der Fehler bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
 
-Click the name of the alert to check the alert details and configuration.
--->
+Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
 
 ## Konfigurationswarnhinweise {#configuration-alerts}
 
@@ -253,30 +248,27 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 
 ### Bearbeiten eines Warnhinweises
 
-Sie können die Details eines Warnhinweises prüfen, indem Sie auf dessen Zeile klicken. Im linken Panel werden der Name, der Status und die Benachrichtigungskanäle angezeigt.
-<!--DOCAC-13465
-For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+Sie können die Details eines Warnhinweises prüfen, indem Sie auf dessen Zeile klicken. Der Name, der Status und die Benachrichtigungskanäle werden im linken Bereich angezeigt.
+Zum Journey von Warnhinweisen verwenden Sie die Schaltfläche **[!UICONTROL Weitere Aktionen]**, um sie zu bearbeiten. Anschließend können Sie einen [benutzerdefinierten Schwellenwert](#custom-threshold) für diese Warnhinweise definieren.
 
 ![](assets/alert-more-actions.png){width=60%}
 
-<!--DOCAC-13465
-#### Define a custom threshold {#custom-threshold}
+#### Definieren eines benutzerdefinierten Schwellenwerts {#custom-threshold}
 
-You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+Sie können Schwellenwerte für die [Journey-Warnungen festlegen](#journey-alerts). Die Warnschwelle für diese Werte beträgt standardmäßig 20 %.
 
-To change the threshold:
+So ändern Sie den Schwellenwert:
 
-1. Browse to the **Alerts** screen
-1. Click the **[!UICONTROL More actions]** button of the alert to update
-1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
+1. Navigieren Sie zum Bildschirm **Warnhinweise** .
+1. Klicken Sie auf die **[!UICONTROL Mehr Aktionen]** der zu aktualisierenden Warnmeldung
+1. Geben Sie den neuen Schwellenwert ein und bestätigen Sie. Der neue Schwellenwert gilt für **alle** Journey
 
 
 ![](assets/alert-threshold.png){width=60%}
 
 >[!CAUTION]
 >
->The threshold levels are global across all journeys and cannot be individually modified per journey.
--->
+>Die Schwellenwerte gelten für alle Journey und können nicht einzeln pro Journey geändert werden.
 
 ### Deaktivieren eines Warnhinweises
 

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
+source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
 workflow-type: tm+mt
-source-wordcount: '1853'
-ht-degree: 72%
+source-wordcount: '1938'
+ht-degree: 69%
 
 ---
 
@@ -61,7 +61,7 @@ Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen un
 <td>
 <p>Mit <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist der Experimentationsagent in Journey Optimizer verfügbar. </p>
 <p>Der Experimentierungs-Agent ist ein KI-gestütztes Tool, das die Ausführung und Verwaltung digitaler Experimente auf Websites, E-Mails, Push-Nachrichten und Anwendungen modernisiert. Sie hilft Ihnen, Experimente effizienter durchzuführen, Geschäftsziele zu organisieren und umsetzbare Einblicke zu generieren, indem sie hervorhebt, was funktioniert hat, was nicht und wo Sie als Nächstes experimentieren können.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=de" target="_blank">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 10. Oktober 2025</p>
 </td>
 </tr>
@@ -110,6 +110,12 @@ Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen un
 </table>
 
 ### Verbesserungen {#updates-improvements}
+
+**Neue Journey-Warnhinweise**
+
+Für Journey sind neue vorkonfigurierte Warnhinweise verfügbar: [Profilverwerfungsrate überschritten](../reports/alerts.md#alert-discard-rate) (Verhältnis von Profilverwerfen zu eingegebenen Profilen in den letzten 5 Minuten überschritten), [Fehlerrate für benutzerdefinierte Aktion überschritten](../reports/alerts.md#alert-custom-action-error-rate) (Verhältnis von Fehlern bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten überschritten) und [Profilfehlerrate überschritten](../reports/alerts.md#alert-profile-error-rate) (Verhältnis von fehlerhaften Profilen zu eingegebenen Profilen in den letzten 5 Minuten überschritten). Sie können Schwellenwerte anpassen und Warnhinweise entweder auf Journey-Ebene oder global abonnieren.
+
+Verfügbarkeitsdatum: 14. Oktober 2025
 
 **Unterstützung benutzerdefinierter Attribute für Mailto-Adresse (abmelden)**
 
@@ -384,22 +390,4 @@ In the next few days, the following capabilities and enhancements are scheduled 
 </tr>
 </tbody>
 </table>
-
-
-* **New Journey Alerts**  
-  New pre-configured alerts are available for journeys:
-
-  * Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
-  * Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
-  * Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
-
-
-  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
-  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
-  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
-
-  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
-
-  Availability date: Sept XX, 2025
-
 -->
