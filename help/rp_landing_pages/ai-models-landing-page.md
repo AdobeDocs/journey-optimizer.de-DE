@@ -50,7 +50,7 @@ Erfahren Sie, wie personalisierte Optimierungsmodelle Kundendaten und maschinell
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen von KI-Modellen
 

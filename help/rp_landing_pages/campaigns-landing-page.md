@@ -20,7 +20,7 @@ Mit Kampagnen in Adobe Journey Optimizer können Sie personalisierte, zeitnahe u
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Kampagnen
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie auf Kampagnen zugreifen, diese verwalten, ändern oder arc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Aktionskampagnen
 
@@ -50,7 +50,7 @@ Schrittweise Anleitungen zum Erstellen, Anpassen und Aktivieren von Aktionskampa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Durch API ausgelöste Kampagnen
 

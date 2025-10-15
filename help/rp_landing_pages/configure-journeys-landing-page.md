@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Datenquellen, Ereignisse und Aktionen konfigurieren, um de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Konfiguration von Ereignissen in Adobe Journey Optimizer
 

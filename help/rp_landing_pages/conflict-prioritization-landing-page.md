@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Tools wie Konflikterkennung, Prioritätswerte und Regelsä
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Identifizieren potenzieller Konflikte
 
@@ -40,7 +40,7 @@ Entdecken Sie Methoden zur Erkennung und Lösung von Kampagnen- und Journey-Konf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Zuweisen von Prioritätswerten zu Journeys und Kampagnen
 

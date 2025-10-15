@@ -20,7 +20,7 @@ In Adobe Journey Optimizer können Sie mit der Funktion „Marken“ die einziga
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Richtlinien zum Erstellen und Verwalten Ihrer Marke
 

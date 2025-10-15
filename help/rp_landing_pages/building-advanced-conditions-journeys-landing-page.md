@@ -20,7 +20,7 @@ Adobe Journey Optimizer enthält einen **erweiterten Ausdruckseditor** mit dem S
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Verwenden des erweiterten Ausdruckseditors
 
@@ -51,7 +51,7 @@ Greifen Sie auf ein umfassendes Handbuch zu Funktionen für die Datenbearbeitung
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Beispiele für Abfragen in Journey Optimizer-Datensätzen und zugehörige Anwendungsfälle
 

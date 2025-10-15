@@ -50,7 +50,7 @@ Schrittweise Anleitung zum manuellen Konfigurieren der Integration mit Customer 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Verwalten von Berichten
 
@@ -60,7 +60,7 @@ In diesem Video erfahren Sie, wie Sie Berichte analysieren, anpassen, exportiere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Konfigurieren von Berichtsdatenquellen
 

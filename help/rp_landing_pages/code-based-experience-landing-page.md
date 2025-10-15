@@ -40,7 +40,7 @@ Beherrschen Sie die Einrichtung und Verwaltung von Code-basierten Kanälen, eins
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen von Code-basierten Erlebnissen
 

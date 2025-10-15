@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Erstellen, Konfigurieren und Verwalten von Genehmigun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Anfordern von Genehmigungen für Journeys und Kampagnen
 

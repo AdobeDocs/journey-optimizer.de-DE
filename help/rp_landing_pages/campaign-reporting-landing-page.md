@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die Leistung von Kampagnen anhand von Schlüsselmetriken w
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Code-basierter Kampagnenbericht
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie personalisierte Erlebnisse und KI-gesteuerte Entscheidungs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Inhaltskarten-Kampagnenbericht
 
@@ -70,7 +70,7 @@ Gewinnen Sie Erkenntnisse zu E-Mail-Leistungsmetriken, Interaktionsraten und Tri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=de)
 
 Bericht zu einer Experimentkampagne
 

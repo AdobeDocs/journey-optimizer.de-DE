@@ -20,7 +20,7 @@ Die Kommunikationskanäle von Adobe Journey Optimizer ermöglichen es Ihnen, üb
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einführung in Kommunikationskanäle
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die in Adobe Journey Optimizer verfügbaren ein- und aus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 E-Mail-Kanal
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie E-Mail-Kampagnen erstellen, konfigurieren und optimieren k
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
 
 In-App-Nachrichten
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Push-Benachrichtigungen für iOS und Android erstellen, ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=de)
 
 SMS-/MMS-/RCS-Nachrichten
 

@@ -20,7 +20,7 @@ Die Kanalkonfiguration in Adobe Journey Optimizer ermöglicht es Ihnen, zu verwa
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit der Kanalkonfiguration
 
@@ -50,7 +50,7 @@ Konfigurieren Sie Mobile- und Web-Kanäle effizient mit schrittweisen Anleitunge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Delegieren und Verwalten von E-Mail-Subdomains
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie E-Mail-Subdomains delegieren und konfigurieren, um die Zus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Implementieren eines IP-Aufwärmplans
 

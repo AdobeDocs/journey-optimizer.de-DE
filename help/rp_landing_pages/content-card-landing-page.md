@@ -23,7 +23,7 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, Benutzenden relevante Rich-M
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren des Inhaltskartenkanals
 
@@ -43,7 +43,7 @@ Schritt-für-Schritt-Tutorial zum Erstellen, Anpassen und Implementieren von Inh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Entwerfen von Inhaltskarten
 

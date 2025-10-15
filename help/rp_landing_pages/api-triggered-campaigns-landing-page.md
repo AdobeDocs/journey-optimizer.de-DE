@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie durch API ausgelöste Kampagnen in Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Definieren der Eigenschaften einer durch API ausgelösten Kampagne
 

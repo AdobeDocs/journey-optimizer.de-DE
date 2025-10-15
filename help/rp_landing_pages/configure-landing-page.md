@@ -30,7 +30,7 @@ Erfahren Sie, welche Konfigurationen und Einstellungen erforderlich sind, um den
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Konfigurieren des Inhaltskarten-Kanals in Journey Optimizer
 

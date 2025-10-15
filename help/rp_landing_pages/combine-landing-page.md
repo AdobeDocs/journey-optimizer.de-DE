@@ -20,7 +20,7 @@ Die lösungsübergreifenden Anwendungsfälle von Adobe Journey Optimizer ermögl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Kombinieren von Adobe-Lösungen zur Verwaltung von Inhalten
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Integrieren, Hochladen und Verwalten von Assets aus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=de)
 
 Arbeiten mit Adobe Stock-Bildern
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie mit Adobe Express, das in Adobe Journey Optimizer integrie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Arbeiten mit AEM-Inhaltsfragmenten
 
