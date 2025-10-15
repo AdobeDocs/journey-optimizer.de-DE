@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
+source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 100%
+source-wordcount: '1855'
+ht-degree: 99%
 
 ---
 
@@ -67,6 +67,10 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 >id="ajo_campaigns_content_experiment_success_metric"
 >title="Erfolgsmetrik"
 >abstract="Die Erfolgsmetrik wird verwendet, um die Abwandlung mit der besten Leistung in einem Experiment zu verfolgen und zu bewerten. Vor der Verwendung muss der Datensatz für bestimmte Metriken eingerichtet werden."
+
+>[!AVAILABILITY]
+>
+>Briefpost unterstützt die Holdout-Funktion, unterstützt derzeit jedoch keine Abwandlungen.
 
 Für Ihr Inhaltsexperiment können Sie zwischen drei Arten von Experimenten wählen:
 
