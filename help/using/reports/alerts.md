@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0827bd0339b2574c1ded2e47e57af009326bdd0f
+source-git-commit: 074390ccd77d3753d9b347a67dcbad0611cb3e49
 workflow-type: tm+mt
-source-wordcount: '1836'
-ht-degree: 72%
+source-wordcount: '1865'
+ht-degree: 68%
 
 ---
 
@@ -19,21 +19,19 @@ ht-degree: 72%
 
 Verwenden Sie beim Erstellen Ihrer Journeys und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler vor der Ausführung oder Veröffentlichung zu überprüfen und zu beheben.
 
-Über das dedizierte Menü **[!UICONTROL Warnhinweise]** können Sie auch [!DNL Adobe Journey Optimizer]-Systemwarnhinweise abonnieren, wie auf dieser Seite beschrieben.
+* Auf dieser Seite erfahren Sie, wie Sie Probleme mit Ihren Journey [ beheben](../building-journeys/troubleshooting.md)
 
-## Zugriff auf Warnhinweise {#access-alerts}
+* Auf dieser Seite erfahren Sie, wie Sie Ihre Kampagnen [ können](../campaigns/review-activate-campaign.md)
 
-Wenn ein Fehler auftritt, können Sie Systemwarnungen im Journey Optimizer-Benachrichtigungszentrum (In-App-Warnungen) und/oder als E-Mail erhalten. Gehen Sie wie folgt vor, um auf diese Warnhinweise zuzugreifen:
 
-<!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
+Zusätzlich können bei Erreichen eines bestimmten Bedingungssatzes Warnmeldungen an alle Benutzer in Ihrer Organisation gesendet werden, die sich dafür angemeldet haben. Diese Warnhinweise sind im entsprechenden Menü **[!UICONTROL Warnhinweise]** verfügbar. Adobe Experience Platform bietet mehrere vordefinierte Warnhinweisregeln, die Sie für Ihr Unternehmen aktivieren können. Darüber hinaus können Sie [!DNL Adobe Journey Optimizer] Systemwarnungen abonnieren, wie auf dieser Seite beschrieben.
 
 >[!NOTE]
 >
 >Weitere Informationen zu Warnhinweisen in Adobe Experience Platform finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de){target="_blank"}.
 
-Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONTROL Warnhinweise]**. Für Journey Optimizer sind mehrere vorkonfigurierte Warnhinweise verfügbar.
+Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONTROL Warnhinweise]**. Mehrere vorkonfigurierte Warnhinweise für Journey Optimizer sind auf der Registerkarte **Durchsuchen** verfügbar.
 
-Sie werden hier aufgelistet und jeder Warnhinweis wird nachfolgend beschrieben.
 
 * Spezifische Warnhinweise für Journeys:
 
@@ -45,8 +43,8 @@ Sie werden hier aufgelistet und jeder Warnhinweis wird nachfolgend beschrieben.
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
-   * Warnhinweis [&#128279;](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration
+   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
+   * Warnhinweis ](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration[
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
@@ -90,7 +88,7 @@ Gehen Sie wie folgt vor, um einen Warnhinweis für eine bestimmte Journey zu abo
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Journey-Warnhinweise {#journey-alerts}
 
