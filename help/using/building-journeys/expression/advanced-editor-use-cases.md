@@ -11,10 +11,10 @@ hidefromtoc: true
 keywords: Ausdruck, Bedingung, Anwendungsfälle, Ereignisse
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Sprechen Sie in erster Linie Kunden an, die den Online-Store besucht, aber in de
 
 **Dieser Ausdruck sucht nach allen Ereignissen für diesen Benutzer, die in den letzten sieben Tagen spezifiziert wurden:**
 
-Anschließend werden alle Ereignisse vom Typ addtocart ausgewählt, die nicht in completePurchase umgewandelt wurden.
+Anschließend werden alle zum Warenkorb hinzufügen -Ereignisse ausgewählt, die sich nicht in einen completePurchase-Vorgang umgewandelt haben.
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Von dort können Sie einen weiteren Pfad zu Ihrer Journey hinzufügen, wenn das 
 
 **In Bedingungen**
 
-Diese Bedingung ruft nur die Geofence-Ereignisse ab, die in &quot;Arlington&quot; ausgelöst wurden:
+Diese Bedingung ruft nur die in „Arlington“ ausgelösten Geofence-Ereignisse ab:
 
 ```json
         @event{GeofenceEntry

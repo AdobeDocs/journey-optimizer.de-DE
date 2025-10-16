@@ -9,10 +9,10 @@ level: Experienced
 keywords: Ausdruck, Syntax, Operatoren, Editor, Journey
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
    * Das folgende Beispiel ist korrekt: `3.0 * 4.0`
    * `3 * 4.0` führt zu einem Fehler
 
-* Wenn Sie den Operator `+` verwenden, muss der Ausdruck zwischen Klammern eingekapselt sein. Beispiel:
+* Bei Verwendung des `+`-Operators muss der Ausdruck in Klammern eingeschlossen werden. Beispiel:
    * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` Ist richtig
    * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` führt zu einem Fehler
 
