@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: df3abb7da17eb21e5e4120b55bdeb61fec3e202d
+source-git-commit: 3b736463615dac1bd5de7c7cee3ae46e9a2526da
 workflow-type: tm+mt
 source-wordcount: '2990'
 ht-degree: 98%
@@ -65,10 +65,10 @@ ht-degree: 98%
       + [Live-Bericht in Ihrer Journey](using/building-journeys/report-journey.md)
    + Verwalten von Journeys {#manage-journey}
       + [Verwalten von Journeys](/help/rp_landing_pages/manage-journey-landing-page.md)
-      + [Arbeiten mit Journey-Schrittereignissen](using/reports/journey-step-events-overview.md)
       + [Durchsuchen und Filtern von Journeys](using/building-journeys/journey-ui.md)
       + [Profileintritt in Journeys](using/building-journeys/entry-management.md)
       + [Verwenden zusätzlicher Kennungen in Journeys](using/building-journeys/supplemental-identifier.md)
+      + [Arbeiten mit Journey-Schrittereignissen](using/reports/journey-step-events-overview.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
       + [Versandzeitoptimierung](using/building-journeys/send-time-optimization.md)
       + [Beenden der Journey](using/building-journeys/end-journey.md)
