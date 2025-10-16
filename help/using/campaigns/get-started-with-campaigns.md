@@ -102,7 +102,7 @@ Verwenden Sie [!DNL Journey Optimizer] Kampagnen, um einmalige Inhalte für eine
 
 Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen machen es nahtlos. Auf einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis hin zum Nachrichtenversand, über mehrere Kanäle hinweg entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist.
 
-➡️ [Erfahren Sie, wie Sie mit orchestrierten Kampagnen ](../orchestrated/gs-orchestrated-campaigns.md).
+➡️ [Erfahren Sie, wie Sie mit orchestrierten Kampagnen &#x200B;](../orchestrated/gs-orchestrated-campaigns.md).
 
 >[!TAB Aktionskampagnen (oder geplante Kampagnen)]
 

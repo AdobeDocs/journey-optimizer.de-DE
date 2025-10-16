@@ -115,7 +115,7 @@ Sobald eine Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-A
 
 ![](assets/journey-report.png)
 
-Darüber hinaus können Sie auch den [Abfragedienst in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} zum Erstellen von Abfragen nutzen, um herauszufinden, welche Regel dazu geführt hat, dass ein Profil nicht in eine bestimmte Journey eintreten konnte. Eine Abfragebeispiel ist in [diesem Abschnitt ](../reports/query-examples.md#common-queries) verfügbar.
+Darüber hinaus können Sie auch den [Abfragedienst in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} zum Erstellen von Abfragen nutzen, um herauszufinden, welche Regel dazu geführt hat, dass ein Profil nicht in eine bestimmte Journey eintreten konnte. Eine Abfragebeispiel ist in [diesem Abschnitt &#x200B;](../reports/query-examples.md#common-queries) verfügbar.
 
 ## Anleitungsvideo {#video}
 
