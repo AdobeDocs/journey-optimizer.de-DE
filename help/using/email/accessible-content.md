@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: dc7b24223bd32a75b87946733a6b098811e007d9
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1610'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} soll die Beseitigung von Hindernissen, die durch unterschiedliche nationale Vorschriften in den Mitgliedstaaten verursacht werden, den Binnenmarkt für barrierefreie Produkte und Dienstleistungen verbessern.
 
-Diese Richtlinie legt fest, dass alle digitalen Mitteilungen, einschließlich E-Mails, Newslettern, PDFs und herunterladbaren Inhalten, barrierefrei sein sollen. Beim Erstellen von Inhalten für Ihre Empfängerinnen und Empfänger müssen Sie daher bestimmte Leitlinien befolgen (z. B. barrierefreie Schriftarten und lesbare Formate verwenden und alternativen Text für Bilder bereitstellen).
+Diese Richtlinie legt fest, dass alle digitalen Mitteilungen, einschließlich E-Mails, Newslettern, PDFs und herunterladbaren Inhalten, barrierefrei sein sollen. Beim Erstellen von Inhalten für Ihre Empfängerinnen und Empfänger müssen Sie daher bestimmte Richtlinien befolgen, z. B. barrierefreie Schriftarten, lesbare Formate und die Bereitstellung von Alternativtext für Bilder.
 
 Mit [!DNL Journey Optimizer] [E-Mail-Designer](content-from-scratch.md), mit dem Marketing-Fachleute Inhalte sowohl für **E-Mails** als auch für **Landingpages** erstellen können, können Sie diese Richtlinie auf Grundlage der Web Content Accessibility Guidelines (WCAG) 2.1, Level AA, problemlos einhalten.
 
@@ -30,7 +30,7 @@ Dementsprechend finden Sie im Folgenden Best Practices für die Gestaltung barri
 >
 >Auf dieser Seite geht es darum, Ihre Inhalte für alle Empfängerinnen und Empfänger barrierefrei zu machen, um sicherzustellen, dass Menschen mit Behinderungen Ihre mit [!DNL Journey Optimizer] entworfenen E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
 >
->Dagegen wird die Barrierefreiheit der [!DNL Journey Optimizer]-Schnittstelle selbst in ([&#x200B; Abschnitt) &#x200B;](../start/accessibility.md).
+>Dagegen wird die Barrierefreiheit der [!DNL Journey Optimizer]-Schnittstelle selbst in ([ Abschnitt) ](../start/accessibility.md).
 
 ## Sicherstellen der Lesbarkeit von Text {#text-readability}
 

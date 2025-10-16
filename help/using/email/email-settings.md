@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -30,13 +30,13 @@ Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanalkonfigur
 
 Die E-Mail-Konfiguration wird nach der folgenden Logik für das Senden von Nachrichten übernommen:
 
-* Bei Batch-Journeys gilt dies nicht für Batch-Ausführungen, die bereits begonnen hatten, bevor die Konfiguration der E-Mail-Oberfläche festgelegt wurde. Die Änderungen werden beim nächsten Wiederkehren oder bei der nächsten Neuausführung übernommen.
+* Bei Batch-Journeys gilt dies nicht für Batch-Ausführungen, die bereits begonnen hatten, bevor die Konfiguration der E-Mail-Oberfläche festgelegt wurde. Die Änderung wird bei der nächsten Wiederholung oder bei der neuen Ausführung übernommen.
 
 * Bei Transaktionsnachrichten wird die Änderung sofort für die nächste Mitteilung übernommen (mit einer Verzögerung von bis zu fünf Minuten).
 
 >[!NOTE]
 >
->Die aktualisierten E-Mail-Konfigurationseinstellungen werden automatisch in den Journeys oder Kampagnen aufgenommen, in denen die Konfiguration verwendet wird.
+>Die aktualisierten E-Mail-Konfigurationseinstellungen werden automatisch auf den Journey(s) oder in den Kampagnen aufgenommen, auf denen die Konfiguration verwendet wird.
 
 ## E-Mail-Typ {#email-type}
 
