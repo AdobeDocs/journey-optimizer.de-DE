@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: Kampagnenoptimierung, Experimente, Targeting, A/B-Tests
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -90,7 +90,7 @@ Gehen Sie folgendermaßen vor, um das Targeting einzurichten.
 
 1. [Aktivieren](review-activate-campaign.md) Sie Ihre Journey oder Kampagne.
 
-Sobald die Journey/Kampagne live ist, werden für jede Zielgruppe maßgeschneiderte Inhalte versendet, sodass etwa in den USA ansässige Personen eine bestimmte Nachricht erhalten, in Frankreich ansässige Personen eine andere usw.
+Sobald die Journey/Kampagne live ist, werden Inhalte gesendet, die auf die einzelnen Zielgruppen zugeschnitten sind, sodass die US-Bürger eine bestimmte Nachricht erhalten, die Bewohner Frankreichs eine andere Nachricht und so weiter.
 
 <!--Default content:
 
@@ -144,7 +144,7 @@ Verfolgen Sie den Erfolg Ihrer Kampagne mit den Berichten [Journey](../reports/j
 
 Mit Journey Optimizer können Sie auch Targeting und Experimente innerhalb einer einzigen Journey oder Kampagne kombinieren, um komplexere Strategien zu entwickeln.
 
-Sie können Targeting nutzen, um verschiedene Varianten einzurichten, und für jede Variante Experimente verwenden, um die jeweiligen Inhalte weiter zu optimieren. Dadurch wird sichergestellt, dass Experimente spezifisch für jede Targeting-Regel sind und nicht verschiedene Varianten umfassen.
+Sie können Targeting verwenden, um mehrere Varianten zu erstellen, und für jede Variante Experimente verwenden, um jeden Inhalt weiter zu optimieren. Dadurch wird sichergestellt, dass Experimente spezifisch für jede Targeting-Regel sind und nicht verschiedene Varianten umfassen.
 
 Sie können beispielsweise eine „Promotion mit 50 % Rabatt“ gegenüber einer „Geschenkkarte im Wert von 50 Dollar“ für Kundschaft in den USA testen und für Kundschaft in Europa einen anderen Test durchführen, z. B. „kostenloser Versand bei Bestellungen über 50 €“ gegenüber „20 % Rabatt auf ihren nächsten Kauf“.
 
@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Erfahren Sie, wie Sie die Nachrichtenoptimierung in durch eine Aktion oder durch API ausgelösten Kampagnen nutzen. Sie erfahren, wie Sie Teilzielgruppen ansprechen, Nachrichtenvarianten je nach Standort erstellen, Fallback-Inhalte aktivieren und mehrere Experimente innerhalb einer Kampagne durchführen. In diesem Tutorial wird auch beschrieben, wie Sie Multi-Channel-Kampagnen verwalten und dabei die Konsistenz der Nachrichten beibehalten können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470377?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

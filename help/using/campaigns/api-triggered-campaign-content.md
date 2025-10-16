@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -49,7 +49,7 @@ Beachten Sie, dass im Menü in der linken Leiste derzeit kein kontextuelles Attr
 
 **Unbedingt lesen**
 
-* Die in die Anfrage übergebenen Kontextattribute dürfen 200 KB nicht überschreiten und sind stets vom Typ „Zeichenfolge“.
+* Die in die Anfrage übergebenen kontextuellen Attribute dürfen 200 KB nicht überschreiten und werden immer als vom Typ „Zeichenfolge“ betrachtet.
 * Die Syntax `context.system` ist auf die interne Nutzung bei Adobe beschränkt und sollte nicht zur Weitergabe von kontextuellen Attributen verwendet werden.
 * Im Gegensatz zu profilaktivierten Ereignissen werden die in der REST-API übergebenen kontextuellen Daten für die einmalige Kommunikation verwendet und nicht im Profil gespeichert. Das Profil wird nur mit den Namespace-Details erstellt, falls es nicht vorhanden ist.
 * Die Verwendung einer großen Zahl oder umfangreicher kontextueller Daten in Ihren Inhalten kann die Performance beeinträchtigen.

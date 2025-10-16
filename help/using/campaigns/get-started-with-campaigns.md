@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 61%
+ht-degree: 59%
 
 ---
 
@@ -102,7 +102,7 @@ Verwenden Sie [!DNL Journey Optimizer] Kampagnen, um einmalige Inhalte für eine
 
 Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen machen es nahtlos. Auf einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis hin zum Nachrichtenversand, über mehrere Kanäle hinweg entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist.
 
-➡️ [Erfahren Sie, wie Sie mit orchestrierten Kampagnen &#x200B;](../orchestrated/gs-orchestrated-campaigns.md).
+➡️ [Erfahren Sie, wie Sie mit orchestrierten Kampagnen ](../orchestrated/gs-orchestrated-campaigns.md).
 
 >[!TAB Aktionskampagnen (oder geplante Kampagnen)]
 
@@ -115,7 +115,7 @@ Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen ma
 
 >[!TAB Durch API ausgelöste Kampagnen]
 
-**API-ausgelöste Kampagnen** ermöglichen es Ihnen, die Ausführung der Kampagne mithilfe eines API-Aufrufs im Trigger zu halten. Diese Nachrichten können an Stellen gesendet werden, an denen eine Personalisierung erforderlich sein kann, indem nicht nur das Profilattribut zum Zurücksetzen des Kennworts zurückgesetzt wird, sondern auch die Echtzeit-Kontextdaten im Trigger, der eine REST-API-Payload ist.
+**API-ausgelöste Kampagnen** ermöglichen es Ihnen, die Ausführung der Kampagne mithilfe eines API-Aufrufs im Trigger zu halten. Diese Nachrichten können an Stellen gesendet werden, an denen eine Personalisierung erforderlich sein kann, indem nicht nur das Passwort zurückgesetzt wird, sondern auch die Echtzeit-Kontextdaten im Trigger, der eine REST-API-Payload ist.
 
 * **API-ausgelöst - Marketing** - Senden Sie personalisierte Marketing-Nachrichten an ausgewählte Zielgruppen.
 * **API-ausgelöst - Transaktion** - Senden von Nachrichten nach einer Aktion, die von einer Person ausgeführt wurde, z. B. Anforderung zum Zurücksetzen des Kennworts, Warenkorbkauf usw.
@@ -164,7 +164,7 @@ Bevor Sie mit Kampagnen arbeiten, stellen Sie sicher, dass Sie die folgenden Vor
 
    1. Klicken Sie auf der Registerkarte **[!UICONTROL Benutzer]** auf **[!UICONTROL Benutzer hinzufügen]**.
 
-   1. Geben Sie den Namen oder die E-Mail-Adresse der jeweiligen Person ein oder wählen Sie sie aus der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
+   1. Geben Sie den Namen oder die E-Mail-Adresse Ihres Benutzers ein, oder wählen Sie den Benutzer in der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
       Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzenden](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
 
