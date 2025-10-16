@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ Verwenden Sie [!DNL Journey Optimizer], um Textnachrichten (SMS/MMS/RCS) an die 
 
 Textnachrichten können in einer Journey oder in einer Kampagne erstellt und versendet werden. Für SMS, MMS und RCS verwenden Sie die SMS-Aktion.
 
-* In einer **Journey**. Erstellen Sie eine Journey, fügen Sie eine SMS-Aktivität hinzu und definieren Sie die Grundeinstellungen. Navigieren Sie dann zum rechten Bereich „Aktionen: SMS“, um den Inhalt für die SMS-, MMS- oder RCS-Nachricht zu erstellen. [Erfahren Sie, wie Sie eine Journey erstellen](../building-journeys/journey-gs.md)
+* In einer **Journey**. Erstellen Sie eine Journey, fügen Sie eine SMS-Aktivität hinzu und definieren Sie die Grundeinstellungen. Navigieren Sie dann zum Bereich SMS-Aktionen auf der rechten Seite, um den Inhalt für die SMS-, MMS- oder RCS-Nachricht zu erstellen. [Erfahren Sie, wie Sie eine Journey erstellen](../building-journeys/journey-gs.md)
 
 * In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie SMS als Aktion aus und definieren Sie die Grundeinstellungen. Bearbeiten Sie dann den Nachrichteninhalt, um die zu sendende SMS-, MMS- oder RCS-Nachricht zu definieren. [Erfahren Sie, wie Sie eine Kampagne erstellen](../campaigns/create-campaign.md#configure)
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder 
 
   +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422692?learn=on&captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
   +++
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder 
 
   +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430371?quality=12&learn=on&captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
   +++
 
@@ -88,6 +88,6 @@ Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstleister (oder 
 
   +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464764?captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
   +++

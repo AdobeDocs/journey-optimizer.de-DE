@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,7 @@ In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS
 
 >[!IMPORTANT]
 >
->Die Kommunikation per Textnachricht kann je nach Art der Nachricht, dem Ort, von dem aus Sie Ihre Textnachrichten versenden, und dem Standort Ihrer Empfängerinnen oder Empfänger verschiedenen rechtlichen Anforderungen unterliegen. Adobe Journey Optimizer verarbeitet die Nachrichten an Kurz-, Lang- und gebührenfreie Nummern wie unten beschrieben. Sie sollten sich jedoch an Ihre Rechtsabteilung wenden, um sicherzustellen, dass Ihre Textnachrichten allen geltenden rechtlichen Anforderungen entsprechen.
+>Die Kommunikation über Textnachrichten kann je nach Art der Nachricht, dem Ort, von dem aus Sie Ihre Textnachrichten versenden, und dem Standort Ihrer Empfänger verschiedenen rechtlichen Anforderungen unterliegen. Während Adobe Journey Optimizer Nachrichten über Kurz-, Lang- und gebührenfreie Nummern wie unten beschrieben verarbeitet, sollten Sie sich an Ihren Rechtsbeistand wenden, um sicherzustellen, dass Ihre Textnachrichten allen geltenden gesetzlichen Bestimmungen entsprechen.
 >
 
 ## Native eingehende Keywords {#sms-native-keywords}
@@ -71,6 +71,6 @@ Alphanumerische Sender IDs sind nur für einseitige Nachrichten gedacht und kön
 
   +++ Siehe Video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440289/?learn=on&captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++
