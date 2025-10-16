@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,7 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 
 * **Moderne Omni-Channel-Orchestrierung und -Ausführung**: Über eine einzige Arbeitsfläche kann die Customer Journey durch 1:1-Kundeninteraktionen und Marketing-Maßnahmen harmonisiert und optimiert werden. So werden Marken dabei unterstützt, während des gesamten Kundenlebenszyklus einen Mehrwert zu erzielen. In [!DNL Adobe Journey Optimizer] entwickelte Customer Journeys sind dynamisch und ereignisbasiert und ermöglichen es Marken, auf Echtzeitsignale zu reagieren und diese Interaktionen mit geplanten Kampagnen zu verbinden. Dadurch können die richtigen Entscheidungen darüber getroffen werden, welche Nachrichten wann und über welche Kanäle an Kundschaft gesendet werden.
 
-* **Intelligente Entscheidungsfindung und Personalisierung**: Marken haben die Möglichkeit, zentralisierte Entscheidungsfindung zu nutzen und künstliche Intelligenz und maschinelles Lernen zu integrieren. Daraus lassen sich prädiktive Erkenntnisse über das gesamte Kundenerlebnis gewinnen, was die Automatisierung von Entscheidungen und die Optimierung eines Erlebnisses auch im großen Maßstab erleichtert. [!DNL Adobe Journey Optimizer] ermöglicht mithilfe der Entscheidungsfindung auf allen Kanälen zentralisierte Angebote im großen Maßstab.
+* **Intelligent Decisioning und Personalization** - Marken haben die Möglichkeit, zentralisierte Entscheidungen zu treffen und künstliche Intelligenz und maschinelles Lernen zu integrieren, um prädiktive Erkenntnisse über das gesamte Kundenerlebnis zu konfigurieren, was die Automatisierung von Entscheidungen und die Optimierung eines Erlebnisses im großen Maßstab erleichtert. [!DNL Adobe Journey Optimizer] ermöglicht mithilfe der Entscheidungsfindung auf allen Kanälen zentralisierte Angebote im großen Maßstab.
 
 
 >[!NOTE]
