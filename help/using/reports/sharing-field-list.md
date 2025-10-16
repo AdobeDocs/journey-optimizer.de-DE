@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
+source-git-commit: faf6e63e3951b67997836107ae518b294526206b
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 69%
+ht-degree: 77%
 
 ---
 
@@ -83,25 +83,25 @@ Beim Abfragen von Journey-Schrittereignissen nach Einträgen mit `eventCode = 'd
 
 Im Folgenden finden Sie Definitionen, häufige Ursachen und Schritte zur Fehlerbehebung für die häufigsten `eventTypes`, die verworfen werden:
 
-* EXTERNAL_KEY_COMPUTATION_ERROR: Das System konnte keine eindeutige Kennung (externen Schlüssel) für den Kunden aus den Ereignisdaten berechnen.
+* **EXTERNAL_KEY_COMPUTATION_ERROR**: Das System konnte keine eindeutige Kennung (externen Schlüssel) für die Kundin bzw. den Kunden aus den Ereignisdaten berechnen.
 
   **Häufige**: Fehlende oder falsch formatierte Kundenkennungen (z. B. E-Mail, Kunden-ID) in der Ereignis-Payload.
 
   **Fehlerbehebung**: Überprüfen Sie die Ereigniskonfiguration auf erforderliche Kennungen, stellen Sie sicher, dass die Ereignisdaten vollständig und korrekt formatiert sind.
 
-* NO_INTERESTED_JOURNEY_FOR_SEGMENTMEMBERSHIP_EVENT: Es wurde ein Segmentqualifikationsereignis empfangen, aber es sind keine Journey konfiguriert, die auf dieses Segment reagieren.
+* **NO_INTERESTED_JOURNEYS_FOR_SEGMENTMEMBERSHIP_EVENT**: Es wurde ein Segmentqualifikationsereignis empfangen, aber es sind keine Journeys konfiguriert, die auf dieses Segment reagieren.
 
   **Häufige Ursachen**: Keine Journey verwenden das Segment als Trigger, Journey befinden sich im Status Entwurf/Angehalten oder die Segment-IDs stimmen nicht überein.
 
   **Fehlerbehebung**: Stellen Sie sicher, dass mindestens eine Journey live und für das Segment konfiguriert ist, und überprüfen Sie die Segment-IDs.
 
-* JOURNEY_INSTANCE_ID_NOT_CREATE: Das System konnte keine Journey-Instanz für den Kunden erstellen.
+* **JOURNEY_INSTANCE_ID_NOT_CREATE**: Das System konnte keine Journey-Instanz für die Kundin oder den Kunden erstellen.
 
   **Häufige Ursachen**: Doppelte Ereignisse, hohes Ereignisvolumen, Einschränkungen der Systemressourcen.
 
   **Fehlerbehebung**: Implementieren Sie die Deduplizierung, vermeiden Sie Traffic-Spitzen, optimieren Sie das Journey-Design, und wenden Sie sich an den Support, wenn Sie persistent sind.
 
-* EVENT_WITH_NO_JOURNEY: Ein Ereignis wurde empfangen, aber es ist keine aktive Journey konfiguriert, um darauf zu reagieren
+* **EVENT_WITH_NO_JOURNEY**: Ein Ereignis wurde empfangen, aber es ist keine aktive Journey konfiguriert, um darauf zu reagieren
 
   **Häufige Ursachen**: Fehlende Übereinstimmung bei Ereignisname/ID, Journey nicht veröffentlicht, falsche Sandbox/Organisation, Testmodus/Profilabweichung.
 
