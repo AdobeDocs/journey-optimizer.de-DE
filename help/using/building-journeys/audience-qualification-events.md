@@ -37,7 +37,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 >[!CAUTION]
 >
->Bevor Sie mit der Konfiguration einer Zielgruppen-Qualifizierung beginnen[ lesen Sie die Leitplanken und Einschränkungen](#audience-qualification-guardrails).
+>Bevor Sie mit der Konfiguration einer Zielgruppen-Qualifizierung beginnen[&#x200B; lesen Sie die Leitplanken und Einschränkungen](#audience-qualification-guardrails).
 
 
 ## Konfigurieren der Aktivität {#configure-segment-qualification}
