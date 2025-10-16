@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f9102c10aa58be0e1a7280aa53fd97b3f792b9e9
+source-git-commit: 990ecd8a9fd89f0cc15dc41e7e38490aba539784
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 70%
+ht-degree: 69%
 
 ---
 
@@ -85,35 +85,34 @@ Im Folgenden finden Sie Definitionen, häufige Ursachen und Schritte zur Fehlerb
 
 * EXTERNAL_KEY_COMPUTATION_ERROR: Das System konnte keine eindeutige Kennung (externen Schlüssel) für den Kunden aus den Ereignisdaten berechnen.
 
-|---|---|
-| **Häufige Ursachen** | Fehlende oder falsch formatierte Kundenkennungen (z. B. E-Mail, Kunden-ID) in der Ereignis-Payload. |
-| **Fehlerbehebung** | Überprüfen Sie die Ereigniskonfiguration auf erforderliche Kennungen, stellen Sie sicher, dass die Ereignisdaten vollständig und korrekt formatiert sind. |
+  **Häufige**: Fehlende oder falsch formatierte Kundenkennungen (z. B. E-Mail, Kunden-ID) in der Ereignis-Payload.
+
+  **Fehlerbehebung**: Überprüfen Sie die Ereigniskonfiguration auf erforderliche Kennungen, stellen Sie sicher, dass die Ereignisdaten vollständig und korrekt formatiert sind.
 
 * NO_INTERESTED_JOURNEY_FOR_SEGMENTMEMBERSHIP_EVENT: Es wurde ein Segmentqualifikationsereignis empfangen, aber es sind keine Journey konfiguriert, die auf dieses Segment reagieren.
 
+  **Häufige Ursachen**: Keine Journey verwenden das Segment als Trigger, Journey befinden sich im Status Entwurf/Angehalten oder die Segment-IDs stimmen nicht überein.
 
-|---|---|
-| **Häufige Ursachen** | Keine Journey verwenden das Segment als Trigger, Journey befinden sich im Entwurfsstatus bzw. im angehaltenen Status oder die Segment-IDs stimmen nicht überein. |
-| **Fehlerbehebung** | Stellen Sie sicher, dass mindestens eine Journey live und für das Segment konfiguriert ist, und überprüfen Sie die Segment-IDs. |
+  **Fehlerbehebung**: Stellen Sie sicher, dass mindestens eine Journey live und für das Segment konfiguriert ist, und überprüfen Sie die Segment-IDs.
 
-### JOURNEY_INSTANCE_ID_NOT_CREATE: Das System konnte keine Journey-Instanz für den Kunden erstellen.
+* JOURNEY_INSTANCE_ID_NOT_CREATE: Das System konnte keine Journey-Instanz für den Kunden erstellen.
 
-|---|---|
-| **Häufige Ursachen** | Doppelte Ereignisse, hohes Ereignisvolumen, Einschränkungen der Systemressourcen. |
-| **Fehlerbehebung** | Implementieren Sie die Deduplizierung, vermeiden Sie Traffic-Spitzen, optimieren Sie das Journey-Design, und wenden Sie sich an den Support, wenn Sie persistent sind. |
+  **Häufige Ursachen**: Doppelte Ereignisse, hohes Ereignisvolumen, Einschränkungen der Systemressourcen.
 
-### EVENT_WITH_NO_JOURNEY: Ein Ereignis wurde empfangen, aber es ist keine aktive Journey konfiguriert, um darauf zu reagieren
+  **Fehlerbehebung**: Implementieren Sie die Deduplizierung, vermeiden Sie Traffic-Spitzen, optimieren Sie das Journey-Design, und wenden Sie sich an den Support, wenn Sie persistent sind.
 
-|---|---|
-| **Häufige Ursachen** | Fehlende Übereinstimmung bei Ereignisname/ID, Journey nicht veröffentlicht, falsche Sandbox/Organisation, Testmodus/Profil stimmen nicht überein. |
-| **Fehlerbehebung** | Überprüfen Sie die Ereignis- und Journey-Konfiguration, überprüfen Sie den Journey-Status, verwenden Sie Debugging-Tools. |
+* EVENT_WITH_NO_JOURNEY: Ein Ereignis wurde empfangen, aber es ist keine aktive Journey konfiguriert, um darauf zu reagieren
 
-Für Verwerfungen, die in pausierten Journeys auftreten:
+  **Häufige Ursachen**: Fehlende Übereinstimmung bei Ereignisname/ID, Journey nicht veröffentlicht, falsche Sandbox/Organisation, Testmodus/Profilabweichung.
 
-* **PAUSED_JOURNEY_VERSION**: Verwirft Ereignisse am Eintrittspunkt der Journey
-* **JOURNEY_IN_PAUSED_STATE**: Verwirft Ereignisse, wenn Profile in einer Journey sind
+  **Fehlerbehebung**: Überprüfen der Ereignis- und Journey-Konfiguration, Überprüfen des Journey-Status, Verwenden von Debuggingwerkzeugen.
 
-Weitere Informationen zu diesen Ereignissen sowie zur Fehlerbehebung finden Sie im Abschnitt [Anhalten einer Journey](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+* Für Verwerfungen, die in pausierten Journeys auftreten:
+
+   * **PAUSED_JOURNEY_VERSION**: Verwirft Ereignisse am Eintrittspunkt der Journey
+   * **JOURNEY_IN_PAUSED_STATE**: Verwirft Ereignisse, wenn Profile in einer Journey sind
+
+  Weitere Informationen zu diesen Ereignissen sowie zur Fehlerbehebung finden Sie im Abschnitt [Anhalten einer Journey](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
 
 ## Weitere Ressourcen
 
