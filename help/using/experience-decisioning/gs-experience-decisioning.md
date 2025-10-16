@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
       ![](assets/decision_permission_2.png)
 
-   1. Geben Sie den Namen oder die E-Mail-Adresse der jeweiligen Person ein oder wählen Sie sie aus der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
+   1. Geben Sie den Namen oder die E-Mail-Adresse Ihres Benutzers ein, oder wählen Sie den Benutzer in der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
       Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzenden](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
 

@@ -4,10 +4,10 @@ description: Informationen zum Erstellen von Begrenzungsregeln für Ihre Journey
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 450a6accf11d72d56e6b93cec9ec89dc8cf3c8f3
-workflow-type: ht
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -80,7 +80,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
    1. Legen Sie im Feld **[!UICONTROL Begrenzung]** die maximale Anzahl von Journeys fest, an denen ein Profil gleichzeitig teilnehmen kann.
 
-   1. Verwenden Sie das Feld **[!UICONTROL Vorschau der Priorisierung]**, um Journey-Eintritte basierend auf Prioritätswerten über einen ausgewählten Zeitraum (z. B. 1 Tag, 7 Tage, 30 Tage) zu steuern. 
+   1. Verwenden Sie das Feld **[!UICONTROL Priorisierung - Look-Ahead]**, um Journey-Einträge basierend auf Prioritätswerten über einen ausgewählten Zeitraum (z. B. 1 Tag, 7 Tage, 30 Tage) zu schlichten.
 
       Diese Option scannt die anstehenden geplanten Journeys vom Typ „Zielgruppe lesen“ für den Rest der Woche, um zu ermitteln, ob das Eintreten des Profils in die Journey aufgrund einer anstehenden Journey mit höherer Priorität unterdrückt werden soll. Dies hilft bei der Priorisierung des Eintritts in Journeys mit einem höheren Wert, wenn ein Profil für mehrere Journeys qualifiziert ist.
 
@@ -119,4 +119,4 @@ Darüber hinaus können Sie auch den [Abfragedienst in Adobe Experience Platform
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447624?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

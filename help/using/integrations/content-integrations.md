@@ -9,16 +9,16 @@ role: User
 level: Beginner
 keywords: Assets, Integration
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 100%
+source-wordcount: '694'
+ht-degree: 96%
 
 ---
 
 # Kombinieren von Lösungen und Anwendungen zur Verwaltung von Inhalten {#combine-solutions}
 
-Um Nachrichten und Inhalte für die Aktivierung in Omni-Channel-Customer Journeys und -Kampagnen zu erstellen, benötigen Marketing- und Customer Experience-Fachleute benutzerfreundliche Authoring-Optionen, einschließlich Workflow-interner generativer KI, Bearbeitungsfunktionen, Assets, Vorlagen und Fragmentverwaltung.  Dank Adobe Journey Optimizer können Sie Ihre Adobe-Lösungen und -Anwendungen einfach kombinieren, um das Beste aus Ihren Adobe-Tools herauszuholen. Mithilfe dieser nativen Integrationen können Sie Ihre spezifischen Anwendungsfälle abdecken und den Funktionsumfang von Adobe Journey Optimizer erweitern.
+Um Nachrichten und Inhalte für die Aktivierung in Omni-Channel-Customer Journeys und -Kampagnen zu erstellen, benötigen Marketing- und Customer Experience-Fachleute benutzerfreundliche Authoring-Optionen, einschließlich Workflow-interner generativer KI, Bearbeitungsfunktionen, Assets, Vorlagen und Fragmentverwaltung.  Mit Adobe Journey Optimizer können Sie Ihre Adobe-Lösungen und -Programme einfach kombinieren, um das Beste aus Ihren Adobe-Tools herauszuholen. Mithilfe dieser nativen Integrationen können Sie Ihre spezifischen Anwendungsfälle abdecken und den Funktionsumfang von Adobe Journey Optimizer erweitern.
 
 ## Adobe Experience Manager {#integration-aem}
 

@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Profilen und Zielgruppen
-description: Erfahren Sie, wie Sie in [!DNL Journey Optimzier] mit Profilen und Zielgruppen arbeiten.
+description: Erfahren Sie, wie Sie in [!DNL Journey Optimizer] mit Profilen und Zielgruppen arbeiten.
 feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 435898d7e806e93ee0154c3da22f6a011fc78175
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%

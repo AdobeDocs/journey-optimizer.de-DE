@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Beim Targeting einer Zielgruppe, die mithilfe von Kompositions-Workflows, einer 
 
 Hier sind die Aktionen, die Sie mithilfe der Anreicherungsattribute von Zielgruppen durchführen können:
 
-* **Erstellen mehrerer Pfade in einer Journey** basierend auf Regeln, die die Anreicherungsattribute der Zielgruppe nutzen. Sprechen Sie dazu die Zielgruppe mithilfe der Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) an und erstellen Sie dann Regeln in der Aktivität [Bedingung](../building-journeys/condition-activity.md) basierend auf den Anreicherungsattributen der Zielgruppe.
+* **Erstellen Sie mehrere Pfade auf einer Journey** basierend auf Regeln, die die Anreicherungsattribute der Zielgruppe nutzen. Sprechen Sie dazu die Zielgruppe mithilfe der Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) an und erstellen Sie dann Regeln in der Aktivität [Bedingung](../building-journeys/condition-activity.md) basierend auf den Anreicherungsattributen der Zielgruppe.
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 

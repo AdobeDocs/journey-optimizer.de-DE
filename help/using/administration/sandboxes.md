@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: Sandboxes, virtuell, Umgebungen, Organisation, Plattform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,7 @@ So weisen Sie Sandboxes zu:
 
    ![](assets/sandbox_3.png)
 
-1. Klicken Sie bei Bedarf auf das X-Symbol daneben, um den Sandbox-Zugriff auf Ihre **[!UICONTROL Rolle]** zu entfernen.
+1. Klicken Sie bei Bedarf auf das X-Symbol daneben, um den Sandbox-Zugriff aus Ihrer **[!UICONTROL Rolle“]**.
 
    ![](assets/sandbox_4.png)
 

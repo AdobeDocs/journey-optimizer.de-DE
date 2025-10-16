@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Design, Formatierung
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Sie können die In-App-Inhalte bearbeiten, um Erlebnisoptionen zu konfigurieren:
 
-* Klicken Sie in **[!UICONTROL Kampagne]** im Menü **[!UICONTROL Aktion]** auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der Nachricht zu konfigurieren.
+* Klicken Sie **[!UICONTROL einer]** im Menü **[!UICONTROL Aktion]** auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Nachrichteninhalt zu konfigurieren.
 
   ![](assets/edit-in-app-content.png)
 

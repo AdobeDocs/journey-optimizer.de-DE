@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1615'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

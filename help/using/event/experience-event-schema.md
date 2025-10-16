@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: Schemata, XDM, Plattform, Streaming, Aufnahme, Journey
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ Eine wichtige Voraussetzung für das Einrichten von [!DNL Journey Optimizer]-Ere
 
 >[!CAUTION]
 >
->Die Suche nach Erlebnisereignissen in Journey-Bedingungen wird nicht mehr unterstützt. Hier finden Sie alternative Best Practices. Wenn Ihnen ein durch ein Ereignis ausgelöster Journey-Anwendungsfall vorliegt, der immer noch die Suche nach Erlebnisereignissen erfordert und nicht durch eine der aufgelisteten Alternativen ausgeführt werden kann, wenden Sie sich an den Adobe-Support. Wir helfen Ihnen, Ihr Ziel zu erreichen.
+>Die Suche nach Erlebnisereignissen in Journey-Bedingungen wird nicht mehr unterstützt. Hier finden Sie alternative Best Practices. Wenn Sie einen Anwendungsfall für ereignisausgelöstes Journey haben, für den weiterhin eine Suche nach Erlebnisereignissen erforderlich ist und der nicht durch eine der aufgelisteten Alternativen unterstützt werden kann, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter. Wir helfen Ihnen gerne beim Erreichen Ihres Ziels.
 >
 >Der Zugriff auf den Kontext vom Startereignis einer Journey ist nicht betroffen.
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=de).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

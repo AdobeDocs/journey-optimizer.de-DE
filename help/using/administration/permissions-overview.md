@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: Berechtigungen, Rechte, Einschränkungen, Zugriff, Sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] ermöglicht die Definition und Verwaltung von Berechtigungen, die den verschiedenen Benutzern erteilt werden können. Berechtigungen sind eine Reihe von Rechten und Einschränkungen, die den Zugriff auf produktinterne Funktionen zulassen oder verweigern.
 
-Die Zugriffssteuerung für [!DNL Journey Optimizer] erfolgt über die **Berechtigungen** in Adobe Experience Cloud. Diese Funktion nutzt Rollen und Richtlinien, um Benutzende mit Berechtigungen und Sandboxes zu verknüpfen.
+Die Zugriffssteuerung für [!DNL Journey Optimizer] wird in Adobe Experience Cloud über **Berechtigungen** bereitgestellt. Diese Funktion nutzt Rollen und Richtlinien, um Benutzende mit Berechtigungen und Sandboxes zu verknüpfen.
 
 Zum Konfigurieren der Zugriffssteuerung für Journey Optimizer werden system- oder produktbezogene Administratorrechte für Ihr Unternehmen benötigt. Zum Erteilen oder Entziehen von Berechtigungen ist mindestens eine Produktadmin-Rolle erforderlich. Zu einer anderen Administratorrolle, die Berechtigungen verwalten können, gehören die Systemadmins (keine Einschränkungen). Dieser [Artikel im Hilfezentrum von Adobe](https://helpx.adobe.com/de/enterprise/using/admin-roles.html){target="_blank"} enthält weitere Informationen zu administrativen Rollen.
 

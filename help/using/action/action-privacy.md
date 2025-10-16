@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Richtlinie
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Damit Data Governance-Richtlinien in Journey Optimizer durchgesetzt werden könn
 
 ### Anwenden von Marketing-Aktionen auf Journeys und Kampagnen {#journeys-campaigns}
 
-Nachdem Sie Governance-Richtlinien erstellt haben, müssen Sie die entsprechenden Marketing-Aktionen in Ihren **Kanalkonfigurationen** in Journey Optimizer anwenden. Gehen Sie dazu wie folgt vor:
+Nachdem Sie Governance-Richtlinien erstellt haben, müssen Sie die entsprechenden Marketing-Aktionen auf Ihre Journey Optimizer-**Kanalkonfigurationen“**. Gehen Sie dazu wie folgt vor:
 
 1. Greifen Sie auf das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** zu.
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Marketo, Integration von Marketo Engage
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: dec575162b6db7e7d4f32f5f170de9673b979e5c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -118,6 +118,6 @@ Gehen Sie wie folgt vor, um diese zu verwenden:
 
 1. Geben Sie Label und Beschreibung dieser Aktion ein.
 
-1. Klicken Sie im Abschnitt **Anfrageparameter** für jeden Parameter auf das Symbol **Bearbeiten** und wählen Sie die dynamischen Werte aus, die in der Payload konfiguriert wurden.
+1. Klicken Sie **Abschnitt** auf das Symbol **Bearbeiten** für jeden Parameter und wählen Sie die dynamischen Werte aus, die Sie in der Payload konfiguriert haben.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}

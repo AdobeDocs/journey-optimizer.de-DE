@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 99%
+source-wordcount: '1707'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
 >title="Aktion"
 >abstract="In diesem Abschnitt werden alle in der orchestrierten Kampagne verwendeten Aktionen aufgelistet."
 
-Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden. Verwenden Sie die Registerkarten, um Kampagnen nach Typ zu durchsuchen: **Aktions**-Kampagnen, **per API ausgelöste** Kampagnen und **orchestrierte** Kampagnen. Erfahren Sie mehr über die [Art der Kampagne](get-started-with-campaigns.md#get-started-with-campaigns). Die verfügbaren Typen hängen von Ihrer Lizenzvereinbarung und Ihren Berechtigungen ab.
+Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden. Verwenden Sie die Registerkarten, um Kampagnen nach Typ zu durchsuchen: **Aktion** Kampagnen, **API-ausgelöst** Kampagnen und **orchestrierte** Kampagnen. Erfahren Sie mehr über [Kampagnentypen](get-started-with-campaigns.md#get-started-with-campaigns). Die verfügbaren Typen hängen von Ihrer Lizenzvereinbarung und Ihren Berechtigungen ab.
 
 >[!BEGINTABS]
 
@@ -69,7 +69,7 @@ Die Schaltfläche ![Bild mit der Schaltfläche „Mehr Aktionen“](assets/do-no
 * **[!UICONTROL Tags bearbeiten]**: Bearbeiten Sie die mit der Kampagne verknüpften Tags. Erfahren Sie, wie Sie [Tags in Ihren Kampagnen verwenden](../start/search-filter-categorize.md#add-tags-to-an-object) können.
 * **[!UICONTROL Duplizieren]**: Verwenden Sie diese Option, um eine Kampagne zu duplizieren, z. B. um eine orchestrierte Kampagne auszuführen, die gestoppt wurde. [Weitere Informationen](#duplicate-a-campaign)
 * **[!UICONTROL Löschen]**: Verwenden Sie diese Option, um eine Kampagne zu löschen. [Weitere Informationen](#delete-a-campaign)
-* **[!UICONTROL Archivieren]**: Archiviert die Kampagne. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung gelöscht. Diese Aktion ist für alle Kampagnen mit Ausnahme von Kampagnen im Status **[!UICONTROL Entwurf]** verfügbar. Weitere Informationen zur [Kampagnenarchivierung](#archive-a-campaign).
+* **[!UICONTROL Archivieren]**: Archiviert die Kampagne. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung gelöscht. Diese Aktion ist für alle Kampagnen mit Ausnahme von Kampagnen im Status **[!UICONTROL Entwurf]** verfügbar. Weitere Informationen zur [Kampagnenarchivierung](#archive-a-campaign).
 
 Für von einer Aktion und durch API ausgelöste Kampagnen sind die folgenden zusätzlichen Aktionen verfügbar:
 
@@ -214,7 +214,7 @@ Zum Stoppen einer wiederkehrenden Kampagne, öffnen Sie diese und klicken Sie au
 
 >[!IMPORTANT]
 >
->Das Anhalten einer Kampagne stoppt keinen laufenden Versand, aber es stoppt einen geplanten Versand oder die nächsten Vorgänge, wenn der Versand bereits im Gange ist.
+>Das Anhalten einer Kampagne stoppt keinen laufenden Versand, aber es stoppt einen geplanten Versand oder die nächsten Vorfälle, wenn der Versand bereits im Gange ist.
 
 ## Archivieren einer Kampagne {#archive}
 

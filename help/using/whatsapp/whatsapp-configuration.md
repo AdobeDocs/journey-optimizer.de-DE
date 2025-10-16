@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -180,6 +180,6 @@ Im folgenden Video erfahren Sie, wie Sie den WhatsApp-Kanal in Adobe Journey Opt
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470277/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

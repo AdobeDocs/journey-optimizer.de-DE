@@ -9,14 +9,14 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Starten, erste Schritte
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 94%
 
 ---
 
-# Erste Schritte mit Landingpages {#get-sarted-lp}
+# Erste Schritte mit Landingpages {#get-started-lp}
 
 Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleitet wird, nachdem er auf eine E-Mail, eine Website, eine Anzeige oder einen anderen digitalen Ort geklickt hat.
 
@@ -71,4 +71,4 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 
 Im folgenden Video erfahren Sie, wie Sie eine Abonnement-Liste erstellen, Landingpages einrichten, um An- oder Abmeldungen für einen Service zu ermöglichen, die Optionen zum Abonnieren oder Abbestellen in eine Nachricht integrieren und entsprechende Journeys konfigurieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409511?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

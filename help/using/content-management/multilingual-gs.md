@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Mit der Mehrsprachen-Funktion können Sie im Rahmen einer Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen. Mit dieser Funktion können Sie bei der Bearbeitung Ihrer Kampagne zwischen Sprachen wechseln, den gesamten Bearbeitungsvorgang optimieren und Ihre mehrsprachigen Inhalte effizienter verwalten.
 
-Mit Journey Optimizer können Sie mehrsprachige Inhalte auf zwei unterschiedliche Arten erstellen:
+Mit Journey Optimizer haben Sie die Möglichkeit, mehrsprachige Inhalte mithilfe von zwei verschiedenen Methoden zu erstellen:
 
 * **Manuelle Übersetzung**: Übersetzen Sie Ihre Inhalte direkt im E-Mail-Designer oder importieren Sie vorhandene mehrsprachige Inhalte. [Weitere Informationen](multilingual-manual.md)
 
@@ -100,4 +100,4 @@ Für den mehrsprachigen Inhalt müssen die folgenden Einstellungen definiert wer
 
 Erfahren Sie, wie Sie im Rahmen einer einzelnen Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452122?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

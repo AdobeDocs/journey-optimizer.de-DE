@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Kommunikationskanälen in  [!DNL Adobe Jo
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Bei ausgehenden Kanälen für den Nachrichtenversand werden Nachrichten ohne vor
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-Mail-Kanal
 
@@ -37,7 +37,7 @@ Erfahren Sie, wie Sie E-Mail-Kampagnen erstellen, konfigurieren und optimieren k
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Push-Benachrichtigungs-Kanal
 
@@ -47,7 +47,7 @@ Erfahren Sie, wie Sie Push-Benachrichtigungen für iOS und Android erstellen, ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS-/MMS-/RCS-Nachrichten
 
@@ -57,7 +57,7 @@ Erfahren Sie, wie Sie SMS-, MMS- und RCS-Nachrichten für Marketing- und Transak
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Briefpostkampagnen
 
@@ -75,7 +75,7 @@ Mit Inbound-Erlebnissen über Mobile App und Web initiieren Kundinnen und Kunden
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 In-App-Nachrichten
 
@@ -85,7 +85,7 @@ Erfahren Sie, wie Sie In-App-Benachrichtigungen für mobile und Web-Plattformen 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Erfahren Sie, wie Sie Web-Erlebnisse erstellen, konfigurieren und personalisiere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Code-basiertes Erlebnis
 
@@ -105,11 +105,11 @@ Machen Sie sich mit Code-basierten Erlebnissen vertraut, um mithilfe von SDKs un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Inhaltskarten
 
-Erfahren Sie, wie Sie Inhaltskarten für ansprechende und personalisierte Nachrichten in Mobile Apps und Websites konfigurieren, erstellen und entwerfen.
+Erfahren Sie, wie Sie Inhaltskarten konfigurieren, erstellen und entwerfen, um mit Mobile Apps und Websites für interaktives und personalisiertes Messaging zu sorgen.
 
 [Weitere Informationen über Code-basierte Erlebnisse](../../rp_landing_pages/content-card-landing-page.md)
 :::

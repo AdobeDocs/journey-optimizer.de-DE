@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie potenzielle Konflikte in Journeys und Kampagn
 role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Erkennen von potenziellen Konflikten in Journeys und Kampagnen {#conflict}
 
-Da Marketing-Fachleute das Volumen von Kampagnen und Journeys in Journey Optimizer erhöhen, wird es für sie immer schwieriger zu erfahren, ob sie Ihre Kundschaft mit zu vielen Marketing-Interaktionen bombardieren. Daher ist es wichtig, dass Sie leicht erkennen können, wann es zu Überschneidungen von Kampagnen und Journeys kommt, um sicherzustellen, das richtige Gleichgewicht in der Marketing-Kommunikation zu finden und gleichzeitig das Risiko einer Ermüdung der Kundschaft zu minimieren.
+Da Marketer das Volumen der Kampagnen und Journey in Journey Optimizer erhöhen, wird es für einen Marketer immer schwieriger, herauszufinden, ob er seine Kunden mit zu vielen Marketing-Interaktionen bombardiert. Daher ist es wichtig, einfach zu erkennen, wenn sich Kampagnen und Journey überschneiden, um sicherzustellen, dass sie die richtige Balance bei der Marketing-Kommunikation finden und gleichzeitig das Risiko der Kundenmüdigkeit mindern.
 
 Wichtige Bereiche, die auf mögliche Überschneidungen hin überwacht werden sollten, sind:
 

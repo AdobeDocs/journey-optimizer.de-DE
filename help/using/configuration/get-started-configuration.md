@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
-source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,7 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
 
    * Verwalten Sie die Anzahl der Tage, in denen weitere Zustellversuche unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](manage-suppression-list.md)
 
-   * Aktivieren Sie die **BBC-E-Mail-Option**, um eine Kopie der an Einzelpersonen gesendeten Nachrichten aufzubewahren. [Weitere Informationen](archiving-support.md#enable-bcc)
+   * Aktivieren Sie die **BCC-E-Mail** Option, um eine Kopie der an Einzelpersonen gesendeten Nachrichten aufzubewahren. [Weitere Informationen](archiving-support.md#enable-bcc)
 
    * Konfigurieren Sie **Geschäftsregeln**, um zu vermeiden, dass Ihre Empfängerinnen und Empfänger übermäßig viele Nachrichten erhalten. [Weitere Informationen](../conflict-prioritization/rule-sets.md)
 
