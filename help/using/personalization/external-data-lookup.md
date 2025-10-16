@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
-workflow-type: ht
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -210,7 +210,7 @@ Im Abschnitt „Edge Delivery“ des Assurance-Trace wurde den Ausführungsdetai
 
 * Wie wird ein kontextuelles Attribut aus der Anfrage als Parameter an eine Suche nach externen Daten übergeben?
 
-  Verwenden Sie das Menü „Kontextuelle Attribute“ > „Datenstrom“ > „Ereignis“, um das von Ihnen verwendete Erlebnisereignisschema zu durchsuchen und das entsprechende Attribut als Parameterwert wie den folgenden einzufügen:
+  Verwenden Sie das Menü Kontextuelle Attribute > Datenstrom > Ereignis , um das von Ihnen verwendete Erlebnisereignisschema zu durchsuchen und das entsprechende Attribut als Parameterwert wie den folgenden einzufügen:
 
   ```
   {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
