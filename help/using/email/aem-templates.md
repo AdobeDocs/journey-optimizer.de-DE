@@ -23,7 +23,7 @@ ht-degree: 95%
 >[!AVAILABILITY]
 >
 >Die Integration mit Adobe Experience Manager ist derzeit nur für ausgewählte Benutzerinnen und Benutzer als Beta-Version verfügbar.
->> Beta-Benutzerinnen und -Benutzer können [dieses Formular](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} verwenden, um Feedback zu geben.
+>&#x200B;> Beta-Benutzerinnen und -Benutzer können [dieses Formular](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} verwenden, um Feedback zu geben.
 
 Mit Adobe Journey Optimizer können Sie über Adobe Experience Manager Sites benutzerdefinierte, auf sie zugeschnittene Nachrichten erstellen. Erstellen Sie zunächst Ihre Vorlagen mithilfe der Inhaltsquellen von Adobe Experience Manager und senden Sie sie dann an Adobe Journey Optimizer. Nach der Freigabe können Sie im E-Mail-Designer von Adobe Journey Optimizer auf diese Vorlagen zugreifen, um die Erstellung und den Versand von Nachrichten an Ihre gewünschte Zielgruppe zu vereinfachen.
 
