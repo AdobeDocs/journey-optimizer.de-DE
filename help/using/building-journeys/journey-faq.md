@@ -315,7 +315,7 @@ Sie können die Journey-Ausführung auf verschiedene Weise verwalten:
 * **Sofort anhalten**: Beenden Sie den Journey und beenden Sie alle aktuell darin enthaltenen Profile.
 * **Pause**: Journey vorübergehend anhalten und später fortsetzen (für bestimmte Journey-Typen verfügbar)
 
-Weitere Informationen zum [ von Journey](end-journey.md).
+Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
 
 +++
 
@@ -732,7 +732,7 @@ Zu den wichtigen Leitplanken gehören:
 * **Zielgruppengröße**: Beschränkungen für die Größe von gelesenen Zielgruppen-Batches
 * **Ausdruckskomplexität**: Zeichenbeschränkungen in Bedingungen und Personalisierung
 
-Vollständige Ansicht [Leitplanken und ](../start/guardrails.md))
+Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
 
 +++
 
