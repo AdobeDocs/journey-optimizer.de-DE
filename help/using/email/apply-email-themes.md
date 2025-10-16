@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail-Designs, Module, Wiederverwendbarkeit, Markenkonsistenz, E-Mail-Design, benutzerdefiniertes CSS, Optimierung für Mobilgeräte
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '831'
+ht-degree: 97%
 
 ---
 
@@ -127,7 +127,7 @@ Gehen Sie wie folgt vor, um standardmäßige oder benutzerdefinierte Stil-Design
 
    * Wählen Sie eine integrierte [E-Mail-Vorlage](use-email-templates.md) aus, um E-Mail-Designer zu öffnen. Es wird automatisch ein für jede Vorlage spezifisches Standard-Design angewendet.
 
-   * Entwerfen Sie einen [neuen Inhalt von Grund auf](content-from-scratch.md) und wählen Sie **[!UICONTROL Design]s verwenden**, um mit einem vordefinierten Stil-Design zu beginnen.
+   * Entwerfen Sie [neuen Inhalt von Grund auf](content-from-scratch.md) und wählen Sie **[!UICONTROL Verwenden von Designs]**, um mit einem vordefinierten Stildesign zu beginnen.
 
      ![](assets/theme-from-scratch.png)
 
