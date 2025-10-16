@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0cace4defb2c52b729f1427e856b2fc87df5ec50
+source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
 workflow-type: tm+mt
 source-wordcount: '1893'
 ht-degree: 65%
@@ -19,9 +19,9 @@ ht-degree: 65%
 
 Verwenden Sie beim Erstellen Ihrer Journeys und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler vor der Ausführung oder Veröffentlichung zu überprüfen und zu beheben.
 
-* Auf dieser Seite erfahren Sie, wie Sie Probleme mit Ihren Journey [&#x200B; beheben](../building-journeys/troubleshooting.md)
+* Auf dieser Seite erfahren Sie, wie Sie Probleme mit Ihren Journey [ beheben](../building-journeys/troubleshooting.md)
 
-* Auf dieser Seite erfahren Sie, wie Sie Ihre Kampagnen [&#x200B; können](../campaigns/review-activate-campaign.md)
+* Auf dieser Seite erfahren Sie, wie Sie Ihre Kampagnen [ können](../campaigns/review-activate-campaign.md)
 
 
 Zusätzlich können bei Erreichen eines bestimmten Bedingungssatzes Warnmeldungen an alle Benutzer in Ihrer Organisation gesendet werden, die sich dafür angemeldet haben. Diese Warnhinweise sind im entsprechenden Menü **[!UICONTROL Warnhinweise]** verfügbar. Adobe Experience Platform bietet mehrere vordefinierte Warnhinweisregeln, die Sie für Ihr Unternehmen aktivieren können. Darüber hinaus können Sie [!DNL Adobe Journey Optimizer] Systemwarnungen abonnieren, wie auf dieser Seite beschrieben.
@@ -43,8 +43,8 @@ Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONT
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
-   * Warnhinweis [&#128279;](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration
+   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
+   * Warnhinweis ](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration[
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
@@ -88,7 +88,7 @@ Gehen Sie wie folgt vor, um einen Warnhinweis für eine bestimmte Journey zu abo
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Journey-Warnhinweise {#journey-alerts}
 
@@ -260,7 +260,7 @@ Zum Journey von Warnhinweisen verwenden Sie die Schaltfläche **[!UICONTROL Weit
 
 ![](assets/alert-more-actions.png){width=60%}
 
-#### Definieren eines benutzerdefinierten Schwellenwerts {#custom-threshold}
+### Definieren eines benutzerdefinierten Schwellenwerts {#custom-threshold}
 
 Sie können Schwellenwerte für die [Journey-Warnungen festlegen](#journey-alerts). Die Warnschwelle für diese Werte beträgt standardmäßig 20 %.
 

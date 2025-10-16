@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1a5f6be689c9e91ee0dc0b5f024dbe8020424337
+source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 29%
+source-wordcount: '1209'
+ht-degree: 41%
 
 ---
 
@@ -29,40 +29,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 
 ### Neue Funktionen {#oct-25-10-features}
 
-<table>
-<thead>
-<tr>
-<th><strong>Briefpost-Kanal in Journey</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Zuvor auf Kampagnen beschränkt, ist der Briefpostkanal jetzt auf der Journey-Arbeitsfläche verfügbar, sodass Sie Briefpost in Ihre Journey integrieren können. Briefpost kann jetzt sowohl in Batch- als auch in 1:1-Journey-Szenarien verwendet werden, mit Unterstützung für die Dateiextraktionskonfiguration und zeitbasierte Häufigkeitseinstellungen.</p>
-<p> Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Neue API zum Abrufen von Aktionskampagnen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Eine neue Journey Optimizer-API ist jetzt verfügbar, mit der Sie kampagnenbezogene Daten wie Details, Versionen und Konfigurationen programmgesteuert abrufen und überprüfen können.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -115,6 +82,41 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tr>
 <td>
 <p>Der Briefpost-Kanal ist jetzt in orchestrierten Kampagnen verfügbar. Die Direkt-Mail-Aktivität erleichtert den Direkt-Mail-Versand innerhalb der orchestrierten Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Direkt-Mail-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Kanalaktivitäten können in der Arbeitsoberfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Briefpost-Kanal in Journey</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Zuvor auf Kampagnen beschränkt, ist der Briefpostkanal jetzt auf der Journey-Arbeitsfläche verfügbar, sodass Sie Briefpost in Ihre Journey integrieren können. Briefpost kann jetzt sowohl in Batch- als auch in 1:1-Journey-Szenarien verwendet werden, mit Unterstützung für die Dateiextraktionskonfiguration und zeitbasierte Häufigkeitseinstellungen.</p>
+<p> Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Neue API zum Abrufen von Aktionskampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eine neue Journey Optimizer-API ist jetzt verfügbar, mit der Sie kampagnenbezogene Daten wie Details, Versionen und Konfigurationen programmgesteuert abrufen und überprüfen können.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -193,20 +195,18 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 </tr>
 </tbody>
 </table>
-
 <table>
 <thead>
 <tr>
-<th><strong>Neue Hilfsfunktion für Ausführungsmetadaten</strong><br/></th>
+<th><strong>Metadaten-Assistent für die Ausführung</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Im Personalisierungseditor ist eine neue Funktion zur Unterstützung von „executionMetadata“ verfügbar. Damit können Sie kontextuelle Informationen an jede native Aktion anhängen und sie in einem Datensatz erfassen, um sie in externe Systeme zu exportieren.</p>
-<p>Diese Funktion ist nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>Eine neue Hilfsfunktion „executionMetadata“ ist im Personalisierungseditor verfügbar. Damit können Sie kontextuelle Informationen an jede native Aktion anhängen und sie in einem Datensatz erfassen, um sie in externe Systeme zu exportieren.</p>
+<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
+<p>Weitere Informationen finden Sie in der <a href="../personalization/functions/helpers.md#execution-metadata">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 13. Oktober 2025</p>
 </td>
 </tr>
@@ -216,22 +216,40 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Experimentationsagent</strong><br/></th>
+<th><strong>Experimentieragent ist hier!</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der Experimentierungs-Agent ist ein KI-gestütztes Tool, das die Ausführung und Verwaltung digitaler Experimente auf Websites, E-Mails, Push-Nachrichten und Anwendungen modernisiert. Der Experimentieragent basiert auf der Adobe Experience Platform-KI-Plattform und den Experimentierwerkzeugen und hilft Ihnen, Experimente effizienter durchzuführen, Geschäftsziele zu organisieren und umsetzbare Einblicke zu generieren, indem er hervorhebt, was funktioniert hat, was nicht und wo als Nächstes experimentiert werden sollte.</p>
-<p>Als Teil der neuen Experimentation Accelerator-Funktion bietet der Agent Folgendes:</p>
+<p>Mit <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist der Experimentationsagent in Journey Optimizer verfügbar. </p>
+<p>Der Experimentierungs-Agent ist ein KI-gestütztes Tool, das die Ausführung und Verwaltung digitaler Experimente auf Websites, E-Mails, Push-Nachrichten und Anwendungen modernisiert. Sie hilft Ihnen, Experimente effizienter durchzuführen, Geschäftsziele zu organisieren und umsetzbare Einblicke zu generieren, indem sie hervorhebt, was funktioniert hat, was nicht und wo Sie als Nächstes experimentieren können.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 10. Oktober 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>PDF-Anhänge an E-Mails</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt eine statische PDF-Datei an eine mit Journey Optimizer gesendete E-Mail anhängen.</p>
 <ul>
-<li><strong>Leistung:</strong> einen klaren Überblick über die Ereignisse im Experiment</li>
-<li><strong>Insights:</strong> eine Erklärung, warum die Ergebnisse aufgetreten sind</li>
-<li><strong>Opportunities:</strong> Anleitung für die nächsten zu ergreifenden Maßnahmen</li>
+<li>Pro Profil können pro Jahr bis zu 6 Nachrichten mit einem PDF-Anhang gesendet werden.</li>
+<li>Die maximale Dateigröße pro Anhang beträgt 5 MB.</li>
+<li>Für zusätzliche Größen oder Volumen können Sie das Add-on für PDF-Anhänge erwerben. Weitere Informationen erhalten Sie beim Adobe-Support.</li>
 </ul>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<p>Verfügbarkeitsdatum: 9. Oktober 2025</p>
+<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>Weitere Informationen finden Sie in der <a href="../email/pdf-attachments.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 30. September 2025</p>
 </td>
 </tr>
 </tbody>
@@ -247,43 +265,40 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tr>
 <td>
 <p>Eine neue Journey Optimizer-API ist jetzt verfügbar, um Journey und ihre zugehörigen Objekte wie Kampagnen und Oberflächen abzurufen.</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>Weitere Informationen finden Sie in der <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 25. September 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 ### Verbesserungen
 
-- **Kampagnen, Experience Decisioning, Journey**
-   - **Wiederverwendbare Regeln im Targeting auswählen** - Sie können jetzt den Regel-Builder bei der Verwendung von Targeting-Regeln mit der Nachrichtenoptimierungsfunktion in Journey und Kampagnen nutzen. <!-- [Read more](../FILE.md) -->
+**Wiederverwendbare Regeln in der Zielgruppenbestimmung auswählen**
 
-- **Kanal - WhatsApp**
-   - **Ausführungsfeld für WhatsApp-Kanal** - Zusätzlich zu E-Mail und SMS ist es jetzt möglich, das Standard-Ausführungsfeld von WhatsApp zu aktualisieren. Es ist auch möglich, das Ausführungsfeld, das in den erweiterten Parametern der WhatsApp-Journey-Aktivität oder in der WhatsApp-Kanalkonfiguration global festgelegt ist, zu überschreiben. <!-- [Read more](../FILE.md) -->
+Sie können jetzt den Regel-Builder bei der Verwendung von Targeting-Regeln mit der Funktion „Nachrichtenoptimierung“ in Journey und Kampagnen nutzen. <!-- [Read more](../FILE.md) -->
 
-- **Berechtigungen**
-   - **Der Journey/Kampagnenersteller sollte nicht in der Lage sein, zu genehmigen** - Beim Erstellen oder Festlegen der Genehmigungsrichtlinie wurde eine Option hinzugefügt, um Journey/Kampagnenersteller daran zu hindern, ihre eigenen Objekte zu genehmigen. <!-- [Read more](../FILE.md) -->
+**Ausführungsfeld für WhatsApp-Kanal**
 
-- **Kanal – Push**
-   - **Mobile Live-Aktivitäten - Private Beta** - Live-Aktivitäten bieten Echtzeit-Updates und interaktive Erlebnisse in mobilen Apps, sodass Benutzer direkt auf dem Bildschirm ihres Geräts über laufende Ereignisse oder Aufgaben informiert bleiben können. Diese Funktion verbessert die Interaktion, indem Live-Informationen wie Fortschrittsverfolgung, Ereignisaktualisierungen oder interaktive Inhalte bereitgestellt werden, ohne dass Benutzer die App öffnen müssen. <!-- [Read more](../FILE.md) -->
+Zusätzlich zu E-Mail und SMS ist es jetzt möglich, das Standard-Ausführungsfeld von WhatsApp zu aktualisieren. Es ist auch möglich, das Ausführungsfeld, das in den erweiterten Parametern der WhatsApp-Journey-Aktivität oder in der WhatsApp-Kanalkonfiguration global festgelegt ist, zu überschreiben. <!-- [Read more](../FILE.md) -->
 
-- **Journeys**
-   - **Neue Journey-Warnhinweise** - Verfügbarkeitsdatum: 14. Oktober 2025
-Für Journey sind neue vorkonfigurierte Warnhinweise verfügbar: Profilverwerfungsrate überschritten (Verhältnis von Profilverwerfen zu eingegebenen Profilen in den letzten 5 Minuten überschreitet den Schwellenwert), Fehlerrate bei benutzerdefinierter Aktion überschritten (Verhältnis von Fehlern bei benutzerdefinierter Aktion zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten überschritten den Schwellenwert), Profilfehlerrate überschritten (Verhältnis von fehlerhaften Profilen zu eingegebenen Profilen in den letzten 5 Minuten überschritten den Schwellenwert). <!-- [Read more](../FILE.md) -->
+**Berechtigungen**
 
-- **Konfiguration**
-   - **Unterstützung benutzerdefinierter Attribute mit 1-Klick-Abmelde** - Verfügbarkeitsdatum: 6. Oktober 2025
-Wenn Sie mit Journey Optimizer das Einverständnis außerhalb von Adobe verwalten, können Sie einen externen benutzerdefinierten Endpunkt festlegen, indem Sie Ihren eigenen Link zur Abmeldung mit einem Klick in der E-Mail-Konfiguration definieren. Wenn Ihre Empfänger auf den Abmelde-Link klicken, fügt Journey Optimizer einige standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an. Um einen Link zum Abmelden einer E-Mail-Adresse weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die an das Einverständnisereignis angehängt werden. Diese Funktion ist bereits seit dem 25. August für die benutzerdefinierte URL zum Abmelden mit einem Klick verfügbar und jetzt für die Option Mailto (unsubscribe) in Eingeschränkter Verfügbarkeit veröffentlicht. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten. <!-- [Read more](../FILE.md) -->
+**Neue Journey-Warnhinweise**
 
-- **Kanal – E-Mail**
-   - **PDF-Anhänge für E** - Verfügbarkeitsdatum: 30. September 2025
-Sie können jetzt eine statische PDF-Datei an eine mit Journey Optimizer gesendete E-Mail-Nachricht anhängen. Pro Profil können bis zu 6 Nachrichten mit einem PDF-Anhang pro Jahr gesendet werden. Die maximal zulässige Dateigröße für jeden Anhang beträgt 5 MB. Für jede zusätzliche Größe oder jedes zusätzliche Volumen können Sie das PDF Attachment-Add-on erwerben. Weitere Informationen erhalten Sie beim Adobe-Support.
+Für Journey sind neue vorkonfigurierte Warnhinweise verfügbar: [Profilverwerfungsrate überschritten](../reports/alerts.md#alert-discard-rate) (Verhältnis von Profilverwerfen zu eingegebenen Profilen in den letzten 5 Minuten überschritten), [Fehlerrate für benutzerdefinierte Aktion überschritten](../reports/alerts.md#alert-custom-action-error-rate) (Verhältnis von Fehlern bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten überschritten) und [Profilfehlerrate überschritten](../reports/alerts.md#alert-profile-error-rate) (Verhältnis von fehlerhaften Profilen zu eingegebenen Profilen in den letzten 5 Minuten überschritten). Sie können Schwellenwerte anpassen und Warnhinweise entweder auf Journey-Ebene oder global abonnieren.
 
-  >[!AVAILABILITY]
-  >
-  >Diese Verbesserung wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
+Verfügbarkeitsdatum: 14. Oktober 2025
 
-  <!-- [Read more](../FILE.md) -->
+**Unterstützung benutzerdefinierter Attribute für Mailto-Adresse (abmelden)**
 
+Wenn Sie mit Journey Optimizer das Einverständnis außerhalb von Adobe verwalten, können Sie externe benutzerdefinierte Endpunkte festlegen, indem Sie Ihren eigenen Ein-Klick-Abmelde-Link und eine benutzerdefinierte Abmelde-E-Mail-Adresse in der E-Mail-Konfiguration definieren. Wenn Ihre Empfängerinnen oder Empfänger auf den Link zum Abmelden klicken, fügt Journey Optimizer standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an.
+
+Um Ihre benutzerdefinierten Endpunkte weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die auch an das Einverständnisereignis angehängt werden. [Weitere Informationen](../email/list-unsubscribe.md#custom-attributes)
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist bereits seit dem 25. August für die benutzerdefinierte URL **[!UICONTROL Ein-Klick-Abmelde]** verfügbar und jetzt für die Option **[!UICONTROL Mailto (unsubscribe)]** in begrenzter Verfügbarkeit veröffentlicht. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+
+Verfügbarkeitsdatum: 6. Oktober 2025
