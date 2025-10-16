@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 57%
@@ -99,7 +99,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
    Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
-   {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
+   {%else if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"%}
    Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
    {%/if%}
    ```
@@ -127,7 +127,7 @@ Darstellung von Inhalt je nach E-Mail-Adressenerweiterung:
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
 Some Normal Content
 {%else%}
-Some edu specific content Content
+Some edu specific content
 {%/unless%}
 ```
 
@@ -234,7 +234,7 @@ Mit dieser Funktion können Sie kontextuelle Informationen an beliebige native A
 
 >[!NOTE]
 >
->Die Funktion „Ausführungsmetadaten“ wird von [benutzerdefinierten Aktionen“ nicht &#x200B;](../../action/action.md).
+>Die Funktion „Ausführungsmetadaten“ wird von [benutzerdefinierten Aktionen“ nicht ](../../action/action.md).
 
 Sie können beispielsweise den Helper Ausführungsmetadaten verwenden, um eine bestimmte ID an jeden Versand anzuhängen, der an jedes Profil gesendet wird. Diese Informationen werden zur Laufzeit generiert, und die angereicherten Ausführungsmetadaten können dann zur nachgelagerten Abstimmung mit einer externen Reporting-Plattform exportiert werden.
 
@@ -263,7 +263,7 @@ Zur Laufzeit wird der Metadatenwert dem vorhandenen **[!UICONTROL Nachrichten-Fe
 
 >[!NOTE]
 >
->Weitere Informationen zu Datensätzen finden [&#x200B; in diesem Abschnitt](../../data/get-started-datasets.md).
+>Weitere Informationen zu Datensätzen finden [ in diesem Abschnitt](../../data/get-started-datasets.md).
 
 **Einschränkung**
 

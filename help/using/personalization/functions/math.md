@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 93%
+source-wordcount: '244'
+ht-degree: 77%
 
 ---
 
@@ -39,7 +39,7 @@ Sie akzeptiert eine Zahl und eine Zeichenfolge, die das Gebietsschema darstellt,
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst werden
+Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst werden
 
 **Beispiel**
 
@@ -71,7 +71,7 @@ Die Funktion `roundDown` wird verwendet, um eine Zahl abzurunden.
 
 ## Aufrunden {#round-up}
 
-Die Funktion `Count only null`wird verwendet, um eine Zahl aufzurunden.
+Die Funktion `roundUp` wird verwendet, um eine Zahl aufzurunden.
 
 **Syntax**
 
@@ -91,7 +91,7 @@ Die Funktion `toHexString` konvertiert eine beliebige Zahl in ihre hexadezimale 
 
 **Beispiel**
 
-Diese Abfrage gibt den hexadezimalen Wert von 158 zurück, also 9e.
+Diese Abfrage gibt den Hexadezimalwert 158 zurück, d. h. 9e.
 
 ```sql
 {%= toHexString(158) %}
@@ -109,7 +109,7 @@ Die Funktion `toInt` wird verwendet, um einen dieser Typen (number, double, in
 
 **Beispiel**
 
-Diese Abfrage gibt den Ganzzahlanteil von 42,6 zurück, also 42.
+Diese Abfrage gibt den ganzzahligen Wert von 42,6 zurück, d. h. 42.
 
 ```sql
 {%= toInt(42.6) %}: integer

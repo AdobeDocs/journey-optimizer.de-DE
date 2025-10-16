@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '2422'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -133,7 +133,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="dates.md#convert-zoned-date-time">Uhrzeit-/Datumsangabe in eine bestimmte Zeitzone umwandeln</a></td><td>Diese Funktion wandelt eine Datums-/Uhrzeitangabe in eine bestimmte Zeitzone um.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">Aktuelle Zeit in Millisekunden</a></td><td>Diese Funktion ruft die aktuelle Zeit in Epochen-Millisekunden ab.</td>
+        <td><a href="dates.md#current">Aktuelle Zeit in Millisekunden</a></td><td>Diese Funktion ruft die aktuelle Zeit in Epochenmillisekunden ab.</td>
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">Datumsunterschied</a></td><td>Diese Funktion ermittelt die Differenz zwischen zwei Daten in der Anzahl der Tage.</td>
@@ -212,7 +212,6 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="dates.md#diff-years">Jahresdifferenz</a></td><td>Diese Funktion gibt den Unterschied zwischen zwei Daten in Form von Jahren zurück.</td>
     </tr>
 </table>
-</table>
 
 ### Zuordnungsfunktionen {#map-functions}
 
@@ -247,7 +246,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="math.md#round-up">Aufrunden</a></td><td>Diese Funktion rundet eine Zahl auf.</td>
     </tr>
     <tr>
-    <td><a href="math.md#to-hex-string">In hexadezimale Zeichenfolge</a></td><td>konvertiert eine beliebige Zahl in ihre hexadezimale Zeichenfolge.</td>
+    <td><a href="math.md#to-hex-string">In hexadezimale Zeichenfolge</a></td><td>Konvertiert eine beliebige Zahl in ihre hexadezimale Zeichenfolge.</td>
     </tr>
     <tr>
     <td><a href="math.md#to-int">ToInt</a></td><td>Konvertiert jeden dieser Typen (number, double, int, long, float, short, byte, boolean, string) in eine Ganzzahl.</td>
