@@ -11,10 +11,10 @@ keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: a7da542320a38dbc739ec42ee4926fce1dea1df0
+source-git-commit: 32848633cdfb5683b45286fcdd22711a82d591b5
 workflow-type: tm+mt
-source-wordcount: '2363'
-ht-degree: 2%
+source-wordcount: '4094'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Adobe Journey Optimizer Journey.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Allgemeine Konzepte
 
@@ -68,6 +68,22 @@ Eine Journey besteht aus:
 * **Benutzerdefinierte Aktionen**: Integration mit Drittanbietersystemen
 
 Weitere Informationen zu [Journey-Aktivitäten](about-journey-activities.md).
+
++++
+
++++ Wie wähle ich zwischen einer unitären Journey und einer gelesenen Zielgruppen-Journey?
+
+Verwenden **unitären Journey** wenn:
+
+* Sie müssen in Echtzeit auf individuelle Kundenaktionen reagieren (z. B. Kaufbestätigung, Warenkorbabbruch)
+* Jeder Kunde sollte in seinem eigenen Tempo voranschreiten
+* Sie einen Trigger auf der Grundlage bestimmter Ereignisse erstellen möchten
+
+Verwenden Sie **Zielgruppen-Journey lesen** wenn:
+
+* Sie senden Batch-Nachrichten an eine Gruppe (z. B. monatlicher Newsletter, Werbekampagnen)
+* Alle Kunden sollten die Nachricht etwa zur selben Zeit erhalten
+* Sie zielen auf ein vordefiniertes Zielgruppensegment ab
 
 +++
 
@@ -150,6 +166,104 @@ Weitere Informationen zu [Profilaktualisierungen](update-profiles.md).
 
 +++
 
++++ Wie sende ich eine E-Mail, sobald jemand einen Kauf tätigt?
+
+Erstellen Sie **unitäre ereignisgesteuerte Journey**:
+
+1. Konfigurieren eines „Kauf“-Ereignisses mit den Bestelldetails
+2. Ereignis als Einstiegspunkt für Journey hinzufügen
+3. Sofort mit einer E-Mail -Aktion folgen
+4. Gestalten Ihrer Bestellbestätigungs-E-Mail mit personalisierten Bestelldetails
+5. Veröffentlichen der Journey
+
+Die Journey wird bei Erhalt eines Kaufereignisses automatisch Trigger und sendet die Bestätigungs-E-Mail in Echtzeit.
+
+Weitere Informationen zu [Ereigniskonfiguration](../event/about-events.md) und [E-Mail-Aktionen](journeys-message.md).
+
++++
+
++++ Kann ich eine Nachricht erneut senden, wenn jemand sie nicht öffnet oder anklickt?
+
+Ja. Verwenden Sie eine **Bedingungsaktivität** kombiniert mit **Warteaktivitäten**:
+
+1. Fügen Sie eine Aktivität Warten hinzu (z. B. 3 Tage warten)
+2. Aktivität „Bedingung“ hinzufügen, um zu überprüfen, ob die E-Mail geöffnet oder angeklickt wurde
+3. Erstellen Sie zwei Pfade:
+   * **Wenn geöffnet/geklickt**: Beenden Sie die Journey oder fahren Sie mit den nächsten Schritten fort
+   * **Wenn nicht geöffnet/angeklickt**: Erinnerungs-E-Mail mit anderer Betreffzeile senden
+
+**Best Practice**: Begrenzen Sie die Anzahl der erneuten Sendungen, um das Auftreten von Spam zu vermeiden (in der Regel maximal 1-2 Erinnerungen).
+
+Weitere Informationen zu [Reaktionsereignissen](reaction-events.md).
+
++++
+
++++ Wie erstelle ich eine Warenkorbabbruch-Journey?
+
+Erstellen einer ereignisgesteuerten Journey mit Warte- und Bedingungslogik:
+
+1. **Konfigurieren eines Ereignisses „Warenkorbabbruch“**: Wird ausgelöst, wenn Artikel hinzugefügt werden, der Checkout jedoch nicht innerhalb eines bestimmten Zeitraums abgeschlossen ist
+2. **Warteaktivität hinzufügen**: Warten Sie 1-2 Stunden, um dem Kunden Zeit für den natürlichen Abschluss zu geben
+3. **Bedingung hinzufügen**: Überprüfen, ob der Kauf während der Wartezeit abgeschlossen wurde
+4. **Wenn nicht gekauft**: Senden Sie eine E-Mail zur Erinnerung an einen Abbruch mit Warenkorbinhalt
+5. **Optional**: Fügen Sie eine weitere Wartezeit (24 Stunden) hinzu und senden Sie eine zweite Erinnerung mit einem Anreiz (z. B. 10 % Rabatt)
+
+Weitere Informationen zu [Journey-Anwendungsfällen](jo-use-cases.md).
+
++++
+
++++ Wie unterteile ich Kundinnen und Kunden je nach Kaufverlauf in verschiedene Pfade?
+
+Verwenden Sie eine **Bedingungsaktivität** mit Zielgruppenzugehörigkeit oder Profilattributen:
+
+1. Hinzufügen einer Aktivität vom Typ Bedingung zu Ihrem Journey
+2. Erstellen Sie mehrere Pfade basierend auf Kriterien:
+   * **Path 1**: Hochwertige Kunden (Gesamtkäufe > 1.000 USD)
+   * **Path 2**: Stammkunden (Gesamtkäufe zwischen 100 und 1000 $)
+   * **Pfad 3**: Neue Kunden (Gesamteinkäufe &lt; 100 $)
+3. Fügen Sie für jeden Pfad unterschiedliche Nachrichten oder Angebote hinzu
+
+Weitere Informationen zu [Bedingungen](condition-activity.md) und [Zielgruppen-Qualifizierung](audience-qualification-events.md).
+
++++
+
++++ Wie handhabe ich verschiedene Zeitzonen in meinem Journey?
+
+Journey Optimizer bietet mehrere Optionen für die Zeitzonenverwaltung:
+
+* **Zeitzone des Profils**: Nachrichten werden basierend auf der Zeitzone eines jeden Kontakts gesendet, die in seinem Profil gespeichert ist
+* **Feste Zeitzone**: Alle Nachrichten verwenden eine bestimmte von Ihnen definierte Zeitzone
+* **Auf bestimmte Zeit warten**: Verwenden Sie die Aktivität Warten , um Nachrichten zu einem bestimmten Zeitpunkt in der lokalen Zeitzone der Empfängerin oder des Empfängers zu senden (z. B. 10 Uhr morgens).
+
+**Beispiel**: Um eine E-Mail „Guten Morgen“ um 9 Uhr in der Zeitzone jedes Kunden zu senden, verwenden Sie eine Warteaktivität mit „Warten auf ein festes Datum/eine feste Uhrzeit“ und aktivieren Sie die Option Zeitzone .
+
+Weitere Informationen über [Zeitzonenverwaltung](timezone-management.md).
+
++++
+
++++ Wie lange sollte ich zwischen den Nachrichten auf meinem Journey warten?
+
+**Best Practices für Wartezeiten**:
+
+* **Transaktionsnachrichten** (Auftragsbestätigungen): Sofort versenden
+* **Begrüßungsserie**: 1-3 Tage zwischen den E-Mails
+* **Schulungsinhalte**: 3-7 Tage zwischen den Nachrichten
+* **Werbekampagnen**: mindestens 7 Tage zwischen den Angeboten
+* **Erneute Interaktion**: 14-30 Tage für inaktive Benutzer
+
+**Zu berücksichtigende**:
+
+* Branchenstandards und Kundenerwartungen
+* Dringlichkeit und Wichtigkeit der Botschaft
+* Ihre allgemeine Nachrichtenfrequenz über alle Kanäle hinweg
+* Kundeninteraktionsmuster
+
+**Tipp**: Verwenden Sie Journey-Begrenzungsregeln, um die Gesamtzahl der Nachrichten zu begrenzen, die ein Kunde über alle Journey hinweg erhält.
+
+Weitere Informationen zu [Warteaktivitäten](wait-activity.md) und [Journey-Begrenzung](../conflict-prioritization/journey-capping.md).
+
++++
+
 ## Testen und Veröffentlichen
 
 +++ Wie kann ich meinen Journey vor der Veröffentlichung testen?
@@ -201,7 +315,27 @@ Sie können die Journey-Ausführung auf verschiedene Weise verwalten:
 * **Sofort anhalten**: Beenden Sie den Journey und beenden Sie alle aktuell darin enthaltenen Profile.
 * **Pause**: Journey vorübergehend anhalten und später fortsetzen (für bestimmte Journey-Typen verfügbar)
 
-Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
+Weitere Informationen zum [ von Journey](end-journey.md).
+
++++
+
++++ Was ist der Unterschied zwischen „Für neue Eintritte schließen“ und „Anhalten“?
+
+**Für neue Eintritte schließen**:
+
+* Neue Profile können nicht auf die Journey zugreifen
+* Profile, die sich bereits auf der Journey befinden, fahren fort und schließen ihren Pfad ab
+* Verwenden Sie diese Option, wenn Sie eine Journey elegant herunterladen möchten
+* Beispiel: Saisonale Kampagne, die beendet wurde, bei der bestehende Kundinnen und Kunden jedoch ihr Erlebnis abschließen sollen
+
+**Anhalten**:
+
+* Beendet die Journey für alle Profile sofort
+* Alle Profile, die sich derzeit auf der Journey befinden, werden beendet
+* Verwenden Sie dies für dringende Situationen oder kritische Fehler
+* Beispiel: Produkt-Rückruf, der einen sofortigen Stopp der Werbenachrichten erfordert
+
+Weitere Informationen zu [Journey-Pausenoptionen](journey-pause.md).
 
 +++
 
@@ -277,6 +411,113 @@ Wenn eine Aktion fehlschlägt (z. B. API-Aufruf-Timeout, Nachrichtenversand-Fehl
 **Best Practice**: Legen Sie geeignete Zeitüberschreitungswerte für externe Aktionen fest und definieren Sie alternative Pfade für kritische Fehlerszenarien.
 
 Weitere Informationen zu [Aktionsantworten](../action/action-response.md).
+
++++
+
++++ Kann ich sehen, wer gerade auf meinem Journey ist?
+
+Ja. Verwenden Sie den **Journey-Live** Bericht, um Folgendes anzuzeigen:
+
+* Anzahl der Profile, die sich derzeit auf der Journey befinden
+* Anzahl der Profile pro Aktivität
+* Profile, die in den letzten 24 Stunden eingetreten sind
+* Echtzeit-Ausführungsmetriken
+
+Verwenden Sie zum Anzeigen einzelner Profile **Journey-Schrittereignisse** in Customer Journey Analytics oder fragen Sie die Schrittereignisdatensätze direkt ab.
+
+Weitere Informationen zu [Journey-Live-Berichten](report-journey.md).
+
++++
+
++++ Warum werden meine Nachrichten nicht auf meinem Journey versendet?
+
+**Häufige Gründe und Lösungen**:
+
+* **Einverständnisprobleme**: Empfänger haben sich nicht für den Erhalt von Nachrichten angemeldet
+Lösung: Einverständnisrichtlinien und Opt-in-Status überprüfen
+
+* **Unterdrückungsliste**: E-Mail-Adressen befinden sich auf der Unterdrückungsliste
+Lösung: Überprüfen Sie die Unterdrückungsliste auf Bounces oder Beschwerden
+
+* **Ungültige Kontaktinformationen**: Fehlende oder falsch formatierte E-Mail-Adressen/Telefonnummern
+Lösung: Validieren der Profildatenqualität
+
+* **Journey nicht veröffentlicht**: Die Journey befindet sich noch im Entwurfsmodus
+Lösung: Veröffentlichen Sie die Journey, um sie zu aktivieren
+
+* **Nachricht nicht genehmigt**: Nachrichteninhalt muss vor dem Senden genehmigt werden
+Lösung: Zur Genehmigung einreichen oder Genehmigungsstatus überprüfen
+
+* **Kanalkonfigurationsproblem**: E-Mail-/SMS-Konfiguration ist falsch
+Lösung: Überprüfen der Kanalkonfigurationen und -authentifizierung
+
+Weitere Informationen zu [Fehlerbehebung](troubleshooting.md) und [Einverständnisverwaltung](../action/consent.md).
+
++++
+
++++ Wie kann ich Nachrichten auf meinem Journey personalisieren?
+
+Sie können Nachrichten mit dem **Personalisierungseditor** personalisieren:
+
+**Verfügbare Personalisierungsdaten**:
+
+* **Profilattribute**: Vorname, Nachname, E-Mail, benutzerdefinierte Felder
+* **Ereignisdaten**: Kaufdetails, Browser-Verhalten, App-Aktivität
+* **Kontextdaten**: Journey-Variablen, externe API-Daten
+* **Zielgruppenzugehörigkeit**: Segmentqualifikationen
+* **Berechnete Attribute**: Vorberechnete Werte
+
+**Beispiel für Personalisierung**:
+
+* „Hallo {{profile.firstName}}, vielen Dank für Ihren Kauf von {{event.productName}}&quot;
+* „Je nach Treuestufe ({{profile.loyaltyTier}}) finden Sie hier ein Sonderangebot.“
+* Dynamische Inhaltsbausteine, die sich je nach Kundenvorlieben ändern
+
+Erhalten Sie mehr über [Personalisierung](../personalization/personalize.md). 
+
++++
+
++++ Kann ich je nach bevorzugtem Kanal verschiedene Nachrichten senden?
+
+Ja. Verwenden Sie eine **Aktivität Bedingung**, um den bevorzugten Kanal zu überprüfen:
+
+1. Hinzufügen eines Profils für die Bedingungsprüfung.preferencesChannel
+2. Erstellen Sie für jeden Kanal separate Pfade:
+   * **E-Mail-Pfad**: E-Mail-Nachricht senden
+   * **SMS-Pfad**: SMS-Nachricht senden
+   * **Push-Pfad**: Push-Benachrichtigung senden
+3. Standardpfad für Profile ohne Voreinstellung hinzufügen
+
+**Alternativansatz**: Verwenden Sie **Multi-Channel-Aktionen** bei denen Journey Optimizer automatisch den besten Kanal basierend auf Profilvoreinstellungen und Verfügbarkeit auswählt.
+
+Weitere Informationen zu [Kanalaktionen](journeys-message.md).
+
++++
+
++++ Kann ich bestimmte Kunden von meinem Journey ausschließen?
+
+Ja, es gibt mehrere Möglichkeiten, Kunden auszuschließen:
+
+**Bei Journey-Eintrag**:
+
+* Verwenden von Zielgruppendefinitionen mit Ausschlussregeln
+* Einstiegsbedingungen hinzufügen, die bestimmte Profile herausfiltern
+* Namespace-Anforderungen konfigurieren
+
+**Innerhalb der Journey**:
+
+* Fügen Sie frühzeitig im Journey eine Aktivität vom Typ Bedingung hinzu, um unerwünschte Profile zu schließen
+* Prüfen auf Ausschlussattribute (z. B. VIP-Status, Testkonten)
+* Zielgruppen-Qualifizierung verwenden, um auszuschließende Profile zu identifizieren
+
+**Beispielausschlussszenarien**:
+
+* Kunden ausschließen, die kürzlich gekauft haben
+* VIP-Kunden von Standard-Promotions ausschließen
+* Mitarbeiter und Testkonten ausschließen
+* Kunden in bestimmten Regionen ausschließen
+
+Erfahren Sie mehr über [Einreiseverwaltung](entry-management.md) und [Bedingungen](condition-activity.md).
 
 +++
 
@@ -361,6 +602,124 @@ Weitere Informationen über [Sprungaktivität](jump.md).
 
 +++
 
++++ Wie erstelle ich eine Welcome Series Journey?
+
+Eine typische Begrüßungsserie umfasst mehrere Touchpoints über mehrere Tage:
+
+**Beispielstruktur**:
+
+1. **Eintritt**: Zielgruppe neuer Abonnenten oder Ereignis, wenn sich jemand anmeldet
+2. **E-Mail 1 - Sofort willkommen**: Vielen Dank und Einführung
+3. **Warten**: 2 Tage
+4. **E-Mail 2 - Erste Schritte**: Tutorial oder Produkthandbuch
+5. **Warten**: 3 Tage
+6. **Bedingung**: Hat der Kunde einen Kauf getätigt?
+   * **Ja**: Beenden oder Umstieg auf Kunden-Journey
+   * **Nein**: Begrüßungsserie fortsetzen
+7. **E-Mail 3 - Incentive**: Spezieller Erstkäufer-Rabatt
+8. **Warten**: 5 Tage
+9. **E-Mail 4 - Interaktion**: Bestseller oder beliebte Inhalte
+
+**Best Practices**:
+
+* Beibehaltung von 3-5 E-Mails über 2-3 Wochen
+* Jede E-Mail sollte einen klaren Zweck haben und call-to-action enthalten
+* Öffnungsraten überwachen und Timing/Inhalt entsprechend anpassen
+* Beenden Sie Kunden frühzeitig, wenn sie konvertieren oder tief interagieren
+
+Weitere Informationen zu [Journey-Anwendungsfällen](jo-use-cases.md).
+
++++
+
++++ Kann ich auf meinem Journey verschiedene A/B-Pfade testen?
+
+Ja. Verwenden Sie die Aktivität **Optimieren** (verfügbar in bestimmten Journey Optimizer-Paketen) oder erstellen Sie manuell Testaufteilungen:
+
+**Verwenden der Aktivität „Optimieren**:
+
+* Teilt den Traffic automatisch auf verschiedene Varianten auf
+* Testet verschiedene Nachrichten, Angebote oder ganze Journey-Pfade
+* Misst die Leistung und gibt den Gewinner aus
+
+**Manuelles Testen mit Bedingung**:
+
+* Erstellen einer Bedingung, die Profile nach dem Zufallsprinzip aufteilt (z. B. mithilfe einer Zufallszahlenfunktion)
+* An jede Teilung unterschiedliche Erlebnisse senden
+* Messen von Ergebnissen mithilfe von Journey-Berichten
+
+**Was Sie testen können**:
+
+* Unterschiedliche E-Mail-Betreffzeilen
+* Alternativer Nachrichteninhalt
+* Unterschiedliche Wartezeiten
+* Verschiedene Angebote oder Incentives
+* Ganz andere Journey-Pfade
+
+Erfahren Sie mehr über [Aktivität optimieren](optimize.md) und [Inhaltsexperimente](../content-management/content-experiment.md).
+
++++
+
++++ Wie kann ich eine Journey in Trigger nehmen, wenn der Bestand niedrig ist?
+
+Erstellen Sie eine **Geschäftsereignis-Journey**:
+
+1. **Geschäftsereignis konfigurieren**: Richten Sie ein Ereignis ein, das von Ihrem Inventarsystem ausgelöst wird, wenn der Bestand unter einen Schwellenwert fällt
+2. **Zielgruppe auswählen**: Wählen Sie Profile aus, die benachrichtigt werden sollen (z. B. Kunden, die das Produkt angesehen haben, Abonnenten, um Warnhinweise wiederzubeleben).
+3. **Aktion „Nachricht hinzufügen**: E-Mail oder Push-Benachrichtigung senden
+4. **Inhalt personalisieren**: Produktdetails, aktuelle Inventarebene, Dringlichkeitsnachrichten einschließen
+
+**Beispiel für Geschäftsereignisse**:
+
+* Warnhinweis bei niedrigem Bestand
+* Benachrichtigung bezüglich Preisverfall
+* Produkt wieder auf Lager
+* Flash-Verkaufsankündigung
+* Wetterbasierte Angebote
+
+Weitere Informationen zu [Geschäftsereignissen](general-events.md).
+
++++
+
++++ Kann ich eine Journey für eine bestimmte Person anhalten, ohne die gesamte Journey anzuhalten?
+
+Sie können zwar eine Journey für einzelne Profile nicht direkt anhalten, aber Sie können ähnliche Ergebnisse erzielen:
+
+**Optionen**:
+
+* **Zur Ausschluss-Zielgruppe hinzufügen**: Erstellen Sie eine Zielgruppe mit Profilen, die ausgeschlossen werden sollen, und fügen Sie eine Bedingung hinzu, mit der diese Zielgruppe an strategischen Punkten im Journey überprüft wird
+* **Profilattribut aktualisieren**: Setzen Sie eine Markierung „Pause“ für das Profil und verwenden Sie Bedingungen, um Aktionen für gekennzeichnete Profile zu überspringen
+* **Benutzerdefinierte Aktion**: Verwenden eines externen Systems, um pausierte Profile zu verfolgen und den Status über einen API-Aufruf zu überprüfen
+* **Manueller**: In dringenden Fällen können Sie Testprofile manuell entfernen
+
+**Hinweis**: Journey-Änderungen betreffen nur neue Teilnehmer. Profile, die sich bereits auf der Journey befinden, folgen dem ursprünglichen Pfad, es sei denn, die Journey wird vollständig angehalten.
+
++++
+
++++ Was ist der Unterschied zwischen einer Bedingung und einer Warteaktivität?
+
+**Bedingungsaktivität**:
+
+* **Zweck**: Erstellt verschiedene Pfade basierend auf der Logik (if/then)
+* **Funktion**: Wertet Daten aus und leitet Profile entsprechend weiter.
+* **Anwendungsfälle**: Kunden segmentieren, Status überprüfen, Verzweigung basierend auf Verhalten
+* **Beispiel**: Wenn der Kunde VIP ist, senden Sie ein Premium-Angebot; andernfalls senden Sie ein Standardangebot.
+
+**Warteaktivität**:
+
+* **Zweck**: Hält die Journey für einen bestimmten Zeitraum an
+* **Funktion**: Hält Profile an einem bestimmten Punkt, bevor Sie fortfahren
+* **Anwendungsfälle**: Timing zwischen Nachrichten, Warten auf Geschäftszeiten, Erstellen von Verzögerungen
+* **Beispiel**: 3 Tage nach der Willkommens-E-Mail warten, bevor die nächste Nachricht gesendet wird
+
+**Sie arbeiten zusammen**:
+
+* Warten Sie einen Zeitraum und überprüfen Sie dann mithilfe einer Bedingung, ob während des Wartens etwas passiert ist
+* Beispiel: 7 Tage warten und dann überprüfen, ob der Kunde einen Kauf getätigt hat
+
+Weitere Informationen zu [Bedingungen](condition-activity.md) und [Warteaktivitäten](wait-activity.md).
+
++++
+
 ## Best Practices und Einschränkungen
 
 +++ Was sind die wichtigsten Einschränkungen, die ich beachten sollte?
@@ -373,7 +732,7 @@ Zu den wichtigen Leitplanken gehören:
 * **Zielgruppengröße**: Beschränkungen für die Größe von gelesenen Zielgruppen-Batches
 * **Ausdruckskomplexität**: Zeichenbeschränkungen in Bedingungen und Personalisierung
 
-Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
+Vollständige Ansicht [Leitplanken und ](../start/guardrails.md))
 
 +++
 
