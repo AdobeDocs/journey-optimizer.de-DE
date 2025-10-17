@@ -11,9 +11,9 @@ keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 32848633cdfb5683b45286fcdd22711a82d591b5
+source-git-commit: d55aff6dd3773ad59ab45d2b6d7ced7b9a64de5d
 workflow-type: tm+mt
-source-wordcount: '4094'
+source-wordcount: '4189'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Adobe Journey Optimizer Journey.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Allgemeine Konzepte
 
@@ -37,10 +37,11 @@ Weitere Informationen zu [Journey](journey.md).
 
 +++ Was sind die verschiedenen Arten von Journey?
 
-Adobe Journey Optimizer unterstützt drei Typen von Journey:
+Adobe Journey Optimizer unterstützt vier Typen von Journey:
 
 * **Unitäre Journey**: Wird einzeln durch ein Ereignis ausgelöst (z. B. Kauf, App-Anmeldung). Die Profile wechseln jeweils zu einem Zeitpunkt zum Journey, wenn das Ereignis eintritt.
 * **Audience-Journey lesen**: Beginnen Sie mit einer Audience aus Adobe Experience Platform und senden Sie Nachrichten im Batch an alle Profile in dieser Audience.
+* **Journey zur Zielgruppenqualifizierung** Wird ausgelöst, wenn Profile sich für ein bestimmtes Zielgruppensegment qualifizieren (oder daraus austreten). Profile treten in die Journey ein, wenn sie die Zielgruppenkriterien erfüllen.
 * **Geschäftsereignis-Journey**: Ausgelöst durch Geschäftsereignisse (z. B. Stock-Updates, Wetterwarnungen), die mehrere Profile gleichzeitig betreffen.
 
 Weitere Informationen zu [Journey-Typen](entry-management.md#types-of-journeys).
@@ -51,9 +52,13 @@ Weitere Informationen zu [Journey-Typen](entry-management.md#types-of-journeys).
 
 **Journey** sind mehrstufige Orchestrierungen, die auf Ereignisse oder Zielgruppen reagieren und über den gesamten Kundenlebenszyklus hinweg eine komplexe Logik, Bedingungen, Wartezeiten und mehrere Berührungspunkte ermöglichen.
 
-**Kampagnen** sind einmalige oder wiederkehrende Nachrichten, die an eine bestimmte Zielgruppe gesendet werden und sich ideal für eigenständige Nachrichten wie Werbeanzeigen oder Newsletter eignen.
+**Kampagnen** gibt es in drei Typen:
 
-**Best Practice**: Verwenden Sie Journey für fortlaufende, mehrstufige Interaktionen und Kampagnen für zielgerichtete, eigenständige Kommunikation.
+* **Aktionskampagnen**: Einmalige oder wiederkehrende Nachrichten, die an eine bestimmte Zielgruppe gesendet werden, eignen sich ideal für eigenständige Nachrichten wie Werbeanzeigen oder Newsletter.
+* **API-ausgelöste Kampagnen**: Über API-Aufrufe ausgelöste Kampagnen, die die Integration mit externen Systemen ermöglichen, um Nachrichten basierend auf Echtzeit-Ereignissen oder Geschäftslogik zu senden.
+* **Orchestrierte Kampagnen**: Mehrstufige, zielgruppenbasierte Kampagnen auf einer Arbeitsfläche, die Bedingungen, Wartezeiten und mehrere Aktionen zur Erstellung geplanter, koordinierter Erlebnisse enthalten können.
+
+**Best Practice**: Verwenden Sie Journey für eine komplexe, ereignisgesteuerte Interaktion mit erweiterter Orchestrierung, Aktionskampagnen für geplante, zielgruppenbasierte Kommunikationen, API-ausgelöste Kampagnen für die programmgesteuerte Auslösung von externen Systemen und orchestrierte Kampagnen für mehrstufige Kommunikationen mit kampagnenspezifischen Anforderungen.
 
 +++
 
@@ -315,7 +320,7 @@ Sie können die Journey-Ausführung auf verschiedene Weise verwalten:
 * **Sofort anhalten**: Beenden Sie den Journey und beenden Sie alle aktuell darin enthaltenen Profile.
 * **Pause**: Journey vorübergehend anhalten und später fortsetzen (für bestimmte Journey-Typen verfügbar)
 
-Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
+Weitere Informationen zum [ von Journey](end-journey.md).
 
 +++
 
@@ -732,7 +737,7 @@ Zu den wichtigen Leitplanken gehören:
 * **Zielgruppengröße**: Beschränkungen für die Größe von gelesenen Zielgruppen-Batches
 * **Ausdruckskomplexität**: Zeichenbeschränkungen in Bedingungen und Personalisierung
 
-Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
+Vollständige Ansicht [Leitplanken und ](../start/guardrails.md))
 
 +++
 
