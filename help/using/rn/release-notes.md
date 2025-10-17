@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
+source-git-commit: 3eb73751fdb746dd2659e31c1b776fe2d767809f
 workflow-type: tm+mt
-source-wordcount: '1938'
-ht-degree: 69%
+source-wordcount: '2478'
+ht-degree: 64%
 
 ---
 
@@ -26,11 +26,238 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Neueste Aktualisierungen {#updates-rn}
+## Hinweise zur Vorabversion vom Oktober 2025 {#oct-25-10-rn}
 
-Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen und Verbesserungen mit ihrem Verfügbarkeitsdatum aufgeführt. Sie werden mit dem Inhalt der nächsten Versionshinweise am Ende des Monats gruppiert. Siehe auch die neuesten [Versionshinweise unten](#latest-rn).
+**Die unten stehenden Hinweise zu Vorabversionen können bis zum Veröffentlichungsdatum ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentationen werden in den Versionshinweisen am Veröffentlichungsdatum veröffentlicht.
 
-### Neue Funktionen {#updates-features}
+Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**Veröffentlichungsdatum**: Donnerstag, 22. Oktober 2025
+
+### Neue Funktionen {#oct-25-10-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Ruhige Stunden/zeitbasierte Ausschlüsse</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit der Einstellung „Ruhige Stunden“ können Sie zeitbasierte Ausschlüsse für E-Mail-, SMS-, Push- und WhatsApp-Kanäle definieren. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen.</p>
+<p>Ruhestunden können über Regelsätze angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journey zugewiesen werden können. Durch die Optimierung dieser Prozesse.</p>
+<p>Diese Funktion ist nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Überwachung und Reporting für benutzerdefinierte Aktionen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Diese Funktion bietet eine verbesserte Sichtbarkeit hinsichtlich des Zustands und der Ausführung von Journeys, einschließlich Lebenszyklusstatus- und Leistungswarnungen. Sie können jetzt schnell nachvollziehen, wann, wo und warum eine ungewöhnliche Situation in einer benutzerdefinierten Aktion auftritt.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>RCS Basic Messaging</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the new RCS Basic add-on offering, you can now deliver basic Rich Communication Services (RCS) messaging in Journey Optimizer, enabling the following enhanced messaging capabilities subject to provider and geographical support:</p>
+<ul>
+<li><strong>Branded and verified sender support:</strong> Send messages using verified business profiles with branding elements (logo, sender name, etc.).</li>
+<li><strong>Message delivery insights:</strong> Receive detailed delivery reports including message status updates (e.g., sent, delivered, read).</li>
+<li><strong>Link tracking:</strong> Embed and track URLs within RCS messages for engagement analytics.</li>
+<li><strong>Fallback to SMS:</strong> Automatic fallback to SMS when the recipient's device does not support RCS or is temporarily unreachable via RCS.</li>
+<li><strong>Basic message composition:</strong> Send basic text-based RCS messages.</li>
+</ul>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<!--/td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Direct mail channel in Orchestrated campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Direct mail channel is now available in orchestrated campaigns. The Direct mail activity facilitates direct mail sending within your Orchestrated campaign, for both one-time and recurring messages. It serves to automate the process of generating the extraction file required by direct mail providers. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<!--/td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Direct Mail channel in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Previously limited to Campaigns, Direct Mail channel is now available on the journey canvas, enabling you to incorporate Direct Mail into your journeys. Direct Mail can now be used in both batch and 1:1 journey scenarios, with support for file extraction configuration and time-based frequency settings.</p>
+<p> Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<!--/td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Neue API zum Abrufen von Aktionskampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eine neue Journey Optimizer-API ist jetzt verfügbar, mit der Sie kampagnenbezogene Daten wie Details, Versionen und Konfigurationen programmgesteuert abrufen und überprüfen können.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Neue Quell-Connectoren für Treue-Apps</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In Adobe Experience Platform sind jetzt neue Quell-Connectoren für die Treueprogramme von Talon.One, Capillary und Kobie verfügbar. Mit diesen Connectoren können Sie Treueprogramm-Daten nahtlos in Adobe Experience Platform streamen und diese Daten in Journey Optimizer nutzen.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Unterstützung von Entscheidungen im E-Mail-Kanal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Entscheidungsrichtlinien zu E-Mail-Journeys und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Engine nutzen, um für jedes Zielgruppenmitglied die besten Inhalte bereitzustellen.</p>
+<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Hoher Durchsatzmodus für API-ausgelöste E-Mail-Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Für Kampagnen, die durch API ausgelöst werden, ist jetzt ein neuer Modus mit hohem Durchsatz verfügbar. Dieser Modus ist für groß angelegtes Echtzeit-Messaging konzipiert (bis zu 5.000 Transaktionen pro Sekunde) und bietet eine höhere Verfügbarkeit bei geringerer Latenz.</p>
+<p>Diese Funktion ist nur für den E-Mail-Kanal verfügbar und steht Unternehmen zur Verfügung, die das Adobe Add-on für Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Wiederverwendbare Zielgruppenbestimmungsregeln</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit Journey Optimizer können Sie jetzt Regeln über ein dediziertes Benutzeroberflächenmenü erstellen und beim Erstellen von Targeting nutzen, entweder im Rahmen der Inhaltsoptimierung in einer Kampagne oder auf einer Journey, entweder in der Aktivität Journey optimieren .</p>
+<p>Zielgruppenbestimmungsregeln sind derzeit für Organisationen verfügbar, die das Add-on Decisioning erworben haben, und sie sind für andere Organisationen nach Bedarf verfügbar (eingeschränkte Verfügbarkeit).</p>
+<p>Diese Funktion wird nach und nach für alle Kunden eingeführt. Wenden Sie sich in der Zwischenzeit an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Designs im E-Mail-Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt schnell vorab genehmigte Designs anwenden, um Markenkonsistenz über alle E-Mails hinweg sicherzustellen, den Prozess der Kampagnenerstellung zu beschleunigen und eigenständig hochwertige E-Mails zu erstellen, während Sie die Abhängigkeit von Designteams reduzieren.</p>
+<p>Diese Funktion wurde bereits in der Beta-Version veröffentlicht und ist jetzt für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>Weitere Informationen finden Sie in der <a href="../email/apply-email-themes.md">ausführlichen Dokumentation</a>.</p>
+<!--p>Availability date: October 22, 2025</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Neue Journey-Warnhinweise</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Für die Überwachung der Journey-Ausführung stehen neue vorkonfigurierte Warnhinweise zur Verfügung:</p>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate">Profilverwerfungsrate überschritten</a>: Verhältnis der Profilverwerfen zu den in den letzten 5 Minuten eingetretenen Profilen hat den Schwellenwert überschritten</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Fehlerrate für benutzerdefinierte Aktion überschritten</a>: Verhältnis der Fehler benutzerdefinierter Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten hat den Schwellenwert überschritten</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">Profilfehlerrate überschritten</a>: Verhältnis der fehlerhaften Profile zu den eingegebenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten.</li></ul> <p>Sie können Schwellenwerte anpassen und Warnhinweise entweder auf Journey-Ebene oder global abonnieren.</p>
+<p>Weitere Informationen finden Sie in der <a href="../reports/alerts.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 14. Oktober 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -61,7 +288,7 @@ Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen un
 <td>
 <p>Mit <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist der Experimentationsagent in Journey Optimizer verfügbar. </p>
 <p>Der Experimentierungs-Agent ist ein KI-gestütztes Tool, das die Ausführung und Verwaltung digitaler Experimente auf Websites, E-Mails, Push-Nachrichten und Anwendungen modernisiert. Sie hilft Ihnen, Experimente effizienter durchzuführen, Geschäftsziele zu organisieren und umsetzbare Einblicke zu generieren, indem sie hervorhebt, was funktioniert hat, was nicht und wo Sie als Nächstes experimentieren können.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=de" target="_blank">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 10. Oktober 2025</p>
 </td>
 </tr>
@@ -109,13 +336,20 @@ Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen un
 </tbody>
 </table>
 
+
+
+
+<!--
+## Latest updates {#updates-rn}
+
+New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
+-->
+
 ### Verbesserungen {#updates-improvements}
 
-**Neue Journey-Warnhinweise**
+**Ausführungsfeld für WhatsApp-Kanal**
 
-Für Journey sind neue vorkonfigurierte Warnhinweise verfügbar: [Profilverwerfungsrate überschritten](../reports/alerts.md#alert-discard-rate) (Verhältnis von Profilverwerfen zu eingegebenen Profilen in den letzten 5 Minuten überschritten), [Fehlerrate für benutzerdefinierte Aktion überschritten](../reports/alerts.md#alert-custom-action-error-rate) (Verhältnis von Fehlern bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten überschritten) und [Profilfehlerrate überschritten](../reports/alerts.md#alert-profile-error-rate) (Verhältnis von fehlerhaften Profilen zu eingegebenen Profilen in den letzten 5 Minuten überschritten). Sie können Schwellenwerte anpassen und Warnhinweise entweder auf Journey-Ebene oder global abonnieren.
-
-Verfügbarkeitsdatum: 14. Oktober 2025
+Zusätzlich zu E-Mail und SMS können Sie das Standardausführungsfeld für Ihre WhatsApp-Sendungen auf Sandbox-Ebene aktualisieren. Es ist auch möglich, das global eingestellte Ausführungsfeld zu überschreiben, indem es in den erweiterten Parametern der WhatsApp-Journey-Aktivität oder in der WhatsApp-Kanalkonfiguration geändert wird. <!-- [Read more](../FILE.md) -->
 
 **Unterstützung benutzerdefinierter Attribute für Mailto-Adresse (abmelden)**
 
