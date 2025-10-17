@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
-workflow-type: ht
-source-wordcount: '958'
-ht-degree: 100%
+source-git-commit: f1a00e734f22cb660e442ebe8c0dde3468e29768
+workflow-type: tm+mt
+source-wordcount: '1066'
+ht-degree: 89%
 
 ---
 
@@ -175,6 +175,10 @@ ORDER BY timestamp DESC;
 Das Datumsformat lautet dabei: `YYYY-MM-DD HH:MM:SS`.
 
 Sobald Sie diese Adressen identifiziert haben, entfernen Sie sie aus der Unterdrückungsliste von Journey Optimizer. [Weitere Informationen](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+
+>[!NOTE]
+>
+>Beim Referenzieren der identityMap im Nachrichten-Feedback-Ereignisdatensatz beachten Sie, dass sie nur die zur Laufzeit verwendete Identität widerspiegelt. Bei Push-Benachrichtigungen würde ein Ereignis „gesendet“ nur auf der ECID basieren, die mit dem Push-Token verknüpft ist, das zum Senden dieser Benachrichtigung verwendet wird, während ein Ereignis „Ausschluss“ auf einer benutzerdefinierten Identität basieren könnte. Wenn beispielsweise ein Profil ausgeschlossen wurde, weil kein Push-Token gefunden wurde, wird die auf der Journey- oder Aktionskampagnenebene verwendete Identität ausgewählt, um dieses Ereignis zu registrieren. Wenn Sie zusätzliche Namespaces (z. B. benutzerdefinierte IDs) benötigen, verbinden Sie diese Feedback-Datensätze mit einem profilbezogenen Datensatz (z. B. profile_SNAPSHOT-Datensätze), um die vollständige Identitätsliste abzurufen.
 
 
 
