@@ -11,9 +11,9 @@ keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: d55aff6dd3773ad59ab45d2b6d7ced7b9a64de5d
+source-git-commit: 26516db5251e096f6caaafb2c217238aa614da3e
 workflow-type: tm+mt
-source-wordcount: '4189'
+source-wordcount: '4340'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Adobe Journey Optimizer Journey.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Allgemeine Konzepte
 
@@ -100,10 +100,11 @@ Führen Sie die folgenden wichtigen Schritte aus:
 
 1. **Voraussetzungen einrichten**: Konfigurieren Sie Ereignisse, Datenquellen und Aktionen nach Bedarf
 2. **Journey erstellen**: Navigieren Sie zum Menü Journey und klicken Sie auf &quot;Journey erstellen“
-3. **Journey-Eigenschaften definieren**: Legen Sie den Journey-Namen, die Beschreibung, den Namespace und andere Einstellungen fest
+3. **Journey-Eigenschaften definieren**: Legen Sie den Journey-Namen, die Beschreibung und andere Einstellungen fest
 4. **Journey entwerfen**: Ziehen Sie Aktivitäten per Drag-and-Drop aus der Palette in die Arbeitsfläche
 5. **Journey testen**: Testmodus zur Validierung der Journey-Logik verwenden
-6. **Journey veröffentlichen**: Aktivieren der Journey, um sie live zu schalten
+6. **Probelauf der Journey**: Verwenden Sie Probelauf, um die Journey mit echten Produktionsdaten zu testen, ohne echte Kunden zu kontaktieren oder Profilinformationen zu aktualisieren
+7. **Journey veröffentlichen**: Aktivieren der Journey, um sie live zu schalten
 
 Befolgen Sie [Schritt-für-Schritt-Anleitung](journey-gs.md).
 
@@ -124,9 +125,17 @@ Weitere Informationen zur Konfiguration von [Journey](../configuration/about-dat
 
 +++ Kann ich auf meinem Journey Daten von externen Systemen verwenden?
 
-Ja. Sie können **externe Datenquellen** so konfigurieren, dass Informationen von API-Services von Drittanbietern abgerufen und in Ihren Journey-Bedingungen, bei der Personalisierung oder bei Aktionen verwendet werden. Auf diese Weise können Sie das Kundenerlebnis mit Echtzeitdaten aus Ihrem CRM, Ihren Treuesystemen, Wetter-Services oder anderen externen Plattformen anreichern.
+Ja, es gibt mehrere Ansätze zur Nutzung externer Daten:
 
-Weitere Informationen zu [externen Datenquellen](../datasource/external-data-sources.md).
+**Best Practices**:
+
+* **Benutzerdefinierte Aktionen**: Rufen Sie externe APIs über benutzerdefinierte Aktionen auf, um Daten abzurufen oder an Drittanbietersysteme zu senden. Dies ist der empfohlene Ansatz für Echtzeit-Interaktionen mit externen Systemen.
+* **Datensatzsuche**: Wenn Sie Daten aus externen Systemen in Adobe Experience Platform laden können, verwenden Sie die Datensatzsuchfunktion, um in Experience Platform-Datensätzen gespeicherte Informationen abzurufen.
+* **Externe Datenquellen**: Konfigurieren Sie externe Datenquellen, um Informationen aus API-Services von Drittanbietern abzurufen (weniger empfohlen als die oben genannten Ansätze).
+
+Mit diesen Optionen können Sie das Kundenerlebnis mit Daten aus Ihrem CRM, Treuesystemen, Wetter-Services oder anderen externen Plattformen anreichern.
+
+Weitere Informationen zu [benutzerdefinierten Aktionen](using-custom-actions.md) und [Datensatzsuche](dataset-lookup.md).
 
 +++
 
@@ -146,7 +155,9 @@ Weitere Informationen zu [Bedingungen](condition-activity.md).
 
 Ja. Journey Optimizer umfasst **integrierte Kanalaktionen** mit denen Sie Nachrichten per E-Mail, Push-Benachrichtigungen, SMS/MMS/RCS, In-App-Nachrichten, Web-Erlebnisse, Code-basierte Erlebnisse, Briefpost, Inhaltskarten, WhatsApp und LINE senden können. Sie können Nachrichteninhalte direkt in Journey Optimizer entwerfen und als Aktionsaktivitäten in Ihrem Journey hinzufügen.
 
-Weitere Informationen zu [Nachrichten in Journey](journeys-message.md).
+Bei Kanälen, die nativ nicht unterstützt werden, können Sie **benutzerdefinierte Aktionen** verwenden, um sie in externe Messaging-Plattformen zu integrieren und Nachrichten über einen beliebigen Drittanbieterkanal zu senden.
+
+Weitere Informationen zu [Nachrichten in Journey](journeys-message.md) und [benutzerdefinierten Aktionen](using-custom-actions.md).
 
 +++
 
@@ -155,7 +166,6 @@ Weitere Informationen zu [Nachrichten in Journey](journeys-message.md).
 Verwenden Sie die **Warteaktivität**, um die Journey für eine bestimmte Dauer oder bis zu einem bestimmten Datum/zu einer bestimmten Uhrzeit anzuhalten. Warteaktivitäten sind nützlich für:
 
 * Versand von Folgenachrichten nach einer Verzögerung (z. B. 3 Tage nach dem Kauf)
-* Warten auf Geschäftszeiten, bevor Sie Maßnahmen ergreifen
 * Erstellen von Drip-Kampagnen mit Zeitintervallen
 * Kombination mit Bedingungen zum Erstellen von Zeitüberschreitungsszenarien
 
@@ -189,13 +199,13 @@ Weitere Informationen zu [Ereigniskonfiguration](../event/about-events.md) und [
 
 +++ Kann ich eine Nachricht erneut senden, wenn jemand sie nicht öffnet oder anklickt?
 
-Ja. Verwenden Sie eine **Bedingungsaktivität** kombiniert mit **Warteaktivitäten**:
+Ja. Verwenden Sie ein **Reaktionsereignis** mit einem **Timeout**:
 
-1. Fügen Sie eine Aktivität Warten hinzu (z. B. 3 Tage warten)
-2. Aktivität „Bedingung“ hinzufügen, um zu überprüfen, ob die E-Mail geöffnet oder angeklickt wurde
+1. Fügen Sie nach dem Versand Ihrer Nachricht ein Reaktionsereignis hinzu, das auf E-Mail-Öffnungen oder -Klicks wartet
+2. Konfigurieren Sie eine maximale Wartezeit (z. B. 3 Tage) für das Reaktionsereignis.
 3. Erstellen Sie zwei Pfade:
-   * **Wenn geöffnet/geklickt**: Beenden Sie die Journey oder fahren Sie mit den nächsten Schritten fort
-   * **Wenn nicht geöffnet/angeklickt**: Erinnerungs-E-Mail mit anderer Betreffzeile senden
+   * **Wenn geöffnet/geklickt**: Mit den nächsten Schritten fortfahren oder die Journey beenden
+   * **Zeitüberschreitungspfad (nicht geöffnet/angeklickt)**: Erinnerungs-E-Mail mit anderer Betreffzeile senden
 
 **Best Practice**: Begrenzen Sie die Anzahl der erneuten Sendungen, um das Auftreten von Spam zu vermeiden (in der Regel maximal 1-2 Erinnerungen).
 
@@ -205,15 +215,17 @@ Weitere Informationen zu [Reaktionsereignissen](reaction-events.md).
 
 +++ Wie erstelle ich eine Warenkorbabbruch-Journey?
 
-Erstellen einer ereignisgesteuerten Journey mit Warte- und Bedingungslogik:
+Erstellen Sie eine ereignisausgelöste Journey mit einem Reaktionsereignis mit einer Zeitüberschreitung:
 
 1. **Konfigurieren eines Ereignisses „Warenkorbabbruch“**: Wird ausgelöst, wenn Artikel hinzugefügt werden, der Checkout jedoch nicht innerhalb eines bestimmten Zeitraums abgeschlossen ist
-2. **Warteaktivität hinzufügen**: Warten Sie 1-2 Stunden, um dem Kunden Zeit für den natürlichen Abschluss zu geben
-3. **Bedingung hinzufügen**: Überprüfen, ob der Kauf während der Wartezeit abgeschlossen wurde
-4. **Wenn nicht gekauft**: Senden Sie eine E-Mail zur Erinnerung an einen Abbruch mit Warenkorbinhalt
-5. **Optional**: Fügen Sie eine weitere Wartezeit (24 Stunden) hinzu und senden Sie eine zweite Erinnerung mit einem Anreiz (z. B. 10 % Rabatt)
+2. **Reaktionsereignis hinzufügen**: Konfigurieren, um auf ein Kaufereignis zu warten
+3. **Zeitüberschreitungszeitraum festlegen**: Definieren Sie eine maximale Wartezeit (z. B. 1-2 Stunden) für das Reaktionsereignis, damit der Kunde Zeit hat, den Vorgang natürlich abzuschließen
+4. **Erstellen Sie zwei Pfade**:
+   * **Wenn ein Kaufereignis auftritt**: Beenden Sie das Journey oder fahren Sie mit dem Nachkaufsfluss fort
+   * **Zeitüberschreitungspfad (kein Kauf)**: Senden Sie eine E-Mail zur Abbruchserinnerung mit Warenkorbinhalt
+5. **Optional**: Fügen Sie ein weiteres Reaktionsereignis mit Timeout (24 Stunden) hinzu und senden Sie eine zweite Erinnerung mit einem Anreiz (z. B. 10 % Rabatt)
 
-Weitere Informationen zu [Journey-Anwendungsfällen](jo-use-cases.md).
+Erfahren Sie mehr über [Journey-Anwendungsfälle](jo-use-cases.md) und [Reaktionsereignisse](reaction-events.md).
 
 +++
 
@@ -238,9 +250,6 @@ Journey Optimizer bietet mehrere Optionen für die Zeitzonenverwaltung:
 
 * **Zeitzone des Profils**: Nachrichten werden basierend auf der Zeitzone eines jeden Kontakts gesendet, die in seinem Profil gespeichert ist
 * **Feste Zeitzone**: Alle Nachrichten verwenden eine bestimmte von Ihnen definierte Zeitzone
-* **Auf bestimmte Zeit warten**: Verwenden Sie die Aktivität Warten , um Nachrichten zu einem bestimmten Zeitpunkt in der lokalen Zeitzone der Empfängerin oder des Empfängers zu senden (z. B. 10 Uhr morgens).
-
-**Beispiel**: Um eine E-Mail „Guten Morgen“ um 9 Uhr in der Zeitzone jedes Kunden zu senden, verwenden Sie eine Warteaktivität mit „Warten auf ein festes Datum/eine feste Uhrzeit“ und aktivieren Sie die Option Zeitzone .
 
 Weitere Informationen über [Zeitzonenverwaltung](timezone-management.md).
 
@@ -288,10 +297,10 @@ Weitere Informationen über [Testmodus](testing-the-journey.md) und [Probelauf](
 
 Beim Veröffentlichen einer Journey:
 
-* Die Journey wird **aktiv** und kann neue Profile akzeptieren
+* Die Journey wird **Live** und kann neue Profile akzeptieren
 * Profile können basierend auf den Einstiegskriterien (Ereignis oder Zielgruppe) eintreten
 * Nachrichten und Aktionen werden für Profile ausgeführt, die sich durch den Journey bewegen
-* Eine veröffentlichte Journey kann nicht direkt bearbeitet werden (eine neue Version muss erstellt werden)
+* Sie können nur eingeschränkte Elemente auf einer veröffentlichten Journey bearbeiten (Sie müssen eine neue Version erstellen, wenn Sie mehr bearbeiten möchten)
 
 Weitere Informationen über [Veröffentlichen von Journey](publishing-the-journey.md).
 
@@ -299,7 +308,21 @@ Weitere Informationen über [Veröffentlichen von Journey](publishing-the-journe
 
 +++ Kann ich eine bereits veröffentlichte Journey modifizieren?
 
-Live-Journey können nicht direkt bearbeitet werden. Änderungen vornehmen:
+Ja, aber mit Einschränkungen. Sie können bestimmte Elemente einer Live-Journey bearbeiten:
+
+**Was Sie bearbeiten können**:
+
+* Journey-Eigenschaften (Name, Beschreibung)
+* Nachrichteninhalt in vorhandenen Nachrichtenaktivitäten
+* Einige Journey-Einstellungen
+
+**Was Sie nicht bearbeiten können**:
+
+* Journey-Struktur (Hinzufügen/Entfernen von Aktivitäten)
+* Einreisebedingungen
+* Journey Canvas-Logik
+
+**So nehmen Sie strukturelle Änderungen vor**:
 
 1. **Neue Version erstellen**: Duplizieren Sie die veröffentlichte Journey, um eine Entwurfsversion zu erstellen
 2. **Änderungen vornehmen**: Bearbeiten Sie die Entwurfsversion nach Bedarf
@@ -318,9 +341,9 @@ Sie können die Journey-Ausführung auf verschiedene Weise verwalten:
 
 * **Für neue Eintritte schließen**: Stoppen Sie den Eintritt neuer Profile, während Sie vorhandenen Profilen erlauben, ihren Journey abzuschließen
 * **Sofort anhalten**: Beenden Sie den Journey und beenden Sie alle aktuell darin enthaltenen Profile.
-* **Pause**: Journey vorübergehend anhalten und später fortsetzen (für bestimmte Journey-Typen verfügbar)
+* **Pause**: Journey vorübergehend anhalten und später fortsetzen
 
-Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
+Weitere Informationen zum [ von Journey](end-journey.md).
 
 +++
 
@@ -340,7 +363,7 @@ Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
 * Verwenden Sie dies für dringende Situationen oder kritische Fehler
 * Beispiel: Produkt-Rückruf, der einen sofortigen Stopp der Werbenachrichten erfordert
 
-Weitere Informationen zu [Journey-Pausenoptionen](journey-pause.md).
+Erfahren Sie mehr über [Beenden von Journey](end-journey.md) und [Veröffentlichen von Journey](publishing-the-journey.md).
 
 +++
 
@@ -350,10 +373,9 @@ Weitere Informationen zu [Journey-Pausenoptionen](journey-pause.md).
 
 Sie können die Journey-Ausführung überwachen mit:
 
-* **Journey-Live-**: Echtzeitmetriken und KPIs für Ihren Journey anzeigen
-* **Journey-All-Time-Bericht**: Analysieren der Journey-Leistung mit Customer Journey Analytics
+* **Journey-Live-Bericht**: Zeigen Sie Echtzeitmetriken und KPIs für Ihren Journey an. Hier können Sie auch die Ergebnisse der Testausführung überprüfen.
+* **Journey-All-Time-Bericht**: Analysieren Sie die Journey-Leistung mit Customer Journey Analytics. Hier können Sie auch die Ergebnisse der Testausführung überprüfen.
 * **Journey-Schrittereignisse**: Zugriff auf detaillierte Ausführungsdaten für benutzerdefinierte Berichte
-* **Dashboard für Probelauf-Journey**: Überprüfen Sie die Ergebnisse der Testausführung, bevor Sie live gehen
 
 Weitere Informationen zum [Journey-Reporting](report-journey.md).
 
@@ -395,6 +417,7 @@ Journey Optimizer bietet mehrere Ressourcen zur Fehlerbehebung:
 
 * **Fehlerindikatoren**: Visuelle Warnhinweise auf der Journey-Arbeitsfläche zeigen Konfigurationsprobleme an
 * **Testmodus**: Durchlaufen Sie die Journey, um Probleme zu identifizieren.
+* **Dry Run Mode**: Testen Sie den Journey mit echten Produktionsdaten, ohne sich an Kunden zu wenden, um Zielgruppenbestimmung und Ausführung zu validieren
 * **Journey-Berichte**: Überprüfen Sie die Ausführungsmetriken, um Engpässe oder Fehler zu finden
 * **Journey-Schrittereignisse**: Analysieren Sie detaillierte Ausführungsdaten, um das Profilverhalten zu verstehen
 
@@ -409,15 +432,17 @@ Weitere Informationen zu [Fehlerbehebung bei Journey](troubleshooting.md).
 
 +++
 
-+++ Was passiert, wenn eine Aktion auf einer Journey fehlschlägt?
+<!--
++++ What happens if an action fails in a journey?
 
-Wenn eine Aktion fehlschlägt (z. B. API-Aufruf-Timeout, Nachrichtenversand-Fehler), wird die Journey standardmäßig fortgesetzt, sofern nicht anders konfiguriert. Sie können Bedingungsaktivitäten definieren, um Fehlerszenarien zu handhaben. Fehler werden in Journey-Berichten und Schrittereignissen zur Überwachung protokolliert.
+When an action fails (e.g., API call timeout, message delivery error), the journey continues by default unless configured otherwise. You can define condition activities to handle failure scenarios, and errors are logged in journey reports and step events for monitoring.
 
-**Best Practice**: Legen Sie geeignete Zeitüberschreitungswerte für externe Aktionen fest und definieren Sie alternative Pfade für kritische Fehlerszenarien.
+**Best practice**: Set appropriate timeout values for external actions and define alternative paths for critical failure scenarios.
 
-Weitere Informationen zu [Aktionsantworten](../action/action-response.md).
+Learn more about [action responses](../action/action-response.md).
 
 +++
+-->
 
 +++ Kann ich sehen, wer gerade auf meinem Journey ist?
 
@@ -450,8 +475,9 @@ Lösung: Validieren der Profildatenqualität
 * **Journey nicht veröffentlicht**: Die Journey befindet sich noch im Entwurfsmodus
 Lösung: Veröffentlichen Sie die Journey, um sie zu aktivieren
 
-* **Nachricht nicht genehmigt**: Nachrichteninhalt muss vor dem Senden genehmigt werden
-Lösung: Zur Genehmigung einreichen oder Genehmigungsstatus überprüfen
+<!-- 
+* **Message not approved**: Message content requires approval before sending
+  Solution: Submit for approval or check approval status-->
 
 * **Kanalkonfigurationsproblem**: E-Mail-/SMS-Konfiguration ist falsch
 Lösung: Überprüfen der Kanalkonfigurationen und -authentifizierung
@@ -493,7 +519,8 @@ Ja. Verwenden Sie eine **Aktivität Bedingung**, um den bevorzugten Kanal zu üb
    * **Push-Pfad**: Push-Benachrichtigung senden
 3. Standardpfad für Profile ohne Voreinstellung hinzufügen
 
-**Alternativansatz**: Verwenden Sie **Multi-Channel-Aktionen** bei denen Journey Optimizer automatisch den besten Kanal basierend auf Profilvoreinstellungen und Verfügbarkeit auswählt.
+<!--
+**Alternative approach**: Use **multi-channel actions** where Journey Optimizer automatically selects the best channel based on profile preferences and availability.-->
 
 Weitere Informationen zu [Kanalaktionen](journeys-message.md).
 
@@ -505,15 +532,15 @@ Ja, es gibt mehrere Möglichkeiten, Kunden auszuschließen:
 
 **Bei Journey-Eintrag**:
 
-* Verwenden von Zielgruppendefinitionen mit Ausschlussregeln
-* Einstiegsbedingungen hinzufügen, die bestimmte Profile herausfiltern
-* Namespace-Anforderungen konfigurieren
+* Verwenden [Zielgruppendefinitionen](../audience/creating-a-segment-definition.md) mit Ausschlussregeln
+* Hinzufügen [Einstiegsbedingungen](entry-management.md) die bestimmte Profile herausfiltern
+* Konfigurieren Sie [auf Profilattributen basierende Beendigungskriterien](journey-properties.md) in Journey-Eigenschaften, um Profile basierend auf bestimmten Attributen automatisch auszuschließen
 
 **Innerhalb der Journey**:
 
-* Fügen Sie frühzeitig im Journey eine Aktivität vom Typ Bedingung hinzu, um unerwünschte Profile zu schließen
+* Fügen Sie zu Beginn [ Journey eine Aktivität ](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
 * Prüfen auf Ausschlussattribute (z. B. VIP-Status, Testkonten)
-* Zielgruppen-Qualifizierung verwenden, um auszuschließende Profile zu identifizieren
+* Identifizieren [ auszuschließenden Profile mithilfe ](audience-qualification-events.md)Zielgruppenqualifizierung“
 
 **Beispielausschlussszenarien**:
 
@@ -521,8 +548,6 @@ Ja, es gibt mehrere Möglichkeiten, Kunden auszuschließen:
 * VIP-Kunden von Standard-Promotions ausschließen
 * Mitarbeiter und Testkonten ausschließen
 * Kunden in bestimmten Regionen ausschließen
-
-Erfahren Sie mehr über [Einreiseverwaltung](entry-management.md) und [Bedingungen](condition-activity.md).
 
 +++
 
@@ -545,10 +570,11 @@ Ja, abhängig von den **Einstellungen für den erneuten Eintritt**:
 * **Erneuten Eintritt erlauben**: Profile können die Journey mehrmals nach Abschluss aufrufen
 * **Wartezeit bis zum erneuten Eintritt**: Legen Sie eine Mindestzeit zwischen den Journey-Einträgen (z. B. 7 Tage) fest.
 * **Erneuten Eintritt bei Ereignis erzwingen**: Trigger einer neuen Journey-Instanz, auch wenn sich das Profil bereits auf der Journey befindet
+* **Zusätzliche Kennung**: Verwenden Sie eine zusätzliche ID, damit Profile für verschiedene Entitäten (z. B. verschiedene Bestellungen, Buchungen oder Transaktionen) mehrmals auf die Journey zugreifen können, selbst wenn sie sich bereits auf der Journey befinden
 
-**Best Practice**: Verwenden Sie Regeln für den erneuten Eintritt, um das Ermüden von Nachrichten zu verhindern und eine angemessene Geschwindigkeit sicherzustellen.
+**Best Practice**: Verwenden Sie Regeln für den erneuten Eintritt, um das Ermüden von Nachrichten zu verhindern und eine angemessene Geschwindigkeit sicherzustellen. Erwägen Sie die Verwendung zusätzlicher Kennungen für Transaktions-Journey, bei denen Profile mehrmals für verschiedene Transaktionen eingeben müssen.
 
-Weitere Informationen über [Einstiegsverwaltung](entry-management.md).
+Erfahren Sie mehr über [Eintragsverwaltung](entry-management.md) und [zusätzliche Kennungen](supplemental-identifier.md).
 
 +++
 
@@ -568,7 +594,12 @@ Weitere Informationen über [Sendezeitoptimierung](send-time-optimization.md).
 
 +++ Was sind Journey-Begrenzungsregeln?
 
-**Journey-Begrenzung** Ermöglicht es Ihnen, die Anzahl der Eintritte eines Profils in Journey innerhalb eines bestimmten Zeitraums zu begrenzen, wodurch die Nachrichtenermüdung verhindert und ein optimales Kundenerlebnis sichergestellt wird. Sie können die Höchstanzahl von Einträgen pro Profil für Journey oder bestimmte Journeys festlegen, Zeitfenster (täglich, wöchentlich, monatlich) definieren und Journeys priorisieren, wenn mehrere Journeys um dasselbe Profil konkurrieren.
+**Journey-Begrenzung** Ermöglicht die Steuerung der Interaktion von Profilen mit Journeys, wodurch die Nachrichtenermüdung verhindert und ein optimales Kundenerlebnis sichergestellt wird:
+
+* **Eintragsbegrenzung**: Begrenzt die Anzahl der Eintritte eines Profils in Journey innerhalb eines bestimmten Zeitraums.
+* **Parallelitätsbegrenzung**: Begrenzt die Anzahl der Journey, in denen sich ein Profil gleichzeitig befinden kann
+
+Sie können die maximale Anzahl von Einträgen oder die gleichzeitige Nutzung pro Profil für Journey oder bestimmte Journey festlegen, Zeitfenster (täglich, wöchentlich, monatlich) definieren und Journey priorisieren, wenn mehrere Journey um dasselbe Profil konkurrieren.
 
 Weitere Informationen zur [Journey-Begrenzung](../conflict-prioritization/journey-capping.md).
 
@@ -578,7 +609,7 @@ Weitere Informationen zur [Journey-Begrenzung](../conflict-prioritization/journe
 
 Ja. Verwenden Sie **benutzerspezifische Aktionen** um APIs von Drittanbietern (CRM, Marketing-Automatisierung, Treueprogramm-Systeme) aufzurufen, Daten an externe Systeme zu senden, Echtzeit-Informationen für Entscheidungen abzurufen und Trigger-Workflows in externen Plattformen zu erstellen.
 
-Benutzerdefinierte Aktionen unterstützen die Authentifizierung (API-Schlüssel, OAuth 2.0), die Anpassung der Anfrage-/Antwort-Payload, die Fehlerbehandlung und Zeitüberschreitungen sowie dynamische Parameter aus dem Journey-Kontext.
+Benutzerdefinierte Aktionen unterstützen die Authentifizierung (API-Schlüssel, benutzerdefinierte Authentifizierung), die Anpassung der Anfrage-/Antwort-Payload, die Fehlerbehandlung und Zeitüberschreitungen sowie dynamische Parameter aus dem Journey-Kontext.
 
 Weitere Informationen über [benutzerdefinierte Aktionen](using-custom-actions.md).
 
@@ -638,15 +669,15 @@ Weitere Informationen zu [Journey-Anwendungsfällen](jo-use-cases.md).
 
 +++ Kann ich auf meinem Journey verschiedene A/B-Pfade testen?
 
-Ja. Verwenden Sie die Aktivität **Optimieren** (verfügbar in bestimmten Journey Optimizer-Paketen) oder erstellen Sie manuell Testaufteilungen:
+Ja. Verwenden Sie die Aktivität **Optimieren** (eingeschränkte Verfügbarkeit) oder erstellen Sie manuell Testaufteilungen:
 
-**Verwenden der Aktivität „Optimieren**:
+**Verwenden der Aktivität „Optimieren** mit der Experiment-Methode:
 
-* Teilt den Traffic automatisch auf verschiedene Varianten auf
-* Testet verschiedene Nachrichten, Angebote oder ganze Journey-Pfade
-* Misst die Leistung und gibt den Gewinner aus
+* Teilt den Traffic zufällig auf verschiedene Pfade auf, um zu bestimmen, welcher am besten funktioniert
+* Testet verschiedene Nachrichten, Angebote, Wartezeiten oder ganze Journey-Pfade
+* Misst die Leistung anhand vordefinierter Erfolgsmetriken und gibt einen Gewinner aus
 
-**Manuelles Testen mit Bedingung**:
+**Verwenden der Aktivität &quot;**&quot; mit der Bedingungsmethode „Datenquelle“:
 
 * Erstellen einer Bedingung, die Profile nach dem Zufallsprinzip aufteilt (z. B. mithilfe einer Zufallszahlenfunktion)
 * An jede Teilung unterschiedliche Erlebnisse senden
@@ -737,7 +768,7 @@ Zu den wichtigen Leitplanken gehören:
 * **Zielgruppengröße**: Beschränkungen für die Größe von gelesenen Zielgruppen-Batches
 * **Ausdruckskomplexität**: Zeichenbeschränkungen in Bedingungen und Personalisierung
 
-Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
+Vollständige Ansicht [Leitplanken und ](../start/guardrails.md))
 
 +++
 
