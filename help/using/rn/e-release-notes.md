@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 93179c7612eda244e512f8144ca396660a8a7537
+source-git-commit: 2c077e81aedf0a36ae15065a6cb15c88d22dd888
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 44%
+source-wordcount: '1034'
+ht-degree: 41%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 44%
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden am Ende jedes Monats in den [Versionshinweisen](release-notes.md) zusammengefasst.
 
 
-## Hinweise zur Vorabversion vom Oktober 2025 {#25-10-rn}
+## Hinweise zur Vorabversion vom Oktober 2025 {#oct-25-10-rn}
 
 **Die nachfolgenden Vorab- Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentationen werden in den Versionshinweisen am Veröffentlichungsdatum veröffentlicht.
 
@@ -196,6 +196,24 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Wiederverwendbare Zielgruppenbestimmungsregeln</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit Journey Optimizer können Sie jetzt Regeln über ein dediziertes Benutzeroberflächenmenü erstellen und beim Erstellen von Targeting nutzen, entweder im Rahmen der Inhaltsoptimierung in einer Kampagne oder auf einer Journey, entweder in der Aktivität Journey optimieren .</p>
+<p>Zielgruppenbestimmungsregeln sind derzeit für Organisationen verfügbar, die das Add-on Decisioning erworben haben, und sie sind für andere Organisationen nach Bedarf verfügbar (eingeschränkte Verfügbarkeit).</p>
+<p>Diese Funktion wird nach und nach für alle Kunden eingeführt. Wenden Sie sich in der Zwischenzeit an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -246,7 +264,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <td>
 <p>Mit <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator </a> ist der Experimentationsagent in Journey Optimizer verfügbar. </p>
 <p>Der Experimentierungs-Agent ist ein KI-gestütztes Tool, das die Ausführung und Verwaltung digitaler Experimente auf Websites, E-Mails, Push-Nachrichten und Anwendungen modernisiert. Sie hilft Ihnen, Experimente effizienter durchzuführen, Geschäftsziele zu organisieren und umsetzbare Einblicke zu generieren, indem sie hervorhebt, was funktioniert hat, was nicht und wo Sie als Nächstes experimentieren können.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=de" target="_blank">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 10. Oktober 2025</p>
 </td>
 </tr>
@@ -297,13 +315,9 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 
 ### Verbesserungen
 
-**Wiederverwendbare Regeln in der Zielgruppenbestimmung auswählen**
-
-Sie können jetzt den Regel-Builder bei der Verwendung von Targeting-Regeln mit der Funktion „Nachrichtenoptimierung“ in Journey und Kampagnen nutzen. <!-- [Read more](../FILE.md) -->
-
 **Ausführungsfeld für WhatsApp-Kanal**
 
-Zusätzlich zu E-Mail und SMS ist es jetzt möglich, das Standard-Ausführungsfeld von WhatsApp zu aktualisieren. Es ist auch möglich, das Ausführungsfeld, das in den erweiterten Parametern der WhatsApp-Journey-Aktivität oder in der WhatsApp-Kanalkonfiguration global festgelegt ist, zu überschreiben. <!-- [Read more](../FILE.md) -->
+Zusätzlich zu E-Mail und SMS können Sie das Standardausführungsfeld für Ihre WhatsApp-Sendungen auf Sandbox-Ebene aktualisieren. Es ist auch möglich, das global eingestellte Ausführungsfeld zu überschreiben, indem es in den erweiterten Parametern der WhatsApp-Journey-Aktivität oder in der WhatsApp-Kanalkonfiguration geändert wird. <!-- [Read more](../FILE.md) -->
 
 **Unterstützung benutzerdefinierter Attribute für Mailto-Adresse (abmelden)**
 
