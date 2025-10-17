@@ -11,9 +11,9 @@ keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 26516db5251e096f6caaafb2c217238aa614da3e
+source-git-commit: 31da84ab3fe4edabaf49f7b078ef0b2fdae3f6c5
 workflow-type: tm+mt
-source-wordcount: '4340'
+source-wordcount: '4446'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Adobe Journey Optimizer Journey.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Allgemeine Konzepte
 
@@ -343,7 +343,7 @@ Sie können die Journey-Ausführung auf verschiedene Weise verwalten:
 * **Sofort anhalten**: Beenden Sie den Journey und beenden Sie alle aktuell darin enthaltenen Profile.
 * **Pause**: Journey vorübergehend anhalten und später fortsetzen
 
-Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
+Weitere Informationen zum [ von Journey](end-journey.md).
 
 +++
 
@@ -538,9 +538,9 @@ Ja, es gibt mehrere Möglichkeiten, Kunden auszuschließen:
 
 **Innerhalb der Journey**:
 
-* Fügen Sie zu Beginn [&#x200B; Journey eine Aktivität &#x200B;](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
+* Fügen Sie zu Beginn [ Journey eine Aktivität ](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
 * Prüfen auf Ausschlussattribute (z. B. VIP-Status, Testkonten)
-* Identifizieren [&#x200B; auszuschließenden Profile mithilfe &#x200B;](audience-qualification-events.md)Zielgruppenqualifizierung“
+* Identifizieren [ auszuschließenden Profile mithilfe ](audience-qualification-events.md)Zielgruppenqualifizierung“
 
 **Beispielausschlussszenarien**:
 
@@ -716,18 +716,23 @@ Weitere Informationen zu [Geschäftsereignissen](general-events.md).
 
 +++
 
-+++ Kann ich eine Journey für eine bestimmte Person anhalten, ohne die gesamte Journey anzuhalten?
++++ Was sind Zusammenführungsrichtlinien und wie wirken sie sich auf Journey aus?
 
-Sie können zwar eine Journey für einzelne Profile nicht direkt anhalten, aber Sie können ähnliche Ergebnisse erzielen:
+**Zusammenführungsrichtlinien** bestimmen, wie Adobe Experience Platform Daten aus mehreren Quellen kombiniert, um eine einheitliche Profilansicht zu erstellen. Sie definieren Regeln für die Datenpriorisierung und Identitätszuordnung, wenn Profilfragmente in verschiedenen Datensätzen vorhanden sind.
 
-**Optionen**:
+**Auswirkungen auf Journey**:
 
-* **Zur Ausschluss-Zielgruppe hinzufügen**: Erstellen Sie eine Zielgruppe mit Profilen, die ausgeschlossen werden sollen, und fügen Sie eine Bedingung hinzu, mit der diese Zielgruppe an strategischen Punkten im Journey überprüft wird
-* **Profilattribut aktualisieren**: Setzen Sie eine Markierung „Pause“ für das Profil und verwenden Sie Bedingungen, um Aktionen für gekennzeichnete Profile zu überspringen
-* **Benutzerdefinierte Aktion**: Verwenden eines externen Systems, um pausierte Profile zu verfolgen und den Status über einen API-Aufruf zu überprüfen
-* **Manueller**: In dringenden Fällen können Sie Testprofile manuell entfernen
+* Journey verwenden die mit der Zielgruppe oder dem Ereignis verknüpfte Zusammenführungsrichtlinie, um zu bestimmen, welche Profildaten verfügbar sind
+* Die Zusammenführungsrichtlinie wirkt sich darauf aus, auf welche Attribute und Identitäten in Journey-Bedingungen, Personalisierung und Aktionen zugegriffen werden kann
+* Verschiedene Zusammenführungsrichtlinien können dazu führen, dass unterschiedliche Profildaten auf der Journey verwendet werden
 
-**Hinweis**: Journey-Änderungen betreffen nur neue Teilnehmer. Profile, die sich bereits auf der Journey befinden, folgen dem ursprünglichen Pfad, es sei denn, die Journey wird vollständig angehalten.
+**Best Practices**:
+
+* Stellen Sie sicher, dass die von Ihrem Journey verwendete Zusammenführungsrichtlinie mit Ihren Data Governance-Anforderungen übereinstimmt
+* Erfahren Sie, welche Datensätze in Ihrer Zusammenführungsrichtlinie enthalten sind, um zu wissen, welche Daten verfügbar sind
+* Verwenden konsistenter Zusammenführungsrichtlinien für verwandte Zielgruppen und Journey für vorhersehbare Ergebnisse
+
+Weitere Informationen zu [Zusammenführungsrichtlinien](../audience/get-started-profiles.md) und [Identitätsverwaltung](../audience/get-started-identity.md).
 
 +++
 
@@ -764,11 +769,11 @@ Zu den wichtigen Leitplanken gehören:
 
 * **Journey-Komplexität**: Maximale Aktivitäten, Pfade und Verschachtelungsebenen
 * **Durchsatz**: Nachrichtenübertragungsraten und API-Aufrufbeschränkungen
-* **Time-to-Live**: Maximale Journey-Dauer (z. B. 91 Tage für unitäre Journey)
+* **Time-to-Live**: Maximale Journey-Dauer (z. B. 91 Tage)
 * **Zielgruppengröße**: Beschränkungen für die Größe von gelesenen Zielgruppen-Batches
 * **Ausdruckskomplexität**: Zeichenbeschränkungen in Bedingungen und Personalisierung
 
-Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
+Vollständige Ansicht [Leitplanken und ](../start/guardrails.md))
 
 +++
 
@@ -778,7 +783,7 @@ Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
 
 * Konzentrieren der Journey auf bestimmte Anwendungsfälle
 * Beschreibende Benennung für Aktivitäten verwenden
-* Hinzufügen von Anmerkungen und Beschriftungen für komplexe Logik
+* Hinzufügen von Beschreibungen und Beschriftungen für komplexe Logik
 * Gruppieren verwandter Journey mit Tags
 
 **Performance**:
@@ -791,6 +796,8 @@ Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
 **Testen**:
 
 * Journey vor der Veröffentlichung immer testen
+* Testmodus verwenden, um die Journey-Logik zu validieren und das Journey schrittweise durchzuführen
+* Verwenden Sie den Dry-Run-Modus, um mit echten Produktionsdaten zu testen, ohne Kunden zu kontaktieren
 * Alle bedingten Pfade und Szenarien testen
 * Verwenden realistischer Testprofile
 * Validieren von Personalisierung und dynamischen Inhalten
@@ -798,7 +805,7 @@ Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
 **Wartung**:
 
 * Regelmäßige Überprüfung der Journey-Performance
-* Archivieren oder schließen Sie nicht verwendete Journey
+* Nicht verwendete Journey stoppen oder schließen
 * Journey-Logik und Geschäftsregeln dokumentieren
 * Planen der Journey-Versionierung
 
@@ -808,11 +815,18 @@ Erfahren Sie mehr über die Best Practices für das [Journey-Design](using-the-j
 
 +++ Wie viele Aktivitäten kann ich einer Journey hinzufügen?
 
-Es gibt zwar keine strikte Begrenzung für die Anzahl der Aktivitäten, aber sehr komplexe Journey (über 50 Aktivitäten) können schwierig zu warten und zu beheben sein. Große Journey mit vielen Verzweigungen und Bedingungen können die Verarbeitungszeit und Lesbarkeit beeinträchtigen.
+Journey sind auf maximal 50 Aktivitäten beschränkt. Es wird jedoch empfohlen, die Journey einfacher zu halten, um eine bessere Wartung und Leistung zu erzielen.
 
-**Best Practice**: Wenn Ihr Journey zu komplex wird, sollten Sie ihn mithilfe der Sprungaktivität in mehrere Journey unterteilen, wiederverwendbare Unter-Journey erstellen oder die Logik mit effizienteren Bedingungen vereinfachen.
+Wenn sich Journey 50 Aktivitäten nähern, können sie sehr komplex und schwierig zu verwalten, zu beheben und zu verstehen werden. Große Journey mit vielen Verzweigungen und Bedingungen können sich auch auf die Verarbeitungszeit, die Lesbarkeit und die Team-Zusammenarbeit auswirken.
 
-Weitere Informationen zum [Journey-Design](using-the-journey-designer.md).
+**Best Practice**: Halten Sie Ihre Journey fokussiert und verwaltbar. Wenn Ihr Journey immer komplexer wird, sollten Sie Folgendes berücksichtigen:
+
+* Unterteilen in mehrere Journey mithilfe der Sprungaktivität
+* Erstellen wiederverwendbarer Muster in einfacheren Journey
+* Vereinfachung der Logik mit effizienteren Bedingungen
+* Überprüfen, ob alle Aktivitäten erforderlich sind
+
+Erfahren Sie mehr über das [Journey](using-the-journey-designer.md)Design und [Leitplanken und Einschränkungen](../start/guardrails.md).
 
 +++
 
@@ -820,26 +834,26 @@ Weitere Informationen zum [Journey-Design](using-the-journey-designer.md).
 
 **Überlegungen zum Design**:
 
-* Zielgruppenbasierte Einträge für Batch-Nachrichten anstelle einzelner Ereignisse verwenden
-* Angemessene Wartezeiten implementieren, um das Nachrichtenvolumen zu verteilen
-* Nutzen von Begrenzungsregeln, um Systemüberlastungen zu vermeiden
-* Optimieren der Bedingungslogik zur Reduzierung der Verarbeitungskomplexität
+* Verwenden [zielgruppenbasierten Eintrags](read-audience.md) für Batch-Nachrichten anstelle von einzelnen Ereignissen
+* Angemessene Wartezeiten [, um ](wait-activity.md) Nachrichtenvolumen zu verteilen
+* Nutzen Sie [Begrenzungsregeln](../conflict-prioritization/journey-capping.md) um eine Systemüberlastung zu vermeiden
+* Optimieren [Bedingungslogik](condition-activity.md) um die Verarbeitungskomplexität zu reduzieren
 
 **Überwachung**:
 
-* Journey-Metriken regelmäßig verfolgen
-* Überwachen der API-Leistung für benutzerdefinierte Aktionen
-* Überprüfen der Fehlerquoten und Zeitüberschreitungsereignisse
-* Einrichten von Warnhinweisen für kritische Journey-Fehler
+* [Journey-Metriken nachverfolgen](report-journey.md) regelmäßig
+* Überwachen der API-Leistung für [benutzerdefinierte Aktionen](using-custom-actions.md)
+* Überprüfen der Fehlerquoten und Zeitüberschreitungsereignisse mit [Tools zur Fehlerbehebung](troubleshooting.md)
+* [Journey-Warnhinweise abonnieren](../reports/alerts.md) kritische Journey-Fehler
 
 **Optimierung**:
 
-* Testmodus und Probelauf verwenden, um die Leistung vor der Veröffentlichung zu validieren
-* Beschränken von Aufrufen externer Datenquellen auf wichtige Szenarien
-* Häufig verwendete Daten zwischenspeichern, wenn möglich
-* Überprüfen und Optimieren der Leistung des Nachrichtenversands
+* Verwenden Sie [Testmodus](testing-the-journey.md) und [Probelauf](journey-dry-run.md), um die Leistung vor der Veröffentlichung zu überprüfen
+* Minimieren Sie externe API-Aufrufe durch [benutzerdefinierte Aktionen](using-custom-actions.md) um Latenz und Abhängigkeit von Drittanbietersystemen zu vermeiden
+* Häufig verwendete Daten in Adobe Experience Platform mit [Datensatzsuche“ speichern](dataset-lookup.md) anstatt nach Möglichkeit externe Aufrufe durchzuführen
+* Überprüfen und Optimieren [Nachrichtenversand](journeys-message.md) Leistung
 
-Weitere Informationen zur [Journey-Optimierung](../start/guardrails.md).
+Weitere Informationen zu [Leitplanken und Einschränkungen](../start/guardrails.md).
 
 +++
 
