@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 100%
+source-wordcount: '2450'
+ht-degree: 97%
 
 ---
 
@@ -31,6 +31,10 @@ Verwenden Sie die Aktivität **Zielgruppe lesen**, damit alle Personen einer Zie
 Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, die beim Anwendungsfall [Zielgruppen erstellen](../audience/about-audiences.md) erstellt wurde. Mit der Aktivität „Zielgruppe lesen“ können Sie alle Personen, die zu dieser Zielgruppe gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
 
 ➡️ [Funktion im Video kennenlernen](#video)
+
+>[!NOTE]
+>
+>Wenn die Aktivität „Zielgruppe lesen“ ausgeführt wird, generiert das System interne Ereignisse (so genannte `segmentExportJob`-Ereignisse), um den Lebenszyklus des Audience-Exportvorgangs zu verfolgen. Diese Ereignisse werden auf Aktivitätsebene und nicht pro Profil aufgezeichnet und können zu Überwachungs- und Fehlerbehebungszwecken abgefragt werden. Weitere Informationen über [Abfragen von Zielgruppenereignissen](../reports/query-examples.md#read-segment-queries).
 
 >[!CAUTION]
 >
@@ -303,4 +307,4 @@ Nicht erfolgreiche **Zielgruppen lesen**-Trigger werden erfasst und in den **War
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

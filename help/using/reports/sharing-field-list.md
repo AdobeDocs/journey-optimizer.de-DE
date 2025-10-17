@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: faf6e63e3951b67997836107ae518b294526206b
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 77%
+source-wordcount: '649'
+ht-degree: 70%
 
 ---
 
@@ -57,7 +57,7 @@ Für journeyStepEvent müssen auch Identitätsfelder hinzugefügt werden:
 
 ## serviceEvents {#servicevents-field}
 
-Dieses Mixin enthält alle Felder, die einem Profilexportvorgang entsprechen.
+Dieses Mixin enthält alle Felder, die einem Profilexportvorgang entsprechen. Diese Ereignisse werden pro Aktivität **Zielgruppe lesen** generiert, um den Lebenszyklus von Zielgruppenexportvorgängen (in der Warteschlange, gestartet, abgeschlossen, Fehler) zu verfolgen. Im Gegensatz zu regulären Schrittereignissen sind serviceEvents nicht an einzelne Profile gebunden, sondern an den Knoten Zielgruppe lesen selbst, d. h. sie verfügen möglicherweise nicht über eine zugeordnete Profilkennung.
 
 | Feldname | Typ | Beschreibung |
 |---|---|------------|

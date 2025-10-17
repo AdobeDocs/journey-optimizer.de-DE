@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +26,10 @@ Zusätzlich zu [Echtzeitberichten](live-report.md) und integrierten [Reporting-F
 Sie haben beispielsweise eine Journey eingerichtet, die mehrere E-Mails sendet. Mit dieser Funktion können Sie [!DNL Journey Optimizer]-Daten mit nachgelagerten Ereignisdaten kombinieren (z. B. der Anzahl der Konversionen, der Interaktionen auf der Website oder der Transaktionen im Store). Die Journey-Daten können entweder über andere digitale Eigenschaften oder über Offline-Eigenschaften mit Daten aus Adobe Experience Platform kombiniert werden, um eine umfassendere Ansicht der Performance zu ermöglichen.
 
 [!DNL Journey Optimizer] erstellt für jeden Schritt, den ein Kontakt bei einer Journey unternimmt, automatisch die erforderlichen Schemata und streamt die Daten in Datensätze zu Adobe Experience Platform. Ein Schrittereignis entspricht einem Kontakt, der bei einer Journey von einem Knoten zu einem anderen wechselt. Beispielsweise werden bei einer Journey, die über ein Ereignis, eine Bedingung und eine Aktion verfügt, drei Schrittereignisse an Adobe Experience Platform gesendet.
+
+>[!NOTE]
+>
+>Zusätzlich zu Schrittereignissen auf Profilebene generiert das System auch interne Ereignisse für Aktivitäten des Typs **Zielgruppe lesen**. Diese als `segmentExportJob` bezeichneten Ereignisse zeichnen den Lebenszyklus des Knotens „Zielgruppe lesen“ auf (z. B. Erstellung von Exportvorgängen, Warteschlangen, Abschluss und Fehler) und werden pro Aktivität „Zielgruppe lesen“ und nicht pro einzelnem Profil generiert. Infolgedessen haben diese Ereignisse möglicherweise keine zugehörige Profilkennung (UPMID). Diese internen Ereignisse sind für die Überwachung der Leistung von „Zielgruppe lesen“ und zur Fehlerbehebung nützlich und können mithilfe der im Abschnitt „serviceEvents[ dokumentierten Felder abgefragt ](../reports/sharing-field-list.md#servicevents-field). Abfragebeispiele für die Arbeit mit segmentExportJob-Ereignissen finden Sie unter [Abfragen im Zusammenhang mit „Zielgruppe lesen](../reports/query-examples.md#read-segment-queries).
 
 Es gibt Fälle, in denen mehrere Ereignisse für denselben Knoten erstellt werden können. Beispielsweise im Falle der Warten-Aktivität:
 
