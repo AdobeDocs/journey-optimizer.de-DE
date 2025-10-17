@@ -343,7 +343,7 @@ Sie können die Journey-Ausführung auf verschiedene Weise verwalten:
 * **Sofort anhalten**: Beenden Sie den Journey und beenden Sie alle aktuell darin enthaltenen Profile.
 * **Pause**: Journey vorübergehend anhalten und später fortsetzen
 
-Weitere Informationen zum [ von Journey](end-journey.md).
+Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
 
 +++
 
@@ -538,9 +538,9 @@ Ja, es gibt mehrere Möglichkeiten, Kunden auszuschließen:
 
 **Innerhalb der Journey**:
 
-* Fügen Sie zu Beginn [ Journey eine Aktivität ](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
+* Fügen Sie zu Beginn [&#x200B; Journey eine Aktivität &#x200B;](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
 * Prüfen auf Ausschlussattribute (z. B. VIP-Status, Testkonten)
-* Identifizieren [ auszuschließenden Profile mithilfe ](audience-qualification-events.md)Zielgruppenqualifizierung“
+* Identifizieren [&#x200B; auszuschließenden Profile mithilfe &#x200B;](audience-qualification-events.md)Zielgruppenqualifizierung“
 
 **Beispielausschlussszenarien**:
 
@@ -768,7 +768,7 @@ Zu den wichtigen Leitplanken gehören:
 * **Zielgruppengröße**: Beschränkungen für die Größe von gelesenen Zielgruppen-Batches
 * **Ausdruckskomplexität**: Zeichenbeschränkungen in Bedingungen und Personalisierung
 
-Vollständige Ansicht [Leitplanken und ](../start/guardrails.md))
+Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
 
 +++
 
