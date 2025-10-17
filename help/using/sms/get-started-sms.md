@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 0a9c36b75f7433eadbc8894fb7252a8f846c78b2
+source-git-commit: 13552b3731a20fc9ca2d93a18c0a2c9fdf9378fa
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 30%
+source-wordcount: '812'
+ht-degree: 27%
 
 ---
 
@@ -132,40 +132,66 @@ Diese Konfigurationsschritte werden in der Regel von einem Systemadministrator d
 
 ## Weitere Ressourcen {#additional-resources}
 
-**Konfigurationshandbücher**
+Weitere Informationen zu Textnachrichten in Journey Optimizer finden Sie unter den folgenden Themen.
+
++++Konfigurationshandbücher
+
+Erfahren Sie, wie Sie Ihre SMS-Umgebung einrichten und konfigurieren:
 
 * [Übersicht über die SMS-Kanalkonfiguration](sms-configuration.md)
 * [Erstellen von SMS-Kanalkonfigurationen](sms-configuration-surface.md)
 * [Konfigurieren von SMS-Subdomains für die URL-Verkürzung](sms-subdomains.md)
 
-**Provider-Einrichtungshandbücher**
++++
+
++++Einrichtungshandbücher für Provider
+
+Schrittweise Konfiguration für jeden SMS-Dienstleister:
 
 * [Konfigurieren eines Sinch-Anbieters](sms-configuration-sinch.md)
 * [Konfigurieren eines Twilio-Anbieters](sms-configuration-twilio.md)
 * [Konfigurieren eines Infobip-Anbieters](sms-configuration-infobip.md)
 * [Konfigurieren eines benutzerdefinierten SMS-Anbieters](sms-configuration-custom.md)
 
-**Inhaltserstellung und -verwaltung**
++++
+
++++Inhaltserstellung und -verwaltung
+
+Erstellen, personalisieren und verwalten Sie den Inhalt von Textnachrichten:
 
 * [SMS-/MMS-Nachrichten erstellen](create-sms.md)
 * [Vorschau, Testen und Senden von Nachrichten](send-sms.md)
 * [Personalization in Textnachrichten](../personalization/personalize.md)
 * [Dynamische Inhalte](../personalization/get-started-dynamic-content.md)
 
-**Compliance und Datenschutz**
++++
+
++++Compliance und Datenschutz
+
+Stellen Sie sicher, dass Ihre Textnachrichten den Vorschriften und Datenschutzstandards entsprechen:
 
 * [Opt-out-Verwaltung](sms-opt-out.md)
 * [Datenschutz und Einverständniserklärung](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-**Leistungsverfolgung**
++++
+
++++Leistungsverfolgung
+
+Überwachen und analysieren Sie Ihre SMS-Kampagnen und die Journey-Leistung:
 
 * [SMS-Kampagnenberichte](../reports/campaign-global-report-cja-sms.md)
 * [SMS Journey Berichte](../reports/journey-global-report-cja-sms.md)
 
-**Journey- und Campaign-Integration**
++++
+
++++Integration von Journey und Campaign
+
+Erfahren Sie, wie Sie SMS in Ihre Kunden-Journey und -Kampagnen integrieren:
 
 * [SMS-Nachrichten zu Journey hinzufügen](../building-journeys/journeys-message.md)
 * [SMS-Kampagnen erstellen](../campaigns/create-campaign.md)
+
++++
 
 ## Anleitungsvideos {#videos}
 
@@ -175,7 +201,7 @@ Erfahren Sie, wie Sie SMS-Nachrichten konfigurieren, erstellen und in Ihre Journ
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3422692?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -185,7 +211,7 @@ Entdecken Sie die umfassenden mobilen Messaging-Funktionen, die Adobe Journey Op
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3430371?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -195,7 +221,7 @@ Finden Sie heraus, wie Sie in Adobe Journey Optimizer an Ihre Marke angepasste, 
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3464764?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
