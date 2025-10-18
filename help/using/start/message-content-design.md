@@ -35,7 +35,7 @@ Beherrschen Sie das E-Mail-Design mit der E-Mail-Designer, erstellen Sie respons
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
 
 Gestalten von Push-Benachrichtigungen
 
