@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
+source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 100%
+source-wordcount: '1344'
+ht-degree: 94%
 
 ---
 
@@ -114,6 +114,8 @@ Die Gültigkeitsdauer für eine Mirror-Seite beträgt **90 Tage**. Nach dieser 
 >[!CAUTION]
 >
 >* Links zu Mirrorseiten werden automatisch generiert und können nicht bearbeitet werden. Sie enthalten alle verschlüsselten personalisierten Daten, die zum Rendern der ursprünglichen E-Mail erforderlich sind. Daher kann die Verwendung personalisierter Attribute mit großen Werten zu langen Mirrorseiten-URLs führen, was verhindert, dass der Link in Webbrowsern mit einer begrenzten URL-Länge funktioniert.
+>
+>* Beim Erstellen von E-Mails, die stark von der Laufzeitpersonalisierung abhängen (z. B. `#each`, verschachtelte Objekte, große Payload-Daten), können die URLs der Mirrorseite übermäßig groß werden, insbesondere in API-ausgelösten Kampagnen, die umfangreiche kontextuelle Daten aus Payloads verwenden. Dies kann HTTP-Fehler (404, 422, 502) in Browsern oder Mail-Clients verursachen. Adobe empfiehlt, die Breite und Tiefe dynamischer Felder zu begrenzen, die Abhängigkeit von komplexen Fragmenten zu reduzieren und Personalisierungsstrukturen zu reduzieren, um Linkfehler zu vermeiden.
 >
 >* Im [Testversand](../content-management/proofs.md) an die Testprofile ist der Link zur Mirror-Seite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiv.
 
