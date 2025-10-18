@@ -11,7 +11,7 @@ keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 31da84ab3fe4edabaf49f7b078ef0b2fdae3f6c5
+source-git-commit: b53080c5a4100c66b91fe10f156a18e932a5e68b
 workflow-type: tm+mt
 source-wordcount: '4446'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Adobe Journey Optimizer Journey.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Allgemeine Konzepte
 
@@ -50,15 +50,15 @@ Weitere Informationen zu [Journey-Typen](entry-management.md#types-of-journeys).
 
 +++ Was ist der Unterschied zwischen einer Journey und einer Kampagne?
 
-**Journey** sind mehrstufige Orchestrierungen, die auf Ereignisse oder Zielgruppen reagieren und über den gesamten Kundenlebenszyklus hinweg eine komplexe Logik, Bedingungen, Wartezeiten und mehrere Berührungspunkte ermöglichen.
+**[Journey](journey.md)** sind mehrstufige Orchestrierungen, die auf Ereignisse oder Zielgruppen reagieren und über den gesamten Kundenlebenszyklus hinweg eine komplexe Logik, Bedingungen, Wartezeiten und mehrere Berührungspunkte ermöglichen.
 
-**Kampagnen** gibt es in drei Typen:
+**[Kampagnen](../campaigns/get-started-with-campaigns.md)** gibt es in drei Typen:
 
-* **Aktionskampagnen**: Einmalige oder wiederkehrende Nachrichten, die an eine bestimmte Zielgruppe gesendet werden, eignen sich ideal für eigenständige Nachrichten wie Werbeanzeigen oder Newsletter.
-* **API-ausgelöste Kampagnen**: Über API-Aufrufe ausgelöste Kampagnen, die die Integration mit externen Systemen ermöglichen, um Nachrichten basierend auf Echtzeit-Ereignissen oder Geschäftslogik zu senden.
-* **Orchestrierte Kampagnen**: Mehrstufige, zielgruppenbasierte Kampagnen auf einer Arbeitsfläche, die Bedingungen, Wartezeiten und mehrere Aktionen zur Erstellung geplanter, koordinierter Erlebnisse enthalten können.
+* **[Aktionskampagnen](../campaigns/create-campaign.md)**: Einmalige oder wiederkehrende Nachrichten, die an eine bestimmte Zielgruppe gesendet werden, eignen sich ideal für eigenständige Nachrichten wie Werbeanzeigen oder Newsletter.
+* **[API-ausgelöste Kampagnen](../campaigns/api-triggered-campaigns.md)**: Über API-Aufrufe ausgelöste Kampagnen, die die Integration mit externen Systemen ermöglichen, um Nachrichten basierend auf Echtzeit-Ereignissen oder Geschäftslogik zu senden.
+* **[Orchestrierte Kampagnen](../orchestrated/get-started-orchestrated.md)**: Mehrstufige, zielgruppenbasierte Kampagnen auf einer Arbeitsfläche, die Bedingungen, Wartezeiten und mehrere Aktionen zur Erstellung geplanter, koordinierter Erlebnisse enthalten können.
 
-**Best Practice**: Verwenden Sie Journey für eine komplexe, ereignisgesteuerte Interaktion mit erweiterter Orchestrierung, Aktionskampagnen für geplante, zielgruppenbasierte Kommunikationen, API-ausgelöste Kampagnen für die programmgesteuerte Auslösung von externen Systemen und orchestrierte Kampagnen für mehrstufige Kommunikationen mit kampagnenspezifischen Anforderungen.
+**Best Practice**: Verwenden Sie [Journey](journey.md) für komplexe, ereignisgesteuerte Interaktionen mit erweiterter Orchestrierung; [Aktionskampagnen](../campaigns/create-campaign.md) für geplante, zielgruppenbasierte Kommunikationen; [API-ausgelöste Kampagnen](../campaigns/api-triggered-campaigns.md) für die programmgesteuerte Auslösung aus externen Systemen; [orchestrierte Kampagnen](../orchestrated/get-started-orchestrated.md) für mehrstufige Kommunikation mit kampagnenspezifischen Anforderungen.
 
 +++
 
@@ -343,7 +343,7 @@ Sie können die Journey-Ausführung auf verschiedene Weise verwalten:
 * **Sofort anhalten**: Beenden Sie den Journey und beenden Sie alle aktuell darin enthaltenen Profile.
 * **Pause**: Journey vorübergehend anhalten und später fortsetzen
 
-Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
+Weitere Informationen zum [ von Journey](end-journey.md).
 
 +++
 
@@ -538,9 +538,9 @@ Ja, es gibt mehrere Möglichkeiten, Kunden auszuschließen:
 
 **Innerhalb der Journey**:
 
-* Fügen Sie zu Beginn [&#x200B; Journey eine Aktivität &#x200B;](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
+* Fügen Sie zu Beginn [ Journey eine Aktivität ](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
 * Prüfen auf Ausschlussattribute (z. B. VIP-Status, Testkonten)
-* Identifizieren [&#x200B; auszuschließenden Profile mithilfe &#x200B;](audience-qualification-events.md)Zielgruppenqualifizierung“
+* Identifizieren [ auszuschließenden Profile mithilfe ](audience-qualification-events.md)Zielgruppenqualifizierung“
 
 **Beispielausschlussszenarien**:
 
@@ -773,7 +773,7 @@ Zu den wichtigen Leitplanken gehören:
 * **Zielgruppengröße**: Beschränkungen für die Größe von gelesenen Zielgruppen-Batches
 * **Ausdruckskomplexität**: Zeichenbeschränkungen in Bedingungen und Personalisierung
 
-Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
+Vollständige Ansicht [Leitplanken und ](../start/guardrails.md))
 
 +++
 
@@ -835,7 +835,7 @@ Erfahren Sie mehr über das [Journey](using-the-journey-designer.md)Design und [
 **Überlegungen zum Design**:
 
 * Verwenden [zielgruppenbasierten Eintrags](read-audience.md) für Batch-Nachrichten anstelle von einzelnen Ereignissen
-* Angemessene Wartezeiten [, um &#x200B;](wait-activity.md) Nachrichtenvolumen zu verteilen
+* Angemessene Wartezeiten [, um ](wait-activity.md) Nachrichtenvolumen zu verteilen
 * Nutzen Sie [Begrenzungsregeln](../conflict-prioritization/journey-capping.md) um eine Systemüberlastung zu vermeiden
 * Optimieren [Bedingungslogik](condition-activity.md) um die Verarbeitungskomplexität zu reduzieren
 
