@@ -25,7 +25,7 @@ Das Entwerfen von Nachrichteninhalten in Adobe Journey Optimizer ermöglicht es 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Entwerfen von E-Mail-Inhalten
 
@@ -35,7 +35,7 @@ Beherrschen Sie das E-Mail-Design mit der E-Mail-Designer, erstellen Sie respons
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=de)
 
 Gestalten von Push-Benachrichtigungen
 
@@ -45,7 +45,7 @@ Erstellen Sie überzeugende Push-Benachrichtigungen für iOS und Android, konfig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
 
 SMS- und MMS-Nachrichten entwerfen
 
@@ -55,7 +55,7 @@ Erstellen Sie personalisierte Textnachrichten mit SMS, verbessern Sie die Kommun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
 
 Entwerfen von In-App-Nachrichten
 
@@ -65,7 +65,7 @@ Erstellen Sie ansprechende In-App-Erlebnisse mit mehreren Layout-Optionen, einsc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Personalisieren von Inhalten
 
@@ -75,7 +75,7 @@ Fügen Sie Nachrichten mithilfe von Profilattributen eine Personalisierung hinzu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Verwenden von Vorlagen und Fragmenten
 
