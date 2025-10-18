@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: Inhalt, Design, E-Mail, Push, SMS, Personalisierung, Vorlagen
-source-git-commit: ef12790e3199457d94c2c7d56c60bb9571921f77
+source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Das Entwerfen von Nachrichteninhalten in Adobe Journey Optimizer ermöglicht es 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/email.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Entwerfen von E-Mail-Inhalten
 
@@ -35,7 +35,7 @@ Beherrschen Sie das E-Mail-Design mit der E-Mail-Designer, erstellen Sie respons
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Gestalten von Push-Benachrichtigungen
 
@@ -45,7 +45,7 @@ Erstellen Sie überzeugende Push-Benachrichtigungen für iOS und Android, konfig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chat.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 SMS- und MMS-Nachrichten entwerfen
 
@@ -55,7 +55,7 @@ Erstellen Sie personalisierte Textnachrichten mit SMS, verbessern Sie die Kommun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/device-mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Entwerfen von In-App-Nachrichten
 
@@ -65,7 +65,7 @@ Erstellen Sie ansprechende In-App-Erlebnisse mit mehreren Layout-Optionen, einsc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/personalization.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Personalisieren von Inhalten
 
@@ -75,7 +75,7 @@ Fügen Sie Nachrichten mithilfe von Profilattributen eine Personalisierung hinzu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/duplicate.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Verwenden von Vorlagen und Fragmenten
 
