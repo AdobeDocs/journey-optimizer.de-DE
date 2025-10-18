@@ -32,4 +32,4 @@ Weitere Informationen finden Sie im Handbuch zur [Komposition föderierter Zielg
 
 Mehr über die Komposition föderierter Zielgruppen erfahren Sie in diesem Video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3450894?captions=ger&quality=12)

@@ -105,4 +105,4 @@ Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzu
 
 Erfahren Sie, wie Sie den Personalisierungseditor-Playground nutzen können, um Personalisierungs-Code mithilfe von Beispieldaten zu schreiben und zu testen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475961?captions=ger&quality=12)
