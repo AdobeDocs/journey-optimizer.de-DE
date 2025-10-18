@@ -11,9 +11,9 @@ keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: b53080c5a4100c66b91fe10f156a18e932a5e68b
+source-git-commit: 51a609091b0c6cea2d92b22b265e6106973ba16a
 workflow-type: tm+mt
-source-wordcount: '4446'
+source-wordcount: '4531'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Adobe Journey Optimizer Journey.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Allgemeine Konzepte
 
@@ -343,7 +343,7 @@ Sie können die Journey-Ausführung auf verschiedene Weise verwalten:
 * **Sofort anhalten**: Beenden Sie den Journey und beenden Sie alle aktuell darin enthaltenen Profile.
 * **Pause**: Journey vorübergehend anhalten und später fortsetzen
 
-Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
+Weitere Informationen zum [ von Journey](end-journey.md).
 
 +++
 
@@ -510,19 +510,25 @@ Erhalten Sie mehr über [Personalisierung](../personalization/personalize.md).
 
 +++ Kann ich je nach bevorzugtem Kanal verschiedene Nachrichten senden?
 
-Ja. Verwenden Sie eine **Aktivität Bedingung**, um den bevorzugten Kanal zu überprüfen:
+Ja. Verwenden Sie eine **[Aktivität Bedingung](condition-activity.md)**, um Profile basierend auf ihrem bevorzugten Kanal zu routen:
 
-1. Hinzufügen eines Profils für die Bedingungsprüfung.preferencesChannel
-2. Erstellen Sie für jeden Kanal separate Pfade:
-   * **E-Mail-Pfad**: E-Mail-Nachricht senden
-   * **SMS-Pfad**: SMS-Nachricht senden
-   * **Push-Pfad**: Push-Benachrichtigung senden
-3. Standardpfad für Profile ohne Voreinstellung hinzufügen
+1. Fügen Sie eine [Aktivität vom Typ Bedingung](condition-activity.md) in Ihren Journey ein
+2. Erstellen Sie einen Pfad für jeden Kanal, indem Sie das bevorzugte Kanalprofilattribut überprüfen (z. B. `profile.preferredChannel`)
+3. Kanalspezifische Pfade konfigurieren:
+   * **E-Mail-**: Fügen Sie eine [E-Mail-Aktion](../email/create-email.md) mit E-Mail-optimierten Inhalten hinzu
+   * **SMS-Pfad**: Hinzufügen einer [SMS-Aktion](../sms/create-sms.md) mit knappem Messaging
+   * **Push-Pfad**: Fügen Sie eine [Push-Benachrichtigungsaktion](../push/create-push.md) mit kurzen, umsetzbaren Inhalten hinzu
+   * **In-App-Pfad**: Hinzufügen einer [In-App-Nachrichtenaktion](../in-app/create-in-app.md) für interaktive App-Benutzer
+4. Fügen Sie einen Standardpfad für Profile ohne Voreinstellung hinzu und leiten Sie sie an Ihren primären Kanal weiter.
 
-<!--
-**Alternative approach**: Use **multi-channel actions** where Journey Optimizer automatically selects the best channel based on profile preferences and availability.-->
+**Best Practices**:
 
-Weitere Informationen zu [Kanalaktionen](journeys-message.md).
+* Stellen Sie sicher, dass Ihre Profildaten genaue Kanalvoreinstellungen enthalten
+* Entwerfen Sie Inhalte, die für die Stärken und Einschränkungen jedes Kanals geeignet sind
+* Verwenden [Kanaloberflächen](../configuration/channel-surfaces.md) zum Verwalten von Kanalkonfigurationen
+* Testen aller Pfade, um einen ordnungsgemäßen Nachrichtenversand sicherzustellen
+
+Erfahren Sie mehr über [Bedingungen](condition-activity.md), [Nachrichtenaktionen](journeys-message.md) und [Kanalauswahl](../channels/gs-channels.md).
 
 +++
 
@@ -538,9 +544,9 @@ Ja, es gibt mehrere Möglichkeiten, Kunden auszuschließen:
 
 **Innerhalb der Journey**:
 
-* Fügen Sie zu Beginn [&#x200B; Journey eine Aktivität &#x200B;](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
+* Fügen Sie zu Beginn [ Journey eine Aktivität ](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
 * Prüfen auf Ausschlussattribute (z. B. VIP-Status, Testkonten)
-* Identifizieren [&#x200B; auszuschließenden Profile mithilfe &#x200B;](audience-qualification-events.md)Zielgruppenqualifizierung“
+* Identifizieren [ auszuschließenden Profile mithilfe ](audience-qualification-events.md)Zielgruppenqualifizierung“
 
 **Beispielausschlussszenarien**:
 
@@ -773,7 +779,7 @@ Zu den wichtigen Leitplanken gehören:
 * **Zielgruppengröße**: Beschränkungen für die Größe von gelesenen Zielgruppen-Batches
 * **Ausdruckskomplexität**: Zeichenbeschränkungen in Bedingungen und Personalisierung
 
-Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
+Vollständige Ansicht [Leitplanken und ](../start/guardrails.md))
 
 +++
 
@@ -835,7 +841,7 @@ Erfahren Sie mehr über das [Journey](using-the-journey-designer.md)Design und [
 **Überlegungen zum Design**:
 
 * Verwenden [zielgruppenbasierten Eintrags](read-audience.md) für Batch-Nachrichten anstelle von einzelnen Ereignissen
-* Angemessene Wartezeiten [, um &#x200B;](wait-activity.md) Nachrichtenvolumen zu verteilen
+* Angemessene Wartezeiten [, um ](wait-activity.md) Nachrichtenvolumen zu verteilen
 * Nutzen Sie [Begrenzungsregeln](../conflict-prioritization/journey-capping.md) um eine Systemüberlastung zu vermeiden
 * Optimieren [Bedingungslogik](condition-activity.md) um die Verarbeitungskomplexität zu reduzieren
 
