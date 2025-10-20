@@ -3,10 +3,10 @@ title: Löschen von Sammlungen
 description: Sammlungen sind Teilmengen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 351d1f44-f3dc-49f9-bc3d-c775dad3cad4
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 100%

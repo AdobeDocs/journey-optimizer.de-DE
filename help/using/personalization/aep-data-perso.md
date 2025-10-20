@@ -6,14 +6,14 @@ description: Erfahren Sie, wie Sie Adobe Experience Platform-Daten für die Pers
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 86%
 
 >[!AVAILABILITY]
 >
->Diese Funktion steht derzeit allen Kundinnen und Kunden mit eingeschränkter Verfügbarkeit zur Verfügung.
+>Diese Funktion steht derzeit allen Kundinnen und Kunden eingeschränkt zur Verfügung.
 >
 >Derzeit kann die Hilfsfunktion „datasetLookup“ in Ausdrucksfragmenten für eine begrenzte Anzahl von Kundinnen und Kunden verwendet werden. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 

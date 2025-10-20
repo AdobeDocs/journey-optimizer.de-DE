@@ -3,10 +3,10 @@ title: Nachschlagen einer Auswahlstrategie
 description: Auswahlstrategien bestehen aus Sammlungen, die mit Begrenzungen und Rangfolgenmethoden zur Bestimmung von Angeboten verknüpft sind.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: db590963-b45b-4844-ac12-775cc955b03e
-source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 100%

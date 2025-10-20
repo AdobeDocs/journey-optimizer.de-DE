@@ -3,12 +3,12 @@ product: journey optimizer
 title: inSegment
 description: Erfahren Sie mehr über die Funktion „inSegment“
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: inSegment, Funktion, Ausdruck, Journey
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%

@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
@@ -99,11 +99,11 @@ Beim Erstellen einer [Regel, die mehrere Seiten abgleicht](#web-page-matching-ru
 
   | Operator  | Beschreibung  | Beispiele  |
   |---|---|---|
-  | Gleich  | Exakte Übereinstimmung mit der Domain.  |
+  | Gleich  | Exakte Übereinstimmung mit der Domain.  | |
   | Beginnt mit  | Gleicht alle Domains (einschließlich Subdomains) ab, die mit der eingegebenen Zeichenfolge beginnen.  | Beispiel: „Beginnt mit: dev“-> gleicht alle Domains und Subdomains ab, die mit „dev“ beginnen, wie: dev.example.com, dev.products.example.com, developer.example.com  |
   | Endet mit  | Gleicht alle Domains ab (einschließlich Subdomains), die mit der eingegebenen Zeichenfolge enden.   | Beispiel: „Endet mit: example.com“-> gleicht alle Domains und Subdomains ab, die mit „example.com“ enden, wie: stage.example.com, prod.example.com, myexample.com  |
   | Platzhalterabgleich  | Mit dem Operator „Platzhalterabgleich“ können Benutzende einen Platzhalterabgleich in der Mitte der Zeichenfolge definieren, z. B. „dev.*.example.com“. Die Validierungsregeln bestehen darin, dass der Wert einen und nur einen Platzhalter (Sternchen) enthalten darf, wenn der Operator „Platzhalterabgleich“ ist.  | Beispiel: „Platzhalterabgleich: dev.*.example.com“ -> gleicht Domains wie: dev.products.example.com, dev.mytest.products.example.com und dev.blog.example.com ab.  |
-  | Beliebige  | Gleicht alle Domains ab: nützlich beim Domain-übergreifenden Testen eines bestimmten Pfads  |
+  | Beliebige  | Gleicht alle Domains ab: nützlich beim Domain-übergreifenden Testen eines bestimmten Pfads  |  |
 
 
 * **Pfad**

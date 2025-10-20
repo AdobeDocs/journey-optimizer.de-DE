@@ -3,10 +3,10 @@ title: Sammlungen auflisten
 description: Sammlungen sind Teilmengen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ce39d77d-6d81-48d7-9e73-e1d537874018
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 90%
@@ -30,7 +30,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
 | `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=2` |
 | `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | Definiert das Schema, das Sammlungen zugeordnet ist. <https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |
+| `{SCHEMA_FILTER}` | Definiert das Schema, das Sammlungen zugeordnet ist. <https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |  |
 | `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=1` |
 
 **Anfrage**

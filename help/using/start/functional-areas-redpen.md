@@ -4,12 +4,12 @@ product: journey optimizer
 title: Funktionsbereiche
 description: Funktionsbereiche in AJO
 feature: Get Started
-role: Admin, Data Engineer, Developer, User
+role: Admin, Developer, User
 level: Beginner
 redpen-status: PASS_||_2025-04-28_15-13-07
 exl-id: c9b02ae2-e07b-41f4-90cc-b2c0966f1ed1
 hide: true
-source-git-commit: 72ff06a7d87d6d9e5bfc0c6462ea4d60a98fc940
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 100%
@@ -41,6 +41,7 @@ Adobe Journey Optimizer (AJO) umfasst mehrere wichtige Funktionsbereiche, die na
 Behandeln Sie das Daten-Management als Grundlage für alle Kundeninteraktionen. Durch ein gut strukturiertes Datenfundament wird sichergestellt, dass jede Entscheidung, jede Nachricht und jede Journey präzise und organisierte Daten verwendet.
 
 **Schlüsselkomponenten**:
+
 - **Erstellung und Verwaltung von Schemata**: Definieren Sie die Struktur von Kundendaten.
    - Beispiel: Erstellen Sie ein Schema mit Feldern wie „Vorname“, „E-Mail-Adresse“ und „Kaufverlauf“.
 - **Datensatzkonfiguration**: Organisieren Sie Daten in logischen Containern.
@@ -60,6 +61,7 @@ Behandeln Sie das Daten-Management als Grundlage für alle Kundeninteraktionen. 
 Kunden-Management-Tools verbinden unterschiedliche Datenpunkte, um ein einheitliches Bild jeder Kundin und jedes Kunden zu liefern. So wird sichergestellt, dass Sie für relevante und personalisierte Erlebnisse sorgen können.
 
 **Schlüsselkomponenten**:
+
 - **Echtzeit-Kundenprofil**: Einheitliche Ansicht einzelner Kundinnen und Kunden.
    - Beispiel: Kombinieren von Webbrowser-Verlauf, App-Interaktionen und Offline-Käufe in einem einzigen Profil.
 - **Identitätsauflösung**: Verknüpfen von Kundendaten über verschiedene Geräte und Kanäle hinweg.
@@ -80,6 +82,7 @@ Kunden-Management-Tools verbinden unterschiedliche Datenpunkte, um ein einheitli
 Content-Management-Tools stellen sicher, dass Teams effizient maßgeschneiderte Nachrichten definieren und bereitstellen und dabei an jedem Touchpoint für Konsistenz und Relevanz sorgen können.
 
 **Schlüsselkomponenten**:
+
 - **Inhaltseditoren**: Erstellen und Formatieren von Nachrichten visuell oder mit Code.
    - Beispiel: Verwenden Sie den visuellen Editor, um eine E-Mail-Kampagne zu entwerfen, mit der das Weihnachtsgeschäft beworben werden.
 - **Digital Asset Management**: Organisieren und Verwenden von Bildern und anderen Medien.
@@ -101,6 +104,7 @@ Content-Management-Tools stellen sicher, dass Teams effizient maßgeschneiderte 
 Das Entscheidungs-Management stellt sicher, dass die Personalisierung in großem Maßstab funktioniert, indem es durch intelligente Automatisierung einen maximalen Mehrwert liefert.
 
 **Schlüsselkomponenten**:
+
 - **Angebotsbibliothek**: Zentrales Repository für Marketing-Angebote.
    - Beispiel: Speichern Sie Angebote wie „Coupon für 20 % Rabatt“ oder „Kostenloser Versand“ in einer gemeinsamen Bibliothek.
 - **Entscheidungsregeln**: Logik für die Auswahl optimaler Inhalte.
@@ -122,6 +126,7 @@ Das Entscheidungs-Management stellt sicher, dass die Personalisierung in großem
 Das Journey-Management stellt sicher, dass Erlebnisse sich adaptiv und nahtlos anfühlen, und leitet einzelne Personen auf der Grundlage ihrer Vorlieben und Handlungen an.
 
 **Schlüsselkomponenten**:
+
 - **Journey-Designer**: Visuelle Arbeitsfläche zum Erstellen von Kundenpfaden.
    - Beispiel: Entwerfen Sie eine Journey, die eine Begrüßungs-E-Mail sendet, wenn sich eine Kundin oder ein Kunde anmeldet.
 - **Journey-Auslöser**: Ereignisse, die Journeys auslösen oder voranbringen.
@@ -143,6 +148,7 @@ Das Journey-Management stellt sicher, dass Erlebnisse sich adaptiv und nahtlos a
 Verbindungen sorgen dafür, dass Daten effektiv in AJO eingespeist werden und die Kundschaft über die richtigen Touchpoints zuverlässig erreichen.
 
 **Schlüsselkomponenten**:
+
 - **Quell-Connectoren**: Dienen dem Importieren von Daten in die Plattform.
    - Beispiel: Verwenden Sie einen Connector, um Kaufdaten von einer E-Commerce-Plattform zu übertragen.
 - **Kanalkonfiguration**: Konfigurieren und verwalten von Versandmechanismen.
@@ -162,6 +168,7 @@ Verbindungen sorgen dafür, dass Daten effektiv in AJO eingespeist werden und di
 Administrations- und Datenschutz-Tools stellen sicher, dass die Datenintegrität gewahrt bleibt und alle rechtlichen und organisatorischen Richtlinien eingehalten werden.
 
 **Schlüsselkomponenten**:
+
 - **Benutzer- und Zugriffsverwaltung**: Steuern von Zugriff und Berechtigungen.
    - Beispiel: Weisen Sie Marketing- und IT-Teams bestimmte Berechtigungen zu.
 - **Sandbox-Konfiguration**: Separate Umgebungen für Entwicklung und Tests.

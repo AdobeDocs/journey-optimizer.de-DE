@@ -3,10 +3,10 @@ title: Angebote bereitstellen
 description: Entscheidungs-Management ist eine Sammlung von Services und Benutzeroberflächenprogrammen, mit denen Marketing-Experten personalisierte Angebotserlebnisse für Endbenutzer erstellen und bereitstellen können – über verschiedene Kanäle und Anwendungen hinweg und unter Verwendung von Business-Logik und Entscheidungsregeln.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 100%
@@ -219,7 +219,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/343541/?quality=12&captions=ger) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Nächste Schritte {#next-steps}
 

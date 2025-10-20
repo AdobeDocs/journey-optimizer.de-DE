@@ -4,15 +4,15 @@ product: journey optimizer
 title: Syntax des erweiterten Ausdruckseditors
 description: Weitere Informationen zur im erweiterten Ausdruckseditor verwendete Syntax
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: Syntax, Editor, Journey
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Ausdrücke werden von links nach rechts ausgewertet. Die Assoziativität bei ari
 
 | Ausdruck | Auswertung |
 |--- |--- |
-| `4 + 2 * 10` | <ul><li>„*“ hat Vorrang vor „+“: 2 * 10 wird ausgewertet als → 20</li><li>4 + 20 → 24</li></ul> |
+| `4 + 2 * 10` | <ul><li>&#39;*&#39; hat Priorität vor &#39;+&#39;: 2 \* 10 wird → 20 ausgewertet</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Klammern ändern die Priorität: (4 + 2) wird ausgewertet als → 6</li><li> 6 * 10 → 60</li></ul> |
 
 ## Groß-/Kleinschreibung {#case-sensitivity}

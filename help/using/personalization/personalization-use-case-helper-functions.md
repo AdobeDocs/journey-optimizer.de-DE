@@ -5,11 +5,11 @@ title: 'Anwendungsfall für Personalisierung: E-Mail zum Warenkorbabbruch'
 description: Erfahren Sie mithilfe eines Anwendungsbeispiels, wie Sie den Textkörper einer E-Mail-Nachricht personalisieren können.
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Helper, Anwendungsfall, Personalisierung
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 97%

@@ -5,11 +5,11 @@ title: Zugriffssteuerung auf Objektebene
 description: 'Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene, mit der Sie Berechtigungen zum Verwalten des Datenzugriffs für eine Auswahl von Objekten definieren können:'
 feature: Access Management
 topic: Administration
-role: Admin, Developer, Architect
+role: Admin, Developer
 level: Experienced
 keywords: Objekt, Ebene, Zugriff, Kontrolle, Labels, OLAC, Autorisierung
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%

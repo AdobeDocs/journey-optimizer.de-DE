@@ -5,11 +5,11 @@ title: Arbeiten mit Journey-Ereignissen
 description: Erfahren Sie, wie Sie mit Ereignissen in Ihren Journeys arbeiten.
 feature: Journeys, Events
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 99%
@@ -75,7 +75,7 @@ Systemgenerierte Ereignisse: Die Pipeline filtert Ereignisse mit einer Payload, 
 
 ## Über den Journey-Ereignisdurchsatz {#event-thoughput}
 
-Adobe Journey Optimizer unterstützt auf Organisationsebene ein Spitzenvolumen von 5.000 Journey-Ereignissen pro Sekunde über alle Sandboxes hinweg. Dieses Kontingent gilt für alle Ereignisse, die in aktiven Journeys genutzt werden, darunter in Journeys vom Typ **Live**, **Probelauf**, **Geschlossen** und **Angehalten**. Sobald dieses Kontingent erreicht wird, werden neue Ereignisse mit einer Verarbeitungsrate von 5.000 pro Sekunde in die Warteschlange gestellt. Die maximale Zeit, die ein Ereignis in der Warteschlange verbringen kann, beträgt **&#x200B; 24Stunden**.
+Adobe Journey Optimizer unterstützt auf Organisationsebene ein Spitzenvolumen von 5.000 Journey-Ereignissen pro Sekunde über alle Sandboxes hinweg. Dieses Kontingent gilt für alle Ereignisse, die in aktiven Journeys genutzt werden, darunter in Journeys vom Typ **Live**, **Probelauf**, **Geschlossen** und **Angehalten**. Sobald dieses Kontingent erreicht wird, werden neue Ereignisse mit einer Verarbeitungsrate von 5.000 pro Sekunde in die Warteschlange gestellt. Die maximale Zeit, die ein Ereignis in der Warteschlange verbringen kann, beträgt ** 24Stunden**.
 
 Die folgenden Ereignistypen werden auf das Kontingent von 5.000 TPS angerechnet:
 
@@ -120,7 +120,7 @@ Jedes Ereignis, das in **Live**-, **Entwurfs**- oder **geschlossenen** Journeys 
 
 Erfahren Sie, wie Sie ein Ereignis konfigurieren und den Streaming-Endpunkt und die Payload für ein Ereignis angeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431515?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Machen Sie sich mit den entsprechenden Anwendungsfällen für Geschäftsereignisse vertraut. Erfahren Sie, wie Sie mithilfe eines Geschäftsereignisses eine Journey erstellen und welche Best Practices anzuwenden sind.
 

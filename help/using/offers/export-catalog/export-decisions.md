@@ -4,10 +4,10 @@ description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportie
 badge: label="Legacy" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 97%
@@ -160,6 +160,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann durch eine Regel oder durch die Zugehörigkeit zu einer oder mehreren Zielgruppen erfolgen.
 **Typ:** Zeichenfolge 
 **Mögliche Werte:**
+
 * „none“ (Standard)
 * „eligibilityRule“: „Die Profileinschränkung wird als einzelne Regel ausgedrückt, die als „true“ ausgewertet werden muss, bevor die einschränkende Aktion zulässig ist.“
 * „anySegments“: „Die Profileinschränkung wird als eine oder mehrere Zielgruppen ausgedrückt und das Profil muss mindestens einer dieser Zielgruppen angehören, damit die eingeschränkte Aktion zulässig ist.“

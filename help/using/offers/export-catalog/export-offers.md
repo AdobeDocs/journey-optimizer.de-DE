@@ -4,10 +4,10 @@ description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportie
 badge: label="Legacy" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 98%
@@ -179,7 +179,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
   **Feld:** linkURL
   **Beschreibung:** Eine optionale, eindeutige URL für Benutzerinteraktionen. Diese URL wird verwendet, um den Endbenutzer auf einen User Agent zu verweisen, und kann verfolgt werden.
   **Typ:** Zeichenfolge
-  **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
+  **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
 
 +++_experience > decisioning > contents > Placement
 
@@ -243,6 +243,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann durch eine Regel oder durch die Zugehörigkeit zu einer oder mehreren Zielgruppen erfolgen.
 **Typ:** Zeichenfolge 
 **Mögliche Werte:**
+
 * „none“ (Standard)
 * „eligibilityRule“: „Die Profileinschränkung wird als einzelne Regel ausgedrückt, die als „true“ ausgewertet werden muss, bevor die einschränkende Aktion zulässig ist.“
 * „anySegments“: „Die Profileinschränkung wird als eine oder mehrere Zielgruppen ausgedrückt und das Profil muss mindestens einer dieser Zielgruppen angehören, damit die eingeschränkte Aktion zulässig ist.“

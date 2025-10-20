@@ -3,10 +3,10 @@ title: Helper
 description: Helper
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 57%
@@ -134,8 +134,8 @@ Some edu specific content
 ## Jeweils{#each}
 
 Der Helper `each` wird verwendet, um die Elemente eines Arrays zu verarbeiten.
-Die Syntax des Helpers ist ```{{#each ArrayName}}``` YourContent {{/each}}
-Die einzelnen Array-Elemente werden durch die Verwendung des Keywords **this** innerhalb des Blocks referenziert. Der Index des Array-Elements kann mithilfe von {{@index}} gerendert werden.
+Die Syntax des Helpers ist ```{{#each ArrayName}}``` YourContent `{{/each}}`
+Die einzelnen Array-Elemente werden durch die Verwendung des Keywords **this** innerhalb des Blocks referenziert. Der Index des Array-Elements kann mithilfe von `{{@index}}` gerendert werden.
 
 **Syntax**
 
@@ -234,7 +234,7 @@ Mit dieser Funktion können Sie kontextuelle Informationen an beliebige native A
 
 >[!NOTE]
 >
->Die Funktion „Ausführungsmetadaten“ wird von [benutzerdefinierten Aktionen“ nicht &#x200B;](../../action/action.md).
+>Die Funktion „Ausführungsmetadaten“ wird von [benutzerdefinierten Aktionen“ nicht ](../../action/action.md).
 
 Sie können beispielsweise den Helper Ausführungsmetadaten verwenden, um eine bestimmte ID an jeden Versand anzuhängen, der an jedes Profil gesendet wird. Diese Informationen werden zur Laufzeit generiert, und die angereicherten Ausführungsmetadaten können dann zur nachgelagerten Abstimmung mit einer externen Reporting-Plattform exportiert werden.
 
@@ -263,7 +263,7 @@ Zur Laufzeit wird der Metadatenwert dem vorhandenen **[!UICONTROL Nachrichten-Fe
 
 >[!NOTE]
 >
->Weitere Informationen zu Datensätzen finden [&#x200B; in diesem Abschnitt](../../data/get-started-datasets.md).
+>Weitere Informationen zu Datensätzen finden [ in diesem Abschnitt](../../data/get-started-datasets.md).
 
 **Einschränkung**
 

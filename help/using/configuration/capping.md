@@ -8,8 +8,8 @@ role: Developer
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 100%
 
@@ -44,6 +44,7 @@ Darüber hinaus steht Ihnen [hier](https://github.com/AdobeDocs/JourneyAPI/blob/
 Diese Sammlung wurde eingerichtet, um die Postman-Variablensammlung freizugeben, die über __[Integrationen der Adobe I/O-Konsole](https://console.adobe.io/integrations) > Testen > Für Postman herunterladen__ generiert wurde. Dadurch wird eine Postman-Umgebungsdatei mit den ausgewählten Integrationswerten erzeugt.
 
 Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzufügen: `{JO_HOST}`, `{BASE_PATH}` und `{SANDBOX_NAME}`.
+
 * `{JO_HOST}`: [!DNL Journey Optimizer]-Gateway-URL.
 * `{BASE_PATH}` : Einstiegspunkt für die API.
 * `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de){target="_blank"}.
@@ -182,6 +183,7 @@ Zu verwendende API-Aufrufe:
 >Nach dem Aktualisieren einer bereits bereitgestellten Konfiguration ist eine erneute Bereitstellung erforderlich.
 
 Zu verwendende API-Aufrufe:
+
 1. **`list`**: Ruft vorhandene Konfigurationen ab.
 1. **`get`**: Ruft Details zu einer bestimmten Konfiguration ab.
 1. **`update`**: Ändert die Konfiguration.

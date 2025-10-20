@@ -5,14 +5,14 @@ title: Verwenden von Ausdrucksfragmenten
 description: Erfahren Sie, wie Sie im Personalisierungseditor von  [!DNL Journey Optimizer]  Ausdrucksfragmente verwenden können.
 feature: Personalization, Fragments
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -34,8 +34,8 @@ Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen
 
 1. Öffnen Sie den [Personalisierungseditor](personalization-build-expressions.md) und wählen Sie die Schaltfläche **[!UICONTROL Fragmente]** im linken Bereich aus.
 
-   In der Liste werden alle Ausdrucksfragmente angezeigt, die in der aktuellen Sandbox als Fragmente erstellt oder gespeichert wurden. [Erfahren Sie, wie Sie Fragmente erstellen](../content-management/create-fragments.md)
-Sie sind nach Erstellungsdatum sortiert: Kürzlich hinzugefügte Ausdrucksfragmente werden in der Liste zuerst angezeigt.
+   In der Liste werden alle Ausdrucksfragmente angezeigt, die in der aktuellen Sandbox als Fragmente erstellt oder gespeichert wurden. [Informationen zum Erstellen von Fragmenten](../content-management/create-fragments.md)
+Sie werden nach Erstellungsdatum sortiert, wobei die zuletzt hinzugefügten Ausdrucksfragmente in der Liste zuerst angezeigt werden.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -83,21 +83,21 @@ Diese Funktion kann beispielsweise verwendet werden, um Tracking-Parameter Ihrer
 
 Folgende Anwendungsfälle sind möglich:
 
-1. **Verwenden von Eingabevariablen in einem Fragment.**
+1. **Verwenden Sie Eingabevariablen in einem Fragment.**
 
-   Wenn ein Fragment in einem Campaign-/Journey-Aktionsinhalt verwendet wird, kann es Variablen nutzen, die außerhalb des Fragments deklariert wurden. Es folgt ein Beispiel:
+   Wenn ein Fragment im Inhalt einer Kampagnen-/Journey-Aktion verwendet wird, kann es Variablen nutzen, die außerhalb des Fragments deklariert wurden. Es folgt ein Beispiel:
 
    ![](../personalization/assets/variable-in-a-fragment.png)
 
    Oben sehen Sie, dass die Variable `utm_content` im Kampagneninhalt deklariert ist. Wenn das Fragment **Hero block** verwendet wird, wird ein Link angezeigt, an den der Parameterwert `utm_content` angehängt wird. Das Ergebnis lautet: `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping`.
 
-1. **Verwenden von Ausgabevariablen aus einem Fragment.**
+1. **Verwenden Sie Ausgabevariablen aus einem Fragment.**
 
    In einem Fragment berechnete oder definierte Variablen können in Ihren Inhalten verwendet werden. Im folgenden Beispiel deklariert ein Fragment **F1** einen Variablensatz:
 
    ![](../personalization/assets/personalize-with-variables.png)
 
-   In einem E-Mail-Inhalt können Sie die folgende Personalisierung vornehmen:
+   Ein E-Mail-Inhalt kann die folgende Personalisierung aufweisen:
 
    ![](../personalization/assets/use-fragment-variable.png)
 

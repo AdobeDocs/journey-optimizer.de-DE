@@ -5,11 +5,11 @@ title: Konfigurieren einer benutzerdefinierten Aktion
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Aktion konfigurieren können
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1829'
 ht-degree: 92%

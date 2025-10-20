@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '2635'
 ht-degree: 100%
@@ -232,7 +232,7 @@ Wenn Sie eine Ausführung aktivieren, werden automatisch mehrere Zielgruppen ers
 
 * Wenn Sie die erste Ausführung einer Phase aktivieren:
 
-   * Es wird eine [Zielgruppe](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de){target="_blank"} für die ausgeschlossenen Kampagnenzielgruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
+   * Es wird eine [Zielgruppe](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de){target="_blank"} für die ausgeschlossenen Kampagnenzielgruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
 
    * Eine Zielgruppe wird für die ausgeschlossenen Domain-Gruppen (sofern vorhanden) mit folgender Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 

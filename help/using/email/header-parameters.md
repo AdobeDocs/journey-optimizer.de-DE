@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 100%
@@ -35,6 +35,7 @@ Geben Sie beim Konfigurieren einer neuen [E-Mail-Kanalkonfiguration](email-setti
 >[!NOTE]
 >
 >Die Adressen unter **[!UICONTROL Präfix für Absender-E-Mail]** und **[!UICONTROL Präfix für Fehler-E-Mail]** verwenden die aktuell ausgewählte [delegierte Subdomain](../configuration/about-subdomain-delegation.md) zum Senden der E-Mail. Gehen Sie wie folgt vor, wenn die delegierte Subdomain beispielsweise *marketing.luma.com* lautet:
+>
 >* Geben Sie *contact* als **[!UICONTROL Präfix für Absender-E-Mail]** ein – die Absender-E-Mail lautet *contact@marketing.luma.com*.
 >* Geben Sie *error* als **[!UICONTROL Präfix für Fehler-E-Mail]** ein – die Fehleradresse lautet *error@marketing.luma.com*.
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Subdomain, PTR, Einträge, DNS, Domain, E-Mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
@@ -153,6 +153,7 @@ Wenn der Validierungsprozess erfolgreich war, wird die neue Subdomain automatisc
 Wenn der Validierungsprozess fehlschlägt, wird der ältere PTR-Eintrag angezeigt. Die gültige Subdomain, die zuvor mit der IP-Adresse verknüpft war, bleibt unverändert.
 
 Folgende Arten von Fehlern sind bei der Aktualisierung möglich:
+
 * Erstellung eines neuen Weiterleitungs-DNS für den PTR-Eintrag schlägt fehl
 * Aktualisieren des Eintrags schlägt fehl
 * Erneute Integration der Affinitäten schlägt fehl

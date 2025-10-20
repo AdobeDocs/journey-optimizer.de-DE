@@ -4,11 +4,11 @@ product: journey optimizer
 title: Informationen zu Time-to-Live(TTL)-Limits für Datensätze
 description: Time-to-Live-Limits für Datensätze in  [!DNL Adobe Journey Optimizer]
 feature: Data Model, Datasets, Data Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: fbd0280d293cef3548b48c2992b4f9f2793a7e1f
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 100%

@@ -5,10 +5,10 @@ title: Konfigurieren der Ereigniserfassung
 description: Erfahren Sie, wie Sie Ihr Angebotsschema zur Erfassung von Ereignissen konfigurieren
 badge: label="Legacy" type="Informative"
 feature: Ranking, Datasets, Decision Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%

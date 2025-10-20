@@ -8,7 +8,7 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 100%
@@ -60,6 +60,7 @@ Das Modell umfasst zwei Phasen:
 * In der Phase der **Online-Schlussfolgerung** werden die Angebote auf der Grundlage der vom Modell in Echtzeit generierten Punktzahlen eingestuft. Im Gegensatz zu herkömmlichen kollaborativen Filtertechniken, bei denen es schwierig ist, Merkmale für Benutzende und Angebote einzubeziehen, ist die personalisierte Optimierung eine auf Deep Learning basierende Empfehlungsmethode, die in der Lage ist, komplexe und nicht-lineare Interaktionsmuster von Merkmalen einzubeziehen und zu lernen.
 
 Hier ist ein vereinfachtes Beispiel, um die Grundidee der personalisierten Optimierung zu veranschaulichen. Nehmen wir an, wir haben einen Datensatz, in dem historische Interaktionen zwischen Benutzenden und Angeboten gespeichert sind, wie in Abbildung 1 dargestellt. Es gibt:
+
 * Zwei Angebote, offer_1 und offer_2,
 * Zwei Funktionen, Feature_1 und Feature_2,
 * Eine Spalte mit der Reaktion.

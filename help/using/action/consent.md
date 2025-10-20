@@ -5,11 +5,11 @@ title: Arbeiten mit Einverständnisrichtlinien
 description: Informationen zur Arbeit mit Einverständnisrichtlinien in Adobe Experience Platform
 feature: Journeys, Actions, Custom Actions, Privacy, Consent Management
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: Richtlinien, Governance, Platform, Healthcare Shield, Einverständnis
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 93%
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 # Arbeiten mit Einverständnisrichtlinien {#consent-management}
 
-Ihre Daten können Nutzungsbeschränkungen unterliegen, die von Ihrer Organisation oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie dafür sorgen, dass Ihre Datenoperationen in Journey Optimizer mit den [Datennutzungsrichtlinien“ konform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de){target="_blank"}. Diese Richtlinien sind Regeln von Adobe Experience Platform, die festlegen, welche Marketing-Aktionen Sie für Daten ausführen dürfen.
+Ihre Daten können Nutzungsbeschränkungen unterliegen, die von Ihrer Organisation oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie dafür sorgen, dass Ihre Datenoperationen in Journey Optimizer mit den [Datennutzungsrichtlinien“ konform ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de){target="_blank"}. Diese Richtlinien sind Regeln von Adobe Experience Platform, die festlegen, welche Marketing-Aktionen Sie für Daten ausführen dürfen.
 
 Wenn sich ein Profil vom Erhalt von Nachrichten von Ihnen abgemeldet hat, wird das entsprechende Profil standardmäßig von nachfolgenden Sendungen ausgeschlossen. Sie können eine **Einverständnisrichtlinie** erstellen, die diese Standardlogik überschreibt. Beispielsweise können Sie Einverständnisrichtlinien in Experience Platform erstellen, um Kundinnen und Kunden auszuschließen, die dem Empfang von Nachrichten für einen bestimmten Kanal nicht zugestimmt haben. Wenn keine benutzerdefinierte Richtlinie vorhanden ist, gilt die Standardrichtlinie.
 
@@ -41,7 +41,7 @@ Die wichtigsten Schritte zum Anwenden von Einverständnisrichtlinien sind folgen
 
 ## Verwenden von Einverständnisrichtlinien durch Kanalkonfigurationen {#surface-marketing-actions}
 
-In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen ([&#x200B; aufgelisteten) Werte &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"}.
+In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen ([ aufgelisteten) Werte ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"}.
 
 Um den Wert des Feldes „Einverständnis“ zu ändern, können Sie eine benutzerdefinierte Einverständnisrichtlinie erstellen, in der Sie eine Marketing-Aktion und die Bedingungen definieren, unter denen diese Aktion ausgeführt wird. [Erfahren Sie mehr über Marketing-Aktionen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#marketing-actions){target="_blank"}
 

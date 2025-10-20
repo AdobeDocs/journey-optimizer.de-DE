@@ -3,12 +3,12 @@ product: journey optimizer
 title: inAudience
 description: Erfahren Sie mehr über die Funktion „inAudience“.
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: inAudience, Funktion, Ausdruck, Journey
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 100%

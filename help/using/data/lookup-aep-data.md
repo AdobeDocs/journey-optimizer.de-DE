@@ -5,15 +5,15 @@ title: Verwenden von Adobe Experience Platform-Daten
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in  [!DNL Journey Optimizer] -Funktionen zur Entscheidungsfindung und Personalisierung verwenden.
 feature: Personalization, Rules
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 79%
+ht-degree: 97%
 
 ---
 
@@ -32,22 +32,22 @@ Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform mit Funkti
 
 Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinien durch:
 
-* **Keine personenbezogenen Daten in Datensätzen** - Datensätze, die für die Suche aktiviert sind, sollten keine personenbezogenen Daten enthalten.
+* **Keine personenbezogenen Daten in Datensätzen**: Für die Suche aktivierte Datensätze sollten keine personenbezogenen Daten (PII) enthalten.
 
-* &#x200B;
-   * **Löschrisiko** - Datensätze, die in der Personalisierung verwendet werden, sind nicht vor dem Löschen geschützt. Sie müssen verfolgen, welche Datensätze verwendet werden, um sicherzustellen, dass sie nicht entfernt werden.
+* 
+   * **Löschrisiko**: In der Personalisierung verwendete Datensätze sind nicht vor dem Löschen geschützt. Sie müssen verfolgen, welche Datensätze verwendet werden, um sicherzustellen, dass sie nicht entfernt werden.
 
-* **Schematyp** - Datensätze müssen mit einem Schema verknüpft sein, das **NICHT** vom Typ Profil oder Ereignis ist.
+* **Schematyp**: Datensätze müssen mit einem Schema verknüpft sein, das **NICHT** vom Typ „Profil“ oder „Ereignis“ ist.
 
-* **Lassen Sie den Umschalter für die Suche aktiviert** - Vermeiden Sie es, Datensätze wiederholt zu aktivieren und zu deaktivieren. Dies kann zu unerwartetem Indizierungsverhalten führen. Es empfiehlt sich, den Datensatz so lange aktiviert zu lassen, wie Sie ihn für Suchen verwenden möchten.
+* **Ständig aktivierte Suchoption**: Vermeiden Sie die wiederholte Aktivierung und Deaktivierung von Datensätzen. Dies kann zu unerwartetem Indizierungsverhalten führen. Es empfiehlt sich, den Datensatz so lange aktiviert zu lassen, wie Sie ihn für Suchen verwenden möchten.
 
 * **Löschen eines Batches von Daten** - Wenn Sie einen Batch von Daten aus Ihrem Datensatz entfernen, werden alle übereinstimmenden Schlüssel vollständig aus dem Lookup-Service entfernt. Beispiel:
 
-  **Batch 1**: SKU1, SKU2, SKU3\
-  **Batch 2**: SKU1, SKU2, SKU3, SKU4, SKU5, SKU6\
-  **Batch 3**: SKU7, SKU8, SKU9, SKU10
+  **Batch 1**: Sku1, Sku2, Sku3\
+  **Batch 2**: Sku1, Sku2, Sku3, Sku4, Sku5, Sku6\
+  **Batch 3**: Sku7, Sku8, Sku9, Sku10
 
-  Wenn Sie **Batch 1** löschen, werden SKU1, SKU2 und SKU3 aus dem Suchspeicher entfernt. Die resultierenden Lookup-Daten enthalten dann: SKU4, SKU5, SKU6, SKU7, SKU8, SKU9, SKU10.
+  Wenn Sie **Batch 1** löschen, werden Sku1, Sku2 und Sku3 aus dem Suchspeicher entfernt. Die resultierenden Suchdaten enthalten dann: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
 
 ### Berechtigung für den Suchdienst
 

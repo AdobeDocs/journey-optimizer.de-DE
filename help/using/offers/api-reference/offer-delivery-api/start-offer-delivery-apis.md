@@ -3,10 +3,10 @@ title: Erste Schritte mit APIs für den Angebotsversand
 description: Erfahren Sie mehr über die APIs, die für den Versand personalisierter Angebote verfügbar sind.
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%
@@ -20,6 +20,7 @@ Sie können Angebote entweder mithilfe der **Decisioning**- oder **Edge Decision
 Auf dieser Seite finden Sie Informationen zu spezifischen Funktionen, die mit den **Decisioning**- und **Edge Decisioning**-APIs verfügbar sind. Zwar ermöglichen es Ihnen beide, Ihren Kunden Angebote zu unterbreiten, wir empfehlen jedoch, für eingehende Anwendungsfälle möglichst die **Edge Decisioning**-API zu verwenden, um auf Ihrer Plattform eine bessere Latenz und besseren Durchsatz sicherzustellen.
 
 Weiterführende Informationen zur Verwendung der APIs finden Sie in diesen Abschnitten:
+
 * [Decisioning-API](decisioning-api.md)
 * [Edge Decisioning-API](edge-decisioning-api.md)
 * [Batch Decisioning-API](batch-decisioning-api.md)

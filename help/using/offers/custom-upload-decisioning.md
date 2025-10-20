@@ -6,10 +6,10 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -23,14 +23,15 @@ Daten aus benutzerdefinierten Upload-Zielgruppen können beim Entscheidungs-Mana
 2. Personalisieren von Inhalten in Angebotsdarstellungen
 
 Weiterführende Informationen zu benutzerdefinierten Upload-Zielgruppen finden Sie in den folgenden Abschnitten:
+
 * [Erste Schritte mit Zielgruppen und Journey Optimizer](../audience/about-audiences.md)
 * [Importieren einer Zielgruppe in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Wichtige Informationen {#must-read}
 
 * Diese Funktion wird nur beim **Entscheidungs-Management** unterstützt, nicht bei der Entscheidungsfindung (zuvor „Erlebnis-Entscheidung“).
-* Sie ist ausschließlich über **Decisioning-API(Hub)**-Anfragen verfügbar und wird nicht vom **Edge Decisioning-API** oder **Batch-Entscheidungen** unterstützt.
- 
+* Sie ist ausschließlich über **Decisioning-API (Hub)**-Anfragen verfügbar und wird von **Edge Decisioning-** oder **Batch Decisioning** nicht unterstützt.
+
 ## Verwenden einer benutzerdefinierten Upload-Zielgruppe als Eignungskriterium {#eligibilty}
 
 Sie können eine benutzerdefinierte Upload-Zielgruppe als Eignungskriterium sowohl auf Angebots- als auch auf Entscheidungsebene verwenden. Nach dem Hinzufügen können Angebote oder Sammlungen von Angeboten anhand dieses Kriteriums von der Eignung ausgeschlossen werden. Hier erfahren Sie, wo Sie benutzerdefinierte Upload-Zielgruppen nutzen können, um die Eignung von Angeboten und Entscheidungen einzuschränken:
