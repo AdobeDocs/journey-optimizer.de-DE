@@ -9,9 +9,9 @@ level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Die grundlegende Struktur einer Endpunktkonfiguration sieht wie folgt aus:
 >
 >Der maximale Wert, der festgelegt werden kann, ist 400. Wenn nichts angegeben ist, kann das System abhängig von seiner dynamischen Skalierung bis zu mehreren tausend Verbindungen öffnen.
 >
->Wenn bei der Bereitstellung der Begrenzungskonfiguration kein `maxHttpConnections` festgelegt wurde, wird der bereitgestellten Konfiguration ein `maxHttpConnections = -1` hinzugefügt, und Journey Optimizer verwendet den standardmäßigen Systemwert.
+>Wenn bei der Bereitstellung der Begrenzungskonfiguration kein `maxHttpConnections`-Wert angegeben wurde, wird der bereitgestellten Konfiguration der Standard `maxHttpConnections = -1` hinzugefügt, was bedeutet, dass Journey Optimizer den Standardwert des Systems verwendet.
 
 Beispiel:
 
@@ -112,7 +112,7 @@ Mögliche Fehler sind:
 
 * **ERR_ENDPOINTCONFIG_100**: capping config: missing or invalid url
 * **ERR_ENDPOINTCONFIG_101**: capping config: malformed url
-* **ERR_ENDPOINTCONFIG_102**: Begrenzungskonfiguration: fehlerhafte URL: Platzhalter in URL im Host nicht zulässig:port
+* **ERR_ENDPOINTCONFIG_102**: capping config: malformed url: wildchar in url not allowed in host:port
 * **ERR_ENDPOINTCONFIG_103**: capping config: missing HTTP methods
 * **ERR_ENDPOINTCONFIG_104**: capping config: no call rating defined
 * **ERR_ENDPOINTCONFIG_107**: capping config: invalid max calls count (maxCallsCount)
@@ -142,7 +142,7 @@ Zu verwendende API-Aufrufe:
 
 +++
 
-+++Aktualisieren und Bereitstellen einer Begrenzungskonfiguration (noch nicht bereitgestellt)
++++Aktualisieren und Bereitstellen einer (noch nicht bereitgestellten) Begrenzungskonfiguration
 
 Zu verwendende API-Aufrufe:
 

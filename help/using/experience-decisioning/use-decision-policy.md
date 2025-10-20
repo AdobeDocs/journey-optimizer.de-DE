@@ -7,9 +7,9 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '945'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Nachdem eine Entscheidungsrichtlinie erstellt wurde, können die Richtlinie und 
 
 >[!TAB Code-basiertes Erlebnis]
 
-1. Öffnen Sie den Personalisierungseditor und rufen Sie das Menü **[!UICONTROL Entscheidungsrichtlinien]** auf.
+1. Öffnen Sie den Personalisierungseditor und rufen Sie das Menü **[!UICONTROL Entscheidungsrichtlinie]** auf.
 
-1. Wählen Sie **[!UICONTROL Richtlinie einfügen]**, um den Code hinzuzufügen, der der Entscheidungsrichtlinie entspricht.
+1. Klicken Sie auf **[!UICONTROL Richtlinie einfügen]**, um den Code hinzuzufügen, der der Entscheidungsrichtlinie entspricht. 
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -39,7 +39,7 @@ Nachdem eine Entscheidungsrichtlinie erstellt wurde, können die Richtlinie und 
 
 1. Öffnen Sie den Personalisierungseditor und rufen Sie das Menü **[!UICONTROL Entscheidungsrichtlinie]** auf.
 
-1. Wählen Sie **[!UICONTROL Syntax einfügen]**, um den Code hinzuzufügen, der der Entscheidungsrichtlinie entspricht.
+1. Klicken Sie auf **[!UICONTROL Syntax einfügen]**, um den Code hinzuzufügen, der der Entscheidungsrichtlinie entspricht. 
 
    ![](assets/decision-policy-add.png)
 
@@ -47,7 +47,7 @@ Nachdem eine Entscheidungsrichtlinie erstellt wurde, können die Richtlinie und 
    >
    >Wenn die Schaltfläche zum Einfügen von Code nicht angezeigt wird, wurde möglicherweise bereits eine Entscheidungsrichtlinie für die übergeordnete Komponente konfiguriert.
 
-1. Wenn der Komponente zuvor keine Platzierung zugeordnet wurde, wählen Sie eine Platzierung aus der Liste aus und klicken Sie auf **[!UICONTROL Zuweisen]**.
+1. Wenn der Komponente noch keine Platzierung zugeordnet wurde, wählen Sie eine Platzierung aus der Liste aus und klicken Sie auf **[!UICONTROL Zuweisen]**.
 
    ![](assets/decision-policy-placement.png)
 
@@ -63,10 +63,10 @@ Jetzt können Sie alle gewünschten Entscheidungsattribute zu diesem Code hinzuf
 
 >[!NOTE]
 >
->Für die Nachverfolgung von Entscheidungsrichtlinienelementen muss das `trackingToken`-Attribut wie folgt für Inhalte von Entscheidungsrichtlinien hinzugefügt werden:
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>Für das Tracking von Entscheidungsrichtlinienelementen muss das Attribut `trackingToken` wie folgt dem Inhalt der Entscheidungsrichtlinie hinzugefügt werden:
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
-Um ein Attribut hinzuzufügen, klicken Sie auf das Symbol &quot;+&quot; daneben. Sie können beliebig viele Attribute zum Code hinzufügen.
+Klicken Sie auf das Symbol „+“ neben einem Attribut, um es hinzuzufügen. Sie können beliebig viele Attribute zum Code hinzufügen.
 
 ![](assets/decision-code-based-add-decision-attributes.png)
 
@@ -78,13 +78,13 @@ Sie können auch jedes beliebige Attribut hinzufügen, das im Personalisierungse
 
 ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Verwenden von Fragmenten (Code-basiertes Erlebnis) {#fragments}
+## Nutzen von Fragmenten (Code-basiertes Erlebnis) {#fragments}
 
 Wenn Ihre Entscheidungsrichtlinie Entscheidungselemente einschließlich Fragmenten enthält, können Sie diese Fragmente im Entscheidungsrichtlinien-Code nutzen. [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist derzeit nur für den Code-basierten Erlebniskanal und für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+>Diese Funktion ist derzeit nur für den Code-basierten Erlebniskanal und für eine ausgewählte Anzahl von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Angenommen, Sie möchten verschiedene Inhalte für mehrere Mobilgerätemodelle anzeigen. Stellen Sie sicher, dass Sie Fragmente, die diesen Geräten entsprechen, zu dem Entscheidungselement hinzugefügt haben, das Sie in der Entscheidungsrichtlinie verwenden. [Weitere Informationen](items.md#attributes).
 
@@ -129,21 +129,21 @@ Die Fragment-ID und der Referenzschlüssel werden später im Abschnitt **[!UICON
 >
 >Wenn der Fragmentschlüssel falsch oder der Fragmentinhalt ungültig ist, schlägt das Rendern fehl und verursacht einen Fehler im Edge-Aufruf.
 
-### Schutzmechanismen bei der Verwendung von Fragmenten {#fragments-guardrails}
+### Leitlinien bei der Verwendung von Fragmenten {#fragments-guardrails}
 
 **Entscheidungselement- und Kontextattribute**
 
-Entscheidungselement- und Kontextattribute werden in [!DNL Journey Optimizer] Fragmenten nicht standardmäßig unterstützt. Sie können jedoch stattdessen globale Variablen verwenden, wie unten beschrieben.
+Entscheidungselement- und Kontextattribute werden in [!DNL Journey Optimizer]-Fragmenten nicht standardmäßig unterstützt. Sie können jedoch stattdessen globale Variablen verwenden, wie unten beschrieben.
 
 Angenommen, Sie möchten die Variable *sport* in Ihrem Fragment verwenden.
 
-1. Verweisen Sie auf diese Variable im Fragment, z. B.:
+1. Verweisen Sie auf diese Variable im Fragment, z. B.:
 
    ```
    Elevate your practice with new {{sport}} gear!
    ```
 
-1. Definieren Sie die Variable mit der Funktion **Let** im Block Entscheidungsrichtlinie . Im folgenden Beispiel wird *sport* mit dem Entscheidungsattribut definiert:
+1. Definieren Sie die Variable mit der Funktion **Let** im Entscheidungsrichtlinienblock. Im folgenden Beispiel wird *sport* mit dem Entscheidungsattribut definiert:
 
    ```
    {#each decisionPolicy.13e1d23d-b8a7-4f71-a32e-d833c51361e0.items as |item|}}
@@ -152,13 +152,13 @@ Angenommen, Sie möchten die Variable *sport* in Ihrem Fragment verwenden.
    {{/each}}
    ```
 
-**Inhaltsvalidierung von Entscheidungsfragmenten**
+**Inhaltsvalidierung von Entscheidungselementfragmenten**
 
 * Aufgrund der Dynamik dieser Fragmente wird bei Verwendung in einer Kampagne die Nachrichtenvalidierung während der Erstellung des Kampagneninhalts für Fragmente übersprungen, auf die in Entscheidungselementen verwiesen wird.
 
 * Die Validierung des Fragmentinhalts erfolgt nur während der Erstellung und Veröffentlichung des Fragments.
 
-* Im Fall von JSON-Fragmenten ist die Gültigkeit des JSON-Objekts nicht sichergestellt. Stellen Sie sicher, dass der Ausdrucksfragmentinhalt ein gültiges JSON ist, damit er in Entscheidungselementen verwendet werden kann.
+* Im Fall von JSON-Fragmenten wird die Gültigkeit des JSON-Objekts nicht sichergestellt. Stellen Sie sicher, dass der Ausdrucksfragmentinhalt ein gültiger JSON-Inhalt ist, damit er in Entscheidungselementen verwendet werden kann.
 
 Zur Laufzeit wird der Kampagneninhalt (einschließlich des Fragmentinhalts aus Entscheidungselementen) validiert. Im Falle eines Validierungsfehlers wird die Kampagne nicht gerendert.
 
@@ -174,7 +174,7 @@ Sobald Ihre Entwickelnden bei Code-basierten Erlebnissen einen API- oder SDK-Auf
 
 >[!NOTE]
 >
->Derzeit können Sie in einer Kampagne oder Journey mit [Code-basiertem Erlebnis](../code-based/create-code-based.md) keine Inhalte über die Benutzeroberfläche mithilfe von Entscheidungen simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt &#x200B;](../code-based/code-based-decisioning-implementations.md).
+>Derzeit können Sie in einer Kampagne oder Journey mit [Code-basiertem Erlebnis](../code-based/create-code-based.md) keine Inhalte über die Benutzeroberfläche mithilfe von Entscheidungen simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt ](../code-based/code-based-decisioning-implementations.md).
 
 Um zu sehen, wie Ihre Entscheidungen funktionieren, können Sie benutzerdefinierte [Reporting-Dashboards für Customer Journey Analytics](cja-reporting.md) erstellen.
 

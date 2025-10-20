@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie zusätzliche Kennungen in Journeys verwenden.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1381'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 98%
    * Die zusätzliche Kennung ist deaktiviert, wenn Sie ein Geschäftsereignis verwenden.
    * Die zusätzliche Kennung muss ein Feld aus dem Profil sein (d. h. kein Ereignis-/Kontextfeld).
    * Bei Journeys vom Typ „Zielgruppe lesen“, die zusätzliche Kennungen nutzen, ist die Leserate der Aktivität „Zielgruppe lesen“ für jede Journey-Instanz auf maximal 500 Profile pro Sekunde beschränkt.
-   * Bei Verwendung von Journey-Dateien mit zusätzlichen IDs vom Typ „Zielgruppe lesen“ werden nur Unified Profile Service-Zielgruppen unterstützt.
+   * Bei Verwendung von Journeys des Typs „Zielgruppe lesen“ mit zusätzlichen IDs werden nur Zielgruppen des einheitlichen Profildienstes unterstützt.
 
 ## Verhalten von Ausstiegskriterien mit zusätzlichen Kennungen {#exit-criteria}
 
@@ -246,4 +246,4 @@ In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attrib
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

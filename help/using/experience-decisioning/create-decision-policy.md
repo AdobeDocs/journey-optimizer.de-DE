@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1721'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -31,23 +31,23 @@ ht-degree: 70%
 >abstract="Die Abfolge der Auswahlstrategie bestimmt, welche Strategie zuerst bewertet wird. Es ist mindestens eine Strategie erforderlich. Entscheidungspunkte in kombinierten Strategien werden gemeinsam bewertet."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Erstellen von Strategien"
 
-Um Ihren Kunden das beste dynamische Angebot und Erlebnis zu bieten, fügen Sie Ihrem Inhalt in einer Kampagne oder auf einer Journey eine Entscheidungsrichtlinie hinzu. Konfigurieren Sie dann die zurückzugebenden Elemente und die zu verwendende Auswahlstrategie. Gehen Sie dazu wie folgt vor:
+Um Ihren Kundinnen und Kunden das beste dynamische Angebot und Erlebnis zu bieten, fügen Sie Ihrem Inhalt in einer Kampagne oder auf einer Journey eine Entscheidungsrichtlinie hinzu. Konfigurieren Sie dann die zurückzugebenden Elemente und die zu verwendende Auswahlstrategie. Gehen Sie dazu wie folgt vor:
 
-1. [Entscheidungsrichtlinie hinzufügen](#add) - Vom Personalization-Editor oder der E-Mail-Designer.
-1. [Entscheidungsrichtlinie konfigurieren](#configurre) - Fügen Sie einen Namen hinzu und geben Sie die Anzahl der zurückzugebenden Elemente an.
-1. [Einrichten einer Strategiesequenz](#strategy) - Wählen Sie die Elemente aus, die mit der Entscheidungsrichtlinie zurückgegeben werden sollen.
-1. [Fallback-Angebote auswählen](#fallback) (optional) - Elemente auswählen, die angezeigt werden sollen, wenn keine Elemente oder Auswahlstrategien qualifiziert sind.
-1. [Überprüfen und &#x200B;](#review): Die Auswahlstrategie
+1. [Hinzufügen einer Entscheidungsrichtlinie](#add): Vom Personalisierungseditor oder E-Mail-Designer.
+1. [Konfigurieren der Entscheidungsrichtlinie](#configurre): Fügen Sie einen Namen hinzu und geben Sie die Anzahl der zurückzugebenden Elemente an.
+1. [Einrichten einer Strategiesequenz](#strategy): Wählen Sie die Elemente aus, die mit der Entscheidungsrichtlinie zurückgegeben werden sollen.
+1. [Auswählen von Fallback-Angeboten](#fallback) (optional): Wählen Sie Elemente aus, die angezeigt werden sollen, wenn keine Elemente oder Auswahlstrategien qualifiziert sind.
+1. [Überprüfen und Speichern](#review) der Auswahlstrategie
 
 >[!AVAILABILITY]
 >
->Derzeit stehen Entscheidungsrichtlinien für den Kanal **Code-basiertes Erlebnis** allen Kunden zur Verfügung. Sie sind für den Kanal **E-Mail** in begrenztem Umfang verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+>Derzeit stehen Entscheidungsrichtlinien allen Kundinnen und Kunden für den Kanal **Code-basiertes Erlebnis** zur Verfügung. Sie sind für den Kanal **E-Mail** eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
-## Entscheidungsrichtlinie hinzufügen {#add}
+## Hinzufügen einer Entscheidungsrichtlinie {#add}
 
-1. Öffnen Sie eine Journey oder Kampagne, wählen Sie [Kanalaktion](../building-journeys/journeys-message.md) und bearbeiten Sie den Inhalt Ihrer Nachricht.
+1. Öffnen Sie eine Journey oder Kampagne, wählen Sie eine [Kanalaktion](../building-journeys/journeys-message.md) aus und bearbeiten Sie den Inhalt Ihrer Nachricht.
 
-1. Schalten Sie für E-Mails die Option **[!UICONTROL Entscheidung aktivieren]** um.
+1. Aktivieren Sie für E-Mails die Option **[!UICONTROL Entscheidungsfindung aktivieren]**.
 
    ![](assets/decision-policy-enable.png)
 
@@ -59,7 +59,7 @@ Um Ihren Kunden das beste dynamische Angebot und Erlebnis zu bieten, fügen Sie 
 
 1. Öffnen Sie den **Personalisierungseditor**, um die Entscheidungsrichtlinie zu erstellen. Für E-Mails können Sie auch ein dediziertes Menü im **E-Mail-Designer** verwenden, um eine Entscheidungsrichtlinie zu erstellen. Erweitern Sie die folgenden Abschnitte, um die beiden Methoden zu erkunden.
 
-   +++Erstellen einer Entscheidungsrichtlinie mit dem Personalization-Editor
+   +++Erstellen einer Entscheidungsrichtlinie mit dem Personalisierungseditor
 
    1. Öffnen Sie den Personalisierungseditor und wählen Sie **[!UICONTROL Entscheidungsrichtlinie]** aus.
    1. Klicken Sie auf die Schaltfläche **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**, um eine neue Richtlinie zu erstellen.
@@ -68,17 +68,17 @@ Um Ihren Kunden das beste dynamische Angebot und Erlebnis zu bieten, fügen Sie 
 
    +++
 
-   +++Erstellen einer Entscheidungsrichtlinie aus der E-Mail-Designer
+   +++Erstellen einer Entscheidungsrichtlinie im E-Mail-Designer
 
-   Wählen Sie eine Komponente in Ihrem E-Mail-Inhalt aus, klicken Sie auf das **[!UICONTROL Decisioning]**-Symbol in der Symbolleiste oder im Eigenschaftenbereich und wählen Sie dann **[!UICONTROL Neue Richtlinie hinzufügen]** aus.
+   Wählen Sie eine Komponente aus, klicken Sie auf das Symbol **[!UICONTROL Entscheidungsfindung]** in der Symbolleiste oder im Eigenschaftenbereich und wählen Sie dann **[!UICONTROL Neue Richtlinie hinzufügen]** aus.
 
-   Mit **[!UICONTROL Entscheidungsausgabe wiederverwenden]** können Sie eine Entscheidungsrichtlinie wiederverwenden, die bereits in dieser E-Mail erstellt wurde.
+   Wählen Sie **[!UICONTROL Entscheidungsausgabe wiederverwenden]** aus, um eine Entscheidungsrichtlinie wiederzuverwenden, die bereits in dieser E-Mail erstellt wurde.
 
    ![](assets/decision-policy-email-designer.png)
 
    +++
 
-## Entscheidungsrichtlinie konfigurieren {#configure}
+## Konfigurieren der Entscheidungsrichtlinie {#configure}
 
 Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, wird der Konfigurationsbildschirm für Entscheidungsrichtlinien geöffnet.
 
@@ -88,11 +88,11 @@ Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben
 
    ![](assets/decision-code-based-details.png)
 
-   Für den E-Mail **[!UICONTROL Kanal ist das Feld]** Anzahl von Elementen“ standardmäßig auf 1 festgelegt und kann nur geändert werden, wenn die Entscheidungsrichtlinie innerhalb einer „Wiederholungsraster **[!UICONTROL -Komponente hinzugefügt]**. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
+   Für den E-Mail-Kanal ist das Feld **[!UICONTROL Anzahl von Elementen]** standardmäßig auf 1 festgelegt und kann nur geändert werden, wenn die Entscheidungsrichtlinie von innerhalb einer Komponente des Typs **[!UICONTROL Wiederholungsraster]** hinzugefügt wird. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
 
-   +++Zurückgeben mehrerer Entscheidungselemente in E-Mails mithilfe einer **[!UICONTROL Wiederholungsraster]**-Komponente
+   +++Zurückgeben mehrerer Entscheidungselemente in E-Mails mithilfe einer Komponente des Typs **[!UICONTROL Wiederholungsraster]**
 
-   1. Ziehen Sie eine **[!UICONTROL Raster wiederholen]**-Komponente in Ihre E-Mail und konfigurieren Sie sie mithilfe des Bereichs **[!UICONTROL Einstellungen]** wie gewünscht.
+   1. Ziehen Sie eine Komponente vom Typ **[!UICONTROL Wiederholungsraster]** in Ihre E-Mail und konfigurieren Sie sie wie gewünscht mithilfe des Bereichs **[!UICONTROL Einstellungen]**.
 
       ![](assets/decision-policy-repeat.png)
 
@@ -108,15 +108,15 @@ Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben
 
 ## Einrichten einer Strategiesequenz {#strategy}
 
-Im **[!UICONTROL Sequenz Strategie]** können Sie die Entscheidungselemente auswählen und Auswahlstrategien einrichten, die mit der Entscheidungsrichtlinie angezeigt werden.
+Im Bereich **[!UICONTROL Strategiesequenz]** können Sie die Entscheidungselemente und Auswahlstrategien auswählen, die mit der Entscheidungsrichtlinie angezeigt werden sollen.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]** und wählen Sie anschließend den Objekttyp aus, der in die Richtlinie aufgenommen werden soll:
 
    ![](assets/decision-code-based-strategy-sequence.png)
 
-   * **[!UICONTROL Auswahlstrategie]** - Entscheidungsstrategien nutzen Sammlungen, die mit Eignungsbegrenzungen und Ranking-Methoden verknüpft sind, um die anzuzeigenden Elemente zu bestimmen. Sie können eine oder mehrere vorhandene Auswahlstrategien auswählen oder eine neue mithilfe der Schaltfläche **[!UICONTROL Auswahlstrategie erstellen]** erstellen. [Informationen zum Erstellen von Auswahlstrategien](selection-strategies.md)
+   * **[!UICONTROL Auswahlstrategie]**: Entscheidungsstrategien nutzen Sammlungen, die mit Eignungsbegrenzungen verknüpft sind, und Rangfolgemethoden, um die anzuzeigenden Elemente zu bestimmen. Sie können eine vorhandene Auswahlstrategie auswählen oder mithilfe der Schaltfläche **[!UICONTROL Auswahlstrategie erstellen]** eine neue erstellen. [Informationen zum Erstellen von Auswahlstrategien](selection-strategies.md)
 
-   * **[!UICONTROL Entscheidungselement]** - Wählen Sie einzelne Entscheidungselemente aus, ohne eine Auswahlstrategie durchlaufen zu müssen. Sie können jeweils nur ein Entscheidungselement auswählen. Es werden alle für das Element festgelegten Eignungsbegrenzungen angewendet.
+   * **[!UICONTROL Entscheidungselement]**: Wählen Sie einzelne Entscheidungselemente aus, ohne eine Auswahlstrategie durchlaufen zu müssen. Sie können jeweils nur ein Entscheidungselement auswählen. Es werden alle für das Element festgelegten Eignungsbegrenzungen angewendet.
 
    >[!NOTE]
    >
@@ -203,9 +203,9 @@ Es können beliebige Elemente aus der Liste ausgewählt werden, die alle in der 
 >[!NOTE]
 > Fallbacks sind optional. Es können maximal so viele Elemente ausgewählt werden, wie angefordert wurden. Wenn es keine geeigneten gibt und kein Fallback festgelegt ist, wird nichts angezeigt.
 
-## Entscheidungsrichtlinie überprüfen und speichern {#review}
+## Überprüfen und Speichern der Entscheidungsrichtlinie {#review}
 
-Nachdem Sie eine Auswahlstrategie konfiguriert und Fallback-Angebote hinzugefügt haben, klicken Sie auf **[!UICONTROL Weiter]**, um Ihre Entscheidungsrichtlinie zu überprüfen und zu speichern, und klicken Sie dann auf **[!UICONTROL Erstellen]**, um die Richtlinienerstellung zu bestätigen.
+Nachdem Sie eine Auswahlstrategie konfiguriert und Fallback-Angebote hinzugefügt haben, klicken Sie auf **[!UICONTROL Weiter]**, um Ihre Entscheidungsrichtlinie zu überprüfen und zu speichern, und dann auf **[!UICONTROL Erstellen]**, um die Richtlinienerstellung zu bestätigen.
 
 Sie können eine Entscheidungsrichtlinie jederzeit mithilfe der Schaltfläche mit den Auslassungspunkten im Personalisierungseditor oder im Menü **[!UICONTROL Entscheidungsfindung]** im Bereich der Komponenteneigenschaften bearbeiten oder löschen.
 
@@ -221,15 +221,15 @@ Sie können eine Entscheidungsrichtlinie jederzeit mithilfe der Schaltfläche mi
 
 >[!ENDTABS]
 
-## Platzierung zuweisen (E-Mail) {#placement}
+## Zuweisen einer Platzierung (E-Mail) {#placement}
 
-Für E-Mails müssen Sie eine Platzierung für die Komponente definieren, die mit der Entscheidungsrichtlinie verknüpft ist. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Entscheidung]** im Bereich Komponenteneigenschaften und wählen Sie **[!UICONTROL Platzierung zuweisen]**. [Informationen zum Arbeiten mit Platzierungen](../experience-decisioning/placements.md)
+Für E-Mails müssen Sie eine Platzierung für die Komponente definieren, die mit der Entscheidungsrichtlinie verknüpft ist. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Entscheidungsfindung]** im Bereich mit Komponenteneigenschaften und wählen Sie **[!UICONTROL Platzierung zuweisen]** aus. [Informationen zum Arbeiten mit Platzierungen](../experience-decisioning/placements.md)
 
 ![](assets/decision-policy-rail.png)
 
 ## Nächste Schritte {#next-steps}
 
-Nachdem Sie nun wissen, wie Sie eine Entscheidungsrichtlinie erstellen, können Sie sie in [!DNL Journey Optimizer] Kanälen verwenden, um Angebote zu unterbreiten.
+Nachdem Sie nun wissen, wie Sie eine Entscheidungsrichtlinie erstellen, können Sie sie in [!DNL Journey Optimizer]-Kanälen verwenden, um Angebote zu unterbreiten.
 
-➡️ [Erfahren Sie, wie Sie Entscheidungsrichtlinien in Nachrichten verwenden](../experience-decisioning/use-decision-policy.md)
+➡️ [Informationen zum Verwenden von Entscheidungsrichtlinien in Nachrichten](../experience-decisioning/use-decision-policy.md)
 

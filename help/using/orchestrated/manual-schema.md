@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie direkt über die Benutzeroberfläche modellba
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -108,11 +108,11 @@ Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Nachdem Sie Attribute erstellt und gespeichert haben, können Sie das Schema mit anderen relationalen Schemata verknüpfen, indem Sie Beziehungen definieren.
+Nachdem Sie Attribute erstellt und gespeichert haben, können Sie das Schema durch Definieren von Beziehungen mit anderen relationalen Schemata verknüpfen.
 
 ## Verknüpfen von Schemata {#link-schema}
 
-Durch das Erstellen einer Beziehung zwischen zwei Schemata können Sie orchestrierte Kampagnen mit Daten erweitern, die über das primäre Profilschema hinausgehen.
+Beim Erstellen einer Beziehung zwischen zwei Schemata können Sie Ihre orchestrierten Kampagnen mit Daten erweitern, die außerhalb des primären Profilschemas gespeichert sind.
 
 1. Wählen Sie in Ihrem neu erstellten Schema das Attribut aus, das Sie als Link verwenden möchten, und klicken Sie auf **[!UICONTROL Beziehung hinzufügen]**.
 
@@ -130,7 +130,7 @@ Durch das Erstellen einer Beziehung zwischen zwei Schemata können Sie orchestri
 
 ## Erstellen eines Datensatzes für das Schema {#dataset}
 
-Nachdem Sie Ihr Schema definiert haben, können Sie jetzt einen Datensatz erstellen, der darauf basiert. Der Datensatz speichert Ihre aufgenommenen Daten und muss aktiviert sein, damit orchestrierte Kampagnen zugänglich sind.
+Nachdem Sie Ihr Schema definiert haben, können Sie nun basierend darauf einen Datensatz erstellen. Der Datensatz speichert Ihre aufgenommenen Daten und muss für orchestrierte Kampagnen aktiviert sein, damit darauf zugegriffen werden kann.
 
 1. Navigieren Sie zu **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** und wählen Sie **[!UICONTROL Datensatz erstellen]** aus.
 
@@ -160,7 +160,7 @@ Informationen zur Validierung oder Aktivierung der Erweiterung für orchestriert
 
 1. Suchen Sie Ihren Datensatz in der Liste **[!UICONTROL Datensätze]**.
 
-1. Aktivieren Sie in den **[!UICONTROL Datensätze]** die Option **Orchestrierte Kampagnen**, um den Datensatz für die Verwendung in Ihren orchestrierten Kampagnen zu markieren.
+1. Aktivieren Sie in den Einstellungen für **[!UICONTROL Datensätze]** die Option **Orchestrierte Kampagnen**, um den Datensatz für die Verwendung in Ihren orchestrierten Kampagnen verfügbar zu machen.
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 

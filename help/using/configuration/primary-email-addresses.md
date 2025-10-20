@@ -10,9 +10,9 @@ level: Intermediate
 keywords: primär, Ausführung, E-Mail, Zielgruppe, Profil, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Das Ausführungsfeld wird aktualisiert und jetzt als primäre Adresse verwendet.
 >abstract="In bestimmten Fällen können Sie die standardmäßige Ausführungsadresse überschreiben. Verwenden Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben dem Feld, um eine benutzerdefinierte primäre Adresse zu definieren."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Informationen zur Ausführungsadresse"
 
-Für bestimmte Anwendungsfälle können Sie das global eingestellte Ausführungsfeld überschreiben und auf Journey-Ebene einen anderen Wert definieren.
+Für bestimmte Anwendungsfälle können Sie das global festgelegte Ausführungsfeld überschreiben und einen anderen Wert auf Journey-Ebene definieren.
 
 Diesen Wert zu überschreiben, kann zum Beispiel für folgende Zwecke nützlich sein:
 
@@ -87,7 +87,7 @@ Diesen Wert zu überschreiben, kann zum Beispiel für folgende Zwecke nützlich 
 
 Beim Hinzufügen einer **[!UICONTROL E-Mail]**- oder **[!UICONTROL SMS]**-Aktion zu einer [Journey](../email/create-email.md#create-email-journey-campaign) wird die primäre E-Mail-Adresse unter den erweiterten Journey-Parametern angezeigt.
 
-Überschreiben Sie diesen Wert mit dem **[!UICONTROL Parameterüberschreibungen aktivieren]** rechts neben dem Feld.
+Verwenden Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** rechts neben dem Feld zum Überschreiben des Werts.
 
 ![](assets/journey-enable-parameter-override.png)
 
@@ -100,18 +100,18 @@ Beim Hinzufügen einer **[!UICONTROL E-Mail]**- oder **[!UICONTROL SMS]**-Aktion
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="Überschreiben der zu verwendenden Standard-Ausführungsadresse"
->abstract="Wenn mehrere E-Mail-Adressen oder Telefonnummern in der Datenbank verfügbar sind (privat, beruflich usw.), können Sie auswählen, welche für den Versand priorisiert werden soll. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber hier können Sie die Standardeinstellung für diese spezifische Kanalkonfiguration überschreiben."
+>abstract="Wenn mehrere E-Mail-Adressen oder Telefonnummern in der Datenbank vorhanden sind (privat, professionell usw.), kann ausgewählt werden, welche für den Versand Vorrang haben soll. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber hier können Sie die Standardeinstellung für diese bestimmte Kanalkonfiguration überschreiben."
 
-Sie können die standardmäßige Ausführungsadresse für eine bestimmte E-Mail- oder SMS-[Kanalkonfiguration) &#x200B;](channel-surfaces.md).
+Sie können die Standard-Ausführungsadresse für eine bestimmte E-Mail- oder SMS-[Kanalkonfiguration](channel-surfaces.md) überschreiben.
 
-Gehen Sie dazu zum Abschnitt **[!UICONTROL Ausführungsdimension]** und bearbeiten Sie das Feld unter **[!UICONTROL Ausführungsadresse]**.
+Navigieren Sie dazu zum Abschnitt **[!UICONTROL Ausführungsdimension]** und bearbeiten Sie das Feld unter **[!UICONTROL Ausführungsadresse]**.
 
 ![](assets/sms-config-execution-address.png){width=85%}
 
-Wählen Sie dann ein Element aus der Liste der verfügbaren XDM-Felder vom Typ E-Mail aus.
+Wählen Sie dann ein Element aus der Liste der verfügbaren E-Mail-XDM-Felder aus.
 
 ![](assets/sms-config-execution-field.png)
 
-Das Ausführungsfeld wird aktualisiert und dann als primäre Adresse für die Kampagnen oder Journey verwendet, die diese Kanalkonfiguration verwenden. Sie überschreibt die [Allgemeine Einstellung](#admin-settings), die auf Sandbox-Ebene definiert ist.
+Das Ausführungsfeld wird aktualisiert und dann als primäre Adresse für die Kampagnen oder Journeys verwendet, die diese Kanalkonfiguration verwenden. Dies überschreibt die [allgemeine Einstellung](#admin-settings) auf Sandbox-Ebene.
 
 <!--[Learn more on the execution address in the email configuration ](../email/email-settings.md#execution-address)-->

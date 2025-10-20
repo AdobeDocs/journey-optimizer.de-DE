@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie in Adobe Experience Platform durch Hochladen 
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
 source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1084'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Siehe folgendes Beispiel:
 
 1. Geben Sie Ihren **[!UICONTROL Schemanamen]** ein.
 
-1. Richten Sie jedes Schema und seine Spalten ein, um sicherzustellen, dass ein Primärschlüssel und ein Versionsdeskriptor angegeben werden.
+1. Richten Sie jedes Schema und seine Spalten ein und stellen Sie dabei sicher, dass ein Primärschlüssel und ein Versionsdeskriptor angegeben wird.
 
    Ein Attribut, z. B. `lastmodified`, muss als Versionsdeskriptor (Typ `datetime`, `long` oder `int`) angegeben werden, um dafür zu sorgen, dass Datensätze mit den neuesten Daten aktualisiert werden. Benutzende können den Versionsdeskriptor ändern, der nach dem Festlegen obligatorisch wird. Ein Attribut kann nicht gleichzeitig ein Primärschlüssel (PK) und ein Versionsdeskriptor sein.
 
@@ -106,7 +106,7 @@ Sie können jetzt die Tabellen- und Felddefinitionen auf der Arbeitsfläche übe
 
 ## Definieren von Beziehungen {#relationships}
 
-Sie können beim Erstellen Ihres Schemas Beziehungen direkt in der DDL-Datei angeben. Wenn Sie Beziehungen lieber außerhalb der Datei definieren möchten, können Sie dies in der -Benutzeroberfläche tun, indem Sie die folgenden Schritte ausführen.
+Sie können beim Erstellen Ihres Schemas Beziehungen direkt in der DDL-Datei angeben. Wenn Sie Beziehungen lieber außerhalb der Datei definieren möchten, können Sie dies in der Benutzeroberfläche tun, indem Sie die folgenden Schritte ausführen.
 
 1. Rufen Sie die Arbeitsflächenansicht Ihres Datenmodells auf und wählen Sie die beiden Tabellen aus, die Sie verknüpfen möchten.
 
@@ -150,7 +150,7 @@ Sie können beim Erstellen Ihres Schemas Beziehungen direkt in der DDL-Datei ang
 
    * **Zuordnung anzeigen**: Schalten Sie eine Miniatur-Zuordnungsüberlagerung ein, um leichter durch große oder komplexe Schema-Layouts zu navigieren.
 
-   * **Alle erweitern/** reduzieren: Schnelles Erweitern oder Reduzieren aller Schemaknoten, um ihre Attribute ein- oder auszublenden.
+   * **Alle erweitern/alle reduzieren**: Erweitern oder reduzieren Sie alle Schemaknoten schnell, um ihre Attribute ein- oder auszublenden.
 
    * **Download**: Laden Sie das ER-Diagramm als .png-Datei herunter.
 

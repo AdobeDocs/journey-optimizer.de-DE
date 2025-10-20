@@ -7,9 +7,9 @@ short-description: Entdecken Sie wichtige Funktionen und Anwendungsfälle von or
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 source-git-commit: 97f9c32435667fecb950892ed6f6531085055e59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="campaigns_overview_orchestrated"
->abstract="<b>Kampagnenorchestrierung</b><br/>Aufteilen, Kombinieren, Anreichern und Bearbeiten von relationalen Datensätzen zur Definition der Zielgruppe<br/><br/> <b>Daten mit mehreren Entitäten nutzen</b><br/>Erfahren Sie, wie Sie mit orchestrierten Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern<br/><br/><b>Ad-hoc-Segmentierung und genaue Zählungen</b><br/>Erstellen Sie Ihr Segment Schritt für Schritt mit genauen Zählungen<br/><br/><b>Verfügbare Kanäle</b><br/>E-Mail, SMS, Push-Benachrichtigungen"
+>abstract="<b>Kampagnenorchestrierung</b><br/>Aufteilen, Kombinieren, Anreichern und Bearbeiten von relationalen Datensätzen zur Definition der Zielgruppe<br/><br/> <b>Nutzen von Daten mehrerer Entitäten</b><br/>Erfahren Sie, wie Sie mit orchestrierten Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern<br/><br/><b>Ad-hoc-Segmentierung und exakten Zählungen</b><br/>Erstellen eines Segments Schritt für Schritt mit exakten Zählungen<br/><br/><b>Verfügbare Kanäle</b><br/>E-Mail, SMS, Push-Benachrichtigungen"
 
 Die Kampagnenorchestrierung in [!DNL Adobe Journey Optimizer] ermöglicht kanalübergreifend anspruchsvolle, markeninitiierte Marketing-Kampagnen und hilft Ihnen so, die Interaktion, den Umsatz und die Kundentreue im gewünschten Umfang zu fördern.
 

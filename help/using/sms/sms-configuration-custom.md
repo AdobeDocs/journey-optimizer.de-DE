@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1355'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -173,17 +173,17 @@ Wenn keine Opt-in- oder Opt-out-Keywords angegeben werden, werden standardmäßi
 
 >[!ENDSHADEBOX]
 
-Nachdem Ihre API-Anmeldeinformationen erfolgreich erstellt wurden, können Sie jetzt Webhooks konfigurieren, um eingehende Antworten für die Verwaltung des Opt-in- und Opt-out-Einverständnisses zu erfassen und Versandberichte, einschließlich Lesebestätigungen, sofern verfügbar, zu erhalten.
+Nachdem Ihre API-Anmeldedaten erfolgreich erstellt wurden, können Sie jetzt Webhooks konfigurieren, um eingehende Antworten für die Verwaltung des Opt-in- und Opt-out-Einverständnisses zu erfassen und Versandberichte einschließlich Lesebestätigungen (sofern verfügbar) zu erhalten.
 
 Beim Einrichten eines Webhooks können Sie seinen Zweck basierend auf dem Typ der Daten definieren, die Sie erfassen möchten:
 
-* **[!UICONTROL Eingehend]**: Verwenden Sie diese Option, wenn Sie Einverständnisantworten wie Opt-ins oder Opt-outs erfassen und Benutzereinstellungen erfassen möchten.
+* **[!UICONTROL Eingehend]**: Verwenden Sie diese Option, wenn Sie Einverständnisantworten wie Opt-ins oder Opt-outs und Benutzereinstellungen erfassen möchten.
 
-* **[!UICONTROL Feedback]**: Wählen Sie diese Option, um Versand- und Interaktionsereignisse zu verfolgen, einschließlich Lesebestätigungen und Benutzerinteraktionen, um Berichte und Analysen zu unterstützen.
+* **[!UICONTROL Feedback]**: Wählen Sie diese Option aus, um Versand- und Interaktionsereignisse einschließlich Lesebestätigungen und Benutzerinteraktionen zu verfolgen, um Reporting und Analysen zu unterstützen.
 
 >[!BEGINTABS]
 
->[!TAB Inbound]
+>[!TAB Eingehend]
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL SMS-Webhooks]** unter **[!UICONTROL SMS-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
 
@@ -195,19 +195,19 @@ Beim Einrichten eines Webhooks können Sie seinen Zweck basierend auf dem Typ de
 
    * **[!UICONTROL SMS-Anbieter auswählen]**: Benutzerdefiniert.
 
-   * **[!UICONTROL type]**: eingehend.
+   * **[!UICONTROL Typ]**: Eingehend.
 
-   * **[!UICONTROL API-Anmeldeinformationen]**: Wählen Sie aus der Dropdown-Liste [zuvor konfigurierte API-Anmeldeinformationen](#api-credential) aus.
+   * **[!UICONTROL API-Anmeldedaten]**: Wählen Sie aus der Dropdown-Liste die [zuvor konfigurierten API-Anmeldedaten](#api-credential) aus.
 
-   * **[!UICONTROL Absender-Telefonnummer &#x200B;]**: Geben Sie die Absender&#x200B;Telefonnummer ein, die Sie für Ihre Nachrichten verwenden möchten.
+   * **[!UICONTROL Absendertelefonnummer]**: Geben Sie die Telefonnummer der Absenderin bzw. des Absenders ein, die Sie für Ihre Nachrichten verwenden möchten.
 
      ![](assets/webhook-inbound.png)
 
-1. Klicken Sie auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um Ihre Keyword-Kategorien hinzuzufügen, und konfigurieren Sie sie dann wie folgt:
+1. Klicken Sie auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um Ihre Keyword-Kategorien hinzuzufügen, und konfigurieren Sie sie dann wie folgt:
 
-   * **[!UICONTROL Eingehende Keyword-Kategorie]**: Wählen Sie Ihre Keyword-Kategorien entweder **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Hilfe]** oder **[!UICONTROL Standard]**.
+   * **[!UICONTROL Kategorie für eingehende Keywords]**: Wählen Sie als Keyword-Kategorie entweder **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Hilfe]** oder **[!UICONTROL Standard]** aus.
 
-   * **[!UICONTROL Keyword eingeben]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre Nachricht automatisch Trigger erhält. Klicken Sie auf ![](assets/do-not-localize/Smock_Add_18_N.svg) , um mehrere Keywords hinzuzufügen.
+   * **[!UICONTROL Keyword eingeben]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre Nachricht automatisch ausgelöst wird. Klicken Sie auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um mehrere Keywords hinzuzufügen.
 
    * **[!UICONTROL Antwortnachricht]**: Wählen Sie aus der Dropdown-Liste die benutzerdefinierte Antwort aus, die automatisch gesendet wird.
 
@@ -229,7 +229,7 @@ Beim Einrichten eines Webhooks können Sie seinen Zweck basierend auf dem Typ de
 
 Nachdem Sie die Einstellungen für „eingehend“ für den Webhook erstellt und konfiguriert haben, müssen Sie jetzt eine [Kanalkonfiguration](sms-configuration-surface.md) für SMS-Nachrichten erstellen. 
 
-Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenbearbeitung, Personalisierung, Linktracking und Berichte nutzen.
+Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenerstellung, Personalisierung, Linktracking und Reporting nutzen.
 
 >[!TAB Feedback]
 
@@ -263,7 +263,7 @@ Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nac
 
 Nachdem Sie die Einstellungen für „eingehend“ für den Webhook erstellt und konfiguriert haben, müssen Sie jetzt eine [Kanalkonfiguration](sms-configuration-surface.md) für SMS-Nachrichten erstellen. 
 
-Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenbearbeitung, Personalisierung, Linktracking und Berichte nutzen.
+Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenerstellung, Personalisierung, Linktracking und Reporting nutzen.
 
 >[!ENDTABS]
 

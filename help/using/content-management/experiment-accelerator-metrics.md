@@ -10,9 +10,9 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
 source-git-commit: 664f6bafd4cfb4d86b7a449c279484ca49933247
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Jeder Wert enthält eine prozentuale Änderung gegenüber dem vorherigen Zeitrau
 
 In diesem Abschnitt werden alle aktiven Experimente innerhalb des ausgewählten Zeitraums (letzte 90 Tage, letzte 30 Tage oder letzte 7 Tage) angezeigt und ihr Beitrag zur Metrik hervorgehoben.
 
-Die folgenden Metriken sind verfügbar:
+Folgende Metriken sind verfügbar:
 
 * **[!UICONTROL Steigerung]**: Messung der prozentualen Verbesserung der Konversionsrate einer bestimmten Abwandlung im Vergleich zur Baseline.
 

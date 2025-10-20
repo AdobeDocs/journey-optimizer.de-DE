@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
 source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
 1. Geben Sie die **[!UICONTROL Absendernummer]** ein, die Sie für Ihre Sendungen verwenden möchten.
 
-1. Wenn Sie die URL-Verkürzungsfunktion in Ihren SMS-Nachrichten verwenden möchten, wählen Sie ein Element aus der **[!UICONTROL Subdomain]**-Liste aus.
+1. Wenn Sie die URL-Verkürzungsfunktion in Ihren SMS-Nachrichten verwenden möchten, wählen Sie ein Element aus der Liste **[!UICONTROL Subdomain]** aus.
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
    >[!NOTE]
    >
-   >Standardmäßig verwendet [!DNL Journey Optimizer] die in den &quot;[&quot; angegebene Telefonnummer &#x200B;](../configuration/primary-email-addresses.md) Sandbox-Ebene. Durch die Aktualisierung dieses Felds wird der Standardwert für die Journey und Kampagnen, die diese Konfiguration verwenden, überschrieben.
+   >Standardmäßig verwendet [!DNL Journey Optimizer] die in den [allgemeinen Einstellungen](../configuration/primary-email-addresses.md) der Sandbox-Ebene angegebene Telefonnummer. Durch die Aktualisierung dieses Felds wird der Standardwert für die Journeys und Kampagnen überschrieben, die diese Konfiguration verwenden.
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanalkonfiguration auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 

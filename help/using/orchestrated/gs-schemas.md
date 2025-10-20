@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie in Adobe Experience Platform durch Hochladen 
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Dieses Handbuch führt Sie durch den Prozess der Erstellung eines modellbasierte
 
 ## Schlüsselkonzepte
 
-Im Kontext orchestrierter Kampagnen ist ein **Datensatz** ein Konstrukt zur Speicherung und Verwaltung von Daten, normalerweise einer Tabelle, die ein Schema (Zeilen) und Felder (Spalten) enthält. Daten, die erfolgreich in Experience Platform aufgenommen wurden, werden im Data Lake als Datensätze gespeichert.
+Im Kontext orchestrierter Kampagnen ist ein **Datensatz** ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten in der Regel in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. Daten, die erfolgreich in Experience Platform aufgenommen wurden, werden im Data Lake als Datensätze gespeichert.
 
 Ein **Schema** stellt die Struktur und das Format von Daten dar und validiert sie. Es bietet eine abstrakte Definition eines realen Objekts (z. B. einer Person) und beschreibt, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Name, Geburtstag usw.).
 
@@ -52,7 +52,7 @@ Es gibt an:
 
 Beim Organisieren von Schemata oder Tabellen in einem modellbasierten Datenmodell geht es um die Strukturierung Ihrer Daten in verschiedenen Tabellen. Stellen Sie sicher, dass jede Tabelle einen Entitäts-/Schematyp speichert.
 
-➡️ [Weitere Informationen zu Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Weitere Informationen über Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Implementierungsschritte {#implementation}
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um Daten aufzunehmen und ein modellbasiertes Schema zu 
 
    Nachdem Sie Ihr Schema definiert haben, besteht der nächste Schritt darin, basierend darauf einen Datensatz zu erstellen. Dieser Datensatz dient als Speicher für Ihre aufgenommenen Daten.
 
-1. [Orchestrierte Kampagnen aktivieren](manual-schema.md#enable)
+1. [Aktivieren orchestrierter Kampagnen](manual-schema.md#enable)
 
    Dieser Datensatz speichert Ihre aufgenommenen Daten und muss für orchestrierte Kampagnen aktiviert sein, damit er in Adobe Journey Optimizer verfügbar ist. 
 

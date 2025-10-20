@@ -6,9 +6,9 @@ role: User
 level: Experienced
 exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
 source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
 >title="Experimenttyp"
->abstract="Der Experimenttyp bestimmt, wie der Traffic während des Tests zwischen den Behandlungen verteilt wird. Wählen Sie die Methode aus, die am besten zu Ihren Zielen passt:</br><b>A/B-Experiment</b>: Teilt den Traffic, während Sie zwischen Abwandlungen definieren und die Leistung messen, bis die Ergebnisse statistisch signifikant sind. Am besten können Sie lernen, welche Behandlung in einem kontrollierten Vergleich besser abschneidet.</br><b>Multi-Armed Bandit</b>: Verlagert den Traffic hin zu leistungsfähigeren Abwandlungen, wenn Daten gesammelt werden, wodurch Geschwindigkeit und Optimierung miteinander in Einklang gebracht werden. Dies ist nützlich, wenn Sie die Konversionen während des Experiments maximieren möchten.</br><b>Bring your own Multi-Armed Bandit</b>: Verwenden Sie Ihren eigenen Algorithmus, um die Traffic-Zuordnung zu bestimmen, sodass Sie flexibel sind, wenn Sie ein benutzerdefiniertes Modell oder eine benutzerdefinierte Strategie haben."
+>abstract="Der Experimenttyp bestimmt, wie der Traffic während des Tests zwischen den Abwandlungen verteilt wird. Wählen Sie die Methode aus, die am besten zu Ihren Zielen passt:</br><b>A/B-Test</b>: Teilt den Traffic während der Definition zwischen Abwandlungen und misst die Leistung, bis die Ergebnisse statistisch signifikant sind. Ideal, um zu erfahren, welche Abwandlung in einem kontrollierten Vergleich besser funktioniert.</br><b>Mehrarmiger Bandit</b>: Verlagert den Traffic hin zu leistungsfähigeren Abwandlungen, wenn Daten gesammelt werden, wodurch Geschwindigkeit und Optimierung miteinander in Einklang gebracht werden. Nützlich, wenn Sie Konversionen während des Experiments maximieren möchten.</br><b>Eigenen mehrarmigen Banditen einbringen</b>: Verwenden Sie Ihren eigenen Algorithmus, um die Traffic-Zuordnung zu bestimmen, sodass Sie bei Vorliegen eines benutzerdefinierten Modells oder einer benutzerdefinierten Strategie flexibel sind."
 
 Auf dieser Seite finden Sie einen detaillierten Vergleich von **A/B**-Tests und **Multi-Armed-Bandit**-Experimenten. Es werden die jeweiligen Stärken, Einschränkungen und Szenarien erläutert, in denen die beiden Ansätze am effektivsten sind.
 

@@ -10,9 +10,9 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
 source-git-commit: 4c0d5be4d8783818453683190d1371b8516bc3a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

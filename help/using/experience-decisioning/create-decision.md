@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -46,15 +46,15 @@ Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Entscheidung
 
 >[!AVAILABILITY]
 >
->Derzeit stehen Entscheidungsrichtlinien für den Code-basierten Erlebniskanal allen Kunden zur Verfügung. Sie sind für den E-Mail-Kanal als eingeschränkte Verfügbarkeit verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+>Derzeit stehen Entscheidungsrichtlinien allen Kundinnen und Kunden für den Kanal „Code-basierten Erlebnis“ zur Verfügung. Für den E-Mail-Kanal sind sie eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
 ## Wichtige Schritte {#key}
 
-Die wichtigsten Schritte zur Nutzung von Entscheidungsrichtlinien in Nachrichten sind wie folgt:
+Die Hauptschritte zur Nutzung von Entscheidungsrichtlinien in Nachrichten lauten wie folgt:
 
 1. [Erstellen einer Entscheidungsrichtlinie](../experience-decisioning/create-decision-policy.md)
 
-   Richten Sie eine Entscheidungsrichtlinie in Ihrer Nachricht ein, indem Sie die Anzahl der zurückzugebenden Elemente auswählen, Auswahlstrategien, Fallback-Optionen und die Auswertungsreihenfolge konfigurieren.
+   Richten Sie in Ihrer Nachricht eine Entscheidungsrichtlinie ein, indem Sie die Anzahl der zurückzugebenden Elemente auswählen und Auswahlstrategien, Fallback-Optionen und die Auswertungsreihenfolge konfigurieren.
 
 1. [Verwenden der Entscheidungsrichtlinie in Ihren Inhalten](../experience-decisioning/use-decision-policy.md)
 
@@ -66,7 +66,7 @@ Die wichtigsten Schritte zur Nutzung von Entscheidungsrichtlinien in Nachrichten
 
 ## Leitlinien und Einschränkungen
 
-* **E-Mail-Mirrorseiten** - Derzeit werden Entscheidungselemente nicht in E-Mail-Mirrorseiten gerendert.
+* **E-Mail-Mirror-Seiten**: Derzeit werden Entscheidungselemente in E-Mail-Mirror-Seiten nicht gerendert.
 * **Tracking- und Link-Typ**: Zum Nachverfolgen von Links, die von der Entscheidungsfindung generiert wurden, definieren Sie sie im Schema als „Decisioning Assets“. Attributbasierte Links können nicht nachverfolgt werden.
 * **Verschachtelung von Entscheidungsrichtlinien in E-Mails**: Sie können nicht mehrere Entscheidungsrichtlinien in einer übergeordneten E-Mail-Komponente verschachteln, die bereits mit einer Entscheidungsrichtlinie verknüpft ist.
 * **Duplizierte Journeys oder Kampagnen mit Entscheidungsfindung**: Wenn Sie eine Journey oder Kampagne duplizieren, die eine Entscheidungsrichtlinie enthält, verweist die duplizierte Version auf die ursprüngliche E-Mail oder das Code-basierte Erlebnis, was zu Fehlern führt. Die Entscheidungsrichtlinie muss nach einer Duplizierung immer neu konfiguriert werden.
@@ -82,5 +82,5 @@ Die wichtigsten Schritte zur Nutzung von Entscheidungsrichtlinien in Nachrichten
 
 Nachdem Sie nun wissen, wie Entscheidungsrichtlinien funktionieren und wie sie Ihnen bei der Bereitstellung personalisierter Angebote helfen, können Sie Ihre erste Entscheidungsrichtlinie erstellen.
 
-➡️ [Erfahren Sie, wie Sie eine Entscheidungsrichtlinie erstellen](../experience-decisioning/create-decision-policy.md)
+➡️ [Informationen zum Erstellen von Entscheidungsrichtlinien](../experience-decisioning/create-decision-policy.md)
 

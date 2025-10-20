@@ -9,9 +9,9 @@ level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '961'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ Machen Sie sich durch die Tabelle unten damit vertraut, welche Journey Optimizer
 | Datensatz mit AJO-Push-Profilen | Speichert Push-Token eines Profils. |
 | Ereignisdatensatz zu Erfahrungen beim AJO-Push-Tracking | Interaktionsprotokolle für den Push-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird.  |
 | AJO-Oberflächen-Datensatz | Leerer Datensatz im Zusammenhang mit dem Schema „Eingehende Journey Optimizer-Oberflächen“ |
-| AOOutputForUPSDataset | Enthält alle AO-Zielgruppenzugehörigkeiten, die in den Unified Profile Service zurückgeschrieben werden sollen |
+| AOOutputForUPSDataset | Enthält alle AO-Zielgruppenzugehörigkeiten, die zum einheitlichen Profildienst zurückgeschrieben werden sollen |
 | Profil-Datensatz der Zielgruppen-Orchestrierung | Wird durch die Zielgruppenkomposition für Zielgruppenkompositions-Zielgruppen generiert. Enthält alle Zielgruppenkompositions-Zielgruppen, ihre Attribute und Anreicherungsdaten |
 | Entscheidungsobjekt-Repository – Aktivitäten | in der Benutzeroberfläche auch als „Entscheidungen“ bezeichnet. Dies sind jedoch die Objekte, die eine Benutzerin bzw. ein Benutzer erstellt, mit denen alle Bausteine zusammengeführt werden, einschließlich der Entscheidungslogik. Beispielsweise wird für eine bestimmte Platzierung (Position) entschieden, welche Angebote (Angebotssammlung) berücksichtigt werden sollen und welche Rangfolgenmethode für diese Angebote verwendet werden soll.  |
 | Entscheidungsobjekt-Repository – Fallback-Angebote | Dies ist das Repository für den anderen Angebotstyp, den eine Benutzerin oder ein Benutzer erstellt. Insbesondere wenn sie nicht geeignet sind, ein personalisiertes Angebot zu sehen, und sie etwas sehen müssen, dann sehen sie zumindest das Fallback-Angebot. Dieser Datensatz enthält die Attribute für diesen Angebotstyp |
