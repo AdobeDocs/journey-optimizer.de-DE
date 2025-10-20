@@ -246,4 +246,4 @@ In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attrib
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464801?captions=ger&quality=12)
