@@ -10,7 +10,7 @@ level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
 Als Alternative zu den Methoden [Vollständig delegiert](about-subdomain-delegation.md#full-subdomain-delegation) und [Einrichtung von CNAME](about-subdomain-delegation.md#cname-subdomain-delegation) können Sie mit der Methode **Benutzerdefinierte Delegierung** die Eigentümerschaft für Ihre Subdomains in Journey Optimizer übernehmen und die generierten Zertifikate vollständig kontrollieren.
 
@@ -113,10 +113,11 @@ Um eine benutzerdefinierte Subdomain einzurichten, führen Sie die folgenden Sch
    -----END CERTIFICATE-----
    ```
 
-   <!--
-    >[!CAUTION]
-    >
-    >Both Data and CDN subdomains must be included in the same certificate.-->
+<!--
+>[!CAUTION]
+>
+>Both Data and CDN subdomains must be included in the same certificate.
+-->
 
 ## Abschließen der Schritte der Feedback-Schleife {#feedback-loop-steps}
 

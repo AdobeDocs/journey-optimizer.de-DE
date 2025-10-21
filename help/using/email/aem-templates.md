@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 95%
@@ -23,7 +23,7 @@ ht-degree: 95%
 >[!AVAILABILITY]
 >
 >Die Integration mit Adobe Experience Manager ist derzeit nur für ausgewählte Benutzerinnen und Benutzer als Beta-Version verfügbar.
->&#x200B;> Beta-Benutzerinnen und -Benutzer können [dieses Formular](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} verwenden, um Feedback zu geben.
+>> Beta-Benutzerinnen und -Benutzer können [dieses Formular](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} verwenden, um Feedback zu geben.
 
 Mit Adobe Journey Optimizer können Sie über Adobe Experience Manager Sites benutzerdefinierte, auf sie zugeschnittene Nachrichten erstellen. Erstellen Sie zunächst Ihre Vorlagen mithilfe der Inhaltsquellen von Adobe Experience Manager und senden Sie sie dann an Adobe Journey Optimizer. Nach der Freigabe können Sie im E-Mail-Designer von Adobe Journey Optimizer auf diese Vorlagen zugreifen, um die Erstellung und den Versand von Nachrichten an Ihre gewünschte Zielgruppe zu vereinfachen.
 
@@ -57,13 +57,17 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Manager-Vorlage nach Adobe Jou
 
 1. Wählen Sie auf Ihrer Adobe Experience Manager-Startseite **[!UICONTROL Ausgehendes Marketing]** aus.
 
-   ![](assets/aem-outbound-menu.png)
+<!--
+    ![](assets/aem-outbound-menu.png)
+-->
 
 1. In Ihrer Inhaltsbibliothek können Sie zuvor konfigurierte Vorlagen verwenden oder von Grund auf neu eine erstellen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=de#creating-a-new-page)
 
 1. Indem Sie die Journey Optimizer-Personalisierungssyntax in Ihre Vorlage integrieren, können Sie deren Anpassungsfunktionen erweitern. [Weitere Informationen](../personalization/personalization-syntax.md)
 
-   ![](assets/aem_ajo_4.png)
+<!--
+    ![](assets/aem_ajo_4.png)
+-->
 
 1. Wählen Sie die Vorlage aus, die Sie nach Journey Optimizer exportieren möchten, und klicken Sie im Menü „Erweitert“ auf **[!UICONTROL Senden an]**.
 
@@ -71,7 +75,9 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Manager-Vorlage nach Adobe Jou
 
 1. Geben Sie den **[!UICONTROL Namen]** der Inhaltsvorlage ein und wählen Sie die Zielgruppen-**[!UICONTROL Sandbox]** aus.
 
+<!--
    ![](assets/aem-send-template-settings.png)
+-->
 
 1. Wenn Sie auf **[!UICONTROL Senden]** geklickt haben, startet der Exportvorgang. Nach Abschluss des Exports wird in der Benutzeroberfläche die folgende Nachricht angezeigt: „Vorlage ‚XX‘ wurde erfolgreich an AJO gesendet“.
 
@@ -83,11 +89,15 @@ Sobald die Experience Manager-Vorlage in Journey Optimizer als Inhaltsvorlage ve
 
 1. Greifen Sie in Journey Optimizer über das Menü **[!UICONTROL Inhaltsvorlage]** auf Ihre importierte Vorlage zu.
 
-   ![](assets/aem_ajo_1.png)
+<!--
+    ![](assets/aem_ajo_1.png)
+-->
 
 1. Mit einem Klick auf die Schaltfläche **[!UICONTROL Warnhinweis]** können Sie schnell überprüfen, ob wichtige Einstellungen fehlen. Dadurch wird sichergestellt, dass Ihre Nachrichten ordnungsgemäß konfiguriert sind und potenzielle Fehler oder Probleme vermieden werden.
 
-   ![](assets/aem_ajo_2.png)
+<!--
+    ![](assets/aem_ajo_2.png)
+-->
 
 1. Klicken Sie im Fenster **[!UICONTROL Vorlageneigenschaften]** auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**, um Ihrer Vorlage benutzerdefinierte oder zentrale Datennutzungs-Labels zuzuweisen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
 
@@ -101,22 +111,30 @@ Sobald die Experience Manager-Vorlage in Journey Optimizer als Inhaltsvorlage ve
 
 1. Sobald Ihr Inhalt definiert wurde, können Sie ihn bei der Erstellung einer neuen E-Mail verwenden, indem Sie die Sammlung **[!UICONTROL Gespeicherte Vorlagen]** durchsuchen. Wählen Sie anschließend **[!UICONTROL Diese Vorlage verwenden]** aus.
 
-   ![](assets/aem_ajo_3.png)
+<!--
+    ![](assets/aem_ajo_3.png)
+-->
 
 1. Jetzt können Sie Ihren Inhalt bearbeiten und personalisieren. Weitere Informationen zur Konfiguration der Journey finden Sie auf dieser [Seite](../email/content-from-scratch.md).
 
-   ![](assets/aem_ajo_5.png)
+<!--
+    ![](assets/aem_ajo_5.png)
+-->
 
 1. Wenn Sie Ihrer Experience Manager-Vorlage personalisierten Inhalt hinzugefügt haben, klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um mithilfe von Testprofilen eine Vorschau des Nachrichteninhalts anzuzeigen.
 
 [Weitere Informationen zu Vorschau und Testprofilen](../content-management/preview-test.md)
 
-   ![](assets/aem_ajo_6.png)
+<!--
+    ![](assets/aem_ajo_6.png)
+-->
 
 1. Bei der Anzeige der Nachrichtenvorschau werden alle personalisierten Elemente automatisch durch die entsprechenden Daten aus dem ausgewählten Testprofil ersetzt.
 
    Bei Bedarf können weitere Testprofile mit der Schaltfläche **[!UICONTROL Testprofile verwalten]** hinzugefügt werden.
 
-   ![](assets/aem_ajo_7.png)
+<!--
+    ![](assets/aem_ajo_7.png)
+-->
 
 Wenn Ihre E-Mail bereit ist, schließen Sie die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md) ab und aktivieren Sie diese, um die Nachricht zu senden.

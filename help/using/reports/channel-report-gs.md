@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 99%
+source-wordcount: '637'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ Die Kanalberichte sind ein leistungsstarkes Tool, das in einem einheitlichen Ber
 
 Die Kanalberichte sind vollständig anpassbar, sodass Widgets in der Größe geändert oder entfernt werden können, um ein Dashboard zu erstellen, das spezifischen Anforderungen entspricht. Die Berichtsdaten können auch zur weiteren Analyse in eine PDF- oder CSV-Datei exportiert werden.
 
-Weitere Informationen zu den verschiedenen Metriken und Widgets, die für die Kanalberichte verfügbar sind, finden Sie auf [dieser Seite](channel-report.md).
+Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für die Kanalberichte in <!--[this page](channel-report.md)--> verfügbar sind.
 
 ## Bevor Sie beginnen {#manage-reports-prereq}
 

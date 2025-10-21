@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 4bb16689d9af805a077b4c87540bd23162f84bbb
-workflow-type: ht
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+workflow-type: tm+mt
 source-wordcount: '6603'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <li>Die Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen</li>
 <li>Die Möglichkeit, jeder Aktion sowohl experimentelle als auch mehrsprachige Optionen hinzuzufügen</li>
 </ul>
-<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
+<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-action.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -151,7 +151,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <li>Die maximale Dateigröße pro Anhang beträgt 5 MB.</li>
 <li>Für zusätzliche Größen oder Volumen können Sie ein Zusatzpaket erwerben. Weitere Informationen erhalten Sie beim Adobe-Support.</li>
 </ul>
-<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
+<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../email/pdf-attachments.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -379,7 +379,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Sie können jetzt Entscheidungsrichtlinien zu E-Mail-Journeys und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Engine nutzen, um für jedes Zielgruppenmitglied die besten Inhalte bereitzustellen.</p>
-<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
+<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
 Weitere Informationen finden Sie in der <a href="../experience-decisioning/create-decision.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -1393,6 +1393,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 **Personalisierungseditor** (Verfügbarkeitsdatum: 12. März)
 
 Der Personalisierungseditor in Journey Optimizer wurde um neue Funktionen erweitert:
+
 * **Aktualisiertes Design für den Code-Editor**: Eine sauberere, moderne Benutzeroberfläche für verbesserte Benutzerfreundlichkeit und Fokus.
 * **Suchen und Ersetzen**: Es wurde eine Funktion hinzugefügt, mit der Content im Editor schnell gesucht und ersetzt werden kann.
 * **Unterstützung zum Rückgängigmachen und Wiederholen**: Ermöglicht das einfache Zurücksetzen oder erneute Anwenden von Änderungen.

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 100%
@@ -238,6 +238,7 @@ Wenn Sie eine bereits aktive Konfiguration bearbeiten:
 #### Erfolgreich {#success}
 
 Nach erfolgreicher Überprüfung wird die neue Version der Konfiguration automatisch in allen Nachrichten verwendet, die diese Konfiguration verwenden. Sie müssen jedoch möglicherweise warten:
+
 * einige Minuten, bevor sie von den unitären Nachrichten genutzt wird,
 * bis zum nächsten Batch, damit die Konfiguration in Batch-Nachrichten wirksam wird.
 

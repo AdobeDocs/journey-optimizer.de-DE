@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -35,7 +35,9 @@ Der Inhaltskartenbericht kann direkt von Ihrer Kampagne aus über die Schaltflä
 
 ## Anzeige- und Klick-Trend {#display-click}
 
+<!--
 ![](assets/content-card-report-1.png)
+-->
 
 Die Diagramme **[!UICONTROL Anzeige- und Klick-Trend]** helfen Ihnen, sowohl die Gesamtreichweite der Nachricht als auch die Anzahl der eindeutigen Profile zu verstehen, die mit der Nachricht interagieren.
 
@@ -51,7 +53,9 @@ Die Diagramme **[!UICONTROL Anzeige- und Klick-Trend]** helfen Ihnen, sowohl die
 
 ## Tracking-Daten {#tracking-data}
 
+<!--
 ![](assets/content-card-report-2.png)
+-->
 
 Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblick über die Profilaktivität im Zusammenhang mit Ihren Inhaltskarten und liefert wichtige Erkenntnisse über die Interaktion und die Effektivität von Inhaltskarten.
 
