@@ -9,18 +9,18 @@ role: Developer, Admin
 level: Experienced
 keywords: Richtlinien, Governance, Platform, Healthcare Shield, Einverständnis
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 93%
+source-wordcount: '1244'
+ht-degree: 89%
 
 ---
 
 # Arbeiten mit Einverständnisrichtlinien {#consent-management}
 
-Ihre Daten können Nutzungsbeschränkungen unterliegen, die von Ihrer Organisation oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie dafür sorgen, dass Ihre Datenoperationen in Journey Optimizer mit den [Datennutzungsrichtlinien“ konform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de){target="_blank"}. Diese Richtlinien sind Regeln von Adobe Experience Platform, die festlegen, welche Marketing-Aktionen Sie für Daten ausführen dürfen.
+Ihre Daten können Nutzungsbeschränkungen unterliegen, die von Ihrer Organisation oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie dafür sorgen, dass Ihre Datenoperationen in Journey Optimizer mit den [Datennutzungsrichtlinien“ konform ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de){target="_blank"}. Diese Richtlinien sind Regeln von Adobe Experience Platform, die festlegen, welche Marketing-Aktionen Sie für Daten ausführen dürfen.
 
-Wenn sich ein Profil vom Erhalt von Nachrichten von Ihnen abgemeldet hat, wird das entsprechende Profil standardmäßig von nachfolgenden Sendungen ausgeschlossen. Sie können eine **Einverständnisrichtlinie** erstellen, die diese Standardlogik überschreibt. Beispielsweise können Sie Einverständnisrichtlinien in Experience Platform erstellen, um Kundinnen und Kunden auszuschließen, die dem Empfang von Nachrichten für einen bestimmten Kanal nicht zugestimmt haben. Wenn keine benutzerdefinierte Richtlinie vorhanden ist, gilt die Standardrichtlinie.
+Wenn sich ein Profil vom Erhalt von Nachrichten von Ihnen abgemeldet hat, wird das entsprechende Profil standardmäßig von nachfolgenden Sendungen ausgeschlossen. Sie können eine **Einverständnisrichtlinie** erstellen, die diese Standardlogik überschreibt. Sie können beispielsweise eine Einverständnisrichtlinie in Experience Platform erstellen, um Kunden auszuschließen, die dem Empfang von Nachrichten für einen bestimmten Kanal nicht zugestimmt haben. Wenn keine benutzerdefinierte Richtlinie vorhanden ist, gilt die Standardrichtlinie.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Die wichtigsten Schritte zum Anwenden von Einverständnisrichtlinien sind folgen
 
 1. Erstellen Sie eine Einverständnisrichtlinie in Adobe Experience Platform mit einer zugehörigen Marketing-Aktion. [Erfahren Sie, wie Sie eine Einverständnisrichtlinie erstellen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#consent-policy){target="_blank"}
 
-2. Wenden Sie Einverständnisrichtlinien in Adobe Journey Optimizer mithilfe von Kanalkonfigurationen oder benutzerdefinierten Journey-Aktionen an.
+2. Wenden Sie Einverständnisrichtlinien in Adobe Journey Optimizer mithilfe von Kanalkonfigurationen oder Journey benutzerdefinierter Aktionen an.
 
    * Erstellen Sie eine Kanalkonfiguration mit einer zugehörigen Marketing-Aktion. Bei der Erstellung von Kommunikation mithilfe der Kanalkonfiguration wird die zugeordnete Marketingaktion übernommen und die entsprechenden in Adobe Experience Platform definierten Einverständnisrichtlinien angewendet. [Informationen zur Verwendung von Einverständnisrichtlinien durch Kanalkonfigurationen](#surface-marketing-actions)
 
@@ -41,7 +41,7 @@ Die wichtigsten Schritte zum Anwenden von Einverständnisrichtlinien sind folgen
 
 ## Verwenden von Einverständnisrichtlinien durch Kanalkonfigurationen {#surface-marketing-actions}
 
-In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen ([&#x200B; aufgelisteten) Werte &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"}.
+In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"} von Experience Platform verarbeitet. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen ([ aufgelisteten) Werte ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"}.
 
 Um den Wert des Feldes „Einverständnis“ zu ändern, können Sie eine benutzerdefinierte Einverständnisrichtlinie erstellen, in der Sie eine Marketing-Aktion und die Bedingungen definieren, unter denen diese Aktion ausgeführt wird. [Erfahren Sie mehr über Marketing-Aktionen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#marketing-actions){target="_blank"}
 
@@ -69,7 +69,7 @@ Wenn Sie z. B. eine Einverständnisrichtlinie erstellen möchten, um nur Profil
 
 1. Speichern und [aktivieren](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#enable){target="_blank"} diese Richtlinie.
 
-1. Erstellen Sie eine E-Mail-Oberfläche in Journey Optimizer. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
+1. Erstellen Sie in Journey Optimizer eine E-Mail-Kanalkonfiguration. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
 
 1. Wählen Sie in den Details der E-Mail-Konfiguration die Marketing-Aktion **[!UICONTROL E-Mail-Targeting]** aus.
 

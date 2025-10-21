@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
+source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
 workflow-type: tm+mt
-source-wordcount: '2995'
+source-wordcount: '2999'
 ht-degree: 98%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 98%
       + [Barrierefreiheit](using/start/accessibility.md)
    + [Arbeiten mit dem KI-Assistenten](using/start/ai-assistant.md)
    + [Anwendungsfall-Playbooks](using/start/playbooks.md)
-   + [Schutzmechanismen und Einschränkungen](using/start/guardrails.md)
+   + [Leitlinien und Einschränkungen](using/start/guardrails.md)
    + [Fehlerbehebung](using/start/troubleshooting.md)
 + Journeys {#orchestrate-journeys}
    + [Journeys](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
@@ -390,7 +390,7 @@ ht-degree: 98%
          + [Konfigurieren eines Twilio-Anbieters](using/sms/sms-configuration-twilio.md)
          + [Konfigurieren eines benutzerdefinierten Anbieters](using/sms/sms-configuration-custom.md)
          + [Erstellen einer SMS/MMS/RCS-Konfiguration](using/sms/sms-configuration-surface.md)
-   + Briefpost {#direct-mail}
+   + Direkt-Mail {#direct-mail}
       + [Direkt-Mail](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
       + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
@@ -921,7 +921,7 @@ ht-degree: 98%
    + [Verwenden von Testadressenlisten](using/configuration/seed-lists.md)
    + [Unterstützung für Archivierung](using/configuration/archiving-support.md)
    + [Ändern von Ausführungsadressen](using/configuration/primary-email-addresses.md)
-   + [Feedback-Webhooks erstellen](using/configuration/feedback-webhooks.md)
+   + [Erstellen von Feedback-Webhooks](using/configuration/feedback-webhooks.md)
 + Journey-Konfiguration {#configure-journeys}
    + [Journey-Konfiguration](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [Erste Schritte bei der Journey-Konfiguration](using/configuration/about-data-sources-events-actions.md)
@@ -982,5 +982,6 @@ ht-degree: 98%
       + [Einverständnisverwaltung](/help/rp_landing_pages/consent-landing-page.md)
       + [Verwalten von Opt-out](using/privacy/opt-out.md)
       + [Arbeiten mit Einverständnisrichtlinien](using/action/consent.md)
+      + [Kundeneinstellungen verwalten](using/action/preference-center.md)
    + [Data Governance](using/action/action-privacy.md)
    + [Einrichten und Verwalten von kundenseitig verwalteten Schlüsseln](using/privacy/cmk.md)
