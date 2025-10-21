@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
 source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simulationen mit Beispieleingaben"
->abstract="Auf diesem Bildschirm können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie Werte für Personalisierungsfelder über eine CSV- oder JSON-Vorlage bereitstellen oder die Werte manuell eingeben."
+>abstract="Auf diesem Bildschirm können verschiedene Varianten der Inhalte getest werden, indem  Werte für Personalisierungsfelder über eine CSV- oder JSON-Vorlage bereitgestellt oder die Werte manuell eingegeben werden."
 
 Mit Journey Optimizer können Sie mithilfe von Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, verschiedene Varianten Ihrer Inhalte in der Vorschau sehen.
 
