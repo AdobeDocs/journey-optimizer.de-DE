@@ -53,7 +53,7 @@ Angenommen, Sie möchten Ihre Kunden anhand ihrer Kommunikationsvoreinstellungen
    * Angebote - Boolesch (true/false)
    * Neue Produkteinführungen - Boolesch (true/false)
 
-   Diese Attribute werden im Schema eines profilaktivierten Datensatzes ([) erfasst ](../data/get-started-datasets.md) dem [Unified Customer Profile](../audience/get-started-profiles.md) zugeordnet.
+   Diese Attribute werden im Schema eines profilaktivierten Datensatzes ([) erfasst &#x200B;](../data/get-started-datasets.md) dem [Unified Customer Profile](../audience/get-started-profiles.md) zugeordnet.
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ Angenommen, Sie möchten Ihre Kunden anhand ihrer Kommunikationsvoreinstellungen
     
     * Wenn **[!UICONTROL Marketing-Aktion]** gleich **[!UICONTROL E-Mail]**
     
-    * Dann **[!UICONTROL Newsletter_E-Mail]** nicht vorhanden ist **[!UICONTROL false]** Oder **[!UICONTROL Newsletter_E-]**nicht gleich **[!UICONTROL false]**
+    * Dann **[!UICONTROL Newsletter_E-Mail]** nicht vorhanden ist **[!UICONTROL false]** Oder **[!UICONTROL Newsletter_E-]**&#x200B;nicht gleich **[!UICONTROL false]**
     
     ![](assets/consent-policy-email-newsletter.png){width=100%}
     
