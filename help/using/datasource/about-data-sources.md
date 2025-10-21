@@ -5,11 +5,11 @@ title: Erste Schritte mit Datenquellen
 description: Erfahren Sie, wie Sie die ersten Schritte mit Datenquellen machen
 feature: Journeys, Data Sources
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Daten, Quelle, Journey, Plattform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 98%

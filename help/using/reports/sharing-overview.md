@@ -5,10 +5,10 @@ title: Übersicht über die Freigabe von Journey-Schritten
 description: Übersicht über die Freigabe von Journey-Schritten
 feature: Journeys, Reporting
 topic: Content Management
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 83%
@@ -29,7 +29,7 @@ Sie haben beispielsweise eine Journey eingerichtet, die mehrere E-Mails sendet. 
 
 >[!NOTE]
 >
->Zusätzlich zu Schrittereignissen auf Profilebene generiert das System auch interne Ereignisse für Aktivitäten des Typs **Zielgruppe lesen**. Diese als `segmentExportJob` bezeichneten Ereignisse zeichnen den Lebenszyklus des Knotens „Zielgruppe lesen“ auf (z. B. Erstellung von Exportvorgängen, Warteschlangen, Abschluss und Fehler) und werden pro Aktivität „Zielgruppe lesen“ und nicht pro einzelnem Profil generiert. Infolgedessen haben diese Ereignisse möglicherweise keine zugehörige Profilkennung (UPMID). Diese internen Ereignisse sind für die Überwachung der Leistung von „Zielgruppe lesen“ und zur Fehlerbehebung nützlich und können mithilfe der im Abschnitt „serviceEvents[&#x200B; dokumentierten Felder abgefragt &#x200B;](../reports/sharing-field-list.md#servicevents-field). Abfragebeispiele für die Arbeit mit segmentExportJob-Ereignissen finden Sie unter [Abfragen im Zusammenhang mit „Zielgruppe lesen](../reports/query-examples.md#read-segment-queries).
+>Zusätzlich zu Schrittereignissen auf Profilebene generiert das System auch interne Ereignisse für Aktivitäten des Typs **Zielgruppe lesen**. Diese als `segmentExportJob` bezeichneten Ereignisse zeichnen den Lebenszyklus des Knotens „Zielgruppe lesen“ auf (z. B. Erstellung von Exportvorgängen, Warteschlangen, Abschluss und Fehler) und werden pro Aktivität „Zielgruppe lesen“ und nicht pro einzelnem Profil generiert. Infolgedessen haben diese Ereignisse möglicherweise keine zugehörige Profilkennung (UPMID). Diese internen Ereignisse sind für die Überwachung der Leistung von „Zielgruppe lesen“ und zur Fehlerbehebung nützlich und können mithilfe der im Abschnitt „serviceEvents[ dokumentierten Felder abgefragt ](../reports/sharing-field-list.md#servicevents-field). Abfragebeispiele für die Arbeit mit segmentExportJob-Ereignissen finden Sie unter [Abfragen im Zusammenhang mit „Zielgruppe lesen](../reports/query-examples.md#read-segment-queries).
 
 Es gibt Fälle, in denen mehrere Ereignisse für denselben Knoten erstellt werden können. Beispielsweise im Falle der Warten-Aktivität:
 

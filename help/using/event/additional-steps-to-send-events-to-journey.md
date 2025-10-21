@@ -5,11 +5,11 @@ title: Zusätzliche Schritte zum Senden von Ereignissen an eine Journey
 description: Erfahren Sie mehr über die zusätzlichen Schritte zum Senden von Ereignissen an eine Journey
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Schritte, Konfiguration, Journey, Ereignisse, Stream, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 88%

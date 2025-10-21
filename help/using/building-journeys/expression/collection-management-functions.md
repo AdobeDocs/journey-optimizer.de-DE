@@ -4,12 +4,12 @@ product: journey optimizer
 title: Funktionen zur Verwaltung von Sammlungen
 description: Erfahren Sie mehr über die Datentypen in den Funktionen zur Verwaltung von Sammlungen
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%
