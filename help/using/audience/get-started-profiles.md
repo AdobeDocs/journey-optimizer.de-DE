@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 92%
 
 ---
 
@@ -25,6 +25,10 @@ Mit dem Echtzeit-Kundenprofil in [!DNL Adobe Journey Optimizer] erhalten Sie ein
 **Echtzeit-Kundenprofil**: Integrieren Sie Kundenattribute und Ereignisse aus Online-, Offline- und pseudonymen Quellen in ein einziges, einheitliches Profil.Verwenden Sie das Profil, um mit der Kundschaft über mehrere Touchpoints hinweg durch personalisierte Echtzeiterlebnisse zu interagieren. 
 
 **Datenaufnahme**: Stellen Sie eine Verbindung zu verschiedenen Datenquellen her, um Verhaltens-, Transaktions-, Finanz- und Betriebsdaten aufzunehmen. Importieren Sie Daten entweder in Echtzeit oder über Batch-Uploads, um Profile ständig zu aktualisieren. 
+
+>[!NOTE]
+>
+>Bei der Datenaufnahme wird zwischen Groß- und Kleinschreibung unterschieden, d. h. es können doppelte Profile erstellt werden (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.green@luma.com), die dann für die Abfrage dieser Profile in Ihren [!DNL Journey Optimizer] Journey und Kampagnen verwendet werden.
 
 **Identitätsdiagramm**: Kombinieren Sie Daten aus verschiedenen Quellen mithilfe von Kundenidentitäten wie Loyalty-IDs oder CRM-System-IDs. Erstellen Sie eine umfassende Ansicht der Kundin oder des Kunden, indem Sie Beziehungen zwischen verschiedenen Identitäten in den Datensätzen einer Marke zuordnen. 
 
@@ -54,4 +58,4 @@ Datenfragmente können aus verschiedenen Quellen zusammengeführt und kombiniert
 
 In diesem Video wird erläutert, wie Adobe Experience Platform Echtzeit-Kundenprofile zusammenstellt und aktualisiert und wie Sie auf diese Profile zugreifen und sie verwenden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/31581?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

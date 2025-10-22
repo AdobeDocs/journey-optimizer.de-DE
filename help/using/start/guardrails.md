@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2860'
 ht-degree: 98%
 
 ---
@@ -104,13 +104,15 @@ Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutz
 * Damit ein Fragment in einer Journey oder Kampagne verwendet werden kann, muss es sich im Status **Live** befinden. 
 * [Kontextuelle Attribute](../personalization/personalization-build-expressions.md) werden in Fragmenten nicht unterstützt.
 * Visuelle Fragmente sind zwischen den Modi „Designs verwenden“ und „Manuelle Formatierung“ nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Modus „Designs verwenden“ erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
-* Wenn in einer Journey oder Kampagne das Tracking aktiviert ist und Sie Links zu einem Fragment hinzufügen, das in einer Nachricht verwendet wird, werden diese Links ebenso wie alle anderen in der Nachricht enthaltenen Links nachverfolgt. [Weitere Informationen zu Links und Tracking](../email/message-tracking.md)
+* Wenn in einer Journey oder Kampagne das Tracking aktiviert ist und Sie Links zu einem Fragment hinzufügen, das in einer Nachricht verwendet wird, werden diese Links ebenso wie alle anderen in der Nachricht enthaltenen Links nachverfolgt. [Weitere Informationen über Links und Tracking](../email/message-tracking.md)
 
-## Leitlinien für Zielgruppen {#audience}
+## Leitplanken für Zielgruppen und Profile {#audience}
 
-Sie können bis zu 10 Zielgruppenkompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
+* Sie können bis zu 10 Zielgruppenkompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
 
-Weitere Informationen zu Zielgruppenkompositionen finden Sie auf [dieser Seite](../audience/get-started-audience-orchestration.md).
+  Weitere Informationen zu Zielgruppenkompositionen finden Sie auf [dieser Seite](../audience/get-started-audience-orchestration.md).
+
+* Bei der Datenaufnahme wird zwischen Groß- und Kleinschreibung unterschieden. Das bedeutet, dass doppelte Profile erstellt werden können (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.green@luma.com) und bei der Auswahl dieser Profile in Ihren [!DNL Journey Optimizer] Journey und Kampagnen verwendet werden können.
 
 ## Leitlinien für die Entscheidungsfindung und das Entscheidungs-Management {#decisioning-guardrails}
 
@@ -274,4 +276,4 @@ Für die Aktivität **[!UICONTROL Profil aktualisieren]** gelten spezifische Sch
 
 ## Leitlinien für die Kampagnenorchestrierung {#orchestration-guardrails}
 
-Leitplanken und Einschränkungen, die bei der Arbeit mit der Kampagnenorchestrierung zu beachten sind, werden in diesem Abschnitt beschrieben: [Leitplanken und Einschränkungen](../orchestrated/guardrails.md).
+Die bei der Kampagnenorchestrierung zu beachtenden Leitlinien und Einschränkungen werden in diesem Abschnitt beschrieben: [Leitlinien und Einschränkungen](../orchestrated/guardrails.md).
