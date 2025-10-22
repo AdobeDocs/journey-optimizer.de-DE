@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Nachrichtenoptimierung
+title: Optimierung in Kampagnen und Journeys
 description: Nutzen Sie die Nachrichtenoptimierung, um personalisierte und optimierte Marketing-Journeys und -Kampagnen zu erstellen.
 role: User
 level: Intermediate
 keywords: Kampagnenoptimierung, Experimente, Targeting, A/B-Tests
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 95%
+source-wordcount: '1253'
+ht-degree: 81%
 
 ---
 
@@ -68,11 +68,35 @@ Gehen Sie folgendermaßen vor, um das Targeting einzurichten.
 
    ![](assets/msg-optimization-select-targeting.png){width=85%}
 
-1. Verwenden Sie den Regel-Builder, um Ihre Kriterien festzulegen. Definieren Sie beispielsweise eine Regel für in den USA ansässige Personen, eine Regel für in Frankreich ansässige Personen und eine Regel für in Indien ansässige Personen.
+1. Klicken Sie **[!UICONTROL Regel erstellen]** > **[!UICONTROL Neu erstellen]** und verwenden Sie den Regel-Builder, um Ihre Kriterien von unterwegs aus zu definieren.
+
+   ![](assets/msg-optimization-create-rule.png){width=100%}
+
+   Definieren Sie beispielsweise eine Regel für in den USA ansässige Personen, eine Regel für in Frankreich ansässige Personen und eine Regel für in Indien ansässige Personen.
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. Wählen Sie nach Bedarf **[!UICONTROL Fallback-Inhalte aktivieren]** aus. Mit Fallback-Inhalten kann Ihre Zielgruppe einen Standardinhalt erhalten, falls keine der Targeting-Regeln erfüllt ist. 
+1. Sie können auch auf **[!UICONTROL Regel erstellen]** > **[!UICONTROL Regel auswählen]** klicken, um eine vorhandene Zielgruppenregel auszuwählen, die im Menü **[!UICONTROL Regeln]** erstellt wurde. [Weitere Informationen](../experience-decisioning/rules.md)
+
+   ![](assets/msg-optimization-select-rule.png){width=70%}
+
+   In diesem Fall wird die Formel, aus der die Regel besteht, einfach auf die Journey oder Kampagne kopiert. Spätere Änderungen an dieser Regel im Menü **[!UICONTROL Regeln]** wirken sich nicht auf die Journey oder die Kampagnenkopie aus.
+
+   >[!AVAILABILITY]
+   >
+   >[Erstellen von Zielgruppenregeln](../experience-decisioning/rules.md#create) im dedizierten Menü [!DNL Journey Optimizer] ist derzeit für Organisationen verfügbar, die das Add-on Decisioning-Angebot erworben haben, und sie sind für andere Organisationen bei Bedarf verfügbar (eingeschränkte Verfügbarkeit).
+   >
+   >Diese Kapazität wird schrittweise für alle Kunden eingeführt. Wenden Sie sich in der Zwischenzeit an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten.
+
+1. Nachdem Sie eine Regel hinzugefügt haben, können Sie sie noch ändern. Wählen Sie **[!UICONTROL Inline bearbeiten]**, um sie mithilfe des Regel-Builders unterwegs zu aktualisieren, oder **[!UICONTROL Regel auswählen]**, um eine andere vorhandene Regel aufzunehmen.
+
+   ![](assets/msg-optimization-modify-rule.png){width=100%}
+
+   >[!NOTE]
+   >
+   >Die Inline-Bearbeitung einer Regel hat keine Auswirkungen auf die vorhandene Regel, von der sie stammt.
+
+1. Wählen Sie nach Bedarf **[!UICONTROL Fallback-Inhalte aktivieren]** aus. Mit Fallback-Inhalten kann Ihre Zielgruppe Standardinhalte empfangen, wenn keine Targeting-Regeln qualifiziert sind.
 
    >[!NOTE]
    >
@@ -186,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Erfahren Sie, wie Sie die Nachrichtenoptimierung in durch eine Aktion oder durch API ausgelösten Kampagnen nutzen. Sie erfahren, wie Sie Teilzielgruppen ansprechen, Nachrichtenvarianten je nach Standort erstellen, Fallback-Inhalte aktivieren und mehrere Experimente innerhalb einer Kampagne durchführen. In diesem Tutorial wird auch beschrieben, wie Sie Multi-Channel-Kampagnen verwalten und dabei die Konsistenz der Nachrichten beibehalten können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470377?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

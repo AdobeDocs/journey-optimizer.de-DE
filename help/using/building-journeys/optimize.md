@@ -11,10 +11,10 @@ keywords: Aktivität, Bedingung, Arbeitsfläche, Journey, Optimierung
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 15a143956156458cf78d02a4cf92300e97cef949
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 99%
+source-wordcount: '1461'
+ht-degree: 88%
 
 ---
 
@@ -53,7 +53,7 @@ Sobald die Journey live ist, werden die Profile anhand der definierten Kriterien
 >id="ajo_path_experiment_success_metric"
 >title="Erfolgsmetrik"
 >abstract="Die Erfolgsmetrik wird verwendet, um die Abwandlung mit der besten Leistung in einem Experiment zu verfolgen und zu bewerten."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Konfigurieren und Verfolgen der Journey-Metriken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Konfigurieren und Verfolgen der Journey-Metriken"
 
 Mit Experimenten können Sie verschiedene Pfade auf der Grundlage einer zufälligen Aufteilung testen, um anhand vordefinierter Erfolgsmetriken zu ermitteln, welcher Pfad am besten funktioniert.
 
@@ -186,9 +186,33 @@ Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 
 1. Klicken Sie auf **[!UICONTROL Targeting-Regel erstellen]**.
 
-1. Verwenden Sie den Regel-Builder, um Ihre Kriterien festzulegen. Definieren Sie beispielsweise eine Regel für Gold-Mitglieder des Treueprogramms (`loyalty.status.equals("Gold", false)`) und eine weitere Regel für die anderen Mitglieder (`loyalty.status.notEqualTo("Gold", false)`).
+1. Klicken Sie **[!UICONTROL Regel erstellen]** > **[!UICONTROL Neu erstellen]** und verwenden Sie den Regel-Builder, um Ihre Kriterien zu definieren.
+
+   ![](assets/journey-targeting-create-rule.png){width=100%}
+
+   Definieren Sie beispielsweise eine Regel für Gold-Mitglieder des Treueprogramms (`loyalty.status.equals("Gold", false)`) und eine weitere Regel für die anderen Mitglieder (`loyalty.status.notEqualTo("Gold", false)`).
 
    ![](assets/journey-targeting-rule.png)
+
+1. Sie können auch auf **[!UICONTROL Regel erstellen]** > **[!UICONTROL Regel auswählen]** klicken, um eine vorhandene Zielgruppenregel auszuwählen, die im Menü **[!UICONTROL Regeln]** erstellt wurde. [Weitere Informationen](../experience-decisioning/rules.md)
+
+   ![](assets/journey-targeting-select-rule.png){width=70%}
+
+   In diesem Fall wird die Formel, aus der die Regel besteht, einfach in die Journey-Aktivität kopiert. Spätere Änderungen an dieser Regel im Menü **[!UICONTROL Regeln]** wirken sich nicht auf die Kopie der Journey aus.
+
+   >[!AVAILABILITY]
+   >
+   >[Erstellen von Zielgruppenregeln](../experience-decisioning/rules.md#create) im dedizierten Menü [!DNL Journey Optimizer] ist derzeit für Organisationen verfügbar, die das Add-on Decisioning-Angebot erworben haben, und sie sind für andere Organisationen bei Bedarf verfügbar (eingeschränkte Verfügbarkeit).
+   >
+   >Diese Kapazität wird schrittweise für alle Kunden eingeführt. Wenden Sie sich in der Zwischenzeit an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten.
+
+1. Nachdem Sie eine Regel hinzugefügt haben, können Sie sie noch ändern. Wählen Sie **[!UICONTROL Inline bearbeiten]**, um sie mithilfe des Regel-Builders unterwegs zu aktualisieren, oder **[!UICONTROL Regel auswählen]**, um eine andere vorhandene Regel aufzunehmen.
+
+   ![](assets/journey-targeting-modify-rule.png){width=100%}
+
+   >[!NOTE]
+   >
+   >Die Inline-Bearbeitung einer Regel hat keine Auswirkungen auf die vorhandene Regel, von der sie stammt.
 
 1. Aktivieren Sie bei Bedarf die Option **[!UICONTROL Fallback-Pfad aktivieren]**. Diese Aktion erstellt einen Fallback-Pfad für die Zielgruppe, die keine der oben definierten Targeting-Regeln erfüllt.
 

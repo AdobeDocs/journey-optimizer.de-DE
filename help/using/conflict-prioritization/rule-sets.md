@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 100%
+source-wordcount: '1062'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Regelsätze"
->abstract="Verwenden Sie Regelsätze, um die Frequenzbegrenzung auf verschiedene Arten von Marketing-Kommunikationen anzuwenden. Sie können auch Regelsätze erstellen, um einen Teil der Zielgruppe anhand von Regeln zur Frequenzbegrenzung von Journeys auszuschließen."
+>abstract="Verwenden Sie Regelsätze, um Häufigkeitsbegrenzungen oder Regeln für ruhige Stunden auf verschiedene Arten von Marketing-Nachrichten anzuwenden. Sie können auch Regelsätze erstellen, um einen Teil der Zielgruppe anhand von Regeln zur Frequenzbegrenzung von Journeys auszuschließen."
 
 ## Erste Schritte mit Regelsätzen {#gs}
 
@@ -31,7 +31,11 @@ Mit Regelsätzen können **mehrere Regeln zu Regelsätzen gruppiert** und auf di
 
 Es können zwei Arten von Regelsätzen erstellt werden:
 
-* **Kanal**-Regelsätze wenden Begrenzungsregeln für Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
+* **Kanal** Regelsätze wenden Regeln auf Kommunikationskanäle an. Sie ermöglichen es Ihnen, Folgendes festzulegen:
+
+   * **Regeln zur Frequenzlimitierung** - *Senden Sie nicht mehr als 1 E-Mail- oder SMS-Kommunikation pro Tag.*
+   * **Regeln für ruhige**: (Eingeschränkte Verfügbarkeit) - *Senden Sie keine E-Mail-Nachrichten außerhalb des Zeitfensters von 8:00 bis 21:00 Uhr.*
+
 * **Journey**-Regelsätze wenden Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. Lassen Sie Profile beispielsweise nicht in mehrere Journeys gleichzeitig eintreten.
 
 ➡️ [Funktion im Video kennenlernen](#video)
@@ -76,7 +80,7 @@ Zusätzlich zu diesem „Globalen Standardregelsatz“ können **Regelsätze** e
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Regeltyp"
->abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den Typ **Frequenzbegrenzung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag. Wählen Sie **Ruhezeiten** (eingeschränkte Verfügbarkeit) aus, um zeitbasierte Ausschlüsse zu definieren und so sicherzustellen, dass während bestimmter Zeiträume keine Nachrichten gesendet werden."
+>abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den Typ **Frequenzbegrenzung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag. Wählen Sie **Ruhezeiten** (eingeschränkte Verfügbarkeit) aus, um zeitbasierte Ausschlüsse zu definieren und so sicherzustellen, dass während bestimmter Zeiträume keine Nachrichten gesendet werden.
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -107,7 +111,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 1. Wählen Sie die Regelsatz-Domain aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
-   * **Kanal**-Domain: wendet Begrenzungsregeln für Kommunikationskanäle an. 
+   * **Kanal** Domäne: Wenden Sie Begrenzungsregeln oder Regeln für ruhige Stunden auf Kommunikationskanäle an.
    * **Journey**-Domain: wendet Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. 
 
    ![](assets/rule-sets-create.png)
@@ -116,10 +120,11 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 1. Konfigurieren Sie die Regelparameter nach Bedarf. Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung ausgewählten Regelsatz-Domain ab.
 
-   Detaillierte Informationen zum Konfigurieren von Journey- und Kanalbegrenzungsregeln sind in den folgenden Abschnitten verfügbar:
+   Detaillierte Informationen zum Konfigurieren von Journey- und Kanalregeln finden Sie in den folgenden Abschnitten:
 
    * [Journey-Begrenzung](../conflict-prioritization/journey-capping.md)
    * [Frequenzbegrenzung nach Kanal und Kommunikationstyp](../conflict-prioritization/channel-capping.md)
+   * [Ruhige Stunden](../conflict-prioritization/quiet-hours.md) (in begrenzter Verfügbarkeit verfügbar)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Erstellung der Regel zu bestätigen. Ihre Nachricht wird dem Regelsatz mit dem Status **[!UICONTROL Entwurf]** hinzugefügt.
 
@@ -146,7 +151,8 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
    Weitere Informationen zum Anwenden von Regelsätzen sind in den folgenden Abschnitten verfügbar:
 
    * [Anwenden eines Regelsatzes auf eine Journey](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [Anwenden von Begrenzungsregeln auf eine Nachricht](../conflict-prioritization/channel-capping.md#apply)
+   * [Anwenden von Begrenzungsregeln auf Journey- und Kampagnenaktionen](../conflict-prioritization/channel-capping.md#apply)
+   * [Regeln für ruhige Stunden auf Journey und Kampagnen anwenden](../conflict-prioritization/quiet-hours.md#apply)
 
 ## Zugriff auf und Verwaltung von Regelsätzen {#access-rule-sets}
 
@@ -174,4 +180,4 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

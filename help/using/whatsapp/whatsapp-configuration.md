@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 94%
+source-wordcount: '902'
+ht-degree: 93%
 
 ---
 
@@ -84,7 +84,7 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie n
 >
 >Ohne angegebene Opt-in- oder Opt-out-Keywords sind standardmäßige Einverständnisnachrichten nicht aktiviert.
 
-Nachdem Ihre WhatsApp-API-Anmeldeinformationen erfolgreich erstellt wurden, können Sie jetzt Webhooks konfigurieren, um eingehende Antworten für die Verwaltung des Opt-in- und Opt-out-Einverständnisses zu erfassen und Versandberichte, einschließlich Lesebestätigungen, sofern verfügbar, zu erhalten.
+Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, können Sie jetzt Webhooks konfigurieren, um eingehende Antworten für die Verwaltung des Opt-in- und Opt-out-Einverständnisses zu erfassen und Versandberichte einschließlich Lesebestätigungen (sofern verfügbar) zu erhalten.
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL WhatsApp-Webhooks]** unter **[!UICONTROL WhatsApp-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
 
@@ -149,15 +149,21 @@ Nachdem Sie Ihren Webhook konfiguriert haben, können Sie Ihre WhatsApp-Konfigur
 
 1. Wählen Sie **[!DNL WhatsApp]** als Kanal aus.
 
-   ![](assets/whatsapp-config-2.png)
+   ![](assets/whatsapp-config-2.png){width=80%}
 
-1. Wählen Sie **[!UICONTROL Marketing-Aktion(en)]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit der Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Präferenzen Ihrer Kundinnen und Kunden zu respektieren. Weitere Informationen
+1. Wählen Sie **[!UICONTROL Marketing-Aktion(en)]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit der Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Präferenzen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
-1. Wählen Sie die zuvor erstellte **[!UICONTROL WhatsApp-API-Konfiguration]** aus.
+1. Wählen Sie **[!UICONTROL Abschnitt „WhatsApp]** Einstellungen“ die zuvor erstellte **[!UICONTROL WhatsApp-Konfiguration]** aus.
 
-   ![](assets/whatsapp-config-3.png)
+   ![](assets/whatsapp-config-3.png){width=80%}
 
-1. Geben Sie den **[!UICONTROL Absendernamen]** ein, den Sie für Ihre Kommunikation verwenden möchten.
+1. Geben Sie die **[!UICONTROL Absender]** Telefonnummer&#x200B; ein, die Sie für Ihre Nachrichten verwenden möchten.
+
+1. Verwenden Sie das **[!UICONTROL WhatsApp-Ausführungsfeld]**, um unter den Profilattributen die Telefonnummer auszuwählen, die Sie vorrangig verwenden möchten, wenn mehrere Zahlen in der Datenbank verfügbar sind. [Weitere Informationen](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+
+   >[!NOTE]
+   >
+   >Standardmäßig verwendet [!DNL Journey Optimizer] die in den [allgemeinen Einstellungen](../configuration/primary-email-addresses.md) der Sandbox-Ebene angegebene Telefonnummer. Durch die Aktualisierung dieses Felds wird der Standardwert für die Journeys und Kampagnen überschrieben, die diese Konfiguration verwenden.
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanalkonfiguration auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 
@@ -169,7 +175,7 @@ Nachdem Sie Ihren Webhook konfiguriert haben, können Sie Ihre WhatsApp-Konfigur
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Kanalkonfiguration den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
-Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenbearbeitung, Personalisierung, Linktracking und Berichte nutzen.
+Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenerstellung, Personalisierung, Linktracking und Reporting nutzen.
 
 Sie können jetzt mit Journey Optimizer WhatsApp-Nachrichten senden.
 
@@ -180,6 +186,6 @@ Im folgenden Video erfahren Sie, wie Sie den WhatsApp-Kanal in Adobe Journey Opt
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470277/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
