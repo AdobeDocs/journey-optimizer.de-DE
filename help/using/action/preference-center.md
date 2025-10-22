@@ -10,9 +10,9 @@ level: Experienced
 keywords: Richtlinien, Governance, Plattform, Einverständnis, Healthcare Shield
 hide: true
 hidefromtoc: true
-source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+source-git-commit: 95f101c3d8f875dbf7988f10b106fc58f705e926
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '852'
 ht-degree: 4%
 
 ---
@@ -49,19 +49,19 @@ Angenommen, Sie möchten Ihre Kunden anhand ihrer Kommunikationsvoreinstellungen
 
 1. Definieren Sie Präferenzattribute mit dem booleschen Operator auf Profilebene<!--how??-->. Sie können beispielsweise Folgendes angeben:
 
-   * newsletter_email - Boolesch (true/false)
-   * Angebote - Boolesch (true/false)
-   * Neue Produkteinführungen - Boolesch (true/false)
+   * *Newsletter_Email* - Boolesch (true/false)
+   * *offers_push* - Boolesch (true/false)
+   * *Neue Produkteinführungen* - Boolesch (true/false)
 
-   Diese Attribute werden im Schema eines profilaktivierten Datensatzes ([) erfasst &#x200B;](../data/get-started-datasets.md) dem [Unified Customer Profile](../audience/get-started-profiles.md) zugeordnet.
+   Diese Attribute werden im Schema eines profilaktivierten Datensatzes ([) erfasst ](../data/get-started-datasets.md) dem [Unified Customer Profile](../audience/get-started-profiles.md) zugeordnet.
 
    >[!NOTE]
    >
    >Kundenzustimmung und Kontaktvoreinstellungen sind komplexe Themen. Um zu erfahren, wie Einverständnis- und Kontextvoreinstellungen in [!DNL Experience Platform] erfasst, verarbeitet und gefiltert werden können, sollten Sie die folgenden Dokumente lesen:
    >
-   >* Informationen zu den Schemafeldgruppen, die zum Erfassen von Einverständnisdaten erforderlich sind, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Es wird beschrieben, wie Sie die von Ihren Kunden erfassten Einverständnisdaten verarbeiten und in Ihre gespeicherten Kundenprofile integrieren können.
-   >* Weitere Informationen zur Feldergruppe „Einverständnis“ und „Voreinstellungen“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Um benutzerdefinierte Voreinstellungsfelder zum Schema hinzuzufügen, führen Sie die Schritte in [diesem Abschnitt](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"} aus.
+   >* Informationen zu den Schemafeldgruppen, die zum Erfassen von Einverständnisdaten erforderlich sind, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Es wird beschrieben, wie Sie die von Ihren Kunden erfassten Einverständnisdaten verarbeiten und in Ihre gespeicherten Kundenprofile integrieren können.
+   >* Weitere Informationen zur Feldergruppe „Einverständnis“ und „Voreinstellungen“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Um benutzerdefinierte Voreinstellungsfelder zum Schema hinzuzufügen, führen Sie die Schritte in [diesem Abschnitt](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"} aus.
 
 1. Erstellen Sie eine Seite, um die Voreinstellungen Ihrer Kunden zu erfassen. Verwenden Sie eine der folgenden Methoden:
 
@@ -75,21 +75,23 @@ Angenommen, Sie möchten Ihre Kunden anhand ihrer Kommunikationsvoreinstellungen
 
 1. Auf dieser Seite können Kundinnen und Kunden ihre Voreinstellungen, z. B. themenbezogene Abonnements, aktualisieren, indem sie Kontrollkästchen aktivieren oder deaktivieren.
 
-   Trigger Jede Aktion gibt ein Einverständnisereignis aus, das für die entsprechenden Profilattribute gespeichert wird (`True` für Opt-in, `False` für Opt-out), indem die Daten in das profilaktivierte Datensatzschema aufgenommen werden<!-- that contains the corresponding preference fields-->.
+   Trigger Jede Aktion gibt ein Einverständnisereignis aus, das für die entsprechenden Profilattribute gespeichert wird (`true` für Opt-in, `false` für Opt-out), indem die Daten in das profilaktivierte Datensatzschema aufgenommen werden<!-- that contains the corresponding preference fields-->.
 
    <!--Record your users' preferences through the web page or landing page that you created. The data is saved against the corresponding profile, meaning that the preference data is ingested into a Profile-enabled dataset whose schema contains consent/preference fields.-->
 
-   Ein Benutzer mit der E-Mail-Adresse john.black@lumamail.com hat beispielsweise dem Empfang von Angeboten zugestimmt, möchte jedoch keinen Newsletter erhalten.
+   Ein Benutzer <!--whose email address is john.black@lumamail.com--> beispielsweise dem Empfang von Push-Angeboten zugestimmt, möchte jedoch keine E-Mail-Newsletter erhalten. Das entsprechende Profil wird wie folgt aktualisiert:
 
-   Der entsprechende Profildatensatz wird wie folgt aktualisiert:
+   ![](assets/profile-preference-attributes.png){width=80%}
 
-   | Attribut = E-Mail-ID | Attribut = Angebote | Attribut = Newsletter |
-   |---------|----------|---------|
-   | john.black@lumamail.com | Y | N |
+<!--The corresponding profile dataset is updated as follows:
 
-   >[!NOTE]
-   >
-   >Die eingehenden Einverständnisereignisse werden in das Kundenprofil eingespeist, sodass Echtzeit-Aktualisierungen gewährleistet sind. Jedes Profil spiegelt die neuesten Auswahlmöglichkeiten in den Abonnementvoreinstellungen wider.
+|Attribute = Email id | Attribute = Offers_Push | Attribute = Newsletters_Email |
+|---------|----------|---------|
+| john.black@lumamail.com | Y | N |-->
+
+    >[!NOTE]
+    >
+    >Die eingehenden Einverständnisereignisse werden in das Kundenprofil eingespeist, sodass Echtzeit-Aktualisierungen gewährleistet sind. Jedes Profil spiegelt die neuesten Auswahlmöglichkeiten in den Abonnementvoreinstellungen wider.
 
 1. Erstellen Sie in Adobe Experience Platform eine benutzerdefinierte Richtlinie (über das Menü **[!UICONTROL Datenschutz]** > **[!UICONTROL Richtlinien]**). [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#create-policy){target="_blank"}
 
@@ -111,9 +113,9 @@ Angenommen, Sie möchten Ihre Kunden anhand ihrer Kommunikationsvoreinstellungen
     
     * Wenn **[!UICONTROL Marketing-Aktion]** gleich **[!UICONTROL E-Mail]**
     
-    * Dann **[!UICONTROL Newsletter_E-Mail]** nicht vorhanden ist **[!UICONTROL false]** Oder **[!UICONTROL Newsletter_E-]**&#x200B;nicht gleich **[!UICONTROL false]**
+    * Dann **[!UICONTROL Newsletter_E-Mail]** nicht vorhanden ist **[!UICONTROL false]** Oder **[!UICONTROL Newsletter_E-]**nicht gleich **[!UICONTROL false]**
     
-    ![](assets/consent-policy-email-newsletter.png){width=100%}
+    ![](assets/consent-policy-email-newsletter.png){width=80%}
     
     >[!TIP]
     >
