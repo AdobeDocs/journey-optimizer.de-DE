@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
+source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
 workflow-type: tm+mt
-source-wordcount: '2860'
+source-wordcount: '2861'
 ht-degree: 98%
 
 ---
@@ -112,7 +112,7 @@ Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutz
 
   Weitere Informationen zu Zielgruppenkompositionen finden Sie auf [dieser Seite](../audience/get-started-audience-orchestration.md).
 
-* Bei der Datenaufnahme wird zwischen Groß- und Kleinschreibung unterschieden. Das bedeutet, dass doppelte Profile erstellt werden können (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.green@luma.com) und bei der Auswahl dieser Profile in Ihren [!DNL Journey Optimizer] Journey und Kampagnen verwendet werden können.
+* Bei der Datenaufnahme wird zwischen Groß- und Kleinschreibung unterschieden. Das bedeutet, dass möglicherweise doppelte Profile erstellt werden (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.greene@luma.com), die beim Targeting der entsprechenden Empfängerin bzw. des entsprechenden Empfängers in Ihren [!DNL Journey Optimizer] Journey und Kampagnen verwendet werden.
 
 ## Leitlinien für die Entscheidungsfindung und das Entscheidungs-Management {#decisioning-guardrails}
 
