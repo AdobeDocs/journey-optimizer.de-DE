@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1419'
 ht-degree: 96%
 
 ---
@@ -23,6 +23,8 @@ Zu Beginn der Erstellung einer E-Mail müssen Sie Konfigurationen für E-Mail-Ka
 >[!NOTE]
 >
 >Richten Sie vor der Erstellung einer E-Mail-Konfiguration die Subdomains ein, die Sie zum Senden von E-Mails verwenden, um Ihre Reputation zu wahren und Ihre Zustellbarkeit zu verbessern. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
+>
+>Bevor Sie eine E-Mail-Kanal-Konfiguration erstellen, müssen Sie zunächst mindestens einen IP-Pool erstellt haben. [Weitere Informationen](../configuration/ip-pools.md)
 
 Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanalkonfiguration fest, wie unten beschrieben.
 
@@ -197,6 +199,6 @@ In diesem Fall verwendet [!DNL Journey Optimizer] die in den **[!UICONTROL Ausf�
 
 Dieses standardmäßige Ausführungsfeld kann jedoch auf der Konfigurationsebene des E-Mail-Kanals geändert werden. Diese Einstellung kann dann auf bestimmte Kampagnen oder Journeys angewendet werden.
 
-Bearbeiten Sie dazu das Feld **[!UICONTROL Versandadresse]** und wählen Sie ein Element aus der Liste der verfügbaren XDM-Felder vom Typ E-Mail aus. [Weitere Informationen](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+Bearbeiten Sie dazu das Feld **[!UICONTROL Versandadresse]** und wählen Sie ein Element aus der Liste der verfügbaren E-Mail-XDM-Felder aus. [Weitere Informationen](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
