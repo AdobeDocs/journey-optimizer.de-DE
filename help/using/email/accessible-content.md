@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 97%
+source-wordcount: '1638'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Dementsprechend finden Sie im Folgenden Best Practices für die Gestaltung barri
 >
 >Auf dieser Seite geht es darum, Ihre Inhalte für alle Empfängerinnen und Empfänger barrierefrei zu machen, um sicherzustellen, dass Menschen mit Behinderungen Ihre mit [!DNL Journey Optimizer] entworfenen E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
 >
->Dagegen wird die Barrierefreiheit der [!DNL Journey Optimizer]-Schnittstelle selbst in ([&#x200B; Abschnitt) &#x200B;](../start/accessibility.md).
+>Die Barrierefreiheit der [!DNL Journey Optimizer]-Oberfläche selbst wird hingegen in [diesem Abschnitt](../start/accessibility.md) beschrieben. 
 
 ## Sicherstellen der Lesbarkeit von Text {#text-readability}
 
@@ -142,9 +142,9 @@ Um konsistenter zu überprüfen, ob Ihre Inhalte zuverlässig barrierefrei sind,
 
 ## Verwenden des dunklen Modus {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
-
 Der dunkle Modus optimiert die visuelle Barrierefreiheit für Benutzende mit Lichtempfindlichkeit oder Sehbehinderungen, um das Anwendererlebnis zu verbessern.
+
+Mit der E-Mail-Designer können Sie in den **[!UICONTROL Dunkelmodus“ wechseln]** bestimmte benutzerdefinierte Einstellungen definieren, die von den unterstützenden E-Mail-Clients angezeigt werden. [Weitere Informationen](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
