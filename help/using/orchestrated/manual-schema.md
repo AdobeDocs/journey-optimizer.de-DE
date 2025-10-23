@@ -5,10 +5,10 @@ title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie direkt über die Benutzeroberfläche modellbasierte Schemata erstellen können.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
-workflow-type: ht
-source-wordcount: '871'
-ht-degree: 100%
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+workflow-type: tm+mt
+source-wordcount: '882'
+ht-degree: 98%
 
 ---
 
@@ -109,6 +109,8 @@ Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Nachdem Sie Attribute erstellt und gespeichert haben, können Sie das Schema durch Definieren von Beziehungen mit anderen relationalen Schemata verknüpfen.
+
+➡️ [Weitere Informationen zu relationalen Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Verknüpfen von Schemata {#link-schema}
 

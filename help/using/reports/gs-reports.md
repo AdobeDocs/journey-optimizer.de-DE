@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie auf  [!DNL Adobe Journey Optimizer] -Berichte
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 97%
 
 ---
 
@@ -133,3 +133,13 @@ Wählen Sie ein eingehendes Erlebnis aus, um zugeordnete **globale Berichte für
 <td><img alt="Inhaltskarten" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>Inhaltskarten</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>Journey-Bericht</strong></a></p></div></td>
 </tr></table>
+
+### Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie den Echtzeitbericht in Adobe Journey Optimizer effektiv verwenden.
+
++++Video ansehen
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++

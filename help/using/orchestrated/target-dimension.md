@@ -5,10 +5,10 @@ title: Erstellen einer Zielgruppendimension
 description: Erfahren Sie, wie Sie dem Kundenprofil ein relationales Schema zuordnen.
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
-workflow-type: ht
-source-wordcount: '372'
-ht-degree: 100%
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,8 @@ Bei der Konfiguration der Zielgruppenbestimmung definieren Sie zwei wichtige Asp
 * **Profilverknüpfung**
 
   Das System muss verstehen, wie das Zielschema dem `Profile`-Schema zugeordnet ist. Dies wird durch ein gemeinsames Identitätsfeld erreicht, das sowohl im Zielschema als auch im `Profile`-Schema existiert und als Identity-Namespace konfiguriert ist.
+
+➡️ [Weitere Informationen zu relationalen Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Erstellen einer Zielgruppendimension {#targeting-dimension}
 
