@@ -9,7 +9,7 @@ keywords: toDateTime, Funktion, Ausdruck, Journey
 exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
 ht-degree: 100%
 

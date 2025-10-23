@@ -9,7 +9,7 @@ keywords: setHours, Funktion, Ausdruck, Journey
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 

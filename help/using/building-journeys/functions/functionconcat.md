@@ -9,7 +9,7 @@ keywords: concat, Funktion, Ausdruck, Journey
 exl-id: 690c8aa9-f754-4720-b4ed-a338e5d3b79d
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '44'
 ht-degree: 100%
 

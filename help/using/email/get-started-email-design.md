@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: E-Mail, Design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
 ht-degree: 100%
 
@@ -78,4 +78,4 @@ Erfahren Sie, wie Sie mit dem Nachrichteneditor E-Mail-Inhalte erstellen.
 
 Erfahren Sie, wie Sie Inhaltsexperimente für A/B-Tests konfigurieren und E-Mail-Inhalte ausprobieren können, um Ihre Geschäftsziele bestmöglich zu erreichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447340?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

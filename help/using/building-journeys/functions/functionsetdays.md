@@ -9,7 +9,7 @@ keywords: setDays, Funktion, Ausdruck, Journey
 exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '80'
 ht-degree: 100%
 

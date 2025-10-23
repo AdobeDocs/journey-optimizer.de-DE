@@ -10,7 +10,7 @@ level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1906'
 ht-degree: 100%
 
@@ -277,4 +277,4 @@ Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgeho
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412601?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

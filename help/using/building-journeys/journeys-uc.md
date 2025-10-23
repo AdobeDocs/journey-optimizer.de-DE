@@ -11,7 +11,7 @@ keywords: Anwendungsfall, mehrere Kanäle, Nachrichten, Journey, Kanal, Ereignis
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
 ht-degree: 100%
 

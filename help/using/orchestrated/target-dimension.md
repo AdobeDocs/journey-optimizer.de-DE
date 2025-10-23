@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie dem Kundenprofil ein relationales Schema zuor
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
 source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
 ht-degree: 100%
 
