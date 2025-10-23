@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: Analytics, Integration, Web-SDK, Plattform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
 

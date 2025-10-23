@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Ausdruck, Editor, erste Schritte, Bedingungen, Starten
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
 

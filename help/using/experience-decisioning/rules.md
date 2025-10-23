@@ -68,7 +68,7 @@ Die folgenden Aktionen sind verfügbar:
 
 * Über die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben jedem Element haben Sie folgende Möglichkeiten:
 
-   * Wenn Sie die Entität **[!UICONTROL Entscheidungselement]** ausgewählt haben, fügen Sie die Regel einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. Erfahren Sie, wie [&#x200B; Objekte in eine andere Sandbox exportieren &#x200B;](../configuration/copy-objects-to-sandbox.md).
+   * Wenn Sie die Entität **[!UICONTROL Entscheidungselement]** ausgewählt haben, fügen Sie die Regel einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. Erfahren Sie, wie [ Objekte in eine andere Sandbox exportieren ](../configuration/copy-objects-to-sandbox.md).
    * Duplizieren Sie eine Regel.
    * Löschen einer Regel.
 
@@ -136,4 +136,4 @@ Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
 Erfahren Sie, wie Sie wiederverwendbare **Targeting-Regeln** in Adobe Journey Optimizer erstellen, duplizieren und anwenden, um Kampagnen effizient auf der Grundlage von Kundenattributen wie Region, Sprache und Verhalten zu personalisieren und so Zeit zu sparen und gleichzeitig die Genauigkeit der Zielgruppe zu verbessern.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476136/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

@@ -11,9 +11,9 @@ keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 4afd8e455ca0d61ad860ec735c30f1b36bb54e1b
 workflow-type: tm+mt
-source-wordcount: '4531'
+source-wordcount: '4526'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Adobe Journey Optimizer Journey.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Allgemeine Konzepte
 
@@ -343,7 +343,7 @@ Sie können die Journey-Ausführung auf verschiedene Weise verwalten:
 * **Sofort anhalten**: Beenden Sie den Journey und beenden Sie alle aktuell darin enthaltenen Profile.
 * **Pause**: Journey vorübergehend anhalten und später fortsetzen
 
-Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
+Weitere Informationen zum [ von Journey](end-journey.md).
 
 +++
 
@@ -544,9 +544,9 @@ Ja, es gibt mehrere Möglichkeiten, Kunden auszuschließen:
 
 **Innerhalb der Journey**:
 
-* Fügen Sie zu Beginn [&#x200B; Journey eine Aktivität &#x200B;](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
+* Fügen Sie zu Beginn [ Journey eine Aktivität ](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
 * Prüfen auf Ausschlussattribute (z. B. VIP-Status, Testkonten)
-* Identifizieren [&#x200B; auszuschließenden Profile mithilfe &#x200B;](audience-qualification-events.md)Zielgruppenqualifizierung“
+* Identifizieren [ auszuschließenden Profile mithilfe ](audience-qualification-events.md)Zielgruppenqualifizierung“
 
 **Beispielausschlussszenarien**:
 
@@ -744,19 +744,12 @@ Weitere Informationen zu [Zusammenführungsrichtlinien](../audience/get-started-
 
 +++ Was ist der Unterschied zwischen einer Bedingung und einer Warteaktivität?
 
-**Bedingungsaktivität**:
-
-* **Zweck**: Erstellt verschiedene Pfade basierend auf der Logik (if/then)
-* **Funktion**: Wertet Daten aus und leitet Profile entsprechend weiter.
-* **Anwendungsfälle**: Kunden segmentieren, Status überprüfen, Verzweigung basierend auf Verhalten
-* **Beispiel**: Wenn der Kunde VIP ist, senden Sie ein Premium-Angebot; andernfalls senden Sie ein Standardangebot.
-
-**Warteaktivität**:
-
-* **Zweck**: Hält die Journey für einen bestimmten Zeitraum an
-* **Funktion**: Hält Profile an einem bestimmten Punkt, bevor Sie fortfahren
-* **Anwendungsfälle**: Timing zwischen Nachrichten, Warten auf Geschäftszeiten, Erstellen von Verzögerungen
-* **Beispiel**: 3 Tage nach der Willkommens-E-Mail warten, bevor die nächste Nachricht gesendet wird
+| | **Bedingungsaktivität** | **Warteaktivität** |
+|---|---|---|
+| **Zweck** | Erstellt verschiedene Pfade basierend auf der Logik (if/then) | Hält die Journey für einen bestimmten Zeitraum an |
+| **Funktion** | Wertet Daten aus und leitet Profile entsprechend weiter | Profile werden an einem bestimmten Punkt gespeichert, bevor der Vorgang fortgesetzt wird |
+| **Anwendungsfall** | Segmentieren von Kunden, Überprüfen des Status, Verzweigung basierend auf dem Verhalten | Timing zwischen Nachrichten, Warten auf Geschäftszeiten, Verzögerungen verursachen |
+| **Beispiel** | Wenn der Kunde VIP ist, senden Sie ein Premium-Angebot; andernfalls senden Sie ein Standardangebot. | 3 Tage nach der Begrüßungs-E-Mail warten, bevor die nächste Nachricht gesendet wird |
 
 **Sie arbeiten zusammen**:
 
@@ -779,7 +772,7 @@ Zu den wichtigen Leitplanken gehören:
 * **Zielgruppengröße**: Beschränkungen für die Größe von gelesenen Zielgruppen-Batches
 * **Ausdruckskomplexität**: Zeichenbeschränkungen in Bedingungen und Personalisierung
 
-Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
+Vollständige Ansicht [Leitplanken und ](../start/guardrails.md))
 
 +++
 
@@ -841,7 +834,7 @@ Erfahren Sie mehr über das [Journey](using-the-journey-designer.md)Design und [
 **Überlegungen zum Design**:
 
 * Verwenden [zielgruppenbasierten Eintrags](read-audience.md) für Batch-Nachrichten anstelle von einzelnen Ereignissen
-* Angemessene Wartezeiten [, um &#x200B;](wait-activity.md) Nachrichtenvolumen zu verteilen
+* Angemessene Wartezeiten [, um ](wait-activity.md) Nachrichtenvolumen zu verteilen
 * Nutzen Sie [Begrenzungsregeln](../conflict-prioritization/journey-capping.md) um eine Systemüberlastung zu vermeiden
 * Optimieren [Bedingungslogik](condition-activity.md) um die Verarbeitungskomplexität zu reduzieren
 

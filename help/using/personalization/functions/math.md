@@ -39,7 +39,7 @@ Sie akzeptiert eine Zahl und eine Zeichenfolge, die das Gebietsschema darstellt,
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst werden
+Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst werden
 
 **Beispiel**
 

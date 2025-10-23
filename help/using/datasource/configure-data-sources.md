@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: Daten, Quelle, Konfiguration, Feld
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 100%
 

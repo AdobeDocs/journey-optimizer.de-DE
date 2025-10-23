@@ -9,7 +9,7 @@ keywords: updateTimeZone, Funktion, Ausdruck, Journey
 exl-id: 1bf4662e-55d0-4631-af93-1430ec7ed7e2
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 100%
 

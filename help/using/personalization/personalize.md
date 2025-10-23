@@ -97,7 +97,7 @@ Jetzt, da Sie über Kenntnisse zur Personalisierung in **[!DNL Journey Optimizer
 
 Erfahren Sie, wie Sie kontextuelle Ereignisinformationen von einer Journey verwenden können, um eine Nachricht zu personalisieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448148?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzufügen und die Zielgruppenzugehörigkeit als Vorbedingung für einen Personalisierungsbaustein verwenden.
 
@@ -105,4 +105,4 @@ Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzu
 
 Erfahren Sie, wie Sie den Personalisierungseditor-Playground nutzen können, um Personalisierungs-Code mithilfe von Beispieldaten zu schreiben und zu testen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475961?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)

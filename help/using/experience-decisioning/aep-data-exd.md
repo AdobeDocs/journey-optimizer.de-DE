@@ -11,7 +11,7 @@ level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 100%
 

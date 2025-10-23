@@ -9,7 +9,7 @@ keywords: sort, Funktion, Ausdruck, Journey
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
 

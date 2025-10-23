@@ -9,7 +9,7 @@ keywords: distinct, function, expression, journey
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 

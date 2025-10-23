@@ -53,15 +53,15 @@ Angenommen, Sie möchten Ihre Kunden anhand ihrer Kommunikationsvoreinstellungen
    * *offers_push* - Boolesch (true/false)
    * *Neue Produkteinführungen* - Boolesch (true/false)
 
-   Diese Attribute werden im Schema eines profilaktivierten Datensatzes ([) erfasst &#x200B;](../data/get-started-datasets.md) dem [Unified Customer Profile](../audience/get-started-profiles.md) zugeordnet.
+   Diese Attribute werden im Schema eines profilaktivierten Datensatzes ([) erfasst ](../data/get-started-datasets.md) dem [Unified Customer Profile](../audience/get-started-profiles.md) zugeordnet.
 
    >[!NOTE]
    >
    >Kundenzustimmung und Kontaktvoreinstellungen sind komplexe Themen. Um zu erfahren, wie Einverständnis- und Kontextvoreinstellungen in [!DNL Experience Platform] erfasst, verarbeitet und gefiltert werden können, sollten Sie die folgenden Dokumente lesen:
    >
-   >* Informationen zu den Schemafeldgruppen, die zum Erfassen von Einverständnisdaten erforderlich sind, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Es wird beschrieben, wie Sie die von Ihren Kunden erfassten Einverständnisdaten verarbeiten und in Ihre gespeicherten Kundenprofile integrieren können.
-   >* Weitere Informationen zur Feldergruppe „Einverständnis“ und „Voreinstellungen“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Um benutzerdefinierte Voreinstellungsfelder zum Schema hinzuzufügen, führen Sie die Schritte in [diesem Abschnitt](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"} aus.
+   >* Informationen zu den Schemafeldgruppen, die zum Erfassen von Einverständnisdaten erforderlich sind, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Es wird beschrieben, wie Sie die von Ihren Kunden erfassten Einverständnisdaten verarbeiten und in Ihre gespeicherten Kundenprofile integrieren können.
+   >* Weitere Informationen zur Feldergruppe „Einverständnis“ und „Voreinstellungen“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Um benutzerdefinierte Voreinstellungsfelder zum Schema hinzuzufügen, führen Sie die Schritte in [diesem Abschnitt](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"} aus.
 
 1. Erstellen Sie eine Seite, um die Voreinstellungen Ihrer Kunden zu erfassen. Verwenden Sie eine der folgenden Methoden:
 
@@ -113,7 +113,7 @@ Angenommen, Sie möchten Ihre Kunden anhand ihrer Kommunikationsvoreinstellungen
     
     * Wenn **[!UICONTROL Marketing-Aktion]** gleich **[!UICONTROL E-Mail]**
     
-    * Dann **[!UICONTROL Newsletter_E-Mail]** nicht vorhanden ist **[!UICONTROL false]** Oder **[!UICONTROL Newsletter_E-]**&#x200B;nicht gleich **[!UICONTROL false]**
+    * Dann **[!UICONTROL Newsletter_E-Mail]** nicht vorhanden ist **[!UICONTROL false]** Oder **[!UICONTROL Newsletter_E-]**nicht gleich **[!UICONTROL false]**
     
     ![](assets/consent-policy-email-newsletter.png){width=80%}
     
