@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: aa5577ebbeabea59a2c9bf55f68edd05710d7a03
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 98%
+source-wordcount: '981'
+ht-degree: 93%
 
 ---
 
@@ -33,6 +33,11 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 * Für die [Datenerfassung in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de){target="_blank"} muss ein Datenstrom definiert sein. Dazu können beispielsweise für den **[!UICONTROL Adobe Experience Platform]**-Service die Optionen Adobe Experience Platform Edge und **[!UICONTROL Adobe Journey Optimizer]** aktiviert werden.
 
   Dadurch wird sichergestellt, dass die von Journey Optimizer eingehenden Ereignisse korrekt von Adobe Experience Platform Edge verarbeitet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de){target="_blank"}
+
+
+  >[!NOTE]
+  >
+  >Die Verwendung von `context.datastream` wird derzeit nur für Web-Kanal-Kampagnen in Journey Optimizer unterstützt. Der Versuch, `context.datastream` in-App-Nachrichten zu verwenden, führt zu Validierungsfehlern wie `Invalid syntax Missing schema field: 'datastream`.
 
   ![](assets/inapp_config_6.png)
 
@@ -79,6 +84,7 @@ Gehen Sie wie folgt vor, um in Journey Optimizer eine In-App-Konfiguration zu er
    >[!NOTE]
    >
    >Bei iOS- und Android-Plattformen basiert der Versand ausschließlich auf der App-ID. Wenn beide Apps dieselbe App-ID verwenden, werden Inhalte für beide bereitgestellt, unabhängig von der in der **[!UICONTROL Kanalkonfiguration]** ausgewählten Plattform.
+   >Um den In-App-Nachrichtenversand auf eine bestimmte Plattform zu beschränken, müssen Sie gerätespezifische Regeln in Ihrer Journey- oder Kampagnenlogik implementieren.
 
    ![](assets/inapp_config_10.png)
 
