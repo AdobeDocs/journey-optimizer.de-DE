@@ -6,10 +6,10 @@ topic: Integrations, Content Management
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 9bd0b149acdce17b8157e6c0e747353e0dd00cc8
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 30%
+source-wordcount: '958'
+ht-degree: 29%
 
 ---
 
@@ -54,6 +54,8 @@ Sie können die folgenden Regeln verwenden:
 * Beim Erstellen [Zielgruppenbestimmung zur Inhaltsoptimierung](../campaigns/campaigns-message-optimization.md#targeting) in Journey oder Kampagnen;
 * Beim Erstellen der [Journey-Pfadoptimierung](../building-journeys/optimize.md#targeting).
 
+➡️ [Funktion im Video kennenlernen](#video)
+
 ## Zugriff auf Regeln {#access}
 
 Die Liste der Regeln ist im Menü **[!UICONTROL Entscheidungsfindung]** > **[!UICONTROL Strategie einrichten]** verfügbar.
@@ -66,7 +68,7 @@ Die folgenden Aktionen sind verfügbar:
 
 * Über die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben jedem Element haben Sie folgende Möglichkeiten:
 
-   * Wenn Sie die Entität **[!UICONTROL Entscheidungselement]** ausgewählt haben, fügen Sie die Regel einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. Erfahren Sie, wie [&#x200B; Objekte in eine andere Sandbox exportieren &#x200B;](../configuration/copy-objects-to-sandbox.md).
+   * Wenn Sie die Entität **[!UICONTROL Entscheidungselement]** ausgewählt haben, fügen Sie die Regel einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. Erfahren Sie, wie [ Objekte in eine andere Sandbox exportieren ](../configuration/copy-objects-to-sandbox.md).
    * Duplizieren Sie eine Regel.
    * Löschen einer Regel.
 
@@ -129,3 +131,9 @@ Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 >Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 15 KB groß sein. Das entspricht 15.000 ASCII-Zeichen (jeweils 1 Byte) oder 3.750 bis 7.500 Nicht-ASCII-Zeichen (jeweils 2 bis 4 Byte).
 >
 >[Erfahren Sie mehr über Eignungsregeln, Leitplanken und Einschränkungen](decisioning-guardrails.md#eligibility-rules)
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie wiederverwendbare **Targeting-Regeln** in Adobe Journey Optimizer erstellen, duplizieren und anwenden, um Kampagnen effizient auf der Grundlage von Kundenattributen wie Region, Sprache und Verhalten zu personalisieren und so Zeit zu sparen und gleichzeitig die Genauigkeit der Zielgruppe zu verbessern.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
