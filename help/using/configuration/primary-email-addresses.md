@@ -100,7 +100,7 @@ Verwenden Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** re
 >title="Überschreiben der zu verwendenden Standard-Ausführungsadresse"
 >abstract="Wenn mehrere E-Mail-Adressen oder Telefonnummern in der Datenbank vorhanden sind (privat, professionell usw.), kann ausgewählt werden, welche für den Versand Vorrang haben soll. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber hier können Sie die Standardeinstellung für diese bestimmte Kanalkonfiguration überschreiben."
 
-Sie können die standardmäßige Ausführungsadresse für eine bestimmte E-Mail-, SMS- oder WhatsApp-[Kanalkonfiguration) ](channel-surfaces.md).
+Sie können die standardmäßige Ausführungsadresse für eine bestimmte E-Mail-, SMS- oder WhatsApp-[Kanalkonfiguration) &#x200B;](channel-surfaces.md).
 
 Gehen Sie dazu zum Abschnitt **[!UICONTROL Ausführungsdimension]** und bearbeiten Sie das entsprechende Feld unter **[!UICONTROL Ausführungsadresse]**.
 
