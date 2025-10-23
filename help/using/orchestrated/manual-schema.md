@@ -110,7 +110,7 @@ Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens
 
 Nachdem Sie Attribute erstellt und gespeichert haben, können Sie das Schema durch Definieren von Beziehungen mit anderen relationalen Schemata verknüpfen.
 
-➡️ [Weitere Informationen zu relationalen Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Weitere Informationen zu relationalen Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Verknüpfen von Schemata {#link-schema}
 
