@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 95%
+source-wordcount: '424'
+ht-degree: 80%
 
 ---
 
@@ -34,6 +34,10 @@ Der Prozess der Inhaltserstellung hängt vom ausgewählten Kanal ab. Auf den fol
 <td><a href="../push/create-push.md"><img alt="Push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><a href="../push/create-push.md"><strong>Push-Benachrichtigung</strong></a></div></td>
 </tr></table>
+
+>[!IMPORTANT]
+>
+>[Kampagnen mit hohem Durchsatz](../campaigns/api-triggered-high-throughput.md) basieren nicht auf Adobe-Profilen: Alle Personalisierungen müssen als Kontextdaten in die API-Payload aufgenommen werden, wie unten beschrieben. Dieser Modus ist nur für den E-Mail-Kanal und in der US-Region verfügbar.
 
 ## Personalisieren von Inhalten mit kontextuellen Daten {#contextual}
 

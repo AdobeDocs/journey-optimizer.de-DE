@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '3003'
+source-wordcount: '3011'
 ht-degree: 98%
 
 ---
@@ -231,6 +231,7 @@ ht-degree: 98%
       + [Planen der Kampagne](using/campaigns/api-triggered-campaign-schedule.md)
       + [Prüfen und Aktivieren der Kampagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Auslösen der Kampagnenausführung](using/campaigns/trigger-campaigns.md)
+      + [Aktivieren des Modus mit hohem Durchsatz für API-ausgelöste Kampagnen](using/campaigns/api-triggered-high-throughput.md)
    + Orchestrierte Kampagnen {#orchestrated-campaigns}
       + [Orchestrierte Kampagnen](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Erste Schritte mit orchestrierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)

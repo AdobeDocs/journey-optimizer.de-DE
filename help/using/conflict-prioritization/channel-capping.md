@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
-workflow-type: ht
-source-wordcount: '1225'
-ht-degree: 100%
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+workflow-type: tm+mt
+source-wordcount: '1226'
+ht-degree: 98%
 
 ---
 
@@ -116,7 +116,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz auf eine Nachricht anzuwenden:
 
 1. Stellen Sie vor dem Aktivieren der Journey oder Kampagne muss sicher, dass die Ausführung mindestens 10 Minuten im Voraus geplant ist.
 
-   Dies ermöglicht ausreichend Zeit, um die Zählerwerte im Profil für die ausgewählte Geschäftsregel zu füllen. Wenn Sie die Kampagne sofort aktivieren, werden die Zählerwerte des Regelsatzes nicht in den Profilen der Empfangenden ausgefüllt und die Nachricht wird nicht in Bezug auf die Frequenzbegrenzungsregeln für die benutzerdefinierten Regelsätze gezählt. Darüber hinaus funktioniert die Begrenzung möglicherweise nicht richtig für sofort aktivierte Journeys und Kampagnen und für durch API ausgelöste Kampagnen.
+   Dies ermöglicht ausreichend Zeit, um die Zählerwerte im Profil für die ausgewählte Geschäftsregel zu füllen. Wenn Sie die Kampagne sofort aktivieren, werden die Zählerwerte des Regelsatzes nicht in den Profilen der Empfangenden ausgefüllt und die Nachricht wird nicht in Bezug auf die Frequenzbegrenzungsregeln für die benutzerdefinierten Regelsätze gezählt. Darüber hinaus funktioniert die Begrenzung möglicherweise nicht richtig für Journey und Kampagnen, die sofort aktiviert werden, und für API-ausgelöste Kampagnen.
 
    ![](assets/rule-set-schedule-campaign.png)
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

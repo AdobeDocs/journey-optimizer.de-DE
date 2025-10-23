@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 59%
+source-wordcount: '956'
+ht-degree: 92%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
->abstract="Den Kampagnentyp auswählen. Die verfügbaren Kanäle variieren je nach ausgewähltem Typ. <br>**Geplante Kampagnen** (Aktionskampagnen) – Ideal für einfache, einmalige Batch-Nachrichten, deren Ausführung für einen bestimmten Zeitpunkt geplant werden kann.<br>**Per API ausgelöste Kampagnen** – Werden über einen API-Aufruf aktiviert, wodurch direkt von externen Systemen aus automatisiertes, ereignisbasiertes Messaging ermöglicht wird.<br>**Orchestrierte Kampagnen** – Stellen eine visuelle Drag-and-Drop-Arbeitsfläche bereit, auf der komplexe, mehrstufige Marketing-Workflows entworfen und automatisiert werden können: von der Zielgruppensegmentierung bis hin zum kanalübergreifenden Versand personalisierter Nachrichten."
+>abstract="Den Kampagnentyp auswählen. Die verfügbaren Kanäle variieren je nach ausgewähltem Typ. <br>**Geplante Kampagnen** (Aktionskampagnen) – Ideal für einfache, einmalige Batch-Nachrichten, deren Ausführung für einen bestimmten Zeitpunkt geplant werden kann.<br>**API-ausgelöste Kampagnen** - Wird über einen API-Aufruf aktiviert, wodurch automatisiertes, ereignisbasiertes Messaging direkt von externen Systemen aus ermöglicht wird.<br>**Orchestrierte Kampagnen** – Stellen eine visuelle Drag-and-Drop-Arbeitsfläche bereit, auf der komplexe, mehrstufige Marketing-Workflows entworfen und automatisiert werden können: von der Zielgruppensegmentierung bis hin zum kanalübergreifenden Versand personalisierter Nachrichten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
@@ -84,7 +84,7 @@ ht-degree: 59%
 >title="Kampagnen"
 >abstract="Senden Sie Transaktionsnachrichten an einzelne Profile oder Profilgruppen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigungen."
 
-Verwenden Sie [!DNL Journey Optimizer] Kampagnen, um einmalige Inhalte für eine bestimmte Zielgruppe über mehrere Kanäle hinweg bereitzustellen. Im Gegensatz zu Journey, die Aktionen Schritt für Schritt ausführen, führen Kampagnen Aktionen gleichzeitig aus - entweder sofort oder nach einem definierten Zeitplan.
+Verwenden Sie [!DNL Journey Optimizer]-Kampagnen, um einmalige Inhalte für eine bestimmte Zielgruppe über verschiedene Kanäle hinweg bereitzustellen. Im Gegensatz zu Journeys, die Aktionen Schritt für Schritt ausführen, führen Kampagnen Aktionen gleichzeitig aus, entweder sofort oder nach einem definierten Zeitplan.
 
 ![](assets/gs-campaigns.png)
 
@@ -98,29 +98,29 @@ Verwenden Sie [!DNL Journey Optimizer] Kampagnen, um einmalige Inhalte für eine
 
 >[!TAB Orchestrierte Kampagnen]
 
-**Orchestrierte Kampagnen** ermöglichen anspruchsvolle, markeninitiierte Marketing-Kampagnen über verschiedene Kanäle hinweg und helfen Ihnen so, Interaktion, Umsatz und Kundenloyalität in großem Umfang zu steigern.
+**Orchestrierte Kampagnen** ermöglichen kanalübergreifend anspruchsvolle, markenkonforme Marketing-Kampagnen und helfen Ihnen so, die Interaktion, den Umsatz und die Kundentreue im benötigten Umfang zu fördern.
 
 Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen machen es nahtlos. Auf einer visuellen Drag-and-Drop-Oberfläche können Sie komplexe Marketing-Workflows, von der Segmentierung bis hin zum Nachrichtenversand, über mehrere Kanäle hinweg entwerfen und automatisieren. Alles geschieht in einer intuitiven Umgebung, die auf Geschwindigkeit, Kontrolle und Effizienz ausgelegt ist.
 
-➡️ [Erfahren Sie, wie Sie mit orchestrierten Kampagnen &#x200B;](../orchestrated/gs-orchestrated-campaigns.md).
+➡️ [Erfahren Sie mehr über das Arbeiten mit orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md).
 
 >[!TAB Aktionskampagnen (oder geplante Kampagnen)]
 
-**Aktionskampagnen** auch als geplante Kampagnen bezeichnet, ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten.
+**Aktionskampagnen**, auch als geplante Kampagnen bezeichnet, ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten.
 
-* **Geplant - Marketing** - Für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen. Erfordert, dass Empfänger angemeldet werden.
-* **Geplant - Transaktion** - Im Gegensatz zu Marketing-Kampagnen erfordern Transaktions-Kampagnen nicht die Anmeldung von Empfängern. Verwenden Sie diese Kategorie für Kommunikationen im Zusammenhang mit Störungen, Notfällen, Stornierungen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigung.
+* **Geplant – Marketing**: Für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen. Erfordert, dass Empfängerinnen und Empfänger zugestimmt haben.
+* **Geplant – Transaktion**: Im Gegensatz zu Marketing-Kampagnen erfordern Transaktionskampagnen nicht das Opt-in von Empfängerinnen und Empfängern. Verwenden Sie diese Kategorie für Kommunikationen im Zusammenhang mit Störungen, Notfällen, Stornierungen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigung.
 
-➡️ [Erfahren Sie, wie Sie mit Aktionskampagnen arbeiten](create-campaign.md)
+➡️ [Informationen zum Arbeiten mit Aktionskampagnen](create-campaign.md)
 
 >[!TAB Durch API ausgelöste Kampagnen]
 
-**API-ausgelöste Kampagnen** ermöglichen es Ihnen, die Ausführung der Kampagne mithilfe eines API-Aufrufs im Trigger zu halten. Diese Nachrichten können an Stellen gesendet werden, an denen die Notwendigkeit einer Personalisierung nicht nur mit Profilattributen wie Kennwortzurücksetzung besteht, sondern auch mit Echtzeit-Kontextdaten im Trigger, bei dem es sich um eine REST-API-Payload handelt.
+**Durch API ausgelöste Kampagnen** ermöglichen es Ihnen, die Ausführung der Kampagne mithilfe eines API-Aufrufs auszulösen. Diese Nachrichten können an Stellen gesendet werden, an denen die Notwendigkeit einer Personalisierung nicht nur mit Profilattributen wie Kennwortzurücksetzung besteht, sondern auch mit Echtzeit-Kontextdaten im Trigger, bei dem es sich um eine REST-API-Payload handelt.
 
-* **API-ausgelöst - Marketing** - Senden Sie personalisierte Marketing-Nachrichten an ausgewählte Zielgruppen.
-* **API-ausgelöst - Transaktion** - Senden von Nachrichten nach einer Aktion, die von einer Person ausgeführt wurde, z. B. Anforderung zum Zurücksetzen des Kennworts, Warenkorbkauf usw.
+* **Durch API ausgelöst – Marketing**: Senden Sie personalisierte Marketing-Nachrichten an ausgewählte Zielgruppen.
+* **Durch API ausgelöst – Transaktion**: Senden Sie Nachrichten nach einer Aktion, die von einer Person ausgeführt wurde, z. B. Anfrage zum Zurücksetzen des Passworts, Warenkorbkauf usw.
 
-➡️ [Erfahren Sie, wie Sie mit API-ausgelösten Kampagnen arbeiten](api-triggered-campaigns.md)
+➡️ [Informationen zum Arbeiten mit durch API ausgelösten Kampagnen](api-triggered-campaigns.md)
 
 
 >[!ENDTABS]
@@ -129,7 +129,7 @@ Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen ma
 
 Die nachstehende Tabelle zeigt die Verfügbarkeit der einzelnen Kanäle über verschiedene Kampagnentypen hinweg und gibt an, wo sie unterstützt werden.
 
-| Kanal | Aktion (Marketing) | Aktion (Transaktion) | API-ausgelöst (Marketing) | API-ausgelöst (Transaktion) | orchestriert |
+| Kanal | Aktion (Marketing) | Aktion (Transaktion) | API-ausgelöst (Marketing) | API-ausgelöst (Transaktion) | Orchestriert |
 |----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
 | E-Mail | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -137,26 +137,26 @@ Die nachstehende Tabelle zeigt die Verfügbarkeit der einzelnen Kanäle über ve
 | In-App | ✅ | — | — | — | — |
 | Direkt-Mail | ✅ | — | — | — | — |
 | Web | ✅ | — | — | — | — |
-| Code-basierte Ausl. | ✅ | — | — | — | — |
+| Code-basiertes Erlebnis | ✅ | — | — | — | — |
 | Inhaltskarten | ✅ | — | — | — | — |
 | WhatsApp | ✅ | — | — | — | — |
 | Zeile | ✅ | — | — | — | — |
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie mit Kampagnen arbeiten, stellen Sie sicher, dass Sie die folgenden Voraussetzungen gelesen haben.
+Stellen Sie vor der Arbeit mit Kampagnen sicher, dass Sie die folgenden Voraussetzungen überprüft haben.
 
 * **Zielgruppen** Zielgruppen müssen vor der Erstellung der Kampagne verfügbar sein. [Erste Schritte mit Zielgruppen](../audience/about-audiences.md).
 
-* **Kanalkonfigurationen** - Um einen Kanal auswählen zu können, muss die entsprechende Kanalkonfiguration (d. h. Voreinstellung) erstellt und verfügbar sein. [Erfahren Sie, wie Sie die Kanalkonfiguration einrichten](../configuration/channel-surfaces.md).
+* **Kanalkonfigurationen**: Damit ein Kanal ausgewählt werden kann, muss die entsprechende Kanalkonfiguration (d. h. Voreinstellung) erstellt worden sein und verfügbar sein. [Erfahren Sie, wie Sie die Kanalkonfiguration einrichten](../configuration/channel-surfaces.md).
 
-* **Berechtigungen** - Kampagnen sind nur für Benutzer mit den entsprechenden unten aufgeführten Berechtigungen verfügbar. Wenn Sie nicht auf die Campaign-Funktionen zugreifen können, wenden Sie sich an Ihren Administrator, um die erforderlichen Berechtigungen anzufordern. [Weitere Informationen über native Rollen in Journey Optimizer](../administration/ootb-product-profiles.md)
+* **Berechtigungen**: Kampagnen stehen nur Benutzenden mit den entsprechenden Berechtigungen zur Verfügung, wie unten aufgeführt. Wenn Sie auf bestimmte Kampagnenfunktionen nicht zugreifen können, wenden Sie sich an Ihre bzw. Ihren Admin, um die erforderlichen Berechtigungen anzufordern. [Weitere Informationen über native Rollen in Journey Optimizer](../administration/ootb-product-profiles.md)
 
   | Kampagnentyp | Berechtigungen |
   |----------------------------|----------------------------------------------------------------------------|
-  | **Aktionskampagnen** | Campaign-Administrator<br>Campaign-Genehmiger<br>Kampagnen-Manager<br>Kampagnen-Betrachter |
-  | **Durch API ausgelöste Kampagnen** | Campaign-Administrator<br>Campaign-Genehmiger<br>Kampagnen-Manager<br>Kampagnen-Betrachter |
-  | **Orchestrierte Kampagnen** | Orchestrierte Kampagne Administrator<br>Orchestrierte Kampagne Genehmigende<br>Orchestrierte Kampagne Manager<br>Orchestrierte Kampagne Betrachtende |
+  | **Aktionskampagnen** | Admin einer Kampagne<br>Genehmigende Person einer Kampagne<br>Managerin bzw. Manager einer Kampagne<br>Betrachterin bzw. Betrachter einer Kampagne |
+  | **Durch API ausgelöste Kampagnen** | Admin einer Kampagne<br>Genehmigende Person einer Kampagne<br>Managerin bzw. Manager einer Kampagne<br>Betrachterin bzw. Betrachter einer Kampagne |
+  | **Orchestrierte Kampagnen** | Admin einer orchestrierten Kampagne<br>Genehmigende Person einer orchestrierten Kampagne<br>Managerin bzw. Manager einer orchestrierten Kampagne<br>Betrachterin bzw. Betrachter einer orchestrierten Kampagne |
 
   +++Informationen dazu, wie Sie eine kampagnenbezogene Rolle zuweisen
 

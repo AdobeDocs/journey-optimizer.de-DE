@@ -10,9 +10,9 @@ mini-toc-levels: 1
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1709'
 ht-degree: 94%
 
 ---
@@ -78,7 +78,7 @@ Für von einer Aktion und durch API ausgelöste Kampagnen sind die folgenden zus
 
 ## Kampagnenlebenszyklus {#statuses}
 
-In Adobe Journey Optimizer durchläuft jede Kampagne einen Lebenszyklus, der sich in ihrem Status in der Benutzeroberfläche widerspiegelt. Die verfügbaren Status variieren je nach Kampagnentyp: Aktion, API-ausgelöst oder orchestriert. Verwenden Sie die folgenden Registerkarten, um den Lebenszyklus und die Status für die einzelnen Kampagnentypen zu untersuchen.
+In Adobe Journey Optimizer durchläuft jede Kampagne einen Lebenszyklus, der sich in ihrem Status in der Benutzeroberfläche widerspiegelt. Die verfügbaren Status variieren je nach Kampagnentyp - Aktion, API-ausgelöst oder orchestriert. Verwenden Sie die folgenden Registerkarten, um den Lebenszyklus und die Status für die einzelnen Kampagnentypen zu untersuchen.
 
 >[!BEGINTABS]
 

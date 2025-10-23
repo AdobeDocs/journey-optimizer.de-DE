@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 86%
+source-wordcount: '297'
+ht-degree: 64%
 
 ---
 
@@ -27,6 +27,18 @@ Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen, die durch API ausge
    * **[!UICONTROL API-ausgelöst – Marketing]** – Wählen Sie diesen durch API ausgelösten Kampagnentyp aus, um personalisierte Marketing-Kommunikation an ausgewählte Zielgruppen zu senden.
 
    * **[!UICONTROL API-ausgelöst - Transaktion]** - Transaktionskampagnen dienen dem Versand von Transaktionsnachrichten, d. h. Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion gesendet werden: Anforderung zum Zurücksetzen des Passworts, Warenkorbkauf usw.
+
+     +++Hoher Durchsatz
+
+     Für Kampagnen, die durch eine Transaktions-API ausgelöst werden, können Sie den Modus **[!UICONTROL Hoher Durchsatz]** aktivieren. Dieser Modus wurde für umfangreiches Echtzeit-Messaging (bis zu 5.000 Transaktionen pro Sekunde) entwickelt und bietet eine höhere Verfügbarkeit mit geringerer Latenz. [Erfahren Sie, wie Sie mit dem Hochdurchsatzmodus arbeiten](../campaigns/api-triggered-high-throughput.md)
+
+     >[!AVAILABILITY]
+     >
+     >Derzeit ist der Modus „Hoher Durchsatz“ nur für den E-Mail-Kanal und in der US-Region verfügbar.
+     >
+     >Diese Funktion ist nur für Unternehmen verfügbar, die das Adobe Add-on **Transaktionsnachrichten mit hohem**&quot; erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.
+
+     +++
 
    ![](assets/api-triggered-modal.png)
 
