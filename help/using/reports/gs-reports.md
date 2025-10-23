@@ -140,6 +140,6 @@ Erfahren Sie, wie Sie den Echtzeitbericht in Adobe Journey Optimizer effektiv ve
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422692?captions=ger&learn=on)
 
 +++
