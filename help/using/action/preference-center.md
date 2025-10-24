@@ -57,9 +57,9 @@ Angenommen, Sie möchten Ihre Kunden anhand ihrer Kommunikationsvoreinstellungen
    >
    >Kundenzustimmung und Kontaktvoreinstellungen sind komplexe Themen. Um zu erfahren, wie Einverständnis- und Kontextvoreinstellungen in [!DNL Experience Platform] erfasst, verarbeitet und gefiltert werden können, sollten Sie die folgenden Dokumente lesen:
    >
-   >* Informationen zu den Schemafeldgruppen, die zum Erfassen von Einverständnisdaten erforderlich sind, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Es wird beschrieben, wie Sie die von Ihren Kunden erfassten Einverständnisdaten verarbeiten und in Ihre gespeicherten Kundenprofile integrieren können.
-   >* Weitere Informationen zur Feldergruppe „Einverständnis“ und „Voreinstellungen“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Um benutzerdefinierte Voreinstellungsfelder zum Schema hinzuzufügen, führen Sie die Schritte in [diesem Abschnitt](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"} aus.
+   >* Informationen zu den Schemafeldgruppen, die zum Erfassen von Einverständnisdaten erforderlich sind, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Es wird beschrieben, wie Sie die von Ihren Kunden erfassten Einverständnisdaten verarbeiten und in Ihre gespeicherten Kundenprofile integrieren können.
+   >* Weitere Informationen zur Feldergruppe „Einverständnis“ und „Voreinstellungen“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Um benutzerdefinierte Voreinstellungsfelder zum Schema hinzuzufügen, führen Sie die Schritte in [diesem Abschnitt](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"} aus.
 
 1. Erstellen Sie eine Seite, um die Voreinstellungen Ihrer Kunden zu erfassen. Verwenden Sie eine der folgenden Methoden:
 
