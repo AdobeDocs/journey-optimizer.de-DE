@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 23a6a0d0766959a2a073512e805b14edb1a323f0
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '7883'
-ht-degree: 100%
+source-wordcount: '7884'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <li><strong>KI-gestützte Erkenntnisse und Möglichkeiten für Experimente:</strong> Gehen Sie mit Erkenntnissen und Empfehlungen auf Basis generativer KI über statistische Auswertungen hinaus. Jedes Experiment zeigt jetzt verwertbare Chancen auf, einschließlich einer nachvollziehbaren Begründung, sodass Teams fundierter entscheiden können, was als Nächstes getestet werden sollte.</li>
 <li><strong>Unterstützung für Multi-Armed Bandit (MAB, mehrarmiger Bandit) in Journey Optimizer:</strong> Maximieren Sie die Wirkung und reduzieren Sie unnötigen Traffic mit Multi-Armed-Bandit-Experimenten. Anstatt Zielgruppen gleichmäßig aufzuteilen, weist MAB in Echtzeit automatisch den leistungsstärksten Varianten mehr Besuchende zu. Auf diese Weise können Sie mehr Kundinnen und Kunden bessere Erlebnisse bieten und gleichzeitig Erkenntnisse darüber gewinnen, was funktioniert.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../content-management/experiment-accelerator.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 3. Oktober 2025</p>
 </td>
 </tr>

@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '3011'
+source-wordcount: '2992'
 ht-degree: 98%
 
 ---
@@ -555,13 +555,8 @@ ht-degree: 98%
    + Inhaltsexperimente {#content-experiment}
       + [Inhaltsexperimente](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Erste Schritte mit dem Inhaltsexperiment](using/content-management/get-started-experiment.md)
+      + [Erste Schritte mit Experimentation Accelerator](using/content-management/experiment-accelerator-gs.md)
       + [Erstellen eines Inhaltsexperiments](using/content-management/content-experiment.md)
-      + Experimentation Accelerator {#experiment}
-         + [Erste Schritte mit Experimentation Accelerator](using/content-management/experiment-accelerator.md)
-         + [Datennutzung in KI mit Experimentation Accelerator](using/content-management/experiment-accelerator-security.md)
-         + [Best Practices für Experimentation Accelerator](using/content-management/experiment-accelerator-best-practices.md)
-         + [Monitoring in Experimentation Accelerator](using/content-management/experiment-accelerator-monitor.md)
-         + [Metriken zu Experimentation Accelerator](using/content-management/experiment-accelerator-metrics.md)
       + Technotes {#technotes}
          + [Technotes](/help/rp_landing_pages/technotes-landing-page.md)
          + [A/B-Test vs. mehrarmiger Bandit](using/content-management/mab-vs-ab.md)
