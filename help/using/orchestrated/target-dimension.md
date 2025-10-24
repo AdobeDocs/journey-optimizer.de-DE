@@ -5,10 +5,10 @@ title: Erstellen einer Zielgruppendimension
 description: Erfahren Sie, wie Sie dem Kundenprofil ein relationales Schema zuordnen.
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: 9003668674302c576ed9738c803446c476877e47
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 97%
+source-wordcount: '399'
+ht-degree: 88%
 
 ---
 
@@ -33,7 +33,7 @@ Bei der Konfiguration der Zielgruppenbestimmung definieren Sie zwei wichtige Asp
 
   Das System muss verstehen, wie das Zielschema dem `Profile`-Schema zugeordnet ist. Dies wird durch ein gemeinsames Identitätsfeld erreicht, das sowohl im Zielschema als auch im `Profile`-Schema existiert und als Identity-Namespace konfiguriert ist.
 
-➡️ [Weitere Informationen zu relationalen Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Weitere Informationen zu relationalen Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Erstellen einer Zielgruppendimension {#targeting-dimension}
 
@@ -47,7 +47,7 @@ Richten Sie zunächst die Kampagnenorchestrierung ein, indem Sie dem Kundenprofi
 
 1. Wählen Sie Ihr [zuvor konfiguriertes Schema](gs-schemas.md) aus der Dropdown-Liste aus.
 
-   Es sind zwar alle relationalen Schemata sichtbar, doch können nur Schemata mit einer direkten Identitätsbeziehung zum **Profil** ausgewählt werden.
+   Während alle relationalen Schemata angezeigt werden, können nur Schemata mit einer direkten Identitätsbeziehung zu **Profil** ausgewählt werden. Vermeiden Sie die Auswahl von Nicht-Personen-Schemata, z. B. Käufe, und wählen Sie ein Schema aus, das direkt mit einem Profil verknüpft ist.
 
 1. Wählen Sie den **[!UICONTROL Identitätswert]** für die Entität aus, die Sie ansprechen möchten.
 
