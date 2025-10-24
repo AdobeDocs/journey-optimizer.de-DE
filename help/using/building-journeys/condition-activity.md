@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: dee9dc2c2229314940def5f0279699d877d50df6
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 100%
+source-wordcount: '1560'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,10 @@ Folgende Bedingungstypen sind verfügbar:
 * [Profilbegrenzung](#profile_cap)
 
 Sie können auch eine Zielgruppe in einer Journey-Bedingung verwenden. [Weitere Informationen](#using-a-segment)
+
+>[!NOTE]
+>
+>Die Bedingungsauswertung schlägt für Profile fehl, die mehr als zwei geräteübergreifende Identitäten im [Profilspeicher“ ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"}.
 
 ## Hinzufügen und Verwalten von Bedingungspfaden {#about_condition}
 
