@@ -8,11 +8,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Richtlinien, Governance, Plattform, Einverständnis, Healthcare Shield
-hide: true
-hidefromtoc: true
-source-git-commit: 95f101c3d8f875dbf7988f10b106fc58f705e926
+source-git-commit: bbea90bd21bd19941e8c8df93c8ec7a8a2769d77
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '859'
 ht-degree: 4%
 
 ---
@@ -53,15 +51,15 @@ Angenommen, Sie möchten Ihre Kunden anhand ihrer Kommunikationsvoreinstellungen
    * *offers_push* - Boolesch (true/false)
    * *Neue Produkteinführungen* - Boolesch (true/false)
 
-   Diese Attribute werden im Schema eines profilaktivierten Datensatzes ([) erfasst &#x200B;](../data/get-started-datasets.md) dem [Unified Customer Profile](../audience/get-started-profiles.md) zugeordnet.
+   Diese Attribute werden im Schema eines profilaktivierten Datensatzes ([) erfasst ](../data/get-started-datasets.md) dem [Unified Customer Profile](../audience/get-started-profiles.md) zugeordnet.
 
    >[!NOTE]
    >
    >Kundenzustimmung und Kontaktvoreinstellungen sind komplexe Themen. Um zu erfahren, wie Einverständnis- und Kontextvoreinstellungen in [!DNL Experience Platform] erfasst, verarbeitet und gefiltert werden können, sollten Sie die folgenden Dokumente lesen:
    >
-   >* Informationen zu den Schemafeldgruppen, die zum Erfassen von Einverständnisdaten erforderlich sind, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Es wird beschrieben, wie Sie die von Ihren Kunden erfassten Einverständnisdaten verarbeiten und in Ihre gespeicherten Kundenprofile integrieren können.
-   >* Weitere Informationen zur Feldergruppe „Einverständnis“ und „Voreinstellungen“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Um benutzerdefinierte Voreinstellungsfelder zum Schema hinzuzufügen, führen Sie die Schritte in [diesem Abschnitt](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"} aus.
+   >* Informationen zu den Schemafeldgruppen, die zum Erfassen von Einverständnisdaten erforderlich sind, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Es wird beschrieben, wie Sie die von Ihren Kunden erfassten Einverständnisdaten verarbeiten und in Ihre gespeicherten Kundenprofile integrieren können.
+   >* Weitere Informationen zur Feldergruppe „Einverständnis“ und „Voreinstellungen“ finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Um benutzerdefinierte Voreinstellungsfelder zum Schema hinzuzufügen, führen Sie die Schritte in [diesem Abschnitt](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"} aus.
 
 1. Erstellen Sie eine Seite, um die Voreinstellungen Ihrer Kunden zu erfassen. Verwenden Sie eine der folgenden Methoden:
 
@@ -71,7 +69,7 @@ Angenommen, Sie möchten Ihre Kunden anhand ihrer Kommunikationsvoreinstellungen
 
      >[!NOTE]
      >
-     >Stellen Sie sicher, dass die Domain der verwendeten Landingpage zur übergeordneten Marke und nicht zu einer Untermarke gehört. Dadurch soll das Vertrauen der Endnutzer*innen sichergestellt werden. <!--Please clarify-->
+     >Stellen Sie sicher, dass die Domain der verwendeten Landingpage zur oberen Marke und nicht zu einer Untermarke gehört. Die erfassten Voreinstellungen werden in den Profildaten gespeichert, die auf der Ebene der übergeordneten Marke gespeichert sind.
 
 1. Auf dieser Seite können Kundinnen und Kunden ihre Voreinstellungen, z. B. themenbezogene Abonnements, aktualisieren, indem sie Kontrollkästchen aktivieren oder deaktivieren.
 
@@ -113,7 +111,7 @@ Angenommen, Sie möchten Ihre Kunden anhand ihrer Kommunikationsvoreinstellungen
     
     * Wenn **[!UICONTROL Marketing-Aktion]** gleich **[!UICONTROL E-Mail]**
     
-    * Dann **[!UICONTROL Newsletter_E-Mail]** nicht vorhanden ist **[!UICONTROL false]** Oder **[!UICONTROL Newsletter_E-]**&#x200B;nicht gleich **[!UICONTROL false]**
+    * Dann **[!UICONTROL Newsletter_E-Mail]** nicht vorhanden ist **[!UICONTROL false]** Oder **[!UICONTROL Newsletter_E-]**nicht gleich **[!UICONTROL false]**
     
     ![](assets/consent-policy-email-newsletter.png){width=80%}
     
