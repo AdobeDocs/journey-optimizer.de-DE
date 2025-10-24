@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: cd47db2e8fd20049cb7598160e99555b448c7012
+source-git-commit: 9b7e10643aaa4cd6c82e0355c45fa810352f21c0
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 97%
+source-wordcount: '1400'
+ht-degree: 95%
 
 ---
 
@@ -210,9 +210,11 @@ Beim Einrichten eines Webhooks können Sie seinen Zweck basierend auf dem Typ de
 
 1. Klicken Sie auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um Ihre Keyword-Kategorien hinzuzufügen, und konfigurieren Sie sie dann wie folgt:
 
-   * **[!UICONTROL Kategorie für eingehende Keywords]**: Wählen Sie als Keyword-Kategorie entweder **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Hilfe]** oder **[!UICONTROL Standard]** aus.
+   * **[!UICONTROL Eingehende Keyword-Kategorie]**: Wählen Sie Ihre Keyword-Kategorien entweder **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Doppel-Opt-in]**, **[!UICONTROL Hilfe]** oder **[!UICONTROL Custom]**.
 
    * **[!UICONTROL Keyword eingeben]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre Nachricht automatisch ausgelöst wird. Klicken Sie auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um mehrere Keywords hinzuzufügen.
+
+     Verwenden Sie **[!UICONTROL benutzerdefiniertes Keyword]** nicht einverständnisbezogene Keywords für Batch-basierte Aktionen innerhalb einer Journey.
 
    * **[!UICONTROL Antwortnachricht]**: Wählen Sie aus der Dropdown-Liste die benutzerdefinierte Antwort aus, die automatisch gesendet wird.
 
