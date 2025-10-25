@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Stil, CSS, Textkörper, Struktur
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 100%
+source-wordcount: '173'
+ht-degree: 63%
 
 ---
 
@@ -29,3 +29,9 @@ Folgen Sie den unten stehenden Links, um zu erfahren, wie Sie Stileinstellungen 
 * Erfahren Sie, wie Sie [Ihren E-Mail-Hintergrund personalisieren können](backgrounds.md).
 * Erfahren Sie, wie Sie die [vertikale Ausrichtung und den Abstand verwalten](alignment-and-padding.md).
 * Erfahren Sie, wie Sie [Inline-Stilattribute anpassen](inline-styling.md).
+* Erfahren Sie, wie Sie [benutzerdefinierten CSS zu Ihrem E-Mail-Inhalt hinzufügen](custom-css.md)
+* Erfahren Sie, wie [Inhalte im Dunkelmodus verwalten](dark-mode.md)
+
+>[!NOTE]
+>
+>Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Achten Sie beim Entwerfen von Inhalten in [ auf ](../email/accessible-content.md)dieser Seite[!DNL Journey Optimizer] die spezifischen Stilrichtlinien, z. B. die Anpassung von Farben, Beschriftungen und Symbolen, um Klarheit zu gewährleisten, und bei der Optimierung Ihres Designs für mobile und responsive Layouts.

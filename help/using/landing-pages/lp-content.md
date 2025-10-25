@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular, Komponente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 100%
+source-wordcount: '1336'
+ht-degree: 97%
 
 ---
 
@@ -33,6 +33,10 @@ Um spezifische Inhalte zu entwerfen, mit denen Benutzende ihre Auswahl treffen u
 >Sie können auch eine Clickthrough-Landingpage ohne **[!UICONTROL Formular]**-Komponente erstellen. In diesem Fall wird die Landingpage Benutzern angezeigt, sie müssen jedoch kein Formular absenden. Dies kann nützlich sein, wenn Sie nur eine Landingpage präsentieren möchten, ohne eine Aktion, wie beispielsweise ein Opt-in oder Opt-out, von Ihren Empfängern zu verlangen, oder wenn Sie Informationen bereitstellen möchten, die keine Benutzereingabe erfordern.
 
 Mit dem Inhalt-Designer für Landingpages können auch kontextbezogene Daten aus der Primärseite einer Unterseite genutzt werden. [Weitere Informationen](#use-primary-page-context)
+
+>[!NOTE]
+>
+>Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Achten Sie beim Entwerfen von Inhalten in [ auf ](../email/accessible-content.md)dieser Seite[!DNL Journey Optimizer] die spezifischen Richtlinien.
 
 ## Verwenden der Formularkomponente {#use-form-component}
 

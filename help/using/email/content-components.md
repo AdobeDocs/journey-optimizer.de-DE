@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 100%
+source-wordcount: '1448'
+ht-degree: 96%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 100%
 Bei der Erstellung von E-Mail-Inhalt ermöglichen **[!UICONTROL Inhaltskomponenten]** die Personalisierung Ihrer E-Mail mit unbearbeiteten Komponenten. Diese können nach dem Einfügen in eine E-Mail bearbeitet werden.
 
 Sie können beliebig viele Strukturkomponenten zu einer oder mehreren Strukturkomponenten hinzufügen. Diese definieren das Layout Ihrer E-Mail.
+
+>[!NOTE]
+>
+>Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Beachten Sie die auf [ Seite aufgeführten spezifischen Richtlinien](accessible-content.md) wenn Sie Inhaltskomponenten für das Entwerfen von E-Mails in [!DNL Journey Optimizer] verwenden, z. B. barrierefreie Schriftarten und lesbare Formate verwenden und alternativen Text für Bilder bereitstellen.
 
 ## Hinzufügen von Inhaltskomponenten {#add-content-components}
 
@@ -181,7 +185,7 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 1. Klicken Sie auf die neu hinzugefügte Komponente und konfigurieren Sie Ihre Bildeigenschaften:
 
    * **[!UICONTROL Bildtitel]** erlaubt Ihnen, den Titel für das Bild zu definieren.
-   * Mit **[!UICONTROL Alt-Text]** legen Sie die Bildunterschrift fest. Dies entspricht dem HTML-Attribut „alt“.
+   * Mit **[!UICONTROL Alt-Text]** legen Sie die Bildunterschrift fest. Dies entspricht dem Alt-HTML-Attribut. [Weitere Informationen](../email/accessible-content.md#alt-text)
 
    ![](assets/email_designer_10.png)
 
