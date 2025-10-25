@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
+source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 95%
 
 ---
 
@@ -44,6 +44,10 @@ Mithilfe des [Personalisierungseditors](../personalization/personalization-build
 
 Die folgenden vordefinierten Werte sind über den Personalisierungseditor verfügbar:
 
+* **Nachrichtenprofil-ID**: Nachrichtenorientiertes Attribut, das jede Nachricht, die an jedes Zielprofil in einem Versand gesendet wird, eindeutig identifiziert.
+
+* **Angebots-ID**: ID des in der E-Mail verwendeten Angebots.
+
 * **Quellaktion-ID**: ID der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
 
 * **Name der Quellaktion**: Name der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
@@ -53,8 +57,6 @@ Die folgenden vordefinierten Werte sind über den Personalisierungseditor verfü
 * **Quellname**: Name der Journey oder Kampagne, mit der die E-Mail gesendet wurde.
 
 * **Quellversions-ID**: ID der Journey- oder Kampagnenversion, mit der die E-Mail gesendet wurde.
-
-* **Angebots-ID**: ID des in der E-Mail verwendeten Angebots.
 
 >[!NOTE]
 >
