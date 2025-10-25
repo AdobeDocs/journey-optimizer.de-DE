@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 100%
+source-wordcount: '237'
+ht-degree: 88%
 
 ---
 
@@ -67,3 +67,9 @@ Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey O
 | Platzierungen insgesamt | 1.000 |
 | KI-Rangfolgemodell | 5 |
 | Häufigkeitsregeln: Maximale Anzahl der Begrenzungsregeln pro Angebot | 10 |
+
+## Konfigurationen  {#configurations}
+
+Die Gesamtzahl der von Decisioning unterstützten Konfigurationen darf 20.000 nicht überschreiten.
+
+Die Gesamtzahl der Konfigurationen entspricht der Gesamtzahl der [Begrenzungsregeln](items.md#capping) die in Ihrer Sandbox vorhanden sind.

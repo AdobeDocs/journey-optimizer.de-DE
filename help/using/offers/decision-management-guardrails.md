@@ -6,10 +6,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '348'
+ht-degree: 85%
 
 ---
 
@@ -89,3 +89,9 @@ Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom E
 | Platzierungen | 1.000 |
 | KI-Rangfolgemodell | 5 |
 | Frequenzbegrenzung: Maximale Anzahl an Begrenzungsregeln pro Angebot | 10 |
+
+## Konfigurationen  {#configurations}
+
+Die Gesamtzahl der Konfigurationen, die vom Entscheidungs-Management unterstützt werden, darf 20.000 nicht überschreiten.
+
+Die Gesamtzahl der Konfigurationen entspricht der Gesamtzahl der [Begrenzungsregeln](offer-library/add-constraints.md#capping) die in Ihrer Sandbox vorhanden sind. Für jede Begrenzungsregel, die auf alle [Platzierungen](offer-library/creating-placements.md) angewendet wird, muss die Regel auf alle Platzierungen multipliziert werden, die mit dem angegebenen Angebot verknüpft sind.
