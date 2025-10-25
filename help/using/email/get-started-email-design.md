@@ -44,7 +44,7 @@ Best Practices für die Gestaltung von E-Mails finden Sie in der unten stehenden
 
 >[!NOTE]
 >
->Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Zusätzlich zu den in diesem Abschnitt aufgeführten Best Practices zum Entwerfen von E-Mails sollten Sie auch die auf [ Seite aufgeführten Richtlinien ](accessible-content.md) Erstellen barrierefreier Inhalte mit E-Mail-Designer befolgen.
+>Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Zusätzlich zu den in diesem Abschnitt aufgeführten Best Practices zum Entwerfen von E-Mails sollten Sie auch die auf [&#x200B; Seite aufgeführten Richtlinien &#x200B;](accessible-content.md) Erstellen barrierefreier Inhalte mit E-Mail-Designer befolgen.
 
 ## Wichtige Schritte zum Erstellen von E-Mail-Inhalten {#key-steps}
 

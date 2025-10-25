@@ -44,7 +44,7 @@ Sie können beliebig viele Strukturkomponenten zu einer oder mehreren Strukturko
 
 >[!NOTE]
 >
->Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Beachten Sie die auf [ Seite aufgeführten spezifischen Richtlinien](accessible-content.md) wenn Sie Inhaltskomponenten für das Entwerfen von E-Mails in [!DNL Journey Optimizer] verwenden, z. B. barrierefreie Schriftarten und lesbare Formate verwenden und alternativen Text für Bilder bereitstellen.
+>Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Beachten Sie die auf [&#x200B; Seite aufgeführten spezifischen Richtlinien](accessible-content.md) wenn Sie Inhaltskomponenten für das Entwerfen von E-Mails in [!DNL Journey Optimizer] verwenden, z. B. barrierefreie Schriftarten und lesbare Formate verwenden und alternativen Text für Bilder bereitstellen.
 
 ## Hinzufügen von Inhaltskomponenten {#add-content-components}
 
