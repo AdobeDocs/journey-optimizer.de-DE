@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: Landing, Landingpage, Konfigurieren, Umgebung, Subdomain, Voreinstellungen
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 84%
 
 ---
 
@@ -60,15 +60,23 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen:
 
    ![](assets/lp_preset-subdomain.png)
 
-   Um eine Subdomain auswählen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben. [Weitere Informationen dazu](#lp-subdomains)
+   >[!NOTE]
+   >
+   >Um eine Subdomain auswählen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben. [Weitere Informationen dazu](lp-subdomains.md)
 
    Die der ausgewählten Subdomain entsprechenden Einstellungen werden angezeigt.
 
-1. Sie können die Landingpage-Subdomain als Tracking-URL auswählen, indem Sie die Option **[!UICONTROL Gleiche Subdomain wie Landingpage]** aktivieren. [Weitere Informationen zum Tracking](../email/message-tracking.md)
+1. Sie können die Landingpage-Subdomain für die **[!UICONTROL Tracking-URL]** auswählen, indem Sie die Option **[!UICONTROL Gleiche Subdomain wie Landingpage]** aktivieren. [Weitere Informationen zum Tracking](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    Wenn zum Beispiel die URL der Landingpage „pages.mail.luma.com“ und die Tracking-URL „data.mail.luma.com“ lautet, können Sie „pages.mail.luma.com“ als Tracking-Subdomain wählen.
+
+   >[!CAUTION]
+   >
+   >Die ausgewählte Landingpage-Subdomain wird verwendet, um die **[!UICONTROL Tracking-URL]** anzugeben<!--and **[!UICONTROL Image Delivery URL]** --> wenn diese Subdomain mit einer ([ Subdomain) ](lp-subdomains.md#lp-use-existing-subdomain) wurde.
+   >
+   >Wenn die Subdomain mit der Option [Eigene Domain hinzufügen](lp-subdomains.md#lp-configure-new-subdomain) erstellt wurde, wird stattdessen die primäre Subdomain (d. h. die erste delegierte Subdomain) verwendet.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um die Erstellung der Landingpage-Voreinstellung zu bestätigen. <!--You can also save the preset as draft and resume its configuration later on.-->
 
