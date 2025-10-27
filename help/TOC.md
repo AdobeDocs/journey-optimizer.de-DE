@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 460ac269404842001f320df6404db474a34c30b7
+source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2995'
 ht-degree: 98%
 
 ---
@@ -204,6 +204,7 @@ ht-degree: 98%
       + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
    + Fehlerbehebung {#troubleshoot-journey}
       + [Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+      + [Referenz für Fehler-Codes](using/building-journeys/error-codes-reference.md)
       + [Fehlerbehebung in Journeys](using/building-journeys/troubleshooting.md)
       + [Fehlerbehebung bei der Journey-Ausführung](using/building-journeys/troubleshooting-execution.md)
       + [Fehlerbehebung bei eingehenden Aktionen](using/building-journeys/troubleshooting-inbound.md)
