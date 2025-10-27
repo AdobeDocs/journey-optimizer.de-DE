@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '2998'
+ht-degree: 97%
 
 ---
 
@@ -202,13 +202,6 @@ ht-degree: 98%
       + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
       + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
-   + Fehlerbehebung {#troubleshoot-journey}
-      + [Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-      + [Referenz für Fehler-Codes](using/building-journeys/error-codes-reference.md)
-      + [Fehlerbehebung in Journeys](using/building-journeys/troubleshooting.md)
-      + [Fehlerbehebung bei der Journey-Ausführung](using/building-journeys/troubleshooting-execution.md)
-      + [Fehlerbehebung bei eingehenden Aktionen](using/building-journeys/troubleshooting-inbound.md)
-      + [Fehlerbehebung bei benutzerdefinierten Aktionen](using/action/troubleshoot-custom-action.md)
 + Kampagnen {#campaigns}
    + [Kampagnen](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
@@ -278,7 +271,7 @@ ht-degree: 98%
          + [Aufspaltung](using/orchestrated/activities/split.md)
          + [Test](using/orchestrated/activities/test.md)
          + [Warten](using/orchestrated/activities/wait.md)
-+ Konflikt-Management und Priorisierung {#conflict-prioritization}
++ Konflikte und Priorisierung {#conflict-prioritization}
    + [Konflikt-Management und Priorisierung](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Erste Schritte mit Konflikt-Management und Priorisierung](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifizieren potenzieller Konflikte](using/conflict-prioritization/conflicts.md)
@@ -307,7 +300,15 @@ ht-degree: 98%
       + [Erstellen und Verwalten von Genehmigungsrichtlinien](using/test-approve/approval-policies.md)
       + [Anfragen einer Genehmigung](using/test-approve/request-approval.md)
       + [Genehmigen einer Anfrage](using/test-approve/review-approve-request.md)
++ Überwachung und Fehlerbehebung {#monitor}
+   + [Überwachung und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Systemwarnhinweise](using/reports/alerts.md)
+   + [Referenz für Fehler-Codes](using/building-journeys/error-codes-reference.md)
+   + Fehlerbehebung bei Journey {#troubleshoot-journey}
+      + [Fehlerbehebung in Journeys](using/building-journeys/troubleshooting.md)
+      + [Fehlerbehebung bei der Journey-Ausführung](using/building-journeys/troubleshooting-execution.md)
+      + [Fehlerbehebung bei eingehenden Aktionen](using/building-journeys/troubleshooting-inbound.md)
+      + [Fehlerbehebung bei benutzerdefinierten Aktionen](using/action/troubleshoot-custom-action.md)
 + Kommunikationskanäle {#channels}
    + [Erste Schritte mit Kommunikationskanälen](using/channels/gs-channels.md)
    + E-Mail-Kanal {#email}
