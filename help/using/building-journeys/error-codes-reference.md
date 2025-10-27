@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: Fehler, Codes, Fehlerbehebung, Journey, Kampagne, Nachrichten
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 012efffe4b38ccfdc88545566bc49b519c796ad2
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 1%
@@ -146,7 +146,7 @@ Befolgen Sie bei Auftreten eines Fehler-Codes diesen systematischen Ansatz:
 * [Fehlerbehebung bei eingehenden Aktivitäten](troubleshooting-inbound.md)
 * [Fehlerbehebung bei benutzerdefinierten Aktionen](../action/troubleshoot-custom-action.md)
 * [Häufig gestellte Fragen zum Journey](journey-faq.md)
-* [Leitlinien und Einschränkungen](limitations.md)
+* [Leitlinien und Einschränkungen](../start/guardrails.md)
 
 ## Support erhalten {#getting-support}
 
@@ -155,15 +155,15 @@ Wenn Sie auf dauerhafte Fehler stoßen, die mit diesem Handbuch nicht behoben we
 1. **Informationen sammeln**: Erfassen Sie den Fehler-Code, die Anfrage-ID, Zeitstempel und Schritte zur Reproduktion
 2. **Systemstatus überprüfen**: Besuchen Sie [Adobe-Status](https://status.adobe.com/de/){target="_blank"}, um bekannte Service-Probleme anzuzeigen
 3. **Suchdokumentation**: Lesen Sie [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de){target="_blank"} für Lösungen
-4. **Engage-Community**: Stellen Sie Fragen in der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}
+4. **Engage-Community**: Stellen Sie Fragen in der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 5. **Adobe-Support kontaktieren**: Senden Sie ein Support-Ticket mit allen relevanten Details
 
 >[!NOTE]
 >
->Diese Fehlercode-Referenz wird laufend aktualisiert, wenn neue Codes identifiziert und dokumentiert werden. Die neuesten Informationen finden Sie regelmäßig in den [Adobe Journey Optimizer Community-Blogs](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=de){target="_blank"}.
+>Diese Fehlercode-Referenz wird laufend aktualisiert, wenn neue Codes identifiziert und dokumentiert werden. Die neuesten Informationen finden Sie regelmäßig in den [Adobe Journey Optimizer Community-Blogs](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}.
 
 **Verwandte Themen**
 
-* [Entmystifizierung von Adobe Journey Optimizer-Fehlercodes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de){target="_blank"}
-* [Entmystifizierung von Adobe Journey Optimizer-Fehler-Codes: Teil 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=de){target="_blank"}
+* [Entmystifizierung von Adobe Journey Optimizer-Fehlercodes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Entmystifizierung von Adobe Journey Optimizer-Fehler-Codes: Teil 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 
