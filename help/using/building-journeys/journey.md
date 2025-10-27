@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 05b8e6c4500d5ec3b6c2c3b0230499a369c8d8ac
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 100%
+source-wordcount: '416'
+ht-degree: 93%
 
 ---
 
@@ -51,4 +51,11 @@ Der [Journey-Designer](using-the-journey-designer.md) bietet [integrierte Kanala
 
 Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+
+## Weitere Ressourcen {#additional-resources}
+
+* [Häufig gestellte Fragen zu Journey](journey-faq.md) - Häufig gestellte Fragen zu Journey
+* [Referenz zu Fehlercodes](error-codes-reference.md) - Journey-Fehlercodes und Schritte zur Fehlerbehebung
+* [Warnhinweise](../reports/alerts.md) - Einrichten von Warnhinweisen für die Journey-Überwachung
+* [Fehlerbehebung](troubleshooting.md) - Häufige Journey-Probleme und -Lösungen
