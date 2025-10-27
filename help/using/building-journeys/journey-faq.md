@@ -9,9 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: aece514b3ce21fa7b7a7ada546b4757ce00fa912
+source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
 workflow-type: tm+mt
 source-wordcount: '4568'
 ht-degree: 2%
@@ -23,7 +21,7 @@ ht-degree: 2%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Adobe Journey Optimizer Journey.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Allgemeine Konzepte
 
@@ -403,7 +401,7 @@ Sie können die Journey-Ausführung auf verschiedene Weise verwalten:
 * **Sofort anhalten**: Beenden Sie den Journey und beenden Sie alle aktuell darin enthaltenen Profile.
 * **Pause**: Journey vorübergehend anhalten und später fortsetzen
 
-Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
+Weitere Informationen zum [ von Journey](end-journey.md).
 
 +++
 
@@ -604,9 +602,9 @@ Ja, es gibt mehrere Möglichkeiten, Kunden auszuschließen:
 
 **Innerhalb der Journey**:
 
-* Fügen Sie zu Beginn [&#x200B; Journey eine Aktivität &#x200B;](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
+* Fügen Sie zu Beginn [ Journey eine Aktivität ](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
 * Prüfen auf Ausschlussattribute (z. B. VIP-Status, Testkonten)
-* Identifizieren [&#x200B; auszuschließenden Profile mithilfe &#x200B;](audience-qualification-events.md)Zielgruppenqualifizierung“
+* Identifizieren [ auszuschließenden Profile mithilfe ](audience-qualification-events.md)Zielgruppenqualifizierung“
 
 **Beispielausschlussszenarien**:
 
@@ -836,7 +834,7 @@ Zu den wichtigen Leitplanken gehören:
 * **Zielgruppengröße**: Beschränkungen für die Größe von gelesenen Zielgruppen-Batches
 * **Ausdruckskomplexität**: Zeichenbeschränkungen in Bedingungen und Personalisierung
 
-Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
+Vollständige Ansicht [Leitplanken und ](../start/guardrails.md))
 
 +++
 
@@ -898,7 +896,7 @@ Erfahren Sie mehr über das [Journey](using-the-journey-designer.md)Design und [
 **Überlegungen zum Design**:
 
 * Verwenden [zielgruppenbasierten Eintrags](read-audience.md) für Batch-Nachrichten anstelle von einzelnen Ereignissen
-* Angemessene Wartezeiten [, um &#x200B;](wait-activity.md) Nachrichtenvolumen zu verteilen
+* Angemessene Wartezeiten [, um ](wait-activity.md) Nachrichtenvolumen zu verteilen
 * Nutzen Sie [Begrenzungsregeln](../conflict-prioritization/journey-capping.md) um eine Systemüberlastung zu vermeiden
 * Optimieren [Bedingungslogik](condition-activity.md) um die Verarbeitungskomplexität zu reduzieren
 
