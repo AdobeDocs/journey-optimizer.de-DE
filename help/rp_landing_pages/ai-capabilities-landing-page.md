@@ -20,7 +20,7 @@ Adobe Journey Optimizer nutzt die Leistungsfähigkeit von künstlicher Intellige
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 KI-Assistent für die Inhaltsgenerierung
 
@@ -30,7 +30,7 @@ Nutzen Sie generative KI, um Inhalte für E-Mails, SMS, Push-Benachrichtigungen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Versandzeitoptimierung
 
@@ -40,7 +40,7 @@ Verwenden Sie KI, um basierend auf historischen Verhaltensweisen den optimalen Z
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 KI-Modelle für die Entscheidungsfindung
 
@@ -50,7 +50,7 @@ Erstellen Sie Modelle für die automatische Optimierung und personalisierte Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 KI-Assistent - Produktkenntnisse
 
@@ -60,7 +60,7 @@ Erhalten Sie sofortige Antworten und operative Erkenntnisse über Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Inhaltsexperiment mit KI
 
@@ -70,7 +70,7 @@ Erzeugen Sie mehrere Inhaltsvarianten und führen Sie Experimente durch, um die 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Kunden-KI-Integration
 
