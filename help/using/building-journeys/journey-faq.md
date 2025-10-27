@@ -11,9 +11,9 @@ keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 0b4dc91b945d17647029d89e294221ff97a26881
+source-git-commit: aece514b3ce21fa7b7a7ada546b4757ce00fa912
 workflow-type: tm+mt
-source-wordcount: '4938'
+source-wordcount: '4568'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Adobe Journey Optimizer Journey.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Allgemeine Konzepte
 
@@ -76,62 +76,65 @@ Weitere Informationen zu [Journey-Aktivitäten](about-journey-activities.md).
 
 +++
 
-+++ Welche Zielgruppentypen werden in Journey unterstützt und welche Einschränkungen gelten für sie?
+<!-- WAITING FOR VALIDATION
 
-Adobe Journey Optimizer unterstützt drei Arten von Zielgruppen mit jeweils unterschiedlichen Eigenschaften und Leitplanken:
++++ What types of audiences are supported in journeys and what are their limitations?
 
-**1. Streaming-Zielgruppen**
+Adobe Journey Optimizer supports three types of audiences, each with different characteristics and guardrails:
 
-* **Beschreibung**: Zielgruppen, die in Echtzeit ausgewertet werden, wenn sich die Profildaten ändern
-* **Auswertung**: Kontinuierliche Auswertung, wenn Profilattribute oder Ereignisse den Segmentkriterien entsprechen
-* **Journey-Nutzung**: Wird bei Aktivitäten vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ und „Bedingung“ unterstützt
-* **Am besten geeignet für**: Echtzeit-Interaktion basierend auf Verhaltensänderungen oder Profilaktualisierungen
-* **Schutzmaßnahmen**:
-   * Die maximale Zielgruppengröße hängt von Ihrer Journey Optimizer-Lizenz ab
-   * Auswertungslatenz normalerweise unter 5 Minuten
-   * Komplexe Segmentlogik kann die Auswertungsleistung beeinträchtigen
+**1. Streaming audiences**
 
-**2. Batch-Zielgruppen**
+* **Description**: Audiences that evaluate in real-time as profile data changes
+* **Evaluation**: Continuous evaluation when profile attributes or events match segment criteria
+* **Journey usage**: Supported in Read Audience, Audience Qualification, and Condition activities
+* **Best for**: Real-time engagement based on behavioral changes or profile updates
+* **Guardrails**:
+  * Maximum audience size depends on your Journey Optimizer license
+  * Evaluation latency typically under 5 minutes
+  * Complex segment logic may impact evaluation performance
 
-* **Beschreibung**: Zielgruppen, die auf geplanter Basis ausgewertet werden (normalerweise täglich)
-* **Auswertung**: In geplanten Intervallen in Batch-Vorgängen verarbeitet
-* **Journey-Nutzung**: Unterstützt bei Aktivitäten vom Typ „Zielgruppe lesen“ und „Bedingung“; eingeschränkte Unterstützung bei Journey zur Zielgruppenqualifizierung
-* **Am besten geeignet für**: Regelmäßige Kampagnen, Newsletter, geplante Nachrichten
-* **Schutzmaßnahmen**:
-   * Die Auswertung erfolgt einmal täglich (Standard) oder nach einem konfigurierten Zeitplan
-   * Profile spiegeln möglicherweise erst bei der nächsten Auswertung Echtzeitänderungen wider
-   * Die Aktivität „Zielgruppe lesen“ kann große Batch-Zielgruppen effizient verarbeiten
+**2. Batch audiences**
 
-**3. Audiences hochladen (benutzerdefinierter Upload)**
+* **Description**: Audiences evaluated on a scheduled basis (typically daily)
+* **Evaluation**: Processed in batch jobs at scheduled intervals
+* **Journey usage**: Supported in Read Audience and Condition activities; limited support in Audience Qualification journeys
+* **Best for**: Regular campaigns, newsletters, scheduled communications
+* **Guardrails**:
+  * Evaluation occurs once per day (default) or at configured schedule
+  * Profiles may not reflect real-time changes until next evaluation
+  * Read Audience activity can process large batch audiences efficiently
 
-* **Beschreibung**: Zielgruppen, die durch Hochladen von CSV-Dateien mit Profilkennungen erstellt werden
-* **Evaluierung**: Statische Liste wird nur aktualisiert, wenn neue Dateien hochgeladen werden
-* **Journey-Nutzung**: Wird in Aktivitäten vom Typ „Zielgruppe lesen“ und „Bedingung“ unterstützt; **nicht unterstützt** in Journey zur Zielgruppenqualifizierung
-* **Am besten für**: Einmalige Kampagnen, externe Listenimporte, zielgerichtete Kommunikation
-* **Schutzmaßnahmen**:
-   * Es gelten CSV-Dateigrößenbeschränkungen (in der Produktdokumentation finden Sie aktuelle Beschränkungen)
-   * Zielgruppenmitglieder sind statisch, bis sie mit neuem Upload aktualisiert werden
-   * Identity-Namespace muss mit Journey-Namespace übereinstimmen
-   * Profile müssen in Adobe Experience Platform vorhanden sein
+**3. Upload audiences (Custom upload)**
 
-**Journey-spezifische Überlegungen**:
+* **Description**: Audiences created by uploading CSV files with profile identifiers
+* **Evaluation**: Static list updated only when new files are uploaded
+* **Journey usage**: Supported in Read Audience and Condition activities; **not supported** in Audience Qualification journeys
+* **Best for**: One-time campaigns, external list imports, targeted communications
+* **Guardrails**:
+  * CSV file size limits apply (check product documentation for current limits)
+  * Audience members are static until refreshed with new upload
+  * Identity namespace must match journey namespace
+  * Profiles must exist in Adobe Experience Platform
 
-* **Audience-Journey lesen**: Alle drei Zielgruppentypen werden unterstützt. Der Batch-Export erfolgt bei der Ausführung von Journey
-* **Journey zur Zielgruppenqualifizierung**: Streaming-Zielgruppen empfohlen; Batch-Zielgruppen haben eine verzögerte Qualifizierungserkennung; das Hochladen von Zielgruppen wird nicht unterstützt
-* **Bedingungsaktivitäten**: Alle Zielgruppentypen können zur Überprüfung der Mitgliedschaft verwendet werden
-* **Namespace-Ausrichtung**: Der Identity-Namespace der Zielgruppe muss mit dem Namespace der Journey übereinstimmen, damit die Profile ordnungsgemäß identifiziert werden können
+**Journey-specific considerations**:
 
-**Best Practices**:
+* **Read Audience journeys**: All three audience types supported; batch export occurs when journey runs
+* **Audience Qualification journeys**: Streaming audiences recommended; batch audiences have delayed qualification detection; upload audiences not supported
+* **Condition activities**: All audience types can be used to check membership
+* **Namespace alignment**: Audience identity namespace must match the journey's namespace for proper profile identification
 
-* Verwenden **Streaming-Zielgruppen** für ereignisgesteuerte Journey in Echtzeit, die eine sofortige Reaktion erfordern
-* Verwenden **Batch-Zielgruppen** für geplante Kommunikationen, bei denen eine tägliche Auswertung ausreicht
-* Verwenden **Zielgruppen hochladen** für zielgerichtete einmalige Kampagnen mit externen Listen
-* Überwachen der Zielgruppengröße und der Auswertungsleistung in umfangreichen Bereitstellungen
-* Berücksichtigen Sie beim Entwerfen von Journey-Zeiten und Einstiegsbedingungen die Aktualisierungsraten der Zielgruppe
+**Best practices**:
 
-Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [Erstellen von Segmenten](../audience/creating-a-segment-definition.md) und [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md).
+* Use **streaming audiences** for real-time, event-driven journeys requiring immediate response
+* Use **batch audiences** for scheduled communications where daily evaluation is sufficient
+* Use **upload audiences** for targeted one-time campaigns with external lists
+* Monitor audience size and evaluation performance in large-scale deployments
+* Consider audience refresh rates when designing journey timing and entry conditions
+
+Learn more about [audiences](../audience/about-audiences.md), [creating segments](../audience/creating-a-segment-definition.md), and [custom upload audiences](../audience/custom-upload.md).
 
 +++
+-->
 
 +++ Wie wähle ich zwischen einer unitären Journey und einer gelesenen Zielgruppen-Journey?
 
@@ -400,7 +403,7 @@ Sie können die Journey-Ausführung auf verschiedene Weise verwalten:
 * **Sofort anhalten**: Beenden Sie den Journey und beenden Sie alle aktuell darin enthaltenen Profile.
 * **Pause**: Journey vorübergehend anhalten und später fortsetzen
 
-Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
+Weitere Informationen zum [ von Journey](end-journey.md).
 
 +++
 
@@ -601,9 +604,9 @@ Ja, es gibt mehrere Möglichkeiten, Kunden auszuschließen:
 
 **Innerhalb der Journey**:
 
-* Fügen Sie zu Beginn [&#x200B; Journey eine Aktivität &#x200B;](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
+* Fügen Sie zu Beginn [ Journey eine Aktivität ](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
 * Prüfen auf Ausschlussattribute (z. B. VIP-Status, Testkonten)
-* Identifizieren [&#x200B; auszuschließenden Profile mithilfe &#x200B;](audience-qualification-events.md)Zielgruppenqualifizierung“
+* Identifizieren [ auszuschließenden Profile mithilfe ](audience-qualification-events.md)Zielgruppenqualifizierung“
 
 **Beispielausschlussszenarien**:
 
@@ -833,7 +836,7 @@ Zu den wichtigen Leitplanken gehören:
 * **Zielgruppengröße**: Beschränkungen für die Größe von gelesenen Zielgruppen-Batches
 * **Ausdruckskomplexität**: Zeichenbeschränkungen in Bedingungen und Personalisierung
 
-Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
+Vollständige Ansicht [Leitplanken und ](../start/guardrails.md))
 
 +++
 
@@ -895,7 +898,7 @@ Erfahren Sie mehr über das [Journey](using-the-journey-designer.md)Design und [
 **Überlegungen zum Design**:
 
 * Verwenden [zielgruppenbasierten Eintrags](read-audience.md) für Batch-Nachrichten anstelle von einzelnen Ereignissen
-* Angemessene Wartezeiten [, um &#x200B;](wait-activity.md) Nachrichtenvolumen zu verteilen
+* Angemessene Wartezeiten [, um ](wait-activity.md) Nachrichtenvolumen zu verteilen
 * Nutzen Sie [Begrenzungsregeln](../conflict-prioritization/journey-capping.md) um eine Systemüberlastung zu vermeiden
 * Optimieren [Bedingungslogik](condition-activity.md) um die Verarbeitungskomplexität zu reduzieren
 
