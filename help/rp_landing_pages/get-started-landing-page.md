@@ -20,7 +20,7 @@ Mit Adobe Journey Optimizer können Unternehmen personalisierte Echtzeit-Kundene
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Wichtige Funktionen
 
@@ -30,7 +30,7 @@ Entdecken Sie die Kernfunktionen, Anwendungsfälle und die Architektur von Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Überblick über die Architektur
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Adobe Journey Optimizer mit Adobe Experience Platform integrie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Rollen und Verantwortlichkeiten
 
@@ -50,7 +50,7 @@ Verschaffen Sie sich einen Überblick über die Rollen und Workflows, die zur ef
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Übersicht über die Benutzeroberfläche
 
@@ -60,7 +60,7 @@ Navigieren Sie in der Benutzeroberfläche von Adobe Journey Optimizer und erkund
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Suchen, Filtern und Organisieren von Inhalten
 
@@ -70,7 +70,7 @@ Verwenden Sie Such-, Filter- und Tagging-Funktionen, um Ihre Journeys, Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Leitlinien und Einschränkungen
 
