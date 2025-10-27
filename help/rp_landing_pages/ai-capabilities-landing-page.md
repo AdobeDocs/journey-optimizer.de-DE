@@ -5,10 +5,10 @@ title: KI-Funktionen in Adobe Journey Optimizer
 description: KI-Funktionen in Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 9d0460d303a3701ad7ff5b7f2487ac6ccdd6facd
+source-git-commit: 2b377fea2f54c15d04fd0fc16633951c58598580
 workflow-type: tm+mt
 source-wordcount: '1013'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer nutzt die Leistungsfähigkeit von künstlicher Intellige
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/sparkles.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 KI-Assistent für die Inhaltsgenerierung
 
@@ -30,7 +30,7 @@ Nutzen Sie generative KI, um Inhalte für E-Mails, SMS, Push-Benachrichtigungen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Versandzeitoptimierung
 
@@ -40,7 +40,7 @@ Verwenden Sie KI, um basierend auf historischen Verhaltensweisen den optimalen Z
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 KI-Modelle für die Entscheidungsfindung
 
@@ -50,7 +50,7 @@ Erstellen Sie Modelle für die automatische Optimierung und personalisierte Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 KI-Assistent - Produktkenntnisse
 
@@ -60,7 +60,7 @@ Erhalten Sie sofortige Antworten und operative Erkenntnisse über Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/experiment.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Inhaltsexperiment mit KI
 
@@ -70,7 +70,7 @@ Erzeugen Sie mehrere Inhaltsvarianten und führen Sie Experimente durch, um die 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Kunden-KI-Integration
 
