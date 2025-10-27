@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
-source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
+source-git-commit: 4521990a02092365f996a81299ada55433639fb7
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 5%
+source-wordcount: '622'
+ht-degree: 4%
 
 ---
 
@@ -40,6 +40,15 @@ Auf dieser Seite wird erläutert, wie sich Kampagnen mit hohem Durchsatz von sta
 * **Kampagnenexklusivität** - Kampagnen mit hohem Durchsatz verwenden keine Adobe-Profile. Nachrichten werden unabhängig davon zugestellt, ob ein Profil vorhanden ist oder nicht.
 
   Darüber hinaus kann eine Kampagne nicht sowohl für Anwendungsfälle mit aktiviertem Profil als auch für Anwendungsfälle ohne Profil verwendet werden. Wenn Sie beide benötigen, erstellen Sie zwei separate Kampagnen und stellen Sie sicher, dass das aufrufende System anhand des Kontexts entscheidet, welche Kampagne Trigger werden soll.
+
+* **Datensätze für Feedback und Tracking** - Feedback- und Tracking-Daten für Kampagnen mit hohem Durchsatz werden in dedizierten Datensätzen gespeichert, die nicht für Profile aktiviert sind. Daher werden diese Ereignisse nicht mit Profilen verknüpft, selbst wenn ein übereinstimmendes Profil vorhanden ist.
+
+  Die verwendeten Datensätze sind:
+
+   * **AJO-Nachrichten-Feedback-Ereignisdatensatz - Ohne Profil**
+   * **AJO-E-Mail-Tracking-Erlebnisereignis-Datensatz - Ohne Profil**
+
+* **Durchsatzzuweisung** - Der Durchsatz, der im Add-on „Hoher Durchsatz“ bereitgestellt wird, ist ausschließlich für Kampagnen mit hohem Durchsatz reserviert. Es gibt keine Aufteilung des Durchsatzes zwischen API-ausgelösten Kampagnen mit standardmäßigem und hohem Durchsatz.
 
 ## Auswahl zwischen standardmäßigen und Kampagnen mit hohem Durchsatz
 
