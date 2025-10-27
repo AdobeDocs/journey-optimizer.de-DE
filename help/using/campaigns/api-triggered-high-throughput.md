@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 5a6abcd48495a66496495e62c6027c2fd0fdd4c4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '532'
 ht-degree: 5%
 
 ---
@@ -33,9 +33,11 @@ Auf dieser Seite wird erläutert, wie sich Kampagnen mit hohem Durchsatz von sta
    * Alle Personalisierungen müssen als (kontextuelle Daten) in **API-Payload**. [Erfahren Sie, wie Sie Inhalte mithilfe von kontextuellen Daten personalisieren können](../campaigns/api-triggered-campaign-action.md#contextual)
    * Profilbasierte Personalisierung wird nicht unterstützt. Wenn Profilvariablen verwendet werden, treten Validierungsfehler auf.
 
+* **Personalisierte Kanalkonfigurationen** - Kanalkonfigurationen, die eine [profilbasierte Personalisierung](../email/surface-personalization.md) verwenden, können nicht mit Kampagnen mit hohem Durchsatz verwendet werden. Es können nur Oberflächen ohne Profil-Personalisierung verwendet werden.
+
 * **API-Endpunkt** - Kampagnen mit hohem Durchsatz verwenden einen anderen Endpunkt als von einer Standard-API ausgelöste Kampagnen. Weitere Informationen finden Sie unter [Ausführen einer von einer API ausgelösten Kampagne](../campaigns/trigger-campaigns.md#trigger).
 
-* **Kampagnenexklusivität**: Kampagnen mit hohem Durchsatz verwenden keine Adobe-Profile. Nachrichten werden unabhängig davon zugestellt, ob ein Profil vorhanden ist oder nicht.
+* **Kampagnenexklusivität** - Kampagnen mit hohem Durchsatz verwenden keine Adobe-Profile. Nachrichten werden unabhängig davon zugestellt, ob ein Profil vorhanden ist oder nicht.
 
   Darüber hinaus kann eine Kampagne nicht sowohl für Anwendungsfälle mit aktiviertem Profil als auch für Anwendungsfälle ohne Profil verwendet werden. Wenn Sie beide benötigen, erstellen Sie zwei separate Kampagnen und stellen Sie sicher, dass das aufrufende System anhand des Kontexts entscheidet, welche Kampagne Trigger werden soll.
 
