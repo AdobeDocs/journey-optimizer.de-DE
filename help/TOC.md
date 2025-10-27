@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '2998'
+source-wordcount: '2999'
 ht-degree: 97%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 97%
    + [Arbeiten mit dem KI-Assistenten](using/start/ai-assistant.md)
    + [Anwendungsfall-Playbooks](using/start/playbooks.md)
    + [Leitlinien und Einschränkungen](using/start/guardrails.md)
-   + [Fehlerbehebung](using/start/troubleshooting.md)
 + Journeys {#orchestrate-journeys}
    + [Journeys](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)
@@ -304,6 +303,7 @@ ht-degree: 97%
    + [Überwachung und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Systemwarnhinweise](using/reports/alerts.md)
    + [Referenz für Fehler-Codes](using/building-journeys/error-codes-reference.md)
+   + [Artikel zur Fehlerbehebung](using/start/troubleshooting.md)
    + Fehlerbehebung bei Journey {#troubleshoot-journey}
       + [Fehlerbehebung in Journeys](using/building-journeys/troubleshooting.md)
       + [Fehlerbehebung bei der Journey-Ausführung](using/building-journeys/troubleshooting-execution.md)
