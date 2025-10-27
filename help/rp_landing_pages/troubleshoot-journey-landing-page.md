@@ -5,10 +5,10 @@ title: Fehlerbehebung
 description: Fehlerbehebung
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 7894041f841ed14eb3feb626f7d8d818c1b464fa
+source-git-commit: eca6378093abcb2a75ebfee56be82bb2257d514d
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 31%
+source-wordcount: '402'
+ht-degree: 26%
 
 ---
 
@@ -25,7 +25,7 @@ Auf dieser Seite finden Sie wichtige Ressourcen, die Ihnen helfen, den Zustand d
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Abrufen und Abonnieren von Systemwarnungen
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie auf Systemwarnungen zugreifen, Benachrichtigungen abonnier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referenz zu Fehler-Codes
 
@@ -45,7 +45,7 @@ Erfahren Sie mehr über häufige Fehler-Codes in Adobe Journey Optimizer und fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Fehlerbehebung vor dem Testen oder Veröffentlichen der Journey
 
@@ -55,9 +55,9 @@ Identifizieren und beheben Sie Journey-weite Fehler und Aktivitätsprobleme und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Fehlerbehebung bei der Live-Journey-Ausführung in Adobe Journey Optimizer
+Fehlerbehebung bei der Live-Journey-Ausführung
 
 Diagnostizieren Sie Probleme mit der Ereignisvalidierung, dem Profileintrag, der Journey-Navigation und dem Nachrichtenversand während der Live-Ausführung.
 
@@ -65,9 +65,9 @@ Diagnostizieren Sie Probleme mit der Ereignisvalidierung, dem Profileintrag, der
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Fehlerbehebung bei eingehenden Aktionen in Adobe Journey Optimizer-Journeys
+Fehlerbehebung bei eingehenden Aktionen in Journey
 
 Beheben Sie mithilfe detaillierter Handbücher Probleme mit eingehenden Aktionen, z. B. fehlende Inhalte oder die Fortsetzung der Bereitstellung nach dem Ausstieg eines Profils.
 
@@ -75,9 +75,9 @@ Beheben Sie mithilfe detaillierter Handbücher Probleme mit eingehenden Aktionen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Fehlerbehebung bei benutzerdefinierten Aktionen in Adobe Journey Optimizer
+Fehlerbehebung bei benutzerdefinierten Aktionen
 
 Validieren und debuggen Sie benutzerdefinierte Aktionen mit der Funktion „Testanfrage senden“, um sicherzustellen, dass API-Aufrufe und Authentifizierungseinstellungen korrekt sind.
 
