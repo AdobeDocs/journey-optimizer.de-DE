@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 99%
+source-wordcount: '588'
+ht-degree: 96%
 
 ---
 
@@ -44,6 +44,8 @@ Hier gilt:
 * Die Wörter **true**, **false**, **null** und **undefined** sind nur im ersten Teil eines Pfadausdrucks zulässig.
 
 * In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escape-Zeichen hinzugefügt**. Wenn der Ausdruck „`&`“ enthält, wird die Ausgabe mit HTML-Escape-Zeichen als „`&amp;`“ generiert. Wenn Sie wünschen, dass Handlebars einen Wert nicht escapen, verwenden Sie drei geschweifte Klammern.
+
+  Angenommen, der Wert des Felds `profile.person.name` lautet „Mark &amp; Mary“. Die `{{profile.person.name}}` zeigt `Mark &amp; Mary` an, während `{{{profile.person.name}}}` `Mark & Mary` anzeigt.
 
 * Bezüglich der Argumente für literale Funktionen unterstützt der Sprach-Parser für Vorlagen keinen einfachen umgekehrten Schrägstrich (`\`), der nicht escaped ist. Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (`\`) escaped werden. Beispiel:
 
