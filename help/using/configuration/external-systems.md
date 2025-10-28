@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 97%
+source-wordcount: '1654'
+ht-degree: 93%
 
 ---
 
@@ -106,21 +106,31 @@ Sehen wir uns ein Beispiel einer Zeitüberschreitung von fünf Sekunden an.
    * Wenn einer der drei weiteren Versuche vor Ablauf der fünf Sekunden erfolgreich ist, wird der Aufruf durchgeführt und es wird kein Fehler ausgegeben.
    * Wenn während der erneuten Versuche das Ende der maximalen Wartezeit erreicht wird, wird der Aufruf abgebrochen und in Berichten als Zeitüberschreitungsfehler gezählt.
 
-## Häufig gestellte Fragen{#faq}
+## Häufig gestellte Fragen {#faq}
 
-**Wie kann ich eine Begrenzungs- oder Einschränkungsregel konfigurieren? Gibt es eine Standardregel?**
+Im Folgenden finden Sie häufig gestellte Fragen zur Integration von Journey Optimizer mit externen Systemen.
+
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
+
++++ Wie kann ich eine Begrenzungs- oder Einschränkungsregel konfigurieren? Gibt es eine Standardregel?
 
 Informationen zum Erstellen von Begrenzungs- oder Einschränkungsregeln finden Sie in [diesem Abschnitt](../configuration/external-systems.md#capping). Für alle benutzerdefinierten Aktionen gibt es standardmäßig keine Einschränkungsregel, aber es ist eine Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Einschränkungs-API eine höhere Begrenzung oder Einschränkung definieren.
 
-**Wie viele weitere Versuche werden unternommen? Kann ich die Anzahl der weiteren Versuche ändern oder eine Mindestwartezeit zwischen den Versuchen definieren?**
++++
+
++++ Wie viele weitere Zustellversuche werden unternommen? Kann ich die Anzahl der weiteren Versuche ändern oder eine Mindestwartezeit zwischen den Versuchen definieren?
 
 Pro Aufruf können nach dem ersten Aufruf maximal drei weitere Versuche durchgeführt werden, bis das Ende der Zeitüberschreitungsdauer erreicht ist. Die Anzahl weiterer Versuche und die Zeit zwischen den einzelnen Versuchen können nicht geändert werden. Weitere Informationen finden Sie in [diesem Abschnitt](../configuration/external-systems.md#timeout).
 
-**Wo kann ich die Zeitüberschreitung konfigurieren? Gibt es einen Maximalwert?**
++++
+
++++ Wo kann ich die maximale Wartezeit konfigurieren? Gibt es einen Höchstwert?
 
 Sie können in jeder Journey eine Zeitüberschreitungsdauer festlegen. Die Zeitüberschreitungsdauer wird in den Eigenschaften einer Journey konfiguriert. Die Zeitüberschreitungsdauer muss zwischen 1 Sekunde und 30 Sekunden liegen. Weitere Informationen finden Sie in [diesem Abschnitt](../configuration/external-systems.md#timeout) und auf [dieser Seite](../building-journeys/journey-properties.md#timeout_and_error).
 
-**Wie viele Verbindungen werden von Journey Optimizer maximal geöffnet, wenn benutzerdefinierte Aktionen verwendet werden?**
++++
+
++++ Wie viele Verbindungen werden von Journey Optimizer maximal geöffnet, wenn benutzerdefinierte Aktionen verwendet werden?
 
 Wenn der IP-Proxy aktiviert ist und eine Drosselungskonfiguration für den Zielendpunkt definiert ist, basiert die Anzahl der Verbindungen auf der Rate (dies sind Schätzungen, keine garantierten Zahlen):
 
@@ -130,3 +140,5 @@ Wenn der IP-Proxy aktiviert ist und eine Drosselungskonfiguration für den Ziele
 * zwischen 4.000 und 5.000: 125 Verbindungen
 
 Wenn für einen Endpunkt keine Drosselungskonfiguration definiert ist, ist die Journey Optimizer-Engine so konzipiert, dass sie hochskaliert wird und eine hohe Anzahl von Verbindungen (über 2.000) erreichen kann. Um eine begrenzte Anzahl von Verbindungen zu erhalten, müssen Kundinnen und Kunden eine Drosselungskonfiguration verwenden.
+
++++
