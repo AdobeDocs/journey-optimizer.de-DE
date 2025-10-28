@@ -180,4 +180,4 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
