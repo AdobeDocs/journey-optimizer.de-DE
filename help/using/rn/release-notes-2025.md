@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 460ac269404842001f320df6404db474a34c30b7
+source-git-commit: d21f22dcab625c4dd60d74468c7afdb29041a54d
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7890'
 ht-degree: 99%
 
 ---
@@ -222,7 +222,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <td>
 <p>Sie können Ihre Journeys jetzt pausieren und fortsetzen. Diese Funktion gibt Journey-Anwendenden mehr Kontrolle und Flexibilität, da Live-Journeys vorübergehend ausgesetzt werden können, ohne das Kundenerlebnis zu stören. Während der Pause werden keine Nachrichten gesendet und die Profile verbleiben in einem ausgesetzten Zustand, bis die Journey fortgesetzt wird.</p>
 <p>Sie können nur eine Journey pausieren und fortsetzen oder Vorgänge zur Massenpause und -fortsetzung von einer Gruppe von Journeys durchführen.</p>
-<p>Darüber hinaus können Sie globale Filter auf pausierte Journeys anwenden, um Profile auf der Grundlage ihrer Attribute auszuschließen.</p>
+<p>Darüber hinaus können Sie auf Profilattribute basierende Beendigungskriterien (früher „globaler Filter“ genannt) auf pausierte Journey anwenden, um Profile auf der Grundlage ihrer Attribute auszuschließen.</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-pause.md">ausführlichen Dokumentation</a>.</p>
