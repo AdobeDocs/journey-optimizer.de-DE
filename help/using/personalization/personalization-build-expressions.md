@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 6b3005dd9483ff5311e4bf6b4f13d254c6be41d6
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1550'
 ht-degree: 98%
 
 ---
@@ -105,7 +105,7 @@ Im Navigationsbereich können Sie die Quelle für die Personalisierung auswähle
 * **[!UICONTROL Zielattribute]**: Dieser Ordner ist spezifisch für orchestrierte Kampagnen. Er enthält Attribute, die direkt auf der Kampagnen-Arbeitsfläche berechnet werden. [Informationen zum Hinzufügen von Personalisierungen in orchestrierten Kampagnen](../orchestrated/activities/channels.md#add-personalization)
 * **[!UICONTROL Zielgruppen]**: Listet alle im Segmentierungs-Service von Adobe Experience Platform erstellten Zielgruppen auf. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
 * **[!UICONTROL Angebotsentscheidungen]**: Listet alle Angebote auf, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebote in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../offers/get-started/starting-offer-decisioning.md).
-* **[!UICONTROL Kontextattribute]**: Wenn eine Kanalaktionsaktivität (E-Mail, Push, SMS) in einer Journey oder Kampagne verwendet wird, stehen für die Personalisierung Kontextattribute im Zusammenhang mit Ereignissen und Eigenschaften zur Verfügung. Ein Beispiel für die Personalisierung unter Verwendung von kontextuellen Attributen finden Sie [&#x200B; (diesem Abschnitt](personalization-use-case.md).
+* **[!UICONTROL Kontextattribute]**: Wenn eine Kanalaktionsaktivität (E-Mail, Push, SMS) in einer Journey oder Kampagne verwendet wird, stehen für die Personalisierung Kontextattribute im Zusammenhang mit Ereignissen und Eigenschaften zur Verfügung. Ein Beispiel für die Personalisierung unter Verwendung von kontextuellen Attributen finden Sie [ (diesem Abschnitt](personalization-use-case.md).
 
 >[!NOTE]
 >
@@ -162,8 +162,6 @@ Verfügbare Optionen sind:
 1. **[!UICONTROL Pillen]**: Attribute werden als kompakte „Pillen“ angezeigt, um die Lesbarkeit zu verbessern, indem lange Attributpfade ausgeblendet werden. Klicken Sie auf ein Attribut, um dessen vollständigen Pfad anzuzeigen.
 
    >[!NOTE]
-   >
-   >Die Pillenanzeige wird in den nächsten 30 Tagen schrittweise in allen Umgebungen eingeführt.
    >
    >Diese Option ist nur für Profilattribute, kontextuelle Attribute und dynamische Medien verfügbar.
 
