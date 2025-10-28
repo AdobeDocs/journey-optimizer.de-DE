@@ -10,10 +10,10 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 84f4bdf3f79d8f19b615c68a03e25b24f435f952
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 100%
+source-wordcount: '1800'
+ht-degree: 83%
 
 ---
 
@@ -31,6 +31,37 @@ Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entw
 >[!NOTE]
 >
 >Vor dem Testen Ihrer Journey müssen Sie alle Fehler beheben, falls vorhanden. Wie Sie Fehler vor dem Testen feststellen können, erfahren Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md).
+
+## Wichtige Hinweise {#important_notes}
+
+### Allgemeine Einschränkungen
+
+* **Nur Testprofile** - Nur Personen, die im Echtzeit-Kundenprofil-Service als „Testprofile“ gekennzeichnet sind, können im Testmodus auf eine Journey zugreifen. [Erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md).
+* **Namespace-Anforderung** - Der Testmodus ist nur für Entwurfs-Journey verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine Person, die auf die Journey zugreift, ein Testprofil ist oder nicht, und muss daher in der Lage sein, Adobe Experience Platform zu erreichen.
+* **Profil-Limit** - Während einer einzelnen Testsitzung können maximal 100 Testprofile auf eine Journey zugreifen.
+* **Ereignisauslösung** - Ereignisse können nur über die Benutzeroberfläche ausgelöst werden. Ereignisse können nicht mithilfe einer API von externen Systemen ausgelöst werden.
+* **Benutzerdefinierte Upload-Zielgruppen** - Der Journey-Testmodus unterstützt nicht [benutzerdefinierte Upload-Zielgruppe](../audience/custom-upload.md) Attributanreicherung.
+
+### Verhalten während und nach dem Test
+
+* **Testmodus deaktivieren** - Wenn Sie den Testmodus deaktivieren, werden alle Profile entfernt, die sich derzeit auf der Journey befinden oder zuvor auf dieser eingegeben wurden, und das Reporting wird gelöscht.
+* **Reaktivierungsflexibilität** Sie können den Testmodus beliebig oft aktivieren und deaktivieren.
+* **Automatische Deaktivierung** - Journey, die im Testmodus über eine **Woche inaktiv bleiben,** automatisch auf den Entwurfsstatus zurück, um die Leistung zu optimieren und eine überflüssige Ressourcennutzung zu verhindern.
+* **Bearbeiten und Veröffentlichen** - Während der Testmodus aktiv ist, können Sie die Journey nicht ändern. Sie können die Journey jedoch direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
+
+### Ausführung
+
+* **Aufspaltungsverhalten** - Wenn die Journey eine Aufspaltung erreicht, wird immer die oberste Verzweigung ausgewählt. Ordnen Sie Verzweigungen neu an, wenn Sie einen anderen Pfad testen möchten.
+* **Ereigniszeitpunkt** - Wenn der Journey mehrere Trigger enthält, wird jedes Ereignis nacheinander . Wird ein Ereignis zu früh (bevor der erste Warteknoten abgeschlossen ist) oder zu spät (nach der konfigurierten Zeitüberschreitung) gesendet, wird das Ereignis verworfen und das Profil wird an einen Zeitüberschreitungspfad gesendet. Vergewissern Sie sich stets, dass Verweise auf Payload-Felder für Ereignisse gültig bleiben, indem Sie die Payload innerhalb des definierten Fensters senden.
+* **Aktives Datumsfenster** - Stellen Sie sicher, dass das konfigurierte Journey-Fenster [Start- und Enddatum/-uhrzeit](journey-properties.md#dates) beim Initiieren des Testmodus die aktuelle Zeit enthält. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen.
+* **Reaktionsereignisse** - Für Reaktionsereignisse mit einer Zeitüberschreitung beträgt die minimale und die standardmäßige Wartezeit 40 Sekunden.
+* **Testdatensätze** - Im Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert, die wie folgt beschriftet sind: `JOtestmode - <schema of your event>`
+
+<!--
+* Fields from related entities are hidden from the test mode.
+-->
+
+## Testmodus aktivieren
 
 Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
@@ -59,25 +90,6 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
    ![](assets/journeyuctest2.png)
 
 1. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Nach Abschluss der Tests können Sie Ihre Journey veröffentlichen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/publishing-the-journey.md).
-
-## Wichtige Hinweise {#important_notes}
-
-* Im Testmodus können Sie Ereignisse nur über die Oberfläche auslösen. Ereignisse können nicht mithilfe einer API von externen Systemen ausgelöst werden.
-* Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Siehe diesen [Abschnitt](../audience/creating-test-profiles.md).
-* Der Testmodus ist nur in Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine Person, die auf die Journey zugreift, ein Testprofil ist oder nicht, und muss daher in der Lage sein, Adobe Experience Platform zu erreichen.
-* Die maximale Anzahl von Testprofilen, die während einer Testsitzung auf eine Journey zugreifen können, beträgt 100.
-* Wenn Sie den Testmodus deaktivieren, werden alle Personen, die in der Vergangenheit an der Journey teilgenommen haben oder sich derzeit darin befinden, aus der Journey entfernt. Dabei werden auch die Berichte gelöscht.
-* Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
-* Sie können Ihre Journey nicht ändern, wenn der Testmodus aktiviert ist. Im Testmodus können Sie die Journey direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
-* Beim Erreichen einer Aufspaltung wird immer die obere Verzweigung gewählt. Wenn der Test einen anderen Pfad wählen soll, können Sie die Position der aufgespaltenen Verzweigungen neu anordnen.
-* Um die Performance zu optimieren und eine überflüssige Ressourcennutzung zu verhindern, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, wieder in den **Entwurfsstatus**.
-* Durch den Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert. Diese Datensätze sind wie folgt gekennzeichnet: `JOtestmode - <schema of your event>`
-* Beim Testen von Journeys, die mehrere Ereignisse enthalten, müssen Sie jedes Ereignis der Reihe nach auslösen. Wird ein Ereignis zu früh (vor Abschluss des ersten Warteknotens) oder zu spät (nach dem konfigurierten Timeout) gesendet, wird das Ereignis verworfen und das Profil wird an einen Timeout-Pfad gesendet. Vergewissern Sie sich stets, dass Verweise auf Payload-Felder für Ereignisse gültig bleiben, indem Sie die Payload innerhalb des definierten Fensters senden.
-* Stellen Sie sicher, dass das für die Journey konfigurierte Fenster für [Start- und Enddatum/-zeit](journey-properties.md#dates) beim Initiieren des Testmodus die aktuelle Zeit enthält. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen.
-
-<!--
-* Fields from related entities are hidden from the test mode.
--->
 
 ## Auslösen Ihrer Ereignisse {#firing_events}
 
