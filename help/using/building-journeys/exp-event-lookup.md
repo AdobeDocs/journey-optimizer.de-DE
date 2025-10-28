@@ -5,10 +5,10 @@ title: Suche nach Erlebnisereignissen in Journeys
 description: Informationen zum Verwenden der Suche nach Erlebnisereignissen in Journeys
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 100%
+source-wordcount: '949'
+ht-degree: 98%
 
 ---
 
@@ -129,7 +129,9 @@ Weitere Informationen:
 
 ## Häufig gestellte Fragen {#faq-ee}
 
-Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird nicht mehr unterstützt. Die Auswirkungen sind in den folgenden häufig gestellten Fragen aufgeführt:
+Im Folgenden finden Sie häufig gestellte Fragen zur Suche nach Erlebnisereignissen in Journey.
+
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++Welche spezifischen Funktionen sind betroffen? 
 

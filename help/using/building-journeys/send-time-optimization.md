@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Versandzeit, senden, Nachricht, Optimierung, Journey, KI, intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 100%
+source-wordcount: '1520'
+ht-degree: 99%
 
 ---
 
@@ -98,6 +98,10 @@ Die Versandzeiten zum Ausprobieren werden zufällig aus den Versandzeiten ausgew
 
 
 ## Häufig gestellte Fragen {#faq-send-time}
+
+Im Folgenden finden Sie häufig gestellte Fragen zur Sendezeitoptimierung.
+
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++Wie lange muss ich warten, bevor ich die Versandzeitoptimierung verwenden kann?
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Assets, Experience Manager, Integration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,11 @@ Um Dateien in **[!DNL Assets Essentials]** oder **[!DNL Assets as a Cloud Serv
     -->
 
 
-## [!DNL Adobe Experience Manager Assets] Häufig gestellte Fragen {#faq-assets}
+## Häufig gestellte Fragen {#faq-assets}
+
+Im Folgenden finden Sie häufig gestellte Fragen zu Adobe Experience Manager Assets.
+
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ Kann ich das gebündelte Assets Essentials-Repository in Journey Optimizer weiter verwenden?
 

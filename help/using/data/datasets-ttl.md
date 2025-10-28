@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '711'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,9 @@ In der folgenden Tabelle sind alle betroffenen Datensätze und die jeweilige Tim
 
 ## Häufig gestellte Fragen {#faq}
 
-Im Folgenden finden Sie eine Liste von Antworten auf häufig gestellte Fragen zur TTL für Datensätze.
+Im Folgenden finden Sie häufig gestellte Fragen zu Datensätzen, Time-to-Live (TTL).
+
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++Gilt diese Änderung nur für Produktions-Sandboxes oder auch für Entwicklungs-Sandboxes?
 
