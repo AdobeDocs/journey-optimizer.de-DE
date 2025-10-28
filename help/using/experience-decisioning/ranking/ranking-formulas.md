@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
+source-git-commit: af4a5965c9268baf88c5306f1aa20d305ee7e501
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 100%
+source-wordcount: '1457'
+ht-degree: 92%
 
 ---
 
@@ -221,6 +221,22 @@ In diesem Fall für ein Profil wie:
                     ]}
 }
 ```
+
++++
+
++++Verstärken von Angeboten basierend auf der Postleitzahl und dem Jahreseinkommen eines Profils
+
+In diesem Beispiel versucht das System immer zuerst, ein Angebot anzuzeigen, das mit der Postleitzahl übereinstimmt. Wenn keine Übereinstimmung gefunden wird, wird ein allgemeines Angebot verwendet, wodurch die Anzeige von Angeboten, die für andere Postleitzahlen vorgesehen sind, vermieden wird.
+
+```pql
+if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 10000, if( not offer.luma.offerDetails.zipCode,_luma.annualIncome / 1000, -9999) )
+```
+
+Was die Formel bewirkt:
+
+* Wenn das Angebot dieselbe Postleitzahl wie der Benutzer hat, weisen Sie ihm eine sehr hohe Punktzahl zu, damit es zuerst ausgewählt wird.
+* Wenn das Angebot überhaupt keine Postleitzahl hat (es handelt sich um ein allgemeines Angebot), geben Sie ihm eine normale Punktzahl, die auf dem Einkommen des Benutzers basiert.
+* Wenn das Angebot eine andere Postleitzahl hat als der Benutzer, geben Sie ihm eine sehr niedrige Punktzahl, damit es nicht ausgewählt wird.
 
 +++
 
