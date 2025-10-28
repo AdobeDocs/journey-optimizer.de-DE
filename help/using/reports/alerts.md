@@ -19,7 +19,7 @@ ht-degree: 65%
 
 Verwenden Sie beim Erstellen Ihrer Journeys und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler vor der Ausführung oder Veröffentlichung zu überprüfen und zu beheben.
 
-* Auf dieser Seite erfahren Sie, wie Sie Probleme mit Ihren Journey [ beheben](../building-journeys/troubleshooting.md)
+* Auf dieser Seite erfahren Sie, wie Sie Probleme mit Ihren Journey [&#x200B; beheben](../building-journeys/troubleshooting.md)
 
 * Erfahren Sie, wie Sie Ihre Kampagnen überprüfen und aktivieren können: [Aktionskampagnen](../campaigns/review-activate-campaign.md) | [API-ausgelöste Kampagnen](../campaigns/review-activate-api-triggered-campaign.md) | [Orchestrierte Kampagnen](../orchestrated/start-monitor-campaigns.md)
 
@@ -43,8 +43,8 @@ Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONT
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
-   * Warnhinweis ](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration[
+   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
+   * Warnhinweis [&#128279;](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
