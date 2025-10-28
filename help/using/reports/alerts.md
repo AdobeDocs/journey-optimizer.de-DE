@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 663292f83538707effeb992a0602b1f40d8c1663
+source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 65%
+source-wordcount: '1815'
+ht-degree: 60%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 65%
 
 Verwenden Sie beim Erstellen Ihrer Journeys und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler vor der Ausführung oder Veröffentlichung zu überprüfen und zu beheben.
 
-* Auf dieser Seite erfahren Sie, wie Sie Probleme mit Ihren Journey [&#x200B; beheben](../building-journeys/troubleshooting.md)
+* Auf dieser Seite erfahren Sie, wie Sie Probleme mit Ihren Journey [ beheben](../building-journeys/troubleshooting.md)
 
 * Erfahren Sie, wie Sie Ihre Kampagnen überprüfen und aktivieren können: [Aktionskampagnen](../campaigns/review-activate-campaign.md) | [API-ausgelöste Kampagnen](../campaigns/review-activate-api-triggered-campaign.md) | [Orchestrierte Kampagnen](../orchestrated/start-monitor-campaigns.md)
 
@@ -35,16 +35,15 @@ Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONT
 
 * Spezifische Warnhinweise für Journeys:
 
-   * Warnhinweis beim [Fehlschlagen einer benutzerdefinierten Journey-Aktion](#alert-custom-actions)
    * Warnhinweis [Auslösen von „Zielgruppe lesen“ fehlgeschlagen](#alert-read-audiences)
+   * [ Warnhinweis Fehlerrate benutzerdefinierter Aktionen überschritten](#alert-custom-action-error-rate) (ersetzt den vorherigen Warnhinweis bei Fehlern benutzerdefinierter Journey-Aktionen)
    * Warnung [Profil-Verwerfungsrate überschritten](#alert-discard-rate)
-   * Warnung [Benutzerdefinierte Aktion - Fehlerrate überschritten](#alert-custom-action-error-rate)
    * Warnung [Profilfehlerrate überschritten](#alert-profile-error-rate)
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
-   * Warnhinweis [&#128279;](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration
+   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
+   * Warnhinweis ](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration[
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
@@ -55,7 +54,7 @@ Sie können jeden Warnhinweis einzeln über die Benutzeroberfläche abonnieren, 
 
 Je nach den Benutzereinstellungen werden Warnhinweise per E-Mail gesendet und/oder erscheinen direkt im Journey Optimizer-Benachrichtigungszentrum oben rechts in der Benutzeroberfläche. Wählen Sie in den **[!UICONTROL Voreinstellungen]** von [!DNL Adobe Experience Cloud] aus, wie Sie diese Warnhinweise erhalten möchten. [Weitere Informationen](../start/user-interface.md#in-product-alerts)
 
-Wenn ein Warnhinweis aufgelöst wurde, erhalten die Abonnentinnen und Abonnenten die Benachrichtigung „Aufgelöst“.
+Wenn ein Warnhinweis aufgelöst wird, erhalten Abonnentinnen und Abonnenten eine Benachrichtigung des Typs „Aufgelöst“. Warnhinweise werden nach 1 Stunde aufgelöst, um sich vor einem Umschalten der Werte zu schützen.
 
 
 ### Globales Abonnement {#global-subscription}
@@ -88,7 +87,7 @@ Gehen Sie wie folgt vor, um einen Warnhinweis für eine bestimmte Journey zu abo
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Journey-Warnhinweise {#journey-alerts}
 
@@ -107,43 +106,15 @@ Dieser Warnhinweis erscheint, wenn eine Aktivität **Zielgruppe lesen** 10 Minut
 
 Warnhinweise zu **Zielgruppe lesen** gelten nur für wiederkehrende Journey. Aktivitäten vom Typ **Zielgruppe lesen** in Live-Journeys, für deren Ausführung **Einmal** oder **So bald wie möglich** festgelegt wurde, werden ignoriert.
 
-Warnhinweise zu **Zielgruppe lesen** werden aufgelöst, wenn ein Profil den Knoten **Zielgruppe lesen** erreicht.
+Warnhinweise zu **Zielgruppe lesen** werden aufgelöst, wenn ein Profil den Knoten **Zielgruppe lesen** betritt oder nach einer Stunde.
 
 Der Name des E/A-Ereignisabonnements, das dem **Alert Read Audience Trigger Unsuccessful** entspricht, ist **Journey read audience Delays, Failures and Errors**.
 
 Überprüfen Sie zur Fehlerbehebung von Warnhinweisen bei **Zielgruppe lesen** die Anzahl Ihrer Zielgruppen auf der Experience Platform-Oberfläche.
 
-
-### Benutzerdefinierte Journey-Aktion fehlgeschlagen {#alert-custom-actions}
-
-Dieser Warnhinweis warnt Sie, wenn eine benutzerdefinierte Aktion fehlschlägt. Wir gehen davon aus, dass die Aktion fehlgeschlagen ist, wenn in den letzten 5 Minuten bei einer bestimmten benutzerdefinierten Aktion mehr als 1 % Fehler aufgetreten sind. Dies wird alle 30 Sekunden ausgewertet.
-
-Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
-
-<!--
-![](assets/alerts-custom-action.png)-->
-
-Warnhinweise zu benutzerdefinierten Aktionen werden aufgelöst, wenn in den letzten 5 Minuten:
-
-* bei dieser benutzerdefinierten Aktion keine Fehler (oder nur Fehler unter dem Schwellenwert von 1 %) aufgetreten sind.
-
-* oder kein Profil diese benutzerdefinierte Aktion erreicht hat.
-
-Der Name des E/A-Ereignissabonnements, der dem Warnhinweis für benutzerdefinierte Aktionen entspricht, lautet: **Benutzerdefinierte Journey-Aktion fehlgeschlagen**.
-
-Fehlerbehebung von Warnhinweisen bei **benutzerdefinierten Aktionen**:
-
-* Überprüfen Sie Ihre benutzerdefinierte Aktion mit [Testmodus](../building-journeys/testing-the-journey.md) auf einer anderen Journey.
-
-* Überprüfen Sie Ihren [Journey-Bericht](../reports/journey-live-report.md) um Fehlerursachen bei Aktionen anzuzeigen.
-
-* Prüfen Sie Ihre Journey-stepEvents, um weitere Informationen zu „failureReason“ zu erhalten.
-
-* Überprüfen Sie die Konfiguration Ihrer benutzerdefinierten Aktion und stellen Sie sicher, dass die Authentifizierung weiterhin gültig ist. Führen Sie beispielsweise eine manuelle Prüfung mit Postman durch.
-
 ### Rate beim Verwerfen des Profils überschritten {#alert-discard-rate}
 
-Dieser Warnhinweis warnt Sie, wenn das Verhältnis zwischen Profilverwerfen und eingegebenen Profilen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
+Dieser Warnhinweis warnt Sie, wenn das Verhältnis zwischen Profilverwerfen und eingegebenen Profilen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der standardmäßige Schwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
 
 Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
 
@@ -158,17 +129,26 @@ Es gibt mehrere Gründe, warum ein Profil verworfen werden könnte, was Informat
 
 ### Fehlerrate bei benutzerdefinierter Aktion überschritten {#alert-custom-action-error-rate}
 
-Dieser Warnhinweis warnt Sie, wenn das Verhältnis der Fehler bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
+Dieser Warnhinweis warnt Sie, wenn das Verhältnis der Fehler bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der standardmäßige Schwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
+
+>[!NOTE]
+>
+>Dieser Warnhinweis ersetzt den vorherigen Warnhinweis für **Fehler bei benutzerdefinierter Journey** Aktion.
+
+Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
 
 Fehler bei benutzerdefinierten Aktionen können aus verschiedenen Gründen auftreten. Zur Behebung dieser Fehler haben Sie folgende Möglichkeiten:
 
-* Überprüfen, ob die benutzerdefinierte Aktion korrekt konfiguriert ist
+* Überprüfen Sie Ihre benutzerdefinierte Aktion mit [Testmodus](../building-journeys/testing-the-journey.md) auf einer anderen Journey.
+* Überprüfen Sie Ihren [Journey-Bericht](../reports/journey-live-report.md) um Fehlerursachen bei Aktionen anzuzeigen.
+* Prüfen Sie Ihre Journey-stepEvents, um weitere Informationen zu „failureReason“ zu erhalten.
+* Überprüfen Sie, ob die benutzerdefinierte Aktion korrekt konfiguriert ist, und überprüfen Sie, ob die Authentifizierung weiterhin gültig ist. Führen Sie beispielsweise eine manuelle Prüfung mit Postman durch.
 * Überprüfen Sie, ob der Endpunkt erreichbar ist und die benutzerdefinierte Aktion ihn über die Konnektivitätsprüfung für benutzerdefinierte Aktionen erreichen kann.
 * Überprüfen Sie die Authentifizierungsdaten, die Internetverbindung usw.
 
 ### Fehlerrate bei Profil überschritten {#alert-profile-error-rate}
 
-Dieser Warnhinweis warnt Sie, wenn das Verhältnis der Fehler bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
+Dieser Warnhinweis warnt Sie, wenn das Verhältnis von fehlerhaften Profilen zu eingegebenen Profilen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der standardmäßige Schwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
 
 Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
 
