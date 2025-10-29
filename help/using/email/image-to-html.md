@@ -10,19 +10,14 @@ level: Beginner
 keywords: E-Mail, Vorlage, Bild, HTML, KI, Design, Beschleuniger
 hide: true
 hidefromtoc: true
-source-git-commit: 86bf80c56a1bd50872d014a7aa92407227c823f8
+source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1484'
 ht-degree: 4%
 
 ---
 
 # Konvertieren von Bildern in HTML-Vorlagen mit dem Vorlagenbeschleuniger {#image-to-html}
-
->[!CONTEXTUALHELP]
->id="ajo_template_accelerator"
->title="Vorlagenbeschleuniger"
->abstract="Verwenden Sie den Vorlagenbeschleuniger, um statische Bildentwürfe (JPEG oder PNG) in vollständig anpassbare HTML-E-Mail-Vorlagen zu konvertieren. Mit dieser KI-gestützten Funktion können Sie visuelle Designs schnell in responsive, bearbeitbare E-Mail-Inhalte umwandeln. Hinweis: Alle vorhandenen Inhalte in Ihrer E-Mail werden gelöscht, wenn Sie ein Bild zur Konvertierung hochladen."
 
 >[!AVAILABILITY]
 >
@@ -32,7 +27,7 @@ ht-degree: 4%
 
 Der Vorlagenbeschleuniger ist eine innovative KI-gestützte Funktion, die im Menü **Inhaltsvorlagen** verfügbar ist und die E-Mail-Erstellung erheblich beschleunigt, indem statische Bilddesigns in vollständig anpassbare HTML-E-Mail-Inhaltsvorlagen umgewandelt werden. Dieses Tool ermöglicht es Marketing-Experten, visuelle Designs von Grafikdesignern oder Design-Tools in responsive, bearbeitbare E-Mail-Vorlagen umzuwandeln, die in der Inhaltsvorlagenbibliothek gespeichert und dann in mehreren Journey und Kampagnen wiederverwendet werden können.
 
-Durch die Nutzung der generativen KI-Technologie analysiert der Vorlagenbeschleuniger das Layout, die Typografie, die Farben und visuellen Elemente in Ihrem Bild und generiert einen übersichtlichen, strukturierten HTML-Code, der die Designtreue erhält und gleichzeitig eine vollständige Bearbeitbarkeit und Kompatibilität mit dem E-Mail-Designer gewährleistet.
+Durch die Nutzung der generativen KI-Technologie analysiert der Konverter „Vorlagenbeschleuniger für Bild in HTML&quot; das Layout, die Typografie, die Farben und visuellen Elemente in Ihrem Bild und generiert einen sauberen, strukturierten HTML-Code, der die Designtreue aufrechterhält und gleichzeitig eine vollständige Bearbeitbarkeit und Kompatibilität mit dem E-Mail-Designer sicherstellt.
 
 **Wichtigste Vorteile:**
 
@@ -107,11 +102,11 @@ Nachdem Sie Ihre Inhaltsvorlage erstellt und gespeichert haben, können Sie sie 
 
 Wenn Sie eine E-Mail auf einer Journey oder in einer Kampagne erstellen, greifen Sie auf dem Bildschirm **[!UICONTROL Inhalt bearbeiten]** auf die E-Mail-Designer zu.
 
-Erfahren Sie mehr über [Arbeiten mit E-Mail](use-email-templates.md)Vorlagen und [Erstellen von &#x200B;](../content-management/content-templates.md)).
+Erfahren Sie mehr über [Arbeiten mit E-Mail](use-email-templates.md)Vorlagen und [Erstellen von ](../content-management/content-templates.md)).
 
 ## Best Practices {#best-practices}
 
-Um bei der Verwendung des Vorlagenbeschleunigers optimale Ergebnisse zu erzielen, befolgen Sie die folgenden Empfehlungen:
+Um bei der Verwendung des Konverters „Bild in HTML&quot; optimale Ergebnisse zu erzielen, befolgen Sie die folgenden Empfehlungen:
 
 **Vorbereitung**
 
@@ -161,7 +156,7 @@ Beachten Sie die folgenden Einschränkungen bei der Verwendung des Konverters �
 
 >[!NOTE]
 >
->Der Vorlagenbeschleuniger ist als guter Ausgangspunkt für die E-Mail-Erstellung konzipiert. Die generierte HTML sollte mit der E-Mail-Designer überprüft und verfeinert werden, um sicherzustellen, dass sie genau Ihren Anforderungen entspricht.
+>Der Konverter „Bild in HTML&quot; ist ein guter Ausgangspunkt für die E-Mail-Erstellung. Die generierte HTML sollte mit der E-Mail-Designer überprüft und verfeinert werden, um sicherzustellen, dass sie genau Ihren Anforderungen entspricht.
 
 ## Häufig gestellte Fragen {#faq}
 
