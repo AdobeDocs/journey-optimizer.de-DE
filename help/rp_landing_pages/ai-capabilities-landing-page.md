@@ -96,7 +96,7 @@ Experimentiermittel
 
 Führen Sie digitale Experimente mit KI-gestützten Einblicken aus und verwalten Sie diese. Rufen Sie Leistungszusammenfassungen, Inhaltsanalysen und Empfehlungen für Ihre nächsten Tests ab.
 
-[Entdecken Sie den Experimentieragenten](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+[Entdecken Sie den Experimentieragenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 :::
 
 :::
@@ -133,7 +133,7 @@ Mehrere KI-Agenten koordinieren, um nahtlos zusammenzuarbeiten. Lösen Sie kompl
 Adobe Experience Cloud-KI-Agenten erweitern KI-Funktionen über Journey Optimizer hinaus und ermöglichen so Interaktionen in natürlicher Sprache für komplexe Marketing-Aufgaben:
 
 - **[Journey Analyze Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}**: Führen Sie eine Journey-Fallout-Analyse durch, erkennen Sie Zielgruppen- und Zeitplanüberschneidungen und erhalten Sie umsetzbare Empfehlungen zur Optimierung der Journey-Leistung.
-- **[Experimentationsagent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analysieren Sie Experimentergebnisse, identifizieren Sie erfolgreichste Muster und entdecken Sie neue Möglichkeiten für kanalübergreifende Tests.
+- **[Experimentationsagent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analysieren Sie Experimentergebnisse, identifizieren Sie erfolgreichste Muster und entdecken Sie neue Möglichkeiten für kanalübergreifende Tests.
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - Erstellen und verwalten Sie Zielgruppensegmente über konversative KI, analysieren Sie die Zielgruppenkomposition und optimieren Sie Segmentierungsstrategien.
 - **[Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - Koordinieren Sie mehrere spezialisierte Agenten, um komplexe, mehrstufige Marketing-Herausforderungen effizient zu lösen.
 
