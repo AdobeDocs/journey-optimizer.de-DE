@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer – Erste Schritte für Marketing-Experten
-description: Erfahren Sie als Journey-Anwender mehr über die Arbeit mit Journey Optimizer
+description: Informationen zum Arbeiten mit Journey Optimizer für Journey-Anwendende
 level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte für Marketing-Experten {#get-started-marketers}
 
-Als **Marketer** oder **Journey-Anwender** sind Sie für die Erstellung von Angeboten und Journey und die Gestaltung von Inhalten verantwortlich. Sie können die Arbeit mit [!DNL Adobe Journey Optimizer] beginnen, sobald Ihnen der [Systemadministrator](administrator.md) und der [Datentechniker](data-engineer.md) Zugriff gewährt und Ihre Umgebung vorbereitet haben.
+Als **Marketing-Fachkraft** oder **Journey-Anwenderin bzw. -Anwender** sind Sie für die Erstellung von Angeboten und Journeys und die Gestaltung von Inhalten verantwortlich. Sie können die Arbeit mit [!DNL Adobe Journey Optimizer] beginnen, sobald Ihnen der [Systemadministrator](administrator.md) und der [Datentechniker](data-engineer.md) Zugriff gewährt und Ihre Umgebung vorbereitet haben.
 
 Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angebote und Assets hinzufügen und Nachrichten versenden:
 

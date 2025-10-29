@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 243d4e74c15057bc4bd334876a1bc87969d396e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
@@ -21,74 +21,74 @@ Verwenden Sie [!DNL Journey Optimizer], um Textnachrichten (SMS/MMS/RCS) an die 
 
 Textnachrichten können in einer Journey oder in einer Kampagne erstellt und versendet werden. Für SMS, MMS und RCS verwenden Sie die SMS-Aktion.
 
-* In einer **Journey**. Erstellen Sie eine Journey, fügen Sie eine SMS-Aktivität hinzu und definieren Sie die Grundeinstellungen. Navigieren Sie dann zum Bereich SMS-Aktionen auf der rechten Seite, um den Inhalt für die SMS-, MMS- oder RCS-Nachricht zu erstellen. [Erfahren Sie, wie Sie eine Journey erstellen](../building-journeys/journey-gs.md)
+* In einer **Journey**. Erstellen Sie eine Journey, fügen Sie eine SMS-Aktivität hinzu und definieren Sie die Grundeinstellungen. Navigieren Sie dann zum rechten Bereich der SMS-Aktionen, um den Inhalt für die SMS-, MMS- oder RCS-Nachricht zu erstellen. [Erfahren Sie, wie Sie eine Journey erstellen](../building-journeys/journey-gs.md)
 
 * In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie SMS als Aktion aus und definieren Sie die Grundeinstellungen. Bearbeiten Sie dann den Nachrichteninhalt, um die zu sendende SMS-, MMS- oder RCS-Nachricht zu definieren. [Erfahren Sie, wie Sie eine Kampagne erstellen](../campaigns/create-campaign.md#configure)
 
 >[!IMPORTANT]
 >
->Wenn Sie zum ersten Mal Textnachrichten erstellen, stellen Sie sicher, dass der SMS-Kanal konfiguriert wurde. [Weitere Informationen](sms-configuration.md)
+>Wenn Sie zum ersten Mal eine Textnachricht erstellen, stellen Sie sicher, dass der SMS-Kanal konfiguriert wurde. [Weitere Informationen](sms-configuration.md)
 
-## Textnachrichten-Funktionen {#sms-capabilities}
+## Textnachrichtenfunktionen {#sms-capabilities}
 
-Adobe Journey Optimizer bietet umfassende Textnachrichten-Funktionen, mit denen Sie Ihre Kunden über mehrere Kanäle hinweg ansprechen können:
+Adobe Journey Optimizer bietet umfassende Textnachrichtenfunktionen, mit denen Sie Ihre Kundinnen und Kunden über mehrere Kanäle hinweg ansprechen können:
 
 **SMS (Short Message Service)**
 
-Senden Sie Nachrichten mit bis zu 160 Zeichen im Nur-Text-Format. SMS ist das am häufigsten unterstützte Textnachrichtenformat auf allen Mobilgeräten.
+Senden Sie Nachrichten mit bis zu 160 Zeichen im reinen Textformat. SMS ist das am häufigsten unterstützte Textnachrichtenformat auf allen Mobilgeräten.
 
 **MMS (Multimedia Message Service)**
 
-Verbessern Sie Ihre Kommunikation mit Multimedia-Inhalten, einschließlich Videos, Bildern, Audio-Clips und GIFs. MMS-Nachrichten ermöglichen zusätzlich zu Mediendateien bis zu 1600 Textzeichen. [Erfahren Sie mehr über MMS-Einschränkungen](../start/guardrails.md#sms-guardrails)
+Verbessern Sie Ihre Kommunikation mit Multimedia-Inhalten, einschließlich Videos, Bildern, Audio-Clips und GIFs. MMS-Nachrichten ermöglichen zusätzlich zu Mediendateien die Verwendung von bis zu 1.600 Textzeichen. [Informationen zu MMS-Einschränkungen](../start/guardrails.md#sms-guardrails)
 
 **RCS (Rich Communication Services)**
 
-Senden Sie markenspezifische, interaktive Nachrichten mit erweiterten Funktionen wie Karussells, Rich-Cards, empfohlenen Aktionen und erweiterter Medienunterstützung. RCS bietet ein besseres Messaging-Erlebnis auf unterstützten Geräten.
+Senden Sie an Ihre Marke angepasste, interaktive Nachrichten mit erweiterten Funktionen wie Karussells, Rich Cards, empfohlenen Aktionen und erweiterter Medienunterstützung. RCS bietet ein umfangreicheres Messaging-Erlebnis auf unterstützten Geräten.
 
 ## Wichtigste Funktionen {#key-features}
 
-**Personalization und dynamische Inhalte**
+**Personalisierung und dynamische Inhalte**
 
-Erstellen von personalisierten Textnachrichten mit dem Personalisierungseditor Fügen Sie Profilattribute, bedingte Inhalte und dynamische Daten hinzu, um Nachrichten an einzelne Empfängerinnen und Empfänger anzupassen. [Erfahren Sie mehr über Personalisierung](../personalization/personalize.md)
+Erstellen Sie personalisierte Textnachrichten mit dem Personalisierungseditor. Fügen Sie Profilattribute, bedingte Inhalte und dynamische Daten hinzu, um Nachrichten an einzelne Empfängerinnen und Empfänger anzupassen. [Informationen zur Personalisierung](../personalization/personalize.md)
 
 **Unterstützung mehrerer Anbieter**
 
 Adobe Journey Optimizer lässt sich mit führenden SMS-Dienstleistern integrieren:
 
-* **Sinch** - [Konfigurationshandbuch](sms-configuration-sinch.md)
-* **Twilio** - [Konfigurationshandbuch](sms-configuration-twilio.md)
-* **Infobip** - [Konfigurationshandbuch](sms-configuration-infobip.md)
-* **Benutzerdefinierte Anbieter** - Konfigurieren Sie jeden anderen SMS-Anbieter mithilfe einer benutzerdefinierten API-Integration. [Weitere Informationen](sms-configuration-custom.md)
+* **Sinch** – [Konfigurationshandbuch](sms-configuration-sinch.md)
+* **Twilio** – [Konfigurationshandbuch](sms-configuration-twilio.md)
+* **Infobip** – [Konfigurationshandbuch](sms-configuration-infobip.md)
+* **Benutzerdefinierte Anbieter** – Konfigurieren Sie jeden anderen SMS-Anbieter mithilfe einer benutzerdefinierten API-Integration. [Weitere Informationen](sms-configuration-custom.md)
 
 **URL-Verkürzung und -Tracking**
 
-Fügen Sie Ihren Nachrichten gekürzte, verfolgbare URLs hinzu, um die Interaktion zu überwachen. Subdomain-Konfiguration ist für die URL-Verkürzungsfunktion erforderlich. [Erfahren Sie, wie Sie SMS-Subdomains konfigurieren](sms-subdomains.md)
+Fügen Sie Ihren Nachrichten gekürzte, nachverfolgbare URLs hinzu, um die Interaktion zu überwachen. Für die Funktion der URL-Verkürzung ist eine Subdomain-Konfiguration erforderlich. [Informationen zum Konfigurieren von SMS-Subdomains](sms-subdomains.md)
 
 **Opt-out-Verwaltung**
 
-Sicherstellen der Einhaltung von Branchenstandards und -vorschriften durch integrierte Opt-out-Verwaltung. Journey Optimizer verarbeitet automatisch Standard-Opt-out-Keywords (STOP, QUIT, CANCEL usw.) für Sinch- und Infobip-Anbieter. [Erfahren Sie mehr über die Opt-out-Verwaltung](sms-opt-out.md)
+Stellen Sie die Einhaltung von Branchenstandards und -vorschriften durch native Opt-out-Verwaltung sicher. Journey Optimizer verarbeitet Standard-Opt-out-Keywords (STOP, QUIT, CANCEL usw.) für Sinch- und Infobip-Anbieter automatisch. [Informationen zum Opt-out-Management](sms-opt-out.md)
 
-**Vorschau und Tests**
+**Anzeigen einer Vorschau und Testen**
 
-Testen Sie Ihre Textnachrichten vor dem Versand mithilfe von Testprofilen und Beispieldaten. Vorschau von Personalisierung, Inhalt und Formatierung, um sicherzustellen, dass Ihre Nachrichten korrekt angezeigt werden. [Erfahren Sie, wie Sie Nachrichten senden](send-sms.md)
+Testen Sie Ihre Textnachrichten vor dem Versand mithilfe von Testprofilen und Beispieldaten. Zeigen Sie eine Vorschau von Personalisierung, Inhalt und Formatierung an, um sicherzustellen, dass Ihre Nachrichten korrekt angezeigt werden. [Informationen zum Senden von Nachrichten](send-sms.md)
 
-**Reporting und Analysen**
+**Reporting und Analyse**
 
-Verfolgen Sie die Performance Ihrer SMS-Kampagnen und Journey mit umfassenden Reporting-Funktionen:
+Verfolgen Sie die Leistung Ihrer SMS-Kampagnen und Journeys mit umfassenden Reporting-Funktionen:
 
 * [SMS-Kampagnenberichte](../reports/campaign-global-report-cja-sms.md)
-* [SMS Journey Berichte](../reports/journey-global-report-cja-sms.md)
+* [SMS-Journey-Berichte](../reports/journey-global-report-cja-sms.md)
 
 ## Konfigurationsanforderungen {#configuration-requirements}
 
 Bevor Sie Textnachrichten senden, müssen Sie Folgendes tun:
 
-1. **Wählen Sie einen SMS-Anbieter** - Wählen Sie Sinch, Twilio, Infobip oder konfigurieren Sie einen benutzerdefinierten Anbieter
-2. **Einrichten von API-Anmeldeinformationen** - Integrieren der API-Token und Service-IDs Ihres Anbieters in Journey Optimizer
-3. **Kanalkonfigurationen erstellen** - Einrichten von SMS-Konfigurationen für Marketing- und Transaktionsnachrichten
-4. **Konfigurieren von Subdomains (optional)** - Nur erforderlich, wenn Sie in Ihren Nachrichten eine URL-Verkürzung verwenden möchten
+1. **Einen SMS-Anbieter auswählen**: Wählen Sie Sinch, Twilio oder Infobip aus oder konfigurieren Sie einen benutzerdefinierten Anbieter
+2. **API-Anmeldedaten einrichten**: Integrieren Sie die API-Token und Service-IDs Ihres Anbieters mit Journey Optimizer
+3. **Kanalkonfigurationen erstellen**: Richten Sie SMS-Konfigurationen für Marketing- und Transaktionsnachrichten ein
+4. **Subdomains erstellen (optional)**: Nur erforderlich, wenn Sie in Ihren Nachrichten eine URL-Verkürzung verwenden möchten
 
-Diese Konfigurationsschritte werden in der Regel von einem Systemadministrator durchgeführt. [Erste Schritte mit der SMS-Konfiguration](sms-configuration.md)
+Diese Konfigurationsschritte werden in der Regel von einer oder einem Systemadmin durchgeführt. [Erste Schritte mit der SMS-Konfiguration](sms-configuration.md)
 
 ## Schnellstartanleitung {#quick-start}
 
@@ -100,7 +100,7 @@ Diese Konfigurationsschritte werden in der Regel von einem Systemadministrator d
 <div>
 <a href="sms-configuration.md"><strong>Konfigurieren des SMS-Kanals</strong></a>
 </div>
-<p>SMS-Provider- und Kanalkonfigurationen einrichten</p>
+<p>Einrichten von SMS-Anbieter und Kanalkonfigurationen</p>
 </td>
 <td>
 <a href="create-sms.md">
@@ -115,9 +115,9 @@ Diese Konfigurationsschritte werden in der Regel von einem Systemadministrator d
 <img alt="Gelegentlich" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
-<a href="send-sms.md"><strong>Vorschau und Senden</strong></a>
+<a href="send-sms.md"><strong>Anzeigen einer Vorschau und Senden</strong></a>
 </div>
-<p>Testen und Senden von Textnachrichten an Ihre Zielgruppe</p>
+<p>Testen der Textnachricht und Senden an die Zielgruppe</p>
 </td>
 <td>
 <a href="sms-opt-out.md">
@@ -126,32 +126,32 @@ Diese Konfigurationsschritte werden in der Regel von einem Systemadministrator d
 <div>
 <a href="sms-opt-out.md"><strong>Verwalten von Opt-outs</strong></a>
 </div>
-<p>Handhabung von Abmeldeanfragen und Sicherstellung der Compliance</p>
+<p>Umgehen mit Abmeldeanfragen und Sicherstellen von Compliance</p>
 </td>
 </tr></table>
 
 ## Weitere Ressourcen {#additional-resources}
 
-Weitere Informationen zu Textnachrichten in Journey Optimizer finden Sie unter den folgenden Themen.
+Weitere Informationen zu Textnachrichten in Journey Optimizer finden Sie in den folgenden Themen.
 
 +++Konfigurationshandbücher
 
 Erfahren Sie, wie Sie Ihre SMS-Umgebung einrichten und konfigurieren:
 
-* [Übersicht über die SMS-Kanalkonfiguration](sms-configuration.md)
+* [Überblick über SMS-Kanalkonfiguration](sms-configuration.md)
 * [Erstellen von SMS-Kanalkonfigurationen](sms-configuration-surface.md)
 * [Konfigurieren von SMS-Subdomains für die URL-Verkürzung](sms-subdomains.md)
 
 +++
 
-+++Einrichtungshandbücher für Provider
++++Handbücher zur Einrichtung von Anbietern
 
-Schrittweise Konfiguration für jeden SMS-Dienstleister:
+Detaillierte Konfiguration für jeden SMS-Dienstleister:
 
-* [Konfigurieren eines Sinch-Anbieters](sms-configuration-sinch.md)
-* [Konfigurieren eines Twilio-Anbieters](sms-configuration-twilio.md)
-* [Konfigurieren eines Infobip-Anbieters](sms-configuration-infobip.md)
-* [Konfigurieren eines benutzerdefinierten SMS-Anbieters](sms-configuration-custom.md)
+* [Konfigurieren des Sinch-Anbieters](sms-configuration-sinch.md)
+* [Konfigurieren des Twilio-Anbieters](sms-configuration-twilio.md)
+* [Konfigurieren des Infobip-Anbieters](sms-configuration-infobip.md)
+* [Konfigurieren des benutzerdefinierten SMS-Anbieters](sms-configuration-custom.md)
 
 +++
 
@@ -159,9 +159,9 @@ Schrittweise Konfiguration für jeden SMS-Dienstleister:
 
 Erstellen, personalisieren und verwalten Sie den Inhalt von Textnachrichten:
 
-* [SMS-/MMS-Nachrichten erstellen](create-sms.md)
-* [Vorschau, Testen und Senden von Nachrichten](send-sms.md)
-* [Personalization in Textnachrichten](../personalization/personalize.md)
+* [Erstellen von SMS-/MMS-Nachrichten](create-sms.md)
+* [Anzeigen einer Vorschau, Testen und Senden von Nachrichten](send-sms.md)
+* [Personalisierung in Textnachrichten](../personalization/personalize.md)
 * [Dynamische Inhalte](../personalization/get-started-dynamic-content.md)
 
 +++
@@ -175,21 +175,21 @@ Stellen Sie sicher, dass Ihre Textnachrichten den Vorschriften und Datenschutzst
 
 +++
 
-+++Leistungsverfolgung
++++Tracking der Leistung
 
 Überwachen und analysieren Sie Ihre SMS-Kampagnen und die Journey-Leistung:
 
 * [SMS-Kampagnenberichte](../reports/campaign-global-report-cja-sms.md)
-* [SMS Journey Berichte](../reports/journey-global-report-cja-sms.md)
+* [SMS-Journey-Berichte](../reports/journey-global-report-cja-sms.md)
 
 +++
 
-+++Integration von Journey und Campaign
++++Journey- und Kampagnenintegration
 
-Erfahren Sie, wie Sie SMS in Ihre Kunden-Journey und -Kampagnen integrieren:
+Erfahren Sie, wie Sie SMS in Ihre Kunden-Journeys und -Kampagnen integrieren:
 
-* [SMS-Nachrichten zu Journey hinzufügen](../building-journeys/journeys-message.md)
-* [SMS-Kampagnen erstellen](../campaigns/create-campaign.md)
+* [Hinzufügen von SMS-Nachrichten zu Journeys](../building-journeys/journeys-message.md)
+* [Erstellen von SMS-Kampagnen](../campaigns/create-campaign.md)
 
 +++
 
@@ -201,27 +201,27 @@ Erfahren Sie, wie Sie SMS-Nachrichten konfigurieren, erstellen und in Ihre Journ
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3422692?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-**Erkunden Sie die Mobile-Messaging-Funktionen**
+**Informationen zu Mobile-Messaging-Funktionen**
 
-Entdecken Sie die umfassenden mobilen Messaging-Funktionen, die Adobe Journey Optimizer Marketing-Experten bietet.
+Entdecken Sie die umfassenden Mobile-Messaging-Funktionen, die Adobe Journey Optimizer Marketing-Fachleuten bietet.
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3430371?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
-**Senden von RCS-Nachrichten der Marke**
+**Senden von an Marken angepassten RCS-Nachrichten**
 
 Finden Sie heraus, wie Sie in Adobe Journey Optimizer an Ihre Marke angepasste, interaktive RCS-Nachrichten mithilfe eines benutzerdefinierten SMS-Anbieters konfigurieren und senden können. 
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3464764?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

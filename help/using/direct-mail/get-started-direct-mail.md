@@ -1,6 +1,6 @@
 ---
-title: Erste Schritte mit Briefpost
-description: Erfahren Sie, wie Sie in Journey Optimizer eine Briefpostnachricht erstellen
+title: Erste Schritte mit Direkt-Mail
+description: Erfahren Sie, wie Sie in Journey Optimizer eine Direkt-Mail-Nachricht erstellen
 feature: Direct Mail
 topic: Content Management
 role: User
@@ -8,13 +8,13 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit Briefpost {#create-direct}
+# Erste Schritte mit Direkt-Mail {#create-direct}
 
 Direkt-Mail ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Direkt-Mail-Drittanbieter zum Senden von Nachrichten an Ihre Kunden und Kundinnen benötigen.
 
@@ -30,7 +30,7 @@ Die wichtigsten Schritte zum Senden von Briefpostnachrichten sind:
 
 >[!AVAILABILITY]
 >
->Briefpostnachrichten können nur im Rahmen geplanter Kampagnen erstellt werden. Sie sind nicht für die Verwendung in orchestrierten und API-ausgelösten Kampagnen oder in Journey verfügbar.
+>Direkt-Mail-Nachrichten können nur im Rahmen geplanter Kampagnen erstellt werden. Sie sind nicht für die Verwendung in orchestrierten und von APIs ausgelösten Kampagnen oder in Journeys verfügbar.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 

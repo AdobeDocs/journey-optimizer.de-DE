@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Mithilfe dieser Tools können Sie reibungslosere und zielgerichtetere Marketing-
 
 Mit dem **Konflikterkennungs-Tool** können Sie potenzielle Überschneidungen in Journeys und Kampagnen identifizieren. Dies ist von entscheidender Bedeutung, da zu viele gleichzeitige Mitteilungen zu Kundenermüdung führen können. Mit Journey Optimizer können Sie Elemente wie Timelines, Zielgruppenüberschneidungen und Kanalkonfigurationen überwachen. Durch das frühzeitige Identifizieren von Konflikten können Sie Ihre Kampagnen verfeinern und verhindern, dass Kundinnen und Kunden mehrere Nachrichten gleichzeitig erhalten.
 
-➡️ [Erfahren Sie, wie Sie potenzielle Konflikte in Journey und Kampagnen erkennen](conflicts.md)
+➡️ [Informationen zum Erkennen potenzieller Konflikte in Journeys und Kampagnen](conflicts.md)
 
 ### Prioritätswerte
 
