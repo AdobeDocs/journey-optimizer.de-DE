@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '459'
 ht-degree: 3%
 
 ---
@@ -35,6 +35,8 @@ Um auf die Berichtseite **[!UICONTROL Benutzerdefinierte Aktion]** zuzugreifen, 
 ![](assets/monitor-1.png)
 
 ➡️ [Erfahren Sie mehr über die Konfiguration Ihrer benutzerdefinierten Aktionen](../action/about-custom-action-configuration.md)
+
+Zusätzlich zur Berichtseite **[!UICONTROL Benutzerdefinierte Aktion]** können Sie **[!DNL Adobe Experience Platform Query Service]** verwenden, um Abfragen für Berichte zu Leistungsmetriken benutzerdefinierter Aktionen zu erstellen. Abfragebeispiele finden Sie in [diesem Abschnitt](../reports/query-examples.md).
 
 ## KPIs {#kpis}
 
