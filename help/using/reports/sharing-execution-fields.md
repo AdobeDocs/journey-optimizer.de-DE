@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '663'
+ht-degree: 64%
 
 ---
 
@@ -56,8 +56,6 @@ Das Feld `actionExecutionTime` gibt die Gesamtzeit (in Millisekunden) an, die f�
 Das Feld `Timestamp` gibt die Endzeit der Aktionsausführung an. Um zu bestimmen, wann das Profil in den benutzerdefinierten Aktionsknoten eingetreten ist, ziehen Sie die `actionExecutionTime` vom `Timestamp` ab.
 
 Wenn `Timestamp` beispielsweise „2025-02-04 09:39:03 UTC“ ist und `actionExecutionTime` 1.813.227 ms (ca. 31 Minuten) beträgt, trat das Profil ungefähr zum Zeitpunkt „2025-02-04 09:08:32 UTC“ in den Knoten ein.
-
-
 
 
 ## actionExecutionError {#actionexecutionerror-field}
@@ -106,6 +104,56 @@ Typ: Zeichenfolge
 Fehler-Code von actionExecOrigError.
 
 Typ: Zeichenfolge
+
+## actionOriginEndpoint {#actionoriginendpoint}
+
+URI des in der Aktion verwendeten Endpunkts für die benutzerdefinierte Aktion.
+
+Typ: Zeichenfolge
+
+## actionOriginMethod {#actionoriginmethod}
+
+Hier wird die in der HTTP-Anfrage (GET oder POST) verwendete Methode beschrieben.
+
+Typ: Zeichenfolge
+
+## actionOriginIsMTLS {#actionoriginismtls}
+
+Dadurch wird beschrieben, ob MTLS für den Endpunkt aktiviert ist.
+
+Typ: boolesch
+
+## actionIsProxy {#actionisproxy}
+
+Dies beschreibt, ob für den Aufruf ein HTTP-Proxy mit definiertem IP-Adressbereich verwendet wird.
+
+Typ: boolesch
+
+## actionExecutionOriginStartTime {#actionexecutionoriginstarttime}
+
+Dies beschreibt den Zeitstempel, zu dem die HTTP-Anfrage initiiert wird. Bei einem erneuten Versuch ist dies der Zeitstempel, mit dem der letzte Wiederholungsversuch gestartet wird. Der Zeitstempel verwendet das ISO8601-Format in der UTC-Zeitzone.
+
+Beachten Sie, dass dieser Zeitstempel normalerweise etwas nach dem Eintritt des Profils in den Knoten für benutzerdefinierte Aktionen oder im Falle einer Drosselung erheblich nach dem Eintritt in den Knoten ist.
+
+Typ: timestamp
+
+## actionExecutionOriginTime {#actionexecutionorigintime}
+
+Dies beschreibt die Antwortzeit des HTTP-Aufrufs. Bei einem erneuten Versuch ist dies die Zeit, die für den letzten Wiederholungsversuch benötigt wird. Sie misst den Zeitraum zwischen dem Start der HTTP-Anfrage und dem Zeitpunkt, zu dem die vollständige Antwort vom Server zurückgegeben wird. Beachten Sie, dass dies jegliche Zeit ausschließt, die im Falle einer Drosselung in der Warteschlange verbracht wird.
+
+Typ: lang
+
+## actionIsThrottled {#actionisthrottled}
+
+Dadurch wird beschrieben, ob die Drosselung für den Endpunkt aktiviert ist.
+
+Typ: boolesch
+
+## actionWaitTime {#actionwaittime}
+
+Dies beschreibt, wenn das konfigurierte Ratenlimit für einen gedrosselten Endpunkt erreicht wird und Aufrufe mit der konfigurierten Rate in die Warteschlange gestellt und verarbeitet werden. Dieses Feld zeigt die Zeit an, die der Aufruf in der Warteschlange verbracht hat, bevor er ausgeführt wurde. Nur angegeben, wenn actionIsThrottled „true“ ==.
+
+Typ: lang
 
 ## actionBusinessType {#actionbusinesstype-field}
 

@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '3006'
+source-wordcount: '3010'
 ht-degree: 97%
 
 ---
@@ -945,6 +945,7 @@ ht-degree: 97%
       + [Erste Schritte mit benutzerdefinierten Aktionen](using/action/action.md)
       + [Konfigurieren einer benutzerdefinierten Aktion](using/action/about-custom-action-configuration.md)
       + [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](using/action/action-response.md)
+      + [Überwachen von benutzerdefinierten Aktionen](using/action/reporting.md)
 + Verbinden Ihrer Systeme und Umgebungen {#connect-systems}
    + [Verbinden Ihrer Systeme und Umgebungen](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Integrieren mit anderen Lösungen](using/integrations/ajo-integrations.md)
