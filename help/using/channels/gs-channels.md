@@ -136,16 +136,16 @@ Die nachstehende Tabelle zeigt die Verfügbarkeit der einzelnen Kanäle über ve
 | Kanal              | Journey | Aktions-(Marketing-)Kampagnen | Aktions-(Transaktions-)Kampagnen | API-ausgelöste (Marketing-)Kampagnen | API-ausgelöste (Transaktions-)Kampagnen | Orchestrierte Kampagnen |
 =======
 | Kanal              | Journey | Aktionskampagnen (Marketing) | Aktionskampagnen (Transaktion) | API-ausgelöste Kampagnen | Orchestrierte Kampagnen |
->>>>>>>>>>Gestaffelte Änderungen
->>>>>>>>>>|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
->>>>>>>>>>| E-Mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| Push-Benachrichtigung    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->>>>>>>>>>| In-App               | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Briefpost          | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Code-basierte Ausl.      | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Inhaltskarten        | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
->>>>>>>>>>| Zeile                 | ✅ | ✅ | — | — | — | — |
+&#x200B;>>>>>>>>>>Gestaffelte Änderungen
+>&#x200B;>>>>>>>>>|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
+>&#x200B;>>>>>>>>>| E-Mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| Push-Benachrichtigung    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+>&#x200B;>>>>>>>>>| In-App               | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Briefpost          | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Code-basierte Ausl.      | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Inhaltskarten        | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
+>&#x200B;>>>>>>>>>| Zeile                 | ✅ | ✅ | — | — | — | — |
 > 
