@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Kommunikationskanälen in  [!DNL Adobe Jo
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: d2ae91dd8f9f3ef8a38db12ea3c9356ca9a27c53
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 85%
+source-wordcount: '566'
+ht-degree: 92%
 
 ---
 
@@ -132,20 +132,15 @@ In Adobe Journey Optimizer können Kommunikationskanäle in zwei Hauptkontexten 
 
 Die nachstehende Tabelle zeigt die Verfügbarkeit der einzelnen Kanäle über verschiedene Journey und Kampagnen hinweg und gibt an, wo sie unterstützt werden.
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; Upstream aktualisiert
-| Kanal              | Journey | Aktions-(Marketing-)Kampagnen | Aktions-(Transaktions-)Kampagnen | API-ausgelöste (Marketing-)Kampagnen | API-ausgelöste (Transaktions-)Kampagnen | Orchestrierte Kampagnen |
-=======
-| Kanal              | Journey | Aktionskampagnen (Marketing) | Aktionskampagnen (Transaktion) | API-ausgelöste Kampagnen | Orchestrierte Kampagnen |
-&#x200B;>>>>>>>>>>Gestaffelte Änderungen
->&#x200B;>>>>>>>>>|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
->&#x200B;>>>>>>>>>| E-Mail                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->&#x200B;>>>>>>>>>| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->&#x200B;>>>>>>>>>| Push-Benachrichtigung    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
->&#x200B;>>>>>>>>>| In-App               | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Briefpost          | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Web                  | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Code-basierte Ausl.      | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Inhaltskarten        | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| WhatsApp             | ✅ | ✅ | — | — | — | — |
->&#x200B;>>>>>>>>>| Zeile                 | ✅ | ✅ | — | — | — | — |
-> 
+| Kanal | Journeys | Aktionskampagnen (Marketing) | Aktionskampagnen (Transaktion) | API-ausgelöste Kampagnen | Orchestrierte Kampagnen |
+|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
+| E-Mail | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| SMS | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Push-Benachrichtigung | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| In-App | ✅ | ✅ | — | — | — | — |
+| Direkt-Mail | ✅ | ✅ | — | — | — | — |
+| Web | ✅ | ✅ | — | — | — | — |
+| Code-basiertes Erlebnis | ✅ | ✅ | — | — | — | — |
+| Inhaltskarten | ✅ | ✅ | — | — | — | — |
+| WhatsApp | ✅ | ✅ | — | — | — | — |
+| Zeile | ✅ | ✅ | — | — | — | — |
