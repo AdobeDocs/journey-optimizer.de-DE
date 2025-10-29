@@ -10,9 +10,9 @@ level: Beginner
 keywords: E-Mail, Vorlage, Bild, HTML, KI, Design, Beschleuniger
 hide: true
 hidefromtoc: true
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: 86bf80c56a1bd50872d014a7aa92407227c823f8
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1524'
 ht-degree: 4%
 
 ---
@@ -44,11 +44,11 @@ Durch die Nutzung der generativen KI-Technologie analysiert der Vorlagenbeschleu
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie den Vorlagenbeschleuniger verwenden, stellen Sie Folgendes sicher:
+Bevor Sie die Vorlage „Bild-zu-HTML-Konvertierung“ verwenden, stellen Sie Folgendes sicher:
 
 * Zugriff auf Adobe Journey Optimizer mit der E-Mail-Designer
 * Eine Bilddatei im JPEG- oder PNG-Format, die Ihr E-Mail-Design enthält
-* Eingeschränkter Zugriff auf die Funktion „Vorlagenbeschleuniger“ (Adobe-Support kontaktieren)
+* Eingeschränkter Zugriff auf die Funktion „Image-in-HTML-Konverter“ (bitte den Adobe-Support kontaktieren)
 
 >[!NOTE]
 >
@@ -62,31 +62,28 @@ Gehen Sie wie folgt vor, um ein Bilddesign in eine vollständig anpassbare HTML-
 
 1. Klicken Sie **[!UICONTROL Vorlage erstellen]**.
 
-1. Füllen Sie die Vorlagendetails aus und wählen Sie **[!UICONTROL E-Mail]** als Kanal aus.
+1. Füllen Sie die Vorlagendetails aus, wählen Sie **[!UICONTROL E-Mail]** als Kanal aus und klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**, um auf die E-Mail-Designer zuzugreifen.
+1. Klicken Sie im rechten Bereich im Abschnitt **[!UICONTROL Bild in Vorlage konvertieren]** auf die Schaltfläche **[!UICONTROL Bild hochladen]**, um Ihre Bilddatei auszuwählen.
 
-1. Wählen Sie auf der Startseite von E-Mail-Designer die Option **[!UICONTROL HTML importieren]**.
+   ![](assets/email_designer_convert_img.png)
 
-   ![](assets/import-html_2.png)
-
-1. Im Importdialogfeld wird der Abschnitt **[!UICONTROL Bild in HTML konvertieren]** angezeigt.
 
    >[!CAUTION]
    >
    >Wenn Sie ein Bild zur Konvertierung hochladen **werden alle aktuell in der E-Mail hinzugefügten Inhalte gelöscht und durch** generierte Vorlage ersetzt. Wenn Sie in Ihrer E-Mail bereits Inhalt haben, speichern Sie diese, bevor Sie mit der Bildkonvertierung fortfahren.
 
-1. Klicken Sie auf **[!UICONTROL Bild laden]**, um Ihre Bilddatei auszuwählen.
 
-1. Ziehen Sie Ihre Bilddatei (JPEG oder PNG) per Drag-and-Drop oder klicken Sie, um die Bilddatei zu durchsuchen und auszuwählen.
-
-1. Klicken Sie **[!UICONTROL Generieren]**, um den KI-gestützten Konvertierungsprozess zu starten.
+1. Wählen Sie das Bild aus und klicken Sie **[!UICONTROL Öffnen]** um den KI-gestützten Konvertierungsprozess zu starten.
 
    >[!NOTE]
    >
    >Der Generierungsprozess kann je nach Komplexität und Größe Ihres Bilddesigns bis zu 5 Minuten dauern. Bitte haben Sie Geduld, während die KI Ihr Bild analysiert und konvertiert.
 
 1. Nach Abschluss der Konvertierung wird Ihre Inhaltsvorlage automatisch als Entwurf gespeichert. Sie können dann die generierte HTML-Vorlage auf der Arbeitsfläche von E-Mail-Designer überprüfen und bearbeiten.
+
+   ![](assets/email_designer_converted_img.png)
+
 
 1. Die konvertierte Vorlage wird in der E-Mail-Designer mit allen Bearbeitungsfunktionen geöffnet. Sie können jetzt:
 
@@ -96,7 +93,7 @@ Gehen Sie wie folgt vor, um ein Bilddesign in eine vollständig anpassbare HTML-
    * Hinzufügen, Entfernen oder Neuanordnen von Inhaltskomponenten
    * Alle E-Mail-Designer-Funktionen wie bei jeder anderen Vorlage nutzen
 
-   ![](assets/email_designer_structure_components.png)
+   ![](assets/email_designer_html_components.png)
 
 1. Nehmen Sie die erforderlichen Anpassungen vor, um die Vorlage zu verfeinern und Ihren Markenrichtlinien zu entsprechen.
 
@@ -106,19 +103,11 @@ Gehen Sie wie folgt vor, um ein Bilddesign in eine vollständig anpassbare HTML-
 
 ## Konvertierte Vorlage in E-Mails verwenden {#use-template}
 
-Nachdem Sie Ihre Inhaltsvorlage mit dem Vorlagenbeschleuniger erstellt und gespeichert haben, können Sie sie beim Entwerfen von E-Mails in Journey oder Kampagnen verwenden:
+Nachdem Sie Ihre Inhaltsvorlage erstellt und gespeichert haben, können Sie sie beim Entwerfen von E-Mails in Journey oder Kampagnen verwenden:
 
-1. Wenn Sie eine E-Mail auf einer Journey oder in einer Kampagne erstellen, greifen Sie auf dem Bildschirm **[!UICONTROL Inhalt bearbeiten]** auf die E-Mail-Designer zu.
+Wenn Sie eine E-Mail auf einer Journey oder in einer Kampagne erstellen, greifen Sie auf dem Bildschirm **[!UICONTROL Inhalt bearbeiten]** auf die E-Mail-Designer zu.
 
-1. Gehen Sie auf der Startseite von E-Mail-Designer zur Registerkarte **[!UICONTROL Gespeicherte]**&quot;.
-
-1. Wählen Sie die mit Vorlagenbeschleunigung generierte Vorlage aus der Liste aus.
-
-1. Klicken Sie auf **[!UICONTROL Diese Vorlage verwenden]**, um sie auf Ihre E-Mail anzuwenden.
-
-1. Fahren Sie mit der Bearbeitung und Personalisierung Ihres E-Mail-Inhalts fort.
-
-Erfahren Sie mehr über [Arbeiten mit E-Mail](use-email-templates.md)Vorlagen und [Erstellen von &#x200B;](../content-management/content-templates.md)).
+Erfahren Sie mehr über [Arbeiten mit E-Mail](use-email-templates.md)Vorlagen und [Erstellen von ](../content-management/content-templates.md)).
 
 ## Best Practices {#best-practices}
 
@@ -127,7 +116,7 @@ Um bei der Verwendung des Vorlagenbeschleunigers optimale Ergebnisse zu erzielen
 **Vorbereitung**
 
 * **Vorhandenen Inhalt speichern**: Wenn Sie ein Bild in HTML konvertieren, werden alle in Ihrer E-Mail vorhandenen Inhalte ersetzt. Speichern Sie immer Ihre aktuellen Arbeiten, bevor Sie diese Funktion verwenden.
-* **Workflow planen**: Verwenden Sie den Vorlagenbeschleuniger zu Beginn Ihres E-Mail-Erstellungsprozesses oder stellen Sie sicher, dass Sie bereit sind, den gesamten aktuellen Inhalt zu ersetzen.
+* **Workflow planen**: Verwenden Sie den Image-zu-HTML-Konverter zu Beginn Ihres E-Mail-Erstellungsprozesses oder stellen Sie sicher, dass Sie bereit sind, den gesamten aktuellen Inhalt zu ersetzen.
 
 **Bildvorbereitung**
 
@@ -156,7 +145,7 @@ Um bei der Verwendung des Vorlagenbeschleunigers optimale Ergebnisse zu erzielen
 
 ## Einschränkungen und Überlegungen {#limitations}
 
-Beachten Sie die folgenden Einschränkungen bei der Verwendung des Vorlagenbeschleunigers:
+Beachten Sie die folgenden Einschränkungen bei der Verwendung des Konverters „Bild in HTML&quot;:
 
 * **KI-Interpretation**: Die KI generiert HTML basierend auf der visuellen Interpretation Ihres Bildes. Komplexe oder ungewöhnliche Designs erfordern nach der Konvertierung möglicherweise manuelle Anpassungen.
 
@@ -168,7 +157,7 @@ Beachten Sie die folgenden Einschränkungen bei der Verwendung des Vorlagenbesch
 
 * **Verarbeitungszeit**: Der Konvertierungsprozess kann je nach Komplexität und Größe des Bildes bis zu 5 Minuten dauern. Die Vorlage wird nach Abschluss der Konvertierung automatisch als Entwurf gespeichert.
 
-* **Eingeschränkte Verfügbarkeit**: Als Funktion zur eingeschränkten Verfügbarkeit wird der Vorlagenbeschleuniger kontinuierlich verbessert. Die Funktionalität und Genauigkeit können variieren, und Ihr Feedback hilft dabei, die Funktion zu verbessern.
+* **Eingeschränkte Verfügbarkeit**: Als Funktion für eingeschränkte Verfügbarkeit wird der Image-zu-HTML-Konverter kontinuierlich verbessert. Die Funktionalität und Genauigkeit können variieren, und Ihr Feedback hilft dabei, die Funktion zu verbessern.
 
 >[!NOTE]
 >
@@ -176,15 +165,15 @@ Beachten Sie die folgenden Einschränkungen bei der Verwendung des Vorlagenbesch
 
 ## Häufig gestellte Fragen {#faq}
 
-+++Was passiert mit meinem vorhandenen E-Mail-Inhalt, wenn ich den Vorlagenbeschleuniger verwende?
++++Was passiert mit meinem vorhandenen E-Mail-Inhalt, wenn ich den Konverter „Bild in HTML&quot; verwende?
 
-Alle vorhandenen Inhalte in Ihrer E-Mail werden gelöscht und durch die neu generierte Vorlage ersetzt, wenn Sie ein Bild zur Konvertierung hochladen. Stellen Sie sicher, dass Sie alle wichtigen Inhalte speichern, bevor Sie diese Funktion verwenden. Am besten verwenden Sie den Vorlagenbeschleuniger zu Beginn Ihres E-Mail-Erstellungsprozesses.
+Alle vorhandenen Inhalte in Ihrer E-Mail werden gelöscht und durch die neu generierte Vorlage ersetzt, wenn Sie ein Bild zur Konvertierung hochladen. Stellen Sie sicher, dass Sie alle wichtigen Inhalte speichern, bevor Sie diese Funktion verwenden. Am besten verwenden Sie den Konverter „Bild in HTML&quot; zu Beginn Ihres E-Mail-Erstellungsprozesses.
 
 +++
 
 +++Welche Dateiformate werden unterstützt?
 
-Der Vorlagenbeschleuniger unterstützt die Bildformate JPEG (.jpg, .jpeg) und PNG (.png).
+Der Image-zu-HTML-Konverter unterstützt die Bildformate JPEG (.jpg, .jpeg) und PNG (.png).
 
 +++
 
@@ -208,19 +197,19 @@ Die KI gibt ihr Bestes, um Ihr Design genau zu interpretieren, aber es kann eine
 
 +++Kann ich diese Funktion für Landingpages oder andere Inhaltstypen verwenden?
 
-Der Vorlagenbeschleuniger wurde derzeit speziell für E-Mail-Vorlagen entwickelt. Verwenden Sie für andere Inhaltstypen die standardmäßigen Design- und Importoptionen in der E-Mail-Designer.
+Der Konvertierer für Bilder in HTML ist derzeit speziell für E-Mail-Vorlagen konzipiert. Verwenden Sie für andere Inhaltstypen die standardmäßigen Design- und Importoptionen in der E-Mail-Designer.
 
 +++
 
 +++Benötige ich spezielle Berechtigungen, um diese Funktion nutzen zu können?
 
-Der Vorlagenbeschleuniger ist nur in begrenztem Umfang verfügbar. Sie benötigen eingeschränkten Verfügbarkeitszugriff (wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten) und standardmäßige E-Mail-Designer-Berechtigungen, um diese Funktion nutzen zu können.
+Der Image-zu-HTML-Konvertierer ist nur in begrenztem Umfang verfügbar. Sie benötigen eingeschränkten Verfügbarkeitszugriff (wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten) und standardmäßige E-Mail-Designer-Berechtigungen, um diese Funktion nutzen zu können.
 
 +++
 
 +++Kann ich konvertierte Vorlagen für mehrere Kampagnen wiederverwenden?
 
-Ja! Mit dem Vorlagenbeschleuniger erstellte Vorlagen werden automatisch in der Inhaltsvorlagenbibliothek gespeichert. Sie können in allen Ihren Journey und Kampagnen auf sie zugreifen und sie in jeder E-Mail wiederverwenden. [Weitere Informationen](../content-management/content-templates.md)
+Ja! Vorlagen, die mit dem Konverter „Bild in HTML&quot; erstellt wurden, werden automatisch in der Inhaltsvorlagenbibliothek gespeichert. Sie können in allen Ihren Journey und Kampagnen auf sie zugreifen und sie in jeder E-Mail wiederverwenden. [Weitere Informationen](../content-management/content-templates.md)
 
 +++
 
