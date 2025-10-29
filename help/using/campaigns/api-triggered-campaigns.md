@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 73%
@@ -34,7 +34,7 @@ Dazu müssen Sie zunächst in Journey Optimizer eine durch API ausgelöste Kampa
 
 >[!NOTE]
 >
->Unterstützte Kanäle sind: [E-Mail](../email/get-started-email.md), [SMS](../sms/get-started-sms.md), [Push-Benachrichtigungen](../push/get-started-push.md). Von API-ausgelöste Kampagnen mit hohem Durchsatz unterstützen derzeit nur den E-Mail-Kanal.
+>Weitere Informationen zu den unterstützten Kanälen finden Sie in der Tabelle in diesem Abschnitt: [Kanäle in Journey und Kampagnen](../channels/gs-channels.md#channels).
 >
 >Die verfügbaren Kanäle variieren je nach Ihrem Lizenzierungsmodell und Ihren Add-ons.
 
@@ -54,4 +54,4 @@ Bevor Sie mit Kampagnen beginnen, überprüfen Sie [in diesem Abschnitt](get-sta
 
 Erfahren Sie, wie Sie eine Kampagne erstellen und sie von einem externen System aus basierend auf Benutzerinteraktionen auslösen, indem Sie das REST-API zur Ausführung interaktiver Nachrichten verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452734?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

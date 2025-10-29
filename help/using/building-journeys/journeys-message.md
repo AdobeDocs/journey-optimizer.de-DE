@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 100%
+source-wordcount: '554'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Um eine integrierte Kanalaktion zu Ihrer Journey hinzuzufügen, legen Sie eine K
 
 ## Hinzufügen einer Nachricht zu einer Journey  {#add-msg-in-journey}
 
-Mit integrierten Kanalaktionen können Sie ausgehende oder eingehende Nachrichten konfigurieren. Unterstützte eingehende Kanäle sind E-Mails, Textnachrichten (SMS/MMS) und Push-Benachrichtigungen. Unterstützte ausgehende Kanäle sind In-App, Web, Code-basierte Erlebnisse und Inhaltskarten.
+Mit integrierten Kanalaktionen können Sie ausgehende oder eingehende Nachrichten konfigurieren. Weitere Informationen zu den in Journey verfügbaren Kanälen finden Sie in der Tabelle in diesem Abschnitt: [Kanäle in Journey und Kampagnen](../channels/gs-channels.md#channels).
 
 Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuzufügen.
 

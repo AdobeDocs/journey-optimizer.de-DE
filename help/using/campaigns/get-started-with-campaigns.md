@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 92%
+source-wordcount: '931'
+ht-degree: 89%
 
 ---
 
@@ -90,7 +90,7 @@ Verwenden Sie [!DNL Journey Optimizer]-Kampagnen, um einmalige Inhalte für eine
 
 ## Kampagnentypen
 
-[!DNL Journey Optimizer] unterstützt drei Kampagnentypen. Jeder Typ eignet sich für verschiedene Anwendungsfälle und unterstützt verschiedene Kanäle.
+[!DNL Journey Optimizer] unterstützt drei Kampagnentypen. Jeder Typ eignet sich für verschiedene Anwendungsfälle und unterstützt verschiedene Kanäle. Weitere Informationen zu den für jeden Kampagnentyp verfügbaren Kanälen finden Sie in der Tabelle in diesem Abschnitt: [Kanäle in Journey und Kampagnen](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -124,23 +124,6 @@ Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen ma
 
 
 >[!ENDTABS]
-
-## Unterstützte Kanäle nach Kampagnentyp {#channels}
-
-Die nachstehende Tabelle zeigt die Verfügbarkeit der einzelnen Kanäle über verschiedene Kampagnentypen hinweg und gibt an, wo sie unterstützt werden.
-
-| Kanal | Aktion (Marketing) | Aktion (Transaktion) | API-ausgelöst (Marketing) | API-ausgelöst (Transaktion) | Orchestriert |
-|----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|
-| E-Mail | ✅ | ✅ | ✅ | ✅ | ✅ |
-| SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Push-Benachrichtigung | ✅ | ✅ | ✅ | ✅ | ✅ |
-| In-App | ✅ | — | — | — | — |
-| Direkt-Mail | ✅ | — | — | — | — |
-| Web | ✅ | — | — | — | — |
-| Code-basiertes Erlebnis | ✅ | — | — | — | — |
-| Inhaltskarten | ✅ | — | — | — | — |
-| WhatsApp | ✅ | — | — | — | — |
-| Zeile | ✅ | — | — | — | — |
 
 ## Voraussetzungen {#prerequisites}
 

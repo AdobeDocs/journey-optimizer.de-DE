@@ -6,10 +6,10 @@ description: Informationen zu den ersten Schritten mit orchestrierten Kampagnen
 short-description: Entdecken Sie wichtige Funktionen und Anwendungsfälle von orchestrierten Kampagnen.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 97f9c32435667fecb950892ed6f6531085055e59
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 100%
+source-wordcount: '661'
+ht-degree: 97%
 
 ---
 
@@ -49,10 +49,9 @@ Unterstützt den Versand auf mehreren Ebenen, bei dem pro Profil und zugehörige
 <td><img alt="Mehrstufige Kampagnen-Workflows" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>Mehrstufige Kampagnen-Workflows</b><br/>: Entwerfen Sie mehrstufige Kampagnen, von täglichen Nachrichten bis hin zu komplexen Kampagnen wie saisonalen Werbeaktionen oder umfangreichen Produkteinführungen.</td></tr>
 </table>
 
-
 >[!NOTE]
 >
->Folgende Kanäle werden unterstützt: [E-Mail](../email/get-started-email.md), [SMS/MMS/RCS](../sms/get-started-sms.md), [Push-Benachrichtigungen](../push/get-started-push.md).
+>Weitere Informationen zu den unterstützten Kanälen finden Sie in der Tabelle in diesem Abschnitt: [Kanäle in Journey und Kampagnen](../channels/gs-channels.md#channels).
 >
 >Die verfügbaren Kanäle variieren je nach Ihrem Lizenzierungsmodell und Ihren Add-ons.
 
