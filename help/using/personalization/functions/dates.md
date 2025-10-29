@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 93%
+source-wordcount: '1091'
+ht-degree: 87%
 
 ---
 
@@ -420,9 +420,22 @@ Der folgende Vorgang gibt das Datum in diesem Format zurück: MM/TT/JJ.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
 
-## Formatieren des Datums mit Gebietsschema-Unterstützung{#format-date-locale}
+### Musterzeichen {#pattern-characters}
 
-Die Funktion `formatDate` wird verwendet, um einen Datums-/Uhrzeitwert in die entsprechende sprachabhängige Darstellung zu formatieren, d. h. in einem gewünschten Gebietsschema. Das Format sollte ein gültiges Java-DateTimeFormat-Muster sein.
+Einige Musterbuchstaben sehen möglicherweise ähnlich aus, stellen jedoch unterschiedliche Konzepte dar.
+
+| Muster | Bedeutung | Beispiel (für `2023-12-31T10:15:30Z`) |
+|---------|---------|--------------------------------------|
+| `y` | Kalenderjahr (Standardjahr) | `2023` |
+| `Y` | Wochenbasiertes Jahr (ISO 8601). Kann bei Jahresgrenzen unterschiedlich sein. | `2024` (seit 31. Dezember 2023 fällt in die erste Woche von 2024) |
+| `M` | Monat des Jahres (1-12 oder Text wie `Jan`, `January`) | `12` oder `Dec` |
+| `m` | Minute der Stunde (0-59) | `15` |
+| `d` | Tag des Monats (1-31) | `31` |
+| `D` | Tag des Jahres (1-366) | `365` |
+
+### Formatieren des Datums mit Gebietsschema-Unterstützung{#format-date-locale}
+
+Mit der Funktion `formatDate` kann ein Datums-/Uhrzeitwert in die entsprechende sprachabhängige Darstellung formatiert werden, d. h. in einem gewünschten Gebietsschema. Das Format sollte ein gültiges Java-DateTimeFormat-Muster sein.
 
 **Syntax**
 

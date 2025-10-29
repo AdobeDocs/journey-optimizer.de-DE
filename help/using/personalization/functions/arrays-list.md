@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 86%
 
 ---
 
@@ -107,10 +107,11 @@ Mit dem folgenden Vorgang wird die erste der fünf häufigsten Bestellungen mit 
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## Erste `n` in Array {#first-n}
+## Sortieren und Abrufen der ersten N in Array {#first-n}
 
-Die `topN`-Funktion gibt die ersten `N` Elemente in einem Array zurück, wenn sie anhand des angegebenen numerischen Ausdrucks in aufsteigender Reihenfolge sortiert werden.
+Die Funktion `topN` sortiert ein Array in absteigender Reihenfolge basierend auf dem angegebenen numerischen Ausdruck und gibt die ersten `N` Elemente zurück. Wenn die Array-Größe kleiner als `N` ist, wird das gesamte sortierte Array zurückgegeben.
 
+Diese Funktion
 **Syntax**
 
 ```sql
@@ -205,9 +206,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Letzte `n` in Array{#last-n}
+## Sortieren und Letzte N in Array abrufen {#last-n}
 
-Die `bottomN`-Funktion gibt die letzten `N` Elemente in einem Array zurück, wenn sie anhand des angegebenen numerischen Ausdrucks in aufsteigender Reihenfolge sortiert werden.
+Die Funktion `bottomN` sortiert ein Array in aufsteigender Reihenfolge basierend auf dem angegebenen numerischen Ausdruck und gibt die ersten `N` Elemente zurück. Wenn die Array-Größe kleiner als `N` ist, wird das gesamte sortierte Array zurückgegeben.
 
 **Syntax**
 
