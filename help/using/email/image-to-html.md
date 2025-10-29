@@ -1,23 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Konvertieren von Bildern in HTML-Vorlagen mit dem Vorlagenbeschleuniger
-description: Erfahren Sie, wie Sie mit dem KI-gestützten Vorlagenbeschleuniger Bilddesigns in bearbeitbare HTML-E-Mail-Vorlagen konvertieren können.
+title: Konvertieren von Bildern in HTML-Vorlagen mit dem Konverter „Bild in HTML"
+description: Erfahren Sie, wie Sie mit dem KI-gestützten Konvertierer für Bilder in HTML Bilddesigns in bearbeitbare HTML-E-Mail-Vorlagen konvertieren können
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner
-keywords: E-Mail, Vorlage, Bild, HTML, KI, Design, Beschleuniger
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+keywords: E-Mail, Vorlage, Bild, HTML, KI, Design, Konvertierer
 hide: true
 hidefromtoc: true
-source-git-commit: f23bb73a9aa1c3ca8a6fc7a9a7f4d18cebc1faf3
+source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1564'
 ht-degree: 4%
 
 ---
 
-# Konvertieren von Bildern in HTML-Vorlagen mit dem Vorlagenbeschleuniger {#image-to-html}
+# Konvertieren von Bildern in HTML-Vorlagen mit dem Konverter „Bild in HTML&quot; {#image-to-html}
 
 >[!AVAILABILITY]
 >
@@ -25,9 +26,9 @@ ht-degree: 4%
 
 ## Überblick {#overview}
 
-Der Vorlagenbeschleuniger ist eine innovative KI-gestützte Funktion, die im Menü **Inhaltsvorlagen** verfügbar ist und die E-Mail-Erstellung erheblich beschleunigt, indem statische Bilddesigns in vollständig anpassbare HTML-E-Mail-Inhaltsvorlagen umgewandelt werden. Dieses Tool ermöglicht es Marketing-Experten, visuelle Designs von Grafikdesignern oder Design-Tools in responsive, bearbeitbare E-Mail-Vorlagen umzuwandeln, die in der Inhaltsvorlagenbibliothek gespeichert und dann in mehreren Journey und Kampagnen wiederverwendet werden können.
+Der Bild-zu-HTML-Konverter ist eine innovative KI-gestützte Funktion, die im Menü **Inhaltsvorlagen** verfügbar ist und die E-Mail-Erstellung erheblich beschleunigt, indem statische Bilddesigns in vollständig anpassbare HTML-E-Mail-Inhaltsvorlagen konvertiert werden. Dieses Tool ermöglicht es Marketing-Experten, visuelle Designs von Grafikdesignern oder Design-Tools in responsive, bearbeitbare E-Mail-Vorlagen umzuwandeln, die in der Inhaltsvorlagenbibliothek gespeichert und dann in mehreren Journey und Kampagnen wiederverwendet werden können.
 
-Durch die Nutzung der generativen KI-Technologie analysiert der Konverter „Vorlagenbeschleuniger für Bild in HTML&quot; das Layout, die Typografie, die Farben und visuellen Elemente in Ihrem Bild und generiert einen sauberen, strukturierten HTML-Code, der die Designtreue aufrechterhält und gleichzeitig eine vollständige Bearbeitbarkeit und Kompatibilität mit dem E-Mail-Designer sicherstellt.
+Durch die Nutzung der Generative AI-Technologie analysiert der Image-zu-HTML-Konverter das Layout, die Typografie, die Farben und visuellen Elemente in Ihrem Bild und generiert einen übersichtlichen, strukturierten HTML-Code, der die Designtreue aufrechterhält und gleichzeitig eine vollständige Bearbeitbarkeit und Kompatibilität mit E-Mail-Designer sicherstellt.
 
 **Wichtigste Vorteile:**
 
@@ -39,7 +40,7 @@ Durch die Nutzung der generativen KI-Technologie analysiert der Konverter „Vor
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie die Vorlage „Bild-zu-HTML-Konvertierung“ verwenden, stellen Sie Folgendes sicher:
+Bevor Sie den Konverter „Bild in HTML&quot; verwenden, stellen Sie sicher, dass Sie Folgendes haben:
 
 * Zugriff auf Adobe Journey Optimizer mit der E-Mail-Designer
 * Eine Bilddatei im JPEG- oder PNG-Format, die Ihr E-Mail-Design enthält
@@ -73,7 +74,7 @@ Gehen Sie wie folgt vor, um ein Bilddesign in eine vollständig anpassbare HTML-
 
    >[!NOTE]
    >
-   >Der Generierungsprozess kann je nach Komplexität und Größe Ihres Bilddesigns bis zu 5 Minuten dauern. Bitte haben Sie Geduld, während die KI Ihr Bild analysiert und konvertiert.
+   >Der Generierungsprozess kann je nach Komplexität und Größe Ihres Bilddesigns bis zu 5 Minuten dauern. Die KI-Verarbeitung erfolgt im Hintergrund, sodass Sie diesen Bildschirm verlassen und an anderen Aufgaben arbeiten können, während die Konvertierung läuft. Sie müssen den Bildschirm nicht offen lassen.
 
 1. Nach Abschluss der Konvertierung wird Ihre Inhaltsvorlage automatisch als Entwurf gespeichert. Sie können dann die generierte HTML-Vorlage auf der Arbeitsfläche von E-Mail-Designer überprüfen und bearbeiten.
 
@@ -102,7 +103,7 @@ Nachdem Sie Ihre Inhaltsvorlage erstellt und gespeichert haben, können Sie sie 
 
 Wenn Sie eine E-Mail auf einer Journey oder in einer Kampagne erstellen, greifen Sie auf dem Bildschirm **[!UICONTROL Inhalt bearbeiten]** auf die E-Mail-Designer zu.
 
-Erfahren Sie mehr über [Arbeiten mit E-Mail](use-email-templates.md)Vorlagen und [Erstellen von &#x200B;](../content-management/content-templates.md)).
+Erfahren Sie mehr über [Arbeiten mit E-Mail](use-email-templates.md)Vorlagen und [Erstellen von ](../content-management/content-templates.md)).
 
 ## Best Practices {#best-practices}
 
@@ -150,7 +151,7 @@ Beachten Sie die folgenden Einschränkungen bei der Verwendung des Konverters �
 
 * **Komplexe Layouts**: Hochkomplexe Designs mit komplizierten Ebenen, ungewöhnlichen Formen oder nicht standardmäßigen Elementen werden möglicherweise nicht perfekt konvertiert. Einfachere Designs liefern in der Regel bessere Ergebnisse.
 
-* **Verarbeitungszeit**: Der Konvertierungsprozess kann je nach Komplexität und Größe des Bildes bis zu 5 Minuten dauern. Die Vorlage wird nach Abschluss der Konvertierung automatisch als Entwurf gespeichert.
+* **Verarbeitungszeit**: Der Konvertierungsprozess kann je nach Komplexität und Größe des Bildes bis zu 5 Minuten dauern. Die KI-Verarbeitung erfolgt im Hintergrund, sodass Sie andere Aufgaben bearbeiten können, ohne den Bildschirm offen zu lassen. Die Vorlage wird nach Abschluss der Konvertierung automatisch als Entwurf gespeichert.
 
 * **Eingeschränkte Verfügbarkeit**: Als Funktion für eingeschränkte Verfügbarkeit wird der Image-zu-HTML-Konverter kontinuierlich verbessert. Die Funktionalität und Genauigkeit können variieren, und Ihr Feedback hilft dabei, die Funktion zu verbessern.
 
@@ -174,7 +175,7 @@ Der Image-zu-HTML-Konverter unterstützt die Bildformate JPEG (.jpg, .jpeg) und 
 
 +++Wie lange dauert der Konvertierungsprozess?
 
-Die Konvertierung kann je nach Komplexität und Größe des Bilddesigns bis zu 5 Minuten dauern. Sobald die Konvertierung abgeschlossen ist, wird Ihre Datei automatisch als Entwurf gespeichert, den Sie überprüfen und bearbeiten können.
+Die Konvertierung kann je nach Komplexität und Größe des Bilddesigns bis zu 5 Minuten dauern. Die KI-Verarbeitung erfolgt im Hintergrund, sodass Sie weg navigieren und an anderen Aufgaben arbeiten können - Sie müssen den Bildschirm nicht offen lassen. Sobald die Konvertierung abgeschlossen ist, wird Ihre Datei automatisch als Entwurf gespeichert, den Sie überprüfen und bearbeiten können.
 
 +++
 

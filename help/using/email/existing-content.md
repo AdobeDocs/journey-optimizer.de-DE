@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: E-Mail, Import, Inhalt, HTML, ZIP, CSS
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
+source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Mit [!DNL Journey Optimizer] können Sie vorhandenen HTML-Inhalt importieren, um
 <!--DOCAC-13676
 >[!TIP]
 >
->If you have image designs (JPEG or PNG) instead of HTML files, you can use the [Template Accelerator](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
+>If you have image designs (JPEG or PNG) instead of HTML files, you can use the [image to HTML converter](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
 
 Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalt zu importieren:
 
