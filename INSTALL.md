@@ -21,6 +21,7 @@ Dies muss nur (**)** Repository erfolgen.
    ```
    @setup-agents
    ```
+
 3. Befolgen der Eingabeaufforderungen
 4. Fertig! ✨
 
@@ -32,11 +33,13 @@ Dies muss nur (**)** Repository erfolgen.
    ```bash
    ./setup-agents.sh
    ```
+
    Oder manuell:
 
    ```bash
    git submodule update --init --recursive
    ```
+
 3. Fertig! ✨
 
 ## Verifizierung
@@ -136,7 +139,7 @@ Das Untermodul verweist auf:
 
 Dadurch wird sichergestellt, dass alle dieselben, aktuellen Agenten verwenden.
 
----
+&#x200B;---
 
 **Benötigen Sie Hilfe?** Kontaktieren Sie Ihren Dokumentations-Teamleiter oder sehen Sie sich das interne Wiki an.
 
