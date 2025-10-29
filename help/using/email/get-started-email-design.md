@@ -44,7 +44,7 @@ Best Practices für die Gestaltung von E-Mails finden Sie in der unten stehenden
 
 >[!NOTE]
 >
->Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Zusätzlich zu den in diesem Abschnitt aufgeführten Best Practices zum Entwerfen von E-Mails sollten Sie auch die auf [ Seite aufgeführten Richtlinien ](accessible-content.md) Erstellen barrierefreier Inhalte mit E-Mail-Designer befolgen.
+>Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Zusätzlich zu den in diesem Abschnitt aufgeführten Best Practices zum Entwerfen von E-Mails sollten Sie auch die auf [&#x200B; Seite aufgeführten Richtlinien &#x200B;](accessible-content.md) Erstellen barrierefreier Inhalte mit E-Mail-Designer befolgen.
 
 ## Wichtige Schritte zum Erstellen von E-Mail-Inhalten {#key-steps}
 
@@ -68,7 +68,7 @@ Nachdem Sie einer Journey oder Kampagne eine [E-Mail hinzugefügt](create-email.
 <!-- DOCAC-13676
     * **Convert image designs to HTML templates** using the AI-powered Template Accelerator feature. Learn how to transform static images into editable email templates in [this section](image-to-html.md).-->
 
-    * **Wählen Sie einen vorhandenen ** aus einer Liste integrierter oder benutzerdefinierter Vorlagen aus. In [diesem Abschnitt](../email/use-email-templates.md) erfahren Sie, wie Sie mit E-Mail-Vorlagen arbeiten.
+    * **Wählen Sie einen vorhandenen &#x200B;** aus einer Liste integrierter oder benutzerdefinierter Vorlagen aus. In [diesem Abschnitt](../email/use-email-templates.md) erfahren Sie, wie Sie mit E-Mail-Vorlagen arbeiten.
     
     ![](assets/email_designer_create_options.png)
 

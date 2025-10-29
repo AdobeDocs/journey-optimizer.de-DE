@@ -118,7 +118,7 @@ Nachdem Sie Ihre Inhaltsvorlage mit dem Vorlagenbeschleuniger erstellt und gespe
 
 1. Fahren Sie mit der Bearbeitung und Personalisierung Ihres E-Mail-Inhalts fort.
 
-Erfahren Sie mehr über [Arbeiten mit E-Mail](use-email-templates.md)Vorlagen und [Erstellen von ](../content-management/content-templates.md)).
+Erfahren Sie mehr über [Arbeiten mit E-Mail](use-email-templates.md)Vorlagen und [Erstellen von &#x200B;](../content-management/content-templates.md)).
 
 ## Best Practices {#best-practices}
 
