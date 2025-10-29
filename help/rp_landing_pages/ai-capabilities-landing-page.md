@@ -5,10 +5,10 @@ title: KI-Funktionen in Adobe Journey Optimizer
 description: KI-Funktionen in Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: e06876a2f7f6e7145f08f725c1bfd4fdf59caf5c
+source-git-commit: 7db2932d6f4c6455cc323103c89e6d673d50efd0
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 4%
+source-wordcount: '1436'
+ht-degree: 3%
 
 ---
 
@@ -80,68 +80,53 @@ Integrieren Sie ihn mit Adobe Intelligent Services, um das Kundenverhalten vorhe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/analytics.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-Journey Analyze Agent
+Bewertung der Markenausrichtung
 
-Analysieren und optimieren Sie Journey mit natürlicher Sprache. Fallout-Punkte identifizieren, Zielgruppen- und Zeitplankonflikte erkennen und umsetzbare Empfehlungen erhalten.
+Bewerten Sie, wie gut Ihre KI-generierten Inhalte mithilfe der KI-gestützten Bewertung Ihren Markenrichtlinien entsprechen.
 
-[Journey Agent erkunden](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+[Informationen zur Markenausrichtung](../using/content-management/brands-score.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/beaker.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
-Experimentiermittel
+Experimentalbeschleuniger
 
-Führen Sie digitale Experimente mit KI-gestützten Einblicken aus und verwalten Sie diese. Rufen Sie Leistungszusammenfassungen, Inhaltsanalysen und Empfehlungen für Ihre nächsten Tests ab.
+Beschleunigen Sie Ihren Prozess des Inhaltsexperiments mit KI-gesteuerten Einblicken und Empfehlungen.
 
-[Entdecken Sie den Experimentieragenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+[Experiment-Beschleuniger erkunden](../using/content-management/experiment-accelerator-gs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Audience Agent
+KI-gestützte APIs
 
-Erstellen, Analysieren und Optimieren von Zielgruppensegmenten mithilfe von Conversational AI. Erstellen Sie komplexe Segmente mithilfe von Abfragen in natürlicher Sprache und erhalten Sie Einblicke in Zielgruppenüberschneidungen.
+Programmgesteuerter Zugriff auf die KI- und maschinellen Lernfunktionen von Journey Optimizer über APIs.
 
-[Erfahren Sie mehr über Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/workflow.svg)
-
-Agent Orchestrator
-
-Mehrere KI-Agenten koordinieren, um nahtlos zusammenzuarbeiten. Lösen Sie komplexe Aufgaben durch die Kombination von Journey-, Experimentier-, Zielgruppen- und Data Insights-Agenten.
-
-[Agent Orchestrator erkunden](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+[Entdecken von KI-gestützten APIs](../using/configuration/ajo-apis.md)
 :::
 
 ::::
 
 
-## Weitere Ressourcen
-
-- **[Bewertung der Markenausrichtung](../using/content-management/brands-score.md)** Bewerten Sie, wie gut Ihre KI-generierten Inhalte mit Ihren Markenrichtlinien übereinstimmen, indem Sie eine KI-gestützte Bewertung verwenden.
-- **[Experimentbeschleuniger](../using/content-management/experiment-accelerator-gs.md)** - Beschleunigen Sie Ihren Prozess zum Experimentieren mit Inhalten mit KI-gesteuerten Einblicken und Empfehlungen.
-- **[KI-gestützte APIs](../using/configuration/ajo-apis.md)** - Greifen Sie über APIs programmgesteuert auf die KI- und maschinellen Lernfunktionen von Journey Optimizer zu.
 
 ## KI-Agenten in Adobe Experience Cloud
 
 Adobe Experience Cloud-KI-Agenten erweitern KI-Funktionen über Journey Optimizer hinaus und ermöglichen so Interaktionen in natürlicher Sprache für komplexe Marketing-Aufgaben:
 
 - **[Journey Analyze Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}**: Führen Sie eine Journey-Fallout-Analyse durch, erkennen Sie Zielgruppen- und Zeitplanüberschneidungen und erhalten Sie umsetzbare Empfehlungen zur Optimierung der Journey-Leistung.
-- **[Experimentationsagent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analysieren Sie Experimentergebnisse, identifizieren Sie erfolgreichste Muster und entdecken Sie neue Möglichkeiten für kanalübergreifende Tests.
+- **[Experimentationsagent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analysieren Sie Experimentergebnisse, identifizieren Sie erfolgreichste Muster und entdecken Sie neue Möglichkeiten für kanalübergreifende Tests.
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - Erstellen und verwalten Sie Zielgruppensegmente über konversative KI, analysieren Sie die Zielgruppenkomposition und optimieren Sie Segmentierungsstrategien.
 - **[Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - Koordinieren Sie mehrere spezialisierte Agenten, um komplexe, mehrstufige Marketing-Herausforderungen effizient zu lösen.
 
 ## Häufig gestellte Fragen
 
-+++**Welche Berechtigungen sind erforderlich, um KI-Funktionen zu verwenden?**
++++**Welche Berechtigungen sind erforderlich, um den KI-Assistenten in Journey Optimizer zu verwenden?**
 
-Um den KI-Assistenten für die Inhaltserstellung verwenden zu können, muss Benutzenden die Berechtigung **Inhalt generieren** gewährt werden. Diese Berechtigung wird über die Ressource KI-Assistent im Produkt Berechtigungen zugewiesen. Um den KI-Assistenten für Produktkenntnisse und betriebliche Einblicke verwenden zu können, müssen sich Benutzende an die Adobe Experience Cloud Generative AI-Benutzerrichtlinien halten.
+Um den KI-Assistenten für die Inhaltserstellung verwenden zu können, muss Benutzenden die Berechtigung **Inhalt generieren** gewährt werden. Diese Berechtigung wird über die Ressource KI-Assistent im Produkt Berechtigungen zugewiesen. Um den KI-Assistenten für Produktkenntnisse und betriebliche Einblicke verwenden zu können, müssen sich Benutzende an die Adobe Experience Cloud Generative AI-Benutzerrichtlinien halten. Informationen zu Berechtigungen für KI-Agenten finden Sie unten im separaten Eintrag für häufig gestellte Fragen .
 
 [Weitere Informationen zu Berechtigungen](../using/administration/ootb-permissions.md)
 
@@ -217,9 +202,47 @@ Der KI-Assistent für die Inhaltserstellung ist für die Kanäle **E**, **Push**
 
 +++
 
++++**Was sind Adobe Experience Cloud AI-Agenten?**
+
+KI-Agenten sind spezielle KI-Assistenten, die auf Adobe Experience Platform basieren und natürliche Sprache verwenden, um komplexe Marketing-Aufgaben zu analysieren, zu optimieren und zu verwalten. Im Gegensatz zum KI-Assistenten für die Inhaltserstellung konzentrieren sich KI-Agenten auf operative Einblicke, Journey-Analyse, Zielgruppen-Management und Experimente. Zu den verfügbaren Agenten gehören Journey Analyze Agent, Experimentation Agent, Audience Agent und Agent Orchestrator.
+
+[Erfahren Sie mehr über KI-Agenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+
++++
+
++++**Welche Berechtigungen sind für die Verwendung von KI-Agenten erforderlich?**
+
+Die Berechtigungen variieren je nach Agent:
+
+- **Journey Analyze Agent** - Erfordert die Berechtigung **Journey anzeigen**, um Einblicke anzuzeigen, und **Journey verwalten**, um Journey zu erstellen. benötigt außerdem **Segmente anzeigen** und **Segmente verwalten** für die Arbeit mit Audiences.
+- **Experimentationsagent** - Erfordert die Berechtigung **Experimente anzeigen** um Einblicke anzuzeigen und **Experimentmetadaten zu verwalten** um Experimente zu erstellen.
+- **Audience Agent** - Erfordert entsprechende Berechtigungen zur Segmentanzeige und -verwaltung.
+- Alle Agenten benötigen Zugriff auf den KI-Assistenten und stimmen den Adobe Experience Cloud Generative AI-Benutzerrichtlinien zu.
+
++++
+
++++**Was kann der Journey Analyze Agent tun?**
+
+Der Journey Analyze Agent hilft Ihnen bei Folgendem:
+
+- **Analysieren des Journey-Fallouts** - Ermitteln Sie, wo und warum Kundinnen und Kunden während der Journey abbrechen, und erkennen Sie Ausstiegsmuster.
+- **Erkennen von Zielgruppenüberschneidungen** - Analysieren Sie Zielgruppenüberschneidungen über mehrere Journey hinweg, um Überermüdung durch Targeting zu verhindern.
+- **Planungskonflikte identifizieren** - Erkennung von Zeitkonflikten zwischen terminierten Journey, die dieselbe Zielgruppe ansprechen.
+- **Operative Einblicke aufdecken** - Erhalten Sie sofortige Einblicke wie „Zeige mir alle Live-Journey&quot; oder „Welche Zielgruppen werden in mehr als X Journey verwendet?“
+
+[Erkunden des Journey Analyze-Agenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+
++++
+
++++**Wie arbeiten KI-Agenten zusammen?**
+
+Die **Agent Orchestrator** koordiniert mehrere spezialisierte Agenten, um komplexe, mehrstufige Marketing-Herausforderungen zu lösen. Sie können beispielsweise den Journey-Analyzer-Agenten verwenden, um Fallout-Punkte zu identifizieren, den Audience Agent, um die Segmentzusammensetzung zu analysieren, und den Experimentieragenten, um Lösungen zu testen - alles über Abfragen in natürlicher Sprache. Der Orchestrator bestimmt automatisch, welche Agenten beteiligt werden sollen, und sequenziert ihre Arbeit effizient.
+
++++
+
 +++**Muss ich irgendwelchen Bedingungen zustimmen, um KI-Funktionen zu nutzen?**
 
-Ja, Sie müssen den [Benutzerrichtlinien für generative KI von Adobe Experience Cloud zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) bevor Sie den KI-Assistenten in Journey Optimizer verwenden. Weitere Informationen erhalten Sie vom Adobe-Support. Darüber hinaus wendet Adobe im Rahmen seines Engagements für Transparenz bei der Verwendung generativer KI Content Credentials auf von Firefly generierte Assets an.
+Ja, Sie müssen den [Benutzerrichtlinien für generative KI von Adobe Experience Cloud zustimmen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} bevor Sie den KI-Assistenten in Journey Optimizer oder KI-Agenten in Adobe Experience Cloud verwenden. Weitere Informationen erhalten Sie vom Adobe-Support. Darüber hinaus wendet Adobe im Rahmen seines Engagements für Transparenz bei der Verwendung generativer KI Content Credentials auf von Firefly generierte Assets an.
 
 +++
 
