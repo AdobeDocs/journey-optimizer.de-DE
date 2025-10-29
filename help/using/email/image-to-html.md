@@ -11,32 +11,45 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: E-Mail, Vorlage, Bild, HTML, KI, Design, Konvertierer
 hide: true
 hidefromtoc: true
-source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
+source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 4%
+source-wordcount: '1769'
+ht-degree: 3%
 
 ---
 
 # Konvertieren von Bildern in HTML-Vorlagen mit dem Konverter „Bild in HTML&quot; {#image-to-html}
 
+
+
+## Überblick {#overview}
+
+Der Bild-zu-HTML-Konverter ist eine innovative KI-gestützte Funktion, die im Menü **Inhaltsvorlagen** verfügbar ist und die E-Mail-Erstellung erheblich beschleunigt, indem statische Bilddesigns in vollständig anpassbare, modulare HTML-E-Mail-Inhaltsvorlagen konvertiert werden. Dieses Nicht-Code-Tool ermöglicht es Marketing-Experten, visuelle Designs von Grafikdesignern oder Design-Tools in responsive, bearbeitbare E-Mail-Vorlagen umzuwandeln, die in der Inhaltsvorlagenbibliothek gespeichert und dann in mehreren Journey und Kampagnen wiederverwendet werden können, ohne dass technisches Know-how erforderlich ist.
+
 >[!AVAILABILITY]
 >
 >Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
-## Überblick {#overview}
-
-Der Bild-zu-HTML-Konverter ist eine innovative KI-gestützte Funktion, die im Menü **Inhaltsvorlagen** verfügbar ist und die E-Mail-Erstellung erheblich beschleunigt, indem statische Bilddesigns in vollständig anpassbare HTML-E-Mail-Inhaltsvorlagen konvertiert werden. Dieses Tool ermöglicht es Marketing-Experten, visuelle Designs von Grafikdesignern oder Design-Tools in responsive, bearbeitbare E-Mail-Vorlagen umzuwandeln, die in der Inhaltsvorlagenbibliothek gespeichert und dann in mehreren Journey und Kampagnen wiederverwendet werden können.
-
-Durch die Nutzung der Generative AI-Technologie analysiert der Image-zu-HTML-Konverter das Layout, die Typografie, die Farben und visuellen Elemente in Ihrem Bild und generiert einen übersichtlichen, strukturierten HTML-Code, der die Designtreue aufrechterhält und gleichzeitig eine vollständige Bearbeitbarkeit und Kompatibilität mit E-Mail-Designer sicherstellt.
+Durch die Nutzung der Generative AI-Technologie analysiert der Image-zu-HTML-Konverter das Layout, die Typografie, die Farben und visuellen Elemente in Ihrem Bild und generiert einen übersichtlichen, modularen HTML-Code, der die Designtreue aufrechterhält und gleichzeitig eine vollständige Bearbeitbarkeit und Kompatibilität mit E-Mail-Designer sicherstellt. Dadurch entfällt der manuelle, zeitaufwendige Prozess der Konvertierung von Mockups in HTML und die Abhängigkeit von Entwicklungsressourcen wird reduziert.
 
 **Wichtigste Vorteile:**
 
-* **Beschleunigtes Authoring**: Verringern Sie die Erstellungszeit von E-Mails, indem Sie Design-Mockups sofort in wiederverwendbare Inhaltsvorlagen konvertieren
-* **Designer-Developer Bridge**: Bei der Arbeit mit visuellen Designs ist keine manuelle HTML-Codierung mehr erforderlich
-* **Designtreue**: Wahrung der Integrität Ihres ursprünglichen Designs beim Erstellen bearbeitbarer Inhalte
-* **Wiederverwendbarkeit**: Speichern von Vorlagen in der Inhaltsvorlagenbibliothek zur Verwendung in mehreren Journey und Kampagnen
+* **In Minutenschnelle nach HTML entwickeln**: Die KI-gestützte No-Code-Konvertierung wandelt statische Bilder in Minuten in bearbeitbare, modulare Vorlagen um, wodurch die Erstellungszeit von Vorlagen erheblich verkürzt wird
+* **Ermöglicht technisch nicht versierte Benutzende**: Verringert die Abhängigkeit von Design- oder Entwicklungs-Teams - Marketing-Experten können Vorlagen mit minimalem technischen Wissen erstellen und anpassen
+* **Vereinfachte Plattformmigration**: Konvertieren Sie externe Vorlagen oder Designs von anderen Plattformen mühelos in AJO-fähiges HTML
+* **Erstellen einer wiederverwendbaren Vorlagenbibliothek**: Erstellen Sie eine skalierbare, markenkonsistente Vorlagenbibliothek, die in mehreren Journey und Kampagnen verwendet werden kann
+* **Designtreue**: Halten Sie visuelle Konsistenz mit Ihrem ursprünglichen Design aufrecht und erstellen Sie gleichzeitig vollständig bearbeitbare Inhalte
 * **E-Mail-Kompatibilität**: Generieren Sie eine HTML, die nahtlos mit E-Mail-Designer und E-Mail-Clients zusammenarbeitet
+
+## Häufige Anwendungsfälle {#use-cases}
+
+Der Bild-zu-HTML-Konvertierer eignet sich ideal für:
+
+* **Platform-Migration**: Migration von einer anderen E-Mail-Marketing-Plattform? Konvertieren Sie Ihre vorhandenen E-Mail-Designs in AJO-fähige HTML-Vorlagen, ohne sie von Grund auf neu zu erstellen
+* **Design-Mockup-**: Wandeln Sie Design-Mockups aus Tools wie Photoshop, Figma oder anderer Design-Software in funktionale E-Mail-Vorlagen um
+* **Schnelle Vorlagenerstellung**: Schnelle Generierung von E-Mail-Vorlagen für zeitkritische Kampagnen, ohne auf Entwicklerressourcen zu warten
+* **Erstellen von Vorlagenbibliotheken**: Erstellen Sie eine umfassende Bibliothek markenkonsistenter Vorlagen, die Mitglieder des nicht-technischen Teams anpassen und bereitstellen können
+* **Verringerung technischer Abhängigkeiten**: Marketing-Experten können E-Mail-Vorlagen unabhängig erstellen und iterieren und dadurch die Kampagnenausführung beschleunigen
 
 ## Voraussetzungen {#prerequisites}
 
@@ -103,7 +116,7 @@ Nachdem Sie Ihre Inhaltsvorlage erstellt und gespeichert haben, können Sie sie 
 
 Wenn Sie eine E-Mail auf einer Journey oder in einer Kampagne erstellen, greifen Sie auf dem Bildschirm **[!UICONTROL Inhalt bearbeiten]** auf die E-Mail-Designer zu.
 
-Erfahren Sie mehr über [Arbeiten mit E-Mail](use-email-templates.md)Vorlagen und [Erstellen von &#x200B;](../content-management/content-templates.md)).
+Erfahren Sie mehr über [Arbeiten mit E-Mail](use-email-templates.md)Vorlagen und [Erstellen von ](../content-management/content-templates.md)).
 
 ## Best Practices {#best-practices}
 
@@ -206,6 +219,12 @@ Der Image-zu-HTML-Konvertierer ist nur in begrenztem Umfang verfügbar. Sie ben�
 +++Kann ich konvertierte Vorlagen für mehrere Kampagnen wiederverwenden?
 
 Ja! Vorlagen, die mit dem Konverter „Bild in HTML&quot; erstellt wurden, werden automatisch in der Inhaltsvorlagenbibliothek gespeichert. Sie können in allen Ihren Journey und Kampagnen auf sie zugreifen und sie in jeder E-Mail wiederverwenden. [Weitere Informationen](../content-management/content-templates.md)
+
++++
+
++++Kann ich dies für die Plattformmigration verwenden?
+
+Ja! Der Konverter „Bild in HTML&quot; eignet sich ideal für die Migration von anderen E-Mail-Marketing-Plattformen. Exportieren Sie einfach Ihre vorhandenen E-Mail-Designs aus Ihrer vorherigen Plattform oder erstellen Sie einen Screenshot davon und konvertieren Sie sie in AJO-fähige HTML-Vorlagen, ohne sie von Grund auf neu erstellen zu müssen.
 
 +++
 
