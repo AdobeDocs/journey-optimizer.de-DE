@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 181999b096f6f65f25ba5220868aab3aaeafb807
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 86%
@@ -22,7 +22,7 @@ ht-degree: 86%
 
 [!DNL Adobe Journey Optimizer] verwendet ein kontinuierliches Bereitstellungsmodell, das es Adobe ermöglicht, laufend neue Funktionen, Verbesserungen und Fehlerbehebungen bereitzustellen. Dieser Ansatz ermöglicht ein skalierbares Rollout von Funktionen in Phasen, um die Leistung und Stabilität aller Umgebungen sicherzustellen.
 
-Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Versionen aktualisiert.  In einem speziellen Abschnitt [Neueste Aktualisierungen](#latest-updates) werden neue Funktionen und Verbesserungen bei der Bereitstellung in der Produktion hervorgehoben, sodass Sie immer in Echtzeit über alle Änderungen informiert sind. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Journey Optimizer-Veröffentlichungszyklus](#releases.md).
+Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Versionen aktualisiert.  In einem speziellen Abschnitt [Neueste Aktualisierungen](#latest-updates) werden neue Funktionen und Verbesserungen bei der Bereitstellung in der Produktion hervorgehoben, sodass Sie immer in Echtzeit über alle Änderungen informiert sind. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Journey Optimizer-Veröffentlichungszyklus](releases.md).
 
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
