@@ -9,7 +9,7 @@ exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2ae91dd8f9f3ef8a38db12ea3c9356ca9a27c53
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -109,7 +109,7 @@ Machen Sie sich mit Code-basierten Erlebnissen vertraut, um mithilfe von SDKs un
 
 Inhaltskarten
 
-Erfahren Sie, wie Sie Inhaltskarten konfigurieren, erstellen und entwerfen, um mit Mobile Apps und Websites für interaktives und personalisiertes Messaging zu sorgen.
+Erfahren Sie, wie Sie Inhaltskarten für ansprechende und personalisierte Nachrichten in Apps und Websites konfigurieren, erstellen und entwerfen.
 
 [Weitere Informationen über Code-basierte Erlebnisse](../../rp_landing_pages/content-card-landing-page.md)
 :::
