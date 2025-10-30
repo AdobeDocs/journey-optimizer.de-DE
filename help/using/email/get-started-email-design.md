@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '680'
 ht-degree: 89%
 
 ---
@@ -44,7 +44,7 @@ Best Practices für die Gestaltung von E-Mails finden Sie in der unten stehenden
 
 >[!NOTE]
 >
->Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Zusätzlich zu den in diesem Abschnitt aufgeführten Best Practices zum Entwerfen von E-Mails sollten Sie auch die auf [&#x200B; Seite aufgeführten Richtlinien &#x200B;](accessible-content.md) Erstellen barrierefreier Inhalte mit E-Mail-Designer befolgen.
+>Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Zusätzlich zu den in diesem Abschnitt aufgeführten Best Practices zum Entwerfen von E-Mails sollten Sie auch die auf [ Seite aufgeführten Richtlinien ](accessible-content.md) Erstellen barrierefreier Inhalte mit E-Mail-Designer befolgen.
 
 ## Wichtige Schritte zum Erstellen von E-Mail-Inhalten {#key-steps}
 
@@ -65,12 +65,12 @@ Nachdem Sie einer Journey oder Kampagne eine [E-Mail hinzugefügt](create-email.
      >In einer Kampagne können Sie auch die Schaltfläche **[!UICONTROL Code Editor]** im Bildschirm **[!UICONTROL Inhalt bearbeiten]** auswählen. [Weitere Informationen](create-email.md#define-email-content)
 
    * **Importieren Sie vorhandenen HTML-Inhalt** aus einer Datei oder einem .zip-Ordner. In [diesem Abschnitt](existing-content.md) erfahren Sie, wie Sie E-Mail-Inhalte importieren.
-<!-- DOCAC-13676
-    * **Convert image designs to HTML templates** using the AI-powered image to HTML converter. Learn how to transform static images into editable email templates in [this section](image-to-html.md).-->
 
-    * **Wählen Sie einen vorhandenen &#x200B;** aus einer Liste integrierter oder benutzerdefinierter Vorlagen aus. In [diesem Abschnitt](../email/use-email-templates.md) erfahren Sie, wie Sie mit E-Mail-Vorlagen arbeiten.
-    
-    ![](assets/email_designer_create_options.png)
+   * **Konvertieren von Bilddesigns in HTML-Vorlagen** mithilfe des KI-gestützten Konverters für die Konvertierung von Bildern in HTML. In diesem Abschnitt erfahren Sie, wie Sie statische Bilder in bearbeitbare E[Mail-Vorlagen ](image-to-html.md).
+
+   * Wählen Sie aus einer Liste integrierter oder benutzerdefinierter Vorlagen einen **existierenden Inhalt aus**. In [diesem Abschnitt](../email/use-email-templates.md) erfahren Sie, wie Sie mit E-Mail-Vorlagen arbeiten.
+
+   ![](assets/email_designer_create_options.png)
 
 1. Sobald Ihr E-Mail-Inhalt definiert und personalisiert wurde, können Sie Ihren Inhalt zur Validierung oder zur späteren Verwendung exportieren. Klicken Sie auf **[!UICONTROL HTML exportieren]**, um eine ZIP-Datei auf Ihrem Computer zu speichern, die Ihre HTML und Ihre Assets enthält.
 
@@ -84,4 +84,4 @@ Erfahren Sie, wie Sie mit dem Nachrichteneditor E-Mail-Inhalte erstellen.
 
 Erfahren Sie, wie Sie Inhaltsexperimente für A/B-Tests konfigurieren und E-Mail-Inhalte ausprobieren können, um Ihre Geschäftsziele bestmöglich zu erreichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447340?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

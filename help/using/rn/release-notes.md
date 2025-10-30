@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9d58e16bb6717c4aeccede84b1ccc5b4e777fad8
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 46%
+source-wordcount: '1243'
+ht-degree: 86%
 
 ---
 
@@ -20,43 +20,46 @@ ht-degree: 46%
 >title="Neue Funktionen"
 >abstract="**Adobe Journey Optimizer** bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert."
 
-[!DNL Adobe Journey Optimizer] verwendet ein kontinuierliches Bereitstellungsmodell, das es Adobe ermöglicht, laufend neue Funktionen, Verbesserungen und Fehlerbehebungen bereitzustellen. Dieser Ansatz ermöglicht einen skalierbaren, schrittweisen Rollout von Funktionen, um die Leistung und Stabilität aller Umgebungen sicherzustellen.
+[!DNL Adobe Journey Optimizer] verwendet ein kontinuierliches Bereitstellungsmodell, das es Adobe ermöglicht, laufend neue Funktionen, Verbesserungen und Fehlerbehebungen bereitzustellen. Dieser Ansatz ermöglicht ein skalierbares Rollout von Funktionen in Phasen, um die Leistung und Stabilität aller Umgebungen sicherzustellen.
 
 Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Versionen aktualisiert.  In einem speziellen Abschnitt [Neueste Aktualisierungen](#latest-updates) werden neue Funktionen und Verbesserungen bei der Bereitstellung in der Produktion hervorgehoben, sodass Sie immer in Echtzeit über alle Änderungen informiert sind. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Journey Optimizer-Veröffentlichungszyklus](#releases.md).
 
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-<!-- DOCAC-13676
+<!--
 ## Latest updates {#latest-updates}
 
-New capabilities and improvements released recently are listed below, with their availability date.
 
-### New capabilities {#latest-features}
+New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
+
+-->
+
+
+
+## Versionshinweise für Oktober 2025 {#oct-25-10-rn}
+
+### Neue Funktionen {#oct-25-10-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>Image to HTML converter</strong><br/></th>
+<th><strong>Image-HTML-Konvertierer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The image to HTML converter is an AI-powered feature that converts static image designs into fully customizable, modular HTML email content templates. This no-code tool enables marketers to transform visual designs into responsive, editable email templates without requiring technical expertise—perfect for platform migration, rapid template creation, and building reusable template libraries.</p>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
-<p>For more information, refer to the <a href="../email/image-to-html.md">detailed documentation</a>.</p>
-<p>Availability date: November 3, 2025</p>
+<p>Der Bild-zu-HTML-Konvertierer ist eine KI-gestützte Funktion, die statische Bildentwürfe in vollständig anpassbare, modulare HTML-E-Mail-Inhaltsvorlagen konvertiert. Dieses Nicht-Code-Tool ermöglicht es Marketing-Experten, visuelle Designs in responsive, bearbeitbare E-Mail-Vorlagen umzuwandeln, ohne dass technisches Know-how erforderlich ist. Es eignet sich perfekt für die Plattformmigration, die schnelle Erstellung von Vorlagen und die Erstellung wiederverwendbarer Vorlagenbibliotheken.</p>
+<p><img src="../email/assets/email_designer_converted_img.png"/></p>
+<p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
+<p>Weitere Informationen finden Sie in der <a href="../email/image-to-html.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 30. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
-## Versionshinweise Oktober &#39;25 {#oct-25-10-rn}
-
-**Veröffentlichungsdatum**: Donnerstag, 22. Oktober 2025
-
-### Neue Funktionen {#oct-25-10-features}
 
 <table>
 <thead>
@@ -99,18 +102,18 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Ruhige Stunden/zeitbasierte Ausschlüsse</strong><br/></th>
+<th><strong>Ruhezeiten und zeitbasierte Ausschlüsse</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit der Einstellung „Ruhige Stunden“ können Sie zeitbasierte Ausschlüsse für E-Mail-, SMS-, Push- und WhatsApp-Kanäle definieren. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen.</p>
-<p>Ruhestunden können über Regelsätze angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journey zugewiesen werden können.</p>
-<p>Regeln für ruhige Stunden sind derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um auf die Warteliste gesetzt zu werden, bitte den Adobe-Support kontaktieren.</p>
+<p>Mithilfe von Ruhezeiten können Sie zeitbasierte Ausschlüsse für E-Mail-, SMS-, Push- und WhatsApp-Kanäle definieren. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen.</p>
+<p>Ruhezeiten können über Regelsätze angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können. </p>
+<p>Regeln für Ruhezeiten sind derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Wenden Sie sich an den Adobe-Support, um auf die Warteliste gesetzt zu werden.</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/quiet-hours.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 22. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 22. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -231,16 +234,16 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Nachrichten mit hohem Durchsatz für API-ausgelöste E-Mail-Kampagnen</strong><br/></th>
+<th><strong>Messaging mit hohem Durchsatz für durch API ausgelöste E-Mail-Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In API-ausgelösten Kampagnen ist ein neuer Transaktionsnachrichtenmodus mit hohem Durchsatz verfügbar. Dieser Modus wurde für umfangreiches Echtzeit-Transaktionsnachrichten entwickelt und unterstützt bis zu 5.000 Transaktionen pro Sekunde bei höherer Verfügbarkeit. Dieser Modus unterstützt auch Transaktionsnachrichten ohne Verweis auf oder Erstellung von Kundenprofilen, wie z. B. Gast-Checkout, Bestellbestätigung, Zurücksetzen des Kennworts, Sicherheitsbenachrichtigungen und andere Service-/Betriebsbenachrichtigungen.</p>
-<p>Diese Funktion ist nur für den E-Mail-Kanal für Organisationen verfügbar, die das Add-on Adobe Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.</p>
+<p>Für Kampagnen, die durch API ausgelöst werden, ist jetzt ein neuer Transaktions-Messaging-Modus verfügbar. Dieser Modus ist für groß angelegtes Transaktions-Messaging in Echtzeit konzipiert und unterstützt bis zu 5.000 Transaktionen pro Sekunde mit einer höheren Verfügbarkeit. Dieser Modus unterstützt auch Transaktionsnachrichten ohne Verweis auf oder Erstellung von Kundenprofilen, wie z. B. Gast-Checkout, Bestellbestätigung, Zurücksetzen des Passworts, Sicherheitsbenachrichtigungen und andere Service-/Betriebsbenachrichtigungen.</p>
+<p>Diese Funktion ist nur für den E-Mail-Kanal verfügbar und steht Unternehmen zur Verfügung, die das Adobe-Add-on für Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../campaigns/api-triggered-high-throughput.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 22. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 22. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -249,17 +252,17 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Wiederverwendbare Zielgruppenbestimmungsregeln</strong><br/></th>
+<th><strong>Wiederverwendbare Targeting-Regeln</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Um Zeit und Aufwand zu sparen, können Sie mit Journey Optimizer jetzt wiederverwendbare Regeln über ein dediziertes Benutzeroberflächenmenü erstellen und beim Erstellen von Targeting nutzen, entweder im Rahmen der Inhaltsoptimierung in einer Kampagne oder einer Journey, entweder in der Aktivität Journey optimieren .</p>
-<p>Zielgruppenbestimmungsregeln sind derzeit nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten. Beachten Sie, dass diese Funktion nur für Organisationen verfügbar ist, die das Add-on Decisioning erworben haben. Er wird nach und nach für alle Kunden eingeführt.</p>
+<p>Um Zeit und Aufwand zu sparen, können Sie mit Journey Optimizer jetzt wiederverwendbare Regeln über ein dediziertes Benutzeroberflächenmenü erstellen und beim Erstellen von Targeting nutzen, entweder im Rahmen der Inhaltsoptimierung in einer Kampagne oder Journey oder in der Aktivität „Journey optimieren“.</p>
+<p>Targeting-Regeln sind derzeit nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten. Beachten Sie, dass diese Funktion nur für Organisationen verfügbar ist, die das Entscheidungsfindungs-Add-on erworben haben. Sie wird nach und nach für alle Kundinnen und Kunden eingeführt.</p>
 <img src="assets/do-not-localize/targeting-rules.gif">
 <p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/rules.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 22. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 22. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -274,12 +277,12 @@ New capabilities and improvements released recently are listed below, with their
 <tbody>
 <tr>
 <td>
-<p>Für die Überwachung der Journey-Ausführung stehen neue vorkonfigurierte Warnhinweise zur Verfügung:</p>
-<ul><li><a href="../reports/alerts.md#alert-discard-rate">Profilverwerfungsrate überschritten</a>: Verhältnis der Profilverwerfen zu den in den letzten 5 Minuten eingetretenen Profilen hat den Schwellenwert überschritten</li>
-<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Fehlerrate für benutzerdefinierte Aktion überschritten</a>: Verhältnis der Fehler benutzerdefinierter Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten hat den Schwellenwert überschritten</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate">Profilfehlerrate überschritten</a>: Verhältnis der fehlerhaften Profile zu den eingegebenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten.</li></ul> <p>Sie können Schwellenwerte anpassen und Warnhinweise entweder auf Journey-Ebene oder global abonnieren.</p>
+<p>Neue vorkonfigurierte Warnhinweise sind für die Überwachung der Journey-Ausführung verfügbar:</p>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate">Verwerfungsrate für Profile überschritten</a>: Das Verhältnis von verworfenen Profilen zu eingetretenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">Fehlerrate für benutzerdefinierte Aktion überschritten</a>: Das Verhältnis von Fehlern bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten hat den Schwellenwert überschritten</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">Fehlerrate für Profile überschritten</a>: Das Verhältnis von fehlerhaften Profilen zu eingetretenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten</li></ul> <p>Sie können Schwellenwerte anpassen und Warnhinweise entweder auf Journey-Ebene oder global abonnieren.</p>
 <p>Weitere Informationen finden Sie in der <a href="../reports/alerts.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 14. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 14. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -288,17 +291,17 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Metadaten-Assistent für die Ausführung</strong><br/></th>
+<th><strong>Hilfsfunktion „Ausführungsmetadaten“</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Eine neue Hilfsfunktion „executionMetadata“ ist im Personalisierungseditor verfügbar. Damit können Sie kontextuelle Informationen an jede native Aktion anhängen und sie in einem Datensatz erfassen, um sie in externe Systeme zu exportieren.</p>
+<p>Die neue Hilfsfunktion „executionMetadata“ ist im Personalisierungseditor verfügbar. Damit können Sie kontextuelle Informationen an jede native Aktion anhängen und sie für den Export in externe Systeme in einem Datensatz erfassen.</p>
 <p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>Weitere Informationen finden Sie in der <a href="../personalization/functions/helpers.md#execution-metadata">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Dienstag, 13. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 13. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -307,15 +310,15 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>Experimentation Accelerator mit Experimentieragenten</strong><br/></th>
+<th><strong>Experimentation Accelerator mit Experimentation Agent</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Accelerator enthält jetzt den Experimentationsagenten, ein KI-gestütztes, dialogorientiertes Tool, mit dem Sie mit Ihren Experimenten, Erkenntnissen und Chancen interagieren können. Dies verbessert das Journey Optimizer Experimentation Accelerator-Erlebnis, sodass Sie Experimente effizienter durchführen, herausfinden können, was funktioniert, und herausfinden können, wo als Nächstes optimiert werden kann.</p>
+<p>Journey Optimizer Experimentation Accelerator enthält jetzt Experimentation Agent, ein KI-gestütztes, dialogorientiertes Tool, mit dem Sie mit Ihren Experimenten, Erkenntnissen und Möglichkeiten interagieren können. Dies verbessert das Journey Optimizer Experimentation Accelerator-Erlebnis, sodass Sie Experimente effizienter durchführen sowie herausfinden können, was funktioniert und wo als Nächstes optimiert werden sollte.</p>
 <p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=de" target="_blank">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Samstag, 10. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 10. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -362,21 +365,15 @@ New capabilities and improvements released recently are listed below, with their
 </tbody>
 </table>
 
-<!--
-## Latest updates {#updates-rn}
 
-New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
--->
 
 ### Verbesserungen {#updates-improvements}
-
-<!--Availability date: October 22, 2025-->
 
 **Ausführungsfeld für WhatsApp-Kanal**
 
 Zusätzlich zu E-Mail und SMS können Sie das Standardausführungsfeld für Ihre WhatsApp-Sendungen auf Sandbox-Ebene aktualisieren. Es ist auch möglich, das global eingestellte Ausführungsfeld zu überschreiben, indem es in den erweiterten Parametern der WhatsApp-Journey-Aktivität oder in der WhatsApp-Kanalkonfiguration geändert wird. [Weitere Informationen](../configuration/primary-email-addresses.md)
 
-Verfügbarkeitsdatum: Donnerstag, 22. Oktober 2025
+Verfügbarkeitsdatum: 22. Oktober 2025
 
 **Unterstützung benutzerdefinierter Attribute für Adresse für „E-Mail an (abmelden)“**
 

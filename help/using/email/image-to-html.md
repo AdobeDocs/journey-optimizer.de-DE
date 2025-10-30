@@ -9,9 +9,7 @@ role: User
 level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: E-Mail, Vorlage, Bild, HTML, KI, Design, Konvertierer
-hide: true
-hidefromtoc: true
-source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -116,7 +114,7 @@ Nachdem Sie Ihre Inhaltsvorlage erstellt und gespeichert haben, können Sie sie 
 
 Wenn Sie eine E-Mail auf einer Journey oder in einer Kampagne erstellen, greifen Sie auf dem Bildschirm **[!UICONTROL Inhalt bearbeiten]** auf die E-Mail-Designer zu.
 
-Erfahren Sie mehr über [Arbeiten mit E-Mail](use-email-templates.md)Vorlagen und [Erstellen von &#x200B;](../content-management/content-templates.md)).
+Erfahren Sie mehr über [Arbeiten mit E-Mail](use-email-templates.md)Vorlagen und [Erstellen von ](../content-management/content-templates.md)).
 
 ## Best Practices {#best-practices}
 
