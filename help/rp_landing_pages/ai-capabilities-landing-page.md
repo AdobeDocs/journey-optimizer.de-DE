@@ -5,9 +5,9 @@ title: KI-Funktionen in Adobe Journey Optimizer
 description: KI-Funktionen in Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 7db2932d6f4c6455cc323103c89e6d673d50efd0
+source-git-commit: f3c1cfcbc2a76b698399de70493d3fd5136f11d5
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1443'
 ht-degree: 3%
 
 ---
@@ -90,7 +90,7 @@ Bewerten Sie, wie gut Ihre KI-generierten Inhalte mithilfe der KI-gestützten Be
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Experimentalbeschleuniger
 
@@ -100,13 +100,13 @@ Beschleunigen Sie Ihren Prozess des Inhaltsexperiments mit KI-gesteuerten Einbli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-KI-gestützte APIs
+Journey Operational Insights (Beta)
 
-Programmgesteuerter Zugriff auf die KI- und maschinellen Lernfunktionen von Journey Optimizer über APIs.
+Erhalten Sie sofort operative Einblicke über Ihre Journey direkt im KI-Assistenten mithilfe von Abfragen in natürlicher Sprache.
 
-[Entdecken von KI-gestützten APIs](../using/configuration/ajo-apis.md)
+[Informationen zum Journey von Einblicken](../using/start/ai-assistant.md)
 :::
 
 ::::
@@ -118,7 +118,7 @@ Programmgesteuerter Zugriff auf die KI- und maschinellen Lernfunktionen von Jour
 Adobe Experience Cloud-KI-Agenten erweitern KI-Funktionen über Journey Optimizer hinaus und ermöglichen so Interaktionen in natürlicher Sprache für komplexe Marketing-Aufgaben:
 
 - **[Journey Analyze Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}**: Führen Sie eine Journey-Fallout-Analyse durch, erkennen Sie Zielgruppen- und Zeitplanüberschneidungen und erhalten Sie umsetzbare Empfehlungen zur Optimierung der Journey-Leistung.
-- **[Experimentationsagent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analysieren Sie Experimentergebnisse, identifizieren Sie erfolgreichste Muster und entdecken Sie neue Möglichkeiten für kanalübergreifende Tests.
+- **[Experimentationsagent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** - Analysieren Sie Experimentergebnisse, identifizieren Sie erfolgreichste Muster und entdecken Sie neue Möglichkeiten für kanalübergreifende Tests.
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** - Erstellen und verwalten Sie Zielgruppensegmente über konversative KI, analysieren Sie die Zielgruppenkomposition und optimieren Sie Segmentierungsstrategien.
 - **[Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** - Koordinieren Sie mehrere spezialisierte Agenten, um komplexe, mehrstufige Marketing-Herausforderungen effizient zu lösen.
 
