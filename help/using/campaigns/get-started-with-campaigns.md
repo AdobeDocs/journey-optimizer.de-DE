@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
->abstract="Den Kampagnentyp auswählen. Die verfügbaren Kanäle variieren je nach ausgewähltem Typ. <br>**Geplante Kampagnen** (Aktionskampagnen) – Ideal für einfache, einmalige Batch-Nachrichten, deren Ausführung für einen bestimmten Zeitpunkt geplant werden kann.<br>**API-ausgelöste Kampagnen** - Wird über einen API-Aufruf aktiviert, wodurch automatisiertes, ereignisbasiertes Messaging direkt von externen Systemen aus ermöglicht wird.<br>**Orchestrierte Kampagnen** – Stellen eine visuelle Drag-and-Drop-Arbeitsfläche bereit, auf der komplexe, mehrstufige Marketing-Workflows entworfen und automatisiert werden können: von der Zielgruppensegmentierung bis hin zum kanalübergreifenden Versand personalisierter Nachrichten."
+>abstract="Den Kampagnentyp auswählen. Die verfügbaren Kanäle variieren je nach ausgewähltem Typ. <br>**Geplante Kampagnen** (Aktionskampagnen) – Ideal für einfache, einmalige Batch-Nachrichten, deren Ausführung für einen bestimmten Zeitpunkt geplant werden kann.<br>**Durch API ausgelöste Kampagnen** – Werden über einen API-Aufruf aktiviert, wodurch direkt von externen Systemen aus automatisiertes, ereignisbasiertes Messaging ermöglicht wird.<br>**Orchestrierte Kampagnen** – Stellen eine visuelle Drag-and-Drop-Arbeitsfläche bereit, auf der komplexe, mehrstufige Marketing-Workflows entworfen und automatisiert werden können: von der Zielgruppensegmentierung bis hin zum kanalübergreifenden Versand personalisierter Nachrichten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
@@ -115,7 +115,7 @@ Kanalübergreifendes Marketing ist unerlässlich, und orchestrierte Kampagnen ma
 
 >[!TAB Durch API ausgelöste Kampagnen]
 
-**Durch API ausgelöste Kampagnen** ermöglichen es Ihnen, die Ausführung der Kampagne mithilfe eines API-Aufrufs auszulösen. Diese Nachrichten können an Stellen gesendet werden, an denen die Notwendigkeit einer Personalisierung nicht nur mit Profilattributen wie Kennwortzurücksetzung besteht, sondern auch mit Echtzeit-Kontextdaten im Trigger, bei dem es sich um eine REST-API-Payload handelt.
+**Durch API ausgelöste Kampagnen** ermöglichen es Ihnen, die Ausführung der Kampagne mithilfe eines API-Aufrufs auszulösen. Diese Nachrichten können gesendet werden, wenn möglicherweise nicht nur Personalisierung durch ein Profilattribut zum Zurücksetzen eines Passworts erforderlich ist, sondern auch Echtzeit-Kontextdaten im Trigger, der eine REST-API-Payload darstellt.
 
 * **Durch API ausgelöst – Marketing**: Senden Sie personalisierte Marketing-Nachrichten an ausgewählte Zielgruppen.
 * **Durch API ausgelöst – Transaktion**: Senden Sie Nachrichten nach einer Aktion, die von einer Person ausgeführt wurde, z. B. Anfrage zum Zurücksetzen des Passworts, Warenkorbkauf usw.
@@ -147,7 +147,7 @@ Stellen Sie vor der Arbeit mit Kampagnen sicher, dass Sie die folgenden Vorausse
 
    1. Klicken Sie auf der Registerkarte **[!UICONTROL Benutzer]** auf **[!UICONTROL Benutzer hinzufügen]**.
 
-   1. Geben Sie den Namen oder die E-Mail-Adresse Ihres Benutzers ein, oder wählen Sie den Benutzer in der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
+   1. Geben Sie Name oder E-Mail-Adresse der jeweiligen Benutzenden ein oder wählen Sie die Person aus der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
       Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzenden](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
 
