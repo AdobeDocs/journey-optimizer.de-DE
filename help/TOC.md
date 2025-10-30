@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: f48f56209ea4aad4b254a21a48b3ec84b8b16a8a
 workflow-type: tm+mt
 source-wordcount: '3010'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 + Journeys {#orchestrate-journeys}
    + [Journeys](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)
-   + [Häufig gestellte Fragen zu Journey](using/building-journeys/journey-faq.md)
+   + [Häufig gestellte Fragen zu Journeys](using/building-journeys/journey-faq.md)
    + Erstellen einer Journey {#create-journey}
       + [Erstellen einer Journey](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Erstellen Ihrer ersten Journey](using/building-journeys/journey-gs.md)
@@ -198,7 +198,7 @@ ht-degree: 97%
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/ajo-ac.md)
       + [Senden einer Nachricht an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
-      + [Übergeben von Sammlungen in benutzerdefinierte Aktionsparameter](using/building-journeys/collections.md)
+      + [Übergeben von Sammlungen in Parameter für benutzerdefinierte Aktionen](using/building-journeys/collections.md)
       + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
       + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
@@ -225,7 +225,7 @@ ht-degree: 97%
       + [Planen der Kampagne](using/campaigns/api-triggered-campaign-schedule.md)
       + [Prüfen und Aktivieren der Kampagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Auslösen der Kampagnenausführung](using/campaigns/trigger-campaigns.md)
-      + [Aktivieren des Modus mit hohem Durchsatz für API-ausgelöste Kampagnen](using/campaigns/api-triggered-high-throughput.md)
+      + [Aktivieren des Modus mit hohem Durchsatz für durch API ausgelöste Kampagnen](using/campaigns/api-triggered-high-throughput.md)
    + Orchestrierte Kampagnen {#orchestrated-campaigns}
       + [Orchestrierte Kampagnen](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Erste Schritte mit orchestrierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -279,9 +279,9 @@ ht-degree: 97%
    + Festlegen von Regeln für die Nachrichten- und Journey-Begrenzung {#capping-rules}
       + [Festlegen von Regeln für die Nachrichten- und Journey-Begrenzung](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [Arbeiten mit Regelsätzen](using/conflict-prioritization/rule-sets.md)
-      + [Verwalten von Journey-Begrenzung und Schlichtung](using/conflict-prioritization/journey-capping.md)
-      + [Festlegen der Frequenzlimitierung nach Kanal und Typ](using/conflict-prioritization/channel-capping.md)
-      + [Ruhige Stunden festlegen](using/conflict-prioritization/quiet-hours.md)
+      + [Verwalten von Journey-Begrenzung und -Steuerung](using/conflict-prioritization/journey-capping.md)
+      + [Festlegen von Frequenzbegrenzung nach Kanal und Typ](using/conflict-prioritization/channel-capping.md)
+      + [Festlegen von Ruhezeiten](using/conflict-prioritization/quiet-hours.md)
 + Testen und Genehmigen {#test}
    + [Testen und Genehmigen](/help/rp_landing_pages/test-landing-page.md)
    + Vorschau und Testen der Inhalte {#preview-test}
@@ -318,15 +318,15 @@ ht-degree: 97%
       + [Erstellen einer E-Mail](using/email/create-email.md)
       + Gestalten von E-Mail-Inhalten {#design-email}
          + [Gestalten von E-Mail-Inhalten](/help/rp_landing_pages/design-email-landing-page.md)
-         + [Nachrichteninhalt entwerfen](using/start/message-content-design.md)
+         + [Gestalten von Nachrichteninhalten](using/start/message-content-design.md)
          + [Erste Schritte beim Gestalten von E-Mails](using/email/get-started-email-design.md)
          + Erste Schritte mit dem Erstellen von Inhalten {#start-creating-content}
             + [Erste Schritte mit dem Erstellen von Inhalten](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Inhalte von Grund auf gestalten](using/email/content-from-scratch.md)
             + [Importieren von Content](using/email/existing-content.md)
-            + [Konvertieren von Bildern in HTML-Vorlagen](using/email/image-to-html.md)
             + [Programmieren von eigenem Inhalt](using/email/code-content.md)
             + [Verwenden von E-Mail-Vorlagen](using/email/use-email-templates.md)
+            + [Konvertieren von Bildern in HTML-Vorlagen](using/email/image-to-html.md)
             + [Nutzen von E-Mail-Designs](using/email/apply-email-themes.md)
             + [Anhängen von PDF-Dateien an E-Mails](using/email/pdf-attachments.md)
          + Gestalten Ihrer Inhalte {#add-content}
@@ -373,7 +373,7 @@ ht-degree: 97%
       + [Erste Schritte mit Push-Benachrichtigungen](using/push/get-started-push.md)
       + [Erstellen einer Push-Benachrichtigung](using/push/create-push.md)
       + [Gestalten der Push-Benachrichtigung](using/push/design-push.md)
-      + [Gestalten einer Web-Push-Benachrichtigung](using/push/design-push-web.md)
+      + [Gestalten der Web-Push-Benachrichtigung](using/push/design-push-web.md)
       + [Überprüfen und Senden Ihrer Push-Benachrichtigung](using/push/send-push.md)
       + Konfigurieren von Push-Benachrichtigungen {#push-config}
          + [Konfigurieren von Push-Benachrichtigungen](/help/rp_landing_pages/push-config-landing-page.md)
@@ -391,14 +391,14 @@ ht-degree: 97%
       + Konfigurieren des SMS-/MMS-/RCS-Kanals {#configure-sms}
          + [Konfigurieren des SMS-/MMS-/RCS-Kanals](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Erste Schritte bei der SMS-/MMS-/RCS-Konfiguration](using/sms/sms-configuration.md)
-         + [Konfigurieren eines Sinch-Anbieters](using/sms/sms-configuration-sinch.md)
-         + [Konfigurieren eines Infobip-Anbieters](using/sms/sms-configuration-infobip.md)
-         + [Konfigurieren eines Twilio-Anbieters](using/sms/sms-configuration-twilio.md)
+         + [Konfigurieren des Sinch-Anbieters](using/sms/sms-configuration-sinch.md)
+         + [Konfigurieren des Infobip-Anbieters](using/sms/sms-configuration-infobip.md)
+         + [Konfigurieren des Twilio-Anbieters](using/sms/sms-configuration-twilio.md)
          + [Konfigurieren eines benutzerdefinierten Anbieters](using/sms/sms-configuration-custom.md)
          + [Erstellen einer SMS/MMS/RCS-Konfiguration](using/sms/sms-configuration-surface.md)
    + Direkt-Mail {#direct-mail}
       + [Direkt-Mail](/help/rp_landing_pages/direct-mail-landing-page.md)
-      + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
+      + [Erste Schritte mit Direkt-Mail](using/direct-mail/get-started-direct-mail.md)
       + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
       + [Überprüfen und Senden einer Briefpostnachricht](using/direct-mail/test-send-direct-mail.md)
       + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
@@ -984,6 +984,6 @@ ht-degree: 97%
       + [Einverständnisverwaltung](/help/rp_landing_pages/consent-landing-page.md)
       + [Verwalten von Opt-out](using/privacy/opt-out.md)
       + [Arbeiten mit Einverständnisrichtlinien](using/action/consent.md)
-      + [Kundeneinstellungen verwalten](using/action/preference-center.md)
+      + [Verwalten der Kundeneinstellungen](using/action/preference-center.md)
    + [Data Governance](using/action/action-privacy.md)
    + [Einrichten und Verwalten von kundenseitig verwalteten Schlüsseln](using/privacy/cmk.md)
