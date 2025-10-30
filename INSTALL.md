@@ -1,5 +1,5 @@
 ---
-source-git-commit: 505810d58d7db1682cc434b0df6d1ec5f5edd23e
+source-git-commit: 08eaa7ae974c134ea2e920a1fa854dcf6a971e18
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%
@@ -177,6 +177,6 @@ Dadurch wird sichergestellt, dass alle dieselben, aktuellen Agenten verwenden.
 
 Alle Repositorys erhalten Aktualisierungen über `git submodule update --remote`.
 
-&#x200B;---
+---
 
 **Benötigen Sie Hilfe?** Kontaktieren Sie Ihren Dokumentations-Teamleiter oder sehen Sie sich das interne Wiki an.
