@@ -177,6 +177,6 @@ Dadurch wird sichergestellt, dass alle dieselben, aktuellen Agenten verwenden.
 
 Alle Repositorys erhalten Aktualisierungen über `git submodule update --remote`.
 
----
+&#x200B;---
 
 **Benötigen Sie Hilfe?** Kontaktieren Sie Ihren Dokumentations-Teamleiter oder sehen Sie sich das interne Wiki an.
