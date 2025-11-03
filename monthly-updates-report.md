@@ -24,7 +24,7 @@ ht-degree: 0%
 - [Benutzerdefinierte Aktionsberichte](help/using/action/reporting.md) - 29. Oktober
 - [Journey-Fehlercode-Referenz](help/using/building-journeys/error-codes-reference.md) - 27. Oktober
 - [Häufig gestellte Fragen zum Journey](help/using/building-journeys/journey-faq.md) - 28. Oktober
-- [API-ausgelöste Kampagnen mit hohem ](help/using/campaigns/api-triggered-high-throughput.md) - 27. Oktober
+- [API-ausgelöste Kampagnen mit hohem &#x200B;](help/using/campaigns/api-triggered-high-throughput.md) - 27. Oktober
 - [Ruhige Stunden](help/using/conflict-prioritization/quiet-hours.md) - 22. Oktober
 - [Experimentbeschleuniger - Erste Schritte](help/using/content-management/experiment-accelerator-gs.md) - 24. Oktober
 - [Konvertierung von Bildern in HTML](help/using/email/image-to-html.md) - 30. Oktober
@@ -54,8 +54,8 @@ ht-degree: 0%
 - [API-ausgelöste Kampagnenaktion](help/using/campaigns/api-triggered-campaign-action.md) - 29. Oktober
 - [API-ausgelöste Kampagnen-Zielgruppe](help/using/campaigns/api-triggered-campaign-audience.md) - 23. Oktober
 - [API-ausgelöste Kampagneninhalte](help/using/campaigns/api-triggered-campaign-content.md) - 23. Oktober
-- [API-ausgelöste Kampagnen - ](help/using/campaigns/api-triggered-campaign-properties.md). Oktober 23
-- [API-ausgelöste ](help/using/campaigns/api-triggered-campaigns.md) - 29. Oktober
+- [API-ausgelöste Kampagnen - &#x200B;](help/using/campaigns/api-triggered-campaign-properties.md). Oktober 23
+- [API-ausgelöste &#x200B;](help/using/campaigns/api-triggered-campaigns.md) - 29. Oktober
 - [Kampagnenaktionen](help/using/campaigns/campaign-action.md) - 29. Oktober
 - [Optimierung von Kampagnennachrichten](help/using/campaigns/campaigns-message-optimization.md) - 22. Oktober
 - [Erstellen von Kampagnen](help/using/campaigns/create-campaign.md) - 29. Oktober
