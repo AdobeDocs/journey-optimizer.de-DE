@@ -5,7 +5,7 @@ title: Monatlicher Bericht zu Dokumentationsaktualisierungen
 description: Liste der neuen und aktualisierten Dokumentationsseiten
 hide: true
 hidefromtoc: true
-source-git-commit: 2bbb733577d8aeb09a8cbd8e49f2665acaa2c794
+source-git-commit: 2d81708b4829c330732de62177fc781d892d416d
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# Aktualisierungen der Dokumentation - Neuer Inhalt und Anleitungen
+# Aktualisierungen der Dokumentation - Neue und aktualisierte Inhalte
 
 **Zeitraum:** 15. Oktober - 3. November 2025
 
