@@ -111,7 +111,7 @@ help/using/start/guardrails.md
 help/using/start/troubleshooting.md
 help/using/whatsapp/whatsapp-configuration.md
 
----
+&#x200B;---
 
 *Bericht erstellt am 3. November 2025*
 *Ausgeschlossen sind: Formatierungsänderungen, Metadaten-Updates, Linter-Fehlerbehebungen, Aktualisierungen der Inhaltsnavigation und Migrationsbereinigung*
