@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 7878e51e4ffb84ec84acee26872b5ab69900e806
+source-git-commit: 85f351a792e962c6320b12a2e50942677c775433
 workflow-type: tm+mt
-source-wordcount: '2729'
-ht-degree: 99%
+source-wordcount: '2723'
+ht-degree: 97%
 
 ---
 
@@ -76,7 +76,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 >title="Informationen zur Eignung von Angeboten"
 >abstract="In diesem Abschnitt können Sie mithilfe von Entscheidungsregeln bestimmen, welche Benutzer für das Angebot geeignet sind."
 
-<!--additional-url="https://video.tv.adobe.com/v/341369?captions=ger" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -143,10 +143,12 @@ Grundsätzlich liefert eine Zielgruppe eine Liste von Profilen, während es sich
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="Verwenden der Begrenzung"
->abstract="Um zu vermeiden, dass Ihre Kundinnen und Kunden zu oft umworben werden, legen Sie mit einer Begrenzung fest, wie oft ein Angebot maximal unterbreitet werden kann. Sie können bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot erstellen."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="Das Ändern von Datumsangaben kann sich auf die Begrenzung auswirken"
+>abstract="Um zu vermeiden, dass Ihre Kundinnen und Kunden übermäßig viele Nachrichten erhalten, legen Sie mithilfe der Begrenzungen fest, wie oft ein Angebot maximal unterbreitet werden kann. Sie können bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot erstellen."
 
-Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann. Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kunden überfordert werden, und können jeden Touchpoint mit dem besten Angebot optimieren.
+<!--
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="Changing dates can impact capping"-->
+
+Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann. Durch die Begrenzung der Häufigkeit, mit der Benutzer bestimmte Angebote erhalten, können Sie vermeiden, Ihre Kunden zu oft anzusprechen, und so jeden Touchpoint mit dem besten Angebot optimieren.
 
 Sie können bis zu 10 Begrenzungsregeln für ein bestimmtes Angebot hinzufügen. Um eine Begrenzungsregel festzulegen, klicken Sie auf die Schaltfläche **[!UICONTROL Begrenzung erstellen]** und führen Sie dann die folgenden Schritte aus.
 
