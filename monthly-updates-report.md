@@ -5,109 +5,161 @@ title: Monatlicher Bericht zu Dokumentationsaktualisierungen
 description: Liste der neuen und aktualisierten Dokumentationsseiten
 hide: true
 hidefromtoc: true
-source-git-commit: a80c343541728f9203f4a59dd10092dc4d427e46
+source-git-commit: d49ae810865603a083bed3072f68473e93ec6ad4
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
 
 
-# Aktualisierungen der Dokumentation - Neue und aktualisierte Inhalte
+# Monatlicher Bericht zu Dokumentationsaktualisierungen
 
-**Zeitraum:** 15. Oktober - 3. November 2025
+*Bericht erstellt für den 1. Oktober bis 3. November 2025*
 
 ## Neue Seiten
 
-- [Landingpage für KI-Funktionen](help/rp_landing_pages/ai-capabilities-landing-page.md) - 31. Oktober
-- [Präferenzzentrum](help/using/action/preference-center.md) - 24. Oktober
-- [Benutzerdefinierte Aktionsberichte](help/using/action/reporting.md) - 29. Oktober
-- [Journey-Fehlercode-Referenz](help/using/building-journeys/error-codes-reference.md) - 27. Oktober
-- [Häufig gestellte Fragen zum Journey](help/using/building-journeys/journey-faq.md) - 28. Oktober
-- [API-ausgelöste Kampagnen mit hohem &#x200B;](help/using/campaigns/api-triggered-high-throughput.md) - 27. Oktober
-- [Ruhige Stunden](help/using/conflict-prioritization/quiet-hours.md) - 22. Oktober
-- [Experimentbeschleuniger - Erste Schritte](help/using/content-management/experiment-accelerator-gs.md) - 24. Oktober
-- [Konvertierung von Bildern in HTML](help/using/email/image-to-html.md) - 30. Oktober
-- [Übersicht über Journey-Schrittereignisse](help/using/reports/journey-step-events-overview.md) - 21. Oktober
-- [Versionszyklus](help/using/rn/releases.md) - 28. Oktober
-- [Design von Nachrichteninhalten](help/using/start/message-content-design.md) - 18. Oktober
+- [KI-Funktionen in Adobe Journey Optimizer](help/rp_landing_pages/ai-capabilities-landing-page.md) - 31. Oktober
+- [Kundeneinstellungen verwalten](help/using/action/preference-center.md) - 24. Oktober
+- [Journey-Bericht](help/using/action/reporting.md) - 29. Oktober
+- [Referenz zu Fehlercodes](help/using/building-journeys/error-codes-reference.md) - 27. Oktober
+- Häufig gestellte Fragen zu [Journey](help/using/building-journeys/journey-faq.md) - 28. Oktober
+- [Aktivieren des Modus „Hoher Durchsatz“ für API-ausgelöste Kampagnen](help/using/campaigns/api-triggered-high-throughput.md) - 27. Oktober
+- [Ruhige Stunden einstellen](help/using/conflict-prioritization/quiet-hours.md) - 22. Oktober
+- [Journey Optimizer Experimentation Accelerator](help/using/content-management/experiment-accelerator-gs.md) - 24. Oktober
+- [Konvertieren von Bildern in HTML-Vorlagen mit dem Konvertierer „Bild in HTML&quot;](help/using/email/image-to-html.md) - 30. Oktober
+- [Erstellen von Entscheidungsrichtlinien](help/using/experience-decisioning/create-decision-policy.md) - 7. Oktober
+- [Verwenden von Entscheidungsrichtlinien in Nachrichten](help/using/experience-decisioning/use-decision-policy.md) - 9. Oktober
+- [Konfigurieren der Kanalkonfiguration](help/using/orchestrated/channel-config.md) - 14. Oktober
+- [Gestalten einer Push-Benachrichtigung](help/using/push/design-push-web.md) - 14. Oktober
+- [Konfiguration von Push-Benachrichtigungen](help/using/push/push-configuration-web.md) - 14. Oktober
+- [Arbeiten mit Journey-Schrittereignissen](help/using/reports/journey-step-events-overview.md) - 21. Oktober
+- [Adobe Journey Optimizer-Versionszyklus](help/using/rn/releases.md) - 28. Oktober
+- [Gestalten des Nachrichteninhalts](help/using/start/message-content-design.md) - 18. Oktober
 
-## Aktualisierte Seiten - Neue Abschnitte für Anleitungen
+## Aktualisierte Seiten
 
-- [Content-Management-Landingpage](help/rp_landing_pages/content-management-landing-page.md) - 27. Oktober
-- [Erste Schritte mit der Landingpage](help/rp_landing_pages/get-started-landing-page.md) - 27. Oktober
-- [Landingpage testen](help/rp_landing_pages/test-landing-page.md) - 27. Oktober
-- [Fehlerbehebung auf der Journey-](help/rp_landing_pages/troubleshoot-journey-landing-page.md) - 27. Oktober
-- [Einverständnisverwaltung](help/using/action/consent.md) - 21. Oktober
-- [Erstellen von Testprofilen](help/using/audience/creating-test-profiles.md) - 22. Oktober
-- [Anreicherungsattribute](help/using/audience/enrichment-attributes.md) - 28. Oktober
-- [Erste Schritte mit Profilen](help/using/audience/get-started-profiles.md) - 22. Oktober
-- [Über Journey-Aktivitäten](help/using/building-journeys/about-journey-activities.md) - 27. Oktober
+- [Dokumentation zu Adobe Journey Optimizer](help/ajo-home.md) - 22. Oktober
+- [KI-Funktionen in Adobe Journey Optimizer](help/rp_landing_pages/ai-capabilities-landing-page.md) - 31. Oktober
+- [Content-Management](help/rp_landing_pages/content-management-landing-page.md) - 27. Oktober
+- [Erste Schritte](help/rp_landing_pages/get-started-landing-page.md) - 27. Oktober
+- [Frühere Versionshinweise](help/rp_landing_pages/previous-rn-new-landing-page.md) - 13. Oktober
+- [Testen und Genehmigen](help/rp_landing_pages/test-landing-page.md) - 27. Oktober
+- [Fehlerbehebung](help/rp_landing_pages/troubleshoot-journey-landing-page.md) - 27. Oktober
+- [Erste Schritte mit Aktionen](help/using/action/action.md) - 13. Oktober
+- [Arbeiten mit Einverständnisrichtlinien](help/using/action/consent.md) - 21. Oktober
+- [Kundeneinstellungen verwalten](help/using/action/preference-center.md) - 24. Oktober
+- [Journey-Bericht](help/using/action/reporting.md) - 29. Oktober
+- [Fehlerbehebung bei benutzerdefinierten Aktionen](help/using/action/troubleshoot-custom-action.md) - 13. Oktober
+- [Erstellen eines Testprofils](help/using/audience/creating-test-profiles.md) - 22. Oktober
+- [Über Adobe Experience Platform-](help/using/audience/enrichment-attributes.md): 28. Oktober
+- [Erste Schritte mit Profilen in Journey Optimizer](help/using/audience/get-started-profiles.md) - 22. Oktober
+- [Erste Schritte mit Journey-Aktivitäten](help/using/building-journeys/about-journey-activities.md) - 27. Oktober
+- [Übergeben von Sammlungen in benutzerdefinierte Aktionsparameter](help/using/building-journeys/collections.md) - 13. Oktober
 - [Bedingungsaktivität](help/using/building-journeys/condition-activity.md) - 24. Oktober
-- [Datensatzsuche](help/using/building-journeys/dataset-lookup.md) - 28. Oktober
-- [Suche nach Erlebnisereignissen](help/using/building-journeys/exp-event-lookup.md) - 28. Oktober
-- [Journey - Übersicht](help/using/building-journeys/journey.md) - 27. Oktober
-- [Journey-Nachrichten](help/using/building-journeys/journeys-message.md) - 29. Oktober
-- [Journey optimieren](help/using/building-journeys/optimize.md) - 22. Oktober
+- [Verwenden von Adobe Experience Platform-Daten in Journey](help/using/building-journeys/dataset-lookup.md) - 28. Oktober
+- [Referenz zu Fehlercodes](help/using/building-journeys/error-codes-reference.md) - 27. Oktober
+- [Suche nach Erlebnisereignissen in Journey](help/using/building-journeys/exp-event-lookup.md) - 28. Oktober
+- [Verwenden der Action Journey-Aktivität](help/using/building-journeys/journey-action.md) - 14. Oktober
+- Häufig gestellte Fragen zu [Journey](help/using/building-journeys/journey-faq.md) - 28. Oktober
+- [Journey anhalten](help/using/building-journeys/journey-pause.md) - 13. Oktober
+- [Erste Schritte mit Journey](help/using/building-journeys/journey.md) - 27. Oktober
+- [Hinzufügen einer integrierten Kanalaktion zu einer Journey](help/using/building-journeys/journeys-message.md) - 29. Oktober
+- [Aktivität optimieren](help/using/building-journeys/optimize.md) - 22. Oktober
+- [Zielgruppe auf einer Journey verwenden](help/using/building-journeys/read-audience.md) - 17. Oktober
 - [Optimierung des Versandzeitpunkts](help/using/building-journeys/send-time-optimization.md) - 28. Oktober
-- [Testen von Journey](help/using/building-journeys/testing-the-journey.md) - 28. Oktober
-- [API-ausgelöste Kampagnenaktion](help/using/campaigns/api-triggered-campaign-action.md) - 29. Oktober
-- [API-ausgelöste Kampagnen-Zielgruppe](help/using/campaigns/api-triggered-campaign-audience.md) - 23. Oktober
-- [API-ausgelöste Kampagneninhalte](help/using/campaigns/api-triggered-campaign-content.md) - 23. Oktober
-- [API-ausgelöste Kampagnen - &#x200B;](help/using/campaigns/api-triggered-campaign-properties.md). Oktober 23
-- [API-ausgelöste &#x200B;](help/using/campaigns/api-triggered-campaigns.md) - 29. Oktober
-- [Kampagnenaktionen](help/using/campaigns/campaign-action.md) - 29. Oktober
-- [Optimierung von Kampagnennachrichten](help/using/campaigns/campaigns-message-optimization.md) - 22. Oktober
-- [Erstellen von Kampagnen](help/using/campaigns/create-campaign.md) - 29. Oktober
+- [Journey testen](help/using/building-journeys/testing-the-journey.md) - 28. Oktober
+- [Konfigurieren der API-ausgelösten Kampagnenaktion](help/using/campaigns/api-triggered-campaign-action.md) - 29. Oktober
+- [Zielgruppe der API-ausgelösten Kampagne definieren](help/using/campaigns/api-triggered-campaign-audience.md) - 23. Oktober
+- [Bearbeiten des Inhalts der von der API ausgelösten Kampagne](help/using/campaigns/api-triggered-campaign-content.md) - 23. Oktober
+- [Definieren der API-ausgelösten Kampagneneigenschaften](help/using/campaigns/api-triggered-campaign-properties.md) - 23. Oktober
+- [Arbeiten mit API-ausgelösten Kampagnen](help/using/campaigns/api-triggered-campaigns.md) - 29. Oktober
+- [Aktivieren des Modus „Hoher Durchsatz“ für API-ausgelöste Kampagnen](help/using/campaigns/api-triggered-high-throughput.md) - 27. Oktober
+- [Konfigurieren der Kampagnenaktion](help/using/campaigns/campaign-action.md) - 29. Oktober
+- [Optimierung in Kampagnen und Journey ](help/using/campaigns/campaigns-message-optimization.md) - 22. Oktober
+- [Erstellen einer Aktionskampagne](help/using/campaigns/create-campaign.md) - 29. Oktober
 - [Erste Schritte mit Kampagnen](help/using/campaigns/get-started-with-campaigns.md) - 29. Oktober
-- [Kampagnen verwalten](help/using/campaigns/manage-campaigns.md) - 23. Oktober
-- [Trigger-Kampagnen](help/using/campaigns/trigger-campaigns.md) - 23. Oktober
-- [Überblick über Kanäle](help/using/channels/gs-channels.md) - 3. November
-- [Externe Systeme](help/using/configuration/external-systems.md) - 28. Oktober
-- [Primäre E-Mail-Adressen](help/using/configuration/primary-email-addresses.md) - 22. Oktober
-- [Kanalbegrenzung](help/using/conflict-prioritization/channel-capping.md) - 28. Oktober
-- [Regelsätze](help/using/conflict-prioritization/rule-sets.md) - 27. Oktober
-- [Datensatz-TTL](help/using/data/datasets-ttl.md) - 28. Oktober
-- [Barrierefreie Inhalte](help/using/email/accessible-content.md) - 25. Oktober
-- [E-Mail-Inhaltskomponenten](help/using/email/content-components.md) - 25. Oktober
-- [Inhalte von Grund auf](help/using/email/content-from-scratch.md) - 25. Oktober
-- [E-Mail-Einstellungen](help/using/email/email-settings.md) - 22. Oktober
-- [Vorhandenen Inhalt importieren](help/using/email/existing-content.md) - 30. Oktober
-- [E-Mail-Konfiguration](help/using/email/get-started-email-config.md) - 22. Oktober
-- [E-Mail-Design](help/using/email/get-started-email-design.md) - 30. Oktober
-- [E-Mail-Stil](help/using/email/get-started-email-style.md) - 25. Oktober
-- [URL-Tracking](help/using/email/url-tracking.md) - 25. Oktober
-- [Leitplanken für Experience Decisioning](help/using/experience-decisioning/decisioning-guardrails.md) - 25. Oktober
+- [Zugreifen auf und Verwalten von Kampagnen](help/using/campaigns/manage-campaigns.md) - 23. Oktober
+- [Ruhige Stunden](help/using/campaigns/quiet-hours.md) - 31. Oktober
+- [Kampagne überprüfen und aktivieren](help/using/campaigns/trigger-campaigns.md) - 23. Oktober
+- [Erste Schritte mit Kommunikationskanälen in [!DNL Adobe Journey Optimizer]](help/using/channels/gs-channels.md) - 3. November
+- [Integrieren von Journey Optimizer mit externen Systemen](help/using/configuration/external-systems.md) - 28. Oktober
+- [Ändern der Ausführungsadressen](help/using/configuration/primary-email-addresses.md) - 22. Oktober
+- [Arbeiten mit Regelsätzen](help/using/conflict-prioritization/channel-capping.md) - 28. Oktober
+- [Arbeiten mit Regelsätzen](help/using/conflict-prioritization/rule-sets.md) - 27. Oktober
+- [Erstellen eines Inhaltsexperiments](help/using/content-management/content-experiment.md) - 15. Oktober
+- [Erstellen eines Fragments](help/using/content-management/create-fragments.md) - 7. Oktober
+- [Experimentbeschleuniger-Metriken](help/using/content-management/experiment-accelerator-metrics.md) - 24. Oktober
+- [Experimentbeschleuniger](help/using/content-management/experiment-accelerator.md) - 24. Oktober
+- [Verwalten von ](help/using/content-management/manage-fragments.md)) 7. Oktober
+- [Beispiele für Datensatzabfragen](help/using/data/datasets-query-examples.md) - 17. Oktober
+- [Über Leitplanken für die Time-to-Live (TTL) von ](help/using/data/datasets-ttl.md)-28. Oktober
+- [Erstellen einer Briefpostnachricht](help/using/direct-mail/create-direct-mail.md) - 15. Oktober
+- [Entwerfen barrierefreier Inhalte](help/using/email/accessible-content.md) - 25. Oktober
+- [Verwenden von E-Mail-Designer-Inhaltskomponenten](help/using/email/content-components.md) - 25. Oktober
+- [Inhalte in Journey Optimizer von Grund auf gestalten](help/using/email/content-from-scratch.md) - 25. Oktober
+- [E-Mail-Einstellungen konfigurieren](help/using/email/email-settings.md) - 22. Oktober
+- [E-Mail-Inhalt importieren](help/using/email/existing-content.md) - 30. Oktober
+- [Erste Schritte mit der E-Mail-Konfiguration](help/using/email/get-started-email-config.md) - 22. Oktober
+- [Design-E-](help/using/email/get-started-email-design.md): 30. Oktober
+- [Erste Schritte mit E-Mail-Stil](help/using/email/get-started-email-style.md) - 25. Oktober
+- [Konvertieren von Bildern in HTML-Vorlagen mit dem Konvertierer „Bild in HTML&quot;](help/using/email/image-to-html.md) - 30. Oktober
+- [Abmeldung von der Liste konfigurieren](help/using/email/list-unsubscribe.md) - 15. Oktober
+- [Verfolgen Sie Ihre Nachrichten](help/using/email/message-tracking.md) - 18. Oktober
+- [Anhängen einer PDF-Datei an eine E-Mail](help/using/email/pdf-attachments.md) - 6. Oktober
+- [URL-Tracking konfigurieren](help/using/email/url-tracking.md) - 25. Oktober
+- [Adobe Experience Platform-Daten für Entscheidungen verwenden](help/using/experience-decisioning/aep-data-exd.md) - 8. Oktober
+- [Erstellen von Entscheidungsrichtlinien](help/using/experience-decisioning/create-decision-policy.md) - 7. Oktober
+- [Erste Schritte mit Entscheidungsrichtlinien](help/using/experience-decisioning/create-decision.md) - 7. Oktober
+- [Leitplanken und Einschränkungen bei Decisioning](help/using/experience-decisioning/decisioning-guardrails.md) - 25. Oktober
+- [Entscheidungspunkte](help/using/experience-decisioning/items.md) - 8. Oktober
 - [Rangfolgeformeln](help/using/experience-decisioning/ranking/ranking-formulas.md) - 28. Oktober
-- [Eignungsregeln](help/using/experience-decisioning/rules.md) - 23. Oktober
-- [Erstellen von In-App-Nachrichten](help/using/in-app/create-in-app.md) - 27. Oktober
-- [In-App-Konfiguration](help/using/in-app/inapp-configuration.md) - 23. Oktober
-- [Adobe Assets-Integration](help/using/integrations/assets.md) - 28. Oktober
-- [Landingpages entwerfen](help/using/landing-pages/design-lp.md) - 25. Oktober
-- [Landingpage-Inhalt](help/using/landing-pages/lp-content.md) - 25. Oktober
-- [Landingpage-Formulare](help/using/landing-pages/lp-forms.md) - 24. Oktober
-- [Landingpage-Voreinstellungen](help/using/landing-pages/lp-presets.md) - 25. Oktober
-- [Leitplanken für das Entscheidungs-Management](help/using/offers/decision-management-guardrails.md) - 25. Oktober
+- [Regeln erstellen](help/using/experience-decisioning/rules.md) - 23. Oktober
+- [Auswahlstrategien erstellen](help/using/experience-decisioning/selection-strategies.md) - 7. Oktober
+- [Verwenden von Entscheidungsrichtlinien in Nachrichten](help/using/experience-decisioning/use-decision-policy.md) - 9. Oktober
+- [Erstellen einer In-App-Benachrichtigung in Journey Optimizer](help/using/in-app/create-in-app.md) - 27. Oktober
+- [Voraussetzungen und Konfiguration des In-App-Kanals](help/using/in-app/inapp-configuration.md) - 23. Oktober
+- [Dynamic Media](help/using/integrations/aem-dynamic.md) - 17. Oktober
+- [Verwenden von Assets in Journey Optimizer](help/using/integrations/assets.md) - 28. Oktober
+- [Landingpage gestalten](help/using/landing-pages/design-lp.md) - 25. Oktober
+- [Landingpage-spezifische Inhalte definieren](help/using/landing-pages/lp-content.md) - 25. Oktober
+- [Erstellen und Verwenden von Formularen für Ihre Landingpages](help/using/landing-pages/lp-forms.md) - 24. Oktober
+- [Definieren von Landingpage-Voreinstellungen](help/using/landing-pages/lp-presets.md) - 25. Oktober
+- [Leitplanken und Einschränkungen beim Entscheidungs-Management](help/using/offers/decision-management-guardrails.md) - 25. Oktober
+- [Hinzufügen von Einschränkungen zu einem Angebot](help/using/offers/offer-library/add-constraints.md) - 3. November
+- [Kanalaktivität in einer mehrstufigen Kampagne hinzufügen](help/using/orchestrated/activities/channels.md) - 14. Oktober
+- [Konfigurationsschritte](help/using/orchestrated/file-upload-schema.md) - 8. Oktober
 - [Erste Schritte mit orchestrierten Kampagnen](help/using/orchestrated/gs-orchestrated-campaigns.md) - 29. Oktober
-- [Manuelles Schema](help/using/orchestrated/manual-schema.md) - 23. Oktober
-- [Zielgruppendimension](help/using/orchestrated/target-dimension.md) - 24. Oktober
-- [Externe Datensuche](help/using/personalization/external-data-lookup.md) - 28. Oktober
-- [Funktionen für Arrays und Listen](help/using/personalization/functions/arrays-list.md) - 29. Oktober
-- [Datumsfunktionen](help/using/personalization/functions/dates.md) - 29. Oktober
-- [Erstellen von Personalisierungsausdrücken](help/using/personalization/personalization-build-expressions.md) - 28. Oktober
+- [Leitplanken und Einschränkungen für koordinierte Kampagnen](help/using/orchestrated/guardrails.md) - 8. Oktober
+- [Konfigurationsschritte](help/using/orchestrated/manual-schema.md) - 23. Oktober
+- [Erstellen Ihrer Zielgruppendimension](help/using/orchestrated/target-dimension.md) - 24. Oktober
+- [External Data Lookup Helper](help/using/personalization/external-data-lookup.md) - 28. Oktober
+- [Funktionsbibliothek für Arrays](help/using/personalization/functions/arrays-list.md) - 29. Oktober
+- [Bibliothek mit Datums- und Uhrzeitfunktionen](help/using/personalization/functions/dates.md) - 29. Oktober
+- [Personalisierung hinzufügen](help/using/personalization/personalization-build-expressions.md) - 28. Oktober
 - [Personalization-Syntax](help/using/personalization/personalization-syntax.md) - 28. Oktober
-- [Push-Konfiguration](help/using/push/push-configuration.md) - 23. Oktober
-- [Warnhinweise](help/using/reports/alerts.md) - 28. Oktober
-- [Erste Schritte mit Berichten](help/using/reports/gs-reports.md) - 23. Oktober
-- [Abfragebeispiele](help/using/reports/query-examples.md) - 29. Oktober
-- [Freigeben von Ausführungsfeldern](help/using/reports/sharing-execution-fields.md) - 29. Oktober
-- [Benutzerdefinierte SMS-Konfiguration](help/using/sms/sms-configuration-custom.md) - 24. Oktober
-- [Konfiguration von Infobip-SMS](help/using/sms/sms-configuration-infobip.md) - 27. Oktober
-- [Sinch-SMS-Konfiguration](help/using/sms/sms-configuration-sinch.md) - 27. Oktober
-- [Leitlinien und Einschränkungen](help/using/start/guardrails.md) - 22. Oktober
-- [Fehlerbehebung](help/using/start/troubleshooting.md) - 27. Oktober
-- [WhatsApp-Konfiguration](help/using/whatsapp/whatsapp-configuration.md) - 22. Oktober
-
-*Bericht erstellt am 3. November 2025*
-
-*Ausgeschlossen sind: Formatierungsänderungen, Metadaten-Updates, Linter-Fehlerbehebungen, Aktualisierungen der Inhaltsnavigation und Migrationsbereinigung*
+- [Gestalten einer Push-Benachrichtigung](help/using/push/design-push.md) - 14. Oktober
+- [Konfiguration von Push-Benachrichtigungen](help/using/push/push-configuration.md) - 23. Oktober
+- [Zugriff auf und Abonnieren von Systemwarnungen](help/using/reports/alerts.md) - 28. Oktober
+- [Kampagnenbericht](help/using/reports/campaign-global-report-cja-inapp.md) - 14. Oktober
+- [Erste Schritte mit den Reporting-Funktionen in [!DNL Adobe Journey Optimizer]](help/using/reports/gs-reports.md) - 23. Oktober
+- [Journey-Bericht](help/using/reports/journey-global-report-cja-inapp.md) - 14. Oktober
+- [Arbeiten mit Journey-Schrittereignissen](help/using/reports/journey-step-events-overview.md) - 16. Oktober
+- [Beispiele für Abfragen](help/using/reports/query-examples.md) - 29. Oktober
+- [Berichterstellung](help/using/reports/report-cja-manage.md) - 13. Oktober
+- [Aktionsausführungsfelder für journeyStep-Ereignisse](help/using/reports/sharing-execution-fields.md) - 29. Oktober
+- [Liste der Step-Ereignisfelder](help/using/reports/sharing-field-list.md) - 17. Oktober
+- [Übersicht über die Freigabe von Journey-Schritten](help/using/reports/sharing-overview.md) - 17. Oktober
+- [Aktualisierungen der Dokumentation](help/using/rn/documentation-updates.md) - 29. Oktober
+- [Vorab-Versionshinweise für Journey Optimizer](help/using/rn/e-release-notes.md) - 20. Oktober
+- [Versionshinweise 2025](help/using/rn/release-notes-2025.md) - 28. Oktober
+- [Versionshinweise](help/using/rn/release-notes.md) - 30. Oktober
+- [Adobe Journey Optimizer-Versionszyklus](help/using/rn/releases.md) - 28. Oktober
+- [Erste Schritte mit Textnachrichten (SMS/MMS/RCS)](help/using/sms/get-started-sms.md) - 17. Oktober
+- [Konfigurieren Ihres benutzerdefinierten Anbieters](help/using/sms/sms-configuration-custom.md) - 24. Oktober
+- [Konfigurieren des InfoIP-Anbieters](help/using/sms/sms-configuration-infobip.md) - 27. Oktober
+- [Konfigurieren des Sinch-Anbieters](help/using/sms/sms-configuration-sinch.md) - 27. Oktober
+- [Leitplanken und Einschränkungen für Journey Optimizer](help/using/start/guardrails.md) - 3. November
+- [Gestalten des Nachrichteninhalts](help/using/start/message-content-design.md) - 18. Oktober
+- [Artikel zur Fehlerbehebung bei Journey Optimizer](help/using/start/troubleshooting.md) - 27. Oktober
+- [Konfigurieren des WhatsApp-Kanals](help/using/whatsapp/whatsapp-configuration.md) - 22. Oktober
