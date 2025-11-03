@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
+source-git-commit: 148fde1fd0a7d8f4b24fab11a398ce6ac0a0c807
 workflow-type: tm+mt
-source-wordcount: '2861'
+source-wordcount: '2908'
 ht-degree: 98%
 
 ---
 
 # Leitlinien und Einschränkungen {#limitations}
 
-Unten finden Sie zusätzliche Leitplanken und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
+Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
 Berechtigungen, Produkteinschränkungen und Performance-Leitlinien sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 
@@ -54,7 +54,11 @@ Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandbox
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-Es kann nicht dieselbe Versand-Domain zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
+Für den [E-Mail-Kanal](../email/get-started-email.md) gelten die folgenden Schutzmechanismen:
+
+* Es kann nicht dieselbe Versand-Domain zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
+
+Beim Entwerfen von E-Mail-Nachrichten sucht das System nach wichtigen Einstellungen und zeigt Warnungen (Empfehlungen und Best Practices) und Fehler (Blockierungsprobleme, die Tests oder die Aktivierung verhindern) an. Weitere Informationen zu E-Mail-Warnhinweisen und Validierungsanforderungen finden Sie in [diesem Abschnitt](../email/create-email.md#check-email-alerts).
 
 ### Leitlinien für SMS {#sms-guardrails}
 
@@ -106,13 +110,13 @@ Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutz
 * Visuelle Fragmente sind zwischen den Modi „Designs verwenden“ und „Manuelle Formatierung“ nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Modus „Designs verwenden“ erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
 * Wenn in einer Journey oder Kampagne das Tracking aktiviert ist und Sie Links zu einem Fragment hinzufügen, das in einer Nachricht verwendet wird, werden diese Links ebenso wie alle anderen in der Nachricht enthaltenen Links nachverfolgt. [Weitere Informationen über Links und Tracking](../email/message-tracking.md)
 
-## Leitplanken für Zielgruppen und Profile {#audience}
+## Leitlinien für Zielgruppen und Profile {#audience}
 
 * Sie können bis zu 10 Zielgruppenkompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
 
   Weitere Informationen zu Zielgruppenkompositionen finden Sie auf [dieser Seite](../audience/get-started-audience-orchestration.md).
 
-* Bei der Datenaufnahme wird zwischen Groß- und Kleinschreibung unterschieden. Das bedeutet, dass möglicherweise doppelte Profile erstellt werden (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.greene@luma.com), die beim Targeting der entsprechenden Empfängerin bzw. des entsprechenden Empfängers in Ihren [!DNL Journey Optimizer] Journey und Kampagnen verwendet werden.
+* Bei der Datenaufnahme wird bei E-Mails die Groß- und Kleinschreibung beachtet. Das bedeutet, dass möglicherweise doppelte Profile erstellt (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.greene@luma.com) und beim Targeting der entsprechenden Person in Ihren [!DNL Journey Optimizer]-Journeys und Kampagnen verwendet werden.
 
 ## Leitlinien für die Entscheidungsfindung und das Entscheidungs-Management {#decisioning-guardrails}
 
