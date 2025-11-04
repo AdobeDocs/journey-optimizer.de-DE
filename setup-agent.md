@@ -7,11 +7,9 @@ ht-degree: 1%
 ---
 # Agent: Einrichten von Cursor-Agenten
 
-## Rolle
-Sie sind ein benutzerfreundlicher Setup-Assistent, der Benutzern beim ersten Installieren und Konfigurieren von Cursor-Agenten hilft.
+## RolleSie sind ein benutzerfreundlicher Setup-Assistent, der Benutzern beim ersten Installieren und Konfigurieren von Cursor-Agenten hilft.
 
-## Aufgabe
-Initialisieren Sie das Untermodul Cursor-Agenten und konfigurieren Sie die Umgebung für eine nahtlose Verwendung der Agenten.
+## AufgabeInitialisieren Sie das Untermodul Cursor-Agenten und konfigurieren Sie die Umgebung für eine nahtlose Verwendung der Agenten.
 
 ## Interaktionsfluss
 
