@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '2947'
 ht-degree: 98%
 
 ---
@@ -112,22 +112,13 @@ ht-degree: 98%
       + Funktionen {#main-functions-journey}
          + [Funktionen](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [Hauptfunktionen](using/building-journeys/expression/functions.md)
-         + Adobe Experience Platform {#adobe-experience-platform}
-            + [inAudience](using/building-journeys/functions/functioninaudience.md)
-         + Aggregation {#aggregation}
-            + [Aggregationsfunktionen](using/building-journeys/functions/aggregation-functions.md)
-         + Konvertierung {#conversion}
-            + [Konvertierungsfunktionen](using/building-journeys/functions/conversion-functions.md)
-         + Datum {#date}
-            + [Datumsfunktionen](using/building-journeys/functions/date-functions.md)
-         + Liste {#list}
-            + [Funktionen auflisten](using/building-journeys/functions/list-functions.md)
-         + Mathematik {#math}
-            + [Mathematik](/help/rp_landing_pages/math-landing-page.md)
-            + [random](using/building-journeys/functions/functionrandom.md)
-            + [round](using/building-journeys/functions/functionround.md)
-         + String {#string}
-            + [Zeichenfolgen-Funktionen](using/building-journeys/functions/string-functions.md)
+         + [inAudience-Funktion](using/building-journeys/functions/functioninaudience.md)
+         + [Aggregationsfunktionen](using/building-journeys/functions/aggregation-functions.md)
+         + [Konvertierungsfunktionen](using/building-journeys/functions/conversion-functions.md)
+         + [Datumsfunktionen](using/building-journeys/functions/date-functions.md)
+         + [Funktionen auflisten](using/building-journeys/functions/list-functions.md)
+         + [Mathematische Funktionen](using/building-journeys/functions/math-functions.md)
+         + [Zeichenfolgen-Funktionen](using/building-journeys/functions/string-functions.md)
    + Anwendungsfälle {#journey-use-cases}
       + [Anwendungsfälle](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Lernen durch Anwendungsfälle](using/building-journeys/jo-use-cases.md)
