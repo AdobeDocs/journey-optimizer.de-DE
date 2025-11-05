@@ -4,8 +4,10 @@ product: Journey Optimizer
 title: Mathematik
 description: Mathematik
 redpen-status: CREATED_||_2025-08-11_20-16-12
+hide: true
+hidefromtoc: true
 exl-id: 2df9c6ea-be94-475f-9997-16f10db22f03
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
@@ -20,23 +22,23 @@ Der Abschnitt „Mathematik“ in Adobe Journey Optimizer ermöglicht es Ihnen, 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „random“
 
 Erfahren Sie, wie Sie mit der Funktion „random“ in Adobe Journey Optimizer Zufallszahlen zwischen 0 und 1 generieren können.
 
-[Funktion „random“ erkunden](../using/building-journeys/functions/functionrandom.md)
+[Funktion „random“ erkunden](../using/building-journeys/functions/math-functions.md#random)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „round“
 
 Machen Sie sich mit der Funktion „round“, ihrer Syntax und dem Runden von Zahlen auf die nächste Ganzzahl in Adobe Journey Optimizer vertraut.
 
-[Informationen zur Funktion „round“](../using/building-journeys/functions/functionround.md)
+[Informationen zur Funktion „round“](../using/building-journeys/functions/math-functions.md#round)
 :::
 
 ::::

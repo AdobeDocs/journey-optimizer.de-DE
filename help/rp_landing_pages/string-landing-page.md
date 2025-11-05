@@ -4,8 +4,10 @@ product: Journey Optimizer
 title: Zeichenfolge
 description: Zeichenfolge
 redpen-status: CREATED_||_2025-08-11_20-18-34
+hide: true
+hidefromtoc: true
 exl-id: 1085e570-10b8-4d96-912a-994979358b65
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -20,7 +22,7 @@ Zeichenfolgen sind die Bausteine textbasierter Daten, und die Zeichenfolgenfunkt
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referenz zur Funktion „concat“
 
@@ -30,7 +32,7 @@ Erfahren Sie, wie Sie Zeichenfolgen oder eine Liste von Zeichenfolgen mithilfe d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „contain“
 
@@ -40,7 +42,7 @@ Entdecken Sie, wie Sie überprüfen können, ob eine Zeichenfolge innerhalb eine
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „containIgnoreCase“
 
@@ -50,7 +52,7 @@ Erfahren Sie, wie Sie Zeichenfolgen auf enthaltene Zeichenfolgen prüfen, ohne d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referenz zur Funktion „endWith“
 
@@ -60,7 +62,7 @@ Erfahren Sie, wie Sie überprüfen können, ob eine Zeichenfolge mit einem besti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referenz zur Funktion „endWithIgnoreCase“
 
@@ -70,7 +72,7 @@ Referenz zur Funktion „endWithIgnoreCase“
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referenz zur Funktion „equalIgnoreCase“
 
