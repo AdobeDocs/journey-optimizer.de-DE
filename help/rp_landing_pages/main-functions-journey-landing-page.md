@@ -5,22 +5,22 @@ title: Funktionen
 description: Funktionen
 redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
 # Funktionen{#section-overview}
 
-Mit den Funktionen in Adobe Journey Optimizer können Sie dynamische und präzise Ausdrücke erstellen, um Ihre Customer Journeys individuell anzupassen. Ganz gleich, ob Sie die Zugehörigkeit zu Zielgruppen bewerten, Daten aggregieren, Formate konvertieren, Daten bearbeiten oder Listen verarbeiten – jede Funktionskategorie erfüllt einen einzigartigen Zweck bei der Optimierung von Workflows. Mit Tools für mathematische Berechnungen, Zeichenfolgenanpassung und mehr bieten diese Funktionen endlose Möglichkeiten für die Erstellung komplexer Bedingungen. In den folgenden Abschnitten finden Sie praktische Beispiele und detaillierte Anleitungen, die komplexe Vorgänge vereinfachen und es Ihnen erleichtern, das Potenzial der personalisierten Journey-Orchestrierung voll auszuschöpfen.
+Mit den Funktionen in Adobe Journey Optimizer können Sie dynamische und präzise Ausdrücke erstellen, um Ihre Customer Journeys individuell anzupassen. Unabhängig davon, ob Sie die Zielgruppenzugehörigkeit bewerten, Daten aggregieren, Formate konvertieren, Datumsangaben bearbeiten oder Listen verarbeiten, jede Funktionskategorie erfüllt einen einzigartigen Zweck bei der Optimierung von Workflows. Mit Tools für mathematische Berechnungen, Zeichenfolgenanpassung und mehr bieten diese Funktionen endlose Möglichkeiten für die Erstellung komplexer Bedingungen. In den folgenden Abschnitten finden Sie praktische Beispiele und detaillierte Anleitungen, die komplexe Vorgänge vereinfachen und es Ihnen erleichtern, das Potenzial der personalisierten Journey-Orchestrierung voll auszuschöpfen.
 
 ## Funktionen in Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Die wichtigsten Funktionen in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Hier erhalten Sie einen Überblick über die wichtigsten verfügbaren Funktionen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Verwenden der Funktion „inAudience“
 
@@ -40,37 +40,37 @@ Erfahren Sie, wie Sie die Zielgruppenzugehörigkeit mithilfe der Funktion „inA
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Referenz zu Aggregationsfunktionen
 
 Die primäre Aggregation dient zur Durchführung von Vorgängen wie Durchschnittswerten, Zählungen, unterschiedlichen Werten und Summen in Journey-Ausdrücken.
 
-[Aggregationsfunktionen kennenlernen](aggregation-landing-page.md)
+[Aggregationsfunktionen kennenlernen](../using/building-journeys/functions/aggregation-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 Konversionsfunktionen
 
 Transformieren Sie Datentypen mit Konversionsfunktionen, um Eingaben für die Journey-Orchestrierung effektiv zu bearbeiten.
 
-[Konversionsfunktionen erkunden](conversion-landing-page.md)
+[Konversionsfunktionen erkunden](../using/building-journeys/functions/conversion-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Datumsfunktionen in Adobe Journey Optimizer
 
 Erfahren Sie, wie Sie Datums- und Uhrzeitwerte mithilfe leistungsstarker Funktionen für Datumsangaben in Journey-Ausdrücken bearbeiten und auswerten können.
 
-[Dokumentation zu Datumsfunktionen anzeigen](date-landing-page.md)
+[Dokumentation zu Datumsfunktionen anzeigen](../using/building-journeys/functions/date-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Listenfunktionen in Adobe Journey Optimizer
 

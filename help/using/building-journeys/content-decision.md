@@ -11,7 +11,7 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsrichtlinie, Arbeitsfläche, Journey
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 100%
@@ -116,7 +116,7 @@ Um die Ausgabe einer Aktivität vom Typ „Inhaltsentscheidung“ zu nutzen, kö
    >
    >Ein für ein Attribut definiertes eingeschränktes Label, ob in einem Journey-Erlebnisereignis, das in einer Entscheidungsregel (als Kontextdaten) verwendet wird, oder im [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema), führt nicht zu einem Richtlinienverstoß gemäß DULE oder Einverständnis. Weitere Informationen zu Data-Governance-Richtlinien finden Sie in [diesem Abschnitt](../action/action-privacy.md)
 
-1. Um zu überprüfen, ob für die Profile, die in die Journey eintreten, ein Angebot zurückgegeben wurde, verwenden Sie die Funktion [listSize](functions/functionlistsize.md) mit der folgenden Syntax: `listSize(@decision{ContentdecisionName.items})>0`
+1. Um zu überprüfen, ob für die Profile, die in die Journey eintreten, ein Angebot zurückgegeben wurde, verwenden Sie die Funktion [listSize](functions/list-functions.md#listSize) mit der folgenden Syntax: `listSize(@decision{ContentdecisionName.items})>0`
 
    >[!NOTE]
    >

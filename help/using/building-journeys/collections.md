@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Übergeben von Sammlungen in benutzerdefinierte Aktionsparameter
+title: Übergeben von Sammlungen in Parameter für benutzerdefinierte Aktionen
 description: Erfahren Sie, wie Sie Sammlungen mithilfe benutzerdefinierter Aktionen dynamisch in Journey Optimizer übergeben
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
@@ -9,15 +9,15 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 35%
+ht-degree: 37%
 
 ---
 
 
-# Übergeben von Sammlungen in benutzerdefinierte Aktionsparameter {#passing-collection}
+# Übergeben von Sammlungen in Parameter für benutzerdefinierte Aktionen {#passing-collection}
 
 Sie können eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden.
 
@@ -132,7 +132,7 @@ Sie können sehen, dass `products` ein Array von zwei Objekten ist. Sie müssen 
 
    ![](assets/uc-collection-4.png){width="50%" align="left"}
 
-Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenbearbeitungen durchzuführen. Im folgenden Beispiel werden die Funktionen [Filtern](functions/functionfilter.md) und [Überschneidung](functions/functionintersect.md) verwendet:
+Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenbearbeitungen durchzuführen. Im folgenden Beispiel werden die Funktionen [Filtern](functions/list-functions.md#filter) und [Überschneidung](functions/list-functions.md#intersect) verwendet:
 
 ![](assets/uc-collection-5.png)
 

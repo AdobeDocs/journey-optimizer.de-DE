@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -617,7 +617,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 **Journeys**
 
 * **Zielgruppe lesen**: Einmalige „Zielgruppe lesen“-Journeys wechseln nun 30 Tage nach der Ausführung der Journey in den Status „Beendet“. Folgt die Aktivität „Zielgruppe lesen“ einem Zeitplan, wird sie 30 Tage nach dem letzten Auftreten beendet. [Weitere Informationen](../building-journeys/read-audience.md)
-* **Ausdruckseditor**: Die Funktion [Limit](../building-journeys/functions/functionlimit.md) wurde hinzugefügt, um die Anzahl der Elemente einer Liste zu begrenzen. Mit der Funktion [Sortierung](../building-journeys/functions/functionsort.md) können Sie jetzt ein Listenobjekt sortieren. Die Unterstützung von listObject wurde auch den Funktionen [distinct](../building-journeys/functions/functiondistinct.md) und [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) hinzugefügt.
+* **Ausdruckseditor**: Die Funktion [Limit](../building-journeys/functions/list-functions.md#limit) wurde hinzugefügt, um die Anzahl der Elemente einer Liste zu begrenzen. Mit der Funktion [Sortierung](../building-journeys/functions/list-functions.md#sort) können Sie jetzt ein Listenobjekt sortieren. Die Unterstützung von listObject wurde auch den Funktionen [distinct](../building-journeys/functions/list-functions.md#distinct) und [distinctWithNull](../building-journeys/functions/list-functions.md#distinctWithNull) hinzugefügt.
 
 **Administration**
 

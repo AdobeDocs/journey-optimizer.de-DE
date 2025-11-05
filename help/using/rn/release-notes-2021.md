@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -152,7 +152,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 <p>Sie können jetzt Sammlungen oder eine Liste von Daten in Ihren benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Sammlungen unterstützt: einfache Sammlungen und Objektsammlungen. Zuvor erstellte benutzerdefinierte Aktionen funktionieren weiterhin. </p>
 <p>Weitere Informationen zu Sammlungen finden Sie in der <a href="../building-journeys/collections.md">entsprechenden Dokumentation</a>. </p>
 <p>Der Filter und die Überschneidungsfunktionen wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten zum Filtern und Vergleichen von Sammlungen.</p>
-<p>Lesen Sie die Dokumentation zu den Funktionen <a href="../building-journeys/functions/functionfilter.md">Filtern</a> und <a href="../building-journeys/functions/functionintersect.md">Überschneidung</a>.</p>
+<p>Lesen Sie die Dokumentation zu den Funktionen <a href="../building-journeys/functions/list-functions.md#filter">Filtern</a> und <a href="../building-journeys/functions/list-functions.md#intersect">Überschneidung</a>.</p>
 </td>
 </tr>
 </tbody>
