@@ -7,16 +7,26 @@ role: Developer
 level: Experienced
 keywords: Aggregation, Funktionen, Ausdruck, Journey, Durchschnitt, Anzahl, Max, Min, Summe
 version: Journey Orchestration
-source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
+source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 88%
+source-wordcount: '712'
+ht-degree: 79%
 
 ---
 
 # Aggregationsfunktionen {#aggregation-functions}
 
-Aggregationsfunktionen werden verwendet, um Berechnungen für einen Wertesatz durchzuführen und einen einzelnen Wert zurückzugeben. Diese Funktionen sind besonders nützlich, wenn Sie mit Listen und Arrays in Ihren Journey-Ausdrücken arbeiten.
+Aggregationsfunktionen führen Berechnungen für einen Wertesatz durch und geben ein einziges zusammengefasstes Ergebnis zurück. Mit diesen Funktionen können Sie Daten in Ihren Journey-Ausdrücken analysieren, indem Sie Durchschnittswerte berechnen, Mindest- und Höchstwerte ermitteln, Elemente zählen und numerische Werte summieren.
+
+Verwenden Sie Aggregationsfunktionen, wenn Sie Folgendes tun müssen:
+
+* Statistische Werte aus Listen oder Arrays berechnen (Durchschnitt, Summe, Min, Max)
+* Zählen von Elementen in Sammlungen mit Optionen zum Ein- oder Ausschließen von Nullwerten
+* Bestimmen eindeutiger Werte in Datensätzen
+* Treffen von datengesteuerten Entscheidungen basierend auf berechneten Metriken
+
+Aggregationsfunktionen verarbeiten Nullwerte automatisch entsprechend ihrem spezifischen Verhalten, was die Arbeit mit realen Daten, die fehlende oder undefinierte Werte enthalten können, erleichtert.
+
 
 ## avg {#avg}
 
@@ -115,8 +125,6 @@ Gibt die Anzahl der Objekte im angegebenen Array von Objekten zurück (listObjec
 
 Zählt die Zahl der Nullwerte in der Liste.
 
-**Hinweis:** Der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
-
 +++Syntax
 
 `countOnlyNull(<listAny>)`
@@ -147,11 +155,11 @@ Gibt 1 zurück.
 
 +++
 
+**Hinweis:** Der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
+
 ## countWithNull {#countWithNull}
 
 Zählt alle Elemente der Liste, einschließlich Nullwerten.
-
-**Hinweis:** Der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
 
 +++Syntax
 
@@ -182,6 +190,8 @@ Gibt eine Ganzzahl zurück.
 Gibt 4 zurück.
 
 +++
+
+**Hinweis:** Der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
 
 ## distinctCount {#distinctCount}
 
@@ -236,8 +246,6 @@ Gibt die Anzahl der Objekte mit einem eindeutigen „SKU“-Attributwert{} zurü
 
 Zählt die Anzahl verschiedener Werte einschließlich der Nullwerte.
 
-**Hinweis:** Der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
-
 +++Syntax
 
 `distinctCountWithNull(<listAny>)`
@@ -267,6 +275,8 @@ Gibt eine Ganzzahl zurück.
 Gibt 3 zurück.
 
 +++
+
+**Hinweis:** Der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
 
 ## max {#max}
 
