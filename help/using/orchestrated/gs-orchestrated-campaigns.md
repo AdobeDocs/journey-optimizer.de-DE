@@ -6,10 +6,10 @@ description: Informationen zu den ersten Schritten mit orchestrierten Kampagnen
 short-description: Entdecken Sie wichtige Funktionen und Anwendungsfälle von orchestrierten Kampagnen.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 97%
+source-wordcount: '779'
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ Lernen Sie die wichtigsten Konzepte und Funktionen kennen, die bei orchestrierte
 
 ## Tauchen wir tiefer in die Materie ein
 
-Jetzt, da Sie über Grundkenntnisse zu orchestrierten Kampagnen verfügen, ist es an der Zeit, diese Dokumentationsabschnitte zu vertiefen und mit der Funktion zu arbeiten.
+Da Sie nun wissen, was orchestrierte Kampagnen sind, ist es an der Zeit, sich näher mit den Dokumentationsabschnitten zu befassen, um mit der Funktion zu arbeiten.
 
 <table><tr style="border: 0; text-align: center;">
 <td>
@@ -121,3 +121,13 @@ Jetzt, da Sie über Grundkenntnisse zu orchestrierten Kampagnen verfügen, ist e
 </div>
 <p></td>
 </tr></table>
+
+## Weitere Ressourcen
+
+* **[Erste Regel erstellen](build-query.md)** Beherrschen Sie den Regel-Builder, um zielgerichtete Abfragen zu erstellen und Ihre Zielgruppen mithilfe relationaler Daten präzise zu segmentieren.
+* **[Erstellen relationaler Schemata](gs-schemas.md)** - Erfahren Sie, wie Sie relationale Schemata einrichten und konfigurieren können, um Daten mit mehreren Entitäten in Ihren Kampagnen zu nutzen.
+* **[Reporting für orchestrierte Kampagnen](reporting-campaigns.md)** - Verfolgen und analysieren Sie Ihre Kampagnenleistung mit detaillierten Berichtsmetriken und Erkenntnissen.
+* **[Kampagnen starten und überwachen](start-monitor-campaigns.md)** - Erfahren Sie mehr über Best Practices für den Start von Kampagnen und die Überwachung ihrer Ausführung in Echtzeit.
+* **[Leitplanken und Einschränkungen](guardrails.md)** - Überprüfen Sie wichtige Leitplanken, Einschränkungen und Best Practices, um eine optimale Kampagnenleistung sicherzustellen.
+* **[Häufig gestellte Fragen](orchestrated-campaigns-faq.md)** - Hier finden Sie Antworten auf häufig gestellte Fragen zu den Funktionen, Funktionen und Anwendungsfällen von orchestrierten Kampagnen.
+* **[Orchestrierte Kampagnen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}**-Tutorials - Sehen Sie sich Schritt-für-Schritt-Video-Tutorials zu Funktionen und Best Practices an.

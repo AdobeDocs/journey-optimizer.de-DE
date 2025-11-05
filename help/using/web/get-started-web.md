@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '163'
-ht-degree: 100%
+source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 64%
 
 ---
 
@@ -67,5 +67,14 @@ Die detaillierten Schritte zum Erstellen einer Web-Kampagne finden Sie in [diese
 <p>
 </td>
 </tr></table>
+
+## Weitere Ressourcen
+
+* **[Erstellen von Web-Erlebnissen](create-web.md)** - Erfahren Sie, wie Sie Web-Kampagnen und Journey erstellen und konfigurieren, um Web-Inhalte zu ändern.
+* **[Voraussetzungen für den Webkanal](web-prerequisites.md)** - Machen Sie sich mit den technischen Anforderungen und der Einrichtung vertraut, die für die Implementierung des Webkanals erforderlich sind.
+* **[Web-Inhalte bearbeiten](create-web.md#edit-web-content)** - Meistern Sie den Web-Designer, um Seiten mithilfe visueller oder nicht visueller Bearbeitungsmodi zu ändern.
+* **[Web-Änderungen verwalten](manage-web-modifications.md)** - Erfahren Sie, wie Sie Änderungen in Ihren Web-Erlebnissen organisieren, anwenden und verwalten.
+* **[Web-Erlebnisse überwachen](monitor-web-experiences.md)** - Verfolgen und analysieren Sie die Leistung Ihrer Web-Kampagnen mit detaillierten Berichten.
+* **[Web-Campaign](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}**-Tutorials - Sehen Sie sich Schritt-für-Schritt-Video-Tutorials zu Web-Kanal-Funktionen und Best Practices an.
 
 
