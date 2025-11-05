@@ -8,9 +8,9 @@ level: Experienced
 keywords: inAudience, Funktion, Ausdruck, Journey, Zielgruppe, Segmentierung
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
+source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ Die `inAudience` ist eine Adobe Experience Platform-Funktion, mit der Sie überp
 
 Verwenden Sie die `inAudience`, wenn Sie Folgendes tun müssen:
 
-* [Verzweigung von Journey-Pfaden basierend auf der Zielgruppenzugehörigkeit](../condition-activity.md#using-a-segment)
+* Verzweigen Sie Journey-Pfade basierend auf der Zielgruppenzugehörigkeit. [Weitere Informationen](../condition-activity.md#using-a-segment)
 * Anwenden einer bedingten Logik, die davon abhängt, ob ein Profil zu einem bestimmten Segment gehört
 * Targeting bestimmter Kundengruppen mit personalisierten Erlebnissen
 * Auswerten der Echtzeit-Zielgruppenbeteiligung unter Journey-Bedingungen
