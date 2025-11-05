@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
-source-wordcount: '2978'
+source-wordcount: '2956'
 ht-degree: 98%
 
 ---
@@ -127,30 +127,7 @@ ht-degree: 98%
             + [random](using/building-journeys/functions/functionrandom.md)
             + [round](using/building-journeys/functions/functionround.md)
          + String {#string}
-            + [String](/help/rp_landing_pages/string-landing-page.md)
-            + [concat](using/building-journeys/functions/functionconcat.md)
-            + [contain](using/building-journeys/functions/functioncontain.md)
-            + [containIgnoreCase](using/building-journeys/functions/functioncontainwithignorecase.md)
-            + [endWith](using/building-journeys/functions/functionendwith.md)
-            + [endWithIgnorecase](using/building-journeys/functions/functionendwithignorecase.md)
-            + [equalIgnoreCase](using/building-journeys/functions/functionequalignorecase.md)
-            + [indexOf](using/building-journeys/functions/functionindexof.md)
-            + [isEmpty](using/building-journeys/functions/functionisempty.md)
-            + [isNotEmpty](using/building-journeys/functions/functionisnotempty.md)
-            + [lastIndexOf](using/building-journeys/functions/functionlastindexof.md)
-            + [length](using/building-journeys/functions/functionlength.md)
-            + [lower](using/building-journeys/functions/functionlower.md)
-            + [matchRegExp](using/building-journeys/functions/functionmatchregexp.md)
-            + [notequalIgnoreCase](using/building-journeys/functions/functionnotequalignorecase.md)
-            + [replace](using/building-journeys/functions/functionreplace.md)
-            + [replaceAll](using/building-journeys/functions/functionreplaceall.md)
-            + [split](using/building-journeys/functions/functionsplit.md)
-            + [startWith](using/building-journeys/functions/functionstartwith.md)
-            + [startWithIgnoreCase](using/building-journeys/functions/functionstartwithignorecase.md)
-            + [substr](using/building-journeys/functions/functionsubstr.md)
-            + [trim](using/building-journeys/functions/functiontrim.md)
-            + [upper](using/building-journeys/functions/functionupper.md)
-            + [uuid](using/building-journeys/functions/functionuuid.md)
+            + [Zeichenfolgen-Funktionen](using/building-journeys/functions/string-functions.md)
    + Anwendungsfälle {#journey-use-cases}
       + [Anwendungsfälle](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Lernen durch Anwendungsfälle](using/building-journeys/jo-use-cases.md)
