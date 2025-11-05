@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: Konvertierung, Funktionen, Ausdruck, Journey, Typ, Umwandlung
 version: Journey Orchestration
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 87%
+source-wordcount: '957'
+ht-degree: 85%
 
 ---
 
@@ -20,9 +20,10 @@ Mit Konvertierungsfunktionen können Sie Daten in Ihren Journey-Ausdrücken von 
 
 Verwenden Sie Konvertierungsfunktionen, wenn Sie Folgendes tun müssen:
 
-* Konvertieren von Zeichenfolgenwerten in numerische, boolesche oder Datentypen
-* Transformieren von Datumsangaben und Uhrzeiten zwischen verschiedenen Formaten und Darstellungen
-* Zahlenwerte zwischen Ganzzahlen und Dezimalstellen umwandeln
+* Konvertieren von Zeichenfolgenwerten in numerische, boolesche oder Datentypen ([toInteger](#toInteger), [toDecimal](#toDecimal), [toBool](#toBool))
+* Umwandlung von Datums- und Uhrzeitangaben zwischen verschiedenen Formaten und Darstellungen ([toDateTime](#toDateTime), [toDateTimeOnly](#toDateTimeOnly), [toDateOnly](#toDateOnly))
+* Zahlenwerte zwischen Ganzzahl und Dezimalzahl umrechnen ([toInteger](#toInteger), [toDecimal](#toDecimal))
+* Werte in Zeichenfolgenformat ([toString](#toString)) oder Dauer ([toDuration](#toDuration)) konvertieren
 * Gewährleistung der Typkompatibilität für Vergleiche und Vorgänge
 * Verarbeiten Sie Daten aus externen Quellen, die unterschiedliche Typformate aufweisen können.
 

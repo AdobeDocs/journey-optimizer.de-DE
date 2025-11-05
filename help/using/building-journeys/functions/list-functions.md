@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: Liste, Funktionen, Ausdruck, Journey, Array, Sammlung
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 86%
+source-wordcount: '1158'
+ht-degree: 85%
 
 ---
 
@@ -20,13 +20,13 @@ Mit Listenfunktionen können Sie Sammlungen von Werten in Ihren Journey-Ausdrüc
 
 Verwenden Sie Listenfunktionen, wenn Sie Folgendes tun müssen:
 
-* Filtern und Extrahieren von bestimmten Elementen aus Sammlungen basierend auf Kriterien
-* Sortieren und Organisieren von Listenelementen in auf- oder absteigender Reihenfolge
-* Duplikate entfernen und eindeutige Werte aus Listen abrufen
-* Überprüfen, ob Werte in Sammlungen vorhanden sind
-* Anzahl der aus einer Liste zurückgegebenen Elemente begrenzen
-* Umwandeln von Listen in verschiedene Formate oder Datentypen
-* Durchführen bestimmter Vorgänge wie das Suchen nach gemeinsamen Elementen zwischen Listen
+* Filtern und Extrahieren bestimmter Elemente aus Sammlungen anhand von Kriterien ([filter](#filter), [getListItem](#getListItem))
+* Sortieren und Organisieren von Listenelementen in auf- oder absteigender Reihenfolge ([sort](#sort))
+* Duplikate entfernen und eindeutige Werte aus Listen abrufen ([distinct](#distinct), [distinctWithNull](#distinctWithNull))
+* Überprüfen, ob Werte in Sammlungen vorhanden sind ([in](#in))
+* Anzahl der aus einer Liste zurückgegebenen Elemente begrenzen ([limit](#limit))
+* Abrufen der Größe einer Liste ([listSize](#listSize)) oder Umwandeln von Listen in verschiedene Formate ([serializeList](#serializeList))
+* Durchführen bestimmter Vorgänge wie das Suchen nach gemeinsamen Elementen zwischen Listen ([intersect](#intersect))
 
 Listenfunktionen bieten leistungsstarke Tools für die Arbeit mit komplexen Datenstrukturen und ermöglichen so eine ausgefeilte Datenbearbeitung und bedingte Logik basierend auf Sammlungsinhalten.
 

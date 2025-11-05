@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: Aggregation, Funktionen, Ausdruck, Journey, Durchschnitt, Anzahl, Max, Min, Summe
 version: Journey Orchestration
-source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 79%
+source-wordcount: '717'
+ht-degree: 78%
 
 ---
 
@@ -20,9 +20,9 @@ Aggregationsfunktionen führen Berechnungen für einen Wertesatz durch und geben
 
 Verwenden Sie Aggregationsfunktionen, wenn Sie Folgendes tun müssen:
 
-* Statistische Werte aus Listen oder Arrays berechnen (Durchschnitt, Summe, Min, Max)
-* Zählen von Elementen in Sammlungen mit Optionen zum Ein- oder Ausschließen von Nullwerten
-* Bestimmen eindeutiger Werte in Datensätzen
+* Statistische Werte aus Listen oder Arrays berechnen ([avg](#avg), [sum](#sum), [min](#min), [max](#max))
+* Zählen von Elementen in Sammlungen [count](#count), [countOnlyNull](#countOnlyNull), [countWithNull](#countWithNull)) mit Optionen zum Ein- oder Ausschließen von Nullwerten
+* Bestimmen eindeutiger Werte in Datensätzen ([distinctCount](#distinctCount), [distinctCountWithNull](#distinctCountWithNull))
 * Treffen von datengesteuerten Entscheidungen basierend auf berechneten Metriken
 
 Aggregationsfunktionen verarbeiten Nullwerte automatisch entsprechend ihrem spezifischen Verhalten, was die Arbeit mit realen Daten, die fehlende oder undefinierte Werte enthalten können, erleichtert.

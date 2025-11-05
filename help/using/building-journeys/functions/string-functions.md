@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: Zeichenfolge, Funktionen, Ausdruck, Journey, Text, Manipulation
 version: Journey Orchestration
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 84%
+source-wordcount: '1127'
+ht-degree: 82%
 
 ---
 
@@ -20,15 +20,16 @@ Mit Zeichenfolgenfunktionen können Sie Textwerte in Ihren Journey-Ausdrücken b
 
 Verwenden Sie Zeichenfolgenfunktionen, wenn Sie Folgendes tun müssen:
 
-* Verketten und Kombinieren mehrerer Textwerte
-* Nach bestimmten Textmustern oder Teilzeichenfolgen suchen
-* Vergleichen von Zeichenfolgen mit Übereinstimmung unter Berücksichtigung der Groß-/Kleinschreibung oder ohne Unterscheidung der Groß-/Kleinschreibung
-* Extrahieren von Textteilen mithilfe von Teilzeichenfolgen-Vorgängen
-* Text in Groß- oder Kleinbuchstaben umwandeln
-* Überprüfen, ob Zeichenfolgen leer sind oder bestimmte Werte enthalten
-* Textmuster durch neue Werte ersetzen
-* Zeichenfolgen zur weiteren Verarbeitung in Arrays aufteilen
-* Text anhand regulärer Ausdrücke überprüfen
+* Verketten und Kombinieren mehrerer Textwerte ([concat](#concat))
+* Suchen nach bestimmten Textmustern oder Unterzeichenfolgen ([contain](#contain), [containIgnoreCase](#containIgnoreCase), [indexOf](#indexOf), [lastIndexOf](#lastIndexOf), [matchRegExp](#matchRegExp))
+* Vergleichen Sie Zeichenfolgen mit Übereinstimmungen, bei denen die Groß-/Kleinschreibung nicht beachtet wird ([equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase))
+* Zeichenfolge überprüfen, die beginnt und endet ([startWith](#startWith), [startWithIgnoreCase](#startWithIgnoreCase), [endWith](#endWith), [endWithIgnoreCase](#endWithIgnoreCase))
+* Extrahieren von Textteilen mithilfe von Teilzeichenfolgen-Vorgängen ([substr](#substr))
+* Text in Groß- oder Kleinbuchstaben umwandeln ([upper](#upper), [lower](#lower), [trim](#trim))
+* Überprüfen, ob Zeichenfolgen leer sind oder bestimmte Werte enthalten ([isEmpty](#isEmpty), [isNotEmpty](#isNotEmpty))
+* Textmuster durch neue Werte ersetzen ([replace](#replace), [replaceAll](#replaceAll))
+* Zeichenfolgen zur weiteren Verarbeitung in Arrays aufteilen ([split](#split))
+* Zeichenfolgenlänge abrufen ([length](#length)) oder eindeutige Kennungen generieren ([uuid](#uuid))
 
 Zeichenfolgenfunktionen bieten umfangreiche Textmanipulationsfunktionen, die eine ausgefeilte Datenverarbeitung und eine bedingte Logik ermöglichen, die auf Textinhalten in Ihren Journey-Ausdrücken basiert.
 
