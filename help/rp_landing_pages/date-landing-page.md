@@ -5,7 +5,7 @@ title: Datum
 description: Datum
 redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 100%
@@ -20,63 +20,63 @@ Mit den Datumsfunktionen in Adobe Journey Optimizer können Sie nahtlos mit zeit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referenz zur Funktion „currentTimeInMillis“
 
 Erfahren Sie, wie Sie mit der Funktion „currentTimeInMillis“ die aktuelle Zeit in Epochenmillisekunden abrufen können.
 
-[Informationen zu „currentTimeInMillis“](../using/building-journeys/functions/functioncurrenttimeinmillis.md)
+[Informationen zu „currentTimeInMillis“](../using/building-journeys/functions/date-functions.md#currentTimeInMillis)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „inLastDays“
 
 Machen Sie sich mit der Funktion „inLastDays“ vertraut, die prüft, ob ein bestimmtes Datum in eine bestimmte Anzahl von Tagen vor dem heutigen Tag fällt.
 
-[Informationen zu „inLastDays“](../using/building-journeys/functions/functioninlastdays.md)
+[Informationen zu „inLastDays“](../using/building-journeys/functions/date-functions.md#inLastDays)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „inLastHours“
 
 Erkunden Sie die Funktion „inLastHours“, um festzustellen, ob eine Datums-/Uhrzeitangabe innerhalb der letzten angegebenen Anzahl von Stunden liegt.
 
-[Informationen zu „inLastHours“](../using/building-journeys/functions/functioninlasthours.md)
+[Informationen zu „inLastHours“](../using/building-journeys/functions/date-functions.md#inLastHours)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „inLastMonths“
 
 Mit „inLastMonths“ in Adobe Journey Optimizer können Sie überprüfen, ob ein Datum in einen bestimmten Zeitraum von Monaten fällt.
 
-[Informationen zu „inLastMonths“](../using/building-journeys/functions/functioninlastmonths.md)
+[Informationen zu „inLastMonths“](../using/building-journeys/functions/date-functions.md#inLastMonths)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „inLastYears“
 
 Erfahren Sie, wie Sie mit der Funktion „inLastYears“ auswerten können, ob ein Datum innerhalb einer bestimmten Anzahl von Jahren vor dem heutigen Tag liegt.
 
-[„inLastYears“ erkunden](../using/building-journeys/functions/functioninlastyears.md)
+[„inLastYears“ erkunden](../using/building-journeys/functions/date-functions.md#inLastYears)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „inNextDays“
 
 Erfahren Sie, wie Sie mit der Funktion „inNextDays“ überprüfen können, ob ein Datum in einen bestimmten Zeitraum von Tagen ab heute fällt.
 
-[„inNextDays“ entdecken](../using/building-journeys/functions/functioninnextdays.md)
+[„inNextDays“ entdecken](../using/building-journeys/functions/date-functions.md#inNextDays)
 :::
 
 ::::
@@ -84,11 +84,11 @@ Erfahren Sie, wie Sie mit der Funktion „inNextDays“ überprüfen können, ob
 
 ## Weitere Ressourcen
 
-- **[Funktion „inNextHours“](../using/building-journeys/functions/functioninnexthours.md)** – Erfahren Sie, wie Sie mit der Funktion „inNextHours“ auswerten können, ob sich ein Datums-/Uhrzeitwert innerhalb der nächsten angegebenen Stunden befindet.
-- **[„inNextMonths“-Funktionsreferenz](../using/building-journeys/functions/functioninnextmonths.md)** – Erkunden Sie die Funktion „inNextMonths“, um zu überprüfen, ob ein Datum innerhalb des nächsten angegebenen Bereichs von Monaten liegt.
-- **[Funktion „inNextYears“](../using/building-journeys/functions/functioninnextyears.md)** – Mit der Funktion „inNextYears“ bestimmen Sie, ob ein Datum in einen bestimmten Zeitraum von Jahren in der Zukunft fällt.
-- **[Verwenden der Funktion „now“](../using/building-journeys/functions/functionnow.md)** – Erfahren Sie mehr über die Funktion „now“, um das aktuelle Datum und die aktuelle Uhrzeit abzurufen, mit optionaler Zeitzonenunterstützung.
-- **[Verwenden der Funktion „nowWithDelta“](../using/building-journeys/functions/functionnowwithdelta.md)** – Erkunden Sie die Funktion „nowWithDelta“, um die aktuelle Datums-/Uhrzeitangabe mit einem Offset zu berechnen.
-- **[Funktion „setHours“](../using/building-journeys/functions/functionsethours.md)** – Ändern Sie die Stundenkomponente eines Datums-/Uhrzeitwerts mithilfe der Funktion „setHours“.
-- **[Funktion „setDays“](../using/building-journeys/functions/functionsetdays.md)** – Erfahren Sie, wie Sie die Tageskomponente eines Datums-/Uhrzeitobjekts mithilfe der Funktion „setDays“ ändern.
-- **[Funktion „updateTimeZone“](../using/building-journeys/functions/functionupdatetimezone.md)**: Passen Sie mit der Funktion „updateTimeZone“ einen Datums-/Uhrzeitwert an eine neue Zeitzone an.
+- **[Funktion „inNextHours“](../using/building-journeys/functions/date-functions.md#inNextHours)** – Erfahren Sie, wie Sie mit der Funktion „inNextHours“ auswerten können, ob sich ein Datums-/Uhrzeitwert innerhalb der nächsten angegebenen Stunden befindet.
+- **[„inNextMonths“-Funktionsreferenz](../using/building-journeys/functions/date-functions.md#inNextMonths)** – Erkunden Sie die Funktion „inNextMonths“, um zu überprüfen, ob ein Datum innerhalb des nächsten angegebenen Bereichs von Monaten liegt.
+- **[Funktion „inNextYears“](../using/building-journeys/functions/date-functions.md#inNextYears)** – Mit der Funktion „inNextYears“ bestimmen Sie, ob ein Datum in einen bestimmten Zeitraum von Jahren in der Zukunft fällt.
+- **[Verwenden der Funktion „now“](../using/building-journeys/functions/date-functions.md#now)** – Erfahren Sie mehr über die Funktion „now“, um das aktuelle Datum und die aktuelle Uhrzeit abzurufen, mit optionaler Zeitzonenunterstützung.
+- **[Verwenden der Funktion „nowWithDelta“](../using/building-journeys/functions/date-functions.md#nowWithDelta)** – Erkunden Sie die Funktion „nowWithDelta“, um die aktuelle Datums-/Uhrzeitangabe mit einem Offset zu berechnen.
+- **[Funktion „setHours“](../using/building-journeys/functions/date-functions.md#setHours)** – Ändern Sie die Stundenkomponente eines Datums-/Uhrzeitwerts mithilfe der Funktion „setHours“.
+- **[Funktion „setDays“](../using/building-journeys/functions/date-functions.md#setDays)** – Erfahren Sie, wie Sie die Tageskomponente eines Datums-/Uhrzeitobjekts mithilfe der Funktion „setDays“ ändern.
+- **[Funktion „updateTimeZone“](../using/building-journeys/functions/date-functions.md#updateTimeZone)**: Passen Sie mit der Funktion „updateTimeZone“ einen Datums-/Uhrzeitwert an eine neue Zeitzone an.
