@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail-Designs, Module, Wiederverwendbarkeit, Markenkonsistenz, E-Mail-Design, benutzerdefiniertes CSS, Optimierung für Mobilgeräte
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
+source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 33%
@@ -46,7 +46,7 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, visuell ansprechende, marken
 
 * Wenn Sie einen in HTML erstellten Inhalt verwenden, befinden Sie sich im [Kompatibilitätsmodus](existing-content.md) und Sie können keine Designs direkt auf diesen Inhalt anwenden.
 
-   * Um Designs anzuwenden, müssen Sie zunächst den importierten Inhalt [als neue Vorlage](../content-management/create-content-templates.md#save-as-template) speichern und diese Vorlage dann in einen Design-kompatiblen Inhalt konvertieren. Anschließend können Sie diese Vorlage verwenden, um E-Mail-Inhalte zu erstellen. In diesem Abschnitt erfahren Sie, wie Sie eine mit manuellem Stil erstellte [&#x200B; konvertieren](#theme-convertor).
+   * Um Designs anzuwenden, müssen Sie zunächst den importierten Inhalt [als neue Vorlage](../content-management/create-content-templates.md#save-as-template) speichern und diese Vorlage dann in einen Design-kompatiblen Inhalt konvertieren. Anschließend können Sie diese Vorlage verwenden, um E-Mail-Inhalte zu erstellen. In diesem Abschnitt erfahren Sie, wie Sie eine mit manuellem Stil erstellte [ konvertieren](#theme-convertor).
 
    * Sie können auch weiterhin Ihre importierten HTML-Inhalte konvertieren. [Weitere Informationen](existing-content.md)
 
@@ -146,7 +146,7 @@ Gehen Sie wie folgt vor, um standardmäßige oder benutzerdefinierte Stildesigns
 
 1. Wenn ein Design in einer Inhaltsvorlage ausgewählt ist, können Sie auf die Schaltfläche **[!UICONTROL Design bearbeiten]** klicken, um es zu aktualisieren. [Weitere Informationen](#create-and-edit-themes)
 
-   ![](assets/theme-edit-in-template.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/theme-edit-in-template.png){width="40%"}
 
    >[!NOTE]
    >
@@ -170,7 +170,7 @@ Sie können jederzeit zwischen Designs wechseln. Der E-Mail-Inhalt bleibt unver�
 
 Wenn eine Komponente ausgewählt ist, können Sie den Stil mithilfe des entsprechenden Symbols auf der Registerkarte **[!UICONTROL Stile]** entsperren.
 
-![](assets/theme-unlock-style.png){width="90%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style.png){width="90%"}
 
 Das ausgewählte Design wird weiterhin auf diese Komponente angewendet, Sie können jedoch die Stilelemente überschreiben. Wenn Sie Designs ändern, wird das neue Design nur auf die Stilelemente angewendet, die nicht überschrieben wurden.<!--can you revert this action?-->
 
@@ -180,7 +180,7 @@ Wenn Sie beispielsweise eine Textkomponente entsperren, können Sie <!--the font
 
 Wenn Sie Designs ändern, <!--the font size is still 14 and -->die Schriftfarbe für diese Komponente weiterhin rot, aber die Hintergrundfarbe für diese Komponente ändert sich mit dem neuen Design:
 
-![](assets/theme-unlock-style-ex-colored.png){width="80%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style-ex-colored.png){width="80%"}
 
 ## Verwenden von Designs in einem Fragment {#leverage-themes-fragment}
 
@@ -192,7 +192,7 @@ Gehen Sie wie folgt vor, um ein mit Designs kompatibles Fragment zu erstellen.
 
 1. Wählen Sie **[!UICONTROL Verwenden von Designs]**, um mit einem vordefinierten Stildesign zu beginnen.
 
-   ![](assets/fragment-use-themes.png){width="100%" align="center" zoomable="yes"}
+   ![](assets/fragment-use-themes.png){width="100%"}
 
    >[!CAUTION]
    >
@@ -206,21 +206,21 @@ Gehen Sie wie folgt vor, um ein mit Designs kompatibles Fragment zu erstellen.
 
 1. Sie können andere Designs auswählen, um eine Vorschau Ihres Fragmentinhalts anzuzeigen. Wählen Sie dazu den Pfeil neben dem Standarddesign aus und klicken Sie auf **[!UICONTROL Designs auswählen]**.
 
-   ![](assets/fragment-select-themes.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/fragment-select-themes.png){width="40%"}
 
 1. Sie können zwischen den Registerkarten **[!UICONTROL Adobe]** und **[!UICONTROL Meine Designs]** navigieren und bis zu fünf kompatible Designs (aus beiden Registerkarten) für Ihr Fragment auswählen.
 
-   ![](assets/fragment-select-compatible-themes.png){width=70% align="center" zoomable="yes"}
+   ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
-   >Wenn Sie das Fragment in einem E-Mail-Inhalt verwenden[&#x200B; stellen Sie sicher, dass Sie (](#apply-themes-email) Design anwenden), das Sie für dieses Fragment definiert haben. Andernfalls kann es zu Anzeigeproblemen kommen, insbesondere in Outlook 2021 und früheren Versionen.
+   >Wenn Sie das Fragment in einem E-Mail-Inhalt verwenden[ stellen Sie sicher, dass Sie (](#apply-themes-email) Design anwenden), das Sie für dieses Fragment definiert haben. Andernfalls kann es zu Anzeigeproblemen kommen, insbesondere in Outlook 2021 und früheren Versionen.
 
 1. Klicken Sie auf **[!UICONTROL Schließen]**.
 
 1. Klicken Sie erneut auf den Pfeil neben **[!UICONTROL Standarddesign]**. Sie können jetzt zwischen den verschiedenen Designs wechseln, die Sie gerade ausgewählt haben, um jedes Stil-Rendering in der Vorschau anzuzeigen.
 
-   ![](assets/fragment-selected-themes.png){width=90% align="center" zoomable="yes"}
+   ![](assets/fragment-selected-themes.png){width=90%}
 
 1. Klicken Sie **[!UICONTROL erneut auf]** Designs auswählen“, um weitere Designs hinzuzufügen oder Ihre Auswahl zu ändern.
 
@@ -232,16 +232,16 @@ Gehen Sie wie folgt vor, um ein mit Designs kompatibles Fragment zu erstellen.
 
 1. Wählen Sie das Symbol **[!UICONTROL Designs]** in der rechten Leiste aus und klicken Sie auf die Schaltfläche **[!UICONTROL Design aus Inhalt generieren]**.
 
-   ![](assets/generate-theme.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme.png){width=100%}
 
 1. Das **[!UICONTROL Erstellen eines Designs]** wird geöffnet. [!DNL Journey Optimizer] erkennt die Stilelemente automatisch und konsolidiert sie in einem neuen Design.
 
-   ![](assets/generate-theme-create-window.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-create-window.png){width=90%}
 
 1. Geben Sie einen Namen für Ihr Design an.
 
 1. Nehmen Sie Ihre eigenen Anpassungen vor, wie Sie es tun, wenn Sie ein Design von Grund auf neu erstellen, z. B. eine Farbvariante hinzufügen oder Schriftarten bearbeiten. [Weitere Informationen](#create-and-edit-themes)
 
-   ![](assets/generate-theme-colors.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-colors.png){width=90%}
 
 1. Klicken Sie **[!UICONTROL Speichern]**, um dieses neue Design zur Wiederverwendung zu speichern. Sie können dieses Design nun wie jedes andere Design auf Ihre Inhalte anwenden. [Weitere Informationen](#leverage-themes-fragment)
