@@ -20,7 +20,7 @@ Mit den Datumsfunktionen in Adobe Journey Optimizer können Sie nahtlos mit zeit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Referenz zur Funktion „currentTimeInMillis“
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit der Funktion „currentTimeInMillis“ die aktuelle Ze
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Funktion „inLastDays“
 
@@ -40,7 +40,7 @@ Machen Sie sich mit der Funktion „inLastDays“ vertraut, die prüft, ob ein b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden der Funktion „inLastHours“
 
@@ -50,7 +50,7 @@ Erkunden Sie die Funktion „inLastHours“, um festzustellen, ob eine Datums-/U
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden der Funktion „inLastMonths“
 
@@ -60,7 +60,7 @@ Mit „inLastMonths“ in Adobe Journey Optimizer können Sie überprüfen, ob e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden der Funktion „inLastYears“
 
@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie mit der Funktion „inLastYears“ auswerten können, ob e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Funktion „inNextDays“
 
