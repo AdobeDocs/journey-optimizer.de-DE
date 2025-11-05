@@ -16,11 +16,11 @@ ht-degree: 2%
 
 # Arbeiten mit Journey-Schrittereignissen {#work-with-journey-step-events}
 
-Journey-Schrittereignisse sind automatisch generierte Ereignisse, die detaillierte Informationen zu jedem Schritt erfassen[ den ein ](../audience/get-started-profiles.md) durchläuft, während sie eine [Journey](../building-journeys/journey.md) in Adobe Journey Optimizer durchlaufen. Diese Ereignisse bieten umfassende Einblicke in die [Journey-Leistung](../building-journeys/report-journey.md) und ermöglichen leistungsstarke Analysefunktionen.
+Journey-Schrittereignisse sind automatisch generierte Ereignisse, die detaillierte Informationen zu jedem Schritt erfassen[&#x200B; den ein &#x200B;](../audience/get-started-profiles.md) durchläuft, während sie eine [Journey](../building-journeys/journey.md) in Adobe Journey Optimizer durchlaufen. Diese Ereignisse bieten umfassende Einblicke in die [Journey-Leistung](../building-journeys/report-journey.md) und ermöglichen leistungsstarke Analysefunktionen.
 
 ## Was sind Journey-Schrittereignisse? {#what-are-step-events}
 
-Journey-Schrittereignisse sind systemgenerierte [XDM (Experience-Datenmodell)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Ereignisse, die Adobe Journey Optimizer automatisch erstellt und an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target="_blank"} sendet, wenn ein Profil auf einem Journey von einem Knoten zu einem anderen wechselt. Jedes Ereignis entspricht einer bestimmten [Journey-Aktivität ](../building-journeys/about-journey-activities.md) Transition im Journey-Erlebnis des Kunden.
+Journey-Schrittereignisse sind systemgenerierte [XDM (Experience-Datenmodell)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Ereignisse, die Adobe Journey Optimizer automatisch erstellt und an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target="_blank"} sendet, wenn ein Profil auf einem Journey von einem Knoten zu einem anderen wechselt. Jedes Ereignis entspricht einer bestimmten [Journey-Aktivität &#x200B;](../building-journeys/about-journey-activities.md) Transition im Journey-Erlebnis des Kunden.
 
 Es gibt zwei Haupttypen von Journey-Schrittereignissen:
 
@@ -40,7 +40,7 @@ Journey-Schrittereignisse werden automatisch für verschiedene Journey-Aktivitä
 
 >[!NOTE]
 >
->Journey-Schrittereignisse sind standardmäßig auf allen Instanzen aktiviert. Sie können die ([ und Datensätze), ](sharing-overview.md) bei der Bereitstellung für Schrittereignisse erstellt wurden, nicht ändern oder aktualisieren. Diese Schemata und Datensätze befinden sich im schreibgeschützten Modus.
+>Journey-Schrittereignisse sind standardmäßig auf allen Instanzen aktiviert. Sie können die ([&#x200B; und Datensätze), &#x200B;](sharing-overview.md) bei der Bereitstellung für Schrittereignisse erstellt wurden, nicht ändern oder aktualisieren. Diese Schemata und Datensätze befinden sich im schreibgeschützten Modus.
 
 Weitere Informationen zu [Journey-Schrittereignisschemata](sharing-field-list.md).
 
@@ -63,7 +63,7 @@ Journey-Schrittereignisse bieten einen entscheidenden Wert für Unternehmen, die
 ### Optimierungsmöglichkeiten {#optimization}
 
 - **A/B-Testeinblicke**: Analysieren der Performance verschiedener Journey-Pfade mithilfe von [Experimentieren](campaign-global-report-cja-experimentation.md)
-- **Personalization-Verbesserung**: Verwenden Sie Journey-Verhaltensdaten, um zukünftige Erlebnisse mit ([ Inhalten) ](../personalization/dynamic-content.md) verbessern
+- **Personalization-Verbesserung**: Verwenden Sie Journey-Verhaltensdaten, um zukünftige Erlebnisse mit ([&#x200B; Inhalten) &#x200B;](../personalization/dynamic-content.md) verbessern
 - **Betriebseffizienz**: Ermittlung von Engpässen und Optimierung des [Journey-Designs](../building-journeys/using-the-journey-designer.md)
 
 ## Verwenden von Journey-Schrittereignissen {#how-to-use-step-events}
@@ -72,9 +72,9 @@ Journey-Schrittereignisse bieten einen entscheidenden Wert für Unternehmen, die
 
 Journey-Schrittereignisdaten werden automatisch in Adobe Experience Platform gespeichert und können wie folgt aufgerufen werden:
 
-1. **Data Lake-Abfragen**: Verwenden Sie SQL, um den `journey_step_events`-Datensatz mit dem [Abfrage-Service) ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"}
+1. **Data Lake-Abfragen**: Verwenden Sie SQL, um den `journey_step_events`-Datensatz mit dem [Abfrage-Service) &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"}
 2. **Customer Journey Analytics**: Analysieren von Journey-Daten mit [erweiterten Analyse-Tools](cja-ajo.md)
-3. **Echtzeit-Reporting**: Zugriff auf Daten über die [ Reporting-Funktionen von Journey Optimizer](gs-reports.md)
+3. **Echtzeit-Reporting**: Zugriff auf Daten über die [&#x200B; Reporting-Funktionen von Journey Optimizer](gs-reports.md)
 4. **APIs**: Programmgesteuerter Zugriff auf Ereignisdaten für benutzerdefinierte Programme
 
 Weitere Informationen über [Zugriff auf Datensätze](../data/datasets-query-examples.md).
@@ -147,7 +147,7 @@ Machen Sie sich mit der vollständigen Datenstruktur von Journey-Schrittereignis
 
 **Leistungsoptimierung**
 
-- Verwenden Sie `journeyVersionID` anstelle von `journeyVersionName` für eine bessere Abfrageleistung ([ Sie mehr über Journey-Eigenschaften](../building-journeys/expression/journey-properties.md))
+- Verwenden Sie `journeyVersionID` anstelle von `journeyVersionName` für eine bessere Abfrageleistung ([&#x200B; Sie mehr über Journey-Eigenschaften](../building-journeys/expression/journey-properties.md))
 - Filtern nach Datumsbereichen, um die Abfrageschwindigkeit für große Datensätze zu verbessern
 - Nutzen Sie Profilidentitäten, die Ihrer [Journey-Namespace-Konfiguration entsprechen](../building-journeys/entry-management.md)
 
