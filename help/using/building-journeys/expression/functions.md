@@ -9,7 +9,7 @@ level: Experienced
 keywords: Funktion, Ausdrücke, Editor, Journey
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: af1babe501a5b2c6a67730396a8f5e2c5d85e60a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -31,15 +31,15 @@ Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 | Kategorie | Funktion |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inAudience](../functions/functioninaudience.md) |
-| Aggregation | [avg](../functions/functionavg.md) |
-| Aggregation | [count](../functions/functioncount.md) |
-| Aggregation | [countOnlyNull](../functions/functioncountonlynull.md) |
-| Aggregation | [countWithNull](../functions/functioncountwithnull.md) |
-| Aggregation | [distinctCount](../functions/functiondistinctcount.md) |
-| Aggregation | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
-| Aggregation | [max](../functions/functionmax.md) |
-| Aggregation | [min](../functions/functionmin.md) |
-| Aggregation | [sum](../functions/functionsum.md) |
+| Aggregation | [avg](../functions/aggregation-functions.md#avg) |
+| Aggregation | [count](../functions/aggregation-functions.md#count) |
+| Aggregation | [countOnlyNull](../functions/aggregation-functions.md#countOnlyNull) |
+| Aggregation | [countWithNull](../functions/aggregation-functions.md#countWithNull) |
+| Aggregation | [distinctCount](../functions/aggregation-functions.md#distinctCount) |
+| Aggregation | [distinctCountWithNull](../functions/aggregation-functions.md#distinctCountWithNull) |
+| Aggregation | [max](../functions/aggregation-functions.md#max) |
+| Aggregation | [min](../functions/aggregation-functions.md#min) |
+| Aggregation | [sum](../functions/aggregation-functions.md#sum) |
 | Konversion | [toBool](../functions/functiontobool.md) |
 | Konversion | [toDateOnly](../functions/functiontodateonly.md) |
 | Konversion | [toDateTime](../functions/functiontodatetime.md) |
