@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Fehler, Codes, Fehlerbehebung, Journey, Kampagne, Nachrichten
-source-git-commit: 405c87f9ca138e4e92438704b5051ce89c73d726
+source-git-commit: 28a8f113d594f80ba7de22229e9a223b7f17ae8d
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2394'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Diese Fehler treten beim Erstellen, Bearbeiten oder Veröffentlichen von Nachric
 
 | Fehler-Code | Beschreibung | Grundursache | Auflösung |
 |------------|-------------|-----------|-----------|
-| **CJMMAS-1732-500** | Testversand ist fehlgeschlagen - Alle Assets werden nicht veröffentlicht, wenn ein Testversand mit einem AEM-Asset durchgeführt wird | Kürzlich veröffentlichte Assets befinden sich noch nicht in AJO. Asset-ID stimmt nicht überein. Repository-übergreifende Verwendung; AEM-Synchronisierungsverzögerung | &#x200B;1. Verwenden Sie nur veröffentlichte Asset-IDs aus dem richtigen Repository/der richtigen Umgebung<br/>2. Zeit für die Synchronisierung zwischen AEM und AJO<br/>3 zulassen. Versuchen Sie es erneut mit einem zweifelsfrei funktionierenden Asset<br/>4. Überprüfen des Asset-Veröffentlichungsstatus in der AEM <br/><br/>**bezogenen Dokumentation**: [Assets-Integration](../content-management/assets.md) |
+| **CJMMAS-1732-500** | Testversand ist fehlgeschlagen - Alle Assets werden nicht veröffentlicht, wenn ein Testversand mit einem AEM-Asset durchgeführt wird | Kürzlich veröffentlichte Assets befinden sich noch nicht in AJO. Asset-ID stimmt nicht überein. Repository-übergreifende Verwendung; AEM-Synchronisierungsverzögerung | &#x200B;1. Verwenden Sie nur veröffentlichte Asset-IDs aus dem richtigen Repository/der richtigen Umgebung<br/>2. Zeit für die Synchronisierung zwischen AEM und AJO<br/>3 zulassen. Versuchen Sie es erneut mit einem zweifelsfrei funktionierenden Asset<br/>4. Überprüfen des Asset-Veröffentlichungsstatus in der AEM <br/><br/>**bezogenen Dokumentation**: [Assets-Integration](../integrations/assets.md) |
 | **CJMMAS-1069-500** | Interner Fehler beim Speichern oder Veröffentlichen der Nachrichtenvorlage | Backend-Ausnahme (Fehler in Infrastruktur/Service oder Content-Problem); nicht unterstütztes Markup/nicht unterstützte Funktion | &#x200B;1. Vereinfachung oder Verringerung der Vorlagenkomplexität<br/>2. Fügen Sie in inkrementellen Schritten erneut Inhalte hinzu, um das Problem zu identifizieren<br/>3. Überprüfen Sie die [Adobe-Statusseite](https://status.adobe.com/de/)<br/>4. Entfernen Sie nicht unterstützte Funktionen oder <br/><br/>**Dokumentation**: [Inhaltsvorlagen](../content-management/content-templates.md) |
 | **CJMMAS-1149-400** | Fehlerhafte Anfrage beim Speichern von Nachricht, Voreinstellung oder Variante | Erforderliche Felder fehlen in der Nachricht oder fehlerhafte Konfiguration | &#x200B;1. Füllen Sie alle erforderlichen Felder (mit einem Sternchen gekennzeichnet)<br/>2 aus. Validieren der Nachrichten-/Voreinstellungskonfiguration <br/>3. Überprüfen Sie die Formate und Begrenzungen der Feldwerte<br/>4. Überprüfen Sie die Validierungsmeldungen in der <br/><br/>**-bezogenen Dokumentation**: [E-Mail-](../email/get-started-email.md), [Kanaloberflächen](../configuration/channel-surfaces.md) |
 | **CJMMAS-2073-422** | Nicht verarbeitbare Entität bei der Bearbeitung der Nachrichtenvoreinstellung | Validierungsfehler, nicht unterstütztes Feld oder falsche Syntax | &#x200B;1. Korrigieren Sie Syntax-/Feldfehler wie angegeben<br/>2. Vergleich mit einer zweifelsfrei funktionierenden Konfiguration<br/>3. Validierung der Nachrichtenbenutzeroberfläche vor dem Speichern von <br/>4 verwenden. Lesen Sie die Feldanforderungen in der <br/><br/>**Dokumentation**: [Nachrichtenvoreinstellungen](../configuration/channel-surfaces.md), [E-Mail-Einstellungen](../email/email-settings.md) |
@@ -113,7 +113,7 @@ Diese Fehler treten bei der Berichtskonfiguration und bei der Datensatzbereitste
 
 | Fehler-Code | Beschreibung | Grundursache | Auflösung |
 |------------|-------------|-----------|-----------|
-| **CJMRPS-1047-409** | „Konflikt. Datensatz wurde beim Hinzufügen des Reporting-Datensatzes bereits hinzugefügt | Es wird versucht, einen bereits bereitgestellten Datensatz hinzuzufügen | &#x200B;1. Überprüfen Sie die Datensatzkonfiguration in den Reporting-Einstellungen<br/>2. Datensätze nicht erneut hinzufügen, die bereits vorhanden sind<br/>3. Verwenden Sie offizielle Migrations-Checklisten für das Reporting der Migration<br/>4. Doppelte Datensatzverweise entfernen <br/><br/>**Sachbezogene Dokumentation**: [Globale Berichte](../reports/global-report.md), [Live-Berichte](../reports/live-report.md) |
+| **CJMRPS-1047-409** | „Konflikt. Datensatz wurde beim Hinzufügen des Reporting-Datensatzes bereits hinzugefügt | Es wird versucht, einen bereits bereitgestellten Datensatz hinzuzufügen | &#x200B;1. Überprüfen Sie die Datensatzkonfiguration in den Reporting-Einstellungen<br/>2. Datensätze nicht erneut hinzufügen, die bereits vorhanden sind<br/>3. Verwenden Sie offizielle Migrations-Checklisten für das Reporting der Migration<br/>4. Doppelte Datensatzverweise entfernen <br/><br/>**Sachbezogene Dokumentation**: [Reporting-Übersicht](../reports/gs-reports.md), [Kampagnenberichte](../reports/campaign-global-report-cja.md), [Journey](../reports/journey-global-report-cja.md) |
 
 ## Allgemeiner Ansatz zur Fehlerbehebung {#troubleshooting-approach}
 
@@ -182,15 +182,15 @@ Wenn Sie auf dauerhafte Fehler stoßen, die mit diesem Handbuch nicht behoben we
 1. **Informationen sammeln**: Erfassen Sie den Fehler-Code, die Anfrage-ID, Zeitstempel und Schritte zur Reproduktion
 2. **Systemstatus überprüfen**: Besuchen Sie [Adobe-Status](https://status.adobe.com/de){target="_blank"}, um bekannte Service-Probleme anzuzeigen
 3. **Suchdokumentation**: Lesen Sie [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de){target="_blank"} für Lösungen
-4. **Engage-Community**: Stellen Sie Fragen in der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}
+4. **Engage-Community**: Stellen Sie Fragen in der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 5. **Adobe-Support kontaktieren**: Senden Sie ein Support-Ticket mit allen relevanten Details
 
 >[!NOTE]
 >
->Diese Fehlercode-Referenz wird laufend aktualisiert, wenn neue Codes identifiziert und dokumentiert werden. Die neuesten Informationen finden Sie regelmäßig in den [Adobe Journey Optimizer Community-Blogs](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=de){target="_blank"}.
+>Diese Fehlercode-Referenz wird laufend aktualisiert, wenn neue Codes identifiziert und dokumentiert werden. Die neuesten Informationen finden Sie regelmäßig in den [Adobe Journey Optimizer Community-Blogs](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}.
 
 **Verwandte Themen**
 
-* [Entmystifizierung von Adobe Journey Optimizer-Fehlercodes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de){target="_blank"}
-* [Entmystifizierung von Adobe Journey Optimizer-Fehler-Codes: Teil 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=de){target="_blank"}
+* [Entmystifizierung von Adobe Journey Optimizer-Fehlercodes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Entmystifizierung von Adobe Journey Optimizer-Fehler-Codes: Teil 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 
