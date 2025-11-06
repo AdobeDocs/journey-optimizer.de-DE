@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
@@ -39,4 +39,4 @@ Sie müssen die Warnmeldungen im oberen Bereich des Editors überprüfen. Einige
 >
 > Wenn Ihre Kampagne einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Textnachrichten senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
-Wenn Ihre WhatsApp-Nachricht fertig ist, konfigurieren Sie Ihre [Journey](../building-journeys/publishing-the-journey.md) oder [Kampagne](../campaigns/review-activate-campaign.md), um sie zu versenden.
+Wenn Ihre WhatsApp-Nachricht fertig ist, konfigurieren Sie Ihre [Journey](../building-journeys/publish-journey.md) oder [Kampagne](../campaigns/review-activate-campaign.md), um sie zu versenden.

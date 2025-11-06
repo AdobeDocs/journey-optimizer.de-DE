@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 100%
@@ -63,7 +63,7 @@ Um einer Journey eine Aktivität **Web** hinzuzufügen, gehen Sie folgendermaße
 
 1. Schließen Sie bei Bedarf Ihren Journey-Fluss ab, indem Sie zusätzliche Aktionen oder Ereignisse per Drag-and-Drop verschieben. [Weitere Informationen](../building-journeys/about-journey-activities.md)
 
-1. Sobald Ihr Web-Erlebnis fertig ist, schließen Sie die Konfiguration ab und veröffentlichen Ihre Journey, um sie zu aktivieren. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
+1. Sobald Ihr Web-Erlebnis fertig ist, schließen Sie die Konfiguration ab und veröffentlichen Ihre Journey, um sie zu aktivieren. [Weitere Informationen](../building-journeys/publish-journey.md)
 
 Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
@@ -206,7 +206,7 @@ Gehen Sie wie folgt vor, um Ihr Web-Erlebnis von einer Journey live zu stellen.
 
    >[!NOTE]
    >
-   >Weitere Informationen zur Veröffentlichung von Journeys finden Sie in [diesem Abschnitt](../building-journeys/publishing-the-journey.md).
+   >Weitere Informationen zur Veröffentlichung von Journeys finden Sie in [diesem Abschnitt](../building-journeys/publish-journey.md).
 
 Ihre Web-Journey erhält den Status **[!UICONTROL Live]** und ist jetzt schreibgeschützt. Alle Empfängerinnen und Empfänger Ihrer Journey können die Änderungen sehen, die Sie an Ihrer Website vorgenommen haben.
 
@@ -266,4 +266,4 @@ Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu v
 
 Im folgenden Video erfahren Sie, wie Sie eine Web-Kampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449990/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

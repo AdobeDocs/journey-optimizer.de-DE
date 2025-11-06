@@ -11,7 +11,7 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsrichtlinie, Arbeitsfläche, Journey
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 100%
@@ -166,9 +166,9 @@ Nachfolgend finden Sie ein vollständiges Beispiel für eine Journey mit einer A
 
 ![Vollständige Journey](assets/journey-content-decision-full-journey.png)
 
-<!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
+<!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-Folgendes gilt, sobald die Journey [aktiviert](publishing-the-journey.md) ist:
+Folgendes gilt, sobald die Journey [aktiviert](publish-journey.md) ist:
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

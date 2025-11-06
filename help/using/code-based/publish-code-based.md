@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Gehen Sie wie folgt vor, um das Code-basierte Erlebnis von einer Journey live zu
 
    >[!NOTE]
    >
-   >Weitere Informationen zur Veröffentlichung von Journeys finden Sie in [diesem Abschnitt](../building-journeys/publishing-the-journey.md).
+   >Weitere Informationen zur Veröffentlichung von Journeys finden Sie in [diesem Abschnitt](../building-journeys/publish-journey.md).
 
 Ihre Code-basierte Journey erhält den Status **[!UICONTROL Live]** und ist nun für die ausgewählte Zielgruppe sichtbar. Jede Empfängerin und jeder Empfänger der Journey kann die Änderungen sehen.
 

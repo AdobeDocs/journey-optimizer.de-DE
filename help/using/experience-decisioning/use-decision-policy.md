@@ -6,8 +6,8 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
-workflow-type: ht
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Jetzt können Sie alle gewünschten Entscheidungsattribute zu diesem Code hinzuf
 >[!NOTE]
 >
 >Für das Tracking von Entscheidungsrichtlinienelementen muss das Attribut `trackingToken` wie folgt dem Inhalt der Entscheidungsrichtlinie hinzugefügt werden:
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 Klicken Sie auf das Symbol „+“ neben einem Attribut, um es hinzuzufügen. Sie können beliebig viele Attribute zum Code hinzufügen.
 
@@ -166,7 +166,7 @@ Zur Laufzeit wird der Kampagneninhalt (einschließlich des Fragmentinhalts aus E
 
 Sobald Ihr Inhalt fertig ist, überprüfen und veröffentlichen Sie Ihre Kampagne oder Journey:
 
-* [Veröffentlichen einer Journey](../building-journeys/publishing-the-journey.md)
+* [Veröffentlichen einer Journey](../building-journeys/publish-journey.md)
 * [Überprüfen und Aktivieren einer Kampagne](../campaigns/review-activate-campaign.md)
 * [Veröffentlichen und Aktivieren eines Code-basierten Erlebnisses](../code-based/publish-code-based.md)
 

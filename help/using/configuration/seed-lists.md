@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
@@ -73,7 +73,7 @@ Verwenden Sie die Schaltfläche **[!UICONTROL Löschen]**, um einen Eintrag daue
 
 >[!CAUTION]
 >
->Es ist nicht möglich, eine Testadressenliste zu löschen, die in einer aktiven [Kampagne](../campaigns/review-activate-campaign.md) oder [Journey](../building-journeys/publishing-the-journey.md) verwendet wird. Sie müssen die Kampagne/Journey erst deaktivieren oder sie bearbeiten, um eine andere Konfiguration zu verwenden, für die die Testadressenliste nicht ausgewählt wurde. [Weitere Informationen zur Verwendung einer Testadressenliste](#use-seed-list)
+>Es ist nicht möglich, eine Testadressenliste zu löschen, die in einer aktiven [Kampagne](../campaigns/review-activate-campaign.md) oder [Journey](../building-journeys/publish-journey.md) verwendet wird. Sie müssen die Kampagne/Journey erst deaktivieren oder sie bearbeiten, um eine andere Konfiguration zu verwenden, für die die Testadressenliste nicht ausgewählt wurde. [Weitere Informationen zur Verwendung einer Testadressenliste](#use-seed-list)
 
 Sie können auf den Namen einer Testadressenliste klicken, um sie zu bearbeiten. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -150,7 +150,7 @@ Nachdem Sie Ihre Testadressenliste erstellt haben, können Sie sie in jeder Kamp
 
    ![](assets/seed-list-campaign-email.png)
 
-1. Aktivieren Sie Ihre [Kampagne](../campaigns/review-activate-campaign.md) oder veröffentlichen Sie Ihre [Journey](../building-journeys/publishing-the-journey.md).
+1. Aktivieren Sie Ihre [Kampagne](../campaigns/review-activate-campaign.md) oder veröffentlichen Sie Ihre [Journey](../building-journeys/publish-journey.md).
 
 Jedes Mal, wenn eine E-Mail-Nachricht im Rahmen dieser Kampagne oder Journey an Ihre Kundinnen und Kunden gesendet wird, erhalten die E-Mail-Adressen auf der ausgewählten Testadressenliste diese unter den gleichen Bedingungen, zur gleichen Zeit und mit demselben Inhalt wie die angesprochenen Empfängerinnen und Empfänger.
 

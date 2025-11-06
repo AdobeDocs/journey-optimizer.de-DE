@@ -10,7 +10,7 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
@@ -54,7 +54,7 @@ Für jede Aktivität in jeder Journey im Live- oder [Probelauf-Modus](journey-dr
 >[!MORELIKETHIS]
 >
 >* [Erste Schritte mit Reporting](../reports/gs-reports.md)
->* [Veröffentlichen einer Journey](publishing-the-journey.md)
+>* [Veröffentlichen einer Journey](publish-journey.md)
 >* [Journey-Probelauf](journey-dry-run.md)
 >* [Konfigurieren und Verfolgen der Journey-Metriken](success-metrics.md)
 >* [Benutzerdefinierte Journey-Berichte](../reports/sharing-overview.md)

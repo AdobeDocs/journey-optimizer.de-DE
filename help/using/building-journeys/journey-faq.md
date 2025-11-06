@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
-source-git-commit: fa4849cfbb43d74ab85437f00acf6da750080cca
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '5125'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Adobe Journey Optimizer Journey.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Allgemeine Konzepte
 
@@ -144,7 +144,7 @@ Obwohl CJA-Zielgruppen in Journey nicht direkt unterstützt werden, können Sie 
 * Überwachen der Zielgruppengröße und der Auswertungsleistung in umfangreichen Bereitstellungen
 * Berücksichtigen Sie beim Entwerfen von Journey-Zeiten und Einstiegsbedingungen die Aktualisierungsraten der Zielgruppe
 
-Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [Erstellen von &#x200B;](../audience/creating-a-segment-definition.md), [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) und [Federated-Zielgruppen-Komposition](../audience/federated-audience-composition.md).
+Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [Erstellen von ](../audience/creating-a-segment-definition.md), [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) und [Federated-Zielgruppen-Komposition](../audience/federated-audience-composition.md).
 
 +++
 
@@ -374,7 +374,7 @@ Beim Veröffentlichen einer Journey:
 * Nachrichten und Aktionen werden für Profile ausgeführt, die sich durch den Journey bewegen
 * Sie können nur eingeschränkte Elemente auf einer veröffentlichten Journey bearbeiten (Sie müssen eine neue Version erstellen, wenn Sie mehr bearbeiten möchten)
 
-Weitere Informationen über [Veröffentlichen von Journey](publishing-the-journey.md).
+Weitere Informationen über [Veröffentlichen von Journey](publish-journey.md).
 
 +++
 
@@ -415,7 +415,7 @@ Sie können die Journey-Ausführung auf verschiedene Weise verwalten:
 * **Sofort anhalten**: Beenden Sie den Journey und beenden Sie alle aktuell darin enthaltenen Profile.
 * **Pause**: Journey vorübergehend anhalten und später fortsetzen
 
-Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
+Weitere Informationen zum [ von Journey](end-journey.md).
 
 +++
 
@@ -435,7 +435,7 @@ Weitere Informationen zum [&#x200B; von Journey](end-journey.md).
 * Verwenden Sie dies für dringende Situationen oder kritische Fehler
 * Beispiel: Produkt-Rückruf, der einen sofortigen Stopp der Werbenachrichten erfordert
 
-Erfahren Sie mehr über [Beenden von Journey](end-journey.md) und [Veröffentlichen von Journey](publishing-the-journey.md).
+Erfahren Sie mehr über [Beenden von Journey](end-journey.md) und [Veröffentlichen von Journey](publish-journey.md).
 
 +++
 
@@ -616,9 +616,9 @@ Ja, es gibt mehrere Möglichkeiten, Kunden auszuschließen:
 
 **Innerhalb der Journey**:
 
-* Fügen Sie zu Beginn [&#x200B; Journey eine Aktivität &#x200B;](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
+* Fügen Sie zu Beginn [ Journey eine Aktivität ](condition-activity.md)Bedingung“ hinzu, um unerwünschte Profile zu verlassen
 * Prüfen auf Ausschlussattribute (z. B. VIP-Status, Testkonten)
-* Identifizieren [&#x200B; auszuschließenden Profile mithilfe &#x200B;](audience-qualification-events.md)Zielgruppenqualifizierung“
+* Identifizieren [ auszuschließenden Profile mithilfe ](audience-qualification-events.md)Zielgruppenqualifizierung“
 
 **Beispielausschlussszenarien**:
 
@@ -848,7 +848,7 @@ Zu den wichtigen Leitplanken gehören:
 * **Zielgruppengröße**: Beschränkungen für die Größe von gelesenen Zielgruppen-Batches
 * **Ausdruckskomplexität**: Zeichenbeschränkungen in Bedingungen und Personalisierung
 
-Vollständige Ansicht [Leitplanken und &#x200B;](../start/guardrails.md))
+Vollständige Ansicht [Leitplanken und ](../start/guardrails.md))
 
 +++
 
@@ -910,7 +910,7 @@ Erfahren Sie mehr über das [Journey](using-the-journey-designer.md)Design und [
 **Überlegungen zum Design**:
 
 * Verwenden [zielgruppenbasierten Eintrags](read-audience.md) für Batch-Nachrichten anstelle von einzelnen Ereignissen
-* Angemessene Wartezeiten [, um &#x200B;](wait-activity.md) Nachrichtenvolumen zu verteilen
+* Angemessene Wartezeiten [, um ](wait-activity.md) Nachrichtenvolumen zu verteilen
 * Nutzen Sie [Begrenzungsregeln](../conflict-prioritization/journey-capping.md) um eine Systemüberlastung zu vermeiden
 * Optimieren [Bedingungslogik](condition-activity.md) um die Verarbeitungskomplexität zu reduzieren
 

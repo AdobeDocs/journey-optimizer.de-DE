@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 96%
+source-wordcount: '875'
+ht-degree: 86%
 
 ---
 
@@ -102,7 +102,7 @@ Sie können Ihre Journey auch im **Probelauf** ausführen. Der Journey-Probelauf
 
 ## Veröffentlichen der Journey {#jo-pub}
 
-Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen. Weitere Informationen zur Veröffentlichung von Journeys finden Sie in diesem [Abschnitt](publishing-the-journey.md).
+Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen. Weitere Informationen zur Veröffentlichung von Journeys finden Sie in diesem [Abschnitt](publish-journey.md).
 
 ![](assets/jo-journeyuc2_32bis.png)
 
@@ -111,6 +111,16 @@ Nach der Veröffentlichung können Sie Ihre Journey mit den dedizierten Reportin
 ![](assets/jo-dynamic_report_journey_12.png)
 
 Weitere Informationen zu Journey-Berichten finden Sie in diesem [Abschnitt](../reports/live-report.md).
+
+## Weitere Ressourcen
+
+* **[Überblick über den Journey-Designer](using-the-journey-designer.md)** - Beherrschen Sie die Journey-Arbeitsfläche, um Kunden-Journey zu entwerfen und zu orchestrieren.
+* **[Journey-Aktivitäten](about-journey-activities.md)** - Entdecken Sie alle verfügbaren Aktivitäten, einschließlich Ereignissen, Aktionen und Orchestrierungskomponenten.
+* **[Testen von Journey](testing-the-journey.md)** - Erfahren Sie, wie Sie Ihre Journey vor der Veröffentlichung in der Produktionsumgebung im Testmodus testen.
+* **[Veröffentlichen von Journey](publish-journey.md)** - Machen Sie sich mit dem Veröffentlichungsprozess von Journey und der Verwaltung von Live-Journey vertraut.
+* **[Journey-Reporting](report-journey.md)** - Verfolgen und analysieren Sie die Journey-Performance mit detaillierten Metriken und Erkenntnissen.
+* **[Fehlerbehebung bei Journey](troubleshooting.md)** - Lösungen für häufige Journey-Probleme und Best Practices für das Debugging.
+* **[Journey-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Sehen Sie sich Schritt-für-Schritt-Video-Tutorials zum Erstellen von Journey und Best Practices an.
 
 >[!NOTE]
 >

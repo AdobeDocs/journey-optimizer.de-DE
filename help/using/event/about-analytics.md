@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Analytics, Integration, Web-SDK, Plattform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
@@ -135,6 +135,6 @@ Jetzt, da das Ereignis bereit ist, erstellen Sie eine Journey, um es zu verwende
 
 1. Fügen Sie dann eine **[!UICONTROL E-Mail-Aktion]** hinzu. In dieser E-Mail werden die Kunden bzw. Kundinnen aufgefordert, Feedback zur aufgegebenen Bestellung abzugeben.
 
-Sie können Ihre Journey jetzt testen und veröffentlichen. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
+Sie können Ihre Journey jetzt testen und veröffentlichen. [Weitere Informationen](../building-journeys/publish-journey.md)
 
 ![](assets/ajo-aa_7.png)
