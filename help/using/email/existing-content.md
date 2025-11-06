@@ -30,7 +30,7 @@ Mit [!DNL Journey Optimizer] können Sie vorhandenen HTML-Inhalt importieren, um
 
 >[!TIP]
 >
->Wenn Sie Bildentwürfe (JPEG oder PNG) anstelle von HTML-Dateien haben, können Sie den Konverter &quot;[ zu HTML&quot; verwenden](image-to-html.md) um diese automatisch mithilfe von KI in bearbeitbare HTML-E-Mail-Vorlagen zu konvertieren.
+>Wenn Sie Bildentwürfe (JPEG oder PNG) anstelle von HTML-Dateien haben, können Sie den Konverter &quot;[&#x200B; zu HTML&quot; verwenden](image-to-html.md) um diese automatisch mithilfe von KI in bearbeitbare HTML-E-Mail-Vorlagen zu konvertieren.
 
 Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalt zu importieren:
 

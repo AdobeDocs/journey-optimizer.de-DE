@@ -36,4 +36,4 @@ Dort haben Sie folgende Möglichkeiten:
 >
 >Der Content-Designer für Landingpages ähnelt dem E-Mail-Designer größtenteils. Weitere Informationen finden Sie unter [Inhaltserstellung mit [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 >
->Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Achten Sie beim Entwerfen von Inhalten in [ auf ](../email/accessible-content.md)dieser Seite[!DNL Journey Optimizer] die spezifischen Richtlinien.
+>Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Achten Sie beim Entwerfen von Inhalten in [&#x200B; auf &#x200B;](../email/accessible-content.md)dieser Seite[!DNL Journey Optimizer] die spezifischen Richtlinien.

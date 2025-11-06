@@ -51,7 +51,7 @@ Um die Profilerstellung bei der Ausführung einer Kampagne zu aktivieren, aktivi
 >
 >Unbekannte Profile werden im **Profil-Datensatz von AJO Interactive Messaging** erstellt, und zwar in drei Standard-Namespaces (E-Mail, Telefon und ECID) für jeden ausgehenden Kanal (E-Mail, SMS und Push). Wenn Sie jedoch einen benutzerdefinierten Namespace verwenden, wird die Identität mit demselben benutzerdefinierten Namespace erstellt.
 >
->Die Profilerstellung bei der Ausführung ist für Kampagnen mit [ Durchsatz nicht verfügbar](../campaigns/api-triggered-high-throughput.md) da dieser Modus nicht auf Adobe-Profilen basiert. Das System überprüft nicht, ob die Profile vorhanden sind oder nicht.
+>Die Profilerstellung bei der Ausführung ist für Kampagnen mit [&#x200B; Durchsatz nicht verfügbar](../campaigns/api-triggered-high-throughput.md) da dieser Modus nicht auf Adobe-Profilen basiert. Das System überprüft nicht, ob die Profile vorhanden sind oder nicht.
 
 ## Aktivieren von Webhooks {#webhook}
 

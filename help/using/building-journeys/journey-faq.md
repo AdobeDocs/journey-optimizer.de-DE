@@ -144,7 +144,7 @@ Obwohl CJA-Zielgruppen in Journey nicht direkt unterstützt werden, können Sie 
 * Überwachen der Zielgruppengröße und der Auswertungsleistung in umfangreichen Bereitstellungen
 * Berücksichtigen Sie beim Entwerfen von Journey-Zeiten und Einstiegsbedingungen die Aktualisierungsraten der Zielgruppe
 
-Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [Erstellen von ](../audience/creating-a-segment-definition.md), [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) und [Federated-Zielgruppen-Komposition](../audience/federated-audience-composition.md).
+Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [Erstellen von &#x200B;](../audience/creating-a-segment-definition.md), [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) und [Federated-Zielgruppen-Komposition](../audience/federated-audience-composition.md).
 
 +++
 
