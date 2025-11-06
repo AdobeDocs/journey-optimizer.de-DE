@@ -5,10 +5,10 @@ title: Dokumentation zu Adobe Journey Optimizer
 description: Dokumentation zu Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: b26606d1ba0d0d43d69b5e6fd2ae86c49dceebe9
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 98%
+source-wordcount: '506'
+ht-degree: 94%
 
 ---
 
@@ -22,24 +22,24 @@ Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und 
 
 >[!BEGINTABS]
 
->[!TAB Version vom Oktober 2025]
+>[!TAB Version Oktober 2025]
 
-Die Journey Optimizer-Version Oktober ist live! Die Versionshinweise enthalten die in diesem Monat veröffentlichten neuen Funktionen und Verbesserungen.
+Die Version Oktober von Journey Optimizer ist verfügbar. Die Versionshinweise enthalten die in diesem Monat veröffentlichten neuen Funktionen und Verbesserungen.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 
 >[!TAB Kampagnenorchestrierung]
 
-Journey Optimizer enthält jetzt die neue Funktion **Kampagnenorchestrierung**, die speziell für markeninitiierte Batch-Kampagnen entwickelt wurde. Diese Version führt eine Arbeitsfläche für die Kampagnenorchestrierung und eine verbesserte Datenmodellierung ein, was es Marketing-Fachleuten ermöglicht, personalisierte Cross-Channel-Kampagnen zu planen, auf eine Zielgruppe anzupassen und bereitzustellen.
+Journey Optimizer enthält jetzt **Kampagnenorchestrierung**, eine neue Funktion, die speziell für markeninitiierte Batch-Kampagnen entwickelt wurde.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
->[!TAB Adobe Express]
+>[!TAB Ruhige Stunden]
 
-Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen einfachen Zugriff auf die leistungsstarken Bearbeitungs-Tools von Adobe Express beim Erstellen von Inhalten. Dank dieser Integration können Sie die Größe von Bildern ändern, Hintergründe entfernen, visuelle Elemente zuschneiden und Assets in JPEG oder PNG konvertieren, ohne zwischen Lösungen wechseln zu müssen.
+Mit der Einstellung „Ruhige Stunden“ können Sie zeitbasierte Ausschlüsse für E-Mail-, SMS-, Push- und WhatsApp-Kanäle definieren.
 
-[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+[![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
 
 
 >[!ENDTABS]
@@ -49,7 +49,7 @@ Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Neueste Versionshinweise
 
@@ -59,7 +59,7 @@ Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte
 
@@ -69,7 +69,7 @@ Lernen Sie die Grundlagen von Journey Optimizer kennen, einschließlich seiner F
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Umfassende Anleitung für Journeys
 
@@ -79,7 +79,7 @@ Entwerfen, orchestrieren, verwalten und optimieren Sie personalisierte Kunden-Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Grundlagen und Verwalten von Kampagnen
 
@@ -89,7 +89,7 @@ Detaillierte Anleitungen zum Erstellen, Verwalten und Optimieren verschiedener K
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Kommunikationskanäle
 
@@ -99,7 +99,7 @@ Konfigurieren und verwalten Sie E-Mail, SMS, Push-Benachrichtigungen und andere 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Konflikt-Management und Priorisierung
 
@@ -124,7 +124,7 @@ Erfahren Sie, wie Sie Kommunikationskonflikte zwischen Kampagnen und Journeys ef
 - **[Verwalten der Zugriffssteuerung](./rp_landing_pages/access-control-landing-page.md)**: Steuern Sie Benutzerzugriff, Rollen und Berechtigungen zum Schutz von Daten und zur Sicherstellung von Governance.
 - **[Datenschutz, Einverständnis und Data Governance](./rp_landing_pages/privacy-landing-page.md)**: Verwalten Sie Datenschutz, Einverständnis und Governance, sodass Vorschriften eingehalten und vertrauliche Informationen geschützt werden.
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
