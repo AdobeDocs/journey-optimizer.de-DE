@@ -20,7 +20,7 @@ Bei der Verwaltung Ihrer Journeys in Adobe Journey Optimizer geht es darum, Ihne
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Durchsuchen und Filtern von Journeys
 
@@ -30,17 +30,17 @@ Erfahren Sie, wie Sie effektiv durch Journeys navigieren und sie filtern und ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Eintritt von Profilen in Journeys
 
-Erfahren Sie, wie Profile in Journeys eintreten, einschließlich Regeln für den erneuten Eintritt bei einmaligen Ereignissen, Zielgruppenqualifikationen und Journeys des Typs „Zielgruppe lesen”.
+Erfahren Sie, wie Profile in Journeys eintreten, einschließlich Regeln für den erneuten Eintritt bei einmaligen Ereignissen, Zielgruppenqualifizierungen und Journeys des Typs „Zielgruppe lesen”.
 
 [Informationen zum Profileintritt](../using/building-journeys/entry-management.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Verwenden zusätzlicher Kennungen in Journeys
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie zusätzliche Kennungen für erweiterte Personalisierung un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Zeitzonen-Management
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie feste und profildefinierte Zeitzonen konfigurieren, um ein
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Versandzeitoptimierung
 
@@ -70,7 +70,7 @@ Maximieren Sie die Interaktion für E-Mail- und Push-Nachrichten, indem Sie mith
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Beenden der Journey
 

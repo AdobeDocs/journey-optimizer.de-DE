@@ -12,7 +12,7 @@ exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
 source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -35,8 +35,8 @@ Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-
 
    >[!IMPORTANT]
    >
-   >Die Endpunkte im cURL-Abschnitt unterscheiden sich zwischen standardmäßigen und [Kampagnen mit hohem Durchsatz](../campaigns/api-triggered-high-throughput.md).
+   >Die Endpunkte im cURL-Abschnitt unterscheiden sich zwischen standardmäßigen Kampagnen und [Kampagnen mit hohem Durchsatz](../campaigns/api-triggered-high-throughput.md).
 
-1. Verwenden Sie diese cURL-Anfrage in den APIs, um Ihre Payload zu erstellen und die Kampagne auszulösen. Weitere Informationen finden Sie in der [Dokumentation zur Interactive Message Execution API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) wo alle Endpunkte für Kampagnen des Typs Standard und Hoher Durchsatz aufgeführt sind.
+1. Verwenden Sie diese cURL-Anfrage in den APIs, um Ihre Payload zu erstellen und die Kampagne auszulösen. Weitere Informationen finden Sie in der [Dokumentation zur Interactive Message Execution-API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution), wo alle Endpunkte für standardmäßige Kampagnen und Kampagnen mit hohem Durchsatz aufgelistet sind.
 
    Beispiele für API-Aufrufe finden Sie auch auf [dieser Seite](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).

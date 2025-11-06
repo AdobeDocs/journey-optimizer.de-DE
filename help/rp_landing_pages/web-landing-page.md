@@ -20,7 +20,7 @@ Der Web-Kanal in Adobe Journey Optimizer ermöglicht es Ihnen, personalisierte E
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit dem Web-Kanal
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer personalisierte Web-Erlebnisse 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren des Web-Kanals
 
@@ -40,7 +40,7 @@ Richten Sie Web-Kanäle ein und verwalten Sie diese, einschließlich Subdomains,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Verwalten von Web-Erlebnissen
 
@@ -50,7 +50,7 @@ Schrittweise Anleitung zum Erstellen, Bearbeiten, Testen und Veröffentlichen pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Verfassen und Verwalten von Web-Seiten
 

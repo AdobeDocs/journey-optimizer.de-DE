@@ -20,7 +20,7 @@ Mit dem Daten-Management in Adobe Journey Optimizer können Sie Ihre Kundendaten
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Erste Schritte mit Daten-Management
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Adobe Journey Optimizer die Benutzenden mit seinen erweiterten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Arbeiten mit Schemata in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Verstehen und verwalten Sie Adobe Experience Platform- Schemata für eine effekt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Journey Optimizer-Datensätze
 
@@ -50,7 +50,7 @@ Hier finden Sie eine umfassende Anleitung zum Verwalten von Datensätzen, einsch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Verwenden von Adobe Experience Platform-Daten
 
@@ -60,7 +60,7 @@ Aktivieren und nutzen Sie Adobe Experience Platform-Datensätze in Journey Optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Erste Schritte mit Abfragen in Journey Optimizer
 

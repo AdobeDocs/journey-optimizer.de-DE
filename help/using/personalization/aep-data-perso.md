@@ -13,7 +13,7 @@ exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 92%
 >
 >Derzeit kann die Hilfsfunktion „datasetLookup“ in Ausdrucksfragmenten für eine begrenzte Anzahl von Kundinnen und Kunden verwendet werden. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
-Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform-Eintragsdatensätzen im Personalisierungseditor nutzen, um [Ihre Inhalte zu personalisieren](../personalization/personalize.md). Bevor Sie beginnen, müssen für die Lookup-Personalisierung erforderliche Datensätze zunächst für die Suche aktiviert werden. Detaillierte Informationen finden Sie in diesem Abschnitt: [Verwenden von Adobe Experience Platform-](../data/lookup-aep-data.md).
+Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform-Eintragsdatensätzen im Personalisierungseditor nutzen, um [Ihre Inhalte zu personalisieren](../personalization/personalize.md). Bevor Sie beginnen, müssen für die Lookup-Personalisierung erforderliche Datensätze zunächst für die Suche aktiviert werden. Detaillierte Informationen finden Sie in diesem Abschnitt: [Verwenden von Adobe Experience Platform-Daten](../data/lookup-aep-data.md).
 
 Nachdem ein Datensatz für die Personalisierung der Suche aktiviert wurde, können Sie seine Daten nutzen, um Ihre Inhalte in [!DNL Journey Optimizer] zu personalisieren.
 
@@ -46,7 +46,7 @@ Nachdem ein Datensatz für die Personalisierung der Suche aktiviert wurde, könn
 
      >[!NOTE]
      >
-     >Bei dem für dieses Feld eingegebenen Wert kann es sich entweder um eine Feld-ID (`profile.packages.packageSKU`), ein in einem Journey-Ereignis übergebenes Feld (`context.journey.events.event_ID.productSKU`) oder einen statischen Wert (`sku007653`) handeln. In jedem Fall verwendet das System den Wert und durchsucht den Datensatz, um zu überprüfen, ob er mit einem Schlüssel übereinstimmt.
+     >Der für dieses Feld eingegebene Wert kann entweder eine Feld-ID (`profile.packages.packageSKU`), ein in einem Journey-Ereignis übergebenes Feld (`context.journey.events.event_ID.productSKU`) oder ein statischer Wert (`sku007653`) sein. In jedem Fall verwendet das System den Wert und durchsucht den Datensatz, um zu überprüfen, ob er mit einem Schlüssel übereinstimmt.
      >
      >Wenn Sie einen Zeichenfolgenwert in Textform für den Schlüssel verwenden, lassen Sie den Text in Anführungszeichen stehen. Beispiel: `{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`. Wenn Sie einen Attributwert als dynamischen Schlüssel verwenden, entfernen Sie die Anführungszeichen. Beispiel: `{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
@@ -84,7 +84,7 @@ Nachdem ein Datensatz für die Personalisierung der Suche aktiviert wurde, könn
    >
    >Es gibt keine festen Beschränkungen für die Anzahl der Felder, die mit der Hilfsfunktion abgerufen werden können. Um eine optimale Leistung zu erzielen, wird jedoch empfohlen, die Anzahl der Felder unter 50 zu halten, um eine Beeinträchtigung des Durchsatzes zu vermeiden.
 
-   * **result** ist der Wert, den Sie dem Parameter **result** in der Hilfsfunktion **datasetLookup** zugewiesen haben. In diesem Beispiel „Flug“.
+   * **result** ist der Wert, den Sie dem Parameter **result** in der Hilfsfunktion **datasetLookup** zugewiesen haben. In diesem Beispiel ist es „flight“.
    * **fieldID** ist die ID des Feldes, das Sie abrufen möchten. Diese ID ist in der Benutzeroberfläche von [!DNL Adobe Experience Platform] sichtbar, wenn Sie das Eintragschema durchsuchen, das mit Ihrem Datensatz verknüpft ist:
 
      +++Wo kann ich eine Feld-ID abrufen?

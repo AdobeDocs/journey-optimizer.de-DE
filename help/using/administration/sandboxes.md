@@ -12,7 +12,7 @@ exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ So weisen Sie Sandboxes zu:
 
    ![](assets/sandbox_3.png)
 
-1. Klicken Sie bei Bedarf auf das X-Symbol daneben, um den Sandbox-Zugriff aus Ihrer **[!UICONTROL Rolle“]**.
+1. Klicken Sie bei Bedarf auf das X-Symbol daneben, um den Sandbox-Zugriff auf Ihre **[!UICONTROL Rolle]** zu entfernen.
 
    ![](assets/sandbox_4.png)
 

@@ -10,7 +10,7 @@ exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Mit dem Echtzeit-Kundenprofil in [!DNL Adobe Journey Optimizer] erhalten Sie ein
 
 >[!NOTE]
 >
->Bei der Datenaufnahme wird zwischen Groß- und Kleinschreibung unterschieden. Das bedeutet, dass möglicherweise doppelte Profile erstellt werden (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.greene@luma.com), die beim Targeting der entsprechenden Empfängerin bzw. des entsprechenden Empfängers in Ihren [!DNL Journey Optimizer] Journey und Kampagnen verwendet werden.
+>Bei der Datenaufnahme wird bei E-Mail-Adressen die Groß- und Kleinschreibung beachtet. Das bedeutet, dass möglicherweise doppelte Profile erstellt (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.greene@luma.com) und beim Targeting der entsprechenden Person in Ihren [!DNL Journey Optimizer]-Journeys und Kampagnen verwendet werden.
 
-**Identitätsdiagramm**: Kombinieren Sie Daten aus verschiedenen Quellen mithilfe von Kundenidentitäten wie Loyalty-IDs oder CRM-System-IDs. Erstellen Sie eine umfassende Ansicht der Kundin oder des Kunden, indem Sie Beziehungen zwischen verschiedenen Identitäten in den Datensätzen einer Marke zuordnen. 
+**Identitätsdiagramm**: Kombinieren Sie Daten aus verschiedenen Quellen mithilfe von Kundenidentitäten wie Treue-IDs oder CRM-System-IDs. Erstellen Sie eine umfassende Ansicht der Kundin oder des Kunden, indem Sie Beziehungen zwischen verschiedenen Identitäten in den Datensätzen einer Marke zuordnen. 
 
 **Kundeninteraktion**: Verwenden Sie das Echtzeit-Kundenprofil, um kontextbezogene, personalisierte Erlebnisse bereitzustellen, z. B. zielgerichtete Angebote und Nachrichten. Binden Sie die Kundschaft über verschiedene Kanäle ein, einschließlich Marketing-Kampagnen, Kunden-Support und Transaktions-Updates. 
 
@@ -58,4 +58,4 @@ Datenfragmente können aus verschiedenen Quellen zusammengeführt und kombiniert
 
 In diesem Video wird erläutert, wie Adobe Experience Platform Echtzeit-Kundenprofile zusammenstellt und aktualisiert und wie Sie auf diese Profile zugreifen und sie verwenden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/31581?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

@@ -10,7 +10,7 @@ exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Gehen Sie folgendermaßen vor, um das Targeting einzurichten.
 
    ![](assets/msg-optimization-select-targeting.png){width=85%}
 
-1. Klicken Sie **[!UICONTROL Regel erstellen]** > **[!UICONTROL Neu erstellen]** und verwenden Sie den Regel-Builder, um Ihre Kriterien von unterwegs aus zu definieren.
+1. Klicken Sie auf **[!UICONTROL Regel erstellen]** > **[!UICONTROL Neu erstellen]** und verwenden Sie den Regel-Builder, um Ihre Kriterien schnell zu definieren.
 
    ![](assets/msg-optimization-create-rule.png){width=100%}
 
@@ -80,15 +80,15 @@ Gehen Sie folgendermaßen vor, um das Targeting einzurichten.
 
    ![](assets/msg-optimization-select-rule.png){width=70%}
 
-   In diesem Fall wird die Formel, aus der die Regel besteht, einfach auf die Journey oder Kampagne kopiert. Spätere Änderungen an dieser Regel im Menü **[!UICONTROL Regeln]** wirken sich nicht auf die Journey oder die Kampagnenkopie aus.
+   In diesem Fall wird die Formel, aus der die Regel besteht, einfach in die Journey oder Kampagne kopiert. Spätere Änderungen an dieser Regel im Menü **[!UICONTROL Regeln]** wirken sich nicht auf die Kopie der Journey bzw. der Kampagne aus.
 
    >[!AVAILABILITY]
    >
-   >[Erstellen von Zielgruppenregeln](../experience-decisioning/rules.md#create) im dedizierten Menü [!DNL Journey Optimizer] ist derzeit für Organisationen verfügbar, die das Add-on Decisioning-Angebot erworben haben, und sie sind für andere Organisationen bei Bedarf verfügbar (eingeschränkte Verfügbarkeit).
+   >Das [Erstellen von Targeting-Regeln](../experience-decisioning/rules.md#create) im dedizierten [!DNL Journey Optimizer]-Menü ist derzeit für Organisationen verfügbar, die das Entscheidungsfindungs-Add-on erworben haben. Für andere Organisationen ist dies auf Anfrage verfügbar (eingeschränkte Verfügbarkeit).
    >
-   >Diese Kapazität wird schrittweise für alle Kunden eingeführt. Wenden Sie sich in der Zwischenzeit an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten.
+   >Diese Kapazität wird nach und nach für alle Kundinnen und Kunden eingeführt. Wenden Sie sich in der Zwischenzeit an den Adobe-Support, um Zugriff zu erhalten.
 
-1. Nachdem Sie eine Regel hinzugefügt haben, können Sie sie noch ändern. Wählen Sie **[!UICONTROL Inline bearbeiten]**, um sie mithilfe des Regel-Builders unterwegs zu aktualisieren, oder **[!UICONTROL Regel auswählen]**, um eine andere vorhandene Regel aufzunehmen.
+1. Nachdem Sie eine Regel hinzugefügt haben, können Sie sie noch ändern. Wählen Sie **[!UICONTROL Inline bearbeiten]**, um sie mithilfe des Regel-Builders schnell zu aktualisieren, oder **[!UICONTROL Regel auswählen]**, um eine andere vorhandene Regel auszuwählen.
 
    ![](assets/msg-optimization-modify-rule.png){width=100%}
 
@@ -96,7 +96,7 @@ Gehen Sie folgendermaßen vor, um das Targeting einzurichten.
    >
    >Die Inline-Bearbeitung einer Regel hat keine Auswirkungen auf die vorhandene Regel, von der sie stammt.
 
-1. Wählen Sie nach Bedarf **[!UICONTROL Fallback-Inhalte aktivieren]** aus. Mit Fallback-Inhalten kann Ihre Zielgruppe Standardinhalte empfangen, wenn keine Targeting-Regeln qualifiziert sind.
+1. Wählen Sie nach Bedarf **[!UICONTROL Fallback-Inhalte aktivieren]** aus. Mit Fallback-Inhalten kann Ihre Zielgruppe einen Standardinhalt erhalten, falls keine der Targeting-Regeln erfüllt ist.
 
    >[!NOTE]
    >
@@ -114,7 +114,7 @@ Gehen Sie folgendermaßen vor, um das Targeting einzurichten.
 
 1. [Aktivieren](review-activate-campaign.md) Sie Ihre Journey oder Kampagne.
 
-Sobald die Journey/Kampagne live ist, werden Inhalte gesendet, die auf die einzelnen Zielgruppen zugeschnitten sind, sodass die US-Bürger eine bestimmte Nachricht erhalten, die Bewohner Frankreichs eine andere Nachricht und so weiter.
+Sobald die Journey/Kampagne live ist, werden für jede Zielgruppe maßgeschneiderte Inhalte versendet, sodass etwa in den USA ansässige Personen eine bestimmte Nachricht erhalten, in Frankreich ansässige Personen eine andere usw.
 
 <!--Default content:
 
@@ -168,7 +168,7 @@ Verfolgen Sie den Erfolg Ihrer Kampagne mit den Berichten [Journey](../reports/j
 
 Mit Journey Optimizer können Sie auch Targeting und Experimente innerhalb einer einzigen Journey oder Kampagne kombinieren, um komplexere Strategien zu entwickeln.
 
-Sie können Targeting verwenden, um mehrere Varianten zu erstellen, und für jede Variante Experimente verwenden, um jeden Inhalt weiter zu optimieren. Dadurch wird sichergestellt, dass Experimente spezifisch für jede Targeting-Regel sind und nicht verschiedene Varianten umfassen.
+Sie können Targeting nutzen, um verschiedene Varianten einzurichten, und für jede Variante Experimente verwenden, um die jeweiligen Inhalte weiter zu optimieren. Dadurch wird sichergestellt, dass Experimente spezifisch für jede Targeting-Regel sind und nicht verschiedene Varianten umfassen.
 
 Sie können beispielsweise eine „Promotion mit 50 % Rabatt“ gegenüber einer „Geschenkkarte im Wert von 50 Dollar“ für Kundschaft in den USA testen und für Kundschaft in Europa einen anderen Test durchführen, z. B. „kostenloser Versand bei Bestellungen über 50 €“ gegenüber „20 % Rabatt auf ihren nächsten Kauf“.
 
@@ -210,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Erfahren Sie, wie Sie die Nachrichtenoptimierung in durch eine Aktion oder durch API ausgelösten Kampagnen nutzen. Sie erfahren, wie Sie Teilzielgruppen ansprechen, Nachrichtenvarianten je nach Standort erstellen, Fallback-Inhalte aktivieren und mehrere Experimente innerhalb einer Kampagne durchführen. In diesem Tutorial wird auch beschrieben, wie Sie Multi-Channel-Kampagnen verwalten und dabei die Konsistenz der Nachrichten beibehalten können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470377?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

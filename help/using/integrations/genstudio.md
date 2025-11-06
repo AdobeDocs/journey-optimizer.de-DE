@@ -39,7 +39,7 @@ Um die Marketing-Effizienz zu steigern und Markenkonsistenz zu gewährleisten, k
 
 >[!INFO]
 >
->Weitere Informationen finden Sie in diesem [Überblick](https://business.adobe.com/de/products/genstudio-for-performance-marketing.html?lang=de#watch-overview){target="_blank"} und einer [Demo](https://business.adobe.com/de/products/genstudio-for-performance-marketing.html?lang=de#demo){target="_blank"} zu [!DNL Adobe GenStudio for Performance Marketing].
+>Weitere Informationen finden Sie in diesem [Überblick](https://business.adobe.com/products/genstudio-for-performance-marketing.html?lang=de#watch-overview){target="_blank"} und einer [Demo](https://business.adobe.com/products/genstudio-for-performance-marketing.html?lang=de#demo){target="_blank"} zu [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -140,4 +140,4 @@ Verfolgen Sie nach dem Ausführen des Experiments mit dem [Experimentkampagnenbe
 
 Erfahren Sie, wie Sie eine E-Mail-Vorlage aus Journey Optimizer in GenStudio for Performance Marketing exportieren, markenkonforme E-Mails mit der Vorlage in GenStudio erstellen und diese dann nahtlos wieder in Journey Optimizer importieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456058/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

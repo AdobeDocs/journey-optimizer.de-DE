@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Zu Beginn der Erstellung einer E-Mail müssen Sie Konfigurationen für E-Mail-Ka
 >
 >Richten Sie vor der Erstellung einer E-Mail-Konfiguration die Subdomains ein, die Sie zum Senden von E-Mails verwenden, um Ihre Reputation zu wahren und Ihre Zustellbarkeit zu verbessern. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
 >
->Bevor Sie eine E-Mail-Kanal-Konfiguration erstellen, müssen Sie zunächst mindestens einen IP-Pool erstellt haben. [Weitere Informationen](../configuration/ip-pools.md)
+>Bevor Sie eine E-Mail-Kanalkonfiguration erstellen, müssen Sie zunächst mindestens einen IP-Pool erstellt haben. [Weitere Informationen](../configuration/ip-pools.md)
 
 Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanalkonfiguration fest, wie unten beschrieben.
 
@@ -32,13 +32,13 @@ Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanalkonfigur
 
 Die E-Mail-Konfiguration wird nach der folgenden Logik für das Senden von Nachrichten übernommen:
 
-* Bei Batch-Journeys gilt dies nicht für Batch-Ausführungen, die bereits begonnen hatten, bevor die Konfiguration der E-Mail-Oberfläche festgelegt wurde. Die Änderung wird bei der nächsten Wiederholung oder bei der neuen Ausführung übernommen.
+* Bei Batch-Journeys gilt dies nicht für Batch-Ausführungen, die bereits begonnen hatten, bevor die Konfiguration der E-Mail-Oberfläche festgelegt wurde. Die Änderung wird beim nächsten Intervall oder bei der nächsten Neuausführung übernommen.
 
 * Bei Transaktionsnachrichten wird die Änderung sofort für die nächste Mitteilung übernommen (mit einer Verzögerung von bis zu fünf Minuten).
 
 >[!NOTE]
 >
->Die aktualisierten E-Mail-Konfigurationseinstellungen werden automatisch auf den Journey(s) oder in den Kampagnen aufgenommen, auf denen die Konfiguration verwendet wird.
+>Die aktualisierten E-Mail-Konfigurationseinstellungen werden automatisch in den Journeys oder Kampagnen übernommen, in denen die Konfiguration verwendet wird.
 
 ## E-Mail-Typ {#email-type}
 

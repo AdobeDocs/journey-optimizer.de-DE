@@ -9,7 +9,7 @@ exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 87%
+ht-degree: 93%
 
 ---
 
@@ -53,7 +53,7 @@ Die Funktion `addHours` passt ein bestimmtes Datum um eine angegebene Anzahl von
 
 ## Minuten hinzufügen {#add-minutes}
 
-Die `addMinutes`-Funktion passt ein bestimmtes Datum um eine angegebene Anzahl von Minuten an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
+Die Funktion `addMinutes` passt ein bestimmtes Datum um eine angegebene Anzahl von Minuten an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
 **Syntax**
 
@@ -87,7 +87,7 @@ Die Funktion `addMonths` passt ein bestimmtes Datum um eine angegebene Anzahl vo
 
 ## Sekunden hinzufügen {#add-seconds}
 
-Die `addSeconds`-Funktion passt ein bestimmtes Datum um eine angegebene Anzahl von Sekunden an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
+Die Funktion `addSeconds` passt ein bestimmtes Datum um eine angegebene Anzahl von Sekunden an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
 **Syntax**
 
@@ -104,7 +104,7 @@ Die `addSeconds`-Funktion passt ein bestimmtes Datum um eine angegebene Anzahl v
 
 ## Jahre hinzufügen {#add-years}
 
-Die `addYears`-Funktion passt ein bestimmtes Datum um eine bestimmte Anzahl von Jahren an, wobei positive Werte inkrementiert und negative Werte dekrementiert werden.
+Die Funktion `addYears` passt ein bestimmtes Datum um eine angegebene Anzahl von Jahren an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
 **Syntax**
 

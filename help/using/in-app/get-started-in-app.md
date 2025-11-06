@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 65%
 
 ---
 
@@ -56,3 +56,11 @@ Verwenden Sie Journey Optimizer, um In-App-Benachrichtigungen zu erstellen und E
 <p>
 </td>
 </tr></table>
+
+## Weitere Ressourcen
+
+* **[Erstellen von In-App-Nachrichten](create-in-app.md)** - Erfahren Sie, wie Sie In-App-Nachrichten für Mobile Apps erstellen und konfigurieren.
+* **[In-App-Kanal konfigurieren](inapp-configuration.md)** - Richten Sie Ihren In-App-Nachrichtenkanal mit den richtigen Mobile-App-Konfigurationen ein.
+* **[Entwerfen von In-App](design-in-app.md)** Inhalten: Passen Sie In-App-Nachrichten-Layouts, Stile, Schaltflächen und interaktive Elemente an.
+* **[In-App für Web](create-in-app-web.md)** - Erfahren Sie, wie Sie In-App-Nachrichten für Web-Anwendungen erstellen und versenden.
+* **[In-App-](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}**-Tutorials: Erkunden Sie die schrittweisen Video-Tutorials zu In-App-Messaging-Funktionen und Best Practices.

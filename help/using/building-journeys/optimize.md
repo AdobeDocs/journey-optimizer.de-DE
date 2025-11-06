@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1461'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -186,7 +186,7 @@ Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 
 1. Klicken Sie auf **[!UICONTROL Targeting-Regel erstellen]**.
 
-1. Klicken Sie **[!UICONTROL Regel erstellen]** > **[!UICONTROL Neu erstellen]** und verwenden Sie den Regel-Builder, um Ihre Kriterien zu definieren.
+1. Klicken Sie auf **[!UICONTROL Regel erstellen]** > **[!UICONTROL Neu erstellen]** und verwenden Sie den Regel-Builder, um Ihre Kriterien zu definieren.
 
    ![](assets/journey-targeting-create-rule.png){width=100%}
 
@@ -202,11 +202,11 @@ Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 
    >[!AVAILABILITY]
    >
-   >[Erstellen von Zielgruppenregeln](../experience-decisioning/rules.md#create) im dedizierten Menü [!DNL Journey Optimizer] ist derzeit für Organisationen verfügbar, die das Add-on Decisioning-Angebot erworben haben, und sie sind für andere Organisationen bei Bedarf verfügbar (eingeschränkte Verfügbarkeit).
+   >Das [Erstellen von Targeting-Regeln](../experience-decisioning/rules.md#create) im dedizierten [!DNL Journey Optimizer]-Menü ist derzeit für Organisationen verfügbar, die das Entscheidungsfindungs-Add-on erworben haben. Für andere Organisationen ist dies auf Anfrage verfügbar (eingeschränkte Verfügbarkeit).
    >
-   >Diese Kapazität wird schrittweise für alle Kunden eingeführt. Wenden Sie sich in der Zwischenzeit an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten.
+   >Diese Kapazität wird nach und nach für alle Kundinnen und Kunden eingeführt. Wenden Sie sich in der Zwischenzeit an den Adobe-Support, um Zugriff zu erhalten.
 
-1. Nachdem Sie eine Regel hinzugefügt haben, können Sie sie noch ändern. Wählen Sie **[!UICONTROL Inline bearbeiten]**, um sie mithilfe des Regel-Builders unterwegs zu aktualisieren, oder **[!UICONTROL Regel auswählen]**, um eine andere vorhandene Regel aufzunehmen.
+1. Nachdem Sie eine Regel hinzugefügt haben, können Sie sie noch ändern. Wählen Sie **[!UICONTROL Inline bearbeiten]**, um sie mithilfe des Regel-Builders schnell zu aktualisieren, oder **[!UICONTROL Regel auswählen]**, um eine andere vorhandene Regel auszuwählen.
 
    ![](assets/journey-targeting-modify-rule.png){width=100%}
 

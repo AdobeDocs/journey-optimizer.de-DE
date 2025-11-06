@@ -12,7 +12,7 @@ exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -93,8 +93,8 @@ Wenn die Anfrage fehlschlägt, können Sie Folgendes überprüfen:
 
 In den folgenden Abschnitten erfahren Sie mehr über die Konfiguration und Verwendung Ihrer benutzerdefinierten Aktionen:
 
-* [Erste Schritte mit benutzerdefinierten Aktionen](../action/action.md) - Erfahren Sie, was eine benutzerdefinierte Aktion ist und wie Sie damit eine Verbindung zu Ihren Drittanbietersystemen herstellen können
-* [Benutzerdefinierte Aktionen konfigurieren](../action/about-custom-action-configuration.md) - Erfahren Sie, wie Sie eine benutzerdefinierte Aktion erstellen und konfigurieren
-* [Verwenden benutzerdefinierter Aktionen](../building-journeys/using-custom-actions.md) - Erfahren Sie, wie Sie benutzerdefinierte Aktionen in Ihren Journey verwenden
-* [Übergeben von Sammlungen in benutzerdefinierte Aktionsparameter](../building-journeys/collections.md) - Erfahren Sie, wie Sie eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden
+* [Erste Schritte mit benutzerdefinierten Aktionen](../action/action.md): Erfahren Sie, was eine benutzerdefinierte Aktion ist und wie Sie damit eine Verbindung zu Ihren Drittanbietersystemen herstellen können
+* [Konfigurieren benutzerdefinierter Aktionen](../action/about-custom-action-configuration.md): Erfahren Sie, wie Sie eine benutzerdefinierte Aktion erstellen und konfigurieren
+* [Verwenden benutzerdefinierter Aktionen](../building-journeys/using-custom-actions.md): Erfahren Sie, wie Sie benutzerdefinierte Aktionen in Ihren Journeys verwenden
+* [Übergeben von Sammlungen in Parameter benutzerdefinierter Aktionen](../building-journeys/collections.md): Erfahren Sie, wie Sie eine Sammlung in Parameter benutzerdefinierter Aktionen übergeben, die zur Laufzeit dynamisch gefüllt werden
 

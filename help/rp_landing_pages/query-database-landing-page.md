@@ -20,7 +20,7 @@ Entdecken Sie mit den leistungsstarken Datenbankabfrage-Tools von Adobe Journey 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwenden des Regel-Builders für orchestrierte Kampagnen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit dem Regel-Builder in Adobe Journey Optimizer Regeln f�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen Ihrer ersten Regel in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Erstellen und Validieren von Regeln zum Filtern und T
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Bearbeiten von Ausdrücken in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Beherrschen Sie den Ausdruckseditor, um Abfrageregeln manuell zu definieren und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Erstellen von Retargeting-Abfragen in Adobe Journey Optimizer
 

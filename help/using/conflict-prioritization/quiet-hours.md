@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ruhige Stunden festlegen
-description: Erfahren Sie, wie Sie ruhige Stunden erstellen und anwenden
+title: Festlegen von Ruhezeiten
+description: Informationen zum Erstellen und Anwenden von Ruhezeiten
 feature: Rules
 topic: Content Management
 role: User
@@ -12,60 +12,60 @@ keywords: Nachricht, Häufigkeit, Regeln, Druck
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 
-# Ruhige Stunden festlegen {#quiet-hours}
+# Festlegen von Ruhezeiten {#quiet-hours}
 
-## Was sind ruhige Stunden?
+## Was sind Ruhezeiten?
 
-**Ruhige Stunden** ermöglichen die Definition zeitbasierter Ausschlüsse für **E-Mail**, **SMS**, **Push** und **WhatsApp**-Kanäle. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen.
+**Ruhezeiten** ermöglichen die Definition zeitbasierter Ausschlüsse für den **E-Mail**-, **SMS**-, **Push**- und **WhatsApp**-Kanal. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen.
 
-Ruhestunden können über **Regelsätze** angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journey zugewiesen werden können.
+Ruhezeiten können über **Regelsätze** angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können.
 
 Durch die Optimierung dieser Prozesse können Sie das Kundenerlebnis verbessern, Zeit sparen und die Einhaltung von Kommunikationsregeln sicherstellen:
 
-* **Wecken Sie Ihren Kunden nicht** - *Der richtige Kunde, der richtige Kanal, die richtige Zeit* ist das Mantra vieler Marketing-Fachleute, daher ist es sinnvoll, dass das Timing ein wichtiger Bestandteil des Kunden-Journey ist. Durch die Festlegung einer Regel für ruhige Stunden haben Marken eine bessere Kontrolle darüber, wann Kontakte Nachrichten erhalten, und stellen sicher, dass sie sie erhalten, wenn es wahrscheinlicher ist, dass sie Ihre Nachricht bearbeiten.
-* **Komfort** - Fangen Sie ganz einfach die Kommunikation zwischen Kampagnen und Journey ab, wenn Sie verhindern müssen, dass eine Zielgruppe eine Nachricht erhält, ohne die gesamte Journey oder Kampagne stoppen zu müssen.
-* **Zeiteinsparung** - Verwalten Sie Ausschlüsse an einer Stelle, indem Sie eine **zeitbasierte Regel** erstellen, anstatt mehrere Bedingungsknoten mit benutzerdefinierten Ausdrücken hinzuzufügen.\
+* **Wecken Sie Ihren Kundinnen und Kunden nicht auf**: *Die richtige Person, der richtige Kanal, die richtige Zeit* ist das Mantra vieler Marketing-Fachleute. Daher ist es logisch, dass das Timing eine große Bedeutung in der Customer Journey hat. Durch das Festlegen einer Regel für Ruhezeiten erhalten Marken eine bessere Kontrolle darüber, wann Kontakte Nachrichten erhalten, und stellen sicher, dass sie sie dann erhalten, wenn sie am wahrscheinlichsten mit der Nachricht interagieren.
+* **Komfort**: Fangen Sie Nachrichten in Kampagnen und Journeys ganz einfach ohne Stoppen der gesamten Journey oder Kampagne ab, wenn Sie verhindern müssen, dass eine Zielgruppe eine Nachricht erhält.
+* **Zeitersparnis**: Verwalten Sie Ausschlüsse durch Erstellen einer **zeitbasierten Regel** an einem Ort, anstatt mehrere Bedingungsknoten mit benutzerdefinierten Ausdrücken hinzuzufügen.\
   <!--* **Extra Safeguard** - Benefit from an extra safeguard in case audience criteria or time-window configurations were incorrectly set, ensuring individuals are still excluded when they should be.-->
 
 >[!AVAILABILITY]
 >
->Regeln für ruhige Stunden sind derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um auf die Warteliste gesetzt zu werden, bitte den Adobe-Support kontaktieren.
+>Regeln für Ruhezeiten sind derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Wenden Sie sich an den Adobe-Support, um auf die Warteliste gesetzt zu werden.
 
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
 ## Leitlinien und Einschränkungen
 
-* **Unterstützte Kanäle** - E-Mail, SMS, Push und WhatsApp.
+* **Unterstützte Kanäle**: E-Mail, SMS, Push-Benachrichtigung und WhatsApp.
   <!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
-* **Ausbreitungsverzögerung** - Die Aktualisierung einer Regel für ruhige Stunden kann bis zu 12 Stunden dauern, bis sie auf Kanalaktionen angewendet wird, die diese Regel bereits verwenden.
+* **Verzögerung der Anwendung**: Es kann bis zu 12 Stunden dauern bis Aktualisierungen von Regeln für Ruhezeiten auf Kanalaktionen angewendet werden, die diese Regel bereits verwenden.
   <!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
-* **Latenz bei hohem Volumen** - Im Fall von Kommunikation mit hohem Volumen kann das System zusätzliche Zeit benötigen, um mit der erfolgreichen Durchsetzung von Unterdrückungen für ruhige Stunden zu beginnen.
+* **Latenz bei hohem Volumen**: Im Fall von Nachrichten mit hohem Volumen benötigt das System möglicherweise zusätzliche Zeit, um mit der erfolgreichen Durchsetzung von Unterdrückungen für Ruhezeiten zu beginnen.
 
-## Erstellen von Regeln für ruhige Stunden
+## Erstellen von Regeln für Ruhezeiten
 
-Um ruhige Stunden festzulegen, erstellen Sie eine Regel innerhalb eines benutzerdefinierten Regelsatzes. Führen Sie folgende Schritte aus:
+Um Ruhezeiten festzulegen, erstellen Sie eine Regel innerhalb eines benutzerdefinierten Regelsatzes. Führen Sie folgende Schritte aus:
 
-1. Navigieren Sie zu **[!UICONTROL Geschäftsregeln]**, um auf den Regelsatzbestand zuzugreifen.
+1. Navigieren Sie zu **[!UICONTROL Geschäftsregeln]**, um auf das Regelsatzinventar zuzugreifen.
 
 1. Wählen Sie einen vorhandenen benutzerdefinierten Regelsatz aus oder erstellen Sie einen neuen:
 
-   +++Erstellen einer Regel für ruhige Stunden in einem vorhandenen Regelsatz
+   +++Erstellen einer Regel für Ruhezeiten in einem vorhandenen Regelsatz
 
-   Wählen Sie den Regelsatz aus dem Inventar aus. Regeln für ruhige Stunden können nur Regelsätzen mit der Domain „channel“ hinzugefügt werden. Sie können diese Informationen in der Spalte **[!UICONTROL Domain]** überprüfen.
+   Wählen Sie den Regelsatz aus dem Inventar aus. Regeln für Ruhezeiten können nur Regelsätzen mit der Domain „Kanal“ hinzugefügt werden. Sie können diese Informationen in der Spalte **[!UICONTROL Domain]** überprüfen.
 
    ![](assets/journey-capping-list.png)
 
    +++
 
-   +++Erstellen einer Regel für ruhige Stunden in einem neuen Regelsatz
+   +++Erstellen einer Regel für Ruhezeiten in einem neuen Regelsatz
 
-   Klicken Sie **[!UICONTROL Regelsatz erstellen]** geben Sie einen eindeutigen Namen ein und wählen Sie „Kanal“ aus der Dropdown-Liste **[!UICONTROL Regelsatzdomäne]** aus.
+   Klicken Sie **[!UICONTROL Regelsatz erstellen]** geben Sie einen eindeutigen Namen ein und wählen Sie „Kanal“ aus der Dropdown-Liste **[!UICONTROL Domain des Regelsatzes]** aus.
 
    ![](assets/rule-sets-create.png)
 
@@ -73,63 +73,63 @@ Um ruhige Stunden festzulegen, erstellen Sie eine Regel innerhalb eines benutzer
 
    >[!NOTE]
    >
-   >Ruhige Stunden können nur in **benutzerdefinierten Regelsätzen)** werden. Der globale Regelsatz unterstützt keine Konfiguration von ruhigen Stunden.
+   >Ruhezeiten können nur in **benutzerdefinierten Regelsätzen** definiert werden. Der globale Regelsatz unterstützt keine Konfiguration von Ruhezeiten.
 
-1. Klicken Sie im Bildschirm Regelsatz auf **[!UICONTROL Regel hinzufügen]** und geben Sie einen eindeutigen Namen für die Regel an.
+1. Klicken Sie im Bildschirm „Regelsatz“ auf die Schaltfläche **[!UICONTROL Regel hinzufügen]** und geben Sie einen eindeutigen Namen für die Regel an.
 
-1. Das Feld **Kategorie** gibt die Kategorie der Nachricht an, für die die Regel gilt. Derzeit ist dieses Feld schreibgeschützt und standardmäßig auf **[!UICONTROL Marketing]** eingestellt.
+1. Das Feld **Kategorie** gibt die Kategorie der Nachricht an, für die die Regel gilt. Derzeit ist dieses Feld schreibgeschützt und standardmäßig auf **[!UICONTROL Marketing]** festgelegt.
 
-1. Wählen **[!UICONTROL in der Dropdown]** Liste „Regeltyp“ die Option **[!UICONTROL Stille Stunden]**.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Regeltyp]** die Option **[!UICONTROL Ruhezeiten]** aus.
 
    ![](assets/quiet-hours-type.png)
 
-1. Definieren Sie **[!UICONTROL Abschnitt „Datum und]**&quot;, wann ruhige Stunden angewendet werden sollen:
+1. Definieren Sie Abschnitt **[!UICONTROL Datum und Uhrzeit]**, wann Ruhezeiten angewendet werden sollen:
 
-   1. Wählen Sie die **[!UICONTROL Zeitzone]** aus:
+   1. Wählen Sie die zu verwendende **[!UICONTROL Zeitzone]** aus:
 
-      * **[!UICONTROL UTC/GMT]** - Wendet ein standardmäßiges GMT-Zeitfenster auf alle Empfänger in der Zielgruppe an, unabhängig von ihrer individuellen Zeitzone.
-      * **[!UICONTROL Lokale Zeitzone der Empfänger verwenden]** - Verwenden Sie das Zeitzonenfeld jedes Profils. [Erfahren Sie mehr über das Zeitzonenmanagement in Journey](../building-journeys/timezone-management.md#timezone-from-profiles)
+      * **[!UICONTROL UTC/GMT]**: Es wird ein standardmäßiges GMT-Zeitfenster auf alle Empfangenden in der Zielgruppe angewendet, unabhängig von ihrer individuellen Zeitzone.
+      * **[!UICONTROL Lokale Zeitzone der Empfangenden verwenden]**: Es wird die Zeitzone jedes Profils verwendet. [Informationen zur Zeitzonenverwaltung in Journeys](../building-journeys/timezone-management.md#timezone-from-profiles)
 
         >[!IMPORTANT]
         >
-        >Wenn ein Profil keinen Zeitzonenwert hat, werden für dieses Profil keine ruhigen Stunden erzwungen.
+        >Wenn für ein Profil kein Zeitzonenwert festgelegt ist, werden für dieses Profil keine Ruhezeiten erzwungen.
 
-   1. Geben Sie den Zeitraum an, für den ruhige Stunden gelten sollen.
+   1. Geben Sie den Zeitraum an, für den Ruhezeiten angewendet werden sollen.
 
-      * **[!UICONTROL Wöchentlich]** - Wählen Sie bestimmte Wochentage und einen Zeitrahmen aus. Sie können die Regel auch **[!UICONTROL Ganztägig]** durchsetzen (diese Option ist nur für bis zu 3 aufeinander folgende Tage verfügbar).
+      * **[!UICONTROL Wöchentlich]**: Wählen Sie bestimmte Wochentage und ein Zeitfenster aus. Sie können die Regel auch **[!UICONTROL den ganzen Tag]** durchsetzen (diese Option ist nur für bis zu 3 aufeinander folgende Tage verfügbar).
 
         ![](assets/quiet-hours-weekly.png)
 
-      * **[!UICONTROL Benutzerdefiniertes Datum]** - Wählen Sie bestimmte Daten im Kalender und einen Zeitschlitz aus. Sie können die Regel auch **[!UICONTROL Ganztägig]** durchsetzen (diese Option ist nur für bis zu 3 aufeinander folgende Tage verfügbar).
+      * **[!UICONTROL Benutzerdefiniertes Datum]**: Wählen Sie bestimmte Daten im Kalender und ein Zeitfenster aus. Sie können die Regel auch **[!UICONTROL den ganzen Tag]** durchsetzen (diese Option ist nur für bis zu 3 aufeinander folgende Tage verfügbar).
 
         ![](assets/quiet-hours-custom.png)
 
-   1. Klicken Sie auf **[!UICONTROL Schaltfläche „Weitere Daten]**&quot;, um bis zu 5 separate Zeiträume hinzuzufügen.
+   1. Klicken Sie auf die Schaltfläche **[!UICONTROL Weitere Daten hinzufügen]**, um bis zu 5 separate Zeiträume hinzuzufügen.
 
       ![](assets/quiet-hours-date.png)
 
-1. Wählen **[!UICONTROL Abschnitt „Aktionen während ruhiger Stunden]**, wie Nachrichten während des ausgewählten Zeitraums behandelt werden:
+1. Wählen Sie im Abschnitt **[!UICONTROL Handhabung von Aktionen während Ruhezeiten]** aus, wie Nachrichten während des ausgewählten Zeitraums behandelt werden:
 
    ![](assets/quiet-hours-queue.png)
 
-   * **[!UICONTROL Warteschlangennachricht]** - Nachrichten werden nach Abschluss der Ruhezeit gesendet, es sei denn, sie befinden sich im Status Paused .
+   * **[!UICONTROL Warteschlangenmeldung]**: Nachrichten werden nach Abschluss der Ruhezeit gesendet, es sei denn, sie befinden sich im Status „Pausiert“.
 
      >[!NOTE]
      >
-     >Diese Option ist nur für Journey-Aktionen verfügbar. Wenn sie auf eine Kampagnenaktion angewendet wird, verhält sie sich genauso, wie wenn die Option **[!UICONTROL Nachricht verwerfen]** ausgewählt wird.
+     >Diese Option ist nur für Journey-Aktionen verfügbar. Wenn sie auf eine Kampagnenaktion angewendet wird, ist das Verhalten dasselbe wie bei Auswahl der Option **[!UICONTROL Nachricht verwerfen]**.
 
-   * **[!UICONTROL Nachricht verwerfen]** - Nachrichten werden nie gesendet. Wenn Sie möchten, dass die Journey oder Kampagne, die die Nachricht enthält, mit dem Abbruch des Versands endet, wählen Sie **[!UICONTROL Verwerfen und Journey oder Kampagne beenden]**.
+   * **[!UICONTROL Nachricht verwerfen]**: Nachrichten werden nie gesendet. Wenn Sie möchten, dass die Journey oder Kampagne, die die Nachricht enthält, mit dem Abbruch des Versands endet, wählen Sie **[!UICONTROL Verwerfen und aus Journey oder Kampagne aussteigen]**.
 
-## Anwenden von Ruhezeiten auf Journey und Kampagnen {#apply}
+## Anwenden von Ruhezeiten auf Journeys und Kampagnen {#apply}
 
-Nachdem die Regel gespeichert und aktiviert wurde, können Sie sie auf Aktionen in Journey und Kampagnen anwenden. Unterstützte Kanäle: **E-Mail, SMS, Push,** App). Durchsuchen Sie die folgenden Registerkarten, um weitere Details anzuzeigen.
+Nachdem die Regel gespeichert und der Regelsatz aktiviert wurde, können Sie sie auf Aktionen in Journeys und Kampagnen anwenden. Unterstützte Kanäle: **E-Mail, SMS, Push, WhatsApp**. Weitere Details finden Sie in den Registerkarten unten.
 
 >[!BEGINTABS]
 
->[!TAB Anwenden von Ruhestunden-Kanalaktionen in Journey]
+>[!TAB Anwenden von Kanalaktionen mit Ruhezeiten in Journeys]
 
-1. Öffnen Sie Ihre Journey, wählen Sie [Kanalaktion](../building-journeys/journeys-message.md) und bearbeiten Sie den Inhalt Ihrer Nachricht.
-1. Klicken Sie auf **[!UICONTROL Schaltfläche „Geschäftsregel hinzufügen]** und wählen Sie den Regelsatz aus, der die Regel für ruhige Stunden enthält.
+1. Öffnen Sie Ihre Journey, wählen Sie eine [Kanalaktion](../building-journeys/journeys-message.md) aus und bearbeiten Sie den Inhalt Ihrer Nachricht.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Geschäftsregel hinzufügen]** und wählen Sie den Regelsatz aus, der die Regel für Ruhezeiten enthält.
 
    ![](assets/quiet-hours-apply.png)
 
@@ -137,12 +137,12 @@ Nachdem die Regel gespeichert und aktiviert wurde, können Sie sie auf Aktionen 
    >
    >In der Liste werden nur [aktivierte](#activate-rule) Regelsätze angezeigt.
 
-1. Journey aktivieren.
+1. Aktivieren Sie Ihre Journey.
 
->[!TAB Wendet ruhige Stunden auf Kampagnenaktionen an]
+>[!TAB Anwenden von Ruhezeiten auf Kampagnenaktionen]
 
 1. Bearbeiten Sie Ihre Kampagne und rufen Sie die Registerkarte **[!UICONTROL Aktionen]** auf.
-1. Wählen **[!UICONTROL Abschnitt „Geschäftsregeln]** den Regelsatz aus, der die Regel für ruhige Stunden enthält.
+1. Wählen Sie im Abschnitt **[!UICONTROL Geschäftsregel]** den Regelsatz aus, der die Regel für Ruhezeiten enthält.
 
    ![](assets/quiet-hours-campaign.png)
 
@@ -150,13 +150,13 @@ Nachdem die Regel gespeichert und aktiviert wurde, können Sie sie auf Aktionen 
    >
    >In der Liste werden nur [aktivierte](#activate-rule) Regelsätze angezeigt.
 
-1. Kampagne aktivieren.
+1. Aktivieren Sie Ihre Kampagne.
 
 >[!ENDTABS]
 
 ## Nächste Schritte
 
-Sobald Ihr Journey oder Ihre Kampagnen aktiviert und ausgeführt wurden, können Sie die Anzahl der Profile, die von der Kommunikation ausgeschlossen sind, im [Customer Journey Analytics-Bericht](../reports/report-gs-cja.md) und im [Live-Bericht](../reports/live-report.md) sehen, wo Regeln für ruhige Stunden als möglicher Grund für den Ausschluss von Benutzenden vom Versand aufgeführt sind.
+Sobald Ihre Journeys oder Kampagnen aktiviert und ausgeführt wurden, können Sie die Anzahl der vom Versand ausgeschlossenen Profile im [Customer Journey Analytics-Bericht](../reports/report-gs-cja.md) und im [Live-Bericht](../reports/live-report.md) anzeigen. Dort werden die Regeln für Ruhezeiten als möglicher Grund für den Ausschluss von Benutzenden vom Versand aufgeführt.
 
 ![](assets/quiet-hours-report.png)
 
@@ -185,6 +185,6 @@ Sobald Ihr Journey oder Ihre Kampagnen aktiviert und ausgeführt wurden, können
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie die Funktion „Ruhezeiten“ in Adobe Journey Optimizer verwenden.
+Erfahren Sie, wie Sie die Ruhezeitenfunktion in Adobe Journey Optimizer verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475861?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

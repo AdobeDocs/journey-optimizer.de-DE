@@ -20,7 +20,7 @@ Technotes in Adobe Journey Optimizer bieten einen Einblick in die fortschrittlic
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Statistische Berechnungen, die in Adobe Journey Optimizer-Experimenten verwendet werden
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über fortschrittliche statistische Methoden wie Konfidenzsequ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Verstehen der statistischen Berechnungen in Experimentberichten
 

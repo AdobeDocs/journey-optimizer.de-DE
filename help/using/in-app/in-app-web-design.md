@@ -11,7 +11,7 @@ hidefromtoc: true
 source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Folgende Stile sind verfügbar:
 * **[!UICONTROL Kreis]**
 * **[!UICONTROL Benutzerdefiniertes Bild]** von einer Medien-URL oder Ihren Assets.
 
-+++Mehr Optionen mit erweiterter Formatierung
++++Weitere Optionen mit erweiterter Formatierung
 
 Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, können Sie die Option **[!UICONTROL Farbe]** prüfen, um die Farbe und Deckkraft Ihrer Schaltfläche festzulegen.
 
@@ -93,7 +93,7 @@ Geben Sie Ihre Medien-URL ein oder klicken Sie auf das Symbol **[!UICONTROL Asse
 
 Sie können auch einen **[!UICONTROL Alternativtext]** für Bildschirmlesehilfen hinzufügen.
 
-+++Mehr Optionen mit erweiterter Formatierung
++++Weitere Optionen mit erweiterter Formatierung
 
 Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, können Sie die Variablen **[!UICONTROL Maximale Höhe]** und **[!UICONTROL Maximale Breite]** für Ihre Medien individuell festlegen.
 
@@ -107,7 +107,7 @@ Um Ihre Nachricht zu erstellen, geben Sie den Inhalt in die Felder **[!UICONTROL
 
 Verwenden Sie das Symbol **[!UICONTROL Personalisierung]**, um für eine persönlichere Gestaltung zu sorgen. Weitere Informationen zur Personalisierung im Personalisierungseditor in Adobe Journey Optimizer finden Sie [in diesem Abschnitt](../personalization/personalize.md).
 
-+++Mehr Optionen mit erweiterter Formatierung
++++Weitere Optionen mit erweiterter Formatierung
 
 Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, können Sie folgende Parameter für Ihre **[!UICONTROL Kopfzeile]** und Ihren **[!UICONTROL Hauptteil]** wählen:
 
@@ -133,7 +133,7 @@ So personalisieren Sie Ihre Schaltfläche:
 
 1. Um mehrere Schaltflächen hinzuzufügen, klicken Sie auf **[!UICONTROL Schaltfläche hinzufügen]**.
 
-+++Mehr Optionen mit erweiterter Formatierung
++++Weitere Optionen mit erweiterter Formatierung
 
 Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können Sie für Ihre **[!UICONTROL Schaltflächen]** Folgendes auswählen:
 
@@ -165,9 +165,9 @@ Mit dem Feld **[!UICONTROL Hintergrundbild]** können Sie Ihrer In-App-Nachricht
 
 ![](assets/in_app_web_design_7.png)
 
-Die standardmäßig aktivierte Option „UI-Übernahme“ ermöglicht es Ihnen, den Hintergrund hinter Ihrer In-App-Nachricht abzudunkeln, um den Fokus auf Ihren Inhalt zu legen.
+Die standardmäßig aktivierte Option zur Übernahme der Benutzeroberfläche ermöglicht es Ihnen, den Hintergrund hinter Ihrer In-App-Nachricht abzudunkeln, um den Fokus auf Ihren Inhalt zu legen.
 
-+++Mehr Optionen mit erweiterter Formatierung
++++Weitere Optionen mit erweiterter Formatierung
 
 Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können Sie Ihre Nachricht mit den folgenden Optionen weiter personalisieren:
 

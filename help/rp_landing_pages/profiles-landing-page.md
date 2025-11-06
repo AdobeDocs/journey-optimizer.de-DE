@@ -20,7 +20,7 @@ Mit Profilen in Adobe Journey Optimizer können Sie einheitliche Ansichten jeder
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Einführung in Profile
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer Profile erstellen, verwalten un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen von Testprofilen
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Erstellen von Testprofilen für Journey-Tests, Inha
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Arbeiten mit berechneten Attributen
 

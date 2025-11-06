@@ -23,7 +23,7 @@ Der Abfrage-Editor unterstützt die Entwicklung von Abfragen für die Analyse un
 
 ![](assets/queries-home.png)
 
-Erfahren Sie in dieser Dokumentation , wie Sie [&#x200B; Abfrage-Editor &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=de){target="_blank"}.
+Erfahren Sie in dieser Dokumentation , wie Sie [ Abfrage-Editor ](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=de){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die Tools für Konflikt-Management und Priori
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 88%
 
 ---
 
@@ -68,3 +68,12 @@ Mit Regelsätzen können Sie **mehrere Regeln zu Regelsätzen zusammenfassen** u
 * **Simultane Aktivierungen in Journeys zur Zielgruppenqualifizierung**
 
   Wenn mehrere Journeys zur Zielgruppenqualifizierung durch dasselbe Ereignis zur Zielgruppenqualifizierung aktiviert werden, ist die Anzahl für die Eintrittsbegrenzung nicht korrekt. Wenn die Anzahl unter der Begrenzung liegt, steuert die Journey weiterhin, aber sie ist nicht in der Lage, die aktuellsten Zählungen mit gleichzeitigen Aktivierungen zu erhalten.
+
+## Weitere Ressourcen
+
+* **[Konflikte verwalten](conflicts.md)** - Erfahren Sie, wie Sie Konflikte zwischen sich überschneidenden Kampagnen und Journey identifizieren und lösen können.
+* **[Prioritätswerte festlegen](priority-scores.md)** - Erfahren Sie, wie Sie Prioritätswerte zuweisen und verwenden, um die Priorität des Nachrichtenversands zu steuern.
+* **[Konfigurieren der Frequenzlimitierung](channel-capping.md)** - Erfahren Sie, wie Sie Frequenzlimitierungen auf Kanalebene festlegen, um Übernachrichten zu verhindern.
+* **[Regelsätze erstellen](rule-sets.md)** - Erfahren Sie, wie Sie Geschäftsregeln für das erweiterte Konflikt-Management und die Nachrichten-Governance erstellen.
+* **[Journey-spezifische Begrenzung](journey-capping.md)** - Richten Sie Begrenzungsregeln auf Journey-Ebene ein, um die Häufigkeit der Nachrichten in Journey zu steuern.
+* **[Tutorials zum Konfliktmanagement](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - Sehen Sie sich Schritt-für-Schritt-Video-Tutorials zum Konfliktmanagement und zur Priorisierung an.

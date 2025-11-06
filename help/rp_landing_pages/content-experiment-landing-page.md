@@ -20,7 +20,7 @@ Mit Inhaltsexperimenten in Adobe Journey Optimizer können Sie Ihre Marketing-Ka
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Inhaltsexperimenten
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Grundlagen von Inhaltsexperimenten, ihren Zweck und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Skalieren von Inhaltsexperimenten
 
@@ -40,7 +40,7 @@ Eine schrittweise Anleitung zum Erstellen, Konfigurieren und Skalieren von Exper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Fortgeschrittene statistische Verfahren für Experimente
 

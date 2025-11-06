@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Regelsätze"
->abstract="Verwenden Sie Regelsätze, um Häufigkeitsbegrenzungen oder Regeln für ruhige Stunden auf verschiedene Arten von Marketing-Nachrichten anzuwenden. Sie können auch Regelsätze erstellen, um einen Teil der Zielgruppe anhand von Regeln zur Frequenzbegrenzung von Journeys auszuschließen."
+>abstract="Verwenden Sie Regelsätze, um die Frequenzbegrenzung oder Regeln für Ruhezeiten auf verschiedene Arten von Marketing-Kommunikation anzuwenden. Sie können auch Regelsätze erstellen, um einen Teil der Zielgruppe anhand von Regeln zur Frequenzbegrenzung von Journeys auszuschließen."
 
 ## Erste Schritte mit Regelsätzen {#gs}
 
@@ -31,10 +31,10 @@ Mit Regelsätzen können **mehrere Regeln zu Regelsätzen gruppiert** und auf di
 
 Es können zwei Arten von Regelsätzen erstellt werden:
 
-* **Kanal** Regelsätze wenden Regeln auf Kommunikationskanäle an. Sie ermöglichen es Ihnen, Folgendes festzulegen:
+* Regelsätze des Typs **Kanal** wenden Begrenzungsregeln auf Kommunikationskanäle an. Sie ermöglichen es Ihnen, Folgendes festzulegen:
 
-   * **Regeln zur Frequenzlimitierung** - *Senden Sie nicht mehr als 1 E-Mail- oder SMS-Kommunikation pro Tag.*
-   * **Regeln für ruhige**: (Eingeschränkte Verfügbarkeit) - *Senden Sie keine E-Mail-Nachrichten außerhalb des Zeitfensters von 8:00 bis 21:00 Uhr.*
+   * **Regeln für die Frequenzbegrenzung**: *Senden Sie nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.*
+   * **Regeln für Ruhezeiten** (eingeschränkte Verfügbarkeit): *Senden Sie keine E-Mail-Nachrichten außerhalb des Zeitfensters von 8:00 bis 21:00 Uhr.*
 
 * **Journey**-Regelsätze wenden Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. Lassen Sie Profile beispielsweise nicht in mehrere Journeys gleichzeitig eintreten.
 
@@ -111,7 +111,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 1. Wählen Sie die Regelsatz-Domain aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
-   * **Kanal** Domäne: Wenden Sie Begrenzungsregeln oder Regeln für ruhige Stunden auf Kommunikationskanäle an.
+   * **Kanal**-Domain: wendet Begrenzungsregeln oder Regeln für Ruhezeiten auf Kommunikationskanäle an.
    * **Journey**-Domain: wendet Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. 
 
    ![](assets/rule-sets-create.png)
@@ -120,11 +120,11 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 1. Konfigurieren Sie die Regelparameter nach Bedarf. Die für die Regel verfügbaren Parameter hängen von der bei ihrer Erstellung ausgewählten Regelsatz-Domain ab.
 
-   Detaillierte Informationen zum Konfigurieren von Journey- und Kanalregeln finden Sie in den folgenden Abschnitten:
+   Detaillierte Informationen zum Konfigurieren von Journey- und Kanalregeln sind in den folgenden Abschnitten verfügbar:
 
    * [Journey-Begrenzung](../conflict-prioritization/journey-capping.md)
    * [Frequenzbegrenzung nach Kanal und Kommunikationstyp](../conflict-prioritization/channel-capping.md)
-   * [Ruhige Stunden](../conflict-prioritization/quiet-hours.md) (in begrenzter Verfügbarkeit verfügbar)
+   * [Ruhezeiten](../conflict-prioritization/quiet-hours.md) (eingeschränkte Verfügbarkeit)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Erstellung der Regel zu bestätigen. Ihre Nachricht wird dem Regelsatz mit dem Status **[!UICONTROL Entwurf]** hinzugefügt.
 
@@ -152,7 +152,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
    * [Anwenden eines Regelsatzes auf eine Journey](../conflict-prioritization/journey-capping.md#apply-capping)
    * [Anwenden von Begrenzungsregeln auf Journey- und Kampagnenaktionen](../conflict-prioritization/channel-capping.md#apply)
-   * [Regeln für ruhige Stunden auf Journey und Kampagnen anwenden](../conflict-prioritization/quiet-hours.md#apply)
+   * [Anwenden von Regeln für Ruhezeiten auf Journeys und Kampagnen](../conflict-prioritization/quiet-hours.md#apply)
 
 ## Zugriff auf und Verwaltung von Regelsätzen {#access-rule-sets}
 
@@ -180,4 +180,4 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

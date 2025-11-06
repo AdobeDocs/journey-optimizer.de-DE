@@ -20,7 +20,7 @@ Mit den Datenschutz-Tools von Adobe Journey Optimizer können Sie vertrauliche K
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Überblick über die Datenschutzverwaltung
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie den Datenschutz in Adobe Journey Optimizer und Adobe Exper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Verwalten von Datenschutzanfragen
 
@@ -40,7 +40,7 @@ Folgen Sie den schrittweisen Anweisungen zum Erstellen und Verarbeiten von Daten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Auditprotokolle für Benutzeraktionen
 
@@ -50,7 +50,7 @@ Verfolgen und überwachen Sie Aktionen, die mit Adobe Journey Optimizer-Ressourc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Durchführen von Datenlebenszyklusvorgängen
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Aufgaben des Datenlebenszyklus, wie etwa das Aktualisieren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Einverständnisverwaltung
 
@@ -70,7 +70,7 @@ Verwalten Sie die Vorlieben und Richtlinien der Empfängerinnen und Empfänger i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Data-Governance-Richtlinien
 

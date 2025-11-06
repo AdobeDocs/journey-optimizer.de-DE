@@ -20,11 +20,11 @@ ht-degree: 100%
 >title="Die Aktivität „Kombinieren“"
 >abstract="Die Aktivität **Kombinieren** ermöglicht die Segmentierung der eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in mehreren Zielgruppen enthaltenen Datensätze verwenden."
 
-Die Aktivität **[!UICONTROL Kombinieren]** ist ein **[!UICONTROL Targeting]**-Aktivitätstyp, mit dem Sie Ihre eingehende Population effektiv segmentieren können. Mit ihr können Sie mehrere Populationen fusionieren, bestimmte Segmente ausschließen oder nur die Daten beibehalten, die für mehrere Ziele freigegeben sind.
+Die Aktivität **[!UICONTROL Kombinieren]** ist ein **[!UICONTROL Targeting]**-Aktivitätstyp, mit dem Sie Ihre eingehende Population effektiv segmentieren können. Mit ihr können Sie mehrere Populationen zusammenführen, bestimmte Segmente ausschließen oder nur die Daten beibehalten, die für mehrere Ziele freigegeben sind.
 
 Die folgenden Segmentierungsoptionen sind verfügbar:
 
-* **[!UICONTROL Vereinigung]**: Fügt die Ergebnisse mehrerer Aktivitäten zu einer einheitlichen Zielgruppe zusammen.
+* **[!UICONTROL Vereinigung]**: Führt die Ergebnisse mehrerer Aktivitäten zu einer einheitlichen Zielgruppe zusammen.
 
 * **[!UICONTROL Schnittmenge]**: Behält nur die Elemente bei, die in allen eingehenden Populationen gleich sind.
 
@@ -70,7 +70,7 @@ Innerhalb der Aktivität **[!UICONTROL Kombinieren]** können Sie eine **[!UICON
 
 * **[!UICONTROL Auswahl an Spalten]**: Ermöglicht die Angabe der Spalten, die für die Datenabstimmung verwendet werden sollen. Wählen Sie **[!UICONTROL Attribut hinzufügen]** aus.
 
-Im folgenden Beispiel wird eine Aktivität des Typs **[!UICONTROL Kombinieren]** mit einer **[!UICONTROL Vereinigung]** verwendet, um die Ergebnisse zweier Abfragen, **Mitglieder des Treueprogramms** und **Käuferinnen und Käufer**, zu einer einzigen, größeren Zielgruppe zu fusionieren, die alle Profile aus beiden Segmenten enthält.
+Im folgenden Beispiel wird eine Aktivität des Typs **[!UICONTROL Kombinieren]** mit einer **[!UICONTROL Vereinigung]** verwendet, um die Ergebnisse zweier Abfragen, **Mitglieder des Treueprogramms** und **Käuferinnen und Käufer**, zu einer einzigen, größeren Zielgruppe zusammenzuführen, die alle Profile aus beiden Segmenten enthält.
 
 ![](../assets/orchestrated-union-example.png)
 

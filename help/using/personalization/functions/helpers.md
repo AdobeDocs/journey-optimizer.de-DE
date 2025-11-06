@@ -9,7 +9,7 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '616'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -106,12 +106,12 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
 
 >[!NOTE]
 >
->Weitere Informationen zu Zielgruppen und zum Segmentierungs-Service finden Sie [diesem Abschnitt](../../audience/about-audiences.md).
+>Weitere Informationen zu Zielgruppen und zum Segmentierungs-Service finden Sie in diesem [Abschnitt](../../audience/about-audiences.md).
 
 
 ## Außer{#unless}
 
-Der Helper `unless` wird zum Definieren eines bedingten Blocks verwendet. Im Gegensatz zum Helper `if` wird der Block gerendert, wenn die Auswertung des Ausdrucks „false“ zurückgibt.
+Der Helper `unless` wird zum Definieren eines bedingten Blocks verwendet. Im Gegensatz zur Hilfsfunktion `if` wird der Block gerendert, wenn die Auswertung des Ausdrucks „falsch“ zurückgibt.
 
 **Syntax**
 
@@ -218,7 +218,7 @@ Im folgenden Beispiel können Sie die Gesamtsumme der Preise für Produkte im Wa
 >
 >Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
-Der `executionMetadata`-Helper ermöglicht die dynamische Erfassung und Speicherung benutzerdefinierter Schlüssel-Wert-Paare im Ausführungskontext der Nachricht.
+Die Hilfsfunktion `executionMetadata` ermöglicht die dynamische Erfassung und Speicherung benutzerdefinierter Schlüssel-Wert-Paare im Ausführungskontext der Nachricht.
 
 **Syntax**
 
@@ -226,28 +226,28 @@ Der `executionMetadata`-Helper ermöglicht die dynamische Erfassung und Speicher
 {{executionMetadata key="your_key" value="your_value"}}
 ```
 
-In dieser Syntax bezieht sich `key` auf den Namen der Metadaten und `value` sind die Metadaten, die beibehalten werden sollen.
+In dieser Syntax bezieht sich `key` auf den Metadatennamen und `value` sind die beizubehaltenden Metadaten.
 
 **Anwendungsfall**
 
-Mit dieser Funktion können Sie kontextuelle Informationen an beliebige native Aktionen Ihrer Kampagnen oder Journey anhängen. Dadurch können Sie kontextuelle Versanddaten in Echtzeit für verschiedene Zwecke wie Tracking, Analyse, Personalisierung und nachgelagerte Verarbeitung in externe Systeme exportieren.
+Mit dieser Funktion können Sie kontextuelle Informationen an beliebige native Aktionen Ihrer Kampagnen oder Journeys anhängen. Dadurch können Sie kontextuelle Versanddaten in Echtzeit für verschiedene Zwecke wie Tracking, Analyse, Personalisierung und nachgelagerte Verarbeitung in externe Systeme exportieren.
 
 >[!NOTE]
 >
->Die Funktion „Ausführungsmetadaten“ wird von [benutzerdefinierten Aktionen“ nicht &#x200B;](../../action/action.md).
+>Die Funktion „Ausführungsmetadaten“ wird von [benutzerdefinierten Aktionen](../../action/action.md) nicht unterstützt.
 
-Sie können beispielsweise den Helper Ausführungsmetadaten verwenden, um eine bestimmte ID an jeden Versand anzuhängen, der an jedes Profil gesendet wird. Diese Informationen werden zur Laufzeit generiert, und die angereicherten Ausführungsmetadaten können dann zur nachgelagerten Abstimmung mit einer externen Reporting-Plattform exportiert werden.
+Sie können beispielsweise die Hilfsfunktion „Ausführungsmetadaten“ verwenden, um eine bestimmte ID an jeden Versand anzuhängen, der an jedes Profil gesendet wird. Diese Informationen werden zur Laufzeit generiert und die angereicherten Ausführungsmetadaten können dann zur nachgelagerten Abstimmung mit einer externen Reporting-Plattform exportiert werden.
 
 **Funktionsweise**
 
-Wählen Sie in einer Kampagne oder auf einer Journey ein beliebiges Element aus Ihrem Kanalinhalt aus und fügen Sie mithilfe des Personalisierungseditors den `executionMetadata` Helper zu diesem Element hinzu.
+Wählen Sie in einer Kampagne oder Journey ein beliebiges Element aus Ihrem Kanalinhalt aus und fügen Sie mithilfe des Personalisierungseditors diesem Element die Hilfsfunktion `executionMetadata` hinzu.
 
 >[!NOTE]
 >
->Die Funktion Ausführungsmetadaten ist nicht sichtbar, wenn der Inhalt selbst angezeigt wird.
+>Die Funktion „Ausführungsmetadaten“ ist nicht sichtbar, wenn der Inhalt selbst angezeigt wird.
 
 
-Zur Laufzeit wird der Metadatenwert dem vorhandenen **[!UICONTROL Nachrichten-Feedback-Ereignisdatensatz“ hinzugefügt]** wobei das folgende Schema hinzugefügt wird:
+Zur Laufzeit wird der Metadatenwert dem vorhandenen **[!UICONTROL Nachrichten-Feedback-Ereignisdatensatz]** hinzugefügt, wobei das folgende Schema hinzugefügt wird:
 
 ```
 "_experience": {
@@ -263,13 +263,13 @@ Zur Laufzeit wird der Metadatenwert dem vorhandenen **[!UICONTROL Nachrichten-Fe
 
 >[!NOTE]
 >
->Weitere Informationen zu Datensätzen finden [&#x200B; in diesem Abschnitt](../../data/get-started-datasets.md).
+>In [diesem Abschnitt](../../data/get-started-datasets.md) erfahren Sie mehr über Datensätze.
 
 **Einschränkung**
 
-Für die Schlüssel-Wert-Paare pro Aktion gibt es eine Obergrenze von 2 KB.
+Die Obergrenze für Schlüssel-Wert-Paare pro Aktion ist 2 KB.
 
-Wenn das 2KB-Limit überschritten wird, wird die Nachricht weiterhin zugestellt, aber jedes der Schlüssel-Wert-Paare kann abgeschnitten werden.
+Wenn die Grenze von 2 KB überschritten wird, wird die Nachricht weiterhin zugestellt, aber jedes der Schlüssel-Wert-Paare kann abgeschnitten werden.
 
 **Beispiel**
 
@@ -277,7 +277,7 @@ Wenn das 2KB-Limit überschritten wird, wird die Nachricht weiterhin zugestellt,
 {{executionMetadata key="firstName" value=profile.person.name.firstName}}
 ```
 
-In diesem Beispiel wird unter der Annahme `profile.person.name.firstName` = „Alex“, die resultierende Entität:
+In diesem Beispiel ist unter der Annahme `profile.person.name.firstName` = „Alex“ die resultierende Entität:
 
 ```
 {

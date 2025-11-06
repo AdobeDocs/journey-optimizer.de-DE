@@ -2,93 +2,93 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Arbeiten mit Journey-Schrittereignissen
-description: Erfahren Sie, wie Sie mit Journey-Schrittereignissen in Adobe Journey Optimizer arbeiten - verstehen Sie, was sie sind, warum sie wichtig sind und wie Sie sie für Analysen und Optimierungen verwenden können
+description: Informationen zur Arbeit mit Journey-Schrittereignissen in Journey Optimizer und Grundlegendes dazu, was sie sind, wieso sie wichtig sind und wie sie für Analyse und Optimierung verwendet werden
 feature: Journeys, Reporting
 role: Developer, Admin, User
 level: Intermediate, Experienced
-keywords: Journey, Schrittereignisse, Analysen, Reporting, Überwachung, XDM
+keywords: Journey, Schrittereignisse, Analyse, Reporting, Monitoring, XDM
 source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 2%
+ht-degree: 99%
 
 ---
 
 # Arbeiten mit Journey-Schrittereignissen {#work-with-journey-step-events}
 
-Journey-Schrittereignisse sind automatisch generierte Ereignisse, die detaillierte Informationen zu jedem Schritt erfassen[&#x200B; den ein &#x200B;](../audience/get-started-profiles.md) durchläuft, während sie eine [Journey](../building-journeys/journey.md) in Adobe Journey Optimizer durchlaufen. Diese Ereignisse bieten umfassende Einblicke in die [Journey-Leistung](../building-journeys/report-journey.md) und ermöglichen leistungsstarke Analysefunktionen.
+Journey-Schrittereignisse sind automatisch generierte Ereignisse, die detaillierte Informationen zu jedem Schritt erfassen, den ein [Profil](../audience/get-started-profiles.md) beim Fortschreiten in einer [Journey](../building-journeys/journey.md) in Adobe Journey Optimizer durchläuft. Diese Ereignisse bieten umfassende Einblicke in die [Journey-Leistung](../building-journeys/report-journey.md) und ermöglichen leistungsstarke Analysefunktionen.
 
 ## Was sind Journey-Schrittereignisse? {#what-are-step-events}
 
-Journey-Schrittereignisse sind systemgenerierte [XDM (Experience-Datenmodell)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Ereignisse, die Adobe Journey Optimizer automatisch erstellt und an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target="_blank"} sendet, wenn ein Profil auf einem Journey von einem Knoten zu einem anderen wechselt. Jedes Ereignis entspricht einer bestimmten [Journey-Aktivität &#x200B;](../building-journeys/about-journey-activities.md) Transition im Journey-Erlebnis des Kunden.
+Journey-Schrittereignisse sind systemgenerierte [XDM-Ereignisse (Experience-Datenmodell)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}, die Adobe Journey Optimizer automatisch erstellt und an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target="_blank"} sendet, wenn ein Profil sich in einer Journey von einem Knoten zu einem anderen bewegt. Jedes Ereignis entspricht einer bestimmten [Journey-Aktivität](../building-journeys/about-journey-activities.md) oder Transition im Journey-Erlebnis der Kundin bzw. des Kunden.
 
 Es gibt zwei Haupttypen von Journey-Schrittereignissen:
 
 - **journeyStepEvent**: Ereignisse im Zusammenhang mit dem Fortschritt einzelner Profile durch Journey-Schritte
 - **journeyStepProfileEvent**: Ereignisse, die zusätzliche Profilkontextinformationen enthalten
 
-### Welche Trigger Journey-Schrittereignisse? {#event-triggers}
+### Wodurch werden Journey-Schrittereignisse ausgelöst? {#event-triggers}
 
 Journey-Schrittereignisse werden automatisch für verschiedene Journey-Aktivitäten generiert:
 
-- **Eintrittsereignisse**: Wenn ein Profil [auf eine Journey gelangt](../building-journeys/entry-management.md)
+- **Eintrittsereignisse**: Wenn ein Profil [in eine Journey eintritt](../building-journeys/entry-management.md)
 - **Aktionsausführung**: Wenn [Nachrichten gesendet werden](../building-journeys/journeys-message.md) oder [benutzerdefinierte Aktionen](../building-journeys/using-custom-actions.md) ausgeführt werden
 - **Bedingungsauswertung**: Wenn Profile [Bedingungen](../building-journeys/condition-activity.md) und Entscheidungspunkte durchlaufen
-- **Warteaktivitäten**: Beim Eintreten und Verlassen von Profilen [Warteknoten](../building-journeys/wait-activity.md)
-- **Beendigungsereignisse**: Wenn Profile abgeschlossen sind oder [eine Journey beenden](../building-journeys/end-journey.md)
+- **Warteaktivitäten**: Wenn Profile in [Warteknoten](../building-journeys/wait-activity.md) eintreten und aus ihnen aussteigen
+- **Ausstiegsereignisse**: Wenn Profile [aus einer Journey aussteigen](../building-journeys/end-journey.md)
 - **Fehlerbehandlung**: Wenn bei der Journey-Ausführung Fehler auftreten
 
 >[!NOTE]
 >
->Journey-Schrittereignisse sind standardmäßig auf allen Instanzen aktiviert. Sie können die ([&#x200B; und Datensätze), &#x200B;](sharing-overview.md) bei der Bereitstellung für Schrittereignisse erstellt wurden, nicht ändern oder aktualisieren. Diese Schemata und Datensätze befinden sich im schreibgeschützten Modus.
+>Journey-Schrittereignisse sind standardmäßig auf allen Instanzen aktiviert. Sie können die bei der Bereitstellung für Schrittereignisse erstellten [Schemata und Datensätze](sharing-overview.md) nicht ändern oder aktualisieren. Diese Schemata und Datensätze sind schreibgeschützt.
 
-Weitere Informationen zu [Journey-Schrittereignisschemata](sharing-field-list.md).
+Erfahren Sie mehr über [Journey-Schrittereignisschemata](sharing-field-list.md).
 
-## Warum Journey-Schrittereignisse wichtig sind {#why-step-events-matter}
+## Bedeutung von Journey-Schrittereignissen {#why-step-events-matter}
 
-Journey-Schrittereignisse bieten einen entscheidenden Wert für Unternehmen, die Adobe Journey Optimizer verwenden:
+Journey-Schrittereignisse bieten einen entscheidenden Wert für Organisationen, die Adobe Journey Optimizer verwenden:
 
-### Echtzeit-Analyse und -Überwachung {#real-time-analytics}
+### Echtzeit-Analyse und -Monitoring {#real-time-analytics}
 
-- **Journey-Leistungs-Tracking**: Überwachen Sie mithilfe von Live[Berichten in Echtzeit, wie Profile durch Ihre Journey fließen](live-report.md)
-- **Konversionsanalyse**: Mit [Journey-Analysen lernen Sie Abbruchpunkte und erfolgreiche Konversionspfade kennen](journey-global-report-cja.md)
-- **Fehlererkennung**: Identifizieren und Beheben von Problemen, während sie durch [Überwachung und Warnhinweise](alerts.md) auftreten
+- **Tracking der Journey-Leistung**: Überwachen Sie mithilfe von [Live-Berichten](live-report.md) in Echtzeit, wie Profile Ihre Journey durchlaufen
+- **Konversionsanalyse**: Erfahren Sie durch [Journey-Analysen](journey-global-report-cja.md) mehr zu Abbruchpunkten und erfolgreichen Konversionspfaden
+- **Fehlererkennung**: Identifizieren und beheben Sie durch [Monitoring und Warnhinweise](alerts.md) Probleme, sofort nachdem diese auftreten
 
 ### Datenintegration und Erkenntnisse {#data-integration}
 
 - **Plattformübergreifende Analyse**: Kombinieren Sie Journey-Daten mit anderen [Adobe Experience Platform-Datenquellen](../datasource/adobe-experience-platform-data-source.md)
-- **Kunden-360-Ansicht**: Erstellen Sie umfassende [Kundenprofile](../audience/get-started-profiles.md) die Journey-Interaktionen beinhalten
-- **Attributionsmodellierung**: Verbinden von Journey-Touchpoints mit nachgelagerten Geschäftsergebnissen mithilfe von [Customer Journey Analytics](cja-ajo.md)
+- **360-Grad-Kundenansicht**: Erstellen Sie umfassende [Kundenprofile](../audience/get-started-profiles.md), die Journey-Interaktionen beinhalten
+- **Attributionsmodellierung**: Verbinden Sie mithilfe von [Customer Journey Analytics](cja-ajo.md) Journey-Touchpoints mit nachgelagerten Geschäftsergebnissen
 
 ### Optimierungsmöglichkeiten {#optimization}
 
-- **A/B-Testeinblicke**: Analysieren der Performance verschiedener Journey-Pfade mithilfe von [Experimentieren](campaign-global-report-cja-experimentation.md)
-- **Personalization-Verbesserung**: Verwenden Sie Journey-Verhaltensdaten, um zukünftige Erlebnisse mit ([&#x200B; Inhalten) &#x200B;](../personalization/dynamic-content.md) verbessern
-- **Betriebseffizienz**: Ermittlung von Engpässen und Optimierung des [Journey-Designs](../building-journeys/using-the-journey-designer.md)
+- **A/B-Testerkenntnisse**: Analysieren Sie mithilfe von [Experimenten](campaign-global-report-cja-experimentation.md) die Leistung verschiedener Journey-Pfade
+- **Verbesserung der Personalisierung**: Verwenden Sie Journey-Verhaltensdaten, um zukünftige Erlebnisse mit [dynamischen Inhalten](../personalization/dynamic-content.md) zu verbessern
+- **Betriebliche Effizienz**: Identifizieren Sie Engpässe und optimieren Sie das [Journey-Design](../building-journeys/using-the-journey-designer.md)
 
 ## Verwenden von Journey-Schrittereignissen {#how-to-use-step-events}
 
-### Zugreifen auf Journey-Schritt-Ereignisdaten {#accessing-data}
+### Zugreifen auf Daten von Journey-Schrittereignissen {#accessing-data}
 
-Journey-Schrittereignisdaten werden automatisch in Adobe Experience Platform gespeichert und können wie folgt aufgerufen werden:
+Daten von Journey-Schrittereignissen werden automatisch in Adobe Experience Platform gespeichert und können wie folgt aufgerufen werden:
 
-1. **Data Lake-Abfragen**: Verwenden Sie SQL, um den `journey_step_events`-Datensatz mit dem [Abfrage-Service) &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"}
-2. **Customer Journey Analytics**: Analysieren von Journey-Daten mit [erweiterten Analyse-Tools](cja-ajo.md)
-3. **Echtzeit-Reporting**: Zugriff auf Daten über die [&#x200B; Reporting-Funktionen von Journey Optimizer](gs-reports.md)
-4. **APIs**: Programmgesteuerter Zugriff auf Ereignisdaten für benutzerdefinierte Programme
+1. **Data-Lake-Abfragen**: Verwenden Sie SQL, um den `journey_step_events`-Datensatz mit dem [Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"} abzufragen
+2. **Customer Journey Analytics**: Analysieren Sie Journey-Daten mit [erweiterten Analyse-Tools](cja-ajo.md)
+3. **Echtzeit-Reporting**: Greifen Sie über die [nativen Reporting-Funktionen](gs-reports.md) von Journey Optimizer auf Daten zu
+4. **APIs**: Greifen Sie programmgesteuert auf Ereignisdaten für benutzerdefinierte Anwendungen zu
 
-Weitere Informationen über [Zugriff auf Datensätze](../data/datasets-query-examples.md).
+Erfahren Sie mehr über den [Zugriff auf Datensätze](../data/datasets-query-examples.md).
 
 ### Wichtige verfügbare Datenpunkte {#key-data-points}
 
 Journey-Schrittereignisse erfassen umfassende Informationen, darunter:
 
-- **Journey-Identifizierung**: [Journey-ID, Version und Name](sharing-journey-fields.md)
+- **Journey-Identifizierung**: [Journey-ID, -Version und -Name](sharing-journey-fields.md)
 - **Profilinformationen**: [Profil-ID und zugehörige Identitäten](sharing-identity-fields.md)
 - **Schrittdetails**: [Knotenname, Schritttyp und Ausführungsstatus](sharing-common-fields.md)
-- **Zeitstempel**: Präzise Zeitplanung für jeden Journey-Schritt
+- **Zeitstempel**: Präzises Timing für jeden Journey-Schritt
 - **Aktionsergebnisse**: [Erfolgs-/Fehlerstatus und Ausführungsdetails](sharing-execution-fields.md)
-- **Fehlerinformationen**: Detaillierte [Fehlercodes und -beschreibungen](sharing-field-list.md#discarded-events) wenn Probleme auftreten
+- **Fehlerinformationen**: Detaillierte [Fehler-Codes und -beschreibungen](sharing-field-list.md#discarded-events) bei Problemen
 
 Erkunden Sie alle [verfügbaren Felddefinitionen](sharing-field-list.md).
 
@@ -116,72 +116,72 @@ WHERE _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NU
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
 
-**Journey funnel Analysis**
+**Journey-Trichteranalyse**
 
-- Konversionsraten bei jedem Journey-Schritt verfolgen
-- Identifizieren Sie, wo Profile am häufigsten die Journey verlassen
-- Messen der Besuchszeit in verschiedenen Journey-Phasen
+- Nachverfolgen von Konversionsraten bei jedem Journey-Schritt
+- Identifizieren, wo Profile am häufigsten aus der Journey aussteigen
+- Messen der in verschiedenen Journey-Phasen verbrachten Zeit
 
-Weitere Informationen [Abfragetechniken für die funnel-Analyse](query-examples.md#common-queries).
+Weitere Informationen finden Sie unter [Abfragetechniken für die Trichteranalyse](query-examples.md#common-queries).
 
 ## Beispiele und Ressourcen {#samples-resources}
 
 ### Abfragebeispiele und Vorlagen {#query-examples}
 
-Erkunden Sie umfassende Abfragebeispiele für die gängige Journey-Schrittereignisanalyse:
+Erkunden Sie umfassende Abfragebeispiele für gängige Journey-Schrittereignisanalysen:
 
 - **[Beispiele für Journey-Schrittereignisabfragen](query-examples.md)**: Einsatzbereite SQL-Abfragen für gängige Analyseszenarien
-- **[Beispiele für Datensatzabfragen](../data/datasets-query-examples.md#journey-step-event)**: Beispiele für das Abfragen von Journey-Schritt-Ereignisdatensätzen
-- **[Profilbasierte Abfragen](query-examples.md#profile-based-queries)**: Verfolgen Sie einzelne Journey und Interaktionen des Profils
+- **[Beispiele für Datensatzabfragen](../data/datasets-query-examples.md#journey-step-event)**: Beispiele für das Abfragen von Journey-Schrittereignisdatensätzen
+- **[Profilbasierte Abfragen](query-examples.md#profile-based-queries)**: Verfolgen von individuellen Profil-Journeys und -Interaktionen
 
 ### Felddokumentation {#field-documentation}
 
 Machen Sie sich mit der vollständigen Datenstruktur von Journey-Schrittereignissen vertraut:
 
-- **[Journey-Schritt-Ereignisfeldliste](sharing-field-list.md)**: Umfassende Referenz aller verfügbaren Felder
+- **[Liste mit Journey-Schrittereignisfeldern](sharing-field-list.md)**: Umfassende Sammlung aller verfügbaren Felder
 - **[Gemeinsame Felder](sharing-common-fields.md)**: Freigegebene Felder in journeyStepEvent und journeyStepProfileEvent
-- **[Aktionsausführungsfelder](sharing-execution-fields.md)**: Felder, die für das Tracking der Aktionsausführung spezifisch sind
+- **[Aktionsausführungsfelder](sharing-execution-fields.md)**: Für das Tracking der Aktionsausführung spezifische Felder
 - **[Journey-Felder](sharing-journey-fields.md)**: Journey-spezifische Metadaten und Kennungen
 
 ### Best Practices und Fehlerbehebung {#best-practices}
 
 **Leistungsoptimierung**
 
-- Verwenden Sie `journeyVersionID` anstelle von `journeyVersionName` für eine bessere Abfrageleistung ([&#x200B; Sie mehr über Journey-Eigenschaften](../building-journeys/expression/journey-properties.md))
-- Filtern nach Datumsbereichen, um die Abfrageschwindigkeit für große Datensätze zu verbessern
-- Nutzen Sie Profilidentitäten, die Ihrer [Journey-Namespace-Konfiguration entsprechen](../building-journeys/entry-management.md)
+- Verwenden Sie `journeyVersionID` anstelle von `journeyVersionName` zum Erzielen einer besseren Abfrageleistung ([Informationen zu Journey-Eigenschaften](../building-journeys/expression/journey-properties.md))
+- Filtern Sie nach Datumsbereichen, um die Abfragegeschwindigkeit für große Datensätze zu verbessern
+- Nutzen Sie Profilidentitäten, die Ihrer [Journey-Namespace-Konfiguration](../building-journeys/entry-management.md) entsprechen
 
 **Datenqualität**
 
-- Regelmäßige Überwachung auf [verworfene Ereignisse](sharing-field-list.md#discarded-events) um Datenprobleme zu identifizieren
-- Überprüfen, ob Ereignisschemata Ihren Analyseanforderungen entsprechen
-- Implementieren einer ordnungsgemäßen Fehlerbehandlung in benutzerdefinierten Abfragen
+- Überprüfen Sie regelmäßig auf [verworfene Ereignisse](sharing-field-list.md#discarded-events), um Datenprobleme zu identifizieren
+- Überprüfen Sie, ob Ereignisschemata Ihren Analyseanforderungen entsprechen
+- Implementieren Sie eine ordnungsgemäße Fehlerbehandlung in benutzerdefinierten Abfragen
 
-**Analytics-Strategien**
+**Analysestrategien**
 
-- Kombinieren von Journey-Schrittereignissen mit [Nachrichten-Feedback-Daten](../data/datasets-query-examples.md#message-feedback-event-dataset) für eine vollständige Attribution
-- Zeitbasierte Analyse zum Verständnis der Journey-Geschwindigkeit und von Engpässen
+- Kombinieren Sie Journey-Schrittereignisse mit [Nachrichten-Feedback-Daten](../data/datasets-query-examples.md#message-feedback-event-dataset) für vollständige Attribution
+- Verwenden Sie zeitbasierte Analysen zum Verstehen von Journey-Geschwindigkeit und Engpässen
 
 ### Erweiterte Analysefunktionen {#advanced-analytics}
 
 **Customer Journey Analytics-Integration**
-Journey-Schrittereignisse können mit [Customer Journey Analytics](cja-ajo.md) analysiert werden für:
+Journey-Schrittereignisse können mit [Customer Journey Analytics](cja-ajo.md) für Folgendes analysiert werden:
 
 - Erweiterte Attributionsmodellierung
-- Kanalübergreifende Journey-Visualisierung
-- Predictive Analytics beim Journey von Ergebnissen
+- Cross-Channel-Journey-Visualisierung
+- Prädiktive Analyse der Journey-Ergebnisse
 
-Erfahren Sie, wie [Customer Journey Analytics konfigurieren](report-gs-cja.md) für Journey Optimizer-Daten.
+Erfahren Sie, wie Sie [Customer Journey Analytics](report-gs-cja.md) für Journey Optimizer-Daten konfigurieren.
 
 ## Weitere Ressourcen {#additional-resources}
 
 ### Links zur Dokumentation {#documentation-links}
 
-- **[Übersicht über die Freigabe von Journey-Schritten](sharing-overview.md)**: So fließen Journey-Daten in Adobe Experience Platform
-- **[Wörterbuch zu integrierten Schemata](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}**: Vollständige XDM-Schemareferenz
-- **[Journey Optimizer-Reporting](report-gs-cja.md)**: Übersicht über die Reporting-Funktionen in Journey Optimizer
+- **[Überblick über die Freigabe von Journey-Schritten](sharing-overview.md)**: Grundlegendes zum Erfassen von Journey-Daten in Adobe Experience Platform
+- **[Wörterbuch zu nativen Schemata](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}**: Vollständige XDM-Schemareferenz
+- **[Journey Optimizer-Reporting](report-gs-cja.md)**: Überblick über die Reporting-Funktionen in Journey Optimizer
 
-### Integrationshandbücher {#integration-guides}
+### Integrationsanleitung {#integration-guides}
 
 - **[Adobe Customer Journey Analytics](cja-ajo.md)**: Analysieren von Journey Optimizer-Daten in CJA
 - **[Daten-Management](../data/export-datasets.md)**: Exportieren und Verwalten von Journey-Daten
@@ -190,6 +190,6 @@ Erfahren Sie, wie [Customer Journey Analytics konfigurieren](report-gs-cja.md) f
 
 **Nächste Schritte:**
 
-- Beginnen Sie mit [Erstellen Ihrer ersten Journey-Berichte](sharing-overview.md)
+- Beginnen Sie mit dem [Erstellen Ihrer ersten Journey-Berichte](sharing-overview.md)
 - Erkunden Sie [Abfragebeispiele](query-examples.md) für bestimmte Anwendungsfälle
-- Erfahren Sie mehr über Best Practices für die [Journey-Verwaltung](../building-journeys/journey.md)
+- Weitere Informationen zu [Best Practices für das Journey-Management](../building-journeys/journey.md)

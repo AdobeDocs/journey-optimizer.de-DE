@@ -25,7 +25,7 @@ Auf dieser Seite finden Sie wichtige Ressourcen, die Ihnen helfen, den Zustand d
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Abrufen und Abonnieren von Systemwarnungen
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie auf Systemwarnungen zugreifen, Benachrichtigungen abonnier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referenz zu Fehler-Codes
 
@@ -45,7 +45,7 @@ Erfahren Sie mehr über häufige Fehler-Codes in Adobe Journey Optimizer und fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Fehlerbehebung vor dem Testen oder Veröffentlichen der Journey
 
@@ -55,7 +55,7 @@ Identifizieren und beheben Sie Journey-weite Fehler und Aktivitätsprobleme und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fehlerbehebung bei der Live-Journey-Ausführung
 
@@ -65,7 +65,7 @@ Diagnostizieren Sie Probleme mit der Ereignisvalidierung, dem Profileintrag, der
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fehlerbehebung bei eingehenden Aktionen in Journey
 
@@ -75,7 +75,7 @@ Beheben Sie mithilfe detaillierter Handbücher Probleme mit eingehenden Aktionen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Fehlerbehebung bei benutzerdefinierten Aktionen
 

@@ -5,10 +5,10 @@ title: Erste Schritte
 description: Erste Schritte
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -22,7 +22,7 @@ In diesem Abschnitt werden die Kernfunktionen der Plattform vorgestellt - von de
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Wichtige Funktionen
 
@@ -32,7 +32,7 @@ Entdecken Sie die Kernfunktionen, Anwendungsfälle und die Architektur von Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Überblick über die Architektur
 
@@ -42,7 +42,7 @@ Erfahren Sie, wie Adobe Journey Optimizer mit Adobe Experience Platform integrie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Rollen und Verantwortlichkeiten
 
@@ -52,7 +52,7 @@ Verschaffen Sie sich einen Überblick über die Rollen und Workflows, die zur ef
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Übersicht über die Benutzeroberfläche
 
@@ -62,7 +62,7 @@ Navigieren Sie in der Benutzeroberfläche von Adobe Journey Optimizer und erkund
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Suchen, Filtern und Organisieren von Inhalten
 
@@ -72,13 +72,13 @@ Verwenden Sie Such-, Filter- und Tagging-Funktionen, um Ihre Journeys, Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Leitlinien und Einschränkungen
 
 Erfahren Sie mehr über Einschränkungen und empfohlene Vorgehensweisen zur effektiven Verwendung der Funktionen von Adobe Journey Optimizer.
 
-[Informationen zu grundlegenden Konzepten](../using/start/guardrails.md)
+[Schutzmechanismen und Einschränkungen überprüfen](../using/start/guardrails.md)
 :::
 
 ::::

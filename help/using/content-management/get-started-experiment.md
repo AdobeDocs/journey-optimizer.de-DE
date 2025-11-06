@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 98%
+source-wordcount: '2085'
+ht-degree: 94%
 
 ---
 
@@ -181,3 +181,12 @@ Nach der Durchführung eines Experiments gibt es mehrere mögliche Folgemaßnahm
   >[!CAUTION]
   >
   >Je mehr Analysen durchgeführt werden, desto höher ist die Wahrscheinlichkeit, einen falschen oder falsch positiven Effekt zu erkennen.
+
+## Weitere Ressourcen
+
+* **[Inhaltsexperimente erstellen](content-experiment.md)** Erfahren Sie, wie Sie A/B-Tests entwerfen und konfigurieren, um die Leistung Ihrer Nachricht zu optimieren.
+* **[Experimentberechnungen](experiment-calculations.md)** - Verstehen Sie die statistischen Methoden und Metriken, die in der Experimentationsanalyse verwendet werden.
+* **[Mehrarmiger Bandit vs. A/B-Tests](mab-vs-ab.md)** - Vergleichen Sie verschiedene Experimentieransätze und den Zeitpunkt der Verwendung der einzelnen Methoden.
+* **[Experimentbeschleuniger](experiment-accelerator-gs.md)** - Entdecken Sie, wie Sie das Experimentieren mit KI-gestützter Optimierung beschleunigen können.
+* **[Berechnungen des Experimentberichts](experiment-report-calculations.md)** - Erfahren Sie, wie Sie Experimentergebnisse und statistische Signifikanz interpretieren.
+* **[Experimentier-](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}**: Sehen Sie sich Schritt-für-Schritt-Video-Tutorials zu Inhaltsexperimenten und Best Practices an.

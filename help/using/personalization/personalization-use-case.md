@@ -12,7 +12,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 * Konfigurieren eines Bestellereignisses mit Bestellnummer, Status und Artikelnamen. Siehe diesen [Abschnitt](../event/about-events.md).
 * Informationen zum Erstellen einer Entscheidung finden Sie in diesem [Abschnitt](../offers/offer-activities/create-offer-activities.md).
 
-➡️ [Entdecken Sie einen ähnlichen Anwendungsfall im Video](#video)
+➡️ [Einen ähnlichen Anwendungsfall finden Sie im Video](#video)
 
 ## Schritt 1 – Journey erstellen {#create-journey}
 
@@ -110,4 +110,4 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
 Das folgende Video zeigt ein ähnliches Anwendungsbeispiel, in dem kontextbezogene Daten von einer Journey zur Personalisierung einer E-Mail genutzt werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428526?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

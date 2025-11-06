@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Ausdrücke werden von links nach rechts ausgewertet. Die Assoziativität bei ari
 
 | Ausdruck | Auswertung |
 |--- |--- |
-| `4 + 2 * 10` | <ul><li>&#39;*&#39; hat Priorität vor &#39;+&#39;: 2 \* 10 wird → 20 ausgewertet</li><li>4 + 20 → 24</li></ul> |
+| `4 + 2 * 10` | <ul><li>„*“ hat Vorrang vor „+“: 2 \* 10 wird ausgewertet → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Klammern ändern die Priorität: (4 + 2) wird ausgewertet als → 6</li><li> 6 * 10 → 60</li></ul> |
 
 ## Groß-/Kleinschreibung {#case-sensitivity}

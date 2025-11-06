@@ -12,7 +12,7 @@ exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
 source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Der Prozess der Inhaltserstellung hängt vom ausgewählten Kanal ab. Auf den fol
 
 Sie können zusätzliche Daten zur Personalisierung Ihrer Nachricht an die API-Payload übergeben.
 
-In diesem Beispiel möchten Kunden ihr Kennwort zurücksetzen. Sie senden ihnen deshalb zum Zurücksetzen des Kennworts eine URL, die in einem Drittanbieter-Tool generiert wird. Bei von einer API ausgelösten Kampagnen können Sie diese generierte URL in die API-Payload übergeben und in der Kampagne in die Nachricht einfügen.
+In diesem Beispiel möchten Kundinnen oder Kunden ihr Kennwort zurücksetzen. Sie senden ihnen deshalb zum Zurücksetzen des Kennworts eine URL, die in einem Drittanbieter-Tool generiert wird. Bei durch API ausgelösten Kampagnen können Sie diese generierte URL in die API-Payload übergeben und in der Kampagne in die Nachricht einfügen.
 
 Dazu müssen Sie sie an die API-Payload übergeben und mithilfe des Personalisierungseditors in Ihre Nachricht einfügen.  Verwenden Sie die Syntax `{{context.<contextualAttribute>}}`, wobei `<contextualAttribute>` mit dem Namen der Variablen in Ihrer API-Payload übereinstimmen muss, die die zu übergebenden Daten enthält.
 
@@ -53,7 +53,7 @@ Beachten Sie, dass im Menü in der linken Leiste derzeit kein kontextuelles Attr
 
 **Unbedingt lesen**
 
-* Die in die Anfrage übergebenen kontextuellen Attribute dürfen 200 KB nicht überschreiten und werden immer als vom Typ „Zeichenfolge“ betrachtet.
+* Die in die Anfrage übergebenen Kontextattribute dürfen 200 KB nicht überschreiten und sind stets vom Typ „String“.
 * Die Syntax `context.system` ist auf die interne Nutzung bei Adobe beschränkt und sollte nicht zur Weitergabe von kontextuellen Attributen verwendet werden.
 * Im Gegensatz zu profilaktivierten Ereignissen werden die in der REST-API übergebenen kontextuellen Daten für die einmalige Kommunikation verwendet und nicht im Profil gespeichert. Das Profil wird nur mit den Namespace-Details erstellt, falls es nicht vorhanden ist.
 * Die Verwendung einer großen Zahl oder umfangreicher kontextueller Daten in Ihren Inhalten kann die Performance beeinträchtigen.

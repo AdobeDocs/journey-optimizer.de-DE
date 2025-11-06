@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
-source-git-commit: c24dc217567cc65f8ce0dc79d648f016cd8ad740
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 70%
 
 ---
 
@@ -46,3 +46,9 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, Benutzenden relevante Rich-M
 <p>
 </td>
 </tr></table>
+
+## Weitere Ressourcen
+
+* **[Inhaltskarten in Landingpages](content-card-lp.md)** - Erfahren Sie, wie Sie Inhaltskarten in Landingpages implementieren, um die Interaktion zu verbessern.
+* **[Berichte zur Inhaltskarte](content-card-report.md)** - Verfolgen und analysieren Sie die Leistung der Inhaltskarte mit detaillierten Metriken und Erkenntnissen.
+* **[Inhaltskarten-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - Erkunden Sie die schrittweisen Video-Tutorials zu den Funktionen und Best Practices von Inhaltskarten.

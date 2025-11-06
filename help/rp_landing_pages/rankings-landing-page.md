@@ -20,7 +20,7 @@ Mit Ranglisten in Adobe Journey Optimizer können Sie anpassen, welche Angebote 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Erste Schritte mit Ranglisten
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Grundlagen von Ranglisten in Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen und Verwenden von Ranglistenformeln
 
@@ -40,7 +40,7 @@ Folgen Sie den schrittweisen Anweisungen, um Ranglistenformeln mithilfe der PQL-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 KI-Modelle für das Ranking von Angeboten
 

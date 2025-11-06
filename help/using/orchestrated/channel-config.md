@@ -5,7 +5,7 @@ title: Konfigurieren der Kanalkonfiguration
 description: Informationen zum Konfigurieren der Kanalkonfiguration
 version: Campaign Orchestration
 source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 

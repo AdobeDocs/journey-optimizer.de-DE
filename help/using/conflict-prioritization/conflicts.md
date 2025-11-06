@@ -5,7 +5,7 @@ role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Nachfolgend finden Sie eine Zusammenfassung darüber, wie Journey Optimizer pote
 
 * **Umfang der Konfliktidentifizierung**: Konflikte werden nur für aktive oder geplante Kampagnen und Journeys angezeigt.
 * **Unitäre Journeys**: Wenn die ausgewählte Journey unitär ist, werden andere Journeys angezeigt, die mit demselben Ereignis beginnen, da dieses Ereignis alle diese Journeys auslöst.
-* **Zielgruppenqualifikation und die Journeys „Zielgruppe lesen“/„Geschäftsereignis lesen“**: Wenn es sich bei der ausgewählten Journey entweder um eine Zielgruppenqualifikation oder die Journey „Zielgruppe lesen“ oder „Geschäftsereignis lesen“ handelt, werden alle anderen Journeys desselben Typs mit einer gültigen Zielgruppe angezeigt, da es Überschneidungen zwischen den Zielgruppen geben kann.
+* **Zielgruppenqualifizierung und die Journeys „Zielgruppe lesen“/„Geschäftsereignis lesen“**: Wenn es sich bei der ausgewählten Journey entweder um eine Zielgruppenqualifizierung oder die Journey „Zielgruppe lesen“ oder „Geschäftsereignis lesen“ handelt, werden alle anderen Journeys desselben Typs mit einer gültigen Zielgruppe angezeigt, da es Überschneidungen zwischen den Zielgruppen geben kann.
 * **Kampagnen**: Da alle Kampagnen auf Zielgruppen ausgerichtet sind und es kein Konzept für Ereignisse gibt, können alle Kampagnen potenziell mit segmentgesteuerten Journeys (beginnend mit der Aktivität „Zielgruppe lesen“) in Konflikt stehen.
 * **Live-/Geplante Kampagnen**: Live- und geplante Kampagnen können aufgrund möglicher Überschneidungen bei den Zielgruppen miteinander in Konflikt stehen. Für jede beliebige Kampagne werden alle Live- oder geplanten Kampagnen in der Konfliktansicht aufgelistet.
 

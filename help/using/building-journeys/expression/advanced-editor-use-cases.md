@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ Sprechen Sie in erster Linie Kunden an, die den Online-Store besucht, aber in de
 
 `In ("addToCart", #{field reference from experience event})`
 
-**Dieser Ausdruck sucht nach allen Ereignissen für diesen Benutzer, die in den letzten sieben Tagen spezifiziert wurden:**
+**Dieser Ausdruck sucht nach allen Ereignissen für diese Person, die in den letzten sieben Tagen spezifiziert wurden:**
 
-Anschließend werden alle zum Warenkorb hinzufügen -Ereignisse ausgewählt, die sich nicht in einen completePurchase-Vorgang umgewandelt haben.
+Anschließend werden alle Ereignisse ausgewählt, bei denen etwas dem Warenkorb hinzugefügt wurde, es jedoch nicht zu einem „completePurchase“ kam.
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Von dort können Sie einen weiteren Pfad zu Ihrer Journey hinzufügen, wenn das 
 
 **In Bedingungen**
 
-Diese Bedingung ruft nur die in „Arlington“ ausgelösten Geofence-Ereignisse ab:
+Diese Bedingung ruft nur die Geofence-Ereignisse ab, die in „Arlington“ ausgelöst wurden:
 
 ```json
         @event{GeofenceEntry

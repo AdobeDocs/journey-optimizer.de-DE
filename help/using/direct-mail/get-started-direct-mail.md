@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '236'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 76%
 
 ---
 
@@ -33,5 +33,13 @@ Die wichtigsten Schritte zum Senden von Briefpostnachrichten sind:
 >Direkt-Mail-Nachrichten können nur im Rahmen geplanter Kampagnen erstellt werden. Sie sind nicht für die Verwendung in orchestrierten und von APIs ausgelösten Kampagnen oder in Journeys verfügbar.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
+
+## Weitere Ressourcen
+
+* **[Briefpost erstellen](create-direct-mail.md)** - Erfahren Sie, wie Sie Briefpost-Sendungen erstellen und Extraktionsdateien für Offline-Kanäle konfigurieren.
+* **[Konfigurieren des Briefpostkanals](direct-mail-configuration.md)** - Richten Sie Briefpost-Oberflächen und Datei-Routing-Konfigurationen ein.
+* **[Briefpost in Journey](direct-mail-journeys.md)** - Erfahren Sie, wie Sie Briefpost-Aktionen in Kunden-Journey verwenden.
+* **[Testen und Senden von Briefpost](test-send-direct-mail.md)** - Erfahren Sie, wie Sie Ihre Briefpost-Sendungen testen, validieren und veröffentlichen.
+* **[Briefpost-Tutorials](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - Erkunden Sie die schrittweisen Video-Tutorials zu den Funktionen und Best Practices von Briefpost.
 
 

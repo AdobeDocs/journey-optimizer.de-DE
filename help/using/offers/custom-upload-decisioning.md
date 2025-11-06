@@ -9,7 +9,7 @@ exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Weiterführende Informationen zu benutzerdefinierten Upload-Zielgruppen finden S
 ## Wichtige Informationen {#must-read}
 
 * Diese Funktion wird nur beim **Entscheidungs-Management** unterstützt, nicht bei der Entscheidungsfindung (zuvor „Erlebnis-Entscheidung“).
-* Sie ist ausschließlich über **Decisioning-API (Hub)**-Anfragen verfügbar und wird von **Edge Decisioning-** oder **Batch Decisioning** nicht unterstützt.
+* Sie ist ausschließlich über Anfragen der **Decisioning-API (Hub)** verfügbar und wird nicht von der **Edge Decisioning-API** oder der **Batch-Entscheidungsfindung** unterstützt.
 
 ## Verwenden einer benutzerdefinierten Upload-Zielgruppe als Eignungskriterium {#eligibilty}
 

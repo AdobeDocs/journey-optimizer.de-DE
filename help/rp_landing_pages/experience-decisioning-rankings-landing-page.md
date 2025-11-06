@@ -20,7 +20,7 @@ In Adobe Journey Optimizer können Sie durch die Erstellung von Ranglisten prior
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen und Verwenden von Ranking-Methoden
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Ranking-Methoden, einschließlich Formeln und KI-Modellen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verwenden des KI-Formel-Builders
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie mit dem KI-Formel-Builder dynamische Ranglistenformeln fü
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Verstehen und Implementieren von KI-Modellen
 

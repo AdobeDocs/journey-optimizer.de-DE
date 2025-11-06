@@ -14,7 +14,7 @@ exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,19 +23,19 @@ ht-degree: 95%
 >[!AVAILABILITY]
 >
 >Die Integration mit Adobe Experience Manager ist derzeit nur für ausgewählte Benutzerinnen und Benutzer als Beta-Version verfügbar.
->&#x200B;> Beta-Benutzerinnen und -Benutzer können [dieses Formular](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} verwenden, um Feedback zu geben.
+> Beta-Benutzerinnen und -Benutzer können [dieses Formular](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} verwenden, um Feedback zu geben.
 
 Mit Adobe Journey Optimizer können Sie über Adobe Experience Manager Sites benutzerdefinierte, auf sie zugeschnittene Nachrichten erstellen. Erstellen Sie zunächst Ihre Vorlagen mithilfe der Inhaltsquellen von Adobe Experience Manager und senden Sie sie dann an Adobe Journey Optimizer. Nach der Freigabe können Sie im E-Mail-Designer von Adobe Journey Optimizer auf diese Vorlagen zugreifen, um die Erstellung und den Versand von Nachrichten an Ihre gewünschte Zielgruppe zu vereinfachen.
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie diese Funktion verwenden, stellen Sie sicher, dass Sie die folgenden Anforderungen erfüllen:
+Bevor Sie diese Funktion verwenden, müssen Sie die folgenden Anforderungen erfüllen:
 
 * **Experience Manager-Einstellungen**
 
   Diese Funktion ist mit [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=de){target="_blank"} verfügbar.
 
-  Im Rahmen des Beta-Programms wird die Cloud Service-Konfiguration von Adobe in Adobe Experience Manager durchgeführt, um eine Verbindung zu Adobe Journey Optimizer herzustellen.
+  Im Rahmen des Beta-Programms wird von Adobe die Cloud-Service-Konfiguration in Adobe Experience Manager durchgeführt, um eine Verbindung mit Adobe Journey Optimizer herzustellen.
 
 * **Berechtigungen**
 

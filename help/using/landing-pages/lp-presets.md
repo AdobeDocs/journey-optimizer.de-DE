@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen:
 
    >[!CAUTION]
    >
-   >Die ausgewählte Landingpage-Subdomain wird verwendet, um die **[!UICONTROL Tracking-URL]** anzugeben<!--and **[!UICONTROL Image Delivery URL]** --> wenn diese Subdomain mit einer ([&#x200B; Subdomain) &#x200B;](lp-subdomains.md#lp-use-existing-subdomain) wurde.
+   >Die ausgewählte Landingpage-Subdomain wird verwendet, um die **[!UICONTROL Tracking-URL]** anzugeben<!--and **[!UICONTROL Image Delivery URL]** --> wenn diese Subdomain mit einer ([ Subdomain) ](lp-subdomains.md#lp-use-existing-subdomain) wurde.
    >
    >Wenn die Subdomain mit der Option [Eigene Domain hinzufügen](lp-subdomains.md#lp-configure-new-subdomain) erstellt wurde, wird stattdessen die primäre Subdomain (d. h. die erste delegierte Subdomain) verwendet.
 

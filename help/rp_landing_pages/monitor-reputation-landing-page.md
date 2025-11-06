@@ -20,7 +20,7 @@ Das Verwalten des Status Ihrer E-Mail-Kampagnen beginnt mit der Überwachung der
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwalten der Unterdrückungsliste
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die E-Mail-Zustellbarkeit durch die Verwaltung von Unterdr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verwalten von weiteren Zustellversuchen und Unterdrückungslisten
 
@@ -40,7 +40,7 @@ Verstehen und konfigurieren Sie Wiederholungsmechanismen für Softbounce-Fehler,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Konfigurieren der Zulassungsliste
 

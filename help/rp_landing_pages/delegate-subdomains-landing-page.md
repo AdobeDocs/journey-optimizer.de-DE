@@ -20,7 +20,7 @@ Durch das Delegieren von E-Mail-Subdomains in Adobe Journey Optimizer können Ad
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit der Delegierung von Subdomains
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Vorteile, Konfigurationsmethoden und Überlegungen z
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Delegieren einer Subdomain
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Delegieren von Subdomains an Adobe, einschließlich
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Festlegen von DMARC-Einträgen
 
@@ -50,7 +50,7 @@ Konfigurieren Sie DMARC-Einträge, um die Sicherheit und Zustellbarkeit von E-Ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Hinzufügen eines Google TXT-Eintrags
 
@@ -60,7 +60,7 @@ Hinzufügen eines Google TXT-Eintrags
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Zugreifen auf und Bearbeiten von PTR-Einträgen
 
@@ -70,7 +70,7 @@ Verwalten Sie PTR-Einträge für delegierte Subdomains, bearbeiten Sie diese und
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen von IP-Pools
 

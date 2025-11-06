@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '2422'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="dates.md#convert-zoned-date-time">Uhrzeit-/Datumsangabe in eine bestimmte Zeitzone umwandeln</a></td><td>Diese Funktion wandelt eine Datums-/Uhrzeitangabe in eine bestimmte Zeitzone um.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">Aktuelle Zeit in Millisekunden</a></td><td>Diese Funktion ruft die aktuelle Zeit in Epochenmillisekunden ab.</td>
+        <td><a href="dates.md#current">Aktuelle Zeit in Millisekunden</a></td><td>Diese Funktion ruft die aktuelle Zeit in Epochen-Millisekunden ab.</td>
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">Datumsunterschied</a></td><td>Diese Funktion ermittelt die Differenz zwischen zwei Daten in der Anzahl der Tage.</td>
@@ -246,7 +246,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="math.md#round-up">Aufrunden</a></td><td>Diese Funktion rundet eine Zahl auf.</td>
     </tr>
     <tr>
-    <td><a href="math.md#to-hex-string">In hexadezimale Zeichenfolge</a></td><td>Konvertiert eine beliebige Zahl in ihre hexadezimale Zeichenfolge.</td>
+    <td><a href="math.md#to-hex-string">In hexadezimale Zeichenfolge</a></td><td>Konvertiert eine beliebige Zahl in ihren hexadezimalen String.</td>
     </tr>
     <tr>
     <td><a href="math.md#to-int">ToInt</a></td><td>Konvertiert jeden dieser Typen (number, double, int, long, float, short, byte, boolean, string) in eine Ganzzahl.</td>
@@ -437,7 +437,7 @@ Helper werden auf [dieser Seite](helpers.md) näher beschrieben.
         <td><a href="helpers.md#each">Jeweils</a></td><td>Diese Funktion wird verwendet, um über ein Array zu iterieren</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#execution-metadata">Ausführungsmetadaten</a></td><td>Dieser Helper erfasst benutzerdefinierte Schlüssel-Wert-Metadaten beim Rendern der Nachricht, damit sie im Metadatenobjekt der Laufzeitausführung gespeichert werden können</td>
+        <td><a href="helpers.md#execution-metadata">Ausführungsmetadaten</a></td><td>Diese Hilfsfunktion erfasst benutzerdefinierte Schlüssel-Wert-Metadaten beim Rendern der Nachricht, damit sie im Metadatenobjekt der Laufzeitausführung gespeichert werden können</td>
     </tr>
     <tr>
         <td><a href="helpers.md#if-function">Wenn</a></td><td>Mit dieser Funktion wird ein bedingter Block definiert. Wenn die Ausdrucksauswertung „true“ zurückgibt, wird der Block gerendert</td>

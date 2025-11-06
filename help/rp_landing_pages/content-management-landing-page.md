@@ -20,7 +20,7 @@ Mit den Content-Management-Funktionen von Adobe Journey Optimizer können Sie In
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Personalization hinzufügen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Personalisierungsfunktionen implementieren und optimieren 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Landingpages erstellen
 
@@ -40,7 +40,7 @@ Entdecken Sie Tools und Tutorials zum Erstellen, Verwalten und Optimieren von La
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Inhaltsvorlagen
 
@@ -50,7 +50,7 @@ Optimieren Sie die Inhaltserstellung mithilfe wiederverwendbarer Vorlagen für e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Wiederverwendbare Inhaltsfragmente
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie wiederverwendbare Inhaltsfragmente für verbesserte Person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Erstellen dynamischer Inhalte
 
@@ -70,7 +70,7 @@ Verwenden Sie bedingte Regeln, um dynamische, personalisierte Inhalte für E-Mai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Lösungsübergreifende Anwendungsfälle
 

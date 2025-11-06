@@ -64,7 +64,7 @@ Verwenden Sie die [!DNL Adobe Journey Optimizer] E-Mail-Designer , um die Strukt
 
 >[!NOTE]
 >
->Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Achten Sie beim Entwerfen von Inhalten in [&#x200B; auf &#x200B;](accessible-content.md)dieser Seite[!DNL Journey Optimizer] die spezifischen Richtlinien.
+>Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Achten Sie beim Entwerfen von Inhalten in [ auf ](accessible-content.md)dieser Seite[!DNL Journey Optimizer] die spezifischen Richtlinien.
 
 Gehen Sie wie folgt vor, um mit der Erstellung des Ihrers Inhalts zu beginnen:
 

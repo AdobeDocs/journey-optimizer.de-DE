@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ Um die standardmäßig verwendeten Felder zu überprüfen, rufen Sie das Menü *
 
 >[!NOTE]
 >
->Ausführungsfelder stehen für die Kanäle E-Mail, SMS und WhatsApp zur Verfügung.
+>Ausführungsfelder stehen für den E-Mail-, SMS- und WhatsApp-Kanal zur Verfügung.
 
 Die aktuellen Werte werden für alle Sendungen auf Sandbox-Ebene verwendet. Sie können diese Felder bei Bedarf aktualisieren.
 
-In den meisten Fällen ändern Sie ein Ausführungsfeld global und definieren einen Wert, der für alle E-Mail-, SMS- oder WhatsApp-Nachrichten verwendet werden soll.
+In den meisten Fällen ändern Sie ein Ausführungsfeld global und definieren einen Wert, der für alle E-Mail-, SMS- oder WhatsApp-Nachrichten verwendet werden soll. 
 
 ## Aktualisierung der Administrationseinstellungen {#admin-settings}
 
@@ -80,10 +80,10 @@ Für bestimmte Anwendungsfälle können Sie das global festgelegte Ausführungsf
 
 Diesen Wert zu überschreiben, kann zum Beispiel für folgende Zwecke nützlich sein:
 
-* Testen Sie Ihren Versand. Sie können Ihre eigene E-Mail-Adresse oder Telefonnummer hinzufügen: Nach der Veröffentlichung der Journey wird die E-Mail-, SMS- oder WhatsApp-Nachricht an Sie gesendet.
-* Senden einer Nachricht an die Abonnenten auf einer Liste. Weitere Informationen finden Sie in [diesem Anwendungsbeispiel](../building-journeys/message-to-subscribers-uc.md).
+* Testen des Versands. Sie können eine eigene E-Mail-Adresse oder Telefonnummer hinzufügen. Nach Veröffentlichung der Journey wird die E-Mail-, SMS- oder WhatsApp-Nachricht an Sie gesendet.
+* Senden einer Nachricht an Abonnierende auf einer Liste. Weitere Informationen finden Sie in [diesem Anwendungsfall](../building-journeys/message-to-subscribers-uc.md).
 
-Beim Hinzufügen einer **[!UICONTROL E-]**-, **[!UICONTROL SMS]**- oder **[!UICONTROL WhatsApp]**-Aktion zu einer [Journey](../email/create-email.md#create-email-journey-campaign) wird die primäre E-Mail-Adresse oder Telefonnummer unter den erweiterten Journey-Parametern angezeigt.
+Beim Hinzufügen einer **[!UICONTROL E-Mail]**- oder **[!UICONTROL SMS]**- oder **[!UICONTROL WhatsApp]**-Aktion zu einer [Journey](../email/create-email.md#create-email-journey-campaign) wird die primäre E-Mail-Adresse oder Telefonnummer unter den erweiterten Journey-Parametern angezeigt.
 
 Verwenden Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** rechts neben dem Feld zum Überschreiben des Werts.
 
@@ -91,7 +91,7 @@ Verwenden Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** re
 
 >[!CAUTION]
 >
->Das Überschreiben von E-Mail-Adressen oder Telefonnummern sollte nur für bestimmte Anwendungsfälle verwendet werden. Meistens müssen Sie ihn nicht ändern, da der Wert, der als primäre Adresse in den **[!UICONTROL Ausführungsfeldern) auf]** auf Sandbox-Ebene definiert ist, derjenige ist, der verwendet werden sollte.
+>E-Mail-Adressen oder Telefonnummern sollten nur für bestimmte Anwendungsfälle überschrieben werden. Meistens müssen Sie sie nicht ändern, da der als die primäre Adresse in den **[!UICONTROL Ausführungsfeldern]** auf Sandbox-Ebene definierte Wert derjenige ist, der verwendet werden sollte.
 
 ## Überschreiben des Standardausführungsfelds in der Kanalkonfiguration {#override-execution-address-channel-config}
 
@@ -100,13 +100,13 @@ Verwenden Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** re
 >title="Überschreiben der zu verwendenden Standard-Ausführungsadresse"
 >abstract="Wenn mehrere E-Mail-Adressen oder Telefonnummern in der Datenbank vorhanden sind (privat, professionell usw.), kann ausgewählt werden, welche für den Versand Vorrang haben soll. Die primäre Adresse wird auf Sandbox-Ebene definiert, aber hier können Sie die Standardeinstellung für diese bestimmte Kanalkonfiguration überschreiben."
 
-Sie können die standardmäßige Ausführungsadresse für eine bestimmte E-Mail-, SMS- oder WhatsApp-[Kanalkonfiguration) &#x200B;](channel-surfaces.md).
+Sie können die Standard-Ausführungsadresse für eine bestimmte E-Mail-, SMS- oder WhatsApp-[Kanalkonfiguration](channel-surfaces.md) überschreiben.
 
-Gehen Sie dazu zum Abschnitt **[!UICONTROL Ausführungsdimension]** und bearbeiten Sie das entsprechende Feld unter **[!UICONTROL Ausführungsadresse]**.
+Navigieren Sie dazu zum Abschnitt **[!UICONTROL Ausführungsdimension]** und bearbeiten Sie das Feld unter **[!UICONTROL Ausführungsadresse]**.
 
 >[!NOTE]
 >
->Für den [WhatsApp](../whatsapp/whatsapp-configuration.md#whatsapp-configuration)Kanal befindet sich das **[!UICONTROL WhatsApp-Ausführungsfeld]** im Abschnitt **[!UICONTROL WhatsApp-Einstellungen]**.
+>Das **[!UICONTROL WhatsApp-Ausführungsfeld]** für den [WhatsApp-Kanal](../whatsapp/whatsapp-configuration.md#whatsapp-configuration) befindet sich im Abschnitt **[!UICONTROL WhatsApp-Einstellungen]**.
 
 ![](assets/sms-config-execution-address.png){width=85%}
 

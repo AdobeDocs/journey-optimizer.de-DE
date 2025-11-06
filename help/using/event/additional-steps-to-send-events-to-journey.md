@@ -12,7 +12,7 @@ exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -88,6 +88,6 @@ Es folgt ein Beispiel für ein Streaming-Aufnahme-API-Ereignis:
 }
 ```
 
-Um das Auffinden der Stelle zu erleichtern, an der der „Daten“-Teil eingefügt werden soll, können Sie ein JSON-Visualisierungs-Tool verwenden, z. B. [JSON Formatter](https://jsonformatter.curiousconcept.com){target="_blank"}.
+Um die Identifikation der Stelle zu erleichtern, an der der „Daten“-Teil eingefügt werden soll, kann ein JSON-Visualisierungs-Tool verwendet werden, z. B. [JSON Formatter](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Informationen zur Fehlerbehebung bei Streaming-Aufnahme-APIs finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"}.
+Informationen zur Fehlerbehebung bei Streaming-Aufnahme-APIs finden sich in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"}.

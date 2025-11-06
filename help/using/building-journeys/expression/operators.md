@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
    * Das folgende Beispiel ist korrekt: `3.0 * 4.0`
    * `3 * 4.0` führt zu einem Fehler
 
-* Bei Verwendung des `+`-Operators muss der Ausdruck in Klammern eingeschlossen werden. Beispiel:
+* Wenn Sie den Operator `+` verwenden, muss der Ausdruck zwischen Klammern eingeschlossen sein. Beispiel:
    * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` Ist richtig
    * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` führt zu einem Fehler
 

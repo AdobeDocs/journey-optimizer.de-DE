@@ -10,7 +10,7 @@ keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 100%
 

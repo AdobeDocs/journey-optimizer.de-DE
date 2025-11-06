@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Übergeben von Sammlungen in Parameter für benutzerdefinierte Aktionen
-description: Erfahren Sie, wie Sie Sammlungen mithilfe benutzerdefinierter Aktionen dynamisch in Journey Optimizer übergeben
+title: Übergeben von Sammlungen in Parameter benutzerdefinierter Aktionen
+description: Informationen zum dynamischen Übergeben von Sammlungen in Journey Optimizer mithilfe von benutzerdefinierten Aktionen
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
 role: Developer
@@ -12,22 +12,22 @@ version: Journey Orchestration
 source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
 
-# Übergeben von Sammlungen in Parameter für benutzerdefinierte Aktionen {#passing-collection}
+# Übergeben von Sammlungen in Parameter benutzerdefinierter Aktionen {#passing-collection}
 
-Sie können eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden.
+Sie können eine Sammlung in Parametern benutzerdefinierter Aktionen übergeben, die zur Laufzeit dynamisch gefüllt wird.
 
 Es werden zwei Arten von Sammlungen unterstützt:
 
 * **Einfache Sammlungen**
 
-  Verwenden Sie einfache Sammlungen für Listen grundlegender Werte wie Zeichenfolgen, Zahlen oder booleschen Werten. Diese sind nützlich, wenn Sie nur eine Liste von Elementen ohne zusätzliche Eigenschaften übergeben müssen.
+  Verwenden Sie einfache Sammlungen für Listen grundlegender Werte wie Strings, Zahlen oder boolesche Werte. Diese sind nützlich, wenn Sie nur eine Liste von Elementen ohne zusätzliche Eigenschaften übergeben müssen.
 
-  Beispielsweise eine Liste von Gerätetypen:
+  Ein Beispiel dafür ist eine Liste von Gerätetypen:
 
   ```json
   {
@@ -40,7 +40,7 @@ Es werden zwei Arten von Sammlungen unterstützt:
 
 * **Objektsammlungen**
 
-  Verwenden Sie Objektsammlungen, wenn jedes Element mehrere Felder oder Eigenschaften enthält. Diese werden normalerweise verwendet, um strukturierte Daten wie Produktdetails, Ereignisdatensätze oder Elementattribute zu übergeben.
+  Verwenden Sie Objektsammlungen, wenn jedes Element mehrere Felder oder Eigenschaften enthält. Diese werden normalerweise verwendet, um strukturierte Daten wie Produktdetails, Ereigniseinträge oder Elementattribute zu übergeben.
 
   Beispiel:
 
@@ -68,7 +68,7 @@ Es werden zwei Arten von Sammlungen unterstützt:
 
 >[!NOTE]
 >
->Verschachtelte Arrays innerhalb von Sammlungen werden in Payloads von benutzerdefinierten Aktionsanfragen nur teilweise unterstützt. Weitere Informationen finden Sie unter [Einschränkungen](#limitations).
+>Verschachtelte Arrays innerhalb von Sammlungen werden in Anfrage-Payloads von benutzerdefinierten Aktionen nur teilweise unterstützt. Weitere Informationen finden Sie unter [Einschränkungen](#limitations).
 
 ## Allgemeines Verfahren {#general-procedure}
 
@@ -124,11 +124,11 @@ Sie können sehen, dass `products` ein Array von zwei Objekten ist. Sie müssen 
 
 1. Erstellen Sie Ihre Journey und fügen Sie die von Ihnen erstellte benutzerdefinierte Aktion hinzu. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/using-custom-actions.md).
 
-1. Definieren **[!UICONTROL im Abschnitt]** den Array-Parameter (in unserem Beispiel `products`) mithilfe des erweiterten Ausdruckseditors.
+1. Definieren Sie im Abschnitt **[!UICONTROL Aktionsparameter]** den Array-Parameter (in unserem Beispiel `products`) mithilfe des erweiterten Ausdruckseditors.
 
    ![](assets/uc-collection-3.png)
 
-1. Geben Sie für jedes der folgenden Objektfelder den entsprechenden Feldnamen aus dem Quell-XDM-Schema ein. Wenn die Namen identisch sind, ist dies nicht erforderlich. In unserem Beispiel müssen wir nur `product id` und „Farbe“ definieren.
+1. Geben Sie für jedes der folgenden Objektfelder den entsprechenden Feldnamen aus dem Quell-XDM-Schema ein. Wenn die Namen identisch sind, ist dies nicht erforderlich. In unserem Beispiel müssen wir nur `product id` und „color“ definieren.
 
    ![](assets/uc-collection-4.png){width="50%" align="left"}
 
@@ -142,7 +142,7 @@ Sammlungen in benutzerdefinierten Aktionen bieten zwar Flexibilität bei der Üb
 
 * **Unterstützung verschachtelter Arrays in benutzerdefinierten Aktionen**
 
-  Adobe Journey Optimizer unterstützt verschachtelte Arrays von Objekten in benutzerdefinierten Aktionen **Antwort-Payloads**, diese Unterstützung ist jedoch in **Anfrage-Payloads** beschränkt.
+  Adobe Journey Optimizer unterstützt verschachtelte Arrays von Objekten in **Antwort-Payloads** benutzerdefinierter Aktionen, diese Unterstützung ist jedoch in **Anfrage-Payloads** eingeschränkt.
 
   In Anfrage-Payloads werden verschachtelte Arrays nur dann unterstützt, wenn sie eine feste Anzahl von Elementen enthalten, wie in der Konfiguration der benutzerdefinierten Aktion definiert. Wenn ein verschachteltes Array beispielsweise immer genau drei Elemente enthält, kann es als Konstante konfiguriert werden. Wenn die Anzahl der Elemente dynamisch sein muss, können nur nicht verschachtelte Arrays (Arrays auf der unteren Ebene) als Variablen definiert werden.
 
@@ -168,7 +168,7 @@ Sammlungen in benutzerdefinierten Aktionen bieten zwar Flexibilität bei der Üb
       }
       ```
 
-   2. Unterstütztes Beispiel mit festen Elementen, die als Konstanten definiert sind.
+   2. Beispiel eines unterstützten Anwendungsfalls mit festen Elementen, die als Konstanten definiert sind.
 
       In diesem Fall werden die verschachtelten Speicherorte durch feste Felder (`location1`, `location2`) ersetzt, sodass die Payload in der unterstützten Konfiguration gültig bleibt.
 
@@ -225,10 +225,10 @@ Beispiel eines Arrays von Arrays:
 
 ## Weitere Ressourcen
 
-In den folgenden Abschnitten erfahren Sie mehr über die Konfiguration, Verwendung und Fehlerbehebung bei benutzerdefinierten Aktionen:
+In den folgenden Abschnitten erfahren Sie mehr über die Konfiguration, Verwendung und Fehlerbehebung von benutzerdefinierten Aktionen:
 
-* [Erste Schritte mit benutzerdefinierten Aktionen](../action/action.md) - Erfahren Sie, was eine benutzerdefinierte Aktion ist und wie Sie damit eine Verbindung zu Ihren Drittanbietersystemen herstellen können
-* [Benutzerdefinierte Aktionen konfigurieren](../action/about-custom-action-configuration.md) - Erfahren Sie, wie Sie eine benutzerdefinierte Aktion erstellen und konfigurieren
-* [Verwenden benutzerdefinierter Aktionen](../building-journeys/using-custom-actions.md) - Erfahren Sie, wie Sie benutzerdefinierte Aktionen in Ihren Journey verwenden
-* [Fehlerbehebung bei benutzerdefinierten Aktionen](../action/troubleshoot-custom-action.md) - Erfahren Sie, wie Sie Fehler bei einer benutzerdefinierten Aktion beheben
+* [Erste Schritte mit benutzerdefinierten Aktionen](../action/action.md): Erfahren Sie, was eine benutzerdefinierte Aktion ist und wie Sie damit eine Verbindung zu Ihren Drittanbietersystemen herstellen können
+* [Konfigurieren benutzerdefinierter Aktionen](../action/about-custom-action-configuration.md): Erfahren Sie, wie Sie eine benutzerdefinierte Aktion erstellen und konfigurieren
+* [Verwenden benutzerdefinierter Aktionen](../building-journeys/using-custom-actions.md): Erfahren Sie, wie Sie benutzerdefinierte Aktionen in Ihren Journeys verwenden
+* [Fehlerbehebung bei benutzerdefinierten Aktionen](../action/troubleshoot-custom-action.md): Erfahren Sie, wie Sie Fehler bei einer benutzerdefinierten Aktion beheben
 

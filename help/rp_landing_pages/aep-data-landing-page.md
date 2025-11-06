@@ -20,7 +20,7 @@ Adobe Journey Optimizer bietet Ihnen die Möglichkeit, intelligentere, schneller
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Nutzen von Kontextdaten für die Entscheidungsfindung
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Kontextdaten aus Adobe Experience Platform in die Entschei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung
 

@@ -9,7 +9,7 @@ exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Bei einer Konductor-Anfrage können Sie die Deduplizierungsmarkierung übergeben
 }
 ```
 
-+++Entscheidungs-Beispielanfrage
++++Beispiel einer Entscheidungsanfrage
 
 ```
 curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b69f-4a4f-98e8-000282fc9552' \
@@ -137,7 +137,7 @@ Nehmen wir an, Sie verwenden dieselbe Entscheidungsrichtlinie mit Kopf- und Fuß
 
       * Das Fallback-Entscheidungselement (auch eindeutig) oder ein leeres Entscheidungselement wird für den zweiten Vorschlag übergeben.
 
-+++Beispielantwort für Decisioning (`allowDuplicateDecisionItems` = `true`)
++++Beispiel einer Entscheidungsantwort (`allowDuplicateDecisionItems` = `true`)
 
 ```
 {
@@ -213,7 +213,7 @@ Nehmen wir an, Sie verwenden dieselbe Entscheidungsrichtlinie mit Kopf- und Fuß
 
 +++
 
-+++Beispielantwort für Decisioning (`allowDuplicateDecisionItems` = `false`)
++++Beispiel einer Entscheidungsantwort (`allowDuplicateDecisionItems` = `false`)
 
 ```
 {

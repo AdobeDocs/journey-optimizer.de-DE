@@ -12,7 +12,7 @@ exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 62%
 
 Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] versendet werden zu können, müssen Sie eine Reihe von Konfigurationsschritten durchlaufen.
 
-1. Um eine optimale Zustellbarkeit zu gewährleisten und Ihre Reputation zu schützen, **Sie zunächst die Subdomains,** Sie zum Senden Ihrer E-Mails mit [!DNL Journey Optimizer] verwenden werden, an Adobe delegieren. Diese Subdomains bestimmen Elemente wie etwa die zu verfolgenden Web-Seiten und die URLs von Mirrorseiten. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
+1. Um eine optimale Zustellbarkeit zu gewährleisten und Ihre Reputation zu schützen, **delegieren Sie zunächst die Subdomains an Adobe**, die Sie für den Versand Ihrer E-Mails mit [!DNL Journey Optimizer] verwenden möchten. Diese Subdomains bestimmen Elemente wie etwa die zu verfolgenden Web-Seiten und die URLs von Mirrorseiten. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
 
    ![](../configuration/assets/subdomain-list.png)
 
-1. Erstellen Sie IP-Pools **um IP-Adressen zu gruppieren** die mit Ihrer Instanz bereitgestellt wurden. [Weitere Informationen](../configuration/ip-pools.md)
+1. Erstellen Sie IP-Pools, um **IP-Adressen zu gruppieren**, die mit Ihrer Instanz bereitgestellt wurden. [Weitere Informationen](../configuration/ip-pools.md)
 
    ![](../configuration/assets/ip-pool-create.png)
 
@@ -33,7 +33,7 @@ Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] verse
 
    ![](../configuration/assets/preset-general.png)
 
-1. Konfigurieren Sie in jeder E-Mail-Kanalkonfiguration alle **technischen Parameter** die für den E-Mail-Versand erforderlich sind. [Weitere Informationen](email-settings.md)
+1. Konfigurieren Sie in jeder E-Mail-Kanalkonfiguration alle **technischen Parameter**, die für den Versand von E-Mails erforderlich sind. [Weitere Informationen](email-settings.md)
 
    * Hier wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll, sowie die IP-Pools, die mit der Konfiguration verknüpft werden sollen. [Weitere Informationen](email-settings.md#subdomains-and-ip-pools)
 
@@ -43,7 +43,7 @@ Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] verse
 
    ![](assets/preset-header.png)
 
-1. Bestimmen Sie **welche (Ausführungsfelder** für Ihre Empfängerinnen und Empfänger vorrangig verwendet werden sollen, wenn mehrere Adressen in Adobe Experience Platform verfügbar sind. [Weitere Informationen](../configuration/primary-email-addresses.md)
+1. Bestimmen Sie, welche **Ausführungsfelder** für Ihre Empfängerinnen und Empfänger vorrangig verwendet werden sollen, wenn in Adobe Experience Platform mehrere Adressen verfügbar sind. [Weitere Informationen](../configuration/primary-email-addresses.md)
 
    ![](../configuration/assets/primary-address-execution-fields.png)
 

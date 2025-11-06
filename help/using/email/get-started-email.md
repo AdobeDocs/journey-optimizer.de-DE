@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: E-Mail, Start, Erstellung, Vorschau
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 66%
 
 ---
 
@@ -109,3 +109,12 @@ E-Mail-Sendungen können erstellt werden:
 <p>
 </td>
 </tr></table>
+
+## Weitere Ressourcen
+
+* **[E-Mail erstellen](create-email.md)** - Erfahren Sie anhand einer schrittweisen Anleitung, wie Sie E-Mail-Nachrichten in Kampagnen und Journey erstellen.
+* **[Entwerfen von E-](get-started-email-design.md)**-Inhalten: Entdecken Sie die verschiedenen Möglichkeiten, E-Mail-Inhalte von Grund auf neu zu erstellen oder Vorlagen zu verwenden.
+* **[E-Mail-Konfiguration](get-started-email-config.md)** - Erfahren Sie, wie Sie E-Mail-Einstellungen einschließlich E-Mail-Oberflächen, Subdomains und IP-Pools konfigurieren.
+* **[E-Mail-Personalisierung und -](get-started-email-style.md)**: Übergeordnete Stiltechniken einschließlich benutzerdefinierter CSS, Ausrichtung, Abstand und Unterstützung des Dunkelmodus.
+* **[E-Mails verfolgen und überwachen](message-tracking.md)** - Erfahren Sie, wie Sie Nachrichtenöffnungen und Klicks verfolgen und das URL-Tracking für Leistungsanalysen verwalten können.
+* **[E-Mail-](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}**-Tutorials: Erkunden Sie die Videoschulungen zu E-Mail-Funktionen und Best Practices in Einzelschritten.

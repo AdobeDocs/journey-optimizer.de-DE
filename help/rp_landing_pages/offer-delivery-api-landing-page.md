@@ -20,7 +20,7 @@ Mit den APIs von Adobe Journey Optimizer zur Angebotsbereitstellung können Sie 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Erste Schritte mit APIs für die Angebotsunterbreitung
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die APIs, die für die Bereitstellung personalisierter A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Bereitstellen von Angeboten mithilfe der Decisioning API
 
@@ -40,7 +40,7 @@ Erstellen und unterbreiten Sie personalisierte Marketing-Angebote mit der Decisi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Bereitstellen von Angeboten mithilfe der Edge Decisioning API
 
@@ -50,7 +50,7 @@ Implementieren Sie die personalisierte Angebotsbereitstellung mit dem Adobe Expe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwenden der Batch Decisioning API zum Unterbreiten von Angeboten
 

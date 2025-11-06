@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 * Installieren Sie die **Adobe Experience Platform Web SDK**-Erweiterung unter den **Tag-Eigenschaften** und aktivieren Sie die Option für den **Personalisierungsspeicher**.
 
-  Diese Konfiguration ist für das Speichern von Ereignisverläufen auf dem Client unerlässlich. Sie ist eine Voraussetzung für die Implementierung von Häufigkeitsregeln im Regel-Builder. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=de)
+  Diese Konfiguration ist für das Speichern von Ereignisverläufen auf dem Client unerlässlich. Sie ist eine Voraussetzung für die Implementierung von Häufigkeitsregeln im Regel-Builder. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 1. Speichern Sie Ihre **Aktionskonfiguration**, indem Sie auf **Änderungen beibehalten** klicken.
 
-1. Navigieren Sie zum Menü für den **Veröffentlichungsfluss**. Erstellen Sie eine neue **Bibliothek** oder wählen Sie eine vorhandene **Bibliothek** aus und fügen Sie Ihre neu erstellte **Regel** hinzu. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=de#create-a-library)
+1. Navigieren Sie zum Menü für den **Veröffentlichungsfluss**. Erstellen Sie eine neue **Bibliothek** oder wählen Sie eine vorhandene **Bibliothek** aus und fügen Sie Ihre neu erstellte **Regel** hinzu. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. Wählen Sie über Ihre **Bibliothek** die Option **Speichern und für Entwicklung erstellen** aus.
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 1. Definieren Sie im Abschnitt **Entscheidungskontext** die **Schlüssel**-**Wert**-Paare, die bestimmen, welches Erlebnis bereitgestellt werden soll.
 
-1. Rufen Sie das Menü **Veröffentlichungsfluss** auf, erstellen Sie eine neue **Bibliothek** oder wählen Sie eine vorhandene **Bibliothek** aus und fügen Sie Ihre neu erstellte **Regel** hinzu. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=de#create-a-library)
+1. Rufen Sie das Menü **Veröffentlichungsfluss** auf, erstellen Sie eine neue **Bibliothek** oder wählen Sie eine vorhandene **Bibliothek** aus und fügen Sie Ihre neu erstellte **Regel** hinzu. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html#create-a-library){target="_blank"}
 
 1. Wählen Sie über Ihre **Bibliothek** die Option **Speichern und für Entwicklung erstellen** aus.
 

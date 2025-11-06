@@ -9,7 +9,7 @@ exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Erfahren Sie, wie Sie im Personalisierungseditor mathematische Funktionen verwen
 
 ## Absolut {#absolute}
 
-Die Funktion `absolute` wird verwendet, um eine Zahl in ihren absoluten Wert zu konvertieren.
+Die Funktion `absolute` wird verwendet, um eine Zahl in ihren absoluten Wert umzuwandeln.
 
 **Syntax**
 
@@ -39,7 +39,7 @@ Sie akzeptiert eine Zahl und eine Zeichenfolge, die das Gebietsschema darstellt,
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst werden
+Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und unter [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst sind.
 
 **Beispiel**
 
@@ -91,7 +91,7 @@ Die Funktion `toHexString` konvertiert eine beliebige Zahl in ihre hexadezimale 
 
 **Beispiel**
 
-Diese Abfrage gibt den Hexadezimalwert 158 zurück, d. h. 9e.
+Diese Abfrage gibt den hexadezimalen Wert von 158 zurück, also „9e“.
 
 ```sql
 {%= toHexString(158) %}
@@ -109,7 +109,7 @@ Die Funktion `toInt` wird verwendet, um einen dieser Typen (number, double, in
 
 **Beispiel**
 
-Diese Abfrage gibt den ganzzahligen Wert von 42,6 zurück, d. h. 42.
+Diese Abfrage gibt den Ganzzahlwert von 42,6 zurück, also „42“.
 
 ```sql
 {%= toInt(42.6) %}: integer

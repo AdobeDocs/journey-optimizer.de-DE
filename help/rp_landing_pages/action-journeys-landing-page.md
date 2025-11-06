@@ -20,7 +20,7 @@ Mit der Aktionskonfiguration in Adobe Journey Optimizer können Sie Ihre Custome
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit benutzerdefinierten Aktionen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie benutzerdefinierte Aktionen in Adobe Journey Optimizer kon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren benutzerdefnierter Aktionen
 
@@ -40,7 +40,7 @@ Schritt-für-Schritt-Anleitung zum Einrichten benutzerdefinierter Aktionen, eins
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen
 

@@ -20,7 +20,7 @@ Mit der Entscheidungsfunktion von Adobe Journey Optimizer können Sie personalis
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Einführung in die Entscheidungsfindung
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen der Entscheidungsfindung in Adobe Journey Optimizer ke
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Leitlinien und Einschränkungen bei der Entscheidungsfindung
 
@@ -40,7 +40,7 @@ Machen Sie sich mit den Einschränkungen und Best Practices für die effektive V
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API-Referenz: Angebote unterbreiten
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie mit dem Code-basierten Erlebniskanal und verschiedenen Imp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwalten von Entscheidungselementen und Katalogen
 
@@ -60,7 +60,7 @@ Konfigurieren und verwalten Sie Entscheidungselemente, Kataloge und Sammlungen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Erstellen von Entscheidungsregeln
 
@@ -70,7 +70,7 @@ Definieren Sie Entscheidungsregeln, um Zielgruppen mithilfe von Einschränkungen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Erstellen von Ranklisten mit KI-Modellen
 

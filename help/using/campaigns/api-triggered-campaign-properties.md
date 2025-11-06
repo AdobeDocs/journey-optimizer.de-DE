@@ -12,7 +12,7 @@ exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
 source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -26,17 +26,17 @@ Gehen Sie wie folgt vor, um eine neue Kampagne zu erstellen, die durch API ausge
 
    * **[!UICONTROL API-ausgelöst – Marketing]** – Wählen Sie diesen durch API ausgelösten Kampagnentyp aus, um personalisierte Marketing-Kommunikation an ausgewählte Zielgruppen zu senden.
 
-   * **[!UICONTROL API-ausgelöst - Transaktion]** - Transaktionskampagnen dienen dem Versand von Transaktionsnachrichten, d. h. Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion gesendet werden: Anforderung zum Zurücksetzen des Passworts, Warenkorbkauf usw.
+   * **[!UICONTROL API-ausgelöst – Transaktion]** – Transaktionskampagnen dienen dem Versand von Transaktionsnachrichten, d. h. Nachrichten, die aufgrund einer von einem Kontakt durchgeführten Aktion gesendet werden: Zurücksetzen des Passworts, Warenkorbkauf usw.
 
-     +++Hoher Durchsatz
+     +++Modus mit hohem Durchsatz
 
-     Für Kampagnen, die durch eine Transaktions-API ausgelöst werden, können Sie den Modus **[!UICONTROL Hoher Durchsatz]** aktivieren. Dieser Modus wurde für umfangreiches Echtzeit-Messaging (bis zu 5.000 Transaktionen pro Sekunde) entwickelt und bietet eine höhere Verfügbarkeit mit geringerer Latenz. [Erfahren Sie, wie Sie mit dem Hochdurchsatzmodus arbeiten](../campaigns/api-triggered-high-throughput.md)
+     Für durch API ausgelöste Transaktionskampagnen können Sie den Modus mit **[!UICONTROL hohem Durchsatz]** aktivieren. Dieser Modus ist für groß angelegtes Echtzeit-Messaging konzipiert (bis zu 5.000 Transaktionen pro Sekunde) und bietet eine höhere Verfügbarkeit bei geringerer Latenz. [Informationen zum Arbeiten mit dem Modus mit hohem Durchsatz](../campaigns/api-triggered-high-throughput.md)
 
      >[!AVAILABILITY]
      >
-     >Derzeit ist der Modus „Hoher Durchsatz“ nur für den E-Mail-Kanal und in der US-Region verfügbar.
+     >Derzeit ist der Modus mit hohem Durchsatz nur für den E-Mail-Kanal und in der US-Region verfügbar.
      >
-     >Diese Funktion ist nur für Unternehmen verfügbar, die das Adobe Add-on **Transaktionsnachrichten mit hohem**&quot; erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.
+     >Diese Funktion ist nur für den E-Mail-Kanal verfügbar und steht Unternehmen zur Verfügung, die das Adobe-Add-on für **Transaktions-Messaging mit hohem Durchsatz** erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.
 
      +++
 

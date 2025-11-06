@@ -42,7 +42,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <li><strong>KI-gestützte Erkenntnisse und Möglichkeiten für Experimente:</strong> Gehen Sie mit Erkenntnissen und Empfehlungen auf Basis generativer KI über statistische Auswertungen hinaus. Jedes Experiment zeigt jetzt verwertbare Chancen auf, einschließlich einer nachvollziehbaren Begründung, sodass Teams fundierter entscheiden können, was als Nächstes getestet werden sollte.</li>
 <li><strong>Unterstützung für Multi-Armed Bandit (MAB, mehrarmiger Bandit) in Journey Optimizer:</strong> Maximieren Sie die Wirkung und reduzieren Sie unnötigen Traffic mit Multi-Armed-Bandit-Experimenten. Anstatt Zielgruppen gleichmäßig aufzuteilen, weist MAB in Echtzeit automatisch den leistungsstärksten Varianten mehr Besuchende zu. Auf diese Weise können Sie mehr Kundinnen und Kunden bessere Erlebnisse bieten und gleichzeitig Erkenntnisse darüber gewinnen, was funktioniert.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/de/docs/experimentation-accelerator/using/overview">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 3. Oktober 2025</p>
 </td>
 </tr>

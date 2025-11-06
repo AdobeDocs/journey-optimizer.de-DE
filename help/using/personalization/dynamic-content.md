@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen von dynamischen Inhalten
+title: Erstellen dynamischer Inhalte
 description: Erfahren Sie, wie Sie Ihren Nachrichten dynamische Inhalte hinzufügen.
 feature: Personalization
 topic: Personalization
@@ -12,17 +12,17 @@ exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Erstellen von dynamischen Inhalten {#dynamic-content}
+# Erstellen dynamischer Inhalte {#dynamic-content}
 
 Mit Adobe Journey Optimizer können Sie die in der Bibliothek erstellten bedingten Regeln nutzen, um dynamische Inhalte in Ihre Nachrichten einzufügen.
 
 Dynamische Inhalte können in jedem Feld erstellt werden, dem Sie mithilfe des Personalisierungseditors Personalisierung hinzufügen können. Dazu gehören Betreffzeile, Links, Inhalte von Push-Benachrichtigungen oder die Darstellungen von Angeboten in Textform. [Weitere Informationen zur Personalisierung](personalize.md)
 
-Darüber hinaus können Sie in der E-Mail-Designer bedingte Regeln verwenden, um mehrere Varianten einer Inhaltskomponente zu erstellen.
+Zusätzlich können Sie im E-Mail-Designer bedingte Regeln verwenden, um mehrere Varianten einer Inhaltskomponente zu erstellen.
 
 ## Hinzufügen dynamischer Inhalte zu Ausdrücken {#perso-expressions}
 

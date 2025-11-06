@@ -12,7 +12,7 @@ exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Sie können die vorkonfigurierte Feldergruppe mit dem Namen „ProfileFieldGroup
 >Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird nicht unterstützt. Wenn Ihr Anwendungsfall die Verwendung von Erlebnisereignissen erfordert, sollten Sie alternative Methoden in Betracht ziehen. [Weitere Informationen](../building-journeys/exp-event-lookup.md)
 
 
-Die wichtigsten Schritte zum Hinzufügen von Feldergruppen zur integrierten Datenquelle werden unten beschrieben:
+Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquelle Feldergruppen hinzuzufügen:
 
-1. Wählen Sie aus der Liste der Datenquellen die integrierte Datenquelle **Adobe Experience Platform** aus.
+1. Wählen Sie in der Liste der Datenquellen die integrierte Datenquelle von **Adobe Experience Platform** aus.
 
    Dadurch wird der Konfigurationsbereich für die Datenquelle auf der rechten Seite des Bildschirms geöffnet.
 

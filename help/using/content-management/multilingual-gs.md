@@ -10,7 +10,7 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 100%
 
@@ -100,4 +100,4 @@ Für den mehrsprachigen Inhalt müssen die folgenden Einstellungen definiert wer
 
 Erfahren Sie, wie Sie im Rahmen einer einzelnen Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452122?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)

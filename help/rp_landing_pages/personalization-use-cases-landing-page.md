@@ -20,7 +20,7 @@ Stellen Sie sich vor, Sie könnten Kommunikationen so genau auf Ihre Zielgruppe 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Tutorial zur Personalisierung der Benachrichtigungen zum Bestellstatus
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie personalisierte Push-Benachrichtigungen für Aktualisierun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Handbuch zur Personalisierung von E-Mails bei Warenkorbabbrüchen
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie E-Mails zu Warenkorbabbrüchen mithilfe von Hilfsfunktione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Beispiel für die Personalisierung von E-Mails zu Rezepten für Krankenkassen
 

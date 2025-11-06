@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
 source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # Neue Funktionen{#section-overview}
 
-Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und die Dokumentation! Eine umfassende Liste der Funktionen, Verbesserungen und Fehlerbehebungen finden Sie in den detaillierten [Versionshinweisen](../using/rn/release-notes.md). Besuchen Sie die Seite [Dokumentationsaktualisierungen](../using/rn/documentation-updates.md), um über die neuesten Änderungen in der Produktdokumentation auf dem Laufenden zu bleiben.
+Werfen Sie einen Blick auf die neuesten Verbesserungen in Journey Optimizer und die Dokumentation. Eine umfassende Liste der Funktionen, Verbesserungen und Fehlerbehebungen finden Sie in den detaillierten [Versionshinweisen](../using/rn/release-notes.md). Besuchen Sie die Seite [Dokumentationsaktualisierungen](../using/rn/documentation-updates.md), um über die neuesten Änderungen in der Produktdokumentation auf dem Laufenden zu bleiben.
 
 >[!BEGINTABS]
 
@@ -37,7 +37,7 @@ Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/de/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM-Inhaltsfragment]
 
@@ -52,7 +52,7 @@ Durch die Integration von Adobe Experience Manager as a Cloud Service mit Adobe 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Neueste Versionshinweise für Adobe Journey Optimizer
 
@@ -62,7 +62,7 @@ Entdecken Sie die neuesten Funktionen, Verbesserungen und Aktualisierungen in Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Frühere Versionshinweise für Adobe Journey Optimizer
 
@@ -72,7 +72,7 @@ Informieren Sie sich über die umfassenden Versionshinweise der Vorjahre mit det
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Neueste Aktualisierungen der Dokumentation zu Adobe Journey Optimizer
 

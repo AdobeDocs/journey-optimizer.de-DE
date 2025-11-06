@@ -20,7 +20,7 @@ Der Abschnitt „Konfigurieren des Code-basierten Kanals“ in Adobe Journey Opt
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Voraussetzungen für Code-basierte Erlebnisse
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Voraussetzungen für die Verwendung von Code-basiert
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Code-basierte Erlebnisoberflächen
 
@@ -40,7 +40,7 @@ Grundlegendes zu Oberflächen und ihren Kennungen, ihrer Komposition und Verwend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Beispiele für Implementierungsmethoden
 
@@ -50,7 +50,7 @@ Hier erhalten Sie eine schrittweise Anleitung zur Implementierung Client-seitige
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Entscheidungsfindung bei der Implementierung von Code-basierten Erlebnissen
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie in Code-basierten Implementierungen eine Deduplizierung ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Erstellen einer Konfiguration für Code-basierte Erlebnisse
 

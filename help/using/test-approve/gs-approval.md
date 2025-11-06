@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '561'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 90%
 
 ---
 
@@ -83,3 +83,10 @@ Der globale Genehmigungsprozess sieht folgendermaßen aus:
 Sie können alle Genehmigungs- und Änderungsanfragen überwachen, die für eine bestimmte Journey oder Kampagne eingereicht wurden. Klicken Sie dazu oben rechts auf der Journey-Arbeitsfläche oder am Bildschirm zur Kampagnenüberprüfung auf das Symbol **[!UICONTROL Audit-Protokoll anzeigen]**.
 
 ![](assets/monitor-requests.png)
+
+## Weitere Ressourcen
+
+* **[Erstellen von Genehmigungsrichtlinien](approval-policies.md)** - Erfahren Sie, wie Sie Genehmigungsrichtlinien einrichten, um Überprüfungs-Workflows für Kampagnen und Journey zu erzwingen.
+* **[Genehmigung anfordern](request-approval.md)** - Verstehen Sie, wie Sie Inhalte zur Genehmigung einreichen und den Genehmigungsstatus verfolgen.
+* **[Anforderungen prüfen und genehmigen](review-approve-request.md)** - Erfahren Sie, wie Sie als genehmigende Person Genehmigungsanforderungen überprüfen, genehmigen oder ablehnen können.
+* **[Simulieren mit Beispieleingaben](simulate-sample-input.md)** - Erfahren Sie, wie Sie Inhalte mithilfe von Beispielprofildaten testen und validieren können.

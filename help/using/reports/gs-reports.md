@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie auf  [!DNL Adobe Journey Optimizer] -Berichte
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 97%
+source-wordcount: '460'
+ht-degree: 94%
 
 ---
 
@@ -140,6 +140,8 @@ Erfahren Sie, wie Sie den Echtzeitbericht in Adobe Journey Optimizer effektiv ve
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3422692?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
+
+Weitere Video-Tutorials zu Reporting und Analysen finden Sie in [Reporting-Tutorials](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}

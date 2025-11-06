@@ -11,7 +11,7 @@ exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,15 +25,15 @@ Die Kanalberichte sind ein leistungsstarkes Tool, das in einem einheitlichen Ber
 
 Die Kanalberichte sind vollständig anpassbar, sodass Widgets in der Größe geändert oder entfernt werden können, um ein Dashboard zu erstellen, das spezifischen Anforderungen entspricht. Die Berichtsdaten können auch zur weiteren Analyse in eine PDF- oder CSV-Datei exportiert werden.
 
-Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für die Kanalberichte in <!--[this page](channel-report.md)--> verfügbar sind.
+Weitere Informationen zu den verschiedenen Metriken und Widgets, die für die Kanalberichte verfügbar sind, finden Sie unter <!--[this page](channel-report.md)-->.
 
 ## Bevor Sie beginnen {#manage-reports-prereq}
 
 Vor Beginn sollten Sie prüfen, ob Zugriff auf das Menü **[!UICONTROL Berichte]** besteht.
 
-Wenn das Menü **[!UICONTROL Berichte]** nicht angezeigt wird, müssen Ihre Zugriffsberechtigungen um die Berechtigung **[!UICONTROL Kanalberichte anzeigen]** erweitert werden. Sie können Ihre eigenen Berechtigungen erweitern, wenn Sie Zugriff auf die [Berechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de){target="_blank"} in Adobe Experience Platform für Ihre Organisation haben. Falls nicht, wenden Sie sich an Ihre Adobe Journey Optimizer-Admins.
+Wenn das Menü **[!UICONTROL Berichte]** nicht angezeigt wird, müssen Ihre Zugriffsberechtigungen um die Berechtigung **[!UICONTROL Kanalberichte anzeigen]** erweitert werden. Sie können Ihre eigenen Berechtigungen erweitern, wenn Sie Zugriff auf die [Berechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de){target="_blank"} in Adobe Experience Platform für Ihre Organisation haben. Falls nicht, wenden Sie sich an Ihre oder Ihren Adobe Journey Optimizer-Admin.
 
-+++Erfahren Sie, wie Sie Berichtsberechtigungen zuweisen
++++Informationen zum Zuweisen von Berichtsberechtigungen
 
 Hinweis: Diese Berechtigung ist in den folgenden integrierten **[!UICONTROL Rollen]** enthalten: Campaign Manager, Campaign Approver, Campaign Viewer und Campaign Administrator.
 

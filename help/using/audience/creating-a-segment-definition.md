@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 100%
 
@@ -136,4 +136,4 @@ Es können bis zu 20 Zielgruppen gleichzeitig ausgewertet werden. Nicht auswäh
 
 Erfahren Sie, wie Journey Optimizer Regeln zum Generieren von Zielgruppen verwendet und wie Attribute, Ereignisse und vorhandene Zielgruppen zum Erstellen einer Zielgruppe verwendet werden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430326?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

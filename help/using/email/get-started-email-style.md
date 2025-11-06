@@ -34,4 +34,4 @@ Folgen Sie den unten stehenden Links, um zu erfahren, wie Sie Stileinstellungen 
 
 >[!NOTE]
 >
->Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Achten Sie beim Entwerfen von Inhalten in [&#x200B; auf &#x200B;](../email/accessible-content.md)dieser Seite[!DNL Journey Optimizer] die spezifischen Stilrichtlinien, z. B. die Anpassung von Farben, Beschriftungen und Symbolen, um Klarheit zu gewährleisten, und bei der Optimierung Ihres Designs für mobile und responsive Layouts.
+>Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Achten Sie beim Entwerfen von Inhalten in [ auf ](../email/accessible-content.md)dieser Seite[!DNL Journey Optimizer] die spezifischen Stilrichtlinien, z. B. die Anpassung von Farben, Beschriftungen und Symbolen, um Klarheit zu gewährleisten, und bei der Optimierung Ihres Designs für mobile und responsive Layouts.

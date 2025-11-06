@@ -20,7 +20,7 @@ Die Funktion für mehrsprachige Inhalte in Adobe Journey Optimizer ermöglicht e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit mehrsprachigen Inhalten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die Funktion für mehrsprachige Inhalte in Adobe Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen eines Gebietsschemas für mehrsprachige Inhalte
 
@@ -40,7 +40,7 @@ Folgen Sie den schrittweisen Anleitungen, um neue Gebietsschemata für mehrsprac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Erstellen und Konfigurieren von Sprachdienstleistern
 
@@ -50,7 +50,7 @@ Richten Sie externe Übersetzungsdienstleister ein, um eine nahtlose Integration
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Erstellen mehrsprachiger Inhalte mit manueller Übersetzung
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie mehrsprachige Kampagnen und Journeys manuell erstellen, di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung
 
