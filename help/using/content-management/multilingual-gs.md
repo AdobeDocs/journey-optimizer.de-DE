@@ -100,4 +100,4 @@ Für den mehrsprachigen Inhalt müssen die folgenden Einstellungen definiert wer
 
 Erfahren Sie, wie Sie im Rahmen einer einzelnen Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430921/)
+>[!VIDEO](https://video.tv.adobe.com/v/3452122?captions=ger)

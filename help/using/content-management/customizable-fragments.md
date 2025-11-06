@@ -194,4 +194,4 @@ Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzende jetzt d
 
 In diesem Video erfahren Sie, wie Sie HTML-Komponenten in einem Fragment bearbeitbar machen, sodass sowohl Inhalt als auch Stil dynamisch aktualisiert werden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464377/?captions=ger&learn=on&#x26;enablevpops)
