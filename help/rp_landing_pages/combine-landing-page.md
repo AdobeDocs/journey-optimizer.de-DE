@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Integrieren, Hochladen und Verwalten von Assets aus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=de)
 
 Arbeiten mit Adobe Stock-Bildern
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Adobe Stock-Bilder für die Verwendung in E-Mail-Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=de)
 
 Bearbeiten Ihrer Assets mit Adobe Express
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie mit Adobe Express, das in Adobe Journey Optimizer integrie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Arbeiten mit AEM-Inhaltsfragmenten
 

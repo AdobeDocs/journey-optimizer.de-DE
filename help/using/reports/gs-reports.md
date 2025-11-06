@@ -144,4 +144,4 @@ Erfahren Sie, wie Sie den Echtzeitbericht in Adobe Journey Optimizer effektiv ve
 
 +++
 
-Weitere Video-Tutorials zu Reporting und Analysen finden Sie in [Reporting-Tutorials](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
+Weitere Video-Tutorials zu Reporting und Analysen finden Sie in [Reporting-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}

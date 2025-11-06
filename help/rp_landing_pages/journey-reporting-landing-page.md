@@ -20,7 +20,7 @@ Journey-Berichte in Adobe Journey Optimizer bieten leistungsstarke Tools, um zu 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Analysieren von Journey-Berichten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die Leistung von Journeys mithilfe von Metriken, visuellen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Code-basierte Journey-Berichte
 
@@ -40,7 +40,7 @@ Verstehen und analysieren Sie Metriken für die Interaktion mit Code-basierten E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Interaktion mit Inhaltskarten
 
@@ -60,7 +60,7 @@ Analysieren und interpretieren Sie wichtige Metriken für Direkt-Mail-Kampagnen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=de)
 
 Reporting zu E-Mail-Journeys
 
@@ -70,7 +70,7 @@ Gewinnen Sie Erkenntnisse zu E-Mail-Leistung, Interaktion und Versandmetriken f�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
 
 Erkenntnisse z um In-App-Messaging
 

@@ -30,7 +30,7 @@ Machen Sie sich mit den Komponenten, Workflows und Datenflüssen vertraut, die f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfiguration des Push-Benachrichtigungskanals
 

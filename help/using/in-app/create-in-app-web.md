@@ -20,7 +20,7 @@ ht-degree: 99%
 
 Gehen Sie wie folgt vor, um Ihren Web-In-App-Kanal einzurichten:
 
-* Installieren Sie die Web SDK-Tag-Erweiterung, um Web-In-App-Nachrichten zu unterstützen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
+* Installieren Sie die Web SDK-Tag-Erweiterung, um Web-In-App-Nachrichten zu unterstützen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=de){target="_blank"}
 
 * Passen Sie Ihre Trigger an. Web-In-App-Nachrichten unterstützen zwei Arten von Triggern: „Daten an Platform gesendet“ und „Manuell“. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=de){target="_blank"}
 

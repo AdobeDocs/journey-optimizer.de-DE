@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen von Landingpages, ihre Funktionalität und die Integra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen und Veröffentlichen von Landingpages
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum effektiven Erstellen, Konfigurieren, Testen und Ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Verwalten von Landingpages
 
@@ -50,7 +50,7 @@ Greifen Sie auf Landingpages zu, organisieren Sie sie und führen Sie Aktionen w
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Gestalten von Inhalten für Landingpages
 
@@ -60,7 +60,7 @@ Erstellen Sie Landingpages und passen Sie sie mit Vorlagen, Formularen und erwei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen und Verwalten von Abonnementlisten
 

@@ -210,7 +210,7 @@ Im Abschnitt „Edge Delivery“ des Assurance-Trace wurde den Ausführungsdetai
 
 Im Folgenden finden Sie häufig gestellte Fragen zur Hilfe bei der externen Datensuche.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
 
 +++ Wie wird ein kontextuelles Attribut aus der Anfrage als Parameter an eine Suche nach externen Daten übergeben?
 

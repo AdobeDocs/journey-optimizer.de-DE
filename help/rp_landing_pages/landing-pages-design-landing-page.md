@@ -20,7 +20,7 @@ Die Gestaltung von Inhalten in Adobe Journey Optimizer ermöglicht Ihnen die Ers
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Entwerfen einer Landingpage in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Landingpages von Grund auf neu erstellen, unbearbeitete HT
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Erstellen und Anpassen von Landingpage-Inhalten
 
@@ -40,7 +40,7 @@ Fügen Sie Komponenten wie Formulare hinzu, passen Sie deren Stile an und verwen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Arbeiten mit Landingpage-Vorlagen
 
@@ -50,7 +50,7 @@ Speichern Sie Landingpages als Vorlagen und verwenden Sie sie erneut, um Ihren W
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden von benutzerdefiniertem JavaScript in Landingpages
 

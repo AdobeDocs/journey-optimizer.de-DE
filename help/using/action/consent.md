@@ -61,7 +61,7 @@ Wenn Sie z. B. eine Einverständnisrichtlinie erstellen möchten, um nur Profil
 
       >[!NOTE]
       >
-      >Die wichtigsten von Adobe bereitgestellten vorkonfigurierten Marketing-Aktionen finden Sie in [dieser Tabelle](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#core-actions){target="_blank"}. Die Schritte zum Erstellen einer benutzerdefinierten Marketing-Aktion finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#create-marketing-action){target="_blank"}.
+      >Die wichtigsten von Adobe bereitgestellten vorkonfigurierten Marketing-Aktionen finden Sie in [dieser Tabelle](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de#core-actions){target="_blank"}. Die Schritte zum Erstellen einer benutzerdefinierten Marketing-Aktion finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#create-marketing-action){target="_blank"}.
 
    1. Wählen Sie aus, was passiert, wenn die Marketing-Aktion angewendet wird. Wählen Sie in diesem Beispiel **[!UICONTROL Zustimmung zum E-Mail-Marketing]**.
 

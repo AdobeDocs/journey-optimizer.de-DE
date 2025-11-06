@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Komponenten wie Text, Schaltflächen, Bilder und mehr hinz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=de)
 
 Nutzen von visuellen Fragmenten
 
@@ -40,7 +40,7 @@ Entdecken Sie, wie Sie wiederverwendbare Fragmente erstellen, um Ihr E-Mail-Desi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Hinzufügen von Links und Nachverfolgen von Nachrichten
 
@@ -60,7 +60,7 @@ Verwenden Sie das Entscheidungs-Management zur dynamischen Anzeige personalisier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=de)
 
 Generieren der Textversion
 
@@ -70,7 +70,7 @@ Erstellen und passen Sie die Nur-Text-Version Ihrer E-Mail für Empfängerinnen 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Hinzufügen von Metadaten
 

@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit dem erweiterten Ausdruckseditor benutzerdefinierte Aus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Erweiterte Syntax für Ausdrücke
 
@@ -40,7 +40,7 @@ Beherrschen Sie die Syntaxregeln, bedingten Anweisungen und Datentypen, die zum 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Funktionen in Adobe Journey Optimizer
 
@@ -61,7 +61,7 @@ Greifen Sie auf praktische SQL-Abfragebeispiele zu, um Daten in verschiedenen Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Beispiel-SQL-Abfragen für die Datenanalyse
 

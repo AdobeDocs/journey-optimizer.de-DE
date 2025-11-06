@@ -20,7 +20,7 @@ Bei der Verwaltung Ihrer Journeys in Adobe Journey Optimizer geht es darum, Ihne
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Durchsuchen und Filtern von Journeys
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie effektiv durch Journeys navigieren und sie filtern und ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Eintritt von Profilen in Journeys
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Profile in Journeys eintreten, einschließlich Regeln für den
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Verwenden zusätzlicher Kennungen in Journeys
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie zusätzliche Kennungen für erweiterte Personalisierung un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Zeitzonen-Management
 
@@ -70,7 +70,7 @@ Maximieren Sie die Interaktion für E-Mail- und Push-Nachrichten, indem Sie mith
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Beenden der Journey
 

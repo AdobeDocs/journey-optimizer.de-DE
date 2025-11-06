@@ -75,6 +75,6 @@ Die detaillierten Schritte zum Erstellen einer Web-Kampagne finden Sie in [diese
 * **[Web-Inhalte bearbeiten](create-web.md#edit-web-content)** - Meistern Sie den Web-Designer, um Seiten mithilfe visueller oder nicht visueller Bearbeitungsmodi zu ändern.
 * **[Web-Änderungen verwalten](manage-web-modifications.md)** - Erfahren Sie, wie Sie Änderungen in Ihren Web-Erlebnissen organisieren, anwenden und verwalten.
 * **[Web-Erlebnisse überwachen](monitor-web-experiences.md)** - Verfolgen und analysieren Sie die Leistung Ihrer Web-Kampagnen mit detaillierten Berichten.
-* **[Web-Campaign](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}**-Tutorials - Sehen Sie sich Schritt-für-Schritt-Video-Tutorials zu Web-Kanal-Funktionen und Best Practices an.
+* **[Web-Campaign](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}**-Tutorials - Sehen Sie sich Schritt-für-Schritt-Video-Tutorials zu Web-Kanal-Funktionen und Best Practices an.
 
 

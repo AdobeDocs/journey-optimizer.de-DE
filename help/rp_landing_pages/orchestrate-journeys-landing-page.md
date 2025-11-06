@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit den intuitiven Drag-and-Drop-Tools und den kontextuell
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Umfassende Anleitung zum Erstellen und Verwalten von Journeys
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Entwerfen, Testen, Veröffentlichen und Tracking vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Umfassendes Handbuch zum Verwalten von Journeys
 
@@ -70,7 +70,7 @@ Meistern Sie die Erstellung von Ausdrücken für dynamische Workflows, Datenmani
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Praktische Anwendungsfälle für Adobe Journey Optimizer
 
@@ -88,6 +88,6 @@ Erkunden Sie die realen Anwendungen von Adobe Journey Optimizer, einschließlich
 
 - **[Abonnieren von Warnhinweisen für Journeys](../using/reports/alerts.md)** – Erfahren Sie, wie Sie Systemwarnungen verwalten, Benachrichtigungen abonnieren und Fehler in Journeys und Kampagnen beheben.
 
-- **[Journey-Tutorials](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Lernen Sie das Journey-Erstellen durch praktische Video-Tutorials, die Funktionen, Merkmale und Best Practices behandeln.
+- **[Journey-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Lernen Sie das Journey-Erstellen durch praktische Video-Tutorials, die Funktionen, Merkmale und Best Practices behandeln.
 
 

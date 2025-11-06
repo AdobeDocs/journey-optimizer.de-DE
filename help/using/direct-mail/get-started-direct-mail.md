@@ -40,6 +40,6 @@ Die wichtigsten Schritte zum Senden von Briefpostnachrichten sind:
 * **[Konfigurieren des Briefpostkanals](direct-mail-configuration.md)** - Richten Sie Briefpost-Oberflächen und Datei-Routing-Konfigurationen ein.
 * **[Briefpost in Journey](direct-mail-journeys.md)** - Erfahren Sie, wie Sie Briefpost-Aktionen in Kunden-Journey verwenden.
 * **[Testen und Senden von Briefpost](test-send-direct-mail.md)** - Erfahren Sie, wie Sie Ihre Briefpost-Sendungen testen, validieren und veröffentlichen.
-* **[Briefpost-Tutorials](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - Erkunden Sie die schrittweisen Video-Tutorials zu den Funktionen und Best Practices von Briefpost.
+* **[Briefpost-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - Erkunden Sie die schrittweisen Video-Tutorials zu den Funktionen und Best Practices von Briefpost.
 
 

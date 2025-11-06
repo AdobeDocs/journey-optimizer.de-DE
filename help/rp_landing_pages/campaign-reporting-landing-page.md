@@ -20,7 +20,7 @@ Mit den Kampagnenberichten in Adobe Journey Optimizer erhalten Sie umsetzbare Er
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Überblick über Kampagnenberichte
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die Leistung von Kampagnen anhand von Schlüsselmetriken w
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Code-basierter Kampagnenbericht
 
@@ -50,7 +50,7 @@ Analysieren Sie Inhaltskarten-Kampagnen mit Metriken wie Anzeige- und Klick-Tren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 Bericht zu einer Direkt-Mail-Kampagne
 
@@ -60,7 +60,7 @@ Bewerten Sie die Effizienz von Direkt-Mail-Kampagnen, indem Sie Versandstatus, F
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=de)
 
 Bericht zu einer E-Mail-Kampagne
 
