@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
 source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Der Graph **[!UICONTROL Impression- und Klick-Trend]** zeigt eine detaillierte A
 
 * **[!UICONTROL Klicks]**: Gibt an, wie oft die Benutzenden mit den In-App-Nachrichten interagiert haben.
 
-* **[!UICONTROL Displays]**: Gibt an, wie oft die In-App-Nachricht dem Benutzer angezeigt wurde.
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die In-App-Nachricht den Benutzenden angezeigt wurde.
 
 +++
 
@@ -65,7 +65,7 @@ Anhand des Graphs **[!UICONTROL Anzeigen]** können Sie sowohl die Gesamtreichwe
 
 +++ Weitere Informationen zu den Metriken „Anzeigen“
 
-* **[!UICONTROL Displays]**: Gibt an, wie oft die In-App-Nachricht dem Benutzer angezeigt wurde.
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die In-App-Nachricht den Benutzenden angezeigt wurde.
 
 * **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
@@ -89,13 +89,13 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 
-* **[!UICONTROL Displays]**: Gibt an, wie oft die In-App-Nachricht dem Benutzer angezeigt wurde.
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die In-App-Nachricht den Benutzenden angezeigt wurde.
 
 * **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
-* **[!UICONTROL Sendet]**: Gibt an, wie oft die App die In-App-Kampagne angefordert hat. Mehrere Anfragen pro Benutzersitzung (z. B. beim Start oder beim erneuten Laden) können dazu führen, dass dieser Wert die Anzahl der Unique User überschreitet, wenn die Kampagnendaten nicht zwischengespeichert werden.
+* **[!UICONTROL Sendevorgänge]**: Gibt an, wie oft die App die In-App-Kampagne angefordert hat. Mehrere Anfragen pro Benutzersitzung (z. B. beim Start oder beim Neuladen) können dazu führen, dass dieser Wert die Anzahl der eindeutigen Benutzenden überschreitet, wenn die Kampagnendaten nicht zwischengespeichert werden.
 
-* **[!UICONTROL Eingehend ausgelöst]**: Gibt an, wie oft die App die In-App-Nachricht anzeigen sollte. Diese Zahl kann niedriger sein als die Gesamtzahl der gesendeten Nachrichten, wenn anwendungsseitige Regeln verhindert haben, dass die Nachricht angezeigt wird.
+* **[!UICONTROL Eingehend ausgelöst]**: Gibt an, wie oft die App die In-App-Nachricht anzeigen sollte. Diese Zahl kann niedriger sein als die Gesamtzahl der Sendevorgänge, wenn Regeln der App verhindert haben, dass die Nachricht angezeigt wird.
 
 * **[!UICONTROL Eingehende Abweisungen]**: Anzahl, wie oft Benutzende die In-App-Nachricht verworfen haben, ohne damit zu interagieren.
 
@@ -114,7 +114,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 * **[!UICONTROL Klicks]**: Gibt an, wie oft die Benutzenden mit den In-App-Nachrichten interagiert haben.
 
-* **[!UICONTROL Displays]**: Gibt an, wie oft die In-App-Nachricht dem Benutzer angezeigt wurde.
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die In-App-Nachricht den Benutzenden angezeigt wurde.
 
 * **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 

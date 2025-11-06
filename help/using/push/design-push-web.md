@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gestalten einer Push-Benachrichtigung
-description: Erfahren Sie, wie Sie eine Web-Push-Benachrichtigung in Journey Optimizer erstellen
+description: Informationen zum Gestalten einer Web-Push-Benachrichtigung in Journey Optimizer
 feature: Push
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Beginner
 hidefromtoc: true
 hide: true
 source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 13%
 
 >[!AVAILABILITY]
 >
->Derzeit unterstützen Web-Push-Benachrichtigungen in Journey Optimizer nicht die Funktionen **Stille Benachrichtigung** und **Inhalt simulieren**, sie werden jedoch zu einem späteren Zeitpunkt verfügbar sein.
+>Derzeit unterstützen Web-Push-Benachrichtigungen in Journey Optimizer die Funktionen **Stille Benachrichtigung** und **Inhalte simulieren** nicht, sie werden jedoch zu einem späteren Zeitpunkt verfügbar sein.
 
-Nachdem Sie Ihre Web-Push-Benachrichtigungskampagne oder Ihren Journey erstellt haben, können Sie den Inhalt und die Struktur entsprechend Ihren Anforderungen gestalten. Beachten Sie, dass vor dem Senden einer Web-Push-Benachrichtigung dieser Kanal zunächst in Ihrer [Kanalkonfiguration“ konfiguriert &#x200B;](push-configuration-web.md) muss.
+Nachdem Sie Ihre Web-Push-Benachrichtigungskampagne oder -Journey erstellt haben, können Sie den Inhalt und die Struktur entsprechend Ihren Anforderungen gestalten. Beachten Sie, dass vor dem Senden einer Web-Push-Benachrichtigung dieser Kanal zunächst in Ihrer [Kanalkonfiguration](push-configuration-web.md) konfiguriert werden muss.
 
 <!--
 ## Send a silent notification {#silent-notification}
@@ -38,23 +38,23 @@ Use the **Custom Data** section to include additional information in the form of
 
 ## Titel und Textkörper {#push-title-body}
 
-Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Textkörper]**. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren[&#x200B; Daten zu &#x200B;](../personalization/personalize.md) und [dynamische Inhalte) &#x200B;](../personalization/get-started-dynamic-content.md).
+Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Textkörper]**. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren, [Daten zu personalisieren](../personalization/personalize.md) und [dynamische Inhalte](../personalization/get-started-dynamic-content.md) hinzuzufügen. 
 
-Klicken Sie **[!UICONTROL Text bearbeiten mit dem KI-]**), um Ihre Inhalte mithilfe des Journey Optimizer-KI-Assistenten einfach zu generieren.
+Klicken Sie auf **[!UICONTROL Text mit KI-Assistenten bearbeiten]**, um Ihre Inhalte einfach mithilfe des KI-Assistenten von Journey Optimizer zu generieren.
 
 ![](assets/web-design-body.png)
 
 ## Klickverhalten {#on-click-behavior}
 
-Verwenden Sie das Feld **[!UICONTROL Textkörper-Klickverhalten]** um einen Deep-Link zu definieren, der bestimmt, was passiert, wenn ein Benutzer auf den Benachrichtigungstext klickt. Auf diese Weise können Sie Benutzer direkt an eine bestimmte Seite oder einen bestimmten Abschnitt Ihrer Web-Anwendung senden.
+Verwenden Sie das Feld **[!UICONTROL Verhalten bei Klick auf Hauptteil]**, um einen Deeplink zu definieren, der bestimmt, was passiert, wenn Benutzende auf den Benachrichtigungstext klicken. Auf diese Weise können Sie Benutzende direkt zu einer bestimmten Seite oder einem bestimmten Abschnitt Ihrer Web-Anwendung weiterleiten.
 
 ![](assets/web-onclick.png)
 
 ## Hinzufügen von Medien {#add-media-push}
 
-Geben Sie die Medien-URL in das Feld **[!UICONTROL Medien hinzufügen]** ein. Sie können auch Personalisierungs-Token in die URL aufnehmen, um den Inhalt für jede Benutzerin und jeden Benutzer anzupassen.
+Geben Sie die Medien-URL in das Feld **[!UICONTROL Medien hinzufügen]** ein. Sie können auch Personalisierungs-Token in die URL aufnehmen, um den Inhalt für alle Benutzenden anzupassen.
 
-Klicken Sie ![Text mit dem KI-Assistenten bearbeiten](assets/do-not-localize/Smock_ImageAdd_18_N.svg), um mithilfe des Journey Optimizer-KI-Assistenten schnell Medien zu generieren.
+Klicken Sie ![Text mit KI-Assistenten bearbeiten](assets/do-not-localize/Smock_ImageAdd_18_N.svg), um Medien schnell mithilfe des KI-Assistenten von Journey Optimizer zu generieren.
 
 ![](assets/web-media.png)
 
@@ -62,19 +62,19 @@ Klicken Sie ![Text mit dem KI-Assistenten bearbeiten](assets/do-not-localize/Smo
 
 Gestalten Sie Ihre Web-Push-Benachrichtigungen interaktiv, indem Sie Ihrem Inhalt Schaltflächen hinzufügen.
 
-Beachten Sie, dass Schaltflächen nur sichtbar sind, wenn das Gerät entsperrt ist. Wenn der Bildschirm gesperrt ist, werden nur **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** angezeigt.
+Beachten Sie, dass Schaltflächen nur angezeigt werden, wenn das Gerät entsperrt ist. Wenn der Bildschirm gesperrt ist, werden nur **[!UICONTROL Titel]** und **[!UICONTROL Nachricht]** angezeigt.
 
-Verwenden Sie die Option **[!UICONTROL Schaltfläche hinzufügen]**, um die Beschriftung jeder Schaltfläche und die zugehörige Aktion zu definieren, wie unten beschrieben:
+Verwenden Sie die Option **[!UICONTROL Schaltfläche hinzufügen]**, um das Label jeder Schaltfläche und die zugehörige Aktion zu definieren, wie unten beschrieben:
 
-* **[!UICONTROL Deeplink]**: Benutzer zu einer bestimmten Ansicht, einem bestimmten Abschnitt oder einer bestimmten Registerkarte in Ihrer App weiterleiten. Geben Sie die Deeplink-URL in das entsprechende Feld ein.
+* **[!UICONTROL Deeplink]**: Leitet Benutzende zu einer bestimmten Ansicht, einem bestimmten Abschnitt oder einer bestimmten Registerkarte in Ihrer App weiter. Geben Sie die Deeplink-URL in das entsprechende Feld ein.
 
-* **[!UICONTROL Web-URL]**: Benutzer zu einer externen Webseite weiterleiten. Fügen Sie die URL in das entsprechende Feld ein.
+* **[!UICONTROL Web-URL]**: Leitet Benutzende zu einer externen Web-Seite weiter. Fügen Sie die URL in das entsprechende Feld ein.
 
 ![](assets/push_buttons.png)
 
-## Benutzerspezifische Daten {#custom-data}
+## Benutzerdefinierte Daten {#custom-data}
 
-Im Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** können Sie der Benachrichtigungs-Payload benutzerdefinierte Schlüssel-Wert-Paare hinzufügen. Diese Werte können von Ihrer Web-Anwendung verwendet werden, um Trigger-spezifische Aktionen auszuführen oder das Benutzererlebnis anzupassen. Weitere Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform finden Sie in [diesem Abschnitt](push-gs.md).
+Im Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** können Sie der Benachrichtigungs-Payload benutzerdefinierte Schlüssel-Wert-Paare hinzufügen. Diese Werte können von Ihrer Web-Anwendung verwendet werden, um bestimmte Aktionen auszulösen oder das Anwendererlebnis anzupassen. Weitere Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform finden Sie in [diesem Abschnitt](push-gs.md).
 
 ![](assets/web-custom.png)
 

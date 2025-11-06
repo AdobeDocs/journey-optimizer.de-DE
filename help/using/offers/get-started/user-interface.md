@@ -8,15 +8,15 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Benutzeroberfläche der Angebotsbibliothek {#user-interface}
 
-Der **[!UICONTROL Entscheidungs]** Management“ in der linken Leiste bietet zwei Menüs, die Ihnen Zugriff auf Entscheidungs-Management-Funktionen bieten:
+Der Abschnitt **[!UICONTROL Entscheidungs-Management]** in der linken Leiste bietet zwei Menüs, die Ihnen Zugriff auf Entscheidungs-Management-Funktionen bieten:
 
 Verwenden Sie das **[!UICONTROL Angebote]**-Menü zur Verwaltung und Bereitstellung Ihrer Angebote:
 

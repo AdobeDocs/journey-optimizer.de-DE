@@ -8,9 +8,9 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ Um Briefpost-Nachrichten zu erstellen, erstellen Sie eine geplante Kampagne und 
 >1. Eine [Konfiguration für Direkt-Mail-Nachrichten](../direct-mail/direct-mail-configuration.md#direct-mail-surface), die auf die Datei-Routing-Konfiguration verweist.
 
 
-## Erstellen einer Briefpost-Kampagne{#create-dm-campaign}
+## Erstellen einer Direkt-Mail-Kampagne{#create-dm-campaign}
 
 >[!AVAILABILITY]
 >
->Briefpost unterstützt die Holdout-Funktion, unterstützt derzeit jedoch keine Abwandlungen.
+>Direkt-Mail unterstützt zwar die Holdout-Funktion, derzeit jedoch keine Abwandlungen.
 
-Um eine Briefpost-Kampagne zu erstellen, gehen Sie folgendermaßen vor:
+Um eine Direkt-Mail-Kampagne zu erstellen, gehen Sie folgendermaßen vor:
 
 1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
 

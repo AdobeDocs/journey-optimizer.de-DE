@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 >[!TAB Hinzufügen von Inhaltskarten zu einer Journey]
 
-Gehen Sie wie folgt vor, um einer Journey eine Inhaltskarte hinzuzufügen:
+Gehen Sie wie folgt vor, um eine Inhaltskarte zu einer Journey hinzuzufügen:
 
 1. Öffnen Sie Ihre Journey und ziehen Sie eine Aktivität **[!UICONTROL Karte]** per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
 
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um einer Journey eine Inhaltskarte hinzuzufügen:
 
    1. Wählen Sie die Bedingung **[!UICONTROL Und]**, wenn Sie **[!UICONTROL Merkmale]** hinzufügen und Ihre Regel besser anpassen möchten.
 
-      +++Siehe verfügbare Eigenschaften.
+      +++Siehe verfügbare Merkmale.
 
       | Paket | Merkmale  | Definition |
       |---|---|---|
@@ -146,7 +146,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung der Inhaltskarten durch eine Kamp
 
    1. Wählen Sie die Bedingung **[!UICONTROL Und]**, wenn Sie **[!UICONTROL Merkmale]** hinzufügen und Ihre Regel besser anpassen möchten.
 
-      +++Siehe verfügbare Eigenschaften.
+      +++Siehe verfügbare Merkmale.
 
       | Paket | Merkmale  | Definition |
       |---|---|---|

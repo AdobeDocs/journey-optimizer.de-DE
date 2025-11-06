@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Auf den folgenden Registerkarten finden Sie weitere Informationen dazu, wie Sie 
 
    Das Feld **[!UICONTROL Konfiguration]** ist standardmäßig mit der letzten Konfiguration für den Kanal vorausgefüllt, den die Benutzerin oder der Benutzer verwendet hat.
 
-Sie können jetzt mit der Erstellung des Inhalts Ihrer LINE-Nachricht beginnen, indem Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** verwenden, wie unten beschrieben.
+Sie können jetzt mit der Erstellung des Inhalts Ihrer LINE-Nachricht beginnen, indem Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** klicken, wie unten beschrieben.
 
 >[!TAB Hinzufügen einer LINE-Nachricht zu einer Kampagne]
 

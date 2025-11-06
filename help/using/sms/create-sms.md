@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1105'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 
 >[!AVAILABILITY]
 >
->RCS ist kein HIPAA-fähiger Service und darf nicht zur Erfassung, Speicherung oder Verarbeitung sensibler personenbezogener Daten, einschließlich zulässiger Gesundheitsdaten, z. B. persönlicher Gesundheitsinformationen, verwendet werden, die Ihr Unternehmen ansonsten möglicherweise in Journey Optimizer verarbeiten darf.
+>RCS ist kein HIPAA-fähiger Service und darf nicht zur Erfassung, Speicherung oder Verarbeitung sensibler personenbezogener Daten verwendet werden, einschließlich zulässiger Gesundheitsdaten, z. B. persönlicher Gesundheitsinformationen, die Ihr Unternehmen ansonsten möglicherweise in Journey Optimizer verarbeiten darf.
 
 Mit Adobe Journey Optimizer können Sie Text- (SMS), Rich Communication- (RCS) und Multimedia-Nachrichten (MMS) entwerfen und versenden. Sie müssen zunächst eine SMS-Aktion in eine Journey oder eine Kampagne einfügen und dann den Inhalt der Textnachricht definieren, wie unten beschrieben. Adobe Journey Optimizer bietet auch die Möglichkeit, Ihre Textnachrichten vor dem Versand zu testen, sodass Sie das Rendering, die Personalisierungsattribute und alle anderen Einstellungen überprüfen können.
 
@@ -60,7 +60,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
    * **Geplant – Marketing**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Marketing-Nachrichten. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
 
-   * **API-ausgelöst – Marketing/Transaktion**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt.  API-ausgelöste Kampagnen zielen auf den Versand von Nachrichten des Typs Marketing oder Transaktion ab. Beim Typ „Transaktion“ handelt es sich um Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw.
+   * **API-ausgelöst – Marketing/Transaktion**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt.  Durch API ausgelöste Kampagnen zielen auf den Versand von Marketing- oder Transaktionsnachrichten ab, d. h. Nachrichten, die aufgrund einer von einem Kontakt durchgeführten Aktion gesendet werden: Zurücksetzen des Passworts, Warenkorbkauf usw.
 
 1. Bearbeiten Sie im Bereich **[!UICONTROL Eigenschaften]** den **[!UICONTROL Titel]** und die **[!UICONTROL Beschreibung]** Ihrer Kampagne.
 
@@ -112,7 +112,7 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
 
 1. Nach dem Definieren Ihres Inhalts können Sie das Verfolgen von URLs für Ihre Nachricht aktivieren. Rufen Sie dazu das Menü **[!UICONTROL Hilfsfunktionen]** auf und wählen Sie **[!UICONTROL Helfer]** aus.
 
-   Um die URL-Verkürzungsfunktion verwenden zu können, müssen Sie zunächst eine Subdomain konfigurieren, die dann mit Ihrer Konfiguration verknüpft wird. [Weitere Informationen](sms-subdomains.md)
+   Um die Funktion der URL-Verkürzung zu verwenden, müssen Sie zunächst eine Subdomain konfigurieren, die dann mit Ihrer Konfiguration verknüpft wird. [Weitere Informationen](sms-subdomains.md)
 
    >[!NOTE]
    >

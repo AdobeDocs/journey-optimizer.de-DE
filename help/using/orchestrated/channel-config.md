@@ -2,18 +2,18 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Konfigurieren der Kanalkonfiguration
-description: Erfahren Sie, wie Sie Ihre Kanalkonfiguration konfigurieren
+description: Informationen zum Konfigurieren der Kanalkonfiguration
 version: Campaign Orchestration
 source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Konfigurieren der Kanalkonfiguration {#channel-configuration}
 
-Nach der Einrichtung von [Target Dimension](target-dimension.md) müssen Sie Ihre **[!UICONTROL Kanalkonfiguration]** konfigurieren und die entsprechenden **[!UICONTROL Ausführungsdetails]** definieren. Auf diese Weise können Sie Folgendes definieren:
+Nach der Einrichtung Ihrer [Zieldimension](target-dimension.md) müssen Sie Ihre **[!UICONTROL Kanalkonfiguration]** konfigurieren und die entsprechenden **[!UICONTROL Ausführungsdetails]** definieren. Auf diese Weise können Sie Folgendes definieren:
 
 * **Die Ebene des Nachrichtenversands**: z. B. eine Nachricht pro Empfängerin bzw. Empfänger (beispielsweise eine einzige E-Mail pro Kontakt).
 

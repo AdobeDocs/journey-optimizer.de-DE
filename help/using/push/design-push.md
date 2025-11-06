@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Nach dem Hinzufügen werden die Medien rechts neben dem Textkörper der Benachri
 
 Erstellen Sie eine verwertbare Benachrichtigung, indem Sie Ihrem Push-Inhalt Schaltflächen hinzufügen.
 
-Wenn der Gerätebildschirm gesperrt ist, werden diese Schaltflächen nicht angezeigt: Nur dann sind **Titel** und die **Nachricht** der Benachrichtigung sichtbar. Wenn das Gerät entsperrt ist, sehen die Empfänger die Schaltflächen.
+Wenn der Gerätebildschirm gesperrt ist, werden diese Schaltflächen nicht angezeigt und nur der **Titel** und die **Nachricht** der Benachrichtigung sind sichtbar. Wenn das Gerät entsperrt ist, sehen die Empfangenden die Schaltflächen.
 
 In der Android-Version können Sie bis zu drei Schaltflächen hinzufügen.
 
@@ -100,7 +100,7 @@ Wählen Sie die Option **[!UICONTROL Stille Benachrichtigung]** aus, um die Mobi
 
 Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Daten]**, um Schlüssel-Wert-Paare hinzuzufügen.
 
-## Benutzerspezifische Daten {#custom-data}
+## Benutzerdefinierte Daten {#custom-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-custom"

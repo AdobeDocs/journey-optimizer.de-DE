@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 ## Anzeigen einer Vorschau der Textnachricht {#preview-sms}
 
-Sobald der Nachrichteninhalt definiert wurde, können Sie Testprofile oder Beispieleingabedaten (aus einer CSV-/JSON-Datei hochgeladen oder manuell hinzugefügt) verwenden, um eine Vorschau des Inhalts anzuzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden. 
+Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten (aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt) eine Vorschau des Inhalts anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden. 
 
 Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und überprüfen Sie dann die Nachricht mithilfe der Testprofildaten.
 

@@ -7,12 +7,12 @@ feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: Vertikale Ausrichtung, E-Mail-Editor, Abstand
+keywords: vertikale Ausrichtung, E-Mail-Editor, Abstand
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

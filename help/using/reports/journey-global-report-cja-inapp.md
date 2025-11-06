@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
 source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Der Graph **[!UICONTROL Anzeige- und Klick-Trend]** zeigt eine detaillierte Anal
 
 * **[!UICONTROL Klicks]**: Gibt an, wie oft die Benutzenden mit den In-App-Nachrichten interagiert haben.
 
-* **[!UICONTROL Displays]**: Gibt an, wie oft die In-App-Nachricht dem Benutzer angezeigt wurde.
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die In-App-Nachricht den Benutzenden angezeigt wurde.
 
 +++
 
@@ -61,7 +61,7 @@ Anhand des Graphs **[!UICONTROL Anzeigen]** können Sie sowohl die Gesamtreichwe
 
 +++ Weitere Informationen zu den Metriken „Anzeigen“
 
-* **[!UICONTROL Displays]**: Gibt an, wie oft die In-App-Nachricht dem Benutzer angezeigt wurde.
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die In-App-Nachricht den Benutzenden angezeigt wurde.
 
 * **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
@@ -83,7 +83,7 @@ Die Tabelle **[!UICONTROL Tracking-Daten]** bietet einen detaillierten Überblic
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Profile, die auf einen Inhalt in Ihren In-App-Nachrichten geklickt haben.
 
-* **[!UICONTROL Displays]**: Gibt an, wie oft die In-App-Nachricht dem Benutzer angezeigt wurde.
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die In-App-Nachricht den Benutzenden angezeigt wurde.
 
 * **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 
@@ -107,7 +107,7 @@ Die Tabelle **[!UICONTROL Bezeichnungen für verfolgten Link]** bietet einen umf
 
 * **[!UICONTROL Klicks]**: Gibt an, wie oft die Benutzenden mit den In-App-Nachrichten interagiert haben.
 
-* **[!UICONTROL Displays]**: Gibt an, wie oft die In-App-Nachricht dem Benutzer angezeigt wurde.
+* **[!UICONTROL Anzeigen]**: Gibt an, wie oft die In-App-Nachricht den Benutzenden angezeigt wurde.
 
 * **[!UICONTROL Einzelanzeigen]**: Anzahl der Öffnungen der Nachricht, wobei mehrfache Interaktionen eines Profils nicht gezählt werden.
 

@@ -9,9 +9,9 @@ level: Intermediate
 keywords: SMS, Subdomains, Konfiguration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1008'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -135,16 +135,16 @@ Beachten Sie, dass die Subdomain als **[!UICONTROL Fehlgeschlagen]** markiert wi
 
 ## Leitlinien {#guardrails}
 
-Derzeit unterstützt die [!DNL Journey Optimizer]-Benutzeroberfläche nicht das Löschen oder Aufheben der Delegierung von SMS-Subdomains, nachdem sie eingerichtet wurden.
+Derzeit unterstützt die Benutzeroberfläche von [!DNL Journey Optimizer] das Delegieren oder Aufheben der Delegierung von SMS-Subdomains nach der Einrichtung nicht.
 
-Beim Testen von Funktionen in [!DNL Journey Optimizer] kann es jedoch erforderlich sein, eine SMS-Subdomain zu erstellen. Sobald die Tests abgeschlossen sind, kann dies zu einer Überlastung der Umgebungen mit unnötigen Konfigurationen führen, da die Benutzeroberfläche das Entfernen oder Aufheben der Delegierung von SMS-Subdomains nicht zulässt.
+Beim Testen von Funktionen in [!DNL Journey Optimizer] kann es jedoch erforderlich sein, eine SMS-Subdomain zu erstellen. Sobald die Tests abgeschlossen sind, kann dies zu überladenen Umgebungen mit unnötigen Konfigurationen führen, da die Benutzeroberfläche das Entfernen oder Aufheben der Delegierung von SMS-Subdomains nicht zulässt.
 
 Im Folgenden finden Sie einige empfohlene Schritte und Überlegungen:
 
 <!--As an alternative action, create a new SMS subdomain for future use cases and avoid using the existing one if it is no longer needed.-->
 
-* Es empfiehlt sich, eine aufgeräumte Umgebung nur durch die Erstellung der erforderlichen Komponenten und Konfigurationen aufrechtzuerhalten.
-* Wenden Sie sich in Situationen mit Geschäftsauswirkungen an Ihren Adobe-Support-Mitarbeiter, der Ihnen möglicherweise beim Entfernen/Aufheben der Delegierung der SMS-Subdomain helfen kann. [Weitere Informationen](#undelegate-subdomain)
+* Es empfiehlt sich, eine ordentliche Umgebung aufrechtzuerhalten, indem nur erforderliche Komponenten und Konfigurationen erstellt werden.
+* Wenden Sie sich in Situationen, in denen es zu Geschäftsauswirkungen kommt, an Ihren Adobe-Support. Dieser kann Ihnen möglicherweise beim Entfernen/Aufheben der Delegierung der SMS-Subdomain helfen. [Weitere Informationen](#undelegate-subdomain)
 * Wenn Sie weitere Unterstützung benötigen, wenden Sie sich an Adobe, um Anleitungen zur effektiven Verwaltung Ihrer Instanz zu erhalten.
 
 ## Aufheben der Delegierung einer Subdomain {#undelegate-subdomain}
@@ -157,4 +157,4 @@ Wenn die SMS-Subdomain auf einen CNAME-Eintrag verweist, können Sie den für di
 >
 >Eine SMS-Subdomain kann auf einen CNAME-Eintrag verweisen, da es sich entweder um eine [vorhandene Subdomain](#sms-use-existing-subdomain) handelte, die mithilfe der [CNAME-Methode](../configuration/delegate-subdomain.md#cname-subdomain-setup) an Adobe delegiert wurde, oder um eine [neue SMS-Subdomain](#sms-configure-new-subdomain), die Sie konfiguriert haben.
 
-Nachdem Ihre Anfrage von Adobe verarbeitet wurde, wird die nicht delegierte Domain nicht mehr auf der Subdomain-Inventarseite angezeigt.
+Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Inventarseite angezeigt.

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: 881cae4638082f804a5e2a768dfa135193959191
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1354'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -157,11 +157,11 @@ Ihre neu erstellte Metrik wird beim Export des Berichts als PDF oder CSV-Datei e
 
 ## Erkunden von Daten mit dem Insight Builder {#exploratory}
 
-Verwenden Sie das Tool Insight Builder, um auf einfache Weise Tabellen und Visualisierungen aus Ihren ausgewählten **[!UICONTROL Dimensionen]** und **[!UICONTROL Metriken]** zu erstellen. Dieses Tool optimiert die Datenforschung und ermöglicht die automatische Anpassung und Analyse von Informationen. Weitere Informationen finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+Verwenden Sie das Tool Insight Builder, um mühelos Tabellen und Visualisierungen aus Ihren ausgewählten **[!UICONTROL Dimensionen]** und **[!UICONTROL Metriken]** zu erstellen. Dieses Tool optimiert die Datenforschung und ermöglicht die automatische Anpassung und Analyse von Informationen. Weitere Informationen finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
 
-1. Beginnen Sie, indem Sie auf den Bericht zugreifen, in dem Sie den Insight Builder verwenden möchten.
+1. Greifen Sie zunächst auf den Bericht zu, in dem Sie Insight Builder verwenden möchten.
 
-1. Wählen Sie im Menü in der linken Leiste das Insight-Builder -Menü aus.
+1. Wählen Sie im Menü in der linken Leiste das Menü „Insight Builder“ aus.
 
    ![](assets/exploratory_analysis_1.png)
 
@@ -193,7 +193,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >Jede Organisation ist auf die Veröffentlichung von 25 Zielgruppen beschränkt. Benutzende können außerdem maximal 5 Zielgruppen pro Stunde und 20 pro Tag veröffentlichen.
->&#x200B;> Einmalige Zielgruppen haben eine Lebensdauer von 48 Stunden. Wenn also innerhalb dieses Zeitraums 25 Zielgruppen veröffentlicht werden, können weitere Zielgruppen erst nach Ablauf der 48-Stunden-Frist veröffentlicht werden.
+> Einmalige Zielgruppen haben eine Lebensdauer von 48 Stunden. Wenn also innerhalb dieses Zeitraums 25 Zielgruppen veröffentlicht werden, können weitere Zielgruppen erst nach Ablauf der 48-Stunden-Frist veröffentlicht werden.
 
 Sie können jetzt bestimmte Daten in der Tabelle auswählen und aus diesen Auswahlen direkt eine Zielgruppe erstellen, um den Erstellungsprozess für Zielgruppen zu optimieren und zu vereinfachen.
 

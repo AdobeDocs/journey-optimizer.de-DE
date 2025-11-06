@@ -10,17 +10,17 @@ level: Intermediate
 keywords: Angebote, Entscheidung, E-Mails, Personalisierung, Entscheidung
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Hinzufügen personalisierter Angebote {#deliver-personalized-offers}
 
-Mit [!DNL Journey Optimizer] können Sie in E-Mails Entscheidungen einfügen, die die Entscheidungs-Management-Engine nutzen, um das beste Angebot für Ihre Kunden auszuwählen.
+In [!DNL Journey Optimizer]-E-Mails können Sie Entscheidungen einfügen, die die Entscheidungs-Management-Engine nutzen, um das jeweils beste Angebot für Ihre Kundinnen und Kunden auszuwählen.
 
-Sie können beispielsweise eine Entscheidung hinzufügen, die in Ihrer E-Mail ein besonderes Angebot mit Rabatten anzeigt, das je nach Treuestufe des Empfängers variiert.
+Sie können beispielsweise eine Entscheidung hinzufügen, die in Ihrer E-Mail ein besonderes Angebot mit Rabatten anzeigt, das je nach Treuestufe der Empfangenden variiert.
 
 >[!IMPORTANT]
 >
@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um eine Entscheidung in eine E-Mail-Nachricht einzufüg
 
    1. Wählen Sie im sich öffnenden Fenster die Platzierung aus, die den anzuzeigenden Angeboten entspricht.
 
-      [Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden. &#x200B;](../offers/offer-library/creating-placements.md) In diesem Beispiel verwenden wir die Platzierung „E-Mail-Top-Bild“. Diese Platzierung wurde in der Angebotsbibliothek erstellt, um Angebote des Typs Bild oben am Anfang von Nachrichten anzuzeigen.
+      [Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden. ](../offers/offer-library/creating-placements.md) In diesem Beispiel verwenden wir die Platzierung „E-Mail-Top-Bild“. Diese Platzierung wurde in der Angebotsbibliothek erstellt, um Angebote des Typs Bild oben am Anfang von Nachrichten anzuzeigen.
 
    1. Entscheidungen, die mit der ausgewählten Platzierung übereinstimmen, werden angezeigt. Wählen Sie die in der Inhaltskomponente zu verwendende Entscheidung aus und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 

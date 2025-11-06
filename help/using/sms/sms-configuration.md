@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 96%
 >title="Unpräzises Opt-out"
 >abstract="Wenn diese Option aktiviert ist, erkennt das unpräzise Opt-out eingehende Nachrichten, die definierten Opt-out-Schlüsselwörtern sehr ähnlich sind (z. B. „ABNELDEN“), und sendet automatisch eine Bestätigungsantwort, um die Abmeldeabsicht der Benutzenden zu überprüfen. Wenn Benutzende die Anmeldung über die definierte Eingabeaufforderung bestätigen, wird das Abonnement gekündigt."
 
-Vor dem Versand von SMS, MMS oder RCS müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren. Gehen Sie hierfür wie folgt vor:
+Bevor Sie SMS, MMS oder RCS versenden, müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren. Gehen Sie hierfür wie folgt vor:
 
 1. Integrieren Sie die Anbietereinstellungen mit Journey Optimizer.
 Die Schritte hängen von Ihrem SMS-Anbieter ab. Durchsuchen Sie die nachfolgenden Links, um auf ausführliche Dokumentation zuzugreifen:

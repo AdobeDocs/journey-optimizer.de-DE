@@ -7,15 +7,15 @@ role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Entwerfen von Inhalten für Inhaltskarten {#design-content-card}
 
-Das Authoring-Konstrukt für Karten bietet ein formularbasiertes Authoring-Erlebnis, das Marketern grundlegende Eingaben bietet, die von Entwicklern gerendert werden können.
+Das Authoring-Konstrukt für Karten bietet ein formularbasiertes Authoring-Erlebnis, das Marketing-Fachleuten grundlegende Eingaben bereitstellt, die von Entwickelnden gerendert werden können.
 
 Sobald Ihr Inhalt definiert und personalisiert ist, können Sie ihn überprüfen und aktivieren. Ihre Kampagne wird entsprechend dem festgelegten Zeitplan gesendet. [Weitere Informationen finden Sie auf dieser Seite](../campaigns/review-activate-campaign.md).
 
@@ -57,7 +57,7 @@ Im Feld **[!UICONTROL Medien]** können Sie Ihre Inhaltskarten durch Hinzufügen
 
 Um Medien einzubinden, geben Sie entweder die URL der gewünschten Medien ein oder klicken Sie auf das Symbol **[!UICONTROL Assets auswählen]**, um aus den in Ihrer Assets-Bibliothek gespeicherten Assets auszuwählen. [Weitere Informationen über Asset-Management.](../integrations/assets.md)
 
-+++Mehr Optionen mit erweiterter Formatierung
++++Weitere Optionen mit erweiterter Formatierung
 
 Wenn der **[!UICONTROL Modus „Erweiterte Formatierung“]** eingeschaltet ist, können Sie einen **[!UICONTROL Alternativtext]** für Bildschirmlesehilfen und ein anderes Asset in das Feld **[!UICONTROL Medien-URL für dunklen Modus]** einfügen.
 
@@ -126,7 +126,7 @@ Geben Sie in das Feld **[!UICONTROL Ziel-URL]** die Web-URL oder den Deeplink ei
 
 ## Registerkarte „Daten“
 
-## Benutzerspezifische Daten {#custom-data}
+## Benutzerdefinierte Daten {#custom-data}
 
 ![](assets/content-card-design-6.png)
 

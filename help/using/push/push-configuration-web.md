@@ -9,9 +9,9 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1890'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ Das Adobe Experience Platform Mobile-SDK stellt über Android- und iOS-kompatibl
 
 Am Ende dieses Vorgangs sollten Sie auch eine mobile Property in [!DNL Adobe Experience Platform Data Collection] erstellt und konfiguriert haben. Normalerweise wird für jede Mobile App, die verwaltet werden soll, eine Mobile Property erstellt. In der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"} erfahren Sie, wie Sie eine Mobile-Eigenschaft erstellen und konfigurieren.
 
-Um **Web-Push-Benachrichtigungen** zu aktivieren, stellen Sie sicher, dass die [pushNotifications](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/pushnotifications)Eigenschaft in der Web-SDK ordnungsgemäß konfiguriert ist. Verwenden Sie dann [den Befehl sendPushSubscription](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/sendpushsubscription), um Push-Abonnements bei Adobe Experience Platform zu registrieren.
+Um **Web-Push-Benachrichtigungen** zu aktivieren, stellen Sie sicher, dass die [Eigenschaft „pushNotifications“](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/pushnotifications) im Web-SDK ordnungsgemäß konfiguriert ist. Verwenden Sie dann [den Befehl „sendPushSubscription“](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/sendpushsubscription), um Push-Abonnements bei Adobe Experience Platform zu registrieren.
 
 ## Schritt 1: Hinzufügen von Push-Anmeldedaten für die App in Journey Optimizer {#push-credentials-launch}
 
@@ -175,13 +175,13 @@ Die Registrierung der Push-Anmeldedaten für Mobile Apps ist erforderlich, um Ad
 
       1. Legen Sie die FCM-Push-Anmeldedaten per Drag-and-Drop ab. Weitere Informationen zum Abrufen der Push-Anmeldedaten finden Sie in der [Google-Dokumentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-   * **Für Web**
+   * **Bei Web**
 
      ![](assets/add-app-config-web.png)
 
       1. Geben Sie die **[!UICONTROL App-ID]** an.
 
-      1. Geben Sie Ihren **[!UICONTROL GÜLTIGEN öffentlichen]** und **[!UICONTROL privaten Schlüssel]** ein.
+      1. Geben Sie Ihren **[!UICONTROL öffentlichen VAPID-Schlüssel]** und Ihren **[!UICONTROL privaten Schlüssel]** ein.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre App-Konfiguration zu erstellen.
 
@@ -200,7 +200,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=de).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## Schritt 2: Erstellen einer Kanalkonfiguration für Push-Benachrichtigungen{#message-preset}

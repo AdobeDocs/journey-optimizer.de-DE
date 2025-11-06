@@ -5,15 +5,15 @@ role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Zuweisen von Prioritätswerten {#priority}
 
-Mit Journey Optimizer können Sie einer Journey, einer Kampagne oder einer eingehenden Kanalaktion innerhalb der Journey (Action)-Aktivität **[!UICONTROL Prioritätswert]**.
+Mit Journey Optimizer können Sie einer Journey, einer Kampagne oder einer eingehenden Kanalaktion in der Journey-Aktivität **[!UICONTROL Aktion]** einen Prioritätswert zuweisen.
 
 Die Priorität ist von wesentlicher Bedeutung, um eine Journey, Kampagne oder Aktion zu priorisieren, wenn eine erzwungene Begrenzung vorliegt (z. B. eine Häufigkeitsbegrenzung). 
 
@@ -72,4 +72,4 @@ Um den eingehenden Aktionen, die in der Aktivität **[!UICONTROL Aktion]** defin
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445010?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

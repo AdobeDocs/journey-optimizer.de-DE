@@ -10,9 +10,9 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1855'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 >[!AVAILABILITY]
 >
->Briefpost unterstützt die Holdout-Funktion, unterstützt derzeit jedoch keine Abwandlungen.
+>Direkt-Mail unterstützt zwar die Holdout-Funktion, derzeit jedoch keine Abwandlungen.
 
 Für Ihr Inhaltsexperiment können Sie zwischen drei Arten von Experimenten wählen:
 
