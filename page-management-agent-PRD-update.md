@@ -7,12 +7,11 @@ ht-degree: 1%
 ---
 # Aktualisiertes PDF für Seitenverwaltungsagent (Structure Agent)
 
-## Wiki Page URL
-https://wiki.corp.adobe.com/display/~simonetn/%3CUC-12%3E+Structure+Agent
+## Wiki Page URLhttps://wiki.corp.adobe.com/display/~simonetn/%3CUC-12%3E+Structure+Agent
 
----
+&#x200B;---
 
-# &#x200B;1. Zusammenfassung
+&#x200B;# &#x200B;1. Zusammenfassung
 
 Der **Seitenverwaltungs-Agent** (ehemals „Strukturagent„) unterstützt Autoren bei der sicheren Neuorganisation der Dokumentation, indem er Seiten verschiebt, löscht oder umbenennt und dabei automatisch alle Auswirkungen auf das gesamte Repository verwaltet.
 
@@ -22,9 +21,9 @@ Der **Seitenverwaltungs-Agent** (ehemals „Strukturagent„) unterstützt Autor
 
 JIRA > DOCAC-13695
 
----
+&#x200B;---
 
-# &#x200B;2. Problembeschreibung
+&#x200B;# &#x200B;2. Problembeschreibung
 
 Dokumentations-Repositorys erfordern häufige strukturelle Änderungen. Diese Vorgänge sind derzeit **manuell und extrem**, was zu Folgendem führt:
 
@@ -40,9 +39,9 @@ Dokumentations-Repositorys erfordern häufige strukturelle Änderungen. Diese Vo
 
 Der **Page Management Agent** automatisiert diesen gesamten Prozess und schließt ihn in weniger als 1 Minute mit 100%iger Genauigkeit ab.
 
----
+&#x200B;---
 
-# &#x200B;3. Ziele und Schlüsselergebnisse (OKR)
+&#x200B;# &#x200B;3. Ziele und Schlüsselergebnisse (OKR)
 
 | **Ziel** | **Wichtigste Ergebnisse** | **Status** |
 |---------------|-----------------|-----------|
@@ -52,9 +51,9 @@ Der **Page Management Agent** automatisiert diesen gesamten Prozess und schließ
 | Zeit für Autoren verkürzen | 95 % Reduktion (3 Stunden → 1 Minute) | ✅ **ERREICHT** |
 | Transparente Vorgänge | 100%ige Sichtbarkeit vor der Ausführung | ✅ **ERREICHT** |
 
----
+&#x200B;---
 
-# &#x200B;4. Drei Kernoperationen
+&#x200B;# &#x200B;4. Drei Kernoperationen
 
 ## 📦 Verschieben einer Seite
 
@@ -84,9 +83,9 @@ Dateinamen ändern, während der Ordner beibehalten wird:
 - Behält alle Ankerlinks bei
 - Aktualisiert die zugehörigen Seitenverweise
 
----
+&#x200B;---
 
-# &#x200B;5. Workflow (16 Schritte)
+&#x200B;# &#x200B;5. Workflow (16 Schritte)
 
 | **Schritt** | **Aktion** | **Details** |
 |----------|-----------|-------------|
@@ -107,9 +106,9 @@ Dateinamen ändern, während der Ordner beibehalten wird:
 | &#x200B;15. Vorbereitung bestätigen | Commit-Nachricht generieren | Detaillierte Zusammenfassung mit Statistiken |
 | &#x200B;16. Optionales Staging | Git hinzufügen, falls angefordert | Convenience-Funktion |
 
----
+&#x200B;---
 
-# &#x200B;6. Funktionale Anforderungen
+&#x200B;# &#x200B;6. Funktionale Anforderungen
 
 | **Kennung** | **Anforderung** | **Priorität** | **Status** |
 |--------|----------------|-------------|-----------|
@@ -126,9 +125,9 @@ Dateinamen ändern, während der Ordner beibehalten wird:
 | FR-11 | Transparenten Fortschritt anzeigen | P1 | ✅ implementiert |
 | FR-12 | Alle Änderungen überprüfen | P1 | ✅ implementiert |
 
----
+&#x200B;---
 
-# &#x200B;7. Technische Umsetzung
+&#x200B;# &#x200B;7. Technische Umsetzung
 
 ## Algorithmus der Link-Erkennung
 
@@ -162,9 +161,9 @@ New image: ![](../campaigns/assets/image.png)
 Resolves:  help/using/campaigns/assets/image.png ✅
 ```
 
----
+&#x200B;---
 
-# &#x200B;8. Format der Folgenabschätzung
+&#x200B;# &#x200B;8. Format der Folgenabschätzung
 
 Umfassender Bericht mit folgenden Informationen:
 
@@ -188,9 +187,9 @@ Umfassender Bericht mit folgenden Informationen:
 - 2 Front Matter-Verweise aktualisiert
 - **Insgesamt: 18 Dateien in ~30 Sekunden geändert**
 
----
+&#x200B;---
 
-# &#x200B;9. Nicht funktionale Anforderungen
+&#x200B;# &#x200B;9. Nicht funktionale Anforderungen
 
 | **Kategorie** | **Anforderung** | **Erreicht** |
 |--------------|----------------|-------------|
@@ -202,27 +201,17 @@ Umfassender Bericht mit folgenden Informationen:
 | **Überprüfung** | Änderungen validieren | Automatisierte Prüfungen ✅ |
 | **Prüffähigkeit** | Änderungsprotokoll abschließen | Detaillierte Commits ✅ |
 
----
+&#x200B;---
 
-# &#x200B;10. Erfolgsmetriken
+&#x200B;# &#x200B;10. Erfolgsmetriken
 
-## quantitativ
-- **Zeitersparnis:** 95 % Reduktion (2-3 Stunden → &lt;1 Minute)
-- **Genauigkeit:** 100 % der Verweise erkannt und aktualisiert
-- **Zuverlässigkeit:** 0 fehlerhafte Links nach der Umgestaltung
-- **Leistung:** 30-45 Sekunden für typische Vorgänge
-- **Abdeckung:** 7 Auswirkungstypen analysiert
+## quantitativ- **Zeitersparnis:** 95 % Reduktion (2-3 Stunden → &lt;1 Minute)- **Genauigkeit:** 100 % der Verweise erkannt und aktualisiert- **Zuverlässigkeit:** 0 fehlerhafte Links nach der Umgestaltung- **Leistung:** 30-45 Sekunden für typische Vorgänge- **Abdeckung:** 7 Auswirkungstypen analysiert
 
-## qualitativ
-- ✅ Autoren können sicher refaktorieren
-- ✅ Vollständige Transparenz
-- ✅ Explizite Sicherheitskontrollen
-- ✅ Keine manuelle Bereinigung erforderlich
-- ✅ vollständige Prüfbarkeit
+## qualitativ- ✅ Autoren können sicher refaktorieren- ✅ Vollständige Transparenz- ✅ Explizite Sicherheitskontrollen- ✅ Keine manuelle Bereinigung erforderlich- ✅ vollständige Prüfbarkeit
 
----
+&#x200B;---
 
-# &#x200B;11. Risiken und Risikominderungen
+&#x200B;# &#x200B;11. Risiken und Risikominderungen
 
 | **Risiko** | **Impact** | **Abmilderung** |
 |----------|-----------|---------------|
@@ -234,9 +223,9 @@ Umfassender Bericht mit folgenden Informationen:
 | Komplexe relative Pfade | Beschädigte Bildverweise | ✅ Auflösung des getesteten Pfads |
 | Großprojekte | Unvollständige Aktualisierungen | ✅ Algorithmen |
 
----
+&#x200B;---
 
-# &#x200B;12. Gebrauchsanweisung
+&#x200B;# &#x200B;12. Gebrauchsanweisung
 
 ## Schnellstart
 
@@ -293,9 +282,9 @@ Agent: ✅ Complete! All changes verified.
        Ready to commit.
 ```
 
----
+&#x200B;---
 
-# &#x200B;13. Künftige Verbesserungen
+&#x200B;# &#x200B;13. Künftige Verbesserungen
 
 **Geplante Funktionen:**
 - Batch-Vorgänge (Verschieben/Umbenennen mehrerer Seiten)
@@ -309,9 +298,9 @@ Agent: ✅ Complete! All changes verified.
 - Vergleichsvorschau
 - Wirkungsberichte exportieren
 
----
+&#x200B;---
 
-# &#x200B;14. Dokumentation und Ressourcen
+&#x200B;# &#x200B;14. Dokumentation und Ressourcen
 
 - **Agentendatei:** `.cursor-agents/agents/page-management-agent.md`
 - **Kurzanleitung:** `.cursor-agents/AGENTS.md`
@@ -323,25 +312,15 @@ Agent: ✅ Complete! All changes verified.
 - Fehlerbehebung: `TROUBLESHOOTING.md`
 - Alle Agenten: `AGENTS.md`
 
----
+&#x200B;---
 
-# &#x200B;15. Versionshinweise
+&#x200B;# &#x200B;15. Versionshinweise
 
-## v1.5.0 (November 2025) — Erste Version
-- ✅ Vollständige Implementierung von Vorgängen zum Verschieben/Löschen/Umbenennen
-- ✅ Umfassende Folgenabschätzung (7 Referenztypen)
-- Transparente Ausführung mit Fortschrittsverfolgung ✅
-- Automatisierte Überprüfung und Validierung ✅
-- ✅ Erstellung einer detaillierten Commit-Nachricht
-- ✅ der automatischen Versionsüberprüfung
-- ✅ Neustartrichtlinie (kein Kontext erforderlich)
+## v1.5.0 (November 2025) — Erste Version- ✅ Vollständige Implementierung von Vorgängen zum Verschieben/Löschen/Umbenennen- ✅ Umfassende Folgenabschätzung (7 Referenztypen)- Transparente Ausführung mit Fortschrittsverfolgung ✅- Automatisierte Überprüfung und Validierung ✅- ✅ Erstellung einer detaillierten Commit-Nachricht- ✅ der automatischen Versionsüberprüfung- ✅ Neustartrichtlinie (kein Kontext erforderlich)
 
-## Bekannte Einschränkungen
-- Nur Einzelseitenvorgänge (Batch kommt bald)
-- Sauberer Arbeitsbaum für Sicherheit erforderlich (Warnung bereitgestellt)
-- Manueller Commit erforderlich (automatischer Commit kommt bald)
+## Bekannte Einschränkungen- Nur Einzelseitenvorgänge (Batch kommt bald)- Sauberer Arbeitsbaum für Sicherheit erforderlich (Warnung bereitgestellt)- Manueller Commit erforderlich (automatischer Commit kommt bald)
 
----
+&#x200B;---
 
 *Letzte Aktualisierung: 6. November 2025*
 
