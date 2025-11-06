@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: 493f72a9d49974830d8d29b0c19046adfd9724a6
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 88%
 
 ---
 
 # Erste Schritte mit dem KI-Assistenten {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_assistant_prompt"
+>title="Beispiele für Eingabeaufforderungen"
+>abstract="In der folgenden Journey Optimizer-Dokumentation erfahren Sie, wie Sie effektive Eingabeaufforderungen erstellen, die markeninterne Marketing-Inhalte mit hoher Konversionsrate generieren."
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -161,3 +167,12 @@ Die folgenden Einschränkungen gelten für den KI-Assistenten in Adobe Journey O
 <p>
 </td>
 </tr></table>
+
+## Weitere Ressourcen
+
+* **[KI-Assistent für E](generative-email.md)** - Erfahren Sie, wie Sie mit dem KI-Assistenten E-Mail-Inhaltsvarianten generieren und optimieren können.
+* **[KI-Assistent für Push-Benachrichtigungen](generative-push.md)** - Erfahren Sie, wie Sie mithilfe von KI überzeugende Inhalte für Push-Benachrichtigungen erstellen können.
+* **[KI-Assistent für SMS](generative-sms.md)** - Generieren effektiver SMS-Nachrichtenvarianten mithilfe der KI-gestützten Inhaltserstellung.
+* **[KI-Assistent für Web-](generative-web.md)**: Erfahren Sie, wie Sie mit dem KI-Assistenten Web-Inhalte erstellen und optimieren können.
+* **[Generatives Experimentieren](generative-experimentation.md)** - Erfahren Sie, wie Sie KI-generierten Inhalt mit Experimentieren kombinieren.
+* **[KI-Assistenten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**-Tutorials - Erkunden Sie die schrittweisen Video-Tutorials zu den Funktionen und Best Practices von KI-Assistenten.
