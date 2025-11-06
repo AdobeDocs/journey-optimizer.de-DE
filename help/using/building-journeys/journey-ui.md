@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ So navigieren Sie in Ihrem Journey-Kalender:
 
    ![Kalenderansicht mit externen Kalendern](assets/journey-calendar-2.png)
 
-1. CSV-Dateien mit Ereignisnamen, Start- und Enddaten per Drag-and-Drop ablegen.
+1. Verschieben Sie Ihre CSV-Dateien mit den Namen der Veranstaltungen sowie Start- und Enddaten per Drag-and-Drop.
 
    Hochgeladene Ereignisse werden für alle Benutzenden in Ihrer Organisation angezeigt und erscheinen sowohl im Journey- als auch im Kampagnenkalender.
 

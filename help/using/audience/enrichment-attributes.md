@@ -11,7 +11,7 @@ exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
 source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Beim Targeting einer Zielgruppe, die mithilfe von Kompositions-Workflows, einer 
 
 Hier sind die Aktionen, die Sie mithilfe der Anreicherungsattribute von Zielgruppen durchführen können:
 
-* **Erstellen Sie mehrere Pfade auf einer Journey** basierend auf Regeln, die die Anreicherungsattribute der Zielgruppe nutzen. Sprechen Sie dazu die Zielgruppe mithilfe der Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) an und erstellen Sie dann Regeln in der Aktivität [Bedingung](../building-journeys/condition-activity.md) basierend auf den Anreicherungsattributen der Zielgruppe.
+* **Erstellen Sie mehrere Pfade in einer Journey** basierend auf Regeln, die die Anreicherungsattribute der Zielgruppe nutzen. Sprechen Sie dazu die Zielgruppe mithilfe der Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) an und erstellen Sie dann Regeln in der Aktivität [Bedingung](../building-journeys/condition-activity.md) basierend auf den Anreicherungsattributen der Zielgruppe.
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
@@ -60,7 +60,7 @@ Hier sind die Aktionen, die Sie mithilfe der Anreicherungsattribute von Zielgrup
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Anreicherungsattributen.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ Was sind Anreicherungsattribute?
 

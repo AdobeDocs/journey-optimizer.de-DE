@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 95%
+source-wordcount: '397'
+ht-degree: 77%
 
 ---
 
@@ -68,8 +68,17 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
 
    * Verwalten Sie die Anzahl der Tage, in denen weitere Zustellversuche unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](manage-suppression-list.md)
 
-   * Aktivieren Sie die **BCC-E-Mail** Option, um eine Kopie der an Einzelpersonen gesendeten Nachrichten aufzubewahren. [Weitere Informationen](archiving-support.md#enable-bcc)
+   * Aktivieren Sie die **BBC-E-Mail-Option**, um eine Kopie der an Kontakte gesendeten Nachrichten aufzubewahren. [Weitere Informationen](archiving-support.md#enable-bcc)
 
    * Konfigurieren Sie **Geschäftsregeln**, um zu vermeiden, dass Ihre Empfängerinnen und Empfänger übermäßig viele Nachrichten erhalten. [Weitere Informationen](../conflict-prioritization/rule-sets.md)
 
    * Bestimmen Sie, welche E-Mail-Adresse und/oder Telefonnummer für Ihre Empfänger vorrangig verwendet werden soll, wenn in Adobe Experience Platform mehrere Adressen/Nummern verfügbar sind. [Weitere Informationen](primary-email-addresses.md)
+
+## Weitere Ressourcen
+
+* **[Kanaloberflächen konfigurieren](channel-surfaces.md)** - Erfahren Sie, wie Sie Kanaloberflächen für E-Mail, Push, SMS und andere Kanäle einrichten und verwalten.
+* **[Subdomain-Delegierung](delegate-subdomain.md)** - Erfahren Sie, wie Sie Subdomains zur E-Mail-Zustellbarkeit und für das Branding an Adobe delegieren.
+* **[IP-Aufwärmung](ip-warmup-gs.md)** - Entdecken Sie Best Practices für das Aufwärmen von IP-Adressen, um die E-Mail-Zustellbarkeit und die Reputation des Absenders zu verbessern.
+* **[Unterdrückungsliste verwalten](manage-suppression-list.md)** - Erfahren Sie, wie Sie Unterdrückungslisten verwalten, um Bounces zu behandeln und die Listenhygiene zu gewährleisten.
+* **[Mobile Apps konfigurieren](set-mobile-config.md)** - Richten Sie Mobile-App-Konfigurationen für Push-Benachrichtigungen und In-App-Nachrichten ein.
+* **[Konfigurations-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - Erkunden Sie Schritt-für-Schritt-Video-Tutorials zur Kanalkonfiguration und zu Best Practices.

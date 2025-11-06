@@ -10,7 +10,7 @@ exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
 source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '2748'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -149,7 +149,7 @@ Probleme beim Reporting für den **In-App-Kanal** in Adobe Customer Journey Anal
 
 Weitere Informationen zu diesem Problem finden Sie in [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}.
 
-Weitere Informationen zur Integration von Journey Optimizer Analytics-Daten in Customer Journey Analytics finden Sie [auf dieser Seite](https://experienceleague.adobe.com/de/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}.
+Weitere Informationen zur Integration von Journey Optimizer Analytics-Daten in Customer Journey Analytics finden Sie [auf dieser Seite](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}.
 
 Siehe auch [Dokumentation zu Berichten für die gesamte Zeit in Journey Optimizer](../reports/report-gs-cja.md).
 
@@ -191,7 +191,7 @@ In [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/doc
 
 Weitere Informationen über die Aktivität **Profil aktualisieren** finden Sie auf [dieser Seite](../building-journeys/update-profiles.md).
 
-Siehe auch [Dokumentation zur Datenaufnahme in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}.
+Siehe auch [Dokumentation zur Datenaufnahme in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}.
 
 +++
 
@@ -201,9 +201,9 @@ Die Diskrepanz kann auftreten, wenn die Journey den Profil-Snapshot eines vorher
 
 In [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} erfahren Sie, wie Sie das Problem beheben können.
 
-Weitere Informationen finden Sie in [diesem Beitrag in der Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=de){target="_blank"}.
+Weitere Informationen finden Sie in [diesem Beitrag in der Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
-Konsultieren Sie außerdem die [Dokumentation zur API für Adobe Experience Platform-Zeitpläne](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/api/schedules){target="_blank"}, um zu überprüfen, wann Ihr täglicher Auftrag geplant ist.
+Konsultieren Sie außerdem die [Dokumentation zur API für Adobe Experience Platform-Zeitpläne](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules){target="_blank"}, um zu überprüfen, wann Ihr täglicher Auftrag geplant ist.
 
 +++
 
@@ -216,7 +216,7 @@ In [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/doc
 
 Weitere Informationen über die Aktivität **Profil aktualisieren** finden Sie auf [dieser Seite](../building-journeys/update-profiles.md).
 
-Siehe auch [Dokumentation zu Adobe Real-Time CDP-Profilen](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}.
+Siehe auch [Dokumentation zu Adobe Real-Time CDP-Profilen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}.
 
 +++
 
@@ -228,7 +228,7 @@ In [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/doc
 
 Überwachen Sie die Lizenznutzung Ihres Unternehmens und die ansprechbaren Profile mithilfe des [Lizenznutzungs-Dashboards](../audience/license-usage.md).
 
-Siehe auch [Überblick über den Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/query/home){target="_blank"}.
+Siehe auch [Überblick über den Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}.
 
 +++
 
@@ -327,11 +327,11 @@ Siehe auch [Dokumentation zur Integration mit externen Systemen](../configuratio
 
 +++
 
-+++ Welche Schritte sollten Sie unternehmen, wenn bei der Veröffentlichung einer Zielgruppe über einen Pfeil ein 403-Fehler mit der Meldung **INVALID_ACCESS** oder **Kein Zugriff auf diese dataId=XX** gewährt?
++++ Welche Schritte sollten Sie unternehmen, wenn bei der Veröffentlichung einer Zielgruppe über einen Pfeil ein Fehler des Typs „403“ mit der Meldung **invalid_access** oder **Kein Zugriff auf diese dataId=XX gewährt** auftritt?
 
-Um diesen Fehler zu beheben, bitten Sie Ihren Administrator, sicherzustellen, dass Ihr Benutzerprofil Zugriff auf die erforderlichen Datenansichten für die Zielgruppenveröffentlichung hat, und versuchen Sie dann erneut, die Zielgruppe zu veröffentlichen.
+Um diesen Fehler zu beheben, bitten Sie Ihre bzw. Ihren Admin, sicherzustellen, dass Ihr Benutzerprofil Zugriff auf die erforderlichen Datenansichten für die Zielgruppenveröffentlichung hat, und versuchen Sie dann erneut, die Zielgruppe zu veröffentlichen.
 
-Unter [Dokumentation zu Berechtigungen](../administration/permissions.md){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
+In [der Dokumentation zu Berechtigungen](../administration/permissions.md){target="_blank"} erfahren Sie, wie Sie dieses Problem beheben können.
 
 +++
 
@@ -413,6 +413,6 @@ Zugriffsfehler bei Verwendung der **Abfrage-Service-API** über Postman oder äh
 
 Weitere Informationen finden Sie in [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"}.
 
-Siehe auch [Dokumentation zur Verwaltung von API-Anmeldeinformationen](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}.
+Siehe auch [Dokumentation zur Verwaltung von API-Anmeldeinformationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}.
 
 +++

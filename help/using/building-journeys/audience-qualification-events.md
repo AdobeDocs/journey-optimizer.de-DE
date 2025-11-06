@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 >[!CAUTION]
 >
->Bevor Sie mit der Konfiguration einer Zielgruppen-Qualifizierung beginnen[&#x200B; lesen Sie die Leitplanken und Einschränkungen](#audience-qualification-guardrails).
+>Bevor Sie mit der Konfiguration einer Zielgruppenqualifizierung beginnen, [lesen Sie die Informationen zu Leitlinien und Einschränkungen](#audience-qualification-guardrails).
 
 
 ## Konfigurieren der Aktivität {#configure-segment-qualification}
@@ -164,4 +164,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

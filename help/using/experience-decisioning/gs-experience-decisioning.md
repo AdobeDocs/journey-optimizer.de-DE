@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 96%
+source-wordcount: '619'
+ht-degree: 84%
 
 ---
 
@@ -48,7 +48,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
       ![](assets/decision_permission_2.png)
 
-   1. Geben Sie den Namen oder die E-Mail-Adresse Ihres Benutzers ein, oder wählen Sie den Benutzer in der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
+   1. Geben Sie Name oder E-Mail-Adresse der jeweiligen Benutzenden ein oder wählen Sie die Person aus der Liste aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
       Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzenden](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
 
@@ -86,4 +86,14 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
    ➡️ [Informationen zum Arbeiten mit Entscheidungsrichtlinien](create-decision.md)
 ➡️ Um das Angebot erfolgreich über den Code-basierten Erlebniskanal bereitzustellen, befolgen Sie die Implementierungsschritte in [diesem Abschnitt](../code-based/code-based-implementation-samples.md).
+
+## Weitere Ressourcen
+
+* **[Entscheidungselemente erstellen](items.md)** - Erfahren Sie, wie Sie Entscheidungselemente einschließlich Angeboten, Inhaltsvarianten und Erlebnissen erstellen und verwalten.
+* **[Entscheidungskataloge konfigurieren](catalogs.md)** - Erfahren Sie, wie Sie Entscheidungselemente in Katalogen organisieren, um das Management zu verbessern.
+* **[Auswahlstrategien definieren](selection-strategies.md)** - Erfahren Sie, wie Sie Auswahlstrategien mit Eignungsregeln und Ranking-Methoden erstellen.
+* **[Entscheidungsrichtlinien erstellen](create-decision-policy.md)** - Erfahren Sie, wie Sie Entscheidungsrichtlinien erstellen, die Strategien und Einschränkungen kombinieren.
+* **[Ranking- und KI](ranking/ranking.md)** Modelle - Übergeordnete Rangfolgeformeln und KI-Modelle für personalisierte Entscheidungen.
+* **[Entscheidungsleitplanken](decisioning-guardrails.md)** - Überprüfen Sie wichtige Einschränkungen und Best Practices für die Implementierung von Entscheidungen.
+* **[Entscheidungs-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Sehen Sie sich Schritt-für-Schritt-Video-Tutorials zu Entscheidungsfunktionen und Best Practices an.
 
