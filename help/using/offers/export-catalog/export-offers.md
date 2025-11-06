@@ -7,10 +7,10 @@ topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5dab96aef4471b24527d1287a9d36d48521c4596
 workflow-type: tm+mt
-source-wordcount: '1950'
-ht-degree: 98%
+source-wordcount: '1983'
+ht-degree: 93%
 
 ---
 
@@ -79,8 +79,9 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 +++ _experience > decisioning > characteristics
 
 **Feld:** characteristics
-**Titel:** Merkmale der Entscheidungsoption 
-**Beschreibung:** Zusätzliche Eigenschaften oder Attribute, die zu dieser bestimmten Entscheidungsoption gehören. Verschiedene Instanzen können unterschiedliche Merkmale aufweisen (Schlüssel in der Zuordnung). Bei den Merkmalen handelt es sich um Namen-Wert-Paare, mit denen eine Entscheidungsoption von anderen unterschieden wird. Merkmale werden als Werte für Inhalt verwendet, der diese Entscheidungsoption darstellt, sowie als Funktionen zur Analyse und Optimierung der Effektivität einer Option. Wenn jede Instanz dasselbe Attribut oder dieselbe Eigenschaft hat, sollte dieser Aspekt als Erweiterungsschema modelliert werden, das sich aus den Details der Entscheidungsoption ableitet.
+**title:** Merkmale der Entscheidungsoption
+**Beschreibung:** Merkmale sind die zusätzlichen Attribute oder Eigenschaften von Angeboten, die zu einer bestimmten Entscheidungsoption gehören. Bei diesen Attributen handelt es sich um Schlüssel-Wert-Paare, d. h. sie enthalten einen Attributnamen (manchmal auch als Schlüssel bezeichnet), dem ein Wert zugeordnet ist, und werden verwendet, um eine Entscheidungsoption von den anderen Angeboten zu unterscheiden. Bei einem Attributnamen „color“ kann der Wert beispielsweise für ein bestimmtes Angebot „green“ lauten.
+Merkmale werden als Werte im Inhalt verwendet, der diese Entscheidungsoption darstellt, sowie als Funktionen zur Analyse und Optimierung der Leistung eines Angebots. Wenn jede Instanz dasselbe Attribut oder dieselbe Eigenschaft hat, sollte dieser Aspekt als Erweiterungsschema modelliert werden, das aus den Details der Entscheidungsoption abgeleitet wird.
 **Typ:** Objekt
 
 +++
@@ -179,7 +180,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
   **Feld:** linkURL
   **Beschreibung:** Eine optionale, eindeutige URL für Benutzerinteraktionen. Diese URL wird verwendet, um den Endbenutzer auf einen User Agent zu verweisen, und kann verfolgt werden.
   **Typ:** Zeichenfolge
-  **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
+  **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
 
 +++_experience > decisioning > contents > Placement
 
@@ -227,7 +228,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++
 
-+++_experience > decisioning > profileConstraints > Eignungsregel
++++_experience > decisioning > profileConstraints > Eligibility Rule
 
 **Feld:** eligibilityRule
 **Titel:** Eignungsregel
@@ -330,7 +331,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++
 
-+++_experience > decisioning > ranking > priority
++++_experience > decisioning > ranking > Priority
 
 **Feld:** priority 
 **Titel:** Priorität 
