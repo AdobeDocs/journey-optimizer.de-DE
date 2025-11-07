@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+workflow-type: tm+mt
+source-wordcount: '652'
+ht-degree: 94%
 
 ---
 
@@ -162,6 +162,10 @@ So wird eine Liste von Produkten dargestellt, die dieser Benutzer in den Warenko
     <li>{{product.productName}} {{product.productRating}}</li>
 {{/each}}
 ```
+
+>[!NOTE]
+>
+>Sie können auch den `each`-Helper verwenden, um die von benutzerdefinierten Aktionsantworten zurückgegebenen Arrays zu durchlaufen. Ein Beispiel für die Iteration über verschachtelte Arrays aus einer benutzerdefinierten Aktionsantwort finden Sie unter [Verwenden von benutzerdefinierten Aktionsantworten in nativen Kanälen](../../action/action-response.md#response-in-channels).
 
 ## Mit{#with}
 

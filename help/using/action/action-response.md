@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '618'
-ht-degree: 100%
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+workflow-type: tm+mt
+source-wordcount: '713'
+ht-degree: 86%
 
 ---
 
@@ -211,6 +211,37 @@ currentActionField.description == "abc"
 )}
 )
 ```
+
+### Verwenden benutzerdefinierter Aktionsantworten in nativen Kanälen {#response-in-channels}
+
+Sie können verschachtelte Arrays aus einer benutzerdefinierten Aktionsantwort in nativen Kanälen (wie E-Mail, Push oder SMS) mithilfe der Handlebars-Syntax durchlaufen. Dies ist nützlich, wenn Sie Nachrichteninhalte mit dynamischen Daten aus externen Systemen personalisieren müssen.
+
+Wenn Ihre benutzerdefinierte Aktion beispielsweise die folgende Antwort von einem externen System zurückgibt:
+
+```json
+{    
+    "id": "84632848268632",    
+    "responses": [
+        { "productIDs": [1111,2222,3333] },
+        { "productIDs": [4444,5555,6666] },
+        { "productIDs": [7777,8888,9999] }
+    ]
+}
+```
+
+Sie können das `responses`-Array und die verschachtelten `productIDs`-Arrays in einem nativen Kanal (z. B. in einer E-Mail) wie folgt durchlaufen:
+
+```handlebars
+{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
+
+  {{#each res.productIDs as |productID|}}
+    <li>{{productID}}</li>
+  {{/each}}
+
+{{/each}}
+```
+
+Ersetzen Sie `<yourcustomaction>` durch den tatsächlichen Namen Ihrer benutzerdefinierten Aktion, wie in der Journey konfiguriert.
 
 ## Zusätzliche Ressourcen
 

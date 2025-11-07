@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktion, benutzerdefiniert, API, Journey, Konfiguration, Service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 
@@ -29,6 +29,8 @@ Verwenden Sie benutzerdefinierte Aktionen zum Konfigurieren der Verbindung zu ei
 Weitere Informationen zu benutzerdefinierten Aktionen finden Sie in [diesem Abschnitt](../action/action.md).
 
 Weitere Informationen zum Erstellen und Konfigurieren einer benutzerdefinierten Aktion finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
+
+Auf dieser Seite erfahren Sie, wie Sie API-Aufrufantworten aus benutzerdefinierten Aktionen zur Personalisierung [](../action/action-response.md).
 
 ## Einverständnis und Data Governance {#privacy}
 
