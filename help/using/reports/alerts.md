@@ -91,7 +91,7 @@ Gehen Sie wie folgt vor, um einen Warnhinweis für eine bestimmte Journey zu abo
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
 
 ## Journey-Warnhinweise {#journey-alerts}
 
