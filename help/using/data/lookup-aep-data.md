@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Ausdruck, Editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c910664b343f8143579e4a22ff101d38476c4585
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 96%
 
 ---
 
@@ -48,6 +48,8 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
   **Batch 3**: Sku7, Sku8, Sku9, Sku10
 
   Wenn Sie **Batch 1** löschen, werden Sku1, Sku2 und Sku3 aus dem Suchspeicher entfernt. Die resultierenden Suchdaten enthalten dann: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
+
+* **Keine verketteten**: Datensatzsuchen können nicht verkettet werden. Mit anderen Worten: Sie können das Ergebnis einer Suche nicht als Variable verwenden, die dann zum Schlüssel für eine zweite Suche wird.
 
 ### Berechtigung für den Suchdienst
 
