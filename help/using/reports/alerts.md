@@ -37,7 +37,7 @@ Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONT
 * Spezifische Warnhinweise für Journeys:
 
    * Warnhinweis [Auslösen von „Zielgruppe lesen“ fehlgeschlagen](#alert-read-audiences)
-   * [ Warnhinweis Fehlerrate benutzerdefinierter Aktionen überschritten](#alert-custom-action-error-rate) (ersetzt den vorherigen Warnhinweis bei Fehlern benutzerdefinierter Journey-Aktionen)
+   * [&#x200B; Warnhinweis Fehlerrate benutzerdefinierter Aktionen überschritten](#alert-custom-action-error-rate) (ersetzt den vorherigen Warnhinweis bei Fehlern benutzerdefinierter Journey-Aktionen)
    * Warnhinweis [Rate beim Verwerfen des Profils überschritten](#alert-discard-rate)
    * Warnhinweis [Fehlerrate bei Profil überschritten](#alert-profile-error-rate)
    * Warnung [Journey veröffentlicht](#alert-journey-published)
@@ -46,8 +46,8 @@ Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONT
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
-   * Warnhinweis ](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration[
+   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
+   * Warnhinweis [&#128279;](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
