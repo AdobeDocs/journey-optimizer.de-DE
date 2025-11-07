@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b24c89f966fe6eeb58d019bc85cedc89ee13f113
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 84%
+source-wordcount: '1456'
+ht-degree: 79%
 
 ---
 
@@ -31,6 +31,29 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen und Verbesserungen mit ihrem Verfügbarkeitsdatum aufgeführt. Sie werden mit dem Inhalt der nächsten Versionshinweise am Ende des Monats gruppiert. Siehe auch die neuesten [Versionshinweise unten](#latest-rn).
 
 ### Neue Funktionen {#features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Neue Journey-Warnhinweise</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Drei neue Journey-Warnhinweise sind jetzt verfügbar, mit denen Sie Journey-Lebenszyklusereignisse und die Performance benutzerdefinierter Aktionen überwachen und verfolgen können:</p>
+<ul>
+<li><strong>Journey veröffentlicht</strong>: Empfangen Sie Benachrichtigungen, wenn eine Journey von einer Person auf der Journey-Arbeitsfläche veröffentlicht wird.</li>
+<li><strong>Journey abgeschlossen</strong>: Erhalten Sie Warnhinweise, wenn eine Journey abgeschlossen ist, wobei bestimmte Definitionen vom Journey-Typ abhängen (Zielgruppe lesen oder ereignisgesteuert).</li>
+<li><strong>Begrenzung benutzerdefinierter Aktionen ausgelöst</strong>: Werden Sie benachrichtigt, wenn die Begrenzung für einen Endpunkt einer benutzerdefinierten Aktion aktiviert ist.</li>
+</ul>
+<p>Diese Warnhinweise können auf Unternehmensebene oder für bestimmte Journey abonniert werden.</p>
+<p>Weitere Informationen finden Sie in der <a href="../reports/alerts.md#journey-alerts">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: Donnerstag, 5. November 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

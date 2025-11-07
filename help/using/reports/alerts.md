@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 89%
+source-wordcount: '2153'
+ht-degree: 76%
 
 ---
 
@@ -32,18 +32,22 @@ Zusätzlich können bei Erreichen eines bestimmten Bedingungssatzes Warnmeldunge
 
 Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONTROL Warnhinweise]**. Auf der Registerkarte **Durchsuchen** sind mehrere vorkonfigurierte Warnhinweise für Journey Optimizer verfügbar.
 
+![](assets/updated-alerts-list.png){width=50%}
 
 * Spezifische Warnhinweise für Journeys:
 
    * Warnhinweis [Auslösen von „Zielgruppe lesen“ fehlgeschlagen](#alert-read-audiences)
-   * [&#x200B; Warnhinweis Fehlerrate benutzerdefinierter Aktionen überschritten](#alert-custom-action-error-rate) (ersetzt den vorherigen Warnhinweis bei Fehlern benutzerdefinierter Journey-Aktionen)
+   * [ Warnhinweis Fehlerrate benutzerdefinierter Aktionen überschritten](#alert-custom-action-error-rate) (ersetzt den vorherigen Warnhinweis bei Fehlern benutzerdefinierter Journey-Aktionen)
    * Warnhinweis [Rate beim Verwerfen des Profils überschritten](#alert-discard-rate)
    * Warnhinweis [Fehlerrate bei Profil überschritten](#alert-profile-error-rate)
+   * Warnung [Journey veröffentlicht](#alert-journey-published)
+   * Warnung [Journey abgeschlossen](#alert-journey-finished)
+   * Warnhinweis [Begrenzung benutzerdefinierter Aktionen ausgelöst](#alert-custom-action-capping)
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
-   * Warnhinweis [&#128279;](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration
+   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
+   * Warnhinweis ](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration[
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
@@ -81,13 +85,13 @@ Gehen Sie wie folgt vor, um einen Warnhinweis für eine bestimmte Journey zu abo
 
    ![Abonnieren eines Warnhinweises für eine bestimmte Journey](assets/subscribe-journey-alert.png){width=75%}
 
-1. Wählen Sie die Warnhinweise aus. Die folgenden Warnhinweise sind verfügbar: [Rate beim Verwerfen des Profils überschritten](#alert-discard-rate), [Fehlerrate bei benutzerdefinierter Aktion überschritten](#alert-custom-action-error-rate) und [Fehlerrate bei Profil überschritten](#alert-profile-error-rate).
+1. Wählen Sie die Warnhinweise aus. Die folgenden Warnhinweise sind verfügbar: [Profil-Verwerfungsrate überschritten](#alert-discard-rate), [Benutzerdefinierte Aktionsfehlerrate überschritten](#alert-custom-action-error-rate), [Profilfehlerrate überschritten](#alert-profile-error-rate), [Journey veröffentlicht](#alert-journey-published), [Journey abgeschlossen](#alert-journey-finished) und [Benutzerdefinierte Aktionsbegrenzung ausgelöst](#alert-custom-action-capping).
 
 1. Um einen Warnhinweis abzubestellen, heben Sie die Auswahl im selben Bildschirm auf.
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Journey-Warnhinweise {#journey-alerts}
 
@@ -101,8 +105,6 @@ Alle in der Benutzeroberfläche verfügbaren Journey-Benachrichtigungen sind unt
 ### Zielgruppe-lesen-Auslöser konnte nicht gelesen werden {#alert-read-audiences}
 
 Dieser Warnhinweis erscheint, wenn eine Aktivität **Zielgruppe lesen** 10 Minuten nach der festgelegten Ausführungszeit kein Profil bearbeitet hat. Dieser Fehler kann durch technische Probleme oder eine leere Zielgruppe verursacht werden. Wenn dieser Fehler auf technische Probleme zurückzuführen ist, sind je nach Problemtyp dennoch weitere Versuche möglich (wenn z. B. die Erstellung eines Exportauftrags fehlgeschlagen ist, erfolgt alle 10 Minuten, aber höchstens eine Stunde lang, ein erneuter Versuch).
-
-![](assets/read-audience-alert.png)
 
 Warnhinweise zu **Zielgruppe lesen** gelten nur für wiederkehrende Journey. Aktivitäten vom Typ **Zielgruppe lesen** in Live-Journeys, für deren Ausführung **Einmal** oder **So bald wie möglich** festgelegt wurde, werden ignoriert.
 
@@ -153,6 +155,42 @@ Dieser Warnhinweis warnt Sie, wenn das Verhältnis von fehlerhaften Profilen zu 
 Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
 
 Um Profilfehler zu beheben, können Sie die Daten in Schrittereignissen abfragen und so erfahren, wo und warum das Profil während der Journey fehlgeschlagen ist.
+
+### Journey veröffentlicht {#alert-journey-published}
+
+Dieser Warnhinweis informiert Sie, wenn eine Journey von einem Anwender auf der Journey-Arbeitsfläche veröffentlicht wurde.
+
+Dies ist ein informativer Warnhinweis, mit dem Sie Journey-Lebenszyklusereignisse in Ihrem Unternehmen verfolgen können. Es gibt keine Auflösungskriterien, da es sich um eine einmalige Benachrichtigung handelt.
+
+### Journey beendet {#alert-journey-finished}
+
+Dieser Warnhinweis informiert Sie, wenn eine Journey beendet wurde. Die Definition von „beendet“ hängt vom Journey-Typ ab:
+
+| Journey | Wiederkehrend? | Hat Enddatum? | Definition von „beendet“ |
+|--------------|------------|---------------|--------------------------|
+| Zielgruppe lesen | Nein | k. A. | 91 Tage nach Beginn der Ausführung |
+| Zielgruppe lesen | Ja | Nein | 91 Tage nach Beginn der Ausführung |
+| Zielgruppe lesen | Ja | Ja | Wenn das Enddatum erreicht ist |
+| ereignisgesteuertes Journey | k. A. | Ja | Wenn das Enddatum erreicht ist |
+| ereignisgesteuertes Journey | k. A. | Nein | Beim Schließen in der Benutzeroberfläche oder über die API |
+
+Dies ist ein informativer Warnhinweis, mit dem Sie den Abschluss von Journey verfolgen können. Es gibt keine Auflösungskriterien, da es sich um eine einmalige Benachrichtigung handelt.
+
+### Benutzerdefinierte Aktionsbegrenzung ausgelöst {#alert-custom-action-capping}
+
+Dieser Warnhinweis warnt Sie, wenn bei einer benutzerdefinierten Aktion eine Begrenzung ausgelöst wurde. Mit einer Begrenzung wird die Anzahl der an einen externen Endpunkt gesendeten Aufrufe begrenzt, um zu verhindern, dass der Endpunkt überlastet wird.
+
+Klicken Sie auf den Namen des Warnhinweises, um dessen Details und Konfiguration zu überprüfen.
+
+Wenn eine Begrenzung ausgelöst wird, bedeutet dies, dass die maximale Anzahl von API-Aufrufen innerhalb des definierten Zeitraums erreicht wurde und weitere Aufrufe gedrosselt oder in die Warteschlange gestellt werden. Weitere Informationen zur Begrenzung für benutzerdefinierte Aktionen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices).
+
+Dieser Warnhinweis wird aufgelöst, wenn die Begrenzung nicht mehr aktiv ist oder wenn während des Auswertungszeitraums keine Profile die benutzerdefinierte Aktion erreichen.
+
+So beheben Sie Begrenzungsprobleme:
+
+* Überprüfen Sie die Begrenzungskonfiguration für Ihre benutzerdefinierte Aktion, um sicherzustellen, dass die Beschränkungen für Ihren Anwendungsfall geeignet sind.
+* Überprüfen Sie, ob die Anzahl der API-Aufrufe höher ist als erwartet, und passen Sie Ihr Journey-Design oder Ihre Begrenzungseinstellungen an.
+* Überwachen Sie den externen Endpunkt, um sicherzustellen, dass er die erwartete Last verarbeiten kann.
 
 ## Konfigurationswarnhinweise {#configuration-alerts}
 
