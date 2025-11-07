@@ -11,7 +11,7 @@ mini-toc-levels: 1
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 6b3005dd9483ff5311e4bf6b4f13d254c6be41d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1550'
 ht-degree: 100%
 

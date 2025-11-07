@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
 ht-degree: 100%
 
@@ -58,4 +58,4 @@ Datenfragmente können aus verschiedenen Quellen zusammengeführt und kombiniert
 
 In diesem Video wird erläutert, wie Adobe Experience Platform Echtzeit-Kundenprofile zusammenstellt und aktualisiert und wie Sie auf diese Profile zugreifen und sie verwenden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/31581?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 0fd608e0-df71-4e2d-8304-d7d5561c7c7a
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
 ht-degree: 100%
 

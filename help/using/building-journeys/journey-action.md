@@ -11,7 +11,7 @@ keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
 ht-degree: 100%
 

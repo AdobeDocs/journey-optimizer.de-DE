@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
 ht-degree: 100%
 
@@ -186,6 +186,6 @@ Im folgenden Video erfahren Sie, wie Sie den WhatsApp-Kanal in Adobe Journey Opt
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470277/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

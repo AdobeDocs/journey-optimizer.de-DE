@@ -10,7 +10,7 @@ level: Intermediate
 keywords: primär, Ausführung, E-Mail, Zielgruppe, Profil, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '641'
 ht-degree: 100%
 

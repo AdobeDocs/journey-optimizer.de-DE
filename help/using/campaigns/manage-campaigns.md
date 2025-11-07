@@ -11,7 +11,7 @@ level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1709'
 ht-degree: 100%
 

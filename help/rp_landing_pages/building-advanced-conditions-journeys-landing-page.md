@@ -6,7 +6,7 @@ description: Erstellen von Ausdrücken
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit dem erweiterten Ausdruckseditor benutzerdefinierte Aus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Erweiterte Syntax für Ausdrücke
 
@@ -40,7 +40,7 @@ Beherrschen Sie die Syntaxregeln, bedingten Anweisungen und Datentypen, die zum 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Funktionen in Adobe Journey Optimizer
 
@@ -61,7 +61,7 @@ Greifen Sie auf praktische SQL-Abfragebeispiele zu, um Daten in verschiedenen Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Beispiel-SQL-Abfragen für die Datenanalyse
 

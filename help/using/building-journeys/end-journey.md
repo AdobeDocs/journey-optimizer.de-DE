@@ -10,7 +10,7 @@ keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
 ht-degree: 100%
 

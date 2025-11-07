@@ -12,7 +12,7 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1461'
 ht-degree: 100%
 

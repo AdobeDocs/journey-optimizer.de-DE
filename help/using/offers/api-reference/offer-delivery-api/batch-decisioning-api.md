@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Dazu muss das Unternehmen folgendermaßen vorgehen:
 
 * Den Datensatz an die Nachrichtenversand-API des Anbieters exportieren
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=de) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >

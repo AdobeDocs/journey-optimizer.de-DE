@@ -8,7 +8,7 @@ level: Intermediate
 keywords: Kampagnenoptimierung, Experimente, Targeting, A/B-Tests
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1253'
 ht-degree: 100%
 
@@ -210,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 Erfahren Sie, wie Sie die Nachrichtenoptimierung in durch eine Aktion oder durch API ausgelösten Kampagnen nutzen. Sie erfahren, wie Sie Teilzielgruppen ansprechen, Nachrichtenvarianten je nach Standort erstellen, Fallback-Inhalte aktivieren und mehrere Experimente innerhalb einer Kampagne durchführen. In diesem Tutorial wird auch beschrieben, wie Sie Multi-Channel-Kampagnen verwalten und dabei die Konsistenz der Nachrichten beibehalten können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470377?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

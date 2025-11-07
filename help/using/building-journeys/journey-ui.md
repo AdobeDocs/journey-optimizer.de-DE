@@ -11,7 +11,7 @@ keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1443'
 ht-degree: 100%
 

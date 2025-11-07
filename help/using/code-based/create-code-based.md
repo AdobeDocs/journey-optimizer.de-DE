@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
 ht-degree: 100%
 
@@ -145,4 +145,4 @@ Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von 
 
 Im folgenden Video erfahren Sie, wie Sie eine Code-basierte Erlebniskampagne erstellen, ihre Eigenschaften konfigurieren, sie testen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449462/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

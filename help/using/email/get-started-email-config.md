@@ -10,7 +10,7 @@ topic: Administration
 keywords: E-Mail, Konfiguration, Oberfläche, Subdomains
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 

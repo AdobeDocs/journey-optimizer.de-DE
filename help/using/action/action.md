@@ -10,7 +10,7 @@ level: Experienced
 keywords: Aktionen, Journey, Nachrichten, Senden, Verbindungen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Erfahren Sie [auf dieser speziellen Seite](../action/troubleshoot-custom-action.
 
 Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430275?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## Weitere Ressourcen
 

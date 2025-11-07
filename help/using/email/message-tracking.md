@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1344'
 ht-degree: 100%
 

@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '904'
 ht-degree: 100%
 
@@ -187,4 +187,4 @@ Sobald Ihre Journeys oder Kampagnen aktiviert und ausgeführt wurden, können Si
 
 Erfahren Sie, wie Sie die Ruhezeitenfunktion in Adobe Journey Optimizer verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475861?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
