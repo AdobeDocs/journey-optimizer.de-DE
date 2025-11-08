@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1059'
+ht-degree: 97%
 
 ---
 
@@ -79,6 +79,8 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 >id="test_id"
 >title="Konfigurieren von E-Mail-Inhalten"
 >abstract="Erstellen Sie den Inhalt Ihrer E-Mail. Definieren Sie den Betreff und verwenden Sie dann den E-Mail-Designer, um den Text der E-Mail zu erstellen und zu personalisieren."
+
+Nachdem Sie die E-Mail-Aktion zu Ihrem Journey oder Ihrer Kampagne hinzugefügt haben, müssen Sie den E-Mail-Inhalt einschließlich Betreffzeile, Absenderinformationen und E-Mail-Textkörper mithilfe der E-Mail-Designer definieren. Führen Sie folgende Schritte aus:
 
 1. Klicken Sie auf dem Konfigurationsbildschirm der Journey oder Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der E-Mail zu konfigurieren. [Weitere Informationen](get-started-email-design.md)
 

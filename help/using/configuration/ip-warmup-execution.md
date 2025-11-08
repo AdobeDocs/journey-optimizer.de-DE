@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '2635'
-ht-degree: 100%
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+workflow-type: tm+mt
+source-wordcount: '2678'
+ht-degree: 98%
 
 ---
 
@@ -157,6 +157,8 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >id="ajo_admin_ip_warmup_qualified"
 >title="Anzeigen der qualifizierten Profile"
 >abstract="In dieser Spalte wird die Anzahl der qualifizierten Profile angezeigt. Wenn die Zielgruppe für eine Ausführung ausgewertet wurde und mehr angesprochene als qualifizierte Profile vorhanden sind, wird die Ausführung weiterhin durchgeführt, es sei denn, die Option **Aktivierte Ausführungen im Falle von Fehlern abbrechen** ist aktiviert. In diesem Fall wird die Ausführung abgebrochen."
+
+Nachdem Sie die Phasen Ihres IP-Aufwärmplans definiert haben, müssen Sie die einzelnen Ausführungen innerhalb jeder Phase konfigurieren. Jeder Durchgang erfordert einen Zeitplan, und Sie können optional Interaktionsfilter, Fehlerbehandlung und Wiederholungsfenster konfigurieren, um eine optimale Ausführung sicherzustellen. Führen Sie folgende Schritte aus:
 
 1. Wählen Sie für jede Ausführung einen Zeitplan aus, um sicherzustellen, dass sie zum angegebenen Zeitpunkt durchgeführt wird.
 
