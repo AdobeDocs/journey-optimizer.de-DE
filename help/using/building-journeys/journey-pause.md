@@ -9,7 +9,7 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: b1598fe695a53fd5261b3067f220dc3eea295dfb
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 100%
@@ -158,7 +158,7 @@ Dieses Limit wird alle 30 Minuten überprüft. Dies bedeutet, dass Sie den Schw
 
   Wenn Sie Journeys fortsetzen, um die Anzahl der zurückgehaltenen Profile wieder unter das Limit zu bringen, wird die jeweilige Journey sofort fortgesetzt. Es kann jedoch bis zu 30 Minuten dauern, bis die Profilanzahl aktualisiert wird. Während dieser Zeit betrachtet das System diese Profile möglicherweise immer noch als pausiert.
 
-* Bei Journeys mit [eingehenden Aktivitäten](../channels/gs-channels.md#mobile-app-and-web-experiences) (z. B. In-App, Web usw.) wird durch das Pausieren der Journey die bereits ausgelöste Kommunikation nicht unterbrochen. Wenn sich ein Profil vor dem Pausieren für eine eingehende Aktivität qualifiziert hat, wird die entsprechende Nachricht weiterhin zugestellt. Um alle eingehenden Kommunikationen zu stoppen, müssen Sie die Journey stoppen.
+* Bei Journeys mit [eingehenden Aktivitäten](../channels/gs-channels.md#inbound-channels) (z. B. In-App, Web usw.) wird durch das Pausieren der Journey die bereits ausgelöste Kommunikation nicht unterbrochen. Wenn sich ein Profil vor dem Pausieren für eine eingehende Aktivität qualifiziert hat, wird die entsprechende Nachricht weiterhin zugestellt. Um alle eingehenden Kommunikationen zu stoppen, müssen Sie die Journey stoppen.
 * Pausierte Journeys werden auf das Live-Journey-Kontingent angerechnet.
 * In die Journey eingetretene Profile, die während der Pause verworfen wurden, werden weiterhin als ansprechbare Profile gezählt.
 * Pausierte Journeys werden genau wie Live-Journeys in allen Geschäftsregeln berücksichtigt.

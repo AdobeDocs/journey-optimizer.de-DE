@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 100%
@@ -200,7 +200,7 @@ Gehen Sie wie folgt vor, um eine neue Version einer wiederkehrenden Aktionskampa
 
    ![](assets/create-campaign-edit-list.png)
 
-1. Sobald Sie mit den Änderungen fertig sind, können Sie die neue Version der Kampagne aktivieren (siehe [Überprüfung und Aktivierung einer Kampagne](create-campaign.md#review-activate)).
+1. Sobald Sie mit den Änderungen fertig sind, können Sie die neue Version der Kampagne aktivieren (siehe [Überprüfung und Aktivierung einer Kampagne](review-activate-campaign.md)).
 
    >[!IMPORTANT]
    >

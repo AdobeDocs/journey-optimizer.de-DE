@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
-source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Sobald Ihre API-ausgelöste Kampagne konfiguriert ist, müssen Sie deren Paramet
 
 1. Die Kampagne ist aktiviert. Ihr Status ist **[!UICONTROL Live]** oder, wenn Sie ein Startdatum eingegeben haben, **[!UICONTROL Geplant]**.
 
-   Der Status **[!UICONTROL Abgeschlossen]** wird einer Kampagne automatisch drei Tage nach ihrer Aktivierung zugewiesen oder am Enddatum der Kampagne, wenn es sich um eine wiederkehrende Ausführung handelt. [Weitere Informationen zum Kampagnenstatus](get-started-with-campaigns.md#statuses).
+   Der Status **[!UICONTROL Abgeschlossen]** wird einer Kampagne automatisch drei Tage nach ihrer Aktivierung zugewiesen oder am Enddatum der Kampagne, wenn es sich um eine wiederkehrende Ausführung handelt. [Weitere Informationen zum Kampagnenstatus](manage-campaigns.md#statuses).
 
    Wenn kein Enddatum angegeben wurde, behält die Kampagne den Status **[!UICONTROL Live]**. Um ihn zu ändern, müssen Sie die Kampagne manuell anhalten. [Informationen zum Stoppen einer Kampagne](manage-campaigns.md)
 

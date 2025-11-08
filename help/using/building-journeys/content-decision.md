@@ -11,8 +11,8 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsrichtlinie, Arbeitsfläche, Journey
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: ht
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 100%
 
@@ -60,13 +60,13 @@ Gehen Sie wie folgt vor, um eine Aktivität vom Typ **[!UICONTROL Inhaltsentsche
 
 1. Wählen Sie die Anzahl der Elemente, die zurückgegeben werden sollen. Wenn Sie beispielsweise „2“ auswählen, werden die zwei am besten geeigneten Angebote angezeigt. Klicken Sie auf **[!UICONTROL Weiter]**.
 
-1. Im Bereich **[!UICONTROL Strategiesequenz]** können Sie die Entscheidungselemente und/oder Auswahlstrategien auswählen, die mit der Entscheidungsrichtlinie angezeigt werden sollen. [Weitere Informationen](../experience-decisioning/create-decision.md#select)
+1. Im Bereich **[!UICONTROL Strategiesequenz]** können Sie die Entscheidungselemente und/oder Auswahlstrategien auswählen, die mit der Entscheidungsrichtlinie angezeigt werden sollen. [Weitere Informationen](../experience-decisioning/create-decision.md#create-decision)
 
 1. Ordnen Sie die Auswertungsreihenfolge nach Bedarf an.
 
-   Beim Hinzufügen mehrerer Entscheidungselemente und/oder Strategien werden diese in sequenzieller Reihenfolge ausgewertet, wobei die Reihenfolge mit Zahlen links von jedem Objekt oder jeder Objektgruppe angezeigt wird. Die Objekte und/oder Gruppen können nach Bedarf per Drag-and-Drop verschoben werden, um die Standardsequenz zu ändern.  [Weitere Informationen](../experience-decisioning/create-decision.md#evaluation-order)
+   Beim Hinzufügen mehrerer Entscheidungselemente und/oder Strategien werden diese in sequenzieller Reihenfolge ausgewertet, wobei die Reihenfolge mit Zahlen links von jedem Objekt oder jeder Objektgruppe angezeigt wird. Die Objekte und/oder Gruppen können nach Bedarf per Drag-and-Drop verschoben werden, um die Standardsequenz zu ändern.  [Weitere Informationen](../experience-decisioning/create-decision.md#create-decision)
 
-1. (Optional) Fügen Sie ein Fallback-Angebot hinzu. [Weitere Informationen](../experience-decisioning/create-decision.md#fallback)
+1. (Optional) Fügen Sie ein Fallback-Angebot hinzu. [Weitere Informationen](../experience-decisioning/create-decision.md#create-decision)
 
 1. Überprüfen und speichern Sie Ihre Entscheidungsrichtlinie.
 

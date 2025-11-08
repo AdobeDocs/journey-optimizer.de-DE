@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 93%
@@ -40,7 +40,7 @@ Dazu müssen Sie zunächst in Journey Optimizer eine durch API ausgelöste Kampa
 
 ## Wichtige Schritte beim Erstellen von Kampagnen, die durch API ausgelöst werden {#steps}
 
-Bevor Sie mit Kampagnen beginnen, überprüfen Sie [in diesem Abschnitt](get-started-with-campaigns.md#permissions) die folgenden Voraussetzungen. Sobald diese Voraussetzungen erfüllt sind, können Sie mit der Erstellung Ihrer Kampagne beginnen:
+Bevor Sie mit Kampagnen beginnen, überprüfen Sie [in diesem Abschnitt](get-started-with-campaigns.md#prerequisites) die folgenden Voraussetzungen. Sobald diese Voraussetzungen erfüllt sind, können Sie mit der Erstellung Ihrer Kampagne beginnen:
 
 1. [Definieren der Kampagneneigenschaften](api-triggered-campaign-properties.md)
 1. [Konfigurieren der Kampagnenaktion](api-triggered-campaign-action.md)
@@ -54,4 +54,4 @@ Bevor Sie mit Kampagnen beginnen, überprüfen Sie [in diesem Abschnitt](get-sta
 
 Erfahren Sie, wie Sie eine Kampagne erstellen und sie von einem externen System aus basierend auf Benutzerinteraktionen auslösen, indem Sie das REST-API zur Ausführung interaktiver Nachrichten verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452734?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

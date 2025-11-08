@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
-source-git-commit: 4521990a02092365f996a81299ada55433639fb7
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 80%
+ht-degree: 78%
 
 ---
 
@@ -30,7 +30,7 @@ Auf dieser Seite werden der Unterschied zwischen Kampagnen mit hohem Durchsatz u
 
 * **Personalisierung**:
 
-   * Die gesamte Personalisierung muss als **kontextuelle Daten** in der API-Payload enthalten sein. [Informationen zum Personalisieren von Inhalten mit kontextuellen Daten](../campaigns/api-triggered-campaign-action.md#contextual)
+   * Die gesamte Personalisierung muss als **kontextuelle Daten** in der API-Payload enthalten sein. [Informationen zum Personalisieren von Inhalten mit kontextuellen Daten](../campaigns/api-triggered-campaign-content.md#contextual)
    * Profilbasierte Personalisierung wird nicht unterstützt. Wenn Profilvariablen verwendet werden, treten Validierungsfehler auf.
 
 * **Personalisierte Kanalkonfigurationen** - Kanalkonfigurationen, die eine [profilbasierte Personalisierung](../email/surface-personalization.md) verwenden, können nicht mit Kampagnen mit hohem Durchsatz verwendet werden. Es können nur Oberflächen ohne Profil-Personalisierung verwendet werden.
@@ -69,7 +69,7 @@ Verwenden Sie diese Tabelle, um zu entscheiden, welcher Typ einer durch API ausg
 Mit anderen Worten:
 
 * Gründe für die Auswahl von **standardmäßigen durch API ausgelösten** Kampagnen:
-   * Es ist vertraglich kein hoher Durchsatz festgelegt.
+   * Sie haben keinen vertraglich festgelegten hohen Durchsatz.
    * Ihre Anforderungen an den Durchsatz betragen &lt;500 TPS.
    * Sie benötigen Personalisierung basierend auf Adobe-Profilen.
    * Kampagnendaten sollen für zukünftiges Targeting Profilen zugeordnet werden.

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Fehler, Codes, Fehlerbehebung, Journey, Kampagne, Nachrichten
-source-git-commit: 28a8f113d594f80ba7de22229e9a223b7f17ae8d
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '2394'
 ht-degree: 1%
@@ -68,7 +68,7 @@ Diese Fehler treten bei der Journey-Ausführung, der Ereignisverarbeitung und be
 | **CJMRT-080605-400** | Fehlerhafte Anfrage von der Journey-Laufzeit (z. B. Knoten-Trigger, Aktion usw.) | Konfiguration verweist auf eine entfernte/umbenannte oder veraltete Funktion/Vorlage/einen veralteten Kanal | &#x200B;1. Validieren Sie alle Ressourcenverweise<br/>2. Audit der Journey-Konfiguration und Feature Flags<br/>3. Aktualisieren Sie fehlerhafte Verweise<br/>4. Aktuelle Systemaktualisierungen und Migrationen ansehen <br/><br/>**Verwandte Dokumentation**: [Erstellung von Journey](journey-gs.md) |
 | **CJMRT-030012-422** | Nicht verarbeitbare Entität - fehlgeschlagene Aktion, ungültiges Ereignis oder ungültige Payload | Ungültige Eingabedaten (z. B. nicht vorhandene Zielgruppe, Ereignis oder Attribut) | &#x200B;1. Überprüfen Sie die Payload-Struktur der Eingabe/des Ereignisses<br/>2. Überprüfen, ob referenzierte Objekte (Zielgruppen, Datensätze) vorhanden und aktiv sind<br/>3. Überprüfen Sie, ob alle erforderlichen Felder vorhanden sind<br/>4. Testen Sie mit einer zweifelsfrei funktionierenden Payload-<br/><br/>**Dokumentation**: [Fehlerbehebung beim Journey](troubleshooting.md), [Ereigniskonfiguration](../event/about-events.md) |
 | **CJMRT-130004-400** | Fehlerhafte Anfrage - fehlerhafte Eingabe in der Journey-Knoten- oder Kanalkonfiguration | Journey-Payload oder Konfigurationsverweise entfernt/ungültige Ressource | &#x200B;1. Überprüfen Sie die Journey-Knotenkonfiguration.<br/>. Überprüfen Sie, ob alle referenzierten Ressourcen (Nachrichten, Zielgruppen, Aktionen) vorhanden sind<br/>3. Fehlerhafte Verweise beheben oder aktualisieren<br/>4. Journey-Konfiguration bei Bedarf neu erstellen <br/><br/>**Verwandte Dokumentation**: [Journey-Erstellung](journey-gs.md), [Benutzerdefinierte Aktionen](../action/about-custom-action-configuration.md) |
-| **CJMRT-000032-409** | Konflikt - Ressource existiert bereits | Versuch, eine Ressource mit doppelter ID oder doppeltem Namen zu erstellen | &#x200B;1. Verwenden Sie eindeutige IDs und Namen für alle Ressourcen<br/>2. Prüfen Sie, ob vorhandene Ressourcen mit derselben Kennung vorhanden sind<br/>3. Löschen oder Umbenennen widersprüchlicher Objekte.<br/>. Namenskonventionen lesen <br/><br/>**Verwandte Dokumentation**: [Journey Versionen](journey-gs.md#journey-versions) |
+| **CJMRT-000032-409** | Konflikt - Ressource existiert bereits | Versuch, eine Ressource mit doppelter ID oder doppeltem Namen zu erstellen | &#x200B;1. Verwenden Sie eindeutige IDs und Namen für alle Ressourcen<br/>2. Prüfen Sie, ob vorhandene Ressourcen mit derselben Kennung vorhanden sind<br/>3. Löschen oder Umbenennen widersprüchlicher Objekte.<br/>. Namenskonventionen lesen <br/><br/>**Verwandte Dokumentation**: [Journey-Erstellung](journey-gs.md) |
 | **CJMRT-170016-400** | Fehlerhafte Anfrage beim Journey der Konfiguration/Vorschau | Fehlende erforderliche Abhängigkeit in der Payload oder fehlerhafter Vorlagenlink | &#x200B;1. Überprüfen Sie, ob alle erforderlichen Ressourcen aktiv sind<br/>2. Stellen Sie sicher, dass Vorlagen und Inhaltsbausteine veröffentlicht werden<br/>3. Überprüfen Sie, ob alle Abhängigkeiten ordnungsgemäß verknüpft sind<br/>4. Überprüfen Sie die Ergebnisse des Journey <br/><br/>**Testmodus.Verwandte**: [Testen von Journey](testing-the-journey.md), [Journey-Abhängigkeiten](journey-gs.md) |
 | **CJMRT-080608-400** | Fehlerhafte Anfrage in Domain/Kanal/Delegierung | Erforderliche DNS-Einträge oder E-Mail-/SMS-Konfiguration fehlen | &#x200B;1. Vollständige DNS-Konfiguration für E-Mail-Domains<br/>2. Überprüfen Sie, ob die Subdomain-Delegierung abgeschlossen <br/>3. Führen Sie die Konfigurationsassistenten erneut aus<br/>4. Planen Sie Zeit für die DNS-Verbreitung ein (bis zu 72 Stunden)<br/><br/>**Verwandte Dokumentation**: [Kanaloberflächen](../configuration/channel-surfaces.md), [Subdomain-Delegierung](../configuration/delegate-subdomain.md) |
 | **CJMRT-110100-500** | Interner Fehler bei Payload | Backend-Daten-/Konfigurationsfehler oder nicht unterstützte Konfiguration | &#x200B;1. Wiederholen Sie den Vorgang<br/>2. Vereinfachte Konfiguration bei Verwendung erweiterter Funktionen<br/>3. Eskalieren Sie an den Adobe-Support mit der Anfrage-ID und der exakten Payload<br/>4. Suchen Sie in den Versionshinweisen/<br/><br/>**Dokumentation nach bekannten**: [Fehlerbehebung beim Journey](troubleshooting.md) |
@@ -182,15 +182,15 @@ Wenn Sie auf dauerhafte Fehler stoßen, die mit diesem Handbuch nicht behoben we
 1. **Informationen sammeln**: Erfassen Sie den Fehler-Code, die Anfrage-ID, Zeitstempel und Schritte zur Reproduktion
 2. **Systemstatus überprüfen**: Besuchen Sie [Adobe-Status](https://status.adobe.com/de){target="_blank"}, um bekannte Service-Probleme anzuzeigen
 3. **Suchdokumentation**: Lesen Sie [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de){target="_blank"} für Lösungen
-4. **Engage-Community**: Stellen Sie Fragen in der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}
+4. **Engage-Community**: Stellen Sie Fragen in der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 5. **Adobe-Support kontaktieren**: Senden Sie ein Support-Ticket mit allen relevanten Details
 
 >[!NOTE]
 >
->Diese Fehlercode-Referenz wird laufend aktualisiert, wenn neue Codes identifiziert und dokumentiert werden. Die neuesten Informationen finden Sie regelmäßig in den [Adobe Journey Optimizer Community-Blogs](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=de){target="_blank"}.
+>Diese Fehlercode-Referenz wird laufend aktualisiert, wenn neue Codes identifiziert und dokumentiert werden. Die neuesten Informationen finden Sie regelmäßig in den [Adobe Journey Optimizer Community-Blogs](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}.
 
 **Verwandte Themen**
 
-* [Entmystifizierung von Adobe Journey Optimizer-Fehlercodes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de){target="_blank"}
-* [Entmystifizierung von Adobe Journey Optimizer-Fehler-Codes: Teil 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=de){target="_blank"}
+* [Entmystifizierung von Adobe Journey Optimizer-Fehlercodes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Entmystifizierung von Adobe Journey Optimizer-Fehler-Codes: Teil 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 
