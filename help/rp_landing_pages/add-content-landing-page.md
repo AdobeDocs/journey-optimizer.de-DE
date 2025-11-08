@@ -20,7 +20,7 @@ Beim Gestalten Ihrer Inhalte in Adobe Journey Optimizer geht es darum, personali
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Verwenden von Inhaltskomponenten
 
@@ -50,7 +50,7 @@ Aktivieren Sie Tracking, fügen Sie Links ein und verwalten Sie das Erscheinungs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Einfügen von personalisierten Angeboten
 

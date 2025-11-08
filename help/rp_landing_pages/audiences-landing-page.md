@@ -40,7 +40,7 @@ Entdecken Sie erweiterte Workflows für die Erstellung, Komposition und Anreiche
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Aktivieren von Zielgruppen in Kampagnen und Journeys
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Zielgruppen aktivieren und in Kampagnen und Journeys effek
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Nutzen von Anreicherungsattributen
 

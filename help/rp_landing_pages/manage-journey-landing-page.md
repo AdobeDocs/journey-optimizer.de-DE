@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie feste und profildefinierte Zeitzonen konfigurieren, um ein
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Versandzeitoptimierung
 

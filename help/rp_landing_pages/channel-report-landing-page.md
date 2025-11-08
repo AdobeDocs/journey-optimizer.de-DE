@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer auf die Funktion „Bericht fü
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Umfassende Liste der Metriken
 
@@ -60,7 +60,7 @@ In diesem Video erfahren Sie, wie Sie Berichte analysieren, anpassen, exportiere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Konfigurieren von Berichtsdatenquellen
 

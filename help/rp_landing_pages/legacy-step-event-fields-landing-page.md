@@ -70,7 +70,7 @@ Erfahren Sie mehr über die Felder, die mit dem Datenabruf während der Schrittv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 JourneyStep-Identitätsfelder
 

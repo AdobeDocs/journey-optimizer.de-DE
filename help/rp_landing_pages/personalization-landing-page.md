@@ -20,7 +20,7 @@ Personalisierung in Adobe Journey Optimizer ermöglicht es Ihnen, maßgeschneide
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit der Personalisierung
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen der Personalisierung in Adobe Journey Optimizer kennen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Hinzufügen und Validieren von Personalisierung
 
@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie AEP-Datensätze mit der Hilfsfunktion „datasetLookup“ 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Referenzhandbuch zu Hilfsfunktionen
 

@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit Testprofilen und Beispieleingabedaten Inhalte in der V
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Auswählen von Testprofilen in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Schrittweise Anleitung zur Vorschau personalisierter Inhalte mithilfe von Testpr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 Durchführen von Testsendungen mit Testprofildaten
 

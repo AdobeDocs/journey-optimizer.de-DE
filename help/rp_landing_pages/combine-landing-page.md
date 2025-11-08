@@ -20,7 +20,7 @@ Die lösungsübergreifenden Anwendungsfälle von Adobe Journey Optimizer ermögl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Kombinieren von Adobe-Lösungen zur Verwaltung von Inhalten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Adobe Journey Optimizer mit anderen Adobe-Lösungen wie Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Verwenden von Adobe Experience Manager Assets
 
@@ -70,7 +70,7 @@ Schrittweise Anleitungen zur Integration von AEM-Inhaltsfragmenten mit Adobe Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Arbeiten mit Dynamic Media
 

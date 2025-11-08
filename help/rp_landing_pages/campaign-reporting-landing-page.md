@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie personalisierte Erlebnisse und KI-gesteuerte Entscheidungs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Inhaltskarten-Kampagnenbericht
 
@@ -70,7 +70,7 @@ Gewinnen Sie Erkenntnisse zu E-Mail-Leistungsmetriken, Interaktionsraten und Tri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=de)
 
 Bericht zu einer Experimentkampagne
 

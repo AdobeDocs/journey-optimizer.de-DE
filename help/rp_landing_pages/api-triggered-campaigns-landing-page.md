@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Aktionen konfigurieren, Kommunikationskanäle auswählen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Bearbeiten und Personalisieren der Inhalte einer durch API ausgelösten Kampagne
 
@@ -60,7 +60,7 @@ Passen Sie Kampagneninhalte mithilfe von kontextuellen Daten an und personalisie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
 
 Definieren der Zielgruppe einer durch API ausgelösten Kampagne
 
@@ -70,7 +70,7 @@ Richten Sie die Zielgruppe der Kampagne ein, indem Sie Profile auswählen, Ident
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
 
 Planen einer durch API ausgelösten Kampagne
 

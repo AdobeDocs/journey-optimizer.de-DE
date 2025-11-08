@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie die Benutzerinteraktion mit Inhaltskarten mithilfe detaill
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 Metriken zu Direkt-Mail
 

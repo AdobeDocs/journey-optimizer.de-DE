@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit dem visuellen Web-Designer in Adobe Journey Optimizer 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Bearbeiten von Web-Inhalten mit dem nicht-visuellen Editor
 

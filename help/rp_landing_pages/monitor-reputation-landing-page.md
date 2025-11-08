@@ -20,7 +20,7 @@ Das Verwalten des Status Ihrer E-Mail-Kampagnen beginnt mit der Überwachung der
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Verwalten der Unterdrückungsliste
 

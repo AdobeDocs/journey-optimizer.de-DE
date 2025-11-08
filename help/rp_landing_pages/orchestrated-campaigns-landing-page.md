@@ -40,7 +40,7 @@ Machen Sie sich mit den Einschränkungen und Grenzen vertraut, die bei der Verwe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Datenkonfiguration für orchestrierte Kampagnen
 
@@ -70,7 +70,7 @@ Beherrschen Sie Datenbankabfragen, um Zielgruppen in orchestrierten Kampagnen ef
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Umfassendes Handbuch zu Kampagnenaktivitäten
 

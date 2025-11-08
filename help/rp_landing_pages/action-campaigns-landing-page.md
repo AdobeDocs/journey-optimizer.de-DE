@@ -70,7 +70,7 @@ Entwerfen, testen und konfigurieren Sie Inhalte für Ihre Aktionskampagnen über
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
 
 Definieren der Zielgruppe einer Kampagne
 

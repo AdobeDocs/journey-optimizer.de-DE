@@ -60,7 +60,7 @@ Erhalten Sie sofortige Antworten und operative Erkenntnisse über Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Inhaltsexperiment mit KI
 
@@ -70,7 +70,7 @@ Erzeugen Sie mehrere Inhaltsvarianten und führen Sie Experimente durch, um die 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Bewertung der Markenausrichtung
 

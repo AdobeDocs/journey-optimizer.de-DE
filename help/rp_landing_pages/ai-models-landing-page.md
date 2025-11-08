@@ -40,7 +40,7 @@ Erfahren Sie, wie Modelle mit automatischer Optimierung Algorithmen wie das Thom
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Grundlegendes zu personalisierten Optimierungsmodellen
 

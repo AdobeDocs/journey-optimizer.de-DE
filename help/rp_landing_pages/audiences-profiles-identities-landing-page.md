@@ -20,7 +20,7 @@ Zielgruppen, Profile und Identitäten in Adobe Journey Optimizer basieren auf de
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Zielgruppen-Management und Personalisierung
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie Kundenidentitäten mithilfe des Identitätsdiagramms und d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Lizenznutzungs-Dashboard
 
