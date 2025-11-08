@@ -10,10 +10,10 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 36c44728172313492898bf3374a37512e4c19789
 workflow-type: tm+mt
-source-wordcount: '1842'
-ht-degree: 81%
+source-wordcount: '1800'
+ht-degree: 83%
 
 ---
 
@@ -68,10 +68,6 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 1. Um den Testmodus zu aktivieren, klicken Sie in der rechten oberen Ecke auf die Schaltfläche **[!UICONTROL Testmodus]**.
 
    ![](assets/journeytest1.png)
-
-   >[!NOTE]
-   >
-   >Warten Sie nach der Aktivierung des Testmodus etwa 1-2 Minuten, bevor Sie einen Profileintritt auslösen. Dadurch kann sich das Entscheidungspaket vollständig im Entscheidungssystem ausbreiten. Wenn Sie unmittelbar nach der Aktivierung des Testmodus einen Profileintritt auslösen, kann der Journey gelegentlich fehlschlagen.
 
 1. Wenn die Journey mindestens eine Aktivität vom Typ **Warten** enthält, stellen Sie den Parameter **[!UICONTROL Wartezeit]** ein, um die Dauer jeder Warteaktivität und jeder maximalen Wartezeit bei einem Ereignis im Testmodus festzulegen. Die Standardzeit für Wartezeiten und die maximale Wartezeit für Ereignisse beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell.
 
