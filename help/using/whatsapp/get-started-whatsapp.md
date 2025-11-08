@@ -58,7 +58,7 @@ Das folgende Video zeigt, wie Sie WhatsApp als nativen Kanal in Adobe Journey Op
 
 +++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470253?captions=ger&learn=on)
 
 +++
 
