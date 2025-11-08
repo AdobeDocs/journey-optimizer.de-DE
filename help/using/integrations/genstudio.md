@@ -9,7 +9,7 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 100%
@@ -39,7 +39,7 @@ Um die Marketing-Effizienz zu steigern und Markenkonsistenz zu gewährleisten, k
 
 >[!INFO]
 >
->Weitere Informationen finden Sie in diesem [Überblick](https://business.adobe.com/de/products/genstudio-for-performance-marketing.html?lang=de#watch-overview){target="_blank"} und einer [Demo](https://business.adobe.com/de/products/genstudio-for-performance-marketing.html?lang=de#demo){target="_blank"} zu [!DNL Adobe GenStudio for Performance Marketing].
+>Weitere Informationen finden Sie in diesem [Überblick](https://business.adobe.com/products/genstudio-for-performance-marketing.html?lang=de#watch-overview){target="_blank"} und einer [Demo](https://business.adobe.com/products/genstudio-for-performance-marketing.html?lang=de#demo){target="_blank"} zu [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -56,7 +56,7 @@ Um die Marketing-Effizienz zu steigern und Markenkonsistenz zu gewährleisten, k
 
 General guidelines for using the GenStudio integration in [!DNL Adobe Journey Optimizer] for email generation are listed below:
 
-See if guidelines/limitations such as the ones listed [here](gs-generative.md#generative-guardrails) for AI Assistant can apply.
+See if guidelines/limitations such as the ones listed [here](../content-management/gs-generative.md#generative-guardrails) for AI Assistant can apply.
 
 The following limitations apply to GenStudio integration in [!DNL Adobe Journey Optimizer]:-->
 
@@ -140,4 +140,4 @@ Verfolgen Sie nach dem Ausführen des Experiments mit dem [Experimentkampagnenbe
 
 Erfahren Sie, wie Sie eine E-Mail-Vorlage aus Journey Optimizer in GenStudio for Performance Marketing exportieren, markenkonforme E-Mails mit der Vorlage in GenStudio erstellen und diese dann nahtlos wieder in Journey Optimizer importieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456058/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: E-Mail, Start, Erstellung, Vorschau
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 66%
+source-wordcount: '295'
+ht-degree: 63%
 
 ---
 
@@ -29,7 +29,7 @@ E-Mail-Sendungen können erstellt werden:
 
 * In einer **Journey**: Nachdem Sie eine **[!UICONTROL E-Mail]**-Aktivität zu Ihrer Journey hinzugefügt und die Grundeinstellungen festgelegt haben, verwenden Sie den rechten Bereich **[!UICONTROL Aktionen: E-Mail]**, um den Inhalt für die Nachricht zu erstellen. [Erfahren Sie, wie Sie eine Journey erstellen](../building-journeys/journey-gs.md)
 
-* In einer **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie **[!UICONTROL E-Mail]** als Aktion aus und definieren Sie die Grundeinstellungen. [Erfahren Sie, wie Sie eine Kampagne erstellen](../campaigns/campaign-action.md#action-campaign-action)
+* In einer **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie **[!UICONTROL E-Mail]** als Aktion aus und definieren Sie die Grundeinstellungen. Erfahren Sie, wie Sie [eine Aktionskampagne](../campaigns/campaign-action.md#action-campaign-action) | [eine von einer API ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) | [Eine orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]

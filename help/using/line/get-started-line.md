@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
-source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ LINE-Nachrichten können in einer Journey oder in einer Kampagne erstellt und ve
 
 * In einer **Journey**. Erstellen Sie eine Journey, fügen Sie eine LINE-Aktivität hinzu und legen Sie die Grundeinstellungen fest. Wechseln Sie dann in den rechten Bereich **[!UICONTROL Aktionen: LINE]**, um den Inhalt für die LINE-Nachricht zu erstellen. Auf [dieser Seite](../building-journeys/journey-gs.md) erfahren Sie, wie Sie eine Push-Nachricht erstellen.
 
-* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie „LINE“ als Aktion aus und legen Sie die Grundeinstellungen fest. Bearbeiten Sie dann den Nachrichteninhalt, um die zu versendende LINE-Nachricht zu definieren. In [diesem Abschnitt](../campaigns/create-campaign.md#configure) erfahren Sie, wie Sie eine Kampagne erstellen.
+* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie „LINE“ als Aktion aus und legen Sie die Grundeinstellungen fest. Bearbeiten Sie dann den Nachrichteninhalt, um die zu versendende LINE-Nachricht zu definieren. Erfahren Sie, wie Sie [eine Aktionskampagne](../campaigns/campaign-action.md#action-campaign-action) | [eine von einer API ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) | [Eine orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md#create)
 
 Bevor Sie Ihre LINE-Nachricht erstellen, konfigurieren Sie Ihren LINE-Kanal mit Journey Optimizer. [Weitere Informationen](line-configuration.md).
 
