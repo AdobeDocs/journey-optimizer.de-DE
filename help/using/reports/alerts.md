@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2153'
 ht-degree: 76%
@@ -37,7 +37,7 @@ Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONT
 * Spezifische Warnhinweise für Journeys:
 
    * Warnhinweis [Auslösen von „Zielgruppe lesen“ fehlgeschlagen](#alert-read-audiences)
-   * [&#x200B; Warnhinweis Fehlerrate benutzerdefinierter Aktionen überschritten](#alert-custom-action-error-rate) (ersetzt den vorherigen Warnhinweis bei Fehlern benutzerdefinierter Journey-Aktionen)
+   * [ Warnhinweis Fehlerrate benutzerdefinierter Aktionen überschritten](#alert-custom-action-error-rate) (ersetzt den vorherigen Warnhinweis bei Fehlern benutzerdefinierter Journey-Aktionen)
    * Warnhinweis [Rate beim Verwerfen des Profils überschritten](#alert-discard-rate)
    * Warnhinweis [Fehlerrate bei Profil überschritten](#alert-profile-error-rate)
    * Warnung [Journey veröffentlicht](#alert-journey-published)
@@ -46,8 +46,8 @@ Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONT
 
 * Warnhinweise speziell für die Kanalkonfiguration:
 
-   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
-   * Warnhinweis [&#128279;](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration
+   * Warnhinweis ](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt[
+   * Warnhinweis ](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration[
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
@@ -56,7 +56,7 @@ Wenn ein unerwartetes Verhalten auftritt und/oder bestimmte Bedingungen in Ihren
 
 Sie können jeden Warnhinweis einzeln über die Benutzeroberfläche abonnieren, entweder global über das Menü **[!UICONTROL Warnhinweise]** (siehe [Globales Abonnement](#global-subscription)) oder einzeln für eine bestimmte Journey (siehe [Einzelabonnement](#unitary-subscription)).
 
-Je nach den Benutzereinstellungen werden Warnhinweise per E-Mail gesendet und/oder erscheinen direkt im Journey Optimizer-Benachrichtigungszentrum oben rechts in der Benutzeroberfläche. Wählen Sie in den **[!UICONTROL Voreinstellungen]** von [!DNL Adobe Experience Cloud] aus, wie Sie diese Warnhinweise erhalten möchten. [Weitere Informationen](../start/user-interface.md#in-product-alerts)
+Je nach den Benutzereinstellungen werden Warnhinweise per E-Mail gesendet und/oder erscheinen direkt im Journey Optimizer-Benachrichtigungszentrum oben rechts in der Benutzeroberfläche. Wählen Sie in den **[!UICONTROL Voreinstellungen]** von [!DNL Adobe Experience Cloud] aus, wie Sie diese Warnhinweise erhalten möchten. [Weitere Informationen](../start/user-interface.md#in-product-uc)
 
 Wenn ein Warnhinweis aufgelöst wird, erhalten Abonnentinnen und Abonnenten eine Benachrichtigung des Typs „Aufgelöst“. Warnhinweise werden nach 1 Stunde aufgelöst, um sich vor einem Umschalten der Werte zu schützen.
 
@@ -91,7 +91,7 @@ Gehen Sie wie folgt vor, um einen Warnhinweis für eine bestimmte Journey zu abo
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Journey-Warnhinweise {#journey-alerts}
 

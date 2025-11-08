@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: E-Mail, Vorlagen, Design
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 5be9ac1f77d7a09089dd8115fd7c9cfa0a3ab0d2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
@@ -33,9 +33,9 @@ Sie können aus folgenden Optionen wählen:
 
 * **Gespeicherte Vorlagen**. Sie können auch eine benutzerdefinierte Vorlage verwenden, die Sie entweder:
 
-   * von Grund auf mit dem Menü **[!UICONTROL Inhaltsvorlagen]** erstellt haben. [Weitere Informationen](../content-management/content-templates.md#create-template-from-scratch)
+   * von Grund auf mit dem Menü **[!UICONTROL Inhaltsvorlagen]** erstellt haben. [Weitere Informationen](../content-management/content-templates.md#content-templates)
 
-   * mithilfe der Option **[!UICONTROL Als Inhaltsvorlage speichern]** aus einer E-Mail in einer Journey oder einer Kampagne gespeichert haben. [Weitere Informationen](../content-management/content-templates.md#save-as-template)
+   * mithilfe der Option **[!UICONTROL Als Inhaltsvorlage speichern]** aus einer E-Mail in einer Journey oder einer Kampagne gespeichert haben. [Weitere Informationen](../content-management/content-templates.md#video-templates)
 
 Gehen Sie wie folgt vor, um mit einer der Beispielvorlagen oder der gespeicherten Vorlagen mit der Erstellung Ihres Inhalts zu beginnen.
 
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um mit einer der Beispielvorlagen oder der gespeicherte
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. Die Liste aller [Inhaltsvorlagen](../content-management/content-templates.md#create-content-templates), die in der aktuellen Sandbox erstellt wurden, wird angezeigt. Sie können sie nach **[!UICONTROL Name]**, **[!UICONTROL Zuletzt geändert]** und **[!UICONTROL Zuletzt erstellt]** sortieren.
+1. Die Liste aller [Inhaltsvorlagen](../content-management/content-templates.md#content-templates), die in der aktuellen Sandbox erstellt wurden, wird angezeigt. Sie können sie nach **[!UICONTROL Name]**, **[!UICONTROL Zuletzt geändert]** und **[!UICONTROL Zuletzt erstellt]** sortieren.
 
    ![](assets/email_designer-saved-templates-filter.png)
 

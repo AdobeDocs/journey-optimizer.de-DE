@@ -9,8 +9,8 @@ role: Admin
 level: Intermediate
 keywords: primär, Ausführung, E-Mail, Zielgruppe, Profil, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Diesen Wert zu überschreiben, kann zum Beispiel für folgende Zwecke nützlich 
 * Testen des Versands. Sie können eine eigene E-Mail-Adresse oder Telefonnummer hinzufügen. Nach Veröffentlichung der Journey wird die E-Mail-, SMS- oder WhatsApp-Nachricht an Sie gesendet.
 * Senden einer Nachricht an Abonnierende auf einer Liste. Weitere Informationen finden Sie in [diesem Anwendungsfall](../building-journeys/message-to-subscribers-uc.md).
 
-Beim Hinzufügen einer **[!UICONTROL E-Mail]**- oder **[!UICONTROL SMS]**- oder **[!UICONTROL WhatsApp]**-Aktion zu einer [Journey](../email/create-email.md#create-email-journey-campaign) wird die primäre E-Mail-Adresse oder Telefonnummer unter den erweiterten Journey-Parametern angezeigt.
+Beim Hinzufügen einer **[!UICONTROL E-Mail]**- oder **[!UICONTROL SMS]**- oder **[!UICONTROL WhatsApp]**-Aktion zu einer [Journey](../email/create-email.md#create-email) wird die primäre E-Mail-Adresse oder Telefonnummer unter den erweiterten Journey-Parametern angezeigt.
 
 Verwenden Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** rechts neben dem Feld zum Überschreiben des Werts.
 

@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 100%
@@ -111,7 +111,7 @@ Sie finden sie im Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTRO
 
    >[!NOTE]
    >
-   >In diesem Beispiel verwenden wir nur die Prioritätswerte. Erfahren Sie mehr über [Eignungsregeln und Einschränkungen](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
+   >In diesem Beispiel verwenden wir nur die Prioritätswerte. Erfahren Sie mehr über [Eignungsregeln und Einschränkungen](../../using/offers/offer-library/add-constraints.md#eligibility).
 
 ## Angebote konfigurieren {#configure-offers}
 
@@ -129,7 +129,7 @@ Jetzt können Sie Ihre Angebote erstellen und konfigurieren. In diesem Beispiel 
    >
    >Ein Angebot kann an verschiedenen Stellen in einer Nachricht angezeigt werden, um mehr Möglichkeiten zur Nutzung des Angebots in verschiedenen Platzierungskontexten zu schaffen.
 
-   Weitere Informationen zu Darstellungen finden Sie in [diesem Abschnitt](../../using/offers/offer-library/creating-personalized-offers.md#representations).
+   Weitere Informationen zu Darstellungen finden Sie in [diesem Abschnitt](../../using/offers/offer-library/add-representations.md#representations).
 
 1. Wählen Sie ein passendes Bild für die ersten beiden Platzierungen aus. Geben Sie benutzerdefinierten Text für die Platzierung *Nicht digital – Text* ein.
 

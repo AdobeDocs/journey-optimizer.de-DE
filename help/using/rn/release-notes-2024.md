@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -308,7 +308,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
    * 90 Tage für Daten im Profilspeicher
    * 13 Monate für Daten im Data Lake
 
-  Diese Änderung wird in einer nachfolgenden Phase in bestehende Kunden-Sandboxes integriert. [Weitere Informationen](../data/datasets-ttl.md#ttl)
+  Diese Änderung wird in einer nachfolgenden Phase in bestehende Kunden-Sandboxes integriert. [Weitere Informationen](../data/datasets-ttl.md#ttl-guardrail)
 
 * **Parameter in benutzerdefinierten Aktionen** Verfügbarkeitsdatum: 3. Oktober 2024: NULL und optionale Parameter werden nun in benutzerdefinierten Aktionen unterstützt. [Weitere Informationen](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -631,7 +631,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Journeys**
 
 * In der Aktivität **Bedingung** ist die **[!UICONTROL Zeit-Bedingung]** jetzt standardmäßig stundenweise festgelegt, von 00:00 bis 12:00. [Mehr dazu](../building-journeys/condition-activity.md#time_condition)
-* Beim Erstellen Ihrer Journeys werden Warnhinweise jetzt über die Schaltfläche **Warnungen** angezeigt, um sie mit anderen Warnungen abzugleichen und ein einheitliches Anwendererlebnis zu gewährleisten. [Mehr dazu](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* Beim Erstellen Ihrer Journeys werden Warnhinweise jetzt über die Schaltfläche **Warnungen** angezeigt, um sie mit anderen Warnungen abzugleichen und ein einheitliches Anwendererlebnis zu gewährleisten. [Mehr dazu](../building-journeys/troubleshooting.md#activity-errors)
 * Die Zoom-Optionen in der Journey-Symbolleiste wurden verbessert: Der Zoom-Prozentsatz ist jetzt sichtbar, und der Zoom-Wert kann leichter zurückgesetzt werden.
 
 **Push-Kanal**
@@ -1129,7 +1129,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Content-Management**
 
-* Sie können jetzt Inhaltsvorlagen für alle Kanäle simulieren. [Weitere Informationen](../content-management/content-templates.md#test-templates)
+* Sie können jetzt Inhaltsvorlagen für alle Kanäle simulieren. [Weitere Informationen](../content-management/content-templates.md#video-templates)
 
 **Personalisierung**
 
@@ -1242,7 +1242,7 @@ Die folgenden Verbesserungen, die bisher als Beta-Version verfügbar waren, steh
 
 * Sie können jetzt **Zielgruppen auswählen, die durch die Zielgruppenkomposition erstellt wurden**, und Anreicherungsattribute in Journeys nutzen. [Weitere Informationen](../building-journeys/read-audience.md)
 
-* Sie können jetzt **Zielgruppen auswählen, die aus einer CSV-Datei** in Journeys und Kampagnen hochgeladen wurden. [Weitere Informationen](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Sie können jetzt **Zielgruppen auswählen, die aus einer CSV-Datei** in Journeys und Kampagnen hochgeladen wurden. [Weitere Informationen](../audience/about-audiences.md#about-segments)
 
   >[!AVAILABILITY]
   >

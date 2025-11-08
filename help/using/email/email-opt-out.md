@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 95%
@@ -22,7 +22,7 @@ Beim Versand von Nachrichten von Journeys oder Kampagnen müssen Sie stets siche
 
 >[!NOTE]
 >
->Alle Ihre Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten.  Dies ist für Transaktionsnachrichten nicht erforderlich. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der [Kanalkonfiguration](../configuration/channel-surfaces.md#email-type) und bei der Erstellung der Nachricht definiert.
+>Alle Ihre Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten.  Dies ist für Transaktionsnachrichten nicht erforderlich. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der [Kanalkonfiguration](email-settings.md#email-type) und bei der Erstellung der Nachricht definiert.
 
 Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Möglichkeiten:
 

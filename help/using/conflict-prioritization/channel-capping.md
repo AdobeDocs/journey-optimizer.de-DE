@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 98%
@@ -94,7 +94,7 @@ Gehen Sie wie folgt vor, um einen Kanalregelsatz zu erstellen:
 
 1. Wiederholen Sie die obigen Schritte, um dem Regelsatz so viele Regeln wie nötig hinzuzufügen.
 
-1. Wenn die Begrenzungsregel für die Anwendung auf Nachrichten bereit ist, aktivieren Sie den Regelsatz und die Regel, wo sie hinzugefügt wurde. [Informationen zum Aktivieren von Regelsätzen](../conflict-prioritization/rule-sets.md#create)
+1. Wenn die Begrenzungsregel für die Anwendung auf Nachrichten bereit ist, aktivieren Sie den Regelsatz und die Regel, wo sie hinzugefügt wurde. [Informationen zum Aktivieren von Regelsätzen](../conflict-prioritization/rule-sets.md#Create)
 
 ## Anwenden von Regelsätzen auf eine Nachricht {#apply-frequency-rule}
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

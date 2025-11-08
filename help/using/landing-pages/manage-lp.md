@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
-source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
@@ -87,6 +87,6 @@ Für eine einfache Navigation in Ihren Landingpages können Sie Ordner verwenden
 
 1. Mit der Schaltfläche **[!UICONTROL Weitere Aktionen]** können Sie Landingpages auch in einen anderen vorhandenen Ordner verschieben.
 
-1. Nun können Sie zu dem Ordner navigieren, den Sie gerade erstellt haben. Jede neue Landingpage, die Sie hier [erstellen](create-lp.md#create-landing-page.md), wird im aktuellen Ordner gespeichert.
+1. Nun können Sie zu dem Ordner navigieren, den Sie gerade erstellt haben. Jede neue Landingpage, die Sie hier [erstellen](create-lp.md#create-landing-page), wird im aktuellen Ordner gespeichert.
 
    ![](assets/lp-folder-create.png)

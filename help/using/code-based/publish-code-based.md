@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Sobald Ihre Code-basierte Journey oder Kampagne live ist, ist Ihr App-Implementi
 
 Gehen Sie wie folgt vor, um das Code-basierte Erlebnis von einer Journey live zu schalten.
 
-1. Stellen Sie sicher, dass Ihre Journey gültig ist und kein Fehler vorliegt. [Weitere Informationen](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+1. Stellen Sie sicher, dass Ihre Journey gültig ist und kein Fehler vorliegt. [Weitere Informationen](../building-journeys/troubleshooting.md#activity-errors)
 
 1. Wählen Sie in der Journey im Dropdown-Menü oben rechts die Option **[!UICONTROL Veröffentlichen]** aus.
 

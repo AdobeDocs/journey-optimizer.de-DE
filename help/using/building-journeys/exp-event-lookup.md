@@ -5,7 +5,7 @@ title: Suche nach Erlebnisereignissen in Journeys
 description: Informationen zum Verwenden der Suche nach Erlebnisereignissen in Journeys
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 98%
@@ -56,7 +56,7 @@ Weitere Informationen:
 
 * Adobe Experience Platform [Segment Builder – Zeitbeschränkungen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-audiences-in-conditions)
+* [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment)
 
 * [inAudience()-Funktion](../building-journeys/functions/functioninaudience.md)
 
@@ -75,7 +75,7 @@ Weitere Informationen zum Verwenden von Zielgruppen:
 
 * Adobe Experience Platform [Segment Builder – Zeitbeschränkungen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-audiences-in-conditions)
+* [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment)
 
 * [inAudience()-Funktion](../building-journeys/functions/functioninaudience.md)
 
@@ -97,7 +97,7 @@ Weitere Informationen:
 
 * Adobe Experience Platform [Segment Builder – Zeitbeschränkungen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-audiences-in-conditions)
+* [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment)
 
 * [inAudience()-Funktion](../building-journeys/functions/functioninaudience.md)
 
@@ -131,7 +131,7 @@ Weitere Informationen:
 
 Im Folgenden finden Sie häufig gestellte Fragen zur Suche nach Erlebnisereignissen in Journey.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++Welche spezifischen Funktionen sind betroffen? 
 

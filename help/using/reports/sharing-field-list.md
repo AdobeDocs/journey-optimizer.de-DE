@@ -8,8 +8,8 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
 
@@ -112,7 +112,7 @@ Im Folgenden finden Sie Definitionen, häufige Ursachen und Schritte zur Fehlerb
    * **PAUSED_JOURNEY_VERSION**: Verwirft Ereignisse am Eintrittspunkt der Journey
    * **JOURNEY_IN_PAUSED_STATE**: Verwirft Ereignisse, wenn Profile in einer Journey sind
 
-  Weitere Informationen zu diesen Ereignissen sowie zur Fehlerbehebung finden Sie im Abschnitt [Anhalten einer Journey](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys).
+  Weitere Informationen zu diesen Ereignissen sowie zur Fehlerbehebung finden Sie im Abschnitt [Anhalten einer Journey](../building-journeys/journey-pause.md#discards-troubleshoot).
 
 ## Weitere Ressourcen
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 100%
@@ -64,8 +64,8 @@ Gehen Sie wie folgt vor, um ein Fragment in einer E-Mail zu verwenden.
 1. Auf der Registerkarte **[!UICONTROL Einstellungen]** haben Sie folgende Möglichkeiten:
 
    * Wählen Sie die Geräte aus, auf denen das Fragment angezeigt werden soll.
-   * Öffnen Sie das Fragment auf einer neuen Registerkarte, um es bei Bedarf zu bearbeiten. [Weitere Informationen](../content-management/fragments.md#edit-fragments)
-   * Erkunden Sie Verweise. [Weitere Informationen](../content-management/fragments.md#explore-references)
+   * Öffnen Sie das Fragment auf einer neuen Registerkarte, um es bei Bedarf zu bearbeiten. [Weitere Informationen](../content-management/fragments.md#fragments)
+   * Erkunden Sie Verweise. [Weitere Informationen](../content-management/fragments.md#visual-expression)
 
 1. Sie können Ihr Fragment mit der Registerkarte **[!UICONTROL Stile]** weiter anpassen.
 

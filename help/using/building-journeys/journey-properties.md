@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 99%
@@ -55,7 +55,7 @@ Weitere Informationen zu technischen Feldern, die mit einer Journey für ein bes
 
 Der Eintrittsmodus des Profils wird auf der Journey-Ebene im rechten Konfigurationsbereich definiert. Die Einstellungen werden nachfolgend beschrieben.
 
-Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Weitere Informationen zur Verwaltung des Profileintritts und des erneuten Eintritts finden Sie auf [dieser Seite](entry-management.md). Weitere Informationen zu Journey-Verarbeitungsraten und zum Profilfluss durch Journey finden Sie [&#x200B; diesem Abschnitt](entry-management.md#journey-processing-rate).
+Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Weitere Informationen zur Verwaltung des Profileintritts und des erneuten Eintritts finden Sie auf [dieser Seite](entry-management.md). Weitere Informationen zu Journey-Verarbeitungsraten und zum Profilfluss durch Journey finden Sie [ diesem Abschnitt](entry-management.md#journey-processing-rate).
 
 ### Erneuten Eintritt erlauben  {#allow-reentrance}
 
@@ -307,7 +307,7 @@ Sie können beispielsweise [eine Journey anhalten](journey-pause.md), eine Ausst
 
 Diese Funktion arbeitet mit der Funktion „Pausieren/Fortsetzen“ zusammen und hilft Ihnen, Journeys sicherer und flexibler zu verwalten. Sie minimiert manuelle Eingriffe, reduziert das Risiko des Versands irrelevanter oder nicht konformer Nachrichten und hält Ihre Journey-Logik mit den aktuellen Geschäftsanforderungen im Einklang.
 
-In diesem Abschnitt erfahren Sie, wie Sie [Ausstiegskriterien für Profilattribute in pausierten Journeys verwenden](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey).
+In diesem Abschnitt erfahren Sie, wie Sie [Ausstiegskriterien für Profilattribute in pausierten Journeys verwenden](journey-pause.md#journey-pause-sample).
 
 ### Leitlinien und Einschränkungen {#exit-criteria-guardrails}
 

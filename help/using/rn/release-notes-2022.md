@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
 
@@ -518,7 +518,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **E-Mail**
 
-* **Als Vorlage speichern**: Sie können jetzt E-Mail-Inhalte als Vorlage speichern und sie bei der Erstellung anderer Nachrichten wiederverwenden. [Weitere Informationen](../content-management/content-templates.md#save-as-template)
+* **Als Vorlage speichern**: Sie können jetzt E-Mail-Inhalte als Vorlage speichern und sie bei der Erstellung anderer Nachrichten wiederverwenden. [Weitere Informationen](../content-management/content-templates.md#video-templates)
 
 
 **Administration**
@@ -630,7 +630,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Landingpages**
 
-* **Neue Option für Opt-in-/Opt-out-Kontrollkästchen** - Sie können jetzt ein einziges Kontrollkästchen für das Opt-in/Opt-out in Abonnement-Landingpages einfügen. Benutzer müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu erteilen (Opt-in), und es deaktivieren, um ihr Einverständnis zurückzuziehen (Opt-out). [Weitere Informationen](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Neue Option für Opt-in-/Opt-out-Kontrollkästchen** - Sie können jetzt ein einziges Kontrollkästchen für das Opt-in/Opt-out in Abonnement-Landingpages einfügen. Benutzer müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu erteilen (Opt-in), und es deaktivieren, um ihr Einverständnis zurückzuziehen (Opt-out). [Weitere Informationen](../landing-pages/design-lp.md#design-lp)
 
 * **Vorausfüllen von Feldern auf Landingpages** - Benutzer können jetzt die Felder auf der Landingpage mit Profilinformationen befüllen. [Weitere Informationen](../landing-pages/create-lp.md#configure-primary-page)
 

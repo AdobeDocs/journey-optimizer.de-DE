@@ -10,8 +10,8 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Die Schritte zum Veröffentlichen einer Journey werden nachfolgend beschrieben:
 1. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen.
 
    * Auf [dieser Seite](testing-the-journey.md) erfahren Sie, wie Sie Journeys testen können.
-   * In [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing) erfahren Sie, wie Sie Fehler in Ihrer Journey beheben können.
+   * In [diesem Abschnitt](../building-journeys/troubleshooting.md#activity-errors) erfahren Sie, wie Sie Fehler in Ihrer Journey beheben können.
 
 1. Klicken Sie zum Veröffentlichen der Journey oben rechts im Dropdown-Menü auf die Option **[!UICONTROL Veröffentlichen]**.
 
@@ -40,7 +40,7 @@ Die Schritte zum Veröffentlichen einer Journey werden nachfolgend beschrieben:
 
    ![](assets/journeyuc1_18.png)
 
-Nachdem die Journey veröffentlicht wurde, ist sie **schreibgeschützt**. Im schreibgeschützten Modus können Sie nur die Labels und Beschreibungen der Aktivitäten, den Namen der Journey und die Beschreibung der Journey ändern. Wenn Sie zusätzliche Änderungen an einer veröffentlichten Journey vornehmen müssen, erstellen Sie [eine neue Version](journey-ui.md#journey-versions) Ihrer Journey.
+Nachdem die Journey veröffentlicht wurde, ist sie **schreibgeschützt**. Im schreibgeschützten Modus können Sie nur die Labels und Beschreibungen der Aktivitäten, den Namen der Journey und die Beschreibung der Journey ändern. Wenn Sie zusätzliche Änderungen an einer veröffentlichten Journey vornehmen müssen, erstellen Sie [eine neue Version](journey-ui.md#journey-filter) Ihrer Journey.
 
 Wenn Sie eine Journey stoppen, wird sie dauerhaft gestoppt. Alle Personen, die die Journey durchlaufen, werden dauerhaft gestoppt und die Journey lässt keine neuen Eintritte mehr zu. Wenn Sie die Journey erneut ausführen müssen, duplizieren Sie sie und veröffentlichen Sie die neue Journey.
 
@@ -81,11 +81,11 @@ Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige V
 
 >[!NOTE]
 >
->Für die Versionierung der Journeys gelten bestimmte Schutzmechanismen und Einschränkungen. Weitere Informationen finden Sie auf [dieser Seite](../start/guardrails.md#journey-versions-journey-versions-g).
+>Für die Versionierung der Journeys gelten bestimmte Schutzmechanismen und Einschränkungen. Weitere Informationen finden Sie auf [dieser Seite](../start/guardrails.md#journey-versions-g).
 
 
 ## Anleitungsvideo {#video}
 
 In diesem Video erfahren Sie, wie Sie eine Journey veröffentlichen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427932?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

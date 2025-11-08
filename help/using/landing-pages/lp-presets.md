@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: Landing, Landingpage, Konfigurieren, Umgebung, Subdomain, Voreinstellungen
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 84%
@@ -24,7 +24,7 @@ ht-degree: 84%
 
 ## Erste Schritte mit Landingpage-Voreinstellungen {#gs-lp-presets}
 
-Beim [Erstellen einer Landingpage](../landing-pages/create-lp.md#create-a-lp) müssen Sie eine Landingpage-Voreinstellung auswählen, damit Sie die Landingpage erstellen und über **[!DNL Journey Optimizer]** nutzen können. Die Voreinstellung umfasst die Subdomain, die für die auf dieser Voreinstellung basierenden Landingpages verwendet werden soll.
+Beim [Erstellen einer Landingpage](../landing-pages/create-lp.md#create-lp) müssen Sie eine Landingpage-Voreinstellung auswählen, damit Sie die Landingpage erstellen und über **[!DNL Journey Optimizer]** nutzen können. Die Voreinstellung umfasst die Subdomain, die für die auf dieser Voreinstellung basierenden Landingpages verwendet werden soll.
 
 Stellen Sie vor dem Festlegen einer Voreinstellung sicher, dass Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben. [Erfahren Sie, wie Sie einen Landingpage-Subdomain erstellen](lp-subdomains.md).
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen:
 
    >[!CAUTION]
    >
-   >Die ausgewählte Landingpage-Subdomain wird verwendet, um die **[!UICONTROL Tracking-URL]** anzugeben<!--and **[!UICONTROL Image Delivery URL]** --> wenn diese Subdomain mit einer ([&#x200B; Subdomain) &#x200B;](lp-subdomains.md#lp-use-existing-subdomain) wurde.
+   >Die ausgewählte Landingpage-Subdomain wird verwendet, um die **[!UICONTROL Tracking-URL]** anzugeben<!--and **[!UICONTROL Image Delivery URL]** --> wenn diese Subdomain mit einer ([ Subdomain) ](lp-subdomains.md#lp-use-existing-subdomain) wurde.
    >
    >Wenn die Subdomain mit der Option [Eigene Domain hinzufügen](lp-subdomains.md#lp-configure-new-subdomain) erstellt wurde, wird stattdessen die primäre Subdomain (d. h. die erste delegierte Subdomain) verwendet.
 
@@ -93,4 +93,4 @@ Sie sind nun bereit, in [!DNL Journey Optimizer] [Landingpages zu erstellen](../
 **Verwandte Themen**:
 
 * [Erste Schritte mit Landingpages](../landing-pages/get-started-lp.md)
-* [Erstellen einer Landingpage](../landing-pages/create-lp.md#create-a-lp)
+* [Erstellen einer Landingpage](../landing-pages/create-lp.md#create-lp)

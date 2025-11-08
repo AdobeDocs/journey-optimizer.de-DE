@@ -11,8 +11,8 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Sobald die Experience Manager-Vorlage in Journey Optimizer als Inhaltsvorlage ve
    >
    > Wenn Sie Ihre Vorlage bearbeiten und personalisieren möchten, können Sie nur den Kompatibilitätsmodus verwenden.
 
-1. Wenn Ihre Inhaltsvorlage fertig ist, [testen und validieren Sie sie](../content-management/content-templates.md#test-template).
+1. Wenn Ihre Inhaltsvorlage fertig ist, [testen und validieren Sie sie](../content-management/content-templates.md#content-templates).
 
 1. Sobald Ihr Inhalt definiert wurde, können Sie ihn bei der Erstellung einer neuen E-Mail verwenden, indem Sie die Sammlung **[!UICONTROL Gespeicherte Vorlagen]** durchsuchen. Wählen Sie anschließend **[!UICONTROL Diese Vorlage verwenden]** aus.
 

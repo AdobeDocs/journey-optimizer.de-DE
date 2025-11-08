@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d21f22dcab625c4dd60d74468c7afdb29041a54d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 99%
@@ -407,7 +407,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Kampagnen**
 
-   * **Ratensteuerung in ausgehenden Kampagnen** – Sie können jetzt die Ratensteuerung für ausgehende Kampagnen (E-Mail, SMS, Push-Benachrichtigungen) aktivieren, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundendienstplattformen zu verhindern. [Weitere Informationen](../campaigns/campaign-schedule.md#rate-control)
+   * **Ratensteuerung in ausgehenden Kampagnen** – Sie können jetzt die Ratensteuerung für ausgehende Kampagnen (E-Mail, SMS, Push-Benachrichtigungen) aktivieren, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundendienstplattformen zu verhindern. [Weitere Informationen](../campaigns/campaign-schedule.md#set-rate-control)
 
    * **Kampagnenplanung für Aktionen**: Die täglichen, wöchentlichen und monatlichen Kampagnenplaner wurden aktualisiert, um eine detailliertere Kontrolle über wiederkehrende Zeitpläne zu ermöglichen:
 

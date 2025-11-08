@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: aa5577ebbeabea59a2c9bf55f68edd05710d7a03
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 95%
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 Um In-App-Nachrichten in Ihren Journeys und Kampagnen mit [!DNL Journey Optimizer] zu versenden, müssen Sie die folgenden Konfigurationsschritte durchführen.
 
-1. Vergewissern Sie sich, dass Sie über die richtigen Berechtigungen für Journey Optimizer-Kampagnen verfügen, bevor Sie beginnen, selbst wenn Sie nur In-App-Nachrichten in Journeys verwenden möchten. Kampagnenberechtigungen sind nach wie vor erforderlich. [Weitere Informationen](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
+1. Vergewissern Sie sich, dass Sie über die richtigen Berechtigungen für Journey Optimizer-Kampagnen verfügen, bevor Sie beginnen, selbst wenn Sie nur In-App-Nachrichten in Journeys verwenden möchten. Kampagnenberechtigungen sind nach wie vor erforderlich. [Weitere Informationen](../campaigns/get-started-with-campaigns.md#prerequisites).
 1. Aktivieren Sie Adobe Journey Optimizer in Ihrem Datenstrom der Datenerfassung in Adobe Experience Platform und überprüfen Sie Ihre Standard-Zusammenführungsrichtlinie in Adobe Experience Platform, wie nachfolgend unter [Versandvoraussetzungen](#delivery-prerequisites) beschrieben.
 1. Erstellen Sie eine Konfiguration des In-App-Nachrichtenkanals unter „Administration“ > „Kanäle“ > „Kanalkonfigurationen“, wie in [diesem Abschnitt](#channel-prerequisites) beschrieben.
 1. Wenn Sie Inhaltsexperimente verwenden, stellen Sie sicher, dass Sie die [in diesem Abschnitt](#experiment-prerequisite) aufgeführten Anforderungen erfüllen.

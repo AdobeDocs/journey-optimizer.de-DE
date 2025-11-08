@@ -8,7 +8,7 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 6023f1004c74cedc7567fd142be767b12d85ba6d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 100%
@@ -39,7 +39,7 @@ Einen tieferen Einblick in das Thema der Zustellbarkeit und weitere Informatione
 
 ## Verringern der Beschwerderate {#reduce-complaint-rate}
 
-ISPs haben in der Regel eine ausgeprägte Möglichkeit, eine empfangene Nachricht als Spam zu melden. Dadurch ist es möglich, unzuverlässige Quellen zu identifizieren. Indem Sie Opt-out-Anfragen schnell befolgen und damit zeigen, dass Sie ein zuverlässiger Absender sind, können Sie die Beschwerderate senken. [Weitere Informationen zum Opt-out-Management](../privacy/opt-out.md#opt-out-management)
+ISPs haben in der Regel eine ausgeprägte Möglichkeit, eine empfangene Nachricht als Spam zu melden. Dadurch ist es möglich, unzuverlässige Quellen zu identifizieren. Indem Sie Opt-out-Anfragen schnell befolgen und damit zeigen, dass Sie ein zuverlässiger Absender sind, können Sie die Beschwerderate senken. [Weitere Informationen zum Opt-out-Management](../privacy/opt-out.md#opt-out-decision-management)
 
 Generell empfehlen wir, Empfänger nicht darin zu behindern, sich abzumelden, indem Sie von ihnen verlangen, Felder wie beispielsweise ihre E-Mail-Adresse oder ihren Namen auszufüllen. Die Landingpage für die Abmeldung sollte nur eine einzige Validierungs-Schaltfläche aufweisen.
 

@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: Landing, Landingpage, Subdomains, Konfiguration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
@@ -141,7 +141,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
 Gehen Sie wie folgt vor, wenn Sie die Delegierung einer Landingpage-Subdomain aufheben möchten.
 
-1. Heben Sie die Veröffentlichung aller mit der Subdomain verknüpften Landingpages in [!DNL Journey Optimizer] auf. [Weitere Informationen](create-lp.md#access-landing-pages)
+1. Heben Sie die Veröffentlichung aller mit der Subdomain verknüpften Landingpages in [!DNL Journey Optimizer] auf. [Weitere Informationen](create-lp.md#create-landing-page)
 
 1. Wenn die Landingpage-Subdomain auf einen CNAME-Eintrag verweist, können Sie den für die Landingpage-Subdomain erstellten CNAME-DNS-Eintrag aus Ihrer Hosting-Lösung löschen (löschen Sie aber nicht die ursprüngliche E-Mail-Subdomain, falls vorhanden).
 

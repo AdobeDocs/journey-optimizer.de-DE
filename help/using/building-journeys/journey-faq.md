@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '5125'
 ht-degree: 87%
@@ -21,7 +21,7 @@ ht-degree: 87%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Journeys in Adobe Journey Optimizer.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Allgemeine Konzepte
 
@@ -144,7 +144,7 @@ Obwohl CJA-Zielgruppen in Journey nicht direkt unterstützt werden, können Sie 
 * Überwachen der Zielgruppengröße und der Auswertungsleistung in umfangreichen Bereitstellungen
 * Berücksichtigen Sie beim Entwerfen von Journey-Zeiten und Einstiegsbedingungen die Aktualisierungsraten der Zielgruppe
 
-Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [Erstellen von &#x200B;](../audience/creating-a-segment-definition.md), [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) und [Federated-Zielgruppen-Komposition](../audience/federated-audience-composition.md).
+Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [Erstellen von ](../audience/creating-a-segment-definition.md), [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) und [Federated-Zielgruppen-Komposition](../audience/federated-audience-composition.md).
 
 +++
 
@@ -403,7 +403,7 @@ Ja, aber mit Einschränkungen. Sie können bestimmte Elemente einer Live-Journey
 
 Profile, die sich bereits in der Journey befinden, schließen die Originalversion ab, während neue Profile in die neue Version eintreten.
 
-Erfahren Sie mehr über [Journey-Versionen](journey-ui.md#journey-versions).
+Erfahren Sie mehr über [Journey-Versionen](journey-ui.md#journey-filter).
 
 +++
 

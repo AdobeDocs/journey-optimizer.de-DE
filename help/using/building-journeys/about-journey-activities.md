@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 99%
@@ -97,7 +97,7 @@ Zur besseren Lesbarkeit können Sie diese Parameter mithilfe der Schaltfläche *
 
 ![Symbol „Schreibgeschützte Felder ausblenden“ in den Eigenschaften der Journey-Aktivität](assets/journey-hide-read-only-fields.png)
 
-In bestimmten Kontexten können Sie die Werte dieser Parameter für eine bestimmte Verwendung überschreiben. Um einen bestimmten Wert zu erzwingen, können Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** rechts neben dem Feld anklicken. [Weitere Informationen](../configuration/primary-email-addresses.md#journey-parameters)
+In bestimmten Kontexten können Sie die Werte dieser Parameter für eine bestimmte Verwendung überschreiben. Um einen bestimmten Wert zu erzwingen, können Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** rechts neben dem Feld anklicken. [Weitere Informationen](../configuration/primary-email-addresses.md#override-execution-address-journey)
 
 ![Option „Parameterüberschreibung aktivieren“ in den Eigenschaften der E-Mail-Aktivität](assets/journey-enable-parameter-override.png)
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Sei
 
 1. Erstellen Sie eine neue geplante oder über eine API ausgelöste Kampagne und wählen Sie **[!UICONTROL E-Mail]** als Aktion.
 
-1. Führen Sie die Schritte zur Erstellung einer E-Mail-Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule).
+1. Führen Sie die Schritte zur Erstellung einer E-Mail-Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/campaign-schedule.md#action-campaign-schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -86,7 +86,7 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
 1. Schalten Sie **[!UICONTROL Entscheidungsfindung aktivieren]** ein, wenn Sie Ihrer E-Mail Entscheidungsrichtlinien hinzufügen möchten.
 
-   Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Entscheidungs-Engine nutzen, um dynamisch die besten Inhalte für jedes Zielgruppenmitglied zurückzugeben. [Infomationen zum Hinzufügen einer Entscheidungsrichtlinie in einer E-Mail](../experience-decisioning/create-decision.md#add)
+   Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Entscheidungs-Engine nutzen, um dynamisch die besten Inhalte für jedes Zielgruppenmitglied zurückzugeben. [Infomationen zum Hinzufügen einer Entscheidungsrichtlinie in einer E-Mail](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
@@ -132,7 +132,7 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 * **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices, wie etwa:
 
-   * **[!UICONTROL Der Ausschluss-Link ist nicht im E-Mail-Text vorhanden]**: Es empfiehlt sich, einen Link zur Abmeldung in Ihren E-Mail-Textkörper einzufügen. In [diesem Abschnitt](../privacy/opt-out.md#opt-out-management) erfahren Sie, wie Sie diesen konfigurieren.
+   * **[!UICONTROL Der Ausschluss-Link ist nicht im E-Mail-Text vorhanden]**: Es empfiehlt sich, einen Link zur Abmeldung in Ihren E-Mail-Textkörper einzufügen. In [diesem Abschnitt](../privacy/opt-out.md#opt-out-decision-management) erfahren Sie, wie Sie diesen konfigurieren.
 
      >[!NOTE]
      >

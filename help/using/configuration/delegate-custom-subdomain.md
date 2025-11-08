@@ -10,8 +10,8 @@ level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
-Als Alternative zu den Methoden [Vollständig delegiert](about-subdomain-delegation.md#full-subdomain-delegation) und [Einrichtung von CNAME](about-subdomain-delegation.md#cname-subdomain-delegation) können Sie mit der Methode **Benutzerdefinierte Delegierung** die Eigentümerschaft für Ihre Subdomains in Journey Optimizer übernehmen und die generierten Zertifikate vollständig kontrollieren.
+Als Alternative zu den Methoden [Vollständig delegiert](about-subdomain-delegation.md#full-subdomain-delegation) und [Einrichtung von CNAME](about-subdomain-delegation.md#subdomain-delegation-methods) können Sie mit der Methode **Benutzerdefinierte Delegierung** die Eigentümerschaft für Ihre Subdomains in Journey Optimizer übernehmen und die generierten Zertifikate vollständig kontrollieren.
 
 Im Rahmen dieses Prozesses muss Adobe sicherstellen, dass Ihr DNS entsprechend für die Bereitstellung, das Rendering und das Tracking von Nachrichten konfiguriert ist. Aus diesem Grund müssen Sie das von der Zertifizierungsstelle erhaltene [SSL-Zertifikat hochladen](#upload-ssl-certificate) und die [Schritte der Feedback-Schleife](#feedback-loop-steps) abschließen, indem Sie Domain-Eigentümerschaft und Reporting-E-Mail-Adresse bestätigen.
 

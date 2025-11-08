@@ -10,8 +10,8 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Auf der Registerkarte **[!UICONTROL Durchsuchen]** wird eine Liste der vorhanden
 
 ![Journey-Dashboard mit hervorgehobener Registerkarte „Durchsuchen“](assets/journeys-browse.png)
 
-In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzerpräferenz bei. Die Version der Journey wird auch oben auf der Journey-Bearbeitungsoberfläche über der Arbeitsfläche angezeigt. Erfahren Sie mehr über die [Verwaltung von Journey-Versionen](publish-journey.md#journey-versions-journey-versions).
+In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzerpräferenz bei. Die Version der Journey wird auch oben auf der Journey-Bearbeitungsoberfläche über der Arbeitsfläche angezeigt. Erfahren Sie mehr über die [Verwaltung von Journey-Versionen](publish-journey.md#journey-versions).
 
 ### Journey-Kalender {#calendar}
 
@@ -108,7 +108,7 @@ Verwenden Sie in der Liste der Journeys verschiedene Filter zum Eingrenzen diese
 
 ![Bildschirm mit einem Beispiel für die Journey-Filterung mit zwei ausgewählten Journey-Typen](assets/filter-journeys.png)
 
-Sie können Journeys nach [Status](#journey-statuses), [Typ](#journey-types), [Version](publish-journey.md#journey-versions-journey-versions) und zugewiesenen [Tags](../start/search-filter-categorize.md#tags) aus den **[!UICONTROL Filtern für Status und Version]** filtern.
+Sie können Journeys nach [Status](#journey-statuses), [Typ](#journey-types), [Version](publish-journey.md#journey-versions) und zugewiesenen [Tags](../start/search-filter-categorize.md#tags) aus den **[!UICONTROL Filtern für Status und Version]** filtern.
 
 Verwenden Sie die **[!UICONTROL Erstellungsfilter]**, um die Journeys nach ihrem Erstellungsdatum oder der Person zu filtern, die sie erstellt hat.
 
@@ -143,7 +143,7 @@ Der Journey-Status hängt von ihrem Lebenszyklus ab. Es kann sich handeln um:
 * **Beendet**: Die Journey wechselt nach der [maximalen globalen Wartezeit](journey-properties.md#global_timeout) von 91 Tagen automatisch in diesen Status.  Profile, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Neue Profile können nicht mehr in die Journey eintreten. 
 * **Live**: Die Journey wurde mithilfe der Schaltfläche **Veröffentlichen** veröffentlicht. [Weitere Informationen](../building-journeys/publish-journey.md)
 * **Angehalten**: Die Live-Journey wurde mithilfe der Schaltfläche **Anhalten** angehalten. [Weitere Informationen](../building-journeys/journey-pause.md)
-* **Gestoppt**: Die Journey wurde mit der Schaltfläche **Stoppen** gestoppt. Alle Kontakte verlassen die Journey sofort. [Weitere Informationen](../building-journeys/end-journey.md#stop-a-journey)
+* **Gestoppt**: Die Journey wurde mit der Schaltfläche **Stoppen** gestoppt. Alle Kontakte verlassen die Journey sofort. [Weitere Informationen](../building-journeys/end-journey.md#stop-journey)
 * **Geschlossen**: Die Journey wurde mithilfe der Schaltfläche **Für neue Eintritte schließen** geschlossen. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden. [Weitere Informationen](../building-journeys/end-journey.md)
 
 >[!NOTE]

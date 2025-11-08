@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 96%
@@ -59,4 +59,4 @@ Die Diagramme **[!UICONTROL Besuche nach Nachrichten]** / **[!UICONTROL Konversi
 Die Diagramme **[!UICONTROL Besuche nach Kanälen]** / **[!UICONTROL Konversionen nach Kanälen]** geben die Gesamtzahl der Besuche und Personen an, die in den letzten 24 Stunden je nach Kanal erfolgreich mit Ihrer Landingpage interagiert haben.
 +++
 
-Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](live-report.md#list-of-components-live).
+Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](live-report.md#live-report).

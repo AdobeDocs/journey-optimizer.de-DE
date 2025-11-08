@@ -4,7 +4,7 @@ description: Informationen zum Erstellen von Begrenzungsregeln für Ihre Journey
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 100%
@@ -92,7 +92,7 @@ Gehen Sie wie folgt vor, um eine Journey-Begrenzungsregel zu erstellen:
 
 1. Wiederholen Sie die obigen Schritte, um dem Regelsatz so viele Regeln wie nötig hinzuzufügen.
 
-1. Wenn die Begrenzungsregel für die Anwendung auf Journeys bereit ist, aktivieren Sie die Regel und den Regelsatz, wo er hinzugefügt wurde. [Informationen zum Aktivieren von Regelsätzen](../conflict-prioritization/rule-sets.md#create)
+1. Wenn die Begrenzungsregel für die Anwendung auf Journeys bereit ist, aktivieren Sie die Regel und den Regelsatz, wo er hinzugefügt wurde. [Informationen zum Aktivieren von Regelsätzen](../conflict-prioritization/rule-sets.md#Create)
 
 ## Anwenden von Begrenzungsregeln auf Journeys {#apply-capping}
 
@@ -119,4 +119,4 @@ Darüber hinaus können Sie auch den [Abfragedienst in Adobe Experience Platform
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447624?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

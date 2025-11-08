@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: Subdomain, PTR, Einträge, DNS, Domain, E-Mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
 
@@ -64,13 +64,13 @@ Wenn Sie zusätzliche Subdomains erstellen, müssen Sie einen oder mehrere PTR-E
 
 ### Vollständig delegierte Subdomains {#fully-delegated-subdomains}
 
-Um einen PTR-Eintrag mit einer Subdomain zu bearbeiten, die [vollständig an Adobe delegiert](delegate-subdomain.md#full-subdomain-delegation) ist, führen Sie die folgenden Schritte aus.
+Um einen PTR-Eintrag mit einer Subdomain zu bearbeiten, die [vollständig an Adobe delegiert](delegate-subdomain.md#set-up-subdomain) ist, führen Sie die folgenden Schritte aus.
 
 1. Klicken Sie in der Liste auf den Namen eines PTR-Eintrags, um diesen zu öffnen.
 
    ![](assets/ptr-record-select.png)
 
-1. Wählen Sie aus der Liste eine Subdomain aus, die [vollständig an Adobe delegiert](delegate-subdomain.md#full-subdomain-delegation) ist.
+1. Wählen Sie aus der Liste eine Subdomain aus, die [vollständig an Adobe delegiert](delegate-subdomain.md#set-up-subdomain) ist.
 
    ![](assets/ptr-record-subdomain.png)
 

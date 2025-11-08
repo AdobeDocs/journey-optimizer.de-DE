@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 100%
@@ -104,7 +104,7 @@ Beim Erstellen einer Inhaltsvorlage für Code-basierte Erlebnisse können Sie ei
 
 1. Klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]** entweder über das Symbol **[!UICONTROL Entscheidungsfindung anzeigen]** in der rechten Leiste des Bearbeitungsbildschirms oder im Abschnitt **[!UICONTROL Entscheidungsrichtlinie]** im linken Menü im Ausdruckseditor.
 
-   In [diesem Abschnitt](../experience-decisioning/create-decision.md#add-decision) erfahren Sie, wie Sie eine Entscheidungsrichtlinie erstellen.
+   In [diesem Abschnitt](../experience-decisioning/create-decision.md#create-decision) erfahren Sie, wie Sie eine Entscheidungsrichtlinie erstellen.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Richtlinie einfügen]**. Der Code, der der Entscheidungsrichtlinie entspricht, wird hinzugefügt.
 
@@ -246,4 +246,4 @@ Sie können die Formularfelder einfach von einer Code-basierten Erlebnis-Journey
 
 Erfahren Sie, wie Sie bearbeitbare Felder zu Inhaltsvorlagen für Code-basierte Erlebniskanäle hinzufügen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464000/?captions=ger&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

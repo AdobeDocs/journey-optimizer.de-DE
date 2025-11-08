@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 100%
 
@@ -123,9 +123,9 @@ Gehen Sie wie folgt vor, um den Inhalt Ihres Code-basierten Erlebnisses zu bearb
 
 1. Sie können bei Bedarf HTML- oder JSON-Ausdrucksfragmente hinzufügen. [Weitere Informationen](../personalization/use-expression-fragments.md)
 
-   Sie können auch einen Teil Ihres Code-Inhalts als Fragment speichern. [Weitere Informationen](../content-management/fragments.md#save-as-expression-fragment)
+   Sie können auch einen Teil Ihres Code-Inhalts als Fragment speichern. [Weitere Informationen](../content-management/fragments.md#visual-expression)
 
-1. Sie können die Entscheidungsfunktion in Code-basierten Erlebnissen verwenden.  Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Entscheidungsrichtlinie]** aus und klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**. [Weitere Informationen](../experience-decisioning/create-decision.md#add-decision)
+1. Sie können die Entscheidungsfunktion in Code-basierten Erlebnissen verwenden.  Wählen Sie in der linken Leiste das Symbol **[!UICONTROL Entscheidungsrichtlinie]** aus und klicken Sie auf **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**. [Weitere Informationen](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -135,7 +135,7 @@ Gehen Sie wie folgt vor, um den Inhalt Ihres Code-basierten Erlebnisses zu bearb
 
    <!--![](assets/code-based-campaign-show-decisioning.png)-->
 
-   Die detaillierten Schritte zum Erstellen einer Entscheidungsrichtlinie werden in [diesem Abschnitt](../experience-decisioning/create-decision.md#add-decision) beschrieben.
+   Die detaillierten Schritte zum Erstellen einer Entscheidungsrichtlinie werden in [diesem Abschnitt](../experience-decisioning/create-decision.md#create-decision) beschrieben.
 
 1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]**, um Ihre Änderungen zu bestätigen.
 
@@ -145,4 +145,4 @@ Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von 
 
 Im folgenden Video erfahren Sie, wie Sie eine Code-basierte Erlebniskampagne erstellen, ihre Eigenschaften konfigurieren, sie testen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449462/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 100%
@@ -124,7 +124,7 @@ Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine 
 
 1. Speichern Sie Ihre Änderungen und klicken Sie auf **[!UICONTROL Erstellen]**. Die neue Entscheidung wird unter **[!UICONTROL Entscheidungsrichtlinie]** hinzugefügt.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Richtlinie einfügen]**. Der Code, der der Entscheidungsrichtlinie entspricht, wird hinzugefügt. Fügen Sie dann alle gewünschten Attribute zum Code hinzu, einschließlich Profilattributen. [Weitere Informationen](create-decision.md#use-decision-policy)
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Richtlinie einfügen]**. Der Code, der der Entscheidungsrichtlinie entspricht, wird hinzugefügt. Fügen Sie dann alle gewünschten Attribute zum Code hinzu, einschließlich Profilattributen. [Weitere Informationen](create-decision.md#create-decision)
 
    ![](assets/exd-uc-experiment-insert-policy.png){width="90%"}
 

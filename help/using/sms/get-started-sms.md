@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 99%
@@ -23,7 +23,7 @@ Textnachrichten können in einer Journey oder in einer Kampagne erstellt und ver
 
 * In einer **Journey**. Erstellen Sie eine Journey, fügen Sie eine SMS-Aktivität hinzu und definieren Sie die Grundeinstellungen. Navigieren Sie dann zum rechten Bereich der SMS-Aktionen, um den Inhalt für die SMS-, MMS- oder RCS-Nachricht zu erstellen. [Erfahren Sie, wie Sie eine Journey erstellen](../building-journeys/journey-gs.md)
 
-* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie SMS als Aktion aus und definieren Sie die Grundeinstellungen. Bearbeiten Sie dann den Nachrichteninhalt, um die zu sendende SMS-, MMS- oder RCS-Nachricht zu definieren. [Erfahren Sie, wie Sie eine Kampagne erstellen](../campaigns/create-campaign.md#configure)
+* In einer **Kampagne**. Erstellen Sie eine Kampagne, wählen Sie SMS als Aktion aus und definieren Sie die Grundeinstellungen. Bearbeiten Sie dann den Nachrichteninhalt, um die zu sendende SMS-, MMS- oder RCS-Nachricht zu definieren. [Erfahren Sie, wie Sie eine Kampagne erstellen](../campaigns/campaign-action.md#action-campaign-action)
 
 >[!IMPORTANT]
 >
@@ -171,7 +171,7 @@ Erstellen, personalisieren und verwalten Sie den Inhalt von Textnachrichten:
 Stellen Sie sicher, dass Ihre Textnachrichten den Vorschriften und Datenschutzstandards entsprechen:
 
 * [Opt-out-Verwaltung](sms-opt-out.md)
-* [Datenschutz und Einverständniserklärung](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+* [Datenschutz und Einverständniserklärung](../privacy/opt-out.md#opt-out-decision-management)
 
 +++
 
@@ -201,7 +201,7 @@ Erfahren Sie, wie Sie SMS-Nachrichten konfigurieren, erstellen und in Ihre Journ
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3422692?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Entdecken Sie die umfassenden Mobile-Messaging-Funktionen, die Adobe Journey Opt
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3430371?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Finden Sie heraus, wie Sie in Adobe Journey Optimizer an Ihre Marke angepasste, 
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3464764?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

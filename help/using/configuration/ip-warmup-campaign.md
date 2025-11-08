@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -29,13 +29,13 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
 1. Erstellen Sie eine E-Mail-Kanal-[Konfiguration](channel-surfaces.md) für die Domain und die IPs erstellen, die für den Aufwärmplan identifiziert wurden.
 
-   Arbeiten Sie mit Ihren Fachleuten für Zustellbarkeit zusammen, um die Domain und die IPs zu identifizieren, die verwendet werden sollen. Informationen zu ihrer Auswahl in einer E-Mail-Konfiguration finden Sie in [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools).
+   Arbeiten Sie mit Ihren Fachleuten für Zustellbarkeit zusammen, um die Domain und die IPs zu identifizieren, die verwendet werden sollen. Informationen zu ihrer Auswahl in einer E-Mail-Konfiguration finden Sie in [diesem Abschnitt](../email/email-settings.md#ip-pools).
 
    >[!CAUTION]
    >
    >Bearbeiten Sie die Konfiguration des E-Mail-Kanals nicht, nachdem der IP-Aufwärmplan [gestartet](ip-warmup-execution.md) wurde.
 
-1. Erstellen Sie eine geplante Marketing-[Kampagne](../campaigns/create-campaign.md) und wählen Sie die Aktion [E-Mail](../email/create-email.md#create-email-journey-campaign).
+1. Erstellen Sie eine geplante Marketing-[Kampagne](../campaigns/create-campaign.md) und wählen Sie die Aktion [E-Mail](../email/create-email.md#create-email).
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
@@ -65,7 +65,7 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
    >[!NOTE]
    >
-   >[Geschäftsregeln](../conflict-prioritization/rule-sets.md#apply-frequency-rule) sollten nicht für IP-Aufwärmpläne verwendet werden. Die Anwendung dieser Regeln kann dazu führen, dass die gewünschte Anzahl von Zielgruppenprofilen für Kampagnen nicht erreicht wird.
+   >[Geschäftsregeln](../conflict-prioritization/rule-sets.md#rule-sets) sollten nicht für IP-Aufwärmpläne verwendet werden. Die Anwendung dieser Regeln kann dazu führen, dass die gewünschte Anzahl von Zielgruppenprofilen für Kampagnen nicht erreicht wird.
 
    Bei einer Live-Kampagne mit aktiviertem IP-Aufwärmplan ist die Schaltfläche **[!UICONTROL Löschen]** verfügbar, bis sie mit einem IP-Aufwärmplan verknüpft ist. Sobald die Kampagne in einem Plan verwendet wurde, kann sie nicht mehr gelöscht werden.
 

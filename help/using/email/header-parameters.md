@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Wenn beim Senden der E-Mail-Konfiguration ein Fehler auftritt, bedeutet dies, da
 
 >[!NOTE]
 >
->Wenn die Subdomain der eingegebenen Adresse eine Domain ist, die an Adobe [vollständig delegiert](../configuration/delegate-subdomain.md#full-subdomain-delegation) wurde, kontaktieren Sie die Adobe-Kundenbetreuung.
+>Wenn die Subdomain der eingegebenen Adresse eine Domain ist, die an Adobe [vollständig delegiert](../configuration/delegate-subdomain.md#set-up-subdomain) wurde, kontaktieren Sie die Adobe-Kundenbetreuung.
 
 ## Weiterleiten von E-Mails {#forward-email}
 

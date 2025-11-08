@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 97%
@@ -151,7 +151,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
    Weitere Informationen zum Anwenden von Regelsätzen sind in den folgenden Abschnitten verfügbar:
 
    * [Anwenden eines Regelsatzes auf eine Journey](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [Anwenden von Begrenzungsregeln auf Journey- und Kampagnenaktionen](../conflict-prioritization/channel-capping.md#apply)
+   * [Anwenden von Begrenzungsregeln auf Journey- und Kampagnenaktionen](../conflict-prioritization/channel-capping.md#apply-frequency-rule)
    * [Anwenden von Regeln für Ruhezeiten auf Journeys und Kampagnen](../conflict-prioritization/quiet-hours.md#apply)
 
 ## Zugriff auf und Verwaltung von Regelsätzen {#access-rule-sets}
@@ -180,4 +180,4 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Diese Funktion ist als eine öffentliche Beta-Version über die **[!DNL Adobe Ex
 
 ## Erste Schritte  {#gs-mobile-wf}
 
-Dieser neue Workflow automatisiert die Einrichtung der Datenerfassung, indem die Gesamtzahl der Klicks reduziert und die Mobile-Konfiguration für Journey Optimizer beschleunigt wird. Dieser Schnellstart-Workflow führt Sie durch vier einfache Schritte, um Ihre Mobile-Konfiguration [einzurichten](##setup-mobile-wf), zu [implementieren](#implement-mobile-wf), zu [validieren](#valid-mobile-wf) und zu [überprüfen](#review-mobile-wf).
+Dieser neue Workflow automatisiert die Einrichtung der Datenerfassung, indem die Gesamtzahl der Klicks reduziert und die Mobile-Konfiguration für Journey Optimizer beschleunigt wird. Dieser Schnellstart-Workflow führt Sie durch vier einfache Schritte, um Ihre Mobile-Konfiguration [einzurichten](#gs-mobile-wf), zu [implementieren](#implement-mobile-wf), zu [validieren](#valid-mobile-wf) und zu [überprüfen](#review-mobile-wf).
 
 Navigieren Sie vom Lösungsumschalter aus zum neuen Schnellstart-Workflow für das Mobile-Onboarding in **[!DNL Data Collection]**. Wählen Sie dann die **[!DNL Start Collecting Mobile Data]**-Karte auf der Startseite aus.
 
@@ -75,5 +75,5 @@ Die automatisierte Einrichtung ist abgeschlossen. Sie können jetzt Ihre mobile 
 * [Erste Schritte mit Push-Benachrichtigungen](../../rp_landing_pages/push-landing-page.md)
 * [Datenfluss und Komponenten von Push-Benachrichtigungen](push-gs.md)
 * [Kanal der Push-Benachrichtigung konfigurieren](push-configuration.md)
-* [Bericht zu Push-Benachrichtigungen](../reports/journey-global-report-cja-push.md#push-global)
+* [Bericht zu Push-Benachrichtigungen](../reports/journey-global-report-cja-push.md#track-link-url-push)
 * [Erstellen einer Push-Benachrichtigung](create-push.md)

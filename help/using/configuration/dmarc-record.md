@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 100%
@@ -102,7 +102,7 @@ Um sicherzustellen, dass Sie den DMARC-Eintrag für alle Subdomains, die Sie in 
 
 1. Wenn Sie eine Subdomain bearbeiten, die:
 
-   * [vollständig an Adobe delegiert](delegate-subdomain.md#full-subdomain-delegation) wurde, ist keine weitere Aktion erforderlich,
+   * [vollständig an Adobe delegiert](delegate-subdomain.md#set-up-subdomain) wurde, ist keine weitere Aktion erforderlich,
 
    * mit [CNAME](delegate-subdomain.md#cname-subdomain-setup) eingerichtet wurde, müssen Sie den DNS-Eintrag für DMARC in Ihre Hosting-Lösung kopieren, um die entsprechenden DNS-Einträge zu generieren.
 
