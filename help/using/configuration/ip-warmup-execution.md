@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
 workflow-type: tm+mt
-source-wordcount: '2678'
-ht-degree: 98%
+source-wordcount: '2723'
+ht-degree: 96%
 
 ---
 
@@ -45,6 +45,8 @@ Jede Phase besteht aus mehreren Ausführungen, denen Sie eine einzelne Kampagne 
 At phase level, system ensures that previously targeted + new profiles are picked up AND at iteration level, system ensures that each run is having unique profiles and the count matches what is stated in plan-->
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
+
+Um die Phasen Ihres IP-Aufwärmplans zu definieren, müssen Sie für jede Phase eine Kampagne auswählen, Ausschlüsse für Domains und Audiences konfigurieren und das Profil-Targeting verwalten. Jede Phase kann mehrere Ausführungen enthalten, die im nächsten Abschnitt konfiguriert werden. Führen Sie folgende Schritte aus:
 
 1. Wählen Sie die Kampagne aus, die Sie mit der ersten Phase des IP-Aufwärmplans verbinden möchten.
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 97%
+source-wordcount: '1055'
+ht-degree: 96%
 
 ---
 
@@ -49,9 +49,9 @@ Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Sei
 
 >[!TAB Hinzufügen einer E-Mail zu einer Kampagne]
 
-1. Erstellen Sie eine neue geplante oder über eine API ausgelöste Kampagne und wählen Sie **[!UICONTROL E-Mail]** als Aktion.
+1. [Erstellen Sie eine Kampagne](../campaigns/create-campaign.md) und wählen Sie **[!UICONTROL E-Mail]** als Aktion aus.
 
-1. Führen Sie die Schritte zur Erstellung einer E-Mail-Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/campaign-schedule.md#action-campaign-schedule).
+1. Führen Sie die Schritte zur Erstellung einer E-Mail-Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/campaign-schedule.md).
 
    ![](assets/email_campaign_steps.png)
 
