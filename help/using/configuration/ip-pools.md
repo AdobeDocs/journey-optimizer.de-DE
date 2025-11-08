@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, ob der IP-Pool
 
 >[!NOTE]
 >
->Wenn Sie beim [Erstellen einer Kanalkonfiguration](channel-surfaces.md#create-channel-surface) einen IP-Pool auswählen, der sich in Bearbeitung befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der für diese Konfiguration ausgewählten Subdomain verknüpft wurde, können Sie nicht mit der Erstellung der Konfiguration fortfahren. [Weitere Informationen](channel-surfaces.md#subdomains-and-ip-pools)
+>Wenn Sie beim [Erstellen einer Kanalkonfiguration](channel-surfaces.md#create-channel-surface) einen IP-Pool auswählen, der sich in Bearbeitung befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der für diese Konfiguration ausgewählten Subdomain verknüpft wurde, können Sie nicht mit der Erstellung der Konfiguration fortfahren. [Weitere Informationen](channel-surfaces.md#create-channel-surface)
 
 Um den Status der Aktualisierung des IP-Pools zu überprüfen, klicken Sie auf den Button **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Letzte Updates]** aus.
 
