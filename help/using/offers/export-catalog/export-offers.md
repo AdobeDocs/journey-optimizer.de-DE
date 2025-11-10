@@ -7,7 +7,8 @@ topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 5dab96aef4471b24527d1287a9d36d48521c4596
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '1983'
 ht-degree: 93%
@@ -180,7 +181,7 @@ Merkmale werden als Werte im Inhalt verwendet, der diese Entscheidungsoption dar
   **Feld:** linkURL
   **Beschreibung:** Eine optionale, eindeutige URL für Benutzerinteraktionen. Diese URL wird verwendet, um den Endbenutzer auf einen User Agent zu verweisen, und kann verfolgt werden.
   **Typ:** Zeichenfolge
-  **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
+  **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
 
 +++_experience > decisioning > contents > Placement
 

@@ -7,7 +7,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 100%
@@ -172,4 +173,4 @@ Auf diese Weise können Sie auf detaillierte Informationen zu diesem Angebot zug
 
 ## Tutorial-Video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341349?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

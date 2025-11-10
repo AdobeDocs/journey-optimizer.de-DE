@@ -7,7 +7,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '2549'
 ht-degree: 100%
@@ -405,6 +406,6 @@ Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugrei
 
 Erfahren Sie, wie Sie im Entscheidungs-Management Angebotsaktivitäten erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411813?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

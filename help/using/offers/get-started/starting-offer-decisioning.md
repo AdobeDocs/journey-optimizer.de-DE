@@ -7,7 +7,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d3766e14edc5dcbde4d984f24a16800cfb84e76c
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
@@ -115,12 +116,12 @@ Unten finden Sie eine Liste der wichtigsten Konzepte bei der Verwendung des Ents
 
 Das folgende Video bietet eine Einführung in die wichtigsten Funktionen, Architekturmerkmale und Anwendungsfälle des Entscheidungs-Managements:
 
->[!VIDEO](https://video.tv.adobe.com/v/340413?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Angebote definieren und verwalten {#use-offer-decisioning}
 
 Das folgende Video zeigt, wie Sie mit dem Entscheidungs-Management Angebote definieren und verwalten sowie Echtzeit-Kundendaten nutzen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/340351?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 
