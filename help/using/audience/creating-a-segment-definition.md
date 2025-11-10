@@ -140,4 +140,4 @@ Es können bis zu 20 Zielgruppen gleichzeitig ausgewertet werden. Nicht auswäh
 
 Erfahren Sie, wie Journey Optimizer Regeln zum Generieren von Zielgruppen verwendet und wie Attribute, Ereignisse und vorhandene Zielgruppen zum Erstellen einer Zielgruppe verwendet werden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430326?captions=ger&quality=12)
