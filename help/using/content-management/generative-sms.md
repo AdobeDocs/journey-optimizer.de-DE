@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 89%
 
 ---
 
@@ -38,7 +38,7 @@ Diese Ressource bietet Ihnen aufschlussreiche Empfehlungen zur Feinabstimmung Ih
 
 1. Rufen Sie das Menü **[!UICONTROL KI-Assistenten anzeigen]** auf.
 
-   ![](assets/sms-genai-1.png){zoomable="yes"}
+   ![Der SMS-Nachrichten-Editor mit dem geöffneten Bedienfeld „KI-Assistent“ zeigt die Markenauswahl und das Eingabeaufforderungsfeld an](assets/sms-genai-1.png){zoomable="yes"}
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die KI-generierten Inhalte Ihren Markenspezifikationen entsprechen. [Erfahren Sie mehr](brands.md) über Marken.
 
@@ -48,7 +48,7 @@ Diese Ressource bietet Ihnen aufschlussreiche Empfehlungen zur Feinabstimmung Ih
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![](assets/sms-genai-2.png){zoomable="yes"}
+   ![KI-Assistent für SMS mit Markenauswahl, Eingabeaufforderungsfeld und Eingabeaufforderungsbibliothek-Zugriffsschaltfläche](assets/sms-genai-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
@@ -57,7 +57,7 @@ Diese Ressource bietet Ihnen aufschlussreiche Empfehlungen zur Feinabstimmung Ih
    * **[!UICONTROL Ton]**: Stellen Sie sicher, dass der Text für Ihre Zielgruppe und Ihren Zweck geeignet ist.
    * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 
-   ![](assets/sms-genai-3.png){zoomable="yes"}
+   ![Bedienfeld Texteinstellungen für SMS mit Steuerung der Kommunikationsstrategie, der Sprachen, des Tons und der Länge](assets/sms-genai-3.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
@@ -73,7 +73,7 @@ Diese Ressource bietet Ihnen aufschlussreiche Empfehlungen zur Feinabstimmung Ih
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
-   ![](assets/sms-genai-5.png){zoomable="yes"}
+   ![Generierte SMS-Varianten mit Indikator- und Vorschauoptionen für die Markenausrichtung in Prozent](assets/sms-genai-5.png){zoomable="yes"}
 
 1. Navigieren Sie zur Option **[!UICONTROL Verfeinern]** im Fenster **[!UICONTROL Vorschau]**, um auf weitere Anpassungsfunktionen zuzugreifen und Ihre Variante nach Ihren Vorlieben zu gestalten:
 
@@ -85,7 +85,7 @@ Diese Ressource bietet Ihnen aufschlussreiche Empfehlungen zur Feinabstimmung Ih
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![](assets/sms-genai-4.png){zoomable="yes"}
+   ![Optionen für SMS mit Umformulierung verfeinern, einfachere Sprache mit Ton- und Kommunikationsstrategie-Dropdown-Listen verwenden](assets/sms-genai-4.png){zoomable="yes"}
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 
