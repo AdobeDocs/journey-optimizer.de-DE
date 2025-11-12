@@ -49,7 +49,7 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihre Adobe Experience Pla
 
 1. Wählen Sie im **[!UICONTROL Aktionen]** die Option **[!UICONTROL Live-Aktivität]** und wählen oder erstellen Sie eine neue Konfiguration.
 
-   Weitere Informationen zur Konfiguration von Live-Aktivitäten finden Sie [ (dieser Seite](mobile-live-configuration.md).
+   Weitere Informationen zur Konfiguration von Live-Aktivitäten finden Sie [&#x200B; (dieser Seite](mobile-live-configuration.md).
 
    ![](assets/create-live-2.png)
 
@@ -65,7 +65,7 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihre Adobe Experience Pla
 
    Stellen Sie sicher, dass Sie auch die **[!UICONTROL Kampagnen-ID]**-Kennungen kopieren, die in Ihre Payload aufgenommen werden sollen.
 
-   ➡️ Informationen zu Authentifizierungsanforderungen, einschließlich OAuth[Token und API-Schlüsseln, finden Sie in der Dokumentation ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) API-ausgelöste Kampagnen .
+   ➡️ Informationen zu Authentifizierungsanforderungen, einschließlich OAuth[Token und API-Schlüsseln, finden Sie in der Dokumentation &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) API-ausgelöste Kampagnen .
 
    ![](assets/create-live-3.png)
 
@@ -74,46 +74,46 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihre Adobe Experience Pla
    Beachten Sie, dass die meisten Felder aus dem folgenden Payload-Beispiel obligatorisch sind. Nur `requestId`, `dismissal-date` und `alert` sind optional.
 
        „json
-       {
+       &lbrace;
        „requestId“: „your-request-id“,
        „campaignId“: „your-campaign-id“,
-       „recipients“: [
-       {
+       „recipients“: &lbrack;
+       &lbrace;
        „type“: „aep“,
        „userId“: &quot;testemail@gmail.com&quot;,
        „namespace“: „email“,
-       „context“: {
-       „requestPayload“: {
-       „aps“: {
+       „context“: &lbrace;
+       „requestPayload“: &lbrace;
+       „aps“: &lbrace;
        „content-available“: 1,
        „timestamp“: 1756984054,              // Current Epoch Time
        „Kündigungsdatum“: 1756984084,         // Optional - automatisches Entfernen, wenn event=„end“
        „event“: „update“,                    // start | Aktualisieren | Ende
        
        // Fields from FoodDeliveryLiveActivityAttributes
-       „content-state“: {
+       „content-state“: &lbrace;
        „orderStatus“: „Zugestellt“
-       },
+       &rbrace;,
        
        „attributes-type“: „FoodDeliveryLiveActivityAttributes“,
-       „attributes“: {
+       „attributes“: &lbrace;
        „restaurantName“: „Pizza“,
-       „liveActivityData“: {
+       „liveActivityData“: &lbrace;
        „liveActivityID“: „orderId1“       // Customer Reference ID
-       }
-       },
+       &rbrace;
+       &rbrace;,
        
-       „alert“: {
+       „alert“: &lbrace;
        „title“: „Bestellung zugestellt!“,
        „body“: „Deine Pizza ist da.“
-       }
-       }
-       }
-       }
-       }
-       ]
-       }
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrace;
+       &rbrack;
+       &rbrace;
        &quot;
    +++
 
-Nachdem Sie Ihre Live-Aktivität entworfen haben, können Sie mit integrierten Berichten [ Wirkung Ihrer Live-Aktivität ](../reports/campaign-global-report-cja-activity.md).
+Nachdem Sie Ihre Live-Aktivität entworfen haben, können Sie mit integrierten Berichten [&#x200B; Wirkung Ihrer Live-Aktivität &#x200B;](../reports/campaign-global-report-cja-activity.md).

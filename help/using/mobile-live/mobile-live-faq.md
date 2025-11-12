@@ -203,7 +203,7 @@ Nein. Jede API-Anfrage sollte über eine eindeutige `requestId` verfügen, um di
 
 +++Welche Authentifizierung ist für die Headless-API erforderlich?
 
-Authentifizierungspflichten, einschließlich OAuth[Token und API-Schlüsseln, finden Sie ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) der Dokumentation zu API-ausgelösten Kampagnen .
+Authentifizierungspflichten, einschließlich OAuth[Token und API-Schlüsseln, finden Sie &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) der Dokumentation zu API-ausgelösten Kampagnen .
 
 +++
 
