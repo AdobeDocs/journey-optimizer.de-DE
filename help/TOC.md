@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
 workflow-type: tm+mt
-source-wordcount: '2946'
-ht-degree: 98%
+source-wordcount: '2977'
+ht-degree: 97%
 
 ---
 
@@ -385,6 +385,13 @@ ht-degree: 98%
       + [Konfigurieren eines LINE-Kanals in Journey Optimizer](using/line/line-configuration.md)
       + [Erstellen einer LINE-Nachricht](using/line/create-line.md)
       + [Überprüfen und Senden Ihrer LINE-Nachrichten](using/line/send-line.md)
+   + Live-Aktivität {#live-activity}
+      + [Erste Schritte mit Live-Aktivitäten](using/mobile-live/get-started-mobile-live.md)
+      + [Erstellen einer Live-Aktivität](using/mobile-live/create-mobile-live.md)
+      + [Häufig gestellte Fragen](using/mobile-live/mobile-live-faq.md)
+      + Konfigurieren des Inhaltskartenkanals {#configure}
+         + [Konfigurieren von Live-Aktivitäten in Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
+         + [Konfigurieren der SDK-Integration für Live-Aktivitäten](using/mobile-live/mobile-live-configuration-sdk.md)
 + Content-Management {#content-management}
    + [Content-Management](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalisierung {#personalization}
@@ -542,6 +549,7 @@ ht-degree: 98%
          + [E-Mail-Kampagnenbericht](using/reports/campaign-global-report-cja-email.md)
          + [Experimente – Kampagnenbericht](using/reports/campaign-global-report-cja-experimentation.md)
          + [In-App-Kampagnenbericht](using/reports/campaign-global-report-cja-inapp.md)
+         + [Live-Kampagnenbericht](using/reports/campaign-global-report-cja-activity.md)
          + [Push-Benachrichtungs-Kampagnenbericht](using/reports/campaign-global-report-cja-push.md)
          + [SMS-Kampagnenbericht](using/reports/campaign-global-report-cja-sms.md)
          + [Web-Kampagnenbericht](using/reports/campaign-global-report-cja-web.md)
