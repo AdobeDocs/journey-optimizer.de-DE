@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ Die wichtigsten Schritte zum Erstellen und Verwenden von KI-Modellen sind:
 
 Erfahren Sie, wie Sie ein KI-Modell für Angebotsentscheidung erstellen und wie es auf eine Entscheidung angewendet wird.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445653?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

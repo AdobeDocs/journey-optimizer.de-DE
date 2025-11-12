@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2549'
 ht-degree: 100%
 
@@ -408,6 +408,6 @@ Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugrei
 
 Erfahren Sie, wie Sie im Entscheidungs-Management Angebotsaktivitäten erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411813?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

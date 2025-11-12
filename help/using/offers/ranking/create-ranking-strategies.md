@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -96,4 +96,4 @@ Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu könn
 
 Erfahren Sie, wie Sie ein personalisiertes Optimierungsmodell erstellen und es auf eine Entscheidung anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445960?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

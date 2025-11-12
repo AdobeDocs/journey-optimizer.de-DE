@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
 ht-degree: 100%
 
@@ -175,4 +175,4 @@ Auf diese Weise können Sie auf detaillierte Informationen zu diesem Angebot zug
 
 ## Tutorial-Video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341349?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
