@@ -48,7 +48,7 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihre Adobe Experience Pla
 
 1. Wählen Sie im **[!UICONTROL Aktionen]** die Option **[!UICONTROL Live-Aktivität]** und wählen oder erstellen Sie eine neue Konfiguration.
 
-   Weitere Informationen zur Konfiguration von Live-Aktivitäten finden Sie [ (dieser Seite](mobile-live-configuration.md).
+   Weitere Informationen zur Konfiguration von Live-Aktivitäten finden Sie [&#x200B; (dieser Seite](mobile-live-configuration.md).
 
    ![](assets/create-live-2.png)
 
@@ -64,7 +64,7 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihre Adobe Experience Pla
 
    Stellen Sie sicher, dass Sie auch die **[!UICONTROL Kampagnen-ID]**-Kennungen kopieren, die in Ihre Payload aufgenommen werden sollen.
 
-   ➡️ Informationen zu Authentifizierungsanforderungen, einschließlich OAuth[Token und API-Schlüsseln, finden Sie in der Dokumentation ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) API-ausgelöste Kampagnen .
+   ➡️ Informationen zu Authentifizierungsanforderungen, einschließlich OAuth[Token und API-Schlüsseln, finden Sie in der Dokumentation &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) API-ausgelöste Kampagnen .
 
    ![](assets/create-live-3.png)
 
@@ -116,4 +116,4 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihre Adobe Experience Pla
 
    +++
 
-Nachdem Sie Ihre Live-Aktivität entworfen haben, können Sie mit integrierten Berichten [ Wirkung Ihrer Live-Aktivität ](../reports/campaign-global-report-cja-activity.md).
+Nachdem Sie Ihre Live-Aktivität entworfen haben, können Sie mit integrierten Berichten [&#x200B; Wirkung Ihrer Live-Aktivität &#x200B;](../reports/campaign-global-report-cja-activity.md).
