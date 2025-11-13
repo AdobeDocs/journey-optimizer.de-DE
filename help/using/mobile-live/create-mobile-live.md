@@ -8,10 +8,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 20%
+source-wordcount: '317'
+ht-degree: 23%
 
 ---
 
@@ -42,14 +42,13 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihre Adobe Experience Pla
    >
    > Beachten Sie, dass für **API-ausgelöste Transaktion** die Option **[!UICONTROL Hoher Durchsatz]** nicht aktiviert werden sollte.
 
-
    ![](assets/create-live-1.png)
 
 1. Bearbeiten Sie im Bereich **[!UICONTROL Eigenschaften]** den **[!UICONTROL Titel]** und die **[!UICONTROL Beschreibung]** Ihrer Kampagne.
 
 1. Wählen Sie im **[!UICONTROL Aktionen]** die Option **[!UICONTROL Live-Aktivität]** und wählen oder erstellen Sie eine neue Konfiguration.
 
-   Weitere Informationen zur Konfiguration von Live-Aktivitäten finden Sie [&#x200B; (dieser Seite](mobile-live-configuration.md).
+   Weitere Informationen zur Konfiguration von Live-Aktivitäten finden Sie [ (dieser Seite](mobile-live-configuration.md).
 
    ![](assets/create-live-2.png)
 
@@ -65,7 +64,7 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihre Adobe Experience Pla
 
    Stellen Sie sicher, dass Sie auch die **[!UICONTROL Kampagnen-ID]**-Kennungen kopieren, die in Ihre Payload aufgenommen werden sollen.
 
-   ➡️ Informationen zu Authentifizierungsanforderungen, einschließlich OAuth[Token und API-Schlüsseln, finden Sie in der Dokumentation &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) API-ausgelöste Kampagnen .
+   ➡️ Informationen zu Authentifizierungsanforderungen, einschließlich OAuth[Token und API-Schlüsseln, finden Sie in der Dokumentation ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) API-ausgelöste Kampagnen .
 
    ![](assets/create-live-3.png)
 
@@ -73,47 +72,48 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihre Adobe Experience Pla
 
    Beachten Sie, dass die meisten Felder aus dem folgenden Payload-Beispiel obligatorisch sind. Nur `requestId`, `dismissal-date` und `alert` sind optional.
 
-       „json
-       &lbrace;
-       „requestId“: „your-request-id“,
-       „campaignId“: „your-campaign-id“,
-       „recipients“: &lbrack;
-       &lbrace;
-       „type“: „aep“,
-       „userId“: &quot;testemail@gmail.com&quot;,
-       „namespace“: „email“,
-       „context“: &lbrace;
-       „requestPayload“: &lbrace;
-       „aps“: &lbrace;
-       „content-available“: 1,
-       „timestamp“: 1756984054,              // Current Epoch Time
-       „Kündigungsdatum“: 1756984084,         // Optional - automatisches Entfernen, wenn event=„end“
-       „event“: „update“,                    // start | Aktualisieren | Ende
-       
+   ```json
+   {
+       "requestId": "your-request-id",
+       "campaignId": "your-campaign-id",
+       "recipients": [
+   {
+       "type": "aep",
+       "userId": "testemail@gmail.com",
+       "namespace": "email",
+       "context": {
+        "requestPayload": {
+       "aps": {
+       "content-available": 1,
+       "timestamp": 1756984054,              // current epoch time
+       "dismissal-date": 1756984084,         // optional – auto remove when event="end"
+       "event": "update",                    // start | update | end
+   
        // Fields from FoodDeliveryLiveActivityAttributes
-       „content-state“: &lbrace;
-       „orderStatus“: „Zugestellt“
-       &rbrace;,
-       
-       „attributes-type“: „FoodDeliveryLiveActivityAttributes“,
-       „attributes“: &lbrace;
-       „restaurantName“: „Pizza“,
-       „liveActivityData“: &lbrace;
-       „liveActivityID“: „orderId1“       // Customer Reference ID
-       &rbrace;
-       &rbrace;,
-       
-       „alert“: &lbrace;
-       „title“: „Bestellung zugestellt!“,
-       „body“: „Deine Pizza ist da.“
-       &rbrace;
-       &rbrace;
-       &rbrace;
-       &rbrace;
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       &quot;
+       "content-state": {
+         "orderStatus": "Delivered"
+       },
+   
+       "attributes-type": "FoodDeliveryLiveActivityAttributes",
+       "attributes": {
+         "restaurantName": "Pizza",
+         "liveActivityData": {
+           "liveActivityID": "orderId1"       // customer reference ID
+         }
+       },
+   
+       "alert": {
+         "title": "Order Delivered!",
+         "body": "Your pizza has arrived."
+       }
+     }
+   }
+   }
+   }
+   ]
+   }
+   ```
+
    +++
 
-Nachdem Sie Ihre Live-Aktivität entworfen haben, können Sie mit integrierten Berichten [&#x200B; Wirkung Ihrer Live-Aktivität &#x200B;](../reports/campaign-global-report-cja-activity.md).
+Nachdem Sie Ihre Live-Aktivität entworfen haben, können Sie mit integrierten Berichten [ Wirkung Ihrer Live-Aktivität ](../reports/campaign-global-report-cja-activity.md).
