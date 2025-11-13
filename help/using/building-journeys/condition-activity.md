@@ -42,7 +42,7 @@ Sie können auch eine Zielgruppe in einer Journey-Bedingung verwenden. [Weitere 
 
 >[!NOTE]
 >
->Die Bedingungsauswertung schlägt für Profile fehl, die mehr als zwei geräteübergreifende Identitäten im [Profilspeicher“ ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"}.
+>Die Bedingungsauswertung schlägt für Profile fehl, die mehr als zwei geräteübergreifende Identitäten im [Profilspeicher“ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"}.
 
 ## Hinzufügen und Verwalten von Bedingungspfaden {#about_condition}
 

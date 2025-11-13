@@ -55,7 +55,7 @@ Weitere Informationen zu technischen Feldern, die mit einer Journey für ein bes
 
 Der Eintrittsmodus des Profils wird auf der Journey-Ebene im rechten Konfigurationsbereich definiert. Die Einstellungen werden nachfolgend beschrieben.
 
-Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Weitere Informationen zur Verwaltung des Profileintritts und des erneuten Eintritts finden Sie auf [dieser Seite](entry-management.md). Weitere Informationen zu Journey-Verarbeitungsraten und zum Profilfluss durch Journey finden Sie [ diesem Abschnitt](entry-management.md#journey-processing-rate).
+Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Weitere Informationen zur Verwaltung des Profileintritts und des erneuten Eintritts finden Sie auf [dieser Seite](entry-management.md). Weitere Informationen zu Journey-Verarbeitungsraten und zum Profilfluss durch Journey finden Sie [&#x200B; diesem Abschnitt](entry-management.md#journey-processing-rate).
 
 ### Erneuten Eintritt erlauben  {#allow-reentrance}
 
@@ -285,7 +285,7 @@ Um ein Ausstiegskriterium zu **erstellen**, gehen Sie folgendermaßen vor:
 
 1. Öffnen Sie Ihre Journey.
 
-1. Klicken Sie auf ![ Symbol &quot;](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) anzeigen **[!UICONTROL Beendigungskriterien anzeigen]** im oberen rechten Bereich der Journey-Arbeitsfläche.
+1. Klicken Sie auf ![&#x200B; Symbol &quot;](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) anzeigen **[!UICONTROL Beendigungskriterien anzeigen]** im oberen rechten Bereich der Journey-Arbeitsfläche.
 
 1. Wählen Sie **[!UICONTROL Ausstiegskriterien hinzufügen]** aus.
 

@@ -65,7 +65,7 @@ Darstellung von Journeys:
 
 So navigieren Sie in Ihrem Journey-Kalender:
 
-1. Um auf die Kalenderansicht zuzugreifen, öffnen Sie die Journey-Liste und klicken Sie auf das ![Kalendersymbol zum Wechseln zur ](assets/do-not-localize/timeline-icon.svg)).
+1. Um auf die Kalenderansicht zuzugreifen, öffnen Sie die Journey-Liste und klicken Sie auf das ![Kalendersymbol zum Wechseln zur &#x200B;](assets/do-not-localize/timeline-icon.svg)).
 
 1. Verwenden Sie die Pfeiltasten oder die Datumsauswahl über dem Kalender, um zwischen Wochen zu wechseln.
 

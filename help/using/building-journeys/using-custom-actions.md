@@ -30,7 +30,7 @@ Weitere Informationen zu benutzerdefinierten Aktionen finden Sie in [diesem Absc
 
 Weitere Informationen zum Erstellen und Konfigurieren einer benutzerdefinierten Aktion finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
-Auf dieser Seite erfahren Sie, wie Sie API-Aufrufantworten aus benutzerdefinierten Aktionen zur Personalisierung [](../action/action-response.md).
+Auf dieser Seite erfahren Sie, wie Sie API-Aufrufantworten aus benutzerdefinierten Aktionen zur Personalisierung [&#128279;](../action/action-response.md).
 
 ## Einverständnis und Data Governance {#privacy}
 

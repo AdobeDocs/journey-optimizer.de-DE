@@ -58,7 +58,7 @@ Der **Konfigurationsbereich für die Aktivität** wird angezeigt, wenn Sie auf e
 
 Standardmäßig sind schreibgeschützte Felder ausgeblendet. Um sie anzuzeigen, klicken Sie auf das Symbol **Schreibgeschützte Felder anzeigen** oben links im Konfigurationsbereich für die Aktivitäten. Diese Einstellung gilt für alle Aktivitäten in allen Journeys.
 
-![Konfigurationsbereich für Aktivitäten mit der Option Schreibgeschützte Felder anzeigen ](assets/journey59bis.png)
+![Konfigurationsbereich für Aktivitäten mit der Option Schreibgeschützte Felder anzeigen &#x200B;](assets/journey59bis.png)
 
 Abhängig vom Status der Journey können Sie mithilfe der verfügbaren Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Testmethode]**, **[!UICONTROL Zugriff verwalten]**, **[!UICONTROL Warnhinweise]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Schaltfläche für das Testmodusprotokoll wird angezeigt, wenn der Testmodus aktiviert ist.
 
