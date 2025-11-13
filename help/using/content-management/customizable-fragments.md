@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
+source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1472'
 ht-degree: 99%
 
 ---
@@ -143,8 +143,8 @@ Gehen Sie dazu wie folgt vor:
 ## Hinzufügen von Rich Text zu einem anpassbaren Fragment {#rich-text}
 
 Rich Text wie Zeilenumbrüche, fette oder kursive Formatierung usw. kann mithilfe von HTML-Komponenten zu einem bearbeitbaren Fragment hinzugefügt werden. Gehen Sie dazu wie folgt vor.
-
-➡️ [In diesem Video erfahren Sie, wie Sie einem bearbeitbaren Fragment Rich Text hinzufügen und diesen verwenden](#video)
+<!--
+➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
 
 ### Erstellen eines Fragments mit Rich Text {#add-rich-text}
 
@@ -190,8 +190,10 @@ Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzende jetzt d
 
    ![](assets/fragment-rich-editable-fields-update-styling.png)
 
-## Anleitungsvideo {#video}
+<!--
+## How-to video {#video}
 
-In diesem Video erfahren Sie, wie Sie HTML-Komponenten in einem Fragment bearbeitbar machen, sodass sowohl Inhalt als auch Stil dynamisch aktualisiert werden können.
+This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464377/?captions=ger&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+-->
