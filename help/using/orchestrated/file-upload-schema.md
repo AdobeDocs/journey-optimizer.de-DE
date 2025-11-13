@@ -2,34 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Konfigurationsschritte
-description: Erfahren Sie, wie Sie in Adobe Experience Platform durch Hochladen einer DDL-Datei ein modellbasiertes Schema erstellen
+description: Erfahren Sie, wie Sie in Adobe Experience Platform ein relationales Schema erstellen, indem Sie eine DDL-Datei hochladen.
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 80c136409821388a4baea9286b298220c91bba7a
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
 
-# Erstellen modellbasierter Schemata mithilfe einer DDL-Datei {#file-upload-schema}
+# Erstellen relationaler Schemata mithilfe einer DDL-Datei {#file-upload-schema}
 
-Definieren Sie das modellbasierte Datenmodell, das für orchestrierte Kampagnen erforderlich ist, indem Sie Schemata wie **Zugehörigkeiten zu Treueprogrammen**, **Treuetransaktionen** und **Treueprämien** erstellen. Jedes Schema muss einen Primärschlüssel, ein Versionierungsattribut und geeignete Beziehungen zu Referenzentitäten wie **Empfängerinnen und Empfänger** oder **Marken** umfassen.
+Definieren Sie das relationale Datenmodell, das für orchestrierte Kampagnen erforderlich ist, indem Sie Schemata wie **Zugehörigkeiten zu Treueprogrammen**, **Treuetransaktionen** und **Treueprämien** erstellen. Jedes Schema muss einen Primärschlüssel, ein Versionierungsattribut und geeignete Beziehungen zu Referenzentitäten wie **Empfängerinnen und Empfänger** oder **Marken** umfassen.
 
 Schemata können über die Benutzeroberfläche manuell erstellt oder mithilfe einer DDL-Datei massenweise importiert werden.
 
-In diesem Abschnitt wird Schritt für Schritt erklärt, wie sich ein modellbasiertes Schema in Adobe Experience Platform durch Hochladen einer DDL-Datei (Data Definition Language) erstellen lässt. Durch die Verwendung einer DDL-Datei können Sie die Struktur Ihres Datenmodells vorab definieren, einschließlich Tabellen, Attributen, Schlüsseln und Beziehungen.
+In diesem Abschnitt wird Schritt für Schritt erklärt, wie ein relationales Schema in Adobe Experience Platform durch Hochladen einer DDL-Datei (Data Definition Language) erstellt wird. Durch die Verwendung einer DDL-Datei können Sie die Struktur Ihres Datenmodells vorab definieren, einschließlich Tabellen, Attributen, Schlüsseln und Beziehungen.
 
-1. [Laden Sie eine DDL-Datei hoch](#ddl-upload), um modellbasierte Schemata zu erstellen und ihre Struktur zu definieren.
+1. [Laden Sie eine DDL-Datei hoch](#ddl-upload), um relationale Schemata zu erstellen und ihre Struktur zu definieren.
 
 1. [Definieren Sie Beziehungen](#relationships) zwischen Tabellen in Ihrem Datenmodell.
 
-1. [Verknüpfen Sie Schemata](#link-schema), um Ihre modellbasierten Daten mit vorhandenen Profilentitäten wie Empfängerinnen und Empfängern oder Marken zu verbinden.
+1. [Verknüpfen Sie Schemata](#link-schema), um Ihre relationalen Daten mit vorhandenen Profilentitäten wie Empfängerinnen und Empfängern oder Marken zu verbinden.
 
 1. [Nehmen Sie Daten](ingest-data.md) aus unterstützten Quellen in Ihren Datensatz auf.
 
-➡️ [Weitere Informationen zu modellbasierten Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational)
+➡️ [Weitere Informationen zu relationalen Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Hochladen einer DDL-Datei{#ddl-upload}
 
@@ -37,7 +37,7 @@ Durch die Verwendung einer DDL-Datei können Sie die Struktur Ihres Datenmodells
 
 Uploads von Excel-basierten Schemadateien werden unterstützt. Laden Sie die [bereitgestellte Vorlage](assets/template.zip) herunter, um Ihre Schemadefinitionen bequem vorzubereiten.
 
-+++Beim Erstellen modellbasierter Schemata in Adobe Experience Platform werden die folgenden Funktionen unterstützt:
++++Beim Erstellen relationaler Schemata in Adobe Experience Platform werden die folgenden Funktionen unterstützt
 
 * **ENUM**\
   ENUM-Felder werden sowohl bei der DDL-basierten als auch bei der manuellen Schemaerstellung unterstützt, sodass Sie Attribute mit einem festen Satz zulässiger Werte definieren können.
@@ -66,7 +66,7 @@ Siehe folgendes Beispiel:
 
 1. Klicken Sie auf **Schema erstellen**.
 
-1. Wählen Sie **[!UICONTROL Modellbasiert]** als **Schematyp** aus.
+1. Wählen Sie **[!UICONTROL Relational]** als **Schematyp** aus.
 
    ![](assets/admin_schema_1.png)
 

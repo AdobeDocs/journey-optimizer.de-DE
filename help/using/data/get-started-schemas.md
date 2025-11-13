@@ -8,8 +8,8 @@ role: Developer, Admin
 level: Experienced
 keywords: Schemata, Plattform, Daten, Struktur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] nutzt **Adobe Experience Platform-Schemata** zur konsistenten und wiederverwendbaren Beschreibung der Struktur von Daten. Ein Schema bietet eine abstrakte Definition eines realen Objekts (z. B. einer Person) und legt dar, welche Daten in den einzelnen Instanzen dieses Objekts enthalten sein sollen (z. B. Vorname, Nachname, Geburtsdatum usw.). Wenn Daten in Experience Platform aufgenommen werden, werden sie nach einem **XDM-Schema** strukturiert.
 
-## Standard- und modellbasierte Schemata
+## Standard- und relationale Schemata
 
 In Adobe Experience Platform gibt es zwei Arten von Schemata:
 
@@ -34,22 +34,22 @@ In Adobe Experience Platform gibt es zwei Arten von Schemata:
 
   ➡️ [In diesem Video erfahren Sie, wie Sie ein Standardschema erstellen und konfigurieren](#video-schema) (Video)
 
-* **Modellbasierte Schemata** sind flache, nicht hierarchische Schemata, die keine Klassen oder Feldergruppen verwenden. Sie dienen dazu, Eintragsdaten für relationale Entitäten zu erfassen, und kommen hauptsächlich in [!DNL Journey Optimizer] **orchestrierten Kampagnen** zum Einsatz.
+* **Relationale Schemata** sind flache, nicht hierarchische Schemata, die keine Klassen oder Feldergruppen verwenden. Sie dienen dazu, Eintragsdaten für relationale Entitäten zu erfassen, und kommen hauptsächlich in [!DNL Journey Optimizer] **orchestrierten Kampagnen** zum Einsatz.
 
   Beispiele für relationale Entitäten:
    * Buchungen, Verträge oder Abonnements
    * Produkte oder Kataloge
    * Filialen, Standorte oder Partner
 
-  Mit modellbasierten Schemata können Sie eine Nachricht pro Entität senden (z. B. pro Buchung, pro Abonnement), Segmente basierend auf Entitätsattributen erstellen (z. B. Produktkategorie, Filialstandort) und die Adressierbarkeit verbessern, indem Sie alle mit einer Entität verknüpften Kontakte ansprechen.
+  Mit relationalen Schemata können Sie eine Nachricht pro Entität senden (z. B. pro Buchung, pro Abonnement), Segmente basierend auf Entitätsattributen erstellen (z. B. Produktkategorie, Filialstandort) und die Adressierbarkeit verbessern, indem Sie alle mit einer Entität verknüpften Kontakte ansprechen.
 
-  Funktionsweise von modellbasierten Schemata:
+  Funktionsweise von relationalen Schemata:
 
    1. **Erstellen Sie Schemata manuell oder importieren Sie sie über DDL.**
    1. **Verknüpfen Sie Schemata**, um Beziehungen zwischen Entitäten und Personen zu definieren (z. B. mit Mitgliedern verknüpfte Treuetransaktionen, mit Marken verknüpfte Prämien).
    1. **Nehmen Sie Daten** aus unterstützten Quellen in Ihren Datensatz auf.
 
-  ➡️ [Informationen zum Verwalten von modellbasierten Schemata und Datensätzen](../orchestrated/gs-schemas.md)
+  ➡️ [Informationen zum Verwalten von relationalen Schemata und Datensätzen](../orchestrated/gs-schemas.md)
 ➡️ [Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-schemas.md)
 
 ## Anleitungsvideo{#video-schema}

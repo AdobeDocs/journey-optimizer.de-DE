@@ -5,7 +5,7 @@ title: Häufig gestellte Fragen zu orchestrierten Kampagnen
 description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Kampagnen
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 536d080e455e4872ed6e58b11adc3324b332f7b5
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 79%
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu mit Adobe Journey Optimizer orchestrierten Kampagnen.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ Was ist Kampagnenorchestrierung?
 
@@ -247,7 +247,7 @@ In der Kampagnenorchestrierung wird Ad-hoc-Segmentierung als „Live-Segmentieru
 
 +++ Greift die Kampagnenorchestrierung nur auf Daten zu, die per Batch geladen werden, oder kann sie auch aktualisierte Echtzeit-Tabellen (wie Analytics-Daten) abfragen?
 
-Journey Optimizer Campaign Orchestration kann Ad-hoc-Abfragen auf Basis von modellbasierten Schemata erstellen. Modellbasierte Schemata unterstützen derzeit nur Batch-Quellen. Darüber hinaus werden Aktivitäten vom Typ „Zielgruppe lesen“ aus jeder Art von Adobe Experience Platform-Zielgruppe unterstützt.
+Die Orchestrierung von Journey Optimizer Campaign kann Ad-hoc-Abfragen auf der Grundlage von relationalen Schemata erstellen. Relationale Schemata unterstützen derzeit nur Batch-Quellen. Darüber hinaus werden Aktivitäten vom Typ „Zielgruppe lesen“ aus jeder Art von Adobe Experience Platform-Zielgruppe unterstützt.
 
 **Weitere Informationen**
 

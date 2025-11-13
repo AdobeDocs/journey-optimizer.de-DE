@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 97%
@@ -161,8 +161,8 @@ ht-degree: 97%
       + [Häufig gestellte Fragen](using/orchestrated/orchestrated-campaigns-faq.md)
       + Datenkonfiguration {#data-configuration}
          + [Datenkonfiguration](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + Verwalten von modellbasierten Schemata und Datensätzen {#schemas-datasets}
-            + [Verwalten von modellbasierten Schemata und Datensätzen](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + Verwalten von relationalen Schemata und Datensätzen {#schemas-datasets}
+            + [Verwalten von relationalen Schemata und Datensätzen](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [Erste Schritte mit Schemata und Datensätzen](using/orchestrated/gs-schemas.md)
             + [Manuelles Schema](using/orchestrated/manual-schema.md)
             + [Datei-Upload-Schema](using/orchestrated/file-upload-schema.md)

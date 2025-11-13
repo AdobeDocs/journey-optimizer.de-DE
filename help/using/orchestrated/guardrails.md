@@ -5,7 +5,7 @@ title: Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 description: Grundlegendes über Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung
 
 * Die durchschnittliche Anzahl von Attributen pro Schema **sollte 50 Spalten nicht überschreiten**, um Verwaltbarkeit und Leistung zu gewährleisten.
 
-* Modellbasierte Schemata können nicht für Adobe Experience Platform-**Profile** aktiviert werden. Bei Adobe Experience Platform-**Profilen** werden nur standardmäßige XDM-Schemata unterstützt. Modellbasierte Schemata können für orchestrierte Kampagnen oder Aktionskampagnen aktiviert werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Relationale Schemata können nicht für Adobe Experience Platform-**Profile** aktiviert werden. Bei Adobe Experience Platform-**Profilen** werden nur standardmäßige XDM-Schemata unterstützt. Relationale Schemata können für orchestrierte Kampagnen oder Aktionskampagnen aktiviert werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Datenaufnahme
 

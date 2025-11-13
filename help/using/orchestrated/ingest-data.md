@@ -5,7 +5,7 @@ title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie Daten aus unterstützten Quellen wie SFTP, Cloud-Speicher oder Datenbanken in Adobe Experience Platform aufnehmen.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 100%
@@ -67,7 +67,7 @@ Die folgenden Quellen werden für die Verwendung mit orchestrierten Kampagnen un
 </tbody>
 </table>
 
-## Richtlinien für die Datenhygiene bei modellbasierten Schemata {#cdc}
+## Richtlinien für die Datenhygiene bei relationalen Schemata {#cdc}
 
 Bei Datensätzen, bei denen **[!UICONTROL Änderungsdatenerfassung]** aktiviert ist, werden alle Datenänderungen, einschließlich Löschungen, automatisch vom Quellsystem in Adobe Experience Platform gespiegelt.
 
@@ -105,9 +105,9 @@ Dieses Beispiel zeigt, wie sich ein Datenfluss konfigurieren lässt, der struktu
 
    ![](assets/S3_config_1.png)
 
-1. Aktivieren Sie auf der Seite **[!UICONTROL Datensatz-Details]** die Option **[!UICONTROL Änderungsdatenerfassung aktivieren]**, um nur Datensätze anzuzeigen, die modellbasierten Schemata zugeordnet sind und sowohl einen Primärschlüssel als auch einen Versionsdeskriptor aufweisen.
+1. Aktivieren Sie auf der Seite **[!UICONTROL Datensatzdetails]** die Option **[!UICONTROL Änderungsdatenerfassung aktivieren]**, um nur Datensätze anzuzeigen, die relationalen Schemata zugeordnet sind und sowohl einen Primärschlüssel als auch einen Versionsdeskriptor aufweisen.
 
-[Weitere Informationen zu Richtlinien für modellbasierte Schemata und Datenhygiene](#cdc)
+[Weitere Informationen zu Richtlinien für relationale Schemata und Datenhygiene](#cdc)
 
    >[!IMPORTANT]
    >
