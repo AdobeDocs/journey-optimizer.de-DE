@@ -9,9 +9,9 @@ level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1124'
 ht-degree: 51%
 
 ---
@@ -79,7 +79,7 @@ Standardmäßig ist bei Journeys der erneute Eintritt erlaubt. Wenn die Option *
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
 -->
 
-![](assets/journey-re-entrance.png)
+![Umschalten der Einstellungen für den erneuten Eintritt in den Journey-Eigenschaften](assets/journey-re-entrance.png)
 
 Nach dem Zeitraum für den erneuten Eintritt können Profile erneut in die Journey eintreten. Um dies zu vermeiden und den erneuten Eintritt für diese Profile vollständig zu deaktivieren, können Sie eine Bedingung hinzufügen, um anhand von Profil- oder Zielgruppendaten zu testen, ob das Profil bereits eingetreten ist oder nicht.
 
@@ -94,7 +94,7 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 Um in **Geschäfts-Journeys** mehrere Ausführungen für Geschäftsereignisse zuzulassen, aktivieren Sie die entsprechende Option im Abschnitt **[!UICONTROL Ausführung]** der Journey-Eigenschaften.
 
-![](assets/business-entry.png)
+![Verwaltungsoptionen für Geschäftsereigniseinträge in der Journey-Konfiguration](assets/business-entry.png)
 
 Im Falle von Geschäftsereignissen werden für eine bestimmte Journey die bei der ersten Ausführung abgerufenen Zielgruppendaten innerhalb eines Zeitfensters von einer Stunde wiederverwendet.
 

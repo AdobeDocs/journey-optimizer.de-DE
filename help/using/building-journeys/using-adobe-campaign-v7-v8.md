@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Integration, Campaign, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 95%
 
 ---
 
@@ -36,4 +36,4 @@ In diesem [Abschnitt](../building-journeys/ajo-ac.md) wird ein Anwendungsfall sc
 1. Wählen Sie im Abschnitt **Aktion** der Palette eine Campaign-Aktion aus und fügen Sie sie zu Ihrer Journey hinzu.
 1. Unter **Aktionsparameter** werden alle Felder angezeigt, die in der Nachrichten-Payload erwartet werden. Sie müssen jedes dieser Felder entweder im Ereignis oder der Datenquelle dem zu verwendenden Feld zuordnen. Dies ähnelt benutzerdefinierten Aktionen. Siehe diesen [Abschnitt](../building-journeys/using-custom-actions.md).
 
-![](assets/accintegration2.png)
+Aktionskonfigurations- und Integrationseinstellungen für ![Adobe Campaign v7/v8](assets/accintegration2.png)

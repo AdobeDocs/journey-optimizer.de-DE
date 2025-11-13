@@ -10,10 +10,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Nach der Veröffentlichung Ihrer Journey stellt **Live-Reporting** Metriken aus 
 
 Die angezeigten Ereignisse sind innerhalb der letzten 24 Stunden eingetreten, wobei zwischen dem Ereignis und seiner Anzeige mindestens zwei Minuten liegen, in der Regel aber fünf Minuten.
 
-![](assets/journey_live_report.png)
+![Dashboard des Live-Berichts-Journey mit Echtzeit-Leistungsmetriken](assets/journey_live_report.png)
 
 Für Journeys im Live- oder [Probelauf-Modus](journey-dry-run.md) können Sie Folgendes überprüfen:
 

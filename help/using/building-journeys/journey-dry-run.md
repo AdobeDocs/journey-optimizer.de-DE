@@ -9,10 +9,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -77,7 +77,7 @@ Die Probelauffunktion kann in jeder fehlerfreien Entwurfs-Journey verwendet werd
 Gehen Sie wie folgt vor, um einen Probelauf zu aktivieren:
 
 1. Öffnen Sie die Journey, die getestet werden soll.
-1. Wählen Sie die Schaltfläche **Probelauf** aus.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Probelauf]** aus.
 
    ![Starten des Journey-Probelaufs](assets/dry-run-button.png)
 
@@ -85,9 +85,9 @@ Gehen Sie wie folgt vor, um einen Probelauf zu aktivieren:
 
    ![Bestätigen der Veröffentlichung des Journey- Probelaufs](assets/dry-run-publish.png){width="50%" align="left"}
 
-   Während des Übergangs wird die Statusmeldung **Probelauf wird aktiviert** angezeigt.
+   Während des Übergangs wird die Statusmeldung **[!UICONTROL Probelauf wird aktiviert]** angezeigt.
 
-1. Nach der Aktivierung wechselt die Journey in den Modus **Probelauf**.
+1. Nach der Aktivierung wechselt die Journey in den Modus **[!UICONTROL Probelauf]**.
 
 
 ## Überwachen eines Probelaufs {#journey-dry-monitor}
@@ -109,17 +109,17 @@ Für den Probelauf kann auch auf die Berichte der **letzten 24 Stunden** und der
 
 ## Stoppen eines Probelaufs {#journey-dry-run-stop}
 
-Nach 14 Tagen wechseln Probelauf-Journeys automatisch in den Status **Entwurf**.
+Nach 14 Tagen wechseln Probelauf-Journeys automatisch in den Status **[!UICONTROL Entwurf]**.
 
 Probelauf-Journeys können auch manuell gestoppt werden. Gehen Sie wie folgt vor, um den Probelaufmodus zu deaktivieren:
 
 1. Öffnen Sie die Probelauf-Journey, die Sie stoppen möchten.
-1. Klicken Sie auf die Schaltfläche **Schließen**, um den Test zu beenden.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Schließen]**, um den Test zu beenden.
 Links zu den Berichten der letzten 24 Stunden und der gesamten Zeit sind im Bestätigungsbildschirm verfügbar.
 
    ![Anhalten der Probelauf-Ausführung der Journey](assets/dry-run-stop.png){width="50%" align="left"}
 
-1. Klicken Sie zur Bestätigung auf **Zurück zum Entwurf**.
+1. Klicken Sie zur Bestätigung auf **[!UICONTROL Zurück zum Entwurf]**.
 
 
 ## Leitlinien und Einschränkungen {#journey-dry-run-limitations}
@@ -143,10 +143,10 @@ Ein Journey-Probelauf generiert **stepEvents**. Diese stepEvents haben eine best
 
 Wenn Sie stepEvent-Daten in **externe Systeme** exportieren, können Sie Ausführungen von Probeläufen mit der Markierung `inDryRun` filtern.
 
-Bei der Analyse von **Journey-Reporting-Metriken** mit dem Abfrage-Service von Adobe Experience Platform müssen die vom Probelauf generierten Schrittereignisse ausgeschlossen werden. Legen Sie dazu die Markierung `inDryRun` auf `false` fest.
+Bei der Analyse von **Journey** Berichtsmetriken mithilfe des Abfrage-Service von Adobe Experience Platform müssen von Probelauf generierte Schrittereignisse ausgeschlossen werden. Legen Sie dazu die Markierung `inDryRun` auf `false` fest.
 
 ## Anleitungsvideo {#dry-run-video}
 
 In diesem Video erfahren Sie, wie Sie einen Probelauf für Ihre Journeys ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464691/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 96%
+source-wordcount: '1285'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Zielgruppen-Qualifizierung]** in Ihrer Arbeitsfläche ab.
 
-   ![](assets/segment5.png)
+   ![Zielgruppen-Qualifizierungsereignis in der Journey-Palette](assets/segment5.png)
 
 1. Fügen Sie der Aktivität ein **[!UICONTROL Label]** hinzu. Dieser Schritt ist optional.
 
@@ -56,13 +56,13 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
    >
    >Die in der Liste angezeigten Spalten können angepasst und sortiert werden.
 
-   ![](assets/segment6.png)
+   ![Dropdown-Liste zur Zielgruppenauswahl für die Konfiguration von Qualifizierungsereignissen](assets/segment6.png)
 
    Nachdem die Zielgruppe hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** deren Namen und ID kopieren:
 
    `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![Schaltfläche „Kopieren“ zum Kopieren von Zielgruppenname und ID im JSON-Format](assets/segment-copy.png)
 
 1. Wählen Sie im Feld **[!UICONTROL Verhalten]** aus, ob Zielgruppeneintritte, -austritte oder beides überwacht werden soll.
 
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
    >
    >Sie können nur einen personenbasierten Identity-Namespace auswählen. Wenn Sie einen Namespace für eine Suchtabelle definiert haben (z. B.: Produkt-ID-Namespace für eine Produktsuche), ist er nicht in der Dropdown-Liste **Namespace** verfügbar.
 
-   ![](assets/segment7.png)
+   ![Namespace-Auswahl für die Zielgruppen-Qualifizierungs-Identität](assets/segment7.png)
 
 Die Payload enthält die folgenden Kontextinformationen, die Sie in Bedingungen und Aktionen verwenden können:
 
@@ -88,7 +88,7 @@ Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die einer
 
 Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_condition).
 
-![](assets/segment8.png)
+![Konfiguration des Zielgruppeneintritts und -austritts in den Ereigniseinstellungen](assets/segment8.png)
 
 Eine neue Journey, die ein Ereignis **Zielgruppen-Qualifizierung** enthält, ist zehn Minuten nach der Veröffentlichung einsatzbereit. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Services. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
 
@@ -118,13 +118,13 @@ Die folgenden Best Practices helfen dabei, eine Überlastung der für Journeys g
 
 * Verwenden Sie die Batch-Zielgruppe nicht unmittelbar nach ihrer Erstellung in einer Aktivität vom Typ **[!UICONTROL Zielgruppen-Qualifizierung]**. Dadurch wird die erste Berechnungsspitze vermieden. Auf der Journey-Arbeitsfläche wird eine gelbe Warnung angezeigt, wenn Sie im Begriff sind, eine bislang noch nie berechnete Zielgruppe zu verwenden.
 
-  ![](assets/segment-error.png)
+  ![Fehlermeldung, wenn Zielgruppe in Adobe Experience Platform nicht gefunden wurde](assets/segment-error.png)
 
 * Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden. Weitere Informationen sind in der [Dokumentation zu Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=de){target="_blank"} verfügbar. Beachten Sie, dass die Begrenzungsregel nicht erneut versucht wird. Für einen erneuten Versuch müssen Sie einen alternativen Pfad in der Journey verwenden, indem Sie in den Bedingungen oder Aktionen das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** aktivieren.
 
 * Bevor Sie die Zielgruppe in einer Produktions-Journey verwenden, sollten Sie die Anzahl der Kontakte auswerten, die sich für diese Zielgruppe täglich qualifizieren. Wählen Sie dazu das Menü **[!UICONTROL Zielgruppe]** aus, öffnen Sie die Zielgruppe und sehen Sie sich das Diagramm **[!UICONTROL Profile im Verlauf der Zeit]** an.
 
-  ![](assets/segment-overload.png)
+  ![Warnmeldung, wenn die Zielgruppe zu viele Ereignisse für die Echtzeitverarbeitung hat](assets/segment-overload.png)
 
 Weitere Informationen zu Einstiegsbeschränkungen und zum Durchsatz finden Sie in [diesem Abschnitt](entry-management.md#profile-entrance-rate).
 
@@ -164,4 +164,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

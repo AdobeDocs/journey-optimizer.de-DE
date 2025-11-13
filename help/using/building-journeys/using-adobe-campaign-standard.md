@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Integration, Standard, Kampagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 100%
+source-wordcount: '979'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Für jeden dieser Kanäle wählen Sie eine Adobe Campaign Standard-**Transaktion
 >
 >Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müssen veröffentlicht werden, damit sie in Journey Optimizer verwendet werden können. Wenn das Ereignis veröffentlicht wird, die Nachricht jedoch nicht, wird sie nicht in der Benutzeroberfläche von Journey Optimizer angezeigt. Wenn die Nachricht veröffentlicht wird, das zugehörige Ereignis jedoch nicht, wird sie in der Benutzeroberfläche von Journey Optimizer angezeigt, sie kann jedoch nicht verwendet werden.
 
-![](assets/journey59.png)
+![Adobe Campaign Standard-Aktionskonfiguration auf Journey](assets/journey59.png)
 
 Sie können eine ereignisbasierte (d. h. Echtzeit-) oder eine profilbasierte Transaktionsnachrichtenvorlage verwenden.
 
@@ -46,7 +46,7 @@ Sie können eine ereignisbasierte (d. h. Echtzeit-) oder eine profilbasierte Tra
 
 Wenn Sie eine Vorlage auswählen, werden alle Felder, die in der Payload der Nachricht erwartet werden, im Konfigurationsbereich der Aktivität unter **[!UICONTROL Adresse]** und **[!UICONTROL Personalisierungsdaten]** angezeigt. Sie müssen jedes dieser Felder im Ereignis oder der Datenquelle dem zu verwendenden Feld zuordnen. Sie können auch den erweiterten Ausdruckseditor verwenden, um einen Wert manuell zu übergeben, Datenmanipulationen an abgerufenen Informationen vorzunehmen (z. B. eine Zeichenfolge in Großbuchstaben zu konvertieren) oder Funktionen wie „if, then, else“ zu verwenden. Weitere Informationen finden Sie auf [dieser Seite](expression/expressionadvanced.md).
 
-![](assets/journey60.png)
+![Benutzeroberfläche zur Auswahl von Campaign Standard-Nachrichtenvorlagen](assets/journey60.png)
 
 ## E-Mail und SMS {#section_asc_51g_nhb}
 
@@ -70,7 +70,7 @@ Es stehen zwei Kategorien zur Verfügung: **[!UICONTROL Adresse]** und **[!UICON
 
 Dies sind die Felder, die das System benötigt, um zu wissen, wohin die Nachricht gesendet werden soll. Bei einer E-Mail-Vorlage ist dies die E-Mail-Adresse. Bei einer SMS ist es die Mobiltelefonnummer.
 
-![](assets/journey61.png)
+![Konfiguration von Nachrichtenparametern für die Campaign Standard-Integration](assets/journey61.png)
 
 **[!UICONTROL Personalisierungsdaten]**
 
@@ -80,7 +80,7 @@ Dies sind die Felder, die das System benötigt, um zu wissen, wohin die Nachrich
 
 Dies sind die Felder, die von der Adobe Campaign Standard-Nachricht erwartet werden. Diese Felder können verwendet werden, um die Nachricht zu personalisieren, eine bedingte Formatierung anzuwenden oder eine bestimmte Nachrichtenvariante auszuwählen.
 
-![](assets/journey62.png)
+![Feldzuordnung zwischen Journey Optimizer und Campaign Standard](assets/journey62.png)
 
 ## Push-Benachrichtigung {#section_im3_hvf_nhb}
 
@@ -88,7 +88,7 @@ Vor der Verwendung der Push-Aktivität muss Ihre App mit Campaign Standard konfi
 
 Wählen Sie zunächst eine App aus der Dropdown-Liste und eine Transaktionsnachricht aus.
 
-![](assets/journey62bis.png)
+![Erweiterter Ausdruckseditor für die Campaign Standard-Parameterzuordnung](assets/journey62bis.png)
 
 Es stehen zwei Kategorien zur Verfügung: **[!UICONTROL Zielgruppe]** und **[!UICONTROL Personalisierungsdaten]**.
 

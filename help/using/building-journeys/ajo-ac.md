@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: Journey, Nachricht, Kampagne, Integration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 79%
 
 ---
 
@@ -40,21 +40,21 @@ Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funk
 
 1. Wählen Sie unter **Administration** > **Platform** > **Aufzählungen** die Aufzählung **Ereignistyp** (eventType) aus. Erstellen Sie einen neuen Ereignistyp (in unserem Beispiel „Journey-Ereignis“). Verwenden Sie später beim Schreiben der JSON-Datei den internen Name des Ereignistyps.
 
-   ![](assets/accintegration-uc-1.png)
+   ![Konfigurieren eines Ereignisses in Adobe Journey Optimizer mit Schema- und Feldauswahl](assets/accintegration-uc-1.png)
 
 1. Trennen Sie die Verbindung zur Instanz und stellen Sie sie erneut her, damit die Erstellung wirksam wird.
 
 1. Erstellen Sie unter **Message Center** > **Transaktionsnachrichten-Vorlagen** eine neue E-Mail-Vorlage basierend auf dem zuvor erstellten Ereignistyp.
 
-   ![](assets/accintegration-uc-2.png)
+   ![Ereigniskonfiguration mit Namespace- und Profilkennungseinstellungen](assets/accintegration-uc-2.png)
 
 1. Gestalten Sie Ihre Vorlage. In diesem Beispiel wird eine Personalisierung auf den Vornamen und die Bestellnummer des Profils angewendet. Der Vorname befindet sich in der Adobe Experience Platform-Datenquelle und die Bestellnummer ist ein Feld aus dem Journey Optimizer-Ereignis. Stellen Sie sicher, dass Sie die richtigen Feldnamen in Campaign verwenden.
 
-   ![](assets/accintegration-uc-3.png)
+   ![Vorschau der Ereignis-Payload mit JSON-Struktur mit Profil- und Ereignisdaten](assets/accintegration-uc-3.png)
 
 1. Veröffentlichen Sie Ihre Transaktionsnachrichtenvorlage.
 
-   ![](assets/accintegration-uc-4.png)
+   ![Schaltfläche „Ereigniskopie“ zum Kopieren der Payload-ID für die API-Integration](assets/accintegration-uc-4.png)
 
 1. Die JSON-Payload muss entsprechend der Vorlage geschrieben werden.
 
@@ -78,30 +78,30 @@ Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funk
 
 1. Erstellen Sie ein Ereignis. Schließen Sie das Feld „purchaseOrderNumber“ ein.
 
-   ![](assets/accintegration-uc-5.png)
+   ![Bildschirm für benutzerdefinierte Aktionskonfiguration für die Adobe Campaign Classic-Integration](assets/accintegration-uc-5.png)
 
 1. Erstellen Sie eine Aktion in Journey Optimizer, die der Kampagnenvorlage entspricht. Wählen Sie aus der Dropdown-Liste **Aktionstyp** die Option **Adobe Campaign Classic** aus.
 
-   ![](assets/accintegration-uc-6.png)
+   ![Auswahl des Aktionstyps mit Adobe Campaign Classic-Option](assets/accintegration-uc-6.png)
 
 1. Klicken Sie auf das Feld **Payload** und fügen Sie die zuvor erstellte JSON-Datei ein.
 
-   ![](assets/accintegration-uc-7.png)
+   ![Dropdown-Liste zur Auswahl des Campaign-Kontos für die Integration von Aktionen](assets/accintegration-uc-7.png)
 
 1. Ändern Sie für die E-Mail-Adresse und die beiden Personalisierungsfelder **Konstante** in **Variable**.
 
-   ![](assets/accintegration-uc-8.png)
+   ![Konfiguration der Aktions-Payload mit Feldzuordnung für die Campaign-Integration](assets/accintegration-uc-8.png)
 
 1. Erstellen Sie nun eine neue Journey und beginnen Sie mit dem zuvor erstellten Ereignis.
 
-   ![](assets/accintegration-uc-9.png)
+   ![Journey-Arbeitsfläche mit konfigurierter Ereignis- und Kampagnenaktion](assets/accintegration-uc-9.png)
 
 1. Fügen Sie die Aktion hinzu und ordnen Sie jedes Feld dem richtigen Feld in Journey Optimizer zu.
 
-   ![](assets/accintegration-uc-10.png)
+   ![Zuordnung von Aktionsparametern mit dem Ausdruckseditor für dynamische Werte](assets/accintegration-uc-10.png)
 
 1. Testen Sie Ihre Journey.
 
-   ![](assets/accintegration-uc-11.png)
+   ![Vollständiger Journey-Ablauf mit Ausführung von Ereignis-Trigger und Campaign-Aktion](assets/accintegration-uc-11.png)
 
 1. Sie können Ihre Journey jetzt veröffentlichen.

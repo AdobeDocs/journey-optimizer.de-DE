@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2748'
-ht-degree: 99%
+source-wordcount: '2771'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Sie haben folgende Möglichkeiten:
 * Definieren einer [Timeout-Dauer](#timeout) in Journey-Aktivitäten (nur für Admins)
 * Überwachen von Konflikten und Priorisieren Ihrer Journeys mithilfe von [Konflikt-Management-Tools](#conflict)
 
-![](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
+Konfigurationsbereich für ![Journey-Eigenschaften mit allgemeinen Einstellungen und erweiterten Optionen](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Weitere Informationen zu technischen Feldern, die mit einer Journey für ein bes
 
 Der Eintrittsmodus des Profils wird auf der Journey-Ebene im rechten Konfigurationsbereich definiert. Die Einstellungen werden nachfolgend beschrieben.
 
-Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Weitere Informationen zur Verwaltung des Profileintritts und des erneuten Eintritts finden Sie auf [dieser Seite](entry-management.md). Weitere Informationen zu Journey-Verarbeitungsraten und zum Profilfluss durch Journey finden Sie [&#x200B; diesem Abschnitt](entry-management.md#journey-processing-rate).
+Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Weitere Informationen zur Verwaltung des Profileintritts und des erneuten Eintritts finden Sie auf [dieser Seite](entry-management.md). Weitere Informationen zu Journey-Verarbeitungsraten und zum Profilfluss durch Journey finden Sie [ diesem Abschnitt](entry-management.md#journey-processing-rate).
 
 ### Erneuten Eintritt erlauben  {#allow-reentrance}
 
@@ -285,7 +285,7 @@ Um ein Ausstiegskriterium zu **erstellen**, gehen Sie folgendermaßen vor:
 
 1. Öffnen Sie Ihre Journey.
 
-1. Klicken Sie oben rechts auf der Journey-Arbeitsfläche auf das Symbol ![](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Ausstiegskriterien anzeigen]**.
+1. Klicken Sie auf ![ Symbol &quot;](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) anzeigen **[!UICONTROL Beendigungskriterien anzeigen]** im oberen rechten Bereich der Journey-Arbeitsfläche.
 
 1. Wählen Sie **[!UICONTROL Ausstiegskriterien hinzufügen]** aus.
 
@@ -296,7 +296,7 @@ Um ein Ausstiegskriterium zu **erstellen**, gehen Sie folgendermaßen vor:
 
 Sie können mehrere Ausstiegskriterien hinzufügen.
 
-![](assets/exitcriteria-sample.png){width="40%" align="left"}
+![Bedienfeld für Ausstiegskriterien, das die Zielgruppenbedingungen für das Beenden des Journey anzeigt](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
 ### Auf Profilattributen basierende Ausstiegskriterien {#profile-exit-criteria}

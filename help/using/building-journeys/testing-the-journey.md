@@ -10,10 +10,10 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 36c44728172313492898bf3374a37512e4c19789
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 83%
+source-wordcount: '1881'
+ht-degree: 79%
 
 ---
 
@@ -67,11 +67,11 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 1. Um den Testmodus zu aktivieren, klicken Sie in der rechten oberen Ecke auf die Schaltfläche **[!UICONTROL Testmodus]**.
 
-   ![](assets/journeytest1.png)
+   ![Test-Modus-Schaltfläche in der Journey-Oberfläche](assets/journeytest1.png)
 
 1. Wenn die Journey mindestens eine Aktivität vom Typ **Warten** enthält, stellen Sie den Parameter **[!UICONTROL Wartezeit]** ein, um die Dauer jeder Warteaktivität und jeder maximalen Wartezeit bei einem Ereignis im Testmodus festzulegen. Die Standardzeit für Wartezeiten und die maximale Wartezeit für Ereignisse beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell.
 
-   ![](assets/journeytest_wait.png)
+   ![Wartezeit-Parameterkonfiguration im Testmodus](assets/journeytest_wait.png)
 
    >[!NOTE]
    >
@@ -79,15 +79,15 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden.
 
-   ![](assets/journeyuctest1.png)
+   ![Trigger einer Ereignisschaltfläche im Testmodus](assets/journeyuctest1.png)
 
 1. Konfigurieren Sie die verschiedenen erwarteten Felder. Geben Sie im Feld **Profilkennung** den Wert des Felds ein, das zum Identifizieren des Testprofils verwendet wird. Das kann beispielsweise die E-Mail-Adresse sein. Vergewissern Sie sich, dass Ereignisse gesendet werden, die im Zusammenhang mit Testprofilen stehen. Weitere Informationen finden Sie in [diesem Abschnitt](#firing_events).
 
-   ![](assets/journeyuctest1-bis.png)
+   ![Ereigniskonfigurationsfelder mit Eingabe der Profilkennung](assets/journeyuctest1-bis.png)
 
 1. Nachdem die Ereignisse eingegangen sind, klicken Sie auf die Schaltfläche **[!UICONTROL Protokoll anzeigen]**, um das Testergebnis anzuzeigen und zu überprüfen. Weitere Informationen finden Sie in [diesem Abschnitt](#viewing_logs).
 
-   ![](assets/journeyuctest2.png)
+   ![Schaltfläche „Protokoll anzeigen“ zum Anzeigen von Testergebnissen](assets/journeyuctest2.png)
 
 1. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Nach Abschluss der Tests können Sie Ihre Journey veröffentlichen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/publish-journey.md).
 
@@ -122,17 +122,17 @@ Der Identity-Namespace dient dazu, die Testprofile eindeutig zu identifizieren. 
 
 Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Über die Benutzeroberfläche können Sie die richtigen Informationen in der Ereignis-Payload angeben und prüfen, ob der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
 
-![](assets/journeytest4.png)
+![Benutzeroberfläche für die Ereigniskonfiguration mit Feldern und Dropdown-Liste für die Ereignisauswahl](assets/journeytest4.png)
 
 Über die Benutzeroberfläche können Sie einfache Ereignisparameter übergeben. Wenn Sie Sammlungen oder andere erweiterte Objekte in dem Ereignis übergeben möchten, können Sie **[!UICONTROL Code-Ansicht]** auswählen, um den gesamten Code der Payload anzuzeigen und ihn zu ändern. Beispielsweise können Sie die von einem technischen Anwender erstellten Ereignisinformationen kopieren und einfügen.
 
-![](assets/journeytest5.png)
+![Code-Ansicht der Ereignis-Payload im JSON-Format für die erweiterte Konfiguration](assets/journeytest5.png)
 
 Ein technischer Anwender kann diese Benutzeroberfläche auch verwenden, um Payloads für Ereignisse zu erstellen und Ereignisse auszulösen, ohne ein Tool eines Drittanbieters verwenden zu müssen.
 
 Wenn Sie auf die Schaltfläche **[!UICONTROL Senden]** klicken, beginnt der Test. Der Fortschritt des Kontakts in der Journey wird durch einen visuellen Verlauf dargestellt. Der Pfad wird immer grüner, je weiter sich der Kontakt in der Journey bewegt. Tritt ein Fehler auf, wird auf dem entsprechenden Schritt ein Warnsymbol angezeigt. Sie können den Cursor darauf platzieren, um weitere Informationen zum Fehler anzuzeigen und genaue Details aufzurufen (sofern verfügbar).
 
-![](assets/journeytest6.png)
+![Journey des visuellen Testflusses mit Anzeige des Profilfortschritts und etwaiger Fehler](assets/journeytest6.png)
 
 Wenn Sie im Bildschirm für die Ereigniskonfiguration ein anderes Testprofil auswählen und den Test erneut ausführen, wird der visuelle Verlauf geleert und stattdessen der Pfad des neuen Kontakts angezeigt.
 
@@ -144,7 +144,7 @@ Der Testmodus ist für Journeys, bei denen ein regelbasiertes Ereignis verwendet
 
 Beim Auslösen eines Ereignisses können Sie im Bildschirm **Ereigniskonfiguration** die Ereignisparameter definieren, nach denen der Test als bestanden gilt. Durch Klicken auf das QuickInfo-Symbol oben rechts können Sie die Ereignis-ID-Bedingung anzeigen. Außerdem ist neben jedem Feld, das Teil der Regelauswertung ist, ebenfalls eine QuickInfo verfügbar.
 
-![](assets/jo-event8.png)
+![Bildschirm für die Ereigniskonfiguration mit Tooltips für die Regelauswertung](assets/jo-event8.png)
 
 ## Testmodus für Geschäftsereignisse {#test-business}
 
@@ -161,7 +161,7 @@ Beachten Sie, dass Sie beim ersten Trigger eines Geschäftsereignisses die Defin
 
 Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Testergebnisse anzeigen. Auf dieser Seite werden die aktuellen Informationen der Journey im JSON-Format angezeigt. Mit einer Schaltfläche können Sie ganze Knoten kopieren. Sie müssen die Seite manuell aktualisieren, um die Testergebnisse der Journey zu aktualisieren.
 
-![](assets/journeytest3.png)
+![Testprotokolle mit Journey-Ausführungsergebnissen im JSON-Format](assets/journeytest3.png)
 
 
 >[!NOTE]

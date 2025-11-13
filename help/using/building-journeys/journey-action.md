@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: ht
-source-wordcount: '988'
-ht-degree: 100%
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+workflow-type: tm+mt
+source-wordcount: '1050'
+ht-degree: 94%
 
 ---
 
@@ -50,17 +50,17 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
 
 1. Wählen Sie die integrierte Kanalaktivität aus, die Sie in Ihrer Journey nutzen möchten.
 
-   ![](assets/journey-action-type-cbe.png)
+   ![Dropdown-Liste „Aktionstyp“ mit Optionen für Kanalaktion und benutzerdefinierte Aktion](assets/journey-action-type-cbe.png)
 
 1. Fügen Sie Ihrer Aktion ein Label hinzu und wählen Sie **[!UICONTROL Aktion konfigurieren]**.
 
-   ![](assets/journey-action-configure.png){width="80%"}
+   ![Konfigurationsbereich für die Aktionsaktivität mit Beschriftungs- und Beschreibungsfeldern](assets/journey-action-configure.png){width="80%"}
 
 1. Sie werden zur Registerkarte **[!UICONTROL Aktionen]** des Bildschirms zur Journey-Aktionskonfiguration weitergeleitet.
 
    Wählen Sie die Konfiguration aus, die für den ausgewählten Kanal verwendet werden soll.
 
-   ![](assets/journey-action-actions-tab.png)
+   ![Registerkarte „Aktionen“ im Menü „Administration“ mit benutzerdefinierten und Adobe-Aktionen](assets/journey-action-actions-tab.png)
 
 1. Wenn Sie einen eingehenden Kanal ausgewählt haben, können Sie mehrere Aktionen hinzufügen. [Weitere Informationen](#multi-action)
 
@@ -159,15 +159,15 @@ Gehen Sie wie folgt vor, um mehrere eingehende Aktionen in einem einzigen Journe
 
 1. Wählen Sie als Aktionstyp **[!UICONTROL Mehrere Aktionen]** aus.
 
-   ![](assets/journey-multi-action.png)
+   ![Multi-Action-Aktivität in der Journey-Palette unter Orchestrierung](assets/journey-multi-action.png)
 
 1. Fügen Sie bei Bedarf ein Label hinzu und wählen Sie **[!UICONTROL Aktion konfigurieren]**.
 
-   ![](assets/journey-multi-action-configure.png){width="60%"}
+   ![Konfigurationsbereich für mehrere Aktionen mit Beschriftungs- und Beschreibungsfeldern](assets/journey-multi-action-configure.png){width="60%"}
 
 1. Sie werden zur Registerkarte **[!UICONTROL Aktionen]** des Bildschirms zur Journey-Aktionskonfiguration weitergeleitet.
 
-   ![](assets/journey-multi-action-configuration.png){width="70%"}
+   ![Konfiguration mit mehreren Aktionen mit Liste der auszuführenden Aktionen](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** eine eingehende Aktion (**Code-basiertes Erlebnis**, **In-App-Nachricht**, **Inhaltskarte** oder **Web**) aus.
 
@@ -175,7 +175,7 @@ Gehen Sie wie folgt vor, um mehrere eingehende Aktionen in einem einzigen Journe
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Aktion hinzufügen]**, um eine weitere eingehende Aktion aus der Dropdown-Liste auszuwählen.
 
-   ![](assets/journey-multi-action-add.png){width="80%"}
+   ![Aktionsschaltfläche hinzufügen, um zusätzliche Aktionen in Aktivitäten mit mehreren Aktionen aufzunehmen](assets/journey-multi-action-add.png){width="80%"}
 
 1. Gehen Sie ähnlich vor, um weitere Aktionen hinzuzufügen. Sie können bis zu 10 eingehende Aktionen in einer Journey-Aktionsgruppe hinzufügen.
 

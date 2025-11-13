@@ -10,10 +10,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ Die Schritte zum Veröffentlichen einer Journey werden nachfolgend beschrieben:
    >
    > Wenn Ihre Journey einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Journey veröffentlichen zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
-   ![](assets/journeyuc1_18.png)
+   ![Schaltfläche „Veröffentlichen“ in der Journey-Symbolleiste zum Aktivieren der Journey](assets/journeyuc1_18.png)
 
 Nachdem die Journey veröffentlicht wurde, ist sie **schreibgeschützt**. Im schreibgeschützten Modus können Sie nur die Labels und Beschreibungen der Aktivitäten, den Namen der Journey und die Beschreibung der Journey ändern. Wenn Sie zusätzliche Änderungen an einer veröffentlichten Journey vornehmen müssen, erstellen Sie [eine neue Version](journey-ui.md#journey-filter) Ihrer Journey.
 
@@ -52,7 +52,7 @@ Wenn Sie eine Journey stoppen, wird sie dauerhaft gestoppt. Alle Personen, die d
 
 In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzerpräferenz bei. Die Version der Journey wird auch oben auf der Journey-Bearbeitungsoberfläche über der Arbeitsfläche angezeigt.
 
-![](assets/journeyversions1.png)
+![Liste der Journey-Versionen mit veröffentlichten Versionen und Entwurfsversionen](assets/journeyversions1.png)
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Wenn Sie eine Live-Journey ändern müssen, erstellen Sie eine neue Version Ihre
 
 1. Öffnen Sie die neueste Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
 
-   ![](assets/journeyversions2.png)
+   ![Dialogfeld „Neue Version erstellen“ für das Duplizieren von Journey](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -88,4 +88,4 @@ Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige V
 
 In diesem Video erfahren Sie, wie Sie eine Journey veröffentlichen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427932?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

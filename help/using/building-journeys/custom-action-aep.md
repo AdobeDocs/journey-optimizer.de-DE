@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '364'
-ht-degree: 100%
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 86%
 
 ---
 
@@ -26,11 +26,11 @@ In diesem Anwendungsfall wird erläutert, wie Sie mithilfe von benutzerdefiniert
 
 1. Klicken Sie im Abschnitt **Anmeldedaten** auf **OAuth Server-to-Server**.
 
-   ![](assets/custom-action-aep-1.png)
+   ![Bildschirm für benutzerdefinierte Aktionskonfiguration mit Dropdown-Liste „Aktionstyp“](assets/custom-action-aep-1.png)
 
 1. Klicken Sie auf **cURL-Befehl anzeigen**.
 
-   ![](assets/custom-action-aep-2.png)
+   ![Auswahl des Adobe Experience Platform-Aktionstyps](assets/custom-action-aep-2.png)
 
 1. Kopieren Sie den cURL-Befehl und speichern Sie client_id, client_secret, grant_type und scope.
 
@@ -48,15 +48,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. Klicken Sie in Adobe Experience Platform im linken Menü unter **Verbindungen** auf **Quellen**. Klicken Sie unter **HTTP API** auf **Daten hinzufügen**.
 
-   ![](assets/custom-action-aep-3.png)
+   ![Sandbox-Auswahl-Dropdown für Adobe Experience Platform](assets/custom-action-aep-3.png)
 
 1. Wählen Sie **Neues Konto** aus und aktivieren Sie die Authentifizierung. Wählen Sie **Mit der Quelle verbinden** aus.
 
-   ![](assets/custom-action-aep-4.png)
+   ![Oberfläche zur Datensatzauswahl für Streaming-Daten](assets/custom-action-aep-4.png)
 
 1. Wählen Sie **Weiter** und den Datensatz aus, in den Sie die Daten schreiben möchten. Klicken Sie auf **Weiter** und **Beenden**.
 
-   ![](assets/custom-action-aep-5.png)
+   ![XDM-Schemafelder, die Aktionsparametern zugeordnet sind](assets/custom-action-aep-5.png)
 
 1. Öffnen Sie den neu erstellten Datenfluss. Kopieren Sie die Schema-Payload und speichern Sie sie in Ihrem Notepad.
 
@@ -109,7 +109,7 @@ Für dieses Beispiel gehen Sie wie folgt vor:
 
 1. Stellen Sie sicher, dass die Kopfzeilen (Content-Type, Charset, sandbox-name) konfiguriert sind.
 
-   ![](assets/custom-action-aep-7bis.png)
+   ![Benutzerdefinierte Aktion auf der Journey-Arbeitsfläche mit Konfigurationsbereich](assets/custom-action-aep-7bis.png)
 
 ### Einrichten der Authentifizierung {#custom-action-aep-authentication}
 
@@ -143,7 +143,7 @@ Für dieses Beispiel gehen Sie wie folgt vor:
 
 1. Verwenden Sie die Schaltfläche **Zum Testen der Authentifizierung hier klicken**, um die Verbindung zu testen.
 
-   ![](assets/custom-action-aep-8.png)
+   ![Schnittstelle für die Parameterzuordnung mit dem Ausdruckseditor](assets/custom-action-aep-8.png)
 
 ### Einrichten der Payload {#custom-action-aep-payload}
 
@@ -182,4 +182,4 @@ Für dieses Beispiel gehen Sie wie folgt vor:
 
 1. Füllen Sie Attribute wie Journey Version Id, Node Id, Node Name und andere entsprechend Ihrem Anwendungsfall aus.
 
-   ![](assets/custom-action-aep-9.png)
+   ![Erweiterter Modus-Editor für die komplexe Feldzuordnung](assets/custom-action-aep-9.png)

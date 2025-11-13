@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 96%
+source-wordcount: '569'
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
 
 1. Ziehen Sie aus dem Bereich **Aktionen** der Palette eine Kanalaktivität auf die Arbeitsfläche.
 
-   ![](assets/journey-web-activity.png)
+   ![Webkanal-Aktionsaktivität auf der Journey-Arbeitsfläche](assets/journey-web-activity.png)
 
 1. Sie können auch die Akivität **[!UICONTROL Aktion]** auswählen, mit der Sie mehrere eingehende Aktionen auswählen können. [Weitere Informationen](journey-action.md)
 
@@ -139,7 +139,7 @@ Sie können den Inhalt einer integrierten Kanalaktion in einer Live-Journey aktu
 
 Öffnen Sie dazu Ihre Live-Journey, wählen Sie die Aktivität „Kanal“ aus und klicken Sie auf **Inhalt bearbeiten**.
 
-![](assets/add-a-message2.png)
+![Dropdown-Liste Aktionsaktivität hinzufügen mit verfügbaren Kanaloptionen](assets/add-a-message2.png)
 
 Sie können jedoch nicht die Attribute ändern, die bei der Personalisierung verwendet wurden, egal, ob es sich um Profilattribute oder kontextuelle Daten (aus Ereignis- oder Journey-Eigenschaften) handelt.
 

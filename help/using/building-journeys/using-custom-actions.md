@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktion, benutzerdefiniert, API, Journey, Konfiguration, Service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: '442'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Weitere Informationen zu benutzerdefinierten Aktionen finden Sie in [diesem Absc
 
 Weitere Informationen zum Erstellen und Konfigurieren einer benutzerdefinierten Aktion finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
-Auf dieser Seite erfahren Sie, wie Sie API-Aufrufantworten aus benutzerdefinierten Aktionen zur Personalisierung [&#128279;](../action/action-response.md).
+Auf dieser Seite erfahren Sie, wie Sie API-Aufrufantworten aus benutzerdefinierten Aktionen zur Personalisierung [](../action/action-response.md).
 
 ## Einverständnis und Data Governance {#privacy}
 
@@ -60,7 +60,7 @@ Die verkettete URL sieht folgendermaßen aus:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
-![](assets/journey-custom-action-url.png)
+![URL-Konfiguration für benutzerdefinierte Aktionen mit dynamischer Parameterzuordnung](assets/journey-custom-action-url.png)
 
 ### Kopfzeilen und Abfrageparameter {#headers}
 
@@ -68,7 +68,7 @@ Im Abschnitt **[!UICONTROL URL-Konfiguration]** werden die dynamischen, jedoch n
 
 Um den Wert der dynamischen Header- und Abfrageparameter-Felder anzugeben, klicken Sie in das Feld oder auf das Stiftsymbol und wählen Sie das gewünschte Feld aus.
 
-![](assets/journey-dynamicheaderfield.png)
+![Dynamische Header-Feldkonfiguration in benutzerdefinierter Aktion](assets/journey-dynamicheaderfield.png)
 
 ## Aktionsparameter
 

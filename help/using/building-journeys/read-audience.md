@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2461'
-ht-degree: 99%
+source-wordcount: '2558'
+ht-degree: 95%
 
 ---
 
@@ -60,13 +60,13 @@ Die Schritte zum Konfigurieren der Aktivität „Zielgruppe lesen“ werden im F
 
    Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
 
-   ![](assets/read-segment-selection.png)
+   ![Benutzeroberfläche zur Zielgruppenauswahl mit verfügbaren Adobe Experience Platform-Zielgruppen](assets/read-segment-selection.png)
 
    Nachdem die Zielgruppe hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** deren Namen und ID kopieren:
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/read-segment-copy.png)
+   ![Schaltfläche „Kopieren“ zum Kopieren von Zielgruppenname und ID im JSON-Format](assets/read-segment-copy.png)
 
    >[!NOTE]
    >
@@ -90,7 +90,7 @@ Die Schritte zum Konfigurieren der Aktivität „Zielgruppe lesen“ werden im F
 
 * Als Best Practice wird empfohlen, in einer Aktivität **Zielgruppe lesen** nur Batch-Zielgruppen zu verwenden. Dies ermöglicht eine zuverlässige und konsistente Zählung der in einer Journey verwendeten Zielgruppen. „Zielgruppe lesen“ wurde für Batch-Anwendungsfälle entwickelt. Wenn Ihr Anwendungsfall Echtzeitdaten benötigt, verwenden Sie bitte die Aktivität **[Zielgruppenqualifizierung](audience-qualification-events.md)**.
 
-* Zielgruppen,[&#x200B; die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
+* Zielgruppen,[ die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
 
 * Beschränkung der gleichzeitigen Ausführung des Typs „Zielgruppe lesen“ pro Organisation: Jede Organisation kann bis zu fünf Instanzen des Typs „Zielgruppe lesen“ gleichzeitig ausführen. Dies umfasst sowohl geplante Ausführungen als auch solche, die durch Geschäftsereignisse ausgelöst werden, und zwar über alle Sandboxes und Journeys hinweg. Diese Beschränkung wird durchgesetzt, um eine faire und ausgewogene Ressourcenzuordnung zwischen allen Organisationen zu gewährleisten.
 
@@ -118,7 +118,7 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 
 >[!NOTE]
 >
->Die Gesamtleserate pro Sandbox ist auf 20.000 Profile pro Sekunde festgelegt. Daher ergibt die Leserate aller gleichzeitig in derselben Sandbox ausgeführten Aktivitäten „Zielgruppe lesen“ maximal 20.000 Profile pro Sekunde. Sie können diese Begrenzung nicht ändern. Weitere Informationen zu Journey-Verarbeitungsraten und -Durchsatz finden Sie [&#x200B; (diesem Abschnitt](entry-management.md#journey-processing-rate).
+>Die Gesamtleserate pro Sandbox ist auf 20.000 Profile pro Sekunde festgelegt. Daher ergibt die Leserate aller gleichzeitig in derselben Sandbox ausgeführten Aktivitäten „Zielgruppe lesen“ maximal 20.000 Profile pro Sekunde. Sie können diese Begrenzung nicht ändern. Weitere Informationen zu Journey-Verarbeitungsraten und -Durchsatz finden Sie [ (diesem Abschnitt](entry-management.md#journey-processing-rate).
 
 ### Planen der Journey {#schedule}
 
@@ -165,15 +165,15 @@ Standardmäßig sind Journeys so konfiguriert, dass sie nur einmal ausgeführt w
 
 1. Wählen Sie in den Eigenschaften der Aktivität **[!UICONTROL Zielgruppe lesen]** die Option **[!UICONTROL Journey-Plan bearbeiten]** aus.
 
-   ![](assets/read-segment-schedule.png)
+   ![Schaltfläche Journey-Zeitplan bearbeiten in den Eigenschaften der Aktivität „Zielgruppe lesen“](assets/read-segment-schedule.png)
 
 1. Die Eigenschaften der Journey werden angezeigt. Wählen Sie in der Dropdown-Liste **[!UICONTROL Planungstyp]** die Häufigkeit aus, mit der die Journey ausgeführt werden soll.
 
-   ![](assets/read-segment-schedule-list.png)
+   ![Dropdown-Liste „Planungstyp“ mit Häufigkeitsoptionen: einmal, täglich, wöchentlich, monatlich](assets/read-segment-schedule-list.png)
 
 Für wiederkehrende Journeys stehen spezifische Optionen zur Verfügung, mit denen Sie den Eintritt der Profile in die Journey verwalten können. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu den einzelnen Optionen zu erhalten.
 
-![](assets/read-audience-options.png)
+![Wiederholungsoptionen für „Zielgruppe lesen“: Inkrementelles Lesen, Erzwungener Wiedereintritt, Trigger nach Batch](assets/read-audience-options.png)
 
 +++**[!UICONTROL Inkrementelles Lesen]**
 
@@ -239,13 +239,13 @@ Mit der Aktivität **[!UICONTROL Zielgruppe lesen]** können Sie die Journey anh
 
 Dazu muss der Testmodus aktiviert werden.
 
-![](assets/read-segment-test-mode.png)
+![Testmodusschnittstelle für die Aktivität „Zielgruppe lesen“ mit Testprofilauswahl](assets/read-segment-test-mode.png)
 
 Konfigurieren Sie den Testmodus und führen Sie ihn wie gewohnt aus. [Erfahren Sie, wie Sie eine Journey testen](testing-the-journey.md).
 
 Sobald der Test ausgeführt wird, können mit der Schaltfläche **[!UICONTROL Protokolle anzeigen]** die Testergebnisse angezeigt werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](testing-the-journey.md#viewing_logs)
 
-![](assets/read-segment-log.png)
+![Testprotokolle mit Ergebnissen der Audience-Ausführung und Profilfluss](assets/read-segment-log.png)
 
 Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](publish-journey.md)). Personen, die zur Zielgruppe gehören, treten zu dem Datum und der Uhrzeit in die Journey ein, die im Abschnitt **[!UICONTROL Planung]** der Journey-Eigenschaften festgelegt sind.
 
@@ -273,7 +273,7 @@ Die Segmentierung kann basieren auf:
 * Tageszeit – Beispiel: Ist es in der Zeitzone der Person morgens?
 * Algorithmus, der die in die Journey geführte Zielgruppe auf der Basis eines Prozentsatzes aufteilt – Beispiel: 90 %–10 % für den Ausschluss einer Kontrollgruppe
 
-![](assets/read-segment-audience1.png)
+![Bedingungsaktivität für Zielgruppensegmentierung in Pfade von VIP und anderen Anbietern als VIP](assets/read-segment-audience1.png)
 
 >[!NOTE]
 >
@@ -287,7 +287,7 @@ Die selbe Aktivität **Bedingung**, die für die Segmentierung verwendet wird (s
 
 Dieser Ausschluss kann unmittelbar nach Zielgruppenabruf, zu Zwecken der Populationszählung oder als Teil einer mehrstufigen Journey erfolgen.
 
-![](assets/read-segment-audience2.png)
+![Journey-Pfad mit Ausschlussverzweigung unter Verwendung der Aktivität „Ende“](assets/read-segment-audience2.png)
 
 **Vereinigung**
 
@@ -295,7 +295,7 @@ Journeys erlauben das Erstellen von N Verzweigungen, die nach einer Segmentierun
 
 Ein Beispiel: Im Anschluss an ein zehntägiges differenziertes Erlebnis in einer Journey können Kundinnen und Kunden mit und ohne VIP-Status zum selben Pfad zurückkehren. Nach einer Vereinigung können Sie die Zielgruppe erneut teilen, indem Sie eine Segmentierung oder einen Ausschluss durchführen.
 
-![](assets/read-segment-audience3.png)
+![Journey-Pfade werden nach der Segmentierung mithilfe von Vereinigung wieder zusammengeführt](assets/read-segment-audience3.png)
 
 ## Weitere Zustellversuche {#read-audience-retry}
 
@@ -307,4 +307,4 @@ Nicht erfolgreiche **Zielgruppen lesen**-Trigger werden erfasst und in den **War
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: Journey, Anwendungsfall, Nachricht, Abonnenten, Liste, Lesen
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 
    1. Klicken Sie auf das Symbol **[!UICONTROL Parameterüberschreibungen aktivieren]** rechts neben dem Feld **[!UICONTROL Adresse]** und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten]**.
 
-      ![](assets/message-to-subscribers-uc-1.png)
+      ![Journey-Fluss mit „Zielgruppe lesen“ für das Targeting von Abonnentenlisten](assets/message-to-subscribers-uc-1.png)
 
    1. Geben Sie im Ausdruckseditor den Ausdruck ein, um die E-Mail-Adressen der Abonnenten abzurufen. [Weitere Informationen](expression/expressionadvanced.md).
 
@@ -54,7 +54,7 @@ Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 
       Lesen Sie mehr über [Verweise auf Felder](expression/field-references.md) in Ausdrücken.
 
-      ![](assets/message-to-subscribers-uc-2.png)
+      ![E-Mail-Konfiguration mit personalisierten Inhalten für Abonnenten](assets/message-to-subscribers-uc-2.png)
 
    1. Klicken Sie im Dialogfeld **[!UICONTROL Ausdruck hinzufügen]** auf **[!UICONTROL Ok]**.
 

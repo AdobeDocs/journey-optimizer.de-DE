@@ -9,10 +9,10 @@ level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 100%
+source-wordcount: '819'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Beim Erstellen einer Journey wird am Ende jedes Pfads ein End-Tag angezeigt. Die
 
 Wenn die Journey mehrere Pfade hat, empfehlen wir, für jedes Ende ein Label hinzuzufügen, damit Berichte leichter verständlich sind. Erfahren Sie mehr über [Journey-Berichte](../reports/live-report.md).
 
-![](assets/journey-end.png)
+![Aktionsschaltfläche &quot;Journey beenden“ in der Journey-Symbolleiste](assets/journey-end.png)
 
 ## Schließen einer Journey {#close-journey}
 
@@ -69,14 +69,14 @@ Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die 
 
 Um eine Journey in der Liste der Journeys zu schließen, klicken Sie auf den Button mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Für neue Eintritte schließen]** aus.
 
-![](assets/journey-finish-quick-action.png)
+![Dropdown-Liste „Aktion beenden“ im Schnellaktionsmenü für das Beenden von Journey](assets/journey-finish-quick-action.png)
 
 Alternativ können Sie auch folgendermaßen vorgehen:
 
 1. Klicken Sie in der Liste **[!UICONTROL Journeys]** auf die Journey, die Sie schließen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
-   ![](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![Optionsmenü „Beenden“ mit End-Journey und alternativen Aktionen](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]** und bestätigen Sie diese Auswahl im Dialogfeld.
 
@@ -89,14 +89,14 @@ Sie können nötigenfalls den Fortschritt aller Personen in einer Journey stoppe
 
 Sie können beispielsweise eine Journey stoppen, wenn ein Marketer erkennt, dass die Journey die falsche Zielgruppe anspricht, oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht ordnungsgemäß funktioniert. Um eine Journey aus der Liste der Journeys zu entfernen, klicken Sie auf den Button mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Stoppen]** aus.
 
-![](assets/journey-finish-quick-action.png)
+![Dropdown-Liste „Aktion beenden“ im Schnellaktionsmenü für das Beenden von Journey](assets/journey-finish-quick-action.png)
 
 Alternativ können Sie auch folgendermaßen vorgehen:
 
 1. Klicken Sie in der Liste **[!UICONTROL Journeys]** auf die Journey, die Sie stoppen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
-   ![](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![Zusätzliche Finish-Optionen, einschließlich Journey schließen und Bereinigung](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Stoppen]** und bestätigen Sie diese Auswahl im Dialogfeld.
 

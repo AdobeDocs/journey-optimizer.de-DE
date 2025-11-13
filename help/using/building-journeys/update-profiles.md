@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Profil, Aktualisieren, Journey, Aktivität
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 94%
 
 ---
 
@@ -48,13 +48,13 @@ Außerdem erfordert die Konfiguration der Aktivität **Profil aktualisieren** ke
 
 1. Legen Sie im Abschnitt **Aktion** der Palette die Aktivität **Profil aktualisieren** auf der Arbeitsfläche ab.
 
-   ![](assets/profileupdate0.png)
+   ![Aktualisieren der Profilaktivität in der Journey-Palette unter „Aktionen“](assets/profileupdate0.png)
 
 1. Wählen Sie ein Schema aus der Liste aus.
 
 1. Klicken Sie auf **Feld**, um das Feld auszuwählen, das Sie aktualisieren möchten. Es kann nur ein Feld ausgewählt werden.
 
-   ![](assets/profileupdate2.png)
+   ![Bedienfeld „Konfiguration der Profilaktualisierung“ mit Dropdown-Liste zur Feldauswahl](assets/profileupdate2.png)
 
 1. Wählen Sie einen Datensatz aus der Liste aus.
 
@@ -66,15 +66,15 @@ Außerdem erfordert die Konfiguration der Aktivität **Profil aktualisieren** ke
 
    * Mit dem einfachen Ausdruckseditor können Sie ein Feld aus einer Datenquelle oder aus dem eingehenden Ereignis auswählen.
 
-     ![](assets/profileupdate4.png)
+     ![Feldauswahl im einfachen Modus für Aktualisierungen von Profilattributen](assets/profileupdate4.png)
 
    * Wenn Sie einen bestimmten Wert definieren oder erweiterte Funktionen nutzen möchten, wählen Sie **Erweiterter Modus** aus.
 
-     ![](assets/profileupdate3.png)
+     ![Ausdruckseditor im erweiterten Modus für komplexe Profilaktualisierungen](assets/profileupdate3.png)
 
 Die Aktivität **Profil aktualisieren** ist jetzt konfiguriert.
 
-![](assets/profileupdate1.png)
+![Aktivität „Profil aktualisieren“ im Journey mit der Feldkonfiguration](assets/profileupdate1.png)
 
 
 ## Verwenden des Testmodus {#using-the-test-mode}

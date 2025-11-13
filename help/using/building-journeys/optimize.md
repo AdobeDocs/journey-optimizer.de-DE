@@ -11,10 +11,10 @@ keywords: Aktivität, Bedingung, Arbeitsfläche, Journey, Optimierung
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: ht
-source-wordcount: '1461'
-ht-degree: 100%
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+workflow-type: tm+mt
+source-wordcount: '1636'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +43,7 @@ Mit der Aktivität **Optimieren** können Sie die folgenden Aktionen für die re
 * [Targeting](#targeting)-Regeln in jedem Journey-Pfad nutzen
 * [Bedingungen](#conditions) auf Ihre Pfade anwenden
 
-![](assets/journey-optimize.png)
+![Schaltfläche „Optimieren“ in der Palette &quot;Journey-Aktivität“](assets/journey-optimize.png)
 
 Sobald die Journey live ist, werden die Profile anhand der definierten Kriterien bewertet und basierend auf den passenden Kriterien auf den entsprechenden Pfad der Journey weitergeleitet.
 
@@ -71,13 +71,13 @@ Angenommen, Sie möchten drei Pfade vergleichen:
 
 1. Wählen Sie **[!UICONTROL Experiment]** aus der Dropdown-Liste **[!UICONTROL Methode]** aus.
 
-   ![](assets/journey-optimize-experiment.png){width=65%}
+   ![Bedienfeld für die Konfiguration von Inhaltsexperimenten](assets/journey-optimize-experiment.png){width=65%}
 
 1. Klicken Sie auf **[!UICONTROL Experiment erstellen]**.
 
 1. Wählen Sie die **[!UICONTROL Erfolgsmetrik]**, die Sie für Ihr Experiment festlegen möchten. Weitere Informationen zu den verfügbaren Metriken und zur Konfiguration der Liste finden Sie in [diesem Abschnitt](success-metrics.md).
 
-   ![](assets/journey-optimize-experiment-metrics.png){width=80%}
+   ![Auswahl Primärer und zusätzlicher Metriken für das Experiment](assets/journey-optimize-experiment-metrics.png){width=80%}
 
 1. Bei Bedarf können Sie Ihrem Versand eine **[!UICONTROL Holdout]**-Gruppe hinzufügen. Diese Gruppe wird keinen Pfad aus diesem Experiment beschreiten.
 
@@ -91,7 +91,7 @@ Angenommen, Sie möchten drei Pfade vergleichen:
 
 1. Sie können dann jeder **[!UICONTROL Abwandlung]** einen bestimmten Prozentsatz zuweisen oder einfach den Umschalter **[!UICONTROL Gleichmäßig verteilen]** aktivieren.
 
-   ![](assets/journey-optimize-experiment-treatments.png){width=80%}
+   ![Schieberegler Abwandlungszuordnung mit prozentualer Verteilung](assets/journey-optimize-experiment-treatments.png){width=80%}
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -103,17 +103,17 @@ Angenommen, Sie möchten drei Pfade vergleichen:
 
    * Ziehen Sie eine Aktivität des Typs [E-Mail](../email/create-email.md) auf die dritte Verzweigung, gefolgt von einer Aktivität des Typs [SMS](../sms/create-sms.md) (**Abwandlung C**).
 
-   ![](assets/journey-optimize-experiment-ex.png){width=100%}
+   ![Beispiel eines Inhaltsexperiments mit drei Behandlungspfaden](assets/journey-optimize-experiment-ex.png){width=100%}
 
 1. Nutzen Sie bei Bedarf die Option **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]**, um eine Ausweichaktion zu definieren. [Weitere Informationen](using-the-journey-designer.md#paths)
 
 1. Wählen Sie eine Kanalaktion aus und verwenden Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um auf die Designtools zuzugreifen.
 
-   ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
+   ![Schaltfläche „Inhalt bearbeiten“ in der Kanalaktionsaktivität](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
 1. Von dort aus können Sie mithilfe des linken Bereichs für jede Aktion in Ihrem Experiment zwischen den verschiedenen Inhalten navigieren. Wählen Sie die einzelnen Inhalte aus und gestalten Sie sie nach Bedarf.
 
-   ![](assets/journey-optimize-experiment-content.png){width=100%}
+   ![Bedienfeld zur Inhaltsauswahl mit Abwandlungen für das Experiment](assets/journey-optimize-experiment-content.png){width=100%}
 
 1. [Veröffentlichen](publish-journey.md) Sie Ihre Journey.
 
@@ -131,7 +131,7 @@ Testen Sie, ob das Senden der ersten Nachricht per E-Mail oder per SMS zu höher
 
 ➡️ Verwenden Sie die Konversionsrate als Erfolgsmetrik (z. B. Käufe, Anmeldungen).
 
-![](assets/journey-optimize-experiment-uc-channel.png)
+![Kanaleffektivitäts-Experiment zum Vergleich von E-Mail und SMS](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
@@ -141,7 +141,7 @@ Führen Sie ein Experiment durch, um zu überprüfen, ob der Versand einer E-Mai
 
 ➡️ Verwenden Sie Käufe oder die Abmelderate als Erfolgsmetrik.
 
-![](assets/journey-optimize-experiment-uc-frequency.png)
+![Häufigkeitstest einer E-Mail im Vergleich zu drei E-Mails](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -151,7 +151,7 @@ Vergleichen Sie eine Wartezeit von 24 Stunden mit einer Wartezeit von 72 Stunden
 
 ➡️ Verwenden Sie die Klickrate oder den Umsatz als Erfolgsmetrik.
 
-![](assets/journey-optimize-experiment-uc-wait.png)
+![Wartezeitexperiment zum Vergleich von 24-Stunden- mit 72-Stunden-Verzögerungen](assets/journey-optimize-experiment-uc-wait.png)
 
 +++
 
@@ -182,21 +182,21 @@ Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 
 1. Wählen Sie **[!UICONTROL Targeting-Regel]** aus der Dropdown-Liste **[!UICONTROL Methode]** aus.
 
-   ![](assets/journey-optimize-targeting.png){width=60%}
+   ![Zielgruppenbestimmungsregelauswahl in der Aktivität „Optimieren“](assets/journey-optimize-targeting.png){width=60%}
 
 1. Klicken Sie auf **[!UICONTROL Targeting-Regel erstellen]**.
 
 1. Klicken Sie auf **[!UICONTROL Regel erstellen]** > **[!UICONTROL Neu erstellen]** und verwenden Sie den Regel-Builder, um Ihre Kriterien zu definieren.
 
-   ![](assets/journey-targeting-create-rule.png){width=100%}
+   ![Benutzeroberfläche des Regel-Builders zum Erstellen von Zielgruppenkriterien](assets/journey-targeting-create-rule.png){width=100%}
 
    Definieren Sie beispielsweise eine Regel für Gold-Mitglieder des Treueprogramms (`loyalty.status.equals("Gold", false)`) und eine weitere Regel für die anderen Mitglieder (`loyalty.status.notEqualTo("Gold", false)`).
 
-   ![](assets/journey-targeting-rule.png)
+   ![Zielgruppenbestimmungsregel für den Treuestatus für Gold- und Nicht-Gold-Mitglieder](assets/journey-targeting-rule.png)
 
 1. Sie können auch auf **[!UICONTROL Regel erstellen]** > **[!UICONTROL Regel auswählen]** klicken, um eine vorhandene Zielgruppenregel auszuwählen, die im Menü **[!UICONTROL Regeln]** erstellt wurde. [Weitere Informationen](../experience-decisioning/rules.md)
 
-   ![](assets/journey-targeting-select-rule.png){width=70%}
+   ![Wählen Sie im Menü Regeln eine vorhandene Zielgruppenbestimmungsregel aus](assets/journey-targeting-select-rule.png){width=70%}
 
    In diesem Fall wird die Formel, aus der die Regel besteht, einfach in die Journey-Aktivität kopiert. Spätere Änderungen an dieser Regel im Menü **[!UICONTROL Regeln]** wirken sich nicht auf die Kopie der Journey aus.
 
@@ -208,7 +208,7 @@ Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 
 1. Nachdem Sie eine Regel hinzugefügt haben, können Sie sie noch ändern. Wählen Sie **[!UICONTROL Inline bearbeiten]**, um sie mithilfe des Regel-Builders schnell zu aktualisieren, oder **[!UICONTROL Regel auswählen]**, um eine andere vorhandene Regel auszuwählen.
 
-   ![](assets/journey-targeting-modify-rule.png){width=100%}
+   ![Inline bearbeiten oder Regeloptionen zum Ändern von Zielgruppenregeln auswählen](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
@@ -224,17 +224,17 @@ Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 
 1. Kehren Sie zur Journey zurück und fügen Sie bestimmte Aktionen hinzu, um jeden Pfad anzupassen. Erstellen Sie beispielsweise eine E-Mail mit personalisierten Angeboten für Gold-Mitglieder des Treueprogramms und eine SMS-Erinnerung für alle anderen Mitglieder.
 
-   ![](assets/journey-targeting-paths.png)
+   ![Journey-Pfade mit E-Mail für Gold-Mitglieder und SMS für andere](assets/journey-targeting-paths.png)
 
 1. Wenn Sie beim Definieren der Regeleinstellungen die Option **[!UICONTROL Fallback-Inhalte aktivieren]** ausgewählt haben, definieren Sie für den automatisch hinzugefügten Fallback-Pfad eine oder mehrere Aktionen.
 
-   ![](assets/journey-targeting-fallback.png){width=70%}
+   ![Fallback-Pfadkonfiguration für nicht qualifizierte Profile](assets/journey-targeting-fallback.png){width=70%}
 
 1. Verwenden Sie bei Bedarf die Option **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]**, um eine alternative Aktion zu definieren, falls Probleme auftreten. [Weitere Informationen](using-the-journey-designer.md#paths)
 
 1. Gestalten Sie geeignete Inhalte für jede den einzelnen Gruppen entsprechende Aktion, durch die Einstellungen Ihrer Targeting-Regeln definiert werden. Sie können für jede Aktion nahtlos zwischen den verschiedenen Inhalten navigieren.
 
-   ![](assets/journey-targeting-design.png)
+   ![Bedienfeld „Inhaltserstellung“ für Aktionen mit Zielgruppenregeln](assets/journey-targeting-design.png)
 
    In diesem Beispiel entwerfen Sie eine E-Mail mit Sonderangeboten für Gold-Mitglieder und eine SMS-Erinnerung für die anderen Mitglieder.
 
@@ -254,7 +254,7 @@ Mitglieder des Treueprogramms mit Gold-Status können personalisierte Angebote p
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-segment.png)
+![Segmentspezifische Kanäle, die Gold-Mitglieder per E-Mail und andere mit SMS ansprechen](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -264,7 +264,7 @@ Kundinnen und Kunden, die eine E-Mail geöffnet, aber nicht geklickt haben, kön
 
 <!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-behavior.png)
+![Verhaltensbasiertes Targeting für E-Mail-Interaktionen mit Push- oder SMS-Fallback](assets/journey-optimize-targeting-uc-behavior.png)
 
 +++
 
@@ -274,7 +274,7 @@ Kundinnen und Kunden, die kürzlich gekauft haben, können in einen kurzen Pfad 
 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
-![](assets/journey-optimize-targeting-uc-purchase.png)
+![Zielgruppenbestimmung des Kaufverlaufs mit Cross-Selling-Pfad für Käufer und Pflegepfad für Nicht-Käufer](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
@@ -282,7 +282,7 @@ Kundinnen und Kunden, die kürzlich gekauft haben, können in einen kurzen Pfad 
 
 Bedingungen sind eine Art von [Targeting](#targeting)-Regeln, mit denen Sie festlegen können, wie sich Personen durch Ihre Journey bewegen, indem Sie auf Grundlage bestimmter Kriterien verschiedene Pfade einrichten.
 
-![](assets/journey-condition.png)
+![Bedingungsaktivität beim Journey, wenn mehrere Pfade auf Grundlage von Kriterien erstellt werden](assets/journey-condition.png)
 
 Erfahren Sie in [diesem Abschnitt](conditions.md), wie Sie eine Bedingung definieren.
 

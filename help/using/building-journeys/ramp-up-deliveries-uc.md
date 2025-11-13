@@ -12,10 +12,10 @@ hidefromtoc: true
 keywords: Zustellbarkeit, Journey, Anwendungsfall, E-Mail, Reputation
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 94%
 
 ---
 
@@ -37,13 +37,13 @@ In diesem Anwendungsbeispiel wird eine Journey erstellt, um die Versandaktivitä
 
    1. Legen Sie das Feld **[!UICONTROL Limit]** auf die maximale Anzahl an Empfängern für diesen Versand fest.
 
-   ![](assets/profile-cap-condition.png)
+   ![Konfiguration der Profilbegrenzungsbedingung zur Steuerung des Versandvolumens](assets/profile-cap-condition.png)
 
    Sie können dieses Limit schrittweise auf die Gesamtzahl Ihrer Abonnenten erhöhen.
 
 1. Fügen Sie im nominalen Pfad nach der Aktivität **[!UICONTROL Bedingung]** die Aktionsaktivität **[!UICONTROL E-Mail]** hinzu.
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![E-Mail-Nachrichtenkonfiguration auf der Journey mit dem Rampenversand](assets/ramp-up-deliveries-message.png)
 
    Wenn die Journey ausgeführt wird, wird die Nachricht bis zu der von Ihnen angegebenen Höchstzahl an Profilen an die eingehenden Profile gesendet. Wenn dieses Limit erreicht ist, nehmen die eingehenden Profile den alternativen Pfad.
 

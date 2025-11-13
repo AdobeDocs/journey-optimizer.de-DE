@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 87%
+source-wordcount: '915'
+ht-degree: 84%
 
 ---
 
@@ -78,7 +78,7 @@ Gehen Sie wie folgt vor, um eine mehrstufige Journey zu erstellen:
 
 1. Bearbeiten Sie den Konfigurationsbereich der Journey, um den Namen der Journey zu definieren und ihre Eigenschaften festzulegen. Informationen zum Festlegen der Eigenschaften Ihrer Journey finden Sie auf [dieser Seite](journey-properties.md).
 
-   ![](assets/jo-properties.png)
+   ![Bedienfeld &quot;Journey-Eigenschaften“ mit Einstellungen und Konfigurationsoptionen](assets/jo-properties.png)
 
 Anschließend können Sie mit der Gestaltung Ihrer Journey beginnen.
 
@@ -86,11 +86,11 @@ Anschließend können Sie mit der Gestaltung Ihrer Journey beginnen.
 
 Der Omnichannel-Journey-Designer hilft Ihnen bei der Erstellung mehrstufiger Journeys – mit entsprechenden Zielgruppen, Aktualisierungen basierend auf Echtzeit-Kunden- bzw. Geschäftsinteraktionen sowie Omnichannel-Nachrichten mithilfe einer intuitiven Drag-and-Drop-Oberfläche.
 
-![](assets/journey38.png)
+![Journey-Designer-Benutzeroberfläche mit Aktivitätspalette und Arbeitsfläche](assets/journey38.png)
 
 1. Ziehen Sie zuerst ein Ereignis oder die Aktivität **Zielgruppe lesen** per Drag-and-Drop aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
-   ![](assets/read-segment.png)
+   ![Konfiguration der Aktivität „Zielgruppe lesen“ für die Auswahl der Zielgruppe](assets/read-segment.png)
 
 1. Ziehen Sie ein Ereignis oder eine Aktivität des Typs **Zielgruppe lesen** per Drag-and-Drop aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
@@ -104,11 +104,11 @@ Sie können Ihre Journey auch im **Probelauf** ausführen. Der Journey-Probelauf
 
 Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen. Weitere Informationen zur Veröffentlichung von Journeys finden Sie in diesem [Abschnitt](publish-journey.md).
 
-![](assets/jo-journeyuc2_32bis.png)
+![Vollständiger Journey-Ablauf mit Audience, Bedingungen und Aktionen](assets/jo-journeyuc2_32bis.png)
 
 Nach der Veröffentlichung können Sie Ihre Journey mit den dedizierten Reporting-Tools überwachen, um ihre Effektivität zu messen.
 
-![](assets/jo-dynamic_report_journey_12.png)
+![Journey Analytics-Bericht mit Leistungsmetriken und Statistiken](assets/jo-dynamic_report_journey_12.png)
 
 Weitere Informationen zu Journey-Berichten finden Sie in diesem [Abschnitt](../reports/live-report.md).
 

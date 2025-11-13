@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: Journey, Anwendungsfall
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 93%
 
 ---
 
@@ -34,13 +34,13 @@ In diesem Anwendungsbeispiel wird eine Journey erstellt, um die Versandaktivitä
 
    1. Legen Sie das Feld **[!UICONTROL Limit]** auf die maximale Anzahl an Empfängern für diesen Versand fest.
 
-   ![](assets/profile-cap-condition.png)
+   ![Profilbegrenzungsbedingung zur Steuerung des Ausführungsvolumens benutzerdefinierter Aktionen](assets/profile-cap-condition.png)
 
    Sie können dieses Limit schrittweise auf die Gesamtzahl Ihrer Abonnenten erhöhen.
 
 1. Fügen Sie im nominalen Pfad nach der Aktivität **[!UICONTROL Bedingung]** die Aktionsaktivität **[!UICONTROL E-Mail]** hinzu.
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![Journey mit benutzerdefinierter Aktion zum Senden von Daten an ein externes System](assets/ramp-up-deliveries-message.png)
 
    Wenn die Journey ausgeführt wird, wird die Nachricht bis zu der von Ihnen angegebenen Höchstzahl an Profilen an die eingehenden Profile gesendet. Wenn dieses Limit erreicht ist, nehmen die eingehenden Profile den alternativen Pfad.
 

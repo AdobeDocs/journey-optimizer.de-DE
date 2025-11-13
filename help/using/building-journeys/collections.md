@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
-workflow-type: ht
-source-wordcount: '723'
-ht-degree: 100%
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+workflow-type: tm+mt
+source-wordcount: '767'
+ht-degree: 94%
 
 ---
 
@@ -104,7 +104,7 @@ Sie können sehen, dass `products` ein Array von zwei Objekten ist. Sie müssen 
 
 1. Fügen Sie im Abschnitt **[!UICONTROL Aktionsparameter]** das JSON-Beispiel ein. Die angezeigte Struktur ist statisch: Beim Einfügen der Payload werden alle Felder als Konstanten definiert.
 
-   ![](assets/uc-collection-1.png)
+   ![Ausdruckseditor mit Sammlungsfunktionen und -vorgängen](assets/uc-collection-1.png)
 
 1. Passen Sie bei Bedarf die Feldtypen an. Die folgenden Feldtypen werden für Sammlungen unterstützt: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
@@ -120,21 +120,21 @@ Sie können sehen, dass `products` ein Array von zwei Objekten ist. Sie müssen 
 
 1. Definieren Sie für jedes Feld das Label, das auf der Journey-Arbeitsfläche angezeigt werden soll.
 
-   ![](assets/uc-collection-2.png){width="70%" align="left"}
+   ![Filter-Sammlungsfunktion mit der Condition Builder-Schnittstelle](assets/uc-collection-2.png){width="70%" align="left"}
 
 1. Erstellen Sie Ihre Journey und fügen Sie die von Ihnen erstellte benutzerdefinierte Aktion hinzu. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/using-custom-actions.md).
 
 1. Definieren Sie im Abschnitt **[!UICONTROL Aktionsparameter]** den Array-Parameter (in unserem Beispiel `products`) mithilfe des erweiterten Ausdruckseditors.
 
-   ![](assets/uc-collection-3.png)
+   ![Ausdruck für die Sammlungsfilterung mit Feldauswahl](assets/uc-collection-3.png)
 
 1. Geben Sie für jedes der folgenden Objektfelder den entsprechenden Feldnamen aus dem Quell-XDM-Schema ein. Wenn die Namen identisch sind, ist dies nicht erforderlich. In unserem Beispiel müssen wir nur `product id` und „color“ definieren.
 
-   ![](assets/uc-collection-4.png){width="50%" align="left"}
+   ![Sortierfunktion der Sammlung mit Sortierkonfiguration](assets/uc-collection-4.png){width="50%" align="left"}
 
 Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenbearbeitungen durchzuführen. Im folgenden Beispiel werden die Funktionen [Filtern](functions/list-functions.md#filter) und [Überschneidung](functions/list-functions.md#intersect) verwendet:
 
-![](assets/uc-collection-5.png)
+![Vollständiger Sammlungsausdruck mit Filter-, Sortier- und Limitvorgängen](assets/uc-collection-5.png)
 
 ## Einschränkungen {#limitations}
 
@@ -194,7 +194,7 @@ Sammlungen in benutzerdefinierten Aktionen bieten zwar Flexibilität bei der Üb
 
 Bei heterogenen Typen und Arrays von Arrays wird das Array mit dem Typ „listAny“ definiert. Sie können nur einzelne Elemente zuordnen, das Array jedoch nicht in eine Variable ändern.
 
-![](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![Heterogene Sammlung mit gemischten Datentypen und Feldauswahl](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
 
 Beispiel eines heterogenen Typs:
 
