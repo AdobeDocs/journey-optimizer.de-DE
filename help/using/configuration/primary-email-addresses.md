@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: primär, Ausführung, E-Mail, Zielgruppe, Profil, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 88%
 
 ---
 
-# Ändern von Ausführungsadressen {#change-primary-email}
+# Standard-Ausführungsfelder verwalten {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -73,8 +73,7 @@ Das Ausführungsfeld wird aktualisiert und jetzt als primäre Adresse verwendet.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="Definieren eines benutzerdefinierten Werts"
->abstract="In bestimmten Fällen können Sie die standardmäßige Ausführungsadresse überschreiben. Verwenden Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben dem Feld, um eine benutzerdefinierte primäre Adresse zu definieren."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="Informationen zur Ausführungsadresse"
+>abstract="In bestimmten Fällen können Sie den Wert des Standardausführungsfelds überschreiben. Verwenden Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben diesem Feld, um eine benutzerdefinierte E-Mail-Adresse oder Telefonnummer zu definieren, die für den Versand priorisiert werden soll."
 
 Für bestimmte Anwendungsfälle können Sie das global festgelegte Ausführungsfeld überschreiben und einen anderen Wert auf Journey-Ebene definieren.
 
@@ -91,7 +90,7 @@ Verwenden Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** re
 
 >[!CAUTION]
 >
->E-Mail-Adressen oder Telefonnummern sollten nur für bestimmte Anwendungsfälle überschrieben werden. Meistens müssen Sie sie nicht ändern, da der als die primäre Adresse in den **[!UICONTROL Ausführungsfeldern]** auf Sandbox-Ebene definierte Wert derjenige ist, der verwendet werden sollte.
+>E-Mail-Adressen oder Telefonnummern sollten nur für bestimmte Anwendungsfälle überschrieben werden. In den meisten Fällen müssen Sie ihn nicht ändern, da der Wert, der als primäres Feld in den **[!UICONTROL Ausführungsfeldern]** auf Sandbox-Ebene definiert ist, derjenige ist, der verwendet werden sollte. [Weitere Informationen](#change-primary-email)
 
 ## Überschreiben des Standardausführungsfelds in der Kanalkonfiguration {#override-execution-address-channel-config}
 
