@@ -5,10 +5,10 @@ title: Erstellen einer Zielgruppendimension
 description: Erfahren Sie, wie Sie dem Kundenprofil ein relationales Schema zuordnen.
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 9003668674302c576ed9738c803446c476877e47
+source-git-commit: f842142a985481004192c88af2973787912c85b3
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 88%
+source-wordcount: '438'
+ht-degree: 74%
 
 ---
 
@@ -27,13 +27,13 @@ Bei der Konfiguration der Zielgruppenbestimmung definieren Sie zwei wichtige Asp
 
   >[!IMPORTANT]
   >
-  > Das Zielschema muss eine 1::1-Beziehung mit dem Schema `Profile` haben. Beispielsweise können Sie `Purchases` nicht als Zielschema verwenden, da es in der Regel eine Eins-zu-viele-Beziehung darstellt.
+  > Orchestrierte Kampagnen ermöglichen die Zielgruppenbestimmung für jedes Schema, das eine direkte oder verwandte Beziehung zum Schema **Profil** aufweist. Obwohl die Verwendung in erster Linie für 1:1-Beziehungen vorgesehen ist, unterstützt sie auch 1:N-Beziehungen wie Konto `>` Empfänger , solange der Beziehungspfad im Datenmodell ordnungsgemäß modelliert ist. Dies ermöglicht die Zielgruppenbestimmung anhand von Daten auf Kontoebene, während gleichzeitig die richtige Profilidentität für den Nachrichtenversand aufgelöst wird.
 
 * **Profilverknüpfung**
 
   Das System muss verstehen, wie das Zielschema dem `Profile`-Schema zugeordnet ist. Dies wird durch ein gemeinsames Identitätsfeld erreicht, das sowohl im Zielschema als auch im `Profile`-Schema existiert und als Identity-Namespace konfiguriert ist.
 
-➡️ [Weitere Informationen zu relationalen Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Weitere Informationen zu relationalen Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Erstellen einer Zielgruppendimension {#targeting-dimension}
 
