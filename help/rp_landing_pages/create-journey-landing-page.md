@@ -21,7 +21,7 @@ Das Erstellen einer Journey in Adobe Journey Optimizer ermöglicht es Ihnen, per
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen Ihrer ersten Customer Journey
 
@@ -31,7 +31,7 @@ Erfahren Sie in einer schrittweisen Anleitung, wie Sie Ihre erste Customer Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Definieren und Verwalten von Journey-Eigenschaften
 
@@ -61,7 +61,7 @@ Testen Sie Ihre Journeys mit simulierten Profilen und erkennen Sie Fehler, bevor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Testen von Journeys im Probelauf-Modus
 
@@ -71,7 +71,7 @@ Validieren Sie Ihre Journeys mit echten Produktionsdaten, ohne sich an Kundinnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Veröffentlichen einer Journey
 

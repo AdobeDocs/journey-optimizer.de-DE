@@ -20,7 +20,7 @@ Adobe Journey Optimizer nutzt die Leistungsfähigkeit von künstlicher Intellige
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 KI-Assistent für die Inhaltsgenerierung
 
@@ -40,7 +40,7 @@ Verwenden Sie KI, um basierend auf historischen Verhaltensweisen den optimalen Z
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 KI-Modelle für die Entscheidungsfindung
 
@@ -50,7 +50,7 @@ Erstellen Sie Modelle für die automatische und personalisierte Optimierung, um 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Produktwissen zum KI-Assistenten
 
@@ -60,7 +60,7 @@ Erhalten Sie sofortige Antworten und betriebliche Erkenntnisse über Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Inhaltsexperimente mit KI
 
@@ -80,7 +80,7 @@ Bewerten Sie mithilfe der KI-gestützten Bewertung, wie gut Ihre KI-generierten 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Experiment Accelerator
 
@@ -90,7 +90,7 @@ Beschleunigen Sie Ihre Inhaltsexperimente mit KI-gestützten Erkenntnissen und E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Bild-zu-HTML-Converter
 
