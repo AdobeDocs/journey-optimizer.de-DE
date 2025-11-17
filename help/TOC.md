@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
+source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '2983'
 ht-degree: 97%
 
 ---
@@ -316,6 +316,7 @@ ht-degree: 97%
       + [Überprüfen und Senden Ihrer Textnachrichten](using/sms/send-sms.md)
       + [Verwalten des Opt-outs von Textnachrichten](using/sms/sms-opt-out.md)
       + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
+      + [Best Practices für die SMS-Kostenoptimierung](using/sms/sms-subdomains.md)
       + Konfigurieren des SMS-/MMS-/RCS-Kanals {#configure-sms}
          + [Konfigurieren des SMS-/MMS-/RCS-Kanals](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Erste Schritte bei der SMS-/MMS-/RCS-Konfiguration](using/sms/sms-configuration.md)
