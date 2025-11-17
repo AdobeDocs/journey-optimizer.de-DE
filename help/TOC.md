@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 97%
       + [Erste Schritte mit der Oberfläche](using/start/user-interface.md)
       + [Suchen, Filtern, Kategorisieren](using/start/search-filter-categorize.md)
       + [Barrierefreiheit](using/start/accessibility.md)
-   + [Arbeiten mit dem KI-Assistenten](using/start/ai-assistant.md)
+   + [Mit dem KI-Assistenten arbeiten](using/start/ai-assistant.md)
    + [KI-Funktionen in AJO](/help/rp_landing_pages/ai-capabilities-landing-page.md)
    + [Anwendungsfall-Playbooks](using/start/playbooks.md)
    + [Leitlinien und Einschränkungen](using/start/guardrails.md)
@@ -60,7 +60,7 @@ ht-degree: 97%
       + [Festlegen der Journey-Eigenschaften](using/building-journeys/journey-properties.md)
       + [Konfigurieren und Verfolgen der Journey-Metriken](using/building-journeys/success-metrics.md)
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
-      + [Testen einer Journey](using/building-journeys/testing-the-journey.md)
+      + [Journey testen](using/building-journeys/testing-the-journey.md)
       + [Journey-Probelauf](using/building-journeys/journey-dry-run.md)
       + [Veröffentlichen Ihrer Journey](using/building-journeys/publish-journey.md)
       + [Pausieren einer Journey](using/building-journeys/journey-pause.md)
@@ -113,9 +113,9 @@ ht-degree: 97%
          + [Hauptfunktionen](using/building-journeys/expression/functions.md)
          + [inAudience-Funktion](using/building-journeys/functions/functioninaudience.md)
          + [Aggregationsfunktionen](using/building-journeys/functions/aggregation-functions.md)
-         + [Konvertierungsfunktionen](using/building-journeys/functions/conversion-functions.md)
+         + [Konversionsfunktionen](using/building-journeys/functions/conversion-functions.md)
          + [Datumsfunktionen](using/building-journeys/functions/date-functions.md)
-         + [Funktionen auflisten](using/building-journeys/functions/list-functions.md)
+         + [Auflistungsfunktionen](using/building-journeys/functions/list-functions.md)
          + [Mathematische Funktionen](using/building-journeys/functions/math-functions.md)
          + [Zeichenfolgen-Funktionen](using/building-journeys/functions/string-functions.md)
    + Anwendungsfälle {#journey-use-cases}
@@ -228,12 +228,12 @@ ht-degree: 97%
       + [Erstellen und Verwalten von Genehmigungsrichtlinien](using/test-approve/approval-policies.md)
       + [Anfragen einer Genehmigung](using/test-approve/request-approval.md)
       + [Genehmigen einer Anfrage](using/test-approve/review-approve-request.md)
-+ Überwachung und Fehlerbehebung {#monitor}
-   + [Überwachung und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
++ Monitoring und Fehlerbehebung {#monitor}
+   + [Monitoring und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Systemwarnhinweise](using/reports/alerts.md)
    + [Referenz für Fehler-Codes](using/building-journeys/error-codes-reference.md)
    + [Artikel zur Fehlerbehebung](using/start/troubleshooting.md)
-   + Fehlerbehebung bei Journey {#troubleshoot-journey}
+   + Fehlerbehebung in Journeys {#troubleshoot-journey}
       + [Fehlerbehebung in Journeys](using/building-journeys/troubleshooting.md)
       + [Fehlerbehebung bei der Journey-Ausführung](using/building-journeys/troubleshooting-execution.md)
       + [Fehlerbehebung bei eingehenden Aktionen](using/building-journeys/troubleshooting-inbound.md)
@@ -882,7 +882,7 @@ ht-degree: 97%
       + [Erste Schritte mit benutzerdefinierten Aktionen](using/action/action.md)
       + [Konfigurieren einer benutzerdefinierten Aktion](using/action/about-custom-action-configuration.md)
       + [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](using/action/action-response.md)
-      + [Überwachen von benutzerdefinierten Aktionen](using/action/reporting.md)
+      + [Überwachen benutzerdefinierter Aktionen](using/action/reporting.md)
 + Verbinden Ihrer Systeme und Umgebungen {#connect-systems}
    + [Verbinden Ihrer Systeme und Umgebungen](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [Integrieren mit anderen Lösungen](using/integrations/ajo-integrations.md)
