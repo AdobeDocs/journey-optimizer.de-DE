@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -104,10 +104,10 @@ Nachstehend finden Sie die wichtigsten Schritte zur Erstellung und Bereitstellun
 
 ## Weitere Ressourcen
 
-* **[Erstellen von Code-basierten Erlebnissen](create-code-based.md)** - Erfahren Sie, wie Sie Code-basierte Kampagnen und Journey für benutzerdefinierte Implementierungen erstellen und konfigurieren.
-* **[Code-basierter Kanal konfigurieren](code-based-configuration.md)** - Richten Sie Code-basierte Erlebniskonfigurationen mit geeigneten Oberflächen- und Implementierungseinstellungen ein.
-* **[Code-basierte Voraussetzungen](code-based-prerequisites.md)** - Machen Sie sich mit den technischen Anforderungen und Entwicklerressourcen vertraut, die für die Implementierung erforderlich sind.
-* **[Testen von Code-basierten Erlebnissen](test-code-based.md)** - Erfahren Sie, wie Sie Ihre Code-basierten Erlebnisse vor der Veröffentlichung in der Vorschau anzeigen und testen können.
-* **[Implementierungsbeispiele](code-based-implementation-samples.md)** - Erkunden Sie Code-Beispiele und Implementierungsmuster für verschiedene Anwendungsfälle.
-* **[Code-basierte Erlebnis-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - Erkunden Sie Schritt-für-Schritt-Video-Tutorials zu Code-basierten Funktionen und Best Practices.
+* **[Erstellen von Code-basierten Erlebnissen](create-code-based.md)** – Erfahren Sie, wie Sie Code-basierte Kampagnen und Journeys für benutzerdefinierte Implementierungen erstellen und konfigurieren.
+* **[Konfigurieren des Code-basierten Kanals](code-based-configuration.md)** – Richten Sie Konfigurationen für Code-basierte Erlebnisse mit geeigneten Oberflächen- und Implementierungseinstellungen ein.
+* **[Code-basierte Voraussetzungen](code-based-prerequisites.md)** – Machen Sie sich mit den technischen Anforderungen und Entwicklerressourcen vertraut, die für die Implementierung erforderlich sind.
+* **[Testen von Code-basierten Erlebnissen](test-code-based.md)** – Erfahren Sie, wie Sie Ihre Code-basierten Erlebnisse vor der Veröffentlichung in der Vorschau anzeigen und testen können.
+* **[Implementierungsbeispiele](code-based-implementation-samples.md)** – Erkunden Sie Code-Beispiele und Implementierungsmuster für verschiedene Anwendungsfälle.
+* **[Tutorials für Code-basierte Erlebnisse](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** – Erkunden Sie detaillierte Video-Tutorials zu Code-basierten Funktionen und Best Practices.
 

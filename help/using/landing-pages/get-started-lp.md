@@ -71,4 +71,4 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 
 Im folgenden Video erfahren Sie, wie Sie eine Abonnement-Liste erstellen, Landingpages einrichten, um An- oder Abmeldungen für einen Service zu ermöglichen, die Optionen zum Abonnieren oder Abbestellen in eine Nachricht integrieren und entsprechende Journeys konfigurieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409511?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

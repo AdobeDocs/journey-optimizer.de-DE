@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -49,6 +49,6 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, Benutzenden relevante Rich-M
 
 ## Weitere Ressourcen
 
-* **[Inhaltskarten in Landingpages](content-card-lp.md)** - Erfahren Sie, wie Sie Inhaltskarten in Landingpages implementieren, um die Interaktion zu verbessern.
-* **[Berichte zur Inhaltskarte](content-card-report.md)** - Verfolgen und analysieren Sie die Leistung der Inhaltskarte mit detaillierten Metriken und Erkenntnissen.
-* **[Inhaltskarten-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - Erkunden Sie die schrittweisen Video-Tutorials zu den Funktionen und Best Practices von Inhaltskarten.
+* **[Inhaltskarten in Landingpages](content-card-lp.md)** – Erfahren Sie, wie Sie Inhaltskarten in Landingpages implementieren, um die Interaktion zu verbessern.
+* **[Berichte zur Inhaltskarte](content-card-report.md)** – Verfolgen und analysieren Sie die Leistung der Inhaltskarte mit detaillierten Metriken und Erkenntnissen.
+* **[Tutorials zu Inhaltskarten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** – Erkunden Sie die detaillierten Video-Tutorials zu den Funktionen und Best Practices von Inhaltskarten.

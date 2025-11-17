@@ -10,9 +10,9 @@ level: Beginner
 keywords: E-Mail, Start, Erstellung, Vorschau
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ E-Mail-Sendungen können erstellt werden:
 
 * In einer **Journey**: Nachdem Sie eine **[!UICONTROL E-Mail]**-Aktivität zu Ihrer Journey hinzugefügt und die Grundeinstellungen festgelegt haben, verwenden Sie den rechten Bereich **[!UICONTROL Aktionen: E-Mail]**, um den Inhalt für die Nachricht zu erstellen. [Erfahren Sie, wie Sie eine Journey erstellen](../building-journeys/journey-gs.md)
 
-* In einer **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie **[!UICONTROL E-Mail]** als Aktion aus und definieren Sie die Grundeinstellungen. Erfahren Sie, wie Sie [eine Aktionskampagne](../campaigns/campaign-action.md#action-campaign-action) | [eine von einer API ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) | [Eine orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md#create)
+* In einer **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie **[!UICONTROL E-Mail]** als Aktion aus und definieren Sie die Grundeinstellungen. Erfahren Sie, wie Sie [eine Aktionskampagne](../campaigns/campaign-action.md#action-campaign-action) | [eine durch API ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) | [eine orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md#create) erstellen können
 
 
 >[!IMPORTANT]
@@ -112,9 +112,9 @@ E-Mail-Sendungen können erstellt werden:
 
 ## Weitere Ressourcen
 
-* **[E-Mail erstellen](create-email.md)** - Erfahren Sie anhand einer schrittweisen Anleitung, wie Sie E-Mail-Nachrichten in Kampagnen und Journey erstellen.
-* **[Entwerfen von E-](get-started-email-design.md)**-Inhalten: Entdecken Sie die verschiedenen Möglichkeiten, E-Mail-Inhalte von Grund auf neu zu erstellen oder Vorlagen zu verwenden.
-* **[E-Mail-Konfiguration](get-started-email-config.md)** - Erfahren Sie, wie Sie E-Mail-Einstellungen einschließlich E-Mail-Oberflächen, Subdomains und IP-Pools konfigurieren.
-* **[E-Mail-Personalisierung und -](get-started-email-style.md)**: Übergeordnete Stiltechniken einschließlich benutzerdefinierter CSS, Ausrichtung, Abstand und Unterstützung des Dunkelmodus.
-* **[E-Mails verfolgen und überwachen](message-tracking.md)** - Erfahren Sie, wie Sie Nachrichtenöffnungen und Klicks verfolgen und das URL-Tracking für Leistungsanalysen verwalten können.
-* **[E-Mail-](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}**-Tutorials: Erkunden Sie die Videoschulungen zu E-Mail-Funktionen und Best Practices in Einzelschritten.
+* **[Erstellen einer E-Mail](create-email.md)** – Erfahren Sie anhand einer schrittweisen Anleitung, wie Sie E-Mail-Nachrichten in Kampagnen und Journeys erstellen.
+* **[Entwerfen von E-Mail-Inhalten](get-started-email-design.md)** – Entdecken Sie die verschiedenen Möglichkeiten, E-Mail-Inhalte von Grund auf neu zu erstellen oder Vorlagen zu verwenden.
+* **[E-Mail-Konfiguration](get-started-email-config.md)** – Erfahren Sie, wie Sie E-Mail-Einstellungen, einschließlich E-Mail-Oberflächen, Subdomains und IP-Pools, konfigurieren.
+* **[E-Mail-Personalisierung und Styling](get-started-email-style.md)** – Machen Sie sich mit Styling-Techniken vertraut, einschließlich benutzerdefinierter CSS, Ausrichtung, Abstand und Unterstützung des dunklen Modus.
+* **[Verfolgen und Überwachen von E-Mails](message-tracking.md)** – Erfahren Sie, wie Sie Nachrichtenöffnungen und Klicks verfolgen und das URL-Tracking für Leistungsanalysen verwalten können.
+* **[Tutorials zu E-Mail-Kanälen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** – Erkunden Sie die detaillierten Video-Tutorials zu E-Mail-Funktionen und Best Practices.

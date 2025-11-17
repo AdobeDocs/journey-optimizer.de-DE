@@ -7,9 +7,9 @@ topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 04a08f237e126e782355197b64239512e24b27da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1456'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 79%
 
 [!DNL Adobe Journey Optimizer] verwendet ein kontinuierliches Bereitstellungsmodell, das es Adobe ermöglicht, laufend neue Funktionen, Verbesserungen und Fehlerbehebungen bereitzustellen. Dieser Ansatz ermöglicht ein skalierbares Rollout von Funktionen in Phasen, um die Leistung und Stabilität aller Umgebungen sicherzustellen.
 
-Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Versionen aktualisiert.  In einem speziellen Abschnitt [Neueste Aktualisierungen](#latest-updates) werden neue Funktionen und Verbesserungen bei der Bereitstellung in der Produktion hervorgehoben, sodass Sie immer in Echtzeit über alle Änderungen informiert sind. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Journey Optimizer-Veröffentlichungszyklus](releases.md).
+Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Versionen aktualisiert.  Im dedizierten Abschnitt [Neueste Aktualisierungen](#latest-updates) werden neue Funktionen und Verbesserungen bei ihrer Bereitstellung in der Produktion erläutert, sodass Sie immer in Echtzeit über alle Änderungen informiert sind. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](releases.md).
 
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 ## Neueste Aktualisierungen {#latest-updates}
 
-Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen und Verbesserungen mit ihrem Verfügbarkeitsdatum aufgeführt. Sie werden mit dem Inhalt der nächsten Versionshinweise am Ende des Monats gruppiert. Siehe auch die neuesten [Versionshinweise unten](#latest-rn).
+Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen und Verbesserungen mit ihrem Verfügbarkeitsdatum aufgeführt. Sie werden Ende des Monats mit dem Inhalt der nächsten Versionshinweise gruppiert. Siehe auch die neuesten [Versionshinweise unten](#latest-rn).
 
 ### Neue Funktionen {#features}
 
@@ -41,15 +41,15 @@ Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen un
 <tbody>
 <tr>
 <td>
-<p>Drei neue Journey-Warnhinweise sind jetzt verfügbar, mit denen Sie Journey-Lebenszyklusereignisse und die Performance benutzerdefinierter Aktionen überwachen und verfolgen können:</p>
+<p>Drei neue Journey-Warnhinweise sind jetzt verfügbar, mit denen Sie Journey-Lebenszyklusereignisse und die Leistung benutzerdefinierter Aktionen überwachen und verfolgen können:</p>
 <ul>
-<li><strong>Journey veröffentlicht</strong>: Empfangen Sie Benachrichtigungen, wenn eine Journey von einer Person auf der Journey-Arbeitsfläche veröffentlicht wird.</li>
+<li><strong>Journey veröffentlicht</strong>: Erhalten Sie Benachrichtigungen, wenn eine Journey von einer Person auf der Journey-Arbeitsfläche veröffentlicht wird.</li>
 <li><strong>Journey abgeschlossen</strong>: Erhalten Sie Warnhinweise, wenn eine Journey abgeschlossen ist, wobei bestimmte Definitionen vom Journey-Typ abhängen (Zielgruppe lesen oder ereignisgesteuert).</li>
-<li><strong>Begrenzung benutzerdefinierter Aktionen ausgelöst</strong>: Werden Sie benachrichtigt, wenn die Begrenzung für einen Endpunkt einer benutzerdefinierten Aktion aktiviert ist.</li>
+<li><strong>Begrenzung benutzerdefinierter Aktionen ausgelöst</strong>: Lassen Sie sich benachrichtigen, wenn die Begrenzung für den Endpunkt einer benutzerdefinierten Aktion aktiviert ist.</li>
 </ul>
-<p>Diese Warnhinweise können auf Unternehmensebene oder für bestimmte Journey abonniert werden.</p>
+<p>Diese Warnhinweise können auf Organisationsebene oder für bestimmte Journeys abonniert werden.</p>
 <p>Weitere Informationen finden Sie in der <a href="../reports/alerts.md#journey-alerts">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 5. November 2025</p>
+<p>Verfügbarkeitsdatum: 5. November 2025</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen un
 <p>Diese Funktion wurde bereits in der Beta-Version veröffentlicht und ist jetzt für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>Weitere Informationen finden Sie in der <a href="../email/apply-email-themes.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 5. November 2025</p>
+<p>Verfügbarkeitsdatum: 5. November 2025</p>
 </td>
 </tr>
 </tbody>
@@ -82,17 +82,17 @@ Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen un
 <table>
 <thead>
 <tr>
-<th><strong>Image-HTML-Konvertierer</strong><br/></th>
+<th><strong>Bild-zu-HTML-Converter</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der Bild-zu-HTML-Konvertierer ist eine KI-gestützte Funktion, die statische Bildentwürfe in vollständig anpassbare, modulare HTML-E-Mail-Inhaltsvorlagen konvertiert. Dieses Nicht-Code-Tool ermöglicht es Marketing-Experten, visuelle Designs in responsive, bearbeitbare E-Mail-Vorlagen umzuwandeln, ohne dass technisches Know-how erforderlich ist. Es eignet sich perfekt für die Plattformmigration, die schnelle Erstellung von Vorlagen und die Erstellung wiederverwendbarer Vorlagenbibliotheken.</p>
+<p>Der Bild-zu-HTML-Converter ist eine KI-gestützte Funktion, die statische Bildentwürfe in vollständig anpassbare, modulare HTML-E-Mail-Inhaltsvorlagen konvertiert. Dieses Code-freie Tool ermöglicht es Marketing-Experten, visuelle Designs in responsive, bearbeitbare E-Mail-Vorlagen umzuwandeln, ohne dass technisches Know-how erforderlich ist. Es eignet sich perfekt für die Plattformmigration, die schnelle Erstellung von Vorlagen und die Erstellung wiederverwendbarer Vorlagenbibliotheken.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
 <p>Weitere Informationen finden Sie in der <a href="../email/image-to-html.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 30. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 30. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -108,10 +108,10 @@ Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen un
 <tbody>
 <tr>
 <td>
-<p>Diese Funktion bietet einen besseren Einblick in den Zustand und die Leistung von Endpunkten für benutzerdefinierte Aktionen. Ein neues Dashboard zur Überwachung benutzerdefinierter Aktionen und die entsprechenden Felder im Journey-Schritt-Ereignisdatensatz helfen Ihnen, erfolgreiche Aufrufe, Fehler, Durchsatz, Antwortzeit und Warteschlangenwartezeit für Ihre benutzerspezifischen Aktionsendpunkte zu überwachen. Sie können jetzt schnell nachvollziehen, wann, wo und warum eine ungewöhnliche Situation in einer benutzerdefinierten Aktion auftritt.</p>
-<p>Diese Funktion ist derzeit für -Kunden nur eingeschränkt verfügbar.</p>
+<p>Diese Funktion bietet einen besseren Einblick in den Zustand und die Leistung von Endpunkten für benutzerdefinierte Aktionen. Ein neues Dashboard zur Überwachung benutzerdefinierter Aktionen und die entsprechenden Felder im Datensatz der Journey-Schrittereignisse helfen Ihnen, erfolgreiche Aufrufe, Fehler, Durchsatz, Antwortzeit und Wartezeit in der Warteschlange für Ihre Endpunkte für benutzerdefinierte Aktionen zu überwachen. Sie können jetzt schnell nachvollziehen, wann, wo und warum eine ungewöhnliche Situation in einer benutzerdefinierten Aktion auftritt.</p>
+<p>Diese Funktion wird derzeit mit eingeschränkter Verfügbarkeit für Kundinnen und Kunden veröffentlicht.</p>
 <p>Weitere Informationen finden Sie in der <a href="../action/reporting.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 28. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 28. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -128,10 +128,10 @@ Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen un
 <td>
 <p>Mit [!DNL Journey Optimizer] können Sie jetzt Profilattribute über Ihre Landingpages erfassen.</p>
 <p>Erstellen, entwerfen und verwalten Sie benutzerdefinierte Formulare, die auf Ihre Anforderungen zugeschnitten sind und auf einem bestimmten Datensatz basieren. Sie können diese Formulare dann in Landingpages nutzen, um die Profilattribute Ihrer Wahl zu dem für jedes Formular definierten Datensatz hinzuzufügen.</p>
-<p>Diese Funktion ist derzeit nur für Kunden in den USA und Australien verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
+<p>Diese Funktion ist derzeit nur für Kundinnen und Kunden in den USA und Australien verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../landing-pages/lp-forms.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Freitag, 23. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 23. Oktober 2025</p>
 </td>
 </tr>
 </tbody>

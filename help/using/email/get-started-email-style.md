@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: E-Mail, Stil, CSS, Textkörper, Struktur
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Folgen Sie den unten stehenden Links, um zu erfahren, wie Sie Stileinstellungen 
 * Erfahren Sie, wie Sie [Ihren E-Mail-Hintergrund personalisieren können](backgrounds.md).
 * Erfahren Sie, wie Sie die [vertikale Ausrichtung und den Abstand verwalten](alignment-and-padding.md).
 * Erfahren Sie, wie Sie [Inline-Stilattribute anpassen](inline-styling.md).
-* Erfahren Sie, wie Sie [benutzerdefinierten CSS zu Ihrem E-Mail-Inhalt hinzufügen](custom-css.md)
-* Erfahren Sie, wie [Inhalte im Dunkelmodus verwalten](dark-mode.md)
+* Erfahren Sie, wie Sie [benutzerdefinierte CSS zu Ihrem E-Mail-Inhalt hinzufügen](custom-css.md)
+* Erfahren Sie, wie [Inhalte im dunklen Modus verwalten](dark-mode.md)
 
 >[!NOTE]
 >
->Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Achten Sie beim Entwerfen von Inhalten in [&#x200B; auf &#x200B;](../email/accessible-content.md)dieser Seite[!DNL Journey Optimizer] die spezifischen Stilrichtlinien, z. B. die Anpassung von Farben, Beschriftungen und Symbolen, um Klarheit zu gewährleisten, und bei der Optimierung Ihres Designs für mobile und responsive Layouts.
+>Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Achten Sie darauf, die spezifischen Stilrichtlinien auf [dieser Seite](../email/accessible-content.md) zu befolgen, wenn Sie Inhalte in [!DNL Journey Optimizer] entwerfen, wie z. B. das Anpassen von Farben, Labels und Symbolen zur Gewährleistung der Klarheit und die Optimierung Ihres Designs für mobile und responsive Layouts.

@@ -10,9 +10,9 @@ keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,12 +51,12 @@ Der [Journey-Designer](using-the-journey-designer.md) bietet [integrierte Kanala
 
 Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Weitere Ressourcen {#additional-resources}
 
-* [Häufig gestellte Fragen zu Journey](journey-faq.md) - Häufig gestellte Fragen zu Journey
-* [Referenz zu Fehlercodes](error-codes-reference.md) - Journey-Fehlercodes und Schritte zur Fehlerbehebung
-* [Warnhinweise](../reports/alerts.md) - Einrichten von Warnhinweisen für die Journey-Überwachung
-* [Fehlerbehebung](troubleshooting.md) - Häufige Journey-Probleme und -Lösungen
-* [Überwachung und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) - Tools und Funktionen zur Überwachung und Fehlerbehebung bei Journeys
+* [Häufig gestellte Fragen zu Journeys](journey-faq.md) – Häufig gestellte Fragen zu Journeys
+* [Referenz zu Fehler-Codes](error-codes-reference.md) – Journey-Fehler-Codes und Schritte zur Fehlerbehebung
+* [Warnhinweise](../reports/alerts.md) – Richten Sie Warnhinweise für das Monitoring von Journeys ein
+* [Fehlerbehebung](troubleshooting.md) – Häufige Probleme mit Journeys und deren Lösungen
+* [Monitoring und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) – Tools und Funktionen für Monitoring und Fehlerbehebung Ihrer Journeys

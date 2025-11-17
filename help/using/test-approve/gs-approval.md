@@ -6,9 +6,9 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Sie können alle Genehmigungs- und Änderungsanfragen überwachen, die für eine
 
 ## Weitere Ressourcen
 
-* **[Erstellen von Genehmigungsrichtlinien](approval-policies.md)** - Erfahren Sie, wie Sie Genehmigungsrichtlinien einrichten, um Überprüfungs-Workflows für Kampagnen und Journey zu erzwingen.
-* **[Genehmigung anfordern](request-approval.md)** - Verstehen Sie, wie Sie Inhalte zur Genehmigung einreichen und den Genehmigungsstatus verfolgen.
-* **[Anforderungen prüfen und genehmigen](review-approve-request.md)** - Erfahren Sie, wie Sie als genehmigende Person Genehmigungsanforderungen überprüfen, genehmigen oder ablehnen können.
-* **[Simulieren mit Beispieleingaben](simulate-sample-input.md)** - Erfahren Sie, wie Sie Inhalte mithilfe von Beispielprofildaten testen und validieren können.
+* **[Erstellen von Genehmigungsrichtlinien](approval-policies.md)** – Erfahren Sie, wie Sie Genehmigungsrichtlinien einrichten, um Überprüfungs-Workflows für Kampagnen und Journeys durchzusetzen.
+* **[Genehmigung von Anfragen](request-approval.md)** – Verstehen Sie, wie Sie Inhalte zur Genehmigung einreichen und den Genehmigungsstatus verfolgen.
+* **[Prüfen und Genehmigen von Anfragen](review-approve-request.md)** – Erfahren Sie, wie Sie als genehmigende Person Anfragen überprüfen, genehmigen oder ablehnen können.
+* **[Simulieren mit Beispieleingaben](simulate-sample-input.md)** – Erfahren Sie, wie Sie Inhalte mithilfe von Beispielprofildaten testen und validieren können.

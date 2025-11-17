@@ -6,9 +6,9 @@ description: Content-Management
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: b8c2b05df22e4aa78ea95e47e1554c9d538dfc0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Mit den Content-Management-Funktionen von Adobe Journey Optimizer können Sie In
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Personalization hinzufügen
+Hinzufügen von Personalisierung
 
 Erfahren Sie, wie Sie Personalisierungsfunktionen implementieren und optimieren können, um maßgeschneiderte Kundenerlebnisse zu erstellen.
 
@@ -30,9 +30,9 @@ Erfahren Sie, wie Sie Personalisierungsfunktionen implementieren und optimieren 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Landingpages erstellen
+Erstellen von Landingpages
 
 Entdecken Sie Tools und Tutorials zum Erstellen, Verwalten und Optimieren von Landingpages für Marketing-Kampagnen.
 
@@ -40,7 +40,7 @@ Entdecken Sie Tools und Tutorials zum Erstellen, Verwalten und Optimieren von La
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Inhaltsvorlagen
 
@@ -50,7 +50,7 @@ Optimieren Sie die Inhaltserstellung mithilfe wiederverwendbarer Vorlagen für e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Wiederverwendbare Inhaltsfragmente
 
@@ -60,9 +60,9 @@ Erfahren Sie, wie Sie wiederverwendbare Inhaltsfragmente für verbesserte Person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Erstellen dynamischer Inhalte
+Erstellen von dynamischen Inhalten
 
 Verwenden Sie bedingte Regeln, um dynamische, personalisierte Inhalte für E-Mails, SMS und Push-Benachrichtigungen zu erstellen.
 
@@ -70,7 +70,7 @@ Verwenden Sie bedingte Regeln, um dynamische, personalisierte Inhalte für E-Mai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Lösungsübergreifende Anwendungsfälle
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,4 +61,4 @@ Zusätzlich zu vordefinierten Playbooks können Sie eigene Playbooks in Adobe Ex
 
 Sie können Metadaten mithilfe von KI-Unterstützung oder manueller Eingabe definieren, technische Assets wie Schemata und Segmente verknüpfen und Ihre Playbooks für verschiedene IMS-Organisationen freigeben.
 
-Weitere Informationen zum Erstellen und Freigeben von Playbooks finden Sie in der Dokumentation zu den Playbooks für Anwendungsfälle: [Erstellen und Freigeben eigener Playbooks mit dem KI-Assistenten](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=de#sharing-playbooks-sandboxes){target="_blank"}.
+Weitere Informationen zum Erstellen und Freigeben von Playbooks finden Sie in der Dokumentation zu den Playbooks für Anwendungsfälle: [Erstellen und Freigeben eigener Playbooks mit dem KI-Assistenten](https://experienceleague.adobe.com/de/docs/experience-platform/use-case-playbooks/playbooks/author#sharing-playbooks-sandboxes){target="_blank"}.

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -70,11 +70,11 @@ Die detaillierten Schritte zum Erstellen einer Web-Kampagne finden Sie in [diese
 
 ## Weitere Ressourcen
 
-* **[Erstellen von Web-Erlebnissen](create-web.md)** - Erfahren Sie, wie Sie Web-Kampagnen und Journey erstellen und konfigurieren, um Web-Inhalte zu ändern.
-* **[Voraussetzungen für den Webkanal](web-prerequisites.md)** - Machen Sie sich mit den technischen Anforderungen und der Einrichtung vertraut, die für die Implementierung des Webkanals erforderlich sind.
-* **[Web-Inhalte bearbeiten](create-web.md#edit-web-content)** - Meistern Sie den Web-Designer, um Seiten mithilfe visueller oder nicht visueller Bearbeitungsmodi zu ändern.
-* **[Web-Änderungen verwalten](manage-web-modifications.md)** - Erfahren Sie, wie Sie Änderungen in Ihren Web-Erlebnissen organisieren, anwenden und verwalten.
-* **[Web-Erlebnisse überwachen](monitor-web-experiences.md)** - Verfolgen und analysieren Sie die Leistung Ihrer Web-Kampagnen mit detaillierten Berichten.
-* **[Web-Campaign](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}**-Tutorials - Sehen Sie sich Schritt-für-Schritt-Video-Tutorials zu Web-Kanal-Funktionen und Best Practices an.
+* **[Erstellen von Web-Erlebnissen](create-web.md)** – Erfahren Sie, wie Sie Web-Kampagnen und -Journeys erstellen und konfigurieren, um Web-Inhalte zu ändern.
+* **[Voraussetzungen für den Web-Kanal](web-prerequisites.md)** – Machen Sie sich mit den technischen Anforderungen und der Einrichtung vertraut, die für die Implementierung des Web-Kanals erforderlich sind.
+* **[Bearbeiten von Web-Inhalten](create-web.md#edit-web-content)** – Machen Sie sich mit dem Web-Designer vertraut, um Seiten mithilfe visueller oder nicht visueller Bearbeitungsmodi zu ändern.
+* **[Verwalten von Web-Änderungen](manage-web-modifications.md)** – Erfahren Sie, wie Sie Änderungen über Web-Erlebnisse hinweg organisieren, anwenden und verwalten.
+* **[Überwachen von Web-Erlebnissen](monitor-web-experiences.md)** – Verfolgen und analysieren Sie die Leistung Ihrer Web-Kampagnen mit detaillierten Berichten.
+* **[Tutorials zu Web-Kampagnen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** – Sehen Sie sich detaillierte Video-Tutorials zu Web-Kanal-Funktionen und Best Practices an.
 
 

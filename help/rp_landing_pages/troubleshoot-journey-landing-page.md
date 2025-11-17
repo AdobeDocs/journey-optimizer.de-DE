@@ -6,46 +6,46 @@ description: Fehlerbehebung
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: eca6378093abcb2a75ebfee56be82bb2257d514d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
-# Überwachung und Fehlerbehebung{#section-overview}
+# Monitoring und Fehlerbehebung{#section-overview}
 
-Die effektive Verwaltung Ihrer Kunden-Journey erfordert eine proaktive Überwachung, aufschlussreiches Reporting und effiziente Fehlerbehebungsfunktionen. Adobe Journey Optimizer bietet umfassende Tools, um die Journey-Leistung zu verfolgen, potenzielle Probleme zu identifizieren und Probleme schnell zu lösen, wenn sie auftreten.
+Die effektive Verwaltung Ihrer Customer Journeys erfordert proaktives Monitoring, erkenntnisreiches Reporting und effiziente Fehlerbehebungsfunktionen. Adobe Journey Optimizer bietet umfassende Tools, um die Journey-Leistung zu verfolgen, potenzielle Probleme zu identifizieren und diese schnell zu lösen, wenn sie auftreten.
 
-Verwenden Sie [Systemwarnungen](../using/reports/alerts.md) um Benachrichtigungen zu kritischen Ereignissen zu erhalten, [Journey-Berichte](../using/reports/journey-global-report-cja.md) zu nutzen, Leistungsmetriken zu analysieren und [Journey-Schrittereignisse zu überprüfen](../using/reports/journey-step-events-overview.md) um detaillierte Ausführungsabläufe zu verstehen. Wenn Probleme auftreten, finden Sie unter [Fehler-Codes](../using/building-journeys/error-codes-reference.md) schnelle Lösungen. Befolgen Sie außerdem zielgerichtete Anleitungen zur Fehlerbehebung für bestimmte Problembereiche, unabhängig davon, ob Journey-Fehler, Ausführungsinkonsistenzen oder Probleme auf Aktionsebene auftreten.
+Nutzen Sie [Systemwarnungen](../using/reports/alerts.md), um Benachrichtigungen zu kritischen Ereignissen zu erhalten, [Journey-Berichte](../using/reports/journey-global-report-cja.md), um Leistungsmetriken zu analysieren, und überprüfen Sie [Journey-Schrittereignisse](../using/reports/journey-step-events-overview.md), um detaillierte Ausführungsabläufe zu verstehen. Wenn Probleme auftreten, finden Sie unter [Fehler-Codes](../using/building-journeys/error-codes-reference.md) schnelle Lösungen. Befolgen Sie außerdem zielgerichtete Anleitungen zur Fehlerbehebung für bestimmte Problembereiche, unabhängig davon, ob Journey-Fehler, Ausführungsinkonsistenzen oder Probleme auf Aktionsebene auftreten.
 
-Auf dieser Seite finden Sie wichtige Ressourcen, die Ihnen helfen, den Zustand des Journey zu überwachen, auf wichtige Insights bei der Berichterstellung zuzugreifen und Probleme in allen Phasen Ihrer Kunden-Journey effizient zu beheben.
+Auf dieser Seite finden Sie wichtige Ressourcen, die Ihnen helfen, den Zustand der Journey zu überwachen, auf wichtige Erkenntnisse aus dem Reporting zuzugreifen und Probleme in allen Phasen Ihrer Customer Journeys effizient zu beheben.
 
 ## Fehlerbehebung
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Abrufen und Abonnieren von Systemwarnungen
 
-Erfahren Sie, wie Sie auf Systemwarnungen zugreifen, Benachrichtigungen abonnieren und kritische Ereignisse in Ihren Journey und Kampagnen überwachen können.
+Erfahren Sie, wie Sie auf Systemwarnungen zugreifen, Benachrichtigungen abonnieren und kritische Ereignisse in Journeys und Kampagnen überwachen.
 
 [Zugriff auf Systemwarnhinweise](../using/reports/alerts.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referenz zu Fehler-Codes
 
-Erfahren Sie mehr über häufige Fehler-Codes in Adobe Journey Optimizer und finden Sie schnelle Lösungen für Probleme in Journey, Kampagnen und Nachrichten.
+Erfahren Sie mehr über häufige Fehler-Codes in Adobe Journey Optimizer und finden Sie schnelle Lösungen für Probleme in Journeys, Kampagnen und Nachrichten.
 
-[Referenz zum Anzeigen von Fehler-Codes](../using/building-journeys/error-codes-reference.md)
+[Referenz zu Fehler-Codes anzeigen](../using/building-journeys/error-codes-reference.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Fehlerbehebung vor dem Testen oder Veröffentlichen der Journey
 
@@ -55,7 +55,7 @@ Identifizieren und beheben Sie Journey-weite Fehler und Aktivitätsprobleme und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fehlerbehebung bei der Live-Journey-Ausführung
 
@@ -65,9 +65,9 @@ Diagnostizieren Sie Probleme mit der Ereignisvalidierung, dem Profileintrag, der
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Fehlerbehebung bei eingehenden Aktionen in Journey
+Fehlerbehebung bei eingehenden Aktionen in Journeys
 
 Beheben Sie mithilfe detaillierter Handbücher Probleme mit eingehenden Aktionen, z. B. fehlende Inhalte oder die Fortsetzung der Bereitstellung nach dem Ausstieg eines Profils.
 
@@ -75,7 +75,7 @@ Beheben Sie mithilfe detaillierter Handbücher Probleme mit eingehenden Aktionen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Fehlerbehebung bei benutzerdefinierten Aktionen
 
@@ -86,22 +86,22 @@ Validieren und debuggen Sie benutzerdefinierte Aktionen mit der Funktion „Test
 
 ::::
 
-## Reporting und Überwachung
+## Reporting und Monitoring
 
 Greifen Sie auf wichtige Berichte zu, um die Journey-Leistung zu überwachen, Metriken zu analysieren und Probleme zu identifizieren:
 
-* [Globale Journey-Berichte](../using/reports/journey-global-report-cja.md) - Zeigen Sie umfassende Journey-Leistungsmetriken und -Analysen für alle Kanäle an.
+* [Globale Journey-Berichte](../using/reports/journey-global-report-cja.md) – Zeigen Sie umfassende Journey-Leistungsmetriken und -Analysen für alle Kanäle an.
 
-* [Journey-Live-Berichte](../using/reports/journey-live-report.md) - Überwachen Sie Journey-Ausführungsdaten in Echtzeit und verfolgen Sie aktive Kundeninteraktionen.
+* [Journey-Live-Berichte](../using/reports/journey-live-report.md) – Überwachen Sie Journey-Ausführungsdaten in Echtzeit und verfolgen Sie aktive Kundeninteraktionen.
 
-* [Journey-Schrittereignisse](../using/reports/journey-step-events-overview.md) - Analysieren Sie detaillierte Schritt-für-Schritt-Journey-Ausführungsereignisse zur Fehlerbehebung und Optimierung.
+* [Journey-Schrittereignisse](../using/reports/journey-step-events-overview.md) – Analysieren Sie detaillierte und schrittweise Journey-Ausführungsereignisse zu Fehlerbehebungs- und Optimierungszwecken.
 
-* [Erste Schritte mit Berichten](../using/reports/report-gs-cja.md) - Erfahren Sie mehr über die Reporting-Funktionen, Metriken und den Zugriff auf Journey-Erkenntnisse.
+* [Erste Schritte mit Berichten](../using/reports/report-gs-cja.md) – Erfahren Sie mehr über die Reporting-Funktionen, Metriken und den Zugriff auf Journey-Erkenntnisse.
 
-* [Zustellbarkeits-Monitoring](../using/reports/deliverability.md) - Verfolgen Sie die Zustellraten von Nachrichten und identifizieren Sie potenzielle Versandprobleme kanalübergreifend.
+* [Zustellbarkeits-Monitoring](../using/reports/deliverability.md) – Verfolgen Sie die Zustellraten von Nachrichten und identifizieren Sie potenzielle Versandprobleme kanalübergreifend.
 
 ## Weitere Ressourcen
 
-* [Häufig gestellte Fragen zum Journey](../using/building-journeys/journey-faq.md) - Umfassende Antworten auf häufige Fragen zu Journey, einschließlich Journey-Typen, Ausführung, Konfiguration und Best Practices für die Fehlerbehebung.
+* [Häufig gestellte Fragen zu Journeys](../using/building-journeys/journey-faq.md) – Umfassende Antworten auf häufige Fragen zu Journeys, einschließlich Journey-Typen, Ausführung, Konfiguration und Best Practices für die Fehlerbehebung.
 
-* [Leitplanken und Einschränkungen](../using/start/guardrails.md) - Erfahren Sie mehr über Journey Optimizer-Leitplanken, Produktbeschränkungen, Leistungsaspekte und unterstützte Browser, um eine optimale Nutzung sicherzustellen.
+* [Leitlinien und Einschränkungen](../using/start/guardrails.md) – Erfahren Sie mehr über Journey Optimizer-Leitlinien, Produktbeschränkungen, Leistungsaspekte und unterstützte Browser, um eine optimale Nutzung zu gewährleisten.
