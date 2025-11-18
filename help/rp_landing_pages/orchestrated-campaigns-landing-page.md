@@ -6,7 +6,7 @@ description: Orchestrierte Kampagnen
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Orchestrierte Kampagnen in Adobe Journey Optimizer ermöglichen es Ihnen, anspru
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in orchestrierte Kampagnen
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Kernfunktionen, Komponenten und Besonderheiten von o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Leitlinien und Einschränkungen
 
@@ -40,7 +40,7 @@ Machen Sie sich mit den Einschränkungen und Grenzen vertraut, die bei der Verwe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Datenkonfiguration für orchestrierte Kampagnen
 
@@ -50,7 +50,7 @@ Konfigurieren Sie relationale Schemata, Datensätze und Kanäle, um sicherzustel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Starten und Verwalten von orchestrierten Kampagnen
 
@@ -60,7 +60,7 @@ Eine schrittweise Anleitung zum Erstellen, Orchestrieren, Überwachen und Analys
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Abfragen der Datenbank nach orchestrierten Kampagnen
 
@@ -70,7 +70,7 @@ Beherrschen Sie Datenbankabfragen, um Zielgruppen in orchestrierten Kampagnen ef
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Umfassendes Handbuch zu Kampagnenaktivitäten
 
