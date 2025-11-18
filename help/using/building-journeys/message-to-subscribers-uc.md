@@ -23,7 +23,7 @@ In diesem Anwendungsbeispiel soll eine Journey erstellt werden, um eine Nachrich
 
 In diesem Beispiel wird die Feldergruppe **[!UICONTROL Einverständnis und Präferenzdetails]** aus [!DNL Adobe Experience Platform] verwendet. Um diese Feldergruppe zu finden, wählen Sie im Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Schemata]**. Geben Sie auf der Registerkarte **[!UICONTROL Feldergruppen]** im Suchfeld den Namen der Feldergruppe ein.
 
-![Diese Feldergruppe enthält das Abonnement-Element ](assets/consent-and-preference-details-field-group.png)
+![Diese Feldergruppe enthält das Abonnement-Element &#x200B;](assets/consent-and-preference-details-field-group.png)
 
 Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 
