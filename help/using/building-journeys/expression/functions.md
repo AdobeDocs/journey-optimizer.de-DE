@@ -79,7 +79,7 @@ Führen Sie Berechnungen für Wertesätze durch, um Insights wie Durchschnittswe
 
 [Alle Aggregationsfunktionen anzeigen →](../functions/aggregation-functions.md)
 
-### Konvertierungsfunktionen {#conversion-functions}
+### Konversionsfunktionen {#conversion-functions}
 
 **Datentypumwandlung**
 
@@ -123,7 +123,7 @@ Arbeiten Sie mit Datumsangaben, Uhrzeiten und Zeitzonen, um zeitbasierte Bedingu
 
 [Alle Datumsfunktionen anzeigen →](../functions/date-functions.md)
 
-### Funktionen auflisten {#list-functions}
+### Auflistungsfunktionen {#list-functions}
 
 **Sammlungsbearbeitung und -analyse**
 
