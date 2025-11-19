@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: c910664b343f8143579e4a22ff101d38476c4585
+source-git-commit: d4736257166a1fb19350aca45ee55decd3afd0b2
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '836'
 ht-degree: 96%
 
 ---
@@ -34,7 +34,7 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 
 * **Keine personenbezogenen Daten in Datensätzen**: Für die Suche aktivierte Datensätze sollten keine personenbezogenen Daten (PII) enthalten.
 
-* &#x200B;
+* 
    * **Löschrisiko**: In der Personalisierung verwendete Datensätze sind nicht vor dem Löschen geschützt. Sie müssen verfolgen, welche Datensätze verwendet werden, um sicherzustellen, dass sie nicht entfernt werden.
 
 * **Schematyp**: Datensätze müssen mit einem Schema verknüpft sein, das **NICHT** vom Typ „Profil“ oder „Ereignis“ ist.
@@ -100,10 +100,6 @@ Wenn noch kein benutzerdefinierter Namespace definiert wurde, stellen Sie sicher
 Verwenden Sie in der Benutzeroberfläche zur Datensatzverwaltung den Umschalter, um den Datensatz für die Suche zu aktivieren.
 
 ![](assets/aep-data-enable.png)
-
->[!NOTE]
->
->Es wird empfohlen, den Datensatz NICHT auch für Profil zu aktivieren, da dies zu einer Erhöhung des Profilumfangs führen kann und nicht erforderlich ist, um die Suchen durchzuführen.
 
 ### API-Methode
 
