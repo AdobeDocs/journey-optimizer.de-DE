@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 91%
+source-wordcount: '1277'
+ht-degree: 93%
 
 ---
 
@@ -87,8 +87,6 @@ Die Payload enthält die folgenden Kontextinformationen, die Sie in Bedingungen 
 Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die einer Aktivität vom Typ **[!UICONTROL Zielgruppen-Qualifizierung]** folgt, können Sie auf den Knoten **[!UICONTROL AudienceQualification]** zugreifen. Sie können zwischen der **[!UICONTROL letzten Qualifizierungszeit]** und dem **[!UICONTROL Status]** (Einstieg oder Ausstieg) wählen.
 
 Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_condition).
-
-![Konfiguration des Zielgruppeneintritts und -austritts in den Ereigniseinstellungen](assets/segment8.png)
 
 Eine neue Journey, die ein Ereignis **Zielgruppen-Qualifizierung** enthält, ist zehn Minuten nach der Veröffentlichung einsatzbereit. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Services. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
 
@@ -164,4 +162,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
