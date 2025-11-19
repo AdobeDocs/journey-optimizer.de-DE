@@ -9,8 +9,8 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 100%
 
@@ -42,15 +42,13 @@ Nachfolgend finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereigni
 
 1. Geben Sie den Namen Ihres Ereignisses ein. Sie können auch eine Beschreibung hinzufügen.
 
-   ![](assets/jo-event3.png)
-
    >[!NOTE]
    >
    >Es sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Länge beträgt 30 Zeichen.
 
-1. Wählen Sie im Feld **[!UICONTROL Typ]** die Option **Unitär**.
+   ![](assets/jo-event3.png)
 
-   ![](assets/jo-event3bis.png)
+1. Wählen Sie im Feld **[!UICONTROL Typ]** die Option **Unitär**.
 
 1. Wählen Sie im Feld **[!UICONTROL Ereignis-ID-Typ]** den zu verwendenden Ereignistyp aus: **Regelbasiert** oder **Systemgeneriert**. Weitere Informationen zum Ereignis-ID-Typ finden Sie in [diesem Abschnitt](../event/about-events.md#event-id-type).
 
@@ -68,8 +66,6 @@ Nachfolgend finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereigni
 
 1. Klicken Sie bei regelbasierten Ereignissen in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Mit dem einfachen oder erweiterten Ausdruckseditor definieren Sie eine Bedingung, anhand derer das System die Ereignisse identifiziert, die Ihre Journey auslösen.
 
-   ![](assets/jo-event6.png)
-
    In unserem Beispiel haben wir eine Bedingung basierend auf der Stadt des Profils verwendet. Dies bedeutet, dass das System jedes Mal, wenn es ein Ereignis empfängt, das dieser Bedingung entspricht (Feld **[!UICONTROL Stadt]** und Wert **[!UICONTROL Paris]**), dieses an Journeys weiterleitet.
 
    >[!NOTE]
@@ -81,8 +77,6 @@ Nachfolgend finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereigni
 1. Fügen Sie einen Identitätstyp hinzu. Dieser Schritt ist optional, wird jedoch empfohlen, da das Hinzufügen eines Identitätstyps es Ihnen ermöglicht, die im Echtzeit-Kundenprofildienst gespeicherten Informationen zu nutzen. Er definiert den Schlüsseltyp, den das Ereignis hat. Weiterführende Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#select-the-namespace).
 
 1. Profilkennung definieren: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verbundene Person zu identifizieren. Dieser Schlüssel wird automatisch eingerichtet (kann aber weiterhin bearbeitet werden), wenn Sie einen Identitätstyp auswählen. Journeys wählen den Schlüssel aus, der dem Identitätstyp entsprechen soll (wenn Sie beispielsweise einen E-Mail-Identitätstyp auswählen, wird der E-Mail-Schlüssel ausgewählt). Weiterführende Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#define-the-event-key).
-
-   ![](assets/jo-event7.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
