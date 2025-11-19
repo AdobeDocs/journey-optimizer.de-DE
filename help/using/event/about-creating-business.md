@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Ereignis, Journey, Geschäft, Konfiguration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 98%
@@ -93,8 +93,6 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
    ![](assets/test-profiles-4.png)
 
 1. Klicken Sie in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Mit dem einfachen Ausdruckseditor definieren Sie die Bedingung, anhand derer das System die Ereignisse erkennt, die Ihre Journey auslösen.
-
-   ![](assets/jo-event6-business.png)
 
    In unserem Beispiel haben wir eine Bedingung basierend auf der Kennung des Produkts geschrieben. Das bedeutet, dass das System jedes Mal, wenn es ein Ereignis erhält, das dieser Bedingung entspricht, dieses an Journeys weitergibt.
 
