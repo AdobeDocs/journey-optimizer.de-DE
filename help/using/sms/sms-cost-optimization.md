@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: 13b3c8aa7fce85029167ef31feb7272e4877b7b0
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Während Journey Optimizer während der Inhaltsimulation eine Zeichenanzahl eins
 
 ## Grundlegendes zum Reporting {#understanding-reporting}
 
-**Journey Optimizer-Reporting** Zählt die gesamte Nachricht als einen Versand, unabhängig von den SMS-Teilen. Dies trägt dazu bei, den ansprechbaren Profilbetrag zu reduzieren.
+**Journey Optimizer-Reporting** Zählt die gesamte Nachricht als einen Versand, unabhängig von den SMS-Teilen.
 
-**Provider-Reporting** zeigt die tatsächlichen SMS-Teile für den Versand an und sollte verwendet werden, um die Abrechnung und Überschüsse zu ermitteln.
+**Provider-Reporting** spiegelt die tatsächliche Anzahl der für den Versand verwendeten SMS-Nachrichtenteile wider und sollte zur Bestätigung der Abrechnung und möglicher Überschüsse referenziert werden. Wenn Adobe Ihr SMS-Provider über Sinch ist, erhalten Sie diesen Abrechnungsbericht monatlich separat.
 
 ## Überlegungen zu Personalization {#personalization-considerations}
 
