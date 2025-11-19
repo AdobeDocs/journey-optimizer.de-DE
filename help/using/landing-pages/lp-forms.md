@@ -10,10 +10,10 @@ level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: c91bfc19a8c68b7b914c552349f50e7d47d150df
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist derzeit nur für Kunden in den USA und Australien verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+>Diese Funktion ist derzeit nur für Kundinnen und Kunden in den USA und Australien verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
 Um Profildaten mit Ihren [!DNL Journey Optimizer]-Landingpages zu erfassen und Ihre [!DNL Experience Platform]-Datensätze anzureichern, können Sie in Ihren Landingpages Formulare nutzen.
 
@@ -196,8 +196,6 @@ Nachdem Sie ein Feldattribut ausgewählt oder ein benutzerdefiniertes Feld hinzu
 
 Zurück in den Formulardetails im Abschnitt **[!UICONTROL Dankeseite]** konfigurieren Sie, was passiert, wenn ein Benutzer das Formular ausfüllt.
 
-![](assets/lp_create-form-thank-you.png){width=70%}
-
 Richten Sie eine der folgenden Aktionen ein:
 
 * **[!UICONTROL Auf Seite bleiben]**: Mit dieser Option bleibt die Besucherin bzw. der Besucher auf derselben Seite, wenn das Formular gesendet wird.
@@ -265,7 +263,7 @@ Sie können dieses Formular jetzt in eine Landingpage einbetten, um Daten zu erf
 
    >[!NOTE]
    >
-   >Sie können das ausgewählte Formular mithilfe der Schaltfläche **[!UICONTROL Formular bearbeiten]** überarbeiten. Das Formular wird in einer neuen Registerkarte geöffnet. Die Schritte zum Bearbeiten des Formularinhalts werden in [&#x200B; Abschnitt &#x200B;](#create-form).
+   >Sie können das ausgewählte Formular mithilfe der Schaltfläche **[!UICONTROL Formular bearbeiten]** überarbeiten. Das Formular wird in einer neuen Registerkarte geöffnet. Die Schritte zum Bearbeiten des Formularinhalts werden in [ Abschnitt ](#create-form).
 
 1. Konfigurieren Sie im Abschnitt **[!UICONTROL Folge-Typ]**, was geschehen soll, wenn eine Benutzerin bzw. ein Benutzer das Formular ausfüllt:
 
