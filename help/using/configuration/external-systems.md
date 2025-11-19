@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
+source-git-commit: e6e8178f7a57a6d57c8d137dd313a26a5878994b
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 95%
+source-wordcount: '1781'
+ht-degree: 88%
 
 ---
 
@@ -110,7 +110,7 @@ Sehen wir uns ein Beispiel einer Zeitüberschreitung von fünf Sekunden an.
 
 Im Folgenden finden Sie häufig gestellte Fragen zur Integration von Journey Optimizer mit externen Systemen.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ Wie kann ich eine Begrenzungs- oder Einschränkungsregel konfigurieren? Gibt es eine Standardregel?
 
@@ -127,6 +127,24 @@ Pro Aufruf können nach dem ersten Aufruf maximal drei weitere Versuche durchgef
 +++ Wo kann ich die maximale Wartezeit konfigurieren? Gibt es einen Höchstwert?
 
 Sie können in jeder Journey eine Zeitüberschreitungsdauer festlegen. Die Zeitüberschreitungsdauer wird in den Eigenschaften einer Journey konfiguriert. Die Zeitüberschreitungsdauer muss zwischen 1 Sekunde und 30 Sekunden liegen. Weitere Informationen finden Sie in [diesem Abschnitt](../configuration/external-systems.md#timeout) und auf [dieser Seite](../building-journeys/journey-properties.md#timeout_and_error).
+
++++
+
++++ Was ist der Egress-Proxy und wann sollte ich ihn verwenden?
+
+Der Egress-Proxy bietet eine **statische IP-Adresse** für ausgehende Aufrufe von Journey Optimizer an Ihre externen Systeme. Verwenden Sie sie, wenn Ihre Drittanbieter-Endpunkte eine IP-Zulassungsauflistung erfordern.
+
+**Wichtig:** Der Ausgangs-Proxy steuert NICHT den Durchsatz, die Ratenbeschränkungen oder die Anzahl der gleichzeitigen Verbindungen. Um das Aufrufvolumen und die Verbindungsbeschränkungen zu verwalten, verwenden Sie die [Begrenzungs-API](capping.md) oder [Drosselungs-API](throttling.md).
+
+**Verwenden des Ausgangs-Proxys für:**
+* Zulassungsauflistung einer statischen IP-Adresse in der Firewall oder dem Endpunkt eines Drittanbieters
+
+**Verwenden von Begrenzungs-/Drosselungs-APIs für:**
+* Anzahl der API-Aufrufe pro Sekunde begrenzen
+* Steuern gleichzeitiger Verbindungen zu Ihrem Endpunkt
+* Schutz des externen Systems vor Überlastung
+
+Wenden Sie sich an Adobe, um den Egress-Proxy für Ihr Unternehmen zu aktivieren, wenn Sie eine statische IP-Adresse für die Zulassungsauflistung benötigen.
 
 +++
 
