@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Ereignis, Journey, Geschäft, Konfiguration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
+workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -27,11 +27,11 @@ Im Gegensatz zu unitären Ereignissen sind Geschäftsereignisse nicht mit einem 
 
 Auf dem Lesen von Zielgruppen basierende Journeys können einmalig, durch eine Planung in regelmäßigen Abständen oder durch ein Geschäftsereignis ausgelöst werden, wenn das Ereignis eintritt.
 
-Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „der Aktienkurs einer Firma erreicht einen bestimmten Wert“ usw.
+Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „der Aktienkurs eines Unternehmens erreicht einen bestimmten Wert“ usw.
 
 >[!NOTE]
 >
->Sie können sich auch das [Tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=de) zu Anwendungsfällen für Geschäftsereignisse ansehen. Beachten Sie, dass das Schema für das Profil nicht aktiviert werden muss.
+>Sie können sich auch das [Tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"} zu Anwendungsfällen für Geschäftsereignisse ansehen. Beachten Sie, dass das Schema für das Profil nicht aktiviert werden muss.
 
 ## Wichtige Hinweise {#important-notes}
 
@@ -56,7 +56,7 @@ Für Geschäftsereignisse gelten die gleichen Regeln für den erneuten Eintritt 
 
 **Welche Schutzmechanismen gibt es, um zu verhindern, dass materialisierte Zielgruppen überlastet werden?**
 
-Im Falle von einmaligen Geschäftsereignissen werden die vom ersten Ereignisvorgang übertragenen Daten für eine bestimmte Journey innerhalb eines Zeitfensters von einer Stunde wiederverwendet. Für geplante Journeys gibt es keine diesbezüglichen Leitplanken. Weitere Informationen zu Zielgruppen finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
+Im Falle von einmaligen Geschäftsereignissen werden die vom ersten Ereignisvorgang übertragenen Daten für eine bestimmte Journey innerhalb eines Zeitfensters von einer Stunde wiederverwendet. Für geplante Journeys gibt es keine diesbezüglichen Leitplanken. Weitere Informationen zu Zielgruppen finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
 
 ## Erste Schritte mit Geschäftsereignissen {#gs-business-events}
 
