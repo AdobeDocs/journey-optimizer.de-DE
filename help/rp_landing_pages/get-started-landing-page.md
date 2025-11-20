@@ -32,7 +32,7 @@ Entdecken Sie die Kernfunktionen, Anwendungsfälle und die Architektur von Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Überblick über die Architektur
 

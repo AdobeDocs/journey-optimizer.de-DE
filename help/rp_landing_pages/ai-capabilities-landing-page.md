@@ -30,7 +30,7 @@ Nutzen Sie generative KI, um Inhalte für E-Mails, SMS, Push-Benachrichtigungen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Versandzeitoptimierung
 
@@ -70,7 +70,7 @@ Generieren Sie mehrere Inhaltsvarianten und führen Sie Experimente durch, um di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Bewertung der Markenausrichtung
 
@@ -100,7 +100,7 @@ Wandeln Sie statische Bildentwürfe mithilfe der KI-gestützten Konversionstechn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Betriebliche Erkenntnisse zu Journeys (Beta)
 

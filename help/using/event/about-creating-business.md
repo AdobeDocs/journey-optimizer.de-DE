@@ -31,7 +31,7 @@ Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „de
 
 >[!NOTE]
 >
->Sie können sich auch das [Tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"} zu Anwendungsfällen für Geschäftsereignisse ansehen. Beachten Sie, dass das Schema für das Profil nicht aktiviert werden muss.
+>Sie können sich auch das [Tutorial](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"} zu Anwendungsfällen für Geschäftsereignisse ansehen. Beachten Sie, dass das Schema für das Profil nicht aktiviert werden muss.
 
 ## Wichtige Hinweise {#important-notes}
 

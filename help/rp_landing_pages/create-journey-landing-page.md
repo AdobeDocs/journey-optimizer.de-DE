@@ -41,7 +41,7 @@ Konfigurieren Sie Eintrittsregeln, zeitbezogene Einstellungen, Zugriffsverwaltun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Entwerfen einer Journey
 
@@ -51,7 +51,7 @@ Verwenden Sie die Drag-and-Drop-Oberfläche, um personalisierte, mehrstufige Mar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Testen der Journey
 
