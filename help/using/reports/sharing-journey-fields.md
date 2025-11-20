@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 60%
 
 ---
 
@@ -42,6 +42,10 @@ Typ: Zeichenfolge
 Name der Journey.
 
 Typ: Zeichenfolge
+
+>[!NOTE]
+>
+>Der Journey-Name wird verwendet, um Journey-Ausführungsdaten mit Reporting-Datensätzen zu verknüpfen. Wenn Sie eine Journey umbenennen, stellen Sie sicher, dass der neue Name mit dem Namen in Ihrem Reporting-Datensatz übereinstimmt, um ein korrektes Reporting zu gewährleisten. Eine Nichtübereinstimmung kann dazu führen, dass die Berichtsdaten nicht wie erwartet angezeigt werden. Weitere Informationen über [Fehlerbehebung bei fehlenden Berichtsdaten](../building-journeys/report-journey.md#troubleshooting-missing-data).
 
 ## description {#description-field}
 

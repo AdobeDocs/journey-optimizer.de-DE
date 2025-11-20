@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6a5b4c94228db0ab9573124762e89181c2c41b45
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 100%
+source-wordcount: '998'
+ht-degree: 66%
 
 ---
 
 # Hinzufügen visueller Fragmente zu Ihren E-Mails {#use-visual-fragments}
 
-Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails in Journey Optimizer-Kampagnen, -Journeys oder -Inhaltsvorlagen referenziert werden kann.  Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Fachleute E-Mail-Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können.  [Informationen zum Erstellen und Verwalten von Fragmenten](../content-management/fragments.md).
+Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails in Journey Optimizer-Kampagnen, -Journeys oder -Inhaltsvorlagen referenziert werden kann.  Mit dieser Funktion können mehrere benutzerdefinierte Inhaltsbausteine vorkonfiguriert werden, die von Marketing-Benutzern verwendet werden können, um E-Mail-Inhalte schnell in einem verbesserten Design-Prozess zusammenzustellen. [Informationen zum Erstellen und Verwalten von Fragmenten](../content-management/fragments.md).
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden](../content-management/fragments.md#video-fragments)
 
@@ -28,7 +28,6 @@ Gehen Sie wie folgt vor, um ein Fragment in einer E-Mail zu verwenden.
 >[!NOTE]
 >
 >Sie können für einen Versand bis zu 30 Fragmente hinzufügen. Fragmente können nur bis zu einer Ebene verschachtelt werden.
-
 
 1. Öffnen Sie eine beliebige E-Mail oder Inhaltsvorlage mit dem [E-Mail-Designer](get-started-email-design.md).
 
@@ -73,6 +72,35 @@ Gehen Sie wie folgt vor, um ein Fragment in einer E-Mail zu verwenden.
 
 1. Fügen Sie beliebig viele Fragmente hinzu und **[!UICONTROL speichern]** Sie Ihre Änderungen.
 
+### Einschränkungen bei der Verwendung dynamischer Inhalte in Fragmenten {#fragment-dynamic-content}
+
+>[!CAUTION]
+>
+>Beachten Sie beim Arbeiten mit Fragmenten, die dynamischen Inhalt (bedingte Inhalte) enthalten, die folgende Einschränkung:
+>
+>**Das Verschachteln von Fragmenten mit dynamischen Inhalten wird nicht unterstützt.** Sie können ein Fragment mit dynamischem Inhalt nicht in einem entsperrten Fragment platzieren, das auch dynamischen Inhalt enthält. Diese nicht unterstützte Konfiguration kann zu Folgendem führen:
+>
+>* Verlust der bedingten Inhaltszuordnungen
+>* Warnhinweise zum Kompatibilitätsmodus in der E-Mail-Designer
+>* Inkonsistentes E-Mail-Rendering
+>
+>**Empfohlener Ansatz:** Wenn Sie mehrere Fragmente mit dynamischen Inhalten in Ihrer E-Mail verwenden, fügen Sie jedes Fragment direkt in einen eigenen Strukturblock auf E-Mail-Ebene hinzu. Dadurch wird die ordnungsgemäße Funktionalität sichergestellt und die oben genannten Probleme vermieden.
+
+## Best Practices für Fragmente mit dynamischen Inhalten {#fragment-best-practices}
+
+Befolgen Sie diese Best Practices beim Arbeiten mit visuellen Fragmenten und dynamischen Inhalten (bedingte Inhalte):
+
+* **E-Mail richtig strukturieren**: Beim Erstellen von E-Mails mit Fragmenten mit dynamischem Inhalt fügen Sie jedes Fragment in einen dedizierten Strukturblock auf E-Mail-Ebene hinzu. Verschachteln Sie Fragmente mit dynamischem Inhalt nicht in anderen entsperrten Fragmenten, die auch dynamischen Inhalt enthalten.
+
+* **Im Voraus planen**: Bevor Sie Ihrer E-Mail Fragmente hinzufügen, müssen Sie ermitteln, welche dynamische Inhalte enthalten, und Ihr Layout entsprechend planen. Dadurch werden Konfigurationsprobleme vermieden und eine saubere Struktur von Anfang an sichergestellt.
+
+* **Entwerfen Sie wiederverwendbare Fragmente sorgfältig**: Wenn Sie Fragmente erstellen, die dynamische Inhalte enthalten, sollten Sie überlegen, wie sie verwendet werden. Wenn ein Fragment in anderen Fragmenten verschachtelt werden muss, vermeiden Sie es, sowohl den übergeordneten als auch den untergeordneten Fragmenten dynamische Inhalte hinzuzufügen.
+
+* **Fehlerbehebung**: Wenn bedingte Inhaltszuordnungen verloren gehen oder Warnungen zum Kompatibilitätsmodus angezeigt werden:
+   * Überprüfen Sie Ihre E-Mail-Struktur auf verschachtelte Fragmente, die dynamische Inhalte enthalten
+   * Strukturieren Sie die Struktur um, indem Sie jedes Fragment mit dynamischem Inhalt auf E-Mail-Ebene in einen eigenen Strukturblock verschieben
+   * Speichern und überprüfen Sie, ob bedingte Inhaltszuordnungen ordnungsgemäß wiederhergestellt werden
+
 ## Verwenden implizierter Variablen {#implicit-variables-in-fragments}
 
 Implizite Variablen verbessern die vorhandene Fragmentfunktionalität, um die Effizienz der Wiederverwendbarkeit von Inhalten und der entsprechenden Skripterstellung zu verbessern. Fragmente können nun Eingabevariablen verwenden und Ausgabevariablen erstellen, die sich in Kampagnen- und Journey-Inhalten verwenden lassen.
@@ -81,7 +109,7 @@ In [diesem Abschnitt](../personalization/use-expression-fragments.md#implicit-va
 
 ## Anpassen bearbeitbarer Felder {#customize-fields}
 
-Wenn bestimmte Teile des ausgewählten Fragments bearbeitbar gemacht wurden, können Sie deren Standardwert überschreiben, nachdem Sie das Fragment zum Inhalt hinzugefügt haben. [Erfahren Sie, wie Sie Ihre Fragmente anpassbar machen können](../content-management/customizable-fragments.md)
+Wenn bestimmte Teile des ausgewählten Fragments bearbeitbar gemacht wurden, können Sie den Standardwert überschreiben, nachdem das Fragment zum Inhalt hinzugefügt wurde. [Erfahren Sie, wie Sie Ihre Fragmente anpassbar machen können](../content-management/customizable-fragments.md)
 
 Gehen Sie wie folgt vor, um bearbeitbare Felder in einem Fragment anzupassen:
 

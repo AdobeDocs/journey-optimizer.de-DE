@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Assets, Experience Manager, Integration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 5ac4220250b69289ec0f722ca54fef3b63174643
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 98%
+source-wordcount: '1106'
+ht-degree: 73%
 
 ---
 
@@ -116,7 +116,7 @@ Um Dateien in **[!DNL Assets Essentials]** oder **[!DNL Assets as a Cloud Serv
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Adobe Experience Manager Assets.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ Kann ich das gebündelte Assets Essentials-Repository in Journey Optimizer weiter verwenden?
 
@@ -139,5 +139,42 @@ Ja, Sie können dynamische Medien-URLs innerhalb der E-Mail-Erstellung von Journ
 +++ Können Benutzerinnen und Benutzer von Journey Optimizer Änderungen am Repository von Adobe Experience Manager Assets as a Cloud Service über die Journey Optimizer-Oberfläche vornehmen?
 
 Solange die Person eine standardmäßige Berechtigung für **[!DNL Adobe Experience Manager Assets as a Cloud Service]** besitzt und die Berechtigung „Bearbeiten“ für das Repository hat, kann sie Änderungen am **[!DNL Adobe Experience Manager Assets as a Cloud Service]**-Repository vornehmen.
+
++++
+
++++ Warum werden Bilder in E-Mails, die von Journey Optimizer gesendet werden, manchmal nicht geladen?
+
+Wenn Assets (z. B. Bilder) über Adobe Experience Manager verwaltet und in Journey Optimizer verwendet werden, unterliegen sie einer Asset-Lebenszyklusrichtlinie mit einer TTL (Time-to-Live). Nach Ablauf des TTL-Zeitraums können Assets aus dem Speicher (CDN) entfernt werden, was zu beschädigten Bildern in E-Mails führen kann, die auf diese Assets verweisen.
+
+>[!NOTE]
+>
+>Die Asset-TTL wird von Adobe Journey Optimizer-Backend-Services verwaltet und kann derzeit von Kunden nicht konfiguriert werden. Der aktuelle TTL-Zeitraum ist für alle Journey Optimizer-Organisationen auf 730 Tage festgelegt.
+
++++
+
++++ Wie kann ich fehlerhafte Bilder aufgrund des Asset-Ablaufs auflösen?
+
+So stellen Sie die Bildverfügbarkeit bei abgelaufenen Assets wieder her:
+
+1. **Betroffene Assets erneut veröffentlichen**: Navigieren Sie zum Asset in Adobe Experience Manager und veröffentlichen Sie es erneut. Dadurch wird das Asset erneut im CDN verfügbar.
+
+2. **Inhaltsreferenzen aktualisieren**: Wenn Sie Inhaltsfragmente oder Vorlagen verwenden, die auf abgelaufene Assets verweisen:
+   * Erstellen eines Entwurfs oder Klons des Inhaltsfragments
+   * Asset erneut hinzufügen oder auswählen
+   * Veröffentlichen des aktualisierten Inhalts
+
+3. **Proaktive Verwaltung**: Um zukünftige Unterbrechungen zu vermeiden, sollten Sie in aktiven E-Mail-Kampagnen verwendete Assets regelmäßig überprüfen und erneut veröffentlichen, insbesondere solche, die sich dem TTL-Ablaufzeitraum nähern.
+
+>[!CAUTION]
+>
+>Die Anforderungen an die erneute Veröffentlichung gelten für alle Umgebungen (Produktion, Staging, Entwicklung). Stellen Sie sicher, dass Assets verfügbar bleiben, indem Sie ihren Lebenszyklus angemessen verwalten.
+
++++
+
++++ Wird die Logik zum Ablauf von Assets in Zukunft verbessert?
+
+Ja, Adobe arbeitet aktiv an Verbesserungen, um die Logik zum Ablauf von Assets und zur Lebenszyklusverwaltung zu verfeinern. Diese Verbesserungen sollen einen besseren Überblick über den Asset-Lebenszyklusstatus bieten und das Risiko von fehlerhaften Bildern in Live-Kampagnen verringern.
+
+Die neuesten Aktualisierungen erhalten Sie von Ihrem Adobe-Accountteam oder lesen Sie die Versionshinweise zu Adobe Journey Optimizer.
 
 +++

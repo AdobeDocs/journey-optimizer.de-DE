@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate
 keywords: Kampagne, ACC, Integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: ee1b6808d3247c7549e82990113d0d496c31b2a9
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 77%
 
 ---
 
@@ -92,9 +92,25 @@ Gehen Sie wie folgt vor, um eine Campaign-Aktion zu erstellen:
 
 1. Erstellen Sie eine neue Aktion. [Erfahren Sie mehr zum Erstellen benutzerdefinierter Aktionen](../action/action.md).
 1. Geben Sie einen Namen und eine Beschreibung ein.
-1. Wählen Sie im Feld **Aktionstyp** die Option **Adobe Campaign Classic** aus.
+1. Wählen Sie im Feld **[!UICONTROL Aktionstyp]** die Option **[!UICONTROL Adobe Campaign Classic]** aus.
    ![](assets/accintegration1.png)
-1. Klicken Sie in das Feld **Payload** und fügen Sie ein Beispiel der JSON-Payload ein, die der Campaign-Nachricht entspricht. Wenden Sie sich an Adobe, um diese Payload zu erhalten.
+1. Klicken Sie in das Feld **[!UICONTROL Payload]** und fügen Sie ein Beispiel der JSON-Payload ein, die der Campaign-Nachricht entspricht. Wenden Sie sich an Adobe, um diese Payload zu erhalten.
 1. Jedes Feld muss entweder als statisch oder als variabel festgelegt werden, je nachdem, ob es auf der Journey-Arbeitsfläche zugeordnet werden soll. Beispielsweise sollten Felder wie E-Mail-Kanalparameter und Personalisierungsfelder (`ctx`) normalerweise als Variablen festgelegt werden, damit sie sich innerhalb der Journey dynamisch anpassen können.
-1. Klicken Sie auf **Speichern**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+## Vorhandene Aktion aktualisieren {#update-action}
+
+Wenn Sie eine vorhandene benutzerdefinierte Aktion von Campaign v7/v8 aktualisieren müssen, z. B. wenn sich der Echtzeit-Endpunkt (RT) nach der Ersteinrichtung ändert, führen Sie die folgenden Schritte aus:
+
+1. Wählen Sie im Menü **[!UICONTROL Administration]** die Option **[!UICONTROL Konfigurationen]** aus und navigieren Sie dann zu **[!UICONTROL Aktionen]**.
+1. Suchen Sie die Campaign-Aktion, die Sie aktualisieren möchten, und wählen Sie sie in der Liste Aktionen aus.
+1. Klicken Sie **[!UICONTROL Bearbeiten]**, um die Aktionskonfiguration zu öffnen.
+1. Aktualisieren Sie das Feld **[!UICONTROL URL]** mit der neuen RT-Endpunkt-URL. Stellen Sie sicher, dass das Endpunktformat korrekt und erreichbar ist.
+1. Aktualisieren Sie bei Bedarf die **[!UICONTROL Payload]**-Konfiguration, um sie an Änderungen in der Transaktionsnachrichtenstruktur von Campaign anzupassen.
+1. Klicken Sie **[!UICONTROL Test]**, um die Verbindung zum neuen Endpunkt zu überprüfen. Vergewissern Sie sich, dass der Test eine erfolgreiche Antwort zurückgibt, bevor Sie fortfahren.
+1. Klicken Sie nach der Validierung auf **[!UICONTROL Speichern]**, um Ihre Änderungen anzuwenden.
+
+>[!NOTE]
+>
+>Alle Journey, die diese Aktion verwenden, verwenden automatisch die aktualisierte Konfiguration. Wenn Sie Live-Journey haben, die diese Aktion verwenden, überwachen Sie sie nach der Aktualisierung des Endpunkts genau, um einen ordnungsgemäßen Nachrichtenversand sicherzustellen.
 
