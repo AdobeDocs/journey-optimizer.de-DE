@@ -263,7 +263,7 @@ Sie können dieses Formular jetzt in eine Landingpage einbetten, um Daten zu erf
 
    >[!NOTE]
    >
-   >Sie können das ausgewählte Formular mithilfe der Schaltfläche **[!UICONTROL Formular bearbeiten]** überarbeiten. Das Formular wird in einer neuen Registerkarte geöffnet. Die Schritte zum Bearbeiten des Formularinhalts werden in [ Abschnitt ](#create-form).
+   >Sie können das ausgewählte Formular mithilfe der Schaltfläche **[!UICONTROL Formular bearbeiten]** überarbeiten. Das Formular wird in einer neuen Registerkarte geöffnet. Die Schritte zum Bearbeiten des Formularinhalts werden in [&#x200B; Abschnitt &#x200B;](#create-form).
 
 1. Konfigurieren Sie im Abschnitt **[!UICONTROL Folge-Typ]**, was geschehen soll, wenn eine Benutzerin bzw. ein Benutzer das Formular ausfüllt:
 
