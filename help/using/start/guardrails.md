@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2929'
-ht-degree: 100%
+source-git-commit: 78cf16d0f62d6cb7fac82b9e8f89e8726e2db896
+workflow-type: tm+mt
+source-wordcount: '3075'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +59,24 @@ Für den [E-Mail-Kanal](../email/get-started-email.md) gelten die folgenden Schu
 * Es kann nicht dieselbe Versand-Domain zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
 
 Beim Entwerfen von E-Mail-Nachrichten sucht das System nach wichtigen Einstellungen und zeigt Warnungen (Empfehlungen und Best Practices) und Fehler (Blockierungsprobleme, die Tests oder die Aktivierung verhindern) an. Weitere Informationen zu E-Mail-Warnhinweisen und Validierungsanforderungen finden Sie in [diesem Abschnitt](../email/create-email.md#check-email-alerts).
+
+#### Größe des Nachrichteninhalts für die Journey-Veröffentlichung {#message-content-size}
+
+Beim Veröffentlichen von Journey mit E-Mail-Nachrichten darf die Gesamtgröße des Nachrichteninhalts nach der Backend-Verarbeitung **2 MB** nicht überschreiten. Während der Veröffentlichung verarbeitet das System automatisch Nachrichteninhalte, indem Links und Bilder gepatcht und Umwandlungen vorgenommen werden, wodurch die Payload-Größe über die Größe des erstellten Inhalts hinaus erhöht wird.
+
+>[!CAUTION]
+>
+>Wenn der endgültige verarbeitete Nachrichteninhalt 2 MB überschreitet, schlägt die Journey-Veröffentlichung fehl. Um Veröffentlichungsfehler zu vermeiden, sollten Sie den Inhalt der erstellten Nachricht deutlich unter 2 MB - idealerweise unter **1 MB** - halten, um einen Puffer von 300-400 KB für den Backend-Verarbeitungsaufwand zu ermöglichen.
+
+**Best Practices zur Vermeidung von Veröffentlichungsfehlern:**
+
+* Erstellte E-Mail-Inhalte unter 1 MB speichern
+* Minimieren der Anzahl von Inhaltsvarianten
+* Bilder optimieren und komprimieren, bevor sie zu Nachrichten hinzugefügt werden
+* Entfernen von nicht verwendeten Assets und unnötigen HTML-Elementen
+* Nachrichtengröße vor der Veröffentlichung der Journey in der Produktionsumgebung testen
+
+Wenn die Journey-Veröffentlichung aufgrund der Inhaltsgröße fehlschlägt, reduzieren Sie den Nachrichteninhalt und veröffentlichen Sie die Journey erneut.
 
 ### Leitlinien für SMS {#sms-guardrails}
 
