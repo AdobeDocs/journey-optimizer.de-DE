@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail-Designs, Module, Wiederverwendbarkeit, Markenkonsistenz, E-Mail-Design, benutzerdefiniertes CSS, Optimierung für Mobilgeräte
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 53ae620926fc8ba3e9c8b558584ed8eb6942e3d4
+source-git-commit: 365ed7f735760ee5763d0f12ea366c662a097948
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 33%
@@ -48,7 +48,7 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, visuell ansprechende, marken
 
 * Wenn Sie einen in HTML erstellten Inhalt verwenden, befinden Sie sich im [Kompatibilitätsmodus](existing-content.md) und Sie können keine Designs direkt auf diesen Inhalt anwenden.
 
-   * Um Designs anzuwenden, müssen Sie zunächst den importierten Inhalt [als neue Vorlage](../content-management/create-content-templates.md#save-as-template) speichern und diese Vorlage dann in einen Design-kompatiblen Inhalt konvertieren. Anschließend können Sie diese Vorlage verwenden, um E-Mail-Inhalte zu erstellen. In diesem Abschnitt erfahren Sie, wie Sie eine mit manuellem Stil erstellte [&#x200B; konvertieren](#theme-convertor).
+   * Um Designs anzuwenden, müssen Sie zunächst den importierten Inhalt [als neue Vorlage](../content-management/create-content-templates.md#save-as-template) speichern und diese Vorlage dann in einen Design-kompatiblen Inhalt konvertieren. Anschließend können Sie diese Vorlage verwenden, um E-Mail-Inhalte zu erstellen. In diesem Abschnitt erfahren Sie, wie Sie eine mit manuellem Stil erstellte [ konvertieren](#theme-convertor).
 
    * Sie können auch weiterhin Ihre importierten HTML-Inhalte konvertieren. [Weitere Informationen](existing-content.md)
 
@@ -216,7 +216,7 @@ Gehen Sie wie folgt vor, um ein mit Designs kompatibles Fragment zu erstellen.
 
    >[!CAUTION]
    >
-   >Wenn Sie das Fragment in einem E-Mail-Inhalt verwenden[&#x200B; stellen Sie sicher, dass Sie (](#apply-themes-email) Design anwenden), das Sie für dieses Fragment definiert haben. Andernfalls kann es zu Anzeigeproblemen kommen, insbesondere in Outlook 2021 und früheren Versionen.
+   >Wenn Sie das Fragment in einem E-Mail-Inhalt verwenden[ stellen Sie sicher, dass Sie (](#apply-themes-email) Design anwenden), das Sie für dieses Fragment definiert haben. Andernfalls kann es zu Anzeigeproblemen kommen, insbesondere in Outlook 2021 und früheren Versionen.
 
 1. Klicken Sie auf **[!UICONTROL Schließen]**.
 
@@ -250,4 +250,4 @@ Gehen Sie wie folgt vor, um ein mit Designs kompatibles Fragment zu erstellen.
 
    ![](assets/generate-theme-colors.png){width=90%}
 
-1. Klicken Sie **[!UICONTROL Speichern]**, um dieses neue Design zur Wiederverwendung zu speichern. Sie können dieses Design nun wie jedes andere Design auf Ihre Inhalte anwenden. [Weitere Informationen](#leverage-themes-fragment)
+1. Klicken Sie **[!UICONTROL Speichern]**, um dieses neue Design zur Wiederverwendung zu speichern. Sie können dieses Design nun wie jedes andere Design auf Ihre Inhalte anwenden. [Weitere Informationen](#apply-themes-email)
