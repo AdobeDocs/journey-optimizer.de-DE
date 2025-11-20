@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Ausdruck, Editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: d4736257166a1fb19350aca45ee55decd3afd0b2
+source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 96%
+source-wordcount: '848'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,9 @@ ht-degree: 96%
 >title="Für Lookup aktivieren"
 >abstract="Durch die Aktivierung eines Datensatzes für die Suche können Sie dessen Daten mit den Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung von Journey Optimizer nutzen."
 
-Mit Journey Optimizer können Sie Daten aus Adobe Experience Platform mit Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung nutzen. Hierzu müssen auf Einträgen basierende Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben aktiviert werden. 
+[!DNL Journey Optimizer] ermöglicht Ihnen die Nutzung von Daten aus [!DNL Adobe Experience Platform] mit Personalisierungs-, Entscheidungs- und Journey-Orchestrierungsfunktionen. Hierzu müssen auf Einträgen basierende Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben aktiviert werden. 
+
+Weitere Informationen zum Zugriff auf und zum Arbeiten mit Datensätzen finden Sie in diesem Abschnitt : [Erste Schritte mit Datensätzen](../data/get-started-datasets.md)
 
 ## Wichtige Informationen
 
@@ -34,8 +36,7 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 
 * **Keine personenbezogenen Daten in Datensätzen**: Für die Suche aktivierte Datensätze sollten keine personenbezogenen Daten (PII) enthalten.
 
-* 
-   * **Löschrisiko**: In der Personalisierung verwendete Datensätze sind nicht vor dem Löschen geschützt. Sie müssen verfolgen, welche Datensätze verwendet werden, um sicherzustellen, dass sie nicht entfernt werden.
+* **Löschrisiko**: In der Personalisierung verwendete Datensätze sind nicht vor dem Löschen geschützt. Sie müssen verfolgen, welche Datensätze verwendet werden, um sicherzustellen, dass sie nicht entfernt werden.
 
 * **Schematyp**: Datensätze müssen mit einem Schema verknüpft sein, das **NICHT** vom Typ „Profil“ oder „Ereignis“ ist.
 
