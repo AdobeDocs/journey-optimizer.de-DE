@@ -21,7 +21,7 @@ Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben als Dat
 
 ## Leitlinien und Einschränkungen
 
-* Seit dem 1. November 2024 werden Senden- und Öffnen-Ereignisse aus Tracking- und Feedback-[!DNL Journey Optimizer]Datensätzen nicht mehr durch die Streaming-Segmentierung unterstützt. Verwenden Sie stattdessen Geschäftsregeln, um die Frequenzbegrenzung oder die Ermüdungsverwaltung zu implementieren. Weitere Informationen finden Sie in [diesem Abschnitt](../conflict-prioritization/rule-sets.md), eine Erklärung zu Anwendungsfällen für die tägliche Begrenzung finden Sie [hier](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+* Seit dem 1. November 2024 werden Senden- und Öffnen-Ereignisse aus Tracking- und Feedback-[!DNL Journey Optimizer]Datensätzen nicht mehr durch die Streaming-Segmentierung unterstützt. Verwenden Sie stattdessen Geschäftsregeln, um die Frequenzbegrenzung oder die Ermüdungsverwaltung zu implementieren. Weitere Informationen finden Sie in [diesem Abschnitt](../conflict-prioritization/rule-sets.md), eine Erklärung zu Anwendungsfällen für die tägliche Begrenzung finden Sie [hier](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=de){target="_blank"}.
 
 * Seit Februar 2025 wird eine TTL-Schutzmaßnahme (Time-to-Live) für systemgenerierte Journey Optimizer-Datensätze eingeführt. [Weitere Informationen](datasets-ttl.md)
 
@@ -74,8 +74,8 @@ Das Hinzufügen von Daten zu [!DNL Adobe Experience Platform] bildet die Grundla
 
 Sie können einen Datensatz aus einem Schema oder einer CSV-Datei erstellen. Detaillierte Informationen zum Erstellen von Datensätzen finden Sie in [!DNL Adobe Experience Platform] Dokumentation:
 
-* [Erstellen eines Datensatzes mit einem vorhandenen Schema](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [Zuordnen einer CSV-Datei zu einem vorhandenen XDM-Schema](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [Erstellen eines Datensatzes mit einem vorhandenen Schema](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [Zuordnen einer CSV-Datei zu einem vorhandenen XDM-Schema](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 In diesem Video erfahren Sie, wie Sie einen Datensatz erstellen, ihn einem Schema zuordnen, ihm Daten hinzufügen und bestätigen, dass die Daten aufgenommen wurden.
 
@@ -101,4 +101,4 @@ Weitere Informationen zu Data Governance und Datennutzungskennzeichnungen finden
 >
 >* [Dokumentation zu Datensätzen](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de){target="_blank"}
 >* [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target="_blank"}.
->* [Best Practices für die Verwaltung von Daten im Rahmen von Lizenzberechtigungen](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [Best Practices für die Verwaltung von Daten im Rahmen von Lizenzberechtigungen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
