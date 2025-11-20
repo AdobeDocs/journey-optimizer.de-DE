@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: b8fb0c0fd9e9e119428b430563cbb35d1961516e
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 93%
+source-wordcount: '1344'
+ht-degree: 88%
 
 ---
 
@@ -110,6 +110,10 @@ Vermeiden Sie die Verwendung von Öffnungs- und Sendeereignissen bei der Streami
 
 Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
+>[!NOTE]
+>
+>Bei der Streaming-Segmentierung kann es bis zu **2 Stunden dauern,** neu aufgenommene Daten innerhalb von Adobe Experience Platform vollständig und in Echtzeit übertragen werden können. Zielgruppen, die auf tägliche oder zeitbasierte Bedingungen angewiesen sind (z. B. „Ereignisse, die heute aufgetreten sind„), können eine zusätzliche Komplexität bei der Qualifizierungszeitplanung erleben. Wenn Ihr Journey von der sofortigen Zielgruppen-Qualifizierung abhängt, sollten Sie zu Beginn eine kurze [Warteaktivität](wait-activity.md) hinzufügen oder eine Pufferzeit einräumen, um eine genaue Qualifizierung sicherzustellen.
+
 ### Vermeiden von Überlastungen {#overloads-speed-segment-qualification}
 
 Die folgenden Best Practices helfen dabei, eine Überlastung der für Journeys genutzten Systeme zu verhindern (Datenquellen, benutzerdefinierte Aktionen, Kanalaktionsaktivitäten):
@@ -162,4 +166,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
