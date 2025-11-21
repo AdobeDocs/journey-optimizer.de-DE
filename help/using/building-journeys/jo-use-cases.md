@@ -9,10 +9,10 @@ level: Intermediate, Experienced
 keywords: Anwendungsfall, Multi-Channel, Journey, Ereignisse
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 96%
 
 ---
 
@@ -89,6 +89,20 @@ Siehe auch einige häufig verwendete [Beispiele zum Abfragen von Journey-Schritt
 <a href="message-to-subscribers-uc.md"><strong>Senden an Abonnierende</strong></a>
 </div>
 <p></td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="weekday-email-uc.md">
+<img alt="E-Mails nur an Wochentagen senden" src="../assets/do-not-localize/icon-first-journey.svg">
+</a>
+<div>
+<a href="weekday-email-uc.md"><strong>Senden von E-Mails nur an Wochentagen</strong></a>
+</div>
+<p>
+</td>
+<td></td>
+<td></td>
 </tr></table>
 
 ## Technische Anwendungsfälle
@@ -175,42 +189,42 @@ In den folgenden Blog-Beiträgen finden Sie weitere Anleitungen und Best Practic
 <td>
 <img alt="Blog-Beiträge" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=de" target="_blank">Anwendungsfall: Senden von E-Mails nur an Werktagen in Adobe Journey Optimizer</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=de" target="_blank">Anwendungsfall: Erweiterte Genehmigungsstrategien</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=de" target="_blank">Anwendungsfall: Tägliche Frequenzbegrenzung</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=de" target="_blank">Best Practices: Lesen von Zielgruppen-Journeys</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270?profile.language=de" target="_blank">Anwendungsfall: Testen von Journeys</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900?profile.language=de" target="_blank">Anwendungsfall: Genehmigungs-Workflows</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=de" target="_blank">Anwendungsfall: Eintritts- und Ausstiegskriterien für Journeys</a></p>
+<p><a href="weekday-email-uc.md">Anwendungsfall: E-Mails nur an Wochentagen in Adobe Journey Optimizer senden</a> - auch als <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">Community-Blogpost</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">Anwendungsfall: Erweiterte Genehmigungsstrategien</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">Anwendungsfall: Tägliche Frequenzbegrenzung</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">Best Practices: Lesen von Zielgruppen-Journeys</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">Anwendungsfall: Testen von Journeys</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">Anwendungsfall: Genehmigungs-Workflows</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">Anwendungsfall: Eintritts- und Ausstiegskriterien für Journeys</a></p>
 </div>
 <p>
 </td>
 <td>
 <img alt="Schrittereignisse in Ihren Journeys" src="../assets/do-not-localize/list.jpeg">
 <div>
-<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=de" target="_blank">Verwalten von Schrittereignissen in Adobe Journey Optimizer: Grundlagen, Schemata und wichtige Abfragen für datengesteuerte Kampagnen
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">Verwalten von Schrittereignissen in Adobe Journey Optimizer: Grundlagen, Schemata und wichtige Abfragen für datengesteuerte Kampagnen
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=de" target="_blank">Anwendungsfall: Schnelle Aktivierung externer Zielgruppen mit „Benutzerdefinierter Upload“</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225?profile.language=de" target="_blank">Anwendungsfall: Personalisierung über das Profil hinaus
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">Anwendungsfall: Schnelle Aktivierung externer Zielgruppen mit „Benutzerdefinierter Upload“</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">Anwendungsfall: Personalisierung über das Profil hinaus
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513?profile.language=de" target="_blank">Wie im Flug mit Personalisierung: Wie Fluggesellschaften Angebote mit Adobe Journey Optimizer optimieren können
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">Wie im Flug mit Personalisierung: Wie Fluggesellschaften Angebote mit Adobe Journey Optimizer optimieren können
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606?profile.language=de" target="_blank">Meistern von Echtzeit-Personalisierung: Ein Handbuch für Marketing-Fachleute zu AEM-Inhaltsfragmenten und Adobe Journey Optimizer
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">Meistern von Echtzeit-Personalisierung: Ein Handbuch für Marketing-Fachleute zu AEM-Inhaltsfragmenten und Adobe Journey Optimizer
 </a></p>
 </div>
 <p></td>
 <td>
 <img alt="Benutzerdefinierte Aktionen" src="../assets/do-not-localize/step-event.jpeg">
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=de" target="_blank">Erweitern von Adobe Journey Optimizer mit benutzerdefinierten Aktionen: Anwendungsfälle für die Integration
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">Erweitern von Adobe Journey Optimizer mit benutzerdefinierten Aktionen: Anwendungsfälle für die Integration
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223?profile.language=de" target="_blank">Die benutzerdefinierte Delegierungsfunktion von Adobe Journey Optimizer löst Probleme bei der Einhaltung von Unternehmensrichtlinien
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">Die benutzerdefinierte Delegierungsfunktion von Adobe Journey Optimizer löst Probleme bei der Einhaltung von Unternehmensrichtlinien
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048?profile.language=de" target="_blank">LINE in Journey Optimizer – Anwendungsfall: Von der ersten Kampagne zum erweiterten Ausdrucksfragment und zu benutzerdefinierter Aktion
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">LINE in Journey Optimizer – Anwendungsfall: Von der ersten Kampagne zum erweiterten Ausdrucksfragment und zu benutzerdefinierter Aktion
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669?profile.language=de" target="_blank">Journey Optimizer-Handbuch zur Integration universeller Links für iOS
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">Journey Optimizer-Handbuch zur Integration universeller Links für iOS
 </a></p>
 </div>
 </td>

@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
+source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2988'
 ht-degree: 98%
 
 ---
@@ -125,6 +125,7 @@ ht-degree: 98%
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/ajo-ac.md)
       + [Senden einer Nachricht an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
+      + [E-Mails nur an Wochentagen senden](using/building-journeys/weekday-email-uc.md)
       + [Übergeben von Sammlungen in Parameter für benutzerdefinierte Aktionen](using/building-journeys/collections.md)
       + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
