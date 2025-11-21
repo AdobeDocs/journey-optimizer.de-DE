@@ -343,7 +343,7 @@ Wenn die Bedingung mit einem Feiertag übereinstimmt, fügen Sie eine Warteaktiv
 
 Erfahren Sie, wie Sie mit Adobe Journey Optimizer E-Mails nur an Wochentagen senden. Dieses Video zeigt die schrittweise Implementierung von Bedingungsaktivitäten und Warteformeln, um Wochenendeinträge für die Montagsbereitstellung in die Warteschlange zu stellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469389?captions=ger&quality=12&learn=on)
 
 ## Weitere Ressourcen
 
