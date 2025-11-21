@@ -317,5 +317,5 @@ Erfahren Sie, wie Sie mit Adobe Journey Optimizer E-Mails nur an Wochentagen sen
 | [Dokumentation zum Ausdruckseditor](expression/expressionadvanced.md) | Erstellen und Validieren von Journey-Ausdrücken |
 | [Journey-Designer-Handbuch](using-the-journey-designer.md) | Beherrschen der Journey-Arbeitsfläche |
 | [Übersicht über Journey-Anwendungsfälle](jo-use-cases.md) | Erkunden Sie weitere Journey-Muster und Beispiele |
-| [Community-Blogpost: So senden Sie E-Mails nur an Werktagen](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} | Ursprünglicher Blogpost mit detaillierten Beispielen |
+| [Community-Blogpost: So senden Sie E-Mails nur an Werktagen](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=de){target="_blank"} | Ursprünglicher Blogpost mit detaillierten Beispielen |
 
