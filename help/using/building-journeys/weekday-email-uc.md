@@ -8,12 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Journey, Anwendungsfall, Wochentage, Bedingung, E-Mail, Planung
-version: Journey Optimizer
+version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c8d5160b473faac873b765fc5daead935a83760d
+source-git-commit: f688244bbf91d2ab9acbdc1742f180ce14b48179
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1867'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ Für den **Wochentagspfad** (Montag bis Freitag):
    * Konfigurieren der [E-Mail-Parameter](../email/email-settings.md)
    * Richten Sie [Personalisierung](../personalization/personalize.md) nach Bedarf ein
 
-1. Fügen Sie nach **[!UICONTROL E-Mail]** Aktivität „Ende“ hinzu. [Weitere Informationen zu Endaktivitäten](end-activity.md)
+1. Fügen Sie nach **[!UICONTROL E-Mail]** Aktivität „Ende“ hinzu.
 
 ### Schritt 6: Wochenendpfade mit E-Mails zusammenführen
 
@@ -267,7 +267,7 @@ Die `now()` und die Journey-Ausführung verwenden die auf Journey-Ebene konfigur
 
 * **Ereignisbasierte Journey**: Die Bedingung wird sofort beim Empfang des Ereignisses ausgewertet. Profile, die an Wochenenden eintreten, warten automatisch bis Montag. [Weitere Informationen zu Ereignissen](../event/about-events.md)
 
-* **Wartezeitüberschreitungsüberlegungen**: Stellen Sie sicher, dass Ihre [Journey-Zeitüberschreitungseinstellungen &#x200B;](journey-properties.md#timeout) die maximale Wartezeit (bis zu 2 Tage von Samstag bis Montag) berücksichtigen.
+* **Wartezeitüberschreitungsüberlegungen**: Stellen Sie sicher, dass Ihre [Journey-Zeitüberschreitungseinstellungen ](journey-properties.md#timeout) die maximale Wartezeit (bis zu 2 Tage von Samstag bis Montag) berücksichtigen.
 
 ### Tests sind unerlässlich
 
@@ -343,12 +343,12 @@ Wenn die Bedingung mit einem Feiertag übereinstimmt, fügen Sie eine Warteaktiv
 
 Erfahren Sie, wie Sie mit Adobe Journey Optimizer E-Mails nur an Wochentagen senden. Dieses Video zeigt die schrittweise Implementierung von Bedingungsaktivitäten und Warteformeln, um Wochenendeinträge für die Montagsbereitstellung in die Warteschlange zu stellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3469389?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
 
 ## Weitere Ressourcen
 
 * [Dokumentation zum Ausdruckseditor](expression/expressionadvanced.md) - Erstellen und Überprüfen von Journey-Ausdrücken
 * [Journey-Designer-Handbuch](using-the-journey-designer.md) - Beherrschen der Journey-Arbeitsfläche
 * [Übersicht über Journey-Anwendungsfälle](jo-use-cases.md) - Erkunden Sie mehr Journey-Muster und -Beispiele
-* [Community-Blogpost: Nur an Wochentagen E-Mails senden](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=de){target="_blank"} - Original-Blogpost mit detaillierten Beispielen
+* [Community-Blogpost: Nur an Wochentagen E-Mails senden](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Original-Blogpost mit detaillierten Beispielen
 
