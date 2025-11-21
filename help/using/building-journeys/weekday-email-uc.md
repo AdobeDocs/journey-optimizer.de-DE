@@ -36,7 +36,7 @@ Sehen Sie sich das Schritt-für-Schritt[Video-Tutorial](#how-to-video) unten auf
 
 ## Voraussetzungen
 
-Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive Adobe Journey Optimizer-Instanz mit einer konfigurierten [E-Mail](../configuration/channel-surfaces.md)Kanaloberfläche[ einer ](../audience/about-audiences.md) oder einem [Ereignis](../event/about-events.md) zum Trigger der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) und [Ausdrücken](expression/expressionadvanced.md).
+Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive Adobe Journey Optimizer-Instanz mit einer konfigurierten [E-Mail](../configuration/channel-surfaces.md)Kanaloberfläche[&#x200B; einer &#x200B;](../audience/about-audiences.md) oder einem [Ereignis](../event/about-events.md) zum Trigger der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) und [Ausdrücken](expression/expressionadvanced.md).
 
 ## Implementierungsschritte
 
@@ -231,7 +231,7 @@ Die `now()` und die Journey-Ausführung verwenden die auf Journey-Ebene konfigur
 
 +++**Journey-Eingabe und -Timing**
 
-Planen Sie für Batch-Journey[ die ](read-audience.md#schedule) „Zielgruppe lesen“ so, dass sie zu einem für Ihre Zielgruppe sinnvollen Zeitpunkt zum Trigger gelangen. Frühe morgendliche Ausführungen (z. B. um 6 :00 Uhr morgens) sind in der Geschäftskommunikation üblich. Bei ereignisbasierten Journey wird die Bedingung sofort beim Empfang des Ereignisses ausgewertet, und Profile, die an Wochenenden eintreten, warten automatisch bis Montag ([Erfahren Sie mehr über Ereignisse](../event/about-events.md)). Stellen Sie sicher, dass die Zeitlimiteinstellungen für {0[Journey. die maximale Wartezeit (bis zu 2 Tage von Samstag bis Montag) berücksichtigen.](journey-properties.md#timeout)
+Planen Sie für Batch-Journey[&#x200B; die &#x200B;](read-audience.md#schedule) „Zielgruppe lesen“ so, dass sie zu einem für Ihre Zielgruppe sinnvollen Zeitpunkt zum Trigger gelangen. Frühe morgendliche Ausführungen (z. B. um 6 :00 Uhr morgens) sind in der Geschäftskommunikation üblich. Bei ereignisbasierten Journey wird die Bedingung sofort beim Empfang des Ereignisses ausgewertet, und Profile, die an Wochenenden eintreten, warten automatisch bis Montag ([Erfahren Sie mehr über Ereignisse](../event/about-events.md)). Stellen Sie sicher, dass die Zeitlimiteinstellungen für &lbrace;0[Journey. die maximale Wartezeit (bis zu 2 Tage von Samstag bis Montag) berücksichtigen.](journey-properties.md#timeout)
 
 +++
 
