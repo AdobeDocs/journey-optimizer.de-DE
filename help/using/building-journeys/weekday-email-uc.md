@@ -11,9 +11,9 @@ keywords: Journey, Anwendungsfall, Wochentage, Bedingung, E-Mail, Planung
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
+source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Dieser Ansatz ist ideal für B2B-E-Mail-Kampagnen (Business-to-Business), profes
 
 >[!NOTE]
 >
->Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive Adobe Journey Optimizer-Instanz mit einer konfigurierten [E-Mail](../configuration/channel-surfaces.md)Kanaloberfläche[&#x200B; einer &#x200B;](../audience/about-audiences.md) oder einem [Ereignis](../event/about-events.md) zum Trigger der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) und [Ausdrücken](expression/expressionadvanced.md).
+>Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive Adobe Journey Optimizer-Instanz mit einer konfigurierten [E-Mail](../configuration/channel-surfaces.md)Kanaloberfläche[ einer ](../audience/about-audiences.md) oder einem [Ereignis](../event/about-events.md) zum Trigger der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) und [Ausdrücken](expression/expressionadvanced.md).
 
 
 ## Implementierungsschritte
@@ -43,7 +43,7 @@ Dieser Ansatz ist ideal für B2B-E-Mail-Kampagnen (Business-to-Business), profes
 
 1. Navigieren Sie zu **[!UICONTROL Journey-Verwaltung]** > **[!UICONTROL Journey]** in Adobe Journey Optimizer.
 
-1. Klicken Sie **[!UICONTROL Journey erstellen]**, um eine neue Journey zu erstellen. [Erfahren Sie mehr über das Erstellen von Journey](journey-gs.md)
+1. Klicken Sie **[!UICONTROL Journey erstellen]**, um [eine neue Journey zu erstellen](journey-gs.md).
 
 1. Konfigurieren Sie die [Journey-Eigenschaften](journey-properties.md).
 
@@ -55,7 +55,7 @@ Dieser Ansatz ist ideal für B2B-E-Mail-Kampagnen (Business-to-Business), profes
 
 Fügen Sie direkt nach dem Start des Journey eine **[!UICONTROL Bedingung]**-Aktivität hinzu, um zu überprüfen, ob der aktuelle Tag Samstag oder Sonntag ist. Dadurch wird der Workflow entsprechend verzweigt.
 
-1. Ziehen Sie eine Aktivität **[!UICONTROL Bedingung]** auf die Arbeitsfläche nach Ihrem Einstiegspunkt. [Weitere Informationen zu Bedingungsaktivitäten](condition-activity.md)
+1. Ziehen Sie eine Aktivität [**[!UICONTROL Bedingung ]**auf ](condition-activity.md) Arbeitsfläche nach Ihrem Einstiegspunkt.
 
 1. Klicken Sie auf die **[!UICONTROL Bedingung]**-Aktivität, um das Konfigurationsfenster zu öffnen.
 
@@ -76,7 +76,7 @@ Fügen Sie direkt nach dem Start des Journey eine **[!UICONTROL Bedingung]**-Akt
 
 >[!NOTE]
 >
->Die Zeitzone, die für die Auswertung des Wochentags verwendet wird, wird auf Journey-Ebene in den Journey-Eigenschaften definiert, nicht auf Bedingungsebene. Die in der Formel verwendete Journey-Zeitzone ist die konfigurierte Zeitzone der Journey, nicht die der Empfängerin oder des Empfängers. [Weitere Informationen zum Zeitzonen-Management](timezone-management.md).
+>Die Zeitzone, die für die Auswertung des Wochentags verwendet wird, wird auf Journey-Ebene in den Journey-Eigenschaften definiert, nicht auf Bedingungsebene. Die in [ Formel verwendete Journey ](timezone-management.md)Zeitzone) ist die konfigurierte Zeitzone der Journey, nicht die der Empfängerin oder des Empfängers.
 
 ### Schritt 3: Warteaktivitäten für Wochenendeinträge konfigurieren
 
@@ -155,7 +155,7 @@ Testen Sie vor der Veröffentlichung Ihre Journey-Logik gründlich im Testmodus 
 
 1. Klicken Sie auf **[!UICONTROL Test]**-Schaltfläche oben rechts.
 
-1. Testmodus aktivieren. [Erfahren Sie, wie Sie Ihren Journey testen können](testing-the-journey.md)
+1. Aktivieren [Testmodus](testing-the-journey.md).
 
 1. Erstellen [Testprofile](../audience/creating-test-profiles.md) mit simulierten Eingabezeiten an verschiedenen Wochentagen:
    * **Samstagseingabe**: Überprüfen Sie, ob das Profil dem Samstagspfad folgt, am Montag zur angegebenen Stunde wartet und E-Mails erhält
@@ -164,13 +164,13 @@ Testen Sie vor der Veröffentlichung Ihre Journey-Logik gründlich im Testmodus 
 
 1. Überprüfen Sie die Journey-Visualisierung, um sicherzustellen, dass die Profile den richtigen bedingten Pfaden folgen (Samstag, Sonntag oder Wochentag).
 
-1. Prüfen Sie die Journey auf Fehler oder Warnungen. [Erfahren Sie mehr über die Fehlerbehebung bei Journey](troubleshooting.md)
+1. Prüfen Sie die Journey auf [Fehler oder ](troubleshooting.md)).
 
 1. Überprüfen Sie, ob die Warteformeln die richtige Dauer für Ihre gewünschte Montag-Lieferzeit berechnen.
 
 >[!IMPORTANT]
 >
->Testen Sie Ihre Journey-Logik immer im Testmodus, um sicherzustellen, dass sich die Warteaktivitäten wie erwartet verhalten. Verwenden Sie den Testmodus, um verschiedene Eintrittsszenarien zu simulieren und zu überprüfen, ob die Wochenendeinträge korrekt in die Warteschlange der Montagsbereitstellung gestellt werden. [Erfahren Sie mehr über Best Practices beim Journey-Testen](testing-the-journey.md)
+>Testen Sie Ihre Journey-Logik immer im Testmodus, um sicherzustellen, dass sich die Warteaktivitäten wie erwartet verhalten. Verwenden Sie den Testmodus, um verschiedene Eintrittsszenarien zu simulieren und zu überprüfen, ob die Wochenendeinträge korrekt in die Warteschlange der Montagsbereitstellung gestellt werden. Weitere Informationen finden Sie unter Best Practices für das {[}Journey von Tests.](testing-the-journey.md)
 
 ### Schritt 7: Veröffentlichen des Journey
 
@@ -178,18 +178,16 @@ Sobald der Test abgeschlossen ist:
 
 1. Klicken **[!UICONTROL oben]** auf „Veröffentlichen“.
 
-1. Bestätigen Sie die Veröffentlichung. [Erfahren Sie mehr über das Veröffentlichen von Journey](publish-journey.md)
+1. Bestätigen Sie die [Veröffentlichung](publish-journey.md).
 
 1. Überwachen Sie die Journey-Leistung mithilfe von [Journey](report-journey.md)Berichten und [Live-Berichten](../reports/journey-live-report.md).
 
 
 ## Verwandte Themen
 
-* [Über Bedingungsaktivitäten](condition-activity.md) - Erfahren Sie, wie Sie verschiedene Pfade in Ihrem Journey erstellen.
-* [Bedingungen auf einer Journey verwenden](conditions.md) - Detaillierte Anleitung zu Journey-Bedingungen
-* [Warteaktivität](wait-activity.md) - Konfigurieren der Wartezeiten und Formeln
-* [Datumsfunktionen](functions/date-functions.md) - Vollständige Referenz für Datums- und Uhrzeitfunktionen
-* [Ausdruckseditor](expression/expressionadvanced.md) - Erstellen komplexer Ausdrücke
-* [Best Practices für das Journey](journey-gs.md#best-practices) - Empfohlene Ansätze für das Journey-Design
-* [Community-Blogpost: Nur an Wochentagen E-Mails senden](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=de){target="_blank"} - Original-Blogpost mit detaillierten Beispielen
-
+* Erfahren Sie, wie Sie mit „Bedingungsaktivitäten“ verschiedene Pfade [ Ihrem Journey erstellen](condition-activity.md)
+* Detaillierte Anleitung zum [Verwenden von Bedingungen in einer Journey](conditions.md)
+* Konfigurieren Sie Wartezeiten und Formeln mit der [Warteaktivität](wait-activity.md)
+* Vollständige Referenz für [Datumsfunktionen](functions/date-functions.md)
+* Erstellen komplexer Ausdrücke mit dem [Ausdruckseditor](expression/expressionadvanced.md)
+* Empfohlene Ansätze für das [Journey-Design und Best Practices](journey-gs.md#best-practices)
