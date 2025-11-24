@@ -11,9 +11,9 @@ keywords: Journey, Anwendungsfall, Wochentage, Bedingung, E-Mail, Planung
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
+source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Dieser Ansatz ist ideal für B2B-E-Mail-Kampagnen (Business-to-Business), profes
 
 >[!NOTE]
 >
->Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive Adobe Journey Optimizer-Instanz mit einer konfigurierten [E-Mail](../configuration/channel-surfaces.md)Kanaloberfläche[&#x200B; einer &#x200B;](../audience/about-audiences.md) oder einem [Ereignis](../event/about-events.md) zum Trigger der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) und [Ausdrücken](expression/expressionadvanced.md).
+>Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive Adobe Journey Optimizer-Instanz mit einer konfigurierten [E-Mail](../configuration/channel-surfaces.md)Kanaloberfläche[ einer ](../audience/about-audiences.md) oder einem [Ereignis](../event/about-events.md) zum Trigger der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) und [Ausdrücken](expression/expressionadvanced.md).
 
 
 ## Implementierungsschritte
@@ -55,7 +55,7 @@ Dieser Ansatz ist ideal für B2B-E-Mail-Kampagnen (Business-to-Business), profes
 
 Fügen Sie direkt nach dem Start des Journey eine **[!UICONTROL Bedingung]**-Aktivität hinzu, um zu überprüfen, ob der aktuelle Tag Samstag oder Sonntag ist. Dadurch wird der Workflow entsprechend verzweigt.
 
-1. Ziehen Sie eine Aktivität [**[!UICONTROL Bedingung &#x200B;]**&#x200B;auf &#x200B;](condition-activity.md) Arbeitsfläche nach Ihrem Einstiegspunkt.
+1. Ziehen Sie eine Aktivität [**[!UICONTROL Bedingung ]**auf ](condition-activity.md) Arbeitsfläche nach Ihrem Einstiegspunkt.
 
 1. Klicken Sie auf die **[!UICONTROL Bedingung]**-Aktivität, um das Konfigurationsfenster zu öffnen.
 
@@ -76,7 +76,7 @@ Fügen Sie direkt nach dem Start des Journey eine **[!UICONTROL Bedingung]**-Akt
 
 >[!NOTE]
 >
->Die Zeitzone, die für die Auswertung des Wochentags verwendet wird, wird auf Journey-Ebene in den Journey-Eigenschaften definiert, nicht auf Bedingungsebene. Die in [&#x200B; Formel verwendete Journey &#x200B;](timezone-management.md)Zeitzone) ist die konfigurierte Zeitzone der Journey, nicht die der Empfängerin oder des Empfängers.
+>Die Zeitzone, die für die Auswertung des Wochentags verwendet wird, wird auf Journey-Ebene in den Journey-Eigenschaften definiert, nicht auf Bedingungsebene. Die in [ Formel verwendete Journey ](timezone-management.md)Zeitzone) ist die konfigurierte Zeitzone der Journey, nicht die der Empfängerin oder des Empfängers.
 
 ### Schritt 3: Warteaktivitäten für Wochenendeinträge konfigurieren
 
@@ -164,7 +164,7 @@ Testen Sie vor der Veröffentlichung Ihre Journey-Logik gründlich im Testmodus 
 
 1. Überprüfen Sie die Journey-Visualisierung, um sicherzustellen, dass die Profile den richtigen bedingten Pfaden folgen (Samstag, Sonntag oder Wochentag).
 
-1. Prüfen Sie die Journey auf [Fehler oder &#x200B;](troubleshooting.md)).
+1. Prüfen Sie die Journey auf [Fehler oder ](troubleshooting.md)).
 
 1. Überprüfen Sie, ob die Warteformeln die richtige Dauer für Ihre gewünschte Montag-Lieferzeit berechnen.
 
@@ -185,9 +185,9 @@ Sobald der Test abgeschlossen ist:
 
 ## Verwandte Themen
 
-* Erfahren Sie, wie Sie mit „Bedingungsaktivitäten“ verschiedene Pfade [&#x200B; Ihrem Journey erstellen](condition-activity.md)
-* Detaillierte Anleitung zum [Verwenden von Bedingungen in einer Journey](conditions.md)
-* Konfigurieren Sie Wartezeiten und Formeln mit der [Warteaktivität](wait-activity.md)
-* Vollständige Referenz für [Datumsfunktionen](functions/date-functions.md)
-* Erstellen komplexer Ausdrücke mit dem [Ausdruckseditor](expression/expressionadvanced.md)
-* Empfohlene Ansätze für das [Journey-Design und Best Practices](journey-gs.md#best-practices)
+* [Bedingungsaktivitäten](condition-activity.md) - Erfahren Sie, wie Sie verschiedene Pfade in Ihrem Journey erstellen.
+* [Bedingungen auf einer Journey verwenden](conditions.md) - Detaillierte Anleitung zu Journey-Bedingungen
+* [Warteaktivität](wait-activity.md) - Konfigurieren der Wartezeiten und Formeln
+* [Datumsfunktionen](functions/date-functions.md) - Vollständige Referenz für Datums- und Uhrzeitfunktionen
+* [Ausdruckseditor](expression/expressionadvanced.md) - Erstellen komplexer Ausdrücke
+* [Best Practices für das Journey](journey-gs.md#best-practices) - Empfohlene Ansätze für das Journey-Design
