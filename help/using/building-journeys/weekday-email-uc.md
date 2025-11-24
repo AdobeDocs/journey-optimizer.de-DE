@@ -11,9 +11,9 @@ keywords: Journey, Anwendungsfall, Wochentage, Bedingung, E-Mail, Planung
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: ad902c1055ea2e883c028172297aab878a898b94
+source-git-commit: c92e5bacdab179587b9cdec6bbde962a597b8de8
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,9 @@ Dieser Ansatz zeigt Ihnen, wie Sie mit einer Bedingungsaktivität überprüfen k
 
 Dieser Ansatz ist ideal für B2B-E-Mail-Kampagnen (Business-to-Business), professionelle Newsletter und Kommunikation, geschäftliche Ankündigungen, geschäftliche Produktaktualisierungen und jede Marketing-Kampagne, bei der die Bereitstellung am Wochenende nicht gewünscht ist.
 
-➡️ Sehen Sie sich das Schritt-für-Schritt[Video-Tutorial an](#how-to-video)
-
 >[!NOTE]
 >
->Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive Adobe Journey Optimizer-Instanz mit einer konfigurierten [E-Mail](../configuration/channel-surfaces.md)Kanaloberfläche[&#x200B; einer &#x200B;](../audience/about-audiences.md) oder einem [Ereignis](../event/about-events.md) zum Trigger der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) und [Ausdrücken](expression/expressionadvanced.md).
+>Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive Adobe Journey Optimizer-Instanz mit einer konfigurierten [E-Mail](../configuration/channel-surfaces.md)Kanaloberfläche[ einer ](../audience/about-audiences.md) oder einem [Ereignis](../event/about-events.md) zum Trigger der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) und [Ausdrücken](expression/expressionadvanced.md).
 
 
 ## Implementierungsschritte
@@ -55,21 +53,21 @@ Dieser Ansatz ist ideal für B2B-E-Mail-Kampagnen (Business-to-Business), profes
 
 ### Schritt 2: Fügen Sie die Aktivität Bedingung hinzu, um den Wochentag zu überprüfen
 
-Fügen Sie direkt nach dem Start der Journey eine Bedingung hinzu, um zu überprüfen, ob der aktuelle Tag Samstag oder Sonntag ist. Dadurch wird der Workflow entsprechend verzweigt.
+Fügen Sie direkt nach dem Start des Journey eine **[!UICONTROL Bedingung]**-Aktivität hinzu, um zu überprüfen, ob der aktuelle Tag Samstag oder Sonntag ist. Dadurch wird der Workflow entsprechend verzweigt.
 
 1. Ziehen Sie eine Aktivität **[!UICONTROL Bedingung]** auf die Arbeitsfläche nach Ihrem Einstiegspunkt. [Weitere Informationen zu Bedingungsaktivitäten](condition-activity.md)
 
-1. Klicken Sie auf die Aktivität Bedingung , um das Konfigurationsfenster zu öffnen.
+1. Klicken Sie auf die **[!UICONTROL Bedingung]**-Aktivität, um das Konfigurationsfenster zu öffnen.
 
 1. Wählen Sie **[!UICONTROL Bedingung]** als Bedingungstyp aus.
 
-1. Wählen Sie **Wochentag** als Zeitfilteroption aus.
+1. Wählen Sie **[!UICONTROL Wochentag]** als Zeitfilteroption aus.
 
 1. Wählen Sie für **ersten Pfad (Samstag)** nur **Samstag** aus. Beschriften Sie diesen Pfad mit „Samstag“.
 
 1. Klicken Sie **[!UICONTROL Pfad hinzufügen]**, um eine zweite Bedingung zu erstellen.
 
-1. Wählen Sie für **zweiten Pfad (Sonntag)** die Option **Wochentag** und wählen Sie **Sonntag** aus. Beschriften Sie diesen Pfad mit „Sonntag“.
+1. Wählen Sie für **zweiten Pfad (Sonntag)** die Option **[!UICONTROL Wochentag]** und wählen Sie **Sonntag** aus. Beschriften Sie diesen Pfad mit „Sonntag“.
 
    ![Konfigurieren der Samstag- und Sonntagsbedingungen im Ausdruckseditor](assets/weekday-email-uc-condition-expression.png)
 
@@ -82,9 +80,9 @@ Fügen Sie direkt nach dem Start der Journey eine Bedingung hinzu, um zu überpr
 
 ### Schritt 3: Warteaktivitäten für Wochenendeinträge konfigurieren
 
-Verwenden Sie für Profile, die am Samstag oder Sonntag eintreten, Warteaktivitäten mit benutzerdefinierten Formeln, um die E-Mail bis Montag zur gewünschten Stunde zu verzögern.
+Verwenden Sie für Profile, die am Samstag oder Sonntag eingehen **[!UICONTROL Aktivitäten vom Typ „Warten]** mit benutzerdefinierten Formeln, um die E-Mail bis Montag zur gewünschten Stunde zu verschieben.
 
-Verwenden Sie in der Aktivität Warten die folgende Formel:
+Verwenden Sie in **[!UICONTROL Aktivität]** Warten“ die folgende Formel:
 
 ```javascript
 toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))
@@ -132,22 +130,22 @@ So implementieren Sie dies auf Ihrem Journey:
 
 Für Profile, die Montag bis Freitag eintreten, fahren Sie mit dem Schritt E-Mail senden wie gewohnt fort.
 
-1. Fügen Sie im **Wochentagspfad** (dem Pfad „Andere Fälle„) direkt die Aktionsaktivität **[!UICONTROL E-Mail]** hinzu. Für Wochentagseinträge ist keine Warteaktivität erforderlich.
+1. Fügen Sie im **Wochentagspfad** (dem Pfad „Andere Fälle„) direkt die Aktionsaktivität **[!UICONTROL E-Mail]** hinzu. Für **[!UICONTROL -]** ist keine Warteaktivität erforderlich.
 
 1. Konfigurieren Sie Ihre E-Mail-Nachricht nach Bedarf.
 
 ### Schritt 5: Journey-Fluss abschließen
 
-Nach den Warteaktivitäten sowohl für den Samstag- als auch für den Sonntagspfad sollten alle drei Pfade (Samstag, Sonntag und Wochentag) derselben E-Mail-Aktionsaktivität folgen. Fügen Sie nach **[!UICONTROL E-Mail]** Aktivität „Ende“ hinzu.
+Nach den **[!UICONTROL Warten]**-Aktivitäten sowohl für den Samstag- als auch für den Sonntagspfad sollten alle drei Pfade (Samstag, Sonntag und Wochentag) zur gleichen **[!UICONTROL E-Mail]**-Aktionsaktivität führen. Fügen Sie nach **[!UICONTROL E-Mail]** Aktivität „Ende“ hinzu.
 
 ### Visuelle Workflow-Übersicht
 
 Der vollständige Journey-Workflow folgt dieser Logik:
 
-* **Start** → **Bedingung: Ist es Samstag oder Sonntag?**
-   * **Ja (Samstag):** Warte bis Montag 9 Uhr → E-Mail senden
-   * **Ja (Sonntag):** Warte bis Montag 9 Uhr → E-Mail senden
-   * **Nein (Montag-Freitag):** E-Mail sofort senden
+* **Start** → **[!UICONTROL Bedingung]**: Ist es Samstag oder Sonntag?
+   * **Ja (Samstag):** **[!UICONTROL Warten]** bis Montag 9 → **[!UICONTROL E-Mail senden]**
+   * **Ja (Sonntag):** **[!UICONTROL Warten]** bis Montag 9 → **[!UICONTROL E-Mail senden]**
+   * **Nein (Montag-Freitag):** **[!UICONTROL E-Mail]**
 
 Dadurch wird sichergestellt, dass alle E-Mails nur an Wochentagen gesendet werden und die Wochenendeinträge automatisch für den Versand am Montag in die Warteschlange gestellt werden.
 
@@ -193,5 +191,5 @@ Sobald der Test abgeschlossen ist:
 * [Datumsfunktionen](functions/date-functions.md) - Vollständige Referenz für Datums- und Uhrzeitfunktionen
 * [Ausdruckseditor](expression/expressionadvanced.md) - Erstellen komplexer Ausdrücke
 * [Best Practices für das Journey](journey-gs.md#best-practices) - Empfohlene Ansätze für das Journey-Design
-* [Community-Blogpost: Nur an Wochentagen E-Mails senden](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=de){target="_blank"} - Original-Blogpost mit detaillierten Beispielen
+* [Community-Blogpost: Nur an Wochentagen E-Mails senden](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Original-Blogpost mit detaillierten Beispielen
 
