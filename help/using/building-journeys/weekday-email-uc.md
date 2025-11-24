@@ -11,9 +11,9 @@ keywords: Journey, Anwendungsfall, Wochentage, Bedingung, E-Mail, Planung
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 72f3396bc662e75efd0f82754bfa964baf51ab8e
+source-git-commit: ad902c1055ea2e883c028172297aab878a898b94
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,7 @@ Dieser Ansatz ist ideal für B2B-E-Mail-Kampagnen (Business-to-Business), profes
 
 >[!NOTE]
 >
->Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive Adobe Journey Optimizer-Instanz mit einer konfigurierten [E-Mail](../configuration/channel-surfaces.md)Kanaloberfläche[&#x200B; einer &#x200B;](../audience/about-audiences.md) oder einem [Ereignis](../event/about-events.md) zum Trigger der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) und [Ausdrücken](expression/expressionadvanced.md).
-
-
-
+>Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive Adobe Journey Optimizer-Instanz mit einer konfigurierten [E-Mail](../configuration/channel-surfaces.md)Kanaloberfläche[ einer ](../audience/about-audiences.md) oder einem [Ereignis](../event/about-events.md) zum Trigger der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) und [Ausdrücken](expression/expressionadvanced.md).
 
 
 ## Implementierungsschritte
@@ -50,12 +47,7 @@ Dieser Ansatz ist ideal für B2B-E-Mail-Kampagnen (Business-to-Business), profes
 
 1. Klicken Sie **[!UICONTROL Journey erstellen]**, um eine neue Journey zu erstellen. [Erfahren Sie mehr über das Erstellen von Journey](journey-gs.md)
 
-1. Konfigurieren Sie die Journey-Eigenschaften:
-   * **Name**: E-Mail-Kampagne am Wochentag
-   * **Beschreibung**: Sendet E-Mails nur an Wochentagen (Montag bis Freitag)
-   * Den entsprechenden Namespace für Ihren Anwendungsfall festlegen
-
-[Weitere Informationen zu Journey-Eigenschaften](journey-properties.md)
+1. Konfigurieren Sie die [Journey-Eigenschaften](journey-properties.md).
 
 1. Journey-Einstiegspunkt auswählen:
    * **[Zielgruppe lesen](read-audience.md)**: Für Batch-Kampagnen, die auf eine bestimmte Zielgruppe abzielen
@@ -63,130 +55,103 @@ Dieser Ansatz ist ideal für B2B-E-Mail-Kampagnen (Business-to-Business), profes
 
 ### Schritt 2: Fügen Sie die Aktivität Bedingung hinzu, um den Wochentag zu überprüfen
 
-Fügen Sie direkt nach dem Start des Journey eine **[!UICONTROL Bedingung]**-Aktivität hinzu, um zu überprüfen, ob der aktuelle Tag Samstag oder Sonntag ist. Dadurch wird der Workflow entsprechend verzweigt.
+Fügen Sie direkt nach dem Start der Journey eine Bedingung hinzu, um zu überprüfen, ob der aktuelle Tag Samstag oder Sonntag ist. Dadurch wird der Workflow entsprechend verzweigt.
 
 1. Ziehen Sie eine Aktivität **[!UICONTROL Bedingung]** auf die Arbeitsfläche nach Ihrem Einstiegspunkt. [Weitere Informationen zu Bedingungsaktivitäten](condition-activity.md)
 
 1. Klicken Sie auf die Aktivität Bedingung , um das Konfigurationsfenster zu öffnen.
 
-1. Wählen **[!UICONTROL Abschnitt „Bedingungstyp]** die Option **[!UICONTROL Data Source-Bedingung]**. [Weitere Informationen zu Bedingungstypen](condition-activity.md#data_source_condition)
+1. Wählen Sie **[!UICONTROL Bedingung]** als Bedingungstyp aus.
 
-   ![Konfigurieren der Samstagsbedingung im Ausdruckseditor](assets/weekday-email-uc-condition-expression.png)
+1. Wählen Sie **Wochentag** als Zeitfilteroption aus.
 
+1. Wählen Sie für **ersten Pfad (Samstag)** nur **Samstag** aus. Beschriften Sie diesen Pfad mit „Samstag“.
 
-### Schritt 3: Konfigurieren der Bedingung, um Samstag zu identifizieren
+1. Klicken Sie **[!UICONTROL Pfad hinzufügen]**, um eine zweite Bedingung zu erstellen.
 
-Erstellen Sie den ersten Bedingungspfad zur Identifizierung von Samstagseinträgen.
+1. Wählen Sie für **zweiten Pfad (Sonntag)** die Option **Wochentag** und wählen Sie **Sonntag** aus. Beschriften Sie diesen Pfad mit „Sonntag“.
 
-1. Klicken Sie auf **[!UICONTROL Erweiterter Modus]**, um den Ausdruckseditor zu öffnen. [Erfahren Sie mehr über den Ausdruckseditor](expression/expressionadvanced.md)
+   ![Konfigurieren der Samstag- und Sonntagsbedingungen im Ausdruckseditor](assets/weekday-email-uc-condition-expression.png)
 
-1. Geben Sie den folgenden Ausdruck ein, um zu überprüfen, ob der aktuelle Tag Samstag ist:
-
-   ```javascript
-   dayOfWeek(now()) == 7
-   ```
-
-   Dabei wird die `dayOfWeek()`-Funktion mit `now()` verwendet, um den aktuellen Tag abzurufen. [Weitere Informationen zu Datumsfunktionen](functions/date-functions.md)
-
-
-1. Klicken Sie **[!UICONTROL OK]**, um die Bedingung zu speichern.
-
-1. Beschriften Sie diesen Pfad mit „Samstag“.
-
-### Schritt 4: Einen zweiten Bedingungspfad für Sonntag hinzufügen
-
-1. Klicken Sie in der Aktivität Bedingung auf **[!UICONTROL Pfad hinzufügen]**, um eine zweite Bedingung zu erstellen.
-
-1. Geben Sie im Ausdruckseditor für den zweiten Pfad Folgendes ein:
-
-   ```javascript
-   dayOfWeek(now()) == 1
-   ```
-
-   Dadurch wird geprüft, ob der aktuelle Tag Sonntag ist.
-
-1. Beschriften Sie diesen Pfad mit „Sonntag“.
 
 1. Aktivieren Sie **[!UICONTROL Pfad für andere Fälle als die obigen anzeigen]**, um einen Pfad für Wochentagseinträge (Montag bis Freitag) zu erstellen.
 
-
 >[!NOTE]
 >
->Die `dayOfWeek()` gibt eine Ganzzahl zurück, die den Wochentag darstellt, wobei 1 Sonntag und 7 Samstag ist. Dies entspricht dem ISO-8601-Standard für die Tagesnummerierung.
+>Die Zeitzone, die für die Auswertung des Wochentags verwendet wird, wird auf Journey-Ebene in den Journey-Eigenschaften definiert, nicht auf Bedingungsebene. Die in der Formel verwendete Journey-Zeitzone ist die konfigurierte Zeitzone der Journey, nicht die der Empfängerin oder des Empfängers. [Weitere Informationen zum Zeitzonen-Management](timezone-management.md).
 
-### Schritt 5: Warteaktivitäten für Wochenendeinträge konfigurieren
+### Schritt 3: Warteaktivitäten für Wochenendeinträge konfigurieren
 
 Verwenden Sie für Profile, die am Samstag oder Sonntag eintreten, Warteaktivitäten mit benutzerdefinierten Formeln, um die E-Mail bis Montag zur gewünschten Stunde zu verzögern.
 
+Verwenden Sie in der Aktivität Warten die folgende Formel:
 
-**Für den Samstagspfad:**
+```javascript
+toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))
+```
 
-1. Fügen Sie eine Aktivität **[!UICONTROL Warten]** hinzu. [Weitere Informationen zu Warteaktivitäten](wait-activity.md)
+Dabei gilt:
+
+* **X** ist die Anzahl der Tage bis zum Warten:
+   * Verwenden Sie **2** für Samstag (warten Sie bis Montag)
+   * Verwenden Sie **1** für Sonntag (warten Sie bis Montag)
+* **H** ist die Stunde, die Sie senden möchten (z. B. **9** für 9 Uhr)
+
+
+**Beispiel für Samstag:**
+
+```javascript
+toDateTimeOnly(setHours(nowWithDelta(2, "days"), 9))
+```
+
+**Beispiel für Sonntag:**
+
+```javascript
+toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
+```
+
+So implementieren Sie dies auf Ihrem Journey:
+
+1. Fügen Sie im **Samstagspfad** eine Aktivität **[!UICONTROL Warten]** nach der Bedingung hinzu.
 
 1. Wählen **[!UICONTROL als Wartetyp]** Dauer“ aus.
 
-1. Klicken Sie **[!UICONTROL Erweiterter Modus]**, um eine benutzerdefinierte Formel einzugeben.
+1. Klicken Sie **[!UICONTROL Erweiterter Modus]**, um die benutzerdefinierte Formel einzugeben.
 
-1. Geben Sie die folgende Formel ein, um bis Montag um 9 Uhr zu warten:
-
-   ```javascript
-   toDuration("PT" + (48 - getHourOfDay(now())) + "H")
-   ```
-
-   Oder verwenden Sie diese alternative Formel:
-
-   ```javascript
-   setHours(nowWithDelta(2, "days"), 9)
-   ```
+1. Eingeben: `toDateTimeOnly(setHours(nowWithDelta(2, "days"), 9))`
 
    ![Journey mit drei Bedingungspfaden - Samstag, Sonntag und Wochentag](assets/weekday-email-uc-paths.png)
 
-   **Erklärung**: Diese Formel berechnet die Wartezeit von Samstag bis Montag um 9 Uhr morgens. Der Wert X=2 stellt 2 Tage vor dar (Samstag + 2 Tage = Montag). [Weitere Informationen zu Datumsfunktionen](functions/date-functions.md#nowWithDelta)
-
-**Für den Sonntagspfad:**
-
-1. Fügen Sie eine Aktivität **[!UICONTROL Warten]** hinzu.
-
-1. Wählen **[!UICONTROL als Wartetyp]** Dauer“ aus.
-
-1. Klicken Sie **[!UICONTROL Erweiterter Modus]**, um eine benutzerdefinierte Formel einzugeben.
-
-1. Geben Sie die folgende Formel ein, um bis Montag um 9 Uhr zu warten:
-
-   ```javascript
-   setHours(nowWithDelta(1, "days"), 9)
-   ```
-
-   **Erklärung**: Diese Formel wartet einen Tag (Sonntag + 1 Tag = Montag) und setzt die Zeit auf 9 Uhr. Der Wert X=1 bedeutet 1 Tag vorwärts und H=9 bedeutet 9 Uhr nachts.
+1. Wiederholen Sie die gleichen Schritte für den **Sonntagspfad** mit: `toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))`
 
 >[!TIP]
 >
->Sie können den Parameter Stunde (H) jederzeit anpassen, wenn die E-Mail am Montag gesendet werden soll. Ändern Sie beispielsweise 9 bis 10 für 10 Uhr oder 14 für 14 Uhr.
+>Für komplexere Geschäftszeiten (z. B. nur zwischen 9 und 17 Uhr an Wochentagen) können Sie die Formel und die Bedingungen weiter verbessern.
 
-### Schritt 6: Konfigurieren des Wochentagspfads
+### Schritt 4: Wochentagsverzweigung
 
-Für den **Wochentagspfad** (Montag bis Freitag):
+Für Profile, die Montag bis Freitag eintreten, fahren Sie mit dem Schritt E-Mail senden wie gewohnt fort.
 
-1. Fahren Sie direkt fort, um eine **[!UICONTROL E-Mail]**-Aktionsaktivität hinzuzufügen. Für Wochentagseinträge ist keine Warteaktivität erforderlich. [Weitere Informationen zu E-Mail-Aktionen](journeys-message.md)
+1. Fügen Sie im **Wochentagspfad** (dem Pfad „Andere Fälle„) direkt die Aktionsaktivität **[!UICONTROL E-Mail]** hinzu. Für Wochentagseinträge ist keine Warteaktivität erforderlich.
 
-1. Konfigurieren der E-Mail-Nachricht:
-   * Wählen oder erstellen Sie Ihren [E-Mail-Inhalt](../email/get-started-email-design.md)
-   * Konfigurieren der [E-Mail-Parameter](../email/email-settings.md)
-   * Richten Sie [Personalisierung](../personalization/personalize.md) nach Bedarf ein
+1. Konfigurieren Sie Ihre E-Mail-Nachricht nach Bedarf.
 
-1. Fügen Sie nach **[!UICONTROL E-Mail]** Aktivität „Ende“ hinzu.
+### Schritt 5: Journey-Fluss abschließen
 
-### Schritt 7: Wochenendpfade mit E-Mails zusammenführen
+Nach den Warteaktivitäten sowohl für den Samstag- als auch für den Sonntagspfad sollten alle drei Pfade (Samstag, Sonntag und Wochentag) derselben E-Mail-Aktionsaktivität folgen. Fügen Sie nach **[!UICONTROL E-Mail]** Aktivität „Ende“ hinzu.
 
-Führen Sie nach den Warteaktivitäten für den Samstag- und den Sonntagspfad diese mit derselben E-Mail-Aktionsaktivität zusammen:
+### Visuelle Workflow-Übersicht
 
-1. Fügen Sie in der Aktivität „Warten am Samstag“ die Aktion **[!UICONTROL E-Mail]** hinzu.
+Der vollständige Journey-Workflow folgt dieser Logik:
 
-1. Stellen Sie von der Aktivität Sonntagswarte aus eine Verbindung zur gleichen E-Mail-Aktion her.
+* **Start** → **Bedingung: Ist es Samstag oder Sonntag?**
+   * **Ja (Samstag):** Warte bis Montag 9 Uhr → E-Mail senden
+   * **Ja (Sonntag):** Warte bis Montag 9 Uhr → E-Mail senden
+   * **Nein (Montag-Freitag):** E-Mail sofort senden
 
-1. Der Wochentagspfad sollte auch zu dieser E-Mail-Aktion fließen.
+Dadurch wird sichergestellt, dass alle E-Mails nur an Wochentagen gesendet werden und die Wochenendeinträge automatisch für den Versand am Montag in die Warteschlange gestellt werden.
 
-### Schritt 8: Journey testen
+### Schritt 6: Journey testen
 
 Testen Sie vor der Veröffentlichung Ihre Journey-Logik gründlich im Testmodus von Adobe Journey Optimizer, um zu bestätigen, dass alles erwartungsgemäß funktioniert:
 
@@ -207,9 +172,9 @@ Testen Sie vor der Veröffentlichung Ihre Journey-Logik gründlich im Testmodus 
 
 >[!IMPORTANT]
 >
->Testen Sie Ihre Journey-Logik immer gründlich, bevor Sie sie in der Produktionsumgebung veröffentlichen. Verwenden Sie den Testmodus, um verschiedene Eintrittsszenarien zu simulieren und zu überprüfen, ob die Wochenendeinträge korrekt in die Warteschlange der Montagsbereitstellung gestellt werden. [Erfahren Sie mehr über Best Practices beim Journey-Testen](testing-the-journey.md)
+>Testen Sie Ihre Journey-Logik immer im Testmodus, um sicherzustellen, dass sich die Warteaktivitäten wie erwartet verhalten. Verwenden Sie den Testmodus, um verschiedene Eintrittsszenarien zu simulieren und zu überprüfen, ob die Wochenendeinträge korrekt in die Warteschlange der Montagsbereitstellung gestellt werden. [Erfahren Sie mehr über Best Practices beim Journey-Testen](testing-the-journey.md)
 
-### Schritt 9: Veröffentlichen des Journey
+### Schritt 7: Veröffentlichen des Journey
 
 Sobald der Test abgeschlossen ist:
 
@@ -219,100 +184,6 @@ Sobald der Test abgeschlossen ist:
 
 1. Überwachen Sie die Journey-Leistung mithilfe von [Journey](report-journey.md)Berichten und [Live-Berichten](../reports/journey-live-report.md).
 
-## Best Practices und Überlegungen
-
-### Optimieren des Workflows mit erweiterten Formeln
-
-Verbessern Sie Ihren Workflow und bewältigen Sie komplexere Geschäftsanforderungen:
-
-* **Komplexe Geschäftszeiten**: Erweitern Sie die Formeln, um Feiertage, Zeitzonen oder bestimmte Geschäftszeiten über den grundlegenden Wochentag-Check hinaus zu berücksichtigen.
-* **Benutzerdefinierte Versandzeiten**: Passen Sie den Stundenparameter (H) in der Warteformel an Ihre optimale Versandzeit an. Wenn beispielsweise 10 Uhr bessere Interaktionsraten aufweist, ändern Sie die Formel so, dass sie Stunde 10 verwendet.
-* **Unterstützung mehrerer Zeitzonen**: Erstellen Sie separate Journey für verschiedene geografische Regionen, um den Versand am Montag in der lokalen Zeitzone jeder Empfängerin und jedes Empfängers sicherzustellen.
-
-### Zeitzonen-Management
-
-Die `now()` und die Journey-Ausführung verwenden die auf Journey-Ebene konfigurierte Zeitzone. Betrachten Sie die folgenden zentralen Punkte:
-
-* **Journey-Zeitzone**: Stellen Sie sicher, dass die Journey-Zeitzone Ihren Anforderungen entspricht, indem Sie sie vor der Veröffentlichung in den Journey-Eigenschaften konfigurieren. [Erfahren Sie mehr über die Zeitzonenverwaltung](timezone-management.md)
-* **Globale Zielgruppen**: Wenn Ihre Zielgruppe mehrere Zeitzonen umfasst, erfolgt die Prüfung am Wochentag in der konfigurierten Zeitzone der Journey und nicht in der lokalen Zeitzone der Empfängerin bzw. des Empfängers.
-* **Lokalisierte Planung**: Erstellen Sie für einen zeitzonenspezifischen Versand separate Journey für verschiedene Regionen oder verwenden Sie die Zeitzoneneinstellungen in der Aktivität „Zielgruppe lesen“.
-
-### Journey-Eingabe und -Timing
-
-Konfigurieren Sie das Journey-Timing je nach Eintragstyp:
-
-* **Journey von Zielgruppen lesen**: [Planen Sie die &#x200B;](read-audience.md#schedule) „Zielgruppe lesen“ so, dass der Trigger zu einem Zeitpunkt erfolgt, der für Ihre Zielgruppe sinnvoll ist. Frühe Morgenausführungen (z. B. 6:00 Uhr morgens) sind in der Geschäftskommunikation üblich.
-* **Ereignisbasierte Journey**: Die Bedingung wird sofort beim Empfang des Ereignisses ausgewertet. Profile, die an Wochenenden eintreten, warten automatisch bis Montag. [Weitere Informationen zu Ereignissen](../event/about-events.md)
-* **Wartezeitüberschreitungsüberlegungen**: Stellen Sie sicher, dass Ihre [Journey-Zeitüberschreitungseinstellungen &#x200B;](journey-properties.md#timeout) die maximale Wartezeit (bis zu 2 Tage von Samstag bis Montag) berücksichtigen.
-
-### Tests sind unerlässlich
-
-Testen Sie Ihre Journey-Logik immer, bevor Sie sie in der Produktionsumgebung veröffentlichen:
-
-* Verwenden Sie **Testmodus** um verschiedene Eintrittsszenarien zu simulieren, ohne echte E-Mails zu senden
-* Testen Sie alle drei Pfade: Samstagseinträge, Sonntagseinträge und Wochentagseinträge
-* Überprüfen, ob die Berechnungen der Wartezeit korrekt sind
-* Versand am Montag zur angegebenen Uhrzeit bestätigen
-* Überprüfen der Journey-Visualisierung, um ein korrektes Pfadrouting sicherzustellen
-
-[Weitere Informationen über das Testen von Journey](testing-the-journey.md)
-
-### Wiedereintritt und Häufigkeit
-
-Gehen Sie bei wiederkehrenden Kampagnen sorgfältig mit dem erneuten Eintritt eines Profils um:
-
-* **Erneuten Eintritt konfigurieren**: Richten Sie die Einstellungen **[!UICONTROL Erneuten Eintritt]** entsprechend ein. [Weitere Informationen zu den Einstellungen für den erneuten Eintritt](entry-management.md)
-* **Konsistentes Verhalten**: Wenn Profile erneut auf die Journey zugreifen können, werden sie jedes Mal einer Wochentagsprüfung unterzogen, um sicherzustellen, dass Wochenendeinträge immer für Montag in der Warteschlange stehen.
-* **Frequenzlimitierung**: Erwägen Sie das Hinzufügen [Frequenzlimitierungsregeln](../conflict-prioritization/journey-capping.md) um eine Übermeldung zu vermeiden, wenn Profile häufig erneut eintreten können.
-
-## Erweiterte Varianten
-
-### Zielgruppenbestimmung nach bestimmten Tagen
-
-So senden Sie E-Mails nur an bestimmten Tagen (z. B. dienstags und donnerstags):
-
-1. **Ändern Sie die Bedingung** um auf bestimmte Tage zu prüfen:
-
-   ```javascript
-   dayOfWeek(now()) == 3 or dayOfWeek(now()) == 5
-   ```
-
-2. **Warteaktivitäten hinzufügen** für alle anderen Tage, die die Anzahl der Tage bis zum nächsten Dienstag oder Donnerstag berechnen.
-
-### Unterschiedliche Versandzeiten für verschiedene Tage
-
-Erstellen Sie mehrere Pfade mit unterschiedlichen Warteformeln für eine flexible Planung:
-
-* **Versand am Samstag → Mittwoch**: Verwenden Sie `nowWithDelta(4, "days")`
-* **Versand am Sonntag → Dienstag**: Verwenden Sie `nowWithDelta(2, "days")`
-
-Mit diesem Ansatz können Sie die Versandtage an Ihre Geschäftsanforderungen anpassen.
-
-### Versand während der Geschäftszeiten
-
-So stellen Sie die Bereitstellung während der Geschäftszeiten sicher:
-
-1. **Passen Sie den** in Ihrer Warteformel an. Zum Beispiel für die Lieferung um 14 Uhr statt um 9 Uhr:
-
-   ```javascript
-   setHours(nowWithDelta(1, "days"), 14)
-   ```
-
-2. **Zeitprüfung hinzufügen** (optional): Fügen Sie nach der Wartezeit eine zweite Bedingung hinzu, um zu überprüfen, ob die aktuelle Zeit innerhalb der Geschäftsstunden liegt, bevor Sie den Versand durchführen.
-
-### Urlaubsausschluss
-
-So schließen Sie Feiertage vom E-Mail-Versand aus:
-
-1. **Bedingungspfad hinzufügen** um nach bestimmten Urlaubsterminen zu suchen:
-
-   ```javascript
-   toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
-   ```
-
-2. **Warteaktivität hinzufügen** Wenn die Bedingung mit einem Feiertag übereinstimmt, wird die Wartezeit auf den nächsten Werktag verschoben.
-
-[Weitere Informationen zu Datumsvergleichsfunktionen](functions/date-functions.md)
 
 ## Verwandte Themen
 
@@ -321,20 +192,6 @@ So schließen Sie Feiertage vom E-Mail-Versand aus:
 * [Warteaktivität](wait-activity.md) - Konfigurieren der Wartezeiten und Formeln
 * [Datumsfunktionen](functions/date-functions.md) - Vollständige Referenz für Datums- und Uhrzeitfunktionen
 * [Ausdruckseditor](expression/expressionadvanced.md) - Erstellen komplexer Ausdrücke
-* [Journey testen](testing-the-journey.md) - Validieren der Journey-Logik vor der Veröffentlichung
-* [Zeitzonenverwaltung](timezone-management.md) - Verarbeiten Sie verschiedene Zeitzonen in Journey
 * [Best Practices für das Journey](journey-gs.md#best-practices) - Empfohlene Ansätze für das Journey-Design
-
-## Anleitungsvideo
-
-Erfahren Sie, wie Sie mit Adobe Journey Optimizer E-Mails nur an Wochentagen senden. Dieses Video zeigt die schrittweise Implementierung von Bedingungsaktivitäten und Warteformeln, um Wochenendeinträge für die Montagsbereitstellung in die Warteschlange zu stellen.
-
->[!VIDEO](https://video.tv.adobe.com/v/3469389?captions=ger&quality=12&learn=on)
-
-## Weitere Ressourcen
-
-* [Dokumentation zum Ausdruckseditor](expression/expressionadvanced.md) - Erstellen und Überprüfen von Journey-Ausdrücken
-* [Journey-Designer-Handbuch](using-the-journey-designer.md) - Beherrschen der Journey-Arbeitsfläche
-* [Übersicht über Journey-Anwendungsfälle](jo-use-cases.md) - Erkunden Sie mehr Journey-Muster und -Beispiele
-* [Community-Blogpost: Nur an Wochentagen E-Mails senden](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=de){target="_blank"} - Original-Blogpost mit detaillierten Beispielen
+* [Community-Blogpost: Nur an Wochentagen E-Mails senden](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} - Original-Blogpost mit detaillierten Beispielen
 
