@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
+source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 90%
@@ -39,7 +39,7 @@ ht-degree: 90%
 
 Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail-Kampagne vorbereiten. [Weitere Informationen](../campaigns/review-activate-campaign.md)
 
-## Verfeinern der Variante
+## Verfeinern der Variante {#refine}
 
 ![Animierte Demonstration der Verfeinerung von KI-generierten Inhaltsvarianten mithilfe der Optionen „Umformulieren“ und „Zusammenfassen“](assets/do-not-localize/gen-ai-variation.gif)
 
