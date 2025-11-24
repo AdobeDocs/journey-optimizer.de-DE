@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 04a08f237e126e782355197b64239512e24b27da
+source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 100%
+source-wordcount: '1457'
+ht-degree: 98%
 
 ---
 
@@ -148,7 +148,7 @@ Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen un
 <td>
 <p>Mithilfe von Ruhezeiten können Sie zeitbasierte Ausschlüsse für E-Mail-, SMS-, Push- und WhatsApp-Kanäle definieren. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen.</p>
 <p>Ruhezeiten können über Regelsätze angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können. </p>
-<p>Regeln für Ruhezeiten sind derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Wenden Sie sich an den Adobe-Support, um auf die Warteliste gesetzt zu werden.</p>
+<p>Regeln für ruhige Stunden sind derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit).  Sie werden in zukünftigen Versionen schrittweise für alle Kunden verfügbar sein.</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/quiet-hours.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 22. Oktober 2025</p>

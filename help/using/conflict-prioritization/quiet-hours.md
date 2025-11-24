@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Nachricht, Häufigkeit, Regeln, Druck
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
-workflow-type: ht
-source-wordcount: '904'
-ht-degree: 100%
+source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Durch die Optimierung dieser Prozesse können Sie das Kundenerlebnis verbessern,
 
 >[!AVAILABILITY]
 >
->Regeln für Ruhezeiten sind derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Wenden Sie sich an den Adobe-Support, um auf die Warteliste gesetzt zu werden.
+>Regeln für ruhige Stunden sind derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit).  Sie werden in zukünftigen Versionen schrittweise für alle Kunden verfügbar sein.
 
 
 ➡️ [Funktion im Video kennenlernen](#video)
@@ -187,4 +187,4 @@ Sobald Ihre Journeys oder Kampagnen aktiviert und ausgeführt wurden, können Si
 
 Erfahren Sie, wie Sie die Ruhezeitenfunktion in Adobe Journey Optimizer verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475861?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
