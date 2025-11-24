@@ -116,19 +116,19 @@ Diese Anfragen werden nicht unterstützt und sollten über andere Tools verarbei
 
 Stellen Sie vor dem Generieren von Inhalten Folgendes sicher:
 
-&amp;check; **Ziel löschen**: Gibt die Aktion, das Produkt/den Service, den Wert und den Kontext klar an.
+&check; **Ziel löschen**: Gibt die Aktion, das Produkt/den Service, den Wert und den Kontext klar an.
 
-&amp;check; **Definierte Zielgruppe**: Gibt die Demografie, die Rolle oder das Segment an.
+&check; **Definierte Zielgruppe**: Gibt die Demografie, die Rolle oder das Segment an.
 
-&amp;check; **Content type align**: Ziel entspricht dem ausgewählten Kanal oder Format.
+&check; **Content type align**: Ziel entspricht dem ausgewählten Kanal oder Format.
 
-&amp;check; **Dropdown-Auswahl konfiguriert**: Ton, Strategie und Gebietsschema ausgewählt sind, schließen Sie diese nicht in die Eingabeaufforderung ein.
+&check; **Dropdown-Auswahl konfiguriert**: Ton, Strategie und Gebietsschema ausgewählt sind, schließen Sie diese nicht in die Eingabeaufforderung ein.
 
-&amp;check; **Dokumentfokus angegeben**: Markiert die Inhalte oder Abschnitte, auf die verwiesen werden soll.
+&check; **Dokumentfokus angegeben**: Markiert die Inhalte oder Abschnitte, auf die verwiesen werden soll.
 
-&amp;check; **Marke angewendet**: Es werden entsprechende Markenrichtlinien ausgewählt.
+&check; **Marke angewendet**: Es werden entsprechende Markenrichtlinien ausgewählt.
 
-&amp;check; **Realistischer Umfang**: Vermeiden Sie Anforderungen an Layout-Änderungen, Stile oder strukturelle Bearbeitungen.
+&check; **Realistischer Umfang**: Vermeiden Sie Anforderungen an Layout-Änderungen, Stile oder strukturelle Bearbeitungen.
 
 ## Erstellen effektiver Marketing-Ziele {#marketing-objectives}
 
@@ -138,11 +138,11 @@ Achten Sie bei der Formulierung von Marketing-Zielen darauf, dass diese klar, um
 
 **Beispiele für gute Ziele:**
 
-&amp;check; „Fordern Sie die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards an“
+&check; „Fordern Sie die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards an“
 
-&amp;check; „Generieren Sie Leads für unser B2B-Webinar zum Thema „Reduzierung der Cloud-Kosten um 40 %&quot;, das am 15. März stattfindet“
+&check; „Generieren Sie Leads für unser B2B-Webinar zum Thema „Reduzierung der Cloud-Kosten um 40 %&quot;, das am 15. März stattfindet“
 
-&amp;check; „Werben Sie für unseren zeitlich begrenzten 25-%-Urlaubsrabatt auf Premium-Abonnements, der am 25. Dezember endet“
+&check; „Werben Sie für unseren zeitlich begrenzten 25-%-Urlaubsrabatt auf Premium-Abonnements, der am 25. Dezember endet“
 
 **Zu vermeidende Beispiele:**
 
@@ -159,11 +159,11 @@ Verwenden Sie diese Formel, um effektive Ziele zu schreiben: **Aktion + Produkt/
 
 **Beispiele für gute Ziele:**
 
-&amp;check; „Ermutigen Sie Downloads unserer neuen mobilen App, die Benutzern hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
+&check; „Ermutigen Sie Downloads unserer neuen mobilen App, die Benutzern hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
 
-&amp;check; „Anmeldung für unseren exklusiven Workshop über fortschrittliche Datenvisualisierungstechniken für Marketing-Experten bewerben“
+&check; „Anmeldung für unseren exklusiven Workshop über fortschrittliche Datenvisualisierungstechniken für Marketing-Experten bewerben“
 
-&amp;check; „Ermöglichen Sie die Teilnahme an unserer Produkteinführungsveranstaltung, auf der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
+&check; „Ermöglichen Sie die Teilnahme an unserer Produkteinführungsveranstaltung, auf der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
 
 **Zu vermeidende Beispiele:**
 
@@ -269,7 +269,7 @@ Verwenden Sie die nachstehende Tabelle, um jeden Ton im Detail zu untersuchen, e
 Marken-Assets bieten sachliche Informationen, die Ihre generierten Inhalte mit spezifischen, genauen Details anreichern.
 Wenn Sie umfangreiche Dokumente wie Produktbroschüren hochladen, fügen Sie Ihrer Eingabeaufforderung hinzu, auf welche Teile Sie sich konzentrieren müssen:
 
-* **anstelle von** _„Verwenden Sie die Produktbroschüre“_**Sie sollten verwenden** _„Konzentrieren Sie sich auf die erweiterten Sicherheitsfunktionen und Compliance-Zertifizierungen, insbesondere auf die SOC 2-Konformität und die Datenverschlüsselung“_
+* **anstelle von** _„Verwenden Sie die Produktbroschüre“_&#x200B;**Sie sollten verwenden** _„Konzentrieren Sie sich auf die erweiterten Sicherheitsfunktionen und Compliance-Zertifizierungen, insbesondere auf die SOC 2-Konformität und die Datenverschlüsselung“_
 
 * **Anstelle von** _„Referenzieren Sie die Fallstudien“_ **Sie sollten verwenden**&quot;_„Markieren Sie die ROI-Ergebnisse von Kundinnen und Kunden im Gesundheitswesen, insbesondere die Kostenreduzierung um 40 % im regionalen medizinischen Zentrum“_
 
