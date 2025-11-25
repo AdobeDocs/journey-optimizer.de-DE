@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
-workflow-type: ht
+source-git-commit: 4532db3f84cdf41d295050e85e721f65cb4f1f0e
+workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ In der folgenden Tabelle sind alle betroffenen Datensätze und die jeweilige Tim
 | Ereignisdatensatz für eingehende AJO-Aktivitäten | 13 Monate | 90 Tage |
 | AJO-Klassifizierungs-Datensatz | 13 Monate | k. A. |
 | Ereignisdatensatz mit Feedback zu AJO-E-Mail-BCC | 13 Monate | k. A. |
-| acpEntity-Ereignisdatensatz | 13 Monate | k. A. |
+| Entitätsereignis-Datensatz | 13 Monate | k. A. |
 | Journeys | 13 Monate | k. A. |
 | Journey-Schrittereignisse | 13 Monate | k. A. |
 | Entscheidungsobjekt-Repository – Personalisierte Angebote | 13 Monate | k. A. |
