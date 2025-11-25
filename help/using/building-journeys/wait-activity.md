@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 95%
+source-wordcount: '732'
+ht-degree: 90%
 
 ---
 
@@ -81,7 +81,7 @@ Wählen Sie den Typ **Benutzerdefiniert** aus, um ein benutzerdefiniertes Datum 
 
 Der Ausdruck im Editor sollte ein `dateTimeOnly`-Format aufweisen. Mehr dazu erfahren Sie auf [dieser Seite](expression/expressionadvanced.md). Weitere Informationen zum Format „TimeOnly“ finden Sie auf [dieser Seite](expression/data-types.md).
 
-Es empfiehlt sich, benutzerdefinierte Datumsangaben zu verwenden, die spezifisch für Ihre Profile sind, und zu vermeiden, dass für alle Profile dasselbe Datum verwendet wird. Definieren Sie beispielsweise nicht `toDateTimeOnly('2024-01-01T01:11:00Z')`, sondern `toDateTimeOnly(@event{Event.productDeliveryDate})`, was für jedes Profil spezifisch ist. Beachten Sie, dass die Verwendung fester Datumswerte Probleme bei der Journey-Ausführung verursachen kann. Weitere Informationen zur Auswirkung von Warteaktivitäten auf die Journey-Verarbeitungsrate finden Sie in [diesem Abschnitt](entry-management.md#wait-activities-impact).
+Es empfiehlt sich, benutzerdefinierte Datumsangaben zu verwenden, die spezifisch für Ihre Profile sind, und zu vermeiden, dass für alle Profile dasselbe Datum verwendet wird. Definieren Sie beispielsweise nicht `toDateTimeOnly('2024-01-01T01:11:00Z')`, sondern `toDateTimeOnly(@event{Event.productDeliveryDate})`, was für jedes Profil spezifisch ist. Beachten Sie, dass die Verwendung von festen Datumsangaben Probleme bei der Ausführung der Journey verursachen kann. Weitere Informationen zur Auswirkung von Warteaktivitäten auf die Journey-Verarbeitungsrate finden Sie [in diesem Abschnitt](entry-management.md#wait-activities-impact).
 
 
 >[!NOTE]
@@ -90,6 +90,15 @@ Es empfiehlt sich, benutzerdefinierte Datumsangaben zu verwenden, die spezifisch
 >
 >Die Angabe der **Zeitzone** ist für die Eigenschaften Ihrer Journey erforderlich. Aus diesem Grund ist es nicht möglich, von direkt der Benutzeroberfläche auf eine Zeitstempelmischzeit nach ISO-8601 und einen Zeitzonenversatz wie 2023-08-12T09:46:06.982-05 zu verweisen. [Weitere Informationen](../building-journeys/timezone-management.md).
 
+>[!CAUTION]
+>
+>Wenn Sie einen benutzerdefinierten Warteausdruck mit `toDateTimeOnly()` erstellen, vermeiden Sie es, „Z“ oder einen Zeitzonenversatz (z. B. &quot;-05:00„) im Ausdrucksergebnis anzuhängen. Der Ausdruck muss eine gültige ISO-Datums-/Uhrzeitsyntax verwenden, die auf die konfigurierte Zeitzone der Journey verweist, ohne explizite Zeitzonenbezeichner.
+>
+>**Korrektes Beispiel:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
+>
+>**Falsches Beispiel:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (enthält &#39;Z&#39;)
+>
+>Die Verwendung nicht unterstützter Zeitzonenbezeichner kann dazu führen, dass Profile in der Warteaktivität hängen bleiben, anstatt wie erwartet fortzufahren.
 
 Um zu überprüfen, ob die Warteaktivität erwartungsgemäß funktioniert, können Sie Schritt-Ereignisse verwenden. [Weitere Informationen](../reports/query-examples.md#common-queries).
 
