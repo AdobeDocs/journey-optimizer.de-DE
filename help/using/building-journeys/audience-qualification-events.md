@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: b8fb0c0fd9e9e119428b430563cbb35d1961516e
+source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 88%
+source-wordcount: '1598'
+ht-degree: 74%
 
 ---
 
@@ -114,6 +114,28 @@ Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentati
 >
 >Bei der Streaming-Segmentierung kann es bis zu **2 Stunden dauern,** neu aufgenommene Daten innerhalb von Adobe Experience Platform vollständig und in Echtzeit übertragen werden können. Zielgruppen, die auf tägliche oder zeitbasierte Bedingungen angewiesen sind (z. B. „Ereignisse, die heute aufgetreten sind„), können eine zusätzliche Komplexität bei der Qualifizierungszeitplanung erleben. Wenn Ihr Journey von der sofortigen Zielgruppen-Qualifizierung abhängt, sollten Sie zu Beginn eine kurze [Warteaktivität](wait-activity.md) hinzufügen oder eine Pufferzeit einräumen, um eine genaue Qualifizierung sicherzustellen.
 
+#### Warum nicht alle qualifizierten Profile in die Journey eintreten können {#streaming-entry-caveats}
+
+Bei Verwendung von Streaming-Zielgruppen mit der Aktivität **Zielgruppen-**) treten nicht alle Profile, die für die Zielgruppe qualifiziert sind, notwendigerweise in die Journey ein. Dieses Verhalten kann aus folgenden Gründen auftreten:
+
+* **Bereits in der Zielgruppe enthaltene Profile**: Nur Profile, die sich nach der Veröffentlichung der Journey neu für die Zielgruppe qualifizieren, werden in den Trigger aufgenommen. Profile, die sich bereits vor der Veröffentlichung in der Zielgruppe befinden, treten nicht ein.
+
+* **Journey-Aktivierungszeit**: Wenn Sie eine Journey veröffentlichen, dauert die Aktivität **Zielgruppenqualifizierung** bis zu **10 Minuten**, um aktiv zu werden und auf Profileinträge und -austritte zu warten. [Weitere Informationen zur Journey-Aktivierung](#configure-segment-qualification).
+
+* **Schnelle Ausstiege aus der Zielgruppe**: Wenn ein Profil sich für die Zielgruppe qualifiziert, aber beendet, bevor der Journey-Eintrag ausgelöst wird, kann dieses Profil nicht auf die Journey gelangen.
+
+* **Zeitspanne zwischen Qualifizierung und Journey-Verarbeitung**: Aufgrund des verteilten Charakters von Adobe Experience Platform kann es zu Zeitlücken kommen, zwischen dem Zeitpunkt, zu dem ein Profil für eine Zielgruppe geeignet ist, und dem Zeitpunkt, zu dem das Journey dieses Qualifizierungsereignis verarbeitet.
+
+**Recommendations:**
+
+* Warten Sie nach dem Veröffentlichen einer Journey mindestens 10 Minuten, bevor Sie Ereignisse oder Daten senden, die die Trigger-Profilqualifizierung beeinflussen. Dadurch wird sichergestellt, dass die Journey vollständig aktiviert ist und Einträge verarbeitet werden können.
+
+* Für kritische Anwendungsfälle, bei denen Sie sicherstellen müssen, dass alle qualifizierten Profile eintreten, sollten Sie stattdessen eine Aktivität [Zielgruppe lesen](read-audience.md) verwenden, bei der alle Profile in einer Zielgruppe zu einem bestimmten Zeitpunkt verarbeitet werden.
+
+* Überwachen Sie die [ und den Durchsatz Ihrer Journey](entry-management.md#profile-entrance-rate) um Profilflussmuster zu verstehen.
+
+* Wenn Profile nicht erwartungsgemäß eintreten, finden Sie im [Handbuch zur Fehlerbehebung](troubleshooting-execution.md#checking-if-people-enter-the-journey) weitere Diagnoseschritte.
+
 ### Vermeiden von Überlastungen {#overloads-speed-segment-qualification}
 
 Die folgenden Best Practices helfen dabei, eine Überlastung der für Journeys genutzten Systeme zu verhindern (Datenquellen, benutzerdefinierte Aktionen, Kanalaktionsaktivitäten):
@@ -166,4 +188,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

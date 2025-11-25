@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Einschränkung
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 91%
 
 ---
 
@@ -23,10 +23,11 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 
 ## Allgemeine Aktionseinschränkungen {#action-limitations}
 
-* Es gibt keine Nachrichtendrosselung beim Versand. 
-* Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung einstellen. 
-* Mit dem integrierten **Reaktionsereignis** können Sie auf vordefinierte Aktionen reagieren (siehe diese [Seite](../building-journeys/reaction-events.md)). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren.
+* Es gibt keine Nachrichtendrosselung beim Versand.
+* Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung einstellen.
+* Mit dem integrierten **Reaktionsereignis** können Sie auf vordefinierte Aktionen reagieren (siehe diese [Seite](../building-journeys/reaction-events.md)). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wurde, müssen Sie ein spezielles Ereignis konfigurieren.
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
+
 
 ## Einschränkungen bei den Journey-Versionen {#journey-versions-limitations}
 
@@ -47,6 +48,10 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 ## Einschränkungen bei Ereignissen {#events-limitations}
 
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zur Initiierung einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
+
+## Einschränkungen bei Reaktionsereignissen {#reaction-limitations}
+
+* **[!UICONTROL Reaktion]** Aktivitäten müssen sofort nach einer [Kanalaktionsaktivität“ auf der Journey-Arbeitsfläche ](../building-journeys/journeys-message.md) werden. Das Platzieren einer **[!UICONTROL Warten]**-Aktivität oder einer anderen Aktivität zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität wird nicht unterstützt und kann dazu führen, dass die Reaktion nicht wie erwartet funktioniert. Weiterführende Informationen finden Sie in [diesem Abschnitt](../building-journeys/reaction-events.md).
 
 ## Einschränkungen bei Datenquellen {#data-sources-limitations}
 

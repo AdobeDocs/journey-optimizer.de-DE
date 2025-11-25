@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
-source-wordcount: '5125'
-ht-degree: 87%
+source-wordcount: '5261'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 87%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Journeys in Adobe Journey Optimizer.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 ## Allgemeine Konzepte
 
@@ -144,7 +144,7 @@ Obwohl CJA-Zielgruppen in Journey nicht direkt unterstützt werden, können Sie 
 * Überwachen der Zielgruppengröße und der Auswertungsleistung in umfangreichen Bereitstellungen
 * Berücksichtigen Sie beim Entwerfen von Journey-Zeiten und Einstiegsbedingungen die Aktualisierungsraten der Zielgruppe
 
-Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [Erstellen von &#x200B;](../audience/creating-a-segment-definition.md), [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) und [Federated-Zielgruppen-Komposition](../audience/federated-audience-composition.md).
+Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [Erstellen von ](../audience/creating-a-segment-definition.md), [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) und [Federated-Zielgruppen-Komposition](../audience/federated-audience-composition.md).
 
 +++
 
@@ -271,15 +271,19 @@ Erfahren Sie mehr über [Ereigniskonfiguration](../event/about-events.md) und [E
 
 +++ Kann ich eine Nachricht erneut senden, wenn jemand sie nicht öffnet oder nicht darauf klickt?
 
-Ja. Verwenden Sie ein **Reaktionsereignis** mit einem **Timeout**:
+Ja. Verwenden **[!UICONTROL „Reaktion]**-Ereignisses mit einer **Zeitüberschreitung**:
 
-1. Fügen Sie nach dem Versand Ihrer Nachricht ein Reaktionsereignis hinzu, das auf E-Mail-Öffnungen oder -Klicks wartet.
-2. Konfigurieren Sie eine maximale Timeout-Dauer (z. B. 3 Tage) für das Reaktionsereignis.
+1. Fügen Sie nach dem Versand Ihrer Nachricht ein **[!UICONTROL Reaktion]**-Ereignis **sofort** nach der Kanalaktion hinzu (ohne **[!UICONTROL Warte]**-Aktivität dazwischen)
+2. Konfigurieren Sie einen Timeout-Zeitraum (z. B. 3 Tage) für das Ereignis **[!UICONTROL Reaktion]** zum Überwachen von E-Mail-Öffnungen oder -Klicks
 3. Erstellen Sie zwei Pfade:
    * **Bei Öffnung/Klick**: Weiter mit den nächsten Schritten oder Beenden der Journey
    * **Timeout-Pfad (keine Öffnung/Klick)**: Versand einer Erinnerungs-E-Mail mit anderer Betreffzeile
 
 **Best Practice**: Begrenzen Sie die Anzahl der erneuten Sendungen, um das Auftreten von Spam zu vermeiden (in der Regel maximal 1–2 Erinnerungen).
+
+>[!IMPORTANT]
+>
+>Platzieren Sie keine **[!UICONTROL Warten]**-Aktivität zwischen der [Kanalaktion](journeys-message.md) und der **[!UICONTROL Reaktion]**-Aktivität. Die **[!UICONTROL Reaktion]** muss unmittelbar nach der Kanalaktion kommen. Verwenden Sie **[!UICONTROL integrierte Zeitüberschreitungsfunktion]** Reaktion“, um auf Kundenantworten zu warten.
 
 Erfahren Sie mehr über [Reaktionsereignissen](reaction-events.md).
 
@@ -287,15 +291,20 @@ Erfahren Sie mehr über [Reaktionsereignissen](reaction-events.md).
 
 +++ Wie erstelle ich eine Warenkorbabbruch-Journey?
 
-Erstellen Sie eine durch ein Ereignis ausgelöste Journey mit einem Reaktionsereignis mit einem Timeout:
+Erstellen Sie eine ereignisausgelöste Journey mit einem **[!UICONTROL Reaktion]**-Ereignis mit einer Zeitüberschreitung:
 
 1. **Konfigurieren eines Ereignisses des Typs „Warenkorbabbruch“**: Wird ausgelöst, wenn Artikel hinzugefügt werden, der Checkout jedoch nicht innerhalb eines bestimmten Zeitraums abgeschlossen wird
-2. **Hinzufügen eines Reaktionsereignisses**: Konfigurieren Sie dieses so, dass es auf ein Kaufereignis wartet
-3. **Festlegen einer Timeout-Dauer**: Definieren Sie ein Timeout (z. B. 1–2 Stunden) für das Reaktionsereignis, damit die Kundin bzw. der Kunde Zeit hat, den Vorgang natürlich abzuschließen
-4. **Erstellen Sie zwei Pfade**:
+2. **Erste Nachricht senden** (optional): E-Mail zur Bestätigung von Artikeln im Warenkorb
+3. **Ereignis [!UICONTROL Reaktion] unmittelbar nach der Kanalaktion hinzufügen**: Konfigurieren Sie es so, dass es auf ein Kaufereignis wartet
+4. **Zeitüberschreitungszeitraum festlegen**: Definieren Sie eine Zeitüberschreitung (z. B. 1-2 Stunden) für das Ereignis **[!UICONTROL Reaktion]**, um dem Kunden Zeit für einen natürlichen Abschluss zu geben
+5. **Erstellen Sie zwei Pfade**:
    * **Wenn ein Kaufereignis eintritt**: Beenden der Journey oder weiter mit dem Ablauf nach dem Kauf
    * **Timeout-Pfad (kein Kauf)**: Senden einer E-Mail mit Erinnerung an Abbruch mit Warenkorbinhalten
-5. **Optional**: Fügen Sie ein weiteres Reaktionsereignis mit Timeout (24 Stunden) hinzu und senden Sie eine zweite Erinnerung mit einem Incentive (z. B. 10 % Rabatt)
+6. **Optional**: Fügen Sie ein weiteres **[!UICONTROL Reaktion]**-Ereignis **unmittelbar nach** der Erinnerungs-E-Mail mit Zeitüberschreitung (24 Stunden) hinzu und senden Sie eine zweite Erinnerung mit einem Anreiz (z. B. 10 % Rabatt)
+
+>[!IMPORTANT]
+>
+>**[!UICONTROL Reaktion]** Ereignisse müssen sofort nach „Kanalaktionen[ platziert ](journeys-message.md). Platzieren Sie keine **[!UICONTROL Warten]**-Aktivitäten zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität.
 
 Erfahren Sie mehr über [Journey-Anwendungsfälle](jo-use-cases.md) und [Reaktionsereignisse](reaction-events.md).
 
@@ -463,8 +472,9 @@ Häufige Gründe, warum Profile möglicherweise nicht in eine Journey eintreten:
 * **Journey nicht veröffentlicht**: Die Journey befindet sich im Entwurfsstatus
 * **Ungültiger Namespace**: Der Journey-Namespace entspricht nicht der Profilidentität
 * **Journey geschlossen**: Die Journey akzeptiert keine neuen Eintritte mehr
+* **Zeitpunkt der Streaming-Zielgruppenqualifizierung**: Bei Journey, die die Zielgruppenqualifizierung mit Streaming-Zielgruppen verwenden, können Profile möglicherweise nicht eintreten, wenn sie sich bereits in der Zielgruppe befanden, bevor die Journey veröffentlicht wurde, oder wenn die Journey die Aktivierungsdauer nicht abgeschlossen hat (bis zu 10 Minuten nach der Veröffentlichung)
 
-Erfahren Sie mehr über die [Eintrittsverwaltung](entry-management.md).
+Erfahren Sie mehr über [Einstiegsverwaltung](entry-management.md) und [Überlegungen zur Qualifizierung von Streaming-Zielgruppen](audience-qualification-events.md#streaming-entry-caveats).
 
 +++
 
