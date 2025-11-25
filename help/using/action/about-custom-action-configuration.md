@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
 workflow-type: tm+mt
-source-wordcount: '1838'
-ht-degree: 98%
+source-wordcount: '1974'
+ht-degree: 91%
 
 ---
 
@@ -74,12 +74,18 @@ Benutzerdefinierte Aktionen unterstützen das JSON-Format nur bei Verwendung von
 
 Stellen Sie bei der Auswahl eines mit einer benutzerdefinierten Aktion anzusprechenden Endpunkts sicher, dass:
 
-* Dieser Endpunkt den Journey-Durchsatz unterstützen kann, indem er ihn mit Konfigurationen aus der [Drosselungs-API](../configuration/throttling.md) oder [Begrenzungs-API](../configuration/capping.md) begrenzt. Vorsicht: Eine Drosselungskonfiguration darf nicht unter 200 TPS liegen. Jeder Zielendpunkt muss mindestens 200 TPS unterstützen. Weitere Informationen zu Journey-Verarbeitungsraten finden Sie in [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
+* Dieser Endpunkt den Journey-Durchsatz unterstützen kann, indem er ihn mit Konfigurationen aus der [Drosselungs-API](../configuration/throttling.md) oder [Begrenzungs-API](../configuration/capping.md) begrenzt. Vorsicht: Eine Drosselungskonfiguration darf nicht unter 200 TPS liegen. Jeder Zielendpunkt muss mindestens 200 TPS unterstützen. Weitere Informationen zu Journey-Verarbeitungsraten finden Sie in [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
 * Dieser Endpunkt muss eine so niedrige Antwortzeit wie möglich haben. Abhängig von Ihrem erwarteten Durchsatz kann sich eine hohe Reaktionszeit auf den tatsächlichen Durchsatz auswirken.
 
 Für alle benutzerdefinierten Aktionen ist ein Begrenzung von 300.000 Aufrufen über eine Minute festgelegt. Darüber hinaus wird die Standardbegrenzung pro Host und Sandbox angewendet. Wenn Sie beispielsweise in einer Sandbox zwei Endpunkte mit demselben Host haben (z. B. `https://www.adobe.com/endpoint1` und `https://www.adobe.com/endpoint2`), gilt die Begrenzung für alle Endpunkte unter dem Host „adobe.com“. „Endpunkt1“ und „Endpunkt2“ verwenden dieselbe Begrenzungskonfiguration. Wenn ein Endpunkt diesen Wert erreicht, wirkt sich dies auch auf den anderen Endpunkt aus.
 
-Dieses Limit wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die Ziele von benutzerdefinierten Aktionen sind. Sie müssen dies in Ihren zielgruppenbasierten Journeys berücksichtigen, indem Sie eine geeignete Leserate definieren (5.000 Profile pro Sekunde, wenn benutzerdefinierte Aktionen verwendet werden). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
+>[!NOTE]
+>
+>Die Begrenzung auf 300.000 Aufrufe pro Minute wird als **gleitendes Fenster)** Sandbox und pro Endpunkt für Endpunkte mit Antwortzeiten von weniger als 0,75 Sekunden erzwungen. Das Schiebefenster kann bei jeder Millisekunde beginnen, was bedeutet, dass Begrenzungsfehler auch dann auftreten können, wenn die Rate unter 300k/min erscheint, wenn sie auf Uhrminuten ausgerichtet ist. Für Endpunkte mit Antwortzeiten von mehr als 0,75 Sekunden gilt eine separate Begrenzung von 150.000 Aufrufen pro 30 Sekunden (ebenfalls ein gleitendes Fenster). Weitere Informationen zu langsamen Endpunkten finden [ auf dieser Seite](../configuration/external-systems.md#response-time).
+
+Das standardmäßige Limit von 300.000 Aufrufen pro Minute gilt auf Domain-Ebene (d. h. example.com). Wenn Sie eine höhere Begrenzung benötigen, wenden Sie sich mit Nutzungsnachweisen an den Adobe-Support und bestätigen Sie den Durchsatz Ihres Endpunkts. Um eine Erhöhung der Begrenzung anzufordern, geben Sie Details zum erwarteten Aufrufvolumen und zur Endpunktkapazität an. Adobe kann die Begrenzung anpassen, wenn die Kapazitätstests zeigen, dass der Endpunkt einen höheren Durchsatz verarbeiten kann. Für Best Practices sollten Sie Journey umstrukturieren oder Warteaktivitäten implementieren, um ausgehende Aufrufe zu staffeln und Begrenzungsfehler zu vermeiden.
+
+Dieses Limit wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die Ziele von benutzerdefinierten Aktionen sind. Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 
 Sie sollten öffentliche Endpunkte aus verschiedenen Gründen nicht mit benutzerdefinierten Aktionen ansprechen:
 

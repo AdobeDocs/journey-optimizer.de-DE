@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 78cf16d0f62d6cb7fac82b9e8f89e8726e2db896
+source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
 workflow-type: tm+mt
-source-wordcount: '3075'
-ht-degree: 95%
+source-wordcount: '3131'
+ht-degree: 93%
 
 ---
 
@@ -178,7 +178,7 @@ Für [Journey-Versionen](../start/user-interface.md) gelten die folgenden Schutz
 
 Für [benutzerdefinierte Aktionen](../action/action.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
 
-* Für alle benutzerdefinierten Aktionen ist ein Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md). Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
+* Für alle benutzerdefinierten Aktionen ist ein Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Das Limit „pro Host“ gilt auf Domain-Ebene (z. B. example.com). Diese Begrenzung wird als gleitendes Fenster pro Sandbox und pro Endpunkt für Endpunkte mit Antwortzeiten von weniger als 0,75 Sekunden erzwungen. Für Endpunkte mit Antwortzeiten von mehr als 0,75 Sekunden gilt eine separate Begrenzung von 150.000 Aufrufen pro 30 Sekunden (ebenfalls ein gleitendes Fenster). Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md). Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.
 * Es werden die Aufrufmethoden POST, PUT und GET unterstützt
 * Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder „$“ beginnen.
