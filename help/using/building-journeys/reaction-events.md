@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Ereignisse, Reaktion, Tracking, Plattform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
+source-git-commit: d8fa1c7055e4e31e393e36ba16863e0f8f95ca9b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 53%
+source-wordcount: '504'
+ht-degree: 48%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 53%
 
 Unter den verschiedenen Ereignisaktivitäten, die in der Palette verfügbar sind, finden Sie das integrierte **[!UICONTROL Reaktionsereignis]**. Mit dieser Aktivität können Sie auf Tracking-Daten reagieren, die sich auf eine innerhalb derselben Journey gesendete Nachricht beziehen. Wir erfassen diese Informationen in Echtzeit in dem Moment, in dem sie an Adobe Experience Platform weitergegeben werden.
 
-Sie können auf angeklickte oder geöffnete Nachrichten reagieren.
+Sie können auf angeklickte oder geöffnete Nachrichten reagieren. Sie können beispielsweise eine weitere Nachricht senden, wenn eine Person die vorherige E-Mail geöffnet oder darin geklickt hat, oder eine andere Folgenachricht senden, wenn sie nicht mit Ihrer Kommunikation interagiert hat.
 
 Siehe [Aktionsaktivitäten](../building-journeys/about-journey-activities.md#action-activities).
 
@@ -48,7 +48,7 @@ Führen Sie die folgenden Schritte aus, um die Reaktionsereignisse zu konfigurie
 
 ## Leitlinien und Einschränkungen {#guardrails-limitations}
 
-* Eine **[!UICONTROL Reaktion]**-Aktivität muss **unmittelbar** nach einer [Kanalaktionsaktivität) auf &#x200B;](journeys-message.md) Journey-Arbeitsfläche platziert werden.
+* Eine **[!UICONTROL Reaktion]**-Aktivität muss **unmittelbar** nach einer [Kanalaktionsaktivität) auf ](journeys-message.md) Journey-Arbeitsfläche platziert werden.
 * Eine Aktivität vom Typ **[!UICONTROL Reaktion]** kann nur verwendet werden, wenn zuvor eine Kanalaktionsaktivität stattgefunden hat.
 * Das Platzieren einer **[!UICONTROL Warten]**-Aktivität oder einer anderen Aktivität zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität wird nicht unterstützt und kann dazu führen, dass die Reaktion nicht wie erwartet funktioniert.
 * Reaktionsereignisse können nur Nachrichten verfolgen, die innerhalb derselben Journey gesendet werden. Nachrichten, die auf einer anderen Journey stattfinden, können nicht verfolgt werden.
