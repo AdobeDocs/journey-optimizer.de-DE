@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 4532db3f84cdf41d295050e85e721f65cb4f1f0e
+source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 99%
+source-wordcount: '817'
+ht-degree: 86%
 
 ---
 
@@ -78,13 +78,13 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Es ist jedoch geplant, den 
 
 >[!NOTE]
 >
->Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=_blank}
+>Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=&quot;_blank}
 
 +++
 
 +++Können Kundinnen und Kunden die TTL für Systemdatensatzdaten von [!DNL Journey Optimizer] im Data Lake erhöhen? 
 
-TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=&quot;_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -111,5 +111,17 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden könne
 +++Welcher Zeitstempel wird für die Durchsetzung der TTL verwendet (z. B. für Anwendungsfälle zur Aufstockung)? 
 
 Es wird der Zeitstempel des Ereignisses verwendet (d. h. nicht das Aufnahmedatum).
+
++++
+
++++Kann ich systemgenerierte Journey Optimizer-Datensätze löschen?
+
+Systemgenerierte Journey Optimizer-Datensätze sind geschützt und können nicht über die standardmäßige Adobe Experience Platform-Benutzeroberfläche gelöscht werden. Diese Datensätze sind für die Journey Optimizer-Funktionalität von wesentlicher Bedeutung und werden vom System verwaltet.
+
+Wenn Sie einen Journey Optimizer-Systemdatensatz dauerhaft entfernen müssen (z. B. für QA-Umgebungen, Sandbox-Bereinigung oder bestimmte Datenhygiene-Anforderungen), wenden Sie sich an das Adobe Engineering Team oder die Adobe-Kundenunterstützung. Für diese Datensätze sind spezielle Backend-Verfahren erforderlich, um eine vollständige und sichere Entfernung zu gewährleisten.
+
+>[!NOTE]
+>
+>Verwenden Sie für die routinemäßige Datenbereinigung in diesen Systemdatensätzen die über die Privacy Service verfügbaren Vorgänge **[!UICONTROL Datenlebenszyklus]**, um bestimmte Datensätze oder Identitäten zu löschen. [Weitere Informationen](../privacy/data-hygiene.md)
 
 +++
