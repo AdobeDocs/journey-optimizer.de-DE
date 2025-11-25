@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2723'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
 
-Um die Phasen Ihres IP-Aufwärmplans zu definieren, müssen Sie für jede Phase eine Kampagne auswählen, Ausschlüsse für Domains und Audiences konfigurieren und das Profil-Targeting verwalten. Jede Phase kann mehrere Ausführungen enthalten, die im nächsten Abschnitt konfiguriert werden. Führen Sie folgende Schritte aus:
+Um die Phasen Ihres IP-Aufwärmplans zu definieren, müssen Sie für jede Phase eine Kampagne auswählen, Ausschlüsse für Domains und Zielgruppen konfigurieren und das Profil-Targeting verwalten. Jede Phase kann mehrere Ausführungen umfassen, die im nächsten Abschnitt konfiguriert werden. Führen Sie folgende Schritte aus:
 
 1. Wählen Sie die Kampagne aus, die Sie mit der ersten Phase des IP-Aufwärmplans verbinden möchten.
 
@@ -160,7 +160,7 @@ Um die Phasen Ihres IP-Aufwärmplans zu definieren, müssen Sie für jede Phase 
 >title="Anzeigen der qualifizierten Profile"
 >abstract="In dieser Spalte wird die Anzahl der qualifizierten Profile angezeigt. Wenn die Zielgruppe für eine Ausführung ausgewertet wurde und mehr angesprochene als qualifizierte Profile vorhanden sind, wird die Ausführung weiterhin durchgeführt, es sei denn, die Option **Aktivierte Ausführungen im Falle von Fehlern abbrechen** ist aktiviert. In diesem Fall wird die Ausführung abgebrochen."
 
-Nachdem Sie die Phasen Ihres IP-Aufwärmplans definiert haben, müssen Sie die einzelnen Ausführungen innerhalb jeder Phase konfigurieren. Jeder Durchgang erfordert einen Zeitplan, und Sie können optional Interaktionsfilter, Fehlerbehandlung und Wiederholungsfenster konfigurieren, um eine optimale Ausführung sicherzustellen. Führen Sie folgende Schritte aus:
+Nachdem Sie die Phasen Ihres IP-Aufwärmplans definiert haben, müssen Sie die einzelnen Ausführungen innerhalb jeder Phase konfigurieren. Jede Ausführung erfordert einen Zeitplan und Sie können optional Interaktionsfilter, Fehlerbehandlung und Wiederholungsfenster konfigurieren, um eine optimale Ausführung sicherzustellen. Führen Sie folgende Schritte aus:
 
 1. Wählen Sie für jede Ausführung einen Zeitplan aus, um sicherzustellen, dass sie zum angegebenen Zeitpunkt durchgeführt wird.
 

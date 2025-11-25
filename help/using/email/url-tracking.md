@@ -10,9 +10,9 @@ level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
 source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Mithilfe des [Personalisierungseditors](../personalization/personalization-build
 
 Die folgenden vordefinierten Werte sind über den Personalisierungseditor verfügbar:
 
-* **Nachrichtenprofil-ID**: Nachrichtenorientiertes Attribut, das jede Nachricht, die an jedes Zielprofil in einem Versand gesendet wird, eindeutig identifiziert.
+* **Nachrichtprofil-ID**:Ein nachrichtenorientiertes Attribut, das jede an jedes Zielprofil in einem Versand gesendete Nachricht eindeutig identifiziert. 
 
 * **Angebots-ID**: ID des in der E-Mail verwendeten Angebots.
 

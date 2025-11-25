@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Richtlinien, Governance, Plattform, Einverständnis, Healthcare Shield
 source-git-commit: bbea90bd21bd19941e8c8df93c8ec7a8a2769d77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '859'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Angenommen, Sie möchten Ihre Kundinnen und Kunden anhand ihrer Kommunikationsvo
 
      >[!NOTE]
      >
-     >Stellen Sie sicher, dass die Domain der verwendeten Landingpage zur oberen Marke und nicht zu einer Untermarke gehört. Die erfassten Voreinstellungen werden in den Profildaten gespeichert, die auf der Ebene der übergeordneten Marke gespeichert sind.
+     >Stellen Sie sicher, dass die Domain der verwendeten Landingpage zur übergeordneten Marke und nicht zu einer Untermarke gehört. Die erfassten Voreinstellungen werden in den Profildaten gespeichert, die auf Ebene der übergeordneten Marke gespeichert sind.
 
 1. Auf dieser Seite können Kundinnen und Kunden ihre Voreinstellungen aktualisieren (z. B. themenbezogene Abonnements), indem sie Kontrollkästchen aktivieren oder deaktivieren.
 

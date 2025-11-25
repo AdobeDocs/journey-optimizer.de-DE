@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1241'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -208,7 +208,7 @@ Im Abschnitt „Edge Delivery“ des Assurance-Trace wurde den Ausführungsdetai
 
 ## Häufig gestellte Fragen {#faq-external-data}
 
-Im Folgenden finden Sie häufig gestellte Fragen zur Hilfe bei der externen Datensuche.
+Im Folgenden finden Sie häufig gestellte Fragen zum Helper zur Suche externer Daten.
 
 Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
 

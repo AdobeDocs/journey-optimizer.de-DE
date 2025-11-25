@@ -9,9 +9,9 @@ level: Experienced
 keywords: Landing, Landingpage, Konfigurieren, Umgebung, Subdomain, Voreinstellungen
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -74,9 +74,9 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen:
 
    >[!CAUTION]
    >
-   >Die ausgewählte Landingpage-Subdomain wird verwendet, um die **[!UICONTROL Tracking-URL]** anzugeben<!--and **[!UICONTROL Image Delivery URL]** --> wenn diese Subdomain mit einer ([&#x200B; Subdomain) &#x200B;](lp-subdomains.md#lp-use-existing-subdomain) wurde.
+   >Die ausgewählte Landingpage-Subdomain wird verwendet, um die **[!UICONTROL Tracking-URL]** <!--and **[!UICONTROL Image Delivery URL]** --> anzugeben, wenn diese Subdomain mithilfe einer [vorhandenen Subdomain](lp-subdomains.md#lp-use-existing-subdomain) erstellt wurde.
    >
-   >Wenn die Subdomain mit der Option [Eigene Domain hinzufügen](lp-subdomains.md#lp-configure-new-subdomain) erstellt wurde, wird stattdessen die primäre Subdomain (d. h. die erste delegierte Subdomain) verwendet.
+   >Wenn die Subdomain mit der Option [Eigene Domain hinzufügen](lp-subdomains.md#lp-configure-new-subdomain) erstellt wurde, wird stattdessen die primäre Subdomain (d. h. die erste delegierte Subdomain) verwendet.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um die Erstellung der Landingpage-Voreinstellung zu bestätigen. <!--You can also save the preset as draft and resume its configuration later on.-->
 

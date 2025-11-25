@@ -10,9 +10,9 @@ level: Beginner
 keywords: Landing, Landingpage, Design, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -36,4 +36,4 @@ Dort haben Sie folgende Möglichkeiten:
 >
 >Der Content-Designer für Landingpages ähnelt dem E-Mail-Designer größtenteils. Weitere Informationen finden Sie unter [Inhaltserstellung mit [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 >
->Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Achten Sie beim Entwerfen von Inhalten in [&#x200B; auf &#x200B;](../email/accessible-content.md)dieser Seite[!DNL Journey Optimizer] die spezifischen Richtlinien.
+>Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32019L0882){target="_blank"} legt fest, dass jegliche digitale Kommunikation barrierefrei sein sollte. Beachten Sie beim Erstellen von Inhalten in [!DNL Journey Optimizer] die konkreten Richtlinien [auf dieser Seite](../email/accessible-content.md).

@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1448'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Sie können beliebig viele Strukturkomponenten zu einer oder mehreren Strukturko
 
 >[!NOTE]
 >
->Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Beachten Sie die auf [&#x200B; Seite aufgeführten spezifischen Richtlinien](accessible-content.md) wenn Sie Inhaltskomponenten für das Entwerfen von E-Mails in [!DNL Journey Optimizer] verwenden, z. B. barrierefreie Schriftarten und lesbare Formate verwenden und alternativen Text für Bilder bereitstellen.
+>Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32019L0882){target="_blank"} legt fest, dass jegliche digitale Kommunikation barrierefrei sein sollte. Beachten Sie die auf [dieser Seite](accessible-content.md) aufgeführten spezifischen Richtlinien, wenn Sie Inhaltskomponenten für das E-Mail-Design in [!DNL Journey Optimizer] nutzen, wie z. B. die Verwendung von barrierefreien Schriften, lesbaren Formaten und die Bereitstellung von alternativem Text für Bilder.
 
 ## Hinzufügen von Inhaltskomponenten {#add-content-components}
 
@@ -185,7 +185,7 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 1. Klicken Sie auf die neu hinzugefügte Komponente und konfigurieren Sie Ihre Bildeigenschaften:
 
    * **[!UICONTROL Bildtitel]** erlaubt Ihnen, den Titel für das Bild zu definieren.
-   * Mit **[!UICONTROL Alt-Text]** legen Sie die Bildunterschrift fest. Dies entspricht dem Alt-HTML-Attribut. [Weitere Informationen](../email/accessible-content.md#alt-text)
+   * **[!UICONTROL Alternativtext]** erlaubt Ihnen, die Beschriftung Ihres Bildes zu definieren. Dies entspricht dem Alt-HTML-Attribut. [Weitere Informationen](../email/accessible-content.md#alt-text)
 
    ![](assets/email_designer_10.png)
 

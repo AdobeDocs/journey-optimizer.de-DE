@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1013'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten 
 
 ### Einrichten einer Landingpage {#set-up-lp}
 
-Um eine Landingpage für die Registrierung von Ereignissen einzurichten, erstellen Sie eine Abonnement-Liste, gestalten die Landingpage mit einem Registrierungsformular und konfigurieren die erforderlichen Seiten und Einstellungen. Führen Sie folgende Schritte aus:
+Um eine Landingpage für die Registrierung von Ereignissen einzurichten, erstellen Sie eine Abonnement-Liste, entwerfen Sie die Landingpage mit einem Registrierungsformular und konfigurieren Sie die erforderlichen Seiten und Einstellungen. Führen Sie folgende Schritte aus:
 
 1. Erstellen Sie die Abonnement-Liste für die Veranstaltungsregistrierung, in der die registrierten Benutzer gespeichert werden. [Hier](subscription-list.md#define-subscription-list) erfahren Sie, wie Sie eine Abonnement-Liste erstellen.
 

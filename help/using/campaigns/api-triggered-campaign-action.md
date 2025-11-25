@@ -10,9 +10,9 @@ level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
 source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
    >[!NOTE]
    >
-   >Weitere Informationen zu den unterstützten Kanälen finden Sie in der Tabelle in diesem Abschnitt: [Kanäle in Journey und Kampagnen](../channels/gs-channels.md#channels). Die verfügbaren Kanäle variieren je nach Ihrem Lizenzierungsmodell und Ihren Add-ons.
+   >Weitere Informationen zu den unterstützten Kanälen finden Sie in der Tabelle in diesem Abschnitt: [Kanäle in Journeys und Kampagnen](../channels/gs-channels.md#channels). Die verfügbaren Kanäle variieren je nach Ihrem Lizenzierungsmodell und Ihren Add-ons.
    >
-   >Durch API-ausgelöste Kampagnen mit hohem Durchsatz unterstützen derzeit nur den E-Mail-Kanal.
+   >Durch API ausgelöste Kampagnen mit hohem Durchsatz unterstützen derzeit nur den E-Mail-Kanal.
 
 1. **Auswählen einer Kanalkonfiguration**
 

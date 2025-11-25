@@ -10,9 +10,9 @@ level: Intermediate
 keywords: E-Mail, Import, Inhalt, HTML, ZIP, CSS
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Mit [!DNL Journey Optimizer] können Sie vorhandenen HTML-Inhalt importieren, um
 
 >[!TIP]
 >
->Wenn Sie Bildentwürfe (JPEG oder PNG) anstelle von HTML-Dateien haben, können Sie den Konverter &quot;[&#x200B; zu HTML&quot; verwenden](image-to-html.md) um diese automatisch mithilfe von KI in bearbeitbare HTML-E-Mail-Vorlagen zu konvertieren.
+>Wenn Sie Bildentwürfe (JPEG oder PNG) anstelle von HTML-Dateien haben, können Sie den [Bild-zu-HTML-Converter](image-to-html.md) verwenden, um diese automatisch mithilfe von KI in bearbeitbare HTML-E-Mail-Vorlagen zu konvertieren.
 
 Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalt zu importieren:
 

@@ -9,8 +9,8 @@ level: Experienced
 keywords: Landing, Landingpage, Subdomains, Konfiguration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
-workflow-type: tm+mt
-source-wordcount: '971'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

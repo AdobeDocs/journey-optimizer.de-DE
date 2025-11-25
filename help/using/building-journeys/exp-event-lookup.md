@@ -6,9 +6,9 @@ description: Informationen zum Verwenden der Suche nach Erlebnisereignissen in J
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ Weitere Informationen:
 
 ## Häufig gestellte Fragen {#faq-ee}
 
-Im Folgenden finden Sie häufig gestellte Fragen zur Suche nach Erlebnisereignissen in Journey.
+Im Folgenden finden Sie häufig gestellte Fragen zum Suchen nach Erlebnisereignissen in Journeys.
 
 Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
 

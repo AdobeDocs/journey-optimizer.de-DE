@@ -8,23 +8,23 @@ level: Experienced
 keywords: Datum, Funktionen, Ausdruck, Journey, Uhrzeit
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # Datumsfunktionen {#date-functions}
 
-Mit Datumsfunktionen können Sie Datums- und Uhrzeitwerte in Ihren Journey-Ausdrücken bearbeiten. Diese Funktionen sind für zeitbasierte Bedingungen, Zeitpläne und zeitliche Berechnungen in Ihren Kunden-Journey unerlässlich.
+Mit Datumsfunktionen können Sie Datums- und Uhrzeitwerte in Ihren Journey-Ausdrücken bearbeiten. Diese Funktionen sind für zeitbasierte Bedingungen, Zeitpläne und zeitliche Berechnungen in Ihren Customer Journeys unerlässlich.
 
 Verwenden Sie Datumsfunktionen, wenn Sie Folgendes tun müssen:
 
-* Abrufen der aktuellen Zeit oder des aktuellen Datums mit spezifischer Zeitzonenbehandlung ([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
+* Abrufen der aktuellen Zeit oder des aktuellen Datums im Kontext einer bestimmten Zeitzone ([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
 * Überprüfen, ob ein Datum in einen bestimmten Zeitbereich fällt ([inLastDays](#inLastDays), [inLastHours](#inLastHours), [inLastMonths](#inLastMonths), [inLastYears](#inLastYears), [inNextDays](#inNextDays), [inNextHours](#inNextHours), [inNextMonths](#inNextMonths), [inNextYears](#inNextYears))
 * Ändern von Datums- und Zeitkomponenten ([setHours](#setHours), [setDays](#setDays), [updateTimeZone](#updateTimeZone))
 * Durchführen von zeitbasierten Berechnungen und Vergleichen
-* Zwischen verschiedenen Zeitformaten und Darstellungen konvertieren
+* Konvertieren zwischen verschiedenen Zeitformaten und Darstellungen
 
 Datumsfunktionen bieten eine präzise Kontrolle über die zeitliche Logik, sodass Sie zeitabhängige Journey-Pfade und Bedingungen erstellen können, die auf bestimmte Zeitrahmen und Zeitpläne reagieren.
 
@@ -97,7 +97,7 @@ Gibt „true“ zurück.
 
 ## inLastHours {#inLastHours}
 
-Gibt „true“ zurück, wenn der angegebene Datum/Uhrzeit-Wert zwischen jetzt und jetzt - delta Stunden liegt.
+Gibt „true“ zurück, wenn der angegebene Datum/Uhrzeit-Wert zwischen jetzt und jetzt – delta Stunden liegt.
 
 +++Syntax
 
@@ -136,7 +136,7 @@ Gibt „true“ zurück.
 
 ## inLastMonths {#inLastMonths}
 
-Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt - delta Monaten liegt.
+Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum-/Uhrzeit-Wert zwischen jetzt und jetzt – delta Monaten liegt.
 
 +++Syntax
 
@@ -171,7 +171,7 @@ Gibt „true“ zurück.
 
 ## inLastYears {#inLastYears}
 
-Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt - delta Jahren liegt.
+Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum-/Uhrzeit-Wert zwischen jetzt und jetzt – delta Jahren liegt.
 
 +++Syntax
 
@@ -206,7 +206,7 @@ Gibt „true“ zurück.
 
 ## inNextDays {#inNextDays}
 
-Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt + delta Tagen liegt.
+Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum-/Uhrzeit-Wert zwischen jetzt und jetzt + delta Tagen liegt.
 
 +++Syntax
 
@@ -241,7 +241,7 @@ Gibt „true“ zurück.
 
 ## inNextHours {#inNextHours}
 
-Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt + delta Stunden liegt.
+Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum-/Uhrzeit-Wert zwischen jetzt und jetzt + delta Stunden liegt.
 
 +++Syntax
 
@@ -276,7 +276,7 @@ Gibt „true“ zurück.
 
 ## inNextMonths {#inNextMonths}
 
-Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt + delta Monaten liegt.
+Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum-/Uhrzeit-Wert zwischen jetzt und jetzt + delta Monaten liegt.
 
 +++Syntax
 
@@ -311,7 +311,7 @@ Gibt „true“ zurück.
 
 ## inNextYears {#inNextYears}
 
-Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt + delta Jahren liegt.
+Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum-/Uhrzeit-Wert zwischen jetzt und jetzt + delta Jahren liegt.
 
 +++Syntax
 
@@ -516,7 +516,7 @@ Gibt 2023-12-25T01:11:00Z zurück.
 
 ## updateTimeZone {#updateTimeZone}
 
-Gibt einen neuen Datum/Uhrzeit-Wert mit einer neuen Zeitzone zum selben Moment zurück.
+Gibt einen neuen Datum-/Uhrzeit-Wert mit einer neuen Zeitzone im selben Moment zurück.
 
 +++Syntax
 

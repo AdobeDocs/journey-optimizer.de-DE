@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 source-git-commit: 460ac269404842001f320df6404db474a34c30b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,4 +39,4 @@ Zu den wichtigsten Vorteilen gehören:
 
 * **Nahtlose Zusammenarbeit**: Teilen Sie Ergebnisse bequem und verwalten Sie Team-Rollen mit Echtzeit-Warnhinweisen.
 
-➡️ [Zugriff auf die Journey Optimizer Experimentation Accelerator-Dokumentation](https://experienceleague.adobe.com/de/docs/experimentation-accelerator/using/overview)
+➡️ [Zugriff auf die Dokumentation für Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/de/docs/experimentation-accelerator/using/overview)

@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über mathematische Funktionen
 feature: Journeys
 role: Developer
 level: Experienced
-keywords: Mathematisch, Funktionen, Ausdruck, Journey, Berechnung, Zahl
+keywords: Mathematik, Funktionen, Ausdruck, Journey, Berechnung, Zahl
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Mathematische Funktionen bieten wichtige mathematische Operationen für numerisc
 Verwenden Sie mathematische Funktionen, wenn Sie Folgendes tun müssen:
 
 * Generieren von Zufallswerten für Tests, Stichproben oder Randomisierung ([random](#random))
-* Dezimalzahlen werden auf die nächste Ganzzahl gerundet, um die Datendarstellung zu vereinfachen ([round](#round))
-* Durchführen mathematischer Berechnungen für numerische Felder
-* Transformieren numerischer Werte für Geschäftslogik und Entscheidungsfindung
+* Runden von Dezimalzahlen auf die nächste Ganzzahl, um die Datendarstellung zu vereinfachen ([round](#round))
+* Durchführen von mathematischen Berechnungen für numerische Felder
+* Umwandeln von numerischen Werten für Geschäftslogik und Entscheidungsfindung
 
 Mathematische Funktionen verarbeiten sowohl Dezimal- als auch Ganzzahltypen und verwalten automatisch Typkonvertierungen, um präzise Ergebnisse in Ihren Journey-Ausdrücken sicherzustellen.
 
@@ -47,7 +47,7 @@ Gibt eine Dezimalzahl zurück.
 
 ## round {#round}
 
-Gibt den nächstgelegenen ganzzahligen Wert für das Argument zurück, wobei gleiche Werte auf positive Unendlichkeit gerundet werden.
+Gibt den nächsten ganzzahligen Wert für das Argument zurück, wobei gleiche Werte auf positive Unendlichkeit gerundet werden.
 
 +++Syntax
 

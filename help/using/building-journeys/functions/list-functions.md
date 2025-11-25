@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: Funktionen auflisten
+title: Listenfunktionen
 description: Informationen zu Listenfunktionen
 feature: Journeys
 role: Developer
@@ -8,27 +8,27 @@ level: Experienced
 keywords: Liste, Funktionen, Ausdruck, Journey, Array, Sammlung
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1158'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Funktionen auflisten {#list-functions}
+# Listenfunktionen {#list-functions}
 
-Mit Listenfunktionen können Sie Sammlungen von Werten in Ihren Journey-Ausdrücken bearbeiten und bearbeiten. Diese Funktionen sind für das Filtern, Sortieren, Transformieren und Analysieren von Arrays und Listen in Ihren Kunden-Journey unerlässlich.
+Mit Listenfunktionen können Sie Sammlungen von Werten in Ihren Journey-Ausdrücken bearbeiten und verwenden. Diese Funktionen sind für das Filtern, Sortieren, Umwandeln und Analysieren von Arrays und Listen in Ihren Customer Journeys unerlässlich.
 
 Verwenden Sie Listenfunktionen, wenn Sie Folgendes tun müssen:
 
 * Filtern und Extrahieren bestimmter Elemente aus Sammlungen anhand von Kriterien ([filter](#filter), [getListItem](#getListItem))
 * Sortieren und Organisieren von Listenelementen in auf- oder absteigender Reihenfolge ([sort](#sort))
-* Duplikate entfernen und eindeutige Werte aus Listen abrufen ([distinct](#distinct), [distinctWithNull](#distinctWithNull))
+* Entfernen von Duplikaten und Abrufen eindeutiger Werte aus Listen ([distinct](#distinct), [distinctWithNull](#distinctWithNull))
 * Überprüfen, ob Werte in Sammlungen vorhanden sind ([in](#in))
-* Anzahl der aus einer Liste zurückgegebenen Elemente begrenzen ([limit](#limit))
+* Begrenzen der Anzahl der aus einer Liste zurückgegebenen Elemente ([limit](#limit))
 * Abrufen der Größe einer Liste ([listSize](#listSize)) oder Umwandeln von Listen in verschiedene Formate ([serializeList](#serializeList))
-* Durchführen bestimmter Vorgänge wie das Suchen nach gemeinsamen Elementen zwischen Listen ([intersect](#intersect))
+* Durchführen bestimmter Vorgänge wie das Suchen nach gemeinsamen Elementen verschiedener Listen ([intersect](#intersect))
 
-Listenfunktionen bieten leistungsstarke Tools für die Arbeit mit komplexen Datenstrukturen und ermöglichen so eine ausgefeilte Datenbearbeitung und bedingte Logik basierend auf Sammlungsinhalten.
+Listenfunktionen bieten leistungsstarke Tools für die Arbeit mit komplexen Datenstrukturen und ermöglichen so eine ausgefeilte Datenbearbeitung und Bedingungslogik basierend auf Sammlungsinhalten.
 
 ## distinct {#distinct}
 
@@ -241,7 +241,7 @@ Gibt ein listObject mit den beiden Objekten „product2“ und „product3“ al
 
 ## getListItem {#getListItem}
 
-Gibt das Element der Liste an der angegebenen Indexposition zurück.
+Gibt das Element der Liste am angegebenen Index zurück.
 
 +++Syntax
 
@@ -309,7 +309,7 @@ Gibt „2“ zurück
 
 `getListItem(["A", "B", "C"], 2)`
 
-Gibt „c“ zurück
+Gibt „C“ zurück
 
 Beispiele mit dem Ereignisfeld „event.appVersion“ mit dem Wert: 20.45.2.3434
 
@@ -557,7 +557,7 @@ Gibt `["C","D","E"]` zurück.
 
 ## listSize {#listSize}
 
-Zählt die Zahl der Elemente in der Liste.
+Zählt die Anzahl der Elemente in der Liste.
 
 +++Syntax
 

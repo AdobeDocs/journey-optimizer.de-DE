@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
 source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -107,19 +107,19 @@ Typ: Zeichenfolge
 
 ## actionOriginEndpoint {#actionoriginendpoint}
 
-URI des in der Aktion verwendeten Endpunkts für die benutzerdefinierte Aktion.
+URI des in der Aktion verwendeten Endpunkts einer benutzerdefinierten Aktion.
 
 Typ: Zeichenfolge
 
 ## actionOriginMethod {#actionoriginmethod}
 
-Hier wird die in der HTTP-Anfrage (GET oder POST) verwendete Methode beschrieben.
+Dies beschreibt die in der HTTP-Anfrage (GET oder POST) verwendete Methode.
 
 Typ: Zeichenfolge
 
 ## actionOriginIsMTLS {#actionoriginismtls}
 
-Dadurch wird beschrieben, ob MTLS für den Endpunkt aktiviert ist.
+Dies beschreibt, ob MTLS für den Endpunkt aktiviert ist.
 
 Typ: boolesch
 
@@ -131,15 +131,15 @@ Typ: boolesch
 
 ## actionExecutionOriginStartTime {#actionexecutionoriginstarttime}
 
-Dies beschreibt den Zeitstempel, zu dem die HTTP-Anfrage initiiert wird. Bei einem erneuten Versuch ist dies der Zeitstempel, mit dem der letzte Wiederholungsversuch gestartet wird. Der Zeitstempel verwendet das ISO8601-Format in der UTC-Zeitzone.
+Dies beschreibt den Zeitstempel, zu dem die HTTP-Anfrage initiiert wird. Bei einem Wiederholungsversuch ist dies der Zeitstempel, mit dem der letzte Wiederholungsversuch gestartet wird. Der Zeitstempel verwendet das ISO8601-Format in der UTC-Zeitzone.
 
-Beachten Sie, dass dieser Zeitstempel normalerweise etwas nach dem Eintritt des Profils in den Knoten für benutzerdefinierte Aktionen oder im Falle einer Drosselung erheblich nach dem Eintritt in den Knoten ist.
+Beachten Sie, dass dieser Zeitpunkt normalerweise kurz nach dem Eintritt des Profils in den Aktionsknoten liegt, oder deutlich später im Falle einer Drosselung.
 
-Typ: timestamp
+Typ: Zeitstempel
 
 ## actionExecutionOriginTime {#actionexecutionorigintime}
 
-Dies beschreibt die Antwortzeit des HTTP-Aufrufs. Bei einem erneuten Versuch ist dies die Zeit, die für den letzten Wiederholungsversuch benötigt wird. Sie misst den Zeitraum zwischen dem Start der HTTP-Anfrage und dem Zeitpunkt, zu dem die vollständige Antwort vom Server zurückgegeben wird. Beachten Sie, dass dies jegliche Zeit ausschließt, die im Falle einer Drosselung in der Warteschlange verbracht wird.
+Dies beschreibt die Antwortzeit des HTTP-Aufrufs. Bei einem Wiederholungsversuch ist dies die Zeit, die für den letzten Wiederholungsversuch benötigt wird. Es wird der Zeitraum zwischen dem Start der HTTP-Anfrage und dem Zeitpunkt, zu dem die vollständige Antwort vom Server zurückgegeben wird, gemessen. Beachten Sie, dass dies jegliche Zeit ausschließt, die im Falle einer Drosselung in der Warteschlange verbracht wird.
 
 Typ: lang
 
@@ -151,7 +151,7 @@ Typ: boolesch
 
 ## actionWaitTime {#actionwaittime}
 
-Dies beschreibt, wenn das konfigurierte Ratenlimit für einen gedrosselten Endpunkt erreicht wird und Aufrufe mit der konfigurierten Rate in die Warteschlange gestellt und verarbeitet werden. Dieses Feld zeigt die Zeit an, die der Aufruf in der Warteschlange verbracht hat, bevor er ausgeführt wurde. Nur angegeben, wenn actionIsThrottled „true“ ==.
+Dies beschreibt, wenn das konfigurierte Ratenlimit für einen gedrosselten Endpunkt erreicht wird und Aufrufe mit der konfigurierten Rate in die Warteschlange gestellt und verarbeitet werden. Dieses Feld zeigt die Zeit an, die der Aufruf in der Warteschlange verbracht hat, bevor er ausgeführt wurde. Nur angegeben, wenn actionIsThrottled == wahr.
 
 Typ: lang
 

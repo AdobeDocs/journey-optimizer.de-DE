@@ -10,8 +10,8 @@ level: Beginner
 keywords: E-Mail, Vorlagen, Design
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
-source-wordcount: '265'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

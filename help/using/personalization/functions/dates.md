@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1091'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -422,20 +422,20 @@ Der folgende Vorgang gibt das Datum in diesem Format zurück: MM/TT/JJ.
 
 ### Musterzeichen {#pattern-characters}
 
-Einige Musterbuchstaben sehen möglicherweise ähnlich aus, stellen jedoch unterschiedliche Konzepte dar.
+Einige Musterzeichen sehen möglicherweise ähnlich aus, stellen jedoch unterschiedliche Konzepte dar.
 
 | Muster | Bedeutung | Beispiel (für `2023-12-31T10:15:30Z`) |
 |---------|---------|--------------------------------------|
 | `y` | Kalenderjahr (Standardjahr) | `2023` |
-| `Y` | Wochenbasiertes Jahr (ISO 8601). Kann bei Jahresgrenzen unterschiedlich sein. | `2024` (seit 31. Dezember 2023 fällt in die erste Woche von 2024) |
-| `M` | Monat des Jahres (1-12 oder Text wie `Jan`, `January`) | `12` oder `Dec` |
-| `m` | Minute der Stunde (0-59) | `15` |
-| `d` | Tag des Monats (1-31) | `31` |
-| `D` | Tag des Jahres (1-366) | `365` |
+| `Y` | Wochenbasiertes Jahr (ISO 8601). Kann bei Jahresgrenzen unterschiedlich sein. | `2024` (da der 31. Dezember 2023 in die erste Woche von 2024 fällt) |
+| `M` | Monat des Jahres (1–12 oder Text wie `Jan`, `January`) | `12` oder `Dec` |
+| `m` | Minute der Stunde (0–59) | `15` |
+| `d` | Tag des Monats (1–31) | `31` |
+| `D` | Tag des Jahres (1–366) | `365` |
 
-### Formatieren des Datums mit Gebietsschema-Unterstützung{#format-date-locale}
+### Formatieren des Datums mit Unterstützung für Gebietsschema{#format-date-locale}
 
-Mit der Funktion `formatDate` kann ein Datums-/Uhrzeitwert in die entsprechende sprachabhängige Darstellung formatiert werden, d. h. in einem gewünschten Gebietsschema. Das Format sollte ein gültiges Java-DateTimeFormat-Muster sein.
+Die Funktion `formatDate` kann verwendet werden, um einen Datums-/Uhrzeitwert in der entsprechenden sprachabhängigen Darstellung zu formatieren, d. h. in einem gewünschten Gebietsschema. Das Format sollte ein gültiges Java-DateTimeFormat-Muster sein.
 
 **Syntax**
 

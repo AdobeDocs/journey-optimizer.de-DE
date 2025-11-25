@@ -8,9 +8,9 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2076'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -110,8 +110,8 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Journey hinzuzufügen
    1. Wählen Sie die Häufigkeit Ihres Auslösers aus, wenn Ihre In-App-Nachricht aktiv ist:
 
       * **[!UICONTROL Jedes Mal anzeigen]**: Die Nachricht wird immer angezeigt, wenn die im Dropdown-Menü **[!UICONTROL Mobile-App-Auslöser]** ausgewählten Ereignisse eintreten.
-      * **[!UICONTROL Einmal anzeigen]**: Diese Nachricht wird nur einmal pro Benutzersitzung angezeigt und bleibt in allen Fenstern und Aktivitäten sichtbar, bis sie geschlossen wird. Um den Bildschirm auf einen bestimmten Bildschirm zu beschränken oder ihn automatisch schließen zu lassen, verwenden Sie eine benutzerdefinierte Logik mit dem Messaging-Delegaten.
-      * **[!UICONTROL Bis zu Clickthrough anzeigen]**: Diese Nachricht wird anzeigen, wenn die im Dropdown-Menü **[!UICONTROL Mobile-App-Auslöser]** ausgewählten Ereignisse eintreten, bis vom SDK ein Interaktionsereignis mit einer Aktion „angeklickt“ übermittelt wird.
+      * **[!UICONTROL Einmal anzeigen]**: Diese Nachricht wird nur einmal pro Benutzersitzung angezeigt und bleibt in allen Fenstern und Aktivitäten sichtbar, bis sie geschlossen wird. Um sie auf einen bestimmten Bildschirm zu beschränken oder automatisch schließen zu lassen, verwenden Sie eine benutzerdefinierte Logik mit dem Delegieren von Nachrichten.
+      * **[!UICONTROL Bis zu Clickthrough anzeigen]**: Diese Nachricht wird anzeigen, wenn die im Dropdown-Menü **[!UICONTROL Mobile-App-Trigger]** ausgewählten Ereignisse eintreten, bis vom SDK ein Interaktionsereignis mit einer Aktion des Typs „angeklickt“ übermittelt wird.
 
 1. Schließen Sie bei Bedarf Ihren Journey-Fluss ab, indem Sie zusätzliche Aktionen oder Ereignisse per Drag-and-Drop verschieben. [Weitere Informationen](../building-journeys/about-journey-activities.md)
 
@@ -236,19 +236,19 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
   +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451891?captions=ger&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
-* Informationen dazu, wie Inhaltsexperimente konfiguriert und analysiert werden können, um In-App-Nachrichten mit A/B-Tests zu testen, gibt es im folgenden Video.
+* Im folgenden Video erfahren Sie, wie Inhaltsexperimente konfiguriert und analysiert werden können, um In-App-Nachrichten mit A/B-Tests zu testen.
 
   +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445297/?captions=ger&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
-* Das Video unten zeigt, wie eine In-App-Nachricht in einer Journey erstellt und wie die Journey getestet und veröffentlicht werden kann.
+* Im folgenden Video erfahren Sie, wie eine In-App-Nachricht in einer Journey erstellt und wie die Journey getestet und veröffentlicht werden kann.
 
   +++Video ansehen
 

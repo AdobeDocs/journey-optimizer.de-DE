@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -136,12 +136,12 @@ Wählen Sie ein eingehendes Erlebnis aus, um zugeordnete **globale Berichte für
 
 ### Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie den Echtzeitbericht in Adobe Journey Optimizer effektiv verwenden.
+Erfahren Sie, wie Sie den Bericht für die gesamte Zeit in Adobe Journey Optimizer effektiv verwenden.
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3422692?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-Weitere Video-Tutorials zu Reporting und Analysen finden Sie in [Reporting-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}
+Weitere Video-Tutorials zu Reporting und Analysen finden Sie unter [Reporting-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}

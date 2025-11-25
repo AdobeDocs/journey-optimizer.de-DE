@@ -11,9 +11,9 @@ keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -119,4 +119,4 @@ Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey 
 
 [Auf dieser Seite](troubleshooting.md) erfahren Sie, wie Sie Fehler in Aktivitäten und in der Journey beheben.
 
-Siehe auch **[Überwachung und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**.
+Siehe auch **[Monitoring und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**.

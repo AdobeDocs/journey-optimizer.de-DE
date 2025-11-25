@@ -1,16 +1,16 @@
 ---
 product: journey optimizer
 title: Konvertierungsfunktionen
-description: Informationen zu Konvertierungsfunktionen
+description: Erfahren Sie mehr über Konvertierungsfunktionen
 feature: Journeys
 role: Developer
 level: Experienced
 keywords: Konvertierung, Funktionen, Ausdruck, Journey, Typ, Umwandlung
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 85%
 
 Mit Konvertierungsfunktionen können Sie Daten in Ihren Journey-Ausdrücken von einem Typ in einen anderen umwandeln. Diese Funktionen sind für die Gewährleistung der Datenkompatibilität und der ordnungsgemäßen Typverarbeitung bei der Arbeit mit verschiedenen Datenquellen und Vorgängen von entscheidender Bedeutung.
 
-Verwenden Sie Konvertierungsfunktionen, wenn Sie Folgendes tun müssen:
+Verwenden Sie Konvertierungsfunktionen für Folgendes:
 
-* Konvertieren von Zeichenfolgenwerten in numerische, boolesche oder Datentypen ([toInteger](#toInteger), [toDecimal](#toDecimal), [toBool](#toBool))
-* Umwandlung von Datums- und Uhrzeitangaben zwischen verschiedenen Formaten und Darstellungen ([toDateTime](#toDateTime), [toDateTimeOnly](#toDateTimeOnly), [toDateOnly](#toDateOnly))
-* Zahlenwerte zwischen Ganzzahl und Dezimalzahl umrechnen ([toInteger](#toInteger), [toDecimal](#toDecimal))
-* Werte in Zeichenfolgenformat ([toString](#toString)) oder Dauer ([toDuration](#toDuration)) konvertieren
-* Gewährleistung der Typkompatibilität für Vergleiche und Vorgänge
-* Verarbeiten Sie Daten aus externen Quellen, die unterschiedliche Typformate aufweisen können.
+* Konvertieren von Zeichenfolgewerten in numerische oder boolesche Typen oder Datentypen ([toInteger](#toInteger), [toDecimal](#toDecimal), [toBool](#toBool))
+* Umwandeln von Datums- und Zeitangaben zwischen verschiedenen Formaten und Darstellungsweisen ([toDateTime](#toDateTime), [toDateTimeOnly](#toDateTimeOnly), [toDateOnly](#toDateOnly))
+* Umrechnen von Zahlenwerten zwischen Ganzzahl und Dezimalzahl ([toInteger](#toInteger), [toDecimal](#toDecimal))
+* Konvertieren von Werten in Zeichenfolgenformat ([toString](#toString)) oder Dauer ([toDuration](#toDuration))
+* Gewährleisten von Typenkompatibilität bei Vergleichen und Vorgängen
+* Verarbeiten von Daten aus externen Quellen, die unterschiedliche Typformate aufweisen können
 
 Jede Konvertierungsfunktion verarbeitet typspezifische Regeln und Randfälle automatisch, wodurch die Datenumwandlung in Ihren Journey-Ausdrücken zuverlässiger und vorhersehbarer wird.
 
@@ -132,7 +132,7 @@ Gibt ein dateOnly zurück.
 
 ## toDateTime {#toDateTime}
 
-Konvertiert Parameter je nach Typ in einen Datum/Uhrzeit-Wert.
+Konvertiert Parameter je nach Typ in einen Datum-/Uhrzeit-Wert.
 
 +++Syntax
 
@@ -185,7 +185,7 @@ Gibt 2023-06-17T09:03:10.189Z zurück.
 
 ## toDateTimeOnly {#toDateTimeOnly}
 
-Konvertiert einen Argumentwert in einen Datum/Uhrzeit-Wert ohne Zeitzone.
+Konvertiert einen Argumentwert in einen reinen Datum-/Uhrzeit-Wert.
 
 +++Syntax
 

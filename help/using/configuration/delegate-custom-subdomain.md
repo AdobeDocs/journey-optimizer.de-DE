@@ -11,8 +11,8 @@ keywords: Subdomain, Delegierung, Domain, DNS
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
-source-wordcount: '927'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

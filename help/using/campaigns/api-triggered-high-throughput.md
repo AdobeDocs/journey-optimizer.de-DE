@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -33,22 +33,22 @@ Auf dieser Seite werden der Unterschied zwischen Kampagnen mit hohem Durchsatz u
    * Die gesamte Personalisierung muss als **kontextuelle Daten** in der API-Payload enthalten sein. [Informationen zum Personalisieren von Inhalten mit kontextuellen Daten](../campaigns/api-triggered-campaign-content.md#contextual)
    * Profilbasierte Personalisierung wird nicht unterstützt. Wenn Profilvariablen verwendet werden, treten Validierungsfehler auf.
 
-* **Personalisierte Kanalkonfigurationen** - Kanalkonfigurationen, die eine [profilbasierte Personalisierung](../email/surface-personalization.md) verwenden, können nicht mit Kampagnen mit hohem Durchsatz verwendet werden. Es können nur Oberflächen ohne Profil-Personalisierung verwendet werden.
+* **Personalisierte Kanalkonfigurationen**: Kanalkonfigurationen, die eine [profilbasierte Personalisierung](../email/surface-personalization.md) verwenden, können nicht mit Kampagnen mit hohem Durchsatz verwendet werden. Es können nur Oberflächen ohne Profilpersonalisierung verwendet werden.
 
 * **API-Endpunkt**: Kampagnen mit hohem Durchsatz verwenden einen anderen Endpunkt als standardmäßige durch API ausgelöste Kampagnen. Weitere Informationen finden Sie unter [Ausführen einer durch API ausgelösten Kampagne](../campaigns/trigger-campaigns.md#trigger).
 
-* **Kampagnenexklusivität** - Kampagnen mit hohem Durchsatz verwenden keine Adobe-Profile. Nachrichten werden unabhängig davon versendet, ob ein Profil vorhanden ist oder nicht.
+* **Kampagnenexklusivität**: Kampagnen mit hohem Durchsatz verwenden keine Adobe-Profile. Nachrichten werden unabhängig davon versendet, ob ein Profil vorhanden ist oder nicht.
 
   Darüber hinaus kann eine Kampagne nicht sowohl für Anwendungsfälle mit aktiviertem Profil als auch für Anwendungsfälle ohne Profil verwendet werden. Wenn Sie beides benötigen, erstellen Sie zwei separate Kampagnen und stellen Sie sicher, dass das aufrufende System anhand des Kontexts entscheidet, welche Kampagne ausgelöst werden soll.
 
-* **Datensätze für Feedback und Tracking** - Feedback- und Tracking-Daten für Kampagnen mit hohem Durchsatz werden in dedizierten Datensätzen gespeichert, die nicht für Profile aktiviert sind. Daher werden diese Ereignisse nicht mit Profilen verknüpft, selbst wenn ein übereinstimmendes Profil vorhanden ist.
+* **Datensätze für Feedback und Tracking**: Feedback- und Tracking-Daten für Kampagnen mit hohem Durchsatz werden in entsprechenden Datensätzen gespeichert, die nicht für Profile aktiviert sind. Daher werden diese Ereignisse nicht mit Profilen verknüpft, selbst wenn ein passendes Profil vorhanden ist.
 
   Die verwendeten Datensätze sind:
 
-   * **AJO-Nachrichten-Feedback-Ereignisdatensatz - Ohne Profil**
-   * **AJO-E-Mail-Tracking-Erlebnisereignis-Datensatz - Ohne Profil**
+   * **Ereignisdatensatz zu AJO-Nachrichten-Feedback – Kein Profil**
+   * **Ereignisdatensatz zu Erfahrungen beim AJO-E-Mail-Tracking – Kein Profil**
 
-* **Durchsatzzuweisung** - Der Durchsatz, der im Add-on „Hoher Durchsatz“ bereitgestellt wird, ist ausschließlich für Kampagnen mit hohem Durchsatz reserviert. Es gibt keine Aufteilung des Durchsatzes zwischen API-ausgelösten Kampagnen mit standardmäßigem und hohem Durchsatz.
+* **Durchsatzzuordnung**: Der Durchsatz, der im Add-on „Hoher Durchsatz“ bereitgestellt wird, ist ausschließlich für Kampagnen mit hohem Durchsatz reserviert. Es gibt keine Aufteilung des Durchsatzes zwischen durch API ausgelösten Kampagnen mit standardmäßigem und hohem Durchsatz.
 
 ## Auswahl zwischen standardmäßigen Kampagnen und Kampagnen mit hohem Durchsatz
 
@@ -69,7 +69,7 @@ Verwenden Sie diese Tabelle, um zu entscheiden, welcher Typ einer durch API ausg
 Mit anderen Worten:
 
 * Gründe für die Auswahl von **standardmäßigen durch API ausgelösten** Kampagnen:
-   * Sie haben keinen vertraglich festgelegten hohen Durchsatz.
+   * Es ist vertraglich kein hoher Durchsatz festgelegt.
    * Ihre Anforderungen an den Durchsatz betragen &lt;500 TPS.
    * Sie benötigen Personalisierung basierend auf Adobe-Profilen.
    * Kampagnendaten sollen für zukünftiges Targeting Profilen zugeordnet werden.

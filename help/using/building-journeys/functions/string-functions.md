@@ -1,37 +1,37 @@
 ---
 product: journey optimizer
 title: Zeichenfolgenfunktionen
-description: Informationen zu Zeichenfolgenfunktionen
+description: Erfahren Sie mehr über Zeichenfolgefunktionen
 feature: Journeys
 role: Developer
 level: Experienced
 keywords: Zeichenfolge, Funktionen, Ausdruck, Journey, Text, Manipulation
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Zeichenfolgenfunktionen {#string-functions}
 
-Mit Zeichenfolgenfunktionen können Sie Textwerte in Ihren Journey-Ausdrücken bearbeiten und mit ihnen arbeiten. Diese Funktionen sind für die Textverarbeitung, Validierung, Umwandlung und Analyse in Ihren Kunden-Journey unerlässlich.
+Mit Zeichenfolgenfunktionen können Sie Textwerte in Ihren Journey-Ausdrücken bearbeiten und mit ihnen arbeiten. Diese Funktionen sind für die Textverarbeitung, Validierung, Umwandlung und Analyse in Ihren Customer Journeys unerlässlich.
 
-Verwenden Sie Zeichenfolgenfunktionen, wenn Sie Folgendes tun müssen:
+Verwenden Sie Zeichenfolgenfunktionen für Folgendes:
 
-* Verketten und Kombinieren mehrerer Textwerte ([concat](#concat))
-* Suchen nach bestimmten Textmustern oder Unterzeichenfolgen ([contain](#contain), [containIgnoreCase](#containIgnoreCase), [indexOf](#indexOf), [lastIndexOf](#lastIndexOf), [matchRegExp](#matchRegExp))
-* Vergleichen Sie Zeichenfolgen mit Übereinstimmungen, bei denen die Groß-/Kleinschreibung nicht beachtet wird ([equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase))
-* Zeichenfolge überprüfen, die beginnt und endet ([startWith](#startWith), [startWithIgnoreCase](#startWithIgnoreCase), [endWith](#endWith), [endWithIgnoreCase](#endWithIgnoreCase))
-* Extrahieren von Textteilen mithilfe von Teilzeichenfolgen-Vorgängen ([substr](#substr))
-* Text in Groß- oder Kleinbuchstaben umwandeln ([upper](#upper), [lower](#lower), [trim](#trim))
+* Verketten und Kombinieren mehrerer Textwerte ([contact](#concat))
+* Suchen nach bestimmten Textmustern oder Unterzeichenfolgen ([contain](#contain), [containIgnoreCase](#containIgnoreCase), [indexOf](#indexOf), [lastIndexOf](#lastIndexOf), [matchRegExp](#matchRegExp))
+* Vergleichen von Zeichenfolgen mit Übereinstimmungen, bei denen die Groß-/Kleinschreibung beachtet oder nicht beachtet wird ([equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase))
+* Überprüfen von Anfang und Ende von Zeichenfolgen ([startWith](#startWith), [startWithIgnoreCase](#startWithIgnoreCase), [endWith](#endWith), [endWithIgnoreCase](#endWithIgnoreCase))
+* Extrahieren von Textteilen mithilfe von Vorgängen in Unterzeichenfolgen ([substr](#substr))
+* Umwandeln von Text in Groß- oder Kleinbuchstaben ([upper](#upper), [lower](#lower), [trim](#trim))
 * Überprüfen, ob Zeichenfolgen leer sind oder bestimmte Werte enthalten ([isEmpty](#isEmpty), [isNotEmpty](#isNotEmpty))
-* Textmuster durch neue Werte ersetzen ([replace](#replace), [replaceAll](#replaceAll))
-* Zeichenfolgen zur weiteren Verarbeitung in Arrays aufteilen ([split](#split))
-* Zeichenfolgenlänge abrufen ([length](#length)) oder eindeutige Kennungen generieren ([uuid](#uuid))
+* Ersetzen von Textmustern durch neue Werte ([replace](#replace), [replaceAll](#replaceAll))
+* Aufspalten von Zeichenfolgen zur weiteren Verarbeitung in Arrays ([split](#split))
+* Abrufen der Zeichenfolgenlänge ([length](#length)) oder Generieren von eindeutige Kennungen ([uuid](#uuid))
 
-Zeichenfolgenfunktionen bieten umfangreiche Textmanipulationsfunktionen, die eine ausgefeilte Datenverarbeitung und eine bedingte Logik ermöglichen, die auf Textinhalten in Ihren Journey-Ausdrücken basiert.
+Zeichenfolgenfunktionen bieten umfangreiche Textbearbeitungsfunktionen, die eine ausgefeilte Datenverarbeitung und eine bedingte Logik ermöglichen, die auf Textinhalten in Ihren Journey-Ausdrücken basiert.
 
 ## concat {#concat}
 
@@ -249,7 +249,7 @@ Gibt „true“ zurück.
 
 ## indexOf {#indexOf}
 
-Gibt die Position (im ersten Argument) des ersten Auftretens des zweiten Parameters zurück. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
+Gibt die Position (im ersten Argument) des ersten Auftretens des zweiten Parameters zurück. Gibt „–1“ zurück, wenn keine Übereinstimmung vorliegt.
 
 +++Syntax
 
@@ -282,7 +282,7 @@ Gibt 2 zurück.
 
 Erklärung:
 
-Bei „Hallo“ befindet sich das erste Auftreten von „l“ an Position 2.
+In „Hello“ befindet sich das erste Auftreten von „l“ an Position 2.
 
 +++
 
@@ -360,7 +360,7 @@ Gibt „true“ zurück.
 
 ## lastIndexOf {#lastIndexOf}
 
-Gibt die Position (im ersten Argument) des letzten Auftretens des zweiten Parameters zurück. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
+Gibt die Position (im ersten Argument) des letzten Auftretens des zweiten Parameters zurück. Gibt „–1“ zurück, wenn keine Übereinstimmung vorliegt.
 
 +++Syntax
 
@@ -393,13 +393,13 @@ Gibt 3 zurück.
 
 Erklärung:
 
-In „Hallo“ befindet sich das letzte Vorkommen von „l“ an Position 3.
+In „Hello“ befindet sich das letzte Auftreten von „l“ an Position 3.
 
 +++
 
 ## length {#length}
 
-Gibt die Zahl der Zeichen des Zeichenfolgenausdrucks im Parameter zurück.
+Gibt die Anzahl der Zeichen des Zeichenfolgenausdrucks im Parameter zurück.
 
 +++Syntax
 
@@ -425,7 +425,7 @@ Gibt eine Ganzzahl zurück.
 
 `length("Hello World")`
 
-Gibt 11 zurück.
+Gibt „11“ zurück.
 
 +++
 
@@ -706,7 +706,7 @@ Gibt „false“ zurück.
 
 ## startWithIgnoreCase {#startWithIgnoreCase}
 
-Gibt „true“ zurück, wenn der zweite Parameter ein Präfix des ersten Parameters ist (ohne Berücksichtigung der Groß-/Kleinschreibung).
+Gibt „true“ zurück, wenn der zweite Parameter ein Präfix des ersten Parameters ist, ohne die Groß-/Kleinschreibung zu berücksichtigen.
 
 +++Syntax
 

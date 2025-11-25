@@ -8,24 +8,24 @@ level: Experienced
 keywords: Aggregation, Funktionen, Ausdruck, Journey, Durchschnitt, Anzahl, Max, Min, Summe
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Aggregationsfunktionen {#aggregation-functions}
 
-Aggregationsfunktionen führen Berechnungen für einen Wertesatz durch und geben ein einziges zusammengefasstes Ergebnis zurück. Mit diesen Funktionen können Sie Daten in Ihren Journey-Ausdrücken analysieren, indem Sie Durchschnittswerte berechnen, Mindest- und Höchstwerte ermitteln, Elemente zählen und numerische Werte summieren.
+Aggregationsfunktionen führen Berechnungen für einen Satz von Werten durch und geben ein einziges zusammengefasstes Ergebnis zurück. Mit diesen Funktionen können Sie Daten innerhalb Ihrer Journey-Ausdrücke analysieren, indem Sie Durchschnittswerte berechnen, Minimal- und Maximalwerte ermitteln, Elemente zählen und numerische Werte summieren.
 
 Verwenden Sie Aggregationsfunktionen, wenn Sie Folgendes tun müssen:
 
-* Statistische Werte aus Listen oder Arrays berechnen ([avg](#avg), [sum](#sum), [min](#min), [max](#max))
-* Zählen von Elementen in Sammlungen [count](#count), [countOnlyNull](#countOnlyNull), [countWithNull](#countWithNull)) mit Optionen zum Ein- oder Ausschließen von Nullwerten
-* Bestimmen eindeutiger Werte in Datensätzen ([distinctCount](#distinctCount), [distinctCountWithNull](#distinctCountWithNull))
-* Treffen von datengesteuerten Entscheidungen basierend auf berechneten Metriken
+* Berechnen von statistischen Werte aus Listen oder Arrays ([avg](#avg), [sum](#sum), [min](#min), [max](#max))
+* Zählen von Elementen in Sammlungen ([count](#count), [countOnlyNull](#countOnlyNull), [countWithNull](#countWithNull)), mit Optionen zum Ein- oder Ausschließen von Nullwerten
+* Bestimmen eindeutiger Werte innerhalb von Datensätzen ([distinctCount](#distinctCount), [distinctCountWithNull](#distinctCountWithNull))
+* Treffen von datengestützten Entscheidungen basierend auf berechneten Metriken
 
-Aggregationsfunktionen verarbeiten Nullwerte automatisch entsprechend ihrem spezifischen Verhalten, was die Arbeit mit realen Daten, die fehlende oder undefinierte Werte enthalten können, erleichtert.
+Aggregationsfunktionen verarbeiten Nullwerte automatisch entsprechend ihrem spezifischen Verhalten und erleichtern so die Arbeit mit realen Daten, die fehlende oder undefinierte Werte enthalten können.
 
 
 ## avg {#avg}
@@ -155,7 +155,7 @@ Gibt 1 zurück.
 
 +++
 
-**Hinweis:** Der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
+**Hinweis:** Beachten Sie, dass der Parameter `<listObject>` in dieser Funktion nicht unterstützt wird.
 
 ## countWithNull {#countWithNull}
 
@@ -191,7 +191,7 @@ Gibt 4 zurück.
 
 +++
 
-**Hinweis:** Der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
+**Hinweis:** Beachten Sie, dass der Parameter `<listObject>` in dieser Funktion nicht unterstützt wird.
 
 ## distinctCount {#distinctCount}
 
@@ -276,7 +276,7 @@ Gibt 3 zurück.
 
 +++
 
-**Hinweis:** Der Parameter `<listObject>` wird in dieser Funktion nicht unterstützt.
+**Hinweis:** Beachten Sie, dass der Parameter `<listObject>` in dieser Funktion nicht unterstützt wird.
 
 ## max {#max}
 

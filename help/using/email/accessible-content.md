@@ -10,15 +10,15 @@ level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1638'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Gestalten barrierefreier Inhalte {#accessible-content}
 
-Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} soll die Beseitigung von Hindernissen, die durch unterschiedliche nationale Vorschriften in den Mitgliedstaaten verursacht werden, den Binnenmarkt für barrierefreie Produkte und Dienstleistungen verbessern.
+Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32019L0882){target="_blank"} soll die Beseitigung von Hindernissen, die durch unterschiedliche nationale Vorschriften in den Mitgliedstaaten verursacht werden, den Binnenmarkt für barrierefreie Produkte und Dienstleistungen verbessern.
 
 Diese Richtlinie legt fest, dass alle digitalen Mitteilungen, einschließlich E-Mails, Newslettern, PDFs und herunterladbaren Inhalten, barrierefrei sein sollen. Beim Erstellen von Inhalten für Ihre Empfängerinnen und Empfänger müssen Sie daher bestimmte Leitlinien befolgen (z. B. barrierefreie Schriften und lesbare Formate verwenden und alternativen Text für Bilder bereitstellen).
 
@@ -144,7 +144,7 @@ Um konsistenter zu überprüfen, ob Ihre Inhalte zuverlässig barrierefrei sind,
 
 Der dunkle Modus optimiert die visuelle Barrierefreiheit für Benutzende mit Lichtempfindlichkeit oder Sehbehinderungen, um das Anwendererlebnis zu verbessern.
 
-Mit der E-Mail-Designer können Sie in den **[!UICONTROL Dunkelmodus“ wechseln]** bestimmte benutzerdefinierte Einstellungen definieren, die von den unterstützenden E-Mail-Clients angezeigt werden. [Weitere Informationen](dark-mode.md)
+Mit dem E-Mail-Designer können Sie in die Ansicht **[!UICONTROL Dunkler Modus]** wechseln und bestimmte benutzerdefinierte Einstellungen definieren, die von unterstützenden E-Mail-Clients angezeigt werden. [Weitere Informationen](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 

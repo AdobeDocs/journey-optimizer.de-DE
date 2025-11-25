@@ -10,9 +10,9 @@ level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -212,11 +212,11 @@ currentActionField.description == "abc"
 )
 ```
 
-### Verwenden benutzerdefinierter Aktionsantworten in nativen Kanälen {#response-in-channels}
+### Verwenden von Antworten benutzerdefinierter Aktionen in nativen Kanälen {#response-in-channels}
 
-Sie können verschachtelte Arrays aus einer benutzerdefinierten Aktionsantwort in nativen Kanälen (wie E-Mail, Push oder SMS) mithilfe der Handlebars-Syntax durchlaufen. Dies ist nützlich, wenn Sie Nachrichteninhalte mit dynamischen Daten aus externen Systemen personalisieren müssen.
+Sie können verschachtelte Arrays aus einer Antwort einer benutzerdefinierten Aktion in nativen Kanälen (wie E-Mail, Push oder SMS) mithilfe der Handlebars-Syntax iterieren. Dies ist nützlich, wenn Sie Nachrichteninhalte mit dynamischen Daten aus externen Systemen personalisieren müssen.
 
-Wenn Ihre benutzerdefinierte Aktion beispielsweise die folgende Antwort von einem externen System zurückgibt:
+Angenommen, Ihre benutzerdefinierte Aktion gibt die folgende Antwort von einem externen System zurück:
 
 ```json
 {    
@@ -229,7 +229,7 @@ Wenn Ihre benutzerdefinierte Aktion beispielsweise die folgende Antwort von eine
 }
 ```
 
-Sie können das `responses`-Array und die verschachtelten `productIDs`-Arrays in einem nativen Kanal (z. B. in einer E-Mail) wie folgt durchlaufen:
+Dann können Sie das `responses`-Array und die verschachtelten `productIDs`-Arrays in einem nativen Kanal (z. B. in einer E-Mail) wie folgt iterieren:
 
 ```handlebars
 {{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
@@ -243,7 +243,7 @@ Sie können das `responses`-Array und die verschachtelten `productIDs`-Arrays in
 
 Ersetzen Sie `<yourcustomaction>` durch den tatsächlichen Namen Ihrer benutzerdefinierten Aktion, wie in der Journey konfiguriert.
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
 Weitere Informationen finden Sie auf folgenden Seiten:
 

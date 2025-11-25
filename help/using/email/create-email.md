@@ -10,9 +10,9 @@ level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 >title="Konfigurieren von E-Mail-Inhalten"
 >abstract="Erstellen Sie den Inhalt Ihrer E-Mail. Definieren Sie den Betreff und verwenden Sie dann den E-Mail-Designer, um den Text der E-Mail zu erstellen und zu personalisieren."
 
-Nachdem Sie die E-Mail-Aktion zu Ihrem Journey oder Ihrer Kampagne hinzugefügt haben, müssen Sie den E-Mail-Inhalt einschließlich Betreffzeile, Absenderinformationen und E-Mail-Textkörper mithilfe der E-Mail-Designer definieren. Führen Sie folgende Schritte aus:
+Nachdem Sie die E-Mail-Aktion zu Ihrer Journey oder Kampagne hinzugefügt haben, müssen Sie den E-Mail-Inhalt einschließlich Betreffzeile, Absenderinformationen und E-Mail-Textkörper mit dem E-Mail-Designer definieren. Führen Sie folgende Schritte aus:
 
 1. Klicken Sie auf dem Konfigurationsbildschirm der Journey oder Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der E-Mail zu konfigurieren. [Weitere Informationen](get-started-email-design.md)
 
@@ -94,7 +94,7 @@ Nachdem Sie die E-Mail-Aktion zu Ihrem Journey oder Ihrer Kampagne hinzugefügt 
 
    >[!AVAILABILITY]
    >
-   >Derzeit ist die Erstellung von Entscheidungsrichtlinien in E-Mails nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+   >Derzeit ist die Erstellung von Entscheidungsrichtlinien in E-Mails nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
 1. Überprüfen Sie im Abschnitt **[!UICONTROL Header]** die Felder **[!UICONTROL Name der Absenderin bzw. des Absenders]**, **[!UICONTROL Von E-Mail]** und **[!UICONTROL BCC]**. Sie werden in der von Ihnen ausgewählten E-Mail-Konfiguration konfiguriert. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
 

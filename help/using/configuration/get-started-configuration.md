@@ -10,9 +10,9 @@ feature: Application Settings
 topic: Administration
 keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -76,9 +76,9 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
 
 ## Weitere Ressourcen
 
-* **[Kanaloberflächen konfigurieren](channel-surfaces.md)** - Erfahren Sie, wie Sie Kanaloberflächen für E-Mail, Push, SMS und andere Kanäle einrichten und verwalten.
-* **[Subdomain-Delegierung](delegate-subdomain.md)** - Erfahren Sie, wie Sie Subdomains zur E-Mail-Zustellbarkeit und für das Branding an Adobe delegieren.
-* **[IP-Aufwärmung](ip-warmup-gs.md)** - Entdecken Sie Best Practices für das Aufwärmen von IP-Adressen, um die E-Mail-Zustellbarkeit und die Reputation des Absenders zu verbessern.
-* **[Unterdrückungsliste verwalten](manage-suppression-list.md)** - Erfahren Sie, wie Sie Unterdrückungslisten verwalten, um Bounces zu behandeln und die Listenhygiene zu gewährleisten.
-* **[Mobile Apps konfigurieren](set-mobile-config.md)** - Richten Sie Mobile-App-Konfigurationen für Push-Benachrichtigungen und In-App-Nachrichten ein.
-* **[Konfigurations-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - Erkunden Sie Schritt-für-Schritt-Video-Tutorials zur Kanalkonfiguration und zu Best Practices.
+* **[Konfigurieren von Kanaloberflächen](channel-surfaces.md)**: Erfahren Sie, wie Sie Kanaloberflächen für E-Mail, Push, SMS und andere Kanäle einrichten und verwalten.
+* **[Subdomain-Delegierung](delegate-subdomain.md)**: Erfahren Sie, wie Sie Subdomains für E-Mail-Zustellbarkeit und Branding an Adobe delegieren.
+* **[IP-Aufwärmen](ip-warmup-gs.md)**: Entdecken Sie Best Practices für das Aufwärmen von IP-Adressen, um die E-Mail-Zustellbarkeit und den Ruf der absendenden Partei zu verbessern.
+* **[Verwalten der Unterdrückungsliste](manage-suppression-list.md)**: Erfahren Sie, wie Sie Unterdrückungslisten verwalten, um mit Bounces umzugehen und die Listenhygiene zu gewährleisten.
+* **[Konfigurieren von Apps](set-mobile-config.md)**: Richten Sie App-Konfigurationen für Push-Benachrichtigungen und In-App-Messaging ein.
+* **[Tutorials zu Konfigurationen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}**: Sehen Sie sich detaillierte Video-Tutorials zur Kanalkonfiguration und Best Practices an.

@@ -8,9 +8,9 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Um Briefpost-Nachrichten zu erstellen, erstellen Sie eine geplante Kampagne und 
 >
 >Direkt-Mail unterstützt zwar die Holdout-Funktion, derzeit jedoch keine Abwandlungen.
 
-Um eine Briefpostkampagne zu erstellen, richten Sie eine geplante Kampagne ein, wählen Sie Ihre Zielgruppe aus und konfigurieren Sie die Briefposteinstellungen einschließlich der Nachrichtenkonfiguration. Führen Sie folgende Schritte aus:
+Um eine Direkt-Mail-Kampagne zu erstellen, richten Sie eine geplante Kampagne ein, wählen Sie Ihre Zielgruppe aus und konfigurieren Sie die Direkt-Mail-Einstellungen, einschließlich der Nachrichtenkonfiguration. Führen Sie folgende Schritte aus:
 
 1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
 

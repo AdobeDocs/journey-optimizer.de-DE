@@ -10,9 +10,9 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2085'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Mithilfe von Inhaltsexperimenten können Sie Inhalte für die Aktionen in Ihren 
 
 Bei Experimenten handelt es sich um eine Reihe von randomisierten Prüfungen, was im Rahmen von Online-Tests bedeutet, dass einige zufällig ausgewählte Benutzende eine bestimmten Variante einer Nachricht erhalten und eine andere zufällig ausgewählte Gruppe von Benutzenden eine andere Abwandlung erfährt. Nach dem Versand der Nachricht können Sie dann die Ergebnismetriken messen, die Sie interessieren, z. B. Öffnungen von E-Mails oder Klicks.
 
-➡️In [diesem Abschnitt](../experience-decisioning/experience-decisioning-uc.md) wird vollständig ein Anwendungsfall vorgestellt, der zeigt, wie Inhaltsexperimente verwendet werden können, um Entscheidungen mit dem Code-basierten Erlebniskanal zu vergleichen.
+➡️In [diesem Abschnitt](../experience-decisioning/experience-decisioning-uc.md) wird ein End-to-End-Anwendungsfall vorgestellt, der zeigt, wie Inhaltsexperimente verwendet werden können, um Entscheidungen mit dem Code-basierten Erlebniskanal zu vergleichen.
 
 ## Warum sollten Experimente durchgeführt werden?
 
@@ -82,20 +82,20 @@ Formulieren Sie einige Hypothesen, die Sie testen möchten, und beschränken Sie
 Eine gute Hypothese kann beispielsweise sein, ob Personalisierung in E-Mail-Betreffzeilen zu besseren Öffnungsraten führt. Wenn Sie zusätzlich jedoch Änderungen am Nachrichteninhalt vornehmen oder Bilder hinzufügen, kann dies zu einer verwirrenden Schlussfolgerung führen.
 +++
 
-+++Stellen Sie sicher, dass Sie die richtige Metrik verwenden
++++Stellen Sie sicher, dass die richtige Metrik verwendet wird
 
 Bestimmen Sie die Metrik, die Sie ins Visier nehmen möchten, und stellen Sie auch fest, ob die von Ihnen vorgenommenen Änderungen direkte Auswirkungen auf diese Metrik haben können.
 
 So ist es beispielsweise unwahrscheinlich, dass sich eine Änderung des Nachrichteninhalts auf die Öffnungsraten der E-Mail auswirkt.
 +++
 
-+++Führen Sie Ihren Test mit der richtigen Zielgruppengröße oder lange genug aus.
++++Führen Sie Ihren Test mit der richtige Zielgruppengröße oder lange genug aus
 
 Je länger Sie Ihre Tests durchführen, desto geringere Unterschiede zwischen den Abwandlungen können Sie in der Zielmetrik erkennen. Wenn der Baseline-Wert Ihrer Zielmetrik jedoch klein ist, benötigen Sie umfangreichere Stichprobengrößen.
 Wie viele Benutzende Sie in Ihr Experiment einbeziehen müssen, hängt von der zu erkennenden Effektgröße, der Varianz oder Verbreitung Ihrer Zielmetrik sowie von Ihrer Toleranz für falsch-positive und falsch-negative Fehler ab. In klassischen Experimenten können Sie einen [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){_blank} nutzen, um zu bestimmen, wie lange Sie Ihren Test ausführen müssen.
 +++ 
 
-+++Verstehen der statistischen Unsicherheit
++++Verstehen Sie statistische Unsicherheiten
 
 Nehmen wir an, Sie haben ein Experiment durchgeführt, bei dem 1000 Benutzende eine Abwandlung gesehen haben, und die Konversionsrate liegt bei 5 %. Wäre dies die tatsächliche Konversionsrate, wenn alle Ihre Benutzenden einbezogen würden? Was wäre die tatsächliche Konversionsrate?
 Statistische Methoden geben uns eine Möglichkeit, diese Unsicherheit zu formalisieren. Eines der wichtigsten Konzepte, das Sie bei der Durchführung von Online-Experimenten verstehen müssen, ist, dass die beobachteten Konversionsraten mit einem Bereich zugrunde liegender realer Konversionsraten konsistent sind. Das bedeutet, dass Sie warten müssen, bis diese Schätzungen präzise genug sind, bevor Sie versuchen, eine Schlussfolgerung zu ziehen. Konfidenzintervalle und Konfidenz helfen uns, diese Unsicherheit zu quantifizieren.
@@ -103,7 +103,7 @@ Statistische Methoden geben uns eine Möglichkeit, diese Unsicherheit zu formali
 
 +++Formulieren Sie neue Hypothesen und testen Sie sie kontinuierlich
 
-Um echte geschäftliche Einblicke zu gewinnen, sollten Sie an nur einem Experiment festhalten. Allerdings sollten Sie im Anschluss an diese Experimente neue Hypothesen formulieren, neue Tests mit unterschiedlichen Änderungen für verschiedene Zielsegmente durchführen und die Auswirkungen auf die verschiedenen Metriken untersuchen.
+Um echte geschäftliche Erkenntnisse zu gewinnen, sollten Sie an nur einem Experiment festhalten. Allerdings sollten Sie im Anschluss an diese Experimente neue Hypothesen formulieren, neue Tests mit unterschiedlichen Änderungen für verschiedene Zielsegmente durchführen und die Auswirkungen auf die verschiedenen Metriken untersuchen.
 +++
 
 ## Interpretieren der Ergebnisse Ihrer Experimente {#interpret-results}
@@ -184,9 +184,9 @@ Nach der Durchführung eines Experiments gibt es mehrere mögliche Folgemaßnahm
 
 ## Weitere Ressourcen
 
-* **[Inhaltsexperimente erstellen](content-experiment.md)** Erfahren Sie, wie Sie A/B-Tests entwerfen und konfigurieren, um die Leistung Ihrer Nachricht zu optimieren.
-* **[Experimentberechnungen](experiment-calculations.md)** - Verstehen Sie die statistischen Methoden und Metriken, die in der Experimentationsanalyse verwendet werden.
-* **[Mehrarmiger Bandit vs. A/B-Tests](mab-vs-ab.md)** - Vergleichen Sie verschiedene Experimentieransätze und den Zeitpunkt der Verwendung der einzelnen Methoden.
-* **[Experimentbeschleuniger](experiment-accelerator-gs.md)** - Entdecken Sie, wie Sie das Experimentieren mit KI-gestützter Optimierung beschleunigen können.
-* **[Berechnungen des Experimentberichts](experiment-report-calculations.md)** - Erfahren Sie, wie Sie Experimentergebnisse und statistische Signifikanz interpretieren.
-* **[Experimentier-](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}**: Sehen Sie sich Schritt-für-Schritt-Video-Tutorials zu Inhaltsexperimenten und Best Practices an.
+* **[Erstellen von Inhaltsexperimenten](content-experiment.md)**: Erfahren Sie, wie Sie A/B-Tests entwerfen und konfigurieren, um die Leistung Ihrer Nachricht zu optimieren.
+* **[Experimentberechnungen](experiment-calculations.md)**: Verstehen Sie die statistischen Methoden und Metriken, die in der Experimentanalyse verwendet werden.
+* **[Multi-Armed-Bandit vs. A/B-Tests](mab-vs-ab.md)**: Vergleichen Sie verschiedene Experimentieransätze und den Zeitpunkt der Verwendung der einzelnen Methoden.
+* **[Experimentbeschleuniger](experiment-accelerator-gs.md)**: Entdecken Sie, wie Sie das Experimentieren mit KI-gestützter Optimierung beschleunigen können.
+* **[Berechnungen im Experimentbericht](experiment-report-calculations.md)**: Erfahren Sie, wie Sie Experimentergebnisse und statistische Signifikanz interpretieren.
+* **[Tutorials zu Experimenten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}**: Sehen Sie sich detaillierte Video-Tutorials zu Inhaltsexperimenten und Best Practices an.

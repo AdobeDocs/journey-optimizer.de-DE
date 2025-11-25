@@ -7,9 +7,9 @@ level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '981'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 
   >[!NOTE]
   >
-  >Die Verwendung von `context.datastream` wird derzeit nur für Web-Kanal-Kampagnen in Journey Optimizer unterstützt. Der Versuch, `context.datastream` in-App-Nachrichten zu verwenden, führt zu Validierungsfehlern wie `Invalid syntax Missing schema field: 'datastream`.
+  >Die Verwendung von `context.datastream`-Attributen wird in Journey Optimizer derzeit nur für Web-Kanal-Kampagnen unterstützt. Der Versuch, `context.datastream` in In-App-Nachrichten zu verwenden, führt zu Validierungsfehlern wie `Invalid syntax Missing schema field: 'datastream`.
 
   ![](assets/inapp_config_6.png)
 
