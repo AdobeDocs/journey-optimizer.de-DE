@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: be0a240f73e884fd91798952167e81689aa2ae2f
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '2134'
-ht-degree: 100%
+source-wordcount: '2162'
+ht-degree: 95%
 
 ---
 
@@ -132,7 +132,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr> 
   <tr> 
    <td> Sendeausschlüsse<br/> </td> 
-   <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
+   <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden. <a href="exclusion-list.md">Erfahren Sie mehr darüber, wie Ausschlüsse gezählt werden</a>.<br/> </td> 
   </tr>
   <tr> 
    <td> Name der Platzierung<br/> </td> 
@@ -193,7 +193,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr>
   <tr> 
    <td> Eindeutige Sendeausschlüsse<br/> </td> 
-   <td>Anzahl der eindeutigen Profile, die aufgrund von Eignungsregeln, Zielgruppensegmentierung oder Profilstatus vom Nachrichtenempfang ausgeschlossen sind.<br/> </td> 
+   <td>Anzahl der eindeutigen Profile, die aufgrund von Eignungsregeln, Zielgruppensegmentierung oder Profilstatus vom Empfang von Nachrichten ausgeschlossen sind. <a href="exclusion-list.md">Erfahren Sie mehr darüber, wie Ausschlüsse gezählt werden</a>.<br/> </td> 
   </tr>
   <tr> 
    <td>Eindeutige Zielgruppe<br/> </td> 
@@ -234,7 +234,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
     </tr>
     <tr> 
       <td>Ausgehende SMS-Ausschlüsse</td> 
-      <td>Anzahl der Profile, die vom Empfang von SMS-Nachrichten durch Adobe Journey Optimizer ausgeschlossen wurden.</td> 
+      <td>Anzahl der Profile, die vom Empfang von SMS-Nachrichten durch Adobe Journey Optimizer ausgeschlossen wurden. <a href="exclusion-list.md">Erfahren Sie mehr darüber, wie Ausschlüsse gezählt werden</a>.</td> 
     </tr>
     <tr> 
       <td>Einzelklicks</td> 
@@ -548,7 +548,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
 <tr> 
    <td>Ausgehende Ausschlüsse<br/> </td> 
-   <td>Anzahl der Profile, die aufgrund vordefinierter Kriterien oder Filterung durch Adobe Journey Optimizer vom Direkt-Mail-Empfang ausgeschlossen wurden.<br/> </td> 
+   <td>Anzahl der Profile, die aufgrund vordefinierter Kriterien oder Filterung durch Adobe Journey Optimizer vom Empfang von Briefpost ausgeschlossen sind. <a href="exclusion-list.md">Erfahren Sie mehr darüber, wie Ausschlüsse gezählt werden</a>.<br/> </td> 
 </tr>
 <tr> 
    <td>Profile<br/> </td> 

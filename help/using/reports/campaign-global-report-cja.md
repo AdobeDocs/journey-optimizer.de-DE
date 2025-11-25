@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ Beachten Sie, dass die Metriken je nach den Kanälen variieren, die in Ihrer Kam
 
 * **[!UICONTROL Ausgehende Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
-* **[!UICONTROL Ausgehende Ausschlüsse]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
+* **[!UICONTROL Ausschlüsse für]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden. [Erfahren Sie mehr darüber, wie Ausschlüsse gezählt werden](exclusion-list.md#exclusion-list).
 
 * **[!UICONTROL Anzeigen]**: Anzahl der Öffnungen der Nachricht.
 

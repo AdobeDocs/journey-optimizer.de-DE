@@ -7,10 +7,10 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2748'
-ht-degree: 100%
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+workflow-type: tm+mt
+source-wordcount: '2862'
+ht-degree: 96%
 
 ---
 
@@ -201,7 +201,7 @@ Die Diskrepanz kann auftreten, wenn die Journey den Profil-Snapshot eines vorher
 
 In [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} erfahren Sie, wie Sie das Problem beheben können.
 
-Weitere Informationen finden Sie in [diesem Beitrag in der Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=de){target="_blank"}.
+Weitere Informationen finden Sie in [diesem Beitrag in der Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
 Konsultieren Sie außerdem die [Dokumentation zur API für Adobe Experience Platform-Zeitpläne](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/api/schedules){target="_blank"}, um zu überprüfen, wann Ihr täglicher Auftrag geplant ist.
 
@@ -239,6 +239,18 @@ E-Mails werden ggf. an Empfängerinnen und Empfänger gesendet **, die die angeg
 In [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26173){target="_blank"} erfahren Sie, wie Sie das Problem beheben können.
 
 Weitere Informationen zu Datumsfunktionen finden Sie auf [dieser Seite](../building-journeys/functions/date-functions.md).
+
++++
+
++++ Warum übersteigen die Zustellungs- und Ausschlusswerte meine Zielgruppengröße in den Kampagnenberichten?
+
+In Kampagnenberichten kann es vorkommen, dass die Summe aus **Zugestellt** und **Ausschlüssen** die ursprüngliche Zielgruppengröße überschreitet. Dies geschieht, weil **Metrik** Ausschlüsse“ alle Ausschlussereignisse zählt, einschließlich doppelter Ausschlussereignisse für dasselbe Profil. Wenn ein Profil während einer Kampagne mehrmals ausgeschlossen wird, wird jedes Ereignis separat gezählt.
+
+**Beispiel**: Eine auf 94.000 Profile abzielende Kampagne zeigt 69.000 zugestellte und 37.000 Ausschlüsse, insgesamt 106.000. Dies übersteigt die ursprünglichen 94.000 Zielprofile. Dies ist das erwartete Verhalten.
+
+Informationen zum Unterschied zwischen Ausschlussereignissen insgesamt und eindeutigen Profilausschlüssen finden Sie unter [Erklärung zur Ausschlusszählung](../reports/exclusion-list.md#exclusion-list).
+
+Erfahren Sie mehr über [Kampagnenberichte](../reports/campaign-global-report-cja.md) und [Berichtsmetriken](../reports/global-report-components-cja.md).
 
 +++
 

@@ -2,20 +2,41 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Ausschlussliste
-description: Weitere Informationen zu Ausschlüssen beim Versand
+description: Erfahren Sie mehr über Ausschlüsse, die beim Versand auftreten
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 100%
+source-wordcount: '830'
+ht-degree: 83%
 
 ---
 
 # Ausschlussgründe {#exclusion-list}
+
+## Wie Ausschlüsse in Kampagnenberichten gezählt werden
+
+Beachten Sie bei der Anzeige von Kampagnenberichten, dass *Metrik* Ausschlüsse“ wie folgt berechnet wird:
+
+**Ausschlüsse = eindeutige Ausschlüsse + doppelte Ausschlussereignisse**
+
+Wenn also ein Profil mehrmals ausgeschlossen wird (z. B. aufgrund mehrerer Ausschlussereignisse für dasselbe Profil), wird jedes Ereignis in der Gesamtzahl der Ausschlüsse gezählt. Daher kann die Summe aus *Zugestellt* und *Ausschlüssen* die ursprüngliche Zielgruppengröße überschreiten. Dieses Verhalten ist zu erwarten und spiegelt die Art und Weise wider, wie Ausschlussereignisse im System verfolgt werden.
+
+**Beispiel:**
+
+- Zielgruppe: 94.000 Profile
+- Veröffentlicht: 69.000
+- Ausschlüsse: 37.000 (einschließlich doppelter Ausschlussereignisse)
+- Insgesamt (geliefert + Ausschlüsse): 106.000
+
+Die Gesamtzahl überschreitet die Zielgruppe, da doppelte Ausschlussereignisse in der Anzahl der Ausschlüsse enthalten sind.
+
+Weitere Informationen zu den spezifischen Ausschlussgründen finden Sie in der folgenden Tabelle.
+
+## Liste der Ausschlussgründe
 
 | Ausschlussgrund | Fehler-Code | Kanal | Erklärung |
 |-|-|-|-|
