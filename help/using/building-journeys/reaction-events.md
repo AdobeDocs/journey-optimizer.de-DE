@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: d8fa1c7055e4e31e393e36ba16863e0f8f95ca9b
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 48%
+ht-degree: 50%
 
 ---
 
@@ -48,7 +48,7 @@ Führen Sie die folgenden Schritte aus, um die Reaktionsereignisse zu konfigurie
 
 ## Leitlinien und Einschränkungen {#guardrails-limitations}
 
-* Eine **[!UICONTROL Reaktion]**-Aktivität muss **unmittelbar** nach einer [Kanalaktionsaktivität) auf &#x200B;](journeys-message.md) Journey-Arbeitsfläche platziert werden.
+* Eine **[!UICONTROL Reaktion]**-Aktivität muss **unmittelbar** nach einer [Kanalaktionsaktivität) auf ](journeys-message.md) Journey-Arbeitsfläche platziert werden.
 * Eine Aktivität vom Typ **[!UICONTROL Reaktion]** kann nur verwendet werden, wenn zuvor eine Kanalaktionsaktivität stattgefunden hat.
 * Das Platzieren einer **[!UICONTROL Warten]**-Aktivität oder einer anderen Aktivität zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität wird nicht unterstützt und kann dazu führen, dass die Reaktion nicht wie erwartet funktioniert.
 * Reaktionsereignisse können nur Nachrichten verfolgen, die innerhalb derselben Journey gesendet werden. Nachrichten, die auf einer anderen Journey stattfinden, können nicht verfolgt werden.

@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 71%
+ht-degree: 73%
 
 ---
 
@@ -29,7 +29,7 @@ Nach der Veröffentlichung Ihrer Journey stellt **Live-Reporting** Metriken aus 
 
 Die angezeigten Ereignisse sind innerhalb der letzten 24 Stunden eingetreten, wobei zwischen dem Ereignis und seiner Anzeige mindestens zwei Minuten liegen, in der Regel aber fünf Minuten.
 
-![Dashboard des Live-Berichts-Journey mit Echtzeit-Leistungsmetriken](assets/journey_live_report.png)
+![Dashboard des Journey-Live-Berichts mit Echtzeit-Leistungsmetriken](assets/journey_live_report.png)
 
 Für Journeys im Live- oder [Probelauf-Modus](journey-dry-run.md) können Sie Folgendes überprüfen:
 

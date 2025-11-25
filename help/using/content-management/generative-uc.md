@@ -11,7 +11,7 @@ exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 
 ## Verfeinern der Variante {#refine}
 
-![Animierte Demonstration der Verfeinerung von KI-generierten Inhaltsvarianten mithilfe der Optionen „Umformulieren“ und „Zusammenfassen“](assets/do-not-localize/gen-ai-variation.gif)
+![Animierte Demonstration, in der KI-generierte Inhaltsvarianten mithilfe der Optionen „Neu formulieren“ und „Zusammenfassen“ verfeinert werden](assets/do-not-localize/gen-ai-variation.gif)
 
 1. Sobald Ihre Kampagne eingerichtet und konfiguriert ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -71,7 +71,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 
 ## Generieren eines ähnlichen Bilds
 
-![Animierte Demonstration zum Erzeugen ähnlicher Bildvarianten basierend auf einem ausgewählten KI-generierten Bild](assets/do-not-localize/uc-image-similar.gif)
+![Animierte Demonstration, in der basierend auf einem ausgewählten KI-generierten Bild ähnliche Bildvarianten generiert werden](assets/do-not-localize/uc-image-similar.gif)
 
 1. Wählen Sie nach der Einrichtung Ihrer Kampagne **[!UICONTROL Inhalt bearbeiten]** aus.
 
@@ -91,7 +91,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 
 ## Hochladen einer Stilreferenz
 
-![Animierte Demonstration zum Hochladen eines Referenzbilds als Anleitung für die Bildgenerierung mit dem KI-Assistenten](assets/do-not-localize/uc-image-reference.gif)
+![Animierte Demonstration, in der ein Referenzbild hochgeladen wird, das als Stil für die Bildgenerierung mit dem KI-Assistenten dienen soll](assets/do-not-localize/uc-image-reference.gif)
 
 1. Nachdem Sie Ihre E-Mail-Kampagne eingerichtet und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -115,7 +115,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie die E-Mail
 
 ## Generieren von Inhalten in unterstützten Sprachen{#languages}
 
-![Animierte Demonstration des KI-Assistenten, der Inhalte in mehreren Sprachen generiert, einschließlich Französisch, Spanisch und Deutsch](assets/do-not-localize/gen-ai-language.gif)
+![Animierte Demonstration des KI-Assistenten, bei der Inhalte in verschiedenen Sprachen generiert werden (einschließlich Französisch, Spanisch und Deutsch)](assets/do-not-localize/gen-ai-language.gif)
 
 1. Sobald Ihre Kampagne eingerichtet und konfiguriert ist, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**.
 

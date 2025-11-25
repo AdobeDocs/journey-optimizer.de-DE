@@ -13,13 +13,13 @@ version: Journey Orchestration
 source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 53%
+ht-degree: 87%
 
 ---
 
 # Fehlerbehebung bei der Live-Journey-Ausführung {#troubleshooting-execution}
 
-In diesem Abschnitt erfahren Sie, wie Sie Probleme beim Journey von Ereignissen beheben, prüfen, ob Profile auf Ihre Journey gelangt sind, wie sie darin navigieren und ob Nachrichten gesendet werden.
+In diesem Abschnitt erfahren Sie, wie Sie Fehler bei Journey-Ereignissen beheben und wie Sie prüfen, ob Profile in Ihre Journey eingetreten sind, wie sie diese durchlaufen und ob Nachrichten gesendet werden.
 
 Sie können auch Fehler beheben, bevor Sie eine Journey testen oder veröffentlichen. [Auf dieser Seite](troubleshooting.md) erfahren Sie mehr dazu.
 
@@ -79,46 +79,46 @@ Wenn Personen die Journey zwar richtig durchlaufen, aber nicht die vorgesehenen 
 
 Bei einer Nachricht, die über eine benutzerdefinierte Aktion gesendet wird, kann während des Journey-Tests nur geprüft werden, ob der Systemaufruf der benutzerdefinierten Aktion zu einem Fehler führt oder nicht.  Wenn der Aufruf an das externe System, das mit der benutzerdefinierten Aktion verknüpft ist, nicht zu einem Fehler führt, aber auch nicht zum Senden der Nachricht, sollten Sie das externe System überprüfen.
 
-## Doppelte Einträge in Journey-Schrittereignissen {#duplicate-step-events}
+## Informationen zu doppelten Einträgen in Journey-Schrittereignissen {#duplicate-step-events}
 
-### Warum sehe ich mehrere Einträge mit derselben Journey-Instanz, demselben Profil, demselben Knoten und derselben Anfrage-IDs?
+### Warum sehe ich mehrere Einträge mit derselben Journey-Instanz, demselben Profil, demselben Knoten und denselben Anfrage-IDs?
 
-Bei der Abfrage von Journey-Schritt-Ereignisdaten können Sie gelegentlich feststellen, was doppelte Protokolleinträge für dieselbe Journey-Ausführung zu sein scheinen. Diese Einträge haben identische Werte für:
+Beim Abfragen von Daten zu Journey-Schrittereignissen werden Ihnen gelegentlich anscheinend doppelte Protokolleinträge für dieselbe Journey-Ausführung auffallen. Diese Einträge haben identische Werte bei:
 
-* `profileID` - Die Profilidentität
-* `instanceID` - Die Journey-Instanzkennung
-* `nodeID` - Der spezifische Journey-Knoten
-* `requestID` - Die Anforderungskennung
+* `profileID` – der Profilidentität
+* `instanceID` – der Journey-Instanzkennung
+* `nodeID` – dem spezifischen Journey-Knoten
+* `requestID` – der Anfragekennung
 
-Diese Einträge haben jedoch **unterschiedliche `_id`-Werte** was der Schlüsselindikator ist, der dieses Szenario von der tatsächlichen Datenduplizierung unterscheidet.
+Diese Einträge weisen jedoch **unterschiedliche `_id`-Werte** auf, was der Schlüsselindikator ist, der dieses Szenario von tatsächlicher Datenduplizierung unterscheidet.
 
 ### Was verursacht dieses Verhalten?
 
-Dies geschieht aufgrund von Backend-Skalierungsvorgängen (auch als „Rebalancing“ bezeichnet) in der Microservices-Architektur von Adobe Journey Optimizer. In Zeiten hoher Auslastung oder Systemoptimierung:
+Die Ursache sind automatische Backend-Skalierungsvorgänge (auch als „Rebalancing“ bezeichnet) in der Microservices-Architektur von Adobe Journey Optimizer. In Zeiten von hoher Auslastung oder Systemoptimierung gilt Folgendes:
 
-1. Ein Journey-Schrittereignis beginnt mit der Verarbeitung und wird im Journey-Schritt-Ereignisdatensatz protokolliert.
-2. Durch einen Vorgang mit automatischer Skalierung wird die Arbeitslast auf die Dienstinstanzen verteilt
-3. Dasselbe Ereignis kann von einer anderen Service-Instanz erneut verarbeitet werden, wodurch ein zweiter Protokolleintrag mit einem anderen `_id` erstellt wird
+1. Ein Journey-Schrittereignis beginnt mit der Verarbeitung und wird im Datensatz für Journey-Schrittereignisse protokolliert
+2. Durch einen automatischen Skalierungsvorgang wird die Workload auf verschiedene Dienstinstanzen verteilt
+3. Dasselbe Ereignis kann von einer anderen Dienstinstanz erneut verarbeitet werden, wodurch ein zweiter Protokolleintrag mit einer anderen `_id` erstellt wird
 
-Dies ist ein erwartetes Systemverhalten und funktioniert **wie vorgesehen**.
+Dies ist ein erwartetes Systemverhalten und **funktioniert wie vorgesehen**.
 
-### Hat dies Auswirkungen auf die Ausführung von Journey oder den Nachrichtenversand?
+### Hat dies Auswirkungen auf die Ausführung von Journeys oder den Nachrichtenversand?
 
-**Nein.** Die Auswirkungen sind auf die Protokollierung beschränkt. Adobe Journey Optimizer verfügt über integrierte Deduplizierungsmechanismen auf der Nachrichtenausführungsebene, die Folgendes sicherstellen:
+**Nein.** Die Auswirkungen sind auf die Protokollierung beschränkt. Adobe Journey Optimizer verfügt auf der Nachrichtenausführungsebene über integrierte Deduplizierungsmechanismen, die Folgendes sicherstellen:
 
 * An jedes Profil wird nur eine Nachricht (E-Mail, SMS, Push-Benachrichtigung usw.) gesendet
 * Aktionen werden nur einmal ausgeführt
 * Journey-Ausführung läuft korrekt ab
 
-Sie können dies überprüfen, indem Sie die `ajo_message_feedback_event_dataset` abfragen oder die Ausführungsprotokolle der Aktion überprüfen. Sie sehen, dass trotz der doppelten Journey-Schritt-Ereigniseinträge nur eine Nachricht tatsächlich gesendet wurde.
+Sie können dies prüfen, indem Sie den `ajo_message_feedback_event_dataset` abfragen oder die Aktionsausführungsprotokolle konsultieren. Sie werden sehen, dass trotz der doppelten Journey-Schrittereigniseinträge tatsächlich nur eine Nachricht gesendet wurde.
 
-### Wie kann ich diese Fälle in meinen Abfragen identifizieren?
+### Wie kann ich diese Fälle in meinen Abfragen erkennen?
 
-Beim Analysieren von Journey-Schritt-Ereignisdaten:
+Gehen Sie beim Analysieren von Daten zu Journey-Schrittereignissen wie folgt vor:
 
-1. **Überprüfen Sie das Feld `_id`**: True-Duplikate auf Systemebene hätten denselben `_id`. Unterschiedliche `_id` weisen auf separate Protokolleinträge aus dem oben beschriebenen Neuausrichtungsszenario hin.
+1. **Prüfen Sie das `_id`-Feld**: Echte Duplikate auf Systemebene würden denselben Wert für `_id` aufweisen. Unterschiedliche Werte für `_id` weisen auf separate Protokolleinträge aus dem oben beschriebenen Rebalancing-Szenario hin.
 
-2. **Nachrichtenversand überprüfen**: Querverweis mit den Feedback-Daten der Nachricht, um zu bestätigen, dass nur eine Nachricht gesendet wurde:
+2. **Prüfen Sie den Nachrichtenversand**: Sehen Sie sich auch die Daten zum Nachrichten-Feedback an, um sich zu vergewissern, dass nur eine Nachricht gesendet wurde:
 
    ```sql
    SELECT
@@ -132,7 +132,7 @@ Beim Analysieren von Journey-Schritt-Ereignisdaten:
    ORDER BY timestamp DESC;
    ```
 
-3. **Nach eindeutigen Kennungen gruppieren**: Beim Zählen von Ausführungen `_id` verwenden, um genaue Zählungen zu erhalten:
+3. **Gruppieren Sie nach eindeutigen Kennungen**: Verwenden Sie beim Zählen von Ausführungen `_id`, um genaue Zahlen zu erhalten:
 
    ```sql
    SELECT
@@ -143,15 +143,15 @@ Beim Analysieren von Journey-Schritt-Ereignisdaten:
      AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID>'
    ```
 
-### Was sollte ich tun, wenn ich dies feststelle?
+### Was sollte ich tun, wenn mir das auffällt?
 
-Dies ist ein normales Systemverhalten und **keine Aktion erforderlich**. Die Duplikatprotokollierung weist nicht auf ein Problem mit Ihrer Journey-Konfiguration oder dem Nachrichtenversand hin.
+Dies ist ein normales Systemverhalten. Es ist **keine Aktion erforderlich**. Die Duplikatprotokollierung weist nicht auf ein Problem mit Ihrer Journey-Konfiguration oder dem Nachrichtenversand hin.
 
 Wenn Sie Berichte oder Analysen auf der Grundlage von Journey-Schrittereignissen erstellen:
 
-* `_id` als Primärschlüssel für die Zählung eindeutiger Ereignisse verwenden
-* Querverweis mit Nachrichten-Feedback-Datensätzen bei der Analyse des Nachrichtenversands
-* Beachten Sie, dass die Zeitanalyse Einträge innerhalb weniger Sekunden gruppiert anzeigen kann
+* Verwenden Sie `_id` als Primärschlüssel für die Zählung eindeutiger Ereignisse
+* Sehen Sie sich bei der Analyse des Nachrichtenversands auch Datensätze mit Nachrichten-Feedback an
+* Beachten Sie, dass die Zeitplanungsanalyse Einträge innerhalb weniger Sekunden gruppiert anzeigen kann
 
 Weitere Informationen zum Abfragen von Journey-Schrittereignissen finden Sie unter [Beispiele für Abfragen](../reports/query-examples.md).
 

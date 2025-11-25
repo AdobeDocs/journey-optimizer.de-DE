@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bacfe2e04898e8417308e3f1c889214547e3ea02
 workflow-type: tm+mt
 source-wordcount: '3372'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -23,7 +23,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Es ist jetzt ein umfassendes Inhaltsanweisungshandbuch für den KI-Assistenten verfügbar. In diesem Handbuch erfahren Sie, wie Sie effektive Eingabeaufforderungen erstellen, um hochkonvertierende, markenorientierte Marketing-Inhalte zu erstellen. Lernen Sie Best Practices für die Erstellung von Marketing-Zielen, die Verwendung von Marken-Assets und die Optimierung von Inhalten für verschiedene Kanäle kennen. [Weitere Informationen](../content-management/ai-assistant-prompting-guide.md)
 
-* Es wurde ein Hinweis zur Dokumentation zur Segmentdefinition hinzugefügt, um klarzustellen, dass das `frequencyMap`-Attribut nicht für die Verwendung in Segmentdefinitionen unterstützt wird und nicht als Teil von Kriterien für die Zielgruppensegmentierung verwendet werden kann. Für das frequenzbasierte Targeting sollten Sie die Verwendung von Frequenzlimitierungsregeln unter Geschäftsregeln in Erwägung ziehen. [Weitere Informationen](../audience/creating-a-segment-definition.md)
+* Der Dokumentation zum Definieren von Segmenten wurde ein Hinweis hinzugefügt, um klarzustellen, dass das Attribut `frequencyMap` bei der Verwendung in Segmentdefinitionen nicht unterstützt wird und nicht als Teil von Kriterien für die Zielgruppensegmentierung verwendet werden kann. Bei Targeting anhand von Häufigkeit sollten Sie den Einsatz von Frequenzbegrenzungsregeln unter Geschäftsregeln in Erwägung ziehen. [Weitere Informationen](../audience/creating-a-segment-definition.md)
 * Ein neues Beispiel, das zeigt, wie benutzerdefinierte Aktionsantworten auf nativen Kanälen verwendet werden, wurde zur Dokumentation der API-Aufrufantworten hinzugefügt. Das Beispiel zeigt, wie mithilfe der Handlebars-Syntax in E-Mails, Push- und SMS-Nachrichten über verschachtelte Arrays aus benutzerdefinierten Aktionsantworten iteriert werden können. [Weitere Informationen](../action/action-response.md#response-in-channels)
 
 * Es wurde ein neuer Abschnitt zur Integrationsdokumentation von Campaign v7/v8 hinzugefügt, in dem erläutert wird, wie vorhandene benutzerdefinierte Aktionen aktualisiert werden, wenn sich der Echtzeit-Endpunkt (RT) ändert. Der Abschnitt enthält schrittweise Anweisungen zum Aktualisieren der Endpunkt-URL, zum Testen der Verbindung und zum Überprüfen von Änderungen vor dem Speichern. [Weitere Informationen](../action/acc-action.md#update-action)
@@ -373,7 +373,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Information has been added regarding the behaviour of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -403,7 +403,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=de){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -478,7 +478,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -606,7 +606,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
