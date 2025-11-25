@@ -300,7 +300,7 @@ Erstellen Sie eine ereignisausgelöste Journey mit einem **[!UICONTROL Reaktion]
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Reaktion]** Ereignisse müssen sofort nach „Kanalaktionen[ platziert ](journeys-message.md). Platzieren Sie keine **[!UICONTROL Warten]**-Aktivitäten zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität.
+>**[!UICONTROL Reaktion]** Ereignisse müssen sofort nach „Kanalaktionen[&#x200B; platziert &#x200B;](journeys-message.md). Platzieren Sie keine **[!UICONTROL Warten]**-Aktivitäten zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität.
 
 Erfahren Sie mehr über [Journey-Anwendungsfälle](jo-use-cases.md) und [Reaktionsereignisse](reaction-events.md).
 
