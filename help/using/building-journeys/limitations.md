@@ -51,7 +51,7 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 
 ## Einschränkungen bei Reaktionsereignissen {#reaction-limitations}
 
-* **[!UICONTROL Reaktion]** Aktivitäten müssen sofort nach einer [Kanalaktionsaktivität“ auf der Journey-Arbeitsfläche ](../building-journeys/journeys-message.md) werden. Das Platzieren einer **[!UICONTROL Warten]**-Aktivität oder einer anderen Aktivität zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität wird nicht unterstützt und kann dazu führen, dass die Reaktion nicht wie erwartet funktioniert. Weiterführende Informationen finden Sie in [diesem Abschnitt](../building-journeys/reaction-events.md).
+* **[!UICONTROL Reaktion]** Aktivitäten müssen sofort nach einer [Kanalaktionsaktivität“ auf der Journey-Arbeitsfläche &#x200B;](../building-journeys/journeys-message.md) werden. Das Platzieren einer **[!UICONTROL Warten]**-Aktivität oder einer anderen Aktivität zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität wird nicht unterstützt und kann dazu führen, dass die Reaktion nicht wie erwartet funktioniert. Weiterführende Informationen finden Sie in [diesem Abschnitt](../building-journeys/reaction-events.md).
 
 ## Einschränkungen bei Datenquellen {#data-sources-limitations}
 

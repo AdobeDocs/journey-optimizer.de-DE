@@ -132,7 +132,7 @@ Bei Verwendung von Streaming-Zielgruppen mit der Aktivität **Zielgruppen-**) tr
 
 * Für kritische Anwendungsfälle, bei denen Sie sicherstellen müssen, dass alle qualifizierten Profile eintreten, sollten Sie stattdessen eine Aktivität [Zielgruppe lesen](read-audience.md) verwenden, bei der alle Profile in einer Zielgruppe zu einem bestimmten Zeitpunkt verarbeitet werden.
 
-* Überwachen Sie die [ und den Durchsatz Ihrer Journey](entry-management.md#profile-entrance-rate) um Profilflussmuster zu verstehen.
+* Überwachen Sie die [&#x200B; und den Durchsatz Ihrer Journey](entry-management.md#profile-entrance-rate) um Profilflussmuster zu verstehen.
 
 * Wenn Profile nicht erwartungsgemäß eintreten, finden Sie im [Handbuch zur Fehlerbehebung](troubleshooting-execution.md#checking-if-people-enter-the-journey) weitere Diagnoseschritte.
 

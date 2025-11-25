@@ -144,7 +144,7 @@ Obwohl CJA-Zielgruppen in Journey nicht direkt unterstützt werden, können Sie 
 * Überwachen der Zielgruppengröße und der Auswertungsleistung in umfangreichen Bereitstellungen
 * Berücksichtigen Sie beim Entwerfen von Journey-Zeiten und Einstiegsbedingungen die Aktualisierungsraten der Zielgruppe
 
-Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [Erstellen von ](../audience/creating-a-segment-definition.md), [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) und [Federated-Zielgruppen-Komposition](../audience/federated-audience-composition.md).
+Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [Erstellen von &#x200B;](../audience/creating-a-segment-definition.md), [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) und [Federated-Zielgruppen-Komposition](../audience/federated-audience-composition.md).
 
 +++
 
@@ -304,7 +304,7 @@ Erstellen Sie eine ereignisausgelöste Journey mit einem **[!UICONTROL Reaktion]
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Reaktion]** Ereignisse müssen sofort nach „Kanalaktionen[ platziert ](journeys-message.md). Platzieren Sie keine **[!UICONTROL Warten]**-Aktivitäten zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität.
+>**[!UICONTROL Reaktion]** Ereignisse müssen sofort nach „Kanalaktionen[&#x200B; platziert &#x200B;](journeys-message.md). Platzieren Sie keine **[!UICONTROL Warten]**-Aktivitäten zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität.
 
 Erfahren Sie mehr über [Journey-Anwendungsfälle](jo-use-cases.md) und [Reaktionsereignisse](reaction-events.md).
 

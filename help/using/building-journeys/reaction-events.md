@@ -34,7 +34,7 @@ Siehe [Informationen zu Aktionsaktivitäten](../building-journeys/about-journey-
 
 >[!IMPORTANT]
 >
->Eine **[!UICONTROL Reaktion]**-Aktivität muss **unmittelbar** nach einer [Kanalaktionsaktivität) auf ](journeys-message.md) Journey-Arbeitsfläche platziert werden. Eine Aktivität vom Typ **[!UICONTROL Reaktion]** kann nur verwendet werden, wenn zuvor eine Kanalaktionsaktivität stattgefunden hat.
+>Eine **[!UICONTROL Reaktion]**-Aktivität muss **unmittelbar** nach einer [Kanalaktionsaktivität) auf &#x200B;](journeys-message.md) Journey-Arbeitsfläche platziert werden. Eine Aktivität vom Typ **[!UICONTROL Reaktion]** kann nur verwendet werden, wenn zuvor eine Kanalaktionsaktivität stattgefunden hat.
 >
 >Das Platzieren einer **[!UICONTROL Warten]**-Aktivität oder einer anderen Aktivität zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität wird nicht unterstützt und kann dazu führen, dass die Reaktion nicht wie erwartet funktioniert.
 
