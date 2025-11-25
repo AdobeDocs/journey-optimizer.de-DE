@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 93%
+source-wordcount: '1773'
+ht-degree: 88%
 
 ---
 
@@ -42,7 +42,7 @@ Sie können auch eine Zielgruppe in einer Journey-Bedingung verwenden. [Weitere 
 
 >[!NOTE]
 >
->Die Bedingungsauswertung schlägt für Profile fehl, die mehr als zwei geräteübergreifende Identitäten im [Profilspeicher“ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"}.
+>Die Bedingungsauswertung schlägt für Profile fehl, die mehr als zwei geräteübergreifende Identitäten im [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"} enthalten.
 
 ## Hinzufügen und Verwalten von Bedingungspfaden {#about_condition}
 
@@ -90,6 +90,14 @@ Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ un
 Verwenden Sie eine **[!UICONTROL Datenquellenbedingung]**, um eine Definition basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen zu definieren. Dieser Bedingungstyp wird mit dem Ausdruckseditor definiert. In [diesem Abschnitt](expression/expressionadvanced.md) erfahren Sie, wie Sie den Ausdruckseditor verwenden.
 
 Beim Targeting einer Zielgruppe mit Anreicherungsattributen, die mithilfe eines Kompositions-Workflows oder eines benutzerdefinierten Uploads (CSV-Datei) generiert wurden, können Sie beispielsweise diese Anreicherungsattribute nutzen, um Ihre Bedingung zu erstellen.
+
+>[!IMPORTANT]
+>
+>**Umgang mit fehlenden oder nicht aufgenommenen Attributen**
+>
+>Wenn in Ihrem Profilschema ein Schemafeld definiert ist, aber keine Daten für dieses Feld aufgenommen wurden, interpretieren Journey Optimizer und das zugrunde liegende Echtzeit-Kundenprofil das Feld als `null`. Daher werden Bedingungen, die auf `isEmpty()`, `isNull()` oder ähnliche Funktionen prüfen, als `true` ausgewertet, selbst wenn das Attribut nie aufgenommen wurde. Dies kann zu unerwartetem Journey-Verhalten führen, wenn Sie nicht wissen, dass das Feld keine Daten enthält.
+>
+>Um Verwirrung zu vermeiden, stellen Sie sicher, dass die Attribute, die Sie in Bedingungsausdrücken verwenden, mit tatsächlichen Daten aufgenommen wurden, bevor das Profil auf die Journey gelangt. Sie können Attributwerte im [Echtzeit-Kundenprofil) überprüfen](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} um zu bestätigen, ob Daten für die in Ihren Bedingungen verwendeten Felder vorhanden sind.
 
 Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. [Weitere Informationen](../datasource/external-data-sources.md).
 
