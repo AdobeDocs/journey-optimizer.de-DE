@@ -11,9 +11,9 @@ keywords: Springen, Aktivität, Journey, Aufspaltung, Aufspalten
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -76,11 +76,11 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktiv
 
 1. Konfigurieren Sie die **Ursprungs-Journey**.
 
-   ![Sprungaktivität in der Journey-Palette für den Übergang zwischen Journey](assets/jump1.png)
+   ![Sprungaktivität in der Journey-Palette für den Übergang zwischen Journeys](assets/jump1.png)
 
 1. Fügen Sie einem beliebigen Schritt in der Journey eine **[!UICONTROL Sprungaktivität]** der Kategorie **[!UICONTROL AKTIONEN]** hinzu. Fügen Sie ein Label und eine Beschreibung hinzu.
 
-   ![Dropdown-Liste zur Auswahl des Ziel-Journey in der Konfiguration der Sprungaktivität](assets/jump2.png)
+   ![Dropdown-Liste zur Auswahl der Ziel-Journey in der Konfiguration der Sprungaktivität](assets/jump2.png)
 
 1. Klicken Sie in das Feld **Ziel-Journey**.
 Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Testmodus befinden. Journeys, die einen anderen Namespace verwenden oder mit einem **Zielgruppen-Qualifizierungsereignis** beginnen, sind nicht verfügbar. Ziel-Journeys, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
@@ -99,7 +99,7 @@ Das Feld **Erstes Ereignis** wird vorab mit dem Namen des ersten Ereignisses der
 1. Im Abschnitt **Aktionsparameter** werden alle Felder des Zielereignisses angezeigt. Ordnen Sie wie bei anderen Aktionstypen jedes Feld Feldern aus dem Ursprungs-Ereignis oder der Ursprungs-Datenquelle zu. Diese Informationen werden zur Laufzeit an die Ziel-Journey weitergegeben.
 1. Fügen Sie die nächsten Aktivitäten hinzu, um Ihre Ursprungs-Journey zu beenden.
 
-   ![Testmodus-Schnittstelle zum Testen der Sprungaktivität zwischen Journey](assets/jump5.png)
+   ![Schnittstelle für Testmodus zum Testen der Sprungaktivität zwischen Journeys](assets/jump5.png)
 
 
    >[!NOTE]
@@ -110,7 +110,7 @@ Ihre **[!UICONTROL Sprungaktivität]** ist konfiguriert. Sobald Ihre Journey liv
 
 Wenn in einer Journey eine **[!UICONTROL Sprungaktivität]** konfiguriert ist, wird zu Beginn der Ziel-Journey automatisch ein **[!UICONTROL Sprungeintrittssymbol]** hinzugefügt. Auf diese Weise können Sie erkennen, dass die Journey sowohl extern als auch intern durch eine **[!UICONTROL Sprungaktivität]** ausgelöst werden kann.
 
-![Journey-Fluss mit Sprung vom Quell-Journey zum Ziel-Journey](assets/jump7.png)
+![Journey-Fluss mit Sprung von der Quell-Journey zur Ziel-Journey](assets/jump7.png)
 
 ## Fehlerbehebung {#jump-troubleshoot}
 
@@ -120,4 +120,4 @@ Fehler treten auf, wenn:
 * Der Status der Ziel-Journey „Entwurf“, „Geschlossen“ oder „Gestoppt“ ist
 * Das erste Ereignis der Ziel-Journey sich geändert hat und die Zuordnung unterbrochen wird
 
-![Journey-Analysen mit Ausführungsmetriken der Sprungaktivität](assets/jump6.png)
+![Journey-Analysen mit Ausführungsmetriken zur Sprungaktivität](assets/jump6.png)

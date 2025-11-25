@@ -11,9 +11,9 @@ keywords: eingehende Aktionen, Fehlerbehebung, Journey, Debugging, Selbsthilfe, 
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1731'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -41,11 +41,11 @@ Vor dem Beginn der Fehlerbehebung muss Folgendes sichergestellt sein:
    >
    >Die Journey-Versions-ID befindet sich in der URL nach „Journey/“ (z. B: *86232fb1-2932-4036-8198-55dfec606fd7*).
 
-   ![Journey-ID-Speicherort im Journey-URL- oder Eigenschaftenbedienfeld](assets/troubleshoot-inbound-retrieve-journey-id.png)
+   ![Speicherort der Journey-ID im Panel „Journey-URL“ oder „Eigenschaften“](assets/troubleshoot-inbound-retrieve-journey-id.png)
 
 1. Klicken Sie auf die eingehende Aktion, um deren Details anzuzeigen. Rufen Sie Label und ID der eingehenden Aktion ab.
 
-   ![Aktions-ID in der Code-Ansicht des Konfigurationsbereichs für Aktivitäten](assets/troubleshoot-inbound-retrieve-action-id.png)
+   ![Aktions-ID im Panel zur Konfiguration von Aktivitäten der Code-Ansicht](assets/troubleshoot-inbound-retrieve-action-id.png)
 
 1. Rufen Sie Namespace und ID des Profils ab, um das Profil mit den Problemen zu identifizieren. Je nach Konfiguration kann der Namespace beispielsweise ECID, E-Mail oder Kunden-ID sein. Weitere Informationen zum Suchen eines Profils sind in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"} verfügbar.
 
@@ -68,7 +68,7 @@ In diesem Szenario ist ein Profil in die eingehende Aktion in der Journey einget
 
 Das folgende Diagramm zeigt die Sequenz der zu befolgenden Debugging-Schritte:
 
-![Fehlerbehebungs-Workflow für eingehende Nachrichten wird nicht angezeigt: Überprüfen Sie Journey, Edge-Versand und Profil](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
+![Workflow zur Fehlerbehebung für eingehende Nachricht wird nicht angezeigt: Überprüfen von Journey, Edge Delivery und Profil](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
 ### Schritt 1: Überprüfen, ob das Gerät/der Client den Inhalt von Edge Network erhält {#step-1}
 
@@ -78,11 +78,11 @@ Das folgende Diagramm zeigt die Sequenz der zu befolgenden Debugging-Schritte:
 
 >[!TAB In-App-Kanal]
 
-1. Gehen Sie zur [Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}-Sitzung und wählen Sie im linken Panel **In-App-Nachrichten** aus.
+1. Gehen Sie zur [Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}-Sitzung und wählen Sie im linken Panel ]**In-App-Nachrichten**[!UICONTROL  aus.
 
 1. Klicken Sie in der Registerkarte **[!UICONTROL Nachrichten auf Gerät]** auf die Dropdown-Liste **[!UICONTROL Nachrichten]**.
 
-   ![Ansicht von Adobe Assurance mit In-App-Nachrichtenversand-Ereignissen und -Daten](assets/troubleshoot-inbound-assurance-in-app.png){width="80%"}
+   ![Adobe Assurance-Ansicht mit Versandereignissen und Daten bezüglich In-App-Nachrichten](assets/troubleshoot-inbound-assurance-in-app.png){width="80%"}
 
 1. Suchen Sie nach einer Nachricht mit dem Journey-Namen gefolgt von „– In-App-Nachricht“. Falls vorhanden, bedeutet dies, dass die In-App-Nachricht auf dem Gerät/Client vorhanden ist und das Problem möglicherweise mit dem In-App-Trigger zusammenhängt.
 
@@ -112,7 +112,7 @@ Gehen Sie wie folgt vor, um das Verhalten von Edge Network zu debuggen.
 
 1. Überprüfen Sie, ob die Edge-Aktivität, die der eingehenden Aktion entspricht, in den Abschnitten **[!UICONTROL Qualifizierte Aktivitäten]** oder **[!UICONTROL Nicht qualifizierte Aktivitäten]** aufgeführt ist.
 
-   ![Edge-Versandlogs mit an das Profil gesendeten Nachrichtenvorschlägen](assets/troubleshoot-inbound-edge-delivery.png)
+   ![Edge Delivery-Protokolle mit an das Profil gesendeten Nachrichtenvorschlägen](assets/troubleshoot-inbound-edge-delivery.png)
 
    * Wenn es sich im Abschnitt **Qualifizierte Aktivitäten** befindet, hat sich das Profil für die eingehende Journey-Aktion qualifiziert und der Inhalt sollte zurückgegeben werden.
    * Wenn es sich im Abschnitt **Nicht qualifizierte Aktivitäten** befindet, hat sich das Profil nicht für die eingehende Journey-Aktion qualifiziert. Weitere Informationen sind in den Ausschlussgründen enthalten.
@@ -120,15 +120,15 @@ Gehen Sie wie folgt vor, um das Verhalten von Edge Network zu debuggen.
 
    >[!NOTE]
    >
-   >Um die Edge-Aktivität in der **Assurance**-Sitzung zu finden, suchen Sie nach der Aktivität, bei der **[!UICONTROL audienceNamespace]**&#x200B;**joai** lautet und die **[!UICONTROL audienceSegmentId]** &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> ist (Beispiel: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
+   >Um die Edge-Aktivität in der **Assurance**-Sitzung zu finden, suchen Sie nach der Aktivität, bei der **[!UICONTROL audienceNamespace]****joai** lautet und die **[!UICONTROL audienceSegmentId]** &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> ist (Beispiel: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
 
-   ![Edge-Versandfehler mit Profil war nicht für Nachricht qualifiziert](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
+   ![Edge Delivery-Fehler, der besagt, dass das Profil nicht für die Nachricht qualifiziert war](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
 
 1. Wenn sich die Aktivität im Abschnitt **[!UICONTROL Nicht qualifizierte Aktivitäten]** befindet und der Ausschlussgrund *„Segment ist nicht aktiv“* ist, bedeutet dies, dass der Edge Network-Versand-Server das Profil nicht für Teil des entsprechenden Zielgruppensegments **joai** hält.
 
    Sie können überprüfen, ob das **joai**-Segment in der Profilansicht des Edge Network-Versand-Servers vorhanden ist, indem Sie das **segmentsMap**-Element des Profilabschnitts öffnen und nach dem Vorhandensein der **joai**-Segment-ID suchen.
 
-1. Wenn der Edge Network-Versand-Server das Profil nicht als im entsprechenden **joai**-Segment enthalten anzeigt, wird mit dem nächsten Schritt fortgefahren.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Wenn der Edge Network-Versand-Server das Profil nicht als im entsprechenden **joai**-Segment enthalten anzeigt, wird mit dem nächsten Schritt fortgefahren.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### Schritt 3: Überprüfen, ob die „joai“-Zielgruppen-Zugehörigkeit auf Edge Network übertragen wurde {#step-3}
 
@@ -148,11 +148,11 @@ Das Vorhandensein des **joai**-Segments in den `segmentMembership`-Attributen de
 
 1. Klicken Sie auf **[!UICONTROL JSON anzeigen]**, um die JSON-Ansicht für das Profil zu öffnen.
 
-   ![Ansicht der Profilattribute im JSON-Format, in der der Status der Zielgruppenzugehörigkeit angezeigt wird](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
+   ![Ansicht der Profilattribute im JSON-Format mit Status der Zielgruppenzugehörigkeit](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
 
-1. Wechseln Sie zum Attribut `segmentMembership` und überprüfen Sie, ob die Segment-ID &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> im **Joai**-Namespace vorhanden ist und sich im <!--or existing?-->Status **[!UICONTROL Realisiert]** befindet.
+1. Wechseln Sie zum Attribut `segmentMembership` und überprüfen Sie, ob die Segmentkennung &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> im Namespace **joai** vorhanden ist und sich im Status **[!UICONTROL Realisiert]** <!--or existing?-->befindet.
 
-   ![Profil-JSON, das die tatsächliche Zielgruppenzugehörigkeit mit Zeitstempel anzeigt](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
+   ![Profil-JSON mit realisierter Zielgruppenzugehörigkeit mit Zeitstempel](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
 
    * Wenn vorhanden, wurde das **joai**-Segment, das der eingehenden Journey-Aktion entspricht, korrekt in das Edge-Profil aufgenommen.
 
@@ -216,8 +216,8 @@ Führen Sie dieselben Debugging-Schritte wie für [Szenario 1](#debugging-steps
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 -->

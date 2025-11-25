@@ -11,9 +11,9 @@ keywords: Journey, Nachricht, Kampagne, Integration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funk
 
 1. Erstellen Sie unter **Message Center** > **Transaktionsnachrichten-Vorlagen** eine neue E-Mail-Vorlage basierend auf dem zuvor erstellten Ereignistyp.
 
-   ![Ereigniskonfiguration mit Namespace- und Profilkennungseinstellungen](assets/accintegration-uc-2.png)
+   ![Ereigniskonfiguration mit Einstellungen für Namespace und Profilkennungen](assets/accintegration-uc-2.png)
 
 1. Gestalten Sie Ihre Vorlage. In diesem Beispiel wird eine Personalisierung auf den Vornamen und die Bestellnummer des Profils angewendet. Der Vorname befindet sich in der Adobe Experience Platform-Datenquelle und die Bestellnummer ist ein Feld aus dem Journey Optimizer-Ereignis. Stellen Sie sicher, dass Sie die richtigen Feldnamen in Campaign verwenden.
 
@@ -78,11 +78,11 @@ Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funk
 
 1. Erstellen Sie ein Ereignis. Schließen Sie das Feld „purchaseOrderNumber“ ein.
 
-   ![Bildschirm für benutzerdefinierte Aktionskonfiguration für die Adobe Campaign Classic-Integration](assets/accintegration-uc-5.png)
+   ![Bildschirm zur Konfiguration benutzerdefinierter Aktionen für die Adobe Campaign Classic-Integration](assets/accintegration-uc-5.png)
 
 1. Erstellen Sie eine Aktion in Journey Optimizer, die der Kampagnenvorlage entspricht. Wählen Sie aus der Dropdown-Liste **Aktionstyp** die Option **Adobe Campaign Classic** aus.
 
-   ![Auswahl des Aktionstyps mit Adobe Campaign Classic-Option](assets/accintegration-uc-6.png)
+   ![Auswahl des Aktionstyps mit Option „Adobe Campaign Classic“](assets/accintegration-uc-6.png)
 
 1. Klicken Sie auf das Feld **Payload** und fügen Sie die zuvor erstellte JSON-Datei ein.
 
@@ -94,7 +94,7 @@ Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funk
 
 1. Erstellen Sie nun eine neue Journey und beginnen Sie mit dem zuvor erstellten Ereignis.
 
-   ![Journey-Arbeitsfläche mit konfigurierter Ereignis- und Kampagnenaktion](assets/accintegration-uc-9.png)
+   ![Journey-Arbeitsfläche mit konfiguriertem Ereignis und konfigurierter Campaign-Aktion](assets/accintegration-uc-9.png)
 
 1. Fügen Sie die Aktion hinzu und ordnen Sie jedes Feld dem richtigen Feld in Journey Optimizer zu.
 
@@ -102,6 +102,6 @@ Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funk
 
 1. Testen Sie Ihre Journey.
 
-   ![Vollständiger Journey-Ablauf mit Ausführung von Ereignis-Trigger und Campaign-Aktion](assets/accintegration-uc-11.png)
+   ![Vollständiger Journey-Fluss mit Ausführung von Ereignis-Trigger und Campaign-Aktion](assets/accintegration-uc-11.png)
 
 1. Sie können Ihre Journey jetzt veröffentlichen.

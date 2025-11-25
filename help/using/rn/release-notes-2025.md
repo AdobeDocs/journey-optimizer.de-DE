@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7890'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Möglichkeit, die gegenseitige TLS-Authentifizierung (mTLS) zu aktivieren. Dazu müssen sowohl der Client als auch der Server die Identität des jeweils anderen bestätigen, bevor eine sichere Verbindung hergestellt wird. [Mehr zum Thema](../sms/sms-configuration-custom.md) – Verfügbarkeitsdatum: 23. September 2025
 
 * **Relationale Schemata**\
-  Relationale Schemata können jetzt von verwendet werden, um Ihre relationalen Modellierungsanforderungen in orchestrierten Kampagnen zu unterstützen. [Mehr zum Thema](../orchestrated/gs-schemas.md) – Verfügbarkeitsdatum: 23. September 2025
+  Relationale Schemata können jetzt verwendet werden, um in orchestrierten Kampagnen Ihre Anforderungen an relationale Modellierung zu unterstützen. [Mehr zum Thema](../orchestrated/gs-schemas.md) – Verfügbarkeitsdatum: 23. September 2025
 
 * **Unterstützung der Datensatzsuche in Journeys**\
   Eine neue Aktivität in Journeys, **Datensatzsuche**, ermöglicht das dynamische Abrufen von Daten aus Adobe Experience Platform-Eintragsdatensätzen während der Laufzeit. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind. [Mehr zum Thema](../building-journeys/dataset-lookup.md) – Verfügbarkeitsdatum: 23. September 2025

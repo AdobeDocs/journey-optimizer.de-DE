@@ -11,9 +11,9 @@ keywords: Journey, Tags
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Mit Journey Optimizer können Sie Ihre Journeys mithilfe von Tags organisieren. 
 
 Mit dem Feld **Tags** in den Journey-Eigenschaften können Sie Tags für Ihre Journey definieren. Sie können entweder eine vorhandenes Tag auswählen oder ein neues erstellen. Geben Sie den Anfang des Namens des gewünschten Tags ein und wählen Sie es aus der Liste aus. Wenn es nicht verfügbar ist, klicken Sie auf **Erstellen**, um ein neues zu erstellen und zu Ihrer Journey hinzuzufügen. Sie können beliebig viele Tags definieren.
 
-![Bedienfeld „Tags“ in den Journey-Eigenschaften für Kategorisierung und Organisation](assets/tags1.png)
+![Panel „Tags“ in den Journey-Eigenschaften für Kategorisierung und Organisation](assets/tags1.png)
 
 Die Liste der definierten Tags wird unter dem Feld **Tags** angezeigt.
 
@@ -45,7 +45,7 @@ Es ist auch ein Filter verfügbar, um nur Journeys mit bestimmten Tags anzuzeige
 
 Sie können Tags zu beliebigen Typen von Journeys (Live, Entwurf usw.) hinzufügen oder daraus entfernen. Klicken Sie auf das Symbol **Mehr Aktionen** neben der Journey und wählen Sie **Tags bearbeiten** aus.
 
-![Journey-Liste gefiltert nach Tags mit kategorisierten Journey](assets/tags3.png)
+![Journey-Liste gefiltert nach Tags mit kategorisierten Journeys](assets/tags3.png)
 
 ## Verwalten von Tags
 

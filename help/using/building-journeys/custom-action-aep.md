@@ -10,9 +10,9 @@ level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ In diesem Anwendungsfall wird erläutert, wie Sie mithilfe von benutzerdefiniert
 
 1. Klicken Sie im Abschnitt **Anmeldedaten** auf **OAuth Server-to-Server**.
 
-   ![Bildschirm für benutzerdefinierte Aktionskonfiguration mit Dropdown-Liste „Aktionstyp“](assets/custom-action-aep-1.png)
+   ![Bildschirm zur Konfiguration benutzerdefinierter Aktionen mit der Dropdown-Liste „Aktionstyp“](assets/custom-action-aep-1.png)
 
 1. Klicken Sie auf **cURL-Befehl anzeigen**.
 
@@ -48,11 +48,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. Klicken Sie in Adobe Experience Platform im linken Menü unter **Verbindungen** auf **Quellen**. Klicken Sie unter **HTTP API** auf **Daten hinzufügen**.
 
-   ![Sandbox-Auswahl-Dropdown für Adobe Experience Platform](assets/custom-action-aep-3.png)
+   ![Dropdown-Liste zur Sandbox-Auswahl für Adobe Experience Platform](assets/custom-action-aep-3.png)
 
 1. Wählen Sie **Neues Konto** aus und aktivieren Sie die Authentifizierung. Wählen Sie **Mit der Quelle verbinden** aus.
 
-   ![Oberfläche zur Datensatzauswahl für Streaming-Daten](assets/custom-action-aep-4.png)
+   ![Benutzeroberfläche zur Auswahl von Datensätzen für Streaming-Daten](assets/custom-action-aep-4.png)
 
 1. Wählen Sie **Weiter** und den Datensatz aus, in den Sie die Daten schreiben möchten. Klicken Sie auf **Weiter** und **Beenden**.
 
@@ -143,7 +143,7 @@ Für dieses Beispiel gehen Sie wie folgt vor:
 
 1. Verwenden Sie die Schaltfläche **Zum Testen der Authentifizierung hier klicken**, um die Verbindung zu testen.
 
-   ![Schnittstelle für die Parameterzuordnung mit dem Ausdruckseditor](assets/custom-action-aep-8.png)
+   ![Benutzeroberfläche zur Parameterzuordnung mit dem Ausdruckseditor](assets/custom-action-aep-8.png)
 
 ### Einrichten der Payload {#custom-action-aep-payload}
 
@@ -182,4 +182,4 @@ Für dieses Beispiel gehen Sie wie folgt vor:
 
 1. Füllen Sie Attribute wie Journey Version Id, Node Id, Node Name und andere entsprechend Ihrem Anwendungsfall aus.
 
-   ![Erweiterter Modus-Editor für die komplexe Feldzuordnung](assets/custom-action-aep-9.png)
+   ![Editor im erweiterten Modus für komplexe Feldzuordnung](assets/custom-action-aep-9.png)

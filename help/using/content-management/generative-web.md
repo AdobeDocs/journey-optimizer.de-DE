@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: ebe2df77-4aaa-45b1-a8ce-931d4191cc67
 source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1308'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Der KI-Assistent in Journey Optimizer kann Ihnen dabei helfen, die Wirkung Ihrer
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![KI-Assistentenfeld für Webseitentext mit Markenauswahl, Eingabeaufforderungsfeld und der Schaltfläche „Eingabeaufforderungsbibliothek“](assets/web-gen-full-2.png){zoomable="yes"}
+   ![Panel des KI-Assistenten für Web-Seitentext mit Markenauswahl, Feld „Prompt“ und Schaltfläche „Prompt-Bibliothek“](assets/web-gen-full-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
@@ -59,7 +59,7 @@ Der KI-Assistent in Journey Optimizer kann Ihnen dabei helfen, die Wirkung Ihrer
    * **[!UICONTROL Ton]**: Der Ton der Web-Seite sollte bei Ihrer Zielgruppe ankommen. Ob Sie nun informativ, humorvoll oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
    * **Textlänge**: Wählen Sie mit dem Schieberegler die gewünschte Länge des Textes aus.
 
-   ![Bedienfeld Texteinstellungen mit Kommunikationsstrategie, Sprachen, Ton und Textlängenregler für Webinhalte](assets/web-gen-full-3.png){zoomable="yes"}
+   ![Panel für Texteinstellungen mit „Kommunikationsstrategie“, „Sprachen“ und „Ton“ sowie Regler für Textlänge für Web-Inhalte](assets/web-gen-full-3.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
@@ -75,7 +75,7 @@ Der KI-Assistent in Journey Optimizer kann Ihnen dabei helfen, die Wirkung Ihrer
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
-   ![Auf der Web-Seite generierte Textvarianten mit dem Indikator für den Prozentsatz der Markenausrichtung](assets/web-gen-full-4.png){zoomable="yes"}
+   ![Generierte Textvarianten für Web-Seiten mit Prozentindikator des Markenausrichtungswerts](assets/web-gen-full-4.png){zoomable="yes"}
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -91,7 +91,7 @@ Der KI-Assistent in Journey Optimizer kann Ihnen dabei helfen, die Wirkung Ihrer
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![Menü für Webtext verfeinern mit Auswerten, Zusammenfassen, Umformulieren, Einfachere Sprache mit Ton-Dropdown-Liste verwenden](assets/web-gen-full-5.png){zoomable="yes"}
+   ![Menü „Verfeinern“ für Web-Text mit den Optionen „Ausführlich“, „Zusammenfassen“, „Neu formulieren“ und „Einfachere Sprache verwenden“ sowie der Dropdown-Liste „Ton“](assets/web-gen-full-5.png){zoomable="yes"}
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 
@@ -113,7 +113,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journey Optimi
 
 1. Wählen Sie aus dem Menü auf der rechten Seite die Option **[!UICONTROL KI-Assistenten anzeigen]** aus.
 
-   ![Web-Designer mit ausgewähltem Bild-Asset und geöffnetem Bedienfeld „KI-Assistent“ für die Bildgenerierung](assets/web-gen-img-1.png){zoomable="yes"}
+   ![Web-Designer mit ausgewähltem Bild-Asset und geöffnetem Panel „KI-Assistenten anzeigen“ zur Bildgenerierung](assets/web-gen-img-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
 
@@ -125,7 +125,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journey Optimi
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![KI-Assistent für die Bildgenerierung im Web mit Umschalter für Referenzstile, Markenauswahl und Eingabeaufforderungsfeld](assets/web-gen-img-2.png){zoomable="yes"}
+   ![Bildgenerierung mit dem KI-Assistenten für Web mit Umschalter „Referenzstil“, Markenauswahl und Feld „Prompt“](assets/web-gen-img-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Bildeinstellungen]** an:
 
@@ -136,7 +136,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journey Optimi
    * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
 
-   ![Bedienfeld Bildeinstellungen für Web mit Seitenverhältnis, Inhaltstyp, visueller Intensität, Farbe und Ton, Beleuchtung und Komposition](assets/web-gen-img-3.png){zoomable="yes"}
+   ![Panel für Bildeinstellungen für Web mit „Seitenverhältnis“, „Content-Typ“, „Visuelle Intensität“, „Farbe und Ton“, „Beleuchtung“ und „Komposition“](assets/web-gen-img-3.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
@@ -152,7 +152,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journey Optimi
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
-   ![Bildvarianten der generierten Web-Seite mit den Steuerelementen „Markenausrichtung“ und „Vorschau“](assets/web-gen-img-4.png){zoomable="yes"}
+   ![Generierte Bildvarianten für Web-Seiten mit Steuerelementen für Markenausrichtungswert und Vorschau](assets/web-gen-img-4.png){zoomable="yes"}
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -163,7 +163,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journey Optimi
 
    * Mit **[!UICONTROL Speichern]** können Sie die Assets für den späteren Zugriff speichern.
 
-   ![Optionen für Webbilder verfeinern, die die Schaltflächen Ähnlich generieren, In Adobe Express bearbeiten und Speichern zeigen](assets/web-gen-img-5.png){zoomable="yes"}
+   ![Verfeinerungsoptionen für Web-Bilder mit den Schaltflächen „Ähnliche generieren“, „In Adobe Express bearbeiten“ und „Speichern“](assets/web-gen-img-5.png){zoomable="yes"}
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 

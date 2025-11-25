@@ -6,7 +6,7 @@ description: Aktivitäten für orchestrierte Kampagnen
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
 source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Aktivitäten für orchestrierte Kampagnen in Adobe Journey Optimizer ermögliche
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Arbeiten mit Aktivitäten für orchestrierte Kampagnen
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über Zielgruppenbestimmungs-, Kanal- und Flusssteuerungsaktiv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Aktivität „Und-Verknüpfung“
 
@@ -40,7 +40,7 @@ Synchronisieren Sie mehrere Ausführungszweige, indem Sie sicherstellen, dass di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aktivität „Zielgruppe erstellen“
 
@@ -50,7 +50,7 @@ Definieren und konfigurieren Sie Zielgruppensegmente für Ihre Kampagnen mithilf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Aktivität „Dimensionsänderung“
 
@@ -60,7 +60,7 @@ Verbessern Sie das Targeting, indem Sie zwischen Datenentitäten innerhalb Ihrer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Kanalaktivitäten
 
@@ -70,7 +70,7 @@ Richten Sie E-Mail, SMS, Push-Benachrichtigungen und Direkt-Mail für die kanal�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Aktivität „Kombinieren“
 

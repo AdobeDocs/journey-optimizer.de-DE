@@ -10,9 +10,9 @@ keywords: künstlich, KI, intelligent, Journey, Service
 exl-id: 20da09e1-0611-4d27-a589-30552011e06c
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '186'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

@@ -11,9 +11,9 @@ keywords: Zeitzone, Eigenschaften, Journey, Bedingung, Uhrzeit, Datum, benutzerd
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Die Zeitzone kann fest definiert werden. Löschen Sie die vordefinierte Zeitzone
 
 Wählen Sie dazu im Bereich **[!UICONTROL Journey-Eigenschaften]** eine Zeitzone aus.
 
-![Dropdown-Liste zur Zeitzonenauswahl in den Journey-Eigenschaften](assets/journey72.png)
+![Dropdown-Liste zur Zeitzonenauswahl in Journey-Eigenschaften](assets/journey72.png)
 
 ## Verwenden der Zeitzone von Profilen {#timezone-from-profiles}
 
@@ -60,7 +60,7 @@ Wenn das Eintrittsereignis der Journey einen Namespace hat, was bedeutet, dass d
 
 Wenn für ein Profil eine Zeitzone definiert wurde, wird diese von der Journey abgerufen und verwendet.  Ist dies nicht der Fall, wird die im Zeitzonenfeld definierte Zeitzone verwendet.
 
-![Konfiguration der Zeitzone des Profils in Datenquellen für personalisierte Zeitplanung](assets/journey73.png)
+![Konfiguration der Profilzeitzone in Datenquellen für personalisierte Zeitplanung](assets/journey73.png)
 
 >[!NOTE]
 >

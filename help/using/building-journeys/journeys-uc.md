@@ -11,9 +11,9 @@ keywords: Anwendungsfall, mehrere Kanäle, Nachrichten, Journey, Kanal, Ereignis
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Weitere Informationen zu Zielgruppen [finden Sie auf dieser Seite](../audience/a
 1. Ziehen Sie per Drag-and-Drop die gewünschten Felder aus dem linken Bereich in den Arbeitsbereich in der Mitte und konfigurieren Sie die Felder entsprechend Ihren Anforderungen. Verwenden Sie in diesem Beispiel die Attributfelder **Stadt** und **Geburtsjahr**.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   ![Bedienfeld „Zusätzliche Attribute“ zur Auswahl von Anreicherungsdaten](assets/add-attributes.png)
+   ![Panel mit zusätzlichen Attributen zur Auswahl von Anreicherungsdaten](assets/add-attributes.png)
 
 Die Zielgruppe ist jetzt erstellt und kann in der Journey verwendet werden. Mit einer Aktivität vom Typ **Zielgruppe lesen** können alle der Zielgruppe angehörenden Personen in die Journey eintreten.
 
@@ -76,7 +76,7 @@ Verwenden Sie dafür ein [regelbasiertes Ereignis](../event/about-events.md).
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   ![Journey mit einer Bedingungsaktivität, die in Gold-Mitglieder und andere Pfade verzweigt](assets/jo-uc2.png)
+   ![Journey mit Bedingungsaktivität, die zu Gold-Mitgliedern und anderen Pfaden verzweigt](assets/jo-uc2.png)
 
 Das Ereignis ist jetzt konfiguriert und kann in der Journey verwendet werden. Mit der entsprechenden Ereignisaktivität kann jedes Mal eine Aktion ausgelöst werden, wenn eine Person einen Kauf tätigt.
 
@@ -84,11 +84,11 @@ Das Ereignis ist jetzt konfiguriert und kann in der Journey verwendet werden. Mi
 
 1. Beginnen Sie die Journey mit einer Aktivität vom Typ **Zielgruppe lesen**. Wählen Sie die zuvor erstellte Zielgruppe aus. Alle der Zielgruppe angehörenden Personen treten in die Journey ein.
 
-   ![Wetterbedingungen, die überprüfen, ob die Temperatur unter 50 Grad liegt](assets/jo-uc4.png)
+   ![Prüfen der Wetterbedingungen, ob die Temperatur unter 10 Grad liegt](assets/jo-uc4.png)
 
 1. Legen Sie eine Aktionsaktivität vom Typ **E-Mail** ab und definieren Sie den Inhalt der „ersten Nachricht“. Diese Nachricht wird an alle Personen in der Journey gesendet. In diesem [Abschnitt](../email/create-email.md) erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten können.
 
-   ![Vollständiges wetterbasiertes Journey mit Temperaturbedingungen und E-Mail-Aktionen](assets/jo-uc5.png)
+   ![Vollständige wetterbasierte Journey mit Temperaturbedingungs- und E-Mail-Aktionen](assets/jo-uc5.png)
 
 1. Fügen Sie ein Ereignis vom Typ **Reaktion** hinzu und wählen Sie **E-Mail geöffnet**. Das Ereignis wird ausgelöst, sobald ein zur Zielgruppe gehörender Kontakt die E-Mail öffnet.
 

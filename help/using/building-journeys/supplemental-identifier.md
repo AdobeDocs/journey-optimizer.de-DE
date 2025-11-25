@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie zusätzliche Kennungen in Journeys verwenden.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1424'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer durch ein Ereigni
 
    1. Markieren Sie die Kennung als **[!UICONTROL Identität]**.
 
-      ![Schemakonfiguration mit zusätzlicher Kennungsfeldgruppe](assets/supplemental-ID-schema.png)
+      ![Schemakonfiguration mit Feldgruppe für zusätzliche Kennung](assets/supplemental-ID-schema.png)
 
       >[!IMPORTANT]
       >
@@ -105,7 +105,7 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer durch ein Ereigni
 
    1. Aktivieren Sie im Bildschirm „Ereigniskonfiguration“ die Option **[!UICONTROL Zusätzliche Kennung verwenden]**.
 
-      ![Ereigniskonfiguration mit zusätzlicher Namespace-Auswahl für Bezeichner](assets/supplemental-ID-event.png)
+      ![Ereigniskonfiguration mit Namespace-Auswahl für zusätzliche Kennung](assets/supplemental-ID-event.png)
 
    1. Verwenden Sie den Ausdruckseditor, um das Attribut auszuwählen, das Sie als zusätzliche ID markiert haben.
 
@@ -119,7 +119,7 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer durch ein Ereigni
 
    Ziehen Sie das konfigurierte Ereignis auf die Journey-Arbeitsfläche. Dadurch wird der Journey-Eintrag basierend auf der Profilkennung und der zusätzlichen ID ausgelöst.
 
-   ![Journey mit zusätzlicher Kennung zur Ereignisauslösung](assets/supplemental-ID-journey.png)
+   ![Journey mit zusätzlicher Kennung für Ereignisauslösung](assets/supplemental-ID-journey.png)
 
 >[!TAB Journey vom Typ „Zielgruppe lesen“]
 
@@ -131,7 +131,7 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer Journey vom Typ �
 
    1. Markieren Sie die Kennung als **[!UICONTROL Identität]**.
 
-      ![Profilschema mit konfiguriertem zusätzlichen Kennungsfeld](assets/supplemental-ID-schema-profile.png)
+      ![Profilschema mit konfiguriertem Feld für zusätzliche Kennung](assets/supplemental-ID-schema-profile.png)
 
       >[!IMPORTANT]
       >
@@ -155,7 +155,7 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer Journey vom Typ �
 
    1. Aktivieren Sie im Bereich der Aktivitätseigenschaften die Option **[!UICONTROL Zusätzliche Kennung verwenden]**.
 
-      ![Aktivität „Zielgruppe lesen“ mit zusätzlicher Kennungskonfiguration](assets/supplemental-ID-read-audience.png)
+      ![Aktivität „Zielgruppe lesen“ mit Konfiguration zusätzlicher Kennung](assets/supplemental-ID-read-audience.png)
 
    1. Verwenden Sie im Feld **[!UICONTROL Zusätzliche Kennung]** den Ausdruckseditor, um das Attribut auszuwählen, das Sie als zusätzliche Kennung markiert haben.
 
@@ -171,7 +171,7 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer Journey vom Typ �
 
 Verwenden Sie den Ausdruckseditor und den Personalisierungseditor, um auf Attribute der zusätzlichen Kennung für Personalisierung oder bedingte Logik zu verweisen. Auf Attribute kann über das Menü **[!UICONTROL Kontextuelle Attribute]** zugegriffen werden.
 
-![Personalization-Editor mit zusätzlichen Kennungsfeldern für Inhalte](assets/supplemental-ID-perso.png)
+![Personalisierungseditor mit Feldern für zusätzliche Kennung für Inhalte](assets/supplemental-ID-perso.png)
 
 Wenn Sie bei durch ein Ereignis ausgelöste Journeys mit Arrays arbeiten (z. B. mehrere Rezepte oder Richtlinien), verwenden Sie eine Formel, um bestimmte Elemente zu extrahieren.
 
@@ -246,4 +246,4 @@ In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attrib
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

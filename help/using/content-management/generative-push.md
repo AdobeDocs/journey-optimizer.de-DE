@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
 source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1926'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Führen Sie folgende Schritte aus:
 
 1. Rufen Sie das Menü **[!UICONTROL KI-Assistenten anzeigen]** auf.
 
-   ![Der Push-Benachrichtigungs-Editor mit dem geöffneten Bedienfeld „KI-Assistent“ zeigt Marken- und Eingabeaufforderungsoptionen](assets/push-genai-full-1.png){zoomable="yes"}
+   ![Push-Benachrichtigungs-Editor mit geöffnetem Panel des KI-Assistenten zeigt Marken- und Prompt-Optionen](assets/push-genai-full-1.png){zoomable="yes"}
 
 1. Aktivieren Sie die Option **[!UICONTROL Originalinhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
@@ -58,7 +58,7 @@ Führen Sie folgende Schritte aus:
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![KI-Assistent für Push-Benachrichtigungen mit Eingabeaufforderungsfeld, Feldselektoren für Titel, Nachricht und Bild und Eingabeaufforderungsbibliothek](assets/push-genai-full-2.png){zoomable="yes"}
+   ![KI-Assistent für Push-Benachrichtigungen mit Feld „Prompt“, Feldauswahl für Titelnachricht und Bild und Prompt-Bibliothek](assets/push-genai-full-2.png){zoomable="yes"}
 
 1. Wählen Sie das zu generierende Feld aus: **[!UICONTROL Titel]**, **[!UICONTROL Nachricht]** und/oder **[!UICONTROL Bild]**.
 
@@ -68,7 +68,7 @@ Führen Sie folgende Schritte aus:
    * **[!UICONTROL Sprachen]**: Wählen Sie die Sprache Ihrer generierten Inhalte.
    * **[!UICONTROL Ton]**: Der Ton der Push-Benachrichtigung sollte bei Ihrer Zielgruppe ankommen. Ob Sie nun informativ, humorvoll oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
 
-   ![Bedienfeld Texteinstellungen für Push-Benachrichtigungen mit Kommunikationsstrategie, Sprachen und Ton-Dropdown-Listen](assets/push-genai-full-3.png){zoomable="yes"}
+   ![Panel für Texteinstellungen bei Push-Benachrichtigungen mit Dropdown-Listen „Kommunikationsstrategie“, „Sprachen“ und „Ton“](assets/push-genai-full-3.png){zoomable="yes"}
 
 1. Wählen Sie die **[!UICONTROL Bildeinstellungen]**:
 
@@ -78,7 +78,7 @@ Führen Sie folgende Schritte aus:
    * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
 
-   ![Bildeinstellungen für Push-Benachrichtigungen mit Optionen für Inhaltstyp, visuelle Intensität, Farbe und Ton, Beleuchtung und Komposition](assets/push-genai-full-5.png){zoomable="yes"}
+   ![Bildeinstellungen für Push-Benachrichtigungen mit Optionen „Content-Typ“, „Visuelle Intensität“, „Farbe und Ton“, „Beleuchtung“ und „Komposition“](assets/push-genai-full-5.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
@@ -94,7 +94,7 @@ Führen Sie folgende Schritte aus:
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
-   ![Push-Benachrichtigungs-Varianten mit prozentualem Markenausrichtungs-Score und Vorschausteuerelementen generiert](assets/push-genai-full-4.png){zoomable="yes"}
+   ![Generierte Varianten für Push-Benachrichtigungen mit prozentualen Markenausrichtungswert und Steuerelementen für die Vorschau](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -106,7 +106,7 @@ Führen Sie folgende Schritte aus:
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![Verfeinern Sie Optionen für Push-Benachrichtigungen mit RepRase, verwenden Sie einfachere Steuerelemente für Sprache, Ton und Kommunikationsstrategie](assets/push-genai-full-6.png){zoomable="yes"}
+   ![Verfeinerungsoptionen für Push-Benachrichtigungen mit Steuerelementen für „Neu formulieren“, „Einfachere Sprache verwenden“, „Ton“ und „Kommunikationsstrategie“](assets/push-genai-full-6.png){zoomable="yes"}
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 
@@ -132,7 +132,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journe
 
 1. Rufen Sie das Menü **[!UICONTROL Text mit KI-Assistenten bearbeiten]** neben den Feldern **[!UICONTROL Titel]** oder **[!UICONTROL Nachricht]** auf.
 
-   ![Kompositionsbildschirm für Push-Benachrichtigungen mit der Schaltfläche Text bearbeiten mit KI-Assistent neben den Feldern Titel und Nachricht](assets/push-genai-1.png){zoomable="yes"}
+   ![Bildschirm zur Komposition von Push-Benachrichtigungen mit der Schaltfläche „Text mit KI-Assistenten bearbeiten“ neben den Feldern „Titel“ und „Nachricht“](assets/push-genai-1.png){zoomable="yes"}
 
 1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** für den KI-Assistenten, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
@@ -144,7 +144,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journe
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![AI-Assistent-Texteditor mit Umschalter für Referenzinhalte verwenden, Markenselektor, Eingabeaufforderungsfeld und Eingabeaufforderungsbibliothek](assets/push-genai-2.png){zoomable="yes"}
+   ![Texteditor des KI-Assistenten mit Umschalter „Referenzinhalt verwenden“, Markenauswahl, Feld „Prompt“ und Schaltfläche „Prompt-Bibliothek“](assets/push-genai-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
@@ -153,7 +153,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journe
    * **[!UICONTROL Ton]**: Der Ton der Push-Benachrichtigung sollte bei Ihrer Zielgruppe ankommen. Ob Sie nun informativ, humorvoll oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
    * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 
-   ![Erweiterte Texteinstellungen mit Kommunikationsstrategie, Sprachen, Dropdown-Listen für Töne und Regler für Länge](assets/push-genai-4.png){zoomable="yes"}
+   ![Erweiterte Texteinstellungen mit Dropdown-Listen „Kommunikationsstrategie“, „Sprachen“ und „Ton“ sowie Regler für Länge](assets/push-genai-4.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
@@ -167,7 +167,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journe
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
-   ![Generierte Textvarianten für Push-Benachrichtigungen mit dem Markenausrichtungs-Score-Indikator](assets/push-genai-5.png){zoomable="yes"}
+   ![Generierte Textvarianten für Push-Benachrichtigungen mit dem Indikator „Markenausrichtungswert“](assets/push-genai-5.png){zoomable="yes"}
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -183,7 +183,7 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie den KI-Assistenten in Journe
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![Menü verfeinern mit den Optionen „Aufbereiten“, „Zusammenfassen“, „Umformulieren“ und „Einfachere Sprache verwenden“ mit der Dropdown-Liste „Ton“](assets/push-genai-6.png){zoomable="yes"}
+   ![Verfeinerungsmenü mit den Optionen „Ausführlich“, „Zusammenfassen“, „Neu formulieren“ und „Einfachere Sprache verwenden“ sowie der Dropdown-Liste „Ton“](assets/push-genai-6.png){zoomable="yes"}
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 
@@ -207,7 +207,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre Push-
 
 1. Rufen Sie das Menü **[!UICONTROL Medien hinzufügen]** auf.
 
-   ![Push-Benachrichtigungs-Editor mit der Schaltfläche Medien hinzufügen , um Bilder in die Benachrichtigung aufzunehmen](assets/push-gen-img-1.png){zoomable="yes"}
+   ![Push-Benachrichtigungs-Editor mit der Schaltfläche „Medien hinzufügen“, mit der sich Bilder in die Benachrichtigung aufnehmen lassen](assets/push-gen-img-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
 
@@ -219,7 +219,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre Push-
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![KI-Assistent für die Bildgenerierung für Push mit Umschalter für Referenzstil, Markenauswahl und Eingabeaufforderungsfeld](assets/push-gen-img.png){zoomable="yes"}
+   ![Bildgenerierung mit dem KI-Assistenten für Push-Benachrichtigungen mit Umschalter „Referenzstil“, Markenauswahl und Feld „Prompt“](assets/push-gen-img.png){zoomable="yes"}
 
 1. Wählen Sie die **[!UICONTROL Bildeinstellungen]**:
 
@@ -250,7 +250,7 @@ Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre Push-
 
    * Mit **[!UICONTROL Speichern]** können Sie die Assets für den späteren Zugriff speichern.
 
-   ![Optionen für Push-Benachrichtigungsbilder verfeinern, die die Schaltflächen „Ähnlich generieren“, „In Adobe Express bearbeiten“ und „Speichern“ anzeigen](assets/push-gen-img-2.png){zoomable="yes"}
+   ![Verfeinerungsoptionen für Bilder in Push-Benachrichtigungen mit den Schaltflächen „Ähnliche generieren“, „In Adobe Express bearbeiten“ und „Speichern“](assets/push-gen-img-2.png){zoomable="yes"}
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 

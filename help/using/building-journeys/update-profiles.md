@@ -11,9 +11,9 @@ keywords: Profil, Aktualisieren, Journey, Aktivität
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '669'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -48,13 +48,13 @@ Außerdem erfordert die Konfiguration der Aktivität **Profil aktualisieren** ke
 
 1. Legen Sie im Abschnitt **Aktion** der Palette die Aktivität **Profil aktualisieren** auf der Arbeitsfläche ab.
 
-   ![Aktualisieren der Profilaktivität in der Journey-Palette unter „Aktionen“](assets/profileupdate0.png)
+   ![Aktivität „Profil aktualisieren“ in der Journey-Palette unter „Aktionen“](assets/profileupdate0.png)
 
 1. Wählen Sie ein Schema aus der Liste aus.
 
 1. Klicken Sie auf **Feld**, um das Feld auszuwählen, das Sie aktualisieren möchten. Es kann nur ein Feld ausgewählt werden.
 
-   ![Bedienfeld „Konfiguration der Profilaktualisierung“ mit Dropdown-Liste zur Feldauswahl](assets/profileupdate2.png)
+   ![Panel für die Konfiguration der Profilaktualisierung mit Dropdown-Liste zur Feldauswahl](assets/profileupdate2.png)
 
 1. Wählen Sie einen Datensatz aus der Liste aus.
 
@@ -74,7 +74,7 @@ Außerdem erfordert die Konfiguration der Aktivität **Profil aktualisieren** ke
 
 Die Aktivität **Profil aktualisieren** ist jetzt konfiguriert.
 
-![Aktivität „Profil aktualisieren“ im Journey mit der Feldkonfiguration](assets/profileupdate1.png)
+![Aktivität „Profil aktualisieren“ in Journey mit Feldkonfiguration](assets/profileupdate1.png)
 
 
 ## Verwenden des Testmodus {#using-the-test-mode}

@@ -11,9 +11,9 @@ keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Gehen Sie wie unten beschrieben vor, um mit dem Tracking Ihrer Journey-Metriken 
 
    Beachten Sie, dass die Metriken für die Journey selbst und für alle Elemente der Journey gelten.
 
-   ![Bedienfeld für die Konfiguration von Erfolgsmetriken in den Journey-Eigenschaften](assets/success_metric.png)
+   ![Panel für die Konfiguration von Erfolgsmetriken in Journey-Eigenschaften](assets/success_metric.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -100,5 +100,5 @@ Gehen Sie wie unten beschrieben vor, um mit dem Tracking Ihrer Journey-Metriken 
 
    Die gewählten Metriken werden in den KPIs und der Tabelle „Journey-Statistiken“ des Berichts angezeigt.
 
-   ![Dropdown-Liste Erfolgsmetriken mit verfügbaren Ereignissen für die Zielverfolgung](assets/success_metric_2.png)
+   ![Dropdown-Liste „Erfolgsmetriken“ mit verfügbaren Ereignissen für das Tracking von Zielen](assets/success_metric_2.png)
 

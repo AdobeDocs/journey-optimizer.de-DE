@@ -11,9 +11,9 @@ keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Fehler werden in der Arbeitsfläche mit einem Warnsymbol auf den Aktivitäten se
 
 * Wenn zwei Aktivitäten auf der Arbeitsfläche getrennt werden, wird eine Warnung angezeigt.
 
-  ![Warnsymbol mit getrennten Aktivitäten auf der Journey-Arbeitsfläche](assets/canvas-disconnected.png)
+  ![Warnsymbol für getrennte Aktivitäten auf der Journey-Arbeitsfläche](assets/canvas-disconnected.png)
 
 ## Fehler in der Journey {#canvas-errors}
 
@@ -45,7 +45,7 @@ Fehler werden auch über die Schaltfläche **[!UICONTROL Warnungen]** oberhalb d
 
 Das System erkennt zwei Arten von Problemen: **Fehler** und **Warnungen**. Fehler blockieren die Veröffentlichung und Testaktivierung. Warnungen weisen auf mögliche Probleme hin, blockieren aber nicht die Testaktivierung oder Veröffentlichung. Angezeigt werden eine Beschreibung des Problems sowie eine Problem-Protokoll-ID vom Typ ERR_XXX_XXX. Dies kann dazu beitragen, das Problem zu identifizieren.
 
-![Fehler- und Warnanzeigen in Journey mit Beschreibungstooltips](assets/journey-error-and-warning.png)
+![Fehler- und Warnindikatoren in Journey mit beschreibenden QuickInfos](assets/journey-error-and-warning.png)
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
 source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1887'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene Landingp
 
 1. Personalisieren Sie Ihr Layout nach Bedarf und öffnen Sie das Menü **[!UICONTROL KI-Assistent]**.
 
-   ![Landingpage-Designer mit Bedienfeld „KI-Assistent“ für die Erstellung vollständiger Seiteninhalte geöffnet](assets/lp-full-gen-1.png){zoomable="yes"}
+   ![Landingpage-Designer mit geöffnetem Panel des KI-Assistenten für die Erstellung vollständiger Seiteninhalte](assets/lp-full-gen-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
@@ -50,7 +50,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene Landingp
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Landingpage verbessern können.
 
-   ![KI-Assistent für Landingpages mit Eingabeaufforderungsfeld und Eingabeaufforderungsbibliothekszugriff für die vollständige Seitenerstellung](assets/lp-full-gen-2.png){zoomable="yes"}
+   ![KI-Assistent für Landingpages mit Feld „Prompt“ und Zugriff auf Prompt-Bibliothek für die Erstellung vollständiger Seiten](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
@@ -58,7 +58,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene Landingp
    * **[!UICONTROL Sprachen]**: Wählen Sie die Sprache Ihrer generierten Inhalte.
    * **[!UICONTROL Ton]**: Der Ton Ihrer Landingpage sollte bei Ihrer Zielgruppe ankommen. Ob Sie nun informativ, humorvoll oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
 
-   ![Bedienfeld Texteinstellungen für die Landingpage mit Kommunikationsstrategie, Sprachen und Tonoptionen](assets/lp-full-gen-3.png){zoomable="yes"}
+   ![Panel für Texteinstellungen der Landingpage mit den Optionen „Kommunikationsstrategie“, „Sprachen“ und „Ton“](assets/lp-full-gen-3.png){zoomable="yes"}
 
 1. Wählen Sie die **[!UICONTROL Bildeinstellungen]**:
 
@@ -68,7 +68,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene Landingp
    * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
 
-   ![Bedienfeld Bildeinstellungen für Landingpage mit Inhaltstyp, visueller Intensität, Farbe und Ton, Beleuchtung und Komposition](assets/lp-full-gen-4.png){zoomable="yes"}
+   ![Panel für Bildeinstellungen der Landingpage mit „Content-Typ“, „Visuelle Intensität“, „Farbe und Ton“, „Beleuchtung“ und „Komposition“](assets/lp-full-gen-4.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
@@ -84,7 +84,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene Landingp
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
-   ![Auf der Landingpage generierte Variationen mit den Steuerelementen „Score-Prozentsatz der Markenausrichtung“ und „Vorschau“](assets/lp-full-gen-5.png){zoomable="yes"}
+   ![Generierte Landingpage-Variationen mit Prozentindikator des Markenausrichtungswerts und Steuerelementen für die Vorschau](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -94,7 +94,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene Landingp
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![Menü für Landingpage verfeinern mit Umformulierung, Verwenden Sie eine einfachere Sprache mit Ton- und Kommunikationsstrategie-Dropdown-Listen](assets/lp-full-gen-6.png){zoomable="yes"}
+   ![Menü „Verfeinern“ für Landingpage mit „Neu formulieren“ und „Einfachere Sprache verwenden“ sowie Dropdown-Listen „Ton“ und „Kommunikationsstrategie“](assets/lp-full-gen-6.png){zoomable="yes"}
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 
@@ -114,7 +114,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer Landi
 
 1. Wählen Sie eine **[!UICONTROL Textkomponente]**, um nur bestimmten Inhalt zu erfassen. und rufen Sie das Menü **[!UICONTROL KI-Assistent]** auf.
 
-   ![Landingpage-Designer mit ausgewählter Textkomponente und KI-Assistentenfeld für die Texterstellung](assets/lp-text-gen-1.png){zoomable="yes"}
+   ![Landingpage-Designer mit ausgewählter Textkomponente und Panel des KI-Assistenten für die Textgenerierung](assets/lp-text-gen-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
@@ -122,7 +122,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer Landi
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Landingpages verbessern können.
 
-   ![KI-Assistenten-Textgenerierung für Landingpage mit Eingabeaufforderungsfeld und Eingabeaufforderungsbibliothek-Schaltfläche](assets/lp-text-gen-2.png){zoomable="yes"}
+   ![Textgenerierung mit dem KI-Assistenten für Landingpage mit Feld „Prompt“ und Schaltfläche „Prompt-Bibliothek“](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
@@ -131,7 +131,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer Landi
    * **[!UICONTROL Ton]**: Der Ton Ihrer Landingpage sollte bei Ihrer Zielgruppe ankommen. Ob Sie nun informativ, humorvoll oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
    * **Textlänge**: Wählen Sie mit dem Schieberegler die gewünschte Länge des Textes aus.
 
-   ![Texteinstellungen für Landingpage mit Kommunikationsstrategie, Sprachen, Ton und Textlängenregler](assets/lp-text-gen-3.png){zoomable="yes"}
+   ![Texteinstellungen für Landingpage mit „Kommunikationsstrategie“, „Sprachen“ und „Ton“ sowie Regler für Textlänge](assets/lp-text-gen-3.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
@@ -148,7 +148,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer Landi
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
-   ![Auf der Landingpage generierte Textvarianten mit Prozentsatz und Auswahloptionen für die Markenausrichtung](assets/lp-text-gen-4.png){zoomable="yes"}
+   ![Generierte Landingpage-Textvarianten mit prozentualen Markenausrichtungswert und Auswahloptionen](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -164,7 +164,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer Landi
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![Verfeinern des Menüs für Landingpage-Text mit Aufbereitung, Zusammenfassung, Umformulierung, Verwendung einer einfacheren Sprache mit Ton-Dropdown-Liste](assets/lp-text-gen-5.png){zoomable="yes"}
+   ![Menü „Verfeinern“ für Landingpage-Text mit den Optionen „Ausführlich“, „Zusammenfassen“, „Neu formulieren“ und „Einfachere Sprache verwenden“ sowie der Dropdown-Liste „Ton“](assets/lp-text-gen-5.png){zoomable="yes"}
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 
@@ -186,7 +186,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
 1. Wählen Sie im Menü auf der rechten Seite die Option **[!UICONTROL KI-Assistent]** aus.
 
-   ![Landingpage-Designer mit ausgewähltem Bild-Asset und geöffnetem Bedienfeld „KI-Assistent“ für die Bildgenerierung](assets/lp-image-gen-1.png){zoomable="yes"}
+   ![Landingpage-Designer mit ausgewähltem Bild-Asset und geöffnetem Panel des KI-Assistenten für die Bildgenerierung](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
 
@@ -194,7 +194,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Landingpages verbessern können.
 
-   ![KI-Assistent für die Bildgenerierung für Landingpages mit Umschalter für Referenzstile, Eingabeaufforderungsfeld und Eingabeaufforderungsbibliothek](assets/lp-image-gen-2.png){zoomable="yes"}
+   ![Bildgenerierung mit dem KI-Assistenten für Landingpages mit Umschalter „Referenzstil“, Feld „Prompt“ und Prompt-Bibliothek](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Bildeinstellungen]** an:
 
@@ -205,7 +205,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
    * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
 
-   ![Bildeinstellungen für Landingpages mit Seitenverhältnis, Inhaltstyp, visueller Intensität, Farbe und Ton, Beleuchtung und Komposition](assets/lp-image-gen-3.png){zoomable="yes"}
+   ![Bildeinstellungen für Landingpage mit „Seitenverhältnis“, „Content-Typ“, „Visuelle Intensität“, „Farbe und Ton“, „Beleuchtung“ und „Komposition“](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
@@ -221,7 +221,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
-   ![Auf der Landingpage generierte Bildvarianten mit den Steuerelementen „Markenausrichtung - Score in Prozent“ und „Vorschau“](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![Generierte Landingpage-Bildvariationen mit prozentualem Markenausrichtungswert und Steuerelementen für die Vorschau](assets/lp-image-gen-4.png){zoomable="yes"}
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -232,7 +232,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
    * Mit **[!UICONTROL Speichern]** können Sie die Assets für den späteren Zugriff speichern.
 
-   ![Optionen für Landingpage-Bilder verfeinern, die die Schaltflächen „Ähnlich generieren“, „In Adobe Express bearbeiten“ und „Speichern“ anzeigen](assets/lp-image-gen-5.png){zoomable="yes"}
+   ![Verfeinerungsoptionen für Landingpage-Bilder mit den Schaltflächen „Ähnliche generieren“, „In Adobe Express bearbeiten“ und „Speichern“](assets/lp-image-gen-5.png){zoomable="yes"}
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 

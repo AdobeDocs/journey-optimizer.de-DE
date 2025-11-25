@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
 source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1978'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail-V
 
 1. Personalisieren Sie Ihr Layout nach Bedarf und öffnen Sie das Menü **[!UICONTROL KI-Assistent]**.
 
-   ![KI-Assistentenfeld in E-Mail-Designer mit Markenauswahl und Eingabeaufforderungsfeld](assets/full-email-1.png){zoomable="yes"}
+   ![Panel des KI-Assistenten in E-Mail-Designer mit Markenauswahl und Feld „Prompt“](assets/full-email-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
@@ -52,7 +52,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail-V
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![Eingabefeld mit der Schaltfläche Bibliothek auffordern mit vorab geschriebenen Eingabeaufforderungsvorschlägen](assets/full-email-2.png){zoomable="yes"}
+   ![Feld „Prompt“ mit der Schaltfläche „Prompt-Bibliothek“ und vorab verfassten Prompt-Vorschlägen](assets/full-email-2.png){zoomable="yes"}
 
 1. Schalten Sie die Optionen **[!UICONTROL Betreffzeile]** und **[!UICONTROL Preheader]** ein, um sie in die Variantengenerierung einzubeziehen.
 
@@ -62,7 +62,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail-V
    * **[!UICONTROL Sprachen]**: Wählen Sie die Sprache Ihrer generierten Inhalte.
    * **[!UICONTROL Ton]**: Der Ton der E-Mail sollte bei Ihrer Zielgruppe ankommen. Ob Sie nun informativ, humorvoll oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
 
-   ![Bedienfeld Texteinstellungen mit Optionen für Kommunikationsstrategie, Sprachen und Ton](assets/full-email-4.png){zoomable="yes"}
+   ![Panel für Texteinstellungen mit Optionen „Kommunikationsstrategie“, „Sprachen“ und „Ton“](assets/full-email-4.png){zoomable="yes"}
 
 1. Wählen Sie die **[!UICONTROL Bildeinstellungen]**:
 
@@ -72,15 +72,15 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail-V
    * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
 
-   ![Bedienfeld Bildeinstellungen mit Optionen für Inhaltstyp, visuelle Intensität, Farbe und Ton, Beleuchtung und Komposition](assets/full-email-6.png){zoomable="yes"}
+   ![Panel für Bildeinstellungen mit Optionen „Content-Typ“, „Visuelle Intensität“, „Farbe und Ton“, „Beleuchtung“ und „Komposition“](assets/full-email-6.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
-   ![Abschnitt „Marken-Assets“ mit der Schaltfläche „Marken-Asset hochladen“ und Liste der zuvor hochgeladenen Assets](assets/full-email-3.png){zoomable="yes"}
+   ![Abschnitt „Marken-Assets“ mit der Schaltfläche „Marken-Asset hochladen“ und einer Liste der zuvor hochgeladenen Assets](assets/full-email-3.png){zoomable="yes"}
 
-1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn der Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
 1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]** und klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
@@ -88,7 +88,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail-V
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
-   ![Bedienfeld „Markenausrichtungs-Bewertung“ mit prozentualer Bewertung und detaillierten Ausrichtungsmetriken](assets/full-email-7.png){zoomable="yes"}
+   ![Panel für Markenausrichtungswert mit prozentualer Bewertung und detaillierten Ausrichtungsmetriken](assets/full-email-7.png){zoomable="yes"}
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -98,7 +98,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um eine vorhandene E-Mail-V
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![Verfeinern Sie das Menü mit der Option „Umformulieren“ und verwenden Sie einfachere Sprachoptionen mit Ton- und Kommunikationsstrategie-Dropdown-Listen](assets/full-email-5.png){zoomable="yes"}
+   ![Menü „Verfeinern“ mit den Optionen „Neu formulieren“ und „Einfachere Sprache verwenden“ sowie den Dropdown-Listen „Ton“ und „Kommunikationsstrategie“](assets/full-email-5.png){zoomable="yes"}
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 
@@ -120,7 +120,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer E-Mai
 
 1. Wählen Sie eine **[!UICONTROL Textkomponente]**, um nur bestimmten Inhalt zu erfassen. und rufen Sie das Menü **[!UICONTROL KI-Assistent]** auf.
 
-   ![E-Mail an Designer senden, wobei die Textkomponente ausgewählt und das Menü des KI-Assistenten im rechten Bedienfeld geöffnet ist](assets/text-genai-1.png){zoomable="yes"}
+   ![E-Mail-Designer mit ausgewählter Textkomponente und Menü des KI-Assistenten (geöffnet im rechten Panel)](assets/text-genai-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Originalinhalt verwenden]**, um neue Inhalte basierend auf dem ausgewählten Inhalt zu personalisieren.
 
@@ -130,7 +130,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer E-Mai
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![Bedienfeld zur Texterstellung des KI-Assistenten mit Eingabeaufforderungsfeld, Markenauswahl und Zugriff auf die Eingabeaufforderungsbibliothek](assets/text-genai-2.png){zoomable="yes"}
+   ![Panel für Textgenerierung des KI-Assistenten mit Feld „Prompt“, Markenauswahl und Zugriff auf die Prompt-Bibliothek](assets/text-genai-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
@@ -139,13 +139,13 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer E-Mai
    * **[!UICONTROL Ton]**: Der Ton der E-Mail sollte bei Ihrer Zielgruppe ankommen. Ob Sie nun informativ, humorvoll oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
    * **Textlänge**: Wählen Sie mit dem Schieberegler die gewünschte Länge des Textes aus.
 
-   ![Erweiterte Texteinstellungen mit Steuerung der Kommunikationsstrategie, der Sprachen, des Tons und der Textlänge](assets/text-genai-4.png){zoomable="yes"}
+   ![Erweiterte Texteinstellungen mit Steuerelementen „Kommunikationsstrategie“, „Sprachen“ und „Ton“ sowie Regler für Textlänge](assets/text-genai-4.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
-   ![Dropdown-Menü mit Marken-Assets mit Umschaltern für zuvor hochgeladene Marken-Assets](assets/text-genai-3.png){zoomable="yes"}
+   ![Dropdown-Menü für Marken-Assets mit Umschaltern für zuvor hochgeladene Marken-Assets](assets/text-genai-3.png){zoomable="yes"}
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -157,7 +157,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer E-Mai
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
-   ![Generierte Textvarianten mit Indikator- und Vorschauoptionen für die Markenausrichtung in Prozent](assets/text-genai-6.png){zoomable="yes"}
+   ![Generierte Textvarianten mit Prozentindikator des Markenausrichtungswerts und Vorschau-Optionen](assets/text-genai-6.png){zoomable="yes"}
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -173,7 +173,7 @@ Im folgenden Beispiel nutzen wir den KI-Assistenten, um den Inhalt unserer E-Mai
 
    Sie können auch den **[!UICONTROL Ton]** und die **[!UICONTROL Kommunikationsstrategie]** Ihres Textes ändern.
 
-   ![Optionsmenü verfeinern mit den Schaltflächen „Aufbereiten“, „Zusammenfassen“, „Umformulieren“ und „Einfachere Sprache verwenden“ mit der Dropdown-Liste „Ton“](assets/text-genai-5.png){zoomable="yes"}
+   ![Menü der Verfeinerungsoptionen mit den Schaltflächen „Ausführlich“, „Zusammenfassen“, „Neu formulieren“ und „Einfachere Sprache verwenden“ sowie der Dropdown-Liste „Ton“](assets/text-genai-5.png){zoomable="yes"}
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 
@@ -197,7 +197,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
 1. Wählen Sie im Menü auf der rechten Seite die Option **[!UICONTROL KI-Assistent]** aus.
 
-   ![Senden Sie eine E-Mail an Designer mit ausgewähltem Bild-Asset und geöffnetem Bedienfeld des KI-Assistenten für die Bildgenerierung](assets/image-genai-1.png){zoomable="yes"}
+   ![E-Mail-Designer mit ausgewähltem Bild-Asset und geöffnetem Panel des KI-Assistenten für die Bildgenerierung](assets/image-genai-1.png){zoomable="yes"}
 
 1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
 
@@ -207,7 +207,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
    Wenn Sie Hilfe bei der Erstellung Ihres Prompts benötigen, finden Sie in der **[!UICONTROL Prompt-Bibliothek]** eine Vielzahl von Ideen für Prompts, mit denen Sie Ihre Kampagnen verbessern können.
 
-   ![Bedienfeld zur Bildgenerierung des KI-Assistenten mit Umschalter für Referenzstile, Markenauswahl und Eingabeaufforderungsfeld](assets/image-genai-2.png){zoomable="yes"}
+   ![Panel für Bildgenerierung des KI-Assistenten mit Umschalter „Referenzstil“, Markenauswahl und Feld „Prompt“](assets/image-genai-2.png){zoomable="yes"}
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Bildeinstellungen]** an:
 
@@ -218,7 +218,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
    * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
 
-   ![Bedienfeld Bildeinstellungen mit Steuerelementen für Seitenverhältnis, Inhaltstyp, visuelle Intensität, Farbe und Ton, Beleuchtung und Komposition](assets/image-genai-4.png){zoomable="yes"}
+   ![Panel für Bildeinstellungen mit Steuerelementen „Seitenverhältnis“, „Content-Typ“, „Visuelle Intensität“, „Farbe und Ton“, „Beleuchtung“ und „Komposition“](assets/image-genai-4.png){zoomable="yes"}
 
 1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
 
@@ -247,7 +247,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie den KI-Assistenten nutzen können, u
 
    * Mit **[!UICONTROL Speichern]** können Sie die Assets für den späteren Zugriff speichern.
 
-   ![Optionen für generierte Bilder verfeinern, die die Schaltflächen Ähnlich generieren, In Adobe Express bearbeiten und Speichern zeigen](assets/image-genai-5.png){zoomable="yes"}
+   ![Verfeinerungsoptionen für generierte Bilder mit den Schaltflächen „Ähnliche generieren“, „In Adobe Express bearbeiten“ und „Speichern“](assets/image-genai-5.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 

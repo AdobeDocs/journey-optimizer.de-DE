@@ -13,9 +13,9 @@ keywords: Zustellbarkeit, Journey, Anwendungsfall, E-Mail, Reputation
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ In diesem Anwendungsbeispiel wird eine Journey erstellt, um die Versandaktivitä
 
 1. Fügen Sie im nominalen Pfad nach der Aktivität **[!UICONTROL Bedingung]** die Aktionsaktivität **[!UICONTROL E-Mail]** hinzu.
 
-   ![E-Mail-Nachrichtenkonfiguration auf der Journey mit dem Rampenversand](assets/ramp-up-deliveries-message.png)
+   ![Konfiguration von E-Mail-Nachrichten in einer gesteigerten Versand-Journey](assets/ramp-up-deliveries-message.png)
 
    Wenn die Journey ausgeführt wird, wird die Nachricht bis zu der von Ihnen angegebenen Höchstzahl an Profilen an die eingehenden Profile gesendet. Wenn dieses Limit erreicht ist, nehmen die eingehenden Profile den alternativen Pfad.
 

@@ -10,9 +10,9 @@ keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -143,10 +143,10 @@ Ein Journey-Probelauf generiert **stepEvents**. Diese stepEvents haben eine best
 
 Wenn Sie stepEvent-Daten in **externe Systeme** exportieren, können Sie Ausführungen von Probeläufen mit der Markierung `inDryRun` filtern.
 
-Bei der Analyse von **Journey** Berichtsmetriken mithilfe des Abfrage-Service von Adobe Experience Platform müssen von Probelauf generierte Schrittereignisse ausgeschlossen werden. Legen Sie dazu die Markierung `inDryRun` auf `false` fest.
+Bei der Analyse von **Journey-Reporting-Metriken** mit dem Abfrage-Service von Adobe Experience Platform müssen die vom Probelauf generierten Schrittereignisse ausgeschlossen werden. Legen Sie dazu die Markierung `inDryRun` auf `false` fest.
 
 ## Anleitungsvideo {#dry-run-video}
 
 In diesem Video erfahren Sie, wie Sie einen Probelauf für Ihre Journeys ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464691/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

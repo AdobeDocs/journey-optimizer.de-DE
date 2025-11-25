@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie in Adobe Experience Platform ein relationales
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

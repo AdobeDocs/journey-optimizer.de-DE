@@ -6,9 +6,9 @@ description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Ka
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1799'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu mit Adobe Journey Optimizer orchestrierten Kampagnen.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
 +++ Was ist Kampagnenorchestrierung?
 
@@ -53,11 +53,11 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 
 * [Erstellen einer orchestrierten Kampagne](create-orchestrated-campaign.md)
 * [Arbeiten mit Kampagnenaktivitäten](activities/about-activities.md)
-* [Regel mit dem Abfrage-Modellierer erstellen](build-query.md)
+* [Erstellen einer Regel mithilfe des Abfrage-Modelers](build-query.md)
 
 +++
 
-+++ Wie erhalte ich Zugriff auf die Campaign-Orchestrierung?
++++ Wie greife ich auf die Kampagnenorchestrierung zu?
 
 Für einen Zugriff auf die Kampagnenorchestrierung muss die Lizenz entweder das Paket **Journey Optimizer – Kampagnen und Journeys** oder das Paket **Journey Optimizer – Kampagnen** enthalten. Wenden Sie sich an den Adobe-Support, um Ihre Lizenz zu bestätigen und bei Bedarf zu aktualisieren.
 
@@ -85,7 +85,7 @@ Für einen Zugriff auf die Kampagnenorchestrierung muss die Lizenz entweder das 
 
 +++ Was ist Segmentierung mit mehreren Entitäten?
 
-Die Kampagnenorchestrierung in Adobe Journey Optimizer verwendet eine relationale Datenbank. Dieser Typ von Datenmodell verfügt über separate Datenschemata, die über 1:1- oder 1:many-Beziehungen verbunden sind. Dies ermöglicht es Benutzenden, eine Abfrage für ein beliebiges Schema zu starten - nicht nur auf Empfängerebene - und dann hin und her zu anderen zugehörigen Schemata zu wechseln, z. B. Käufe, Produkte, Buchungen oder Empfängerdetails, was eine große Flexibilität bei der Erstellung und Verfeinerung von Segmenten und Audiences bietet.
+Die Kampagnenorchestrierung in Adobe Journey Optimizer verwendet eine relationale Datenbank. Dieser Typ von Datenmodell verfügt über separate Datenschemata, die über 1:1- oder 1:many-Beziehungen verbunden sind. Dadurch können Benutzende eine Abfrage für ein beliebiges Schema starten – nicht nur auf Empfängerebene – und dann hin und her zu anderen zugehörigen Schemata wechseln (z. B. Käufe, Produkte, Buchungen oder Empfängerdetails), was große Flexibilität bei der Erstellung und Verfeinerung von Segmenten und Zielgruppen bietet.
 
 **Beispiel** – Sprechen Sie alle Empfängerinnen und Empfänger an, deren Abonnements in den nächsten 30 Tagen ablaufen. In der Kampagnenorchestrierung kann die Abfrage mit dem Abonnementschema beginnen, nur die Spalte mit dem Ablaufdatum dieses Schemas durchsuchen und alle abgelaufenen Abonnements zurückgeben. Anschließend kann ein Rollup zu den Empfängerdaten durchgeführt werden, die mit diesen spezifischen Abonnement-IDs verknüpft sind. So erhalten Sie schneller und effizienter Ergebnisse als bei Datenmodellen, die jede Abfrage auf Empfängerebene starten.
 
@@ -93,7 +93,7 @@ Die Kampagnenorchestrierung in Adobe Journey Optimizer verwendet eine relational
 
 * [Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)
 * [Konfigurieren einer Zielgruppendimension](target-dimension.md)
-* [Regel mit dem Abfrage-Modellierer erstellen](build-query.md)
+* [Erstellen einer Regel mithilfe des Abfrage-Modelers](build-query.md)
 
 +++
 
@@ -154,7 +154,7 @@ Sie können orchestrierte Kampagnen erstellen, um **E-Mails**, **SMS** und **Pus
 
 +++ Können verschiedene Kommunikationen und verschiedene Kanäle innerhalb derselben orchestrierten Kampagne gestartet werden?
 
-Ja, orchestrierte Kampagnen unterstützen eine kanalübergreifende Orchestrierung. Sie können E-Mail-, SMS- und Push-Benachrichtigungsaktivitäten in einer mehrstufigen Kampagnen-Arbeitsfläche kombinieren, um umfassende Kundenerlebnisse zu schaffen.
+Ja, orchestrierte Kampagnen unterstützen kanalübergreifende Orchestrierung. Sie können E-Mail-, SMS- und Push-Benachrichtigungsaktivitäten in einer Arbeitsfläche für mehrstufige Kampagnen kombinieren, um umfassende Kundenerlebnisse zu schaffen.
 
 **Weitere Informationen**
 
@@ -187,7 +187,7 @@ Nein, der Content-Designer einschließlich E-Mail-Designer ist in allen Funktion
 
 +++ Wie sind die verschiedenen Kanäle in orchestrierten Kampagnen verbunden?
 
-Die Kanalkomponente und die Laufzeitumgebung sind in allen Journey Optimizer-Kampagnen vorhanden. Die unterstützten Kanäle unterscheiden sich jedoch. Orchestrierte Kampagnen unterstützen E-Mail-, SMS- und Push-Benachrichtigungen.
+Die Kanalkomponente und die Laufzeit sind in allen Journey Optimizer-Kampagnen vorhanden. Die unterstützten Kanäle variieren jedoch. Orchestrierte Kampagnen unterstützen E-Mail, SMS und Push-Benachrichtigungen.
 
 **Weitere Informationen**
 
@@ -197,9 +197,9 @@ Die Kanalkomponente und die Laufzeitumgebung sind in allen Journey Optimizer-Kam
 +++
 
 
-+++ Können sich orchestrierte Kampagnen mit ausgehenden Kanälen (Web, InApp) verbinden?
++++ Können sich orchestrierte Kampagnen mit Outbound-Kanälen (Web, InApp) verbinden?
 
-Nein, eingehende Kanäle wie Web und In-App werden in orchestrierten Kampagnen nicht unterstützt. Es werden nur ausgehende Kanäle (E-Mail, SMS und Push-Benachrichtigungen) unterstützt.
+Nein, Inbound-Kanäle wie Web und In-App werden in orchestrierten Kampagnen nicht unterstützt. Es werden ausschließlich Outbound-Kanäle unterstützt (E-Mail, SMS und Push-Benachrichtigungen).
 
 **Weitere Informationen**
 
@@ -238,7 +238,7 @@ In der Kampagnenorchestrierung wird Ad-hoc-Segmentierung als „Live-Segmentieru
 
 **Weitere Informationen**
 
-* [Regel mit dem Abfrage-Modellierer erstellen](build-query.md)
+* [Erstellen einer Regel mithilfe des Abfrage-Modelers](build-query.md)
 * [Verwenden der Aktivität „Zielgruppe erstellen“](activities/build-audience.md)
 * [Konfigurieren einer Zielgruppendimension](target-dimension.md)
 
@@ -247,7 +247,7 @@ In der Kampagnenorchestrierung wird Ad-hoc-Segmentierung als „Live-Segmentieru
 
 +++ Greift die Kampagnenorchestrierung nur auf Daten zu, die per Batch geladen werden, oder kann sie auch aktualisierte Echtzeit-Tabellen (wie Analytics-Daten) abfragen?
 
-Die Orchestrierung von Journey Optimizer Campaign kann Ad-hoc-Abfragen auf der Grundlage von relationalen Schemata erstellen. Relationale Schemata unterstützen derzeit nur Batch-Quellen. Darüber hinaus werden Aktivitäten vom Typ „Zielgruppe lesen“ aus jeder Art von Adobe Experience Platform-Zielgruppe unterstützt.
+Die Kampagnenorchestrierung von Journey Optimizer kann Ad-hoc-Abfragen auf der Grundlage von relationalen Schemata erstellen. Relationale Schemata unterstützen derzeit nur Batch-Quellen. Darüber hinaus werden Aktivitäten vom Typ „Zielgruppe lesen“ aus jeder Art von Adobe Experience Platform-Zielgruppe unterstützt.
 
 **Weitere Informationen**
 
@@ -259,7 +259,7 @@ Die Orchestrierung von Journey Optimizer Campaign kann Ad-hoc-Abfragen auf der G
 
 +++ Unterstützen orchestrierte Kampagnen die Entscheidungsfindung?
 
-Nein, orchestrierte Kampagnen unterstützen keine Entscheidungsfunktionen. Verwenden Sie für Entscheidungsfunktionen stattdessen standardmäßige Journey Optimizer-Journey oder Aktionskampagnen.
+Nein, orchestrierte Kampagnen unterstützen keine Entscheidungsfindungsfunktionen. Nutzen Sie für Entscheidungsfindungsfunktionen stattdessen standardmäßige Journey Optimizer-Journeys oder Aktionskampagnen.
 
 **Weitere Informationen**
 
@@ -301,7 +301,7 @@ Yes, follow the best practices below:
 
 +++ Welche Beziehung besteht zwischen Empfänger- und Profilentitäten?
 
-Segmentierung wird für Empfängerinnen und Empfänger beim Versand über das Adobe Experience Platform-Profil durchgeführt. Die Zielgruppendimension „Empfängerin bzw. Empfänger“ erweitert das einheitliche Profil um zusätzliche Daten, die für die Segmentierung in orchestrierten Kampagnen verwendet werden, während „Empfängerin bzw. Empfänger“ zur Laufzeit mit dem Profil abgeglichen wird, um Nachrichten zu senden und die Einverständnisrichtlinie und die Geschäftsregeln zu überprüfen. Diese Abstimmung ist nützlich, um Geschäftsregeln und Einverständnisanträge auf Profilebene zu vereinheitlichen.
+Segmentierung wird für Empfängerinnen und Empfänger beim Versand über das Adobe Experience Platform-Profil durchgeführt. Die Zielgruppendimension „Empfängerin bzw. Empfänger“ erweitert das einheitliche Profil um zusätzliche Daten, die für die Segmentierung in orchestrierten Kampagnen verwendet werden, während „Empfängerin bzw. Empfänger“ zur Laufzeit mit dem Profil abgeglichen wird, um Nachrichten zu senden und die Einverständnisrichtlinie und die Geschäftsregeln zu überprüfen. Diese Abstimmung ist nützlich, um Geschäftsregeln und Einverständnisanwendung auf Profilebene zu vereinheitlichen.
 
 ![](assets/recipients-and-profiles.png)
 
@@ -309,7 +309,7 @@ Segmentierung wird für Empfängerinnen und Empfänger beim Versand über das Ad
 
 * [Konfigurieren einer Zielgruppendimension](target-dimension.md)
 * [Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)
-* [Regel mit dem Abfrage-Modellierer erstellen](build-query.md)
+* [Erstellen einer Regel mithilfe des Abfrage-Modelers](build-query.md)
 
 +++
 
@@ -322,14 +322,14 @@ Wenn Sie mit „Ja“ antworten, wird der beste Datenspeicher vorgeschlagen. Bes
 | Ist die Quelle der Daten bereits relational? | Und die Quelle des Daten-Streamings? |
 | Beabsichtigen Sie, Daten direkt für Marketing-Anwendungsfälle zu erfassen? | Ist Aktualität von Daten eine wichtige Anforderung? |
 | Gibt es eine große Menge an historischen Daten (`>` 2 Monate), die für Anwendungsfälle mit Marketing-Aktivierung benötigt werden? | Gibt es Szenarien, in denen jeweils aktuelle Aktionen oder Entscheidungen Daten erfordern? |
-| Gibt es Ad-hoc-Anforderungen für die Erstellung, Auswertung und Aktivierung von Zielgruppen? | Können die Verhaltensdaten mithilfe vorberechneter Aggregate auf `<` 90 Tage beschränkt werden? |
+| Gibt es Ad-hoc-Anforderungen für die Erstellung, Auswertung und Aktivierung von Zielgruppen? | Können die Verhaltensdaten mithilfe vorberechneter Aggregate auf `<` 90 Tage beschränkt werden? |
 |  | Sind Daten erforderlich, um Nachrichten in Echtzeit zu personalisieren? |
 
 **Weitere Informationen**
 
 * [Konfigurieren einer Zielgruppendimension](target-dimension.md)
 * [Erste Schritte mit Schemata und Datensätzen](gs-schemas.md)
-* [Regel mit dem Abfrage-Modellierer erstellen](build-query.md)
+* [Erstellen einer Regel mithilfe des Abfrage-Modelers](build-query.md)
 
 +++
 
@@ -346,7 +346,7 @@ Die Anzahl der Aktivitäten in einer orchestrierten Kampagne ist auf maximal 500
 
 +++ Ist es möglich, Anreicherungen durchzuführen, um zusätzliche Daten hinzuzufügen?
 
-Ja, Sie können Daten aus dem relationalen Speicher und aus Adobe Experience Platform-Zielgruppen anreichern. Verwenden Sie die Aktivität Anreicherung , um Ihre Zielgruppendaten um zusätzliche Attribute aus verwandten Schemata zu erweitern.
+Ja, Sie können Daten aus dem relationalen Speicher und aus Adobe Experience Platform-Zielgruppen anreichern. Verwenden Sie die Aktivität „Anreicherung“, um Ihre Zielgruppendaten um zusätzliche Attribute aus verwandten Schemata zu erweitern.
 
 **Weitere Informationen**
 
@@ -361,7 +361,7 @@ Orchestrierte Kampagnen unterstützen vordefinierte Filter: Sie können eine Abf
 
 **Weitere Informationen**
 
-* [Regel mit dem Abfrage-Modellierer erstellen](build-query.md)
+* [Erstellen einer Regel mithilfe des Abfrage-Modelers](build-query.md)
 * [Verwenden der Aktivität „Zielgruppe erstellen“](activities/build-audience.md)
 * [Arbeiten mit vordefinierten Filtern](orchestrated-rule-builder.md)
 

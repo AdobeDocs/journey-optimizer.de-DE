@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -27,21 +27,21 @@ Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und überprüfen Sie dan
 
 Detaillierte Informationen zur Vorschau und zum Test des Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
-### Zeichenkodierung und -beschränkungen {#sms-character-limits}
+### Zeichenkodierung und Beschränkungen {#sms-character-limits}
 
-Beim Zugriff auf das Menü **[!UICONTROL Inhalt simulieren]** wird eine Zeichenanzahl angezeigt, um die Planung und Verwaltung Ihrer SMS-Nachrichten zu unterstützen.
+Beim Zugriff auf das Menü **[!UICONTROL Inhalt simulieren]** wird eine Zeichenanzahl angezeigt, um Ihnen die Planung und Verwaltung Ihrer SMS-Nachrichten zu erleichtern.
 
 ![](assets/sms_preview_3.png)
 
-Journey Optimizer verwendet UTF-8-Codierung im SMS-Editor, mit der Sie Doppelbyte- oder Unicode-Zeichen eingeben oder einfügen können. Diese Zeichen werden dann zur Auslieferung an den Dienstleister übermittelt. Die meisten SMS-Anbieter verwenden für Standardnachrichten eine GSM-7-Bit-Kodierung mit einer Beschränkung von 160 Zeichen und wechseln zu UTF-16 (UCS-2), wenn Nicht-GSM-Zeichen mit einer Beschränkung von 70 Zeichen erkannt werden.
+Journey Optimizer verwendet UTF-8-Kodierung im SMS-Editor, sodass Sie Doppel-Byte- oder Unicode-Zeichen eingeben oder einfügen können. Diese Zeichen werden dann zum Versand an den Dienstleister übermittelt. Die meisten SMS-Anbieter verwenden für Standardnachrichten eine GSM-7-Bit-Kodierung mit einer Beschränkung auf 160 Zeichen und wechseln zu UTF-16 (UCS-2), wenn Nicht-GSM-Zeichen erkannt werden. Dann gilt eine Beschränkung auf 70 Zeichen.
 
-Beachten Sie, dass die Zeichenanzahl keine Variationen widerspiegelt, die durch dynamische Personalisierung oder Nicht-GSM-7-Bit-Sonderzeichen eingeführt wurden.
+Beachten Sie, dass die Zeichenanzahl keine Varianten widerspiegelt, die durch dynamische Personalisierung oder Nicht-GSM-7-Bit-Sonderzeichen eingeführt wurden.
 
 >[!IMPORTANT]
 >
->Das Reporting zum Journey Optimizer-SMS-Versand berücksichtigt keine verketteten Nachrichten und dynamische Personalisierung, daher spiegelt es möglicherweise nicht die tatsächliche Anzahl der vom Anbieter gesendeten Nachrichten wider. Detaillierte Informationen zu Nutzung und Abrechnung erhalten Sie von Ihrem Adobe-Support-Mitarbeiter.
+>Das Reporting zum Journey Optimizer-SMS-Versand berücksichtigt keine verketteten Nachrichten oder dynamische Personalisierung. Daher spiegelt es möglicherweise nicht die tatsächliche Anzahl der vom Anbieter gesendeten Nachrichten wider. Detaillierte Informationen zu Nutzung und Abrechnung erhalten Sie vom Adobe-Support.
 >
->Best Practices zur Minimierung des Überangebots an SMS-Abrechnungen finden Sie unter [Best Practices für SMS-Zeichenoptimierung](sms-cost-optimization.md).
+>Best Practices zur Minimierung von hohen SMS-Rechnungen finden Sie unter [Best Practices für SMS zur Zeichenoptimierung](sms-cost-optimization.md).
 
 ## Validieren Ihres Inhalts {#sms-validate}
 

@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Kampagnenbericht
-description: Erfahren Sie, wie Sie Live-Aktivitätsdaten aus dem Kampagnenbericht verwenden
+description: Informationen zum Verwenden von Daten zu Live-Aktivitäten aus dem Kampagnenbericht
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Live-Kampagnenbericht {#campaign-global-report-cja-activity}
+# Bericht zu Kampagnen mit Live-Aktivitäten {#campaign-global-report-cja-activity}
 
 >[!BEGINSHADEBOX]
 
-Sie können auf den Bericht Ihrer Live-Aktivitätskampagne zugreifen, indem Sie in Ihrer Kampagne auf **[!UICONTROL Berichte]** und dann auf **[!UICONTROL Alle Zeitberichte anzeigen]** klicken. [Weitere Informationen](report-gs-cja.md)
+Sie können auf Ihren Bericht zu Kampagnen mit Live-Aktivitäten zugreifen, indem Sie in Ihrer Kampagne auf die Schaltfläche **[!UICONTROL Berichte]** klicken und dann **[!UICONTROL Bericht für gesamte Zeit anzeigen]** auswählen. [Weitere Informationen](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -28,19 +28,19 @@ Sie können auf den Bericht Ihrer Live-Aktivitätskampagne zugreifen, indem Sie 
 
 ![](assets/sending-statistics-mobile-live.png)
 
-Die Tabelle **[!UICONTROL Versandstatistiken]** bietet einen detaillierten Überblick über Schlüsselmetriken im Zusammenhang mit Ihren Live-Aktivitätskampagnen. Es werden wichtige Informationen wie die Größe der Zielgruppe und die Anzahl der erfolgreich zugestellten Push-Benachrichtigungen angezeigt, anhand derer Sie die Reichweite und Leistung Ihrer Live-Push-Benachrichtigungen insgesamt bewerten können.
+Die Tabelle **[!UICONTROL Versandstatistiken]** bietet einen detaillierten Überblick über Schlüsselmetriken im Zusammenhang mit Ihren Kampagnen mit Live-Aktivitäten. Es werden wichtige Informationen wie die Größe der Zielgruppe und die Anzahl der erfolgreich zugestellten Push-Benachrichtigungen angezeigt. So können Sie die Reichweite und Leistung Ihrer Live-Push-Benachrichtigungen insgesamt einschätzen.
 
 +++ Weitere Informationen zu den Metriken „Versandstatistiken“
 
-* **[!UICONTROL Ausgewählt]**: Gesamtzahl der während der Live-Aktivität ausgewählten Profile.
+* **[!UICONTROL Zielgruppe]**: Gesamtzahl der durch die Live-Aktivität angesprochenen Profile.
 
-* **[!UICONTROL Sendet]**: Gesamtzahl der Push-Benachrichtigungen, die an Zielgruppenprofile gesendet wurden.
+* **[!UICONTROL Sendungen]**: Gesamtzahl der Push-Benachrichtigungen, bei denen versucht wurde, sie an Zielgruppenprofile zu senden.
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich an Geräte gesendeten Push-Benachrichtigungen im Verhältnis zur Gesamtzahl der Sendeversuche.
 
-* **[!UICONTROL Fehler senden]**: Gesamtzahl der Push-Benachrichtigungen, die aufgrund von Fehlern (z. B. ungültige Token oder Verbindungsprobleme) nicht gesendet werden konnten.
+* **[!UICONTROL Sendefehler]**: Gesamtzahl der Push-Benachrichtigungen, die aufgrund von Fehlern (z. B. ungültige Token oder Verbindungsprobleme) nicht gesendet werden konnten.
 
-* **[!UICONTROL Ausschlüsse senden]**: Anzahl der Profile, die von Adobe Journey Optimizer vom Versand ausgeschlossen wurden (z. B. aufgrund des Opt-out-Status oder von Eignungsregeln).
+* **[!UICONTROL Sendeausschlüsse]**: Anzahl der Profile, die von Adobe Journey Optimizer vom Versand ausgeschlossen wurden (z. B. wegen Opt-out-Status oder Eignungsregeln).
 
 +++
 
@@ -48,19 +48,19 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet einen detaillierten Über
 
 ![](assets/activity-lifecycle.png)
 
-Die **[!UICONTROL Live-Aktivitäts]** Lebenszyklus-Tabelle bietet einen umfassenden Überblick über den Fortschritt Ihrer Live-Aktivitäten im Zeitverlauf. Sie bietet Einblicke in wichtige Ereignisse, z. B. wann Aktivitäten gestartet, aktualisiert oder beendet werden, sodass Sie die Benutzerinteraktion und den gesamten Lebenszyklus Ihrer Live-Aktivitätskampagnen besser verstehen können.
+Die Tabelle **[!UICONTROL Lebenszyklus der Live-Aktivität]** bietet einen umfassenden Überblick über den Fortschritt Ihrer Live-Aktivitäten im zeitlichen Verlauf. Sie liefert Einblicke in wichtige Ereignisse (z. B. wann Aktivitäten gestartet, aktualisiert oder beendet werden), sodass Sie die Benutzerinteraktion und den gesamten Lebenszyklus Ihrer Kampagnen mit Live-Aktivitäten besser verstehen können.
 
-+++ Weitere Informationen zu Lebenszyklusmetriken von Live-Aktivitäten
++++ Weitere Informationen zu Lebenszyklusmetriken zu Live-Aktivitäten
 
-* **[!UICONTROL Remote-Starts]**: Anzahl der Live-Aktivitäten, die remote initiiert und normalerweise vom Server- oder Backend-System ausgelöst werden.
+* **[!UICONTROL Remote-Starts]**: Anzahl der Live-Aktivitäten, die remote initiiert wurden (normalerweise vom Server oder Backend-System).
 
-* **[!UICONTROL Lokale Starts]**: Anzahl der Live-Aktivitäten, die lokal auf dem Gerät eines Benutzers gestartet wurden und häufig auf Benutzerinteraktionen oder Client-seitige Trigger zurückzuführen sind.
+* **[!UICONTROL Lokale Starts]**: Anzahl der Live-Aktivitäten, die lokal auf dem Gerät einer Benutzerin bzw. eines Benutzers gestartet wurden und häufig auf Benutzerinteraktionen oder Client-seitige Trigger zurückzuführen sind.
 
-**[!UICONTROL Updates]**: Gesamtzahl der an Geräte gesendeten Live-Aktivitätsaktualisierungen. Zu den Aktualisierungen gehören Statusänderungen, neue Inhalte oder Fortschrittsbenachrichtigungen.
+**[!UICONTROL Aktualisierungen]**: Gesamtzahl der an Geräte gesendeten Aktualisierungen von Live-Aktivitäten. Zu Aktualisierungen gehören Statusänderungen, neue Inhalte oder Fortschrittsbenachrichtigungen.
 
-**[!UICONTROL Endet]**: Anzahl der Live-Aktivitäten, die entweder automatisch nach Abschluss oder manuell über einen definierten Trigger oder eine Zeitüberschreitung beendet wurden.
+**[!UICONTROL Enden]**: Anzahl der Live-Aktivitäten, die entweder automatisch nach Abschluss oder manuell über einen definierten Trigger oder einen Timeout beendet wurden.
 
-**[!UICONTROL Gesamtanzahl]**: Gesamtsumme aller Live-Aktivitäts-Lebenszyklus-Ereignisse, einschließlich Starts, Aktualisierungen und Enden, die eine vollständige Messung des Live-Aktivitätsvolumens liefern.
+**[!UICONTROL Gesamtanzahl]**: Gesamtzahl aller Lebenszyklusereignisse bei Live-Aktivitäten, einschließlich Starts, Aktualisierungen und Enden, die eine vollständige Messung des Live-Aktivitätsvolumens liefern.
 
 +++
 
@@ -68,10 +68,10 @@ Die **[!UICONTROL Live-Aktivitäts]** Lebenszyklus-Tabelle bietet einen umfassen
 
 ![](assets/error-reasons-activity.png)
 
-Die **[!UICONTROL Fehlergründe]**-Tabelle ermöglicht es Ihnen, die spezifischen Fehler zu identifizieren, die während des Sendevorgangs Ihrer Live-Aktivitäten aufgetreten sind, was eine gründliche Analyse aller aufgetretenen Probleme erleichtert.
+Anhand der Tabelle **[!UICONTROL Fehlergründe]** können Sie die spezifischen Fehler identifizieren, die während des Sendevorgangs Ihrer Live-Aktivitäten aufgetreten sind. Dies ermöglicht eine gründliche Analyse aller aufgetretenen Probleme.
 
 ## Gründe für Ausschluss {#excluded-reasons}
 
 ![](assets/excluded-activity.png)
 
-Die **[!UICONTROL Ausschlussgründe]** zeigt visuell die verschiedenen Faktoren an, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass sie Ihre Live-Aktivität nicht erhalten können.
+Die Tabelle **[!UICONTROL Gründe für Ausschluss]** zeigt visuell die verschiedenen Faktoren auf, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass diese keine Live-Aktivitäten von Ihnen erhalten konnten.
