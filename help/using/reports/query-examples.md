@@ -11,7 +11,7 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
 workflow-type: tm+mt
 source-wordcount: '2598'
-ht-degree: 56%
+ht-degree: 61%
 
 ---
 
@@ -537,7 +537,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-Die Abfrage gibt die Zeitdifferenz in Minuten zurück, die zwischen dem Zeitpunkt liegt, zu dem der Zielgruppenexportvorgang in die Warteschlange gestellt wurde, und dem Zeitpunkt, zu dem er beendet wurde.
+Die Abfrage gibt die Zeitdifferenz in Minuten zurück, die zwischen dem Zeitpunkt liegt, zu dem der Zielgruppenexportauftrag in die Warteschlange gestellt wurde, und dem Zeitpunkt, zu dem er beendet wurde.
 
 +++
 
@@ -696,15 +696,15 @@ WHERE
 Es werden alle Service-Ereignisse im Zusammenhang mit der angegebenen Journey-Version zurückgegeben. Dabei kann auch die Abfolge der Vorgänge nachvollzogen werden:
 
 * Erstellung des Themas
-* Erstellung von Exportvorgängen
-* Beendigung der Exportvorgänge (mit Metriken zu exportierten Profilen)
+* Erstellung von Exportaufträgen
+* Beendigung der Exportaufträge (mit Metriken zu exportierten Profilen)
 * Abbruch der Worker-Verarbeitung
 
 Zusätzlich können Probleme identifiziert werden wie z. B.:
 
-* Fehler bei der Erstellung des Themas oder Exportvorgangs (einschließlich Zeitüberschreitungen bei API-Aufrufen zum Zielgruppenexport)
+* Fehler bei der Erstellung des Themas oder Exportauftrags (einschließlich Zeitüberschreitungen bei API-Aufrufen zum Zielgruppenexport)
 * Blockierte Exportaufträge (wenn für eine bestimmte Journey-Version kein Ereignis zur Beendigung des Exportauftrags vorhanden ist)
-* Worker-Probleme, wenn ein Beendigungsereignis zum Exportvorgang, aber kein Beendigungsereignis zur Worker-Verarbeitung empfangen wurde.
+* Worker-Probleme, wenn ein Beendigungsereignis zum Exportauftrag, aber kein Beendigungsereignis zur Worker-Verarbeitung empfangen wurde.
 
 WICHTIG: Wenn von dieser Abfrage kein Ereignis zurückgegeben wird, kann dies einen der folgenden Gründe haben:
 
@@ -744,7 +744,7 @@ WHERE
 
 +++
 
-+++Abrufen des Verarbeitungsstatus für Exportvorgänge
++++Abrufen des Verarbeitungsstatus für Exportaufträge
 
 Diese Abfrage ruft den Verarbeitungsstatus von Zielgruppenexportvorgängen ab und zeigt an, ob sie erfolgreich waren oder fehlgeschlagen sind, zusammen mit Profilexportmetriken.
 
@@ -773,11 +773,11 @@ WHERE
 Wenn kein Eintrag zurückgegeben wird, bedeutet dies, dass
 
 * Bei der Erstellung des Themas oder des Exportvorgangs ist ein Fehler aufgetreten
-* der Exportvorgang noch ausgeführt wird
+* der Exportauftrag noch ausgeführt wird
 
 +++
 
-+++Abrufen von Metriken zu exportierten Profilen, einschließlich Verwerfen-Aktionen und Exportvorgangsmetriken für die einzelnen Exportvorgänge
++++Abrufen von Metriken zu exportierten Profilen, einschließlich Verwerfen-Aktionen und Exportauftragsmetriken für die einzelnen Exportaufträge
 
 Diese Abfrage kombiniert die Anzahl verworfener Profile mit den Metriken des Exportvorgangs, um eine vollständige Ansicht der Leistung des Zielgruppenexports für jeden einzelnen Exportvorgang zu bieten.
 
@@ -904,7 +904,7 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 Diese Abfrage unterscheidet sich von der vorherigen.
 
-Es werden die Gesamtmetriken für eine bestimmte Journey-Version zurückgegeben, unabhängig von den Vorgängen, die dafür ausgeführt wurden (bei wiederkehrenden Journeys lösten Geschäftsereignisse diejenigen aus, die eine erneute Verwendung von Themen nutzten).
+Es werden die Gesamtmetriken für eine bestimmte Journey-Version zurückgegeben, unabhängig von den Aufträgen, die dafür ausgeführt wurden (bei wiederkehrenden Journeys lösten Geschäftsereignisse diejenigen aus, die eine erneute Verwendung von Themen nutzten).
 
 +++
 
@@ -1389,7 +1389,7 @@ ORDER BY
 
 ## Abfragen im Zusammenhang mit Leistungsmetriken für benutzerdefinierte Aktionen {#query-custom-action}
 
-+++ Gesamtzahl erfolgreicher Aufrufe, Fehler und Anfragen pro Sekunde jedes Endpunkts über einen bestimmten Zeitraum
++++ Gesamtzahl erfolgreicher Aufrufe, Fehler und Anfragen pro Sekunde an jedem Endpunkt über einen bestimmten Zeitraum
 
 Diese Abfrage liefert Leistungsmetriken für benutzerdefinierte HTTP-Aktionen, einschließlich der Gesamtzahl der Aufrufe, erfolgreicher Aufrufe, Fehlerzählungen nach Typ (4xx, 5xx, Zeitüberschreitungen, begrenzt) und des Durchsatzes in Anfragen pro Sekunde für jeden Endpunkt.
 
@@ -1451,7 +1451,7 @@ ORDER BY
 
 +++
 
-+++ Zeitreihe erfolgreicher Aufrufe, Fehler und Durchsätze jedes Endpunkts über einen bestimmten Zeitraum
++++ Zeitreihe erfolgreicher Aufrufe, Fehler und Durchsätze an jedem Endpunkt über einen bestimmten Zeitraum
 
 Diese Abfrage liefert dieselben Leistungsmetriken wie die vorherige Abfrage, ist jedoch als Zeitreihe organisiert. Sie zeigt auf, wie sich die Endpunktleistung im Zeitverlauf mit der Granularität pro Minute verändert.
 
@@ -1519,7 +1519,7 @@ ORDER BY
 
 +++
 
-+++Ansprechlatenz jedes Endpunkts im 50., 95., 99. und 99,9. Perzentil über einen bestimmten Zeitraum
++++Antwortlatenz an jedem Endpunkt im 50., 95., 99. und 99,9. Perzentil über einen bestimmten Zeitraum
 
 Diese Abfrage berechnet die Antwortzeit-Perzentile für benutzerdefinierte Aktionsendpunkte, sodass Sie die Latenzverteilung verstehen und Leistungsausreißer mit unterschiedlichen Perzentil-Schwellenwerten identifizieren können.
 
@@ -1573,7 +1573,7 @@ ORDER BY
 
 +++
 
-+++Zeitreihe der Perzentile der Reaktionslatenz jedes Endpunkts über einen bestimmten Zeitraum
++++Zeitreihe der Perzentile der Antwortlatenz an jedem Endpunkt über einen bestimmten Zeitraum
 
 Diese Abfrage liefert Latenzperzentile, die als Zeitreihe organisiert sind. So können Sie verfolgen, wie sich die Endpunkt-Antwortzeiten im Laufe der Zeit auf verschiedenen Perzentilebenen ändern.
 
@@ -1683,7 +1683,7 @@ ORDER BY
 
 +++
 
-+++ Zeitreihe der Warteschlangen-Wartezeit-Perzentile für jeden gedrosselten Endpunkt
++++ Zeitreihe der Perzentile der Wartezeit in der Warteschlange für jeden gedrosselten Endpunkt
 
 Diese Abfrage liefert die Wartezeit-Perzentile der Warteschlangen als Zeitreihe, mit der Sie überwachen können, wie sich eine Drosselung im Zeitverlauf auf die Wartezeiten für jeden Endpunkt auswirkt.
 
@@ -1739,7 +1739,7 @@ ORDER BY
 
 +++
 
-+++ Anzahl an Fehlern nach Typ und Code für einen bestimmten Endpunkt über einen bestimmten Zeitraum
++++ Anzahl der Fehler nach Typ und Code für einen bestimmten Endpunkt über einen bestimmten Zeitraum
 
 Diese Abfrage bietet eine detaillierte Aufschlüsselung der Fehler für einen bestimmten Endpunkt, gruppiert nach Fehlertyp und Fehler-Code, einschließlich Informationen zu Wiederholungsversuchen.
 

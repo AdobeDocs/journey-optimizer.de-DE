@@ -11,7 +11,7 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 87%
+ht-degree: 91%
 
 ---
 
@@ -112,19 +112,19 @@ Im Folgenden finden Sie häufig gestellte Fragen zur Integration von Journey Opt
 
 Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
 
-+++ Wie kann ich eine Begrenzungs- oder Einschränkungsregel konfigurieren? Gibt es eine Standardregel?
++++ Wie kann ich eine Begrenzungs- oder Drosselungsregel konfigurieren? Gibt es eine Standardregel?
 
 Informationen zum Erstellen von Begrenzungs- oder Einschränkungsregeln finden Sie in [diesem Abschnitt](../configuration/external-systems.md#capping). Für alle benutzerdefinierten Aktionen gibt es standardmäßig keine Einschränkungsregel, aber es ist eine Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Das Limit „pro Host“ gilt auf Domain-Ebene (z. B. example.com). Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Auf [dieser Seite](../action/about-custom-action-configuration.md) finden Sie weitere Informationen darüber, wie Sie Begrenzungen anfordern können.
 
 +++
 
-+++ Wie viele weitere Zustellversuche werden unternommen? Kann ich die Anzahl der weiteren Versuche ändern oder eine Mindestwartezeit zwischen den Versuchen definieren?
++++ Wie viele erneute Versuche werden unternommen? Kann ich die Anzahl der erneuten Versuche ändern oder eine Mindestwartezeit zwischen den Versuchen definieren?
 
 Pro Aufruf können nach dem ersten Aufruf maximal drei weitere Versuche durchgeführt werden, bis das Ende der Zeitüberschreitungsdauer erreicht ist. Die Anzahl weiterer Versuche und die Zeit zwischen den einzelnen Versuchen können nicht geändert werden. Weitere Informationen finden Sie in [diesem Abschnitt](../configuration/external-systems.md#timeout).
 
 +++
 
-+++ Wo kann ich die maximale Wartezeit konfigurieren? Gibt es einen Höchstwert?
++++ Wo kann ich das Timeout konfigurieren? Gibt es einen Höchstwert?
 
 Sie können in jeder Journey eine Zeitüberschreitungsdauer festlegen. Die Zeitüberschreitungsdauer wird in den Eigenschaften einer Journey konfiguriert. Die Zeitüberschreitungsdauer muss zwischen 1 Sekunde und 30 Sekunden liegen. Weitere Informationen finden Sie in [diesem Abschnitt](../configuration/external-systems.md#timeout) und auf [dieser Seite](../building-journeys/journey-properties.md#timeout_and_error).
 

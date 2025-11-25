@@ -13,7 +13,7 @@ exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist derzeit nur für Kundinnen und Kunden in den USA und Australien verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+>Diese Funktion ist derzeit nur für Kundschaft in den USA und Australien verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
 Um Profildaten mit Ihren [!DNL Journey Optimizer]-Landingpages zu erfassen und Ihre [!DNL Experience Platform]-Datensätze anzureichern, können Sie in Ihren Landingpages Formulare nutzen.
 
@@ -57,7 +57,7 @@ Beim Erstellen einer Voreinstellung:
 > To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
 -->
 
-Gehen Sie wie folgt vor, um eine Formularvorgabe zu erstellen.
+Gehen Sie wie folgt vor, um eine Formularvoreinstellung zu erstellen.
 
 1. Um auf das Inventar **[!UICONTROL Formularvoreinstellungen]** zuzugreifen, wählen Sie aus dem linken Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** >**[!UICONTROL Formulareinstellungen]** aus.
 
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um eine Formularvorgabe zu erstellen.
 
    >[!NOTE]
    >
-   >Derzeit stehen nur [!DNL Adobe Experience Platform]-Datensätze zur Auswahl. Es kann jeweils ein Datensatz ausgewählt werden. [Weitere Informationen zu Datensätzen](../data/get-started-datasets.md)
+   >Derzeit stehen nur [!DNL Adobe Experience Platform]-Datensätze zur Auswahl. Es kann jeweils nur ein Datensatz ausgewählt werden. [Weitere Informationen zu Datensätzen](../data/get-started-datasets.md)
 
 1. Klicken Sie auf **[!UICONTROL Veröffentlichen]**. Ihre Voreinstellung kann jetzt in einem Formular verwendet werden.
 
@@ -194,7 +194,7 @@ Nachdem Sie ein Feldattribut ausgewählt oder ein benutzerdefiniertes Feld hinzu
 >title="Dankeseite"
 >abstract="Konfigurieren Sie, was geschehen soll, wenn eine Person das Formular ausfüllt oder weiterleitet."
 
-Zurück in den Formulardetails im Abschnitt **[!UICONTROL Dankeseite]** konfigurieren Sie, was passiert, wenn ein Benutzer das Formular ausfüllt.
+Konfigurieren Sie in den Formulardetails im Abschnitt **[!UICONTROL Dankeseite]**, was geschehen soll, wenn eine Person das Formular ausfüllt.
 
 Richten Sie eine der folgenden Aktionen ein:
 
@@ -263,7 +263,7 @@ Sie können dieses Formular jetzt in eine Landingpage einbetten, um Daten zu erf
 
    >[!NOTE]
    >
-   >Sie können das ausgewählte Formular mithilfe der Schaltfläche **[!UICONTROL Formular bearbeiten]** überarbeiten. Das Formular wird in einer neuen Registerkarte geöffnet. Die Schritte zum Bearbeiten des Formularinhalts werden in [&#x200B; Abschnitt &#x200B;](#create-form).
+   >Sie können das ausgewählte Formular mithilfe der Schaltfläche **[!UICONTROL Formular bearbeiten]** überarbeiten. Das Formular wird in einer neuen Registerkarte geöffnet. Die Schritte zum Bearbeiten des Formularinhalts sind [in diesem Abschnitt](#create-form) beschrieben.
 
 1. Konfigurieren Sie im Abschnitt **[!UICONTROL Folge-Typ]**, was geschehen soll, wenn eine Benutzerin bzw. ein Benutzer das Formular ausfüllt:
 

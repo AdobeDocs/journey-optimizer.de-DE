@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
 workflow-type: tm+mt
 source-wordcount: '5226'
-ht-degree: 83%
+ht-degree: 95%
 
 ---
 
@@ -74,77 +74,77 @@ Erfahren Sie mehr über [Journey-Aktivitäten](about-journey-activities.md).
 
 +++
 
-+++ Welche Zielgruppentypen werden in Journey unterstützt und welche Einschränkungen gelten für sie?
++++ Welche Zielgruppentypen werden in Journeys unterstützt und welche Einschränkungen gelten für sie?
 
-Adobe Journey Optimizer unterstützt vier Arten von Zielgruppen mit jeweils unterschiedlichen Eigenschaften und Leitplanken:
+Adobe Journey Optimizer unterstützt vier Arten von Zielgruppen mit jeweils unterschiedlichen Eigenschaften und Leitlinien:
 
 **1. Streaming-Zielgruppen**
 
 * **Beschreibung**: Zielgruppen, die in Echtzeit ausgewertet werden, wenn sich die Profildaten ändern
 * **Auswertung**: Kontinuierliche Auswertung, wenn Profilattribute oder Ereignisse den Segmentkriterien entsprechen
-* **Journey-Nutzung**: Wird bei Aktivitäten vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ und „Bedingung“ unterstützt
+* **Journey-Nutzung**: Bei Aktivitäten vom Typ „Zielgruppe lesen“, „Zielgruppenqualifizierung“ und „Bedingung“ unterstützt
 * **Am besten geeignet für**: Echtzeit-Interaktion basierend auf Verhaltensänderungen oder Profilaktualisierungen
-* **Schutzmaßnahmen**:
+* **Leitlinien**:
    * Die maximale Zielgruppengröße hängt von Ihrer Journey Optimizer-Lizenz ab
-   * Auswertungslatenz normalerweise unter 5 Minuten
+   * Auswertungslatenz normalerweise unter 5 Minuten
    * Komplexe Segmentlogik kann die Auswertungsleistung beeinträchtigen
 
 **2. Batch-Zielgruppen**
 
 * **Beschreibung**: Zielgruppen, die auf geplanter Basis ausgewertet werden (normalerweise täglich)
-* **Auswertung**: In geplanten Intervallen in Batch-Vorgängen verarbeitet
-* **Journey-Nutzung**: Unterstützt bei Aktivitäten vom Typ „Zielgruppe lesen“ und „Bedingung“; eingeschränkte Unterstützung bei Journey zur Zielgruppenqualifizierung
-* **Am besten geeignet für**: Regelmäßige Kampagnen, Newsletter, geplante Nachrichten
-* **Schutzmaßnahmen**:
+* **Auswertung**: In geplanten Intervallen in Batch-Aufträgen verarbeitet
+* **Journey-Nutzung**: Bei Aktivitäten vom Typ „Zielgruppe lesen“ und „Bedingung“ unterstützt; eingeschränkte Unterstützung bei Journeys von Typ „Zielgruppenqualifizierung“
+* **Am besten geeignet für**: Regelmäßige Kampagnen, Newsletter, geplante Kommunikation
+* **Leitlinien**:
    * Die Auswertung erfolgt einmal täglich (Standard) oder nach einem konfigurierten Zeitplan
    * Profile spiegeln möglicherweise erst bei der nächsten Auswertung Echtzeitänderungen wider
    * Die Aktivität „Zielgruppe lesen“ kann große Batch-Zielgruppen effizient verarbeiten
 
-**3. Audiences hochladen (benutzerdefinierter Upload)**
+**3. Upload-Zielgruppen (benutzerdefinierter Upload)**
 
 * **Beschreibung**: Zielgruppen, die durch Hochladen von CSV-Dateien mit Profilkennungen erstellt werden
 * **Evaluierung**: Statische Liste wird nur aktualisiert, wenn neue Dateien hochgeladen werden
-* **Journey-Nutzung**: Wird in Aktivitäten vom Typ „Zielgruppe lesen“ und „Bedingung“ unterstützt; **nicht unterstützt** in Journey zur Zielgruppenqualifizierung
-* **Am besten für**: Einmalige Kampagnen, externe Listenimporte, zielgerichtete Kommunikation
-* **Schutzmaßnahmen**:
-   * Es gelten CSV-Dateigrößenbeschränkungen (in der Produktdokumentation finden Sie aktuelle Beschränkungen)
+* **Journey-Nutzung**: Bei Aktivitäten vom Typ „Zielgruppe lesen“ und „Bedingung“ unterstützt; **nicht unterstützt** in Journeys vom Typ „Zielgruppenqualifizierung“
+* **Am besten geeignet für**: Einmalige Kampagnen, Importe externer Listen, zielgerichtete Kommunikation
+* **Leitlinien**:
+   * Es gelten CSV-Dateigrößenbeschränkungen (in der Produktdokumentation finden Sie die aktuellen Limits)
    * Zielgruppenmitglieder sind statisch, bis sie mit neuem Upload aktualisiert werden
    * Identity-Namespace muss mit Journey-Namespace übereinstimmen
    * Profile müssen in Adobe Experience Platform vorhanden sein
 
-**4. Federated Audience Composition (FAC)-Zielgruppen**
+**4. Zielgruppen für die Komposition föderierter Zielgruppen (Federated Audience Composition, FAC)**
 
-* **Beschreibung**: Zielgruppen, die mit Federated Data Warehouse erstellt wurden, sodass Sie Zielgruppen aus externen Data Warehouses abfragen und erstellen können, ohne Daten in Adobe Experience Platform kopieren zu müssen
-* **Auswertung**: Statische Komposition wird aktualisiert, wenn die Federated-Audience-Komposition ausgeführt wird
-* **Journey-Nutzung**: Unterstützt bei Aktivitäten vom Typ „Zielgruppe lesen“ und „Bedingung“; **nicht unterstützt** in Journey zur Zielgruppenqualifizierung (ähnlich wie beim Hochladen von Zielgruppen aus einer Backend-Perspektive)
-* **Best for**: Enterprise Data Warehouse-Integration, Zielgruppenkomposition unter Verwendung externer Datenquellen, Szenarien, in denen Daten in externen Systemen verbleiben müssen
-* **Schutzmaßnahmen**:
-   * Zielgruppenmitglieder sind bis zur nächsten Ausführung der Federated-Komposition statisch
+* **Beschreibung**: Zielgruppen, die mit föderierten Daten erstellt wurden, sodass Sie Zielgruppen aus externen Data Warehouses abfragen und erstellen können, ohne Daten in Adobe Experience Platform kopieren zu müssen
+* **Auswertung**: Statische Komposition wird aktualisiert, wenn die Komposition föderierter Zielgruppen ausgeführt wird
+* **Journey-Nutzung**: Bei Aktivitäten vom Typ „Zielgruppe lesen“ und „Bedingung“ unterstützt; **nicht unterstützt** in Journeys vom Typ „Zielgruppenqualifizierung“ (ähnlich wie bei Upload-Zielgruppen aus einer Backend-Perspektive)
+* **Am besten geeignet für**: Data Warehouse-Integration für Unternehmen, Zielgruppenkomposition unter Verwendung externer Datenquellen, Szenarien, in denen Daten in externen Systemen verbleiben müssen
+* **Leitlinien**:
+   * Zielgruppenmitglieder sind bis zur nächsten Ausführung der föderierten Komposition statisch
    * Identity-Namespace muss mit Journey-Namespace übereinstimmen
    * Die Leistung hängt von den Abfragefunktionen des externen Data Warehouse ab
-   * Erfordert das Add-on „Federated Audience Composition“
+   * Erfordert das Add-on „Komposition föderierter Zielgruppen“
 
-**Customer Journey Analytics (CJA)-Zielgruppen**:
+**CJA-Zielgruppen (Customer Journey Analytics)**:
 
-Obwohl CJA-Zielgruppen in Journey nicht direkt unterstützt werden, können Sie eine **„Problemumgehung“**, indem Sie eine CJA-Zielgruppe in eine Segmentierungsregel „einschließen“. Dadurch wird eine Batch-UPS-Zielgruppe (Unified Profile Service) erstellt, die auf die CJA-Zielgruppe verweist und sie für die Verwendung in Journey als Batch-Zielgruppentyp verfügbar macht.
+Obwohl CJA-Zielgruppen in Journeys nicht direkt unterstützt werden, können Sie das Problem **umgehen**, indem Sie eine CJA-Zielgruppe in eine Segmentierungsregel „einschließen“. Dadurch wird eine Batch-UPS-Zielgruppe (Unified Profile Service) erstellt, die auf die CJA-Zielgruppe verweist und sie für die Verwendung in Journeys als Batch-Zielgruppentyp verfügbar macht.
 
 **Journey-spezifische Überlegungen**:
 
-* **Audience-Journey lesen**: Alle vier Audience-Typen werden unterstützt. Der Batch-Export erfolgt bei der Ausführung von Journey
-* **Journey zur Zielgruppenqualifizierung**: Streaming-Zielgruppen empfohlen; Batch-Zielgruppen haben eine verzögerte Qualifizierungserkennung; Upload- und FAC-Zielgruppen werden nicht unterstützt
-* **Bedingungsaktivitäten**: Alle Zielgruppentypen können zur Überprüfung der Mitgliedschaft verwendet werden
+* **Journeys vom Typ „Zielgruppe lesen“**: Alle vier Zielgruppentypen werden unterstützt; der Batch-Export erfolgt bei den Ausführungen der Journeys
+* **Journeys vom Typ „Zielgruppenqualifizierung“**: Streaming-Zielgruppen empfohlen; Batch-Zielgruppen haben eine verzögerte Qualifizierungserkennung; Upload- und FAC-Zielgruppen werden nicht unterstützt
+* **Aktivitäten vom Typ „Bedingung“**: Alle Zielgruppentypen können zur Überprüfung der Zugehörigkeit verwendet werden
 * **Namespace-Ausrichtung**: Der Identity-Namespace der Zielgruppe muss mit dem Namespace der Journey übereinstimmen, damit die Profile ordnungsgemäß identifiziert werden können
 
 **Best Practices**:
 
-* Verwenden **Streaming-Zielgruppen** für ereignisgesteuerte Journey in Echtzeit, die eine sofortige Reaktion erfordern
-* Verwenden **Batch-Zielgruppen** für geplante Kommunikationen, bei denen eine tägliche Auswertung ausreicht
-* Verwenden **Zielgruppen hochladen** für zielgerichtete einmalige Kampagnen mit externen Listen
-* Verwenden Sie **FAC-Zielgruppen** wenn Sie Enterprise Data Warehouse-Funktionen ohne Datenduplizierung nutzen müssen
+* Verwenden Sie **Streaming-Zielgruppen** für in Echtzeit ereignisgesteuerte Journeys, die eine sofortige Reaktion erfordern
+* Verwenden Sie **Batch-Zielgruppen** für geplante Kommunikationen, bei denen eine tägliche Auswertung ausreicht
+* Verwenden Sie **Upload-Zielgruppen** für zielgerichtete einmalige Kampagnen mit externen Listen
+* Verwenden Sie **FAC-Zielgruppen**, wenn Sie Enterprise Data Warehouse-Funktionen ohne Datenduplizierung nutzen müssen
 * Überwachen der Zielgruppengröße und der Auswertungsleistung in umfangreichen Bereitstellungen
-* Berücksichtigen Sie beim Entwerfen von Journey-Zeiten und Einstiegsbedingungen die Aktualisierungsraten der Zielgruppe
+* Berücksichtigen Sie beim Festlegen des Journey-TImings und der Einstiegsbedingungen die Aktualisierungsraten der Zielgruppe
 
-Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [Erstellen von &#x200B;](../audience/creating-a-segment-definition.md), [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) und [Federated-Zielgruppen-Komposition](../audience/federated-audience-composition.md).
+Erfahren Sie mehr über [Zielgruppen](../audience/about-audiences.md), [das Erstellen von Segmenten](../audience/creating-a-segment-definition.md), [benutzerdefinierte Upload-Zielgruppen](../audience/custom-upload.md) und [die Komposition föderierter Zielgruppen](../audience/federated-audience-composition.md).
 
 +++
 
@@ -300,7 +300,7 @@ Erstellen Sie eine ereignisausgelöste Journey mit einem **[!UICONTROL Reaktion]
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Reaktion]** Ereignisse müssen sofort nach „Kanalaktionen[&#x200B; platziert &#x200B;](journeys-message.md). Platzieren Sie keine **[!UICONTROL Warten]**-Aktivitäten zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität.
+>**[!UICONTROL Reaktion]** Ereignisse müssen sofort nach „Kanalaktionen[ platziert ](journeys-message.md). Platzieren Sie keine **[!UICONTROL Warten]**-Aktivitäten zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität.
 
 Erfahren Sie mehr über [Journey-Anwendungsfälle](jo-use-cases.md) und [Reaktionsereignisse](reaction-events.md).
 
@@ -807,7 +807,7 @@ Erfahren Sie mehr über [Geschäftsereignisse](general-events.md).
 **Auswirkungen auf Journeys**:
 
 * Journeys verwenden die mit der Zielgruppe oder dem Ereignis verknüpfte Zusammenführungsrichtlinie, um zu bestimmen, welche Profildaten verfügbar sind
-   * In den Journeys „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ wird die Zusammenführungsrichtlinie aus der Zielgruppe verwendet
+   * In Journeys vom Typ „Zielgruppe lesen“ oder „Zielgruppenqualifizierung“ wird die Zusammenführungsrichtlinie aus der Zielgruppe verwendet
    * In Journeys für unitäre Ereignisse wird die standardmäßige Zusammenführungsrichtlinie verwendet
    * In Journeys für Geschäftsereignisse wird die Zusammenführungsrichtlinie aus der Zielgruppe in der Aktivität „Zielgruppe lesen“ verwendet.
 
@@ -828,10 +828,10 @@ Erfahren Sie mehr über [Zusammenführungsrichtlinien](../audience/get-started-p
 
 | | **Bedingungsaktivität** | **Warteaktivität** |
 |---|---|---|
-| **Zweck** | Erstellt verschiedene Pfade basierend auf der Logik (if/then) | Hält die Journey für einen bestimmten Zeitraum an |
-| **Funktion** | Wertet Daten aus und leitet Profile entsprechend weiter | Profile werden an einem bestimmten Punkt gespeichert, bevor der Vorgang fortgesetzt wird |
-| **Anwendungsfall** | Segmentieren von Kunden, Überprüfen des Status, Verzweigung basierend auf dem Verhalten | Timing zwischen Nachrichten, Warten auf Geschäftszeiten, Verzögerungen verursachen |
-| **Beispiel** | Wenn der Kunde VIP ist, senden Sie ein Premium-Angebot; andernfalls senden Sie ein Standardangebot. | 3 Tage nach der Begrüßungs-E-Mail warten, bevor die nächste Nachricht gesendet wird |
+| **Zweck** | Erstellt verschiedene Pfade basierend auf Logik (wenn/dann) | Hält die Journey für einen bestimmten Zeitraum an |
+| **Funktion** | Wertet Daten aus und leitet Profile entsprechend weiter | Hält Profile an einem bestimmten Punkt, bevor Sie fortfahren |
+| **Anwendungsfall** | Segmentieren von Kundschaft, Überprüfen von Status, Verzweigen basierend auf Verhalten | Timing zwischen Nachrichten, Warten auf Geschäftszeiten, Erstellen von Verzögerungen |
+| **Beispiel** | Wenn es sich um eine VIP-Kundin bzw. einen VIP-Kunden handelt, wird ein Premium-Angebot gesendet, andernfalls ein Standardangebot | Warten Sie 3 Tage nach der Begrüßungs-E-Mail, bevor Sie die nächste Nachricht senden |
 
 **Zusammenarbeit**:
 
