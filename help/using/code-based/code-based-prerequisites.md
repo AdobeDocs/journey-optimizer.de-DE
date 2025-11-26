@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 100%
+source-wordcount: '833'
+ht-degree: 83%
 
 ---
 
@@ -24,6 +24,10 @@ Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] verwenden und die 
 * Damit Daten in Ihren Code-basierten Erlebnisberichten angezeigt werden können, müssen Sie diese [Reporting-Voraussetzungen](#reporting-prerequisites) befolgen.
 
 * Stellen Sie beim Erstellen einer [Code-basierten Erlebniskanal-Konfiguration](code-based-configuration.md) sicher, dass Sie eine Zeichenfolge/einen Pfad oder einen Oberflächen-URI eingeben, die mit der in Ihrer eigenen Implementierung deklarierten übereinstimmt. Dadurch wird gewährleistet, dass der Inhalt an der gewünschten Stelle innerhalb der angegebenen App oder Seite bereitgestellt wird. Andernfalls können die Änderungen nicht bereitgestellt werden. [Weitere Informationen](code-based-surface.md)
+
+>[!NOTE]
+>
+>Wenn Sie pseudonyme Profile (nicht authentifizierte Besucher) mit Ihren Code-basierten Erlebnissen anvisieren, sollten Sie eine Time-to-Live (TTL) für das automatische Löschen von Profilen festlegen, um die Anzahl der ansprechbaren Profile und die damit verbundenen Kosten zu verwalten. [Weitere Informationen](#profile-management-guardrail)
 
 ## Voraussetzungen für die Implementierung {#implementation-prerequisites}
 
@@ -70,3 +74,17 @@ Erfahren Sie in [diesem Abschnitt](../reports/reporting-configuration.md#add-dat
 >[!NOTE]
 >
 >Der Datensatz wird schreibgeschützt vom Reporting-System von [!DNL Journey Optimizer] verwendet und hat keine Auswirkungen auf die Erfassung oder Aufnahme von Daten.
+
+## Leitplanken für die Profilverwaltung {#profile-management-guardrail}
+
+[!DNL Journey Optimizer] Code-basierte Erlebnisse können auf pseudonyme Profile abzielen, d. h. auf Profile, die nicht authentifiziert oder noch nicht bekannt sind, weil sie zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dies ist beispielsweise der Fall, wenn die Zielgruppenbestimmung für alle Besucher oder Zielgruppen auf der Grundlage temporärer IDs wie ECID erfolgt.
+
+Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die im Vertrag festgelegte Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Sie können die Anzahl der kontaktierbaren Profile im [Dashboard zur Lizenznutzung](../audience/license-usage.md) überprüfen.
+
+Um die Reichweite Ihrer ansprechbaren Profile auf ein vertretbares Maß zu begrenzen, empfiehlt Adobe, eine Time-to-Live (TTL) festzulegen, um pseudonyme Profile automatisch aus dem Echtzeit-Kundenprofil zu löschen, wenn sie innerhalb eines bestimmten Zeitfensters nicht gesehen oder kontaktiert wurden.
+
+>[!NOTE]
+>
+>Erfahren Sie in der Dokumentation zu [Experience Platform, wie Sie den Ablauf von Daten für pseudonyme Profile konfigurieren](https://experienceleague.adobe.com/de/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
+
+Adobe empfiehlt, den TTL-Wert auf 14 Tage festzulegen, damit er mit der aktuellen Edge-Profil-TTL übereinstimmt.

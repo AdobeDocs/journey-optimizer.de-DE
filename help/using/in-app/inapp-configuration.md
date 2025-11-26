@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '981'
-ht-degree: 100%
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 90%
 
 ---
 
@@ -33,7 +33,6 @@ Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die 
 * Für die [Datenerfassung in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de){target="_blank"} muss ein Datenstrom definiert sein. Dazu können beispielsweise für den **[!UICONTROL Adobe Experience Platform]**-Service die Optionen Adobe Experience Platform Edge und **[!UICONTROL Adobe Journey Optimizer]** aktiviert werden.
 
   Dadurch wird sichergestellt, dass die von Journey Optimizer eingehenden Ereignisse korrekt von Adobe Experience Platform Edge verarbeitet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de){target="_blank"}
-
 
   >[!NOTE]
   >
@@ -143,4 +142,18 @@ Wenn Sie die vordefinierten [Feldergruppen](https://experienceleague.adobe.com/d
 * [Erstellen einer Kampagne](../campaigns/create-campaign.md)
 * [Entwerfen der In-App-Nachricht](design-in-app.md)
 * [In-App-Bericht](../reports/campaign-global-report-cja-inapp.md)
+
+## Leitplanken für die Profilverwaltung {#profile-management-guardrail}
+
+[!DNL Journey Optimizer] In-App-Nachrichten können auf pseudonyme Profile abzielen, d. h. auf Profile, die nicht authentifiziert oder noch nicht bekannt sind, weil sie zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dies ist beispielsweise der Fall, wenn die Zielgruppenbestimmung für alle Besucher oder Zielgruppen auf der Grundlage temporärer IDs wie ECID erfolgt.
+
+Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die im Vertrag festgelegte Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Sie können die Anzahl der kontaktierbaren Profile im [Dashboard zur Lizenznutzung](../audience/license-usage.md) überprüfen.
+
+Um die Reichweite Ihrer ansprechbaren Profile auf ein vertretbares Maß zu begrenzen, empfiehlt Adobe, eine Time-to-Live (TTL) festzulegen, um pseudonyme Profile automatisch aus dem Echtzeit-Kundenprofil zu löschen, wenn sie innerhalb eines bestimmten Zeitfensters nicht gesehen oder kontaktiert wurden.
+
+>[!NOTE]
+>
+>Erfahren Sie in der Dokumentation zu [Experience Platform, wie Sie den Ablauf von Daten für pseudonyme Profile konfigurieren](https://experienceleague.adobe.com/de/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
+
+Adobe empfiehlt, den TTL-Wert auf 14 Tage festzulegen, damit er mit der aktuellen Edge-Profil-TTL übereinstimmt.
 

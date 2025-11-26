@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 73%
 
 ---
 
@@ -47,3 +47,17 @@ Fügen Sie die Feldgruppe **Erlebnisereignis – Interaktion mit dem Angebot** 
   Stellen Sie sicher, dass der im [Datenstrom](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/overview#_blank){target="_blank"} Ihrer App verwendete Datensatz auch in der Konfiguration für das Reporting von Experimenten mit Inhalten enthalten ist. App-Daten werden nicht in Berichten angezeigt, wenn die Datensätze nicht übereinstimmen.
 
   In [diesem Abschnitt](../reports/reporting-configuration.md) erfahren Sie, wie Sie Datensätze für das Reporting zu Inhaltsexperimenten hinzufügen.
+
+## Leitplanken für die Profilverwaltung {#profile-management-guardrail}
+
+[!DNL Journey Optimizer] Inhaltskarten können pseudonyme Profile ansprechen, d. h. Profile, die nicht authentifiziert oder noch nicht bekannt sind, weil sie zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dies ist beispielsweise der Fall, wenn die Zielgruppenbestimmung für alle Besucher oder Zielgruppen auf der Grundlage temporärer IDs wie ECID erfolgt.
+
+Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die im Vertrag festgelegte Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Sie können die Anzahl der kontaktierbaren Profile im [Dashboard zur Lizenznutzung](../audience/license-usage.md) überprüfen.
+
+Um die Reichweite Ihrer ansprechbaren Profile auf ein vertretbares Maß zu begrenzen, empfiehlt Adobe, eine Time-to-Live (TTL) festzulegen, um pseudonyme Profile automatisch aus dem Echtzeit-Kundenprofil zu löschen, wenn sie innerhalb eines bestimmten Zeitfensters nicht gesehen oder kontaktiert wurden.
+
+>[!NOTE]
+>
+>Erfahren Sie in der Dokumentation zu [Experience Platform, wie Sie den Ablauf von Daten für pseudonyme Profile konfigurieren](https://experienceleague.adobe.com/de/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
+
+Adobe empfiehlt, den TTL-Wert auf 14 Tage festzulegen, damit er mit der aktuellen Edge-Profil-TTL übereinstimmt.
