@@ -10,7 +10,7 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Sie können auch die Anleitung zur Kanaleinrichtung verwenden, um die Kanaleinri
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Einstellungen der Kanalkonfiguration"
->abstract="Wählen Sie beim Einrichten einer Kanalkonfiguration den entsprechenden Kanal aus und definieren Sie alle technischen Parameter, die für den Versand erforderlich sind, beispielsweise E-Mail-Typ, Absendername, Mobile Apps und SMS-Konfiguration."
+>abstract="Beim Einrichten einer Kanalkonfiguration den entsdprechenden Kanal auswählen und alle technischen Parameter definieren, die für den Versand erforderlich sind, beispielsweise E-Mail-Typ, Absendername, Mobile Apps und SMS-Konfiguration."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
