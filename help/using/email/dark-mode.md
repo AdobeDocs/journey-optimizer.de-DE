@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: Dunkler Modus, E-Mail, Farbe, Editor
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
 ht-degree: 100%
 
