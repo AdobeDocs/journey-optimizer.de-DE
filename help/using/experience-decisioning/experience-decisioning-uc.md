@@ -7,16 +7,20 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '828'
-ht-degree: 100%
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 98%
 
 ---
 
 # Verwenden der Entscheidungsfindung in einem Code-basierten Erlebnis mit Inhaltsexperimenten {#experience-decisioning-uc}
 
 In diesem Anwendungsfall werden alle Schritte vorgestellt, die zur Verwendung der Entscheidungsfindung mit dem Code-basierten [!DNL Journey Optimizer]-Kanal erforderlich sind.
+
+>[!NOTE]
+>
+>Die alte Entscheidungs-Management-Funktion wird vom Code-basierten Erlebniskanal nicht unterstützt.
 
 In diesem Beispiel ist nicht sicher, ob eine bestimmte Rangfolgenformel besser funktioniert als die vorab zugewiesenen Angebotsprioritäten. Um zu messen, welche Option für die Zielgruppe am besten geeignet ist, erstellen Sie mit der Funktion [Inhaltsexperiment](../content-management/content-experiment.md) eine Kampagne, bei der Sie zwei Abwandlungen für den Versand definieren:
 
