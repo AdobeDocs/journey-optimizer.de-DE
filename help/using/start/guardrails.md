@@ -90,11 +90,11 @@ Für den [SMS-Kanal](../sms/get-started-sms.md) gelten die folgenden Schutzmecha
 
 Damit Sie Aktionen für [Code-basierte Erlebnisse](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] verwenden und eine Payload mit Code-Inhalten bereitstellen zu können, die von Ihren Anwendungen genutzt werden kann, müssen die auf [dieser Seite](../code-based/code-based-prerequisites.md) beschriebenen Voraussetzungen erfüllt sein.
 
-Um in der Benutzeroberfläche von [ auf ](../web/get-started-web.md)Web-Seiten[!DNL Journey Optimizer] zuzugreifen oder sie dort zu erstellen, folgen Sie den Voraussetzungen auf [dieser Seite](../web/web-prerequisites.md).
+Um in der Benutzeroberfläche von [&#x200B; auf &#x200B;](../web/get-started-web.md)Web-Seiten[!DNL Journey Optimizer] zuzugreifen oder sie dort zu erstellen, folgen Sie den Voraussetzungen auf [dieser Seite](../web/web-prerequisites.md).
 
 Um In-App-Nachrichten in Ihren Journey und Kampagnen mit [!DNL Journey Optimizer] zu senden, folgen Sie den Versandvoraussetzungen auf [dieser Seite](../in-app/inapp-configuration.md).
 
-Damit Adobe Journey Optimizer Inhaltskarten korrekt anzeigt, müssen Sie die auf [ Seite aufgelisteten Adobe Experience Platform-Einstellungen ](../content-card/content-card-configuration-prereq.md).
+Damit Adobe Journey Optimizer Inhaltskarten korrekt anzeigt, müssen Sie die auf [&#x200B; Seite aufgelisteten Adobe Experience Platform-Einstellungen &#x200B;](../content-card/content-card-configuration-prereq.md).
 
 * Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde. Diese Leitlinie gilt für alle eingehenden Anfragen, die von jedem der von Journey Optimizer unterstützten eingehenden Kanäle stammen können ([Web](../web/get-started-web.md), [In-App](../in-app/get-started-in-app.md), [Code-basierte Erlebnisse](../code-based/get-started-code-based.md), [Inhaltskarten](../../rp_landing_pages/content-card-landing-page.md)).
 

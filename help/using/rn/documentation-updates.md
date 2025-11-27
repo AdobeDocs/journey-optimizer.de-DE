@@ -21,7 +21,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 ## November 2025 {#november-2025}
 
-* Auf der Seite „Leitplanken und Einschränkungen“ wurde eine [ zum Targeting pseudonymer Profile mit eingehenden Kanälen ](../start/guardrails.md#profile-management-inbound). Diese Leitplanke gibt an, dass die Zielgruppenbestimmung für Profile, die nicht authentifiziert oder noch nicht bekannt sind, die Gesamtzahl der kontaktierbaren Profile erhöht und sich auf Ihre Abrechnung auswirken kann. Aus diesem Grund empfiehlt Adobe die Festlegung einer Time-to-Live (TTL) für das automatische Löschen von Profilen, um die Anzahl der interagierbaren Profile und die damit verbundenen Kosten zu verwalten.
+* Auf der Seite „Leitplanken und Einschränkungen“ wurde eine [&#x200B; zum Targeting pseudonymer Profile mit eingehenden Kanälen &#x200B;](../start/guardrails.md#profile-management-inbound). Diese Leitplanke gibt an, dass die Zielgruppenbestimmung für Profile, die nicht authentifiziert oder noch nicht bekannt sind, die Gesamtzahl der kontaktierbaren Profile erhöht und sich auf Ihre Abrechnung auswirken kann. Aus diesem Grund empfiehlt Adobe die Festlegung einer Time-to-Live (TTL) für das automatische Löschen von Profilen, um die Anzahl der interagierbaren Profile und die damit verbundenen Kosten zu verwalten.
 
 * Es wurde ein Hinweis hinzugefügt, in dem angegeben wird, dass Assets und Bilder bis zu zwei Jahre (730 Tage) ab der ersten Veröffentlichung verfügbar bleiben und nach Ablauf erneut veröffentlicht werden müssen. [Weitere Informationen](../content-management/proofs.md)
 
