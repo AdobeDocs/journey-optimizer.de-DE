@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 81%
@@ -17,11 +17,11 @@ ht-degree: 81%
 
 Wenn Sie die Entscheidungsfindung in Code-basierten Erlebnissen verwenden, sollten Sie in den nachfolgend beschriebenen Fällen die folgenden Markierungen zu Ihrer Client-Implementierung hinzufügen.
 
-➡️ Weitere Informationen zum Konfigurieren der Web-SDK für Entscheidungs- und Code-basierte Erlebnisse finden Sie in [diesen Tutorials](#tutorials).
-
 >[!CAUTION]
 >
 >Der Code-basierte Erlebniskanal unterstützt nur die Funktion [!DNL Journey Optimizer] [Decisioning](../experience-decisioning/gs-experience-decisioning.md). Die alte Entscheidungs-Management-Funktion ist nicht für Code-basierte Erlebnisse verfügbar.
+
+➡️ Weitere Informationen zum Konfigurieren der Web-SDK für Entscheidungs- und Code-basierte Erlebnisse finden Sie in [diesen Tutorials](#tutorials).
 
 ## Testen von Code-basierten Erlebnissen mithilfe von Entscheidungen {#code-based-test-decisions}
 
@@ -295,8 +295,8 @@ Nehmen wir an, Sie verwenden dieselbe Entscheidungsrichtlinie mit Kopf- und Fuß
 
 +++
 
-## Tutorials{#tutorials}
+## Tutorials {#tutorials}
 
-Erfahren Sie in diesem Tutorial, wie Sie mithilfe von Decisioning in Journey Optimizer Inhaltsangebote auf Ihrer Website personalisieren können, wobei der Schwerpunkt auf der Konfiguration von Web[SDK &#x200B;](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
+Erfahren Sie in diesem Tutorial, wie Sie mithilfe von Decisioning in Journey Optimizer Inhaltsangebote auf Ihrer Website personalisieren können, wobei der Schwerpunkt auf der Konfiguration von Web[SDK ](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
 
-Erfahren Sie in diesem Tutorial, wie Sie die Web-SDK konfigurieren und Decisioning mit Code-basierten Erlebnissen verwenden, um Angebote mithilfe von Echtzeit-Wetterdaten und kontextuellen Informationen [&#x200B; personalisieren](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
+Erfahren Sie in diesem Tutorial, wie Sie die Web-SDK konfigurieren und Decisioning mit Code-basierten Erlebnissen verwenden, um Angebote mithilfe von Echtzeit-Wetterdaten und kontextuellen Informationen [ personalisieren](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.

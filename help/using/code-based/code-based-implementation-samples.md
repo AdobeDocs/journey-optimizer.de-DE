@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 85%
+source-wordcount: '814'
+ht-degree: 84%
 
 ---
 
@@ -24,6 +24,8 @@ Code-basierte Erlebnisse unterstützen jede Art von Kundenimplementierung. Auf d
 >[!IMPORTANT]
 >
 >Unter [diesem Link](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} finden Sie Beispielimplementierungen für verschiedene Anwendungsfälle für Personalisierung und Experimente. Sehen Sie sich die Anwendungsfälle an und führen Sie sie aus, um besser zu verstehen, welche Implementierungsschritte erforderlich sind und wie der vollständige Personalisierungsfluss funktioniert.
+
+➡️ Weitere Informationen zum Konfigurieren der Web-SDK für Entscheidungs- und Code-basierte Erlebnisse finden Sie in [diesen Tutorials](code-based-decisioning-implementations.md#tutorials)
 
 ## Client-seitige Implementierung {#client-side-implementation}
 
@@ -317,4 +319,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->

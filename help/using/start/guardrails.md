@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
-source-wordcount: '3331'
+source-wordcount: '3324'
 ht-degree: 87%
 
 ---
@@ -88,17 +88,17 @@ Für den [SMS-Kanal](../sms/get-started-sms.md) gelten die folgenden Schutzmecha
 
 ### Leitlinien für eingehende Kanäle {#inbound-guardrails}
 
-Damit Sie Aktionen für [Code-basierte Erlebnisse](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] verwenden und eine Payload mit Code-Inhalten bereitstellen zu können, die von Ihren Anwendungen genutzt werden kann, müssen die auf [dieser Seite](../code-based/code-based-prerequisites.md) beschriebenen Voraussetzungen erfüllt sein.
+* Damit Sie Aktionen für [Code-basierte Erlebnisse](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] verwenden und eine Payload mit Code-Inhalten bereitstellen zu können, die von Ihren Anwendungen genutzt werden kann, müssen die auf [dieser Seite](../code-based/code-based-prerequisites.md) beschriebenen Voraussetzungen erfüllt sein.
 
-Um in der Benutzeroberfläche von [&#x200B; auf &#x200B;](../web/get-started-web.md)Web-Seiten[!DNL Journey Optimizer] zuzugreifen oder sie dort zu erstellen, folgen Sie den Voraussetzungen auf [dieser Seite](../web/web-prerequisites.md).
+* Um in der Benutzeroberfläche von [ auf ](../web/get-started-web.md)Web-Seiten[!DNL Journey Optimizer] zuzugreifen oder sie dort zu erstellen, folgen Sie den Voraussetzungen auf [dieser Seite](../web/web-prerequisites.md).
 
-Um In-App-Nachrichten in Ihren Journey und Kampagnen mit [!DNL Journey Optimizer] zu senden, folgen Sie den Versandvoraussetzungen auf [dieser Seite](../in-app/inapp-configuration.md).
+* Um In-App-Nachrichten in Ihren Journey und Kampagnen mit [!DNL Journey Optimizer] zu senden, folgen Sie den Versandvoraussetzungen auf [dieser Seite](../in-app/inapp-configuration.md).
 
-Damit Adobe Journey Optimizer Inhaltskarten korrekt anzeigt, müssen Sie die auf [&#x200B; Seite aufgelisteten Adobe Experience Platform-Einstellungen &#x200B;](../content-card/content-card-configuration-prereq.md).
+* Damit Adobe Journey Optimizer Inhaltskarten korrekt anzeigt, müssen Sie die auf [ Seite aufgelisteten Adobe Experience Platform-Einstellungen ](../content-card/content-card-configuration-prereq.md).
 
 * Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde. Diese Leitlinie gilt für alle eingehenden Anfragen, die von jedem der von Journey Optimizer unterstützten eingehenden Kanäle stammen können ([Web](../web/get-started-web.md), [In-App](../in-app/get-started-in-app.md), [Code-basierte Erlebnisse](../code-based/get-started-code-based.md), [Inhaltskarten](../../rp_landing_pages/content-card-landing-page.md)).
 
-* Journey Optimizer unterstützt zu jedem Zeitpunkt maximal 500 aktive eingehende Aktionen. Diese eingehenden Aktionen ([Web](../web/get-started-web.md), [In-App](../in-app/get-started-in-app.md), [Code-basierte Erlebnisse](../code-based/get-started-code-based.md), [Inhaltskarten](../../rp_landing_pages/content-card-landing-page.md)) werden gezählt, wenn sie Teil einer Live-Kampagne sind oder wenn sie ein Knoten sind, der in einer Live-Journey verwendet wird. Sobald diese Anzahl erreicht ist, müssen Sie ältere Kampagnen oder Journeys deaktivieren, die eingehende Aktionen verwenden, bevor neue gestartet werden können.
+* Journey Optimizer unterstützt zu jedem Zeitpunkt maximal 500 aktive eingehende Aktionen. Diese eingehenden Aktionen werden gezählt, wenn sie Teil einer Live-Kampagne sind oder wenn sie ein Knoten sind, der auf einer Live-Journey verwendet wird. Sobald diese Anzahl erreicht ist, müssen Sie ältere Kampagnen oder Journeys deaktivieren, die eingehende Aktionen verwenden, bevor neue gestartet werden können.
 
 #### Profilverwaltung mit eingehenden Kanälen {#profile-management-inbound}
 
@@ -152,7 +152,7 @@ Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutz
 
 * Bei der Datenaufnahme wird bei E-Mails die Groß- und Kleinschreibung beachtet. Das bedeutet, dass möglicherweise doppelte Profile erstellt (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.greene@luma.com) und beim Targeting der entsprechenden Person in Ihren [!DNL Journey Optimizer]-Journeys und Kampagnen verwendet werden.
 
-* Wenn Sie pseudonyme Profile (nicht authentifizierte Besucher) mit Ihren Inhaltskarten als Ziel auswählen, sollten Sie eine Time-to-Live (TTL) für das automatische Löschen von Profilen festlegen, um die Anzahl Ihrer interagierbaren Profile und die damit verbundenen Kosten zu verwalten. [Weitere Informationen](#profile-management-inbound)
+* Wenn pseudonyme Profile (nicht authentifizierte Besucher) mit eingehenden Kanälen angesprochen werden, sollten Sie eine Time-to-Live (TTL) für die automatische Profillöschung festlegen, um die Anzahl der ansprechbaren Profile und die damit verbundenen Kosten zu verwalten. [Weitere Informationen](#profile-management-inbound)
 
 ## Leitlinien für die Entscheidungsfindung und das Entscheidungs-Management {#decisioning-guardrails}
 
