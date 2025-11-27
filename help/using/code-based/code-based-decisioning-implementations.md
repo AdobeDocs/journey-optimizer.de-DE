@@ -297,6 +297,6 @@ Nehmen wir an, Sie verwenden dieselbe Entscheidungsrichtlinie mit Kopf- und Fuß
 
 ## Tutorials {#tutorials}
 
-Erfahren Sie in diesem Tutorial, wie Sie mithilfe von Decisioning in Journey Optimizer Inhaltsangebote auf Ihrer Website personalisieren können, wobei der Schwerpunkt auf der Konfiguration von Web[SDK &#x200B;](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
+Erfahren Sie in diesem Tutorial, wie Sie mithilfe von Decisioning in Journey Optimizer Inhaltsangebote auf Ihrer Website personalisieren können, wobei der Schwerpunkt auf der Konfiguration von Web[SDK ](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
 
-Erfahren Sie in diesem Tutorial, wie Sie die Web-SDK konfigurieren und Decisioning mit Code-basierten Erlebnissen verwenden, um Angebote mithilfe von Echtzeit-Wetterdaten und kontextuellen Informationen [&#x200B; personalisieren](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
+Erfahren Sie in diesem Tutorial, wie Sie die Web-SDK konfigurieren und Decisioning mit Code-basierten Erlebnissen verwenden, um Angebote mithilfe von Echtzeit-Wetterdaten und kontextuellen Informationen [ personalisieren](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
