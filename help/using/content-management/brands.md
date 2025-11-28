@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 9cd13e97315daef36918d4352f182efe0d3d9c7a
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 100%
+source-wordcount: '1615'
+ht-degree: 87%
 
 ---
 
@@ -275,11 +275,21 @@ So personalisieren Sie Ihren **[!UICONTROL Schreibstil]**:
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Schreibstil]** auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um eine Richtlinie, eine Ausnahme oder einen Ausschluss hinzuzufügen.
 
-1. Geben Sie die Richtlinie, die Ausnahme oder den Ausschluss ein und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Geben Sie Richtlinie, Ausnahme oder Ausschluss ein. Sie können auch &quot;**[!UICONTROL &quot;]**, um die Anwendung besser zu veranschaulichen.
 
    ![](assets/brands-3.png)
 
-1. Wählen Sie eine der Richtlinien bzw. einen der Ausschlüsse aus, die aktualisiert oder gelöscht werden sollen.
+1. Geben Sie den Nutzungskontext für Ihre Richtlinie, Ausnahme oder Ausschluss an:
+
+   * **[!UICONTROL Kanaltyp]**: Wählen Sie aus, wo diese Richtlinie, Ausnahme oder Ausnahme gelten soll. Beispielsweise soll ein bestimmter Schreibstil nur in E-Mail-, Mobile-, Druck- oder anderen Kommunikationskanälen angezeigt werden.
+
+   * **[!UICONTROL Elementtyp]**: Geben Sie an, für welches Inhaltselement die Regel gilt. Dazu können Elemente wie Überschriften, Schaltflächen, Links oder andere Komponenten in Ihrem Inhalt gehören.
+
+     ![](assets/brands-16.png)
+
+1. Nachdem Sie Ihre Richtlinie, Ausnahme oder Ausnahme eingerichtet haben, klicken Sie auf **[!UICONTROL Hinzufügen]**.
+
+1. Wählen Sie bei Bedarf eine der Richtlinien oder einen Ausschluss aus, die aktualisiert oder gelöscht werden sollen.
 
 1. Klicken Sie auf ![Alternativtext für Detailbild](assets/do-not-localize/Smock_Edit_18_N.svg "Bearbeiten"), um Ihr Beispiel zu bearbeiten, oder klicken Sie auf das Symbol ![Alternativtext für Detailbild](assets/do-not-localize/Smock_Delete_18_N.svg "Löschen"), um es zu löschen.
 
@@ -337,18 +347,29 @@ So personalisieren Sie Ihren **[!UICONTROL visuellen Inhalt]**:
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Visueller Inhalt]** auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um eine Richtlinie, einen Ausschluss oder ein Beispiel hinzuzufügen.
 
-1. Geben Sie Ihre Richtlinie, Ihren Ausschluss oder Ihr Beispiel ein und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Geben Sie Ihre Richtlinie, Ihren Ausschluss oder Ihr Beispiel ein.
 
    ![](assets/brands-4.png)
+
+1. Geben Sie den Nutzungskontext für Ihre Richtlinie oder Ihren Ausschluss an:
+
+   * **[!UICONTROL Kanaltyp]**: Wählen Sie aus, wo diese Richtlinie, Ausnahme oder Ausnahme gelten soll. Beispielsweise soll ein bestimmter Schreibstil nur in E-Mail-, Mobile-, Druck- oder anderen Kommunikationskanälen angezeigt werden.
+
+   * **[!UICONTROL Elementtyp]**: Geben Sie an, für welches Inhaltselement die Regel gilt. Dazu können Elemente wie Überschriften, Schaltflächen, Links oder andere Komponenten in Ihrem Inhalt gehören.
+
+     ![](assets/brands-16.png)
+
+1. Nachdem Sie Ihre Richtlinie, Ausnahme oder Ausnahme eingerichtet haben, klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
 1. Um ein Bild zum Veranschaulichen der korrekten Verwendung hinzuzufügen, wählen Sie **[!UICONTROL Beispiel]** und klicken Sie auf **[!UICONTROL Bild auswählen]**. Sie können auch ein Bild zur Veranschaulichung der inkorrekten Verwendung als Ausschlussbeispiel hinzufügen.
 
    ![](assets/brands-13.png)
 
-1. Wählen Sie eine der Richtlinien bzw. einen der Ausschlüsse aus, die aktualisiert oder gelöscht werden sollen.
+1. Wählen Sie bei Bedarf eine der Richtlinien oder einen Ausschluss aus, die aktualisiert oder gelöscht werden sollen.
 
 1. Wählen Sie eine Richtlinie oder einen Ausschluss aus, um diese bzw. diesen zu aktualisieren. Klicken Sie zum Löschen auf das Symbol ![Alternativtext für Detailbild](assets/do-not-localize/Smock_Delete_18_N.svg "Löschen").
 
    ![](assets/brands-14.png)
 
 Nun können Sie Ihre Marke weiter personalisieren oder [veröffentlichen](#create-brand-kit).
+
