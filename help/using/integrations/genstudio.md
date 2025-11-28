@@ -91,8 +91,8 @@ Diese Integration erschließt leistungsstarke Funktionen für Ihre Marketing-Org
 
 ### Häufige Anwendungsfälle {#genstudio-use-cases}
 
-Die Integration zwischen [!DNL GenStudio for Performance Marketing] und [!DNL
-Journey Optimizer] unterstützt verschiedene Marketing-Szenarien:
+Die Integration zwischen [!DNL GenStudio for Performance Marketing] und 
+Journey Optimizer&rbrack; unterstützt verschiedene Marketing-Szenarien:
 
 * **Produkteinführungskampagnen**: Generieren Sie schnell mehrere E-Mail-Varianten für Produktankündigungen, testen Sie sie mit verschiedenen Zielgruppensegmenten und skalieren Sie die erfolgreichste Version für Ihren Kundenstamm.
 
@@ -190,7 +190,7 @@ Die Integration ist derzeit für Organisationen, die die Add-on **Angebote Healt
 
 +++Kann ich GenStudio-Inhalte bearbeiten, nachdem ich sie in Journey Optimizer importiert habe?
 
-Ja, nachdem Sie GenStudio-Erlebnisse in [!DNL Journey Optimizer] importiert haben, können Sie die [Inhaltsbearbeitungs-Tools“ von E-Mail-Designer verwenden ](../email/content-from-scratch.md) ([) ](../personalization/personalize.md), um Ihren E-Mail-Inhalt weiter anzupassen.
+Ja, nachdem Sie GenStudio-Erlebnisse in [!DNL Journey Optimizer] importiert haben, können Sie die [Inhaltsbearbeitungs-Tools“ von E-Mail-Designer verwenden &#x200B;](../email/content-from-scratch.md) ([) &#x200B;](../personalization/personalize.md), um Ihren E-Mail-Inhalt weiter anzupassen.
 +++
 
 +++Was passiert mit GenStudio-Erlebnissen, die ohne Journey Optimizer-Vorlage erstellt wurden?
