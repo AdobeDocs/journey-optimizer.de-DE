@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1482'
-ht-degree: 100%
+source-git-commit: 502f26ba3f8f5fa0db73be9f0cf66b21dbea507b
+workflow-type: tm+mt
+source-wordcount: '1577'
+ht-degree: 94%
 
 ---
 
@@ -190,6 +190,16 @@ Damit Adobe den DMARC-Eintrag für Sie verwalten kann, wählen Sie die Option **
    Als Best Practice sollten Sie eine hohe DMARC-Konformitätsrate anstreben, die idealerweise nahe bei 100 % liegt, um die Sicherheitsvorteile zu maximieren und gleichzeitig das Risiko von Fehlalarmen zu minimieren.
 
 1. Wählen Sie eine **Berichtsintervall** zwischen 24 und 168 Stunden aus. Eigentümerinnen und Eigentümer von Domains können damit regelmäßige Updates zu E-Mail-Authentifizierungsergebnissen erhalten und die erforderlichen Maßnahmen zur Verbesserung der E-Mail-Sicherheit ergreifen.
+
+### Fehlerbehebung {#troubleshooting}
+
+Das Einrichten eines DMARC-Eintrags umfasst das Hinzufügen eines DNS-TXT-Eintrags zu den DNS-Einstellungen Ihrer Domain. Dieser Datensatz gibt Ihre DMARC-Richtlinie an, z. B. ob Nachrichten, die bei der Authentifizierung fehlschlagen, unter Quarantäne gestellt oder abgelehnt werden sollen.
+
+DNS-Änderungen werden erst nach einiger Zeit über das Internet propagiert, in der Regel zwischen einigen Minuten und 48 Stunden.
+
+Wenn Sie gerade eine DMARC-Konfigurationsänderung vorgenommen haben und versuchen, das Update sofort zu überprüfen, werden möglicherweise Fehler angezeigt oder die Änderungen werden noch nicht erkannt.
+
+Warten Sie ausreichend lange, bis die DNS-Einträge übertragen wurden, bevor Sie versuchen, Ihr DMARC-Setup zu überprüfen.
 
 <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
