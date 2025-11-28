@@ -189,7 +189,7 @@ Die Integration ist derzeit für Organisationen, die die Add-on **Angebote Healt
 
 +++Kann ich GenStudio-Inhalte bearbeiten, nachdem ich sie in Journey Optimizer importiert habe?
 
-Ja, nachdem Sie GenStudio-Erlebnisse in [!DNL Journey Optimizer] importiert haben, können Sie die [Inhaltsbearbeitungs-Tools“ von E-Mail-Designer verwenden ](../email/content-from-scratch.md) ([) ](../personalization/personalize.md), um Ihren E-Mail-Inhalt weiter anzupassen.
+Ja, nachdem Sie GenStudio-Erlebnisse in [!DNL Journey Optimizer] importiert haben, können Sie die [Inhaltsbearbeitungs-Tools“ von E-Mail-Designer verwenden &#x200B;](../email/content-from-scratch.md) ([) &#x200B;](../personalization/personalize.md), um Ihren E-Mail-Inhalt weiter anzupassen.
 +++
 
 +++Was passiert mit GenStudio-Erlebnissen, die ohne Journey Optimizer-Vorlage erstellt wurden?
