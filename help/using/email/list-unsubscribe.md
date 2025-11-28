@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1693'
-ht-degree: 100%
+source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
+workflow-type: tm+mt
+source-wordcount: '1704'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Je nach E-Mail-Client und den Abmeldeeinstellungen der E-Mail-Konfiguration kann
 >
 >In [diesem nachstehenden Abschnitt](#enable-list-unsubscribe) erfahren Sie, wie Sie die Abmeldeeinstellungen verwalten.
 
-Wenn eine Empfängerin oder ein Empfänger auf den Ausschluss-Link klickt, wird die Abmeldeanfrage entsprechend verarbeitet. Das entsprechende Profil wird sofort abgemeldet und diese Auswahl wird in [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"} aktualisiert.
+Wenn eine Empfängerin oder ein Empfänger auf den Ausschluss-Link klickt, wird die Abmeldeanfrage entsprechend verarbeitet. Das entsprechende Profil wird sofort abgemeldet und in [Experience Platform aktualisiert](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de){target="_blank"}. Weitere Informationen zur Einverständnisverarbeitung finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}.
 
 >[!NOTE]
 >

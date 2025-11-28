@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '991'
-ht-degree: 100%
+source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Mö
 
 Wenn eine Empfängerin oder ein Empfänger auf den Ausschluss-Link klickt, wird die Abmeldeanfrage entsprechend verarbeitet. 
 
-Um zu überprüfen, ob die Auswahl des entsprechenden Profils aktualisiert wurde, navigieren Sie zu Experience Platform und [rufen Sie das Profil auf](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide#attributes-tab). Auf der Registerkarte **[!UICONTROL Attribute]** sehen Sie, dass der Wert für **[!UICONTROL choice]** in **[!UICONTROL no]** geändert wurde. Weitere Informationen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+Um zu überprüfen, ob die Auswahl des entsprechenden Profils aktualisiert wurde, navigieren Sie zu Experience Platform und [rufen Sie das Profil auf](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Auf der [Registerkarte Attribute](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"} sehen Sie, dass der Wert für **[!UICONTROL choice]** auf **[!UICONTROL no]** geändert wurde. Weitere Informationen zur Einverständnisverarbeitung finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
