@@ -39,7 +39,7 @@ Um die Marketing-Effizienz zu verbessern und die Markenkonsistenz zu wahren, kö
 
 >[!INFO]
 >
->Weitere Informationen finden Sie in diesem [Überblick](https://business.adobe.com/products/genstudio-for-performance-marketing.html?lang=de#watch-overview){target="_blank"} und einer [Demo](https://business.adobe.com/products/genstudio-for-performance-marketing.html?lang=de#demo){target="_blank"} zu [!DNL Adobe GenStudio for Performance Marketing].
+>Weitere Informationen finden Sie in diesem [Überblick](https://business.adobe.com/de/products/genstudio-for-performance-marketing.html?lang=de#watch-overview){target="_blank"} und einer [Demo](https://business.adobe.com/de/products/genstudio-for-performance-marketing.html?lang=de#demo){target="_blank"} zu [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -51,7 +51,7 @@ Um die [!DNL GenStudio for Performance Marketing] Integration mit [!DNL Journey 
 
 * Sowohl [!DNL GenStudio for Performance Marketing] als auch [!DNL Adobe Journey Optimizer] müssen derselben IMS-Organisation angehören.
 
-* Benutzer müssen mindestens über die Rolle **Mitarbeiter** oder höher verfügen, [!DNL GenStudio for Performance Marketing] die Integrationsfunktionen nutzen zu können. [Erfahren Sie mehr über Benutzerrollen in GenStudio](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* Benutzer müssen mindestens über die Rolle **Mitarbeiter** oder höher verfügen, [!DNL GenStudio for Performance Marketing] die Integrationsfunktionen nutzen zu können. [Erfahren Sie mehr über Benutzerrollen in GenStudio](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
 
