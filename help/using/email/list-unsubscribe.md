@@ -259,7 +259,7 @@ Abfrageparameter:
 
    * Geparster Wert: *v1.xyz*
 
-API-Beispiel: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
+API-Beispiel: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
