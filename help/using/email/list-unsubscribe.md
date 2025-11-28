@@ -43,7 +43,7 @@ Je nach E-Mail-Client und den Abmeldeeinstellungen der E-Mail-Konfiguration kann
 >
 >In [diesem nachstehenden Abschnitt](#enable-list-unsubscribe) erfahren Sie, wie Sie die Abmeldeeinstellungen verwalten.
 
-Wenn eine Empfängerin oder ein Empfänger auf den Ausschluss-Link klickt, wird die Abmeldeanfrage entsprechend verarbeitet. Das entsprechende Profil wird sofort abgemeldet und in [Experience Platform aktualisiert](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de){target="_blank"}. Weitere Informationen zur Einverständnisverarbeitung finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}.
+Wenn eine Empfängerin oder ein Empfänger auf den Ausschluss-Link klickt, wird die Abmeldeanfrage entsprechend verarbeitet. Das entsprechende Profil wird sofort abgemeldet und in [Experience Platform aktualisiert](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de){target="_blank"}. Weitere Informationen zur Einverständnisverarbeitung finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=de){target="_blank"}.
 
 >[!NOTE]
 >
