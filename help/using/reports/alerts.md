@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2153'
-ht-degree: 100%
+source-git-commit: 767eb74a6ba13013b290eaa28ba8ff590e8b6781
+workflow-type: tm+mt
+source-wordcount: '2216'
+ht-degree: 97%
 
 ---
 
@@ -91,7 +91,7 @@ Gehen Sie wie folgt vor, um einen Warnhinweis für eine bestimmte Journey zu abo
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Journey-Warnhinweise {#journey-alerts}
 
@@ -158,11 +158,19 @@ Um Profilfehler zu beheben, können Sie die Daten in Schrittereignissen abfragen
 
 ### Journey veröffentlicht {#alert-journey-published}
 
+>[!AVAILABILITY]
+>
+>Dieser Warnhinweis ist derzeit mit eingeschränkter Funktionalität verfügbar. Sie können diesen Warnhinweis zwar abonnieren, aber die Benachrichtigungen sind noch nicht voll funktionsfähig.
+
 Dieser Warnhinweis informiert Sie, wenn eine Journey von jemandem auf der Journey-Arbeitsfläche veröffentlicht wurde.
 
 Dies ist ein informativer Warnhinweis, mit dem Sie Journey-Lebenszyklusereignisse in Ihrem Unternehmen verfolgen können. Es gibt keine Auflösungskriterien, da es sich um eine einmalige Benachrichtigung handelt.
 
 ### Journey abgeschlossen {#alert-journey-finished}
+
+>[!AVAILABILITY]
+>
+>Dieser Warnhinweis ist derzeit mit eingeschränkter Funktionalität verfügbar. Sie können diesen Warnhinweis zwar abonnieren, aber die Benachrichtigungen sind noch nicht voll funktionsfähig.
 
 Dieser Warnhinweis informiert Sie, wenn eine Journey abgeschlossen wurde. Die Definition von „abgeschlossen“ hängt vom Journey-Typ ab:
 
@@ -177,6 +185,10 @@ Dieser Warnhinweis informiert Sie, wenn eine Journey abgeschlossen wurde. Die De
 Dies ist ein informativer Warnhinweis, mit dem Sie den Abschluss der Journey verfolgen können. Es gibt keine Auflösungskriterien, da es sich um eine einmalige Benachrichtigung handelt.
 
 ### Begrenzung benutzerdefinierter Aktionen ausgelöst {#alert-custom-action-capping}
+
+>[!AVAILABILITY]
+>
+>Dieser Warnhinweis ist derzeit mit eingeschränkter Funktionalität verfügbar. Sie können diesen Warnhinweis zwar abonnieren, aber die Benachrichtigungen sind noch nicht voll funktionsfähig.
 
 Dieser Warnhinweis warnt Sie, wenn bei einer benutzerdefinierten Aktion eine Begrenzung ausgelöst wurde. Mit einer Begrenzung wird die Anzahl der an einen externen Endpunkt gesendeten Aufrufe begrenzt, um zu verhindern, dass der Endpunkt überlastet wird.
 
