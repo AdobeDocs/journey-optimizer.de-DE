@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: e42640e791e6bec3bfd09a3095bad5e44e2ab128
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '796'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,12 @@ Auf dieser Seite finden Sie Antworten auf häufig gestellte Fragen zu den Entsch
 
 ## Begrenzungsregeln {#capping-rules}
 
-+++**Was passiert, wenn Sie mehr als eine Begrenzungsregel für ein Angebot erstellen? Wird das Angebot nicht mehr angezeigt, wenn eine oder alle Begrenzungsregeln erfüllt sind?**
++++**Was passiert, wenn mehrere Begrenzungsregeln auf ein einzelnes Angebot angewendet werden?**
 
-Das Angebot wird begrenzt, sobald **eine Bedingung erfüllt ist**. Dies bedeutet, dass eine der Begrenzungsregeln die Anzeige des Angebots verhindert, sobald sein Schwellenwert erreicht ist.
+Ein Angebot wird begrenzt, sobald **eine einzelne Bedingung erfüllt ist**. Wenn mehrere Begrenzungsregeln vorhanden sind, wird das Angebot nicht mehr angezeigt, sobald eine Regel ihren Schwellenwert erreicht.
 
-Wenn Sie beispielsweise zwei Begrenzungsregeln haben:
+**Beispiel:**
+Wenn Sie zwei Begrenzungsregeln für ein Angebot definieren:
 * 5-mal pro Profil pro Woche
 * 100-mal über alle Benutzer hinweg
 
@@ -37,61 +38,63 @@ Weitere Informationen zu [Begrenzungsregeln](items.md#capping).
 
 ## Rangfolgenformeln {#ranking-formulas}
 
-+++**Warum sollte ich eine Zielgruppe zu einem KI-Modell hinzufügen? Was ist der Vorteil des Hinzufügens von Zielgruppen gegenüber einem vollständigen Datensatz? Wird das Modell eingeschränkt oder erweitert?**
++++**Welche Rolle spielen Zielgruppen in KI-Modellen?**
 
-Beim Arbeiten mit KI-Modellen (insbesondere [personalisierte Optimierungsmodelle](ranking/personalized-optimization-model.md)):
+Beim Konfigurieren [personalisierter Optimierungsmodelle](ranking/personalized-optimization-model.md) dienen sowohl Datensätze als auch Zielgruppen unterschiedlichen Zwecken:
 
-* **Datensätze** werden hinzugefügt, um Ihre Konversionsereignisse (Klicks, Bestellungen, Umsatz) zu erfassen. Dies sind die Ergebnisse, für die das Modell zu optimieren versucht.
-* **Zielgruppen** werden hinzugefügt, um sie als Prädiktorvariablen im Modell zu verwenden. Sie helfen bei der Personalisierung von Prognosen, um Klicks, Bestellungen oder Umsätze für verschiedene Kundensegmente vorherzusagen.
+* **Datensätze**: Erfasst Konversionsereignisse (Klicks, Bestellungen, Umsatz), die als Optimierungsziele für das Modell dienen.
+* **Zielgruppen**: Sie dienen als Prädiktorvariablen, mit denen das Modell Empfehlungen basierend auf der Zugehörigkeit zu einem Kundensegment personalisieren kann.
 
-Datensätze und Audiences sind erforderlich, damit das Modell der personalisierten Optimierung effektiv funktioniert. Zielgruppen **das Modell weder** noch erweitern, sondern bieten stattdessen zusätzlichen Kontext, der dem Modell hilft, bessere personalisierte Entscheidungen zu treffen.
+Zielgruppen schränken den Umfang des Modells nicht ein und erweitern ihn nicht. Stattdessen bieten sie kontextuelle Attribute, die die Fähigkeit des Modells verbessern, personalisierte Prognosen über verschiedene Kundensegmente hinweg zu erstellen.
 
-Weitere Informationen zu [KI-Modellen](ranking/ai-models.md).
+Beide Komponenten sind für eine effektive Leistung des personalisierten Optimierungsmodells erforderlich. Weitere Informationen zu [KI-Modellen](ranking/ai-models.md).
 
 +++
 
-+++**Hat das Hinzufügen oder Entfernen von Angeboten zu einer Sammlung Auswirkungen auf das Modell, wenn ich Modelle mit automatischer Optimierung oder personalisierter Optimierung verwende?**
++++**Wie wirken sich Änderungen an Angebotssammlungen auf KI-Modelle aus, wenn Modelle für die automatische Optimierung oder die personalisierte Optimierung verwendet werden?**
 
 Beide Modelle liefern Traffic zum nächstbesten verfügbaren Angebot, das auf Traffic-Daten der letzten 30 Tage basiert.
 
-Wenn mehrere Angebote gleichzeitig entfernt werden und die verbleibenden Angebote in den letzten 30 Tagen nur sehr wenig Traffic erhalten haben, kann sich die Angebotsverteilung unerwartet verhalten. Dies könnte zu einer zufälligen Verteilung oder zu Verzerrungen bei bestimmten Angeboten führen, die eine höhere Konversionsrate basierend auf nur wenigen Impressions aufweisen.
+Wenn mehrere Angebote gleichzeitig entfernt werden und die verbleibenden Angebote innerhalb des 30-tägigen Fensters minimale Traffic-Daten haben, kann das Modell ein suboptimales Verhalten aufweisen, darunter:
+* Zufällige Verteilungsmuster
+* Tendenz zu Angeboten mit höheren Konversionsraten auf der Basis begrenzter Impression-Daten
 
-**Best Practice**: Wenn Sie wesentliche Änderungen an Angebotssammlungen vornehmen, stellen Sie sicher, dass die verbleibenden Angebote über ausreichende historische Leistungsdaten verfügen, um eine optimale Modellleistung aufrechtzuerhalten.
+**Best Practice**: Wenn Sie Angebotssammlungen erheblich ändern, überprüfen Sie, ob die verbleibenden Angebote über ausreichende historische Leistungsdaten verfügen, um die Modelleffektivität aufrechtzuerhalten.
 
 +++
 
-+++**Wie lange dauert es, bis die KI-Modelle verstehen, dass neue Inhalte hinzugefügt wurden, und beginnen, sie zum Mix hinzuzufügen?**
++++**Wie schnell binden KI-Modelle neue Angebote ein?**
 
-Beide KI-Modelle identifizieren beim nächsten Trainings-Lauf neu verfügbare Angebote:
+KI-Modelle identifizieren und beginnen mit dem Testen neu verfügbarer Angebote im nächsten Trainings-Zyklus:
 
 * **Automatische Optimierung**: Tägliche Trainings-Läufe
 * **Personalisierte Optimierung**: Wöchentliche Trainings-Läufe
 
 Sobald sie identifiziert sind, beginnen beide Modelle sofort damit, einigen Besuchern die neuen Angebote zu unterbreiten, um ihre Leistung zu testen und Daten über ihre Effektivität zu sammeln.
 
-Erfahren Sie mehr über [automatische Optimierung](ranking/auto-optimization-model.md) und [personalisierte &#x200B;](ranking/personalized-optimization-model.md)).
+Erfahren Sie mehr über [automatische Optimierung](ranking/auto-optimization-model.md) und [personalisierte ](ranking/personalized-optimization-model.md)).
 
 +++
 
-+++**Wenn wir in den KI-Modellen keine Kontrollgruppen haben, lernen wir dann den gesamten Traffic und optimieren ihn, alles zur gleichen Zeit?**
++++**Wie optimieren KI-Modelle ohne Kontrollgruppen?**
 
-Ja. Beide KI-Modelle (automatische Optimierung und personalisierte Optimierung) verwenden einen „Explore and Exploit“-Ansatz:
+Sowohl Modelle für die automatische Optimierung als auch für die personalisierte Optimierung verwenden eine Explore-Exploit-Strategie, die keine dedizierten Kontrollgruppen mehr erfordert:
 
-* Zunächst lauten beide Modelle **100 % Exploration**, d. h. sie testen verschiedene Angebote, um Leistungsdaten zu erfassen.
-* Im Laufe der Zeit **die Modelle automatisch den Zielkonflikt zwischen Explore/Exploit**, da Verhaltensereignisse erfasst und Prognosen verbessert werden.
-* Die Modelle verlagern allmählich mehr Traffic auf leistungsfähigere Angebote und untersuchen und testen gleichzeitig andere Optionen.
+* **Anfangsphase**: Die Modelle beginnen mit einer 100%igen Untersuchung und testen verschiedene Angebote, um grundlegende Leistungsdaten zu ermitteln.
+* **Adaptive Optimierung**: Wenn sich Verhaltensereignisse akkumulieren und die Prognosegenauigkeit steigt, gleichen Modelle automatisch Exploration und Exploitation aus.
+* **Fortlaufendes Lernen**: Das System ordnet nach und nach leistungsstarken Angeboten mehr Traffic zu und testet gleichzeitig weiterhin Alternativen.
 
 Dadurch wird ein kontinuierliches Lernen und eine Optimierung über den gesamten Traffic hinweg sichergestellt, ohne dass separate Kontrollgruppen erforderlich sind.
 
 +++
 
-+++**Wie viele Optimierungsereignisse müssen wir statistisch signifikant sein? Gibt es einen minimalen Traffic-Grenzwert für eine Oberfläche?**
++++**Was sind die minimalen Traffic-Anforderungen für eine optimale KI-Modellleistung?**
 
-Um eine optimale Modellleistung zu gewährleisten, empfiehlt Adobe die folgenden Mindestwerte:
+Adobe empfiehlt die folgenden Mindestschwellenwerte, um eine effektive Modellleistung sicherzustellen:
 
 **Empfohlene Mindestwerte (pro Woche):**
-* Mindestens **1.000 Impressionen** pro Angebot/Element
-* Mindestens **100 Konversionsereignisse** pro Angebot/Element
+* 1.000 Impressionen pro Angebot/Element
+* 100 Konversionsereignisse pro Angebot/Element
 
 <!--**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
@@ -99,36 +102,37 @@ Um eine optimale Modellleistung zu gewährleisten, empfiehlt Adobe die folgenden
 
 Standardmäßig versucht das System nicht, personalisierte Modelle für Angebote/Elemente mit weniger als 1.000 Impressionen oder 50 Konversionsereignissen zu erstellen.
 
-**Wichtig**: In der Praxis haben einige Kunden viele Angebote (~300) in einem einzigen Modell, und einige Angebote können sehr restriktive Geschäftsregeln haben. Die absoluten Mindestwerte (250 Impressionen / 25 Konversionen pro 30 Tage) stellen den niedrigsten Schwellenwert dar, den das System für die Erstellung von Modellen unterstützen kann.
+>[!NOTE]
+>
+>In Produktionsumgebungen mit großen Angebotskatalogen (~300 Angebote) und restriktiven Geschäftsregeln können einige Angebote niedrigere absolute Schwellenwerte erreichen (250 Impressions und 25 Konversions pro 30 Tage). Diese stellen die Mindestanforderungen an die Daten für das Modell-Training dar, garantieren jedoch möglicherweise keine optimale Leistung.
 
 Weitere Informationen zu [Datenerfassungsanforderungen](data-collection/data-collection.md).
 
 +++
 
-+++**Muss der Inhalt der Angebote klar differenziert werden, damit die KI-Modelle gut funktionieren? Was passiert, wenn ich mehrere Angebote habe, die einander zu ähnlich sind?**
++++**Wie wirkt sich die Ähnlichkeit der Angebote auf die Leistung des KI-Modells aus?**
 
-Im Allgemeinen wird das KI-Modell eher Vorteile aus der Personalisierung ziehen, wenn **Angebote für verschiedene Kundentypen geeignet sind**.
+KI-Modelle bieten größere Personalisierungsvorteile, wenn sie für unterschiedliche Kundensegmente interessant sind. Wenn Angebote sich stark ähneln, sind zwei Ergebnisse typisch:
 
-Wenn Angebote sehr ähnlich sind, ist eines von zwei Ergebnissen wahrscheinlich:
-
-* **Ähnliche Leistung**: Die Angebote werden identisch abschneiden und einen relativ gleichmäßigen Traffic erhalten.
-* **Dominanz**: Kleine Unterschiede können dazu führen, dass ein Angebot über alle Kundentypen hinweg die anderen dominiert und den Großteil des Traffics erhält.
+* **Gleichwertige Leistung**: Angebote funktionieren genauso und erhalten annähernd die gleiche Traffic-Verteilung.
+* **Dominantes Angebot**: Geringfügige Unterschiede führen dazu, dass ein Angebot andere in allen Segmenten übertrifft und den Großteil des Traffics erfasst.
 
 >[!NOTE]
 >
->Unterschiede in den Angeboten sind keine Garantie dafür, dass ein Angebot das andere nicht dominiert. Ein Angebot mit einem Rabatt von 100 € übertrifft fast immer ein Angebot mit einem Rabatt von 50 € für alle Kundentypen, unabhängig von der Personalisierung.
+>Eine ausgewogene Traffic-Verteilung ist durch die Differenzierung des Angebots nicht gewährleistet. Angebote mit objektiv höherwertigen Angeboten (z. B. 100 € Rabatt gegenüber 50 € Rabatt) dominieren in der Regel über alle Kundensegmente hinweg, unabhängig vom Personalisierungsaufwand.
 
-**Best Practice**: Stellen Sie sicher, dass Ihre Angebote eine aussagekräftige Differenzierung bieten, die für eine optimale KI-Modellleistung an verschiedene Kundensegmente appellieren kann.
+**Best Practice**: Entwerfen Sie Angebote mit aussagekräftiger Differenzierung, die mit unterschiedlichen Kundensegmentpräferenzen übereinstimmen, um die Effektivität des KI-Modells zu maximieren.
 
 +++
 
-+++**Was passiert mit dem Modell, wenn es eine Traffic-Anomalie gibt, z. B. eine riesige Traffic-Spitze? Wird es Probleme verursachen oder die Eigenartigkeit steigern?**
++++**Wie wirken sich Traffic-Anomalien auf die KI-Modellleistung aus?**
 
-Eine Traffic-Spitze würde bei der Modellierung proportional zum anderen Traffic in den letzten 30 Tagen einbezogen.
+Traffic-Anomalien werden proportional innerhalb des 30-tägigen rollierenden Fensters in das Modell integriert.
 
-Beispielsweise hat eine 2x tägliche Traffic-Spitze eine relativ geringe Auswirkung auf das Gesamtmodell, da es 29 Tage normalen Traffics gibt, die deutlich mehr Verhaltensdaten repräsentieren.
+**Folgenabschätzung:**
+Eine temporäre Traffic-Spitze (z. B. 2x täglicher Traffic) hat minimale Auswirkungen auf die Gesamtmodellleistung, da der anomale Traffic einen kleinen Bruchteil des 30-Tage-Datensatzes ausmacht.
 
-**Wichtiger Punkt**: Das rollierende 30-Tage-Fenster hilft dem Modell, die Stabilität bei temporären Traffic-Anomalien aufrechtzuerhalten. Kurzfristige Spitzen oder Tiefpunkte beeinträchtigen die Modellleistung nicht wesentlich.
+**Wichtige insight**: Das rollierende 30-Tage-Datenfenster bietet Modellstabilität bei temporären Traffic-Schwankungen. Kurzfristige Spitzen oder Rückgänge stören die Modellvorhersagen oder die Leistung nicht wesentlich.
 
 +++
 
