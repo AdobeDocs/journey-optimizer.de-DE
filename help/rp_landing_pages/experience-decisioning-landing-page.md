@@ -5,10 +5,10 @@ title: Entscheidungsfindung
 description: Entscheidungsfindung
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Mit der Entscheidungsfunktion von Adobe Journey Optimizer können Sie personalis
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Einführung in die Entscheidungsfindung
 
@@ -30,7 +30,7 @@ Lernen Sie die Grundlagen der Entscheidungsfindung in Adobe Journey Optimizer ke
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Leitlinien und Einschränkungen bei der Entscheidungsfindung
 
@@ -40,7 +40,17 @@ Machen Sie sich mit den Einschränkungen und Best Practices für die effektive V
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+
+Häufig gestellte Fragen
+
+Erhalten Sie Antworten auf häufig gestellte Fragen zur Entscheidungsfindung, einschließlich Begrenzungsregeln, KI-Modellen und Optimierungsanforderungen.
+
+[Häufig gestellte Fragen anzeigen](../using/experience-decisioning/decisioning-faq.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API-Referenz: Angebote unterbreiten
 
@@ -50,7 +60,7 @@ Erfahren Sie, wie Sie mit dem Code-basierten Erlebniskanal und verschiedenen Imp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwalten von Entscheidungselementen und Katalogen
 
@@ -60,7 +70,7 @@ Konfigurieren und verwalten Sie Entscheidungselemente, Kataloge und Sammlungen, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Erstellen von Entscheidungsregeln
 
@@ -70,7 +80,7 @@ Definieren Sie Entscheidungsregeln, um Zielgruppen mithilfe von Einschränkungen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Erstellen von Ranklisten mit KI-Modellen
 

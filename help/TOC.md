@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
+source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: tm+mt
-source-wordcount: '2993'
-ht-degree: 98%
+source-wordcount: '2995'
+ht-degree: 99%
 
 ---
 
@@ -317,7 +317,7 @@ ht-degree: 98%
       + [Überprüfen und Senden Ihrer Textnachrichten](using/sms/send-sms.md)
       + [Verwalten des Opt-outs von Textnachrichten](using/sms/sms-opt-out.md)
       + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
-      + [Best Practices für die SMS-Kostenoptimierung](using/sms/sms-cost-optimization.md)
+      + [Best Practices für Optimierung der SMS-Kosten](using/sms/sms-cost-optimization.md)
       + Konfigurieren des SMS-/MMS-/RCS-Kanals {#configure-sms}
          + [Konfigurieren des SMS-/MMS-/RCS-Kanals](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Erste Schritte bei der SMS-/MMS-/RCS-Konfiguration](using/sms/sms-configuration.md)
@@ -388,11 +388,11 @@ ht-degree: 98%
       + [Erstellen einer LINE-Nachricht](using/line/create-line.md)
       + [Überprüfen und Senden Ihrer LINE-Nachrichten](using/line/send-line.md)
    + Live-Aktivität {#live-activity}
-      + [Erste Schritte mit Live-Aktivitäten](using/mobile-live/get-started-mobile-live.md)
+      + [Erste Schritte mit einer Live-Aktivität](using/mobile-live/get-started-mobile-live.md)
       + [Erstellen einer Live-Aktivität](using/mobile-live/create-mobile-live.md)
       + [Häufig gestellte Fragen](using/mobile-live/mobile-live-faq.md)
       + Konfigurieren des Inhaltskartenkanals {#configure}
-         + [Konfigurieren von Live-Aktivitäten in Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
+         + [Konfigurieren einer Live-Aktivität in Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
          + [Konfigurieren der SDK-Integration für Live-Aktivitäten](using/mobile-live/mobile-live-configuration-sdk.md)
 + Content-Management {#content-management}
    + [Content-Management](/help/rp_landing_pages/content-management-landing-page.md)
@@ -591,6 +591,7 @@ ht-degree: 98%
       + [Entscheidungsfindung](/help/rp_landing_pages/experience-decisioning-landing-page.md)
       + [Erste Schritte mit der Entscheidungsfindung](using/experience-decisioning/gs-experience-decisioning.md)
       + [Leitlinien und Einschränkungen für die Entscheidungsfindung](using/experience-decisioning/decisioning-guardrails.md)
+      + [Häufig gestellte Fragen zu Decisioning](using/experience-decisioning/decisioning-faq.md)
       + API-Referenz {#experience-decisioning-api-reference}
          + [API-Referenz](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + Erstellen und Verwalten von Angebotselementen {#create-manage}
