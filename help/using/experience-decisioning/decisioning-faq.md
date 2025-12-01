@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
+source-git-commit: 7bf0b3fbfe56ef8ae3a35be9aa604287f43d6d74
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -38,26 +38,24 @@ Weitere Informationen zu [Begrenzungsregeln](items.md#capping).
 
 ## Rangfolgenformeln {#ranking-formulas}
 
-+++**Welche Rolle spielen Zielgruppen in KI-Modellen?**
++++**Welche Rolle spielen Zielgruppen im Vergleich zu einem vollständigen Datensatz in KI-Modellen?**
 
-Beim Konfigurieren [personalisierter Optimierungsmodelle](ranking/personalized-optimization-model.md) dienen sowohl Datensätze als auch Zielgruppen unterschiedlichen Zwecken:
+Beim Konfigurieren von [KI](ranking/ai-models.md)Modellen dienen sowohl Datensätze als auch Zielgruppen unterschiedlichen Zwecken.
 
 * **Datensätze**: Erfasst Konversionsereignisse (Klicks, Bestellungen, Umsatz), die als Optimierungsziele für das Modell dienen.
 * **Zielgruppen**: Sie dienen als Prädiktorvariablen, mit denen das Modell Empfehlungen basierend auf der Zugehörigkeit zu einem Kundensegment personalisieren kann.
 
 Zielgruppen schränken den Umfang des Modells nicht ein und erweitern ihn nicht. Stattdessen bieten sie kontextuelle Attribute, die die Fähigkeit des Modells verbessern, personalisierte Prognosen über verschiedene Kundensegmente hinweg zu erstellen.
 
-Beide Komponenten sind für eine effektive Leistung des personalisierten Optimierungsmodells erforderlich. Weitere Informationen zu [KI-Modellen](ranking/ai-models.md).
+Beide Komponenten sind für eine effektive [personalisierte Optimierungsmodelle](ranking/personalized-optimization-model.md) Modellleistung erforderlich.
 
 +++
 
-+++**Wie wirken sich Änderungen an Angebotssammlungen auf KI-Modelle aus, wenn Modelle für die automatische Optimierung oder die personalisierte Optimierung verwendet werden?**
++++**Wie wirken sich Änderungen an Angebotssammlungen auf die automatische Optimierung oder personalisierte Optimierungsmodelle aus?**
 
 Beide Modelle liefern Traffic zum nächstbesten verfügbaren Angebot, das auf Traffic-Daten der letzten 30 Tage basiert.
 
-Wenn mehrere Angebote gleichzeitig entfernt werden und die verbleibenden Angebote innerhalb des 30-tägigen Fensters minimale Traffic-Daten haben, kann das Modell ein suboptimales Verhalten aufweisen, darunter:
-* Zufällige Verteilungsmuster
-* Tendenz zu Angeboten mit höheren Konversionsraten auf der Basis begrenzter Impression-Daten
+Wenn mehrere Angebote gleichzeitig entfernt werden und die verbleibenden Angebote innerhalb des 30-tägigen Fensters minimale Traffic-Daten haben, kann das Modell ein suboptimales Verhalten aufweisen, einschließlich zufälliger Verteilungsmuster oder Tendenzen zu Angeboten mit höheren Konversionsraten, die auf begrenzten Impression-Daten basieren.
 
 **Best Practice**: Wenn Sie Angebotssammlungen erheblich ändern, überprüfen Sie, ob die verbleibenden Angebote über ausreichende historische Leistungsdaten verfügen, um die Modelleffektivität aufrechtzuerhalten.
 
@@ -67,18 +65,18 @@ Wenn mehrere Angebote gleichzeitig entfernt werden und die verbleibenden Angebot
 
 KI-Modelle identifizieren und beginnen mit dem Testen neu verfügbarer Angebote im nächsten Trainings-Zyklus:
 
-* **Automatische Optimierung**: Tägliche Trainings-Läufe
-* **Personalisierte Optimierung**: Wöchentliche Trainings-Läufe
+* **Automatische Optimierung**: Täglich
+* **Personalisierte Optimierung**: Wöchentlich
 
 Sobald sie identifiziert sind, beginnen beide Modelle sofort damit, einigen Besuchern die neuen Angebote zu unterbreiten, um ihre Leistung zu testen und Daten über ihre Effektivität zu sammeln.
 
-Erfahren Sie mehr über [automatische Optimierung](ranking/auto-optimization-model.md) und [personalisierte &#x200B;](ranking/personalized-optimization-model.md)).
+Erfahren Sie mehr über [automatische Optimierung](ranking/auto-optimization-model.md) und [personalisierte ](ranking/personalized-optimization-model.md)).
 
 +++
 
 +++**Wie optimieren KI-Modelle ohne Kontrollgruppen?**
 
-Sowohl Modelle für die automatische Optimierung als auch für die personalisierte Optimierung verwenden eine Explore-Exploit-Strategie, die keine dedizierten Kontrollgruppen mehr erfordert:
+Sowohl Modelle für die automatische Optimierung als auch für die personalisierte Optimierung verwenden eine „Explore-Exploit“-Strategie, bei der keine dedizierten Kontrollgruppen mehr erforderlich sind.
 
 * **Anfangsphase**: Die Modelle beginnen mit einer 100%igen Untersuchung und testen verschiedene Angebote, um grundlegende Leistungsdaten zu ermitteln.
 * **Adaptive Optimierung**: Wenn sich Verhaltensereignisse akkumulieren und die Prognosegenauigkeit steigt, gleichen Modelle automatisch Exploration und Exploitation aus.
@@ -91,10 +89,8 @@ Dadurch wird ein kontinuierliches Lernen und eine Optimierung über den gesamten
 +++**Was sind die minimalen Traffic-Anforderungen für eine optimale KI-Modellleistung?**
 
 Adobe empfiehlt die folgenden Mindestschwellenwerte, um eine effektive Modellleistung sicherzustellen:
-
-**Empfohlene Mindestwerte (pro Woche):**
-* 1.000 Impressionen pro Angebot/Element
-* 100 Konversionsereignisse pro Angebot/Element
+* 1.000 Impressionen pro Angebot/Artikel pro Woche
+* 100 Konversionsereignisse pro Angebot/Element pro Woche
 
 <!--**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
@@ -110,7 +106,7 @@ Weitere Informationen zu [Datenerfassungsanforderungen](data-collection/data-col
 
 +++
 
-+++**Wie wirkt sich die Ähnlichkeit der Angebote auf die Leistung des KI-Modells aus?**
++++**Wie wirken sich ähnliche Angebote auf die KI-Modellleistung aus?**
 
 KI-Modelle bieten größere Personalisierungsvorteile, wenn sie für unterschiedliche Kundensegmente interessant sind. Wenn Angebote sich stark ähneln, sind zwei Ergebnisse typisch:
 
@@ -127,11 +123,8 @@ KI-Modelle bieten größere Personalisierungsvorteile, wenn sie für unterschied
 
 +++**Wie wirken sich Traffic-Anomalien auf die KI-Modellleistung aus?**
 
-Traffic-Anomalien werden proportional innerhalb des 30-tägigen rollierenden Fensters in das Modell integriert.
+Traffic-Anomalien werden proportional innerhalb des 30-tägigen rollierenden Fensters in das Modell integriert, was für Modellstabilität bei temporären Traffic-Schwankungen sorgt. Kurzfristige Spitzen oder Rückgänge stören die Modellvorhersagen oder die Leistung nicht wesentlich.
 
-**Folgenabschätzung:**
-Eine temporäre Traffic-Spitze (z. B. 2x täglicher Traffic) hat minimale Auswirkungen auf die Gesamtmodellleistung, da der anomale Traffic einen kleinen Bruchteil des 30-Tage-Datensatzes ausmacht.
-
-**Wichtige insight**: Das rollierende 30-Tage-Datenfenster bietet Modellstabilität bei temporären Traffic-Schwankungen. Kurzfristige Spitzen oder Rückgänge stören die Modellvorhersagen oder die Leistung nicht wesentlich.
+Eine temporäre Traffic-Spitze (z. B. der doppelte tägliche Traffic) hat minimale Auswirkungen auf die Gesamtmodellleistung, da der anomale Traffic einen kleinen Bruchteil des 30-Tage-Datensatzes ausmacht.
 
 +++
