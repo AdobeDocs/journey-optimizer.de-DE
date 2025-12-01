@@ -7,9 +7,9 @@ topic: Content Management
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a18ccb6f7928250e9b3bc453971689bb378dac11
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1498'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen un
 <td>
 <p>Eine neue Journey Optimizer-API ist jetzt verfügbar, mit der Sie kampagnenbezogene Daten wie Details, Versionen und Konfigurationen programmgesteuert abrufen und überprüfen können.</p>
 <p>Weitere Informationen finden Sie in der <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Dienstag, 24. November 2025</p>
+<p>Verfügbarkeitsdatum: 24. November 2025</p>
 </td>
 </tr>
 </tbody>
@@ -165,7 +165,7 @@ Nachfolgend sind die in den letzten Wochen veröffentlichten neuen Funktionen un
 <td>
 <p>Mithilfe von Ruhezeiten können Sie zeitbasierte Ausschlüsse für E-Mail-, SMS-, Push- und WhatsApp-Kanäle definieren. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen.</p>
 <p>Ruhezeiten können über Regelsätze angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können. </p>
-<p>Regeln für ruhige Stunden sind derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit).  Sie werden in zukünftigen Versionen schrittweise für alle Kunden verfügbar sein.</p>
+<p>Die Regeln für Ruhezeiten sind derzeit nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit).  Sie werden in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/quiet-hours.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 22. Oktober 2025</p>

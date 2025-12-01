@@ -9,9 +9,9 @@ level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '849'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -21,28 +21,28 @@ Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben als Dat
 
 ## Leitlinien und Einschränkungen
 
-* Seit dem 1. November 2024 werden Senden- und Öffnen-Ereignisse aus Tracking- und Feedback-[!DNL Journey Optimizer]Datensätzen nicht mehr durch die Streaming-Segmentierung unterstützt. Verwenden Sie stattdessen Geschäftsregeln, um die Frequenzbegrenzung oder die Ermüdungsverwaltung zu implementieren. Weitere Informationen finden Sie in [diesem Abschnitt](../conflict-prioritization/rule-sets.md), eine Erklärung zu Anwendungsfällen für die tägliche Begrenzung finden Sie [hier](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=de){target="_blank"}.
+* Seit dem 1. November 2024 werden Senden- und Öffnen-Ereignisse aus Tracking- und Feedback-[!DNL Journey Optimizer]Datensätzen nicht mehr durch die Streaming-Segmentierung unterstützt. Verwenden Sie stattdessen Geschäftsregeln, um die Frequenzbegrenzung oder die Ermüdungsverwaltung zu implementieren. Weitere Informationen finden Sie in [diesem Abschnitt](../conflict-prioritization/rule-sets.md), eine Erklärung zu Anwendungsfällen für die tägliche Begrenzung finden Sie [hier](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
-* Seit Februar 2025 wird eine TTL-Schutzmaßnahme (Time-to-Live) für systemgenerierte Journey Optimizer-Datensätze eingeführt. [Weitere Informationen](datasets-ttl.md)
+* Ab Februar 2025 wird für systemgenerierte Journey Optimizer-Datensätze ein Time-to-Live-Schutzmechanismus (TTL) eingeführt. [Weitere Informationen](datasets-ttl.md)
 
 ## Zugriff auf Datensätze {#access}
 
-Der **Datensätze** Arbeitsbereich in [!DNL Adobe Journey Optimizer] Benutzeroberfläche ermöglicht es Ihnen, Daten zu durchsuchen und Datensätze zu erstellen. Um das Dashboard „Datensätze“ zu öffnen **wählen Sie** linken Navigationsbereich die Option „Datensätze“ aus.
+Der Arbeitsbereich **Datensätze** in der [!DNL Adobe Journey Optimizer]-Benutzeroberfläche ermöglicht es Ihnen, Daten zu erkunden und Datensätze zu erstellen. Um das Dashboard „Datensätze“ zu öffnen, wählen Sie im linken Navigationsbereich die Option **Datensätze** aus.
 
 ![](assets/datasets-home.png)
 
-Wählen Sie die Registerkarte **Durchsuchen**, um die Liste aller für Ihr Unternehmen verfügbaren Datensätze anzuzeigen. Details werden für jeden aufgelisteten Datensatz angezeigt, einschließlich seines Namens, des Schemas, dem der Datensatz entspricht, und des Status des letzten Aufnahmedurchgangs. Standardmäßig werden nur die Datensätze angezeigt, die Sie aufgenommen haben. Wenn Sie die systemgenerierten Datensätze anzeigen möchten, aktivieren Sie im Filter den Umschalter **Systemdatensätze zeigen**.
+Wählen Sie die Registerkarte **Durchsuchen**, um die Liste aller für Ihr Unternehmen verfügbaren Datensätze anzuzeigen. Für jeden aufgeführten Datensatz werden Details angezeigt, einschließlich seines Namens, des Schemas, dem der Datensatz entspricht, und des Status der letzten Aufnahmeausführung. Standardmäßig werden nur die Datensätze angezeigt, die Sie aufgenommen haben. Wenn Sie die systemgenerierten Datensätze anzeigen möchten, aktivieren Sie im Filter den Umschalter **Systemdatensätze zeigen**.
 
 ![](assets/ajo-system-datasets.png)
 
 
 Wählen Sie den Namen eines Datensatzes aus, um auf seinen Datensatzaktivitäts-Bildschirm zuzugreifen und Details zum ausgewählten Datensatz anzuzeigen. Die Registerkarte „Aktivität“ enthält ein Diagramm, das die Rate der konsumierten Nachrichten sowie eine Liste erfolgreicher und fehlgeschlagener Batches visuell darstellt.
 
-Um einen Datensatz in der Vorschau anzuzeigen, wählen **oben rechts** Bildschirm die Option „Datensatz in der Vorschau anzeigen“ aus, um eine Vorschau des letzten erfolgreichen Batches in diesem Datensatz anzuzeigen. Wenn ein Datensatz leer ist, wird der Vorschau-Link deaktiviert.
+Um eine Vorschau eines Datensatzes anzuzeigen, wählen Sie die Option **Datensatz in der Vorschau ansehen** in der rechten oberen Ecke Ihres Bildschirms aus, um die Vorschau des letzten erfolgreichen Batches in diesem Datensatz anzuzeigen. Wenn ein Datensatz leer ist, ist der Vorschau-Link nicht aktiv.
 
 ![](assets/dataset-preview.png)
 
-## [!DNL Journey Optimizer] von Systemdatensätzen {#system-datasets}
+## Systemdatensätze in [!DNL Journey Optimizer] {#system-datasets}
 
 In diesem Abschnitt werden die von [!DNL Journey Optimizer] verwendeten Systemdatensätze aufgelistet. Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
 
@@ -72,7 +72,7 @@ In diesem Abschnitt werden die von [!DNL Journey Optimizer] verwendeten Systemda
 
 Das Hinzufügen von Daten zu [!DNL Adobe Experience Platform] bildet die Grundlage für die Erstellung eines Profils. Anschließend können Sie Profile in [!DNL Adobe Journey Optimizer] nutzen. Definieren Sie zunächst Schemata, verwenden Sie ETL-Tools, um Ihre Daten vorzubereiten und zu standardisieren, und erstellen Sie dann Datensätze basierend auf Ihren Schemata.
 
-Sie können einen Datensatz aus einem Schema oder einer CSV-Datei erstellen. Detaillierte Informationen zum Erstellen von Datensätzen finden Sie in [!DNL Adobe Experience Platform] Dokumentation:
+Sie können einen Datensatz aus einem Schema oder einer CSV-Datei erstellen. Ausführliche Informationen zum Erstellen von Datensätzen finden Sie in der Dokumentation zu [!DNL Adobe Experience Platform]:
 
 * [Erstellen eines Datensatzes mit einem vorhandenen Schema](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
 * [Zuordnen einer CSV-Datei zu einem vorhandenen XDM-Schema](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
@@ -93,9 +93,9 @@ Weitere Informationen zu Data Governance und Datennutzungskennzeichnungen finden
 
 ## Beispiele und Anwendungsfälle {#samples}
 
-* [Tutorial - Aufnehmen von Daten in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de){target="_blank"}
-* [End-to-End-Anwendungsfall](../audience/creating-test-profiles.md) - Erstellen eines Schemas und eines Datensatzes und Aufnehmen von Daten zum Hinzufügen von Testprofilen in [!DNL Adobe Journey Optimizer]
-* [Abfragebeispiele](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer] Datensätze und zugehörige Anwendungsfälle.
+* [Tutorial – Aufnehmen von Daten in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de){target="_blank"}
+* [End-to-End-Anwendungsfall](../audience/creating-test-profiles.md) – Erstellen eines Schemas oder eines Datensatzes und Aufnehmen von Daten zum Hinzufügen von Testprofilen in [!DNL Adobe Journey Optimizer]
+* [Abfragebeispiele](../data/datasets-query-examples.md) – [!DNL Adobe Journey Optimizer]-Datensätze und zugehörige Anwendungsfälle.
 
 >[!MORELIKETHIS]
 >
