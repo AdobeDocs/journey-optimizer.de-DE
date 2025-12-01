@@ -474,7 +474,7 @@ ht-degree: 99%
    + KI-Assistent für die Inhaltsgenerierung {#ai-assistant}
       + [KI-Assistent für die Inhaltsgenerierung](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Erste Schritte mit dem KI-Assistenten](using/content-management/gs-generative.md)
-      + [Best Practices für KI-Eingabeaufforderung](using/content-management/ai-assistant-prompting-guide.md)
+      + [Best Practices für KI-Prompts](using/content-management/ai-assistant-prompting-guide.md)
       + [Generierung von E-Mails mit KI](using/content-management/generative-email.md)
       + [Generierung von Push-Benachrichtungen mit KI](using/content-management/generative-push.md)
       + [Generierung von SMS mit KI](using/content-management/generative-sms.md)
