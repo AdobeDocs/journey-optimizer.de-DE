@@ -8,10 +8,10 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: e42640e791e6bec3bfd09a3095bad5e44e2ab128
+source-git-commit: 7205017785283e3db4d64ed595ac8f187f43307b
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 1%
+source-wordcount: '785'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ KI-Modelle identifizieren und beginnen mit dem Testen neu verfügbarer Angebote 
 
 Sobald sie identifiziert sind, beginnen beide Modelle sofort damit, einigen Besuchern die neuen Angebote zu unterbreiten, um ihre Leistung zu testen und Daten über ihre Effektivität zu sammeln.
 
-Erfahren Sie mehr über [automatische Optimierung](ranking/auto-optimization-model.md) und [personalisierte &#x200B;](ranking/personalized-optimization-model.md)).
+Erfahren Sie mehr über [automatische Optimierung](ranking/auto-optimization-model.md) und [personalisierte ](ranking/personalized-optimization-model.md)).
 
 +++
 
@@ -135,11 +135,3 @@ Eine temporäre Traffic-Spitze (z. B. 2x täglicher Traffic) hat minimale Auswir
 **Wichtige insight**: Das rollierende 30-Tage-Datenfenster bietet Modellstabilität bei temporären Traffic-Schwankungen. Kurzfristige Spitzen oder Rückgänge stören die Modellvorhersagen oder die Leistung nicht wesentlich.
 
 +++
-
-## Verwandte Themen {#related-topics}
-
-<!--* [Get started with Decisioning](gs-experience-decisioning.md)-->
-* [Erstellen von Entscheidungselementen](items.md)
-* [KI-Modelle - Übersicht](ranking/ai-models.md)
-* [Leitlinien und Einschränkungen für die Entscheidungsfindung](decisioning-guardrails.md)
-
