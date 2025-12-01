@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: 502f26ba3f8f5fa0db73be9f0cf66b21dbea507b
+source-git-commit: b3716265282599604de629be540ca68971daa343
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 94%
+source-wordcount: '1591'
+ht-degree: 86%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 94%
 
 ## Was ist DMARC? {#what-is-dmarc}
 
-Die Domain-basierte Nachrichtenauthentifizierung, Berichte und Konformität (DMARC) ist eine E-Mail-Authentifizierungsmethode, mit der der Inhaberinnen und Inhaber einer Domain ihre Domain vor unbefugter Verwendung schützen können. Durch eine klare Richtlinie für E-Mail-Anbieter/Internet-Dienstanbieter (Internet Service Providers, ISPs) verhindert sie, dass auf böswillige Weise E-Mails gesendet werden, die scheinbar von Ihrer Domain stammen. Die Implementierung von DMARC verringert das Risiko, dass legitime E-Mails als Spam gekennzeichnet oder abgelehnt werden, und verbessert die Zustellbarkeit Ihrer E-Mails.
+Die Domain-basierte Nachrichtenauthentifizierung, Berichte und Konformität (DMARC) ist eine E-Mail-Authentifizierungsmethode, mit der der Inhaberinnen und Inhaber einer Domain ihre Domain vor unbefugter Verwendung schützen können. Durch eine klare Richtlinie für E-Mail-Anbieter/Internet-Dienstanbieter (Internet Service Providers, ISPs) verhindert sie, dass auf böswillige Weise E-Mails gesendet werden, die scheinbar von Ihrer Domain stammen. Die Implementierung von DMARC verringert das Risiko, dass rechtmäßige E-Mails als Spam gekennzeichnet oder abgelehnt werden, und verbessert die Zustellbarkeit Ihrer E-Mails.
 
 DMARC bietet außerdem Berichte zu Nachrichten, die bei der Authentifizierung fehlschlagen, sowie Kontrolle über die Verarbeitung von E-Mails, die die DMARC-Validierung nicht bestehen. Je nach der implementierten [DMARC-Richtlinie](#dmarc-policies) können diese E-Mails überwacht, unter Quarantäne gestellt oder abgelehnt werden. Mit diesen Funktionen können Sie Maßnahmen ergreifen, um potenzielle Fehler zu vermeiden und zu beheben.
 
-Um Probleme mit der Zustellbarkeit zu vermeiden und gleichzeitig die Kontrolle über E-Mails zu erhalten, die nicht authentifiziert werden können, unterstützt [!DNL Journey Optimizer] jetzt die DMARC-Technologie direkt in seiner Administrationsoberfläche. [Weitere Informationen](#implement-dmarc)
+Um Zustellbarkeitsprobleme zu vermeiden und gleichzeitig die Kontrolle über E-Mails zu erhalten, bei denen die Authentifizierung fehlschlägt, unterstützt [!DNL Journey Optimizer] jetzt die DMARC-Technologie direkt in der Administrationsoberfläche. [Weitere Informationen](#implement-dmarc)
 
 ### Wie funktioniert DMARC? {#how-dmarc-works}
 
@@ -72,7 +72,7 @@ Daher empfiehlt Adobe dringend, die folgenden Maßnahmen zu ergreifen:
 
 * Stellen Sie sicher, dass der **DMARC-Eintrag** für **alle Subdomains eingerichtet ist, die Sie bereits in [!DNL Journey Optimizer] an Adobe delegiert haben**. [Weitere Informationen](#check-subdomains-for-dmarc)
 
-* Wenn Sie **eine neue Subdomain** an Adobe delegieren, können Sie direkt **in der [!DNL Journey Optimizer]-Administrationsoberfläche** **DMARC einrichten**. [Weitere Informationen](#implement-dmarc)
+* Beim **Delegieren einer neuen Subdomain** an Adobe können Sie **DMARC** direkt in der [!DNL Journey Optimizer]-Verwaltungsoberfläche einrichten. [Weitere Informationen](#set-up-dmarc)
 
 ## Implementieren von DMARC in [!DNL Journey Optimizer] {#implement-dmarc}
 
@@ -92,13 +92,13 @@ Um sicherzustellen, dass Sie den DMARC-Eintrag für alle Subdomains, die Sie in 
    >
    >Um die neue Anforderung von Gmail und Yahoo zu erfüllen und Zustellbarkeitsprobleme mit wichtigen ISPs zu vermeiden, wird empfohlen, für alle delegierten Subdomains einen DMARC-Eintrag einzurichten. [Weitere Informationen](dmarc-record-update.md)
 
-1. Wählen Sie eine Subdomain ohne zugehörigen DMARC-Eintrag aus und füllen Sie den Abschnitt **[!UICONTROL DMARC-Eintrag]** entsprechend den Anforderungen Ihres Unternehmens aus. Die Schritte zum Befüllen des Felds „DMARC-Eintrag“ sind in [diesem Abschnitt](#implement-dmarc) beschrieben.
+1. Wählen Sie eine Subdomain ohne zugehörigen DMARC-Eintrag aus und füllen Sie den Abschnitt **[!UICONTROL DMARC-Eintrag]** entsprechend den Anforderungen Ihres Unternehmens aus. Die Schritte zum Befüllen des Felds „DMARC-Eintrag“ sind in [diesem Abschnitt](#set-up-dmarc) beschrieben.
 
    <!--![](assets/dmarc-record-edit-full.png)-->
 
    >[!NOTE]
    >
-   >Je nachdem, ob ein DMARC-Eintrag bei der übergeordneten Domain gefunden wird oder nicht, können Sie die Werte aus der übergeordneten Domain verwenden oder den DMARC-Eintrag von Adobe verwalten lassen. [Weitere Informationen](#implement-dmarc)
+   >Je nachdem, ob ein DMARC-Eintrag mit der übergeordneten Domain gefunden wird oder nicht, können Sie die Werte aus der übergeordneten Domain verwenden oder Adobe den DMARC-Eintrag verwalten lassen. [Weitere Informationen](#manage-dmarc-with-adobe)
 
 1. Wenn Sie eine Subdomain bearbeiten, die:
 
@@ -193,38 +193,36 @@ Damit Adobe den DMARC-Eintrag für Sie verwalten kann, wählen Sie die Option **
 
 ### Fehlerbehebung {#troubleshooting}
 
-Das Einrichten eines DMARC-Eintrags umfasst das Hinzufügen eines DNS-TXT-Eintrags zu den DNS-Einstellungen Ihrer Domain. Dieser Datensatz gibt Ihre DMARC-Richtlinie an, z. B. ob Nachrichten, die bei der Authentifizierung fehlschlagen, unter Quarantäne gestellt oder abgelehnt werden sollen.
+Beim Einrichten eines DMARC-Eintrags wird den DNS-Einstellungen Ihrer Domain ein DNS-TXT-Eintrag hinzugefügt, der Ihre DMARC-Richtlinie angibt.
 
-DNS-Änderungen werden erst nach einiger Zeit über das Internet propagiert, in der Regel zwischen einigen Minuten und 48 Stunden.
+**Zeitpunkt der DNS-Übertragung**
 
-Wenn Sie gerade eine DMARC-Konfigurationsänderung vorgenommen haben und versuchen, das Update sofort zu überprüfen, werden möglicherweise Fehler angezeigt oder die Änderungen werden noch nicht erkannt.
+DNS-Änderungen werden erst nach einiger Zeit über das Internet propagiert, in der Regel zwischen einigen Minuten und 48 Stunden. Wenn Sie gerade eine DMARC-Konfigurationsänderung vorgenommen haben und versuchen, das Update sofort zu überprüfen, werden möglicherweise Fehler angezeigt oder die Änderungen werden noch nicht erkannt.
 
-Warten Sie ausreichend lange, bis die DNS-Einträge übertragen wurden, bevor Sie versuchen, Ihr DMARC-Setup zu überprüfen.
+Warten Sie ausreichend lange, bis die DNS-Einträge übertragen wurden, bevor Sie versuchen, Ihr DMARC-Setup zu überprüfen. Wenn nach 48 Stunden weiterhin Probleme auftreten, stellen Sie sicher, dass die DNS-Einträge korrekt zu Ihrer Hosting-Lösung hinzugefügt wurden.
 
 <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
-The default value (24 hours) is generally the email providers' expectation.
+The default value (24 hours) is generally the email providers' expectation.-->
 
-**********
-
-Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
-
-DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
-
-DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
-
-DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
-
-It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
+<!--
 
 ## What are the benefits of DMARC? {#dmarc-benefits}
 
 The key benefits or DMARC are as folllows:
 
+* Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
+
+* DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
+
+* DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
+
+* DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
+
+* It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
+
 * DMARC allows email receivers to easily identify the authentication of emails, which could potentially improve delivery.
 
 * It offers reporting on which messages fail SPF and/or DKIM, enabling senders to gain visibility.
 
-* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.
-
--->
+* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.-->
