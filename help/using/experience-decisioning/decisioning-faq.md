@@ -72,7 +72,7 @@ KI-Modelle identifizieren und beginnen mit dem Testen neu verfügbarer Angebote 
 
 Sobald sie identifiziert sind, beginnen beide Modelle sofort damit, einigen Besuchern die neuen Angebote zu unterbreiten, um ihre Leistung zu testen und Daten über ihre Effektivität zu sammeln.
 
-Erfahren Sie mehr über [automatische Optimierung](ranking/auto-optimization-model.md) und [personalisierte ](ranking/personalized-optimization-model.md)).
+Erfahren Sie mehr über [automatische Optimierung](ranking/auto-optimization-model.md) und [personalisierte &#x200B;](ranking/personalized-optimization-model.md)).
 
 +++
 
