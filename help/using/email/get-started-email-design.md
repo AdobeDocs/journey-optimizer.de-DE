@@ -18,7 +18,7 @@ ht-degree: 91%
 
 # Erste Schritte mit dem E-Mail-Design {#get-started-content-design}
 
-Um auf die E-Mail-Designer zuzugreifen und mit der Gestaltung Ihres E-Mail-Inhalts zu beginnen[ müssen Sie zunächst eine E-Mail ](create-email.md) einer Journey oder Kampagne erstellen.
+Um auf die E-Mail-Designer zuzugreifen und mit der Gestaltung Ihres E-Mail-Inhalts zu beginnen[&#x200B; müssen Sie zunächst eine E-Mail &#x200B;](create-email.md) einer Journey oder Kampagne erstellen.
 
 Anschließend können Sie [!DNL Journey Optimizer]Funktionen zum **von E-Mails** verwenden, um vorhandene Inhalte zu importieren oder von Grund auf responsive E-Mails zu erstellen. [Weitere Informationen](content-from-scratch.md)
 
