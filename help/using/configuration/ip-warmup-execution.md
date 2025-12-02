@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
-workflow-type: ht
-source-wordcount: '2723'
-ht-degree: 100%
+source-git-commit: 52021f85658fe37e5cd9b66e4e764ccc1c790b38
+workflow-type: tm+mt
+source-wordcount: '2730'
+ht-degree: 99%
 
 ---
 
@@ -230,7 +230,7 @@ Achten Sie darauf, dass Sie ausreichend Zeit für die Ausführung der [Zielgrupp
 
 >[!CAUTION]
 >
->Jede Ausführung muss mindestens 12 Stunden vor der tatsächlichen Versandzeit aktiviert werden. Andernfalls kann die Zielgruppenbewertung möglicherweise nicht abgeschlossen werden.
+>Jeder Durchlauf muss mindestens 12 Stunden vor der tatsächlichen Versandzeit und vor dem täglichen Batch-Segmentierungsauftrag aktiviert werden. Andernfalls kann die Zielgruppenbewertung möglicherweise nicht abgeschlossen werden.
 
 Wenn Sie eine Ausführung aktivieren, werden automatisch mehrere Zielgruppen erstellt.
 
