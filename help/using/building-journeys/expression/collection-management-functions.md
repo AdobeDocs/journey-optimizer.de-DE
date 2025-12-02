@@ -9,10 +9,10 @@ level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '481'
-ht-degree: 100%
+source-git-commit: e7693ba84d8806cf4b0dc10e8fdd18f2511e37ea
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Die Ausdruckssprache bietet auch eine Reihe von Funktionen zum Abfragen von Sammlungen. Diese Funktionen werden nachfolgend erläutert.
 
-Im folgenden Beispiel verwenden wir die Ereignis-Payload, die eine Sammlung enthält:
+In den folgenden Beispielen verwenden wir ein Ereignis mit dem Namen „LobbyBeacon“, das eine Sammlung von Push-Benachrichtigungs-Token enthält. Die Beispiele auf dieser Seite verwenden die unten dargestellte Payload-Struktur für Ereignisse:
 
 ```json
                 { 
@@ -65,6 +65,10 @@ Im folgenden Beispiel verwenden wir die Ereignis-Payload, die eine Sammlung enth
 }
 ```
 
+>[!NOTE]
+>
+>In den folgenden Beispielen wird diese Payload mit `@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens}` referenziert, wobei „LobbyBeacon“ der Ereignisname ist und der Rest des Pfads der oben gezeigten Struktur entspricht.
+
 ## Die Funktion „all(`<condition>`)“
 
 Die Funktion **[!UICONTROL all]** ermöglicht mithilfe eines booleschen Ausdrucks die Definition eines Filters für eine bestimmte Sammlung.
@@ -73,9 +77,13 @@ Die Funktion **[!UICONTROL all]** ermöglicht mithilfe eines booleschen Ausdruck
 <listExpression>.all(<condition>)
 ```
 
-Beispielsweise können Sie von allen App-Benutzenden diejenigen abfragen, die iOS 13 nutzen (boolescher Ausdruck „app used == iOS 13“). Das Ergebnis dieser Funktion ist die gefilterte Liste mit Elementen, die dem booleschen Ausdruck entsprechen (Beispiel: App-Anwender 1, App-Anwender 34, App-Anwender 432).
+**Konzeptbeispiel:** Unter allen App-Benutzern können Sie die mit IOS 13 abrufen (boolescher Ausdruck &quot;== IOS 13 verwendete App„). Das Ergebnis dieser Funktion ist die gefilterte Liste mit Elementen, die dem booleschen Ausdruck entsprechen (Beispiel: App-Anwender 1, App-Anwender 34, App-Anwender 432).
 
 In einer Aktivität des Typs „Bedingung der Datenquelle“ können Sie überprüfen, ob das Ergebnis der Funktion **[!UICONTROL all]** null ist. Sie können die Funktion **[!UICONTROL all]** auch mit anderen Funktionen wie **[!UICONTROL count]** kombinieren. Weitere Informationen finden Sie unter [Aktivität „Bedingung der Datenquelle“](../condition-activity.md#data_source_condition).
+
+**Code-Beispiele, die die LobbyBeacon-Payload verwenden:**
+
+Die folgenden Beispiele verwenden die Ereignis-Payload, die oben auf dieser Seite angezeigt wird.
 
 
 >[!CAUTION]
