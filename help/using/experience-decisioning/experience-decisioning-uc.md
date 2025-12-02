@@ -7,10 +7,10 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+source-git-commit: 17c8bc8b37c4bdf7c93735e152eedf7e0bbaf62a
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 98%
+source-wordcount: '858'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,10 @@ In diesem Beispiel ist nicht sicher, ob eine bestimmte Rangfolgenformel besser f
 
 * Die erste Abwandlung verwendet die **Priorität** als Rangfolgenmethode.
 * Die zweite Abwandlung verwendet eine **Formel** als Rangfolgenmethode.
+
+>[!NOTE]
+>
+>Implementierungsdetails für Tests und Deduplizierung bei Verwendung von Decisioning in Code-basierten Erlebnissen finden Sie [dieser Seite](../code-based/code-based-decisioning-implementations.md).
 
 ## Erstellen von Auswahlstrategien
 
