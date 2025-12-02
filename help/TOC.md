@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '2995'
+source-wordcount: '2988'
 ht-degree: 99%
 
 ---
@@ -475,12 +475,10 @@ ht-degree: 99%
       + [KI-Assistent für die Inhaltsgenerierung](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Erste Schritte mit dem KI-Assistenten](using/content-management/gs-generative.md)
       + [Best Practices für KI-Prompts](using/content-management/ai-assistant-prompting-guide.md)
-      + [Generierung von E-Mails mit KI](using/content-management/generative-email.md)
-      + [Generierung von Push-Benachrichtungen mit KI](using/content-management/generative-push.md)
-      + [Generierung von SMS mit KI](using/content-management/generative-sms.md)
-      + [Generierung von Web-Seiten mit KI](using/content-management/generative-web.md)
+      + [Vollständigen Inhalt mit KI generieren](using/content-management/generative-full-content.md)
+      + [Generieren von Text mit KI](using/content-management/generative-text.md)
+      + [Erzeugen von Bildern mit KI](using/content-management/generative-image.md)
       + [Inhaltsexperiment mit KI](using/content-management/generative-experimentation.md)
-      + [Landingpage mit KI](using/content-management/generative-lp.md)
       + [Anwendungsfälle für den KI-Assistenten](using/content-management/generative-uc.md)
       + Marken {#brands}
          + [Marken](/help/rp_landing_pages/brands-landing-page.md)

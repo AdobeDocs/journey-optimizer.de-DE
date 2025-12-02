@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 100%
+source-wordcount: '1522'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 100%
 Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Hauptteil]**. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Erfahren Sie mehr zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md) im Personalisierungseditor.
 
 Im Bereich für die Gerätevorschau sehen Sie, wie die Push-Benachrichtigung auf iOS- und Android-Geräten dargestellt wird.
+
+Beschleunigen Sie die Inhaltserstellung mit dem KI-Assistenten und generieren Sie mit dem [KI-Assistenten für die Textgenerierung](../content-management/generative-text.md) überzeugenden Push-Benachrichtigungstext oder erstellen Sie vollständige Push-Benachrichtigungen mit dem [KI-Assistenten für die vollständige Inhaltserstellung](../content-management/generative-full-content.md).
 
 ## Klickverhalten {#on-click-behavior}
 

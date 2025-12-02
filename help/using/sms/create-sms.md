@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '1119'
+ht-degree: 98%
 
 ---
 
@@ -98,6 +98,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer Textnachricht beginnen, i
 >title="Definieren Ihres SMS-Inhalts"
 >abstract="Passen Sie Ihre Textnachrichten (SMS/MMS/RCS) mithilfe des Personalisierungseditors an und personalisieren Sie sie, indem Sie den Inhalt definieren und dynamische Elemente einfügen."
 
+
 Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einstellungen für MMS-Nachrichten sind in [diesem Abschnitt](#mms-content) beschrieben.
 
 1. Klicken Sie auf dem Bildschirm der Journey- oder Kampagnenkonfiguration auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der Textnachricht zu konfigurieren.
@@ -107,6 +108,8 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
    Fügen Sie für RCS-Messaging mit Infobip, Twilio oder anderen Drittanbietern die erforderliche JSON-Payload in Ihre [benutzerdefinierte SMS-Konfiguration](sms-configuration-custom.md#api-credential) ein.
 
    ![](assets/sms-content.png)
+
+1. Erzeugen Sie ansprechende Textnachrichten, die auf Ihre Zielgruppe zugeschnitten sind, mithilfe [KI-Assistenten für die Textgenerierung](../content-management/generative-text.md).
 
 1. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren und Personalisierung sowie dynamischen Inhalt hinzuzufügen. Sie können jedes Attribut verwenden, wie etwa Profilname oder Stadt. Sie können auch bedingte Regeln definieren. Auf den folgenden Seiten erfahren Sie mehr über [Personalisierung](../personalization/personalize.md) und [dynamische Inhalte](../personalization/get-started-dynamic-content.md) im Personalisierungseditor.
 

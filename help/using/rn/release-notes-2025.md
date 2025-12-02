@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 100%
 
@@ -1660,7 +1660,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <td>
 <p>Mithilfe des KI-Assistenten können Sie jetzt überzeugende Inhalte für Ihre Landingpages erstellen, einschließlich ganzseitiger Designs, personalisierter Texte und benutzerdefinierter visueller Elemente.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Weitere Informationen finden Sie in der <a href="../content-management/generative-lp.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../content-management/generative-full-content.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>

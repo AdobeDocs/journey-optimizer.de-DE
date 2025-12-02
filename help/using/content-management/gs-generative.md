@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
-workflow-type: ht
-source-wordcount: '919'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '866'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Sie können den KI-Assistenten in Adobe Journey Optimizer verwenden, um die Wirk
 
 >[!IMPORTANT]
 >
->* Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen unter [Schutzmechanismen und Einschränkungen](#generative-guardrails).
+>* Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Schutzmechanismen und Einschränkungen](#generative-guardrails).
 >
 >
 >* Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
@@ -128,45 +128,34 @@ Die folgenden Einschränkungen gelten für den KI-Assistenten in Adobe Journey O
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="generative-email.md">
-<img alt="Generierung von E-Mails" src="assets/do-not-localize/text-genai.jpeg">
+<a href="generative-full-content.md">
+<img alt="Vollständige Inhaltserstellung" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>Generierung von E-Mails</strong></a>
+<a href="generative-full-content.md"><strong>Vollständigen Inhalt generieren</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-sms.md">
-<img alt="Generierung von SMS" src="assets/do-not-localize/image-genai.jpeg">
+<a href="generative-text.md">
+<img alt="Textgenerierung" src="assets/do-not-localize/text-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>Generierung von SMS</strong>
+<div><a href="generative-text.md"><strong>Text generieren</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-push.md">
-<img alt="Generierung von Push-Benachrichtungen" src="assets/do-not-localize/email-genai.jpeg">
+<a href="generative-image.md">
+<img alt="Bildgenerierung" src="assets/do-not-localize/image-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>Generierung von Push-Benachrichtigungen</strong></a>
+<a href="generative-image.md"><strong>Erstellen von Bildern</strong></a>
 </div>
 <p></td>
-<td>
-<a href="generative-web.md">
-<img alt="Generierung von Web-Seiten" src="assets/do-not-localize/web-genai.jpeg">
-</a>
-<div><a href="generative-web.md"><strong>Generierung von Web-Seiten</strong>
-</div>
-<p>
-</td>
 </tr></table>
 
 ## Weitere Ressourcen
 
-* **[KI-Assistent für E-Mails](generative-email.md)** – Erfahren Sie, wie Sie mit dem KI-Assistenten E-Mail-Inhaltsvarianten generieren und optimieren können.
-* **[KI-Assistent für Push-Benachrichtigungen](generative-push.md)** – Erfahren Sie, wie Sie mithilfe von KI überzeugende Inhalte für Push-Benachrichtigungen erstellen können.
-* **[KI-Assistent für SMS](generative-sms.md)** – Generieren Sie effektive SMS-Nachrichtenvarianten mithilfe der KI-gestützten Inhaltserstellung.
-* **[KI-Assistent für Web-Erlebnisse](generative-web.md)** – Erfahren Sie, wie Sie mit dem KI-Assistenten Web-Inhalte erstellen und optimieren können.
 * **[Generatives Experimentieren](generative-experimentation.md)** – Erfahren Sie, wie Sie KI-generierten Inhalt mit Experimenten kombinieren.
+* **[Anwendungsfälle des KI-Assistenten](generative-uc.md)** - Erfahren Sie durch Anwendungsfälle, wie Sie den KI-Assistenten verwenden
 * **[Tutorials zum KI-Assistenten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** – Erkunden Sie die detaillierten Video-Tutorials zu den Funktionen und Best Practices des KI-Assistenten.

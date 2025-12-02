@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Inhalt, Editor, E-Mail, Start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '700'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 96%
 
 ---
 
@@ -71,6 +71,9 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Ihrers Inhalts zu beginnen:
 1. Wählen Sie auf der Startseite von Designer die Option **[!UICONTROL Erstellen von neuen Inhalten]** aus.
 
    ![](assets/email_designer.png)
+
+
+1. Beschleunigen Sie die E-Mail-Erstellung mit dem KI-Assistenten und generieren Sie vollständige E-Mail-Inhalte mit Text und Bildern mit [KI-Assistenten für die vollständige Inhaltserstellung](../content-management/generative-full-content.md).
 
 1. Beginnen Sie mit der Gestaltung Ihres Inhalts, indem Sie **[!UICONTROL Strukturen]** per Drag-and-Drop auf die Arbeitsfläche ziehen, um das Layout Ihrer E-Mail zu definieren.
 

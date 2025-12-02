@@ -9,18 +9,20 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
-workflow-type: ht
-source-wordcount: '680'
-ht-degree: 100%
+source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 91%
 
 ---
 
-# Erste Schritte beim Gestalten von E-Mails {#get-started-content-design}
+# Erste Schritte mit dem E-Mail-Design {#get-started-content-design}
 
-Sie können vorhandene Inhalte in [!DNL Journey Optimizer] importieren oder die Funktionen zur Inhaltserstellung nutzen:
+Um auf die E-Mail-Designer zuzugreifen und mit der Gestaltung Ihres E-Mail-Inhalts zu beginnen[ müssen Sie zunächst eine E-Mail ](create-email.md) einer Journey oder Kampagne erstellen.
 
-* Sie können die **Funktionen zur E-Mail-Gestaltung** in [!DNL Journey Optimizer] verwenden, um responsive E-Mails zu erstellen bzw. zu importieren. [Weitere Informationen](content-from-scratch.md)
+Anschließend können Sie [!DNL Journey Optimizer]Funktionen zum **von E-Mails** verwenden, um vorhandene Inhalte zu importieren oder von Grund auf responsive E-Mails zu erstellen. [Weitere Informationen](content-from-scratch.md)
+
+E-Mail-Designer bietet Ihnen außerdem folgende Möglichkeiten:
 
 * Nutzen Sie die Möglichkeiten von **Adobe Experience Manager Assets Essentials**, um Ihre E-Mails zu gestalten und um Ihre eigene Asset-Datenbank zu erstellen und verwalten. [Weitere Informationen](../integrations/assets.md)
 
@@ -30,25 +32,9 @@ Sie können vorhandene Inhalte in [!DNL Journey Optimizer] importieren oder die 
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
-## Best Practices für das E-Mail-Design {#best-practices}
-
-Beim Senden von E-Mails ist es wichtig zu beachten, dass die Empfängerinnen und Empfänger sie weiterleiten könnten, was manchmal zu Problemen mit dem Rendering der E-Mail führen kann. Dies gilt insbesondere bei der Verwendung von CSS-Klassen, die vom E-Mail-Anbieter, der für die Weiterleitung verwendet wird, möglicherweise nicht unterstützt werden, z. B. wenn Sie die CSS-Klasse „is-desktop-hidden“ verwenden, um ein Bild auf Mobilgeräten auszublenden.
-
-Um diese Rendering-Probleme zu minimieren, empfehlen wir, Ihre E-Mail-Design-Struktur so einfach wie möglich zu halten. Versuchen Sie, ein einzelnes Design zu verwenden, das sowohl für Desktop- als auch für Mobilgeräte gut funktioniert, und vermeiden Sie die Verwendung komplexer CSS-Klassen oder anderer Design-Elemente, die möglicherweise nicht von allen E-Mail-Clients vollständig unterstützt werden. Mithilfe dieser Best Practices können Sie sicherstellen, dass Ihre E-Mails konsistent korrekt gerendert werden, unabhängig davon, wie sie von Empfangenden angezeigt oder weitergeleitet werden.
-
-Best Practices für die Gestaltung von E-Mails finden Sie in der unten stehenden Tabelle:
-
-| Empfohlen | Mit Vorsicht zu verwenden | Nicht empfohlen |
-|-|-|-|
-| <ul><li><b>Statische, tabellenbasierte Layouts</b> für die Struktur</li> <li><b>HTML-Tabellen und verschachtelte Tabellen</b> für ein konsistentes Layout</li> <li><b>Vorlagenbreiten</b> zwischen 600 px und 800 px </li> <li><b>Einfaches Inline-CSS</b> für die Formatierung </li> <li><b>Web-sichere Schriftarten</b> für universelle Kompatibilität</li> | <ul><li><b>Hintergrundbilder</b> werden auf bestimmten E-Mail-Plattformen möglicherweise nicht angezeigt.</li><li><b>Benutzerdefinierte Web-Schriftarten</b> werden nicht universell unterstützt.</li><li><b>Breites Layout</b> wird auf kleineren Bildschirmen möglicherweise schlecht angezeigt.</li><li><b>Imagemaps</b> bieten eingeschränkte Funktionalität.</li><li><b>Eingebettetes CSS</b> wird manchmal während des E-Mail-Versands entfernt.</li> | <ul><li><b>JavaScript</b> wird in E-Mail-Umgebungen im Allgemeinen nicht unterstützt.</li> <li> <b>`<iframe>`</b>-Tags sind auf den meisten Plattformen blockiert. </li> <li><b>Flash</b> ist veraltet und wird nicht mehr unterstützt.</li> <li><b>Eingebettetes Audio</b> kann oft nicht abgespielt werden.</li> <li><b>Eingebettetes Video</b> ist mit vielen E-Mail-Plattformen nicht kompatibel.</li> <li> <b>Formulare</b> funktionieren in E-Mails nicht.</li> <li> `<div>`-Ebenen können zu Problemen beim Rendern führen.</li> |
-
->[!NOTE]
->
->Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Zusätzlich zu den in diesem Abschnitt aufgeführten Best Practices zum Entwerfen von E-Mails sollten Sie auch die auf [dieser Seite](accessible-content.md) aufgeführten Richtlinien zum Erstellen barrierefreier Inhalte mit dem E-Mail-Designer befolgen.
-
 ## Wichtige Schritte zum Erstellen von E-Mail-Inhalten {#key-steps}
 
-Nachdem Sie einer Journey oder Kampagne eine [E-Mail hinzugefügt](create-email.md) haben, können Sie mit der Erstellung Ihres E-Mail-Inhalts beginnen.
+Nachdem Sie eine E-Mail erstellt haben, können Sie mit der Gestaltung Ihres E-Mail-Inhalts beginnen.
 
 1. Verwenden Sie im Konfigurationsbildschirm der Journey oder der Kampagne den Bildschirm **[!UICONTROL Inhalt bearbeiten]**, um auf den E-Mail-Designer zuzugreifen. [Weitere Informationen](create-email.md#define-email-content)
 
@@ -76,6 +62,22 @@ Nachdem Sie einer Journey oder Kampagne eine [E-Mail hinzugefügt](create-email.
 
    ![](assets/email_designer_export.png)
 
+## Best Practices für das E-Mail-Design {#best-practices}
+
+Beim Senden von E-Mails ist es wichtig zu beachten, dass die Empfängerinnen und Empfänger sie weiterleiten könnten, was manchmal zu Problemen mit dem Rendering der E-Mail führen kann. Dies gilt insbesondere bei der Verwendung von CSS-Klassen, die vom E-Mail-Anbieter, der für die Weiterleitung verwendet wird, möglicherweise nicht unterstützt werden, z. B. wenn Sie die CSS-Klasse „is-desktop-hidden“ verwenden, um ein Bild auf Mobilgeräten auszublenden.
+
+Um diese Rendering-Probleme zu minimieren, empfehlen wir, Ihre E-Mail-Design-Struktur so einfach wie möglich zu halten. Versuchen Sie, ein einzelnes Design zu verwenden, das sowohl für Desktop- als auch für Mobilgeräte gut funktioniert, und vermeiden Sie die Verwendung komplexer CSS-Klassen oder anderer Design-Elemente, die möglicherweise nicht von allen E-Mail-Clients vollständig unterstützt werden. Mithilfe dieser Best Practices können Sie sicherstellen, dass Ihre E-Mails konsistent korrekt gerendert werden, unabhängig davon, wie sie von Empfangenden angezeigt oder weitergeleitet werden.
+
+Best Practices für die Gestaltung von E-Mails finden Sie in der unten stehenden Tabelle:
+
+| Empfohlen | Mit Vorsicht zu verwenden | Nicht empfohlen |
+|-|-|-|
+| <ul><li><b>Statische, tabellenbasierte Layouts</b> für die Struktur</li> <li><b>HTML-Tabellen und verschachtelte Tabellen</b> für ein konsistentes Layout</li> <li><b>Vorlagenbreiten</b> zwischen 600 px und 800 px </li> <li><b>Einfaches Inline-CSS</b> für die Formatierung </li> <li><b>Web-sichere Schriftarten</b> für universelle Kompatibilität</li> | <ul><li><b>Hintergrundbilder</b> werden auf bestimmten E-Mail-Plattformen möglicherweise nicht angezeigt.</li><li><b>Benutzerdefinierte Web-Schriftarten</b> werden nicht universell unterstützt.</li><li><b>Breites Layout</b> wird auf kleineren Bildschirmen möglicherweise schlecht angezeigt.</li><li><b>Imagemaps</b> bieten eingeschränkte Funktionalität.</li><li><b>Eingebettetes CSS</b> wird manchmal während des E-Mail-Versands entfernt.</li> | <ul><li><b>JavaScript</b> wird in E-Mail-Umgebungen im Allgemeinen nicht unterstützt.</li> <li> <b>`<iframe>`</b>-Tags sind auf den meisten Plattformen blockiert. </li> <li><b>Flash</b> ist veraltet und wird nicht mehr unterstützt.</li> <li><b>Eingebettetes Audio</b> kann oft nicht abgespielt werden.</li> <li><b>Eingebettetes Video</b> ist mit vielen E-Mail-Plattformen nicht kompatibel.</li> <li> <b>Formulare</b> funktionieren in E-Mails nicht.</li> <li> `<div>`-Ebenen können zu Problemen beim Rendern führen.</li> |
+
+>[!NOTE]
+>
+>Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Zusätzlich zu den in diesem Abschnitt aufgeführten Best Practices zum Entwerfen von E-Mails sollten Sie auch die auf [dieser Seite](accessible-content.md) aufgeführten Richtlinien zum Erstellen barrierefreier Inhalte mit dem E-Mail-Designer befolgen.
+
 ## Anleitungsvideos {#video}
 
 Erfahren Sie, wie Sie mit dem Nachrichteneditor E-Mail-Inhalte erstellen.
@@ -84,4 +86,4 @@ Erfahren Sie, wie Sie mit dem Nachrichteneditor E-Mail-Inhalte erstellen.
 
 Erfahren Sie, wie Sie Inhaltsexperimente für A/B-Tests konfigurieren und E-Mail-Inhalte ausprobieren können, um Ihre Geschäftsziele bestmöglich zu erreichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447340?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

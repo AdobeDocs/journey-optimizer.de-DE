@@ -5,10 +5,10 @@ title: KI-Assistent für die Inhaltsgenerierung
 description: KI-Assistent für die Inhaltsgenerierung
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ Der KI-Assistent von Adobe Journey Optimizer revolutioniert die Erstellung von I
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit dem KI-Assistenten
 
@@ -30,53 +30,33 @@ Erfahren Sie, wie Sie auf die Funktion „KI-Assistent“ zugreifen und diese ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-Generieren von E-Mail-Inhalten mit KI
+Vollständigen Inhalt generieren
 
-Erfahren Sie, wie Sie mit dem KI-Assistenten E-Mail-Inhalte mit Markenausrichtung erstellen, anpassen und optimieren können.
+Erfahren Sie, wie Sie mit dem KI-Assistenten vollständige Inhalte erstellen können, einschließlich Text und Bildern für E-Mails, Push-Benachrichtigungen, Web-Seiten und Landingpages.
 
-[Informationen zur E-Mail-Generierung](../using/content-management/generative-email.md)
+[Erfahren Sie mehr über die vollständige Inhaltserstellung](../using/content-management/generative-full-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
-Generieren von Inhalten für Push-Benachrichtigungen
+Nur Text generieren
 
-Erstellen und personalisieren Sie mit KI Inhalte für Push-Benachrichtigungen, einschließlich Text und Bildern, die mit Ihrer Marke konform sind.
+Verwenden Sie den KI-Assistenten, um Textinhalte für alle Kanäle zu generieren und zu verfeinern, einschließlich E-Mail, SMS, Push-Benachrichtigungen, Web-Seiten und Landingpages.
 
-[Push-Benachrichtigungen generieren](../using/content-management/generative-push.md)
+[Erkunden der Texterstellung](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
-Generieren von SMS-Inhalten mit KI
+Nur Bilder generieren
 
-Verwenden Sie den KI-Assistenten, um SMS-Inhalte zu generieren und zu verfeinern, die Ihre Zielgruppe ansprechen und gleichzeitig die Markenrichtlinien einhalten.
+Erstellen und passen Sie Bilder mit dem KI-Assistenten zur Verwendung in E-Mails, Push-Benachrichtigungen, Web-Seiten und Landingpages an.
 
-[SMS-Generierung erkunden](../using/content-management/generative-sms.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
-
-Generieren von Web-Seiteninhalten und Assets
-
-Verbessern Sie mit dem KI-Assistenten den Inhalt und die visuelle Gestaltung Ihrer Web-Seiten und stellen Sie sicher, dass diese den Markenrichtlinien entsprechen.
-
-[Inhalte von Web-Seiten generieren](../using/content-management/generative-web.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=de)
-
-Generieren von Landingpages mit KI
-
-Erstellen und optimieren Sie Inhalte und Assets für Landingpages, einschließlich Text und Bildmaterial, um die Interaktion zu steigern.
-
-[Landingpages generieren](../using/content-management/generative-lp.md)
+[Erstellen von Bildern](../using/content-management/generative-image.md)
 :::
 
 ::::

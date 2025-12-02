@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Design, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '187'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 90%
 
 ---
 
@@ -25,6 +25,8 @@ Um Inhalte für die [Primärseite](create-lp.md#configure-primary-page) oder [Un
 Dort haben Sie folgende Möglichkeiten:
 
 * **Entwerfen Sie Ihre Landingpage von Grund auf** über die Benutzeroberfläche des E-Mail-Designers und nutzen Sie Bilder aus [Adobe Experience Manager Assets](../integrations/assets.md). Um zu erfahren, wie Sie Inhalte entwerfen <!--or use built-in templates-->, lesen Sie [diesen Abschnitt](../email/content-from-scratch.md).
+
+* **Generieren von Inhalten mit dem KI-**, um die Erstellung von Landingpages mit KI-generiertem Text und Bildern zu beschleunigen. [Weitere Informationen zum KI-Assistenten](../content-management/generative-full-content.md).
 
 * **Codieren Sie oder fügen Sie rohen HTML-Code** direkt in Content Designer ein. Erfahren Sie [in diesem Abschnitt](../email/code-content.md), wie Sie Ihren eigenen Inhalt codieren.
 
