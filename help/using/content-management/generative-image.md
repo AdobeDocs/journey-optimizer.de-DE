@@ -7,10 +7,10 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 64%
+source-wordcount: '1414'
+ht-degree: 56%
 
 ---
 
@@ -36,11 +36,11 @@ Um mit dem Generieren von Bildern mit dem KI-Assistenten zu beginnen, richten Si
 1. Erstellen und konfigurieren Sie Ihre Kampagne oder Journey:
    * **E-**: Nachdem Sie Ihre E-Mail-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../email/create-email.md)
    * **Web**: Klicken Sie nach dem Erstellen und Konfigurieren Ihrer Web-Seite auf **[!UICONTROL Web-Seite bearbeiten]**. [Weitere Informationen](../web/create-web.md)
-   * **Landingpage**: Klicken Sie nach der Erstellung und Konfiguration Ihrer Landingpage auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../landing-pages/create-lp.md)
+   * **Landingpage**: Klicken Sie nach dem Erstellen und Konfigurieren Ihrer Landingpage auf **[!UICONTROL Designer öffnen]**. [Weitere Informationen](../landing-pages/create-lp.md)
 
 1. Wählen Sie das Asset aus, das mit dem KI-Assistenten geändert werden soll.
 
-1. Wählen Sie im Menü rechts die Option **[!UICONTROL KI-Assistent]** (oder **[!UICONTROL KI-Assistent anzeigen]** für Web) aus.
+1. Wählen Sie im Menü rechts die Option **[!UICONTROL KI-Assistent]** (oder **[!UICONTROL Inhaltsassistent anzeigen]** für Web) aus.
 
    ![Bild-Asset ausgewählt und Bedienfeld „KI-Assistent“ geöffnet](assets/image-genai-1.png){zoomable="yes"}
 
@@ -67,25 +67,27 @@ Erfahren Sie, wie Sie mit dem KI-Assistenten effektive Eingabeaufforderungen ers
    * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
 
-   ![Bedienfeld Bildeinstellungen mit Steuerelementen](assets/image-genai-4.png){zoomable="yes"}
+     ![Bedienfeld Bildeinstellungen mit Steuerelementen](assets/image-genai-4.png){zoomable="yes"}
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
+1. Klicken Sie im Menü **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext-KI-Assistenten bereitstellen können oder ein zuvor hochgeladenes Asset auswählen.
 
-   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
+   Zuvor hochgeladene Dateien sind in der Dropdown **[!UICONTROL Liste „Hochgeladener]**&quot; verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
 1. Sobald Sie mit der Konfiguration des Prompts zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
-1. Durchsuchen Sie die **[!UICONTROL Variantenvorschläge]**, um das gewünschte Asset zu finden.
+### Verfeinern und abschließen {#refine-finalize}
 
-   Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
+Nachdem Sie Bildvarianten erstellt haben, können Sie die Ergebnisse überprüfen, die Markenausrichtung überprüfen, in Adobe Express bearbeiten und die beste Option für Ihren Inhalt auswählen.
+
+1. Durchsuchen Sie die **[!UICONTROL Variantenvorschläge]**, um das gewünschte Asset zu finden.
 
 1. Klicken Sie auf das Prozentsymbol, um den **[!UICONTROL Markenausrichtungswert]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
-### Verfeinern und abschließen {#refine-finalize}
+   ![Bewertung der Markenausrichtung für Varianten](assets/image-genai-6.png){zoomable="yes"}
 
-Nachdem Sie Bildvarianten erstellt haben, können Sie die Ergebnisse überprüfen, die Markenausrichtung überprüfen, in Adobe Express bearbeiten und die beste Option für Ihren Inhalt auswählen.
+1. Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -96,7 +98,7 @@ Nachdem Sie Bildvarianten erstellt haben, können Sie die Ergebnisse überprüfe
 
    * Mit **[!UICONTROL Speichern]** können Sie die Assets für den späteren Zugriff speichern.
 
-   ![Optionen mit verfügbaren Aktionen verfeinern](assets/image-genai-5.png){zoomable="yes"}
+     ![Optionen mit verfügbaren Aktionen verfeinern](assets/image-genai-5.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
 
@@ -131,8 +133,6 @@ Um den KI-Assistenten für Push-Benachrichtigungen zu verwenden, müssen Sie Ihr
 
 Nach dem Zugriff auf den KI-Assistenten können Sie die Generierungseinstellungen anpassen, um Bilder zu erstellen, die Ihrer Marke entsprechen und Ihre Push-Benachrichtigungsziele unterstützen. Konfigurieren Sie die Eingabeaufforderung und Bildparameter, um für mobile Displays optimierte Visualisierungen zu generieren.
 
-1. Aktivieren Sie für den KI-Assistenten die Option **[!UICONTROL Referenzstil]**, um neue Inhalte basierend auf dem Referenzinhalt zu personalisieren. Sie können auch ein Bild hochladen, um Ihrer Variante Kontext hinzuzufügen.
-
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die KI-generierten Inhalte Ihren Markenspezifikationen entsprechen. [Erfahren Sie mehr](brands.md) über Marken.
 
    Beachten Sie, dass die Marken-Funktion als Private Beta veröffentlicht und in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung gestellt wird.
@@ -143,6 +143,8 @@ Nach dem Zugriff auf den KI-Assistenten können Sie die Generierungseinstellunge
 
    ![KI-Assistent für die Bildgenerierung für Push](assets/push-gen-img.png){zoomable="yes"}
 
+1. Wählen Sie **[!UICONTROL Bild]** als zu generierendes Feld aus.
+
 1. Wählen Sie die **[!UICONTROL Bildeinstellungen]**:
 
    * **[!UICONTROL Content-Typ]**: Hiermit wird die Art des visuellen Elements kategorisiert, wobei zwischen verschiedenen Arten der visuellen Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
@@ -151,11 +153,17 @@ Nach dem Zugriff auf den KI-Assistenten können Sie die Generierungseinstellunge
    * **[!UICONTROL Beleuchtung]**: Dies bezieht sich auf die Beleuchtung in einem Bild, die dessen Atmosphäre prägt und bestimmte Elemente hervorhebt.
    * **[!UICONTROL Komposition]**: Dies bezieht sich auf die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
+     ![KI-Assistent für die Bildgenerierung für Push](assets/push-gen-img-3.png){zoomable="yes"}
 
-   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
+1. Klicken Sie im Menü **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext-KI-Assistenten bereitstellen können oder ein zuvor hochgeladenes Asset auswählen.
+
+   Zuvor hochgeladene Dateien sind in der Dropdown **[!UICONTROL Liste „Hochgeladener]**&quot; verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
+
+### Verfeinern und abschließen {#mobile-refine-finalize}
+
+Nachdem Sie Bildvarianten für Ihre Push-Benachrichtigungen generiert haben, können Sie die Ergebnisse optimieren, um sicherzustellen, dass sie genau Ihren Anforderungen entsprechen. Überprüfen Sie die Markenausrichtung, bearbeiten Sie sie bei Bedarf in Adobe Express und wählen Sie das beste Bild für Ihre Mobilkampagne aus.
 
 1. Durchsuchen Sie die generierten **[!UICONTROL Varianten]**.
 
@@ -163,20 +171,9 @@ Nach dem Zugriff auf den KI-Assistenten können Sie die Generierungseinstellunge
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
-### Verfeinern und abschließen {#mobile-refine-finalize}
+   ![Bewertung der Markenausrichtung für Varianten](assets/q.png){zoomable="yes"}
 
-Nachdem Sie Bildvarianten für Ihre Push-Benachrichtigungen generiert haben, können Sie die Ergebnisse optimieren, um sicherzustellen, dass sie genau Ihren Anforderungen entsprechen. Überprüfen Sie die Markenausrichtung, bearbeiten Sie sie bei Bedarf in Adobe Express und wählen Sie das beste Bild für Ihre Mobilkampagne aus.
-
-1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
-
-   * Mit **[!UICONTROL Ähnliche generieren]** können Sie verwandte Bilder für diese Variante anzeigen.
-   * Mit **[!UICONTROL In Adobe Express bearbeiten]** können Sie Ihr Asset weiter anpassen.
-
-[Weitere Informationen zur Adobe Express-Integration](../integrations/express.md)
-
-   * Mit **[!UICONTROL Speichern]** können Sie die Assets für den späteren Zugriff speichern.
-
-   ![Optionen für Push-Benachrichtigungs-Bilder verfeinern](assets/push-gen-img-2.png){zoomable="yes"}
+1. Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 

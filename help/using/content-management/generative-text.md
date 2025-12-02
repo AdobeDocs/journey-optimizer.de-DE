@@ -7,10 +7,10 @@ feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: b70911f1f1fa00154729b5b88517233b67a377cb
 workflow-type: tm+mt
-source-wordcount: '1607'
-ht-degree: 44%
+source-wordcount: '1605'
+ht-degree: 41%
 
 ---
 
@@ -37,7 +37,7 @@ Bevor Sie mit der Erstellung von Textinhalten mit dem KI-Assistenten beginnen k�
 
    * **E-**: Nachdem Sie Ihre E-Mail-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../email/create-email.md)
    * **Web**: Klicken Sie nach dem Erstellen und Konfigurieren Ihrer Web-Seite auf **[!UICONTROL Web-Seite bearbeiten]**. [Weitere Informationen](../web/create-web.md)
-   * **Landingpage**: Klicken Sie nach der Erstellung und Konfiguration Ihrer Landingpage auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../landing-pages/create-lp.md)
+   * **Landingpage**: Klicken Sie nach dem Erstellen und Konfigurieren Ihrer Landingpage auf **[!UICONTROL Designer öffnen]**. [Weitere Informationen](../landing-pages/create-lp.md)
 
 1. Wählen Sie eine **[!UICONTROL Textkomponente]** aus, um nur einen bestimmten Inhalt anzusprechen und auf das Menü **[!UICONTROL KI-Assistent]** zuzugreifen (oder **[!UICONTROL KI-Assistent anzeigen]** für das Web).
 
@@ -134,19 +134,17 @@ Bevor Sie mit der Erstellung von Text mit dem KI-Assistenten für mobile Kanäle
    * **SMS**: [Weitere Informationen](../sms/create-sms.md)
 
 1. Zugriff auf KI-Assistenten:
-   * **Für Push** Benachrichtigungen: Klicken Sie auf das Menü **[!UICONTROL Text mit KI-]** bearbeiten neben Ihren Feldern **[!UICONTROL Titel]** oder **[!UICONTROL Nachricht]**.
+   * **Für Push** Benachrichtigungen: Klicken Sie auf das Menü **[!UICONTROL Text mit KI-]** bearbeiten neben Ihren Feldern **[!UICONTROL Titel]** oder **[!UICONTROL Nachricht]**. Sie können auch direkt auf das Menü **KI-Assistent** zugreifen.
 
-     ![Kompositionsbildschirm für Push-Benachrichtigungen mit der Schaltfläche Text bearbeiten mit KI-Assistent](assets/push-genai-1.png){zoomable="yes"}
+     ![Kompositionsbildschirm für Push-Benachrichtigungen mit der Schaltfläche Text bearbeiten mit KI-Assistent](assets/push-text-1.png){zoomable="yes"}
 
-   * **Für SMS**: Rufen Sie das Menü **[!UICONTROL KI-Assistenten]**.
+   * **Für SMS**: Klicken Sie auf das Menü **[!UICONTROL Text mit KI-]** bearbeiten neben Ihrer **[!UICONTROL Nachricht]** oder rufen Sie das Menü **[!UICONTROL KI-Assistenten anzeigen]** auf.
 
      ![SMS-Nachrichten-Editor mit geöffnetem Bedienfeld des KI-Assistenten](assets/sms-genai-1.png){zoomable="yes"}
 
 ### Inhalt generieren {#mobile-generate-content}
 
 Nachdem Sie auf den KI-Assistenten zugegriffen haben, können Sie die Generierungseinstellungen so konfigurieren, dass mobile Inhalte erstellt werden, die Ihren Marken- und Kampagnenzielen entsprechen. Passen Sie Textparameter an, fügen Sie Marken-Assets hinzu und geben Sie Aufforderungen an, um die KI bei der Generierung relevanter Varianten zu unterstützen.
-
-1. Aktivieren Sie die Option **[!UICONTROL Referenzinhalt verwenden]** (für Push-Benachrichtigungen) oder **[!UICONTROL Original-Inhalt verwenden]** (für SMS) für den KI-Assistenten, um neue Inhalte basierend auf den ausgewählten Inhalten zu personalisieren.
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die KI-generierten Inhalte Ihren Markenspezifikationen entsprechen. [Erfahren Sie mehr](brands.md) über Marken.
 
@@ -158,20 +156,19 @@ Nachdem Sie auf den KI-Assistenten zugegriffen haben, können Sie die Generierun
 
    ![KI-Assistent mit Eingabeaufforderungsfeld und Optionen](assets/push-genai-2.png){zoomable="yes"}
 
+1. **Wählen Sie für** Push-Benachrichtigung aus, welches Feld Sie generieren möchten: Titel und/oder Nachricht.
+
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Texteinstellungen]** an:
 
    * **[!UICONTROL Kommunikationsstrategie]**: Wählen Sie den am besten geeigneten Kommunikationsstil für den generierten Text aus.
    * **[!UICONTROL Sprachen]**: Wählen Sie die Sprache Ihrer generierten Inhalte.
    * **[!UICONTROL Ton]**: Der Ton sollte bei Ihrer Audience Anklang finden. Ob Sie nun informativ, humorvoll oder überzeugend klingen möchten, der KI-Assistent kann die Nachricht entsprechend anpassen.
-   * **[!UICONTROL Länge]**: Legen Sie die Länge Ihres Inhalts mit dem Schieberegler fest.
 
-   ![Bedienfeld Texteinstellungen](assets/push-genai-4.png){zoomable="yes"}
+     ![Bedienfeld Texteinstellungen](assets/push-genai-4.png){zoomable="yes"}
 
-1. Wählen Sie für Push-Benachrichtigungen aus, welches Feld Sie generieren möchten: Titel und/oder Nachricht.
+1. Klicken Sie im Menü **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um jedes Marken-Asset hinzuzufügen, das Inhalte enthält, die zusätzlichen Kontext-KI-Assistenten bereitstellen können oder ein zuvor hochgeladenes Asset auswählen.
 
-1. Klicken Sie im Menü **[!UICONTROL Marken-Assets]** auf **[!UICONTROL Marken-Asset hochladen]**, um beliebige Marken-Assets mit Inhalten hinzuzufügen, die zusätzlichen Kontext für den KI-Assistenten liefern können. Wählen Sie alternativ ein zuvor hochgeladenes Asset aus.
-
-   Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladene Marken-Assets]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
+   Zuvor hochgeladene Dateien sind in der Dropdown **[!UICONTROL Liste „Hochgeladener]**&quot; verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
 1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -181,13 +178,13 @@ Nachdem Sie Textvarianten für Ihre Mobile-Nachrichten generiert haben, können 
 
 1. Navigieren Sie nach der Generierung durch **[!UICONTROL Varianten]**.
 
-   Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
-
 1. Klicken Sie auf das Prozentsymbol, um den **[!UICONTROL Markenausrichtungswert]** anzuzeigen und Abweichungen von Ihrer Marke zu identifizieren.
 
    Weitere Informationen finden Sie unter [Markenausrichtungswert](brands-score.md).
 
    ![Generierte Textvarianten mit Markenausrichtung](assets/push-genai-5.png){zoomable="yes"}
+
+1. Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vollbildversion der ausgewählten Variante anzuzeigen, oder auf **[!UICONTROL Anwenden]**, um Ihren aktuellen Inhalt zu ersetzen.
 
 1. Navigieren Sie im Fenster **[!UICONTROL Vorschau]** zur Option **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen zuzugreifen:
 
@@ -197,11 +194,13 @@ Nachdem Sie Textvarianten für Ihre Mobile-Nachrichten generiert haben, können 
 
    * **[!UICONTROL Einfachere Sprache verwenden]**: Nutzen Sie den KI-Assistenten, um Ihren Text zu vereinfachen, damit er für eine breitere Zielgruppe verständlich und zugänglich ist.
 
+   * **[!UICONTROL Übersetzen]**: Vereinfachen Sie Ihre Sprache, um einer breiteren Zielgruppe Klarheit und Zugänglichkeit zu verschaffen.
+
    * **[!UICONTROL Ton ändern]**: Passen Sie den Ton der Nachricht an Ihren Kommunikationsstil an, d. h. sie freundlicher, professioneller, dringender oder inspirierender zu gestalten.
 
    * **[!UICONTROL Kommunikationsstrategie ändern]**: Ändern Sie den Messaging-Ansatz basierend auf Ihren Zielen, z. B. der Schaffung von Dringlichkeit oder der Betonung aufregender Attraktivität.
 
-   ![Menü verfeinern](assets/push-genai-6.png){zoomable="yes"}
+     ![Menü verfeinern](assets/push-genai-6.png){zoomable="yes"}
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 
