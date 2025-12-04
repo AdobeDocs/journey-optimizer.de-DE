@@ -70,7 +70,7 @@ Nach dem Hinzufügen werden die Medien rechts neben dem Textkörper der Benachri
 
 Beachten Sie, dass Ihre Mobile App beim Einfügen von Medienanlagen in die Payload der Push-Benachrichtigung, wie z. B. Bilder in benutzerdefinierten Datenfeldern wie `adb_media`, eine spezifische Client-seitige Verarbeitung für die Bilder implementieren muss, die auf Geräten gerendert werden sollen:
 
-* **iOS**: Ihre App muss eine [Erweiterung für den Benachrichtigungsdienst](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} implementieren, um Medieninhalte aus der Payload herunterzuladen und zu verarbeiten. Darüber hinaus muss **[!UICONTROL Option &quot;]**-Flag für veränderbaren Inhalt hinzufügen[ im Abschnitt „Erweiterte Optionen](#advanced-options-push) aktiviert werden.
+* **iOS**: Ihre App muss eine [Erweiterung für den Benachrichtigungsdienst](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} implementieren, um Medieninhalte aus der Payload herunterzuladen und zu verarbeiten. Darüber hinaus muss **[!UICONTROL Option &quot;]**-Flag für veränderbaren Inhalt hinzufügen[&#x200B; im Abschnitt „Erweiterte Optionen](#advanced-options-push) aktiviert werden.
 * **Android**: Ihre App muss den [automatischen Anzeige- und Tracking-Workflow](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"} implementieren, um Bildanhänge aus der Payload zu verarbeiten.
 
 ## Hinzufügen von Schaltflächen {#add-buttons-push}
