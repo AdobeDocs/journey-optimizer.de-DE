@@ -10,10 +10,10 @@ level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: 13ef8ae4fa988537db192eca0b906940e51eeb28
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 100%
+source-wordcount: '1630'
+ht-degree: 96%
 
 ---
 
@@ -69,9 +69,16 @@ Gehen Sie wie folgt vor, um eine Formularvoreinstellung zu erstellen.
 
 1. Wählen Sie die **[!UICONTROL Streaming-Verbindung]** aus, die für dieses Formular verwendet werden soll. Dies ist der Streaming-Endpunkt, an den Daten beim Übermitteln des Formulars gesendet werden.
 
-   >[!NOTE]
+   Weitere Informationen zum Erstellen einer Streaming-Quellverbindung finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+
+   >[!IMPORTANT]
    >
-   >Weitere Informationen zum Erstellen einer Streaming-Quellverbindung finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   >Damit eine HTTP-API-Streaming-Verbindung in der Dropdown-Liste angezeigt wird, muss sie beim Erstellen in Adobe Experience Platform die folgenden Anforderungen erfüllen:
+   >
+   >* **Datentyp** muss auf &quot;**&quot; festgelegt sein** keine Rohdaten)
+   >* **Authentifizierung** muss **deaktiviert** sein (nicht authentifizierte Verbindung)
+   >
+   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können etwas eingeben, um einen bestimmten Datensatz zu durchsuchen, oder einen Datensatz aus der Liste auswählen.
 
