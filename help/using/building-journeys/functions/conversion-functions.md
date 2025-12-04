@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: Konvertierung, Funktionen, Ausdruck, Journey, Typ, Umwandlung
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '957'
-ht-degree: 100%
+source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
+workflow-type: tm+mt
+source-wordcount: '1054'
+ht-degree: 89%
 
 ---
 
@@ -142,12 +142,13 @@ Konvertiert Parameter je nach Typ in einen Datum-/Uhrzeit-Wert.
 
 +++Parameter
 
-| Parameter | Typ |
-|-----------|------------------|
-| Datum/Uhrzeit im ISO 8601-Format | Zeichenfolge |
-| Zeitzonen-ID | Zeichenfolge |
-| Datum/Uhrzeit ohne Zeitzone | dateTimeOnly |
-| ganzzahliger Wert einer Epoche in Millisekunden | integer |
+| Parameter | Beschreibung |
+|--- |--- |
+| string | Datum/Uhrzeit im ISO-8601-Format. Eine Zeichenfolgendarstellung eines Datums-/Uhrzeitwerts mit Zeitzoneninformationen |
+| Zeichenfolge | Zeitzonen-ID. Eine Zeitzonenkennung (z. B. „UTC“, „Europe/Paris„) |
+| dateOnly | Stellt ein Datum ohne Zeitzone dar, das als Jahr-Monat-Tag angezeigt wird |
+| dateTimeOnly | Stellt einen Datum/Uhrzeit-Wert ohne Zeitzone dar, der als Jahr-Monat-Tag-Stunde-Minute-Sekunde-Millisekunde angezeigt wird |
+| integer | ganzzahliger Wert einer Epoche in Millisekunden |
 
 +++
 
@@ -155,7 +156,9 @@ Konvertiert Parameter je nach Typ in einen Datum-/Uhrzeit-Wert.
 
 `toDateTime(<string>)`
 
-`toDateTime(<stringified time zone id>, <dateTimeOnly>)`
+`toDateTime(<string>, <dateOnly>)`
+
+`toDateTime(<string>, <dateTimeOnly>)`
 
 `toDateTime(<integer>)`
 
@@ -165,17 +168,29 @@ Gibt einen **Datum/Uhrzeit-Wert** zurück.
 
 +++Beispiele
 
-`toDateTime ("2023-08-18T23:17:59.123Z")`
+`toDateTime("2023-08-18T23:17:59.123Z")`
 
 Gibt 2023-08-18T23:17:59.123Z zurück.
 
-`toDateTime(toDateTimeOnly("UTC", "2023-08-18T23:17:59.123"))`
+Die ISO-8601-Zeichenfolge enthält bereits Zeitzoneninformationen.
+
+`toDateTime("Europe/Paris", toDateOnly("2023-08-18"))`
+
+Gibt 2023-08-18T00:00:00.000+02 :00
+
+Dadurch wird eine dateTime erstellt, indem eine Zeitzone mit einem reinen Datumswert kombiniert wird. Die Uhrzeit wird in der angegebenen Zeitzone auf Mitternacht :00:00:00) festgelegt.
+
+`toDateTime("UTC", toDateTimeOnly("2023-08-18T23:17:59.123"))`
 
 Gibt 2023-08-18T23:17:59.123Z zurück.
+
+Dadurch wird eine dateTime erstellt, indem eine Zeitzone auf einen dateTimeOnly-Wert angewendet wird (der keine Zeitzoneninformationen enthält).
 
 `toDateTime(1560762190189)`
 
-Gibt 2023-06-17T09:03:10.189Z zurück.
+Gibt 2019-06-17T09:03:10.189Z zurück
+
+Konvertiert einen Unix-Zeitstempel in Millisekunden in einen dateTime-Wert.
 
 +++
 
