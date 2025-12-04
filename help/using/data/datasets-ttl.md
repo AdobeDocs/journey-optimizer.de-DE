@@ -78,13 +78,13 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Es ist jedoch geplant, den 
 
 >[!NOTE]
 >
->Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=&quot;_blank}
+>Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=_blank}
 
 +++
 
 +++Können Kundinnen und Kunden die TTL für Systemdatensatzdaten von [!DNL Journey Optimizer] im Data Lake erhöhen? 
 
-TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=&quot;_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
+TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
 
 +++
 
@@ -122,7 +122,7 @@ Die neue TTL-Richtlinie beschränkt den Lookback-Zeitraum für systemgenerierte 
 
 +++Welche Alternativen stehen zur Verfügung, um Daten länger als die TTL aufzubewahren?
 
-Kunden, die eine längere Aufbewahrungsfrist benötigen, sollten den Export relevanter Daten aus AJO-Datensätzen in einen externen Speicher in Betracht ziehen, bevor die TTL abläuft. Adobe Journey Optimizer unterstützt den Export von Datensätzen an verschiedene Cloud-Speicher-Ziele (Amazon S3, Azure Blob, Google Cloud Storage usw.). [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=&quot;_blank}
+Kunden, die eine längere Aufbewahrungsfrist benötigen, sollten den Export relevanter Daten aus AJO-Datensätzen in einen externen Speicher in Betracht ziehen, bevor die TTL abläuft. Adobe Journey Optimizer unterstützt den Export von Datensätzen an verschiedene Cloud-Speicher-Ziele (Amazon S3, Azure Blob, Google Cloud Storage usw.). [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=_blank}
 
 +++
 
