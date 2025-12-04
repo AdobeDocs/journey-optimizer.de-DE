@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '830'
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+workflow-type: tm+mt
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -52,11 +52,6 @@ Die Liste der personalisierten Angebote ist im Menü **[!UICONTROL Angebote]** v
 >id="ajo_decisioning_new_personalized"
 >title="Personalisiertes Angebot"
 >abstract="Ein personalisiertes Angebot ist eine anpassbare Nachricht, die auf Eignungsregeln und Beschränkungen basiert."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_new_fallback"
->title="Fallback-Angebot"
->abstract="Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn eine Endanwenderin oder ein Endanwender für keines der personalisierten Angebote qualifiziert ist."
 
 Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
@@ -175,4 +170,4 @@ Auf diese Weise können Sie auf detaillierte Informationen zu diesem Angebot zug
 
 ## Tutorial-Video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341349?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 83%
+source-wordcount: '868'
+ht-degree: 77%
 
 ---
 
@@ -63,7 +63,7 @@ Weitere Informationen zu den spezifischen Ausschlussgründen finden Sie in der f
 | InAppNoVariantDefined | 050041 | InApp | Ein Ausschlussereignis wird generiert, wenn für In-App-Nachrichten keine Variante definiert ist. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Ein Ausschlussereignis wird generiert, wenn das Experiment für die Nachricht aktiviert ist und keine Nachricht für die qualifizierte Abwandlung gefunden wird. |
 | PushNoTokenFoundInProfile | 050030 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn das Profil keine Push-Token aufweist. |
-| PushNoValidTokenFoundForApps | 050031 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn in der Konfiguration kein gültiges Token für die Zielanwendungen gefunden wird. |
+| PushNoValidTokenFoundForApps | 050031 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn in der Konfiguration kein gültiges Token für die ausgewählten Apps gefunden wird. **Wichtig:** Bei Verwendung eines Produktionszertifikats muss das Attribut `pushNotificationDetails.platform` im Benutzerprofil auf `apns` gesetzt werden. Wenn Sie ein Sandbox-Zertifikat verwenden, setzen Sie es auf `apnsSandbox`. Wenn das Plattformattribut und der Zertifikatstyp nicht übereinstimmen, tritt dieser Trigger auf. |
 | PushMalformedProfile | 050034 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn pushNotificationDetails im Profil fehlerhaft ist. |
 | PushNoConsent | 050111 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn die Person sich von Marketing-Push-Benachrichtigungen abgemeldet hat. |
 | PushNoApplicationDefinedInPreset | 050033 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn die Konfiguration keine Zielanwendung enthält. |

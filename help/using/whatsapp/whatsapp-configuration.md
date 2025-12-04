@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
-workflow-type: ht
-source-wordcount: '902'
-ht-degree: 100%
+source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 85%
 
 ---
 
@@ -179,6 +179,23 @@ Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nac
 
 Sie können jetzt mit Journey Optimizer WhatsApp-Nachrichten senden.
 
+## Fehlerbehebung bei der Einrichtung des WhatsApp-Kanals {#troubleshooting}
+
+### HTTP 500-Fehler beim Einrichten von API-Anmeldeinformationen
+
+Wenn beim Konfigurieren der WhatsApp-API-Anmeldeinformationen ein HTTP-500-Fehler auftritt, führen Sie die folgenden Schritte zur Fehlerbehebung aus:
+
+1. **Berechtigungen überprüfen**: Vergewissern Sie sich, dass für Ihr Unternehmen die `cjm_whatsapp` bereitgestellt wurde. Ohne diese Berechtigung kann der WhatsApp-Kanal nicht konfiguriert werden.
+
+1. **Validieren Sie die Felder des Geschäftskontos**: Stellen Sie sicher, dass alle Pflichtfelder korrekt ausgefüllt sind:
+   * **API-**: Muss ein gültiges Meta-Zugriffstoken mit entsprechenden Berechtigungen sein. [Weitere Informationen](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+   * **Business Account ID**: Muss genau mit Ihrer Meta Business Account ID übereinstimmen. [Weitere Informationen](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
+
+1. **Testen von Anmeldeinformationen extern**: Überprüfen Sie Ihre Anmeldeinformationen direkt mit der Meta-API, um zu bestätigen, ob das Problem mit den Anmeldeinformationen oder mit der Handhabung der Journey Optimizer-Anmeldeinformationen zusammenhängt.
+
+1. **Erweiterte Protokollierung aktivieren**: Um interne Server- oder Authentifizierungsfehler zu identifizieren, aktivieren Sie die erweiterten Protokolle in Ihrer Journey Optimizer-Umgebung, um detaillierte Informationen zu den API-Aufruffehlern bereitzustellen.
+
+1. **Support kontaktieren**: Wenn die Umgebung und die Berechtigungen bestätigt wurden, der HTTP 500-Fehler jedoch weiterhin auftritt, wenden Sie sich an den Adobe-Support.
 
 ## Anleitungsvideo {#video}
 
@@ -186,6 +203,6 @@ Im folgenden Video erfahren Sie, wie Sie den WhatsApp-Kanal in Adobe Journey Opt
 
 +++ Siehe Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470277/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

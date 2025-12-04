@@ -10,14 +10,24 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 93%
 
 ---
 
 # Erstellen von Fallback-Angeboten {#create-fallback-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="Fallback-Angebot"
+>abstract="Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn ein Endanwender für keines der personalisierten Angebote qualifiziert ist."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_fallback_offer_details "
+>title="Fallback-Angebotsdetails"
+>abstract="Geben Sie den Namen des Fallback-Angebots an. Sie können auch einen oder mehrere vorhandene Sammlungsqualifizierer damit verknüpfen, sodass Sie die Angebotsbibliothek leichter durchsuchen und organisieren können."
 
 Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind. Die Schritte zum Einrichten eines Fallback-Angebots bestehen darin, eine oder mehrere Darstellungen zu erstellen (ähnlich wie beim Erstellen eines Angebots).
 
@@ -65,5 +75,5 @@ Gehen Sie wie folgt vor, um ein Fallback-Angebot zu erstellen:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341350?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

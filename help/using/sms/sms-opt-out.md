@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 38d537eb7a14f926cafd2769fd09821eebb1186a
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 100%
+source-wordcount: '634'
+ht-degree: 89%
 
 ---
 
@@ -42,6 +42,8 @@ Stellen Sie bei Verwendung von Infobip sicher, dass für die Weiterleitungsaktio
 
 Es sind keine Schritte erforderlich, um sicherzustellen, dass die SMS-Opt-out-Funktionen in Adobe Journey Optimizer funktionieren, da die Keyword-Antworten STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE automatisch erkannt werden. Der Opt-out-Status von Profilen wird in Echtzeit in Adobe Journey Optimizer aktualisiert.
 
+Wenn Sie benutzerdefinierte Keywords zum Opt-out in Ihren SMS-API-Anmeldeinformationen definieren, überschreiben diese die oben aufgeführten standardmäßigen eingehenden Keywords. Um die Standardschlüsselwörter wie STOP, QUIT, CANCEL, END und UNSUBSCRIBE funktionsfähig zu halten, fügen Sie sie explizit zusammen mit Ihren benutzerdefinierten Schlüsselwörtern in das Feld Opt-out-Schlüsselwörter Ihrer SMS-Konfiguration ein. Andernfalls werden nur Ihre benutzerdefinierten Keywords erkannt, und die Standard-Keywords führen nicht mehr zu Trigger-Opt-out-Aktionen.
+
 Wenn eine Kundin oder ein Kunde mit STOP auf eine Textnachricht antwortet, blockiert der Anbieter alle nachfolgenden SMS von dieser Absender-ID (Kurzwahlnummer oder lange Nummer), einschließlich Transaktionsnachrichten. Um einen unterbrechungsfreien Versand von Transaktions-SMS sicherzustellen, verwenden Sie eine separate Absender-ID, für die noch kein Opt-out durchgeführt wurde.
 
 
@@ -71,6 +73,6 @@ Alphanumerische Sender IDs sind nur für einseitige Nachrichten gedacht und kön
 
   +++ Siehe Video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440289/?captions=ger&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

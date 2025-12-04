@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
+source-git-commit: b8af73485227dc102b5b190b58a5d4341ffb2708
 workflow-type: tm+mt
-source-wordcount: '3324'
+source-wordcount: '3530'
 ht-degree: 87%
 
 ---
@@ -60,23 +60,23 @@ Für den [E-Mail-Kanal](../email/get-started-email.md) gelten die folgenden Schu
 
 Beim Entwerfen von E-Mail-Nachrichten sucht das System nach wichtigen Einstellungen und zeigt Warnungen (Empfehlungen und Best Practices) und Fehler (Blockierungsprobleme, die Tests oder die Aktivierung verhindern) an. Weitere Informationen zu E-Mail-Warnhinweisen und Validierungsanforderungen finden Sie in [diesem Abschnitt](../email/create-email.md#check-email-alerts).
 
-#### Größe des Nachrichteninhalts für die Journey-Veröffentlichung {#message-content-size}
+#### Größe des Nachrichteninhalts für die Veröffentlichung einer Journey {#message-content-size}
 
-Beim Veröffentlichen von Journey mit E-Mail-Nachrichten darf die Gesamtgröße des Nachrichteninhalts nach der Backend-Verarbeitung **2 MB** nicht überschreiten. Während der Veröffentlichung verarbeitet das System automatisch Nachrichteninhalte, indem Links und Bilder gepatcht und Umwandlungen vorgenommen werden, wodurch die Payload-Größe über die Größe des erstellten Inhalts hinaus erhöht wird.
+Bei der Veröffentlichung von Journeys, die E-Mail-Nachrichten enthalten, darf die Gesamtgröße des Nachrichteninhalts nach der Backend-Verarbeitung **2 MB** nicht überschreiten. Während der Veröffentlichung verarbeitet das System automatisch Nachrichteninhalte, indem es Links und Bilder patcht und Transformationen anwendet, wodurch die Payload-Größe über die Größe des erstellten Inhalts hinaus erhöht wird.
 
 >[!CAUTION]
 >
->Wenn der endgültige verarbeitete Nachrichteninhalt 2 MB überschreitet, schlägt die Journey-Veröffentlichung fehl. Um Veröffentlichungsfehler zu vermeiden, sollten Sie den Inhalt der erstellten Nachricht deutlich unter 2 MB - idealerweise unter **1 MB** - halten, um einen Puffer von 300-400 KB für den Backend-Verarbeitungsaufwand zu ermöglichen.
+>Wenn der endgültige verarbeitete Nachrichteninhalt 2 MB überschreitet, schlägt die Veröffentlichung der Journey fehl. Um Veröffentlichungsfehler zu vermeiden, halten Sie die erstellten Nachrichteninhalte deutlich unter 2 MB (idealerweise unter **1 MB**), damit ein Puffer von 300 bis 400 KB für den Mehraufwand der Backend-Verarbeitung verbleibt.
 
 **Best Practices zur Vermeidung von Veröffentlichungsfehlern:**
 
-* Erstellte E-Mail-Inhalte unter 1 MB speichern
-* Minimieren der Anzahl von Inhaltsvarianten
-* Bilder optimieren und komprimieren, bevor sie zu Nachrichten hinzugefügt werden
-* Entfernen von nicht verwendeten Assets und unnötigen HTML-Elementen
-* Nachrichtengröße vor der Veröffentlichung der Journey in der Produktionsumgebung testen
+* Halten Sie erstellte E-Mail-Inhalte unter 1 MB
+* Minimieren Sie die Anzahl der Inhaltsvarianten
+* Optimieren und komprimieren Sie Bilder, bevor Sie sie zu Nachrichten hinzufügen
+* Entfernen Sie nicht verwendete Assets und unnötige HTML-Elemente
+* Testen Sie die Nachrichtengröße, bevor Sie Journeys in der Produktionsumgebung veröffentlichen
 
-Wenn die Journey-Veröffentlichung aufgrund der Inhaltsgröße fehlschlägt, reduzieren Sie den Nachrichteninhalt und veröffentlichen Sie die Journey erneut.
+Wenn die Veröffentlichung einer Journey aufgrund der Inhaltsgröße fehlschlägt, reduzieren Sie den Inhalt Ihrer Nachricht und veröffentlichen Sie die Journey erneut.
 
 ### Leitlinien für SMS {#sms-guardrails}
 
@@ -90,11 +90,11 @@ Für den [SMS-Kanal](../sms/get-started-sms.md) gelten die folgenden Schutzmecha
 
 * Damit Sie Aktionen für [Code-basierte Erlebnisse](../code-based/get-started-code-based.md) in [!DNL Journey Optimizer] verwenden und eine Payload mit Code-Inhalten bereitstellen zu können, die von Ihren Anwendungen genutzt werden kann, müssen die auf [dieser Seite](../code-based/code-based-prerequisites.md) beschriebenen Voraussetzungen erfüllt sein.
 
-* Um in der Benutzeroberfläche von [&#x200B; auf &#x200B;](../web/get-started-web.md)Web-Seiten[!DNL Journey Optimizer] zuzugreifen oder sie dort zu erstellen, folgen Sie den Voraussetzungen auf [dieser Seite](../web/web-prerequisites.md).
+* Um in der Benutzeroberfläche von [ auf ](../web/get-started-web.md)Web-Seiten[!DNL Journey Optimizer] zuzugreifen oder sie dort zu erstellen, folgen Sie den Voraussetzungen auf [dieser Seite](../web/web-prerequisites.md).
 
 * Um In-App-Nachrichten in Ihren Journey und Kampagnen mit [!DNL Journey Optimizer] zu senden, folgen Sie den Versandvoraussetzungen auf [dieser Seite](../in-app/inapp-configuration.md).
 
-* Damit Adobe Journey Optimizer Inhaltskarten korrekt anzeigt, müssen Sie die auf [&#x200B; Seite aufgelisteten Adobe Experience Platform-Einstellungen &#x200B;](../content-card/content-card-configuration-prereq.md).
+* Damit Adobe Journey Optimizer Inhaltskarten korrekt anzeigt, müssen Sie die auf [ Seite aufgelisteten Adobe Experience Platform-Einstellungen ](../content-card/content-card-configuration-prereq.md).
 
 * Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde. Diese Leitlinie gilt für alle eingehenden Anfragen, die von jedem der von Journey Optimizer unterstützten eingehenden Kanäle stammen können ([Web](../web/get-started-web.md), [In-App](../in-app/get-started-in-app.md), [Code-basierte Erlebnisse](../code-based/get-started-code-based.md), [Inhaltskarten](../../rp_landing_pages/content-card-landing-page.md)).
 
@@ -172,6 +172,23 @@ Leitlinien und Einschränkungen, die Sie bei der Arbeit mit der Entscheidungsfin
 * Eine Journey-Instanz für ein Profil hat eine Maximalgröße von 1 MB. Alle Daten, die im Rahmen der Journey-Ausführung gesammelt wurden, werden in dieser Journey-Instanz gespeichert. Daher werden Daten aus einem eingehenden Ereignis, aus Adobe Experience Platform abgerufene Profilinformationen, benutzerdefinierte Aktionsantworten usw. in dieser Journey-Instanz gespeichert und wirken sich auf die Journey-Größe aus. Es wird empfohlen, die Maximalgröße dieser Ereignis-Payload zu begrenzen, wenn eine Journey mit einem Ereignis beginnt (z. B. weniger als 800 KB), um zu verhindern, dass dieses Limit nach wenigen Aktivitäten bei der Ausführung der Journey erreicht wird. Wenn dieses Limit erreicht ist, befindet sich das Profil im Fehlerstatus und wird von der Journey ausgeschlossen.
 * Zusätzlich zu der in den Journey-Aktivitäten verwendeten maximalen Wartezeit gibt es auch eine maximale globale Journey-Wartezeit, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Diese maximale globale Wartezeit stoppt den Fortschritt von Kontakten in der Journey 91 Tage nach ihrem Eintritt. [Weitere Informationen](../building-journeys/journey-properties.md#global_timeout)
 
+### Paketeinschränkungen für einheitliche Journey auswählen {#select-package-limitations}
+
+>[!NOTE]
+>
+>Diese Einschränkungen gelten nicht für Journey vom Typ „Zielgruppe lesen“ oder „Geschäftsereignis“ mit dem Paket **Auswählen**. Wenn Sie eine komplexere Journey-Logik mit mehreren Aktionen, Bedingungen oder Warteaktivitäten benötigen, sollten Sie ein Upgrade Ihres Lizenzpakets in Erwägung ziehen oder gegebenenfalls Zielgruppen-Journey lesen verwenden.
+
+Für Kunden, die das **Select**-Lizenzpaket verwenden, gelten die folgenden zusätzlichen Einschränkungen speziell für unitäre Journey, Journey, beginnend mit einem Event oder einer Zielgruppen-Qualifizierung:
+
+* **SELECT-Paket: Nur eine Aktion zulässig beim unitären Journey (ERR_PKG_SELECT_8)**: Unitäre Journey können nur eine Aktionsaktivität enthalten. Sie können nicht mehrere E-Mail-, Push-, SMS- oder andere Aktionsaktivitäten innerhalb derselben Journey hinzufügen.
+
+* **SELECT-Paket: Keine Bedingung beim unitären Journey zulässig (ERR_PKG_SELECT_7)**: Bedingungsaktivitäten können nicht in unitären Journey verwendet werden. Die Journey muss einem einzigen, linearen Pfad ohne Verzweigungslogik folgen.
+
+* **SELECT-Paket: Keine Wartezeit beim unitären Journey zulässig (ERR_PKG_SELECT_6)**: Warteaktivitäten können nicht zu unitären Journey hinzugefügt werden. Aktionen müssen sofort und ohne Verzögerungen ausgeführt werden.
+
+* **Paket auswählen: Zeitüberschreitung/Fehlerübergang vom Knoten darf nur auf den Endknoten verweisen (ERR_PKG_SELECT_2)**: Wenn Sie Zeitüberschreitung oder Fehlerübergänge für eine Aktion wie eine E-Mail-Aktion konfigurieren, müssen diese Pfade direkt auf einen Endknoten verweisen. Sie können keine Verbindung zu anderen Aktivitäten oder Aktionen auf der Journey herstellen.
+
+
 ### Allgemeine Aktionen {#general-actions-g}
 
 Für [Aktionen](../building-journeys/about-journey-activities.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
@@ -196,7 +213,7 @@ Für [Journey-Versionen](../start/user-interface.md) gelten die folgenden Schutz
 
 Für [benutzerdefinierte Aktionen](../action/action.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
 
-* Für alle benutzerdefinierten Aktionen ist ein Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Das Limit „pro Host“ gilt auf Domain-Ebene (z. B. example.com). Diese Begrenzung wird als gleitendes Fenster pro Sandbox und pro Endpunkt für Endpunkte mit Antwortzeiten von weniger als 0,75 Sekunden erzwungen. Für Endpunkte mit Antwortzeiten von mehr als 0,75 Sekunden gilt eine separate Begrenzung von 150.000 Aufrufen pro 30 Sekunden (ebenfalls ein gleitendes Fenster). Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md). Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
+* Für alle benutzerdefinierten Aktionen ist eine Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Das Limit „pro Host“ gilt auf Domain-Ebene (z. B. beispiel.com). Diese Begrenzung wird als bewegliches Fenster pro Sandbox und pro Endpunkt für Endpunkte mit Antwortzeiten von weniger als 0,75 Sekunden erzwungen. Für Endpunkte mit Antwortzeiten von mehr als 0,75 Sekunden gilt eine separate Begrenzung von 150.000 Aufrufen pro 30 Sekunden (ebenfalls ein bewegliches Fenster). Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md). Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.
 * Es werden die Aufrufmethoden POST, PUT und GET unterstützt
 * Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder „$“ beginnen.

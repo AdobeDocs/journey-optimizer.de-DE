@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
+source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 100%
+source-wordcount: '1927'
+ht-degree: 96%
 
 ---
 
@@ -105,6 +105,12 @@ Für Ihr Inhaltsexperiment können Sie zwischen drei Arten von Experimenten wäh
 1. Klicken Sie auf **[!UICONTROL Abwandlung hinzufügen]**, um so viele neue Abwandlungen wie nötig zu erstellen.
 
    ![](assets/content_experiment_8.png)
+
+   >[!CAUTION]
+   >
+   >Beachten Sie beim Erstellen eines Code-basierten Experiments die folgenden Einschränkungen:
+   >* **Anzahl der Behandlungen**: Die Erstellung von mehr als 3-5 Behandlungen kann zu Leistungs- und Schnittstellenproblemen führen. Wenn beim Hinzufügen von Behandlungen Fehler auftreten, reduzieren Sie die Anzahl der Behandlungen oder fügen Sie sie schrittweise hinzu, bis das Problem behoben ist.
+   >* **Reservierte Keywords**: Verwenden Sie in Ihren Abwandlungsnamen keine reservierten Keywords wie „Holdout“, da dies zu Fehlern bei der Entscheidungsknotenzuordnung führen und die ordnungsgemäße Funktionsweise des Experiments verhindern kann.
 
 1. Ändern Sie den **[!UICONTROL Titel]** Ihrer Abwandlung, um die einzelnen Abwandlungen besser unterscheiden zu können.
 
