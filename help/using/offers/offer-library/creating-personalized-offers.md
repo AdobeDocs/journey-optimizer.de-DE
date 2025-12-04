@@ -170,4 +170,4 @@ Auf diese Weise können Sie auf detaillierte Informationen zu diesem Angebot zug
 
 ## Tutorial-Video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341349?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
