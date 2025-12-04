@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '931'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,10 @@ Sie können auf Ihren Code-basierten Kampagnenbericht zugreifen, indem Sie in Ih
 ![](assets/report-access.png)
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>Code-basierte Erlebnisse fungieren als eingehende Interaktionen, bei denen sich Benutzer per Zugriff auf Ihre Site oder Ihr Programm anmelden. Daher **die Metriken** Targeting **oder Audience**, mit denen für den ausgehenden Nachrichtenversand ausgewählte Profile verfolgt werden, für Code-basierte Kampagnen nicht inkrementiert.
 
 ## Anzeigen und Klicken {#impressions-code}
 

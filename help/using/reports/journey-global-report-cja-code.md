@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 91%
 
 ---
 
@@ -28,6 +28,10 @@ Sie können Ihren Code-basierten Journey-Bericht aufrufen, indem Sie in der Jour
 ![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>Code-basierte Erlebnisse fungieren als eingehende Interaktionen, bei denen sich Benutzer per Zugriff auf Ihre Site oder Ihr Programm anmelden. Daher **die Metriken** Targeting **oder Audience**, mit denen für den ausgehenden Nachrichtenversand ausgewählte Profile verfolgt werden, für Code-basierte Kampagnen nicht inkrementiert.
 
 ## Anzeigen und Klicken {#impressions-code}
 
