@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
-workflow-type: ht
-source-wordcount: '713'
-ht-degree: 100%
+source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 94%
 
 ---
 
@@ -214,34 +214,9 @@ currentActionField.description == "abc"
 
 ### Verwenden von Antworten benutzerdefinierter Aktionen in nativen Kanälen {#response-in-channels}
 
-Sie können verschachtelte Arrays aus einer Antwort einer benutzerdefinierten Aktion in nativen Kanälen (wie E-Mail, Push oder SMS) mithilfe der Handlebars-Syntax iterieren. Dies ist nützlich, wenn Sie Nachrichteninhalte mit dynamischen Daten aus externen Systemen personalisieren müssen.
+Antwort-Payload-Felder aus benutzerdefinierten Aktionen können in nativen Kanälen (E-Mail, Push, SMS) zur Personalisierung von Nachrichten verwendet werden. Dazu gehört die Möglichkeit, über Arrays und verschachtelte Datenstrukturen zu iterieren, die von externen APIs zurückgegeben werden.
 
-Angenommen, Ihre benutzerdefinierte Aktion gibt die folgende Antwort von einem externen System zurück:
-
-```json
-{    
-    "id": "84632848268632",    
-    "responses": [
-        { "productIDs": [1111,2222,3333] },
-        { "productIDs": [4444,5555,6666] },
-        { "productIDs": [7777,8888,9999] }
-    ]
-}
-```
-
-Dann können Sie das `responses`-Array und die verschachtelten `productIDs`-Arrays in einem nativen Kanal (z. B. in einer E-Mail) wie folgt iterieren:
-
-```handlebars
-{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
-
-  {{#each res.productIDs as |productID|}}
-    <li>{{productID}}</li>
-  {{/each}}
-
-{{/each}}
-```
-
-Ersetzen Sie `<yourcustomaction>` durch den tatsächlichen Namen Ihrer benutzerdefinierten Aktion, wie in der Journey konfiguriert.
+<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/personalization-contexts.md#custom-action-responses).-->
 
 ## Weitere Ressourcen
 
