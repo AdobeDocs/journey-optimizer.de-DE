@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden einer Zielgruppe in einer Journey
-description: Erfahren Sie, wie Sie eine Zielgruppe in einer Journey verwenden.
+description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe lesen“ konfigurieren und verwenden, damit Personen aus Adobe Experience Platform-Zielgruppen in Journey eintreten.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: b6323cd34b7429120edc4ab10dae2e78778727ce
+source-git-commit: 67fe852bfeb64932999e7c5930114c027423aeb9
 workflow-type: tm+mt
-source-wordcount: '3199'
-ht-degree: 76%
+source-wordcount: '3045'
+ht-degree: 65%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Aktivität „Zielgruppe lesen“"
->abstract="Mit der Aktivität „Zielgruppe lesen“ können Sie alle Personen, die zu einer Adobe Experience Platform-Zielgruppe gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen."
+>abstract="Mit der Aktivität Zielgruppe lesen können Sie alle Kontakte, die zu einer [!DNL Adobe Experience Platform] Zielgruppe gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen."
 
-Verwenden Sie die Aktivität **Zielgruppe lesen**, damit alle Personen einer Zielgruppe in die Journey eintreten. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
+Verwenden Sie die Aktivität **Zielgruppe lesen**, damit alle Einzelpersonen einer Zielgruppe auf die Journey zugreifen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
-Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, die beim Anwendungsfall [Zielgruppen erstellen](../audience/about-audiences.md) erstellt wurde. Mit der Aktivität „Zielgruppe lesen“ können Sie alle Personen, die zu dieser Zielgruppe gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
+Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, die beim Anwendungsfall [Zielgruppen erstellen](../audience/about-audiences.md) erstellt wurde. Mit der Aktivität Zielgruppe lesen können Sie alle Kontakte, die zu dieser Zielgruppe gehören, in eine Journey eintreten lassen. Sie fließen in individuelle Journey, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -38,7 +38,7 @@ Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, 
 
 >[!CAUTION]
 >
->* Bevor Sie mit der Verwendung der Aktivität des Typs „Zielgruppe lesen“ beginnen, [lesen Sie die Informationen zu Leitlinien und Einschränkungen](#must-read).
+>* Bevor Sie die Aktivität „Zielgruppe lesen“ verwenden[ lesen Sie die Leitplanken und Einschränkungen ](#must-read).
 
 ## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
 
@@ -52,11 +52,11 @@ Die Schritte zum Konfigurieren der Aktivität „Zielgruppe lesen“ werden im F
 
 1. Fügen Sie der Aktivität ein **[!UICONTROL Label]** hinzu (optional).
 
-1. Wählen Sie im Feld **[!UICONTROL Zielgruppe]** die Adobe Experience Platform-Zielgruppe aus, die in die Journey eintreten soll, und klicken Sie dann auf **[!UICONTROL Speichern]**. Sie können eine beliebige Adobe Experience Platform-Zielgruppe auswählen, die mit [Segmentdefinitionen](../audience/creating-a-segment-definition.md) generiert wurde.
+1. Wählen Sie im Feld **[!UICONTROL Audience]** die [!DNL Adobe Experience Platform] Audience aus, die auf die Journey zugreifen soll, und klicken Sie dann auf **[!UICONTROL Speichern]**. Sie können jede [!DNL Adobe Experience Platform] Zielgruppe auswählen, die mithilfe von [Segmentdefinitionen](../audience/creating-a-segment-definition.md) generiert wurde.
 
    >[!NOTE]
    >
-   >Darüber hinaus können Sie auch Adobe Experience Platform-Zielgruppen ansprechen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) erstellt oder [aus einer CSV-Datei hochgeladen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"} wurden.
+   >Darüber hinaus können Sie auch [!DNL Adobe Experience Platform] Zielgruppen ansprechen, die mithilfe von [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) oder [aus einer CSV-Datei hochgeladen) ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}.
 
    Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
 
@@ -84,31 +84,27 @@ Die Schritte zum Konfigurieren der Aktivität „Zielgruppe lesen“ werden im F
 
 * Die Aktivität **[!UICONTROL Zielgruppe lesen]** kann nur eine Zielgruppe ansprechen. Wenn mehrere Zielgruppen erforderlich sind, sollten Sie diese Zielgruppen vor der Verwendung zu einer Zielgruppe zusammenführen. [Informationen zum Kombinieren von Zielgruppen mithilfe von Kompositions-Workflows](../audience/get-started-audience-orchestration.md)
 
-* Für Journeys, die eine Aktivität vom Typ **Zielgruppe lesen** verwenden, gibt es eine maximale Anzahl von Journeys, die genau zur gleichen Zeit beginnen können. Das System führt Wiederholungsversuche durch. Vermeiden Sie jedoch, dass mehr als fünf Journeys (mit **Zielgruppe lesen**, geplant oder „so bald wie möglich“ beginnend) genau zur gleichen Zeit starten. Es empfiehlt sich, sie über einen bestimmten Zeitraum zu verteilen, z. B. mit Abständen zwischen 5 und 10 Minuten.
+* Für Journeys, die eine Aktivität vom Typ **Zielgruppe lesen** verwenden, gibt es eine maximale Anzahl von Journeys, die genau zur gleichen Zeit beginnen können. Das System führt weitere Zustellversuche durch. Vermeiden Sie jedoch, dass mehr als fünf Journey (mit **Zielgruppe lesen**, geplant oder „so bald wie möglich„) exakt gleichzeitig beginnen. Es empfiehlt sich, sie über einen bestimmten Zeitraum zu verteilen, z. B. mit Abständen zwischen 5 und 10 Minuten.
 
 * Erlebnisfeldgruppen können nicht in Journeys verwendet werden, die mit einer **Zielgruppe lesen**-Aktivität, einer **[Zielgruppenqualifizierung](audience-qualification-events.md)**-Aktivität oder einer Geschäftsereignis-Aktivität beginnen.
 
 * Als Best Practice wird empfohlen, in einer Aktivität **Zielgruppe lesen** nur Batch-Zielgruppen zu verwenden. Dies ermöglicht eine zuverlässige und konsistente Zählung der in einer Journey verwendeten Zielgruppen. „Zielgruppe lesen“ wurde für Batch-Anwendungsfälle entwickelt. Wenn Ihr Anwendungsfall Echtzeitdaten benötigt, verwenden Sie bitte die Aktivität **[Zielgruppenqualifizierung](audience-qualification-events.md)**.
 
-* Zielgruppen,[&#x200B; die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
+* Zielgruppen,[ die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
 
-* Beschränkung der gleichzeitigen Ausführung des Typs „Zielgruppe lesen“ pro Organisation: Jede Organisation kann bis zu fünf Instanzen des Typs „Zielgruppe lesen“ gleichzeitig ausführen. Dies umfasst sowohl geplante Ausführungen als auch solche, die durch Geschäftsereignisse ausgelöst werden, und zwar über alle Sandboxes und Journeys hinweg. Diese Beschränkung wird durchgesetzt, um eine faire und ausgewogene Ressourcenzuordnung zwischen allen Organisationen zu gewährleisten.
+* Beschränkung der gleichzeitigen Ausführung des Typs „Zielgruppe lesen“ pro Organisation: Jede Organisation kann bis zu fünf Instanzen des Typs „Zielgruppe lesen“ gleichzeitig ausführen. Dies umfasst sowohl geplante Ausführungen als auch solche, die durch Geschäftsereignisse ausgelöst werden. Das Limit gilt für alle Sandboxes und Journey. Diese Beschränkung wird durchgesetzt, um eine faire und ausgewogene Ressourcenzuordnung zwischen allen Organisationen zu gewährleisten.
 
-* Sandbox-Durchsatzverwaltung: Das System verwaltet den Verarbeitungsdurchsatz pro Sandbox dynamisch, mit einer maximalen Begrenzung von 20.000 Profilen pro Sekunde, die zwischen allen Aktivitäten des Typs „Zielgruppe lesen“ geteilt werden. Einzelne Aktivitäten vom Typ „Zielgruppe lesen“ können mit einer Mindestrate von 500 Profilen pro Sekunde konfiguriert werden. Aufträge können in die Warteschlange gestellt werden, wenn Durchsatzbeschränkungen auf Sandbox-Ebene erreicht werden, um eine faire Ressourcenzuordnung zu gewährleisten.
+* Sandbox-Durchsatzverwaltung: Das System verwaltet den Verarbeitungsdurchsatz pro Sandbox dynamisch, mit einer maximalen Begrenzung von 20.000 Profilen pro Sekunde, die zwischen allen Aktivitäten des Typs „Zielgruppe lesen“ geteilt werden. Einzelne Aktivitäten vom Typ „Zielgruppe lesen“ können mit einer Mindestrate von 500 Profilen pro Sekunde konfiguriert werden. Wenn Durchsatzbeschränkungen auf Sandbox-Ebene erreicht werden, können Aufträge in die Warteschlange gestellt werden, um eine faire Ressourcenzuweisung sicherzustellen.
 
 * Maximale Wartezeit bei der Auftragsverarbeitung: Aufträge vom Typ „Zielgruppe lesen“, die aufgrund von Begrenzungen von Leitlinien nicht innerhalb von 12 Stunden verarbeitet werden können, werden automatisch bereinigt und nie ausgeführt. Dadurch wird eine Akkumulation von Aufträgen verhindert und die Systemstabilität gewährleistet.
 
-* Stellen Sie bei der Verwendung von Batch-Segmenten sicher, dass Ihre Aufnahme und tägliche Snapshot-Updates lange vor dem Start der Journey abgeschlossen sind. Ziehen Sie eine zusätzliche Wartezeit in Betracht, wenn Segmente Daten widerspiegeln müssen, die am selben Tag aufgenommen wurden. Wenn sofortige Profilaktualisierung wichtig ist, sollten Sie einen ereignisbasierten oder Streaming-Anwendungsfall anstelle eines täglichen Batch-Ansatzes verwenden oder einen zusätzlichen Wartemechanismus einfügen, damit aktualisierte Daten vor der Journey-Auswertung propagiert werden können.
-
-
+* Stellen Sie bei der Verwendung von Batch-Segmenten sicher, dass Ihre Aufnahme und tägliche Snapshot-Updates lange vor dem Start der Journey abgeschlossen sind. Ziehen Sie eine zusätzliche Wartezeit in Betracht, wenn Segmente Daten widerspiegeln müssen, die am selben Tag aufgenommen wurden. Wenn die sofortige Profilfrische wichtig ist, verwenden Sie einen ereignisbasierten oder Streaming-Ansatz anstelle eines täglichen Batch-Ansatzes. Alternativ können Sie einen Wartemechanismus einfügen, damit aktualisierte Daten vor der Journey-Auswertung übertragen werden können.
 
 Leitlinien im Zusammenhang mit der Aktivität **Zielgruppe lesen** sind auf [dieser Seite](../start/guardrails.md#read-segment-g) aufgeführt.
 
-
 >[!CAUTION]
 >
->[Leitlinien für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} gelten auch für Adobe Journey Optimizer.
-
+>[Leitplanken für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} gelten auch für [!DNL Adobe Journey Optimizer].
 
 ### Verwalten der Profileinträge in der Journey
 
@@ -118,7 +114,7 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 
 >[!NOTE]
 >
->Die Gesamtleserate pro Sandbox ist auf 20.000 Profile pro Sekunde festgelegt. Daher ergibt die Leserate aller gleichzeitig in derselben Sandbox ausgeführten Aktivitäten „Zielgruppe lesen“ maximal 20.000 Profile pro Sekunde. Sie können diese Begrenzung nicht ändern. Weitere Informationen zu Journey-Verarbeitungsraten und -Durchsatz finden Sie [&#x200B; (diesem Abschnitt](entry-management.md#journey-processing-rate).
+>Die Gesamtleserate pro Sandbox ist auf 20.000 Profile pro Sekunde festgelegt. Daher ergibt die Leserate aller gleichzeitig in derselben Sandbox ausgeführten Aktivitäten „Zielgruppe lesen“ maximal 20.000 Profile pro Sekunde. Sie können diese Begrenzung nicht ändern. Weitere Informationen zu Journey-Verarbeitungsraten und -Durchsatz finden Sie in [diesem Abschnitt](entry-management.md#journey-processing-rate).
 
 ### Planen der Journey {#schedule}
 
@@ -157,13 +153,13 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 >title="Wartezeit für neue Zielgruppenauswertung"
 >abstract="Legen Sie fest, wie lange die Journey warten soll, bis die Batch-Zielgruppe neu ausgewertet wird. Die Wartezeit ist auf Ganzzahlwerte beschränkt, kann in Minuten oder Stunden angegeben werden und muss zwischen 1 und 6 Stunden liegen."
 
-Standardmäßig sind Journeys so konfiguriert, dass sie nur einmal ausgeführt werden. Führen Sie die nachfolgenden Schritte aus, um ein bestimmtes Datum/eine bestimmte Uhrzeit und eine bestimmte Häufigkeit für die Journey-Ausführung zu definieren.
+Standardmäßig sind Journey so konfiguriert, dass sie nur einmal ausgeführt werden. Führen Sie die nachfolgenden Schritte aus, um ein bestimmtes Datum/eine bestimmte Uhrzeit und eine bestimmte Häufigkeit für die Journey-Ausführung zu definieren.
 
 >[!NOTE]
 >
 >Einmalige „Zielgruppe lesen“-Journeys wechseln 91 Tage nach der Ausführung der Journey in den Status **Beendet** ([maximale globale Wartezeit der Journey](journey-properties.md#global_timeout)).  Folgt die Aktivität „Zielgruppe lesen“ einem Zeitplan, wird sie 91 Tage nach dem letzten Auftreten beendet.
 
-1. Wählen Sie in den Eigenschaften der Aktivität **[!UICONTROL Zielgruppe lesen]** die Option **[!UICONTROL Journey-Plan bearbeiten]** aus.
+1. Wählen Sie in **[!UICONTROL Eigenschaften]** Aktivität „Zielgruppe lesen“ die Option **[!UICONTROL Journey-Zeitplan bearbeiten]**.
 
    ![Schaltfläche Journey-Zeitplan bearbeiten in den Eigenschaften der Aktivität „Zielgruppe lesen“](assets/read-segment-schedule.png)
 
@@ -177,25 +173,20 @@ Für wiederkehrende Journeys stehen spezifische Optionen zur Verfügung, mit den
 
 +++**[!UICONTROL Inkrementelles Lesen]**
 
-Wenn eine Journey mit einer wiederkehrenden Aktivität vom Typ **Zielgruppe lesen** zum ersten Mal ausgeführt wird, treten alle Profile in der Zielgruppe in die Journey ein.
+Wenn eine Journey mit einem wiederkehrenden **Zielgruppe lesen** zum ersten Mal ausgeführt wird, treten alle Profile in der Zielgruppe in die Journey ein. Mit dieser Option haben Sie die Möglichkeit, nach dem ersten Auftreten nur die Personen anzusprechen, die seit der letzten Journey-Ausführung in die Zielgruppe eingetreten sind.
 
-Mit dieser Option haben Sie die Möglichkeit, nach dem ersten Auftreten nur die Personen anzusprechen, die seit der letzten Journey-Ausführung in die Zielgruppe eingetreten sind.
+Bei Verwendung dieser Option blickt das System **24 Stunden** vom Zeitpunkt des letzten Zielgruppenauswertungsauftrags zurück, der vom Segmentierungs-Service von [!DNL Adobe Experience Platform] ausgeführt wurde.
 
-Wenn Sie auf eine [benutzerdefinierte Upload-Zielgruppe](../audience/about-audiences.md#about-segments) in Ihrer Journey abzielen, werden Profile nur bei der ersten Wiederholung abgerufen, wenn diese Option in einer wiederkehrenden Journey aktiviert ist, da diese Zielgruppen fixiert sind.
+Nach Abschluss der Segmentierung beginnt ein Exportvorgang für Profilschnappschüsse, mit dem Journey Optimizer neue Profile erkennen und verarbeiten kann. Wenn die Journey zwischen diesen beiden Aufträgen geplant ist, werden beim inkrementellen Lesen keine Profile erfasst, die seit der letzten Ausführung der Journey Mitglieder der Zielgruppe wurden.
 
+So minimieren Sie das Risiko, dass Profile fehlen:
+* Aktivieren Sie die Option **[!UICONTROL Trigger nach der Batch]** Zielgruppenauswertung, um den Lookback-Zeitraum auf den Zeitpunkt der letzten erfolgreichen Journey-Ausführung zu verlängern, unabhängig davon, wie lange er zurückliegt
+* Planen Sie die Ausführung der Journey nach Abschluss der täglichen Batch-Segmentierungsvorgänge (in der Regel 2-3 Std. Puffer)
+* Bei zeitkritischen Anwendungsfällen, die eine sofortige Profileinbindung erfordern, sollten Sie stattdessen Aktivitäten [Zielgruppen-](audience-qualification-events.md)) mit Streaming-Zielgruppen verwenden
 
 >[!CAUTION]
 >
->Das inkrementelle Lesen beruht auf täglichen Profil-Momentaufnahmen, die durch den Batch-Segmentierungsprozess von Adobe Experience Platform erstellt werden. Wenn die geplante Journey-Ausführung stattfindet:
->
->* **Vor der Erstellung eines neuen Schnappschusses**: Profile, die sich nach dem letzten Schnappschuss, aber vor der Ausführung der Journey für die Zielgruppe qualifiziert haben, werden in diese Ausführung nicht einbezogen
->* **Mehr als 24 Stunden nach der letzten Ausführung** (ohne Verwendung der Option &quot;Trigger nach Batch-Zielgruppenauswertung„): Nur Profile aus dem letzten Schnappschuss innerhalb des 24-Stunden-Lookback-Fensters werden einbezogen. Profile, die sich zwischen der letzten Ausführung und 24 Stunden vor der aktuellen Ausführung qualifiziert haben, werden ausgeschlossen
->
->So minimieren Sie das Risiko, dass Profile fehlen:
->* Aktivieren Sie die Option **[!UICONTROL Trigger nach der Batch]** Zielgruppenauswertung, um den Lookback-Zeitraum auf den Zeitpunkt der letzten erfolgreichen Journey-Ausführung zu verlängern, unabhängig davon, wie lange er zurückliegt
->* Planen Sie die Ausführung der Journey nach Abschluss der täglichen Batch-Segmentierungsvorgänge (in der Regel 2-3 Std. Puffer)
->* Bei zeitkritischen Anwendungsfällen, die eine sofortige Profileinbindung erfordern, sollten Sie stattdessen Aktivitäten [Zielgruppen-](audience-qualification-events.md)) mit Streaming-Zielgruppen verwenden
-
+>Wenn Sie eine [benutzerdefinierte Upload-Zielgruppe](../audience/about-audiences.md#about-segments) in Ihrer Journey ansprechen, werden Profile nur bei der ersten Wiederholung abgerufen, wenn diese Option in einer wiederkehrenden Journey aktiviert ist, da diese Zielgruppen fixiert sind.
 
 +++
 
@@ -213,16 +204,7 @@ Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit
 
 Für täglich geplante Journeys und zum Targeting von Batch-Zielgruppen können Sie ein Zeitfenster von bis zu 6 Stunden definieren, damit die Journey auf neue Zielgruppendaten aus Batch-Segmentierungsaufträgen wartet. Wenn der Segmentierungsauftrag innerhalb des Zeitfensters abgeschlossen wird, wird die Journey ausgelöst. Andernfalls wird die Journey bis zum nächsten Auftreten übersprungen. Diese Option stellt sicher, dass Journeys mit genauen und aktuellen Zielgruppendaten ausgeführt werden.
 
-Wenn beispielsweise eine Journey für täglich 18 Uhr geplant ist, können Sie angeben, wie viele Minuten oder Stunden gewartet werden soll, bevor die Journey ausgeführt wird. Wenn die Journey um 18 Uhr aktiv wird, sucht sie nach einer neuen Zielgruppe, d. h. nach einer Zielgruppe, die neuer ist als die aus der vorherigen Journey-Ausführung. Während des angegebenen Zeitfensters wird die Journey ausgeführt, sobald die neue Zielgruppe erkannt wird. Wenn jedoch keine neue Zielgruppe erkannt wird, wird die Journey-Ausführung für diesen Tag übersprungen.
-
-**Lookback-Zeitraum für Journeys vom Typ „Inkrementelles Lesen“**
-
-Wenn die Option **[!UICONTROL Nach Auswertung der Batch-Zielgruppe auslösen]** ausgewählt ist, sucht [!DNL Journey Optimizer] nach einer neuen Zielgruppenauswertung. Als Startpunkt für den Lookback-Zeitraum verwendet das System die Zeit der letzten erfolgreichen Journey-Ausführung, auch wenn diese mehr als 24 Stunden zurückliegt. Dies ist für Journeys vom Typ „Inkrementelles Lesen“ von Bedeutung, die in der Regel über einen 24-stündigen Lookback-Zeitraum verfügen.
-
-Beispiele für tägliche Journeys vom Typ „Inkrementelles Lesen“:
-
-* Bei aktivierter Option „Nach Auswertung der Batch-Zielgruppe auslösen“: Wenn seit dem Eintritt von inkrementellen Profilen in die Journey drei Tage vergangen sind, verlängert sich der Lookback-Zeitraum bei der Suche nach inkrementellen Profilen um drei Tage.
-* Bei deaktivierter Option „Nach Auswertung der Batch-Zielgruppe auslösen“: Wenn seit dem Eintritt von inkrementellen Profile in die Journey drei Tage vergangen sind, reicht der Lookback-Zeitraum bei der Suche nach inkrementellen Profilen nur 24 Stunden zurück.
+Wenn beispielsweise eine Journey für täglich 18 Uhr geplant ist, können Sie angeben, wie viele Minuten oder Stunden gewartet werden soll, bevor die Journey ausgeführt wird. Wenn die Journey um 18 Uhr aktiv wird, sucht sie nach einer neuen Zielgruppe, d. h. nach einer Zielgruppe, die neuer ist als die aus der vorherigen Journey-Ausführung. Während des angegebenen Zeitfensters wird die Journey ausgeführt, sobald die neue Zielgruppe erkannt wird. Wenn keine neue Zielgruppe erkannt wird, wird die Journey-Ausführung für diesen Tag übersprungen.
 
 +++
 
@@ -259,7 +241,7 @@ Sobald der Test ausgeführt wird, können mit der Schaltfläche **[!UICONTROL Pr
 
 ![Testprotokolle mit Ergebnissen der Audience-Ausführung und Profilfluss](assets/read-segment-log.png)
 
-Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](publish-journey.md)). Personen, die zur Zielgruppe gehören, treten zu dem Datum und der Uhrzeit in die Journey ein, die im Abschnitt **[!UICONTROL Planung]** der Journey-Eigenschaften festgelegt sind.
+Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](../building-journeys/publish-journey.md)). Personen, die zur Zielgruppe gehören, treten zu dem Datum und der Uhrzeit in die Journey ein, die im Abschnitt **[!UICONTROL Planung]** der Journey-Eigenschaften festgelegt sind.
 
 >[!NOTE]
 >
@@ -267,7 +249,7 @@ Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen
 
 ## Zielgruppenbestimmung bei zielgruppenbasierten Journeys
 
-Zielgruppenbasierte Journeys beginnen immer mit der Aktivität **Zielgruppe lesen**, um Personen abzurufen, die einer Adobe Experience Platform-Zielgruppe angehören.
+Zielgruppenbasierte Journey beginnen immer mit der Aktivität **Zielgruppe lesen** um Personen abzurufen, die zu einer [!DNL Adobe Experience Platform] Zielgruppe gehören.
 
 Die zugehörige Zielgruppe wird einmalig oder regelmäßig abgerufen.
 
@@ -281,7 +263,7 @@ Die Segmentierung kann basieren auf:
 
 * Daten aus Datenquellen
 * Kontext von Ereignissen, die Teil der Journey-Daten sind – Beispiel: Hat eine Person auf die Nachricht geklickt, die sie vor einer Stunde erhalten hat?
-* Datum – Beispiel: Sind wir im Juni, wenn eine Person durch die Journey navigiert?
+* ein Datum, zum Beispiel: Sind wir im Juni, wenn eine Person die Journey durchläuft?
 * Tageszeit – Beispiel: Ist es in der Zeitzone der Person morgens?
 * Algorithmus, der die in die Journey geführte Zielgruppe auf der Basis eines Prozentsatzes aufteilt – Beispiel: 90 %–10 % für den Ausschluss einer Kontrollgruppe
 
@@ -315,7 +297,7 @@ Wenn Sie Diskrepanzen zwischen der geschätzten Anzahl der Zielgruppen, den qual
 
 ### Timing und Datenweitergabe
 
-* **Abschluss des Batch-Segmentierungsauftrags**: Stellen Sie für Batch-Zielgruppen sicher, dass der tägliche Batch-Segmentierungsauftrag abgeschlossen ist und Momentaufnahmen aktualisiert werden, bevor die Journey ausgeführt wird. Batch-Zielgruppen sind etwa **2 Stunden** Abschluss des Segmentierungsauftrags einsatzbereit. Weitere Informationen zu [Methoden zur Zielgruppenauswertung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#evaluate-segments){target="_blank"}.
+* **Abschluss des Batch-Segmentierungsauftrags**: Stellen Sie für Batch-Zielgruppen sicher, dass der tägliche Batch-Segmentierungsauftrag abgeschlossen ist und Momentaufnahmen aktualisiert werden, bevor die Journey ausgeführt wird. Batch-Zielgruppen sind etwa **2 Stunden** Abschluss des Segmentierungsauftrags einsatzbereit. Weitere Informationen zu [Methoden zur Zielgruppenauswertung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
 
 * **Zeitpunkt der Datenaufnahme**: Stellen Sie sicher, dass die Profildatenaufnahme vor der Journey-Ausführung vollständig abgeschlossen wurde. Wenn Profile kurz vor dem Start der Journey aufgenommen wurden, werden sie möglicherweise noch nicht in der Zielgruppe angezeigt. Weitere Informationen zu [Datenaufnahme in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target="_blank"}.
 
@@ -325,11 +307,11 @@ Wenn Sie Diskrepanzen zwischen der geschätzten Anzahl der Zielgruppen, den qual
 
 ### Datenvalidierung und -überwachung
 
-* **Status des Segmentierungsauftrags überprüfen** Überwachen Sie die Fertigstellungszeiten des Batch-Segmentierungsauftrags im [Überwachungs-Dashboard](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=de){target="_blank"} von Adobe Experience Platform, um zu überprüfen, ob Zielgruppendaten bereit sind.
+* **Status des Segmentierungsauftrags überprüfen** Überwachen Sie die Fertigstellungszeiten des Batch-Segmentierungsauftrags im [Überwachungs-Dashboard](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"} von Adobe Experience Platform, um zu überprüfen, ob Zielgruppendaten bereit sind.
 
-* **Zusammenführungsrichtlinien überprüfen**: Stellen Sie sicher, dass die für Ihre Zielgruppe konfigurierte Zusammenführungsrichtlinie dem erwarteten Verhalten entspricht, um Profildaten aus verschiedenen Quellen zu kombinieren. Weitere Informationen zu [Zusammenführungsrichtlinien in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=de){target="_blank"}.
+* **Zusammenführungsrichtlinien überprüfen**: Stellen Sie sicher, dass die für Ihre Zielgruppe konfigurierte Zusammenführungsrichtlinie dem erwarteten Verhalten entspricht, um Profildaten aus verschiedenen Quellen zu kombinieren. Weitere Informationen zu [Zusammenführungsrichtlinien in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}.
 
-* **Segmentdefinitionen überprüfen**: Überprüfen Sie, ob Segmentdefinitionen korrekt konfiguriert sind, und schließen Sie alle erwarteten Qualifikationskriterien ein. Weitere Informationen zum [&#x200B; von Zielgruppen &#x200B;](../audience/creating-a-segment-definition.md). Achten Sie besonders auf:
+* **Segmentdefinitionen überprüfen**: Überprüfen Sie, ob Segmentdefinitionen korrekt konfiguriert sind, und schließen Sie alle erwarteten Qualifikationskriterien ein. Weitere Informationen zum [ von Zielgruppen ](../audience/creating-a-segment-definition.md). Achten Sie besonders auf:
    * Zeitbasierte Bedingungen, die Profile basierend auf Ereignis-Zeitstempeln ausschließen können
    * Attributqualifikationen, die von kürzlich aktualisierten Daten abhängen
    * Streaming vs. Batch-Auswertungsmethoden
@@ -354,8 +336,16 @@ Beim Abrufen des Exportauftrags werden standardmäßig weitere Zustellversuche b
 
 Nicht erfolgreiche **Zielgruppen lesen**-Trigger werden erfasst und in den **Warnhinweisen** angezeigt. Der **Warnhinweis „Zielgruppe lesen“** erscheint, wenn eine Aktivität **Zielgruppe lesen** 10 Minuten nach der festgelegten Ausführungszeit kein Profil bearbeitet hat. Dieser Fehler kann durch technische Probleme oder eine leere Zielgruppe verursacht werden. Wenn dieser Fehler auf technische Probleme zurückzuführen ist, sind je nach Problemtyp dennoch weitere Versuche möglich (wenn z. B. die Erstellung eines Exportauftrags fehlgeschlagen ist, erfolgt alle 10 Minuten, aber höchstens eine Stunde lang, ein erneuter Versuch). [Weitere Informationen](../reports/alerts.md#alert-read-audiences)
 
+## Verwandte Themen
+
+* [Zielgruppen erstellen](../audience/about-audiences.md)
+* [Aktivität des Typs „Zielgruppen-Qualifizierung“](audience-qualification-events.md)
+* [Journey-Eigenschaften und Leitlinien](../start/guardrails.md#read-segment-g)
+* [Testen einer Journey](testing-the-journey.md)
+* [Veröffentlichen einer Journey](../building-journeys/publish-journey.md)
+
 ## Anleitungsvideo {#video}
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
