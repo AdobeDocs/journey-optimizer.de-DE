@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Ausschlussliste
-description: Erfahren Sie mehr über Ausschlüsse, die beim Versand auftreten
+description: Weitere Informationen zu Ausschlüssen beim Versand
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,28 +11,28 @@ exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
 source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 77%
+ht-degree: 93%
 
 ---
 
 # Ausschlussgründe {#exclusion-list}
 
-## Wie Ausschlüsse in Kampagnenberichten gezählt werden
+## So werden Ausschlüsse in Kampagnenberichten gezählt
 
-Beachten Sie bei der Anzeige von Kampagnenberichten, dass *Metrik* Ausschlüsse“ wie folgt berechnet wird:
+Beachten Sie bei der Anzeige von Kampagnenberichten, dass die Metrik *Ausschlüsse* wie folgt berechnet wird:
 
 **Ausschlüsse = eindeutige Ausschlüsse + doppelte Ausschlussereignisse**
 
-Wenn also ein Profil mehrmals ausgeschlossen wird (z. B. aufgrund mehrerer Ausschlussereignisse für dasselbe Profil), wird jedes Ereignis in der Gesamtzahl der Ausschlüsse gezählt. Daher kann die Summe aus *Zugestellt* und *Ausschlüssen* die ursprüngliche Zielgruppengröße überschreiten. Dieses Verhalten ist zu erwarten und spiegelt die Art und Weise wider, wie Ausschlussereignisse im System verfolgt werden.
+Wenn also ein Profil mehrmals ausgeschlossen wird (z. B. aufgrund mehrerer Ausschlussereignisse für dasselbe Profil), wird jedes Ereignis in der Gesamtzahl der Ausschlüsse gezählt. Daher kann die Summe aus *Zugestellt* und *Ausschlüsse* die ursprüngliche Zielgruppengröße überschreiten. Dieses Verhalten ist normal und entspricht der Art und Weise, wie Ausschlussereignisse im System verfolgt werden.
 
 **Beispiel:**
 
 - Zielgruppe: 94.000 Profile
-- Veröffentlicht: 69.000
+- Zugestellt: 69.000
 - Ausschlüsse: 37.000 (einschließlich doppelter Ausschlussereignisse)
-- Insgesamt (geliefert + Ausschlüsse): 106.000
+- Insgesamt (Zugestellt + Ausschlüsse): 106.000
 
-Die Gesamtzahl überschreitet die Zielgruppe, da doppelte Ausschlussereignisse in der Anzahl der Ausschlüsse enthalten sind.
+Die Gesamtzahl überschreitet die Zielgruppengröße, da doppelte Ausschlussereignisse in der Anzahl der Ausschlüsse enthalten sind.
 
 Weitere Informationen zu den spezifischen Ausschlussgründen finden Sie in der folgenden Tabelle.
 

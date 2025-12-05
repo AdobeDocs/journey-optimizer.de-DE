@@ -11,7 +11,7 @@ exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 67%
+ht-degree: 77%
 
 ---
 
@@ -38,7 +38,7 @@ In der folgenden Tabelle sind alle betroffenen Datensätze und die jeweilige Tim
 | Ereignisdatensatz für eingehende AJO-Aktivitäten | 13 Monate | 90 Tage |
 | AJO-Klassifizierungs-Datensatz | 13 Monate | k. A. |
 | Ereignisdatensatz mit Feedback zu AJO-E-Mail-BCC | 13 Monate | k. A. |
-| Entitätsereignis-Datensatz | 13 Monate | k. A. |
+| Entitäts-Ereignisdatensatz | 13 Monate | k. A. |
 | Journeys | 13 Monate | k. A. |
 | Journey-Schrittereignisse | 13 Monate | k. A. |
 | Entscheidungsobjekt-Repository – Personalisierte Angebote | 13 Monate | k. A. |
@@ -78,13 +78,13 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Es ist jedoch geplant, den 
 
 >[!NOTE]
 >
->Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=_blank}
+>Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=&quot;_blank}
 
 +++
 
 +++Können Kundinnen und Kunden die TTL für Systemdatensatzdaten von [!DNL Journey Optimizer] im Data Lake erhöhen? 
 
-TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=&quot;_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -122,7 +122,7 @@ Die neue TTL-Richtlinie beschränkt den Lookback-Zeitraum für systemgenerierte 
 
 +++Welche Alternativen stehen zur Verfügung, um Daten länger als die TTL aufzubewahren?
 
-Kunden, die eine längere Aufbewahrungsfrist benötigen, sollten den Export relevanter Daten aus AJO-Datensätzen in einen externen Speicher in Betracht ziehen, bevor die TTL abläuft. Adobe Journey Optimizer unterstützt den Export von Datensätzen an verschiedene Cloud-Speicher-Ziele (Amazon S3, Azure Blob, Google Cloud Storage usw.). [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=_blank}
+Kunden, die eine längere Aufbewahrungsfrist benötigen, sollten den Export relevanter Daten aus AJO-Datensätzen in einen externen Speicher in Betracht ziehen, bevor die TTL abläuft. Adobe Journey Optimizer unterstützt den Export von Datensätzen an verschiedene Cloud-Speicher-Ziele (Amazon S3, Azure Blob, Google Cloud Storage usw.). [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=&quot;_blank}
 
 +++
 
@@ -140,13 +140,13 @@ Ja, betroffene Kunden werden vorab benachrichtigt und das Produkt-Team wird mit 
 
 +++Kann ich systemgenerierte Journey Optimizer-Datensätze löschen?
 
-Systemgenerierte Journey Optimizer-Datensätze sind geschützt und können nicht über die standardmäßige Adobe Experience Platform-Benutzeroberfläche gelöscht werden. Diese Datensätze sind für die Journey Optimizer-Funktionalität von wesentlicher Bedeutung und werden vom System verwaltet.
+Systemgenerierte Journey Optimizer-Datensätze sind geschützt und können nicht über die Standardbenutzeroberfläche von Adobe Experience Platform gelöscht werden. Diese Datensätze sind für die Journey Optimizer-Funktionalität von wesentlicher Bedeutung und werden vom System verwaltet.
 
-Wenn Sie einen Journey Optimizer-Systemdatensatz dauerhaft entfernen müssen (z. B. für QA-Umgebungen, Sandbox-Bereinigung oder bestimmte Datenhygiene-Anforderungen), wenden Sie sich an das Adobe Engineering Team oder die Adobe-Kundenunterstützung. Für diese Datensätze sind spezielle Backend-Verfahren erforderlich, um eine vollständige und sichere Entfernung zu gewährleisten.
+Wenn Sie einen Journey Optimizer-Systemdatensatz dauerhaft entfernen müssen (z. B. für QS-Umgebungen, Sandbox-Bereinigung oder bestimmte Datenhygiene-Anforderungen), wenden Sie sich an das Adobe Engineering-Team oder die Adobe-Kundenunterstützung. Für diese Datensätze sind spezielle Backend-Verfahren erforderlich, um eine vollständige und sichere Entfernung zu gewährleisten.
 
 >[!NOTE]
 >
->Verwenden Sie für die routinemäßige Datenbereinigung in diesen Systemdatensätzen die über die Privacy Service verfügbaren Vorgänge **[!UICONTROL Datenlebenszyklus]**, um bestimmte Datensätze oder Identitäten zu löschen. [Weitere Informationen](../privacy/data-hygiene.md)
+>Verwenden Sie für routinemäßige Datenbereinigungen in diesen Systemdatensätzen die über Privacy Service verfügbaren **[!UICONTROL Datenlebenszyklus]**-Vorgänge, um bestimmte Datensätze oder Identitäten zu löschen. [Weitere Informationen](../privacy/data-hygiene.md)
 
 
 +++
