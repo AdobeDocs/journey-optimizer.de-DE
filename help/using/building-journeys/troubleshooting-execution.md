@@ -11,9 +11,9 @@ keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1260'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Sie können die Fehlerbehebung mit den folgenden Fragen beginnen:
 
 >[!NOTE]
 >
->**Für Journey zur Zielgruppenqualifizierung mit Streaming-Zielgruppen**: Wenn Sie eine Aktivität zur Zielgruppenqualifizierung als Einstiegspunkt für das Journey verwenden, beachten Sie, dass nicht alle Profile, die sich für die Zielgruppe qualifizieren, aufgrund von Zeitfaktoren, Schnellabbrüchen aus der Zielgruppe oder wenn sich Profile bereits vor der Veröffentlichung in der Zielgruppe befanden, notwendigerweise auf die Journey zugreifen. Weitere Informationen zu [Überlegungen zur Qualifizierung von Streaming-Zielgruppen](audience-qualification-events.md#streaming-entry-caveats).
+>**Für Journeys zur Zielgruppenqualifizierung mit Streaming-Zielgruppen**: Wenn Sie eine Aktivität zur Zielgruppenqualifizierung als Eintrittspunkt für die Journey verwenden, beachten Sie, dass nicht unbedingt alle für die Zielgruppe qualifizierten Profile auch in die Journey eintreten. Dies kann an Zeitfaktoren oder kurzfristigen Ausstiegen aus der Zielgruppe liegen oder daran, dass sich Profile bereits vor der Veröffentlichung in der Zielgruppe befanden. Erfahren Sie mehr zu [Überlegungen zum Timing bei der Qualifizierung von Streaming-Zielgruppen](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Überprüfen, wie Personen durch die Journey navigieren {#checking-how-people-navigate-through-the-journey}
 
@@ -155,12 +155,12 @@ Wenn Sie Berichte oder Analysen auf der Grundlage von Journey-Schrittereignissen
 
 Weitere Informationen zum Abfragen von Journey-Schrittereignissen finden Sie unter [Beispiele für Abfragen](../reports/query-examples.md).
 
-## Fehlerbehebung bei Diskrepanzen bei Dashboard-Metriken {#dashboard-metrics}
+## Fehlerbehebung bei Diskrepanzen der Dashboard-Metriken {#dashboard-metrics}
 
-Wenn die im Dashboard **Übersicht** angezeigten Metriken nicht mit der tatsächlichen Anzahl der Journey auf der Registerkarte **Durchsuchen** übereinstimmen, überprüfen Sie Folgendes:
+Wenn die im Dashboard **Übersicht** angezeigten Metriken nicht mit der tatsächlichen Anzahl der Journeys auf der Registerkarte **Durchsuchen** übereinstimmen, überprüfen Sie Folgendes:
 
-* Stellen Sie sicher, dass die betreffenden Journey in den letzten 24 Stunden Traffic hatten, da Journey ohne aktuelle Aktivität aus dem Dashboard ausgeschlossen werden.
-* Vergewissern Sie sich, dass Sie über die entsprechenden Zugriffsberechtigungen verfügen, um alle Journey in Ihrem Unternehmen anzuzeigen.
-* Warten Sie bis zu 30 Minuten, bis die Metriken aktualisiert sind, nachdem Sie Änderungen an Ihren Journey vorgenommen haben.
+* Stellen Sie sicher, dass in den betreffenden Journeys in den letzten 24 Stunden Traffic aufgetreten ist, da Journeys ohne aktuelle Aktivität nicht im Dashboard angezeigt werden.
+* Vergewissern Sie sich, dass Sie über die entsprechenden Zugriffsberechtigungen verfügen, um alle Journeys in Ihrem Unternehmen anzuzeigen.
+* Nach Änderungen an Ihren Journeys kann es bis zu 30 Minuten dauern, bis die Metriken aktualisiert werden.
 
-Wenn Diskrepanzen bestehen bleiben, wenden Sie sich zur Untersuchung an den Adobe-Support und zeigen Sie Screenshots der Registerkarten Übersicht und Durchsuchen an.
+Wenn Diskrepanzen bestehen bleiben, wenden Sie sich zur Untersuchung an den Adobe-Support und fügen Sie Screenshots der Registerkarten „Übersicht“ und „Durchsuchen“ bei.

@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
 source-git-commit: 312c3a9b924876f6bfe88890b247629ea1706b3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2942'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -201,17 +201,17 @@ Die Diskrepanz kann auftreten, wenn die Journey den Profil-Snapshot eines vorher
 
 In [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} erfahren Sie, wie Sie das Problem beheben können.
 
-Weitere Informationen finden Sie in [diesem Beitrag in der Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=de){target="_blank"}.
+Weitere Informationen finden Sie in [diesem Beitrag in der Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
 Konsultieren Sie außerdem die [Dokumentation zur API für Adobe Experience Platform-Zeitpläne](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/api/schedules){target="_blank"}, um zu überprüfen, wann Ihr täglicher Auftrag geplant ist.
 
 +++
 
-+++ Warum zeigt die Zielgruppenauswahl in Kampagnen und Journey unterschiedliche Profilzahlen an?
++++ Warum zeigt die Zielgruppenauswahl in Kampagnen und Journeys unterschiedliche Profilzahlen an?
 
-Möglicherweise stellen Sie fest, dass dieselbe Zielgruppe in Campaign eine andere Profilanzahl anzeigt als in Journey. Dies geschieht, weil jede Funktion verschiedene APIs zum Abrufen von Zielgruppendaten verwendet, die unterschiedliche Werte zurückgeben können.
+Möglicherweise stellen Sie fest, dass dieselbe Zielgruppe in Kampagnen eine andere Profilanzahl anzeigt als in Journeys. Dies geschieht, weil jede Funktion verschiedene APIs zum Abrufen von Zielgruppendaten verwendet, die unterschiedliche Werte zurückgeben können.
 
-Dieses Verhalten ist zu erwarten und wirkt sich nicht auf die Kampagnenausführung aus. Die richtigen Profile werden weiterhin angesprochen. Um die tatsächliche Zielgruppengröße zu überprüfen, gehen Sie zu **[!UICONTROL Kunde]** > **[!UICONTROL Zielgruppen]** und wählen Sie Ihre Zielgruppe aus.
+Dieses Verhalten ist normal und wirkt sich nicht auf die Kampagnenausführung aus. Die richtigen Profile werden weiterhin angesprochen. Um die tatsächliche Zielgruppengröße zu prüfen, gehen Sie zu **[!UICONTROL Kundin bzw. Kunde]** > **[!UICONTROL Zielgruppen]** und wählen Sie Ihre Zielgruppe aus.
 
 +++
 
@@ -250,13 +250,13 @@ Weitere Informationen zu Datumsfunktionen finden Sie auf [dieser Seite](../build
 
 +++
 
-+++ Warum übersteigen die Zustellungs- und Ausschlusswerte meine Zielgruppengröße in den Kampagnenberichten?
++++ Warum übersteigt sie Summe aus „Zugestellt“ + „Ausschlüsse“ in den Kampagnenberichten meine Zielgruppengröße?
 
-In Kampagnenberichten kann es vorkommen, dass die Summe aus **Zugestellt** und **Ausschlüssen** die ursprüngliche Zielgruppengröße überschreitet. Dies geschieht, weil **Metrik** Ausschlüsse“ alle Ausschlussereignisse zählt, einschließlich doppelter Ausschlussereignisse für dasselbe Profil. Wenn ein Profil während einer Kampagne mehrmals ausgeschlossen wird, wird jedes Ereignis separat gezählt.
+In Kampagnenberichten kann es vorkommen, dass die Summe aus **Zugestellt** und **Ausschlüsse** die ursprüngliche Zielgruppengröße überschreitet. Dies geschieht, weil die Metrik **Ausschlüsse** alle Ausschlussereignisse zählt, einschließlich doppelter Ausschlussereignisse für dasselbe Profil. Wenn ein Profil während einer Kampagne mehrmals ausgeschlossen wird, wird jedes Ereignis separat gezählt.
 
-**Beispiel**: Eine auf 94.000 Profile abzielende Kampagne zeigt 69.000 zugestellte und 37.000 Ausschlüsse, insgesamt 106.000. Dies übersteigt die ursprünglichen 94.000 Zielprofile. Dies ist das erwartete Verhalten.
+**Beispiel**: Eine an 94.000 Profile gerichtete Kampagne zeigt 69.000 zugestellte Nachrichten und 37.000 Ausschlüsse, also insgesamt 106.000 Profile. Dies übersteigt die ursprünglichen 94.000 Zielprofile. Dieses Verhalten ist normal.
 
-Informationen zum Unterschied zwischen Ausschlussereignissen insgesamt und eindeutigen Profilausschlüssen finden Sie unter [Erklärung zur Ausschlusszählung](../reports/exclusion-list.md#exclusion-list).
+Informationen zum Unterschied zwischen Ausschlussereignissen insgesamt und eindeutigen Profilausschlüssen finden Sie unter [Erklärung zur Zählung von Ausschlüssen](../reports/exclusion-list.md#exclusion-list).
 
 Erfahren Sie mehr über [Kampagnenberichte](../reports/campaign-global-report-cja.md) und [Berichtsmetriken](../reports/global-report-components-cja.md).
 

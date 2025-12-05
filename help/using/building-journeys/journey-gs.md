@@ -11,9 +11,9 @@ keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '915'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Die wichtigsten Schritte zum Erstellen einer Journey werden auf dieser Seite bes
 
 Erstellen Sie mehrstufige Customer Journeys, um eine Abfolge von kanalübergreifenden Interaktionen, Angeboten und Nachrichten in Echtzeit zu initiieren. Dieser Ansatz stellt sicher, dass mit Kundinnen und Kunden zu optimalen Zeitpunkten basierend auf ihren Aktionen und relevanten Geschäftssignalen interagiert wird. Zielgruppen werden basierend auf Verhalten, kontextuellen Daten und Geschäftsereignissen definiert. Die Voraussetzungen hängen von Ihrem Anwendungsfall und dem [Typ der Journey](entry-management.md#types-of-journeys) ab, die Sie erstellen.
 
-Weitere Informationen zum Profilfluss durch Journey und Journey-Verarbeitungsraten finden Sie in [diesem Abschnitt](entry-management.md#journey-processing-rate).
+Weitere Informationen dazu, wie Profile Journeys durchlaufen, und zu Journey-Verarbeitungsraten finden Sie [in diesem Abschnitt](entry-management.md#journey-processing-rate).
 
 Stellen Sie sicher, dass die entsprechenden Konfigurationsschritte ausgeführt wurden, bevor Sie mit dem Erstellen der Journey beginnen:
 
@@ -78,7 +78,7 @@ Gehen Sie wie folgt vor, um eine mehrstufige Journey zu erstellen:
 
 1. Bearbeiten Sie den Konfigurationsbereich der Journey, um den Namen der Journey zu definieren und ihre Eigenschaften festzulegen. Informationen zum Festlegen der Eigenschaften Ihrer Journey finden Sie auf [dieser Seite](journey-properties.md).
 
-   ![Bedienfeld &quot;Journey-Eigenschaften“ mit Einstellungen und Konfigurationsoptionen](assets/jo-properties.png)
+   ![Panel „Journey-Eigenschaften“ mit Einstellungen und Konfigurationsoptionen](assets/jo-properties.png)
 
 Anschließend können Sie mit der Gestaltung Ihrer Journey beginnen.
 
@@ -90,7 +90,7 @@ Der Omnichannel-Journey-Designer hilft Ihnen bei der Erstellung mehrstufiger Jou
 
 1. Ziehen Sie zuerst ein Ereignis oder die Aktivität **Zielgruppe lesen** per Drag-and-Drop aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
-   ![Konfiguration der Aktivität „Zielgruppe lesen“ für die Auswahl der Zielgruppe](assets/read-segment.png)
+   ![Konfiguration der Aktivität „Zielgruppe lesen“ zur Auswahl der gewünschten Zielgruppe](assets/read-segment.png)
 
 1. Ziehen Sie ein Ereignis oder eine Aktivität des Typs **Zielgruppe lesen** per Drag-and-Drop aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
@@ -104,23 +104,23 @@ Sie können Ihre Journey auch im **Probelauf** ausführen. Der Journey-Probelauf
 
 Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen. Weitere Informationen zur Veröffentlichung von Journeys finden Sie in diesem [Abschnitt](publish-journey.md).
 
-![Vollständiger Journey-Ablauf mit Audience, Bedingungen und Aktionen](assets/jo-journeyuc2_32bis.png)
+![Vollständiger Journey Flow mit Zielgruppe, Bedingungen und Aktionen](assets/jo-journeyuc2_32bis.png)
 
 Nach der Veröffentlichung können Sie Ihre Journey mit den dedizierten Reporting-Tools überwachen, um ihre Effektivität zu messen.
 
-![Journey Analytics-Bericht mit Leistungsmetriken und Statistiken](assets/jo-dynamic_report_journey_12.png)
+![Journey-Analysebericht mit Leistungsmetriken und Statistiken](assets/jo-dynamic_report_journey_12.png)
 
 Weitere Informationen zu Journey-Berichten finden Sie in diesem [Abschnitt](../reports/live-report.md).
 
 ## Weitere Ressourcen
 
-* **[Überblick über den Journey-Designer](using-the-journey-designer.md)** - Beherrschen Sie die Journey-Arbeitsfläche, um Kunden-Journey zu entwerfen und zu orchestrieren.
-* **[Journey-Aktivitäten](about-journey-activities.md)** - Entdecken Sie alle verfügbaren Aktivitäten, einschließlich Ereignissen, Aktionen und Orchestrierungskomponenten.
-* **[Testen von Journey](testing-the-journey.md)** - Erfahren Sie, wie Sie Ihre Journey vor der Veröffentlichung in der Produktionsumgebung im Testmodus testen.
-* **[Veröffentlichen von Journey](publish-journey.md)** - Machen Sie sich mit dem Veröffentlichungsprozess von Journey und der Verwaltung von Live-Journey vertraut.
-* **[Journey-Reporting](report-journey.md)** - Verfolgen und analysieren Sie die Journey-Performance mit detaillierten Metriken und Erkenntnissen.
-* **[Fehlerbehebung bei Journey](troubleshooting.md)** - Lösungen für häufige Journey-Probleme und Best Practices für das Debugging.
-* **[Journey-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Sehen Sie sich Schritt-für-Schritt-Video-Tutorials zum Erstellen von Journey und Best Practices an.
+* **[Journey-Designer – Überblick](using-the-journey-designer.md)**: Lernen Sie die Journey-Arbeitsfläche zum Entwerfen und Orchestrieren von Customer Journeys kennen.
+* **[Journey-Aktivitäten](about-journey-activities.md)**: Entdecken Sie alle verfügbaren Aktivitäten, einschließlich Ereignisse, Aktionen und Orchestrierungskomponenten.
+* **[Testen von Journeys](testing-the-journey.md)**: Erfahren Sie, wie Sie Ihre Journeys vor der Veröffentlichung in der Produktionsumgebung im Testmodus testen.
+* **[Veröffentlichen von Journeys](publish-journey.md)**: Machen Sie sich mit dem Veröffentlichungsprozess von Journeys und der Verwaltung von Live-Journeys vertraut.
+* **[Journey-Reporting](report-journey.md)**: Verfolgen und analysieren Sie die Journey-Leistung mit detaillierten Metriken und Erkenntnissen.
+* **[Fehlerbehebung bei Journeys](troubleshooting.md)**: Hier finden Sie Lösungen für häufige Journey-Probleme und Best Practices für das Debugging.
+* **[Journey-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}**: Sehen Sie sich detaillierte Anleitungsvideos zum Erstellen von Journeys und Best Practices an.
 
 >[!NOTE]
 >

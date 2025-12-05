@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung
 version: Journey Orchestration
 source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5226'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -271,36 +271,36 @@ Erfahren Sie mehr über [Ereigniskonfiguration](../event/about-events.md) und [E
 
 +++ Kann ich eine Nachricht erneut senden, wenn jemand sie nicht öffnet oder nicht darauf klickt?
 
-Ja. Verwenden **[!UICONTROL „Reaktion]**-Ereignisses mit einer **Zeitüberschreitung**:
+Ja. Verwenden Sie ein **[!UICONTROL Reaktionsereignis]** mit einem **Timeout**:
 
-1. Fügen Sie nach dem Versand Ihrer Nachricht ein **[!UICONTROL Reaktion]**-Ereignis **sofort** nach der Kanalaktion hinzu (ohne **[!UICONTROL Warte]**-Aktivität dazwischen)
-2. Konfigurieren Sie einen Timeout-Zeitraum (z. B. 3 Tage) für das Ereignis **[!UICONTROL Reaktion]** zum Überwachen von E-Mail-Öffnungen oder -Klicks
+1. Fügen Sie nach dem Versand Ihrer Nachricht **unmittelbar** nach der Kanalaktion ein **[!UICONTROL Reaktionsereignis]** hinzu (ohne **[!UICONTROL Warten]**-Aktivität dazwischen)
+2. Konfigurieren Sie einen Timeout-Zeitraum (z. B. 3 Tage) für das **[!UICONTROL Reaktionsereignis]** zum Überwachen von E-Mail-Öffnungen oder -Klicks
 3. Erstellen Sie zwei Pfade:
    * **Bei Öffnung/Klick**: Weiter mit den nächsten Schritten oder Beenden der Journey
    * **Timeout-Pfad (keine Öffnung/Klick)**: Versand einer Erinnerungs-E-Mail mit anderer Betreffzeile
 
 **Best Practice**: Begrenzen Sie die Anzahl der erneuten Sendungen, um das Auftreten von Spam zu vermeiden (in der Regel maximal 1–2 Erinnerungen).
 
-Weitere Informationen zu [Reaktionsereignissen](reaction-events.md).
+Erfahren Sie mehr über [Reaktionsereignissen](reaction-events.md).
 
 +++
 
 +++ Wie erstelle ich eine Warenkorbabbruch-Journey?
 
-Erstellen Sie eine ereignisausgelöste Journey mit einem **[!UICONTROL Reaktion]**-Ereignis mit einer Zeitüberschreitung:
+Erstellen Sie eine durch ein Ereignis ausgelöste Journey mit einem **[!UICONTROL Reaktionsereignis]** mit Timeout:
 
 1. **Konfigurieren eines Ereignisses des Typs „Warenkorbabbruch“**: Wird ausgelöst, wenn Artikel hinzugefügt werden, der Checkout jedoch nicht innerhalb eines bestimmten Zeitraums abgeschlossen wird
-2. **Erste Nachricht senden** (optional): E-Mail zur Bestätigung von Artikeln im Warenkorb
-3. **Ereignis [!UICONTROL Reaktion] unmittelbar nach der Kanalaktion hinzufügen**: Konfigurieren Sie es so, dass es auf ein Kaufereignis wartet
-4. **Zeitüberschreitungszeitraum festlegen**: Definieren Sie eine Zeitüberschreitung (z. B. 1-2 Stunden) für das Ereignis **[!UICONTROL Reaktion]**, um dem Kunden Zeit für einen natürlichen Abschluss zu geben
+2. **Senden Sie eine erste Nachricht** (optional): E-Mail zur Bestätigung von Artikeln im Warenkorb
+3. **Fügen Sie ein [!UICONTROL Reaktionsereignis] unmittelbar nach der Kanalaktion hinzu**: Konfigurieren Sie es so, dass es auf ein Kaufereignis wartet
+4. **Legen Sie eine Timeout-Dauer fest**: Definieren Sie einen Timeout (z. B. 1–2 Stunden) für das **[!UICONTROL Reaktionsereignis]**, damit die Kundin bzw. der Kunde den Vorgang im üblichen Zeitrahmen abschließen kann
 5. **Erstellen Sie zwei Pfade**:
    * **Wenn ein Kaufereignis eintritt**: Beenden der Journey oder weiter mit dem Ablauf nach dem Kauf
    * **Timeout-Pfad (kein Kauf)**: Senden einer E-Mail mit Erinnerung an Abbruch mit Warenkorbinhalten
-6. **Optional**: Fügen Sie ein weiteres **[!UICONTROL Reaktion]**-Ereignis **unmittelbar nach** der Erinnerungs-E-Mail mit Zeitüberschreitung (24 Stunden) hinzu und senden Sie eine zweite Erinnerung mit einem Anreiz (z. B. 10 % Rabatt)
+6. **Optional**: Fügen Sie **unmittelbar nach** der Erinnerungs-E-Mail ein weiteres **[!UICONTROL Reaktionsereignis]** mit Timeout (24 Stunden) hinzu und senden Sie eine zweite Erinnerung mit einem Incentive (z. B. 10 % Rabatt)
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Reaktion]** Ereignisse müssen sofort nach „Kanalaktionen[&#x200B; platziert &#x200B;](journeys-message.md). Platzieren Sie keine **[!UICONTROL Warten]**-Aktivitäten zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität.
+>**[!UICONTROL Reaktionsereignisse]** müssen unmittelbar nach [Kanalaktionen](journeys-message.md) platziert werden. Platzieren Sie keine **[!UICONTROL Warten]**-Aktivitäten zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität.
 
 Erfahren Sie mehr über [Journey-Anwendungsfälle](jo-use-cases.md) und [Reaktionsereignisse](reaction-events.md).
 
@@ -468,9 +468,9 @@ Häufige Gründe, warum Profile möglicherweise nicht in eine Journey eintreten:
 * **Journey nicht veröffentlicht**: Die Journey befindet sich im Entwurfsstatus
 * **Ungültiger Namespace**: Der Journey-Namespace entspricht nicht der Profilidentität
 * **Journey geschlossen**: Die Journey akzeptiert keine neuen Eintritte mehr
-* **Zeitpunkt der Streaming-Zielgruppenqualifizierung**: Bei Journey, die die Zielgruppenqualifizierung mit Streaming-Zielgruppen verwenden, können Profile möglicherweise nicht eintreten, wenn sie sich bereits in der Zielgruppe befanden, bevor die Journey veröffentlicht wurde, oder wenn die Journey die Aktivierungsdauer nicht abgeschlossen hat (bis zu 10 Minuten nach der Veröffentlichung)
+* **Zeitpunkt der Streaming-Zielgruppenqualifizierung**: Bei Journeys, die die Zielgruppenqualifizierung mit Streaming-Zielgruppen verwenden, können Profile möglicherweise nicht eintreten, wenn sie sich bereits in der Zielgruppe befanden, bevor die Journey veröffentlicht wurde, oder wenn die Journey den Aktivierungszeitraum nicht abgeschlossen hat (bis zu 10 Minuten nach Veröffentlichung)
 
-Erfahren Sie mehr über [Einstiegsverwaltung](entry-management.md) und [Überlegungen zur Qualifizierung von Streaming-Zielgruppen](audience-qualification-events.md#streaming-entry-caveats).
+Erfahren Sie mehr über die [Eintrittsverwaltung](entry-management.md) und [Überlegungen zum Timing bei der Qualifizierung von Streaming-Zielgruppen](audience-qualification-events.md#streaming-entry-caveats).
 
 +++
 

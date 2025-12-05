@@ -10,13 +10,13 @@ level: Intermediate
 keywords: primär, Ausführung, E-Mail, Zielgruppe, Profil, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Standard-Ausführungsfelder verwalten {#change-primary-email}
+# Verwalten der Standard-Ausführungsfelder {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -73,7 +73,7 @@ Das Ausführungsfeld wird aktualisiert und jetzt als primäre Adresse verwendet.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="Definieren eines benutzerdefinierten Werts"
->abstract="In bestimmten Fällen können Sie den Wert des Standardausführungsfelds überschreiben. Verwenden Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben diesem Feld, um eine benutzerdefinierte E-Mail-Adresse oder Telefonnummer zu definieren, die für den Versand priorisiert werden soll."
+>abstract="In bestimmten Fällen können Sie den Standardwert des Ausführungsfelds überschreiben. Verwenden Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben diesem Feld, um eine benutzerdefinierte E-Mail-Adresse oder Telefonnummer zu definieren, die für den Versand priorisiert werden soll."
 
 Für bestimmte Anwendungsfälle können Sie das global festgelegte Ausführungsfeld überschreiben und einen anderen Wert auf Journey-Ebene definieren.
 
@@ -90,7 +90,7 @@ Verwenden Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** re
 
 >[!CAUTION]
 >
->E-Mail-Adressen oder Telefonnummern sollten nur für bestimmte Anwendungsfälle überschrieben werden. In den meisten Fällen müssen Sie ihn nicht ändern, da der Wert, der als primäres Feld in den **[!UICONTROL Ausführungsfeldern]** auf Sandbox-Ebene definiert ist, derjenige ist, der verwendet werden sollte. [Weitere Informationen](#change-primary-email)
+>E-Mail-Adressen oder Telefonnummern sollten nur für bestimmte Anwendungsfälle überschrieben werden. Meistens müssen Sie sie nicht ändern, da der in den **[!UICONTROL Ausführungsfeldern]** auf Sandbox-Ebene als primäre Adresse definierte Wert auch derjenige ist, der verwendet werden sollte. [Weitere Informationen](#change-primary-email)
 
 ## Überschreiben des Standardausführungsfelds in der Kanalkonfiguration {#override-execution-address-channel-config}
 

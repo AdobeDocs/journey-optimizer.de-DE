@@ -11,9 +11,9 @@ keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1881'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -36,42 +36,42 @@ Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entw
 
 ### Allgemeine Einschränkungen
 
-* **Nur Testprofile** - Nur Personen, die im Echtzeit-Kundenprofil-Service als „Testprofile“ gekennzeichnet sind, können im Testmodus auf eine Journey zugreifen. [Erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md).
-* **Namespace-Anforderung** - Der Testmodus ist nur für Entwurfs-Journey verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine Person, die auf die Journey zugreift, ein Testprofil ist oder nicht, und muss daher in der Lage sein, Adobe Experience Platform zu erreichen.
-* **Profil-Limit** - Während einer einzelnen Testsitzung können maximal 100 Testprofile auf eine Journey zugreifen.
-* **Ereignisauslösung** - Ereignisse können nur über die Benutzeroberfläche ausgelöst werden. Ereignisse können nicht mithilfe einer API von externen Systemen ausgelöst werden.
-* **Benutzerdefinierte Upload-Zielgruppen** - Der Journey-Testmodus unterstützt nicht [benutzerdefinierte Upload-Zielgruppe](../audience/custom-upload.md) Attributanreicherung.
+* **Nur Testprofile**: Nur Personen, die im Echtzeit-Kundenprofil-Service als „Testprofile“ gekennzeichnet sind, können im Testmodus in eine Journey eintreten. [Erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md).
+* **Namespace-Anforderung**: Der Testmodus ist nur für Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine in die Journey eintretende Person ein Testprofil ist oder nicht, und muss daher in der Lage sein, Adobe Experience Platform zu erreichen.
+* **Profil-Limit**: Während einer einzelnen Testsitzung können maximal 100 Testprofile in eine Journey eintreten.
+* **Ereignisauslösung**: Ereignisse können nur über die Benutzeroberfläche ausgelöst werden. Ereignisse können nicht mithilfe einer API von externen Systemen ausgelöst werden.
+* **Benutzerdefinierte Upload-Zielgruppen**: Der Journey-Testmodus unterstützt keine Attributanreicherung von [benutzerdefinierten Upload-Zielgruppen](../audience/custom-upload.md).
 
 ### Verhalten während und nach dem Test
 
-* **Testmodus deaktivieren** - Wenn Sie den Testmodus deaktivieren, werden alle Profile entfernt, die sich derzeit auf der Journey befinden oder zuvor auf dieser eingegeben wurden, und das Reporting wird gelöscht.
-* **Reaktivierungsflexibilität** Sie können den Testmodus beliebig oft aktivieren und deaktivieren.
-* **Automatische Deaktivierung** - Journey, die im Testmodus über eine **Woche inaktiv bleiben,** automatisch auf den Entwurfsstatus zurück, um die Leistung zu optimieren und eine überflüssige Ressourcennutzung zu verhindern.
-* **Bearbeiten und Veröffentlichen** - Während der Testmodus aktiv ist, können Sie die Journey nicht ändern. Sie können die Journey jedoch direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
+* **Deaktivieren des Testmodus**: Wenn Sie den Testmodus deaktivieren, werden alle Profile entfernt, die sich derzeit in der Journey befinden oder zuvor in diese eingetreten sind, und das Reporting wird gelöscht.
+* **Flexible Reaktivierung**: Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
+* **Automatische Deaktivierung**: Journeys, die im Testmodus **eine Woche lang** inaktiv bleiben, werden automatisch auf den Entwurfsstatus zurückgesetzt, um die Leistung zu optimieren und eine überflüssige Ressourcenlast zu verhindern.
+* **Bearbeiten und Veröffentlichen**: Während der Testmodus aktiv ist, können Sie die Journey nicht ändern. Sie können die Journey jedoch direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
 
 ### Ausführung
 
-* **Aufspaltungsverhalten** - Wenn die Journey eine Aufspaltung erreicht, wird immer die oberste Verzweigung ausgewählt. Ordnen Sie Verzweigungen neu an, wenn Sie einen anderen Pfad testen möchten.
-* **Ereigniszeitpunkt** - Wenn der Journey mehrere Trigger enthält, wird jedes Ereignis nacheinander . Wird ein Ereignis zu früh (bevor der erste Warteknoten abgeschlossen ist) oder zu spät (nach der konfigurierten Zeitüberschreitung) gesendet, wird das Ereignis verworfen und das Profil wird an einen Zeitüberschreitungspfad gesendet. Vergewissern Sie sich stets, dass Verweise auf Payload-Felder für Ereignisse gültig bleiben, indem Sie die Payload innerhalb des definierten Fensters senden.
-* **Aktives Datumsfenster** - Stellen Sie sicher, dass das konfigurierte Journey-Fenster [Start- und Enddatum/-uhrzeit](journey-properties.md#dates) beim Initiieren des Testmodus die aktuelle Zeit enthält. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen.
-* **Reaktionsereignisse** - Für Reaktionsereignisse mit einer Zeitüberschreitung beträgt die minimale und die standardmäßige Wartezeit 40 Sekunden.
-* **Testdatensätze** - Im Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert, die wie folgt beschriftet sind: `JOtestmode - <schema of your event>`
+* **Aufspaltungsverhalten**: Wenn die Journey eine Aufspaltung erreicht, wird immer die oberste Verzweigung ausgewählt. Ordnen Sie Verzweigungen neu an, wenn Sie einen anderen Pfad testen möchten.
+* **Ereignis-Timing**: Wenn die Journey mehrere Trigger enthält, lösen Sie die Ereignisse nacheinander aus. Wird ein Ereignis zu früh (bevor der erste Warteknoten abgeschlossen ist) oder zu spät (nach dem konfigurierten Timeout) gesendet, wird das Ereignis verworfen und das Profil wird an einen Timeout-Pfad gesendet. Vergewissern Sie sich stets, dass Verweise auf Ereignis-Payload-Felder gültig bleiben, indem Sie die Payload innerhalb des definierten Fensters senden.
+* **Aktives Datumsfenster**: Stellen Sie sicher, dass das für die Journey konfigurierte Fenster für [Start- und Enddatum/-zeit](journey-properties.md#dates) beim Initiieren des Testmodus die aktuelle Zeit enthält. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen.
+* **Reaktionsereignisse**: Für Reaktionsereignisse mit einem Timeout beträgt die minimale und die standardmäßige Wartezeit 40 Sekunden.
+* **Testdatensätze**: Im Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert, die wie folgt gekennzeichnet sind: `JOtestmode - <schema of your event>`
 
 <!--
 * Fields from related entities are hidden from the test mode.
 -->
 
-## Testmodus aktivieren
+## Aktivieren des Testmodus
 
 Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 1. Um den Testmodus zu aktivieren, klicken Sie in der rechten oberen Ecke auf die Schaltfläche **[!UICONTROL Testmodus]**.
 
-   ![Test-Modus-Schaltfläche in der Journey-Oberfläche](assets/journeytest1.png)
+   ![Schaltfläche „Testmodus“ in der Journey-Oberfläche](assets/journeytest1.png)
 
 1. Wenn die Journey mindestens eine Aktivität vom Typ **Warten** enthält, stellen Sie den Parameter **[!UICONTROL Wartezeit]** ein, um die Dauer jeder Warteaktivität und jeder maximalen Wartezeit bei einem Ereignis im Testmodus festzulegen. Die Standardzeit für Wartezeiten und die maximale Wartezeit für Ereignisse beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell.
 
-   ![Wartezeit-Parameterkonfiguration im Testmodus](assets/journeytest_wait.png)
+   ![Konfiguration des Wartezeit-Parameters im Testmodus](assets/journeytest_wait.png)
 
    >[!NOTE]
    >
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden.
 
-   ![Trigger einer Ereignisschaltfläche im Testmodus](assets/journeyuctest1.png)
+   ![Schaltfläche „Ereignis auslösen“ im Testmodus](assets/journeyuctest1.png)
 
 1. Konfigurieren Sie die verschiedenen erwarteten Felder. Geben Sie im Feld **Profilkennung** den Wert des Felds ein, das zum Identifizieren des Testprofils verwendet wird. Das kann beispielsweise die E-Mail-Adresse sein. Vergewissern Sie sich, dass Ereignisse gesendet werden, die im Zusammenhang mit Testprofilen stehen. Weitere Informationen finden Sie in [diesem Abschnitt](#firing_events).
 
@@ -124,7 +124,7 @@ Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der 
 
 ![Benutzeroberfläche für die Ereigniskonfiguration mit Feldern und Dropdown-Liste für die Ereignisauswahl](assets/journeytest4.png)
 
-Über die Benutzeroberfläche können Sie einfache Ereignisparameter übergeben. Wenn Sie Sammlungen oder andere erweiterte Objekte in dem Ereignis übergeben möchten, können Sie **[!UICONTROL Code-Ansicht]** auswählen, um den gesamten Code der Payload anzuzeigen und ihn zu ändern. Beispielsweise können Sie die von einem technischen Anwender erstellten Ereignisinformationen kopieren und einfügen.
+Über die Benutzeroberfläche können Sie einfache Ereignisparameter übergeben. Wenn Sie Sammlungen oder andere erweiterte Objekte in dem Ereignis übergeben möchten, können Sie **[!UICONTROL Code-Ansicht]** auswählen, um den gesamten Code der Payload anzuzeigen und ihn zu ändern. Beispielsweise können Sie die von technischen Anwendenden erstellten Ereignisinformationen kopieren und einfügen.
 
 ![Code-Ansicht der Ereignis-Payload im JSON-Format für die erweiterte Konfiguration](assets/journeytest5.png)
 
@@ -132,7 +132,7 @@ Ein technischer Anwender kann diese Benutzeroberfläche auch verwenden, um Paylo
 
 Wenn Sie auf die Schaltfläche **[!UICONTROL Senden]** klicken, beginnt der Test. Der Fortschritt des Kontakts in der Journey wird durch einen visuellen Verlauf dargestellt. Der Pfad wird immer grüner, je weiter sich der Kontakt in der Journey bewegt. Tritt ein Fehler auf, wird auf dem entsprechenden Schritt ein Warnsymbol angezeigt. Sie können den Cursor darauf platzieren, um weitere Informationen zum Fehler anzuzeigen und genaue Details aufzurufen (sofern verfügbar).
 
-![Journey des visuellen Testflusses mit Anzeige des Profilfortschritts und etwaiger Fehler](assets/journeytest6.png)
+![Visueller Fluss des Journey-Tests mit Anzeige des Profilfortschritts und etwaiger Fehler](assets/journeytest6.png)
 
 Wenn Sie im Bildschirm für die Ereigniskonfiguration ein anderes Testprofil auswählen und den Test erneut ausführen, wird der visuelle Verlauf geleert und stattdessen der Pfad des neuen Kontakts angezeigt.
 
@@ -144,7 +144,7 @@ Der Testmodus ist für Journeys, bei denen ein regelbasiertes Ereignis verwendet
 
 Beim Auslösen eines Ereignisses können Sie im Bildschirm **Ereigniskonfiguration** die Ereignisparameter definieren, nach denen der Test als bestanden gilt. Durch Klicken auf das QuickInfo-Symbol oben rechts können Sie die Ereignis-ID-Bedingung anzeigen. Außerdem ist neben jedem Feld, das Teil der Regelauswertung ist, ebenfalls eine QuickInfo verfügbar.
 
-![Bildschirm für die Ereigniskonfiguration mit Tooltips für die Regelauswertung](assets/jo-event8.png)
+![Bildschirm für die Ereigniskonfiguration mit QuickInfos für die Regelauswertung](assets/jo-event8.png)
 
 ## Testmodus für Geschäftsereignisse {#test-business}
 

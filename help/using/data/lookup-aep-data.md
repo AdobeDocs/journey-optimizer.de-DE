@@ -11,9 +11,9 @@ keywords: Ausdruck, Editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 96%
 >title="Für Lookup aktivieren"
 >abstract="Durch die Aktivierung eines Datensatzes für die Suche können Sie dessen Daten mit den Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung von Journey Optimizer nutzen."
 
-[!DNL Journey Optimizer] ermöglicht Ihnen die Nutzung von Daten aus [!DNL Adobe Experience Platform] mit Personalisierungs-, Entscheidungs- und Journey-Orchestrierungsfunktionen. Hierzu müssen auf Einträgen basierende Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben aktiviert werden. 
+Mit [!DNL Journey Optimizer] können Sie Daten aus [!DNL Adobe Experience Platform] mit Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung nutzen. Hierzu müssen auf Einträgen basierende Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben für den Suchdienst aktiviert werden. 
 
-Weitere Informationen zum Zugriff auf und zum Arbeiten mit Datensätzen finden Sie in diesem Abschnitt : [Erste Schritte mit Datensätzen](../data/get-started-datasets.md)
+Weitere Informationen darüber, wie Sie auf Datensätze zugreifen und damit arbeiten, finden Sie in diesem Abschnitt: [Erste Schritte mit Datensätzen](../data/get-started-datasets.md)
 
 ## Wichtige Informationen
 

@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Ereignis, Journey, Geschäft, Konfiguration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Im Gegensatz zu unitären Ereignissen sind Geschäftsereignisse nicht mit einem 
 
 Auf dem Lesen von Zielgruppen basierende Journeys können einmalig, durch eine Planung in regelmäßigen Abständen oder durch ein Geschäftsereignis ausgelöst werden, wenn das Ereignis eintritt.
 
-Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „der Aktienkurs eines Unternehmens erreicht einen bestimmten Wert“ usw.
+Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „der Aktienkurs einer Firma erreicht einen bestimmten Wert“ usw.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Für Geschäftsereignisse gelten die gleichen Regeln für den erneuten Eintritt 
 
 **Welche Schutzmechanismen gibt es, um zu verhindern, dass materialisierte Zielgruppen überlastet werden?**
 
-Im Falle von einmaligen Geschäftsereignissen werden die vom ersten Ereignisvorgang übertragenen Daten für eine bestimmte Journey innerhalb eines Zeitfensters von einer Stunde wiederverwendet. Für geplante Journeys gibt es keine diesbezüglichen Leitplanken. Weitere Informationen zu Zielgruppen finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
+Im Falle von einmaligen Geschäftsereignissen werden die vom ersten Ereignisauftrag übertragenen Daten für eine bestimmte Journey innerhalb eines Zeitfensters von einer Stunde wiederverwendet. Für geplante Journeys gibt es keine diesbezüglichen Leitplanken. Weitere Informationen zu Zielgruppen finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
 
 ## Erste Schritte mit Geschäftsereignissen {#gs-business-events}
 

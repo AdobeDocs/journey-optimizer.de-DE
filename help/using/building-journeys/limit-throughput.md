@@ -10,9 +10,9 @@ keywords: Journey, Datenquellen, Limit, Durchsatz, benutzerdefiniert, Aktionen
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Dies kann auf folgende Arten erfolgen:
 >
 >Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie in [diesem Abschnitt](../action/action-response.md).
 
-Wenn Sie mit externen Datenquellen oder benutzerdefinierten Aktionen arbeiten, sollten Sie Ihre externen Systeme schützen, indem Sie den Journey-Durchsatz einschränken: bis zu 5.000 Instanzen/Sekunde für unitäre Journey und bis zu 20.000 Instanzen/Sekunde für zielgruppengesteuerte Instanzen. Weitere Informationen zu Journey-Verarbeitungsraten und -Durchsatz finden Sie [&#x200B; (diesem Abschnitt](entry-management.md#journey-processing-rate).
+Wenn Sie mit externen Datenquellen oder benutzerdefinierten Aktionen arbeiten, sollten Sie Ihre externen Systeme schützen, indem Sie den Journey-Durchsatz einschränken: bis zu 5.000 Instanzen/Sekunde für unitäre Journeys und bis zu 20.000 Instanzen/Sekunde für durch Zielgruppen ausgelöste Journeys. Weitere Informationen zu Journey-Verarbeitungsraten und -Durchsatz finden Sie [in diesem Abschnitt](entry-management.md#journey-processing-rate).
 
 Für benutzerdefinierte Aktionen sind Einschränkungsfunktionen auf Produktebene verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../configuration/external-systems.md#capping).
 
@@ -49,7 +49,7 @@ Bei **durch Zielgruppen ausgelösten Journeys** kann die Leserate der Aktivität
 > Dies ist die maximale Anzahl von Profilen, die pro Sekunde in die Journey eintreten können. Diese Rate gilt nur für diese und keine andere Aktivitäten in der Journey. [Weitere Informationen](../building-journeys/read-audience.md)
 
 
-![Konfigurationsbereich „Durchsatz begrenzen“ mit Einstellungen zur Ratenbegrenzung](assets/limit-throughput-1.png)
+![Konfigurations-Panel zur Begrenzung des Durchsatzes mit Einstellungen zur Ratenbegrenzung](assets/limit-throughput-1.png)
 
 Sie können diesen Wert von 500 bis 20.000 Instanzen pro Sekunde einstellen. Wenn Sie weniger als 500 pro Sekunde benötigen, können Sie auch Bedingungen für die prozentuale Aufspaltung mit Warteaktivitäten hinzufügen, um die Journey in mehrere Zweige zu unterteilen und sie zu einem bestimmten Zeitpunkt auszuführen.
 

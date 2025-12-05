@@ -10,9 +10,9 @@ keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1124'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -41,29 +41,29 @@ Die Journey-Verarbeitungsrate wird durch mehrere Faktoren beeinflusst, die besti
 
 ### Profileintrittsrate {#profile-entrance-rate}
 
-Wie Profile in Journey eintreten und wie hoch ihre erwartete Rate ausfällt, hängt von der ersten verwendeten Aktivität ab:
+Wie Profile in Journeys eintreten und wie hoch ihre erwartete Rate ausfällt, hängt von der ersten verwendeten Aktivität ab:
 
-* **Zielgruppe lesen** Journey (Batch-Szenario, in dem Sie eine Zielgruppe von Profilen ansprechen und eine Journey für diese gesamte Zielgruppe Trigger haben): Der Maximalwert beträgt 20.000 TPS (Transaktionen pro Sekunde). Dies ist das auf einer **Sandbox-Ebene** verfügbare Kontingent. Wenn mehrere Journey auf dieser Sandbox gleichzeitig ausgeführt werden, sind 20.000 TPS möglicherweise nicht erreichbar. Betrachten Sie dieses Maximum als das beste Szenario.
+* Journeys vom Typ **Zielgruppe lesen** (Batch-Szenario, in dem Sie eine Zielgruppe von Profilen ansprechen und eine Journey für die gesamte Zielgruppe auslösen): Der Maximalwert beträgt 20.000 TPS (Transaktionen pro Sekunde). Dies ist das auf einer **Sandbox-Ebene** verfügbare Kontingent. Wenn mehrere Journeys auf dieser Sandbox gleichzeitig ausgeführt werden, sind 20.000 TPS möglicherweise nicht erreichbar. Betrachten Sie dieses Maximum als das beste Szenario.
 
-* **Zielgruppenqualifizierung** Journey (Einzelszenario, in dem Sie eine Journey zum Trigger bringen möchten, wenn ein Profil für eine Streaming-Zielgruppe qualifiziert oder nicht qualifiziert ist): Der Maximalwert beträgt 5.000 TPS. Beachten Sie, dass es sich hierbei um ein freigegebenes Limit für Journey handelt, das mit Ereignissen beginnt. Außerdem ist es für alle Journey auf **Organisationsebene)**.
+* Journeys vom Typ **Zielgruppenqualifizierung** (Einzelszenario, in dem Sie eine Journey auslösen möchten, wenn ein Profil für eine Streaming-Zielgruppe qualifiziert oder nicht qualifiziert ist): Der Maximalwert beträgt 5.000 TPS. Beachten Sie, dass es sich hierbei um ein gemeinsam verwendetes Limit für Journeys handelt, die mit Ereignissen beginnen. Außerdem wird es für alle Journeys auf **Organisationsebene** verwendet.
 
-* **Unitäres Ereignis** Journey (unitäres Szenario, in dem Sie eine Journey zum Trigger bringen möchten, wenn ein Ereignis von einem Profil ausgegeben wird): Wie oben, beide verwenden dasselbe 5.000-TPS-Limit. Weitere Informationen zum Durchsatz beim Journey-Ereignis finden Sie in [diesem Abschnitt](../event/about-events.md#event-thoughput).
+* Journeys vom Typ **Unitäres Ereignis** (unitäres Szenario, in dem Sie eine Journey auslösen möchten, wenn ein Ereignis von einem Profil ausgegeben wird): Wie oben, beide verwenden dasselbe 5.000-TPS-Limit. Weitere Informationen zum Journey-Ereignisdurchsatz finden Sie [in diesem Abschnitt](../event/about-events.md#event-thoughput).
 
-* **Geschäftsereignis** Journeys (das im Wesentlichen ein Unitär-Batch-Szenario ist, da ein Geschäftsereignis immer mit dem Schritt „Zielgruppe lesen“ gefolgt wird): Geschäftsereignisse zählen auch für das 5.000-TPS-Kontingent, aber die Aktivität „Zielgruppe lesen“ direkt danach hat dasselbe Limit wie Journeys, beginnend mit einer „Zielgruppe lesen“ (20.000 TPS).
+* Journeys vom Typ **Geschäftsereignis** (das im Wesentlichen ein unitäres Batch-Szenario ist, da auf ein Geschäftsereignis immer der Schritt „Zielgruppe lesen“ folgt): Geschäftsereignisse zählen auch für das 5.000-TPS-Kontingent, aber die Aktivität „Zielgruppe lesen“ direkt danach hat dasselbe Limit wie Journeys, die mit „Zielgruppe lesen“ beginnen (20.000 TPS).
 
-### Veranstaltungen und Zielgruppenqualifikationen innerhalb der Journey {#events-inside-journeys}
+### Ereignisse und Zielgruppenqualifizierungen in Journeys {#events-inside-journeys}
 
-Nach dem Eintritt können Sie Aktivitäten **Unitäres Ereignis** oder **Zielgruppen-Qualifizierung** innerhalb der Journey verwenden. Ein Profil kann in einen der vier oben beschriebenen Profiltypen eintreten und auf die Ausgabe eines Journey warten oder darauf warten, dass dieses Profil für eine Zielgruppe qualifiziert wird. Diese unitären Ereignisse und Zielgruppenqualifikationen werden für das oben beschriebene Kontingent gezählt. Beispiel: Wenn Sie eine Journey mit einer Lesekonferenz (mit maximal 20.000 TPS) starten und direkt danach ein Ereignis haben, beträgt dieses Ereignis maximal 5.000 TPS.
+Nach dem Eintritt können Sie die Aktivitäten **Unitäres Ereignis** oder **Zielgruppenqualifizierung** in der Journey verwenden. Ein Profil kann in einen der vier oben beschriebenen Journeys eintreten und auf die Ausgabe eines Ereignisses warten oder darauf warten, dass dieses Profil für eine Zielgruppe qualifiziert wird. Diese unitären Ereignisse und Zielgruppenqualifizierungen werden für das oben beschriebene Kontingent gezählt. Beispiel: Wenn Sie eine Journey mit „Zielgruppe lesen“ (mit maximal 20.000 TPS) starten und direkt danach ein Ereignis folgt, gilt für dieses Ereignis ein Maximum von 5.000 TPS.
 
 ### Auswirkungen von Warteaktivitäten {#wait-activities-impact}
 
-**Warten** Aktivitäten in Journey können sich auch darauf auswirken, wie viele Profile zu einem bestimmten Zeitpunkt durch einen Journey fließen. Normalerweise basiert eine Warteaktivität auf einer relativen Zeit (z. B.: Beenden 2 Stunden nach Eintritt in die Wartezeit, sodass nicht alle Profile gleichzeitig beendet werden). Wenn für diese Warteaktivität jedoch eine feste Zeit definiert ist, können mehrere Profile diese Journey exakt zur gleichen Zeit verlassen. Dies ist keine empfohlene Vorgehensweise. Es konnten enorme Mengen entdeckt werden, und der TPS-Wert kann ab diesem Zeitpunkt 20.000 TPS überschreiten.
+Aktivitäten vom Typ **Warten** in Journeys können sich auch darauf auswirken, wie viele Profile zu einem bestimmten Zeitpunkt eine Journey durchlaufen. Normalerweise basiert eine Warteaktivität auf einer relativen Zeit (z. B.: Austritt 2 Stunden nach Eintritt in die Wartezeit, sodass nicht alle Profile gleichzeitig austreten). Wenn für diese Warteaktivität jedoch eine feste Zeit definiert ist, können mehrere Profile diese Journey exakt gleichzeitig verlassen. Dies ist keine empfohlene Vorgehensweise. Es könnte zu massiven Volumina führen und ab diesem Zeitpunkt können 20.000 TPS überschritten werden.
 
 ### Aktionsaktivitäten {#action-activities-impact}
 
-Schließlich können **action**-Aktivitäten (native Kanäle wie E-Mail, SMS, Push usw., Outbound oder Inbound, benutzerdefinierte Aktionen, Sprünge, die Profile an andere Journey senden, Aktualisierungsprofile, die Daten an den Unified Profile Service senden, usw.) durch die Profillast von Journey beeinflusst werden, aber auch die Verarbeitungsrate beeinflussen. Beispielsweise verlangsamt eine benutzerdefinierte Aktion, die auf einen externen Endpunkt mit einer hohen Antwortzeit abzielt, die Journey-Verarbeitungsrate.
+Schließlich können **Aktionsaktivitäten** (native Kanäle wie E-Mail, SMS, Push usw., ausgehend oder eingehend, benutzerdefinierte Aktionen, Sprünge, die Profile an andere Journeys senden, Aktualisierungsprofile, die Daten an den Unified Profile Service senden usw.) durch die Profillast von Journeys beeinflusst werden, sich aber auch auf die Verarbeitungsrate auswirken. Beispielsweise verlangsamt eine benutzerdefinierte Aktion, die auf einen externen Endpunkt mit einer hohen Antwortzeit abzielt, die Journey-Verarbeitungsrate.
 
-Für benutzerdefinierte Aktionen beträgt die standardmäßige Begrenzung 300.000 Aufrufe pro Minute. Diese können mithilfe einer benutzerdefinierten Begrenzungsrichtlinie geändert werden. Weitere Informationen zur Begrenzung benutzerdefinierter Aktionen finden Sie in [diesem Abschnitt](../configuration/external-systems.md#capping).
+Für benutzerdefinierte Aktionen beträgt die standardmäßige Begrenzung 300.000 Aufrufe pro Minute. Dies kann mithilfe einer benutzerdefinierten Begrenzungsrichtlinie geändert werden. Weitere Informationen zur Begrenzung benutzerdefinierter Aktionen finden Sie in [diesem Abschnitt](../configuration/external-systems.md#capping).
 
 ## Journeys für unitäre Ereignisse und Zielgruppen-Qualifizierungen{#entry-unitary}
 
@@ -94,7 +94,7 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 Um in **Geschäfts-Journeys** mehrere Ausführungen für Geschäftsereignisse zuzulassen, aktivieren Sie die entsprechende Option im Abschnitt **[!UICONTROL Ausführung]** der Journey-Eigenschaften.
 
-![Verwaltungsoptionen für Geschäftsereigniseinträge in der Journey-Konfiguration](assets/business-entry.png)
+![Verwaltungsoptionen für Geschäftsereigniseintritte in der Journey-Konfiguration](assets/business-entry.png)
 
 Im Falle von Geschäftsereignissen werden für eine bestimmte Journey die bei der ersten Ausführung abgerufenen Zielgruppendaten innerhalb eines Zeitfensters von einer Stunde wiederverwendet.
 

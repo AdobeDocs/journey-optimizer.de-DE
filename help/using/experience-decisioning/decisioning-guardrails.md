@@ -7,9 +7,9 @@ level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
 source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -72,6 +72,6 @@ Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey O
 
 ## Konfigurationen  {#configurations}
 
-Die Gesamtzahl der von Decisioning unterstützten Konfigurationen darf 20.000 nicht überschreiten.
+Die Gesamtzahl der von der Entscheidungsfindung unterstützten Konfigurationen darf 20.000 nicht überschreiten.
 
-Die Gesamtzahl der Konfigurationen entspricht der Gesamtzahl der [Begrenzungsregeln](items.md#capping) die in Ihrer Sandbox vorhanden sind.
+Die Gesamtzahl der Konfigurationen entspricht der Gesamtzahl der [Begrenzungsregeln](items.md#capping), die in Ihrer Sandbox vorhanden sind.

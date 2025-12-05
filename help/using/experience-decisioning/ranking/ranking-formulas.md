@@ -8,9 +8,9 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
 source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1457'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -227,7 +227,7 @@ In diesem Fall für ein Profil wie:
 
 +++Verstärken von Angeboten basierend auf der Postleitzahl und dem Jahreseinkommen eines Profils
 
-In diesem Beispiel versucht das System immer zuerst, ein Angebot anzuzeigen, das mit der Postleitzahl übereinstimmt. Wenn keine Übereinstimmung gefunden wird, wird ein allgemeines Angebot verwendet, wodurch die Anzeige von Angeboten, die für andere Postleitzahlen vorgesehen sind, vermieden wird.
+In diesem Beispiel versucht das System immer zuerst, ein Angebot anzuzeigen, das mit der Postleitzahl übereinstimmt. Wenn keine Übereinstimmung gefunden wird, wird ein allgemeines Angebot verwendet und die Anzeige von Angeboten für andere Postleitzahlen wird vermieden.
 
 ```pql
 if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 10000, if( not offer.luma.offerDetails.zipCode,_luma.annualIncome / 1000, -9999) )
@@ -235,9 +235,9 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
 Was die Formel bewirkt:
 
-* Wenn das Angebot dieselbe Postleitzahl wie der Benutzer hat, weisen Sie ihm eine sehr hohe Punktzahl zu, damit es zuerst ausgewählt wird.
-* Wenn das Angebot überhaupt keine Postleitzahl hat (es handelt sich um ein allgemeines Angebot), geben Sie ihm eine normale Punktzahl, die auf dem Einkommen des Benutzers basiert.
-* Wenn das Angebot eine andere Postleitzahl hat als der Benutzer, geben Sie ihm eine sehr niedrige Punktzahl, damit es nicht ausgewählt wird.
+* Wenn das Angebot dieselbe Postleitzahl wie die Benutzerin bzw. der Benutzer hat, weisen Sie ihm eine sehr hohe Punktzahl zu, damit es zuerst ausgewählt wird.
+* Wenn das Angebot überhaupt keine Postleitzahl hat (es handelt sich um ein allgemeines Angebot), geben Sie ihm eine normale Punktzahl, die auf dem Einkommen der Benutzerin bzw. des Benutzers basiert.
+* Wenn das Angebot eine andere Postleitzahl hat als die Benutzerin bzw. der Benutzer, geben Sie ihm eine sehr niedrige Punktzahl, damit es nicht ausgewählt wird.
 
 +++
 

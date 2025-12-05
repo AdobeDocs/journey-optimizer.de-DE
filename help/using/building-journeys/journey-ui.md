@@ -11,9 +11,9 @@ keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1475'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Darstellung von Journeys:
 
 So navigieren Sie in Ihrem Journey-Kalender:
 
-1. Um auf die Kalenderansicht zuzugreifen, öffnen Sie die Journey-Liste und klicken Sie auf das ![Kalendersymbol zum Wechseln zur &#x200B;](assets/do-not-localize/timeline-icon.svg)).
+1. Um auf die Kalenderansicht zuzugreifen, öffnen Sie die Journey-Liste und klicken Sie auf das Symbol ![Kalendersymbol zum Umschalten in die Kalenderansicht](assets/do-not-localize/timeline-icon.svg).
 
 1. Verwenden Sie die Pfeiltasten oder die Datumsauswahl über dem Kalender, um zwischen Wochen zu wechseln.
 
@@ -73,11 +73,11 @@ So navigieren Sie in Ihrem Journey-Kalender:
 
    ![Kalenderansicht mit Live-Journeys](assets/timeline-journeys.png)
 
-1. Klicken Sie auf ![Einstellungssymbol zum Umschalten der mehrtägigen Journey-Anzeige](assets/do-not-localize/Smock_Gears_18_N.png), um die Anzeige von Elementen umzuschalten, die sich über mehrere Tage oder Wochen erstrecken.
+1. Klicken Sie auf das Symbol ![Einstellungssymbol zum Umschalten der mehrtägigen Journey-Anzeige](assets/do-not-localize/Smock_Gears_18_N.png), um die Anzeige von Elementen umzuschalten, die sich über mehrere Tage oder Wochen erstrecken.
 
    ![Kalenderansicht mit Live-Kampagnen](assets/journey-calendar-1.png)
 
-1. Klicken Sie auf das ![Symbol Externen Kalender hinzufügen](assets/do-not-localize/Smock_CalendarAdd_18_N.svg), um bis zu drei externe Kalender zu verwalten und hinzuzufügen.
+1. Klicken Sie auf das Symbol ![Symbol zum Hinzufügen externer Kalender](assets/do-not-localize/Smock_CalendarAdd_18_N.svg), um bis zu drei externe Kalender zu verwalten und hinzuzufügen.
 
    ![Kalenderansicht mit externen Kalendern](assets/journey-calendar-2.png)
 
@@ -120,7 +120,7 @@ Um Journeys nach einem bestimmten Datumsbereich zu filtern, wählen Sie aus der 
 
 In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das Feld **[!UICONTROL Verwendet in]** die Zahl der Journeys an, die das betreffende Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
 
-![Wird im Feld verwendet, das die Anzahl der Journey anzeigt, die ein Ereignis oder eine Aktion verwenden](assets/journey3bis.png)
+![Wird im Feld verwendet, das die Anzahl der Journeys anzeigt, die ein Ereignis oder eine Aktion verwenden](assets/journey3bis.png)
 
 ## Journey-Typen {#journey-types}
 
@@ -166,7 +166,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Geben Sie den Namen der Journey ein und speichern Sie ihn. Sie können den Namen auch im Bildschirm „Journey-Eigenschaften“ ändern. Standardmäßig lautet der Name wie folgt: `[JOURNEY-NAME]_copy`
 
-   ![Journey-Nameneingabefeld für dupliziertes Journey](assets/duplicate-jo2.png)
+   ![Feld zur Eingabe des Journey-Namens für eine duplizierte Journey](assets/duplicate-jo2.png)
 
 1. Die neue Journey wird erstellt und ist in der Journey-Liste verfügbar.
 

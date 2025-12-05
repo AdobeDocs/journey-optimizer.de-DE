@@ -10,9 +10,9 @@ level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1974'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -81,11 +81,11 @@ Für alle benutzerdefinierten Aktionen ist ein Begrenzung von 300.000 Aufrufen �
 
 >[!NOTE]
 >
->Die Begrenzung auf 300.000 Aufrufe pro Minute wird als **gleitendes Fenster)** Sandbox und pro Endpunkt für Endpunkte mit Antwortzeiten von weniger als 0,75 Sekunden erzwungen. Das Schiebefenster kann bei jeder Millisekunde beginnen, was bedeutet, dass Begrenzungsfehler auch dann auftreten können, wenn die Rate unter 300k/min erscheint, wenn sie auf Uhrminuten ausgerichtet ist. Für Endpunkte mit Antwortzeiten von mehr als 0,75 Sekunden gilt eine separate Begrenzung von 150.000 Aufrufen pro 30 Sekunden (ebenfalls ein gleitendes Fenster). Weitere Informationen zu langsamen Endpunkten finden [&#x200B; auf dieser Seite](../configuration/external-systems.md#response-time).
+>Die Begrenzung auf 300.000 Aufrufe pro Minute wird pro Sandbox und pro Endpunkt für alle Endpunkte mit Antwortzeiten von weniger als 0,75 Sekunden als **gleitendes Fenster** erzwungen. Das gleitende Fenster kann bei jeder Millisekunde beginnen. Wenn das Fenster an Minuten der Uhrzeit ausgerichtet ist, kann es daher auch zu Begrenzungsfehlern kommen, wenn die Rate unter 300.000/Min. zu sein scheint. Für Endpunkte mit Antwortzeiten von mehr als 0,75 Sekunden gilt eine separate Begrenzung von 150.000 Aufrufen pro 30 Sekunden (ebenfalls als gleitendes Fenster). Weitere Informationen zu langsamen Endpunkten finden Sie [auf dieser Seite](../configuration/external-systems.md#response-time).
 
-Das standardmäßige Limit von 300.000 Aufrufen pro Minute gilt auf Domain-Ebene (d. h. example.com). Wenn Sie eine höhere Begrenzung benötigen, wenden Sie sich mit Nutzungsnachweisen an den Adobe-Support und bestätigen Sie den Durchsatz Ihres Endpunkts. Um eine Erhöhung der Begrenzung anzufordern, geben Sie Details zum erwarteten Aufrufvolumen und zur Endpunktkapazität an. Adobe kann die Begrenzung anpassen, wenn die Kapazitätstests zeigen, dass der Endpunkt einen höheren Durchsatz verarbeiten kann. Für Best Practices sollten Sie Journey umstrukturieren oder Warteaktivitäten implementieren, um ausgehende Aufrufe zu staffeln und Begrenzungsfehler zu vermeiden.
+Das standardmäßige Limit von 300.000 Aufrufen pro Minute gilt auf Domain-Ebene (z. B. „beispiel.com“). Wenn Sie eine höhere Begrenzung benötigen, wenden Sie sich mit Nutzungsnachweisen an den Adobe-Support und bestätigen Sie den Durchsatz Ihres Endpunkts. Um eine Erhöhung der Begrenzung anzufordern, geben Sie Details zum erwarteten Aufrufvolumen und zur Endpunktkapazität an. Adobe kann die Begrenzung anpassen, wenn die Kapazitätstests zeigen, dass der Endpunkt einen höheren Durchsatz verarbeiten kann. Im Hinblick auf Best Practices sollten Sie Journeys umstrukturieren oder Warteaktivitäten implementieren, um ausgehende Aufrufe zu staffeln und Begrenzungsfehler zu vermeiden.
 
-Dieses Limit wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die Ziele von benutzerdefinierten Aktionen sind. Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
+Dieses Limit wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die Ziele von benutzerdefinierten Aktionen sind. Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API ein höheres Limit für die Begrenzung/Drosselung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 
 Sie sollten öffentliche Endpunkte aus verschiedenen Gründen nicht mit benutzerdefinierten Aktionen ansprechen:
 

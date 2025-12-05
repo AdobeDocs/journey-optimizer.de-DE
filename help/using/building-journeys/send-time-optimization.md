@@ -11,9 +11,9 @@ keywords: Versandzeit, senden, Nachricht, Optimierung, Journey, KI, intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1546'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Die Optimierung des Versandzeitpunkts ist nur für die integrierten Aktionstypen
 
 Aktivieren Sie die Optimierung des Versandzeitpunkts für eine E-Mail oder Push-Aktion, indem Sie den Umschalter „Optimierung des Versandzeitpunkts“ in den Aktionsparametern aktivieren.
 
-![Umschalter für die Sendezeitoptimierung in der Konfiguration des E-Mail-Kanals](assets/jo-message5.png)
+![Umschalter für die Optimierung des Versandzeitpunkts in der Konfiguration des E-Mail-Kanals](assets/jo-message5.png)
 
 Die Optimierung des Versandzeitpunkts sollte nicht für dringende, zeitkritische Betriebsnachrichten verwendet werden – z. B. eine Bestellbestätigung, eine Benachrichtigung zum Zurücksetzen des Kennworts oder eine Benachrichtigung über eine Änderung des Gates am Flughafen. Die Optimierung des Versandzeitpunkts eignet sich am besten für weniger dringende Marketing-Nachrichten, z. B. eine wöchentliche Anzeige, Werbeinformationen zu einem neuen Produkt oder Informationen zu einem einmonatigen Ausverkauf.
 
@@ -80,7 +80,7 @@ Die Optimierung des Versandzeitpunkts trifft für jede Wochenstunde Prognosen f�
 
 Diese Prognosen werden gewichtet und mithilfe eines Bayes&#39;schen Ansatzes kombiniert, was zu einer „Heatmap“ für jede Metrik (E-Mail-Öffnungen, E-Mail-Klicks und Push-Öffnungen) für jede Person führt, die die Stunden der Woche angibt, an denen die Kontaktaufnahme mit dieser Person am wahrscheinlichsten und am wenigsten zum gewünschten Interaktionsergebnis (Öffnen/Klicken) führt, wie im folgenden Heatmap-Beispiel dargestellt:
 
-![Interaktions-Heatmap mit optimalen Versandzeiten für E-Mails nach Tag und Stunde](assets/heatmap-1.png)
+![Interaktions-Heatmap mit optimalen Versandzeitpunkten für E-Mails nach Tag und Stunde](assets/heatmap-1.png)
 
 Wenn eine Person mit der oben prognostizierten Wahrscheinlichkeit für eine Nachricht um 9 Uhr am Mittwoch mit aktivierter Optimierung des Versandzeitpunkts und einer maximalen Wartezeit von 7 Stunden ausgewählt wird, ist die ausgewählte Sendezeit für die Nachricht 12 Uhr:
 
@@ -99,7 +99,7 @@ Die Versandzeiten zum Ausprobieren werden zufällig aus den Versandzeiten ausgew
 
 ## Häufig gestellte Fragen {#faq-send-time}
 
-Im Folgenden finden Sie häufig gestellte Fragen zur Sendezeitoptimierung.
+Im Folgenden finden Sie häufig gestellte Fragen zur Versandzeitoptimierung.
 
 Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
 

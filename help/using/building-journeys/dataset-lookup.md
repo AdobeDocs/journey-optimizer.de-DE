@@ -10,9 +10,9 @@ level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Der Datensatz muss für die Suche in Adobe Experience Platform aktiviert sein. D
 
 * Pro Journey können maximal 10 Aktivitäten des Typs „Datensatzsuche“ verwendet werden.
 * Es können maximal 20 Felder ausgewählt werden.
-* Maximal 50 Schlüssel im Suchschlüssel-Array.
+* Es können maximal 50 Schlüssel im Suchschlüssel-Array vorhanden sein.
 * Die Größe der angereicherten Daten ist auf 10 KB beschränkt.
 
 ### Weitere Überlegungen zur Leistung
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Datensatzsuche]** zu ko
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Orchestrierung]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Datensatzsuche]** auf Ihrer Arbeitsfläche ab.
 
-   ![Suchaktivität für Adobe Experience Platform-Datensätze in Journey](assets/aep-data-activity.png)
+   ![Suchaktivität für Adobe Experience Platform-Datensätze in Journeys](assets/aep-data-activity.png)
 
 1. Fügen Sie ein Label und eine Beschreibung hinzu.
 
@@ -93,7 +93,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Datensatzsuche]** zu ko
 
    +++Beispiel
 
-   ![Ausdruckseditor mit Such- und Zeichenfolgen-Funktionen für Datensatzfelder](assets/aep-data-strings.png)
+   ![Ausdruckseditor mit Funktionen zur Datensatzfeldsuche und für Strings](assets/aep-data-strings.png)
 
    +++
 

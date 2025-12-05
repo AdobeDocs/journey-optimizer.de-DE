@@ -11,9 +11,9 @@ keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1598'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -58,13 +58,13 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 
    ![Dropdown-Liste zur Zielgruppenauswahl für die Konfiguration von Qualifizierungsereignissen](assets/segment6.png)
 
-   Nachdem die Zielgruppe hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** deren Namen und ID kopieren:
+   Nachdem die Zielgruppe hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** ihren Namen und ihre ID kopieren:
 
    `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![Schaltfläche „Kopieren“ zum Kopieren von Zielgruppenname und ID im JSON-Format](assets/segment-copy.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Verhalten]** aus, ob Zielgruppeneintritte, -austritte oder beides überwacht werden soll.
+1. Wählen Sie im Feld **[!UICONTROL Verhalten]** aus, ob Zielgruppeneintritte, -ausstiege oder beides überwacht werden sollen.
 
    >[!NOTE]
    >
@@ -94,7 +94,7 @@ Eine neue Journey, die ein Ereignis **Zielgruppen-Qualifizierung** enthält, ist
 
 Mit der Aktivität **[!UICONTROL Zielgruppen-Qualifizierung]** wird der sofortige Eintritt in Journeys von Kontakten möglich, die über eine Adobe Experience Platform-Zielgruppe qualifiziert oder disqualifiziert werden.
 
-Die Empfangsgeschwindigkeit dieser Daten ist hoch. Durchgeführte Messungen zeigen eine Geschwindigkeit von 10.000 empfangenen Ereignissen pro Sekunde. Daher sollten Sie wissen, wie Eintrittsspitzen auftreten können, wie sie sich vermeiden lassen und wie Sie Ihren Journey darauf vorbereiten können. Weitere Informationen zu Journey-Verarbeitungsraten und Durchsatzbeschränkungen finden Sie in [diesem Abschnitt](entry-management.md#journey-processing-rate).
+Die Empfangsgeschwindigkeit dieser Daten ist hoch. Durchgeführte Messungen zeigen eine Geschwindigkeit von 10.000 empfangenen Ereignissen pro Sekunde. Es ist daher wichtig zu wissen, wie Eintrittsspitzen auftreten können, wie sie sich vermeiden lassen und wie Sie Ihre Journey auf sie vorbereiten. Weitere Informationen zu Journey-Verarbeitungsraten und Durchsatzbeschränkungen finden Sie in [diesem Abschnitt](entry-management.md#journey-processing-rate).
 
 ### Batch-Zielgruppen {#batch-speed-segment-qualification}
 
@@ -112,29 +112,29 @@ Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentati
 
 >[!NOTE]
 >
->Bei der Streaming-Segmentierung kann es bis zu **2 Stunden dauern,** neu aufgenommene Daten innerhalb von Adobe Experience Platform vollständig und in Echtzeit übertragen werden können. Zielgruppen, die auf tägliche oder zeitbasierte Bedingungen angewiesen sind (z. B. „Ereignisse, die heute aufgetreten sind„), können eine zusätzliche Komplexität bei der Qualifizierungszeitplanung erleben. Wenn Ihr Journey von der sofortigen Zielgruppen-Qualifizierung abhängt, sollten Sie zu Beginn eine kurze [Warteaktivität](wait-activity.md) hinzufügen oder eine Pufferzeit einräumen, um eine genaue Qualifizierung sicherzustellen.
+>Bei der Streaming-Segmentierung kann es bis zu **2 Stunden** dauern, bis neu aufgenommene Daten innerhalb von Adobe Experience Platform vollständig propagiert sind und in Echtzeit genutzt werden können. Zielgruppen, die auf tages- oder zeitbasierte Bedingungen angewiesen sind (z. B. „Ereignisse, die heute stattgefunden haben“), können zu zusätzlicher Komplexität bei der Qualifizierungszeitplanung führen. Wenn Ihre Journey von der sofortigen Zielgruppen-Qualifizierung abhängt, sollten Sie zu Beginn eine kurze [Warteaktivität](wait-activity.md) hinzufügen oder eine Pufferzeit einräumen, um eine genaue Qualifizierung sicherzustellen.
 
-#### Warum nicht alle qualifizierten Profile in die Journey eintreten können {#streaming-entry-caveats}
+#### Darum treten möglicherweise nicht alle qualifizierten Profile in die Journey ein {#streaming-entry-caveats}
 
-Bei Verwendung von Streaming-Zielgruppen mit der Aktivität **Zielgruppen-**) treten nicht alle Profile, die für die Zielgruppe qualifiziert sind, notwendigerweise in die Journey ein. Dieses Verhalten kann aus folgenden Gründen auftreten:
+Bei Verwendung von Streaming-Zielgruppen mit der Aktivität **Zielgruppen-Qualifizierung** treten nicht unbedingt alle Profile, die für die Zielgruppe qualifiziert sind, in die Journey ein. Dieses Verhalten kann aus folgenden Gründen auftreten:
 
-* **Bereits in der Zielgruppe enthaltene Profile**: Nur Profile, die sich nach der Veröffentlichung der Journey neu für die Zielgruppe qualifizieren, werden in den Trigger aufgenommen. Profile, die sich bereits vor der Veröffentlichung in der Zielgruppe befinden, treten nicht ein.
+* **Bereits in der Zielgruppe enthaltene Profile**: Nur Profile, die sich nach der Veröffentlichung der Journey neu für die Zielgruppe qualifizieren, lösen den Eintritt aus. Profile, die sich bereits vor der Veröffentlichung in der Zielgruppe befinden, treten nicht ein.
 
-* **Journey-Aktivierungszeit**: Wenn Sie eine Journey veröffentlichen, dauert die Aktivität **Zielgruppenqualifizierung** bis zu **10 Minuten**, um aktiv zu werden und auf Profileinträge und -austritte zu warten. [Weitere Informationen zur Journey-Aktivierung](#configure-segment-qualification).
+* **Journey-Aktivierungszeit**: Wenn Sie eine Journey veröffentlichen, dauert es bis zu **10 Minuten**, bis die Aktivität **Zielgruppen-Qualifizierung** aktiv wird und Profileintritte und -ausstiege überwacht. [Weitere Informationen zur Journey-Aktivierung](#configure-segment-qualification).
 
-* **Schnelle Ausstiege aus der Zielgruppe**: Wenn ein Profil sich für die Zielgruppe qualifiziert, aber beendet, bevor der Journey-Eintrag ausgelöst wird, kann dieses Profil nicht auf die Journey gelangen.
+* **Schnelle Zielgruppenaustritte**: Wenn ein Profil sich für die Zielgruppe qualifiziert, aber aussteigt, bevor der Journey-Eintritt ausgelöst wird, tritt dieses Profil möglicherweise nicht in die Journey ein.
 
-* **Zeitspanne zwischen Qualifizierung und Journey-Verarbeitung**: Aufgrund des verteilten Charakters von Adobe Experience Platform kann es zu Zeitlücken kommen, zwischen dem Zeitpunkt, zu dem ein Profil für eine Zielgruppe geeignet ist, und dem Zeitpunkt, zu dem das Journey dieses Qualifizierungsereignis verarbeitet.
+* **Zeit zwischen Qualifizierung und Journey-Verarbeitung**: Aufgrund des verteilten Charakters von Adobe Experience Platform kann es zwischen dem Zeitpunkt, zu dem ein Profil sich für eine Zielgruppe qualifiziert, und dem Zeitpunkt, zu dem die Journey dieses Qualifizierungsereignis verarbeitet, zu zeitlichen Lücken kommen.
 
-**Recommendations:**
+**Empfehlungen:**
 
-* Warten Sie nach dem Veröffentlichen einer Journey mindestens 10 Minuten, bevor Sie Ereignisse oder Daten senden, die die Trigger-Profilqualifizierung beeinflussen. Dadurch wird sichergestellt, dass die Journey vollständig aktiviert ist und Einträge verarbeitet werden können.
+* Warten Sie nach dem Veröffentlichen einer Journey mindestens 10 Minuten, bevor Sie Ereignisse oder Daten senden, die die Profilqualifizierung auslösen. Dadurch wird sichergestellt, dass die Journey vollständig aktiviert ist und Eintritte verarbeitet werden können.
 
 * Für kritische Anwendungsfälle, bei denen Sie sicherstellen müssen, dass alle qualifizierten Profile eintreten, sollten Sie stattdessen eine Aktivität [Zielgruppe lesen](read-audience.md) verwenden, bei der alle Profile in einer Zielgruppe zu einem bestimmten Zeitpunkt verarbeitet werden.
 
-* Überwachen Sie die [&#x200B; und den Durchsatz Ihrer Journey](entry-management.md#profile-entrance-rate) um Profilflussmuster zu verstehen.
+* Überwachen Sie [die Eintrittsrate und den Durchsatz](entry-management.md#profile-entrance-rate) Ihrer Journey, um Muster im Profilfluss zu erkennen.
 
-* Wenn Profile nicht erwartungsgemäß eintreten, finden Sie im [Handbuch zur Fehlerbehebung](troubleshooting-execution.md#checking-if-people-enter-the-journey) weitere Diagnoseschritte.
+* Wenn Profile nicht erwartungsgemäß eintreten, finden Sie im [Leitfaden zur Fehlerbehebung](troubleshooting-execution.md#checking-if-people-enter-the-journey) weitere Diagnoseschritte.
 
 ### Vermeiden von Überlastungen {#overloads-speed-segment-qualification}
 
@@ -150,7 +150,7 @@ Die folgenden Best Practices helfen dabei, eine Überlastung der für Journeys g
 
   ![Warnmeldung, wenn die Zielgruppe zu viele Ereignisse für die Echtzeitverarbeitung hat](assets/segment-overload.png)
 
-Weitere Informationen zu Einstiegsbeschränkungen und zum Durchsatz finden Sie in [diesem Abschnitt](entry-management.md#profile-entrance-rate).
+Weitere Informationen zu Eintrittsratenbeschränkungen und zum Durchsatz finden Sie in [diesem Abschnitt](entry-management.md#profile-entrance-rate).
 
 ## Leitlinien und Einschränkungen {#audience-qualification-guardrails}
 
@@ -188,4 +188,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

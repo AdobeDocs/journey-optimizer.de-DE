@@ -11,9 +11,9 @@ keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '732'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -92,11 +92,11 @@ Es empfiehlt sich, benutzerdefinierte Datumsangaben zu verwenden, die spezifisch
 
 >[!CAUTION]
 >
->Wenn Sie einen benutzerdefinierten Warteausdruck mit `toDateTimeOnly()` erstellen, vermeiden Sie es, „Z“ oder einen Zeitzonenversatz (z. B. &quot;-05:00„) im Ausdrucksergebnis anzuhängen. Der Ausdruck muss eine gültige ISO-Datums-/Uhrzeitsyntax verwenden, die auf die konfigurierte Zeitzone der Journey verweist, ohne explizite Zeitzonenbezeichner.
+>Wenn Sie einen benutzerdefinierten Warteausdruck mit `toDateTimeOnly()` erstellen, vermeiden Sie es, „Z“ oder einen Zeitzonenversatz (z. B. „-05:00“) im Ausdrucksergebnis anzuhängen. Der Ausdruck muss eine gültige ISO-Datums-/Uhrzeitsyntax verwenden, die auf die konfigurierte Zeitzone der Journey verweist, ohne explizite Zeitzonenbezeichner.
 >
 >**Korrektes Beispiel:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
 >
->**Falsches Beispiel:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (enthält &#39;Z&#39;)
+>**Falsches Beispiel:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (enthält „Z“)
 >
 >Die Verwendung nicht unterstützter Zeitzonenbezeichner kann dazu führen, dass Profile in der Warteaktivität hängen bleiben, anstatt wie erwartet fortzufahren.
 

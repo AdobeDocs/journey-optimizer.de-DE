@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
 source-git-commit: 8cb37cf0fb9dc8048d7da8ddda0c67280477d57f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -43,26 +43,26 @@ Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-
 
 ## Fehlerbehebung {#troubleshooting}
 
-### Azure Cosmos DB-Authentifizierungsfehler (500 interner Server-Fehler) {#cosmosdb-auth-errors}
+### Azure Cosmos DB-Authentifizierungsfehler (500 Internal Server Error) {#cosmosdb-auth-errors}
 
-Wenn beim Auslösen von API-ausgelösten Kampagnen **500 interne Server** Fehler auftreten und die Systemprotokolle einen **403 Forbidden**-Fehler von Azure Cosmos DB mit einer Meldung wie der folgenden zeigen:
+Wenn beim Auslösen von durch API ausgelösten Kampagnen Fehler des Typs **500 Internal Server Error** auftreten und die Systemprotokolle einen **403 Forbidden**-Fehler von Azure Cosmos DB mit einer Meldung wie der folgenden zeigen:
 
-_„Der Zugriff auf Ihr Konto ist derzeit widerrufen, da der Azure Cosmos DB-Service das AAD-Authentifizierungstoken für die Standardidentität des Kontos nicht abrufen kann“_
+_„Access to your account is currently revoked because the Azure Cosmos DB service is unable to obtain the AAD authentication token for the account&#39;s default identity“_
 
-Dieser Fehler tritt normalerweise auf, wenn der für die Cosmos-DB-Authentifizierung erforderliche Azure-Service-Prinzipal deaktiviert, gelöscht oder falsch konfiguriert wurde.
+Dieser Fehler tritt normalerweise auf, wenn der für die Cosmos DB-Authentifizierung erforderliche Azure-Service-Prinzipal deaktiviert, gelöscht oder falsch konfiguriert wurde.
 
-+++Wie dieses Problem behoben wird
++++Problembehebung
 
-1. **Azure-Service-Prinzipal überprüfen** - Stellen Sie sicher, dass Ihr Azure-Service-Prinzipal oder Ihre verwaltete Identität aktiviert ist und in Ihrem Azure Active Directory nicht deaktiviert oder gelöscht wurde.
+1. **Prüfen Sie den Azure-Service-Prinzipal**: Stellen Sie sicher, dass Ihr Azure-Service-Prinzipal oder Ihre verwaltete Identität aktiviert ist und in Ihrem Azure Active Directory nicht deaktiviert oder gelöscht wurde.
 
-1. **Berechtigungen überprüfen** - Vergewissern Sie sich, dass der Service-Prinzipal über die erforderlichen Berechtigungen für den Zugriff auf die Azure-Schlüsseltresor- und Cosmos-DB-Ressourcen verfügt. Der Service-Prinzipal muss über geeignete Rollenzuweisungen verfügen, um sich bei Azure Cosmos DB zu authentifizieren.
+1. **Prüfen Sie Berechtigungen**: Vergewissern Sie sich, dass der Service-Prinzipal über die erforderlichen Berechtigungen zum Zugriff auf die Ressourcen für den Azure Key Vault und Cosmos DB verfügt. Der Service-Prinzipal muss über geeignete Rollenzuweisungen verfügen, damit die Authentifizierung bei Azure Cosmos DB möglich ist.
 
-1. **Überprüfen Sie die Konfiguration von Azure Cosmos DB CMK** - Wenn Sie kundenverwaltete Schlüssel (CMK) verwenden, finden Sie im [Handbuch zur Fehlerbehebung bei Azure Cosmos DB CMK](https://learn.microsoft.com/en-us/azure/cosmos-db/cmk-troubleshooting-guide#azure-active-directory-token-acquisition-error){target="_blank"} detaillierte Schritte zur Wiederherstellung der AAD-Token-Akquise.
+1. **Prüfen Sie die Konfiguration von Azure Cosmos DB CMK**: Wenn Sie kundenseitig verwaltete Schlüssel (CMK) verwenden, finden Sie im [Leitfaden zur Fehlerbehebung bei Azure Cosmos DB CMK](https://learn.microsoft.com/de-de/azure/cosmos-db/cmk-troubleshooting-guide#azure-active-directory-token-acquisition-error){target="_blank"} detaillierte Schritte zur Wiederherstellung der AAD-Token-Akquise.
 
-1. **Erneutes Aktivieren und Testen** - Nach der Korrektur der Konfiguration müssen Sie den Service-Prinzipal erneut aktivieren, falls er deaktiviert war, und Ihre Transaktions-Campaign-API-Aufrufe erneut testen, um zu bestätigen, dass die Authentifizierung erfolgreich war und Nachrichten gesendet werden.
+1. **Aktivieren Sie erneut und testen Sie**: Nach der Korrektur der Konfiguration müssen Sie den Service-Prinzipal erneut aktivieren, falls er deaktiviert war, und Ihre transaktionalen Kampagnen-API-Aufrufe erneut testen, um zu prüfen, ob die Authentifizierung erfolgreich ist und Nachrichten gesendet werden.
 
 >[!NOTE]
 >
->Dieses Problem tritt normalerweise aufgrund einer Fehlkonfiguration oder einer versehentlichen Deaktivierung des Azure-Service-Prinzipals auf, der für die Cosmos DB-Authentifizierung erforderlich ist. Wenn der Service-Prinzipal aktiviert und ordnungsgemäß konfiguriert bleibt, wird dieser Fehler in Zukunft verhindert.
+>Dieses Problem tritt normalerweise aufgrund einer Fehlkonfiguration oder einer versehentlichen Deaktivierung des Azure-Service-Prinzipals auf, der für die Cosmos DB-Authentifizierung erforderlich ist. Wenn Sie dafür sorgen, dass der Service-Prinzipal aktiviert und ordnungsgemäß konfiguriert bleibt, tritt dieser Fehler künftig nicht mehr auf.
 
 +++

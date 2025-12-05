@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
 source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2162'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -193,7 +193,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr>
   <tr> 
    <td> Eindeutige Sendeausschlüsse<br/> </td> 
-   <td>Anzahl der eindeutigen Profile, die aufgrund von Eignungsregeln, Zielgruppensegmentierung oder Profilstatus vom Empfang von Nachrichten ausgeschlossen sind. <a href="exclusion-list.md">Erfahren Sie mehr darüber, wie Ausschlüsse gezählt werden</a>.<br/> </td> 
+   <td>Anzahl der eindeutigen Profile, die aufgrund von Eignungsregeln, Zielgruppensegmentierung oder Profilstatus vom Nachrichtenempfang ausgeschlossen sind. <a href="exclusion-list.md">Erfahren Sie mehr darüber, wie Ausschlüsse gezählt werden</a>.<br/> </td> 
   </tr>
   <tr> 
    <td>Eindeutige Zielgruppe<br/> </td> 
@@ -548,7 +548,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
 <tr> 
    <td>Ausgehende Ausschlüsse<br/> </td> 
-   <td>Anzahl der Profile, die aufgrund vordefinierter Kriterien oder Filterung durch Adobe Journey Optimizer vom Empfang von Briefpost ausgeschlossen sind. <a href="exclusion-list.md">Erfahren Sie mehr darüber, wie Ausschlüsse gezählt werden</a>.<br/> </td> 
+   <td>Anzahl der Profile, die aufgrund vordefinierter Kriterien oder Filterung durch Adobe Journey Optimizer vom Direkt-Mail-Empfang ausgeschlossen wurden. <a href="exclusion-list.md">Erfahren Sie mehr darüber, wie Ausschlüsse gezählt werden</a>.<br/> </td> 
 </tr>
 <tr> 
    <td>Profile<br/> </td> 

@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie direkt über die Benutzeroberfläche relation
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '882'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Im folgenden Beispiel wird das Schema **Mitgliedschaft in Treueprogramm** manuel
 
 1. [Nehmen Sie Daten](ingest-data.md) aus unterstützten Quellen in Ihren Datensatz auf.
 
-➡️ [Weitere Informationen zu manuellen relationalen Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Weitere Informationen zu manuellen relationalen Schemata finden Sie in der Dokumentation zu Adobe Experience Platform.](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Erstellen Ihres Schemas {#schema}
 
@@ -110,7 +110,7 @@ Jedes Schema, das für die Zielgruppenbestimmung verwendet wird, muss mindestens
 
 Nachdem Sie Attribute erstellt und gespeichert haben, können Sie das Schema durch Definieren von Beziehungen mit anderen relationalen Schemata verknüpfen.
 
-➡️ [Weitere Informationen zu relationalen Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Weitere Informationen zu modellbasierten Schemata finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Verknüpfen von Schemata {#link-schema}
 

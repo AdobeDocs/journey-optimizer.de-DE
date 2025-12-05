@@ -11,9 +11,9 @@ keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
 source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1773'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 Mit der Aktivität **Bedingung** können Sie festlegen, wie Kontakte Ihre Journey durchlaufen, indem Sie mehrere Pfade auf Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen.
 
-![Bedingungsaktivität auf der Journey-Arbeitsfläche mit mehreren Pfadoptionen](assets/journey49.png)
+![Bedingungsaktivität in der Journey-Arbeitsfläche mit mehreren Pfadoptionen](assets/journey49.png)
 
 Folgende Bedingungstypen sind verfügbar:
 
@@ -55,13 +55,13 @@ Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie für jede d
 
 Klicken Sie auf **[!UICONTROL Pfad hinzufügen]**, wenn Sie mehrere Bedingungen definieren möchten. Für jede Bedingung wird der Arbeitsfläche nach der Aktivität ein neuer Pfad hinzugefügt.
 
-![Fügen Sie in der Aktivität Bedingung eine Pfadschaltfläche hinzu, um zusätzliche Pfade zu erstellen](assets/journey47.png)
+![Hinzufügen einer Pfadschaltfläche in der Bedingungsaktivität zum Erstellen zusätzlicher Pfade](assets/journey47.png)
 
 Beachten Sie, dass die Gestaltung der Journeys funktionelle Auswirkungen hat. Wenn mehrere Pfade nach einer Bedingung definiert werden, wird nur der erste infrage kommende Pfad ausgeführt. Das bedeutet, dass Sie die Priorisierung von Pfaden ändern können, indem Sie sie über- oder untereinander platzieren.
 
 Nehmen wir beispielsweise die Bedingung eines ersten Pfads „Die Person ist eine VIP“ und die Bedingung eines zweiten Pfads „Die Person ist ein Mann“. Wenn eine Person, die beide Bedingungen erfüllt (ein männlicher VIP) diesen Schritt durchläuft, wird der erste Pfad ausgewählt, auch wenn die Person ebenfalls für den zweiten Pfad infrage kommt, da der erste Pfad „über“ dem zweiten steht. Um diese Priorität zu ändern, verschieben Sie Ihre Aktivitäten in eine andere vertikale Reihenfolge.
 
-![Pfadpriorisierung mit Anzeige der VIP- und Männerbedingungen](assets/journey48.png)
+![Pfadpriorisierung mit Anzeige der Bedingungen „VIP“ und „Mann“](assets/journey48.png)
 
 Sie können einen anderen Pfad für Zielgruppen erstellen, für die die definierten Bedingungen nicht gelten, indem Sie die Option **[!UICONTROL Pfad für andere Fälle als die obigen zeigen]** aktivieren. Beachten Sie, dass diese Option in Bedingungen für die Aufspaltung nicht verfügbar ist. Siehe [Prozentuale Aufspaltung](#percentage_split).
 
@@ -93,15 +93,15 @@ Beim Targeting einer Zielgruppe mit Anreicherungsattributen, die mithilfe eines 
 
 >[!IMPORTANT]
 >
->**Umgang mit fehlenden oder nicht aufgenommenen Attributen**
+>**Verarbeiten fehlender oder nicht aufgenommener Attribute**
 >
 >Wenn in Ihrem Profilschema ein Schemafeld definiert ist, aber keine Daten für dieses Feld aufgenommen wurden, interpretieren Journey Optimizer und das zugrunde liegende Echtzeit-Kundenprofil das Feld als `null`. Daher werden Bedingungen, die auf `isEmpty()`, `isNull()` oder ähnliche Funktionen prüfen, als `true` ausgewertet, selbst wenn das Attribut nie aufgenommen wurde. Dies kann zu unerwartetem Journey-Verhalten führen, wenn Sie nicht wissen, dass das Feld keine Daten enthält.
 >
->Um Verwirrung zu vermeiden, stellen Sie sicher, dass die Attribute, die Sie in Bedingungsausdrücken verwenden, mit tatsächlichen Daten aufgenommen wurden, bevor das Profil auf die Journey gelangt. Sie können Attributwerte im [Echtzeit-Kundenprofil) überprüfen](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} um zu bestätigen, ob Daten für die in Ihren Bedingungen verwendeten Felder vorhanden sind.
+>Um Missverständnisse zu vermeiden, stellen Sie sicher, dass die Attribute, die Sie in Bedingungsausdrücken verwenden, mit tatsächlichen Daten aufgenommen wurden, bevor das Profil in die Journey eintritt. Sie können Attributwerte im [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} überprüfen, um zu bestätigen, ob für die in Ihren Bedingungen verwendeten Felder Daten vorhanden sind.
 
 Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. [Weitere Informationen](../datasource/external-data-sources.md).
 
-![Konfiguration von Data Source-Bedingungen mit dem Ausdruckseditor](assets/journey50.png)
+![Bedingungskonfiguration für Datenquellen mit dem Ausdruckseditor](assets/journey50.png)
 
 ## Zeitbedingung {#time_condition}
 
@@ -131,7 +131,7 @@ Im Testmodus wird beim Erreichen einer Aufspaltung immer die obere Verzweigung a
 >
 >Beachten Sie, dass es in der Bedingung für die prozentuale Aufspaltung keine Schaltfläche zum Hinzufügen eines Pfades gibt. Die Anzahl der Pfade hängt von der Anzahl der Aufspaltungen ab. In Bedingungen für die Aufspaltung können Sie keinen Pfad für andere Fälle hinzufügen, da diese nicht möglich sind. Die Personen wählen immer einen der Pfade der Aufspaltung aus.
 
-![Konfiguration der prozentualen Aufspaltung mit mehreren Pfaden und Verteilungen](assets/journey52.png)
+![Konfiguration der prozentualen Aufspaltung mit mehreren Pfaden und Verteilung](assets/journey52.png)
 
 ## Bedingung für das Datum {#date_condition}
 
@@ -168,7 +168,7 @@ Für Live-Journeys sollten die folgenden Schwellenwerte berücksichtigt werden, 
 
 Die Profilbegrenzung wird im Testmodus nicht berücksichtigt.
 
-![Bedingung für Profilbegrenzung mit Einstellung für maximale Profilbegrenzung](assets/profile-cap-condition.png)
+![Profilbegrenzungsbedingung mit Einstellung für maximale Anzahl der Profile](assets/profile-cap-condition.png)
 
 ## Verwenden von Zielgruppen in Bedingungen {#using-a-segment}
 
@@ -178,13 +178,13 @@ Gehen Sie wie folgt vor, um in einer Journey-Bedingung eine Zielgruppe zu verwen
 
 1. Öffnen Sie eine Journey, legen Sie eine Aktivität vom Typ **[!UICONTROL Bedingung]** ab und wählen Sie die **Datenquellenbedingung**.
 
-   ![Data Source-Bedingungsauswahl in der Bedingungsaktivität](assets/segment3.png)
+   ![Bedingungsauswahl für Datenquelle in Bedingungsaktivität](assets/segment3.png)
 
 1. Klicken Sie für jeden zusätzlichen Pfad auf **[!UICONTROL Pfad hinzufügen]**. Klicken Sie für jeden Pfad auf das Feld **[!UICONTROL Ausdruck]**.
 
 1. Erweitern Sie auf der linken Seite den Knoten **[!UICONTROL Zielgruppen]**. Legen Sie die Zielgruppe, die Sie für Ihre Bedingung verwenden möchten, per Drag-and-Drop ab. Standardmäßig lautet die Bedingung für die Zielgruppe „true“.
 
-   ![Zielgruppenauswahl über den Zielgruppenknoten im Ausdruckseditor](assets/segment4.png)
+   ![Zielgruppenauswahl aus Zielgruppenknoten im Ausdruckseditor](assets/segment4.png)
 
    >[!NOTE]
    >

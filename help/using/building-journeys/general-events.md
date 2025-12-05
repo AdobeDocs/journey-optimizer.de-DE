@@ -11,9 +11,9 @@ keywords: benutzerdefiniert, allgemein, Ereignisse, Journey
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Na
 
 Für diesen Ereignistyp können Sie nur ein Label und eine Beschreibung hinzufügen. Der Rest der Konfiguration kann nicht bearbeitet werden. Dies wurde vom technischen Anwender durchgeführt. Weitere Informationen finden Sie auf [dieser Seite](../event/about-events.md).
 
-Weitere Informationen zu Ereignisdurchsatz und Journey-Verarbeitungsraten finden Sie in [diesem Abschnitt](entry-management.md#journey-processing-rate).
+Weitere Informationen zu Ereignisdurchsatz und Journey-Verarbeitungsraten finden Sie [in diesem Abschnitt](entry-management.md#journey-processing-rate).
 
-![Bedienfeld „Konfiguration allgemeiner Ereignisse“ mit Ereignisauswahl und Einstellungen](assets/general-events.png)
+![Panel zur Konfiguration allgemeiner Ereignisse mit Ereignisauswahl und Einstellungen](assets/general-events.png)
 
 Wenn Sie ein Geschäftsereignis einfügen, wird automatisch eine Aktivität **Zielgruppe lesen** hinzugefügt. Weiterführende Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
 
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um für ein Ereignis eine maximale Wartezeit zu konfigu
 
 1. Wenn innerhalb des angegebenen Timeouts kein Ereignis empfangen wird, empfiehlt es sich, die Kontakte in einen Timeout-Pfad zu senden. Aktivieren Sie dazu die Option **[!UICONTROL Zeitüberschreitungspfad einrichten]**. In diesem Fall wird die Journey für den Kontakt fortgesetzt, sobald das Timeout erreicht ist. Wir empfehlen Ihnen, immer die Option **[!UICONTROL Zeitüberschreitungspfad einrichten]** zu aktivieren.
 
-   ![Konfiguration der maximalen Wartezeit für Ereignisse mit Optionen für Dauer und Pfad der maximalen Wartezeit](assets/event-timeout.png)
+   ![Konfiguration des Timeouts für Ereignisse mit Optionen für Timeout-Dauer und -Pfad](assets/event-timeout.png)
 
 In diesem Beispiel sendet die Journey erst dann eine Begrüßungs-E-Mail an eine Kundin oder einen Kunden, nachdem sie bzw. er die Lobby betreten hat. Es wird danach nur dann eine Essensrabatt-E-Mail gesendet, wenn die Kundin oder der Kunde das Restaurant innerhalb des nächsten Tages betritt. Deshalb wurde das Restaurantereignis mit einer maximalen Wartezeit von 1 Tag konfiguriert:
 
@@ -69,4 +69,4 @@ Die festgelegte maximale Wartezeit gilt für alle Ereignisse, die hinter der **[
 * Wird ein Ereignis innerhalb der maximalen Dauer der Zeitüberschreitung empfangen, gelangt der Kontakt in den Pfad des empfangenen Ereignisses.
 * Wenn innerhalb der maximalen Wartezeit kein Ereignis empfangen wird, gelangt der Kontakt in die Verzweigung für die maximale Wartezeit desjenigen Ereignisses, bei dem die maximale Wartezeit definiert wurde.
 
-![Mehrere Ereignisse mit Zeitüberschreitungskonfigurationen in Journey](assets/event-timeout-group.png)
+![Mehrere Ereignisse mit Timeout-Konfigurationen in der Journey](assets/event-timeout-group.png)

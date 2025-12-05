@@ -11,9 +11,9 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1983'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -82,9 +82,9 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 +++ _experience > decisioning > characteristics
 
 **Feld:** characteristics
-**title:** Merkmale der Entscheidungsoption
-**Beschreibung:** Merkmale sind die zusätzlichen Attribute oder Eigenschaften von Angeboten, die zu einer bestimmten Entscheidungsoption gehören. Bei diesen Attributen handelt es sich um Schlüssel-Wert-Paare, d. h. sie enthalten einen Attributnamen (manchmal auch als Schlüssel bezeichnet), dem ein Wert zugeordnet ist, und werden verwendet, um eine Entscheidungsoption von den anderen Angeboten zu unterscheiden. Bei einem Attributnamen „color“ kann der Wert beispielsweise für ein bestimmtes Angebot „green“ lauten.
-Merkmale werden als Werte im Inhalt verwendet, der diese Entscheidungsoption darstellt, sowie als Funktionen zur Analyse und Optimierung der Leistung eines Angebots. Wenn jede Instanz dasselbe Attribut oder dieselbe Eigenschaft hat, sollte dieser Aspekt als Erweiterungsschema modelliert werden, das aus den Details der Entscheidungsoption abgeleitet wird.
+**Titel:** Merkmale der Entscheidungsoption
+**Beschreibung:** Merkmale sind zusätzliche Attribute oder Eigenschaften von Angeboten, die zu einer bestimmten Entscheidungsoption gehören. Bei diesen Attributen handelt es sich um Schlüssel-Wert-Paare, d. h. sie enthalten einen Attributnamen (manchmal auch als Schlüssel bezeichnet), dem ein Wert zugeordnet ist, und werden verwendet, um eine Entscheidungsoption von den anderen Angeboten zu unterscheiden. Bei einem Attributnamen „color“ kann der Wert für ein bestimmtes Angebot beispielsweise „green“ lauten.
+Merkmale werden als Werte für Inhalt verwendet, der diese Entscheidungsoption darstellt, sowie als Funktionen zur Analyse und Optimierung der Effektivität eines Angebots. Wenn jede Instanz dasselbe Attribut oder dieselbe Eigenschaft besitzt, sollte dieser Aspekt als Erweiterungsschema modelliert werden, das aus den Details der Entscheidungsoptionen abgeleitet wird.
 **Typ:** Objekt
 
 +++
@@ -183,7 +183,7 @@ Merkmale werden als Werte im Inhalt verwendet, der diese Entscheidungsoption dar
   **Feld:** linkURL
   **Beschreibung:** Eine optionale, eindeutige URL für Benutzerinteraktionen. Diese URL wird verwendet, um den Endbenutzer auf einen User Agent zu verweisen, und kann verfolgt werden.
   **Typ:** Zeichenfolge
-  **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
+  **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
 
 +++_experience > decisioning > contents > Placement
 

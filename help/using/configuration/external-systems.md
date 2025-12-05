@@ -9,9 +9,9 @@ level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1805'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf d
 
 +++ Wie kann ich eine Begrenzungs- oder Drosselungsregel konfigurieren? Gibt es eine Standardregel?
 
-Informationen zum Erstellen von Begrenzungs- oder Einschränkungsregeln finden Sie in [diesem Abschnitt](../configuration/external-systems.md#capping). Für alle benutzerdefinierten Aktionen gibt es standardmäßig keine Einschränkungsregel, aber es ist eine Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Das Limit „pro Host“ gilt auf Domain-Ebene (z. B. example.com). Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Auf [dieser Seite](../action/about-custom-action-configuration.md) finden Sie weitere Informationen darüber, wie Sie Begrenzungen anfordern können.
+Informationen zum Erstellen von Begrenzungs- oder Einschränkungsregeln finden Sie in [diesem Abschnitt](../configuration/external-systems.md#capping). Für alle benutzerdefinierten Aktionen gibt es standardmäßig keine Einschränkungsregel, aber es ist eine Begrenzung von 300.000 Aufrufen innerhalb von einer Minute pro Host und Sandbox festgelegt. Das Limit „pro Host“ gilt auf Domain-Ebene (z. B. beispiel.com). Diese Beschränkung wurde auf Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API ein höheres Limit für die Begrenzung/Drosselung definieren. Weitere Informationen darüber, wie Sie höhere Begrenzungen anfordern können, finden Sie [auf dieser Seite](../action/about-custom-action-configuration.md).
 
 +++
 
@@ -130,21 +130,21 @@ Sie können in jeder Journey eine Zeitüberschreitungsdauer festlegen. Die Zeit�
 
 +++
 
-+++ Was ist der Egress-Proxy und wann sollte ich ihn verwenden?
++++ Was ist der Ausgangs-Proxy und wann muss ich ihn verwenden?
 
-Der Egress-Proxy bietet eine **statische IP-Adresse** für ausgehende Aufrufe von Journey Optimizer an Ihre externen Systeme. Verwenden Sie sie, wenn Ihre Drittanbieter-Endpunkte eine IP-Zulassungsauflistung erfordern.
+Der Ausgangs-Proxy stellt eine **statische IP-Adresse** für ausgehende Aufrufe von Journey Optimizer an Ihre externen Systeme bereit. Verwenden Sie ihn, wenn Ihre Drittanbieter-Endpunkte eine IP-Zulassungsauflistung erfordern.
 
-**Wichtig:** Der Ausgangs-Proxy steuert NICHT den Durchsatz, die Ratenbeschränkungen oder die Anzahl der gleichzeitigen Verbindungen. Um das Aufrufvolumen und die Verbindungsbeschränkungen zu verwalten, verwenden Sie die [Begrenzungs-API](capping.md) oder [Drosselungs-API](throttling.md).
+**Wichtig:** Der Ausgangs-Proxy steuert NICHT den Durchsatz, die Ratenbegrenzungen oder die Anzahl gleichzeitiger Verbindungen. Um das Aufrufvolumen und die Verbindungsbegrenzungen zu verwalten, verwenden Sie die [Begrenzungs-API](capping.md) oder die [Drosselungs-API](throttling.md).
 
-**Verwenden des Ausgangs-Proxys für:**
-* Zulassungsauflistung einer statischen IP-Adresse in der Firewall oder dem Endpunkt eines Drittanbieters
+**Verwenden Sie den Ausgangs-Proxy für:**
+* Zulassungsauflistung einer statischen IP-Adresse in der Firewall oder am Endpunkt eines Drittanbieters
 
-**Verwenden von Begrenzungs-/Drosselungs-APIs für:**
-* Anzahl der API-Aufrufe pro Sekunde begrenzen
-* Steuern gleichzeitiger Verbindungen zu Ihrem Endpunkt
+**Verwenden Sie Begrenzungs-/Drosselungs-APIs für:**
+* Begrenzung der API-Aufrufe pro Sekunde
+* Steuerung gleichzeitiger Verbindungen zum Endpunkt
 * Schutz des externen Systems vor Überlastung
 
-Wenden Sie sich an Adobe, um den Egress-Proxy für Ihr Unternehmen zu aktivieren, wenn Sie eine statische IP-Adresse für die Zulassungsauflistung benötigen.
+Wenden Sie sich an Adobe, um den Ausgangs-Proxy für Ihr Unternehmen zu aktivieren, wenn Sie eine statische IP-Adresse für die Zulassungsauflistung benötigen.
 
 +++
 

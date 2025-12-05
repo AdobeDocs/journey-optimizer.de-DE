@@ -8,9 +8,9 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -90,11 +90,11 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
 ## Weitere Ressourcen
 
-* **[Entscheidungselemente erstellen](items.md)** - Erfahren Sie, wie Sie Entscheidungselemente einschließlich Angeboten, Inhaltsvarianten und Erlebnissen erstellen und verwalten.
-* **[Entscheidungskataloge konfigurieren](catalogs.md)** - Erfahren Sie, wie Sie Entscheidungselemente in Katalogen organisieren, um das Management zu verbessern.
-* **[Auswahlstrategien definieren](selection-strategies.md)** - Erfahren Sie, wie Sie Auswahlstrategien mit Eignungsregeln und Ranking-Methoden erstellen.
-* **[Entscheidungsrichtlinien erstellen](create-decision-policy.md)** - Erfahren Sie, wie Sie Entscheidungsrichtlinien erstellen, die Strategien und Einschränkungen kombinieren.
-* **[Ranking- und KI](ranking/ranking.md)** Modelle - Übergeordnete Rangfolgeformeln und KI-Modelle für personalisierte Entscheidungen.
-* **[Entscheidungsleitplanken](decisioning-guardrails.md)** - Überprüfen Sie wichtige Einschränkungen und Best Practices für die Implementierung von Entscheidungen.
-* **[Entscheidungs-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Sehen Sie sich Schritt-für-Schritt-Video-Tutorials zu Entscheidungsfunktionen und Best Practices an.
+* **[Erstellen von Entscheidungselementen](items.md)**: Erfahren Sie, wie Sie Entscheidungselemente einschließlich Angebote, Inhaltsvarianten und Erlebnisse erstellen und verwalten.
+* **[Konfigurieren von Entscheidungskatalogen](catalogs.md)**: Erfahren Sie, wie Sie Entscheidungselemente zur Verbesserung der Verwaltung in Katalogen organisieren.
+* **[Definieren von Auswahlstrategien](selection-strategies.md)**: Erfahren Sie, wie Sie Auswahlstrategien mit Eignungsregeln und Rangfolgenmethoden erstellen.
+* **[Erstellen von Entscheidungsrichtlinien](create-decision-policy.md)**: Erfahren Sie, wie Sie Entscheidungsrichtlinien erstellen, in denen Strategien und Einschränkungen kombiniert werden.
+* **[Rangfolge und KI-Modelle](ranking/ranking.md)**: Setzen Sie übergeordnete Rangfolgenformeln und KI-Modelle für personalisierte Entscheidungsfindung ein.
+* **[Entscheidungsleitlinien](decisioning-guardrails.md)**: Lernen Sie wichtige Einschränkungen und Best Practices bei der Implementierung von Entscheidungsfindung kennen.
+* **[Tutorials zur Entscheidungsfindung](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}**: Erkunden Sie Video-Tutorials mit detaillierten Anleitungen zu Entscheidungsfunktionen und Best Practices.
 
