@@ -11,10 +11,10 @@ keywords: Aktivität, Bedingung, Arbeitsfläche, Journey, Optimierung
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1636'
-ht-degree: 100%
+source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
+workflow-type: tm+mt
+source-wordcount: '1662'
+ht-degree: 98%
 
 ---
 
@@ -120,6 +120,10 @@ Angenommen, Sie möchten drei Pfade vergleichen:
 Sobald die Journey live ist, werden die Benutzenden nach dem Zufallsprinzip zugewiesen, um verschiedene Pfade zu durchlaufen. [!DNL Journey Optimizer] verfolgt, welcher Pfad am besten abschneidet, und stellt verwertbare Erkenntnisse zur Verfügung.
 
 Verfolgen Sie den Erfolg Ihrer Journey mit dem Bericht zu Journey-Pfadexperimenten. [Weitere Informationen](../reports/journey-global-report-cja-experimentation.md)
+
+>[!CAUTION]
+>
+>Bearbeiten Sie nicht die Metadaten eines Pfadexperiments, nachdem es veröffentlicht wurde. Die Bearbeitung der Metadaten unterbricht die Berechnung und das Reporting der Experimentergebnisse.
 
 ### Anwendungsfälle für Experimente {#uc-experiment}
 
