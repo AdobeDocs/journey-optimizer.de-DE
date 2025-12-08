@@ -8,9 +8,9 @@ level: Intermediate
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 7bf0b3fbfe56ef8ae3a35be9aa604287f43d6d74
+source-git-commit: 54ed4dec71703a0444920baf4fb0a2d8318034cd
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,9 @@ Beide Komponenten sind für eine effektive [personalisierte Optimierungsmodelle]
 
 +++**Wie wirken sich Änderungen an Angebotssammlungen auf die automatische Optimierung oder personalisierte Optimierungsmodelle aus?**
 
-Beide Modelle liefern Traffic zum nächstbesten verfügbaren Angebot, das auf Traffic-Daten der letzten 30 Tage basiert.
+Das Modell mit automatischer Optimierung stellt Traffic zum nächstbesten verfügbaren Angebot bereit, basierend auf Traffic-Daten der letzten 14 Tage, unabhängig davon, ob das Modell mit personalisierter Optimierung Traffic-Daten der letzten 30 Tage verwendet.
 
-Wenn mehrere Angebote gleichzeitig entfernt werden und die verbleibenden Angebote innerhalb des 30-tägigen Fensters minimale Traffic-Daten haben, kann das Modell ein suboptimales Verhalten aufweisen, einschließlich zufälliger Verteilungsmuster oder Tendenzen zu Angeboten mit höheren Konversionsraten, die auf begrenzten Impression-Daten basieren.
+Wenn mehrere Angebote gleichzeitig entfernt werden und die verbleibenden Angebote innerhalb des 14- oder 30-tägigen Fensters minimale Traffic-Daten haben, kann das Modell ein suboptimales Verhalten aufweisen, einschließlich zufälliger Verteilungsmuster oder Tendenzen zu Angeboten mit höheren Konversionsraten auf der Grundlage begrenzter Impression-Daten.
 
 **Best Practice**: Wenn Sie Angebotssammlungen erheblich ändern, überprüfen Sie, ob die verbleibenden Angebote über ausreichende historische Leistungsdaten verfügen, um die Modelleffektivität aufrechtzuerhalten.
 
@@ -70,7 +70,7 @@ KI-Modelle identifizieren und beginnen mit dem Testen neu verfügbarer Angebote 
 
 Sobald sie identifiziert sind, beginnen beide Modelle sofort damit, einigen Besuchern die neuen Angebote zu unterbreiten, um ihre Leistung zu testen und Daten über ihre Effektivität zu sammeln.
 
-Erfahren Sie mehr über [automatische Optimierung](ranking/auto-optimization-model.md) und [personalisierte &#x200B;](ranking/personalized-optimization-model.md)).
+Erfahren Sie mehr über [automatische Optimierung](ranking/auto-optimization-model.md) und [personalisierte ](ranking/personalized-optimization-model.md)).
 
 +++
 
