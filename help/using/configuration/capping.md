@@ -8,10 +8,10 @@ role: Developer
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. 
 
 ## Beschreibung des Begrenzungs-APIs und Postman-Sammlung {#description}
 
-In der folgenden Tabelle sind die verfügbaren Befehle für das Begrenzungs-API aufgeführt. Ausführliche Informationen, einschließlich Anfragebeispielen, Parametern und Antwortformaten, finden Sie in der [Dokumentation zu den Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}.
+In der folgenden Tabelle sind die verfügbaren Befehle für das Begrenzungs-API aufgeführt. Ausführliche Informationen, einschließlich Anfragebeispielen, Parametern und Antwortformaten, finden Sie in der [Dokumentation zu den Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/){target="_blank"}.
 
 | Methode | Pfad | Beschreibung |
 |---|---|---|
