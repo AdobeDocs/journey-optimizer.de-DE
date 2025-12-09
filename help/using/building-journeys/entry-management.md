@@ -9,10 +9,10 @@ level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 # Profileintrittsverwaltung {#entry-management}
 
 Die Profileintrittsverwaltung hängt vom Typ der Journey ab. 
+
+>[!TIP]
+>
+>Auf der Suche nach praktischer Anleitung mit realen Beispielen? Lesen Sie unser [Handbuch zum Journey der Ein- und Ausstiegskriterien](entry-exit-criteria-guide.md), das Anwendungsfälle wie Willkommenskampagnen, die Wiederherstellung bei Transaktionsabbruch und Treueprogramme mit vollständigen Beispielen für die Ein- und Ausstiegskonfiguration umfasst.
 
 ## Journey-Typen {#types-of-journeys}
 
@@ -115,3 +119,10 @@ Für wiederkehrende Journeys vom Typ „Zielgruppe lesen“ stehen verschiedene 
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
 -->
+
+## Verwandte Themen
+
+* [Handbuch mit den Ein- und Ausstiegskriterien für Journey](entry-exit-criteria-guide.md) - Vollständiges Handbuch mit Beispielen und Best Practices aus der Praxis
+* [Beendigungskriterien konfigurieren](journey-properties.md#exit-criteria) - Festlegen, wann Profile Ihren Journey verlassen sollen
+* [Journey beenden](end-journey.md) - Verstehen, wie Journey schließen und beenden
+* [Journey-Anwendungsfälle](jo-use-cases.md) - Vollständige Beispiele mit Ein- und Ausstiegskonfigurationen anzeigen

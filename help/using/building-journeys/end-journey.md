@@ -9,14 +9,18 @@ level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '819'
-ht-degree: 100%
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 92%
 
 ---
 
 # Beenden einer Journey {#journey-ending}
+
+>[!TIP]
+>
+>Suchen Sie nach praktischen Anleitungen dazu, wann und wie Profile Journey-Profile verlassen sollten? Lesen Sie unser [Handbuch zum Journey der Ein- und Ausstiegskriterien](entry-exit-criteria-guide.md), das reale Ausstiegsszenarien, Best Practices und Konfigurationsanleitungen umfasst.
 
 ## Ende einer Live-Journey
 
@@ -105,3 +109,10 @@ Beim Stoppen wird der Journey-Status auf **[!UICONTROL Gestoppt]** gesetzt.
 >[!CAUTION]
 >
 >Die Berechtigungen zum Stoppen einer Journey sind auf Benutzende mit der Berechtigung **[!DNL Manage journeys]** auf hoher Ebene beschränkt. Weitere Informationen zur Verwaltung der Zugriffsrechte für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
+
+## Verwandte Themen
+
+* [Handbuch mit den Ein- und Ausstiegskriterien für Journey](entry-exit-criteria-guide.md) - Vollständiges Handbuch mit Beispielen und Best Practices aus der Praxis
+* [Verwaltung des Profileintritts](entry-management.md) - Konfigurieren, wie Profile in Journey eintreten
+* [Beendigungskriterien konfigurieren](journey-properties.md#exit-criteria) - Einrichten der automatischen Profilentfernung aus Journey
+* [Journey anhalten](journey-pause.md) - Journey-Ausführung vorübergehend anhalten

@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7ab576435c2605167ad1dd463ae5e7d5dc71c13c
+source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2997'
 ht-degree: 99%
 
 ---
@@ -121,6 +121,7 @@ ht-degree: 99%
    + Anwendungsfälle {#journey-use-cases}
       + [Anwendungsfälle](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Lernen durch Anwendungsfälle](using/building-journeys/jo-use-cases.md)
+      + [Ein- und Ausstiegskriterien für Journey](using/building-journeys/entry-exit-criteria-guide.md)
       + [Suchen nach Erlebnisereignissen](using/building-journeys/exp-event-lookup.md)
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/ajo-ac.md)
@@ -248,7 +249,7 @@ ht-degree: 99%
       + Gestalten von E-Mail-Inhalten {#design-email}
          + [Gestalten von E-Mail-Inhalten](/help/rp_landing_pages/design-email-landing-page.md)
          + [Gestalten von Nachrichteninhalten](using/start/message-content-design.md)
-         + [Erste Schritte beim Gestalten von E-Mails](using/email/get-started-email-design.md)
+         + [Erste Schritte mit E-Mail-Design](using/email/get-started-email-design.md)
          + Erste Schritte mit dem Erstellen von Inhalten {#start-creating-content}
             + [Erste Schritte mit dem Erstellen von Inhalten](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [Inhalte von Grund auf gestalten](using/email/content-from-scratch.md)
@@ -388,7 +389,7 @@ ht-degree: 99%
       + [Erstellen einer LINE-Nachricht](using/line/create-line.md)
       + [Überprüfen und Senden Ihrer LINE-Nachrichten](using/line/send-line.md)
    + Live-Aktivität {#live-activity}
-      + [Erste Schritte mit einer Live-Aktivität](using/mobile-live/get-started-mobile-live.md)
+      + [Erste Schritte mit Live-Aktivitäten](using/mobile-live/get-started-mobile-live.md)
       + [Erstellen einer Live-Aktivität](using/mobile-live/create-mobile-live.md)
       + [Häufig gestellte Fragen](using/mobile-live/mobile-live-faq.md)
       + Konfigurieren des Inhaltskartenkanals {#configure}

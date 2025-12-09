@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '2771'
-ht-degree: 100%
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+workflow-type: tm+mt
+source-wordcount: '2849'
+ht-degree: 97%
 
 ---
 
@@ -273,6 +273,10 @@ Durch Hinzufügen von Ausstiegskriterien sorgen Sie dafür, dass Profile die Jou
 
 Sie können Profile aus einer Journey entfernen, wenn sie nicht mehr dem Zweck der Journey entsprechen. Dies kann durch **globale Ausstiegskriterien** erreicht werden, die eng mit dem Ziel-Management verbunden sind.
 
+>[!TIP]
+>
+>Auf der Suche nach praktischer Anleitung mit realen Beispielen? Lesen Sie unser [Handbuch zum Journey der Ein- und Ausstiegskriterien](entry-exit-criteria-guide.md), das vollständige Anwendungsfälle mit Ein- und Ausstiegskonfigurationen, Best Practices und Optimierungsstrategien umfasst.
+
 **Beispiel für einen Anwendungsfall**
 
 Eine Marketing-Fachperson hat eine Werbe-Journey, die eine Reihe von Kommunikationsmaßnahmen umfasst. Jede dieser Kommunikationsmaßnahmen zielt darauf ab, die Kundschaft zum Kauf zu bewegen. Sobald der Kauf getätigt wurde, sollte die Kundin bzw. der Kunde die restlichen Nachrichten der Serie nicht mehr erhalten. Durch die Definition von Ausstiegskriterien werden alle Profile, die einen Kauf getätigt haben, aus der Journey entfernt.
@@ -331,6 +335,13 @@ Bei Verwendung der Funktion [Profilattributbasierte Ausstiegskriterien](#profile
 
    * In einem **Entwurf einer Journey** ist die Option *Profilattribut* deaktiviert (schreibgeschützt), während die Optionen *Ereignis* und *Zielgruppe* aktiv bleiben.
    * In einer **angehaltenen Journey** wird die Option *Profilattribut* bearbeitbar, während die Optionen *Ereignis* und *Zielgruppe* schreibgeschützt werden.
+
+### Verwandte Themen {#exit-criteria-related}
+
+* [Handbuch mit den Ein- und Ausstiegskriterien für Journey](entry-exit-criteria-guide.md) - Vollständiges Handbuch mit Beispielen und Best Practices aus der Praxis
+* [Verwaltung des Profileintritts](entry-management.md) - Konfigurieren, wie Profile in Journey eintreten
+* [Wie Journey enden](end-journey.md) - Verstehen Sie die natürliche Journey-Vervollständigung
+* [Journey mit Profilattribut-Beendigungskriterien anhalten](journey-pause.md#journey-exit-criteria) - Beim Anhalten von Journey Beendigungskriterien verwenden
 
 ## Journey-Zeitplan {#schedule}
 
