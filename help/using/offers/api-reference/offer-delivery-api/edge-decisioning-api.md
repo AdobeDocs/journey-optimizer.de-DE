@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+workflow-type: tm+mt
+source-wordcount: '935'
+ht-degree: 95%
 
 ---
 
@@ -54,6 +54,12 @@ Damit Sie das SDK verwenden können, muss ein [Schema](../../../data/get-started
 Um Angebote zu personalisieren, müssen Sie Ihre Personalisierung/Profile separat konfigurieren.
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
+
+>[!NOTE]
+>
+>**Übergeben von Kontextdaten in Edge Decisioning-Anfragen**
+>
+>Sie können Kontextdaten (z. B. Gerätetyp, Standort oder Benutzereinstellungen) in Ihren Edge-Entscheidungsanfragen übergeben, um dynamische Eignungsregeln zu erstellen und basierend auf Echtzeitbedingungen personalisierte Angebote bereitzustellen. [Erfahren Sie mehr über Kontextdaten und Edge-Entscheidungsanfragen](../../context-data-edge.md)
 
 Führen Sie einen der beiden folgenden Schritte aus, um das SDK für Entscheidungs-Management zu konfigurieren:
 

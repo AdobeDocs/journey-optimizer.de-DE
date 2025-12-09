@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '1051'
-ht-degree: 100%
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+workflow-type: tm+mt
+source-wordcount: '1094'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,12 @@ Mit dem Entscheidungs-Management können Sie personalisierte Angebotserlebnisse 
 Sie können Angebote erstellen und bereitstellen, indem Sie eine POST-Anfrage an die [!DNL Decisioning]-API senden.
 
 Dieses Tutorial erfordert ein Verständnis von APIs, insbesondere im Hinblick auf das Entscheidungs-Management. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Entscheidungs-Management-API](../getting-started.md). Für dieses Tutorial benötigen Sie außerdem Werte für eine eindeutige Platzierungs- und Entscheidungskennung. Wenn Sie diese Werte nicht erhalten haben, finden Sie in den Tutorials zum [Erstellen einer Platzierung](../offers-api/placements/create.md) und zum [Erstellen einer Entscheidung](../activities-api/activities/create.md) weitere Informationen.
+
+>[!NOTE]
+>
+>**Übergeben von Kontextdaten in Entscheidungsanfragen**
+>
+>Sie können Kontextdaten (z. B. Gerätetyp, Standort oder Benutzereinstellungen) in Ihren Entscheidungsanfragen übergeben, um dynamische Eignungsregeln zu erstellen und basierend auf Echtzeitbedingungen personalisierte Angebote bereitzustellen. [Erfahren Sie mehr über Kontextdaten und Entscheidungsanfragen](../../context-data-decisioning.md)
 
 ## Erforderliche Kopfzeilen {#required-headers}
 
@@ -222,7 +228,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/343541/?captions=ger&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Nächste Schritte {#next-steps}
 
