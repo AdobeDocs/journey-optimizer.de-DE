@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
+source-git-commit: 9894abfbc07268fea7c5081beaa93179cd63f689
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 87%
+source-wordcount: '451'
+ht-degree: 68%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 87%
 >title="Definieren der benutzerdefinierten Attribute"
 >abstract="Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente erstellt."
 
-Bei der Entscheidungsfindung dienen Kataloge als zentrale Container für die Organisation von Entscheidungselementen. Jeder Katalog ist mit einem Adobe Experience Platform-Schema verknüpft, das alle Attribute umfasst, die einem Entscheidungselement zugeordnet werden können.
+Bei der Entscheidungsfindung dienen Kataloge als zentrale Container für die Organisation von Entscheidungselementen. Jeder Katalog ist mit einem [!DNL Adobe Experience Platform] verknüpft, das alle Attribute umfasst, die einem Entscheidungselement zugewiesen werden können.
 
 Zunächst werden alle erstellten Entscheidungselemente in einem einzigen Katalog „Angebote“ konsolidiert, auf den über das Menü **[!UICONTROL Kataloge]** zugegriffen werden kann.
 
-![](assets/catalogs-list.png)
+![Elementkatalogliste mit dem Angebotskatalog](assets/catalogs-list.png)
 
 ## Leitlinien und Einschränkungen
 
@@ -34,7 +34,6 @@ Um eine optimale Leistung und Konsistenz sicherzustellen, werden bei der Entsche
 * **Unterstützte Datentypen**
 
   Derzeit unterstützt die Entscheidungsfindung ausschließlich die folgenden Datentypen: String, Integer, Boolean, Date, DateTime, Decisioning Asset und Object. Felder, die keinen dieser Datentypen besitzen, können beim Erstellen eines Entscheidungselements oder eines Katalogs nicht verwendet werden.
-
 
 * **Benutzerdefinierte Attributbegrenzung**
 
@@ -55,22 +54,18 @@ Gehen Sie folgendermaßen vor, um auf das Schema des Katalogs zuzugreifen, in de
    * Der **`_experience`**-Knoten enthält standardmäßige Entscheidungselementattribute wie Name, Start- und Enddatum sowie Beschreibung.
    * Der Knoten **`_<imsOrg>`** enthält Attribute für benutzerdefinierte Entscheidungselemente, wobei `<imsOrg>` durch den Namen Ihrer Organisation ersetzt wird (z. B. `_luma` für das Unternehmen Luma). Standardmäßig sind keine benutzerdefinierten Attribute konfiguriert. Es können jedoch beliebig viele hinzugefügt werden. Danach werden benutzerdefinierte Attribute auf dem Erstellungsbildschirm für Entscheidungselement neben den standardmäßigen Attributen angezeigt.
 
-   ![](assets/catalogs-schema.png)
+   ![Katalogschemastruktur mit Erlebnis- und Organisationsknoten](assets/catalogs-schema.png)
 
 1. Um dem Schema ein benutzerdefiniertes Attribut hinzuzufügen, erweitern Sie den Knoten Ihrer Organisation (z. B. **`_luma`**) und klicken Sie an der gewünschten Stelle in der Struktur auf die Schaltfläche &quot;+&quot;.
 
-   ![](assets/catalogs-add.png)
+   ![Schaltfläche „Benutzerdefiniertes Attribut hinzufügen“ im Schema-Editor](assets/catalogs-add.png)
 
 1. Füllen Sie die erforderlichen Felder für das hinzugefügte Attribut aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
-   Der Wert, der in ein Attribut mit einem Entscheidungs-Asset-Attribut eingegeben wird, ist eine öffentliche URL. In den meisten Fällen würde dies auf ein Bild hinweisen.
-
-   Detaillierte Informationen zum Arbeiten mit Adobe Experience Platform-Schemata sind im Abschnitt [XDM-Systemdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de) zu finden.
+   Der Wert, der für ein -Attribut mit einem decisioning-Asset-Attribut eingegeben wird, ist eine öffentliche URL. Meistens würde dies auf ein Bild verweisen. Ausführliche Informationen zum Arbeiten mit [!DNL Adobe Experience Platform] Schemata finden Sie in der [XDM-Systemdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de).
 
 1. Sobald die gewünschten benutzerdefinierten Attribute hinzugefügt sind, speichern Sie das Schema. Das neue Feld ist jetzt im Bildschirm zur Erstellung von Entscheidungselementen im Abschnitt **[!UICONTROL Benutzerdefinierte Attribute]** verfügbar.
 
-
    Das folgende Beispiel zeigt einen Bildschirm zur Erstellung von Elementen mit benutzerdefinierten Attributen wie Objekten, die im Schema definiert sind.
 
-   ![](assets/custom-attributes.png)
-
+   ![Bildschirm zur Erstellung von Entscheidungselementen mit dem Abschnitt „Benutzerdefinierte Attribute“](assets/custom-attributes.png)
