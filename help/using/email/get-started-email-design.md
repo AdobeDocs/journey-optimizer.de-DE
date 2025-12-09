@@ -86,4 +86,4 @@ Erfahren Sie, wie Sie mit dem Nachrichteneditor E-Mail-Inhalte erstellen.
 
 Erfahren Sie, wie Sie Inhaltsexperimente für A/B-Tests konfigurieren und E-Mail-Inhalte ausprobieren können, um Ihre Geschäftsziele bestmöglich zu erreichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419893)
+>[!VIDEO](https://video.tv.adobe.com/v/3447340?captions=ger)
