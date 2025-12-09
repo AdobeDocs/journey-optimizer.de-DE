@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 5d2903c1b5fe3e2fcc5d550d883629c884adeedf
+source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 97%
+source-wordcount: '426'
+ht-degree: 87%
 
 ---
 
@@ -53,11 +53,11 @@ Gehen Sie folgendermaßen vor, um auf das Schema des Katalogs zuzugreifen, in de
 1. Das Schema des Katalogs wird in einer neuen Registerkarte geöffnet, die der unten stehenden Struktur folgt:
 
    * Der **`_experience`**-Knoten enthält standardmäßige Entscheidungselementattribute wie Name, Start- und Enddatum sowie Beschreibung.
-   * Der **`_<imsOrg>`**-Knoten enthält benutzerdefinierte Entscheidungselemente. Standardmäßig sind keine benutzerdefinierten Attribute konfiguriert. Es können jedoch beliebig viele hinzugefügt werden. Danach werden benutzerdefinierte Attribute auf dem Erstellungsbildschirm für Entscheidungselement neben den standardmäßigen Attributen angezeigt.
+   * Der Knoten **`_<imsOrg>`** enthält Attribute für benutzerdefinierte Entscheidungselemente, wobei `<imsOrg>` durch den Namen Ihrer Organisation ersetzt wird (z. B. `_luma` für das Unternehmen Luma). Standardmäßig sind keine benutzerdefinierten Attribute konfiguriert. Es können jedoch beliebig viele hinzugefügt werden. Danach werden benutzerdefinierte Attribute auf dem Erstellungsbildschirm für Entscheidungselement neben den standardmäßigen Attributen angezeigt.
 
    ![](assets/catalogs-schema.png)
 
-1. Um dem Schema ein benutzerdefiniertes Attribut hinzuzufügen, erweitern Sie den Knoten **`_<imsOrg>`** und klicken Sie auf die Schaltfläche „+“ am gewünschten Speicherort in der Struktur.
+1. Um dem Schema ein benutzerdefiniertes Attribut hinzuzufügen, erweitern Sie den Knoten Ihrer Organisation (z. B. **`_luma`**) und klicken Sie an der gewünschten Stelle in der Struktur auf die Schaltfläche &quot;+&quot;.
 
    ![](assets/catalogs-add.png)
 
