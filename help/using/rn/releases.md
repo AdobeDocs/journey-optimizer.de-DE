@@ -1,75 +1,75 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizer-Versionszyklus
+title: Veröffentlichungszyklus von Adobe Journey Optimizer
 feature: Release Notes
-description: Grundlagen zum Adobe Journey Optimizer-Versionszyklus
+description: Grundlegendes zum Veröffentlichungszyklus von Adobe Journey Optimizer
 source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '920'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer-Versionszyklus {#releases}
+# Veröffentlichungszyklus von Journey Optimizer {#releases}
 
-[!DNL Adobe Journey Optimizer] wird regelmäßig aktualisiert, um neue Funktionen, Verbesserungen und Fehlerbehebungen bereitzustellen. Auf dieser Seite wird erläutert, wie der Veröffentlichungszyklus funktioniert und was jede Veröffentlichungsphase bedeutet, sodass Sie leicht verstehen können, wann Funktionen für Ihr Unternehmen verfügbar werden.
+[!DNL Adobe Journey Optimizer] wird regelmäßig aktualisiert, um neue Funktionen, Verbesserungen und Fehlerbehebungen bereitzustellen. Auf dieser Seite wird erläutert, wie der Veröffentlichungszyklus funktioniert und was jede Veröffentlichungsphase bedeutet, sodass Sie wissen, wann Funktionen für Ihr Unternehmen verfügbar werden.
 
-## Modell des fortlaufenden Versands {#continuous-delivery-model}
+## Modell kontinuierlicher Bereitstellung {#continuous-delivery-model}
 
-[!DNL Adobe Journey Optimizer] basiert auf einem kontinuierlichen Bereitstellungsmodell und ermöglicht so einen skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen. Dieses Modell ermöglicht es Adobe, Innovationen schneller bereitzustellen und kontinuierliche Stabilität und Leistung während des Rollouts sicherzustellen.
+[!DNL Adobe Journey Optimizer] basiert auf einem Modell kontinuierlicher Bereitstellung und ermöglicht so einen skalierbaren, schrittweisen Ansatz für die Implementierung von Funktionen. Dieses Modell ermöglicht es Adobe, Innovationen schneller bereitzustellen und kontinuierliche Stabilität und Leistung während des Rollouts sicherzustellen.
 
 >[!NOTE]
 >
-> Da [!DNL Adobe Journey Optimizer] fortlaufenden Versand verwendet, können neue Funktionen schrittweise über Organisationen oder Regionen hinweg angezeigt werden.
+> Da [!DNL Adobe Journey Optimizer] kontinuierliche Bereitstellung nutzt, werden neue Funktionen möglicherweise schrittweise über Organisationen oder Regionen hinweg verfügbar.
 
-Als Teil dieses Modells:
+Dieses Modell umfasst Folgendes:
 
-* Neue Funktionen und Verbesserungen werden in der Produktion bereitgestellt, sobald sie bereit sind.
+* Neue Funktionen und Verbesserungen werden in der Produktion bereitgestellt, sobald sie fertig sind.
 
-* Die [**Versionshinweise**](release-notes.md) werden zwischen den monatlichen Versionen mit dem Abschnitt _Neueste Updates_ aktualisiert, in dem neue Funktionen und Verbesserungen angekündigt werden, sobald sie eingeführt werden - damit Sie in Echtzeit auf dem Laufenden bleiben.
+* Die [**Versionshinweise**](release-notes.md) werden für die monatlichen Versionen mit einem Abschnitt namens _Neueste Aktualisierungen_ aktualisiert, in dem neue Funktionen und Verbesserungen angekündigt werden, sobald sie eingeführt werden. So bleiben Sie in Echtzeit auf dem Laufenden.
 
-## Veröffentlichungszeitpunkt und -kadenz {#release-timing}
+## Veröffentlichungszeitpunkt und -rhythmus {#release-timing}
 
-[!DNL Adobe Journey Optimizer] folgt in der Regel einem monatlichen Veröffentlichungsintervall, wobei Bereitstellungen normalerweise in der letzten Woche eines jeden Monats stattfinden. Die monatlichen Versionshinweise und die zugehörige Dokumentation werden Dienstag in der Veröffentlichungswoche veröffentlicht. Vorabversionshinweise werden freitags vor der Veröffentlichungswoche veröffentlicht.
+[!DNL Adobe Journey Optimizer] folgt in der Regel einem monatlichen Veröffentlichungsrhythmus, wobei Bereitstellungen normalerweise in der letzten Woche jedes Monats stattfinden. Die monatlichen Versionshinweise und die zugehörige Dokumentation werden am Dienstag in der Veröffentlichungswoche veröffentlicht. Vorab-Versionshinweise werden am Freitag vor der Veröffentlichungswoche veröffentlicht.
 
 >[!TIP]
 >
-> Am Ende eines jeden Quartals können Versionen bis zu zwei Wochen vor Monatsende erwartet und eingeführt werden, um sie an vierteljährliche Zeitpläne oder abhängige Produktversionen anzupassen.
+> Am Ende jedes Quartals können Versionen bis zu zwei Wochen vor Monatsende erwartet und eingeführt werden, um sie an vierteljährliche Zeitpläne oder abhängige Produktversionen anzupassen.
 
-Während die monatliche Version die wichtigsten neuen Funktionen und Fehlerbehebungen vorstellt, ermöglicht der Ansatz der kontinuierlichen Bereitstellung die Bereitstellung zusätzlicher Aktualisierungen zwischen Zyklen, wenn sie bereit sind. Die Versionshinweise werden dann entsprechend im Abschnitt _Neueste Updates_ aktualisiert, und das Verfügbarkeitsdatum wird angegeben. Alle Änderungen, die im Laufe des Monats veröffentlicht wurden, werden zum Veröffentlichungsdatum in den monatlichen Versionshinweisen zusammengefasst.
+Während die monatliche Version die wichtigsten neuen Funktionen und Fehlerbehebungen einführt, ermöglicht der Ansatz der kontinuierlichen Bereitstellung die Bereitstellung zusätzlicher Aktualisierungen zwischen Zyklen, wenn diese fertig sind. Die Versionshinweise werden dann entsprechend im Abschnitt _Neueste Aktualisierungen_ aktualisiert und das Verfügbarkeitsdatum wird angegeben. Alle im Laufe des Monats veröffentlichten Änderungen werden zum Veröffentlichungsdatum in den monatlichen Versionshinweisen zusammengefasst.
 
 
 ## Veröffentlichungspfade {#release-paths}
 
-Funktionen in Journey Optimizer folgen je nach Komplexität, Abhängigkeiten und Umfang unterschiedlichen Veröffentlichungspfaden. Die Plattform verwendet mehrere Verfügbarkeitskennzeichnungen (Beta, Eingeschränkte Verfügbarkeit, Allgemeine Verfügbarkeit), aber nicht alle Funktionen durchlaufen diese.
+Funktionen in Journey Optimizer folgen je nach Komplexität, Abhängigkeiten und Umfang unterschiedlichen Veröffentlichungspfaden. Die Plattform verwendet mehrere Verfügbarkeits-Labels (Beta, eingeschränkte Verfügbarkeit, allgemeine Verfügbarkeit), aber nicht alle Funktionen durchlaufen alle diese Phasen.
 
 Zu den gängigen Veröffentlichungspfaden gehören:
 
-* **Direkt zur allgemeinen Verfügbarkeit** - Einige neue Funktionen und Verbesserungen werden direkt zur allgemeinen Verfügbarkeit hinzugefügt.
-* **LA → GA** - Einige Funktionen stehen zunächst einer eingeschränkten Zielgruppe (eingeschränkte Verfügbarkeit) vor dem allgemeinen Rollout zur Verfügung.
-* **Beta → LA → GA** - Größere oder experimentelle Funktionen durchlaufen alle Test- und Validierungsphasen.
-* **Beta → GA** - Bestimmte stabile Beta-Funktionen können direkt auf GA umgestellt werden, ohne dass eine Zwischenphase erforderlich ist.
+* **Direkte allgemeine Verfügbarkeit**: Einige neue Funktionen und Verbesserungen werden direkt allgemein verfügbar gemacht.
+* **Eingeschränkte Verfügbarkeit → Allgemeine Verfügbarkeit**: Einige Funktionen stehen vor dem allgemeinen Rollout zunächst einer eingeschränkten Zielgruppe zur Verfügung (eingeschränkte Verfügbarkeit).
+* **Beta → Eingeschränkte Verfügbarkeit → Allgemeine Verfügbarkeit**: Größere oder experimentelle Funktionen durchlaufen alle Test- und Validierungsphasen.
+* **Beta → Allgemeine Verfügbarkeit**: Bestimmte stabile Beta-Funktionen können direkt allgemein verfügbar gemacht werden, ohne dass eine Zwischenphase mit eingeschränkter Verfügbarkeit erforderlich ist.
 
 >[!TIP]
 >
-> Wenn Sie an einem frühzeitigen Zugriff auf Funktionen in Beta oder einer eingeschränkten Verfügbarkeit interessiert sind, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um die Teilnahmeoptionen zu besprechen.
+> Wenn Sie an einem frühzeitigen Zugriff auf Funktionen in der Beta-Phase oder der Phase der eingeschränkten Verfügbarkeit interessiert sind, wenden Sie sich an den Adobe-Support, um die Teilnahmeoptionen zu besprechen.
 
 
-## Verfügbarkeitskennzeichnungen {#availability-labels}
+## Verfügbarkeits-Labels {#availability-labels}
 
-| **Titel** | **Zweck** | **Verfügbarkeit** | **Wichtige** |
+| **Label** | **Zweck** | **Verfügbarkeit** | **Wichtige Hinweise** |
 |------------|-------------|------------------|----------------|
-| **Beta** | Frühzeitige Tests und Feedback-Erfassung. | Beschränkung auf ausgewählte Kunden oder Organisationen, die am Beta-Programm von Adobe teilnehmen. | - nicht zur Verwendung in der Produktion bestimmt.<br>- Funktionalität oder Design können sich vor GA ändern.<br> - Feedback hilft, die endgültige Implementierung zu verfeinern. |
-| **Eingeschränkte Verfügbarkeit (LA)** | Kontrollierter Rollout für Validierung und Überwachung. | Nur für ausgewählte Kunden oder Umgebungen (z. B. Entwicklungs-Sandboxes) aktiviert. | - Produktionsbereit und vollständig unterstützt.<br> - Wird vor der allgemeinen Veröffentlichung zur Überprüfung der Leistung und Skalierbarkeit verwendet.<br> - Zugriff erfordert Adobe-Genehmigung. |
-| **Allgemeine Verfügbarkeit (GA)** | Umfassende Version der vollständig unterstützten Funktionen. | Standardmäßig für alle zulässigen Organisationen aktiviert. | - Produktionsbereit und vollständig unterstützt.<br> - Lizenzierung oder Berechtigungen können gelten.<br> - Kann schrittweise über Regionen hinweg eingeführt werden. |
+| **Beta** | Frühzeitige Tests und Sammlung von Feedback. | Beschränkt auf ausgewählte Kundinnen und Kunden oder Organisationen, die am Beta-Programm von Adobe teilnehmen. | – Nicht zur Verwendung in der Produktion bestimmt.<br>– Funktionalität oder Design können sich vor Übergang in die allgemeine Verfügbarkeit ändern.<br>– Feedback hilft, die endgültige Implementierung zu optimieren. |
+| **Eingeschränkte Verfügbarkeit** | Kontrolliertes Rollout für Validierung und Überwachung. | Nur für ausgewählte Kundinnen und Kunden oder Umgebungen (z. B. Entwicklungs-Sandboxes) aktiviert. | – Produktionsbereit und vollständig unterstützt.<br>– Wird vor der allgemeinen Veröffentlichung zur Überprüfung der Leistung und Skalierbarkeit verwendet.<br>– Zugriff erfordert Adobe-Genehmigung. |
+| **Allgemeine Verfügbarkeit** | Allgemeine Veröffentlichung der vollständig unterstützten Funktionen. | Standardmäßig für alle berechtigten Organisationen aktiviert. | – Produktionsbereit und vollständig unterstützt.<br> – Möglicherweise gelten Lizenzierung oder Berechtigungen.<br> – Wird möglicherweise schrittweise über Regionen hinweg eingeführt. |
 
 
 ## Rollout und Verfügbarkeit {#rollout}
 
-Selbst nach einer GA-Ankündigung kann der Rollout schrittweise über Organisationen oder Regionen hinweg erfolgen. Wenn eine neue Funktion nicht sofort in Ihrer Umgebung angezeigt wird, ist sie in der Regel innerhalb weniger Tage nach der Veröffentlichung verfügbar.
+Selbst nach einer Ankündigung einer allgemeinen Verfügbarkeit kann das Rollout schrittweise über Organisationen oder Regionen hinweg erfolgen. Wenn eine neue Funktion nicht sofort in Ihrer Umgebung angezeigt wird, ist sie in der Regel innerhalb weniger Tage nach der Veröffentlichung verfügbar.
 
-Dieser schrittweise Rollout hilft Adobe, die Stabilität, Leistung und Benutzerfreundlichkeit zu überwachen, bevor die Bereitstellung abgeschlossen wird.
+Dieses graduelle Rollout hilft Adobe, die Stabilität, Leistung und Benutzerfreundlichkeit zu überwachen, bevor die Bereitstellung abgeschlossen wird.
 
 
 ## Informiert bleiben {#staying-informed}
@@ -77,58 +77,58 @@ Dieser schrittweise Rollout hilft Adobe, die Stabilität, Leistung und Benutzerf
 So bleiben Sie auf dem neuesten Stand:
 
 * Lesen Sie die [**aktuellen Versionshinweise**](release-notes.md), um mehr über neue und aktualisierte Funktionen zu erfahren.
-* Lesen Sie **_Abschnitt „Neueste_**&quot; zwischen den monatlichen Versionen für Echtzeit-Bereitstellungen.
-* Überwachen Sie **Hinweise zur Vorabversion** (falls verfügbar), um eine Vorschau bevorstehender Funktionen anzuzeigen.
-* Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Informationen zu Beta oder eingeschränktem Verfügbarkeitszugriff oder Berechtigungen zu erhalten.
+* Lesen Sie den Abschnitt **_Neueste Aktualisierungen_** zwischen den monatlichen Versionen, um mehr über Echtzeit-Bereitstellungen zu erfahren.
+* Lesen Sie die **Vorab-Versionshinweise** (falls verfügbar), um eine Vorschau bevorstehender Funktionen zu erhalten.
+* Wenden Sie sich an den Adobe-Support, um Informationen zu Zugriff auf oder Berechtigungen für Beta-Funktionen oder Funktionen mit eingeschränkter Verfügbarkeit zu erhalten.
 
-Sie können **E-Mail- und produktinterne Warnhinweise** für Journey Optimizer-Produktversionen abonnieren. So abonnieren Sie sie:
+Sie können **Hinweise per E-Mail und im Produkt** für Journey Optimizer-Produktversionen abonnieren. So abonnieren Sie sie:
 
 1. Navigieren Sie zu den **Voreinstellungen für Adobe Experience Cloud**.
-1. Suchen Sie **Benachrichtigungen** nach **Journey Optimizer**
-1. Aktivieren **Neue Versionen** In-App- und E-Mail-Benachrichtigungen
+1. Suchen Sie unter **Benachrichtigungen** den Eintrag **Journey Optimizer**.
+1. Aktivieren Sie **Neue Versionen** in In-App- und E-Mail-Benachrichtigungen.
 
 ![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
 ## Häufig gestellte Fragen {#faq}
 
-Im Folgenden finden Sie häufig gestellte Fragen zum Adobe Journey Optimizer-Versionszyklus.
+Im Folgenden finden Sie häufig gestellte Fragen zum Veröffentlichungszyklus von Adobe Journey Optimizer.
 
 Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
 
 +++ Wann sind Adobe Journey Optimizer-Versionen geplant?
 
-[!DNL Adobe Journey Optimizer] veröffentlicht in der Regel Aktualisierungen in der letzten Woche jedes Monats. Am Ende jedes Quartals kann die Version um bis zu zwei Wochen erweitert werden, um lösungsübergreifende oder plattformübergreifende Aktualisierungen zu ermöglichen.
+[!DNL Adobe Journey Optimizer] veröffentlicht in der Regel Aktualisierungen in der letzten Woche jedes Monats. Am Ende jedes Quartals kann die Version um bis zu zwei Wochen vorgezogen werden, um lösungsübergreifende oder plattformübergreifende Aktualisierungen zu ermöglichen.
 
 +++
 
 +++ Warum sehe ich eine neue Funktion nicht sofort nach der Ankündigung?
 
-Einige GA-Funktionen werden schrittweise eingeführt, um die Stabilität und Leistung der Plattform sicherzustellen. Wenn eine Funktion nicht sofort angezeigt wird, wird sie angezeigt, sobald die Bereitstellung für Ihre Region oder Ihr Unternehmen abgeschlossen ist.
+Einige allgemein verfügbare Funktionen werden schrittweise eingeführt, um die Stabilität und Leistung der Plattform sicherzustellen. Wenn eine Funktion nicht sofort angezeigt wird, wird sie angezeigt, sobald die Bereitstellung für Ihre Region oder Ihre Organisation abgeschlossen ist.
 
 +++
 
 +++ Was ist der Unterschied zwischen Beta, eingeschränkter Verfügbarkeit und allgemeiner Verfügbarkeit?
 
 * **Beta**: Frühzeitige Testphase, eingeschränkter Zugriff, Feedback-basiert.
-* **Eingeschränkte Verfügbarkeit (LA)**: Kontrollierter Rollout zur endgültigen Validierung.
-* **Allgemeine Verfügbarkeit (GA)**: Vollständige Version für alle berechtigten Kunden.
+* **Eingeschränkte Verfügbarkeit**: Kontrolliertes Rollout zur endgültigen Validierung.
+* **Allgemeine Verfügbarkeit**: Vollständige Version für alle berechtigten Kundinnen und Kunden.
 
 +++
 
-+++ Gehen alle Funktionen über Beta und eingeschränkte Verfügbarkeit?
++++ Durchlaufen alle Funktionen eine Beta-Phase und eine Phase mit eingeschränkter Verfügbarkeit?
 
-Nein. Einige Funktionen werden je nach Art und Einsatzbereitschaft direkt für GA oder nur für LA veröffentlicht. Der Veröffentlichungspfad ist auf jede Funktion zugeschnitten, um Agilität, Qualität und Stabilität auszugleichen.
+Nein. Einige Funktionen werden je nach Art und Einsatzbereitschaft direkt allgemein oder nur eingeschränkt verfügbar gemacht. Der Veröffentlichungspfad ist auf jede Funktion zugeschnitten, um Agilität, Qualität und Stabilität zu gewährleisten.
 
 +++
 
-+++ Wie kann ich an Beta- oder eingeschränkten Verfügbarkeitsprogrammen teilnehmen?
++++ Wie kann ich an Beta-Programmen oder Programmen mit eingeschränkter Verfügbarkeit teilnehmen?
 
-Der Zugriff erfolgt auf Einladung oder Anfrage über Ihren Adobe-Support-Mitarbeiter. Die Beteiligung an der Entwicklung von Funktionen trägt dazu bei, sicherzustellen, dass Ihre Anwendungsfälle in der endgültigen Version berücksichtigt werden.
+Der Zugriff erfolgt auf Einladung oder Anfrage über den Adobe-Support. Die Teilnahme trägt zum Gestalten des Designs von Funktionen bei und stellt sicher, dass Ihre Anwendungsfälle in der endgültigen Version berücksichtigt werden.
 
 +++
 
 +++ Wie oft werden die Versionshinweise aktualisiert?
 
-Die Versionshinweise werden laufend aktualisiert. Über die monatlichen Versionen hinaus wird _Abschnitt „Neueste_&quot; aktualisiert, wenn neue Funktionen oder Verbesserungen in die Produktion verschoben werden.
+Die Versionshinweise werden laufend aktualisiert. Der Abschnitt _Neueste Aktualisierungen_ wird über die monatlichen Versionen hinaus aktualisiert, wenn neue Funktionen oder Verbesserungen für die Produktion veröffentlicht werden.
 
 +++

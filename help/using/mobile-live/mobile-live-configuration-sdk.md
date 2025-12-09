@@ -1,52 +1,52 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Konfigurieren des Live-Aktivitätskanals
-description: Erfahren Sie, wie Sie Ihre Adobe Experience Platform Mobile SDK-Integration konfigurieren
+title: Konfigurieren des Kanals für Live-Aktivitäten
+description: Informationen zum Konfigurieren Ihrer Adobe Experience Platform Mobile SDK-Integration
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
 source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Live-Aktivitätsintegration mit Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
+# Integration von Live-Aktivitäten mit Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
 >[!BEGINSHADEBOX]
 
 * [Erste Schritte mit Live-Aktivitäten](get-started-mobile-live.md)
-* [Konfiguration der Live-Aktivität](mobile-live-configuration.md)
-* **[Live-Aktivitätsintegration mit Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)**
+* [Konfiguration von Live-Aktivitäten](mobile-live-configuration.md)
+* **[Integration von Live-Aktivitäten mit Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)**
 * [Erstellen einer Live-Aktivität](create-mobile-live.md)
 * [Häufig gestellte Fragen](mobile-live-faq.md)
-* [Live-Kampagnenbericht](../reports/campaign-global-report-cja-activity.md)
+* [Bericht zu Kampagnen mit Live-Aktivitäten](../reports/campaign-global-report-cja-activity.md)
 
 
 >[!ENDSHADEBOX]
 
-Adobe Experience Platform Mobile SDK bietet integrierte Unterstützung für Live-Aktivitäten von Apple. Dadurch kann Ihre App dynamische Aktualisierungen in Echtzeit direkt auf dem Sperrbildschirm und auf Dynamic Island anzeigen, ohne die App zu öffnen.
+Das Adobe Experience Platform Mobile SDK bietet integrierte Unterstützung für Live-Aktivitäten von Apple. Dadurch kann Ihre App dynamische Aktualisierungen in Echtzeit direkt auf dem Sperrbildschirm und auf der Dynamic Island anzeigen, ohne dass die App geöffnet werden muss.
 
-1. [Erforderliche Module importieren](#import)
+1. [Importieren erforderlicher Module](#import)
 
-   Die folgenden Module importieren: **[!DNL AEPMessaging]**, **[!DNL AEPMessagingLiveActivity]**, **[!DNL ActivityKit]**.
+   Importieren Sie die folgenden Module: **[!DNL AEPMessaging]**, **[!DNL AEPMessagingLiveActivity]**, **[!DNL ActivityKit]**.
 
-1. [Attribute definieren](#attributes)
+1. [Definieren von Attributen](#attributes)
 
-   `LiveActivityAttributes` Sie die Attribute `LiveActivityData` und `ContentState` ein.
+   Nehmen Sie eine Anpassung an `LiveActivityAttributes` vor und schließen Sie die Attribute `LiveActivityData` und `ContentState` ein.
 
-1. [Live-Aktivitäten registrieren](#register)
+1. [Registrieren von Live-Aktivitäten](#register)
 
-   Verwenden Sie `Messaging.registerLiveActivity()` nach der Initialisierung von SDK.
+   Verwenden Sie `Messaging.registerLiveActivity()` nach der SDK-Initialisierung.
 
-1. [Widget-Konfiguration erstellen](#widget)
+1. [Erstellen einer Widget-Konfiguration](#widget)
 
-   Implementieren Sie `ActivityConfiguration` sowohl für den Sperrbildschirm als auch für die Dynamic Island-Schnittstelle.
+   Implementieren Sie `ActivityConfiguration` sowohl für den Sperrbildschirm als auch für die Dynamic Island-Oberfläche.
 
 1. [Lokales Starten einer Live-Aktivität (optional)](#local)
 
@@ -54,25 +54,25 @@ Adobe Experience Platform Mobile SDK bietet integrierte Unterstützung für Live
 
 1. [Hinzufügen von Debugging-Unterstützung (optional)](#debug)
 
-   Implementieren von `LiveActivityAssuranceDebuggable` für Assurance.
+   Implementieren Sie `LiveActivityAssuranceDebuggable` für Assurance.
 
-Stellen Sie sicher, dass die folgenden Mindestversionen installiert sind, um eine korrekte Konfiguration und Kompatibilität zu gewährleisten.
+Stellen Sie sicher, dass mindestens die folgenden Versionen installiert sind, um eine korrekte Konfiguration und Kompatibilität zu gewährleisten.
 
 >[!BEGINSHADEBOX]
 
 **Voraussetzungen:**
 
 * **iOS:**
-   * **iOS16.1 oder höher**: Grundlegende Funktionen für Live-Aktivitäten
-   * **iOS 17.2+**: Push-to-Start-Unterstützung
-   * **iOS 18+**: Unterstützung für Broadcast-Kanäle
+   * **iOS 16.1 oder höher**: Grundlegende Funktionen von Live-Aktivitäten
+   * **iOS 17.2 oder höher**: Push-to-Start-Unterstützung
+   * **iOS 18 oder höher**: Unterstützung für Übertragungskanäle
 * **Xcode:** 14.0 oder höher
 * **Swift:** 5.7 oder höher
 * **Abhängigkeiten:** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
 
 >[!ENDSHADEBOX]
 
-## Schritt 1: Erforderliche Module importieren {#import}
+## Schritt 1: Importieren der erforderlichen Module {#import}
 
 Zunächst müssen Sie die folgenden Module importieren: **[!DNL AEPMessaging]**, **[!DNL AEPMessagingLiveActivity]**, **[!DNL ActivityKit]**.
 
@@ -82,21 +82,21 @@ import AEPMessagingLiveActivity
 import ActivityKit
 ```
 
-## Schritt 2: Definieren Sie Ihre Live-Aktivitätsattribute {#attributes}
+## Schritt 2: Definieren Ihrer Live-Aktivitätsattribute {#attributes}
 
-Erstellen Sie eine Struktur, die dem `LiveActivityAttributes` entspricht. Dadurch werden sowohl die statischen Daten als auch der dynamische Inhaltsstatus für Ihre Live-Aktivität definiert.
+Erstellen Sie eine Struktur, die dem Protokoll `LiveActivityAttributes` entspricht. Dadurch werden sowohl die statischen Daten als auch der Status der dynamischen Inhalte für Ihre Live-Aktivität definiert.
 
 Zu den wichtigsten Komponenten gehören:
 
-* **`liveActivityData`** (erforderlich), das Adobe Experience Platform-spezifische Daten enthält.
-   * Für einzelne Benutzer: Verwenden Sie `LiveActivityData(liveActivityID: "unique-id")`
-   * Für Übertragung: `LiveActivityData(channelID: "channel-id")` verwenden
+* **`liveActivityData`** (erforderlich), enthält Adobe Experience Platform-spezifische Daten.
+   * Für einzelne Benutzende: Verwenden Sie `LiveActivityData(liveActivityID: "unique-id")`
+   * Für Übertragung: Verwenden Sie `LiveActivityData(channelID: "channel-id")`
 
-* Statische Attribute, benutzerdefinierte Eigenschaften, die für Ihren Anwendungsfall spezifisch sind, z. B. `restaurantName`.
+* Statische Attribute, benutzerdefinierte Eigenschaften, die für Ihren Anwendungsfall spezifisch sind, z. B. `restaurantName`.
 
-* **`ContentState`** definiert dynamische Daten, die während des Lebenszyklus der Live-Aktivität aktualisiert werden können. Sie muss `Codable` und `Hashable` entsprechen.
+* **`ContentState`** definiert dynamische Daten, die während des Lebenszyklus der Live-Aktivität aktualisiert werden können. Sie müssen `Codable` und `Hashable` entsprechen.
 
-* `LiveActivityOrigin` Auflistung gibt an, ob eine Aktivität lokal in der App oder remote über eine Push-to-Start-Benachrichtigung initiiert wurde, die in iOS 17.2 und höher unterstützt wird. Dieser Wert ermöglicht es dem SDK, bei der Datenerfassung zwischen lokal initiierten und remote ausgelösten Live-Aktivitäten zu unterscheiden.
+* Die Auflistung `LiveActivityOrigin` gibt an, ob eine Aktivität lokal in der App oder remote über eine Push-to-Start-Benachrichtigung initiiert wurde; wird in iOS 17.2 und höher unterstützt. Dieser Wert ermöglicht es dem SDK, bei der Datenerfassung zwischen lokal initiierten und remote ausgelösten Live-Aktivitäten zu unterscheiden.
 
 **Beispiele**
 
@@ -134,7 +134,7 @@ public struct LiveActivityData: Codable {
 }
 ```
 
-Sie können auch mehrere Live-Aktivitätstypen für Ihre App registrieren:
+Sie können auch mehrere Typen an Live-Aktivitäten für Ihre App registrieren:
 
 ```swift
 if #available(iOS 16.1, *) {
@@ -144,12 +144,12 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Schritt 3: Live-Aktivitäten registrieren {#register}
+## Schritt 3: Registrieren von Live-Aktivitäten {#register}
 
-Registrieren Sie Ihre Live-Aktivitätstypen in Ihrem `AppDelegate` nach der Initialisierung von SDK. So können Sie:
+Registrieren Sie die Typen Ihrer Live-Aktivitäten in `AppDelegate` nach der SDK-Initialisierung. Das ermöglicht Ihnen Folgendes:
 
-* Aktiviert die automatische Push-to-Start-Token-Erfassung (iOS 17.2+)
-* Erfasst automatisch Aktualisierungstoken für Live-Aktivitäten
+* Aktiviert die automatische Push-to-Start-Token-Erfassung (iOS 17.2 und höher)
+* Erfasst automatisch Aktualisierungs-Token für Live-Aktivitäten
 * Ermöglicht Lebenszyklus-Management und Ereignis-Tracking
 
 **Beispiel für eine Live-Aktivität eines Lebensmittelversands:**
@@ -160,9 +160,9 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Schritt 4: Erstellen von Live-Aktivitäts-Widgets {#widgets}
+## Schritt 4: Erstellen von Widgets für Live-Aktivitäten {#widgets}
 
-Live-Aktivitäten werden über Widgets angezeigt. Sie müssen ein Widget-Bundle und eine Konfiguration erstellen:
+Live-Aktivitäten werden über Widgets angezeigt. Sie müssen ein Widget-Paket und eine Widget-Konfiguration erstellen:
 
 **Beispiel für eine Live-Aktivität eines Lebensmittelversands:**
 
@@ -199,7 +199,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## Schritt 5: Live-Aktivität lokal starten (optional) {#local}
+## Schritt 5: Lokales Starten einer Live-Aktivität (optional) {#local}
 
 Journey Optimizer kann Live-Aktivitäten zwar remote starten, Sie können sie aber auch lokal starten:
 
@@ -222,9 +222,9 @@ let activity = try Activity<FoodDeliveryLiveActivityAttributes>.request(
 )
 ```
 
-## Schritt 6: Hinzufügen von Debugging-Unterstützung (optional) {#debug}
+## Schritt 6: Hinzufügen von Debugging-Unterstützung (optional) {#debug}
 
-Bei Bedarf können Sie Live-Aktivitätsschemata in Adobe Assurance debuggen:
+Bei Bedarf können Sie Schemata von Live-Aktivitäten in Adobe Assurance debuggen:
 
 **Beispiel für eine Live-Aktivität eines Lebensmittelversands:**
 

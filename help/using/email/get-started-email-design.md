@@ -10,19 +10,19 @@ level: Beginner, Intermediate
 keywords: E-Mail, Design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit dem E-Mail-Design {#get-started-content-design}
+# Erste Schritte mit E-Mail-Design {#get-started-content-design}
 
-Um auf die E-Mail-Designer zuzugreifen und mit der Gestaltung Ihres E-Mail-Inhalts zu beginnen[&#x200B; müssen Sie zunächst eine E-Mail &#x200B;](create-email.md) einer Journey oder Kampagne erstellen.
+Um auf den E-Mail-Designer zuzugreifen und mit der Gestaltung Ihres E-Mail-Inhalts zu beginnen, müssen Sie zunächst eine E-Mail in einer Journey oder Kampagne [erstellen](create-email.md).
 
-Anschließend können Sie [!DNL Journey Optimizer]Funktionen zum **von E-Mails** verwenden, um vorhandene Inhalte zu importieren oder von Grund auf responsive E-Mails zu erstellen. [Weitere Informationen](content-from-scratch.md)
+Anschließend können Sie die Funktionen zum **Entwerfen von E-Mails** in [!DNL Journey Optimizer] verwenden, um vorhandene Inhalte zu importieren oder responsive E-Mails von Grund auf neu zu erstellen. [Weitere Informationen](content-from-scratch.md)
 
-E-Mail-Designer bietet Ihnen außerdem folgende Möglichkeiten:
+Der E-Mail-Designer bietet Ihnen außerdem folgende Möglichkeiten:
 
 * Nutzen Sie die Möglichkeiten von **Adobe Experience Manager Assets Essentials**, um Ihre E-Mails zu gestalten und um Ihre eigene Asset-Datenbank zu erstellen und verwalten. [Weitere Informationen](../integrations/assets.md)
 
@@ -34,7 +34,7 @@ E-Mail-Designer bietet Ihnen außerdem folgende Möglichkeiten:
 
 ## Wichtige Schritte zum Erstellen von E-Mail-Inhalten {#key-steps}
 
-Nachdem Sie eine E-Mail erstellt haben, können Sie mit der Gestaltung Ihres E-Mail-Inhalts beginnen.
+Nachdem Sie eine E-Mail erstellt haben, können Sie mit dem Gestalten Ihres E-Mail-Inhalts beginnen.
 
 1. Verwenden Sie im Konfigurationsbildschirm der Journey oder der Kampagne den Bildschirm **[!UICONTROL Inhalt bearbeiten]**, um auf den E-Mail-Designer zuzugreifen. [Weitere Informationen](create-email.md#define-email-content)
 
@@ -86,4 +86,4 @@ Erfahren Sie, wie Sie mit dem Nachrichteneditor E-Mail-Inhalte erstellen.
 
 Erfahren Sie, wie Sie Inhaltsexperimente für A/B-Tests konfigurieren und E-Mail-Inhalte ausprobieren können, um Ihre Geschäftsziele bestmöglich zu erreichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447340?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
