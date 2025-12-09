@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 9894abfbc07268fea7c5081beaa93179cd63f689
+source-git-commit: 86145ff79de58391cc31c9b1a4bd34135868920e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '453'
 ht-degree: 68%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 68%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
->title="Definieren der benutzerdefinierten Attribute"
+>title="Abrufen und Bearbeiten des Katalogschemas"
 >abstract="Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente erstellt."
 
 Bei der Entscheidungsfindung dienen Kataloge als zentrale Container für die Organisation von Entscheidungselementen. Jeder Katalog ist mit einem [!DNL Adobe Experience Platform] verknüpft, das alle Attribute umfasst, die einem Entscheidungselement zugewiesen werden können.
