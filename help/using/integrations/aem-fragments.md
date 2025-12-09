@@ -48,11 +48,11 @@ Beachten Sie die folgenden Einschränkungen beim Arbeiten mit Adobe Experience M
 
 Die Integration zwischen Adobe Experience Manager und Journey Optimizer folgt diesem Datenfluss:
 
-1. **[Erstellen und Verfassen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: Inhalte werden in Adobe Experience Manager als Inhaltsfragmente erstellt und konfiguriert.
+1. **[Erstellen und Verfassen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: Inhalte werden in Adobe Experience Manager als Inhaltsfragmente erstellt und konfiguriert.
 
-1. **[Tagging](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: Inhaltsfragmente müssen mit dem Journey Optimizer-spezifischen Tag (`ajo-enabled:{OrgId}/{SandboxName}`) getaggt werden.
+1. **[Tagging](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: Inhaltsfragmente müssen mit dem Journey Optimizer-spezifischen Tag (`ajo-enabled:{OrgId}/{SandboxName}`) getaggt werden.
 
-1. **[Veröffentlichen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: Inhaltsfragmente werden in Adobe Experience Manager veröffentlicht und stehen damit Journey Optimizer zur Verfügung.
+1. **[Veröffentlichen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: Inhaltsfragmente werden in Adobe Experience Manager veröffentlicht und stehen damit Journey Optimizer zur Verfügung.
 
 1. **[Zugriff](#aem-add)**: Journey Optimizer ruft verfügbare Inhaltsfragmente aus der Adobe Experience Manager-Veröffentlichungsinstanz in Echtzeit ab und zeigt sie an.
 
