@@ -56,7 +56,7 @@ Im Gegensatz zur Übergabe von Kontext in einem freien Format mithilfe der Decis
 
 1. Erstellen Sie einen Datensatz (hier „Angebotskontext“) und stellen Sie sicher, dass er für das Profil aktiviert ist.
 
-1. Erstellen Sie über das Menü **[!UICONTROL Datenerfassung]** > **[!UICONTROL Datenströme]** einen neuen Datenstrom. Im Handbuch zu Datenströmen erfahren Sie[!DNL Adobe Experience Platform] wie Sie [ Datenstrom erstellen und konfigurieren](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure){target="_blank"}
+1. Erstellen Sie über das Menü **[!UICONTROL Datenerfassung]** > **[!UICONTROL Datenströme]** einen neuen Datenstrom. Im Handbuch zu Datenströmen erfahren Sie[!DNL Adobe Experience Platform] wie Sie [&#x200B; Datenstrom erstellen und konfigurieren](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure){target="_blank"}
 
    Hier wurde ein „Angebotskontext“-Datenstrom erstellt, in dem das Ereignisschema „Angebotsinhalt“ ausgewählt ist.
 
