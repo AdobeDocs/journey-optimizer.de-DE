@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: Erstellen eines Datensatzes zum Erfassen von Ereignissen
 description: Erfahren Sie, wie Sie einen Datensatz erstellen, um Ereignisse zu erfassen.
-feature: Ranking, Decision Management, Datasets
+feature: Ranking, Datasets, Decisioning
 role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
-workflow-type: ht
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
