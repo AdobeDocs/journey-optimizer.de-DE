@@ -1,30 +1,30 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AJO-Rollen und -Verantwortlichkeiten
+title: Rollen und Verantwortlichkeiten
 description: Erfahren Sie mehr über die verschiedenen Rollen in Adobe Journey Optimizer und die jeweiligen Verantwortlichkeiten
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 100%
+source-wordcount: '638'
+ht-degree: 86%
 
 ---
 
 
-# AJO-Rollen und -Verantwortlichkeiten
+# Rollen und Verantwortlichkeiten
 
-Adobe Journey Optimizer (AJO) ermöglicht es Marken, während des gesamten Kundenlebenszyklus vernetzte und kontextualisierte Kunden-Journeys bereitzustellen. Teams wird ermöglicht, Interaktionen im benötigten Umfang zu personalisieren und die Erwartungen der Kundschaft an Geschäftszielen auszurichten. In dieser Dokumentation werden die zentralen Rollen und ihre effektive Verwendung von Journey Optimizer sowie ihre Verantwortlichkeiten und die ersten Schritte erklärt.
+Adobe Journey Optimizer ermöglicht es Marken, während des gesamten Kundenlebenszyklus vernetzte und kontextualisierte Kunden-Journey bereitzustellen. Teams wird ermöglicht, Interaktionen im benötigten Umfang zu personalisieren und die Erwartungen der Kundschaft an Geschäftszielen auszurichten. In dieser Dokumentation werden die zentralen Rollen und ihre effektive Verwendung von Journey Optimizer sowie ihre Verantwortlichkeiten und die ersten Schritte erklärt.
 
 **Wichtiger Hinweis:** Adobe Journey Optimizer definiert verschiedene Rollen mit bestimmten Verantwortlichkeiten. Eine einzelne Person kann mehrere oder alle Rollen einnehmen, je nach Struktur Ihrer Organisation.
 
 ## Rollenbasierte Schnellstartanleitungen
 
-Um die Implementierung zu vereinfachen, organisiert AJO Aufgaben je nach Fachwissen in bestimmten Rollen. Jede Rolle konzentriert sich auf zentrale Aufgaben, die für ein nahtloses Kundenerlebnis erforderlich sind.
+Um die Implementierung zu vereinfachen, organisiert Adobe Journey Optimizer Aufgaben auf der Grundlage von Fachwissen in bestimmte Rollen. Jede Rolle konzentriert sich auf zentrale Aufgaben, die für ein nahtloses Kundenerlebnis erforderlich sind.
 
 | Rolle | Primäre Verantwortlichkeiten | Wichtige Kenntnisse | Typische Aufgaben |
 |-------------------|----------------------------------|--------------------------------|-----------------------------------------------|
@@ -33,7 +33,7 @@ Um die Implementierung zu vereinfachen, organisiert AJO Aufgaben je nach Fachwis
 | **Entwickler** | Technische Integrationen und Anpassungen | Mobile-Entwicklung, API-Implementierung, Codierung | Integrieren von Mobile Apps, Implementieren von APIs, Erstellen benutzerdefinierter Aktionen |
 | **Marketing-Fachkraft** | Entwerfen und Ausführen von Kunden-Journeys | Marketing-Strategie, Inhaltserstellung, Journey-Design | Erstellen von Kampagnen, Entwerfen von Journeys, Analysieren von Berichten |
 
-Jede Rolle ist für eine bestimmte Phase der AJO-Implementierung zuständig und sorgt für einen strukturierten und effizienten Bereitstellungsprozess.
+Jede Rolle behandelt eine bestimmte Phase der Adobe Journey Optimizer-Implementierung und stellt einen strukturierten und effizienten Bereitstellungsprozess sicher.
 
 ## Reihenfolge bei der Implementierung und Rollenabhängigkeiten
 
@@ -53,7 +53,7 @@ Eine erfolgreiche Journey Optimizer-Implementierung folgt normalerweise dieser S
    * Erstellen von Testprofilen
 
 3. **Entwickler**: Ist für technische Integrationen zuständig\
-   Entwicklerinnen und Entwickler ermöglichen AJO die Interaktion mit Mobile Apps, Websites und externen Systemen, indem sie technische Integrationen implementieren. Beispielsweise beruhen Push-Benachrichtigungen auf Konfigurationen, die von Entwicklerinnen und Entwicklern vorgenommen wurden.
+   Entwickler ermöglichen Adobe Journey Optimizer die Interaktion mit mobilen Apps, Websites und externen Systemen, indem sie technische Integrationen implementieren. Beispielsweise beruhen Push-Benachrichtigungen auf Konfigurationen, die von Entwicklerinnen und Entwicklern vorgenommen wurden.
    * Integrieren von Mobile Apps für Push-Benachrichtigungen
    * Implementieren von Web SDKs
    * Entwickeln benutzerdefinierter Integrationen mithilfe von APIs
@@ -82,7 +82,7 @@ Jede Rolle beginnt mit bestimmten Aufgaben entsprechend ihres Schwerpunkts. Durc
    Beispiel: Konfigurieren von Sandbox-Umgebungen zum Testen verschiedener Messaging-Strategien.
 
 4. **Für Entwickelnde**: Integrieren Sie Mobile Apps, implementieren Sie APIs und erstellen Sie benutzerdefinierte Integrationen.\
-   Beispiel: Verwenden des AJO-API, um Trigger-Push-Benachrichtigungen basierend auf Kundenaktionen in Ihrer Mobile App zu senden.
+   Beispiel: Verwenden Sie die Adobe Journey Optimizer-API, um Trigger-Push-Benachrichtigungen basierend auf Kundenaktionen in Ihrer Mobile App zu senden.
 
 Klicken Sie unten auf Ihre Rolle, um auf spezifische Anleitungen zuzugreifen, die auf Ihre Verantwortlichkeiten zugeschnitten sind:
 
@@ -94,7 +94,7 @@ Klicken Sie unten auf Ihre Rolle, um auf spezifische Anleitungen zuzugreifen, di
 
 Weitere Informationen zu den wichtigsten Funktionen und Personas von Journey Optimizer finden Sie im Einführungsvideo. Das Video führt Sie durch die Benutzeroberfläche und hebt je nach rollenspezifischen Workflows zentrale Funktionen hervor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432377?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Weitere Ressourcen
 

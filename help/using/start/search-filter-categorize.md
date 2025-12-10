@@ -8,14 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 452a0a3a08a7b90d0e3a5b78b2e16f532f04ef1a
-workflow-type: ht
-source-wordcount: '577'
-ht-degree: 100%
+source-git-commit: 26f9228bacee5865cbc368cf2e3db02370d43a4b
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 90%
 
 ---
 
 # Suchen, Filtern, Organisieren {#search-filter-organize}
+
+Wenn Ihre Adobe Journey Optimizer-Projekte wachsen, wird das Suchen und Organisieren von Inhalten für effizientes Arbeiten unerlässlich. Auf dieser Seite erfahren Sie, wie Sie Journey, Kampagnen und Assets mithilfe der universellen Suche schnell finden, Listen filtern, um sich auf bestimmte Elemente zu konzentrieren, und Ihre Arbeit mit Tags und Kategorien organisieren können. Mit diesen Tools können Sie durch große Inhaltsmengen navigieren, die Konsistenz über alle Teams hinweg gewährleisten und Ihre täglichen Workflows optimieren.
 
 ## Suche {#unified-search}
 

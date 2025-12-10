@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c936f42c8b5d96bd5a7e0ccb36ecdb0d9b2e9957
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 33%
+source-wordcount: '1103'
+ht-degree: 34%
 
 ---
 
@@ -21,7 +21,7 @@ Um auf Adobe Journey Optimizer zuzugreifen, melden Sie sich bei [Adobe Experienc
 
 >[!NOTE]
 >
->* Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen hängen von Ihren [&#x200B; (Berechtigungen](../administration/permissions.md) und [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab.
+>* Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen hängen von Ihren [ (Berechtigungen](../administration/permissions.md) und [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab.
 >* Diese Dokumentation wird häufig aktualisiert. Einige Screenshots können leicht von Ihrer Benutzeroberfläche abweichen.
 
 ## kurzer Überblick {#quick-tour}
@@ -44,51 +44,49 @@ Im linken Navigationsbereich sind Journey Optimizer-Funktionen in funktionale Ka
 **Home** - Ihr Ausgangspunkt mit schnellem Zugriff auf kürzlich erstellte Elemente und hilfreiche Ressourcen
 
 **Journey-**: Kundenerlebnisse erstellen und verwalten
-* **Kampagnen** - Erstellen Sie einmalige oder geplante Nachrichten für bestimmte Zielgruppen
-* **Journey** - Erstellen mehrstufiger, kanalübergreifender Kundenerlebnisse
-* **Berichte** - Leistungsanalyse mit integriertem Customer Journey Analytics-Reporting
+* **Kampagnen** - Erstellen Sie einmalige oder geplante Nachrichten für bestimmte Zielgruppen. [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)
+* **Journey** - Erstellen Sie mehrstufige, kanalübergreifende Kundenerlebnisse. [Erstellen Ihrer ersten Journey](../building-journeys/journey-gs.md)
+* **Berichte** - Leistungsanalyse mit integriertem Customer Journey Analytics-Reporting. [Anzeigen der Reporting-Dokumentation](../reports/campaign-global-report.md)
 
-**Entscheidungs-Management** - Verwalten personalisierter Angebote
+**Entscheidungs-Management** - Verwalten personalisierter Angebote. [Erfahren Sie mehr über Entscheidungs-Management](../offers/get-started/starting-offer-decisioning.md)
 * **Angebote** - Personalisierte Angebote erstellen und verwalten
 * **Komponenten**: Richten Sie Platzierungen, Regeln und Tags für Angebote ein.
 
 **Content-Management** - Erstellen und Organisieren von Inhalten
-* **Assets** - Zentralisiertes Repository für Bilder und Medien
-* **Inhaltsvorlagen** - Wiederverwendbare Nachrichtenvorlagen für Kampagnen und Journey
-* **Fragmente** - Inhaltsblöcke, die über mehrere Nachrichten hinweg verwendet werden können
-* **Landingpages** - Web-Formulare für Abonnements und Voreinstellungen
+* **Assets** - Zentralisiertes Repository für Bilder und Medien. [Verwalten von Assets](../content-management/assets.md)
+* **Inhaltsvorlagen** - Wiederverwendbare Nachrichtenvorlagen für Kampagnen und Journey. [Erstellen von Vorlagen](../content-management/content-templates.md)
+* **Fragmente** - Inhaltsblöcke, die über mehrere Nachrichten hinweg verwendet werden können. [Arbeiten mit Fragmenten](../content-management/fragments.md)
+* **Landingpages** - Web-Formulare für Abonnements und Voreinstellungen. [Landingpages entwerfen](../landing-pages/get-started-lp.md)
 
-**Daten-Management** - Verwalten der Datengrundlage
+**Daten-Management** - Verwalten Sie Ihre Datengrundlage. [Erfahren Sie mehr über Schemata und Datensätze](../data/get-started-schemas.md)
 * **Schemata** - Definieren der Datenstruktur
 * **Datensätze** - Speichern und Verwalten von Datenerfassungen
 * **Abfragen** - Schreiben und Ausführen von Abfragen
 * **Überwachung** - Verfolgen der Datenaufnahme
 
 **Verbindungen** - Integration mit anderen Systemen
-* **Quellen** - Aufnehmen von Daten aus externen Systemen
-* **Ziele** - Exportieren von Daten in den Cloud-Speicher
+* **Quellen** - Aufnehmen von Daten aus externen Systemen. [Quellen konfigurieren](../data/get-started-sources.md)
+* **Ziele** - Exportieren von Daten in den Cloud-Speicher. [Ziele einrichten](../data/export-datasets.md)
 
 **Kunde** - Zielgruppen und Profile verwalten
-* **Zielgruppen** - Kundensegmente erstellen und verwalten
-* **Abonnementlisten** - Verwalten von Opt-in-Listen
-* **Profile** - Anzeigen einheitlicher Kundenprofile
-* **Identitäten** - Verwalten der Identitätsauflösung
+* **Audiences** - Erstellen und Verwalten von Kundensegmenten. [Arbeiten mit Audiences](../audience/about-audiences.md)
+* **Abonnementlisten** - Verwalten von Opt-in-Listen. [Abonnements verwalten](../landing-pages/subscription-list.md)
+* **Profile** - Anzeigen einheitlicher Kundenprofile. [Erkunden von Profilen](../audience/get-started-profiles.md)
+* **Identitäten** - Verwalten der Identitätsauflösung. [Erfahren Sie mehr über Identitäten](../audience/get-started-identity.md)
 
-**Datenschutz** - Kontrolle von Datenschutz und Compliance
+**Datenschutz** - Kontrollieren Sie Datenschutz und Compliance. [Datenschutz – Übersicht](../privacy/get-started-privacy.md)
 * **Richtlinien** - Definieren von Data-Governance-Richtlinien
 * **Anfragen** - Verarbeiten von Datenschutzanfragen (DSGVO, CCPA)
-* **Audit** - Überprüfen der Aktivitätsprotokolle
+* **Audit** - Überprüfen Sie die Aktivitätsprotokolle. [Audit-Protokolle anzeigen](../privacy/audit-logs.md)
 * **Datenlebenszyklus** - Konfigurieren der Datenaufbewahrung
 
-**Administration** - Systemeinstellungen konfigurieren
-* **Konfigurationen** - Einrichten von Ereignissen, Datenquellen und Aktionen
-* **Geschäftsregeln** - Kontrollieren Sie die Häufigkeit von Nachrichten und den Journey-Eintrag
-* **Warnhinweise** - Anzeigen und Verwalten von Systemwarnhinweisen
-* **Sandboxes** - Umgebungen verwalten und Objekte zwischen Sandboxes kopieren
+**Administration** - Systemeinstellungen konfigurieren. [Zugriffskontrolle – Übersicht](../administration/permissions-overview.md)
+* **Konfigurationen** - Richten Sie Ereignisse, Datenquellen und Aktionen ein. [Konfigurieren der Kanäle](../configuration/get-started-configuration.md)
+* **Geschäftsregeln** - Kontrollieren Sie die Häufigkeit von Nachrichten und den Journey-Eintrag. [Einrichten von Geschäftsregeln](../configuration/frequency-rules.md)
+* **Warnhinweise** - Anzeigen und Verwalten von Systemwarnhinweisen. [Überwachen von Warnhinweisen](../reports/alerts.md)
+* **Sandboxes** - Umgebungen verwalten und Objekte zwischen Sandboxes kopieren. [Arbeiten mit Sandboxes](../administration/sandboxes.md)
 * **Kanäle** - Kanaleinstellungen und Zustellbarkeit konfigurieren
 * **Tags** - Organisieren und Kategorisieren von Inhalten
-
-[Weitere Informationen zu den einzelnen Funktionen finden Sie in der entsprechenden Dokumentation](#feature-links)
 
 ## Funktionen der Symbolleiste {#top-bar}
 
@@ -159,20 +157,6 @@ Der KI-Assistent bietet sofortige Hilfe und operative Erkenntnisse. Klicken Sie 
 * Navigieren zu Konzepten und Best Practices
 
 [Weitere Informationen zum KI-Assistenten](ai-features.md#ai-assistant)
-
-## Detaillierte Funktions-Links {#feature-links}
-
-Für eine umfassende Dokumentation zu den einzelnen Funktionen:
-
-* **Journey** - [Erstellen Sie Ihre erste Journey](../building-journeys/journey-gs.md)
-* **Kampagnen** - [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)
-* **Angebote und Entscheidungen** - [Entscheidungs-Management](../offers/get-started/starting-offer-decisioning.md)
-* **Inhaltserstellung** - [E-Mail-Design](../email/get-started-email-design.md)
-* **Audiences** - [Zielgruppen-Management](../audience/about-audiences.md)
-* **Kanalkonfiguration** - [Einrichten von Kanälen](../configuration/get-started-configuration.md)
-* **Daten-Management** - [Arbeiten mit Schemata](../data/get-started-schemas.md)
-* **Datenschutz und Governance** - [Datenschutzübersicht](../privacy/get-started-privacy.md)
-* **Administration** - [Zugriffskontrolle](../administration/permissions-overview.md)
 
 ## Verwandte Themen {#related-topics}
 
