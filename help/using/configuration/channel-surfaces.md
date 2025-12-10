@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: 29d99fd55fd31d5c4f6e86fabed2b45c0636a7b8
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 100%
+source-wordcount: '1853'
+ht-degree: 94%
 
 ---
 
@@ -252,11 +252,17 @@ Wenn die Aktualisierung fehlschlägt, kann die Konfiguration erneut bearbeitet w
 
 ## Deaktivieren einer Kanalkonfiguration {#deactivate-a-surface}
 
-Wenn Sie möchten, dass eine **[!UICONTROL aktive]** Kanalkonfiguration nicht verfügbar ist, um neue Nachrichten zu erstellen, können Sie sie deaktivieren. Nachrichten von Journeys, die diese Konfiguration verwenden, sind jedoch nicht betroffen und funktionieren weiterhin.
+Wenn Sie möchten, dass eine **[!UICONTROL aktive]** Kanalkonfiguration nicht verfügbar ist, um neue Nachrichten zu erstellen, können Sie sie deaktivieren. <!--However, journeys' messages currently using this configuration will not be affected and will continue working.-->
 
->[!NOTE]
->
->Sie können eine Kanalkonfiguration nicht deaktivieren, während eine Aktualisierung im Gange ist. Sie müssen warten, bis die Aktualisierung entweder erfolgreich war oder fehlgeschlagen ist. Erfahren Sie mehr über das [Bearbeiten von Kanalkonfigurationen](#edit-channel-surface) und die [Aktualisierungsstatus](#update-statuses).
+Eine Kanalkonfiguration kann in den folgenden Fällen nicht deaktiviert werden:
+
+* Wenn er von einer Live-Journey referenziert wird. Der Versuch, eine noch von einer Live-Journey verwendete Konfiguration zu deaktivieren, führt zu einem Fehler.
+
+  Um eine Kanalkonfiguration zu deaktivieren, stellen Sie sicher, dass alle Live-Journey, die diese Konfiguration verwenden, geschlossen oder gestoppt sind. [Erfahren Sie, wie Sie eine Journey beenden](../building-journeys/end-journey.md)
+
+* Während eine Aktualisierung der Kanalkonfiguration ausgeführt wird. Sie müssen warten, bis die Aktualisierung entweder erfolgreich war oder fehlgeschlagen ist. Erfahren Sie mehr über [Bearbeiten von Kanalkonfigurationen](#edit-channel-surface) und über die [Aktualisierungsstatus](#update-statuses).
+
+Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu deaktivieren.
 
 1. Rufen Sie die Liste der Kanalkonfigurationen auf.
 
