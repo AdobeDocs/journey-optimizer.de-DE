@@ -7,16 +7,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4847276532155a698cf997e22a0894c737208595
+source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1469'
 ht-degree: 4%
 
 ---
 
 # KI und intelligente Funktionen {#ai-features}
 
-Adobe Journey Optimizer nutzt die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen, um außergewöhnliche Kundenerlebnisse zu erstellen, zu optimieren und bereitzustellen. Von der Generierung personalisierter Inhalte bis hin zur Vorhersage optimaler Versandzeiten optimieren die KI-Funktionen Ihren Workflow und maximieren die Wirkung.
+Adobe Journey Optimizer nutzt die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen, um außergewöhnliche Kundenerlebnisse zu erstellen, zu optimieren und bereitzustellen. Von der Generierung personalisierter Inhalte bis hin zur Vorhersage optimaler Versandzeiten optimieren die KI-Funktionen Ihren Workflow und maximieren die Wirkung. Anwendungsfall-Playbooks bieten vorgefertigte Vorlagen zur schnellen Implementierung gängiger Marketing-Szenarien.
 
 ## KI-Assistent {#ai-assistant}
 
@@ -132,13 +132,9 @@ Der [Experimentationsagent](https://experienceleague.adobe.com/de/docs/experienc
 
 ### Zusätzliche KI-Agenten
 
-**Audience Agent** - Für die konversative Audience-Exploration und -Verwaltung in Adobe Experience Platform, einschließlich Duplikaterkennung und Größenverfolgung. [Erfahren Sie mehr über Audience Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - Für die konversative Audience-Exploration und -Verwaltung in Adobe Experience Platform, einschließlich Duplikaterkennung und Größenverfolgung. [Erfahren Sie mehr über Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
 **Agent Orchestrator** - Koordiniert mehrere spezialisierte Agenten, um komplexe, mehrstufige Marketing-Herausforderungen zu lösen. Der Orchestrator bestimmt automatisch, welche Agenten beteiligt werden sollen, und sequenziert ihre Arbeit effizient. [Erfahren Sie mehr über Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
-
-**Erhalten von Zugriff:**
-
-KI-Agenten stehen Kunden mit Zugriff auf den KI-Assistenten zur Verfügung. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um weitere Informationen zu Lizenzierung und Aktivierung zu erhalten.
 
 ## KI-gestützte Inhaltserstellung {#content-generation}
 
@@ -245,7 +241,7 @@ Durchsuchen Sie Journey Optimizer-Playbooks nach gängigen Szenarien wie:
 
 +++
 
-[Alle verfügbaren Playbooks anzeigen](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=de){target="_blank"} | [Weitere Informationen finden Sie in der Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=de){target="_blank"}
+[Alle verfügbaren Playbooks anzeigen](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=de){target="_blank"} | [Weitere Informationen finden Sie in der Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Zusätzliche KI-Funktionen {#additional-capabilities}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
+source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1126'
 ht-degree: 34%
 
 ---
@@ -21,7 +21,7 @@ Um auf Adobe Journey Optimizer zuzugreifen, melden Sie sich bei [Adobe Experienc
 
 >[!NOTE]
 >
->* Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen hängen von Ihren [&#x200B; (Berechtigungen](../administration/permissions.md) und [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab.
+>* Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen hängen von Ihren [ (Berechtigungen](../administration/permissions.md) und [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab.
 >* Diese Dokumentation wird häufig aktualisiert. Einige Screenshots können leicht von Ihrer Benutzeroberfläche abweichen.
 
 ## kurzer Überblick {#quick-tour}
@@ -57,6 +57,7 @@ Im linken Navigationsbereich sind Journey Optimizer-Funktionen in funktionale Ka
 * **Inhaltsvorlagen** - Wiederverwendbare Nachrichtenvorlagen für Kampagnen und Journey. [Erstellen von Vorlagen](../content-management/content-templates.md)
 * **Fragmente** - Inhaltsblöcke, die über mehrere Nachrichten hinweg verwendet werden können. [Arbeiten mit Fragmenten](../content-management/fragments.md)
 * **Landingpages** - Web-Formulare für Abonnements und Voreinstellungen. [Landingpages entwerfen](../landing-pages/get-started-lp.md)
+* **Playbooks für Anwendungsfälle** - Vordefinierte Workflows für gängige Marketing-Szenarien. [Playbooks entdecken](ai-features.md#playbooks)
 
 **Daten-Management** - Verwalten Sie Ihre Datengrundlage. [Erfahren Sie mehr über Schemata und Datensätze](../data/get-started-schemas.md)
 * **Schemata** - Definieren der Datenstruktur
@@ -85,8 +86,8 @@ Im linken Navigationsbereich sind Journey Optimizer-Funktionen in funktionale Ka
 * **Geschäftsregeln** - Kontrollieren Sie die Häufigkeit von Nachrichten und den Journey-Eintrag. [Einrichten von Geschäftsregeln](../conflict-prioritization/rule-sets.md)
 * **Warnhinweise** - Anzeigen und Verwalten von Systemwarnhinweisen. [Überwachen von Warnhinweisen](../reports/alerts.md)
 * **Sandboxes** - Umgebungen verwalten und Objekte zwischen Sandboxes kopieren. [Arbeiten mit Sandboxes](../administration/sandboxes.md)
-* **Kanäle** - Kanaleinstellungen und Zustellbarkeit konfigurieren
-* **Tags** - Organisieren und Kategorisieren von Inhalten
+* **Kanäle** - Kanaleinstellungen und Zustellbarkeit konfigurieren. [Einrichten von Kanalkonfigurationen](../configuration/channel-surfaces.md) | [Erste Schritte mit der Konfiguration](../configuration/get-started-configuration.md)
+* **Tags** - Organisieren und Kategorisieren von Inhalten. [Arbeiten mit einheitlichen Tags](search-filter-categorize.md#tags)
 
 ## Funktionen der Symbolleiste {#top-bar}
 
