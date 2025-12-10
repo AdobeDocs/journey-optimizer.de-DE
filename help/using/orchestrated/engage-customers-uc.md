@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-Beachten Sie, dass dieser Anwendungsfall mit einer Zielgruppe beginnt, die bereits in Experience Platform vorhanden ist, insbesondere einer Zielgruppe mit Webverhalten in Echtzeit, die Browser-Aktivitäten erfasst, während sie auftritt. [Weitere Informationen finden Sie in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Beachten Sie, dass dieser Anwendungsfall mit einer Zielgruppe beginnt, die bereits in Experience Platform vorhanden ist, insbesondere einer Zielgruppe mit Webverhalten in Echtzeit, die Browser-Aktivitäten erfasst, während sie auftritt. [Weitere Informationen finden Sie in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Für diesen Anwendungsfall erforderliche Schemata:**
 
