@@ -10,10 +10,10 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '1983'
-ht-degree: 100%
+source-git-commit: 47f4ab608df3439c01ca962232a956016a1f8667
+workflow-type: tm+mt
+source-wordcount: '1934'
+ht-degree: 99%
 
 ---
 
@@ -83,8 +83,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** characteristics
 **Titel:** Merkmale der Entscheidungsoption
-**Beschreibung:** Merkmale sind zusätzliche Attribute oder Eigenschaften von Angeboten, die zu einer bestimmten Entscheidungsoption gehören. Bei diesen Attributen handelt es sich um Schlüssel-Wert-Paare, d. h. sie enthalten einen Attributnamen (manchmal auch als Schlüssel bezeichnet), dem ein Wert zugeordnet ist, und werden verwendet, um eine Entscheidungsoption von den anderen Angeboten zu unterscheiden. Bei einem Attributnamen „color“ kann der Wert für ein bestimmtes Angebot beispielsweise „green“ lauten.
-Merkmale werden als Werte für Inhalt verwendet, der diese Entscheidungsoption darstellt, sowie als Funktionen zur Analyse und Optimierung der Effektivität eines Angebots. Wenn jede Instanz dasselbe Attribut oder dieselbe Eigenschaft besitzt, sollte dieser Aspekt als Erweiterungsschema modelliert werden, das aus den Details der Entscheidungsoptionen abgeleitet wird.
+**Beschreibung:** Merkmale sind zusätzliche Attribute oder Eigenschaften von Angeboten, die zu einer bestimmten Entscheidungsoption gehören. Bei diesen Attributen handelt es sich um Schlüssel-Wert-Paare, d. h. sie enthalten einen Attributnamen (manchmal auch als Schlüssel bezeichnet), dem ein Wert zugeordnet ist, und werden verwendet, um eine Entscheidungsoption von den anderen Angeboten zu unterscheiden. Bei einem Attributnamen „color“ kann der Wert beispielsweise für ein bestimmtes Angebot „green“ lauten.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **Typ:** Objekt
 
 +++
