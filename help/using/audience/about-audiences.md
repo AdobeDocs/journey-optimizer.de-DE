@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 92%
 
 ---
 
@@ -54,7 +54,7 @@ Ein Dashboard zeigt Überschneidungen zwischen wichtigen Zielgruppen visuell an 
 
 Im Zielgruppenportal können Sie Zielgruppen mit standardisierten Labels, Governance-Steuerelementen, durchsuchbaren Ordnern und Tags einfach verwalten, suchen und erkunden.
 
-Weitere Informationen zum Arbeiten mit Zielgruppen im Zielgruppenportal sind in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} verfügbar.
+Weitere Informationen zum Arbeiten mit Zielgruppen im Zielgruppenportal sind in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} verfügbar.
 
 ## Zielgruppentypen {#types}
 
@@ -73,6 +73,10 @@ Zielgruppen können auf unterschiedliche Weise erstellt werden:
 * **Zielgruppenkomposition**: Erstellen Sie einen Kompositions-Workflow, um vorhandene Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und Aktionen wie Rang, Aufspaltung oder Zusammenführen anzuwenden, um neue Zielgruppen zu erstellen. [Weitere Informationen zum Arbeiten mit Zielgruppenkomposition](get-started-audience-orchestration.md)
 
 * **Komposition föderierter Zielgruppen**: Führen Sie Datensätze direkt aus Ihrem bestehenden Data Warehouse zusammen, um in Adobe Experience Platform Zielgruppen und Attribute in einem System aufzubauen und anzureichern. [Weitere Informationen zum Arbeiten mit der Komposition föderierter Zielgruppen](federated-audience-composition.md).
+
+## Audiences in Journey und Kampagnen ansprechen {#target-audiences}
+
+Sobald Ihre Audiences fertig sind, können Sie sie beim Erstellen von Journey oder bei der Erstellung von Kampagnen auswählen, sodass Sie mit relevanten Nachrichten die richtigen Personen zur richtigen Zeit erreichen. [Weitere Informationen zur Zielgruppenaktivierung in Journey Optimizer](target-audiences.md).
 
 ## Anleitungsvideo {#video}
 

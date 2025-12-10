@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
-workflow-type: ht
-source-wordcount: '1773'
-ht-degree: 100%
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+workflow-type: tm+mt
+source-wordcount: '1804'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ Folgende Bedingungstypen sind verfügbar:
 * [Bedingung für das Datum](#date_condition)
 * [Profilbegrenzung](#profile_cap)
 
-Sie können auch eine Zielgruppe in einer Journey-Bedingung verwenden. [Weitere Informationen](#using-a-segment)
+Sie können auch eine Zielgruppe in einer Journey-Bedingung verwenden. [Weitere Informationen](#using-a-segment). Weitere Informationen zum Generieren und Targeting von Audiences finden Sie in [diesem Abschnitt](../audience/about-audiences.md)
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Fe
 
 ![Ausdruckseditor mit Feldauswahl und logischen Operatoren UND ODER](assets/journey64.png)
 
-Wenn Sie zur Erstellung Ihrer Zielgruppen den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} verwenden, können Sie die Zielgruppen in Ihren Journey-Bedingungen nutzen. Weitere Informationen finden Sie unter [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
+Wenn Sie zur Erstellung Ihrer Zielgruppen den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} verwenden, können Sie die Zielgruppen in Ihren Journey-Bedingungen nutzen. Siehe [Verwenden der Zielgruppe in Bedingungen](../building-journeys/condition-activity.md#using-a-segment). Weitere Informationen zum Generieren und Targeting von Zielgruppen in Journey Optimizer finden Sie [diesem Abschnitt](../audience/about-audiences.md).
 
 
 >[!NOTE]

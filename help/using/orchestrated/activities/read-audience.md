@@ -5,10 +5,10 @@ title: Verwenden der Aktivität „Zielgruppe lesen“
 description: Informationen zur Verwendung der Aktivität „Zielgruppe lesen“ in einer orchestrierten Kampagne
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 95%
 
 ---
 
@@ -52,7 +52,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Zielgrup
 
 1. Fügen Sie Ihrer Aktivität einen **[!UICONTROL Label]** hinzu. Dieses Label dient als Name Ihrer Zielgruppe.
 
-1. Klicken Sie auf das ![Ordnersuchsymbol](../assets/do-not-localize/folder-search.svg), um die Zielgruppe auszuwählen, die Sie für Ihre orchestrierte Kampagne ansprechen möchten.
+1. Klicken Sie ![Ordnersuchsymbol](../assets/do-not-localize/folder-search.svg), um die Audience auszuwählen, die Sie für Ihre orchestrierte Kampagne ansprechen möchten. [ Erfahren Sie mehr darüber, wie Sie in Journey Optimizer Zielgruppen generieren und ansprechen ](../audience/about-audiences.md).
 
    ![](../assets/read-audience-2.png)
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Design, Arbeitsfläche, Journey, Benutzeroberfläche, ziehen, ablegen
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1739'
-ht-degree: 100%
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+workflow-type: tm+mt
+source-wordcount: '1756'
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,7 @@ Es gibt zwei Möglichkeiten:
 
 1. **Beginn mit einem Ereignis**: Wenn eine Journey so eingestellt ist, dass sie auf Ereignisse wartet, treten Personen **einheitlich** in Echtzeit in die Journey ein. Nachrichten, die in Ihrer Journey enthalten sind, werden an die Person gesendet, die gerade in die Journey kommt. [Weitere Informationen zu Ereignissen](../event/about-events.md)
 
-1. **Beginn mit der Aktivität „Zielgruppe lesen“**: Sie können Ihre Journey so einstellen, dass sie Adobe Experience Platform-Zielgruppen überwacht. In diesem Fall treten alle der angegebenen Zielgruppe angehörenden Personen in die Journey ein. Die in Ihrer Journey enthaltenen Nachrichten werden an die der Zielgruppe angehörenden Personen gesendet. Erfahren Sie mehr zur Aktivität [Zielgruppe lesen](read-audience.md).
+1. **Beginn mit der Aktivität „Zielgruppe lesen“**: Sie können Ihre Journey so einstellen, dass sie Adobe Experience Platform-Zielgruppen überwacht. In diesem Fall treten alle der angegebenen Zielgruppe angehörenden Personen in die Journey ein. Die in Ihrer Journey enthaltenen Nachrichten werden an die der Zielgruppe angehörenden Personen gesendet. Weitere Informationen über [Zielgruppe lesen](read-audience.md). Weitere Informationen zum Generieren und Targeting von Zielgruppen in Journey Optimizer finden Sie [diesem Abschnitt](../audience/about-audiences.md).
 
 ## Definieren der nächsten Schritte{#define-next-steps}
 
