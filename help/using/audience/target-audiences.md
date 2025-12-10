@@ -63,6 +63,6 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
 Nur im Zielgruppenportal erstellte Zielgruppen können direkt in [!DNL Journey Optimizer] Journey und Kampagnen angesprochen werden. [Weitere Informationen zu verfügbaren Zielgruppentypen](../audience/about-audiences.md#types).
 
-Wenn Sie Profile aus einer nicht unterstützten Zielgruppe, z. B. einer Customer Journey Analytics-Zielgruppe, ansprechen möchten, müssen Sie sie im Zielgruppenportal in eine neue Segmentdefinition einschließen. Detaillierte Informationen zum Hinzufügen von Zielgruppen in einer Segmentdefinition finden Sie in der [Segment Builder-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+Wenn Sie Profile aus einer nicht unterstützten Zielgruppe, z. B. einer Customer Journey Analytics-Zielgruppe, ansprechen möchten, müssen Sie sie im Zielgruppenportal in eine neue Segmentdefinition einschließen. Detaillierte Informationen zum Hinzufügen von Zielgruppen in einer Segmentdefinition finden Sie in der [Segment Builder-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Warten Sie anschließend, bis die Segmentierungsbewertung abgeschlossen ist, um sie in Ihren Journey und Kampagnen zu verwenden.
