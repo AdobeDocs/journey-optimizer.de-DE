@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
-workflow-type: ht
-source-wordcount: '732'
-ht-degree: 100%
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+workflow-type: tm+mt
+source-wordcount: '891'
+ht-degree: 82%
 
 ---
 
@@ -40,9 +40,9 @@ Sie können zwei Arten der Aktivität vom Typ **Warten** festlegen:
 
 ### Mehrere Warteaktivitäten {#multiple-wait-activities}
 
-Achten Sie bei der Verwendung mehrerer Aktivitäten vom Typ **Warten** in einer Journey darauf, dass die [maximale globale Wartezeit](journey-properties.md#global_timeout) für Journeys 91 Tage beträgt, d. h., Profile werden immer spätestens 91 Tage nach ihrem Eintritt aus der Journey ausgeschlossen. Weitere Informationen finden Sie auf [dieser Seite](journey-properties.md#global_timeout).
+Achten Sie bei der Verwendung mehrerer Aktivitäten vom Typ **Warten** in einer Journey darauf, dass der [globale Timeout](journey-properties.md#global_timeout) für Journeys 91 Tage beträgt, d. h., Profile werden immer spätestens 91 Tage nach ihrem Eintritt aus der Journey ausgeschlossen. Weitere Informationen finden Sie auf [dieser Seite](journey-properties.md#global_timeout).
 
-Ein Kontakt kann nur dann eine Aktivität vom Typ **Warten** annehmen, wenn noch genügend Zeit bleibt, um die Wartezeit vor Ablauf der 91-tägigen maximalen Wartezeit der Journey zu beenden.
+Ein Kontakt kann nur dann eine Aktivität vom Typ **Warten** annehmen, wenn noch genügend Zeit bleibt, um die Wartezeit vor Ablauf des 91-tägigen Timeouts der Journey zu beenden.
 
 ### Warten und erneuter Eintritt {#wait-reentrance}
 
@@ -102,8 +102,18 @@ Es empfiehlt sich, benutzerdefinierte Datumsangaben zu verwenden, die spezifisch
 
 Um zu überprüfen, ob die Warteaktivität erwartungsgemäß funktioniert, können Sie Schritt-Ereignisse verwenden. [Weitere Informationen](../reports/query-examples.md#common-queries).
 
-## Automatischer Warteknoten  {#auto-wait-node}
+## Profilaktualisierung nach Wartezeit {#profile-refresh}
 
+Wenn ein Profil bei einer **Warten**-Aktivität auf einer Journey geparkt wird, die mit einer Aktivität vom Typ **Zielgruppe lesen** beginnt, aktualisiert die Journey automatisch die Profilattribute von Unified Profile Service (UPS), um die neuesten verfügbaren Daten abzurufen.
+
+* **Bei Journey-Eintrag**: Profile verwenden Attributwerte aus dem Zielgruppen-Snapshot, der beim Starten des Journey ausgewertet wurde.
+* **Nach einem Warteknoten**: Der Journey führt eine Suche durch, um die neuesten Profildaten von UPS abzurufen, nicht die älteren Snapshot-Daten. Dies bedeutet, dass sich die Profilattribute möglicherweise seit dem Beginn des Journey geändert haben.
+
+Dadurch wird sichergestellt, dass nachgelagerte Aktivitäten aktuelle Profilinformationen nach einer Wartezeit verwenden. Sie kann jedoch zu unerwarteten Ergebnissen führen, wenn Sie davon ausgehen, dass der Journey während der gesamten Ausführung nur die Original-Snapshot-Daten verwendet.
+
+Beispiel: Wenn sich ein Profil beim Journey-Start für eine „Silber-Kunde“-Zielgruppe qualifiziert, aber während einer 3-tägigen Wartezeit auf „Gold-Kunde“ aktualisiert, wird bei Aktivitäten nach der Wartezeit der aktualisierte „Gold-Kunde“-Status angezeigt.
+
+## Automatischer Warteknoten  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "

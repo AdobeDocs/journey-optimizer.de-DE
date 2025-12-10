@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '667'
+ht-degree: 90%
 
 ---
 
@@ -49,9 +49,7 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
 * Verwenden Sie die Orchestrierungsaktivität **Zielgruppe lesen** in einer Journey, damit alle Personen der Zielgruppe in die Journey eintreten und die in Ihrer Journey enthaltenen Nachrichten empfangen. Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundinnen und -Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle Silber-Kundinnen und -Kunden in eine Journey eintreten, und ihnen eine Reihe personalisierter Nachrichten senden. [Erfahren Sie, wie Sie eine Aktivität vom Typ „Zielgruppe lesen“ konfigurieren](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
-  >[!NOTE]
-  >
-  >Jede Journey, die eine Zielgruppe aus der Zielgruppenkomposition oder dem benutzerdefinierten Upload in der Aktivität „Zielgruppe lesen“ nutzt, verfügt über Profilattribute, die so aktuell sind wie die letzte Batch-Auswertung. Dazu gehören Einverständnis/Unterdrückungen in der Journey.
+  Bei Journey, die Zielgruppen aus der Zielgruppenkomposition oder dem benutzerdefinierten Upload verwenden, sind Profilattribute so aktuell wie die letzte Batch-Auswertung beim Journey-Eintrag. Nach einer **Warten**-Aktivität aktualisiert der Journey jedoch Profilattribute vom Unified Profile Service (UPS). Dabei werden die neuesten verfügbaren Daten abgerufen, was bedeutet, dass sich die Profilattribute während der Journey-Ausführung ändern können. [Erfahren Sie mehr über die Aktualisierung von Profilen nach einer Warteaktivität](../building-journeys/wait-activity.md#profile-refresh)
 
 * Verwenden Sie die Aktivität **Bedingung** in einer Journey, um Bedingungen zu erstellen, die auf der Zielgruppenzugehörigkeit basieren. [Erfahren Sie, wie Sie Zielgruppen in Bedingungen verwenden](../building-journeys/condition-activity.md#using-a-segment).
 
