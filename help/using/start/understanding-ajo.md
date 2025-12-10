@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Grundlegendes zu Journey Optimizer {#understanding-ajo}
 
-Adobe Journey Optimizer und Adobe Experience Platform arbeiten zusammen, um eine datengesteuerte Personalisierung in jedem Maßstab zu ermöglichen. Auf dieser Seite wird erläutert, wie diese Systeme funktionieren und wie ihre wichtigsten Funktionsbereiche zusammenwirken, um außergewöhnliche Kundenerlebnisse zu schaffen. [Erfahren Sie mehr über die wichtigsten Funktionen](get-started.md) | [Wichtige Terminologie ](terminology.md)
+Adobe Journey Optimizer und Adobe Experience Platform arbeiten zusammen, um eine datengesteuerte Personalisierung in jedem Maßstab zu ermöglichen. Auf dieser Seite wird erläutert, wie diese Systeme funktionieren und wie ihre wichtigsten Funktionsbereiche zusammenwirken, um außergewöhnliche Kundenerlebnisse zu schaffen. [Erfahren Sie mehr über die wichtigsten Funktionen](get-started.md) | [Wichtige Terminologie &#x200B;](terminology.md)
 
 ## Funktionsweise von Journey Optimizer {#how-it-works}
 
