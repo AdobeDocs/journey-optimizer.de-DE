@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
+source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '3013'
+ht-degree: 97%
 
 ---
 
@@ -199,6 +199,10 @@ ht-degree: 98%
          + [Aufspaltung](using/orchestrated/activities/split.md)
          + [Test](using/orchestrated/activities/test.md)
          + [Warten](using/orchestrated/activities/wait.md)
+      + Lernen durch Anwendungsfälle {#use-cases}
+         + [Wunschlisten-Artikelaktualisierungen senden](using/orchestrated/wishlist-uc.md)
+         + [Kundeninteraktion durch Durchsuchen der Aktivität](using/orchestrated/engage-customers-uc.md)
+         + [Benutzer über Produktverfügbarkeit benachrichtigen](using/orchestrated/product-availability-uc.md)
 + Konflikte und Priorisierung {#conflict-prioritization}
    + [Konflikt-Management und Priorisierung](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Erste Schritte mit Konflikt-Management und Priorisierung](using/conflict-prioritization/gs-conflict-prioritization.md)
