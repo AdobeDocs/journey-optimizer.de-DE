@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: vertikale Ausrichtung, E-Mail-Editor, Abstand
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
+source-git-commit: 4817b7426abf202c886b7fd63d59aa0f245e5496
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 52%
 
 ---
 
@@ -45,3 +45,21 @@ In diesem Beispiel passen wir den Abstand und die senkrechte Ausrichtung innerha
 >[!TIP]
 >
 >Achten Sie beim Entwerfen von E-Mail-Inhalt für Gmail auf Android-Geräten darauf, dass für Bilder und Trennelemente Spaltenabstände und keine großen, festen Ränder verwendet werden. Gmail auf Android rendert übergroße Bilder und Ränder häufig falsch, was zu Layout-Überlauf oder reduzierten Trennlinien führt. Verwenden Sie eine kleinere Bildbreite oder spaltenbasierte Abstände, um eine konsistente Anzeige zu erreichen.
+
+## Verwalten des Abstand von Fragmenten mit Breadcrumb-Navigation {#fragment-padding-breadcrumb}
+
+Beim Arbeiten mit [Fragmenten](../content-management/fragments.md) in der E-Mail-Designer kann es vorkommen, dass der ausgeblendete oder restliche Abstand das Rendering auf Mobilgeräten anders beeinflusst als auf dem Desktop. Dies ist besonders häufig, wenn Fragmente entsperrt wurden oder [die Vererbung unterbrochen wurde](use-visual-fragments.md#break-inheritance) da übrig gebliebene Formatierungen in den zugrunde liegenden Spalten- oder Textkomponenten verbleiben können.
+
+So identifizieren und bearbeiten Sie übrig gebliebene Abstände in Fragmenten:
+
+1. Verwenden Sie den **[!UICONTROL Navigationsbaum]** oder klicken Sie direkt auf Elemente im Editor, um jede übergeordnete Struktur oder Spalte innerhalb Ihres Fragments auszuwählen. Auf diese Weise können Sie ausgeblendete Abstände oder Ränder finden, die speziell für Mobilgeräte gelten.
+
+1. Nachdem Sie das Element im Breadcrumb ausgewählt haben, navigieren Sie zur Registerkarte **[!UICONTROL Stile]** auf der rechten Seite.
+
+1. Überprüfen Sie die **[!UICONTROL Padding]**-Einstellungen und entfernen oder passen Sie den Padding nach Bedarf an, um eine korrekte Ausrichtung auf Mobilgeräten zu erreichen.
+
+1. Wenn bei der Wiederverwendung von Fragmenten weiterhin Ausrichtungsprobleme auftreten, wiederholen Sie diesen Vorgang für andere Spalten oder Textkomponenten innerhalb des Fragments.
+
+>[!NOTE]
+>
+>Dieses Verhalten ist zu erwarten, wenn Fragmente wiederholt eingefügt und entfernt werden, da sich Stilregeln ansammeln können. Überprüfen Sie die Auffüllwerte immer mithilfe der Breadcrumb-Navigation, insbesondere bei Mobilgeräten.
