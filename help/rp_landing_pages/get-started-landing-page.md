@@ -174,17 +174,17 @@ Beginnen Sie sofort mit der Erstellung mit diesen grundlegenden Handbüchern:
 | Einrichten von Kanälen | [Handbuch zur Kanalkonfiguration](../using/configuration/get-started-configuration.md) |
 | Erstellen von personalisierten Angeboten | [Handbuch zum Entscheidungs-Management](../using/offers/get-started/starting-offer-decisioning.md) |
 
----
+&#x200B;---
 
 ## Bereit für den Einstieg?
 
 Wählen Sie den für Sie passenden Pfad:
 
-* **Neu bei Journey Optimizer?** Erste Schritte mit [Was ist Journey Optimizer?Grundlagen ](../using/start/get-started.md)
+* **Neu bei Journey Optimizer?** Erste Schritte mit [Was ist Journey Optimizer?Grundlagen &#x200B;](../using/start/get-started.md)
 * **Kennen Sie Ihre Rolle?** Springen Sie zum [rollenspezifischen Handbuch](../using/start/quick-start.md) das Ihren Verantwortlichkeiten entspricht.
 * **Möchten Sie erkunden?** Durchsuchen Sie die [KI-Funktionen](../using/start/ai-features.md) oder versuchen Sie es [Anwendungsfall Playbooks](../using/start/ai-features.md#playbooks)
 * **Benötigen Sie Hilfe?** Lesen Sie das [Handbuch zur Fehlerbehebung](../using/start/troubleshooting.md) oder besuchen Sie das [Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}
 
 >[!NOTE]
 >
->Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen hängen von Ihren [ (Berechtigungen](../using/administration/permissions.md) und [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich an Ihren Adobe Customer Success Manager, wenn Sie Fragen zu Ihrem spezifischen Setup haben.
+>Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen hängen von Ihren [&#x200B; (Berechtigungen](../using/administration/permissions.md) und [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich an Ihren Adobe Customer Success Manager, wenn Sie Fragen zu Ihrem spezifischen Setup haben.
