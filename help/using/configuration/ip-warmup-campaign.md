@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 05e300476ee77c7ac449f3cbb1ecb506e94c3da0
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,8 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
    >[!IMPORTANT]
    >
    >In einer IP-Aufwärmkampagne zulässige Zielgruppen müssen [segmentbasiert](../audience/creating-a-segment-definition.md) sein und mithilfe der [standardmäßigen Zusammenführungsrichtlinie](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"} erstellt werden.
+   >
+   >CSV-Upload-Zielgruppen werden für IP-Aufwärmkampagnen nicht unterstützt und führen bei der Aktivierung der Kampagne zu einem Fehler.
 
    Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
