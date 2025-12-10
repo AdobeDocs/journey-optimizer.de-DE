@@ -62,8 +62,8 @@ Erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen.
 
 In diesen hilfreichen Blog-Beiträgen erhalten Sie eine ausführlichere Anleitung zur IP-Aufwärmung:
 
-* [Informationen zum Einrichten der IP-Aufwärmung](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - Erfahren Sie mehr über die Grundlagen zum Einrichten von IP-Aufwärmplänen und Best Practices für eine erfolgreiche Implementierung.
+* [Informationen zum Einrichten der IP-Aufwärmung](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=de) - Erfahren Sie mehr über die Grundlagen zum Einrichten von IP-Aufwärmplänen und Best Practices für eine erfolgreiche Implementierung.
 
-* [Erweiterte Funktionen in IP-Aufwärmplänen](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - Entdecken Sie erweiterte Funktionen und granulare Steuerelemente zur Optimierung Ihrer IP-Aufwärmstrategie.
+* [Erweiterte Funktionen in IP-Aufwärmplänen](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=de) - Entdecken Sie erweiterte Funktionen und granulare Steuerelemente zur Optimierung Ihrer IP-Aufwärmstrategie.
 
-* [Fehlerbehebung beim IP-Warm-up](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - Finden Sie Lösungen für häufige Probleme wie Zielgruppenverzögerungen und erfahren Sie mehr über intelligente Wiederholungsmechanismen.
+* [Fehlerbehebung beim IP-Warm-up](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=de) - Finden Sie Lösungen für häufige Probleme wie Zielgruppenverzögerungen und erfahren Sie mehr über intelligente Wiederholungsmechanismen.
