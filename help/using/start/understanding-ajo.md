@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Adobe Journey Optimizer mit Adobe Experience Plat
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 11%
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Grundlegendes zu Journey Optimizer {#understanding-ajo}
 
-Adobe Journey Optimizer und Adobe Experience Platform arbeiten zusammen, um eine datengesteuerte Personalisierung in jedem Maßstab zu ermöglichen. Auf dieser Seite wird erläutert, wie diese Systeme funktionieren und wie ihre wichtigsten Funktionsbereiche zusammenwirken, um außergewöhnliche Kundenerlebnisse zu schaffen. [Erfahren Sie mehr über die wichtigsten Funktionen](get-started.md) | [Wichtige Terminologie &#x200B;](terminology.md)
+Adobe Journey Optimizer und Adobe Experience Platform arbeiten zusammen, um eine datengesteuerte Personalisierung in jedem Maßstab zu ermöglichen. Auf dieser Seite wird erläutert, wie diese Systeme funktionieren und wie ihre wichtigsten Funktionsbereiche zusammenwirken, um außergewöhnliche Kundenerlebnisse zu schaffen. [Erfahren Sie mehr über die wichtigsten Funktionen](get-started.md) | [Wichtige Terminologie ](terminology.md)
 
 ## Funktionsweise von Journey Optimizer {#how-it-works}
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer fungiert als kontinuierlicher Fluss, in dem Daten erfass
 Adobe Experience Platform dient als Rückgrat, mit dem Marken Kundendaten zentralisieren und für personalisierte Erlebnisse aktivieren können:
 
 * **Datenplattform** - Zentraler Knotenpunkt für die Erfassung, Verwaltung und Strukturierung von Kundendaten, um die systemübergreifende Konsistenz sicherzustellen. [Erfahren Sie mehr über Schemata und Datensätze](../data/get-started-schemas.md)
-* **Datenaufnahme (Quellen)** - Importieren Sie Daten von CRM-Plattformen, Websites, Mobile Apps und Cloud-Speicher mithilfe vordefinierter Connectoren. [Erkunden von Datenquellen](../data/get-started-sources.md)
+* **Datenaufnahme (Quellen)** - Importieren Sie Daten von CRM-Plattformen, Websites, Mobile Apps und Cloud-Speicher mithilfe vordefinierter Connectoren. [Erkunden von Datenquellen](get-started-sources.md)
 * **Echtzeit-Kundenprofil** - Erstellt einheitliche Profile, indem Daten aus verschiedenen Quellen (E-Mail-Interaktionen, In-Store-Käufe, Web-Verhalten) zusammengeführt werden. [Erfahren Sie mehr über Profile](../audience/get-started-profiles.md)
 * **Governance-Ebene** - Steuert den Datenzugriff, die Einhaltung von Datenschutzbestimmungen und die Sicherheit bei gleichzeitiger Einhaltung von Vorschriften. [Datenschutzdokumentation anzeigen](../privacy/get-started-privacy.md)
 
@@ -37,10 +37,10 @@ Adobe Experience Platform dient als Rückgrat, mit dem Marken Kundendaten zentra
 Adobe Journey Optimizer wendet die Daten und Erkenntnisse aus Adobe Experience Platform an, um intelligente, personalisierte Kundenerlebnisse bereitzustellen:
 
 * **Kundenverständnis** - Echtzeit-Kundenprofile ermöglichen die Segmentierung in Zielgruppen für zielgerichtetes Messaging. [Erstellen von Zielgruppen](../audience/about-audiences.md)
-* **Inhalte und Angebote** - Tools zum Erstellen, Verwalten und Personalisieren von Inhalten; Echtzeit-Logik zur Auswahl des besten Angebots für jede Person. [Inhalte entwerfen](../content-management/get-started-content.md) | [Angebote verwalten](../offers/get-started/starting-offer-decisioning.md)
+* **Inhalte und Angebote** - Tools zum Erstellen, Verwalten und Personalisieren von Inhalten; Echtzeit-Logik zur Auswahl des besten Angebots für jede Person. [Inhalte entwerfen](../../rp_landing_pages/content-management-landing-page.md) | [Angebote verwalten](../offers/get-started/starting-offer-decisioning.md)
 * **Journey- und Kampagnenverwaltung** Automatisiert Interaktionssequenzen (Journey) oder plant einmalige zielgerichtete Nachrichten (Kampagnen). [Journey erstellen](../building-journeys/journey-gs.md) | [Erstellen von Kampagnen](../campaigns/get-started-with-campaigns.md)
 * **Versand (Verbindungen)** : Versendet Nachrichten über Kanäle wie E-Mail, SMS, Push-Benachrichtigungen und Briefpost; exportiert Daten in externe Systeme. [Konfigurieren der Kanäle](../configuration/get-started-configuration.md)
-* **Messung und Analyse** - Verfolgt die Kundeninteraktion und die Kampagnenleistung mit Berichten zur kontinuierlichen Verbesserung. [Anzeigen von Berichten](../reports/campaign-global-report.md)
+* **Messung und Analyse** - Verfolgt die Kundeninteraktion und die Kampagnenleistung mit Berichten zur kontinuierlichen Verbesserung. [Anzeigen von Berichten](../reports/campaign-global-report-cja.md)
 
 ### Der kontinuierliche Optimierungszyklus {#optimization-cycle}
 
@@ -56,7 +56,7 @@ Journey Optimizer umfasst sieben wichtige Funktionsbereiche, die nahtlos zusamme
 |-----------------|---------|----------------|
 | **Daten-Management** | Kundendaten organisieren | Schemata definieren, Datensätze erstellen, Daten aus verschiedenen Systemen importieren. [Weitere Informationen](../data/get-started-schemas.md) |
 | **Kundenverwaltung** | Verstehen, wer Ihre Kundschaft ist | Einheitliche Profile erstellen, Identitäten auflösen, Audiences erstellen. [Weitere Informationen](../audience/get-started-profiles.md) |
-| **Content-Management** | Personalisierte Nachrichten erstellen | Entwerfen von E-Mails, Verwalten von Assets, Erstellen von Vorlagen und Fragmenten, Personalisieren von Inhalten [Weitere Informationen](../content-management/get-started-content.md) |
+| **Content-Management** | Personalisierte Nachrichten erstellen | Entwerfen von E-Mails, Verwalten von Assets, Erstellen von Vorlagen und Fragmenten, Personalisieren von Inhalten [Weitere Informationen](../../rp_landing_pages/content-management-landing-page.md) |
 | **Entscheidungs-Management** | Auswahl des besten Angebots in Echtzeit | Angebotsbibliothek verwalten, Regeln definieren, Einschränkungen anwenden und Ranking-Logik einrichten. [Weitere Informationen](../offers/get-started/starting-offer-decisioning.md) |
 | **Journey-Verwaltung** | Entwerfen automatisierter Kundenerlebnisse | Erstellen Sie Journey mit Visual Designer, legen Sie Trigger fest, fügen Sie Bedingungen hinzu und warten Sie Schritte. [Weitere Informationen](../building-journeys/journey-gs.md) |
 | **Verbindungen** | Verbinden von Datenquellen und Kanälen | Quell-Connectoren konfigurieren, Kanäle einrichten, Verbindungen zu externen Plattformen herstellen. [Weitere Informationen](../configuration/get-started-configuration.md) |

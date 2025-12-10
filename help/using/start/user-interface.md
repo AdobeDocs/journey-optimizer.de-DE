@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 34%
@@ -21,7 +21,7 @@ Um auf Adobe Journey Optimizer zuzugreifen, melden Sie sich bei [Adobe Experienc
 
 >[!NOTE]
 >
->* Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen hängen von Ihren [&#x200B; (Berechtigungen](../administration/permissions.md) und [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab.
+>* Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen hängen von Ihren [ (Berechtigungen](../administration/permissions.md) und [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab.
 >* Diese Dokumentation wird häufig aktualisiert. Einige Screenshots können leicht von Ihrer Benutzeroberfläche abweichen.
 
 ## kurzer Überblick {#quick-tour}
@@ -46,14 +46,14 @@ Im linken Navigationsbereich sind Journey Optimizer-Funktionen in funktionale Ka
 **Journey-**: Kundenerlebnisse erstellen und verwalten
 * **Kampagnen** - Erstellen Sie einmalige oder geplante Nachrichten für bestimmte Zielgruppen. [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)
 * **Journey** - Erstellen Sie mehrstufige, kanalübergreifende Kundenerlebnisse. [Erstellen Ihrer ersten Journey](../building-journeys/journey-gs.md)
-* **Berichte** - Leistungsanalyse mit integriertem Customer Journey Analytics-Reporting. [Anzeigen der Reporting-Dokumentation](../reports/campaign-global-report.md)
+* **Berichte** - Leistungsanalyse mit integriertem Customer Journey Analytics-Reporting. [Anzeigen der Reporting-Dokumentation](../reports/campaign-global-report-cja.md)
 
 **Entscheidungs-Management** - Verwalten personalisierter Angebote. [Erfahren Sie mehr über Entscheidungs-Management](../offers/get-started/starting-offer-decisioning.md)
 * **Angebote** - Personalisierte Angebote erstellen und verwalten
 * **Komponenten**: Richten Sie Platzierungen, Regeln und Tags für Angebote ein.
 
 **Content-Management** - Erstellen und Organisieren von Inhalten
-* **Assets** - Zentralisiertes Repository für Bilder und Medien. [Verwalten von Assets](../content-management/assets.md)
+* **Assets** - Zentralisiertes Repository für Bilder und Medien. [Verwalten von Assets](../integrations/assets.md)
 * **Inhaltsvorlagen** - Wiederverwendbare Nachrichtenvorlagen für Kampagnen und Journey. [Erstellen von Vorlagen](../content-management/content-templates.md)
 * **Fragmente** - Inhaltsblöcke, die über mehrere Nachrichten hinweg verwendet werden können. [Arbeiten mit Fragmenten](../content-management/fragments.md)
 * **Landingpages** - Web-Formulare für Abonnements und Voreinstellungen. [Landingpages entwerfen](../landing-pages/get-started-lp.md)
@@ -65,7 +65,7 @@ Im linken Navigationsbereich sind Journey Optimizer-Funktionen in funktionale Ka
 * **Überwachung** - Verfolgen der Datenaufnahme
 
 **Verbindungen** - Integration mit anderen Systemen
-* **Quellen** - Aufnehmen von Daten aus externen Systemen. [Quellen konfigurieren](../data/get-started-sources.md)
+* **Quellen** - Aufnehmen von Daten aus externen Systemen. [Quellen konfigurieren](get-started-sources.md)
 * **Ziele** - Exportieren von Daten in den Cloud-Speicher. [Ziele einrichten](../data/export-datasets.md)
 
 **Kunde** - Zielgruppen und Profile verwalten
@@ -82,7 +82,7 @@ Im linken Navigationsbereich sind Journey Optimizer-Funktionen in funktionale Ka
 
 **Administration** - Systemeinstellungen konfigurieren. [Zugriffskontrolle – Übersicht](../administration/permissions-overview.md)
 * **Konfigurationen** - Richten Sie Ereignisse, Datenquellen und Aktionen ein. [Konfigurieren der Kanäle](../configuration/get-started-configuration.md)
-* **Geschäftsregeln** - Kontrollieren Sie die Häufigkeit von Nachrichten und den Journey-Eintrag. [Einrichten von Geschäftsregeln](../configuration/frequency-rules.md)
+* **Geschäftsregeln** - Kontrollieren Sie die Häufigkeit von Nachrichten und den Journey-Eintrag. [Einrichten von Geschäftsregeln](../conflict-prioritization/rule-sets.md)
 * **Warnhinweise** - Anzeigen und Verwalten von Systemwarnhinweisen. [Überwachen von Warnhinweisen](../reports/alerts.md)
 * **Sandboxes** - Umgebungen verwalten und Objekte zwischen Sandboxes kopieren. [Arbeiten mit Sandboxes](../administration/sandboxes.md)
 * **Kanäle** - Kanaleinstellungen und Zustellbarkeit konfigurieren
