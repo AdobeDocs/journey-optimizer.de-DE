@@ -11,10 +11,10 @@ level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
+source-git-commit: abdce896a63f7d1eee7b45fea025405bf88cad2a
+workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 * **Unterstützte Kanäle**: Die Datensatzsuche mit Entscheidungsfindung funktioniert derzeit für benutzerdefinierte E-Mail- und Journey-Aktionen. <!--Support for code-based experience channels is coming soon.-->
 * **Attributverwendung**: Die Datensatzsuchfunktion für die Entscheidungsfindung erweitert Entscheidungselementdefinitionen mit zusätzlichen Attributen. Attribute werden nicht auf Profile erweitert.
-* Suchgrenzwerte: [!DNL Journey Optimizer] unterstützt bis zu 1.000 Suchen pro Entscheidungsrichtlinie.
+* **Lookup-Limits**: [!DNL Journey Optimizer] unterstützt bis zu 1.000 Suchen pro Entscheidungsrichtlinie.
 
 ## Voraussetzungen
 
