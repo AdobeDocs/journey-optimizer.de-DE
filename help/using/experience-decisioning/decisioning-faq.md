@@ -6,11 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 54ed4dec71703a0444920baf4fb0a2d8318034cd
+source-git-commit: 74f8db8f71cbf51260868a93702a563b3c0d4a2d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -65,12 +63,12 @@ Wenn mehrere Angebote gleichzeitig entfernt werden und die verbleibenden Angebot
 
 KI-Modelle identifizieren und beginnen mit dem Testen neu verfügbarer Angebote im nächsten Trainings-Zyklus:
 
-* **Automatische Optimierung**: Täglich
-* **Personalisierte Optimierung**: Wöchentlich
+* **Automatische Optimierung** identifiziert und beginnt mit dem Testen neuer Angebote im nächsten Schulungszyklus. Das Training zur automatischen Optimierung findet 3- bis 4-mal täglich, etwa alle 6 Stunden, statt.
+* **Personalisierte Optimierung** identifiziert und beginnt mit dem Testen neuer Angebote, während sie zur Angebotsstrategie hinzugefügt werden. Sie werden in den zufälligen Explorations-Traffic einbezogen. Anschließend werden diese Angebote im nächsten Trainings-Zyklus des Modells personalisiert, der wöchentlich stattfindet.
 
 Sobald sie identifiziert sind, beginnen beide Modelle sofort damit, einigen Besuchern die neuen Angebote zu unterbreiten, um ihre Leistung zu testen und Daten über ihre Effektivität zu sammeln.
 
-Erfahren Sie mehr über [automatische Optimierung](ranking/auto-optimization-model.md) und [personalisierte &#x200B;](ranking/personalized-optimization-model.md)).
+Erfahren Sie mehr über [automatische Optimierung](ranking/auto-optimization-model.md) und [personalisierte ](ranking/personalized-optimization-model.md)).
 
 +++
 
