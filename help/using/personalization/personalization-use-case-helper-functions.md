@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 'Anwendungsfall für Personalisierung: E-Mail zum Warenkorbabbruch'
 description: Erfahren Sie mithilfe eines Anwendungsbeispiels, wie Sie den Textkörper einer E-Mail-Nachricht personalisieren können.
-feature: Personalization
+feature: Personalization, Use Cases
 topic: Personalization
 role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Helper, Anwendungsfall, Personalisierung
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%

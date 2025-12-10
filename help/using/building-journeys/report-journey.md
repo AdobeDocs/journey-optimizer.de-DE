@@ -3,17 +3,17 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Veröffentlichen der Journey
 description: Erfahren Sie, wie Sie über Ihre Journey berichten können
-feature: Journeys
+feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -52,17 +52,17 @@ Für jede Aktivität in jeder Journey im Live- oder [Probelauf-Modus](journey-dr
 
 ## Fehlerbehebung bei fehlenden Berichtsdaten {#troubleshooting-missing-data}
 
-Wenn in Ihren Journey-Berichten nicht die erwarteten Daten angezeigt werden, beachten Sie Folgendes:
+Wenn in Ihren Journey-Berichten nicht die erwarteten Daten angezeigt werden, prüfen Sie Folgendes:
 
-* **Synchronisierung des Journey-Namens**: Stellen Sie sicher, dass der Journey-Name in Adobe Journey Optimizer mit dem im Berichtsdatensatz gespeicherten Namen übereinstimmt. Wenn diese Namen nicht übereinstimmen, können Berichtsdaten nicht korrekt angezeigt werden.
+* **Synchronisierung des Journey-Namens**: Stellen Sie sicher, dass der Journey-Name in Adobe Journey Optimizer mit dem im Berichtsdatensatz gespeicherten Namen übereinstimmt. Wenn diese Namen nicht übereinstimmen, kann dies zu nicht korrekten Berichtsdaten führen.
 
-* **Zeitpunkt der Datenaktualisierung**: Warten Sie nach dem Aktualisieren eines Journey-Namens oder einer Konfiguration so lange, bis die Daten aktualisiert wurden. Reporting-Daten werden in der Regel innerhalb weniger Minuten angezeigt, können aber in einigen Fällen auch länger dauern.
+* **Zeitpunkt der Datenaktualisierung**: Warten Sie nach dem Aktualisieren eines Journey-Namens oder einer Konfiguration so lange, bis die Daten aktualisiert wurden. Berichtsdaten werden in der Regel innerhalb weniger Minuten angezeigt, dies kann aber in einigen Fällen auch länger dauern.
 
-* **Zugriffsberechtigungen**: Stellen Sie sicher, dass Sie über die erforderlichen Berechtigungen zum Anzeigen von Journey-Berichten verfügen. Wenn keine Daten angezeigt werden, wenden Sie sich an Ihren Administrator, um zu überprüfen, ob die Berechtigung **[!UICONTROL Bericht zu Journey anzeigen]** aktiviert ist. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
+* **Zugriffsberechtigungen**: Stellen Sie sicher, dass Sie über die erforderlichen Berechtigungen zum Anzeigen von Journey-Berichten verfügen. Wenn keine Daten angezeigt werden, wenden Sie sich an Ihre bzw. Ihren Admin, um zu überprüfen, ob die Berechtigung **[!UICONTROL Journey-Berichte anzeigen]** aktiviert ist. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
 
-* **Journey-Status**: Reporting-Daten sind nur für veröffentlichte Journey oder Journey im [Dry Run-Modus](journey-dry-run.md) verfügbar. Journey-Entwürfe generieren keine Berichtsdaten.
+* **Journey-Status**: Berichtsdaten sind nur für veröffentlichte Journeys oder Journeys im [Probelauf-Modus](journey-dry-run.md) verfügbar. Journeys im Entwurfsmodus generieren keine Berichtsdaten.
 
-Wenn nach der Überprüfung dieser Elemente weiterhin Probleme auftreten, wenden Sie sich an Ihren Adobe-Administrator oder den Adobe-Support.
+Wenn nach der Überprüfung dieser Punkte weiterhin Probleme auftreten, wenden Sie sich an Ihre bzw. Ihren Adobe-Admin oder an den Adobe-Support.
 
 >[!MORELIKETHIS]
 >

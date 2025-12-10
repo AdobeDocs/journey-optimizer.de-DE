@@ -3,9 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Leitfaden zu Inhalts-Prompts des KI-Assistenten
 description: Erfahren Sie, wie Sie mit dem CO-STAR-Framework effektive Prompts zur KI-gestützten Inhaltsgenerierung erstellen können, um markenkonforme Marketing-Inhalte mit hohen Konversionsraten zu erstellen.
+topic: Artificial Intelligence
 role: User
 level: Intermediate
-source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 100%

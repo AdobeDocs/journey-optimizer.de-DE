@@ -4,13 +4,14 @@ product: journey optimizer
 title: Übersicht über den KI-Service
 description: Übersicht über den KI-Service
 feature: Journeys, Integrations
+topic: Artificial Intelligence
 role: User
 level: Intermediate
 keywords: künstlich, KI, intelligent, Journey, Service
 exl-id: 20da09e1-0611-4d27-a589-30552011e06c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 100%
 

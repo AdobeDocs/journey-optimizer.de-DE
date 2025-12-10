@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Anwendungsfälle für Landingpages
 description: Entdecken Sie die häufigsten Anwendungsfälle für Landingpages in Journey Optimizer
-feature: Landing Pages, Subscriptions
+feature: Landing Pages, Subscriptions, Use Cases
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
-workflow-type: ht
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 100%
 

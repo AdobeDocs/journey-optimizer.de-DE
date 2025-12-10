@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Fehlerbehebung vor dem Testen oder Veröffentlichen der Journey
 description: Informationen zum Beheben von Fehlern vor dem Testen oder Veröffentlichen der Journey
-feature: Journeys
+feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
 
