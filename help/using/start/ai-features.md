@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 26f9228bacee5865cbc368cf2e3db02370d43a4b
+source-git-commit: 4847276532155a698cf997e22a0894c737208595
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 3%
+source-wordcount: '1479'
+ht-degree: 4%
 
 ---
 
@@ -70,32 +70,38 @@ Aufbauend auf den Gesprächsfunktionen des KI-Assistenten bietet Adobe Journey O
 
 Der [Journey Analyze Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} unterstützt Sie bei der Optimierung der Journey-Leistung durch eine Analyse in natürlicher Sprache:
 
-**Schlüsselfunktionen:**
++++**Schlüsselfunktionen**
 
 * **Journey-Fallout-Analyse** - Ermitteln Sie, wo und warum Kundinnen und Kunden während der Journey abbrechen, und erkennen Sie Abkoppelungsmuster
 * **Erkennung von Zielgruppenüberschneidungen** - Analysieren Sie Zielgruppenüberschneidungen über mehrere Journey hinweg, um Überermüdung durch Targeting zu verhindern.
 * **Konflikterkennung planen** - Identifizieren Sie Zeitkonflikte zwischen terminierten Journey, die dieselbe Zielgruppe ansprechen
 * **Operative Einblicke** - Erhalten Sie sofortige Einblicke wie „Alle Live-Journey anzeigen“ oder „Welche Zielgruppen werden in mehr als X Journey verwendet?“
 
-**Beispielaufforderungen:**
++++
+
++++**Beispielaufforderungen**
 
 * „Fallout-Analyse für Journey durchführen \[Journey-Name\]&quot;
 * „Gibt es Planungskonflikte für Journey \[Journey-Name\]?“
 * „Konflikte bei Zielgruppenüberschneidungen für Journey zeigen \[Journey-Name\]&quot;
 * „Welche Zielgruppen werden in mehr als fünf Journey verwendet?“
 
-**Erforderliche Berechtigungen:**
++++
+
++++**Berechtigungen erforderlich**
 
 * **Journey anzeigen** - Einblicke in Journey direkt im KI-Assistenten anzeigen
 * **Journey verwalten** - Erstellen Sie neue Journey direkt im KI-Assistenten
 * **Segmente anzeigen** - Einblicke in Zielgruppen anzeigen
 * **Segmente verwalten** - Erstellen neuer Zielgruppen direkt im KI-Assistenten
 
++++
+
 ### Experimentiermittel {#experimentation-agent}
 
 Der [Experimentationsagent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} modernisiert die Ausführung und Verwaltung digitaler Experimente auf Websites, E-Mails, Push-Nachrichten und Anwendungen:
 
-**Schlüsselfunktionen:**
++++**Schlüsselfunktionen**
 
 * **Leistungsanalyse** - Klare Sicht auf die Ereignisse in den Experimenten
 * **Insights-Generierung** - Erklärung, warum Ergebnisse aufgetreten sind
@@ -103,7 +109,9 @@ Der [Experimentationsagent](https://experienceleague.adobe.com/de/docs/experienc
 * **Inhaltsanalyse** - Untersuchen Sie Messaging-Elemente, um zu verstehen, warum bestimmte Behandlungen andere übertroffen haben
 * **Empfehlungsgenerierung** - Vorschläge für neue Behandlungen oder Anpassungen auf der Grundlage von Einblicken
 
-**Beispielaufforderungen:**
++++
+
++++**Beispielaufforderungen**
 
 * „Welche Experimente werden für \[Kampagnenname\] ausgeführt?“
 * „Welche Behandlung führt für mein \[Experimentname\]?“
@@ -111,16 +119,20 @@ Der [Experimentationsagent](https://experienceleague.adobe.com/de/docs/experienc
 * „Was empfehle ich nach diesem Experiment als Nächstes zu tun?“
 * „Welche allgemeinen Muster ergeben sich aus den jüngsten Tests?“
 
-**Erforderliche Berechtigungen:**
++++
+
++++**Berechtigungen erforderlich**
 
 * **Experimente anzeigen** - Einblicke in Experimente im KI-Assistenten
 * **Verwalten von Experimentmetadaten** - Erstellen neuer Experimente im KI-Assistenten
 
 **Hinweis:** Verfügbar mit Journey Optimizer Experimentation Accelerator-Lizenz.
 
++++
+
 ### Zusätzliche KI-Agenten
 
-**Audience Agent** - Für die konversative Audience-Exploration und -Verwaltung in Adobe Experience Platform, einschließlich Duplikaterkennung und Größenverfolgung. [Erfahren Sie mehr über Audience Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - Für die konversative Audience-Exploration und -Verwaltung in Adobe Experience Platform, einschließlich Duplikaterkennung und Größenverfolgung. [Erfahren Sie mehr über Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
 **Agent Orchestrator** - Koordiniert mehrere spezialisierte Agenten, um komplexe, mehrstufige Marketing-Herausforderungen zu lösen. Der Orchestrator bestimmt automatisch, welche Agenten beteiligt werden sollen, und sequenziert ihre Arbeit effizient. [Erfahren Sie mehr über Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
@@ -130,24 +142,15 @@ KI-Agenten stehen Kunden mit Zugriff auf den KI-Assistenten zur Verfügung. Wend
 
 ## KI-gestützte Inhaltserstellung {#content-generation}
 
-Verwenden Sie generative KI, um Inhalte über mehrere Kanäle hinweg zu erstellen und zu personalisieren, und beschleunigen Sie so Ihren Inhaltserstellungsprozess bei gleichzeitiger Wahrung der Markenkonsistenz.
-
-### Unterstützte Kanäle
-
-Der KI-Assistent für die Inhaltserstellung ist verfügbar für:
-
-* **E** Mail: Generieren von Betreffzeilen, Textkörper und Bildern
-* **Push-Benachrichtigungen** - Erstellen ansprechender Benachrichtigungsinhalte
-* **SMS** - Schreiben Sie knappe, überzeugende Textnachrichten
-* **Web** - Generieren von Inhalten und Erlebnissen von Web-Seiten
+Verwenden Sie generative KI, um Inhalte über mehrere Kanäle hinweg zu erstellen und zu personalisieren, und beschleunigen Sie so Ihren Inhaltserstellungsprozess bei gleichzeitiger Wahrung der Markenkonsistenz. Der KI-Assistent für die Inhaltserstellung ist für [E-Mail](../email/get-started-email.md)-, [Push-](../push/get-started-push.md)-, [SMS](../sms/get-started-sms.md)- und [Web](../web/get-started-web.md)-Erlebnisse verfügbar, mit denen Sie Betreffzeilen, Textkörper, Bilder und vollständige Nachrichtenvarianten generieren können.
 
 ### Wichtigste Funktionen
 
-* **Textgenerierung** - Erstellen Sie eine überzeugende Kopie basierend auf Ihrer Markensprache und Ihren Zielen
-* **Bildgenerierung** - Generieren benutzerdefinierter Bilder mit Adobe Firefly
-* **Inhaltsvarianten** - Erstellen mehrerer Varianten für A/B-Tests
-* **Markenausrichtung** Stellen Sie sicher, dass der generierte Inhalt mit Ihren Markenrichtlinien übereinstimmt
-* **Vorlagenunterstützung** - Vorhandene E-Mail-Vorlagen nutzen
+* **Textgenerierung** - Erstellen Sie eine überzeugende Kopie basierend auf Ihrer Markensprache und Ihren Zielen. [Text mit KI generieren](../content-management/generative-text.md)
+* **Bildgenerierung** - Generieren benutzerdefinierter Bilder mit Adobe Firefly. [Erzeugen von Bildern mit KI](../content-management/generative-image.md)
+* **Inhaltsvarianten** - Erstellen Sie mehrere Varianten für A/B-Tests. [Inhaltsexperiment mit KI](../content-management/generative-experimentation.md)
+* **Markenausrichtung** Stellen Sie sicher, dass der generierte Inhalt Ihren Markenrichtlinien entspricht. [Bewertung der Markenausrichtung](../content-management/brands-score.md)
+* **Vorlagenunterstützung** - Nutzen Sie Ihre vorhandenen E-Mail-Vorlagen. [Arbeiten mit Inhaltsvorlagen](../content-management/content-templates.md)
 
 ### Best Practices
 
@@ -169,25 +172,12 @@ Die Sendezeitoptimierung analysiert historische Interaktionsdaten (Öffnungen un
 
 ### Verwendungszeitpunkt
 
-**Am besten geeignet für:**
-
-* Marketing-Kampagnen und Newsletter
-* Werbebotschaften
-* Lehrreiche Inhalte
-* Interaktionskampagnen
-
-**Nicht empfohlen für:**
-
-* Zeitkritische Betriebsmeldungen (Bestellbestätigungen, Kennwortzurücksetzung)
-* Dringende Benachrichtigungen (Flugverspätungen, Notfallalarme)
-* Ereignisbasierte Nachrichten mit spezifischen Timing-Anforderungen
-
-### Konfigurationstipps
-
-* **30 Tage warten** - Erfassen Sie vor der Aktivierung mindestens 30 Tage historische E-Mail- oder Push-Daten
-* **Optimale Wartezeiten festlegen** - Verwenden Sie 6-24 Stunden für optimale Ergebnisse (kürzere Optimierungsgrenzen; längere Werte können zu veralteten Inhalten führen).
-* **Wählen Sie die richtige Metrik** - Für Klicks optimieren (Nachrichten, die eine Aktion auslösen) oder Öffnungen (Awareness-Nachrichten)
-* **Sendungen am Morgen planen** - Beginnen Sie bei Push-Benachrichtigungen früh am Tag, um einen Versand über Nacht zu vermeiden
+| Geeignet für | Nicht empfohlen für |
+|----------|---------------------|
+| Marketing-Kampagnen und Newsletter | Zeitkritische Betriebsmeldungen (Bestellbestätigungen, Kennwortzurücksetzung) |
+| Werbebotschaften | Dringende Benachrichtigungen (Flugverspätungen, Notfallalarme) |
+| Lehrreiche Inhalte | Ereignisbasierte Nachrichten mit spezifischen Timing-Anforderungen |
+| Interaktionskampagnen | |
 
 [Informationen zur Versandzeitoptimierung](../building-journeys/send-time-optimization.md)
 
@@ -209,7 +199,7 @@ Erstellen Sie intelligente Ranking-Modelle, die automatisch optimieren, welche A
    * Innerhalb der letzten 14 Tage
 * Maximal 5 KI-Rangfolgemodelle pro Organisation
 
-[Weitere Informationen zu KI-Modellen für die Entscheidungsfindung](../experience-decisioning/ranking/ai-models.md)
+[Erfahren Sie mehr über KI-Modelle für die Entscheidungsfindung](../experience-decisioning/ranking/ai-models.md) | [Erstellen von KI-Rangfolgemodellen](../experience-decisioning/ranking/create-ai-models.md)
 
 ## Inhaltsexperimente mit KI {#experimentation}
 
@@ -228,6 +218,8 @@ Schlüsselfunktionen:
 
 Anwendungsfall-Playbooks sind vorgefertigte Workflows, mit denen Sie gängige Marketing-Szenarien schnell implementieren können. Jedes Playbook enthält einsatzbereite Journey, Nachrichten, Schemata und Segmente.
 
+![Benutzeroberfläche für Anwendungsfälle - Playbooks](assets/playbooks-filter.png)
+
 ### Funktionsweise von Playbooks
 
 1. **Durchsuchen Sie** Playbook-Bibliothek, um Anwendungsfälle zu finden, die Ihren Zielen entsprechen
@@ -245,15 +237,15 @@ Durchsuchen Sie Journey Optimizer-Playbooks nach gängigen Szenarien wie:
 * Geburtstagsnachrichten
 * Rückgewinnungskampagnen
 
-### Voraussetzungen
++++**Voraussetzungen**
 
 * Sandbox mit entsprechenden Berechtigungen
 * Kanalkonfigurationen für E-Mail, Push und/oder SMS
 * Benutzerberechtigungen zum Erstellen von Journey und Nachrichten
 
-![Benutzeroberfläche für Anwendungsfälle - Playbooks](assets/playbooks-filter.png)
++++
 
-[Alle verfügbaren Playbooks anzeigen](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=de){target="_blank"} | [Weitere Informationen finden Sie in der Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=de){target="_blank"}
+[Alle verfügbaren Playbooks anzeigen](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=de){target="_blank"} | [Weitere Informationen finden Sie in der Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Zusätzliche KI-Funktionen {#additional-capabilities}
 
@@ -273,10 +265,10 @@ Bewerten Sie, wie gut Ihre Inhalte mit Ihren Markenrichtlinien übereinstimmen, 
 
 +++**Welche Berechtigungen benötige ich für KI-Funktionen?**
 
-* **KI-Assistent für die Inhaltserstellung** - Erfordert die Berechtigung „Inhalt generieren“
-* **KI-Assistent -** Zustimmung zu den Adobe Generative AI-Benutzerrichtlinien erforderlich
-* **Journey Analyze Agent** - Erfordert die Berechtigungen &quot;Journey anzeigen/verwalten“ und „Segmente anzeigen/verwalten“
-* **Experimentationsagent**: Erfordert die Berechtigungen „Experimente anzeigen“ und „Experimentmetadaten verwalten“
+* **[KI-Assistent für die Inhaltserstellung](#content-generation)** - Erfordert die Berechtigung „Inhalt generieren“
+* **[KI-Assistent](#ai-assistant)** Produktwissen - Erfordert Zustimmung zu den Adobe Generative AI-Benutzerrichtlinien
+* **[Journey Analyze Agent](#journey-agent)** - Erfordert die Berechtigungen &quot;Journey anzeigen/verwalten“ und „Segmente anzeigen/verwalten“
+* **[Experimentationsagent](#experimentation-agent)**: Erfordert die Berechtigungen „Experimente anzeigen“ und „Experimentmetadaten verwalten“
 
 Alle KI-Agenten benötigen Zugriff auf den KI-Assistenten und stimmen den Adobe Experience Cloud Generative AI-Benutzerrichtlinien zu.
 
@@ -286,31 +278,20 @@ Alle KI-Agenten benötigen Zugriff auf den KI-Assistenten und stimmen den Adobe 
 
 +++**Ist KI-generierter Inhalt immer korrekt?**
 
-Nein. Überprüfen Sie immer die KI-generierten Inhalte auf Genauigkeit und Markentauglichkeit. Verwenden Sie die Feedback-Tools (Daumen hoch/runter), um die Modelle zu verbessern.
+Nein. Überprüfen Sie [KI-generierte Inhalte](#content-generation) immer auf Genauigkeit und Markenangemessenheit. Verwenden Sie die Feedback-Tools (Daumen hoch/runter), um die Modelle zu verbessern.
 
 +++
 
 +++**Was sind die wichtigsten Einschränkungen?**
 
-* **Optimierung des Versandzeitpunkts** - Nur für E-Mails und Push-Benachrichtigungen in Journey verfügbar; erfordert einen 30-tägigen Schulungszeitraum
-* **KI-Inhaltserstellung** - Nicht verfügbar für Briefpost, Inhaltskarten, LINE oder WhatsApp
-* **KI-Rangfolgemodelle** - Maximal 5 Modelle pro Organisation; erfordert minimale Interaktionsdaten
+* **[Optimierung des Versandzeitpunkts](#send-time-optimization)** - Nur für E-Mails und Push-Benachrichtigungen in Journey verfügbar; erfordert einen 30-tägigen Schulungszeitraum
+* **[KI-Inhaltserstellung](#content-generation)** - Nicht verfügbar für Briefpost, Inhaltskarten, LINE oder WhatsApp
+* **[KI-Rangfolgemodelle](#ai-decisioning)** - Maximal 5 Modelle pro Organisation; erfordert minimale Interaktionsdaten
 
 +++
 
 +++**Wie erhalte ich Zugriff auf diese Funktionen?**
 
-Die meisten KI-Funktionen sind in Adobe Journey Optimizer enthalten. Einige Funktionen wie Sendezeitoptimierung oder KI-Agenten müssen möglicherweise von Adobe aktiviert werden. Wenden Sie sich an den Adobe-Support, um weitere Informationen zu Ihrer spezifischen Lizenz und den verfügbaren Funktionen zu erhalten.
+Die meisten KI-Funktionen sind in Adobe Journey Optimizer enthalten. Einige Funktionen wie [Sendezeitoptimierung](#send-time-optimization) oder [KI-Agenten](#ai-agents) müssen möglicherweise von Adobe aktiviert werden. Wenden Sie sich an den Adobe-Support, um weitere Informationen zu Ihrer spezifischen Lizenz und den verfügbaren Funktionen zu erhalten.
 
 +++
-
->[!MORELIKETHIS]
->
->* [Erste Schritte mit dem KI-Assistenten für die Inhaltserstellung](../content-management/gs-generative.md)
->* [KI-Assistent in Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}
->* [Journey Analyze Agent-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
->* [Dokumentation zum Experimentationsagenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
->* [Handbuch zur Sendezeitoptimierung](../building-journeys/send-time-optimization.md)
->* [Erstellen von KI-Rangfolgemodellen](../experience-decisioning/ranking/create-ai-models.md)
->* [Dokumentation zu Playbooks für Anwendungsfälle](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=de){target="_blank"}
-
