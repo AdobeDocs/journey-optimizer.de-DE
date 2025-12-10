@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
+source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 99%
+source-wordcount: '2995'
+ht-degree: 98%
 
 ---
 
@@ -32,24 +32,22 @@ ht-degree: 99%
    + [Verbesserte Journey-Arbeitsfläche](using/rn/new-canvas.md)
 + Erste Schritte {#get-started}
    + [Erste Schritte](/help/rp_landing_pages/get-started-landing-page.md)
-   + [Wichtige Funktionen](using/start/get-started.md)
-   + [Architektur](using/start/architecture-concepts-redpen.md)
-   + [Grundlegende Konzepte](using/start/functional-areas-redpen.md)
-   + [Wichtige Terminologie](using/start/terminology-md-redpen.md)
-   + Rollen und Verantwortlichkeiten {#quick-start}
-      + [Überblick](using/start/quick-start.md)
+   + Grundlagen {#essentials}
+      + [Was ist Journey Optimizer?](using/start/get-started.md)
+      + [Funktionsweise verstehen](using/start/understanding-ajo.md)
+      + [Wichtige Terminologie](using/start/terminology.md)
+      + [Leitlinien und Einschränkungen](using/start/guardrails.md)
+   + Erste Schritte nach Rolle {#by-role}
+      + [Wählen Sie Ihren Lernpfad](using/start/quick-start.md)
       + [Erste Schritte als Marketer](using/start/path/marketer.md)
       + [Erste Schritte als Datentechniker](using/start/path/data-engineer.md)
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
-   + Benutzeroberfläche {#ui}
-      + [Erste Schritte mit der Oberfläche](using/start/user-interface.md)
-      + [Suchen, Filtern, Kategorisieren](using/start/search-filter-categorize.md)
+   + Effizient arbeiten {#work-efficiently}
+      + [Navigieren in der Benutzeroberfläche](using/start/user-interface.md)
+      + [Suchen, Filtern und Organisieren](using/start/search-filter-categorize.md)
+      + [KI und intelligente Funktionen](using/start/ai-features.md)
       + [Barrierefreiheit](using/start/accessibility.md)
-   + [Mit dem KI-Assistenten arbeiten](using/start/ai-assistant.md)
-   + [KI-Funktionen in AJO](/help/rp_landing_pages/ai-capabilities-landing-page.md)
-   + [Anwendungsfall-Playbooks](using/start/playbooks.md)
-   + [Leitlinien und Einschränkungen](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
    + [Journeys](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)

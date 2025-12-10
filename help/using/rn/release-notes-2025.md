@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 100%
@@ -1403,7 +1403,7 @@ Zusätzlich zu den vorhandenen Funktionen für den Testversand stehen neue APIs 
 
 **Playbooks für Anwendungsfälle**
 
-* **Erstellung und Freigabe von Playbooks (Private Beta)** – Sie können nun eigene Playbooks für Anwendungsfälle erstellen, verwalten und freigeben. Diese Funktion ist derzeit nur für eine Reihe von Organisationen als Private Beta verfügbar. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support. [Weitere Informationen](../start/playbooks.md)
+* **Erstellung und Freigabe von Playbooks (Private Beta)** – Sie können nun eigene Playbooks für Anwendungsfälle erstellen, verwalten und freigeben. Diese Funktion ist derzeit nur für eine Reihe von Organisationen als Private Beta verfügbar. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support. [Weitere Informationen](../start/ai-features.md#playbooks)
 
 **Navigation**
 
