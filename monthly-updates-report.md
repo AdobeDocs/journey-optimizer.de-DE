@@ -5,7 +5,7 @@ title: Monatlicher Bericht zu Dokumentationsaktualisierungen
 description: Liste der neuen und aktualisierten Dokumentationsseiten
 hide: true
 hidefromtoc: true
-source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
+source-git-commit: a65c35ee1b1257afffa617f9bcd30b06331c9f5f
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 - [Erste Schritte mit Code-basierten Erlebnissen](help/using/code-based/get-started-code-based.md) - 22. November
 - [Vorschau und Test Ihres Inhalts](help/using/content-management/preview.md) - 22. November
 - [Konfiguration des Web-Kanals](help/using/web/web-configuration.md) - 22. November
-- [Erstellen eines Testprofils](help/using/building-journeys/creating-test-profiles.md) - 22. November
+- [Erstellen eines Testprofils](help/using/audience/creating-test-profiles.md) - 22. November
 - [Testsendungen durchführen](help/using/content-management/proofs.md) - 22. November
 - [Testen von Inhaltsvorlagen](help/using/content-management/test-content-templates.md) - 22. November
 - [Testprofile verwenden](help/using/content-management/test-profiles.md) - 22. November
@@ -67,7 +67,7 @@ ht-degree: 0%
 - [CJA-Reporting zu Decisioning](help/using/experience-decisioning/cja-reporting.md) - 15. November
 - [Fragmente](help/using/content-management/fragments.md) - 15. November
 - [Erste Schritte mit Adobe Experience Platform-Zielgruppen](help/using/audience/about-audiences.md) - 14. November
-- [Verwenden benutzerdefinierter Upload-Zielgruppen für die Entscheidungsfindung (Federated Composition)](help/using/audience/custom-upload-fac.md) - 14. November
+- [Verwenden benutzerdefinierter Upload-Zielgruppen für die Entscheidungsfindung (Federated Composition)](help/using/audience/custom-upload.md) - 14. November
 - [Konfigurieren des Sinch-Anbieters](help/using/sms/sms-configuration-sinch.md) - 12. November
 - [Kampagnenberichte in Customer Journey Analytics](help/using/reports/channel-report-cja.md) - 12. November
 - [Journey-Berichte in Customer Journey Analytics](help/using/reports/journey-global-report-cja.md) - 12. November
@@ -76,12 +76,12 @@ ht-degree: 0%
 - [Erstellen und Verwalten von Sammlungen von Entscheidungselementen](help/using/experience-decisioning/collections.md) - 7. November
 - [Kontextdaten](help/using/experience-decisioning/context-data.md) - 7. November
 - [Erste Schritte mit Entscheidungsrichtlinien](help/using/experience-decisioning/create-decision.md) - 7. November
-- [Erste Schritte mit Experience &#x200B;](help/using/experience-decisioning/gs-experience-decisioning.md) - 7. November
+- [Erste Schritte mit Experience ](help/using/experience-decisioning/gs-experience-decisioning.md) - 7. November
 - [Entscheidungspunkte](help/using/experience-decisioning/items.md) - 7. November
-- [Decisioning-Rangfolgenmethoden](help/using/experience-decisioning/ranking.md) - 7. November
+- [Decisioning-Rangfolgenmethoden](help/using/experience-decisioning/ranking/ranking.md) - 7. November
 - [Regeln erstellen](help/using/experience-decisioning/rules.md) - 7. November
 - [Auswahlstrategien erstellen](help/using/experience-decisioning/selection-strategies.md) - 7. November
-- [Arbeiten mit Regelsätzen](help/using/configuration/rule-sets.md) - 6. November
+- [Arbeiten mit Regelsätzen](help/using/conflict-prioritization/rule-sets.md) - 6. November
 - [Entscheidungen erstellen](help/using/offers/offer-activities/create-offer-activities.md) - 5. November
 - [Erstellen einer Sammlung](help/using/offers/offer-library/creating-collections.md) - 5. November
 - [Personalisierte Angebote erstellen](help/using/offers/offer-library/creating-personalized-offers.md) - 5. November
@@ -143,7 +143,7 @@ ht-degree: 0%
 - [Definieren der API-ausgelösten Kampagneneigenschaften](help/using/campaigns/api-triggered-campaign-properties.md) - 23. Oktober
 - [Arbeiten mit API-ausgelösten Kampagnen](help/using/campaigns/api-triggered-campaigns.md) - 29. Oktober
 - [Konfigurieren der Kampagnenaktion](help/using/campaigns/campaign-action.md) - 29. Oktober
-- [Optimierung in Kampagnen und Journey &#x200B;](help/using/campaigns/campaigns-message-optimization.md) - 22. Oktober
+- [Optimierung in Kampagnen und Journey ](help/using/campaigns/campaigns-message-optimization.md) - 22. Oktober
 - [Erstellen einer Aktionskampagne](help/using/campaigns/create-campaign.md) - 29. Oktober
 - [Erste Schritte mit Kampagnen](help/using/campaigns/get-started-with-campaigns.md) - 29. Oktober
 - [Zugreifen auf und Verwalten von Kampagnen](help/using/campaigns/manage-campaigns.md) - 23. Oktober
@@ -156,9 +156,9 @@ ht-degree: 0%
 - [Arbeiten mit Regelsätzen](help/using/conflict-prioritization/rule-sets.md) - 27. Oktober
 - [Erstellen eines Inhaltsexperiments](help/using/content-management/content-experiment.md) - 15. Oktober
 - [Erstellen eines Fragments](help/using/content-management/create-fragments.md) - 7. Oktober
-- [Verwalten von &#x200B;](help/using/content-management/manage-fragments.md)) 7. Oktober
+- [Verwalten von ](help/using/content-management/manage-fragments.md)) 7. Oktober
 - [Beispiele für Datensatzabfragen](help/using/data/datasets-query-examples.md) - 17. Oktober
-- [Über Leitplanken für die Time-to-Live (TTL) von &#x200B;](help/using/data/datasets-ttl.md)-28. Oktober
+- [Über Leitplanken für die Time-to-Live (TTL) von ](help/using/data/datasets-ttl.md)-28. Oktober
 - [Erstellen einer Briefpostnachricht](help/using/direct-mail/create-direct-mail.md) - 15. Oktober
 - [Entwerfen barrierefreier Inhalte](help/using/email/accessible-content.md) - 25. Oktober
 - [Verwenden von E-Mail-Designer-Inhaltskomponenten](help/using/email/content-components.md) - 25. Oktober
