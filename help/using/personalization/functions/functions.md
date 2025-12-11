@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '2422'
-ht-degree: 100%
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+workflow-type: tm+mt
+source-wordcount: '2434'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Die Vorlagensprache wird in Hilfsfunktionen verwendet, die in der Dropdown-Liste
 
 >[!NOTE]
 >
->Die im Personalisierungseditor verfügbaren Funktionen und Fähigkeiten unterscheiden sich von denen im [erweiterten Journey-Ausdruckseditor](../../building-journeys/expression/expressionadvanced.md).
+>Die im Personalisierungseditor verfügbaren Funktionen und Leistungsmerkmale unterscheiden sich von denen im erweiterten Ausdruckseditor [Journey](../../building-journeys/expression/expressionadvanced.md). Beispielsweise ist die `now()` nur in Journey-Ausdrücken verfügbar. [Weitere Informationen](../../email/code-content.md#date-time-limitations)
 
 Im Personalisierungseditor von [!DNL Journey Optimizer] sind die Hilfsfunktionen in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper](#helper-helper) und [Operatoren](#operators-helper).
 

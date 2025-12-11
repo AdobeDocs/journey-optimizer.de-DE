@@ -10,10 +10,10 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1881'
-ht-degree: 100%
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+workflow-type: tm+mt
+source-wordcount: '1904'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entw
 
 >[!NOTE]
 >
->Vor dem Testen Ihrer Journey müssen Sie alle Fehler beheben, falls vorhanden. Wie Sie Fehler vor dem Testen feststellen können, erfahren Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md).
+>Vor dem Testen Ihrer Journey müssen Sie alle Fehler beheben, falls vorhanden. Erfahren Sie in ([ Abschnitt), wie Sie Fehler vor dem Testen ](../building-journeys/troubleshooting.md). Wenn Testprofile im Testmodus nicht fortschreiten, siehe [Fehlerbehebung bei Testmodusübergängen](troubleshooting-execution.md#troubleshooting-test-transitions).
 
 ## Wichtige Hinweise {#important_notes}
 
@@ -53,7 +53,7 @@ Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entw
 
 * **Aufspaltungsverhalten**: Wenn die Journey eine Aufspaltung erreicht, wird immer die oberste Verzweigung ausgewählt. Ordnen Sie Verzweigungen neu an, wenn Sie einen anderen Pfad testen möchten.
 * **Ereignis-Timing**: Wenn die Journey mehrere Trigger enthält, lösen Sie die Ereignisse nacheinander aus. Wird ein Ereignis zu früh (bevor der erste Warteknoten abgeschlossen ist) oder zu spät (nach dem konfigurierten Timeout) gesendet, wird das Ereignis verworfen und das Profil wird an einen Timeout-Pfad gesendet. Vergewissern Sie sich stets, dass Verweise auf Ereignis-Payload-Felder gültig bleiben, indem Sie die Payload innerhalb des definierten Fensters senden.
-* **Aktives Datumsfenster**: Stellen Sie sicher, dass das für die Journey konfigurierte Fenster für [Start- und Enddatum/-zeit](journey-properties.md#dates) beim Initiieren des Testmodus die aktuelle Zeit enthält. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen.
+* **Aktives Datumsfenster**: Stellen Sie sicher, dass das für die Journey konfigurierte Fenster für [Start- und Enddatum/-zeit](journey-properties.md#dates) beim Initiieren des Testmodus die aktuelle Zeit enthält. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen. Weitere Informationen zur Fehlerbehebung bei diesem Problem [auf dieser Seite](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Reaktionsereignisse**: Für Reaktionsereignisse mit einem Timeout beträgt die minimale und die standardmäßige Wartezeit 40 Sekunden.
 * **Testdatensätze**: Im Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert, die wie folgt gekennzeichnet sind: `JOtestmode - <schema of your event>`
 
@@ -69,13 +69,13 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
    ![Schaltfläche „Testmodus“ in der Journey-Oberfläche](assets/journeytest1.png)
 
-1. Wenn die Journey mindestens eine Aktivität vom Typ **Warten** enthält, stellen Sie den Parameter **[!UICONTROL Wartezeit]** ein, um die Dauer jeder Warteaktivität und jeder maximalen Wartezeit bei einem Ereignis im Testmodus festzulegen. Die Standardzeit für Wartezeiten und die maximale Wartezeit für Ereignisse beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell.
+1. Wenn die Journey mindestens eine Aktivität vom Typ **Warten** enthält, stellen Sie den Parameter **[!UICONTROL Wartezeit]** ein, um die Dauer jeder Warteaktivität und jedes Timeouts bei einem Ereignis im Testmodus festzulegen. Die Standardzeit für Wartezeiten und der Timeout für Ereignisse beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell.
 
    ![Konfiguration des Wartezeit-Parameters im Testmodus](assets/journeytest_wait.png)
 
    >[!NOTE]
    >
-   >Wenn in einer Journey ein Reaktionsereignis mit einer maximalen Wartezeit verwendet wird, beträgt der Standard- und Mindestwert für die Wartezeit 40 Sekunden. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/reaction-events.md).
+   >Wenn in einer Journey ein Reaktionsereignis mit einem Timeout verwendet wird, beträgt der Standard- und Mindestwert für die Wartezeit 40 Sekunden. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/reaction-events.md).
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden.
 

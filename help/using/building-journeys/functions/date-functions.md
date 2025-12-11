@@ -7,16 +7,20 @@ role: Developer
 level: Experienced
 keywords: Datum, Funktionen, Ausdruck, Journey, Uhrzeit
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '791'
-ht-degree: 100%
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+workflow-type: tm+mt
+source-wordcount: '834'
+ht-degree: 95%
 
 ---
 
 # Datumsfunktionen {#date-functions}
 
 Mit Datumsfunktionen können Sie Datums- und Uhrzeitwerte in Ihren Journey-Ausdrücken bearbeiten. Diese Funktionen sind für zeitbasierte Bedingungen, Zeitpläne und zeitliche Berechnungen in Ihren Customer Journeys unerlässlich.
+
+>[!NOTE]
+>
+>Die Funktionen auf dieser Seite sind in Journey-Ausdrücken verfügbar. Einige Funktionen wie `now()` sind im Personalisierungseditor für E-Mail-Inhalte nicht verfügbar. [Weitere Informationen](../../personalization/functions/dates.md)
 
 Verwenden Sie Datumsfunktionen, wenn Sie Folgendes tun müssen:
 
@@ -347,6 +351,10 @@ Gibt „true“ zurück.
 ## now {#now}
 
 Gibt das aktuelle Datum im Datum/Uhrzeit-Format zurück. Weitere Informationen zu Datentypen finden Sie auf [dieser Seite](../expression/data-types.md).
+
+>[!NOTE]
+>
+>Diese Funktion ist nur in Journey-Ausdrücken verfügbar. Verwenden Sie stattdessen `getCurrentZonedDateTime()` für die Personalisierung von E-Mails und andere Inhalte. [Weitere Informationen](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++Syntax
 

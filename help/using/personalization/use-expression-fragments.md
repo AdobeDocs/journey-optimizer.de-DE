@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '994'
-ht-degree: 100%
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
+workflow-type: tm+mt
+source-wordcount: '1309'
+ht-degree: 75%
 
 ---
 
@@ -107,6 +107,89 @@ Folgende Anwendungsfälle sind möglich:
 >
 >Zur Laufzeit erweitert das System, was sich in Fragmenten befindet, und interpretiert dann den Personalisierungs-Code von oben nach unten. Unter Berücksichtigung dieser Tatsache können komplexere Anwendungsfälle erreicht werden. Sie können beispielsweise ein Fragment F1 Variablen an ein anderes Fragment F2 übergeben lassen, das darunter sitzt. Sie können auch ein visuelles Fragment F1 Variablen an ein verschachteltes Ausdrucksfragment F2 übergeben lassen.
 
+## Verwenden von Ausdrucksfragmenten in Schleifen {#fragments-in-loops}
+
+Bei der Verwendung von Ausdrucksfragmenten in `{{#each}}`-Schleifen ist es wichtig zu verstehen, wie die Variablenauswahl funktioniert. Ausdrucksfragmente können auf globale Variablen zugreifen, die im Nachrichteninhalt definiert sind, sie können jedoch keine schleifenspezifischen Variablen als Parameter empfangen.
+
+### Unterstützte Muster: Globale Variablen verwenden {#global-variables-in-loops}
+
+Ausdrucksfragmente können auf globale Variablen verweisen, die außerhalb des Fragments definiert sind, selbst wenn das Fragment aus einer Schleife heraus aufgerufen wird. Dies ist der empfohlene Ansatz, wenn Sie Fragmente in iterativen Kontexten verwenden müssen.
+
+**Beispiel: Verwenden eines Fragments mit globalen Variablen in einer Schleife**
+
+Definieren Sie in Ihrem Nachrichteninhalt eine globale Variable und verwenden Sie ein Fragment, das darauf verweist:
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    <p>Price: ${{product.price}}</p>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+Im Ausdrucksfragment (fragment123) können Sie auf die `globalDiscount` Variable verweisen:
+
+```handlebars
+<p class="discount-info">Save {{globalDiscount}}% on all items!</p>
+```
+
+Dieses Muster funktioniert, weil die globale Variable in der gesamten Nachricht verfügbar ist, auch in Fragmenten, unabhängig vom Schleifenkontext.
+
+### Nicht unterstützt: Übergeben von Schleifenvariablen als Fragmentparameter {#loop-variables-limitations}
+
+Sie können das aktuelle Iterationselement (z. B. `product` im obigen Beispiel) nicht als Parameter an ein Ausdrucksfragment übergeben. Das Fragment kann nicht direkt auf Variablen im Schleifenbereich vom umgebenden `{{#each}}`-Block zugreifen.
+
+**Beispiel: Was funktioniert NICHT**
+
+```handlebars
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' mode='inline' currentProduct=product}}
+{{/each}}
+```
+
+Das Fragment kann keine `product` als Parameter empfangen und intern verwenden, da die Parameterübergabe für schleifenspezifische Variablen in der aktuellen Implementierung nicht unterstützt wird.
+
+### Empfohlene Problemumgehungen {#fragments-in-loops-workarounds}
+
+Wenn Sie Ausdrucksfragmente mit Daten aus einer Schleife verwenden müssen, sollten Sie die folgenden Ansätze berücksichtigen:
+
+1. **Logik direkt in die Nachricht einfügen**: Anstatt ein Fragment für eine schleifenspezifische Logik zu verwenden, fügen Sie den Personalisierungscode direkt in Ihrem `{{#each}}` hinzu.
+
+   ```handlebars
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+       {{#if product.price > 100}}
+         <span class="premium-badge">Premium Product</span>
+       {{/if}}
+     </div>
+   {{/each}}
+   ```
+
+2. **Fragmente außerhalb von Schleifen verwenden**: Wenn der Fragmentinhalt nicht schleifenabhängig ist, rufen Sie das Fragment vor oder nach dem Iterationsblock auf.
+
+   ```handlebars
+   {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+   
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+     </div>
+   {{/each}}
+   ```
+
+3. **Mehrere globale Variablen festlegen**: Wenn Sie iterationsweise verschiedene Werte an ein Fragment übergeben müssen, legen Sie vor jedem Fragmentaufruf globale Variablen fest (obwohl dies die Flexibilität einschränkt).
+
+>[!NOTE]
+>
+>Informationen zum Iterieren über kontextuelle Daten und zum Arbeiten mit Schleifen finden Sie im umfassenden Handbuch zum [Iterieren über kontextuelle Daten](iterate-contextual-data.md) mit Best Practices, Tipps zur Fehlerbehebung und erweiterten Mustern.
 
 ## Anpassen bearbeitbarer Felder {#customize-fields}
 

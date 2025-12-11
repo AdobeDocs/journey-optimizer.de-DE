@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 100%
+source-wordcount: '1591'
+ht-degree: 79%
 
 ---
 
@@ -57,9 +57,43 @@ Sie können die Fehlerbehebung mit den folgenden Fragen beginnen:
   Content-type - application/json
   ```
 
+>>
+**Für Journeys zur Zielgruppenqualifizierung mit Streaming-Zielgruppen**: Wenn Sie eine Aktivität zur Zielgruppenqualifizierung als Eintrittspunkt für die Journey verwenden, beachten Sie, dass nicht unbedingt alle für die Zielgruppe qualifizierten Profile auch in die Journey eintreten. Dies kann an Zeitfaktoren oder kurzfristigen Ausstiegen aus der Zielgruppe liegen oder daran, dass sich Profile bereits vor der Veröffentlichung in der Zielgruppe befanden. Erfahren Sie mehr zu [Überlegungen zum Timing bei der Qualifizierung von Streaming-Zielgruppen](audience-qualification-events.md#streaming-entry-caveats).
+
+## Fehlerbehebung bei Testmodusübergängen {#troubleshooting-test-transitions}
+
+Wenn Testprofile im Testmodus nicht durch Ihren Journey laufen oder der visuelle Fluss keine grünen Pfeile anzeigt, die den Fortschritt der Schritte angeben, kann das Problem mit der Übergangsvalidierung zusammenhängen. Dieser Abschnitt enthält Anleitungen zur Diagnose und Behebung gängiger Testmodusprobleme.
+
+### Testprofile werden nicht ausgeführt
+
+Wenn Testprofile in die Journey eintreten, aber nicht über den ursprünglichen Schritt hinausgehen, überprüfen Sie Folgendes:
+
+* **Journey-Startdatum** - Die häufigste Ursache ist, wenn das Startdatum der Journey in der Zukunft liegt. Testprofile werden sofort verworfen, wenn die aktuelle Zeit außerhalb des konfigurierten Journey-Fensters [Start- und Enddatum/-](journey-properties.md#dates)) liegt. Zu beheben:
+   * Stellen Sie sicher, dass das Startdatum der Journey nicht in der Zukunft liegt
+   * Stellen Sie sicher, dass die aktuelle Uhrzeit in das aktive Datumsfenster der Journey fällt.
+   * Aktualisieren Sie bei Bedarf die Journey-Eigenschaften, um das Startdatum anzupassen
+
+* **Testprofilkonfiguration** - Vergewissern Sie sich, dass das Profil in Adobe Experience Platform korrekt als Testprofil gekennzeichnet ist. Weitere [ finden Sie unter „Erstellen ](../audience/creating-test-profiles.md) Testprofilen“.
+
+* **Identity-Namespace** - Stellen Sie sicher, dass der in der Ereigniskonfiguration verwendete Identity-Namespace mit dem Namespace Ihres Testprofils übereinstimmt.
+
+### Null-Übergangsindikatoren
+
+Bei der technischen Fehlerbehebung kann eine `isValidTransition`-Eigenschaft auftreten, die in den technischen Details der Journey auf null gesetzt ist. Diese Eigenschaft „Nur Benutzeroberfläche“ hat keine Auswirkungen auf die Backend-Verarbeitung oder die Journey-Leistung. Ein Nullwert kann jedoch Folgendes angeben:
+
+* **Fehlerhafte Journey-Konfiguration** - Das Journey-Startdatum wird in der Zukunft festgelegt, sodass Testereignisse im Hintergrund verworfen werden
+* **Beschädigte Transition** - In seltenen Fällen müssen Journey-Knoten möglicherweise erneut verbunden werden.
+
+Wenn Probleme mit der Transition bestehen:
+
+1. Überprüfen, ob das Startdatum der Journey aktuell ist
+1. Testmodus deaktivieren und reaktivieren
+1. Wenn das Problem weiterhin besteht, duplizieren Sie die betroffenen Journey-Knoten und verbinden Sie sie erneut
+1. Wenden Sie sich bei ungelösten Fällen mit Journey-Protokollen, den betroffenen Profil-IDs und Details zur Nulltransition an den Support
+
 >[!NOTE]
 >
->**Für Journeys zur Zielgruppenqualifizierung mit Streaming-Zielgruppen**: Wenn Sie eine Aktivität zur Zielgruppenqualifizierung als Eintrittspunkt für die Journey verwenden, beachten Sie, dass nicht unbedingt alle für die Zielgruppe qualifizierten Profile auch in die Journey eintreten. Dies kann an Zeitfaktoren oder kurzfristigen Ausstiegen aus der Zielgruppe liegen oder daran, dass sich Profile bereits vor der Veröffentlichung in der Zielgruppe befanden. Erfahren Sie mehr zu [Überlegungen zum Timing bei der Qualifizierung von Streaming-Zielgruppen](audience-qualification-events.md#streaming-entry-caveats).
+>Beachten Sie, dass Ereignisse, die außerhalb des aktiven Datumsfensters der Journey gesendet werden, ohne Fehlermeldung im Hintergrund verworfen werden. Überprüfen Sie bei der Fehlerbehebung beim Fortschritt des Testprofils immer zuerst Ihre Journey-Zeitkonfiguration.
 
 ## Überprüfen, wie Personen durch die Journey navigieren {#checking-how-people-navigate-through-the-journey}
 
