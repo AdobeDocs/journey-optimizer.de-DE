@@ -6,11 +6,9 @@ description: Erfahren Sie anhand von realen Beispielen und Best Practices, wie S
 feature: Journeys, Profiles
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: Eintritt, Austritt, Kriterien, Journey, Profil, Wiedereintritt, Best Practices
 version: Journey Orchestration
-source-git-commit: 9e5b85dec8a58a4d008ab63337589352c0fa5ee6
+source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 1%
@@ -46,7 +44,7 @@ Dieses Handbuch enthält praktische Anleitungen, Beispiele aus der Praxis und Be
 
 * **Ereignisbasiert** - Profile werden beendet, wenn [bestimmte Ereignisse](../event/about-events.md) wie Abonnementkündigung oder Produktrückgabe, eintreten.
 
-* **Zielgruppen-**: Profile treten aus, wenn sie die [Zielgruppenkriterien“ nicht mehr erfüllen, &#x200B;](../audience/about-audiences.md) sicherzustellen, dass Nachrichten relevant bleiben.
+* **Zielgruppen-**: Profile treten aus, wenn sie die [Zielgruppenkriterien“ nicht mehr erfüllen, ](../audience/about-audiences.md) sicherzustellen, dass Nachrichten relevant bleiben.
 
 ## Warum Einreise- und Ausreisekriterien wichtig sind {#why-they-matter}
 
@@ -94,15 +92,15 @@ Im Folgenden finden Sie gängige Szenarien, die zeigen, wie die Ein- und Ausstie
 
 **Hier erfahren Sie alles, was Sie über Einreisekriterien wissen müssen:**
 
-* **[Ereignisbasierte Trigger](../event/about-events.md)**: Verwenden Sie Ereignisse wie „Profilerstellung“, „Transaktion abgeschlossen“ oder benutzerdefinierte Ereignisse, um einen Journey zu starten. [Ereignisse konfigurieren](../event/about-creating.md) definieren Sie unter **[!UICONTROL Administration]** > **[!UICONTROL Ereignisse]** [Ereignisschema und -felder](../event/experience-event-schema.md) und fügen Sie dann das Ereignis aus der Palette **[!UICONTROL Ereignisse]** im [Journey-Designer &#x200B;](using-the-journey-designer.md).
+* **[Ereignisbasierte Trigger](../event/about-events.md)**: Verwenden Sie Ereignisse wie „Profilerstellung“, „Transaktion abgeschlossen“ oder benutzerdefinierte Ereignisse, um einen Journey zu starten. [Ereignisse konfigurieren](../event/about-creating.md) definieren Sie unter **[!UICONTROL Administration]** > **[!UICONTROL Ereignisse]** [Ereignisschema und -felder](../event/experience-event-schema.md) und fügen Sie dann das Ereignis aus der Palette **[!UICONTROL Ereignisse]** im [Journey-Designer ](using-the-journey-designer.md).
 
-* **[Zielgruppenbasierter Eintrag](read-audience.md)**: Targeting von Journey für Profile, die zu bestimmten Zielgruppen gehören, entweder als einmaliger Batch oder in einem wiederkehrenden Zeitplan. [Zielgruppen erstellen](../audience/creating-a-segment-definition.md) im Menü **[!UICONTROL Zielgruppen]** fügen Sie dann eine Aktivität **[!UICONTROL Zielgruppe lesen]** hinzu und [&#x200B; Sie den Zeitplan](journey-properties.md#schedule).
+* **[Zielgruppenbasierter Eintrag](read-audience.md)**: Targeting von Journey für Profile, die zu bestimmten Zielgruppen gehören, entweder als einmaliger Batch oder in einem wiederkehrenden Zeitplan. [Zielgruppen erstellen](../audience/creating-a-segment-definition.md) im Menü **[!UICONTROL Zielgruppen]** fügen Sie dann eine Aktivität **[!UICONTROL Zielgruppe lesen]** hinzu und [ Sie den Zeitplan](journey-properties.md#schedule).
 
 * **[Einstieg in Zielgruppenqualifizierung](audience-qualification-events.md)**: Trigger-Journey, wenn Profile sich in Echtzeit für bestimmte Zielgruppen qualifizieren oder aus ihnen austreten. Definieren Sie [Streaming](../audience/about-audiences.md)Zielgruppen), fügen Sie ein **[!UICONTROL Zielgruppen-Qualifizierungsereignis]** aus der **[!UICONTROL Ereignisse]**-Palette hinzu und wählen Sie den Trigger-Typ aus.
 
 * **[Attributfilter](condition-activity.md)**: Verfeinern Sie Eingabekriterien, indem Sie Ereignisse oder Zielgruppen mit Profilattributen und Kontext mithilfe der AND/OR-Logik kombinieren. Verwenden Sie [Bedingungen](conditions.md), um auf [Profilattribute](../audience/get-started-profiles.md) Ereignisse oder [externe Daten](../datasource/about-data-sources.md) zu verweisen.
 
-* **[Zeitfenster und Planung](journey-properties.md#schedule)**: Legen Sie Zeitbeschränkungen fest, um Journey rechtzeitig und relevant zu halten. Konfigurieren Sie [Zeitpläne für die Aktivitäten &#x200B;](read-audience.md) Zielgruppe lesen[&#x200B; verwenden Sie Warteaktivitäten](wait-activity.md) und fügen Sie [zeitbasierte Bedingungen](conditions.md) hinzu, um die Zeitplanung zu steuern.
+* **[Zeitfenster und Planung](journey-properties.md#schedule)**: Legen Sie Zeitbeschränkungen fest, um Journey rechtzeitig und relevant zu halten. Konfigurieren Sie [Zeitpläne für die Aktivitäten ](read-audience.md) Zielgruppe lesen[ verwenden Sie Warteaktivitäten](wait-activity.md) und fügen Sie [zeitbasierte Bedingungen](conditions.md) hinzu, um die Zeitplanung zu steuern.
 
 >[!ENDSHADEBOX]
 
@@ -172,13 +170,13 @@ Eine schrittweise Implementierungsanleitung mit vollständigen technischen Detai
 
 **Berücksichtigt Frequenzlimitierungen**
 
-* Legen Sie [&#x200B; entsprechenden Wartezeiten für den erneuten &#x200B;](entry-management.md) fest oder deaktivieren Sie den erneuten Eintritt für einmalige Journey
+* Legen Sie [ entsprechenden Wartezeiten für den erneuten ](entry-management.md) fest oder deaktivieren Sie den erneuten Eintritt für einmalige Journey
 * Verwenden [Frequenzlimitierungsregeln](../conflict-prioritization/rule-sets.md) um Überkommunikation zu vermeiden
 * Überwachen von Häufigkeitsmetriken in Berichten, um die Einhaltung sicherzustellen
 
 >[!NOTE]
 >
->Verwenden Sie [Journey-Begrenzung und Schlichtung und Frequenzlimitierung nach Kanal, um die Frequenzlimitierung und &#x200B;](../conflict-prioritization/journey-capping.md) für den [-Eintrag in mehreren Journey Journey &#x200B;](../conflict-prioritization/channel-capping.md) verwalten.
+>Verwenden Sie [Journey-Begrenzung und Schlichtung und Frequenzlimitierung nach Kanal, um die Frequenzlimitierung und ](../conflict-prioritization/journey-capping.md) für den [-Eintrag in mehreren Journey Journey ](../conflict-prioritization/channel-capping.md) verwalten.
 
 ## Zusammenfassung {#conclusion}
 
@@ -201,7 +199,7 @@ Beginnen Sie damit, Ihre Kunden-Trigger und Ausgangspunkte klar zuzuordnen, grü
 * [Journey-Anwendungsfälle](jo-use-cases.md) - Vollständige Journey-Beispiele und -Muster
 * [Onboarding-Video für Kunden](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
 * [Video zu Transaktionsabbruch](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* [Community-Blog: Ein- und Ausstiegskriterien](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=de)
+* [Community-Blog: Ein- und Ausstiegskriterien](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Verwandte Funktionen**
 
