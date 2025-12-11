@@ -5,15 +5,14 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
+source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '664'
+ht-degree: 68%
 
 ---
 
 # Erstellen und Verwalten von Genehmigungsrichtlinien {#approval-policies}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
@@ -25,14 +24,15 @@ ht-degree: 100%
 >title="Änderung anfordern"
 >abstract="Änderung anfordern"
 
-
 >[!NOTE]
 >
 >Zum Erstellen von Genehmigungsrichtlinien müssen Sie in Adobe Experience Platform über System- oder Produktadministratorberechtigungen verfügen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home)
 
-Genehmigungsrichtlinien ermöglichen es Admins, einen Validierungsprozess für Journeys und Kampagnen einzurichten. Dieses System legt spezifische Bedingungen fest, die bestimmen, ob eine Journey oder Kampagne genehmigt werden muss. Diese Richtlinien können unterschiedlich komplex sein, von der einfachen Anforderung, dass alle Kampagnen von bestimmten Benutzenden oder Teams überprüft werden müssen, bis hin zur Festlegung von Kriterien, die darauf basieren, wer die Kampagne erstellt hat.
+Genehmigungsrichtlinien ermöglichen es Admins, einen Validierungsprozess für Journeys und Kampagnen einzurichten. Dieses System legt spezifische Bedingungen fest, die bestimmen, ob eine Journey oder Kampagne genehmigt werden muss. Diese Richtlinien können unterschiedlich komplex sein. Sie können einfach vorschreiben, dass alle Kampagnen von einem bestimmten Benutzer oder Team überprüft werden müssen, oder Kriterien auf Grundlage dessen festlegen, wer die Kampagne erstellt hat.
 
-## Erstellen von Genehmigungsrichtlinien {#create-policies}
+Sie können Validierungsrichtlinien mithilfe flexibler Kriterien wie Tags, Kampagnen-/Journey-Namen, Kanaltypen oder Anfrageninformationen zielgerichtet anpassen. Sie können beispielsweise eine Genehmigung für alle Objekte mit dem Tag „hohes Risiko“ oder für jede Kampagne mit einem bestimmten Namensmuster verlangen.
+
+## Genehmigungsrichtlinien erstellen {#create-policies}
 
 >[!CONTEXTUALHELP]
 >id="ajo_permissions_approval_policy"
@@ -41,9 +41,9 @@ Genehmigungsrichtlinien ermöglichen es Admins, einen Validierungsprozess für J
 
 Gehen Sie wie folgt vor, um eine Genehmigungsrichtlinie zu erstellen:
 
-1. Greifen Sie in Journey Optimizer über das Menü **[!UICONTROL Administration]** auf **[!UICONTROL Berechtigungen]** und dann auf **[!UICONTROL Richtlinien]** zu.
+1. Greifen Sie über das **[!UICONTROL Administration]**-Menü in [!DNL Journey Optimizer] auf **[!UICONTROL Berechtigungen]** und dann auf **[!UICONTROL Richtlinien]**.
 
-   ![](assets/policy_create_1.png)
+   ![Schaltfläche „Genehmigungsrichtlinie erstellen“ im Menü „Berechtigungen“](assets/policy_create_1.png)
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Genehmigungsrichtlinie]** auf **[!UICONTROL Erstellen]**, wählen Sie **[!UICONTROL Genehmigungsrichtlinie]** aus und klicken Sie auf **[!UICONTROL Bestätigen]**.
 
@@ -61,6 +61,14 @@ Sie können nun die Bedingungen verfeinern, um festzulegen, wer die Genehmigungs
 
 ## Festlegen von Bedingungen für Genehmigungsrichtlinien {#conditions}
 
+Genehmigungsrichtlinien bieten flexible Zielgruppenbestimmungsoptionen, die Ihren Governance-Anforderungen entsprechen. Sie können Genehmigungsrichtlinien auf der Grundlage verschiedener Kriterien erstellen, darunter:
+
+* **Kampagnen-/Journey-Namen**: Targeting bestimmter Objekte nach Namen
+* **Tags**: Wenden Sie Richtlinien auf alle Kampagnen oder Journey mit einem bestimmten Tag an
+* **Kanaltypen**: Genehmigung für bestimmte Aktionen erforderlich (E-Mail, SMS, Push ush.)
+* **Kampagnentypen**: Legen Sie unterschiedliche Regeln für geplante und API-ausgelöste Kampagnen fest
+* **Anfragende**: Definieren von Richtlinien basierend darauf, wer die Kampagne oder den Journey erstellt
+
 Gehen Sie wie folgt vor, um die mit einer Genehmigungsrichtlinie verknüpften Bedingungen zu definieren:
 
 1. Greifen Sie auf Ihre **[!UICONTROL Genehmigungsrichtlinie]** zu.
@@ -69,9 +77,9 @@ Gehen Sie wie folgt vor, um die mit einer Genehmigungsrichtlinie verknüpften Be
 
 1. Wählen Sie die entsprechende **[!UICONTROL Kategorie]**, **[!UICONTROL Übereinstimmungsregel]** und **[!UICONTROL Optionen]** aus.
 
-   Zum Beispiel „wenn Aktion mit Direkt-Mail übereinstimmt“ oder „wenn Benutzername der anfragenden Person mit Max Mustermann übereinstimmt“.
+   Zum Beispiel „Wenn die Aktion mit einer Briefpost übereinstimmt“ oder „Wenn der Benutzername des Anforderers mit John Doe übereinstimmt“.
 
-   ![](assets/policy_condition_1.png)
+   ![Benutzeroberfläche des Builders für Genehmigungsrichtlinien](assets/policy_condition_1.png)
 
    +++ Weitere Informationen zu verfügbaren Kategorien und Optionen
    <table>
@@ -124,14 +132,13 @@ Gehen Sie wie folgt vor, um die mit einer Genehmigungsrichtlinie verknüpften Be
     </tr>
     <tr>
     <td>Benutzername der anfragenden Person</td>
-    <td>Name und E-Mail-Adresse der anfragenden Person</td>
+    <td>Name und E-Mail-Adresse des designierten Antragstellers</td>
     </tr>
     <tr>
     <td>Benutzergruppe der anfragenden Person</td>
-    <td>Name der Benutzergruppe der anfragenden Personen</td>
+    <td>Name der Benutzergruppe der designierten Anforderer</td>
     </tr>
     </table>
-
 
 1. Um weitere Kriterien hinzuzufügen, klicken Sie auf **[!UICONTROL Bedingung hinzufügen]**, um zusätzliche Regeln zu definieren, und wählen Sie entweder **[!UICONTROL Und]** oder **[!UICONTROL Oder]** aus, um anzugeben, wie die Bedingungen miteinander verbunden sind.
 
@@ -143,7 +150,7 @@ Gehen Sie wie folgt vor, um die mit einer Genehmigungsrichtlinie verknüpften Be
 
    Die ausgewählte Benutzenden oder die ausgewählte Benutzergruppe sind für die Validierung der Genehmigungsanfrage verantwortlich.
 
-   ![](assets/policy_condition_2.png)
+   ![Oberfläche zur Auswahl der Validierungsanfrage für Empfänger](assets/policy_condition_2.png)
 
 1. Um weitere Kriterien hinzuzufügen, klicken Sie auf **[!UICONTROL Bedingung hinzufügen]**, um zusätzliche Regeln zu definieren, und wählen Sie entweder **[!UICONTROL Und]** oder **[!UICONTROL Oder]** aus, um anzugeben, wie die Bedingungen miteinander verbunden sind.
 
@@ -163,8 +170,8 @@ Um Ihre Genehmigungsrichtlinie anwenden zu können, müssen Sie sie aktivieren. 
    >
    >Einmal aktivierte Richtlinien können nicht mehr bearbeitet werden. Um Bedingungen zu ändern, deaktivieren Sie die Richtlinie zunächst.
 
-   ![](assets/policy_activate_1.png)
+   ![Schaltfläche „Genehmigungsrichtlinie aktivieren“](assets/policy_activate_1.png)
 
 1. Öffnen Sie im Menü **[!UICONTROL Richtlinie]** die erweiterten Optionen, um die Richtlinie nach Bedarf zu **[!UICONTROL Bearbeiten]**, zu **[!UICONTROL Deaktivieren]** oder zu **[!UICONTROL Duplizieren]**.
 
-   ![](assets/policy_activate_2.png)
+   ![Menü „Optionen für die Verwaltung von Genehmigungsrichtlinien“](assets/policy_activate_2.png)
