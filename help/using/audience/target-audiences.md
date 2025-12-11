@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '764'
 ht-degree: 52%
 
 ---
@@ -61,8 +61,8 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
 ## Aktivierung nicht unterstützter Zielgruppentypen in [!DNL Journey Optimizer]
 
-Nur im Zielgruppenportal erstellte Zielgruppen können direkt in [!DNL Journey Optimizer] Journey und Kampagnen angesprochen werden. [Weitere Informationen zu verfügbaren Zielgruppentypen](../audience/about-audiences.md#types).
+Nur Audiences, die mit **Segmentdefinition**, **Audience-Kompositionen**, **benutzerdefiniertem Upload (CSV-**) und **Federated Audience Composition** generiert wurden, können direkt in Journey Optimizer-Journey und -Kampagnen angesprochen werden. [Erfahren Sie mehr über verfügbare Zielgruppentypen](../audience/about-audiences.md#types)
 
-Wenn Sie Profile aus einer nicht unterstützten Zielgruppe, z. B. einer Customer Journey Analytics-Zielgruppe, ansprechen möchten, müssen Sie sie im Zielgruppenportal in eine neue Segmentdefinition einschließen. Detaillierte Informationen zum Hinzufügen von Zielgruppen in einer Segmentdefinition finden Sie in der [Segment Builder-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+Wenn Sie Profile aus einer nicht unterstützten Zielgruppe, z. B. einer Customer Journey Analytics-Zielgruppe, ansprechen möchten, müssen Sie sie im Zielgruppenportal in eine neue Segmentdefinition einschließen. Detaillierte Informationen zum Hinzufügen von Zielgruppen in einer Segmentdefinition finden Sie in der [Segment Builder-Dokumentation](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Warten Sie anschließend, bis die Segmentierungsbewertung abgeschlossen ist, um sie in Ihren Journey und Kampagnen zu verwenden.
