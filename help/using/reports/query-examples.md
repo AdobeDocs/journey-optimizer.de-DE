@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
+source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
 workflow-type: tm+mt
-source-wordcount: '2749'
-ht-degree: 94%
+source-wordcount: '2734'
+ht-degree: 95%
 
 ---
 
@@ -78,57 +78,9 @@ AND
 
 +++
 
-+++Wie viele Fehler sind in einem bestimmten Zeitraum an den einzelnen Knoten einer bestimmten Journey aufgetreten?
++++Welche Regel hat dazu geführt, dass ein Profil keine Journey-Aktion erhalten hat?
 
-Diese Abfrage zählt die unterschiedlichen Profile, bei denen Fehler an jedem Knoten einer Journey aufgetreten sind, gruppiert nach Knotennamen. Alle Arten von Aktionsausführungsfehlern und Abruffehlern sind enthalten.
-
-_Data Lake-Abfrage_
-
-```sql
-SELECT
-_experience.journeyOrchestration.stepEvents.nodeName,
-count(distinct _experience.journeyOrchestration.stepEvents.profileID)
-FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
-AND
-  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
-    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
-    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
-  )
-GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
-```
-
-+++
-
-+++Wie viele Ereignisse wurden in einem bestimmten Zeitrahmen von einer bestimmten Journey verworfen?
-
-Diese Abfrage zählt die Gesamtzahl der Ereignisse, die von einer Journey verworfen wurden. Sie filtert nach verschiedenen Ereignis-Codes für das Verwerfen, einschließlich Segmentexportauftragsfehlern, Dispatcher-Verwerfungen und Status-Computer-Verwerfungen.
-
-_Data-Lake-Abfrage_
-
-```sql
-SELECT
-count(_id) AS NUMBER_OF_EVENTS_DISCARDED
-FROM journey_step_events
-WHERE (
-   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
-   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
-   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
-)
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
-AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
-```
-
-+++
-
-+++Anzeigen von Schrittereignissen für verworfene Profile
-
-Diese Abfrage gibt die Schrittereignisdetails für Profile zurück, die von einer Journey verworfen wurden. Auf diese Weise lässt sich erkennen, warum Profile verworfen wurden, z. B. aufgrund von Geschäftsregeln oder Beschränkungen für ruhige Stunden. Die Abfrage filtert nach bestimmten Verwerfen-Ereignistypen und zeigt wichtige Informationen an, darunter Profil-ID, Instanz-ID, Journey-Details und den Fehler, der die Verwerfung verursacht hat.
+Diese Abfrage gibt die Schrittereignisdetails für Profile zurück, die während eines Journey verworfen wurden und keine Journey-Aktion erhalten haben. Auf diese Weise lässt sich erkennen, warum Profile aufgrund von Geschäftsregeln wie beispielsweise Beschränkungen für ruhige Stunden verworfen wurden.
 
 _Data-Lake-Abfrage_
 
@@ -181,6 +133,54 @@ Die Abfrageergebnisse zeigen Schlüsselfelder an, die dabei helfen, den Grund f�
 * **eventType** - Gibt den Typ der Geschäftsregel an, die den Verwerfen verursacht hat:
    * `quietHours`: Profil wurde aufgrund von Konfigurationen außerhalb der Geschäftszeiten verworfen
    * `forcedDiscardDueToQuietHours`: Das Profil wurde zwangsweise verworfen, da das Limit der Leitplanken für Profile erreicht wurde, die in ruhigen Stunden gehalten wurden
+
++++
+
++++Wie viele Fehler sind in einem bestimmten Zeitraum an den einzelnen Knoten einer bestimmten Journey aufgetreten?
+
+Diese Abfrage zählt die unterschiedlichen Profile, bei denen Fehler an jedem Knoten einer Journey aufgetreten sind, gruppiert nach Knotennamen. Alle Arten von Aktionsausführungsfehlern und Abruffehlern sind enthalten.
+
+_Data Lake-Abfrage_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode is not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError is not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode is not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
++++
+
++++Wie viele Ereignisse wurden in einem bestimmten Zeitrahmen von einer bestimmten Journey verworfen?
+
+Diese Abfrage zählt die Gesamtzahl der Ereignisse, die von einer Journey verworfen wurden. Sie filtert nach verschiedenen Ereignis-Codes für das Verwerfen, einschließlich Segmentexportauftragsfehlern, Dispatcher-Verwerfungen und Status-Computer-Verwerfungen.
+
+_Data Lake-Abfrage_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE (
+   _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'error'
+   OR _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode = 'discard'
+   OR _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode is not null
+)
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
 
 +++
 
