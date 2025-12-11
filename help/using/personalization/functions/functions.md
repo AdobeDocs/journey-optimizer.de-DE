@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 98%
@@ -23,10 +23,6 @@ Die Vorlagensprache wird in Hilfsfunktionen verwendet, die in der Dropdown-Liste
 
 ![](../assets/access-helper-functions.png)
 
->[!NOTE]
->
->Die im Personalisierungseditor verfügbaren Funktionen und Leistungsmerkmale unterscheiden sich von denen im erweiterten Ausdruckseditor [Journey](../../building-journeys/expression/expressionadvanced.md). Beispielsweise ist die `now()` nur in Journey-Ausdrücken verfügbar. [Weitere Informationen](../../email/code-content.md#date-time-limitations)
-
 Im Personalisierungseditor von [!DNL Journey Optimizer] sind die Hilfsfunktionen in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper](#helper-helper) und [Operatoren](#operators-helper).
 
 Wählen Sie eine Kategorie aus, um auf Unterkategorien und Funktionen zuzugreifen.
@@ -34,6 +30,10 @@ Wählen Sie eine Kategorie aus, um auf Unterkategorien und Funktionen zuzugreife
 Sie können auf Unterkategorien durch Klicken auf das Symbol `>` zugreifen. Wählen Sie eine Funktion aus, indem Sie auf das Symbol `+` klicken. Die Funktion wird dann automatisch zum Personalisierungsbildschirm hinzugefügt.
 
 Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen und sie zu Ihren Favoriten hinzuzufügen. [Weitere Informationen](../personalize.md#fav)
+
+>[!NOTE]
+>
+>Die im Personalisierungseditor verfügbaren Funktionen und Leistungsmerkmale unterscheiden sich von denen im erweiterten Ausdruckseditor [Journey](../../building-journeys/expression/expressionadvanced.md). Beispielsweise ist die `now()` nur in Journey-Ausdrücken verfügbar. [Weitere Informationen](../../email/code-content.md#date-time-limitations)
 
 ## Funktionen{#functions-helper}
 

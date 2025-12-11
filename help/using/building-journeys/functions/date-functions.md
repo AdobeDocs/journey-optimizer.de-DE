@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 keywords: Datum, Funktionen, Ausdruck, Journey, Uhrzeit
 version: Journey Orchestration
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 95%
@@ -18,10 +18,6 @@ ht-degree: 95%
 
 Mit Datumsfunktionen können Sie Datums- und Uhrzeitwerte in Ihren Journey-Ausdrücken bearbeiten. Diese Funktionen sind für zeitbasierte Bedingungen, Zeitpläne und zeitliche Berechnungen in Ihren Customer Journeys unerlässlich.
 
->[!NOTE]
->
->Die Funktionen auf dieser Seite sind in Journey-Ausdrücken verfügbar. Einige Funktionen wie `now()` sind im Personalisierungseditor für E-Mail-Inhalte nicht verfügbar. [Weitere Informationen](../../personalization/functions/dates.md)
-
 Verwenden Sie Datumsfunktionen, wenn Sie Folgendes tun müssen:
 
 * Abrufen der aktuellen Zeit oder des aktuellen Datums im Kontext einer bestimmten Zeitzone ([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
@@ -31,6 +27,10 @@ Verwenden Sie Datumsfunktionen, wenn Sie Folgendes tun müssen:
 * Konvertieren zwischen verschiedenen Zeitformaten und Darstellungen
 
 Datumsfunktionen bieten eine präzise Kontrolle über die zeitliche Logik, sodass Sie zeitabhängige Journey-Pfade und Bedingungen erstellen können, die auf bestimmte Zeitrahmen und Zeitpläne reagieren.
+
+>[!NOTE]
+>
+>Die Funktionen auf dieser Seite sind in Journey-Ausdrücken verfügbar. Einige Funktionen wie `now()` sind im Personalisierungseditor für E-Mail-Inhalte nicht verfügbar. [Weitere Informationen](../../personalization/functions/dates.md)
 
 ## currentTimeInMillis {#currentTimeInMillis}
 
