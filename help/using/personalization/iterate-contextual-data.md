@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: Ausdruck, Editor, Handlebars, Iteration, Arrays, Kontext, Personalisierung
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: ebe367a91dc1bb20ceeb03b13a6008433fadf023
 workflow-type: tm+mt
-source-wordcount: '2484'
-ht-degree: 3%
+source-wordcount: '2557'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Erfahren Sie, wie Sie mit der Handlebars-Iterationssyntax dynamische Listen von 
 
 ## Überblick {#overview}
 
-Journey Optimizer bietet während der [Nachrichtenpersonalisierung“ Zugriff auf kontextuelle Daten aus mehreren &#x200B;](personalize.md). Sie können Arrays aus diesen Quellen mithilfe der Handlebars-Syntax in nativen Kanälen ([E-Mail](../email/get-started-email-design.md), [Push](../push/create-push.md), [SMS](../sms/create-sms.md)) durchlaufen, um dynamische Inhalte wie Produktlisten, Empfehlungen oder andere sich wiederholende Elemente anzuzeigen.
+Journey Optimizer bietet während der [Nachrichtenpersonalisierung“ Zugriff auf kontextuelle Daten aus mehreren ](personalize.md). Sie können Arrays aus diesen Quellen mithilfe der Handlebars-Syntax in nativen Kanälen ([E-Mail](../email/get-started-email-design.md), [Push](../push/create-push.md), [SMS](../sms/create-sms.md)) durchlaufen, um dynamische Inhalte wie Produktlisten, Empfehlungen oder andere sich wiederholende Elemente anzuzeigen.
 
 **Verfügbare Kontextquellen:**
 
@@ -37,7 +37,9 @@ In diesem Handbuch erfahren Sie, wie Sie die Arrays aus den einzelnen Quellen in
 
 ## Handlebars-Iterationssyntax {#syntax}
 
-Handlebars bietet die `{{#each}}` [Helper](functions/helpers.md) zum Iterieren über Arrays. Die grundlegende Syntax lautet:
+Handlebars bietet die `{{#each}}` [Helper](functions/helpers.md) zum Iterieren über Arrays.
+
++++ Grundlegende Syntax
 
 ```handlebars
 {{#each arrayPath as |item|}}
@@ -53,13 +55,15 @@ Handlebars bietet die `{{#each}}` [Helper](functions/helpers.md) zum Iterieren �
 * Zugreifen auf Eigenschaften jedes Elements über `{{item.propertyName}}`
 * Sie können mehrere `{{#each}}` für Arrays mit mehreren Ebenen verschachteln
 
++++
+
 ## Iteration der Ereignisdaten {#event-data}
 
-Ereignisdaten sind verfügbar, wenn Ihr Journey durch ein „Ereignis[&#x200B; ausgelöst &#x200B;](../event/about-events.md). Dies ist nützlich, um Daten anzuzeigen, die zum Zeitpunkt des Starts der Journey erfasst wurden, wie z. B. den Inhalt des Warenkorbs, Bestellelemente oder Formularübermittlungen.
+Ereignisdaten sind verfügbar, wenn Ihr Journey durch ein „Ereignis[ ausgelöst ](../event/about-events.md). Dies ist nützlich, um Daten anzuzeigen, die zum Zeitpunkt des Starts der Journey erfasst wurden, wie z. B. den Inhalt des Warenkorbs, Bestellelemente oder Formularübermittlungen.
 
 >[!TIP]
 >
->Sie können Ereignisdaten mit anderen Quellen kombinieren. Beispiele finden [&#x200B; unter „Kombinieren &#x200B;](#combine-sources) Kontextquellen“.
+>Sie können Ereignisdaten mit anderen Quellen kombinieren. Beispiele finden [ unter „Kombinieren ](#combine-sources) Kontextquellen“.
 
 ### Kontextpfad für Ereignisse
 
@@ -74,6 +78,8 @@ context.journey.events.<event_ID>.<fieldPath>
 
 Wenn Ihr [Ereignisschema](../event/experience-event-schema.md) ein `productListItems`-Array enthält ([XDM-](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target="_blank"}), können Sie den Inhalt des Warenkorbs wie folgt anzeigen:
 
++++ Beispiel-Code anzeigen
+
 ```handlebars
 {{#each context.journey.events.event_ID.productListItems as |product|}}
   <div class="product">
@@ -84,9 +90,13 @@ Wenn Ihr [Ereignisschema](../event/experience-event-schema.md) ein `productListI
 {{/each}}
 ```
 
++++
+
 ### Beispiel: Verschachtelte Arrays in Ereignissen
 
 Verwenden Sie für verschachtelte Strukturen verschachtelte `{{#each}}`. Erfahren Sie mehr über die Verschachtelung in [Best Practices](#best-practices).
+
++++ Beispiel-Code anzeigen
 
 ```handlebars
 {{#each context.journey.events.event_ID.categories as |category|}}
@@ -99,13 +109,15 @@ Verwenden Sie für verschachtelte Strukturen verschachtelte `{{#each}}`. Erfahre
 {{/each}}
 ```
 
++++
+
 ## Iteration über benutzerdefinierte Aktionsantworten {#custom-action-responses}
 
 [Benutzerdefinierte Aktion](../action/about-custom-action-configuration.md) Antworten enthalten Daten, die von externen API-Aufrufen zurückgegeben werden. Dies ist nützlich für die Anzeige von Echtzeitinformationen aus Ihren Systemen, z. B. Treuepunkte, Produktempfehlungen, Bestandsstatus oder personalisierte Angebote.
 
 >[!NOTE]
 >
->Benutzerdefinierte Aktionen müssen mit einer Antwort-Payload konfiguriert werden, um diese Funktion verwenden zu können. Weitere Informationen finden Sie [&#x200B; (diesem Abschnitt](../action/action-response.md#config-response). Sie können auch benutzerdefinierte Aktionsantworten mit Ereignisdaten oder Datensatzsuchen kombinieren. Beispiele finden Sie unter [Kombinieren mehrerer &#x200B;](#combine-sources)).
+>Benutzerdefinierte Aktionen müssen mit einer Antwort-Payload konfiguriert werden, um diese Funktion verwenden zu können. Weitere Informationen finden Sie [ (diesem Abschnitt](../action/action-response.md#config-response). Sie können auch benutzerdefinierte Aktionsantworten mit Ereignisdaten oder Datensatzsuchen kombinieren. Beispiele finden Sie unter [Kombinieren mehrerer ](#combine-sources)).
 
 ### Kontextpfad für benutzerdefinierte Aktionen
 
@@ -119,6 +131,8 @@ context.journey.actions.<actionName>.<fieldPath>
 ### Beispiel: Produktempfehlungen von einer API
 
 Wenn Ihre benutzerdefinierte Aktion Produktempfehlungen zurückgibt:
+
++++ Beispiel-Code anzeigen
 
 **API-Antwort:**
 
@@ -156,9 +170,13 @@ Wenn Ihre benutzerdefinierte Aktion Produktempfehlungen zurückgibt:
 </div>
 ```
 
++++
+
 ### Beispiel: Verschachtelte Arrays aus benutzerdefinierten Aktionen
 
 Wenn Ihre benutzerdefinierte Aktion verschachtelte Arrays zurückgibt (z. B. Kategorien mit Produkten). Informationen zu komplexeren Verschachtelungsmustern finden Sie unter [Best Practices](#best-practices).
+
++++ Beispiel-Code anzeigen
 
 **API-Antwort:**
 
@@ -188,9 +206,13 @@ Wenn Ihre benutzerdefinierte Aktion verschachtelte Arrays zurückgibt (z. B. Kat
 {{/each}}
 ```
 
++++
+
 ### Beispiel: Vorteile der Treuestufe
 
 Anzeige dynamischer Vorteile basierend auf dem Treuestatus:
+
++++ Beispiel-Code anzeigen
 
 **API-Antwort:**
 
@@ -219,15 +241,17 @@ Anzeige dynamischer Vorteile basierend auf dem Treuestatus:
 </ul>
 ```
 
++++
+
 ## Iteration der Ergebnisse der Datensatzsuche {#dataset-lookup}
 
-Mit [&#x200B; Aktivität „Datensatzsuche](../building-journeys/dataset-lookup.md) können Sie während des Journey-[&#x200B; Daten aus &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de){target="_blank"}Adobe Experience Platform-Datensätzen abrufen. Die angereicherten Daten werden als Array gespeichert und können in Ihren Nachrichten iteriert werden.
+Mit [ Aktivität „Datensatzsuche](../building-journeys/dataset-lookup.md) können Sie während des Journey-[ Daten aus ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de){target="_blank"}Adobe Experience Platform-Datensätzen abrufen. Die angereicherten Daten werden als Array gespeichert und können in Ihren Nachrichten iteriert werden.
 
 >[!AVAILABILITY]
 >
 >Die Aktivität Datensatzsuche ist nur für eine begrenzte Anzahl von Organisationen verfügbar. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
-Weitere Informationen zum Konfigurieren der Aktivität „Datensatzsuche“ finden Sie [&#x200B; diesem Abschnitt](../building-journeys/dataset-lookup.md). Die Datensatzsuche ist besonders leistungsstark in Kombination mit Ereignisdaten. Ein praktischer Anwendungsfall finden Sie unter [Beispiel: &#x200B;](#combine-sources) angereicherte Ereignisdaten mit Datensatzsuche .
+Weitere Informationen zum Konfigurieren der Aktivität „Datensatzsuche“ finden Sie [ diesem Abschnitt](../building-journeys/dataset-lookup.md). Die Datensatzsuche ist besonders leistungsstark in Kombination mit Ereignisdaten. Ein praktischer Anwendungsfall finden Sie unter [Beispiel: ](#combine-sources) angereicherte Ereignisdaten mit Datensatzsuche .
 
 ### Kontextpfad für die Datensatzsuche
 
@@ -241,6 +265,8 @@ context.journey.datasetLookup.<activityID>.entities
 ### Beispiel: Produktdetails aus einem Datensatz
 
 Wenn Sie eine Datensatzsuchaktivität zum Abrufen von Produktinformationen basierend auf SKUs verwenden:
+
++++ Beispiel-Code anzeigen
 
 **Konfiguration der Datensatzsuche:**
 
@@ -271,9 +297,13 @@ Wenn Sie eine Datensatzsuchaktivität zum Abrufen von Produktinformationen basie
 </table>
 ```
 
++++
+
 ### Beispiel: Gefilterte Iteration mit Datensatzdaten
 
 Nur Produkte aus einer bestimmten Kategorie anzeigen. Weitere Informationen zur bedingten Filterung finden Sie unter [Best Practices](#best-practices).
+
++++ Beispiel-Code anzeigen
 
 ```handlebars
 <h2>Household Products</h2>
@@ -287,7 +317,11 @@ Nur Produkte aus einer bestimmten Kategorie anzeigen. Weitere Informationen zur 
 {{/each}}
 ```
 
++++
+
 ### Beispiel: Gesamtwerte aus der Datensatzsuche berechnen
+
++++ Beispiel-Code anzeigen
 
 ```handlebars
 {% let householdTotal = 0 %}
@@ -299,6 +333,8 @@ Nur Produkte aus einer bestimmten Kategorie anzeigen. Weitere Informationen zur 
 
 <p>Your household products total: ${{householdTotal}}</p>
 ```
+
++++
 
 ## Verwenden technischer Journey-Eigenschaften {#technical-properties}
 
@@ -317,6 +353,8 @@ Bei Verwendung zusätzlicher IDs in ereignisgesteuerten Journey mit Arrays könn
 
 **Szenario**: Bei mehreren Buchungen wird eine Journey ausgelöst, Sie möchten jedoch nur Informationen zu der spezifischen Buchung anzeigen (identifiziert durch eine zusätzliche ID), die diese Journey-Instanz ausgelöst hat.
 
++++ Beispiel-Code anzeigen
+
 ```handlebars
 {{#each context.journey.events.event_ID.bookingList as |booking|}}
   {%#if booking.bookingInfo.bookingNum = context.journey.technicalProperties.supplementalId%}
@@ -329,13 +367,19 @@ Bei Verwendung zusätzlicher IDs in ereignisgesteuerten Journey mit Arrays könn
 {{/each}}
 ```
 
++++
+
 ### Beispiel: Journey-ID für Tracking einschließen
+
++++ Beispiel-Code anzeigen
 
 ```handlebars
 <footer>
   <p>Journey Reference: {{context.journey.technicalProperties.journeyUID}}</p>
 </footer>
 ```
+
++++
 
 ## Kombinieren mehrerer Kontextquellen {#combine-sources}
 
@@ -350,6 +394,8 @@ Sie können Daten aus verschiedenen Quellen in derselben Nachricht kombinieren, 
 ### Beispiel: Artikel im Warenkorb mit Echtzeit-Inventar
 
 Kombinieren Sie Ereignisdaten (Warenkorbinhalte) mit benutzerdefinierten Aktionsdaten (Bestandsstatus):
+
++++ Beispiel-Code anzeigen
 
 ```handlebars
 <h2>Your Cart</h2>
@@ -375,9 +421,13 @@ Kombinieren Sie Ereignisdaten (Warenkorbinhalte) mit benutzerdefinierten Aktions
 {{/each}}
 ```
 
++++
+
 ### Beispiel: Ereignisdaten angereichert mit Datensatzsuche
 
 Kombinieren [Ereignis-SKUs](#event-data) mit detaillierten Produktinformationen aus einer [Datensatzsuche](#dataset-lookup):
+
++++ Beispiel-Code anzeigen
 
 ```handlebars
 <h2>Your Order Details</h2>
@@ -398,7 +448,11 @@ Kombinieren [Ereignis-SKUs](#event-data) mit detaillierten Produktinformationen 
 {{/each}}
 ```
 
++++
+
 ### Beispiel: Kombinieren mehrerer Quellen mit technischen Eigenschaften
+
++++ Beispiel-Code anzeigen
 
 ```handlebars
 <div class="personalized-content">
@@ -428,6 +482,8 @@ Kombinieren [Ereignis-SKUs](#event-data) mit detaillierten Produktinformationen 
   </footer>
 </div>
 ```
+
++++
 
 ## Andere Kontexttypen {#other-contexts}
 
@@ -464,6 +520,8 @@ Weitere Informationen zum Übergeben von Sammlungen in [Übergeben von Sammlunge
 
 **Beispielszenario**: Extrahieren Sie die erste SKU mit einem Preis größer als 0 aus einer Produktliste.
 
++++ Beispiel-Code anzeigen
+
 **Beispiel für ein**:
 
 ```json
@@ -499,9 +557,13 @@ Weitere Informationen zum Übergeben von Sammlungen in [Übergeben von Sammlunge
 
 Erfahren Sie mehr über die `first` in [Funktionen zur Sammlungsverwaltung](../building-journeys/expression/collection-management-functions.md).
 
++++
+
 #### Erstellen einer Werteliste aus einem Array
 
 **Anwendungsfall**: Erstellen einer kommagetrennten Liste von IDs, die als Abfrageparameter übergeben werden (z. B. `/products?ids=sku1,sku2,sku3`).
+
++++ Beispiel-Code anzeigen
 
 **Konfiguration benutzerdefinierter Aktionen**:
 
@@ -535,9 +597,13 @@ Weitere Informationen über:
 
 Die Verarbeitung von Sammlungen für benutzerdefinierte Aktionen wird unter [Übergeben von Sammlungen an benutzerdefinierte Aktionsparameter](../building-journeys/collections.md#passing-collection) beschrieben.
 
++++
+
 #### Übergeben eines Arrays von Objekten an eine benutzerdefinierte Aktion
 
 **Anwendungsfall**: Senden eines vollständigen Arrays von Objekten in einem Anfrageinhalt (für POST oder GET mit Hauptteil).
+
++++ Beispiel-Code anzeigen
 
 **Beispiel für einen Anfragetext**:
 
@@ -584,11 +650,15 @@ Journey Optimizer erstellt das Array von Objekten, die Ihrer Aktions-Payload-Str
 
 Weitere Informationen finden Sie unter [Übergeben von Sammlungen an benutzerdefinierte Aktionsparameter](../building-journeys/collections.md#passing-collection).
 
++++
+
 ### Verwenden von Arrays mit Datensatzabfragen {#arrays-with-dataset-lookup}
 
 Bei Verwendung der Aktivität [Datensatzsuche](../building-journeys/dataset-lookup.md) können Sie ein Array von Werten als Lookup-Schlüssel übergeben, um angereicherte Daten abzurufen.
 
 **Beispiel**: Produktdetails für alle SKUs in einem Ereignis-Array nachschlagen.
+
++++ Beispiel-Code anzeigen
 
 **Konfiguration der Datensatzsuche**:
 
@@ -599,6 +669,8 @@ list(@event{purchaseEvent.productListItems.SKU})
 ```
 
 Dadurch wird eine Liste aller SKU-Werte erstellt, die im Datensatz nachgeschlagen werden sollen. Die Ergebnisse sind als Array `context.journey.datasetLookup.<activityID>.entities` verfügbar, über das Sie in Ihrer Nachricht iterieren können (siehe [Iterieren der Ergebnisse der Datensatzsuche](#dataset-lookup)).
+
++++
 
 ### Einschränkungen und Muster {#array-limitations}
 
@@ -638,6 +710,8 @@ Große Arrays können die Journey-Leistung beeinträchtigen:
 Im Folgenden finden Sie einen vollständigen Workflow, der zeigt, wie ein Ereignis-Array mit einer benutzerdefinierten Aktion verwendet wird.
 
 **Szenario**: Wenn ein Benutzer seinen Warenkorb verlässt, senden Sie Warenkorbdaten an eine externe Recommendations-API, um personalisierte Vorschläge zu erhalten, und zeigen Sie diese dann in einer E-Mail an.
+
++++ Vollständiges Beispiel anzeigen
 
 **Schritt 1: Konfigurieren der benutzerdefinierten Aktion**
 
@@ -731,6 +805,8 @@ Bevor Sie eine Live-Journey ausführen, testen Sie die benutzerdefinierte Aktion
 
 Weitere Informationen finden Sie unter [Fehlerbehebung bei benutzerdefinierten Aktionen](../action/troubleshoot-custom-action.md).
 
++++
+
 ## Best Practices {#best-practices}
 
 Befolgen Sie diese Best Practices bei der Iteration über kontextuelle Daten, um eine verwaltbare, leistungsstarke Personalisierung zu erstellen.
@@ -738,6 +814,8 @@ Befolgen Sie diese Best Practices bei der Iteration über kontextuelle Daten, um
 ### Verwenden beschreibender Variablennamen
 
 Wählen Sie Variablennamen, die klar angeben, worüber Sie iterieren. Dadurch wird der Code besser lesbar und leichter zu verwalten. Weitere Informationen über [Personalisierungssyntax](personalization-syntax.md):
+
++++ Beispiel anzeigen
 
 ```handlebars
 <!-- Good -->
@@ -750,9 +828,13 @@ Wählen Sie Variablennamen, die klar angeben, worüber Sie iterieren. Dadurch wi
 {{#each array as |element|}}
 ```
 
++++
+
 ### Verarbeiten leerer Arrays
 
 Verwenden Sie die `{{else}}`-Klausel, um Fallback-Inhalte bereitzustellen, wenn ein Array leer ist. Weitere Informationen zu [Hilfsfunktionen](functions/helpers.md):
+
++++ Beispiel anzeigen
 
 ```handlebars
 {{#each context.journey.actions.GetRecommendations.items as |item|}}
@@ -762,9 +844,13 @@ Verwenden Sie die `{{else}}`-Klausel, um Fallback-Inhalte bereitzustellen, wenn 
 {{/each}}
 ```
 
++++
+
 ### Kombinieren mit bedingten Helfern
 
-Verwenden Sie `{{#if}}` in Schleifen für bedingte Inhalte. Weitere Informationen zu [bedingten Regeln](create-conditions.md) und Beispiele finden Sie [&#x200B; den Abschnitten Benutzerdefinierte &#x200B;](#custom-action-responses)und [Datensatzsuche](#dataset-lookup).
+Verwenden Sie `{{#if}}` in Schleifen für bedingte Inhalte. Weitere Informationen zu [bedingten Regeln](create-conditions.md) und Beispiele finden Sie [ den Abschnitten Benutzerdefinierte ](#custom-action-responses)und [Datensatzsuche](#dataset-lookup).
+
++++ Beispiel anzeigen
 
 ```handlebars
 {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -780,9 +866,13 @@ Verwenden Sie `{{#if}}` in Schleifen für bedingte Inhalte. Weitere Informatione
 {{/each}}
 ```
 
++++
+
 ### Iteration auf Leistung begrenzen
 
 Bei großen Arrays sollten Sie die Anzahl der Iterationen einschränken:
+
++++ Beispiel anzeigen
 
 ```handlebars
 <!-- Display only first 5 items -->
@@ -793,6 +883,8 @@ Bei großen Arrays sollten Sie die Anzahl der Iterationen einschränken:
 {{/each}}
 ```
 
++++
+
 ### Zugriff auf Array-Metadaten
 
 Handlebars bieten spezielle Variablen in Schleifen, die bei erweiterten Iterationsmustern helfen:
@@ -800,6 +892,8 @@ Handlebars bieten spezielle Variablen in Schleifen, die bei erweiterten Iteratio
 * `@index`: Aktueller Iterationsindex (0-basiert)
 * `@first`: True für die erste Iteration
 * `@last`: True für die letzte Iteration
+
++++ Beispiel anzeigen
 
 ```handlebars
 {{#each products as |product|}}
@@ -809,9 +903,11 @@ Handlebars bieten spezielle Variablen in Schleifen, die bei erweiterten Iteratio
 {{/each}}
 ```
 
++++
+
 >[!NOTE]
 >
->Diese Handlebars-Variablen (`@index`, `@first`, `@last`) sind nur in `{{#each}}` Schleifen der Nachrichtenpersonalisierung verfügbar. Verwenden Sie zum Arbeiten mit Arrays in Journey-Ausdrücken (z. B. Abrufen des ersten Elements aus einem Array vor der Übergabe an eine benutzerdefinierte Aktion) Array-Funktionen wie [`head`](../personalization/functions/arrays-list.md#head), [`first`](../building-journeys/expression/collection-management-functions.md) oder [`all`](../building-journeys/expression/collection-management-functions.md). Weitere [&#x200B; finden Sie unter „Arbeiten mit Arrays &#x200B;](#arrays-in-journeys) Journey-Ausdrücken“.
+>Diese Handlebars-Variablen (`@index`, `@first`, `@last`) sind nur in `{{#each}}` Schleifen der Nachrichtenpersonalisierung verfügbar. Verwenden Sie zum Arbeiten mit Arrays in Journey-Ausdrücken (z. B. Abrufen des ersten Elements aus einem Array vor der Übergabe an eine benutzerdefinierte Aktion) Array-Funktionen wie [`head`](../personalization/functions/arrays-list.md#head), [`first`](../building-journeys/expression/collection-management-functions.md) oder [`all`](../building-journeys/expression/collection-management-functions.md). Weitere [ finden Sie unter „Arbeiten mit Arrays ](#arrays-in-journeys) Journey-Ausdrücken“.
 
 ## Fehlerbehebung {#troubleshooting}
 
@@ -821,6 +917,8 @@ Haben Sie Probleme mit der Iteration? In diesem Abschnitt werden gängige Proble
 
 **Problem**: Ihre Array-Iteration zeigt keine Inhalte an.
 
++++ Mögliche Ursachen und Lösungen anzeigen
+
 **Mögliche Ursachen und**:
 
 1. **Falscher Pfad**: Überprüfen Sie den genauen Pfad zu Ihrem Array basierend auf der Kontextquelle:
@@ -828,13 +926,17 @@ Haben Sie Probleme mit der Iteration? In diesem Abschnitt werden gängige Proble
    * Für [benutzerdefinierte Aktionen](#custom-action-responses): `context.journey.actions.<actionName>.<fieldPath>`
    * Für [Datensatzsuche](#dataset-lookup): `context.journey.datasetLookup.<activityID>.entities`
 
-2. **Array ist leer**: Fügen Sie eine `{{else}}` hinzu, um zu überprüfen, ob das Array keine Daten enthält. Beispiele finden [&#x200B; unter &#x200B;](#best-practices) Practices .
+2. **Array ist leer**: Fügen Sie eine `{{else}}` hinzu, um zu überprüfen, ob das Array keine Daten enthält. Beispiele finden [ unter ](#best-practices) Practices .
 
 3. **Daten noch nicht verfügbar**: Stellen Sie sicher, dass die benutzerdefinierte Aktion, das Ereignis oder die Datensatz-Suchaktivität vor der Nachrichtenaktivität in Ihrem Journey-Fluss ausgeführt wurde.
+
++++
 
 ### Syntaxfehler
 
 **Problem**: Die Ausdrucksvalidierung schlägt fehl oder die Nachricht wird nicht gerendert.
+
++++ Häufige Fehler anzeigen
 
 **Häufige**:
 
@@ -842,53 +944,30 @@ Haben Sie Probleme mit der Iteration? In diesem Abschnitt werden gängige Proble
 * Falscher Variablenname: Stellen Sie sicher, dass der Variablenname im gesamten Block konsistent verwendet wird. Siehe [Best Practices](#best-practices) für Namenskonventionen.
 * Falsche Pfadtrennzeichen: Verwenden Sie Punkte (`.`) anstelle von Schrägstrichen oder anderen Zeichen
 
++++
+
 ### Testen von Iterationen
 
 Verwenden Sie den [Journey-Testmodus](../building-journeys/testing-the-journey.md) um Ihre Iterationen zu überprüfen. Dies ist besonders wichtig bei der Verwendung von [benutzerdefinierten Aktionen](#custom-action-responses) oder [Datensatzsuchen](#dataset-lookup):
 
-1. Journey im [&#x200B; starten](../building-journeys/testing-the-journey.md)
++++ Testschritte anzeigen
+
+1. Journey im [ starten](../building-journeys/testing-the-journey.md)
 2. Trigger des Ereignisses oder der benutzerdefinierten Aktion mit Beispieldaten
 3. Überprüfen Sie die [Nachrichtenvorschau](../content-management/preview.md), um sicherzustellen, dass die Iteration korrekt angezeigt wird
 4. Überprüfen Sie die Testmodusprotokolle auf Fehler (siehe [Testmodusprotokolle für benutzerdefinierte Aktionen](../action/action-response.md#test-mode-logs))
 
++++
+
 ## Verwandte Themen {#related-topics}
 
-**Personalization-Grundlagen:**
+**Personalization-Grundlagen:** [Erste Schritte mit der Personalisierung](personalize.md) | [Personalisierung hinzufügen](personalization-build-expressions.md) | [Personalization-Syntax](personalization-syntax.md) | [Hilfsfunktionen](functions/helpers.md) | [Erstellen von bedingten Regeln](create-conditions.md)
 
-* [Erste Schritte bei der Personalisierung](personalize.md)
-* [Hinzufügen von Personalisierung](personalization-build-expressions.md)
-* [Personalisierungssyntax](personalization-syntax.md)
-* [Hilfsfunktionen](functions/helpers.md)
-* [Erstellen bedingter Regeln](create-conditions.md)
+**Journey-Konfiguration:** [Über Ereignisse](../event/about-events.md) | [Konfigurieren von benutzerdefinierten Aktionen](../action/about-custom-action-configuration.md) | [Übergeben von Sammlungen in benutzerdefinierte Aktionsparameter](../building-journeys/collections.md#passing-collection) | [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](../action/action-response.md) | [Fehlerbehebung bei benutzerdefinierten Aktionen](../action/troubleshoot-custom-action.md) | [Verwenden von Adobe Experience Platform-Daten in Journey](../building-journeys/dataset-lookup.md) | [Zusätzliche Kennungen in Journey verwenden](../building-journeys/supplemental-identifier.md) | [Leitplanken und Einschränkungen](../start/guardrails.md) | [Journey testen](../building-journeys/testing-the-journey.md)
 
-**Journey-Konfiguration:**
+**Journey-Ausdrucksfunktionen:** [Erweiterter Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) | [Funktionen zur Sammlungsverwaltung](../building-journeys/expression/collection-management-functions.md) (zunächst alle, zuletzt) | [Listenfunktionen](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Array-Funktionen](../personalization/functions/arrays-list.md) (Kopf, Schwanz)
 
-* [Informationen zu Ereignissen](../event/about-events.md)
-* [Benutzerdefinierter Aktionen konfigurieren](../action/about-custom-action-configuration.md)
-* [Übergeben von Sammlungen in Parameter benutzerdefinierter Aktionen](../building-journeys/collections.md#passing-collection)
-* [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](../action/action-response.md)
-* [Fehlerbehebung bei benutzerdefinierten Aktionen](../action/troubleshoot-custom-action.md)
-* [Verwenden von Adobe Experience Platform-Daten in Journeys](../building-journeys/dataset-lookup.md)
-* [Verwenden zusätzlicher Kennungen in Journeys](../building-journeys/supplemental-identifier.md)
-* [Leitlinien und Einschränkungen](../start/guardrails.md)
-* [Journey testen](../building-journeys/testing-the-journey.md)
+**Personalization-Anwendungsfälle:** [E-Mail zu Warenkorbabbruch](personalization-use-case-helper-functions.md) | [Benachrichtigung zum Bestellstatus](personalization-use-case.md)
 
-**Journey-Ausdrucksfunktionen:**
-
-* [Der erweiterte Ausdruckseditor](../building-journeys/expression/expressionadvanced.md)
-* [Funktionen zur Sammlungsverwaltung](../building-journeys/expression/collection-management-functions.md) (zunächst alle, zuletzt)
-* [Listenfunktionen](../building-journeys/functions/list-functions.md) (serializeList, filter, sort)
-* [Array-Funktionen](../personalization/functions/arrays-list.md) (Kopf, Schwanz)
-
-**Personalization-Anwendungsfälle:**
-
-* [E-Mail zum Warenkorbabbruch](personalization-use-case-helper-functions.md)
-* [Benachrichtigung zum Bestellstatus](personalization-use-case.md)
-
-**Nachrichtendesign:**
-
-* [Erste Schritte mit E-Mail-Design](../email/get-started-email-design.md)
-* [Push-Benachrichtigungen erstellen](../push/create-push.md)
-* [SMS-Nachrichten erstellen](../sms/create-sms.md)
-* [Anzeigen einer Vorschau und Testen der Inhalte](../content-management/preview-test.md)
+**Nachrichtendesign:** [Erste Schritte beim Gestalten von E-Mails](../email/get-started-email-design.md) | [Push-Benachrichtigungen erstellen](../push/create-push.md) | [Erstellen von SMS-Nachrichten](../sms/create-sms.md) | [Vorschau und Testen von Inhalten](../content-management/preview-test.md)
 
