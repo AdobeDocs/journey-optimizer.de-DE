@@ -37,7 +37,7 @@ Der Journey-Designer von Journey Optimizer bietet alles, was Marketing-Fachleute
 
 ![Benutzeroberfläche des Journey-Designers mit Palette, Arbeitsfläche und Eigenschaftenbereich](assets/journey38.png)
 
-**Bereit mit dem Bauen?** Auf dieser Seite erfahren Sie, wie Sie Ihre erste Journey erstellen [ gestalten](journey-gs.md).
+**Bereit mit dem Bauen?** Auf dieser Seite erfahren Sie, wie Sie Ihre erste Journey erstellen [&#x200B; gestalten](journey-gs.md).
 
 >[!TAB Schlüsselfunktionen]
 

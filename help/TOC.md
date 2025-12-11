@@ -50,7 +50,7 @@ ht-degree: 97%
 + Journeys {#orchestrate-journeys}
    + [Journeys](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)
-   + [Journey Orchestration - Vollständiges Handbuch](using/building-journeys/journey-get-started.md){hide="yes"}
+   + [Journey Orchestration - Vollständiges Handbuchhide="yes"](using/building-journeys/journey-get-started.md)
    + [Häufig gestellte Fragen zu Journeys](using/building-journeys/journey-faq.md)
    + Erstellen einer Journey {#create-journey}
       + [Erstellen einer Journey](/help/rp_landing_pages/create-journey-landing-page.md)
