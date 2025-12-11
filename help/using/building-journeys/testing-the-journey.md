@@ -30,7 +30,7 @@ Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entw
 
 >[!NOTE]
 >
->Vor dem Testen Ihrer Journey müssen Sie alle Fehler beheben, falls vorhanden. Erfahren Sie in ([ Abschnitt), wie Sie Fehler vor dem Testen ](../building-journeys/troubleshooting.md). Wenn Testprofile im Testmodus nicht fortschreiten, siehe [Fehlerbehebung bei Testmodusübergängen](troubleshooting-execution.md#troubleshooting-test-transitions).
+>Vor dem Testen Ihrer Journey müssen Sie alle Fehler beheben, falls vorhanden. Erfahren Sie in ([&#x200B; Abschnitt), wie Sie Fehler vor dem Testen &#x200B;](../building-journeys/troubleshooting.md). Wenn Testprofile im Testmodus nicht fortschreiten, siehe [Fehlerbehebung bei Testmodusübergängen](troubleshooting-execution.md#troubleshooting-test-transitions).
 
 ## Wichtige Hinweise {#important_notes}
 

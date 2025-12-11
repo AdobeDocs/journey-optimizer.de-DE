@@ -57,7 +57,7 @@ Sie können die Fehlerbehebung mit den folgenden Fragen beginnen:
   Content-type - application/json
   ```
 
->>
+&#x200B;>>
 **Für Journeys zur Zielgruppenqualifizierung mit Streaming-Zielgruppen**: Wenn Sie eine Aktivität zur Zielgruppenqualifizierung als Eintrittspunkt für die Journey verwenden, beachten Sie, dass nicht unbedingt alle für die Zielgruppe qualifizierten Profile auch in die Journey eintreten. Dies kann an Zeitfaktoren oder kurzfristigen Ausstiegen aus der Zielgruppe liegen oder daran, dass sich Profile bereits vor der Veröffentlichung in der Zielgruppe befanden. Erfahren Sie mehr zu [Überlegungen zum Timing bei der Qualifizierung von Streaming-Zielgruppen](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Fehlerbehebung bei Testmodusübergängen {#troubleshooting-test-transitions}
@@ -73,7 +73,7 @@ Wenn Testprofile in die Journey eintreten, aber nicht über den ursprünglichen 
    * Stellen Sie sicher, dass die aktuelle Uhrzeit in das aktive Datumsfenster der Journey fällt.
    * Aktualisieren Sie bei Bedarf die Journey-Eigenschaften, um das Startdatum anzupassen
 
-* **Testprofilkonfiguration** - Vergewissern Sie sich, dass das Profil in Adobe Experience Platform korrekt als Testprofil gekennzeichnet ist. Weitere [ finden Sie unter „Erstellen ](../audience/creating-test-profiles.md) Testprofilen“.
+* **Testprofilkonfiguration** - Vergewissern Sie sich, dass das Profil in Adobe Experience Platform korrekt als Testprofil gekennzeichnet ist. Weitere [&#x200B; finden Sie unter „Erstellen &#x200B;](../audience/creating-test-profiles.md) Testprofilen“.
 
 * **Identity-Namespace** - Stellen Sie sicher, dass der in der Ereigniskonfiguration verwendete Identity-Namespace mit dem Namespace Ihres Testprofils übereinstimmt.
 

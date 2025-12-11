@@ -90,4 +90,4 @@ Wenn Sie in Ihrem E-Mail-Inhalt Datumsberechnungen durchführen müssen:
 
 * **Berechnete Attribute verwenden** - Erstellen Sie [berechnete Attribute](../audience/computed-attributes.md) die komplexe Datumsberechnungen durchführen und die Ergebnisse als Profilattribute verfügbar machen.
 
-Weitere Informationen zu [Datums-/Uhrzeitfunktionen in der ](../personalization/functions/dates.md)).
+Weitere Informationen zu [Datums-/Uhrzeitfunktionen in der &#x200B;](../personalization/functions/dates.md)).
