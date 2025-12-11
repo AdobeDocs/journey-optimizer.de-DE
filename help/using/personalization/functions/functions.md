@@ -17,7 +17,7 @@ ht-degree: 93%
 
 Helper-Funktionen ermöglichen es Ihnen, Daten in Ihren personalisierten Inhalten zu transformieren und zu bearbeiten. Verwenden Sie sie, um Berechnungen durchzuführen, Daten zu formatieren, Bedingungen anzuwenden und verschiedene Vorgänge auszuführen, um dynamische, maßgeschneiderte Erlebnisse für Ihre Kunden zu erstellen.
 
-Diese Funktionen nutzen die [!DNL Journey Optimizer] Vorlagensprache. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden [ auf dieser Seite](../personalization-syntax.md).
+Diese Funktionen nutzen die [!DNL Journey Optimizer] Vorlagensprache. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden [&#x200B; auf dieser Seite](../personalization-syntax.md).
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Hilfsfunktionen verwenden](#video)
 
