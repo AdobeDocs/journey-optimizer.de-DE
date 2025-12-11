@@ -198,7 +198,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 Sie können Informationen verwenden, die auf einer Landingpage gesendet wurden, um weitere Aktionen durchzuführen. Wenn ein Benutzer beispielsweise eine bestimmte Abonnement-Liste abonniert, können Sie diese Informationen nutzen, um diesem Benutzer eine E-Mail mit Empfehlungen für andere Abonnement-Listen zu senden.
 
-Dazu müssen Sie ein [regelbasiertes unitäres Ereignis“ auf ](../event/about-creating.md) Grundlage des **[!UICONTROL AJO E-Mail-Tracking-Erlebnisereignisschemas]** erstellen, das die Übermittlungsinformationen enthält, und [dieses Ereignis auf einer Journey verwenden](../building-journeys/general-events.md).
+Dazu müssen Sie ein [regelbasiertes unitäres Ereignis“ auf &#x200B;](../event/about-creating.md) Grundlage des **[!UICONTROL AJO E-Mail-Tracking-Erlebnisereignisschemas]** erstellen, das die Übermittlungsinformationen enthält, und [dieses Ereignis auf einer Journey verwenden](../building-journeys/general-events.md).
 
 >[!NOTE]
 >
