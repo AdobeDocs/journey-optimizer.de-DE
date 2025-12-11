@@ -21,7 +21,7 @@ Um auf Adobe Journey Optimizer zuzugreifen, melden Sie sich bei [Adobe Experienc
 
 >[!NOTE]
 >
->* Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen hängen von Ihren [&#x200B; (Berechtigungen](../administration/permissions.md) und [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab.
+>* Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen hängen von Ihren [ (Berechtigungen](../administration/permissions.md) und [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab.
 >* Diese Dokumentation wird häufig aktualisiert. Einige Screenshots können leicht von Ihrer Benutzeroberfläche abweichen.
 
 ## kurzer Überblick {#quick-tour}
