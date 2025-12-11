@@ -66,7 +66,7 @@ Nutzen Sie **kontextuelle Daten** aus Ereignissen, Informationen aus Adobe Exper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
 
 **Integrierte Aktionen**
 
@@ -76,7 +76,7 @@ Verwenden Sie **integrierten Kanalaktionen** um in [!DNL Journey Optimizer] entw
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
 
 **Benutzerdefinierte Aktionen**
 
@@ -128,7 +128,7 @@ Senden Sie eine personalisierte Willkommens-Journey, wenn Kunden Ihren Service a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg?lang=de)
 
 **Optimieren der E-Mail-Versandzeiten**
 
@@ -184,7 +184,7 @@ Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Er
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 **Erstellen und Verwalten von Journey**
 
@@ -194,7 +194,7 @@ Schrittweise Anleitungen zum Entwerfen, Testen, Veröffentlichen und Tracking vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 **Journey-Aktivitäten**
 
@@ -204,7 +204,7 @@ Entdecken Sie, wie Sie Aktivitäten wie Trigger, Entscheidungsschritte, Zielgrup
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 **Ausdrücke und Bedingungen**
 
