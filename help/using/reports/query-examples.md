@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
-workflow-type: ht
-source-wordcount: '2598'
-ht-degree: 100%
+source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
+workflow-type: tm+mt
+source-wordcount: '2749'
+ht-degree: 94%
 
 ---
 
@@ -108,7 +108,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 Diese Abfrage zählt die Gesamtzahl der Ereignisse, die von einer Journey verworfen wurden. Sie filtert nach verschiedenen Ereignis-Codes für das Verwerfen, einschließlich Segmentexportauftragsfehlern, Dispatcher-Verwerfungen und Status-Computer-Verwerfungen.
 
-_Data Lake-Abfrage_
+_Data-Lake-Abfrage_
 
 ```sql
 SELECT
@@ -123,6 +123,64 @@ WHERE (
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
++++
+
++++Anzeigen von Schrittereignissen für verworfene Profile
+
+Diese Abfrage gibt die Schrittereignisdetails für Profile zurück, die von einer Journey verworfen wurden. Auf diese Weise lässt sich erkennen, warum Profile verworfen wurden, z. B. aufgrund von Geschäftsregeln oder Beschränkungen für ruhige Stunden. Die Abfrage filtert nach bestimmten Verwerfen-Ereignistypen und zeigt wichtige Informationen an, darunter Profil-ID, Instanz-ID, Journey-Details und den Fehler, der die Verwerfung verursacht hat.
+
+_Data-Lake-Abfrage_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = '<eventType>' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = '<instanceID>';
+```
+
+_Beispiel_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'quietHours' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '6f21a072-6235-4c39-9f6a-9d9f3f3b2c3a' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
+```
+
+![Beispielabfrageergebnisse mit verworfenen Profildetails](assets/query-discarded-profiles.png)
+
+Die Abfrageergebnisse zeigen Schlüsselfelder an, die dabei helfen, den Grund für verworfene Profile zu identifizieren:
+
+* **actionExecutionError** - Bei Festlegung auf `businessRuleProfileDiscarded` bedeutet dies, dass das Profil aufgrund einer Geschäftsregel verworfen wurde. Das Feld `eventType` enthält zusätzliche Details darüber, welche spezifische Geschäftsregel den Verwerfen verursacht hat.
+
+* **eventType** - Gibt den Typ der Geschäftsregel an, die den Verwerfen verursacht hat:
+   * `quietHours`: Profil wurde aufgrund von Konfigurationen außerhalb der Geschäftszeiten verworfen
+   * `forcedDiscardDueToQuietHours`: Das Profil wurde zwangsweise verworfen, da das Limit der Leitplanken für Profile erreicht wurde, die in ruhigen Stunden gehalten wurden
 
 +++
 
@@ -702,7 +760,7 @@ Es werden alle Service-Ereignisse im Zusammenhang mit der angegebenen Journey-Ve
 
 Zusätzlich können Probleme identifiziert werden wie z. B.:
 
-* Fehler bei der Erstellung des Themas oder Exportauftrags (einschließlich Zeitüberschreitungen bei API-Aufrufen zum Zielgruppenexport)
+* Fehler bei der Erstellung des Themas oder Exportvorgangs (einschließlich Zeitüberschreitungen bei API-Aufrufen zum Zielgruppenexport)
 * Blockierte Exportaufträge (wenn für eine bestimmte Journey-Version kein Ereignis zur Beendigung des Exportauftrags vorhanden ist)
 * Worker-Probleme, wenn ein Beendigungsereignis zum Exportauftrag, aber kein Beendigungsereignis zur Worker-Verarbeitung empfangen wurde.
 
