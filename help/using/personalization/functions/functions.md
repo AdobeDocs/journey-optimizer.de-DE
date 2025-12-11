@@ -6,30 +6,39 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
+source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 98%
+source-wordcount: '2458'
+ht-degree: 93%
 
 ---
 
 # Erste Schritte mit Helper-Funktionen{#functions}
 
-Verwenden Sie die Vorlagensprache von [!DNL Journey Optimizer], um Datenoperationen wie Berechnungen, Datenformatierungen oder Konvertierungen und Bedingungen durchzuführen, und bearbeiten Sie Daten im Zuge der Personalisierung. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden Sie auf [dieser Seite](../personalization-syntax.md).
+Helper-Funktionen ermöglichen es Ihnen, Daten in Ihren personalisierten Inhalten zu transformieren und zu bearbeiten. Verwenden Sie sie, um Berechnungen durchzuführen, Daten zu formatieren, Bedingungen anzuwenden und verschiedene Vorgänge auszuführen, um dynamische, maßgeschneiderte Erlebnisse für Ihre Kunden zu erstellen.
+
+Diese Funktionen nutzen die [!DNL Journey Optimizer] Vorlagensprache. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden [ auf dieser Seite](../personalization-syntax.md).
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Hilfsfunktionen verwenden](#video)
 
-Die Vorlagensprache wird in Hilfsfunktionen verwendet, die in der Dropdown-Liste „Personalisierung“ des Personalisierungseditors verfügbar sind, wie unten gezeigt:
+## Zugriff auf Helper-Funktionen
+
+Hilfsfunktionen sind im Funktionsmenü des Personalisierungseditors verfügbar:
 
 ![](../assets/access-helper-functions.png)
 
-Im Personalisierungseditor von [!DNL Journey Optimizer] sind die Hilfsfunktionen in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper](#helper-helper) und [Operatoren](#operators-helper).
+Zur einfachen Navigation sind die Funktionen in drei Kategorien unterteilt:
 
-Wählen Sie eine Kategorie aus, um auf Unterkategorien und Funktionen zuzugreifen.
+* **[Funktionen](#functions-helper)** - Datenmanipulations- und -umwandlungsvorgänge
+* **[Helper](#helper-helper)** - Bedingte Logik und Dienstprogramm-Funktionen
+* **[Operatoren](#operators-helper)** - Vergleich und logische Operatoren
 
-Sie können auf Unterkategorien durch Klicken auf das Symbol `>` zugreifen. Wählen Sie eine Funktion aus, indem Sie auf das Symbol `+` klicken. Die Funktion wird dann automatisch zum Personalisierungsbildschirm hinzugefügt.
+**So verwenden Sie eine Hilfsfunktion:**
 
-Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen und sie zu Ihren Favoriten hinzuzufügen. [Weitere Informationen](../personalize.md#fav)
+1. Kategorie auswählen, um ihre Unterkategorien und verfügbaren Funktionen anzuzeigen
+1. Klicken Sie auf das `>`, um Unterkategorien zu erweitern
+1. Klicken Sie auf das `+` neben einer Funktion, um sie zu Ihrem Personalisierungs-Code hinzuzufügen
+1. Klicken Sie auf das Symbol `...` , um die Funktionsbeschreibung anzuzeigen oder zu Ihren Favoriten hinzuzufügen. [Weitere Informationen](../personalize.md#fav)
 
 >[!NOTE]
 >
