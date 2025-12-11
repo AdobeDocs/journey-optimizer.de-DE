@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 88%
 
 ---
 
@@ -169,8 +169,6 @@ Die Opt-out-Informationen werden im **Einverständnisdienst-Datensatz** gespeich
 >
 >Selbst wenn diesem Datensatz keine Batches hinzugefügt wurden, enthält er weiterhin die Opt-in-/Opt-out-Informationen.
 
-
-
 **Siehe auch:**
 
 * [Opt-out mit einem Klick](../email/email-opt-out.md#one-click-opt-out)
@@ -190,14 +188,21 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
 
-////////
+-->
 
+## Übermittlungsereignis für Landingpages nutzen {#leverage-lp-event}
 
-## Leverage landing page submission event {#leverage-lp-event}
+Sie können Informationen verwenden, die auf einer Landingpage gesendet wurden, um weitere Aktionen durchzuführen. Wenn ein Benutzer beispielsweise eine bestimmte Abonnement-Liste abonniert, können Sie diese Informationen nutzen, um diesem Benutzer eine E-Mail mit Empfehlungen für andere Abonnement-Listen zu senden.
 
-You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
+Dazu müssen Sie ein [regelbasiertes unitäres Ereignis“ auf ](../event/about-creating.md) Grundlage des **[!UICONTROL AJO E-Mail-Tracking-Erlebnisereignisschemas]** erstellen, das die Übermittlungsinformationen enthält, und [dieses Ereignis auf einer Journey verwenden](../building-journeys/general-events.md).
 
-To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
+>[!NOTE]
+>
+>Beachten Sie bei der Arbeit mit Landingpage-Übermittlungsereignissen, dass das Feld `interactionType` möglicherweise nicht immer genau die spezifische Benutzeraktion widerspiegelt. Um genau festzustellen, ob ein Benutzer sich abgemeldet, abonniert oder eine andere Aktion ausgeführt hat, überprüfen Sie immer die tatsächlichen Profilattribute (z. B. Einverständnisvoreinstellungen) oder Formularfeldwerte, anstatt sich ausschließlich auf die `interactionType` zu verlassen.
+
+<!--DETAILED STEPS TBC:
+
+Follow the steps below.
 
 1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
 
