@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
+source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 88%
+source-wordcount: '1184'
+ht-degree: 85%
 
 ---
 
@@ -149,6 +149,10 @@ Gehen Sie wie folgt vor, um den Empfängerinnen und Empfängern einer Nachricht 
 
    ![](assets/lp_opt-out-submit-form.png)
 
+   >[!WARNING]
+   >
+   >Wenn Sie in der E-Mail auf den Abmelde-Link klicken, wird nur die Landingpage geöffnet. Der Empfänger muss **das Formular senden, indem er auf die Opt-out-Schaltfläche auf der Landingpage klickt** um die Abmeldung abzuschließen und sein Profileinverständnis zu aktualisieren.
+
    Wenn der Empfänger das Kästchen aktiviert und das Formular absendet:
 
    * Der abgemeldete Empfänger wird zum Bestätigungsbildschirm weitergeleitet.
@@ -194,7 +198,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 Sie können Informationen verwenden, die auf einer Landingpage gesendet wurden, um weitere Aktionen durchzuführen. Wenn ein Benutzer beispielsweise eine bestimmte Abonnement-Liste abonniert, können Sie diese Informationen nutzen, um diesem Benutzer eine E-Mail mit Empfehlungen für andere Abonnement-Listen zu senden.
 
-Dazu müssen Sie ein [regelbasiertes unitäres Ereignis“ auf &#x200B;](../event/about-creating.md) Grundlage des **[!UICONTROL AJO E-Mail-Tracking-Erlebnisereignisschemas]** erstellen, das die Übermittlungsinformationen enthält, und [dieses Ereignis auf einer Journey verwenden](../building-journeys/general-events.md).
+Dazu müssen Sie ein [regelbasiertes unitäres Ereignis“ auf ](../event/about-creating.md) Grundlage des **[!UICONTROL AJO E-Mail-Tracking-Erlebnisereignisschemas]** erstellen, das die Übermittlungsinformationen enthält, und [dieses Ereignis auf einer Journey verwenden](../building-journeys/general-events.md).
 
 >[!NOTE]
 >

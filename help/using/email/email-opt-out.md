@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
+source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 97%
+source-wordcount: '1031'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Mö
 
 Wenn eine Empfängerin oder ein Empfänger auf den Ausschluss-Link klickt, wird die Abmeldeanfrage entsprechend verarbeitet. 
 
-Um zu überprüfen, ob die Auswahl des entsprechenden Profils aktualisiert wurde, navigieren Sie zu Experience Platform und [rufen Sie das Profil auf](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Auf der [Registerkarte Attribute](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"} sehen Sie, dass der Wert für **[!UICONTROL choice]** auf **[!UICONTROL no]** geändert wurde. Weitere Informationen zur Einverständnisverarbeitung finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=de){target="_blank"}.
+Um zu überprüfen, ob die Auswahl des entsprechenden Profils aktualisiert wurde, navigieren Sie zu Experience Platform und [rufen Sie das Profil auf](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Auf der [Registerkarte Attribute](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"} sehen Sie, dass der Wert für **[!UICONTROL choice]** auf **[!UICONTROL no]** geändert wurde. Weitere Informationen zur Verarbeitung von Einverständniserklärungen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=de){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -169,6 +169,10 @@ Nachdem Sie den Abmelde-Link für Ihre Landingpage konfiguriert haben, können S
 1. Wenn die Empfängerin bzw. der Empfänger nach Erhalt der Nachricht auf den Abmelde-Link klickt, wird die Landingpage angezeigt.
 
    ![](assets/opt-out-lp-example.png)
+
+   >[!WARNING]
+   >
+   >Wenn Sie in der E-Mail auf den Abmelde-Link klicken, wird nur die Landingpage geöffnet. Der Empfänger muss **das Formular senden, indem er auf die Opt-out-Schaltfläche auf der Landingpage klickt** um die Abmeldung abzuschließen und sein Profileinverständnis zu aktualisieren.
 
 1. Wenn die Person das Formular abschickt (in diesem Fall durch Klicken auf die Schaltfläche **[!UICONTROL Abmelden]** auf Ihrer Landingpage), werden die Profildaten durch den API-Aufruf aktualisiert.
 
