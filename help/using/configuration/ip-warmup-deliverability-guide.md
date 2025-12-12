@@ -8,8 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, Zustellbarkeit, Reputation, ISP, Interaktion
-exl-id: TBD
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 07896931a7c06e1b712f3b65e1dcf939b521ba83
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 6%
@@ -113,7 +112,7 @@ Verwenden Sie diese Entscheidungsmatrix, um häufige Probleme während der Aufw�
 |---------|--------------|-------------------|
 | Vorübergehende Yahoo-Fehler (421 Fehler) | Volumen zu schnell erhöht | Senden für 24 Stunden anhalten und dann auf der vorherigen Ebene neu starten |
 | Öffnungsrate unter 2 % für Testkonten | IP-Blockierungsauflistung | Überprüfen Sie [Google Postmaster Tools](https://postmaster.google.com/) und [Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/); öffnen Sie bei Bedarf ein Zustellbarkeits-Ticket |
-| Die Beschwerderate liegt über 0,3 % | Falsch angesprochene oder veraltete Zielgruppe | Prüfen Sie Segmentdefinitionen und schließen Sie chronische Beschwerdeführer von Ihrer [Unterdrückungsliste“ &#x200B;](manage-suppression-list.md) |
+| Die Beschwerderate liegt über 0,3 % | Falsch angesprochene oder veraltete Zielgruppe | Prüfen Sie Segmentdefinitionen und schließen Sie chronische Beschwerdeführer von Ihrer [Unterdrückungsliste“ ](manage-suppression-list.md) |
 
 >[!IMPORTANT]
 >
@@ -145,12 +144,12 @@ Sobald Sie Ihren Aufwärmplan abgeschlossen haben und sich die Metriken stabilis
 
 Erfahren Sie mehr über die Grundlagen der Zustellbarkeit, den Aufbau von Reputationen und Best Practices für die IP-Aufwärmung in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463791/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
 
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=de).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
 
 ## Verwandte Themen {#related-topics}
 
