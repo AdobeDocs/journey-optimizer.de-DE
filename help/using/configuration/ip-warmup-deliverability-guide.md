@@ -112,7 +112,7 @@ Verwenden Sie diese Entscheidungsmatrix, um häufige Probleme während der Aufw�
 |---------|--------------|-------------------|
 | Vorübergehende Yahoo-Fehler (421 Fehler) | Volumen zu schnell erhöht | Senden für 24 Stunden anhalten und dann auf der vorherigen Ebene neu starten |
 | Öffnungsrate unter 2 % für Testkonten | IP-Blockierungsauflistung | Überprüfen Sie [Google Postmaster Tools](https://postmaster.google.com/) und [Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/); öffnen Sie bei Bedarf ein Zustellbarkeits-Ticket |
-| Die Beschwerderate liegt über 0,3 % | Falsch angesprochene oder veraltete Zielgruppe | Prüfen Sie Segmentdefinitionen und schließen Sie chronische Beschwerdeführer von Ihrer [Unterdrückungsliste“ ](manage-suppression-list.md) |
+| Die Beschwerderate liegt über 0,3 % | Falsch angesprochene oder veraltete Zielgruppe | Prüfen Sie Segmentdefinitionen und schließen Sie chronische Beschwerdeführer von Ihrer [Unterdrückungsliste“ &#x200B;](manage-suppression-list.md) |
 
 >[!IMPORTANT]
 >
