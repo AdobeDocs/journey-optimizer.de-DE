@@ -19,7 +19,7 @@ ht-degree: 6%
 
 Beim Starten von E-Mail-Kampagnen mit neuen IP-Adressen oder Domains in Adobe Journey Optimizer sind die Grundlagen der Zustellbarkeit von entscheidender Bedeutung für den Aufbau einer guten Reputation bei Absendern. In diesem Handbuch werden die wichtigsten Konzepte, Vorbereitungsschritte und Best Practices behandelt, die Ihnen beim Übergang von der Reputation auf eine erfolgreiche Platzierung im Posteingang helfen.
 
-➡️ Erfahren Sie in diesem [Adobe-Blogpost&rbrace; im Video mehr über die Grundlagen der Zustellbarkeit, die Schaffung einer guten Reputation und Best Practices für die IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}Aufwärmung.
+➡️ Erfahren Sie in diesem [Adobe-Blogpost&rbrace; im Video mehr über die Grundlagen der Zustellbarkeit, die Schaffung einer guten Reputation und Best Practices für die IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=de){target="_blank"}Aufwärmung.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Sobald Sie Ihren Aufwärmplan abgeschlossen haben und sich die Metriken stabilis
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=de).-->
 
 ## Verwandte Themen {#related-topics}
 
