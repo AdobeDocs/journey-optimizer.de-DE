@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 50%
+source-wordcount: '965'
+ht-degree: 51%
 
 ---
 
@@ -88,23 +88,40 @@ Berücksichtigen Sie bei wachsenden Anforderungen Ihres Unternehmens die folgend
 
 * **IP-Aufwärmpläne**: Steigern Sie die Menge der E-Mail-Sendungen schrittweise, um die Reputation der Absender bei E-Mail-Anbietern aufzubauen. [Weitere Informationen](../../configuration/ip-warmup-gs.md)
 
-## Mit anderen Rollen zusammenarbeiten
+## Rollenübergreifend zusammenarbeiten
 
 Ihre Verwaltungsarbeit ermöglicht es allen Teams, erfolgreich zu sein:
 
-* **Support [Dateningenieure](data-engineer.md)**: Erteilen von Berechtigungen für das Daten-Management, Genehmigen des Sandbox-Zugriffs und Koordinieren von Richtlinien zur Datenaufbewahrung
+>[!BEGINTABS]
 
-* **Entwickler [&#128279;](developer.md)**: API-Anmeldeinformationen bereitstellen, Sandbox-Umgebungen für Tests einrichten und Kanalkonfigurationen genehmigen
+>[!TAB Support für Dateningenieure]
 
-* **Marketer [Marketer](marketer.md)**: Weisen Sie geeignete Berechtigungen zu, um Journey und Kampagnen zu erstellen, Kanäle zu konfigurieren, die sie verwenden werden, und Testumgebungen zu unterstützen
+Zusammenarbeit mit [Dateningenieuren](data-engineer.md) bei der Verwaltung und dem Zugriff auf Daten:
 
-## Auf dem Laufenden bleiben
+* Berechtigungen für die Datenverwaltung und Schemaerstellung erteilen
+* Genehmigen des Sandbox-Zugriffs für Entwicklung und Tests
+* Koordinieren von Richtlinien zur Datenaufbewahrung und Governance-Regeln
+* Ermöglichen des Zugriffs auf erweiterte Funktionen wie Federated Audience Composition
 
-Halten Sie sich über die neuesten Journey Optimizer-Plattformaktualisierungen und administrativen Änderungen auf dem Laufenden:
+>[!TAB Entwickler aktivieren]
 
-* **[Versionshinweise](../../rn/release-notes.md)** Überprüfen Sie jeden Monat neue Funktionen, Plattform-Updates, Sicherheits-Patches und Konfigurationsänderungen
-* **[Dokumentationsaktualisierungen](../../rn/documentation-updates.md)**: Verfolgen Sie aktuelle Änderungen an Konfigurationshandbüchern, Berechtigungsaktualisierungen und neuen administrativen Funktionen
-* **[Produktbenachrichtigungen](../../rn/releases.md#staying-informed)**: Erfahren Sie, wie Sie E-Mail- und produktinterne Warnhinweise für Journey Optimizer-Updates abonnieren, einschließlich Systemwartung, Sicherheits-Updates und wichtiger Produktankündigungen. Als Administrator sollten Sie alle kritischen Systembenachrichtigungen aktivieren
+Zusammenarbeit mit [Entwicklern](developer.md) beim API-Zugriff und bei Tests:
+
+* API-Anmeldeinformationen über Adobe Developer Console bereitstellen
+* Einrichten von Sandbox-Umgebungen für Entwicklung und Tests
+* Kanalkonfigurationen genehmigen (Push-Zertifikate, SMS-Anbieter)
+* Koordination von Testumgebungen und Bereitstellungsstrategie
+
+>[!TAB Marketing-Experten unterstützen]
+
+Zusammenarbeit mit [Marketern](marketer.md) bei Berechtigungen und Kanaleinrichtung:
+
+* Weisen Sie die entsprechenden Berechtigungen zu, um Journey und Kampagnen zu erstellen
+* Kanäle konfigurieren, die sie verwenden werden (E-Mail, Push, SMS usw.)
+* Unterstützung von Testumgebungen und Genehmigungs-Workflows
+* Ermöglichen des Zugriffs auf neue Funktionen
+
+>[!ENDTABS]
 
 ## Nächste Schritte
 

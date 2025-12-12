@@ -5,10 +5,10 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '1886'
-ht-degree: 2%
+source-wordcount: '1816'
+ht-degree: 3%
 
 ---
 
@@ -46,7 +46,7 @@ Machen Sie sich mit den wichtigsten technischen Konzepten vertraut, bevor Sie si
 
 1. **Adobe Experience Platform-Integration**: Journey Optimizer basiert nativ auf Adobe Experience Platform. Wenn Sie die zugrunde liegende Architektur verstehen, können Sie effektivere Implementierungen erstellen. Erfahren Sie mehr über [Funktionsweise von Journey Optimizer](../understanding-ajo.md).
 
-1. **XDM-Datenmodelle**: Journey Optimizer verwendet das Experience-Datenmodell (XDM), um Ereignis- und Profildaten zu strukturieren. Als Entwickler müssen Sie verstehen, wie Sie Daten senden, die den von Ihrem/Ihrem [&#x200B; konfigurierten Schemata &#x200B;](data-engineer.md). Informationen zu [XDM-Schemata](../../data/get-started-schemas.md).
+1. **XDM-Datenmodelle**: Journey Optimizer verwendet das Experience-Datenmodell (XDM), um Ereignis- und Profildaten zu strukturieren. Als Entwickler müssen Sie verstehen, wie Sie Daten senden, die den von Ihrem/Ihrem [ konfigurierten Schemata ](data-engineer.md). Informationen zu [XDM-Schemata](../../data/get-started-schemas.md).
 
 1. **Authentifizierung und Sicherheit**: Alle Implementierungen erfordern eine ordnungsgemäße Authentifizierung. Erfahren Sie, wie Sie die Authentifizierung für SDKs und APIs einrichten. Erfahren Sie mehr über [API-](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
@@ -181,7 +181,7 @@ Journey Optimizer bietet umfassende REST-APIs für den programmgesteuerten Zugri
 
 1. **API-Referenzen erkunden**: Durchsuchen Sie die vollständige API-Dokumentation und probieren Sie APIs direkt in der [Adobe Journey Optimizer-API-Referenz](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} aus.
 
-1. **API-ausgelöste**: Erstellen Sie Transaktionsnachrichten mit API-ausgelösten Kampagnen. Bei Szenarien mit hohem Volumen (bis zu 5.000 TPS) sollten Sie den [Hochdurchsatzmodus“ &#x200B;](../../campaigns/api-triggered-high-throughput.md)Add-on-Lizenz erforderlich).
+1. **API-ausgelöste**: Erstellen Sie Transaktionsnachrichten mit API-ausgelösten Kampagnen. Bei Szenarien mit hohem Volumen (bis zu 5.000 TPS) sollten Sie den [Hochdurchsatzmodus“ ](../../campaigns/api-triggered-high-throughput.md)Add-on-Lizenz erforderlich).
 
 1. **Entscheidungs-Management-**: Verwenden Sie spezielle APIs für Angebotsverwaltung und Entscheidungsfindung. Weitere Informationen finden Sie im [Handbuch zur Entscheidungs-Management-API](../../offers/api-reference/getting-started.md).
 
@@ -268,14 +268,6 @@ Zusammenarbeit mit [Marketern](marketer.md) bei Journey-Anforderungen und -Tests
 * Fehlerbehebung bei Problemen beim Nachrichtenversand oder bei der Personalisierung
 
 >[!ENDTABS]
-
-## Auf dem Laufenden bleiben
-
-Halten Sie sich über die neuesten Journey Optimizer-Funktionen und technischen Änderungen auf dem Laufenden:
-
-* **[Versionshinweise](../../rn/release-notes.md)** Überprüfen Sie jeden Monat neue Funktionen, API-Änderungen, SDK-Updates und Fehlerbehebungen
-* **[Dokumentationsaktualisierungen](../../rn/documentation-updates.md)**: Verfolgen Sie aktuelle Änderungen an der technischen Dokumentation, einschließlich neuer Implementierungshandbücher und Code-Beispiele
-* **[Produktbenachrichtigungen](../../rn/releases.md#staying-informed)**: Erfahren Sie, wie Sie E-Mail- und produktinterne Warnhinweise für Journey Optimizer-Updates abonnieren, einschließlich neuer SDK-Versionen, API-Änderungen, laufenden Änderungen und wichtigen Sicherheitsaktualisierungen
 
 ## Mit der Implementierung beginnen
 

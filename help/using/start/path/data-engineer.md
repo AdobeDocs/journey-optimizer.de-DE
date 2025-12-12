@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 51%
+source-wordcount: '898'
+ht-degree: 47%
 
 ---
 
@@ -65,12 +65,39 @@ Sobald Journey ausgeführt werden, können Sie Journey-Schrittereignisse im Data
 * Leistungsmetriken für benutzerdefinierte Aktionen
 * Journey-Instanzstatus und Engpässe
 
-Erkunden Sie einsatzbereite ([&#x200B; für die Journey-Analyse](../../reports/query-examples.md), um mit der Datenanalyse und Fehlerbehebung zu beginnen.
+Erkunden Sie einsatzbereite ([ für die Journey-Analyse](../../reports/query-examples.md), um mit der Datenanalyse und Fehlerbehebung zu beginnen.
 
-## Auf dem Laufenden bleiben
+## Rollenübergreifend zusammenarbeiten
 
-Bleiben Sie auf dem Laufenden mit den neuesten Funktionen und Verbesserungen von Journey Optimizer:
+Ihre Datenkonfigurationsarbeit ist für andere Teams von entscheidender Bedeutung:
 
-* **[Versionshinweise](../../rn/release-notes.md)** Überprüfen Sie jeden Monat neue Funktionen, Verbesserungen und Fehlerbehebungen
-* **[Dokumentationsaktualisierungen](../../rn/documentation-updates.md)**: Verfolgen Sie aktuelle Änderungen an der Dokumentation, einschließlich neuer Seiten und aktualisierter Inhalte
-* **[Produktbenachrichtigungen](../../rn/releases.md#staying-informed)**: Erfahren Sie, wie Sie E-Mail- und produktinterne Warnhinweise für Journey Optimizer-Updates abonnieren, einschließlich neuer Funktionen, Wartungsfenster und wichtiger Systemänderungen
+>[!BEGINTABS]
+
+>[!TAB Arbeiten mit Administratoren]
+
+Zusammenarbeit mit [Administratoren](administrator.md) in Bezug auf Zugriff und Governance:
+
+* Erforderliche Berechtigungen für die Datenverwaltung und Schemaerstellung anfordern
+* Koordinieren des Zugriffs auf Sandboxes für Entwicklung und Tests
+* Abstimmung von Data Governance-Richtlinien und Einverständnisverwaltung
+* Besprechen der Richtlinien zur Datenaufbewahrung und der Speicheranforderungen
+
+>[!TAB Arbeiten mit Entwicklern]
+
+Zusammenarbeit mit [Entwicklern](developer.md) bei Datenstruktur und Ereignissen:
+
+* Bereitstellen von XDM-Schemata und Ereignisstrukturen, die implementiert werden müssen
+* Definieren, welche Ereignisse gesendet werden sollen, und ihr erforderliches Payload-Format
+* Angleichung der Anforderungen an die Datenerfassung und der Datenqualitätsstandards
+* Gemeinsames Testen des Versands und der Datenaufnahme
+
+>[!TAB Arbeiten mit Marketern]
+
+Zusammenarbeit mit [Marketern](marketer.md) bei Audiences und Daten:
+
+* Berechnete Attribute für Personalisierung und Segmentierung erstellen
+* Zielgruppen basierend auf ihren Kampagnen- und Journey-Anforderungen erstellen
+* Konfigurieren relationaler Schemata für orchestrierte Kampagnen
+* Unterstützung der Segmentierung mehrerer Entitäten für erweiterte Anwendungsfälle
+
+>[!ENDTABS]

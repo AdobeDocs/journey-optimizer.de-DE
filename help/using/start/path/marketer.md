@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 3%
+source-wordcount: '1475'
+ht-degree: 4%
 
 ---
 
@@ -161,23 +161,42 @@ Lernen Sie aus praktischen Beispielen, die die Funktionen von Journey Optimizer 
 * [Multi-Channel-Messaging](../../building-journeys/journeys-uc.md): Kombinieren von E-Mail und Push mit Reaktionsereignissen
 * [Nur-Wochentag-E-Mails](../../building-journeys/weekday-email-uc.md): Planen Sie die Kommunikation unter Verwendung zeitbasierter Bedingungen
 
-Durchsuchen Sie die vollständige Bibliothek mit [Journey-Anwendungsfällen &#x200B;](../../building-journeys/jo-use-cases.md) erfahren Sie mehr über [Orchestrierte Kampagnen](../../orchestrated/gs-orchestrated-campaigns.md).
+Durchsuchen Sie die vollständige Bibliothek mit [Journey-Anwendungsfällen ](../../building-journeys/jo-use-cases.md) erfahren Sie mehr über [Orchestrierte Kampagnen](../../orchestrated/gs-orchestrated-campaigns.md).
 
-## Mit anderen Rollen zusammenarbeiten
+## Rollenübergreifend zusammenarbeiten
 
 Ihre Marketing-Arbeit vernetzt sich mit anderen Teams:
 
-* **Arbeiten mit [Dateningenieuren](data-engineer.md)**: Fordern Sie neue berechnete Attribute an, koordinieren Sie relationale Schemata für orchestrierte Kampagnen, geben Sie Feedback zur Zielgruppen-Qualität und stimmen Sie die Datenanforderungen für mehrere Entitäten für die erweiterte Segmentierung ab
-* **Arbeiten mit [Entwicklern](developer.md)**: Ausrichten von Ereignis-Triggern, Testen von Mobile-Implementierungen und Validieren des Trackings
-* **Arbeiten mit [Administratoren](administrator.md)**: Anfordern von Kanalkonfigurationen, Bestätigen des Lizenzzugriffs für orchestrierte Kampagnen, Melden von Problemen mit Berechtigungen und Koordinieren der Aktivierung neuer Funktionen
+>[!BEGINTABS]
 
-## Auf dem Laufenden bleiben
+>[!TAB Arbeiten mit Dateningenieuren]
 
-Bleiben Sie auf dem Laufenden mit den neuesten Journey Optimizer-Funktionen und Marketing-Funktionen:
+Zusammenarbeit mit [Dateningenieuren](data-engineer.md) bei Daten- und Zielgruppenkonfigurationen:
 
-* **[Versionshinweise](../../rn/release-notes.md)** Überprüfen Sie jeden Monat neue Funktionen, Kanal-Updates und Verbesserungen
-* **[Dokumentationsaktualisierungen](../../rn/documentation-updates.md)**: Verfolgen Sie aktuelle Änderungen, einschließlich neuer Anwendungsfälle, Best Practices und der Dokumentation zu Funktionen
-* **[Produktbenachrichtigungen](../../rn/releases.md#staying-informed)**: Erfahren Sie, wie Sie E-Mail- und produktinterne Warnhinweise für Journey Optimizer-Updates abonnieren, einschließlich neuer Kanäle, bevorstehender Funktionsstarts und wichtiger Kampagnenankündigungen
+* Neue berechnete Attribute für Personalisierung und Segmentierung anfordern
+* Koordinieren von relationalen Schemata für orchestrierte Kampagnen
+* Feedback zur Qualität und Genauigkeit der Zielgruppen geben
+* Abstimmung der Datenanforderungen für mehrere Entitäten für die erweiterte Segmentierung
+
+>[!TAB Arbeiten mit Entwicklern]
+
+Zusammenarbeit mit [Entwicklern](developer.md) bei der Ereignisverfolgung und -implementierung:
+
+* Ausrichten, durch welche Benutzerinteraktionen Journey-Ereignisse Trigger werden sollen
+* Mobile- und Web-Implementierungen vor dem Start testen
+* Tracking auf Content-Performance und Benutzerinteraktion überprüfen
+* Fehlerbehebung bei Problemen beim Nachrichtenversand oder bei der Personalisierung
+
+>[!TAB Arbeiten mit Administratoren]
+
+Zusammenarbeit mit [Administratoren](administrator.md) bei Zugriff und Konfigurationen:
+
+* Kanalkonfigurationen für Kampagnen und Journey anfordern
+* Bestätigen des Lizenzzugriffs für orchestrierte Kampagnen und andere Funktionen
+* Melden von Problemen mit Berechtigungen oder Zugriff
+* Koordination neuer Funktionen und Testumgebungen
+
+>[!ENDTABS]
 
 ## Nächste Schritte
 
