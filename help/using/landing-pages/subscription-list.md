@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Liste, Abonnement, Service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
+source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 93%
 
 ---
 
@@ -37,6 +37,10 @@ Ein Abonnementdienst kann für Folgendes verwendet werden:
 Die Profile können über eine [Landingpage](create-lp.md) zu einer Abonnement-Liste hinzugefügt werden. Ein Beispiel dazu finden Sie in [diesem Abschnitt](lp-use-cases.md#subscription-to-a-service).
 
 ## Erstellen einer Abonnement-Liste {#define-subscription-list}
+
+>[!NOTE]
+>
+>Wenn Sie eine Abonnement-Liste erstellen, wird automatisch ein entsprechendes Streaming-Segment in Adobe Experience Platform generiert. Damit das Streaming-Segment erfolgreich erstellt werden kann, muss die Option **Active-On-Edge** für die Zusammenführungsrichtlinie aktiviert sein. Weitere Informationen zu den Eignungskriterien für Streaming-Segmente finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Gehen Sie wie folgt vor, um eine Abonnement-Liste zu erstellen.
 
