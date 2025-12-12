@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: e86fa9f6e62aea9dd1f7e6d35e7cf4b20f79aaa6
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 6%
@@ -73,7 +73,7 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
 Journey Optimizer entwickelt sich kontinuierlich weiter mit neuen Funktionen, um Ihre Marketing-Effektivität zu verbessern:
 
-* **Inhaltskarten**: Bereitstellen persistenter, nicht aufdringlicher Nachrichten in Mobile Apps und Websites, mit denen Benutzende nach Belieben interagieren können. Im Gegensatz zu Push-Benachrichtigungen bleiben Inhaltskarten sichtbar, bis sie verworfen werden. [Erfahren Sie mehr über Inhaltskarten](../../content-card/get-started-content-card.md)
+* **Inhaltskarten**: Bereitstellen persistenter, nicht aufdringlicher Nachrichten in Mobile Apps und Websites, mit denen Benutzende nach Belieben interagieren können. Im Gegensatz zu Push-Benachrichtigungen bleiben Inhaltskarten sichtbar, bis sie verworfen werden. [Erfahren Sie mehr über Inhaltskarten](../../content-card/create-content-card.md)
 
 * **Konfliktmanagement und**: Kontrollieren Sie die Häufigkeit von Nachrichten und verhindern Sie Überkommunikation mit erweiterten Begrenzungsregeln. Legen Sie Prioritätswerte fest, um sicherzustellen, dass die wichtigsten Nachrichten zuerst die Kunden erreichen. [Erfahren Sie mehr über Konfliktmanagement](../../conflict-prioritization/gs-conflict-prioritization.md)
 
