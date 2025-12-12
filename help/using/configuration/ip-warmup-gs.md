@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, Zustellbarkeit
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: fd9ae1f554357a0379e4c93b91f1d475c99d8ac3
+source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 72%
+source-wordcount: '367'
+ht-degree: 63%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 72%
 Mit [!DNL Journey Optimizer] können Sie IP-Warmup-Workflows direkt von der Benutzeroberfläche aus auf standardisierte und effiziente Weise durchführen, die den Best Practices für optimale Zustellbarkeit folgt. Wenn E-Mails über eine neue Plattform versendet werden, sind ISPs normalerweise misstrauisch gegenüber den neuen IP-Adressen. Das plötzliche Versenden großer Mengen an E-Mails veranlasst ISPs oft dazu, sie als Spam zu qualifizieren.
 
 Um eine Einordnung als Spam zu vermeiden, können Sie das Sendevolumen mithilfe der IP-Aufwärmplan-Funktion schrittweise erhöhen. Mit dieser neuen Option im Menü **[!UICONTROL Administration]** können Sie dies einfach und konsolidiert tun, anstatt komplexe tägliche Journeys zu erstellen.
+
+>[!NOTE]
+>
+>Bevor Sie Ihren IP-Aufwärmplan implementieren, informieren Sie sich in diesem Leitfaden zur Zustellbarkeit von IP-[ über die Grundlagen der Zustellbarkeit, die Reputationsbildung und Best Practices](ip-warmup-deliverability-guide.md).
 
 ➡️ [Erfahren Sie in diesem Video, wie Sie einen IP-Aufwärmplan erstellen und ausführen](#video)
 
@@ -52,7 +56,7 @@ Die wichtigsten Schritte zur Implementierung eines IP-Aufwärmplans sind:
 
 Erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453849/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
@@ -62,8 +66,10 @@ Erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen.
 
 In diesen hilfreichen Blog-Beiträgen erhalten Sie eine ausführlichere Anleitung zur IP-Aufwärmung:
 
-* [Informationen zum Einrichten der IP-Aufwärmung](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=de) - Erfahren Sie mehr über die Grundlagen zum Einrichten von IP-Aufwärmplänen und Best Practices für eine erfolgreiche Implementierung.
+* [Handbuch zur Zustellbarkeit in Adobe Journey Optimizer: From Zero Reputation to Inbox Hero](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) - Umfassendes Handbuch zu den Grundlagen der Reputation, Aufwärmkalendern, Überwachung und Best Practices zur Fehlerbehebung.
 
-* [Erweiterte Funktionen in IP-Aufwärmplänen](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=de) - Entdecken Sie erweiterte Funktionen und granulare Steuerelemente zur Optimierung Ihrer IP-Aufwärmstrategie.
+* [Informationen zum Einrichten der IP-Aufwärmung](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - Erfahren Sie mehr über die Grundlagen zum Einrichten von IP-Aufwärmplänen und Best Practices für eine erfolgreiche Implementierung.
 
-* [Fehlerbehebung beim IP-Warm-up](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=de) - Finden Sie Lösungen für häufige Probleme wie Zielgruppenverzögerungen und erfahren Sie mehr über intelligente Wiederholungsmechanismen.
+* [Erweiterte Funktionen in IP-Aufwärmplänen](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - Entdecken Sie erweiterte Funktionen und granulare Steuerelemente zur Optimierung Ihrer IP-Aufwärmstrategie.
+
+* [Fehlerbehebung beim IP-Warm-up](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - Finden Sie Lösungen für häufige Probleme wie Zielgruppenverzögerungen und erfahren Sie mehr über intelligente Wiederholungsmechanismen.
