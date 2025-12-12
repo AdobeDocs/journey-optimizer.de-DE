@@ -24,7 +24,7 @@ Um eine Einordnung als Spam zu vermeiden, können Sie das Sendevolumen mithilfe 
 
 >[!NOTE]
 >
->Bevor Sie Ihren IP-Aufwärmplan implementieren, informieren Sie sich in diesem Leitfaden zur Zustellbarkeit von IP-[ über die Grundlagen der Zustellbarkeit, die Reputationsbildung und Best Practices](ip-warmup-deliverability-guide.md).
+>Bevor Sie Ihren IP-Aufwärmplan implementieren, informieren Sie sich in diesem Leitfaden zur Zustellbarkeit von IP-[&#x200B; über die Grundlagen der Zustellbarkeit, die Reputationsbildung und Best Practices](ip-warmup-deliverability-guide.md).
 
 ➡️ [Erfahren Sie in diesem Video, wie Sie einen IP-Aufwärmplan erstellen und ausführen](#video)
 
