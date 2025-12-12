@@ -5,9 +5,9 @@ title: Erste Schritte
 description: Erste Schritte mit Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '587'
 ht-degree: 11%
 
 ---
@@ -24,7 +24,7 @@ Lernen Sie die Grundlagen von Adobe Journey Optimizer kennen und erfahren Sie, w
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Was ist Journey Optimizer?
 
@@ -34,7 +34,7 @@ Hier erfahren Sie mehr über die wichtigsten Funktionen, Anwendungsfälle und di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktionsweise verstehen
 
@@ -44,7 +44,7 @@ Erfahren Sie, wie Journey Optimizer mit Adobe Experience Platform integriert wir
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 Wichtige Terminologie
 
@@ -61,7 +61,7 @@ Beginnen Sie mit rollenspezifischen Anleitungen, die auf Ihre Zuständigkeiten u
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 Für Marketingexperten
 
@@ -71,7 +71,7 @@ Entwerfen Sie Journey, erstellen Sie Kampagnen und personalisieren Sie Inhalte, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Für Dateningenieure
 
@@ -81,13 +81,23 @@ Konfigurieren Sie Datenstrukturen, verwalten Sie Schemata und Datensätze und st
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Für Administratoren
 
 Einrichten von Umgebungen, Verwalten von Berechtigungen und Konfigurieren von Kanälen für Ihre Organisation.
 
 [Beginnen als Administrator](../using/start/path/administrator.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Für Entwickler
+
+Integrieren Sie Mobile Apps, implementieren Sie Web-SDKs, konfigurieren Sie Ereignisse und erstellen Sie benutzerdefinierte Integrationen.
+
+[Als Entwickler beginnen](../using/start/path/developer.md)
 :::
 
 ::::
@@ -100,7 +110,7 @@ Beherrschen Sie die Benutzeroberfläche und nutzen Sie intelligente Funktionen, 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layout.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Navigieren in der Benutzeroberfläche
 
@@ -110,7 +120,7 @@ Erfahren Sie, wie Sie die Benutzeroberfläche von Journey Optimizer verwenden, a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Suchen und Organisieren
 
@@ -120,7 +130,7 @@ Verwenden Sie Suchen, Filter und Tags, um Journey, Kampagnen und Inhalte effizie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 KI und intelligente Funktionen
 
@@ -152,7 +162,7 @@ Entdecken Sie, wie KI Sie bei der Erstellung von Inhalten, der Optimierung von S
 
 Wählen Sie den für Sie passenden Pfad:
 
-* **Neu bei Journey Optimizer?** Erste Schritte mit [Was ist Journey Optimizer?Grundlagen &#x200B;](../using/start/get-started.md)
+* **Neu bei Journey Optimizer?** Erste Schritte mit [Was ist Journey Optimizer?Grundlagen ](../using/start/get-started.md)
 * **Kennen Sie Ihre Rolle?** Springen Sie zum [rollenspezifischen Handbuch](../using/start/quick-start.md) das Ihren Verantwortlichkeiten entspricht.
 * **Möchten Sie erkunden?** Durchsuchen Sie die [KI-Funktionen](../using/start/ai-features.md) oder versuchen Sie es [Anwendungsfall Playbooks](../using/start/ai-features.md#playbooks)
 * **Benötigen Sie Hilfe?** Lesen Sie das [Handbuch zur Fehlerbehebung](../using/start/troubleshooting.md) oder besuchen Sie das [Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}
@@ -172,4 +182,4 @@ Beginnen Sie sofort mit der Erstellung mit diesen grundlegenden Handbüchern:
 
 >[!NOTE]
 >
->Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen hängen von Ihren [&#x200B; (Berechtigungen](../using/administration/permissions.md) und [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich an Ihren Adobe Customer Success Manager, wenn Sie Fragen zu Ihrem spezifischen Setup haben.
+>Die in Ihrer Umgebung verfügbaren Komponenten und Funktionen hängen von Ihren [ (Berechtigungen](../using/administration/permissions.md) und [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich an Ihren Adobe Customer Success Manager, wenn Sie Fragen zu Ihrem spezifischen Setup haben.

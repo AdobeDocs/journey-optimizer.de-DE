@@ -7,22 +7,24 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 100%
+source-wordcount: '1006'
+ht-degree: 50%
 
 ---
 
 # Erste Schritte für Systemadministratoren {#get-started-sys-admins}
 
-Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, sind mehrere Schritte erforderlich, um Ihre Umgebung vorzubereiten.  Sie müssen diese Schritte ausführen, damit [Datentechnikerinnen und -techniker](data-engineer.md) sowie [Journey-Anwendende](marketer.md) [!DNL Adobe Journey Optimizer] verwenden können.
+Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, sind mehrere Schritte erforderlich, um Ihre Umgebung vorzubereiten. Sie müssen diese Schritte ausführen, damit [Datentechniker](data-engineer.md) und [Marketer](marketer.md) mit [!DNL Adobe Journey Optimizer] arbeiten können.
 
-Als **Systemadmin** müssen Sie **Rollen verstehen und Berechtigungen für die Sandbox-Administration und Kanalkonfiguration zuweisen**. Außerdem müssen Sie Sandboxes einrichten und entsprechend den verfügbaren Rollen verwalten. Anschließend können Sie Team-Mitgliedern Rollen zuweisen.
+Als **Systemadmin** müssen Sie **Rollen verstehen und Berechtigungen für die Sandbox-Administration und Kanalkonfiguration zuweisen**. Außerdem müssen Sie Sandboxes einrichten und für die verfügbaren Rollen verwalten. Anschließend können Sie Team-Mitglieder Rollen zuweisen. Während [Dateningenieure](data-engineer.md) Datenschemata und Quellen konfigurieren und [Entwickler](developer.md) technische Integrationen implementieren, stellen Sie sicher, dass die richtigen Personen Zugriff auf die richtigen Funktionen haben.
 
 Diese Funktionen können von **[!UICONTROL Produktadmins]** verwaltet werden, die Zugriff auf das Produkt „Berechtigungen“ haben. [Weitere Informationen zu Berechtigungen](../../administration/permissions.md){target="_blank"}.
 
-Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
+## Einrichten von Zugriff und Berechtigungen
+
+Führen Sie die folgenden Schritte aus, um die Zugriffsverwaltung zu konfigurieren:
 
 1. **Erstellen Sie Sandboxes**, um Ihre Instanzen in separate, isolierte virtuelle Umgebungen zu unterteilen. **Sandboxes** werden in [!DNL Journey Optimizer] erstellt. Weitere Informationen finden Sie im Abschnitt [Sandboxes](../../administration/sandboxes.md).
 
@@ -33,28 +35,28 @@ Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
 1. **Legen Sie Berechtigungen für Rollen fest**, einschließlich **Sandboxes**, und gewähren Sie Ihren Team-Mitgliedern Zugriff, indem Sie sie verschiedenen Rollen zuweisen. Berechtigungen sind Einzelrechte, mit denen Sie die einer **[!UICONTROL Rolle]** zugewiesenen Genehmigungen definieren können. Jede Berechtigung wird unter bestimmten Kategorien erfasst, z. B. Journey oder Angebote, die die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer] repräsentieren. Weitere Informationen finden Sie im Abschnitt [Berechtigungsebenen](../../administration/high-low-permissions.md).
 
-Darüber hinaus müssen Sie Benutzende, die Zugriff auf Assets Essentials benötigen, den Rollen **Assets Essentials-Endbenutzende** oder/und **Assets Essentials-Benutzende** hinzufügen. [Weitere Informationen finden Sie in der Dokumentation zu Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target="_blank"}.
+1. **Verwenden der Zugriffssteuerung auf Objektebene** (optional). Wenden Sie Zugriffskennzeichnungen auf Objekte wie Journey, Kampagnen und Kanalkonfigurationen an, um zu steuern, welche Benutzenden auf bestimmte Ressourcen zugreifen können. Weitere Informationen zur [Zugriffssteuerung auf Objektebene (OLAC)](../../administration/object-based-access.md).
 
->[!NOTE]
->Für Journey Optimizer-Produkte, die vor dem 6. Januar 2022 erworben wurden, müssen Sie [!DNL Adobe Experience Manager Assets Essentials] für Ihre Organisation bereitstellen. Weitere Informationen finden Sie unter [Bereitstellen von Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target="_blank"}.
+Darüber hinaus müssen Sie Benutzende, die Zugriff auf Assets Essentials benötigen, den Rollen **Assets Essentials-Endbenutzende** oder/und **Assets Essentials-Benutzende** hinzufügen. [Weitere Informationen finden Sie in der Dokumentation zu Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target="_blank"}.
 
 Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktions-Sandbox bereitgestellt und je nach Vertrag eine bestimmte Anzahl von IPs zugewiesen.
 
-Um Journeys erstellen und Nachrichten senden zu können, rufen Sie das Menü **ADMINISTRATION** auf. Gehen Sie das Menü **[!UICONTROL Kanäle]** durch, um Ihre Nachrichten- und Kanalkonfigurationen (d. h. Nachrichtenvoreinstellungen) festzulegen.
+## Kanäle und Nachrichten konfigurieren
+
+Damit [Marketer](marketer.md) Nachrichten erstellen und senden können, rufen Sie das Menü **ADMINISTRATION** auf. Durchsuchen Sie das Menü **[!UICONTROL Kanäle]**, um die Kanaleinstellungen zu konfigurieren.
 
 >[!NOTE]
 >Wenn Sie als **Systemadmin** das Menü **[!UICONTROL Kanäle]** in [!DNL Journey Optimizer] nicht sehen, aktualisieren Sie Ihre Berechtigungen im Produkt [Berechtigungen](../../administration/permissions.md){target="_blank"}.
->
 
-Führen Sie dazu folgende Schritte durch:
+Führen Sie folgende Schritte aus:
 
-1. **Konfigurieren von Nachrichten und Kanälen**: Definieren von Konfigurationen und Anpassen der Einstellungen für E-Mails, SMS und Push-Benachrichtigungen
+1. **Einrichten von Kanalkonfigurationen**. Definieren Sie alle technischen Parameter, die für E-Mail, SMS, Push-Benachrichtigungen und andere Kanäle erforderlich sind:
 
-   * Definieren Sie **Push-Benachrichtigungseinstellungen** sowohl in [!DNL Adobe Experience Platform] als auch in [!DNL Adobe Experience Platform Launch]. [Weitere Informationen](../../push/push-gs.md)
+   * Definieren Sie **Push-Benachrichtigungseinstellungen** sowohl in [!DNL Adobe Experience Platform] als auch in der Datenerfassung von Adobe Experience Platform. [Weitere Informationen](../../push/push-gs.md)
 
-   * Erstellen Sie **Kanalkonfigurationen** (d. h. Nachrichtenvoreinstellungen) zum Konfigurieren aller technischen Parameter, die für E-Mails, SMS und Push-Benachrichtigungen erforderlich sind.  [Weitere Informationen](../../configuration/channel-surfaces.md)
+   * Erstellen Sie **Kanalkonfigurationen** um alle technischen Parameter zu konfigurieren, die für E-Mail-, SMS-, Push-, In-App-, Web- und andere Kanäle erforderlich sind. [Weitere Informationen](../../configuration/channel-surfaces.md)
 
-   * Konfigurieren Sie den **SMS-Kanal**, um alle für SMS erforderlichen technischen Parameter zu konfigurieren. [Weitere Informationen](../../sms/sms-configuration.md)
+   * Konfigurieren Sie den **SMS** Kanal, um alle für SMS erforderlichen technischen Parameter einzurichten. [Weitere Informationen](../../sms/sms-configuration.md)
 
    * Verwalten Sie die Anzahl der Tage, in denen **weitere Zustellversuche** unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](../../configuration/manage-suppression-list.md)
 
@@ -75,3 +77,46 @@ Führen Sie dazu folgende Schritte durch:
    * Mit der [Zulassungsliste](../../configuration/allow-list.md) können Sie einzelne E-Mail-Adressen oder Domains als die einzigen Empfänger oder Domains angeben, die zum Empfang der E-Mails berechtigt sind, die von einer bestimmten Sandbox gesendet werden. Dadurch können Sie verhindern, dass Sie in einer Testumgebung versehentlich E-Mails an echte Kundenadressen senden. Erfahren Sie, wie Sie die [Zulassungsliste aktivieren](../../configuration/allow-list.md).
 
    Weitere Informationen zur Verwaltung der Zustellbarkeit in [!DNL Adobe Journey Optimizer] finden Sie [auf dieser Seite](../../reports/deliverability.md).
+
+## Zusätzliche Funktionen
+
+Berücksichtigen Sie bei wachsenden Anforderungen Ihres Unternehmens die folgenden erweiterten Funktionen:
+
+* **Einverständnisrichtlinien**: Wenn Ihr Unternehmen Healthcare Shield oder Privacy and Security Shield erworben hat, erstellen Sie Einverständnisrichtlinien, die kanalübergreifend die Kundenvoreinstellungen berücksichtigen. [Weitere Informationen](../../action/consent.md)
+
+* **Data Governance-Richtlinien**: Wenden Sie Datennutzungskennzeichnungen und -richtlinien an, um zu steuern, wie Daten in Marketing-Aktionen verwendet werden. [Weitere Informationen](../../action/action-privacy.md)
+
+* **IP-Aufwärmpläne**: Steigern Sie die Menge der E-Mail-Sendungen schrittweise, um die Reputation der Absender bei E-Mail-Anbietern aufzubauen. [Weitere Informationen](../../configuration/ip-warmup-gs.md)
+
+## Mit anderen Rollen zusammenarbeiten
+
+Ihre Verwaltungsarbeit ermöglicht es allen Teams, erfolgreich zu sein:
+
+* **Support [Dateningenieure](data-engineer.md)**: Erteilen von Berechtigungen für das Daten-Management, Genehmigen des Sandbox-Zugriffs und Koordinieren von Richtlinien zur Datenaufbewahrung
+
+* **Entwickler [](developer.md)**: API-Anmeldeinformationen bereitstellen, Sandbox-Umgebungen für Tests einrichten und Kanalkonfigurationen genehmigen
+
+* **Marketer [Marketer](marketer.md)**: Weisen Sie geeignete Berechtigungen zu, um Journey und Kampagnen zu erstellen, Kanäle zu konfigurieren, die sie verwenden werden, und Testumgebungen zu unterstützen
+
+## Auf dem Laufenden bleiben
+
+Halten Sie sich über die neuesten Journey Optimizer-Plattformaktualisierungen und administrativen Änderungen auf dem Laufenden:
+
+* **[Versionshinweise](../../rn/release-notes.md)** Überprüfen Sie jeden Monat neue Funktionen, Plattform-Updates, Sicherheits-Patches und Konfigurationsänderungen
+* **[Dokumentationsaktualisierungen](../../rn/documentation-updates.md)**: Verfolgen Sie aktuelle Änderungen an Konfigurationshandbüchern, Berechtigungsaktualisierungen und neuen administrativen Funktionen
+* **Produktbenachrichtigungen**: Aktivieren Sie Benachrichtigungen in Ihrem [Adobe Experience Cloud-Profil](https://experience.adobe.com/preferences){target="_blank"} um kritische Warnungen zu erhalten:
+   * Systemwartungsfenster und geplante Ausfallzeiten
+   * Sicherheits-Updates und Patches
+   * Neue administrative Funktionen und Berechtigungsänderungen
+   * Lizenz- und Berechtigungsaktualisierungen
+   * Wichtige Produktankündigungen
+
+  Um Benachrichtigungen zu aktivieren, klicken Sie auf Ihr Profilsymbol oben rechts in Adobe Experience Cloud, gehen Sie zu **Voreinstellungen > Benachrichtigungen** und konfigurieren Sie Ihre Journey Optimizer-Benachrichtigungseinstellungen. Als Administrator sollten Sie alle kritischen Systembenachrichtigungen aktivieren.
+
+## Nächste Schritte
+
+Sobald die Umgebung konfiguriert ist:
+
+1. **Setup überprüfen**: Überprüfen Sie, ob alle Team-Mitglieder auf die erforderlichen Funktionen zugreifen können
+2. **Nutzung überwachen**: Verwenden Sie die Verwaltungs-Dashboards, um die Systemnutzung zu verfolgen und Probleme zu identifizieren
+3. **Berechtigungen beibehalten**: Berechtigungen werden im Zuge der Weiterentwicklung von Team-Rollen regelmäßig überprüft und aktualisiert

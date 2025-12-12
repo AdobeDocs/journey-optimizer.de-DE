@@ -8,23 +8,25 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 95%
+source-wordcount: '2747'
+ht-degree: 92%
 
 ---
 
 # Beispiele für Abfragen{#query-examples}
 
-In diesem Abschnitt werden einige häufig verwendete Beispiele für die Abfrage von Journey-Schrittereignissen im Data Lake aufgeführt.
+Dieser Abschnitt enthält häufig verwendete Beispiele zum Abfragen von Journey-Schrittereignissen im Data Lake. Bevor Sie sich mit bestimmten Anwendungsfällen befassen, müssen Sie wissen, welche wichtigen Kennungen beim Journey von Ereignisdaten verwendet werden.
 
 Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechenden Schema über zugeordnete Werte verfügen.
+
+## Verstehen von Schlüsselkennungen {#key-identifiers}
 
 +++Was ist der Unterschied zwischen ID, instanceID und profileID?
 
 * ID: eindeutig für alle Schrittereignis-Einträge. Zwei verschiedene Schrittereignisse können nicht dieselbe ID aufweisen.
-* instanceID: instanceID ist für alle Schrittereignisse identisch, die einem Profil innerhalb einer Journey-Ausführung zugeordnet sind. Wenn ein Profil die Journey erneut aufruft, wird eine andere instanceID verwendet. Diese neue instanceID ist für alle Schrittereignisse der wieder aufgerufenen Instanz gleich (von Anfang bis Ende).
+* instanceID: instanceID ist für alle Schrittereignisse identisch, die einem Profil innerhalb einer Journey-Ausführung zugeordnet sind. Wenn ein Profil die Journey erneut aufruft, wird eine andere instanceID verwendet. Diese neue instanceID ist für alle Schrittereignisse der erneut aufgerufenen Instanz gleich (von Anfang bis Ende).
 * profileID: die Identität des Profils, die dem Namespace der Journey entspricht.
 
 >[!NOTE]
@@ -124,7 +126,6 @@ WHERE
     _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
 ```
 
-![Beispielabfrageergebnisse mit verworfenen Profildetails](assets/query-discarded-profiles.png)
 
 Die Abfrageergebnisse zeigen Schlüsselfelder an, die dabei helfen, den Grund für verworfene Profile zu identifizieren:
 
@@ -1068,7 +1069,7 @@ _Data-Lake-Abfrage_
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
-_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileID>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```

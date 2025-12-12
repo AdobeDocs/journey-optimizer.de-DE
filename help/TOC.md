@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72506de77ca5311fd36efc5477a4c2b86e81f0e1
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '3013'
+source-wordcount: '3018'
 ht-degree: 97%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 97%
       + [Erste Schritte als Marketer](using/start/path/marketer.md)
       + [Erste Schritte als Datentechniker](using/start/path/data-engineer.md)
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
+      + [Erste Schritte als Entwickler](using/start/path/developer.md)
    + Effizient arbeiten {#work-efficiently}
       + [Navigieren in der Benutzeroberfläche](using/start/user-interface.md)
       + [Suchen, Filtern und Organisieren](using/start/search-filter-categorize.md)
