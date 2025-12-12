@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1477'
 ht-degree: 3%
 
 ---
@@ -161,7 +161,7 @@ Lernen Sie aus praktischen Beispielen, die die Funktionen von Journey Optimizer 
 * [Multi-Channel-Messaging](../../building-journeys/journeys-uc.md): Kombinieren von E-Mail und Push mit Reaktionsereignissen
 * [Nur-Wochentag-E-Mails](../../building-journeys/weekday-email-uc.md): Planen Sie die Kommunikation unter Verwendung zeitbasierter Bedingungen
 
-Durchsuchen Sie die vollständige Bibliothek mit [Journey-Anwendungsfällen &#x200B;](../../building-journeys/jo-use-cases.md) erfahren Sie mehr über [Orchestrierte Kampagnen](../../orchestrated/gs-orchestrated-campaigns.md).
+Durchsuchen Sie die vollständige Bibliothek mit [Journey-Anwendungsfällen ](../../building-journeys/jo-use-cases.md) erfahren Sie mehr über [Orchestrierte Kampagnen](../../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Mit anderen Rollen zusammenarbeiten
 
@@ -177,13 +177,7 @@ Bleiben Sie auf dem Laufenden mit den neuesten Journey Optimizer-Funktionen und 
 
 * **[Versionshinweise](../../rn/release-notes.md)** Überprüfen Sie jeden Monat neue Funktionen, Kanal-Updates und Verbesserungen
 * **[Dokumentationsaktualisierungen](../../rn/documentation-updates.md)**: Verfolgen Sie aktuelle Änderungen, einschließlich neuer Anwendungsfälle, Best Practices und der Dokumentation zu Funktionen
-* **Produktbenachrichtigungen**: Aktivieren Sie Benachrichtigungen in Ihrem [Adobe Experience Cloud-Profil](https://experience.adobe.com/preferences){target="_blank"} um Warnhinweise zu erhalten:
-   * Neue Kanäle und Funktionen zur Verfügung
-   * Bevorstehende Funktionsstarts und Beta-Programme
-   * Best Practices und Schulungsmöglichkeiten
-   * Wichtige Ankündigungen, die Ihre Kampagnen betreffen
-
-  Um Benachrichtigungen zu aktivieren, klicken Sie auf Ihr Profilsymbol oben rechts in Adobe Experience Cloud, gehen Sie zu **Voreinstellungen > Benachrichtigungen** und konfigurieren Sie Ihre Journey Optimizer-Benachrichtigungseinstellungen.
+* **[Produktbenachrichtigungen](../../rn/releases.md#staying-informed)**: Erfahren Sie, wie Sie E-Mail- und produktinterne Warnhinweise für Journey Optimizer-Updates abonnieren, einschließlich neuer Kanäle, bevorstehender Funktionsstarts und wichtiger Kampagnenankündigungen
 
 ## Nächste Schritte
 

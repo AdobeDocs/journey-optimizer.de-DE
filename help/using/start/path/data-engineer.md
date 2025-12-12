@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 50%
+source-wordcount: '817'
+ht-degree: 51%
 
 ---
 
@@ -65,7 +65,7 @@ Sobald Journey ausgeführt werden, können Sie Journey-Schrittereignisse im Data
 * Leistungsmetriken für benutzerdefinierte Aktionen
 * Journey-Instanzstatus und Engpässe
 
-Erkunden Sie einsatzbereite ([&#x200B; für die Journey-Analyse](../../reports/query-examples.md), um mit der Datenanalyse und Fehlerbehebung zu beginnen.
+Erkunden Sie einsatzbereite ([ für die Journey-Analyse](../../reports/query-examples.md), um mit der Datenanalyse und Fehlerbehebung zu beginnen.
 
 ## Auf dem Laufenden bleiben
 
@@ -73,9 +73,4 @@ Bleiben Sie auf dem Laufenden mit den neuesten Funktionen und Verbesserungen von
 
 * **[Versionshinweise](../../rn/release-notes.md)** Überprüfen Sie jeden Monat neue Funktionen, Verbesserungen und Fehlerbehebungen
 * **[Dokumentationsaktualisierungen](../../rn/documentation-updates.md)**: Verfolgen Sie aktuelle Änderungen an der Dokumentation, einschließlich neuer Seiten und aktualisierter Inhalte
-* **Produktbenachrichtigungen**: Aktivieren Sie Benachrichtigungen in Ihrem [Adobe Experience Cloud-Profil](https://experience.adobe.com/preferences){target="_blank"} um Warnhinweise zu erhalten:
-   * Neue Produktversionen und Funktionen
-   * Wartungsfenster und Systemaktualisierungen
-   * Wichtige Ankündigungen und Änderungen
-
-  Um Benachrichtigungen zu aktivieren, klicken Sie auf Ihr Profilsymbol oben rechts in Adobe Experience Cloud, gehen Sie zu **Voreinstellungen > Benachrichtigungen** und konfigurieren Sie Ihre Journey Optimizer-Benachrichtigungseinstellungen.
+* **[Produktbenachrichtigungen](../../rn/releases.md#staying-informed)**: Erfahren Sie, wie Sie E-Mail- und produktinterne Warnhinweise für Journey Optimizer-Updates abonnieren, einschließlich neuer Funktionen, Wartungsfenster und wichtiger Systemänderungen

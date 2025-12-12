@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 48%
+source-wordcount: '971'
+ht-degree: 50%
 
 ---
 
@@ -94,7 +94,7 @@ Ihre Verwaltungsarbeit ermöglicht es allen Teams, erfolgreich zu sein:
 
 * **Support [Dateningenieure](data-engineer.md)**: Erteilen von Berechtigungen für das Daten-Management, Genehmigen des Sandbox-Zugriffs und Koordinieren von Richtlinien zur Datenaufbewahrung
 
-* **Entwickler [&#128279;](developer.md)**: API-Anmeldeinformationen bereitstellen, Sandbox-Umgebungen für Tests einrichten und Kanalkonfigurationen genehmigen
+* **Entwickler [](developer.md)**: API-Anmeldeinformationen bereitstellen, Sandbox-Umgebungen für Tests einrichten und Kanalkonfigurationen genehmigen
 
 * **Marketer [Marketer](marketer.md)**: Weisen Sie geeignete Berechtigungen zu, um Journey und Kampagnen zu erstellen, Kanäle zu konfigurieren, die sie verwenden werden, und Testumgebungen zu unterstützen
 
@@ -104,14 +104,7 @@ Halten Sie sich über die neuesten Journey Optimizer-Plattformaktualisierungen u
 
 * **[Versionshinweise](../../rn/release-notes.md)** Überprüfen Sie jeden Monat neue Funktionen, Plattform-Updates, Sicherheits-Patches und Konfigurationsänderungen
 * **[Dokumentationsaktualisierungen](../../rn/documentation-updates.md)**: Verfolgen Sie aktuelle Änderungen an Konfigurationshandbüchern, Berechtigungsaktualisierungen und neuen administrativen Funktionen
-* **Produktbenachrichtigungen**: Aktivieren Sie Benachrichtigungen in Ihrem [Adobe Experience Cloud-Profil](https://experience.adobe.com/preferences){target="_blank"} um kritische Warnungen zu erhalten:
-   * Systemwartungsfenster und geplante Ausfallzeiten
-   * Sicherheits-Updates und Patches
-   * Neue administrative Funktionen und Berechtigungsänderungen
-   * Lizenz- und Berechtigungsaktualisierungen
-   * Wichtige Produktankündigungen
-
-  Um Benachrichtigungen zu aktivieren, klicken Sie auf Ihr Profilsymbol oben rechts in Adobe Experience Cloud, gehen Sie zu **Voreinstellungen > Benachrichtigungen** und konfigurieren Sie Ihre Journey Optimizer-Benachrichtigungseinstellungen. Als Administrator sollten Sie alle kritischen Systembenachrichtigungen aktivieren.
+* **[Produktbenachrichtigungen](../../rn/releases.md#staying-informed)**: Erfahren Sie, wie Sie E-Mail- und produktinterne Warnhinweise für Journey Optimizer-Updates abonnieren, einschließlich Systemwartung, Sicherheits-Updates und wichtiger Produktankündigungen. Als Administrator sollten Sie alle kritischen Systembenachrichtigungen aktivieren
 
 ## Nächste Schritte
 

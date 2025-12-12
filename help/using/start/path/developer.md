@@ -5,9 +5,9 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1886'
 ht-degree: 2%
 
 ---
@@ -34,25 +34,11 @@ In diesem Handbuch werden die wesentlichen technischen Implementierungsschritte 
 
 Bevor Sie mit der Implementierung beginnen, stellen Sie Folgendes sicher:
 
-**Technische Fähigkeiten:**
-
-* Erfahrung mit JavaScript (für Web SDK) oder Swift/Kotlin (für Mobile SDK)
-* Grundlegendes zu RESTful-APIs und JSON
-* Vertrautheit mit asynchroner Programmierung und ereignisgesteuerten Architekturen
-* Kenntnisse der Anwendungsarchitektur Ihres Unternehmens
-
-**Zugriff und Tools:**
-
-* Zugriff auf [Adobe Developer Console](https://developer.adobe.com){target="_blank"} für API-Anmeldeinformationen
-* Entwicklungsumgebung mit Zugriff auf die Code-Basis Ihres Programms
-* Test-Tools wie Postman für API-Tests
-* Browser-Entwickler-Tools oder mobile Debugging-Tools
-
-**Von anderen Team-Mitgliedern:**
-
-* Umgebungszugriff durch Ihren [Administrator](administrator.md)
-* XDM-Schemata und Ereignisdefinitionen von Ihrem [Data Engineer](data-engineer.md)
-* Anforderungen und Anwendungsfälle von Ihren [Marketern](marketer.md)
+| Kategorie | Anforderungen |
+|----------|-------------|
+| **Technische Fähigkeiten** | * Erfahrung mit JavaScript (für Web SDK) oder Swift/Kotlin (für Mobile SDK)<br>* Grundlegendes zu RESTful-APIs und JSON<br>* Vertrautheit mit asynchroner Programmierung und ereignisgesteuerten <br>* Kenntnis der Anwendungsarchitektur Ihres Unternehmens |
+| **Zugriff und Tools** | * Zugriff auf [Adobe Developer Console](https://developer.adobe.com){target="_blank"} für API-Anmeldeinformationen<br>* Entwicklungsumgebung mit Zugriff auf die Code-Basis Ihrer Anwendung<br>* Testtools wie Postman für API-Tests<br>* Browser-Entwicklertools oder mobile Debugging-Tools |
+| **Von anderen Team-Mitgliedern** | * Zugriff auf die Umgebung durch Ihre [Administrator](administrator.md)<br>* XDM-Schemata und Ereignisdefinitionen von Ihren [Data Engineer](data-engineer.md)<br>* Anforderungen und Anwendungsfälle von Ihren [Marketern](marketer.md) |
 
 ## Technische Grundlagen {#technical-foundation}
 
@@ -60,7 +46,7 @@ Machen Sie sich mit den wichtigsten technischen Konzepten vertraut, bevor Sie si
 
 1. **Adobe Experience Platform-Integration**: Journey Optimizer basiert nativ auf Adobe Experience Platform. Wenn Sie die zugrunde liegende Architektur verstehen, können Sie effektivere Implementierungen erstellen. Erfahren Sie mehr über [Funktionsweise von Journey Optimizer](../understanding-ajo.md).
 
-1. **XDM-Datenmodelle**: Journey Optimizer verwendet das Experience-Datenmodell (XDM), um Ereignis- und Profildaten zu strukturieren. Als Entwickler müssen Sie verstehen, wie Sie Daten senden, die den von Ihrem/Ihrem [&#x200B; konfigurierten Schemata &#x200B;](data-engineer.md). Informationen zu [XDM-Schemata](../../data/get-started-schemas.md).
+1. **XDM-Datenmodelle**: Journey Optimizer verwendet das Experience-Datenmodell (XDM), um Ereignis- und Profildaten zu strukturieren. Als Entwickler müssen Sie verstehen, wie Sie Daten senden, die den von Ihrem/Ihrem [ konfigurierten Schemata ](data-engineer.md). Informationen zu [XDM-Schemata](../../data/get-started-schemas.md).
 
 1. **Authentifizierung und Sicherheit**: Alle Implementierungen erfordern eine ordnungsgemäße Authentifizierung. Erfahren Sie, wie Sie die Authentifizierung für SDKs und APIs einrichten. Erfahren Sie mehr über [API-](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
@@ -195,7 +181,7 @@ Journey Optimizer bietet umfassende REST-APIs für den programmgesteuerten Zugri
 
 1. **API-Referenzen erkunden**: Durchsuchen Sie die vollständige API-Dokumentation und probieren Sie APIs direkt in der [Adobe Journey Optimizer-API-Referenz](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} aus.
 
-1. **API-ausgelöste**: Erstellen Sie Transaktionsnachrichten mit API-ausgelösten Kampagnen. Bei Szenarien mit hohem Volumen (bis zu 5.000 TPS) sollten Sie den [Hochdurchsatzmodus“ &#x200B;](../../campaigns/api-triggered-high-throughput.md)Add-on-Lizenz erforderlich).
+1. **API-ausgelöste**: Erstellen Sie Transaktionsnachrichten mit API-ausgelösten Kampagnen. Bei Szenarien mit hohem Volumen (bis zu 5.000 TPS) sollten Sie den [Hochdurchsatzmodus“ ](../../campaigns/api-triggered-high-throughput.md)Add-on-Lizenz erforderlich).
 
 1. **Entscheidungs-Management-**: Verwenden Sie spezielle APIs für Angebotsverwaltung und Entscheidungsfindung. Weitere Informationen finden Sie im [Handbuch zur Entscheidungs-Management-API](../../offers/api-reference/getting-started.md).
 
@@ -252,26 +238,36 @@ Implementieren von Data Governance- und Einverständnisrichtlinien in Ihre Integ
 
 Ihre Implementierungsarbeit überschneidet sich mit anderen Team-Mitgliedern:
 
-**Arbeiten mit [Dateningenieuren](data-engineer.md):**
+>[!BEGINTABS]
+
+>[!TAB Arbeiten mit Dateningenieuren]
+
+Zusammenarbeit mit [Dateningenieuren](data-engineer.md) bei Daten- und Ereigniskonfigurationen:
 
 * Abrufen der XDM-Schemata und Ereignisstrukturen, die Sie implementieren müssen
 * Verstehen, welche Ereignisse gesendet werden müssen, und deren erforderliches Payload-Format
 * Angleichung der Anforderungen an die Datenerfassung und der Datenqualitätsstandards
 * Gemeinsames Testen des Versands und der Datenaufnahme
 
-**Arbeiten mit [Administratoren](administrator.md):**
+>[!TAB Arbeiten mit Administratoren]
+
+Zusammenarbeit mit [Administratoren](administrator.md) bei Zugriff und Konfigurationen:
 
 * Angeben von API-Spezifikationen für benutzerdefinierte Aktionen, die sie konfigurieren werden
 * Erforderliche Berechtigungen und API-Anmeldedaten anfordern
 * Koordinieren der Anforderungen an die Kanalkonfiguration (z. B. Push-Zertifikate)
 * Ausrichtung an Testumgebungen und Sandbox-Strategie
 
-**Arbeiten mit [Marketern](marketer.md):**
+>[!TAB Arbeiten mit Marketern]
+
+Zusammenarbeit mit [Marketern](marketer.md) bei Journey-Anforderungen und -Tests:
 
 * Verstehen, welche Benutzerinteraktionen Trigger-Ereignisse auslösen sollen
 * Implementieren des Trackings für Content-Performance und Benutzerinteraktion
 * Unterstützen von Tests von Journey mit Ihren implementierten Funktionen
 * Fehlerbehebung bei Problemen beim Nachrichtenversand oder bei der Personalisierung
+
+>[!ENDTABS]
 
 ## Auf dem Laufenden bleiben
 
@@ -279,13 +275,7 @@ Halten Sie sich über die neuesten Journey Optimizer-Funktionen und technischen 
 
 * **[Versionshinweise](../../rn/release-notes.md)** Überprüfen Sie jeden Monat neue Funktionen, API-Änderungen, SDK-Updates und Fehlerbehebungen
 * **[Dokumentationsaktualisierungen](../../rn/documentation-updates.md)**: Verfolgen Sie aktuelle Änderungen an der technischen Dokumentation, einschließlich neuer Implementierungshandbücher und Code-Beispiele
-* **Produktbenachrichtigungen**: Aktivieren Sie Benachrichtigungen in Ihrem [Adobe Experience Cloud-Profil](https://experience.adobe.com/preferences){target="_blank"} um Warnhinweise zu erhalten:
-   * Neue SDK-Versionen und API-Aktualisierungen
-   * Umfassende Änderungen und Veraltungen
-   * Wartungsfenster mit Auswirkung auf Integrationen
-   * Wichtige Sicherheits-Updates
-
-  Um Benachrichtigungen zu aktivieren, klicken Sie auf Ihr Profilsymbol oben rechts in Adobe Experience Cloud, gehen Sie zu **Voreinstellungen > Benachrichtigungen** und konfigurieren Sie Ihre Journey Optimizer-Benachrichtigungseinstellungen.
+* **[Produktbenachrichtigungen](../../rn/releases.md#staying-informed)**: Erfahren Sie, wie Sie E-Mail- und produktinterne Warnhinweise für Journey Optimizer-Updates abonnieren, einschließlich neuer SDK-Versionen, API-Änderungen, laufenden Änderungen und wichtigen Sicherheitsaktualisierungen
 
 ## Mit der Implementierung beginnen
 
