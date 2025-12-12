@@ -144,7 +144,7 @@ Sobald Sie Ihren Aufwärmplan abgeschlossen haben und sich die Metriken stabilis
 
 Erfahren Sie mehr über die Grundlagen der Zustellbarkeit, den Aufbau von Reputationen und Best Practices für die IP-Aufwärmung in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3463791/?captions=ger&learn=on)
 
 <!--
 >[!NOTE]
