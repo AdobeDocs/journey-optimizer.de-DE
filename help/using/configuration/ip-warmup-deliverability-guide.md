@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, Zustellbarkeit, Reputation, ISP, Interaktion
-source-git-commit: 07896931a7c06e1b712f3b65e1dcf939b521ba83
+source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1064'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 Beim Starten von E-Mail-Kampagnen mit neuen IP-Adressen oder Domains in Adobe Journey Optimizer sind die Grundlagen der Zustellbarkeit von entscheidender Bedeutung für den Aufbau einer guten Reputation bei Absendern. In diesem Handbuch werden die wichtigsten Konzepte, Vorbereitungsschritte und Best Practices behandelt, die Ihnen beim Übergang von der Reputation auf eine erfolgreiche Platzierung im Posteingang helfen.
 
-➡️ [In diesem Video erfahren Sie mehr über die Grundlagen der Zustellbarkeit von IP-Aufwärmvorgängen](#video)
+➡️ Erfahren Sie in diesem [Adobe-Blogpost} im Video mehr über die Grundlagen der Zustellbarkeit, die Schaffung einer guten Reputation und Best Practices für die IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}Aufwärmung.
 
 >[!NOTE]
 >
@@ -42,11 +42,11 @@ Bevor Sie mit dem Aufwärmen Ihrer IP-Adressen beginnen, stellen Sie sicher, das
 
 | Aufgabe | Warum dies wichtig ist | Vorgehensweise |
 |------|----------------|-------------------|
-| Feste IP(s) reservieren und Subdomains in AJO delegieren | Alle zukünftigen Reputationen hängen mit diesen Infrastrukturelementen zusammen | Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL Subdomains]**. [Weitere Informationen](delegate-subdomain.md) |
-| Konfigurieren von SPF und DKIM | Bestätigt, dass der Versand-Server rechtmäßig und autorisiert ist | Wird von Adobe nach der Zuweisung von Subdomains und der Erstellung der Kanalkonfiguration automatisch verarbeitet. [Weitere Informationen](delegate-subdomain.md) |
-| Festlegen des DMARC-Eintrags | Aktiviert die Berichterstellung zur E-Mail-Authentifizierung und zukünftige Durchsetzungsrichtlinien | Wird von Adobe nach der Zuweisung von Subdomains und der Erstellung der Kanalkonfiguration automatisch verarbeitet. [Weitere Informationen](dmarc-record.md) |
-| Konfigurieren der Überwachung der Testadressenliste | Erkennt Probleme mit der Platzierung im Posteingang frühzeitig im Aufwärmprozess | Fügen Sie bei der Erstellung Ihrer Kanalkonfiguration Testadressen hinzu. [Weitere Informationen](seed-lists.md) |
-| Erstellen einer Audience mit hoher Interaktion in Phase 1 | Steigert die Interaktionsmetriken für die aktivsten Empfänger | Eine Zielgruppe von weniger als 5.000 Kontakten erstellen, die in den letzten 30 Tagen geöffnet oder geklickt haben |
+| Feste IP(s) reservieren und Subdomains in AJO delegieren | Alle zukünftigen Reputationen hängen mit diesen Infrastrukturelementen zusammen. | Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL Subdomains]**. [Weitere Informationen](delegate-subdomain.md) |
+| Konfigurieren von SPF und DKIM | Bestätigt, dass der Versand-Server legitim und autorisiert ist. | Wird von Adobe nach der [Subdomain-Delegierung](delegate-subdomain.md) und [Erstellung der Kanalkonfiguration](channel-surfaces.md) automatisch verarbeitet. |
+| Stellen Sie sicher, dass der DMARC-Eintrag konfiguriert ist (p=none) | Aktiviert das Reporting zur E-Mail-Authentifizierung und zukünftige Durchsetzungsrichtlinien. | Überprüfen Sie, ob für alle delegierten Subdomains ein DMARC-Eintrag eingerichtet ist. Beim Delegieren einer neuen Subdomain können Sie DMARC direkt auf der Benutzeroberfläche einrichten. [Weitere Informationen](dmarc-record.md) |
+| Konfigurieren der Überwachung der Testadressenliste | Erkennt Platzierungsprobleme im Posteingang frühzeitig im Warmlaufprozess. | Fügen Sie bei der Erstellung Ihrer Kanalkonfiguration Testadressen hinzu. [Weitere Informationen](seed-lists.md) |
+| Erstellen einer Audience mit hoher Interaktion in Phase 1 | Steigert die Interaktionsmetriken für die aktivsten Empfänger. | Erstellen Sie eine Zielgruppe von weniger als 5.000 Kontakten, die in den letzten 30 Tagen geöffnet oder geklickt haben. [Weitere Informationen](../audience/creating-a-segment-definition.md) |
 
 >[!CAUTION]
 >
@@ -59,18 +59,14 @@ Dieser Beispielkalender bietet eine progressive Volumenrampe, die auf dem Prozen
 | Tage | % UDV | Zielgruppe | Inhaltsempfehlungen |
 |------|----------|-----------------|------------------------|
 | 1-3 | 0,5 % | Ihre aktivsten Empfänger | Verwenden Sie ein kurzes, einfaches Textformat mit einer deutlichen call-to-action über dem Falz. |
-| 4-7 | 1 % | Engagierte Benutzer und aktuelle Käufer | Ein leichtes Hero-Bild hinzufügen, Links auf 3 oder weniger begrenzen |
-| 8-14 | 5 % | Erweiterte Liste aktiver Abonnenten | Einführung in Ihre Standard-E-Mail-Vorlage, aber vermeiden Sie umfangreiche Werbeinhalte |
-| 15-21 | 25 % | Aktive und leicht inaktive Abonnentinnen und Abonnenten | Normale Marketing-Inhalte verwenden und gleichzeitig die Beschwerderate genau überwachen |
-| 22-28 | 50-100 % | Vollständige Liste (unter Berücksichtigung der Unterdrückungslisten) | Übergang zu Ihrer stationären Sendungskadenz |
+| 4-7 | 1 % | Engagierte Benutzer und aktuelle Käufer | Fügen Sie ein leichtes Hero-Bild hinzu, begrenzen Sie Links auf 3 oder weniger. |
+| 8-14 | 5 % | Erweiterte Liste aktiver Abonnenten | Stellen Sie Ihre Standard-E-Mail-Vorlage vor, vermeiden Sie jedoch umfangreiche Werbeinhalte. |
+| 15-21 | 25 % | Aktive und leicht inaktive Abonnentinnen und Abonnenten | Nutzen Sie normale Marketing-Inhalte und überwachen Sie gleichzeitig die Beschwerderate genau. |
+| 22-28 | 50-100 % | Vollständige Liste (unter Berücksichtigung der Unterdrückungslisten) | Übergang zu Ihrer Steady-State-Sendungskadenz. |
 
->[!NOTE]
->
->Adobe Journey Optimizer bietet eine dedizierte Funktion [IP-Aufwärmpläne](ip-warmup-gs.md) mit der die Volume-Verwaltung automatisiert und der Aufwärmvorgang vereinfacht wird, ohne dass komplexe Journey-Konfigurationen erforderlich sind.
+## Verwenden der IP-Aufwärmpläne-Funktion {#ajo-warmup-feature}
 
-## Verwenden der IP-Aufwärmpläne von AJO {#ajo-warmup-feature}
-
-Adobe Journey Optimizer enthält eine optimierte Funktion für IP-Aufwärmpläne, die die Notwendigkeit manueller Volume-Begrenzungen durch komplexe Journey-Setups beseitigt. Diese Funktion stellt einen standardisierten Ansatz zum Aufbau der Reputation des Absenders sicher.
+Adobe Journey Optimizer enthält eine optimierte Funktion [IP-Aufwärmpläne](ip-warmup-gs.md) mit der die Notwendigkeit manueller Volume-Begrenzungen durch komplexe Journey-Setups entfällt. Diese Funktion stellt einen standardisierten Ansatz zum Aufbau der Reputation des Absenders sicher.
 
 ### Funktionsweise
 
@@ -86,23 +82,19 @@ Adobe Journey Optimizer enthält eine optimierte Funktion für IP-Aufwärmpläne
 
 Adobe Journey Optimizer bietet integrierte Reporting-Funktionen zur Verfolgung der IP-Aufwärmleistung:
 
-* **Live-Berichte**: Greifen Sie über die Registerkarte &quot;**[!UICONTROL 24 Stunden“ auf die Echtzeit-Messung]** Visualisierung Ihrer Kampagnen zu. [Weitere Informationen](../reports/live-report.md)
+* **Live-Berichte**: Greifen Sie über die Registerkarte &quot;**[!UICONTROL 24 Stunden“ auf die Echtzeit-Messung]** Visualisierung Ihrer Kampagnen zu. [Weitere Informationen](../reports/campaign-live-report.md#email-live)
 
-* **Customer Journey Analytics-Integration**: Nutzen Sie Customer Journey Analytics, um Daten aus Adobe Experience Platform zu analysieren und benutzerdefinierte Visualisierungen zu erstellen, um tiefere Einblicke zu erhalten. [Weitere Informationen](../reports/report-gs-cja.md)
+* **Alle Zeitberichte**: Nutzen Sie Customer Journey Analytics, um Daten aus Adobe Experience Platform zu analysieren und benutzerdefinierte Visualisierungen zu erstellen. [Weitere Informationen](../reports/report-gs-cja.md)
 
 ### Zielmetriken
 
 Überwachen Sie diese wichtigen Leistungsindikatoren während Ihrer gesamten Aufwärmphase:
 
-| Metrik | Zielschwellenwert | Aktion bei Überschreitung |
+| Metrik | Zielschwellenwert | Korrekturmaßnahmen |
 |--------|-----------------|-------------------|
-| Beschwerderate | ≤ 0,1 % | Segment prüfen und chronische Beschwerden unterdrücken |
-| Hardbounce-Rate | ≤ 2 % | Überprüfen der Qualitäts- und Hygienepraxis der Liste |
-| Öffnungsrate | ≥ 10 % | Überprüfen, ob Sie interaktive Zielgruppen ansprechen |
-
->[!TIP]
->
->Verwenden Sie für eine umfassende Kampagnenanalyse die Funktionen [Kampagnenlive-Bericht](../reports/campaign-live-report.md#email-live) und [Customer Journey Analytics-Bericht](../reports/campaign-global-report-cja-email.md).
+| Beschwerderate | ≤ 0,1 % | Bei Überschreitung Segment prüfen und chronische Beschwerden unterdrücken. |
+| Hardbounce-Rate | ≤ 2 % | Wenn sie überschritten wird, sollten Sie die Qualitäts- und Hygienemaßnahmen des Listeneintrags überprüfen. |
+| Öffnungsrate | ≥ 10 % | Wenn dies zu niedrig ist, überprüfen Sie, ob Sie interaktive Zielgruppen ansprechen. |
 
 ## Fehlerbehebung im Playbook {#troubleshooting}
 
@@ -110,9 +102,9 @@ Verwenden Sie diese Entscheidungsmatrix, um häufige Probleme während der Aufw�
 
 | Symptom | Wahrscheinliche Ursache | Empfohlene Aktion |
 |---------|--------------|-------------------|
-| Vorübergehende Yahoo-Fehler (421 Fehler) | Volumen zu schnell erhöht | Senden für 24 Stunden anhalten und dann auf der vorherigen Ebene neu starten |
-| Öffnungsrate unter 2 % für Testkonten | IP-Blockierungsauflistung | Überprüfen Sie [Google Postmaster Tools](https://postmaster.google.com/) und [Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/); öffnen Sie bei Bedarf ein Zustellbarkeits-Ticket |
-| Die Beschwerderate liegt über 0,3 % | Falsch angesprochene oder veraltete Zielgruppe | Prüfen Sie Segmentdefinitionen und schließen Sie chronische Beschwerdeführer von Ihrer [Unterdrückungsliste“ &#x200B;](manage-suppression-list.md) |
+| Vorübergehende Yahoo-Fehler (421 Fehler) | Volumen zu schnell erhöht | Senden für 24 Stunden pausieren und dann auf der vorherigen Ebene neu starten. |
+| Öffnungsrate unter 2 % für Testkonten | IP-Blockierungsauflistung | Überprüfen Sie [Google Postmaster Tools](https://postmaster.google.com/) und [Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/); öffnen Sie bei Bedarf ein Zustellbarkeits-Ticket. |
+| Die Beschwerderate liegt über 0,3 % | Falsch angesprochene oder veraltete Zielgruppe | Prüfen Sie Segmentdefinitionen und schließen Sie chronische Beschwerdeführer von Ihrer [Unterdrückungsliste](manage-suppression-list.md) aus. |
 
 >[!IMPORTANT]
 >
@@ -122,34 +114,28 @@ Verwenden Sie diese Entscheidungsmatrix, um häufige Probleme während der Aufw�
 
 Sobald Sie Ihren Aufwärmplan abgeschlossen haben und sich die Metriken stabilisiert haben:
 
-* **Konsistenz wahren**: Die tägliche Volumenzunahme soll Woche für Woche unter 30 % liegen, um Ihre Reputation zu wahren
+* **Konsistenz wahren**: Die tägliche Volumenzunahme soll Woche für Woche unter 30 % liegen, um Ihre Reputation zu wahren.
 
-* **Fortlaufende Überwachung**: Planen Sie vierteljährliche Zustandsprüfungen für die Reputation, um Probleme proaktiv zu identifizieren und zu beheben
+* **Fortlaufende Überwachung**: Planen Sie vierteljährliche Zustandsprüfungen für die Reputation, um Probleme proaktiv zu identifizieren und zu beheben.
 
-* **Interaktionssignale respektieren**: Interaktive Empfängerinnen und Empfänger weiterhin priorisieren und Kampagnen zur Rückgewinnung für inaktive Abonnentinnen und Abonnenten implementieren
+* **Interaktionssignale respektieren**: Interaktive Empfängerinnen und Empfänger weiterhin priorisieren und Kampagnen zur erneuten Interaktion für inaktive Abonnentinnen und Abonnenten implementieren.
 
-* **Authentifizierung aktuell halten**: Überprüfen Sie regelmäßig, ob Ihre SPF-, DKIM- und DMARC-Datensätze ordnungsgemäß konfiguriert bleiben
+* **Authentifizierung aktuell halten**: Überprüfen Sie regelmäßig, ob Ihre SPF-, DKIM- und DMARC-Datensätze ordnungsgemäß konfiguriert bleiben.
 
 ## Wichtige Erkenntnisse {#key-takeaways}
 
-* **IP-Aufwärmphase ist essenziell**: Das Überspringen des Aufwärmvorgangs kostet mehr Zeit und Reputation als der Aufwand, um ihn ordnungsgemäß durchzuführen
+* **IP-Aufwärmphase ist essenziell**: Das Überspringen des Aufwärmvorgangs kostet mehr Zeit und Reputation als der Aufwand, um ihn ordnungsgemäß durchzuführen.
 
-* **Datengestützte Entscheidungen**: Verfolgen Sie Beschwerde, Bounces und Interaktionsraten täglich und passen Sie Ihre Strategie an, bevor die ISPs Sie bestrafen
+* **Datengestützte Entscheidungen**: Verfolgen Sie Beschwerde-, Bounce- und Interaktionsraten täglich und passen Sie Ihre Strategie an, bevor die ISPs Sie bestrafen.
 
-* **Authentifizierung zuerst, zweiter Datenträger**: Lösen Sie alle SPF-, DKIM- und DMARC-Probleme, bevor Sie mit dem Anheben des Volumens beginnen
+* **Authentifizierung zuerst, zweiter Datenträger**: Lösen Sie alle SPF-, DKIM- und DMARC-Probleme, bevor Sie mit dem Anheben des Volumens beginnen.
 
-* **Konsistenz ist wichtig**: Postfachanbieter bevorzugen vorhersehbare Versandmuster; vermeiden Sie plötzliche Volumenspitzen oder unregelmäßige Versandzeitpläne
-
-## Anleitungsvideo {#video}
-
-Erfahren Sie mehr über die Grundlagen der Zustellbarkeit, den Aufbau von Reputationen und Best Practices für die IP-Aufwärmung in Adobe Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/3463791/?captions=ger&learn=on)
+* **Konsistenz ist wichtig**: Postfachanbieter bevorzugen vorhersehbare Versandmuster; vermeiden Sie plötzliche Volumenspitzen oder unregelmäßige Versandzeitpläne.
 
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=de).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
 
 ## Verwandte Themen {#related-topics}
 
