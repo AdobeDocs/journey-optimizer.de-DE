@@ -94,7 +94,7 @@ Ihre Verwaltungsarbeit ermöglicht es allen Teams, erfolgreich zu sein:
 
 * **Support [Dateningenieure](data-engineer.md)**: Erteilen von Berechtigungen für das Daten-Management, Genehmigen des Sandbox-Zugriffs und Koordinieren von Richtlinien zur Datenaufbewahrung
 
-* **Entwickler [](developer.md)**: API-Anmeldeinformationen bereitstellen, Sandbox-Umgebungen für Tests einrichten und Kanalkonfigurationen genehmigen
+* **Entwickler [&#128279;](developer.md)**: API-Anmeldeinformationen bereitstellen, Sandbox-Umgebungen für Tests einrichten und Kanalkonfigurationen genehmigen
 
 * **Marketer [Marketer](marketer.md)**: Weisen Sie geeignete Berechtigungen zu, um Journey und Kampagnen zu erstellen, Kanäle zu konfigurieren, die sie verwenden werden, und Testumgebungen zu unterstützen
 
