@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 14%
+source-wordcount: '1724'
+ht-degree: 13%
 
 ---
 
@@ -163,12 +163,43 @@ Implementieren Sie technische Integrationen, die Journey Optimizer mit Ihren Pro
 
 ## Cross-Role Collaboration
 
-Erfolgreiche Journey Optimizer-Implementierungen erfordern die Zusammenarbeit aller Rollen:
+Erfolgreiche Journey Optimizer-Implementierungen erfordern die Zusammenarbeit aller Rollen. Jede Rolle arbeitet mit anderen zusammen, um nahtlose Kundenerlebnisse bereitzustellen:
 
-* **Administratoren** Aktivieren Sie andere Rollen, indem Sie Sandboxes, Berechtigungen und Kanalkonfigurationen einrichten
-* **Dateningenieure** stellen die Datengrundlage bereit, auf der Entwickler und Marketing-Experten aufbauen
-* **Entwickler** Implementieren der technischen Integrationen, die Marketing-Experten zum Trigger von Journey verwenden
-* **Marketer** Bieten Sie allen Teams Feedback zu Datenqualität, Funktionsanfragen und Anwendererlebnis
+>[!BEGINTABS]
+
+>[!TAB Administratoren]
+
+**Administratoren** Aktivieren aller Teams durch Verwalten des Zugriffs und der Konfigurationen. Sie arbeiten mit:
+
+* **Dateningenieure**: Berechtigungen für die Datenverwaltung erteilen, Sandbox-Zugriff genehmigen, Governance-Richtlinien koordinieren
+* **Entwickler**: API-Anmeldeinformationen bereitstellen, Testumgebungen einrichten, Kanalkonfigurationen genehmigen
+* **Marketer**: Berechtigungen für Journey/Kampagnen zuweisen, Kanäle konfigurieren, Testumgebungen unterstützen
+
+>[!TAB Dateningenieure]
+
+**Dateningenieure** bieten die Datengrundlage für alle. Sie arbeiten mit:
+
+* **Administratoren**: Anfordern von Berechtigungen für das Daten-Management, Koordinieren von Governance- und Aufbewahrungsrichtlinien
+* **Entwickler**: Bereitstellen von XDM-Schemata und Ereignisstrukturen, Definieren von Payload-Formaten für Ereignisse, Testen der Datenaufnahme
+* **Marketer**: Erstellen berechneter Attribute für die Personalisierung, Erstellen von Audiences, Konfigurieren relationaler Schemata
+
+>[!TAB Entwickler]
+
+**Entwickler** Implementieren technische Integrationen, die Journey unterstützen. Sie arbeiten mit:
+
+* **Dateningenieure**: XDM-Schemata und Ereignisstrukturen abrufen, Anforderungen an die Datenerfassung erfüllen, Ereignisbereitstellung testen
+* **Administratoren**: API-Spezifikationen bereitstellen, Berechtigungen und Anmeldeinformationen anfordern, Teststrategie koordinieren
+* **Marketer**: Verstehen Sie Event-Trigger, implementieren Sie Tracking, unterstützen Sie Journey-Tests, beheben Sie Probleme
+
+>[!TAB Marketingexperten]
+
+**Marketer** Gestalten Sie Kundenerlebnisse und geben Sie Feedback. Sie arbeiten mit:
+
+* **Dateningenieure**: Anfordern von berechneten Attributen, Koordinieren der Zielgruppenanforderungen, Bereitstellen von Feedback zur Datenqualität
+* **Entwickler**: Ereignis-Trigger abstimmen, Implementierungen testen, Tracking validieren
+* **Administratoren**: Kanalkonfigurationen anfordern, Funktionszugriff bestätigen, Aktivierung koordinieren
+
+>[!ENDTABS]
 
 **Best Practice:** regelmäßige funktionsübergreifende Meetings, um Prioritäten auszurichten, Fortschritte auszutauschen und Blocker über Teams hinweg anzusprechen.
 
@@ -176,26 +207,30 @@ Erfolgreiche Journey Optimizer-Implementierungen erfordern die Zusammenarbeit al
 
 Weitere Informationen zu den wichtigsten Funktionen und Personas von Journey Optimizer finden Sie im Einführungsvideo. Das Video führt Sie durch die Benutzeroberfläche und hebt je nach rollenspezifischen Workflows zentrale Funktionen hervor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432377?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Weitere Ressourcen
 
 Detailliertere Informationen und Aktualisierungen finden Sie in den folgenden Ressourcen:
 
-**Lernen und Dokumentation:**
+>[!BEGINTABS]
+
+>[!TAB Lernen und Dokumentation]
 
 * [Anleitungsvideos](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=de){target="_blank"} - Schrittweise Video-Tutorials für alle Rollen
 * [Journey-Anwendungsfallbibliothek](../building-journeys/jo-use-cases.md) - Praxisbeispiele und Implementierungsmuster
 * [KI und intelligente Funktionen](ai-features.md) - Erfahren Sie mehr über KI-Assistent, Sendezeitoptimierung und Inhaltserstellung
 * [Handbuch zur Benutzeroberfläche](user-interface.md) - Effektive Navigation in Journey Optimizer
 
-**Bleiben Sie auf dem Laufenden:**
+>[!TAB Bleiben Sie auf dem Laufenden]
 
 * [Versionshinweise](../rn/release-notes.md) - Neueste Funktionen, Verbesserungen und Fehlerbehebungen
 * [Dokumentationsaktualisierungen](../rn/documentation-updates.md) - Verfolgen Sie aktuelle Dokumentationsänderungen
 * [Produktbenachrichtigungen](../rn/releases.md#staying-informed) - Erfahren Sie, wie Sie E-Mail- und produktinterne Benachrichtigungen für Journey Optimizer-Updates abonnieren.
 
-**Community und Support:**
+>[!TAB Community und Support]
 
 * [Experience League-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"} - Kontakt zu anderen Benutzern und Experten
 * [Produktforum](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"} - Fragen stellen und Wissen teilen
+
+>[!ENDTABS]
