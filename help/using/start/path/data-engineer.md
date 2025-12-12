@@ -65,7 +65,7 @@ Sobald Journey ausgeführt werden, können Sie Journey-Schrittereignisse im Data
 * Leistungsmetriken für benutzerdefinierte Aktionen
 * Journey-Instanzstatus und Engpässe
 
-Erkunden Sie einsatzbereite ([ für die Journey-Analyse](../../reports/query-examples.md), um mit der Datenanalyse und Fehlerbehebung zu beginnen.
+Erkunden Sie einsatzbereite ([&#x200B; für die Journey-Analyse](../../reports/query-examples.md), um mit der Datenanalyse und Fehlerbehebung zu beginnen.
 
 ## Rollenübergreifend zusammenarbeiten
 

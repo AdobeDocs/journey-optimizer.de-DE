@@ -161,7 +161,7 @@ Lernen Sie aus praktischen Beispielen, die die Funktionen von Journey Optimizer 
 * [Multi-Channel-Messaging](../../building-journeys/journeys-uc.md): Kombinieren von E-Mail und Push mit Reaktionsereignissen
 * [Nur-Wochentag-E-Mails](../../building-journeys/weekday-email-uc.md): Planen Sie die Kommunikation unter Verwendung zeitbasierter Bedingungen
 
-Durchsuchen Sie die vollständige Bibliothek mit [Journey-Anwendungsfällen ](../../building-journeys/jo-use-cases.md) erfahren Sie mehr über [Orchestrierte Kampagnen](../../orchestrated/gs-orchestrated-campaigns.md).
+Durchsuchen Sie die vollständige Bibliothek mit [Journey-Anwendungsfällen &#x200B;](../../building-journeys/jo-use-cases.md) erfahren Sie mehr über [Orchestrierte Kampagnen](../../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Rollenübergreifend zusammenarbeiten
 
