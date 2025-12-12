@@ -56,7 +56,7 @@ Die wichtigsten Schritte zur Implementierung eines IP-Aufwärmplans sind:
 
 Erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453849/?captions=ger&learn=on)
 
 >[!NOTE]
 >
