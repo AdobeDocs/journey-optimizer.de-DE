@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
+source-git-commit: d3559564b0bf33428a703f7909eed908f1c452a4
 workflow-type: tm+mt
-source-wordcount: '7890'
-ht-degree: 100%
+source-wordcount: '7908'
+ht-degree: 99%
 
 ---
 
@@ -894,7 +894,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
    * **Sandbox – Kopien und Entscheidungsfindung** (Verfügbarkeitsdatum: 3. Juni 2025) – Entscheidungsobjekte können jetzt zwischen Sandboxes kopiert werden, um Test- und Bereitstellungs-Workflows zu optimieren. [Weitere Informationen](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **Unterstützung von Entscheidungselementattributen für Entscheidungsregeln** (Verfügbarkeitsdatum: 4. Juni 2025) * Sie können jetzt Entscheidungselementattribute bei der Erstellung von Entscheidungsregeln verwenden. [Weitere Informationen](../experience-decisioning/rules.md#create)
+   * **Unterstützung von Entscheidungselementattributen für Entscheidungsregeln** (Verfügbarkeitsdatum: 4. Juni 2025) – Sie können jetzt Entscheidungselementattribute für die Erstellung von Entscheidungsregeln verwenden. [Weitere Informationen](../experience-decisioning/rules.md#create)
 
 * **Aktualisierung des API für die Ausführung interaktiver Nachrichten** – Verfügbarkeitsdatum: 6. Juni 2025
 
@@ -1613,11 +1613,13 @@ Weitere Informationen zu Geschäftsregeln finden Sie in der [ausführlichen Doku
 
 HTML-Inhaltsvorlagen werden jetzt nicht mehr unterstützt. Beachten Sie, dass Sie weiterhin vorhandene HTML-Inhaltsvorlagen verwenden können, die zuvor in [!DNL Journey Optimizer] erstellt wurden. [Weitere Informationen zu Inhaltsvorlagen](../content-management/content-templates.md)
 
+**Einverständnisrichtlinien**
+
+Sie können jetzt benutzerdefinierte Einverständnisrichtlinien durch Marketing-Aktionen in E-Mail-Kanal-Konfigurationen nutzen. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 
 You can now choose to have your emails relayed to your SMTP servers instead of being sent directly from Journey Optimizer to ISPs. This allows you to route final email deliveries through your own Mail Transfer Agents and IPs, or to perform final validations on the emails before sending them to your recipients. The SMTP relay capacity is available on demand - contact your Adobe representative.-->
-
 
 
 
