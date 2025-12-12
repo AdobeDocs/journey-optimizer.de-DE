@@ -7,16 +7,16 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 52%
+source-wordcount: '848'
+ht-degree: 50%
 
 ---
 
 # Erste Schritte für Datentechniker {#data-engineer}
 
-Als **Adobe Journey Optimizer-Dateningenieur** bereiten Sie Kundenprofildaten für die von [!DNL Journey Optimizer] orchestrierten Erlebnisse vor und pflegen diese, modellieren Kunden- und Geschäftsdaten in Schemata und konfigurieren Quell-Connectoren für die Datenaufnahme. Sobald der [Systemadministrator](administrator.md) Ihnen Zugriff gewährt und die Umgebung vorbereitet hat, können Sie mit der Arbeit mit [!DNL Adobe Journey Optimizer] beginnen.
+Als **Datenarchitekt** oder **Dateningenieur** richten Sie die Kundenprofildaten und andere Datenquellen ein und pflegen diese, die die von [!DNL Journey Optimizer] orchestrierten Erlebnisse unterstützen. Dazu gehört die Integration aller Kunden- und Geschäftsdaten - ob aus Web-, CRM- oder Offline-Quellen - in eine einheitliche 360-Grad-Sicht auf den Kunden. Sie modellieren Kundenprofildaten und Geschäftsdaten in Schemata, konfigurieren Quell-Connectoren für die Datenaufnahme und stellen einen reibungslosen Datenfluss sicher, um Kundeneinblicke und Interaktion in Echtzeit zu ermöglichen. Sobald der [Systemadministrator](administrator.md) Ihnen Zugriff gewährt und die Umgebung vorbereitet hat, können Sie mit der Arbeit mit [!DNL Adobe Journey Optimizer] beginnen.
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Sobald Journey ausgeführt werden, können Sie Journey-Schrittereignisse im Data
 * Leistungsmetriken für benutzerdefinierte Aktionen
 * Journey-Instanzstatus und Engpässe
 
-Erkunden Sie einsatzbereite ([&#x200B; für die Journey-Analyse](../../reports/query-examples.md), um mit der Datenanalyse und Fehlerbehebung zu beginnen.
+Erkunden Sie einsatzbereite ([ für die Journey-Analyse](../../reports/query-examples.md), um mit der Datenanalyse und Fehlerbehebung zu beginnen.
 
 ## Auf dem Laufenden bleiben
 

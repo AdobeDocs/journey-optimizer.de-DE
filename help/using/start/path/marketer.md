@@ -7,20 +7,27 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 6fbb9f3d47f4299b35214be4966aafb8151183a2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 6%
+source-wordcount: '1516'
+ht-degree: 3%
 
 ---
 
 # Erste Schritte für Marketing-Experten {#get-started-marketers}
 
-Als **Marketing-Fachkraft** oder **Journey-Anwenderin bzw. -Anwender** sind Sie für die Erstellung von Angeboten und Journeys und die Gestaltung von Inhalten verantwortlich. Sie können die Arbeit mit [!DNL Adobe Journey Optimizer] beginnen, sobald Ihnen der [Systemadministrator](administrator.md) und der [Datentechniker](data-engineer.md) Zugriff gewährt und Ihre Umgebung vorbereitet haben.
+Als **Marketer** oder **Business Practitioner** entwerfen Sie Kunden-Journey, um Kunden persönliche, kontextuelle Erlebnisse bereitzustellen. Sie können alle Komponenten dieser personalisierten Journey erstellen und verwalten, einschließlich E-Mail- und Push-Nachrichten, Angebote und Entscheidungskomponenten zur intelligenten Personalisierung des Nachrichteninhalts. Journey Optimizer bietet ein einheitliches Benutzererlebnis, in dem Sie ganze End-to-End-Anwendungsfälle an einem Ort implementieren können. Sie können die Arbeit mit [!DNL Adobe Journey Optimizer] beginnen, sobald Ihnen der [Systemadministrator](administrator.md) und der [Datentechniker](data-engineer.md) Zugriff gewährt und Ihre Umgebung vorbereitet haben.
 
 ## Erste Schritte mit den Grundlagen
 
-Mit Journey Optimizer können Sie personalisierte, vernetzte Kundenerlebnisse für E-Mail, SMS, Push, In-App, Web, Inhaltskarten und mehr erstellen. Arbeiten Sie mit Ihren [Administratoren](administrator.md) zusammen, um Zugriff zu erhalten, und mit [Dateningenieuren](data-engineer.md), um Zielgruppen und Daten einzurichten.
+Journey Optimizer fasst Echtzeit-Kundeneinblicke, moderne Omni-Channel-Orchestrierung und intelligente Entscheidungen in einem einzigen Programm zusammen. Erstellen Sie personalisierte, vernetzte Kundenerlebnisse für E-Mail, SMS, Push, In-App, Web, Inhaltskarten und mehr.
+
+Journey Optimizer bietet zwei leistungsstarke Orchestrierungsansätze:
+
+* **Journey**: Eins-zu-eins-Interaktion in Echtzeit, bei der sich jeder Kunde in seinem eigenen Tempo bewegt, ausgelöst durch Verhalten oder Ereignisse
+* **Orchestrierte Kampagnen**: Komplexe, mehrstufige Batch-Kampagnen in großem Maßstab, bei denen Zielgruppen über Workflows zusammenarbeiten. Diese eignen sich perfekt für markeninitiierte Kampagnen wie saisonale Werbeaktionen, Produkteinführungen oder kontobasierte Kommunikation
+
+Arbeiten Sie mit Ihren [Administratoren](administrator.md) zusammen, um Zugriff zu erhalten, und mit [Dateningenieuren](data-engineer.md), um Zielgruppen, Daten und relationale Schemata für die erweiterte Segmentierung einzurichten.
 
 Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von Erlebnissen zu beginnen:
 
@@ -63,6 +70,17 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
    Erfahren Sie, wie [Journey entwerfen und ausführen](../../building-journeys/journey-gs.md) und [Journey-Anwendungsfälle erkunden](../../building-journeys/jo-use-cases.md). Grundlegendes [Eintritts-/Austrittskriterien](../../building-journeys/entry-exit-criteria-guide.md) um den Profilfluss zu steuern.
 
+1. **Starten von orchestrierten Kampagnen**. Entwerfen Sie komplexe, mehrstufige Batch-Kampagnen im großen Maßstab mithilfe einer visuellen Arbeitsfläche:
+
+   * Erstellen Sie **On-Demand** Zielgruppen, indem Sie sofort relationale Abfragen verwenden, um Kundendaten mit Konten, Käufen, Abonnements und anderen Entitäten zu verbinden
+   * Erstellen **Segmentierung mehrerer Entitäten** für eine präzise Zielgruppenbestimmung (z. B. „Kunden mit Abonnements, die in 30 Tagen ablaufen“ oder „Konten mit kürzlich getätigten hochwertigen Käufen„)
+   * Sichern Sie **Pre-send-Sichtbarkeit** mit präziser Audience-Anzahl, bevor Sie starten
+   * Entwerfen **mehrstufigen Workflows** für saisonale Werbeaktionen, Produkteinführungen, Treueangebote oder Account-basiertes Marketing
+   * Planen von Kampagnen für die sofortige Ausführung zu bestimmten Zeiten oder in wiederkehrenden Zeitplänen (täglich, wöchentlich, monatlich)
+   * Verarbeiten Sie Zielgruppen im **Batch-Modus** bei dem alle Profile gemeinsam durch den Workflow fortschreiten
+
+   Erfahren Sie, wie Sie [mit orchestrierten Kampagnen beginnen](../../orchestrated/gs-orchestrated-campaigns.md) und verstehen, wann Sie [Kampagnen vs. Journey verwenden](../../orchestrated/orchestrated-campaigns-faq.md).
+
 1. **Überwachen und Optimieren**. Nachverfolgen der Leistung und Verbesserung der Ergebnisse im Zeitverlauf:
    * Überwachen **Live-Journey**-Leistung und Erkennen von Engpässen
    * Analysieren **Nachrichtenversand** Raten und Interaktionsmetriken
@@ -91,6 +109,15 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
 [Best Practices für Journey](../../building-journeys/entry-exit-criteria-guide.md#best-practices)
 
+### Kampagnen-Orchestrierung
+
+* **Wählen Sie den richtigen Ansatz**: Verwenden Sie Journey-Kampagnen für verhaltensgesteuerte Erlebnisse in Echtzeit; verwenden Sie orchestrierte Kampagnen für geplante Batch-Kampagnen.
+* **Definieren Sie klare Kampagnenziele**: Legen Sie Ziele fest, bevor Sie mehrstufige Workflows erstellen
+* **Mit Pilot-Zielgruppen beginnen**: Überprüfen der Zählungen und Segmentierungslogik vor der Skalierung
+* **Nutzen relationaler Daten**: Verwenden Sie die Segmentierung mehrerer Entitäten, um Kundendaten mit Konten, Käufen und Abonnements zu verbinden und so ein präzises Targeting zu ermöglichen
+* **Einfache Segmentierung**: Optimieren Sie Leistung und Transparenz mit klaren, verwaltbaren Regeln
+* **Konsistente Benennung verwenden**: Vereinfachung der Kampagnenverwaltung durch klare Benennungskonventionen
+
 ### Zielgruppen-Targeting
 
 * **Überlegt segmentieren**: Erstellen Sie spezifische, umsetzbare Zielgruppensegmente basierend auf klaren Kriterien
@@ -111,14 +138,22 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
 Lernen Sie aus praktischen Beispielen, die die Funktionen von Journey Optimizer demonstrieren:
 
-**Beliebte Anwendungsfälle:**
+**Journey-Anwendungsfälle** (Echtzeit, Eins-zu-eins):
 
 * **Welcome Series**: Lernen Sie neue Kunden mit personalisierten, mehrstufigen Journey kennen. [Anwendungsfall anzeigen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
 * **Abgebrochene Wiederherstellung des Warenkorbs**: Erneuter Kontakt mit Kunden, die Artikel in ihrem Warenkorb hinterlassen haben. [Anwendungsfall anzeigen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* **Rückgewinnungskampagnen**: Gewinnen Sie inaktive Kunden mit zielgerichteten Angeboten zurück. [Anwendungsfall anzeigen](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
-* **Geburtstagskampagnen**: Senden personalisierter Geburtstagsnachrichten mit Sonderangeboten
-* **Produktempfehlungen**: Schlagen Sie relevante Produkte basierend auf dem Browse- und Kaufverlauf vor
 * **Ereignisgesteuertes Messaging**: Reagieren auf Kundenaktionen in Echtzeit
+* **Geburtstagskampagnen**: Senden personalisierter Geburtstagsnachrichten, die durch Profildaten ausgelöst werden
+* **Produktempfehlungen**: Schlagen Sie relevante Produkte basierend auf dem Browse- und Kaufverlauf vor
+
+**Anwendungsfälle für orchestrierte Kampagnen** (Batch, Eins-zu-Viele):
+
+* **Saisonale Werbeaktionen**: Starten Sie koordinierte Kampagnen über Kundensegmente hinweg (z. B. Weihnachtsumsätze, „Back-to-School„)
+* **Produkteinführungen**: Ankündigung neuer Produkte an ausgewählte Zielgruppen mit sequenzieller Nachrichtenübermittlung
+* **Treueprogramm-Angebote**: Belohnen Sie hochwertige Kunden mit mehrstufigen Angeboten, die auf dem Kaufverlauf basieren.
+* **Account-Based Marketing**: Targeting von Konten mit bestimmten Merkmalen und zugehörigen Kontakten
+* **Abonnementverlängerungen**: Kunden mit Abonnements erreichen, die bald ablaufen, indem Abfragen mit mehreren Entitäten verwendet werden
+* **Rückgewinnungskampagnen**: Gewinnen Sie inaktive Kunden mit zielgerichteten Angeboten im Batch-Modus zurück. [Anwendungsfall anzeigen](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
 
 **Journey-Muster:**
 
@@ -126,15 +161,15 @@ Lernen Sie aus praktischen Beispielen, die die Funktionen von Journey Optimizer 
 * [Multi-Channel-Messaging](../../building-journeys/journeys-uc.md): Kombinieren von E-Mail und Push mit Reaktionsereignissen
 * [Nur-Wochentag-E-Mails](../../building-journeys/weekday-email-uc.md): Planen Sie die Kommunikation unter Verwendung zeitbasierter Bedingungen
 
-Durchsuchen Sie die vollständige Bibliothek mit [Journey-Anwendungsfällen](../../building-journeys/jo-use-cases.md) um weitere Muster und Implementierungen zu erhalten.
+Durchsuchen Sie die vollständige Bibliothek mit [Journey-Anwendungsfällen ](../../building-journeys/jo-use-cases.md) erfahren Sie mehr über [Orchestrierte Kampagnen](../../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Mit anderen Rollen zusammenarbeiten
 
 Ihre Marketing-Arbeit vernetzt sich mit anderen Teams:
 
-* **Arbeiten mit [Dateningenieuren](data-engineer.md)**: Fordern Sie neue berechnete Attribute an, geben Sie Feedback zur Zielgruppenqualität und koordinieren Sie die Datenanforderungen
+* **Arbeiten mit [Dateningenieuren](data-engineer.md)**: Fordern Sie neue berechnete Attribute an, koordinieren Sie relationale Schemata für orchestrierte Kampagnen, geben Sie Feedback zur Zielgruppen-Qualität und stimmen Sie die Datenanforderungen für mehrere Entitäten für die erweiterte Segmentierung ab
 * **Arbeiten mit [Entwicklern](developer.md)**: Ausrichten von Ereignis-Triggern, Testen von Mobile-Implementierungen und Validieren des Trackings
-* **Arbeiten mit [Administratoren](administrator.md)**: Kanalkonfigurationen anfordern, Probleme mit Berechtigungen melden und die Aktivierung neuer Funktionen koordinieren
+* **Arbeiten mit [Administratoren](administrator.md)**: Anfordern von Kanalkonfigurationen, Bestätigen des Lizenzzugriffs für orchestrierte Kampagnen, Melden von Problemen mit Berechtigungen und Koordinieren der Aktivierung neuer Funktionen
 
 ## Auf dem Laufenden bleiben
 

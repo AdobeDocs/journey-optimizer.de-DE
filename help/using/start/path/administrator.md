@@ -7,18 +7,18 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 50%
+source-wordcount: '1012'
+ht-degree: 48%
 
 ---
 
 # Erste Schritte für Systemadministratoren {#get-started-sys-admins}
 
-Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, sind mehrere Schritte erforderlich, um Ihre Umgebung vorzubereiten. Sie müssen diese Schritte ausführen, damit [Datentechniker](data-engineer.md) und [Marketer](marketer.md) mit [!DNL Adobe Journey Optimizer] arbeiten können.
+Als **Systemadministrator** richten Sie die Journey Optimizer-Umgebung ein und verwalten den Zugriff, damit Ihre Teams effizient und sicher arbeiten können. Sie führen wichtige Konfigurationsschritte aus, damit [Datentechniker](data-engineer.md), [Entwickler](developer.md) und [Marketer](marketer.md) mit [!DNL Adobe Journey Optimizer] arbeiten können.
 
-Als **Systemadmin** müssen Sie **Rollen verstehen und Berechtigungen für die Sandbox-Administration und Kanalkonfiguration zuweisen**. Außerdem müssen Sie Sandboxes einrichten und für die verfügbaren Rollen verwalten. Anschließend können Sie Team-Mitglieder Rollen zuweisen. Während [Dateningenieure](data-engineer.md) Datenschemata und Quellen konfigurieren und [Entwickler](developer.md) technische Integrationen implementieren, stellen Sie sicher, dass die richtigen Personen Zugriff auf die richtigen Funktionen haben.
+Zu Ihren Hauptaufgaben gehören das Einrichten von Benutzergruppen und Berechtigungen, das Erstellen und Verwalten von Sandboxes für die Partitionierung von Daten und Journey für verschiedene Benutzergruppen sowie das Konfigurieren von Versandkanälen und Nachrichtenvoreinstellungen, um ein konsistentes Branding für die verschiedenen über Journey Optimizer bereitgestellten Nachrichten und Assets sicherzustellen. Sie stellen sicher, dass die richtigen Personen Zugriff auf die richtigen Funktionen haben, während gleichzeitig die Sicherheit und die Governance gewahrt bleiben.
 
 Diese Funktionen können von **[!UICONTROL Produktadmins]** verwaltet werden, die Zugriff auf das Produkt „Berechtigungen“ haben. [Weitere Informationen zu Berechtigungen](../../administration/permissions.md){target="_blank"}.
 
@@ -94,7 +94,7 @@ Ihre Verwaltungsarbeit ermöglicht es allen Teams, erfolgreich zu sein:
 
 * **Support [Dateningenieure](data-engineer.md)**: Erteilen von Berechtigungen für das Daten-Management, Genehmigen des Sandbox-Zugriffs und Koordinieren von Richtlinien zur Datenaufbewahrung
 
-* **Entwickler [&#128279;](developer.md)**: API-Anmeldeinformationen bereitstellen, Sandbox-Umgebungen für Tests einrichten und Kanalkonfigurationen genehmigen
+* **Entwickler [](developer.md)**: API-Anmeldeinformationen bereitstellen, Sandbox-Umgebungen für Tests einrichten und Kanalkonfigurationen genehmigen
 
 * **Marketer [Marketer](marketer.md)**: Weisen Sie geeignete Berechtigungen zu, um Journey und Kampagnen zu erstellen, Kanäle zu konfigurieren, die sie verwenden werden, und Testumgebungen zu unterstützen
 

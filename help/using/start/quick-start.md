@@ -8,17 +8,28 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 20%
+source-wordcount: '1585'
+ht-degree: 14%
 
 ---
 
 
 # Rollen und Verantwortlichkeiten
 
-Adobe Journey Optimizer ermöglicht es Marken, während des gesamten Kundenlebenszyklus vernetzte und kontextualisierte Kunden-Journey bereitzustellen. Teams wird ermöglicht, Interaktionen im benötigten Umfang zu personalisieren und die Erwartungen der Kundschaft an Geschäftszielen auszurichten. In dieser Dokumentation werden die zentralen Rollen und ihre effektive Verwendung von Journey Optimizer sowie ihre Verantwortlichkeiten und die ersten Schritte erklärt.
+Mit Adobe Journey Optimizer können Marken auf dem gesamten Kunden-Journey vernetzte, kontextbezogene und personalisierte Erlebnisse bereitstellen. Journey Optimizer wurde mit einem durchgängigen Fokus auf Skalierbarkeit, Geschwindigkeit und Flexibilität entwickelt und kombiniert drei wichtige Treiber für den Mehrwert in einer einheitlichen Anwendung:
+
+* **Echtzeit-Kundeneinblicke und Interaktion** basierend auf dem Echtzeit-Kundenprofil von Adobe
+* **Moderne Omni-Channel** Orchestrierung durch einheitliche Arbeitsflächen für Echtzeit-Journey- und Batch-Kampagnen sowie einen modernen Nachrichten-Designer
+* **Intelligente Entscheidungsfindung und Personalisierung** durch Entscheidungs-Management und KI/ML-Funktionen
+
+Journey Optimizer bietet zwei Orchestrierungsansätze, um verschiedene Marketing-Anforderungen zu erfüllen:
+
+* **Journey**: Am besten geeignet für Eins-zu-eins-Interaktionen in Echtzeit, bei denen sich jeder Kunde in seinem eigenen Tempo bewegt, ausgelöst durch Verhalten oder Ereignisse
+* **Orchestrierte Kampagnen**: Optimiert für Batch-Kampagnen, bei denen Zielgruppen mithilfe mehrstufiger Workflows nach einem Zeitplan zusammenarbeiten. Ideal für saisonale Werbeaktionen, Produkteinführungen und kontobasierte Kommunikation
+
+Dieses einheitliche Erlebnis ermöglicht es Ihnen, ganze Anwendungsfälle an einem Ort zu implementieren, von der Definition von Zielgruppen und der Gestaltung von Journey bis hin zur Erstellung personalisierter Inhalte und der Analyse von Ergebnissen. In dieser Dokumentation werden die zentralen Rollen und ihre effektive Verwendung von Journey Optimizer sowie ihre Verantwortlichkeiten und die ersten Schritte erklärt.
 
 **Wichtiger Hinweis:** Adobe Journey Optimizer definiert verschiedene Rollen mit bestimmten Verantwortlichkeiten. Eine einzelne Person kann mehrere oder alle Rollen einnehmen, je nach Struktur Ihrer Organisation.
 
@@ -28,10 +39,10 @@ Um die Implementierung zu vereinfachen, organisiert Adobe Journey Optimizer Aufg
 
 | Rolle | Primäre Verantwortlichkeiten | Wichtige Kenntnisse | Typische Aufgaben |
 |-------------------|----------------------------------|--------------------------------|-----------------------------------------------|
-| **Administrator** | Einrichten der Umgebung und Zugriffsverwaltung | Systemkonfiguration, Benutzerverwaltung, Sicherheit | Konfigurieren von Sandboxes, Verwalten von Berechtigungen, Einrichten von Kanalkonfigurationen |
-| **Dateningenieur** | Datengrundlage und Architektur | Datenmodellierung, XDM-Schemata, Datenqualität | Erstellen von Schemata und Datensätzen, Konfigurieren der Datenaufnahme und Verwalten des Datenlebenszyklus |
+| **Administrator** | Einrichten der Umgebung und Zugriffsverwaltung | Systemkonfiguration, Benutzerverwaltung, Sicherheit | Einrichten von Sandboxes, Verwalten von Benutzerberechtigungen, Konfigurieren von Kanälen und Nachrichtenvoreinstellungen |
+| **Dateningenieur** | Kundenprofildaten und Datenquellen | Datenmodellierung, XDM-Schemata, Quell-Connectoren | Profil- und Geschäftsdaten in Schemata modellieren, Quell-Connectoren konfigurieren, Datenaufnahme überwachen |
 | **Entwickler** | Technische Implementierung und Integrationen | Mobile/Web-SDK, APIs, ereignisgesteuerte Architektur | SDKs integrieren, Ereignisse implementieren, benutzerdefinierte Aktionsendpunkte erstellen |
-| **Marketing-Fachkraft** | Gestaltung und Ausführung von Kundenerlebnissen | Journey-Design, Inhaltserstellung, Datenanalyse | Erstellen Sie Journey, erstellen Sie personalisierte Inhalte, optimieren Sie Kampagnen |
+| **Marketing-Fachkraft** | Journey-Design und personalisierte Erlebnisse | Journey-Orchestrierung, Inhaltserstellung, Audience-Targeting | Entwerfen Sie Kunden-Journey, erstellen und personalisieren Sie Nachrichten, verwalten Sie Angebote und Entscheidungskomponenten, definieren Sie Audiences |
 
 Jede Rolle behandelt eine bestimmte Phase der Adobe Journey Optimizer-Implementierung und stellt einen strukturierten und effizienten Bereitstellungsprozess sicher.
 
@@ -80,54 +91,54 @@ Jede Rolle beginnt mit bestimmten Aufgaben entsprechend ihres Schwerpunkts. Durc
 
 ### Für Marketingexperten {#for-marketers}
 
-Konzentrieren Sie sich auf die Erstellung personalisierter Kundenerlebnisse über alle Kanäle hinweg.
+Als Marketing-Experte oder Business Practitioner entwerfen Sie Kunden-Journeys, um persönliche, kontextuelle Erlebnisse über alle Touchpoints hinweg bereitzustellen. Sie arbeiten in einer einheitlichen Oberfläche, um ganze Anwendungsfälle von Anfang bis Ende zu implementieren.
 
 **Wichtige Funktionen, die Sie verwenden werden:**
 
-* Erstellen von Audiences und Erstellen von Segmenten mit mehreren Methoden (Segmentdefinitionen, CSV-Upload, Audience-Komposition)
-* Gestalten von Inhalten mit dem KI-Assistenten für die Text- und Bildgenerierung
-* Erstellen von kanalübergreifenden Kunden-Journey mit Drag-and-Drop-Designer
-* Nutzen der Sendezeitoptimierung und des Konflikt-Managements zur Maximierung der Interaktion
-* Testen von Inhalten und Verwenden von Validierungs-Workflows vor der Veröffentlichung
-* Überwachen der Leistung mit integrierten Reporting-Dashboards
+* **Journey Orchestration**: Erstellen Sie Eins-zu-eins-Kundeninteraktionen in Echtzeit, bei denen sich jede Person in ihrem eigenen Tempo bewegt, ausgelöst durch Verhalten oder Ereignisse kanalübergreifend
+* **Kampagnenorchestrierung**: Entwerfen und automatisieren Sie komplexe, mehrstufige Batch-Kampagnen im großen Maßstab mithilfe einer visuellen Arbeitsfläche. Perfekt für markeninitiierte Kampagnen wie saisonale Werbeaktionen, Produkteinführungen und kontobasierte Kommunikation. Nutzen Sie die Segmentierung mehrerer Entitäten, um präzise Zielgruppen zu erstellen, indem Sie Kundendaten mit verwandten Entitäten (Konten, Käufe, Buchungen) verbinden
+* **Moderner Nachrichten-Designer**: Gestalten und personalisieren Sie E-Mail- und Mobile-Nachrichten mit einer Drag-and-Drop-Oberfläche. Bearbeiten von vordefinierten Vorlagen zur Beschleunigung der Markteinführungszeit
+* **Entscheidungs-**: Erstellen und verwalten Sie Angebote, Eignungsregeln und andere Komponenten in einer zentralen Bibliothek, die in E-Mails und Kunden-Touchpoints eingebettet werden kann
+* **Asset-Management**: Zugriff auf Adobe Experience Manager Assets Essentials, das vollständig in Journey Optimizer eingebettet ist, für optimierten Asset-Zugriff und -Bereitstellung
+* **Zielgruppendefinition**: Erstellen Sie On-Demand-Zielgruppen mit sofortiger Verfeinerung mithilfe relationaler Abfragen, mit Sichtbarkeit vor dem Versand für eine genaue Zielgruppenanzahl
+* **KI/ML-Services**: Nutzen Sie die Sendezeitoptimierung und die prädiktiven Interaktionswerte, um hochwertige Kunden anzusprechen und das Abwanderungsrisiko zu minimieren
 
-**Erste Schritte mit:** Erstellen Sie eine einfache Begrüßungs-Journey oder eine Wiederherstellungskampagne für abgebrochene Warenkörbe mit vordefinierten Vorlagen.
+**Erste Schritte mit:** Anwendungsfallvorlagen und Assistenten zur einfachen Erstellung und Bereitstellung neuer Kunden-Journey.
 
 [Erste Schritte als Marketing-Experte →](path/marketer.md)
 
 ### Für Dateningenieure {#for-data-engineers}
 
-Erstellen Sie die Datengrundlage für personalisierte Erlebnisse.
+Als Datenarchitekt oder -ingenieur richten Sie die Kundenprofildaten und andere Datenquellen ein und pflegen sie, die die von Journey Optimizer orchestrierten Erlebnisse unterstützen.
 
 **Wichtigste Zuständigkeiten:**
 
-* Identity-Namespaces erstellen und Identitätsauflösung konfigurieren
-* Entwerfen von XDM-Schemata für Profil- und Ereignisdaten (standardmäßig und relational)
-* Datensätze einrichten und für das Echtzeit-Kundenprofil aktivieren
-* Konfigurieren von Quell-Connectoren für die Batch- und Streaming-Datenaufnahme
-* Erstellen berechneter Attribute zur Vereinfachung der Segmentierung
-* Konfigurieren von Ereignissen und Datenquellen für die Journey-Ausführung
-* Verwalten von Datenqualität, Governance und Lebenszyklus
+* **Kundenprofildaten**: Modellieren Sie Kundenprofildaten und Geschäftsdaten in Schemata, um eine einheitliche 360-Grad-Ansicht des Kunden zu erstellen
+* **Relationale Datenmodellierung**: Entwerfen Sie für orchestrierte Kampagnen relationale Schemata, um die Segmentierung mehrerer Entitäten zu ermöglichen und Kundendaten mit verwandten Entitäten wie Konten, Käufen, Abonnements und Buchungen zu verbinden, um eine flexible Zielgruppenerstellung zu ermöglichen
+* **Source-Connectoren**: Konfigurieren Sie Quell-Connectoren, um Daten aus dem Web, CRM, Offline-Daten und anderen Quellen in Adobe Experience Platform aufzunehmen
+* **Identitätsauflösung**: Richten Sie Identity-Namespaces ein, um Profile kontinuierlich zu aktualisieren und Kunden in Echtzeit in Segmente und Journey bzw. aus ihnen heraus zu verschieben
+* **Datenquellen**: Konfigurieren von Datenquellen, um in Echtzeit auf externe Signale auf der Kunden-Journey zu lauschen
+* **Profil-Management**: Aktivieren von Datensätzen für das Echtzeit-Kundenprofil, um personalisierte Erlebnisse zu ermöglichen
+* **Datenqualität** Überwachen der Datenaufnahme, um sicherzustellen, dass alles reibungslos in Journey Optimizer fließt
 
-**Erste Schritte mit:** Richten Sie Identity-Namespaces ein und erstellen Sie Ihr erstes Profilschema mit den erforderlichen Feldergruppen.
+**Starten mit:** Modellieren Sie Ihr erstes Kundenprofilschema und konfigurieren Sie einen Quell-Connector, um mit der Datenaufnahme zu beginnen.
 
 [Erste Schritte als Datentechniker →](path/data-engineer.md)
 
 ### Für Administratoren {#for-administrators}
 
-Einrichten und Verwalten der Journey Optimizer-Umgebung für Ihr Unternehmen.
+Als Administrator richten Sie die Journey Optimizer-Umgebung ein, damit Ihre Teams effizient und sicher arbeiten können.
 
 **Wichtigste Zuständigkeiten:**
 
-* Erstellen und Verwalten von Sandboxes für Entwicklung, Tests und Produktion
-* Konfigurieren Sie Rollen und Berechtigungen mit standardmäßigen oder benutzerdefinierten Rollen
-* Anwenden der Zugriffssteuerung auf Objektebene (OLAC) auf sichere Ressourcen
-* Einrichten von Kanalkonfigurationen für E-Mail, SMS, Push, In-App, Web und Inhaltskarten
-* Delegieren von Subdomains und Erstellen von IP-Pools für die E-Mail-Zustellbarkeit
-* Verwalten von Unterdrückungslisten und Zulassungslisten
-* Konfigurieren von Einverständnisrichtlinien und Data Governance (mit Healthcare/Privacy Shield)
+* **Sandboxes**: Erstellen und verwalten Sie Sandboxes, um Daten und Journey für verschiedene Benutzergruppen (Entwicklung, Tests, Produktion) zu unterteilen
+* **Benutzerverwaltung**: Einrichten von Benutzergruppen und Berechtigungen, um den Zugriff auf verschiedene Funktionen zu steuern
+* **Kanaleinrichtung**: Konfigurieren von Versandkanälen und Nachrichtenvoreinstellungen, um ein konsistentes Branding für alle über Journey Optimizer bereitgestellten Nachrichten und Assets sicherzustellen
+* **Sicherheit und Governance**: Wenden Sie die Zugriffssteuerung auf Objektebene (OLAC) an, konfigurieren Sie Einverständnisrichtlinien und implementieren Sie Data-Governance-Richtlinien
+* **Zustellbarkeit**: Subdomains delegieren, IP-Pools erstellen und Unterdrückungslisten und Zulassungslisten verwalten
+* **Journey-**: Richten Sie Journey-Elemente und -Konfigurationen für Ihre Teams ein
 
-**Beginnen Sie mit:** Konfigurieren Sie Sandboxes, richten Sie grundlegende Rollen und Berechtigungen ein und arbeiten Sie dann mit Ihrem Team an Kanalkonfigurationen.
+**Starten Sie mit** Konfigurieren Sie Sandboxes und Benutzerberechtigungen und richten Sie dann Ihre ersten Kanalkonfigurationen und Nachrichtenvoreinstellungen ein.
 
 [Erste Schritte als Administrator-→](path/administrator.md)
 
@@ -165,7 +176,7 @@ Erfolgreiche Journey Optimizer-Implementierungen erfordern die Zusammenarbeit al
 
 Weitere Informationen zu den wichtigsten Funktionen und Personas von Journey Optimizer finden Sie im Einführungsvideo. Das Video führt Sie durch die Benutzeroberfläche und hebt je nach rollenspezifischen Workflows zentrale Funktionen hervor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432377?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Weitere Ressourcen
 
