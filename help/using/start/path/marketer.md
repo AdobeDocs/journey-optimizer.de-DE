@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: e86fa9f6e62aea9dd1f7e6d35e7cf4b20f79aaa6
+source-git-commit: 6fbb9f3d47f4299b35214be4966aafb8151183a2
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1122'
 ht-degree: 6%
 
 ---
@@ -26,11 +26,12 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
 1. **Erstellen von Zielgruppen**. Erstellen Sie Zielgruppen über Segmentdefinitionen, laden Sie CSV-Dateien hoch oder verwenden Sie die Zielgruppenkomposition. Journey Optimizer bietet mehrere Möglichkeiten, die richtigen Kunden anzusprechen. Weitere Informationen zu [Zielgruppen](../../audience/about-audiences.md) und [Erstellen von Segmentdefinitionen](../../audience/creating-a-segment-definition.md).
 
-1. **Inhalte entwerfen**. Erstellen Sie ansprechende Nachrichten kanalübergreifend:
+1. **Inhalte entwerfen**. Erstellen Sie ansprechende Nachrichten über alle Kanäle hinweg, einschließlich E-Mail, SMS, Push, In-App, Web und Inhaltskarten:
    * Verwenden Sie den **KI** Assistenten, um E-Mail-Inhalte, Betreffzeilen und Bilder basierend auf Ihren Markenrichtlinien zu generieren. [Erfahren Sie mehr über die Generierung von KI-Inhalten](../../content-management/gs-generative.md)
    * **Personalisieren von** mit Kundendaten, dynamischen Inhalten und bedingter Logik. [Informationen zur Personalisierung](../../personalization/personalize.md)
    * **Iterieren Sie über kontextuelle**, um dynamische Listen aus Ereignissen, benutzerdefinierten Aktionen und Datensatzsuchen anzuzeigen. [Erfahren Sie mehr über das Iterieren kontextueller Daten](../../personalization/iterate-contextual-data.md)
    * Erstellen Sie wiederverwendbare **Inhaltsvorlagen** und **Fragmente** um die Markenkonsistenz zu wahren. [Arbeiten mit Vorlagen](../../content-management/content-templates.md)
+   * Bereitstellen persistenter, nicht aufdringlicher **(Inhaltskarten)** Mobile Apps und Websites. Im Gegensatz zu Push-Benachrichtigungen bleiben Inhaltskarten sichtbar, bis sie verworfen werden. [Erfahren Sie mehr über Inhaltskarten](../../content-card/create-content-card.md)
    * Verwalten von Assets mit der **Adobe Experience Manager Assets**-Integration. [Informationen zu Assets](../../integrations/assets.md)
 
    ![](../assets/perso_ee2.png)
@@ -43,7 +44,8 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
    * Verwenden Sie **Testprofile** um eine Vorschau der Personalisierung anzuzeigen und das Rendering geräteübergreifend zu überprüfen
    * Testen mit **Beispieldaten** aus CSV-/JSON-Dateien
    * Vorschau **E-Mail-Rendering** in gängigen E-Mail-Clients
-   * Einrichten **Validierungs-Workflows** für Kampagnen und Journey (zusätzliche Lizenz erforderlich)
+   * Führen Sie **A/B-Tests und Experimente** aus, um Inhaltsvarianten zu optimieren. Verwenden Sie Multi-Armed-Bandit-Experimente , um den erfolgreichsten Varianten in Echtzeit automatisch mehr Traffic zuzuweisen. [Erfahren Sie mehr über Experimente](../../content-management/content-experiment.md)
+   * Einrichten **Validierungs-Workflows** für Kampagnen und Journey (zusätzliche Lizenz erforderlich). [Erfahren Sie mehr über Validierungen](../../test-approve/gs-approval.md)
 
    Erfahren Sie, wie Sie [Nachrichten testen und validieren](../../content-management/preview-test.md).
 
@@ -53,7 +55,7 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
    * Hinzufügen **Bedingungen** um personalisierte Pfade basierend auf Kundendaten zu erstellen
    * Verwenden Sie **Warteaktivitäten** um ein perfektes Timing zwischen Nachrichten zu erstellen
    * Senden von Nachrichten über **mehrere Kanäle** innerhalb einer Journey
-   * Anwendung **A/B-Tests** zur Optimierung der Journey-Effektivität
+   * Wenden Sie **A/B-** an und optimieren Sie die Versandzeiten, um die Interaktion zu maximieren
    * Verwenden Sie **Datensatzsuche** um Journey mit Echtzeitdaten aus Adobe Experience Platform anzureichern. [Erfahren Sie mehr über die Datensatzsuche](../../building-journeys/dataset-lookup.md)
    * Nutzen Sie **zusätzliche IDs**, damit dasselbe Profil in mehrere Journey-Instanzen (z. B. verschiedene Bestellungen oder Buchungen) eintreten kann. [Erfahren Sie mehr über zusätzliche Kennungen](../../building-journeys/supplemental-identifier.md)
 
@@ -66,22 +68,9 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
    * Analysieren **Nachrichtenversand** Raten und Interaktionsmetriken
    * Verwenden **Reporting-Dashboards** mit Customer Journey Analytics-Integration
    * Nachverfolgen **Konversion** und geschäftliche Auswirkungen
+   * Verwalten Sie **Häufigkeit und Priorisierung von Nachrichten** mithilfe von Regeln für das Konfliktmanagement, um Überkommunikation zu vermeiden. [Erfahren Sie mehr über Konfliktmanagement](../../conflict-prioritization/gs-conflict-prioritization.md)
 
    Erfahren Sie, wie Sie [Leistung überwachen](../../reports/report-gs-cja.md).
-
-## Nutzen der neuesten Funktionen
-
-Journey Optimizer entwickelt sich kontinuierlich weiter mit neuen Funktionen, um Ihre Marketing-Effektivität zu verbessern:
-
-* **Inhaltskarten**: Bereitstellen persistenter, nicht aufdringlicher Nachrichten in Mobile Apps und Websites, mit denen Benutzende nach Belieben interagieren können. Im Gegensatz zu Push-Benachrichtigungen bleiben Inhaltskarten sichtbar, bis sie verworfen werden. [Erfahren Sie mehr über Inhaltskarten](../../content-card/create-content-card.md)
-
-* **Konfliktmanagement und**: Kontrollieren Sie die Häufigkeit von Nachrichten und verhindern Sie Überkommunikation mit erweiterten Begrenzungsregeln. Legen Sie Prioritätswerte fest, um sicherzustellen, dass die wichtigsten Nachrichten zuerst die Kunden erreichen. [Erfahren Sie mehr über Konfliktmanagement](../../conflict-prioritization/gs-conflict-prioritization.md)
-
-* **KI-gestützte Sendezeitoptimierung**: Lassen Sie KI die optimale Sendezeit für jeden Kunden basierend auf seinen historischen Interaktionsmustern vorhersagen und erhöhen Sie die Öffnungs- und Klickraten um bis zu 10 %. [Erfahren Sie mehr über die Optimierung des Versandzeitpunkts](../../building-journeys/send-time-optimization.md)
-
-* **Multi-Armed Bandit Experimentation**: Beim Testen wird automatisch mehr Traffic an die erfolgreichsten Varianten zugewiesen, während die Ergebnisse maximiert werden, ohne auf den Abschluss des Tests zu warten. [Erfahren Sie mehr über Experimente](../../content-management/content-experiment.md)
-
-* **Validierungs-Workflows**: Implementieren Sie Validierungsprozesse für Kampagnen und Journey vor der Live-Schaltung (mit zusätzlicher Lizenz verfügbar). [Erfahren Sie mehr über Validierungen](../../test-approve/gs-approval.md)
 
 ## Best Practices für den Erfolg
 
