@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Nachricht, Häufigkeit, Regeln, Druck
-source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -118,7 +118,7 @@ Um Ruhezeiten festzulegen, erstellen Sie eine Regel innerhalb eines benutzerdefi
      >
      >Diese Option ist nur für Journey-Aktionen verfügbar. Wenn sie auf eine Kampagnenaktion angewendet wird, ist das Verhalten dasselbe wie bei Auswahl der Option **[!UICONTROL Nachricht verwerfen]**.
 
-   * **[!UICONTROL Nachricht verwerfen]**: Nachrichten werden nie gesendet. Wenn Sie möchten, dass die Journey oder Kampagne, die die Nachricht enthält, mit dem Abbruch des Versands endet, wählen Sie **[!UICONTROL Verwerfen und aus Journey oder Kampagne aussteigen]**.
+   * **[!UICONTROL Nachricht verwerfen]**: Nachrichten werden nie gesendet. Wenn Sie möchten, dass die Journey oder Kampagne, die die Nachricht enthält, mit dem Abbruch des Versands endet, wählen Sie **[!UICONTROL Verwerfen und Journey oder Kampagne beenden]**.
 
 ## Anwenden von Ruhezeiten auf Journeys und Kampagnen {#apply}
 
@@ -187,4 +187,4 @@ Sobald Ihre Journeys oder Kampagnen aktiviert und ausgeführt wurden, können Si
 
 Erfahren Sie, wie Sie die Ruhezeitenfunktion in Adobe Journey Optimizer verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475861?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

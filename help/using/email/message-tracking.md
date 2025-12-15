@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '1344'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,7 @@ Die Gültigkeitsdauer für eine Mirror-Seite beträgt **90 Tage**. Nach dieser 
 
 >[!CAUTION]
 >
->* Links zu Mirrorseiten werden automatisch generiert und können nicht bearbeitet werden. Sie enthalten alle verschlüsselten personalisierten Daten, die zum Rendern der ursprünglichen E-Mail erforderlich sind. Daher kann die Verwendung personalisierter Attribute mit großen Werten zu langen Mirrorseiten-URLs führen, was verhindert, dass der Link in Webbrowsern mit einer begrenzten URL-Länge funktioniert.
+>* Links zu Mirrorseiten werden automatisch generiert und können nicht bearbeitet werden. Sie enthalten alle verschlüsselten personalisierten Daten, die zum Rendern der ursprünglichen E-Mail erforderlich sind. Daher kann die Verwendung personalisierter Attribute mit großen Werten zu langen Mirror-Seiten-URLs führen, was verhindert, dass der Link in Webbrowsern mit einer maximalen URL-Länge funktioniert.
 >
 >* Beim Erstellen von E-Mails, die stark von der Laufzeitpersonalisierung abhängen (z. B. `#each`-Schleifen, verschachtelte Objekte, große Payload-Daten), können die URLs der Mirror-Seite übermäßig groß werden, insbesondere in durch API ausgelösten Kampagnen, die umfangreiche kontextuelle Daten aus Payloads verwenden. Dies kann HTTP-Fehler (404, 422, 502) in Browsern oder Mail-Clients verursachen. Adobe empfiehlt, die Breite und Tiefe dynamischer Felder zu begrenzen, die Abhängigkeit von komplexen Fragmenten zu reduzieren und Personalisierungsstrukturen zu vereinfachen, um Link-Fehler zu vermeiden.
 >

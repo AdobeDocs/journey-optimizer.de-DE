@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie auf  [!DNL Adobe Journey Optimizer] -Berichte
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ Um die Zustellbarkeit der [!DNL Journey Optimizer]-Erlebnisse zu optimieren, wir
 
   ![](assets/gs-cja-report-1.png)
 
-  Mit einer Adobe Customer Journey Analytics-Lizenz können Journey Optimizer-Berichte in Customer Journey Analytics analysiert werden. Diese leistungsstarke Option leitet Sie nahtlos zur Customer Journey Analytics-Umgebung weiter, sodass Sie Berichte umfassend personalisieren können. Sie können Widgets mit spezialisierten Customer Journey Analytics-Metriken anreichen, die Ihre Erkenntnisse auf eine völlig neue Ebene bringen. [Weitere Informationen](report-cja-manage.md)
+  Wenn Sie über eine Adobe Customer Journey Analytics-Lizenz verfügen, können Sie Ihre Journey Optimizer-Berichte in Customer Journey Analytics analysieren. Diese leistungsstarke Option leitet Sie nahtlos zur Customer Journey Analytics-Umgebung weiter, sodass Sie Berichte umfassend personalisieren können. Sie können Widgets mit spezialisierten Customer Journey Analytics-Metriken anreichen, die Ihre Erkenntnisse auf eine völlig neue Ebene bringen. [Weitere Informationen](report-cja-manage.md)
 
 
 ## Tauchen wir tiefer in die Materie ein
@@ -140,7 +140,7 @@ Erfahren Sie, wie Sie den Bericht für die gesamte Zeit in Adobe Journey Optimiz
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3422692?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 

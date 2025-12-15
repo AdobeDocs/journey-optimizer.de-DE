@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '2849'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -116,27 +116,27 @@ Bei Bedarf können Sie ein benutzerdefiniertes **Start**- und **Enddatum** festl
 >title="Timeout oder Fehler"
 >abstract="Geben Sie an, wie lange die Journey versuchen soll, eine Aktion auszuführen oder eine Bedingung auszuwerten, bevor sie als Timeout behandelt wird. Die empfohlenen Werte liegen zwischen 1 und 30 Sekunden."
 
-Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Überschreitung der maximalen Wartezeit einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die im Feld **[!UICONTROL Zeitüberschreitung oder Fehler]** festgelegte Dauer der maximalen Wartezeit der Journey-Eigenschaften überschreitet, wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
+Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Überschreitung des Timeouts einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, den im Feld **[!UICONTROL Zeitüberschreitung oder Fehler]** festgelegten Timeout der Journey-Eigenschaften überschreitet, wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
 
 Die empfohlenen Werte liegen zwischen 1 und 30 Sekunden.
 
-Es wird empfohlen, unter **[!UICONTROL Maximale Wartezeit oder Fehler]** einen sehr kurzen Wert festzulegen, wenn Ihre Journey zeitempfindlich ist (z. B. als Reaktion auf den Echtzeit-Standort einer Person), da Sie Ihre Aktion nicht länger als einige Sekunden verzögern können. Wenn Ihre Journey weniger zeitkritisch ist, können Sie einen längeren Wert verwenden, um dem aufgerufenen System mehr Zeit zum Senden einer gültigen Antwort zu geben.
+Es wird empfohlen, unter **[!UICONTROL Timeout oder Fehler]** einen sehr kurzen Wert festzulegen, wenn Ihre Journey zeitempfindlich ist (z. B. als Reaktion auf den Echtzeit-Standort einer Person), da Sie Ihre Aktion nicht länger als einige Sekunden verzögern können. Wenn Ihre Journey weniger zeitkritisch ist, können Sie einen längeren Wert verwenden, um dem aufgerufenen System mehr Zeit zum Senden einer gültigen Antwort zu geben.
 
-Bei Journeys wird auch eine maximale globale Wartezeit verwendet, wie unten detailliert beschrieben.
+Bei Journeys wird auch ein globaler Timeout verwendet, wie unten detailliert beschrieben.
 
-### Maximale globale Wartezeit der Journey {#global_timeout}
+### Globaler Timeout der Journey {#global_timeout}
 
-Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit](#timeout_and_error) wird eine maximale globale Journey-Wartezeit angewendet. Sie wird nicht auf der Benutzeroberfläche angezeigt und kann nicht geändert werden.
+Zusätzlich zum in den Journey-Aktivitäten verwendeten [Timeout](#timeout_and_error) wird ein globaler Journey-Timeout angewendet. Sie wird nicht auf der Benutzeroberfläche angezeigt und kann nicht geändert werden.
 
-Diese maximale globale Wartezeit stoppt den Fortschritt von Kontakten in der Journey **91 Tage** nach ihrem Eintritt. Das bedeutet, dass die Journey eines Kontakts nicht länger als 91 Tage dauern kann. Nach Ablauf der maximalen Wartezeit werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting nicht berücksichtigt. Sie könnten also mehr Personen sehen, die in die Journey eintreten, als Personen, die sie beenden.
+Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey **91 Tage** nach ihrem Eintritt. Das bedeutet, dass die Journey eines Kontakts nicht länger als 91 Tage dauern kann. Nach Ablauf des Timeouts werden die Daten des Kontakts gelöscht. Kontakte, die sich nach dem Timeout noch in der Journey befinden, werden gestoppt und beim Reporting nicht berücksichtigt. Sie könnten also mehr Personen sehen, die in die Journey eintreten, als Personen, die sie beenden.
 
-Aufgrund der maximalen Journey-Wartezeit von 91 Tagen können wir, wenn der erneute Eintritt in die Journey nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 91 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
+Aufgrund des Journey-Timeouts von 91 Tagen können wir, wenn der erneute Eintritt in die Journey nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 91 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 
-Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn noch genügend Zeit bleibt, um die Wartezeit vor Ablauf der 91-tägigen maximalen Wartezeit der Journey zu beenden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/wait-activity.md).
+Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn er oder sie noch genügend Zeit hat, um die Wartezeit vor Ablauf des 91-tägigen Timeouts der Journey zu erfüllen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/wait-activity.md).
 
 #### Häufig gestellte Fragen zur Time-to-Live (TTL) und zur Aufbewahrung von Daten {#timeout-faq}
 
-Ab Adobe Journey Optimizer-Version vom Juni 2024 wurde die maximale globale Wartezeit für Journeys von 30 auf 91 Tage umgestellt. Die Auswirkungen sind in den folgenden häufig gestellten Fragen aufgeführt:
+Ab Adobe Journey Optimizer-Version vom Juni 2024 wurde der globale Timeout für Journeys von 30 auf 91 Tage umgestellt. Die Auswirkungen sind in den folgenden häufig gestellten Fragen aufgeführt:
 
 **Für einheitliche Journeys**
 
@@ -252,7 +252,7 @@ Adobe Journey Optimizer verwendet Zusammenführungsrichtlinien beim Abrufen von 
 * In Journeys für unitäre Ereignisse wird die standardmäßige Zusammenführungsrichtlinie verwendet
 * In Journeys für Geschäftsereignisse wird die Zusammenführungsrichtlinie aus der Zielgruppe in der Aktivität „Zielgruppe lesen“ verwendet.
 
-Adobe Journey Optimizer wendet die genutzte Zusammenführungsrichtlinie auf die gesamte Journey an. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. [`inAudience`-Funktionen](functions/functioninaudience.md)), entstehen Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie, es wird ein Fehler generiert und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis generiert. Aus diesem Grund wird dringend empfohlen, die mit Ihrer Zielgruppe verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Zielgruppe bei der Nachrichtenpersonalisierung verwendet wird.
+Adobe Journey Optimizer wendet die genutzte Zusammenführungsrichtlinie auf die gesamte Journey an. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. [`inAudience`-Funktionen](functions/functioninaudience.md)), entstehen Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie, es wird ein Fehler generiert und die Veröffentlichung blockiert. Wenn jedoch bei der Personalisierung von Nachrichten eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis ausgelöst. Daher wird dringend empfohlen, die mit Ihrer Audience verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Audience bei der Nachrichtenpersonalisierung verwendet wird.
 
 Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 

@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
@@ -42,7 +42,7 @@ Der Bereich **[!UICONTROL Genehmigung anfordern]** wird geöffnet. Geben Sie ggf
 
 ![](assets/approval-request.png)
 
-Während sich die Kampagne oder Journey im Status **[!UICONTROL In Überprüfung]** befindet, haben Sie die Möglichkeit, die Genehmigungsanfrage zu stornieren. Wenn Sie auf die Schaltfläche **[!UICONTROL Anfrage abbrechen]** klicken, kehrt die Kampagne oder Journey in die Entwurfsphase zurück, und die prüfenden Personen erhalten eine Benachrichtigung, dass die Anfrage storniert wurde. Sie können dann die erforderlichen Änderungen vornehmen und die Kampagne oder Journey erneut zur Genehmigung einreichen.
+Während sich die Kampagne oder Journey im Status **[!UICONTROL In Überprüfung]** befindet, haben Sie die Möglichkeit, die Genehmigungsanfrage zu stornieren. Wenn Sie auf die Schaltfläche **[!UICONTROL Anfrage stornieren]** klicken, kehrt die Kampagne oder Journey in die Entwurfsphase zurück, und die prüfenden Personen erhalten eine Benachrichtigung, dass die Anfrage storniert wurde. Sie können dann die erforderlichen Änderungen vornehmen und die Kampagne oder Journey erneut zur Genehmigung einreichen.
 
 ![](assets/approval-cancel.png)
 

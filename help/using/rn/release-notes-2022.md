@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '3599'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -224,7 +224,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Audit-Kontrollen**
 
-* Mit Journey Optimizer können Sie die von den Nutzenden im System durchgeführten Aktionen für verschiedene Services und Funktionen wie Kampagnen, Journeys, Nachrichten, Landingpages usw. ermitteln. Audit-Protokoll-Ressourcen enthalten jetzt Änderungen an verschiedenen anderen Aktionen und werden automatisch aufgezeichnet, wenn die Aktivität stattfindet. Weitere Informationen finden Sie auf [dieser Seite](../privacy/audit-logs.md).
+* Mit Journey Optimizer können Sie die von den Nutzenden im System durchgeführten Aktionen für verschiedene Services und Funktionen wie Kampagnen, Journeys, Nachrichten, Landingpages usw. ermitteln. Auditprotokoll-Ressourcen enthalten jetzt Änderungen an verschiedenen anderen Aktionen und werden automatisch aufgezeichnet, wenn die Aktivität stattfindet. Weitere Informationen finden Sie auf [dieser Seite](../privacy/audit-logs.md).
 
 **Archivierungsunterstützung**
 
@@ -241,7 +241,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 ### Weitere Änderungen{#sept-2022-other}
 
 * Der Journey-Burst-Modus wurde durch den Kampagnen-Schnellversand-Modus ersetzt. [Weitere Informationen](../push/create-push.md#rapid-delivery)
-* Um die Performance zu verbessern, können Feldergruppen für Erlebnisereignisse nicht mehr in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Diese Änderung gilt nur für neue Journeys. Bestehende Journeys behalten das aktuelle Verhalten bei. [Weitere Informationen](../start/guardrails.md#expression-editor)
+* Um die Performance zu verbessern, können Feldergruppen für Erlebnisereignisse nicht mehr in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Diese Änderung gilt nur für neue Journeys. Bestehende behalten das aktuelle Verhalten bei. [Weitere Informationen](../start/guardrails.md#expression-editor)
 * Die 1-Stunden-Beschränkung für geplante „Zielgruppe lesen“-Journeys wurde entfernt. Diese Journeys können jetzt ohne Verzögerung ausgeführt werden.
 
 
@@ -357,13 +357,13 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <table>
 <thead>
 <tr>
-<th><strong>Batch-Entscheidungsvorgänge</strong><br/></th>
+<th><strong>Batch-Entscheidungsaufträge</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Batch-Entscheidungsvorgänge über die Benutzeroberfläche ausführen, sodass niemand mit Entwicklungskenntnissen benötigt wird, um Batch-API-Vorgänge auszuführen, und die für das Marketing benötigte Zeit verkürzt wird. Mit dieser neuen Benutzeroberfläche können Sie Vorgänge erstellen und aktuelle/frühere Vorgänge verwalten.</p>
+<p>Sie können jetzt Batch-Entscheidungsaufträge über die Benutzeroberfläche ausführen, sodass niemand mit Entwicklungskenntnissen benötigt wird, um Batch-API-Aufträge auszuführen, und die für das Marketing benötigte Zeit verkürzt wird. Mit dieser neuen Benutzeroberfläche können Sie Aufträge erstellen und aktuelle/frühere Aufträge verwalten.</p>
 <img src="assets/do-not-localize/batch.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../offers/batch-delivery.md">ausführlichen Dokumentation.</p>
 </td>
@@ -669,7 +669,7 @@ Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mail
 **Journeys**
 
 * Um im einheitlichen Profilschema unnötige Felder zu vermeiden, ist das Schema „Journey-Schrittereignisse“ nicht mehr standardmäßig für Profile aktiviert. Bei Bedarf können Sie es aktivieren. [Weitere Informationen](../reports/sharing-overview.md)
-* Neue Schrittereignisse im Zusammenhang mit Exportvorgängen werden jetzt von Journey Optimizer an Adobe Experience Platform gesendet. Beispiele für Abfragen wurden der Dokumentation hinzugefügt. [Weitere Informationen](../reports/query-examples.md)
+* Neue Schrittereignisse im Zusammenhang mit Exportaufträgen werden jetzt von Journey Optimizer an Adobe Experience Platform gesendet. Beispiele für Abfragen wurden der Dokumentation hinzugefügt. [Weitere Informationen](../reports/query-examples.md)
 
 **Entscheidungs-Management**
 

@@ -9,10 +9,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ Während des Probelaufs wird die Journey im Simulationsmodus ausgeführt. Dabei 
 
   ![Ausgegraute Aktionsaktivitäten im Probelauf einer Journey](assets/dry-run-greyed-activities.png){width="80%" align="left"}
 
-* **Datenquellen**, einschließlich externer Datenquellen, und Aktivitäten des Typs **Warten** sind während des Probelaufs standardmäßig deaktiviert. Sie können dieses Verhalten jedoch [bei der Aktivierung des Probelaufmodus](#journey-dry-run-start) ändern.
+* **Datenquellen**, einschließlich externer Datenquellen, und Aktivitäten des Typs **Warten** sind während des Probelaufs standardmäßig deaktiviert. Sie können dieses Verhalten jedoch ändern [beim Aktivieren des Dry Run-Modus](#journey-dry-run-start).
 
 * **Reaktions**-Knoten werden nicht ausgeführt: Alle Profile, die diese erreichen, steigen erfolgreich aus. Es gelten jedoch die folgenden Prioritätsregeln:
    * Wenn ein **Reaktions**-Knoten mit einem oder mehreren Knoten vom Typ **unitäres Ereignis** parallel verwendet wird, durchlaufen die Profile immer das Reaktionsereignis.
@@ -149,4 +149,4 @@ Bei der Analyse von **Journey-Reporting-Metriken** mit dem Abfrage-Service von A
 
 In diesem Video erfahren Sie, wie Sie einen Probelauf für Ihre Journeys ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464691/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

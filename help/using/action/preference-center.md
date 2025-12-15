@@ -8,10 +8,10 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Richtlinien, Governance, Plattform, Einverständnis, Healthcare Shield
-source-git-commit: bbea90bd21bd19941e8c8df93c8ec7a8a2769d77
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '859'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 In einem modernen Ökosystem der Marketing-Automatisierung interagieren Marken mit Kundinnen und Kunden über verschiedene Touchpoints hinweg und sehen sich dem Risiko irrelevanter oder übermäßiger Kommunikation ausgesetzt, was zu abgebrochener Interaktion, Spam-Beschwerden und Compliance-Risiken führt. Aus diesem Grund müssen sie die Voreinstellungen ihrer Kundinnen und Kunden verwalten, um Echtzeiterkenntnisse zu ihrer Zielgruppe zu erhalten und personalisierte, respektvolle Kommunikation bereitzustellen.
 
-Mit [!DNL Adobe Journey Optimizer] können Sie durch die Verwendung [Einverständnisrichtlinien](consent.md) die Voreinstellungen Ihrer Kundinnen und Kunden berücksichtigen<!-- in terms of **channels** and **topics**-->. Dadurch wird sichergestellt, dass [!DNL Journey Optimizer] Kundinnen und Kunden nur basierend auf deren Entscheidungen anspricht<!-- their preferred channels and on the subscription topics--> und gleichzeitig ihr Einverständnis respektiert.
+Mit [!DNL Adobe Journey Optimizer] können Sie durch die Verwendung [Einverständnisrichtlinien](consent.md) die Vorlieben Ihrer Kunden berücksichtigen<!-- in terms of **channels** and **topics**-->. Dadurch wird sichergestellt, dass [!DNL Journey Optimizer] Kundinnen und Kunden nur basierend auf deren Entscheidungen anspricht<!-- their preferred channels and on the subscription topics--> und gleichzeitig ihr Einverständnis respektiert.
 
 Es gibt folgende Möglichkeiten zum Verwalten der Voreinstellungen von Benutzenden mit [!DNL Journey Optimizer]:
 

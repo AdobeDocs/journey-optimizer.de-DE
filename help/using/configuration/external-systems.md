@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Wenn Journey Optimizer einen Aufruf an eine externe API ausführt, werden die te
 
 1. Es werden Begrenzungs- und Einschränkungsregeln angewendet: Wenn die maximale Anzahl erreicht wird, werden die verbleibenden Aufrufe verworfen oder in die Warteschlange gestellt.
 
-1. Maximale Wartezeit und erneutes Versuchen: Wenn die Begrenzungs- oder Drosselungsregel erfüllt ist, versucht Journey Optimizer, den Aufruf so lange auszuführen, bis die Zeitüberschreitungsgrenze erreicht ist.
+1. Timeout und erneutes Versuchen: Wenn die Begrenzungs- oder Drosselungsregel erfüllt ist, versucht Journey Optimizer, den Aufruf so lange auszuführen, bis die Zeitüberschreitungsgrenze erreicht ist.
 
 >[!TIP]
 >
@@ -101,10 +101,10 @@ Der Wert für die Zeitüberschreitungsdauer hängt vom Anwendungsfall ab. Wenn S
 Sehen wir uns ein Beispiel einer Zeitüberschreitung von fünf Sekunden an.
 
 * Der erste Aufruf dauert weniger als fünf Sekunden: Der Aufruf ist erfolgreich und es wird kein erneuter Versuch unternommen.
-* Der erste Aufruf dauert länger als fünf Sekunden: Der Aufruf wird abgebrochen und es wird kein erneuter Versuch unternommen. In Berichten wird dies als Zeitüberschreitungsfehler gezählt.
+* Der erste Aufruf dauert länger als 5 Sekunden: Der Aufruf wird abgebrochen und es wird kein erneuter Versuch unternommen. In Berichten wird dies als Zeitüberschreitungsfehler gezählt.
 * Der erste Aufruf schlägt nach zwei Sekunden fehl (das externe System gibt einen Fehler zurück): drei Sekunden bleiben für weitere Versuche, wenn Begrenzungs-Slots verfügbar sind.
    * Wenn einer der drei weiteren Versuche vor Ablauf der fünf Sekunden erfolgreich ist, wird der Aufruf durchgeführt und es wird kein Fehler ausgegeben.
-   * Wenn während der erneuten Versuche das Ende der maximalen Wartezeit erreicht wird, wird der Aufruf abgebrochen und in Berichten als Zeitüberschreitungsfehler gezählt.
+   * Wenn während der erneuten Versuche das Ende der maximalen Wartezeit erreicht wird, wird der Aufruf abgebrochen und im Reporting als Zeitüberschreitungsfehler gezählt.
 
 ## Häufig gestellte Fragen {#faq}
 

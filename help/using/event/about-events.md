@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '1555'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ Jedes Ereignis, das in **Live**-, **Entwurfs**- oder **geschlossenen** Journeys 
 
 Erfahren Sie, wie Sie ein Ereignis konfigurieren und den Streaming-Endpunkt und die Payload für ein Ereignis angeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431515?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Machen Sie sich mit den entsprechenden Anwendungsfällen für Geschäftsereignisse vertraut. Erfahren Sie, wie Sie mithilfe eines Geschäftsereignisses eine Journey erstellen und welche Best Practices anzuwenden sind.
 
