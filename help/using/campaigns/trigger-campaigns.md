@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 8cb37cf0fb9dc8048d7da8ddda0c67280477d57f
-workflow-type: ht
-source-wordcount: '468'
-ht-degree: 100%
+source-git-commit: a5d8f10c8751d6be47f5423aea576e16590b86d6
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 91%
 
 ---
 
@@ -42,6 +42,10 @@ Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-
    Beispiele für API-Aufrufe finden Sie auch auf [dieser Seite](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
 ## Fehlerbehebung {#troubleshooting}
+
+### Verzögerungen beim E-Mail-Versand {#delivery-delays}
+
+Wenn die E-Mail-Versandzeiten die Erwartungen übertreffen, untersuchen Sie potenzielle Ausfälle oder Leistungsprobleme mit externen Services, wie Cloud-Infrastrukturanbietern oder E-Mail-Dienstanbietern. Journey Optimizer protokolliert Abfahrtszeitstempel von Nachrichten, mit denen festgestellt werden kann, ob in nachgelagerten Bereichen der Versand-Pipeline Verzögerungen aufgetreten sind.
 
 ### Azure Cosmos DB-Authentifizierungsfehler (500 Internal Server Error) {#cosmosdb-auth-errors}
 
