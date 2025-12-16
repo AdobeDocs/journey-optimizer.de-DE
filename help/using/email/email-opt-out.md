@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 94%
+source-wordcount: '1117'
+ht-degree: 79%
 
 ---
 
@@ -34,7 +34,7 @@ Um einen Abmelde-Link in Ihren E-Mail-Inhalt einzufügen, haben Sie folgende Mö
 
 Wenn eine Empfängerin oder ein Empfänger auf den Ausschluss-Link klickt, wird die Abmeldeanfrage entsprechend verarbeitet. 
 
-Um zu überprüfen, ob die Auswahl des entsprechenden Profils aktualisiert wurde, navigieren Sie zu Experience Platform und [rufen Sie das Profil auf](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Auf der [Registerkarte Attribute](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"} sehen Sie, dass der Wert für **[!UICONTROL choice]** auf **[!UICONTROL no]** geändert wurde. Weitere Informationen zur Verarbeitung von Einverständniserklärungen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=de){target="_blank"}.
+Um zu überprüfen, ob die Auswahl des entsprechenden Profils aktualisiert wurde, navigieren Sie zu Experience Platform und [rufen Sie das Profil auf](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}. Auf der [Registerkarte Attribute](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"} sehen Sie, dass der Wert für **[!UICONTROL choice]** auf **[!UICONTROL no]** geändert wurde. Weitere Informationen zur Verarbeitung von Einverständniserklärungen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=de){target="_blank"}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -160,25 +160,30 @@ Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen S
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 
-### Senden der Nachricht mit Abmelde-Link {#send-message-unsubscribe-link}
+### Funktionsweise des Abmeldevorgangs {#send-message-unsubscribe-link}
 
-Nachdem Sie den Abmelde-Link für Ihre Landingpage konfiguriert haben, können Sie Ihre Nachricht erstellen und senden.
+Nachdem Sie den Abmelde-Link für Ihre Landingpage konfiguriert haben, können Sie Ihre Nachricht vervollständigen und an Ihre Abonnenten senden.
 
-1. Konfigurieren Sie Ihre Nachricht mit einem Abmelde-Link und senden Sie sie an Ihre Abonnentinnen und Abonnenten.
+Damit der gesamte Ablauf zum Opt-out von Landingpages erfolgreich abgeschlossen werden kann, werden die folgenden Ereignisse in der richtigen Reihenfolge erwartet:
 
-1. Wenn die Empfängerin bzw. der Empfänger nach Erhalt der Nachricht auf den Abmelde-Link klickt, wird die Landingpage angezeigt.
+1. **Klicken** - Nach Erhalt der Nachricht klickt der Empfänger auf den Abmelde-Link in der E-Mail.
+
+1. **Besuch** - Die Landingpage wird geladen und dem Empfänger angezeigt.
 
    ![](assets/opt-out-lp-example.png)
+
+1. **Senden**: Der Empfänger übermittelt das Opt-out-Formular, indem er auf der Landingpage auf die Schaltfläche zum Abmelden klickt.
 
    >[!WARNING]
    >
    >Wenn Sie in der E-Mail auf den Abmelde-Link klicken, wird nur die Landingpage geöffnet. Der Empfänger muss **das Formular senden, indem er auf die Opt-out-Schaltfläche auf der Landingpage klickt** um die Abmeldung abzuschließen und sein Profileinverständnis zu aktualisieren.
 
-1. Wenn die Person das Formular abschickt (in diesem Fall durch Klicken auf die Schaltfläche **[!UICONTROL Abmelden]** auf Ihrer Landingpage), werden die Profildaten durch den API-Aufruf aktualisiert.
-
-1. Der abgemeldete Empfänger wird dann zu einem Bestätigungsbildschirm weitergeleitet, der die erfolgte Abmeldung bestätigt.
+1. **Abo beenden** - Das System verarbeitet die Abmeldeanfrage. Der abgemeldete Empfänger wird zu einem Bestätigungsbildschirm weitergeleitet, der angibt, dass die Abmeldung erfolgreich war.
 
    ![](assets/opt-out-confirmation-example.png)
 
+1. **Einverständnisaktualisierung** - Die Profildaten werden mit dem Einverständnis in Profilattributen über den API-Aufruf aktualisiert, wodurch das Profil von zukünftigen E-Mail-Sendungen ausgeschlossen wird.
+
    Ab sofort erhält dieser Benutzer keine weitere Kommunikation von Ihrer Marke, es sei denn, er meldet sich erneut an.
 
+Diese Ereignissequenz stellt sicher, dass der Abmeldevorgang ordnungsgemäß verfolgt wird und die Einverständnisvoreinstellungen des Profils im System korrekt widergespiegelt werden. Wenn ein Schritt in diesem Fluss fehlt oder nicht in der richtigen Reihenfolge erfolgt, kann dies auf ein Problem mit der Opt-out-Implementierung hinweisen, das untersucht werden sollte.
