@@ -159,7 +159,7 @@ Stellen Sie in diesem Fall mit der folgenden Syntax sicher, dass **_variableName
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Sie können jetzt den Nachrichteninhalt testen und überprüfen, wie in [ Abschnitt beschrieben](../content-management/preview.md).
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Sie können jetzt den Nachrichteninhalt testen und überprüfen, wie in [&#x200B; Abschnitt beschrieben](../content-management/preview.md).
 Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihrer Zielgruppe [Ihre Kampagne senden](../campaigns/review-activate-campaign.md) oder für sie [Ihre Journey veröffentlichen](../building-journeys/publish-journey.md).
 
 Mit Adobe Experience Manager können die Journey Optimizer-Kampagnen oder -Journeys identifiziert werden, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen hierzu sind in der [Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references) verfügbar.
