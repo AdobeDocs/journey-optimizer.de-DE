@@ -110,4 +110,4 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
 Das folgende Video zeigt ein ähnliches Anwendungsbeispiel, in dem kontextbezogene Daten von einer Journey zur Personalisierung einer E-Mail genutzt werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428526?captions=ger&quality=12)
