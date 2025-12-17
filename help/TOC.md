@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 8328e32f91c5541ec8561aef0e34757c4c7ecf9c
 workflow-type: tm+mt
-source-wordcount: '3015'
-ht-degree: 97%
+source-wordcount: '3024'
+ht-degree: 96%
 
 ---
 
@@ -628,6 +628,11 @@ ht-degree: 97%
             + [Nachschlagen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
             + [Liste der Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
             + [Aktualisieren von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+         + Platzierungen {#placements}
+            + [Erstellen von Platzierungen](using/experience-decisioning/api-reference/exd-placements/create.md)
+            + [Liste der Platzierungen](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [Platzierungen nachschlagen](using/experience-decisioning/api-reference/exd-placements/lookup.md)
+            + [Platzierungen aktualisieren](using/experience-decisioning/api-reference/exd-placements/update.md)
       + Entscheidungselemente verwalten {#manage-decision-items}
          + [Entscheidungselemente verwalten](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)
