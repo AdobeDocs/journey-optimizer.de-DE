@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 964568f060626d3eeefa91f2836aac4d69aefa38
 workflow-type: tm+mt
 source-wordcount: '3022'
 ht-degree: 97%
@@ -628,7 +628,7 @@ ht-degree: 97%
                + [Nachschlagen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [Liste der Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [Aktualisieren von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-         + [Unterbreiten von Angeboten mithilfe des Code-basierten Erlebniskanals](using/experience-decisioning/api-reference/deliver.md)
+      + [Unterbreiten von Angeboten mithilfe des Code-basierten Erlebniskanals](using/experience-decisioning/api-reference/deliver.md)
       + Entscheidungselemente verwalten {#manage-decision-items}
          + [Entscheidungselemente verwalten](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)
