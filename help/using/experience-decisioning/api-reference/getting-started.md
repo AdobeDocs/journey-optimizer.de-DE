@@ -20,7 +20,7 @@ Mit Decisioning-APIs können Sie die Komponenten programmgesteuert erstellen und
 
 ## Authentifizierung {#authentication}
 
-Bevor Sie Decisioning-APIs verwenden können, müssen Sie die Authentifizierung einrichten, um auf die API-Endpunkte zuzugreifen. Eine schrittweise Anleitung finden Sie [ Authentifizierungshandbuch für ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}Journey Optimizer .
+Bevor Sie Decisioning-APIs verwenden können, müssen Sie die Authentifizierung einrichten, um auf die API-Endpunkte zuzugreifen. Eine schrittweise Anleitung finden Sie [&#x200B; Authentifizierungshandbuch für &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}Journey Optimizer .
 
 ## Verfügbare API-Vorgänge {#available-operations}
 
