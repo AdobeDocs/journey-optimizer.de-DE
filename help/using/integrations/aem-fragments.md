@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: e292d584e3c3d1997c2c3e6bb3675758ff530bf9
+source-git-commit: 92690f1b3f73c75d9b81746b49836a24ebf7c457
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 50%
+source-wordcount: '1510'
+ht-degree: 37%
 
 ---
 
@@ -30,17 +30,19 @@ Weitere Informationen zu AEM-Inhaltsfragmenten finden Sie unter [Arbeiten mit In
 
 Beachten Sie die folgenden Einschränkungen beim Arbeiten mit Adobe Experience Manager-Inhaltsfragmenten in Journey Optimizer:
 
-* **Inhaltsfragmenttypen**: Nur einfache Inhaltsfragmente werden unterstützt. Varianten und verschachtelte Fragmente werden derzeit nicht unterstützt.
+* **Inhaltsfragmenttypen**: Einfache Inhaltsfragmente und verschachtelte Inhaltsfragmente werden unterstützt. Varianten von Inhaltsfragmenten werden derzeit nicht unterstützt.
 
-* **Mehrsprachige Inhalte**: Es wird nur der manuelle Fluss unterstützt.
+* **Mehrsprachige Inhalte**: Es wird nur der manuelle Fluss unterstützt. Jede Sprachvariante muss unabhängig in Adobe Experience Manager erstellt, getaggt, veröffentlicht und manuell in Journey Optimizer ausgewählt werden. Es gibt keinen automatischen Sprachauflösungs- oder Ausweichmechanismus.
+
+* **Repository-Zugriff**: Journey Optimizer lässt sich ausschließlich in die Adobe Experience Manager-Veröffentlichungsebene integrieren, auf der Inhaltsfragmente über einen öffentlichen, nicht authentifizierten Endpunkt verfügbar sind. Während Autoren-Repositorys möglicherweise im Repository-Selektor angezeigt werden, können in Journey Optimizer nur Inhaltsfragmente verwendet werden, die auf der Veröffentlichungsebene veröffentlicht wurden.
+
+* **Inhaltsfragmentstatus**: Journey Optimizer zeigt Inhaltsfragmente mit dem Status **Veröffentlicht** und **Geändert** an. In allen Fällen wird nur die zuletzt veröffentlichte Version verwendet. Wenn ein Fragment nach der Veröffentlichung geändert wird, werden diese Änderungen erst dann in Journey Optimizer übernommen, wenn das Inhaltsfragment erneut in Adobe Experience Manager veröffentlicht wurde. Es gibt keine automatische Versionsabstimmung zwischen Adobe Experience Manager und Journey Optimizer.
 
 * **Personalization**: Es werden nur Profilattribute, kontextuelle Attribute, statische Zeichenfolgen und vordeklarierte Variablen unterstützt. Abgeleitete oder berechnete Attribute werden nicht unterstützt.
 
-* **Aktualisierungen und Versionierung**: Inhaltsfragmentaktualisierungen müssen von Adobe Experience Manager manuell erneut veröffentlicht werden. Es gibt keine automatische Versionsabstimmung zwischen Adobe Experience Manager und Journey Optimizer.
+* **Aktualisierungen und Versionierung**: Inhaltsfragmentaktualisierungen müssen von Adobe Experience Manager manuell erneut veröffentlicht werden. Es gibt keine automatische Versionsabstimmung zwischen Adobe Experience Manager und Journey Optimizer. Wenn ein Inhaltsfragment in Adobe Experience Manager veröffentlicht wird, erhält Journey Optimizer ein Ereignis und Aktualisierungen auf der Journey Optimizer-Seite. Bei Erfolg ist das Update nach 5 Minuten für unitäre Journey und im nächsten Batch für Batch-Anwendungsfälle verfügbar.
 
-* **Caching**: Journey Optimizer ruft Inhaltsfragmente in Echtzeit aus der Adobe Experience Manager-Veröffentlichung ab. Es gibt keine Pre-Render-Zwischenspeicherung.
-
-* **Proofing**: Der Testversand für veröffentlichte Kampagnen und Journey spiegelt Daten aus der neuesten Experience Manager-Inhaltsfragmentveröffentlichung wider. Es gibt keine historische Versionssperre.
+* **Caching und Proofing**: Inhaltsfragmente werden in Echtzeit aus der Adobe Experience Manager-Veröffentlichungsebene abgerufen. Es gibt keine Zwischenspeicherung vor dem Rendern oder der Momentaufnahme. Testsendungen für Kampagnen und Journey spiegeln immer die zuletzt veröffentlichte Version des Inhaltsfragments wider. Verlaufsversionen können nicht für das Proofing gesperrt werden.
 
 * **Benutzerzugriff**: Es wird empfohlen, die Anzahl der Benutzer mit Zugriff auf die Veröffentlichung von Inhaltsfragmenten zu begrenzen, um das Risiko versehentlicher Fehler zu reduzieren.
 
@@ -48,15 +50,29 @@ Beachten Sie die folgenden Einschränkungen beim Arbeiten mit Adobe Experience M
 
 Die Integration zwischen Adobe Experience Manager und Journey Optimizer folgt diesem Datenfluss:
 
-1. **[Erstellen und Verfassen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: Inhalte werden in Adobe Experience Manager als Inhaltsfragmente erstellt und konfiguriert.
+1. **[Erstellen und Verfassen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: Inhalte werden in Adobe Experience Manager als Inhaltsfragmente erstellt und konfiguriert.
 
-1. **[Tagging](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: Inhaltsfragmente müssen mit dem Journey Optimizer-spezifischen Tag (`ajo-enabled:{OrgId}/{SandboxName}`) getaggt werden.
+1. **[Tagging](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: Inhaltsfragmente müssen mit dem Journey Optimizer-spezifischen Tag (`ajo-enabled:{OrgId}/{SandboxName}`) getaggt werden.
 
-1. **[Veröffentlichen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: Inhaltsfragmente werden in Adobe Experience Manager veröffentlicht und stehen damit Journey Optimizer zur Verfügung.
+1. **[Veröffentlichen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: Inhaltsfragmente werden in Adobe Experience Manager veröffentlicht und stehen damit Journey Optimizer zur Verfügung.
 
 1. **[Zugriff](#aem-add)**: Journey Optimizer ruft verfügbare Inhaltsfragmente aus der Adobe Experience Manager-Veröffentlichungsinstanz in Echtzeit ab und zeigt sie an.
 
 1. **[Integration](#aem-add)**: Inhaltsfragmente werden ausgewählt und in Kampagnen oder Journey integriert.
+
+Wenn ein Inhaltsfragment in Adobe Experience Manager veröffentlicht wird, wird ein Ereignis gesendet, um den Inhalt in Journey Optimizer zu aktualisieren. Wenn die Aktualisierung erfolgreich ist, wird das Inhaltsfragment innerhalb von etwa 5 Minuten für unitäre Journey und im nächsten Verarbeitungsstapel für Batch-Anwendungsfälle verfügbar. Sobald das Update in Journey Optimizer verfügbar ist, werden die zuletzt veröffentlichten Inhalte für alle geltenden Kampagnen und Journey verwendet.
+
+### Lebenszyklus von Inhaltsfragmenten
+
+![](assets/do-not-localize/AEM_CF.png)
+
+Inhaltsfragmente folgen verschiedenen Lebenszyklusphasen, je nachdem, in welcher Adobe Experience Manager-Ebene sie vorhanden sind. [Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+
+Inhalte werden auf der **Autorenebene“ erstellt und verwaltet** wo Fragmente Status wie Neu, Entwurf, Veröffentlicht, Geändert oder Veröffentlichung rückgängig gemacht haben können. Diese Status gelten nur für die **Autorenebene** und unterstützen die Inhaltserstellung und -überprüfung.
+
+Wenn ein Inhaltsfragment veröffentlicht wird, wird eine Kopie auf der **Veröffentlichungsebene** erstellt und über einen öffentlichen, nicht authentifizierten Endpunkt verfügbar gemacht. Journey Optimizer kann ausschließlich mit dieser **Veröffentlichungsebene“ integriert**.
+
+Infolgedessen werden in Journey Optimizer nur veröffentlichte oder geänderte Inhaltsfragmente angezeigt und es wird immer die neueste veröffentlichte Version verwendet. Änderungen, die nach der Veröffentlichung vorgenommen werden, werden erst dann in Journey Optimizer übernommen, wenn das Inhaltsfragment erneut veröffentlicht wurde.
 
 ## Erstellen und Zuweisen eines Tags in Experience Manager
 
@@ -143,7 +159,7 @@ Stellen Sie in diesem Fall mit der folgenden Syntax sicher, dass **_variableName
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Sie können jetzt den Nachrichteninhalt testen und überprüfen, wie in [&#x200B; Abschnitt beschrieben](../content-management/preview.md).
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Sie können jetzt den Nachrichteninhalt testen und überprüfen, wie in [ Abschnitt beschrieben](../content-management/preview.md).
 Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihrer Zielgruppe [Ihre Kampagne senden](../campaigns/review-activate-campaign.md) oder für sie [Ihre Journey veröffentlichen](../building-journeys/publish-journey.md).
 
 Mit Adobe Experience Manager können die Journey Optimizer-Kampagnen oder -Journeys identifiziert werden, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen hierzu sind in der [Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references) verfügbar.
