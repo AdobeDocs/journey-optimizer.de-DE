@@ -23,7 +23,7 @@ Testprofile sind erforderlich, wenn Sie in einer Journey den [Testmodus](../buil
 >
 >Mit [!DNL Journey Optimizer] können Sie verschiedene Varianten Ihrer Inhalte testen, indem Sie sie in der Vorschau anzeigen und einen Testversand mit Beispieleingabedaten durchführen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Erfahren Sie, wie Sie Ihren Inhalt mit Beispieleingabedaten testen](../test-approve/simulate-sample-input.md)
 
-Sie können Testprofile erstellen, indem Sie [eine CSV-Datei hochladen](#create-test-profiles-csv) oder [API-Aufrufe](#create-test-profiles-api) verwenden. [!DNL Adobe Journey Optimizer] bietet außerdem einen speziellen [produktinternen Anwendungsfall), ](#use-case-1) die Erstellung von Testprofilen zu erleichtern.
+Sie können Testprofile erstellen, indem Sie [eine CSV-Datei hochladen](#create-test-profiles-csv) oder [API-Aufrufe](#create-test-profiles-api) verwenden. [!DNL Adobe Journey Optimizer] bietet außerdem einen speziellen [produktinternen Anwendungsfall), &#x200B;](#use-case-1) die Erstellung von Testprofilen zu erleichtern.
 
 Eine JSON-Datei kann auch in einen vorhandenen Datensatz hochgeladen werden. Weiterführende Informationen dazu sind in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de#add-data-to-dataset){target="_blank"} verfügbar.
 
