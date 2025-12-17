@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 version: Journey Orchestration
 source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
 ht-degree: 100%
 

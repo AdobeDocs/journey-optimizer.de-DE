@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Ausdruck, Editor, Anwendungsfall, Personalisierung
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -110,4 +110,4 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
 Das folgende Video zeigt ein ähnliches Anwendungsbeispiel, in dem kontextbezogene Daten von einer Journey zur Personalisierung einer E-Mail genutzt werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428526?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

@@ -10,7 +10,7 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
 ht-degree: 100%
 

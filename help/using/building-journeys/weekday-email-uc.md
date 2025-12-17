@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Journey, Anwendungsfall, Werktage, Bedingung, E-Mail, Planung
 version: Journey Orchestration
 source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1070'
 ht-degree: 100%
 

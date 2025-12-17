@@ -6,7 +6,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -76,6 +76,6 @@ Das folgende Video veranschaulicht, wie Sie Ihre eigenen Marken erstellen und an
 
 +++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++
