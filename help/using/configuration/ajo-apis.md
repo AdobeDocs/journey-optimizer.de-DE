@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: cbfebeaaa3ef6e55d48457012fd94bd74afc91de
+source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 42%
+source-wordcount: '438'
+ht-degree: 43%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 42%
 >* **[Durchsuchen Sie die vollständige API-Referenz](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** - Greifen Sie auf alle Journey Optimizer-APIs zu und testen Sie sie direkt
 >* **[Authentifizierung einrichten](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** - Sammeln Sie die erforderlichen Anmeldeinformationen, um mit der Verwendung der APIs zu beginnen
 >* **[Entscheidungs-Management-APIs](../offers/api-reference/getting-started.md)** - Angebote und Entscheidungen programmgesteuert verwalten
->* **[Experience Decisioning-](../experience-decisioning/api-reference/deliver.md)**: Bereitstellen personalisierter Entscheidungselemente mithilfe von Code-basierten Erlebnissen
+>* **[Experience Decisioning-](../experience-decisioning/api-reference/getting-started.md)**: Entscheidungselemente, Auswahlstrategien und Eignungsregeln programmgesteuert verwalten
 
 ## Überblick {#overview}
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer basiert nativ auf Adobe Experience Platform und kombinie
 
 Bevor Sie Journey Optimizer-APIs verwenden können, müssen Sie die Authentifizierung einrichten, um auf die API-Endpunkte zuzugreifen.
 
-Folgen Sie [Authentifizierungshandbuch“, &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} die erforderlichen Authentifizierungsdaten für alle Journey Optimizer-APIs zu erfassen.
+Folgen Sie [Authentifizierungshandbuch“, ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} die erforderlichen Authentifizierungsdaten für alle Journey Optimizer-APIs zu erfassen.
 
 ## API-Dokumentation {#api-documentation}
 
@@ -49,7 +49,7 @@ Rufen Sie die [Adobe Journey Optimizer-API](https://developer.adobe.com/journey-
 
 Journey Optimizer bietet dedizierte APIs für das Entscheidungs-Management, mit denen Sie Angebote, Entscheidungen und Platzierungen programmgesteuert verwalten können.
 
-Informationen zu den ersten [&#x200B; mit Offer Decisioning-APIs finden &#x200B;](../offers/api-reference/getting-started.md) im Entwicklerhandbuch für die Entscheidungs-Management-API .
+Informationen zu den ersten [ mit Offer Decisioning-APIs finden ](../offers/api-reference/getting-started.md) im Entwicklerhandbuch für die Entscheidungs-Management-API .
 
 ## Experience Decisioning-APIs {#experience-decisioning-apis}
 
@@ -64,4 +64,4 @@ Journey Optimizer bietet außerdem Experience Decisioning-APIs zur Bereitstellun
 * **Rangfolgeformeln** - Konfigurieren einer benutzerdefinierten Rangfolgelogik
 * **Platzierungen** - Definieren, wo Entscheidungselemente angezeigt werden können
 
-Erfahren Sie mehr in der [API-Referenz zu Experience Decisioning](../experience-decisioning/api-reference/deliver.md) und erfahren Sie, wie Sie [Angebote mithilfe von Code-basierten Erlebnissen bereitstellen](../experience-decisioning/api-reference/deliver.md).
+Weitere Informationen finden Sie in der [Experience Decisioning-API-Referenz](../experience-decisioning/api-reference/getting-started.md)

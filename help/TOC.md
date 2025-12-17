@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 964568f060626d3eeefa91f2836aac4d69aefa38
+source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
 workflow-type: tm+mt
-source-wordcount: '3022'
+source-wordcount: '3015'
 ht-degree: 97%
 
 ---
@@ -597,38 +597,37 @@ ht-degree: 97%
       + [Häufig gestellte Fragen zu Decisioning](using/experience-decisioning/decisioning-faq.md)
       + API-Referenz {#experience-decisioning-api-reference}
          + [API-Referenz](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
-         + Erstellen und Verwalten von Angebotselementen {#create-manage}
-            + Entscheidungselemente {#decision-items}
-               + [Erstellen von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/create.md)
-               + [Liste der Entscheidungselemente](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-               + [Löschen von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/delete.md)
-               + [Nachschlagen von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-               + [Aktualisieren von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/update.md)
-            + Elementsammlungen {#items-collections}
-               + [Erstellen von Elementsammlungen](using/experience-decisioning/api-reference/items-collections/create.md)
-               + [Löschen von Elementsammlungen](using/experience-decisioning/api-reference/items-collections/delete.md)
-               + [Liste der Elementsammlungen](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-               + [Nachschlagen von Elementsammlungen](using/experience-decisioning/api-reference/items-collections/lookup.md)
-               + [Aktualisieren von Elementsammlungen](using/experience-decisioning/api-reference/items-collections/update.md)
-            + Auswahlstrategien {#selection-strategies}
-               + [Erstellen von Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/create.md)
-               + [Löschen von Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-               + [Nachschlagen von Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-               + [Liste der Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-               + [Aktualisieren von Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + Rangfolgeformeln {#ranking-formulas}
-               + [Erstellen von Ranglistenformeln](using/experience-decisioning/api-reference/ranking-formulas/create.md)
-               + [Löschen von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-               + [Nachschlagen von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-               + [Auswahl von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
-               + [Aktualisieren von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/update.md)
-            + Eignungsregeln {#eligibility-rules}
-               + [Erstellen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/create.md)
-               + [Löschen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
-               + [Nachschlagen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
-               + [Liste der Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
-               + [Aktualisieren von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-      + [Unterbreiten von Angeboten mithilfe des Code-basierten Erlebniskanals](using/experience-decisioning/api-reference/deliver.md)
+         + [Erste Schritte mit Decisioning-APIs](using/experience-decisioning/api-reference/getting-started.md)
+         + Entscheidungselemente {#decision-items}
+            + [Erstellen von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [Liste der Entscheidungselemente](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [Löschen von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [Nachschlagen von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [Aktualisieren von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/update.md)
+         + Elementsammlungen {#items-collections}
+            + [Erstellen von Elementsammlungen](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [Löschen von Elementsammlungen](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [Liste der Elementsammlungen](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [Nachschlagen von Elementsammlungen](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [Aktualisieren von Elementsammlungen](using/experience-decisioning/api-reference/items-collections/update.md)
+         + Auswahlstrategien {#selection-strategies}
+            + [Erstellen von Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [Löschen von Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [Nachschlagen von Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [Liste der Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [Aktualisieren von Auswahlstrategien](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + Rangfolgeformeln {#ranking-formulas}
+            + [Erstellen von Ranglistenformeln](using/experience-decisioning/api-reference/ranking-formulas/create.md)
+            + [Löschen von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
+            + [Nachschlagen von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+            + [Auswahl von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+            + [Aktualisieren von Rangfolgenformeln](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+         + Eignungsregeln {#eligibility-rules}
+            + [Erstellen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/create.md)
+            + [Löschen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+            + [Nachschlagen von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+            + [Liste der Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
+            + [Aktualisieren von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/update.md)
       + Entscheidungselemente verwalten {#manage-decision-items}
          + [Entscheidungselemente verwalten](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)
