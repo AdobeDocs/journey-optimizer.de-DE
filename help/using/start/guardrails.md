@@ -8,16 +8,16 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: d04cbbbec426cf1bf56004685172be2a9328ec18
 workflow-type: tm+mt
-source-wordcount: '3575'
+source-wordcount: '3574'
 ht-degree: 92%
 
 ---
 
 # Leitlinien und Einschränkungen {#limitations}
 
-Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
+Nachstehend finden Sie Leitplanken und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
 Berechtigungen, Produkteinschränkungen und Performance-Leitlinien sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 
