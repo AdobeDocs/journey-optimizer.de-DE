@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '630'
-ht-degree: 100%
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Erstellen von Platzierungen {#create-placements}
+
+>[!TIP]
+>
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
@@ -89,5 +93,5 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
 Erfahren Sie, wie Sie im Entscheidungs-Management Platzierungen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/341384?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

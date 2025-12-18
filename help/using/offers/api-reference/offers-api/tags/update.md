@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: Aktualisieren von Sammlungsqualifizierern
 description: Mit Sammlungsqualifizierern können Sie Ihre Angebote besser organisieren und sortieren.
 feature: Decision Management, API
+badge: label="Legacy" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '117'
-ht-degree: 100%
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Aktualisieren eines Sammlungsqualifizierers {#update-collection-qualifier}
+
+>[!TIP]
+>
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Sie können einen Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die Angebotsbibliotheks-API richten.
 

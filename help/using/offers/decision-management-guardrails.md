@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 753f6bc8130b0a743aac1208a8e5aac58e3dbbfd
-workflow-type: ht
-source-wordcount: '348'
-ht-degree: 100%
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Leitlinien und Einschränkungen für das Entscheidungs-Management {#decision-management-guardrails}
+# Schutzmechanismen und Einschränkungen für das Entscheidungs-Management {#decision-management-guardrails}
+
+>[!TIP]
+>
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
 
 Um eine optimale Nutzung des Entscheidungs-Managements sicherzustellen, sollten Sie die folgenden Leitlinien und Einschränkungen beachten.
 

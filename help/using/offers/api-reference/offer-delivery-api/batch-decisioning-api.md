@@ -3,21 +3,26 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Batch Decisioning-API
 description: Erfahren Sie, wie Sie mit der Batch Decisioning-API innerhalb eines vordefinierten Entscheidungsumfangs die besten Angebote für Zielgruppenprofile auswählen können.
+badge: label="Legacy" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Unterbreiten von Angeboten mithilfe der [!DNL Batch Decisioning]-API {#deliver-offers-batch}
+
+>[!TIP]
+>
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../experience-decisioning/gs-experience-decisioning.md)
 
 Mit der [!DNL Batch Decisioning]-API können Unternehmen die Entscheidungsfunktion mit einem einzigen Aufruf auf alle Profile in einer bestimmten Zielgruppe anwenden. Der Angebotsinhalt für jedes Profil in der Zielgruppe wird in einen Adobe Experience Platform-Datensatz platziert, über den er für benutzerdefinierte Batch-Workflows zur Verfügung steht.
 
@@ -33,13 +38,13 @@ Dazu muss das Unternehmen folgendermaßen vorgehen:
 
 * Den Datensatz an die Nachrichtenversand-API des Anbieters exportieren
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=de) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
 >Batch-Entscheidungen können auch über die Journey Optimizer-Oberfläche getroffen werden. Weitere Informationen finden Sie in [diesem Abschnitt](../../batch-delivery.md), der globale Voraussetzungen und Einschränkungen enthält, die bei der Verwendung der Batch-Entscheidung zu berücksichtigen sind.
 
-* **Die Anzahl der ausgeführten Batch-Vorgänge pro Datensatz**: Pro Datensatz können bis zu fünf Batch-Vorgänge gleichzeitig ausgeführt werden. Alle anderen Batch-Anfragen mit demselben Ausgabedatensatz werden der Warteschlange hinzugefügt. Ein in die Warteschlange gestellter Vorgang wird zur Verarbeitung aufgenommen, sobald der vorherige Vorgang abgeschlossen ist.
+* **Die Anzahl der ausgeführten Batch-Aufträge pro Datensatz**: Pro Datensatz können bis zu fünf Batch-Aufträge gleichzeitig ausgeführt werden. Alle anderen Batch-Anfragen mit demselben Ausgabedatensatz werden der Warteschlange hinzugefügt. Ein in die Warteschlange gestellter Auftrag wird zur Verarbeitung aufgenommen, sobald der vorherige Auftrag abgeschlossen ist.
 * **Frequenzbegrenzung**: Ein Batch wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Die [!DNL Batch Decisioning]-API begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot.
 
 ## Erste Schritte {#getting-started}
@@ -64,7 +69,7 @@ Um einen Workload zur Batch-Verarbeitung von Entscheidungen zu starten, stellen 
 
 >[!NOTE]
 >
->Detaillierte Informationen zur Verarbeitungszeit von Batch-Vorgängen finden Sie in [diesem Abschnitt](../../batch-delivery.md).
+>Detaillierte Informationen zur Verarbeitungszeit von Batch-Aufträgen finden Sie in [diesem Abschnitt](../../batch-delivery.md).
 
 **API-Format**
 

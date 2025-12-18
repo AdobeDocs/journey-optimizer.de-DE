@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '115'
-ht-degree: 100%
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Erste Schritte mit dem Exportieren eines Angebotskatalogs {#export-catalog}
+
+>[!TIP]
+>
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../experience-decisioning/gs-experience-decisioning.md)
 
 Mit Journey Optimizer können Sie Ihren Angebotskatalog automatisch nach Adobe Experience Platform exportieren.
 
@@ -28,7 +32,7 @@ Beim Export wird für jedes Objekt Ihrer Angebotsbibliothek ein Datensatz erstel
 * Platzierungen
 * Entscheidungen
 
-Jedes Mal, wenn eines dieser Objekte in der Angebotsbibliothek geändert wird, wird automatisch ein neuer Exportvorgang ausgeführt, um die Datensätze zu aktualisieren.
+Jedes Mal, wenn eines dieser Objekte in der Angebotsbibliothek geändert wird, wird automatisch ein neuer Exportauftrag ausgeführt, um die Datensätze zu aktualisieren.
 
 >[!NOTE]
 >

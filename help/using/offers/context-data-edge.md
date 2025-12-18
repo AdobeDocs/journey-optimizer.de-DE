@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 78%
+source-wordcount: '900'
+ht-degree: 79%
 
 ---
 
 # Kontextdaten und Edge Decisioning-Anfragen {#edge}
+
+>[!TIP]
+>
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
 
 Dieser Abschnitt erläutert das Übergeben von Kontextdaten in Edge Decisioning-Anfragen und deren Verwendung in Eignungsregeln. Es wird ein End-to-End-Anwendungsfall vorgestellt, der zeigt, wie Sie personalisierte Angebote basierend auf dem Gerätetyp bereitstellen, den Kundinnen und Kunden verwenden.
 
@@ -56,7 +60,7 @@ Im Gegensatz zur Übergabe von Kontext in einem freien Format mithilfe der Decis
 
 1. Erstellen Sie einen Datensatz (hier „Angebotskontext“) und stellen Sie sicher, dass er für das Profil aktiviert ist.
 
-1. Erstellen Sie über das Menü **[!UICONTROL Datenerfassung]** > **[!UICONTROL Datenströme]** einen neuen Datenstrom. Im Handbuch zu Datenströmen erfahren Sie[!DNL Adobe Experience Platform] wie Sie [&#x200B; Datenstrom erstellen und konfigurieren](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure){target="_blank"}
+1. Erstellen Sie über das Menü **[!UICONTROL Datenerfassung]** > **[!UICONTROL Datenströme]** einen neuen Datenstrom. Im Handbuch zu Datenströmen erfahren Sie[!DNL Adobe Experience Platform] wie Sie [ Datenstrom erstellen und konfigurieren](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure){target="_blank"}
 
    Hier wurde ein „Angebotskontext“-Datenstrom erstellt, in dem das Ereignisschema „Angebotsinhalt“ ausgewählt ist.
 
