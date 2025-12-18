@@ -18,7 +18,7 @@ ht-degree: 39%
 
 ## Schnellzugriff {#quick-access}
 
-Durchsuchen Sie die [vollständige API-Referenz](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}, um auf alle Journey Optimizer-APIs zuzugreifen und sie direkt zu testen. Um zu beginnen, stellen Sie sicher, [ Sie „Authentifizierung einrichten](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} , um die erforderlichen Anmeldeinformationen zu erfassen.
+Durchsuchen Sie die [vollständige API-Referenz](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}, um auf alle Journey Optimizer-APIs zuzugreifen und sie direkt zu testen. Um zu beginnen, stellen Sie sicher, [&#x200B; Sie „Authentifizierung einrichten](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} , um die erforderlichen Anmeldeinformationen zu erfassen.
 
 ## Überblick {#overview}
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer basiert nativ auf Adobe Experience Platform und kombinie
 
 Bevor Sie Journey Optimizer-APIs verwenden können, müssen Sie die Authentifizierung einrichten, um auf die API-Endpunkte zuzugreifen.
 
-Folgen Sie [Authentifizierungshandbuch“, ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} die erforderlichen Authentifizierungsdaten für alle Journey Optimizer-APIs zu erfassen.
+Folgen Sie [Authentifizierungshandbuch“, &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} die erforderlichen Authentifizierungsdaten für alle Journey Optimizer-APIs zu erfassen.
 
 ## API-Dokumentation {#api-documentation}
 
@@ -49,7 +49,7 @@ Rufen Sie die [Adobe Journey Optimizer-API](https://developer.adobe.com/journey-
 
 Journey Optimizer bietet dedizierte APIs für das Entscheidungs-Management, mit denen Sie Angebote, Entscheidungen und Platzierungen programmgesteuert verwalten können.
 
-Informationen zu den ersten [ mit Offer Decisioning-APIs finden ](../offers/api-reference/getting-started.md) im Entwicklerhandbuch für die Entscheidungs-Management-API .
+Informationen zu den ersten [&#x200B; mit Offer Decisioning-APIs finden &#x200B;](../offers/api-reference/getting-started.md) im Entwicklerhandbuch für die Entscheidungs-Management-API .
 
 ## Experience Decisioning-APIs {#experience-decisioning-apis}
 
