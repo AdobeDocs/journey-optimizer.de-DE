@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 6cbe5d5e523f102ae340f1b33f3495fd721499d3
+source-git-commit: 13879953461a28c4c911030a165fbd0b6393bb07
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 96%
 
 ---
 
@@ -35,6 +35,10 @@ Weitere Informationen zu AEM-Inhaltsfragmenten finden Sie unter [Arbeiten mit In
 * Der Testversand für veröffentlichte Kampagnen und Journeys spiegelt Daten aus der neuesten Experience Manager-Inhaltsfragmentveröffentlichung wider.
 
 ## Erstellen und Zuweisen eines Tags in Experience Manager
+
+>[!IMPORTANT]
+>
+>Damit Journey Optimizer über die Inhaltsfragmentverwaltungs-API auf Adobe Experience Manager-Inhaltsfragmente zugreifen kann, müssen Sie zunächst [Dispatcher konfigurieren](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration).
 
 Bevor Sie Ihr Inhaltsfragment in Journey Optimizer verwenden, müssen Sie ein Tag speziell für Journey Optimizer erstellen:
 
