@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 52b58d18cdbbff79f4dcb7af2817b178a4a0b429
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 11%
@@ -71,7 +71,7 @@ Journey Optimizer unterstützt verschiedene Quelltypen für die Verbindung mit I
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️ Die vollständige Liste finden Sie im [Experience Platform-Quellkatalog](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#sources-catalog){target="_blank"}
+➡️ Die vollständige Liste finden Sie im [Experience Platform-Quellkatalog](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}
 
 ## Voraussetzungen {#prerequisites}
 
@@ -81,7 +81,7 @@ Stellen Sie vor dem Konfigurieren von Quellen Folgendes sicher:
 * **Source-Systemanmeldeinformationen** - Authentifizierungsdetails für das externe System, das Sie verbinden möchten
 * **Verständnis Ihrer Daten** - Erfahren Sie, welche Datenfelder Sie benötigen und wie sie Journey Optimizer-Profilen zugeordnet sind
 
-➡️ Informationen zu [Zugriffssteuerung und Berechtigungen](../../administration/permissions.md)
+➡️ Informationen zu [Zugriffssteuerung und Berechtigungen](../administration/permissions.md)
 
 ## Funktionsweise von Quellen {#how-sources-work}
 
@@ -109,7 +109,7 @@ Detaillierte Informationen zum Konfigurieren und Verwalten von Quellen finden Si
 
 Jetzt, da Sie verstehen, was Quellen sind und warum sie wichtig sind:
 
-* Suchen Sie im [Quellkatalog](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#sources-catalog){target="_blank"} nach Connectoren für Ihre Systeme
-* Erfahren Sie, wie [&#x200B; eine Quellverbindung erstellen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
+* Suchen Sie im [Quellkatalog](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} nach Connectoren für Ihre Systeme
+* Erfahren Sie, wie [ eine Quellverbindung erstellen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
 * Verstehen von [Datenzuordnung und -umwandlung](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
-* Siehe „Verwenden [&#x200B; importierten Daten in Journey&quot;](../building-journeys/journey-gs.md)
+* Siehe „Verwenden [ importierten Daten in Journey&quot;](../building-journeys/journey-gs.md)
