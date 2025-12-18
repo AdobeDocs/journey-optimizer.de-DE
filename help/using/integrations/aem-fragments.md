@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
+source-git-commit: de60569946f94921312d96acd0cd1aad73a906fe
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
@@ -120,6 +120,6 @@ Stellen Sie in diesem Fall mit der folgenden Syntax sicher, dass **_variableName
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Sie können nun den Inhalt Ihrer Nachricht testen und überprüfen, wie in [diesem Abschnitt](../content-management/preview.md) beschrieben.
 
-Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihrer Zielgruppe [Ihre Kampagne senden](../campaigns/review-activate-campaign.md) oder für sie [Ihre Journey veröffentlichen](../building-journeys/publishing-the-journey.md).
+Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihrer Zielgruppe [Ihre Kampagne senden](../campaigns/review-activate-campaign.md) oder für sie [Ihre Journey veröffentlichen](../building-journeys/publish-journey.md).
 
 Mit Adobe Experience Manager können die Journey Optimizer-Kampagnen oder -Journeys identifiziert werden, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen hierzu sind in der [Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references) verfügbar.
