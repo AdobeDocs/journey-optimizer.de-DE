@@ -10,10 +10,10 @@ role: Developer
 level: Experienced
 exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '164'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../experience-decisioning/gs-experience-decisioning.md)
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Sie können einzelne Platzierungen nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die Platzierungs-`@id` oder den Namen der Platzierung im Anfragepfad enthält.

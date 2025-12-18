@@ -10,10 +10,10 @@ role: Developer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '140'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../experience-decisioning/gs-experience-decisioning.md)
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Gelegentlich kann es erforderlich sein, einen Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) zu entfernen (DELETE). Führen Sie dazu mithilfe der ID des Sammlungskennzeichners, den Sie löschen möchten, eine DELET-Anfrage an die Angebotsbibliotheks-API aus.

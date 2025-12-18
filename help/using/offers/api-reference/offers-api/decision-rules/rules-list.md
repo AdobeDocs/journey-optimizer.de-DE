@@ -10,10 +10,10 @@ role: Developer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '216'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../experience-decisioning/gs-experience-decisioning.md)
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen. Mit einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste der Entscheidungsregeln in einem Container anzeigen.
@@ -47,7 +47,7 @@ Zu den häufigsten Abfrageparametern für das Paging gehören:
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `property` | Ein optionaler Eigenschaftenfilter: <ul><li>Die Eigenschaften werden nach UND-Vorgang gruppiert.</li><li>Parameter können wie folgt wiederholt werden: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}…] oder property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}…]</li><li>Eigenschaftenausdrücke haben das Format `[ !]field[op]value`, mit `op` in `[==,!=,<=,>=,<,>,~]`, wobei reguläre Ausdrücke unterstützt werden.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Ein optionaler Eigenschaftenfilter: <ul><li>Die Eigenschaften werden nach UND-Vorgang gruppiert.</li><li>Parameter können wie folgt wiederholt werden: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}…] oder property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}…]</li><li>Eigenschaftenausdrücke haben das Format `[!]field[op]value`, mit `op` in `[==,!=,<=,>=,<,>,~]`, wobei reguläre Ausdrücke unterstützt werden.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines „-“ vor dem Namen (orderby=-name) werden Elemente nach Namen in absteigender Reihenfolge sortiert (Z–A). Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden. Dieser Parameter kann wie folgt wiederholt werden: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Begrenzt die Anzahl der zurückgegebenen Entitäten. | `limit=5` |
 

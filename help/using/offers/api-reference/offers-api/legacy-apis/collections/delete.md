@@ -10,10 +10,10 @@ role: Developer
 level: Experienced
 exl-id: 351d1f44-f3dc-49f9-bc3d-c775dad3cad4
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../experience-decisioning/gs-experience-decisioning.md)
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Gelegentlich kann es erforderlich sein, eine Sammlung zu entfernen (DELETE). Es können nur Sammlungen gelöscht werden, die Sie im Mandanten-Container erstellen. Dies geschieht, indem Sie mit der $id der Sammlung, die Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
