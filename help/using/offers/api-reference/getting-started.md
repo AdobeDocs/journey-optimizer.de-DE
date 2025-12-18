@@ -80,5 +80,5 @@ Dieses Dokument behandelt die erforderlichen Grundkenntnisse zum Aufrufen der [!
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/343541?captions=ger&quality=12) -->
 

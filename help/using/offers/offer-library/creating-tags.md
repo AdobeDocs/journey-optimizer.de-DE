@@ -52,4 +52,4 @@ Gehen Sie wie folgt vor, um einen Sammlungsqualifizierer zu erstellen:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341368?captions=ger&quality=12)
