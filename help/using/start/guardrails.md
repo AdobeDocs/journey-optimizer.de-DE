@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d04cbbbec426cf1bf56004685172be2a9328ec18
+source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
 workflow-type: tm+mt
 source-wordcount: '3574'
 ht-degree: 92%
@@ -155,7 +155,7 @@ Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutz
 
 ## Leitlinien für die Entscheidungsfindung und das Entscheidungs-Management {#decisioning-guardrails}
 
-Leitlinien und Einschränkungen, die Sie bei der Arbeit mit der Entscheidungsfindung oder dem Entscheidungs-Management beachten sollten, werden in den folgenden Abschnitten zur Entscheidungsfindung und dem Entscheidungs-Management beschrieben:
+Leitplanken und Einschränkungen, die Sie bei der Arbeit mit dem Entscheidungs- oder Entscheidungs-Management beachten sollten, werden in den folgenden Abschnitten beschrieben:
 
 * [Leitlinien und Einschränkungen für die Entscheidungsfindung](../experience-decisioning/decisioning-guardrails.md)
 * [Leitlinien und Einschränkungen für das Entscheidungs-Management](../offers/decision-management-guardrails.md)

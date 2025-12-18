@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
+source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
 workflow-type: tm+mt
-source-wordcount: '4105'
-ht-degree: 86%
+source-wordcount: '4103'
+ht-degree: 84%
 
 ---
 
@@ -43,7 +43,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Es wurde ein Hinweis zum Abschnitt Erstellen einer Formularvorgabe hinzugefügt, in dem die Anforderungen für Streaming-Verbindungen angegeben werden, die in der Auswahl-Dropdown-Liste angezeigt werden sollen. [Weitere Informationen](../landing-pages/lp-forms.md#create-form-preset)
 
-* Im Abschnitt Experience Decisioning ist jetzt eine neue Seite verfügbar, auf der beschrieben wird, wie Sie die Datenerfassung für das Tracking von Impressionen, Klicks und benutzerdefinierten Ereignissen konfigurieren können. [Weitere Informationen](../experience-decisioning/data-collection/schema-requirement.md)
+* Im Entscheidungsabschnitt ist jetzt eine neue Seite verfügbar, auf der beschrieben wird, wie Sie die Datenerfassung für das Tracking von Impressionen, Klicks und benutzerdefinierten Ereignissen konfigurieren. [Weitere Informationen](../experience-decisioning/data-collection/schema-requirement.md)
 
 * Die Dokumentation zur Inhaltserstellung mit dem KI-Assistenten wurde neu strukturiert, um mehr Klarheit und Benutzerfreundlichkeit zu erzielen. Die vorherigen fünf kanalspezifischen Seiten (E-Mail, Push, SMS, Web und Landingpage) wurden in drei Seiten vom Typ „Generation“ zusammengefasst: [Vollständigen Inhalt generieren](../content-management/generative-full-content.md), [Text generieren](../content-management/generative-text.md) und [Bilder generieren](../content-management/generative-image.md).
 
@@ -158,7 +158,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * In der Dokumentation zum Schemaüberblick wurden Informationen hinzugefügt, um Standard- und relationale Schemata zu unterscheiden, die für orchestrierte Kampagnen verwendet werden. [Weitere Informationen](../data/gs-data.md)
 
-* In der Dokumentation zu Entscheidungsfindung und Entscheidungs-Management wurden Informationen zu den Anforderungen für das erfolgreiche Trainieren der Modelle für [automatische Optimierung](../experience-decisioning/ranking/auto-optimization-model.md) und [personalisierte Optimierung](../experience-decisioning/ranking/personalized-optimization-model.md) hinzugefügt.
+* In der Dokumentation zum Entscheidungs- und Entscheidungs-Management wurden Informationen zu den Anforderungen für das erfolgreiche Trainieren [automatische Optimierung](../experience-decisioning/ranking/auto-optimization-model.md) und [personalisierte ](../experience-decisioning/ranking/personalized-optimization-model.md)) hinzugefügt.
 
 * Es wurde klargestellt, dass REST-API-Aufrufe zur interaktiven Nachrichtenausführung ein Timeout von 60 Sekunden aufweisen, wobei es interne Wiederholungsversuche gibt, um den Versand sicherzustellen. [Weitere Informationen](../campaigns/trigger-campaigns.md)
 
@@ -261,7 +261,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Die Journey-Testseite wurde mit einem Hinweis auf die Notwendigkeit aktualisiert, einen Identity-Namespace in das verwendete Ereignis einzuschließen. [Weitere Informationen](../building-journeys/testing-the-journey.md)
 * Die Delegierung von Subdomains kann derzeit nicht über die Benutzeroberfläche von [!UICONTROL Journey Optimizer] aufgehoben werden. Sie müssen sich hierzu an den Adobe-Support wenden. Die Schritte zum Aufheben der Delegierung einer Subdomain werden jetzt für [E-Mails](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain), [Web-Erlebnisse](../web/web-delegated-subdomains.md#undelegate-subdomain) und [Landingpages](../landing-pages/lp-subdomains.md#undelegate-subdomain) beschrieben.<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 * Es wurde eine Klarstellung zum optionalen `maxHttpConnections`-Parameter im Journey-Begrenzungs-API hinzugefügt, einschließlich Anleitungen zu dessen Verwendung zusammen mit Drosselungskonfigurationen für denselben Endpunkt. [Weitere Informationen](../configuration/throttling.md)
-* Im Abschnitt „Erlebnis-Entscheidung“ wurde eine Erklärung hinzugefügt, dass genehmigte Angebotselemente nicht gelöscht werden können, wenn sie in einer Sammlung oder Entscheidung verwendet werden. Es wurden Schritte zum Ändern ihres Status in „Entwurf“ mithilfe der Option **[!UICONTROL Genehmigung rückgängig machen]** eingeschlossen. [Weitere Informationen](../experience-decisioning/items.md#manage)
+* Im Entscheidungs-Abschnitt wurden Anleitungen hinzugefügt, in denen erklärt wird, dass genehmigte Angebotselemente nicht gelöscht werden können, wenn sie in einer Sammlung oder Entscheidung verwendet werden. Es wurden Schritte zum Ändern ihres Status in „Entwurf“ mithilfe der Option **[!UICONTROL Genehmigung rückgängig machen]** eingeschlossen. [Weitere Informationen](../experience-decisioning/items.md#manage)
 * Informationen zu Sandboxes wurden in einem neuen Abschnitt zur Sandbox-Verwaltung zusammengefasst. Dieser neue Abschnitt enthält Informationen zur Verwendung und Zuweisung von Sandboxes und zur Verwendung der Paketexport- und -importfunktionen zum Kopieren von Objekten wie Journeys, Inhaltsvorlagen oder Fragmenten über mehrere Sandboxes hinweg. [Weitere Informationen](../administration/sandboxes.md)
 
 ## März 2025 {#mar-2025}
@@ -273,7 +273,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Es wurde ein Hinweis zur Planung wiederkehrender Kampagnen hinzugefügt. [Weitere Informationen](../campaigns/create-campaign.md)
 * Der Abschnitt zum Einfügen von Links und Aktivieren des Trackings in einer E-Mail-Nachricht wurde aktualisiert und neu organisiert. [Weitere Informationen](../email/message-tracking.md)
 * Der Abschnitt über Personalisierungsfunktionen in Adobe Journey Optimizer wurde neu organisiert und verbessert. [Weitere Informationen](../personalization/personalize.md)
-* Das Entscheidungs-Management-API zur Auflistung personalisierter Angebote wurde um ein Paginierungsbeispiel ergänzt, falls mehrere personalisierte Angebote in der Antwort fehlen. [Weitere Informationen](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+* Die Entscheidungs-Management-API zur Liste personalisierter Angebote wurde mit einem Beispiel aktualisiert, um eine Paginierung durchzuführen, wenn mehrere personalisierte Angebote in der Antwort fehlen. [Weitere Informationen](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
 * Zur besseren Übersichtlichkeit wurde eine neue Seite erstellt, die alle Informationen zur Funktion „Abbestellung der Liste“ enthält. [Weitere Informationen](../email/list-unsubscribe.md)
 * Der Abschnitt „Frequenzbegrenzung“ wurde aktualisiert und beschreibt nun, wie der Frequenzbegrenzungszähler für die Decisioning- und Batch Decisioning-APIs zusätzlich zum Edge Decisioning-API aktualisiert wird. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
 
@@ -340,7 +340,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 ## August 2024 {#aug-2024}
 
 * All new features and improvements coming with [!DNL Journey Optimizer] August '24 release have been detailed in the documentation. [Read more](release-notes.md)
-* Performance guardrails for Decision Management have been updated to mention Decisioning APIs delivery throughputs with/without Edge Segmentation. [Read more](../start/guardrails.md#decision-management)
+* Performance guardrails for Decision management have been updated to mention Decisioning APIs delivery throughputs with/without Edge Segmentation. [Read more](../start/guardrails.md#decision-management)
 * Journey guardrails have been updated. [Read more](../start/guardrails.md#journeys-guardrails-journeys)
 
 
@@ -370,7 +370,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * All new features and improvements coming with [!DNL Journey Optimizer] April '24 release have been detailed in the documentation. [Read more](release-notes.md#apr-2024)
 * Configuration steps for In-app messaging have been detailed. [Read more](../in-app/inapp-configuration.md)
 * Documentation for [Offer decisioning APIs](../offers/api-reference/offer-delivery-api/decisioning-api.md) and [Batch decisioning APIs](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) have been updated.
-* Information has been added in the Decision Management documentation regarding edge and hub regions management when using frequency capping with the Edge Decisioning API. [Read more](../offers/offer-library/add-constraints.md#frequency-capping)
+* Information has been added in the Decision management documentation regarding edge and hub regions management when using frequency capping with the Edge Decisioning API. [Read more](../offers/offer-library/add-constraints.md#frequency-capping)
 * Information has been added on identity creation with custom namespaces when working with API-triggered campaigns. [Read more](../campaigns/api-triggered-campaigns.md)
 * Screeshots have been updated to reflect the improved Journey canvas.
 * Naming constraints has been updated in the following page: [Configure a unitary event](../event/about-creating.md), [Configure a business event](../event/about-creating-business.md#gs-business-events), [Configure a custom action](../action/about-custom-action-configuration.md#configuration-steps), [External data sources](../datasource/external-data-sources.md)
@@ -419,7 +419,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -446,11 +446,11 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * All new features and improvements coming with [!DNL Journey Optimizer] October '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added GIFs to illustrate some key capabilities, such as: [Content templates](../content-management/content-templates.md), [Fragments](../content-management/fragments.md), [Computed attributes](../audience/computed-attributes.md), [Direct mail](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Decision management optimization models](../offers/ranking/personalized-optimization-model.md), [API-triggered campaigns](../campaigns/api-triggered-campaigns.md), and [Content experiment](../content-management/content-experiment.md).
 * The Schema creation process has been updated to reflect latest updates in the user interface, coming with Adobe Experience Platform changes. [Read more](../audience/creating-test-profiles.md) 
-* Decision Management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
+* Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=de){target="_blank"}
-* The Capping section has been updated to reflect the label changes relating to offer capping in the decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
 * The limitation regarding scalar arrays has been removed from the external data source section. [Read more](../datasource/external-data-sources.md)
@@ -463,7 +463,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * A new page has been added with scaling best practices and real-time stitching guidance. [Read more](../start/best-practices.md)
 * A Frequently-Asked-Questions section has been added for Send-Time Optimization. [Read more](../building-journeys/journeys-message.md#faq-send-time)
 * A note has been added for the audience qualification activity. It may take up to 10 minutes to be active and listen to profiles entering or exiting the audience. [Read more](../building-journeys/audience-qualification-events.md#batch-speed-segment-qualification)
-* A list of limitations to be aware of when creating decision rules has been added to the decision management documentation. [Read more](../offers/offer-library/creating-decision-rules.md)
+* A list of limitations to be aware of when creating decision rules has been added to the Decision management documentation. [Read more](../offers/offer-library/creating-decision-rules.md)
 * Links to access control documentation have been updated. [Read more](../administration/permissions.md)
 * In-app channel prerequisites have been updated with Adobe Experience Platform Data Collection details. [Read more](../in-app/inapp-configuration.md)
 * Some expressions presented in ranking formula examples have been updated to avoid validation errors. [Read more](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
@@ -497,7 +497,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * A note has been added with the steps to follow if you modify your schema with new enumeration values after creating an event [Read more](../event/about-creating.md)
 * A recommendation has been added to use journeyVersionID instead of journeyVersionName when querying journeys. [Read more](../reports/sharing-common-fields.md#journeyversionid-field)
 * Additional examples on the evaluation criteria order have been added to the **Create decisions** section to illustrate cases where multiple criteria and multiple decision scopes are used. [Read more](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* Decision Management documentation has been clarified with a note specifying that the use of Object Level Access Control is not available for dynamic collections. [Read more](../offers/offer-library/creating-collections.md)
+* Decision management documentation has been clarified with a note specifying that the use of Object Level Access Control is not available for dynamic collections. [Read more](../offers/offer-library/creating-collections.md)
 
 ## May 2023 {#may-2023}
 
@@ -507,7 +507,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * A new section has been added to describe how to ensure that the choice of your customers who opt out from having their profile data used for personalization is honored. [Read more](../privacy/opt-out.md#opt-out-personalization)
 * A note has been added about using special international characters in URLs included in email contents. [Read more](../email/message-tracking.md#insert-links)
 * The permission needed to test and publish landing pages has been added. [Read more](../landing-pages/create-lp.md)
-* A note has been added about the Adobe Experience Platform endpoints needed to have your custom events accounted for in Decision Management frequency capping. [Read more](../offers/data-collection/schema-requirement.md#track-custom-events)
+* A note has been added about the Adobe Experience Platform endpoints needed to have your custom events accounted for in Decision management frequency capping. [Read more](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## April 2023 {#apr-2023}
 
@@ -518,13 +518,13 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Adobe Experience Manager Assets Essentials and Adobe Stock have been added to the multi-solution integration page. [Read more](../integrations/ajo-integrations.md)
 * The warning on multi-level email subdomains not being allowed has been removed as they are now supported. [Read more](../configuration/delegate-subdomain.md)
 * A note has been added to specify that, if changes are made to an offer decision which is being used in a journey's message, you need to unpublish the journey and republish it. [Read more](../building-journeys/publish-journey.md)
-* Explanation on how to make sure events are correctly accounted for in the capping counter has been clarified in the decision management **Capping event** section. [Read more](../offers/offer-library/add-constraints.md#capping-event)
+* Explanation on how to make sure events are correctly accounted for in the capping counter has been clarified in the Decision management **Capping event** section. [Read more](../offers/offer-library/add-constraints.md#capping-event)
 * A new section has been added to the **Change execution addresses** page. It specifies that it is possible to override the execution field set globally in the journey advanced parameters, but the email address override should only be used for specific use cases. Most of the time, the value defined as the primary address in the **Execution fields** is the one that should be used. [Read more](../configuration/primary-email-addresses.md#override-execution-address-journey)
 * The **URL tracking** section now provides the list and description of all contextual attributes that can be set for URL tracking in an email channel configuration. [Read more](../email/email-settings.md#url-tracking)
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -650,9 +650,9 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * All new features and improvements coming with [!DNL Journey Optimizer] April '22 release have been detailed in the documentation. [Read more](release-notes.md)
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
-* Videos for Decision Management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
+* Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
@@ -724,7 +724,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Improved the **Quick start** page with steps for different personas. [Read more](../start/quick-start.md)
 
-* Now all the Decision Management features described in the dedicated section also apply to the Adobe Experience Platform users leveraging the Offer Decisioning application. [Read more](../offers/get-started/starting-offer-decisioning.md)
+* Now all the Decision management features described in the dedicated section also apply to the Adobe Experience Platform users leveraging the Offer Decisioning application. [Read more](../offers/get-started/starting-offer-decisioning.md)
 
 * Added a subsection to clarify the differences between using audiences versus decision rules when applying a constraint to restrict the selection of offers for a given placement. [Read more](../offers/offer-activities/create-offer-activities.md#decision-list)
 
@@ -766,7 +766,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Updated the Journey limitations. [Read more](../start/guardrails.md)
 * Updated the Configure offers selection in decisions section. [Read more](../offers/offer-activities/configure-offer-selection.md)
 * Added a warning to mention that event-based offers are not currently supported. [Read more](../offers/offer-library/creating-personalized-offers.md#eligibility)
-* Documented the Decision Management new **[!UICONTROL Overview]** tab. [Read more](../offers/get-started/user-interface.md#overview)
+* Documented the Decision management new **[!UICONTROL Overview]** tab. [Read more](../offers/get-started/user-interface.md#overview)
 * Added new sections to describe the actions available from the offer and decision lists: [Offer list](../offers/offer-library/creating-personalized-offers.md#offer-list) and [Decision list](../offers/offer-activities/create-offer-activities.md#decision-list).
 
 +++
