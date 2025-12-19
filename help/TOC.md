@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
+source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
 workflow-type: tm+mt
-source-wordcount: '3024'
+source-wordcount: '3033'
 ht-degree: 96%
 
 ---
@@ -235,14 +235,22 @@ ht-degree: 96%
       + [Genehmigen einer Anfrage](using/test-approve/review-approve-request.md)
 + Monitoring und Fehlerbehebung {#monitor}
    + [Monitoring und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Systemwarnhinweise](using/reports/alerts.md)
-   + [Referenz für Fehler-Codes](using/building-journeys/error-codes-reference.md)
-   + [Artikel zur Fehlerbehebung](using/start/troubleshooting.md)
-   + Fehlerbehebung in Journeys {#troubleshoot-journey}
-      + [Fehlerbehebung in Journeys](using/building-journeys/troubleshooting.md)
-      + [Fehlerbehebung bei der Journey-Ausführung](using/building-journeys/troubleshooting-execution.md)
-      + [Fehlerbehebung bei eingehenden Aktionen](using/building-journeys/troubleshooting-inbound.md)
-      + [Fehlerbehebung bei benutzerdefinierten Aktionen](using/action/troubleshoot-custom-action.md)
+   + [Erste Schritte mit dem Tracking](using/start/get-started-tracking.md)
+   + Zustellbarkeit von E-Mails {#deliverability}
+      + [Zustellbarkeit von E-Mails](/help/rp_landing_pages/deliverability-landing-page.md)
+      + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
+      + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
+      + [Neue DMARC-Anforderung](using/configuration/dmarc-record-update.md)
+   + Überwachen von Warnhinweisen und Fehler-Codes {#monitor-alerts-errors}
+      + [Systemwarnhinweise](using/reports/alerts.md)
+      + [Referenz für Fehler-Codes](using/building-journeys/error-codes-reference.md)
+   + Fehlerbehebung {#troubleshooting}
+      + [Häufig gestellte Fragen zur Fehlerbehebung](using/start/troubleshooting.md)
+      + Fehlerbehebung in Journeys {#troubleshoot-journey}
+         + [Fehlerbehebung in Journeys](using/building-journeys/troubleshooting.md)
+         + [Fehlerbehebung bei der Journey-Ausführung](using/building-journeys/troubleshooting-execution.md)
+         + [Fehlerbehebung bei eingehenden Aktionen](using/building-journeys/troubleshooting-inbound.md)
+         + [Fehlerbehebung bei benutzerdefinierten Aktionen](using/action/troubleshoot-custom-action.md)
 + Kommunikationskanäle {#channels}
    + [Erste Schritte mit Kommunikationskanälen](using/channels/gs-channels.md)
    + E-Mail-Kanal {#email}
@@ -288,11 +296,6 @@ ht-degree: 96%
          + [Header-Parameter](using/email/header-parameters.md)
          + [URL-Tracking](using/email/url-tracking.md)
          + [Personalisieren der E-Mail-Konfiguration](using/email/surface-personalization.md)
-      + Zustellbarkeit von E-Mails {#deliverability}
-         + [Zustellbarkeit von E-Mails](/help/rp_landing_pages/deliverability-landing-page.md)
-         + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
-         + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
-         + [Neue DMARC-Anforderung](using/configuration/dmarc-record-update.md)
    + In-App-Kanal {#in-app}
       + [In-App-Kanal](/help/rp_landing_pages/in-app-landing-page.md)
       + [Erste Schritte mit In-App](using/in-app/get-started-in-app.md)
