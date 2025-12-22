@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: Tracking, Überwachen, Analysen, Reporting, Zustellbarkeit
-source-git-commit: c7ff5b6cc83313855f3ecd6c6d7b3b7ed6358af9
+source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1813'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ Das E-Mail-Tracking wird beim Erstellen einer E-Mail-Nachricht automatisch aktiv
 
 * **URL-Tracking-Parameter einrichten** - Konfigurieren von Tracking-Parametern auf Oberflächenebene, um automatisch Kampagnenkennungen (utm_campaign, utm_source usw.) an alle E-Mail-Links anzuhängen. Dies ermöglicht das Attributions-Tracking über Ihr gesamtes digitales Ökosystem. [Weitere Informationen](../email/url-tracking.md)
 
-* **Verfolgen von Links in Fragmenten** - Alle Links in wiederverwendbaren Inhaltsfragmenten werden automatisch verfolgt, was eine vollständige Ansicht der Interaktion über freigegebene Inhaltskomponenten hinweg bietet.
+* **Tracking von Links in gespeicherten Fragmenten** - Wenn das Tracking auf einer Journey oder in einer Kampagne aktiviert ist, werden die Links in einem aus dem Inhalt dieser Journey oder Kampagne gespeicherten Fragment ebenfalls verfolgt, wenn dieses Fragment wiederverwendet wird. [Weitere Informationen](../content-management/save-fragments.md)
 
 * **Tracking der Mirrorseite hinzufügen** - Option „Aktivieren der Mirrorseite“, um eine Web-Version Ihrer E-Mail mit automatischem Tracking der Betrachter zu erstellen. [Weitere Informationen](../email/message-tracking.md#mirror-page)
 
@@ -129,7 +129,7 @@ Das Push-Tracking ist automatisch aktiviert und erfasst Impressionen (bereitgest
 
 >[!NOTE]
 >
->Für das Push-Tracking ist die Implementierung von Mobile SDK erforderlich. Stellen Sie sicher, dass für Ihre App Adobe Experience Platform Mobile SDK ordnungsgemäß konfiguriert ist.
+>Für das Push-Tracking ist die Implementierung von Mobile SDK erforderlich. Stellen Sie sicher, dass für Ihre App Adobe Experience Platform Mobile SDK ordnungsgemäß konfiguriert ist. [Weitere Informationen](../push/push-configuration.md#integrate-mobile-app)
 
 **Interaktion analysieren** Klickraten, Schaltflächenleistung und verfolgte Link-Details in Berichten anzeigen. [Kampagnenberichte](../reports/campaign-global-report-cja-push.md) | [Journey-Berichte](../reports/journey-global-report-cja-push.md)
 
@@ -175,7 +175,7 @@ Bevor das Tracking funktioniert, müssen Sie Ihre Implementierung konfigurieren,
 
 * Einrichten eines für Adobe Experience Platform konfigurierten Datenstroms
 * Implementieren der Ereigniserfassung in Ihrem Code mit Web SDK oder Mobile SDK
-* Senden von Interaktionsereignissen bei Vorschlägen, wenn Benutzer personalisierte Inhalte anzeigen oder klicken
+* Senden von Anzeige- und Interaktionsereignissen beim Anzeigen oder Klicken auf Inhalte
 
 [Weitere Informationen zu den Voraussetzungen für die Implementierung](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
@@ -185,7 +185,7 @@ Bevor das Tracking funktioniert, müssen Sie Ihre Implementierung konfigurieren,
 
 +++Tracking von Inhaltskarten
 
-Inhaltskarten verfolgen Benutzerinteraktionen automatisch. Konfigurieren Sie Inhalts- und Anzeigeregeln zur Steuerung des Tracking-Verhaltens.
+[Inhaltskarten](../content-card/create-content-card.md) verfolgen Benutzerinteraktionen automatisch. Konfigurieren Sie Inhalts- und Anzeigeregeln zur Steuerung des Tracking-Verhaltens.
 
 **Implementierung:**
 
@@ -201,7 +201,7 @@ Inhaltskarten verfolgen Benutzerinteraktionen automatisch. Konfigurieren Sie Inh
 
 +++Tracking der Landingpage
 
-Landingpages verfügen über ein integriertes Tracking, das keine zusätzliche Einrichtung erfordert. Journey Optimizer erfasst automatisch Besuche, Konversionen und Bounce-Raten.
+[Landingpages](../reports/lp-report-global-cja.md) verfügen über integriertes Tracking, das keine zusätzliche Einrichtung erfordert. Journey Optimizer erfasst automatisch Besuche, Konversionen und Bounce-Raten.
 
 **Was automatisch verfolgt wird:**
 
@@ -210,7 +210,7 @@ Landingpages verfügen über ein integriertes Tracking, das keine zusätzliche E
 * **Absprungrate** - Prozentsatz der Besucherinnen und Besucher, die das Programm verlassen, ohne zu interagieren
 * **Leistungstrends** - Zeitreihendaten, die zeigen, wie sich Metriken entwickeln
 
-**Leistung optimieren** Verwenden Sie Tracking-Daten, um Formularfelder zu verfeinern, Inhaltsvarianten zu testen, effektive Traffic-Quellen zu identifizieren und Abbrüche zu reduzieren. [Weitere Informationen](../reports/lp-report-global-cja.md)
+**Leistung optimieren** Verwenden Sie Tracking-Daten, um Formularfelder zu verfeinern, Inhaltsvarianten zu testen, effektive Traffic-Quellen zu identifizieren und Abbrüche zu reduzieren.
 
 +++
 
@@ -218,19 +218,11 @@ Landingpages verfügen über ein integriertes Tracking, das keine zusätzliche E
 
 Konfigurieren Sie nicht nur das Tracking auf Kanalebene, sondern auch das Tracking, um die Gesamtleistung zu messen und das Kundenverhalten über Ihre Marketing-Initiativen hinweg zu verstehen.
 
-**Einrichten des Kampagnen-Trackings:**
-<!--
-* **Configure optimization** - When setting up campaigns, enable experimentation or targeting to track which content variations perform best. [Learn more](../campaigns/campaigns-message-optimization.md)-->
-
-* **Konversionsmetriken definieren** - Geben Sie an, welche Aktionen als Konversionen (Käufe, Anmeldungen, Downloads) gezählt werden sollen, um die Kampagneneffektivität über die Interaktionsmetriken hinaus zu messen.
-
-* **Zeitplan einrichten** - Konfigurieren der Sendezeitoptimierung, um die Leistung über verschiedene Zeitstrategien hinweg zu verfolgen und optimale Versandfenster zu identifizieren. [Weitere Informationen](../building-journeys/send-time-optimization.md)
-
-**Einrichten des Journey-Trackings:**
-
 * **Definieren von benutzerdefinierten Erfolgsmetriken** - Konfigurieren Sie spezifische KPIs, die neben den standardmäßigen Interaktionsmetriken auch auf Ihre Geschäftsziele (Käufe, Anmeldungen, Erneuerungen usw.) abgestimmt sind. [Weitere Informationen](../building-journeys/success-metrics.md)
 
 * **Journey-Schrittereignisse aktivieren** - Aktiviert das detaillierte Tracking jeder Aktion, die Kundinnen und Kunden beim Durchlaufen von Journeys ausführen. Dies bietet eine granulare Sichtbarkeit von Ein-/Ausstiegspunkten, Pfadauswahl und Ablageorten. [Weitere Informationen](../reports/journey-step-events-overview.md)
+
+* **Zeitplan einrichten** - Konfigurieren der Sendezeitoptimierung, um die Leistung über verschiedene Zeitstrategien hinweg zu verfolgen und optimale Versandfenster zu identifizieren. [Weitere Informationen](../building-journeys/send-time-optimization.md)
 
 * **Überwachung benutzerdefinierter Aktionen konfigurieren** - Richten Sie das Tracking für Integrationen mit externen Systemen ein, um API-Aufrufe, Antwortzeiten und Fehlermuster zu überwachen. [Weitere Informationen](../action/reporting.md)
 
@@ -258,7 +250,7 @@ Bei Verwendung von Decisioning zur Personalisierung von Inhalten verfolgt Journe
 * **Impression-Tracking** - Bei E-Mails werden Impressionen automatisch verfolgt. Für Code-basierte Erlebnisse müssen Sie Vorschlagsanzeigeereignisse in Ihrem Code implementieren.
 * **Klick-Tracking** - Klicks auf Entscheidungselemente werden automatisch in E-Mails verfolgt. Codebasierte Erlebnisse erfordern die Implementierung von Klick-Ereignissen.
 
-**Voraussetzungen für das Code-basierte Tracking:** Um die Entscheidungsfindung in Code-basierten Erlebnissen zu verfolgen, stellen Sie sicher, dass Ihre Implementierung mithilfe von Web SDK oder Mobile SDK Interaktionsereignisse (Anzeigen und Klicks) für Vorschläge an Adobe Experience Platform sendet. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
+**Voraussetzungen für das Code-basierte Tracking:** Um die Entscheidungsfindung in Code-basierten Erlebnissen zu verfolgen, stellen Sie sicher, dass Ihre Implementierung mithilfe von Web SDK oder Mobile SDK Interaktionsereignisse (Anzeigen und Klicks) für Vorschläge an Adobe Experience Platform sendet. [Weitere Informationen](../experience-decisioning/data-collection/schema-requirement.md)
 
 **Leistung analysieren:** Anzeigen von Entscheidungs-KPIs, Vergleichen von Entscheidungselementen, Analysieren von Auswahlstrategien und Überwachen der KI-Modellleistung in Berichten. [Weitere Informationen](../experience-decisioning/cja-reporting.md)
 
@@ -288,7 +280,7 @@ Neben der Verfolgung von Interaktionen konfigurieren Sie die Überwachung, um si
 
 **Zustellbarkeits-Monitoring:**
 
-* **Unterdrückungslisten überprüfen** regelmäßig, um zu verstehen, warum Adressen blockiert werden, und um die Listenhygiene aufrechtzuerhalten. [Weitere Informationen](../reports/suppression-list.md)
+* **Überprüfen Sie regelmäßig die Unterdrückungsliste** um zu verstehen, warum Adressen blockiert werden, und um die Listenhygiene aufrechtzuerhalten. [Weitere Informationen](../reports/suppression-list.md)
 
 * **Analysieren von Versandfehlern** um Fehler zu diagnostizieren und Abhilfemaßnahmen zu ergreifen. [Weitere Informationen](../configuration/email-error-types.md)
 
