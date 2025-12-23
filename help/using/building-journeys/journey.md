@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
+source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 62%
+source-wordcount: '1099'
+ht-degree: 39%
 
 ---
 
@@ -35,11 +35,100 @@ Der Journey Optimizer [Journey-Designer](using-the-journey-designer.md) bietet a
 
 ➡️ [Journey Optimizer entdecken (Video)](#video)
 
+## Journey-Typen
+
+Adobe Journey Optimizer unterstützt vier Journey-Typen, die jeweils für verschiedene Anwendungsfälle und Eingabemechanismen entwickelt wurden. Wählen Sie den richtigen Typ aus, je nachdem, wie Profile in Ihre Kundenerlebnisse eintreten und wie sie sich entwickeln sollen.
+
+>[!BEGINTABS]
+
+>[!TAB Unitäre Journey]
+
+**Unitäre Journey** werden einzeln durch ein Ereignis ausgelöst, wenn eine bestimmte Aktion auftritt, z. B. ein Kauf, eine App-Anmeldung oder eine Formularübermittlung. Profile wechseln in Echtzeit zum Zeitpunkt des Eingangs des Ereignisses nacheinander auf den Journey. Dies ist ideal für personalisierte, verhaltensgesteuerte Erlebnisse.
+
+**Wichtigste Merkmale:**
+
+* Ereignisgesteuerter Eintritt in Echtzeit
+* Individuelle Profilverarbeitung
+* Perfekt für Transaktionsnachrichten und sofortige Antworten
+* Unterstützt kontextuelle Daten aus dem auslösenden Ereignis
+
+**Anwendungsfälle:**
+
+* Bestellbestätigung nach dem Kauf
+* Willkommens-E-Mail, wenn sich jemand anmeldet
+* Warenkorbabbruch, ausgelöst durch das Browser-Verhalten
+* Benachrichtigungen zum Zurücksetzen des Kennworts
+
+➡️ [Erfahren Sie mehr über die Ereigniskonfiguration](../event/about-events.md) | [Allgemeine Ereignisse](general-events.md) | [Anwendungsfall „Nachricht an Abonnenten“](message-to-subscribers-uc.md)
+
+>[!TAB Audience-Journey lesen]
+
+**Zielgruppen-Journey lesen** Beginnen Sie mit einer Zielgruppe aus Adobe Experience Platform und senden Sie Nachrichten im Batch an alle Profile in dieser Zielgruppe. Dieser Journey-Typ verarbeitet die gesamte Zielgruppe gleichzeitig und ist daher ideal für geplante Kampagnen und wiederkehrende Kommunikation.
+
+**Wichtigste Merkmale:**
+
+* Batch-Verarbeitung von Zielgruppensegmenten
+* Geplante oder einmalige Ausführung
+* Alle Profile treten gleichzeitig ein
+* Unterstützt Kommunikation in großem Maßstab
+
+**Anwendungsfälle:**
+
+* Monatliche Newsletter
+* Werbekampagnen für bestimmte Segmente
+* Produktankündigungen an alle Kunden
+* Saisonale Marketing-Kampagnen
+
+➡️ [Erfahren Sie mehr über die Aktivität „Zielgruppe lesen“](read-audience.md) | [Erste Schritte mit Audiences](../audience/about-audiences.md) | [Anwendungsfall für Multi-Channel-Messaging](journeys-uc.md)
+
+>[!TAB Journey zur Zielgruppenqualifizierung]
+
+**Zielgruppen-Qualifizierungs-Journey** werden ausgelöst, wenn Profile sich für ein bestimmtes Zielgruppensegment qualifizieren (oder daraus austreten). Profile gelangen in Echtzeit individuell auf die Journey, da sie die Zielgruppenkriterien erfüllen, was eine sofortige Interaktion ermöglicht, wenn sich das Kundenverhalten ändert.
+
+**Wichtigste Merkmale:**
+
+* Qualifizierungsbasierte Echtzeit-Eingabe
+* Kontinuierliche Überwachung der Zielgruppenzugehörigkeit
+* Individuelle Profilverarbeitung nach Qualifizierung
+* Am besten geeignet für Streaming-Zielgruppen
+
+**Anwendungsfälle:**
+
+* Benachrichtigungen zu VIP-Stufen-Upgrades
+* Erneute Interaktion von Kundinnen und Kunden, wenn sie inaktiv werden
+* Nachrichten zum Erstkauf
+* Geografisches Targeting beim Umzug von Kunden
+
+➡️ [Informationen zur Zielgruppen-Qualifizierung](audience-qualification-events.md) | [Bedingungsaktivität](condition-activity.md) | [Erstellen von Segmentdefinitionen](../audience/creating-a-segment-definition.md)
+
+>[!TAB Journey für Geschäftsereignisse]
+
+**Geschäftsereignis-Journey** werden durch Geschäftsereignisse ausgelöst (z. B. Lageraktualisierungen, Wetterwarnungen oder Preisänderungen), die sich auf mehrere Profile gleichzeitig auswirken. Diese Journey reagieren nicht auf individuelle Kundenaktionen, sondern auf umfassendere Geschäftsbedingungen oder externe Faktoren.
+
+**Wichtigste Merkmale:**
+
+* Wird durch Ereignisse auf Unternehmensebene ausgelöst, nicht durch einzelne Aktionen
+* Wirkt sich auf mehrere Profile gleichzeitig aus
+* Targeting einer bestimmten Zielgruppe, wenn das Ereignis auftritt
+* Kombiniert ereignisgesteuertes Timing mit Audience-Targeting
+
+**Anwendungsfälle:**
+
+* Warnungen bei geringem Bestand für interessierte Kunden
+* Flash-Verkaufsankündigungen
+* Wetterbasierte Angebote
+* Benachrichtigungen über Preisnachlässe
+* Warnhinweise für das Produkt-Backin-Lager
+
+➡️ [Erfahren Sie mehr über Geschäftsereignisse](general-events.md) | [Geschäftsereignisse konfigurieren](../event/about-creating-business.md) | [Zutrittsverwaltung](entry-management.md)
+
+>[!ENDTABS]
+
 ## Überblick über Journeys
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte bei der Erstellung von Journey
 
@@ -49,7 +138,7 @@ Schrittweise Anleitungen zum Entwerfen, Testen, Veröffentlichen und Tracking vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration - Vollständiges Handbuch
 
@@ -59,7 +148,7 @@ Umfassende Dokumentation zu allen Aspekten der Erstellung, Verwaltung und Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verwalten von Journey
 
@@ -69,7 +158,7 @@ Verwalten Sie Customer Journeys effizient mit Tools für Filterung, Profilverwal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Journey-Aktivitäten
 
@@ -79,7 +168,7 @@ Entdecken Sie, wie Sie Aktivitäten wie Trigger, Entscheidungsschritte, Zielgrup
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Erstellen von Ausdrücken
 
@@ -89,7 +178,7 @@ Meistern Sie die Erstellung von Ausdrücken für dynamische Workflows, Datenmani
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Journey-Anwendungsfälle
 
@@ -116,7 +205,7 @@ Der [Journey-Designer](using-the-journey-designer.md) bietet [integrierte Kanala
 
 Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Weitere Ressourcen {#additional-resources}
 
