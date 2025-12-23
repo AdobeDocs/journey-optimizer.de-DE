@@ -116,7 +116,7 @@ Der [Journey-Designer](using-the-journey-designer.md) bietet [integrierte Kanala
 
 Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
 
 ## Weitere Ressourcen {#additional-resources}
 
