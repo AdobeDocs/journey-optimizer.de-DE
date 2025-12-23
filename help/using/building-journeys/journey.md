@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
+source-git-commit: cfac40f73a68362f8490de28cf1865f3dd4952f7
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 39%
+source-wordcount: '1139'
+ht-degree: 31%
 
 ---
 
@@ -34,6 +34,75 @@ Verwenden Sie [!DNL Journey Optimizer], um Anwendungsfälle für die Echtzeit-Or
 Der Journey Optimizer [Journey-Designer](using-the-journey-designer.md) bietet alles, was Marketer und Journey-Anwender benötigen, um mehrstufige 1:1-Journey kanalübergreifend zu orchestrieren. Dazu gehört eine intuitive Drag-and-Drop-Arbeitsfläche, um jeden Schritt des Journey zu orchestrieren, die Zielgruppe zu definieren und die Nachrichten, Angebote und Inhalte über alle Kanäle hinweg einzuschließen, die die Mitglieder der Zielgruppe basierend auf ihrem Verhalten, kontextuellen Daten und Geschäftsereignissen sehen werden. Erkunden Sie [Anwendungsfälle aus der Praxis](jo-use-cases.md) um zu sehen, wie Sie diese Funktionen anwenden können.
 
 ➡️ [Journey Optimizer entdecken (Video)](#video)
+
+## Überblick über Journeys
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Erste Schritte bei der Erstellung von Journey
+
+Schrittweise Anleitungen zum Entwerfen, Testen, Veröffentlichen und Tracking von Customer Journeys zum Erstellen personalisierter Omni-Channel-Kampagnen.
+
+[Erstellen Ihrer ersten Journey](journey-gs.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Journey Orchestration - Vollständiges Handbuch
+
+Umfassende Dokumentation zu allen Aspekten der Erstellung, Verwaltung und Optimierung von Journey in Adobe Journey Optimizer.
+
+[Erkunden des vollständigen Handbuchs](journey-get-started.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Verwalten von Journey
+
+Verwalten Sie Customer Journeys effizient mit Tools für Filterung, Profilverwaltung, Zeitzonen und Optimierungstechniken.
+
+[Informationen zum Journey-Management](/help/rp_landing_pages/manage-journey-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+Journey-Aktivitäten
+
+Entdecken Sie, wie Sie Aktivitäten wie Trigger, Entscheidungsschritte, Zielgruppen-Management und personalisiertes Messaging in Journeys konfigurieren und verwenden.
+
+[Aktivitäten erkunden](/help/rp_landing_pages/about-journey-building-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Erstellen von Ausdrücken
+
+Meistern Sie die Erstellung von Ausdrücken für dynamische Workflows, Datenmanipulation und erweiterte Journey-Orchestrierung mit leistungsstarken Tools und Syntax.
+
+[Mehr zu Ausdrücken](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Journey-Anwendungsfälle
+
+Erkunden Sie die realen Anwendungen von Adobe Journey Optimizer, einschließlich Multi-Channel-Messaging und Integration mit externen Systemen.
+
+[Anwendungsfälle entdecken](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+:::
+
+::::
+
+## Was kannst du mit Journey machen?
+
+Vom Journey-Designer aus können Marketing-Fachleute in Echtzeit ausgelöste 1:1-Nachrichten über jeden Kanal senden, wenn ein Ereignis auftritt. Wenn Kundinnen oder Kunden beispielsweise einen Service abonnieren, kann dies [das Versenden einer Begrüßungs-E-Mail auslösen](message-to-subscribers-uc.md), in der sie aufgefordert werden, sich zum ersten Mal bei der App anzumelden und ihre Voreinstellungen festzulegen. Aktionen wie der Abschluss des Kaufs, das Öffnen der E-Mail und die Anmeldung bei der App können verwendet werden, damit neue Kundinnen und Kunden in ihrer Journey fortfahren.
 
 ## Journey-Typen
 
@@ -124,78 +193,17 @@ Adobe Journey Optimizer unterstützt vier Journey-Typen, die jeweils für versch
 
 >[!ENDTABS]
 
-## Überblick über Journeys
+## Journey Designer{#journey-designer}
 
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+Der [Journey-Designer](using-the-journey-designer.md) ist eine intuitive Drag-and-Drop-Arbeitsfläche, mit der Sie Ihre Kunden-Journey visuell erstellen und orchestrieren können. Es bietet alles, was Sie zum Entwerfen mehrstufiger Erlebnisse benötigen:
 
-Erste Schritte bei der Erstellung von Journey
+* **[Integrierte Kanalaktionen](journeys-message.md)** - Senden von Nachrichten per E-Mail, Push-Benachrichtigungen, SMS/MMS, In-App-, Web- und Code-basierten Erlebnissen und mehr, alles direkt in Journey Optimizer
+* **[Benutzerdefinierte Aktionen](using-custom-actions.md)** - Integrieren von Drittanbietersystemen zum Senden von Nachrichten oder Trigger-Workflows in externen Plattformen
+* **[Orchestrierungsaktivitäten](about-journey-activities.md)** - Logik, Bedingungen, Wartezeiten und Audience-Targeting hinzufügen, um anspruchsvolle Kundenerlebnisse zu erstellen
+* **[Bedingungen](condition-activity.md)** Verzweigen Sie Ihren Journey anhand von Profilattributen, Zielgruppenzugehörigkeiten oder Echtzeit-Ereignissen.
+* **[Ausdrücke](expression/expressionadvanced.md)** - Erweiterte Logik und Personalisierung mit dem Ausdruckseditor erstellen
 
-Schrittweise Anleitungen zum Entwerfen, Testen, Veröffentlichen und Tracking von Customer Journeys zum Erstellen personalisierter Omni-Channel-Kampagnen.
-
-[Erstellen Ihrer ersten Journey](journey-gs.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
-
-Journey Orchestration - Vollständiges Handbuch
-
-Umfassende Dokumentation zu allen Aspekten der Erstellung, Verwaltung und Optimierung von Journey in Adobe Journey Optimizer.
-
-[Erkunden des vollständigen Handbuchs](journey-get-started.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
-
-Verwalten von Journey
-
-Verwalten Sie Customer Journeys effizient mit Tools für Filterung, Profilverwaltung, Zeitzonen und Optimierungstechniken.
-
-[Informationen zum Journey-Management](/help/rp_landing_pages/manage-journey-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
-
-Journey-Aktivitäten
-
-Entdecken Sie, wie Sie Aktivitäten wie Trigger, Entscheidungsschritte, Zielgruppen-Management und personalisiertes Messaging in Journeys konfigurieren und verwenden.
-
-[Aktivitäten erkunden](/help/rp_landing_pages/about-journey-building-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
-
-Erstellen von Ausdrücken
-
-Meistern Sie die Erstellung von Ausdrücken für dynamische Workflows, Datenmanipulation und erweiterte Journey-Orchestrierung mit leistungsstarken Tools und Syntax.
-
-[Mehr zu Ausdrücken](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
-
-Journey-Anwendungsfälle
-
-Erkunden Sie die realen Anwendungen von Adobe Journey Optimizer, einschließlich Multi-Channel-Messaging und Integration mit externen Systemen.
-
-[Anwendungsfälle entdecken](/help/rp_landing_pages/journey-use-cases-landing-page.md)
-:::
-
-::::
-
-## Anwendungsfälle{#uc-journey}
-
-Vom Journey-Designer aus können Marketing-Fachleute in Echtzeit ausgelöste 1:1-Nachrichten über jeden Kanal senden, wenn ein Ereignis auftritt. Wenn Kundinnen oder Kunden beispielsweise einen Service abonnieren, kann dies [das Versenden einer Begrüßungs-E-Mail auslösen](message-to-subscribers-uc.md), in der sie aufgefordert werden, sich zum ersten Mal bei der App anzumelden und ihre Voreinstellungen festzulegen. Aktionen wie der Abschluss des Kaufs, das Öffnen der E-Mail und die Anmeldung bei der App können verwendet werden, damit neue Kundinnen und Kunden in ihrer Journey fortfahren.
-
-Der [Journey-Designer](using-the-journey-designer.md) bietet [integrierte Kanalaktionen](journeys-message.md), die ausgehende Nachrichten wie E-Mails, Push-Benachrichtigungen und SMS/MMS sowie eingehende Kanäle wie Apps, Websites und Code-basierte Erlebnisse unterstützen, die direkt in Journey Optimizer erstellt werden. Sie können auch Drittanbietersysteme verwenden, um Nachrichten per E-Mail, Textnachricht oder über andere Kanäle zu senden. Journey Optimizer umfasst [benutzerdefinierte Aktionen](using-custom-actions.md), mit denen diese Systeme direkt über den Journey-Designer in Journeys integriert werden können.
-
-[Die folgenden End-to-End-Anwendungsfälle](jo-use-cases.md) demonstrieren die Erstellung von Journeys.
+Erfahren Sie, wie Sie den Journey-[ verwenden (in diesen End-to-End-Anwendungsfällen](jo-use-cases.md).
 
 >[!NOTE]
 >
@@ -205,7 +213,7 @@ Der [Journey-Designer](using-the-journey-designer.md) bietet [integrierte Kanala
 
 Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Weitere Ressourcen {#additional-resources}
 
