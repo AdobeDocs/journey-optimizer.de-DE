@@ -5,7 +5,7 @@ title: E-Mail-Kanal
 description: E-Mail-Kanal
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
-source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
+source-git-commit: e2ecfcd3163965bbd0ada68edd61ac07373eaad2
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
@@ -32,7 +32,7 @@ E-Mail-Sendungen können erstellt werden:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen einer E-Mail
 
@@ -42,7 +42,7 @@ Schrittweise Anleitung zum Hinzufügen, Konfigurieren und Testen von E-Mail-Akti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Entwerfen und Optimieren von E-Mail-Inhalten
 
@@ -52,7 +52,7 @@ Erfahren Sie mehr über Tools und Best Practices zum Entwerfen responsiver und p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Verwalten von E-Mail-Opt-outs
 
@@ -62,7 +62,7 @@ Konfigurieren Sie Mechanismen zum Opt-out mit einem Klick oder in zwei Schritten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren des E-Mail-Kanals
 
@@ -72,13 +72,13 @@ Richten Sie E-Mail-Konfigurationen wie Subdomain-Delegierung, Unterdrückungslis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Informationen zur E-Mail-Zustellbarkeit
 
 Verstehen und optimieren Sie die Zustellbarkeit von E-Mails mit Tools, Best Practices und umsetzbaren Erkenntnissen, um die Reputation des Absenders zu verbessern.
 
-[E-Mail-Zustellbarkeit verbessern](deliverability-landing-page.md)
+[E-Mail-Zustellbarkeit verbessern](../using/reports/deliverability.md)
 :::
 
 ::::
