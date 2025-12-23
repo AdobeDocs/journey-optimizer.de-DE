@@ -203,7 +203,7 @@ Der [Journey-Designer](using-the-journey-designer.md) ist eine intuitive Drag-an
 * **[Bedingungen](condition-activity.md)** Verzweigen Sie Ihren Journey anhand von Profilattributen, Zielgruppenzugehörigkeiten oder Echtzeit-Ereignissen.
 * **[Ausdrücke](expression/expressionadvanced.md)** - Erweiterte Logik und Personalisierung mit dem Ausdruckseditor erstellen
 
-Erfahren Sie, wie Sie den Journey-[ verwenden (in diesen End-to-End-Anwendungsfällen](jo-use-cases.md).
+Erfahren Sie, wie Sie den Journey-[&#x200B; verwenden (in diesen End-to-End-Anwendungsfällen](jo-use-cases.md).
 
 >[!NOTE]
 >
