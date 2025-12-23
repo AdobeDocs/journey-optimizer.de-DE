@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: Tracking, Überwachen, Analysen, Reporting, Zustellbarkeit
-source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
+source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1916'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ Das E-Mail-Tracking wird beim Erstellen einer E-Mail-Nachricht automatisch aktiv
 
 * **URL-Tracking-Parameter einrichten** - Konfigurieren von Tracking-Parametern auf Oberflächenebene, um automatisch Kampagnenkennungen (utm_campaign, utm_source usw.) an alle E-Mail-Links anzuhängen. Dies ermöglicht das Attributions-Tracking über Ihr gesamtes digitales Ökosystem. [Weitere Informationen](../email/url-tracking.md)
 
-* **Tracking von Links in gespeicherten Fragmenten** - Wenn das Tracking auf einer Journey oder in einer Kampagne aktiviert ist, werden die Links in einem aus dem Inhalt dieser Journey oder Kampagne gespeicherten Fragment ebenfalls verfolgt, wenn dieses Fragment wiederverwendet wird. [Weitere Informationen](../content-management/save-fragments.md)
+* **Tracking von Links in gespeicherten Fragmenten** - Wenn Sie ein Fragment aus Inhalten speichern, für die Tracking aktiviert ist, bleiben die Links in diesem Fragment verfolgt, wenn Sie es in anderen Journey oder Kampagnen wiederverwenden. [Weitere Informationen](../content-management/save-fragments.md)
 
 * **Tracking der Mirrorseite hinzufügen** - Option „Aktivieren der Mirrorseite“, um eine Web-Version Ihrer E-Mail mit automatischem Tracking der Betrachter zu erstellen. [Weitere Informationen](../email/message-tracking.md#mirror-page)
 
@@ -105,11 +105,11 @@ Für das Webtracking ist eine explizite Konfiguration erforderlich, um Benutzeri
 
 **Klick-Tracking einrichten:**
 
-Beim Entwerfen einer Web-Änderung können Sie bestimmte Elemente (Schaltflächen, Bilder, Links) auswählen, die Sie verfolgen möchten. Dies ermöglicht das Klick-Tracking für diese Elemente, ohne dass zusätzlicher Code erforderlich ist. [Weitere Informationen](../web/monitor-web-experiences.md)
+Beim Bearbeiten einer Web-Seite können Sie bestimmte Elemente (Schaltflächen, Bilder, Links) auswählen, die Sie nachverfolgen möchten. Dies ermöglicht das Klick-Tracking für diese Elemente, ohne dass zusätzlicher Code erforderlich ist. [Weitere Informationen](../web/monitor-web-experiences.md)
 
 * **Klickbare Elemente verfolgen** - Wählen Sie Schaltflächen, Bilder, Links oder ein beliebiges interaktives Element in Ihrer Web-Personalisierung aus.
-* **Automatische Datenerfassung** - Nach der Konfiguration erfasst Journey Optimizer automatisch Klickereignisse und verknüpft sie mit Profilen
-* **In Echtzeit überwachen** - Benutzerinteraktionen während der Überprüfung der Effektivität der Personalisierung verfolgen
+* **Automatische Datenerfassung** - Nach der Konfiguration erfasst Journey Optimizer automatisch Klickereignisse und verknüpft sie mit Profilen.
+* **In Echtzeit überwachen** - Benutzerinteraktionen während der Überprüfung der Effektivität der Personalisierung verfolgen.
 
 **Tracking-Daten anzeigen** Zugriff auf Anzeigemetriken, Clickthrough-Raten und die Leistung auf Elementebene in Berichten. [Kampagnenberichte](../reports/campaign-global-report-cja-web.md) | [Journey-Berichte](../reports/journey-global-report-cja-web.md)
 
@@ -139,13 +139,15 @@ Das Push-Tracking ist automatisch aktiviert und erfasst Impressionen (bereitgest
 
 In-App-Nachrichten verfolgen automatisch Displays und Benutzerinteraktionen. Konfigurieren von Triggern und Inhalten zur Maximierung der Tracking-Effektivität
 
-**Konfigurieren des Trackings:**
+**Einrichten des Trackings:**
 
-* **Anzeigeregeln einrichten** - Festlegen, wann und wo In-App-Nachrichten angezeigt werden, mithilfe von Triggern (App-Start, Laden des Bildschirms), Häufigkeitsregeln und Zielgruppenbedingungen. Die ordnungsgemäße Konfiguration gewährleistet eine genaue Verfolgung sowohl ausgelöster als auch angezeigter Nachrichten. [Weitere Informationen](../in-app/create-in-app.md)
+* **Anzeigeregeln definieren** - Festlegen, wann und wo In-App-Nachrichten mithilfe von Triggern (App-Start, Laden des Bildschirms), Häufigkeitsregeln und Zielgruppenbedingungen angezeigt werden. Die ordnungsgemäße Konfiguration gewährleistet eine genaue Verfolgung sowohl ausgelöster als auch angezeigter Nachrichten.
 
 * **Getrackte Elemente hinzufügen** - Schließen Sie Schaltflächen, Links und interaktive Elemente in Ihren Nachrichteninhalt ein. Jede Interaktion wird automatisch mit detaillierten Beschriftungen verfolgt.
 
 * **Anzeigezeitpunkt optimieren** - Konfigurieren Sie Wochentag- und Tageszeitregeln, um die Wahrscheinlichkeit zu maximieren, dass ausgelöste Nachrichten Benutzern tatsächlich angezeigt werden.
+
+[Erfahren Sie, wie Sie In-App-Nachrichten konfigurieren](../in-app/create-in-app.md)
 
 **Was nachverfolgt wird:** Journey Optimizer erfasst automatisch Displays, Schaltflächenklicks, Abweisungen, ausgelöste und angezeigte Metriken sowie die Link-Performance. [Kampagnenberichte](../reports/campaign-global-report-cja-inapp.md) | [Journey-Berichte](../reports/journey-global-report-cja-inapp.md)
 
@@ -157,9 +159,9 @@ Für das SMS-Tracking ist eine minimale Einrichtung erforderlich: Journey Optimi
 
 **Funktionsweise:**
 
-* **Automatisches Linktracking** - Fügen Sie mithilfe der URL-Hilfsfunktion beliebige URLs zu Ihrem SMS-Inhalt hinzu. Journey Optimizer verkürzt den Link automatisch und verfolgt Klicks ohne zusätzliche Konfiguration. Um die URL-Verkürzung zu verwenden, müssen Sie zunächst eine SMS-Subdomain konfigurieren. [Weitere Informationen](../sms/create-sms.md#sms-content)
+* **Automatisches Linktracking** - Fügen Sie mithilfe der URL-Hilfsfunktion beliebige URLs zu Ihrem SMS-Inhalt hinzu. Journey Optimizer verkürzt den Link automatisch und verfolgt Klicks ohne zusätzliche Konfiguration. Um die URL-Verkürzung zu verwenden, müssen Sie zunächst eine SMS-Subdomain konfigurieren. [Weitere Informationen](../sms/sms-subdomains.md)
 
-* **Tracking eingehender Nachrichten** - Antworten von Empfängern werden automatisch erfasst, sodass Sie bidirektionale Konversationen und Antwortmuster überwachen können.
+* **Tracking eingehender Nachrichten** - Antworten von Empfängern werden automatisch erfasst, sodass Sie bidirektionale Konversationen und Antwortmuster überwachen können. [Weitere Informationen](../sms/sms-opt-out.md#sms-native-keywords)
 
 **Anzeigen von Metriken:** Zugriff auf Link-Klickdaten, Volumina eingehender Nachrichten und Leistungstypen von Nachrichten in Berichten. [Kampagnenberichte](../reports/campaign-global-report-cja-sms.md) | [Journey-Berichte](../reports/journey-global-report-cja-sms.md)
 
@@ -173,8 +175,8 @@ Code-basierte Erlebnisse erfordern eine Einrichtung der Implementierung, um Trac
 
 Bevor das Tracking funktioniert, müssen Sie Ihre Implementierung konfigurieren, um Interaktionsereignisse (Anzeigen, Klicks) an Adobe Experience Platform zu senden. Dies erfordert Folgendes:
 
-* Einrichten eines für Adobe Experience Platform konfigurierten Datenstroms
-* Implementieren der Ereigniserfassung in Ihrem Code mit Web SDK oder Mobile SDK
+* Einrichten eines für Adobe Experience Platform konfigurierten Datenstroms. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de)
+* Implementieren der Ereigniserfassung in Ihrem Code mit Web SDK oder Mobile SDK.
 * Senden von Anzeige- und Interaktionsereignissen beim Anzeigen oder Klicken auf Inhalte
 
 [Weitere Informationen zu den Voraussetzungen für die Implementierung](../code-based/code-based-prerequisites.md#reporting-prerequisites)
@@ -185,7 +187,7 @@ Bevor das Tracking funktioniert, müssen Sie Ihre Implementierung konfigurieren,
 
 +++Tracking von Inhaltskarten
 
-[Inhaltskarten](../content-card/create-content-card.md) verfolgen Benutzerinteraktionen automatisch. Konfigurieren Sie Inhalts- und Anzeigeregeln zur Steuerung des Tracking-Verhaltens.
+Inhaltskarten verfolgen Benutzerinteraktionen automatisch. Konfigurieren Sie Inhalts- und Anzeigeregeln zur Steuerung des Tracking-Verhaltens.
 
 **Implementierung:**
 
@@ -195,13 +197,15 @@ Bevor das Tracking funktioniert, müssen Sie Ihre Implementierung konfigurieren,
 
 * **Anzeigeregeln einrichten** - Legen Sie fest, wann und wo Karten angezeigt werden, um eine genaue Verfolgung von Anzeigen und Interaktionen sicherzustellen.
 
+[Erfahren Sie, wie Sie Inhaltskarten konfigurieren](../content-card/create-content-card.md)
+
 **Überwachen der Interaktion:** Verfolgen Sie Anzeigen, Klicks, Clickthrough-Raten und Interaktionsmuster über mehrere Sitzungen hinweg. [Kampagnenberichte](../reports/campaign-global-report-cja-content.md) | [Journey-Berichte](../reports/journey-global-report-cja-content.md)
 
 +++
 
 +++Tracking der Landingpage
 
-[Landingpages](../reports/lp-report-global-cja.md) verfügen über integriertes Tracking, das keine zusätzliche Einrichtung erfordert. Journey Optimizer erfasst automatisch Besuche, Konversionen und Bounce-Raten.
+Landingpages verfügen über ein integriertes Tracking, das keine zusätzliche Einrichtung erfordert. Journey Optimizer erfasst automatisch Besuche, Konversionen und Bounce-Raten.
 
 **Was automatisch verfolgt wird:**
 
@@ -210,7 +214,9 @@ Bevor das Tracking funktioniert, müssen Sie Ihre Implementierung konfigurieren,
 * **Absprungrate** - Prozentsatz der Besucherinnen und Besucher, die das Programm verlassen, ohne zu interagieren
 * **Leistungstrends** - Zeitreihendaten, die zeigen, wie sich Metriken entwickeln
 
-**Leistung optimieren** Verwenden Sie Tracking-Daten, um Formularfelder zu verfeinern, Inhaltsvarianten zu testen, effektive Traffic-Quellen zu identifizieren und Abbrüche zu reduzieren.
+[Erfahren Sie, wie Sie Landingpages konfigurieren](../landing-pages/create-lp.md)
+
+**Überwachen der Leistung:** Verfolgen Sie Besuchsmuster, Konversionsraten und Bounce-Raten im Laufe der Zeit, um zu verstehen, wie Benutzende mit Ihren Formularen interagieren, und ermitteln Sie Bereiche, in denen Verbesserungen möglich sind. [Kampagnenberichte](../reports/lp-report-global-cja.md)
 
 +++
 
@@ -234,15 +240,19 @@ Konfigurieren Sie nicht nur das Tracking auf Kanalebene, sondern auch das Tracki
 
 Journey Optimizer verfolgt automatisch Optimierungsexperimente, Zielgruppenbestimmungsstrategien und die Entscheidungsleistung. Konfigurieren Sie Ihre Einstellungen, um eine ordnungsgemäße Datenerfassung sicherzustellen.
 
-**Optimierungs-Tracking einrichten:**
+### Optimierungs-Tracking einrichten {#optimization-tracking}
 
-* **Experiment konfigurieren** - Beim Erstellen von Experimenten oder beim Verwenden von Targeting definieren Sie, welche Metriken verfolgt werden sollen (Konversionen, Klicks, benutzerdefinierte Ereignisse). Journey Optimizer erfasst automatisch Leistungsdaten für jede Abwandlung. [Weitere Informationen](../campaigns/campaigns-message-optimization.md)
+* **Optimierung Ihrer Kampagnen und Journey**
 
-* **Pfadoptimierung einrichten** - Fügen Sie eine Aktivität **Optimieren** zu Ihrem Journey hinzu und konfigurieren Sie mehrere Pfade. Journey Optimizer verfolgt automatisch, welche Pfade Profile verwenden, und misst die Leistung. [Weitere Informationen](../building-journeys/optimize.md)
+   * Definieren Sie beim Erstellen von Experimenten, welche Metriken verfolgt werden sollen (Konversionen, Klicks, benutzerdefinierte Ereignisse). Journey Optimizer erfasst automatisch Leistungsdaten für jede Abwandlung. [Weitere Informationen](../campaigns/campaigns-message-optimization.md#experimentation)
 
-**Ergebnisse analysieren** Konversionsraten, statistische Signifikanz und Steigerung zwischen Behandlungen in Experimentationsberichten anzeigen. [Kampagnenberichte](../reports/campaign-global-report-cja-experimentation.md) | [Journey-Berichte](../reports/journey-global-report-cja-experimentation.md)
+   * Erstellen Sie Targeting-Regeln , um verschiedene Inhalte für verschiedene Zielgruppensegmente bereitzustellen. Journey Optimizer verfolgt die Interaktionsmetriken automatisch für jede Zielgruppe, sodass Sie die Leistung segmentübergreifend vergleichen können. [Weitere Informationen](../campaigns/campaigns-message-optimization.md#targeting)
 
-**Tracking der Entscheidungsleistung:**
+* **Journey-Pfadoptimierung** - Fügen Sie Ihrem Journey eine Aktivität vom Typ **Optimieren** hinzu und konfigurieren Sie mehrere Pfade. Journey Optimizer verfolgt automatisch, welche Pfade Profile verwenden, und misst die Leistung. [Weitere Informationen](../building-journeys/optimize.md)
+
+**Ergebnisse analysieren** Konversionsraten, statistische Signifikanz und Steigerung zwischen Behandlungen in Experimentationsberichten anzeigen oder Interaktionsmetriken über Zielsegmente hinweg vergleichen. [Experimentierkampagnenbericht](../reports/campaign-global-report-cja-experimentation.md) | [Experimentier-Journey-Bericht](../reports/journey-global-report-cja-experimentation.md) | [Journey-Zielgruppenbericht](../reports/journey-global-report-cja.md#targeting)
+
+### Tracking der Entscheidungsleistung {#decisioning-tracking}
 
 Bei Verwendung von Decisioning zur Personalisierung von Inhalten verfolgt Journey Optimizer automatisch Entscheidungsereignisse, Impressionen und Klicks, ohne dass eine zusätzliche Konfiguration erforderlich ist.
 
@@ -270,19 +280,19 @@ Data Governance stellt die Einhaltung von Vorschriften wie der DSGVO und des CCP
 
 Neben der Verfolgung von Interaktionen konfigurieren Sie die Überwachung, um sicherzustellen, dass Nachrichten Posteingänge erreichen und Systeme eine optimale Leistung erzielen.
 
-**Einrichten einer proaktiven Überwachung:**
-
-* **Warnhinweise konfigurieren** - Richten Sie Echtzeitbenachrichtigungen für Journey-Fehler, Fehler bei benutzerdefinierten Aktionen und kritische Probleme ein, um schnell auf Probleme zu reagieren. [Weitere Informationen](../reports/alerts.md)
-
-* **Auditprotokolle aktivieren** - Aktiviert die Auditprotokollierung, um alle Aktionen auf Ressourcen für die Compliance und Fehlerbehebung zu verfolgen. [Weitere Informationen](../privacy/audit-logs.md)
-
-* **Integrationen überwachen** - Verfolgen Sie die Leistung von benutzerdefinierten Aktionen und die externe Systemkonnektivität, um Integrationsprobleme frühzeitig zu erkennen. [Weitere Informationen](../action/reporting.md)
-
-**Zustellbarkeits-Monitoring:**
+Die Zustellbarkeits-Überwachung hilft sicherzustellen, dass Ihre Nachrichten die Posteingänge der Empfänger erreichen und die Reputation der Absender gewahrt bleibt, indem wichtige Indikatoren verfolgt werden:
 
 * **Überprüfen Sie regelmäßig die Unterdrückungsliste** um zu verstehen, warum Adressen blockiert werden, und um die Listenhygiene aufrechtzuerhalten. [Weitere Informationen](../reports/suppression-list.md)
 
 * **Analysieren von Versandfehlern** um Fehler zu diagnostizieren und Abhilfemaßnahmen zu ergreifen. [Weitere Informationen](../configuration/email-error-types.md)
 
 * **Befolgen Sie die Best** für DMARC, SPF und DKIM, um die Platzierung im Posteingang zu maximieren. [Weitere Informationen](../reports/deliverability.md)
+
+Richten Sie eine proaktive Überwachung ein, um Echtzeit-Benachrichtigungen zu kritischen Ereignissen und Systemproblemen zu erhalten, sodass Sie schnell reagieren können, bevor diese sich auf Ihre Kundenerlebnisse auswirken:
+
+* **Warnhinweise konfigurieren** - Richten Sie Echtzeitbenachrichtigungen für Journey-Fehler, Fehler bei benutzerdefinierten Aktionen und kritische Probleme ein, um schnell auf Probleme zu reagieren. [Weitere Informationen](../reports/alerts.md)
+
+* **Auditprotokolle aktivieren** - Aktiviert die Auditprotokollierung, um alle Aktionen auf Ressourcen für die Compliance und Fehlerbehebung zu verfolgen. [Weitere Informationen](../privacy/audit-logs.md)
+
+* **Integrationen überwachen** - Verfolgen Sie die Leistung von benutzerdefinierten Aktionen und die externe Systemkonnektivität, um Integrationsprobleme frühzeitig zu erkennen. [Weitere Informationen](../action/reporting.md)
 

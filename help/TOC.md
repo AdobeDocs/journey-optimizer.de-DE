@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
+source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
 workflow-type: tm+mt
-source-wordcount: '3033'
+source-wordcount: '3031'
 ht-degree: 96%
 
 ---
@@ -236,8 +236,7 @@ ht-degree: 96%
 + Monitoring und Fehlerbehebung {#monitor}
    + [Monitoring und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Erste Schritte mit dem Tracking](using/start/get-started-tracking.md)
-   + Zustellbarkeit von E-Mails {#deliverability}
-      + [Zustellbarkeit von E-Mails](/help/rp_landing_pages/deliverability-landing-page.md)
+   + E-Mail-Zustellbarkeit {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
       + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
       + [Neue DMARC-Anforderung](using/configuration/dmarc-record-update.md)
