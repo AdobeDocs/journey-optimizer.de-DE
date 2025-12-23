@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1219'
-ht-degree: 100%
+source-git-commit: f874456748a8bd7fce69c7ad2a7e69380d5336a6
+workflow-type: tm+mt
+source-wordcount: '1249'
+ht-degree: 97%
 
 ---
 
@@ -128,6 +128,10 @@ Gehen Sie wie folgt vor, um einen Regelsatz auf eine Nachricht anzuwenden:
 
 Beim Testen von Häufigkeitsregeln kann es hilfreich sein, mit einem neu erstellten [Testprofil](../audience/creating-test-profiles.md) zu beginnen, da es nach Erreichen der Frequenzbegrenzung eines Profils bis zur nächsten Periode nicht mehr möglich ist, den Zähler zurückzusetzen. Wenn Sie eine Regel deaktivieren, können Profile, für die die Begrenzung gilt, zwar Nachrichten empfangen, es werden aber keine Zählerschritte entfernt oder gelöscht.
 
+>[!CAUTION]
+>
+>Die Regeln zur Frequenzlimitierung gelten auch für den Versand [Testsendungen](../content-management/proofs.md). Wenn ein Testprofil bereits das Häufigkeitslimit erreicht hat, werden die Testsendungen als abgeschlossen angezeigt, es wird jedoch keine E-Mail gesendet.
+
 <!--add a new section for default priority namespace.-->
 
 <!--
@@ -161,4 +165,4 @@ In this scenario, an individual profile:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
