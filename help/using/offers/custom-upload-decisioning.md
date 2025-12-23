@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '609'
+ht-degree: 84%
 
 ---
 
@@ -36,8 +36,9 @@ Weiterführende Informationen zu benutzerdefinierten Upload-Zielgruppen finden S
 
 ## Wichtige Informationen {#must-read}
 
-* Diese Funktion wird nur beim **Entscheidungs-Management** unterstützt, nicht bei der Entscheidungsfindung (zuvor „Erlebnis-Entscheidung“).
-* Sie ist ausschließlich über Anfragen der **Decisioning-API (Hub)** verfügbar und wird nicht von der **Edge Decisioning-API** oder der **Batch-Entscheidungsfindung** unterstützt.
+* **Nur Entscheidungs-Management** - Diese Funktion wird nur im Entscheidungs-Management unterstützt, nicht in der Entscheidungsfindung (früher als „Erlebnis-Decisioning“ bezeichnet).
+* **Nur Decisioning-API (Hub)** - Sie ist ausschließlich über Decisioning-API (Hub)-Anfragen verfügbar und wird von der Edge Decisioning-API oder Batch-Entscheidung nicht unterstützt.
+* **Erforderliches API-Flag für Anreicherungsdaten** - Wenn Sie eine benutzerdefinierte Zielgruppe zum Hochladen (CSV) verwenden und Anreicherungsdaten in der Antwort auf die Angebotsentscheidung abrufen möchten, müssen Sie `"xdm:enrichedAudience": true` in die Payload Ihrer API-Anfrage aufnehmen. Ohne dieses Flag werden Anreicherungsattribute aus der CSV-hochgeladenen Zielgruppe nicht zurückgegeben. [Weitere Informationen zur Decisioning-API](api-reference/offer-delivery-api/decisioning-api.md)
 
 ## Verwenden einer benutzerdefinierten Upload-Zielgruppe als Eignungskriterium {#eligibilty}
 
