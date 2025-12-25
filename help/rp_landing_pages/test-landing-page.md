@@ -80,17 +80,17 @@ Validieren Sie technische Aspekte, die sich auf Zustellbarkeit und Funktionalit�
 Validieren Sie für Journey die Orchestrierungslogik:
 
 * Aktivieren Sie **[Testmodus](../using/building-journeys/testing-the-journey.md)**, um den Profilverlauf über den Journey zu simulieren
-* Unterschiedliche [ (Eintrittsbedingungen](../using/building-journeys/entry-management.md) und Zielgruppenqualifikationen testen
-* Überprüfen[ ob ](../using/building-journeys/wait-activity.md), [Bedingungen](../using/building-journeys/condition-activity.md) und Verzweigungslogik ordnungsgemäß funktionieren
+* Unterschiedliche [&#x200B; (Eintrittsbedingungen](../using/building-journeys/entry-management.md) und Zielgruppenqualifikationen testen
+* Überprüfen[&#x200B; ob &#x200B;](../using/building-journeys/wait-activity.md), [Bedingungen](../using/building-journeys/condition-activity.md) und Verzweigungslogik ordnungsgemäß funktionieren
 * Verwenden **[Probelauf](../using/building-journeys/journey-dry-run.md)** für komplexe Journey, um Ausführungspfade zu analysieren, ohne Nachrichten zu senden
-* Überprüfen Sie[ ob ](../using/event/about-events.md) Trigger und [benutzerdefinierte Aktionen](../using/action/about-custom-action-configuration.md) erwartungsgemäß ausgeführt werden
+* Überprüfen Sie[&#x200B; ob &#x200B;](../using/event/about-events.md) Trigger und [benutzerdefinierte Aktionen](../using/action/about-custom-action-configuration.md) erwartungsgemäß ausgeführt werden
 
 ### &#x200B;4. Einreichung der Genehmigung
 
 Sobald der Test abgeschlossen und die Probleme behoben sind:
 
-* Senden Sie die Kampagne oder Journey zur Validierung gemäß der [ Ihres Unternehmens](../using/test-approve/approval-policies.md)
-* Fügen Sie Testergebnisse und Dokumentation mit der [Genehmigungsanfrage“ ](../using/test-approve/request-approval.md)
+* Senden Sie die Kampagne oder Journey zur Validierung gemäß der [&#x200B; Ihres Unternehmens](../using/test-approve/approval-policies.md)
+* Fügen Sie Testergebnisse und Dokumentation mit der [Genehmigungsanfrage“ &#x200B;](../using/test-approve/request-approval.md)
 * Adressieren von Feedback- oder Änderungsanforderungen von [genehmigenden Personen](../using/test-approve/review-approve-request.md)
 * Erforderliche Revisionen vornehmen und bei signifikanten Änderungen erneut testen
 
@@ -109,7 +109,7 @@ Setzen Sie die Überwachung nach dem Launch fort, um Probleme frühzeitig zu erk
 
 * Einrichten [Systemwarnungen](../using/reports/alerts.md) für Journey-Fehler, hohe Absprungraten oder geringe Interaktion
 * Überprüfen Sie [Live-Berichte](../using/building-journeys/report-journey.md), um die Leistung im Vergleich zu den Erwartungen zu verfolgen.
-* Seien Sie darauf vorbereitet[ Journey bei kritischen ](../using/building-journeys/journey-pause.md) anzuhalten oder zu ändern
+* Seien Sie darauf vorbereitet[&#x200B; Journey bei kritischen &#x200B;](../using/building-journeys/journey-pause.md) anzuhalten oder zu ändern
 * Dokumentieren der gewonnenen Erkenntnisse zur Verbesserung zukünftiger Testprozesse
 
 ## Testen in Aktion: Anwendungsfälle
@@ -195,7 +195,7 @@ Zugriff auf umfassende Ressourcen zur Fehlerbehebung, Systemwarnungen und Fehler
 
 * [Content-Management](content-management-landing-page.md) - Erfahren Sie, wie Sie Inhalte mithilfe von Vorlagen, Fragmenten und der E-Mail-Designer entwerfen, in der Vorschau anzeigen und verwalten. Übergeordnete Best Practices für die Inhaltserstellung für konsistentes Branding
 
-* [Reporting und ](reporting-landing-page.md): Analysieren der Kampagnen- und Journey-Performance mit umfassenden Berichten, Dashboards und Metriken. Treffen von datengesteuerten Entscheidungen zur Optimierung von Kundenerlebnissen.
+* [Reporting und &#x200B;](reporting-landing-page.md): Analysieren der Kampagnen- und Journey-Performance mit umfassenden Berichten, Dashboards und Metriken. Treffen von datengesteuerten Entscheidungen zur Optimierung von Kundenerlebnissen.
 
 * [Journey-Konfiguration](configure-journeys-landing-page.md) - Konfigurieren von Datenquellen, Ereignissen und benutzerdefinierten Aktionen, um eine ausgefeilte Journey-Orchestrierung zu ermöglichen. Einrichten der technischen Grundlagen für die Erstellung von Journey.
 
