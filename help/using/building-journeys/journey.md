@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: cfac40f73a68362f8490de28cf1865f3dd4952f7
+source-git-commit: dd3d91266c0edea562f75ceb1f75974c7242ee1a
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 31%
+source-wordcount: '1108'
+ht-degree: 35%
 
 ---
 
@@ -31,15 +31,13 @@ Verwenden Sie [!DNL Journey Optimizer], um Anwendungsfälle für die Echtzeit-Or
 
 * Erstellen Sie mit dem **[Journey-Designer](using-the-journey-designer.md)** Ihre mehrstufigen Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine [Aktivität zum Lesen von Zielgruppen](read-audience.md) hinzu, fügen Sie [Bedingungen](condition-activity.md) hinzu und senden Sie personalisierte Nachrichten.
 
-Der Journey Optimizer [Journey-Designer](using-the-journey-designer.md) bietet alles, was Marketer und Journey-Anwender benötigen, um mehrstufige 1:1-Journey kanalübergreifend zu orchestrieren. Dazu gehört eine intuitive Drag-and-Drop-Arbeitsfläche, um jeden Schritt des Journey zu orchestrieren, die Zielgruppe zu definieren und die Nachrichten, Angebote und Inhalte über alle Kanäle hinweg einzuschließen, die die Mitglieder der Zielgruppe basierend auf ihrem Verhalten, kontextuellen Daten und Geschäftsereignissen sehen werden. Erkunden Sie [Anwendungsfälle aus der Praxis](jo-use-cases.md) um zu sehen, wie Sie diese Funktionen anwenden können.
-
 ➡️ [Journey Optimizer entdecken (Video)](#video)
 
 ## Überblick über Journeys
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte bei der Erstellung von Journey
 
@@ -49,7 +47,7 @@ Schrittweise Anleitungen zum Entwerfen, Testen, Veröffentlichen und Tracking vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration - Vollständiges Handbuch
 
@@ -59,7 +57,7 @@ Umfassende Dokumentation zu allen Aspekten der Erstellung, Verwaltung und Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verwalten von Journey
 
@@ -69,7 +67,7 @@ Verwalten Sie Customer Journeys effizient mit Tools für Filterung, Profilverwal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Journey-Aktivitäten
 
@@ -79,7 +77,7 @@ Entdecken Sie, wie Sie Aktivitäten wie Trigger, Entscheidungsschritte, Zielgrup
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Erstellen von Ausdrücken
 
@@ -89,7 +87,7 @@ Meistern Sie die Erstellung von Ausdrücken für dynamische Workflows, Datenmani
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Journey-Anwendungsfälle
 
@@ -195,7 +193,9 @@ Adobe Journey Optimizer unterstützt vier Journey-Typen, die jeweils für versch
 
 ## Journey Designer{#journey-designer}
 
-Der [Journey-Designer](using-the-journey-designer.md) ist eine intuitive Drag-and-Drop-Arbeitsfläche, mit der Sie Ihre Kunden-Journey visuell erstellen und orchestrieren können. Es bietet alles, was Sie zum Entwerfen mehrstufiger Erlebnisse benötigen:
+Der [Journey-Designer](using-the-journey-designer.md) bietet alles, was Marketer und Journey-Anwender benötigen, um mehrstufige 1:1-Journey kanalübergreifend zu orchestrieren. Dazu gehört eine intuitive Drag-and-Drop-Arbeitsfläche zum Orchestrieren aller Schritte der Journey, Definieren der Zielgruppe und kanalübergreifendem Einschließen der Nachrichten, Angebote und Inhalte, die die Mitglieder der Zielgruppe basierend auf ihrem Verhalten, kontextuellen Daten und Geschäftsereignissen zu sehen bekommen.
+
+Der Journey-Designer bietet alles, was Sie zum Entwerfen mehrstufiger Erlebnisse benötigen:
 
 * **[Integrierte Kanalaktionen](journeys-message.md)** - Senden von Nachrichten per E-Mail, Push-Benachrichtigungen, SMS/MMS, In-App-, Web- und Code-basierten Erlebnissen und mehr, alles direkt in Journey Optimizer
 * **[Benutzerdefinierte Aktionen](using-custom-actions.md)** - Integrieren von Drittanbietersystemen zum Senden von Nachrichten oder Trigger-Workflows in externen Plattformen
@@ -203,7 +203,7 @@ Der [Journey-Designer](using-the-journey-designer.md) ist eine intuitive Drag-an
 * **[Bedingungen](condition-activity.md)** Verzweigen Sie Ihren Journey anhand von Profilattributen, Zielgruppenzugehörigkeiten oder Echtzeit-Ereignissen.
 * **[Ausdrücke](expression/expressionadvanced.md)** - Erweiterte Logik und Personalisierung mit dem Ausdruckseditor erstellen
 
-Erfahren Sie, wie Sie den Journey-[&#x200B; verwenden (in diesen End-to-End-Anwendungsfällen](jo-use-cases.md).
+Erfahren Sie, wie Sie den Journey-[ verwenden (in diesen End-to-End-Anwendungsfällen](jo-use-cases.md).
 
 >[!NOTE]
 >
@@ -213,7 +213,7 @@ Erfahren Sie, wie Sie den Journey-[&#x200B; verwenden (in diesen End-to-End-Anwe
 
 Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Erstellens einer Journey auf der Arbeitsfläche kennen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## Weitere Ressourcen {#additional-resources}
 
