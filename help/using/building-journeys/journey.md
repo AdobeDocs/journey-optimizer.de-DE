@@ -31,7 +31,7 @@ Der Journey-Designer von Journey Optimizer bietet alles, was Marketing-Fachleute
 
 ![Benutzeroberfläche des Journey-Designers mit Palette, Arbeitsfläche und Eigenschaftenbereich](assets/journey38.png)
 
-**Bereit mit dem Bauen?** Auf dieser Seite erfahren Sie, wie Sie Ihre erste Journey erstellen [ gestalten](journey-gs.md).
+**Bereit mit dem Bauen?** Auf dieser Seite erfahren Sie, wie Sie Ihre erste Journey erstellen [&#x200B; gestalten](journey-gs.md).
 
 ## Wichtigste Funktionen {#capabilities}
 
@@ -328,7 +328,7 @@ Der Journey-Designer bietet alles, was Sie zum Entwerfen mehrstufiger Erlebnisse
 * **[Bedingungen](condition-activity.md)** Verzweigen Sie Ihren Journey anhand von Profilattributen, Zielgruppenzugehörigkeiten oder Echtzeit-Ereignissen.
 * **[Ausdrücke](expression/expressionadvanced.md)** - Erweiterte Logik und Personalisierung mit dem Ausdruckseditor erstellen
 
-Erfahren Sie, wie Sie den Journey-[ verwenden (in diesen End-to-End-Anwendungsfällen](jo-use-cases.md).
+Erfahren Sie, wie Sie den Journey-[&#x200B; verwenden (in diesen End-to-End-Anwendungsfällen](jo-use-cases.md).
 
 >[!NOTE]
 >
