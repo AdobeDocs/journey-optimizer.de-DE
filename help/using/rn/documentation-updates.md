@@ -170,7 +170,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * In der Dokumentation zum Schemaüberblick wurden Informationen hinzugefügt, um Standard- und relationale Schemata zu unterscheiden, die für orchestrierte Kampagnen verwendet werden. [Weitere Informationen](../data/gs-data.md)
 
-* In der Dokumentation zum Entscheidungs- und Entscheidungs-Management wurden Informationen zu den Anforderungen für das erfolgreiche Trainieren [automatische Optimierung](../experience-decisioning/ranking/auto-optimization-model.md) und [personalisierte ](../experience-decisioning/ranking/personalized-optimization-model.md)) hinzugefügt.
+* In der Dokumentation zum Entscheidungs- und Entscheidungs-Management wurden Informationen zu den Anforderungen für das erfolgreiche Trainieren [automatische Optimierung](../experience-decisioning/ranking/auto-optimization-model.md) und [personalisierte &#x200B;](../experience-decisioning/ranking/personalized-optimization-model.md)) hinzugefügt.
 
 * Es wurde klargestellt, dass REST-API-Aufrufe zur interaktiven Nachrichtenausführung ein Timeout von 60 Sekunden aufweisen, wobei es interne Wiederholungsversuche gibt, um den Versand sicherzustellen. [Weitere Informationen](../campaigns/trigger-campaigns.md)
 
