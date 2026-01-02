@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 92%
 
 ---
 
@@ -69,13 +69,13 @@ Ihre Code-basierte Journey erhält den Status **[!UICONTROL Live]** und ist nun 
    >
    >Weitere Informationen zur Aktivierung von Kampagnen finden Sie in [diesem Abschnitt](../campaigns/review-activate-campaign.md).
 
-Die Code-basierte Kampagne geht in den **[!UICONTROL Live]**-Status über und ist nun für die ausgewählte Zielgruppe sichtbar. Alle Empfängerinnen und Empfänger Ihrer Kampagne können die Änderungen sehen, die Sie an Ihrem Inhalt vorgenommen haben.
+Ihre Code-basierte Kampagne verwendet **[!UICONTROL Live]** [Status](../campaigns/manage-campaigns.md#statuses) und ist jetzt für die ausgewählte Zielgruppe sichtbar. Alle Empfängerinnen und Empfänger Ihrer Kampagne können die Änderungen sehen, die Sie an Ihrem Inhalt vorgenommen haben.
 
 >[!NOTE]
 >
 >Nachdem Sie auf **[!UICONTROL Aktivieren]** geklickt haben, kann es bis zu 15 Minuten dauern, bis Ihre Änderungen live verfügbar sind.
 >
->Wenn ein Zeitplan für die Code-basierte Kampagne definiert wurde, hat sie den Status **[!UICONTROL Geplant]**, bis das Startdatum und die Startzeit erreicht werden.
+>Wenn Sie einen Zeitplan für Ihre Code-basierte Kampagne definiert haben, hat sie den **[!UICONTROL Geplant]** [Status](../campaigns/manage-campaigns.md#statuses) bis das Startdatum und die Startzeit erreicht sind.
 
 ## Stoppen einer Code-basierten Journey oder Kampagne {#stop-code-based-experience}
 

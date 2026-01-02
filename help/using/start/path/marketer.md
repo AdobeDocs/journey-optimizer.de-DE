@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 4%
+source-wordcount: '1476'
+ht-degree: 3%
 
 ---
 
@@ -111,7 +111,7 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
 ### Kampagnen-Orchestrierung
 
-* **Wählen Sie den richtigen Ansatz**: Verwenden Sie Journey-Kampagnen für verhaltensgesteuerte Erlebnisse in Echtzeit; verwenden Sie orchestrierte Kampagnen für geplante Batch-Kampagnen.
+* **Wählen Sie den richtigen Ansatz**: [Vergleichen Sie Journey-Typen](../../building-journeys/journey.md#journey-types) für verhaltensgesteuerte Erlebnisse in Echtzeit oder [Kampagnentypen](../../campaigns/get-started-with-campaigns.md#campaign-types) für geplante Batch-Kampagnen
 * **Definieren Sie klare Kampagnenziele**: Legen Sie Ziele fest, bevor Sie mehrstufige Workflows erstellen
 * **Mit Pilot-Zielgruppen beginnen**: Überprüfen der Zählungen und Segmentierungslogik vor der Skalierung
 * **Nutzen relationaler Daten**: Verwenden Sie die Segmentierung mehrerer Entitäten, um Kundendaten mit Konten, Käufen und Abonnements zu verbinden und so ein präzises Targeting zu ermöglichen
@@ -161,7 +161,7 @@ Lernen Sie aus praktischen Beispielen, die die Funktionen von Journey Optimizer 
 * [Multi-Channel-Messaging](../../building-journeys/journeys-uc.md): Kombinieren von E-Mail und Push mit Reaktionsereignissen
 * [Nur-Wochentag-E-Mails](../../building-journeys/weekday-email-uc.md): Planen Sie die Kommunikation unter Verwendung zeitbasierter Bedingungen
 
-Durchsuchen Sie die vollständige Bibliothek mit [Journey-Anwendungsfällen &#x200B;](../../building-journeys/jo-use-cases.md) erfahren Sie mehr über [Orchestrierte Kampagnen](../../orchestrated/gs-orchestrated-campaigns.md).
+Durchsuchen Sie die vollständige Bibliothek mit [Journey-Anwendungsfällen ](../../building-journeys/jo-use-cases.md) erfahren Sie mehr über [Orchestrierte Kampagnen](../../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Rollenübergreifend zusammenarbeiten
 

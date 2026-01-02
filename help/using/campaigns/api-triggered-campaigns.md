@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 96%
 
 ---
 
@@ -50,8 +50,10 @@ Bevor Sie mit Kampagnen beginnen, überprüfen Sie [in diesem Abschnitt](get-sta
 1. [Prüfen und Aktivieren der Kampagne](review-activate-api-triggered-campaign.md)
 1. [Auslösen der Kampagnenausführung](trigger-campaigns.md)
 
+Erfahren Sie mehr über den [Workflow für die Kampagnenerstellung abschließen mit typspezifischen Handbüchern →](get-started-with-campaigns.md#workflow)
+
 ## Anleitungsvideos {#video}
 
 Erfahren Sie, wie Sie eine Kampagne erstellen und sie von einem externen System aus basierend auf Benutzerinteraktionen auslösen, indem Sie das REST-API zur Ausführung interaktiver Nachrichten verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452734?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

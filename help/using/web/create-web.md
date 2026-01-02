@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+workflow-type: tm+mt
 source-wordcount: '1543'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -111,7 +111,7 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 >abstract="Geben Sie die URL einer bestimmten Web-Seite ein, die zum Bearbeiten des Inhalts verwendet werden soll. Sie wird auf alle Seiten angewendet, die der Regel entsprechen. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
 >additional-url="https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview" text="Weitere Informationen"
 
-Sobald Sie einer Journey oder einer Kampagne eine [Web-Aktion hinzugefügt haben](#create-web-experience), können Sie den Inhalt Ihrer Seite mit einer der beiden Optionen bearbeiten:
+Sobald Sie einer Journey oder einer Kampagne eine [Web-Aktion hinzugefügt haben](#create-web-experience), können Sie den Inhalt Ihrer Site mit einer der beiden Optionen bearbeiten:
 
 * dem [Web-Designer](web-visual-editor.md), um Ihr Erlebnis mit einem visuellen Editor zu erstellen,
 * oder dem [nicht visuellen Editor](web-non-visual-editor.md).
@@ -230,13 +230,13 @@ Nachdem Sie Ihre Web-Kampagneneinstellungen festgelegt und Ihren Inhalt wie gew�
    >
    >Weitere Informationen zur Aktivierung von Kampagnen finden Sie in [diesem Abschnitt](../campaigns/review-activate-campaign.md).
 
-Ihre Web-Kampagne geht in den **[!UICONTROL Live]**-Status über und ist nun für die ausgewählte Zielgruppe sichtbar. Alle Empfängerinnen und Empfänge Ihrer Kampagne können die Änderungen sehen, die Sie an Ihrer Website vorgenommen haben.
+Ihre Web-Kampagne nimmt den **[!UICONTROL Live]**[ Status](../campaigns/manage-campaigns.md#statuses) und ist jetzt für die ausgewählte Audience sichtbar. Alle Empfängerinnen und Empfänge Ihrer Kampagne können die Änderungen sehen, die Sie an Ihrer Website vorgenommen haben.
 
 >[!NOTE]
 >
 >Nachdem Sie auf **[!UICONTROL Aktivieren]** geklickt haben, kann es bis zu 15 Minuten dauern, bis Web-Kampagnenänderungen auf Ihrer Website live sind.
 >
->Wenn Sie einen Zeitplan für Ihre Web-Kampagne definiert haben, hat sie den Status **[!UICONTROL Geplant]**, bis das Startdatum und die Startzeit erreicht werden.
+>Wenn Sie einen Zeitplan für Ihre Web-Kampagne definiert haben, hat sie den **[!UICONTROL Geplant]** [Status](../campaigns/manage-campaigns.md#statuses) bis das Startdatum und die Startzeit erreicht sind.
 
 Sobald Ihr Erlebnis live ist, können Sie Ihre Web-Journeys und -Kampagnen überwachen. [Weitere Informationen](monitor-web-experiences.md)
 
@@ -266,4 +266,4 @@ Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu v
 
 Im folgenden Video erfahren Sie, wie Sie eine Web-Kampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449990/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

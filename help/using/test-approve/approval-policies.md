@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '663'
 ht-degree: 68%
 
 ---
@@ -66,7 +66,7 @@ Genehmigungsrichtlinien bieten flexible Zielgruppenbestimmungsoptionen, die Ihre
 * **Kampagnen-/Journey-Namen**: Targeting bestimmter Objekte nach Namen
 * **Tags**: Wenden Sie Richtlinien auf alle Kampagnen oder Journey mit einem bestimmten Tag an
 * **Kanaltypen**: Genehmigung für bestimmte Aktionen erforderlich (E-Mail, SMS, Push ush.)
-* **Kampagnentypen**: Legen Sie unterschiedliche Regeln für geplante und API-ausgelöste Kampagnen fest
+* **Kampagnentypen**: Legen Sie unterschiedliche Regeln für ([- und API-ausgelöste Kampagnen fest](../campaigns/get-started-with-campaigns.md#campaign-types)
 * **Anfragende**: Definieren von Richtlinien basierend darauf, wer die Kampagne oder den Journey erstellt
 
 Gehen Sie wie folgt vor, um die mit einer Genehmigungsrichtlinie verknüpften Bedingungen zu definieren:
