@@ -45,7 +45,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 >[!TAB Unitäre Journey]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)**Wann ist zu verwenden:** Echtzeit-Erlebnisse, die durch Ereignisse ausgelöst werden
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)**Wann ist zu verwenden:** Echtzeit-Erlebnisse, die durch Ereignisse ausgelöst werden
 
 **Unitäre Journey** werden einzeln ausgelöst, wenn eine bestimmte Aktion stattfindet (Kauf, App-Anmeldung, Formularübermittlung). Profile treten jeweils in Echtzeit einzeln ein, wodurch dies ideal für sofortige, verhaltensgesteuerte Antworten ist.
 
@@ -60,7 +60,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 >[!TAB Audience-Journey lesen]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)**when to use:** Geplante Kampagnen für Zielgruppensegmente
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)**when to use:** Geplante Kampagnen für Zielgruppensegmente
 
 **Zielgruppen-Journey lesen** Beginnen Sie mit einer Adobe Experience Platform-Zielgruppe und senden Sie Nachrichten im Batch an alle Profile gleichzeitig. Dieser Journey-Typ eignet sich ideal für geplante Kommunikation in großem Maßstab.
 
@@ -75,7 +75,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 >[!TAB Journey zur Zielgruppenqualifizierung]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)**WHEN TO USE:** Echtzeit-Reaktionen auf Änderungen der Zielgruppenzugehörigkeit
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)**WHEN TO USE:** Echtzeit-Reaktionen auf Änderungen der Zielgruppenzugehörigkeit
 
 **Journey für die Zielgruppenqualifizierung** Trigger, wenn Profile für eine bestimmte Zielgruppe qualifiziert sind (oder diese verlassen haben). Profile treten einzeln ein, wenn sie die Kriterien in Echtzeit erfüllen, was eine sofortige Interaktion ermöglicht, wenn sich das Kundenverhalten ändert.
 
@@ -90,7 +90,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 >[!TAB Journey für Geschäftsereignisse]
 
-![Symbol](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **Verwendung:** Geschäftsbedingungen, die mehrere Kunden betreffen
+![Symbol](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de) **Verwendung:** Geschäftsbedingungen, die mehrere Kunden betreffen
 
 **Geschäftsereignis-Journey** werden durch Ereignisse auf Unternehmensebene ausgelöst (Stock-Updates, Wetterwarnungen, Preisänderungen), die mehrere Profile gleichzeitig betreffen. Sie sind nicht auf Einzelaktionen, sondern auf umfassendere Geschäftsbedingungen ausgerichtet.
 
@@ -121,7 +121,7 @@ Der **[Journey-Designer](using-the-journey-designer.md)** ist Ihre visuelle Arbe
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 **Einstiegspunkte definieren**
 
@@ -131,7 +131,7 @@ Wählen Sie aus, wie Kunden eintreten: durch ein Ereignis, ein Zielgruppensegmen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 **Nachrichten senden**
 
@@ -141,7 +141,7 @@ Verwenden Sie integrierte Kanalaktionen für E-Mail, Push, SMS/MMS, In-App, Web 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 **Logik und Bedingungen hinzufügen**
 
@@ -151,7 +151,7 @@ Verzweigen Sie Ihren Journey anhand von Profilattributen, Zielgruppenzugehörigk
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
 
 **Nutzen von Daten**
 
@@ -161,7 +161,7 @@ Verwenden Sie kontextuelle Daten aus Ereignissen, Adobe Experience Platform oder
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 **Externe Systeme anschließen**
 
@@ -171,7 +171,7 @@ Erstellen Sie benutzerdefinierte Aktionen zur Integration von Drittanbietersyste
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 **Orchestrierungsaktivitäten hinzufügen**
 
@@ -262,7 +262,7 @@ Lernen Sie aus Praxisbeispielen, die zeigen, wie sich Journey-Konzepte zur Lösu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 **Willkommen bei neuen Abonnenten**
 
@@ -272,7 +272,7 @@ Wenn eine Kundin oder ein Kunde sich für Ihren Service anmeldet, legen Sie eine
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
 
 **Optimierung des Versandzeitpunkts**
 
@@ -282,7 +282,7 @@ Verwenden Sie KI, um E-Mails zu senden, wenn jeder Kunde mit größter Wahrschei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 **Steigern der Versandaktivität**
 
@@ -292,7 +292,7 @@ Erhöhen Sie das Nachrichtenvolumen schrittweise, um Ihre Reputation beim Versan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 **Target nach Wochentag**
 
@@ -302,7 +302,7 @@ Senden Sie je nach Wochentag, an dem Kunden Ihre Journey eingeben, unterschiedli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 **Multi-Channel-Kampagnen**
 
@@ -312,7 +312,7 @@ Orchestrieren Sie nahtlose Erlebnisse für E-Mail, Push, SMS und Web-Kanäle in 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 **Alle Anwendungsfälle**
 
@@ -330,7 +330,7 @@ Wenn Sie sich mit der Erstellung von Journey vertraut machen, sollten Sie diese 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 **Erweiterte Ausdrücke**
 
@@ -340,7 +340,7 @@ Erstellen Sie dynamische Bedingungen und Personalisierung mit dem Ausdrucksedito
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
 
 **Zeitzonen**
 
@@ -350,7 +350,7 @@ Verarbeiten Sie globale Zielgruppen mit automatischen Zeitzonenanpassungen und o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 **Testmodus und Probelauf**
 
@@ -360,7 +360,7 @@ Validieren Sie Journey mit Testprofilen, bevor Sie live gehen, und zeigen Sie ei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
 
 **In Sandbox kopieren**
 
@@ -370,7 +370,7 @@ Duplizieren Sie Journey in Sandboxes, um Test- und Bereitstellungs-Workflows zu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 **Tags und Organisation**
 
@@ -380,7 +380,7 @@ Verwenden Sie Tags, um Journey zu kategorisieren und zu filtern und so eine skal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 **Durchsatzkontrolle**
 
