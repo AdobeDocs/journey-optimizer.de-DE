@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 87351e845c7a6267cc78c26c838e69e77325f2b8
+source-git-commit: a4b6b048d60847531e0e61de702b48ebe82884d3
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 5%
+source-wordcount: '1424'
+ht-degree: 4%
 
 ---
 
@@ -35,7 +35,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 ![Benutzeroberfläche des Journey-Designers mit Palette, Arbeitsfläche und Eigenschaftenbereich](assets/journey38.png)
 
-➡️ **Bereit zum Bauen?Journey** [Erstellen Sie Ihre erste &#x200B;](journey-gs.md) in 5 Minuten.
+➡️ **Bereit zum Bauen?Journey** [Erstellen Sie Ihre erste ](journey-gs.md) in 5 Minuten.
 
 ## Journey-Typ auswählen {#journey-types}
 
@@ -49,12 +49,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 **Unitäre Journey** werden einzeln ausgelöst, wenn eine bestimmte Aktion stattfindet (Kauf, App-Anmeldung, Formularübermittlung). Profile treten jeweils in Echtzeit einzeln ein, wodurch dies ideal für sofortige, verhaltensgesteuerte Antworten ist.
 
-**Perfekt für:**
-
-* Bestellbestätigungen nach dem Kauf
-* Begrüßungs-E-Mails, wenn sich jemand anmeldet
-* Warenkorbabbruch durch Browsen ausgelöst
-* Benachrichtigungen zum Zurücksetzen des Kennworts
+**Perfekt für:** Bestellbestätigungen nach dem Kauf, Willkommens-E-Mails, wenn sich jemand anmeldet, Warenkorbabbruch, der durch Browsen ausgelöst wird, und Benachrichtigungen zum Zurücksetzen des Kennworts.
 
 ➡️ [Informationen zu Ereignissen](../event/about-events.md) | [Anwendungsfall „Nachricht an Abonnenten“](message-to-subscribers-uc.md)
 
@@ -64,12 +59,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 **Zielgruppen-Journey lesen** Beginnen Sie mit einer Adobe Experience Platform-Zielgruppe und senden Sie Nachrichten im Batch an alle Profile gleichzeitig. Dieser Journey-Typ eignet sich ideal für geplante Kommunikation in großem Maßstab.
 
-**Perfekt für:**
-
-* Monatliche Newsletter
-* Werbekampagnen für bestimmte Segmente
-* Produktankündigungen
-* Saisonale Marketing-Kampagnen
+**Perfekt für:** monatliche Newsletter, Werbekampagnen für bestimmte Segmente, Produktankündigungen und saisonale Marketing-Kampagnen.
 
 ➡️ [Erfahren Sie mehr über „Zielgruppe lesen“](read-audience.md) | [Erste Schritte mit Audiences](../audience/about-audiences.md)
 
@@ -79,12 +69,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 **Journey für die Zielgruppenqualifizierung** Trigger, wenn Profile für eine bestimmte Zielgruppe qualifiziert sind (oder diese verlassen haben). Profile treten einzeln ein, wenn sie die Kriterien in Echtzeit erfüllen, was eine sofortige Interaktion ermöglicht, wenn sich das Kundenverhalten ändert.
 
-**Perfekt für:**
-
-* Benachrichtigungen zu VIP-Stufen-Upgrades
-* Erneute Interaktion von Kundinnen und Kunden, wenn sie inaktiv werden
-* Nachrichten zum Erstkauf
-* Geografisches Targeting beim Umzug von Kunden
+**Ideal für:** Benachrichtigungen zu VIP-Stufen-Upgrades, Rückgewinnung von Interaktionen, wenn Kunden inaktiv werden, Nachrichten zu ersten Kauffeiern und geografisches Targeting, wenn Kunden umziehen.
 
 ➡️ [Informationen zur Zielgruppen-Qualifizierung](audience-qualification-events.md) | [Erstellen von Zielgruppen](../audience/creating-a-segment-definition.md)
 
@@ -94,13 +79,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 **Geschäftsereignis-Journey** werden durch Ereignisse auf Unternehmensebene ausgelöst (Stock-Updates, Wetterwarnungen, Preisänderungen), die mehrere Profile gleichzeitig betreffen. Sie sind nicht auf Einzelaktionen, sondern auf umfassendere Geschäftsbedingungen ausgerichtet.
 
-**Perfekt für:**
-
-* Warnungen bei geringem Bestand für interessierte Kunden
-* Flash-Verkaufsankündigungen
-* Wetterbasierte Angebote
-* Benachrichtigungen über Preisnachlässe
-* Warnhinweise für das Produkt-Backin-Lager
+**Perfekt für:** Warnungen bei geringem Bestand an interessierte Kunden, Flash-Verkaufsankündigungen, wetterbasierte Werbeaktionen, Benachrichtigungen zu Preisrückgängen und Warnhinweise für das Produkt-Back-in-Stock.
 
 ➡️ [Erfahren Sie mehr über Geschäftsereignisse](../event/about-creating-business.md) | [Zutrittsverwaltung](entry-management.md)
 
@@ -121,7 +100,7 @@ Der **[Journey-Designer](using-the-journey-designer.md)** ist Ihre visuelle Arbe
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Einstiegspunkte definieren**
 
@@ -131,7 +110,7 @@ Wählen Sie aus, wie Kunden eintreten: durch ein Ereignis, ein Zielgruppensegmen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Nachrichten senden**
 
@@ -141,7 +120,7 @@ Verwenden Sie integrierte Kanalaktionen für E-Mail, Push, SMS/MMS, In-App, Web 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Logik und Bedingungen hinzufügen**
 
@@ -151,7 +130,7 @@ Verzweigen Sie Ihren Journey anhand von Profilattributen, Zielgruppenzugehörigk
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Nutzen von Daten**
 
@@ -161,7 +140,7 @@ Verwenden Sie kontextuelle Daten aus Ereignissen, Adobe Experience Platform oder
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Externe Systeme anschließen**
 
@@ -171,7 +150,7 @@ Erstellen Sie benutzerdefinierte Aktionen zur Integration von Drittanbietersyste
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Orchestrierungsaktivitäten hinzufügen**
 
@@ -190,7 +169,7 @@ Der Aufbau erfolgreicher Journey folgt einem klaren, wiederholbaren Prozess. Hie
 
 **1. Plan** → **2. Design** → **3. Test** → **4. Veröffentlichen** → **5. Monitor** → **6. Optimieren**
 
-### &#x200B;1. **Journey planen** {#plan}
+### &#x200B;1. Journey planen {#plan}
 
 Bevor Sie den Designer öffnen, klären Sie Ihre Ziele:
 
@@ -199,7 +178,7 @@ Bevor Sie den Designer öffnen, klären Sie Ihre Ziele:
 * **Welcher Journey-Typ passt?** (Siehe [Journey-Typen](#journey-types) oben)
 * **Welche Kanäle werden Sie verwenden?** (E-Mail, Push, SMS usw.)
 
-### &#x200B;2. **Design auf der Arbeitsfläche** {#design}
+### &#x200B;2. Design auf der Arbeitsfläche {#design}
 
 Verwenden Sie den Journey-Designer, um Ihren Fluss zu erstellen:
 
@@ -211,7 +190,7 @@ Verwenden Sie den Journey-Designer, um Ihren Fluss zu erstellen:
 
 [Erfahren Sie, wie Sie den Journey-Designer-→ verwenden](using-the-journey-designer.md)
 
-### &#x200B;3. **Vor der Live-Schaltung testen** {#test}
+### &#x200B;3. Vor der Live-Schaltung testen {#test}
 
 Testen Sie Ihren Journey immer, um Probleme zu erkennen, bevor diese auftreten:
 
@@ -222,7 +201,7 @@ Testen Sie Ihren Journey immer, um Probleme zu erkennen, bevor diese auftreten:
 
 [Testen des Journey-→](testing-the-journey.md) | [Erfahren Sie mehr über Probelauf →](journey-dry-run.md)
 
-### &#x200B;4. **Veröffentlichen Sie Ihren Journey** {#publish}
+### &#x200B;4. Veröffentlichen des Journey {#publish}
 
 Nach Abschluss des Tests veröffentlichen Sie , um Ihre Journey live zu schalten:
 
@@ -232,7 +211,7 @@ Nach Abschluss des Tests veröffentlichen Sie , um Ihre Journey live zu schalten
 
 [Journey-→ veröffentlichen](publish-journey.md)
 
-### &#x200B;5. **Überwachen der Leistung** {#monitor}
+### &#x200B;5. Überwachen der Leistung {#monitor}
 
 Verfolgen Sie, wie Ihr Journey in der realen Welt funktioniert:
 
@@ -242,7 +221,7 @@ Verfolgen Sie, wie Ihr Journey in der realen Welt funktioniert:
 
 [Überwachen und Berichten von →](report-journey.md) | [Einrichten von Warnhinweisen →](../reports/alerts.md)
 
-### &#x200B;6. **Optimieren und iterieren** {#optimize}
+### &#x200B;6. Optimieren und iterieren {#optimize}
 
 Nutzung von Einblicken zur Verbesserung:
 
@@ -262,7 +241,7 @@ Lernen Sie aus Praxisbeispielen, die zeigen, wie sich Journey-Konzepte zur Lösu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Willkommen bei neuen Abonnenten**
 
@@ -272,7 +251,7 @@ Wenn eine Kundin oder ein Kunde sich für Ihren Service anmeldet, legen Sie eine
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimierung des Versandzeitpunkts**
 
@@ -282,7 +261,7 @@ Verwenden Sie KI, um E-Mails zu senden, wenn jeder Kunde mit größter Wahrschei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Steigern der Versandaktivität**
 
@@ -292,7 +271,7 @@ Erhöhen Sie das Nachrichtenvolumen schrittweise, um Ihre Reputation beim Versan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Target nach Wochentag**
 
@@ -302,7 +281,7 @@ Senden Sie je nach Wochentag, an dem Kunden Ihre Journey eingeben, unterschiedli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Multi-Channel-Kampagnen**
 
@@ -312,7 +291,7 @@ Orchestrieren Sie nahtlose Erlebnisse für E-Mail, Push, SMS und Web-Kanäle in 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Alle Anwendungsfälle**
 
@@ -330,7 +309,7 @@ Wenn Sie sich mit der Erstellung von Journey vertraut machen, sollten Sie diese 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Erweiterte Ausdrücke**
 
@@ -340,7 +319,7 @@ Erstellen Sie dynamische Bedingungen und Personalisierung mit dem Ausdrucksedito
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Zeitzonen**
 
@@ -350,7 +329,7 @@ Verarbeiten Sie globale Zielgruppen mit automatischen Zeitzonenanpassungen und o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Testmodus und Probelauf**
 
@@ -360,7 +339,7 @@ Validieren Sie Journey mit Testprofilen, bevor Sie live gehen, und zeigen Sie ei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **In Sandbox kopieren**
 
@@ -370,7 +349,7 @@ Duplizieren Sie Journey in Sandboxes, um Test- und Bereitstellungs-Workflows zu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tags und Organisation**
 
@@ -380,7 +359,7 @@ Verwenden Sie Tags, um Journey zu kategorisieren und zu filtern und so eine skal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Durchsatzkontrolle**
 
@@ -397,7 +376,7 @@ Schränken Sie den Nachrichtendurchsatz ein, um die Reputation des Versands zu v
 
 Hier erhalten Sie eine visuelle Einführung in das Journey von Komponenten und lernen die Grundlagen des Erstellens von Journey auf der Arbeitsfläche kennen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Möchten Sie mehr Videos?** [Erkunden von Journey-Video-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
