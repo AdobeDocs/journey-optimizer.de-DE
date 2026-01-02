@@ -71,7 +71,7 @@ Wählen Sie die Registerkarte **[!UICONTROL Orchestrierung]** aus, um auf die Li
 
 ![Bild, das das Inventar der orchestrierten Kampagnen zeigt](assets/inventory.png){zoomable="yes"}
 
-Jede orchestrierte Kampagne in der Liste zeigt Informationen wie den aktuellen (Status[ der Kampagne, ](#statuses) zugehörigen Kanal und Tags oder das letzte Mal, wann sie geändert wurde, an. Sie können die angezeigten Spalten anpassen, indem Sie auf die Schaltfläche ![Layout konfigurieren](assets/do-not-localize/inventory-configure-layout.svg) klicken.
+Jede orchestrierte Kampagne in der Liste zeigt Informationen wie den aktuellen (Status[&#x200B; der Kampagne, &#x200B;](#statuses) zugehörigen Kanal und Tags oder das letzte Mal, wann sie geändert wurde, an. Sie können die angezeigten Spalten anpassen, indem Sie auf die Schaltfläche ![Layout konfigurieren](assets/do-not-localize/inventory-configure-layout.svg) klicken.
 
 >[!ENDTABS]
 
@@ -113,7 +113,7 @@ Jede Kampagne durchläuft einen Lebenszyklus, der sich in ihrem Status in der Be
 | **[!UICONTROL Gestoppt]** | ✅ | ✅ | ✅ | Manuell angehalten, kann nicht reaktiviert werden | [Duplizieren zur Wiederverwendung](#duplicate-a-campaign) |
 | **[!UICONTROL Abgeschlossen]** | ✅ | ✅ | ✅ | Ausführung abgeschlossen (wird 3 Tage nach Aktivierung automatisch zugewiesen oder endet bei wiederkehrender Ausführung am Enddatum) | [Anzeigen von Berichten](../reports/campaign-global-report-cja.md), [Archivieren](#archive-a-campaign) oder [Duplizieren](#duplicate-a-campaign) |
 | **[!UICONTROL Fehlgeschlagen]** | ✅ | ✅ | — | Ausführung fehlgeschlagen | Überprüfen Sie Protokolle, beheben Sie Probleme [Duplizieren Sie es erneut](#duplicate-a-campaign) |
-| **[!UICONTROL Archiviert]** | ✅ | ✅ | ✅ | Archiviert (nach 30 Tagen automatisch gelöscht) | [Bei ](#access) mit Filter abrufen |
+| **[!UICONTROL Archiviert]** | ✅ | ✅ | ✅ | Archiviert (nach 30 Tagen automatisch gelöscht) | [Bei &#x200B;](#access) mit Filter abrufen |
 | **[!UICONTROL Geschlossen]** | — | — | ✅ | Wiederkehrende Kampagne geschlossen, keine neuen Einträge zulässig (wird fortgesetzt, bis alle Aktivitäten abgeschlossen sind) | Auf Abschluss warten |
 | **[!UICONTROL Veröffentlichung läuft]** | — | — | ✅ | In Veröffentlichung | Warten, bis die Veröffentlichung abgeschlossen ist |
 
@@ -239,7 +239,7 @@ Archivierte Kampagnen können dann mithilfe des entsprechenden Filters in der Li
 
 ## Löschen einer Kampagne {#delete-a-campaign}
 
-Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit ![ Auslassungspunkten (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Löschen]**.
+Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit ![&#x200B; Auslassungspunkten (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Löschen]**.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -249,7 +249,7 @@ Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit ![ Auslassungs
 
 ## Duplizieren einer Kampagne {#duplicate-a-campaign}
 
-Um eine Kampagne zu duplizieren (beispielsweise wenn sie gestoppt wurde), verwenden Sie die Schaltfläche mit den ![ (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Duplizieren]**.
+Um eine Kampagne zu duplizieren (beispielsweise wenn sie gestoppt wurde), verwenden Sie die Schaltfläche mit den ![&#x200B; (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Duplizieren]**.
 
 Geben Sie den Namen der Kampagne ein und speichern Sie ihn. 
 
