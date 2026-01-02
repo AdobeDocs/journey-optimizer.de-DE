@@ -35,7 +35,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 ![Benutzeroberfläche des Journey-Designers mit Palette, Arbeitsfläche und Eigenschaftenbereich](assets/journey38.png)
 
-➡️ **Bereit zum Bauen?Journey** [Erstellen Sie Ihre erste ](journey-gs.md) in 5 Minuten.
+➡️ **Bereit zum Bauen?Journey** [Erstellen Sie Ihre erste &#x200B;](journey-gs.md) in 5 Minuten.
 
 ### Journey vs. Kampagnen: Verwendung der einzelnen {#journeys-vs-campaigns-intro}
 
