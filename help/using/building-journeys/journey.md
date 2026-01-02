@@ -35,7 +35,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 ![Benutzeroberfläche des Journey-Designers mit Palette, Arbeitsfläche und Eigenschaftenbereich](assets/journey38.png)
 
-➡️ **Bereit zum Bauen?Journey** [Erstellen Sie Ihre erste ](journey-gs.md) in 5 Minuten.
+➡️ **Bereit zum Bauen?Journey** [Erstellen Sie Ihre erste &#x200B;](journey-gs.md) in 5 Minuten.
 
 ### Journey vs. Kampagnen: Verwendung der einzelnen {#journeys-vs-campaigns-intro}
 
@@ -366,7 +366,7 @@ A: Adobe Journey Optimizer bietet drei Ansätze:
 
 **Hauptunterschied**: Journey verwalten den individuellen Kundenstatus für Echtzeit-Aktionen; Aktions-/API-Kampagnen liefern einfache Nachrichten im Batch; Orchestrierte Kampagnen bieten die Arbeitsfläche des Batch-Workflows mit Funktionen für die Segmentierung mehrerer Entitäten.
 
-<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[Erfahren Sie mehr über orchestrierte Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)
+&#x200B;<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[Erfahren Sie mehr über orchestrierte Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)
 
 <!-- Waiting for DOCAC-13912
 **Q: Which journey type should I use?**

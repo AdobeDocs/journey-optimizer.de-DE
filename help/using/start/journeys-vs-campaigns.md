@@ -159,33 +159,33 @@ Kombiniert die Komplexität eines Workflows mit der Ausführung einer Batch-Kamp
 
 ### Anwendungsfälle für Journeys
 
-* **Wiederherstellung bei Warenkorbabbruch**: Wird durch das Ereignis zum Hinzufügen des Warenkorbs ausgelöst, auf den Checkout warten und Erinnerungen senden, wenn kein Kauf stattfindet
-* **Kunden-Onboarding**: Mehrstufige Willkommensserie mit personalisierten Inhalten, die auf Profildaten basieren
-* **Upgrade der Treuestufe** Wird ausgelöst, wenn der Kunde eine neue Stufe erreicht, und sendet Glückwünsche und Vorteile
-* **Geburtstagskampagnen**: Eingabe basierend auf Geburtsdatum, personalisierte Angebote
-* **Rückgewinnung**: Ausgelöst durch Zielgruppen-Qualifizierung (Inaktivität), progressive Kontaktaufnahme
+&#x200B;* **Wiederherstellung bei Warenkorbabbruch**: Wird durch das Ereignis zum Hinzufügen des Warenkorbs ausgelöst, auf den Checkout warten und Erinnerungen senden, wenn kein Kauf stattfindet
+&#x200B;* **Kunden-Onboarding**: Mehrstufige Willkommensserie mit personalisierten Inhalten, die auf Profildaten basieren
+&#x200B;* **Upgrade der Treuestufe** Wird ausgelöst, wenn der Kunde eine neue Stufe erreicht, und sendet Glückwünsche und Vorteile
+&#x200B;* **Geburtstagskampagnen**: Eingabe basierend auf Geburtsdatum, personalisierte Angebote
+&#x200B;* **Rückgewinnung**: Ausgelöst durch Zielgruppen-Qualifizierung (Inaktivität), progressive Kontaktaufnahme
 
 ### Anwendungsfälle für Kampagnen (Aktion und API-gesteuert)
 
 **Aktionskampagnen:**
-* **Monatliche Newsletter**: Geplanter Batch-Versand an das Abonnentensegment
-* **Werbeanzeigen**: Zeitkritische Angebote für Zielgruppen
-* **Produkteinführungen**: Koordinierte Ankündigung an alle Kunden
-* **Saisonale Grüße**: Feiertagsnachrichten zu bestimmten Terminen
+&#x200B;* **Monatliche Newsletter**: Geplanter Batch-Versand an das Abonnentensegment
+&#x200B;* **Werbeanzeigen**: Zeitkritische Angebote für Zielgruppen
+&#x200B;* **Produkteinführungen**: Koordinierte Ankündigung an alle Kunden
+&#x200B;* **Saisonale Grüße**: Feiertagsnachrichten zu bestimmten Terminen
 
 **API-ausgelöste Kampagnen:**
-* **Bestellbestätigungen**: Wird vom E-Commerce-System nach dem Kauf ausgelöst
-* **Versandbenachrichtigungen**: Ausgelöst durch Logistiksystem
-* **Kontowarnungen** Ausgelöst durch ein System zur Betrugserkennung
-* **Kennwortzurücksetzung**: Wird durch Benutzeraktion im Programm ausgelöst
+&#x200B;* **Bestellbestätigungen**: Wird vom E-Commerce-System nach dem Kauf ausgelöst
+&#x200B;* **Versandbenachrichtigungen**: Ausgelöst durch Logistiksystem
+&#x200B;* **Kontowarnungen** Ausgelöst durch ein System zur Betrugserkennung
+&#x200B;* **Kennwortzurücksetzung**: Wird durch Benutzeraktion im Programm ausgelöst
 
 ### Anwendungsfälle für orchestrierte Kampagnen
 
-* **Saisonale Promotion mit Katalogintegration**: Abfragen eines Produktkatalogs, Identifizieren zugelassener Kunden, Segmentieren nach Voreinstellungen, Senden personalisierter Produktempfehlungen
-* **Store-spezifische Kampagnen**: Targeting von Kunden in der Nähe bestimmter Store-Standorte mit Store-Inventardaten
-* **Multi-Booking-Kommunikation**: Versand einer Nachricht pro Buchung (Hotelreservierung, Flugbuchungen)
-* **Komplexe Segmentorchestrierung**: Erstellen Sie Zielgruppen schrittweise mit einer Anreicherung aus mehreren Datenquellen
-* **Validierung vor dem Versand**: Ermitteln der genauen Empfängeranzahl, bevor große Kampagnen gestartet werden
+&#x200B;* **Saisonale Promotion mit Katalogintegration**: Abfragen eines Produktkatalogs, Identifizieren zugelassener Kunden, Segmentieren nach Voreinstellungen, Senden personalisierter Produktempfehlungen
+&#x200B;* **Store-spezifische Kampagnen**: Targeting von Kunden in der Nähe bestimmter Store-Standorte mit Store-Inventardaten
+&#x200B;* **Multi-Booking-Kommunikation**: Versand einer Nachricht pro Buchung (Hotelreservierung, Flugbuchungen)
+&#x200B;* **Komplexe Segmentorchestrierung**: Erstellen Sie Zielgruppen schrittweise mit einer Anreicherung aus mehreren Datenquellen
+&#x200B;* **Validierung vor dem Versand**: Ermitteln der genauen Empfängeranzahl, bevor große Kampagnen gestartet werden
 
 ## Funktionsverfügbarkeit {#feature-availability}
 
@@ -252,9 +252,9 @@ A: Ja, in Adobe Experience Platform erstellte Zielgruppen können für alle drei
 
 Bereit mit dem Bau zu beginnen? Informieren Sie sich in der ausführlichen Dokumentation zu Ihrem gewählten Ansatz:
 
-* **[Erste Schritte mit Journey](../building-journeys/journey.md)** - Erfahren Sie mehr über Journey-Typen, Designer und Workflow
-* **[Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)** - Erkunden von Aktionen und API-ausgelösten Kampagnen
-* **[Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)** - Entdecken Sie Batch-Arbeitsflächen-Workflows
+&#x200B;* **[Erste Schritte mit Journey](../building-journeys/journey.md)** - Erfahren Sie mehr über Journey-Typen, Designer und Workflow
+&#x200B;* **[Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)** - Erkunden von Aktionen und API-ausgelösten Kampagnen
+&#x200B;* **[Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)** - Entdecken Sie Batch-Arbeitsflächen-Workflows
 
 **Benötigen Sie weitere Hilfe bei der Entscheidungsfindung?**
 - [Vergleich der Journey-Typen](../building-journeys/journey.md#journey-types-comparison)

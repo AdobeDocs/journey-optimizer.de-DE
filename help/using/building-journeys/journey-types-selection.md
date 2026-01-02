@@ -177,5 +177,5 @@ Nachdem Sie nun die Journey-Typen verstehen, können Sie:
 * **[Häufig gestellte Fragen zum Journey](journey-faq.md)** - Häufig gestellte Fragen beantwortet
 
 **Müssen Sie mit Kampagnen vergleichen?**
-- Vergleichshandbuch zu [Journey und Kampagnen](../start/journeys-vs-campaigns.md) - Wählen Sie zwischen Journey-, Aktions-/API-Kampagnen und orchestrierten Kampagnen
+&#x200B;- Vergleichshandbuch zu [Journey und Kampagnen](../start/journeys-vs-campaigns.md) - Wählen Sie zwischen Journey-, Aktions-/API-Kampagnen und orchestrierten Kampagnen
 
