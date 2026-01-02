@@ -113,7 +113,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 >[!TAB Aktionskampagnen (geplant)]
 
-![Symbol](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **Verwendungszeitpunkt:** Einfache, geplante Batch-Nachrichten
+![Symbol](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de) **Verwendungszeitpunkt:** Einfache, geplante Batch-Nachrichten
 
 **Aktionskampagnen** (auch als geplante Kampagnen bezeichnet) eignen sich ideal für einfache, einmalige oder wiederkehrende Batch-Nachrichten, die zu einem bestimmten Zeitpunkt ausgeführt werden.
 
@@ -134,7 +134,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 >[!TAB Durch API ausgelöste Kampagnen]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)**Verwendungszeitpunkt:** Ereignisgesteuertes Echtzeit-Messaging mit externen Systemen
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)**Verwendungszeitpunkt:** Ereignisgesteuertes Echtzeit-Messaging mit externen Systemen
 
 **API-ausgelöste Kampagnen** werden über API-Aufrufe aktiviert, wodurch automatisiertes Messaging direkt von externen Systemen aus ermöglicht wird. Diese Kampagnen unterstützen die Personalisierung sowohl mithilfe von Profilattributen als auch anhand von Echtzeit-Kontextdaten aus der API-Payload.
 
@@ -155,7 +155,7 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 >[!TAB Orchestrierte Kampagnen]
 
-![Symbol](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) **Verwendung:** Komplexe, mehrstufige Marketing-Workflows
+![Symbol](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de) **Verwendung:** Komplexe, mehrstufige Marketing-Workflows
 
 **Orchestrierte Kampagnen** bieten eine visuelle Drag-and-Drop-Arbeitsfläche zum Entwerfen und Automatisieren komplexer Marketing-Workflows. Von der Zielgruppensegmentierung bis hin zum kanalübergreifenden Versand personalisierter Nachrichten erfolgt alles in einer intuitiven Umgebung, die für Geschwindigkeit und Kontrolle entwickelt wurde.
 
@@ -309,7 +309,7 @@ Entdecken Sie die folgenden leistungsstarken Funktionen, während Sie sich mit K
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
 
 **Planung und Timing**
 
@@ -319,7 +319,7 @@ Sie können Kampagnen für bestimmte Daten/Zeiten planen, wiederkehrende Sendung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 **Ratenkontrolle**
 
@@ -329,7 +329,7 @@ Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Syst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 **Zielgruppen-Targeting**
 
@@ -339,7 +339,7 @@ Targeting bestimmter Adobe Experience Platform-Zielgruppen mit Präzision und dy
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 **Genehmigungs-Workflows**
 
@@ -349,7 +349,7 @@ Implementieren Sie Prüfungs- und Genehmigungsprozesse, bevor Kampagnen live geh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
 
 **Ruhige Stunden**
 
@@ -359,7 +359,7 @@ Berücksichtigung der Kundenpräferenzen durch Vermeidung des Nachrichtenversand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 **Optimierung des Versandzeitpunkts**
 
