@@ -81,5 +81,5 @@ Eine IP-Warmup-Kampagne kann in nur einem IP-Warmup-Plan verwendet werden. Diese
 
 >[!NOTE]
 >
->Wenn eine Live-Kampagne in einem IP-Aufwärmplan verwendet wird, ändert sich nach der [ des Plans ](ip-warmup-execution.md#mark-as-completed)Abgeschlossen[ der Status](../campaigns/manage-campaigns.md#statuses) dieser Kampagne in **[!UICONTROL Angehalten]**.
+>Wenn eine Live-Kampagne in einem IP-Aufwärmplan verwendet wird, ändert sich nach der [&#x200B; des Plans &#x200B;](ip-warmup-execution.md#mark-as-completed)Abgeschlossen[&#x200B; der Status](../campaigns/manage-campaigns.md#statuses) dieser Kampagne in **[!UICONTROL Angehalten]**.
 
