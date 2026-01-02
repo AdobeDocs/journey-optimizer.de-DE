@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Google, TXT, Eintrag, Gmail, Zustellbarkeit
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: e89bec74f597185065b274d22740324a09e9319e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 100%
+source-wordcount: '280'
+ht-degree: 75%
 
 ---
 
@@ -40,3 +40,17 @@ Gehen Sie wie folgt vor, um Ihrer Subdomain einen Google TXT-Eintrag hinzuzufüg
    ![](assets/subdomain-google-txt.png)
 
 1. Nachdem der TXT-Eintrag hinzugefügt wurde, muss er von Google verifiziert werden. Gehen Sie dazu zu [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> und starten Sie den Verifizierungsvorgang.
+
+## Aktualisieren eines Google TXT-Eintrags {#update-google-txt-record}
+
+Gehen Sie wie folgt vor, um einen vorhandenen Google TXT-Eintrag zu aktualisieren:
+
+1. Öffnen Sie die Subdomain über das Menü **[!UICONTROL Subdomains]** .
+
+1. Löschen Sie den vorhandenen Wert im Feld **[!UICONTROL Google TXT-]** und klicken Sie auf **[!UICONTROL Speichern]**. Dieser Schritt ersetzt den vorherigen Google TXT-Datensatzwert durch eine leere Zeichenfolge.
+
+1. Öffnen Sie nun dieselbe Subdomain erneut und geben Sie den neuen Verifizierungs-Code ein.
+
+1. Klicken Sie **[!UICONTROL erneut auf]** Speichern“.
+
+1. Überprüfen Sie den aktualisierten Datensatz über [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}.
