@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Journeys
-description: Erste Schritte mit Journeys
+description: Erste Schritte mit Journey - Erfahren Sie mehr über Journey-Typen, Workflows, Funktionen und Best Practices zum Erstellen personalisierter Kundenerlebnisse in Adobe Journey Optimizer
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
-keywords: Journey, Entdecken, erste Schritte
+keywords: Journey, Entdecken, Erste Schritte, Unitär, Zielgruppe lesen, Zielgruppen-Qualifizierung, Geschäftsereignis, Echtzeit, Geplant, Batch, ereignisausgelöst, Workflow, Orchestrierung, Personalisierung, Multi-Channel
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: a4b6b048d60847531e0e61de702b48ebe82884d3
+source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 4%
 
 ---
@@ -35,59 +35,31 @@ Verwenden Sie [!DNL Journey Optimizer] für:
 
 ![Benutzeroberfläche des Journey-Designers mit Palette, Arbeitsfläche und Eigenschaftenbereich](assets/journey38.png)
 
-➡️ **Bereit zum Bauen?Journey** [Erstellen Sie Ihre erste &#x200B;](journey-gs.md) in 5 Minuten.
+➡️ **Bereit zum Bauen?Journey** [Erstellen Sie Ihre erste ](journey-gs.md) in 5 Minuten.
+
+### Journey vs. Kampagnen: Verwendung der einzelnen {#journeys-vs-campaigns-intro}
+
+Adobe Journey Optimizer bietet drei Ansätze, um Kundinnen und Kunden zu erreichen: **Journey** (:1 Echtzeit-Orchestrierung), **Kampagnen** (einfacher Batch- oder API-gesteuerter Versand) und **Orchestrierte Kampagnen** (Batch-Arbeitsflächen-Workflows mit Daten aus mehreren Entitäten).
+
+**Schnelle Entscheidung:**
+
+* Verwenden Sie **Journey** für mehrstufige, verhaltensgesteuerte Erlebnisse, bei denen jeder Kunde in seinem eigenen Tempo Fortschritte macht
+* Verwenden **Aktion/API-Kampagnen** für einen einfachen, geplanten oder ausgelösten Nachrichtenversand an Zielgruppen
+* Verwenden Sie **Orchestrierte Kampagnen** für komplexe Batch-Workflows, die eine Segmentierung mehrerer Entitäten und exakte Zählungen vor dem Versand erfordern
+
+<!-- waiting for DOCAC-13912
+➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
 
 ## Journey-Typ auswählen {#journey-types}
 
-**Bevor Sie mit der Erstellung**, müssen Sie wissen, welcher Journey-Typ zu Ihrem Anwendungsfall passt. Adobe Journey Optimizer unterstützt vier Journey-Typen, die jeweils für unterschiedliche Einstiegsmechanismen und Geschäftsszenarien entwickelt wurden:
+Adobe Journey Optimizer unterstützt vier Journey-Typen, die jeweils für unterschiedliche Einstiegsmechanismen und Geschäftsszenarien entwickelt wurden:
 
->[!BEGINTABS]
+* **Unitäre Journey**: Ereignisgesteuerte Erlebnisse in Echtzeit (Bestellbestätigungen, Willkommens-E-Mails)
+* **Audience-Journey lesen**: Geplante Batch-Nachrichten an Zielgruppensegmente (Newsletter, Werbekampagnen)
+* **Journey zur Zielgruppenqualifizierung**: Echtzeit-Reaktionen auf Änderungen der Zielgruppenmitgliedschaft (VIP-Upgrades, Rückgewinnung)
+* **Geschäftsereignis-Journey**: Geschäftsbedingungen, die mehrere Kunden betreffen (Inventarwarnungen, Flash-Verkäufe)
 
->[!TAB Unitäre Journey]
-
-**Verwendung:** Erlebnisse in Echtzeit, ausgelöst durch Ereignisse
-
-**Unitäre Journey** werden einzeln ausgelöst, wenn eine bestimmte Aktion stattfindet (Kauf, App-Anmeldung, Formularübermittlung). Profile treten jeweils in Echtzeit einzeln ein, wodurch dies ideal für sofortige, verhaltensgesteuerte Antworten ist.
-
-**Perfekt für:** Bestellbestätigungen nach dem Kauf, Willkommens-E-Mails, wenn sich jemand anmeldet, Warenkorbabbruch, der durch Browsen ausgelöst wird, und Benachrichtigungen zum Zurücksetzen des Kennworts.
-
-➡️ [Informationen zu Ereignissen](../event/about-events.md) | [Anwendungsfall „Nachricht an Abonnenten“](message-to-subscribers-uc.md)
-
->[!TAB Audience-Journey lesen]
-
-**Verwendung:** Geplante Kampagnen für Zielgruppensegmente
-
-**Zielgruppen-Journey lesen** Beginnen Sie mit einer Adobe Experience Platform-Zielgruppe und senden Sie Nachrichten im Batch an alle Profile gleichzeitig. Dieser Journey-Typ eignet sich ideal für geplante Kommunikation in großem Maßstab.
-
-**Perfekt für:** monatliche Newsletter, Werbekampagnen für bestimmte Segmente, Produktankündigungen und saisonale Marketing-Kampagnen.
-
-➡️ [Erfahren Sie mehr über „Zielgruppe lesen“](read-audience.md) | [Erste Schritte mit Audiences](../audience/about-audiences.md)
-
->[!TAB Journey zur Zielgruppenqualifizierung]
-
-**Verwendung:** Echtzeit-Reaktionen auf Änderungen der Zielgruppenzugehörigkeit
-
-**Journey für die Zielgruppenqualifizierung** Trigger, wenn Profile für eine bestimmte Zielgruppe qualifiziert sind (oder diese verlassen haben). Profile treten einzeln ein, wenn sie die Kriterien in Echtzeit erfüllen, was eine sofortige Interaktion ermöglicht, wenn sich das Kundenverhalten ändert.
-
-**Ideal für:** Benachrichtigungen zu VIP-Stufen-Upgrades, Rückgewinnung von Interaktionen, wenn Kunden inaktiv werden, Nachrichten zu ersten Kauffeiern und geografisches Targeting, wenn Kunden umziehen.
-
-➡️ [Informationen zur Zielgruppen-Qualifizierung](audience-qualification-events.md) | [Erstellen von Zielgruppen](../audience/creating-a-segment-definition.md)
-
->[!TAB Journey für Geschäftsereignisse]
-
-**Verwendung:** Geschäftsbedingungen, die mehrere Kunden betreffen
-
-**Geschäftsereignis-Journey** werden durch Ereignisse auf Unternehmensebene ausgelöst (Stock-Updates, Wetterwarnungen, Preisänderungen), die mehrere Profile gleichzeitig betreffen. Sie sind nicht auf Einzelaktionen, sondern auf umfassendere Geschäftsbedingungen ausgerichtet.
-
-**Perfekt für:** Warnungen bei geringem Bestand an interessierte Kunden, Flash-Verkaufsankündigungen, wetterbasierte Werbeaktionen, Benachrichtigungen zu Preisrückgängen und Warnhinweise für das Produkt-Back-in-Stock.
-
-➡️ [Erfahren Sie mehr über Geschäftsereignisse](../event/about-creating-business.md) | [Zutrittsverwaltung](entry-management.md)
-
->[!ENDTABS]
-
->[!NOTE]
->
->Nicht sicher, welcher Typ ausgewählt werden soll? Beginnen Sie mit **Unitäre Journey** für ereignisbasierte Erlebnisse oder **Audience-Journey lesen** für geplante Kampagnen. Diese decken die häufigsten Anwendungsfälle ab.
+➡️ **[Journey-Typen und Auswahlhandbuch](journey-types-selection.md)** - Detaillierter Vergleich, Entscheidungsbaum und Funktionskompatibilitätsmatrix
 
 ## Erstellen mit dem Journey-Designer {#journey-designer}
 
@@ -100,7 +72,7 @@ Der **[Journey-Designer](using-the-journey-designer.md)** ist Ihre visuelle Arbe
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Einstiegspunkte definieren**
 
@@ -110,7 +82,7 @@ Wählen Sie aus, wie Kunden eintreten: durch ein Ereignis, ein Zielgruppensegmen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Nachrichten senden**
 
@@ -120,7 +92,7 @@ Verwenden Sie integrierte Kanalaktionen für E-Mail, Push, SMS/MMS, In-App, Web 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Logik und Bedingungen hinzufügen**
 
@@ -130,7 +102,7 @@ Verzweigen Sie Ihren Journey anhand von Profilattributen, Zielgruppenzugehörigk
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Nutzen von Daten**
 
@@ -140,7 +112,7 @@ Verwenden Sie kontextuelle Daten aus Ereignissen, Adobe Experience Platform oder
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Externe Systeme anschließen**
 
@@ -150,7 +122,7 @@ Erstellen Sie benutzerdefinierte Aktionen zur Integration von Drittanbietersyste
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Orchestrierungsaktivitäten hinzufügen**
 
@@ -241,7 +213,7 @@ Lernen Sie aus Praxisbeispielen, die zeigen, wie sich Journey-Konzepte zur Lösu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Willkommen bei neuen Abonnenten**
 
@@ -251,7 +223,7 @@ Wenn eine Kundin oder ein Kunde sich für Ihren Service anmeldet, legen Sie eine
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimierung des Versandzeitpunkts**
 
@@ -261,7 +233,7 @@ Verwenden Sie KI, um E-Mails zu senden, wenn jeder Kunde mit größter Wahrschei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Steigern der Versandaktivität**
 
@@ -271,7 +243,7 @@ Erhöhen Sie das Nachrichtenvolumen schrittweise, um Ihre Reputation beim Versan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Target nach Wochentag**
 
@@ -281,7 +253,7 @@ Senden Sie je nach Wochentag, an dem Kunden Ihre Journey eingeben, unterschiedli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Multi-Channel-Kampagnen**
 
@@ -291,7 +263,7 @@ Orchestrieren Sie nahtlose Erlebnisse für E-Mail, Push, SMS und Web-Kanäle in 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Alle Anwendungsfälle**
 
@@ -309,7 +281,7 @@ Wenn Sie sich mit der Erstellung von Journey vertraut machen, sollten Sie diese 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Erweiterte Ausdrücke**
 
@@ -319,7 +291,7 @@ Erstellen Sie dynamische Bedingungen und Personalisierung mit dem Ausdrucksedito
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Zeitzonen**
 
@@ -329,7 +301,7 @@ Verarbeiten Sie globale Zielgruppen mit automatischen Zeitzonenanpassungen und o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Testmodus und Probelauf**
 
@@ -339,7 +311,7 @@ Validieren Sie Journey mit Testprofilen, bevor Sie live gehen, und zeigen Sie ei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **In Sandbox kopieren**
 
@@ -349,7 +321,7 @@ Duplizieren Sie Journey in Sandboxes, um Test- und Bereitstellungs-Workflows zu 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tags und Organisation**
 
@@ -359,7 +331,7 @@ Verwenden Sie Tags, um Journey zu kategorisieren und zu filtern und so eine skal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Durchsatzkontrolle**
 
@@ -376,9 +348,37 @@ Schränken Sie den Nachrichtendurchsatz ein, um die Reputation des Versands zu v
 
 Hier erhalten Sie eine visuelle Einführung in das Journey von Komponenten und lernen die Grundlagen des Erstellens von Journey auf der Arbeitsfläche kennen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Möchten Sie mehr Videos?** [Erkunden von Journey-Video-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+
+## Häufige Fragen {#common-questions}
+
+**F: Was ist der Unterschied zwischen einer Journey und einer Kampagne?**
+
+A: Adobe Journey Optimizer bietet drei Ansätze:
+
+* **Journey**: 1:1 Echtzeit-Orchestrierung, bei der jedes Profil Schritte in seinem eigenen Tempo durchläuft. Optimiert für verhaltensgesteuerte mehrstufige Erlebnisse mit bedingter Logik (z. B. Onboarding, Warenkorbabbruch).
+
+* **Kampagnen (Aktion und API-gesteuert)**: Einfacher Nachrichtenversand an Zielgruppen, gleichzeitige Ausführung an alle Profile entweder planmäßig oder über den API-Trigger. Optimiert für Werbekampagnen, Newsletter, Transaktionsnachrichten.
+
+* **Orchestrierte Kampagnen**: Mehrstufige Batch-Workflows mit komplexer Segmentierung unter Verwendung relationaler Daten (Profile + Produkte/Geschäfte/Buchungen). Alle Profile werden mit exakten Zählungen vor dem Versand verarbeitet. Optimiert für saisonale Promotions, Produkteinführungen und Kampagnen, für die Daten mit mehreren Entitäten erforderlich sind.
+
+**Hauptunterschied**: Journey verwalten den individuellen Kundenstatus für Echtzeit-Aktionen; Aktions-/API-Kampagnen liefern einfache Nachrichten im Batch; Orchestrierte Kampagnen bieten die Arbeitsfläche des Batch-Workflows mit Funktionen für die Segmentierung mehrerer Entitäten.
+
+<!-- waiting for DOCAC-13912 [See detailed comparison](#journeys-vs-campaigns) | -->[Erfahren Sie mehr über orchestrierte Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)
+
+<!-- Waiting for DOCAC-13912
+**Q: Which journey type should I use?**
+
+A: Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+-->
+
+**F: Kann ich eine Live-Journey bearbeiten?**
+
+A.: Sie können eingeschränkte Elemente (Name, Nachrichteninhalt) bearbeiten, aber strukturelle Änderungen erfordern die Erstellung einer neuen Version. [Informationen zu Journey-Versionen](publish-journey.md#journey-versions)
+
+➡️ **Weitere Fragen?** [Vollständige Journey-FAQ anzeigen](journey-faq.md) mit mehr als 40 detaillierten Antworten
 
 ## Brauchen Sie Hilfe? {#help}
 
