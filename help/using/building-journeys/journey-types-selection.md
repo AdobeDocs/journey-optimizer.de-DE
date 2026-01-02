@@ -10,7 +10,7 @@ keywords: Journey-Typen, unitär, Zielgruppe lesen, Zielgruppen-Qualifizierung, 
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 4%
@@ -177,5 +177,6 @@ Nachdem Sie nun die Journey-Typen verstehen, können Sie:
 * **[Häufig gestellte Fragen zum Journey](journey-faq.md)** - Häufig gestellte Fragen beantwortet
 
 **Müssen Sie mit Kampagnen vergleichen?**
-&#x200B;- Vergleichshandbuch zu [Journey und Kampagnen](../start/journeys-vs-campaigns.md) - Wählen Sie zwischen Journey-, Aktions-/API-Kampagnen und orchestrierten Kampagnen
+
+* Vergleichshandbuch zu [Journey und Kampagnen](../start/journeys-vs-campaigns.md) - Wählen Sie zwischen Journey-, Aktions-/API-Kampagnen und orchestrierten Kampagnen
 
