@@ -9,9 +9,9 @@ level: Beginner
 keywords: Journey, Kampagne, orchestriert, Vergleich, Auswählen, Entscheidung, Workflow, Echtzeit, Batch, Orchestrierung, mehrstufig, geplant, API-ausgelöst, ereignisgesteuert
 hide: true
 hidefromtoc: true
-source-git-commit: 5c842eb5d744380b462c6830af0838aa3329e9f7
+source-git-commit: 3fd971c719bfd667fe5b237c8f03a5915422c1e7
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1334'
 ht-degree: 3%
 
 ---
@@ -221,32 +221,42 @@ Kombiniert die Komplexität eines Workflows mit der Ausführung einer Batch-Kamp
 
 ## Häufige Fragen {#common-questions}
 
-**F: Kann ich Journey und Kampagnen in meiner Marketing-Strategie kombinieren?**
++++ Kann ich Journey und Kampagnen in meiner Marketing-Strategie kombinieren?
 
-A: Absolut! Die meisten Unternehmen verwenden alle drei Ansätze für verschiedene Szenarien:
+Absolut! Die meisten Unternehmen verwenden alle drei Ansätze für verschiedene Szenarien:
 - Journey für verhaltensbezogene Interaktion in Echtzeit
 - Aktionskampagnen für geplante Broadcast-Nachrichten
 - API-gesteuerte Kampagnen für Transaktionsnachrichten
 - Orchestrierte Kampagnen für komplexe, datenintensive Batch-Kampagnen
 
-**F: Kann ich eine Kampagne in eine Journey konvertieren oder umgekehrt?**
++++
 
-A: Nein, Sie müssen das Erlebnis im entsprechenden Format neu erstellen. Sie können jedoch Inhalte, Zielgruppen und Logikkonzepte wiederverwenden.
++++ Kann ich eine Kampagne in eine Journey konvertieren oder umgekehrt?
 
-**F: Welcher Ansatz ist einfacher zu erstellen?**
+Nein, Sie müssen das Erlebnis im entsprechenden Format neu erstellen. Sie können jedoch Inhalte, Zielgruppen und Logikkonzepte wiederverwenden.
 
-A.: Aktionskampagnen sind in der Regel die einfachste (eine Nachricht an die Zielgruppe), gefolgt von API-ausgelösten Kampagnen, Journey (komplexer mit Mehrstufenlogik) und orchestrierten Kampagnen (am komplexesten aufgrund des Arbeitsflächen-Workflows und der Funktionen für mehrere Entitäten).
++++
 
-**F: Welche Skalierung ist für große Zielgruppen besser?**
++++ Welcher Ansatz ist einfacher zu erstellen?
 
-A: Alle drei können gut skalieren, aber:
+Aktionskampagnen sind in der Regel die einfachste (eine Nachricht an die Zielgruppe), gefolgt von API-ausgelösten Kampagnen, Journey (komplexer mit Mehrstufenlogik) und orchestrierten Kampagnen (am komplexesten aufgrund des Arbeitsflächen-Workflows und der Funktionen für mehrere Entitäten).
+
++++
+
++++ Welche Skalierung ist für große Zielgruppen besser?
+
+Alle drei können gut skaliert werden, aber:
 - **Journey** und **Action-** sind für große Batch-Zielgruppen optimiert
 - **Orchestrierte Kampagnen** zeichnen sich durch eine komplexe Segmentierung mit großen Datensätzen aus
 - **Unitäre Journey** verarbeiten Profile einzeln, sodass die Skalierung vom Ereignisvolumen abhängt
 
-**F: Kann ich dieselbe Zielgruppe für Journey und Kampagnen verwenden?**
++++
 
-A: Ja, in Adobe Experience Platform erstellte Zielgruppen können für alle drei Ansätze verwendet werden.
++++ Kann ich dieselbe Zielgruppe für Journey und Kampagnen verwenden?
+
+Ja, in Adobe Experience Platform erstellte Zielgruppen können für alle drei Ansätze verwendet werden.
+
++++
 
 ## Nächste Schritte {#next-steps}
 
