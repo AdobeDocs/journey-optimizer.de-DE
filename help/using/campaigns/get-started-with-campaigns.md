@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: e2cf581c2638a71d76b1a8d198ceb48c53c97188
+source-git-commit: cebb21aba29a15236b6810309efc488b578a1ca6
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1539'
 ht-degree: 32%
 
 ---
@@ -186,9 +186,9 @@ Der Aufbau erfolgreicher Kampagnen erfolgt nach einem klaren, wiederholbaren Pro
 Bevor Sie beginnen, klären Sie Ihre Ziele:
 
 * **Was ist das Ziel?** (z. B. Konversionen fördern, die Interaktion steigern, Kunden benachrichtigen)
-* **Wer ist das Publikum?** (bestimmtes Segment aus Adobe Experience Platform)
+* **Wer ist das Publikum?** (z. B. aus Adobe Experience Platform erstellen oder auswählen)
 * **Welcher Kampagnentyp passt?** (Siehe [Kampagnentypen](#campaign-types) oben)
-* **Welche Kanäle werden Sie verwenden?** (E-Mail, Push, SMS, In-App, Web usw.)
+* **Welche Kanäle werden Sie verwenden?** (E-Mail, Push, SMS, In-App, Web usw.) → [Siehe Unterstützte Kanäle nach Kampagnentyp](../channels/gs-channels.md#channels)
 * **Wann sollte sie ausgeführt werden?** (sofort, geplant oder API-ausgelöst)
 
 ### &#x200B;2. **Kampagneneigenschaften konfigurieren** {#configure}
@@ -197,7 +197,7 @@ Richten Sie die Grundlage Ihrer Kampagne ein:
 
 1. **Benennen und beschreiben** zur einfachen Identifizierung Ihrer Kampagne
 2. **Kampagnentyp auswählen** (Aktion, API-ausgelöst oder orchestriert)
-3. **Wählen Sie Ihre** aus Adobe Experience Platform
+3. **Wählen Sie Ihre Audience**
 4. **Priorität festlegen** bei Verwendung des Konflikt-Managements
 5. **Zeitplan konfigurieren** (für Aktionskampagnen) oder API-Details (für API-ausgelöste)
 
@@ -309,7 +309,7 @@ Entdecken Sie die folgenden leistungsstarken Funktionen, während Sie sich mit K
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planung und Timing**
 
@@ -319,7 +319,7 @@ Sie können Kampagnen für bestimmte Daten/Zeiten planen, wiederkehrende Sendung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Ratenkontrolle**
 
@@ -329,7 +329,7 @@ Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Syst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Zielgruppen-Targeting**
 
@@ -339,7 +339,7 @@ Targeting bestimmter Adobe Experience Platform-Zielgruppen mit Präzision und dy
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Genehmigungs-Workflows**
 
@@ -349,7 +349,7 @@ Implementieren Sie Prüfungs- und Genehmigungsprozesse, bevor Kampagnen live geh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ruhige Stunden**
 
@@ -359,7 +359,7 @@ Berücksichtigung der Kundenpräferenzen durch Vermeidung des Nachrichtenversand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimierung des Versandzeitpunkts**
 
