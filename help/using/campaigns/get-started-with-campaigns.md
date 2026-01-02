@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: edf8ad3cf95cc2a8dcaf3e1abd0203785eda8fb5
+source-git-commit: f42da9aa4a4aba053d967ec81b98cabe4ac2745a
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1549'
 ht-degree: 31%
 
 ---
@@ -276,27 +276,27 @@ Entdecken Sie die folgenden leistungsstarken Funktionen, während Sie sich mit K
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planung und Timing**
 
-Sie können Kampagnen für bestimmte Daten/Zeiten planen, wiederkehrende Sendungen festlegen und die Versandzeiten optimieren, um eine maximale Wirkung zu erzielen.
+Sie können Kampagnen für bestimmte Daten/Zeiten planen, wiederkehrende Sendungen festlegen und die Versandzeiten optimieren, um eine maximale Wirkung zu erzielen. (Aktion und API-ausgelöste Kampagnen)
 
 [Informationen zur Zeitplanung](campaign-schedule.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Ratenkontrolle**
 
-Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundenunterstützungsplattformen zu verhindern.
+Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundenunterstützungsplattformen zu verhindern. (Aktion und API-ausgelöste Kampagnen)
 
 [Limits für Kontrollsätze](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Zielgruppen-Targeting**
 
@@ -306,33 +306,33 @@ Targeting bestimmter Adobe Experience Platform-Zielgruppen mit Präzision und dy
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Genehmigungs-Workflows**
 
-Implementieren Sie Prüfungs- und Genehmigungsprozesse, bevor Kampagnen live gehen, um Qualität und Compliance sicherzustellen.
+Implementieren Sie Prüfungs- und Genehmigungsprozesse, bevor Kampagnen live gehen, um Qualität und Compliance sicherzustellen. (Aktion und API-ausgelöste Kampagnen)
 
 [Überprüfen und aktivieren](review-activate-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ruhige Stunden**
 
-Berücksichtigung der Kundenpräferenzen durch Vermeidung des Nachrichtenversands innerhalb bestimmter Zeitfenster
+Berücksichtigung der Kundenpräferenzen durch Vermeidung des Nachrichtenversands innerhalb bestimmter Zeitfenster (Aktion und API-ausgelöste Kampagnen)
 
 [Konfigurieren von ruhigen Stunden](quiet-hours.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-**Optimierung des Versandzeitpunkts**
+**Optimierung**
 
-Verwenden Sie KI, um den besten Zeitpunkt für den Versand von Nachrichten zu bestimmen, damit jede Person maximal interagieren kann.
+Verwenden Sie Targeting-Regeln und Inhaltsexperimente, um personalisierte Inhalte bereitzustellen und die Interaktion zu maximieren.
 
-[Versandzeitpunkt optimieren](campaigns-message-optimization.md)
+[Kampagnen optimieren](campaigns-message-optimization.md)
 :::
 
 ::::
