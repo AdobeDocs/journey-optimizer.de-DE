@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 2090f99e6aa1b255e36d01687cef49295b88f1ce
+source-git-commit: edf8ad3cf95cc2a8dcaf3e1abd0203785eda8fb5
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 31%
@@ -183,10 +183,7 @@ Richten Sie die Grundlage Ihrer Kampagne ein:
 4. **Priorität festlegen** bei Verwendung des Konflikt-Managements
 5. **Zeitplan konfigurieren** (für Aktionskampagnen) oder API-Details (für API-ausgelöste)
 
-**Typspezifische Handbücher:**
-* [Eigenschaften der Aktionskampagne →](campaign-properties.md)
-* [API-ausgelöste Kampagneneigenschaften →](api-triggered-campaign-properties.md)
-* [→ für koordinierte Kampagnen](../orchestrated/create-orchestrated-campaign.md)
+**Typspezifische Handbücher:** [Kampagneneigenschaften](campaign-properties.md) | [API-ausgelöste Kampagneneigenschaften](api-triggered-campaign-properties.md) | [Orchestrierte Kampagneneinrichtung](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;3. Gestalten von Inhalten {#design}
 
@@ -198,10 +195,7 @@ Erstellen Sie überzeugende Botschaften für Ihre Zielgruppe:
 * Erstellen **In-App**- und **Web** Erlebnissen
 * Hinzufügen **Personalisierung** mithilfe von Profilattributen und kontextuellen Daten
 
-**Typspezifische Handbücher:**
-* [→ für Aktionskampagneninhalte](campaign-content.md)
-* [API-ausgelöste Kampagneninhalts-→](api-triggered-campaign-content.md)
-* [Orchestrierte → von Kampagneninhalten](../orchestrated/create-orchestrated-campaign.md)
+**Typspezifische Handbücher:** [Kampagneninhalt](campaign-content.md) | [API-ausgelöste Kampagneninhalte](api-triggered-campaign-content.md) | [Orchestrierte Kampagneninhalte](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;4. Überprüfung und Test {#review}
 
@@ -213,10 +207,7 @@ Erstellen Sie überzeugende Botschaften für Ihre Zielgruppe:
 * **Genehmigung anfordern** bei Verwendung des Genehmigungs-Workflows
 * **Zustellbarkeit testen** mit Testadressenlisten
 
-**Typspezifische Handbücher:**
-* [→ für Aktionskampagnen überprüfen](review-activate-campaign.md)
-* [Überprüfen der API-ausgelösten Kampagnen →](review-activate-api-triggered-campaign.md)
-* [Überprüfen orchestrierter Kampagnen →](../orchestrated/create-orchestrated-campaign.md)
+**Typspezifische Handbücher:** [Aktionskampagnen überprüfen](review-activate-campaign.md) | [API-ausgelöste Kampagnen überprüfen](review-activate-api-triggered-campaign.md) | [Überprüfen von orchestrierten Kampagnen](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;5. Aktivieren der Kampagne {#activate}
 
@@ -227,10 +218,7 @@ Aktivieren Sie nach Abschluss der Überprüfung Ihre Kampagne:
 * **Genehmigungsprozess** - Warten Sie bei Bedarf auf die Genehmigung durch die Stakeholder
 * Hinweis: Aktive Kampagnen können nicht bearbeitet werden (Sie müssen sie duplizieren, um Änderungen vorzunehmen)
 
-**Typspezifische Handbücher:**
-* [→ für Aktionskampagnen aktivieren](review-activate-campaign.md)
-* [API-ausgelöste Kampagnen aktivieren →](review-activate-api-triggered-campaign.md)
-* [Aktivieren von orchestrierten Kampagnen →](../orchestrated/create-orchestrated-campaign.md)
+**Typspezifische Handbücher:** [Aktivieren von Aktionskampagnen](review-activate-campaign.md) | [API-ausgelöste Kampagnen aktivieren](review-activate-api-triggered-campaign.md) | [Aktivieren von orchestrierten Kampagnen](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;6. Überwachen und Analysieren {#monitor}
 
@@ -242,10 +230,7 @@ Verfolgen Sie die Leistung Ihrer Kampagne:
 * Konversionen und ROI analysieren
 * Verwenden von Einblicken für die Optimierung
 
-**Typspezifische Handbücher:**
-* [Aktionskampagnenberichte →](../reports/campaign-global-report-cja.md)
-* [API-ausgelöste → zur Kampagnenüberwachung](api-triggered-campaigns.md#monitor)
-* [Orchestrierte Kampagnen - →](../orchestrated/create-orchestrated-campaign.md)
+**Typspezifische Handbücher:** [Aktionskampagnenberichte](../reports/campaign-global-report-cja.md) | [API-ausgelöste Kampagnenüberwachung](api-triggered-campaigns.md#monitor) | [Orchestrierte Kampagnenanalyse](../orchestrated/create-orchestrated-campaign.md)
 
 ➡️ **Bereit zum Start?** Wählen Sie Ihren Kampagnentyp:
 * [→ für Aktionskampagnen erstellen](create-campaign.md)
@@ -291,7 +276,7 @@ Entdecken Sie die folgenden leistungsstarken Funktionen, während Sie sich mit K
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planung und Timing**
 
@@ -301,7 +286,7 @@ Sie können Kampagnen für bestimmte Daten/Zeiten planen, wiederkehrende Sendung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Ratenkontrolle**
 
@@ -311,7 +296,7 @@ Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Syst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Zielgruppen-Targeting**
 
@@ -321,7 +306,7 @@ Targeting bestimmter Adobe Experience Platform-Zielgruppen mit Präzision und dy
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Genehmigungs-Workflows**
 
@@ -331,7 +316,7 @@ Implementieren Sie Prüfungs- und Genehmigungsprozesse, bevor Kampagnen live geh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ruhige Stunden**
 
@@ -341,7 +326,7 @@ Berücksichtigung der Kundenpräferenzen durch Vermeidung des Nachrichtenversand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimierung des Versandzeitpunkts**
 
