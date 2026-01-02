@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
+source-git-commit: d33a299523b7964be5ec1694de49c777e54bf98c
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 96%
+source-wordcount: '1616'
+ht-degree: 66%
 
 ---
 
@@ -29,7 +29,24 @@ ht-degree: 96%
 >title="Aktion"
 >abstract="In diesem Abschnitt werden alle in der orchestrierten Kampagne verwendeten Aktionen aufgelistet."
 
-Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden. Verwenden Sie die Registerkarten, um Kampagnen nach Typ zu durchsuchen: **Aktionskampagnen**, **durch API ausgelöste Kampagnen** und **orchestrierte Kampagnen**. Erfahren Sie mehr über die [Kampagnentypen](get-started-with-campaigns.md#get-started-campaigns). Die verfügbaren Typen hängen von Ihrer Lizenzvereinbarung und Ihren Berechtigungen ab.
+Erfahren Sie, wie Sie in Adobe Journey Optimizer auf Kampagnen zugreifen und diese organisieren und verwalten können. Dieses Handbuch behandelt alle Themen, von der Suche nach Kampagnen über das Verstehen von Status, die Durchführung allgemeiner Vorgänge bis hin zur Pflege des Kampagnenarbeitsbereichs.
+
+## Schnellstart: Allgemeine Aufgaben {#quick-tasks}
+
+Direkt zu dem wechseln, was Sie benötigen:
+
+* **Neue Kampagne erstellen** → [Wählen Sie Ihren Kampagnentyp](get-started-with-campaigns.md#campaign-types)
+   * [Erstellen einer Aktionskampagne](create-campaign.md)
+   * [API-ausgelöste Kampagne erstellen](api-triggered-campaigns.md)
+   * [Erstellen einer orchestrierten Kampagne](../orchestrated/gs-orchestrated-campaigns.md)
+* **Vorhandene Kampagnen suchen** → [Suchen und Filtern](#access)
+* **Anzeigen der Kampagnenleistung** → [Kampagnenberichte](../reports/campaign-global-report-cja.md)
+* **Kampagnen planen** → [Kalender verwenden](#calendar)
+* **Konflikte verwalten** → [Handbuch für das Konfliktmanagement](../conflict-prioritization/gs-conflict-prioritization.md)
+
+## Zugreifen auf und Durchsuchen von Kampagnen {#access}
+
+Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden. Verwenden Sie die Registerkarten, um Kampagnen nach Typ zu durchsuchen: **Aktionskampagnen**, **durch API ausgelöste Kampagnen** und **orchestrierte Kampagnen**. Erfahren Sie mehr über die [Kampagnentypen](get-started-with-campaigns.md#campaign-types). Die verfügbaren Typen hängen von Ihrer Lizenzvereinbarung und Ihren Berechtigungen ab.
 
 >[!BEGINTABS]
 
@@ -53,77 +70,59 @@ Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL 
 
 Wählen Sie die Registerkarte **[!UICONTROL Orchestrierung]** aus, um auf die Liste der orchestrierten Kampagnen zuzugreifen.
 
-![Bild, das das Inventar der orchestrierten Kampagnen zeigt](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
+![Bild, das das Inventar der orchestrierten Kampagnen zeigt](assets/inventory.png){zoomable="yes"}
 
-Zu jeder orchestrierten Kampagne in der Liste werden Informationen angezeigt, beispielsweise der aktuelle [Status](#status) der Kampagne, der zugehörige Kanal und zugehörige Tags oder der Zeitpunkt der letzten Änderung. Sie können die angezeigten Spalten anpassen, indem Sie auf die Schaltfläche ![Layout konfigurieren](assets/do-not-localize/inventory-configure-layout.svg) klicken.
+Jede orchestrierte Kampagne in der Liste zeigt Informationen wie den aktuellen (Status[ der Kampagne, ](#statuses) zugehörigen Kanal und Tags oder das letzte Mal, wann sie geändert wurde, an. Sie können die angezeigten Spalten anpassen, indem Sie auf die Schaltfläche ![Layout konfigurieren](assets/do-not-localize/inventory-configure-layout.svg) klicken.
 
 >[!ENDTABS]
+
+### Kampagnen durchsuchen und filtern {#search-filter}
 
 Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die Suche innerhalb der Liste zu erleichtern. Sie können die Kampagnen beispielsweise so filtern, dass nur die einem bestimmten Kanal oder Tag angehörenden oder nur die während eines bestimmten Datumsbereichs erstellten Kampagnen angezeigt werden.
 
-Die Schaltfläche ![Bild mit der Schaltfläche „Mehr Aktionen“](assets/do-not-localize/rule-builder-icon-more.svg) im Kampagneninventar ermöglicht die Durchführung der folgenden Vorgänge.
+## Vorgänge in Campaign {#operations}
+
+Die ![Abbildung mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) im Kampagneninventar ermöglicht die Durchführung verschiedener Vorgänge.
 
 ![Bild, das das Kampagneninventar zeigt](assets/inventory-actions.png)
 
-* **[!UICONTROL Bericht für gesamte Zeit anzeigen]** / **[!UICONTROL Bericht für letzte 24 Stunden anzeigen]**: Greifen Sie auf Berichte zu, um die Wirkung und Leistung Ihrer orchestrierten Kampagnen zu messen und zu visualisieren. Weitere Informationen zu [Kampagnenberichten](../reports/campaign-global-report-cja.md).
-* **[!UICONTROL Tags bearbeiten]**: Bearbeiten Sie die mit der Kampagne verknüpften Tags. Erfahren Sie, wie Sie [Tags in Ihren Kampagnen verwenden](../start/search-filter-categorize.md#add-tags) können.
-* **[!UICONTROL Duplizieren]**: Verwenden Sie diese Option, um eine Kampagne zu duplizieren, z. B. um eine orchestrierte Kampagne auszuführen, die gestoppt wurde. [Weitere Informationen](#duplicate-a-campaign)
-* **[!UICONTROL Löschen]**: Verwenden Sie diese Option, um eine Kampagne zu löschen. [Weitere Informationen](#delete-a-campaign)
-* **[!UICONTROL Archivieren]**: Archiviert die Kampagne. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung gelöscht. Diese Aktion ist für alle Kampagnen mit Ausnahme von Kampagnen im Status **[!UICONTROL Entwurf]** verfügbar. Weitere Informationen zur [Kampagnenarchivierung](#archive-a-campaign).
+### Verfügbare Aktionen
 
-Für von einer Aktion und durch API ausgelöste Kampagnen sind die folgenden zusätzlichen Aktionen verfügbar:
+**Für alle Kampagnentypen:**
 
-* **[!UICONTROL Zu Paket hinzufügen]**: Fügt die Kampagne zu einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. Erfahren Sie, wie Sie [Objekte in eine andere Sandbox exportieren](../configuration/copy-objects-to-sandbox.md) können.
+* **[!UICONTROL Bericht für gesamte Zeit anzeigen]** / **[!UICONTROL Bericht für letzte 24 Stunden anzeigen]**: Greifen Sie auf Berichte zu, um die Wirkung und Leistung Ihrer orchestrierten Kampagnen zu messen und zu visualisieren. [Erfahren Sie mehr über Kampagnenberichte →](../reports/campaign-global-report-cja.md)
+* **[!UICONTROL Tags bearbeiten]**: Bearbeiten Sie die mit der Kampagne verknüpften Tags. [Erfahren Sie, wie Sie Tags-→ verwenden](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL Duplizieren]**: Verwenden Sie diese Option, um eine Kampagne zu duplizieren, z. B. um eine orchestrierte Kampagne auszuführen, die gestoppt wurde. [Weitere Informationen zum Duplizieren von →](#duplicate-a-campaign)
+* **[!UICONTROL Löschen]**: Verwenden Sie diese Option, um eine Kampagne zu löschen. [Weitere Informationen zum Löschen von →](#delete-a-campaign)
+* **[!UICONTROL Archivieren]**: Archiviert die Kampagne. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung gelöscht. Diese Aktion ist für alle Kampagnen mit Ausnahme von Kampagnen im Status **[!UICONTROL Entwurf]** verfügbar. [Erfahren Sie mehr über → Archivierung](#archive-a-campaign)
+
+**Nur für von Aktionen und API ausgelöste Kampagnen:**
+
+* **[!UICONTROL Zu Paket hinzufügen]**: Fügt die Kampagne zu einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. [Erfahren Sie, wie Sie Objekte → exportieren](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Entwurfsversion öffnen]**: Wenn eine neue Version der Kampagne erstellt und noch nicht aktiviert wurde, können Sie mit dieser Aktion auf ihre Entwurfsversion zugreifen.
 
-## Kampagnenlebenszyklus {#statuses}
+## Kampagnenstatus {#statuses}
 
-In Adobe Journey Optimizer durchläuft jede Kampagne einen Lebenszyklus, der sich in ihrem Status in der Benutzeroberfläche widerspiegelt. Die verfügbaren Status variieren je nach Kampagnentyp: Aktion, durch API ausgelöst oder orchestriert. Verwenden Sie die folgenden Registerkarten, um den Lebenszyklus und die Status für die einzelnen Kampagnentypen zu untersuchen.
+Jede Kampagne durchläuft einen Lebenszyklus, der sich in ihrem Status in der Benutzeroberfläche widerspiegelt. Wenn Sie diese Status verstehen, können Sie feststellen, welche Aktionen verfügbar sind und was als Nächstes zu tun ist.
 
->[!BEGINTABS]
-
->[!TAB Aktionskampagnen]
-
-* **[!UICONTROL Entwurf]**: Die Kampagne wird noch bearbeitet, sie wurde nicht aktiviert.
-* **[!UICONTROL Geplant]**: Die Kampagne wurde so konfiguriert, dass sie an einem bestimmten Startdatum aktiviert wird.
-* **[!UICONTROL Live]**: Die Kampagne wurde aktiviert.
-* **[!UICONTROL Wird überprüft]**: Die Kampagne wurde zur Genehmigung eingereicht, damit sie veröffentlicht werden kann. [Informationen zum Arbeiten mit Genehmigungen](../test-approve/gs-approval.md)
-* **[!UICONTROL Gestoppt]**: Die Kampagne wurde manuell gestoppt. Sie können sie nicht mehr aktivieren oder wiederverwenden. [Informationen zum Stoppen einer Kampagne](manage-campaigns.md#stop)
-* **[!UICONTROL Abgeschlossen]**: Die Kampagne ist abgeschlossen. Dieser Status wird automatisch 3 Tage nach der Aktivierung einer Kampagne zugewiesen oder am Enddatum der Kampagne, wenn sie eine wiederkehrende Ausführung aufweist.
-* **[!UICONTROL Fehlgeschlagen]**: Die Ausführung der Kampagne ist fehlgeschlagen. Überprüfen Sie die Protokolle, um das Problem zu identifizieren.
-* **[!UICONTROL Archiviert]**: Die Kampagne wurde archiviert. [Informationen zum Archivieren von Kampagnen](manage-campaigns.md#archive)
-
->[!NOTE]
->
->Das Symbol „Entwurfsversion öffnen“ neben einem Status des Typs **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** zeigt an, dass eine neue Version der Aktionskampagne bzw. der durch API ausgelösten Kampagne erstellt und noch nicht aktiviert wurde.
-
->[!TAB Durch API ausgelöste Kampagnen]
-
-* **[!UICONTROL Entwurf]**: Die Kampagne wird noch bearbeitet, sie wurde nicht aktiviert.
-* **[!UICONTROL Geplant]**: Die Kampagne wurde so konfiguriert, dass sie an einem bestimmten Startdatum aktiviert wird.
-* **[!UICONTROL Live]**: Die Kampagne wurde aktiviert.
-* **[!UICONTROL Wird überprüft]**: Die Kampagne wurde zur Genehmigung eingereicht, damit sie veröffentlicht werden kann. [Informationen zum Arbeiten mit Genehmigungen](../test-approve/gs-approval.md)
-* **[!UICONTROL Gestoppt]**: Die Kampagne wurde manuell gestoppt. Sie können sie nicht mehr aktivieren oder wiederverwenden. [Informationen zum Stoppen einer Kampagne](manage-campaigns.md#stop)
-* **[!UICONTROL Abgeschlossen]**: Die Kampagne ist abgeschlossen. Dieser Status wird automatisch 3 Tage nach der Aktivierung einer Kampagne zugewiesen oder am Enddatum der Kampagne, wenn sie eine wiederkehrende Ausführung aufweist.
-* **[!UICONTROL Fehlgeschlagen]**: Die Ausführung der Kampagne ist fehlgeschlagen. Überprüfen Sie die Protokolle, um das Problem zu identifizieren.
-* **[!UICONTROL Archiviert]**: Die Kampagne wurde archiviert. [Informationen zum Archivieren von Kampagnen](manage-campaigns.md#archive)
+| Status | Aktionskampagnen | API-ausgelöste Kampagnen | Orchestrierte Kampagnen | Bedeutung | Nächste Aktionen |
+|--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
+| **[!UICONTROL Entwurf]** | ✅ | ✅ | ✅ | In Bearbeitung, nicht aktiviert | Bearbeitung fortsetzen oder [Kampagne aktivieren](review-activate-campaign.md) |
+| **[!UICONTROL Geplant]** | ✅ | ✅ | ✅ | Für bestimmtes Startdatum konfiguriert | Auf Launch warten, [bei Bedarf ändern](#modify) oder [im Kalender anzeigen](#calendar) |
+| **[!UICONTROL Live]** | ✅ | ✅ | ✅ | Aktiviert und ausgeführt | [Leistung überwachen](../reports/campaign-global-report-cja.md), [neue Version erstellen](#modify) falls erforderlich |
+| **[!UICONTROL Wird geprüft]** | ✅ | ✅ | — | Zur Genehmigung eingereicht | Warten auf [Genehmigung](../test-approve/gs-approval.md) oder ändern |
+| **[!UICONTROL Gestoppt]** | ✅ | ✅ | ✅ | Manuell angehalten, kann nicht reaktiviert werden | [Duplizieren zur Wiederverwendung](#duplicate-a-campaign) |
+| **[!UICONTROL Abgeschlossen]** | ✅ | ✅ | ✅ | Ausführung abgeschlossen (wird 3 Tage nach Aktivierung automatisch zugewiesen oder endet bei wiederkehrender Ausführung am Enddatum) | [Anzeigen von Berichten](../reports/campaign-global-report-cja.md), [Archivieren](#archive-a-campaign) oder [Duplizieren](#duplicate-a-campaign) |
+| **[!UICONTROL Fehlgeschlagen]** | ✅ | ✅ | — | Ausführung fehlgeschlagen | Überprüfen Sie Protokolle, beheben Sie Probleme [Duplizieren Sie es erneut](#duplicate-a-campaign) |
+| **[!UICONTROL Archiviert]** | ✅ | ✅ | ✅ | Archiviert (nach 30 Tagen automatisch gelöscht) | [Bei ](#access) mit Filter abrufen |
+| **[!UICONTROL Geschlossen]** | — | — | ✅ | Wiederkehrende Kampagne geschlossen, keine neuen Einträge zulässig (wird fortgesetzt, bis alle Aktivitäten abgeschlossen sind) | Auf Abschluss warten |
+| **[!UICONTROL Veröffentlichung läuft]** | — | — | ✅ | In Veröffentlichung | Warten, bis die Veröffentlichung abgeschlossen ist |
 
 >[!NOTE]
 >
->Das Symbol „Entwurfsversion öffnen“ neben einem Status des Typs **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** zeigt an, dass eine neue Version der Aktionskampagne bzw. der durch API ausgelösten Kampagne erstellt und noch nicht aktiviert wurde.
+>Bei durch eine Aktion oder API ausgelösten Kampagnen zeigt das Symbol „Entwurfsversion öffnen“ neben einem Status **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** an, dass eine neue Version erstellt wurde und noch nicht aktiviert wurde.
 
->[!TAB Orchestrierte Kampagnen]
-
-* **[!UICONTROL Entwurf]**: Die orchestrierte Kampagne wurde erstellt. Sie wurde noch nicht veröffentlicht.
-* **[!UICONTROL Wird veröffentlicht]**: Die orchestrierte Kampagne wird gerade veröffentlicht.
-* **[!UICONTROL Live]**: Die orchestrierte Kampagne wurde veröffentlicht und wird ausgeführt.
-* **[!UICONTROL Geplant]**: Die Ausführung der orchestrierten Kampagne wurde geplant.
-* **[!UICONTROL Abgeschlossen]**: Die Ausführung der orchestrierten Kampagne ist abgeschlossen. Der Status „Abgeschlossen“ wird einer Kampagne automatisch bis zu 3 Tage nach dem fehlerfreien Versand von Nachrichten zugewiesen.
-* **[!UICONTROL Geschlossen]**: Dieser Status wird angezeigt, wenn eine wiederkehrende Kampagne geschlossen wurde. Die Kampagne wird ausgeführt, bis alle Aktivitäten abgeschlossen sind, aber es können keine weiteren Profile in die Kampagne eintreten.
-* **[!UICONTROL Archiviert]**: Die orchestrierte Kampagne wurde archiviert. Alle archivierten Kampagnen werden rollierend 30 Tage nach dem Datum ihrer letzten Änderung gelöscht. Sie können eine archivierte Kampagne bei Bedarf duplizieren, um sie weiter zu bearbeiten.
-* **[!UICONTROL Gestoppt]**: Die Ausführung der orchestrierten Kampagne wurde gestoppt. Um die Kampagne erneut zu starten, müssen Sie sie duplizieren.
-
->[!ENDTABS]
+### Fehlerindikatoren
 
 Tritt in einer Ihrer Kampagnen ein Fehler auf, wird neben dem Status der Kampagne ein Warnsymbol angezeigt. Klicken Sie darauf, um Informationen zum Warnhinweis anzuzeigen. Diese Warnhinweise können in verschiedenen Situationen auftreten, z. B. wenn die Kampagnennachricht nicht veröffentlicht wurde oder die gewählte Konfiguration falsch ist.
 
@@ -142,6 +141,8 @@ Tritt in einer Ihrer Kampagnen ein Fehler auf, wird neben dem Status der Kampagn
 
 Zusätzlich zur Kampagnenliste bietet [!DNL Journey Optimizer] eine Kalenderansicht der Kampagnen mit einer übersichtlichen Darstellung der Zeitpläne. 
 
+### Funktionsweise des Kalenders
+
 Darstellung der Kampagnen:
 
 * Standardmäßig zeigt das Kalenderraster alle Live- und geplanten Kampagnen für die ausgewählte Woche an. Zusätzliche Filteroptionen können abgeschlossene, gestoppte und beendete Aktivierungen oder Aktivierungen eines bestimmten Typs oder Kanals anzeigen.
@@ -150,7 +151,7 @@ Darstellung der Kampagnen:
 * Wenn keine Startzeit angegeben ist, wird die nächste manuelle Aktivierungszeit zur Positionierung im Kalender verwendet.
 * Kampagnen werden als Zeitspannen von 1 Stunde angezeigt, dies spiegelt jedoch nicht die tatsächliche Versand- oder Abschlusszeit wider.
 
-So navigieren Sie in Ihrem Kampagnenkalender:
+### Navigieren im Kalender
 
 1. Klicken Sie auf das Symbol ![Kalender](assets/do-not-localize/Smock_Calendar_18_N.svg), um auf Ihren Kampagnenkalender zuzugreifen.
 
@@ -210,6 +211,13 @@ Gehen Sie wie folgt vor, um eine neue Version einer wiederkehrenden Aktionskampa
    >
    >Durch die Aktivierung des Entwurfs wird die Live-Version der Kampagne ersetzt.
 
+**Verwandte Themen:**
+* [Eigenschaften der Kampagne](campaign-properties.md)
+* [Kampagnenaktionen](campaign-action.md)
+* [Kampagneninhalt](campaign-content.md)
+* [Campaign-Zielgruppe](campaign-audience.md)
+* [Kampagnenzeitplan](campaign-schedule.md)
+
 ### Stoppen einer Aktionskampagne {#stop}
 
 Zum Stoppen einer wiederkehrenden Kampagne öffnen Sie diese und klicken Sie auf die Schaltfläche **[!UICONTROL Kampagne stoppen]**.
@@ -220,7 +228,7 @@ Zum Stoppen einer wiederkehrenden Kampagne öffnen Sie diese und klicken Sie auf
 >
 >Das Stoppen einer Kampagne stoppt keinen laufenden Versand, aber es stoppt einen geplanten Versand oder die nächsten Vorgänge, wenn der Versand bereits läuft.
 
-## Archivieren einer Kampagne {#archive}
+## Archivieren einer Kampagne {#archive-a-campaign}
 
 Mit der Zeit wächst die Liste der Kampagnen, wodurch es zunehmend schwieriger wird, abgeschlossene und gestoppte Kampagnen zu durchsuchen.
 
@@ -230,10 +238,9 @@ Um dies zu verhindern, können Sie abgeschlossene und gestoppte Kampagnen archiv
 
 Archivierte Kampagnen können dann mithilfe des entsprechenden Filters in der Liste abgerufen werden.
 
+## Löschen einer Kampagne {#delete-a-campaign}
 
-## Löschen einer Kampagne {#delete}
-
-Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit den Auslassungspunkten ![Bild mit der Schaltfläche „Weitere Aktionen“](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Löschen]**.
+Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit ![ Auslassungspunkten (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Löschen]**.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -241,11 +248,22 @@ Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit den Auslassung
 >
 >Diese Aktion ist nur für Kampagnen im Status **[!UICONTROL Entwurf]** verfügbar.
 
+## Duplizieren einer Kampagne {#duplicate-a-campaign}
 
-## Duplizieren einer Kampagne {#duplicate}
-
-Um eine Kampagne zu duplizieren (beispielsweise wenn sie gestoppt wurde), verwenden Sie die Schaltfläche mit den Auslassungspunkten ![Bild mit der Schaltfläche „Weitere Aktionen“](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Duplizieren]**.
+Um eine Kampagne zu duplizieren (beispielsweise wenn sie gestoppt wurde), verwenden Sie die Schaltfläche mit den ![ (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Duplizieren]**.
 
 Geben Sie den Namen der Kampagne ein und speichern Sie ihn. 
 
 Die Kampagne wurde erstellt und ist nun in der Kampagnenliste sichtbar.
+
+## Weitere Ressourcen
+
+* **Erste Schritte** - [Erste Schritte mit Kampagnen](get-started-with-campaigns.md) | [Erstellen Sie Ihre erste Aktionskampagne](create-campaign.md) | [Handbuch für API-ausgelöste Kampagnen](api-triggered-campaigns.md) | [Handbuch zu orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)
+
+* **Kampagnenkonfiguration** - [Kampagneneigenschaften](campaign-properties.md) | [Kampagnenaktionen und -kanäle](campaign-action.md) | [Kampagneninhaltsdesign](campaign-content.md) | [Audience-Auswahl in Campaign](campaign-audience.md) | [Kampagnenplanung](campaign-schedule.md)
+
+* **Erweiterte Funktionen** - [Genehmigungs-Workflows](../test-approve/gs-approval.md) | [Konfliktmanagement und Priorisierung](../conflict-prioritization/gs-conflict-prioritization.md) | [Frequenzlimitierung nach Kanal](../conflict-prioritization/channel-capping.md) | [Prioritätswerte](../conflict-prioritization/priority-scores.md) | [Exportieren von Kampagnen in andere Sandboxes](../configuration/copy-objects-to-sandbox.md)
+
+* **Überwachung und Optimierung** - [Kampagnenberichte (CJA)](../reports/campaign-global-report-cja.md) | [Einrichten von Warnhinweisen](../reports/alerts.md)
+
+* **Organisation** - [Arbeiten mit Tags](../start/search-filter-categorize.md) | [Berechtigungen verwalten](../administration/ootb-product-profiles.md)
