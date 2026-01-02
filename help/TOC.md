@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b78a7b2b4c437882c5e760efac1120e004bf640
+source-git-commit: 4cafa9bb5cf481ba79a6b8ccc43e0b7bf02566ec
 workflow-type: tm+mt
-source-wordcount: '3026'
+source-wordcount: '3029'
 ht-degree: 96%
 
 ---
@@ -65,6 +65,7 @@ ht-degree: 96%
    + Verwalten von Journeys {#manage-journey}
       + [Verwalten von Journeys](/help/rp_landing_pages/manage-journey-landing-page.md)
       + [Durchsuchen und Filtern von Journeys](using/building-journeys/journey-ui.md)
+      + [Mit Tags organisieren](using/building-journeys/tags.md)
       + [Profileintritt in Journeys](using/building-journeys/entry-management.md)
       + [Verwenden zusätzlicher Kennungen in Journeys](using/building-journeys/supplemental-identifier.md)
       + [Arbeiten mit Journey-Schrittereignissen](using/reports/journey-step-events-overview.md)
@@ -186,7 +187,7 @@ ht-degree: 96%
          + [Erste Schritte mit Aktivitäten](using/orchestrated/activities/about-activities.md)
          + [Und-Verknüpfung](using/orchestrated/activities/and-join.md)
          + [Erstellen einer Zielgruppe](using/orchestrated/activities/build-audience.md)
-         + [Dimensionsänderung](using/orchestrated/activities/change-dimension.md)
+         + [Ändern der Dimension](using/orchestrated/activities/change-dimension.md)
          + [Kanalaktivitäten](using/orchestrated/activities/channels.md)
          + [Kombinieren](using/orchestrated/activities/combine.md)
          + [Deduplizierung](using/orchestrated/activities/deduplication.md)
