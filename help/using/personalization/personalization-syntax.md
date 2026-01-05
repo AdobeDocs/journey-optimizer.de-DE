@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 88%
+source-wordcount: '678'
+ht-degree: 82%
 
 ---
 
@@ -33,7 +33,7 @@ Hier gilt:
 
 ## Allgemeine Syntaxregeln {#general-rules}
 
-* Kennungen können beliebige Unicode-Zeichen sein, mit Ausnahme folgender Einschränkungen:
+* Kennungen können beliebige Unicode-Zeichen sein, mit Ausnahme der folgenden Sonderzeichen, die für die Handlebars-Syntax reserviert sind:
 
   ```
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -136,7 +136,7 @@ Ohne die Backticks schlägt die Validierung des Personalisierungseditors mit ein
 
   +++
 
-## Helper{#helpers-all}
+## Helper {#helpers-all}
 
 Ein Handlebars-Helper ist eine einfache Kennung, auf die Parameter folgen können. Jeder Parameter ist ein Handlebars-Ausdruck. Helper können in jedem Kontext einer Vorlage aufgerufen werden.
 
@@ -144,7 +144,7 @@ Diese Block-Helper werden durch ein `#` am Anfang des Helper-Namens gekennzeichn
 
 Blöcke sind Ausdrücke mit einer Blockeröffnung (`{{# }}`) und schließendem (`{{/}}`).
 
-Weitere Informationen zu Helper-Funktionen finden Sie in [diesem Abschnitt](functions/helpers.md).
+    Weitere Informationen zu Hilfsfunktionen finden Sie in [diesem Abschnitt](functions/helpers.md).
 
 ## Literaltypen {#literal-types}
 
