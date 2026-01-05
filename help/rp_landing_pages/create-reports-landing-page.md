@@ -25,7 +25,7 @@ Durch das Erstellen von Berichten zum Entscheidungs-Management in Adobe Journey 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Arbeiten mit Entscheidungs-Management-Ereignissen
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie Entscheidungs-Management-Ereignisdatensätze für das Repo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Zugreifen auf und Erkunden von Feldern im XDM-Schema „DecisioningEvents“
 
