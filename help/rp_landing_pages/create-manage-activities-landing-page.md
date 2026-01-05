@@ -6,7 +6,7 @@ description: Erstellen und Verwalten von Entscheidungen
 redpen-status: CREATED_||_2025-08-11_21-01-28
 badge: label="Legacy" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../using/experience-decisioning/gs-experience-decisioning.md)
 
 In Adobe Journey Optimizer können Sie durch die Erstellung und Verwaltung von Entscheidungen Ihrer Kundschaft zum richtigen Zeitpunkt die relevantesten Angebote unterbreiten. Entscheidungen fungieren als intelligente Container, die Kundendaten und Geschäftsregeln auswerten, um das beste Angebot für jede Person auszuwählen. Sie erfahren, wie Sie Entscheidungsumfänge definieren, Ranking-Methoden wie Priorität oder KI konfigurieren und Fallback-Optionen festlegen, um sicherzustellen, dass keine Kundin und kein Kunde ohne Angebot bleibt. Von der Erstellung Ihrer ersten Entscheidung bis zum Testen mit Simulationen enthält dieses Handbuch alle Schritte, sodass Sie die Tools zur Personalisierung von Erlebnissen und zur Förderung einer sinnvollen Interaktion erhalten.
 
@@ -25,7 +25,7 @@ In Adobe Journey Optimizer können Sie durch die Erstellung und Verwaltung von E
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen von Entscheidungen in Adobe Journey Optimizer
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie Entscheidungen erstellen, Bereiche definieren, Fallback-An
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren von Angebotsauswahlmethoden
 
@@ -45,7 +45,7 @@ Erfahren Sie, wie Sie Ranking-Methoden für Entscheidungen konfigurieren, einsch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Simulieren von Angebotsentscheidungen
 

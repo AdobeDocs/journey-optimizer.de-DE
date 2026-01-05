@@ -6,7 +6,7 @@ description: Erstellen und Verwalten von Angeboten
 redpen-status: CREATED_||_2025-08-11_21-00-55
 badge: label="Legacy" type="Informative"
 exl-id: 4578e8fe-341e-4678-b21f-d344f0a9a63d
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Im Abschnitt „Erstellen und Verwalten von Angeboten“ in Adobe Journey Optimizer können Sie maßgeschneiderte, wirkungsvolle Angebote erstellen, die die richtige Zielgruppe zum richtigen Zeitpunkt erreichen. Ganz gleich, ob Sie personalisierte Angebote erstellen, Fallback-Optionen für eine breitere Ansprache entwickeln oder Ihre Angebote für eine nahtlose Verwaltung in dynamischen oder statischen Sammlungen organisieren – dieser Abschnitt bietet Ihnen klare, umsetzbare Anweisungen. Sie erfahren, wie Sie Ihre Angebote durch strategische Konfigurationen wie Platzierungen, Einschränkungen und Prioritäten optimieren können, um sicherzustellen, dass jede Interaktion bedeutsam ist. Tauchen Sie ein und erfahren Sie, wie diese Komponenten zusammenarbeiten, damit Sie Ihren Kundinnen und Kunden intelligentere, noch ansprechendere Erlebnisse bieten können.
 
@@ -25,7 +25,7 @@ Im Abschnitt „Erstellen und Verwalten von Angeboten“ in Adobe Journey Optimi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren von Angeboten in Adobe Journey Optimizer
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie personalisierte Angebote erstellen, Darstellungen konfigur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen von Fallback-Angeboten
 
@@ -45,7 +45,7 @@ Schrittweise Anleitung zum Erstellen von Fallback-Angeboten für Kundinnen und K
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Verwalten von Angebotssammlungen
 

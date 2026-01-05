@@ -6,7 +6,7 @@ description: Erstellen von Ranglisten
 badge: label="Legacy" type="Informative"
 redpen-status: CREATED_||_2025-08-11_21-00-00
 exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Mit Ranglisten in Adobe Journey Optimizer können Sie anpassen, welche Angebote für Ihre Zielgruppe zuerst angezeigt werden, sodass stets die relevantesten Optionen im Vordergrund stehen. Ganz gleich, ob Sie einfache, regelbasierte Ranglistenformeln oder ausgefeilte KI-Modelle bevorzugen, die sich an das Nutzerverhalten anpassen – mit dieser Funktion können Sie die Kundeninteraktion optimieren und die Ergebnisse verbessern. Sie erfahren, wie Sie mit Ranglistenformeln benutzerdefinierte Regeln definieren können, während KI-Modelle datengestützte Erkenntnisse für eine intelligentere Priorisierung nutzen. Außerdem lernen Sie, diese Ranglisten nahtlos Platzierungen zuzuweisen, sodass Sie die vollständige Kontrolle darüber haben, wie Angebote bei jeder Kundeninteraktion präsentiert werden.
 
@@ -25,7 +25,7 @@ Mit Ranglisten in Adobe Journey Optimizer können Sie anpassen, welche Angebote 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Erste Schritte mit Ranglisten
 
@@ -35,7 +35,7 @@ Erfahren Sie mehr über die Grundlagen von Ranglisten in Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen und Verwenden von Ranglistenformeln
 
@@ -45,7 +45,7 @@ Folgen Sie den schrittweisen Anweisungen, um Ranglistenformeln mithilfe der PQL-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 KI-Modelle für das Ranking von Angeboten
 
