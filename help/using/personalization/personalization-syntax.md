@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 88%
 
 ---
 
@@ -50,6 +50,26 @@ Hier gilt:
 * Bezüglich der Argumente für literale Funktionen unterstützt der Sprach-Parser für Vorlagen keinen einfachen umgekehrten Schrägstrich (`\`), der nicht escaped ist. Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (`\`) escaped werden. Beispiel:
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
+
+## Reservierte Schlüsselwörter {#reserved-keywords}
+
+Bestimmte Schlüsselwörter sind in Profile Query Language (PQL) reserviert und können nicht direkt als Feld- oder Variablennamen in Personalisierungsausdrücken verwendet werden. Wenn Ihr XDM-Schema Felder mit Namen enthält, die reservierten Schlüsselwörtern entsprechen, müssen Sie diese mit Backticks (`` ` ``) maskieren, um in Ihren Ausdrücken darauf zu verweisen.
+
+**Reservierte Schlüsselwörter beinhalten:**
+
+* `next`
+* `last`
+* `this`
+
+**Beispiel:**
+
+Wenn Ihr Profilschema ein Feld mit dem Namen `next` enthält, müssen Sie es in Backticks einschließen:
+
+```
+{{profile.person.`next`.name}}
+```
+
+Ohne die Backticks schlägt die Validierung des Personalisierungseditors mit einem Fehler fehl.
 
 ## Verfügbare Namespaces {#namespaces}
 
@@ -132,7 +152,7 @@ Weitere Informationen zu Helper-Funktionen finden Sie in [diesem Abschnitt](func
 
 | Literal | Definition |
 | ------- | ---------- |
-| Zeichenfolge | Ein Datentyp, der aus Zeichen besteht, die von doppelten Anführungszeichen umgeben sind. <br>Beispiele: `"prospect"`, `"jobs"`, `"articles"` |
+| String | Ein Datentyp, der aus Zeichen besteht, die von doppelten Anführungszeichen umgeben sind. <br>Beispiele: `"prospect"`, `"jobs"`, `"articles"` |
 | Boolesch | Ein Datentyp, der entweder „true“ oder „false“ ist. |
 | Ganzzahl | Ein Datentyp, der eine ganze Zahl darstellt. Sie kann positiv, negativ oder null sein. <br>Beispiele: `-201`, `0`, `412` |
 | Array | Ein Datentyp, der aus einer Gruppe anderer Literalwerte besteht. Zur Gruppierung werden eckige Klammern und Kommas verwendet, um zwischen verschiedenen Werten zu trennen. <br> **Hinweis:** Sie können nicht direkt auf die Eigenschaften von Elementen in einem Array zugreifen. <br> Beispiele: `[1, 4, 7]`, `["US", "FR"]` |
