@@ -20,7 +20,7 @@ Der KI-Assistent von Adobe Journey Optimizer revolutioniert die Erstellung von I
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit dem KI-Assistenten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie auf die Funktion „KI-Assistent“ zugreifen und diese ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Vollständigen Inhalt generieren
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie mit dem KI-Assistenten vollständige Inhalte erstellen kö
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Nur Text generieren
 
@@ -50,7 +50,7 @@ Verwenden Sie den KI-Assistenten, um Textinhalte für alle Kanäle zu generieren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Nur Bilder generieren
 
