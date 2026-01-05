@@ -292,7 +292,7 @@ Hier erfahren Sie, wie Testkonzepte auf reale Szenarien angewendet werden:
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Vorschau, Testen und Validieren von Inhalten
 
@@ -302,7 +302,7 @@ Erfahren Sie, wie Sie personalisierte Inhalte mithilfe von Testprofilen, E-Mail-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Validierungs-Workflows für Journeys und Kampagnen
 
@@ -312,7 +312,7 @@ Erfahren Sie, wie Sie Validierungsprozesse einrichten, verwalten und ausführen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Testen der Journey
 
@@ -322,7 +322,7 @@ Validieren Sie Ihren Journey vor der Veröffentlichung, indem Sie ihn mit bestim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Journey-Probelauf
 
@@ -332,7 +332,7 @@ Führen Sie einen Probelauf durch, um Ihren Journey-Ausführungspfad zu simulier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Monitoring und Fehlerbehebung
 
@@ -342,7 +342,7 @@ Zugriff auf umfassende Ressourcen zur Fehlerbehebung, Systemwarnungen und Fehler
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
 
 Personalization Playground
 
@@ -362,7 +362,7 @@ Optimieren Sie Ihre Kampagnen, indem Sie mehrere Inhaltsvarianten testen und die
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 Testadressenlisten für die Überwachung durch Stakeholder
 
@@ -372,7 +372,7 @@ Automatische Einbeziehung interner Stakeholder-Adressen in Sendungen, um tatsäc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
 
 Konflikterkennung
 
