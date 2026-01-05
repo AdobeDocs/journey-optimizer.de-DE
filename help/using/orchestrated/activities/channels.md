@@ -6,7 +6,7 @@ description: Informationen über das Hinzufügen einer Kanalaktivität in einer 
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1124'
 ht-degree: 100%
 
@@ -47,8 +47,8 @@ UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
->title="Direkt-Mail-Aktivität"
->abstract="Die Direkt-Mail-Aktivität erleichtert den Direkt-Mail-Versand innerhalb der orchestrierten Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Direkt-Mail-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Kanalaktivitäten können in der Arbeitsoberfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>title="Briefpost-Aktivität"
+>abstract="Die Briefpost-Aktivität erleichtert den Briefpost-Versand innerhalb der orchestrierten Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Briefpost-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Kanalaktivitäten können in der Arbeitsoberfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 Mit [!DNL Adobe Journey Optimizer] können Sie Marketing-Kampagnen kanalübergreifend (E-Mail, SMS und Push-Benachrichtigungen) automatisieren und ausführen. Sie können diese Kanalaktivitäten in der Arbeitsfläche für orchestrierte Kampagnen kombinieren, um orchestrierte Cross-Channel-Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können. 
 
