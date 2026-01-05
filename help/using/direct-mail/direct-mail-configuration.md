@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
+source-git-commit: b85210a46c928389db985f0f794618209773c071
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 98%
+source-wordcount: '1648'
+ht-degree: 81%
 
 ---
 
@@ -115,6 +115,10 @@ Wenn Sie **[!UICONTROL SFTP]** als **[!UICONTROL Server-Typ]** ausgewählt haben
 
 ![](assets/file-routing-config-sftp-detail.png)
 
+>[!TIP]
+>
+>Bei Verwendung der SSH-Schlüsselauthentifizierung muss der Schlüssel ein **Base64-kodierter OpenSSH** privater Schlüssel sein. Wenn es sich um eine Datei im PPK-Format handelt, verwenden Sie das PuTTY-Tool, um sie in das OpenSSH-Format zu konvertieren. Detaillierte Anweisungen finden Sie [diesem Abschnitt](#ssh-key-generation).
+
 >[!NOTE]
 >
 >Um einen Pfad auf dem Server zum Speichern der Datei anzugeben, aktualisieren Sie den **[!UICONTROL Dateinamen]** der Direkt-Mail-Kampagne, um den gewünschten Pfad einzuschließen. [Weitere Informationen](create-direct-mail.md#extraction-file)
@@ -153,7 +157,37 @@ Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in 
 
 Nachdem Sie die Details für Ihren Server-Typ eingegeben haben, wählen Sie **[!UICONTROL Absenden]** aus. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
 
-Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL Aktiv]** ist.
+Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL aktiv]** ist.
+
+### Generieren eines SSH-Schlüssels für die SFTP-Authentifizierung {#ssh-key-generation}
+
+Wenn Sie SFTP mit SSH-Schlüsselauthentifizierung verwenden, müssen Sie über einen Base64-kodierten privaten OpenSSH-Schlüssel verfügen. Wenn der Schlüssel nicht ordnungsgemäß formatiert ist, können beim Konfigurieren des Datei-Routings Verbindungsfehler auftreten.
+
++++Generieren eines Base64-kodierten privaten OpenSSH-Schlüssels
+
+1. Generieren Sie in PuTTYgen Ihr Schlüsselpaar. RSA mit 2048 Bit oder höher wird empfohlen.
+1. Wählen Sie **Konvertierungen** > **OpenSSH-Schlüssel exportieren** aus dem Menü aus.
+1. Wenn Sie dazu aufgefordert werden, wählen Sie die Option zum Speichern **privaten Schlüssels (ohne Passphrasenschutz** aus.
+1. Wählen Sie im Dialogfeld „Speichern“ die Option **Alle Dateien (*.*)** als Dateityp, um sicherzustellen, dass der Schlüssel als Klartext und nicht als PPK-Datei gespeichert wird.
+1. Öffnen Sie die gespeicherte Datei mit einem Texteditor und überprüfen Sie ihr Format:
+   * Die Datei muss mit `-----BEGIN RSA PRIVATE KEY-----` beginnen (fünf Bindestriche davor und danach).
+   * Es sollte keine Formulierung geben, die Verschlüsselung angibt.
+   * Die Datei muss mit `-----END RSA PRIVATE KEY-----` enden (fünf Bindestriche davor und danach).
+1. Kopieren Sie **gesamten Dateiinhalt** (einschließlich der `-----BEGIN/END RSA PRIVATE KEY-----`) und codieren Sie ihn mit einem Tool wie „Base64[Encode and Decode“ ](https://www.base64encode.org/) Base64.
+
+   >[!NOTE]
+   >
+   >Entfernen Sie in der Base64-Codierungsausgabe alle MIME-Formatierungen. Der codierte Schlüssel muss eine einzelne fortlaufende Zeichenfolge sein.
+
+1. Sie können jetzt den Base64-kodierten SSH-Schlüssel in das entsprechende Feld in Journey Optimizer einfügen.
+
+>[!CAUTION]
+>
+>Nach der Base64-Codierung enthält der Schlüssel nicht mehr die `-----BEGIN/END RSA PRIVATE KEY-----` Markierungen und darf keine Zeilenumbrüche enthalten. Der entsprechende öffentliche Schlüssel muss der Datei mit den autorisierten Schlüsseln Ihres SFTP-Servers hinzugefügt werden.
+
+Weitere Informationen zum Verbinden Ihres SFTP-Kontos mit Experience Platform finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+
++++
 
 ## Erstellen einer Direkt-Mail-Konfiguration {#direct-mail-surface}
 
