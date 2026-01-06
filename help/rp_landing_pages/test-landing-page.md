@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: Testen, Validieren, Genehmigen, Validieren, Validieren, Qualitätssicherung, QA, Testprofile, Personalisierung, Rendering, Spam-Check, Content-Experiment, A/B-Test, Konflikterkennung, Seed-Liste, Testsendungen, Sample-Daten, Validierungs-Workflow, E-Mail-Test, Validierungs-Workflow
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: ab78157988c533b3dc8a0c747bf094649c7a8671
+source-git-commit: 3f2bf04dbeb3e5099c151a412a4a5e54f13122ee
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2560'
 ht-degree: 5%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 5%
 
 Dieser Abschnitt behandelt alle Test- und Genehmigungsfunktionen in Journey Optimizer. Hier finden Sie Tools zur Vorschau von Inhalten mit Testprofilen, zur Validierung der Journey-Logik, zum Überprüfen des E-Mail-Renderings und der Spam-Punktzahl, zum Durchführen von A/B-Experimenten, zum Erkennen von Konflikten und zum Einrichten von Genehmigungs-Workflows.
 
-Auf dieser Landingpage können Sie den richtigen Testansatz auswählen, der auf dem basiert, was Sie erstellen (Kampagnen vs. Journey), führt Sie durch empfohlene Test-Workflows und bietet schnellen Zugriff auf alle Test- und Genehmigungsressourcen. Beginnen Sie [&#x200B; unten mit „Wählen Sie &#x200B;](#choose-your-testing-approach) Testansatz aus“, um festzustellen, welche Tools für Ihren Anwendungsfall gelten. Definitionen wichtiger Testbegriffe finden Sie unter [Schlüsselbegriffe](#key-terminology).
+Auf dieser Landingpage können Sie den richtigen Testansatz auswählen, der auf dem basiert, was Sie erstellen (Kampagnen vs. Journey), führt Sie durch empfohlene Test-Workflows und bietet schnellen Zugriff auf alle Test- und Genehmigungsressourcen. Beginnen Sie [ unten mit „Wählen Sie ](#choose-your-testing-approach) Testansatz aus“, um festzustellen, welche Tools für Ihren Anwendungsfall gelten. Definitionen wichtiger Testbegriffe finden Sie unter [Schlüsselbegriffe](#key-terminology).
 
 ## Testen und Genehmigen von Inhalten
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vorschau, Testen und Validieren von Inhalten
 
@@ -36,7 +36,7 @@ Erfahren Sie, wie Sie personalisierte Inhalte mithilfe von Testprofilen, E-Mail-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Validierungs-Workflows für Journeys und Kampagnen
 
@@ -46,7 +46,7 @@ Erfahren Sie, wie Sie Validierungsprozesse einrichten, verwalten und ausführen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Testen der Journey
 
@@ -56,7 +56,7 @@ Validieren Sie Ihren Journey vor der Veröffentlichung, indem Sie ihn mit bestim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Journey-Probelauf
 
@@ -66,7 +66,7 @@ Führen Sie einen Probelauf durch, um Ihren Journey-Ausführungspfad zu simulier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoring und Fehlerbehebung
 
@@ -76,7 +76,7 @@ Zugriff auf umfassende Ressourcen zur Fehlerbehebung, Systemwarnungen und Fehler
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalization Playground
 
@@ -96,7 +96,7 @@ Optimieren Sie Ihre Kampagnen, indem Sie mehrere Inhaltsvarianten testen und die
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Testadressenlisten für die Überwachung durch Stakeholder
 
@@ -106,7 +106,7 @@ Automatische Einbeziehung interner Stakeholder-Adressen in Sendungen, um tatsäc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Konflikterkennung
 
@@ -169,44 +169,46 @@ Test- und Validierungsprozesse dienen als wichtige Qualitätsprüfungen, die den
 
 -->
 
-## Entscheidungsbaum für die Auswahl der Testmethode
+<!--
+## Decision tree for testing method selection
 
-Verwenden Sie diesen Entscheidungsbaum, um schnell die richtigen Test-Tools für Ihr spezifisches Szenario zu ermitteln. Beantworten Sie jede Frage basierend auf Ihrem Kontext (was Sie erstellen, was Sie validieren müssen und welchen Kanal Sie verwenden), um direkt zu den relevanten Funktionen und zur entsprechenden Dokumentation zu navigieren.
+Use this decision tree to quickly identify the right testing tools for your specific scenario. Answer each question based on your context (what you're building, what you need to validate, and which channel you're using) to navigate directly to the relevant capabilities and documentation.
 
-+++ **Frage 1: Was wird getestet?**
++++ **Question 1: What are you testing?**
 
-* Campaign → [Wählen Sie Ihren Testansatz](#choose-your-testing-approach)
-* Journey → [Wählen Sie Ihren Testansatz](#choose-your-testing-approach)
-* Personalization-Ausdrücke → [Personalization-Playground](#test--approve-content)
+* Campaign → [Choose your testing approach](#choose-your-testing-approach)
+* Journey → [Choose your testing approach](#choose-your-testing-approach)
+* Personalization expressions → [Personalization playground](#test--approve-content)
 +++
 
-+++**Frage 2: Welche Aspekte müssen validiert werden?**
++++**Question 2: What aspect needs validation?**
 
-* Inhalt und Personalisierung → [Testprofile](#choose-your-testing-approach) oder [Beispieleingabedaten](#choose-your-testing-approach)
-* E-Mail→Anzeige [E-Mail-Rendering-Tests](#2-technical-validation)
-* Zustellbarkeit → [Spam-Punkteprüfungen](#2-technical-validation)
-* Journey-Logik und → [Testmodus](#choose-your-testing-approach) oder [Probelauf](#test--approve-content)
-* Leistungsvergleich → [Inhaltsexperiment](#test--approve-content) (nur Kampagnen)
-* Zeitkonflikte → [Konflikterkennung](#test--approve-content)
-* Stakeholder-Überprüfung → [Genehmigungs-Workflow](#test--approve-content)
+* Content and personalization → [Test profiles](#choose-your-testing-approach) or [sample input data](#choose-your-testing-approach)
+* Email display → [Email rendering tests](#2-technical-validation)
+* Deliverability → [Spam score checks](#2-technical-validation)
+* Journey logic and flow → [Test mode](#choose-your-testing-approach) or [dry run](#test--approve-content)
+* Performance comparison → [Content experiment](#test--approve-content) (campaigns only)
+* Timing conflicts → [Conflict detection](#test--approve-content)
+* Stakeholder review → [Approval workflow](#test--approve-content)
 +++
 
-+++**Frage 3: Welcher Kanal?**
++++**Question 3: What channel?**
 
-* E-Mail → Alle verfügbaren Testmethoden (siehe [Wählen Sie Ihren Testansatz](#choose-your-testing-approach))
-* SMS, Push→ [Inhaltstests](#choose-your-testing-approach), [Beispieleingabedaten](#choose-your-testing-approach), [Genehmigungs-Workflows](#test--approve-content)
-* Web, In-App, Code-basiert → [&#128279;](#choose-your-testing-approach), [Beispieleingabedaten](#choose-your-testing-approach), [Genehmigungs-Workflows](#test--approve-content)
-* Mehrere Kanäle → Jeden Kanal separat testen
+* Email → All testing methods available (see [Choose your testing approach](#choose-your-testing-approach))
+* SMS, Push → [Content testing](#choose-your-testing-approach), [sample input data](#choose-your-testing-approach), [approval workflows](#test--approve-content)
+* Web, In-app, Code-based → [Content testing](#choose-your-testing-approach), [sample input data](#choose-your-testing-approach), [approval workflows](#test--approve-content)
+* Multiple channels → Test each channel separately
 +++
 
-+++**Frage 4: Wann im Workflow?**
++++**Question 4: When in the workflow?**
 
-* Vor dem Erstellen → [Personalization-](#test--approve-content) zum Lernen
-* Beim Erstellen → [Testprofile](#choose-your-testing-approach) und [Beispieleingabedaten](#choose-your-testing-approach) zur Validierung
-* Vor dem Start → [Rendering](#2-technical-validation), [Spam-](#2-technical-validation), [Konflikterkennung](#test--approve-content), [Genehmigungen](#test--approve-content)
-* Nach dem Start → [Live-](../using/building-journeys/report-journey.md)) und [Monitoring](#test--approve-content)
+* Before building → [Personalization playground](#test--approve-content) for learning
+* During building → [Test profiles](#choose-your-testing-approach) and [sample input data](#choose-your-testing-approach) for validation
+* Before launch → [Rendering tests](#2-technical-validation), [spam checks](#2-technical-validation), [conflict detection](#test--approve-content), [approvals](#test--approve-content)
+* After launch → [Live reports](../using/building-journeys/report-journey.md) and [monitoring](#test--approve-content)
 +++
 
+-->
 
 ## Wählen Sie Ihren Testansatz
 
@@ -237,7 +239,7 @@ Der richtige Testansatz hängt davon ab, was Sie erstellen und was Sie validiere
 
 **Für alle Journey:**
 
-* Journey Verwenden Sie [Testmodus](../using/building-journeys/testing-the-journey.md) um den Profilfortschritt (nur Entwurfsmodelle, erfordert Namespace) oder [Probelauf) zu simulieren, &#x200B;](../using/building-journeys/journey-dry-run.md) Ausführungspfade ohne Senden von Nachrichten zu analysieren
+* Journey Verwenden Sie [Testmodus](../using/building-journeys/testing-the-journey.md) um den Profilfortschritt (nur Entwurfsmodelle, erfordert Namespace) oder [Probelauf) zu simulieren, ](../using/building-journeys/journey-dry-run.md) Ausführungspfade ohne Senden von Nachrichten zu analysieren
 * Testen einzelner Nachrichten mit [Vorschau und Testsendungen](../using/content-management/preview-test.md)
 * Überprüfen [Konflikte](../using/conflict-prioritization/conflicts.md) mit anderen Journey und Kampagnen
 * Vor der Veröffentlichung [Genehmigung](../using/test-approve/gs-approval.md) einreichen
@@ -328,21 +330,21 @@ Wenn Sie eine Journey testen, validieren Sie die Orchestrierungslogik:
 
 * Aktivieren Sie **[Testmodus](../using/building-journeys/testing-the-journey.md)**, um den Profilverlauf über den Journey zu simulieren
 
-* Unterschiedliche [&#x200B; (Eintrittsbedingungen](../using/building-journeys/entry-management.md) und Zielgruppenqualifikationen testen
+* Unterschiedliche [ (Eintrittsbedingungen](../using/building-journeys/entry-management.md) und Zielgruppenqualifikationen testen
 
-* Überprüfen[&#x200B; ob &#x200B;](../using/building-journeys/wait-activity.md), [Bedingungen](../using/building-journeys/condition-activity.md) und Verzweigungslogik ordnungsgemäß funktionieren
+* Überprüfen[ ob ](../using/building-journeys/wait-activity.md), [Bedingungen](../using/building-journeys/condition-activity.md) und Verzweigungslogik ordnungsgemäß funktionieren
 
 * Verwenden **[Probelauf](../using/building-journeys/journey-dry-run.md)** für komplexe Journey, um Ausführungspfade zu analysieren, ohne Nachrichten zu senden
 
-* Überprüfen Sie[&#x200B; ob &#x200B;](../using/event/about-events.md) Trigger und [benutzerdefinierte Aktionen](../using/action/about-custom-action-configuration.md) erwartungsgemäß ausgeführt werden
+* Überprüfen Sie[ ob ](../using/event/about-events.md) Trigger und [benutzerdefinierte Aktionen](../using/action/about-custom-action-configuration.md) erwartungsgemäß ausgeführt werden
 
 ### &#x200B;4. Einreichung der Genehmigung
 
 Sobald der Test abgeschlossen und die Probleme behoben sind:
 
-* Senden Sie die Kampagne oder Journey zur Validierung gemäß der [&#x200B; Ihres Unternehmens](../using/test-approve/approval-policies.md)
+* Senden Sie die Kampagne oder Journey zur Validierung gemäß der [ Ihres Unternehmens](../using/test-approve/approval-policies.md)
 
-* Fügen Sie Testergebnisse und Dokumentation mit der [Genehmigungsanfrage“ &#x200B;](../using/test-approve/request-approval.md)
+* Fügen Sie Testergebnisse und Dokumentation mit der [Genehmigungsanfrage“ ](../using/test-approve/request-approval.md)
 
 * Adressieren von Feedback- oder Änderungsanforderungen von [genehmigenden Personen](../using/test-approve/review-approve-request.md)
 
@@ -368,7 +370,7 @@ Setzen Sie die Überwachung nach dem Launch fort, um Probleme frühzeitig zu erk
 
 * Überprüfen Sie [Live-Berichte](../using/building-journeys/report-journey.md), um die Leistung im Vergleich zu den Erwartungen zu verfolgen.
 
-* Seien Sie darauf vorbereitet[&#x200B; Journey bei kritischen &#x200B;](../using/building-journeys/journey-pause.md) anzuhalten oder zu ändern
+* Seien Sie darauf vorbereitet[ Journey bei kritischen ](../using/building-journeys/journey-pause.md) anzuhalten oder zu ändern
 
 * Dokumentieren der gewonnenen Erkenntnisse zur Verbesserung zukünftiger Testprozesse
 
