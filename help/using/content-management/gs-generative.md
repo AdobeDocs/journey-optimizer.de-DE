@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -129,10 +129,10 @@ Die folgenden Einschränkungen gelten für den KI-Assistenten in Adobe Journey O
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-full-content.md">
-<img alt="Vollständige Inhaltserstellung" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="Generieren von vollständigen Inhalten" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>Vollständigen Inhalt generieren</strong></a>
+<a href="generative-full-content.md"><strong>Generieren von vollständigen Inhalten</strong></a>
 </div>
 <p>
 </td>
@@ -140,7 +140,7 @@ Die folgenden Einschränkungen gelten für den KI-Assistenten in Adobe Journey O
 <a href="generative-text.md">
 <img alt="Textgenerierung" src="assets/do-not-localize/text-genai.jpeg">
 </a>
-<div><a href="generative-text.md"><strong>Text generieren</strong>
+<div><a href="generative-text.md"><strong>Generieren von Text</strong>
 </div>
 <p>
 </td>
@@ -149,7 +149,7 @@ Die folgenden Einschränkungen gelten für den KI-Assistenten in Adobe Journey O
 <img alt="Bildgenerierung" src="assets/do-not-localize/image-genai.jpeg">
 </a>
 <div>
-<a href="generative-image.md"><strong>Erstellen von Bildern</strong></a>
+<a href="generative-image.md"><strong>Generieren von Bildern</strong></a>
 </div>
 <p></td>
 </tr></table>
@@ -157,5 +157,5 @@ Die folgenden Einschränkungen gelten für den KI-Assistenten in Adobe Journey O
 ## Weitere Ressourcen
 
 * **[Generatives Experimentieren](generative-experimentation.md)** – Erfahren Sie, wie Sie KI-generierten Inhalt mit Experimenten kombinieren.
-* **[Anwendungsfälle des KI-Assistenten](generative-uc.md)** - Erfahren Sie durch Anwendungsfälle, wie Sie den KI-Assistenten verwenden
-* **[Tutorials zum KI-Assistenten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** – Erkunden Sie die detaillierten Video-Tutorials zu den Funktionen und Best Practices des KI-Assistenten.
+* **[Anwendungsfälle für den KI-Assistenten](generative-uc.md)** – Erfahren Sie durch Anwendungsfälle, wie Sie den KI-Assistenten verwenden
+* **[Tutorials zum KI-Assistenten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** – Erkunden Sie die detaillierten Video-Tutorials mit Funktionen und Best Practices für den KI-Assistenten.

@@ -6,118 +6,118 @@ role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1816'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte für Entwickler {#get-started-developers}
 
-Als **Entwickler** sind Sie für die Implementierung und Integration von [!DNL Adobe Journey Optimizer] in Ihre Anwendungen und Systeme verantwortlich. Sie können mit [!DNL Adobe Journey Optimizer] arbeiten, sobald Ihnen [Systemadministrator](administrator.md) und der [Datentechniker](data-engineer.md) Zugriff gewährt und Ihre Umgebung vorbereitet haben.
+Als **Entwicklerin bzw. Entwickler** sind Sie für die Implementierung und Integration von [!DNL Adobe Journey Optimizer] in Ihre Anwendungen und Systeme verantwortlich. Sie können mit der Arbeit mit [!DNL Adobe Journey Optimizer] beginnen, sobald Ihnen [Systemadmin](administrator.md) und [Dateningenieurin bzw. -ingenieur](data-engineer.md) Zugriff auf Ihre Umgebung gewährt und diese vorbereitet haben.
 
 ## Ihre Rolle im Journey Optimizer-Ökosystem
 
 Während andere Team-Mitglieder Journey Optimizer über die Benutzeroberfläche konfigurieren, konzentrieren Sie sich auf:
 
 * **Implementieren von SDKs** in Mobile- und Web-Anwendungen
-* **Senden von Ereignissen** von Ihren Programmen an Trigger-Journey
-* **Erstellen von API-**), die Journey Optimizer über benutzerdefinierte Aktionen aufrufen kann
-* **Integrieren** von Journey Optimizer mit vorhandenen Systemen und Infrastrukturen
+* **Senden von Ereignissen** von Ihren Anwendungen zum Auslösen von Journeys
+* **Erstellen von API-Endpunkten**, die Journey Optimizer über benutzerdefinierte Aktionen aufrufen kann
+* **Integrieren** von Journey Optimizer mit Ihren vorhandenen Systemen und Infrastrukturen
 * **Testen und Debuggen** Ihrer Implementierungen
 
-Ihr [Dateningenieur](data-engineer.md) verarbeitet Datenschemata, Ereigniskonfigurationen und Datenquellen. Ihr [Administrator](administrator.md) richtet Berechtigungen und Kanalkonfigurationen ein. [Marketer](marketer.md) entwerfen die Journey und Inhalte, die Ihre Implementierungen verwenden.
+[Ihre Dateningenieurin bzw. Ihr Dateningenieur](data-engineer.md) verarbeitet Datenschemata, Ereigniskonfigurationen und Datenquellen. [Ihre bzw. Ihr Admin](administrator.md) richtet Berechtigungen und Kanalkonfigurationen ein. [Marketing-Fachleute](marketer.md) entwerfen die Journeys und Inhalte, die Ihre Implementierungen verwenden.
 
-In diesem Handbuch werden die wesentlichen technischen Implementierungsschritte für die ersten Schritte mit Journey Optimizer beschrieben. Gehen Sie wie folgt vor, um Ihre Implementierung einzurichten, unabhängig davon, ob Sie Mobile Apps, Web-Erlebnisse oder API-Integrationen erstellen.
+In diesem Handbuch werden die wesentlichen Schritte der technischen Implementierung für die ersten Schritte mit Journey Optimizer beschrieben. Gehen Sie wie folgt vor, um Ihre Implementierung einzurichten, unabhängig davon, ob Sie Apps, Web-Erlebnisse oder API-Integrationen erstellen.
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie mit der Implementierung beginnen, stellen Sie Folgendes sicher:
+Bevor Sie mit der Implementierung beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 | Kategorie | Anforderungen |
 |----------|-------------|
-| **Technische Fähigkeiten** | * Erfahrung mit JavaScript (für Web SDK) oder Swift/Kotlin (für Mobile SDK)<br>* Grundlegendes zu RESTful-APIs und JSON<br>* Vertrautheit mit asynchroner Programmierung und ereignisgesteuerten <br>* Kenntnis der Anwendungsarchitektur Ihres Unternehmens |
-| **Zugriff und Tools** | * Zugriff auf [Adobe Developer Console](https://developer.adobe.com){target="_blank"} für API-Anmeldeinformationen<br>* Entwicklungsumgebung mit Zugriff auf die Code-Basis Ihrer Anwendung<br>* Testtools wie Postman für API-Tests<br>* Browser-Entwicklertools oder mobile Debugging-Tools |
-| **Von anderen Team-Mitgliedern** | * Zugriff auf die Umgebung durch Ihre [Administrator](administrator.md)<br>* XDM-Schemata und Ereignisdefinitionen von Ihren [Data Engineer](data-engineer.md)<br>* Anforderungen und Anwendungsfälle von Ihren [Marketern](marketer.md) |
+| **Technische Fähigkeiten** | * Erfahrung mit JavaScript (für Web SDK) oder Swift/Kotlin (für Mobile SDK)<br>* Grundlegendes Verständnis von RESTful-APIs und JSON<br>* Erfahrung mit asynchroner Programmierung und ereignisgesteuerten Architekturen<br>* Kenntnis der Anwendungsarchitektur Ihres Unternehmens |
+| **Zugriff und Tools** | * Zugriff auf [Adobe Developer Console](https://developer.adobe.com){target="_blank"} für API-Anmeldedaten<br>* Entwicklungsumgebung mit Zugriff auf die Code-Basis Ihrer Anwendung<br>* Test-Tools wie Postman für API-Tests<br>* Browser-Entwicklungs-Tools oder Mobile-Debugging-Tools |
+| **Von anderen Team-Mitgliedern** | * Zugriff auf die Umgebung von [Admin](administrator.md)<br>* XDM-Schemata und Ereignisdefinitionen von [Dateningenieurin bzw. -ingenieur](data-engineer.md)<br>* Anforderungen und Anwendungsfälle von [Marketing-Fachleuten](marketer.md) |
 
-## Technische Grundlagen {#technical-foundation}
+## Grundlegendes zur technischen Grundlage {#technical-foundation}
 
 Machen Sie sich mit den wichtigsten technischen Konzepten vertraut, bevor Sie sich mit der Implementierung befassen:
 
-1. **Adobe Experience Platform-Integration**: Journey Optimizer basiert nativ auf Adobe Experience Platform. Wenn Sie die zugrunde liegende Architektur verstehen, können Sie effektivere Implementierungen erstellen. Erfahren Sie mehr über [Funktionsweise von Journey Optimizer](../understanding-ajo.md).
+1. **Adobe Experience Platform-Integration**: Journey Optimizer basiert nativ auf Adobe Experience Platform. Wenn Sie die zugrunde liegende Architektur verstehen, können Sie effektivere Implementierungen erstellen. Erfahren Sie mehr über [die Funktionsweise von Journey Optimizer](../understanding-ajo.md).
 
-1. **XDM-Datenmodelle**: Journey Optimizer verwendet das Experience-Datenmodell (XDM), um Ereignis- und Profildaten zu strukturieren. Als Entwickler müssen Sie verstehen, wie Sie Daten senden, die den von Ihrem/Ihrem [&#x200B; konfigurierten Schemata &#x200B;](data-engineer.md). Informationen zu [XDM-Schemata](../../data/get-started-schemas.md).
+1. **XDM-Datenmodelle**: Journey Optimizer verwendet das Experience-Datenmodell (XDM), um Ereignis- und Profildaten zu strukturieren. Als Entwicklerin bzw. Entwickler müssen Sie verstehen, wie Sie Daten senden, die den von [Ihrer Dateningenieurin bzw. Ihrem Dateningenieur](data-engineer.md) konfigurierten Schemata entsprechen. Erfahren Sie mehr über [XDM-Schemata](../../data/get-started-schemas.md).
 
-1. **Authentifizierung und Sicherheit**: Alle Implementierungen erfordern eine ordnungsgemäße Authentifizierung. Erfahren Sie, wie Sie die Authentifizierung für SDKs und APIs einrichten. Erfahren Sie mehr über [API-](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+1. **Authentifizierung und Sicherheit**: Alle Implementierungen erfordern eine ordnungsgemäße Authentifizierung. Erfahren Sie, wie Sie die Authentifizierung für SDKs und APIs einrichten. Erfahren Sie mehr über die [API-Authentifizierung](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
-## Einrichten von Mobile-App-Integrationen {#mobile-integration}
+## Einrichten von App-Integrationen {#mobile-integration}
 
-### Konfigurieren der Adobe Experience Platform Mobile SDK
+### Konfigurieren des Adobe Experience Platform Mobile SDK
 
-Um Push-Benachrichtigungen, In-App-Nachrichten und andere mobile Funktionen zu aktivieren, integrieren Sie die Adobe Experience Platform Mobile SDK in Ihre Mobile Apps.
+Um Push-Benachrichtigungen, In-App-Nachrichten und andere Mobile-Funktionen zu aktivieren, integrieren Sie das Adobe Experience Platform Mobile SDK in Ihre Apps.
 
-1. **Installieren und Konfigurieren der Mobile SDK**: Befolgen Sie die [Dokumentation zu Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} um mit der SDK-Integration zu beginnen.
+1. **Installieren und Konfigurieren des Mobile SDK**: Befolgen Sie die [Dokumentation zum Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}, um mit der SDK-Integration loszulegen.
 
-1. **Eigenschaft für Mobilgeräte erstellen**: Richten Sie eine Eigenschaft für Mobilgeräte in [!DNL Adobe Experience Platform Data Collection] ein. Erfahren Sie, wie [eine Mobile-Eigenschaft erstellen und konfigurieren](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+1. **Erstellen einer Mobile-Eigenschaft**: Richten Sie eine Mobile-Eigenschaft in [!DNL Adobe Experience Platform Data Collection] ein. Erfahren Sie, wie Sie [eine Mobile-Eigenschaft erstellen und konfigurieren](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 1. **Konfigurieren von Push-Benachrichtigungen**:
-   * Für **iOS-Apps**: Registrieren Sie Ihre App bei APNs (Apple Push Notification Service). Weitere Informationen finden Sie in der Dokumentation zu [Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}.
-   * Für **Android-Apps**: Richten Sie Firebase Cloud Messaging für Ihre Android-App ein. Weitere Informationen finden Sie in der Dokumentation zu [Google](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}.
+   * Für **iOS-Apps**: Registrieren Sie Ihre App bei APNs (Apple Push Notification Service). Erfahren Sie mehr in der [Dokumentation von Apple](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}.
+   * Für **Android-Apps**: Richten Sie Firebase Cloud Messaging für Ihre Android-App ein. Erfahren Sie mehr in der [Dokumentation von Google](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}.
 
-1. **Mobile-Integration testen**: Verwenden Sie den [Schnellstart-Workflow für Mobile-Onboarding](../../push/mobile-onboarding-wf.md), um Ihre Mobile-Einrichtung schnell zu konfigurieren und zu testen.
+1. **Testen Ihrer Mobile-Integration**: Verwenden Sie den [Schnellstart-Workflow für Mobile-Onboarding](../../push/mobile-onboarding-wf.md), um Ihre Mobile-Einrichtung schnell zu konfigurieren und zu testen.
 
 Detaillierte Schritte zum Konfigurieren von Push-Benachrichtigungen finden Sie auf [dieser Seite](../../push/push-configuration.md).
 
 ### Implementieren von Code-basierten Erlebnissen (Mobile SDK)
 
-Für die native Mobile-App-Personalisierung mithilfe von Code-basierten Erlebnissen:
+Für die native App-Personalisierung mithilfe von Code-basierten Erlebnissen:
 
-* Folgen Sie [diesem Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} für die Implementierung von Mobile SDK
+* Befolgen Sie [dieses Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} bei der Implementierung von Mobile SDK
 * Überprüfen Sie die Beispielimplementierungen für [iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} und [Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}
 
 ## Implementieren von Web-Erlebnissen {#web-implementation}
 
-### Einrichten der Adobe Experience Platform Web SDK
+### Einrichten des Adobe Experience Platform Web SDK
 
-Bei Web-basierten Implementierungen ist die Web-SDK Ihr primärer Integrationspunkt:
+Bei Web-basierten Implementierungen ist das Web SDK Ihr primärer Integrationspunkt:
 
-1. **Installieren der Web-SDK**: Befolgen Sie die [Implementierungshandbuch für Web-SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"}, um die SDK auf Ihrer Website einzurichten.
+1. **Installieren des Web SDK**: Befolgen Sie das [Implementierungshandbuch des Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"}, um das SDK auf Ihrer Website einzurichten.
 
-1. **Datenströme konfigurieren**: Erstellen und konfigurieren Sie einen Datenstrom in [!DNL Adobe Experience Platform Data Collection] mit aktivierter Journey Optimizer. Weitere Informationen finden Sie in der [Dokumentation zu Datenströmen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de){target="_blank"}.
+1. **Konfigurieren von Datenströmen**: Erstellen und konfigurieren Sie einen Datenstrom in [!DNL Adobe Experience Platform Data Collection], während Journey Optimizer aktiviert ist. Erfahren Sie mehr in der [Dokumentation zu Datenströmen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de){target="_blank"}.
 
-1. **Web-Push-Benachrichtigungen aktivieren** (optional): Konfigurieren Sie die [pushNotifications](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}Eigenschaft in Ihrer Web-SDK-Konfiguration und verwenden Sie den [sendPushSubscription-Befehl](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} zum Registrieren von Push-Abonnements.
+1. **Aktivieren von Web-Push-Benachrichtigungen** (optional): Konfigurieren Sie die [pushNotifications-Eigenschaft](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} in Ihrer Web-SDK-Konfiguration und verwenden Sie den [sendPushSubscription-Befehl](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} zum Registrieren von Push-Abonnements.
 
 ### Implementieren von Code-basierten Erlebnissen (Web SDK)
 
-Code-basierte Erlebnisse ermöglichen es Ihnen, jeden digitalen Touchpoint zu personalisieren:
+Code-basierte Erlebnisse ermöglichen es Ihnen, jeden digitalen Kontaktpunkt zu personalisieren:
 
-1. **Wählen Sie Ihre Implementierungsmethode aus** Client-, Server-seitig oder Hybrid. Überprüfen Sie [Implementierungsbeispiele](../../code-based/code-based-implementation-samples.md) für jeden Ansatz.
+1. **Auswählen Ihrer Implementierungsmethode**: Client-seitig, Server-seitig oder hybrid. Sehen Sie sich die [Implementierungsbeispiele](../../code-based/code-based-implementation-samples.md) für jeden Ansatz an.
 
-1. **Oberflächen definieren**: Identifizieren Sie die Stellen in Ihrer Anwendung, an denen Sie personalisierte Inhalte bereitstellen möchten. Erfahren Sie mehr über [Oberflächenkonfiguration](../../code-based/code-based-surface.md).
+1. **Definieren von Oberflächen**: Identifizieren Sie die Bereiche in Ihrer Anwendung, an denen Sie personalisierte Inhalte bereitstellen möchten. Erfahren Sie mehr über die [Oberflächenkonfiguration](../../code-based/code-based-surface.md).
 
-1. **Implementieren des Content-Renderings**: Verwenden Sie die Web-SDK, um Personalisierungsinhalte abzurufen und anzuwenden. Siehe [Code-basierte Implementierungstutorials](../../code-based/code-based-decisioning-implementations.md).
+1. **Implementieren des Inhalts-Renderings**: Verwenden Sie das Web SDK, um Personalisierungsinhalte abzurufen und anzuwenden. Siehe [Tutorials zur Code-basierten Implementierung](../../code-based/code-based-decisioning-implementations.md).
 
-1. **Anzeige- und Interaktionsereignisse senden**: Verfolgen Sie, wann Inhalte angezeigt werden und wann Benutzer damit interagieren, um sie zu analysieren und zu optimieren.
+1. **Senden von Anzeige- und Interaktionsereignissen**: Verfolgen Sie aus Analyse- und Optimierungszwecken, wann Inhalte angezeigt werden und wann Benutzende mit diesen interagieren.
 
 Erkunden Sie [Beispielimplementierungen auf GitHub](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}, um Code-basierte Erlebnisse in Aktion zu sehen.
 
-Weitere Informationen über [Erste Schritte mit Code-basierten Erlebnissen](../../code-based/get-started-code-based.md).
+Erfahren Sie mehr über die [ersten Schritte mit Code-basierten Erlebnissen](../../code-based/get-started-code-based.md).
 
-## Ereignis-Streaming implementieren {#event-streaming}
+## Implementieren von Ereignis-Streaming {#event-streaming}
 
-### Ereignisse an Trigger-Journey senden
+### Senden von Ereignissen zum Auslösen von Journeys
 
-Als Entwickler implementieren Sie den Code zum Senden von Ereignissen, die Trigger-Journey senden. Ihr [Dateningenieur](data-engineer.md) konfiguriert die Ereignisschemata und -definitionen in Journey Optimizer.
+Als Entwicklern bzw. Entwickler implementieren Sie den Code zum Senden von Ereignissen, die Journeys auslösen. [Ihre Dateningenieurin bzw. Ihr Dateningenieur](data-engineer.md) konfiguriert die Ereignisschemata und -definitionen in Journey Optimizer.
 
-1. **Ereignis-Payload verstehen**: Wenden Sie sich an Ihren Dateningenieur, um das Ereignisschema und die erforderliche Payload-Struktur zu erhalten. Die Payload muss dem konfigurierten XDM-Schema entsprechen. Erfahren Sie mehr über [Anforderungen an Ereignisschemas](../../event/experience-event-schema.md).
+1. **Grundlegendes zur Ereignis-Payload**: Arbeiten Sie mit Ihrer Dateningenieurin bzw. Ihrem Dateningenieur zusammen, um das Ereignisschema und die erforderliche Payload-Struktur zu erhalten. Die Payload muss dem konfigurierten XDM-Schema entsprechen. Erfahren Sie mehr über [Anforderungen an Ereignisschemata](../../event/experience-event-schema.md).
 
-1. **Ereignis-Streaming implementieren**: Senden von Ereignissen an Adobe Experience Platform mithilfe der [Streaming-Aufnahme-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de){target="_blank"}. Erfahren Sie [Schritte zum Senden von Ereignissen](../../event/additional-steps-to-send-events-to-journey.md).
+1. **Implementeiren von Ereignis-Streaming**: Senden Sie Ereignisse mithilfe der [Streaming-Aufnahme-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de){target="_blank"} an Adobe Experience Platform. Erfahren Sie mehr über die [Schritte zum Senden von Ereignissen](../../event/additional-steps-to-send-events-to-journey.md).
 
-1. **Ereignistypen verarbeiten**:
-   * **Unitäre Ereignisse**: Implementieren des Ereignisversands für personenspezifische Aktionen (z. B. Button-Klick, Kaufabschluss)
-   * **Geschäftsereignisse**: Senden von geschäftlichen Ereignissen (z. B. Bestandsaktualisierungen, Preisänderungen)
+1. **Verarbeiten von Ereignistypen**:
+   * **Unitäre Ereignisse**: Implementieren des Ereignisversands für personenspezifische Aktionen (z. B. Klick auf eine Schaltfläche, Kaufabschluss)
+   * **Geschäftsereignisse**: Senden von geschäftsbezogenen Ereignissen (z. B. Bestandsaktualisierungen, Preisänderungen)
 
-1. **Ereignisversand testen**: Überprüfen Sie, ob die Ereignisse ordnungsgemäß empfangen wurden und die Trigger-Journey wie erwartet funktionieren. Erfahren Sie mehr über [Fehlerbehebung bei Ereignissen](../../building-journeys/troubleshooting-inbound.md).
+1. **Testen des Ereignisversands**: Überprüfen Sie, ob die Ereignisse ordnungsgemäß empfangen werden und die Journeys wie erwartet auslösen. Erfahren Sie mehr über die [Fehlerbehebung bei Ereignissen](../../building-journeys/troubleshooting-inbound.md).
 
 **Beispielimplementierung** zum Senden eines Ereignisses über die API:
 
@@ -149,133 +149,133 @@ Content-Type: application/json
 }
 ```
 
-Weitere Informationen über [Arbeiten mit Journey-Ereignissen](../../event/about-events.md).
+Erfahren Sie mehr über das [Arbeiten mit Journey-Ereignissen](../../event/about-events.md).
 
-## Entwickeln benutzerdefinierter Aktionsendpunkte {#custom-actions}
+## Entwickeln von Endpunkten benutzerdefinierter Aktionen {#custom-actions}
 
-Benutzerdefinierte Aktionen ermöglichen es Journey, Ihre APIs aufzurufen. Als Entwickler erstellen Sie die API-Endpunkte, die durch benutzerdefinierte Aktionen aufgerufen werden:
+Benutzerdefinierte Aktionen ermöglichen es Journeys, Ihre APIs aufzurufen. Als Entwicklerin bzw. Entwickler erstellen Sie die API-Endpunkte, die durch benutzerdefinierte Aktionen aufgerufen werden:
 
-1. **API-Endpunkt erstellen**: Erstellen Sie RESTful-API-Endpunkte, die Journey Optimizer während der Journey-Ausführung aufruft. Ihr Endpunkt sollte:
-   * Akzeptieren von JSON-Payloads
-   * Authentifizierungsanfragen (OAuth, API-Schlüssel oder JWT)
-   * Anforderungen innerhalb angemessener Zeitlimits verarbeiten
+1. **Erstellen Ihres API-Endpunkts**: Erstellen Sie RESTful-API-Endpunkte, die Journey Optimizer während der Journey-Ausführung aufruft. Ihr Endpunkt sollte:
+   * JSON-Payloads akzeptieren
+   * Anfragen authentifizieren (OAuth, API-Schlüssel oder JWT)
+   * Anforderungen innerhalb angemessener Timeout-Limits verarbeiten
    * Antworten im erwarteten Format zurückgeben
 
-1. **Grundlegendes zu den** von benutzerdefinierten Aktionen: Benutzerdefinierte Aktionen können eine Verbindung zu Drittanbietersystemen wie Epsilon, Slack, Firebase oder Ihren eigenen Services herstellen. Weitere Informationen über [benutzerdefinierte Aktionen](../../action/action.md).
+1. **Grundlegendes zu den Funktionen von benutzerdefinierten Aktionen**: Benutzerdefinierte Aktionen können eine Verbindung zu Drittanbietersystemen wie Epsilon, Slack, Firebase oder Ihren eigenen Diensten herstellen. Weitere Informationen über [benutzerdefinierte Aktionen](../../action/action.md).
 
-1. **Arbeiten mit Aktionskonfigurationen**: Ihr [Administrator](administrator.md) oder [Datentechniker](data-engineer.md) konfiguriert die benutzerdefinierte Aktion in Journey Optimizer und definiert die API-Endpunkt-URL, Authentifizierungsmethode und Parameter. Sie geben ihnen Ihre API-Spezifikation. Erfahren Sie mehr über [Konfiguration benutzerdefinierter Aktionen](../../action/about-custom-action-configuration.md).
+1. **Arbeiten mit Aktionskonfigurationen**: [Ihre bzw. Ihr Admin](administrator.md) oder [Ihre Dateningenieurin bzw. Ihr Dateningenieur](data-engineer.md) konfiguriert die benutzerdefinierte Aktion in Journey Optimizer und definiert die API-Endpunkt-URL, Authentifizierungsmethode und Parameter. Sie geben ihnen Ihre API-Spezifikation. Erfahren Sie mehr über die [Konfiguration benutzerdefinierter Aktionen](../../action/about-custom-action-configuration.md).
 
-1. **Verwertbare Daten zurückgeben**: Entwerfen Sie Ihre API, um Daten zurückzugeben, die in nachfolgenden Journey-Schritten verwendet werden können. Erfahren Sie mehr [Aktionsantworten](../../action/action-response.md).
+1. **Zurückgeben verwertbarer Daten**: Konzipieren Sie Ihre API so, dass sie Daten zurückgibt, die in nachfolgenden Journey-Schritten verwendet werden können. Erfahren Sie mehr über [Aktionsantworten](../../action/action-response.md).
 
-1. **Ratenbegrenzung implementieren**: Stellen Sie sicher, dass Ihre Endpunkte das erwartete Volumen verarbeiten können. Journey Optimizer begrenzt die Anzahl der Aufrufe pro Sekunde auf 5.000. Ihr System sollte jedoch robust sein. Erfahren Sie mehr [Begrenzung und Drosselung](../../configuration/external-systems.md).
+1. **Implementieren einer Ratenbegrenzung**: Stellen Sie sicher, dass Ihre Endpunkte das erwartete Volumen verarbeiten können. Journey Optimizer begrenzt die Anzahl der Aufrufe pro Sekunde auf 5.000. Ihr System sollte jedoch resilient sein. Erfahren Sie mehr über [Begrenzung und Drosselung](../../configuration/external-systems.md).
 
-**Anwendungsbeispiel**: [Schreiben von Journey-Ereignissen in Experience Platform](../../building-journeys/custom-action-aep.md) Verwenden benutzerdefinierter Aktionen.
+**Beispiel eines Anwendungsfalls**: [Schreiben von Journey-Ereignissen in Experience Platform](../../building-journeys/custom-action-aep.md) unter Verwendung von benutzerdefinierten Aktionen.
 
 ## Arbeiten mit Journey Optimizer-APIs {#apis}
 
 Journey Optimizer bietet umfassende REST-APIs für den programmgesteuerten Zugriff:
 
-1. **Grundlegendes zu API** Funktionen: Mit Journey Optimizer-APIs können Sie verschiedene Ressourcen programmgesteuert erstellen, lesen, aktualisieren und löschen. Erfahren Sie mehr über [Journey Optimizer-](../../configuration/ajo-apis.md).
+1. **Grundlegendes zu API-Funktionen**: Mit Journey Optimizer-APIs können Sie verschiedene Ressourcen programmgesteuert erstellen, lesen, aktualisieren und löschen. Erfahren Sie mehr über [Journey Optimizer-APIs](../../configuration/ajo-apis.md).
 
 1. **Authentifizierung**: Befolgen Sie [dieses Tutorial](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}, um die API-Authentifizierung mit Adobe Developer Console einzurichten.
 
-1. **API-Referenzen erkunden**: Durchsuchen Sie die vollständige API-Dokumentation und probieren Sie APIs direkt in der [Adobe Journey Optimizer-API-Referenz](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} aus.
+1. **Erkunden von API-Referenzen**: Sehen Sie sich die vollständige API-Dokumentation an und probieren Sie APIs direkt in der [Adobe Journey Optimizer-API-Referenz](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} aus.
 
-1. **API-ausgelöste**: Erstellen Sie Transaktionsnachrichten mit API-ausgelösten Kampagnen. Bei Szenarien mit hohem Volumen (bis zu 5.000 TPS) sollten Sie den [Hochdurchsatzmodus“ &#x200B;](../../campaigns/api-triggered-high-throughput.md)Add-on-Lizenz erforderlich).
+1. **Durch APIs ausgelöste Kampagnen**: Erstellen Sie Transaktions-Messaging mit durch APIs ausgelösten Kampagnen. Bei Szenarien mit hohem Volumen (bis zu 5.000 TPS) sollten Sie den [Modus mit hohem Durchsatz](../../campaigns/api-triggered-high-throughput.md) in Erwägung ziehen (Add-on-Lizenz erforderlich).
 
-1. **Entscheidungs-Management-**: Verwenden Sie spezielle APIs für Angebotsverwaltung und Entscheidungsfindung. Weitere Informationen finden Sie im [Handbuch zur Entscheidungs-Management-API](../../offers/api-reference/getting-started.md).
+1. **Entscheidungs-Management-APIs**: Verwenden Sie spezielle APIs für Angebotsverwaltung und Entscheidungsfindung. Erfahren Sie mehr im [Handbuch zur Entscheidungs-Management-API](../../offers/api-reference/getting-started.md).
 
 ## Testen und Debuggen {#testing}
 
-1. **SDK-Implementierung debuggen**: Verwenden Sie Adobe Experience Platform Assurance, um SDK-Ereignisse zu untersuchen, die Datenerfassung zu validieren und Integrationsprobleme in Echtzeit zu beheben. [Weitere Informationen zu Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=de){target="_blank"}.
+1. **Debuggen der SDK-Implementierung**: Verwenden Sie Adobe Experience Platform Assurance, um SDK-Ereignisse zu untersuchen, die Datenerfassung zu validieren und Integrationsprobleme in Echtzeit zu beheben. [Erfahren Sie mehr über Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=de){target="_blank"}.
 
-1. **Ereignisversand testen**: Überprüfen Sie, ob Ereignisse aus Ihrer Anwendung von Adobe Experience Platform und den Trigger-Journey korrekt und wie erwartet empfangen werden. Überwachen der Ereignisaufnahme und Überprüfen der Payload-Struktur.
+1. **Testen des Ereignisversands**: Überprüfen Sie, ob Ereignisse aus Ihrer Anwendung von Adobe Experience Platform empfangen werden und Journeys wie erwartet auslösen. Überwachen Sie die Ereignisaufnahme und überprüfen Sie die Payload-Struktur.
 
-1. **Validieren von API-Integrationen**: Testen Sie Ihre benutzerdefinierten Aktionsendpunkte, um sicherzustellen, dass sie Journey Optimizer-Anfragen korrekt verarbeiten, innerhalb der Zeitüberschreitungsgrenzen reagieren und die erwarteten Datenformate zurückgeben.
+1. **Validieren von API-Integrationen**: Testen Sie die Endpunkte Ihrer benutzerdefinierten Aktion, um sicherzustellen, dass sie Journey Optimizer-Anfragen korrekt verarbeiten, innerhalb der Timeout-Limits reagieren und die erwarteten Datenformate zurückgeben.
 
-1. **Testmodus mit Testprofilen verwenden**: Wenden Sie sich an Ihren [Dateningenieur](data-engineer.md), um Zugriff auf Testprofile zu erhalten, und validieren Sie dann Ihre Implementierung mithilfe des Journey-Testmodus. Erfahren Sie, wie [Journey testen](../../building-journeys/testing-the-journey.md).
+1. **Verwenden des Testmodus mit Testprofilen**: Arbeiten Sie mit Ihren [Dateningenieurinnen und -ingenieuren](data-engineer.md) zusammen, um Zugriff auf Testprofile zu erhalten, und validieren Sie dann Ihre Implementierung mithilfe des Journey-Testmodus. Erfahren Sie mehr über das [Testen von Journeys](../../building-journeys/testing-the-journey.md).
 
-1. **SDK-Protokolle überwachen**: Aktivieren Sie die Debug-Protokollierung in Ihrer SDK-Implementierung, um Probleme während der Entwicklung zu beheben:
+1. **Überwachen von SDK-Protokollen**: Aktivieren Sie die Debug-Protokollierung in Ihrer SDK-Implementierung, um Probleme während der Entwicklung zu beheben:
    * **Mobile SDK**: Aktivieren der Protokollierung, um SDK-Ereignisse und API-Aufrufe anzuzeigen
-   * **Web SDK**: Verwenden Sie die Browser-Konsole, um die Aktivität von SDK zu überwachen
+   * **Web SDK**: Verwenden der Browser-Konsole, um SDK-Aktivität zu überwachen
 
 1. **Überprüfen der Datenstromkonfiguration**: Stellen Sie sicher, dass Ihr Datenstrom ordnungsgemäß konfiguriert ist, um Daten an Journey Optimizer zu senden. Überprüfen Sie, ob Ereignisse durch den Datenstrom zu den richtigen Zielen fließen.
 
-1. **Abfrage von Journey-Daten für die Analyse**: Verwenden Sie SQL-Abfragen im Data Lake, um Journey-Schrittereignisse zu analysieren, Probleme zu debuggen und die Leistung benutzerdefinierter Aktionen zu überwachen. Erkunden Sie [Abfragebeispiele für die Journey-Analyse](../../reports/query-examples.md) einschließlich:
-   * Tracking von Profileintritten/Austritten und Verwerfen von Gründen
+1. **Abfrage von Journey-Daten für die Analyse**: Verwenden Sie SQL-Abfragen im Data Lake, um Journey-Schrittereignisse zu analysieren, Probleme zu debuggen und die Leistung benutzerdefinierter Aktionen zu überwachen. Erkunden Sie [Abfragebeispiele für die Journey-Analyse](../../reports/query-examples.md), einschließlich:
+   * Tracking von Profileintritten/-ausstiegen und Verwerfungsgründe
    * Leistungsmetriken für benutzerdefinierte Aktionen (Latenz, Durchsatz, Fehler)
    * Ereignisversand- und Fehlermuster
    * Journey-Instanzstatus
 
 ## Fortgeschrittene Entwicklerthemen {#advanced-topics}
 
-### Arbeiten mit kontextuellen Daten und Anreicherungen
+### Arbeiten mit kontextuellen Daten und Anreicherung
 
-* **Iteration über Arrays**: Verwenden Sie die Handlebars-Syntax, um dynamische Listen aus Ereignissen, benutzerdefinierten Aktionsantworten und Datensatzsuchen in Nachrichten anzuzeigen. Erfahren Sie mehr über [Iterieren von kontextuellen Daten](../../personalization/iterate-contextual-data.md).
-* **Datensatzsuche**: Implementieren von Datensatzsuchen zur Anreicherung von Journey-Daten aus Adobe Experience Platform-Datensätzen. Arbeiten Sie bei der Konfiguration mit Ihrem Dateningenieur zusammen. Weitere Informationen [Datensatzsuche](../../building-journeys/dataset-lookup.md).
+* **Iteration über Arrays**: Verwenden Sie die Handlebars-Syntax, um dynamische Listen aus Ereignissen, benutzerdefinierten Aktionsantworten und Datensatzsuchen in Nachrichten anzuzeigen. Erfahren Sie mehr über das [Iterieren über kontextuelle Daten](../../personalization/iterate-contextual-data.md).
+* **Datensatzsuche**: Implementieren von Datensatzsuchen zur Anreicherung von Journey-Daten aus Adobe Experience Platform-Datensätzen. Arbeiten Sie bei der Konfiguration mit Ihrer Dateningenieurin bzw. Ihrem Dateningenieur zusammen. Erfahren Sie mehr über die [Datensatzsuche](../../building-journeys/dataset-lookup.md).
 
 ### Arbeiten mit Einverständnis und Governance
 
-Implementieren von Data Governance- und Einverständnisrichtlinien in Ihre Integrationen:
+Implementieren von Data-Governance- und Einverständnisrichtlinien in Ihre Integrationen:
 
-* **Data Governance**: Wenden Sie Datennutzungsrichtlinien auf benutzerdefinierte Aktionen an. Weitere Informationen zu [Data Governance](../../action/action-privacy.md).
-* **Einverständnisverwaltung**: Handhabung der Voreinstellungen für das Kundeneinverständnis in Ihren Implementierungen. Weitere Informationen zu [Zustimmung](../../action/consent.md).
+* **Data Governance**: Wenden Sie Datennutzungsrichtlinien auf benutzerdefinierte Aktionen an. Erfahren Sie mehr über [Data Governance](../../action/action-privacy.md).
+* **Einverständnisverwaltung**: Verarbeiten Sie die Voreinstellungen für das Kundeneinverständnis in Ihren Implementierungen. Erfahren Sie mehr über [Einverständnis](../../action/consent.md).
 
 ### Optimierung und Best Practices
 
-* **Begrenzung und Drosselung**: Machen Sie sich mit den Ratenbeschränkungen vertraut und implementieren Sie geeignete Drosselungen. Informationen zu [externen Systemen](../../configuration/external-systems.md).
+* **Begrenzung und Drosselung**: Machen Sie sich mit den Ratenbegrenzungen vertraut und implementieren Sie geeignete Drosselungen. Erfahren Sie mehr über [externe Systeme](../../configuration/external-systems.md).
 * **Journey-Optimierung**: Befolgen Sie die Best Practices für die [Journey-Optimierung](../../building-journeys/optimize.md).
-* **Fehlerbehandlung**: Implementieren Sie eine robuste Fehlerbehandlung. Lesen Sie [Fehlercodes](../../building-journeys/error-codes-reference.md) und [Handbücher zur Fehlerbehebung](../../building-journeys/troubleshooting.md).
+* **Fehlerbehandlung**: Implementieren Sie eine robuste Fehlerbehandlung. Sehen Sie sich [Fehler-Codes](../../building-journeys/error-codes-reference.md) und [Handbücher zur Fehlerbehebung](../../building-journeys/troubleshooting.md) an.
 
 ## Weitere Ressourcen {#additional-resources}
 
-* **Developer Console**: Greifen Sie auf die [Adobe Developer Console](https://developer.adobe.com){target="_blank"} zu, um Integrationen zu erstellen und API-Anmeldeinformationen zu verwalten.
-* **Beispielcode**: Erkunden Sie [Beispielimplementierungen auf GitHub](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}.
-* **Anleitungsvideos**: Lernen Sie durch praktische Tutorials zu [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=de){target="_blank"}.
-* **Entwickler-Community**: Treten Sie mit anderen Entwicklern in Kontakt und erhalten Sie Unterstützung in den Adobe-Community-Foren.
+* **Developer Console**: Greifen Sie auf die [Adobe Developer Console](https://developer.adobe.com){target="_blank"} zu, um Integrationen zu erstellen und API-Anmeldedaten zu verwalten.
+* **Beispiel-Code**: Sehen Sie sich [Beispielimplementierungen auf GitHub](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} an.
+* **Video-Tutorials**: Lernen Sie durch praktische Tutorials auf [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=de){target="_blank"}.
+* **Entwickler-Community**: Treten Sie mit anderen Entwickelnden in Kontakt und erhalten Sie Unterstützung in den Adobe-Community-Foren.
 
-## Rollenübergreifend zusammenarbeiten {#next-steps}
+## Rollenübergreifendes Zusammenarbeiten {#next-steps}
 
 Ihre Implementierungsarbeit überschneidet sich mit anderen Team-Mitgliedern:
 
 >[!BEGINTABS]
 
->[!TAB Arbeiten mit Dateningenieuren]
+>[!TAB Arbeiten mit Dateningenieurinnen und -ingenieuren]
 
-Zusammenarbeit mit [Dateningenieuren](data-engineer.md) bei Daten- und Ereigniskonfigurationen:
+Arbeiten Sie mit [Dateningenieurinnen und -ingenieuren](data-engineer.md) bei Daten und Ereigniskonfigurationen zusammen:
 
 * Abrufen der XDM-Schemata und Ereignisstrukturen, die Sie implementieren müssen
-* Verstehen, welche Ereignisse gesendet werden müssen, und deren erforderliches Payload-Format
-* Angleichung der Anforderungen an die Datenerfassung und der Datenqualitätsstandards
-* Gemeinsames Testen des Versands und der Datenaufnahme
+* Verstehen, welche Ereignisse gesendet werden müssen und welches Payload-Format erforderlich ist
+* Abstimmen der Anforderungen an die Datenerfassung und der Datenqualitätsstandards
+* Gemeinsames Testen des Ereignisversands und der Datenaufnahme
 
->[!TAB Arbeiten mit Administratoren]
+>[!TAB Arbeiten mit Admins]
 
-Zusammenarbeit mit [Administratoren](administrator.md) bei Zugriff und Konfigurationen:
+Arbeiten Sie mit [Admins](administrator.md) bei Zugriff und Konfigurationen zusammen:
 
-* Angeben von API-Spezifikationen für benutzerdefinierte Aktionen, die sie konfigurieren werden
-* Erforderliche Berechtigungen und API-Anmeldedaten anfordern
-* Koordinieren der Anforderungen an die Kanalkonfiguration (z. B. Push-Zertifikate)
-* Ausrichtung an Testumgebungen und Sandbox-Strategie
+* Angeben von API-Spezifikationen für benutzerdefinierte Aktionen, die sie konfigurieren
+* Anfordern von erforderlichen Berechtigungen und API-Anmeldedaten
+* Koordinieren der Anforderungen an die Kanalkonfiguration (z. B. Push-Zertifikate)
+* Abstimmen zu Testumgebungen und Sandbox-Strategie
 
->[!TAB Arbeiten mit Marketern]
+>[!TAB Arbeiten mit Marketing-Fachleuten]
 
-Zusammenarbeit mit [Marketern](marketer.md) bei Journey-Anforderungen und -Tests:
+Arbeiten Sie mit [Marketing-Fachleuten](marketer.md) bei Journey-Anforderungen und Tests zusammen:
 
-* Verstehen, welche Benutzerinteraktionen Trigger-Ereignisse auslösen sollen
-* Implementieren des Trackings für Content-Performance und Benutzerinteraktion
-* Unterstützen von Tests von Journey mit Ihren implementierten Funktionen
-* Fehlerbehebung bei Problemen beim Nachrichtenversand oder bei der Personalisierung
+* Verstehen, welche Benutzerinteraktionen Ereignisse auslösen sollen
+* Implementieren des Trackings für Inhaltsleistung und Benutzerinteraktion
+* Unterstützen von Tests von Journeys mit Ihren implementierten Funktionen
+* Beheben von Problemen beim Nachrichtenversand oder bei der Personalisierung
 
 >[!ENDTABS]
 
-## Mit der Implementierung beginnen
+## Starten der Implementierung
 
-Bereit mit dem Bau zu beginnen? Wählen Sie Ihren ersten Implementierungsbereich aus den obigen Abschnitten:
+Bereit, mit dem Erstellen zu beginnen? Wählen Sie Ihren ersten Implementierungsbereich aus den obigen Abschnitten:
 
-1. **Mobile App?** Schritte mit der [Mobile SDK-Integration](#mobile-integration)
-2. **Website?** Erste Schritte mit [Einrichten von Web SDK](#web-implementation)
-3. **API-Integration?** Wechseln zu [Arbeiten mit APIs](#apis)
-4. **Benutzerdefiniertes System?** Auschecken [benutzerdefinierte Aktionen](#custom-actions)
+1. **App?** Beginnen Sie mit der [Mobile SDK-Integration](#mobile-integration)
+2. **Website?** Beginnen Sie mit der [Web SDK-Einrichtung](#web-implementation)
+3. **API-Integration?** Wechseln Sie zu [Arbeiten mit APIs](#apis)
+4. **Benutzerdefiniertes System?** Sehen Sie sich [benutzerdefinierte Aktionen](#custom-actions) an
 
-Jeder Abschnitt enthält Links zu detaillierten technischen Dokumentationen, Code-Beispielen und Tutorials, die Sie bei der Implementierung unterstützen.
+Jeder Abschnitt enthält Links zu detaillierter technischer Dokumentation, Code-Beispielen und Tutorials, die Sie bei der Implementierung unterstützen.

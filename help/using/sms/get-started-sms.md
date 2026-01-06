@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ Erstellen, personalisieren und verwalten Sie den Inhalt von Textnachrichten:
 * [Anzeigen einer Vorschau, Testen und Senden von Nachrichten](send-sms.md)
 * [Personalisierung in Textnachrichten](../personalization/personalize.md)
 * [Dynamische Inhalte](../personalization/get-started-dynamic-content.md)
-* [Generieren von SMS-Inhalten mit dem KI-Assistenten](../content-management/generative-text.md)
+* [Generieren von SMS-Inhalt mit dem KI-Assistenten](../content-management/generative-text.md)
 
 +++
 
@@ -202,7 +202,7 @@ Erfahren Sie, wie Sie SMS-Nachrichten konfigurieren, erstellen und in Ihre Journ
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3422692?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -212,7 +212,7 @@ Entdecken Sie die umfassenden Mobile-Messaging-Funktionen, die Adobe Journey Opt
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3430371?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -222,7 +222,7 @@ Finden Sie heraus, wie Sie in Adobe Journey Optimizer an Ihre Marke angepasste, 
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3464764?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

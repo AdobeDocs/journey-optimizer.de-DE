@@ -6,9 +6,9 @@ description: KI-Assistent für die Inhaltsgenerierung
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Der KI-Assistent von Adobe Journey Optimizer revolutioniert die Erstellung von I
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit dem KI-Assistenten
 
@@ -30,33 +30,33 @@ Erfahren Sie, wie Sie auf die Funktion „KI-Assistent“ zugreifen und diese ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
-Vollständigen Inhalt generieren
+Generieren von vollständigem Inhalt
 
 Erfahren Sie, wie Sie mit dem KI-Assistenten vollständige Inhalte erstellen können, einschließlich Text und Bildern für E-Mails, Push-Benachrichtigungen, Web-Seiten und Landingpages.
 
-[Erfahren Sie mehr über die vollständige Inhaltserstellung](../using/content-management/generative-full-content.md)
+[Informationen über die Generierung von vollständigem Inhalt](../using/content-management/generative-full-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
-Nur Text generieren
+Generieren von Text
 
 Verwenden Sie den KI-Assistenten, um Textinhalte für alle Kanäle zu generieren und zu verfeinern, einschließlich E-Mail, SMS, Push-Benachrichtigungen, Web-Seiten und Landingpages.
 
-[Erkunden der Texterstellung](../using/content-management/generative-text.md)
+[Textgenerierung erkunden](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
-Nur Bilder generieren
+Generieren von Bildern
 
-Erstellen und passen Sie Bilder mit dem KI-Assistenten zur Verwendung in E-Mails, Push-Benachrichtigungen, Web-Seiten und Landingpages an.
+Erstellen Sie mit dem KI-Assistenten Bilder zur Verwendung in E-Mails, Push-Benachrichtigungen, Web-Seiten und Landingpages und passen Sie diese an.
 
-[Erstellen von Bildern](../using/content-management/generative-image.md)
+[Bildern generieren](../using/content-management/generative-image.md)
 :::
 
 ::::

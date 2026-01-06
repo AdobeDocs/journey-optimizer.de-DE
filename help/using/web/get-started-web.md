@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Die detaillierten Schritte zum Erstellen einer Web-Kampagne finden Sie in [diese
 * **[Bearbeiten von Web-Inhalten](create-web.md#edit-web-content)** – Machen Sie sich mit dem Web-Designer vertraut, um Seiten mithilfe visueller oder nicht visueller Bearbeitungsmodi zu ändern.
 * **[Verwalten von Web-Änderungen](manage-web-modifications.md)** – Erfahren Sie, wie Sie Änderungen über Web-Erlebnisse hinweg organisieren, anwenden und verwalten.
 * **[Überwachen von Web-Erlebnissen](monitor-web-experiences.md)** – Verfolgen und analysieren Sie die Leistung Ihrer Web-Kampagnen mit detaillierten Berichten.
-* **[Generieren von Web-Inhalten mit dem KI](../content-management/generative-full-content.md)** Assistenten - Nutzen Sie KI, um Web-Inhalte mit Text und Bildern zu erstellen und zu optimieren.
+* **[Generieren von Web-Inhalten mit dem KI-Assistenten](../content-management/generative-full-content.md)** – Nutzen Sie KI, um Web-Inhalte mit Text und Bildern zu erstellen und zu optimieren.
 * **[Tutorials zu Web-Kampagnen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** – Sehen Sie sich detaillierte Video-Tutorials zu Web-Kanal-Funktionen und Best Practices an.
 
 

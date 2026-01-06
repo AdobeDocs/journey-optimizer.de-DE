@@ -8,17 +8,17 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte für Systemadministratoren {#get-started-sys-admins}
 
-Als **Systemadministrator** richten Sie die Journey Optimizer-Umgebung ein und verwalten den Zugriff, damit Ihre Teams effizient und sicher arbeiten können. Sie führen wichtige Konfigurationsschritte aus, damit [Datentechniker](data-engineer.md), [Entwickler](developer.md) und [Marketer](marketer.md) mit [!DNL Adobe Journey Optimizer] arbeiten können.
+Als **Systemadmin** richten Sie die Journey Optimizer-Umgebung ein und verwalten den Zugriff, damit Ihre Teams effizient und sicher arbeiten können. Sie führen wichtige Konfigurationsschritte aus, damit [Dateningenieurinnen und -ingenieure](data-engineer.md), [Entwickelnde](developer.md) und [Marketing-Fachleute](marketer.md) mit [!DNL Adobe Journey Optimizer] arbeiten können.
 
-Zu Ihren Hauptaufgaben gehören das Einrichten von Benutzergruppen und Berechtigungen, das Erstellen und Verwalten von Sandboxes für die Partitionierung von Daten und Journey für verschiedene Benutzergruppen sowie das Konfigurieren von Versandkanälen und Nachrichtenvoreinstellungen, um ein konsistentes Branding für die verschiedenen über Journey Optimizer bereitgestellten Nachrichten und Assets sicherzustellen. Sie stellen sicher, dass die richtigen Personen Zugriff auf die richtigen Funktionen haben, während gleichzeitig die Sicherheit und die Governance gewahrt bleiben.
+Zu Ihren Hauptaufgaben gehören das Einrichten von Benutzergruppen und Berechtigungen, das Erstellen und Verwalten von Sandboxes für die Partitionierung von Daten und Journeys für verschiedene Benutzergruppen sowie das Konfigurieren von Versandkanälen und Nachrichtenvoreinstellungen, um ein konsistentes Branding für die verschiedenen über Journey Optimizer bereitgestellten Nachrichten und Assets sicherzustellen. Sie stellen sicher, dass die richtigen Personen Zugriff auf die richtigen Funktionen haben, während gleichzeitig die Sicherheit und die Governance gewahrt bleiben.
 
 Diese Funktionen können von **[!UICONTROL Produktadmins]** verwaltet werden, die Zugriff auf das Produkt „Berechtigungen“ haben. [Weitere Informationen zu Berechtigungen](../../administration/permissions.md){target="_blank"}.
 
@@ -35,28 +35,28 @@ Führen Sie die folgenden Schritte aus, um die Zugriffsverwaltung zu konfigurier
 
 1. **Legen Sie Berechtigungen für Rollen fest**, einschließlich **Sandboxes**, und gewähren Sie Ihren Team-Mitgliedern Zugriff, indem Sie sie verschiedenen Rollen zuweisen. Berechtigungen sind Einzelrechte, mit denen Sie die einer **[!UICONTROL Rolle]** zugewiesenen Genehmigungen definieren können. Jede Berechtigung wird unter bestimmten Kategorien erfasst, z. B. Journey oder Angebote, die die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer] repräsentieren. Weitere Informationen finden Sie im Abschnitt [Berechtigungsebenen](../../administration/high-low-permissions.md).
 
-1. **Verwenden der Zugriffssteuerung auf Objektebene** (optional). Wenden Sie Zugriffskennzeichnungen auf Objekte wie Journey, Kampagnen und Kanalkonfigurationen an, um zu steuern, welche Benutzenden auf bestimmte Ressourcen zugreifen können. Weitere Informationen zur [Zugriffssteuerung auf Objektebene (OLAC)](../../administration/object-based-access.md).
+1. **Verwenden Sie die Zugriffssteuerung auf Objektebene** (optional). Wenden Sie Zugriffs-Labels auf Objekte wie Journeys, Kampagnen und Kanalkonfigurationen an, um zu steuern, welche Benutzenden auf bestimmte Ressourcen zugreifen können. Erfahren Sie mehr über die [Zugriffssteuerung auf Objektebene (OLAC)](../../administration/object-based-access.md).
 
 Darüber hinaus müssen Sie Benutzende, die Zugriff auf Assets Essentials benötigen, den Rollen **Assets Essentials-Endbenutzende** oder/und **Assets Essentials-Benutzende** hinzufügen. [Weitere Informationen finden Sie in der Dokumentation zu Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target="_blank"}.
 
 Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktions-Sandbox bereitgestellt und je nach Vertrag eine bestimmte Anzahl von IPs zugewiesen.
 
-## Kanäle und Nachrichten konfigurieren
+## Konfigurieren von Kanälen und Nachrichten
 
-Damit [Marketer](marketer.md) Nachrichten erstellen und senden können, rufen Sie das Menü **ADMINISTRATION** auf. Durchsuchen Sie das Menü **[!UICONTROL Kanäle]**, um die Kanaleinstellungen zu konfigurieren.
+Damit [Marketing-Fachleute](marketer.md) Nachrichten erstellen und senden können, rufen Sie das Menü **ADMINISTRATION** auf. Durchsuchen Sie das Menü **[!UICONTROL Kanäle]**, um die Kanaleinstellungen zu konfigurieren.
 
 >[!NOTE]
 >Wenn Sie als **Systemadmin** das Menü **[!UICONTROL Kanäle]** in [!DNL Journey Optimizer] nicht sehen, aktualisieren Sie Ihre Berechtigungen im Produkt [Berechtigungen](../../administration/permissions.md){target="_blank"}.
 
 Führen Sie folgende Schritte aus:
 
-1. **Einrichten von Kanalkonfigurationen**. Definieren Sie alle technischen Parameter, die für E-Mail, SMS, Push-Benachrichtigungen und andere Kanäle erforderlich sind:
+1. **Richten Sie Kanalkonfigurationen ein**. Definieren Sie alle technischen Parameter, die für E-Mail, SMS, Push-Benachrichtigungen und andere Kanäle erforderlich sind:
 
    * Definieren Sie **Push-Benachrichtigungseinstellungen** sowohl in [!DNL Adobe Experience Platform] als auch in der Datenerfassung von Adobe Experience Platform. [Weitere Informationen](../../push/push-gs.md)
 
-   * Erstellen Sie **Kanalkonfigurationen** um alle technischen Parameter zu konfigurieren, die für E-Mail-, SMS-, Push-, In-App-, Web- und andere Kanäle erforderlich sind. [Weitere Informationen](../../configuration/channel-surfaces.md)
+   * Erstellen Sie **Kanalkonfigurationen**, um alle technischen Parameter zu konfigurieren, die für E-Mail, SMS, Push, In-App, Web und andere Kanäle erforderlich sind. [Weitere Informationen](../../configuration/channel-surfaces.md)
 
-   * Konfigurieren Sie den **SMS** Kanal, um alle für SMS erforderlichen technischen Parameter einzurichten. [Weitere Informationen](../../sms/sms-configuration.md)
+   * Konfigurieren Sie den **SMS-Kanal**, um alle für SMS erforderlichen technischen Parameter einzurichten. [Weitere Informationen](../../sms/sms-configuration.md)
 
    * Verwalten Sie die Anzahl der Tage, in denen **weitere Zustellversuche** unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](../../configuration/manage-suppression-list.md)
 
@@ -84,49 +84,49 @@ Berücksichtigen Sie bei wachsenden Anforderungen Ihres Unternehmens die folgend
 
 * **Einverständnisrichtlinien**: Wenn Ihr Unternehmen Healthcare Shield oder Privacy and Security Shield erworben hat, erstellen Sie Einverständnisrichtlinien, die kanalübergreifend die Kundenvoreinstellungen berücksichtigen. [Weitere Informationen](../../action/consent.md)
 
-* **Data Governance-Richtlinien**: Wenden Sie Datennutzungskennzeichnungen und -richtlinien an, um zu steuern, wie Daten in Marketing-Aktionen verwendet werden. [Weitere Informationen](../../action/action-privacy.md)
+* **Data-Governance-Richtlinien**: Wenden Sie Datennutzungs-Labels und -richtlinien an, um zu steuern, wie Daten in Marketing-Aktionen verwendet werden. [Weitere Informationen](../../action/action-privacy.md)
 
-* **IP-Aufwärmpläne**: Steigern Sie die Menge der E-Mail-Sendungen schrittweise, um die Reputation der Absender bei E-Mail-Anbietern aufzubauen. [Weitere Informationen](../../configuration/ip-warmup-gs.md)
+* **IP-Aufwärmpläne**: Steigern Sie die Menge der E-Mail-Sendungen schrittweise, um die Reputation der Absendenden bei E-Mail-Anbietern aufzubauen. [Weitere Informationen](../../configuration/ip-warmup-gs.md)
 
-## Rollenübergreifend zusammenarbeiten
+## Rollenübergreifendes Zusammenarbeiten
 
-Ihre Verwaltungsarbeit ermöglicht es allen Teams, erfolgreich zu sein:
+Ihre administrative Arbeit ermöglicht es allen Teams, erfolgreich zu sein:
 
 >[!BEGINTABS]
 
->[!TAB Support für Dateningenieure]
+>[!TAB Unterstützen von Dateningenieurinnen und -ingenieuren]
 
-Zusammenarbeit mit [Dateningenieuren](data-engineer.md) bei der Verwaltung und dem Zugriff auf Daten:
+Arbeiten Sie mit [Dateningenieurinnen und -ingenieuren](data-engineer.md) bei Verwaltung und Zugriff auf Daten zusammen:
 
-* Berechtigungen für die Datenverwaltung und Schemaerstellung erteilen
+* Erteilen von Berechtigungen für das Daten-Management und die Schemaerstellung
 * Genehmigen des Sandbox-Zugriffs für Entwicklung und Tests
-* Koordinieren von Richtlinien zur Datenaufbewahrung und Governance-Regeln
-* Ermöglichen des Zugriffs auf erweiterte Funktionen wie Federated Audience Composition
+* Koordinieren von Datenspeicherungsrichtlinien und Governance-Regeln
+* Ermöglichen des Zugriffs auf erweiterte Funktionen wie die Komposition föderierter Zielgruppen
 
->[!TAB Entwickler aktivieren]
+>[!TAB Unterstützen von Entwickelnden]
 
-Zusammenarbeit mit [Entwicklern](developer.md) beim API-Zugriff und bei Tests:
+Arbeiten Sie mit [Entwickelnden](developer.md) bei API-Zugriff und Tests zusammen:
 
-* API-Anmeldeinformationen über Adobe Developer Console bereitstellen
+* Bereitstellen von API-Anmeldedaten über Adobe Developer Console
 * Einrichten von Sandbox-Umgebungen für Entwicklung und Tests
-* Kanalkonfigurationen genehmigen (Push-Zertifikate, SMS-Anbieter)
-* Koordination von Testumgebungen und Bereitstellungsstrategie
+* Genehmigen von Kanalkonfigurationen (Push-Zertifikate, SMS-Anbieter)
+* Koordinieren von Testumgebungen und Bereitstellungsstrategie
 
->[!TAB Marketing-Experten unterstützen]
+>[!TAB Unterstützen von Marketing-Fachleuten]
 
-Zusammenarbeit mit [Marketern](marketer.md) bei Berechtigungen und Kanaleinrichtung:
+Arbeiten Sie mit [Marketing-Fachleuten](marketer.md) bei Berechtigungen und Kanaleinrichtung zusammen:
 
-* Weisen Sie die entsprechenden Berechtigungen zu, um Journey und Kampagnen zu erstellen
-* Kanäle konfigurieren, die sie verwenden werden (E-Mail, Push, SMS usw.)
-* Unterstützung von Testumgebungen und Genehmigungs-Workflows
-* Ermöglichen des Zugriffs auf neue Funktionen
+* Zuweisen der entsprechenden Berechtigungen zum Erstellen von Journeys und Kampagnen
+* Konfigurieren von Kanälen, die sie verwenden werden (E-Mail, Push, SMS usw.)
+* Unterstützen von Testumgebungen und Genehmigungs-Workflows
+* Ermöglichen von Zugriff auf neue Funktionen
 
 >[!ENDTABS]
 
 ## Nächste Schritte
 
-Sobald die Umgebung konfiguriert ist:
+Sobald die Umgebung konfiguriert ist, kann Folgendes geschehen:
 
-1. **Setup überprüfen**: Überprüfen Sie, ob alle Team-Mitglieder auf die erforderlichen Funktionen zugreifen können
-2. **Nutzung überwachen**: Verwenden Sie die Verwaltungs-Dashboards, um die Systemnutzung zu verfolgen und Probleme zu identifizieren
-3. **Berechtigungen beibehalten**: Berechtigungen werden im Zuge der Weiterentwicklung von Team-Rollen regelmäßig überprüft und aktualisiert
+1. **Überprüfen der Einrichtung**: Überprüfen Sie, ob alle Team-Mitglieder auf die erforderlichen Funktionen zugreifen können
+2. **Überwachen der Nutzung**: Verwenden Sie die Dashboards zur Administration, um die Systemnutzung zu verfolgen und Probleme zu identifizieren
+3. **Beibehalten von Berechtigungen**: Überprüfen und aktualisieren Sie Berechtigungen im Zuge der Weiterentwicklung von Team-Rollen regelmäßig
