@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
+source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
 workflow-type: tm+mt
-source-wordcount: '3574'
-ht-degree: 99%
+source-wordcount: '3661'
+ht-degree: 96%
 
 ---
 
@@ -21,19 +21,19 @@ Nachstehend finden Sie Leitplanken und Einschränkungen bei der Verwendung von [
 
 Berechtigungen, Produkteinschränkungen und Performance-Leitlinien sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 
-
 >[!CAUTION]
 >
 >* [Leitlinien für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"} gelten auch für Adobe Journey Optimizer.
 >
 >* Siehe auch [Leitlinien für die Datenaufnahme im Echtzeit-Kundenprofil](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/guardrails){target="_blank"}
 
+## System und Plattform {#system-platform}
 
-## Unterstützte Browser {#browsers}
+### Unterstützte Browser {#browsers}
 
 Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optimale Funktionsweise in der neuesten Version von Google Chrome entwickelt. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
 
-## Leitlinien für Datensätze {#datasets-guardrails}
+### Leitlinien für Datensätze {#datasets-guardrails}
 
 Ab Februar 2025 werden in **neuen Sandboxes und neuen Organisationen** für systemgenerierte Journey Optimizer-Datensätze als Schutzmechanismen die folgenden Limits für die Time-to-Live (TTL) eingeführt:
 
@@ -42,12 +42,13 @@ Ab Februar 2025 werden in **neuen Sandboxes und neuen Organisationen** für sys
 
 Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandboxes** integriert. [Weitere Informationen zu Limits für die Time-to-Live (TTL) als Schutzmechanismen für Datensätze](../data/datasets-ttl.md)
 
-## Schutzmechanismen für Kanäle {#channel-guardrails}
+## Kanäle und Messaging {#channel-guardrails}
+
+In diesem Abschnitt werden Leitplanken für alle Kommunikationskanäle behandelt, einschließlich E-Mail, SMS, eingehende Kanäle (Web, In-App, Code-basiert, Inhaltskarten) und Transaktionsnachrichten.
 
 >[!NOTE]
 >
 >In seltenen Fällen können temporäre Ausfälle in einer bestimmten Region dazu führen, dass gültige Profile von Journeys ausgeschlossen werden oder dass E-Mails fälschlicherweise als Bounces markiert werden. Sobald die Services wiederhergestellt sind, überprüfen Sie die Journey-Protokolle erneut, verifizieren Sie die Einverständnisprofilfelder und veröffentlichen Sie die Journey bei Bedarf erneut. [In diesem Abschnitt](../configuration/manage-suppression-list.md#remove-from-suppression-list) erfahren Sie, wie Sie im Falle eines ISP-Ausfalls Profile aus der Unterdrückungsliste entfernen.
->
 
 ### Schutzmechanismen für E-Mails {#message-guardrails}
 
@@ -117,7 +118,11 @@ Adobe empfiehlt, den TTL-Wert auf 14 Tage festzulegen, damit er mit der aktuell
 
 Journey Optimizer unterstützt ein Spitzenvolumen von 500 Transaktionsnachrichten pro Sekunde für Kampagnen.
 
-## Schutzmechanismen für Landingpages {#lp-guardrails}
+## Inhalt und Assets {#content-assets}
+
+Dieser Abschnitt enthält Leitplanken für die Erstellung und Verwaltung von Inhalten, einschließlich Landingpages, Subdomains und Fragmenten.
+
+### Schutzmechanismen für Landingpages {#lp-guardrails}
 
 Für [Landingpages](../landing-pages/get-started-lp.md) gelten die folgenden Schutzmechanismen:
 
@@ -126,11 +131,11 @@ Für [Landingpages](../landing-pages/get-started-lp.md) gelten die folgenden Sch
 * Sie können keine Preheader zu einer Landingpage hinzufügen.
 * Sie können die Option **Eigene Codierung** nicht auswählen, wenn Sie eine primäre Landingpage entwerfen.
 
-## Leitlinien für Subdomains {#subdomain-guardrails}
+### Leitlinien für Subdomains {#subdomain-guardrails}
 
 Die Leitlinien und Einschränkungen für die Delegierung von Subdomains in Journey Optimizer werden auf [dieser Seite](../configuration/delegate-subdomain.md#guardrails) beschrieben.
 
-## Schutzmechanismen für Fragmente {#fragments-guardrails}
+### Schutzmechanismen für Fragmente {#fragments-guardrails}
 
 Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutzmechanismen:
 
@@ -143,7 +148,11 @@ Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutz
 * Visuelle Fragmente sind zwischen den Modi „Designs verwenden“ und „Manuelle Formatierung“ nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Modus „Designs verwenden“ erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
 * Wenn in einer Journey oder Kampagne das Tracking aktiviert ist und Sie Links zu einem Fragment hinzufügen, das in einer Nachricht verwendet wird, werden diese Links ebenso wie alle anderen in der Nachricht enthaltenen Links nachverfolgt. [Weitere Informationen über Links und Tracking](../email/message-tracking.md)
 
-## Leitlinien für Zielgruppen und Profile {#audience}
+## Audiences und Profile {#audiences-profiles}
+
+In diesem Abschnitt werden Leitplanken für die Verwaltung von Zielgruppen, die Behandlung von Profilen und Überlegungen zu ansprechbaren Profilen behandelt.
+
+### Leitlinien für Zielgruppen und Profile {#audience}
 
 * Sie können bis zu 10 Zielgruppenkompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
 
@@ -153,14 +162,18 @@ Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutz
 
 * Wenn pseudonyme Profile (nicht authentifizierte Besuchende) mit Inbound-Kanälen angesprochen werden, sollten Sie eine Time-to-Live (TTL) für die automatische Profillöschung festlegen, um die Anzahl der ansprechbaren Profile und die damit verbundenen Kosten zu verwalten. [Weitere Informationen](#profile-management-inbound)
 
-## Leitlinien für die Entscheidungsfindung und das Entscheidungs-Management {#decisioning-guardrails}
+## Entscheidungs-Management {#decision-management}
+
+### Leitlinien für die Entscheidungsfindung und das Entscheidungs-Management {#decisioning-guardrails}
 
 Leitplanken und Einschränkungen, die Sie bei der Arbeit mit dem Entscheidungs- oder Entscheidungs-Management beachten sollten, werden in den folgenden Abschnitten beschrieben:
 
 * [Leitlinien und Einschränkungen für die Entscheidungsfindung](../experience-decisioning/decisioning-guardrails.md)
-* [Leitlinien und Einschränkungen für das Entscheidungs-Management](../offers/decision-management-guardrails.md)
+* [Schutzmechanismen und Einschränkungen für das Entscheidungs-Management](../offers/decision-management-guardrails.md)
 
-## Leitlinien für Journeys {#journeys-guardrails}
+## Journeys {#journeys-guardrails}
+
+In diesem Abschnitt werden Leitplanken und Einschränkungen für Journey beschrieben, einschließlich allgemeiner Journey-Einschränkungen, Journey-Komponenten (Aktionen, Ereignisse, Datenquellen), Journey-Aktivitäten und spezifischer Funktionen wie benutzerdefinierte Aktionen und Ausdruckseditor.
 
 ### Allgemeine Limits für Journey {#journeys-guardrails-journeys}
 
@@ -333,6 +346,8 @@ Siehe auch [diese Seite](../building-journeys/read-audience.md#must-read).
 
 Für die Aktivität **[!UICONTROL Profil aktualisieren]** gelten spezifische Schutzmechanismen. Sie sind auf [dieser Seite](../building-journeys/update-profiles.md) aufgeführt.
 
-## Leitlinien für die Kampagnenorchestrierung {#orchestration-guardrails}
+## Kampagnenorchestrierung {#campaign-orchestration}
+
+### Leitlinien für die Kampagnenorchestrierung {#orchestration-guardrails}
 
 Die bei der Kampagnenorchestrierung zu beachtenden Leitlinien und Einschränkungen werden in diesem Abschnitt beschrieben: [Leitlinien und Einschränkungen](../orchestrated/guardrails.md).

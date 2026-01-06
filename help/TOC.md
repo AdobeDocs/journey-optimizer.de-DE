@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
 workflow-type: tm+mt
-source-wordcount: '3037'
+source-wordcount: '3038'
 ht-degree: 99%
 
 ---
@@ -217,7 +217,7 @@ ht-degree: 99%
       + [Festlegen von Frequenzbegrenzung nach Kanal und Typ](using/conflict-prioritization/channel-capping.md)
       + [Festlegen von Ruhezeiten](using/conflict-prioritization/quiet-hours.md)
 + Testen und Genehmigen {#test}
-   + [Testen und Genehmigen](/help/rp_landing_pages/test-landing-page.md)
+   + [Testen, Validieren und Genehmigen](/help/rp_landing_pages/test-landing-page.md)
    + Vorschau und Testen der Inhalte {#preview-test}
       + [Vorschau und Testen der Inhalte](/help/rp_landing_pages/preview-test-landing-page.md)
       + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
