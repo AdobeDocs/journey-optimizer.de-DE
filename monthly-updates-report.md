@@ -5,9 +5,9 @@ title: Monatlicher Bericht zu Dokumentationsaktualisierungen
 description: Liste der neuen und aktualisierten Dokumentationsseiten
 hide: true
 hidefromtoc: true
-source-git-commit: 3f0da68c95a1fbd5b3cf6beaa38eae1a475ab941
+source-git-commit: e0e82dad61d3ccc1c48435ba7b49bff51c7e9636
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,34 @@ ht-degree: 0%
 
 # Monatlicher Bericht zu Dokumentationsaktualisierungen
 
-*Bericht erstellt für den 3. November - 11. Dezember 2024*
+## Bericht: 11. Dezember 2024 - 6. Januar 2026
 
-## Neue Seiten
+### Neue Seiten
+
+- [Erste Schritte mit Tracking](help/using/start/get-started-tracking.md) - 19. Dezember
+
+### Aktualisierte Seiten
+
+- [Leitplanken und Einschränkungen für Journey Optimizer](help/using/start/guardrails.md) - 6. Januar
+- [Briefpost-Konfiguration](help/using/direct-mail/direct-mail-configuration.md) - 5. Januar
+- [Personalization-Syntax](help/using/personalization/personalization-syntax.md) - 5. Januar
+- [Erste Schritte mit Journey](help/using/building-journeys/journey.md) - 2. Januar
+- [Erste Schritte mit Kampagnen](help/using/campaigns/get-started-with-campaigns.md) - 2. Januar
+- [Kampagnen verwalten](help/using/campaigns/manage-campaigns.md) - 2. Januar
+- [Subdomain delegieren](help/using/configuration/delegate-subdomain.md) - 2. Januar
+- [Google TXT-Eintrag konfigurieren](help/using/configuration/google-txt.md) - 2. Januar
+- [Erste Schritte mit Tracking](help/using/start/get-started-tracking.md) - 23. Dezember
+- [Liste der Step-Ereignisfelder](help/using/reports/sharing-field-list.md) - 23. Dezember
+- [Testsendungen durchführen](help/using/content-management/proofs.md) - 23. Dezember
+- [Arbeiten mit Regelsätzen für die Kanalbegrenzung](help/using/conflict-prioritization/channel-capping.md) - 23. Dezember
+- [Verwenden benutzerdefinierter Upload-Zielgruppen für die Entscheidungsfindung](help/using/offers/custom-upload-decisioning.md) - 23. Dezember
+- [Erste Schritte mit Kommunikationskanälen](help/using/channels/gs-channels.md) - 22. Dezember
+- [Versionshinweise 2025](help/using/rn/release-notes-2025.md) - 18. Dezember
+- [Arbeiten mit AEM-Fragmenten](help/using/integrations/aem-fragments.md) - 18. Dezember
+
+## Vorheriger Bericht: 3. November - 11. Dezember 2024
+
+### Neue Seiten
 
 - [Handbuch zu Ein- und Ausstiegskriterien für Journey](help/using/building-journeys/entry-exit-criteria-guide.md) - 11. Dezember
 - [Journey-Anwendungsfälle](help/using/building-journeys/jo-use-cases.md) - 11. Dezember
@@ -28,7 +53,7 @@ ht-degree: 0%
 - [Veröffentlichen und Verwalten von Code-basierten Erlebnissen](help/using/code-based/publish-code-based.md) - 22. November
 - [Testen von Code-basierten Erlebnissen](help/using/code-based/test-code-based.md) - 22. November
 
-## Aktualisierte Seiten
+### Aktualisierte Seiten
 
 - [Adobe Experience Platform-Daten zur Personalisierung nachschlagen](help/using/data/lookup-aep-data.md) - 10. Dezember
 - [Konfiguration von Mobile Apps](help/using/configuration/set-mobile-config.md) - 6. Dezember
@@ -76,7 +101,7 @@ ht-degree: 0%
 - [Erstellen und Verwalten von Sammlungen von Entscheidungselementen](help/using/experience-decisioning/collections.md) - 7. November
 - [Kontextdaten](help/using/experience-decisioning/context-data.md) - 7. November
 - [Erste Schritte mit Entscheidungsrichtlinien](help/using/experience-decisioning/create-decision.md) - 7. November
-- [Erste Schritte mit Experience &#x200B;](help/using/experience-decisioning/gs-experience-decisioning.md) - 7. November
+- [Erste Schritte mit Experience ](help/using/experience-decisioning/gs-experience-decisioning.md) - 7. November
 - [Entscheidungspunkte](help/using/experience-decisioning/items.md) - 7. November
 - [Decisioning-Rangfolgenmethoden](help/using/experience-decisioning/ranking/ranking.md) - 7. November
 - [Regeln erstellen](help/using/experience-decisioning/rules.md) - 7. November
@@ -88,7 +113,7 @@ ht-degree: 0%
 - [Platzierungen erstellen](help/using/offers/offer-library/creating-placements.md) - 5. November
 - [Rangfolgestrategien erstellen](help/using/offers/ranking/create-ranking-strategies.md) - 5. November
 
-## Vorheriger Bericht: 1. Oktober - 3. November 2025
+## Vorheriger Bericht: 1. Oktober - 3. November 2024
 
 ### Neue Seiten
 
@@ -104,11 +129,8 @@ ht-degree: 0%
 - [Erstellen von Entscheidungsrichtlinien](help/using/experience-decisioning/create-decision-policy.md) - 7. Oktober
 - [Verwenden von Entscheidungsrichtlinien in Nachrichten](help/using/experience-decisioning/use-decision-policy.md) - 9. Oktober
 - [Konfigurieren der Kanalkonfiguration](help/using/orchestrated/channel-config.md) - 14. Oktober
-- [Gestalten einer Push-Benachrichtigung](help/using/push/design-push-web.md) - 14. Oktober
-- [Konfiguration von Push-Benachrichtigungen](help/using/push/push-configuration-web.md) - 14. Oktober
 - [Arbeiten mit Journey-Schrittereignissen](help/using/reports/journey-step-events-overview.md) - 21. Oktober
 - [Adobe Journey Optimizer-Versionszyklus](help/using/rn/releases.md) - 28. Oktober
-- [Gestalten des Nachrichteninhalts](help/using/start/message-content-design.md) - 18. Oktober
 
 ### Aktualisierte Seiten
 
@@ -143,7 +165,7 @@ ht-degree: 0%
 - [Definieren der API-ausgelösten Kampagneneigenschaften](help/using/campaigns/api-triggered-campaign-properties.md) - 23. Oktober
 - [Arbeiten mit API-ausgelösten Kampagnen](help/using/campaigns/api-triggered-campaigns.md) - 29. Oktober
 - [Konfigurieren der Kampagnenaktion](help/using/campaigns/campaign-action.md) - 29. Oktober
-- [Optimierung in Kampagnen und Journey &#x200B;](help/using/campaigns/campaigns-message-optimization.md) - 22. Oktober
+- [Optimierung in Kampagnen und Journey ](help/using/campaigns/campaigns-message-optimization.md) - 22. Oktober
 - [Erstellen einer Aktionskampagne](help/using/campaigns/create-campaign.md) - 29. Oktober
 - [Erste Schritte mit Kampagnen](help/using/campaigns/get-started-with-campaigns.md) - 29. Oktober
 - [Zugreifen auf und Verwalten von Kampagnen](help/using/campaigns/manage-campaigns.md) - 23. Oktober
@@ -156,9 +178,9 @@ ht-degree: 0%
 - [Arbeiten mit Regelsätzen](help/using/conflict-prioritization/rule-sets.md) - 27. Oktober
 - [Erstellen eines Inhaltsexperiments](help/using/content-management/content-experiment.md) - 15. Oktober
 - [Erstellen eines Fragments](help/using/content-management/create-fragments.md) - 7. Oktober
-- [Verwalten von &#x200B;](help/using/content-management/manage-fragments.md)) 7. Oktober
+- [Verwalten von ](help/using/content-management/manage-fragments.md)) 7. Oktober
 - [Beispiele für Datensatzabfragen](help/using/data/datasets-query-examples.md) - 17. Oktober
-- [Über Leitplanken für die Time-to-Live (TTL) von &#x200B;](help/using/data/datasets-ttl.md)-28. Oktober
+- [Über Leitplanken für die Time-to-Live (TTL) von ](help/using/data/datasets-ttl.md)-28. Oktober
 - [Erstellen einer Briefpostnachricht](help/using/direct-mail/create-direct-mail.md) - 15. Oktober
 - [Entwerfen barrierefreier Inhalte](help/using/email/accessible-content.md) - 25. Oktober
 - [Verwenden von E-Mail-Designer-Inhaltskomponenten](help/using/email/content-components.md) - 25. Oktober
