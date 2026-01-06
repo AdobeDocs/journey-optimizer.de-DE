@@ -24,7 +24,7 @@ Lernen Sie die Grundlagen von Adobe Journey Optimizer kennen und erfahren Sie, w
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Was ist Journey Optimizer?
 
@@ -34,7 +34,7 @@ Hier erfahren Sie mehr über die wichtigsten Funktionen, Anwendungsfälle und di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Grundlegendes zur Funktionsweise
 
@@ -44,7 +44,7 @@ Erfahren Sie, wie Journey Optimizer mit Adobe Experience Platform integriert wir
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=de)
 
 Wichtige Terminologie
 
@@ -61,7 +61,7 @@ Legen Sie mit rollenspezifischen Anleitungen los, die auf Ihre Zuständigkeiten 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=de)
 
 Für Marketing-Fachleute
 
@@ -71,7 +71,7 @@ Entwerfen Sie Journeys, erstellen Sie Kampagnen und personalisieren Sie Inhalte,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
 
 Für Dateningenieurinnen und Dateningenieure
 
@@ -81,7 +81,7 @@ Konfigurieren Sie Datenstrukturen, verwalten Sie Schemata und Datensätze und st
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Für Admins
 
@@ -91,7 +91,7 @@ Richten Sie Umgebungen ein, verwalten Sie Berechtigungen und konfigurieren Sie K
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
 
 Für Entwicklende
 
@@ -110,7 +110,7 @@ Lernen Sie die Benutzeroberfläche kennen und nutzen Sie intelligente Funktionen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
 
 Navigieren in der Benutzeroberfläche
 
@@ -120,7 +120,7 @@ Erfahren Sie, wie Sie die Benutzeroberfläche von Journey Optimizer verwenden, a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Suchen und Organisieren
 
@@ -130,7 +130,7 @@ Verwenden Sie Suchen, Filter und Tags, um Journeys, Kampagnen und Inhalte effizi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 KI und intelligente Funktionen
 

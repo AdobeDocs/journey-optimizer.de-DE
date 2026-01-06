@@ -22,7 +22,7 @@ Der Code-basierte Erlebniskanal von Adobe Journey Optimizer ermöglicht es Ihnen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Bereitstellen von Angeboten mithilfe des Code-basierten Erlebniskanals
 

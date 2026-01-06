@@ -20,7 +20,7 @@ Durch die Implementierung eines IP-Aufwärmplans in Adobe Journey Optimizer wird
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=de)
 
 Handbuch zur IP-Aufwärmzustellbarkeit
 
@@ -30,7 +30,7 @@ Machen Sie sich mit den Grundlagen der Zustellbarkeit, dem Aufbau der Reputation
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Erste Schritte mit IP-Aufwärmplänen
 
@@ -40,7 +40,7 @@ Erfahren Sie mehr über den Zweck, die Vorteile und die einzelnen Schritte von I
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen von IP-Aufwärmkampagnen
 
@@ -50,7 +50,7 @@ Folgen Sie den schrittweisen Anweisungen, um Kampagnen für Ihren IP-Aufwärmpla
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Erstellen und Verwalten eines IP-Aufwärmplans
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Ihren IP-Aufwärmplan erstellen, konfigurieren und verwalt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Ausführen und Verwalten Ihres IP-Aufwärmplans
 
