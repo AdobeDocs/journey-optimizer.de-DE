@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
 workflow-type: tm+mt
 source-wordcount: '3574'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -171,21 +171,21 @@ Leitplanken und Einschränkungen, die Sie bei der Arbeit mit dem Entscheidungs- 
 * Eine Journey-Instanz für ein Profil hat eine Maximalgröße von 1 MB. Alle Daten, die im Rahmen der Journey-Ausführung gesammelt wurden, werden in dieser Journey-Instanz gespeichert. Daher werden Daten aus einem eingehenden Ereignis, aus Adobe Experience Platform abgerufene Profilinformationen, benutzerdefinierte Aktionsantworten usw. in dieser Journey-Instanz gespeichert und wirken sich auf die Journey-Größe aus. Es wird empfohlen, die Maximalgröße dieser Ereignis-Payload zu begrenzen, wenn eine Journey mit einem Ereignis beginnt (z. B. weniger als 800 KB), um zu verhindern, dass dieses Limit nach wenigen Aktivitäten bei der Ausführung der Journey erreicht wird. Wenn dieses Limit erreicht ist, befindet sich das Profil im Fehlerstatus und wird von der Journey ausgeschlossen.
 * Zusätzlich zum in den Journey-Aktivitäten verwendeten Timeout gibt es auch einen globalen Journey-Timeout, der nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey 91 Tage nach ihrem Eintritt. [Weitere Informationen](../building-journeys/journey-properties.md#global_timeout)
 
-### Paketeinschränkungen für einheitliche Journey auswählen {#select-package-limitations}
+### Auswählen von Paketeinschränkungen für unitäre Journeys {#select-package-limitations}
 
 >[!NOTE]
 >
->Diese Einschränkungen gelten nicht für Journey vom Typ „Zielgruppe lesen“ oder „Geschäftsereignis“ mit dem Paket **Auswählen**. Wenn Sie eine komplexere Journey-Logik mit mehreren Aktionen, Bedingungen oder Warteaktivitäten benötigen, sollten Sie ein Upgrade Ihres Lizenzpakets in Erwägung ziehen oder gegebenenfalls Zielgruppen-Journey lesen verwenden.
+>Diese Einschränkungen gelten nicht für Journeys vom Typ „Zielgruppe lesen“ oder „Geschäftsereignis“ mit dem **Select**-Paket. Wenn Sie eine komplexere Journey-Logik mit mehreren Aktionen, Bedingungen oder Warteaktivitäten benötigen, sollten Sie ein Upgrade Ihres Lizenzpakets in Erwägung ziehen oder gegebenenfalls Journeys vom Typ „Zielgruppe lesen“ verwenden.
 
-Für Kunden, die das **Select**-Lizenzpaket verwenden, gelten die folgenden zusätzlichen Einschränkungen speziell für unitäre Journey, Journey, beginnend mit einem Event oder einer Zielgruppen-Qualifizierung:
+Für Kundinnen und Kunden, die das **Select**-Lizenzpaket verwenden, gelten die folgenden zusätzlichen Einschränkungen speziell für unitäre Journeys und mit einem Ereignis oder einer Zielgruppenqualifizierung beginnende Journeys:
 
-* **SELECT-Paket: Nur eine Aktion zulässig beim unitären Journey (ERR_PKG_SELECT_8)**: Unitäre Journey können nur eine Aktionsaktivität enthalten. Sie können nicht mehrere E-Mail-, Push-, SMS- oder andere Aktionsaktivitäten innerhalb derselben Journey hinzufügen.
+* **SELECT-Paket: In einer unitären Journey ist nur ein unitäres Ereignis zulässig (ERR_PKG_SELECT_8)**: Unitäre Journeys können nur eine Aktionsaktivität enthalten. Sie können nicht mehrere E-Mail-, Push-, SMS- oder andere Aktionsaktivitäten innerhalb derselben Journey hinzufügen.
 
-* **SELECT-Paket: Keine Bedingung beim unitären Journey zulässig (ERR_PKG_SELECT_7)**: Bedingungsaktivitäten können nicht in unitären Journey verwendet werden. Die Journey muss einem einzigen, linearen Pfad ohne Verzweigungslogik folgen.
+* **SELECT-Paket: Keine Bedingungen in unitärer Journey zulässig (ERR_PKG_SELECT_7)**: Bedingungsaktivitäten können in unitären Journeys nicht verwendet werden. Die Journey muss einem einzigen, linearen Pfad ohne Verzweigungslogik folgen.
 
-* **SELECT-Paket: Keine Wartezeit beim unitären Journey zulässig (ERR_PKG_SELECT_6)**: Warteaktivitäten können nicht zu unitären Journey hinzugefügt werden. Aktionen müssen sofort und ohne Verzögerungen ausgeführt werden.
+* **SELECT-Paket: Warten in unitärer Journey nicht zulässig (ERR_PKG_SELECT_6)**: Warteaktivitäten können nicht zu unitären Journeys hinzugefügt werden. Aktionen müssen sofort und ohne Verzögerungen ausgeführt werden.
 
-* **Paket auswählen: Zeitüberschreitung/Fehlerübergang vom Knoten darf nur auf den Endknoten verweisen (ERR_PKG_SELECT_2)**: Wenn Sie Zeitüberschreitung oder Fehlerübergänge für eine Aktion wie eine E-Mail-Aktion konfigurieren, müssen diese Pfade direkt auf einen Endknoten verweisen. Sie können keine Verbindung zu anderen Aktivitäten oder Aktionen auf der Journey herstellen.
+* **SELECT-Paket: Maximale Wartezeit/Fehlertransition des Knotens darf nur auf den Endknoten verweisen (ERR_PKG_SELECT_2)**: Wenn Sie ein Timeout oder eine Fehlertransition für eine Aktion wie eine E-Mail-Aktion konfigurieren, müssen diese Pfade direkt auf einen Endknoten verweisen. Sie können keine Verbindung zu anderen Aktivitäten oder Aktionen in der Journey herstellen.
 
 
 ### Allgemeine Aktionen {#general-actions-g}
@@ -318,7 +318,7 @@ Für die Aktivität **[!UICONTROL Springen]** gelten spezifische Schutzmechanism
 Für die Journey-Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md) gelten die folgenden Schutzmechanismen:
 
 * Streaming-Zielgruppen sind immer auf dem neuesten Stand, Batch-Zielgruppen werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zum Zeitpunkt der täglichen Batch-Auswertung berechnet.
-* Beim Journey-Eintrag verwenden Profile Attributwerte aus dem Snapshot der Batch-Zielgruppe. Wenn ein Profil jedoch eine Aktivität vom Typ **Warten** erreicht, aktualisiert der Journey Profilattribute automatisch, indem er die neuesten Daten aus dem einheitlichen Profildienst (UPS) abruft. Dies bedeutet, dass sich Profilattribute während der Journey-Ausführung ändern können.
+* Beim Journey-Eintritt verwenden Profile Attributwerte aus dem Snapshot der Batch-Zielgruppe. Wenn ein Profil jedoch eine Aktivität vom Typ **Warten** erreicht, aktualisiert die Journey Profilattribute automatisch, indem sie die neuesten Daten aus dem einheitlichen Profildienst (UPS) abruft. Dies bedeutet, dass sich Profilattribute während der Journey-Ausführung ändern können.
 * Für Journeys, die eine Aktivität vom Typ **Zielgruppe lesen** verwenden, gibt es eine maximale Anzahl von Journeys, die genau zur gleichen Zeit beginnen können. Es werden zwar weitere Versuche vom System durchgeführt, Sie sollten jedoch vermeiden, dass mehr als fünf Journeys (mit **Zielgruppe lesen**, geplant oder beginnend mit „so bald wie möglich“) exakt zur gleichen Zeit beginnen, indem Sie sie über einen bestimmten Zeitraum verteilen, z. B. im Abstand von 5 bis 10 Minuten. Weitere Informationen zu Journey-Verarbeitungsraten finden Sie in [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
 * Die Aktivität **Zielgruppe lesen** kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
 * Die Aktivität **Zielgruppe lesen** kann nur als erste Aktivität in einer Journey nach einer Aktivität vom Typ „Geschäftsereignis“ verwendet werden.

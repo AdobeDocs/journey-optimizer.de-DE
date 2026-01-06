@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '3037'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -34,16 +34,16 @@ ht-degree: 96%
    + [Erste Schritte](/help/rp_landing_pages/get-started-landing-page.md)
    + Grundlagen {#essentials}
       + [Was ist Journey Optimizer?](using/start/get-started.md)
-      + [Funktionsweise verstehen](using/start/understanding-ajo.md)
+      + [Grundlegendes zur Funktionsweise](using/start/understanding-ajo.md)
       + [Wichtige Terminologie](using/start/terminology.md)
       + [Leitlinien und Einschränkungen](using/start/guardrails.md)
    + Erste Schritte nach Rolle {#by-role}
-      + [Wählen Sie Ihren Lernpfad](using/start/quick-start.md)
-      + [Erste Schritte als Marketer](using/start/path/marketer.md)
-      + [Erste Schritte als Datentechniker](using/start/path/data-engineer.md)
+      + [Wählen Ihres Lernpfads](using/start/quick-start.md)
+      + [Erste Schritte als Marketing-Fachkraft](using/start/path/marketer.md)
+      + [Erste Schritte als Dateningenieurin oder -ingenieur](using/start/path/data-engineer.md)
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
-   + Effizient arbeiten {#work-efficiently}
+   + Effizientes Arbeiten {#work-efficiently}
       + [Navigieren in der Benutzeroberfläche](using/start/user-interface.md)
       + [Suchen, Filtern und Organisieren](using/start/search-filter-categorize.md)
       + [KI und intelligente Funktionen](using/start/ai-features.md)
@@ -52,7 +52,7 @@ ht-degree: 96%
 + Journeys {#orchestrate-journeys}
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)
    + [Journey-Typen und Auswahlhilfe](using/building-journeys/journey-types-selection.md)
-   + [Häufig gestellte Fragen zu Journey Orchestration](using/building-journeys/journey-faq.md)
+   + [Häufig gestellte Fragen zur Journey-Orchestrierung](using/building-journeys/journey-faq.md)
    + Erstellen einer Journey {#create-journey}
       + [Erstellen einer Journey](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Erstellen Ihrer ersten Journey](using/building-journeys/journey-gs.md)
@@ -121,7 +121,7 @@ ht-degree: 96%
    + Anwendungsfälle {#journey-use-cases}
       + [Anwendungsfälle](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Lernen durch Anwendungsfälle](using/building-journeys/jo-use-cases.md)
-      + [Ein- und Ausstiegskriterien für Journey](using/building-journeys/entry-exit-criteria-guide.md)
+      + [Journey-Eintritts- und -Ausstiegskriterien](using/building-journeys/entry-exit-criteria-guide.md)
       + [Suchen nach Erlebnisereignissen](using/building-journeys/exp-event-lookup.md)
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/ajo-ac.md)
@@ -189,7 +189,7 @@ ht-degree: 96%
          + [Erste Schritte mit Aktivitäten](using/orchestrated/activities/about-activities.md)
          + [Und-Verknüpfung](using/orchestrated/activities/and-join.md)
          + [Erstellen einer Zielgruppe](using/orchestrated/activities/build-audience.md)
-         + [Ändern der Dimension](using/orchestrated/activities/change-dimension.md)
+         + [Dimensionsänderung](using/orchestrated/activities/change-dimension.md)
          + [Kanalaktivitäten](using/orchestrated/activities/channels.md)
          + [Kombinieren](using/orchestrated/activities/combine.md)
          + [Deduplizierung](using/orchestrated/activities/deduplication.md)
@@ -202,9 +202,9 @@ ht-degree: 96%
          + [Test](using/orchestrated/activities/test.md)
          + [Warten](using/orchestrated/activities/wait.md)
       + Lernen durch Anwendungsfälle {#use-cases}
-         + [Wunschlisten-Artikelaktualisierungen senden](using/orchestrated/wishlist-uc.md)
-         + [Kundeninteraktion durch Durchsuchen der Aktivität](using/orchestrated/engage-customers-uc.md)
-         + [Benutzer über Produktverfügbarkeit benachrichtigen](using/orchestrated/product-availability-uc.md)
+         + [Senden von Aktualisierungen von Wunschlistenartikeln](using/orchestrated/wishlist-uc.md)
+         + [Interagieren mit Kundinnen und Kunden nach Suchaktivität](using/orchestrated/engage-customers-uc.md)
+         + [Benachrichtigen von Benutzenden über Produktverfügbarkeit](using/orchestrated/product-availability-uc.md)
 + Konflikte und Priorisierung {#conflict-prioritization}
    + [Konflikt-Management und Priorisierung](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [Erste Schritte mit Konflikt-Management und Priorisierung](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -237,7 +237,7 @@ ht-degree: 96%
 + Monitoring und Fehlerbehebung {#monitor}
    + [Monitoring und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Erste Schritte mit dem Tracking](using/start/get-started-tracking.md)
-   + E-Mail-Zustellbarkeit {#deliverability}
+   + Zustellbarkeit von E-Mails {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
       + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
       + [Neue DMARC-Anforderung](using/configuration/dmarc-record-update.md)
@@ -408,7 +408,7 @@ ht-degree: 96%
       + [Erste Schritte mit der Personalisierung](using/personalization/personalize.md)
       + [Hinzufügen von Personalisierung](using/personalization/personalization-build-expressions.md)
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
-      + [Iteration über kontextuelle Daten](using/personalization/iterate-contextual-data.md)
+      + [Iterieren über kontextuelle Daten](using/personalization/iterate-contextual-data.md)
       + [Wiederverwenden von Ausdrucksfragmenten](using/personalization/use-expression-fragments.md)
       + [Verwenden von Adobe Experience Platform-Daten für die Personalisierung](using/personalization/aep-data-perso.md)
       + Liste der Hilfsfunktionen {#functions}
@@ -483,9 +483,9 @@ ht-degree: 96%
       + [KI-Assistent für die Inhaltsgenerierung](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Erste Schritte mit dem KI-Assistenten](using/content-management/gs-generative.md)
       + [Best Practices für KI-Prompts](using/content-management/ai-assistant-prompting-guide.md)
-      + [Vollständigen Inhalt mit KI generieren](using/content-management/generative-full-content.md)
+      + [Generieren von vollständigem Inhalt mit KI](using/content-management/generative-full-content.md)
       + [Generieren von Text mit KI](using/content-management/generative-text.md)
-      + [Erzeugen von Bildern mit KI](using/content-management/generative-image.md)
+      + [Generieren von Bildern mit KI](using/content-management/generative-image.md)
       + [Inhaltsexperiment mit KI](using/content-management/generative-experimentation.md)
       + [Anwendungsfälle für den KI-Assistenten](using/content-management/generative-uc.md)
       + Marken {#brands}
@@ -600,7 +600,7 @@ ht-degree: 96%
       + [Häufig gestellte Fragen zu Decisioning](using/experience-decisioning/decisioning-faq.md)
       + API-Referenz {#experience-decisioning-api-reference}
          + [API-Referenz](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
-         + [Erste Schritte mit Decisioning-APIs](using/experience-decisioning/api-reference/getting-started.md)
+         + [Erste Schritte mit Entscheidungsfindungs-APIs](using/experience-decisioning/api-reference/getting-started.md)
          + Entscheidungselemente {#decision-items}
             + [Erstellen von Entscheidungselementen](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [Liste der Entscheidungselemente](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
@@ -633,9 +633,9 @@ ht-degree: 96%
             + [Aktualisieren von Eignungsregeln](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + Platzierungen {#placements}
             + [Erstellen von Platzierungen](using/experience-decisioning/api-reference/exd-placements/create.md)
-            + [Liste der Platzierungen](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
-            + [Platzierungen nachschlagen](using/experience-decisioning/api-reference/exd-placements/lookup.md)
-            + [Platzierungen aktualisieren](using/experience-decisioning/api-reference/exd-placements/update.md)
+            + [Platzierungsliste](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [Suchen von Platzierungen](using/experience-decisioning/api-reference/exd-placements/lookup.md)
+            + [Aktualisieren von Platzierungen](using/experience-decisioning/api-reference/exd-placements/update.md)
       + Entscheidungselemente verwalten {#manage-decision-items}
          + [Entscheidungselemente verwalten](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)
@@ -858,7 +858,7 @@ ht-degree: 96%
       + [Erstellen von IP-Pools](using/configuration/ip-pools.md)
    + Implementieren eines IP-Aufwärmplans {#implement-ip-warmup-plan}
       + [Implementieren eines IP-Aufwärmplans](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [Leitfaden zur Zustellbarkeit von IP-Aufwärmung](using/configuration/ip-warmup-deliverability-guide.md)
+      + [Handbuch zur IP-Aufwärmzustellbarkeit](using/configuration/ip-warmup-deliverability-guide.md)
       + [Erste Schritte mit IP-Aufwärmplänen](using/configuration/ip-warmup-gs.md)
       + [Erstellen von IP-Aufwärmkampagnen](using/configuration/ip-warmup-campaign.md)
       + [Erstellen eines IP-Aufwärmplans](using/configuration/ip-warmup-plan.md)
@@ -872,7 +872,7 @@ ht-degree: 96%
       + [Zulassungsliste](using/configuration/allow-list.md)
    + [Verwenden von Testadressenlisten](using/configuration/seed-lists.md)
    + [Unterstützung für Archivierung](using/configuration/archiving-support.md)
-   + [Ausführungsfelder verwalten](using/configuration/primary-email-addresses.md)
+   + [Verwalten von Ausführungsfeldern](using/configuration/primary-email-addresses.md)
    + [Erstellen von Feedback-Webhooks](using/configuration/feedback-webhooks.md)
 + Journey-Konfiguration {#configure-journeys}
    + [Journey-Konfiguration](/help/rp_landing_pages/configure-journeys-landing-page.md)
