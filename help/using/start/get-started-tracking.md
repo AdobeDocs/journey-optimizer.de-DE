@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: Tracking, Überwachen, Analysen, Reporting, Zustellbarkeit
-source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
+source-git-commit: 955dbbf944e40cd18530c9777c7f06ad39e45563
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Erste Schritte mit dem Tracking in Journey Optimizer {#get-started-tracking}
 
-Mit Tracking und Überwachung können Sie die Effektivität einer Kampagne messen, Kundenerlebnisse optimieren und sicherstellen, dass Nachrichten ihre vorgesehenen Empfänger erreichen. Journey Optimizer bietet umfassende Tracking-Funktionen, mit denen Kundeninteraktionen, die Versandleistung und der Systemzustand erfasst werden. So können Sie datengesteuerte Entscheidungen treffen und gleichzeitig den Datenschutz respektieren und die Einhaltung von Vorschriften gewährleisten.
+Mit dem Tracking können Sie die Effektivität einer Kampagne messen, Kundenerlebnisse optimieren und sicherstellen, dass Nachrichten ihre vorgesehenen Empfänger erreichen. Journey Optimizer bietet umfassende Tracking-Funktionen, mit denen Kundeninteraktionen, die Versandleistung und der Systemzustand erfasst werden. So können Sie datengesteuerte Entscheidungen treffen und gleichzeitig den Datenschutz respektieren und die Einhaltung von Vorschriften gewährleisten.
 
 Das Tracking wird größtenteils automatisch konfiguriert, wenn Sie Nachrichten und Journey erstellen. Bei erweiterten Szenarien können Sie benutzerdefinierte Metriken einrichten, URL-Parameter konfigurieren und eine Integration mit externen Analyseplattformen vornehmen. Greifen Sie über integrierte Berichte auf Ihre Tracking-Daten zu oder exportieren Sie sie zur genaueren Analyse in Customer Journey Analytics.
 
@@ -232,9 +232,9 @@ Konfigurieren Sie nicht nur das Tracking auf Kanalebene, sondern auch das Tracki
 
 * **Überwachung benutzerdefinierter Aktionen konfigurieren** - Richten Sie das Tracking für Integrationen mit externen Systemen ein, um API-Aufrufe, Antwortzeiten und Fehlermuster zu überwachen. [Weitere Informationen](../action/reporting.md)
 
-* **Benutzerdefiniertes Reporting und Datenexport** - Erstellen Sie maßgeschneiderte Berichte und exportieren Sie Tracking-Daten zur genaueren Analyse in externe Systeme. [Weitere Informationen](../reports/sharing-overview.md)
+* **Erstellen benutzerdefinierter Berichte und Exportieren von Daten** - Erstellen Sie maßgeschneiderte Berichte und exportieren Sie Tracking-Daten zur genaueren Analyse in externe Systeme. [Weitere Informationen](../reports/sharing-overview.md)
 
-**Einheitliche Leistung anzeigen:** Sie auf umfassende Berichte für -Kampagnen und -Journey zu, um die Leistung über E-Mail, Push, SMS und andere Kanäle hinweg zu vergleichen und zu verstehen, welche Kombinationen die besten Ergebnisse erzielen. [Kampagnenberichte](../reports/campaign-global-report-cja.md) | [Journey-Berichte](../reports/journey-global-report-cja.md)
+* **Einheitliche Leistung anzeigen:** Sie auf umfassende Berichte für -Kampagnen und -Journey zu, um die Leistung über E-Mail, Push, SMS und andere Kanäle hinweg zu vergleichen und zu verstehen, welche Kombinationen die besten Ergebnisse erzielen. [Kampagnenberichte](../reports/campaign-global-report-cja.md) | [Journey-Berichte](../reports/journey-global-report-cja.md)
 
 ## Tracking von Optimierung und Entscheidungsleistung {#optimization-decisioning-tracking}
 
@@ -242,27 +242,29 @@ Journey Optimizer verfolgt automatisch Optimierungsexperimente, Zielgruppenbesti
 
 ### Optimierungs-Tracking einrichten {#optimization-tracking}
 
-* **Optimierung Ihrer Kampagnen und Journey**
+* **Optimierung Ihrer Kampagnen und Journey**:
 
    * Definieren Sie beim Erstellen von Experimenten, welche Metriken verfolgt werden sollen (Konversionen, Klicks, benutzerdefinierte Ereignisse). Journey Optimizer erfasst automatisch Leistungsdaten für jede Abwandlung. [Weitere Informationen](../campaigns/campaigns-message-optimization.md#experimentation)
 
    * Erstellen Sie Targeting-Regeln , um verschiedene Inhalte für verschiedene Zielgruppensegmente bereitzustellen. Journey Optimizer verfolgt die Interaktionsmetriken automatisch für jede Zielgruppe, sodass Sie die Leistung segmentübergreifend vergleichen können. [Weitere Informationen](../campaigns/campaigns-message-optimization.md#targeting)
 
-* **Journey-Pfadoptimierung** - Fügen Sie Ihrem Journey eine Aktivität vom Typ **Optimieren** hinzu und konfigurieren Sie mehrere Pfade. Journey Optimizer verfolgt automatisch, welche Pfade Profile verwenden, und misst die Leistung. [Weitere Informationen](../building-journeys/optimize.md)
+* **Journey-Pfadoptimierung**: Fügen Sie Ihrer Journey eine Aktivität vom Typ **Optimieren** hinzu und konfigurieren Sie mehrere Pfade. Journey Optimizer verfolgt automatisch, welche Pfade Profile verwenden, und misst die Leistung. [Weitere Informationen](../building-journeys/optimize.md)
 
-**Ergebnisse analysieren** Konversionsraten, statistische Signifikanz und Steigerung zwischen Behandlungen in Experimentationsberichten anzeigen oder Interaktionsmetriken über Zielsegmente hinweg vergleichen. [Experimentierkampagnenbericht](../reports/campaign-global-report-cja-experimentation.md) | [Experimentier-Journey-Bericht](../reports/journey-global-report-cja-experimentation.md) | [Journey-Zielgruppenbericht](../reports/journey-global-report-cja.md#targeting)
+Um die Ergebnisse zu analysieren: Zeigen Sie Konversionsraten, statistische Signifikanz und Steigerung zwischen Behandlungen in Experimentationsberichten an oder vergleichen Sie Interaktionsmetriken über Zielsegmente hinweg. [Experimentierkampagnenbericht](../reports/campaign-global-report-cja-experimentation.md) | [Experimentier-Journey-Bericht](../reports/journey-global-report-cja-experimentation.md) | [Journey-Zielgruppenbericht](../reports/journey-global-report-cja.md#targeting)
 
 ### Tracking der Entscheidungsleistung {#decisioning-tracking}
 
 Bei Verwendung von Decisioning zur Personalisierung von Inhalten verfolgt Journey Optimizer automatisch Entscheidungsereignisse, Impressionen und Klicks, ohne dass eine zusätzliche Konfiguration erforderlich ist.
 
 * **Automatische Ereigniserfassung** - Journey Optimizer erfasst automatisch Entscheidungsereignisse, wenn ein Entscheidungselement für ein Profil ausgewählt wird.
-* **Impression-Tracking** - Bei E-Mails werden Impressionen automatisch verfolgt. Für Code-basierte Erlebnisse müssen Sie Vorschlagsanzeigeereignisse in Ihrem Code implementieren.
+* **Impression-Tracking** - Bei E-Mails werden Impressionen automatisch verfolgt. Für Code-basierte Erlebnisse müssen Sie Vorschlagsanzeigeereignisse in Ihrem Code implementieren. [Weitere Informationen](../code-based/code-based-implementation-samples.md#client-side-how)
 * **Klick-Tracking** - Klicks auf Entscheidungselemente werden automatisch in E-Mails verfolgt. Codebasierte Erlebnisse erfordern die Implementierung von Klick-Ereignissen.
 
-**Voraussetzungen für das Code-basierte Tracking:** Um die Entscheidungsfindung in Code-basierten Erlebnissen zu verfolgen, stellen Sie sicher, dass Ihre Implementierung mithilfe von Web SDK oder Mobile SDK Interaktionsereignisse (Anzeigen und Klicks) für Vorschläge an Adobe Experience Platform sendet. [Weitere Informationen](../experience-decisioning/data-collection/schema-requirement.md)
+>[!NOTE]
+>
+>Um Entscheidungen in (**Erlebnissen) zu**, stellen Sie sicher, dass Ihre Implementierung mithilfe von Web SDK oder Mobile SDK Interaktionsereignisse (Anzeigen und Klicks) für Vorschläge an Adobe Experience Platform sendet. [Weitere Informationen](../experience-decisioning/data-collection/schema-requirement.md)
 
-**Leistung analysieren:** Anzeigen von Entscheidungs-KPIs, Vergleichen von Entscheidungselementen, Analysieren von Auswahlstrategien und Überwachen der KI-Modellleistung in Berichten. [Weitere Informationen](../experience-decisioning/cja-reporting.md)
+So überwachen Sie die Leistung: Zeigen Sie Entscheidungs-KPIs an, vergleichen Sie Entscheidungselemente, analysieren Sie Auswahlstrategien und überwachen Sie die Leistung des KI-Modells in Berichten. [Weitere Informationen](../experience-decisioning/cja-reporting.md)
 
 ## Datennutzung kontrollieren {#data-governance}
 
