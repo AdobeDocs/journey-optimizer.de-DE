@@ -9,9 +9,9 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 4162403bedc1632ed28db122e2ec16e3c00a2630
+source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '360'
 ht-degree: 5%
 
 ---
@@ -82,8 +82,7 @@ Gehen Sie wie folgt vor, um einem veröffentlichten Fragment kontextuelle Attrib
 ## Verwandte Themen {#related-topics}
 
 * [Verwalten von Fragmenten](manage-fragments.md)
-* [Verwenden visueller Fragmente in E-Mails](../email/use-visual-fragments.md)
-* [Verwenden von Ausdrucksfragmenten](../personalization/use-expression-fragments.md)
+* [Bearbeiten eines Fragments](manage-fragments.md#edit-fragments)
 * [API-ausgelöste Kampagnen](../campaigns/api-triggered-campaigns.md)
 * [Personalisierungssyntax](../personalization/personalization-syntax.md)
 
