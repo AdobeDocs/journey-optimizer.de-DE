@@ -284,7 +284,7 @@ Entdecken Sie die folgenden leistungsstarken Funktionen, während Sie sich mit K
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
 
 **Planung und Timing**
 
@@ -294,7 +294,7 @@ Sie können Kampagnen für bestimmte Daten/Zeiten planen, wiederkehrende Sendung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 **Ratenkontrolle**
 
@@ -304,7 +304,7 @@ Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Syst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 **Zielgruppen-Targeting**
 
@@ -314,7 +314,7 @@ Targeting bestimmter Adobe Experience Platform-Zielgruppen mit Präzision und dy
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 **Genehmigungs-Workflows**
 
@@ -324,7 +324,7 @@ Implementieren Sie Prüfungs- und Genehmigungsprozesse, bevor Kampagnen live geh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
 
 **Ruhige Stunden**
 
@@ -334,7 +334,7 @@ Berücksichtigung der Kundenpräferenzen durch Vermeidung des Nachrichtenversand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 **Optimierung**
 
