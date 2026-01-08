@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 96%
 
 ---
 
@@ -67,7 +67,7 @@ Nachdem Sie die Eigenschaften des Fragments konfiguriert haben, wird je nach Typ
 >
 >[Kontextuelle Attribute](../personalization/personalization-build-expressions.md) werden in Fragmenten nicht unterstützt.
 >
->Wenn in einer Journey oder einer Kampagne das Tracking aktiviert ist und Sie Links zu einem Fragment hinzufügen, das in einer Nachricht verwendet wird, werden diese Links ebenso wie alle anderen in der Nachricht enthaltenen Links nachverfolgt. [Weitere Informationen über Links und Tracking](../email/message-tracking.md)
+>Wenn in einer Journey oder Kampagne das Tracking aktiviert ist und Sie Links zu einem Fragment hinzufügen, das in einer Nachricht verwendet wird, werden diese Links ebenso wie alle anderen in der Nachricht enthaltenen Links nachverfolgt. [Weitere Informationen über Links und Tracking](../email/message-tracking.md)
 
 * Bearbeiten Sie die Inhalte Ihrer visuellen Fragmente nach Bedarf, so wie Sie es bei jeder E-Mail innerhalb einer Journey oder einer Kampagne tun würden.  [Weitere Informationen](../email/get-started-email-design.md)
 
@@ -119,3 +119,7 @@ Das Fragment ist jetzt **[!UICONTROL live]** und bei der Erstellung von Inhalten
 
 * [Erfahren Sie, wie Sie visuelle Fragmente verwenden](../email/use-visual-fragments.md)
 * [Erfahren Sie, wie Sie Ausdrucksfragmente verwenden](../personalization/use-expression-fragments.md)
+
+>[!CAUTION]
+>
+>Nach der Veröffentlichung können Sie einem Live-Fragment keine neuen personalisierten Attribute hinzufügen. Wenn Sie Personalisierungsattribute hinzufügen möchten, müssen Sie das Fragment duplizieren. [Weitere Informationen](manage-fragments.md#adding-new-attributes)
