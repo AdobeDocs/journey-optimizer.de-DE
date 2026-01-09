@@ -5,10 +5,10 @@ title: Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 description: Informationen über das Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: 5fea202c36720f58cc5610446ff0273ce891a17a
+workflow-type: tm+mt
+source-wordcount: '1126'
+ht-degree: 84%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="E-Mail-Aktivität"
->abstract="Die E-Mail-Aktivität ermöglicht den Versand von E-Mails innerhalb der orchestrierten Kampagne, sowohl für einmalige als auch für wiederkehrende Nachrichten. Sie dient dazu, den Versand von E-Mails an eine innerhalb derselben orchestrierten Kampagne berechnete Zielgruppe zu automatisieren. Kanalaktivitäten können in einer mehrstufigen Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Die Aktivität E-Mail ermöglicht den Versand von E-Mails innerhalb einer orchestrierten Kampagne, sowohl für einmalige als auch für wiederkehrende Nachrichten. Sie dient dazu, den Versand von E-Mails an eine innerhalb derselben orchestrierten Kampagne berechnete Zielgruppe zu automatisieren. Kanalaktivitäten können in einer mehrstufigen Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="SMS-Aktivität"
->abstract="Die SMS-Aktivität ermöglicht den Versand von SMS innerhalb der orchestrierten Kampagne, sowohl für einmalige als auch für wiederkehrende Nachrichten. Sie dient dazu, den Versand von SMS an eine innerhalb derselben orchestrierten Kampagne berechnete Zielgruppe zu automatisieren. Kanalaktivitäten können in der mehrstufigen Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
+>abstract="Mit der SMS-Aktivität können Sie innerhalb Ihrer orchestrierten Kampagne SMS sowohl für einmalige als auch für wiederkehrende Nachrichten senden. Sie dient dazu, den Versand von SMS an eine innerhalb derselben orchestrierten Kampagne berechnete Zielgruppe zu automatisieren. Kanalaktivitäten können in der mehrstufigen Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="Push-Aktivität"
->abstract="Die Push-Aktivität ermöglicht den Versand von Push-Benachrichtigungen innerhalb der orchestrierten Kampagne. Dies ermöglicht den Versand einmaliger und wiederkehrender orchestrierter Kampagnen und automatisiert so den Versand von Push-Benachrichtigungen an eine vordefinierte Zielgruppe innerhalb derselben orchestrierten Kampagne. Kanalaktivitäten können in der Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen sich basierend auf Kundenverhalten und Daten Aktionen auslösen lassen."
+>abstract="Die Aktivität Push ermöglicht den Versand von Push-Benachrichtigungen im Rahmen einer orchestrierten Kampagne. Sie ermöglicht den Versand sowohl einmaliger als auch wiederkehrender orchestrierter Kampagnen und automatisiert so den Versand von Push-Benachrichtigungen an eine vordefinierte Zielgruppe innerhalb derselben orchestrierten Kampagne. Kanalaktivitäten können in der Kampagnenarbeitsfläche kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen sich basierend auf Kundenverhalten und Daten Aktionen auslösen lassen."
 
 <!--
 UNUSED IDs in BJ
@@ -36,12 +36,12 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
 >title="Push iOS activity"
->abstract="The Push iOS activity let you send iOS Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring Orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push iOS activity lets you send iOS Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring Orchestrated campaigns, automating the sending of iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Push Android activity"
->abstract="The Push Android activity ket you send Android Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same Orchestrated campaign. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push Android activity lets you send Android Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending of Android Push notifications to a predefined target within the same Orchestrated campaign. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 -->
 
@@ -50,7 +50,7 @@ UNUSED IDs in BJ
 >title="Briefpost-Aktivität"
 >abstract="Die Briefpost-Aktivität erleichtert den Briefpost-Versand innerhalb der orchestrierten Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Briefpost-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Kanalaktivitäten können in der Arbeitsoberfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
-Mit [!DNL Adobe Journey Optimizer] können Sie Marketing-Kampagnen kanalübergreifend (E-Mail, SMS und Push-Benachrichtigungen) automatisieren und ausführen. Sie können diese Kanalaktivitäten in der Arbeitsfläche für orchestrierte Kampagnen kombinieren, um orchestrierte Cross-Channel-Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können. 
+Mit [!DNL Adobe Journey Optimizer] können Sie Marketing-Kampagnen kanalübergreifend (E-Mail, SMS und Push-Benachrichtigungen) automatisieren und ausführen. Sie können diese Kanalaktivitäten in der Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifende orchestrierte Kampagnen zu erstellen. Diese Kampagnen können Trigger-Aktionen auf der Grundlage des Kundenverhaltens und der Kundendaten durchführen.
 
 Beispiel:
 
@@ -80,7 +80,7 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 
 1. Geben Sie auf der Registerkarte **[!UICONTROL Eigenschaften]** eine Beschreibung ein und wechseln Sie dann zur Registerkarte **[!UICONTROL Aktionen]**, um die Aktivität zu konfigurieren.
 
-## Einrichten von Kanalkonfiguration und Einstellungen {#configuration}
+## Einrichten der Kanalkonfiguration und -einstellungen {#configuration}
 
 Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfiguration für Ihre Nachricht auszuwählen und um zusätzliche Einstellungen wie Tracking, Inhaltsexperiment oder mehrsprachige Inhalte zu konfigurieren.
 
@@ -100,7 +100,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Aktivieren des Schnellversandmodus** (Push)
 
-   Der Schnellversandmodus ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht. Der Schnellversand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch wäre oder wenn Sie eine dringende Push-Benachrichtigung an Mobiltelefone senden möchten, z. B. eine Eilmeldung an Benutzende, die Ihre Nachrichten-App installiert haben. [Auf dieser Seite](../../push/create-push.md#rapid-delivery) erfahren Sie, wie Sie den Schnellversandmodus für Push-Benachrichtigungen aktivieren.
+   Der Schnellversandmodus ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht. Der Schnellversand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch ist. Sie möchten beispielsweise einen dringenden Push-Warnhinweis auf Mobiltelefone senden, z. B. aktuelle Nachrichten an Benutzer, die Ihre Nachrichtenkanal-App installiert haben. [Auf dieser Seite](../../push/create-push.md#rapid-delivery) erfahren Sie, wie Sie den Schnellversandmodus für Push-Benachrichtigungen aktivieren.
 
    Weitere Informationen zur Leistung bei Verwendung des Schnellversandmodus finden Sie unter [Produktbeschreibung für Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -122,13 +122,13 @@ Wechseln Sie zur Registerkarte **[!UICONTROL Inhalt]**, um Ihre Nachricht zu ers
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="email" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Erstellen einer E-Mail</strong></a></td>
-<td><a href="../../sms/create-sms.md"><img alt="sms" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>Erstellen einer SMS</strong></a></td>
+<td><a href="../../sms/create-sms.md"><img alt="sms" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>SMS erstellen</strong></a></td>
 <td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Erstellen einer Push-Benachrichtigung</strong></a></td>
 </tr></table>
 
 ## Hinzufügen von Personalisierung
 
-Die Personalisierung in orchestrierten Kampagnen funktioniert ähnlich wie in anderen **[!UICONTROL Journey Optimizer]**-Kampagnen oder -Journeys, weist aber einige wichtige Unterschiede speziell in Bezug auf die orchestrierte Arbeitsfläche auf.
+Personalization in orchestrierten Kampagnen funktioniert ähnlich wie andere **[!UICONTROL Journey Optimizer]**-Kampagnen oder Journey. Es gibt jedoch einige wichtige Unterschiede speziell bei der orchestrierten Arbeitsfläche.
 
 Wenn Sie über eine orchestrierte Kampagne auf den Personalisierungseditor zugreifen, enthalten zwei Hauptordner die für Personalisierung verfügbaren Attribute, wie unten beschrieben.
 
@@ -192,3 +192,4 @@ Email recipients are defined upstream of the activity in the same workflow, via 
 
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
+
