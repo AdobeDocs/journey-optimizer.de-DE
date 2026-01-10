@@ -184,4 +184,4 @@ Die Möglichkeit, die Gerätegröße zu ändern, wurde für responsive Web-Sites
 
 Das folgende Video zeigt, wie Sie ein Web-Erlebnis mit dem Web-Designer in [!DNL Journey Optimizer]-Kampagnen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452644/?captions=ger&quality=12&learn=on)

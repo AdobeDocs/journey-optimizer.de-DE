@@ -266,4 +266,4 @@ Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu v
 
 Im folgenden Video erfahren Sie, wie Sie eine Web-Kampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449990/?captions=ger&quality=12&learn=on)
