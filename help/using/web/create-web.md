@@ -230,7 +230,7 @@ Nachdem Sie Ihre Web-Kampagneneinstellungen festgelegt und Ihren Inhalt wie gew�
    >
    >Weitere Informationen zur Aktivierung von Kampagnen finden Sie in [diesem Abschnitt](../campaigns/review-activate-campaign.md).
 
-Ihre Web-Kampagne nimmt den **[!UICONTROL Live]**[ Status](../campaigns/manage-campaigns.md#statuses) und ist jetzt für die ausgewählte Audience sichtbar. Alle Empfängerinnen und Empfänge Ihrer Kampagne können die Änderungen sehen, die Sie an Ihrer Website vorgenommen haben.
+Ihre Web-Kampagne nimmt den **[!UICONTROL Live]**&#x200B;[&#x200B; Status](../campaigns/manage-campaigns.md#statuses) und ist jetzt für die ausgewählte Audience sichtbar. Alle Empfängerinnen und Empfänge Ihrer Kampagne können die Änderungen sehen, die Sie an Ihrer Website vorgenommen haben.
 
 >[!NOTE]
 >
