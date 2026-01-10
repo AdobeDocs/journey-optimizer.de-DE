@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Bearbeiten von Web-Inhalten {#edit-web-content}
 
-Sobald Sie einer Journey oder einer Kampagne ein [Web-Erlebnis](create-web.md#create-web-experience) hinzugefügt haben, können Sie den Inhalt Ihrer Seite mit dem Web-Designer bearbeiten.
+Sobald Sie einer Journey oder einer Kampagne ein [Web-Erlebnis](create-web.md#create-web-experience) hinzugefügt haben, können Sie den Inhalt Ihrer Site mit dem Web-Designer bearbeiten.
 
 [In diesem Video erfahren Sie, wie Sie eine Web-Kampagne verfassen](#video)
 
@@ -37,13 +37,13 @@ In den folgenden Abschnitten sind weitere Informationen zu den einzelnen Themen 
 >id="ajo_web_url_to_edit_surface"
 >title="Bestätigen der URL zum Bearbeiten"
 >abstract="Bestätigen Sie die URL der spezifischen Web-Seite, die für die Bearbeitung des Inhalts verwendet werden soll, welcher auf die oben definierte Web-Konfiguration angewendet wird. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
->additional-url="https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview" text="Weitere Informationen"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Geben Sie die zu bearbeitende URL ein"
 >abstract="Geben Sie die URL einer bestimmten Web-Seite ein, die zum Bearbeiten des Inhalts verwendet werden soll. Sie wird auf alle Seiten angewendet, die der Regel entsprechen. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
->additional-url="https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview" text="Weitere Informationen"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses zu beginnen.
 
@@ -61,7 +61,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses zu beginnen
 
    >[!CAUTION]
    >
-   >Die Web-Seite muss das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"} enthalten. [Weitere Informationen](web-prerequisites.md#implementation-prerequisites)
+   >Die Web-Seite muss das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} enthalten. [Weitere Informationen](web-prerequisites.md#implementation-prerequisites)
 
 1. Klicken Sie auf **[!UICONTROL Web-Seite bearbeiten]**, um mit dem Erstellen zu beginnen. Der Web-Designer wird angezeigt.
 
@@ -184,4 +184,4 @@ Die Möglichkeit, die Gerätegröße zu ändern, wurde für responsive Web-Sites
 
 Das folgende Video zeigt, wie Sie ein Web-Erlebnis mit dem Web-Designer in [!DNL Journey Optimizer]-Kampagnen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452644/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

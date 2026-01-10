@@ -20,13 +20,13 @@ ht-degree: 100%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 In [!DNL Journey Optimizer] basiert das Erstellen visueller Web-Seiten auf der Chrome-Browser-Erweiterung **Adobe Experience Cloud Visual Helper**. [Weitere Informationen](web-prerequisites.md#visual-authoring-prerequisites)
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses mit dem vis
 
 >[!CAUTION]
 >
->Das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"} muss in Ihre Web-Seite integriert sein. [Weitere Informationen](web-prerequisites.md#implementation-prerequisites)
+>Das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} muss in Ihre Web-Seite integriert sein. [Weitere Informationen](web-prerequisites.md#implementation-prerequisites)
 
 1. Klicken Sie im Bildschirm **[!UICONTROL Inhalt bearbeiten]** auf **[!UICONTROL Webseite bearbeiten]**, um den Web-Designer zu öffnen.
 
@@ -170,4 +170,4 @@ Die Möglichkeit, die Gerätegröße zu ändern, wurde für responsive Web-Sites
 
 Das folgende Video zeigt, wie Sie ein Web-Erlebnis mit dem Web-Designer in [!DNL Journey Optimizer]-Kampagnen erstellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452644/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

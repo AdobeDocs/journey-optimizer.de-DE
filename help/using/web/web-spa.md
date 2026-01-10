@@ -21,13 +21,13 @@ ht-degree: 100%
 >id="ajo_web_designer_modifications_views"
 >title="Anwenden von Änderungen auf ausgewählte Ansichten"
 >abstract="Die Änderungen werden nur für ausgewählte Ansichten angewendet. Mit dem Modus **Durchsuchen** können Sie Ansichten entdecken und zu ihnen navigieren. Ist die gewünschte Ansicht nicht verfügbar?"
->additional-url="https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview" text="Weitere Informationen"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
 
 **Einzelseitenanwendungen** (Single Page Applications, SPAs) können jetzt im visuellen Web-Designer-Editor erstellt werden. Auf diese Weise können Sie auswählen, auf welche **Ansichten** Sie Ihre Änderungen an der Web-Seite anwenden möchten.
 
 [In diesem Video wird erklärt, wie Einzelseitenanwendungen erstellt werden können](#video)
 
-Eine Ansicht kann als ganze Seite oder als Gruppe visueller Elemente auf einer Seite definiert werden, z. B. als Startseite, als gesamte Produktseite oder als Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten.
+Eine Ansicht kann als ganze Seite oder als Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, als gesamte Produktseite oder als Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten.
 
 Ein einmaliges Setup auf Entwicklerseite ist erforderlich, um die Ansichten in der Adobe Experience Platform Web SDK-Implementierung zu definieren. Auf diese Weise können Web-Kampagnen mit Adobe Journey Optimizer auf SPAs erstellt und ausgeführt werden.
 
@@ -90,4 +90,4 @@ In diesem Video wird Folgendes erklärt:
 * Anwenden von Website-Änderungen auf mehrere Ansichten oder auf alle erkannten Ansichten
 * Durchführen von Massenaktionen für Änderungen
 
->[!VIDEO](https://video.tv.adobe.com/v/3446894/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

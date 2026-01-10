@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Arbeiten mit Kampagnen, die durch API ausgelöst werden
+title: Arbeiten mit durch API ausgelösten Kampagnen
 description: Informationen zum Auslösen von Kampagnen mit Journey Optimizer-APIs.
 feature: Campaigns, API
 topic: Content Management
@@ -17,7 +17,7 @@ ht-degree: 96%
 ---
 
 
-# Arbeiten mit Kampagnen, die durch API ausgelöst werden {#trigger-campaigns}
+# Arbeiten mit durch API ausgelösten Kampagnen {#trigger-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_api_triggered"
@@ -56,4 +56,4 @@ Erfahren Sie mehr über den [Workflow für die Kampagnenerstellung abschließen 
 
 Erfahren Sie, wie Sie eine Kampagne erstellen und sie von einem externen System aus basierend auf Benutzerinteraktionen auslösen, indem Sie das REST-API zur Ausführung interaktiver Nachrichten verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452734?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

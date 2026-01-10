@@ -20,7 +20,7 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
->title="Inhaltsexperiment"
+>title="Inhaltsexperimente"
 >abstract="Sie können den Inhalt oder den Betreff der Nachricht ändern, um mehrfache Abwandlungen zu definieren und die beste Kombination für Ihre Zielgruppen zu ermitteln."
 
 >[!NOTE]

@@ -10,13 +10,13 @@ level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 100%
 
 ---
 
-# Erste Schritte bei der Personalisierung{#add-personalization}
+# Erste Schritte mit der Personalisierung{#add-personalization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
@@ -97,7 +97,7 @@ Jetzt, da Sie über Kenntnisse zur Personalisierung in **[!DNL Journey Optimizer
 
 Erfahren Sie, wie Sie kontextuelle Ereignisinformationen von einer Journey verwenden können, um eine Nachricht zu personalisieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448148?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzufügen und die Zielgruppenzugehörigkeit als Vorbedingung für einen Personalisierungsbaustein verwenden.
 
@@ -105,6 +105,6 @@ Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzu
 
 Erfahren Sie, wie Sie den Personalisierungseditor-Playground nutzen können, um Personalisierungs-Code mithilfe von Beispieldaten zu schreiben und zu testen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475961?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 Weitere Video-Tutorials zu Personalisierungsfunktionen und Best Practices finden Sie in den [Personalisierungs-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}

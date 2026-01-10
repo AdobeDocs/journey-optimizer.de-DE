@@ -103,13 +103,13 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 >id="ajo_web_url_to_edit_surface"
 >title="Bestätigen der URL zum Bearbeiten"
 >abstract="Bestätigen Sie die URL der spezifischen Web-Seite, die für die Bearbeitung des Inhalts verwendet werden soll, welcher auf die oben definierte Web-Konfiguration angewendet wird. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
->additional-url="https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview" text="Weitere Informationen"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Geben Sie die zu bearbeitende URL ein"
 >abstract="Geben Sie die URL einer bestimmten Web-Seite ein, die zum Bearbeiten des Inhalts verwendet werden soll. Sie wird auf alle Seiten angewendet, die der Regel entsprechen. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
->additional-url="https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview" text="Weitere Informationen"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
 
 Sobald Sie einer Journey oder einer Kampagne eine [Web-Aktion hinzugefügt haben](#create-web-experience), können Sie den Inhalt Ihrer Site mit einer der beiden Optionen bearbeiten:
 
@@ -230,7 +230,7 @@ Nachdem Sie Ihre Web-Kampagneneinstellungen festgelegt und Ihren Inhalt wie gew�
    >
    >Weitere Informationen zur Aktivierung von Kampagnen finden Sie in [diesem Abschnitt](../campaigns/review-activate-campaign.md).
 
-Ihre Web-Kampagne nimmt den **[!UICONTROL Live]**&#x200B;[&#x200B; Status](../campaigns/manage-campaigns.md#statuses) und ist jetzt für die ausgewählte Audience sichtbar. Alle Empfängerinnen und Empfänge Ihrer Kampagne können die Änderungen sehen, die Sie an Ihrer Website vorgenommen haben.
+Ihre Web-Kampagne nimmt den **[!UICONTROL Live]**[ Status](../campaigns/manage-campaigns.md#statuses) und ist jetzt für die ausgewählte Audience sichtbar. Alle Empfängerinnen und Empfänge Ihrer Kampagne können die Änderungen sehen, die Sie an Ihrer Website vorgenommen haben.
 
 >[!NOTE]
 >
@@ -266,4 +266,4 @@ Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu v
 
 Im folgenden Video erfahren Sie, wie Sie eine Web-Kampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449990/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

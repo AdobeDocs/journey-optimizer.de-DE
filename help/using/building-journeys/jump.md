@@ -11,7 +11,7 @@ keywords: Springen, Aktivität, Journey, Aufspaltung, Aufspalten
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
->title="Aktivität „Sprung“"
+>title="Aktivität „Springen“"
 >abstract="Mit der Aktionsaktivität „Sprung“ können Sie Kontakte von einer Journey in eine andere bewegen. Diese Funktion ermöglicht es Ihnen, das Design sehr komplexer Journeys zu vereinfachen und Journeys basierend auf allgemeinen und wiederverwendbaren Journey-Mustern zu erstellen."
 
 Mit der Aktionsaktivität **[!UICONTROL Sprung]** können Sie Kontakte von einer Journey in eine andere bewegen. Diese Funktion unterstützt:

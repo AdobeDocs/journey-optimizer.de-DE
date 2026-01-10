@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Testen einer Journey
+title: Journey testen
 description: Erfahren Sie, wie Sie Ihre Journey testen
 feature: Journeys, Test Profiles
 topic: Content Management
@@ -17,11 +17,11 @@ ht-degree: 95%
 
 ---
 
-# Testen einer Journey{#testing_the_journey}
+# Journey testen{#testing_the_journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
->title="Testen einer Journey"
+>title="Journey testen"
 >abstract="Verwenden Sie Testprofile, um Ihre Journey vor der Veröffentlichung zu testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben."
 
 Nachdem Sie Ihre Journey erstellt haben, können Sie sie vor dem Veröffentlichen testen. Journey Optimizer bietet einen „Testmodus“ als Möglichkeit, Testprofile anzuzeigen, die die Journey durchlaufen, um so potenzielle Fehler vor der Aktivierung zu erkennen. Mit Schnelltests können Sie überprüfen, ob die Journeys ordnungsgemäß funktionieren, sodass Sie sie sicher veröffentlichen können.
@@ -30,7 +30,7 @@ Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entw
 
 >[!NOTE]
 >
->Vor dem Testen Ihrer Journey müssen Sie alle Fehler beheben, falls vorhanden. Erfahren Sie in ([&#x200B; Abschnitt), wie Sie Fehler vor dem Testen &#x200B;](../building-journeys/troubleshooting.md). Wenn Testprofile im Testmodus nicht fortschreiten, siehe [Fehlerbehebung bei Testmodusübergängen](troubleshooting-execution.md#troubleshooting-test-transitions).
+>Vor dem Testen Ihrer Journey müssen Sie alle Fehler beheben, falls vorhanden. Erfahren Sie in ([ Abschnitt), wie Sie Fehler vor dem Testen ](../building-journeys/troubleshooting.md). Wenn Testprofile im Testmodus nicht fortschreiten, siehe [Fehlerbehebung bei Testmodusübergängen](troubleshooting-execution.md#troubleshooting-test-transitions).
 
 ## Wichtige Hinweise {#important_notes}
 
