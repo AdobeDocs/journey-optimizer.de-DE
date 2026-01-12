@@ -2,96 +2,188 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Abrufen und Abonnieren von Systemwarnhinweisen
-description: Informationen zum Zugreifen auf und Abonnieren von Systemwarnhinweisen
+description: Erfahren Sie, wie Sie in Adobe Journey Optimizer auf Systemwarnungen zugreifen, diese abonnieren und verwalten können. Überwachen Sie die Journey-Leistung, Fehler bei benutzerdefinierten Aktionen, Profilprobleme und die E-Mail-Zustellbarkeit mit proaktiven Warnbenachrichtigungen.
 feature: Journeys, Alerts, Monitoring
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 455e462078cffd43f1654278e0478951e78717b2
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 99%
+source-wordcount: '2638'
+ht-degree: 59%
 
 ---
 
 # Abrufen und Abonnieren von Systemwarnhinweisen {#alerts}
 
-Verwenden Sie beim Erstellen Ihrer Journeys und Kampagnen die Schaltfläche **Warnhinweise**, um Fehler vor der Ausführung oder Veröffentlichung zu überprüfen und zu beheben.
+## Übersicht
 
-* Weitere Informationen zum Beheben von Fehlern in Journeys finden Sie auf [dieser Seite](../building-journeys/troubleshooting.md)
+Warnhinweise sind automatische Benachrichtigungen, mit denen Sie Probleme in Adobe Journey Optimizer überwachen und beheben können. Sie bieten Echtzeit-Erkennung potenzieller Probleme in Ihren Journey-, Kampagnen- und Kanalkonfigurationen, sodass Sie Korrekturmaßnahmen ergreifen können, bevor Kundenerlebnisse beeinträchtigt werden.
 
-* Erfahren Sie, wie Sie Ihre Kampagnen überprüfen und aktivieren können: [Aktionskampagnen](../campaigns/review-activate-campaign.md) | [Durch API ausgelöste Kampagnen](../campaigns/review-activate-api-triggered-campaign.md) | [Orchestrierte Kampagnen](../orchestrated/start-monitor-campaigns.md)
+Adobe Journey Optimizer bietet zwei Arten von Warnhinweisen:
 
+* **Validierungswarnungen auf der Arbeitsfläche**: Verwenden Sie beim Erstellen von Journey und Kampagnen die Schaltfläche **Warnhinweise** auf der Arbeitsfläche, um Konfigurationsfehler vor der Veröffentlichung zu identifizieren und zu beheben. Erfahren Sie, wie [Fehler bei Ihren Journey](../building-journeys/troubleshooting.md) beheben und Ihre Kampagnen überprüfen können: [Aktionskampagnen](../campaigns/review-activate-campaign.md) | [API-ausgelöste Kampagnen](../campaigns/review-activate-api-triggered-campaign.md) | [Orchestrierte Kampagnen](../orchestrated/start-monitor-campaigns.md).
 
-Zusätzlich können bei Erreichen eines bestimmten Bedingungssatzes Warnmeldungen an alle Benutzenden in Ihrer Organisation gesendet werden, die sich dafür angemeldet haben. Diese Warnhinweise sind im entsprechenden Menü **[!UICONTROL Warnhinweise]** verfügbar. Adobe Experience Platform bietet mehrere vordefinierte Warnhinweisregeln, die Sie für Ihr Unternehmen aktivieren können. Darüber hinaus können Sie für [!DNL Adobe Journey Optimizer] spezifische Systemwarnhinweise abonnieren, wie auf dieser Seite beschrieben.
+* **Systemüberwachungswarnungen** (auf dieser Seite beschrieben): Empfangen Sie proaktive Benachrichtigungen, wenn Betriebsschwellenwerte überschritten werden oder Probleme in Live-Journey- und Kanalkonfigurationen erkannt werden. Systemwarnungen überwachen Metriken wie Fehlerquoten, Profilverwerfen und E-Mail-Zustellbarkeitsprobleme.
+
+**Die wichtigsten Vorteile von Systemwarnungen:**
+
+* Proaktive Problemerkennung vor der Beeinträchtigung des Kunden
+* Automatisierte Überwachung von Journey-Leistung und -Zustand
+* Frühwarnung bei Problemen mit der E-Mail-Zustellbarkeit
+* Weniger Zeit für die Identifizierung und Lösung betrieblicher Probleme
+
+Systemwarnhinweise sind im Menü **[!UICONTROL Warnhinweise]** unter **[!UICONTROL Administration]** verfügbar. Adobe Experience Platform bietet mehrere vordefinierte Warnhinweisregeln, die Sie aktivieren können, einschließlich [!DNL Adobe Journey Optimizer] Warnhinweise für Journey- und Kanalkonfigurationen.
+
+## Voraussetzungen
+
+Vor der Arbeit mit Warnhinweisen:
+
+* **Berechtigungen**: Sie benötigen spezifische Berechtigungen zum Anzeigen und Verwalten von Warnhinweisen. Siehe [Erforderliche Berechtigungen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
+
+* **Sandbox-**: Warnhinweis-Abonnements sind Sandbox-spezifisch. Wenn Sie Warnhinweise abonnieren, gelten diese nur für die aktuelle Sandbox. Wenn eine Sandbox zurückgesetzt wird, werden auch alle Warnhinweis-Abonnements zurückgesetzt.
+
+* **Benachrichtigungseinstellungen**: Konfigurieren Sie, wie Sie Warnhinweise (E-Mail und/oder In-App) in Ihren [Adobe Experience Cloud-Einstellungen erhalten](../start/user-interface.md#in-product-uc).
 
 >[!NOTE]
 >
->Weitere Informationen zu Warnhinweisen in Adobe Experience Platform finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de){target="_blank"}.
+>Journey Optimizer-spezifische Warnhinweise gelten nur für **Live**-Journey. Warnhinweise werden für Journey im Testmodus nicht ausgelöst. Weitere Informationen zum Warnhinweis-Framework finden Sie in der Dokumentation zu [Adobe Experience Platform-Warnhinweisen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de){target="_blank"}.
 
-Klicken Sie im linken Menü unter **[!UICONTROL Administration]** auf **[!UICONTROL Warnhinweise]**. Auf der Registerkarte **Durchsuchen** sind mehrere vorkonfigurierte Warnhinweise für Journey Optimizer verfügbar.
+## Verfügbare Warnhinweise in Journey Optimizer {#available-alerts}
+
+Journey Optimizer bietet vorkonfigurierte Warnhinweisregeln, die bestimmte Aspekte Ihrer Journey- und Kanalkonfigurationen überwachen. Sie müssen diese Warnhinweise nicht erstellen. Sie sind standardmäßig verfügbar und können über ein Abonnement aktiviert werden.
+
+**So greifen Sie auf die Warnmeldungsliste zu:**
+
+Navigieren Sie **[!UICONTROL linken Menü]** Administration > **[!UICONTROL Warnhinweise]**. Auf **Registerkarte** Durchsuchen“ werden alle vorkonfigurierten Warnhinweise angezeigt, die für Journey Optimizer verfügbar sind.
 
 ![](assets/updated-alerts-list.png){width=50%}
 
-* Spezifische Warnhinweise für Journeys:
+### Warnhinweiskategorien
 
-   * Warnhinweis [Auslösen von „Zielgruppe lesen“ fehlgeschlagen](#alert-read-audiences)
-   * Warnhinweis [Fehlerrate bei benutzerdefinierter Aktion überschritten](#alert-custom-action-error-rate) (ersetzt den vorherigen Warnhinweis „Fehlschlagen einer benutzerdefinierten Journey-Aktion“)
-   * Warnhinweis [Rate beim Verwerfen des Profils überschritten](#alert-discard-rate)
-   * Warnhinweis [Fehlerrate bei Profil überschritten](#alert-profile-error-rate)
-   * Warnhinweis [Journey veröffentlicht](#alert-journey-published)
-   * Warnhinweis [Journey abgeschlossen](#alert-journey-finished)
-   * Warnhinweis [Begrenzung benutzerdefinierter Aktionen ausgelöst](#alert-custom-action-capping)
+Journey Optimizer bietet zwei Kategorien von Systemwarnungen:
 
-* Warnhinweise speziell für die Kanalkonfiguration:
+>[!BEGINTABS]
 
-   * Warnhinweis [&#128279;](#alert-dns-record-missing)DNS-Eintrag für AJO-Domain fehlt
-   * Warnhinweis [&#128279;](#alert-channel-config-failure)Fehler bei der AJO-Kanalkonfiguration
-     <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+>[!TAB Journey-Warnhinweise]
+
+Überwachen der Journey-Ausführung und -Leistung:
+
+* [Trigger „Zielgruppe lesen“ nicht ](#alert-read-audiences) - Warnt, wenn eine Aktivität „Zielgruppe lesen“ keine Profile verarbeiten kann
+* [Fehlerrate für benutzerdefinierte Aktion überschritten](#alert-custom-action-error-rate) - Erkennt hohe Fehlerraten in API-Aufrufen für benutzerdefinierte Aktion (ersetzt den vorherigen Warnhinweis für Fehler bei benutzerdefinierter Journey-Aktion)
+* [Profil-Verwerfungsrate überschritten](#alert-discard-rate) - Gibt an, wann Profile mit einer abnormalen Rate verworfen werden
+* [Profilfehlerrate überschritten](#alert-profile-error-rate) - Flags, wenn bei Profilen während der Journey-Ausführung Fehler auftreten
+* [Journey veröffentlicht](#alert-journey-published) - Benachrichtigung zur Information, wenn eine Journey veröffentlicht wird
+* [Journey beendet](#alert-journey-finished) - Benachrichtigung, wenn eine Journey abgeschlossen ist
+* [Benutzerdefinierte Aktionsbegrenzung ausgelöst](#alert-custom-action-capping) - Benachrichtigt, wenn die API-Aufrufbeschränkungen erreicht sind.
+
+>[!TAB Warnhinweise zur Kanalkonfiguration]
+
+Probleme beim Einrichten der E-Mail-Zustellbarkeit erkennen:
+
+* [DNS-Eintrag der AJO-Domain fehlt](#alert-dns-record-missing) - Identifiziert fehlende oder falsch konfigurierte DNS-Einträge.
+* [AJO-Kanalkonfigurationsfehler](#alert-channel-config-failure) - Erkennt E-Mail-Konfigurationsprobleme (SPF-, DKIM-, MX-Einträge)
+  <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>Warnhinweise von anderen Adobe Experience Platform-Services (Datenaufnahme, Identitätsauflösung, Segmentierung usw.) finden Sie in der [Standarddokumentation zu Warnhinweisregeln](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
 
-Wenn ein unerwartetes Verhalten auftritt und/oder bestimmte Bedingungen in Ihren Vorgängen erfüllt sind (z. B. ein potenzielles Problem, wenn das System einen Schwellenwert überschreitet), werden Warnhinweise an alle Benutzenden in Ihrer Organisation gesendet, die diese abonniert haben.
+Warnhinweis-Abonnements bestimmen, welche Benutzer Benachrichtigungen erhalten, wenn bestimmte Bedingungen erfüllt sind (z. B. Schwellenwerte für Fehlerquoten oder erkannte Konfigurationsprobleme). Nur abonnierte Benutzer erhalten Warnhinweise für die ausgewählten Warnhinweise.
 
-Sie können jeden Warnhinweis einzeln über die Benutzeroberfläche abonnieren, entweder global über das Menü **[!UICONTROL Warnhinweise]** (siehe [Globales Abonnement](#global-subscription)) oder einzeln für eine bestimmte Journey (siehe [Einzelabonnement](#unitary-subscription)).
+### Abonnementmethoden
 
-Je nach den Benutzereinstellungen werden Warnhinweise per E-Mail gesendet und/oder erscheinen direkt im Journey Optimizer-Benachrichtigungszentrum oben rechts in der Benutzeroberfläche. Wählen Sie in den **[!UICONTROL Voreinstellungen]** von [!DNL Adobe Experience Cloud] aus, wie Sie diese Warnhinweise erhalten möchten. [Weitere Informationen](../start/user-interface.md#in-product-uc)
+Warnhinweise können auf zwei Arten abonniert werden:
 
-Wenn ein Warnhinweis aufgelöst wurde, erhalten die Abonnentinnen und Abonnenten die Benachrichtigung „Aufgelöst“. Warnhinweise werden nach 1 Stunde aufgelöst, um wechselnde Werte zu vermeiden.
+* **[Globales Abonnement](#global-subscription)**: Gilt für alle Journey und Kampagnen in der aktuellen Sandbox. Verwenden Sie diese Methode, wenn Sie die gesamte Journey-Aktivität in Ihrem Unternehmen überwachen möchten.
+* **[Journey-spezifisches Abonnement](#unitary-subscription)**: Gilt nur für einzelne Journey. Verwenden Sie diese Methode, wenn Sie bestimmte Journey mit hoher Priorität überwachen möchten, ohne Warnhinweise für alle Journey zu erhalten.
+
+### Funktionsweise von Warnhinweisen
+
+**Warnhinweis-Lebenszyklus:**
+
+1. **Auslösen**: Der Warnhinweis wird Trigger, wenn seine spezifische Bedingung erfüllt ist (z. B. die Fehlerrate überschreitet 20 %).
+2. **Benachrichtigung**: Alle abonnierten Benutzer erhalten Benachrichtigungen über ihre konfigurierten Kanäle
+3. **Überwachung**: Der Warnhinweis überwacht den Zustand weiterhin in regelmäßigen Abständen
+4. **Lösung**: Nach Behebung der Bedingung erhalten Abonnentinnen und Abonnenten eine Benachrichtigung mit dem Hinweis „Aufgelöst“
+
+**Benachrichtigungsversand:**
+
+* **Versandkanäle**: Warnhinweise werden per E-Mail und/oder In-App-Benachrichtigungen im Journey Optimizer-Benachrichtigungszentrum gesendet (Glockensymbol oben rechts). Konfigurieren Sie Ihre bevorzugten Versandkanäle in Ihren [Adobe Experience Cloud-Voreinstellungen](../start/user-interface.md#in-product-uc).
+
+* **Warnhinweistypen**: Journey Optimizer bietet sowohl einmalige Warnhinweise (Informationsereignisse wie &quot;Journey veröffentlicht„) als auch sich wiederholende Warnhinweise (Überwachungsschwellen). Die Auswertung und Benachrichtigung bei sich wiederholenden Warnhinweisen wird fortgesetzt, bis die Bedingung behoben ist.
+
+* **Automatische Auflösung**: Um zu verhindern, dass die Benachrichtigungsermüdung zu schwankenden Werten führt, werden Warnhinweise nach einer Stunde automatisch aufgelöst, selbst wenn die Bedingung weiterhin besteht. Dadurch werden kontinuierliche Benachrichtigungen verhindert, wenn Metriken über Schwellenwerte bewegen.
+
+**Alternative Anmeldemethode:**
+
+Bei erweiterten Integrationen können Sie über I/O Events abonnieren, um Warnhinweise an externe Systeme zu senden. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} verfügbar.
 
 
 ### Globales Abonnement {#global-subscription}
 
-Gehen Sie wie folgt vor, um einen Warnhinweis für alle Journeys und Kampagnen zu abonnieren oder abzubestellen:
+Globale Abonnements ermöglichen den Empfang von Warnhinweisen für alle Journey und Kampagnen in der aktuellen Sandbox.
 
-1. Navigieren Sie im linken Menü zum Dashboard **[!UICONTROL Warnhinweise]** und wählen Sie die Option **[!UICONTROL Abonnieren]** für den Warnhinweis, den Sie abonnieren möchten.
+**So abonnieren Sie einen Warnhinweis:**
+
+1. Navigieren Sie **[!UICONTROL linken Menü]** Administration > **[!UICONTROL Warnhinweise]**.
+
+1. Suchen Sie auf **[!UICONTROL Registerkarte]** Durchsuchen“ den Warnhinweis, den Sie überwachen möchten.
+
+1. Klicken Sie **[!UICONTROL den gewünschten]** auf „Abonnieren“.
 
    ![Abonnieren eines Warnhinweises](assets/alert-subscribe.png){width=80%}
 
-   >[!NOTE]
-   >
-   >Das Abonnement gilt nur für eine bestimmte Sandbox. Sie müssen also Warnhinweise für jede Sandbox einzeln abonnieren.
+**Abo kündigen:**
 
-1. Auf dieselbe Weise können Sie sich auch wieder **[!UICONTROL abmelden]**.
+Klicken Sie **[!UICONTROL Abo beenden]** neben dem Warnhinweis.
 
-Sie können Warnhinweise auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren. Warnhinweisregeln sind in verschiedene Abonnementpakete unterteilt. Abonnements für Ereignisse, die den jeweiligen Journey Optimizer-Warnhinweisen entsprechen, werden [nachfolgend](#journey-alerts) beschrieben.
+>[!IMPORTANT]
+>
+>Warnhinweis-Abonnements sind sandbox-spezifisch. Sie müssen Warnhinweise separat in jeder Sandbox abonnieren, in der Sie Benachrichtigungen erhalten möchten.
 
-### Einzelabonnement {#unitary-subscription}
+**Alternative Anmeldemethode:**
 
-Gehen Sie wie folgt vor, um einen Warnhinweis für eine bestimmte Journey zu abonnieren oder abzubestellen:
+Sie können auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren, was die Integration in externe Systeme ermöglicht. Ereignisabonnementnamen für Journey Optimizer-Warnhinweise werden in jeder [Warnhinweisbeschreibung unten) ](#journey-alerts).
 
-1. Navigieren Sie zum Journey-Inventar und wählen Sie die Option **[!UICONTROL Warnhinweise abonnieren]** für eine bestimmte Journey aus.
+### Journey-spezifisches Abonnement {#unitary-subscription}
+
+Journey-spezifische Abonnements ermöglichen es Ihnen, einzelne Journey mit hoher Priorität zu überwachen, ohne Warnhinweise für alle Journey in Ihrem Unternehmen zu erhalten.
+
+**So abonnieren Sie Warnhinweise für eine bestimmte Journey:**
+
+1. Gehen Sie zum Journey-Inventar.
+
+1. Klicken Sie auf das **⋯**-Menü (weitere Aktionen) für die Journey, die Sie überwachen möchten.
+
+1. Wählen Sie **[!UICONTROL Warnhinweise abonnieren]** aus.
 
    ![Abonnieren eines Warnhinweises für eine bestimmte Journey](assets/subscribe-journey-alert.png){width=75%}
 
-1. Wählen Sie die Warnhinweise aus. Die folgenden Warnhinweise sind verfügbar: [Rate beim Verwerfen des Profils überschritten](#alert-discard-rate), [Fehlerrate bei benutzerdefinierter Aktion überschritten](#alert-custom-action-error-rate), [Fehlerrate bei Profil überschritten](#alert-profile-error-rate), [Journey veröffentlicht](#alert-journey-published), [Journey abgeschlossen](#alert-journey-finished) und [Begrenzung benutzerdefinierter Aktionen ausgelöst](#alert-custom-action-capping).
+1. Wählen Sie aus den verfügbaren Optionen den/die Warnhinweis(e) aus, den/die Sie aktivieren möchten:
+   * [Rate beim Verwerfen des Profils überschritten](#alert-discard-rate)
+   * [Fehlerrate bei benutzerdefinierter Aktion überschritten](#alert-custom-action-error-rate)
+   * [Fehlerrate bei Profil überschritten](#alert-profile-error-rate)
+   * [Journey veröffentlicht](#alert-journey-published)
+   * [Journey abgeschlossen](#alert-journey-finished)
+   * [Begrenzung benutzerdefinierter Aktionen ausgelöst](#alert-custom-action-capping)
 
-1. Um einen Warnhinweis abzubestellen, heben Sie die Auswahl im selben Bildschirm auf.
+1. Klicken Sie **[!UICONTROL Speichern]**, um Ihre Abonnements zu bestätigen.
 
-1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
+**Abo kündigen:**
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+Öffnen Sie dasselbe Dialogfeld, heben Sie die Auswahl der Warnhinweise auf und klicken Sie auf **[!UICONTROL Speichern]**.
+
+>[!NOTE]
+>
+>Der Warnhinweis [Zielgruppen-Trigger nicht erfolgreich](#alert-read-audiences) ist nur über ein globales Abonnement verfügbar, nicht pro Journey-Abonnement.
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Journey-Warnhinweise {#journey-alerts}
 
@@ -311,7 +403,14 @@ Um weitere Abonnierende hinzuzufügen, geben Sie ihre E-Mail-Adressen durch Komm
 
 Um Abonnierende zu entfernen, löschen Sie ihre E-Mail-Adressen aus den aktuellen Abonnierenden und wählen Sie **[!UICONTROL Aktualisieren]** aus.
 
-## Weitere Ressourcen {#additional-resources-alerts}
+## Verwandte Themen {#additional-resources-alerts}
 
-* Weitere Informationen zum Beheben von Fehlern in Journeys finden Sie auf [dieser Seite](../building-journeys/troubleshooting.md).
-* Weitere Informationen zum Überprüfen von Kampagnen finden Sie auf [dieser Seite](../campaigns/review-activate-campaign.md).
+**Journey- und Kampagnenverwaltung:**
+
+* [Fehlerbehebung bei Journey](../building-journeys/troubleshooting.md) - Beheben häufiger Journey-Probleme und -Fehler
+* [Kampagnen überprüfen und aktivieren](../campaigns/review-activate-campaign.md) - Validierung der Kampagne vor der Veröffentlichung
+
+**Warnhinweis-Framework:**
+
+* [Übersicht über Adobe Experience Platform-Warnhinweise](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de) - Grundlagen zum Warnhinweis-Framework
+* [Warnhinweise über I/O-Ereignisse abonnieren](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de) - Erweiterte Integrationsoptionen
