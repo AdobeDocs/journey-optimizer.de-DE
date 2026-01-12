@@ -70,7 +70,7 @@ Journey Optimizer bietet zwei Kategorien von Systemwarnungen:
 
 Überwachen der Journey-Ausführung und -Leistung:
 
-* [Trigger „Zielgruppe lesen“ nicht ](#alert-read-audiences) - Warnt, wenn eine Aktivität „Zielgruppe lesen“ keine Profile verarbeiten kann
+* [Trigger „Zielgruppe lesen“ nicht &#x200B;](#alert-read-audiences) - Warnt, wenn eine Aktivität „Zielgruppe lesen“ keine Profile verarbeiten kann
 * [Fehlerrate für benutzerdefinierte Aktion überschritten](#alert-custom-action-error-rate) - Erkennt hohe Fehlerraten in API-Aufrufen für benutzerdefinierte Aktion (ersetzt den vorherigen Warnhinweis für Fehler bei benutzerdefinierter Journey-Aktion)
 * [Profil-Verwerfungsrate überschritten](#alert-discard-rate) - Gibt an, wann Profile mit einer abnormalen Rate verworfen werden
 * [Profilfehlerrate überschritten](#alert-profile-error-rate) - Flags, wenn bei Profilen während der Journey-Ausführung Fehler auftreten
@@ -149,7 +149,7 @@ Klicken Sie **[!UICONTROL Abo beenden]** neben dem Warnhinweis.
 
 **Alternative Anmeldemethode:**
 
-Sie können auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren, was die Integration in externe Systeme ermöglicht. Ereignisabonnementnamen für Journey Optimizer-Warnhinweise werden in jeder [Warnhinweisbeschreibung unten) ](#journey-alerts).
+Sie können auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren, was die Integration in externe Systeme ermöglicht. Ereignisabonnementnamen für Journey Optimizer-Warnhinweise werden in jeder [Warnhinweisbeschreibung unten) &#x200B;](#journey-alerts).
 
 ### Journey-spezifisches Abonnement {#unitary-subscription}
 
