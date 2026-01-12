@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
-workflow-type: ht
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
 
@@ -113,7 +113,7 @@ Die Tabelle **[!UICONTROL Labels für verfolgten Link]** bietet wichtige Erkennt
 
 Wenn Sie **[!UICONTROL Targeting-Regeln]** für Ihre Inhalte einrichten, bietet die Tabelle **[!UICONTROL Targeting-Überblick]** eine detaillierte Ansicht der wichtigsten Interaktionsmetriken und zeigt, wie die Zielgruppenprofile für die einzelnen Regeln mit Ihren Inhalten interagiert haben.
 
-➡️ [Weitere Informationen zu Targeting-Regeln](../campaigns/campaigns-message-optimization.md)
+➡️ [Weitere Informationen zu Targeting-Regeln](../campaigns/optimization-targeting.md)
 
 +++ Weitere Informationen zu den Metriken „Targeting-Überblick“
 

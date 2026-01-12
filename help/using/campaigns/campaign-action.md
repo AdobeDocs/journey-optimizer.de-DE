@@ -10,8 +10,8 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
-workflow-type: ht
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 # Konfigurieren der Kampagnenaktion {#action-campaign-action}
 
-Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfiguration für Ihre Nachricht auszuwählen und um zusätzliche Einstellungen wie Tracking, Inhaltsexperimente oder mehrsprachige Inhalte zu konfigurieren.
+Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfiguration für Ihre Nachricht auszuwählen und um zusätzliche Einstellungen wie Tracking, Inhaltsexperiment oder mehrsprachige Inhalte zu konfigurieren.
 
 1. **Auswählen des Kanals**
 
@@ -43,7 +43,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Nutzen der Optimierung**
 
-   Verwenden Sie den Abschnitt **[!UICONTROL Optimierung]**, um Inhaltsexperimente durchzuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experimenten und Targeting zu verwenden. Diese verschiedenen Optionen und die zu befolgenden Schritte werden in [diesem Abschnitt](campaigns-message-optimization.md) ausführlich beschrieben.
+   Verwenden Sie den Abschnitt **[!UICONTROL Optimierung]**, um Inhaltsexperimente durchzuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experimenten und Targeting zu verwenden. Diese verschiedenen Optionen und die zu befolgenden Schritte werden in [diesem Abschnitt](gs-message-optimization.md) ausführlich beschrieben.
 <!--
 1. **Create a content experiment**
 
@@ -71,7 +71,7 @@ Verwenden Sie den Abschnitt **[!UICONTROL Aktions-Tracking]**, um zu verfolgen, 
 
 Der Schnellversandmodus ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht. Der Schnellversand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch wäre oder wenn Sie eine dringende Push-Benachrichtigung an Mobiltelefone senden möchten, z. B. eine Eilmeldung an Benutzende, die Ihre Nachrichten-App installiert haben. [Auf dieser Seite](../push/create-push.md#rapid-delivery) erfahren Sie, wie Sie den Schnellversandmodus für Push-Benachrichtigungen aktivieren.
 
-Weitere Informationen zur Leistung bei Verwendung des Schnellversand-Modus finden Sie unter [Produktbeschreibung für Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Weitere Informationen zur Leistung bei Verwendung des Schnellversandmodus finden Sie unter [Produktbeschreibung für Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 

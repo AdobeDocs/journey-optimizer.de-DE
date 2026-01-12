@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
-workflow-type: ht
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -154,7 +154,7 @@ Die Tabelle **[!UICONTROL Ereignisüberblick]** zeigt an, wie viele Profile im Z
 
 Wenn Sie **[!UICONTROL Targeting-Regeln]** für Ihre Inhalte einrichten, bietet die Tabelle **[!UICONTROL Targeting-Überblick]** eine detaillierte Ansicht der wichtigsten Interaktionsmetriken und zeigt, wie die Zielgruppenprofile für die einzelnen Regeln mit Ihren Inhalten interagiert haben.
 
-➡️ [Weitere Informationen zu Targeting-Regeln](../campaigns/campaigns-message-optimization.md)
+➡️ [Weitere Informationen zu Targeting-Regeln](../campaigns/optimization-targeting.md)
 
 +++ Weitere Informationen zu den Metriken „Targeting-Überblick“
 

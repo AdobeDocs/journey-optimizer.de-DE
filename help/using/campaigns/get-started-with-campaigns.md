@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 6c8649726f8faad0a9e4945778a3f9217f3627d8
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 31%
@@ -291,7 +291,7 @@ Entdecken Sie die folgenden leistungsstarken Funktionen, während Sie sich mit K
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planung und Timing**
 
@@ -301,7 +301,7 @@ Sie können Kampagnen für bestimmte Daten/Zeiten planen, wiederkehrende Sendung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Ratenkontrolle**
 
@@ -311,7 +311,7 @@ Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Syst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Zielgruppen-Targeting**
 
@@ -321,7 +321,7 @@ Targeting bestimmter Adobe Experience Platform-Zielgruppen mit Präzision und dy
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Genehmigungs-Workflows**
 
@@ -331,7 +331,7 @@ Implementieren Sie Prüfungs- und Genehmigungsprozesse, bevor Kampagnen live geh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ruhige Stunden**
 
@@ -341,13 +341,13 @@ Berücksichtigung der Kundenpräferenzen durch Vermeidung des Nachrichtenversand
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimierung**
 
 Verwenden Sie Targeting-Regeln und Inhaltsexperimente, um personalisierte Inhalte bereitzustellen und die Interaktion zu maximieren.
 
-[Kampagnen optimieren](campaigns-message-optimization.md)
+[Kampagnen optimieren](gs-message-optimization.md)
 :::
 
 ::::

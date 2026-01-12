@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c9274ddf086fd0ea5fd4d2de9d90daffbccd5ae5
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
-source-wordcount: '3051'
+source-wordcount: '3061'
 ht-degree: 98%
 
 ---
@@ -501,9 +501,12 @@ ht-degree: 98%
       + [Erstellen eines Sprachdienstleisters](using/content-management/multilingual-provider.md)
       + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)
       + [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](using/content-management/multilingual-automated.md)
-   + [Nachrichtenoptimierung](using/campaigns/campaigns-message-optimization.md)
+   + Inhaltsoptimierung {#message-optimization}
+      + [Erste Schritte mit der Optimierung](using/campaigns/gs-message-optimization.md)
+      + [Verwenden von Targeting](using/campaigns/optimization-targeting.md)
+      + [Verwenden von Experimenten](using/campaigns/optimization-experimentation.md)
+      + [Kombinieren von Targeting und Experimenten](using/campaigns/optimization-combination.md)
    + Inhaltsexperimente {#content-experiment}
-      + [Inhaltsexperimente](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Erste Schritte mit dem Inhaltsexperiment](using/content-management/get-started-experiment.md)
       + [Erste Schritte mit Experimentation Accelerator](using/content-management/experiment-accelerator-gs.md)
       + [Erstellen eines Inhaltsexperiments](using/content-management/content-experiment.md)
