@@ -9,9 +9,9 @@ level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '967'
 ht-degree: 92%
 
 ---
@@ -78,8 +78,6 @@ Die Definition von „abgeschlossen“ hängt vom Journey-Typ ab:
 | Zielgruppe lesen | Ja | Ja | Wenn das Enddatum erreicht ist |
 | Durch Ereignis ausgelöste Journey | k. A. | Ja | Wenn das Enddatum erreicht ist |
 | Durch Ereignis ausgelöste Journey | k. A. | Nein | Beim Schließen in der Benutzeroberfläche oder über die API |
-
-Dies ist ein informativer Warnhinweis, mit dem Sie den Abschluss der Journey verfolgen können. Es gibt keine Auflösungskriterien, da es sich um eine einmalige Benachrichtigung handelt.
 
 ### Schließen für neue Eintritte {#close-to-new-entrances}
 
