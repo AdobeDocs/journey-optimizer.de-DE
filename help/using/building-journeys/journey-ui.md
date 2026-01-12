@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1475'
-ht-degree: 100%
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+workflow-type: tm+mt
+source-wordcount: '1483'
+ht-degree: 98%
 
 ---
 
@@ -140,7 +140,7 @@ Der Journey-Status hängt von ihrem Lebenszyklus ab. Es kann sich handeln um:
 
 * **Entwurf**: Die Journey befindet sich in der ersten Phase. Sie wurde noch nicht veröffentlicht.
 * **Entwurf (Test)**: Der Testmodus wurde mit der Schaltfläche **Testmodus** aktiviert. [Weitere Informationen](../building-journeys/testing-the-journey.md)
-* **Beendet**: Die Journey wechselt nach der [maximalen globalen Wartezeit](journey-properties.md#global_timeout) von 91 Tagen automatisch in diesen Status.  Profile, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Neue Profile können nicht mehr in die Journey eintreten. 
+* **Beendet**: Die Journey wechselt je nach Journey-Typ und Konfiguration automatisch in diesen Status. Profile, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Neue Profile können nicht mehr in die Journey eintreten. [Erfahren Sie, wann Journey als abgeschlossen gelten](end-journey.md#journey-finished-definition).
 * **Live**: Die Journey wurde mithilfe der Schaltfläche **Veröffentlichen** veröffentlicht. [Weitere Informationen](../building-journeys/publish-journey.md)
 * **Angehalten**: Die Live-Journey wurde mithilfe der Schaltfläche **Anhalten** angehalten. [Weitere Informationen](../building-journeys/journey-pause.md)
 * **Gestoppt**: Die Journey wurde mit der Schaltfläche **Stoppen** gestoppt. Alle Kontakte verlassen die Journey sofort. [Weitere Informationen](../building-journeys/end-journey.md#stop-journey)

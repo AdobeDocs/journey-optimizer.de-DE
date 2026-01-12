@@ -9,9 +9,9 @@ level: Intermediate
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '991'
 ht-degree: 92%
 
 ---
@@ -66,6 +66,20 @@ Nach dem **globalen Journey-Timeout von 91 Tagen** wird der Status der Journey 
 >[!TIP]
 >
 >Eine einmalige segmentbasierte Journey behält den **Live**-Status auch nach einmaliger Ausführung bei. Profile können nach Abschluss nicht erneut eintreten, aber die Journey verbleibt so lange im **Live**-Status, bis das standardmäßige globale Timeout abläuft. Sie können sie mit der Option **Für neue Eintritte schließen** früher manuell schließen.
+
+### Wann gilt eine Journey als „fertig“? {#journey-finished-definition}
+
+Die Definition von „abgeschlossen“ hängt vom Journey-Typ ab:
+
+| Journey-Typ | Wiederkehrend? | Hat ein Enddatum? | Definition von „abgeschlossen“ |
+|--------------|------------|---------------|--------------------------|
+| Zielgruppe lesen | Nein | k. A. | 91 Tage nach Beginn der Ausführung |
+| Zielgruppe lesen | Ja | Nein | 91 Tage nach Beginn der Ausführung |
+| Zielgruppe lesen | Ja | Ja | Wenn das Enddatum erreicht ist |
+| Durch Ereignis ausgelöste Journey | k. A. | Ja | Wenn das Enddatum erreicht ist |
+| Durch Ereignis ausgelöste Journey | k. A. | Nein | Beim Schließen in der Benutzeroberfläche oder über die API |
+
+Dies ist ein informativer Warnhinweis, mit dem Sie den Abschluss der Journey verfolgen können. Es gibt keine Auflösungskriterien, da es sich um eine einmalige Benachrichtigung handelt.
 
 ### Schließen für neue Eintritte {#close-to-new-entrances}
 
