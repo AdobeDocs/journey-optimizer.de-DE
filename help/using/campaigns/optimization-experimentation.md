@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um ein Experiment einzurichten und zu bestimmen, welche
 
    >[!NOTE]
    >
-   >Sie können auch andere Aktionen auswählen: Das Experiment gilt für alle Aktionen, die der Kampagne oder der Journey-Aktivität ([) hinzugefügt ](../building-journeys/journey-action.md).
+   >Sie können auch andere Aktionen auswählen: Das Experiment gilt für alle Aktionen, die der Kampagne oder der Journey-Aktivität ([) hinzugefügt &#x200B;](../building-journeys/journey-action.md).
 
 1. [Aktivieren](review-activate-campaign.md) Sie Ihre Journey oder Kampagne.
 
