@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 94%
+source-wordcount: '681'
+ht-degree: 91%
 
 ---
 
@@ -216,7 +216,7 @@ currentActionField.description == "abc"
 
 Antwort-Payload-Felder aus benutzerdefinierten Aktionen können in nativen Kanälen (E-Mail, Push, SMS) zur Personalisierung von Nachrichten verwendet werden. Dazu gehört die Möglichkeit, über Arrays und verschachtelte Datenstrukturen zu iterieren, die von externen APIs zurückgegeben werden.
 
-<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/iterate-contextual-data.md#custom-action-responses).-->
+Detaillierte Beispiele und Syntax für die Iteration über benutzerspezifische Aktionsantwortdaten in Nachrichten finden Sie unter [Iteration über kontextuelle Daten mit Handlebars](../personalization/iterate-contextual-data.md#custom-action-responses).
 
 ## Weitere Ressourcen
 

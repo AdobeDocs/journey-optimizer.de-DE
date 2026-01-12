@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Übergeben von Sammlungen in Parameter benutzerdefinierter Aktionen
+title: Übergeben von Sammlungen in Parameter für benutzerdefinierte Aktionen
 description: Informationen zum dynamischen Übergeben von Sammlungen in Journey Optimizer mithilfe von benutzerdefinierten Aktionen
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
@@ -9,15 +9,15 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+workflow-type: tm+mt
+source-wordcount: '794'
+ht-degree: 96%
 
 ---
 
 
-# Übergeben von Sammlungen in Parameter benutzerdefinierter Aktionen {#passing-collection}
+# Übergeben von Sammlungen in Parameter für benutzerdefinierte Aktionen {#passing-collection}
 
 Sie können eine Sammlung in Parametern benutzerdefinierter Aktionen übergeben, die zur Laufzeit dynamisch gefüllt wird.
 
@@ -231,5 +231,5 @@ In den folgenden Abschnitten erfahren Sie mehr über die Konfiguration, Verwendu
 * [Konfigurieren benutzerdefinierter Aktionen](../action/about-custom-action-configuration.md): Erfahren Sie, wie Sie eine benutzerdefinierte Aktion erstellen und konfigurieren
 * [Verwenden benutzerdefinierter Aktionen](../building-journeys/using-custom-actions.md): Erfahren Sie, wie Sie benutzerdefinierte Aktionen in Ihren Journeys verwenden
 * [Fehlerbehebung bei benutzerdefinierten Aktionen](../action/troubleshoot-custom-action.md): Erfahren Sie, wie Sie Fehler bei einer benutzerdefinierten Aktion beheben
-  <!--* [Iterate over contextual data](../personalization/iterate-contextual-data.md#arrays-in-journeys) - Learn how to work with arrays in Journey expressions and iterate over custom action responses, event data, and dataset lookups in message personalization-->
+* [Iteration über kontextuelle Daten](../personalization/iterate-contextual-data.md#arrays-in-journeys) - Erfahren Sie, wie Sie mit Arrays in Journey-Ausdrücken arbeiten und in der Nachrichtenpersonalisierung benutzerdefinierte Aktionsantworten, Ereignisdaten und Datensatzsuchen durchlaufen.
 
