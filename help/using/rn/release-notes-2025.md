@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '7909'
 ht-degree: 99%
@@ -384,7 +384,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <P>Sobald die Journey oder Kampagne live ist, werden Profile anhand der definierten Kriterien bewertet und ihnen werden entsprechend den Übereinstimmungskriterien die passenden Erlebnisse oder Inhalte bereitgestellt.</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
 <p>Diese Funktion, die zuvor am 8. August nur für Kampagnen veröffentlicht wurde, ist nun seit dem 22. August auch für Journeys verfügbar.</p>
-<p>Weitere Informationen finden Sie in der <a href="../campaigns/gs-message-optimization.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../content-management/gs-message-optimization.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>

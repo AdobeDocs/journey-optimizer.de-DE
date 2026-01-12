@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: Tracking, Überwachen, Analysen, Reporting, Zustellbarkeit
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -244,9 +244,9 @@ Journey Optimizer verfolgt automatisch Optimierungsexperimente, Zielgruppenbesti
 
 * **Optimierung Ihrer Kampagnen und Journey**:
 
-   * Definieren Sie beim Erstellen von Experimenten, welche Metriken verfolgt werden sollen (Konversionen, Klicks, benutzerdefinierte Ereignisse). Journey Optimizer erfasst automatisch Leistungsdaten für jede Abwandlung. [Weitere Informationen](../campaigns/optimization-experimentation.md)
+   * Definieren Sie beim Erstellen von Experimenten, welche Metriken verfolgt werden sollen (Konversionen, Klicks, benutzerdefinierte Ereignisse). Journey Optimizer erfasst automatisch Leistungsdaten für jede Abwandlung. [Weitere Informationen](../content-management/optimization-experimentation.md)
 
-   * Erstellen Sie Targeting-Regeln , um verschiedene Inhalte für verschiedene Zielgruppensegmente bereitzustellen. Journey Optimizer verfolgt die Interaktionsmetriken automatisch für jede Zielgruppe, sodass Sie die Leistung segmentübergreifend vergleichen können. [Weitere Informationen](../campaigns/optimization-targeting.md)
+   * Erstellen Sie Targeting-Regeln , um verschiedene Inhalte für verschiedene Zielgruppensegmente bereitzustellen. Journey Optimizer verfolgt die Interaktionsmetriken automatisch für jede Zielgruppe, sodass Sie die Leistung segmentübergreifend vergleichen können. [Weitere Informationen](../content-management/optimization-targeting.md)
 
 * **Journey-Pfadoptimierung**: Fügen Sie Ihrer Journey eine Aktivität vom Typ **Optimieren** hinzu und konfigurieren Sie mehrere Pfade. Journey Optimizer verfolgt automatisch, welche Pfade Profile verwenden, und misst die Leistung. [Weitere Informationen](../building-journeys/optimize.md)
 

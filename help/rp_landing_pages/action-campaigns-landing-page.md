@@ -5,7 +5,7 @@ title: Aktionskampagnen
 description: Aktionskampagnen
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Mit Aktionskampagnen in Adobe Journey Optimizer können Sie zeitnahe, zielgerich
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen einer Aktionskampagne
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Aktionskampagnen erstellen und verwalten, einschließlich 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definieren der Eigenschaften einer Aktionskampagne
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Definieren von Kampagneneigenschaften wie Namen, Ta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Konfigurieren von Kampagnenaktionen
 
@@ -50,17 +50,17 @@ Handbuch zum Einrichten von Kampagnenaktionen, einschließlich Kanalauswahl, Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Nutzen der Nachrichtenoptimierung
 
 Verwenden Sie Targeting und Experimente, um die Interaktion zu maximieren und personalisierte Kampagnen zu erstellen.
 
-[Kampagnen optimieren](../using/campaigns/gs-message-optimization.md)
+[Kampagnen optimieren](../using/content-management/gs-message-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 Bearbeiten von Kampagneninhalten
 
@@ -70,7 +70,7 @@ Entwerfen, testen und konfigurieren Sie Inhalte für Ihre Aktionskampagnen über
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Definieren der Zielgruppe einer Kampagne
 
