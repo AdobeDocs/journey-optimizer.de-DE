@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie Targeting und Experimente in einer Journey od
 role: User
 level: Intermediate
 keywords: Optimierung, Zielgruppenbestimmung, Experimentieren, Kombination, Erweitert
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 92%
@@ -45,7 +45,7 @@ Gehen Sie wie folgt vor, um Targeting und Experimente in einer Journey oder Kamp
 
 1. Gehen Sie für die anderen Targeting-Regeln genauso vor und entwerfen Sie den entsprechenden Inhalt für die einzelnen Varianten.
 
-1. Speichern Sie Ihre Änderungen und [aktivieren](review-activate-campaign.md) Sie Ihre Journey oder Kampagne.
+1. Speichern Sie Ihre Änderungen und [aktivieren](../campaigns/review-activate-campaign.md) Sie Ihre Journey oder Kampagne.
 
 Sobald die Journey/Kampagne live ist, werden den Benutzenden der einzelnen Zielgruppen nach dem Zufallsprinzip die verschiedenen Inhaltsvarianten zugewiesen, die für ihre Gruppe definiert wurden.
 

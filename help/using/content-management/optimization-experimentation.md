@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie mit Inhaltsexperimenten mehrere Versionen von
 role: User
 level: Intermediate
 keywords: Experimentieren, Optimierung, A/B-Tests, Inhaltsexperiment, Abwandlungen
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 72%
@@ -51,9 +51,9 @@ Gehen Sie wie folgt vor, um ein Experiment einzurichten und zu bestimmen, welche
 
    >[!NOTE]
    >
-   >Sie können auch andere Aktionen auswählen: Das Experiment gilt für alle Aktionen, die der Kampagne oder der Journey-Aktivität ([) hinzugefügt &#x200B;](../building-journeys/journey-action.md).
+   >Sie können auch andere Aktionen auswählen: Das Experiment gilt für alle Aktionen, die der Kampagne oder der Journey-Aktivität ([) hinzugefügt ](../building-journeys/journey-action.md).
 
-1. [Aktivieren](review-activate-campaign.md) Sie Ihre Journey oder Kampagne.
+1. [Aktivieren](../campaigns/review-activate-campaign.md) Sie Ihre Journey oder Kampagne.
 
 Sobald die Journey/Kampagne live ist, werden den Benutzenden die verschiedenen Inhaltsvarianten nach dem Zufallsprinzip zugewiesen. [!DNL Journey Optimizer] verfolgt, welche Variante zu mehr Käufen führt, und stellt verwertbare Erkenntnisse zur Verfügung.
 

@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie Zielgruppenbestimmungsregeln nutzen können, 
 role: User
 level: Intermediate
 keywords: Zielgruppenbestimmung, Optimierung, Zielgruppe, Personalisierung, Regeln
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 95%
@@ -90,7 +90,7 @@ Gehen Sie folgendermaßen vor, um das Targeting einzurichten.
 
    In diesem Beispiel erstellen wir einen bestimmten Inhalt für in den USA ansässige Personen, einen anderen Inhalt für in Frankreich ansässige Personen und einen dritten Inhalt für in Indien ansässige Personen.
 
-1. [Aktivieren](review-activate-campaign.md) Sie Ihre Journey oder Kampagne.
+1. [Aktivieren](../campaigns/review-activate-campaign.md) Sie Ihre Journey oder Kampagne.
 
 Sobald die Journey/Kampagne live ist, werden für jede Zielgruppe maßgeschneiderte Inhalte versendet, sodass etwa in den USA ansässige Personen eine bestimmte Nachricht erhalten, in Frankreich ansässige Personen eine andere usw.
 
