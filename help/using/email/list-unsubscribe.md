@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
-workflow-type: ht
-source-wordcount: '1704'
-ht-degree: 100%
+source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+workflow-type: tm+mt
+source-wordcount: '1701'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,9 @@ Um Ihre Endpunkte weiter zu personalisieren<!-- (**[!UICONTROL Mailto (unsubscri
 
 >[!AVAILABILITY]
 >
->Für die Option **[!UICONTROL E-Mail an (abmelden)]** ist diese Funktion in eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten. In diesem Fall müssen Sie die neuen Abfrageparameter verwenden, die im Abschnitt **„E-Mail an (abmelden)“ mit benutzerdefinierten Attributen (eingeschränkte Verfügbarkeit)** [unten](#configure-decrypt-api) beschrieben sind.
+>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+>
+>Für die Option **[!UICONTROL Mailto (unsubscribe)]** müssen Sie die neuen Abfrageparameter verwenden, die im Abschnitt **Mailto (unsubscribe) mit benutzerdefinierten Attributen (Eingeschränkte Verfügbarkeit)** unten beschrieben [](#configure-decrypt-api).
 
 Verwenden Sie zum Definieren der benutzerdefinierten Attribute für Ihre Endpunkte den Abschnitt **[!UICONTROL URL-Tracking-Parameter]**. Alle URL-Tracking-Parameter, die Sie im entsprechenden Abschnitt definieren, werden zusätzlich zu den Standardparametern an das Ende Ihrer benutzerdefinierten Endpunkte angehängt. [Informationen dazu, wie Sie benutzerdefiniertes URL-Tracking festlegen](url-tracking.md)
 
