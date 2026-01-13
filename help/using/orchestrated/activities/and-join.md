@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_and-join"
->title="Aktivität &quot;Und-Verknüpfung&quot;"
+>title="Aktivität &quot;UND-Verknüpfung&quot;"
 >abstract="Mit der Aktivität **Und-Verknüpfung** können Sie die Ausführung verschiedener Verzweigungen einer orchestrierten Kampagne synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung der orchestrierten Kampagne fortfahren."
 
 Die Aktivität **[!UICONTROL Und-Verknüpfung]** ist eine Aktivität zur **[!UICONTROL Flusskontrolle]**. Mit ihr können Sie die Ausführung verschiedener Verzweigungen einer orchestrierten Kampagne synchronisieren. 
