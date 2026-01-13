@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 13879953461a28c4c911030a165fbd0b6393bb07
+source-git-commit: 780c197da342968c6dc125277f325219e0717082
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 96%
+source-wordcount: '663'
+ht-degree: 91%
 
 ---
 
@@ -38,7 +38,7 @@ Weitere Informationen zu AEM-Inhaltsfragmenten finden Sie unter [Arbeiten mit In
 
 >[!IMPORTANT]
 >
->Damit Journey Optimizer über die Inhaltsfragmentverwaltungs-API auf Adobe Experience Manager-Inhaltsfragmente zugreifen kann, müssen Sie zunächst [Dispatcher konfigurieren](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration).
+>Damit Journey Optimizer über die Inhaltsfragmentverwaltungs-API auf Adobe Experience Manager-Inhaltsfragmente zugreifen kann, müssen Sie zunächst [Dispatcher konfigurieren](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration).
 
 Bevor Sie Ihr Inhaltsfragment in Journey Optimizer verwenden, müssen Sie ein Tag speziell für Journey Optimizer erstellen:
 
@@ -105,6 +105,10 @@ Nachdem Sie Ihre AEM-Inhaltsfragmente erstellt und personalisiert haben, können
 
    ![](assets/aem_campaign_6.png)
 
+1. Wählen Sie **Pillen: Aus**, um das Pillenerlebnis zu aktivieren und die Lesbarkeit durch Ausblenden langer Attributpfade zu verbessern.
+
+   ![](assets/aem_campaign_10.png)
+
 1. Um die Echtzeit-Personalisierung zu aktivieren, müssen alle in einem **[!UICONTROL Inhaltsfragment]** verwendeten Platzhalter von der Benutzerin bzw. vom Benutzer explizit als Parameter im Fragment-Helfer-Tag deklariert werden. Sie können diese Platzhalter mit den folgenden Methoden Profilattributen, kontextuellen Attributen, statischen Zeichenfolgen oder vordefinierten Variablen zuordnen:
 
    1. **Zuordnung zu Profilen oder kontextuellen Attributen**: Weisen Sie den Platzhalter einem Profil oder einem kontextuellen Attribut zu, z. B. name = profile.person.name.firstName.
@@ -118,7 +122,7 @@ Stellen Sie in diesem Fall mit der folgenden Syntax sicher, dass **_variableName
       {% let variableName = attribute name %} 
       ```
 
-   Im folgenden Beispiel wird der Platzhalter **_name_** dem Attribut **_profile.person.name.firstName_** im Fragment zugeordnet.
+   Im folgenden Beispiel wird der Platzhalter **_month_** dem Attribut **_profile.person.BirthDate_** im Fragment zugeordnet.
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
