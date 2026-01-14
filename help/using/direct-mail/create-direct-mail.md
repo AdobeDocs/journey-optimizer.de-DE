@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 97%
 
 ---
 
@@ -30,12 +30,7 @@ Um Briefpost-Nachrichten zu erstellen, erstellen Sie eine geplante Kampagne und 
 >1. Eine [Dateirouting-Konfiguration](../direct-mail/direct-mail-configuration.md#file-routing-configuration), die den Server angibt, auf den die Extraktionsdatei hochgeladen und gespeichert werden soll,
 >1. Eine [Konfiguration für Direkt-Mail-Nachrichten](../direct-mail/direct-mail-configuration.md#direct-mail-surface), die auf die Datei-Routing-Konfiguration verweist.
 
-
 ## Erstellen einer Direkt-Mail-Kampagne{#create-dm-campaign}
-
->[!AVAILABILITY]
->
->Direkt-Mail unterstützt zwar die Holdout-Funktion, derzeit jedoch keine Abwandlungen.
 
 Um eine Direkt-Mail-Kampagne zu erstellen, richten Sie eine geplante Kampagne ein, wählen Sie Ihre Zielgruppe aus und konfigurieren Sie die Direkt-Mail-Einstellungen, einschließlich der Nachrichtenkonfiguration. Führen Sie folgende Schritte aus:
 
@@ -55,13 +50,17 @@ Um eine Direkt-Mail-Kampagne zu erstellen, richten Sie eine geplante Kampagne ei
    >
    >Derzeit ist die Zielgruppenauswahl auf 3 Millionen Profile beschränkt. Diese Einschränkung kann auf Anfrage von Ihrer Adobe-Support-Mitarbeitenden aufgehoben werden.
 
-1. Wählen Sie im **[!UICONTROL Identitäts-Namespace]** den entsprechenden Namespace aus, um Kontakte innerhalb der ausgewählten Zielgruppe zu identifizieren. [Weitere Informationen](../event/about-creating.md#select-the-namespace).
+1. Wählen Sie im **[!UICONTROL Identity-Namespace]** den entsprechenden Namespace aus, um Kontakte innerhalb der ausgewählten Zielgruppe zu identifizieren. [Weitere Informationen](../event/about-creating.md#select-the-namespace).
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** die Option **[!UICONTROL Direkt-Mail]** aus.
 
 1. Wählen Sie eine **[!UICONTROL Direkt-Mail-Konfiguration]** aus oder erstellen Sie eine neue Konfiguration. [Erfahren Sie, wie Sie eine Direkt-Mail-Konfiguration erstellen](direct-mail-configuration.md#direct-mail-surface).
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
+
+   >[!AVAILABILITY]
+   >
+   >Briefpost unterstützt die **Holdout**-Funktion, unterstützt aber derzeit nicht **Behandlungen**. [Erfahren Sie, wie Sie mit Experimenten arbeiten](../content-management/get-started-experiment.md)
 
 1. Kampagnen können für ein bestimmtes Datum geplant oder in regelmäßigen Abständen wiederholt werden. Erfahren Sie in [diesem Abschnitt](../campaigns/campaign-schedule.md), wie Sie den **[!UICONTROL Zeitplan]** der Kampagne konfigurieren können.
 
