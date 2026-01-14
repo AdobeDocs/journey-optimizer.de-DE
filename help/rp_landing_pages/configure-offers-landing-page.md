@@ -35,7 +35,7 @@ Erfahren Sie mit einer schrittweisen Anleitung, wie Sie personalisierte Angebote
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Hinzufügen von Darstellungen zu Angeboten
 
@@ -45,7 +45,7 @@ Definieren und konfigurieren Sie mithilfe von Darstellungen, wo Angebote angezei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Hinzufügen von Einschränkungen zu Angeboten
 

@@ -25,7 +25,7 @@ Das Exportieren Ihres Angebotskatalogs in Adobe Journey Optimizer öffnet die T�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Handbuch zum Exportieren von Angebotskatalogen
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie Ihren Angebotskatalog als Datensatz nach Adobe Experience 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Zugreifen auf den exportierten Angebotskatalog
 
@@ -65,7 +65,7 @@ Machen Sie sich mit der hierarchischen Struktur, den Felddefinitionen und Metada
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Details des Platzierungsdatensatzes
 
@@ -75,7 +75,7 @@ Erfahren Sie mehr über die Felder, das Schema und die Metadaten des Platzierung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Dokumentation zum Datensatz für Fallback-Angebote
 

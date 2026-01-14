@@ -45,7 +45,7 @@ Erfahren Sie, wie Sie Platzierungen, Entscheidungsregeln und Sammlungskennzeichn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Erstellen und Optimieren von Ranglisten
 
@@ -55,7 +55,7 @@ Lernen Sie, wie Sie mithilfe von Formeln und KI-Modellen Ranglisten von Angebote
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen und Verwalten von Angeboten
 

@@ -25,7 +25,7 @@ In Adobe Journey Optimizer können Sie durch die Erstellung und Verwaltung von E
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen von Entscheidungen in Adobe Journey Optimizer
 

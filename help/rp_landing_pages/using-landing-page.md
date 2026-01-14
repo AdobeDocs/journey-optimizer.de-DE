@@ -31,7 +31,7 @@ Lernen Sie die Grundlagen von Adobe Journey Optimizer kennen, einschließlich se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Umfassende Anleitung für Journeys
 

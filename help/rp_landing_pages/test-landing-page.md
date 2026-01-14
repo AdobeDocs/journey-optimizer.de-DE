@@ -26,7 +26,7 @@ Diese Landingpage hilft Ihnen dabei, den richtigen Testansatz auszuwählen, je n
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Vorschau, Testen und Validieren von Inhalten
 

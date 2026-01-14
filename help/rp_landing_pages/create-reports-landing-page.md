@@ -25,7 +25,7 @@ Durch das Erstellen von Berichten zum Entscheidungs-Management in Adobe Journey 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Arbeiten mit Entscheidungs-Management-Ereignissen
 

@@ -69,7 +69,7 @@ Erfahren Sie mehr über häufige Fehler-Codes in Adobe Journey Optimizer und fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Fehlerbehebung vor dem Testen oder Veröffentlichen der Journey
 
@@ -79,7 +79,7 @@ Identifizieren und beheben Sie Journey-weite Fehler und Aktivitätsprobleme und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Fehlerbehebung bei der Live-Journey-Ausführung
 

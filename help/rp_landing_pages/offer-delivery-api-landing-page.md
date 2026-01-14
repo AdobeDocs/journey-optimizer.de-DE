@@ -35,7 +35,7 @@ Erfahren Sie mehr über die APIs, die für die Bereitstellung personalisierter A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Bereitstellen von Angeboten mithilfe der Decisioning API
 
