@@ -6,50 +6,50 @@ description: Fehlerbehebung
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '504'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
-# Nachverfolgen, Überwachen und Fehlerbehebung {#section-overview}
+# Tracking, Monitoring und Fehlerbehebung {#section-overview}
 
-Die effektive Verwaltung Ihrer Kunden-Journey beginnt mit einer umfassenden Nachverfolgung, die eine proaktive Überwachung, aufschlussreiche Berichte und eine effiziente Fehlerbehebung ermöglicht. Adobe Journey Optimizer bietet ein vollständiges Framework, um Kundeninteraktionen und Systemereignisse zu erfassen, Leistungsmetriken zu analysieren und Probleme schnell zu lösen, wenn sie auftreten.
+Die effektive Verwaltung Ihrer Customer Journeys beginnt mit umfassendem Tracking, das proaktives Monitoring, aufschlussreiches Reporting und effiziente Fehlerbehebung ermöglicht. Adobe Journey Optimizer bietet ein vollständiges Framework, um Kundeninteraktionen und Systemereignisse zu erfassen, Leistungsmetriken zu analysieren und auftretende Probleme schnell zu beheben.
 
-**Verfolgen** Kundeninteraktionen über alle Kanäle hinweg - E-Mails, Web, Push, In-App, SMS und mehr - und erfassen Öffnungen, Klicks, Konversionen und benutzerdefinierte Ereignisse, die zeigen, wie Kunden mit Ihren Inhalten interagieren.
+**Verfolgen** Sie Kundeninteraktionen über alle Kanäle hinweg – E-Mails, Web, Push, In-App, SMS und mehr – und erfassen Sie Öffnungen, Klicks, Konversionen und benutzerdefinierte Ereignisse, die Aufschluss darüber geben, wie Kundinnen und Kunden mit Ihren Inhalten interagieren.
 
-**Überwachen** Journey- und Kampagnenleistung mithilfe von Echtzeitberichten, Systemwarnungen und Zustellbarkeitsmetriken, mit denen Sie Trends identifizieren, den Erfolg messen und potenzielle Probleme frühzeitig erkennen können.
+**Überwachen** Sie Journey- und Kampagnen-Leistung mithilfe von Echtzeitberichten, Systemwarnhinweisen und Zustellbarkeitsmetriken, mit denen Sie Trends identifizieren, Erfolg messen und potenzielle Probleme frühzeitig erkennen können.
 
-**Fehlerbehebung** Probleme effizient mit detaillierten Fehler-Codes, Schritt-für-Schritt-Ausführungsprotokollen und gezielten Anleitungen zum Beheben von Journey-Fehlern, Ausführungsinkonsistenzen oder Problemen auf Aktionsebene.
+**Beheben** Sie Probleme effizient mit detaillierten Fehler-Codes, schrittweisen Ausführungsprotokollen und gezielten Anleitungen zur Lösung von Journey-Fehlern, Ausführungsinkonsistenzen oder Problemen auf Aktionsebene.
 
-Auf dieser Seite finden Sie wichtige Ressourcen, die Sie bei der Implementierung des Trackings, der Überwachung des Journey-Status, dem Zugriff auf wichtige Reporting-Insights und der effizienten Lösung von Problemen in allen Phasen Ihrer Kunden-Journey unterstützen.
+Auf dieser Seite finden Sie wichtige Ressourcen, die Ihnen helfen, Tracking zu implementieren, den Zustand der Journey zu überwachen, auf wichtige Erkenntnisse aus dem Reporting zuzugreifen und Probleme in allen Phasen Ihrer Customer Journeys effizient zu beheben.
 
 ## Erste Schritte mit dem Tracking
 
-Bevor Sie sich mit Überwachung und Fehlerbehebung befassen, stellen Sie sicher, dass Sie über eine solide Grundlage für das Tracking verfügen. Journey Optimizer bietet umfassende Tracking-Funktionen, mit denen Kundeninteraktionen, die Versandleistung und der Systemzustand auf allen Kanälen erfasst werden.
+Stellen Sie sicher, dass Sie über eine solide Grundlage beim Tracking verfügen, bevor Sie sich mit dem Monitoring und der Fehlerbehebung befassen. Journey Optimizer bietet umfassende Tracking-Funktionen zur Erfassung von Kundeninteraktionen, Versandleistung und Systemzustand über alle Kanäle hinweg.
 
-Erfahren Sie, wie Sie das Tracking für E-Mails, Web-Erlebnisse, Push-Benachrichtigungen, In-App-Nachrichten und mehr implementieren, einschließlich der Einrichtung benutzerdefinierter Metriken, der Konfiguration von URL-Parametern und des Zugriffs auf Tracking-Daten über integrierte Berichte. [Erste Schritte mit dem Tracking](../using/start/get-started-tracking.md)
+Erfahren Sie, wie Sie Tracking für E-Mails, Web-Erlebnisse, Push-Benachrichtigungen, In-App-Nachrichten und mehr implementieren – einschließlich der Einrichtung benutzerdefinierter Metriken, der Konfiguration von URL-Parametern und des Zugriffs auf Tracking-Daten über integrierte Berichte. [Erste Schritte mit dem Tracking](../using/start/get-started-tracking.md)
 
-## Reporting und Überwachung
+## Reporting und Monitoring
 
 Greifen Sie auf wichtige Berichte zu, um die Journey-Leistung zu überwachen, Metriken zu analysieren und Probleme zu identifizieren:
 
-* [Globale Journey-Berichte](../using/reports/journey-global-report-cja.md) - Zeigen Sie umfassende Journey-Leistungsmetriken und -Analysen für alle Kanäle an.
+* [Globale Journey-Berichte](../using/reports/journey-global-report-cja.md) – Zeigen Sie umfassende Journey-Leistungsmetriken und -Analysen für alle Kanäle an.
 
-* [Journey-Live-Berichte](../using/reports/journey-live-report.md) - Überwachen Sie Journey-Ausführungsdaten in Echtzeit und verfolgen Sie aktive Kundeninteraktionen.
+* [Journey-Live-Berichte](../using/reports/journey-live-report.md) – Überwachen Sie Journey-Ausführungsdaten in Echtzeit und verfolgen Sie aktive Kundeninteraktionen.
 
-* [Journey-Schrittereignisse](../using/reports/journey-step-events-overview.md) - Analysieren Sie detaillierte Schritt-für-Schritt-Journey-Ausführungsereignisse zur Fehlerbehebung und Optimierung.
+* [Journey-Schrittereignisse](../using/reports/journey-step-events-overview.md) – Analysieren Sie detaillierte und schrittweise Journey-Ausführungsereignisse zu Fehlerbehebungs- und Optimierungszwecken.
 
-* [Erste Schritte mit Berichten](../using/reports/report-gs-cja.md) - Erfahren Sie mehr über die Reporting-Funktionen, Metriken und den Zugriff auf Journey-Erkenntnisse.
+* [Erste Schritte mit Berichten](../using/reports/report-gs-cja.md) – Erfahren Sie mehr über die Reporting-Funktionen, Metriken und den Zugriff auf Journey-Erkenntnisse.
 
-* [Zustellbarkeits-Monitoring](../using/reports/deliverability.md) - Verfolgen Sie die Versandraten von Nachrichten und identifizieren Sie potenzielle Versandprobleme kanalübergreifend.
+* [Zustellbarkeits-Monitoring](../using/reports/deliverability.md) – Verfolgen Sie die Zustellraten von Nachrichten und identifizieren Sie potenzielle Versandprobleme kanalübergreifend.
 
 ## Fehlerbehebung
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Abrufen und Abonnieren von Systemwarnungen
 
@@ -59,7 +59,7 @@ Erfahren Sie, wie Sie auf Systemwarnungen zugreifen, Benachrichtigungen abonnier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referenz zu Fehler-Codes
 
@@ -69,7 +69,7 @@ Erfahren Sie mehr über häufige Fehler-Codes in Adobe Journey Optimizer und fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Fehlerbehebung vor dem Testen oder Veröffentlichen der Journey
 
@@ -79,7 +79,7 @@ Identifizieren und beheben Sie Journey-weite Fehler und Aktivitätsprobleme und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fehlerbehebung bei der Live-Journey-Ausführung
 
@@ -89,7 +89,7 @@ Diagnostizieren Sie Probleme mit der Ereignisvalidierung, dem Profileintrag, der
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fehlerbehebung bei eingehenden Aktionen in Journeys
 
@@ -99,13 +99,13 @@ Beheben Sie mithilfe detaillierter Handbücher Probleme mit eingehenden Aktionen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Fehlerbehebung bei benutzerdefinierten Aktionen
 
-Validieren und debuggen Sie benutzerdefinierte Aktionen mit der Funktion **Testanfrage senden** um sicherzustellen, dass API-Aufrufe und Authentifizierungseinstellungen korrekt sind.
+Validieren und debuggen Sie benutzerdefinierte Aktionen mit der Funktion **Testanfrage senden**, um sicherzustellen, dass API-Aufrufe und Authentifizierungseinstellungen korrekt sind.
 
-[benutzerdefinierte Aktionen validieren](../using/action/troubleshoot-custom-action.md)
+[Benutzerdefinierter Aktionen validieren](../using/action/troubleshoot-custom-action.md)
 :::
 
 ::::
@@ -114,4 +114,4 @@ Validieren und debuggen Sie benutzerdefinierte Aktionen mit der Funktion **Testa
 
 * [Häufig gestellte Fragen zu Journeys](../using/building-journeys/journey-faq.md) – Umfassende Antworten auf häufige Fragen zu Journeys, einschließlich Journey-Typen, Ausführung, Konfiguration und Best Practices für die Fehlerbehebung.
 
-* [Leitplanken und Einschränkungen](../using/start/guardrails.md) - Erfahren Sie mehr über Journey Optimizer-Leitplanken, Produktbeschränkungen, Leistungsaspekte und unterstützte Browser, um eine optimale Nutzung sicherzustellen.
+* [Leitlinien und Einschränkungen](../using/start/guardrails.md) – Erfahren Sie mehr über Journey Optimizer-Leitlinien, Produktbeschränkungen, Leistungsaspekte und unterstützte Browser, um eine optimale Nutzung zu gewährleisten.

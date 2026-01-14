@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
 ### Kampagnenorchestrierung
 
-* **Wählen Sie den richtigen Ansatz**: [Vergleichen Sie Journey-Typen](../../building-journeys/journey.md#journey-types) für verhaltensgesteuerte Erlebnisse in Echtzeit oder [Kampagnentypen](../../campaigns/get-started-with-campaigns.md#campaign-types) für geplante Batch-Kampagnen
+* **Wählen des richtigen Ansatzes**: [Vergleichen Sie Journey-Typen](../../building-journeys/journey.md#journey-types) für verhaltensgesteuerte Erlebnisse in Echtzeit oder [Kampagnentypen](../../campaigns/get-started-with-campaigns.md#campaign-types) für geplante Batch-Kampagnen
 * **Definieren von klaren Kampagnenzielen**: Legen Sie Ziele fest, bevor Sie mehrstufige Workflows erstellen
 * **Starten mit Pilot-Zielgruppen**: Überprüfen Sie Anzahl und Segmentierungslogik vor der Skalierung
 * **Nutzen relationaler Daten**: Verwenden Sie die Segmentierung in mehrere Entitäten, um Kundendaten mit Konten, Käufen und Abonnements zu verbinden und so ein präzises Targeting zu ermöglichen

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: c4e877b0d064938ef3a3bc7e67fc5dc00aa09bca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Bei ausgehenden Kanälen für den Nachrichtenversand werden Nachrichten ohne vor
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-Mail-Kanal
 
@@ -37,7 +37,7 @@ Erfahren Sie, wie Sie E-Mail-Kampagnen erstellen, konfigurieren und optimieren k
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Push-Benachrichtigungs-Kanal
 
@@ -47,7 +47,7 @@ Erfahren Sie, wie Sie Push-Benachrichtigungen für iOS und Android erstellen, ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS-/MMS-/RCS-Nachrichten
 
@@ -57,7 +57,7 @@ Erfahren Sie, wie Sie SMS-, MMS- und RCS-Nachrichten für Marketing- und Transak
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Briefpostkampagnen
 
@@ -75,7 +75,7 @@ Mit Inbound-Erlebnissen über Mobile App und Web initiieren Kundinnen und Kunden
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 In-App-Nachrichten
 
@@ -85,7 +85,7 @@ Erfahren Sie, wie Sie In-App-Benachrichtigungen für mobile und Web-Plattformen 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Erfahren Sie, wie Sie Web-Erlebnisse erstellen, konfigurieren und personalisiere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Code-basiertes Erlebnis
 
@@ -105,7 +105,7 @@ Machen Sie sich mit Code-basierten Erlebnissen vertraut, um mithilfe von SDKs un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Inhaltskarten
 
@@ -130,9 +130,9 @@ In Adobe Journey Optimizer können Kommunikationskanäle in zwei Hauptkontexten 
 
 - **Kampagnen**: Stellen Sie spezifische Marketing-Kampagnen bereit, die einen bestimmten Kanal verwenden, um Targeting-Ziele zu erreichen. Ob Sie ein neues Produkt bewerben oder saisonale Umsätze steigern möchten – mit Kampagnen können Sie zielgerichtete Messaging-Strategien entwickeln, die auf Ihre Zielgruppe zugeschnitten sind. [Erfahren Sie, wie Sie eine Cross-Channel-Kampagne erstellen und ausführen](../campaigns/get-started-with-campaigns.md).
 
-Die nachstehende Tabelle zeigt die Verfügbarkeit der einzelnen Kanäle über verschiedene Journey und Kampagnen hinweg und gibt an, wo sie unterstützt werden.
+Die nachstehende Tabelle zeigt die Verfügbarkeit der einzelnen Kanäle für verschiedene Journeys und Kampagnen und gibt an, wo sie unterstützt werden.
 
-| Kanal | Journeys | Aktionskampagnen (Marketing) | Aktionskampagnen (Transaktion) | API-ausgelöste Kampagnen | Orchestrierte Kampagnen |
+| Kanal | Journeys | Aktionskampagnen (Marketing) | Aktionskampagnen (Transaktion) | Durch API ausgelöste Kampagnen | Orchestrierte Kampagnen |
 |----------------------|----------|------------------------------|----------------------------------|-------------------------|------------------------|
 | E-Mail | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |

@@ -5,7 +5,7 @@ title: Hilfe zu Adobe Journey Optimizer
 description: Hilfe zu Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
 ht-degree: 100%
 
@@ -14,14 +14,14 @@ ht-degree: 100%
 
 # Hilfe zu Adobe Journey Optimizer{#section-overview}
 
-Mit Adobe Journey Optimizer können Teams nahtlose, personalisierte Kundenerlebnisse über Kanäle wie E-Mail, SMS und mehr entwerfen und bereitstellen. Durch die Kombination erweiterter Tools für die Kampagnenorchestrierung, das Daten-Management und die Entscheidungsfindung können Sie Journeys erstellen, die sich in Echtzeit an die Kundenanforderungen anpassen. Diese Dokumentation bietet eine Roadmap für die Nutzung der Plattform – vom Erkunden der neuesten Funktionen und Integrationen bis hin zum Erlernen der Verwaltung von Zielgruppen, der Konfiguration von Journeys und der Leistungsanalyse. Egal ob Sie Marketing-Fachkraft, Data Engineer oder Kampagnen-Managerin bzw. -Manager sind – hier finden Sie Schritt-für-Schritt-Anleitungen, Best Practices und Ressourcen, die darauf zugeschnitten sind, Ihnen beim Erreichen Ihrer Ziele zu helfen.
+Mit Adobe Journey Optimizer können Teams nahtlose, personalisierte Kundenerlebnisse über Kanäle wie E-Mail, SMS und mehr entwerfen und bereitstellen. Durch die Kombination erweiterter Tools für die Kampagnenorchestrierung, das Daten-Management und die Entscheidungsfindung können Sie Journeys erstellen, die sich in Echtzeit an die Kundenanforderungen anpassen. Diese Dokumentation bietet eine Roadmap für die Nutzung der Plattform – vom Erkunden der neuesten Funktionen und Integrationen bis hin zum Erlernen der Verwaltung von Zielgruppen, der Konfiguration von Journeys und der Leistungsanalyse. Egal ob Sie im Marketing, Data Engineering oder Kampagnen-Management tätig sind – hier finden Sie Schritt-für-Schritt-Anleitungen, Best Practices und Ressourcen, die darauf zugeschnitten sind, Ihnen beim Erreichen Ihrer Ziele zu helfen.
 
 ## Hilfe zu Adobe Journey Optimizer
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Lernen Sie die Grundlagen von Adobe Journey Optimizer kennen, einschließlich se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Umfassende Anleitung für Journeys
 
@@ -41,7 +41,7 @@ Entwerfen, orchestrieren, verwalten und optimieren Sie personalisierte Kunden-Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Grundlagen und Verwalten von Kampagnen
 
@@ -51,7 +51,7 @@ Detaillierte Anleitungen zum Erstellen, Verwalten und Optimieren verschiedener K
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Konflikt-Management und Priorisierung
 

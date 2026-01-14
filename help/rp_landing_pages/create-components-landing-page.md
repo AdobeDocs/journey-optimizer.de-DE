@@ -7,7 +7,7 @@ badge: label="Legacy" type="Informative"
 redpen-status: CREATED_||_2025-08-11_20-58-59
 exl-id: 490fa22c-40b3-4c70-b31c-a971c941a232
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ In Adobe Journey Optimizer können Sie durch das Erstellen von Komponenten wie P
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Handbuch zum Erstellen von Platzierungen für Angebote
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer Platzierungen erstellen und ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 So erstellen Sie Entscheidungsregeln in Adobe Journey Optimizer
 
@@ -45,7 +45,7 @@ Definieren Sie Entscheidungsregeln zur Personalisierung von Angeboten, indem Sie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
 
 So erstellen und verwalten Sie Sammlungskennzeichner in Adobe Journey Optimizer
 

@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-58-31
 badge: label="Legacy" type="Informative"
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Mit dem Entscheidungs-Management von Adobe Journey Optimizer können Marketing-F
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in das Entscheidungs-Management
 
@@ -35,7 +35,7 @@ Erfahren Sie mehr über das Entscheidungs-Management in Adobe Journey Optimizer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Leitlinien und Einschränkungen für das Entscheidungs-Management
 
@@ -45,7 +45,7 @@ Machen Sie sich mit den betrieblichen Einschränkungen und Leistungsschwellen de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Handbuch zur Benutzeroberfläche der Angebotsbibliothek
 
@@ -55,7 +55,7 @@ Erkunden Sie die Benutzeroberfläche und Funktionen der Angebotsbibliothek, um A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Wichtigste Schritte bei der Angebotserstellung und -verwaltung
 
@@ -65,7 +65,7 @@ Folgen Sie einer schrittweisen Anleitung zum Erstellen, Verwalten und Konfigurie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Nutzen benutzerdefinierter Upload-Zielgruppen zur Entscheidungsfindung
 
@@ -75,7 +75,7 @@ Erfahren Sie, wie Sie Eignungskriterien verfeinern und Angebote mithilfe von ben
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Verwenden personalisierter Angebote in einer E-Mail
 

@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Unterbreiten von Angeboten mithilfe von APIs
-description: Unterbreiten von Angeboten mithilfe von APIs
+title: Bereitstellen von Angeboten mithilfe von APIs
+description: Bereitstellen von Angeboten mithilfe von APIs
 redpen-status: CREATED_||_2025-08-11_21-04-29
 badge: label="Legacy" type="Informative"
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
 ht-degree: 100%
 
 ---
 
-# Unterbreiten von Angeboten mithilfe von APIs{#section-overview}
+# Bereitstellen von Angeboten mithilfe von APIs{#section-overview}
 
 >[!TIP]
 >
@@ -25,7 +25,7 @@ Mit den APIs von Adobe Journey Optimizer zur Angebotsbereitstellung können Sie 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Erste Schritte mit APIs für die Angebotsunterbreitung
 
@@ -35,7 +35,7 @@ Erfahren Sie mehr über die APIs, die für die Bereitstellung personalisierter A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Bereitstellen von Angeboten mithilfe der Decisioning API
 
@@ -45,7 +45,7 @@ Erstellen und unterbreiten Sie personalisierte Marketing-Angebote mit der Decisi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Bereitstellen von Angeboten mithilfe der Edge Decisioning API
 
@@ -55,7 +55,7 @@ Implementieren Sie die personalisierte Angebotsbereitstellung mit dem Adobe Expe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwenden der Batch Decisioning API zum Unterbreiten von Angeboten
 

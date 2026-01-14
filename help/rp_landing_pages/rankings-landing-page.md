@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Erstellen von Ranglisten
-description: Erstellen von Ranglisten
+title: Erstellen von Rankings
+description: Erstellen von Rankings
 badge: label="Legacy" type="Informative"
 redpen-status: CREATED_||_2025-08-11_21-00-00
 exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
 ht-degree: 100%
 
 ---
 
-# Erstellen von Ranglisten{#section-overview}
+# Erstellen von Rankings{#section-overview}
 
 >[!TIP]
 >
@@ -25,7 +25,7 @@ Mit Ranglisten in Adobe Journey Optimizer können Sie anpassen, welche Angebote 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Erste Schritte mit Ranglisten
 
@@ -35,7 +35,7 @@ Erfahren Sie mehr über die Grundlagen von Ranglisten in Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen und Verwenden von Ranglistenformeln
 
@@ -45,7 +45,7 @@ Folgen Sie den schrittweisen Anweisungen, um Ranglistenformeln mithilfe der PQL-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 KI-Modelle für das Ranking von Angeboten
 

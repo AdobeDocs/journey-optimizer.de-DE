@@ -8,52 +8,52 @@ role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Quell-Connectoren {#sources-gs}
 
-## Was ist eine -Quelle? {#what-is-source}
+## Was ist eine Quelle? {#what-is-source}
 
-Eine **Quelle** ist ein Connector, der externe Daten in Adobe Journey Optimizer einbringt. Mit -Quellen können Sie Kundeninformationen aus Systemen importieren, die Sie bereits verwenden, z. B. CRM-Plattformen, Cloud-Speicher oder Datenbanken, und diese Daten für die Erstellung personalisierter Kunden-Journey zur Verfügung stellen.
+Eine **Quelle** ist ein Connector, der externe Daten in Adobe Journey Optimizer einbindet. Mit Quellen können Sie Kundeninformationen aus Systemen importieren, die Sie bereits verwenden, z. B. CRM-Plattformen, Cloud-Speicher oder Datenbanken, und diese Daten für die Erstellung personalisierter Customer Journeys verfügbar machen.
 
-Stellen Sie sich Quellen als Brücken zwischen Journey Optimizer und Ihren externen Datensystemen vor. Sie synchronisieren automatisch Daten, damit Sie immer über aktuelle Kundeninformationen verfügen, um Ihre Marketing-Kampagnen zu unterstützen.
+Betrachten Sie Quellen als Brücken zwischen Journey Optimizer und Ihren externen Datensystemen. Sie synchronisieren Daten automatisch, sodass Ihnen für Ihre Marketing-Kampagnen stets aktuelle Kundeninformationen zur Verfügung stehen.
 
-## Warum Quellen wichtig sind {#why-sources-matter}
+## Bedeutung von Quellen  {#why-sources-matter}
 
--Quellen sind für die Erstellung personalisierter, datengesteuerter Kundenerlebnisse in Journey Optimizer unerlässlich. Und zwar aus folgenden Gründen:
+Quellen sind für die Erstellung personalisierter, datengestützter Kundenerlebnisse in Journey Optimizer unerlässlich. Hier erfahren Sie, warum:
 
-* **Einheitliche Kundenansicht** - Kombinieren Sie Daten aus mehreren Systemen, um das vollständige Bild jedes Kunden zu sehen
-* **Echtzeit-Personalisierung** - Verwenden Sie neue Daten, um zeitnahe, relevante Nachrichten in Ihren Journey zu senden.
-* **Automatisierte Datensynchronisation** - Halten Sie Kundeninformationen ohne manuelle Datenimporte auf dem neuesten Stand.
-* **Effiziente Workflows** - Einmal verbinden und dann automatisch Daten in Ihre Journey fließen lassen
+* **Einheitliche Kundenansicht** – Kombinieren Sie Daten aus mehreren Systemen, um ein vollständiges Bild jeder einzelnen Kundin und jedes einzelnen Kunden zu erhalten
+* **Personalisierung in Echtzeit** – Verwenden Sie aktuelle Daten, um zeitnahe und relevante Nachrichten in Ihren Journeys bereitzustellen
+* **Automatisierte Datensynchronisierung** – Halten Sie Kundeninformationen ohne manuelle Datenimporte stets auf dem neuesten Stand
+* **Effiziente Workflows** – Einmal verbunden, fließen die Daten automatisch in Ihre Journeys ein
 
-Beispielsweise können Sie mithilfe von Quellen den Kaufverlauf aus Ihrer E-Commerce-Plattform importieren und dann Journey erstellen, die basierend auf den Käufen personalisierte Produktempfehlungen senden.
+Sie können z. B. Quellen verwenden, um den Kaufverlauf aus Ihrer E-Commerce-Plattform zu importieren, und anschließend Journeys erstellen, die personalisierte Produktempfehlungen basierend auf den bisherigen Käufen der Kundinnen und Kunden senden.
 
-## Was Sie mit Quellen tun können {#sources-use-cases}
+## Möglichkeiten mit Quellen {#sources-use-cases}
 
 Häufige Anwendungsfälle für Quellen in Journey Optimizer sind:
 
-* **Kundendaten aus CRM-Systemen importieren** - Synchronisieren von Kontaktinformationen, Voreinstellungen und Interaktionsverlauf von Plattformen wie Salesforce oder Microsoft Dynamics
-* **Kaufdaten verbinden** - Binden Sie den Auftragsverlauf und die Produktvoreinstellungen von E-Commerce-Plattformen ein, um Angebote zu personalisieren
-* **Treueprogramm-Daten integrieren** - Zugreifen auf Punktestände und Stufeninformationen, um Ihre aktivsten Kunden zu belohnen
-* **Verhaltensdaten synchronisieren** - Importieren von Website-Interaktionen und App-Nutzungsmustern in Trigger-relevante Journey
-* **Aktualisieren von Profilattributen** - Halten Sie Kundenprofile mit Daten aus dem Cloud-Speicher oder Datenbanken auf dem neuesten Stand.
+* **Kundendaten aus CRM-Systemen importieren** –Synchronisieren Sie Kontaktinformationen, Voreinstellungen und den Interaktionsverlauf aus Plattformen wie Salesforce oder Microsoft Dynamics
+* **Kaufdaten verbinden** – Importieren Sie den Auftragsverlauf und die Produktvoreinstellungen aus E-Commerce-Plattformen, um Angebote zu personalisieren
+* **Daten aus dem Treueprogramm integrieren** – Greifen Sie auf Punktestände und Treuestufen zu, um Ihre treuesten Kundinnen und Kunden zu belohnen
+* **Verhaltensdaten synchronisieren** – Importieren Sie Website-Interaktionen und App-Nutzungsmuster, um relevante Journeys auszulösen
+* **Profilattribute aktualisieren** – Halten Sie Kundenprofile mit Daten aus dem Cloud-Speicher oder Datenbanken auf dem neuesten Stand
 
-## Allgemeine Quelltypen {#source-types}
+## Gängige Quelltypen {#source-types}
 
-Journey Optimizer unterstützt verschiedene Quelltypen für die Verbindung mit Ihren bestehenden Systemen:
+Journey Optimizer unterstützt verschiedene Quelltypen, um eine Verbindung zu Ihren bestehenden Systemen herzustellen:
 
-**Adobe-Programme:**
+**Adobe-Anwendungen:**
 * Adobe Analytics
 * Adobe Audience Manager
 * Adobe Campaign
 * Adobe Commerce
 
-**Cloud-Speicher:**
+**Cloud-Speicherplatz:**
 * Amazon S3
 * Azur Blob Storage
 * Google Cloud Storage
@@ -71,15 +71,15 @@ Journey Optimizer unterstützt verschiedene Quelltypen für die Verbindung mit I
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️ Die vollständige Liste finden Sie im [Experience Platform-Quellkatalog](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#sources-catalog){target="_blank"}
+➡️ Die vollständige Liste finden Sie im [Katalog für Experience Platform-Quellen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#sources-catalog){target="_blank"}
 
 ## Voraussetzungen {#prerequisites}
 
-Stellen Sie vor dem Konfigurieren von Quellen Folgendes sicher:
+Bevor Sie Quellen konfigurieren, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
-* **Entsprechende Berechtigungen** - Zugriff auf die Verwaltung von Quellen in Adobe Experience Platform
-* **Source-Systemanmeldeinformationen** - Authentifizierungsdetails für das externe System, das Sie verbinden möchten
-* **Verständnis Ihrer Daten** - Erfahren Sie, welche Datenfelder Sie benötigen und wie sie Journey Optimizer-Profilen zugeordnet sind
+* **Entsprechende Berechtigungen** – Zugriff zum Verwalten von Quellen in Adobe Experience Platform
+* **Anmeldedaten für das Quellsystem** – Authentifizierungsdetails für das externe System, das Sie verbinden möchten
+* **Kenntnis Ihrer Daten** – Wissen darüber, welche Datenfelder Sie benötigen und wie diese den Profilen in Journey Optimizer zugeordnet werden
 
 ➡️ Informationen zu [Zugriffssteuerung und Berechtigungen](../administration/permissions.md)
 
@@ -87,13 +87,13 @@ Stellen Sie vor dem Konfigurieren von Quellen Folgendes sicher:
 
 Adobe Journey Optimizer verwendet das Quellen-Framework von Adobe Experience Platform. Im Folgenden finden Sie den grundlegenden Workflow:
 
-1. **Connect** - Einrichten der Authentifizierung für Ihr externes Datensystem
-2. **Daten auswählen** - Wählen Sie aus, welche Daten importiert werden sollen und wie oft die Synchronisierung erfolgen soll.
-3. **Felder zuordnen** - Definieren, wie externe Datenfelder den Journey Optimizer-Profilattributen entsprechen
-4. **Zeitplan** - Einrichten automatischer Datenaktualisierungsintervalle
-5. **Überwachen** - Verfolgen des Datenflusses und Beheben von Synchronisierungsproblemen
+1. **Verbinden** – Richten Sie die Authentifizierung für Ihr externes Datensystem ein
+2. **Daten auswählen** – Wählen Sie aus, welche Daten importiert und wie oft sie synchronisiert werden sollen
+3. **Felder zuordnen** – Definieren Sie, wie externe Datenfelder den Profilattributen in Journey Optimizer entsprechen
+4. **Zeitplan festlegen** – Richten Sie Intervalle für die automatische Datenaktualisierung ein
+5. **Überwachen** – Verfolgen Sie den Datenfluss und beheben Sie etwaige Synchronisierungsprobleme
 
-Nach der Konfiguration werden Quellen automatisch im Hintergrund ausgeführt, sodass Ihre Kundendaten aktuell und für die Verwendung in Journey bereit sind.
+Nach der Konfiguration werden Quellen automatisch im Hintergrund ausgeführt, damit Ihre Kundendaten aktuell bleiben und für die Verwendung in Journeys bereitstehen.
 
 ## Weitere Informationen {#learn-more}
 
@@ -107,9 +107,9 @@ Detaillierte Informationen zum Konfigurieren und Verwalten von Quellen finden Si
 
 ## Nächste Schritte {#next-steps}
 
-Jetzt, da Sie verstehen, was Quellen sind und warum sie wichtig sind:
+Nachdem Sie nun wissen, was Quellen sind und warum sie wichtig sind:
 
-* Suchen Sie im [Quellkatalog](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#sources-catalog){target="_blank"} nach Connectoren für Ihre Systeme
-* Erfahren Sie, wie [&#x200B; eine Quellverbindung erstellen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
-* Verstehen von [Datenzuordnung und -umwandlung](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"}
-* Siehe „Verwenden [&#x200B; importierten Daten in Journey&quot;](../building-journeys/journey-gs.md)
+* Suchen Sie im [Quellenkatalog](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de#sources-catalog){target="_blank"} nach Connectoren für Ihre Systeme
+* Erfahren Sie, wie Sie eine [Quellverbindung erstellen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=de){target="_blank"}
+* Verstehen Sie [Datenzuordnung und -umwandlung](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=de){target="_blank"}
+* Erfahren Sie, wie Sie [importierte Daten in Journeys verwenden](../building-journeys/journey-gs.md)

@@ -9,15 +9,15 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3661'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Leitlinien und Einschränkungen {#limitations}
 
-Nachstehend finden Sie Leitplanken und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
+Unten finden Sie Leitlinien und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
 Berechtigungen, Produkteinschränkungen und Performance-Leitlinien sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 
@@ -44,7 +44,7 @@ Diese Änderung wird in einer nachfolgenden Phase in **bestehende Kunden-Sandbox
 
 ## Kanäle und Messaging {#channel-guardrails}
 
-In diesem Abschnitt werden Leitplanken für alle Kommunikationskanäle behandelt, einschließlich E-Mail, SMS, eingehende Kanäle (Web, In-App, Code-basiert, Inhaltskarten) und Transaktionsnachrichten.
+Dieser Abschnitt behandelt die Leitlinien für alle Kommunikationskanäle, einschließlich E-Mail, SMS, eingehenden Kanälen (Web, In-App, Code-basiert, Inhaltskarten) sowie Transaktionsnachrichten.
 
 >[!NOTE]
 >
@@ -118,9 +118,9 @@ Adobe empfiehlt, den TTL-Wert auf 14 Tage festzulegen, damit er mit der aktuell
 
 Journey Optimizer unterstützt ein Spitzenvolumen von 500 Transaktionsnachrichten pro Sekunde für Kampagnen.
 
-## Inhalt und Assets {#content-assets}
+## Inhalte und Assets {#content-assets}
 
-Dieser Abschnitt enthält Leitplanken für die Erstellung und Verwaltung von Inhalten, einschließlich Landingpages, Subdomains und Fragmenten.
+Dieser Abschnitt enthält Leitlinien für die Erstellung und Verwaltung von Inhalten, einschließlich Landingpages, Subdomains und Fragmenten.
 
 ### Schutzmechanismen für Landingpages {#lp-guardrails}
 
@@ -148,9 +148,9 @@ Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutz
 * Visuelle Fragmente sind zwischen den Modi „Designs verwenden“ und „Manuelle Formatierung“ nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Modus „Designs verwenden“ erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
 * Wenn in einer Journey oder Kampagne das Tracking aktiviert ist und Sie Links zu einem Fragment hinzufügen, das in einer Nachricht verwendet wird, werden diese Links ebenso wie alle anderen in der Nachricht enthaltenen Links nachverfolgt. [Weitere Informationen über Links und Tracking](../email/message-tracking.md)
 
-## Audiences und Profile {#audiences-profiles}
+## Zielgruppen und Profile {#audiences-profiles}
 
-In diesem Abschnitt werden Leitplanken für die Verwaltung von Zielgruppen, die Behandlung von Profilen und Überlegungen zu ansprechbaren Profilen behandelt.
+In diesem Abschnitt werden Leitlinien für die Verwaltung von Zielgruppen, die Behandlung von Profilen und Überlegungen zu ansprechbaren Profilen behandelt.
 
 ### Leitlinien für Zielgruppen und Profile {#audience}
 
@@ -166,14 +166,14 @@ In diesem Abschnitt werden Leitplanken für die Verwaltung von Zielgruppen, die 
 
 ### Leitlinien für die Entscheidungsfindung und das Entscheidungs-Management {#decisioning-guardrails}
 
-Leitplanken und Einschränkungen, die Sie bei der Arbeit mit dem Entscheidungs- oder Entscheidungs-Management beachten sollten, werden in den folgenden Abschnitten beschrieben:
+Leitlinien und Einschränkungen, die Sie bei der Arbeit mit der Entscheidungsfindung oder dem Entscheidungs-Management beachten sollten, werden in den folgenden Abschnitten zur Entscheidungsfindung und dem Entscheidungs-Management beschrieben:
 
 * [Leitlinien und Einschränkungen für die Entscheidungsfindung](../experience-decisioning/decisioning-guardrails.md)
 * [Schutzmechanismen und Einschränkungen für das Entscheidungs-Management](../offers/decision-management-guardrails.md)
 
 ## Journeys {#journeys-guardrails}
 
-In diesem Abschnitt werden Leitplanken und Einschränkungen für Journey beschrieben, einschließlich allgemeiner Journey-Einschränkungen, Journey-Komponenten (Aktionen, Ereignisse, Datenquellen), Journey-Aktivitäten und spezifischer Funktionen wie benutzerdefinierte Aktionen und Ausdruckseditor.
+In diesem Abschnitt werden Leitlinien und Einschränkungen für Journeys beschrieben, einschließlich allgemeiner Journey-Einschränkungen, Journey-Komponenten (Aktionen, Ereignisse, Datenquellen), Journey-Aktivitäten und spezifischer Funktionen wie benutzerdefinierten Aktionen und Ausdruckseditor.
 
 ### Allgemeine Limits für Journey {#journeys-guardrails-journeys}
 

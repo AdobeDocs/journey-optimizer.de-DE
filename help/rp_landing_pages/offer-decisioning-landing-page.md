@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-05-09
 badge: label="Legacy" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Mit dem Entscheidungs-Management in Adobe Journey Optimizer können Sie der rich
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit dem Entscheidungs-Management
 
@@ -35,7 +35,7 @@ Lernen Sie die Grundlagen des Entscheidungs-Managements kennen, einschließlich 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Erstellen und Verwalten von Entscheidungskomponenten
 
@@ -45,7 +45,7 @@ Erfahren Sie, wie Sie Platzierungen, Entscheidungsregeln und Sammlungskennzeichn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Erstellen und Optimieren von Ranglisten
 
@@ -55,7 +55,7 @@ Lernen Sie, wie Sie mithilfe von Formeln und KI-Modellen Ranglisten von Angebote
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Verwalten von Angeboten
 
@@ -65,7 +65,7 @@ Schrittweise Anleitungen zum Erstellen personalisierter Angebote, Fallback-Optio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Erstellen und Verwalten von Entscheidungen
 
@@ -75,7 +75,7 @@ Erfahren Sie, wie Sie mithilfe der Angebotsentscheidungs-Engine Entscheidungen f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Verwenden der Batch-Entscheidungsfindung
 
