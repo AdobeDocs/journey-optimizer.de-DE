@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
 
 Je nach ausgewähltem Kommunikationskanal stehen zusätzliche Einstellungen zur Verfügung. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
 
-+++**Anwenden von Begrenzungsregeln** (E-Mail, Direkt-Mail, Push, SMS)
++++**Anwenden von Begrenzungsregeln** (E-Mail, Push, SMS)
 
 Wählen Sie in der Dropdown-Liste **[!UICONTROL Geschäftsregeln]** einen Regelsatz aus, um Begrenzungsregeln auf Ihre Journey-Aktion anzuwenden. 
 

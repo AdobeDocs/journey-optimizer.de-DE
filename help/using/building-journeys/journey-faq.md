@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung, Orchestrierung
 version: Journey Orchestration
-source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '5233'
-ht-degree: 99%
+source-wordcount: '5231'
+ht-degree: 98%
 
 ---
 
@@ -225,7 +225,7 @@ Erfahren Sie mehr über [Bedingungen](condition-activity.md).
 
 +++ Kann ich Nachrichten an Profile in einer Journey senden?
 
-Ja. Es gibt **integrierte Kanalaktionen** in Journey Optimizer, mit denen Sie Nachrichten per E-Mail, Push-Benachrichtigungen, SMS/MMS/RCS, In-App-Nachrichten, Web-Erlebnisse, Code-basierte Erlebnisse, Direkt-Mail, Inhaltskarten, WhatsApp und LINE senden können. Sie können Nachrichteninhalte direkt in Journey Optimizer entwerfen und als Aktionsaktivitäten in Ihrer Journey hinzufügen.
+Ja. Journey Optimizer umfasst **integrierte Kanalaktionen** mit denen Sie Nachrichten per E-Mail, Push-Benachrichtigungen, SMS/MMS/RCS, In-App-Nachrichten, Web-Erlebnisse, Code-basierte Erlebnisse, Inhaltskarten, WhatsApp und LINE senden können. Sie können Nachrichteninhalte direkt in Journey Optimizer entwerfen und als Aktionsaktivitäten in Ihrer Journey hinzufügen.
 
 Bei Kanälen, die nativ nicht unterstützt werden, können Sie **benutzerdefinierte Aktionen** verwenden, um sie in externe Messaging-Plattformen zu integrieren und Nachrichten über einen beliebigen Drittanbieterkanal zu senden.
 

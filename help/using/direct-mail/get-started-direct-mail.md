@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '313'
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+workflow-type: tm+mt
+source-wordcount: '299'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ Die wichtigsten Schritte zum Senden von Briefpostnachrichten sind:
 
 * **[Erstellen von Direkt-Mail](create-direct-mail.md)** – Erfahren Sie, wie Sie Direkt-Mail-Sendungen erstellen und Extraktionsdateien für Offline-Kanäle konfigurieren.
 * **[Konfigurieren des Direkt-Mail-Kanals](direct-mail-configuration.md)** – Richten Sie Direkt-Mail-Oberflächen und Datei-Routing-Konfigurationen ein.
-* **[Direkt-Mail in Journeys](direct-mail-journeys.md)** – Erfahren Sie, wie Sie Direkt-Mail-Aktionen in Customer Journeys verwenden.
 * **[Testen und Senden von Direkt-Mail](test-send-direct-mail.md)** – Erfahren Sie, wie Sie Ihre Direkt-Mail-Sendungen testen, validieren und veröffentlichen.
 * **[Tutorials zu Direkt-Mail](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** – Erkunden Sie die schrittweisen Video-Tutorials zu den Funktionen von Direkt-Mail und Best Practices.
 
