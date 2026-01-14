@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 31%
+ht-degree: 98%
 
 ---
 
@@ -84,28 +84,28 @@ ht-degree: 31%
 >title="Kampagnen"
 >abstract="Senden Sie Transaktionsnachrichten an einzelne Profile oder Profilgruppen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigungen."
 
-Mit Adobe Journey Optimizer können Sie zielgerichtete einmalige Inhalte für bestimmte Zielgruppen kanalübergreifend bereitstellen. Mithilfe von Kampagnen können Sie gleichzeitig koordinierte Marketing-Aktionen ausführen und Ihre Zielgruppe mit der richtigen Botschaft zur richtigen Zeit erreichen.
+Adobe Journey Optimizer ermöglicht es Ihnen, zielgerichtete, einmalige Inhalte für bestimmte Zielgruppen über verschiedene Kanäle hinweg bereitzustellen. Mithilfe von Kampagnen können Sie koordinierte Marketing-Aktionen gleichzeitig durchführen und Ihre Zielgruppe mit der richtigen Botschaft zum richtigen Zeitpunkt erreichen.
 
-Dieses Handbuch bietet eine klare Roadmap, die Ihnen hilft, die Kampagnengrundlagen zu verstehen, den richtigen Kampagnentyp für Ihren Anwendungsfall auszuwählen und sicher Kampagnen zu entwerfen, die wirkungsvolle Kundenerlebnisse bieten.
+Dieses Handbuch bietet eine klare Roadmap, die Ihnen hilft, die Grundlagen von Kampagnen zu verstehen, den richtigen Kampagnentyp für Ihren Anwendungsfall auszuwählen und souverän Kampagnen zu entwerfen, die eindrucksvolle Kundenerlebnisse bieten.
 
 ## Was sind Kampagnen?
 
-**Kampagnen** sind koordinierte Marketing-Aktionen, die Inhalte für eine bestimmte Zielgruppe über einen oder mehrere Kanäle hinweg bereitstellen. Im Gegensatz zu Journey, bei denen Aktionen sequenziell ausgeführt werden, führen Kampagnen Aktionen gleichzeitig durch - entweder sofort oder nach einem definierten Zeitplan.
+**Kampagnen** sind koordinierte Marketing-Aktionen, die Inhalte für eine bestimmte Zielgruppe über einen oder mehrere Kanäle bereitstellen. Im Gegensatz zu Journeys, bei denen Aktionen sequenziell ausgeführt werden, führen Kampagnen Aktionen gleichzeitig durch – entweder sofort oder nach einem definierten Zeitplan.
 
 Verwenden Sie [!DNL Journey Optimizer] Kampagnen, um:
 
-* Bereitstellen **(einmaliger oder wiederkehrender Inhalte** für ausgewählte Zielgruppensegmente
-* Ausführen **koordinierten Multi-Channel-**) für E-Mail, Push, SMS, In-App, Web und mehr
-* Trigger **automatisierte Antworten** über API-Aufrufe für ereignisgesteuertes Messaging in Echtzeit
+* Bereitstellen **einmaliger oder wiederkehrender Inhalte** für ausgewählte Zielgruppensegmente
+* Ausführen **koordinierter Multi-Channel-Kommunikationen** über E-Mail, Push, SMS, In-App, Web und mehr
+* Auslösen **automatisierter Antworten** über API-Aufrufe für ereignisgesteuertes Messaging in Echtzeit
 * Entwerfen **komplexer Marketing-Workflows** mit visuellen Orchestrierungs-Tools
 
 ![](assets/gs-campaigns.png)
 
-➡️ **Bereit zum Bauen?** [Erstellen Sie Ihre erste Kampagne](create-campaign.md) in Minuten.
+➡️ **Bereit, mit dem Erstellen zu beginnen?** [Erstellen Sie Ihre erste Kampagne](create-campaign.md) in wenigen Minuten.
 
-## Kampagnentyp wählen {#campaign-types}
+## Auswählen des Kampagnentyps {#campaign-types}
 
-**Bevor Sie mit der Erstellung**, müssen Sie wissen, welcher Kampagnentyp für Ihren Anwendungsfall geeignet ist. Adobe Journey Optimizer unterstützt drei Kampagnentypen, die jeweils für verschiedene Szenarien und Aktivierungsmechanismen entwickelt wurden:
+**Bevor Sie mit der Erstellung beginnen**, müssen Sie wissen, welcher Kampagnentyp zu Ihrem Anwendungsfall passt. Adobe Journey Optimizer unterstützt drei Kampagnentypen, die jeweils für unterschiedliche Szenarien und Aktivierungsmechanismen konzipiert sind:
 
 ![](assets/campaign-modal.png)
 
@@ -115,57 +115,57 @@ Verwenden Sie [!DNL Journey Optimizer] Kampagnen, um:
 
 **Verwendung:** Komplexe, mehrstufige Marketing-Workflows
 
-**Orchestrierte Kampagnen** bieten eine visuelle Drag-and-Drop-Arbeitsfläche zum Entwerfen und Automatisieren komplexer Marketing-Workflows. Von der Zielgruppensegmentierung bis hin zum kanalübergreifenden Versand personalisierter Nachrichten erfolgt alles in einer intuitiven Umgebung, die für Geschwindigkeit und Kontrolle entwickelt wurde.
+**Orchestrierte Kampagnen** stellen eine visuelle Drag-and-Drop-Arbeitsfläche bereit, auf der komplexe Marketing-Workflows entworfen und automatisiert werden können. Von der Zielgruppensegmentierung bis hin zum kanalübergreifenden Versand personalisierter Nachrichten erfolgt alles in einer intuitiven Umgebung, die auf Geschwindigkeit und Kontrolle ausgelegt ist.
 
-**Perfekt für:** Mehrstufige Kundeninteraktions-Programme, komplexe Segmentierungs- und Targeting-Strategien, kanalübergreifende Orchestrierung von Kampagnen, markeninitiiertes Marketing in großem Maßstab und erweiterte Workflow-Automatisierung mit mehreren Entscheidungspunkten.
+**Ideal für:** Mehrstufige Kundeninteraktionsprogramme, komplexe Segmentierungs- und Targeting-Strategien, Cross-Channel-Kampagnenorchestrierung, markenkonformes Marketing im benötigten Umfang und erweiterte Workflow-Automatisierung mit mehreren Entscheidungspunkten.
 
 ➡️ [Erfahren Sie mehr über orchestrierte Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB Aktionskampagnen (geplant)]
 
-**Verwendung:** Einfache, geplante Batch-Kommunikation
+**Verwendung:** Einfache, geplante Batch-Nachrichten
 
-**Aktionskampagnen** (auch als geplante Kampagnen bezeichnet) eignen sich ideal für einfache, einmalige oder wiederkehrende Batch-Nachrichten, die zu einem bestimmten Zeitpunkt ausgeführt werden.
+**Aktionskampagnen** (auch als „geplante Kampagnen“ bezeichnet) eignen sich ideal für einfache, einmalige oder wiederkehrende Batch-Nachrichten, die zu einem bestimmten Zeitpunkt ausgeführt werden.
 
 **Zwei Kategorien:**
 
-* **Marketing** - Werbeangebote, Interaktionskampagnen, Mitteilungen, rechtliche Hinweise oder Richtlinienaktualisierungen. Erfordert, dass Empfängerinnen und Empfänger zugestimmt haben.
-* **Transaktion** - Störungen, Notfälle, Abbrüche. Erfordert keine Anmeldung.
+* **Marketing** – Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen. Erfordert, dass Empfängerinnen und Empfänger zugestimmt haben.
+* **Transaktion** – Störungen, Notfälle, Stornierungen. Erfordert kein Opt-in.
 
-**Perfekt für:** monatliche Newsletter an Kundensegmente, zeitkritische Werbeanzeigen, saisonale Marketing-Kampagnen, Mitteilungen über Produkteinführungen und Benachrichtigungen über Service-Unterbrechungen.
+**Ideal für:** Monatliche Newsletter an Kundensegmente, zeitkritische Werbeanzeigen, saisonale Marketing-Kampagnen, Mitteilungen zu Produkteinführungen und Benachrichtigungen über Service-Unterbrechungen.
 
 ➡️ [Erfahren Sie mehr über Aktionskampagnen](create-campaign.md)
 
 >[!TAB Durch API ausgelöste Kampagnen]
 
-**Verwendung:** Ereignisgesteuertes Echtzeit-Messaging mit externen Systemen
+**Verwendung:** Ereignisgesteuertes Messaging in Echtzeit mit externen Systemen
 
-**API-ausgelöste Kampagnen** werden über API-Aufrufe aktiviert, wodurch automatisiertes Messaging direkt von externen Systemen aus ermöglicht wird. Diese Kampagnen unterstützen die Personalisierung sowohl mithilfe von Profilattributen als auch anhand von Echtzeit-Kontextdaten aus der API-Payload.
+**Durch API ausgelöste Kampagnen** werden über API-Aufrufe aktiviert und ermöglichen automatisiertes Messaging direkt aus externen Systemen. Diese Kampagnen unterstützen die Personalisierung sowohl unter Verwendung von Profilattributen als auch von Echtzeit-Kontextdaten aus der API-Payload.
 
 **Zwei Kategorien:**
 
-* **Marketing** - Personalisierte Marketing-Kommunikation für ausgewählte Zielgruppen
-* **Transaktion** - Nachrichten nach einzelnen Aktionen (Zurücksetzen des Passworts, Warenkorbkäufe usw.)
+* **Marketing** – Personalisierte Marketing-Kommunikationen für ausgewählte Zielgruppen
+* **Transaktion** – Nachrichten, die auf einzelne Aktionen folgen (Passwortzurücksetzungen, Warenkorbkäufe usw.)
 
-**Perfekt für:** Bestätigungen zum Zurücksetzen des Kennworts, Wiederherstellung bei Warenkorbabbrüchen, Bestellbestätigungen und Versandaktualisierungen, Benachrichtigungen zu Kontoaktivitäten und personalisierte Empfehlungen in Echtzeit.
+**Ideal für:** Bestätigungen bei Passwortzurücksetzungen, Wiederherstellung bei Warenkorbabbrüchen, Bestellbestätigungen und Versandaktualisierungen, Benachrichtigungen über Kontoaktivitäten und personalisierte Empfehlungen in Echtzeit.
 
-➡️ [Erfahren Sie mehr über API-ausgelöste Kampagnen](api-triggered-campaigns.md)
+➡️ [Erfahren Sie mehr über durch API ausgelöste Kampagnen](api-triggered-campaigns.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->Nicht sicher, welcher Typ ausgewählt werden soll? Beginnen Sie mit **Aktionskampagnen** für geplante Batch-Nachrichten oder **API-ausgelöste Kampagnen** für Echtzeit-Messaging. Diese decken die häufigsten Anwendungsfälle ab.
+>Sie wissen nicht genau, welchen Typ sie wählen sollen? Beginnen Sie mit **Aktionskampagnen** für geplante Batch-Nachrichten oder **durch API ausgelösten Kampagnen** für Echtzeit-Messaging. Diese decken die häufigsten Anwendungsfälle ab.
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie mit Kampagnen arbeiten, stellen Sie Folgendes sicher:
+Stellen Sie vor der Arbeit mit Kampagnen sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-* **Audiences** - Audiences müssen in Adobe Experience Platform verfügbar sein, bevor sie erstellt werden können. [Erste Schritte mit Audiences →](../audience/about-audiences.md)
+* **Zielgruppen** – Zielgruppen müssen in Adobe Experience Platform verfügbar sein, bevor Kampagnen erstellt werden. [Erste Schritte mit Zielgruppen →](../audience/about-audiences.md)
 
-* **Kanalkonfigurationen** - Kanalkonfigurationen (Voreinstellungen) müssen erstellt und für die Kanäle verfügbar sein, die Sie verwenden möchten. [Einrichten von Kanalkonfigurationen →](../configuration/channel-surfaces.md)
+* **Kanalkonfigurationen** – Kanalkonfigurationen (Voreinstellungen) müssen erstellt werden und für die Kanäle verfügbar sein, die Sie verwenden möchten. [Einrichten von Kanalkonfigurationen →](../configuration/channel-surfaces.md)
 
-* **Berechtigungen** - Sie benötigen entsprechende Berechtigungen basierend auf dem Kampagnentyp. Wenden Sie sich an Ihren Administrator, wenn Sie nicht auf Campaign-Funktionen zugreifen können. [Erfahren Sie mehr über integrierte Rollen →](../administration/ootb-product-profiles.md)
+* **Berechtigungen** – Sie benötigen die entsprechenden Berechtigungen basierend auf dem Kampagnentyp. Wenden Sie sich an Ihre bzw. Ihren Admin, wenn Sie nicht auf Kampagnenfunktionen zugreifen können. [Informationen zu integrierten Rollen →](../administration/ootb-product-profiles.md)
 
   +++Liste der Kampagnenberechtigungen
 
@@ -178,7 +178,7 @@ Bevor Sie mit Kampagnen arbeiten, stellen Sie Folgendes sicher:
 
   +++Zuweisen von Kampagnenberechtigungen
 
-   1. Navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** im [!DNL Permissions] Produkt und wählen Sie eine der integrierten kampagnenbezogenen **[!UICONTROL Rollen]** aus.
+   1. Navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** im Produkt [!DNL Permissions] und wählen Sie eine der integrierten kampagnenbezogenen **[!UICONTROL Rollen]** aus.
 
    1. Klicken Sie auf der Registerkarte **[!UICONTROL Benutzer]** auf **[!UICONTROL Benutzer hinzufügen]**.
 
@@ -192,73 +192,73 @@ Bevor Sie mit Kampagnen arbeiten, stellen Sie Folgendes sicher:
 
 ## Workflow zur Kampagnenerstellung {#workflow}
 
-Der Aufbau erfolgreicher Kampagnen erfolgt nach einem klaren, wiederholbaren Prozess. Hier finden Sie Ihren Schritt-für-Schritt-Workflow:
+Das Erstellen erfolgreicher Kampagnen folgt einem klaren, wiederholbaren Prozess. Im Folgenden finden Sie den Schritt-für-Schritt-Workflow:
 
-+++&#x200B;1. Planung der Kampagne
++++&#x200B;1. Planen Ihrer Kampagne
 
-Bevor Sie beginnen, klären Sie Ihre Ziele:
+Klären Sie Ihre Ziele, bevor Sie beginnen:
 
-* **Was ist das Ziel?** (z. B. Konversionen fördern, die Interaktion steigern, Kunden benachrichtigen)
-* **Wer ist das Publikum?** (z. B. aus Adobe Experience Platform erstellen oder auswählen)
-* **Welcher Kampagnentyp passt?** (Siehe [Kampagnentypen](#campaign-types) oben)
-* **Welche Kanäle werden Sie verwenden?** (E-Mail, Push, SMS, In-App, Web usw.) → [Siehe Unterstützte Kanäle nach Kampagnentyp](../channels/gs-channels.md#channels)
-* **Wann sollte sie ausgeführt werden?** (sofort, geplant oder API-ausgelöst)
+* **Was ist das Ziel?** (z. B. Konversionen steigern, Interaktion erhöhen, Kundschaft benachrichtigen)
+* **Wer ist die Zielgruppe?** (z. B. in Adobe Experience Platform erstellen oder daraus auswählen)
+* **Welcher Kampagnentyp ist am besten geeignet?** (Siehe [Kampagnentypen](#campaign-types) oben)
+* **Welche Kanäle möchten Sie verwenden?** (E-Mail, Push, SMS, In-App, Web usw.) → Siehe [Unterstützte Kanäle nach Kampagnentyp](../channels/gs-channels.md#channels)
+* **Wann soll die Ausführung erfolgen?** (Sofort, geplant oder durch API ausgelöst)
 
 +++
 
 +++&#x200B;2. Konfigurieren der Kampagneneigenschaften
 
-Richten Sie die Grundlage Ihrer Kampagne ein:
+Legen Sie die Grundlage für Ihre Kampagne fest:
 
-1. **Benennen und beschreiben** zur einfachen Identifizierung Ihrer Kampagne
-2. **Kampagnentyp auswählen** (Aktion, API-ausgelöst oder orchestriert)
-3. **Wählen Sie Ihre Audience**
-4. **Priorität festlegen** bei Verwendung des Konflikt-Managements
-5. **Zeitplan konfigurieren** (für Aktionskampagnen) oder API-Details (für API-ausgelöste)
+1. **Benennen und beschreiben** Sie Ihre Kampagne zur einfachen Identifizierung
+2. **Wählen Sie den Kampagnentyp aus** (Aktion, durch API ausgelöst oder orchestriert)
+3. **Wählen Sie Ihre Zielgruppe aus**
+4. **Legen Sie die Priorität fest**, falls Sie das Konflikt-Management nutzen
+5. **Konfigurieren Sie den Zeitplan** (für Aktionskampagnen) oder die API-Details (für durch API ausgelöste Kampagnen)
 
-**Typspezifische Handbücher:** [Kampagneneigenschaften](campaign-properties.md) | [API-ausgelöste Kampagneneigenschaften](api-triggered-campaign-properties.md) | [Orchestrierte Kampagneneinrichtung](../orchestrated/create-orchestrated-campaign.md)
+**Typspezifische Handbücher:** [Eigenschaften von Aktionskampagnen](campaign-properties.md) | [Eigenschaften von durch API ausgelösten Kampagnen](api-triggered-campaign-properties.md) | [Einrichten orchestrierter Kampagnen](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
 +++&#x200B;3. Gestalten von Inhalten
 
-Erstellen Sie überzeugende Botschaften für Ihre Zielgruppe:
+Erstellen Sie überzeugende Nachricht für Ihre Zielgruppe:
 
-* Verwenden von **E-Mail-Designer** für umfassende E-Mail-Erlebnisse
-* Konfigurieren **Push-Benachrichtigungen** mit Bildern und Deep-Links
-* Gestalten **SMS/MMS-Nachrichten** mit Personalisierung
-* Erstellen **In-App**- und **Web** Erlebnissen
-* Hinzufügen **Personalisierung** mithilfe von Profilattributen und kontextuellen Daten
+* Verwenden Sie den **E-Mail-Designer** für hochwertige E-Mail-Erlebnisse
+* Konfigurieren Sie **Push-Benachrichtigungen** mit Bildern und Deep-Links
+* Gestalten Sie **SMS/MMS-Nachrichten** mit Personalisierung
+* Erstellen Sie **In-App-** und **Web-** Erlebnisse
+* Fügen Sie **Personalisierungen** mithilfe von Profilattributen und kontextuellen Daten hinzu
 
-**Typspezifische Handbücher:** [Kampagneninhalt](campaign-content.md) | [API-ausgelöste Kampagneninhalte](api-triggered-campaign-content.md) | [Orchestrierte Kampagneninhalte](../orchestrated/create-orchestrated-campaign.md)
+**Typspezifische Handbücher:** [Inhalte für Aktionskampagnen](campaign-content.md) | [Inhalte für durch API ausgelöste Kampagnen](api-triggered-campaign-content.md) | [Inhalte für orchestrierte Kampagnen](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
-+++&#x200B;4. Überprüfung und Test
++++&#x200B;4. Überprüfen und Testen
 
 Überprüfen Sie Ihre Kampagne immer vor der Aktivierung:
 
-* **Vorschau von** mit Testprofilen
-* **Zielgruppenbestimmung überprüfen** um die richtige Zielgruppe sicherzustellen.
-* **Überprüfen der**- und Aktivierungseinstellungen
-* **Genehmigung anfordern** bei Verwendung des Genehmigungs-Workflows
-* **Zustellbarkeit testen** mit Testadressenlisten
+* **Erstellen Sie eine Vorschau von Inhalten** mit Testprofilen
+* **Überprüfen Sie das Targeting**, um die richtige Zielgruppe sicherzustellen
+* **Verifizieren Sie den Zeitplan** und die Aktivierungseinstellungen
+* **Fordern Sie die Genehmigung an**, falls Sie den Genehmigungs-Workflow verwenden
+* **Testen Sie die Zustellbarkeit** mit Testadressenlisten
 
-**Typspezifische Handbücher:** [Aktionskampagnen überprüfen](review-activate-campaign.md) | [API-ausgelöste Kampagnen überprüfen](review-activate-api-triggered-campaign.md) | [Überprüfen von orchestrierten Kampagnen](../orchestrated/create-orchestrated-campaign.md)
+**Typspezifische Handbücher:** [Überprüfen von Aktionskampagnen](review-activate-campaign.md) | [Überprüfen von durch API ausgelösten Kampagnen](review-activate-api-triggered-campaign.md) | [Überprüfen von orchestrierten Kampagnen](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
-+++&#x200B;5. Aktivieren der Kampagne
++++&#x200B;5. Aktivieren Ihrer Kampagne
 
-Aktivieren Sie nach Abschluss der Überprüfung Ihre Kampagne:
+Aktivieren Sie Ihre Kampagne nach Abschluss der Überprüfung:
 
-* **Manuelle Aktivierung** - Die Aktivierung erfolgt sofort oder zum geplanten Zeitpunkt
-* **API-**: Verwenden Sie für API-ausgelöste Kampagnen den Aktivierungsendpunkt .
-* **Genehmigungsprozess** - Warten Sie bei Bedarf auf die Genehmigung durch die Stakeholder
+* **Manuelle Aktivierung** – Aktivieren Sie die Kampagne sofort oder zum geplanten Zeitpunkt
+* **Aktivierung durch API** – Verwenden Sie bei durch API ausgelösten Kampagnen den Aktivierungsendpunkt
+* **Genehmigungsprozess** – Falls erforderlich, warten Sie auf die Genehmigung durch die Stakeholder
 
-Hinweis: Aktive Kampagnen können nicht bearbeitet werden (Sie müssen sie duplizieren, um Änderungen vorzunehmen)
+Hinweis: Aktive Kampagnen können nicht bearbeitet werden (Sie müssen diese duplizieren, um Änderungen vorzunehmen)
 
-**Typspezifische Handbücher:** [Aktivieren von Aktionskampagnen](review-activate-campaign.md) | [API-ausgelöste Kampagnen aktivieren](review-activate-api-triggered-campaign.md) | [Aktivieren von orchestrierten Kampagnen](../orchestrated/create-orchestrated-campaign.md)
+**Typspezifische Handbücher:** [Aktivieren von Aktionskampagnen](review-activate-campaign.md) | [Aktivieren von durch API ausgelösten Kampagnen](review-activate-api-triggered-campaign.md) | [Aktivieren von orchestrierten Kampagnen](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -266,13 +266,13 @@ Hinweis: Aktive Kampagnen können nicht bearbeitet werden (Sie müssen sie dupli
 
 Verfolgen Sie die Leistung Ihrer Kampagne:
 
-* Anzeigen von Kampagnenberichten und Analysen
-* Überwachen von Versandraten und Interaktionsmetriken
-* Tracking von Fehlern und Bounces
-* Konversionen und ROI analysieren
-* Verwenden von Einblicken für die Optimierung
+* Zeigen Sie Kampagnenberichte und Analysen an
+* Überwachen Sie die Versandraten und Interaktionsmetriken
+* Verfolgen Sie Fehlern und Bounces nach
+* Analysieren Sie Konversion und ROI
+* Verwenden Sie Erkenntnisse zur Optimierung
 
-**Typspezifische Handbücher:** [Aktionskampagnenberichte](../reports/campaign-global-report-cja.md) | [API-ausgelöste Kampagnenüberwachung](api-triggered-campaigns.md#monitor) | [Orchestrierte Kampagnenanalyse](../orchestrated/create-orchestrated-campaign.md)
+**Typspezifische Handbücher:** [Berichte für Aktionskampagnen](../reports/campaign-global-report-cja.md) | [Monitoring für durch API ausgelöste Kampagnen](api-triggered-campaigns.md#monitor) | [Analyse für orchestrierte Kampagnen](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -286,62 +286,62 @@ Nachdem Sie nun mit Kampagnen in [!DNL Journey Optimizer] vertraut sind, wählen
 <td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Orchestrierte Kampagnen</a></td>
 </tr></table>
 
-Entdecken Sie die folgenden leistungsstarken Funktionen, während Sie sich mit Kampagnen vertraut machen:
+Sobald Sie mit Kampagnen vertrauter sind, erkunden Sie diese leistungsstarken Funktionen:
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planung und Timing**
 
-Sie können Kampagnen für bestimmte Daten/Zeiten planen, wiederkehrende Sendungen festlegen und die Versandzeiten optimieren, um eine maximale Wirkung zu erzielen. (Aktion und API-ausgelöste Kampagnen)
+Planen Sie Kampagnen für bestimmte Daten/Uhrzeiten, legen Sie wiederkehrende Sendungen fest und optimieren Sie die Versandzeiten für maximale Wirkung. (Aktions- und durch API ausgelöste Kampagnen)
 
-[Informationen zur Zeitplanung](campaign-schedule.md)
+[Informationen zur Planung](campaign-schedule.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-**Ratenkontrolle**
+**Ratensteuerung**
 
-Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundenunterstützungsplattformen zu verhindern. (Aktion und API-ausgelöste Kampagnen)
+Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Plattformen für die Kundenunterstützung zu verhindern. (Aktions- und durch API ausgelöste Kampagnen)
 
-[Limits für Kontrollsätze](create-campaign.md)
+[Ratenbegrenzungen steuern](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Zielgruppen-Targeting**
 
-Targeting bestimmter Adobe Experience Platform-Zielgruppen mit Präzision und dynamische Verwaltung von Zielgruppenqualifikationen.
+Sprechen Sie bestimmte Adobe Experience Platform-Zielgruppen präzise an und verwalten Sie Qualifikationen für die Zielgruppe dynamisch.
 
-[Auswählen der Kampagnenzielgruppe](campaign-audience.md)
+[Zielgruppe einer Kampagne auswählen](campaign-audience.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Genehmigungs-Workflows**
 
-Implementieren Sie Prüfungs- und Genehmigungsprozesse, bevor Kampagnen live gehen, um Qualität und Compliance sicherzustellen. (Aktion und API-ausgelöste Kampagnen)
+Implementieren Sie Überprüfungs- und Genehmigungsprozesse, bevor Sie Kampagnen live schalten, um Qualität und Compliance sicherzustellen. (Aktions- und durch API ausgelöste Kampagnen)
 
-[Überprüfen und aktivieren](review-activate-campaign.md)
+[Prüfen und aktivieren](review-activate-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
-**Ruhige Stunden**
+**Ruhezeiten**
 
-Berücksichtigung der Kundenpräferenzen durch Vermeidung des Nachrichtenversands innerhalb bestimmter Zeitfenster (Aktion und API-ausgelöste Kampagnen)
+Respektieren Sie Kundenpräferenzen, indem Sie den Versand von Nachrichten innerhalb festgelegter Zeitfenster vermeiden. (Aktions- und durch API ausgelöste Kampagnen)
 
-[Konfigurieren von ruhigen Stunden](quiet-hours.md)
+[Ruhezeiten konfigurieren](quiet-hours.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimierung**
 

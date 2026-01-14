@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 98%
       + [Suchen, Filtern und Organisieren](using/start/search-filter-categorize.md)
       + [KI und intelligente Funktionen](using/start/ai-features.md)
       + [Barrierefreiheit](using/start/accessibility.md)
-      + [Journey im Vergleich zu Kampagnen](using/start/journeys-vs-campaigns.md)
+      + [Journeys im Vergleich zu Kampagnen](using/start/journeys-vs-campaigns.md)
 + Journeys {#orchestrate-journeys}
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)
    + [Journey - Erste Schritte](using/building-journeys/journey-get-started.md)
-   + [Journey-Typen und Auswahlhilfe](using/building-journeys/journey-types-selection.md)
+   + [Journey-Typen und Auswahlrichtlinien](using/building-journeys/journey-types-selection.md)
    + [Häufig gestellte Fragen zur Journey-Orchestrierung](using/building-journeys/journey-faq.md)
    + Erstellen einer Journey {#create-journey}
       + [Erstellen einer Journey](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -60,7 +60,7 @@ ht-degree: 98%
       + [Festlegen der Journey-Eigenschaften](using/building-journeys/journey-properties.md)
       + [Konfigurieren und Verfolgen der Journey-Metriken](using/building-journeys/success-metrics.md)
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
-      + [Journey testen](using/building-journeys/testing-the-journey.md)
+      + [Journeys testen](using/building-journeys/testing-the-journey.md)
       + [Journey-Probelauf](using/building-journeys/journey-dry-run.md)
       + [Veröffentlichen Ihrer Journey](using/building-journeys/publish-journey.md)
       + [Pausieren einer Journey](using/building-journeys/journey-pause.md)
@@ -221,7 +221,7 @@ ht-degree: 98%
    + [Testen, Validieren und Genehmigen](/help/rp_landing_pages/test-landing-page.md)
    + Vorschau und Testen der Inhalte {#preview-test}
       + [Vorschau und Testen der Inhalte](/help/rp_landing_pages/preview-test-landing-page.md)
-      + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
+      + [Erste Schritte mit Vorschau und Tests](using/content-management/preview-test.md)
       + [Auswählen von Testprofilen](using/content-management/test-profiles.md)
       + [Vorschau mit Testprofilen](using/content-management/preview.md)
       + [Durchführen von Testsendungen mit Testprofildaten](using/content-management/proofs.md)
@@ -236,7 +236,7 @@ ht-degree: 98%
       + [Anfragen einer Genehmigung](using/test-approve/request-approval.md)
       + [Genehmigen einer Anfrage](using/test-approve/review-approve-request.md)
 + Monitoring und Fehlerbehebung {#monitor}
-   + [Erste Schritte mit Überwachung und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+   + [Erste Schritte mit Monitoring und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [Tracking in Journey Optimizer](using/start/get-started-tracking.md)
    + Zustellbarkeit von E-Mails {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
@@ -647,8 +647,8 @@ ht-degree: 98%
          + [Erstellen von Entscheidungselementen](using/experience-decisioning/items.md)
          + [Verwalten von Elementsammlungen](using/experience-decisioning/collections.md)
       + [Erstellen von Entscheidungsregeln](using/experience-decisioning/rules.md)
-      + Erstellen von Ranglisten {#experience-decisioning-rankings}
-         + [Erstellen von Ranglisten](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
+      + Erstellen von Rankings {#experience-decisioning-rankings}
+         + [Erstellen von Rankings](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
          + [Erstellen von Rangfolgenmethoden](using/experience-decisioning/ranking/ranking.md)
          + [Verwenden des KI-Formel-Builder](using/experience-decisioning/ranking/ranking-formulas.md)
          + KI-Modelle {#experience-decisioning-ai-models}
@@ -688,8 +688,8 @@ ht-degree: 98%
          + [Erstellen von Platzierungen](using/offers/offer-library/creating-placements.md)
          + [Erstellen von Entscheidungsregeln](using/offers/offer-library/creating-decision-rules.md)
          + [Erstellen von Sammlungsqualifizierern](using/offers/offer-library/creating-tags.md)
-      + Erstellen von Ranglisten {#rankings}
-         + [Erstellen von Ranglisten](/help/rp_landing_pages/rankings-landing-page.md)
+      + Erstellen von Rankings {#rankings}
+         + [Erstellen von Rankings](/help/rp_landing_pages/rankings-landing-page.md)
          + [Erste Schritte mit Rankings](using/offers/ranking/get-started-rankings.md)
          + [Rangfolgenformeln](using/offers/ranking/create-ranking-formulas.md)
          + KI-Modelle {#ai-models}
@@ -730,7 +730,7 @@ ht-degree: 98%
       + Exportieren des Angebotskatalogs {#export-catalog}
          + [Exportieren des Angebotskatalogs](/help/rp_landing_pages/export-catalog-landing-page.md)
          + [Erste Schritte mit dem Exportieren eines Angebotskatalogs](using/offers/export-catalog/get-started-export.md)
-         + [Zugriff auf den exportierten Angebotskatalog](using/offers/export-catalog/access-dataset.md)
+         + [Auf den exportierten Angebotskatalog zugreifen](using/offers/export-catalog/access-dataset.md)
          + [Datensatz für personalisierte Angebote](using/offers/export-catalog/export-offers.md)
          + [Entscheidungsdatensatz](using/offers/export-catalog/export-decisions.md)
          + [Platzierungsdatensatz](using/offers/export-catalog/export-placements.md)
@@ -825,8 +825,8 @@ ht-degree: 98%
                   + [Erstellen einer Entscheidung](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
                   + [Aktualisieren von Entscheidungen](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                   + [Löschen von Entscheidungen](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
-         + Unterbreiten von Angeboten mithilfe von APIs {#offer-delivery-api}
-            + [Unterbreiten von Angeboten mithilfe von APIs](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
+         + Bereitstellen von Angeboten mithilfe von APIs {#offer-delivery-api}
+            + [Bereitstellen von Angeboten mithilfe von APIs](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
             + [Erste Schritte mit APIs für den Angebotsversand](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
             + [Decisioning-API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge Decisioning-API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
