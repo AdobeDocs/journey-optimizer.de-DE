@@ -45,7 +45,7 @@ Erfahren Sie, wie Sie den exportierten Angebotskatalog in Adobe Experience Platf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Referenz zum Datensatz für personalisierte Angebote
 
@@ -55,7 +55,7 @@ Erkunden Sie die Felder und das hierarchische Schema des Datensatzes für person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Überblick über den Entscheidungsdatensatz
 

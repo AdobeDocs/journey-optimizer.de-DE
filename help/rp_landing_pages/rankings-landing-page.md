@@ -35,7 +35,7 @@ Erfahren Sie mehr über die Grundlagen von Ranglisten in Adobe Journey Optimizer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen und Verwenden von Ranglistenformeln
 
@@ -45,7 +45,7 @@ Folgen Sie den schrittweisen Anweisungen, um Ranglistenformeln mithilfe der PQL-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 KI-Modelle für das Ranking von Angeboten
 

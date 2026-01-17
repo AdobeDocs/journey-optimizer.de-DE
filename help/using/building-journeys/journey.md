@@ -83,7 +83,7 @@ Wählen Sie aus, wie Kundinnen und Kunden eintreten: über ein Ereignis, ein Zie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 **Nachrichten senden**
 
@@ -93,7 +93,7 @@ Verwenden Sie integrierte Kanalaktionen für E-Mail, Push, SMS/MMS, In-App, Web 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 **Logik und Bedingungen hinzufügen**
 
@@ -123,7 +123,7 @@ Erstellen Sie benutzerdefinierte Aktionen, um Drittanbietersysteme für den Vers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 **Orchestrierungsaktivitäten hinzufügen**
 
@@ -214,7 +214,7 @@ Lernen Sie aus Praxisbeispielen, die zeigen, wie sich Journey-Konzepte zur Lösu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 **Neue Abonnierende willkommen heißen**
 
@@ -224,7 +224,7 @@ Wenn sich eine Kundin oder ein Kunde für Ihren Service anmeldet, lösen Sie ein
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
 
 **Versandzeitoptimierung**
 
@@ -244,7 +244,7 @@ Erhöhen Sie das Nachrichtenvolumen schrittweise, um Ihre Reputation beim Versan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 **Targeting nach Wochentag**
 
@@ -254,7 +254,7 @@ Senden Sie unterschiedliche Inhalte basierend auf dem Wochentag, an dem Kundinne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 **Multi-Channel-Kampagnen**
 

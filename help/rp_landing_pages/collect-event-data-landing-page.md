@@ -45,7 +45,7 @@ Folgen Sie den schrittweisen Anweisungen, um einen Datensatz und ein Schema für
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren der Ereignisdatenerfassung für das Entscheidungs-Management
 

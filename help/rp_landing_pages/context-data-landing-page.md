@@ -25,7 +25,7 @@ Kontextdaten ermöglichen es Adobe Journey Optimizer, intelligentere, stärker p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit Kontextdaten
 

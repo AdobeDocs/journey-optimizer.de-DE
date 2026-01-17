@@ -36,7 +36,7 @@ Erfahren Sie, wie Sie personalisierte Inhalte mithilfe von Testprofilen, E-Mail-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Validierungs-Workflows für Journeys und Kampagnen
 
@@ -46,7 +46,7 @@ Erfahren Sie, wie Sie Validierungsprozesse einrichten, verwalten und ausführen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Testen der Journey
 
@@ -56,7 +56,7 @@ Validieren Sie Ihre Journey vor der Veröffentlichung, indem Sie sie mit bestimm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Journey-Probelauf
 
@@ -66,7 +66,7 @@ Führen Sie einen Probelauf durch, um Ihren Journey-Ausführungspfad zu simulier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Monitoring und Fehlerbehebung
 
@@ -76,7 +76,7 @@ Zugriff auf umfassende Ressourcen zur Fehlerbehebung, Systemwarnungen und Fehler
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
 
 Personalisierungs-Playground
 
@@ -86,7 +86,7 @@ Experimentieren Sie mit Personalisierungsausdrücken in einer sicheren Umgebung.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Inhaltsexperimente und A/B-Tests
 
@@ -96,7 +96,7 @@ Optimieren Sie Ihre Kampagnen, indem Sie mehrere Inhaltsvarianten testen und die
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 Testadressenlisten für Stakeholder-Monitoring
 
@@ -106,7 +106,7 @@ Schließen Sie automatisch die Adressen interner Stakeholder in Sendungen ein, u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
 
 Konflikterkennung
 

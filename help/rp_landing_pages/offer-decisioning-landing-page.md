@@ -25,7 +25,7 @@ Mit dem Entscheidungs-Management in Adobe Journey Optimizer können Sie der rich
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit dem Entscheidungs-Management
 
@@ -35,7 +35,7 @@ Lernen Sie die Grundlagen des Entscheidungs-Managements kennen, einschließlich 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Erstellen und Verwalten von Entscheidungskomponenten
 
@@ -65,7 +65,7 @@ Schrittweise Anleitungen zum Erstellen personalisierter Angebote, Fallback-Optio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Erstellen und Verwalten von Entscheidungen
 
@@ -75,7 +75,7 @@ Erfahren Sie, wie Sie mithilfe der Angebotsentscheidungs-Engine Entscheidungen f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Verwenden der Batch-Entscheidungsfindung
 
