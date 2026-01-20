@@ -7,9 +7,9 @@ feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 76a970f4edf0cef3fc15ab69c78ef46fbb0497c7
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1676'
 ht-degree: 4%
 
 ---
@@ -66,7 +66,21 @@ Klicken Sie auf das Symbol KI-Assistent in der oberen Leiste, um das Bedienfeld 
 
 Aufbauend auf den Gesprächsfunktionen des KI-Assistenten bietet Adobe Journey Optimizer spezialisierte KI-Agenten, die tiefgründige Analysen und umsetzbare Empfehlungen für die Journey-Optimierung und das Experimentieren bereitstellen.
 
-### Journey Analyze Agent {#journey-agent}
+### Journey Agent {#journey-agent}
+
+Journey Agent umfasst zwei Kenntnisse im KI-Assistenten: Analysieren und Erstellen. Verwenden Sie sie, um bestehende Journey zu optimieren oder neue anhand von Eingabeaufforderungen in natürlicher Sprache zu erstellen.
+
++++**Berechtigungen erforderlich**
+
+* **Journey anzeigen** - Einblicke in Journey direkt im KI-Assistenten anzeigen
+* **Journey verwalten** - Erstellen Sie neue Journey direkt im KI-Assistenten
+* **Segmente anzeigen** - Einblicke in Zielgruppen anzeigen und vorhandene Zielgruppen suchen
+* **Segmente verwalten** - Erstellen neuer Zielgruppen direkt im KI-Assistenten
+* **Anzeigen von Journey-Ereignissen, Datenquellen und Aktionen** - Erforderlich für die Fähigkeit zum Erstellen, um Journey-Ereignisse und benutzerdefinierte Aktionen zu suchen
+
++++
+
+#### Journey Analyze Skill {#journey-analyze-skill}
 
 Der [Journey Analyze Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} unterstützt Sie bei der Optimierung der Journey-Leistung durch eine Analyse in natürlicher Sprache:
 
@@ -88,12 +102,27 @@ Der [Journey Analyze Agent](https://experienceleague.adobe.com/de/docs/experienc
 
 +++
 
-+++**Berechtigungen erforderlich**
++++
 
-* **Journey anzeigen** - Einblicke in Journey direkt im KI-Assistenten anzeigen
-* **Journey verwalten** - Erstellen Sie neue Journey direkt im KI-Assistenten
-* **Segmente anzeigen** - Einblicke in Zielgruppen anzeigen
-* **Segmente verwalten** - Erstellen neuer Zielgruppen direkt im KI-Assistenten
+#### Journey Create SKILL {#journey-create-skill}
+
+Mit dem [Journey Create Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
+
++++**Schlüsselfunktionen**
+
+* **Natural Language Journey Creation** - Beschreiben Sie Ihre gewünschte Journey und lassen Sie sie automatisch erstellen
+* **Ereignis- und zielgruppenbasierte Starts** - Erstellen von ereignisausgelösten, zielgruppenbasierten, Geschäftsereignis- oder Zielgruppen-Qualifizierungs-Journey
+* **Bedingte Logik** - Aufspaltungspfade basierend auf Kundenattributen oder -verhalten erstellen
+* **Multi-Channel-**: Hinzufügen von E-Mail-, Push- und SMS-Aktionen
+* **Planung** - Konfigurieren des Startdatums und des Zeitplans zwischen Schritten
+
++++
+
++++**Beispielaufforderungen**
+
+* „Erstellen Sie eine Journey, die gestartet wird, wenn ein Kunde einen Kauf online tätigt und eine Dankes-Push-Benachrichtigung sendet.“
+* „Erstellen Sie eine Journey mit drei E-Mails über einen Zeitraum von zwei Wochen, beginnend mit 12/20.“
+* „Erstellen Sie eine Journey, die gestartet wird, wenn ein Benutzer meinen Speicherort eingibt, und nachverfolgt, je nachdem, ob er über eine gültige E-Mail-Adresse verfügt.“
 
 +++
 
@@ -132,7 +161,7 @@ Der [Experimentationsagent](https://experienceleague.adobe.com/de/docs/experienc
 
 ### Zusätzliche KI-Agenten
 
-**Audience Agent** - Für die konversative Audience-Exploration und -Verwaltung in Adobe Experience Platform, einschließlich Duplikaterkennung und Größenverfolgung. [Erfahren Sie mehr über Audience Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - Für die konversative Audience-Exploration und -Verwaltung in Adobe Experience Platform, einschließlich Duplikaterkennung und Größenverfolgung. [Erfahren Sie mehr über Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
 **Agent Orchestrator** - Koordiniert mehrere spezialisierte Agenten, um komplexe, mehrstufige Marketing-Herausforderungen zu lösen. Der Orchestrator bestimmt automatisch, welche Agenten beteiligt werden sollen, und sequenziert ihre Arbeit effizient. [Erfahren Sie mehr über Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
@@ -241,7 +270,7 @@ Durchsuchen Sie Journey Optimizer-Playbooks nach gängigen Szenarien wie:
 
 +++
 
-[Alle verfügbaren Playbooks anzeigen](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=de){target="_blank"} | [Weitere Informationen finden Sie in der Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=de){target="_blank"}
+[Alle verfügbaren Playbooks anzeigen](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=de){target="_blank"} | [Weitere Informationen finden Sie in der Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Zusätzliche KI-Funktionen {#additional-capabilities}
 
@@ -264,6 +293,7 @@ Bewerten Sie, wie gut Ihre Inhalte mit Ihren Markenrichtlinien übereinstimmen, 
 * **[KI-Assistent für die Inhaltserstellung](#content-generation)** - Erfordert die Berechtigung „Inhalt generieren“
 * **[KI-Assistent](#ai-assistant)** Produktwissen - Erfordert Zustimmung zu den Adobe Generative AI-Benutzerrichtlinien
 * **[Journey Analyze Agent](#journey-agent)** - Erfordert die Berechtigungen &quot;Journey anzeigen/verwalten“ und „Segmente anzeigen/verwalten“
+* **[Journey-Erstellungsagent](#journey-create-agent)** - Erfordert die Berechtigungen Journey verwalten, Journey-Ereignisse/Datenquellen/Aktionen anzeigen, Segmente anzeigen und Segmente verwalten
 * **[Experimentationsagent](#experimentation-agent)**: Erfordert die Berechtigungen „Experimente anzeigen“ und „Experimentmetadaten verwalten“
 
 Alle KI-Agenten benötigen Zugriff auf den KI-Assistenten und stimmen den Adobe Experience Cloud Generative AI-Benutzerrichtlinien zu.
