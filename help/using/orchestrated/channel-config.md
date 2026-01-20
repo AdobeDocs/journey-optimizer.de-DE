@@ -4,10 +4,10 @@ product: journey optimizer
 title: Konfigurieren der Kanalkonfiguration
 description: Informationen zum Konfigurieren der Kanalkonfiguration
 version: Campaign Orchestration
-source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
+source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 82%
 
 ---
 
@@ -66,3 +66,25 @@ So konfigurieren Sie die Kanalkonfiguration:
 1. Klicken Sie nach der Konfiguration auf **[!UICONTROL Speichern]**.
 
 Ihr Kanal kann jetzt mit **orchestrierten Kampagnen** verwendet werden. Nachrichten werden dabei entsprechend der ausgewählten Zielgruppendimension versendet.
+
+## URL-Tracking-Parameter {#url-tracking}
+
+Bei der Konfiguration Ihrer Kanalkonfiguration können Sie URL-Tracking-Parameter definieren, um die Leistung Ihrer E-Mail-Kampagnen zu überwachen, indem Sie Metadaten an Ihre verfolgten Links anhängen - zu Analyse- und Berichtszwecken.
+
+Dazu stehen kontextuelle Attribute, die für orchestrierte Kampagnen spezifisch sind, unter Verwendung der `{{context.system.source.*}}`-Syntax zur Verfügung:
+
+* **`context.system.source.id`**: Orchestrierte Kampagnen-ID
+* **`context.system.source.name`**: Name der orchestrierten Kampagne
+* **`context.system.source.versionId`**: Orchestrierte Kampagnenversions-ID
+* **`context.system.source.actionId`**: Kennung des Kanalaktionsknotens
+* **`context.system.source.actionName`**: Knotenname der Kanalaktion
+* **`context.system.source.channel`**: Kanaltyp (E-Mail, SMS, Push)
+* **`context.system.IdentityNamespace`**: Verwendeter Identity-Namespace
+
+Beispiel:
+
+```
+www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}
+```
+
+Weitere Informationen zu URL-Tracking-Parametern finden [ in diesem Abschnitt](../email/url-tracking.md).
