@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Ausdruck, Editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
-workflow-type: ht
-source-wordcount: '848'
-ht-degree: 100%
+source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 95%
 
 ---
 
@@ -41,6 +41,8 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 * **Schematyp**: Datensätze müssen mit einem Schema verknüpft sein, das **NICHT** vom Typ „Profil“ oder „Ereignis“ ist.
 
 * **Ständig aktivierte Suchoption**: Vermeiden Sie die wiederholte Aktivierung und Deaktivierung von Datensätzen. Dies kann zu unerwartetem Indizierungsverhalten führen. Es empfiehlt sich, den Datensatz so lange aktiviert zu lassen, wie Sie ihn für Suchen verwenden möchten.
+
+* **Edge-Aktivierungsregion** - Datensätze, die für die Suche aktiviert sind, sind nur für die eingehende Edge-basierte Aktivierung in der Region verfügbar, in der sich die Sandbox des Datensatzes befindet (z. B. NLD2 oder VA7). Der Sandbox-Bereich wird in der Benutzeroberfläche neben dem Sandbox-Namen angezeigt.
 
 * **Löschen eines Daten-Batches**: Wenn Sie einen Batch von Daten aus Ihrem Datensatz entfernen, werden alle übereinstimmenden Schlüssel vollständig aus dem Suchdienst entfernt. Beispiel:
 
