@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 76a970f4edf0cef3fc15ab69c78ef46fbb0497c7
+source-git-commit: a25d4a2e8f00c506fa84ca56750e909a406ad4e4
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 4%
@@ -102,11 +102,10 @@ Der [Journey Analyze Agent](https://experienceleague.adobe.com/de/docs/experienc
 
 +++
 
-+++
 
 #### Journey Create SKILL {#journey-create-skill}
 
-Mit dem [Journey Create Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
+Mit dem [Journey Create Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-create){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
 
 +++**Schlüsselfunktionen**
 
@@ -161,7 +160,7 @@ Der [Experimentationsagent](https://experienceleague.adobe.com/de/docs/experienc
 
 ### Zusätzliche KI-Agenten
 
-**Audience Agent** - Für die konversative Audience-Exploration und -Verwaltung in Adobe Experience Platform, einschließlich Duplikaterkennung und Größenverfolgung. [Erfahren Sie mehr über Audience Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - Für die konversative Audience-Exploration und -Verwaltung in Adobe Experience Platform, einschließlich Duplikaterkennung und Größenverfolgung. [Erfahren Sie mehr über Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
 **Agent Orchestrator** - Koordiniert mehrere spezialisierte Agenten, um komplexe, mehrstufige Marketing-Herausforderungen zu lösen. Der Orchestrator bestimmt automatisch, welche Agenten beteiligt werden sollen, und sequenziert ihre Arbeit effizient. [Erfahren Sie mehr über Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
@@ -270,7 +269,7 @@ Durchsuchen Sie Journey Optimizer-Playbooks nach gängigen Szenarien wie:
 
 +++
 
-[Alle verfügbaren Playbooks anzeigen](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=de){target="_blank"} | [Weitere Informationen finden Sie in der Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=de){target="_blank"}
+[Alle verfügbaren Playbooks anzeigen](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=de){target="_blank"} | [Weitere Informationen finden Sie in der Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Zusätzliche KI-Funktionen {#additional-capabilities}
 
