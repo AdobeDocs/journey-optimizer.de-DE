@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
-workflow-type: ht
-source-wordcount: '1472'
-ht-degree: 100%
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+workflow-type: tm+mt
+source-wordcount: '1498'
+ht-degree: 98%
 
 ---
 
@@ -58,6 +58,10 @@ Gehen Sie wie folgt vor, um Teile eines visuellen Fragments als bearbeitbar fest
 1. Wenn Sie fertig sind, speichern Sie die Änderungen, um das Fragment zu aktualisieren.
 
 1. Nach dem Hinzufügen des Fragments zu einer E-Mail können Benutzende alle im Fragment konfigurierten bearbeitbaren Felder anpassen. [Informationen dazu, wie Sie bearbeitbare Felder in einem visuellen Fragment anpassen](../email/use-visual-fragments.md#customize-fields)
+
+>[!CAUTION]
+>
+>Wenn sowohl **label** als auch **URL** einer Schaltflächenkomponente in einem Fragment bearbeitbar gemacht werden können, wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates.-->
 
 ## Hinzufügen bearbeitbarer Felder zu HTML-Komponenten und Ausdrucksfragmenten {#expression}
 
@@ -195,5 +199,5 @@ Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzende jetzt d
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464377/?captions=ger&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 97%
+source-wordcount: '1380'
+ht-degree: 95%
 
 ---
 
@@ -96,6 +96,10 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 >E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../privacy/opt-out.md#opt-out-decision-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird beim Erstellen der Nachricht in der [Kanalkonfiguration](email-settings.md#email-type) definiert.
 
 Nach dem Versand der Nachricht beträgt die Gültigkeitsdauer für einen Link **25 Monate**. Nach dieser Dauer ist der Link nicht mehr verfügbar.
+
+>[!CAUTION]
+>
+>Wenn sowohl **label** als auch **URL** einer Schaltfläche in einem Fragment bearbeitbar gemacht werden können, wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt. Das Feld `_experience.customerJourneyManagement.messageInteraction.label` im Tracking-Datensatz protokolliert den URL-Wert.
 
 ## Link zu einer Mirror-Seite {#mirror-page}
 
