@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a6e6e8fce90fbd730c049f8a39878a44cea9c73c
+source-git-commit: f7cdbb8f4a0e43a6a2fa15032d1376faf0424168
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 44%
+source-wordcount: '1990'
+ht-degree: 47%
 
 ---
 
@@ -312,16 +312,6 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 * **SMS-Webhooks: Phase II** - Anzugebende Beschreibung.
 
 * **WhatsApp Wiederverkaufsangebot** - Anzugebende Beschreibung.
-
-* **Ausführungsfeld für WhatsApp-Kanal** - Zusätzlich zu E-Mail und SMS können Sie jetzt das standardmäßige Ausführungsfeld für Ihre WhatsApp-Sendungen auf Sandbox-Ebene aktualisieren. Sie können das global eingestellte Ausführungsfeld auch überschreiben, indem Sie es in den erweiterten Parametern der WhatsApp-Journey-Aktivität oder in der WhatsApp-Kanalkonfiguration ändern. [Weitere Informationen](../configuration/primary-email-addresses.md)
-
-  Verfügbarkeitsdatum: Donnerstag, 22. Oktober 2025
-
-* **Unterstützung benutzerdefinierter Attribute für Mailto-Adresse (unsubscribe)**: Bei Journey Optimizer können Sie, wenn Sie das Einverständnis außerhalb von Adobe verwalten, externe benutzerdefinierte Endpunkte festlegen, indem Sie Ihren eigenen Ein-Klick-Abmelde-Link und eine benutzerdefinierte Abmelde-E-Mail-Adresse in der E-Mail-Konfiguration definieren. Wenn Ihre Empfänger auf den Abmelde-Link klicken, fügt Journey Optimizer einige standardmäßige profilspezifische Parameter an das Einverständnisaktualisierungsereignis an. Um Ihre benutzerdefinierten Endpunkte weiter zu personalisieren, können Sie jetzt benutzerdefinierte Attribute definieren, die auch an das Einverständnisereignis angehängt werden. [Weitere Informationen](../email/list-unsubscribe.md#custom-attributes)
-
-  **Hinweis**: Diese Funktion ist bereits seit dem 25. **[!UICONTROL für die benutzerdefinierte]** Ein-Klick-Abmelde-URL verfügbar und jetzt für die Option **[!UICONTROL Mailto (unsubscribe)]** in begrenzter Verfügbarkeit veröffentlicht. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
-
-  Verfügbarkeitsdatum: Dienstag, 6. Oktober 2025
 
 #### E-Mail-Designer
 
