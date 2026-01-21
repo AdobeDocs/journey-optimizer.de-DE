@@ -244,9 +244,9 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Kampagne mithilfe der Zeitzone des Profils planen** - Die Kampagnenplanung kann jetzt die Zeitzone jedes Profils verwenden, um Nachrichten zur vorgesehenen lokalen Zeit zu versenden.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Diese Verbesserung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). 
 
 #### Kanäle
@@ -271,9 +271,9 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Anhängen von Fragmenten an Entscheidungselemente**: Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Diese Verbesserung wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
 #### Journeys
@@ -284,9 +284,9 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Mehrere eingehende Aktionen in Journeys** – Um die Orchestrierung Ihrer Journeys zu vereinfachen, können Sie jetzt mehrere eingehende Aktionen in einer einzigen Journey definieren. Diese Funktion war bisher in -Kampagnen verfügbar und ermöglicht es Ihnen, mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen an verschiedene Orte gleichzeitig zu senden, wobei jede Aktion einen bestimmten Inhalt enthält.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Diese Verbesserung wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
 #### Orchestrierte Kampagnen
