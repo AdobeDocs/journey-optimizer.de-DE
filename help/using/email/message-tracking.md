@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1370'
 ht-degree: 95%
 
 ---
@@ -99,7 +99,7 @@ Nach dem Versand der Nachricht beträgt die Gültigkeitsdauer für einen Link **
 
 >[!CAUTION]
 >
->Wenn sowohl **label** als auch **URL** einer Schaltfläche in einem Fragment bearbeitbar gemacht werden können, wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt. Das Feld `_experience.customerJourneyManagement.messageInteraction.label` im Tracking-Datensatz protokolliert den URL-Wert.
+>Wenn sowohl **label** als auch **URL** einer Schaltfläche in einem [anpassbaren Fragment) bearbeitbar ](../content-management/customizable-fragments.md), wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt.
 
 ## Link zu einer Mirror-Seite {#mirror-page}
 

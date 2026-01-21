@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1028'
 ht-degree: 97%
 
 ---
@@ -109,11 +109,7 @@ In [diesem Abschnitt](../personalization/use-expression-fragments.md#implicit-va
 
 ## Anpassen bearbeitbarer Felder {#customize-fields}
 
-Wenn bestimmte Teile des ausgewählten Fragments bearbeitbar gemacht wurden, können Sie deren Standardwert überschreiben, nachdem Sie das Fragment in Ihren Inhalt eingefügt haben. [Informationen dazu, wie Sie Ihre Fragmente anpassbar machen können](../content-management/customizable-fragments.md)
-
->[!CAUTION]
->
->Wenn sowohl **label** als auch **URL** einer Schaltflächenkomponente in einem Fragment bearbeitbar sind, wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates. [Learn more about breaking inheritance](#break-inheritance)-->
+Wenn bestimmte Teile des ausgewählten Fragments bearbeitbar gemacht wurden, können Sie deren Standardwert überschreiben, nachdem Sie das Fragment in Ihren Inhalt eingefügt haben. [Erfahren Sie, wie Sie Ihre Fragmente anpassbar machen können](../content-management/customizable-fragments.md)
 
 Gehen Sie wie folgt vor, um bearbeitbare Felder in einem Fragment anzupassen:
 
@@ -128,6 +124,10 @@ Gehen Sie wie folgt vor, um bearbeitbare Felder in einem Fragment anzupassen:
    Im folgenden Beispiel können die **Bildquelle** und der **alternative Text** sowie die **URL** der Schaltfläche „Hier klicken“ bearbeitet werden.
 
    ![](assets/fragment-editable.png)
+
+>[!CAUTION]
+>
+>Wenn sowohl **label** als auch **URL** einer Schaltflächenkomponente in einem Fragment bearbeitbar gemacht werden können, wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt. [Weitere Informationen zum Tracking](../email/message-tracking.md)
 
 ## Unterbrechen der Vererbung {#break-inheritance}
 
