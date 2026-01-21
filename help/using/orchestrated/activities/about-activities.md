@@ -5,10 +5,10 @@ title: Arbeiten mit Aktivitäten orchestrierter Kampagnen
 description: Informationen zu Aktivitäten orchestrierter Kampagnen
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
+source-git-commit: 43fa71d7ec05e8c4b1ccd8d8c0ff8727128f5030
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
 * [Targeting-Aktivitäten](#targeting)
 * [Kanalaktivitäten](#channel)
-* [Aktivitäten zur Flusskontrolle](#flow-control)
+* [Aktivitäten zur Flusssteuerung](#flow-control)
 
 ![Liste der auf der Arbeitsfläche verfügbaren Aktivitäten](../assets/orchestrated-activities.png){width="80%" align="left"}
 
@@ -55,12 +55,17 @@ In Adobe Journey Optimizer können Sie Marketing-Kampagnen automatisieren und ü
 
 Erfahren Sie, wie Sie [in einer orchestrierten Kampagne eine Kanalaktion erstellen](channels.md).
 
-## Aktivitäten zur Flusskontrolle {#flow-control}
+## Aktivitäten zur Flusssteuerung {#flow-control}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Endaktivität"
 >abstract="Mit der Aktivität **Ende** können Sie das Ende einer orchestrierten Kampagne grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_signal"
+>title="Externes Signal"
+>abstract="Externes Signal"
 
 Die folgenden Aktivitäten dienen der Organisation und Ausführung von orchestrierten Kampagnen. Ihre Hauptaufgabe besteht darin, die anderen Aktivitäten zu koordinieren.
 
