@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
+source-git-commit: 3ea5dd845569508421092bdf53634619354206e2
 workflow-type: tm+mt
-source-wordcount: '2358'
-ht-degree: 23%
+source-wordcount: '2407'
+ht-degree: 22%
 
 ---
 
@@ -178,7 +178,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Es ist jetzt möglich, <strong>gesendete Sendungen“ </strong> Archivierungs- und Compliance-Zwecken in einen bestimmten Datensatz zu exportieren. Diese Kapazität steht nicht nur für E-Mails zur Verfügung, sondern auch für andere Kanäle wie SMS. Die Datenaufbewahrung für den Nachrichtenexport-Datensatz beträgt jetzt <strong>7 Tage</strong>.</p>
+<p>Eine neue Funktion <strong>Nachrichtenexport</strong> ist jetzt für E-Mail- und SMS-Kanäle verfügbar. Mit dieser Funktion können Sie gesendeten Nachrichteninhalt automatisch in einen dedizierten Experience Platform-Datensatz exportieren, sodass Sie:</p>
+<ul>
+<li>Einhaltung behördlicher Auflagen (z. B. HIPAA)</li>
+<li>Archivieren von Nachrichten für Rechtsansprüche und Anfragen an die Kundenunterstützung</li>
+<li>Kopien der an Einzelpersonen gesendeten personalisierten Inhalte aufbewahren</li>
+</ul>
+<p>Datensätze werden im AJO-Nachrichtenexport-Datensatz <strong>7 Kalendertage nach der Aufnahme aufbewahrt</strong>. Während dieser Aufbewahrungsfrist können Sie die Daten über Experience Platform-Ziele in Ihren eigenen Speicher exportieren. Die Funktion wird auf der Ebene der Kanalkonfiguration aktiviert, sodass Sie granulare Kontrolle darüber erhalten, welche Nachrichten exportiert werden.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">Link zur DOCAC JIRA-Aufgabe</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">Link zur JIRA-Aufgabe für das Produkt</a></p>
 </td>
 </tr>
@@ -297,9 +303,6 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">Link zur DOCAC JIRA-Aufgabe</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365">Link zur JIRA-Aufgabe für das Produkt</a>
 
 #### Experience Decisioning
-
-* **exd sandbox tooling documentation - update** - Beschreibung bereitzustellen.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">Link zur DOCAC JIRA-Aufgabe</a>
 
 * **Self-Service-Migrations-Tooling** APIs: Ein neuer Satz <strong>Migrations-Tooling-</strong> ist verfügbar, um Angebotsverwaltungsentitäten in Experience Decisioning zu migrieren. Die Tools ermöglichen eine nahtlose Migration zwischen Sandboxes mit Funktionen zur Abhängigkeitsauflösung und zum Rollback.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13837">Link zur DOCAC JIRA-Aufgabe</a> | <a href="https://jira.corp.adobe.com/browse/CJM-109695">Link zur JIRA-Aufgabe für das Produkt</a>
