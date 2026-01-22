@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
+source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
 workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 23%
@@ -388,7 +388,7 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <td>
 <p>Sie können jetzt <strong>personalisierte Angebote</strong> durch eine dedizierte Inhaltsentscheidungsaktivität in die Journey-Arbeitsfläche in Ihre Journey einbeziehen und sie in Journey-Aktivitäten, einschließlich Bedingungen und benutzerdefinierter Aktionen, verwenden.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">Link zur DOCAC JIRA-Aufgabe</a> | <a href="https://jira.corp.adobe.com/browse/CJM-99223">Link zur JIRA-Aufgabe für das Produkt</a></p>
-<p>Verfügbarkeitsdatum: Dienstag, 2. Februar 2026</p>
+<p>Verfügbarkeitsdatum: Mittwoch, 3. Februar 2026</p>
 </td>
 </tr>
 </tbody>
