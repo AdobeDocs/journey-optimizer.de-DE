@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3635cb3ad81cc3462dc3ebb6d60594b4b83051e9
+source-git-commit: 86bd616a9331c5225c78ccf52c5d26a063fa8654
 workflow-type: tm+mt
-source-wordcount: '2068'
-ht-degree: 32%
+source-wordcount: '2080'
+ht-degree: 31%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 32%
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden am Ende jedes Monats in den [Versionshinweisen](release-notes.md) zusammengefasst.
 
 
-## Hinweise zur Vorabversion vom Januar 2026 {#jan-26-01-rn}
+## Januar &#39;26 vor Versionshinweise {#jan-26-01-rn}
 
 **Die nachfolgenden Vorab- Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentationen werden in den Versionshinweisen am Veröffentlichungsdatum veröffentlicht.
 
@@ -54,22 +54,6 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Aktivität „Inhaltsentscheidung“ </strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt <strong>personalisierte Angebote</strong> durch eine dedizierte Inhaltsentscheidungsaktivität in die Journey-Arbeitsfläche in Ihre Journey einbeziehen und sie in Journey-Aktivitäten, einschließlich Bedingungen und benutzerdefinierter Aktionen, verwenden.</p>
-<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Überwachung benutzerdefinierter Aktionen</strong><br/></th>
 </tr>
 </thead>
@@ -92,8 +76,8 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Mit Ruhestunden können Sie <strong>zeitbasierte Ausschlüsse</strong> für E-Mail-, SMS-, Push- und WhatsApp-Kanäle definieren. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen. Ruhezeiten können über <strong>Regelsätze</strong> angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können.</p>
-<p>Diese Funktion wurde zuvor in eingeschränkter Verfügbarkeit veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeit bietet die Funktion jetzt die Möglichkeit, dass Kundinnen und Kunden eine Kampagnenaktion bis zum Abschluss der Ruhezeiten in die Warteschlange stellen und die aktivierte Regel für Ruhezeiten in der Vorschau anzeigen können.</p>
+<p>Ruhezeiten ermöglichen es Ihnen, zeitbasierte Ausschlüsse<strong> für E-Mail-, SMS-, Push- und WhatsApp-Kanäle zu definieren</strong>. Sie stellen sicher, dass zu bestimmten Zeiträumen keine Nachrichten gesendet werden, und helfen Ihnen, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen. Ruhezeiten können über <strong>Regelsätze</strong> angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können.</p>
+<p>Diese Funktion, die zuvor unter "Eingeschränkte Verfügbarkeit" veröffentlicht wurde, ist jetzt in allen Umgebungen verfügbar. Mit dieser Version der allgemeinen Verfügbarkeit bietet die Funktion nun die Möglichkeit für Kunden, eine Kampagne Aktion bis zum Ende der Ruhezeiten zu Warteschlange, und die Möglichkeit, die aktivierte Ruhezeit-Regel zu Vorschau.</p>
 </td>
 </tr>
 </tbody>
@@ -102,13 +86,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Briefpost-Kanal in Journey</strong><br/></th>
+<th><strong>Briefpost in Journeys Kanal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Zuvor auf Kampagnen beschränkt, ist <strong>Briefpostkanal</strong> jetzt auf der <strong>Journey-Arbeitsfläche</strong> verfügbar, sodass Sie Briefpost in Ihre Journey integrieren können. Briefpost kann jetzt sowohl in Batch- als auch in 1:1-Journey-Szenarien verwendet werden, mit Unterstützung für die Dateiextraktionskonfiguration und zeitbasierte Häufigkeitseinstellungen.</p>
+<p>Die Direktmailing-Kanal, die <strong>bisher auf Kampagnen beschränkt war, ist jetzt auf der </strong>Journey Arbeitsfläche<strong> verfügbar, sodass Sie Direktwerbung in Ihre Journeys integrieren</strong> können. Briefpost kann jetzt sowohl in Batch- als auch in 1:1-Journey-Szenarien verwendet werden, mit Unterstützung für die Konfiguration von Datei-Extraktion und zeitbasierten Häufigkeit Einstellungen.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 </td>
 </tr>
@@ -118,13 +102,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Web-Push-Benachrichtigungskanal</strong><br/></th>
+<th><strong>Web-Push-Benachrichtigungen Kanal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer unterstützt jetzt <strong>Web-Push-Benachrichtigungen</strong> und erweitert den Push-Kanal über Mobile hinaus. Sie können Benachrichtigungen sowohl an mobile als auch an Desktop-Browser senden, sodass Sie Kunden direkt auf ihren Geräten erreichen können, ohne eine App zu benötigen. Diese Verbesserung ermöglicht es Ihnen, Benutzende in Echtzeit mit zeitnahen, personalisierten Nachrichten anzusprechen, unter Nutzung derselben Authoring-Workflows und Targeting-Funktionen, die bereits für mobile Push-Benachrichtigungen verfügbar sind.</p>
+<p>Adobe Systems Journey Optimizer unterstützt <strong>jetzt Web-Push-Benachrichtigungen</strong> und erweitert damit die Push-Kanal über mobile Geräte hinaus. Sie können Benachrichtigungen nahtlos sowohl in mobilen als auch in Desktop-Browsern bereitstellen, sodass Sie Kunden direkt auf ihren Geräten erreichen können, ohne dass eine App erforderlich ist. Diese Verbesserung ermöglicht es Ihnen, Benutzende in Echtzeit mit zeitnahen, personalisierten Nachrichten anzusprechen, unter Nutzung derselben Authoring-Workflows und Targeting-Funktionen, die bereits für mobile Push-Benachrichtigungen verfügbar sind.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 </td>
 </tr>
@@ -146,7 +130,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <li>Erkenntnisse bezüglich des Nachrichtenversands: Erhalten Sie detaillierte Versandberichte einschließlich Statusaktualisierungen der Nachricht (z. B. gesendet, zugestellt, gelesen).</li>
 <li>Linktracking: Betten Sie URLs ein und verfolgen Sie diese in RCS-Nachrichten für die Interaktionsanalyse.</li>
 <li>Fallback zu SMS: Automatischer Fallback zu SMS, wenn das Gerät des Profils RCS nicht unterstützt oder über RCS vorübergehend unerreichbar ist.</li>
-<li>Einfache Nachrichtenkomposition: Senden Sie einfache textbasierte RCS-Nachrichten.</li>
+<li>Standard Nachrichtenerstellung: Senden einfache textbasierte RCS-Nachrichten.</li>
 </ul>
 </td>
 </tr>
@@ -172,13 +156,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Briefpost-Kanal in orchestrierten Kampagnen</strong><br/></th>
+<th><strong>Briefpost Kanal in orchestrierten Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der Briefpost-Kanal ist jetzt in orchestrierten Kampagnen verfügbar. Die <strong>Briefpost-Aktivität</strong> erleichtert den Briefpostversand innerhalb Ihrer orchestrierten Kampagne, sowohl für einmalige als auch für wiederkehrende Nachrichten. Dies dient zur Automatisierung des Prozesses der Generierung der <strong>Extraktionsdatei</strong> die von Briefpostanbietern benötigt wird. Kanalaktivitäten können in der Arbeitsoberfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.</p>
+<p>Briefpost Kanal ist jetzt in orchestrierten Kampagnen verfügbar. Die <strong>Briefpost Aktivität</strong> erleichtert Direkt-Mail Versand innerhalb Ihrer orchestrierten Kampagne, sowohl für einmalige als auch für wiederkehrende Nachrichten. Es dient dazu, den Prozess der Generierung der Extraktion<strong> Datei zu automatisieren, die </strong>von Direkt-Mail Anbietern benötigt wird. Kanalaktivitäten können in der Arbeitsoberfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.</p>
 </td>
 </tr>
 </tbody>
@@ -224,7 +208,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Es ist jetzt möglich, <strong>gesendete Sendungen“ </strong> Archivierungs- und Compliance-Zwecken in einen bestimmten Datensatz zu exportieren. Diese Kapazität steht nicht nur für E-Mails zur Verfügung, sondern auch für andere Kanäle wie SMS.</p>
+<p>Es ist nun möglich <strong>, gesendete Sendungen</strong> zu Archivierungs- und Compliance-Zwecken in eine bestimmte Datensatz zu exportieren. Diese Kapazität steht nicht nur für E-Mail, sondern auch für andere Kanäle wie SMS zur Verfügung. Daten Aufbewahrungsfrist für den Nachrichtenexport Datensatz beträgt nun <strong>7 Tage</strong>.</p>
 </td>
 </tr>
 </tbody>
@@ -256,7 +240,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Drei neue <strong>Journey-Warnhinweise</strong> sind jetzt verfügbar, mit denen Sie Journey-Lebenszyklusereignisse und die Leistung benutzerdefinierter Aktionen überwachen und verfolgen können:</p>
+<p>Drei neue <strong>Journey-Warnhinweise</strong> sind jetzt verfügbar, mit denen Sie Journey Lebenszyklusereignisse und die Leistung benutzerdefinierter Aktionen überwachen und verfolgen können:</p>
 <ul>
 <li><strong>Journey veröffentlicht</strong>: Erhalten Sie Benachrichtigungen, wenn eine Journey von einer Person auf der Journey-Arbeitsfläche veröffentlicht wird.</li>
 <li><strong>Journey abgeschlossen</strong>: Erhalten Sie Warnhinweise, wenn eine Journey abgeschlossen ist, wobei bestimmte Definitionen vom Journey-Typ abhängen (Zielgruppe lesen oder ereignisgesteuert).</li>
@@ -296,27 +280,29 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 #### AI
 
 * **KI-Assistent für Inhaltsqualitätsprüfungen** - Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um unabhängig von Ihren Markenrichtlinien potenzielle Probleme mit Lesbarkeit, Kohärenz und Effektivität aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung unklarer Botschaften, inkonsistenter Tonwerte oder struktureller Lücken.
-* **Aktualisieren von Marken mit neuer Farbregisterkarte** - Markenrichtlinien helfen sicherzustellen, dass Ihre Marke auf allen Touchpoints konsistent präsentiert wird. Der neue <strong>Abschnitt Farben</strong> definiert die Standards für das Farbsystem Ihrer Marke und beschreibt, wie Farben in Erlebnissen ausgewählt, organisiert und angewendet werden. Es sorgt für die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben, um eine kohärente, barrierefreie und erkennbare Markenidentität zu unterstützen.
+* **Aktualisieren von Marken mit neuer Farbregisterkarte** - Markenrichtlinien helfen sicherzustellen, dass Ihre Marke auf allen Touchpoints konsistent präsentiert wird. Der neue <strong>Abschnitt</strong> &quot;Farben&quot; definiert die Standards für das Farbsystem Ihrer Werbetreibender und beschreibt, wie Farben ausgewählt, organisiert und erlebnisübergreifend angewendet werden. Es gewährleistet die konsistente Verwendung von Primär-, Sekundär-, Akzent- und neutralen Farben, um eine zusammenhängende, zugängliche und erkennbare Markenidentität zu unterstützen.
 
 #### Kampagnen
 
-* **Kampagne mithilfe der Zeitzone des Profils planen** - Die Kampagnenplanung kann jetzt die <strong>Zeitzone“ jedes Profils verwenden, </strong> Nachrichten zur gewünschten lokalen Zeit zu versenden.
+* **verzögern Kampagne Profile Zeit Zone** - Kampagne Scheduling kann jetzt die <strong>Zeitzone</strong> jedes Profil verwenden, um Nachrichten zur vorgesehenen lokalen Zeit zuzustellen.
 
-  **Hinweis**: Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit).
+  **Hinweis**: Diese Verbesserung ist nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit).
 
 #### Kanäle
 
-* **SMS-Webhooks: Phase II** - Anzugebende Beschreibung.
+* **SMS-Webhooks: Phase II** - Beschreibung bereitgestellt werden.
 
-* **WhatsApp Wiederverkaufsangebot** - Anzugebende Beschreibung.
+* **WhatsApp Resell Angebot** - Beschreibung zur Verfügung gestellt werden.
 
 #### E-Mail-Designer
 
-* **In-Place-Korrekturen im E-**-Designer - <strong>KI-gestützte automatische Inhaltsvorschläge</strong> sind jetzt in der E-Mail-Designer verfügbar, wenn bei der Inhaltsvalidierung Verstöße erkannt werden. Wenn Inhalte als nicht konform mit den Markenrichtlinien eingestuft werden oder die Qualitätskriterien nicht erfüllt werden, generiert das System proaktiv korrigierte Alternativen, die inline überprüft und angewendet werden können, wodurch die Compliance verbessert und die Produktion beschleunigt wird.
+* **Direkte Korrekturen in E-Mail-Designer** - <strong>KI-gestützte automatische Inhalte-Vorschläge</strong> sind jetzt in E-Mail-Designer verfügbar, wenn Verstöße während Inhalte Tauglichkeitsprüfung festgestellt werden. Wenn Inhalte als nicht konform mit Werbetreibender Richtlinien gekennzeichnet wird oder die Qualitätskriterien nicht erfüllt, generiert das System proaktiv korrigierte Alternativen, die inline überprüft und angewendet werden können, wodurch die Einhaltung der Vorschriften verbessert und die Produktion beschleunigt wird.
 
-#### Experience Decisioning
+#### Entscheidungsfindung für Erlebnisse
 
 * **Journey-Schlichtung** - Sie können jetzt <strong>Formeln und KI-Modelle</strong> verwenden, um die Journey-Prioritätswerte automatisch basierend auf Kundenprofilattributen und Kontextfaktoren zu erhöhen, sodass Kundinnen und Kunden in die relevantesten Journey eintreten.
+
+  **Hinweis**: Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit).
 
 * **exd sandbox tooling documentation - update** - Beschreibung bereitzustellen.
 
@@ -324,23 +310,23 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Fragmente an Entscheidungselemente anhängen** - Journey Optimizer bietet jetzt die Möglichkeit, <strong>Fragmente</strong> an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können.
 
-  **Hinweis**: Diese Verbesserung wurde zuvor nur in begrenzter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
+  **Hinweis**: Diese Verbesserung, die zuvor unter &quot;Eingeschränkte Verfügbarkeit&quot; veröffentlicht wurde, ist nun für alle Umgebungen verfügbar (Allgemeine Verfügbarkeit).
 
 #### Journeys
 
-* **Nutzen Sie eine Payload für Fehlerreaktionen beim Journey benutzerdefinierter Aktionen** - Anzugebende Beschreibung.
+* **Verwenden einer Payload für Fehlerantworten in Journey benutzerdefinierten Aktionen** – Sie können jetzt eine optionale <strong>Fehlerantwort Payload</strong> für benutzerdefinierte Aktionen definieren. Wenn ein Aufruf fehlschlägt, wird die Fehler Payload im Journey Kontext verfügbar gemacht und ist in der Timeout-/Fehler-Verzweigung verfügbar, um eine umfassendere Fallbacklogik und das Debuggen zu unterstützen.
 
-* **Kombinieren von nativen und Adobe Campaign-Nachrichtenaktionen** - Mit Journey Optimizer können Sie jetzt Adobe Campaign v7/v8-Nachrichtenaktionen mit nativen Kanalaktionen auf derselben Journey kombinieren.
+* **Kombinieren von nativ- und Adobe Campaign Nachrichtenaktionen** – Mit Journey Optimizer können Sie jetzt Adobe Campaign v7/v8-Nachrichtenaktionen mit nativ Kanal Aktionen in derselben Journey kombinieren.
 
-* **Validierung der Journey-Payload-Größe in Journey** - Journey Optimizer bietet jetzt <strong>Validierung der Payload-Größe</strong>, um eine optimale Leistung und Systemstabilität sicherzustellen. Beim Erstellen oder Veröffentlichen von Journey erhalten Sie deutliche Warnhinweise und Fehler, wenn die Payload-Größe die empfohlenen Grenzwerte erreicht oder überschreitet, sowie praktische Anleitungen zur Optimierung Ihrer Journey-Konfiguration. Diese proaktive Validierung hilft Ihnen, potenzielle Probleme frühzeitig zu erkennen und die Journey-Leistung aufrechtzuerhalten.
+* **Journey Payload Größe Tauglichkeitsprüfung in Journeys** – Journey Optimizer bietet <strong>jetzt Payload Größe Tauglichkeitsprüfung</strong> , um eine optimale Leistung und Systemstabilität zu gewährleisten. Beim Erstellen oder Veröffentlichen von Journeys erhalten Sie klare Warnungen und Fehler, wenn Payload Größen die empfohlenen Grenzen erreichen oder überschreiten, sowie umsetzbare Anleitungen zur Optimierung Ihrer Journey Konfiguration. Diese proaktive Tauglichkeitsprüfung hilft Ihnen, potenzielle Probleme frühzeitig zu erkennen und Journey Leistung aufrechtzuerhalten.
 
-* **Mehrere eingehende Aktionen in Journey** - Um Ihre Journey-Orchestrierung zu vereinfachen, können Sie jetzt <strong>mehrere eingehende Aktionen</strong> in einer einzigen Journey definieren. Diese Funktion war bisher in -Kampagnen verfügbar und ermöglicht es Ihnen, mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen an verschiedene Orte gleichzeitig zu senden, wobei jede Aktion einen bestimmten Inhalt enthält.
+* **Mehrere eingehende Aktionen in Journeys** – Um Ihre Journey Orchestrierung zu vereinfachen, können Sie jetzt mehrere eingehende Aktionen<strong> in einer einzigen Journey definieren</strong>. Diese Funktion, die zuvor in Kampagnen verfügbar war, ermöglicht es Ihnen, mehrere codebasierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Webaktionen gleichzeitig an verschiedenen Orten bereitzustellen, wobei jede Aktion eine bestimmte Inhalte enthält.
 
-  **Hinweis**: Diese Verbesserung wurde zuvor nur in begrenzter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
+  **Hinweis**: Diese Verbesserung, die zuvor unter &quot;Eingeschränkte Verfügbarkeit&quot; veröffentlicht wurde, ist nun für alle Umgebungen verfügbar (Allgemeine Verfügbarkeit).
 
 #### Orchestrierte Kampagnen
 
-* **Attribute auswählen und Verteilungswerte kopieren** - Sie können jetzt Werte direkt in der Ansicht Werteverteilung in orchestrierten Kampagnen auswählen oder kopieren.
+* **Attribute auswählen und Verteilungswerte** kopieren – Sie können jetzt Werte direkt aus der Verteilung von Werten auswählen oder kopieren, die in orchestrierten Kampagnen Ansicht.
 
 * **Vererbung von Datennutzungskennzeichnungen für Zielgruppen** - <strong>Datennutzungskennzeichnungen</strong>, die in Adobe Experience Platform angewendet werden, werden jetzt beim Speichern von Zielgruppen in orchestrierten Kampagnen automatisch übernommen, was das manuelle DULE-Tagging reduziert.
 
@@ -352,13 +338,13 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Unterstützung benutzergenerierter Metadaten** - Die Hilfsfunktion <strong>executionMetadata</strong> ist jetzt im Personalisierungseditor für orchestrierte Kampagnen verfügbar, sodass Sie jeder nativen Aktion Kontextinformationen anhängen und sie in einem Datensatz speichern können, um sie in externe Systeme zu exportieren.
 
-* **Schaltfläche „Neustart** - Orchestrierte Kampagnen enthalten jetzt eine <strong>Schaltfläche „Neustart</strong>, sodass Sie Ausführungen bei Bedarf schnell neu starten können, bevor Sie die Kampagne veröffentlichen.
+* **Neustart Button** – Orchestrierte Kampagnen enthalten jetzt eine <strong>Neustart-Button</strong> , sodass Sie Ausführungen vor der Veröffentlichung des Kampagne bei Bedarf schnell erneut starten können.
 
-* **Unterstützung der Ratenkontrolle** - Orchestrierte Kampagnen unterstützen jetzt die <strong>Ratenkontrolle</strong>, damit Sie Sendungen schneller durchführen und sich an Volumenbeschränkungen ausrichten können.
+* **Unterstützung der** Ratensteuerung – Orchestrierte Kampagnen unterstützen <strong>jetzt die Ratensteuerung</strong> , damit Sie Sendungen beschleunigen und sich an Volumenbeschränkungen ausrichten können.
 
 #### Berechtigungen
 
-* **Selbstvalidierung für Journey und Kampagnen verhindern** - Jetzt können Sie festlegen, dass Ersteller keine eigenen Journey oder Kampagnen genehmigen können, was <strong>Aufgabentrennung</strong> in Genehmigungs-Workflows verbessert.
+* **Selbstgenehmigung für Journeys und Kampagnen** verhindern – Sie können jetzt festlegen, dass Ersteller ihre eigenen Journeys oder Kampagnen nicht genehmigen können, wodurch die Aufgabentrennung<strong> bei der Genehmigung Workflows verbessert </strong>wird.
 
 ## Demnächst {#jan-26-01-coming-soon}
 
@@ -367,13 +353,13 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <table>
 <thead>
 <tr>
-<th><strong>Inhaltserstellung in Journey Agent</strong><br/></th>
+<th><strong>Inhaltsgenerierung im Journey-Agenten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit Adobe Experience Platform Agent Orchestrator ist <strong>Journey Agent</strong> in Journey Optimizer verfügbar und ermöglicht die Analyse von Journey über eine natürliche Sprachschnittstelle. Sie können jetzt auch kanalspezifische Inhalte direkt in Journey Agent generieren und verwalten, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, den Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in Content Designer zur kontextbezogenen Bearbeitung öffnen.</p>
+<p>Journey Agent<strong> basiert auf Adobe Experience Platform Agent Orchestrator </strong>und ist in Journey Optimizer verfügbar und ermöglicht Ihnen die Analyse von Journeys über eine Benutzeroberfläche in natürlicher Sprache. Sie können jetzt auch Kanal-spezifische Inhalte direkt in Journey Agent generieren und managen, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in Content Designer für die kontextbezogene Bearbeitung öffnen.</p>
 <p>Verfügbarkeitsdatum: Dienstag, 2. Februar 2026</p>
 </td>
 </tr>
@@ -389,7 +375,7 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt <strong>personalisierte Angebote</strong> durch eine dedizierte Inhaltsentscheidungsaktivität in die Journey-Arbeitsfläche in Ihre Journey einbeziehen und sie in Journey-Aktivitäten, einschließlich Bedingungen und benutzerdefinierter Aktionen, verwenden.</p>
+<p>Sie können jetzt personalisierte Angebote<strong> über eine dedizierte Aktivität für Inhaltsentscheidungen in der Journey Arbeitsfläche in Ihre Journeys einbinden </strong>und sie in Journey Aktivitäten, einschließlich Bedingungen und benutzerdefinierter Aktionen, verwenden.</p>
 <p>Verfügbarkeitsdatum: Dienstag, 2. Februar 2026</p>
 </td>
 </tr>
