@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
->title="Erstellen von Regeln"
+>title="Regeln erstellen"
 >abstract="Sie können zwei Regeltypen erstellen. Zum einen gibt es **Entscheidungsregeln**, die in Entscheidungselementen oder Auswahlstrategien verwendet werden können, um zu steuern, welche Elemente welcher Zielgruppe unterbreitet werden sollen. Zum anderen gibt es **Targeting-Regeln**, um bestimmte Zielgruppensegmente zu bestimmen, die für den Empfang personalisierter Inhalte geeignet sind, oder um einen bestimmten Journey-Pfad einzugeben.<br/><br/>Beim Erstellen einer Entscheidungsregel können Sie **[!UICONTROL Datensatzsuche aktivieren]** auswählen, um Adobe Experience Platform-Daten zu verwenden. Dadurch können Sie Eignungskriterien definieren, die auf dynamischen, externen Attributen basieren, sodass Entscheidungselemente nur angezeigt werden, wenn sie relevant sind."
 
 ## Informationen zu Regeln {#about}
@@ -137,4 +137,4 @@ Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
 Erfahren Sie, wie Sie in Adobe Journey Optimizer wiederverwendbare **Targeting-Regeln** erstellen, duplizieren und anwenden, um Kampagnen effizient auf der Grundlage von Kundenattributen wie Region, Sprache und Verhalten zu personalisieren. So sparen Sie Zeit und verbessern die Genauigkeit der Zielgruppe.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476136/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
