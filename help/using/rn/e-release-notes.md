@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9605b5bec688c5afcbcc7b391218cdef6cb3b196
+source-git-commit: 5305db965ace448b0df3323d6211317066efae3f
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2414'
 ht-degree: 22%
 
 ---
@@ -180,6 +180,24 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <td>
 <p>Es ist jetzt möglich, <strong>gesendete Sendungen“ </strong> Archivierungs- und Compliance-Zwecken in einen bestimmten Datensatz zu exportieren. Diese Kapazität steht nicht nur für E-Mails zur Verfügung, sondern auch für andere Kanäle wie SMS. Die Datenaufbewahrung für den Nachrichtenexport-Datensatz beträgt jetzt <strong>7 Tage</strong>.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">Link zur DOCAC JIRA-Aufgabe</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">Link zur JIRA-Aufgabe für das Produkt</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent - Journey erstellen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit dem Journey Create Agent können Journey Optimizer-Benutzer Marketing-Journey über eine natürliche Sprachschnittstelle erstellen und konfigurieren. Mit Journey Create Agent können Anwender schnell Journey erstellen, indem sie ihre Anforderungen in Gesprächsaufforderungen beschreiben. Der Agent optimiert die Journey-Erstellung, sodass sich Marketing-Experten auf die Strategie und nicht auf die technische Konfiguration konzentrieren können.</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Weitere Informationen</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link zur DOCAC JIRA-Aufgabe</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link zur JIRA-Aufgabe für das Produkt</a></p>
+<p>Verfügbarkeitsdatum: Dienstag, 12. Januar 2026</p>
 </td>
 </tr>
 </tbody>
