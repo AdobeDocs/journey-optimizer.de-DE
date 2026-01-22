@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 5d2903c1b5fe3e2fcc5d550d883629c884adeedf
+source-git-commit: 47e85275ff83689fe914e734e4a272bb4ef72d13
 workflow-type: tm+mt
 source-wordcount: '2132'
 ht-degree: 100%
@@ -54,7 +54,7 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
    >
    >Fragmente in Entscheidungselementen sind derzeit nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
 
-   Wählen Sie im Abschnitt **[!UICONTROL Fragmente]** die veröffentlichten Fragmente aus, die Sie verwenden möchten, und weisen Sie ihnen einen Referenzschlüssel zu. Sie können diese Fragmente dann in Ihren Entscheidungsrichtlinien nutzen. [Weitere Informationen](create-decision.md#fragments)
+   Wählen Sie im Abschnitt **[!UICONTROL Fragmente]** die veröffentlichten Fragmente aus, die Sie verwenden möchten, und weisen Sie ihnen einen Referenzschlüssel zu. Sie können diese Fragmente dann in Ihren Entscheidungsrichtlinien nutzen. [Weitere Informationen](use-decision-policy.md#fragments)
 
    ![](assets/item-fragments.png){width=70%}
 
@@ -78,8 +78,8 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 >abstract="Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
