@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d98b15b24a21f35703e88d3dce7a990f1aa73ba9
+source-git-commit: 3d9316e3a42696c4e944ec23b0300e56b07142c2
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 22%
@@ -46,7 +46,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <li>Die Möglichkeit, jeder Aktion sowohl experimentelle als auch mehrsprachige Optionen hinzuzufügen</li>
 </ul>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13290">LINK ZU DOCAC JIRA-AUFGABE</a>LINK <a href="https://jira.corp.adobe.com/browse/CJM-111916"> PRODUKT-JIRA-AUFGABE</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13290">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-111916">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a></p>
 </td>
 </tr>
 </tbody>
@@ -63,7 +63,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <td>
 <p>Vertiefen Sie insight in den Zustand und die Leistung Ihrer benutzerdefinierten Aktionsendpunkte mit einem neuen <strong>Überwachungs-Dashboard</strong> und angereicherten Journey-Schritt-Ereignisdaten. Verfolgen Sie erfolgreiche Aufrufe, Fehler, Durchsatz, Antwortzeiten und Warteschlangenwartezeiten, um schnell zu verstehen, wann, wo und warum Anomalien auftreten.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13981">LINK ZU DOCAC JIRA-AUFGABE</a>LINK <a href="https://jira.corp.adobe.com/browse/CJM-126869"> PRODUKT-JIRA-AUFGABE</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13981">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-126869">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a></p>
 </td>
 </tr>
 </tbody>
@@ -80,7 +80,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <td>
 <p>Mit Ruhestunden können Sie <strong>zeitbasierte Ausschlüsse</strong> für E-Mail-, SMS-, Push- und WhatsApp-Kanäle definieren. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen. Ruhezeiten können über <strong>Regelsätze</strong> angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können.</p>
 <p>Diese Funktion wurde zuvor in eingeschränkter Verfügbarkeit veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeit bietet die Funktion jetzt die Möglichkeit, dass Kundinnen und Kunden eine Kampagnenaktion bis zum Abschluss der Ruhezeiten in die Warteschlange stellen und die aktivierte Regel für Ruhezeiten in der Vorschau anzeigen können.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13986">LINK ZU DOCAC JIRA-AUFGABE</a>LINK <a href="https://jira.corp.adobe.com/browse/CJM-63912"> PRODUKT-JIRA-AUFGABE</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13986">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-63912">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a></p>
 </td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <td>
 <p>Zuvor auf Kampagnen beschränkt, ist <strong>Briefpostkanal</strong> jetzt auf der <strong>Journey-Arbeitsfläche</strong> verfügbar, sodass Sie Briefpost in Ihre Journey integrieren können. Briefpost kann jetzt sowohl in Batch- als auch in 1:1-Journey-Szenarien verwendet werden, mit Unterstützung für die Dateiextraktionskonfiguration und zeitbasierte Häufigkeitseinstellungen.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13543">LINK ZU DOCAC JIRA-AUFGABE</a>LINK <a href="https://jira.corp.adobe.com/browse/CJM-38399"> PRODUKT-JIRA-AUFGABE</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13543">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-38399">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a></p>
 </td>
 </tr>
 </tbody>
@@ -114,7 +114,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <td>
 <p>Adobe Journey Optimizer unterstützt jetzt <strong>Web-Push-Benachrichtigungen</strong> und erweitert den Push-Kanal über Mobile hinaus. Sie können Benachrichtigungen sowohl an mobile als auch an Desktop-Browser senden, sodass Sie Kunden direkt auf ihren Geräten erreichen können, ohne eine App zu benötigen. Diese Verbesserung ermöglicht es Ihnen, Benutzende in Echtzeit mit zeitnahen, personalisierten Nachrichten anzusprechen, unter Nutzung derselben Authoring-Workflows und Targeting-Funktionen, die bereits für mobile Push-Benachrichtigungen verfügbar sind.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13581">LINK ZU DOCAC JIRA-AUFGABE</a>LINK <a href="https://jira.corp.adobe.com/browse/CJM-37866"> PRODUKT-JIRA-AUFGABE</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13581">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-37866">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a></p>
 </td>
 </tr>
 </tbody>
@@ -131,7 +131,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <td>
 <p>Sie können jetzt <strong>Entscheidungsrichtlinien</strong> zu Push- und SMS-Journey und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Engine nutzen, um für jedes Zielgruppenmitglied die besten Inhalte bereitzustellen.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13426">LINK TO DOCAC JIRA TASK</a>LINK TO <a href="https://jira.corp.adobe.com/browse/DOCAC-13425"> DOCAC JIRA TASK</a> <a href="https://jira.corp.adobe.com/browse/CJM-55817"></a> LINK TO PRODUCT JIRA TASK<a href="https://jira.corp.adobe.com/browse/CJM-55818">LINK TO PRODUCT JIRA TASK</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13426">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/DOCAC-13425">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-55817">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a> | <a href="https://jira.corp.adobe.com/browse/CJM-55818">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a></p>
 </td>
 </tr>
 </tbody>
@@ -147,7 +147,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tr>
 <td>
 <p>Der Briefpost-Kanal ist jetzt in orchestrierten Kampagnen verfügbar. Die <strong>Briefpost-Aktivität</strong> erleichtert den Briefpostversand innerhalb Ihrer orchestrierten Kampagne, sowohl für einmalige als auch für wiederkehrende Nachrichten. Dies dient zur Automatisierung des Prozesses der Generierung der <strong>Extraktionsdatei</strong> die von Briefpostanbietern benötigt wird. Kanalaktivitäten können in der Arbeitsoberfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13379">LINK ZU DOCAC JIRA-AUFGABE</a>LINK <a href="https://jira.corp.adobe.com/browse/CJM-82584"> PRODUKT-JIRA-AUFGABE</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13379">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-82584">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a></p>
 </td>
 </tr>
 </tbody>
@@ -179,7 +179,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tr>
 <td>
 <p>Es ist jetzt möglich, <strong>gesendete Sendungen“ </strong> Archivierungs- und Compliance-Zwecken in einen bestimmten Datensatz zu exportieren. Diese Kapazität steht nicht nur für E-Mails zur Verfügung, sondern auch für andere Kanäle wie SMS. Die Datenaufbewahrung für den Nachrichtenexport-Datensatz beträgt jetzt <strong>7 Tage</strong>.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">LINK ZU DOCAC JIRA-AUFGABE</a>LINK <a href="https://jira.corp.adobe.com/browse/CJM-105313"> PRODUKT-JIRA-AUFGABE</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a></p>
 </td>
 </tr>
 </tbody>
@@ -196,7 +196,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <td>
 <p>Eine neue <strong>Journey Optimizer-API</strong> ist jetzt verfügbar, mit der Sie kampagnenbezogene Daten wie Details, Versionen und Konfigurationen programmgesteuert abrufen und untersuchen können.</p>
 <p>Weitere Informationen finden Sie in der <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">ausführlichen Dokumentation</a>.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13506">LINK ZU DOCAC JIRA-AUFGABE</a>LINK <a href="https://jira.corp.adobe.com/browse/CJM-96195"> PRODUKT-JIRA-AUFGABE</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13506">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-96195">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a></p>
 <p>Verfügbarkeitsdatum: Dienstag, 24. November 2025</p>
 </td>
 </tr>
@@ -240,7 +240,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <p>Diese Funktion wurde bereits in der Beta-Version veröffentlicht und ist jetzt für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <img src="assets/do-not-localize/themes.gif">
 <p>Weitere Informationen finden Sie in der <a href="../email/apply-email-themes.md">ausführlichen Dokumentation</a>.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-12941">LINK ZU DOCAC JIRA-AUFGABE</a>LINK <a href="https://jira.corp.adobe.com/browse/NEO-88838"> PRODUKT-JIRA-AUFGABE</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-12941">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/NEO-88838">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a></p>
 <p>Verfügbarkeitsdatum: Donnerstag, 5. November 2025</p>
 </td>
 </tr>
@@ -254,94 +254,94 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 #### AI
 
 * **KI-Assistent für Inhaltsqualitätsprüfungen** - Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um unabhängig von Ihren Markenrichtlinien potenzielle Probleme mit Lesbarkeit, Kohärenz und Effektivität aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung unklarer Botschaften, inkonsistenter Tonwerte oder struktureller Lücken.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13917">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-103238">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13917">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-103238">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 * **Aktualisieren von Marken mit neuer Farbregisterkarte** - Markenrichtlinien helfen sicherzustellen, dass Ihre Marke auf allen Touchpoints konsistent präsentiert wird. Der neue <strong>Abschnitt Farben</strong> definiert die Standards für das Farbsystem Ihrer Marke und beschreibt, wie Farben in Erlebnissen ausgewählt, organisiert und angewendet werden. Es sorgt für die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben, um eine kohärente, barrierefreie und erkennbare Markenidentität zu unterstützen.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13811">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-121183">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13811">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-121183">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 #### Kampagnen
 
 * **Kampagne mithilfe der Zeitzone des Profils planen** - Die Kampagnenplanung kann jetzt die <strong>Zeitzone“ jedes Profils verwenden, </strong> Nachrichten zur gewünschten lokalen Zeit zu versenden.
 
   **Hinweis**: Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit).
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-11534">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-43782">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-11534">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-43782">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 #### Kanäle
 
 * **SMS-Webhooks: Phase II** - Anzugebende Beschreibung.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13978">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-93914">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13978">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-93914">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **WhatsApp Wiederverkaufsangebot** - Anzugebende Beschreibung.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13669">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-86420">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13669">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-86420">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 #### E-Mail-Designer
 
 * **In-Place-Korrekturen im E-**-Designer - <strong>KI-gestützte automatische Inhaltsvorschläge</strong> sind jetzt in der E-Mail-Designer verfügbar, wenn bei der Inhaltsvalidierung Verstöße erkannt werden. Wenn Inhalte als nicht konform mit den Markenrichtlinien eingestuft werden oder die Qualitätskriterien nicht erfüllt werden, generiert das System proaktiv korrigierte Alternativen, die inline überprüft und angewendet werden können, wodurch die Compliance verbessert und die Produktion beschleunigt wird.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-95365">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 #### Experience Decisioning
 
 * **Journey-Schlichtung** - Sie können jetzt <strong>Formeln und KI-Modelle</strong> verwenden, um die Journey-Prioritätswerte automatisch basierend auf Kundenprofilattributen und Kontextfaktoren zu erhöhen, sodass Kundinnen und Kunden in die relevantesten Journey eintreten.
 
   **Hinweis**: Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit).
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13976">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-78932">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13976">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-78932">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **exd sandbox tooling documentation - update** - Beschreibung bereitzustellen.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">LINK ZUR AUFGABE „DOCAC JIRA“</a>
 
 * **Self-Service-Migrations-Tooling** APIs: Ein neuer Satz <strong>Migrations-Tooling-</strong> ist verfügbar, um Angebotsverwaltungsentitäten in Experience Decisioning zu migrieren. Die Tools ermöglichen eine nahtlose Migration zwischen Sandboxes mit Funktionen zur Abhängigkeitsauflösung und zum Rollback.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13837">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-109695">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13837">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-109695">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **Fragmente an Entscheidungselemente anhängen** - Journey Optimizer bietet jetzt die Möglichkeit, <strong>Fragmente</strong> an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können.
 
   **Hinweis**: Diese Verbesserung wurde zuvor nur in begrenzter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13418">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-110282">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13418">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-110282">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 #### Journeys
 
 * **Nutzen einer Fehlerreaktions-Payload beim Journey benutzerdefinierter Aktionen** - Sie können jetzt eine optionale <strong>Fehlerreaktions-Payload</strong> für benutzerdefinierte Aktionen definieren. Wenn ein Aufruf fehlschlägt, wird die Fehler-Payload im Journey-Kontext angezeigt und ist in der Verzweigung für Zeitüberschreitung/Fehler verfügbar, um eine umfassendere Ausweichlogik und das Debugging zu unterstützen.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13977">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-113125">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13977">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-113125">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **Kombinieren von nativen und Adobe Campaign-Nachrichtenaktionen** - Mit Journey Optimizer können Sie jetzt Adobe Campaign v7/v8-Nachrichtenaktionen mit nativen Kanalaktionen auf derselben Journey kombinieren.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13974">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-113103">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13974">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-113103">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **Validierung der Journey-Payload-Größe in Journey** - Journey Optimizer bietet jetzt <strong>Validierung der Payload-Größe</strong>, um eine optimale Leistung und Systemstabilität sicherzustellen. Beim Erstellen oder Veröffentlichen von Journey erhalten Sie deutliche Warnhinweise und Fehler, wenn die Payload-Größe die empfohlenen Grenzwerte erreicht oder überschreitet, sowie praktische Anleitungen zur Optimierung Ihrer Journey-Konfiguration. Diese proaktive Validierung hilft Ihnen, potenzielle Probleme frühzeitig zu erkennen und die Journey-Leistung aufrechtzuerhalten.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13840">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-122236">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13840">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-122236">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **Mehrere eingehende Aktionen in Journey** - Um Ihre Journey-Orchestrierung zu vereinfachen, können Sie jetzt <strong>mehrere eingehende Aktionen</strong> in einer einzigen Journey definieren. Diese Funktion war bisher in -Kampagnen verfügbar und ermöglicht es Ihnen, mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen an verschiedene Orte gleichzeitig zu senden, wobei jede Aktion einen bestimmten Inhalt enthält.
 
   **Hinweis**: Diese Verbesserung wurde zuvor nur in begrenzter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13453">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-111916">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13453">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-111916">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 #### Orchestrierte Kampagnen
 
 * **Attribute auswählen und Verteilungswerte kopieren** - Sie können jetzt Werte direkt in der Ansicht Werteverteilung in orchestrierten Kampagnen auswählen oder kopieren.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13973">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-105244">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13973">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-105244">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **Vererbung von Datennutzungskennzeichnungen für Zielgruppen** - <strong>Datennutzungskennzeichnungen</strong>, die in Adobe Experience Platform angewendet werden, werden jetzt beim Speichern von Zielgruppen in orchestrierten Kampagnen automatisch übernommen, was das manuelle DULE-Tagging reduziert.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13972">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-120769">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13972">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-120769">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **Vordefinierte Retargeting** Filter) - Diese Version führt neue Filter für das Retargeting ein, um das Retargeting <strong> Anwendungsfällen für orchestrierte Kampagnen zu </strong>. Mit diesen Filtern können Sie Zielgruppen direkt ansprechen, basierend auf der Interaktion mit Nachrichten, wie z. B. gesendet, nur geöffnet, geöffnet oder geklickt oder geöffnet und geklickt, und die spezifische Kampagne oder Kampagne in der Übergangsphase auswählen, die Sie erneut ansprechen möchten.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13971">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-116701">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13971">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-116701">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **Vordefinierte Filter mit Parametern** - Sie können jetzt &quot;<strong> mit Parametern“ in </strong> Kampagnen für wiederverwendbare, bearbeitbare Regeln erstellen.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13970">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-115431">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13970">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-115431">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **Nachrichtenbestätigung vor dem Versand** - Ein <strong>Bestätigungsschritt</strong> ist jetzt standardmäßig aktiviert, bevor orchestrierte Kampagnen gesendet werden, um versehentliche Sendungen zu reduzieren.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13927">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-87219">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13927">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-87219">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **Unterstützung benutzergenerierter Metadaten** - Die Hilfsfunktion <strong>executionMetadata</strong> ist jetzt im Personalisierungseditor für orchestrierte Kampagnen verfügbar, sodass Sie jeder nativen Aktion Kontextinformationen anhängen und sie in einem Datensatz speichern können, um sie in externe Systeme zu exportieren.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13923">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-112697">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13923">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-112697">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **Schaltfläche „Neustart** - Orchestrierte Kampagnen enthalten jetzt eine <strong>Schaltfläche „Neustart</strong>, sodass Sie Ausführungen bei Bedarf schnell neu starten können, bevor Sie die Kampagne veröffentlichen.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13920">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-106020">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13920">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-106020">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 * **Unterstützung der Ratenkontrolle** - Orchestrierte Kampagnen unterstützen jetzt die <strong>Ratenkontrolle</strong>, damit Sie Sendungen schneller durchführen und sich an Volumenbeschränkungen ausrichten können.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13764">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-113254">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13764">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-113254">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 #### Berechtigungen
 
 * **Selbstvalidierung für Journey und Kampagnen verhindern** - Jetzt können Sie festlegen, dass Ersteller keine eigenen Journey oder Kampagnen genehmigen können, was <strong>Aufgabentrennung</strong> in Genehmigungs-Workflows verbessert.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13472">LINK ZUR AUFGABE „DOCAC JIRA“</a> <a href="https://jira.corp.adobe.com/browse/CJM-99957">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a> <a href="https://jira.corp.adobe.com/browse/CJM-95676">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13472">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-99957">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95676">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a>
 
 ## Demnächst {#jan-26-01-coming-soon}
 
@@ -357,7 +357,7 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <tr>
 <td>
 <p>Mit Adobe Experience Platform Agent Orchestrator ist <strong>Journey Agent</strong> in Journey Optimizer verfügbar und ermöglicht die Analyse von Journey über eine natürliche Sprachschnittstelle. Sie können jetzt auch kanalspezifische Inhalte direkt in Journey Agent generieren und verwalten, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, den Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in Content Designer zur kontextbezogenen Bearbeitung öffnen.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13980">LINK ZU DOCAC JIRA-AUFGABE</a>LINK <a href="https://jira.corp.adobe.com/browse/CJM-111882"> PRODUKT-JIRA-AUFGABE</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13980">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-111882">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a></p>
 <p>Verfügbarkeitsdatum: Dienstag, 2. Februar 2026</p>
 </td>
 </tr>
@@ -374,7 +374,7 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <tr>
 <td>
 <p>Sie können jetzt <strong>personalisierte Angebote</strong> durch eine dedizierte Inhaltsentscheidungsaktivität in die Journey-Arbeitsfläche in Ihre Journey einbeziehen und sie in Journey-Aktivitäten, einschließlich Bedingungen und benutzerdefinierter Aktionen, verwenden.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">LINK ZU DOCAC JIRA-AUFGABE</a>LINK <a href="https://jira.corp.adobe.com/browse/CJM-99223"> PRODUKT-JIRA-AUFGABE</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">LINK ZUR AUFGABE „DOCAC JIRA“</a> | <a href="https://jira.corp.adobe.com/browse/CJM-99223">LINK ZUR JIRA-AUFGABE FÜR DAS PRODUKT</a></p>
 <p>Verfügbarkeitsdatum: Dienstag, 2. Februar 2026</p>
 </td>
 </tr>
