@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
+source-git-commit: 69efe0254aae3cb067f2c9f89db6aa4fe0a50549
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 5%
+source-wordcount: '358'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um einem veröffentlichten Fragment kontextuelle Attrib
 
 >[!IMPORTANT]
 >
->Fahren Sie nur fort, wenn Sie die Auswirkungen auf Journey und Kampagnen, die auf das Fragment verweisen, vollständig verstehen. [Weitere Informationen](#limitations)
+>Fahren Sie nur fort, wenn Sie [ Auswirkungen auf Journey und Kampagnen, ](#limitations) auf das Fragment verweisen, vollständig verstehen.
 
 1. Navigieren Sie **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]**.
 
@@ -56,11 +56,7 @@ Gehen Sie wie folgt vor, um einem veröffentlichten Fragment kontextuelle Attrib
 
 1. Wechseln Sie **[!UICONTROL Personalisierungseditor]** den **[!UICONTROL Erweiterter Modus]**.
 
-1. Geben Sie das kontextuelle Attribut manuell ein (kopieren Sie es) oder fügen Sie es mithilfe der Syntax ein:
-
-   ```
-   {{context.attribute_name}}
-   ```
+1. Geben Sie das kontextuelle Attribut manuell ein (kopieren Sie es) oder fügen Sie es mithilfe der `{{context.attribute_name}}` ein:
 
    Beispiel für ein `promotionCode`:
 
@@ -83,6 +79,6 @@ Gehen Sie wie folgt vor, um einem veröffentlichten Fragment kontextuelle Attrib
 
 * [Verwalten von Fragmenten](manage-fragments.md)
 * [Bearbeiten eines Fragments](manage-fragments.md#edit-fragments)
-* [API-ausgelöste Kampagnen](../campaigns/api-triggered-campaigns.md)
+* [Durch API ausgelöste Kampagnen](../campaigns/api-triggered-campaigns.md)
 * [Personalisierungssyntax](../personalization/personalization-syntax.md)
 
