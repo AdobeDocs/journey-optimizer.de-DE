@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um einem veröffentlichten Fragment kontextuelle Attrib
 
 >[!IMPORTANT]
 >
->Fahren Sie nur fort, wenn Sie [ Auswirkungen auf Journey und Kampagnen, ](#limitations) auf das Fragment verweisen, vollständig verstehen.
+>Fahren Sie nur fort, wenn Sie [&#x200B; Auswirkungen auf Journey und Kampagnen, &#x200B;](#limitations) auf das Fragment verweisen, vollständig verstehen.
 
 1. Navigieren Sie **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]**.
 
