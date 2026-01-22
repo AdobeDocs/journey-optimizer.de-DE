@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5305db965ace448b0df3323d6211317066efae3f
+source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 22%
+source-wordcount: '2358'
+ht-degree: 23%
 
 ---
 
@@ -298,11 +298,6 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### Experience Decisioning
 
-* **Journey-Schlichtung** - Sie können jetzt <strong>Formeln und KI-Modelle</strong> verwenden, um die Journey-Prioritätswerte automatisch basierend auf Kundenprofilattributen und Kontextfaktoren zu erhöhen, sodass Kundinnen und Kunden in die relevantesten Journey eintreten.
-
-  **Hinweis**: Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit).
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13976">Link zur DOCAC JIRA-Aufgabe</a> | <a href="https://jira.corp.adobe.com/browse/CJM-78932">Link zur JIRA-Aufgabe für das Produkt</a>
-
 * **exd sandbox tooling documentation - update** - Beschreibung bereitzustellen.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">Link zur DOCAC JIRA-Aufgabe</a>
 
@@ -398,3 +393,4 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 </tr>
 </tbody>
 </table>
+
