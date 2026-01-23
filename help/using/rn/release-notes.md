@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 775811ef33441c3209eaedc6cd3bee8f686190e0
+source-git-commit: 9ddf79c9542ad10907b25b2db4415130faec5d8d
 workflow-type: tm+mt
-source-wordcount: '2087'
-ht-degree: 29%
+source-wordcount: '2027'
+ht-degree: 30%
 
 ---
 
@@ -284,10 +284,6 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
   **Hinweis**: Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit).
 
-
-#### E-Mail-Designer
-
-* **In-Place-Korrekturen im E-**-Designer - Bei der Verwaltung von Inhalten mit Ihren Markenrichtlinien sind jetzt <strong>KI-gestützte automatische Inhaltsvorschläge</strong> verfügbar, wenn bei der Inhaltsvalidierung Verstöße erkannt werden. Wenn Inhalte als nicht konform mit den Markenrichtlinien eingestuft werden oder die Qualitätskriterien nicht erfüllt werden, generiert das System proaktiv korrigierte Alternativen, die inline überprüft und angewendet werden können, wodurch die Compliance verbessert und die Produktion beschleunigt wird.
 
 #### Experience Decisioning
 
