@@ -5,25 +5,15 @@ title: Erstellen Ihrer ersten Regel
 description: Informationen zur Erstellung von Regeln für Ihre orchestrierten Kampagnen
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+source-git-commit: e8b17fc5a7339092d2b276c36078d8841df28ef6
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1818'
 ht-degree: 100%
 
 ---
 
 
 # Erstellen Ihrer ersten Regel {#build-query}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_selectaudience"
->title="Zielgruppe auswählen"
->abstract="Mit der Option **Zielgruppe auswählen** können Sie die Zielgruppe auswählen, die Sie zum Filtern Ihrer Abfrage verwenden möchten."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_predefinedfilter"
->title="Vordefinierter Filter"
->abstract="Mit der Option **Vordefinierter Filter** können Sie einen vordefinierten Filter aus der Liste der benutzerdefinierten Filter oder aus den Favoriten auswählen."
 
 Die Hauptschritte zur Erstellung von Regeln für Ihre orchestrierten Kampagnen lauten wie folgt:
 
@@ -174,11 +164,6 @@ Mit benutzerdefinierten Bedingungen können Sie Aggregierungsvorgänge ausführe
    ![Screenshot der Option „Daten aggregieren“](assets/rule-builder-aggregate.png)
 
 ## Kombinieren von Bedingungen mithilfe von Operatoren {#operators}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_group"
->title="Gruppe"
->abstract="In diesem Bereich können Sie den Operator ändern, der zur Verknüpfung der Filterbedingungen verwendet wird."
 
 Jedes Mal, wenn Sie Ihrer Regel eine neue Bedingung hinzufügen, wird diese automatisch durch einen **UND**-Operator mit der bestehenden Bedingung verknüpft. Dadurch werden die Ergebnisse der beiden Bedingungen kombiniert.
 
