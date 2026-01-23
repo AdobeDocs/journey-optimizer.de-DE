@@ -5,15 +5,25 @@ title: Erstellen Ihrer ersten Regel
 description: Informationen zur Erstellung von Regeln für Ihre orchestrierten Kampagnen
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1878'
 ht-degree: 100%
 
 ---
 
 
 # Erstellen Ihrer ersten Regel {#build-query}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_selectaudience"
+>title="Zielgruppe auswählen"
+>abstract="Mit der Option **Zielgruppe auswählen** können Sie die Zielgruppe auswählen, die Sie zum Filtern Ihrer Abfrage verwenden möchten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_predefinedfilter"
+>title="Vordefinierter Filter"
+>abstract="Mit der Option **Vordefinierter Filter** können Sie einen vordefinierten Filter aus der Liste der benutzerdefinierten Filter oder aus den Favoriten auswählen."
 
 Die Hauptschritte zur Erstellung von Regeln für Ihre orchestrierten Kampagnen lauten wie folgt:
 
@@ -22,6 +32,11 @@ Die Hauptschritte zur Erstellung von Regeln für Ihre orchestrierten Kampagnen l
 1. **Überprüfen und Validieren der Regel**: Überprüfen Sie die resultierenden Daten Ihrer Regel, bevor Sie sie speichern.
 
 ## Hinzufügen einer Bedingung {#conditions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_customcondition"
+>title="Benutzerdefinierte Bedingung"
+>abstract="Bei benutzerdefinierten Bedingungen handelt es sich um Filterkomponenten zum Filtern einer Abfrage, mit der Sie Ihre eigene Bedingung mit Attributen aus der Datenbank und erweiterten Ausdrücken erstellen."
 
 Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
 
@@ -82,7 +97,7 @@ Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
    | Größer oder gleich | Die ausgegebenen Daten sind identisch mit oder übersteigen den angegebenen Wert. | „Alter (@age) größer oder gleich ‚30‘“ gibt alle Empfängerinnen und Empfänger ab 30 Jahren aus. |
    | Kleiner oder gleich | Die ausgegebenen Daten sind identisch mit oder unterschreiten den angegebenen Wert. | „Alter (@age) kleiner oder gleich ‚60‘“ gibt alle Empfängerinnen und Empfänger bis 60 Jahren aus. |
    | Eingeschlossen in | Die ausgegebenen Daten sind in den angegebenen Werten enthalten. Die Werte müssen durch Kommata getrennt werden. | „Geburtsdatum (@birthDate) ist enthalten in ‚10.12.1979,10.12.1984‘“ gibt die Empfängerinnen und Empfänger aus, die zwischen diesen beiden Daten geboren wurden. |
-   | Nicht enthalten | Negative Form des Operators „ist enthalten in“. Hier werden Empfängerinnen und Empfänger anhand der eingegebenen Werte ausgeschlossen. | Das Geburtsdatum (@birthDate) ist nicht in &#39;12/10/1979,12/10/1984&#39; enthalten. Empfängerinnen und Empfänger, die innerhalb dieses Datumsbereichs geboren wurden, werden nicht ausgegeben. |
+   | Ist nicht enthalten in | Negative Form des Operators „ist enthalten in“. Hier werden Empfängerinnen und Empfänger anhand der eingegebenen Werte ausgeschlossen. | Das Geburtsdatum (@birthDate) ist nicht in &#39;12/10/1979,12/10/1984&#39; enthalten. Empfängerinnen und Empfänger, die innerhalb dieses Datumsbereichs geboren wurden, werden nicht ausgegeben. |
    | Ist leer | Die ausgegebenen Daten stimmen mit einem leeren Wert in der zweiten Spalte überein. | „Mobiltelefon (@mobilePhone) ist leer“ gibt alle Empfängerinnen und Empfänger zurück, die keine Mobiltelefonnummer haben. |
    | Ist nicht leer | Negative Form des Operators „Ist leer“. Es ist nicht nötig, Daten in die zweite Wert-Spalte einzugeben. | E-Mail (@email) ist nicht leer. |
    | Beginnt mit | Die ausgegebenen Daten beginnen mit dem angegebenen Wert. | Kundennummer (@account) beginnt mit &#39;32010&#39;. |
@@ -160,6 +175,11 @@ Mit benutzerdefinierten Bedingungen können Sie Aggregierungsvorgänge ausführe
 
 ## Kombinieren von Bedingungen mithilfe von Operatoren {#operators}
 
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_group"
+>title="Gruppe"
+>abstract="In diesem Bereich können Sie den Operator ändern, der zur Verknüpfung der Filterbedingungen verwendet wird."
+
 Jedes Mal, wenn Sie Ihrer Regel eine neue Bedingung hinzufügen, wird diese automatisch durch einen **UND**-Operator mit der bestehenden Bedingung verknüpft. Dadurch werden die Ergebnisse der beiden Bedingungen kombiniert.
 
 Um den Operator zwischen den Bedingungen zu ändern, klicken Sie darauf und wählen Sie den gewünschten Operator aus.
@@ -200,12 +220,17 @@ Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Kundinnen und K
 
 ## Überprüfen und Validieren einer Abfrage
 
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_ruleproperties"
+>title="Regeleigenschaften"
+>abstract="Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie rechts im Bereich **Regeleigenschaften** überprüfen.<br/>In diesem Bereich können Sie die resultierenden Daten anzeigen, eine SQL-Code-Version der Abfrage abrufen und die Anzahl der Zieleinträge überprüfen.<br/>Über die Schaltfläche **Filter auswählen oder speichern** können Sie Ihre Abfrage als vordefinierten Filter speichern oder den Arbeitsflächeninhalt durch einen vorhandenen Filter ersetzen."
+
 Sobald Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie diese im Bereich **Regeleigenschaften** überprüfen. Verfügbare Vorgänge sind:
 
 * **Ergebnisse anzeigen:** Zeigt die aus Ihrer Abfrage resultierenden Daten an.
 * **Code-Ansicht**: Zeigt eine Code-basierte Version der Abfrage in SQL an.
 * **Berechnen**: Aktualisiert die Anzahl der Einträge, auf die Ihre Regel abzielt, und zeigt diese an.
-* **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter zur Verwendung in der Arbeitsfläche aus oder speichern Sie Ihre Abfrage als vordefinierten Filter zur späteren Wiederverwendung. 
+* **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter zur Verwendung in der Arbeitsfläche aus, oder speichern Sie Ihre Abfrage als vordefinierten Filter zur späteren Wiederverwendung ab. 
 
 <br/>
 

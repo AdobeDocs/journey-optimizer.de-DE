@@ -5,15 +5,20 @@ title: Arbeiten mit dem Regel-Builder
 description: Informationen zur Erstellung von Regeln für Ihre orchestrierten Kampagnen
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '328'
 ht-degree: 100%
 
 ---
 
 
 # Arbeiten mit dem Regel-Builder {#orchestrated-rule-builder}
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_querymodeler_predefinedfilter"
+>title="Vordefinierter Filter"
+>abstract="Mit der Option **Vordefinierter Filter** können Sie einen vordefinierten Filter aus der Liste der benutzerdefinierten Filter oder aus den Favoriten auswählen."
 
 Orchestrierte Kampagnen enthalten einen Regel-Builder, der den Prozess der Filterung der Datenbank anhand verschiedener Kriterien vereinfacht. Der Regel-Builder verwaltet sehr komplexe und lange Abfragen effizient und bietet dabei erhöhte Flexibilität und Genauigkeit. 
 
