@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Versionshinweise
 feature: Release Notes
-topic: Content Management
+role: User
+level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
+source-git-commit: 21231a10389a6238cff6d71966ce2bab8379ea59
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2096'
 ht-degree: 29%
 
 ---
@@ -363,6 +364,7 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <tr>
 <td>
 <p>Sie können jetzt <strong>personalisierte Angebote</strong> durch eine dedizierte Inhaltsentscheidungsaktivität in die Journey-Arbeitsfläche in Ihre Journey einbeziehen und sie in Journey-Aktivitäten, einschließlich Bedingungen und benutzerdefinierter Aktionen, verwenden.</p>
+<p>Diese Funktion steht allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Verfügbarkeitsdatum: Mittwoch, 3. Februar 2026</p>
 </td>
 </tr>
