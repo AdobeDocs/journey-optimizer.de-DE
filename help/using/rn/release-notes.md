@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 68033e08fb57cad65a721540e530cfb7cc884a3b
+source-git-commit: d76ef12bab4502ef78c0e1d2d6b61957d54a351b
 workflow-type: tm+mt
-source-wordcount: '1984'
-ht-degree: 29%
+source-wordcount: '1962'
+ht-degree: 28%
 
 ---
 
@@ -120,22 +120,6 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <p>Adobe Journey Optimizer unterstützt jetzt <strong>Web-Push-Benachrichtigungen</strong> und erweitert den Push-Kanal über Mobile hinaus. Sie können Benachrichtigungen sowohl an mobile als auch an Desktop-Browser senden, sodass Sie Kunden direkt auf ihren Geräten erreichen können, ohne eine App zu benötigen. Diese Verbesserung ermöglicht es Ihnen, Benutzende in Echtzeit mit zeitnahen, personalisierten Nachrichten anzusprechen, unter Nutzung derselben Authoring-Workflows und Targeting-Funktionen, die bereits für mobile Push-Benachrichtigungen verfügbar sind.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><strong>Hinweis</strong>: Stille Benachrichtigungen werden für Web-Push-Benachrichtigungen noch nicht unterstützt.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Unterstützung von Entscheidungen in Push- und SMS-Kanälen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt <strong>Entscheidungsrichtlinien</strong> zu Push- und SMS-Journey und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Engine nutzen, um für jedes Zielgruppenmitglied die besten Inhalte bereitzustellen.</p>
-<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
@@ -327,6 +311,22 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <td>
 <p>Mit Adobe Experience Platform Agent Orchestrator ist <strong>Journey Agent</strong> in Journey Optimizer verfügbar und ermöglicht die Analyse von Journey über eine natürliche Sprachschnittstelle. Sie können jetzt auch kanalspezifische Inhalte direkt in Journey Agent generieren und verwalten, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, den Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in Content Designer zur kontextbezogenen Bearbeitung öffnen.</p>
 <p>Verfügbarkeitsdatum: Dienstag, 2. Februar 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Unterstützung von Entscheidungen in Push- und SMS-Kanälen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt den Inhalt Ihrer Push- und SMS-Nachrichten mit "<strong>" personalisieren und </strong>. Verwenden Sie <strong>Prioritätswerte</strong> Formeln oder KI-Modelle, um Ihren Kunden die besten Inhalte anzuzeigen.</p>
+<p>Verfügbarkeitsdatum: Mittwoch, 3. Februar 2026</p>
 </td>
 </tr>
 </tbody>
