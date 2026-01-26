@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '642'
-ht-degree: 100%
+source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 94%
 
 ---
 
@@ -25,6 +25,11 @@ Verwenden Sie als Admin die Funktion **[!UICONTROL Testanfrage senden]**, um die
 ![](assets/send-test-request.png){width="70%" align="left"}
 
 Indem Sie diese Funktion verwenden, wird der Test- und Validierungsprozess optimiert, sodass benutzerdefinierte Aktionen in Live-Journeys ordnungsgemäß funktionieren.
+
+>[!NOTE]
+>
+>Wenn für Ihr Unternehmen der IP (Ausgangs)-Proxy aktiviert ist, wird **[!UICONTROL Aufruf „Testanfrage senden]** umgangen. Um das Proxy-Routing zu bestätigen, führen Sie einen Test oder eine Live-Journey aus. Erfahren Sie mehr über den IP (Egress)-Proxy und die Aktivierung in [Integration mit externen Systemen](../configuration/external-systems.md#faq).
+
 
 ## Voraussetzungen {#troubleshoot-custom-action-prereq}
 
