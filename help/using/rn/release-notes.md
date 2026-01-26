@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d76ef12bab4502ef78c0e1d2d6b61957d54a351b
+source-git-commit: 9dedefb30a6c61965595a102c2d02207ae620285
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '2015'
 ht-degree: 28%
 
 ---
@@ -85,7 +85,6 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tr>
 <td>
 <p>Mit Ruhestunden können Sie <strong>zeitbasierte Ausschlüsse</strong> für E-Mail-, SMS-, Push- und WhatsApp-Kanäle definieren. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen. Ruhezeiten können über <strong>Regelsätze</strong> angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können.</p>
-<p><strong>Hinweis</strong>: Ruhige Stunden werden für orchestrierte Kampagnen nicht unterstützt.</p>
 <p>Diese Funktion wurde zuvor in eingeschränkter Verfügbarkeit veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeit bietet die Funktion jetzt die Möglichkeit, dass Kundinnen und Kunden eine Kampagnenaktion bis zum Abschluss der Ruhezeiten in die Warteschlange stellen und die aktivierte Regel für Ruhezeiten in der Vorschau anzeigen können.</p>
 </td>
 </tr>
@@ -118,8 +117,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tr>
 <td>
 <p>Adobe Journey Optimizer unterstützt jetzt <strong>Web-Push-Benachrichtigungen</strong> und erweitert den Push-Kanal über Mobile hinaus. Sie können Benachrichtigungen sowohl an mobile als auch an Desktop-Browser senden, sodass Sie Kunden direkt auf ihren Geräten erreichen können, ohne eine App zu benötigen. Diese Verbesserung ermöglicht es Ihnen, Benutzende in Echtzeit mit zeitnahen, personalisierten Nachrichten anzusprechen, unter Nutzung derselben Authoring-Workflows und Targeting-Funktionen, die bereits für mobile Push-Benachrichtigungen verfügbar sind.</p>
-<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p><strong>Hinweis</strong>: Stille Benachrichtigungen werden für Web-Push-Benachrichtigungen noch nicht unterstützt.</p>
+<p>Diese Funktion wurde zuvor als Beta-Version veröffentlicht, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 </td>
 </tr>
 </tbody>
@@ -156,6 +154,21 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <li>Kopien der an Einzelpersonen gesendeten personalisierten Inhalte aufbewahren</li>
 </ul>
 <p>Datensätze werden im AJO-Nachrichtenexport-Datensatz <strong>7 Kalendertage nach der Aufnahme aufbewahrt</strong>. Während dieser Aufbewahrungsfrist können Sie die Daten über Experience Platform-Ziele in Ihren eigenen Speicher exportieren. Die Funktion wird auf der Ebene der Kanalkonfiguration aktiviert, sodass Sie granulare Kontrolle darüber erhalten, welche Nachrichten exportiert werden.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Self-Service-Migrations-Tools-APIs</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ein neuer Satz von <strong>Migrations-Tool-APIs</strong> ist verfügbar, um Angebotsverwaltungsentitäten in Experience Decisioning zu migrieren. Die Tools ermöglichen eine nahtlose Migration zwischen Sandboxes mit Funktionen zur Abhängigkeitsauflösung und zum Rollback.</p>
 </td>
 </tr>
 </tbody>
@@ -247,16 +260,18 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Aktualisieren von Marken mit neuer Farbregisterkarte** - Markenrichtlinien helfen sicherzustellen, dass Ihre Marke auf allen Touchpoints konsistent präsentiert wird. Der neue <strong>Abschnitt Farben</strong> definiert die Standards für das Farbsystem Ihrer Marke und beschreibt, wie Farben in Erlebnissen ausgewählt, organisiert und angewendet werden. Es sorgt für die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben, um eine kohärente, barrierefreie und erkennbare Markenidentität zu unterstützen.
 
+#### Kanäle
+
+* **SMS-Webhooks** - Webhooks werden jetzt von allen SMS-Anbietern unterstützt. Sie können jeden Webhook für einen bestimmten Zweck, eingehende Webhooks zum Erfassen eingehender Nachrichten und Feedback-Webhooks konfigurieren, um Versandbestätigungen, Statusaktualisierungen und andere nachrichtenbezogene Ereignisse zu erhalten.
+
 #### Kampagnen
 
-* **Kampagne mithilfe der Zeitzone des Profils planen** - Die Kampagnenplanung kann jetzt die <strong>Zeitzone“ jedes Profils verwenden, </strong> Nachrichten zur gewünschten lokalen Zeit zu versenden. Die Planung mit Zeitzonen des Profils ist für die Kanäle E-Mail, Push, SMS, WhatsApp und LINE verfügbar.
+* **Kampagne mithilfe der Zeitzone des Profils planen** - Die Kampagnenplanung kann jetzt die <strong>Zeitzone“ jedes Profils verwenden, </strong> Nachrichten zur gewünschten lokalen Zeit zu versenden.
 
   **Hinweis**: Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit).
 
 
 #### Experience Decisioning
-
-* **Self-Service-Migrations-Tooling** APIs: Ein neuer Satz <strong>Migrations-Tooling-</strong> ist verfügbar, um Angebotsverwaltungsentitäten in Experience Decisioning zu migrieren. Die Tools ermöglichen eine nahtlose Migration zwischen Sandboxes mit Funktionen zur Abhängigkeitsauflösung und zum Rollback.
 
 * **Fragmente an Entscheidungselemente anhängen** - Journey Optimizer bietet jetzt die Möglichkeit, <strong>Fragmente</strong> an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können.
 
@@ -268,7 +283,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Kombinieren von nativen und Adobe Campaign-Nachrichtenaktionen** - Mit Journey Optimizer können Sie jetzt Adobe Campaign v7/v8-Nachrichtenaktionen mit nativen Kanalaktionen auf derselben Journey kombinieren.
 
-* **Validierung der Journey-Payload-Größe in Journey** - Journey Optimizer bietet jetzt <strong>Validierung der Payload-Größe</strong>, um eine optimale Leistung und Systemstabilität sicherzustellen. Beim Erstellen oder Veröffentlichen von Journey erhalten Sie deutliche Warnhinweise und Fehler, wenn die Payload-Größe die empfohlenen Grenzwerte erreicht oder überschreitet, sowie praktische Anleitungen zur Optimierung Ihrer Journey-Konfiguration. Diese proaktive Validierung hilft Ihnen, potenzielle Probleme frühzeitig zu erkennen und die Journey-Leistung aufrechtzuerhalten.
+* **Validierung der Journey-Payload-Größe in Journey** - Journey Optimizer validiert jetzt die Journey-Payload-Größen, um eine optimale Leistung und Systemstabilität zu gewährleisten. Beim Erstellen oder Veröffentlichen von Journey erhalten Sie deutliche Warnhinweise und Fehler, wenn die Payload-Größe die empfohlenen Grenzwerte erreicht oder überschreitet, sowie praktische Anleitungen zur Optimierung Ihrer Journey-Konfiguration. Diese proaktive Validierung hilft Ihnen, potenzielle Probleme frühzeitig zu erkennen und die Journey-Leistung aufrechtzuerhalten.
 
 * **Mehrere eingehende Aktionen in Journey** - Um Ihre Journey-Orchestrierung zu vereinfachen, können Sie jetzt <strong>mehrere eingehende Aktionen</strong> in einer einzigen Journey definieren. Diese Funktion war bisher in -Kampagnen verfügbar und ermöglicht es Ihnen, mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen an verschiedene Orte gleichzeitig zu senden, wobei jede Aktion einen bestimmten Inhalt enthält.
 
@@ -278,9 +293,9 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Attribute auswählen und Verteilungswerte kopieren** - Sie können jetzt Werte direkt in der Ansicht Werteverteilung in orchestrierten Kampagnen auswählen oder kopieren.
 
-* **Vererbung von Datennutzungskennzeichnungen für Zielgruppen** - <strong>Datennutzungskennzeichnungen</strong>, die in Adobe Experience Platform angewendet werden, werden jetzt beim Speichern von Zielgruppen in orchestrierten Kampagnen automatisch übernommen, was das manuelle DULE-Tagging reduziert.
+* **Vererbung von Datennutzungskennzeichnungen für Zielgruppen** - Kennzeichnungen, die in Adobe Experience Platform angewendet werden, werden jetzt beim Speichern von Zielgruppen in orchestrierten Kampagnen automatisch übernommen, was das manuelle DULE-Tagging reduziert.
 
-* **Vordefinierte Retargeting** Filter) - Diese Version führt neue Filter für das Retargeting ein, um das Retargeting <strong> Anwendungsfällen für orchestrierte Kampagnen zu </strong>. Mit diesen Filtern können Sie Zielgruppen direkt ansprechen, basierend auf der Interaktion mit Nachrichten, wie z. B. gesendet, nur geöffnet, geöffnet oder geklickt oder geöffnet und geklickt, und die spezifische Kampagne oder Kampagne in der Übergangsphase auswählen, die Sie erneut ansprechen möchten.
+* **Vordefinierte Retargeting-Filter** - Um das Retargeting für Anwendungsfälle mit orchestrierten Kampagnen zu erleichtern, werden in dieser Version neue <strong>Kampagnen-Feedback-Filter</strong> eingeführt. Mit diesen Filtern können Sie Zielgruppen direkt ansprechen, basierend auf der Interaktion mit Nachrichten, wie z. B. gesendet, nur geöffnet, geöffnet oder geklickt oder geöffnet und geklickt, und die spezifische Kampagne oder Kampagne in der Übergangsphase auswählen, die Sie erneut ansprechen möchten.
 
 * **Vordefinierte Filter mit Parametern** - Sie können jetzt &quot;<strong> mit Parametern“ in </strong> Kampagnen für wiederverwendbare, bearbeitbare Regeln erstellen.
 
@@ -294,7 +309,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### Berechtigungen
 
-* **Selbstvalidierung für Journey und Kampagnen verhindern** - Jetzt können Sie festlegen, dass Ersteller keine eigenen Journey oder Kampagnen genehmigen können, was <strong>Aufgabentrennung</strong> in Genehmigungs-Workflows verbessert.
+* **Selbstvalidierung für Journey und Kampagnen verhindern** - Beim Erstellen oder Festlegen der Validierungsrichtlinie wurde eine Option hinzugefügt, mit der Journey-/Kampagnenerstellende daran gehindert werden können, ihre eigenen Objekte zu validieren.
 
 ## Demnächst {#jan-26-01-coming-soon}
 
@@ -319,13 +334,30 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <table>
 <thead>
 <tr>
-<th><strong>Unterstützung von Entscheidungen in Push- und SMS-Kanälen</strong><br/></th>
+<th><strong>Unterstützung von Entscheidungen im Push-Kanal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt den Inhalt Ihrer Push- und SMS-Nachrichten mit "<strong>" personalisieren und </strong>. Verwenden Sie <strong>Prioritätswerte</strong> Formeln oder KI-Modelle, um Ihren Kunden die besten Inhalte anzuzeigen.</p>
+<p>Sie können jetzt den Inhalt Ihrer Push-Nachrichten mit "<strong>" personalisieren und </strong>. Verwenden Sie <strong>Prioritätswerte</strong> Formeln oder KI-Modelle, um Ihren Kunden die besten Inhalte anzuzeigen.</p>
+<p>Verfügbarkeitsdatum: Mittwoch, 3. Februar 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Entscheidungsunterstützung im SMS-Kanal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Entscheidungsrichtlinien zu SMS-Journey und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Engine nutzen, um für jedes Zielgruppenmitglied die besten Inhalte bereitzustellen.</p>
+<p>Diese Funktion ist für eine Reihe von Organisationen in begrenzter Verfügbarkeit verfügbar.</p>
 <p>Verfügbarkeitsdatum: Mittwoch, 3. Februar 2026</p>
 </td>
 </tr>
