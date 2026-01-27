@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kam
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '657'
-ht-degree: 100%
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+workflow-type: tm+mt
+source-wordcount: '884'
+ht-degree: 68%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Beim Retargeting können Sie Empfängerinnen und Empfänger je nachdem ansprechen, wie sie auf eine frühere orchestrierte Kampagne reagiert haben. Sie können beispielsweise eine zweite E-Mail an die Personen senden, die die erste zwar erhalten, aber nicht angeklickt haben.
 
-Eine **[!UICONTROL orchestrierte Kampagne]** bietet hierfür zwei Hauptattribute:
+**[!UICONTROL Orchestrierte Kampagne]** bietet zwei Hauptschemata dafür:
 
 * **[!UICONTROL Nachrichten-Feedback]**: Erfasst Ereignisse im Zusammenhang mit dem Versand, z. B. gesendete, geöffnete, zurückgewiesene Nachricht (Bounce) usw.
 * **[!UICONTROL E-Mail-Tracking]**: Erfasst Benutzeraktionen, z. B. Klicks und Öffnungen.
@@ -28,15 +28,31 @@ Eine **[!UICONTROL orchestrierte Kampagne]** bietet hierfür zwei Hauptattribute
 
 ## Erstellen einer Feedback-basierten Retargeting-Regel {#feedback-retarget}
 
-Eine Feedback-basierte Retargeting-Regel ermöglicht ein erneutes Ansprechen von Empfängerinnen und Empfängern auf der Grundlage von Nachrichtenversand-Ereignissen, die im Attribut **[!UICONTROL Nachrichten-Feedback]** erfasst wurden. Zu diesen Ereignissen gehören Ergebnisse wie das Senden, Öffnen, Zurückweisen oder Kennzeichnen von Nachrichten als Spam.
+Feedback-basierte Retargeting-Regel ermöglicht die erneute Zielgruppenbestimmung von Empfängern auf der Grundlage von Nachrichtenversand-Ereignissen, die im Schema **[!UICONTROL Nachrichten-Feedback]** erfasst wurden. Zu diesen Ereignissen gehören Ergebnisse wie das Senden, Öffnen, Zurückweisen oder Kennzeichnen von Nachrichten als Spam.
 
 Mithilfe dieser Daten können Sie Regeln definieren, um Empfängerinnen und Empfänger zu identifizieren, die eine frühere Nachricht erhalten haben. Dies erlaubt eine Folgekommunikation basierend auf bestimmten Versandstatus.
 
 1. Erstellen Sie eine neue **[!UICONTROL orchestrierte Kampagne]**.
 
-1. Fügen Sie eine Aktivität **[!UICONTROL Zielgruppe erstellen]** hinzu und legen Sie für die Zielgruppendimension **[!UICONTROL Empfänger (caas)]** fest.
+1. Fügen Sie die Aktivität **[!UICONTROL Zielgruppe aufbauen]** hinzu und legen Sie für die Zielgruppendimension **[!UICONTROL Empfänger (caas)]** fest. Klicken Sie auf **[!UICONTROL Fortfahren]**.
 
-1. Klicken Sie im **[!UICONTROL Regel-Builder]** auf **[!UICONTROL Bedingung hinzufügen]** und wählen Sie in der **[!UICONTROL Attributauswahl]** die Option **[!UICONTROL Nachrichten-Feedback]**. Klicken Sie auf **[!UICONTROL Bestätigen]**, um eine Bedingung vom Typ **Nachrichten-Feedback ist vorhanden, z. B.** zu erstellen.
+1. Um schnell loszulegen, können Sie einen integrierten Filter **[!UICONTROL Kampagnen-Feedback]** verwenden, um Empfänger auf der Grundlage von Nachrichtenversand-Ereignissen anzusprechen.
+
+   +++ Detaillierte schrittweise Anleitungen
+
+   1. Klicken Sie **[!UICONTROL Regel-Builder]** auf **[!UICONTROL Filter auswählen oder speichern]** und wählen Sie **[!UICONTROL Kampagnen-Feedback]** aus der Liste aus.
+
+   1. Wählen Sie die Filterregel und anschließend das **[!UICONTROL Verhalten]** das Sie ansprechen möchten, z. B. **[!UICONTROL Nachricht gesendet]**.
+
+   1. Klicken Sie auf ![Ordnersymbol ](assets/do-not-localize/folder-search.svg) , um die spezifische Kampagne auszuwählen, die Sie neu ansprechen möchten. Sie haben zwei Möglichkeiten:
+
+      * **[!UICONTROL Spezifische Kampagne auswählen]**: Wählen Sie eine bestimmte Kampagne aus Ihrer Liste aus, um Empfänger, die mit dieser Kampagne interagiert haben, erneut anzusprechen.
+
+      * **[!UICONTROL Kampagne aus der Transition]**: Referenziert eine Kampagne aus einer vorherigen Aktivität in Ihrer orchestrierten Kampagne.
+
+   +++
+
+1. Alternativ können Sie manuell benutzerdefinierte Regeln erstellen. Klicken Sie im **[!UICONTROL Regel-Builder]** auf **[!UICONTROL Bedingung hinzufügen]** und wählen Sie in der **[!UICONTROL Attributauswahl]** die Option **[!UICONTROL Nachrichten-Feedback]**. Klicken Sie auf **[!UICONTROL Bestätigen]**, um eine Bedingung vom Typ **Nachrichten-Feedback ist vorhanden, z. B.** zu erstellen.
 
    ![](assets/retarget_1.png){zoomable="yes"}
 
@@ -99,7 +115,7 @@ Sie haben jetzt eine Feedback-basierte Retargeting-Regel konfiguriert, um Empfä
 
 ## Erstellen einer Tracking-basierten Retargeting-Regel {#tracking-based}
 
-Eine Tracking-basierte Retargeting-Regel richtet sich anhand der Daten aus dem Attribut **[!UICONTROL E-Mail-Tracking]** an Empfängerinnen und Empfänger auf Grundlage ihrer Interaktionen mit einer Nachricht. Es werden dabei Benutzeraktionen wie E-Mail-Öffnungen und Klicks auf Links erfasst.
+Die Tracking-basierte Retargeting-Regel richtet sich anhand der Daten aus dem E-Mail-Tracking-Schema **[!UICONTROL Empfänger]** ihrer Interaktionen mit einer Nachricht aus. Es werden dabei Benutzeraktionen wie E-Mail-Öffnungen und Klicks auf Links erfasst.
 
 Um Empfängerinnen und Empfänger auf der Grundlage von Interaktionen mit Nachrichten (z. B. Öffnen oder Klicken) erneut anzusprechen, verwenden Sie die Entität **[!UICONTROL E-Mail-Tracking]** wie folgt:
 
@@ -107,7 +123,27 @@ Um Empfängerinnen und Empfänger auf der Grundlage von Interaktionen mit Nachri
 
 1. Fügen Sie eine Aktivität **[!UICONTROL Zielgruppe erstellen]** hinzu und legen Sie die Zielgruppendimension auf **[!UICONTROL Empfänger (caas)]** fest, um sich auf die vorherigen Empfängerinnen und Empfänger der orchestrierten Kampagne zu konzentrieren.
 
-1. Klicken Sie im **[!UICONTROL Regel-Builder]** auf **[!UICONTROL Bedingung hinzufügen]** und wählen Sie **[!UICONTROL E-Mail-Tracking]** aus der **[!UICONTROL Attributauswahl]**.
+1. Um schnell loszulegen, können Sie einen integrierten Filter **[!UICONTROL Kampagnen-Feedback]** verwenden, um Empfänger auf der Grundlage von Nachrichtenversand-Ereignissen anzusprechen.
+
+   +++ Detaillierte schrittweise Anleitungen
+
+   1. Klicken Sie **[!UICONTROL Regel-Builder]** auf **[!UICONTROL Filter auswählen oder speichern]** und wählen Sie **[!UICONTROL Kampagnen-Feedback]** aus der Liste aus.
+
+      ![](assets/retarget_11.png){zoomable="yes"}
+
+   1. Wählen Sie die Filterregel aus und wählen **[!UICONTROL das gewünschte]** aus, z. B. **[!UICONTROL Nachricht geöffnet]** oder **[!UICONTROL Nachricht angeklickt]**.
+
+      ![](assets/retarget_13.png){zoomable="yes"}
+
+   1. Klicken Sie auf ![Ordnersymbol ](assets/do-not-localize/folder-search.svg) , um die spezifische Kampagne auszuwählen, die Sie neu ansprechen möchten. Sie haben zwei Möglichkeiten:
+
+      * **[!UICONTROL Spezifische Kampagne auswählen]**: Wählen Sie eine bestimmte Kampagne aus Ihrer Liste aus, um Empfänger, die mit dieser Kampagne interagiert haben, erneut anzusprechen.
+
+      * **[!UICONTROL Kampagne aus der Transition]**: Referenziert eine Kampagne aus einer vorherigen Aktivität in Ihrer orchestrierten Kampagne.
+
+   +++
+
+1. Alternativ können Sie manuell benutzerdefinierte Regeln erstellen. Klicken Sie im **[!UICONTROL Regel-Builder]** auf **[!UICONTROL Bedingung hinzufügen]** und wählen Sie **[!UICONTROL E-Mail-Tracking]** aus der **[!UICONTROL Attributauswahl]**.
 
    Klicken Sie auf **[!UICONTROL Bestätigen]**, um eine Bedingung vom Typ **E-Mail-Tracking vorhanden, z. B.** zu erstellen.
 

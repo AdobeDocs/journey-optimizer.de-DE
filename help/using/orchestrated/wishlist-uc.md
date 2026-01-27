@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Wunschlisten-Artikelaktualisierungen senden
-description: Wunschlisten-Artikelaktualisierungen senden
+title: Senden von Aktualisierungen von Wunschlistenartikeln
+description: Senden von Aktualisierungen von Wunschlistenartikeln
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Wunschlisten-Artikelaktualisierungen senden {#wishist-uc}
+# Senden von Aktualisierungen von Wunschlistenartikeln {#wishist-uc}
 
 >[!BEGINSHADEBOX]
 
@@ -25,7 +25,7 @@ In diesem Beispiel wird ein **Wunschliste**-Schema verwendet. Dasselbe Verfahren
 * **Produkt**: mit Feldern: `description`, `priceref`, `imageurl`
 * **AbandonedCarts** (optional): mit Feld: `lastmodified`
 
-➡️ [Erfahren Sie, wie Sie modellbasierte Schemata konfigurieren](gs-schemas.md)
+➡️ [Erfahren Sie, wie Sie relationale Schemata konfigurieren](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

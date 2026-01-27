@@ -5,15 +5,15 @@ title: Verwenden der Aktivität „Zielgruppe speichern“
 description: Informationen zur Verwendung der Aktivität „Zielgruppe speichern“ in einer orchestrierten Kampagne
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 93%
 
 ---
 
 
-# Zielgruppe speichern {#save-audience}
+# Speichern einer Zielgruppe {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
@@ -59,6 +59,9 @@ Der Inhalt der gespeicherten Zielgruppe ist dann in der Detailansicht der Zielgr
 
 ![](../assets/save-audience-4.png)
 
+>[!NOTE]
+>
+>Wenn Ihre Zielgruppendefinition Experience Platform-Schemaattribute verwendet, die mit Datennutzungskennzeichnungen (DULE) gekennzeichnet sind, werden diese Kennzeichnungen automatisch von der gespeicherten Zielgruppe übernommen. Sie müssen sie nicht erneut anwenden. [Weitere Informationen zu Data Governance](../../action/action-privacy.md)
 
 ## Beispiel {#save-audience-example}
 

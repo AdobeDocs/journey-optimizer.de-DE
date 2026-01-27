@@ -5,10 +5,10 @@ title: Erstellen Ihrer ersten Regel
 description: Informationen zur Erstellung von Regeln für Ihre orchestrierten Kampagnen
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: e8b17fc5a7339092d2b276c36078d8841df28ef6
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 100%
+source-wordcount: '1895'
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
 
 1. Klicken Sie auf die Schaltfläche **Bedingung hinzufügen**, um eine erste Bedingung für Ihre Abfrage zu erstellen.
 
-   Sie können Ihre Abfrage auch mit einem vordefinierten Filter starten. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** und wählen Sie **[!UICONTROL Vordefinierten Filter auswählen]**.
+   Sie können Ihre Abfrage auch mit einem vordefinierten Filter starten. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** und wählen Sie **[!UICONTROL Vordefinierten Filter auswählen]**. Weitere Informationen finden Sie unter [Arbeiten mit vordefinierten Filtern](predefined-filters.md).
 
    ![Bild, das den Regel-Builder zeigt](assets/rule-builder-add.png)
 
@@ -50,9 +50,13 @@ Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
 
    +++ Werteverteilung
 
-   Analysieren Sie die Verteilung der Werte für ein bestimmtes Attribut in der Tabelle. Diese Funktion ist nützlich, um die verfügbaren Werte, ihre Anzahl und Prozentsätze zu verstehen. Außerdem lassen sich Probleme wie inkonsistente Groß- und Kleinschreibung oder Schreibweisen beim Erstellen von Abfragen oder Ausdrücken vermeiden.
+   Durch die Werteverteilung können Sie erkennen, wie Werte in der Datenbank verwendet werden. Dies ist hilfreich, um die verfügbaren Werte, ihre Anzahl und Prozentsätze zu verstehen. Außerdem lassen sich Probleme wie inkonsistente Groß- und Kleinschreibung oder Schreibweisen beim Erstellen von Abfragen oder Ausdrücken vermeiden.
 
    Bei Attributen mit einer großen Anzahl von Werten zeigt das Tool nur die ersten zwanzig an. In solchen Fällen wird die Benachrichtigung **[!UICONTROL Teilweise geladen]** angezeigt, um auf diese Einschränkung hinzuweisen. Sie können erweiterte Filter anwenden, um die angezeigten Ergebnisse einzugrenzen und sich auf bestimmte Werte oder Teilmengen von Daten zu konzentrieren. 
+
+   Um Ihre Bedingung schneller zu erstellen, wählen Sie einen Wert aus und klicken Sie auf **[!UICONTROL Attribut und Wert auswählen]**, um das Attribut und den Wert in der aktuellen Bedingung zu füllen.
+
+   Sie können einen Wert auch mithilfe des Symbols ![Bild mit dem Ausdruckseditorsymbol) in ](assets/do-not-localize/activity-copy.svg) Zwischenablage kopieren, um ihn beispielsweise in den Ausdruckseditor einzufügen.
 
    ![Bild, das die Oberfläche der Werteverteilung zeigt](assets/rule-builder-distribution-values.png)
 
@@ -215,7 +219,7 @@ Sobald Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie diese
 * **Ergebnisse anzeigen:** Zeigt die aus Ihrer Abfrage resultierenden Daten an.
 * **Code-Ansicht**: Zeigt eine Code-basierte Version der Abfrage in SQL an.
 * **Berechnen**: Aktualisiert die Anzahl der Einträge, auf die Ihre Regel abzielt, und zeigt diese an.
-* **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter zur Verwendung in der Arbeitsfläche aus, oder speichern Sie Ihre Abfrage als vordefinierten Filter zur späteren Wiederverwendung ab. 
+* **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter aus, um ihn in der Arbeitsfläche zu verwenden, oder speichern Sie Ihre Abfrage als neu vordefinierten Filter, um sie später erneut zu verwenden. Wenn der Filter Parameter enthält, geben Sie Werte an, bevor Sie ihn anwenden. Weitere Informationen finden Sie unter [Arbeiten mit vordefinierten Filtern](predefined-filters.md).
 
 <br/>
 
@@ -224,4 +228,3 @@ Wenn Ihre Regel fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Best
 >[!IMPORTANT]
 >
 >Wenn Sie im Bereich „Regeleigenschaften“ einen vordefinierten Filter auswählen, wird die Regel, die im Arbeitsfläche erstellt wurde, durch den ausgewählten Filter ersetzt.
-

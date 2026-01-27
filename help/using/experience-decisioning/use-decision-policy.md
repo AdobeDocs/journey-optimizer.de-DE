@@ -7,10 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '945'
-ht-degree: 100%
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+workflow-type: tm+mt
+source-wordcount: '946'
+ht-degree: 95%
 
 ---
 
@@ -83,9 +83,11 @@ Sie können auch jedes beliebige Attribut hinzufügen, das im Personalisierungse
 
 Wenn Ihre Entscheidungsrichtlinie Entscheidungselemente einschließlich Fragmenten enthält, können Sie diese Fragmente im Entscheidungsrichtlinien-Code nutzen. [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
 
->[!AVAILABILITY]
+>[!CAUTION]
 >
->Diese Funktion ist derzeit nur für den Code-basierten Erlebniskanal und für eine ausgewählte Anzahl von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+>Diese Funktion ist derzeit nur für den Code-basierten Erlebniskanal verfügbar.
+>
+>Derzeit können nur [Ausdrucksfragmente](../personalization/use-expression-fragments.md) verwendet werden. Verschachtelte Fragmente (Fragmente, die auf andere Fragmente verweisen) werden nicht unterstützt.
 
 Angenommen, Sie möchten verschiedene Inhalte für mehrere Mobilgerätemodelle anzeigen. Stellen Sie sicher, dass Sie Fragmente, die diesen Geräten entsprechen, zu dem Entscheidungselement hinzugefügt haben, das Sie in der Entscheidungsrichtlinie verwenden. [Weitere Informationen](items.md#attributes).
 
@@ -134,7 +136,7 @@ Die Fragment-ID und der Referenzschlüssel werden später im Abschnitt **[!UICON
 
 **Entscheidungselement- und Kontextattribute**
 
-Entscheidungselement- und Kontextattribute werden in [!DNL Journey Optimizer]-Fragmenten nicht standardmäßig unterstützt. Sie können jedoch stattdessen globale Variablen verwenden, wie unten beschrieben.
+Entscheidungselementattribute und kontextuelle Attribute werden in [!DNL Journey Optimizer] Fragmenten nicht standardmäßig unterstützt. Sie können jedoch stattdessen globale Variablen verwenden, wie unten beschrieben.
 
 Angenommen, Sie möchten die Variable *sport* in Ihrem Fragment verwenden.
 

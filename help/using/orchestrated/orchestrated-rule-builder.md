@@ -5,10 +5,10 @@ title: Arbeiten mit dem Regel-Builder
 description: Informationen zur Erstellung von Regeln für Ihre orchestrierten Kampagnen
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ Orchestrierte Kampagnen enthalten einen Regel-Builder, der den Prozess der Filte
 
 Außerdem unterstützt er vordefinierte Filter in Bedingungen, sodass Sie Ihre Abfragen mühelos präzisieren und gleichzeitig erweiterte Ausdrücke und Operatoren für umfassende Zielgruppen-Targeting- und Segmentierungsstrategien nutzen können.
 
-## Zugreifen auf den Regel-Builder
+## Zugreifen auf den Regel-Builder {#access}
 
 Der Regel-Builder ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filtern von Daten definieren müssen.
 
@@ -40,3 +40,7 @@ Der Regel-Builder bietet eine zentrale Arbeitsfläche zum Erstellen Ihrer Abfrag
 * Der Bereich **[!UICONTROL Regeleigenschaften]** enthält Informationen zu Ihrer Regel. Hier können Sie verschiedene Vorgänge ausführen, um Ihre Regel zu überprüfen und sicherzustellen, dass sie Ihren Anforderungen entspricht.
 
   Dieser Bereich wird angezeigt, wenn Sie eine Abfrage zum Erstellen einer Zielgruppe erstellen. [So überprüfen und validieren Sie Ihre Abfrage](build-query.md#check-and-validate-your-query)
+
+## Arbeiten mit vordefinierten Filtern
+
+Vordefinierte Filter ermöglichen die Wiederverwendung gespeicherter Abfragen im Regel-Builder, einschließlich Versionen mit Parametern. Eine ausführliche Anleitung zum Speichern, Anwenden und Verwalten vordefinierter Filter finden Sie unter [Arbeiten mit vordefinierten Filtern](predefined-filters.md).

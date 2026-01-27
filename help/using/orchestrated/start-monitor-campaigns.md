@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kam
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '761'
-ht-degree: 100%
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+workflow-type: tm+mt
+source-wordcount: '916'
+ht-degree: 72%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 100%
 >title="Veröffentlichen einer orchestrierten Kampagne"
 >abstract="Um Ihre Kampagne zu starten, müssen Sie sie veröffentlichen. Stellen Sie sicher, dass alle Fehler vor der Veröffentlichung gelöscht wurden."
 
-Sobald Sie Ihre orchestrierte Kampagne erstellt und die auszuführenden Aufgaben in der Arbeitsfläche entworfen haben, können Sie die Kampagne veröffentlichen und ihre Ausführung überwachen.
-
-Sie können die Kampagne auch im Testmodus ausführen, um ihre Ausführung und das Ergebnis der verschiedenen Aktivitäten zu überprüfen.
+Nachdem Sie Ihre orchestrierte Kampagne erstellt und die Aufgaben entworfen haben, die auf der Arbeitsfläche ausgeführt werden sollen, können Sie sie veröffentlichen und ihre Ausführung überwachen. Sie können die Kampagne auch im Testmodus ausführen, um ihre Ausführung und das Ergebnis der verschiedenen Aktivitäten zu überprüfen.
 
 ## Testen der Kampagne vor der Veröffentlichung {#test}
 
@@ -35,17 +33,18 @@ Mit [!DNL Journey Optimizer] können Sie orchestrierte Kampagnen vor der Live-Sc
 
 Um eine orchestrierte Kampagne zu testen, öffnen Sie die Kampagne und wählen Sie **[!UICONTROL Starten]**.
 
-![](assets/campaign-start.png){zoomable="yes"}
+![Schaltfläche „Starten“ in der Symbolleiste der Kampagnen-Arbeitsfläche](assets/campaign-start.png){zoomable="yes"}
 
 Jede Aktivität in der Kampagne wird sequenziell ausgeführt, bis das Ende der Arbeitsfläche erreicht ist. Während des Tests können Sie die Kampagnenausführung über die Aktionsleiste auf der Arbeitsfläche verwalten. Dort haben Sie folgende Möglichkeiten:
 
 * **Stoppen** Sie die Ausführung jederzeit.
 * **Starten** Sie die Ausführung erneut.
+* **Starten Sie** Ausführung neu, um den Workflow zurückzusetzen und erneut auszuführen. Dies ist besonders nützlich, wenn Sie den Kampagnenfluss nach dem Vornehmen von Änderungen schnell erneut testen möchten.
 * **Setzen Sie die Ausführung fort**, wenn sie zuvor angehalten wurde.
 
 Das Symbol **[!UICONTROL Warnhinweise]**/**[!UICONTROL Warnung]** in der Symbolleiste der Arbeitsfläche benachrichtigt Sie über Probleme, darunter Warnungen, die ggf. proaktiv vor der Ausführung angezeigt werden, und Fehler, die während oder nach der Ausführung auftreten.
 
-![](assets/campaign-warning.png){zoomable="yes"}
+![Warnsymbol auf der Symbolleiste der Kampagnen-Arbeitsfläche](assets/campaign-warning.png){zoomable="yes"}
 
 Außerdem können Sie fehlgeschlagene Aktivitäten schnell mithilfe der [visuellen Statusindikatoren](#activities) erkennen, die direkt auf jeder Aktivität angezeigt werden. Eine ausführliche Fehlerbehebung finden Sie in den [Kampagnenprotokollen](#logs-tasks), die detaillierte Informationen zum Fehler und seinem Kontext enthalten.
 
@@ -57,7 +56,7 @@ Nach der Validierung kann die Kampagne veröffentlicht werden.
 
 Sobald Ihre Kampagne getestet wurde und bereit ist, klicken Sie auf **[!UICONTROL Veröffentlichen]**, um sie live zu schalten.
 
-![](assets/campaign-publish.png){zoomable="yes"}
+![Schaltfläche „Veröffentlichen“ auf der Kampagnen-Arbeitsfläche](assets/campaign-publish.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -65,22 +64,30 @@ Sobald Ihre Kampagne getestet wurde und bereit ist, klicken Sie auf **[!UICONTRO
 
 Der visuelle Fluss wird neu gestartet, und echte Profile beginnen, in Echtzeit die Journey zu durchlaufen.
 
-Wenn die Veröffentlichungsaktion fehlschlägt (z. B. wegen fehlenden Nachrichteninhalts), werden Sie benachrichtigt und müssen das Problem beheben, bevor Sie es erneut versuchen. Nach erfolgreicher Veröffentlichung beginnt die Kampagne mit der Ausführung (sofort oder planmäßig), wechselt vom **Entwurf**- in den **Live**-Status und wird „Schreibgeschützt“.
+Wenn die Veröffentlichungsaktion fehlschlägt (z. B. wegen fehlenden Nachrichteninhalts), werden Sie benachrichtigt und müssen das Problem beheben, bevor Sie es erneut versuchen. Nach erfolgreicher Veröffentlichung wird die Kampagne ausgeführt (sofort oder planmäßig), wechselt von **Entwurf** in **Live**-Status und wird zu „Schreibgeschützt“.
+
+## Nachrichtenversand bestätigen {#confirm-sending}
+
+Standardmäßig wird der Nachrichtenversand bei nicht wiederkehrenden orchestrierten Kampagnen angehalten, bis Sie den Versand ausdrücklich genehmigen. Nachdem Sie die Kampagne veröffentlicht haben, bestätigen Sie die Sendeanfrage über den Bereich Eigenschaften der Kanalaktivität. Bis es bestätigt wird, bleibt die Kanalaktivität ausstehend und es wird keine Nachricht gesendet.
+
+![Bild, das die Schaltfläche Bestätigen zeigt](assets/confirm-sending.png)
+
+Vor der Veröffentlichung können Sie im Eigenschaftenbereich der Kanalaktivität die Option zum Senden von Bestätigungen deaktivieren. Weitere Informationen finden Sie unter [Nachrichtenversand bestätigen](activities/channels.md#confirm-message-sending).
 
 ## Überwachen der Kampagnenausführung {#monitor}
 
 ### Visuelle Flussüberwachung {#flow}
 
-Während der Ausführung (im Test- oder Live-Modus) zeigt der visuelle Fluss an, wie sich Profile in Echtzeit durch die Journey bewegen. Es wird die Anzahl der Profile angezeigt, die von einer Aufgabe in die nächste übergehen.
+Während der Ausführung (im Test- oder Live-Modus) zeigt der visuelle Fluss an, wie sich Profile in Echtzeit durch den Journey bewegen. Es wird die Anzahl der Profile angezeigt, die von einer Aufgabe in die nächste übergehen.
 
-![](assets/workflow-execution.png){zoomable="yes"}
+![Ausführung des Kampagnen-Workflows mit dem Profilfluss](assets/workflow-execution.png){zoomable="yes"}
 
 Die über Transitionen von einer Aktivität zu einer anderen übertragenen Daten werden in temporären Arbeitstabellen gespeichert. Diese Daten können für jede Transition angezeigt werden. So überprüfen Sie die zwischen den Aktivitäten übergebenen Daten:
 
 1. Wählen Sie eine Transition aus.
 1. Klicken Sie im Eigenschaftenbereich auf **[!UICONTROL Vorschau für Schema anzeigen]**, um das Schema der Arbeitstabelle anzuzeigen. Wählen Sie **[!UICONTROL Vorschau der Ergebnisse]** aus, um die übertragenen Daten anzuzeigen.
 
-   ![](assets/transition.png){zoomable="yes"}
+   ![Übergangsvorschau mit Arbeitstabellenschema und Ergebnissen](assets/transition.png){zoomable="yes"}
 
 ### Indikatoren zur Aktivitätsausführung {#activities}
 
@@ -88,25 +95,25 @@ Visuelle Statusindikatoren helfen, zu verstehen, wie jede Aktivität funktionier
 
 | Visueller Indikator | Beschreibung |
 |-----|------------|
-| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | Die Aktivität wird derzeit ausgeführt. |
-| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | Die Aktivität erfordert Ihre Aufmerksamkeit. Dies kann die Bestätigung eines Versands oder die Ergreifung einer notwendigen Maßnahme beinhalten. |
-| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | Bei der Aktivität ist ein Fehler aufgetreten. Öffnen Sie zur Behebung dieses Problems die Protokolle der orchestrierten Kampagne, um weitere Informationen zu erhalten. |
-| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | Die Aktivität wurde erfolgreich ausgeführt. |
+| ![Status „Ausstehend](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | Die Aktivität wird derzeit ausgeführt. |
+| ![Orangefarbener Status](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | Die Aktivität erfordert Ihre Aufmerksamkeit. Dies kann die Bestätigung eines Versands oder die Ergreifung einer notwendigen Maßnahme beinhalten. |
+| ![Fehlerstatus](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | Bei der Aktivität ist ein Fehler aufgetreten. Um das Problem zu beheben, öffnen Sie die Protokolle zu orchestrierten Kampagnen , um weitere Informationen zu erhalten. |
+| ![Erfolgsstatus](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | Die Aktivität wurde erfolgreich ausgeführt. |
 
 ### Logs und Aufgaben {#logs-tasks}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logs und Aufgaben"
->abstract="Der Bildschirm **Logs und Aufgaben** enthält einen Verlauf der Ausführung der orchestrierten Kampagne, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden. "
+>abstract="Der Bildschirm **Protokolle und Aufgaben** enthält einen Verlauf der orchestrierten Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden."
 
 Die Überwachung von Protokollen und Aufgaben ist ein wichtiger Schritt, um Ihre orchestrierten Kampagnen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Protokolle und Aufgaben können sowohl im Test- als auch im Live-Modus über die Schaltfläche **[!UICONTROL Logs]** in der Symbolleiste auf der Arbeitsfläche aufgerufen werden.
 
-![](assets/logs-button.png){zoomable="yes"}
+![Schaltfläche Protokolle in der Symbolleiste der Kampagnen-Arbeitsfläche](assets/logs-button.png){zoomable="yes"}
 
 Der Bildschirm **[!UICONTROL Logs und Aufgaben]** enthält einen Verlauf der Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden. 
 
-![](assets/workflow-logs.png){zoomable="yes"}
+![Bildschirm „Protokolle und Aufgaben“ mit dem Ausführungsverlauf der Kampagne](assets/workflow-logs.png){zoomable="yes"}
 
 Es stehen zwei Arten von Informationen zur Verfügung:
 

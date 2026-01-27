@@ -5,10 +5,10 @@ title: Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 description: Informationen über das Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 82%
+source-wordcount: '1431'
+ht-degree: 68%
 
 ---
 
@@ -50,7 +50,7 @@ UNUSED IDs in BJ
 >title="Briefpost-Aktivität"
 >abstract="Die Briefpost-Aktivität erleichtert den Briefpost-Versand innerhalb der orchestrierten Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Briefpost-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Kanalaktivitäten können in der Arbeitsoberfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
-Mit [!DNL Adobe Journey Optimizer] können Sie Marketing-Kampagnen kanalübergreifend (E-Mail, SMS und Push-Benachrichtigungen) automatisieren und ausführen. Sie können diese Kanalaktivitäten in der Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifende orchestrierte Kampagnen zu erstellen. Diese Kampagnen können Trigger-Aktionen auf der Grundlage des Kundenverhaltens und der Kundendaten durchführen.
+[!DNL Adobe Journey Optimizer] ermöglicht die Automatisierung und Ausführung von Marketing-Kampagnen über verschiedene Kanäle hinweg: E-Mail, SMS und Push-Benachrichtigungen. Sie können diese Kanalaktivitäten in der Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifende orchestrierte Kampagnen zu erstellen. Diese Kampagnen können Trigger-Aktionen auf der Grundlage des Kundenverhaltens und der Kundendaten durchführen.
 
 Beispiel:
 
@@ -92,17 +92,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Anwenden von Begrenzungsregeln**
 
-   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. [Erfahren Sie, wie Sie mit Regelsätzen arbeiten](../../conflict-prioritization/rule-sets.md)
-
-1. **Verfolgen der Interaktion** (E-Mail und SMS)
-
-   Verwenden Sie den Abschnitt **[!UICONTROL Aktions-Tracking]**, um zu verfolgen, wie Ihre Empfängerinnen und Empfänger auf Ihre E-Mail- oder SMS-Sendungen reagieren. Die Tracking-Ergebnisse sind nach Ausführung der Kampagne im Kampagnenbericht verfügbar. [Weitere Informationen zu Kampagnenberichten](../../reports/campaign-global-report-cja.md)
-
-1. **Aktivieren des Schnellversandmodus** (Push)
-
-   Der Schnellversandmodus ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht. Der Schnellversand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch ist. Sie möchten beispielsweise einen dringenden Push-Warnhinweis auf Mobiltelefone senden, z. B. aktuelle Nachrichten an Benutzer, die Ihre Nachrichtenkanal-App installiert haben. [Auf dieser Seite](../../push/create-push.md#rapid-delivery) erfahren Sie, wie Sie den Schnellversandmodus für Push-Benachrichtigungen aktivieren.
-
-   Weitere Informationen zur Leistung bei Verwendung des Schnellversandmodus finden Sie unter [Produktbeschreibung für Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. [Erfahren Sie, wie Sie mit Regelsätzen ](../../conflict-prioritization/rule-sets.md).
 
 1. **Erstellen eines Inhaltsexperiments**
 
@@ -114,9 +104,28 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
    ![Bild, das den Abschnitt „Inhaltsexperiment“ zeigt](../assets/channel-experiment.png)
 
+Je nach ausgewähltem Kommunikationskanal stehen zusätzliche Einstellungen zur Verfügung. Erweitern Sie die folgenden Abschnitte, um weitere Informationen zu erhalten.
+
++++**Interaktion verfolgen** (E-Mail und SMS).
+
+Verwenden Sie den Abschnitt **[!UICONTROL Aktions-Tracking]**, um zu verfolgen, wie Ihre Empfängerinnen und Empfänger auf Ihre E-Mail- oder SMS-Sendungen reagieren. Die Tracking-Ergebnisse sind nach Ausführung der Kampagne im Kampagnenbericht verfügbar. [Weitere Informationen zu Kampagnenberichten](../../reports/campaign-global-report-cja.md)
+
++++
+
++++**Aktivieren des Schnellversandmodus** (Push).
+
+Der Schnellversandmodus ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht. Der Schnellversand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch ist. Sie möchten beispielsweise einen dringenden Push-Warnhinweis auf Mobiltelefone senden, z. B. aktuelle Nachrichten an Benutzer, die Ihre Nachrichtenkanal-App installiert haben. [Auf dieser Seite](../../push/create-push.md#rapid-delivery) erfahren Sie, wie Sie den Schnellversandmodus für Push-Benachrichtigungen aktivieren.
+
+Weitere Informationen zur Leistung bei Verwendung des Schnellversandmodus finden Sie unter [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
++++
+
 Nachdem Ihre Kanalaktivität konfiguriert wurde, wählen Sie die Registerkarte **[!UICONTROL Inhalt]** aus, um deren Inhalt zu definieren.
 
 ## Definieren des Inhalts {#content}
+
+
+### Nachrichteninhalt erstellen
 
 Wechseln Sie zur Registerkarte **[!UICONTROL Inhalt]**, um Ihre Nachricht zu erstellen. Die Prozessschritte variieren je nach ausgewähltem Kanal. Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen.
 
@@ -126,9 +135,9 @@ Wechseln Sie zur Registerkarte **[!UICONTROL Inhalt]**, um Ihre Nachricht zu ers
 <td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Erstellen einer Push-Benachrichtigung</strong></a></td>
 </tr></table>
 
-## Hinzufügen von Personalisierung
+### Hinzufügen von Personalisierung
 
-Personalization in orchestrierten Kampagnen funktioniert ähnlich wie andere **[!UICONTROL Journey Optimizer]**-Kampagnen oder Journey. Es gibt jedoch einige wichtige Unterschiede speziell bei der orchestrierten Arbeitsfläche.
+Personalization in orchestrierten Kampagnen funktioniert ähnlich wie andere [!DNL Journey Optimizer] Kampagnen oder Journeys, mit einigen wichtigen Unterschieden, die speziell für die orchestrierte Arbeitsfläche gelten.
 
 Wenn Sie über eine orchestrierte Kampagne auf den Personalisierungseditor zugreifen, enthalten zwei Hauptordner die für Personalisierung verfügbaren Attribute, wie unten beschrieben.
 
@@ -146,15 +155,50 @@ Wenn Sie über eine orchestrierte Kampagne auf den Personalisierungseditor zugre
 
 Einen detaillierten Überblick über die Verwendung des Personalisierungseditors finden Sie unter [Erste Schritte mit der Personalisierung](../../personalization/personalize.md).
 
-## Überprüfen und Testen der Inhalte
+### Überprüfen und Testen der Inhalte
 
 Sobald der Inhalt erstellt ist, verwenden Sie die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um eine Vorschau anzuzeigen und den Inhalt mit Testprofilen oder Beispieleingabedaten zu testen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Weitere Informationen](../../content-management/preview-test.md)
 
 ![Bild, das die Schaltfläche „Inhalte simulieren“ zeigt](../assets/channel-simulate.png)
 
+## Nachrichtenversand bestätigen
+
+Standardmäßig wird der Nachrichtenversand bei nicht wiederkehrenden orchestrierten Kampagnen angehalten, bis Sie den Versand ausdrücklich genehmigen. Nachdem Sie die Kampagne veröffentlicht haben, bestätigen Sie die Sendeanfrage über den Bereich Eigenschaften der Kanalaktivität.
+
+![Bild, das die Schaltfläche Bestätigen zeigt](../assets/confirm-sending.png)
+
+Das Senden von Bestätigungen kann vor der Veröffentlichung der orchestrierten Kampagne deaktiviert werden. Wählen Sie dazu die Kanalaktivität auf der Arbeitsfläche aus, um ihre Eigenschaften anzuzeigen, und aktivieren Sie &quot;**[!UICONTROL senden ohne Bestätigung]**.
+
+![Bild, das die Schaltfläche Senden ohne Bestätigung zeigt](../assets/send-without-confirmation.png)
+
+## Festlegen der Ratensteuerung {#rate-control}
+
+[!DNL Journey Optimizer] ermöglicht es Ihnen, die Ratenkontrolle für ausgehende Aktionen in orchestrierten Kampagnen zu aktivieren.
+
+Diese Funktion ist besonders nützlich, um eine Überlastung nachgelagerter Systeme zu verhindern, beispielsweise Landingpages oder Plattformen für die Kundenunterstützung. Beispielsweise können Sie eine Ratenbeschränkung von 165 Nachrichten pro Sekunde festlegen, um einen stabilen Versand sicherzustellen, ohne die nachgelagerten Systeme zu überfordern.
+
+Gehen Sie wie folgt vor, um die Ratensteuerung festzulegen:
+
+1. Wählen Sie eine Aktivität für einen ausgehenden Kanal auf der Arbeitsfläche aus und klicken Sie je nach **[!UICONTROL Kanal auf E-Mail]****[!UICONTROL SMS bearbeiten]** oder **[!UICONTROL Push bearbeiten]**.
+
+   ![Bild, das die Arbeitsfläche mit einer E-Mail -Aktivität zeigt](../assets/channel-edit.png)
+
+1. Navigieren Sie zur **[!UICONTROL Zeitplan]** und aktivieren Sie die Option **[!UICONTROL Versand]** Drosselung) im Abschnitt **[!UICONTROL Versandeinstellungen]**.
+
+   ![Einstellungen zur Ratensteuerung mit der Option „Versand drosseln“ und der Versandrate pro Sekunde](../assets/rate-control.png)
+
+1. Geben Sie die gewünschte **[!UICONTROL Versandrate]** pro Sekunde an.
+
+   * Unterstützte Mindestversandrate: 1 pro Sekunde.
+   * Maximal unterstützte Versandrate: 2.000 pro Sekunde, wenn die Option „Versand drosseln“ aktiviert ist.
+
+>[!IMPORTANT]
+>
+>Bei der Festlegung einer Versandrate beträgt der maximale Zeitrahmen, für den eine Campaign-Audience ausgeführt werden kann, 12 Stunden. Wenn die Versandrate auf einen Wert eingestellt ist, der es nicht ermöglicht, dass die Nachricht innerhalb des 12-Stunden-Zeitraums an alle Zielgruppen gesendet wird, werden die verbleibenden Profile aus der Kampagne ausgeschlossen. Die Anzahl dieser ausgeschlossenen Profile wird im Kampagnenbericht angezeigt.
+
 ## Nächste Schritte {#next}
 
-Wenn der Nachrichteninhalt fertig ist, navigieren Sie mit dem Pfeil **[!UICONTROL Zurück]** zurück zu Ihrer orchestrierten Kampagne. Sie können dann die Orchestrierung der Aktivitäten auf der Arbeitsfläche abschließen und die Kampagne veröffentlichen, um den Nachrichtenversand zu starten. [Weitere Informationen zum Start und zur Überwachung orchestrierter Kampagnen](../start-monitor-campaigns.md)
+Wenn der Nachrichteninhalt fertig ist, navigieren Sie mit dem Pfeil **[!UICONTROL Zurück]** zurück zu Ihrer orchestrierten Kampagne. Sie können dann die Orchestrierung der Aktivitäten auf der Arbeitsfläche abschließen und die Kampagne veröffentlichen, um mit dem Senden von Nachrichten zu beginnen. [Weitere Informationen zum Start und zur Überwachung orchestrierter Kampagnen](../start-monitor-campaigns.md)
 
 ![Bild, das die Schaltfläche „Zurück“ zeigt](../assets/channel-back.png)
 

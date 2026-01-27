@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zu orchestrierten Kampagnen
 description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Kampagnen
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
-source-wordcount: '1799'
-ht-degree: 100%
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 97%
 
 ---
 
@@ -119,7 +119,7 @@ Kampagnen verwenden eine **relationale Datenbank**. Auf diese Weise können Sie 
 
 Ja. In der Kampagnenorchestrierung kann ein als „Personenentität“ bekanntes Empfängerprofil aktualisiert werden und diese Daten können für die Personalisierung verwendet werden. Darüber hinaus können angereicherte Daten aus verknüpften Entitäten in der relationalen Datenbank ebenfalls für die Personalisierung verwendet werden. Sie können Kundenprofile zusammen mit verknüpften Daten (wie etwa Käufen oder Abonnements) verwenden, um Inhalte über alle unterstützten Kanäle hinweg zu personalisieren.
 
-**Empfehlungen**
+**Recommendations**
 
 * Nutzen Sie **Transaktions- und Verhaltensdaten**, um Angebote relevant zu machen.
 * Kombinieren Sie **statische Attribute** (z. B. Treuestufe) mit **dynamischen Attributen** (z. B. Datum des letzten Kaufs).
@@ -357,7 +357,7 @@ Ja, Sie können Daten aus dem relationalen Speicher und aus Adobe Experience Pla
 
 +++ Müssen alle Filter über Zielgruppen definiert werden, oder kann ein bestimmter Filtertyp konfiguriert werden?
 
-Orchestrierte Kampagnen unterstützen vordefinierte Filter: Sie können eine Abfrage definieren, als Filter speichern und zu Ihren Favoriten hinzufügen, um sie für weitere Segmentierungsaufgaben wiederzuverwenden.
+Orchestrierte Kampagnen unterstützen vordefinierte Filter: Sie können eine Abfrage definieren und als Filter speichern, zu Ihren Favoriten hinzufügen und sie für weitere Segmentierungsaufgaben wiederverwenden. Vordefinierte Filter können Parameter enthalten, damit Sie Werte zum Zeitpunkt der Verwendung eingeben können. [Erfahren Sie, wie Sie mit vordefinierten Filtern arbeiten](predefined-filters.md).
 
 **Weitere Informationen**
 

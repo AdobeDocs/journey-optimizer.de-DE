@@ -1,29 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Kundeninteraktion durch Durchsuchen der Aktivität
-description: Kundeninteraktion durch Durchsuchen der Aktivität
+title: Interagieren mit Kundinnen und Kunden nach Suchaktivität
+description: Interagieren mit Kundinnen und Kunden nach Suchaktivität
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Kundeninteraktion durch Durchsuchen der Aktivität {#engage-customers-uc}
+# Interagieren mit Kundinnen und Kunden nach Suchaktivität {#engage-customers-uc}
 
 >[!BEGINSHADEBOX]
 
-Beachten Sie, dass dieser Anwendungsfall mit einer Zielgruppe beginnt, die bereits in Experience Platform vorhanden ist, insbesondere einer Zielgruppe mit Webverhalten in Echtzeit, die Browser-Aktivitäten erfasst, während sie auftritt. [Weitere Informationen finden Sie in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Beachten Sie, dass dieser Anwendungsfall mit einer Zielgruppe beginnt, die bereits in Experience Platform vorhanden ist, insbesondere einer Zielgruppe mit Webverhalten in Echtzeit, die Browser-Aktivitäten erfasst, während sie auftritt. [Weitere Informationen finden Sie in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Für diesen Anwendungsfall erforderliche Schemata:**
 
 * **Empfänger**: wird als Zielgruppendimension verwendet, mit Feldern: `email`, `churnprop`
 * **Wunschliste**: mit Feldern: `description`, `priceref`, `imageurl`
 
-➡️ [Erfahren Sie, wie Sie modellbasierte Schemata konfigurieren](gs-schemas.md)
+➡️ [Erfahren Sie, wie Sie relationale Schemata konfigurieren](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a70b3897831c37fc91dd598cc4ed513be112d865
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '3067'
+source-wordcount: '3071'
 ht-degree: 99%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 99%
       + Abfragen der Datenbank {#query-database}
          + [Abfragen der Datenbank](/help/rp_landing_pages/query-database-landing-page.md)
          + [Arbeiten mit dem Regel-Builder](using/orchestrated/orchestrated-rule-builder.md)
+         + [Arbeiten mit vordefinierten Filtern](using/orchestrated/predefined-filters.md)
          + [Erstellen Ihrer ersten Regel](using/orchestrated/build-query.md)
          + [Bearbeiten von Ausdrücken](using/orchestrated/edit-expressions.md)
          + [Retargeting](using/orchestrated/retarget.md)
