@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
-workflow-type: ht
-source-wordcount: '1974'
-ht-degree: 100%
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+workflow-type: tm+mt
+source-wordcount: '2032'
+ht-degree: 96%
 
 ---
 
@@ -74,14 +74,14 @@ Benutzerdefinierte Aktionen unterstützen das JSON-Format nur bei Verwendung von
 
 Stellen Sie bei der Auswahl eines mit einer benutzerdefinierten Aktion anzusprechenden Endpunkts sicher, dass:
 
-* Dieser Endpunkt den Journey-Durchsatz unterstützen kann, indem er ihn mit Konfigurationen aus der [Drosselungs-API](../configuration/throttling.md) oder [Begrenzungs-API](../configuration/capping.md) begrenzt. Vorsicht: Eine Drosselungskonfiguration darf nicht unter 200 TPS liegen. Jeder angesprochene Endpunkt muss mindestens 200 TPS unterstützen. Weitere Informationen zu Journey-Verarbeitungsraten finden Sie [in diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
+* Dieser Endpunkt den Journey-Durchsatz unterstützen kann, indem er ihn mit Konfigurationen aus der [Drosselungs-API](../configuration/throttling.md) oder [Begrenzungs-API](../configuration/capping.md) begrenzt. Vorsicht: Eine Drosselungskonfiguration darf nicht unter 200 TPS liegen. Jeder angesprochene Endpunkt muss mindestens 200 TPS unterstützen. Weitere Informationen zu Journey-Verarbeitungsraten finden Sie in [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
 * Dieser Endpunkt muss eine so niedrige Antwortzeit wie möglich haben. Abhängig von Ihrem erwarteten Durchsatz kann sich eine hohe Reaktionszeit auf den tatsächlichen Durchsatz auswirken.
 
 Für alle benutzerdefinierten Aktionen ist ein Begrenzung von 300.000 Aufrufen über eine Minute festgelegt. Darüber hinaus wird die Standardbegrenzung pro Host und Sandbox angewendet. Wenn Sie beispielsweise in einer Sandbox zwei Endpunkte mit demselben Host haben (z. B. `https://www.adobe.com/endpoint1` und `https://www.adobe.com/endpoint2`), gilt die Begrenzung für alle Endpunkte unter dem Host „adobe.com“. „Endpunkt1“ und „Endpunkt2“ verwenden dieselbe Begrenzungskonfiguration. Wenn ein Endpunkt diesen Wert erreicht, wirkt sich dies auch auf den anderen Endpunkt aus.
 
 >[!NOTE]
 >
->Die Begrenzung auf 300.000 Aufrufe pro Minute wird pro Sandbox und pro Endpunkt für alle Endpunkte mit Antwortzeiten von weniger als 0,75 Sekunden als **gleitendes Fenster** erzwungen. Das gleitende Fenster kann bei jeder Millisekunde beginnen. Wenn das Fenster an Minuten der Uhrzeit ausgerichtet ist, kann es daher auch zu Begrenzungsfehlern kommen, wenn die Rate unter 300.000/Min. zu sein scheint. Für Endpunkte mit Antwortzeiten von mehr als 0,75 Sekunden gilt eine separate Begrenzung von 150.000 Aufrufen pro 30 Sekunden (ebenfalls als gleitendes Fenster). Weitere Informationen zu langsamen Endpunkten finden Sie [auf dieser Seite](../configuration/external-systems.md#response-time).
+>Die Begrenzung auf 300.000 Aufrufe pro Minute wird pro Sandbox und pro Endpunkt für alle Endpunkte mit Antwortzeiten von weniger als 0,75 Sekunden als **gleitendes Fenster** erzwungen. Das gleitende Fenster kann bei jeder Millisekunde beginnen. Wenn das Fenster an Minuten der Uhrzeit ausgerichtet ist, kann es daher auch zu Begrenzungsfehlern kommen, wenn die Rate unter 300.000/Min. zu sein scheint. Für Endpunkte mit Antwortzeiten von mehr als 0,75 Sekunden gilt eine separate Begrenzung von 150.000 Aufrufen pro 30 Sekunden (ebenfalls ein bewegliches Fenster). Weitere Informationen zu langsamen Endpunkten finden Sie [auf dieser Seite](../configuration/external-systems.md#response-time).
 
 Das standardmäßige Limit von 300.000 Aufrufen pro Minute gilt auf Domain-Ebene (z. B. „beispiel.com“). Wenn Sie eine höhere Begrenzung benötigen, wenden Sie sich mit Nutzungsnachweisen an den Adobe-Support und bestätigen Sie den Durchsatz Ihres Endpunkts. Um eine Erhöhung der Begrenzung anzufordern, geben Sie Details zum erwarteten Aufrufvolumen und zur Endpunktkapazität an. Adobe kann die Begrenzung anpassen, wenn die Kapazitätstests zeigen, dass der Endpunkt einen höheren Durchsatz verarbeiten kann. Im Hinblick auf Best Practices sollten Sie Journeys umstrukturieren oder Warteaktivitäten implementieren, um ausgehende Aufrufe zu staffeln und Begrenzungsfehler zu vermeiden.
 
@@ -175,7 +175,13 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
    ![](assets/null-values.png){width="70%" align="left"}
 
-1. Fügen Sie im Abschnitt **[!UICONTROL Reaktion]** ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Dieses Feld ist optional und ist für alle Aufrufmethoden verfügbar. Ausführliche Informationen zur Verwendung von API-Aufrufantworten in benutzerdefinierten Aktionen finden Sie auf [dieser Seite](../action/action-response.md).
+1. Fügen Sie im Abschnitt **[!UICONTROL Antwort]** ein Beispiel der Payload ein, die zurückgegeben wird, wenn der Aufruf erfolgreich ist. Dieses Feld ist optional und ist für alle Aufrufmethoden verfügbar. Ausführliche Informationen zur Verwendung von API-Aufrufantworten in benutzerdefinierten Aktionen finden Sie auf [dieser Seite](../action/action-response.md).
+
+   ![](assets/response-values.png){width="70%" align="left"}
+
+1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [ Journey ](../action/action-response.md).
+
+   ![](assets/response-values.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -184,7 +190,7 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
 ![](assets/customactionpayloadmessage2.png)
 
-Bei der Feldkonfiguration müssen Sie folgendermaßen vorgehen:
+In diesen Konfigurationsfeldern müssen Sie:
 
 * Wählen Sie den Parametertyp aus, z. B. String, Ganzzahl usw.
 

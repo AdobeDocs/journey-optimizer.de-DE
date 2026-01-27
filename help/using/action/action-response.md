@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 91%
+source-wordcount: '844'
+ht-degree: 73%
 
 ---
 
@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Erstellen Sie die benutzerdefinierte Aktion. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
-1. Klicken Sie in das Feld **Antwort**.
+1. Klicken Sie in das Feld **Antwort** (Erfolgsantwort).
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -111,6 +111,16 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab.
 
+1. (Optional) Aktivieren Sie eine Fehlerantwort-Payload, um das Format zu erfassen, das zurückgegeben wird, wenn der Aufruf fehlschlägt, und fügen Sie dann eine Beispiel-Payload ein. Wählen Sie dazu in **Konfiguration der benutzerdefinierten Aktion die Option** Definieren einer Fehlerreaktions-Payload) aus. Weitere Informationen zum Konfigurieren der Payload-Felder finden Sie unter [Konfigurieren einer benutzerdefinierten Aktion](../action/about-custom-action-configuration.md).
+
+   ```
+   {
+   "errorResponse" : "customer not found"
+   }
+   ```
+
+   Die Payload für die Fehlerantwort ist nur verfügbar, wenn Sie sie in der Konfiguration der benutzerdefinierten Aktion aktivieren.
+
 1. Fügen Sie außerdem die customerID als Abfrageparameter hinzu.
 
    ![](assets/action-response9.png){width="80%" align="left"}
@@ -120,6 +130,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 ## Nutzen der Antwort in einer Journey {#response-in-journey}
 
 Fügen Sie die benutzerdefinierte Aktion einfach einer Journey hinzu. Anschließend können Sie die Felder der Antwort-Payload in Bedingungen, anderen Aktionen und der Nachrichtenpersonalisierung nutzen.
+
+Wenn Sie eine Fehlerantwort-Payload definiert haben, wird sie unter **Kontextuelle Attribute** > **Journey Orchestration** > **Aktionen** > `<action name>` > **errorResponse**. Sie können sie in der Verzweigung für Zeitüberschreitung und Fehler verwenden, um die Ausweichlogik und die Fehlerbehandlung zu steuern.
 
 Sie können beispielsweise eine Bedingung hinzufügen, um die Anzahl der Treuepunkte zu überprüfen. Wenn die Person das Restaurant betritt, sendet Ihr lokaler Endpunkt einen Aufruf mit den Treueinformationen des Profils. Sie können eine Push-Benachrichtigung versenden, wenn das Profil zu den Goldkundinnen und -kunden gehört. Wenn beim Aufruf ein Fehler erkannt wird, senden Sie eine benutzerdefinierte Aktion, um die Systemadmins zu benachrichtigen.
 
@@ -150,6 +162,12 @@ Sie können beispielsweise eine Bedingung hinzufügen, um die Anzahl der Treuepu
    @action{ActionLoyalty.jo_status_code} == "http_400"
    ```
 
+   Wenn eine Payload für die Fehlerantwort definiert wurde, können Sie auch deren Felder auswählen, z. B.:
+
+   ```
+   @action{ActionLoyalty.errorResponse.errorResponse} == "customer not found"
+   ```
+
    ![](assets/action-response7.png)
 
 1. Fügen Sie eine benutzerdefinierte Aktion hinzu, die an Ihre Organisation gesendet wird.
@@ -158,7 +176,7 @@ Sie können beispielsweise eine Bedingung hinzufügen, um die Anzahl der Treuepu
 
 ## Testmodusprotokolle {#test-mode-logs}
 
-Im Testmodus kann auf Statusprotokolle zugegriffen werden, die mit benutzerdefinierten Aktionsantworten verwandt sind. Wenn Sie in Ihrer Journey benutzerdefinierte Aktionen mit Antworten definiert haben, wird ein Abschnitt **actionsHistory** in diesen Protokollen angezeigt, der die vom externen Endpunkt zurückgegebene Payload anzeigt (als Antwort auf diese benutzerdefinierten Aktion). Dies kann im Hinblick auf das Debugging sehr nützlich sein.
+Im Testmodus kann auf Statusprotokolle zugegriffen werden, die mit benutzerdefinierten Aktionsantworten verwandt sind. Wenn Sie in Ihrer Journey benutzerdefinierte Aktionen mit Antworten definiert haben, wird ein Abschnitt **actionsHistory** in diesen Protokollen angezeigt, der die vom externen Endpunkt zurückgegebene Payload anzeigt (als Antwort auf diese benutzerdefinierten Aktion). Wenn eine Fehlerantwort-Payload definiert ist, wird sie für fehlgeschlagene Aufrufe eingeschlossen. Dies kann im Hinblick auf das Debugging sehr nützlich sein.
 
 ![](assets/action-response12.png)
 
@@ -174,6 +192,8 @@ Hier finden Sie die möglichen Werte für dieses Feld:
 * Interner Fehler: **internalError**
 
 Ein Aktionsaufruf wird als fehlerhaft betrachtet, wenn der zurückgegebene HTTP-Code größer als 2xx ist oder wenn ein Fehler auftritt. In solchen Fällen führt die Journey in den speziellen Timeout oder Fehlerzweig.
+
+Wenn eine Payload für die Fehlerantwort für die benutzerdefinierte Aktion konfiguriert wurde, werden ihre Felder unter dem Knoten **errorResponse** für fehlgeschlagene Aufrufe verfügbar gemacht. Wenn keine Payload für die Fehlerantwort konfiguriert ist, ist dieser Knoten nicht verfügbar.
 
 >[!WARNING]
 >
