@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 79e9023a9b555a75a13c4f5da2db1b7dbb04c344
+source-git-commit: 868debfda4791dde687a8db5edd04af79e8f4081
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1734'
 ht-degree: 18%
 
 ---
@@ -145,11 +145,6 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### Kampagnen
 
-* **Kampagne mithilfe der Zeitzone des Profils planen** - Die Kampagnenplanung kann jetzt die <strong>Zeitzone“ jedes Profils verwenden, </strong> Nachrichten zur gewünschten lokalen Zeit zu versenden.
-
-  **Hinweis**: Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit).
-
-
 #### Experience Decisioning
 
 * **Fragmente an Entscheidungselemente anhängen** - Journey Optimizer bietet jetzt die Möglichkeit, <strong>Fragmente</strong> an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können.
@@ -190,6 +185,14 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Veröffentlichung vorgesehen. **Informationen können Änderungen unterliegen**. Aktualisierte Links, Bildschirme und Dokumentationen werden freigegeben, sobald diese Aktualisierungen live in der Produktion verfügbar sind.
 
+### Verbesserungen
+
+* **SMS-Webhooks** - <strong>Webhooks</strong> werden von allen SMS-Anbietern unterstützt. Sie können jeden Webhook für den jeweiligen Verwendungszweck konfigurieren: eingehende Webhooks zur Erfassung eingehender Nachrichten und Feedback-Webhooks für den Empfang von Empfangsbestätigungen, Statusaktualisierungen und anderen nachrichtenbezogenen Ereignissen. Verfügbarkeit: 28. Januar 2026.
+
+* **Kampagne mithilfe der Zeitzone des Profils planen** - Die Kampagnenzeitplanung kann die <strong>Zeitzone“ jedes Profils verwenden, </strong> Nachrichten zur vorgesehenen lokalen Zeit zu versenden. **Hinweis**: Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit). Verfügbarkeit: 28. Januar 2026.
+
+### Funktionen
+
 <table>
 <thead>
 <tr>
@@ -207,22 +210,6 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 </ul>
 <p>Datensätze werden im AJO-Nachrichtenexport-Datensatz 7 Kalendertage nach der Aufnahme aufbewahrt. Während dieser Aufbewahrungsfrist können Sie die Daten über Experience Platform-Ziele in Ihren eigenen Speicher exportieren. Die Funktion wird auf der Ebene der Kanalkonfiguration aktiviert, sodass Sie granulare Kontrolle darüber erhalten, welche Nachrichten exportiert werden.</p>
 <p>Diese Funktion ist nur für den E-Mail- und SMS-Kanal für Organisationen verfügbar, die das Add-on „Nachrichtenexport“ erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 28. Januar 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>SMS-Webhooks</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Webhooks</strong> werden von allen SMS-Anbietern unterstützt. Sie können jeden Webhook für den jeweiligen Verwendungszweck konfigurieren: eingehende Webhooks zur Erfassung eingehender Nachrichten und Feedback-Webhooks für den Empfang von Empfangsbestätigungen, Statusaktualisierungen und anderen nachrichtenbezogenen Ereignissen.</p>
 <p>Verfügbarkeitsdatum: Donnerstag, 28. Januar 2026</p>
 </td>
 </tr>
