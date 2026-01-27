@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '915'
-ht-degree: 100%
+source-git-commit: 3866cedf2c264d94e981a43b649073aa1bdcd4f2
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 96%
 
 ---
 
@@ -102,7 +102,7 @@ Sie können Ihre Journey auch im **Probelauf** ausführen. Der Journey-Probelauf
 
 ## Veröffentlichen Sie die Journey. {#jo-pub}
 
-Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen. Weitere Informationen zur Veröffentlichung von Journeys finden Sie in diesem [Abschnitt](publish-journey.md).
+Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen. Journey Optimizer validiert auch die Payload-Größe zum Zeitpunkt des Speicherns und Veröffentlichens, um Stabilität und Leistung zu erhalten. Weitere Informationen zum Journey von Veröffentlichungen finden Sie in diesem [Abschnitt](publish-journey.md) und unter [Validierung der Journey-Payload-Größe](../start/guardrails.md#journey-payload-size).
 
 ![Vollständiger Journey Flow mit Zielgruppe, Bedingungen und Aktionen](assets/jo-journeyuc2_32bis.png)
 

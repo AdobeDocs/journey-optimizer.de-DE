@@ -10,9 +10,9 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
+source-git-commit: 3866cedf2c264d94e981a43b649073aa1bdcd4f2
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '725'
 ht-degree: 86%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 86%
 # Veröffentlichen Ihrer Journey {#publishing-the-journey}
 
 Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für den Eintritt neuer Profile verfügbar zu machen. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen.
+
+>[!NOTE]
+>
+>Wenn Sie eine Journey speichern oder veröffentlichen, validiert Journey Optimizer die gesamte Payload-Größe der Journey und kann Sie warnen oder die Veröffentlichung blockieren, wenn Sie sich dem Limit nähern oder es überschreiten. Weitere Informationen finden Sie unter [Validierung der Journey-Payload-Größe](../start/guardrails.md#journey-payload-size).
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -66,7 +70,7 @@ Wenn Sie eine Live-Journey ändern müssen, erstellen Sie eine neue Version Ihre
 
 1. Öffnen Sie die neueste Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
 
-   ![Dialogfeld „Neue Version erstellen“ für das Duplizieren von Journey](assets/journeyversions2.png)
+   ![Dialogfeld „Neue Version erstellen“ für die Journey-Duplizierung](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -90,4 +94,4 @@ Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige V
 
 In diesem Video erfahren Sie, wie Sie eine Journey veröffentlichen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427932?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
