@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0ed4d941863730e6bc8dbea771cba94b305dd5b
+source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1704'
 ht-degree: 18%
 
 ---
@@ -184,7 +184,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Mit dem Journey Create Agent können Journey Optimizer-Benutzende Marketing-Journey über eine <strong>Natural Language-Oberfläche) erstellen </strong> konfigurieren. Anwender können schnell Journey erstellen, indem sie ihre Anforderungen in Gesprächsaufforderungen beschreiben, die Journey-Erstellung optimieren und es Marketing-Experten ermöglichen, sich auf die Strategie statt auf die technische Konfiguration zu konzentrieren.</p>
+<p>Journey Agent bietet jetzt Funktionen zur Inhaltserstellung, mit denen Journey Optimizer-Anwender Marketing-Journey über eine <strong>Natural Language Interface) erstellen und </strong> können. Praktizierende können schnell Journey erstellen, indem sie ihre Anforderungen in Gesprächsaufforderungen beschreiben. Dadurch wird der Prozess der Journey-Erstellung optimiert, sodass sich Marketer auf die Strategie und nicht auf die technische Konfiguration konzentrieren können.</p>
 </td>
 </tr>
 </tbody>
