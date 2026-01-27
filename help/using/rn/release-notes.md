@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
+source-git-commit: 33bb27ff4181e196d05f320c5b958628a6bd6bf6
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 18%
+source-wordcount: '1707'
+ht-degree: 19%
 
 ---
 
@@ -111,28 +111,6 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <td>
 <p>Sie können jetzt <strong>Entscheidungsrichtlinien“ </strong> SMS-Journey und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Angebote, die die Entscheidungs-Engine nutzen, um für jedes Zielgruppenmitglied die besten Inhalte bereitzustellen.</p>
 <p>Diese Funktion ist für eine Reihe von Organisationen in begrenzter Verfügbarkeit verfügbar. Wenden Sie sich an den Adobe-Support.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Nachrichtenexport</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Eine neue Funktion <strong>Nachrichtenexport</strong> ist jetzt für E-Mail- und SMS-Kanäle verfügbar. Mit dieser Funktion können Sie gesendeten Nachrichteninhalt automatisch in einen dedizierten Experience Platform-Datensatz exportieren, sodass Sie:</p>
-<ul>
-<li>Einhaltung behördlicher Auflagen (z. B. HIPAA)</li>
-<li>Archivieren von Nachrichten für Rechtsansprüche und Anfragen an die Kundenunterstützung</li>
-<li>Kopien der an Einzelpersonen gesendeten personalisierten Inhalte aufbewahren</li>
-</ul>
-<p>Datensätze werden im AJO-Nachrichtenexport-Datensatz 7 Kalendertage nach der Aufnahme aufbewahrt. Während dieser Aufbewahrungsfrist können Sie die Daten über Experience Platform-Ziele in Ihren eigenen Speicher exportieren. Die Funktion wird auf der Ebene der Kanalkonfiguration aktiviert, sodass Sie granulare Kontrolle darüber erhalten, welche Nachrichten exportiert werden.</p>
-<p>Diese Funktion ist nur für den E-Mail- und SMS-Kanal für Organisationen verfügbar, die das Add-on „Nachrichtenexport“ erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
@@ -278,6 +256,29 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <td>
 <p>Sie können jetzt den Inhalt Ihrer Push-Nachrichten mit "<strong>" personalisieren und </strong>. Verwenden Sie <strong>Prioritätswerte</strong> Formeln oder KI-Modelle, um Ihren Kunden die besten Inhalte anzuzeigen.</p>
 <p>Verfügbarkeitsdatum: Mittwoch, 3. Februar 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nachrichtenexport</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eine neue Funktion <strong>Nachrichtenexport</strong> ist jetzt für E-Mail- und SMS-Kanäle verfügbar. Mit dieser Funktion können Sie gesendeten Nachrichteninhalt automatisch in einen dedizierten Experience Platform-Datensatz exportieren, sodass Sie:</p>
+<ul>
+<li>Einhaltung behördlicher Auflagen (z. B. HIPAA)</li>
+<li>Archivieren von Nachrichten für Rechtsansprüche und Anfragen an die Kundenunterstützung</li>
+<li>Kopien der an Einzelpersonen gesendeten personalisierten Inhalte aufbewahren</li>
+</ul>
+<p>Datensätze werden im AJO-Nachrichtenexport-Datensatz 7 Kalendertage nach der Aufnahme aufbewahrt. Während dieser Aufbewahrungsfrist können Sie die Daten über Experience Platform-Ziele in Ihren eigenen Speicher exportieren. Die Funktion wird auf der Ebene der Kanalkonfiguration aktiviert, sodass Sie granulare Kontrolle darüber erhalten, welche Nachrichten exportiert werden.</p>
+<p>Diese Funktion ist nur für den E-Mail- und SMS-Kanal für Organisationen verfügbar, die das Add-on „Nachrichtenexport“ erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.</p>
+<p>Verfügbarkeitsdatum: Donnerstag, 28. Januar 2026</p>
 </td>
 </tr>
 </tbody>
