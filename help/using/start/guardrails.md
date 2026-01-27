@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: ht
-source-wordcount: '3661'
-ht-degree: 100%
+source-git-commit: 4e90aa9a71ab8999d4ac03eac50aad93af48302c
+workflow-type: tm+mt
+source-wordcount: '3908'
+ht-degree: 92%
 
 ---
 
@@ -184,6 +184,34 @@ In diesem Abschnitt werden Leitlinien und Einschränkungen für Journeys beschri
 * Eine Journey-Instanz für ein Profil hat eine Maximalgröße von 1 MB. Alle Daten, die im Rahmen der Journey-Ausführung gesammelt wurden, werden in dieser Journey-Instanz gespeichert. Daher werden Daten aus einem eingehenden Ereignis, aus Adobe Experience Platform abgerufene Profilinformationen, benutzerdefinierte Aktionsantworten usw. in dieser Journey-Instanz gespeichert und wirken sich auf die Journey-Größe aus. Es wird empfohlen, die Maximalgröße dieser Ereignis-Payload zu begrenzen, wenn eine Journey mit einem Ereignis beginnt (z. B. weniger als 800 KB), um zu verhindern, dass dieses Limit nach wenigen Aktivitäten bei der Ausführung der Journey erreicht wird. Wenn dieses Limit erreicht ist, befindet sich das Profil im Fehlerstatus und wird von der Journey ausgeschlossen.
 * Zusätzlich zum in den Journey-Aktivitäten verwendeten Timeout gibt es auch einen globalen Journey-Timeout, der nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey 91 Tage nach ihrem Eintritt. [Weitere Informationen](../building-journeys/journey-properties.md#global_timeout)
 
+
+#### Validierung der Journey-Payload-Größe {#journey-payload-size}
+
+Beim Speichern oder Veröffentlichen einer Journey validiert Journey Optimizer die gesamte Journey-Payload-Größe, um Stabilität und Leistung zu erhalten.
+
+**Standardkonfiguration**
+
+* **Standardmäßige maximale Anfragengröße**: 2 MB (2.000.000 Byte). Einige Organisationen verfügen möglicherweise über benutzerdefinierte Limits, die von Adobe konfiguriert werden.
+* **Hinweisschwelle**: 90 % der Höchstgrenze.
+* **Fehlerschwellenwert**: 100 % der Höchstgrenze. Das Speichern oder Veröffentlichen ist blockiert und die Anfrage gibt zurück **HTTP 413 Anfrageentität zu groß**.
+
+**Szenarien für Benutzererlebnisse**
+
+* **Payload &lt; 90 % des Limits**: Journey wird gespeichert und erfolgreich veröffentlicht. Es werden keine Warnungen oder Fehler angezeigt.
+* **Payload 90-99 % des Limits**: Journey speichert und veröffentlicht erfolgreich, mit einer Warnung zur Optimierung. Warnmeldung: **Warnung**: Größe der Journey-Payload liegt nahe am Limit. Größter Knoten: &#39;[NodeName]&#39; (Typ: &#39;[NodeType]&#39;, Größe: [N] Byte).
+* **Payload >= 100 % des Limits**: Das Speichern oder Veröffentlichen auf dem Journey ist mit einem Fehler blockiert. Fehlermeldung: **Fehler**: Journey-Payload überschreitet das Limit. Größter Knoten: &#39;[NodeName]&#39; (Typ: &#39;[NodeType]&#39;, Größe: [N] Byte).
+
+**Details zur Fehlerantwort**
+
+Wenn die Anfrage die maximal zulässige Größe überschreitet, enthält die Antwort **Anfrageentität zu groß**. Die Journey-Payload überschreitet die maximal zulässige Größe. Überprüfen Sie die Fehlerdetails und optimieren Sie Ihren Journey.
+
+**Fehlerbehebung und Empfehlungen**
+
+* Überprüfen Sie den größten Knoten, der in der Warnung oder dem Fehler hervorgehoben ist.
+* Vereinfachen Sie Bedingungen, reduzieren Sie Datenzuordnungen und entfernen Sie unnötige Schritte oder Parameter.
+* Erwägen Sie bei Bedarf, die Journey in kleinere Journey aufzuteilen.
+* Wenn Sie der Meinung sind, dass Ihr Unternehmen ein höheres Limit benötigt, wenden Sie sich an den Adobe-Support.
+
 ### Auswählen von Paketeinschränkungen für unitäre Journeys {#select-package-limitations}
 
 >[!NOTE]
@@ -300,7 +328,8 @@ Weitere Informationen zu Journey-Verarbeitungsraten und Durchsatzbeschränkungen
 Für die Aktivitäten **[!UICONTROL Campaign v7/v8]** und **[!UICONTROL Campaign Standard]** gelten die folgenden Schutzmechanismen:
 
 * Adobe Campaign-Aktivitäten können nicht mit der Aktivität „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ verwendet werden.
-* Kampagnenaktivitäten können nicht mit den anderen Kanalaktivitäten verwendet werden: Karte, Code-basiertes Erlebnis, E-Mail, Push, SMS, In-App-Nachrichten, Web.
+* **[!UICONTROL Campaign Standard]**-Aktivitäten können nicht mit anderen Kanalaktivitäten verwendet werden: Karte, Code-basiertes Erlebnis, E-Mail, Push, SMS, In-App-Nachrichten, Web.
+* **[!UICONTROL Campaign v7/v8]**-Aktivitäten können zusammen mit nativen Kanalaktivitäten auf derselben Journey verwendet werden.
 
 #### In-App-Aktivität {#in-app-activity-limitations}
 
@@ -310,7 +339,7 @@ Für die Aktion **[!UICONTROL In-App-Nachrichten]** gelten die folgenden Schutzm
 
 * Personalisierung kann nur Profilattribute enthalten.
 
-* Die In-App-Aktivität kann nicht mit Adobe Campaign-Aktivitäten verwendet werden.
+* Die In-App-Aktivität kann nicht mit **[!UICONTROL Campaign Standard-Aktivitäten verwendet]**.
 
 * Die In-App-Anzeige ist an die Journey-Lebensdauer gebunden, d. h. wenn die Journey für ein Profil endet, werden alle In-App-Nachrichten innerhalb dieser Journey nicht mehr für dieses Profil angezeigt.  Daher ist es nicht möglich, eine In-App-Nachricht direkt von einer Journey-Aktivität aus zu stoppen. Stattdessen müssen Sie die gesamte Journey beenden, damit die In-App-Nachrichten nicht mehr im Profil angezeigt werden.
 
