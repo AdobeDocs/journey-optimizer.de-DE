@@ -89,6 +89,6 @@ Gehen Sie wie folgt vor, um vordefinierte Filter zu bearbeiten oder zu löschen:
 
 1. Öffnen Sie die vordefinierte Filterliste mithilfe der Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** im Regelaufbau.
 
-1. Klicken Sie auf ![ Schaltfläche mit ](assets/do-not-localize/rule-builder-icon-more.svg) Auslassungspunkten neben einem Filter und wählen Sie die gewünschte Aktion aus.
+1. Klicken Sie auf ![&#x200B; Schaltfläche mit &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) Auslassungspunkten neben einem Filter und wählen Sie die gewünschte Aktion aus.
 
 ![](assets/predefined-filters-edit.png)
