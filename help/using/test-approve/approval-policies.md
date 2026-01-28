@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 4ce83c9cd3f70462c977db6e872a7ac51ea0e006
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 69%
+source-wordcount: '708'
+ht-degree: 66%
 
 ---
 
@@ -38,6 +38,11 @@ Sie können Validierungsrichtlinien mithilfe flexibler Kriterien wie Tags, Kampa
 >id="ajo_permissions_approval_policy"
 >title="Neue Genehmigungsrichtlinie"
 >abstract="Geben Sie in diesem Bildschirm den Namen ein, wählen Sie den Kontext für die Genehmigungsrichtlinie aus und erstellen Sie dann die Bedingungen, die bestimmen, wer die Genehmigungsanfrage initiieren und wer sie validieren kann."
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_self_approval"
+>title="Selbstgenehmigung blockieren"
+>abstract="Aktivieren Sie diese Option, um Benutzer daran zu hindern, ihre eigenen Genehmigungsanfragen zu genehmigen, selbst wenn sie zu einer Benutzergruppe oder Rolle gehören, die als Prüfer festgelegt wurde."
 
 Gehen Sie wie folgt vor, um eine Genehmigungsrichtlinie zu erstellen:
 
