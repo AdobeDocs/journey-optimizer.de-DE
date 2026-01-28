@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '1721'
-ht-degree: 100%
+source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
+workflow-type: tm+mt
+source-wordcount: '1777'
+ht-degree: 96%
 
 ---
 
@@ -207,6 +207,10 @@ Es können beliebige Elemente aus der Liste ausgewählt werden, die alle in der 
 ## Überprüfen und Speichern der Entscheidungsrichtlinie {#review}
 
 Nachdem Sie eine Auswahlstrategie konfiguriert und Fallback-Angebote hinzugefügt haben, klicken Sie auf **[!UICONTROL Weiter]**, um Ihre Entscheidungsrichtlinie zu überprüfen und zu speichern, und dann auf **[!UICONTROL Erstellen]**, um die Richtlinienerstellung zu bestätigen.
+
+>[!IMPORTANT]
+>
+>Nachdem eine Entscheidungsrichtlinie erstellt wurde, kann es bis zu 15 Minuten dauern, bis Änderungen an ihr in allen Datenregionen propagiert werden, und bis zu 30 Minuten für Kanada. Dazu gehören Änderungen, z. B. das Hinzufügen eines neuen Entscheidungselements zu einer Sammlung, das Ändern einer Regel in einem Element, das Ändern des Elementinhalts oder das Aktualisieren einer Formel.
 
 Sie können eine Entscheidungsrichtlinie jederzeit mithilfe der Schaltfläche mit den Auslassungspunkten im Personalisierungseditor oder im Menü **[!UICONTROL Entscheidungsfindung]** im Bereich der Komponenteneigenschaften bearbeiten oder löschen.
 
