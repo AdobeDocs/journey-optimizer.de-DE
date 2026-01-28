@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 48d7d6e9e92c6bcd35cf0b88e5383aa068cdefd0
+source-git-commit: 669ea379f9e0ca54eb53be66f65343a9e00203cb
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 4%
@@ -26,7 +26,7 @@ Decisioning bietet gegenüber dem alten Entscheidungs-Management-Framework erheb
 
 ### KI- und maschinelle Lernfunktionen
 
-* **Benutzerdefinierte Metriken**: Möglichkeit, benutzerdefinierte Optimierungsmetriken für KI-Modelle zu verwenden. Dies bietet Berichterstellungsinteroperabilität mit [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardisiert das Reporting auf beiden Plattformen und verbessert die Datenkonsistenz und -zuverlässigkeit. Die nahtlose Integration bietet eine klarere Ansicht der Leistungsmetriken und fügt neue Funktionen hinzu, wie z. B. das Erstellen einfacher Metriken, das Veröffentlichen von Zielgruppen, das Stellen von Ad-hoc-Fragen mit Insight Builder und das Planen von Berichten.
+* **Benutzerdefinierte Metriken**: Möglichkeit, benutzerdefinierte Optimierungsmetriken für KI-Modelle zu verwenden. Dies bietet Berichterstellungsinteroperabilität mit [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardisiert das Reporting auf beiden Plattformen und verbessert die Datenkonsistenz und -zuverlässigkeit. Die nahtlose Integration bietet eine klarere Ansicht der Leistungsmetriken und fügt neue Funktionen hinzu, wie z. B. das Erstellen einfacher Metriken, das Veröffentlichen von Zielgruppen, das Stellen von Ad-hoc-Fragen mit Insight Builder und das Planen von Berichten.
 
 * **Steigerungsmessung**: Möglichkeit, Traffic in KI-Modellen zu visualisieren, zu erkunden oder zu nutzen. Dadurch können Marketing-Experten und Datenwissenschaftler quantifizieren, wie die KI-Exploration die langfristige Modellleistung und die Auffindbarkeit neuer erfolgreicher Angebote verbessert. Transparenz bei der Traffic-Zuordnung schafft Vertrauen in KI-Entscheidungen und ermöglicht es Teams, im Laufe der Zeit sowohl für das Lernen als auch für die Leistung zu optimieren. [Weitere Informationen](ranking/auto-optimization-model.md#lift)
 
@@ -74,16 +74,16 @@ Dashboard, das die Leistung von Entscheidungselementen und Auswahlstrategien geg
 
 | Anwendungsfall | Entscheidungs-Management | Entscheidungsfindung |
 |----------|---------------------|-------------|
-| **Multi-Placement-Strategie** | Eine einzige Strategie unterstützt sowohl die Homepage als auch die Mobile App | Entscheidungslogik, die an eine bestimmte Platzierung gebunden ist (z. B. Web- oder E-Mail-Speicherort) |
-| **Konsistente Angebotsattribute** | Marketing-Experten definieren „discountType“ und „offerValue“ einmal; jedes Angebot übernimmt diese Felder automatisch | Jedes Angebot verwaltet seine eigenen Attribute manuell. Keine Konsistenz auf Schemaebene |
-| **Dynamische KI-Rangfolge** | Ein Marketer kann die Gewichtung anpassen (z. B. 60 % KI-Konversionswert + 40 % Gewinnspanne), um Umsatz- und Interaktionsziele auszugleichen | Rankings basieren ausschließlich auf Modellausgabe oder statischen Regeln |
-| **A/B-Teststrategien** | Ein Team kann A/B-Tests durchführen, ob „KI + Geschäftsregeln“ die „prioritätsbasierte Rangfolge“ übertreffen | Keine Unterstützung für integrierte Experimente |
-| **Benutzerdefinierte KI-Metriken** | Retailer trainiert ein „Likelihood-Kaufmodell“ und überwacht die Steigerung bei neuen und bekannten Produkten | Wird nur für die Klickneigung optimiert, keine Einblicke in die Modellexploration oder die Steigerung. |
-| **Wiederverwendbarkeit von Inhalten** | Die Aktualisierung einer Kopfzeile oder CTA wird automatisch an Hunderte von Angeboten weitergegeben | Jedes Angebot speichert den gesamten Inhalt unabhängig voneinander |
-| **Integriertes Authoring** | Ein Marketer fügt personalisierte Angebote in eine E-Mail ein, ohne den Nachrichteneditor verlassen zu müssen | Entscheidungsfindung und Messaging sind in separaten Frameworks mit eingeschränkter Integration verfügbar |
-| **Einhaltung von Datenschutzbestimmungen** | Ein Marketer erstellt eine Angebotsregel in dem Wissen, dass Einverständnisvoreinstellungen automatisch bestimmte Profile ausschließen | Erfordert manuelle Koordination mit Engineering- und Daten-Teams zur Durchsetzung |
-| **Echtzeit-Inventar** | Verwenden Sie einen Produktinventar-Datensatz, um Angebote für nicht vorrätige Artikel in Echtzeit zu unterdrücken | Statische Daten; begrenzte Flexibilität bei der Verwendung externer oder kontextueller Datensätze |
-| **Skalieren der Leistung** | Echtzeit-Personalisierung für Millionen eingehender Anfragen mit einer Reaktionszeit von weniger als 100 ms | Entscheidungen, die im Hub mit höherer Latenz getroffen werden |
+| **Multi-Placement-Strategie** | Entscheidungslogik, die an eine bestimmte Platzierung gebunden ist (z. B. Web- oder E-Mail-Speicherort) | Eine einzige Strategie unterstützt sowohl die Homepage als auch die Mobile App |
+| **Konsistente Angebotsattribute** | Jedes Angebot verwaltet seine eigenen Attribute manuell. Keine Konsistenz auf Schemaebene | Marketing-Experten definieren „discountType“ und „offerValue“ einmal; jedes Angebot übernimmt diese Felder automatisch |
+| **Dynamische KI-Rangfolge** | Rankings basieren ausschließlich auf Modellausgabe oder statischen Regeln | Ein Marketer kann die Gewichtung anpassen (z. B. 60 % KI-Konversionswert + 40 % Gewinnspanne), um Umsatz- und Interaktionsziele auszugleichen |
+| **A/B-Teststrategien** | Keine Unterstützung für integrierte Experimente | Ein Team kann A/B-Tests durchführen, ob „KI + Geschäftsregeln“ die „prioritätsbasierte Rangfolge“ übertreffen |
+| **Benutzerdefinierte KI-Metriken** | Wird nur für die Klickneigung optimiert, keine Einblicke in die Modellexploration oder die Steigerung. | Retailer trainiert ein „Likelihood-Kaufmodell“ und überwacht die Steigerung bei neuen und bekannten Produkten |
+| **Wiederverwendbarkeit von Inhalten** | Jedes Angebot speichert den gesamten Inhalt unabhängig voneinander | Die Aktualisierung einer Kopfzeile oder CTA wird automatisch an Hunderte von Angeboten weitergegeben |
+| **Integriertes Authoring** | Entscheidungsfindung und Messaging sind in separaten Frameworks mit eingeschränkter Integration verfügbar | Ein Marketer fügt personalisierte Angebote in eine E-Mail ein, ohne den Nachrichteneditor verlassen zu müssen |
+| **Einhaltung von Datenschutzbestimmungen** | Erfordert manuelle Koordination mit Engineering- und Daten-Teams zur Durchsetzung | Ein Marketer erstellt eine Angebotsregel in dem Wissen, dass Einverständnisvoreinstellungen automatisch bestimmte Profile ausschließen |
+| **Echtzeit-Inventar** | Statische Daten; begrenzte Flexibilität bei der Verwendung externer oder kontextueller Datensätze | Verwenden Sie einen Produktinventar-Datensatz, um Angebote für nicht vorrätige Artikel in Echtzeit zu unterdrücken |
+| **Skalieren der Leistung** | Entscheidungen, die im Hub mit höherer Latenz getroffen werden | Echtzeit-Personalisierung für Millionen eingehender Anfragen mit einer Reaktionszeit von weniger als 100 ms |
 
 ## Migrations-Tools {#migration-tooling}
 
