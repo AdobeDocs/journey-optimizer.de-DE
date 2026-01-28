@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
-workflow-type: ht
-source-wordcount: '801'
-ht-degree: 100%
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 >id="ajo_message_push"
 >title="Erstellen von Push-Benachrichtigungen"
 >abstract="Fügen Sie Ihre Push-Benachrichtigung hinzu und personalisieren Sie sie mit dem Personalisierungseditor."
+
+Sie können Push-Benachrichtigungen für Mobilgeräte (iOS und Android) und Webbrowser erstellen. Auf dieser Seite werden Sie durch den Prozess zum Einrichten einer Push-Benachrichtigung in einer Journey oder Kampagne geführt.
 
 ## Erstellen der Push-Benachrichtigung in einer Journey oder Kampagne {#create}
 
@@ -70,7 +72,7 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** die Option **[!UICONTROL Push-Benachrichtigung]** aus und wählen Sie eine Konfiguration aus oder erstellen Sie eine neue Konfiguration.
 
-   Weitere Informationen zur Push-Konfiguration finden Sie auf [dieser Seite](push-configuration.md).
+   Erfahren Sie mehr über die Push-Konfiguration für Mobile [auf dieser Seite](push-configuration.md) und für Web [auf dieser Seite](push-configuration-web.md).
 
    ![](assets/push_create_3.png)
 
@@ -111,7 +113,7 @@ Der Schnellversand-Modus ist ein Add-on für [!DNL Journey Optimizer], das den s
 
 Der Schnellversand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch wäre oder wenn Sie eine dringende Push-Benachrichtigung an Mobiltelefone senden möchten, z. B. eine Eilmeldung an Benutzende, die Ihre Nachrichten-App installiert haben.
 
-Weitere Informationen zur Performance bei Verwendung des Schnellversand-Modus finden Sie unter [Produktbeschreibung für Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Weitere Informationen zur Leistung bei Verwendung des Schnellversandmodus finden Sie unter [Produktbeschreibung für Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Voraussetzungen {#prerequisites}
 

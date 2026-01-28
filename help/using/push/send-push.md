@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen oder Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, eine Vorschau des Inhalts anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden. 
 
-Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]**. Sie können den Typ des Geräts auswählen, auf dem Inhalte in der Vorschau angezeigt werden sollen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
+Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]**. Sie können dann den Gerätetyp auswählen, um Inhalte in der Vorschau anzuzeigen: **[!UICONTROL iOS]**, **[!UICONTROL Android]** oder **[!UICONTROL Web]**.
 
 ![](assets/push_preview_3.png)
 
@@ -58,7 +58,8 @@ Wenn Ihre Push-Benachrichtigung fertig ist, vervollständigen Sie die Konfigurat
 
 **Verwandte Themen**
 
-* [Konfigurieren des Push-Kanals](push-configuration.md)
+* [Konfigurieren des Push-Kanals für Mobilgeräte](push-configuration.md)
+* [Push-Kanal für Web konfigurieren](push-configuration-web.md)
 * [Bericht zu Push-Benachrichtigungen](../reports/journey-global-report-cja-push.md)
 * [Erstellen einer Push-Benachrichtigung](create-push.md)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
