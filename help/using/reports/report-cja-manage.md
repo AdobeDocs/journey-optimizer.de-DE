@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 881cae4638082f804a5e2a768dfa135193959191
+source-git-commit: 47280460f7b47412c348ccc75ca9afca50c34e7e
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1327'
 ht-degree: 100%
 
 ---
@@ -216,10 +216,6 @@ Sie können jetzt bestimmte Daten in der Tabelle auswählen und aus diesen Auswa
 Sie können jetzt die neu erstellte Zielgruppe mit einer Journey oder Kampagne verwenden.
 
 ## Verwalten von Vorlagen {#cja-template}
-
->[!AVAILABILITY]
->
-> Die Funktionalität **Vorlage** wird schrittweise in Phasen eingeführt, wobei die vollständige allgemeine Verfügbarkeit für Ende Januar geplant ist. Sie steht ausschließlich Benutzenden mit einer [!DNL Customer Journey Analytics]-Lizenz zur Verfügung.
 
 Sie haben jetzt die Möglichkeit, Ihre Journey Optimizer-Berichte mithilfe von Customer Journey Analytics-Vorlagen zu erweitern. [Weitere Informationen zu Vorlagen in Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
