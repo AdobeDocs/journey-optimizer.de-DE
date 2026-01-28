@@ -8,14 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Export, Nachrichten, HIPAA, E-Mails, SMS, Konfiguration
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: 8bc0d28ea3e7c26bd8f7a35d00a73e41f35720d0
+source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 85%
+source-wordcount: '695'
+ht-degree: 44%
 
 ---
 
@@ -24,28 +21,22 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="Aufbewahren und Exportieren von gesendeten Inhalten"
->abstract="Wenn Sie diese Option auswählen, können Sie den Inhalt der gesendeten E-Mails oder SMS-Nachrichten mit dieser Konfiguration in einen [!DNL Experience Platform]-Datensatz schreiben. Datensätze werden 7 Kalendertage nach der Aufnahme aufbewahrt, während derer Sie sie in Ihren eigenen Speicher exportieren können."
+>abstract="Wenn Sie diese Option auswählen, können Sie den Inhalt der gesendeten E-Mails oder SMS-Nachrichten mit dieser Konfiguration in einen [!DNL Experience Platform] Datensatz schreiben. Datensätze werden 7 Kalendertage nach der Aufnahme aufbewahrt, während derer Sie sie in Ihren eigenen Speicher exportieren können."
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist derzeit nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+>Diese Funktion ist nur für den E-Mail- und SMS-Kanal für Organisationen verfügbar, die das Add-on „Nachrichtenexport“ erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Der **Nachrichtenexport** ermöglicht es Ihnen, gesendete E-Mail- und SMS-Nachrichteninhalte über [!DNL Adobe Experience Platform]-Ziele von [!DNL Journey Optimizer] an Ihren eigenen Speicher zu übertragen, wodurch Daten aus [!DNL Experience Platform] an externe Endpunkte gesendet werden können. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home){target="_blank"}
+**Nachrichtenexport** ermöglicht es Ihnen, gesendete E-Mail- und SMS-Nachrichteninhalte über [!DNL Journey Optimizer] Ziele von [!DNL Adobe Experience Platform] an Ihren eigenen Speicher zu übertragen, wodurch Sie Daten aus [!DNL Experience Platform] an externe Endpunkte senden können. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home){target="_blank"}
 
-Mit dieser Funktion wird der Inhalt von E-Mail- und SMS-Nachrichten, die über [!DNL Journey Optimizer] gesendet werden und für den Export markiert wurden, in den [!DNL Experience Platform] **AJO-Nachrichtenexport-Datensatz** geschrieben.
+Mit dieser Funktion wird der Inhalt von E-Mail- und SMS-Nachrichten, die über [!DNL Journey Optimizer] gesendet werden und für den Export markiert wurden, in den [!DNL Experience Platform] **AJO-Nachrichtenexportdatensatz**. [Weitere Informationen zu Datensätzen](../data/get-started-datasets.md)
 
-Die Datensätze werden dann sieben Kalendertage lang nach der Aufnahme im **AJO** Nachrichtenexportdatensatz aufbewahrt, während derer Sie sie in ein externes System Ihrer Wahl exportieren können.
-<!--
-## Terminology
-
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home){target="_blank"}
-* **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
-* **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
+Datensätze werden dann sieben Kalendertage nach der Aufnahme im Datensatz aufbewahrt, während derer Sie sie in das externe System Ihrer Wahl exportieren können.
 
 ## Leitlinien
 
-* Diese Funktion unterstützt nur die Kanäle E-Mail und SMS.
-* Datensätze im AJO-Nachrichtenexport-Datensatz werden sieben Kalendertage nach der Aufnahme aufbewahrt.
+* Diese Funktion unterstützt nur die Kanäle **E-Mail** und **SMS**.
+* Datensätze im AJO-Nachrichtenexport-Datensatz werden **sieben Kalendertage nach der Aufnahme)**.
 * Die Aufstockung wird nicht für Nachrichten unterstützt, die vor dem Aktivieren des Nachrichtenexports gesendet wurden (wie unten beschrieben).
 
 ## Aktivieren des Nachrichtenexports {#enable-message-export}
@@ -89,6 +80,31 @@ Um den Nachrichtenexport auf Ihre Kampagnen und Journeys anzuwenden, müssen Sie
 
 1. Speichern Sie Ihre Änderungen und übermitteln Sie Ihre Kanalkonfiguration.
 
-E-Mail- und SMS-Nachrichten, die über Kampagnen oder Journeys mit dieser Kanalkonfiguration gesendet werden, werden in den **AJO-Nachrichtenexport-Datensatz** geschrieben. Die Einträge werden dann basierend auf dem von Ihnen definierten Exportdatenfluss an das ausgewählte Speicherziel exportiert.
+Nachdem Sie Nachrichten über Kampagnen oder Journey mit dieser Kanalkonfiguration gesendet haben, werden E-Mail- und SMS-Nachrichten in den **AJO-Nachrichtenexportdatensatz geschrieben**. Sie können dann [auf die Datensätze](#access-exported-data) im Datensatz zugreifen und sie basierend auf dem von Ihnen definierten Exportdatenfluss an Ihr ausgewähltes Speicherziel exportieren.
 
-Wenn Sie den Umschalter **[!UICONTROL Nachrichtenexport aktivieren]** deaktivieren, werden keine neuen Einträge für diese Kanalkonfiguration mehr in den Datensatz aufgenommen. Vorhandene Einträge bleiben bis zum Ablauf der Aufbewahrungsfrist erhalten.
+>[!NOTE]
+>
+>Wenn Sie den Umschalter **[!UICONTROL Nachrichtenexport aktivieren]** deaktivieren, werden keine neuen Einträge für diese Kanalkonfiguration mehr in den Datensatz aufgenommen. Vorhandene Einträge bleiben bis zum Ablauf der Aufbewahrungsfrist erhalten.
+
+## Zugreifen auf exportierte Nachrichtendaten {#access-exported-data}
+
+Nachdem Nachrichten mithilfe einer Kanalkonfiguration gesendet wurden, bei der der Nachrichtenexport aktiviert ist, können Sie auf die exportierten Daten im **AJO-Nachrichtenexportdatensatz zugreifen und sie**.
+
+So zeigen Sie die exportierten Nachrichtendaten an:
+
+1. Navigieren Sie in [!DNL Journey Optimizer] im linken Navigationsbereich zu **[!UICONTROL Daten]** > **[!UICONTROL Datensätze]**. [Weitere Informationen zu Datensätzen](../data/get-started-datasets.md)
+
+1. Stellen Sie sicher, dass Sie systemgenerierte Datensätze anzeigen.
+
+1. Wählen Sie den **AJO-Nachrichtenexportdatensatz** aus der Liste aus.
+
+   ![](assets/datasets-list.png)
+
+1. Klicken Sie auf der Seite mit den Datensatzdetails auf **[!UICONTROL Datensatz in der Vorschau anzeigen]**, um die neuesten Datensätze anzuzeigen.
+
+   ![](assets/ajo-message-export-dataset.png)
+
+Der Datensatz enthält umfassende Informationen für jede Nachricht, die über die Kanalkonfiguration mit aktiviertem Nachrichtenexport gesendet wird, einschließlich: Betreffzeile, Nachrichtentext, Empfänger-E-Mail-Adresse oder Telefonnummer, Absenderadresse oder Telefonnummer, Datum und Uhrzeit des Versands, Personalisierungsdaten und mehr.
+
+Alle Datensätze im Datensatz werden **sieben Kalendertage nach der Aufnahme)**. Während dieser Aufbewahrungsfrist können Sie auf die Daten für Compliance-Audits und rechtliche Anfragen zugreifen oder sie über das konfigurierte Experience Platform-Ziel in Ihr eigenes Speichersystem exportieren.
+

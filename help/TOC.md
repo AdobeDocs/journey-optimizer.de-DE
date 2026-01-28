@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: 5b586627473bd4e7618c235cbea1b286167859ab
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3073'
 ht-degree: 98%
 
 ---
@@ -850,6 +850,7 @@ ht-degree: 98%
    + [Kanalkonfiguration](/help/rp_landing_pages/configuration-landing-page.md)
    + [Erste Schritte bei der Kanalkonfiguration](using/configuration/get-started-configuration.md)
    + [Einrichten von Kanalkonfigurationen](using/configuration/channel-surfaces.md)
+   + [Exportieren von Nachrichteninhalten](using/configuration/message-export.md)
    + Geführte Kanaleinrichtung {#guided-setup}
       + [Geführte Kanaleinrichtung](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Erste Schritte mit der Anleitung zur Kanaleinrichtung](using/configuration/set-mobile-config.md)

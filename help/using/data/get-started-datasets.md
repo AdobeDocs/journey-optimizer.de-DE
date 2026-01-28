@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
-workflow-type: ht
-source-wordcount: '849'
-ht-degree: 100%
+source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben als Dat
 
 ## Leitlinien und Einschränkungen
 
-* Seit dem 1. November 2024 werden Senden- und Öffnen-Ereignisse aus Tracking- und Feedback-[!DNL Journey Optimizer]Datensätzen nicht mehr durch die Streaming-Segmentierung unterstützt. Verwenden Sie stattdessen Geschäftsregeln, um die Frequenzbegrenzung oder die Ermüdungsverwaltung zu implementieren. Weitere Informationen finden Sie in [diesem Abschnitt](../conflict-prioritization/rule-sets.md), eine Erklärung zu Anwendungsfällen für die tägliche Begrenzung finden Sie [hier](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=de){target="_blank"}.
+* Seit dem 1. November 2024 werden Senden- und Öffnen-Ereignisse aus Tracking- und Feedback-[!DNL Journey Optimizer]Datensätzen nicht mehr durch die Streaming-Segmentierung unterstützt. Verwenden Sie stattdessen Geschäftsregeln, um die Frequenzbegrenzung oder die Ermüdungsverwaltung zu implementieren. Weitere Informationen finden Sie in [diesem Abschnitt](../conflict-prioritization/rule-sets.md), eine Erklärung zu Anwendungsfällen für die tägliche Begrenzung finden Sie [hier](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
 * Ab Februar 2025 wird für systemgenerierte Journey Optimizer-Datensätze ein Time-to-Live-Schutzmechanismus (TTL) eingeführt. [Weitere Informationen](datasets-ttl.md)
 
@@ -62,6 +62,10 @@ In diesem Abschnitt werden die von [!DNL Journey Optimizer] verwendeten Systemda
 * Einverständnis
 
   _Einverständnis-Service-Datensatz_: speichert die Einverständnisinformationen eines Profils.
+
+* Nachrichtenexport
+
+  _Exportdatensatz für AJO-Nachrichten_: Speichert den Inhalt gesendeter E-Mails und SMS-Nachrichten zu Exportzwecken. Datensätze werden 7 Kalendertage nach der Aufnahme aufbewahrt. Nur für Organisationen verfügbar, die das Add-on „Nachrichtenexport“ erworben haben. [Weitere Informationen](../configuration/message-export.md)
 
 * Intelligent Services
 
