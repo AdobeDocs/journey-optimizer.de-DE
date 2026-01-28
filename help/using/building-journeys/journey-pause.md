@@ -9,10 +9,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
-workflow-type: ht
-source-wordcount: '2481'
-ht-degree: 100%
+source-git-commit: 0d016d45495c359e226dd1c30611b2c381ef29a4
+workflow-type: tm+mt
+source-wordcount: '2515'
+ht-degree: 98%
 
 ---
 
@@ -154,6 +154,7 @@ Beachten Sie, dass Profilausschlüsse für Profile, die sich derzeit in der Jour
 ## Leitlinien und Einschränkungen {#journey-pause-guardrails}
 
 * Eine Journey-Version kann bis zu **14 Tage** lang pausiert werden, wobei in pausierten Journeys in Ihrem Unternehmen insgesamt maximal **10 Millionen Profile** zulässig sind.
+Diese Begrenzung zählt die Gesamtzahl der Profile, die in allen pausierten Journey enthalten sind, nicht in den einzelnen Profilen. Wenn beispielsweise dieselben 5M-Profile in zwei pausierten Journey gespeichert werden, ist die 10M-Grenze erreicht.
 Dieses Limit wird alle 30 Minuten überprüft. Dies bedeutet, dass Sie den Schwellenwert von 10 Millionen möglicherweise vorübergehend überschreiten. Sobald das System dies jedoch erkennt, werden alle zusätzlichen Profile automatisch verworfen.
 
   Wenn Sie Journeys fortsetzen, um die Anzahl der zurückgehaltenen Profile wieder unter das Limit zu bringen, wird die jeweilige Journey sofort fortgesetzt. Es kann jedoch bis zu 30 Minuten dauern, bis die Profilanzahl aktualisiert wird. Während dieser Zeit betrachtet das System diese Profile möglicherweise immer noch als pausiert.
@@ -201,7 +202,7 @@ Wenn Sie diese Journey fortsetzen:
 
 ## Fehlerbehebung bei Verwerfungen von Profilen in pausierten Journeys {#discards-troubleshoot}
 
-Sie können den [Abfragedienst in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden, um Schrittereignisse abzufragen, die je nach Zeitpunkt weitere Informationen zu Verwerfungen von Profilen enthalten können.
+Sie können den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden, um Schrittereignisse abzufragen, die je nach Zeitpunkt weitere Informationen zu Verwerfungen von Profilen enthalten können.
 
 * Verwenden Sie den folgenden Code für Verwerfungen, die vor dem Eintritt des Profils in die Journey erfolgen:
 
