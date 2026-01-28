@@ -6,10 +6,10 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,15 @@ Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey O
 | API-Anfrage „Code-basiertes Erlebnis“ mit Entscheidungsrichtlinie, die Edge-Segmentierung verwendet | 1.500 |
 | API-Anfrage „Code-basiertes Erlebnis“ mit Entscheidungsrichtlinie, die keine Edge-Segmentierung verwendet | 5.000 |
 | Maximale Anzahl von Oberflächen-URIs pro Edge-Entscheidungsanfrage | 30 |
+
+## Entscheidungselemente {#decision-items}
+
+| Leitplanke | Limit |
+| ------- | ------- |
+| Entscheidungselemente insgesamt | 10.000 |
+| Maximale Größe von Elementen, einschließlich Attributen (1 KB), max. 30 Attribute | 1 KB |
+| Maximale Größe der Elementdarstellung (insgesamt für alle Platzierungen) | 1 KB |
+| Häufigkeitsregeln: Maximale Anzahl der Begrenzungsregeln pro Angebot | 10 |
 
 ## Elementsammlung {#item-collections}
 
@@ -65,10 +74,8 @@ Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey O
 | Leitplanke | Limit |
 | ------- | ------- |
 | Anzahl der benutzerdefinierte Attribute pro Angebotskatalogschema | 100 |
-| Angebotselemente insgesamt | 10.000 |
 | Platzierungen insgesamt | 1.000 |
 | KI-Rangfolgemodell | 5 |
-| Häufigkeitsregeln: Maximale Anzahl der Begrenzungsregeln pro Angebot | 10 |
 
 ## Konfigurationen  {#configurations}
 
