@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Inhalt, Editor, E-Mail, Start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 96%
+source-wordcount: '743'
+ht-degree: 94%
 
 ---
 
@@ -126,5 +126,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Ihrers Inhalts zu beginnen:
 1. Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendering zu überprüfen. Sie können zwischen der Desktop- oder der Mobile-Ansicht wählen. Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
    ![](assets/email_designer_simulate_content.png)
+
+1. Sie können auch die Qualität Ihrer Inhalte überprüfen, um Lesbarkeit, Effektivität und Inhaltskohärenz zu bewerten. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](../content-management/brands-score.md#validate-quality)
 
 1. Wenn Ihre Inhalte fertig sind, klicken Sie auf **[!UICONTROL Speichern]**.

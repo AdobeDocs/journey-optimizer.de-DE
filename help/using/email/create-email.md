@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
-workflow-type: ht
-source-wordcount: '1055'
-ht-degree: 100%
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 98%
 
 ---
 
@@ -163,6 +163,8 @@ Es können zwei Arten von Warnhinweisen auftreten:
 ## Überprüfen und Senden der E-Mail
 
 Sobald Ihr Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen die Vorschau anzeigen, Testsendungen durchführen und das Rendering in beliebten Desktop-, Mobile- und Web-basierten Clients steuern. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
+
+Sie können auch die Qualität Ihrer Inhalte überprüfen, um Lesbarkeit, Effektivität und Inhaltskohärenz zu bewerten. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >

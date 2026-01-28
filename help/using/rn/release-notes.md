@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 14%
+source-wordcount: '1799'
+ht-degree: 15%
 
 ---
 
@@ -35,7 +35,7 @@ Die Abschnitte [Funktionen](#jan-26-01-features) und [Verbesserungen](#jan-26-01
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#jan-26-01-features}
 
@@ -147,6 +147,10 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 #### Berechtigungen
 
 * **Selbstvalidierung für Journey und Kampagnen verhindern** - Beim Erstellen oder Festlegen der Validierungsrichtlinie wurde eine Option hinzugefügt, mit der Journey- oder Kampagnenerstellende daran gehindert werden können, ihre eigenen Objekte zu validieren. [Weitere Informationen](../test-approve/approval-policies.md)
+
+#### KI-Assistent
+
+* **KI-Assistent für Inhaltsqualitätsprüfungen** - Zusätzlich zur Markenausrichtung können Sie die gesamte <strong>Inhaltsqualität</strong> bewerten, um unabhängig von Ihren Markenrichtlinien potenzielle Probleme mit Lesbarkeit, Kohärenz und Effektivität aufzudecken. Diese automatisierten Prüfungen werden dabei helfen, unklare Botschaften, inkonsistente Tonwerte oder strukturelle Lücken zu erkennen. Verfügbarkeit: 28. Januar 2026.
 
 ## Demnächst {#jan-26-01-coming-soon}
 
@@ -333,10 +337,6 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 </table>
 
 ### Verbesserungen
-
-* **KI-Assistent für Inhaltsqualitätsprüfungen** - Zusätzlich zur Markenausrichtung können Sie die gesamte <strong>Inhaltsqualität</strong> bewerten, um unabhängig von Ihren Markenrichtlinien potenzielle Probleme mit Lesbarkeit, Kohärenz und Effektivität aufzudecken. Diese automatisierten Prüfungen werden dabei helfen, unklare Botschaften, inkonsistente Tonwerte oder strukturelle Lücken zu erkennen. Verfügbarkeit: 28. Januar 2026.
-
-* **Aktualisieren von Marken mit neuer Farbregisterkarte** - Markenrichtlinien helfen sicherzustellen, dass Ihre Marke auf allen Touchpoints konsistent präsentiert wird. Im neuen <strong>Abschnitt Farben</strong> werden die Standards für das Farbsystem Ihrer Marke definiert und beschrieben, wie Farben in Erlebnissen ausgewählt, organisiert und angewendet werden. Sie sorgt für die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben, um eine kohärente, barrierefreie und erkennbare Markenidentität zu unterstützen. Verfügbarkeit: 28. Januar 2026.
 
 * **SMS-Webhooks** - <strong>Webhooks</strong> werden von allen SMS-Anbietern unterstützt. Sie können jeden Webhook für den jeweiligen Verwendungszweck konfigurieren: eingehende Webhooks zur Erfassung eingehender Nachrichten und Feedback-Webhooks für den Empfang von Empfangsbestätigungen, Statusaktualisierungen und anderen nachrichtenbezogenen Ereignissen. Verfügbarkeit: 28. Januar 2026.
 

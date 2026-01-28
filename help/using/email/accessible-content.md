@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '1638'
-ht-degree: 100%
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+workflow-type: tm+mt
+source-wordcount: '1652'
+ht-degree: 99%
 
 ---
 
@@ -131,6 +131,8 @@ Zum Überprüfen der Barrierefreiheit Ihrer Inhalte können Sie die von [!DNL Jo
 * Verwenden Sie die Option [E-Mail-Rendering](../content-management/rendering.md), die Litmus zur Simulation Ihrer Designs in wichtigen E-Mail-Clients (Apple Mail, Gmail, Outlook) nutzt, damit Sie sehen können, ob Text, Farben und Bilder Ihre Inhalte barrierefrei machen. <!--Litmus includes accessibility testing-->
 
 * Führen Sie Testsendungen durch, um das Rendering Ihrer Inhalte zu testen, bevor Sie sie an Ihre echte Zielgruppe senden. [Weitere Informationen](../content-management/proofs.md)
+
+* Validieren Sie die Qualität Ihrer Inhalte, um Lesbarkeit, Inhaltskohärenz und Gesamteffektivität zu bewerten. [Weitere Informationen](../content-management/brands-score.md#validate-quality)
 
 ![](assets/accessible-simulate.png){width="90%"}
 
