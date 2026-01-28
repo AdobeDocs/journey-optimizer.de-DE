@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1070'
+ht-degree: 97%
 
 ---
 
@@ -101,7 +101,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 >[!NOTE]
 >
->Sie können bis zu 10 aktive lokale Regelsätze für jede Kanal-Domain und für die Journey-Domain erstellen.
+>Sie können bis zu 10 Regelsätze für die Kanaldomäne und 10 Regelsätze für die Journey-Domain erstellen, also insgesamt 20 Regelsätze.
 
 1. Rufen Sie die Liste **[!UICONTROL Regelsätze]** auf und klicken Sie dann auf **[!UICONTROL Regelsatz erstellen]**.
 
@@ -180,4 +180,4 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
