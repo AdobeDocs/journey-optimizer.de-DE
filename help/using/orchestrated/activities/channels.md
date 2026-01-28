@@ -5,10 +5,10 @@ title: Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 description: Informationen über das Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 68%
+source-wordcount: '1448'
+ht-degree: 64%
 
 ---
 
@@ -50,11 +50,11 @@ UNUSED IDs in BJ
 >title="Briefpost-Aktivität"
 >abstract="Die Briefpost-Aktivität erleichtert den Briefpost-Versand innerhalb der orchestrierten Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Briefpost-Dienstleistern benötigten Extraktionsdatei zu automatisieren. Kanalaktivitäten können in der Arbeitsoberfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können."
 
-[!DNL Adobe Journey Optimizer] ermöglicht die Automatisierung und Ausführung von Marketing-Kampagnen über verschiedene Kanäle hinweg: E-Mail, SMS und Push-Benachrichtigungen. Sie können diese Kanalaktivitäten in der Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifende orchestrierte Kampagnen zu erstellen. Diese Kampagnen können Trigger-Aktionen auf der Grundlage des Kundenverhaltens und der Kundendaten durchführen.
+[!DNL Adobe Journey Optimizer] ermöglicht die Automatisierung und Ausführung von Marketing-Kampagnen über verschiedene Kanäle hinweg - E-Mail, SMS, Push-Benachrichtigungen und Briefpost. Sie können diese Kanalaktivitäten in der Kampagnen-Arbeitsfläche kombinieren, um kanalübergreifende orchestrierte Kampagnen zu erstellen. Diese Kampagnen können Trigger-Aktionen auf der Grundlage des Kundenverhaltens und der Kundendaten durchführen.
 
 Beispiel:
 
-* Senden Sie eine Begrüßungsserie per E-Mail, SMS und Push.
+* Senden Sie eine Begrüßungsserie per E-Mail, SMS, Push und Briefpost.
 * Senden Sie nach einem Kauf eine Folge-E-Mail.
 * Senden Sie personalisierte Geburtstagsgrüße per SMS.
 
@@ -62,7 +62,7 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 
 >[!CAUTION]
 >
->In orchestrierten Kampagnen werden nur die Kanäle SMS, Push und E-Mail unterstützt.
+>In orchestrierten Kampagnen werden nur die Kanäle SMS, Push, E-Mail und Briefpost unterstützt.
 
 ## Hinzufügen einer Kanalaktivität und Definieren ihrer Eigenschaften {#add}
 
@@ -70,11 +70,11 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 >
 >Bevor Sie eine Kanalaktivität hinzufügen, definieren Sie die Zielgruppe mithilfe einer Aktivität des Typs [Zielgruppe erstellen](build-audience.md) oder [Zielgruppe lesen](read-audience.md).
 
-1. Fügen Sie der Arbeitsfläche eine Kanalaktivität hinzu. Verfügbare Kanalaktivitäten sind **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]** und **[!UICONTROL Push]**.
+1. Fügen Sie der Arbeitsfläche eine Kanalaktivität hinzu. Verfügbare Kanalaktivitäten sind **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push]** und **[!UICONTROL Briefpost]**.
 
    ![Bild, das die Arbeitsfläche mit verfügbaren Aktivitäten zeigt](../assets/channel-add.png)
 
-1. Wählen Sie die Aktivität aus und klicken Sie je nach ausgewähltem Kanal auf **[!UICONTROL E-Mail bearbeiten]**, **[!UICONTROL SMS bearbeiten]** oder **[!UICONTROL Push-Benachrichtigung bearbeiten]**.
+1. Wählen Sie die Aktivität aus und klicken Sie je **[!UICONTROL Kanal auf E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push bearbeiten]** oder **[!UICONTROL Briefpost bearbeiten]**.
 
    ![Bild, das die Arbeitsfläche mit einer E-Mail -Aktivität zeigt](../assets/channel-edit.png)
 
@@ -92,7 +92,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Anwenden von Begrenzungsregeln**
 
-   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. [Erfahren Sie, wie Sie mit Regelsätzen &#x200B;](../../conflict-prioritization/rule-sets.md).
+   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. [Erfahren Sie, wie Sie mit Regelsätzen ](../../conflict-prioritization/rule-sets.md).
 
 1. **Erstellen eines Inhaltsexperiments**
 
@@ -132,7 +132,7 @@ Wechseln Sie zur Registerkarte **[!UICONTROL Inhalt]**, um Ihre Nachricht zu ers
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="email" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Erstellen einer E-Mail</strong></a></td>
 <td><a href="../../sms/create-sms.md"><img alt="sms" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>SMS erstellen</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Erstellen einer Push-Benachrichtigung</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Erstellen einer Push-Benachrichtigung</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Direkt-Mail" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Erstellen von Direkt-Mail</strong></a></td>
 </tr></table>
 
 ### Hinzufügen von Personalisierung
@@ -179,7 +179,7 @@ Diese Funktion ist besonders nützlich, um eine Überlastung nachgelagerter Syst
 
 Gehen Sie wie folgt vor, um die Ratensteuerung festzulegen:
 
-1. Wählen Sie eine Aktivität für einen ausgehenden Kanal auf der Arbeitsfläche aus und klicken Sie je nach **[!UICONTROL Kanal auf E-Mail]**&#x200B;**[!UICONTROL SMS bearbeiten]** oder **[!UICONTROL Push bearbeiten]**.
+1. Wählen Sie eine Aktivität für einen ausgehenden Kanal auf der Arbeitsfläche aus und klicken Sie je nach **[!UICONTROL Kanal auf E-Mail]****[!UICONTROL SMS bearbeiten]** oder **[!UICONTROL Push bearbeiten]**.
 
    ![Bild, das die Arbeitsfläche mit einer E-Mail -Aktivität zeigt](../assets/channel-edit.png)
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Die wichtigsten Schritte zum Senden von Briefpostnachrichten sind:
 
 >[!AVAILABILITY]
 >
->Direkt-Mail-Nachrichten können nur im Rahmen geplanter Kampagnen erstellt werden. Sie sind nicht für die Verwendung in orchestrierten und von APIs ausgelösten Kampagnen oder in Journeys verfügbar.
+>Briefpostnachrichten können nur im Rahmen geplanter und koordinierter Kampagnen erstellt werden. Sie sind nicht für die Verwendung in API-basierten Kampagnen oder in Journeys verfügbar.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 

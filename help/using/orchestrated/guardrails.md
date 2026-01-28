@@ -5,10 +5,10 @@ title: Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 description: Grundlegendes über Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
-source-wordcount: '508'
-ht-degree: 100%
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 97%
 
 ---
 
@@ -91,4 +91,4 @@ Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung
 
 ## Kanalbeschränkungen
 
-In orchestrierten Kampagnen werden nur die Kanäle SMS, Push und E-Mail unterstützt.
+In orchestrierten Kampagnen werden nur die Kanäle SMS, Push, E-Mail und Briefpost unterstützt.

@@ -5,10 +5,10 @@ title: Reporting für orchestrierte Kampagnen mit Adobe Journey Optimizer
 description: Informationen zum Zugriff auf Berichte über orchestrierte Kampagnen mit Adobe Journey Optimizer
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 100%
+source-wordcount: '187'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Orchestrierte Kampagnen bieten Ihnen durch ihre zuverlässigen Reporting-Funktio
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
-      <td><a href="../reports/report-gs-cja.md"><img alt="Bericht für gesamte Zeit" src="assets/all-time-report.png"></a></td>
+      <td><a href="../reports/report-gs-cja.md"><img alt="Bericht für die gesamte Zeit" src="assets/all-time-report.png"></a></td>
       <td>
         Der <b>Bericht für die gesamte Zeit</b> ist vollständig mit Customer Journey Analytics-Funktionen integriert, wodurch das Reporting plattformübergreifend standardisiert wird und Datenkonsistenz und -zuverlässigkeit verbessert werden. Weitere Informationen zu Berichten für die gesamte Zeit sind <a href="../reports/report-gs-cja.md">in diesem Abschnitt</a> verfügbar.
       </td>
@@ -44,6 +44,6 @@ Orchestrierte Kampagnen bieten Ihnen durch ihre zuverlässigen Reporting-Funktio
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../reports/campaign-global-report-cja-email.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a><br/><a href="../reports/campaign-global-report-cja-email.md"><strong>E-Mail-Bericht</strong></a></td>
 <td><a href="../reports/campaign-global-report-cja-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a><br/><a href="../reports/campaign-global-report-cja-sms.md"><strong>SMS-Bericht</strong></a></td>
-<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>Push-Bericht</strong></a></td>
+<td><a href="../reports/campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a><a href="../reports/campaign-global-report-cja-push.md"><strong>Push-Bericht</strong></a></td><td><a href="../reports/campaign-global-report-cja-direct.md"><img alt="Direkt-Mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../reports/campaign-global-report-cja-direct.md"><strong>Briefpostbericht</strong></a></td>
 </tr></table>
 
