@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d727acc1d01376a4abb8a0766340a2d32832305e
+source-git-commit: 8a7926be7a8e73d889cf38a047400236fd352dab
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 22%
@@ -35,7 +35,7 @@ Die Abschnitte [Funktionen](#jan-26-01-features) und [Verbesserungen](#jan-26-01
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#jan-26-01-features}
 
@@ -155,7 +155,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **KI-Assistent für Inhaltsqualitätsprüfungen** - Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um potenzielle Probleme mit <strong>Lesbarkeit</strong>, Kohärenz und Effektivität unabhängig von Ihren Markenrichtlinien aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung unklarer Botschaften, inkonsistenter Tonwerte oder struktureller Lücken. [Weitere Informationen](../content-management/brands-score.md#validate-quality). [Entdecken Sie diese Funktion im Video](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on).
+* **KI-Assistent für Inhaltsqualitätsprüfungen** - Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um potenzielle Probleme mit <strong>Lesbarkeit</strong>, Kohärenz und Effektivität unabhängig von Ihren Markenrichtlinien aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung unklarer Botschaften, inkonsistenter Tonwerte oder struktureller Lücken. [Weitere Informationen](../content-management/brands-score.md#validate-quality). [Entdecken Sie diese Funktion im Video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -238,7 +238,7 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <td>
 <p><strong>Ruhige Stunden</strong> ermöglichen es Ihnen, zeitbasierte Ausschlüsse für E-Mail-, SMS-, Push- und WhatsApp-Kanäle zu definieren. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen. Ruhezeiten können über <strong>Regelsätze</strong> angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können.</p>
 <p>Diese Funktion wurde zuvor in eingeschränkter Verfügbarkeit veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeit bietet die Funktion jetzt die Möglichkeit, dass Kundinnen und Kunden eine Kampagnenaktion bis zum Abschluss der Ruhezeiten in die Warteschlange stellen und die aktivierte Regel für Ruhezeiten in der Vorschau anzeigen können.</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 28. Januar 2026</p>
+<p>Verfügbarkeitsdatum: Freitag, 29. Januar 2026</p>
 </td>
 </tr>
 </tbody>
@@ -260,7 +260,7 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <li>Rollback-Unterstützung für abgeschlossene Migrationen</li>
 <li>Detaillierte Migrationsberichte mit Objektzuordnungen</li>
 </ul>
-<p>Verfügbarkeitsdatum: Donnerstag, 28. Januar 2026</p>
+<p>Verfügbarkeitsdatum: Freitag, 29. Januar 2026</p>
 </td>
 </tr>
 </tbody>
@@ -277,7 +277,7 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <td>
 <p>Vertiefen Sie insight in den Zustand und die Leistung Ihrer <strong>benutzerdefinierten Aktionsendpunkte</strong> mit einem neuen Überwachungs-Dashboard und angereicherten Journey-Schritt-Ereignisdaten. Verfolgen Sie erfolgreiche Aufrufe, Fehler, Durchsatz, Antwortzeiten und Warteschlangenwartezeiten, um schnell zu verstehen, wann, wo und warum Anomalien auftreten.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 28. Januar 2026</p>
+<p>Verfügbarkeitsdatum: Freitag, 29. Januar 2026</p>
 </td>
 </tr>
 </tbody>
