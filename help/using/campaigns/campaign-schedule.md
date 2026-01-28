@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
+source-git-commit: e6aa361229f068c475732c715160b7c644189e51
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 100%
+source-wordcount: '745'
+ht-degree: 59%
 
 ---
 
@@ -23,15 +23,46 @@ Definieren Sie auf der Registerkarte **[!UICONTROL Zeitplan]** den Zeitplan der 
 
 ## Festlegen des Startdatums einer Kampagne
 
-Standardmäßig starten Aktionskampagnen, sobald sie manuell aktiviert werden, und enden, sobald die Nachricht einmal gesendet wurde.
+Standardmäßig starten Aktionskampagnen, sobald sie manuell aktiviert werden, und enden, sobald die Nachricht einmal gesendet wurde. Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand der Nachricht im Abschnitt **[!UICONTROL Kampagnenstart]** angeben.
 
-Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand der Nachricht im Abschnitt **[!UICONTROL Kampagnenstart]** angeben.
+Stellen Sie bei der Planung von Kampagnen in [!DNL Adobe Journey Optimizer] sicher, dass Ihr Startdatum und Ihre Startzeit mit dem gewünschten ersten Versand übereinstimmen. Wenn bei wiederkehrenden Kampagnen die anfängliche geplante Zeit bereits überschritten ist, werden die Kampagnen gemäß ihren Intervallregeln auf das nächste verfügbare Zeitfenster verschoben.
 
 ![](assets/campaign-start.png)
 
->[!NOTE]
+## Zur Ortszeit des Empfängers senden {#profile-timezone}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_profile_timezone"
+>title="Zeitzone des Profils verwenden"
+>abstract="Senden von Nachrichten basierend auf der Zeitzone des Profils jedes Empfängers. Alle Empfänger erhalten die Nachricht zur gleichen Ortszeit, unabhängig von ihrem geografischen Standort. Das System verwendet das Feld „timeZone“ der Adobe Experience Platform-Profile, wobei die Zeitzone des Kampagnenerstellers als Fallback dient."
+
+Wenn Sie eine Kampagne für ein bestimmtes Datum und eine bestimmte Uhrzeit planen, können Sie Nachrichten basierend auf der Zeitzone des Profils jedes Empfängers senden. Dadurch wird sichergestellt, dass alle Empfänger die Nachricht zur gleichen Ortszeit erhalten, unabhängig von ihrem geografischen Standort.
+
+Wenn Sie beispielsweise eine Kampagne so planen, dass sie um 9 Uhr morgens mit der Zeitzone des Profils gesendet wird, erhalten Empfängerinnen und Empfänger in New York (ET) diese um 9 Uhr MEZ, während Empfängerinnen und Empfänger in Los Angeles (PT) sie um 9 Uhr MEZ erhalten.
+
+>[!AVAILABILITY]
 >
->Stellen Sie bei der Planung von Kampagnen in [!DNL Adobe Journey Optimizer] sicher, dass Ihr Startdatum und Ihre Startzeit mit dem gewünschten ersten Versand übereinstimmen. Wenn bei wiederkehrenden Kampagnen die anfängliche geplante Zeit bereits überschritten ist, werden die Kampagnen gemäß ihren Intervallregeln auf das nächste verfügbare Zeitfenster verschoben.
+>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+>
+>Die Planung mit Zeitzonen des Profils ist nur für diese ausgehenden Kanäle verfügbar: E-Mail, Push, SMS, WhatsApp und LINE.
+
+So aktivieren Sie die Zeitzonenplanung für Profile:
+
+1. Geben Sie **[!UICONTROL Abschnitt Kampagnenstart das]** und die Uhrzeit für den Versand der Nachricht an.
+
+1. Aktivieren Sie die **[!UICONTROL Zeitzone des Profils verwenden]**.
+
+   ![](assets/campaign-profile-timezone.png)
+
+**Funktionsweise:**
+
+Das System verwendet das Feld `profile.timeZone` aus dem Adobe Experience Platform-Profil jedes Empfängers, um dessen lokale Zeitzone zu bestimmen. Wenn ein Profil keinen Zeitzonenwert hat, verwendet das System die Zeitzone, in der die Kampagne erstellt wurde, als Ausweichlösung.
+
+Die Kampagne verbleibt im **Live**-Status, während Nachrichten über alle Zeitzonen hinweg zugestellt werden. Sobald alle Zeitzonen verarbeitet wurden, ändert sich der Kampagnenstatus in **Abgeschlossen**.
+
+**Unterstützte Zeitzonenkennungen:**
+
+Journey Optimizer validiert den `profile.timeZone` anhand der standardmäßigen IANA-Zeitzonenkennungen. Bei Kennungen wird zwischen Groß- und Kleinschreibung unterschieden und sie müssen mit der offiziellen IANA-Benennung übereinstimmen. Versätze können sich im Laufe der Zeit aufgrund von Sommerzeitregeln und historischen Aktualisierungen ändern. Siehe die [IANA-Zeitzonendatenbank](https://www.iana.org/time-zones){_blank} für die offizielle Liste der Kennungen.
 
 ## Festlegen der Ausführungshäufigkeit
 
