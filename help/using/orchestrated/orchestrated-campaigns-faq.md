@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zu orchestrierten Kampagnen
 description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Kampagnen
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -140,6 +140,14 @@ Yes. Campaign orchestration is natively integrated with:
 * **Customer Journey Analytics**: Campaign orchestration reports are available.  
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
+
++++ Kann ich eine orchestrierte Live-Kampagne wieder auf den Entwurf zurücksetzen?
+
+Ja, in bestimmten Situationen. Die Option **[!UICONTROL Zurück zum Entwurf]** ist als Wiederherstellungsmechanismus zum Rückgängigmachen der Veröffentlichung und Zurücksetzen einer Kampagne in den Entwurfsstatus konzipiert.
+
+Diese Option ist für geplante Kampagnen, die auf ihre Ausführung warten, oder für Live-Kampagnen mit Ausführungsfehlern verfügbar. [Erfahren Sie, wie Sie eine Live-Kampagne wieder auf den Entwurf zurücksetzen können](start-monitor-campaigns.md#back-to-draft)
+
++++
 
 +++ Welche Kanäle werden unterstützt?
 

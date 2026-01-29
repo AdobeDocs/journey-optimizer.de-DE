@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kam
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,6 +66,22 @@ Der visuelle Fluss wird neu gestartet, und echte Profile beginnen, in Echtzeit d
 
 Wenn die Veröffentlichungsaktion fehlschlägt (z. B. wegen fehlenden Nachrichteninhalts), werden Sie benachrichtigt und müssen das Problem beheben, bevor Sie es erneut versuchen. Nach erfolgreicher Veröffentlichung wird die Kampagne ausgeführt (sofort oder planmäßig), wechselt von **Entwurf** in **Live**-Status und wird zu „Schreibgeschützt“.
 
+## Kampagne auf Entwurf zurücksetzen {#back-to-draft}
+
+Mit **[!UICONTROL Funktion „Zurück zum Entwurf]** können Sie die Veröffentlichung einer orchestrierten Kampagne aufheben und sie in bestimmten Situationen auf den Entwurfsstatus zurücksetzen. Dieser Mechanismus wurde als Wiederherstellungsmechanismus konzipiert, um Probleme zu beheben, bevor Nachrichten gesendet werden, wobei die Integrität des Kampagnenlebenszyklus gewahrt bleibt.
+
+Diese Option ist in zwei Szenarien verfügbar:
+
+* **Geplante Kampagnen mit ausstehender Ausführung**: Wenn die Ausführung einer Kampagne zu einem bestimmten Zeitpunkt geplant ist und dieser Zeitpunkt noch nicht erreicht wurde, können Sie die Kampagne mit „Zurück zum Entwurf“ überprüfen und ändern, bevor sie ausgeführt wird. Wenn die Kampagne jedoch wiederkehrend ist (z. B. eine tägliche geplante Kampagne) und bereits mindestens eine Ausführung stattgefunden hat, ist die Option nicht mehr verfügbar. In diesem Fall sollten Sie stattdessen [die Kampagne duplizieren](../campaigns/manage-campaigns.md#duplicate-a-campaign).
+
+* **Live-Kampagnen mit Ausführungsfehlern**: Wenn eine Kampagne während der Ausführung einen Fehler festgestellt hat und angehalten wird und noch keine Kampagnenausführungen abgeschlossen wurden, können Sie „Zurück zum Entwurf“ verwenden, um den Fehler zu beheben und die Kampagne erneut zu veröffentlichen.
+
+Um eine Kampagne wieder in den Entwurfsstatus zu versetzen, öffnen Sie die orchestrierte Kampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Zurück zum Entwurf]** in der Symbolleiste der Kampagnen-Arbeitsfläche.
+
+![](assets/back-to-draft.png)
+
+Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Die Kampagne kehrt zum Status **Entwurf** zurück. Sie können jetzt die identifizierten Probleme beheben, die Kampagne [ testen ](#test) sie dann erneut [veröffentlichen](#publish) wenn sie bereit ist.
+
 ## Nachrichtenversand bestätigen {#confirm-sending}
 
 Standardmäßig wird der Nachrichtenversand bei nicht wiederkehrenden orchestrierten Kampagnen angehalten, bis Sie den Versand ausdrücklich genehmigen. Nachdem Sie die Kampagne veröffentlicht haben, bestätigen Sie die Sendeanfrage über den Bereich Eigenschaften der Kanalaktivität. Bis es bestätigt wird, bleibt die Kanalaktivität ausstehend und es wird keine Nachricht gesendet.
@@ -76,7 +92,7 @@ Vor der Veröffentlichung können Sie im Eigenschaftenbereich der Kanalaktivitä
 
 ## Überwachen der Kampagnenausführung {#monitor}
 
-### Visuelle Flussüberwachung {#flow}
+### Visuelles Fluss-Monitoring {#flow}
 
 Während der Ausführung (im Test- oder Live-Modus) zeigt der visuelle Fluss an, wie sich Profile in Echtzeit durch den Journey bewegen. Es wird die Anzahl der Profile angezeigt, die von einer Aufgabe in die nächste übergehen.
 
@@ -107,7 +123,7 @@ Visuelle Statusindikatoren helfen, zu verstehen, wie jede Aktivität funktionier
 >title="Logs und Aufgaben"
 >abstract="Der Bildschirm **Protokolle und Aufgaben** enthält einen Verlauf der orchestrierten Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden."
 
-Die Überwachung von Protokollen und Aufgaben ist ein wichtiger Schritt, um Ihre orchestrierten Kampagnen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Protokolle und Aufgaben können sowohl im Test- als auch im Live-Modus über die Schaltfläche **[!UICONTROL Logs]** in der Symbolleiste auf der Arbeitsfläche aufgerufen werden.
+Das Monitoring von Protokollen und Aufgaben ist ein wichtiger Schritt, um Ihre orchestrierten Kampagnen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Protokolle und Aufgaben können sowohl im Test- als auch im Live-Modus über die Schaltfläche **[!UICONTROL Logs]** in der Symbolleiste auf der Arbeitsfläche aufgerufen werden.
 
 ![Schaltfläche Protokolle in der Symbolleiste der Kampagnen-Arbeitsfläche](assets/logs-button.png){zoomable="yes"}
 

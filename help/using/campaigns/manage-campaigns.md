@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 5623511099f7b09fa95bccb411776bc4416637fd
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 66%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,7 +57,7 @@ Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL 
 
 ![](assets/create-campaign-list.png)
 
->[!TAB Kampagnen, die durch API ausgelöst werden]
+>[!TAB Durch API ausgelöste Kampagnen]
 
 Wählen Sie die Registerkarte **[!UICONTROL Durch API ausgelöst]** aus, um auf die Liste der Kampagnen zuzugreifen, die durch API ausgelöst werden.
 
@@ -71,7 +71,7 @@ Wählen Sie die Registerkarte **[!UICONTROL Orchestrierung]** aus, um auf die Li
 
 ![Bild, das das Inventar der orchestrierten Kampagnen zeigt](assets/inventory.png){zoomable="yes"}
 
-Jede orchestrierte Kampagne in der Liste zeigt Informationen wie den aktuellen (Status[&#x200B; der Kampagne, &#x200B;](#statuses) zugehörigen Kanal und Tags oder das letzte Mal, wann sie geändert wurde, an. Sie können die angezeigten Spalten anpassen, indem Sie auf die Schaltfläche ![Layout konfigurieren](assets/do-not-localize/inventory-configure-layout.svg) klicken.
+Jede orchestrierte Kampagne in der Liste zeigt Informationen wie den aktuellen (Status[ der Kampagne, ](#statuses) zugehörigen Kanal und Tags oder das letzte Mal, wann sie geändert wurde, an. Sie können die angezeigten Spalten anpassen, indem Sie auf die Schaltfläche ![Layout konfigurieren](assets/do-not-localize/inventory-configure-layout.svg) klicken.
 
 >[!ENDTABS]
 
@@ -100,20 +100,24 @@ Die ![Abbildung mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule
 * **[!UICONTROL Zu Paket hinzufügen]**: Fügt die Kampagne zu einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. [Erfahren Sie, wie Sie Objekte → exportieren](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Entwurfsversion öffnen]**: Wenn eine neue Version der Kampagne erstellt und noch nicht aktiviert wurde, können Sie mit dieser Aktion auf ihre Entwurfsversion zugreifen.
 
+**Nur für orchestrierte Kampagnen:**
+
+* **[!UICONTROL Zurück zum Entwurf]** - Rückgängigmachen der Veröffentlichung und Zurücksetzen einer Kampagne in den Entwurfsstatus zur Fehlerbehebung. Diese Aktion ist verfügbar, wenn eine geplante Kampagne noch nicht gestartet wurde oder wenn bei einer Live-Kampagne ein Fehler auftritt, bevor irgendwelche Ausführungen abgeschlossen sind. [Erfahren Sie mehr über das Zurücksetzen von Kampagnen →](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
 ## Kampagnenstatus {#statuses}
 
 Jede Kampagne durchläuft einen Lebenszyklus, der sich in ihrem Status in der Benutzeroberfläche widerspiegelt. Wenn Sie diese Status verstehen, können Sie feststellen, welche Aktionen verfügbar sind und was als Nächstes zu tun ist.
 
-| Status | Aktionskampagnen | API-ausgelöste Kampagnen | Orchestrierte Kampagnen | Bedeutung | Nächste Aktionen |
+| Status | Aktionskampagnen | Durch API ausgelöste Kampagnen | Orchestrierte Kampagnen | Bedeutung | Nächste Aktionen |
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL Entwurf]** | ✅ | ✅ | ✅ | In Bearbeitung, nicht aktiviert | Bearbeitung fortsetzen oder [Kampagne aktivieren](review-activate-campaign.md) |
 | **[!UICONTROL Geplant]** | ✅ | ✅ | ✅ | Für bestimmtes Startdatum konfiguriert | Auf Launch warten, [bei Bedarf ändern](#modify) oder [im Kalender anzeigen](#calendar) |
-| **[!UICONTROL Live]** | ✅ | ✅ | ✅ | Aktiviert und ausgeführt | [Leistung überwachen](../reports/campaign-global-report-cja.md), [neue Version erstellen](#modify) falls erforderlich |
+| **[!UICONTROL Live]** | ✅ | ✅ | ✅ | Aktiviert und ausgeführt | [Überwachen der Leistung](../reports/campaign-global-report-cja.md), [Erstellen einer neuen Version](#modify) falls erforderlich. Für orchestrierte Kampagnen: [Zurück zum Entwurf](../orchestrated/start-monitor-campaigns.md#back-to-draft) für geplante Kampagnen, die noch nicht gestartet wurden, oder für Kampagnen mit Ausführungsfehlern, bevor Nachrichten gesendet werden |
 | **[!UICONTROL Wird geprüft]** | ✅ | ✅ | — | Zur Genehmigung eingereicht | Warten auf [Genehmigung](../test-approve/gs-approval.md) oder ändern |
 | **[!UICONTROL Gestoppt]** | ✅ | ✅ | ✅ | Manuell angehalten, kann nicht reaktiviert werden | [Duplizieren zur Wiederverwendung](#duplicate-a-campaign) |
 | **[!UICONTROL Abgeschlossen]** | ✅ | ✅ | ✅ | Ausführung abgeschlossen (wird 3 Tage nach Aktivierung automatisch zugewiesen oder endet bei wiederkehrender Ausführung am Enddatum) | [Anzeigen von Berichten](../reports/campaign-global-report-cja.md), [Archivieren](#archive-a-campaign) oder [Duplizieren](#duplicate-a-campaign) |
 | **[!UICONTROL Fehlgeschlagen]** | ✅ | ✅ | — | Ausführung fehlgeschlagen | Überprüfen Sie Protokolle, beheben Sie Probleme [Duplizieren Sie es erneut](#duplicate-a-campaign) |
-| **[!UICONTROL Archiviert]** | ✅ | ✅ | ✅ | Archiviert (nach 30 Tagen automatisch gelöscht) | [Bei &#x200B;](#access) mit Filter abrufen |
+| **[!UICONTROL Archiviert]** | ✅ | ✅ | ✅ | Archiviert (nach 30 Tagen automatisch gelöscht) | [Bei ](#access) mit Filter abrufen |
 | **[!UICONTROL Geschlossen]** | — | — | ✅ | Wiederkehrende Kampagne geschlossen, keine neuen Einträge zulässig (wird fortgesetzt, bis alle Aktivitäten abgeschlossen sind) | Auf Abschluss warten |
 | **[!UICONTROL Veröffentlichung läuft]** | — | — | ✅ | In Veröffentlichung | Warten, bis die Veröffentlichung abgeschlossen ist |
 
@@ -239,7 +243,7 @@ Archivierte Kampagnen können dann mithilfe des entsprechenden Filters in der Li
 
 ## Löschen einer Kampagne {#delete-a-campaign}
 
-Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit ![&#x200B; Auslassungspunkten (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Löschen]**.
+Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit ![ Auslassungspunkten (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Löschen]**.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -249,7 +253,7 @@ Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit ![&#x200B; Aus
 
 ## Duplizieren einer Kampagne {#duplicate-a-campaign}
 
-Um eine Kampagne zu duplizieren (beispielsweise wenn sie gestoppt wurde), verwenden Sie die Schaltfläche mit den ![&#x200B; (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Duplizieren]**.
+Um eine Kampagne zu duplizieren (beispielsweise wenn sie gestoppt wurde), verwenden Sie die Schaltfläche mit den ![ (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Duplizieren]**.
 
 Geben Sie den Namen der Kampagne ein und speichern Sie ihn. 
 
