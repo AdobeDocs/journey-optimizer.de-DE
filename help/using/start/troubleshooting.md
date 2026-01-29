@@ -7,10 +7,10 @@ feature: Get Started, Monitoring
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '2942'
-ht-degree: 99%
+source-wordcount: '2945'
+ht-degree: 97%
 
 ---
 
@@ -201,7 +201,7 @@ Die Diskrepanz kann auftreten, wenn die Journey den Profil-Snapshot eines vorher
 
 In [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} erfahren Sie, wie Sie das Problem beheben können.
 
-Weitere Informationen finden Sie in [diesem Beitrag in der Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=de){target="_blank"}.
+Weitere Informationen finden Sie in [diesem Beitrag in der Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
 Konsultieren Sie außerdem die [Dokumentation zur API für Adobe Experience Platform-Zeitpläne](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/api/schedules){target="_blank"}, um zu überprüfen, wann Ihr täglicher Auftrag geplant ist.
 
@@ -230,13 +230,11 @@ Siehe auch [Dokumentation zu Adobe Real-Time CDP-Profilen](https://experiencelea
 
 +++ Warum ist die Anzahl der ansprechbaren Profile in einem kurzen Zeitraum deutlich gestiegen? 
 
-Die Metrik **Ansprechbare Profile** gibt die Anzahl der eindeutigen Profile an, die von Journeys oder Kampagnen in den letzten 12 Monaten angesprochen wurden. Ein plötzlicher Anstieg kann auftreten, wenn große Zielgruppen angesprochen werden oder sich Datensätze ändern. Gehen Sie wie folgt vor: Überprüfen Sie die **Logik zum Zählen von Profilen**, untersuchen Sie Journeys, die große Zielgruppen ansprechen, **filtern Sie Zielgruppen** auf der Journey-Ebene, reduzieren Sie die **Größe der ansprechbaren Zielgruppe** und überwachen Sie **Datensatzänderungen**.
+Die Metrik **Ansprechbare Profile** gibt die Anzahl der eindeutigen Profile an, die von Journeys oder Kampagnen in den letzten 12 Monaten angesprochen wurden. Ein plötzlicher Anstieg kann die Folge von Journey oder Kampagnen sein, die große Zielgruppen ansprechen, die in letzter Zeit nicht kontaktiert wurden, oder von Änderungen an Datensätzen, die für den Profil-Service aktiviert sind.
 
-In [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26161){target="_blank"} erfahren Sie, wie Sie das Problem beheben können.
+Um dieses Problem zu untersuchen und zu beheben, müssen Sie die Profilzählungslogik verstehen, Journey und Kampagnen untersuchen, die auf große Zielgruppen abzielen, Zielgruppen angemessen filtern, Datensatzänderungen überwachen und möglicherweise die adressierbare Zielgruppengröße reduzieren.
 
-Überwachen Sie die Lizenznutzung Ihres Unternehmens und die ansprechbaren Profile mithilfe des [Lizenznutzungs-Dashboards](../audience/license-usage.md).
-
-Siehe auch [Überblick über den Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/query/home){target="_blank"}.
+Erfahren Sie in der Dokumentation zum Lizenznutzungs-Dashboard , wie Sie Probleme mit Engageable Profiles beheben und die Lizenznutzung [ Unternehmens ](../audience/license-usage.md#troubleshooting-engageable-profiles).
 
 +++
 

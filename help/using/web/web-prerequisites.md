@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 22e1f08f434a3ceb4be6c539d4007178062cba9e
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 97%
+source-wordcount: '1246'
+ht-degree: 94%
 
 ---
 
@@ -25,15 +25,17 @@ Sie müssen folgende Voraussetzungen erfüllen, um Web-Seiten in der Benutzerobe
 
 * Um das Reporting für den Web-Kanal zu aktivieren, müssen Sie sicherstellen, dass der Datensatz, der im Datenstrom Ihrer Web-Implementierung verwendet wird, auch in Ihrer Reporting-Konfiguration enthalten ist.  [Weitere Informationen](#experiment-prerequisites)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Wenn Sie pseudonyme Profile (nicht authentifizierte Besucher) mit Ihren Web-Seiten als Ziel verwenden, sollten Sie eine Time-to-Live (TTL) für das automatische Löschen von Profilen festlegen, um die Anzahl Ihrer interagierbaren Profile und die damit verbundenen Kosten zu verwalten. [Weitere Informationen](../start/guardrails.md#profile-management-inbound)
+>* Web-Kampagnen in [!DNL Journey Optimizer] sprechen neue Profile an, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl [Engagierbaren Profile](../audience/license-usage.md) was sich auf die Kosten auswirken kann, wenn die vertragliche Anzahl der von Ihnen erworbenen Engagierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Sie können die Anzahl der kontaktierbaren Profile im [Lizenznutzungs-Dashboard“ ](../audience/license-usage.md).
+>
+>* Wenn Sie pseudonyme Profile (nicht authentifizierte Besucher) mit Ihren Web-Seiten als Ziel verwenden, sollten Sie eine Time-to-Live (TTL) für das automatische Löschen von Profilen festlegen, um die Anzahl Ihrer interagierbaren Profile und die damit verbundenen Kosten zu verwalten. [Weitere Informationen](../start/guardrails.md#profile-management-inbound)
 
 ## Voraussetzungen für die Implementierung {#implementation-prerequisites}
 
 Es werden zwei Arten von Implementierungen unterstützt, um die Erstellung und der Versand von Web-Kanal-Kampagnen in Ihren Web-Eigenschaften zu ermöglichen:
 
-* Nur Client-seitig – Um Änderungen an Ihrer Website vorzunehmen, müssen Sie das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"} auf Ihrer Website implementieren.
+* Nur Client-seitig – Um Änderungen an Ihrer Website vorzunehmen, müssen Sie das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} auf Ihrer Website implementieren.
 
   >[!NOTE]
   >
@@ -45,7 +47,7 @@ Es werden zwei Arten von Implementierungen unterstützt, um die Erstellung und d
 >
 >Die nur Server-seitige Implementierung wird derzeit für den Web-Kanal nicht unterstützt.  Bei einer nur Server-seitigen Implementierung für Ihre Web-Seiten kann stattdessen der [Code-basierte Erlebniskanal](../code-based/get-started-code-based.md) verwendet werden.
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## Voraussetzungen für visuelles Authoring {#visual-authoring-prerequisites}
 
@@ -84,7 +86,7 @@ Gehen Sie wie folgt vor, um die Browser-Erweiterung „Visual Editing Helper“ 
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-Der Visual Editing Helper von Adobe Experience Cloud wird jetzt automatisch aktiviert, wenn eine Website im Web-Designer von [!DNL Journey Optimizer] geöffnet wird, um die Inhaltserstellung zu unterstützen.[&#128279;](web-visual-editor.md)
+Der Visual Editing Helper von Adobe Experience Cloud wird jetzt automatisch aktiviert, wenn eine Website im Web-Designer von [!DNL Journey Optimizer] geöffnet wird, um die Inhaltserstellung zu unterstützen.[](web-visual-editor.md)
 
 Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet alle Einstellungen automatisch, einschließlich der SameSite-Cookie-Einstellungen.
 

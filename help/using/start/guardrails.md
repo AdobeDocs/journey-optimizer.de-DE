@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4e90aa9a71ab8999d4ac03eac50aad93af48302c
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '3908'
-ht-degree: 92%
+source-wordcount: '3977'
+ht-degree: 91%
 
 ---
 
@@ -97,6 +97,10 @@ Für den [SMS-Kanal](../sms/get-started-sms.md) gelten die folgenden Schutzmecha
 * Damit Adobe Journey Optimizer Inhaltskarten korrekt anzeigt, müssen Sie die Adobe Experience Platform-Einstellungen auf [dieser Seite](../content-card/content-card-configuration-prereq.md) konfigurieren:
 
 * Journey Optimizer unterstützt ein Spitzenvolumen von 5.000 eingehenden Journey-Ereignissen pro Sekunde. Diese Leitlinie gilt für alle eingehenden Anfragen, die von jedem der von Journey Optimizer unterstützten eingehenden Kanäle stammen können ([Web](../web/get-started-web.md), [In-App](../in-app/get-started-in-app.md), [Code-basierte Erlebnisse](../code-based/get-started-code-based.md), [Inhaltskarten](../../rp_landing_pages/content-card-landing-page.md)).
+
+  Die eingehenden Kanäle von Journey Optimizer sprechen neue Profile an, die zuvor noch nicht auf anderen Kanälen erreicht wurden. Dadurch erhöht sich die Gesamtzahl [Engagierbaren Profile](../audience/license-usage.md) was sich auf die Kosten auswirken kann, wenn die vertragliche Anzahl der von Ihnen erworbenen Engagierbaren Profile überschritten wird.
+
+  Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} . Sie können die Anzahl der kontaktierbaren Profile im [Lizenznutzungs-Dashboard“ ](../audience/license-usage.md).
 
 * Journey Optimizer unterstützt zu jedem Zeitpunkt maximal 500 aktive eingehende Aktionen. Diese eingehenden Aktionen werden gezählt, wenn sie Teil einer Live-Kampagne sind oder wenn sie ein Knoten sind, der in einer Live-Journey verwendet wird. Sobald diese Anzahl erreicht ist, müssen Sie ältere Kampagnen oder Journeys deaktivieren, die eingehende Aktionen verwenden, bevor neue gestartet werden können.
 

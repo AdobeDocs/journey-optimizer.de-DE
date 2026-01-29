@@ -9,7 +9,7 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 98%
@@ -124,7 +124,7 @@ Links zu den Berichten der letzten 24 Stunden und der gesamten Zeit sind im Bes
 
 ## Leitlinien und Einschränkungen {#journey-dry-run-limitations}
 
-* Profile im Probelaufmodus werden als ansprechbare Profile gezählt.
+* Profile im Dry-Run-Modus werden in Richtung [Engagierbare Profile“ ](../audience/license-usage.md)
 * Journeys im Probelaufmodus werden auf das Live-Journey-Kontingent angerechnet.
 * Probelauf-Journeys wirken sich nicht auf Geschäftsregeln aus.
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
@@ -149,4 +149,4 @@ Bei der Analyse von **Journey-Reporting-Metriken** mit dem Abfrage-Service von A
 
 In diesem Video erfahren Sie, wie Sie einen Probelauf für Ihre Journeys ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464691/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
