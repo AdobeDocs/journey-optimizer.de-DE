@@ -91,7 +91,7 @@ Gehen Sie wie folgt vor, um dieses Problem zu beheben:
 4. **Verringern der adressierbaren Zielgruppengröße:**
 
    * Pseudonyme Profile löschen, falls erforderlich. Beachten Sie, dass diese Aktion sowohl Journey Optimizer als auch Real-Time Customer Data Platform betrifft.
-   * Weitere Informationen zum Ablauf [ Daten pseudonymer Profile ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} Sie im Handbuch zum Echtzeit-Kundenprofil .
+   * Weitere Informationen zum Ablauf [&#x200B; Daten pseudonymer Profile &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} Sie im Handbuch zum Echtzeit-Kundenprofil .
    * **Hinweis:** Ablauf von Daten pseudonymer Profile kann nicht über die Platform-Benutzeroberfläche oder APIs konfiguriert werden. Sie müssen sich an den Support wenden, um diese Funktion zu aktivieren.
 
 5. **Datensatzänderungen überwachen:**

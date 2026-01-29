@@ -234,7 +234,7 @@ Die Metrik **Ansprechbare Profile** gibt die Anzahl der eindeutigen Profile an, 
 
 Um dieses Problem zu untersuchen und zu beheben, müssen Sie die Profilzählungslogik verstehen, Journey und Kampagnen untersuchen, die auf große Zielgruppen abzielen, Zielgruppen angemessen filtern, Datensatzänderungen überwachen und möglicherweise die adressierbare Zielgruppengröße reduzieren.
 
-Erfahren Sie in der Dokumentation zum Lizenznutzungs-Dashboard , wie Sie Probleme mit Engageable Profiles beheben und die Lizenznutzung [ Unternehmens ](../audience/license-usage.md#troubleshooting-engageable-profiles).
+Erfahren Sie in der Dokumentation zum Lizenznutzungs-Dashboard , wie Sie Probleme mit Engageable Profiles beheben und die Lizenznutzung [&#x200B; Unternehmens &#x200B;](../audience/license-usage.md#troubleshooting-engageable-profiles).
 
 +++
 
