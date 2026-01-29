@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 89%
@@ -92,6 +92,8 @@ Wenn Ihre Push-Benachrichtigung bereit ist, schließen Sie zum Versenden die Kon
 1. Kampagnen können für ein bestimmtes Datum geplant oder in regelmäßigen Abständen wiederholt werden. Erfahren Sie in [diesem Abschnitt](../campaigns/campaign-schedule.md), wie Sie den **[!UICONTROL Zeitplan]** der Kampagne konfigurieren können.
 
 Jetzt können Sie mit der Konfiguration der Extraktionsdatei beginnen, die an Ihren Briefpost-Dienstleister gesendet werden soll.
+
+>[!ENDTABS]
 
 ## Konfigurieren der Extraktionsdatei {#extraction-file}
 
