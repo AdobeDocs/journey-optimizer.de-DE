@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
+source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 85%
+source-wordcount: '1130'
+ht-degree: 77%
 
 ---
 
@@ -84,7 +84,13 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie n
 >
 >Ohne angegebene Opt-in- oder Opt-out-Keywords sind standardmäßige Einverständnisnachrichten nicht aktiviert.
 
-Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, können Sie jetzt Webhooks konfigurieren, um eingehende Antworten für die Verwaltung des Opt-in- und Opt-out-Einverständnisses zu erfassen und Versandberichte einschließlich Lesebestätigungen (sofern verfügbar) zu erhalten.
+Nachdem Ihre WhatsApp-API-Anmeldeinformationen erfolgreich erstellt wurden, können Sie jetzt Webhooks konfigurieren, um:
+
+* **Erfassen eingehender Antworten** zur Verwaltung des Opt-in- und Opt-out-Einverständnisses
+* **Empfangen von Versandberichten** z. B. Lesebestätigungen (falls verfügbar) und Status des Nachrichtenversands
+* **Tracking-Ereignisse aktivieren** für Analysen und Berichte in Adobe Experience Platform-Datensätzen
+
+Webhooks fungieren als Kommunikationsbrücke zwischen der WhatsApp-Geschäftsplattform von Meta und Adobe Journey Optimizer und ermöglichen es Ihnen, Echtzeit-Benachrichtigungen über Nachrichtenereignisse und Benutzerinteraktionen zu erhalten.
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL WhatsApp-Webhooks]** unter **[!UICONTROL WhatsApp-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
 
@@ -101,6 +107,7 @@ Nachdem Ihre WhatsApp-API-Anmeldedaten erfolgreich erstellt wurden, können Sie 
    * **[!UICONTROL Opt-in-Keywords]**
    * **[!UICONTROL Opt-out-Keywords]**
    * **[!UICONTROL Hilfe-Keywords]**
+   * **[!UICONTROL Standard]** - Fallback-Kategorie für alle eingehenden Nachrichten, die nicht mit anderen Keywords übereinstimmen. Verwenden Sie diese Kategorie, um Tracking-Ereignisse (Öffnungen, Versandberichte) in Adobe Experience Platform-Datensätzen zu aktivieren.
 
 1. Geben Sie Ihre **[!UICONTROL Keywords]** ein und klicken Sie auf ![Hinzufügen](assets/do-not-localize/Smock_AddCircle_18_N.svg).
 
@@ -201,8 +208,8 @@ Wenn beim Konfigurieren der WhatsApp-API-Anmeldeinformationen ein HTTP-500-Fehle
 
 Im folgenden Video erfahren Sie, wie Sie den WhatsApp-Kanal in Adobe Journey Optimizer einrichten.
 
-+++ Siehe Video
++++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3470277/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
