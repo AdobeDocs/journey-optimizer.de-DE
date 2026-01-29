@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Integrierte Kanalaktion"
->abstract="Journey Optimizer verfügt über integrierte Funktionen für Kanalaktionen. Sie können Ihrer Journey einfach eine Nachricht (E-Mail, Textnachricht (SMS/MMS), Push) oder ein Inbound-Erlebnis (In-App, Web, Code-basiertes Erlebnis, Inhaltskarte) hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann im Rahmen der Journey ausgeführt und versendet."
+>abstract="Journey Optimizer verfügt über integrierte Funktionen für Kanalaktionen. Sie können einfach eine Nachricht (E-Mail, Textnachricht (SMS/MMS), Push, Briefpost) oder ein eingehendes Erlebnis (In-App, Web, Code-basiertes Erlebnis, Inhaltskarte) zu Ihrem Journey hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann im Rahmen der Journey ausgeführt und versendet."
 
 [!DNL Journey Optimizer] verfügt über integrierte Kanalaktionsfunktionen, mit denen Nachrichten gesendet werden: Wenn Profile mit dieser Aktivität beginnen, wird ihnen eine Nachricht gesendet.
 
@@ -75,6 +75,15 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
       </a>
       <div>
       <a href="../sms/create-sms.md"><strong>Erstellen von Textnachrichten (SMS/MMS)</strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../direct-mail/create-direct-mail.md">
+      <img alt="Validierung" src="../assets/do-not-localize/direct-mail.jpg">
+      </a>
+      <div>
+      <a href="../direct-mail/create-direct-mail.md"><strong>Erstellen von Direkt-Mail-Nachrichten</strong></a>
       </div>
       <p>
       </td>

@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1910'
 ht-degree: 23%
 
 ---
@@ -35,9 +35,28 @@ Die Abschnitte [Funktionen](#jan-26-01-features) und [Verbesserungen](#jan-26-01
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#jan-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Briefpost-Kanal in Journey</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Der Kanal <strong>Briefpost</strong> war bisher auf Kampagnen beschränkt und ist jetzt auf der Journey-Arbeitsfläche verfügbar, sodass Sie Briefpost in Ihre Journey integrieren können. Briefpost kann jetzt sowohl in Batch<strong> als auch in 1:1-Journey-Szenarien verwendet werden</strong> mit Unterstützung für die Dateiextraktionskonfiguration und zeitbasierte Häufigkeitseinstellungen.</p>
+<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p><img src="assets/do-not-localize/dm-journey.gif"/></p>
+<p>Weitere Informationen finden Sie in der <a href="../direct-mail/get-started-direct-mail.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: Freitag, 29. Januar 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -177,7 +196,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **KI-Assistent für Inhaltsqualitätsprüfungen** - Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um potenzielle Probleme mit <strong>Lesbarkeit</strong>, Kohärenz und Effektivität unabhängig von Ihren Markenrichtlinien aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung unklarer Botschaften, inkonsistenter Tonwerte oder struktureller Lücken. [Weitere Informationen](../content-management/brands-score.md#validate-quality). [Entdecken Sie diese Funktion im Video](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on).
+* **KI-Assistent für Inhaltsqualitätsprüfungen** - Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um potenzielle Probleme mit <strong>Lesbarkeit</strong>, Kohärenz und Effektivität unabhängig von Ihren Markenrichtlinien aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung unklarer Botschaften, inkonsistenter Tonwerte oder struktureller Lücken. [Weitere Informationen](../content-management/brands-score.md#validate-quality). [Entdecken Sie diese Funktion im Video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -246,23 +265,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Veröffentlichung vorgesehen. **Informationen können Änderungen unterliegen**. Aktualisierte Links, Bildschirme und Dokumentationen werden freigegeben, sobald diese Aktualisierungen live in der Produktion verfügbar sind.
 
 ### Funktionen
-
-<table>
-<thead>
-<tr>
-<th><strong>Briefpost-Kanal in Journey</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Der Kanal <strong>Briefpost</strong> war bisher auf Kampagnen beschränkt und ist jetzt auf der Journey-Arbeitsfläche verfügbar, sodass Sie Briefpost in Ihre Journey integrieren können. Briefpost kann jetzt sowohl in Batch<strong> als auch in 1:1-Journey-Szenarien verwendet werden</strong> mit Unterstützung für die Dateiextraktionskonfiguration und zeitbasierte Häufigkeitseinstellungen.</p>
-<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 28. Januar 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>

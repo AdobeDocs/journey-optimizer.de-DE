@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b85210a46c928389db985f0f794618209773c071
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 81%
+source-wordcount: '1708'
+ht-degree: 82%
 
 ---
 
@@ -60,6 +60,11 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 >id="ajo_dm_file_routing_aws_region"
 >title="Auswählen der AWS-Region"
 >abstract="Wählen Sie die geografische Region des AWS-Servers aus, auf den Sie Ihre Briefpostdateien exportieren möchten. In der Regel empfIehlt es sich, die Region auszuwählen, die dem Standort Ihres Briefpostanbieters am nächsten liegt."
+
+>[!CONTEXTUALHELP]
+>id="ajo_dm_file_routing_frequency"
+>title="Auswählen der AWS-Region"
+>abstract="Wenn Ihre Datei-Routing-Konfiguration mit Journeys gesendet wird, können Sie die Häufigkeit festlegen, mit der die Datei an den Server gesendet wird."
 
 >[!NOTE]
 >
@@ -155,6 +160,10 @@ Alle Kundinnen und Kunden von [!DNL Adobe Experience Platform] erhalten einen Da
 
 Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
+Wenn Ihre Datei-Routing-Konfiguration mit Journeys gesendet wird, können Sie die Häufigkeit festlegen, mit der die Datei an den Server gesendet wird.
+
+![](assets/file-routing-journey.png)
+
 Nachdem Sie die Details für Ihren Server-Typ eingegeben haben, wählen Sie **[!UICONTROL Absenden]** aus. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
 
 Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei-Routing-Konfiguration zu erstellen. Sie können sie jedoch erst dann in einer Konfiguration auswählen, wenn sie **[!UICONTROL aktiv]** ist.
@@ -173,7 +182,7 @@ Wenn Sie SFTP mit SSH-Schlüsselauthentifizierung verwenden, müssen Sie über e
    * Die Datei muss mit `-----BEGIN RSA PRIVATE KEY-----` beginnen (fünf Bindestriche davor und danach).
    * Es sollte keine Formulierung geben, die Verschlüsselung angibt.
    * Die Datei muss mit `-----END RSA PRIVATE KEY-----` enden (fünf Bindestriche davor und danach).
-1. Kopieren Sie **gesamten Dateiinhalt** (einschließlich der `-----BEGIN/END RSA PRIVATE KEY-----`) und codieren Sie ihn mit einem Tool wie „Base64[Encode and Decode“ &#x200B;](https://www.base64encode.org/) Base64.
+1. Kopieren Sie **gesamten Dateiinhalt** (einschließlich der `-----BEGIN/END RSA PRIVATE KEY-----`) und codieren Sie ihn mit einem Tool wie „Base64[Encode and Decode“ ](https://www.base64encode.org/) Base64.
 
    >[!NOTE]
    >
@@ -185,7 +194,7 @@ Wenn Sie SFTP mit SSH-Schlüsselauthentifizierung verwenden, müssen Sie über e
 >
 >Nach der Base64-Codierung enthält der Schlüssel nicht mehr die `-----BEGIN/END RSA PRIVATE KEY-----` Markierungen und darf keine Zeilenumbrüche enthalten. Der entsprechende öffentliche Schlüssel muss der Datei mit den autorisierten Schlüsseln Ihres SFTP-Servers hinzugefügt werden.
 
-Weitere Informationen zum Verbinden Ihres SFTP-Kontos mit Experience Platform finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Weitere Informationen zum Verbinden Ihres SFTP-Kontos mit Experience Platform finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 97%
+source-wordcount: '972'
+ht-degree: 89%
 
 ---
 
@@ -19,9 +19,14 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Erstellung von Briefpost"
->abstract="Briefpostnachrichten in geplanten Kampagnen erstellen und die Extraktionsdateien entwerfen, die von Briefpostanbietern benötigt werden, um E-Mails an Kunden zu senden."
+>abstract="Erstellen Sie Briefpostnachrichten in geplanten Kampagnen und Journey und entwerfen Sie die Extraktionsdateien, die von Briefpostanbietern benötigt werden, um E-Mails an Ihre Kunden zu senden."
 
-Um Briefpost-Nachrichten zu erstellen, erstellen Sie eine geplante Kampagne und konfigurieren Sie die Extraktionsdatei. Diese Datei wird von Briefpost-Dienstleistern benötigt, um E-Mails an Ihre Kundinnen bzw. Kunden zu senden.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_direct_mail"
+>title="Endaktivität"
+>abstract="Direkt-Mail ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Direkt-Mail-Drittanbieter zum Senden von Nachrichten an Ihre Kundinnen und Kunden benötigen."
+
+Erstellen Sie zum Erstellen von Briefpostnachrichten eine geplante Kampagne oder eine Journey und konfigurieren Sie die Extraktionsdatei. Diese Datei wird von Briefpost-Dienstleistern benötigt, um E-Mails an Ihre Kundinnen bzw. Kunden zu senden.
 
 >[!IMPORTANT]
 >
@@ -30,17 +35,39 @@ Um Briefpost-Nachrichten zu erstellen, erstellen Sie eine geplante Kampagne und 
 >1. Eine [Dateirouting-Konfiguration](../direct-mail/direct-mail-configuration.md#file-routing-configuration), die den Server angibt, auf den die Extraktionsdatei hochgeladen und gespeichert werden soll,
 >1. Eine [Konfiguration für Direkt-Mail-Nachrichten](../direct-mail/direct-mail-configuration.md#direct-mail-surface), die auf die Datei-Routing-Konfiguration verweist.
 
-## Erstellen einer Direkt-Mail-Kampagne{#create-dm-campaign}
+## Hinzufügen einer Briefpostnachricht {#create-dm-campaign}
 
-Um eine Direkt-Mail-Kampagne zu erstellen, richten Sie eine geplante Kampagne ein, wählen Sie Ihre Zielgruppe aus und konfigurieren Sie die Direkt-Mail-Einstellungen, einschließlich der Nachrichtenkonfiguration. Führen Sie folgende Schritte aus:
+Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Briefpostnachricht zu einer Kampagne oder einer Journey hinzufügen.
+
+>[!BEGINTABS]
+
+>[!TAB Hinzufügen einer Briefpostnachricht zu einer Journey]
+
+1. Öffnen Sie Ihre Journey und ziehen Sie eine Aktivität **[!UICONTROL Direkt-Mail]** per Drag-and-Drop aus dem Abschnitt **Aktionen** der Palette.
+
+1. Geben Sie allgemeine Informationen (Label, Beschreibung, Kategorie) zu Ihrer Nachricht ein und wählen Sie dann die zu verwendende Konfiguration aus. Das Feld **[!UICONTROL Konfiguration]** ist standardmäßig vorab mit der letzten Konfiguration für den Kanal ausgefüllt, den die Benutzerin oder der Benutzer verwendet hat. Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
+
+1. Konfigurieren Sie die Extraktionsdatei, die an Ihren Direkt-Mail-Anbieter gesendet werden soll. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
+
+   ![](assets/direct-mail-add-journey.png)
+
+1. Passen Sie die Eigenschaften der Extraktionsdatei an, z. B. den Dateinamen oder die anzuzeigenden Spalten. Weitere Informationen zum Konfigurieren der Eigenschaften der Extraktionsdatei finden Sie in diesem Abschnitt: [Erstellen einer Direkt-Mail-Nachricht](../direct-mail/create-direct-mail.md#extraction-file).
+
+   ![](assets/direct-mail-journey-content.png)
+
+1. Sobald der Inhalt der Extraktionsdatei definiert wurde, können Sie Testprofile verwenden, um sie in der Vorschau anzuzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
+
+   Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um zu prüfen, wie die Extraktionsdatei unter Verwendung der Testprofildaten gerendert wird. Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
+
+   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+
+Wenn Ihre Push-Benachrichtigung bereit ist, schließen Sie zum Versenden die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) ab.
+
+>[!TAB Hinzufügen einer Briefpostnachricht zu einer Kampagne]
 
 1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
 
-1. Wählen Sie den Typ der Kampagne aus, die Sie ausführen möchten.
-
-   * **Geplant – Marketing**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Marketing-Nachrichten. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
-
-   * **API-ausgelöst – Marketing/Transaktion**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt.  API-ausgelöste Kampagnen zielen auf den Versand von Nachrichten des Typs „Marketing“ oder „Transaktion“ ab. Beim Typ „Transaktion“ handelt es sich um Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts und Verlassen des Warenkorbs.
+1. Wählen Sie den Kampagnentyp **Geplant – Marketing** aus.
 
 1. Bearbeiten Sie im Bereich **[!UICONTROL Eigenschaften]** den **[!UICONTROL Titel]** und die **[!UICONTROL Beschreibung]** Ihrer Kampagne.
 
@@ -113,4 +140,3 @@ Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an 
       Um die Position einer Spalte zu ändern, ziehen Sie sie an die gewünschte Position im Abschnitt **[!UICONTROL Datenfeld]**. Um eine Spalte zu löschen, wählen Sie sie aus und klicken Sie auf die Schaltfläche **[!UICONTROL Entfernen]** im Bereich **[!UICONTROL Formatierung]**.
 
 Jetzt können Sie Ihre Briefpost-Nachricht testen und an Ihre Zielgruppe senden. [Erfahren Sie, wie Sie Briefpost-Nachrichten testen und senden.](test-send-direct-mail.md)
-

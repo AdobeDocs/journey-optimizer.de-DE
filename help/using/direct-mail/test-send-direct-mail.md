@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 85%
 
 ---
 
@@ -34,7 +34,7 @@ Sobald der Inhalt der Datei versandbereit ist, schließen Sie den Simulationsbil
 >
 > Wenn Ihre Kampagne einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Direkt-Mail-Kampagne senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
-Bevor Sie die Briefpost-Kampagne aktivieren, stellen Sie sicher, dass die Kampagne und die Extraktionsdatei ordnungsgemäß konfiguriert sind. Überprüfen Sie dazu die Warnhinweise im oberen Bereich des Editors. Einige davon sind einfache Warnungen, aber andere können Sie daran hindern, die Nachricht zu senden. Es gibt zwei Arten von Warnungen: Warnungen und Fehler.
+Stellen Sie vor der Aktivierung der Briefpostkampagne sicher, dass die Kampagne oder der Journey und die Extraktionsdatei ordnungsgemäß konfiguriert sind. Überprüfen Sie dazu die Warnhinweise im oberen Bereich des Editors. Einige davon sind einfache Warnungen, aber andere können Sie daran hindern, die Nachricht zu senden. Es gibt zwei Arten von Warnungen: Warnungen und Fehler.
 
 * **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices. So wird beispielsweise eine Warnmeldung angezeigt, wenn Ihre SMS-Nachricht leer ist.
 
@@ -42,14 +42,15 @@ Bevor Sie die Briefpost-Kampagne aktivieren, stellen Sie sicher, dass die Kampag
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-Wenn Ihre Briefpost-Kampagne fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Aktivieren]**. Wenn die Kampagne startet, wird die Extraktionsdatei automatisch generiert und auf den Server exportiert, der in Ihrer [Datei-Routing-Konfiguration](../direct-mail/direct-mail-configuration.md) festgelegt ist.
+Wenn Ihre Briefpostkampagne fertig ist, konfigurieren Sie Ihre [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md), um sie zu versenden.
 
 >[!NOTE]
 >
 >Die exportierte Datei endet standardmäßig mit einem Zeilenumbruch. Dadurch wird die Kompatibilität mit standardmäßigen Datenverarbeitungs-Tools sichergestellt.
 
-
-Nach dem Versand können Sie die Wirkung Ihrer Direkt-Mail-Kampagne in den Kampagnenberichten messen. Weitere Informationen zu Direkt-Mail-Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report-cja-direct.md).
+Nach dem Versand können Sie die Wirkung Ihrer Briefpostkampagne oder Ihres Journey in den Berichten messen. Weiterführende Informationen zum Briefpost-Reporting finden Sie in den folgenden Abschnitten:
+* [Direkt-Mail-Kampagnenbericht](../reports/campaign-global-report-cja-direct.md)
+* [Direkt-Mail-Journey-Bericht](../reports/journey-global-report-cja-direct.md)
 
 ## Verwalten des Einverständnisses für Direkt-Mail {#dm-consent-management}
 
