@@ -5,7 +5,7 @@ title: Monatlicher Bericht zu Dokumentationsaktualisierungen
 description: Liste der neuen und aktualisierten Dokumentationsseiten
 hide: true
 hidefromtoc: true
-source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -101,7 +101,7 @@ ht-degree: 0%
 - [Erstellen und Verwalten von Sammlungen von Entscheidungselementen](help/using/experience-decisioning/collections.md) - 7. November
 - [Kontextdaten](help/using/experience-decisioning/context-data.md) - 7. November
 - [Erste Schritte mit Entscheidungsrichtlinien](help/using/experience-decisioning/create-decision.md) - 7. November
-- [Erste Schritte mit Experience &#x200B;](help/using/experience-decisioning/gs-experience-decisioning.md) - 7. November
+- [Erste Schritte mit Experience ](help/using/experience-decisioning/gs-experience-decisioning.md) - 7. November
 - [Entscheidungspunkte](help/using/experience-decisioning/items.md) - 7. November
 - [Decisioning-Rangfolgenmethoden](help/using/experience-decisioning/ranking/ranking.md) - 7. November
 - [Regeln erstellen](help/using/experience-decisioning/rules.md) - 7. November
@@ -165,11 +165,11 @@ ht-degree: 0%
 - [Definieren der API-ausgelösten Kampagneneigenschaften](help/using/campaigns/api-triggered-campaign-properties.md) - 23. Oktober
 - [Arbeiten mit API-ausgelösten Kampagnen](help/using/campaigns/api-triggered-campaigns.md) - 29. Oktober
 - [Konfigurieren der Kampagnenaktion](help/using/campaigns/campaign-action.md) - 29. Oktober
-- [Optimierung in Kampagnen und Journey &#x200B;](help/using/content-management/gs-message-optimization.md) - 22. Oktober
+- [Optimierung in Kampagnen und Journey ](help/using/content-management/gs-message-optimization.md) - 22. Oktober
 - [Erstellen einer Aktionskampagne](help/using/campaigns/create-campaign.md) - 29. Oktober
 - [Erste Schritte mit Kampagnen](help/using/campaigns/get-started-with-campaigns.md) - 29. Oktober
 - [Zugreifen auf und Verwalten von Kampagnen](help/using/campaigns/manage-campaigns.md) - 23. Oktober
-- [Ruhige Stunden](help/using/campaigns/quiet-hours.md) - 31. Oktober
+- [Ruhige Stunden](help/using/conflict-prioritization/quiet-hours.md) - 31. Oktober
 - [Kampagne überprüfen und aktivieren](help/using/campaigns/trigger-campaigns.md) - 23. Oktober
 - [Erste Schritte mit Kommunikationskanälen in [!DNL Adobe Journey Optimizer]](help/using/channels/gs-channels.md) - 3. November
 - [Integrieren von Journey Optimizer mit externen Systemen](help/using/configuration/external-systems.md) - 28. Oktober
@@ -178,9 +178,9 @@ ht-degree: 0%
 - [Arbeiten mit Regelsätzen](help/using/conflict-prioritization/rule-sets.md) - 27. Oktober
 - [Erstellen eines Inhaltsexperiments](help/using/content-management/content-experiment.md) - 15. Oktober
 - [Erstellen eines Fragments](help/using/content-management/create-fragments.md) - 7. Oktober
-- [Verwalten von &#x200B;](help/using/content-management/manage-fragments.md)) 7. Oktober
+- [Verwalten von ](help/using/content-management/manage-fragments.md)) 7. Oktober
 - [Beispiele für Datensatzabfragen](help/using/data/datasets-query-examples.md) - 17. Oktober
-- [Über Leitplanken für die Time-to-Live (TTL) von &#x200B;](help/using/data/datasets-ttl.md)-28. Oktober
+- [Über Leitplanken für die Time-to-Live (TTL) von ](help/using/data/datasets-ttl.md)-28. Oktober
 - [Erstellen einer Briefpostnachricht](help/using/direct-mail/create-direct-mail.md) - 15. Oktober
 - [Entwerfen barrierefreier Inhalte](help/using/email/accessible-content.md) - 25. Oktober
 - [Verwenden von E-Mail-Designer-Inhaltskomponenten](help/using/email/content-components.md) - 25. Oktober

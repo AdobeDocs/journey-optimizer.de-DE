@@ -7,12 +7,11 @@ feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Nachricht, Häufigkeit, Regeln, Druck
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 97%
+source-wordcount: '909'
+ht-degree: 81%
 
 ---
 
@@ -32,24 +31,21 @@ Durch die Optimierung dieser Prozesse können Sie das Kundenerlebnis verbessern,
 * **Zeitersparnis**: Verwalten Sie Ausschlüsse durch Erstellen einer **zeitbasierten Regel** an einem Ort, anstatt mehrere Bedingungsknoten mit benutzerdefinierten Ausdrücken hinzuzufügen.\
   <!--* **Extra Safeguard** - Benefit from an extra safeguard in case audience criteria or time-window configurations were incorrectly set, ensuring individuals are still excluded when they should be.-->
 
->[!AVAILABILITY]
->
->Regeln für Ruhezeiten sind derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Sie werden in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.
-
-
 ➡️ [Funktion im Video kennenlernen](#video)
 
 ## Leitlinien und Einschränkungen
 
 * **Unterstützte Kanäle**: E-Mail, SMS, Push-Benachrichtigung und WhatsApp.
-  <!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+* **Orchestrierte Kampagnen** - Ruhezeiten werden für orchestrierte Kampagnen nicht unterstützt.
 * **Verzögerung der Anwendung**: Es kann bis zu 12 Stunden dauern bis Aktualisierungen von Regeln für Ruhezeiten auf Kanalaktionen angewendet werden, die diese Regel bereits verwenden.
-  <!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 * **Latenz bei hohem Volumen**: Im Fall von Nachrichten mit hohem Volumen benötigt das System möglicherweise zusätzliche Zeit, um mit der erfolgreichen Durchsetzung von Unterdrückungen für Ruhezeiten zu beginnen.
+
+<!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+<!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 
 ## Erstellen von Regeln für Ruhezeiten
 
-Um Ruhezeiten festzulegen, erstellen Sie eine Regel innerhalb eines benutzerdefinierten Regelsatzes. Führen Sie folgende Schritte aus:
+Um Ruhezeiten festzulegen, erstellen Sie eine Regel innerhalb eines benutzerdefinierten Regelsatzes. [Erfahren Sie, wie Sie Regelsätze erstellen](../conflict-prioritization/rule-sets.md#Create). Führen Sie folgende Schritte aus:
 
 1. Navigieren Sie zu **[!UICONTROL Geschäftsregeln]**, um auf das Regelsatzinventar zuzugreifen.
 
@@ -85,22 +81,21 @@ Um Ruhezeiten festzulegen, erstellen Sie eine Regel innerhalb eines benutzerdefi
 
 1. Definieren Sie Abschnitt **[!UICONTROL Datum und Uhrzeit]**, wann Ruhezeiten angewendet werden sollen:
 
-   1. Wählen Sie die zu verwendende **[!UICONTROL Zeitzone]** aus:
+   1. Wenden Sie in **[!UICONTROL Dropdown]** Zeitzone“ eine Standardzeitzone auf alle Empfängerinnen und Empfänger in der Zielgruppe an, unabhängig von ihrer individuellen Zeitzone.
 
-      * **[!UICONTROL UTC/GMT]**: Es wird ein standardmäßiges GMT-Zeitfenster auf alle Empfangenden in der Zielgruppe angewendet, unabhängig von ihrer individuellen Zeitzone.
-      * **[!UICONTROL Lokale Zeitzone der Empfangenden verwenden]**: Es wird die Zeitzone jedes Profils verwendet. [Informationen zur Zeitzonenverwaltung in Journeys](../building-journeys/timezone-management.md#timezone-from-profiles)
+      Um das Zeitzonenfeld jedes Profils zu verwenden, wählen Sie **[!UICONTROL Lokale Zeitzone der Empfänger verwenden]** aus. [Informationen zur Zeitzonenverwaltung in Journeys](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-        >[!IMPORTANT]
-        >
-        >Wenn für ein Profil kein Zeitzonenwert festgelegt ist, werden für dieses Profil keine Ruhezeiten erzwungen.
+      >[!IMPORTANT]
+      >
+      >Wenn für ein Profil kein Zeitzonenwert festgelegt ist, werden für dieses Profil keine Ruhezeiten erzwungen.
 
    1. Geben Sie den Zeitraum an, für den Ruhezeiten angewendet werden sollen.
 
-      * **[!UICONTROL Wöchentlich]**: Wählen Sie bestimmte Wochentage und ein Zeitfenster aus. Sie können die Regel auch **[!UICONTROL den ganzen Tag]** durchsetzen (diese Option ist nur für bis zu 3 aufeinander folgende Tage verfügbar).
+      * **[!UICONTROL Wöchentlich]**: Wählen Sie bestimmte Wochentage und ein Zeitfenster aus. Sie können die Regel auch &quot;**[!UICONTROL Tag“]**.
 
         ![](assets/quiet-hours-weekly.png)
 
-      * **[!UICONTROL Benutzerdefiniertes Datum]**: Wählen Sie bestimmte Daten im Kalender und ein Zeitfenster aus. Sie können die Regel auch **[!UICONTROL den ganzen Tag]** durchsetzen (diese Option ist nur für bis zu 3 aufeinander folgende Tage verfügbar).
+      * **[!UICONTROL Benutzerdefiniertes Datum]**: Wählen Sie bestimmte Daten im Kalender und ein Zeitfenster aus. Sie können die Regel auch &quot;**[!UICONTROL Tag“]**.
 
         ![](assets/quiet-hours-custom.png)
 
@@ -116,9 +111,19 @@ Um Ruhezeiten festzulegen, erstellen Sie eine Regel innerhalb eines benutzerdefi
 
      >[!NOTE]
      >
-     >Diese Option ist nur für Journey-Aktionen verfügbar. Wenn sie auf eine Kampagnenaktion angewendet wird, ist das Verhalten dasselbe wie bei Auswahl der Option **[!UICONTROL Nachricht verwerfen]**.
+     >Wenn eine Nachricht länger als 7 Tage in der Warteschlange für ein Profil bleibt, wird die Nachricht verworfen.
 
-   * **[!UICONTROL Nachricht verwerfen]**: Nachrichten werden nie gesendet. Wenn Sie möchten, dass die Journey oder Kampagne, die die Nachricht enthält, mit dem Abbruch des Versands endet, wählen Sie **[!UICONTROL Verwerfen und Journey oder Kampagne beenden]**.
+   * **[!UICONTROL Nachricht verwerfen]** - Nachrichten werden nie gesendet.
+
+     >[!NOTE]
+     >
+     >Wenn Sie **[!UICONTROL Verwerfen]** auswählen und diese Regel auf eine Journey-Aktion anwenden, wird das Profil aus dem Nachrichtenversand entfernt und von der Journey beendet.
+
+Die Regel wird jetzt im Regelsatz angezeigt. Sie können sie auswählen, um ihre Details im Eigenschaftenbereich anzuzeigen.
+
+![](assets/quiet-hours-preview.png)
+
+Wenn Ihre Regel bereit ist, aktivieren Sie sie und schließen Sie die Konfiguration Ihres Regelsatzes ab. [Erfahren Sie, wie Sie Regelsätze erstellen und aktivieren](../conflict-prioritization/rule-sets.md#Create)
 
 ## Anwenden von Ruhezeiten auf Journeys und Kampagnen {#apply}
 
@@ -187,4 +192,4 @@ Sobald Ihre Journeys oder Kampagnen aktiviert und ausgeführt wurden, können Si
 
 Erfahren Sie, wie Sie die Ruhezeitenfunktion in Adobe Journey Optimizer verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475861?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

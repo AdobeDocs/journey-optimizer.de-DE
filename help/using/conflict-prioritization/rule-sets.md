@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 97%
+source-wordcount: '1060'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ Es können zwei Arten von Regelsätzen erstellt werden:
 * Regelsätze des Typs **Kanal** wenden Begrenzungsregeln auf Kommunikationskanäle an. Sie ermöglichen es Ihnen, Folgendes festzulegen:
 
    * **Regeln für die Frequenzbegrenzung**: *Senden Sie nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.*
-   * **Regeln für Ruhezeiten** (eingeschränkte Verfügbarkeit): *Senden Sie keine E-Mail-Nachrichten außerhalb des Zeitfensters von 8:00 bis 21:00 Uhr.*
+   * **Regeln für ruhige Stunden** - *Senden Sie keine E-Mail-Nachrichten außerhalb des Zeitfensters von 8:00 bis 21:00 Uhr.*
 
 * **Journey**-Regelsätze wenden Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. Lassen Sie Profile beispielsweise nicht in mehrere Journeys gleichzeitig eintreten.
 
@@ -80,7 +80,7 @@ Zusätzlich zu diesem „Globalen Standardregelsatz“ können **Regelsätze** e
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Regeltyp"
->abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den Typ **Frequenzbegrenzung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag. Wählen Sie **Ruhezeiten** aus (unter „Eingeschränkte Verfügbarkeit“), um zeitbasierte Ausschlüsse zu definieren und so sicherzustellen, dass während bestimmter Zeiträume keine Nachrichten gesendet werden."
+>abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den Typ **Frequenzbegrenzung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag. Wählen Sie **Stille Stunden** aus, um zeitbasierte Ausschlüsse zu definieren, um sicherzustellen, dass während bestimmter Zeiträume keine Nachrichten gesendet werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -124,7 +124,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
    * [Journey-Begrenzung](../conflict-prioritization/journey-capping.md)
    * [Frequenzbegrenzung nach Kanal und Kommunikationstyp](../conflict-prioritization/channel-capping.md)
-   * [Ruhezeiten](../conflict-prioritization/quiet-hours.md) (eingeschränkte Verfügbarkeit)
+   * [Ruhezeiten](../conflict-prioritization/quiet-hours.md)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Erstellung der Regel zu bestätigen. Ihre Nachricht wird dem Regelsatz mit dem Status **[!UICONTROL Entwurf]** hinzugefügt.
 
@@ -180,4 +180,4 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

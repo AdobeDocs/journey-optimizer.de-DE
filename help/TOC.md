@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b586627473bd4e7618c235cbea1b286167859ab
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '3073'
+source-wordcount: '3071'
 ht-degree: 98%
 
 ---
@@ -136,7 +136,6 @@ ht-degree: 98%
    + [Kampagnen](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
    + [Zugreifen auf und Verwalten von Kampagnen](using/campaigns/manage-campaigns.md)
-   + [Ruhezeiten](using/campaigns/quiet-hours.md)
    + Aktionskampagnen {#action-campaigns}
       + [Aktionskampagnen](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [Arbeiten mit Aktionskampagnen](using/campaigns/create-campaign.md)

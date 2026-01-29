@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 97%
@@ -291,7 +291,7 @@ Sobald Sie mit Kampagnen vertrauter sind, erkunden Sie diese leistungsstarken Fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planung und Timing**
 
@@ -301,7 +301,7 @@ Planen Sie Kampagnen für bestimmte Daten/Uhrzeiten, legen Sie wiederkehrende Se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Ratensteuerung**
 
@@ -311,7 +311,7 @@ Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Syst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Zielgruppen-Targeting**
 
@@ -321,7 +321,7 @@ Sprechen Sie bestimmte Adobe Experience Platform-Zielgruppen präzise an und ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Genehmigungs-Workflows**
 
@@ -331,17 +331,17 @@ Implementieren Sie Überprüfungs- und Genehmigungsprozesse, bevor Sie Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ruhezeiten**
 
 Respektieren Sie Kundenpräferenzen, indem Sie den Versand von Nachrichten innerhalb festgelegter Zeitfenster vermeiden. (Aktions- und durch API ausgelöste Kampagnen)
 
-[Ruhezeiten konfigurieren](quiet-hours.md)
+[Ruhezeiten konfigurieren](../conflict-prioritization/quiet-hours.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimierung**
 
