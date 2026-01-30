@@ -182,7 +182,7 @@ Wenn Sie SFTP mit SSH-Schlüsselauthentifizierung verwenden, müssen Sie über e
    * Die Datei muss mit `-----BEGIN RSA PRIVATE KEY-----` beginnen (fünf Bindestriche davor und danach).
    * Es sollte keine Formulierung geben, die Verschlüsselung angibt.
    * Die Datei muss mit `-----END RSA PRIVATE KEY-----` enden (fünf Bindestriche davor und danach).
-1. Kopieren Sie **gesamten Dateiinhalt** (einschließlich der `-----BEGIN/END RSA PRIVATE KEY-----`) und codieren Sie ihn mit einem Tool wie „Base64[Encode and Decode“ ](https://www.base64encode.org/) Base64.
+1. Kopieren Sie **gesamten Dateiinhalt** (einschließlich der `-----BEGIN/END RSA PRIVATE KEY-----`) und codieren Sie ihn mit einem Tool wie „Base64[Encode and Decode“ &#x200B;](https://www.base64encode.org/) Base64.
 
    >[!NOTE]
    >
