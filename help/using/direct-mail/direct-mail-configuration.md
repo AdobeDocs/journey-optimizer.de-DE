@@ -182,7 +182,7 @@ Wenn Sie SFTP mit SSH-Schlüsselauthentifizierung verwenden, müssen Sie über e
    * Die Datei muss mit `-----BEGIN RSA PRIVATE KEY-----` beginnen (fünf Bindestriche davor und danach).
    * Es sollte keine Formulierung geben, die Verschlüsselung angibt.
    * Die Datei muss mit `-----END RSA PRIVATE KEY-----` enden (fünf Bindestriche davor und danach).
-1. Kopieren Sie **gesamten Dateiinhalt** (einschließlich der `-----BEGIN/END RSA PRIVATE KEY-----`) und codieren Sie ihn mit einem Tool wie „Base64[Encode and Decode“ &#x200B;](https://www.base64encode.org/) Base64.
+1. Kopieren Sie **gesamten Dateiinhalt** (einschließlich der `-----BEGIN/END RSA PRIVATE KEY-----`) und codieren Sie ihn mit einem Tool wie „Base64[Encode and Decode“ ](https://www.base64encode.org/) Base64.
 
    >[!NOTE]
    >
@@ -194,7 +194,7 @@ Wenn Sie SFTP mit SSH-Schlüsselauthentifizierung verwenden, müssen Sie über e
 >
 >Nach der Base64-Codierung enthält der Schlüssel nicht mehr die `-----BEGIN/END RSA PRIVATE KEY-----` Markierungen und darf keine Zeilenumbrüche enthalten. Der entsprechende öffentliche Schlüssel muss der Datei mit den autorisierten Schlüsseln Ihres SFTP-Servers hinzugefügt werden.
 
-Weitere Informationen zum Verbinden Ihres SFTP-Kontos mit Experience Platform finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Weitere Informationen zum Verbinden Ihres SFTP-Kontos mit Experience Platform finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 
