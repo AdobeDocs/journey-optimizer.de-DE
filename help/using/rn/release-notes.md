@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aaee9f7ed3ddcbf4678dacbf2e43d0410f334261
+source-git-commit: 6442512f29fd691d759375ad50cce2f95a42c402
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -35,7 +35,7 @@ Die Abschnitte [Funktionen](#jan-26-01-features) und [Verbesserungen](#jan-26-01
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#jan-26-01-features}
 
@@ -196,7 +196,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **KI-Assistent für Inhaltsqualitätsprüfungen** - Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um potenzielle Probleme mit <strong>Lesbarkeit</strong>, Kohärenz und Effektivität unabhängig von Ihren Markenrichtlinien aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung unklarer Botschaften, inkonsistenter Tonwerte oder struktureller Lücken. [Weitere Informationen](../content-management/brands-score.md#validate-quality). [Entdecken Sie diese Funktion im Video](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on).
+* **KI-Assistent für Inhaltsqualitätsprüfungen** - Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um potenzielle Probleme mit <strong>Lesbarkeit</strong>, Kohärenz und Effektivität unabhängig von Ihren Markenrichtlinien aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung unklarer Botschaften, inkonsistenter Tonwerte oder struktureller Lücken. [Weitere Informationen](../content-management/brands-score.md#validate-quality).
+
+  [Entdecken Sie diese Funktion im Video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -206,7 +208,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   Verfügbarkeit: 27. Januar 2026.
 
-* **Fehlerantwort-Payload für benutzerdefinierte Aktionen** - Sie können jetzt eine optionale <strong>Fehlerantwort-Payload</strong> für benutzerdefinierte Aktionen definieren. Wenn ein Aufruf fehlschlägt, wird die Fehler-Payload im Journey-Kontext (unter dem errorResponse-Knoten der Aktion) verfügbar gemacht und ist in der Verzweigung <strong>timeout/error</strong> verfügbar, um eine umfassendere Ausweichlogik und `jo_status_code` Debugging zu unterstützen. [Weitere Informationen](../action/action-response.md)
+* **Fehlerantwort-Payload für benutzerdefinierte Aktionen** - Sie können jetzt eine optionale <strong>Fehlerantwort-Payload</strong> für benutzerdefinierte Aktionen definieren. Wenn ein Aufruf fehlschlägt, wird die Fehler-Payload im Journey-Kontext (unter dem errorResponse-Knoten der Aktion) verfügbar gemacht und ist in der Verzweigung <strong>timeout/error</strong> verfügbar, um eine umfassendere Ausweichlogik und `jo_status_code` Debugging zu unterstützen. [Weitere Informationen](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
   Verfügbarkeit: 27. Januar 2026.
 
