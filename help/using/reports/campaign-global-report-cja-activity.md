@@ -7,14 +7,14 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '400'
-ht-degree: 100%
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
 
-# Bericht zu Kampagnen mit Live-Aktivitäten {#campaign-global-report-cja-activity}
+# Live-Kampagnenbericht {#campaign-global-report-cja-activity}
 
 >[!BEGINSHADEBOX]
 
@@ -32,7 +32,7 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet einen detaillierten Über
 
 +++ Weitere Informationen zu den Metriken „Versandstatistiken“
 
-* **[!UICONTROL Zielgruppe]**: Gesamtzahl der durch die Live-Aktivität angesprochenen Profile.
+* **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die sich für die Zielgruppe qualifiziert haben, bevor Ausschlüsse, Unterdrückungen oder Einverständnisentnahmen angewendet wurden.
 
 * **[!UICONTROL Sendungen]**: Gesamtzahl der Push-Benachrichtigungen, bei denen versucht wurde, sie an Zielgruppenprofile zu senden.
 

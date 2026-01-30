@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '3521'
-ht-degree: 100%
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+workflow-type: tm+mt
+source-wordcount: '3543'
+ht-degree: 98%
 
 ---
 
@@ -108,7 +108,7 @@ Die Tabelle **[!UICONTROL Versandmetriken nach E-Mail]** bietet eine umfassende 
 
 * **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden E-Mail. Um nur eine oder mehrere wiederkehrende E-Mails als Ziel auszuwählen, wählen Sie diese aus der Dropdown-Liste **[!UICONTROL Ausführungszeit]**.
 
-* **[!UICONTROL Zielgruppe]**: Gesamtzahl der beim Sendevorgang verarbeiteten Nachrichten.
+* **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die sich für die Zielgruppe qualifiziert haben, bevor Ausschlüsse, Unterdrückungen oder Einverständnisentnahmen angewendet wurden.
 
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen waren und die die Nachricht nicht erhalten haben.
 
@@ -330,7 +330,7 @@ Die Tabelle **[!UICONTROL Push-Benachrichtigung – Statistiken]** bietet eine �
 
 * **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Push-Benachrichtigung. Um nur eine oder mehrere wiederkehrende Push-Benachrichtigungen als Ziel auszuwählen, wählen Sie diese aus der Dropdown-Liste **[!UICONTROL Ausführungszeit]**.
 
-* **[!UICONTROL Zielgruppe]**: Gesamtzahl der beim Sendevorgang verarbeiteten Nachrichten.
+* **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die sich für die Zielgruppe qualifiziert haben, bevor Ausschlüsse, Unterdrückungen oder Einverständnisentnahmen angewendet wurden.
 
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen waren und die die Nachricht nicht erhalten haben.
 
@@ -400,7 +400,7 @@ Der Graph und die Tabelle **[!UICONTROL Push-Benachrichtigung – Aufschlüsselu
 
 +++ Weitere Informationen zu den Metriken „Push-Benachrichtigung – Aufschlüsselung nach Plattform“
 
-* **[!UICONTROL Zielgruppe]**: Gesamtzahl der bei der Analyse verarbeiteten Nachrichten.
+* **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die sich für die Zielgruppe qualifiziert haben, bevor Ausschlüsse, Unterdrückungen oder Einverständnisentnahmen angewendet wurden.
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -603,7 +603,7 @@ Die Graphen und die Tabelle **[!UICONTROL Briefpost – Fehlergründe]** veransc
 
 Auf [dieser Seite](exclusion-list.md) finden Sie eine umfassende Liste der Ausschlussgründe.
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
 * [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)
 * [Erstellen einer Kampagne](../campaigns/create-campaign.md)

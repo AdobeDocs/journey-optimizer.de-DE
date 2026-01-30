@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 94%
 
 ---
 
-# Kampagnenbericht zu Push-Benachrichtungen {#campaign-global-report-cja-push}
+# Push-Benachrichtungs-Kampagnenbericht {#campaign-global-report-cja-push}
 
 >[!BEGINSHADEBOX]
 
@@ -33,7 +33,7 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine umfassende Zusammenf
 
 +++ Weitere Informationen zu den Metriken „Versandstatistiken“
 
-* **[!UICONTROL Zielgruppe]**: Gesamtzahl der während der Analyse verarbeiteten Push-Benachrichtigungen.
+* **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die sich für die Zielgruppe qualifiziert haben, bevor Ausschlüsse, Unterdrückungen oder Einverständnisentnahmen angewendet wurden. In Journey mit aktiviertem erneuten Eintritt kann ein Profil mehrmals angesprochen werden.
 
 * **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für die Push-Benachrichtigung.
 

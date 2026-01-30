@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
-workflow-type: ht
-source-wordcount: '2162'
-ht-degree: 100%
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+workflow-type: tm+mt
+source-wordcount: '2189'
+ht-degree: 97%
 
 ---
 
@@ -144,7 +144,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr> 
   <tr> 
    <td> Zielgruppe<br/> </td> 
-   <td> Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.<br/> </td> 
+   <td> Anzahl der Profile, die sich für die Zielgruppe qualifiziert haben, bevor Ausschlüsse, Unterdrückungen oder Einverständnisentnahmen angewendet wurden. In Journey mit aktiviertem erneuten Eintritt kann ein Profil mehrmals angesprochen werden.<br/> </td> 
   </tr>
   <tr> 
    <td>Eindeutige Bounces<br/> </td> 
@@ -197,7 +197,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr>
   <tr> 
    <td>Eindeutige Zielgruppe<br/> </td> 
-   <td>Anzahl der eindeutigen Profile, die während des Sendevorgangs angesprochen werden.<br/> </td> 
+   <td>Anzahl der eindeutigen Profile, die sich für die Zielgruppe qualifiziert haben, bevor Ausschlüsse, Unterdrückungen oder Einverständnisentnahmen angewendet wurden.<br/> </td> 
   </tr> 
   <tr> 
    <td> Abmeldungen<br/> </td> 
@@ -217,7 +217,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </thead> 
   <tbody> 
     <tr> 
-      <td>Zugestellt</td> 
+      <td>zugestellt</td> 
       <td>Anzahl der erfolgreich gesendeten SMS-Nachrichten im Verhältnis zur Gesamtzahl der SMS-Nachrichten.</td> 
     </tr>
     <tr> 

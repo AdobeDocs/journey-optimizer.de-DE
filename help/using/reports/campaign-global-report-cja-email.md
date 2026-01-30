@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: cc435a133f5fe24bff0f6ec9ec135941cf0bab99
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2181'
-ht-degree: 100%
+source-wordcount: '2216'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ Der Graph **[!UICONTROL Klicktrichter]** bietet eine detaillierte Analyse der In
 
 +++ Weitere Informationen zu den Metriken für Klicktrichter
 
-* **[!UICONTROL Eindeutige Zielgruppe]**: Anzahl der eindeutigen Profile, die während des Sendevorgangs angesprochen werden.
+* **[!UICONTROL Eindeutige Zielgruppe]**: Anzahl der eindeutigen Profile, die sich für die Zielgruppe qualifiziert haben, bevor Ausschlüsse, Unterdrückungen oder Einverständnisentnahmen angewendet wurden.
 
 * **[!UICONTROL Eindeutige Sendungen]**: Anzahl der eindeutigen Profile, für die mindestens eine E-Mail gesendet werden sollte.
 
@@ -124,7 +124,7 @@ Die Tabelle **[!UICONTROL Eindeutige Versandstatistiken]** bietet einen detailli
 
 +++ Weitere Informationen zu den Metriken für eindeutige Versandstatistiken
 
-* **[!UICONTROL Eindeutige Zielgruppe]**: Anzahl der eindeutigen Profile, die während des Sendevorgangs angesprochen werden.
+* **[!UICONTROL Eindeutige Zielgruppe]**: Anzahl der eindeutigen Profile, die sich für die Zielgruppe qualifiziert haben, bevor Ausschlüsse, Unterdrückungen oder Einverständnisentnahmen angewendet wurden.
 
 * **[!UICONTROL Eindeutige Sendungen]**: Anzahl der eindeutigen Profile, für die mindestens eine E-Mail gesendet werden sollte.
 
@@ -170,7 +170,7 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet eine umfassende Zusammenf
 
 +++ Weitere Informationen zu den Metriken „Versandstatistiken“
 
-* **[!UICONTROL Zielgruppe]**: Gesamtzahl der während des Sendevorgangs verarbeiteten E-Mails.
+* **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die sich für die Zielgruppe qualifiziert haben, bevor Ausschlüsse, Unterdrückungen oder Einverständnisentnahmen angewendet wurden. In Journey mit aktiviertem erneuten Eintritt kann ein Profil mehrmals angesprochen werden.
 
 * **[!UICONTROL Sendevorgänge]**: Gesamtzahl der Sendevorgänge für Ihre E-Mail.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '3712'
-ht-degree: 100%
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+workflow-type: tm+mt
+source-wordcount: '3731'
+ht-degree: 99%
 
 ---
 
@@ -210,7 +210,7 @@ Die Tabelle **[!UICONTROL E-Mail – Statistiken]** enthält eine umfassende Zus
 
 +++ Weitere Informationen zu den Metriken „E-Mail – Versandstatistiken“
 
-* **[!UICONTROL Zielgruppe]**: Gesamtzahl der beim Sendevorgang verarbeiteten Nachrichten.
+* **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die sich für die Zielgruppe qualifiziert haben, bevor Ausschlüsse, Unterdrückungen oder Einverständnisentnahmen angewendet wurden. In Journey mit aktiviertem erneuten Eintritt kann ein Profil mehrmals angesprochen werden.
 
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
