@@ -6,10 +6,10 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
+source-git-commit: 5be6ecd85b0b45e01f7a27e0ffc55a2c6a22bcea
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 91%
+source-wordcount: '263'
+ht-degree: 83%
 
 ---
 
@@ -33,22 +33,21 @@ Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey O
 | ------- | ------- |
 | Entscheidungselemente insgesamt | 10.000 |
 | Maximale Größe von Elementen, einschließlich Attributen (1 KB), max. 30 Attribute | 1 KB |
-| Maximale Größe der Elementdarstellung (insgesamt für alle Platzierungen) | 1 KB |
-| Häufigkeitsregeln: Maximale Anzahl der Begrenzungsregeln pro Angebot | 10 |
+| Häufigkeitsregeln - Maximale Anzahl von Begrenzungsregeln pro Entscheidungselement | 10 |
 
 ## Elementsammlung {#item-collections}
 
 | Leitplanke | Limit |
 | ------- | ------- |
 | Elementsammlungen | 10.000 |
-| Angebotselemente insgesamt pro Elementsammlung | 500 |
+| Gesamtzahl der Entscheidungselemente pro Sammlung | 500 |
 
 ## Entscheidungsrichtlinie {#decision-policy}
 
 | Leitplanke | Limit |
 | ------- | ------- |
 | Anzahl der Auswahlstrategien und manuellen Elemente pro Entscheidungsrichtlinie | 10 |
-| Maximale Anzahl der zurückgegebenen Angebotselemente pro Entscheidungsrichtlinie | 30 |
+| Max. zurückgegebene Entscheidungselemente pro Entscheidungsrichtlinie | 30 |
 
 ## Eignungsregeln {#eligibility-rules}
 
@@ -73,7 +72,7 @@ Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey O
 
 | Leitplanke | Limit |
 | ------- | ------- |
-| Anzahl der benutzerdefinierte Attribute pro Angebotskatalogschema | 100 |
+| Anzahl benutzerdefinierter Attribute pro Elementkatalogschema | 100 |
 | Platzierungen insgesamt | 1.000 |
 | KI-Rangfolgemodell | 5 |
 
