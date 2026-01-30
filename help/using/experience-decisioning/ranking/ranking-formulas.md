@@ -7,16 +7,16 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '1457'
-ht-degree: 100%
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+workflow-type: tm+mt
+source-wordcount: '1481'
+ht-degree: 95%
 
 ---
 
 # Verwenden des KI-Formel-Builder {#create-ranking-formulas}
 
-Mithilfe von **Rangfolgenformeln** lassen sich Regeln definieren, die festlegen, welches Angebot zuerst präsentiert werden soll, anstatt die Prioritätswerte zu berücksichtigen.
+**Rangfolgeformeln** ermöglichen es Ihnen, Regeln zu definieren, die bestimmen, welches Angebot zuerst unterbreitet werden soll, anstatt die Prioritätswerte zu berücksichtigen.
 
 Um diese Regeln zu erstellen, bietet der KI-Formel-Builder in **[!UICONTROL Adobe Journey Optimizer]** mehr Flexibilität und Kontrolle bei der Rangfolge von Angeboten. Anstatt sich nur auf eine statische Angebotspriorität zu verlassen, können Sie nun benutzerdefinierte Rangfolgenformeln definieren, die Werte von KI-Modellen, Angebotsprioritäten, Profilattribute, Angebotsattribute und kontextuelle Signale über eine geführte Benutzeroberfläche kombinieren.
 
@@ -24,11 +24,13 @@ Dieser Ansatz ermöglicht es Ihnen, die Angebotsrangfolge dynamisch auf der Grun
 
 Sobald eine Rangfolgenformel erstellt wurde, können Sie diese einer [Auswahlstrategie](../selection-strategies.md) zuweisen. Wenn mit dieser Auswahlstrategie mehrere Angebote für diese Platzierung infrage kommen, verwendet die Entscheidungs-Engine die ausgewählte Formel, um zu berechnen, welches Angebot zuerst bereitgestellt werden soll.
 
+➡️ [Funktion im Video kennenlernen](#video)
+
 ## Erstellen einer Rangfolgenformel {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
->title="Erstellen von Rangfolgenformeln"
+>title="Erstellen von Ranglistenformeln"
 >abstract="Mithilfe von Formeln kann festgelegt werden, welches Entscheidungselement zuerst angezeigt werden soll, anstatt die Prioritätswerte des Elements zu berücksichtigen. Sobald eine Rangfolgenformel erstellt wurde, können Sie diese einer Auswahlstrategie zuweisen."
 
 Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen:
@@ -64,7 +66,7 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen:
    >
    >Die Verschachtelungstiefe in einer Rangfolgenformel ist auf 30  Ebenen beschränkt. Diese wird durch Zählen der schließenden Klammern `)` in der PQL-Zeichenfolge gemessen. Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies entspricht 8.000 ASCII-Zeichen (jeweils 1 Byte) oder 2.000 bis 4.000 Nicht-ASCII-Zeichen (jeweils 2 bis 4 Byte). [Weitere Informationen zu den Leitlinien und Einschränkungen für die Entscheidungsfindung](../decisioning-guardrails.md#ranking-formulas)
 
-1. Sie können auch Daten aus Adobe Experience Platform verwenden, um die Rangfolgenlogik dynamisch anzupassen und so reale Bedingungen widerzuspiegeln. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, beispielsweise die Produktverfügbarkeit oder Echtzeitpreise.
+1. Sie können auch Daten aus Adobe Experience Platform verwenden, um die Rangfolgenlogik dynamisch anzupassen und so reale Bedingungen widerzuspiegeln. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, z. B. Produktverfügbarkeit oder Echtzeitpreise.
 
    Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Beta-Version zur Verfügung. Wenden Sie sich an Ihren Kontakt in der Kundenbetreuung, wenn Sie Zugriff wünschen. [Informationen zum Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../aep-data-exd.md)
 
@@ -93,9 +95,9 @@ Gehen Sie wie folgt vor, um Kriterien direkt über die Benutzeroberfläche zu de
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. Geben Sie im Abschnitt **[!UICONTROL Kriterium 1]** die Entscheidungselemente an, auf die Sie einen Rangfolgenwert anwenden möchten, indem Sie Folgendes durchführen:
-   * Wählen Sie ein [Entscheidungselement-Attribut](../items.md#attributes) aus,
-   * wählen Sie einen logischen Operator aus und
-   * fügen Sie eine übereinstimmende Bedingung hinzu. Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten](../context-data.md) auswählen.
+   * Wählen Sie ein [Entscheidungselement-Attribut](../items.md#attributes)
+   * Logischen Operator auswählen
+   * Übereinstimmende Bedingung hinzufügen - Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten“ ](../context-data.md)
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -139,7 +141,7 @@ Wenn die Region des Entscheidungselements (benutzerdefiniertes Attribut) gleich 
 
 ## Verwenden des Code-Editors {#ranking-code-editor}
 
-Um Rangfolgenformeln in der **PQL-Syntax** auszudrücken, wechseln Sie mithilfe der entsprechenden Schaltfläche oben rechts auf dem Bildschirm zum Code-Editor. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie in der [entsprechenden Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview).
+Um Rangfolgenformeln in der **PQL-Syntax** auszudrücken, wechseln Sie mithilfe der entsprechenden Schaltfläche oben rechts auf dem Bildschirm zum Code-Editor. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie in der [entsprechenden Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de).
 
 >[!CAUTION]
 >
@@ -274,3 +276,9 @@ Beachten Sie, dass bei Verwendung des **Decisioning**-API die Kontextdaten zum P
 ```
 
 +++
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie mit dem KI-Formel-Builder in Adobe Journey Optimizer Strategien für die benutzerdefinierte Rangfolge von Angeboten erstellen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)

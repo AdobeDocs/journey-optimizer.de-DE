@@ -7,16 +7,18 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 96%
+source-wordcount: '880'
+ht-degree: 91%
 
 ---
 
 # Verwenden der Entscheidungsfindung in einem Code-basierten Erlebnis mit Inhaltsexperimenten {#experience-decisioning-uc}
 
 In diesem Anwendungsfall werden alle Schritte vorgestellt, die zur Verwendung der Entscheidungsfindung mit dem Code-basierten [!DNL Journey Optimizer]-Kanal erforderlich sind.
+
+➡️ [Entdecken Sie einen Anwendungsfall im Video](#video)
 
 >[!NOTE]
 >
@@ -95,11 +97,7 @@ Um die zweite Auswahlstrategie mit einer Formel als Rangfolgenmethode zu erstell
 
 ## Erstellen einer Code-basierten Erlebniskampagne
 
-<!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
-
-Define two delivery treatments each containing a different decision policy.-->
-
-Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine Code-basierte Erlebniskampagne, bei der Sie für jede Strategie eine andere Abwandlung definieren, um zu vergleichen, welche am besten funktioniert.
+Nachdem Sie die beiden Auswahlstrategien konfiguriert haben, erstellen Sie eine Code-basierte Erlebniskampagne, in der Sie für jede Strategie eine andere Behandlung definieren, um zu vergleichen, welche am besten funktioniert.
 
 1. Erstellen Sie eine Kampagne und wählen Sie die Aktion **[!UICONTROL Code-basiertes Erlebnis]** aus. [Weitere Informationen](../code-based/create-code-based.md)
 
@@ -157,3 +155,9 @@ Bei schlüssigem Ergebnis:
 
 * Sie können die Abwandlung mit der Rangfolge veröffentlichen, die für alle Ihre Kundinnen und Kunden am besten funktioniert. 
 * Sie können auch eine neue Kampagne mit der Auswahlstrategie erstellen, bei der die Rangfolgenmethode repliziert wird, die am besten funktioniert.
+
+## Anleitungsvideo {#video}
+
+Hier erfahren Sie mehr über eine umfassende Anleitung zur Verwendung von Decisioning in einem Code-basierten Erlebnis.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451100/?learn=on&enablevpops)

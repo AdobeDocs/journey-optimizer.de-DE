@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '619'
-ht-degree: 100%
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 95%
 
 ---
 
@@ -25,11 +25,13 @@ ht-degree: 100%
 
 Die Entscheidungsfindung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Rangfolgekriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
-Diese Entscheidungselemente sind über den [neuen Code-basierten Erlebniskanal](../code-based/get-started-code-based.md), der in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert.
+Diese Entscheidungselemente werden über den ([-basierten Erlebniskanal) nahtlos in eine Vielzahl eingehender Oberflächen integriert](../code-based/get-started-code-based.md) auf die in [!DNL Adobe Journey Optimizer] Kampagnen zugegriffen werden kann.
 
 >[!IMPORTANT]
 >
 >Entscheidungsrichtlinien für die Entscheidungsfindung sind nur zur Verwendung in Code-basierten Erlebniskampagnen und E-Mail-Kampagnen verfügbar.
+
+➡️ [Funktion im Video kennenlernen](#video)
 
 ➡️ In [diesem Abschnitt](experience-decisioning-uc.md) wird ein Anwendungsfall vollständig vorgestellt, der zeigt, wie Entscheidungen erstellt und in Inhaltsexperimenten mit dem Code-basierten Erlebniskanal verwendet werden können.
 
@@ -98,3 +100,8 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 * **[Entscheidungsleitlinien](decisioning-guardrails.md)**: Lernen Sie wichtige Einschränkungen und Best Practices bei der Implementierung von Entscheidungsfindung kennen.
 * **[Tutorials zur Entscheidungsfindung](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}**: Erkunden Sie Video-Tutorials mit detaillierten Anleitungen zu Entscheidungsfunktionen und Best Practices.
 
+## Anleitungsvideo {#video}
+
+Erfahren Sie mehr über die Entscheidungsfunktionen in Adobe Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
