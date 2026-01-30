@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
-workflow-type: ht
-source-wordcount: '445'
-ht-degree: 100%
+source-git-commit: d6a46a6db9bcef4def71e915389d725c69d851c3
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 81%
 
 ---
 
@@ -45,18 +45,23 @@ Beachten Sie, dass die Zeichenanzahl keine Varianten widerspiegelt, die durch dy
 
 ## Validieren Ihres Inhalts {#sms-validate}
 
+>[!NOTE]
+>
+> Um die Zustellbarkeit zu verbessern, verwenden Sie die Telefonnummern in den vom Anbieter unterstützten Formaten. Beispielsweise unterstützen Twilio und Sinch nur Telefonnummern im E.164-Format.
+
 Sie müssen die Warnmeldungen im oberen Bereich des Editors überprüfen. Einige davon sind einfache Warnungen, aber andere können Sie daran hindern, die Nachricht zu senden. Es gibt zwei Arten von Warnungen: Warnungen und Fehler.
 
 ![](assets/sms-alert-button.png)
 
-* **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices. So wird beispielsweise eine Warnmeldung angezeigt, wenn Ihre Textnachricht leer ist.
+* **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices. Beispielsweise wird eine Warnmeldung angezeigt, wenn Ihre Textnachricht leer ist oder wenn Zeichenbeschränkungen mit dynamischen Inhalten überschritten werden können.
+
+  **Zeichenbeschränkungen:** 160 Zeichen pro Segment (GSM 7-Bit), 70 Zeichen für Unicode/Emojis, bis zu 1500 Zeichen insgesamt.
 
 * **Fehler** hindern Sie daran, die Journey zu testen oder zu aktivieren oder die Kampagne zu veröffentlichen, bis sie behoben sind. Eine Fehlermeldung warnt Sie zum Beispiel, wenn die Betreffzeile fehlt.
 
+Der Warnhinweis **Die maximale Zeichenanzahl für SMS-Text wurde überschritten“** kann auch dann angezeigt werden, wenn Ihre simulierte Nachricht kürzer ist, da die Validierung die **maximal mögliche Länge)** berechnet, indem alle bedingten Verzweigungen, Personalisierungsfelder und dynamischen Inhalte am längsten ausgewertet werden.
 
->[!NOTE]
->
-> Um die Zustellbarkeit zu verbessern, verwenden Sie die Telefonnummern in den vom Anbieter unterstützten Formaten. Beispielsweise unterstützen Twilio und Sinch nur Telefonnummern im E.164-Format.
+Bei der Validierung wird die maximale Länge für alle möglichen Profildaten berechnet, während bei der Simulation die tatsächliche Ausgabe für ein Testprofil angezeigt wird.
 
 ## Senden einer Textnachricht {#sms-send}
 
