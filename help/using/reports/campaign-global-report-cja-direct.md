@@ -69,7 +69,7 @@ Anhand der Tabelle **[!UICONTROL Fehlergründe]** können Sie die spezifischen F
 
 ## Gründe für Ausschluss {#exclude-reasons-directmail}
 
-[](assets/cja-direct-excluded.png)
+[&#128279;](assets/cja-direct-excluded.png)
 
 Die Tabelle **[!UICONTROL Gründe für Ausschluss]** zeigt visuell die verschiedenen Faktoren auf, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass diese keine Direkt-Mail-Nachrichten von Ihnen erhalten konnten.
 

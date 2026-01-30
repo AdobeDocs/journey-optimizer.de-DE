@@ -187,7 +187,7 @@ Die Tabelle **[!UICONTROL E-Mail-Betreff]** bietet einen umfassenden Überblick 
 
 Die Tabelle **[!UICONTROL Bounce-Gründe]** kompiliert die verfügbaren Daten zu nicht zugestellten Nachrichten und bietet detaillierte Einblicke in die spezifischen Ursachen von nicht zugestellten E-Mails.
 
-Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../reports/suppression-list.md).
+Weitere Informationen zu Bounces finden Sie auf der Seite [&#x200B; Unterdrückungslisten](../reports/suppression-list.md).
 
 ## Gründe für Ausschluss {#email-excluded}
 

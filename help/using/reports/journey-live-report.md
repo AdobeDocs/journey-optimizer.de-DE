@@ -276,7 +276,7 @@ Das Widget **[!UICONTROL E-Mail – Leistung nach Datum]** bietet einen detailli
 
 Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]** stellen die verfügbaren Daten zu Bounce-Nachrichten zusammen und bieten detaillierte Einblicke in die spezifischen Gründe und Kategorien für E-Mail-Bounces der letzten 24 Stunden.
 
-Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../reports/suppression-list.md).
+Weitere Informationen zu Bounces finden Sie auf der Seite [&#x200B; Unterdrückungslisten](../reports/suppression-list.md).
 
 +++ Weitere Informationen zu den Metriken „E-Mail – Bounce-Kategorien“ und „E-Mail – Bounce-Gründe“
 
