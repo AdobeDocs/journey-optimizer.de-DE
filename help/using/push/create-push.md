@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 94%
+source-wordcount: '832'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 >title="Erstellen von Push-Benachrichtigungen"
 >abstract="Fügen Sie Ihre Push-Benachrichtigung hinzu und personalisieren Sie sie mit dem Personalisierungseditor."
 
-Sie können Push-Benachrichtigungen für Mobilgeräte (iOS und Android) und Webbrowser erstellen. Auf dieser Seite werden Sie durch den Prozess zum Einrichten einer Push-Benachrichtigung in einer Journey oder Kampagne geführt.
+Sie können Push-Benachrichtigungen für Mobilgeräte (iOS und Android) erstellen. Auf dieser Seite werden Sie durch den Prozess zum Einrichten einer Push-Benachrichtigung in einer Journey oder Kampagne geführt.
 
 ## Erstellen der Push-Benachrichtigung in einer Journey oder Kampagne {#create}
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Aktionen]** die Option **[!UICONTROL Push-Benachrichtigung]** aus und wählen Sie eine Konfiguration aus oder erstellen Sie eine neue Konfiguration.
 
-   Erfahren Sie mehr über die Push-Konfiguration für Mobile [auf dieser Seite](push-configuration.md) und für Web [auf dieser Seite](push-configuration-web.md).
+   Weitere Informationen zur Push-Konfiguration für Mobilgeräte finden Sie auf [dieser Seite](push-configuration.md).
 
    ![](assets/push_create_3.png)
 

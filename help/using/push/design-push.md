@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 72%
+source-wordcount: '1772'
+ht-degree: 71%
 
 ---
 
 # Gestalten einer Push-Benachrichtigung {#design-push-notification}
 
-Nachdem Sie eine Push-Benachrichtigung erstellt haben, können Sie ihren Inhalt für iOS, Android und Web-Plattformen entwerfen. Auf dieser Seite erfahren Sie, wie Sie Ihre Nachricht erstellen, das Klickverhalten konfigurieren, Medien und Schaltflächen hinzufügen und erweiterte Optionen festlegen, um ansprechende Push-Benachrichtigungen zu erstellen, die Ihre Audience ansprechen.
+Nachdem Sie eine Push-Benachrichtigung erstellt haben, können Sie deren Inhalt für iOS- und Android-Plattformen entwerfen. Auf dieser Seite erfahren Sie, wie Sie Ihre Nachricht erstellen, das Klickverhalten konfigurieren, Medien und Schaltflächen hinzufügen und erweiterte Optionen festlegen, um ansprechende Push-Benachrichtigungen zu erstellen, die Ihre Audience ansprechen.
 
 ## Titel und Hauptteil {#push-title-body}
 
@@ -30,7 +30,7 @@ Nachdem Sie eine Push-Benachrichtigung erstellt haben, können Sie ihren Inhalt 
 
 Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Hauptteil]**. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Erfahren Sie mehr zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md) im Personalisierungseditor.
 
-Im Bereich für die Gerätevorschau sehen Sie, wie die Push-Benachrichtigung in iOS, Android und im Web dargestellt wird.
+Im Abschnitt für die Gerätevorschau sehen Sie, wie die Push-Benachrichtigung auf iOS und Android dargestellt wird.
 
 Beschleunigen Sie die Inhaltserstellung mit dem KI-Assistenten und generieren Sie mit dem [KI-Assistenten für die Textgenerierung](../content-management/generative-text.md) überzeugenden Push-Benachrichtigungstext oder erstellen Sie vollständige Push-Benachrichtigungen mit dem [KI-Assistenten für die vollständige Inhaltserstellung](../content-management/generative-full-content.md).
 
@@ -45,7 +45,7 @@ Konfigurieren Sie die Aktion, die ausgeführt wird, wenn Empfänger auf den Haup
 
 ![](assets/title-body-push.png)
 
-* **[!UICONTROL Mobile App öffnen]**: Startet die Mobile App, die der Benachrichtigung zugeordnet ist. Die App wird in Ihrer [Kanalkonfiguration“ &#x200B;](../configuration/channel-surfaces.md)d. h. Nachrichtenvoreinstellung) angegeben.
+* **[!UICONTROL Mobile App öffnen]**: Startet die Mobile App, die der Benachrichtigung zugeordnet ist. Die App wird in Ihrer [Kanalkonfiguration“ ](../configuration/channel-surfaces.md)d. h. Nachrichtenvoreinstellung) angegeben.
 * **[!UICONTROL Deeplink]**: Leitet Benutzer zu bestimmten Inhalten in Ihrer App weiter, z. B. zu einer bestimmten Ansicht, einem Seitenabschnitt oder einer Registerkarte. Geben Sie die Deeplink-URL in das bereitgestellte Feld ein.
 * **[!UICONTROL Web-URL]**: Leitet Benutzer zu einer externen Web-Seite weiter. Geben Sie die Ziel-URL in das bereitgestellte Feld ein.
 
@@ -68,7 +68,7 @@ Bei Android können Sie nur ein Bildsymbol und ein Bild für erweiterte Benachri
 
 Sie können Medien mit einer der folgenden Methoden hinzufügen:
 
-* Schaltfläche **[!UICONTROL Medien hinzufügen]**: Wählen Sie ein Asset aus [Adobe Experience Manager Assets &#x200B;](../integrations/assets.md) oder greifen Sie auf den KI-Assistenten zu, um [ansprechende Bilder](../content-management/generative-image.md) für Push-Benachrichtigungen zu generieren.
+* Schaltfläche **[!UICONTROL Medien hinzufügen]**: Wählen Sie ein Asset aus [Adobe Experience Manager Assets ](../integrations/assets.md) oder greifen Sie auf den KI-Assistenten zu, um [ansprechende Bilder](../content-management/generative-image.md) für Push-Benachrichtigungen zu generieren.
 
 * **[!UICONTROL Feld]** Medien hinzufügen“: Geben Sie die Medien-URL direkt ein. Sie können Personalisierungs-Token in die URL aufnehmen.
 
@@ -86,7 +86,7 @@ Für iOS können Sie ein Bild, ein Video oder eine GIF hinzufügen, das bzw. die
 
 Sie können Medien mit einer der folgenden Methoden hinzufügen:
 
-* **[!UICONTROL Medien hinzufügen]**-Schaltfläche: Asset aus **[!DNL Adobe Experience Manager Assets]** auswählen. Weitere Informationen zur Verwendung von **[!DNL Adobe Experience Manager Assets]** finden [&#x200B; auf dieser Seite](../integrations/assets.md).
+* **[!UICONTROL Medien hinzufügen]**-Schaltfläche: Asset aus **[!DNL Adobe Experience Manager Assets]** auswählen. Weitere Informationen zur Verwendung von **[!DNL Adobe Experience Manager Assets]** finden [ auf dieser Seite](../integrations/assets.md).
 
 * **[!UICONTROL Feld]** Medien hinzufügen“: Geben Sie die Medien-URL direkt ein. Sie können Personalisierungs-Token in die URL aufnehmen.
 
@@ -94,15 +94,17 @@ Nach dem Hinzufügen werden die Medien rechts neben dem Textkörper der Benachri
 
 >[!NOTE]
 >
->Wenn Sie Medienanhänge in die Push-Benachrichtigungs-Payload einbeziehen (z. B. Bilder in benutzerdefinierten Datenfeldern wie `adb_media`), muss Ihre Mobile App eine bestimmte Client-seitige Verarbeitung für die Bilder implementieren, die auf Geräten gerendert werden sollen. Ihre App muss eine [Erweiterung für den Benachrichtigungsdienst](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} implementieren, um Medieninhalte aus der Payload herunterzuladen und zu verarbeiten. Darüber hinaus muss **[!UICONTROL Option &quot;]**-Flag für veränderbaren Inhalt hinzufügen[&#x200B; im Abschnitt „Erweiterte Optionen](#advanced-options-push) aktiviert werden.
+>Wenn Sie Medienanhänge in die Push-Benachrichtigungs-Payload einbeziehen (z. B. Bilder in benutzerdefinierten Datenfeldern wie `adb_media`), muss Ihre Mobile App eine bestimmte Client-seitige Verarbeitung für die Bilder implementieren, die auf Geräten gerendert werden sollen. Ihre App muss eine [Erweiterung für den Benachrichtigungsdienst](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} implementieren, um Medieninhalte aus der Payload herunterzuladen und zu verarbeiten. Darüber hinaus muss **[!UICONTROL Option &quot;]**-Flag für veränderbaren Inhalt hinzufügen[ im Abschnitt „Erweiterte Optionen](#advanced-options-push) aktiviert werden.
 
+<!--
 >[!TAB Web]
 
-Geben Sie die Medien-URL in das Feld **[!UICONTROL Medien hinzufügen]** ein. Sie können auch Personalisierungs-Token in die URL aufnehmen, um den Inhalt für alle Benutzenden anzupassen.
+Enter the media URL in the **[!UICONTROL Add media]** field. You can also include personalization tokens in the URL to customize the content for each user.
 
-Klicken Sie ![Text mit KI-Assistenten bearbeiten](assets/do-not-localize/Smock_ImageAdd_18_N.svg), um Medien schnell mithilfe des KI-Assistenten von Journey Optimizer zu generieren.
+Click ![Edit text with the AI assistant](assets/do-not-localize/Smock_ImageAdd_18_N.svg) to quickly generate media using the Journey Optimizer AI Assistant.
 
 ![](assets/web-media.png)
+-->
 
 >[!ENDTABS]
 
@@ -135,15 +137,17 @@ Bei Android können Sie bis zu drei Schaltflächen hinzufügen.
 
 Für iOS wird eine Benachrichtigungskategorie-Kennung angegeben. Benachrichtigungskategorien müssen in der iOS-App vorkonfiguriert werden. Dadurch werden die anzuzeigenden Schaltflächen und die durchgeführten Aktionen definiert. Weitere Informationen dazu finden Sie in der [Apple-Dokumentation](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types).
 
+<!--
 >[!TAB Web]
 
 ![](assets/push_buttons-web.png)
 
-Verwenden Sie die Option **[!UICONTROL Schaltfläche hinzufügen]**, um das Label jeder Schaltfläche und die zugehörige Aktion zu definieren, wie unten beschrieben:
+Use the **[!UICONTROL Add Button]** option to define each button's label and associated action, as detailed below:
 
-* **[!UICONTROL Deeplink]**: Leitet Benutzende zu einer bestimmten Ansicht, einem bestimmten Abschnitt oder einer bestimmten Registerkarte in Ihrer App weiter. Geben Sie die Deeplink-URL in das entsprechende Feld ein.
+* **[!UICONTROL Deeplink]**: Redirect users to a specific view, section, or tab within your app. Enter the deeplink URL in the associated field.
 
-* **[!UICONTROL Web-URL]**: Leitet Benutzende zu einer externen Web-Seite weiter. Fügen Sie die URL in das entsprechende Feld ein.
+* **[!UICONTROL Web URL]**: Redirect users to an external webpage. Enter the URL in the associated field.
+-->
 
 >[!ENDTABS]
 
@@ -154,9 +158,11 @@ Verwenden Sie die Option **[!UICONTROL Schaltfläche hinzufügen]**, um das Labe
 >title="Über stille Benachrichtigungen"
 >abstract="Senden von Benachrichtigungen, ohne den Benutzer bzw. die Benutzerin zu stören, denn die Benachrichtigungen werden nicht im Benachrichtigungszentrum oder in der Benachrichtigungsleiste angezeigt."
 
+<!--
 >[!AVAILABILITY]
 >
->Web-Push-Benachrichtigungen in Journey Optimizer unterstützen die Funktion **Stille Benachrichtigung** nicht.
+>Web push notifications in Journey Optimizer do not support the **Silent Notification** feature.
+-->
 
 Eine stille Push-Benachrichtigung (oder Hintergrundbenachrichtigung) ist eine versteckte Anweisung, die an die Mobile App gesendet wird. Sie wird beispielsweise verwendet, um Ihre Mobile App über die Verfügbarkeit von neuem Inhalt zu informieren oder einen Download im Hintergrund zu starten.
 
