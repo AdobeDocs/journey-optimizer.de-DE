@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a9dd033754c827960133e762628b0cf7b4c6a20
+source-git-commit: 124ff40cf7cdc0dfdaf67924ff5fb558c96e2956
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1722'
 ht-degree: 23%
 
 ---
@@ -35,7 +35,7 @@ Die Abschnitte [Funktionen](#jan-26-01-features) und [Verbesserungen](#jan-26-01
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#jan-26-01-features}
 
@@ -101,25 +101,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Web Push notifications channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer now supports <strong>Web Push notifications</strong>, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both <strong>mobile and desktop browsers</strong>, enabling you to reach customers directly on their devices without requiring an app. This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
-<p><img src="assets/do-not-localize/web-push.gif"/></p>
-<p>Previously released in Beta, this capability is now available to all environments (General Availability).</p>
-<p>For more information, refer to the detailed documentation.</p>
-<p>Availability date: January 28, 2026</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <table>
 <thead>
@@ -198,7 +179,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **KI-Assistent für Inhaltsqualitätsprüfungen** - Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um potenzielle Probleme mit <strong>Lesbarkeit</strong>, Kohärenz und Effektivität unabhängig von Ihren Markenrichtlinien aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung unklarer Botschaften, inkonsistenter Tonwerte oder struktureller Lücken. [Weitere Informationen](../content-management/brands-score.md#validate-quality).
 
-  [Entdecken Sie diese Funktion im Video](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on).
+  [Entdecken Sie diese Funktion im Video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Experience Decisioning
 
@@ -318,6 +299,24 @@ In den nächsten Tagen sind die folgenden Funktionen und Verbesserungen zur Ver�
 <p>Eine neue <strong>Aktivität Inhaltsentscheidung</strong> ist jetzt auf der Journey-Arbeitsfläche verfügbar, um (<strong>) </strong> direkt in die Journey Ihrer Kunden zu integrieren. Mit dieser Aktivität können Sie entscheidungsbasierte Inhalte bereitstellen und diese Angebote auf Ihrem gesamten Journey referenzieren - unter Bedingungen für die Erstellung von Verzweigungen auf der Grundlage der Eignung, in benutzerdefinierten Aktionen für die Weitergabe von Angebotsdaten an externe Systeme und in anderen Aktivitäten für die Erstellung vollständig personalisierter Kundenerlebnisse.</p>
 <p>Diese Funktion steht allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Verfügbarkeitsdatum: Dienstag, 9. Februar 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Web-Push-Benachrichtigungskanal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer unterstützt jetzt <strong>Web-Push-Benachrichtigungen</strong> und erweitert den Push-Kanal über Mobile hinaus. Sie können Benachrichtigungen nahtlos sowohl an mobile <strong> auch an Desktop-Browser senden</strong> sodass Sie Kunden direkt auf ihren Geräten erreichen können, ohne eine App zu benötigen. Diese Verbesserung ermöglicht es Ihnen, Benutzende in Echtzeit mit zeitnahen, personalisierten Nachrichten anzusprechen, unter Nutzung derselben Authoring-Workflows und Targeting-Funktionen, die bereits für mobile Push-Benachrichtigungen verfügbar sind.</p>
+<!--p><img src="assets/do-not-localize/web-push.gif"/></p-->
+<p>Diese Funktion wurde bereits in Beta veröffentlicht und steht allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p>Verfügbarkeitsdatum: Donnerstag, 11. Februar 2026</p>
 </td>
 </tr>
 </tbody>
