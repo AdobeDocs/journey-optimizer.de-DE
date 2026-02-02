@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: d9534a5bbec3fdd24046a6e171f81498569f682f
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 76%
+source-wordcount: '320'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ Die wichtigsten Schritte zum Senden von Briefpostnachrichten sind:
 
 >[!AVAILABILITY]
 >
->Briefpostnachrichten können nur im Rahmen von Journey und geplanten Kampagnen erstellt werden. Sie sind nicht für die Verwendung in orchestrierten und API-ausgelösten Kampagnen verfügbar.
+>Briefpostnachrichten können im Kontext von Journey und Kampagnen erstellt werden. Sie sind nicht für die Verwendung in API-ausgelösten Kampagnen verfügbar.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -45,4 +45,4 @@ Die wichtigsten Schritte zum Senden von Briefpostnachrichten sind:
 
 Erfahren Sie, wie Sie den Briefpost-Kanal in Adobe Journey Optimizer nutzen können, um Briefpost-Sendungen in Ihren Journey zu automatisieren und zu planen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479171?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
