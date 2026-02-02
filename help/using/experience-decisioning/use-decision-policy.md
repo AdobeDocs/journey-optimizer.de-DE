@@ -82,13 +82,13 @@ Der Entscheidungsrichtlinien-Code wird hinzugefügt. Sie können jetzt Attribute
 
 >[!NOTE]
 >
->Wiederholen Sie diese Sequenz für Code-basierte Erlebnis- und E-Mail-Kanäle einmal pro Entscheidungselement, das Sie zurückgeben möchten. Wenn Sie beispielsweise beim Erstellen der Entscheidung zwei Elemente zurückgeben [, wiederholen ](create-decision-policy.md) die Sequenz zweimal. Bei SMS- und Push-Kanälen kann nur ein Entscheidungselement zurückgegeben werden.
+>Wiederholen Sie diese Sequenz für Code-basierte Erlebnis- und E-Mail-Kanäle einmal pro Entscheidungselement, das Sie zurückgeben möchten. Wenn Sie beispielsweise beim Erstellen der Entscheidung zwei Elemente zurückgeben [, wiederholen &#x200B;](create-decision-policy.md) die Sequenz zweimal. Bei SMS- und Push-Kanälen kann nur ein Entscheidungselement zurückgegeben werden.
 
 ## Mit Entscheidungselementattributen personalisieren {#attributes}
 
-Nachdem Sie den Code für eine Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, werden alle Attribute aus den zurückgegebenen Entscheidungselementen für die Personalisierung verfügbar. [Erfahren Sie, wie Sie mit Personalisierung ](../personalization/personalize.md).
+Nachdem Sie den Code für eine Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, werden alle Attribute aus den zurückgegebenen Entscheidungselementen für die Personalisierung verfügbar. [Erfahren Sie, wie Sie mit Personalisierung &#x200B;](../personalization/personalize.md).
 
-Attribute werden im „Angebote“ ([) ](catalogs.md). Sie werden im Personalisierungseditor in den folgenden Ordnern angezeigt:
+Attribute werden im „Angebote“ ([) &#x200B;](catalogs.md). Sie werden im Personalisierungseditor in den folgenden Ordnern angezeigt:
 * **Benutzerdefinierte Attribute**: `_\<imsOrg\>` Ordner
 * **Standardattribute**: `_experience` Ordner
 
