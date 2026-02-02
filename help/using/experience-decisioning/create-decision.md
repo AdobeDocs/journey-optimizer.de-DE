@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '612'
-ht-degree: 100%
+source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 98%
 
 ---
 
@@ -85,3 +85,8 @@ Nachdem Sie nun wissen, wie Entscheidungsrichtlinien funktionieren und wie sie I
 
 ➡️ [Informationen zum Erstellen von Entscheidungsrichtlinien](../experience-decisioning/create-decision-policy.md)
 
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie mit Decisioning E-Mails für Ihre Audience personalisieren können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
