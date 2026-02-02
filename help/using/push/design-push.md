@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 71%
+source-wordcount: '1831'
+ht-degree: 69%
 
 ---
 
@@ -45,7 +45,7 @@ Konfigurieren Sie die Aktion, die ausgeführt wird, wenn Empfänger auf den Haup
 
 ![](assets/title-body-push.png)
 
-* **[!UICONTROL Mobile App öffnen]**: Startet die Mobile App, die der Benachrichtigung zugeordnet ist. Die App wird in Ihrer [Kanalkonfiguration“ &#x200B;](../configuration/channel-surfaces.md)d. h. Nachrichtenvoreinstellung) angegeben.
+* **[!UICONTROL Mobile App öffnen]**: Startet die Mobile App, die der Benachrichtigung zugeordnet ist. Die App wird in Ihrer [Kanalkonfiguration“ ](../configuration/channel-surfaces.md)d. h. Nachrichtenvoreinstellung) angegeben.
 * **[!UICONTROL Deeplink]**: Leitet Benutzer zu bestimmten Inhalten in Ihrer App weiter, z. B. zu einer bestimmten Ansicht, einem Seitenabschnitt oder einer Registerkarte. Geben Sie die Deeplink-URL in das bereitgestellte Feld ein.
 * **[!UICONTROL Web-URL]**: Leitet Benutzer zu einer externen Web-Seite weiter. Geben Sie die Ziel-URL in das bereitgestellte Feld ein.
 
@@ -68,7 +68,7 @@ Bei Android können Sie nur ein Bildsymbol und ein Bild für erweiterte Benachri
 
 Sie können Medien mit einer der folgenden Methoden hinzufügen:
 
-* Schaltfläche **[!UICONTROL Medien hinzufügen]**: Wählen Sie ein Asset aus [Adobe Experience Manager Assets &#x200B;](../integrations/assets.md) oder greifen Sie auf den KI-Assistenten zu, um [ansprechende Bilder](../content-management/generative-image.md) für Push-Benachrichtigungen zu generieren.
+* Schaltfläche **[!UICONTROL Medien hinzufügen]**: Wählen Sie ein Asset aus [Adobe Experience Manager Assets ](../integrations/assets.md) oder greifen Sie auf den KI-Assistenten zu, um [ansprechende Bilder](../content-management/generative-image.md) für Push-Benachrichtigungen zu generieren.
 
 * **[!UICONTROL Feld]** Medien hinzufügen“: Geben Sie die Medien-URL direkt ein. Sie können Personalisierungs-Token in die URL aufnehmen.
 
@@ -86,7 +86,7 @@ Für iOS können Sie ein Bild, ein Video oder eine GIF hinzufügen, das bzw. die
 
 Sie können Medien mit einer der folgenden Methoden hinzufügen:
 
-* **[!UICONTROL Medien hinzufügen]**-Schaltfläche: Asset aus **[!DNL Adobe Experience Manager Assets]** auswählen. Weitere Informationen zur Verwendung von **[!DNL Adobe Experience Manager Assets]** finden [&#x200B; auf dieser Seite](../integrations/assets.md).
+* **[!UICONTROL Medien hinzufügen]**-Schaltfläche: Asset aus **[!DNL Adobe Experience Manager Assets]** auswählen. Weitere Informationen zur Verwendung von **[!DNL Adobe Experience Manager Assets]** finden [ auf dieser Seite](../integrations/assets.md).
 
 * **[!UICONTROL Feld]** Medien hinzufügen“: Geben Sie die Medien-URL direkt ein. Sie können Personalisierungs-Token in die URL aufnehmen.
 
@@ -94,7 +94,7 @@ Nach dem Hinzufügen werden die Medien rechts neben dem Textkörper der Benachri
 
 >[!NOTE]
 >
->Wenn Sie Medienanhänge in die Push-Benachrichtigungs-Payload einbeziehen (z. B. Bilder in benutzerdefinierten Datenfeldern wie `adb_media`), muss Ihre Mobile App eine bestimmte Client-seitige Verarbeitung für die Bilder implementieren, die auf Geräten gerendert werden sollen. Ihre App muss eine [Erweiterung für den Benachrichtigungsdienst](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} implementieren, um Medieninhalte aus der Payload herunterzuladen und zu verarbeiten. Darüber hinaus muss **[!UICONTROL Option &quot;]**-Flag für veränderbaren Inhalt hinzufügen[&#x200B; im Abschnitt „Erweiterte Optionen](#advanced-options-push) aktiviert werden.
+>Wenn Sie Medienanhänge in die Push-Benachrichtigungs-Payload einbeziehen (z. B. Bilder in benutzerdefinierten Datenfeldern wie `adb_media`), muss Ihre Mobile App eine bestimmte Client-seitige Verarbeitung für die Bilder implementieren, die auf Geräten gerendert werden sollen. Ihre App muss eine [Erweiterung für den Benachrichtigungsdienst](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} implementieren, um Medieninhalte aus der Payload herunterzuladen und zu verarbeiten. Darüber hinaus muss **[!UICONTROL Option &quot;]**-Flag für veränderbaren Inhalt hinzufügen[ im Abschnitt „Erweiterte Optionen](#advanced-options-push) aktiviert werden.
 
 <!--
 >[!TAB Web]
@@ -178,6 +178,12 @@ Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Daten]**, um Schlü
 >abstract="Fügen Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzu."
 
 Im Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** können Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzufügen. Weitere Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform finden Sie in [diesem Abschnitt](push-gs.md).
+
+## Personalisieren mit Experience Decisioning {#decisioning-push}
+
+Sie können den Inhalt Ihrer Push-Benachrichtigungen mit „Experience **&quot; personalisieren und**. Mit dieser Funktion können Sie Prioritätswerte, Formeln oder KI-Modelle verwenden, um die besten Inhalte dynamisch auszuwählen und für Ihre Kunden anzuzeigen.
+
+Weitere Informationen zum Erstellen und Verwenden von Entscheidungsrichtlinien in Push-Benachrichtigungen finden Sie [diesem Abschnitt](../experience-decisioning/create-decision.md).
 
 ## Erweiterte Optionen {#advanced-options-push}
 

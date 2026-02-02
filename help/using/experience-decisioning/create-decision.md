@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 98%
+source-wordcount: '663'
+ht-degree: 73%
 
 ---
 
@@ -45,28 +45,12 @@ ht-degree: 98%
 
 Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Entscheidungs-Engine nutzen, um dynamisch die besten Inhalte für jedes Zielgruppenmitglied zurückzugeben. Ihr Ziel besteht darin, die besten Angebote für jedes Profil auszuwählen. Beim Kampagnen-/Journey-Authoring wiederum können Sie angeben, wie die ausgewählten Entscheidungselemente dargestellt werden, einschließlich der Elementattribute, die in die Nachricht aufgenommen werden sollen.
 
->[!AVAILABILITY]
->
->Derzeit stehen Entscheidungsrichtlinien allen Kundinnen und Kunden für den Kanal „Code-basierten Erlebnis“ zur Verfügung. Für den E-Mail-Kanal sind sie eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
-
-## Wichtige Schritte {#key}
-
-Die Hauptschritte zur Nutzung von Entscheidungsrichtlinien in Nachrichten lauten wie folgt:
-
-1. [Erstellen einer Entscheidungsrichtlinie](../experience-decisioning/create-decision-policy.md)
-
-   Richten Sie in Ihrer Nachricht eine Entscheidungsrichtlinie ein, indem Sie die Anzahl der zurückzugebenden Elemente auswählen und Auswahlstrategien, Fallback-Optionen und die Auswertungsreihenfolge konfigurieren.
-
-1. [Verwenden der Entscheidungsrichtlinie in Ihren Inhalten](../experience-decisioning/use-decision-policy.md)
-
-   Personalisieren Sie Ihren Inhalt mit der Ausgabe der Entscheidungsrichtlinie und den Attributen der Entscheidungselemente, die in der Nachricht angezeigt werden sollen.
-
-1. [Erstellen von Reporting-Dashboards](cja-reporting.md)
-
-   Erstellen Sie benutzerdefinierte Customer Journey Analytics-Dashboards, um die Leistung zu messen und Einblicke in die Bereitstellung und Interaktion Ihrer Entscheidungsrichtlinien und Angebote zu erhalten.
+➡️ [Funktion im Video kennenlernen](#video)
 
 ## Leitlinien und Einschränkungen
 
+* **Unterstützte Kanäle** - Entscheidungsrichtlinien sind für diese Kanäle verfügbar: Code-basierte Erlebnisse, Briefpost, E-Mail und Push-Benachrichtigungen.
+* **SDK-Anforderung für Push-Benachrichtigungen** - Experience Decisioning mit Push-Benachrichtigungen erfordert eine bestimmte Version der Mobile SDK. Bevor Sie diese Funktion implementieren, überprüfen Sie die [Versionshinweise](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}, um die erforderliche Version zu identifizieren und sicherzustellen, dass Sie das Upgrade entsprechend durchgeführt haben. Sie können auch alle verfügbaren SDK-Versionen für Ihre Plattform in [diesem Abschnitt](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"} anzeigen.
 * **E-Mail-Mirror-Seiten**: Derzeit werden Entscheidungselemente in E-Mail-Mirror-Seiten nicht gerendert.
 * **Tracking- und Link-Typ**: Zum Nachverfolgen von Links, die von der Entscheidungsfindung generiert wurden, definieren Sie sie im Schema als „Decisioning Assets“. Attributbasierte Links können nicht nachverfolgt werden.
 * **Verschachtelung von Entscheidungsrichtlinien in E-Mails**: Sie können nicht mehrere Entscheidungsrichtlinien in einer übergeordneten E-Mail-Komponente verschachteln, die bereits mit einer Entscheidungsrichtlinie verknüpft ist.
@@ -79,14 +63,30 @@ Die Hauptschritte zur Nutzung von Entscheidungsrichtlinien in Nachrichten lauten
 
 * **KI-Rangfolge**: Derzeit wird die KI-Rangfolge für den E-Mail-Kanal in Journeys mit Entscheidungsfindung nicht unterstützt.
 
-## Nächste Schritte {#next-steps}
+* **Inhaltsvorlagen** - Jede in Ihrem Inhalt konfigurierte Entscheidungsrichtlinie wird nicht in der Vorlage gespeichert. Wenn Sie die Vorlage auf eine andere Aktion anwenden, müssen Sie die Richtlinie neu konfigurieren.
 
-Nachdem Sie nun wissen, wie Entscheidungsrichtlinien funktionieren und wie sie Ihnen bei der Bereitstellung personalisierter Angebote helfen, können Sie Ihre erste Entscheidungsrichtlinie erstellen.
+## Wichtige Schritte {#key}
 
-➡️ [Informationen zum Erstellen von Entscheidungsrichtlinien](../experience-decisioning/create-decision-policy.md)
+Die Hauptschritte zur Nutzung von Entscheidungsrichtlinien in Nachrichten lauten wie folgt:
 
-## Anleitungsvideo {#video}
+1. **Erstellen einer Entscheidungsrichtlinie**
+
+   Fügen Sie Ihrer Nachricht eine Entscheidungsrichtlinie hinzu und konfigurieren Sie die Anzahl der zurückzugebenden Elemente sowie die Auswahlstrategie und die Fallback-Optionen.
+
+   ➡️ [Informationen zum Erstellen von Entscheidungsrichtlinien](../experience-decisioning/create-decision-policy.md)
+
+1. **Verwenden Sie die Entscheidungsrichtlinie in Ihrem Inhalt**
+
+   Personalisieren Sie Ihren Inhalt mit der Ausgabe der Entscheidungsrichtlinie, indem Sie die Attribute aus den Entscheidungselementen einfügen, die Sie in der Nachricht anzeigen möchten
+
+   ➡️ [Informationen zum Verwenden von Entscheidungsrichtlinien in Nachrichten](../experience-decisioning/create-decision-policy.md)
+
+## Anleitungsvideos {#video}
 
 Erfahren Sie, wie Sie mit Decisioning E-Mails für Ihre Audience personalisieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479219?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+
+Erfahren Sie, wie Sie mit Decisioning Push-Benachrichtigungen für Ihre Zielgruppe personalisieren können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
