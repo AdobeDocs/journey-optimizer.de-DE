@@ -7,9 +7,9 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '722'
 ht-degree: 11%
 
 ---
@@ -20,7 +20,7 @@ Nachdem Sie Ihrem Inhalt eine Entscheidungsrichtlinie hinzugefügt haben, könne
 
 >[!CAUTION]
 >
->Entscheidungsrichtlinien stehen allen Kunden für die Kanäle **Code-basiertes Erlebnis** und **Push-Benachrichtigung** zur Verfügung.
+>Entscheidungsrichtlinien stehen allen Kundinnen und Kunden für die Kanäle **Code-basiertes Erlebnis**, **SMS** und **Push** zur Verfügung.
 >
 >Die Entscheidungsfindung für den E-Mail-Kanal ist in begrenzter Verfügbarkeit verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern. Weitere Informationen zu [Verfügbarkeitskennzeichnungen](../rn/releases.md#availability-labels).
 
@@ -56,6 +56,14 @@ Nachdem Sie Ihrem Inhalt eine Entscheidungsrichtlinie hinzugefügt haben, könne
 
    ![](assets/decision-policy-placement.png)
 
+>[!TAB SMS]
+
+1. Öffnen Sie den **Personalization** Editor und navigieren Sie zu **[!UICONTROL Entscheidungsrichtlinien]**.
+
+2. Wählen Sie **[!UICONTROL Syntax einfügen]**, um den Code für Ihre Entscheidungsrichtlinie hinzuzufügen.
+
+   ![](assets/decision-policy-add-sms-insert-syntax.png)
+
 >[!TAB Push-Benachrichtigung]
 
 1. Öffnen Sie den **Personalization** Editor und navigieren Sie zu **[!UICONTROL Entscheidungsrichtlinien]**.
@@ -74,13 +82,13 @@ Der Entscheidungsrichtlinien-Code wird hinzugefügt. Sie können jetzt Attribute
 
 >[!NOTE]
 >
->Wiederholen Sie diese Sequenz für Code-basierte Erlebnis- und E-Mail-Kanäle einmal pro Entscheidungselement, das Sie zurückgeben möchten. Wenn Sie beispielsweise beim Erstellen der Entscheidung zwei Elemente zurückgeben [, wiederholen &#x200B;](create-decision-policy.md) die Sequenz zweimal. Für den Push-Kanal kann nur ein Entscheidungselement zurückgegeben werden.
+>Wiederholen Sie diese Sequenz für Code-basierte Erlebnis- und E-Mail-Kanäle einmal pro Entscheidungselement, das Sie zurückgeben möchten. Wenn Sie beispielsweise beim Erstellen der Entscheidung zwei Elemente zurückgeben [, wiederholen ](create-decision-policy.md) die Sequenz zweimal. Bei SMS- und Push-Kanälen kann nur ein Entscheidungselement zurückgegeben werden.
 
 ## Mit Entscheidungselementattributen personalisieren {#attributes}
 
-Nachdem Sie den Code für eine Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, werden alle Attribute aus den zurückgegebenen Entscheidungselementen für die Personalisierung verfügbar. [Erfahren Sie, wie Sie mit Personalisierung &#x200B;](../personalization/personalize.md).
+Nachdem Sie den Code für eine Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, werden alle Attribute aus den zurückgegebenen Entscheidungselementen für die Personalisierung verfügbar. [Erfahren Sie, wie Sie mit Personalisierung ](../personalization/personalize.md).
 
-Attribute werden im „Angebote“ ([) &#x200B;](catalogs.md). Sie werden im Personalisierungseditor in den folgenden Ordnern angezeigt:
+Attribute werden im „Angebote“ ([) ](catalogs.md). Sie werden im Personalisierungseditor in den folgenden Ordnern angezeigt:
 * **Benutzerdefinierte Attribute**: `_\<imsOrg\>` Ordner
 * **Standardattribute**: `_experience` Ordner
 
@@ -98,10 +106,16 @@ Um ein Attribut hinzuzufügen, klicken Sie auf das **`+`** neben dem Attribut. S
 
   +++
 
-* Für den **Push**-Kanal müssen Sie Attribute nach dem Syntaxcode für die Entscheidungsrichtlinie einfügen. Diese Syntax sollte immer in Zeile 1 beibehalten werden.
+* Stellen Sie bei **SMS**- und **Push**-Kanälen sicher, dass Sie Attribute nach dem Syntaxcode für die Entscheidungsrichtlinie einfügen. Diese Syntax sollte immer in Zeile 1 beibehalten werden.
+
+  +++Siehe Beispiel
+
+  ![](assets/decision-added-sms.png)
+
+  +++
 
   >[!NOTE]
-  >Wenn Sie ein Bild-Asset-Attribut in Push-Inhalt einfügen (z. B. in den Titel oder Hauptteil), wird der Attributwert als URL angezeigt. Das Bild selbst wird in diesen Feldern nicht gerendert.
+  >Wenn Sie ein Bild-Asset-Attribut in SMS- oder Push-Inhalt einfügen (z. B. in den Titel oder Hauptteil), wird der Attributwert als URL angezeigt. Das Bild selbst wird in diesen Feldern nicht gerendert.
 
 * Um die Entscheidungselement-Nachverfolgung zu aktivieren, fügen Sie das `trackingToken` Attribut hinzu: `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 

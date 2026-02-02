@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 71%
+source-wordcount: '2108'
+ht-degree: 68%
 
 ---
 
@@ -43,7 +43,7 @@ Um Ihren Kundinnen und Kunden das beste dynamische Angebot und Erlebnis zu biete
 
 >[!AVAILABILITY]
 >
->Entscheidungsrichtlinien stehen allen Kunden für die Kanäle **Code-basiertes Erlebnis** und **Push-Benachrichtigung** zur Verfügung.
+>Entscheidungsrichtlinien stehen allen Kunden für die Kanäle **Code-basiertes Erlebnis**, **Push-Benachrichtigung** und SMS zur Verfügung.
 >
 >Die Entscheidungsfindung für den E-Mail-Kanal ist in begrenzter Verfügbarkeit verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern. Weitere Informationen zu [Verfügbarkeitskennzeichnungen](../rn/releases.md#availability-labels).
 
@@ -114,6 +114,27 @@ Bei Code-basierten Erlebnissen können Sie eine neue Entscheidungsrichtlinie ent
    >[!NOTE]
    >
    >Wählen Sie **[!UICONTROL Entscheidungsausgabe wiederverwenden]** aus, um eine Entscheidungsrichtlinie wiederzuverwenden, die bereits in dieser E-Mail erstellt wurde.
+
+>[!TAB SMS]
+
+Für SMS können Sie eine neue Entscheidungsrichtlinie entweder über den **Personalisierungseditor** oder das Menü **Decisioning** im Eigenschaftenbereich hinzufügen.
+
++++Hinzufügen einer Entscheidungsrichtlinie aus dem Personalisierungseditor
+
+1. Öffnen Sie den Personalisierungseditor mithilfe des ![](assets/do-no-localize/editor-icon.svg).
+1. Navigieren Sie zum Menü **[!UICONTROL Entscheidungsrichtlinien]** und klicken Sie auf die Schaltfläche **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
+
+   ![](assets/decision-policy-add-sms-editor.png)
+
++++
+
++++Hinzufügen einer Entscheidungsrichtlinie über das Menü Entscheidungsfindung .
+
+1. Klicken Sie auf das Symbol ![](assets/do-no-localize/decisioning-icon.png) im Bereich Eigenschaften , um auf das Menü **[!UICONTROL Entscheidung]** zuzugreifen.
+
+1. Klicken Sie auf die **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
+
+   ![](assets/decision-policy-add-sms.png)
 
 >[!TAB Push-Benachrichtigung]
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 98%
+source-wordcount: '1178'
+ht-degree: 93%
 
 ---
 
@@ -136,6 +136,12 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
    > Die Lebensdauer kurzer URLs ist auf 30 Tage festgelegt. Nach diesem Zeitraum sind diese kurzen URLs nicht mehr zugänglich und zeigen die folgende Meldung an: `404 short-code not found`.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. Sie können nun den Inhalt Ihrer Nachricht testen und überprüfen, wie in [diesem Abschnitt](#sms-mms-test) beschrieben.
+
+## Personalisieren mit Experience Decisioning {#decisioning-sms}
+
+Sie können den Inhalt Ihrer SMS-Nachrichten mit „Experience **&quot; personalisieren und**. Mit dieser Funktion können Sie Prioritätswerte, Formeln oder KI-Modelle verwenden, um die besten Inhalte dynamisch auszuwählen und für Ihre Kunden anzuzeigen.
+
+Weiterführende Informationen zur Erstellung und Verwendung von Entscheidungsrichtlinien in SMS-Nachrichten finden Sie [diesem Abschnitt](../experience-decisioning/create-decision.md).
 
 ## Definieren Ihrer MMS-Inhalte{#mms-content}
 
