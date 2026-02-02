@@ -89,4 +89,4 @@ Nachdem Sie nun wissen, wie Entscheidungsrichtlinien funktionieren und wie sie I
 
 Erfahren Sie, wie Sie mit Decisioning E-Mails für Ihre Audience personalisieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479219?captions=ger&quality=12)
