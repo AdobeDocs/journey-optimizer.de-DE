@@ -45,4 +45,4 @@ Die wichtigsten Schritte zum Senden von Briefpostnachrichten sind:
 
 Erfahren Sie, wie Sie den Briefpost-Kanal in Adobe Journey Optimizer nutzen können, um Briefpost-Sendungen in Ihren Journey zu automatisieren und zu planen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479171?captions=ger&quality=12)
