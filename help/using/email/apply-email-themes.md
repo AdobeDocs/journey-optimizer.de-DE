@@ -170,7 +170,7 @@ Gehen Sie wie folgt vor, um standardmäßige oder benutzerdefinierte Stil-Design
    >
    >Diese Aktion kann nicht für Inhaltskomponenten ausgeführt werden.
 
-   Wählen Sie hierzu eine Strukturkomponente aus, klicken Sie auf der Registerkarte **[!UICONTROL Stile]** rechts auf die Option ]**Variante eines bestimmten Designs verwenden**[!UICONTROL  und wenden Sie die gewünschte Variante auf diese Struktur an.
+   Wählen Sie hierzu eine Strukturkomponente aus, klicken Sie auf der Registerkarte **[!UICONTROL Stile]** rechts auf die Option **Variante eines bestimmten Designs verwenden** und wenden Sie die gewünschte Variante auf diese Struktur an.
 
    ![](assets/theme-structure-variant.png)
 
