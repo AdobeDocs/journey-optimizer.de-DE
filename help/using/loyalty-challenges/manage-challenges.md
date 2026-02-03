@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,6 @@ Challenges durchlaufen verschiedene Status:
 * **Angehalten**: Vor Abschluss manuell angehalten
 * **Archiviert**: Für Organisationszwecke archiviert
 
-Detaillierte Informationen zu den einzelnen Status und zur Verwaltung von Herausforderungen finden Sie in der [Hauptdokumentation](loyalty-challenges.md#manage-challenges).
-
 ## Herausforderungen bearbeiten {#edit-challenges}
 
 Herausforderungen können je nach ihrem aktuellen Status bearbeitet werden:
@@ -60,8 +58,6 @@ Herausforderungen können je nach ihrem aktuellen Status bearbeitet werden:
 
 Für Änderungen, die größere Änderungen erfordern, duplizieren Sie die Herausforderung und erstellen Sie eine neue Version.
 
-Detaillierte Bearbeitungsrichtlinien finden Sie [Hauptdokumentation](loyalty-challenges.md#edit-challenges) .
-
 ## Herausforderungen duplizieren {#duplicate-challenges}
 
 Herausforderungen duplizieren an:
@@ -69,8 +65,6 @@ Herausforderungen duplizieren an:
 * Varianten für verschiedene Audiences erstellen
 * Aufgabenanforderungen oder Belohnungen aktualisieren
 * Reaktivieren gestoppter oder abgeschlossener Herausforderungen
-
-Ausführliche Anweisungen finden Sie [Hauptdokumentation](loyalty-challenges.md#duplicate-challenge) .
 
 ## Überwachen der Leistung {#monitor-performance}
 
@@ -82,8 +76,6 @@ Challenge-Performance verfolgen durch:
 * **Interaktionsmetriken**: Impressionen von Inhaltskarten, Nachrichtenversand
 
 Greifen Sie auf Leistungsdaten in der Registerkarte „Challenge Performance“ und auf die automatisch generierten Journey-Berichte zu.
-
-Detaillierte Metriken und Berichte finden [&#x200B; in der &#x200B;](loyalty-challenges.md#monitor-performance)Hauptdokumentation).
 
 ## Best Practices {#best-practices}
 
@@ -101,8 +93,6 @@ Detaillierte Metriken und Berichte finden [&#x200B; in der &#x200B;](loyalty-cha
 * Anwenden konsistenter Tags für die Organisation
 * Archivieren Sie abgeschlossene Herausforderungen, um das Inventar verwaltbar zu halten
 
-Umfassende Best Practices finden Sie in [Hauptdokumentation](loyalty-challenges.md#best-practices) .
-
 ## Fehlerbehebung {#troubleshooting}
 
 Häufige Probleme und Lösungen:
@@ -111,8 +101,6 @@ Häufige Probleme und Lösungen:
 * **Niedrige Teilnahmeraten**: Überprüfen der Content-Sichtbarkeit, der Messaging-Klarheit, der Aufgabenerreichbarkeit
 * **Aufgaben werden nicht ausgelöst**: Datenaufnahme, Ereignisattribute, Zielgruppeneignung überprüfen
 * **Belohnungen werden nicht zugewiesen**: Konfiguration und externe Systemverbindung bestätigen
-
-Detaillierte Anleitungen zur Fehlerbehebung finden Sie [Hauptdokumentation](loyalty-challenges.md#troubleshooting) .
 
 ## Nächste Schritte {#next-steps}
 
