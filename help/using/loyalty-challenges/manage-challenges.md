@@ -83,21 +83,13 @@ Challenge-Performance verfolgen durch:
 
 Greifen Sie auf Leistungsdaten in der Registerkarte „Challenge Performance“ und auf die automatisch generierten Journey-Berichte zu.
 
-Detaillierte Metriken und Berichte finden [ in der ](loyalty-challenges.md#monitor-performance)Hauptdokumentation).
+Detaillierte Metriken und Berichte finden [&#x200B; in der &#x200B;](loyalty-challenges.md#monitor-performance)Hauptdokumentation).
 
 ## Best Practices {#best-practices}
 
-### Challenge-Erstellung
-* Einfach für die erste Herausforderung
-* Vor der Veröffentlichung in der Produktion gründlich testen
-* Sicherstellen einer klaren Kommunikation über Anforderungen und Belohnungen
-* Festlegen eines realistischen Zeitplans, der es Kunden ermöglicht, Herausforderungen zu meistern
+### Challenge-Erstellung* Einfach für die erste Herausforderung* Vor der Veröffentlichung in der Produktion gründlich testen* Sicherstellen einer klaren Kommunikation über Anforderungen und Belohnungen* Festlegen eines realistischen Zeitplans, der es Kunden ermöglicht, Herausforderungen zu meistern
 
-### Verwaltung und Überwachung
-* Challenge-Performance regelmäßig überprüfen (mindestens wöchentlich für Live-Challenges)
-* Verwenden Sie beschreibende Namen, die den Zweck, die Zielgruppe oder den Zeitraum angeben
-* Anwenden konsistenter Tags für die Organisation
-* Archivieren Sie abgeschlossene Herausforderungen, um das Inventar verwaltbar zu halten
+### Verwaltung und Überwachung* Challenge-Performance regelmäßig überprüfen (mindestens wöchentlich für Live-Challenges)* Verwenden Sie beschreibende Namen, die den Zweck, die Zielgruppe oder den Zeitraum angeben* Anwenden konsistenter Tags für die Organisation* Archivieren Sie abgeschlossene Herausforderungen, um das Inventar verwaltbar zu halten
 
 Umfassende Best Practices finden Sie in [Hauptdokumentation](loyalty-challenges.md#best-practices) .
 
