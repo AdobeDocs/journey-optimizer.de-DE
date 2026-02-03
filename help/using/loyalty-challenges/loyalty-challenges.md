@@ -198,7 +198,7 @@ So erstellen Sie eine neue Herausforderung für das Treueprogramm:
 
 Informationen zum Erstellen oder Verfeinern von Zielgruppen finden Sie unter [Erstellen von Zielgruppen in Journey Optimizer](../audience/about-audiences.md).
 
-4. Wählen Sie **[!UICONTROL Als Entwurf speichern]**, um mit der Konfiguration Ihrer Challenge fortzufahren.
+&#x200B;4. Wählen Sie **[!UICONTROL Als Entwurf speichern]**, um mit der Konfiguration Ihrer Challenge fortzufahren.
 
 ## Aufgaben erstellen {#create-tasks}
 
@@ -548,7 +548,7 @@ Wenn Sie eine Challenge mit konfigurierten Inhalten und Nachrichten speichern, g
 
 So zeigen Sie die automatisch generierte Journey an:
 
-1. Navigieren Sie im linken Navigationsmenü **** Journey.
+1. Navigieren Sie im linken Navigationsmenü **&#x200B;**&#x200B;Journey.
 
 2. Suchen Sie nach der Journey anhand des Challenge-Namens oder filtern Sie nach Tags, wenn Sie sie zugewiesen haben.
 
