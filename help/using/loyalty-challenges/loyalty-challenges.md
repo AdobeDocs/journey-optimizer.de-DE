@@ -452,6 +452,7 @@ Wählen Sie aus, wann Kunden Belohnungen erhalten:
 
 * Anzahl der Punkte eingeben (z. B. 100)
 * Punkte werden über eine API an Ihr externes Treueprogramm-Management-System übermittelt.
+
 ## Konfigurieren von Inhaltskarten {#configure-content-cards}
 
 Inhaltskarten sind die primäre Methode, mit der Kunden Herausforderungen auf ihren Geräten angezeigt werden. Für die Challenge müssen Sie eine Inhaltskarte konfigurieren.
@@ -575,7 +576,7 @@ Wenn Sie eine Challenge mit konfigurierten Inhalten und Nachrichten speichern, g
 
 So zeigen Sie die automatisch generierte Journey an:
 
-1. Navigieren Sie im linken Navigationsmenü **** Journey.
+1. Navigieren Sie im linken Navigationsmenü **&#x200B;**&#x200B;Journey.
 
 2. Suchen Sie nach der Journey anhand des Challenge-Namens oder filtern Sie nach Tags, wenn Sie sie zugewiesen haben.
 
