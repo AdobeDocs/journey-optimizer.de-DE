@@ -82,7 +82,7 @@ Journey Agent umfasst zwei Kenntnisse im KI-Assistenten: Analysieren und Erstell
 
 #### Journey Analyze Skill {#journey-analyze-skill}
 
-Der [Journey Analyze Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} unterstützt Sie durch eine Analyse in natürlicher Sprache bei der Optimierung der Journey-Leistung:
+Der [Journey Analyze Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} unterstützt Sie durch eine Analyse in natürlicher Sprache bei der Optimierung der Journey-Leistung:
 
 +++**Wichtige Funktionen**
 
@@ -105,7 +105,7 @@ Der [Journey Analyze Agent](https://experienceleague.adobe.com/en/docs/experienc
 
 #### Journey Create SKILL {#journey-create-skill}
 
-Mit dem [Journey Create Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
+Mit dem [Journey Create Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
 
 +++**Wichtige Funktionen**
 
