@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey-Bericht
+title: Überwachen benutzerdefinierter Aktionen
 description: Informationen zum Verwenden von Daten aus dem Journey-Bericht
 feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
+source-git-commit: cccaf1a2001be705728c316e2cd67e9178267b9a
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '622'
+ht-degree: 67%
 
 ---
 
@@ -22,10 +22,6 @@ ht-degree: 100%
 >title="Überwachen benutzerdefinierter Aktionen"
 >abstract="Auf der Reporting-Seite **[!UICONTROL Benutzerdefinierte Aktion]** können Sie die Leistung und Zuverlässigkeit von API-Aufrufen nachverfolgen, die Ihre Journeys an Drittanbietersysteme senden."
 
->[!AVAILABILITY]
->
->Reporting für benutzerdefinierte Aktionen ist derzeit nur für eine Reihe bestimmter Organisationen verfügbar (eingeschränkte Verfügbarkeit). 
-
 Auf der Reporting-Seite **[!UICONTROL Benutzerdefinierte Aktion]** können Sie die Zuverlässigkeit und Leistung von API-Aufrufen von Ihren Journeys an Drittanbietersysteme überwachen. Diese Berichte helfen Ihnen dabei, Integrationsprobleme, Latenzengpässe oder Drosselungs-/Begrenzungs-Limits, die sich auf den Versand auswirken können, schnell zu identifizieren.
 
 Die Reporting-Seite „Benutzerdefinierte Aktion“ funktioniert wie andere Berichte für die gesamte Zeit in Journey Optimizer. Weitere Informationen zu den Dashboard-Funktionen finden Sie [in dieser Dokumentation](../reports/report-cja-manage.md).
@@ -34,7 +30,7 @@ Um auf die Reporting-Seite **[!UICONTROL Benutzerdefinierte Aktion]** zuzugreife
 
 ![](assets/monitor-1.png)
 
-➡️ [Weitere Informationen zur Konfiguration benutzerdefinierter Aktionen](../action/about-custom-action-configuration.md)
+➡️ [Erfahren Sie mehr über die Konfiguration benutzerdefinierter Aktionen](../action/about-custom-action-configuration.md)
 
 Zusätzlich zur Reporting-Seite **[!UICONTROL Benutzerdefinierte Aktion]** können Sie **[!DNL Adobe Experience Platform Query Service]** verwenden, um Abfragen für Berichte zu Leistungsmetriken benutzerdefinierter Aktionen zu erstellen. Weitere Anwendungsbeispiele finden Sie in [diesem Abschnitt](../reports/query-examples.md).
 
@@ -56,19 +52,34 @@ Die Key Performance Indicators (KPIs) für **[!UICONTROL benutzerdefinierte Akti
 
 * **[!UICONTROL Durchschnittliche RPS]**: Anzahl der Anfragen pro Sekunde, die von der benutzerdefinierten Aktion über den ausgewählten Zeitraum verarbeitet wurden.
 
+* **[!UICONTROL Durchschnittliche Latenz]**: Durchschnittliche End-to-End-Antwortzeit (in Millisekunden) für alle HTTP-Aufrufe, einschließlich erfolgreicher Aufrufe, Fehler und Zeitüberschreitungen.
+
+* **[!UICONTROL Durchschnittliche erfolgreiche Latenz]**: Durchschnittliche End-to-End-Antwortzeit (in Millisekunden) nur für erfolgreiche Aufrufe, ohne fehlgeschlagene Anfragen und Zeitüberschreitungen.
+
+* **[!UICONTROL Durchschnittliche Warteschlangenzeit]**: Durchschnittliche Zeit (in Millisekunden), die Aufrufe in der Ausführungswarteschlange vor dem Senden verbracht haben. Dies gilt nur für gedrosselte Endpunkte, bei denen Journey Optimizer Aufrufe in die Warteschlange stellt, wenn das Durchsatzlimit erreicht ist.
+
 +++
 
-## Aufrufe im Zeitverlauf {#calls}
+## Anrufe im Zeitablauf {#calls}
 
 ![](assets/monitor-3.png)
 
-Das Diagramm **[!UICONTROL Aufrufe im Zeitverlauf]** zeigt den KPI-Trend der HTTP-Aufrufe über im Bericht ausgewählten Zeitraum an. Die Granularität der Zeitreihe hängt vom ausgewählten Zeitbereich ab. Beispiel:
+Das **[!UICONTROL Aufrufe im Zeitverlauf]** zeigt den KPI-Trend der HTTP-Aufrufe über den für den Bericht ausgewählten Zeitraum an. Die Granularität der Zeitreihe hängt vom ausgewählten Zeitbereich ab. Beispiel:
 
 * Bei einem siebentägigen Bericht zeigt jeder Datenpunkt die KPIs für einen Tag an.
 * Wenn Sie einen Zeitraum von 1 Tag auswählen, zeigt das Diagramm die KPIs pro Stunde an.
 * Wenn Sie einen Zeitbereich von 1 Stunde auswählen, zeigt das Diagramm die KPIs pro Minute an.
 
 ➡️[Eine Beschreibung der Metriken für HTTP-Aufrufe finden Sie im Abschnitt zu KPIs](#kpis)
+
+## Latenz im Zeitverlauf {#latency-overtime}
+
+![](assets/monitor-6.png)
+
+Das **[!UICONTROL Latenz im Zeitverlauf]** Diagramm visualisiert den Trend der Latenzmetriken über den ausgewählten Zeitraum. Diese Zeitreihenansicht ermöglicht es Ihnen, Leistungsmuster zu verfolgen, Spitzenlatenzzeiten zu identifizieren und die Auswirkungen von Optimierungen oder Systemänderungen im Laufe der Zeit zu überwachen.
+
+➡️[Im Abschnitt KPIs finden Sie eine Beschreibung der Latenzmetriken](#kpis)
+
 
 ## Aufschlüsselung der Aufrufe {#breakdown}
 
@@ -78,4 +89,11 @@ Die Tabelle **[!UICONTROL Aufschlüsselung der Aufrufe]** bietet eine hierarchis
 
 ➡️[Eine Beschreibung der Metriken für HTTP-Aufrufe finden Sie im Abschnitt zu KPIs](#kpis)
 
+## Latenzaufschlüsselung {#latency-breakdown}
+
+![](assets/monitor-5.png)
+
+Die **[!UICONTROL Latenzaufschlüsselung]** Tabelle bietet eine detaillierte Aufschlüsselung der Latenzmetriken für Ihre benutzerdefinierten Aktionen. In dieser Ansicht können Sie ermitteln, bei welchen Endpunkten oder Aktionen Leistungsprobleme auftreten, sodass Sie Latenzengpässe effektiv ermitteln und beheben können.
+
+➡️[Im Abschnitt KPIs finden Sie eine Beschreibung der Latenzmetriken](#kpis)
 
