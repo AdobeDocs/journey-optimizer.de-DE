@@ -3,15 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Herausforderungen bezüglich der Treue
 description: Erfahren Sie, wie Sie in Adobe Journey Optimizer Herausforderungen im Zusammenhang mit dem Treueprogramm erstellen und verwalten, um ansprechende Treueprogramme zu erstellen.
-feature: Loyalty challenges
-topic: Journeys
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 version: Journey Orchestration
-source-git-commit: b68c2610cbaaa8dbd86deb677562185e08d517ea
+source-git-commit: ef8f7754b689491bb052023ffbef0c8400dd79fe
 workflow-type: tm+mt
 source-wordcount: '5146'
 ht-degree: 1%
@@ -117,7 +115,7 @@ Bevor Sie Herausforderungen im Zusammenhang mit dem Treueprogramm nutzen, stelle
 
   Detaillierte Anweisungen finden Sie unter:
 
-   * [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+   * [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Konfigurieren von Quell-Connectoren in Journey Optimizer](../start/get-started-sources.md)
 
 * Erforderliche Berechtigungen {#required-permissions}
@@ -576,7 +574,7 @@ Wenn Sie eine Challenge mit konfigurierten Inhalten und Nachrichten speichern, g
 
 So zeigen Sie die automatisch generierte Journey an:
 
-1. Navigieren Sie im linken Navigationsmenü **&#x200B;**&#x200B;Journey.
+1. Navigieren Sie im linken Navigationsmenü **** Journey.
 
 2. Suchen Sie nach der Journey anhand des Challenge-Namens oder filtern Sie nach Tags, wenn Sie sie zugewiesen haben.
 
@@ -1068,5 +1066,5 @@ Während der Beta-Phase ist Ihr Feedback nützlich, um uns bei der Verbesserung 
 * [Push-Benachrichtigungen erstellen](../push/create-push.md)
 * [Journey erstellen](../building-journeys/journey-gs.md)
 * [Journey überwachen](../building-journeys/report-journey.md)
-* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Konfigurieren von Quell-Connectoren in Journey Optimizer](../start/get-started-sources.md)
