@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 version: Journey Orchestration
-source-git-commit: 48ccfc4047251fa97777d3fb2f160c33797a113e
+source-git-commit: b68c2610cbaaa8dbd86deb677562185e08d517ea
 workflow-type: tm+mt
 source-wordcount: '5146'
 ht-degree: 1%
@@ -117,7 +117,7 @@ Bevor Sie Herausforderungen im Zusammenhang mit dem Treueprogramm nutzen, stelle
 
   Detaillierte Anweisungen finden Sie unter:
 
-   * [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+   * [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Konfigurieren von Quell-Connectoren in Journey Optimizer](../start/get-started-sources.md)
 
 * Erforderliche Berechtigungen {#required-permissions}
@@ -576,7 +576,7 @@ Wenn Sie eine Challenge mit konfigurierten Inhalten und Nachrichten speichern, g
 
 So zeigen Sie die automatisch generierte Journey an:
 
-1. Navigieren Sie im linken Navigationsmenü **&#x200B;**&#x200B;Journey.
+1. Navigieren Sie im linken Navigationsmenü **** Journey.
 
 2. Suchen Sie nach der Journey anhand des Challenge-Namens oder filtern Sie nach Tags, wenn Sie sie zugewiesen haben.
 
@@ -1068,5 +1068,5 @@ Während der Beta-Phase ist Ihr Feedback nützlich, um uns bei der Verbesserung 
 * [Push-Benachrichtigungen erstellen](../push/create-push.md)
 * [Journey erstellen](../building-journeys/journey-gs.md)
 * [Journey überwachen](../building-journeys/report-journey.md)
-* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Konfigurieren von Quell-Connectoren in Journey Optimizer](../start/get-started-sources.md)
