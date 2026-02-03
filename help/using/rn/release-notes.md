@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1862'
 ht-degree: 23%
 
 ---
@@ -35,7 +35,7 @@ Die Abschnitte [Funktionen](#jan-26-01-features) und [Verbesserungen](#jan-26-01
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Neue Funktionen {#jan-26-01-features}
 
@@ -214,9 +214,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **KI-Assistent für Inhaltsqualitätsprüfungen** - Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um potenzielle Probleme mit <strong>Lesbarkeit</strong>, Kohärenz und Effektivität unabhängig von Ihren Markenrichtlinien aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung unklarer Botschaften, inkonsistenter Tonwerte oder struktureller Lücken. [Weitere Informationen](../content-management/brands-score.md#validate-quality).
 
-  [Entdecken Sie diese Funktion im Video](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on).
-
-#### Experience Decisioning
+  [Entdecken Sie diese Funktion im Video](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Journeys
 
@@ -277,6 +275,12 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * **Selbstvalidierung für Journey und Kampagnen verhindern** - Beim Erstellen oder Festlegen von <strong>Validierungsrichtlinie) wurde eine Option hinzugefügt, </strong> Journey- oder Kampagnenerstellende daran zu hindern, <strong>eigene Objekte zu genehmigen</strong>. [Weitere Informationen](../test-approve/approval-policies.md)
 
   Verfügbarkeit: 27. Januar 2026.
+
+#### SMS
+
+* **SMS-Webhooks** - Webhooks werden jetzt von allen SMS-Anbietern unterstützt. Sie können jeden Webhook für einen bestimmten Zweck, eingehende Webhooks zum Erfassen eingehender Nachrichten und Feedback-Webhooks konfigurieren, um Versandbestätigungen, Statusaktualisierungen und andere nachrichtenbezogene Ereignisse zu erhalten. [Weitere Informationen](../sms/sms-webhook.md)
+
+  Verfügbarkeit: 2. Februar 2026.
 
 ## Demnächst {#jan-26-01-coming-soon}
 

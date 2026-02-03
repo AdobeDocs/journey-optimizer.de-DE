@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 9b7e10643aaa4cd6c82e0355c45fa810352f21c0
-workflow-type: ht
-source-wordcount: '1400'
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+workflow-type: tm+mt
+source-wordcount: '818'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Diese Funktion ermöglicht es Ihnen, Ihre eigenen Messaging-Anbieter zu integrie
 Gehen Sie wie folgt vor, um Ihren benutzerdefinierten Anbieter zu konfigurieren:
 
 1. [Erstellen von API-Anmeldedaten](#api-credential)
-1. [Erstellen eines Webhook](#webhook)
+1. [Erstellen eines Webhook](sms-webhook.md)
 1. [Erstellen einer Kanalkonfiguration](sms-configuration-surface.md)
 1. [Erstellen einer Journey oder Kampagne mit der SMS-Kanalaktion](create-sms.md)
 
@@ -163,117 +163,6 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt haben, füllen Sie die Felder aus, di
 ![](assets/sms-byop-jwt.png)
 
 >[!ENDTABS]
-
-## Erstellen eines Webhook {#webhook}
-
->[!BEGINSHADEBOX]
-
-Wenn keine Opt-in- oder Opt-out-Keywords angegeben werden, werden standardmäßige Einverständnisnachrichten verwendet, um den Datenschutz der Benutzenden zu berücksichtigen. Durch das Hinzufügen benutzerdefinierter Keywords werden die Standardwerte automatisch überschrieben.
-
-**Standard-Keywords:**
-
-* **Opt-in**: SUBSCRIBE, YES, UNSTOP, START, CONTINUE, RESUME, BEGIN
-* **Opt-out**: STOP, QUIT, CANCEL, END, UNSUBSCRIBE, NO
-* **Hilfe**: HELP.
-
->[!ENDSHADEBOX]
-
-Nachdem Ihre API-Anmeldedaten erfolgreich erstellt wurden, können Sie jetzt Webhooks konfigurieren, um eingehende Antworten für die Verwaltung des Opt-in- und Opt-out-Einverständnisses zu erfassen und Versandberichte einschließlich Lesebestätigungen (sofern verfügbar) zu erhalten.
-
-Beim Einrichten eines Webhooks können Sie seinen Zweck basierend auf dem Typ der Daten definieren, die Sie erfassen möchten:
-
-* **[!UICONTROL Eingehend]**: Verwenden Sie diese Option, wenn Sie Einverständnisantworten wie Opt-ins oder Opt-outs und Benutzereinstellungen erfassen möchten.
-
-* **[!UICONTROL Feedback]**: Wählen Sie diese Option aus, um Versand- und Interaktionsereignisse einschließlich Lesebestätigungen und Benutzerinteraktionen zu verfolgen, um Reporting und Analysen zu unterstützen.
-
->[!BEGINTABS]
-
->[!TAB Eingehend]
-
-1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL SMS-Webhooks]** unter **[!UICONTROL SMS-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
-
-   ![](assets/sms_byo_5.png)
-
-1. Konfigurieren Sie Ihre Webhook-Einstellungen wie unten beschrieben:
-
-   * **[!UICONTROL Name]**: Geben Sie einen Namen für Ihren Webhook ein.
-
-   * **[!UICONTROL SMS-Anbieter auswählen]**: Benutzerdefiniert.
-
-   * **[!UICONTROL Typ]**: Eingehend.
-
-   * **[!UICONTROL API-Anmeldedaten]**: Wählen Sie aus der Dropdown-Liste die [zuvor konfigurierten API-Anmeldedaten](#api-credential) aus.
-
-   * **[!UICONTROL Absendertelefonnummer]**: Geben Sie die Telefonnummer der Absenderin bzw. des Absenders ein, die Sie für Ihre Nachrichten verwenden möchten.
-
-     ![](assets/webhook-inbound.png)
-
-1. Klicken Sie auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um Ihre Keyword-Kategorien hinzuzufügen, und konfigurieren Sie sie dann wie folgt:
-
-   * **[!UICONTROL Kategorie für eingehende Keywords]**: Wählen Sie für Ihre Keyword-Kategorien entweder **[!UICONTROL Opt-in]**, **[!UICONTROL Opt-out]**, **[!UICONTROL Double-Opt-in]**, **[!UICONTROL Hilfe]** oder **[!UICONTROL Benutzerdefiniert]**.
-
-   * **[!UICONTROL Keyword eingeben]**: Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, durch die Ihre Nachricht automatisch ausgelöst wird. Klicken Sie auf ![](assets/do-not-localize/Smock_Add_18_N.svg), um mehrere Keywords hinzuzufügen.
-
-     Verwenden Sie für **[!UICONTROL Benutzerdefiniertes Keyword]** nicht einverständnisbezogene Keywords für Batch-basierte Aktionen innerhalb einer Journey.
-
-   * **[!UICONTROL Antwortnachricht]**: Wählen Sie aus der Dropdown-Liste die benutzerdefinierte Antwort aus, die automatisch gesendet wird.
-
-   ![](assets/sms_byo_6.png)
-
-1. Klicken Sie auf **[!UICONTROL Payload-Editor anzeigen]**, um Ihre Anfrage-Payloads zu validieren und anzupassen.
-
-   Sie können Ihre Payload mithilfe von Profilattributen dynamisch personalisieren und mithilfe integrierter Hilfsfunktionen sicherstellen, dass genaue Daten zur Verarbeitung und Antworterstellung gesendet werden.
-
-1. Wenn Sie die Konfiguration Ihres Webhook abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
-
-1. Klicken Sie im Menü **[!UICONTROL Webhooks]** auf ![Papierkorbsymbol](assets/do-not-localize/Smock_Delete_18_N.svg), um Ihren Webhook zu löschen.
-
-1. Um vorhandene Konfigurationen zu ändern, suchen Sie den gewünschten Webhook und klicken Sie auf die Option **[!UICONTROL Bearbeiten]**, um die erforderlichen Änderungen vorzunehmen.
-
-1. Greifen Sie über Ihren zuvor gesendeten **[!UICONTROL Webhook]** auf Ihre neue **[!UICONTROL Webhook-URL]** zu und kopieren Sie sie.
-
-   ![](assets/sms_byo_7.png)
-
-Nachdem Sie die Einstellungen für „eingehend“ für den Webhook erstellt und konfiguriert haben, müssen Sie jetzt eine [Kanalkonfiguration](sms-configuration-surface.md) für SMS-Nachrichten erstellen. 
-
-Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenerstellung, Personalisierung, Linktracking und Reporting nutzen.
-
->[!TAB Feedback]
-
-1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** `>` **[!UICONTROL Kanäle]**, wählen Sie das Menü **[!UICONTROL SMS-Webhooks]** unter **[!UICONTROL SMS-Einstellungen]** aus und klicken Sie auf die Schaltfläche **[!UICONTROL Webhook erstellen]**.
-
-   ![](assets/sms_byo_5.png)
-
-1. Konfigurieren Sie Ihre Webhook-Einstellungen wie unten beschrieben:
-
-   * **[!UICONTROL Name]**: Geben Sie einen Namen für Ihren Webhook ein.
-
-   * **[!UICONTROL SMS-Anbieter auswählen]**: Benutzerdefiniert.
-
-   * **[!UICONTROL Typ]**: Feedback.
-
-   ![](assets/webhook-feedback.png)
-
-1. Klicken Sie auf **[!UICONTROL Payload-Editor anzeigen]**, um Ihre Anfrage-Payloads zu validieren und anzupassen.
-
-   Sie können Ihre Payload mithilfe von Profilattributen dynamisch personalisieren und mithilfe integrierter Hilfsfunktionen sicherstellen, dass genaue Daten zur Verarbeitung und Antworterstellung gesendet werden.
-
-1. Wenn Sie die Konfiguration Ihres Webhook abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
-
-1. Klicken Sie im Menü **[!UICONTROL Webhooks]** auf ![Papierkorbsymbol](assets/do-not-localize/Smock_Delete_18_N.svg), um Ihren Webhook zu löschen.
-
-1. Um vorhandene Konfigurationen zu ändern, suchen Sie den gewünschten Webhook und klicken Sie auf die Option **[!UICONTROL Bearbeiten]**, um die erforderlichen Änderungen vorzunehmen.
-
-1. Greifen Sie über Ihren zuvor gesendeten **[!UICONTROL Webhook]** auf Ihre neue **[!UICONTROL Webhook-URL]** zu und kopieren Sie sie.
-
-   ![](assets/sms_byo_8.png)
-
-Nachdem Sie die Einstellungen für „eingehend“ für den Webhook erstellt und konfiguriert haben, müssen Sie jetzt eine [Kanalkonfiguration](sms-configuration-surface.md) für SMS-Nachrichten erstellen. 
-
-Nach der Konfiguration können Sie alle betriebsbereiten Kanalfunktionen wie Nachrichtenerstellung, Personalisierung, Linktracking und Reporting nutzen.
-
->[!ENDTABS]
-
 
 ## Anleitungsvideo {#video}
 

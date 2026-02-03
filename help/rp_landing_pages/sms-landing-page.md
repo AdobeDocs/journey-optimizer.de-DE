@@ -5,22 +5,22 @@ title: SMS-/MMS-/RCS-Kanal
 description: SMS-/MMS-/RCS-Kanal
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
 # SMS-/MMS-/RCS-Kanal{#section-overview}
 
-Der SMS-/MMS-/RCS-Kanal in Adobe Journey Optimizer ermöglicht es Ihnen, Kundinnen und Kunden durch personalisierte Textnachrichten direkt auf ihren Mobilgeräten anzusprechen. Ganz gleich, ob Sie einfache Updates per SMS, reichhaltige Multimedia-Inhalte per MMS oder interaktive Markenbotschaften mit RCS versenden – dieser Kanal bietet vielseitige Möglichkeiten zur Kommunikation. Sie erfahren, wie Sie Dienstanbieter konfigurieren, Nachrichten erstellen und personalisieren, diese in Kampagnen oder Journeys integrieren und die Einhaltung der Opt-out-Verwaltung sicherstellen. Lernen Sie außerdem, wie Sie Ihre Kommunikationen testen, senden und verwalten können, um maximale Wirkung zu erzielen. So können Sie ganz einfach zeitnahe, relevante Nachrichten versenden, die Ihre Zielgruppe ansprechen.
+Der SMS-/MMS-/RCS-Kanal in Adobe Journey Optimizer ermöglicht es Ihnen, Kundinnen und Kunden durch personalisierte Textnachrichten direkt auf ihren Mobilgeräten anzusprechen. Egal, ob Sie einfache Updates per SMS, Multimedia-Inhalte über MMS oder interaktive, markenspezifische Nachrichten mit RCS versenden, dieser Kanal bietet vielseitige Möglichkeiten, sich zu verbinden. Sie erfahren, wie Sie Dienstleister konfigurieren, Nachrichten erstellen und personalisieren, sie in Kampagnen oder Journey integrieren und die Einhaltung der Opt-out-Verwaltung sicherstellen können. Lernen Sie außerdem, wie Sie Ihre Kommunikationen testen, senden und verwalten können, um maximale Wirkung zu erzielen. So können Sie ganz einfach zeitnahe, relevante Nachrichten versenden, die Ihre Zielgruppe ansprechen.
 
 ## Überblick über den SMS-/MMS-/RCS-Kanal
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Textnachrichten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie SMS-, MMS- und RCS-Nachrichten in Adobe Journey Optimizer 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen von SMS-, MMS- und RCS-Nachrichten
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Entwerfen, Konfigurieren und Senden personalisierter 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Überprüfen und Senden Ihrer Textnachrichten
 
@@ -50,7 +50,7 @@ Sie können Nachrichten in der Vorschau anzeigen, validieren und senden und dabe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Verwalten des Opt-outs von Textnachrichten
 
@@ -60,7 +60,7 @@ Stellen Sie die Einhaltung von Branchenstandards sicher, indem Sie Opt-out-Proze
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Einrichten von SMS-Subdomains
 
@@ -70,13 +70,13 @@ Konfigurieren Sie SMS-Subdomains für den Nachrichtenversand, einschließlich Ei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Konfigurieren des SMS-/MMS-/RCS-Kanals
 
 Umfassende Anleitungen zum Einrichten von Messaging-Kanälen mit unterstützten Anbietern, benutzerdefinierten Konfigurationen und maßgeschneiderten Optionen.
 
-[Konfigurationen erkunden](configure-sms-landing-page.md)
+[Konfigurationen erkunden](../using/sms/sms-configuration.md)
 :::
 
 ::::

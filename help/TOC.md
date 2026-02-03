@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 223209750f1147e97d003ffb9d7231c7cef75663
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3074'
 ht-degree: 98%
 
 ---
@@ -328,12 +328,12 @@ ht-degree: 98%
       + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
       + [Best Practices für Optimierung der SMS-Kosten](using/sms/sms-cost-optimization.md)
       + Konfigurieren des SMS-/MMS-/RCS-Kanals {#configure-sms}
-         + [Konfigurieren des SMS-/MMS-/RCS-Kanals](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Erste Schritte bei der SMS-/MMS-/RCS-Konfiguration](using/sms/sms-configuration.md)
          + [Konfigurieren des Sinch-Anbieters](using/sms/sms-configuration-sinch.md)
          + [Konfigurieren des Infobip-Anbieters](using/sms/sms-configuration-infobip.md)
          + [Konfigurieren des Twilio-Anbieters](using/sms/sms-configuration-twilio.md)
          + [Konfigurieren eines benutzerdefinierten Anbieters](using/sms/sms-configuration-custom.md)
+         + [Erstellen eines Webhook](using/sms/sms-webhook.md)
          + [Erstellen einer SMS/MMS/RCS-Konfiguration](using/sms/sms-configuration-surface.md)
    + Direkt-Mail {#direct-mail}
       + [Direkt-Mail](/help/rp_landing_pages/direct-mail-landing-page.md)
