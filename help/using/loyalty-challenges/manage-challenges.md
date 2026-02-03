@@ -83,7 +83,7 @@ Challenge-Performance verfolgen durch:
 
 Greifen Sie auf Leistungsdaten in der Registerkarte „Challenge Performance“ und auf die automatisch generierten Journey-Berichte zu.
 
-Detaillierte Metriken und Berichte finden [ in der ](loyalty-challenges.md#monitor-performance)Hauptdokumentation).
+Detaillierte Metriken und Berichte finden [&#x200B; in der &#x200B;](loyalty-challenges.md#monitor-performance)Hauptdokumentation).
 
 ## Best Practices {#best-practices}
 
