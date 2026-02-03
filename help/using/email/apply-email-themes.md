@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail-Designs, Module, Wiederverwendbarkeit, Markenkonsistenz, E-Mail-Design, benutzerdefiniertes CSS, Optimierung für Mobilgeräte
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 365ed7f735760ee5763d0f12ea366c662a097948
-workflow-type: ht
-source-wordcount: '1604'
-ht-degree: 100%
+source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
+workflow-type: tm+mt
+source-wordcount: '1741'
+ht-degree: 92%
 
 ---
 
@@ -53,6 +53,12 @@ Diese Funktion ermöglicht es Marketing-Fachleuten, visuell ansprechende, marken
    * Sie können auch weiterhin Ihren importierten HTML-Inhalt konvertieren. [Weitere Informationen](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
+
+* Wenn Sie benutzerdefinierte Web-Schriftarten (einschließlich Google-Schriftarten) in Ihren Designs verwenden, beachten Sie, dass viele E-Mail-Clients sie nicht unterstützen. Definieren Sie immer geeignete Ersatzschriftarten in Ihrem Design, um die Lesbarkeit für alle E-Mail-Clients sicherzustellen.
+
+   * Gmail und Yahoo! Laden Sie keine externen Web-Schriftarten und greifen Sie auf die Systemschriftarten zurück, unabhängig von der in Ihrem HTML/CSS angegebenen Schriftfamilie.
+   * Die einzigen von Gmail unterstützten Google-Schriftarten sind Roboto und Google Sans.
+   * E-Mail-Clients *die* Webfonts unterstützen, sind unter anderem Apple Mail, iOS Mail, Android Mail, Thunderbird und Outlook für macOS.
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
@@ -99,6 +105,10 @@ Gehen Sie wie folgt vor, um ein Design zu definieren, das Sie in künftigen E-Ma
 1. In den **[!UICONTROL Texteinstellungen]** können Sie die globale Schriftart festlegen, die Sie für Ihr gesamtes Design verwenden möchten. Für eine detailliertere Steuerung können Sie auch jede Überschrift und jeden Absatztyp bearbeiten, um die Schriftart, die Größe, den Stil usw. anzupassen.
 
    ![](assets/theme-text.png)
+
+   >[!NOTE]
+   >
+   >Beachten Sie bei der Auswahl benutzerdefinierter Web-Schriftarten, dass viele E-Mail-Clients wie Gmail und Yahoo! Externe Web-Schriftarten werden nicht unterstützt, sondern es wird auf die Systemschriftarten zurückgegriffen. Erwägen Sie die Verwendung von Ersatzschriftarten, um sicherzustellen, dass Ihr Inhalt auf allen E-Mail-Clients korrekt angezeigt wird. [Weitere Informationen](#themes-guardrails)
 
 1. Wählen Sie auf der Registerkarte **[!UICONTROL Abstand]** ein einzelnes Element aus der Liste aus, um es mit dem richtigen Abstand zwischen den verschiedenen Komponenten einzufügen.
 
