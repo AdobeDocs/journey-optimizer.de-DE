@@ -10,7 +10,7 @@ exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 source-git-commit: 780c197da342968c6dc125277f325219e0717082
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -38,7 +38,7 @@ Weitere Informationen zu AEM-Inhaltsfragmenten finden Sie unter [Arbeiten mit In
 
 >[!IMPORTANT]
 >
->Damit Journey Optimizer über die Inhaltsfragmentverwaltungs-API auf Adobe Experience Manager-Inhaltsfragmente zugreifen kann, müssen Sie zunächst [Dispatcher konfigurieren](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration).
+>Damit Journey Optimizer über die Inhaltsfragmentverwaltungs-API auf Adobe Experience Manager-Inhaltsfragmente zugreifen kann, müssen Sie zunächst [den Dispatcher konfigurieren](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration).
 
 Bevor Sie Ihr Inhaltsfragment in Journey Optimizer verwenden, müssen Sie ein Tag speziell für Journey Optimizer erstellen:
 

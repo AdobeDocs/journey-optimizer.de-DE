@@ -201,7 +201,7 @@ Die Diskrepanz kann auftreten, wenn die Journey den Profil-Snapshot eines vorher
 
 In [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} erfahren Sie, wie Sie das Problem beheben können.
 
-Weitere Informationen finden Sie in [diesem Beitrag in der Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=de){target="_blank"}.
+Weitere Informationen finden Sie in [diesem Beitrag in der Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
 Konsultieren Sie außerdem die [Dokumentation zur API für Adobe Experience Platform-Zeitpläne](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/api/schedules){target="_blank"}, um zu überprüfen, wann Ihr täglicher Auftrag geplant ist.
 
@@ -234,7 +234,7 @@ Die Metrik **Ansprechbare Profile** gibt die Anzahl der eindeutigen Profile an, 
 
 Um dieses Problem zu untersuchen und zu beheben, müssen Sie die Profilzählungslogik verstehen, Journey und Kampagnen untersuchen, die auf große Zielgruppen abzielen, Zielgruppen angemessen filtern, Datensatzänderungen überwachen und möglicherweise die adressierbare Zielgruppengröße reduzieren.
 
-Erfahren Sie in der Dokumentation zum Lizenznutzungs-Dashboard , wie Sie Probleme mit Engageable Profiles beheben und die Lizenznutzung [&#x200B; Unternehmens &#x200B;](../audience/license-usage.md#troubleshooting-engageable-profiles).
+Erfahren Sie in der Dokumentation zum Lizenznutzungs-Dashboard , wie Sie Probleme mit Engageable Profiles beheben und die Lizenznutzung [ Unternehmens ](../audience/license-usage.md#troubleshooting-engageable-profiles).
 
 +++
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Orchestration - Häufig gestellte Fragen
-description: Häufig gestellte Fragen zu Journey Orchestration in Adobe Journey Optimizer
+title: Journey-Orchestrierung – Häufig gestellte Fragen
+description: Häufig gestellte Fragen zur Journey-Orchestrierung in Adobe Journey Optimizer
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -12,14 +12,14 @@ version: Journey Orchestration
 source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
 source-wordcount: '5231'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
-# Journey Orchestration - Häufig gestellte Fragen {#faq-journeys}
+# Journey-Orchestrierung – Häufig gestellte Fragen {#faq-journeys}
 
-Hier finden Sie Antworten auf häufig gestellte Fragen zu Journey Orchestration in Adobe Journey Optimizer.
+Hier finden Sie Antworten auf häufig gestellte Fragen zur Journey-Orchestrierung in Adobe Journey Optimizer.
 
 Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
 

@@ -12,7 +12,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,7 @@ Nach dem Versand der Nachricht beträgt die Gültigkeitsdauer für einen Link **
 
 >[!CAUTION]
 >
->Wenn sowohl **label** als auch **URL** einer Schaltfläche in einem [anpassbaren Fragment) bearbeitbar &#x200B;](../content-management/customizable-fragments.md), wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt.
+>Wenn sowohl **label** als auch **URL** einer Schaltfläche in einem [anpassbaren Fragment) bearbeitbar ](../content-management/customizable-fragments.md), wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt.
 
 ## Link zu einer Mirror-Seite {#mirror-page}
 
@@ -117,7 +117,7 @@ Die Gültigkeitsdauer für eine Mirror-Seite beträgt **90 Tage**. Nach dieser 
 
 >[!CAUTION]
 >
->* Links zu Mirrorseiten werden automatisch generiert und können nicht bearbeitet werden. Sie enthalten alle verschlüsselten personalisierten Daten, die zum Rendern der ursprünglichen E-Mail erforderlich sind. Daher kann die Verwendung personalisierter Attribute mit großen Werten zu langen Mirror-Seiten-URLs führen, was verhindert, dass der Link in Webbrowsern mit einer maximalen URL-Länge funktioniert.
+>* Links zu Mirrorseiten werden automatisch generiert und können nicht bearbeitet werden. Sie enthalten alle verschlüsselten personalisierten Daten, die zum Rendern der ursprünglichen E-Mail erforderlich sind. Daher kann die Verwendung personalisierter Attribute mit großen Werten zu langen Mirror-Seiten-URLs führen, wodurch der Link in Webbrowsern mit einer maximalen URL-Länge eventuell nicht funktioniert.
 >
 >* Beim Erstellen von E-Mails, die stark von der Laufzeitpersonalisierung abhängen (z. B. `#each`-Schleifen, verschachtelte Objekte, große Payload-Daten), können die URLs der Mirror-Seite übermäßig groß werden, insbesondere in durch API ausgelösten Kampagnen, die umfangreiche kontextuelle Daten aus Payloads verwenden. Dies kann HTTP-Fehler (404, 422, 502) in Browsern oder Mail-Clients verursachen. Adobe empfiehlt, die Breite und Tiefe dynamischer Felder zu begrenzen, die Abhängigkeit von komplexen Fragmenten zu reduzieren und Personalisierungsstrukturen zu vereinfachen, um Link-Fehler zu vermeiden.
 >

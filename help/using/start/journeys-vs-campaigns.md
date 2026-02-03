@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey vs. Kampagnen - Wählen Sie den richtigen Ansatz
-description: Vergleichen Sie Journey, Kampagnen und orchestrierte Kampagnen, um den richtigen Ansatz für Ihre Marketing-Anforderungen in Adobe Journey Optimizer zu wählen
+title: Journeys oder Kampagnen – Auswählen des richtigen Ansatzes
+description: Vergleichen Sie Journeys, Kampagnen und orchestrierte Kampagnen, um den richtigen Ansatz für Ihre Marketing-Anforderungen in Adobe Journey Optimizer zu wählen
 feature: Journeys, Campaigns, Get Started, Overview
 role: User
 level: Beginner
@@ -12,58 +12,58 @@ hidefromtoc: true
 source-git-commit: c1efa56fc3f3c93bdc4b9c7a9f4e81b58cbcff72
 workflow-type: tm+mt
 source-wordcount: '1453'
-ht-degree: 4%
+ht-degree: 85%
 
 ---
 
 
-# Journey vs. Kampagnen: Wählen Sie den richtigen Ansatz {#journeys-vs-campaigns}
+# Journeys oder Kampagnen: Auswählen des richtigen Ansatzes {#journeys-vs-campaigns}
 
-Adobe Journey Optimizer bietet drei leistungsstarke Ansätze, um Ihre Kunden zu erreichen und anzusprechen. Um effektive Marketing-Erlebnisse zu schaffen, ist es von entscheidender Bedeutung, zu verstehen, wann die einzelnen Lösungen verwendet werden.
+Adobe Journey Optimizer bietet drei leistungsstarke Ansätze, mit denen Sie Ihre Kundschaft erreichen und ansprechen können. Um effektive Marketing-Erlebnisse zu erstellen, müssen Sie unbedingt verstehen, wann die einzelnen Ansätze verwendet werden.
 
 Dieses Handbuch hilft Ihnen bei der Auswahl zwischen **Journey**, **Aktionskampagnen**, **API-ausgelösten Kampagnen** und **Orchestrierten Kampagnen** basierend auf Ihren spezifischen Marketing-Anforderungen.
 
-## Übersicht über den Schnellvergleich {#quick-overview}
+## Schnellvergleich – Überblick {#quick-overview}
 
-| Annäherung | Am besten geeignet für | Ausführungsstil |
+| Ansatz | Geeignet für | Ausführungsstil |
 |----------|----------|-----------------|
-| **Journeys** | Mehrstufige Echtzeit-Kundenerlebnisse mit bedingter Logik | 1:1 Orchestrierung - jedes Profil in seinem eigenen Tempo |
+| **Journeys** | Mehrstufige Echtzeit-Kundenerlebnisse mit bedingter Logik | 1:1-Orchestrierung – jedes Profil im eigenen Tempo |
 | **Aktionskampagnen** | Geplante oder wiederkehrende Sendungen an Zielgruppen | Batch-Ausführung - Zielgruppe zum Versandzeitpunkt gemeinsam verarbeitet |
 | **API-ausgelöste Kampagnen** | Ereignisgesteuerte oder Transaktionsnachrichten von externen Systemen | Ausführung auf Anfrage - ausgelöst durch API-Aufruf mit Payload |
-| **Orchestrierte Kampagnen** | Komplexe Batch-Workflows mit Segmentierung mehrerer Entitäten | Arbeitsfläche für Stapel - Alle Profile werden gemeinsam verarbeitet |
+| **Orchestrierte Kampagnen** | Komplexe Batch-Workflows mit Segmentierung in mehrere Entitäten | Batch-Arbeitsfläche – alle Profile werden gemeinsam verarbeitet |
 
-## Detailvergleich {#detailed-comparison}
+## Detaillierter Vergleich {#detailed-comparison}
 
 Verwenden Sie diese umfassende Tabelle, um die wichtigsten Unterschiede zu verstehen:
 
-| Funktion | Journeys | Aktionskampagnen | API-ausgelöste Kampagnen | Orchestrierte Kampagnen |
+| Funktion | Journeys | Aktionskampagnen | Durch API ausgelöste Kampagnen | Orchestrierte Kampagnen |
 |---------|----------|------------------|------------------------|----------------------|
-| **Primärer Zweck** | Mehrstufige 1:1 Orchestrierung mit Echtzeit-Kundenkontext | Einmaliger oder wiederkehrender Nachrichtenversand an Zielgruppen | Transaktions- oder ereignisgesteuerte Nachrichten, die von externen Systemen initiiert werden | Mehrstufige Batch-Kampagnen mit komplexen Segmentierungs-Workflows |
-| **Canvas-Typ** | 1:1 Arbeitsfläche - Jedes Profil bewegt sich in seinem eigenen Tempo | Keine Arbeitsfläche - Ausführung einer einzelnen Aktion | Keine Arbeitsfläche - Ausführung einer einzelnen Aktion | Arbeitsfläche für Stapel - Alle Profile werden gemeinsam verarbeitet |
-| **Ausführungsfluss** | Sequenzielle Aktionen, Profilstatus wird beim Journey beibehalten | Simultane Ausführung für die gesamte Zielgruppe | Sofortige Ausführung pro API-Aufruf | Mehrstufiger Batch-Workflow mit Aktivitäten und Transitionen |
-| **Eingabemechanismus** | Veranstaltungen, Audiences, Qualifikationen, Geschäftsereignisse | Manuelle Aktivierung und Planung | API-Aufruf aus externem System | Geplante Ausführung des Batch-Workflows |
-| **Datenmodell** | Echtzeit-Profil + Ereignisdaten | Profildaten aus Experience Platform-Zielgruppen | API-Payload-Daten mit optionaler Profilsuche | Relationale Daten mit mehreren Entitäten (Profile, Produkte, Stores, Buchungen) |
-| **Segmentierung** | Vordefinierte Zielgruppen + Echtzeitbedingungen | Vordefinierte Zielgruppen aus Experience Platform | Payload-gesteuertes Targeting (keine geplante Zielgruppe) | Auf der Arbeitsfläche erstellte On-Demand-Zielgruppen mit exakter Anzahl |
+| **Primärer Zweck** | Mehrstufige 1:1-Orchestrierung mit Echtzeit-Kundenkontext | Einmaliger oder wiederkehrender Nachrichtenversand an Zielgruppen | Transaktions- oder ereignisgesteuerte Nachrichten, die von externen Systemen initiiert werden | Mehrstufige Batch-Kampagnen mit komplexen Segmentierungs-Workflows |
+| **Typ der Arbeitsfläche** | 1:1-Arbeitsfläche – jedes Profil bewegt sich im eigenen Tempo | Keine Arbeitsfläche – Ausführung einer einzelnen Aktion | Keine Arbeitsfläche – Ausführung einer einzelnen Aktion | Batch-Arbeitsfläche – alle Profile werden gemeinsam verarbeitet |
+| **Ausführungsfluss** | Sequenzielle Aktionen, Profilstatus wird während der Journey beibehalten | Simultane Ausführung für die gesamte Zielgruppe | Sofortige Ausführung pro API-Aufruf | Mehrstufiger Batch-Workflow mit Aktivitäten und Transitionen |
+| **Eintrittsmechanismus** | Veranstaltungen, Zielgruppen, Qualifizierungen, Geschäftsereignisse | Manuelle Aktivierung und Planung | API-Aufruf aus externem System | Geplante Ausführung des Batch-Workflows |
+| **Datenmodell** | Echtzeitprofil und Ereignisdaten | Profildaten aus Experience Platform-Zielgruppen | API-Payload-Daten mit optionaler Profilsuche | Relationale Daten mit mehreren Entitäten (Profile, Produkte, Stores, Buchungen) |
+| **Segmentierung** | Vorkonfigurierte Zielgruppen und Echtzeitbedingungen | Vorkonfigurierte Zielgruppen aus Experience Platform | Payload-gesteuertes Targeting (keine geplante Zielgruppe) | Auf der Arbeitsfläche erstellte On-Demand-Zielgruppen mit exakter Anzahl |
 | **Profilverarbeitung** | Individuell, in Echtzeit (wenn Ereignisse auftreten) | Batch, alle auf einmal | Per API-Aufruf, Payload-gesteuert | Batch, alle zusammen mit Unterstützung für mehrere Entitäten |
-| **Personalisierung** | Echtzeit-Kontextdaten + Profilattribute | Profilattribute | Payload-Daten + optionale Profilattribute | Daten mit mehreren Entitäten für Präzisions-Targeting |
+| **Personalisierung** | Echtzeit-Kontextdaten und Profilattribute | Profilattribute | Payload-Daten + optionale Profilattribute | Daten mit mehreren Entitäten für Präzisions-Targeting |
 | **Komplexität** | Mehrstufig mit Verzweigung, Wartezeiten, Bedingungen | Einzelne Aktion oder einfacher Workflow | Einzelne Aktion mit Payload-Zuordnung | Mehrstufige Batch-Workflows mit Segmentierung, Anreicherung, Aufspaltung |
-| **Am besten geeignet für** | Customer Lifecycle Journey, Onboarding, Warenkorbabbruch | Werbekampagnen, Newsletter, Ankündigungen | Bestellbestätigungen, Versandwarnungen, Zurücksetzen des Kennworts | Komplexe saisonale Kampagnen, mehrstufige Werbeaktionen, Produkteinführungen |
-| **Timing** | Fortlaufend, immer aktiv, sobald veröffentlicht | Geplante Start-/Enddaten | On-Demand, ereignisgesteuert über API | Batch-Ausführung planmäßig |
-| **State-Management** | Behält den Kundenstatus für Echtzeit-Aktionen bei | Staatenlose Ausführung | Staatenlose Ausführung pro Aufruf | Stapelverarbeitung mit Tabellen |
-| **Verwenden Sie wenn** | Mehrere Touchpoints mit Entscheidungslogik in Echtzeit erforderlich | Einfache Nachricht an eine Audience zu einem bestimmten Zeitpunkt | Das externe System muss sofort einen Trigger für eine Nachricht erstellen | Komplexe Segmentierung, Daten mehrerer Entitäten oder exakte Anzahl der Vorabsendungen erforderlich |
-| **Eindeutige Funktionen** | Echtzeit-Reaktionen, Warteaktivitäten, profilbasierte Geschwindigkeit | Planung, Zielgruppen-Targeting, Ratensteuerung | API-Payload-Zuordnung, System-zu-System-Triggerung | Relationale Datensätze, Segmentierung mehrerer Entitäten, exakte Anzahl, Versand auf mehreren Ebenen |
+| **Geeignet für** | Kundenzyklus-Journeys, Onboarding, Warenkorbabbruch | Werbekampagnen, Newsletter, Ankündigungen | Bestellbestätigungen, Versandwarnungen, Zurücksetzen des Kennworts | Komplexe saisonale Kampagnen, mehrstufige Promotions, Produkteinführungen |
+| **Timing** | Fortlaufend, ab Veröffentlichung immer aktiv | Geplante Start-/Enddaten | On-Demand, ereignisgesteuert über API | Batch-Ausführung nach Zeitplan |
+| **Status-Management** | Behält den Kundenstatus für Echtzeit-Aktionen bei | Statuslose Ausführung | Staatenlose Ausführung pro Aufruf | Batch-Verarbeitung mit Arbeitstabellen |
+| **Verwendung** | Mehrere Touchpoints mit Entscheidungslogik in Echtzeit erforderlich | Einfache Nachricht an eine Audience zu einem bestimmten Zeitpunkt | Das externe System muss sofort einen Trigger für eine Nachricht erstellen | Komplexe Segmentierung, Daten mit mehreren Entitäten oder exakte Anzahl der Vorabsendungen erforderlich |
+| **Individuelle Funktionen** | Echtzeit-Reaktionen, Warteaktivitäten, profilbasierte Geschwindigkeit | Planung, Zielgruppen-Targeting, Ratensteuerung | API-Payload-Zuordnung, System-zu-System-Triggerung | Relationale Datensätze, Segmentierung in mehrere Entitäten, exakte Anzahl, Versand auf mehreren Ebenen |
 
-## Entscheidungshandbuch {#decision-guide}
+## Entscheidungshilfe {#decision-guide}
 
 Folgen Sie diesem Entscheidungsbaum, um den richtigen Ansatz zu wählen:
 
-### Schritt 1: Was ist Ihre Ausführungsanforderung?
+### Schritt 1: Was ist Ihre Ausführungsanforderung?
 
 **Individuelle Antworten in Echtzeit auf das Kundenverhalten?**
-→ **Journey verwenden**
+→ **Journeys verwenden**
 * Profile müssen sich in ihrem eigenen Tempo bewegen
 * Bedingte Logik basierend auf dem Verhalten
-* Der Echtzeit-Kontext ist entscheidend
+* Echtzeitkontext ist entscheidend
 
 **Einfacher Nachrichtenversand an eine Zielgruppe zu einem geplanten Zeitpunkt?**
 → **Verwenden von Aktionskampagnen**
@@ -78,32 +78,32 @@ Folgen Sie diesem Entscheidungsbaum, um den richtigen Ansatz zu wählen:
 * Keine komplexe mehrstufige Logik erforderlich
 
 **Komplexer Batch-Workflow mit erweiterter Segmentierung?**
-→ **Verwenden von orchestrierten Kampagnen**
-* Daten mit mehreren Entitäten (Produkte, Geschäfte, Buchungen) benötigen
-* Exakte Zählung vor dem Versand verlangen
-* Mehrstufige Batch-Verarbeitung mit Aufspaltung und Anreicherung
+→ **Orchestrierte Kampagnen verwenden**
+* Daten mit mehreren Entitäten (Produkte, Geschäfte, Buchungen) erforderlich
+* Exakte Zählung vor dem Versand erforderlich
+* Mehrstufige Batch-Verarbeitung mit Aufspaltungen und Anreicherung
 
-### Schritt 2: Auswahl validieren
+### Schritt 2: Prüfen Sie Ihre Auswahl
 
 | Ihre Anforderungen | Empfohlener Ansatz | Warum |
 |-----------|---------------------|-----|
-| Begrüßen Sie neue Kunden mit mehrstufigem Onboarding | Journeys | Echtzeiteingabe, mehrere Touchpoints, bedingte Pfade |
-| Monatlichen Newsletter an Abonnenten senden | Aktionskampagne | Einfache geplante Nachricht an Zielgruppe |
+| Neue Kundschaft mit mehrstufigem Onboarding begrüßen | Journeys | Eintritt in Echtzeit, mehrere Touchpoints, bedingte Pfade |
+| Senden eines monatlichen Newsletters an Abonnentinnen und Abonnenten | Aktionskampagne | Einfache geplante Nachricht an Zielgruppe |
 | Warenkorbabbruch mit Erinnerungssequenz | Journeys | Echtzeit-Trigger, Wartezeiten, bedingte Nachverfolgung |
-| Werbe-Ankündigung an alle Kunden | Aktionskampagne | Einmalige Nachricht, sofortiger Versand |
-| Erneutes Ansprechen inaktiver Benutzer auf Grundlage des Verhaltens | Journeys | Ausgelöst durch Zielgruppen-Qualifizierung, personalisierter Pfad |
-| Flash-Verkauf ausgelöst durch Geschäftsereignis | Journey (Geschäftsereignis) | Echtzeit-Trigger mit Auswirkung auf mehrere Kunden |
+| Werbeankündigung an alle Kundinnen und Kunden | Aktionskampagne | Einmalige Nachricht, sofortiger Versand |
+| Erneutes Ansprechen inaktiver Benutzender auf Grundlage des Verhaltens | Journeys | Ausgelöst durch Zielgruppenqualifizierung, personalisierter Pfad |
+| Blitzverkauf ausgelöst durch Geschäftsereignis | Journeys (Geschäftsereignis) | Echtzeit-Trigger mit Auswirkung auf mehrere Kundinnen und Kunden |
 | Saisonale Promotion mit Produktkatalogintegration | Orchestrierte Kampagne | Daten mit mehreren Entitäten, komplexe Segmentierung, genaue Anzahl |
-| API-ausgelöste Transaktionsnachricht | API-ausgelöste Kampagne | Trigger externer Systeme, sofortige Lieferung |
+| Durch API ausgelöste Transaktionsnachricht | Durch API ausgelöste Kampagne | Externe System-Trigger, sofortiger Versand |
 | Mehrstufiger Versand pro Buchung | Orchestrierte Kampagne | Beziehungen mit mehreren Entitäten, eine Nachricht pro Buchung |
 
-## Erläuterung der wichtigsten Unterscheidungen {#key-distinctions}
+## Erläuterung der wichtigsten Unterschiede {#key-distinctions}
 
-### Journey: 1:1 Echtzeit-Orchestrierung
+### Journeys: 1:1-Orchestrierung in Echtzeit
 
-**Was ihn einzigartig macht:**
+**Alleinstellungsmerkmal:**
 * Jedes Profil behält seinen individuellen Status und Kontext bei
-* Profile treten in ihrem eigenen Tempo ein und schreiten fort
+* Eintritt und Fortschritt jedes Profils im eigenen Tempo
 * Entscheidungsfindung in Echtzeit basierend auf Verhalten und Ereignissen
 * Warteaktivitäten erstellen eine personalisierte Zeitplanung
 * Bedingte Verzweigungen erstellen eindeutige Pfade pro Profil
@@ -115,15 +115,15 @@ Customer A: Abandoned cart → Wait 2 hours → No purchase? → Send reminder �
 Customer B: Abandoned cart → Wait 2 hours → Already purchased → End immediately
 ```
 
-Jeder Kunde erlebt seine eigene Journey-Timeline basierend auf seinen Aktionen.
+Jede Person erlebt basierend auf ihren Aktionen ihre eigene Journey-Timeline.
 
-[Weitere Informationen über Journey](../building-journeys/journey.md)
+[Weitere Informationen über Journeys](../building-journeys/journey.md)
 
-### Kampagnen: Einfacher Batch- oder ausgelöster Versand
+### Kampagnen: Einfacher Batch-Versand oder ausgelöster Versand
 
-**Was ihn einzigartig macht:**
+**Alleinstellungsmerkmal:**
 * Alle Profile werden identisch und gleichzeitig verarbeitet
-* Staatenlose Ausführung - kein Kontext beibehalten
+* Statuslose Ausführung – kein Kontext beibehalten
 * Einfache Planung oder API-Auslösung
 * Ideal für Broadcast-Kommunikation
 
@@ -133,23 +133,23 @@ Jeder Kunde erlebt seine eigene Journey-Timeline basierend auf seinen Aktionen.
 Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultaneously
 ```
 
-Jeder bekommt die gleiche Botschaft zur gleichen Zeit.
+Jede Person bekommt dieselbe Botschaft zur selben Zeit.
 
-**types:**
+**Typen:**
 * **Aktionskampagnen**: Geplanter Versand an Zielgruppen (einmal oder wiederkehrend)
 * **API-ausgelöste Kampagnen**: Versand auf Anfrage, ausgelöst durch einen API-Aufruf mit Payload-Daten
 
 [Weitere Informationen zu Kampagnen](../campaigns/get-started-with-campaigns.md)
 
-### Orchestrierte Kampagnen: Workflows für Batch-Arbeitsflächen
+### Orchestrierte Kampagnen: Batch-Arbeitsflächen-Workflows
 
-**Was ihn einzigartig macht:**
-* Batch-Arbeitsfläche mit Aktivitäten und Transitionen (ähnlich wie Journey-Arbeitsfläche, aber stapelorientiert)
-* Unterstützung relationaler Daten mehrerer Entitäten (Profile + Produkte + Geschäfte + Buchungen)
-* Erstellung einer On-Demand-Zielgruppe auf der Arbeitsfläche
-* Exakte Anzahl vor dem Senden (Sichtbarkeit vor dem Senden)
-* Versand auf mehreren Ebenen (eine Nachricht pro Entität, z. B. pro Buchung)
-* Alle im Batch verarbeiteten Profile
+**Alleinstellungsmerkmal:**
+* Batch-Arbeitsfläche mit Aktivitäten und Transitionen (ähnlich wie Journey-Arbeitsfläche, aber Batch-orientiert)
+* Unterstützung relationaler Daten mit mehreren Entitäten (Profile + Produkte + Geschäfte + Buchungen)
+* On-Demand-Zielgruppenerstellung auf der Arbeitsfläche
+* Exakte Anzahl vor dem Versand (Sichtbarkeit vor dem Versand)
+* Versand auf mehreren Ebenen (eine Nachricht pro Entität, z. B. pro Buchung)
+* Alle Profile werden im Batch gemeinsam verarbeitetet
 
 **Beispielfluss:**
 
@@ -158,47 +158,47 @@ Query customers → Filter by purchase history → Split by region →
 Enrich with product data → Build segments → Send personalized offers → All in one batch execution
 ```
 
-Kombiniert die Komplexität eines Workflows mit der Ausführung einer Batch-Kampagne.
+Kombiniert die Komplexität eines Workflows mit der Batch-Kampagnenausführung.
 
 [Weitere Informationen über orchestrierte Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)
 
-## Anwendungsbeispiele {#use-cases}
+## Beispiele für Anwendungsfälle {#use-cases}
 
 ### Anwendungsfälle für Journeys
 
-* **Wiederherstellung bei Warenkorbabbruch**: Wird durch das Ereignis zum Hinzufügen des Warenkorbs ausgelöst, auf den Checkout warten und Erinnerungen senden, wenn kein Kauf stattfindet
-* **Kunden-Onboarding**: Mehrstufige Willkommensserie mit personalisierten Inhalten, die auf Profildaten basieren
-* **Upgrade der Treuestufe** Wird ausgelöst, wenn der Kunde eine neue Stufe erreicht, und sendet Glückwünsche und Vorteile
-* **Geburtstagskampagnen**: Eingabe basierend auf Geburtsdatum, personalisierte Angebote
-* **Rückgewinnung**: Ausgelöst durch Zielgruppen-Qualifizierung (Inaktivität), progressive Kontaktaufnahme
+* **Wiederherstellen abgebrochener Warenkörbe:** Ausgelöst beim Hinzufügen zum Warenkorb, Warten auf Checkout gewartet, Versand von Erinnerungen, wenn kein Kauf stattfindet
+* **Kunden-Onboarding:** Mehrstufige Willkommensserie mit personalisierten Inhalten, die auf Profildaten basieren
+* **Upgrade der Treuestufe:** Wird ausgelöst, wenn die Person eine neue Stufe erreicht, Versand von Glückwünschen und Vorteilen
+* **Geburtstagskampagnen:** Eintritt basierend auf Geburtsdatum, personalisierte Angebote
+* **Wiederaufnahme der Interaktion:**: Ausgelöst durch Zielgruppenqualifizierung (Inaktivität), progressive Kontaktaufnahme
 
-### Anwendungsfälle für Kampagnen (Aktion und API-gesteuert)
+### Anwendungsfälle für Kampagnen (durch Aktion und API ausgelöst)
 
 **Aktionskampagnen:**
-* **Monatliche Newsletter**: Geplanter Batch-Versand an das Abonnentensegment
-* **Werbeanzeigen**: Zeitkritische Angebote für Zielgruppen
-* **Produkteinführungen**: Koordinierte Ankündigung an alle Kunden
-* **Saisonale Grüße**: Feiertagsnachrichten zu bestimmten Terminen
+* **Monatliche Newsletter:** Geplanter Batch-Versand an das Abonnentensegment
+* **Werbeankündigungen:** Zeitkritische Angebote für Zielgruppen
+* **Produkteinführungen:** Koordinierte Ankündigung an alle Kundinnen und Kunden
+* **Saisonale Grüße:** Feiertagsnachrichten zu bestimmten Terminen
 
-**API-ausgelöste Kampagnen:**
-* **Bestellbestätigungen**: Wird vom E-Commerce-System nach dem Kauf ausgelöst
-* **Versandbenachrichtigungen**: Ausgelöst durch Logistiksystem
-* **Kontowarnungen** Ausgelöst durch ein System zur Betrugserkennung
-* **Kennwortzurücksetzung**: Wird durch Benutzeraktion im Programm ausgelöst
+**Durch API ausgelöste Kampagnen:**
+* **Bestellbestätigungen:** Ausgelöst durch E-Commerce-System nach dem Kauf
+* **Versandbenachrichtigungen:** Ausgelöst durch Logistiksystem
+* **Kontowarnungen:** Ausgelöst durch ein System zur Betrugserkennung
+* **Passwortzurücksetzung:** Ausgelöst durch Benutzeraktion in der Anwendung
 
 ### Anwendungsfälle für orchestrierte Kampagnen
 
-* **Saisonale Promotion mit Katalogintegration**: Abfragen eines Produktkatalogs, Identifizieren zugelassener Kunden, Segmentieren nach Voreinstellungen, Senden personalisierter Produktempfehlungen
-* **Store-spezifische Kampagnen**: Targeting von Kunden in der Nähe bestimmter Store-Standorte mit Store-Inventardaten
-* **Multi-Booking-Kommunikation**: Versand einer Nachricht pro Buchung (Hotelreservierung, Flugbuchungen)
-* **Komplexe Segmentorchestrierung**: Erstellen Sie Zielgruppen schrittweise mit einer Anreicherung aus mehreren Datenquellen
-* **Validierung vor dem Versand**: Ermitteln der genauen Empfängeranzahl, bevor große Kampagnen gestartet werden
+* **Saisonale Promotion mit Katalogintegration:** Abfragen des Produktkatalogs, Identifizieren von berechtigten Kundinnen und Kunden, Segmentieren nach Präferenzen, Versand von personalisierten Produktempfehlungen
+* **Store-spezifische Kampagnen:** Targeting von Kundinnen und Kunden in der Nähe bestimmter Store-Standorte mit Store-Inventardaten
+* **Kommunikation zu mehreren Buchungen:** Versand einer Nachricht pro Buchung (Hotelreservierung, Flugbuchungen)
+* **Komplexe Segmentorchestrierung:** Erstellen von Zielgruppen schrittweise durch Anreicherung aus mehreren Datenquellen
+* **Validierung vor dem Versand:** Ermitteln der genauen Empfängeranzahl, bevor große Kampagnen gestartet werden
 
 ## Funktionsverfügbarkeit {#feature-availability}
 
 ### Kanäle
 
-| Kanal | Journeys | Aktionskampagnen | API-ausgelöste Kampagnen | Orchestrierte Kampagnen |
+| Kanal | Journeys | Aktionskampagnen | Durch API ausgelöste Kampagnen | Orchestrierte Kampagnen |
 |---------|:--------:|:----------------:|:-----------------------:|:---------------------:|
 | E-Mail | ✅ | ✅ | ✅ | ✅ |
 | Push-Benachrichtigung | ✅ | ✅ | ✅ | ✅ |
@@ -211,30 +211,30 @@ Kombiniert die Komplexität eines Workflows mit der Ausführung einer Batch-Kamp
 
 ### Erweiterte Funktionen
 
-| Funktion | Journeys | Aktionskampagnen | API-ausgelöste Kampagnen | Orchestrierte Kampagnen |
+| Funktion | Journeys | Aktionskampagnen | Durch API ausgelöste Kampagnen | Orchestrierte Kampagnen |
 |-----------|:--------:|:----------------:|:-----------------------:|:---------------------:|
 | Mehrstufige Workflows | ✅ | ❌ | ❌ | ✅ |
 | Echtzeit-Trigger | ✅ | ❌ | ✅ | ❌ |
 | Warteaktivitäten | ✅ | ❌ | ❌ | ✅ |
-| bedingte Programmverzweigung | ✅ | ❌ | ❌ | ✅ |
+| Bedingte Verzweigung | ✅ | ❌ | ❌ | ✅ |
 | Geplante Ausführung | ✅ | ✅ | ✅ | ✅ |
-| API-Trigger | ❌ | ❌ | ✅ | ❌ |
+| API-Auslösung | ❌ | ❌ | ✅ | ❌ |
 | Daten mit mehreren Entitäten | ❌ | ❌ | ❌ | ✅ |
-| Genaue Anzahl der Vorabsendungen | ❌ | ❌ | ❌ | ✅ |
+| Genaue Anzahl vor dem Versand | ❌ | ❌ | ❌ | ✅ |
 | On-Demand-Segmentierung | ❌ | ❌ | ❌ | ✅ |
-| Optimierung des Versandzeitpunkts | ✅ | ✅ | ✅ | ✅ |
+| Versandzeitoptimierung | ✅ | ✅ | ✅ | ✅ |
 | A/B-Tests | ✅ | ✅ | ❌ | ❌ |
 | Genehmigungs-Workflows | ✅ | ✅ | ✅ | ❌ |
 
 ## Häufige Fragen {#common-questions}
 
-+++ Kann ich Journey und Kampagnen in meiner Marketing-Strategie kombinieren?
++++ Kann ich Journeys und Kampagnen in meiner Marketing-Strategie kombinieren?
 
-Absolut! Die meisten Unternehmen verwenden alle drei Ansätze für verschiedene Szenarien:
+Absolut. Die meisten Unternehmen verwenden alle drei Ansätze für verschiedene Szenarien:
 
-* Journey für verhaltensbezogene Interaktion in Echtzeit
-* Aktionskampagnen für geplante Broadcast-Nachrichten
-* API-gesteuerte Kampagnen für Transaktionsnachrichten
+* Journeys für verhaltensbezogene Interaktion in Echtzeit
+* Aktionskampagnen für geplante Broadcast-Kommunikation
+* Durch API ausgelöste Kampagnen für Transaktionsnachrichten
 * Orchestrierte Kampagnen für komplexe, datenintensive Batch-Kampagnen
 
 +++
@@ -247,21 +247,21 @@ Nein, Sie müssen das Erlebnis im entsprechenden Format neu erstellen. Sie könn
 
 +++ Welcher Ansatz ist einfacher zu erstellen?
 
-Aktionskampagnen sind in der Regel die einfachste (eine Nachricht an die Zielgruppe), gefolgt von API-ausgelösten Kampagnen, Journey (komplexer mit Mehrstufenlogik) und orchestrierten Kampagnen (am komplexesten aufgrund des Arbeitsflächen-Workflows und der Funktionen für mehrere Entitäten).
+Aktionskampagnen sind in der Regel am einfachsten (eine Nachricht an die Zielgruppe), gefolgt von durch API ausgelösten Kampagnen, Journeys (komplexer, mit Mehrstufenlogik) und orchestrierten Kampagnen (am komplexesten aufgrund des Arbeitsflächen-Workflows und der Funktionen für mehrere Entitäten).
 
 +++
 
-+++ Welche Skalierung ist für große Zielgruppen besser?
++++ Welcher Ansatz ist besser für große Zielgruppen geeignet?
 
 Alle drei können gut skaliert werden, aber:
 
-* **Journey** und **Action-** sind für große Batch-Zielgruppen optimiert
+* **Journeys vom Typ „Zielgruppe lesen“** und **Aktionskapamgnen** sind für große Batch-Zielgruppen optimiert
 * **Orchestrierte Kampagnen** zeichnen sich durch eine komplexe Segmentierung mit großen Datensätzen aus
-* **Unitäre Journey** verarbeiten Profile einzeln, sodass die Skalierung vom Ereignisvolumen abhängt
+* **Unitäre Journeys** verarbeiten Profile einzeln, sodass die Skalierung vom Ereignisvolumen abhängt
 
 +++
 
-+++ Kann ich dieselbe Zielgruppe für Journey und Kampagnen verwenden?
++++ Kann ich dieselbe Zielgruppe für Journeys und Kampagnen verwenden?
 
 Ja, in Adobe Experience Platform erstellte Zielgruppen können für alle drei Ansätze verwendet werden.
 
@@ -271,13 +271,13 @@ Ja, in Adobe Experience Platform erstellte Zielgruppen können für alle drei An
 
 Bereit, mit dem Erstellen zu beginnen? Informieren Sie sich in der ausführlichen Dokumentation zu Ihrem gewählten Ansatz:
 
-* **[Erste Schritte mit Journey](../building-journeys/journey.md)** - Erfahren Sie mehr über Journey-Typen, Designer und Workflow
-* **[Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)** - Erkunden von Aktionen und API-ausgelösten Kampagnen
-* **[Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)** - Entdecken Sie Batch-Arbeitsflächen-Workflows
+* **[Erste Schritte mit Journeys](../building-journeys/journey.md)** – Erfahren Sie mehr über Journey-Typen, Designer und Workflow
+* **[Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)** – Erkunden Sie durch Aktionen und APIs ausgelöste Kampagnen
+* **[Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)** – Entdecken Sie Batch-Arbeitsflächen-Workflows
 
 **Benötigen Sie weitere Hilfe bei der Entscheidungsfindung?**
 * [Vergleich der Journey-Typen](../building-journeys/journey.md#journey-types-comparison)
 * [Vergleich der Kampagnentypen](../campaigns/get-started-with-campaigns.md#campaign-types)
-* [Häufig gestellte Fragen zum Journey](../building-journeys/journey-faq.md)
+* [Häufig gestellte Fragen zu Journeys](../building-journeys/journey-faq.md)
 * [Häufig gestellte Fragen zu orchestrierten Kampagnen](../orchestrated/orchestrated-campaigns-faq.md)
 

@@ -12,7 +12,7 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: a23f13bea69d1539cc2cd27a701e20287ddba026
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -47,12 +47,12 @@ Gehen Sie wie folgt vor, um Ihrer Subdomain einen Google TXT-Eintrag hinzuzufüg
 
 Gehen Sie wie folgt vor, um einen vorhandenen Google TXT-Eintrag zu aktualisieren:
 
-1. Öffnen Sie die Subdomain über das Menü **[!UICONTROL Subdomains]** .
+1. Öffnen Sie die Subdomain über das Menü **[!UICONTROL Subdomains]**.
 
-1. Löschen Sie den vorhandenen Wert im Feld **[!UICONTROL Google TXT-]** und klicken Sie auf **[!UICONTROL Speichern]**. Dieser Schritt ersetzt den vorherigen Google TXT-Datensatzwert durch eine leere Zeichenfolge.
+1. Löschen Sie den vorhandenen Wert im Feld **[!UICONTROL Google TXT-Eintrag]** und klicken Sie auf **[!UICONTROL Speichern]**. Dieser Schritt ersetzt den vorherigen Wert des Google TXT-Eintrags durch eine leere Zeichenfolge.
 
 1. Öffnen Sie nun dieselbe Subdomain erneut und geben Sie den neuen Verifizierungs-Code ein.
 
-1. Klicken Sie **[!UICONTROL erneut auf]** Speichern“.
+1. Klicken Sie erneut auf **[!UICONTROL Speichern]**.
 
-1. Überprüfen Sie den aktualisierten Datensatz über [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}.
+1. Prüfen Sie den aktualisierten Eintrag über [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}.

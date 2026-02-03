@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: 63f7b09d8b8de578c32ba0f5d6fdd6b2f5786722
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 >[!TIP]
 >
->Suchen Sie nach praktischen Anleitungen dazu, wann und wie Profile Journey-Profile verlassen sollten? Lesen Sie unser [Handbuch zum Journey der Ein- und Ausstiegskriterien](entry-exit-criteria-guide.md), das reale Ausstiegsszenarien, Best Practices und Konfigurationsanleitungen umfasst.
+>Suchen Sie nach praktischen Anleitungen dazu, wann und wie Profile aus Journeys aussteigen sollten? Lesen Sie unseren [umfassenden Leitfaden zu Journey-Eintritts- und Ausstiegskriterien](entry-exit-criteria-guide.md), der Ausstiegsszenarien aus der Praxis, Best Practices und Konfigurationsanleitungen umfasst.
 
 ## Ende einer Live-Journey
 
@@ -124,7 +124,7 @@ Beim Stoppen wird der Journey-Status auf **[!UICONTROL Gestoppt]** gesetzt.
 
 ## Verwandte Themen
 
-* [Handbuch mit den Ein- und Ausstiegskriterien für Journey](entry-exit-criteria-guide.md) - Vollständiges Handbuch mit Beispielen und Best Practices aus der Praxis
-* [Verwaltung des Profileintritts](entry-management.md) - Konfigurieren, wie Profile in Journey eintreten
-* [Beendigungskriterien konfigurieren](journey-properties.md#exit-criteria) - Einrichten der automatischen Profilentfernung aus Journey
-* [Journey anhalten](journey-pause.md) - Journey-Ausführung vorübergehend anhalten
+* [Leitfaden zu Eintritts- und Ausstiegskriterien für Journeys](entry-exit-criteria-guide.md) – Vollständiger Leitfaden mit Beispielen und Best Practices aus der Praxis
+* [Verwaltung des Profileintritts](entry-management.md) – Konfigurieren Sie, wie Profile in Journeys eintreten
+* [Konfigurieren von Ausstiegskriterien](journey-properties.md#exit-criteria) – Richten Sie die automatische Entfernung von Profilen aus Journeys ein
+* [Pausieren von Journeys](journey-pause.md) – Halten Sie die Journey-Ausführung vorübergehend an

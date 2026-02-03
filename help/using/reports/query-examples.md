@@ -11,22 +11,22 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '3337'
-ht-degree: 71%
+ht-degree: 77%
 
 ---
 
 # Beispiele für Abfragen{#query-examples}
 
-Dieser Abschnitt enthält häufig verwendete Beispiele zum Abfragen von Journey-Schrittereignissen im Data Lake. Bevor Sie sich mit bestimmten Anwendungsfällen befassen, müssen Sie wissen, welche wichtigen Kennungen beim Journey von Ereignisdaten verwendet werden.
+In diesem Abschnitt werden häufig verwendete Beispiele für die Abfrage von Journey-Schrittereignissen im Data Lake aufgeführt. Bevor Sie sich mit bestimmten Anwendungsfällen befassen, müssen Sie wissen, welche wichtigen Kennungen in Journey-Ereignisdaten verwendet werden.
 
 Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechenden Schema über zugeordnete Werte verfügen.
 
-## Verstehen von Schlüsselkennungen {#key-identifiers}
+## Grundlegendes zu wichtigen Kennungen {#key-identifiers}
 
 +++Was ist der Unterschied zwischen ID, instanceID und profileID?
 
 * ID: eindeutig für alle Schrittereignis-Einträge. Zwei verschiedene Schrittereignisse können nicht dieselbe ID aufweisen.
-* instanceID: instanceID ist für alle Schrittereignisse identisch, die einem Profil innerhalb einer Journey-Ausführung zugeordnet sind. Wenn ein Profil die Journey erneut aufruft, wird eine andere instanceID verwendet. Diese neue instanceID ist für alle Schrittereignisse der erneut aufgerufenen Instanz gleich (von Anfang bis Ende).
+* instanceID: instanceID ist für alle Schrittereignisse identisch, die einem Profil innerhalb einer Journey-Ausführung zugeordnet sind. Wenn ein Profil erneut in die Journey eintritt, wird eine andere instanceID verwendet. Diese neue instanceID ist für alle Schrittereignisse in der erneut eingetretenen Instanz gleich (von Anfang bis Ende).
 * profileID: die Identität des Profils, die dem Namespace der Journey entspricht.
 
 >[!NOTE]
@@ -80,9 +80,9 @@ AND
 
 +++
 
-+++Welche Regel hat dazu geführt, dass ein Profil keine Journey-Aktion erhalten hat?
++++Welche Regel hat dazu geführt, dass ein Profil eine bestimmte Journey-Aktion nicht erhalten hat?
 
-Diese Abfrage gibt die Schrittereignisdetails für Profile zurück, die während eines Journey verworfen wurden und keine Journey-Aktion erhalten haben. Auf diese Weise lässt sich erkennen, warum Profile aufgrund von Geschäftsregeln wie beispielsweise Beschränkungen für ruhige Stunden verworfen wurden.
+Diese Abfrage gibt die Schrittereignisdetails für Profile zurück, die während einer Journey verworfen wurden und keine Journey-Aktion erhalten haben. Auf diese Weise lässt sich erkennen, warum Profile aufgrund von Geschäftsregeln wie beispielsweise Einschränkungen durch Ruhezeiten verworfen wurden.
 
 _Data-Lake-Abfrage_
 
@@ -129,11 +129,11 @@ WHERE
 
 Die Abfrageergebnisse zeigen Schlüsselfelder an, die dabei helfen, den Grund für verworfene Profile zu identifizieren:
 
-* **actionExecutionError** - Bei Festlegung auf `businessRuleProfileDiscarded` bedeutet dies, dass das Profil aufgrund einer Geschäftsregel verworfen wurde. Das Feld `eventType` enthält zusätzliche Details darüber, welche spezifische Geschäftsregel den Verwerfen verursacht hat.
+* **actionExecutionError** – Die Einstellung `businessRuleProfileDiscarded` bedeutet, dass das Profil aufgrund einer Geschäftsregel verworfen wurde. Das Feld `eventType` enthält zusätzliche Details darüber, welche spezifische Geschäftsregel das Verwerfen verursacht hat.
 
-* **eventType** - Gibt den Typ der Geschäftsregel an, die den Verwerfen verursacht hat:
-   * `quietHours`: Profil wurde aufgrund von Konfigurationen außerhalb der Geschäftszeiten verworfen
-   * `forcedDiscardDueToQuietHours`: Das Profil wurde zwangsweise verworfen, da das Limit der Leitplanken für Profile erreicht wurde, die in ruhigen Stunden gehalten wurden
+* **eventType** – Gibt den Typ der Geschäftsregel an, die das Verwerfen verursacht hat:
+   * `quietHours`: Profil wurde aufgrund der Konfiguration von Ruhezeiten verworfen
+   * `forcedDiscardDueToQuietHours`: Profil wurde zwangsweise verworfen, da das Limit für in Ruhezeiten befindliche Profile erreicht wurde
 
 +++
 
@@ -1050,7 +1050,7 @@ Diese Abfrage hilft Ihnen zu verstehen, wie viele eindeutige Profile eine bestim
 
 +++Anzahl der in den letzten 12 Monaten pro Journey eingesetzten Profile
 
-Diese Abfrage zeigt die Anzahl der eindeutigen Profile an, die von jeder Journey in Ihrem Unternehmen in den letzten 12 Monaten kontaktiert wurden. So können Sie ermitteln, welche Journey am meisten zu Ihrer [Engageable Profiles“ &#x200B;](../audience/license-usage.md).
+Diese Abfrage zeigt die Anzahl der eindeutigen Profile an, die von jeder Journey in Ihrem Unternehmen in den letzten 12 Monaten kontaktiert wurden. So können Sie ermitteln, welche Journey am meisten zu Ihrer [Engageable Profiles“ ](../audience/license-usage.md).
 
 ```sql
 SELECT 
@@ -1105,13 +1105,13 @@ _Beispielausgabe_
 | 22.11.2024 | 9.230 |
 | 21.11.2024 | 8.670 |
 
-Mit dieser Ausgabe können Sie tägliche Trends überwachen und erkennen, wann eine große Anzahl von Profilen interagiert. In diesem Beispiel zeigt der 23. November eine signifikante Spitze (125.340 Profile) im Vergleich zur typischen täglichen Interaktion (ca. 8.000 Profile), die eine Untersuchung rechtfertigen würde, um zu verstehen, was Journey oder Kampagne die Zunahme der Anzahl Ihrer [Engageable Profiles“ verursacht &#x200B;](../audience/license-usage.md).
+Mit dieser Ausgabe können Sie tägliche Trends überwachen und erkennen, wann eine große Anzahl von Profilen interagiert. In diesem Beispiel zeigt der 23. November eine signifikante Spitze (125.340 Profile) im Vergleich zur typischen täglichen Interaktion (ca. 8.000 Profile), die eine Untersuchung rechtfertigen würde, um zu verstehen, was Journey oder Kampagne die Zunahme der Anzahl Ihrer [Engageable Profiles“ verursacht ](../audience/license-usage.md).
 
 +++
 
 +++Identifizieren von Journey, die kürzlich große Zielgruppen angesprochen haben
 
-Diese Abfrage hilft dabei, festzustellen, welche Journey in den letzten Zeiträumen mit einer großen Anzahl neuer Profile interagiert haben, was einen plötzlichen Anstieg der Anzahl [Engageable Profiles“ &#x200B;](../audience/license-usage.md) kann.
+Diese Abfrage hilft dabei, festzustellen, welche Journey in den letzten Zeiträumen mit einer großen Anzahl neuer Profile interagiert haben, was einen plötzlichen Anstieg der Anzahl [Engageable Profiles“ ](../audience/license-usage.md) kann.
 
 ```sql
 SELECT 

@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
 source-wordcount: '1708'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 Wenn Sie **[!UICONTROL Amazon S3]** als **[!UICONTROL Server-Typ]** ausgewählt haben, geben Sie die Details und Anmeldeinformationen für Ihren Server ein:
 
-* **AWS-Behältername:**:To Sie, wo Sie Ihren AWS-Behälternamen finden, finden Sie auf [dieser Seite](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/UsingBucket.html).
+* **AWS-Bucket-Name:**:To Informationen dazu, wo Sie den Namen Ihres AWS-Buckets finden, erhalten Sie [auf dieser Seite](https://docs.aws.amazon.com/de_de/AmazonS3/latest/userguide/UsingBucket.html).
 
 * **AWS-Zugriffsschlüssel**: Informationen dazu, wo Sie die ID Ihres AWS-Zugangsschlüssels finden, erhalten Sie auf [dieser Seite](https://docs.aws.amazon.com/de_de/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
@@ -122,7 +122,7 @@ Wenn Sie **[!UICONTROL SFTP]** als **[!UICONTROL Server-Typ]** ausgewählt haben
 
 >[!TIP]
 >
->Bei Verwendung der SSH-Schlüsselauthentifizierung muss der Schlüssel ein **Base64-kodierter OpenSSH** privater Schlüssel sein. Wenn es sich um eine Datei im PPK-Format handelt, verwenden Sie das PuTTY-Tool, um sie in das OpenSSH-Format zu konvertieren. Detaillierte Anweisungen finden Sie [diesem Abschnitt](#ssh-key-generation).
+>Bei Verwendung der SSH-Schlüsselauthentifizierung muss der Schlüssel ein privater **Base64-codierter OpenSSH**-Schlüssel sein. Wenn es sich um eine Datei im PPK-Format handelt, verwenden Sie das PuTTY-Tool, um sie in das OpenSSH-Format zu konvertieren. Detaillierte Anweisungen finden Sie [in diesem Abschnitt](#ssh-key-generation).
 
 >[!NOTE]
 >
@@ -170,31 +170,31 @@ Sie können auch **[!UICONTROL Als Entwurf speichern]** auswählen, um die Datei
 
 ### Generieren eines SSH-Schlüssels für die SFTP-Authentifizierung {#ssh-key-generation}
 
-Wenn Sie SFTP mit SSH-Schlüsselauthentifizierung verwenden, müssen Sie über einen Base64-kodierten privaten OpenSSH-Schlüssel verfügen. Wenn der Schlüssel nicht ordnungsgemäß formatiert ist, können beim Konfigurieren des Datei-Routings Verbindungsfehler auftreten.
+Wenn Sie SFTP mit SSH-Schlüsselauthentifizierung verwenden, müssen Sie über einen privaten Base64-codierten OpenSSH-Schlüssel verfügen. Wenn der Schlüssel nicht ordnungsgemäß formatiert ist, können beim Konfigurieren des Datei-Routings Verbindungsfehler auftreten.
 
-+++Generieren eines Base64-kodierten privaten OpenSSH-Schlüssels
++++Generieren eines privaten Base64-codierten OpenSSH-Schlüssels
 
-1. Generieren Sie in PuTTYgen Ihr Schlüsselpaar. RSA mit 2048 Bit oder höher wird empfohlen.
-1. Wählen Sie **Konvertierungen** > **OpenSSH-Schlüssel exportieren** aus dem Menü aus.
-1. Wenn Sie dazu aufgefordert werden, wählen Sie die Option zum Speichern **privaten Schlüssels (ohne Passphrasenschutz** aus.
-1. Wählen Sie im Dialogfeld „Speichern“ die Option **Alle Dateien (*.*)** als Dateityp, um sicherzustellen, dass der Schlüssel als Klartext und nicht als PPK-Datei gespeichert wird.
-1. Öffnen Sie die gespeicherte Datei mit einem Texteditor und überprüfen Sie ihr Format:
+1. Generieren Sie in PuTTYgen Ihr Schlüsselpaar. RSA mit 2048 Bit oder höher wird empfohlen.
+1. Wählen Sie im Menü **Konvertierungen** > **OpenSSH-Schlüssel exportieren** aus.
+1. Wenn Sie dazu aufgefordert werden, wählen Sie die Option zum Speichern des privaten Schlüssels **ohne Passphrasenschutz** aus.
+1. Wählen Sie im Dialogfeld „Speichern“ die Option **Alle Dateien (*.*)** als Dateityp aus, um sicherzustellen, dass der Schlüssel als Klartext und nicht als PPK-Datei gespeichert wird.
+1. Öffnen Sie die gespeicherte Datei mit einem Texteditor und prüfen Sie das Format:
    * Die Datei muss mit `-----BEGIN RSA PRIVATE KEY-----` beginnen (fünf Bindestriche davor und danach).
-   * Es sollte keine Formulierung geben, die Verschlüsselung angibt.
+   * Es sollte keine Formulierung geben, die auf Verschlüsselung hindeutet.
    * Die Datei muss mit `-----END RSA PRIVATE KEY-----` enden (fünf Bindestriche davor und danach).
-1. Kopieren Sie **gesamten Dateiinhalt** (einschließlich der `-----BEGIN/END RSA PRIVATE KEY-----`) und codieren Sie ihn mit einem Tool wie „Base64[Encode and Decode“ &#x200B;](https://www.base64encode.org/) Base64.
+1. Kopieren Sie **den gesamten Dateiinhalt** (einschließlich der `-----BEGIN/END RSA PRIVATE KEY-----`-Marken) und codieren Sie ihn mit einem Base64-Tool wie [Base64 Encode and Decode](https://www.base64encode.org/).
 
    >[!NOTE]
    >
-   >Entfernen Sie in der Base64-Codierungsausgabe alle MIME-Formatierungen. Der codierte Schlüssel muss eine einzelne fortlaufende Zeichenfolge sein.
+   >Entfernen Sie in der Base64-Codierungs-Ausgabe alle MIME-Formatierungen. Der codierte Schlüssel muss eine einzelne fortlaufende Zeichenfolge sein.
 
-1. Sie können jetzt den Base64-kodierten SSH-Schlüssel in das entsprechende Feld in Journey Optimizer einfügen.
+1. Sie können jetzt den Base64-codierten SSH-Schlüssel in das entsprechende Feld in Journey Optimizer einfügen.
 
 >[!CAUTION]
 >
->Nach der Base64-Codierung enthält der Schlüssel nicht mehr die `-----BEGIN/END RSA PRIVATE KEY-----` Markierungen und darf keine Zeilenumbrüche enthalten. Der entsprechende öffentliche Schlüssel muss der Datei mit den autorisierten Schlüsseln Ihres SFTP-Servers hinzugefügt werden.
+>Nach der Base64-Codierung enthält der Schlüssel nicht mehr die `-----BEGIN/END RSA PRIVATE KEY-----`-Marken und darf keine Zeilenumbrüche enthalten. Der entsprechende öffentliche Schlüssel muss der Datei mit den autorisierten Schlüsseln Ihres SFTP-Servers hinzugefügt werden.
 
-Weitere Informationen zum Verbinden Ihres SFTP-Kontos mit Experience Platform finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/cloud-storage/sftp).
+Weitere Informationen zum Verbinden Ihres SFTP-Kontos mit Experience Platform finden Sie [in dieser Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/cloud-storage/sftp).
 
 +++
 

@@ -10,7 +10,7 @@ version: Journey Orchestration
 source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ In diesem Beispiel ist nicht sicher, ob eine bestimmte Rangfolgenformel besser f
 
 >[!NOTE]
 >
->Implementierungsdetails für Tests und Deduplizierung bei Verwendung von Decisioning in Code-basierten Erlebnissen finden Sie [dieser Seite](../code-based/code-based-decisioning-implementations.md).
+>Implementierungsdetails für Tests und Deduplizierung bei Verwendung der Entscheidungsfindung in Code-basierten Erlebnissen finden Sie [auf dieser Seite](../code-based/code-based-decisioning-implementations.md).
 
 ## Erstellen von Auswahlstrategien
 

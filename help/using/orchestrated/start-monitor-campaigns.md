@@ -8,8 +8,8 @@ exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1141'
+ht-degree: 57%
 
 ---
 
@@ -80,7 +80,7 @@ Um eine Kampagne wieder in den Entwurfsstatus zu versetzen, öffnen Sie die orch
 
 ![](assets/back-to-draft.png)
 
-Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Die Kampagne kehrt zum Status **Entwurf** zurück. Sie können jetzt die identifizierten Probleme beheben, die Kampagne [&#x200B; testen &#x200B;](#test) sie dann erneut [veröffentlichen](#publish) wenn sie bereit ist.
+Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Die Kampagne kehrt zum Status **Entwurf** zurück. Sie können jetzt die identifizierten Probleme beheben, die Kampagne [ testen ](#test) sie dann erneut [veröffentlichen](#publish) wenn sie bereit ist.
 
 ## Nachrichtenversand bestätigen {#confirm-sending}
 
@@ -92,7 +92,7 @@ Vor der Veröffentlichung können Sie im Eigenschaftenbereich der Kanalaktivitä
 
 ## Überwachen der Kampagnenausführung {#monitor}
 
-### Visuelles Fluss-Monitoring {#flow}
+### Visuelle Flussüberwachung {#flow}
 
 Während der Ausführung (im Test- oder Live-Modus) zeigt der visuelle Fluss an, wie sich Profile in Echtzeit durch den Journey bewegen. Es wird die Anzahl der Profile angezeigt, die von einer Aufgabe in die nächste übergehen.
 
@@ -123,7 +123,7 @@ Visuelle Statusindikatoren helfen, zu verstehen, wie jede Aktivität funktionier
 >title="Logs und Aufgaben"
 >abstract="Der Bildschirm **Protokolle und Aufgaben** enthält einen Verlauf der orchestrierten Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden."
 
-Das Monitoring von Protokollen und Aufgaben ist ein wichtiger Schritt, um Ihre orchestrierten Kampagnen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Protokolle und Aufgaben können sowohl im Test- als auch im Live-Modus über die Schaltfläche **[!UICONTROL Logs]** in der Symbolleiste auf der Arbeitsfläche aufgerufen werden.
+Die Überwachung von Protokollen und Aufgaben ist ein wichtiger Schritt, um Ihre orchestrierten Kampagnen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Protokolle und Aufgaben können sowohl im Test- als auch im Live-Modus über die Schaltfläche **[!UICONTROL Logs]** in der Symbolleiste auf der Arbeitsfläche aufgerufen werden.
 
 ![Schaltfläche Protokolle in der Symbolleiste der Kampagnen-Arbeitsfläche](assets/logs-button.png){zoomable="yes"}
 

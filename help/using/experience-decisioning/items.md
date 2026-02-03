@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
->title="Entscheidungselemente verwalten"
+>title="Verwalten von Entscheidungselementen"
 >abstract="Mit Journey Optimizer können Sie Marketing-Angebote erstellen, die als Entscheidungselemente bezeichnet werden, und in einem zentralen Katalog und in Sammlungen organisieren. Derzeit sind alle erstellten Entscheidungselemente in einem einzigen „Angebote“-Katalog konsolidiert. Über diesen Bildschirm können Sie auch mithilfe der Schaltfläche **Schema bearbeiten** auf das Schema des Katalogs zugreifen und benutzerdefinierte Attribute für Ihre Entscheidungselemente erstellen."
 
 Mit Journey Optimizer können Sie Marketing-Angebote erstellen, die als Entscheidungselemente bezeichnet werden, und in einem zentralen Katalog und in Sammlungen organisieren. Sie bestehen aus standardmäßigen und benutzerdefinierten Attributen, die genau auf Ihre Bedürfnisse abgestimmt sind. Darüber hinaus enthalten sie Profileinschränkungen, mit denen Sie definieren können, wem ein Entscheidungselement angezeigt werden kann.
@@ -46,7 +46,7 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
    >
    >Die Priorität ist ein ganzzahliger Datentyp. Alle Attribute, bei denen es sich um ganzzahlige Datentypen handelt, sollten ganzzahlige Werte (ohne Dezimalstellen) enthalten.
 
-1. Das Feld **Tags** ermöglicht es Ihnen, Ihren Entscheidungselementen einheitliche Adobe Experience Platform-Tags zuzuweisen. Dies erleichtert die Klassifizierung und die Suche. [Erfahren Sie, wie Sie mit Tags arbeiten.](../start/search-filter-categorize.md#tags)
+1. Das Feld **Tags** ermöglicht es Ihnen, Ihren Entscheidungselementen einheitliche Adobe Experience Platform-Tags zuzuweisen. Dies erleichtert die Klassifizierung und die Suche. [Weitere Informationen zum Arbeiten mit Tags](../start/search-filter-categorize.md#tags)
 
 1. Verwenden Sie Fragmente, um dem Entscheidungselement mehrere Inhalte hinzuzufügen – beispielsweise, wenn Sie für verschiedene Modelle von Mobilgeräten unterschiedliche Inhalte anzeigen möchten. [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
 
@@ -78,8 +78,8 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 >abstract="Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -203,7 +203,7 @@ If a marketer wants to determine how many times a specific customer has been sho
 
    ![](assets/item-approve.png)
 
-## Entscheidungselemente verwalten {#manage}
+## Verwalten von Entscheidungselementen {#manage}
 
 In der Liste der Entscheidungselemente können Sie ein Entscheidungselement bearbeiten und seinen Status ändern (**Entwurf**, **Genehmigt**, **Archiviert**), es duplizieren oder löschen.
 

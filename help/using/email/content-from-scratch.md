@@ -12,7 +12,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Ihrers Inhalts zu beginnen:
    ![](assets/email_designer.png)
 
 
-1. Beschleunigen Sie die E-Mail-Erstellung mit dem KI-Assistenten und generieren Sie vollständige E-Mail-Inhalte mit Text und Bildern mit [KI-Assistenten für die vollständige Inhaltserstellung](../content-management/generative-full-content.md).
+1. Beschleunigen Sie die E-Mail-Erstellung mit dem KI-Assistenten und generieren Sie vollständige E-Mail-Inhalte mit Text und Bildern mit dem [KI-Assistenten für die vollständige Inhaltserstellung](../content-management/generative-full-content.md).
 
 1. Beginnen Sie mit der Gestaltung Ihres Inhalts, indem Sie **[!UICONTROL Strukturen]** per Drag-and-Drop auf die Arbeitsfläche ziehen, um das Layout Ihrer E-Mail zu definieren.
 

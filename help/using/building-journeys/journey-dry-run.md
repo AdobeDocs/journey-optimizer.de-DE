@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="Probelauf-Modus"
->abstract="Diese Journey befindet sich im Probelauf. Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren.  Mit dieser Funktion können Journey-Anwendende Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie die Journey live veröffentlichen."
+>abstract="Diese Journey befindet sich im Probelauf. Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren.  Mit dieser Funktion können Journey-Nutzende Vertrauen in ihr Journey-Design und das Zielgruppen-Targeting gewinnen, bevor sie Journeys live schalten. "
 
 
 >[!CONTEXTUALHELP]
@@ -29,7 +29,7 @@ ht-degree: 98%
 >title="Veröffentlichen einer Journey im Probelauf-Modus"
 >abstract="Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen. Nachdem die Journey entworfen wurde, kann ein Probelauf ausgeführt werden, um deren Funktionalität zu bestätigen und sicherzustellen, dass die Schritte korrekt sind. In diesem Veröffentlichungsmodus kann eine Journey getestet werden, ohne Mitteilungen an ein Profil zu senden."
 
-Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren.  Mit dieser Funktion können Journey-Anwendende Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie die Journey live veröffentlichen.
+Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren.  Mit dieser Funktion können Journey-Nutzende Vertrauen in ihr Journey-Design und das Zielgruppen-Targeting gewinnen, bevor sie Journeys live schalten. 
 
 ➡️ [Weitere Informationen zum Probelauf für Journeys finden Sie in diesem Video](#dry-run-video)
 
@@ -58,7 +58,7 @@ Während des Probelaufs wird die Journey im Simulationsmodus ausgeführt. Dabei 
 
   ![Ausgegraute Aktionsaktivitäten im Probelauf einer Journey](assets/dry-run-greyed-activities.png){width="80%" align="left"}
 
-* **Datenquellen**, einschließlich externer Datenquellen, und Aktivitäten des Typs **Warten** sind während des Probelaufs standardmäßig deaktiviert. Sie können dieses Verhalten jedoch ändern [beim Aktivieren des Dry Run-Modus](#journey-dry-run-start).
+* **Datenquellen**, einschließlich externer Datenquellen, und Aktivitäten des Typs **Warten** sind während des Probelaufs standardmäßig deaktiviert. Sie können dieses Verhalten jedoch [bei der Aktivierung des Probelaufmodus](#journey-dry-run-start) ändern.
 
 * **Reaktions**-Knoten werden nicht ausgeführt: Alle Profile, die diese erreichen, steigen erfolgreich aus. Es gelten jedoch die folgenden Prioritätsregeln:
    * Wenn ein **Reaktions**-Knoten mit einem oder mehreren Knoten vom Typ **unitäres Ereignis** parallel verwendet wird, durchlaufen die Profile immer das Reaktionsereignis.
@@ -124,7 +124,7 @@ Links zu den Berichten der letzten 24 Stunden und der gesamten Zeit sind im Bes
 
 ## Leitlinien und Einschränkungen {#journey-dry-run-limitations}
 
-* Profile im Dry-Run-Modus werden in Richtung [Engagierbare Profile“ &#x200B;](../audience/license-usage.md)
+* Profile im Dry-Run-Modus werden in Richtung [Engagierbare Profile“ ](../audience/license-usage.md)
 * Journeys im Probelaufmodus werden auf das Live-Journey-Kontingent angerechnet.
 * Probelauf-Journeys wirken sich nicht auf Geschäftsregeln aus.
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
@@ -149,4 +149,4 @@ Bei der Analyse von **Journey-Reporting-Metriken** mit dem Abfrage-Service von A
 
 In diesem Video erfahren Sie, wie Sie einen Probelauf für Ihre Journeys ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464691/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

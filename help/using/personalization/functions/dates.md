@@ -9,7 +9,7 @@ exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 80c652afef03b0be6d917cb4389850780c2a4379
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Mit Datums- und Uhrzeitfunktionen können Datums- und Uhrzeitvorgänge für Wert
 
 >[!NOTE]
 >
->Die `now()` Funktion ist im Personalisierungseditor nicht verfügbar. Verwenden Sie stattdessen `getCurrentZonedDateTime()` oder `currentTimeInMillis()` für aktuelle Datums-/Uhrzeitwerte. [Weitere Informationen](../../email/code-content.md#date-time-limitations)
+>Die Funktion `now()` ist im Personalisierungseditor nicht verfügbar. Verwenden Sie stattdessen `getCurrentZonedDateTime()` oder `currentTimeInMillis()` für aktuelle Datums-/Uhrzeitwerte. [Weitere Informationen](../../email/code-content.md#date-time-limitations)
 
 ## Tage hinzufügen {#add-days}
 

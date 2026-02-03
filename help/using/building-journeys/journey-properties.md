@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
 source-wordcount: '2866'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser
 
 Sie haben folgende Möglichkeiten:
 
-* Zuweisen von einheitlichen Adobe Experience Platform-Tags zu Ihrer Journey, um sie einfach zu klassifizieren und die Suche in der Kampagnenliste zu verbessern. [Erfahren Sie, wie Sie mit Tags arbeiten.](../start/search-filter-categorize.md#tags)
+* Zuweisen von einheitlichen Adobe Experience Platform-Tags zu Ihrer Journey, um sie einfach zu klassifizieren und die Suche in der Kampagnenliste zu verbessern. [Weitere Informationen zum Arbeiten mit Tags](../start/search-filter-categorize.md#tags)
 * Auswählen von Journey-Metriken. [Weitere Informationen zum Konfigurieren und Tracking von Journey-Metriken](success-metrics.md)
 * Verwalten Sie [Eintritt und Wiedereintritt](#entrance). Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Einzelheiten hierzu finden Sie auf [dieser Seite](entry-management.md).
 * Verwalten des [Zugriffs auf Daten](#manage-access)
@@ -132,7 +132,7 @@ Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey **91 
 
 >[!NOTE]
 >
->Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte &#x200B;](end-journey.md#journey-finished-definition).
+>Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte ](end-journey.md#journey-finished-definition).
 
 Aufgrund des Journey-Timeouts von 91 Tagen können wir, wenn der erneute Eintritt in die Journey nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 91 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 
@@ -256,7 +256,7 @@ Adobe Journey Optimizer verwendet Zusammenführungsrichtlinien beim Abrufen von 
 * In Journeys für unitäre Ereignisse wird die standardmäßige Zusammenführungsrichtlinie verwendet
 * In Journeys für Geschäftsereignisse wird die Zusammenführungsrichtlinie aus der Zielgruppe in der Aktivität „Zielgruppe lesen“ verwendet.
 
-Adobe Journey Optimizer wendet die genutzte Zusammenführungsrichtlinie auf die gesamte Journey an. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. [`inAudience`-Funktionen](functions/functioninaudience.md)), entstehen Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie, es wird ein Fehler generiert und die Veröffentlichung blockiert. Wenn jedoch bei der Personalisierung von Nachrichten eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis ausgelöst. Daher wird dringend empfohlen, die mit Ihrer Audience verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Audience bei der Nachrichtenpersonalisierung verwendet wird.
+Adobe Journey Optimizer wendet die genutzte Zusammenführungsrichtlinie auf die gesamte Journey an. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. [`inAudience`-Funktionen](functions/functioninaudience.md)), entstehen Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie, es wird ein Fehler generiert und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis generiert. Aus diesem Grund wird dringend empfohlen, die mit Ihrer Zielgruppe verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Zielgruppe bei der Nachrichtenpersonalisierung verwendet wird.
 
 Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
@@ -279,7 +279,7 @@ Sie können Profile aus einer Journey entfernen, wenn sie nicht mehr dem Zweck d
 
 >[!TIP]
 >
->Auf der Suche nach praktischer Anleitung mit realen Beispielen? Lesen Sie unser [Handbuch zum Journey der Ein- und Ausstiegskriterien](entry-exit-criteria-guide.md), das vollständige Anwendungsfälle mit Ein- und Ausstiegskonfigurationen, Best Practices und Optimierungsstrategien umfasst.
+>Suchen Sie nach einer praktischer Anleitung mit Beispielen aus der Praxis? Lesen Sie unseren [umfassenden Leitfaden zu Journey-Eintritts- und Ausstiegskriterien](entry-exit-criteria-guide.md), der vollständige Anwendungsfälle mit Eintritts- und Ausstiegskonfigurationen, Best Practices und Optimierungsstrategien umfasst.
 
 **Beispiel für einen Anwendungsfall**
 
@@ -342,10 +342,10 @@ Bei Verwendung der Funktion [Profilattributbasierte Ausstiegskriterien](#profile
 
 ### Verwandte Themen {#exit-criteria-related}
 
-* [Handbuch mit den Ein- und Ausstiegskriterien für Journey](entry-exit-criteria-guide.md) - Vollständiges Handbuch mit Beispielen und Best Practices aus der Praxis
-* [Verwaltung des Profileintritts](entry-management.md) - Konfigurieren, wie Profile in Journey eintreten
-* [Wie Journey enden](end-journey.md) - Verstehen Sie die natürliche Journey-Vervollständigung
-* [Journey mit Profilattribut-Beendigungskriterien anhalten](journey-pause.md#journey-exit-criteria) - Beim Anhalten von Journey Beendigungskriterien verwenden
+* [Leitfaden zu Eintritts- und Ausstiegskriterien für Journeys](entry-exit-criteria-guide.md) – Vollständiger Leitfaden mit Beispielen und Best Practices aus der Praxis
+* [Verwaltung des Profileintritts](entry-management.md) – Konfigurieren Sie, wie Profile in Journeys eintreten
+* [Beenden von Journeys](end-journey.md) – Erfahren Sie, wie Journeys regulär abgeschlossen werden
+* [Pausieren einer Journey mit Profilattribut-Ausstiegskriterien](journey-pause.md#journey-exit-criteria) – Verwenden Sie Ausstiegskriterien beim Pausieren von Journeys
 
 ## Journey-Zeitplan {#schedule}
 
@@ -355,7 +355,7 @@ Der Abschnitt **[!UICONTROL Zeitplan]** ist nur dann verfügbar, wenn eine Aktiv
 
 Im Abschnitt **[!UICONTROL Konflikt-Management]** in den Eigenschaften der Journey können Sie Konflikte überwachen und Ihre Journeys priorisieren. Sie haben folgende Möglichkeiten:
 
-* Wenden Sie einen **Regelsatz** an, um diese Journey basierend auf Begrenzungsregeln für einen Teil der Zielgruppe auszuschließen. [Erfahren Sie, wie Sie mit Regelsätzen arbeiten](../conflict-prioritization/rule-sets.md)
+* Wenden Sie einen **Regelsatz** an, um diese Journey basierend auf Begrenzungsregeln für einen Teil der Zielgruppe auszuschließen. [Weitere Informationen zum Arbeiten mit Regelsätzen](../conflict-prioritization/rule-sets.md)
 
 * Weisen Sie der Journey einen **Prioritätswert** von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Der hier eingegebene Prioritätswert wird von allen eingehenden Aktionen übernommen (beispielsweise In-App-Aktionen), die in dieser Journey enthalten sind. [Informationen zum Arbeiten mit Prioritätswerten](../conflict-prioritization/priority-scores.md)
 

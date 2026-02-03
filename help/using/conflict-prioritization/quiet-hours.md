@@ -192,4 +192,4 @@ Sobald Ihre Journeys oder Kampagnen aktiviert und ausgeführt wurden, können Si
 
 Erfahren Sie, wie Sie die Ruhezeitenfunktion in Adobe Journey Optimizer verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475861?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
