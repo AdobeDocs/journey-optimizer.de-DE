@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
 workflow-type: tm+mt
-source-wordcount: '3074'
+source-wordcount: '3086'
 ht-degree: 98%
 
 ---
@@ -132,7 +132,11 @@ ht-degree: 98%
       + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
       + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
-+ [Herausforderungen bezüglich der Treue](using/loyalty-challenges/loyalty-challenges.md)
++ Herausforderungen bei der Treue {#loyalty-challenges}
+   + [Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue](using/loyalty-challenges/gs-loyalty-challenges.md)
+   + [Herausforderungen im Zusammenhang mit Treueprogrammen](using/loyalty-challenges/get-started.md)
+   + [Herausforderungen schaffen](using/loyalty-challenges/create-challenges.md)
+   + [Herausforderungen bewältigen](using/loyalty-challenges/manage-challenges.md)
 + Kampagnen {#campaigns}
    + [Kampagnen](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
