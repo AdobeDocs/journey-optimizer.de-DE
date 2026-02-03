@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 version: Journey Orchestration
-source-git-commit: ee67a1a9270c12fdf199bc378deaa6006553533c
+source-git-commit: 48ccfc4047251fa97777d3fb2f160c33797a113e
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5146'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,7 @@ Mit den Herausforderungen im Zusammenhang mit der Treue können Sie personalisie
 >**In diesem Handbuch:**
 >
 >* [Überblick](#overview) - Erfahren Sie mehr über die Herausforderungen im Zusammenhang mit der Treue
+>* [Funktionsweise](#how-it-works) - Schrittweiser Workflow von der Einrichtung bis zur Überwachung
 >* [Voraussetzungen](#prerequisites) - Einrichten der Datenaufnahme und der Berechtigungen
 >* [Herausforderungen im Zusammenhang mit Treueprogrammen](#access) - Öffnen Sie das Menü und sehen Sie sich Herausforderungen an.
 >* [Herausforderungen schaffen](#create-challenges) - Neue Herausforderungen im Bereich Kundentreue
@@ -43,6 +44,32 @@ Mit den Herausforderungen im Zusammenhang mit der Treue können Sie personalisie
 ## Übersicht {#overview}
 
 Mit den Herausforderungen im Zusammenhang mit der Kundentreue können Sie personalisierte Interaktionsangebote entwerfen und bereitstellen, die Kunden dazu motivieren, bestimmte Aktionen durchzuführen und Belohnungen zu sammeln. Die Funktion bietet eine Komplettlösung für die Erstellung von Treueprogrammen in großem Maßstab, von der Definition von Aufgaben und Meilensteinen bis zur Bereitstellung von Inhalten und der Verfolgung der Leistung über verschiedene Kanäle hinweg. Sie können drei Arten von Challenge-Erlebnissen erstellen, Belohnungen konfigurieren, Multi-Channel-Benachrichtigungen in wichtigen Lebenszyklusphasen senden und die Leistung mithilfe automatisch generierter Journey überwachen - und das alles unter Beibehaltung der Integration mit Ihrem externen Treueprogramm-System.
+
+## Funktionsweise {#how-it-works}
+
+Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
+
+1. **Datenaufnahme einrichten** - Konfigurieren Sie Experience Platform-Quell-Connectoren (wie Kapillare), um Treueprogramm-Ereignisdaten aufzunehmen, mit denen Kundenaktionen und -fortschritt verfolgt werden.
+
+2. **Herausforderung erstellen** - Definiert die grundlegenden Eigenschaften der Herausforderung, einschließlich Name, Typ (Standard, Streak oder Sequenziell), Zielgruppe und Datumsbereich.
+
+3. **Aufgaben hinzufügen** - Definiert die spezifischen Aktionen, die Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben, Besuch usw.), Mengen, Produktfiltern und Belohnungen.
+
+4. **Erstellen von Inhaltskarten** - Erstellen Sie die visuelle Darstellung Ihrer Challenge mit Journey Optimizer-Inhaltskarten, die auf Kundengeräten angezeigt werden.
+
+5. **Messaging konfigurieren** (Optional) - Richten Sie Multi-Channel-Nachrichten (In-App, E-Mail, Push) für die wichtigsten Phasen ein: Start, in Bearbeitung und Abschluss.
+
+6. **Überprüfen und**: Testen Sie Ihre Herausforderung mit Testprofilen und veröffentlichen Sie sie dann, um sie Ihrer Zielgruppe verfügbar zu machen.
+
+7. **Automatisch erstelltes Journey** - Beim Veröffentlichen erstellt Journey Optimizer automatisch eine Journey, die die Bereitstellung und das Messaging von Inhaltskarten koordiniert.
+
+8. **Journey aktivieren** - Die automatisch generierte Journey wird am Startdatum der Herausforderung aktiviert und verwaltet alle Kundeninteraktionen.
+
+9. **Leistung überwachen** - Verfolgen Sie Teilnahme, Abschlussraten, Belohnungsverteilung und Nachrichteninteraktion durch integrierte Berichte und die Journey-Arbeitsfläche.
+
+>[!NOTE]
+>
+>Die automatisch generierte Journey wird in Ihrem Journey-Inventar angezeigt und kann bei Bedarf angepasst werden. Direkt am Journey vorgenommene Änderungen werden jedoch nicht mit der Challenge-Konfiguration synchronisiert.
 
 ## Wichtigste Funktionen
 
@@ -90,7 +117,7 @@ Bevor Sie Herausforderungen im Zusammenhang mit dem Treueprogramm nutzen, stelle
 
   Detaillierte Anweisungen finden Sie unter:
 
-   * [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+   * [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Konfigurieren von Quell-Connectoren in Journey Optimizer](../start/get-started-sources.md)
 
 * Erforderliche Berechtigungen {#required-permissions}
@@ -147,6 +174,59 @@ Herausforderungen innerhalb eines bestimmten Datumsbereichs mit „Nach Datum **
 
 Herausforderungen bei der Anwendung bestimmter Tags anzeigen (**[!UICONTROL nach Tags]**.
 
+
+**[!UICONTROL Rabatt]**: Geben Sie einen Rabattcode oder -wert an.
+
+* Rabatttyp eingeben (Prozentsatz oder fester Betrag)
+* Rabattwert eingeben
+* Geben Sie optional einen Rabattcode an oder lassen Sie ihn vom System generieren.
+
+**[!UICONTROL Kostenloser Artikel]**: Gewähren Sie ein kostenloses Produkt oder eine kostenlose Dienstleistung.
+
+* Geben Sie die Artikel-SKU oder Beschreibung an
+* Geben Sie an, wie das kostenlose Element beansprucht werden soll
+
+**[!UICONTROL Benutzerdefinierte Belohnung]**: Definieren Sie einen benutzerdefinierten Belohnungstyp.
+
+* Belohnungsbeschreibung eingeben
+* Angabe aller relevanten Codes oder Kennungen
+* Konfigurieren, wie die Belohnung zugestellt oder beansprucht wird
+
+#### Beispiel für eine Belohnungskonfiguration {#reward-example}
+
+**Challenge**: „Coffee Lover Challenge“
+
+**Aufgabe 1**: 3 Kaffee kaufen
+
+* Belohnung: 30 Punkte (10 Punkte pro Kaffee)
+* Zeit: Nach Abschluss der Aufgabe
+
+**Aufgabe 2**: 2 neue saisonale Getränke ausprobieren
+
+* Belohnung: 50 Punkte
+* Zeit: Nach Abschluss der Aufgabe
+
+**Challenge Completion Belohnung**:
+
+* Prämie: Gratis Kaffee + 100 Bonuspunkte
+* Zeit: Nach Abschluss aller Aufgaben
+
+**Total mögliche Prämien**: 180 Punkte + 1 kostenloser Kaffee
+
+### Erweiterte Aufgabenattribute {#advanced-attributes}
+
+Für erweiterte Anwendungsfälle können Sie zusätzliche Aufgabenattribute konfigurieren:
+
+**[!UICONTROL Benutzerdefinierte Bedingungen]**: Fügen Sie mithilfe von Experience Platform-Segmenten oder -Regeln benutzerdefinierte Logik oder Bedingungen hinzu, die über die standardmäßigen Aufgabentypen hinausgehen.
+
+**[!UICONTROL Geofencing]**: (Für Besuchsaufgaben) Erfordert Besuche an bestimmten Orten, die durch geografische Koordinaten und Radius definiert sind.
+
+**[!UICONTROL Zeitbasierte Anforderungen]**: Aufgaben müssen zu bestimmten Zeiten, Tagen oder Datumsbereichen ausgeführt werden.
+
+**[!UICONTROL Abklingzeit]**: Legen Sie eine Mindestzeit zwischen den Aufgabenabschlüssen fest, um schnelle wiederholte Aktionen zu verhindern.
+
+**[!UICONTROL Aufgabenabhängigkeiten]**: (Für sequenzielle Herausforderungen) Definieren Sie Voraussetzungen, die erfüllt sein müssen, bevor diese Aufgabe verfügbar wird.
+
 ## Herausforderungen schaffen {#create-challenges}
 
 Erstellen Sie eine Herausforderung zum Treueprogramm, um das Interaktionsangebot zu definieren, Inhaltskarten für den Versand zu konfigurieren, Aufgaben hinzuzufügen, Belohnungen einzurichten und optional das Messaging kanalübergreifend zu konfigurieren.
@@ -198,7 +278,7 @@ So erstellen Sie eine neue Herausforderung für das Treueprogramm:
 
 Informationen zum Erstellen oder Verfeinern von Zielgruppen finden Sie unter [Erstellen von Zielgruppen in Journey Optimizer](../audience/about-audiences.md).
 
-&#x200B;4. Wählen Sie **[!UICONTROL Als Entwurf speichern]**, um mit der Konfiguration Ihrer Challenge fortzufahren.
+1. Wählen Sie **[!UICONTROL Als Entwurf speichern]**, um mit der Konfiguration Ihrer Challenge fortzufahren.
 
 ## Aufgaben erstellen {#create-tasks}
 
@@ -372,59 +452,6 @@ Wählen Sie aus, wann Kunden Belohnungen erhalten:
 
 * Anzahl der Punkte eingeben (z. B. 100)
 * Punkte werden über eine API an Ihr externes Treueprogramm-Management-System übermittelt.
-
-**[!UICONTROL Rabatt]**: Geben Sie einen Rabattcode oder -wert an.
-
-* Rabatttyp eingeben (Prozentsatz oder fester Betrag)
-* Rabattwert eingeben
-* Geben Sie optional einen Rabattcode an oder lassen Sie ihn vom System generieren.
-
-**[!UICONTROL Kostenloser Artikel]**: Gewähren Sie ein kostenloses Produkt oder eine kostenlose Dienstleistung.
-
-* Geben Sie die Artikel-SKU oder Beschreibung an
-* Geben Sie an, wie das kostenlose Element beansprucht werden soll
-
-**[!UICONTROL Benutzerdefinierte Belohnung]**: Definieren Sie einen benutzerdefinierten Belohnungstyp.
-
-* Belohnungsbeschreibung eingeben
-* Angabe aller relevanten Codes oder Kennungen
-* Konfigurieren, wie die Belohnung zugestellt oder beansprucht wird
-
-#### Beispiel für eine Belohnungskonfiguration {#reward-example}
-
-**Challenge**: „Coffee Lover Challenge“
-
-**Aufgabe 1**: 3 Kaffee kaufen
-
-* Belohnung: 30 Punkte (10 Punkte pro Kaffee)
-* Zeit: Nach Abschluss der Aufgabe
-
-**Aufgabe 2**: 2 neue saisonale Getränke ausprobieren
-
-* Belohnung: 50 Punkte
-* Zeit: Nach Abschluss der Aufgabe
-
-**Challenge Completion Belohnung**:
-
-* Prämie: Gratis Kaffee + 100 Bonuspunkte
-* Zeit: Nach Abschluss aller Aufgaben
-
-**Total mögliche Prämien**: 180 Punkte + 1 kostenloser Kaffee
-
-### Erweiterte Aufgabenattribute {#advanced-attributes}
-
-Für erweiterte Anwendungsfälle können Sie zusätzliche Aufgabenattribute konfigurieren:
-
-**[!UICONTROL Benutzerdefinierte Bedingungen]**: Fügen Sie mithilfe von Experience Platform-Segmenten oder -Regeln benutzerdefinierte Logik oder Bedingungen hinzu, die über die standardmäßigen Aufgabentypen hinausgehen.
-
-**[!UICONTROL Geofencing]**: (Für Besuchsaufgaben) Erfordert Besuche an bestimmten Orten, die durch geografische Koordinaten und Radius definiert sind.
-
-**[!UICONTROL Zeitbasierte Anforderungen]**: Aufgaben müssen zu bestimmten Zeiten, Tagen oder Datumsbereichen ausgeführt werden.
-
-**[!UICONTROL Abklingzeit]**: Legen Sie eine Mindestzeit zwischen den Aufgabenabschlüssen fest, um schnelle wiederholte Aktionen zu verhindern.
-
-**[!UICONTROL Aufgabenabhängigkeiten]**: (Für sequenzielle Herausforderungen) Definieren Sie Voraussetzungen, die erfüllt sein müssen, bevor diese Aufgabe verfügbar wird.
-
 ## Konfigurieren von Inhaltskarten {#configure-content-cards}
 
 Inhaltskarten sind die primäre Methode, mit der Kunden Herausforderungen auf ihren Geräten angezeigt werden. Für die Challenge müssen Sie eine Inhaltskarte konfigurieren.
@@ -548,7 +575,7 @@ Wenn Sie eine Challenge mit konfigurierten Inhalten und Nachrichten speichern, g
 
 So zeigen Sie die automatisch generierte Journey an:
 
-1. Navigieren Sie im linken Navigationsmenü **&#x200B;**&#x200B;Journey.
+1. Navigieren Sie im linken Navigationsmenü **** Journey.
 
 2. Suchen Sie nach der Journey anhand des Challenge-Namens oder filtern Sie nach Tags, wenn Sie sie zugewiesen haben.
 
@@ -1040,5 +1067,5 @@ Während der Beta-Phase ist Ihr Feedback nützlich, um uns bei der Verbesserung 
 * [Push-Benachrichtigungen erstellen](../push/create-push.md)
 * [Journey erstellen](../building-journeys/journey-gs.md)
 * [Journey überwachen](../building-journeys/report-journey.md)
-* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Konfigurieren von Quell-Connectoren in Journey Optimizer](../start/get-started-sources.md)
