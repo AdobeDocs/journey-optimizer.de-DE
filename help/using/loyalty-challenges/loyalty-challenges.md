@@ -117,7 +117,7 @@ Bevor Sie Herausforderungen im Zusammenhang mit dem Treueprogramm nutzen, stelle
 
   Detaillierte Anweisungen finden Sie unter:
 
-   * [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+   * [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
    * [Konfigurieren von Quell-Connectoren in Journey Optimizer](../start/get-started-sources.md)
 
 * Erforderliche Berechtigungen {#required-permissions}
@@ -1068,5 +1068,5 @@ Während der Beta-Phase ist Ihr Feedback nützlich, um uns bei der Verbesserung 
 * [Push-Benachrichtigungen erstellen](../push/create-push.md)
 * [Journey erstellen](../building-journeys/journey-gs.md)
 * [Journey überwachen](../building-journeys/report-journey.md)
-* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
 * [Konfigurieren von Quell-Connectoren in Journey Optimizer](../start/get-started-sources.md)
