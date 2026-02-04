@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3091'
 ht-degree: 98%
 
 ---
@@ -608,7 +608,9 @@ ht-degree: 98%
       + [Erste Schritte mit der Entscheidungsfindung](using/experience-decisioning/gs-experience-decisioning.md)
       + [Leitlinien und Einschränkungen für die Entscheidungsfindung](using/experience-decisioning/decisioning-guardrails.md)
       + [Häufig gestellte Fragen zu Decisioning](using/experience-decisioning/decisioning-faq.md)
-      + [Migrieren vom Entscheidungs-Management zum Entscheidungs-Management](using/experience-decisioning/migrate-to-decisioning.md)
+      + Zu Decisioning migrieren {#migrate-to-decisioning}
+         + [Vorteile der Migration zu Decisioning](using/experience-decisioning/migrate-to-decisioning.md)
+         + [Decisioning-Migrations-API](using/experience-decisioning/decisioning-migration-api.md)
       + API-Referenz {#experience-decisioning-api-reference}
          + [API-Referenz](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + [Erste Schritte mit Entscheidungsfindungs-APIs](using/experience-decisioning/api-reference/getting-started.md)

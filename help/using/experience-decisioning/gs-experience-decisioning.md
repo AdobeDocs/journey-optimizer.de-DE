@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 95%
+source-wordcount: '647'
+ht-degree: 93%
 
 ---
 
@@ -97,6 +97,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 * **[Definieren von Auswahlstrategien](selection-strategies.md)**: Erfahren Sie, wie Sie Auswahlstrategien mit Eignungsregeln und Rangfolgenmethoden erstellen.
 * **[Erstellen von Entscheidungsrichtlinien](create-decision-policy.md)**: Erfahren Sie, wie Sie Entscheidungsrichtlinien erstellen, in denen Strategien und Einschränkungen kombiniert werden.
 * **[Rangfolge und KI-Modelle](ranking/ranking.md)**: Setzen Sie übergeordnete Rangfolgenformeln und KI-Modelle für personalisierte Entscheidungsfindung ein.
+* **[Migration vom Entscheidungs-Management](migrate-to-decisioning.md)** - Erfahren Sie mehr über die Vorteile der Migration zu Decisioning und verwenden Sie die APIs der Migrations-Tools.
 * **[Entscheidungsleitlinien](decisioning-guardrails.md)**: Lernen Sie wichtige Einschränkungen und Best Practices bei der Implementierung von Entscheidungsfindung kennen.
 * **[Tutorials zur Entscheidungsfindung](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}**: Erkunden Sie Video-Tutorials mit detaillierten Anleitungen zu Entscheidungsfunktionen und Best Practices.
 
@@ -104,4 +105,4 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
 Erfahren Sie mehr über die Entscheidungsfunktionen in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475872?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

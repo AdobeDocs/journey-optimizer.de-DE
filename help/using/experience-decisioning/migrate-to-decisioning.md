@@ -1,18 +1,18 @@
 ---
-title: Migrieren vom Entscheidungs-Management zum Entscheidungs-Management
+title: Vorteile der Migration zu Decisioning
 description: Erfahren Sie mehr über die Vorteile der Migration vom Entscheidungs-Management zum Entscheidungs-Management
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 669ea379f9e0ca54eb53be66f65343a9e00203cb
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 4%
+source-wordcount: '1249'
+ht-degree: 3%
 
 ---
 
-# Migrieren vom Entscheidungs-Management zum Entscheidungs-Management {#migrate-to-decisioning}
+# Vorteile der Migration zu Decisioning {#migrate-to-decisioning}
 
 ## Was ist Decisioning? {#what-is-decisioning}
 
@@ -26,7 +26,7 @@ Decisioning bietet gegenüber dem alten Entscheidungs-Management-Framework erheb
 
 ### KI- und maschinelle Lernfunktionen
 
-* **Benutzerdefinierte Metriken**: Möglichkeit, benutzerdefinierte Optimierungsmetriken für KI-Modelle zu verwenden. Dies bietet Berichterstellungsinteroperabilität mit [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardisiert das Reporting auf beiden Plattformen und verbessert die Datenkonsistenz und -zuverlässigkeit. Die nahtlose Integration bietet eine klarere Ansicht der Leistungsmetriken und fügt neue Funktionen hinzu, wie z. B. das Erstellen einfacher Metriken, das Veröffentlichen von Zielgruppen, das Stellen von Ad-hoc-Fragen mit Insight Builder und das Planen von Berichten.
+* **Benutzerdefinierte Metriken**: Möglichkeit, benutzerdefinierte Optimierungsmetriken für KI-Modelle zu verwenden. Dies bietet Berichterstellungsinteroperabilität mit [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardisiert das Reporting auf beiden Plattformen und verbessert die Datenkonsistenz und -zuverlässigkeit. Die nahtlose Integration bietet eine klarere Ansicht der Leistungsmetriken und fügt neue Funktionen hinzu, wie z. B. das Erstellen einfacher Metriken, das Veröffentlichen von Zielgruppen, das Stellen von Ad-hoc-Fragen mit Insight Builder und das Planen von Berichten.
 
 * **Steigerungsmessung**: Möglichkeit, Traffic in KI-Modellen zu visualisieren, zu erkunden oder zu nutzen. Dadurch können Marketing-Experten und Datenwissenschaftler quantifizieren, wie die KI-Exploration die langfristige Modellleistung und die Auffindbarkeit neuer erfolgreicher Angebote verbessert. Transparenz bei der Traffic-Zuordnung schafft Vertrauen in KI-Entscheidungen und ermöglicht es Teams, im Laufe der Zeit sowohl für das Lernen als auch für die Leistung zu optimieren. [Weitere Informationen](ranking/auto-optimization-model.md#lift)
 
@@ -87,11 +87,20 @@ Dashboard, das die Leistung von Entscheidungselementen und Auswahlstrategien geg
 
 ## Migrations-Tools {#migration-tooling}
 
-Das Journey Optimizer-Team arbeitet derzeit an Migrations-Tool-APIs, um Entscheidungs-Management-Entitäten zu Decisioning zu migrieren. Diese Tools ermöglichen eine nahtlose Migration zwischen Sandboxes mit Funktionen zur Abhängigkeitsauflösung und zum Rollback. Wenden Sie sich bei Interesse an den Adobe-Support.
+Ein umfangreicher Satz von **Migrations-Tool-APIs** steht zur Verfügung, um Entscheidungs-Management-Entitäten in das Decisioning zu migrieren. Diese APIs ermöglichen eine nahtlose Migration zwischen Sandboxes mit Funktionen zur automatischen Auflösung von Abhängigkeiten und zum Rollback.
+
+Mit den Migrations-Tool-APIs können Sie:
+
+* **Analysieren von** zwischen Quell- und Ziel-Sandboxes
+* **Migration in verschiedenen Bereichen** - Sandbox-, Angebots- oder Entscheidungsebene
+* **Rollback-Migrationen** wenn Probleme erkannt werden
+
+Die vollständige API-Dokumentation, einschließlich Authentifizierung, Endpunkte, Anfrage-/Antwortbeispiele und Schritt-für-Schritt-Workflows, finden Sie in der Dokumentation [Decisioning Migration API](decisioning-migration-api.md).
 
 ## Verwandte Themen {#related-topics}
 
 * [Erste Schritte mit der Entscheidungsfindung](gs-experience-decisioning.md)
 * [Leitplanken und Einschränkungen bei Entscheidungen](decisioning-guardrails.md)
 * [Häufig gestellte Fragen zu Decisioning](decisioning-faq.md)
+* [Decisioning-Migrations-API](decisioning-migration-api.md)
 

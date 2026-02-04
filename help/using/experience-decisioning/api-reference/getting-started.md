@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 exl-id: 7a4b5d4e-9c1d-4f3a-b8e9-1d5f6e7a8c3a
 version: Journey Orchestration
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 89%
 
 ---
 
@@ -60,3 +60,7 @@ Nachdem Sie nun die Grundlagen der Decisioning-APIs kennen, können Sie mit den 
 * [Erstellen von Eignungsregeln](eligibility-rules/create.md)
 
 Weitere Informationen zur Verwendung der Entscheidungsfindung in Ihren Kampagnen und Journeys finden Sie in der [Dokumentation zur Entscheidungsfindung](../gs-experience-decisioning.md).
+
+>[!NOTE]
+>
+>Wenn Sie vorhandene Entscheidungs-Management-Objekte zu Decisioning migrieren müssen, verwenden Sie die dedizierte [Decisioning-Migrations-API](../decisioning-migration-api.md). Diese spezielle API bietet automatisierte Funktionen zur Auflösung von Abhängigkeiten und Rollback, die speziell für die Migration von Entscheidungsentitäten über Sandboxes hinweg entwickelt wurden.

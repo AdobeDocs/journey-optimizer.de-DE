@@ -9,10 +9,10 @@ role: User, Developer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '1701'
-ht-degree: 100%
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+workflow-type: tm+mt
+source-wordcount: '1728'
+ht-degree: 97%
 
 ---
 
@@ -31,6 +31,10 @@ Der Kopiervorgang erfolgt über den Export und Import eines Pakets zwischen der 
 1. [Hinzufügen des Objekts zum Export als Paket in der Quell-Sandbox](#export)
 1. [Veröffentlichen des Pakets](#publish)
 1. [Importieren des Pakets in die Ziel-Sandbox](#import)
+
+>[!NOTE]
+>
+>Verwenden Sie für die Migration von Entscheidungs-Management-Objekten zu Decisioning die dedizierte [Decisioning Migration API](../experience-decisioning/decisioning-migration-api.md), die automatisierte Abhängigkeitsauflösungen und Rollback-Funktionen bietet, die speziell für die Migration von Entscheidungsentitäten entwickelt wurden.
 
 ## Exportierte Objekte und Best Practices {#objects}
 
@@ -93,7 +97,7 @@ Stellen Sie beim Kopieren von Kampagnen sicher, dass die unten aufgeführten Obj
 
 * Die Sandbox-Kopie für Rangfolgeformeln mit KI-Modellen wird derzeit nicht unterstützt.
 
-* Beim Kopieren einer Kampagne werden Entscheidungselemente (Angebotselemente) nicht automatisch mitkopiert. Stellen Sie also sicher, dass Sie sie einzeln mit der Option „Zu Paket hinzufügen“ kopieren.
+* Beim Kopieren einer Kampagne werden Entscheidungselemente (Angebotselemente) nicht automatisch mitkopiert. Stellen Sie sicher, dass Sie sie einzeln mit der Option „Zu Paket hinzufügen“ kopieren.
 
 * Wenn eine Entscheidungsrichtlinie über eine Auswahlstrategie verfügt, müssen Entscheidungselemente separat hinzugefügt werden. Wenn sie manuelle oder Fallback-Entscheidungselemente enthält, werden diese automatisch als direkte Abhängigkeiten hinzugefügt.
 
