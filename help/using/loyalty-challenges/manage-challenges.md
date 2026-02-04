@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '807'
 ht-degree: 3%
 
 ---
@@ -42,8 +42,8 @@ ht-degree: 3%
 
 Challenges durchlaufen verschiedene Status während ihres Lebenszyklus:
 
-* **Entwurf**: Herausforderung wird erstellt oder bearbeitet und steht Kunden noch nicht zur Verfügung
-* **Veröffentlicht**: Herausforderung ist aktiv, die zugehörige Journey wurde erstellt.
+* **Entwurf**: Herausforderung wird erstellt oder bearbeitet und steht Kunden noch nicht zur Verfügung.
+* **Veröffentlicht**: Herausforderung ist aktiv und die zugehörige Journey wurde erstellt.
 
 ### Herausforderungen bearbeiten {#edit-challenges}
 
@@ -53,10 +53,10 @@ Sie können Challenges bearbeiten, indem Sie sie im Challenges-Inventar öffnen.
 
 **Veröffentlichte Herausforderungen**: Wenn Sie eine veröffentlichte Herausforderung zur Bearbeitung öffnen, müssen Sie sie zunächst in den Entwurfsstatus zurücksetzen.
 
-* Alle Anpassungen, die direkt an der automatisch generierten Journey vorgenommen werden, gehen verloren
-* Die Herausforderung kehrt zum Entwurfsstatus zurück
-* Nachdem Sie Ihre Änderungen vorgenommen haben, müssen Sie die Herausforderung speichern und erneut veröffentlichen
-* Sie müssen die zugehörige Journey reaktivieren, um die aktualisierte Challenge für Kunden verfügbar zu machen
+* Alle Anpassungen, die direkt an der automatisch generierten Journey vorgenommen werden, gehen verloren.
+* Die Herausforderung kehrt zum Status Entwurf zurück.
+* Nachdem Sie Ihre Änderungen vorgenommen haben, müssen Sie die Herausforderung speichern und erneut veröffentlichen.
+* Sie müssen die zugehörige Journey erneut veröffentlichen, um die aktualisierte Challenge für Kunden verfügbar zu machen.
 
 >[!IMPORTANT]
 >
@@ -109,14 +109,14 @@ Sie können auch in den [automatisch generierten Journey-Berichten](../reports/j
 
 ## Aufgaben verwalten {#manage-tasks}
 
-Aufgaben sind wiederverwendbare Komponenten, die über mehrere Herausforderungen hinweg verwendet werden können. Die effektive Verwaltung von Aufgaben stellt die Konsistenz Ihres gesamten Treueprogramms sicher und erleichtert die zentrale Aktualisierung von Aufgabendefinitionen. Aufgaben, die in einer Challenge erstellt wurden, können in anderen Challenges wiederverwendet werden, wodurch Duplizierungen reduziert und die Standardisierung aufrechterhalten werden.
+Aufgaben sind wiederverwendbare Komponenten, die über mehrere Herausforderungen hinweg verwendet werden können. Die effektive Verwaltung von Aufgaben stellt die Konsistenz Ihres gesamten Treueprogramms sicher und erleichtert die zentrale Aktualisierung von Aufgabendefinitionen. Aufgaben, die in einer Challenge erstellt wurden, können in anderen Challenges wiederverwendet werden, wodurch Duplikate reduziert und die Standardisierung beibehalten wird.
 
 ### Aufgaben bearbeiten {#edit-tasks}
 
 Sie können vorhandene Aufgaben im Aufgabeninventar bearbeiten. Beachten Sie Folgendes:
 
-* **Aufgaben werden nicht in aktiven Herausforderungen verwendet**: Können frei bearbeitet werden - alle Eigenschaften können ohne Auswirkungen geändert werden
-* **Aufgaben, die in Live-Herausforderungen verwendet werden**: Seien Sie vorsichtig, da Änderungen sich auf alle Herausforderungen auswirken, die die Aufgabe verwenden. Änderungen gelten sofort für alle referenzierenden Herausforderungen
+* **Aufgaben werden nicht in aktiven Herausforderungen verwendet**: Können frei bearbeitet werden. Alle Eigenschaften können ohne Auswirkungen geändert werden.
+* **Aufgaben in Live-Herausforderungen**: Seien Sie vorsichtig, da sich Änderungen auf alle Herausforderungen auswirken, die die Aufgabe verwenden. Änderungen werden sofort auf alle referenzierenden Herausforderungen angewendet.
 
 Aufgabe bearbeiten:
 
@@ -142,8 +142,8 @@ Aufgabe bearbeiten:
 
 Aufgaben können nur gelöscht werden, wenn sie derzeit in keiner Herausforderung verwendet werden. Vor dem Löschen einer Aufgabe:
 
-* Überprüfen Sie die Anzahl **[!UICONTROL Verwendet in Herausforderungen]** im Aufgabeninventar
-* Stellen Sie sicher, dass kein Entwurf, keine geplanten oder Live-Herausforderungen auf die Aufgabe verweisen
+* Überprüfen Sie die Anzahl **[!UICONTROL Verwendet in Herausforderungen]** im Aufgabeninventar.
+* Stellen Sie sicher, dass keine Entwurfs-, geplanten oder Live-Herausforderungen auf die Aufgabe verweisen.
 
 So löschen Sie eine Aufgabe
 

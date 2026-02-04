@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue
-description: Erfahren Sie, wie Sie in Adobe Journey Optimizer Herausforderungen im Zusammenhang mit dem Treueprogramm erstellen und verwalten, um ansprechende Treueprogramme zu erstellen.
+description: Erfahren Sie, wie Sie in Adobe Journey Optimizer Herausforderungen im Zusammenhang mit Treueprogrammen erstellen und verwalten, um ansprechende Treueprogramme zu erstellen.
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '603'
 ht-degree: 4%
 
 ---
@@ -25,10 +25,9 @@ ht-degree: 4%
 **Dokumentation zu Herausforderungen im Zusammenhang mit der Treue:**
 
 * **Erste Schritte mit den Herausforderungen im Zusammenhang mit der Treue** ◀︎ **Sie sind hier** - Übersicht, Workflow, Voraussetzungen
-* [Herausforderungen im Zusammenhang mit Treueprogrammen](access-loyalty-challenges.md) - Inventar und Filterung
+* [Herausforderungen im Zusammenhang mit Treue aufrufen und verwalten](access-loyalty-challenges.md) - Inventar-, Herausforderungen- und Aufgabenverwaltung
 * [Herausforderungen erstellen](create-challenges.md) - Herausforderungen aufbauen und konfigurieren
 * [Aufgaben erstellen](create-tasks.md) - Herausforderungen definieren
-* [Herausforderungen verwalten](manage-challenges.md) - Bearbeiten, Überwachen, Optimieren
 
 >[!ENDSHADEBOX]
 
@@ -48,29 +47,25 @@ Sie können drei Arten von Herausforderungen erstellen:
 
 Mit den Herausforderungen im Zusammenhang mit dem Treueprogramm können Sie Prämien konfigurieren, Multi-Channel-Benachrichtigungen in wichtigen Lebenszyklusphasen senden und die Leistung mithilfe automatisch generierter Journey überwachen. Dabei bleibt die Integration in Ihr externes Treueprogramm-Management-System erhalten.
 
-<!-- SCREENSHOT: High-level diagram showing Loyalty Challenges architecture with: Data ingestion from source connectors -> Challenge creation in JO -> Content cards & messaging -> Customer device -> Journey tracking -->
-
 ## Funktionsweise {#how-it-works}
-
-<!-- SCHEMA: Visual workflow diagram showing the 8 steps in the loyalty challenge creation process with icons for each step -->
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
 
 1. **Datenaufnahme einrichten** - Konfigurieren Sie Quell-Connectoren für Experience Platform (z. B. den Kapillaren-Connector), um Treueprogramm-Ereignisdaten aufzunehmen, mit denen Kundenaktionen und -fortschritt verfolgt werden. Diese Daten ermöglichen das Challenge-Tracking und die Aufgabenerledigung.
 
-1. **Herausforderung erstellen** - Definiert die grundlegenden Eigenschaften der Herausforderung, einschließlich Name, Typ (Standard, Streak oder Sequenziell), Zielgruppe und Datumsbereich. Detaillierte [&#x200B; finden Sie &#x200B;](create-challenges.md) „Erstellen von Herausforderungen“.
+1. **Ziel-Audience auswählen** - Definieren Sie, welche Kunden an Ihrer Challenge teilnehmen können, indem Sie eine Audience aus Adobe Experience Platform auswählen.
 
-1. **Aufgaben hinzufügen** - Definieren Sie die spezifischen Aktionen, die Kundinnen und Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben, Besuch, Interaktion, benutzerdefinierte Ereignisse), Mengen, Produktfilter und Belohnungen. Detaillierte Anweisungen finden [&#x200B; unter &#x200B;](create-tasks.md)Erstellen von Aufgaben“.
+1. **Herausforderung erstellen** - Definiert die grundlegenden Eigenschaften der Herausforderung, einschließlich Name, Typ (Standard, Streak oder Sequenziell) und Datumsbereich.
 
-1. **Erstellen von Inhaltskarten** - Erstellen Sie die visuelle Darstellung Ihrer Challenge mit Journey Optimizer [Inhaltskarten](../content-card/create-content-card.md) die auf Kundengeräten angezeigt werden. Inhaltskarten zeigen Informationen zu Herausforderungen, Fortschritt und Belohnungen an.
+1. **Aufgaben hinzufügen** - Definieren Sie die spezifischen Aktionen, die Kundinnen und Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben, Besuch, Interaktion, benutzerdefinierte Ereignisse), Mengen, Produktfilter und Belohnungen.
 
-1. **Messaging konfigurieren** (Optional) - Richten Sie Multi-Channel-Nachrichten ([In-App](../in-app/get-started-in-app.md), [Email](../email/get-started-email.md), [Push](../push/get-started-push.md)) für wichtige Lebenszyklusphasen ein: Start, in Bearbeitung und Abschluss.
+1. **Erstellen von Inhaltskarten** - Erstellen Sie die visuelle Darstellung Ihrer Challenge mit Journey Optimizer-Inhaltskarten, die auf Kundengeräten angezeigt werden. Inhaltskarten zeigen Informationen zu Herausforderungen, Fortschritt und Belohnungen an.
 
-1. **Überprüfen und veröffentlichen** - Testen Sie Ihre Herausforderung mit [Testprofilen](../content-management/test-profiles.md) und veröffentlichen Sie sie dann, um sie für Ihre Zielgruppe verfügbar zu machen.
+1. **Messaging konfigurieren** (Optional) - Richten Sie Multi-Channel-Nachrichten (In-App, E-Mail, Push) für wichtige Lebenszyklusphasen ein: Start, in Bearbeitung und Abschluss.
 
-1. **Journey aktivieren** - Wenn Sie eine Challenge veröffentlichen, erstellt Journey Optimizer automatisch eine [Journey](../building-journeys/journey-gs.md) im Entwurfsstatus, die die Bereitstellung und das Messaging von Inhaltskarten koordiniert. Navigieren Sie zum Journey-Inventar, suchen Sie die automatisch generierte Journey (namens „Challenge: [Challenge Name]„) und [aktivieren Sie sie](../building-journeys/publish-journey.md) um die Challenge für Ihre Kunden verfügbar zu machen.
+1. **Journey veröffentlichen** - Journey Optimizer generiert automatisch eine Journey für Ihre Challenge. Navigieren Sie zum Journey-Inventar und veröffentlichen Sie die automatisch generierte Journey, um die Challenge für Kunden verfügbar zu machen.
 
-1. **Leistung überwachen** - Verfolgen Sie Teilnahme, Abschlussraten, Belohnungsverteilung und Nachrichteninteraktion durch integrierte Berichte und die Journey-Arbeitsfläche. Siehe [Verwalten von Herausforderungen](manage-challenges.md) für Details zur Überwachung.
+Detaillierte schrittweise Anweisungen finden Sie unter [Erstellen von Herausforderungen](create-challenges.md).
 
 ## Voraussetzungen {#prerequisites}
 
@@ -86,7 +81,7 @@ Herausforderungen im Zusammenhang mit der Kundentreue beruhen auf Daten, die üb
 
 Detaillierte Anweisungen finden Sie unter:
 
-* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Konfigurieren von Quell-Connectoren in Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -104,9 +99,9 @@ Wenden Sie sich an Ihren Administrator, wenn Sie die Funktion nicht nutzen könn
 
 +++
 
-+++Zielgruppen
++++Zielgruppe
 
-Definieren Sie Zielgruppen, die angeben, welche Kundinnen und Kunden für die Teilnahme an Ihren Herausforderungen im Zusammenhang mit der Treue infrage kommen. Sie können bestehende Audiences auswählen oder neue Audiences direkt über die Benutzeroberfläche zur Challenge-Erstellung erstellen. [Erfahren Sie, wie Sie mit Audiences arbeiten](../audience/about-audiences.md).
+Definieren Sie eine Zielgruppe, die angibt, welche Kundinnen und Kunden für die Teilnahme an Ihren Herausforderungen im Zusammenhang mit der Treue infrage kommen. Sie können bestehende Audiences auswählen oder neue Audiences direkt über die Benutzeroberfläche zur Challenge-Erstellung erstellen. [Erfahren Sie, wie Sie mit Audiences arbeiten](../audience/about-audiences.md).
 
 +++
 
