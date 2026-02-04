@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # Herausforderungen schaffen {#create-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="Erstellen einer Herausforderung für das Treueprogramm"
->abstract="Erstellen Sie eine Herausforderung zum Treueprogramm, um das Interaktionsangebot zu definieren, Inhaltskarten für den Versand zu konfigurieren, Aufgaben hinzuzufügen, Belohnungen einzurichten und optional das Messaging kanalübergreifend zu konfigurieren."
-
-Erstellen Sie eine Herausforderung zur Treue, um das Interaktionsangebot zu definieren, Inhaltskarten zu konfigurieren, Aufgaben hinzuzufügen, Belohnungen einzurichten und das Messaging kanalübergreifend zu konfigurieren.
-
 >[!BEGINSHADEBOX]
 
 **Dokumentation zu Herausforderungen im Zusammenhang mit der Treue:**
 
-* [Erste Schritte mit den Herausforderungen im Zusammenhang mit dem Treueprogramm](gs-loyalty-challenges.md) - Kurzübersicht und nächste Schritte
-* [Herausforderungen im Zusammenhang mit der Treue](get-started.md) - Funktionen, Workflows, Voraussetzungen
+* [Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue](get-started.md) - Übersicht, Workflow, Voraussetzungen
+* [Herausforderungen im Zusammenhang mit Treueprogrammen](access-loyalty-challenges.md) - Inventar und Filterung
 * **Herausforderungen erstellen** ◀︎ **Sie sind hier** - Herausforderungen erstellen und konfigurieren
 * [Herausforderungen verwalten](manage-challenges.md) - Bearbeiten, Überwachen, Optimieren
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_create_challenge"
+>title="Erstellen einer Herausforderung für das Treueprogramm"
+>abstract="Erstellen Sie eine Herausforderung zum Treueprogramm, um das Interaktionsangebot zu definieren, Inhaltskarten für den Versand zu konfigurieren, Aufgaben hinzuzufügen, Belohnungen einzurichten und optional das Messaging kanalübergreifend zu konfigurieren."
 
 ## Bevor Sie beginnen {#before-you-start}
 

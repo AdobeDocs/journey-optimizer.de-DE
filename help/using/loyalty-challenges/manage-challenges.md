@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # Herausforderungen bewältigen {#manage-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_manage_challenges"
->title="Herausforderungen im Zusammenhang mit Treueprogrammen bewältigen"
->abstract="Nachdem Sie Herausforderungen im Zusammenhang mit dem Treueprogramm erstellt und veröffentlicht haben, können Sie diese anzeigen, bearbeiten, überwachen und optimieren, um sicherzustellen, dass sie die gewünschten Ergebnisse für Ihr Treueprogramm liefern."
-
-Nachdem Sie Herausforderungen im Zusammenhang mit dem Treueprogramm erstellt und veröffentlicht haben, können Sie diese anzeigen, bearbeiten, überwachen und optimieren, um sicherzustellen, dass sie die gewünschten Ergebnisse für Ihr Treueprogramm liefern.
-
 >[!BEGINSHADEBOX]
 
 **Dokumentation zu Herausforderungen im Zusammenhang mit der Treue:**
 
-* [Erste Schritte mit den Herausforderungen im Zusammenhang mit dem Treueprogramm](gs-loyalty-challenges.md) - Kurzübersicht und nächste Schritte
-* [Herausforderungen im Zusammenhang mit der Treue](get-started.md) - Funktionen, Workflows, Voraussetzungen
+* [Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue](get-started.md) - Übersicht, Workflow, Voraussetzungen
+* [Herausforderungen im Zusammenhang mit Treueprogrammen](access-loyalty-challenges.md) - Inventar und Filterung
 * [Herausforderungen erstellen](create-challenges.md) - Herausforderungen aufbauen und konfigurieren
 * **Herausforderungen verwalten** ◀︎ **Sie sind hier** - Bearbeiten, Überwachen, Optimieren
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_manage_challenges"
+>title="Herausforderungen im Zusammenhang mit Treueprogrammen bewältigen"
+>abstract="Nachdem Sie Herausforderungen im Zusammenhang mit dem Treueprogramm erstellt und veröffentlicht haben, können Sie diese anzeigen, bearbeiten, überwachen und optimieren, um sicherzustellen, dass sie die gewünschten Ergebnisse für Ihr Treueprogramm liefern."
 
 ## Challenge-Lebenszyklus {#challenge-lifecycle}
 
