@@ -66,7 +66,7 @@ Auf der Registerkarte Herausforderungen können Sie schnelle Aktionen für Herau
 * **Herausforderung duplizieren**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und dann **[!UICONTROL Duplizieren]**
 * **Entwurf einer Herausforderung löschen**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und wählen Sie **[!UICONTROL Löschen]**
 
-[Erfahren Sie, wie Sie Herausforderungen nach der Erstellung ](manage-challenges.md).
+[Erfahren Sie, wie Sie Herausforderungen nach der Erstellung &#x200B;](manage-challenges.md).
 
 ## Aufgaben-Inventar {#tasks-tab}
 
@@ -87,7 +87,7 @@ Auf der Registerkarte Aufgaben können Sie Schnellaktionen für Aufgaben durchf�
 * **Aufgabe duplizieren**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und dann **[!UICONTROL Duplizieren]**
 * **Aufgabe löschen**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und klicken Sie auf **[!UICONTROL Löschen]**
 
-[Erfahren Sie, wie Sie Aufgaben nach der Erstellung ](manage-challenges.md).
+[Erfahren Sie, wie Sie Aufgaben nach der Erstellung &#x200B;](manage-challenges.md).
 
 ## Nächste Schritte {#next-steps}
 
