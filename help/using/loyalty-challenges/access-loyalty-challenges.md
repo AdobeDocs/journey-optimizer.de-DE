@@ -98,7 +98,7 @@ So erstellen Sie eine neue Challenge auf der Registerkarte Challenges :
 
 2. Der Workflow zur Challenge-Erstellung beginnt.
 
-Detaillierte Anweisungen finden Sie unter [Erstellen von ](create-challenges.md).
+Detaillierte Anweisungen finden Sie unter [Erstellen von &#x200B;](create-challenges.md).
 
 ## Registerkarte „Aufgaben“ {#tasks-tab}
 
