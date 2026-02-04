@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 2%
@@ -99,7 +99,7 @@ Detaillierte Anweisungen zum Erstellen und Konfigurieren von Aufgaben finden Sie
 
 <!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
 
-Inhaltskarten bieten eine visuelle Darstellung Ihrer Challenge auf Kundengeräten und zeigen Challenge-Informationen, Fortschritt und Belohnungen an. Weitere Informationen zu [Inhaltskarten](../content-card/get-started-content-card.md).
+Inhaltskarten bieten eine visuelle Darstellung Ihrer Challenge auf Kundengeräten und zeigen Challenge-Informationen, Fortschritt und Belohnungen an. Weitere Informationen zu [Inhaltskarten](../content-card/create-content-card.md).
 
 <!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
 
@@ -111,7 +111,7 @@ So konfigurieren Sie Inhaltskarten für Ihre Challenge:
 
 1. Gestalten der Inhaltskarte:
    * Bilder, Text und Branding-Elemente hinzufügen
-   * Personalisierungs[Token &#x200B;](../personalization/personalization-syntax.md) Anzeige kundenspezifischer Informationen einschließen
+   * Personalisierungs[Token ](../personalization/personalization-syntax.md) Anzeige kundenspezifischer Informationen einschließen
    * Challenge-Fortschrittsindikatoren anzeigen
    * Belohnungen und Anreize anzeigen
 
