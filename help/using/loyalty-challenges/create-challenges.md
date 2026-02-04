@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 831809b4c1dd19fdaeeb646695f606c02ec21265
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 2%
@@ -111,7 +111,7 @@ So konfigurieren Sie Inhaltskarten für Ihre Challenge:
 
 1. Gestalten der Inhaltskarte:
    * Bilder, Text und Branding-Elemente hinzufügen
-   * Personalisierungs[Token &#x200B;](../personalization/personalization-syntax.md) Anzeige kundenspezifischer Informationen einschließen
+   * Personalisierungs[Token ](../personalization/personalization-syntax.md) Anzeige kundenspezifischer Informationen einschließen
    * Challenge-Fortschrittsindikatoren anzeigen
    * Belohnungen und Anreize anzeigen
 
@@ -171,7 +171,7 @@ Vor der Veröffentlichung der Herausforderung:
 
 1. **Alle Komponenten überprüfen** Überprüfen Sie Eigenschaften, Aufgaben, Belohnungen, Inhaltskarten und Messaging-Konfigurationen von Herausforderungen.
 
-1. **Erlebnis testen**: Verwenden Sie [Testprofile](../test-approve/test-profiles.md) um die Anzeige der Inhaltskarte und das Verhalten des Task-Triggers zu überprüfen.
+1. **Erlebnis testen**: Verwenden Sie [Testprofile](../content-management/test-profiles.md) um die Anzeige der Inhaltskarte und das Verhalten des Task-Triggers zu überprüfen.
 
 1. **Veröffentlichen**: Wählen Sie **[!UICONTROL Veröffentlichen]** aus, um die Herausforderung für Ihre Zielgruppe verfügbar zu machen.
 
@@ -185,7 +185,7 @@ So stellen Sie die Herausforderung für Kunden bereit:
 
 1. Suchen Sie die automatisch generierte Journey (sie hat „Challenge:“ als Präfix im Namen).
 
-1. [Journey aktivieren](../building-journeys/publishing-the-journey.md).
+1. [Journey aktivieren](../building-journeys/publish-journey.md).
 
 Die Journey startet automatisch am angegebenen Startdatum der Challenge.
 
