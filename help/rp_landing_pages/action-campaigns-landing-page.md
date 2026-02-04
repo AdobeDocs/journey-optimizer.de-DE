@@ -20,7 +20,7 @@ Mit Aktionskampagnen in Adobe Journey Optimizer können Sie zeitnahe, zielgerich
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen einer Aktionskampagne
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Aktionskampagnen erstellen und verwalten, einschließlich 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Definieren der Eigenschaften einer Aktionskampagne
 
@@ -40,7 +40,7 @@ Schrittweise Anleitungen zum Definieren von Kampagneneigenschaften wie Namen, Ta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Konfigurieren von Kampagnenaktionen
 
@@ -50,7 +50,7 @@ Handbuch zum Einrichten von Kampagnenaktionen, einschließlich Kanalauswahl, Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Nutzen der Nachrichtenoptimierung
 
@@ -60,7 +60,7 @@ Verwenden Sie Targeting und Experimente, um die Interaktion zu maximieren und pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=de)
 
 Bearbeiten von Kampagneninhalten
 
@@ -70,7 +70,7 @@ Entwerfen, testen und konfigurieren Sie Inhalte für Ihre Aktionskampagnen über
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
 
 Definieren der Zielgruppe einer Kampagne
 
