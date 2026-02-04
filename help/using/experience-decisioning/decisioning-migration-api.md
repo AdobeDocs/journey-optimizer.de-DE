@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1154'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,7 @@ Mit der Decisioning Migration Service-API können Sie Entscheidungs-Management-O
 
 Mit dieser API können Sie Ihre Entscheidungs-Inhalte nahtlos zwischen Umgebungen (z. B. von der Entwicklung zum Staging oder von der Staging- zur Produktionsumgebung) wechseln, während die Datenintegrität und -beziehungen erhalten bleiben.
 
-Weitere Informationen zu den Vorteilen und Funktionen von Decisioning im Vergleich zum Entscheidungs-Management finden Sie unter [Vorteile der Migration zu Decisioning](migrate-to-decisioning.md).
+Weitere Informationen zu den Vorteilen und Funktionen von Decisioning im Vergleich zum Entscheidungs-Management finden Sie [dieser Seite](migrate-to-decisioning.md).
 
 ## Funktionen {#capabilities}
 
@@ -51,7 +51,7 @@ Zu den typischen Berechtigungen gehören:
 
 >[!NOTE]
 >
->Erfahren Sie in ([&#x200B; Abschnitt), wie Sie &#x200B;](gs-experience-decisioning.md#steps) zuweisen. Eine vollständige Liste der Berechtigungen finden Sie auf der Seite [Integrierte Berechtigungen](../administration/ootb-permissions.md#ootb-permissions) .
+>Erfahren Sie in ([ Abschnitt), wie Sie ](gs-experience-decisioning.md#steps) zuweisen. Eine vollständige Liste der Berechtigungen finden Sie auf der Seite [Integrierte Berechtigungen](../administration/ootb-permissions.md#ootb-permissions) .
 
 ### Vorbereiten der Ziel-Sandbox {#target-sandbox-preparation}
 
@@ -62,7 +62,7 @@ Bevor Sie eine Migration ausführen, stellen Sie sicher, dass Ihre Ziel-Sandbox 
 * **Datensatz** - Identifizieren Sie einen Datensatznamen, der für die Migration verwendet werden soll (`dependency.datasetName`).
 * **Datenstrom** - Festlegen, ob bei der Migration ein Datenstrom erstellt werden soll (`createDataStream`).
 
-Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [&#x200B; und Zuweisen von Sandboxes](../administration/sandboxes.md).
+Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [ und Zuweisen von Sandboxes](../administration/sandboxes.md).
 
 ## API-Grundlagen {#api-basics}
 
