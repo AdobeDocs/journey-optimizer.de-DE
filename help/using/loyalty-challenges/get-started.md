@@ -38,7 +38,7 @@ Mit den Herausforderungen im Zusammenhang mit der Kundentreue können Sie person
 
 >[!ENDSHADEBOX]
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 Die Herausforderungen im Zusammenhang mit dem Treueprogramm bieten eine Komplettlösung für die Erstellung von Treueprogrammen in großem Maßstab, von der Definition von Aufgaben und Meilensteinen bis hin zur Bereitstellung von Inhalten und zur kanalübergreifenden Verfolgung der Leistung. Sie können drei Arten von Challenge-Erlebnissen erstellen, Belohnungen konfigurieren, Multi-Channel-Benachrichtigungen in wichtigen Lebenszyklusphasen senden und die Leistung mithilfe automatisch generierter Journey überwachen - und das alles unter Beibehaltung der Integration mit Ihrem externen Treueprogramm-System.
 
@@ -114,7 +114,7 @@ Herausforderungen im Zusammenhang mit der Kundentreue beruhen auf Daten, die üb
 
 Detaillierte Anweisungen finden Sie unter:
 
-* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Konfigurieren von Quell-Connectoren in Journey Optimizer](../start/get-started-sources.md)
 
 ### Erforderliche Berechtigungen {#required-permissions}

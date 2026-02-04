@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Erstellen von Fallback-Angeboten
 description: Erfahren Sie, wie Sie Fallback-Angebote erstellen, die Kunden angezeigt werden, die für kein Angebot infrage kommen
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
 >title="Fallback-Angebot"
->abstract="Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn ein Endanwender für keines der personalisierten Angebote qualifiziert ist."
+>abstract="Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn eine Endbenutzerin bzw. ein Endbenutzer für keines der personalisierten Angebote infrage kommt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_fallback_offer_details "
->title="Fallback-Angebotsdetails"
->abstract="Geben Sie den Namen des Fallback-Angebots an. Sie können auch einen oder mehrere vorhandene Sammlungsqualifizierer damit verknüpfen, sodass Sie die Angebotsbibliothek leichter durchsuchen und organisieren können."
+>title="Details des Fallback-Angebots"
+>abstract="Geben Sie den Namen des Fallback-Angebots an. Sie können auch einen oder mehrere vorhandene Sammlungsqualifizier damit verknüpfen, um die Angebotsbibliothek einfacher durchsuchen und organisieren zu können."
 
 Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind. Die Schritte zum Einrichten eines Fallback-Angebots bestehen darin, eine oder mehrere Darstellungen zu erstellen (ähnlich wie beim Erstellen eines Angebots).
 
@@ -79,5 +79,5 @@ Gehen Sie wie folgt vor, um ein Fallback-Angebot zu erstellen:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341350?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

@@ -12,7 +12,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '2733'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -158,7 +158,7 @@ Um die Phasen Ihres IP-Aufwärmplans zu definieren, müssen Sie für jede Phase 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="Anzeigen der qualifizierten Profile"
->abstract="In dieser Spalte wird die Anzahl der qualifizierten Profile angezeigt. Wenn die Zielgruppe für eine Ausführung ausgewertet wurde und mehr angesprochene als qualifizierte Profile vorhanden sind, wird die Ausführung weiterhin durchgeführt, es sei denn, die Option **Aktivierte Ausführungen im Falle von Fehlern abbrechen** ist aktiviert. In diesem Fall wird der Durchlauf abgebrochen."
+>abstract="In dieser Spalte wird die Anzahl der qualifizierten Profile angezeigt. Wenn die Zielgruppe für eine Ausführung ausgewertet wurde und mehr angesprochene als qualifizierte Profile vorhanden sind, wird die Ausführung weiterhin durchgeführt, es sei denn, die Option **Aktivierte Ausführungen im Falle von Fehlern abbrechen** ist aktiviert. In diesem Fall wird die Ausführung abgebrochen."
 
 Nachdem Sie die Phasen Ihres IP-Aufwärmplans definiert haben, müssen Sie die einzelnen Ausführungen innerhalb jeder Phase konfigurieren. Jede Ausführung erfordert einen Zeitplan und Sie können optional Interaktionsfilter, Fehlerbehandlung und Wiederholungsfenster konfigurieren, um eine optimale Ausführung sicherzustellen. Führen Sie folgende Schritte aus:
 
@@ -230,7 +230,7 @@ Achten Sie darauf, dass Sie ausreichend Zeit für die Ausführung der [Zielgrupp
 
 >[!CAUTION]
 >
->Jeder Durchlauf muss mindestens 12 Stunden vor der tatsächlichen Versandzeit und vor dem täglichen Batch-Segmentierungsauftrag aktiviert werden. Andernfalls kann die Zielgruppenbewertung möglicherweise nicht abgeschlossen werden.
+>Jede Ausführung muss mindestens 12 Stunden vor der tatsächlichen Versandzeit und vor dem täglichen Batch-Segmentierungsauftrag aktiviert werden. Andernfalls kann die Zielgruppenbewertung möglicherweise nicht abgeschlossen werden.
 
 Wenn Sie eine Ausführung aktivieren, werden automatisch mehrere Zielgruppen erstellt.
 
@@ -299,7 +299,7 @@ Eine Ausführung kann folgende Status haben:
 * **[!UICONTROL Entwurf]** : Sobald eine Ausführung erstellt wurde, entweder durch [Einen neuen Plan erstellen](ip-warmup-plan.md) oder durch [Einen Vorgang hinzufügen](#define-runs) von der Benutzeroberfläche aus, erhält sie den Status **[!UICONTROL Entwurf]**.
 * **[!UICONTROL Live]**: Sobald eine Ausführung aktiviert wurde, erhält sie den Status **[!UICONTROL Live]**. Das bedeutet, dass das System die Anfrage zur Planung der Ausführung akzeptiert hat, aber nicht, dass der Versand gestartet wurde. In dieser Phase können Sie den Status der Live- Ausführung beobachten, indem Sie in der Tabelle auf die Schaltfläche **[!UICONTROL Status anzeigen]** klicken. Auf diese Weise können Sie verfolgen, wie viele Zielgruppenprofile sich tatsächlich qualifiziert haben.
 * **[!UICONTROL Abgeschlossen]**: Die Kampagnenausführung für diesen Durchlauf ist abgeschlossen. Sie können einen detaillierten Ausführungsbericht aufrufen, indem Sie in der Tabelle auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** klicken. Mit dieser Option können Sie den E-Mail-Versandstatus des Vorgangs verfolgen, einschließlich Aufschlüsselungen speziell für Domain-Gruppen, um die Überwachung zu verbessern. Beachten Sie, dass die damit verknüpfte Kampagne als „Gestoppt“ festgelegt wird.[Weitere Informationen](#reports)
-* **[!UICONTROL Abgebrochen]**: Ein **[!UICONTROL Live]**-Durchlauf wurde mit der Schaltfläche **[!UICONTROL Abbrechen]** abgebrochen.[Weitere Informationen](#define-runs)
+* **[!UICONTROL Abgebrochen]**: Eine **[!UICONTROL Live]**-Ausführung wurde mit der Schaltfläche **[!UICONTROL Abbrechen]** abgebrochen. [Weitere Informationen](#define-runs)
 * **[!UICONTROL Fehlgeschlagen]**: Beim System ist ein Fehler aufgetreten, oder die für die aktuelle Phase verwendete Kampagne wurde gestoppt oder Sie haben die Option **[!UICONTROL Aktivierte Ausführungen im Falle von Fehlern abbrechen]** aktiviert und ein Fehler ist aufgetreten. Wenn eine Ausführung fehlschlägt, können Sie eine weitere Ausführung für den nächsten Tag planen.
 
 ### Arbeiten mit Berichten {#reports}
@@ -308,7 +308,7 @@ Ganz allgemein können Sie die Auswirkung Ihres Plans messen, indem Sie die Perf
 
 ![](assets/ip-warmup-plan-reports.png)
 
-Sie können auf die Berichte auch über das Menü [Kampagnen](../campaigns/manage-campaigns.md#access) zugreifen, da Ihr Plan möglicherweise andere Kampagnen verwendet. [In → anzeigen](../campaigns/manage-campaigns.md#calendar)
+Sie können auf die Berichte auch über das Menü [Kampagnen](../campaigns/manage-campaigns.md#access) zugreifen, da Ihr Plan möglicherweise unterschiedliche Kampagnen beinhaltet. [Im Kalender anzeigen →](../campaigns/manage-campaigns.md#calendar)
 
 
 ## Verwalten Ihres Plans {#manage-plan}
@@ -355,7 +355,7 @@ Nehmen wir ein Beispiel:
 
 * Im ursprünglichen IP-Aufwärmplan hatte Phase 2 neun Ausführungen.
 
-* 4 Durchgänge wurden ausgeführt (egal ob fehlgeschlagen, abgeschlossen oder abgebrochen<!--as long as a run has been attempted, it is an executed run-->).
+* Es gab vier Ausführungen (unabhängig davon, ob fehlgeschlagen, abgeschlossen oder abgebrochen<!--as long as a run has been attempted, it is an executed run-->).
 
 * Wenn ein neuer Plan erneut hochgeladen wird, wird Phase 2 mit den ersten vier ausgeführten Läufen in den schreibgeschützten Modus versetzt.
 
