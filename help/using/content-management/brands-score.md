@@ -5,9 +5,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '650'
 ht-degree: 40%
 
 ---
@@ -89,7 +89,7 @@ Sobald [Ihre Marke eingerichtet und veröffentlicht wurde](brands.md) beurteilen
 
 >[!NOTE]
 >
->Die Bewertung der Inhaltsqualität ist markenunabhängig. Auch wenn eine Marke im Dropdown-Menü ausgewählt wird, werden ihre Richtlinien nicht auf die Qualitätsprüfung angewendet. Die Markenauswahl ist nur für die Bewertung der Markenausrichtung relevant.
+>Die Bewertung der Inhaltsqualität ist unabhängig von den Markenrichtlinien. Auch wenn eine Marke im Dropdown-Menü ausgewählt wird, werden ihre Richtlinien nicht auf die Qualitätsprüfung angewendet. Die Markenauswahl ist nur für die Bewertung der Markenausrichtung relevant.
 
 Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Inhaltskohärenz und Effektivität zu identifizieren, unabhängig von Ihren Markenrichtlinien.
 
@@ -134,6 +134,6 @@ Das folgende Video veranschaulicht, wie Sie Ihre eigenen Marken erstellen und an
 
 +++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
+source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3091'
 ht-degree: 98%
 
 ---
@@ -499,7 +499,7 @@ ht-degree: 98%
          + [Marken](/help/rp_landing_pages/brands-landing-page.md)
          + [Erstellen und Verwalten von Marken](using/content-management/brands.md)
          + [Marken personalisieren](using/content-management/brands-personalize.md)
-         + [Auswerten des Markenausrichtungswerts](using/content-management/brands-score.md)
+         + [Inhalt auswerten](using/content-management/brands-score.md)
    + Mehrsprachige Inhalte {#content-multilingual}
       + [Mehrsprachige Inhalte](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
