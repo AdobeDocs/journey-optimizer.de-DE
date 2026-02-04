@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '845'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Sie können Aufgaben aus zwei Einstiegspunkten erstellen. Der Konfigurationsproz
 
 +++Aus dem Aufgabeninventar
 
-1. Navigieren Sie zu **[!UICONTROL Herausforderungen]** Treue“ in Journey Optimizer.
+1. Navigieren Sie zu **[!UICONTROL Herausforderungen zum Treueprogramm (Beta]** in Journey Optimizer.
 
 1. Wählen Sie die **[!UICONTROL Aufgaben]** aus.
 

@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 2%
+source-wordcount: '804'
+ht-degree: 3%
 
 ---
 
@@ -45,67 +45,38 @@ ht-degree: 2%
 Challenges durchlaufen verschiedene Status während ihres Lebenszyklus:
 
 * **Entwurf**: Herausforderung wird erstellt oder bearbeitet und steht Kunden noch nicht zur Verfügung
-* **Geplant**: Die Herausforderung wurde veröffentlicht und wird am angegebenen Startdatum automatisch aktiviert
-* **Live**: Die Challenge ist derzeit aktiv und Kunden können teilnehmen
-* **Abgeschlossen**: Herausforderung ist abgelaufen - entweder ist das Enddatum abgelaufen oder alle Ziele wurden erreicht
-* **Angehalten**: Die Herausforderung wurde manuell angehalten, bevor der natürliche Abschluss erreicht wurde
-* **Archiviert**: Die Herausforderung wurde zu Organisationszwecken archiviert und ist nicht mehr im Hauptbestand sichtbar
+* **Veröffentlicht**: Herausforderung ist aktiv, die zugehörige Journey wurde erstellt.
 
 ### Herausforderungen bearbeiten {#edit-challenges}
 
-Herausforderungen können je nach ihrem aktuellen Status bearbeitet werden:
+Sie können Challenges bearbeiten, indem Sie sie im Challenges-Inventar öffnen. Das Bearbeitungsverhalten variiert je nach Challenge-Status:
 
-* **Entwurfsherausforderungen**: Vollständige Bearbeitungsfunktion - alle Eigenschaften können geändert werden
-* **Geplante/Live-Herausforderungen**: Eingeschränkte Bearbeitung - Sie können Inhalte, Nachrichten aktualisieren und Datumsangaben verlängern, aber nicht die grundlegende Challenge-Struktur (Typ, Zielgruppe oder Aufgabendefinitionen) ändern
+**Entwurfsherausforderungen**: Sie haben vollständige Bearbeitungsfunktion. Alle Eigenschaften, Aufgaben, Inhalte und Nachrichten können ohne Einschränkungen geändert werden.
 
-So bearbeiten Sie eine Challenge:
+**Veröffentlichte Herausforderungen**: Wenn Sie eine veröffentlichte Herausforderung zur Bearbeitung öffnen, müssen Sie sie zunächst in den Entwurfsstatus zurücksetzen.
 
-1. Navigieren Sie zur **[!UICONTROL Herausforderungen]** im Inventar „Herausforderungen im Treueprogramm“.
+* Alle Anpassungen, die direkt an der automatisch generierten Journey vorgenommen werden, gehen verloren
+* Die Herausforderung kehrt zum Entwurfsstatus zurück
+* Nachdem Sie Ihre Änderungen vorgenommen haben, müssen Sie die Herausforderung speichern und erneut veröffentlichen
+* Sie müssen die zugehörige Journey reaktivieren, um die aktualisierte Challenge für Kunden verfügbar zu machen
 
-1. Suchen Sie die Herausforderung, die Sie bearbeiten möchten.
-
-1. Wählen Sie den Namen der Herausforderung aus, um sie im Bearbeitungsmodus zu öffnen.
-
-1. Nehmen Sie Ihre Änderungen basierend auf dem Challenge-Status vor:
-   * **Entwurfsherausforderungen**: Ändern von Eigenschaften, Aufgaben, Inhalten oder Nachrichten
-   * **Geplante/Live-Herausforderungen**: Aktualisieren von Inhaltskarten, Nachrichten oder Verlängern der Enddaten nach Bedarf
-
-1. Speichern Sie Ihre Änderungen. Für geplante oder Live-Herausforderungen werden Änderungen sofort oder gemäß Ihrem Aktualisierungszeitplan wirksam.
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Für Änderungen, die größere Änderungen erfordern (z. B. Änderung des Challenge-Typs, der Audience oder der Aufgabenstruktur), duplizieren Sie die Challenge und erstellen Sie eine neue Version, anstatt die vorhandene zu bearbeiten.
+>Eine veröffentlichte Herausforderung kann nicht rückgängig gemacht werden. Berücksichtigen Sie die Auswirkungen auf Ihre aktive Journey, bevor Sie fortfahren.
 
 ### Herausforderungen duplizieren {#duplicate-challenges}
-
-Herausforderungen duplizieren an:
-
-* Wiederholen erfolgreicher Challenges für neue Zeiträume
-* Varianten für verschiedene Audiences erstellen
-* Aufgabenanforderungen oder Belohnungen aktualisieren
-* Reaktivieren gestoppter oder abgeschlossener Herausforderungen
 
 Durch das Duplizieren einer Challenge wird eine exakte Kopie mit allen Aufgaben, Inhalten und Nachrichten erstellt, sodass Sie schnell neue Versionen erstellen können, ohne von Grund auf neu zu beginnen.
 
 So duplizieren Sie eine Herausforderung:
 
-1. Navigieren Sie zur **[!UICONTROL Herausforderungen]** im Inventar „Herausforderungen im Treueprogramm“.
+1. Navigieren Sie zur Registerkarte **[!UICONTROL Herausforderungen]** und suchen Sie die Herausforderung, die Sie duplizieren möchten.
 
-1. Suchen Sie die Herausforderung, die Sie duplizieren möchten.
+1. Klicken Sie auf das ![](assets/do-not-localize/Smock_More_18_N.svg) neben dieser Herausforderung und wählen Sie **[!UICONTROL Duplizieren]**.
 
-1. Wählen Sie das Menü Mehr Aktionen (drei Punkte) neben dieser Challenge.
+1. Eine Kopie der Challenge wird erstellt. Öffnen Sie die duplizierte Herausforderung und ändern Sie die erforderlichen Eigenschaften.
 
-1. Wählen Sie **[!UICONTROL Duplizieren]**.
-
-1. Eine Kopie der Challenge wird erstellt, wobei &quot;[Copy] an den Namen angehängt wird.
-
-1. Öffnen Sie die duplizierte Herausforderung und ändern Sie die erforderlichen Eigenschaften:
-   * Challenge-Namen aktualisieren
-   * Start- und Enddatum anpassen
-   * Ändern der Zielgruppe bei Bedarf
-   * Aufgaben, Belohnungen, Inhalte oder Nachrichten nach Bedarf ändern
-
-1. Überprüfen und veröffentlichen Sie die duplizierte Herausforderung.
+1. Speichern Sie die duplizierte Challenge und generieren Sie die zugehörige Journey.
 
 ### Überwachen der Leistung {#monitor-performance}
 
@@ -184,7 +155,7 @@ So löschen Sie eine Aufgabe
 
 1. Überprüfen Sie, **[!UICONTROL die]** „Wird in Herausforderungen verwendet“ 0 anzeigt. Wenn die Anzahl größer als 0 ist, müssen Sie die Aufgabe zunächst aus allen Herausforderungen entfernen, bevor Sie sie löschen.
 
-1. Wählen Sie das Menü Mehr Aktionen (drei Punkte) neben der Aufgabe.
+1. Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) neben der Aufgabe aus.
 
 1. Wählen Sie **[!UICONTROL Löschen]**.
 

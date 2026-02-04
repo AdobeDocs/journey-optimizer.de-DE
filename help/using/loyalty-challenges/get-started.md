@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '662'
 ht-degree: 4%
 
 ---
@@ -58,9 +58,9 @@ Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum 
 
 1. **Datenaufnahme einrichten** - Konfigurieren Sie Quell-Connectoren für Experience Platform (z. B. den Kapillaren-Connector), um Treueprogramm-Ereignisdaten aufzunehmen, mit denen Kundenaktionen und -fortschritt verfolgt werden. Diese Daten ermöglichen das Challenge-Tracking und die Aufgabenerledigung.
 
-1. **Herausforderung erstellen** - Definiert die grundlegenden Eigenschaften der Herausforderung, einschließlich Name, Typ (Standard, Streak oder Sequenziell), Zielgruppe und Datumsbereich. Detaillierte [&#x200B; finden Sie &#x200B;](create-challenges.md) „Erstellen von Herausforderungen“.
+1. **Herausforderung erstellen** - Definiert die grundlegenden Eigenschaften der Herausforderung, einschließlich Name, Typ (Standard, Streak oder Sequenziell), Zielgruppe und Datumsbereich. Detaillierte [ finden Sie ](create-challenges.md) „Erstellen von Herausforderungen“.
 
-1. **Aufgaben hinzufügen** - Definieren Sie die spezifischen Aktionen, die Kundinnen und Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben, Besuch, Interaktion, benutzerdefinierte Ereignisse), Mengen, Produktfilter und Belohnungen. Detaillierte Anweisungen finden [&#x200B; unter &#x200B;](create-tasks.md)Erstellen von Aufgaben“.
+1. **Aufgaben hinzufügen** - Definieren Sie die spezifischen Aktionen, die Kundinnen und Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben, Besuch, Interaktion, benutzerdefinierte Ereignisse), Mengen, Produktfilter und Belohnungen. Detaillierte Anweisungen finden [ unter ](create-tasks.md)Erstellen von Aufgaben“.
 
 1. **Erstellen von Inhaltskarten** - Erstellen Sie die visuelle Darstellung Ihrer Challenge mit Journey Optimizer [Inhaltskarten](../content-card/create-content-card.md) die auf Kundengeräten angezeigt werden. Inhaltskarten zeigen Informationen zu Herausforderungen, Fortschritt und Belohnungen an.
 
@@ -86,7 +86,7 @@ Herausforderungen im Zusammenhang mit der Kundentreue beruhen auf Daten, die üb
 
 Detaillierte Anweisungen finden Sie unter:
 
-* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Konfigurieren von Quell-Connectoren in Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -95,7 +95,7 @@ Detaillierte Anweisungen finden Sie unter:
 
 Um Herausforderungen im Zusammenhang mit der Treue nutzen zu können, benötigen Sie in Journey Optimizer die entsprechenden Berechtigungen. Zu den erforderlichen Berechtigungen gehören:
 
-* Zugriff auf die Funktion **[!UICONTROL Herausforderungen im Zusammenhang mit]** Treue“
+* Zugriff auf die Funktion **[!UICONTROL Herausforderungen im Zusammenhang mit dem Treueprogramm (Beta]**
 * Berechtigungen zum Erstellen und Verwalten von Journey
 * Berechtigungen zum Erstellen und Verwalten von Inhaltskarten
 * Berechtigungen zum Erstellen und Verwalten von Zielgruppen
@@ -106,7 +106,7 @@ Wenden Sie sich an Ihren Administrator, wenn Sie die Funktion nicht nutzen könn
 
 +++Zielgruppen
 
-Erstellen Sie Zielgruppen in Experience Platform, bevor Sie Herausforderungen schaffen. Diese Zielgruppen definieren, welche Kundinnen und Kunden für die Teilnahme an Ihren Herausforderungen im Zusammenhang mit der Treue infrage kommen. Weitere Informationen zum Erstellen von Zielgruppen finden Sie unter [Erste Schritte mit Zielgruppen](../audience/about-audiences.md).
+Definieren Sie Zielgruppen, die angeben, welche Kundinnen und Kunden für die Teilnahme an Ihren Herausforderungen im Zusammenhang mit der Treue infrage kommen. Sie können bestehende Audiences auswählen oder neue Audiences direkt über die Benutzeroberfläche zur Challenge-Erstellung erstellen. Weitere Informationen zum Arbeiten mit Zielgruppen finden Sie unter [Erste Schritte mit Zielgruppen](../audience/about-audiences.md).
 
 +++
 
