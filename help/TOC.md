@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
 workflow-type: tm+mt
-source-wordcount: '3091'
+source-wordcount: '3093'
 ht-degree: 98%
 
 ---
@@ -136,6 +136,7 @@ ht-degree: 98%
    + [Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue](using/loyalty-challenges/get-started.md)
    + [Herausforderungen beim Treueprogramm](using/loyalty-challenges/access-loyalty-challenges.md)
    + [Herausforderungen schaffen](using/loyalty-challenges/create-challenges.md)
+   + [Aufgaben erstellen](using/loyalty-challenges/create-tasks.md)
    + [Herausforderungen bewältigen](using/loyalty-challenges/manage-challenges.md)
 + Kampagnen {#campaigns}
    + [Kampagnen](/help/rp_landing_pages/campaigns-landing-page.md)
