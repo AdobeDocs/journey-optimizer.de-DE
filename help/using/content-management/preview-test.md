@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 Sobald der Inhalt der definiert wurde, können Sie ihn vor dem Senden der Nachricht in der Vorschau anzeigen. Dies ist ein entscheidender Schritt, um sicherzustellen, dass er präzise, aber auch frei von Fehlern ist, sowohl im Inhalt als auch in den Personalisierungseinstellungen.
 
-Sie können auch Testsendungen Ihrer E-Mail-Nachrichten an bestimmte Empfängerinnen und Empfänger oder Abonnentinnen und Abonnenten zu Test- und Validierungszwecken durchführen und ihr Rendering in gängigen Desktop-, Mobile- und Web-basierten Clients überprüfen. Darüber hinaus können Sie allgemeine Aspekte der Inhaltsqualität wie Lesbarkeit und Effektivität bewerten. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](brands-score.md#validate-quality)
+Darüber hinaus können Sie auch Testsendungen Ihrer E-Mail-Nachrichten an bestimmte Empfängerinnen bzw. Empfänger oder Abonnentinnen bzw. Abonnenten zum Testen und Validieren senden sowie ihr Rendering in beliebten Desktop-, Mobile- und Web-basierten Clients überprüfen. Darüber hinaus können Sie allgemeine Aspekte der Inhaltsqualität wie Lesbarkeit und Effektivität bewerten. [Weitere Informationen zur Validierung der Inhaltsqualität](brands-score.md#validate-quality)
 
 Alle diese Aktionen können mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** durchgeführt werden, auf die Sie über den Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder über die E-Mail- und Web-Designer für die E-Mail- bzw. Web-Kanäle zugreifen können.
 
@@ -68,4 +68,4 @@ Journey Optimizer bietet zwei Erlebnisse zum Testen von Inhalten:
 
 Erfahren Sie, wie Sie mit Testprofilen das E-Mail-Rendering über Postfächer hinweg testen, personalisierten E-Mails mit Testprofilen in der Vorschau anzeigen und einen Testversand durchführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430337?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
