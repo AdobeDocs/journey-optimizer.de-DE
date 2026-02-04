@@ -243,7 +243,7 @@ Wenn Ihre Challenge-Konfiguration abgeschlossen ist, generieren Sie die zugehör
 
 Journey Optimizer erstellt automatisch eine [Journey](../building-journeys/journey-gs.md) im Entwurfsstatus. Die automatisch generierte Journey wird in Ihrem Journey-Inventar mit dem Namensformat „Challenge: [Challenge Name]&quot; angezeigt.
 
-Überprüfen Sie bei Bedarf die Journey-Konfiguration und [ Sie dann die Journey ](../building-journeys/publish-journey.md), um die Herausforderung für Kunden verfügbar zu machen.
+Überprüfen Sie bei Bedarf die Journey-Konfiguration und [&#x200B; Sie dann die Journey &#x200B;](../building-journeys/publish-journey.md), um die Herausforderung für Kunden verfügbar zu machen.
 
 Der Journey startet automatisch am angegebenen Startdatum der Challenge und sendet Inhalte und Nachrichten entsprechend Ihrer Konfiguration.
 
