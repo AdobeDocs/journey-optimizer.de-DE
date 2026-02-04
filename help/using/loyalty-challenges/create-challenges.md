@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
@@ -71,13 +71,13 @@ Definieren Sie auf **[!UICONTROL Registerkarte]** Struktur“, wie Ihre Herausfo
 
 ### Planen der Challenge {#schedule}
 
-Konfigurieren Sie, wann Ihre Challenge ausgeführt wird, indem Sie auf das ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Zeitplan öffnen]** klicken:
+Konfigurieren Sie, wann Ihre Challenge ausgeführt wird, indem Sie auf das Symbol **[!UICONTROL Zeitplan öffnen]** klicken:
 
-![](assets/challenge-create-properties.png)
+![](assets/challenge-create-schedule.png)
 
 * **[!UICONTROL Startdatum und -uhrzeit]**: Legen Sie fest, wann die Challenge für Kunden verfügbar sein soll.
 * **[!UICONTROL Enddatum und -uhrzeit]**: Legt fest, wann die Challenge abläuft und keine neuen Abschlüsse mehr akzeptiert.
-   * **[!UICONTROL Zeitzone]**: Bei der Challenge wird standardmäßig die lokale Zeitzone des Empfängers verwendet.
+* **[!UICONTROL Zeitzone]**: Bei der Challenge wird standardmäßig die lokale Zeitzone des Empfängers verwendet.
 * **[!UICONTROL Aufgaben müssen abgeschlossen sein]**: Wählen Sie aus, wann Kunden Aufgaben abschließen können:
 
    * **[!UICONTROL Jederzeit während der Herausforderung]**: Kunden können Aufgaben jederzeit zwischen dem Start- und dem Enddatum der Herausforderung abschließen.
@@ -89,17 +89,6 @@ Der Zeitplan für die Challenge ist jetzt konfiguriert. Fügen Sie als Nächstes
 
 Aufgaben definieren die spezifischen Aktionen, die Kunden durchführen müssen, um Belohnungen zu erhalten. Sie können Aufgabentypen (Einkauf, Ausgaben), Mengen, Produktfilter und andere Attribute konfigurieren.
 
-Je nach Challenge-Typ führen Kundinnen und Kunden Aufgaben unterschiedlich aus:
-
-* **Standardherausforderungen**: Führen Sie eine beliebige Anzahl von Aufgaben in beliebiger Reihenfolge aus\
-  *Beispiel: 3 von 5 Aufgaben erledigen - einen Kauf tätigen, eine Bewertung schreiben, einen Freund verweisen, in sozialen Medien teilen oder Profil aktualisieren*
-
-* **Streak Challenges**: Dieselbe Aufgabe mehrmals hintereinander ausführen\
-  *Beispiel: Tätigen Sie einen Kauf an 7 aufeinander folgenden Tagen, um Bonusprämien zu erhalten*
-
-* **Sequenzielle Herausforderungen**: Aufgaben in einer definierten Reihenfolge erledigen\
-  *Beispiel: Zuerst einen Kauf tätigen, dann eine Bewertung schreiben und dann in den sozialen Medien teilen - Aufgaben müssen in dieser exakten Reihenfolge erledigt sein*
-
 Gehen Sie wie folgt vor, um Ihrer Herausforderung Aufgaben hinzuzufügen:
 
 1. Wählen Sie **[!UICONTROL Abschnitt]** Aufgaben“ **[!UICONTROL Aufgabe hinzufügen]** aus.
@@ -108,12 +97,41 @@ Gehen Sie wie folgt vor, um Ihrer Herausforderung Aufgaben hinzuzufügen:
 
 1. Das **[!UICONTROL Aufgabeninventar]** wird geöffnet. Wählen Sie eine oder mehrere Aufgaben aus der Liste aus und klicken Sie auf **[!UICONTROL Hinzufügen]**. Um eine neue Aufgabe zu erstellen, wählen Sie **[!UICONTROL Neu]** aus. [Erfahren Sie, wie Sie Aufgaben erstellen und konfigurieren](create-tasks.md).
 
-1. Geben Sie im Abschnitt **[!UICONTROL Anforderung für Aufgabenabschluss]** an, wann die Herausforderung als abgeschlossen gilt:
+1. Geben Sie an, wann die Herausforderung als abgeschlossen gilt. Die verfügbaren Einstellungen hängen vom Challenge-Typ ab:
 
-   * **[!UICONTROL Der Kunde wählt eine zu]** Aufgabe aus: Der Kunde kann jede einzelne Aufgabe auswählen und abschließen, um Belohnungen zu erhalten.
-   * **[!UICONTROL Kunde führt bestimmte Aufgaben aus]**: Kunden müssen eine definierte Anzahl von Aufgaben ausführen.
+   +++Standardmäßige Herausforderungen
 
-1. Herausforderungen ermöglichen es Kunden standardmäßig, Aufgaben über mehrere Transaktionen hinweg auszuführen. Um alle Aufgaben in einer Transaktion auszuführen, wählen Sie das Symbol ![](assets/do-not-localize/settings-icon.svg)Einstellungen **[!UICONTROL aus]** aktivieren Sie die Option unten.
+   **[!UICONTROL Anforderung zum Abschluss der Aufgabe]** - Wählen Sie zwischen:
+
+   * **[!UICONTROL Der Kunde wählt eine zu]** Aufgabe aus: Der Kunde kann jede einzelne Aufgabe auswählen und abschließen, um Belohnungen zu erhalten
+   * **[!UICONTROL Kunde führt bestimmte Aufgaben aus]**: Kunden müssen eine definierte Anzahl von Aufgaben ausführen. Geben Sie die erforderliche Zahl an - *Beispiel: 3 von 5 Aufgaben erledigen*
+
+   +++
+
+   +++Herausforderungen meistern
+
+   * **[!UICONTROL Streak-]**:
+
+      * **Aufeinander**: Kunden müssen die Aufgabe an aufeinander folgenden Tagen ohne Pausen abschließen - *Beispiel: Kauf am Montag, Dienstag, Mittwoch - ein Tag fehlt, bricht die Pause*
+
+      * **Nicht fortlaufend**: Kunden können die Aufgabe mit Lücken zwischen den Abschlüssen abschließen - *Beispiel: 7 Käufe über 30 Tage abschließen, wobei Pausen zulässig sind*
+
+   * **[!UICONTROL Streak-Länge]**: Geben Sie an, wie oft die Aufgabe abgeschlossen werden muss - *Beispiel: Für eine „7-tägige Kauf-Streak“ auf 7 gesetzt*
+
+   +++
+
+   +++Sequenzielle Herausforderungen
+
+   **[!UICONTROL Anforderung zum Abschluss der Aufgabe]** - Wählen Sie zwischen:
+
+   * **[!UICONTROL Der Kunde wählt eine zu]** Aufgabe aus: Der Kunde kann jede einzelne Aufgabe auswählen und abschließen, um Belohnungen zu erhalten
+   * **[!UICONTROL Kunde erledigt bestimmte Aufgaben]**: Kunden müssen eine definierte Anzahl von Aufgaben in der von Ihnen definierten Reihenfolge erledigen. Fehlende oder ausgelassene Aufgaben unterbrechen die Sequenz. Geben Sie die erforderliche Zahl an (z. B. 3 von 5 Aufgaben erledigen).
+
+   *Beispiel: Aufgabe 1 (Kauf) → Aufgabe 2 (Überprüfung) → Aufgabe 3 (Freigabe) - muss in dieser Reihenfolge abgeschlossen sein*
+
+   +++
+
+1. Standardmäßig können Kunden mit standardmäßigen und sequenziellen Herausforderungen Aufgaben über mehrere Transaktionen hinweg ausführen. Um alle Aufgaben in einer Transaktion auszuführen, wählen Sie das Symbol ![](assets/do-not-localize/settings-icon.svg)Einstellungen **[!UICONTROL aus]** aktivieren Sie die Option unten.
 
    ![](assets/challenge-create-single-transaction.png)
 
@@ -201,7 +219,7 @@ Erfahren Sie, wie Sie Nachrichten für bestimmte Kanäle erstellen:
 
 * [In-App-Nachrichten](../in-app/get-started-in-app.md)
 * [E-Mail-Nachrichten](../email/get-started-email.md)
-* [Push-Benachrichtigungen &#x200B;](../push/get-started-push.md)
+* [Push-Benachrichtigungen ](../push/get-started-push.md)
 
 Legen Sie nach Abschluss der Messaging-Konfiguration fest, welche Kunden für die Teilnahme an der Challenge infrage kommen.
 
