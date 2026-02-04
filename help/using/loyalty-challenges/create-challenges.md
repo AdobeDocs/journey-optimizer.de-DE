@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 1%
@@ -68,29 +68,29 @@ Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum 
 
 ## Konfiguration der Challenge-Struktur {#structure}
 
-Auf der Registerkarte Struktur legen Sie fest, wie Ihre Herausforderung organisiert ist: Eigenschaften, Zeitplan, zu erledigende Aufgaben und Belohnungen.
+Definieren Sie auf der Registerkarte Struktur , wie Ihre Herausforderung organisiert ist: Eigenschaften, Zeitplan, abzuschließende Aufgaben und Belohnungen.
 
 ### Definieren der Challenge-Eigenschaften und Verwenden benutzerdefinierter Metadaten {#properties}
 
-1. Konfigurieren Sie im Bereich Challenge-Eigenschaften die Challenge-Eigenschaften:
+1. Definieren Sie im Bereich Challenge-Eigenschaften die Challenge-Einstellungen:
 
    ![](assets/challenge-create-properties.png)
 
-   **Name**: Geben Sie einen beschreibenden Namen für Ihre Challenge ein. Dieser Name wird im Challenges-Inventar angezeigt und hilft Ihnen, die Challenge zu identifizieren.
+   **Name**: Geben Sie einen beschreibenden Namen für Ihre Challenge ein. Dieser Name wird im Challenges-Inventar angezeigt.
 
-   **Beschreibung**: Geben Sie eine Beschreibung für Ihre Challenge ein.
+   **Beschreibung**: Geben Sie eine Beschreibung ein, in der der Zweck und die Ziele der Herausforderung erläutert werden.
 
 1. Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Metadaten]**, um benutzerdefinierte Metadaten mithilfe von Schlüssel/Wert-Paaren hinzuzufügen. Diese Metadaten können für das Tracking, die Segmentierung oder die Integration mit externen Systemen verwendet werden.
 
 ### Planen der Challenge {#schedule}
 
-Planen Sie die Challenge, indem Sie ![](assets/do-not-localize/schedule-icon.svg) Symbol **[!UICONTROL Zeitplan öffnen]** auswählen.
+Konfigurieren Sie, wann Ihre Challenge ausgeführt wird, indem Sie auf das ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Zeitplan öffnen]** klicken:
 
-* **Startdatum und -uhrzeit**: Festlegen, wann die Challenge für Kunden verfügbar wird (Format: mm/tt/jjjj, —:— am/pm).
+* **Startdatum und -uhrzeit**: Festlegen, wann die Challenge für Kunden verfügbar sein soll
 
-* **Enddatum und -uhrzeit**: Legt fest, wann die Challenge abläuft und keine neuen Abschlüsse mehr akzeptiert (Format: mm/tt/jjjj, —:— AM/PM).
+* **Enddatum und -uhrzeit**: Legt fest, wann die Challenge abläuft und keine neuen Abschlüsse mehr akzeptiert
 
-* **Zeitzone**: Bei der Challenge wird standardmäßig die lokale Zeitzone des Empfängers verwendet.
+* **Zeitzone**: Die Challenge verwendet standardmäßig die lokale Zeitzone des Empfängers
 
 * **Aufgaben müssen abgeschlossen sein**: Wählen Sie aus, wann Kunden Aufgaben abschließen können:
 
@@ -101,13 +101,18 @@ Der Zeitplan für die Challenge ist jetzt konfiguriert. Sie können jetzt die Au
 
 ### Aufgaben hinzufügen {#add-tasks}
 
-Aufgaben definieren die spezifischen Aktionen oder Meilensteine, die Kundinnen und Kunden abschließen müssen, um Prämien zu erhalten. Sie konfigurieren Aufgabentypen (Kauf, Ausgaben, Besuch, Interaktion, benutzerdefinierte Ereignisse), Mengen, Produktfilter und Belohnungen.
+Aufgaben definieren die spezifischen Aktionen, die Kunden durchführen müssen, um Belohnungen zu erhalten. Sie können Aufgabentypen (Einkauf, Ausgaben), Mengen, Produktfilter und andere Attribute konfigurieren.
 
 Je nach Challenge-Typ führen Kundinnen und Kunden Aufgaben unterschiedlich aus:
 
-* **Standardherausforderungen**: Führen Sie eine beliebige Anzahl von Aufgaben in beliebiger Reihenfolge aus
-* **Streak Challenges**: Dieselbe Aufgabe mehrmals hintereinander ausführen
-* **Sequenzielle Herausforderungen**: Aufgaben in einer definierten Reihenfolge erledigen
+* **Standardherausforderungen**: Führen Sie eine beliebige Anzahl von Aufgaben in beliebiger Reihenfolge aus\
+  *Beispiel: 3 von 5 Aufgaben erledigen - einen Kauf tätigen, eine Bewertung schreiben, einen Freund verweisen, in sozialen Medien teilen oder Profil aktualisieren*
+
+* **Streak Challenges**: Dieselbe Aufgabe mehrmals hintereinander ausführen\
+  *Beispiel: Tätigen Sie einen Kauf an 7 aufeinander folgenden Tagen, um Bonusprämien zu erhalten*
+
+* **Sequenzielle Herausforderungen**: Aufgaben in einer definierten Reihenfolge erledigen\
+  *Beispiel: Zuerst einen Kauf tätigen, dann eine Bewertung schreiben und dann in den sozialen Medien teilen - Aufgaben müssen in dieser exakten Reihenfolge erledigt sein*
 
 Gehen Sie wie folgt vor, um Ihrer Herausforderung Aufgaben hinzuzufügen:
 
@@ -117,12 +122,12 @@ Gehen Sie wie folgt vor, um Ihrer Herausforderung Aufgaben hinzuzufügen:
 
 1. Das Aufgabeninventar wird geöffnet. Wählen Sie eine oder mehrere Aufgaben aus der Liste aus und klicken Sie auf **[!UICONTROL Hinzufügen]**. Um eine neue Aufgabe zu erstellen, wählen Sie **[!UICONTROL Neu]** aus.
 
-   Detaillierte Anweisungen zum Erstellen und Konfigurieren von Aufgaben finden Sie unter [Aufgaben erstellen](create-tasks.md).
+   [Erfahren Sie, wie Sie Aufgaben erstellen und konfigurieren](create-tasks.md).
 
-1. Geben Sie im Abschnitt **[!UICONTROL Anforderung für Aufgabenabschluss]** an, wann die Herausforderung als abgeschlossen betrachtet werden soll:
+1. Geben Sie im Abschnitt **[!UICONTROL Anforderung für Aufgabenabschluss]** an, wann die Herausforderung als abgeschlossen gilt:
 
-   * **[!UICONTROL Der Kunde wählt eine zu]** Aufgabe aus: Der Kunde kann jede einzelne Aufgabe aus der Herausforderung auswählen und abschließen, um Belohnungen zu erhalten
-   * **[!UICONTROL Kunde führt bestimmte Aufgaben aus]**: Der Kunde muss eine definierte Anzahl von Aufgaben ausführen. Geben Sie die erforderliche Anzahl an Aufgabenabschlüssen ein.
+   * **[!UICONTROL Der Kunde wählt eine zu]** Aufgabe aus: Der Kunde kann jede einzelne Aufgabe auswählen und abschließen, um Belohnungen zu erhalten
+   * **[!UICONTROL Kunde führt bestimmte Aufgaben aus]**: Kunden müssen eine definierte Anzahl von Aufgaben ausführen. Geben Sie die erforderliche Zahl an.
 
 1. Herausforderungen ermöglichen es Kunden standardmäßig, Aufgaben über mehrere Transaktionen hinweg auszuführen. Um alle Aufgaben in einer Transaktion auszuführen, wählen Sie das Symbol ![](assets/do-not-localize/settings-icon.svg)**[!UICONTROL Einstellungen]** und schalten Sie die Option **[!UICONTROL Einzelne Transaktion]** um.
 
@@ -130,26 +135,26 @@ Gehen Sie wie folgt vor, um Ihrer Herausforderung Aufgaben hinzuzufügen:
 
 ### Konfigurieren von Belohnungen {#rewards}
 
-Prämien sind die Treuepunkte oder Vorteile, die Kundinnen und Kunden bei der Bewältigung von Herausforderungen erhalten. Konfigurieren Sie, wie und wann Belohnungen bereitgestellt werden, um die Kundenbeteiligung zu motivieren.
+Prämien sind die Treuepunkte oder Vorteile, die Kundinnen und Kunden bei der Bewältigung von Herausforderungen erhalten. Konfigurieren Sie, wann und wie Belohnungen bereitgestellt werden.
 
-1. Wählen Sie im Dropdown **[!UICONTROL Versand belohnen]** den Zeitpunkt aus, zu dem die Belohnungen bereitgestellt werden sollen:
+1. Wählen Sie im Dropdown **[!UICONTROL Versand belohnen]** den Zeitpunkt für die Belohnungsversendung aus:
 
-   * **[!UICONTROL Belohnungen nach Abschluss der Challenge bereitstellen]**: Alle Belohnungen erhalten, wenn der Kunde die gesamte Challenge abgeschlossen hat
-   * **[!UICONTROL Belohnungen bei Meilensteinen zum Abschluss von Aufgaben bereitstellen, sobald der Fortschritt der Herausforderung erreicht wird]**: Belohnungen werden schrittweise verliehen, wenn Kunden einzelne Aufgaben erledigen (nur verfügbar, wenn die Herausforderung mehr als eine Aufgabe erfordert).
+   * **[!UICONTROL Belohnungen nach Abschluss der Herausforderung bereitstellen]**: Belohnungen erhalten, wenn Kunden die gesamte Herausforderung bewältigen
+   * **[!UICONTROL Belohnungen bei Meilensteinen zum Abschluss von Aufgaben bereitstellen, sobald der Fortschritt der Herausforderung erreicht wird]**: Belohnungen werden schrittweise verliehen, sobald Kunden einzelne Aufgaben erledigen (nur für Herausforderungen, die mehr als eine Aufgabe erfordern).
 
-1. Wählen Sie Ihren Belohnungsanbieter aus dem Dropdown-Menü aus. Dies ist Ihre Treuelösung, mit der Kundenpunkte und -belohnungen verwaltet werden.
+1. Wählen Sie Ihren **[!UICONTROL Belohnungsanbieter]** aus dem Dropdown-Menü aus. Dies ist Ihre Treuelösung, mit der Kundenpunkte und -belohnungen verwaltet werden.
 
 1. Konfigurieren Sie die Belohnungsbeträge basierend auf Ihrer ausgewählten Versandmethode:
 
    +++Belohnungen nach Abschluss der Challenge bereitstellen
 
-   Geben Sie im Feld **Anzahl der [Treuepunkte] bei Abschluss der** den Gesamtbelohnungsbetrag an, der gegeben werden soll, wenn der Kunde die gesamte Herausforderung abschließt.
+   Geben Sie im Feld **Anzahl der [Treuepunkte] bei Abschluss der** den Gesamtbelohnungsbetrag an, der gegeben werden soll, wenn die Kundinnen und Kunden die gesamte Herausforderung abschließen.
 
    Der Feldname zeigt den Namen Ihrer Treuepunkte wie im ausgewählten Anbieter definiert an. Wenn Ihr Provider beispielsweise „Luma-Punkte“ verwendet, wird im Feld „Anzahl der Luma-Punkte nach Abschluss der Herausforderung“ angezeigt.
 
    ![](assets/challenge-create-reward-total.png)
 
-   **Beispiel**: Im obigen Screenshot erhalten Kunden beim Abschluss der Challenge 100 Punkte.
+   **Beispiel**: Kunden erhalten 100 Punkte, wenn sie die Challenge abschließen.
 
    +++
 
@@ -161,7 +166,7 @@ Prämien sind die Treuepunkte oder Vorteile, die Kundinnen und Kunden bei der Be
 
    ![](assets/challenge-create-reward-milestones.png)
 
-   **Beispiel**: Im obigen Screenshot erhalten Kunden beim Abschluss der ersten Aufgabe 10 Punkte und nach Abschluss der zweiten Aufgabe 50 zusätzliche Punkte, sodass sich nach Abschluss der Herausforderung insgesamt 60 Punkte ergeben.
+   **Beispiel**: Kunden erhalten beim Abschluss der ersten Aufgabe 10 Punkte und nach Abschluss der zweiten Aufgabe 50 zusätzliche Punkte, sodass sich nach Abschluss der Aufgabe insgesamt 60 Punkte ergeben.
 
    >[!TIP]
    >
@@ -169,31 +174,35 @@ Prämien sind die Treuepunkte oder Vorteile, die Kundinnen und Kunden bei der Be
 
    +++
 
+>[!NOTE]
+>
+>Die Herausforderungen bezüglich der Treue umfassen kein integriertes Sachkontensystem zur Verfolgung von Belohnungssalden. Stellen Sie sicher, dass Ihr ausgewählter Belohnungsanbieter Punktverfolgung und -einlösung übernimmt.
+
 Die Challenge-Struktur ist jetzt mit Aufgaben und Belohnungen konfiguriert. Sie können jetzt die Inhaltskarten entwerfen, um den Kunden die Herausforderung anzuzeigen.
 
 ## Konfigurieren von Inhaltskarten {#configure-content-cards}
 
-Inhaltskarten bieten eine visuelle Darstellung Ihrer Challenge auf Kundengeräten und zeigen Challenge-Informationen, Fortschritt und Belohnungen an. Weitere Informationen zu [Inhaltskarten](../content-card/create-content-card.md).
+Inhaltskarten stellen Ihre Herausforderung auf Kundengeräten visuell dar und zeigen Informationen zur Herausforderung, den Fortschritt und die Belohnungen an. [Weitere Informationen zu Inhaltskarten](../content-card/create-content-card.md).
 
 So konfigurieren Sie Inhaltskarten für Ihre Challenge:
 
-1. Navigieren Sie im Challenge-Editor zur Registerkarte **[!UICONTROL Inhalt]** .
+1. Navigieren Sie zur Registerkarte **[!UICONTROL Inhalt]** .
 
 1. Geben Sie **[!UICONTROL Inhaltskarte]** Name“ ein.
 
-1. Wählen Sie die zugehörige **[!UICONTROL Kanalkonfiguration]** aus. Kanalkonfigurationen definieren, wie und wo Ihre Inhalte für Kunden bereitgestellt werden. Weitere Informationen finden Sie unter [Kanalkonfigurationen](../configuration/channel-surfaces.md).
+1. Wählen Sie die **[!UICONTROL Kanalkonfiguration]**. Kanalkonfigurationen enthalten alle technischen Parameter zum Senden der Nachricht, z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Weitere Informationen zu Kanalkonfigurationen](../configuration/channel-surfaces.md).
 
 1. Wählen Sie **[!UICONTROL Inhalt bearbeiten]** aus, um Ihre Inhaltskarte zu entwerfen.
 
    ![](assets/challenge-create-content.png)
 
-Weitere Informationen zum Entwerfen und Personalisieren von Inhaltskarten finden Sie unter [Entwerfen von Inhaltskarten](../content-card/design-content-card.md).
+[Erfahren Sie, wie Sie Inhaltskarten entwerfen und personalisieren](../content-card/design-content-card.md).
 
 Die Inhaltskarte ist jetzt konfiguriert. Sie können jetzt Messaging einrichten, um Kunden während des gesamten Challenge-Lebenszyklus anzusprechen.
 
 ### Konfigurieren von Messaging {#configure-messaging}
 
-Richten Sie Multi-Channel-Nachrichten ein, um Kunden in wichtigen Phasen des Challenge-Lebenszyklus anzusprechen.
+Richten Sie Multi-Channel-Nachrichten ein, um Kunden in wichtigen Phasen des Challenge-Lebenszyklus anzusprechen. Messaging ist optional, wird aber zur Maximierung der Kundeninteraktion empfohlen.
 
 1. Navigieren Sie zur Registerkarte **[!UICONTROL Messaging]**.
 
@@ -201,9 +210,9 @@ Richten Sie Multi-Channel-Nachrichten ein, um Kunden in wichtigen Phasen des Cha
 
    ![](assets/challenge-create-messaging.png)
 
-   * **Launch-Nachrichten**: Benachrichtigen Sie Kunden, wenn die Challenge beginnt, und geben Sie erste Details an
-   * **Nachrichten in Bearbeitung**: Halten Sie Kunden während der Herausforderung mit Erinnerungen, Fortschrittsaktualisierungen und Ermutigung zum Fortfahren in Verbindung
-   * **Abschlussnachrichten**: Feiern Sie Erfolg, bestätigen Sie die Belohnungszuweisung und schlagen Sie nächste Herausforderungen oder Aktionen vor
+   * **Launch**-Nachricht: Kunden benachrichtigen, wenn die Herausforderung beginnt
+   * **In Bearbeitung** Nachricht: Halten Sie Kunden mit Erinnerungen und Fortschrittsaktualisierungen in Verbindung
+   * **Completion** Nachricht: Erfolg feiern und Zuweisung der Belohnung bestätigen
 
 1. Wählen Sie für jede Phase **[!UICONTROL Phase hinzufügen *Nachricht* aus,]** eine Nachricht für diese Phase zu erstellen.
 
@@ -211,11 +220,11 @@ Richten Sie Multi-Channel-Nachrichten ein, um Kunden in wichtigen Phasen des Cha
 
 1. Klicken Sie auf das ![](assets/do-not-localize/Smock_More_18_N.svg) und wählen Sie **[!UICONTROL Bearbeiten]** aus, um den Nachrichteninhalt zu entwerfen.
 
-   Weitere Informationen zum Erstellen von Nachrichten für bestimmte Kanäle finden Sie unter:
+   Erfahren Sie, wie Sie Nachrichten für bestimmte Kanäle erstellen:
 
-   * [Dokumentation zu In-App-Nachrichten](../in-app/get-started-in-app.md)
-   * [Dokumentation zu E-Mail-Nachrichten](../email/get-started-email.md)
-   * [Dokumentation zu Push-Benachrichtigungen](../push/get-started-push.md)
+   * [Erfahren Sie, wie Sie In-App-Nachrichten erstellen](../in-app/get-started-in-app.md)
+   * [Erfahren Sie, wie Sie E-Mail-Nachrichten erstellen](../email/get-started-email.md)
+   * [Erfahren Sie, wie Sie Push-Benachrichtigungen erstellen.](../push/get-started-push.md)
 
 1. Wiederholen Sie diese Schritte für jede Phase und jeden Kanal nach Bedarf.
 
@@ -223,15 +232,15 @@ Die Messaging-Konfiguration ist jetzt abgeschlossen. Jetzt können Sie festlegen
 
 ## Auswählen der Challenge-Audience {#audience}
 
-Definieren Sie, welche Kundinnen und Kunden für die Teilnahme an Ihrer Herausforderung zur Treue infrage kommen.
+Definieren Sie, welche Kundinnen und Kunden an Ihrer Herausforderung der Treue teilnehmen können.
 
-1. Navigieren Sie zur Registerkarte **[!UICONTROL Audience]** und klicken Sie auf die Schaltfläche **[!UICONTROL Audience auswählen]**.
+1. Navigieren Sie zur Registerkarte **[!UICONTROL Audience]** und wählen Sie **[!UICONTROL Audience auswählen]** aus.
 
    ![](assets/challenge-create-audience.png)
 
-1. Alle verfügbaren Adobe Experience Platform-Zielgruppen werden angezeigt. Wählen Sie die gewünschte Audience aus der Liste aus.
+1. Wählen Sie Ihre Zielgruppe aus der Liste der verfügbaren Adobe Experience Platform-Zielgruppen aus.
 
-1. Wählen **[!UICONTROL Audience hinzufügen]** aus, um Ihre Auswahl zu bestätigen.
+1. Wählen Sie **[!UICONTROL Zielgruppe hinzufügen]** aus.
 
 Ihre Challenge-Konfiguration ist jetzt abgeschlossen. Sie können jetzt die Journey generieren, die den Challenge-Versand koordiniert.
 
@@ -243,15 +252,14 @@ Wenn Ihre Challenge-Konfiguration abgeschlossen ist, generieren Sie die zugehör
 
 Journey Optimizer erstellt automatisch eine [Journey](../building-journeys/journey-gs.md) im Entwurfsstatus. Die automatisch generierte Journey wird in Ihrem Journey-Inventar mit dem Namensformat „Challenge: [Challenge Name]&quot; angezeigt.
 
-Überprüfen Sie bei Bedarf die Journey-Konfiguration und [&#x200B; Sie dann die Journey &#x200B;](../building-journeys/publish-journey.md), um die Herausforderung für Kunden verfügbar zu machen.
+Überprüfen Sie bei Bedarf die Journey-Konfiguration und [ Sie dann die Journey ](../building-journeys/publish-journey.md), um die Herausforderung für Kunden verfügbar zu machen.
 
 Der Journey startet automatisch am angegebenen Startdatum der Challenge und sendet Inhalte und Nachrichten entsprechend Ihrer Konfiguration.
 
 >[!NOTE]
 >
->Die automatisch generierte Journey kann bei Bedarf angepasst werden, um zusätzliche Logik oder Messaging hinzuzufügen. Direkt am Journey vorgenommene Änderungen werden jedoch nicht mit der Challenge-Konfiguration synchronisiert. Wenn Sie die Challenge später bearbeiten, gehen alle Journey-Anpassungen verloren, wenn die Journey neu generiert wird.
+>Die automatisch generierte Journey kann angepasst werden, um zusätzliche Logik oder Messaging hinzuzufügen. Direkt am Journey vorgenommene Änderungen werden jedoch nicht mit der Challenge-Konfiguration synchronisiert. Wenn Sie die Challenge später bearbeiten, gehen alle Journey-Anpassungen verloren, wenn die Journey neu generiert wird.
 
 ## Nächste Schritte {#next-steps}
 
-* [Herausforderungen verwalten](manage-challenges.md) - Erfahren Sie, wie Sie Herausforderungen bearbeiten, überwachen und optimieren können.
-* [Herausforderungen im Zusammenhang mit der Treue](get-started.md) - Funktionen und Möglichkeiten überprüfen
+* [Herausforderungen verwalten](manage-challenges.md) - Herausforderungen bearbeiten, überwachen und optimieren

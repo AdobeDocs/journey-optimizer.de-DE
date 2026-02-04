@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 3%
+source-wordcount: '453'
+ht-degree: 4%
 
 ---
 
@@ -38,33 +38,35 @@ ht-degree: 3%
 
 Um auf die Herausforderungen im Zusammenhang mit dem Treueprogramm zuzugreifen, navigieren Sie zu Journey Optimizer und wählen **[!UICONTROL Treueprogramm (Beta)]** im Abschnitt **[!UICONTROL Journey-]** aus.
 
+## Überblick {#overview}
+
+Die Benutzeroberfläche für Herausforderungen im Zusammenhang mit dem Treueprogramm bietet einen zentralen Ort zum Anzeigen, Verwalten und Organisieren aller Herausforderungen und Aufgaben. Sie können auf zwei Hauptinventare zugreifen:
+
+* **Herausforderungen-Inventar**: Alle Herausforderungen im Zusammenhang mit der Treue anzeigen und verwalten, ihren Status überwachen und schnelle Aktionen durchführen
+* **Aufgabeninventar**: Durchsuchen wiederverwendbarer Aufgaben, die für mehrere Herausforderungen verwendet werden können
+
 ## Herausforderungen-Inventar {#challenges-tab}
 
 Auf **[!UICONTROL Registerkarte]** Herausforderungen“ werden alle Herausforderungen nach dem Datum der letzten Änderung sortiert angezeigt, wobei die zuletzt geänderten Herausforderungen zuerst angezeigt werden.
 
 ![](assets/challenges-inventory.png)
 
-Daraufhin werden die folgenden Informationen angezeigt:
+Wichtige angezeigte Informationen:
 
-* **[!UICONTROL Herausforderung]**: Der Name, den Sie der Herausforderung zugewiesen haben
-* **[!UICONTROL State]**: Aktueller Status der Herausforderung. Detaillierte Informationen zu Statusübergängen und dem Challenge-Lebenszyklus finden Sie unter [Challenge-Lebenszyklus](manage-challenges.md#challenge-lifecycle).
-* **[!UICONTROL Beschreibung]**: Kurze Beschreibung des Ziels der Herausforderung
+* **[!UICONTROL Challenge]**: Challenge-Name
+* **[!UICONTROL state]**: Aktueller Status der Herausforderung (Entwurf oder veröffentlicht). [Erfahren Sie mehr über Statusübergänge](manage-challenges.md#challenge-lifecycle)
 * **[!UICONTROL Aufgaben]**: Anzahl der in der Herausforderung konfigurierten Aufgaben
 * **[!UICONTROL Journey]**: Link zur automatisch generierten Journey, die mit der Challenge verknüpft ist
 * **[!UICONTROL Status]**: Aktueller Status der zugehörigen Journey (Entwurf, Live, Angehalten usw.)
-* **[!UICONTROL Startdatum (UTC)]**: Wenn die Challenge aktiv wird
-* **[!UICONTROL Enddatum (UTC)]**: Wenn die Challenge abläuft
-* **[!UICONTROL Zuletzt geändert]**: Datum und Uhrzeit der letzten Änderung
-* **[!UICONTROL Erstellungsdatum]**: Datum, an dem die Herausforderung erstellt wurde
-* **[!UICONTROL Erstellt von]**: Benutzer, der die Herausforderung erstellt hat
+* **[!UICONTROL Start-/Enddatum (UTC)]**: Wann die Challenge aktiv wird und wann sie abläuft
 
 Auf der Registerkarte Herausforderungen können Sie schnelle Aktionen für Herausforderungen durchführen:
 
-* **Challenge-Details anzeigen**: Wählen Sie den Challenge-Namen aus, um die Detailseite zu öffnen
+* **Challenge-Details anzeigen**: Wählen Sie den Challenge-Namen aus, um die zugehörige Detailseite zu öffnen und/oder die Challenge zu bearbeiten
 * **Herausforderung duplizieren**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und dann **[!UICONTROL Duplizieren]**
 * **Entwurf einer Herausforderung löschen**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und wählen Sie **[!UICONTROL Löschen]**
 
-Ausführliche Informationen zum Verwalten von Herausforderungen nach der Erstellung finden Sie unter [Verwalten von Herausforderungen und Aufgaben](manage-challenges.md).
+[Erfahren Sie, wie Sie Herausforderungen nach der Erstellung ](manage-challenges.md).
 
 ## Aufgaben-Inventar {#tasks-tab}
 
@@ -72,24 +74,20 @@ Auf der Registerkarte Aufgaben werden alle wiederverwendbaren Aufgaben angezeigt
 
 ![](assets/tasks-inventory.png)
 
-Das Aufgabeninventar zeigt die folgenden Informationen an:
+Wichtige angezeigte Informationen:
 
 * **[!UICONTROL Aufgabenname]**: Der Name, den Sie der Aufgabe zugewiesen haben
 * **[!UICONTROL Beschreibung]**: Kurze Beschreibung dessen, was die Aufgabe erfordert
 * **[!UICONTROL Aufgabenaktivität]**: Art der Aktivität (Kauf, Ausgaben)
 * **[!UICONTROL SKU]**: Mögliche und/oder ausgeschlossene Elemente
-* **[!UICONTROL Zuletzt geändert]**: Datum und Uhrzeit der letzten Änderung
-* **[!UICONTROL Zuletzt geändert von]**: Letzter Benutzer, der die Aufgabe geändert hat
-* **[!UICONTROL Erstellungsdatum]**: Datum, an dem die Aufgabe erstellt wurde
-* **[!UICONTROL Erstellt von]**: Benutzer, der die Aufgabe erstellt hat
 
 Auf der Registerkarte Aufgaben können Sie Schnellaktionen für Aufgaben durchführen:
 
-* **Aufgabendetails anzeigen**: Aufgabennamen auswählen, um die vollständige Konfiguration anzuzeigen
+* **Aufgabendetails anzeigen**: Wählen Sie den Aufgabennamen aus, um die vollständige Konfiguration anzuzeigen und/oder die Aufgabe zu bearbeiten
 * **Aufgabe duplizieren**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und dann **[!UICONTROL Duplizieren]**
 * **Aufgabe löschen**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und klicken Sie auf **[!UICONTROL Löschen]**
 
-Ausführliche Informationen zum Verwalten von Aufgaben nach der Erstellung finden Sie unter [Verwalten von Herausforderungen und Aufgaben](manage-challenges.md).
+[Erfahren Sie, wie Sie Aufgaben nach der Erstellung ](manage-challenges.md).
 
 ## Nächste Schritte {#next-steps}
 
