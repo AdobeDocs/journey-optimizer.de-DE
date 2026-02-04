@@ -86,7 +86,7 @@ Herausforderungen im Zusammenhang mit der Kundentreue beruhen auf Daten, die üb
 
 Detaillierte Anweisungen finden Sie unter:
 
-* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Dokumentation zu Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
 * [Konfigurieren von Quell-Connectoren in Journey Optimizer](../start/get-started-sources.md)
 
 +++
