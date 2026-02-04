@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 91%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 100%
 Bei der Konfiguration einer neuen [E-Mail-Kanalkonfiguration](email-settings.md) können Sie **[!UICONTROL URL-Tracking-Parameter]** definieren, um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. Die Aktivierung dieser Funktion ist optional.
 
 Die im entsprechenden Abschnitt definierten Parameter werden an das Ende der URLs angehängt, die im Inhalt Ihrer E-Mail-Nachricht enthalten sind. Anschließend können Sie diese Parameter in Web-Analyse-Tools wie Adobe Analytics oder Google Analytics erfassen und verschiedene Performance-Berichte erstellen.
+
+>[!NOTE]
+>
+>Die Reihenfolge der an die URL angehängten URL-Tracking-Parameter ist zufällig und kann nicht gesteuert werden. Wenn Ihr System Parameter in einer bestimmten Reihenfolge benötigt, müssen Sie sie analysieren und auf Ihrer Seite neu anordnen.
 
 Sie können mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen]** bis zu 10 Tracking-Parameter hinzufügen.
 

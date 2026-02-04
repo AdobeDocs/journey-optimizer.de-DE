@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 98%
+source-wordcount: '1736'
+ht-degree: 96%
 
 ---
 
@@ -73,7 +73,7 @@ Die Kopfzeile „Von der Liste abmelden“ bietet zwei Funktionen, die standardm
 
 Die Einverständnisstufe kann aus der Dropdown-Liste **[!UICONTROL Einverständnisstufe]** ausgewählt werden. Sie kann sich auf den Kanal oder die Profilidentität beziehen. Basierend auf dieser Einstellung wird das Einverständnis in [!DNL Adobe Journey Optimizer] entweder auf Kanal- oder ID-Ebene aktualisiert, wenn sich jemand über die URL zum Abmelden von Listen in der Kopfzeile einer E-Mail abmeldet.
 
-## Schutzmechanismen und Empfehlungen {#list-unsubscribe-guardrails}
+## Leitlinien und Empfehlungen {#list-unsubscribe-guardrails}
 
 Die Funktion „URL zum Abmelden mit einem Klick“ ermöglicht es Ihren Empfängerinnen und Empfängern, sich ganz einfach von Ihrer Kommunikation abzumelden. Da jedoch nicht alle E-Mail-Clients diesen Link im E-Mail-Header unterstützen, empfiehlt Adobe, auch einen [Ein-Klick-Opt-out-Link](email-opt-out.md#one-click-opt-out) oder einen [Abmelde-Link](email-opt-out.md#add-unsubscribe-link) in den Textkörper Ihrer E-Mail einzufügen.
 
@@ -129,9 +129,13 @@ Um Ihre Endpunkte weiter zu personalisieren<!-- (**[!UICONTROL Mailto (unsubscri
 >
 >Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 >
->Für die Option **[!UICONTROL Mailto (unsubscribe)]** müssen Sie die neuen Abfrageparameter verwenden, die im Abschnitt **Mailto (unsubscribe) mit benutzerdefinierten Attributen (Eingeschränkte Verfügbarkeit)** unten beschrieben [&#128279;](#configure-decrypt-api).
+>Für die Option **[!UICONTROL Mailto (unsubscribe)]** müssen Sie die neuen Abfrageparameter verwenden, die im Abschnitt **Mailto (unsubscribe) mit benutzerdefinierten Attributen (Eingeschränkte Verfügbarkeit)** unten beschrieben [](#configure-decrypt-api).
 
 Verwenden Sie zum Definieren der benutzerdefinierten Attribute für Ihre Endpunkte den Abschnitt **[!UICONTROL URL-Tracking-Parameter]**. Alle URL-Tracking-Parameter, die Sie im entsprechenden Abschnitt definieren, werden zusätzlich zu den Standardparametern an das Ende Ihrer benutzerdefinierten Endpunkte angehängt. [Informationen dazu, wie Sie benutzerdefiniertes URL-Tracking festlegen](url-tracking.md)
+
+>[!NOTE]
+>
+>Die Reihenfolge der an die URL angehängten UTM-Parameter ist zufällig und kann nicht gesteuert werden. Wenn Ihr System Parameter in einer bestimmten Reihenfolge benötigt, müssen Sie sie analysieren und auf Ihrer Seite neu anordnen.
 
 ### Konfigurieren der Entschlüsselungs-API {#configure-decrypt-api}
 
@@ -261,7 +265,7 @@ Abfrageparameter:
 
    * Geparster Wert: *v1.xyz*
 
-API-Beispiel: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API-Beispiel: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

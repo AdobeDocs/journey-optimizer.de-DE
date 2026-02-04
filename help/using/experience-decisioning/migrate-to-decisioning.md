@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1243'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Decisioning bietet gegenüber dem alten Entscheidungs-Management-Framework erheb
 
 ### KI- und maschinelle Lernfunktionen
 
-* **Benutzerdefinierte Metriken**: Möglichkeit, benutzerdefinierte Optimierungsmetriken für KI-Modelle zu verwenden. Dies bietet Berichterstellungsinteroperabilität mit [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardisiert das Reporting auf beiden Plattformen und verbessert die Datenkonsistenz und -zuverlässigkeit. Die nahtlose Integration bietet eine klarere Ansicht der Leistungsmetriken und fügt neue Funktionen hinzu, wie z. B. das Erstellen einfacher Metriken, das Veröffentlichen von Zielgruppen, das Stellen von Ad-hoc-Fragen mit Insight Builder und das Planen von Berichten.
+* **Benutzerdefinierte Metriken**: Möglichkeit, benutzerdefinierte Optimierungsmetriken für KI-Modelle zu verwenden. Dies bietet Berichterstellungsinteroperabilität mit [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardisiert das Reporting auf beiden Plattformen und verbessert die Datenkonsistenz und -zuverlässigkeit. Die nahtlose Integration bietet eine klarere Ansicht der Leistungsmetriken und fügt neue Funktionen hinzu, wie z. B. das Erstellen einfacher Metriken, das Veröffentlichen von Zielgruppen, das Stellen von Ad-hoc-Fragen mit Insight Builder und das Planen von Berichten.
 
 * **Steigerungsmessung**: Möglichkeit, Traffic in KI-Modellen zu visualisieren, zu erkunden oder zu nutzen. Dadurch können Marketing-Experten und Datenwissenschaftler quantifizieren, wie die KI-Exploration die langfristige Modellleistung und die Auffindbarkeit neuer erfolgreicher Angebote verbessert. Transparenz bei der Traffic-Zuordnung schafft Vertrauen in KI-Entscheidungen und ermöglicht es Teams, im Laufe der Zeit sowohl für das Lernen als auch für die Leistung zu optimieren. [Weitere Informationen](ranking/auto-optimization-model.md#lift)
 
@@ -95,12 +95,11 @@ Mit den Migrations-Tool-APIs können Sie:
 * **Migration in verschiedenen Bereichen** - Sandbox-, Angebots- oder Entscheidungsebene
 * **Rollback-Migrationen** wenn Probleme erkannt werden
 
-Die vollständige API-Dokumentation, einschließlich Authentifizierung, Endpunkte, Anfrage-/Antwortbeispiele und Schritt-für-Schritt-Workflows, finden Sie in der Dokumentation [Decisioning Migration API](decisioning-migration-api.md).
+Die vollständige API-Dokumentation, einschließlich Authentifizierung, Endpunkte, Anfrage-/Antwortbeispiele und schrittweise Workflows, finden Sie auf [dieser Seite](decisioning-migration-api.md).
 
 ## Verwandte Themen {#related-topics}
 
 * [Erste Schritte mit der Entscheidungsfindung](gs-experience-decisioning.md)
 * [Leitplanken und Einschränkungen bei Entscheidungen](decisioning-guardrails.md)
 * [Häufig gestellte Fragen zu Decisioning](decisioning-faq.md)
-* [Decisioning-Migrations-API](decisioning-migration-api.md)
 
