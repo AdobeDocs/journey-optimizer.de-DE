@@ -51,7 +51,7 @@ Mit den Herausforderungen im Zusammenhang mit dem Treueprogramm können Sie Prä
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
 
-1. **Datenaufnahme einrichten** - Konfigurieren Sie Experience Platform-Quell-Connectoren (z. B. den [Kapillaren-Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty), um Treueprogramm-Ereignisdaten aufzunehmen, mit denen Kundenaktionen und -fortschritt verfolgt werden. Diese Daten ermöglichen das Challenge-Tracking und die Aufgabenerledigung.
+1. **Datenaufnahme einrichten** - Konfigurieren Sie Experience Platform-Quell-Connectoren (z. B. den [Kapillaren-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home#loyalty), um Treueprogramm-Ereignisdaten aufzunehmen, mit denen Kundenaktionen und -fortschritt verfolgt werden. Diese Daten ermöglichen das Challenge-Tracking und die Aufgabenerledigung.
 
 1. **Ziel-Audience auswählen** - Definieren Sie, welche Kunden an Ihrer Challenge teilnehmen können, indem Sie eine Audience aus Adobe Experience Platform auswählen.
 
@@ -75,11 +75,11 @@ Bevor Sie Herausforderungen im Zusammenhang mit dem Treueprogramm nutzen, stelle
 
 Herausforderungen im Zusammenhang mit der Kundentreue beruhen auf Daten, die über Experience Platform-Quell-Connectoren aufgenommen werden, um den Kundenfortschritt und den Abschluss von Aufgaben zu verfolgen.
 
-1. **Konfigurieren eines unterstützten Quell-Connectors**: Derzeit ist der Kapillaranschluss verfügbar. Weitere Connectoren sind für zukünftige Versionen geplant. [Erfahren Sie mehr über Quell-Connectoren für Treueprogramme](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
+1. **Konfigurieren eines unterstützten Quell-Connectors**: Derzeit ist der Kapillaranschluss verfügbar. Weitere Connectoren sind für zukünftige Versionen geplant. [Erfahren Sie mehr über Quell-Connectoren für Treueprogramme](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home#loyalty).
 
 1. **Validieren der Datenaufnahme**: Stellen Sie sicher, dass Treueereignisse und Kundendaten nach Experience Platform fließen und in Journey Optimizer verfügbar sind. Vergewissern Sie sich, dass das Datenschema die erforderlichen Felder zum Tracking von Kundenaktionen und -fortschritten enthält.
 
-Detaillierte Anweisungen finden Sie unter [Übersicht über Experience Platform-Quellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+Detaillierte Anweisungen finden Sie unter [Übersicht über Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
 
 +++
 
