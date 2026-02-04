@@ -35,7 +35,7 @@ Verwenden Sie die entsprechenden Registerkarten, um die Push-Benachrichtigungsei
 
 >[!NOTE]
 >
->Während **[!DNL Journey Optimizer]** Möglichkeiten zum Verwalten des Opt-outs in E-Mails und SMS-Nachrichten bietet, erfordern Push-Benachrichtigungen keine Aktion von Ihrer Seite, da sich Empfänger selbst über ihre Geräte abmelden können. Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer Mobile App deaktivieren. Ebenso können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem ändern.
+>Während **[!DNL Journey Optimizer]** Möglichkeiten zum Verwalten des Opt-outs in E-Mails und SMS-Nachrichten bietet, erfordern Push-Benachrichtigungen keine Aktion von Ihrer Seite, da sich Empfänger selbst über ihre Geräte abmelden können. Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer App deaktivieren. Ebenso können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem ändern.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

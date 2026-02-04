@@ -51,7 +51,7 @@ ht-degree: 98%
       + [Journeys im Vergleich zu Kampagnen](using/start/journeys-vs-campaigns.md)
 + Journeys {#orchestrate-journeys}
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)
-   + [Journey - Erste Schritte](using/building-journeys/journey-get-started.md)
+   + [Journeys – Erste Schritte](using/building-journeys/journey-get-started.md)
    + [Journey-Typen und Auswahlrichtlinien](using/building-journeys/journey-types-selection.md)
    + [Häufig gestellte Fragen zur Journey-Orchestrierung](using/building-journeys/journey-faq.md)
    + Erstellen einer Journey {#create-journey}
@@ -298,7 +298,7 @@ ht-degree: 98%
          + [Konfigurieren des E-Mail-Kanals](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Erste Schritte bei der E-Mail-Konfiguration](using/email/get-started-email-config.md)
          + [Definieren von E-Mail-Konfigurationseinstellungen](using/email/email-settings.md)
-         + [Option „Abmelden von der Liste aktivieren“](using/email/list-unsubscribe.md)
+         + [Aktivieren der Listenabmeldung](using/email/list-unsubscribe.md)
          + [Header-Parameter](using/email/header-parameters.md)
          + [URL-Tracking](using/email/url-tracking.md)
          + [Personalisieren der E-Mail-Konfiguration](using/email/surface-personalization.md)
@@ -497,7 +497,7 @@ ht-degree: 98%
       + Marken {#brands}
          + [Marken](/help/rp_landing_pages/brands-landing-page.md)
          + [Erstellen und Verwalten von Marken](using/content-management/brands.md)
-         + [Marken personalisieren](using/content-management/brands-personalize.md)
+         + [Personalisieren Ihrer Marken](using/content-management/brands-personalize.md)
          + [Inhalt auswerten](using/content-management/brands-score.md)
    + Mehrsprachige Inhalte {#content-multilingual}
       + [Mehrsprachige Inhalte](/help/rp_landing_pages/content-multilingual-landing-page.md)
@@ -507,7 +507,7 @@ ht-degree: 98%
       + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)
       + [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](using/content-management/multilingual-automated.md)
    + Inhaltsoptimierung {#message-optimization}
-      + [Erste Schritte mit der Optimierung](using/content-management/gs-message-optimization.md)
+      + [Erste Schritte bei der Optimierung](using/content-management/gs-message-optimization.md)
       + [Verwenden von Targeting](using/content-management/optimization-targeting.md)
       + [Verwenden von Experimenten](using/content-management/optimization-experimentation.md)
       + [Kombinieren von Targeting und Experimenten](using/content-management/optimization-combination.md)

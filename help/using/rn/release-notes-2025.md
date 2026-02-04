@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
 workflow-type: tm+mt
 source-wordcount: '9009'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p>Diese Funktion bietet einen besseren Einblick in den Zustand und die Leistung von Endpunkten für benutzerdefinierte Aktionen. Ein neues Dashboard zur Überwachung benutzerdefinierter Aktionen und die entsprechenden Felder im Datensatz der Journey-Schrittereignisse helfen Ihnen, erfolgreiche Aufrufe, Fehler, Durchsatz, Antwortzeit und Wartezeit in der Warteschlange für Ihre Endpunkte für benutzerdefinierte Aktionen zu überwachen. Sie können jetzt schnell nachvollziehen, wann, wo und warum eine ungewöhnliche Situation in einer benutzerdefinierten Aktion auftritt.</p>
 <p>Diese Funktion wird derzeit mit eingeschränkter Verfügbarkeit für Kundinnen und Kunden veröffentlicht.</p>
 <p>Weitere Informationen finden Sie in der <a href="../action/reporting.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 28. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 28. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +74,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p>Diese Funktion ist derzeit nur für Kundinnen und Kunden in den USA und Australien verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../landing-pages/lp-forms.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Freitag, 23. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 23. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -93,7 +93,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p>Ruhezeiten können über Regelsätze angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können. </p>
 <p>Die Regeln für Ruhezeiten sind derzeit nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit).  Sie werden in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/quiet-hours.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 22. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 22. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -206,7 +206,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p>Für Kampagnen, die durch API ausgelöst werden, ist jetzt ein neuer Transaktions-Messaging-Modus verfügbar. Dieser Modus ist für groß angelegtes Transaktions-Messaging in Echtzeit konzipiert und unterstützt bis zu 5.000 Transaktionen pro Sekunde mit einer höheren Verfügbarkeit. Dieser Modus unterstützt auch Transaktionsnachrichten ohne Verweis auf oder Erstellung von Kundenprofilen, wie z. B. Gast-Checkout, Bestellbestätigung, Zurücksetzen des Passworts, Sicherheitsbenachrichtigungen und andere Service-/Betriebsbenachrichtigungen.</p>
 <p>Diese Funktion ist nur für den E-Mail-Kanal verfügbar und steht Unternehmen zur Verfügung, die das Adobe-Add-on für Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../campaigns/api-triggered-high-throughput.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 22. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 22. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +225,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p>Targeting-Regeln sind derzeit nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten. Beachten Sie, dass diese Funktion nur für Organisationen verfügbar ist, die das Entscheidungsfindungs-Add-on erworben haben. Sie wird nach und nach für alle Kundinnen und Kunden eingeführt.</p>
 <img src="assets/do-not-localize/targeting-rules.gif">
 <p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/rules.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 22. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 22. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -245,7 +245,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate">Fehlerrate für benutzerdefinierte Aktion überschritten</a>: Das Verhältnis von Fehlern bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten hat den Schwellenwert überschritten</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate">Fehlerrate für Profile überschritten</a>: Das Verhältnis von fehlerhaften Profilen zu eingetretenen Profilen in den letzten 5 Minuten hat den Schwellenwert überschritten</li></ul> <p>Sie können Schwellenwerte anpassen und Warnhinweise entweder auf Journey-Ebene oder global abonnieren.</p>
 <p>Weitere Informationen finden Sie in der <a href="../reports/alerts.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 14. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 14. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -264,7 +264,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>Weitere Informationen finden Sie in der <a href="../personalization/functions/helpers.md#execution-metadata">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Dienstag, 13. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 13. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -281,7 +281,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>Journey Optimizer Experimentation Accelerator enthält jetzt Experimentation Agent, ein KI-gestütztes, dialogorientiertes Tool, mit dem Sie mit Ihren Experimenten, Erkenntnissen und Möglichkeiten interagieren können. Dies verbessert das Journey Optimizer Experimentation Accelerator-Erlebnis, sodass Sie Experimente effizienter durchführen sowie herausfinden können, was funktioniert und wo als Nächstes optimiert werden sollte.</p>
 <p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=de" target="_blank">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Samstag, 10. Oktober 2025</p>
+<p>Verfügbarkeitsdatum: 10. Oktober 2025</p>
 </td>
 </tr>
 </tbody>
@@ -334,7 +334,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 Zusätzlich zu E-Mail und SMS können Sie das Standardausführungsfeld für Ihre WhatsApp-Sendungen auf Sandbox-Ebene aktualisieren. Es ist auch möglich, das global eingestellte Ausführungsfeld zu überschreiben, indem es in den erweiterten Parametern der WhatsApp-Journey-Aktivität oder in der WhatsApp-Kanalkonfiguration geändert wird. [Weitere Informationen](../configuration/primary-email-addresses.md)
 
-Verfügbarkeitsdatum: Donnerstag, 22. Oktober 2025
+Verfügbarkeitsdatum: 22. Oktober 2025
 
 **Unterstützung benutzerdefinierter Attribute für Adresse für „E-Mail an (abmelden)“**
 
@@ -346,7 +346,7 @@ Um Ihre benutzerdefinierten Endpunkte weiter zu personalisieren, können Sie jet
 >
 >Diese Funktion ist bereits seit August 2025 für die benutzerdefinierte **[!UICONTROL URL zum Abmelden mit einem Klick]** verfügbar und wird jetzt für die Option **[!UICONTROL E-Mail an (abmelden)]** in eingeschränkter Verfügbarkeit veröffentlicht. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
-Verfügbarkeitsdatum: Dienstag, 6. Oktober 2025
+Verfügbarkeitsdatum: 6. Oktober 2025
 
 <!--
 ### Coming soon {#oct-25-10-soon}

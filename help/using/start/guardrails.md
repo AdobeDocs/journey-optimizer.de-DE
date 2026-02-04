@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
 source-wordcount: '3977'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -100,7 +100,7 @@ Für den [SMS-Kanal](../sms/get-started-sms.md) gelten die folgenden Schutzmecha
 
   Die eingehenden Kanäle von Journey Optimizer sprechen neue Profile an, die zuvor noch nicht auf anderen Kanälen erreicht wurden. Dadurch erhöht sich die Gesamtzahl [Engagierbaren Profile](../audience/license-usage.md) was sich auf die Kosten auswirken kann, wenn die vertragliche Anzahl der von Ihnen erworbenen Engagierbaren Profile überschritten wird.
 
-  Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} . Sie können die Anzahl der kontaktierbaren Profile im [Lizenznutzungs-Dashboard“ &#x200B;](../audience/license-usage.md).
+  Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} . Sie können die Anzahl der kontaktierbaren Profile im [Lizenznutzungs-Dashboard“ ](../audience/license-usage.md).
 
 * Journey Optimizer unterstützt zu jedem Zeitpunkt maximal 500 aktive eingehende Aktionen. Diese eingehenden Aktionen werden gezählt, wenn sie Teil einer Live-Kampagne sind oder wenn sie ein Knoten sind, der in einer Live-Journey verwendet wird. Sobald diese Anzahl erreicht ist, müssen Sie ältere Kampagnen oder Journeys deaktivieren, die eingehende Aktionen verwenden, bevor neue gestartet werden können.
 
@@ -189,31 +189,31 @@ In diesem Abschnitt werden Leitlinien und Einschränkungen für Journeys beschri
 * Zusätzlich zum in den Journey-Aktivitäten verwendeten Timeout gibt es auch einen globalen Journey-Timeout, der nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey 91 Tage nach ihrem Eintritt. [Weitere Informationen](../building-journeys/journey-properties.md#global_timeout)
 
 
-#### Validierung der Journey-Payload-Größe {#journey-payload-size}
+#### Validieren der Journey-Payload-Größe {#journey-payload-size}
 
 Beim Speichern oder Veröffentlichen einer Journey validiert Journey Optimizer die gesamte Journey-Payload-Größe, um Stabilität und Leistung zu erhalten.
 
 **Standardkonfiguration**
 
-* **Standardmäßige maximale Anfragengröße**: 2 MB (2.000.000 Byte). Einige Organisationen verfügen möglicherweise über benutzerdefinierte Limits, die von Adobe konfiguriert werden.
-* **Hinweisschwelle**: 90 % der Höchstgrenze.
-* **Fehlerschwellenwert**: 100 % der Höchstgrenze. Das Speichern oder Veröffentlichen ist blockiert und die Anfrage gibt zurück **HTTP 413 Anfrageentität zu groß**.
+* **Standardmäßige maximale Anfragengröße:** 2 MB (2.000.000 Byte). Einige Organisationen verfügen möglicherweise über benutzerdefinierte Limits, die von Adobe konfiguriert werden.
+* **Warnhinweisschwelle:** 90 % des Limits.
+* **Fehlerschwelle:** 100 % des Limits. Das Speichern oder Veröffentlichen wird blockiert und die Anfrage gibt **HTTP 413 Request Entity Too Large** zurück.
 
 **Szenarien für Benutzererlebnisse**
 
-* **Payload &lt; 90 % des Limits**: Journey wird gespeichert und erfolgreich veröffentlicht. Es werden keine Warnungen oder Fehler angezeigt.
-* **Payload 90-99 % des Limits**: Journey speichert und veröffentlicht erfolgreich, mit einer Warnung zur Optimierung. Warnmeldung: **Warnung**: Größe der Journey-Payload liegt nahe am Limit. Größter Knoten: &#39;[NodeName]&#39; (Typ: &#39;[NodeType]&#39;, Größe: [N] Byte).
-* **Payload >= 100 % des Limits**: Das Speichern oder Veröffentlichen auf dem Journey ist mit einem Fehler blockiert. Fehlermeldung: **Fehler**: Journey-Payload überschreitet das Limit. Größter Knoten: &#39;[NodeName]&#39; (Typ: &#39;[NodeType]&#39;, Größe: [N] Byte).
+* **Payload &lt; 90 % des Limits:** Journey wird gespeichert und erfolgreich veröffentlicht. Es werden keine Warnungen oder Fehler angezeigt.
+* **Payload 90–99 % des Limits:** Journey wird erfolgreich gespeichert und veröffentlicht, Warnhinweis zur Optimierung wird ausgegeben. Warnmeldung: **Warnung:** Größe der Journey-Payload liegt nahe am Limit. Größter Knoten: „[Name des Knotens]“ (Typ: „[Typ des Knotens]“, Größe: [N] Byte).
+* **Payload >= 100 % des Limits:** Speichern oder Veröffentlichen der Journey wird mit einem Fehler blockiert. Fehlermeldung: **Fehler:** Journey-Payload überschreitet das Limit. Größter Knoten: „[Name des Knotens]“ (Typ: „[Typ des Knotens]“, Größe: [N] Byte).
 
-**Details zur Fehlerantwort**
+**Details der Fehlerantwort**
 
-Wenn die Anfrage die maximal zulässige Größe überschreitet, enthält die Antwort **Anfrageentität zu groß**. Die Journey-Payload überschreitet die maximal zulässige Größe. Überprüfen Sie die Fehlerdetails und optimieren Sie Ihren Journey.
+Wenn die Anfrage die maximal zulässige Größe überschreitet, enthält die Antwort **Request Entity Too Large**. Die Journey-Payload überschreitet die maximal zulässige Größe. Prüfen Sie die Fehlerdetails und optimieren Sie Ihre Journey.
 
 **Fehlerbehebung und Empfehlungen**
 
-* Überprüfen Sie den größten Knoten, der in der Warnung oder dem Fehler hervorgehoben ist.
+* Überprüfen Sie den größten Knoten, der im Warnhinweis oder in der Fehlermeldung angegeben ist.
 * Vereinfachen Sie Bedingungen, reduzieren Sie Datenzuordnungen und entfernen Sie unnötige Schritte oder Parameter.
-* Erwägen Sie bei Bedarf, die Journey in kleinere Journey aufzuteilen.
+* Erwägen Sie bei Bedarf, die Journey in kleinere Journeys aufzuteilen.
 * Wenn Sie der Meinung sind, dass Ihr Unternehmen ein höheres Limit benötigt, wenden Sie sich an den Adobe-Support.
 
 ### Auswählen von Paketeinschränkungen für unitäre Journeys {#select-package-limitations}
@@ -332,8 +332,8 @@ Weitere Informationen zu Journey-Verarbeitungsraten und Durchsatzbeschränkungen
 Für die Aktivitäten **[!UICONTROL Campaign v7/v8]** und **[!UICONTROL Campaign Standard]** gelten die folgenden Schutzmechanismen:
 
 * Adobe Campaign-Aktivitäten können nicht mit der Aktivität „Zielgruppe lesen“ oder „Zielgruppen-Qualifizierung“ verwendet werden.
-* **[!UICONTROL Campaign Standard]**-Aktivitäten können nicht mit anderen Kanalaktivitäten verwendet werden: Karte, Code-basiertes Erlebnis, E-Mail, Push, SMS, In-App-Nachrichten, Web.
-* **[!UICONTROL Campaign v7/v8]**-Aktivitäten können zusammen mit nativen Kanalaktivitäten auf derselben Journey verwendet werden.
+* **[!UICONTROL Campaign Standard]**-Aktivitäten können nicht mit den anderen Kanalaktivitäten verwendet werden: Karte, Code-basiertes Erlebnis, E-Mail, Push, SMS, In-App-Nachrichten, Web.
+* **[!UICONTROL Campaign v7/v8]**-Aktivitäten können zusammen mit nativen Kanalaktivitäten in derselben Journey verwendet werden.
 
 #### In-App-Aktivität {#in-app-activity-limitations}
 
@@ -343,7 +343,7 @@ Für die Aktion **[!UICONTROL In-App-Nachrichten]** gelten die folgenden Schutzm
 
 * Personalisierung kann nur Profilattribute enthalten.
 
-* Die In-App-Aktivität kann nicht mit **[!UICONTROL Campaign Standard-Aktivitäten verwendet]**.
+* Die In-App-Aktivität kann nicht mit **[!UICONTROL Campaign Standard]**-Aktivitäten verwendet werden.
 
 * Die In-App-Anzeige ist an die Journey-Lebensdauer gebunden, d. h. wenn die Journey für ein Profil endet, werden alle In-App-Nachrichten innerhalb dieser Journey nicht mehr für dieses Profil angezeigt.  Daher ist es nicht möglich, eine In-App-Nachricht direkt von einer Journey-Aktivität aus zu stoppen. Stattdessen müssen Sie die gesamte Journey beenden, damit die In-App-Nachrichten nicht mehr im Profil angezeigt werden.
 

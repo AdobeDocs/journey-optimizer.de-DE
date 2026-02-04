@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Dieses Handbuch bietet eine klare Roadmap, die Ihnen hilft, die Grundlagen von K
 
 **Kampagnen** sind koordinierte Marketing-Aktionen, die Inhalte für eine bestimmte Zielgruppe über einen oder mehrere Kanäle bereitstellen. Im Gegensatz zu Journeys, bei denen Aktionen sequenziell ausgeführt werden, führen Kampagnen Aktionen gleichzeitig durch – entweder sofort oder nach einem definierten Zeitplan.
 
-Verwenden Sie [!DNL Journey Optimizer] Kampagnen, um:
+[!DNL Journey Optimizer]-Kampagnen ermöglichen Ihnen Folgendes:
 
 * Bereitstellen **einmaliger oder wiederkehrender Inhalte** für ausgewählte Zielgruppensegmente
 * Ausführen **koordinierter Multi-Channel-Kommunikationen** über E-Mail, Push, SMS, In-App, Web und mehr
@@ -171,12 +171,12 @@ Stellen Sie vor der Arbeit mit Kampagnen sicher, dass die folgenden Voraussetzun
 
   | Kampagnentyp | Berechtigungen |
   |-------------|---------------|
-  | **Aktionskampagnen** und **API-ausgelöste Kampagnen** | Admin einer Kampagne<br>Genehmigende Person einer Kampagne<br>Managerin bzw. Manager einer Kampagne<br>Betrachterin bzw. Betrachter einer Kampagne |
+  | **Aktionskampagnen** und **durch API ausgelöste Kampagnen** | Admin einer Kampagne<br>Genehmigende Person einer Kampagne<br>Managerin bzw. Manager einer Kampagne<br>Betrachterin bzw. Betrachter einer Kampagne |
   | **Orchestrierte Kampagnen** | Admin einer orchestrierten Kampagne<br>Genehmigende Person einer orchestrierten Kampagne<br>Managerin bzw. Manager einer orchestrierten Kampagne<br>Betrachterin bzw. Betrachter einer orchestrierten Kampagne |
 
   +++
 
-  +++Zuweisen von Kampagnenberechtigungen
+  +++So weisen Sie Kampagnenberechtigungen zu
 
    1. Navigieren Sie zur Registerkarte **[!UICONTROL Rollen]** im Produkt [!DNL Permissions] und wählen Sie eine der integrierten kampagnenbezogenen **[!UICONTROL Rollen]** aus.
 
@@ -291,7 +291,7 @@ Sobald Sie mit Kampagnen vertrauter sind, erkunden Sie diese leistungsstarken Fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planung und Timing**
 
@@ -301,17 +301,17 @@ Planen Sie Kampagnen für bestimmte Daten/Uhrzeiten, legen Sie wiederkehrende Se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Ratensteuerung**
 
-Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Kundenunterstützungsplattformen zu verhindern.
+Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Plattformen für die Kundenunterstützung zu verhindern. 
 
 [Ratenbegrenzungen steuern](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Zielgruppen-Targeting**
 
@@ -321,7 +321,7 @@ Sprechen Sie bestimmte Adobe Experience Platform-Zielgruppen präzise an und ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Genehmigungs-Workflows**
 
@@ -331,7 +331,7 @@ Implementieren Sie Überprüfungs- und Genehmigungsprozesse, bevor Sie Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ruhezeiten**
 
@@ -341,13 +341,13 @@ Respektieren Sie Kundenpräferenzen, indem Sie den Versand von Nachrichten inner
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimierung**
 
 Verwenden Sie Targeting-Regeln und Inhaltsexperimente, um personalisierte Inhalte bereitzustellen und die Interaktion zu maximieren.
 
-[Kampagnen optimieren](../content-management/gs-message-optimization.md)
+[Optimieren von Kampagnen](../content-management/gs-message-optimization.md)
 :::
 
 ::::

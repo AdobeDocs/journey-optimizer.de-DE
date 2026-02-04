@@ -24,7 +24,7 @@ Sie müssen ggf. mit Ihrem ausgewählten Direkt-Mail-Drittanbieter zusammenarbei
 
 Die Nutzung von Mailing-Services unterliegt den zusätzlichen Bedingungen des jeweiligen Direkt-Mail-Drittanbieters.  Adobe hat keine Kontrolle über die Produkte von Drittanbietern und ist nicht für Ihre Nutzung dieser Produkte verantwortlich. Bei Problemen oder Fragen im Zusammenhang mit dem Versand Ihrer Direkt-Mail-Kampagne wenden Sie sich bitte an den von Ihnen gewählten Direkt-Mail-Anbieter.
 
-Die wichtigsten Schritte zum Senden von Briefpostnachrichten sind:
+Die wichtigsten Schritte zum Senden von Direkt-Mail-Nachrichten sind:
 
 ![](assets/dm-creation-process.png)
 
@@ -45,4 +45,4 @@ Die wichtigsten Schritte zum Senden von Briefpostnachrichten sind:
 
 Erfahren Sie, wie Sie den Briefpost-Kanal in Adobe Journey Optimizer nutzen können, um Briefpost-Sendungen in Ihren Journey zu automatisieren und zu planen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479171?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
