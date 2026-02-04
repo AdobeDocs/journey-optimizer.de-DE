@@ -7,10 +7,10 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5868a3c9eb1d0faca62887353145cd86cde883f
+source-git-commit: 97464b7afa07199792bd4311d0477b5bcb140d8e
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 67%
+source-wordcount: '645'
+ht-degree: 65%
 
 ---
 
@@ -96,3 +96,12 @@ Die **[!UICONTROL Latenzaufschlüsselung]** Tabelle bietet eine detaillierte Auf
 
 ➡️[Im Abschnitt KPIs finden Sie eine Beschreibung der Latenzmetriken](#kpis)
 
+## Anleitungsvideo {#video}
+
+Das folgende Video zeigt, wie Sie die Zuverlässigkeit und Leistung von API-Aufrufen von Ihren Journey an Drittanbietersysteme überwachen.
+
++++Video ansehen
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+
++++
