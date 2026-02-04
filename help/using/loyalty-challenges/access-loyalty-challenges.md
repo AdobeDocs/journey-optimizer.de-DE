@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 0%
+source-wordcount: '744'
+ht-degree: 2%
 
 ---
 
@@ -27,29 +27,34 @@ ht-degree: 0%
 * [Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue](get-started.md) - Übersicht, Workflow, Voraussetzungen
 * **Herausforderungen im Zusammenhang mit Treueprogrammen** ◀︎ **Sie sind hier** - Inventar und Filterung
 * [Herausforderungen erstellen](create-challenges.md) - Herausforderungen aufbauen und konfigurieren
+* [Aufgaben erstellen](create-tasks.md) - Herausforderungen definieren
 * [Herausforderungen verwalten](manage-challenges.md) - Bearbeiten, Überwachen, Optimieren
 
 >[!ENDSHADEBOX]
 
+>[!AVAILABILITY]
+>
+>Diese Funktion befindet sich derzeit in der **Private Beta**-Phase und ist in Ihrer Umgebung möglicherweise nicht verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern. Weitere Informationen zu [Verfügbarkeitskennzeichnungen](../rn/releases.md#availability-labels).
+
 ## Zugriff auf das Inventar der Herausforderungen im Treueprogramm {#access-inventory}
 
-So greifen Sie auf Herausforderungen im Zusammenhang mit der Treue zu:
+<!-- SCREENSHOT: Journey Optimizer main menu showing "Loyalty challenges" under "Customer journeys" section -->
 
-1. Wählen Sie in Adobe Journey Optimizer **[!UICONTROL Herausforderungen an die Treue]** im linken Navigationsmenü unter dem Abschnitt **[!UICONTROL Journey]** aus.
+Um auf die Herausforderungen im Zusammenhang mit dem Treueprogramm zuzugreifen, gehen Sie zu Journey Optimizer und wählen **[!UICONTROL Herausforderungen im Zusammenhang mit dem Treueprogramm]** im Abschnitt **[!UICONTROL Journey]** aus.
 
-2. Die Seite Herausforderungen im Zusammenhang mit dem Treueprogramm wird mit zwei Registerkarten angezeigt:
-   * **[!UICONTROL Challenges]**: Alle Herausforderungen im Zusammenhang mit der Treue anzeigen und verwalten
-   * **[!UICONTROL Aufgaben]**: Alle Aufgaben, die über Herausforderungen hinweg wiederverwendet werden können, anzeigen und verwalten
+<!-- SCREENSHOT: Loyalty Challenges landing page showing the two tabs: Challenges and Tasks -->
 
-Standardmäßig ist die Registerkarte **[!UICONTROL Herausforderungen]** ausgewählt, auf der alle in Ihrem Unternehmen vorhandenen Herausforderungen angezeigt werden.
+Die Seite Herausforderungen im Zusammenhang mit dem Treueprogramm wird mit zwei Registerkarten angezeigt:
 
-## Registerkarte „Herausforderungen“ {#challenges-tab}
+* **[!UICONTROL Challenges]**: Alle Herausforderungen im Zusammenhang mit der Treue anzeigen und verwalten
 
-Auf der Registerkarte Challenges werden alle Challenges sortiert nach dem Datum der letzten Änderung angezeigt, wobei die zuletzt geänderten Challenges zuerst erscheinen.
+* **[!UICONTROL Aufgaben]**: Alle Aufgaben, die über Herausforderungen hinweg wiederverwendet werden können, anzeigen und verwalten
 
-### Grundlagen zum Challenges-Inventar {#inventory-overview}
+## Herausforderungen-Inventar {#challenges-tab}
 
-Das Challenges-Inventar zeigt alle Challenges mit folgenden Informationen an:
+<!-- SCREENSHOT: Challenges tab showing the inventory table with columns: Challenge name, Status, Type, Start date, End date, Created by, Last modified, Tags -->
+
+Auf der Registerkarte Challenges werden alle Challenges sortiert nach dem Datum der letzten Änderung angezeigt, wobei die zuletzt geänderten Challenges zuerst erscheinen. Daraufhin werden die folgenden Informationen angezeigt:
 
 * **[!UICONTROL Challenge name]**: Der Name, den Sie der Challenge zugewiesen haben
 * **[!UICONTROL Status]**: Aktueller Status der Herausforderung (siehe Statusbeschreibungen unten)
@@ -62,51 +67,63 @@ Das Challenges-Inventar zeigt alle Challenges mit folgenden Informationen an:
 
 ### Status der Herausforderung {#challenge-statuses}
 
-Challenges können die folgenden Status aufweisen:
+<!-- VISUAL: Status badges showing different challenge statuses with color coding: Draft (gray), Scheduled (blue), Live (green), Completed (gray), Stopped (red), Archived (gray) -->
 
-* **[!UICONTROL Entwurf]**: Herausforderung wird erstellt oder bearbeitet, aber noch nicht veröffentlicht
-* **[!UICONTROL Geplant]**: Die Herausforderung wird veröffentlicht und für den Beginn zu einem zukünftigen Datum geplant
-* **[!UICONTROL Live]**: Die Herausforderung ist derzeit aktiv und steht der Zielgruppe zur Verfügung
-* **[!UICONTROL Abgeschlossen]**: Die Herausforderung hat ihr Enddatum überschritten oder alle Ziele wurden erreicht
-* **[!UICONTROL Angehalten]**: Die Herausforderung wurde vor dem Abschluss manuell angehalten
-* **[!UICONTROL Archiviert]**: Die Herausforderung wurde zu Organisationszwecken archiviert
+Herausforderungen werden mit verschiedenen Status angezeigt, die ihren aktuellen Status im Lebenszyklus angeben:
+
+* **Entwurf**: Herausforderung wird erstellt oder bearbeitet
+* **Geplant**: Die Herausforderung wird veröffentlicht und am Startdatum aktiv.
+* **Live**: Challenge ist aktiv und Kunden können teilnehmen
+* **Abgeschlossen**: Enddatum der Herausforderung wurde überschritten oder die Ziele wurden erreicht
+* **Angehalten**: Die Herausforderung wurde vor dem Abschluss manuell angehalten
+* **Archiviert**: Die Herausforderung wurde zu Organisationszwecken archiviert
+
+Detaillierte Informationen zu Statusübergängen und dem Challenge-Lebenszyklus finden Sie unter [Challenge-Lebenszyklus](manage-challenges.md#challenge-lifecycle).
 
 ### Herausforderungen beim Suchen und Filtern {#search-challenges}
 
-Verwenden Sie die Suchfunktion, um bestimmte Herausforderungen schnell nach Namen oder Beschreibung zu finden.
+<!-- SCREENSHOT: Search bar and filter panel showing available filters (status, type, dates, tags) with an example of active filters applied -->
 
-Sie können auch Filter anwenden, um die Liste der Challenges auf der Grundlage bestimmter Kriterien einzugrenzen. Sie können mehrere Filter kombinieren, um Ihre Suche zu verfeinern.
+Mithilfe von Suche und Filtern können Sie Herausforderungen schnell finden:
 
-Sie können Herausforderungen nach ihrem aktuellen Status, nach ihrem Challenge-Typ, nach ihrem Start- oder Enddatum oder nach Tags filtern, die Sie sich für Ihre Organisation beworben haben.
+**Suche:**
+
+* Verwenden Sie die Suchleiste, um Herausforderungen zu finden, indem Sie Schlüsselwörter aus dem Namen oder der Beschreibung der Herausforderung eingeben. Die Suche aktualisiert die Ergebnisse während der Eingabe in Echtzeit.
+
+**Filter:**
+
+* Einen oder mehrere Filter anwenden, um die Ergebnisse einzugrenzen:
+   * **Status**: Filtern nach Challenge-Status (Entwurf, Geplant, Live, Abgeschlossen, Gestoppt, Archiviert)
+   * **Type**: Filtern nach Challenge-Typ (Standard, Streak, Sequential)
+   * **Datumsangaben**: Filtern nach Startdatum oder Enddatumsbereichen
+   * **Tags**: Filtern nach Tags, die auf Herausforderungen angewendet werden
+
+Sie können mehrere Filter gleichzeitig kombinieren. Filtern Sie beispielsweise nach Live-Standard-Herausforderungen mit dem Tag „Sommer 2024“, um aktive saisonale Kampagnen schnell zu finden.
+
+Um Filter zu löschen, wählen Sie **[!UICONTROL Alle löschen]** oder entfernen Sie einzelne Filter.
 
 ### Ergreifung von Maßnahmen zur Bewältigung von Herausforderungen {#inventory-actions}
 
+<!-- SCREENSHOT: More actions menu (three dots) expanded showing options: Edit, Duplicate, Stop, Archive, Delete -->
+
 Auf der Registerkarte Herausforderungen können Sie schnelle Aktionen für Herausforderungen durchführen:
 
-* **Challenge-Details anzeigen**: Wählen Sie einen Challenge-Namen aus, um die zugehörige Detailseite zu öffnen
-* **Herausforderung bearbeiten**: Wählen Sie das Menü Mehr Aktionen (drei Punkte) und wählen Sie **[!UICONTROL Bearbeiten]**
-* **Herausforderung duplizieren**: Wählen Sie das Menü Mehr Aktionen und dann **[!UICONTROL Duplizieren]**
-* **Live-Herausforderung anhalten**: Wählen Sie das Menü Mehr Aktionen und wählen Sie **[!UICONTROL Anhalten]**
-* **Herausforderung archivieren**: Wählen Sie das Menü Mehr Aktionen und dann **[!UICONTROL Archivieren]**
-* **Herausforderung „Entwurf löschen**: Wählen Sie das Menü Mehr Aktionen und wählen Sie **[!UICONTROL Löschen]** (nur für Entwürfe verfügbar)
+* **Challenge-Details anzeigen**: Wählen Sie den Challenge-Namen aus, um die Detailseite zu öffnen
+* **Herausforderung bearbeiten**: Wählen Sie das Menü **[!UICONTROL Mehr Aktionen]** (drei Punkte) und wählen Sie **[!UICONTROL Bearbeiten]**
+* **Herausforderung duplizieren**: Wählen Sie das Menü **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Duplizieren]**
+* **Live-Herausforderung anhalten**: Wählen Sie das Menü **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Anhalten]**
+* **Herausforderung archivieren**: Wählen Sie das Menü **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Archivieren]**
+* **Herausforderung „Entwurf löschen**: Wählen Sie das Menü **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Löschen]** (nur für Entwürfe verfügbar)
 
-### Neue Challenge erstellen {#create-from-inventory}
+Detaillierte Informationen zum Verwalten von Herausforderungen nach der Erstellung, einschließlich Bearbeitungsbeschränkungen, Duplizierungsstrategien, Leistungsüberwachung und Fehlerbehebung, finden Sie unter [Verwalten von Herausforderungen](manage-challenges.md).
 
-So erstellen Sie eine neue Challenge auf der Registerkarte Challenges :
+## Aufgaben-Inventar {#tasks-tab}
 
-1. Wählen **[!UICONTROL oben]** „Herausforderung erstellen“ aus.
-
-2. Der Workflow zur Challenge-Erstellung beginnt.
-
-Detaillierte Anweisungen finden Sie unter [Erstellen von &#x200B;](create-challenges.md).
-
-## Registerkarte „Aufgaben“ {#tasks-tab}
+<!-- SCREENSHOT: Tasks tab showing the inventory table with columns: Task name, Task type, Description, Created by, Last modified, Used in challenges -->
 
 Auf der Registerkarte Aufgaben werden alle wiederverwendbaren Aufgaben angezeigt, die über mehrere Herausforderungen hinweg verwendet werden können. Hier erstellte Aufgaben stehen beim Erstellen oder Bearbeiten einer Herausforderung zur Auswahl.
 
-### Grundlegendes zum Aufgabeninventar {#tasks-inventory-overview}
-
-Das Aufgabeninventar zeigt alle Aufgaben mit den folgenden Informationen an:
+Das Aufgabeninventar zeigt die folgenden Informationen an:
 
 * **[!UICONTROL Aufgabenname]**: Der Name, den Sie der Aufgabe zugewiesen haben
 * **[!UICONTROL Aufgabentyp]**: Aktionstyp (Kauf, Ausgabenbetrag, Besuch, Interaktion, benutzerspezifisches Ereignis)
@@ -115,38 +132,20 @@ Das Aufgabeninventar zeigt alle Aufgaben mit den folgenden Informationen an:
 * **[!UICONTROL Zuletzt geändert]**: Datum und Uhrzeit der letzten Änderung
 * **[!UICONTROL In Herausforderungen verwendet]**: Anzahl der Herausforderungen, die derzeit diese Aufgabe verwenden
 
-### Erstellen von Aufgaben über die Registerkarte Aufgaben {#create-tasks-from-tab}
-
-Aufgaben können auf zwei Arten erstellt werden:
-
-1. **Auf der Registerkarte Aufgaben** (empfohlen für wiederverwendbare Aufgaben):
-   * Navigieren Sie zur Registerkarte **[!UICONTROL Aufgaben]** .
-   * Wählen Sie **[!UICONTROL Aufgabe erstellen]**
-   * Aufgabeneigenschaften konfigurieren (Name, Typ, Menge, Produktfilter, Belohnungen)
-   * Aufgabe speichern, um sie für jede Herausforderung verfügbar zu machen
-
-2. **Beim Erstellen einer** (für herausforderungsspezifische Aufgaben):
-   * Wählen Sie bei der Erstellung einer Herausforderung **[!UICONTROL Abschnitt Aufgaben]** Aufgabe hinzufügen“
-   * Wählen Sie **[!UICONTROL Neue Aufgabe erstellen]** oder aus vorhandenen Aufgaben auswählen
-   * Auf diese Weise erstellte Aufgaben werden ebenfalls im Aufgabeninventar gespeichert und können wiederverwendet werden
-
->[!TIP]
->
->Das Erstellen von Aufgaben über die Registerkarte Aufgaben wird empfohlen, wenn Sie dieselbe Aufgabe für mehrere Herausforderungen verwenden möchten. Dies gewährleistet Konsistenz und erleichtert die zentrale Aktualisierung von Aufgabendefinitionen.
-
 ### Ausführen von Aktionen für Aufgaben {#tasks-actions}
 
 Auf der Registerkarte Aufgaben können Sie Aktionen für Aufgaben durchführen:
 
 * **Aufgabendetails anzeigen**: Aufgabennamen auswählen, um die vollständige Konfiguration anzuzeigen
-* **Aufgabe bearbeiten**: Wählen Sie das Menü Mehr Aktionen (drei Punkte) und dann **[!UICONTROL Bearbeiten]**
-* **Aufgabe duplizieren**: Wählen Sie im Menü Mehr Aktionen die Option **[!UICONTROL Duplizieren]**
-* **Aufgabe löschen**: Wählen Sie das Menü Mehr Aktionen und wählen Sie **[!UICONTROL Löschen]** (nur, wenn nicht in einer aktiven Herausforderung verwendet)
+* **Aufgabe bearbeiten**: Wählen Sie das Menü **[!UICONTROL Mehr Aktionen]** (drei Punkte) und wählen Sie **[!UICONTROL Bearbeiten]**
+* **Aufgabe duplizieren**: Wählen Sie das Menü **[!UICONTROL Mehr Aktionen]** und klicken Sie auf **[!UICONTROL Duplizieren]**
+* **Aufgabe löschen**: Wählen Sie das Menü **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Löschen]** (nur, wenn es nicht in einer aktiven Herausforderung verwendet wird)
 * **Nutzung anzeigen**: Ermitteln Sie, welche Herausforderungen derzeit die Aufgabe verwenden
 
 ## Nächste Schritte {#next-steps}
 
 Jetzt, da Sie wissen, wie Sie auf das Inventar der Herausforderungen im Treueprogramm zugreifen und darin navigieren können:
 
-* [Erstellen von Herausforderungen](create-challenges.md) - Erfahren Sie, wie Sie Ihre erste Herausforderung erstellen.
-* [Herausforderungen verwalten](manage-challenges.md) - Erfahren Sie, wie Sie Herausforderungen bearbeiten und überwachen können.
+* [Herausforderungen erstellen](create-challenges.md) - Erfahren Sie, wie Sie Ihre erste Herausforderung erstellen und Aufgaben konfigurieren
+* [Aufgaben erstellen](create-tasks.md) - Erfahren Sie, wie Sie wiederverwendbare Aufgaben für Herausforderungen definieren.
+* [Herausforderungen verwalten](manage-challenges.md) - Erfahren Sie, wie Sie Herausforderungen bearbeiten, überwachen und optimieren können.
