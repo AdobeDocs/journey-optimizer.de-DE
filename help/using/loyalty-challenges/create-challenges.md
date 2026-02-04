@@ -111,7 +111,7 @@ So konfigurieren Sie Inhaltskarten für Ihre Challenge:
 
 1. Gestalten der Inhaltskarte:
    * Bilder, Text und Branding-Elemente hinzufügen
-   * Personalisierungs[Token ](../personalization/personalization-syntax.md) Anzeige kundenspezifischer Informationen einschließen
+   * Personalisierungs[Token &#x200B;](../personalization/personalization-syntax.md) Anzeige kundenspezifischer Informationen einschließen
    * Challenge-Fortschrittsindikatoren anzeigen
    * Belohnungen und Anreize anzeigen
 
