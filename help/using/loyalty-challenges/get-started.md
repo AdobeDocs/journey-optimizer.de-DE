@@ -58,9 +58,9 @@ Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum 
 
 1. **Datenaufnahme einrichten** - Konfigurieren Sie Quell-Connectoren für Experience Platform (z. B. den Kapillaren-Connector), um Treueprogramm-Ereignisdaten aufzunehmen, mit denen Kundenaktionen und -fortschritt verfolgt werden. Diese Daten ermöglichen das Challenge-Tracking und die Aufgabenerledigung.
 
-1. **Herausforderung erstellen** - Definiert die grundlegenden Eigenschaften der Herausforderung, einschließlich Name, Typ (Standard, Streak oder Sequenziell), Zielgruppe und Datumsbereich. Detaillierte [ finden Sie ](create-challenges.md) „Erstellen von Herausforderungen“.
+1. **Herausforderung erstellen** - Definiert die grundlegenden Eigenschaften der Herausforderung, einschließlich Name, Typ (Standard, Streak oder Sequenziell), Zielgruppe und Datumsbereich. Detaillierte [&#x200B; finden Sie &#x200B;](create-challenges.md) „Erstellen von Herausforderungen“.
 
-1. **Aufgaben hinzufügen** - Definieren Sie die spezifischen Aktionen, die Kundinnen und Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben, Besuch, Interaktion, benutzerdefinierte Ereignisse), Mengen, Produktfilter und Belohnungen. Detaillierte Anweisungen finden [ unter ](create-tasks.md)Erstellen von Aufgaben“.
+1. **Aufgaben hinzufügen** - Definieren Sie die spezifischen Aktionen, die Kundinnen und Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben, Besuch, Interaktion, benutzerdefinierte Ereignisse), Mengen, Produktfilter und Belohnungen. Detaillierte Anweisungen finden [&#x200B; unter &#x200B;](create-tasks.md)Erstellen von Aufgaben“.
 
 1. **Erstellen von Inhaltskarten** - Erstellen Sie die visuelle Darstellung Ihrer Challenge mit Journey Optimizer [Inhaltskarten](../content-card/get-started-content-card.md) die auf Kundengeräten angezeigt werden. Inhaltskarten zeigen Informationen zu Herausforderungen, Fortschritt und Belohnungen an.
 
