@@ -219,7 +219,7 @@ Erfahren Sie, wie Sie Nachrichten für bestimmte Kanäle erstellen:
 
 * [In-App-Nachrichten](../in-app/get-started-in-app.md)
 * [E-Mail-Nachrichten](../email/get-started-email.md)
-* [Push-Benachrichtigungen ](../push/get-started-push.md)
+* [Push-Benachrichtigungen &#x200B;](../push/get-started-push.md)
 
 Legen Sie nach Abschluss der Messaging-Konfiguration fest, welche Kunden für die Teilnahme an der Challenge infrage kommen.
 
