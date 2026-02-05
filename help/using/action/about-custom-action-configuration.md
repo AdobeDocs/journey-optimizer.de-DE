@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 96%
+source-wordcount: '2437'
+ht-degree: 80%
 
 ---
 
@@ -45,7 +45,7 @@ Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren 
 1. Fügen Sie Ihrer Aktion eine Beschreibung hinzu. Dieser Schritt ist optional.
 1. Die Anzahl der Journeys, die diese Aktion verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys, die diese Aktion verwenden, anzuzeigen.
 1. Definieren Sie die verschiedenen **[!UICONTROL URL-Konfigurations]**-Parameter. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#url-configuration).
-1. Konfigurieren Sie den Abschnitt **[!UICONTROL Authentifizierung]**. Diese Konfiguration entspricht der für Datenquellen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode).
+1. Konfigurieren Sie den Abschnitt **[!UICONTROL Authentifizierung]**. Diese Konfiguration entspricht der für Datenquellen. Weitere Informationen finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode).
 1. Definieren Sie die **[!UICONTROL Aktionsparameter]**. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -179,7 +179,7 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
    ![](assets/response-values.png){width="70%" align="left"}
 
-1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [&#x200B; Journey &#x200B;](../action/action-response.md).
+1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [ Journey ](../action/action-response.md).
 
    ![](assets/response-values.png){width="70%" align="left"}
 
@@ -207,6 +207,205 @@ In diesen Konfigurationsfeldern müssen Sie:
 >Wenn Sie optionale Parameter konfigurieren und dabei Nullwerte zulassen, werden Parameter, die von Journey-Anwenderinnen und -Anwendern nicht ausgefüllt werden, als Null gesendet.
 >
 
+## Umfassende JSON-Beispiele {#json-examples}
+
+Dieser Abschnitt enthält vollständige JSON-Beispiele, die alle unterstützten Parametertypen und Konfigurationen für benutzerdefinierte Aktionen zeigen.
+
+### Beispiel 1: Grundlegende Parametertypen
+
+Dieses Beispiel zeigt, wie verschiedene Datentypen in der Payload der benutzerdefinierten Aktion verwendet werden:
+
+```json
+{
+  "requestData": {
+    "userId": "@{profile.person.name.firstName}",
+    "accountId": "ABC123",
+    "age": "@{profile.person.age}",
+    "isActive": true,
+    "loyaltyScore": "@{profile.customField.score}"
+  }
+}
+```
+
+In der Aktionskonfiguration:
+* `userId` - Variablenparameter (Zeichenfolge) - Ist dem Vornamen des Profils zugeordnet
+* `accountId` - Konstanter Parameter (Zeichenfolge) - sendet immer „ABC123“
+* `age` - Variablenparameter (Ganzzahl) - Zuordnung zur Profilseite
+* `isActive` - Konstanter Parameter (Boolesch) - sendet immer „true“
+* `loyaltyScore` - Variablenparameter (Dezimalzahl) - Ordnet benutzerdefiniertes Profilfeld zu.
+
+### Beispiel 2: Verwenden von Systemkonstanten und Journey-Kontext
+
+Sie können Journey-spezifische Informationen und Systemwerte referenzieren:
+
+```json
+{
+  "metadata": {
+    "sandboxName": "prod",
+    "executionTimestamp": "@{journey.startTime}",
+    "journeyId": "@{journey.id}",
+    "journeyName": "@{journey.name}",
+    "journeyVersion": "@{journey.version}",
+    "stepId": "@{journey.stepId}",
+    "profileId": "@{profile.identityMap.ECID[0].id}"
+  }
+}
+```
+
+**Verfügbare Journey-Kontextvariablen:**
+
+>[!NOTE]
+>
+>Die Syntax zum Journey von Kontextvariablen wird derzeit vom -Produkt-Team überprüft. Die tatsächlichen Feldnamen können basierend auf der Dokumentation zu den Journey-Eigenschaften sein: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName.
+
+* `@{journey.id}` - Eindeutige Kennung der Journey
+* `@{journey.name}` - Name der Journey
+* `@{journey.version}` - Versionsnummer der Journey
+* `@{journey.startTime}` - Zeitstempel, wann die Journey für dieses Profil gestartet wurde (Überprüfung erforderlich)
+* `@{journey.stepId}` - Kennung des aktuellen Schritts
+* `@{journey.stepName}` - Name des aktuellen Schritts
+
+### Beispiel 3: Optionale und erforderliche Parameter
+
+Konfigurieren Sie Parameter, die Journey-Anwender optional ausfüllen können:
+
+```json
+{
+  "customer": {
+    "email": "@{profile.personalEmail.address}",
+    "mobilePhone": "@{profile.mobilePhone.number}",
+    "preferredLanguage": "@{profile.preferredLanguage}"
+  }
+}
+```
+
+In der Benutzeroberfläche für die Aktionskonfiguration:
+* `email` als **erforderlich** festlegen (nicht „Ist optional“ aktivieren)
+* `mobilePhone` als **optional** festlegen (Kontrollkästchen „Ist optional“ aktivieren)
+* `preferredLanguage` als **optional** mit dem Standardwert festlegen
+
+>[!TIP]
+>
+>Wenn ein Parameter als optional markiert und vom Journey-Anwender nicht ausgefüllt wird, wird er entweder aus der Payload weggelassen oder als Null gesendet (wenn „NULL-Werte zulassen“ aktiviert ist).
+
+### Beispiel 4: Arbeiten mit Arrays und Sammlungen
+
+Übergeben von Datenerfassungen an Ihre benutzerdefinierten Aktionen:
+
+```json
+{
+  "products": [
+    {
+      "id": "@{product1.id}",
+      "name": "@{product1.name}",
+      "price": "@{product1.price}"
+    },
+    {
+      "id": "@{product2.id}",
+      "name": "@{product2.name}",
+      "price": "@{product2.price}"
+    }
+  ],
+  "tags": ["premium", "loyalty", "vip"],
+  "categoryIds": ["CAT001", "CAT002"]
+}
+```
+
+>[!NOTE]
+>
+>Weitere Informationen zum Übergeben von Sammlungen in benutzerdefinierten Aktionen finden Sie auf [dieser Seite](../building-journeys/collections.md).
+
+### Beispiel 5: Verschachtelte Objekte und komplexe Strukturen
+
+Erstellen hierarchischer Datenstrukturen:
+
+```json
+{
+  "customer": {
+    "personalInfo": {
+      "firstName": "@{profile.person.name.firstName}",
+      "lastName": "@{profile.person.name.lastName}",
+      "email": "@{profile.personalEmail.address}"
+    },
+    "address": {
+      "street": "@{profile.homeAddress.street1}",
+      "city": "@{profile.homeAddress.city}",
+      "postalCode": "@{profile.homeAddress.postalCode}",
+      "country": "@{profile.homeAddress.country}"
+    },
+    "preferences": {
+      "language": "@{profile.preferredLanguage}",
+      "timezone": "@{profile.timeZone}",
+      "emailOptIn": "@{profile.consents.marketing.email.val}"
+    }
+  },
+  "context": {
+    "channel": "email",
+    "campaignId": "CAMPAIGN_2025_Q1",
+    "segment": "@{segmentMembership.status}"
+  }
+}
+```
+
+### Beispiel 6: Abschließen der benutzerdefinierten Aktion in der realen Welt
+
+Ein umfassendes Beispiel für die Integration mehrerer Konzepte:
+
+```json
+{
+  "event": {
+    "eventType": "journey.action.triggered",
+    "eventId": "@{journey.stepId}",
+    "timestamp": "@{journey.stepTimestamp}",
+    "eventSource": "Adobe Journey Optimizer"
+  },
+  "profile": {
+    "id": "@{profile.identityMap.ECID[0].id}",
+    "email": "@{profile.personalEmail.address}",
+    "firstName": "@{profile.person.name.firstName}",
+    "lastName": "@{profile.person.name.lastName}",
+    "loyaltyTier": "@{profile.loyaltyTier}",
+    "lifetimeValue": "@{profile.lifetimeValue}"
+  },
+  "journey": {
+    "id": "@{journey.id}",
+    "name": "@{journey.name}",
+    "version": "@{journey.version}",
+    "step": "@{journey.stepName}"
+  },
+  "customData": {
+    "offerName": "@{decisioning.offerName}",
+    "offerPlacement": "@{decisioning.placementName}",
+    "specialPromotion": "WINTER2025"
+  },
+  "system": {
+    "sandbox": "prod",
+    "dataStreamId": "YOUR_DATASTREAM_ID",
+    "imsOrgId": "@{imsOrgId}"
+  }
+}
+```
+
+**Konfigurationstipps für dieses Beispiel:**
+* Mischung aus konstanten Werten (`eventSource`, `specialPromotion`, `sandbox`) und variablen Parametern
+* Verwendet Journey-Kontext für Tracking und Debugging
+* Enthält Profildaten für die Personalisierung im Drittanbietersystem
+* Fügt bei der Verwendung von Angeboten Entscheidungskontext hinzu
+* Systemmetadaten für Routing und Tracking auf Unternehmensebene
+
+### Tipps zum Konfigurieren von Konstanten
+
+**Sandbox-Name:** Verwenden Sie einen konstanten Parameter, der auf Ihren Umgebungsnamen festgelegt ist (z. B. „prod“, „dev“, „stage„).
+
+**Ausführungszeitstempel:** Verwenden Sie `@{journey.startTime}` oder erstellen Sie einen Variablenparameter, den Journey-Anwender `#{nowWithDelta()}` Funktion zuordnen können
+
+**API-Version:** Verwenden Sie eine Konstante für API-Versionsnummern, um die Konsistenz zwischen Journey sicherzustellen.
+
+**Authentifizierungs-Token:** Authentifizierungs-Token nie in die Payload setzen - stattdessen den Abschnitt „Authentifizierung“ der Konfiguration der benutzerdefinierten Aktion verwenden
+
+>[!CAUTION]
+>
+>Feldnamen in der Payload dürfen weder einen Punkt `.` Zeichen enthalten noch mit einem `$` beginnen. Stellen Sie sicher, dass Ihre JSON-Struktur diesen Benennungskonventionen entspricht.
 
 * [Fehlerbehebung bei benutzerdefinierten Aktionen](../action/troubleshoot-custom-action.md): Erfahren Sie, wie Sie Fehler bei einer benutzerdefinierten Aktion beheben
 
