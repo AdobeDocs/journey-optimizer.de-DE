@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
-workflow-type: ht
-source-wordcount: '652'
-ht-degree: 100%
+source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 93%
 
 ---
 
@@ -269,11 +269,11 @@ Zur Laufzeit wird der Metadatenwert dem vorhandenen **[!UICONTROL Nachrichten-Fe
 >
 >In [diesem Abschnitt](../../data/get-started-datasets.md) erfahren Sie mehr über Datensätze.
 
-**Einschränkung**
+**Einschränkungen**
 
-Die Obergrenze für Schlüssel-Wert-Paare pro Aktion ist 2 KB.
+Für die Schlüssel-Wert-Paare pro Aktion gibt es eine Obergrenze von 2 KB. Wenn die Grenze von 2 KB überschritten wird, wird die Nachricht weiterhin zugestellt, aber jedes der Schlüssel-Wert-Paare kann abgeschnitten werden.
 
-Wenn die Grenze von 2 KB überschritten wird, wird die Nachricht weiterhin zugestellt, aber jedes der Schlüssel-Wert-Paare kann abgeschnitten werden.
+Metadaten werden nicht für Profile erfasst, die von der Aktion ausgeschlossen sind. Wenn ein Profil vom Erhalt einer Nachricht ausgeschlossen wird, wird für dieses Profil kein Metadateneintrag im Datensatz erstellt.
 
 **Beispiel**
 
