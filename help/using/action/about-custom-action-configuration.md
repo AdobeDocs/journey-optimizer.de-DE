@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: c81d9e4c6339ea5637462afb87b6d81a716b22f1
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 80%
+source-wordcount: '2032'
+ht-degree: 96%
 
 ---
 
@@ -179,7 +179,7 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
    ![](assets/response-values.png){width="70%" align="left"}
 
-1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [&#x200B; Journey &#x200B;](../action/action-response.md).
+1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [ Journey ](../action/action-response.md).
 
    ![](assets/response-values.png){width="70%" align="left"}
 
@@ -207,13 +207,14 @@ In diesen Konfigurationsfeldern müssen Sie:
 >Wenn Sie optionale Parameter konfigurieren und dabei Nullwerte zulassen, werden Parameter, die von Journey-Anwenderinnen und -Anwendern nicht ausgefüllt werden, als Null gesendet.
 >
 
-## Umfassende JSON-Beispiele {#json-examples}
+<!--
+## Comprehensive JSON examples {#json-examples}
 
-Dieser Abschnitt enthält vollständige JSON-Beispiele, die alle unterstützten Parametertypen und Konfigurationen für benutzerdefinierte Aktionen zeigen.
+This section provides complete JSON examples demonstrating all supported parameter types and configurations for custom actions.
 
-### Beispiel 1: Grundlegende Parametertypen
+### Example 1: Basic parameter types
 
-Dieses Beispiel zeigt, wie verschiedene Datentypen in der Payload der benutzerdefinierten Aktion verwendet werden:
+This example shows how to use different data types in your custom action payload:
 
 ```json
 {
@@ -227,16 +228,16 @@ Dieses Beispiel zeigt, wie verschiedene Datentypen in der Payload der benutzerde
 }
 ```
 
-In der Aktionskonfiguration:
-* `userId` - Variablenparameter (Zeichenfolge) - Ist dem Vornamen des Profils zugeordnet
-* `accountId` - Konstanter Parameter (Zeichenfolge) - sendet immer „ABC123“
-* `age` - Variablenparameter (Ganzzahl) - Zuordnung zur Profilseite
-* `isActive` - Konstanter Parameter (Boolesch) - sendet immer „true“
-* `loyaltyScore` - Variablenparameter (Dezimalzahl) - Ordnet benutzerdefiniertes Profilfeld zu.
+In the action configuration:
+* `userId` - Variable parameter (String) - Maps to profile firstName
+* `accountId` - Constant parameter (String) - Always sends "ABC123"
+* `age` - Variable parameter (Integer) - Maps to profile age
+* `isActive` - Constant parameter (Boolean) - Always sends true
+* `loyaltyScore` - Variable parameter (Decimal) - Maps to custom profile field
 
-### Beispiel 2: Verwenden von Systemkonstanten und Journey-Kontext
+### Example 2: Using system constants and journey context
 
-Sie können Journey-spezifische Informationen und Systemwerte referenzieren:
+You can reference journey-specific information and system values:
 
 ```json
 {
@@ -252,22 +253,22 @@ Sie können Journey-spezifische Informationen und Systemwerte referenzieren:
 }
 ```
 
-**Verfügbare Journey-Kontextvariablen:**
+**Available journey context variables:**
 
 >[!NOTE]
 >
->Die Syntax zum Journey von Kontextvariablen wird derzeit vom -Produkt-Team überprüft. Die tatsächlichen Feldnamen können basierend auf der Dokumentation zu den Journey-Eigenschaften sein: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName.
+>Journey context variables syntax is being verified with Product team. The actual field names may be: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName based on Journey Properties documentation.
 
-* `@{journey.id}` - Eindeutige Kennung der Journey
-* `@{journey.name}` - Name der Journey
-* `@{journey.version}` - Versionsnummer der Journey
-* `@{journey.startTime}` - Zeitstempel, wann die Journey für dieses Profil gestartet wurde (Überprüfung erforderlich)
-* `@{journey.stepId}` - Kennung des aktuellen Schritts
-* `@{journey.stepName}` - Name des aktuellen Schritts
+* `@{journey.id}` - Unique identifier of the journey
+* `@{journey.name}` - Name of the journey
+* `@{journey.version}` - Version number of the journey
+* `@{journey.startTime}` - Timestamp when the journey started for this profile (verification needed)
+* `@{journey.stepId}` - Current step identifier
+* `@{journey.stepName}` - Name of the current step
 
-### Beispiel 3: Optionale und erforderliche Parameter
+### Example 3: Optional and required parameters
 
-Konfigurieren Sie Parameter, die Journey-Anwender optional ausfüllen können:
+Configure parameters that journey practitioners can optionally fill:
 
 ```json
 {
@@ -279,18 +280,18 @@ Konfigurieren Sie Parameter, die Journey-Anwender optional ausfüllen können:
 }
 ```
 
-In der Benutzeroberfläche für die Aktionskonfiguration:
-* `email` als **erforderlich** festlegen (nicht „Ist optional“ aktivieren)
-* `mobilePhone` als **optional** festlegen (Kontrollkästchen „Ist optional“ aktivieren)
-* `preferredLanguage` als **optional** mit dem Standardwert festlegen
+In the action configuration UI:
+* Set `email` as **required** (do not check "Is optional")
+* Set `mobilePhone` as **optional** (check "Is optional")
+* Set `preferredLanguage` as **optional** with default value
 
 >[!TIP]
 >
->Wenn ein Parameter als optional markiert und vom Journey-Anwender nicht ausgefüllt wird, wird er entweder aus der Payload weggelassen oder als Null gesendet (wenn „NULL-Werte zulassen“ aktiviert ist).
+>When a parameter is marked as optional and not filled by the journey practitioner, it will either be omitted from the payload or sent as null (if "Allow NULL values" is enabled).
 
-### Beispiel 4: Arbeiten mit Arrays und Sammlungen
+### Example 4: Working with arrays and collections
 
-Übergeben von Datenerfassungen an Ihre benutzerdefinierten Aktionen:
+Pass collections of data to your custom actions:
 
 ```json
 {
@@ -313,11 +314,11 @@ In der Benutzeroberfläche für die Aktionskonfiguration:
 
 >[!NOTE]
 >
->Weitere Informationen zum Übergeben von Sammlungen in benutzerdefinierten Aktionen finden Sie auf [dieser Seite](../building-journeys/collections.md).
+>Learn more about passing collections in custom actions on [this page](../building-journeys/collections.md).
 
-### Beispiel 5: Verschachtelte Objekte und komplexe Strukturen
+### Example 5: Nested objects and complex structures
 
-Erstellen hierarchischer Datenstrukturen:
+Build hierarchical data structures:
 
 ```json
 {
@@ -347,9 +348,9 @@ Erstellen hierarchischer Datenstrukturen:
 }
 ```
 
-### Beispiel 6: Abschließen der benutzerdefinierten Aktion in der realen Welt
+### Example 6: Complete real-world custom action
 
-Ein umfassendes Beispiel für die Integration mehrerer Konzepte:
+A comprehensive example integrating multiple concepts:
 
 ```json
 {
@@ -386,26 +387,27 @@ Ein umfassendes Beispiel für die Integration mehrerer Konzepte:
 }
 ```
 
-**Konfigurationstipps für dieses Beispiel:**
-* Mischung aus konstanten Werten (`eventSource`, `specialPromotion`, `sandbox`) und variablen Parametern
-* Verwendet Journey-Kontext für Tracking und Debugging
-* Enthält Profildaten für die Personalisierung im Drittanbietersystem
-* Fügt bei der Verwendung von Angeboten Entscheidungskontext hinzu
-* Systemmetadaten für Routing und Tracking auf Unternehmensebene
+**Configuration tips for this example:**
+* Mix of constant values (`eventSource`, `specialPromotion`, `sandbox`) and variable parameters
+* Uses journey context for tracking and debugging
+* Includes profile data for personalization in the third-party system
+* Adds decisioning context when using offers
+* System metadata for routing and organization-level tracking
 
-### Tipps zum Konfigurieren von Konstanten
+### Tips for configuring constants
 
-**Sandbox-Name:** Verwenden Sie einen konstanten Parameter, der auf Ihren Umgebungsnamen festgelegt ist (z. B. „prod“, „dev“, „stage„).
+**Sandbox name:** Use a constant parameter set to your environment name (e.g., "prod", "dev", "stage")
 
-**Ausführungszeitstempel:** Verwenden Sie `@{journey.startTime}` oder erstellen Sie einen Variablenparameter, den Journey-Anwender `#{nowWithDelta()}` Funktion zuordnen können
+**Execution timestamp:** Use `@{journey.startTime}` or create a variable parameter that journey practitioners can map to `#{nowWithDelta()}` function
 
-**API-Version:** Verwenden Sie eine Konstante für API-Versionsnummern, um die Konsistenz zwischen Journey sicherzustellen.
+**API version:** Use a constant for API version numbers to ensure consistency across journeys
 
-**Authentifizierungs-Token:** Authentifizierungs-Token nie in die Payload setzen - stattdessen den Abschnitt „Authentifizierung“ der Konfiguration der benutzerdefinierten Aktion verwenden
+**Authentication tokens:** Never put authentication tokens in the payload - use the Authentication section of the custom action configuration instead
 
 >[!CAUTION]
 >
->Feldnamen in der Payload dürfen weder einen Punkt `.` Zeichen enthalten noch mit einem `$` beginnen. Stellen Sie sicher, dass Ihre JSON-Struktur diesen Benennungskonventionen entspricht.
+>Field names in the payload cannot contain a dot `.` character, nor start with a `$` character. Ensure your JSON structure follows these naming conventions.
+-->
 
 * [Fehlerbehebung bei benutzerdefinierten Aktionen](../action/troubleshoot-custom-action.md): Erfahren Sie, wie Sie Fehler bei einer benutzerdefinierten Aktion beheben
 
