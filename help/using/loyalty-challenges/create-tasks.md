@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
+source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '698'
 ht-degree: 2%
 
 ---
@@ -29,10 +29,10 @@ ht-degree: 2%
 
 **Dokumentation zu Herausforderungen im Zusammenhang mit der Treue:**
 
-* [Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue](get-started.md) - Übersicht, Workflow, Voraussetzungen
-* [Zugriff und Verwaltung von Herausforderungen und Aufgaben](access-loyalty-challenges.md) - Inventar-, Challenge- und Aufgabenverwaltung
-* [Herausforderungen erstellen](create-challenges.md) - Herausforderungen aufbauen und konfigurieren
-* **Aufgaben erstellen** ◀︎ **Sie sind hier** - Herausforderung definieren
+* [Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue](get-started.md)
+* [Zugriff und Verwaltung von Herausforderungen und Aufgaben](access-loyalty-challenges.md)
+* [Herausforderungen schaffen](create-challenges.md)
+* **Aufgaben erstellen** ◀︎ **Sie sind hier**
 
 >[!ENDSHADEBOX]
 
