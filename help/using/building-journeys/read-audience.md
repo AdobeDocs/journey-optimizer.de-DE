@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 846a831077680e1654041b05b59233c138b559fb
 workflow-type: tm+mt
-source-wordcount: '3057'
+source-wordcount: '3033'
 ht-degree: 100%
 
 ---
@@ -272,8 +272,6 @@ Die Segmentierung kann basieren auf:
 >[!NOTE]
 >
 >Bei Verwendung des Planungstyps „Täglich“ mit der Aktivität **[!UICONTROL Zielgruppe lesen]** können Sie ein Zeitfenster definieren, in dem die Journey auf neue Zielgruppendaten warten soll. Dadurch wird eine präzise Zielgruppenbestimmung sichergestellt. Außerdem werden Probleme durch Verzögerungen bei Batch-Segmentierungsaufträgen vermieden. [Informationen zum Planen einer Journey](#schedule)
->
->Die Option **[!UICONTROL Nach Auswertung der Batch-Zielgruppe auslösen]** ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 **Ausschluss**
 
@@ -348,4 +346,4 @@ Nicht erfolgreiche **Zielgruppen lesen**-Trigger werden erfasst und in den **War
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
