@@ -10,55 +10,62 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
+mini-toc-levels: 2
+source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 4%
+source-wordcount: '665'
+ht-degree: 3%
 
 ---
 
 
 # Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue {#get-started-loyalty-challenges}
 
+>[!AVAILABILITY]
+>
+>Diese Funktion befindet sich derzeit in der **Private Beta**-Phase und ist in Ihrer Umgebung möglicherweise nicht verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern. Weitere Informationen zu [Verfügbarkeitskennzeichnungen](../rn/releases.md#availability-labels).
+
 >[!BEGINSHADEBOX]
 
 **Dokumentation zu Herausforderungen im Zusammenhang mit der Treue:**
 
 * **Erste Schritte mit den Herausforderungen im Zusammenhang mit der Treue** ◀︎ **Sie sind hier** - Übersicht, Workflow, Voraussetzungen
-* [Herausforderungen im Zusammenhang mit Treue aufrufen und verwalten](access-loyalty-challenges.md) - Inventar-, Herausforderungen- und Aufgabenverwaltung
+* [Zugriff und Verwaltung von Herausforderungen und Aufgaben](access-loyalty-challenges.md) - Inventar-, Challenge- und Aufgabenverwaltung
 * [Herausforderungen erstellen](create-challenges.md) - Herausforderungen aufbauen und konfigurieren
 * [Aufgaben erstellen](create-tasks.md) - Herausforderungen definieren
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->
->Diese Funktion befindet sich derzeit in der **Private Beta**-Phase und ist in Ihrer Umgebung möglicherweise nicht verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern. Weitere Informationen zu [Verfügbarkeitskennzeichnungen](../rn/releases.md#availability-labels).
-
 ## Überblick {#overview}
 
-Herausforderungen im Zusammenhang mit dem Treueprogramm bieten eine Komplettlösung für die Erstellung von Treueprogrammen in großem Umfang, von der Festlegung von Aufgaben und Meilensteinen bis hin zur Bereitstellung von Inhalten und zur kanalübergreifenden Verfolgung der Leistung.
+Herausforderungen im Zusammenhang mit der Kundentreue ermöglichen es Ihnen, ansprechende, Gamified-Treueprogramme zu erstellen, die das Kundenverhalten fördern und die Markenbeziehungen vertiefen. Stellen Sie Herausforderungen auf, die Kunden für bestimmte Aktionen belohnen - von Käufen und dem Schreiben von Rezensionen bis hin zur Interaktion in sozialen Medien und der Vermittlung von Freunden.
+
+Herausforderungen im Zusammenhang mit der Kundentreue bieten Ihnen folgende Möglichkeiten:
+
+* **Entwerfen Sie flexible**: Erstellen Sie Standard-, Streak- oder sequenzielle Herausforderungen, um Ihre Geschäftsziele zu erreichen
+* **Prämien strategisch konfigurieren**: Punkte an Aufgaben-Meilensteinen oder nach vollständigem Abschluss liefern, um die Interaktion aufrechtzuerhalten
+* **Personalisieren des Erlebnisses**: Verwenden Sie Inhaltskarten und Multi-Channel-Messaging, um beeindruckende Markenerlebnisse zu schaffen
+* **Nahtlose Integration**: Verbinden Sie sich mit Ihren bestehenden Treueanbietern und nutzen Sie Experience Platform-Daten
+* **Automatisch nachverfolgen**: Überwachen des Kundenfortschritts über automatisch generierte Journey ohne benutzerdefinierte Entwicklung
 
 ![](assets/challenges-gs.png)
 
 Sie können drei Arten von Herausforderungen erstellen:
 
-* **Standardherausforderungen**: Kunden führen eine beliebige Anzahl von Aufgaben in beliebiger Reihenfolge aus\
-  *Beispiel: 3 von 5 verfügbaren Aufgaben abschließen*
+* **Standardherausforderungen**: Kunden führen eine beliebige Anzahl von Aufgaben in beliebiger Reihenfolge aus. Verwenden Sie diesen Typ, wenn Sie Flexibilität und mehrere Pfade zum Abschluss wünschen.\
+  *Beispiel: „Summer Wellness Challenge“ - 3 von 5 Aufgaben erledigen: Gesundheitsprodukte kaufen, in den sozialen Medien teilen, einen Freund verweisen, eine Bewertung schreiben oder an einer virtuellen Veranstaltung teilnehmen*
 
-* **Streak Challenges**: Kunden führen dieselbe Aufgabe mehrmals hintereinander aus\
-  *Beispiel: Tätigen Sie einen Kauf an 7 aufeinander folgenden Tagen*
+* **Streak Challenges**: Kunden führen dieselbe Aufgabe mehrmals hintereinander aus. Verwenden Sie diesen Typ, um im Laufe der Zeit ein konsistentes, wiederholtes Verhalten zu fördern.\
+  *Beispiel: „Coffee Lover&#39;s Week“ - Kaufen Sie Kaffeeprodukte für 7 aufeinander folgende Tage, um eine Belohnung für kostenlose Getränke zu erschließen*
 
-* **Sequenzielle Herausforderungen**: Kunden führen Aufgaben in einer definierten Reihenfolge aus\
-  *Beispiel: → erwerben → überprüfen (muss in dieser Reihenfolge ausgefüllt werden)*
-
-Mit Loyalty Challenges können Sie Prämien konfigurieren, Multi-Channel-Benachrichtigungen in wichtigen Lebenszyklusphasen senden und automatisch generierte Journey verwenden - und dabei die Integration in Ihr externes Treueprogramm-Management-System beibehalten.
+* **Sequenzielle Herausforderungen**: Kunden führen Aufgaben in einer definierten Reihenfolge aus. Verwenden Sie diesen Typ, um Kunden durch einen bestimmten Journey- oder Onboarding-Prozess zu führen.\
+  *Beispiel: „New Member Journey&quot; - Melden Sie sich für E-Mails an → tätigen Sie Ihren ersten Kauf → schreiben Sie eine Produktbewertung → Empfehlen Sie einem Freund (in dieser exakten Bestellung vollständig)*
 
 ## Funktionsweise {#how-it-works}
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
 
-1. **Datenaufnahme einrichten** - Konfigurieren Sie Experience Platform-Quell-Connectoren (z. B. den [Kapillaren-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home#loyalty), um Treueprogramm-Ereignisdaten aufzunehmen, mit denen Kundenaktionen und -fortschritt verfolgt werden. Diese Daten ermöglichen das Challenge-Tracking und die Aufgabenerledigung.
+1. **Datenaufnahme einrichten** - Konfigurieren Sie Experience Platform-Quell-Connectoren (z. B. den [Kapillaren-Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty), um Treueprogramm-Ereignisdaten aufzunehmen, mit denen Kundenaktionen und -fortschritt verfolgt werden. Diese Daten ermöglichen das Challenge-Tracking und die Aufgabenerledigung.
 
 1. **Herausforderung erstellen** - Definiert die grundlegenden Eigenschaften der Herausforderung, einschließlich Name, Typ (Standard, Streak oder Sequenziell) und Datumsbereich.
 
@@ -66,7 +73,7 @@ Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum 
 
 1. **Erstellen von Inhaltskarten** - Erstellen Sie die visuelle Darstellung Ihrer Challenge mit Journey Optimizer-Inhaltskarten, die auf Kundengeräten angezeigt werden. Inhaltskarten zeigen Informationen zu Herausforderungen, Fortschritt und Belohnungen an.
 
-1. **Messaging konfigurieren** (Optional) - Richten Sie Multi-Channel-Nachrichten (In-App, E-Mail, Push) für wichtige Lebenszyklusphasen ein: Start, in Bearbeitung und Abschluss.
+1. **Messaging konfigurieren** (optional) - Richten Sie Multi-Channel-Nachrichten (In-App, E-Mail, Push) für die wichtigsten Lebenszyklusphasen ein: Start, in Bearbeitung und Abschluss.
 
 1. **Ziel-Audience auswählen** - Definieren Sie, welche Kunden an Ihrer Challenge teilnehmen können, indem Sie eine Audience aus Adobe Experience Platform auswählen.
 
@@ -82,30 +89,23 @@ Bevor Sie Herausforderungen im Zusammenhang mit dem Treueprogramm nutzen, stelle
 
 Herausforderungen im Zusammenhang mit der Kundentreue beruhen auf Daten, die über Experience Platform-Quell-Connectoren aufgenommen werden, um den Kundenfortschritt und den Abschluss von Aufgaben zu verfolgen.
 
-1. **Konfigurieren eines unterstützten Quell-Connectors**: Derzeit ist der Kapillaranschluss verfügbar. Weitere Connectoren sind für zukünftige Versionen geplant. [Erfahren Sie mehr über Quell-Connectoren für Treueprogramme](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home#loyalty).
-
-1. **Validieren der Datenaufnahme**: Stellen Sie sicher, dass Treueereignisse und Kundendaten nach Experience Platform fließen und in Journey Optimizer verfügbar sind. Vergewissern Sie sich, dass das Datenschema die erforderlichen Felder zum Tracking von Kundenaktionen und -fortschritten enthält.
-
-Detaillierte Anweisungen finden Sie unter [Übersicht über Experience Platform-Quellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
+Bevor Sie beginnen, konfigurieren Sie einen unterstützten Quell-Connector. Derzeit ist der Kapillarverbinder verfügbar. Weitere Connectoren sind für zukünftige Versionen geplant. [Erfahren Sie mehr über Quell-Connectoren für Treueprogramme](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
-+++Erforderliche Berechtigungen
+<!--+++Required permissions
 
-Um Herausforderungen im Zusammenhang mit der Treue nutzen zu können, benötigen Sie in Journey Optimizer die entsprechenden Berechtigungen. Zu den erforderlichen Berechtigungen gehören:
+To use Loyalty Challenges, you need appropriate permissions in Journey Optimizer. Required permissions include:
 
-* Zugriff auf die Funktion **[!UICONTROL Herausforderungen im Zusammenhang mit dem Treueprogramm (Beta]**
-* Berechtigungen zum Erstellen und Verwalten von Journey
-* Berechtigungen zum Erstellen und Verwalten von Inhaltskarten
-* Berechtigungen zum Erstellen und Verwalten von Zielgruppen
+TBD
 
-Wenden Sie sich an Ihren Administrator, wenn Sie die Funktion nicht nutzen können oder zusätzliche Berechtigungen benötigen.
+Contact your administrator if you cannot access the feature or need additional permissions.
 
-+++
++++-->
 
 +++Zielgruppe
 
-Definieren Sie eine Zielgruppe, die angibt, welche Kundinnen und Kunden für die Teilnahme an Ihren Herausforderungen im Zusammenhang mit der Treue infrage kommen. Sie können bestehende Audiences auswählen oder neue Audiences direkt über die Benutzeroberfläche zur Challenge-Erstellung erstellen. [Erfahren Sie, wie Sie mit Audiences arbeiten](../audience/about-audiences.md).
+Stellen Sie sicher, dass die benötigte Zielgruppe in Adobe Experience Platform vorhanden ist, bevor Sie eine Challenge erstellen. Bei der Konfiguration der Challenge wählen Sie die Audience aus, die definiert, welche Kunden zur Teilnahme berechtigt sind. [Erfahren Sie, wie Sie mit Audiences arbeiten](../audience/about-audiences.md).
 
 +++
 
@@ -118,7 +118,7 @@ Definieren Sie eine Zielgruppe, die angibt, welche Kundinnen und Kunden für die
     <!--<img alt="Access" src="../assets/do-not-localize/learn-more-button.svg">-->
     </a>
     <div>
-    <a href="access-loyalty-challenges.md"><strong>Zugriff auf Herausforderungen im Zusammenhang mit Treue</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>Zugriff und Verwaltung von Herausforderungen und Aufgaben</strong></a>
     </div>
     <p>
     <em>Erfahren Sie, wie Sie auf die Herausforderungen im Zusammenhang mit der Bestandsaufnahme und der Filterung zugreifen können</em>
@@ -132,7 +132,7 @@ Definieren Sie eine Zielgruppe, die angibt, welche Kundinnen und Kunden für die
     <a href="create-challenges.md"><strong>Herausforderungen schaffen</strong></a>
     </div>
     <p>
-    <em>Erstellen und konfigurieren Sie Ihre erste Herausforderung bezüglich der Treue</em>
+    <em>Erfahren Sie, wie Sie Ihre erste Herausforderung bezüglich der Treue aufbauen und konfigurieren</em>
     </p>
   </td>
   <td>
@@ -143,7 +143,7 @@ Definieren Sie eine Zielgruppe, die angibt, welche Kundinnen und Kunden für die
     <a href="create-tasks.md"><strong>Aufgaben erstellen</strong></a>
     </div>
     <p>
-    <em>Definieren von Aktionen, die für Herausforderungen abgeschlossen werden sollen</em>
+    <em>Erfahren Sie, wie Sie Aktionen konfigurieren, die Kundinnen und Kunden für Herausforderungen durchführen</em>
     </p>
   </td>
 </tr>
