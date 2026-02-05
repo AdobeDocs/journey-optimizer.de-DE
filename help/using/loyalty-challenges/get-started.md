@@ -11,19 +11,15 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
+source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 4%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
 
 # Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue {#get-started-loyalty-challenges}
-
->[!AVAILABILITY]
->
->Diese Funktion befindet sich derzeit in der **Private Beta**-Phase und ist in Ihrer Umgebung möglicherweise nicht verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern. Weitere Informationen zu [Verfügbarkeitskennzeichnungen](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
@@ -35,6 +31,10 @@ ht-degree: 4%
 * [Aufgaben erstellen](create-tasks.md)
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Diese Funktion befindet sich derzeit in der **privaten Betaversion**. Weitere Informationen zu [Verfügbarkeitskennzeichnungen](../rn/releases.md#availability-labels).
 
 ## Überblick {#overview}
 
@@ -65,7 +65,7 @@ Sie können drei Arten von Herausforderungen erstellen:
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
 
-1. **Datenaufnahme einrichten** - Konfigurieren Sie Experience Platform-Quell-Connectoren (z. B. den [Kapillaren-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home#loyalty), um Treueprogramm-Ereignisdaten aufzunehmen, mit denen Kundenaktionen und -fortschritt verfolgt werden. Diese Daten ermöglichen das Challenge-Tracking und die Aufgabenerledigung.
+1. **Datenaufnahme einrichten** - Konfigurieren Sie Experience Platform-Quell-Connectoren (z. B. den [Kapillaren-Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty), um Treueprogramm-Ereignisdaten aufzunehmen, mit denen Kundenaktionen und -fortschritt verfolgt werden. Diese Daten ermöglichen das Challenge-Tracking und die Aufgabenerledigung.
 
 1. **Herausforderung erstellen** - Definiert die grundlegenden Eigenschaften der Herausforderung, einschließlich Name, Typ (Standard, Streak oder Sequenziell) und Datumsbereich.
 
@@ -89,7 +89,7 @@ Bevor Sie Herausforderungen im Zusammenhang mit dem Treueprogramm nutzen, stelle
 
 Herausforderungen im Zusammenhang mit der Kundentreue beruhen auf Daten, die über Experience Platform-Quell-Connectoren aufgenommen werden, um den Kundenfortschritt und den Abschluss von Aufgaben zu verfolgen.
 
-Bevor Sie beginnen, konfigurieren Sie einen unterstützten Quell-Connector. Derzeit ist der Kapillarverbinder verfügbar. Weitere Connectoren sind für zukünftige Versionen geplant. [Erfahren Sie mehr über Quell-Connectoren für Treueprogramme](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home#loyalty).
+Bevor Sie beginnen, konfigurieren Sie einen unterstützten Quell-Connector. Derzeit ist der Kapillarverbinder verfügbar. Weitere Connectoren sind für zukünftige Versionen geplant. [Erfahren Sie mehr über Quell-Connectoren für Treueprogramme](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 

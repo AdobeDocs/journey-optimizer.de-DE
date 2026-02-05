@@ -11,19 +11,15 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
+source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 1%
+source-wordcount: '1471'
+ht-degree: 0%
 
 ---
 
 
 # Herausforderungen schaffen {#create-challenges}
-
->[!AVAILABILITY]
->
->Diese Funktion befindet sich derzeit in der **Private Beta**-Phase und ist in Ihrer Umgebung möglicherweise nicht verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern. Weitere Informationen zu [Verfügbarkeitskennzeichnungen](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
@@ -35,6 +31,10 @@ ht-degree: 1%
 * [Aufgaben erstellen](create-tasks.md)
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Diese Funktion befindet sich derzeit in der **privaten Betaversion**. Weitere Informationen zu [Verfügbarkeitskennzeichnungen](../rn/releases.md#availability-labels).
 
 Auf dieser Seite wird der gesamte Prozess zur Erstellung einer Herausforderung für das Treueprogramm behandelt, von der Auswahl des Challenge-Typs und der Konfiguration der Eigenschaften bis hin zur Erstellung und Veröffentlichung der Journey, die die Herausforderung an Ihre Kunden richtet.
 
