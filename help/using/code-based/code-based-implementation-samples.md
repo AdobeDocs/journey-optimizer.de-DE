@@ -119,9 +119,9 @@ Wenn Sie eine Client-seitige Implementierung haben, können Sie eines der AEP-Cl
    >[!IMPORTANT]
    >
    >Das `tokens` Feld in `propositionAction` ist für das präzise Tracking und die Attribution in Adobe Journey Optimizer Decisioning (AJO-D) von entscheidender Bedeutung. Diese Token ermöglichen Folgendes:
-   >- Korrekte Klick-Attribution für Entscheidungsaktivitäten
-   >- Präzises Reporting von Benutzerinteraktionen mit bestimmten Inhalten
-   >- Optimierung der Angebotsleistung basierend auf der Benutzerinteraktion
+   >&#x200B;- Korrekte Klick-Attribution für Entscheidungsaktivitäten
+   >&#x200B;- Präzises Reporting von Benutzerinteraktionen mit bestimmten Inhalten
+   >&#x200B;- Optimierung der Angebotsleistung basierend auf der Benutzerinteraktion
    >
    >Die Token befinden sich normalerweise in der `proposition.items[0].characteristics.tokens` und sollten immer beim Verfolgen von Benutzerinteraktionen mit bestimmten Inhalten einbezogen werden.
 
