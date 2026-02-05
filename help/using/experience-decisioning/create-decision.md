@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+source-git-commit: fb35bc5a51421818297586b5e386aa75deb1c669
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 72%
@@ -85,12 +85,12 @@ Die Hauptschritte zur Nutzung von Entscheidungsrichtlinien in Nachrichten lauten
 
 Erfahren Sie, wie Sie mit Decisioning E-Mails für Ihre Audience personalisieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479219?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Erfahren Sie, wie Sie mit Decisioning Push-Benachrichtigungen für Ihre Zielgruppe personalisieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479219?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Erfahren Sie, wie Sie mit Decisioning SMS-Nachrichten für Ihre Zielgruppe personalisieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479538?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
