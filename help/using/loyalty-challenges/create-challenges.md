@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -236,23 +236,29 @@ Definieren Sie, welche Kundinnen und Kunden an Ihrer Herausforderung der Treue t
 
 1. Wählen Sie im Dialogfeld für die Zielgruppenauswahl Ihre Zielgruppe aus der Liste der verfügbaren Adobe Experience Platform-Zielgruppen und wählen Sie **[!UICONTROL Zielgruppe hinzufügen]**. [Erfahren Sie, wie Sie mit Audiences arbeiten](../audience/about-audiences.md).
 
-Ihre Challenge ist jetzt mit Struktur, Inhalt, Messaging und Zielgruppe vollständig konfiguriert. Der letzte Schritt besteht darin, die Journey zu generieren und zu veröffentlichen.
+Ihre Challenge ist jetzt mit Struktur, Inhalt, Messaging und Zielgruppe vollständig konfiguriert. Um ihn zu starten, müssen Sie die Challenge und die zugehörige Journey veröffentlichen.
 
-## Erstellen und Veröffentlichen der Journey {#review-and-publish}
+## Challenge starten {#launch}
 
-Generieren Sie nach der Konfiguration aller Challenge-Komponenten die Journey, die Ihren Challenge-Versand koordiniert:
+Das Starten einer Challenge erfordert **drei Schritte**: (1) Veröffentlichen der Challenge, (2) Generieren der Journey, (3) Veröffentlichen der Journey. Alle drei Punkte müssen erfüllt sein, damit die Herausforderung an die Kunden ausgeliefert werden kann.
 
 1. Überprüfen Sie Ihre Challenge-Konfiguration, um sicherzustellen, dass alle erforderlichen Felder ausgefüllt sind.
 
-1. Wählen Sie **[!UICONTROL Speichern]**, um Ihre Challenge-Konfiguration zu speichern, und wählen Sie **[!UICONTROL Journey generieren]**.
+1. Klicken Sie auf das Symbol ![](assets/do-not-localize/Smock_More_18_N.svg) und wählen Sie **[!UICONTROL Veröffentlichen]** aus.
+
+   ![](assets/challenge-create-publish.png)
+
+1. Wählen Sie **[!UICONTROL Journey generieren]**, um die Journey zu erstellen, die Ihren Challenge-Versand koordiniert.
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer erstellt automatisch eine Journey im Status „Entwurf“. Die automatisch generierte Journey wird in Ihrem Journey-Inventar mit dem Namensformat *&quot;Journey: [Challenge Name]&quot;* angezeigt. [Erfahren Sie mehr über den Journey-Bestand](../building-journeys/journey-ui.md).
+1. Journey Optimizer erstellt automatisch eine Journey im Status „Entwurf“. Die Journey erscheint im Journey-Bestand mit dem Namensformat *&quot;Journey: [Challenge Name]&quot;*. [Erfahren Sie mehr über den Journey-Bestand](../building-journeys/journey-ui.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Wenn Sie bereit sind, veröffentlichen Sie die Journey, um die Herausforderung für Kunden verfügbar zu machen. Der Journey startet automatisch am angegebenen Startdatum der Challenge und sendet Inhalte und Nachrichten entsprechend Ihrer Konfiguration. [Erfahren Sie, wie Sie eine Journey veröffentlichen](../building-journeys/publish-journey.md).
+1. Öffnen Sie die Journey und veröffentlichen Sie sie. Der Journey startet automatisch am angegebenen Startdatum der Challenge und sendet Inhalte und Nachrichten entsprechend Ihrer Konfiguration. [Erfahren Sie, wie Sie eine Journey veröffentlichen](../building-journeys/publish-journey.md).
+
+1. Sobald die Challenge live ist, überwachen Sie die Leistung und den Nachrichtenversand im [Journey-Bericht](../reports/journey-global-report-cja.md).
 
 >[!NOTE]
 >

@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
+source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ Die Benutzeroberfläche bietet Zugriff auf zwei Hauptinventare:
 * **Herausforderungen**: Anzeigen und Verwalten aller Herausforderungen im Zusammenhang mit dem Treueprogramm, Überwachen des Status und Ausführen schneller Aktionen wie das Anzeigen, Bearbeiten, Duplizieren oder Löschen von Herausforderungen
 * **Aufgaben**: Durchsuchen Sie wiederverwendbare Aufgaben, die für mehrere Herausforderungen verwendet werden können, und verwalten Sie Aufgabendefinitionen unabhängig voneinander
 
-
 ## Herausforderungen-Inventar {#challenges-tab}
 
 Auf **[!UICONTROL Registerkarte]** Herausforderungen“ werden alle Herausforderungen nach dem Datum der letzten Änderung sortiert angezeigt, wobei die zuletzt geänderten Herausforderungen zuerst angezeigt werden.
@@ -57,17 +56,22 @@ Wichtige angezeigte Informationen:
 * **[!UICONTROL State]**: Aktueller Status der Herausforderung (Entwurf oder veröffentlicht)
 * **[!UICONTROL Aufgaben]**: Anzahl der in der Herausforderung konfigurierten Aufgaben
 * **[!UICONTROL Journey]**: Link zur automatisch generierten Journey, die mit der Challenge verknüpft ist
-* **[!UICONTROL Status]**: Aktueller Status der zugehörigen Journey (Entwurf, Live, Angehalten usw.)
+* **[!UICONTROL Status]**: Aktueller Status der automatisch generierten Journey, die die Challenge auslöst.
 * **[!UICONTROL Start-/Enddatum (UTC)]**: Wenn die Challenge aktiv wird und abläuft
 
 Auf der Registerkarte Herausforderungen können Sie Aktionen für Herausforderungen durchführen:
 
 * **Herausforderung anzeigen**: Wählen Sie den Namen der Herausforderung aus, um ihre Detailseite zu öffnen
 * **Herausforderung duplizieren**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und dann **[!UICONTROL Duplizieren]**. Es wird eine Kopie erstellt, in der alle Aufgaben, Inhalte und Nachrichten intakt sind.
-* **Herausforderung löschen**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und wählen Sie **[!UICONTROL Löschen]**
-* **Herausforderung bearbeiten**: Wählen Sie den Namen der Herausforderung aus, um die zugehörige Detailseite zu öffnen und zu bearbeiten.
+* **Herausforderung löschen**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und wählen Sie **[!UICONTROL Löschen]**.
 
-  Wenn Sie eine veröffentlichte Herausforderung zur Bearbeitung öffnen, müssen Sie sie zunächst in den Status „Entwurf“ zurücksetzen. Alle Anpassungen, die direkt an der automatisch generierten Journey vorgenommen werden, gehen verloren. Nachdem Sie Ihre Änderungen vorgenommen haben, speichern und veröffentlichen Sie die Challenge erneut und veröffentlichen Sie die zugehörige Journey erneut.
+  >[!IMPORTANT]
+  >
+  >Sie können eine Challenge auch nach ihrer Veröffentlichung löschen. Vor dem Löschen die Auswirkungen berücksichtigen.
+
+* **Herausforderung bearbeiten**: Wählen Sie den Namen der Herausforderung aus, um die zugehörige Detailseite zu öffnen und die gewünschten Änderungen vorzunehmen.
+
+  Wenn Sie eine veröffentlichte Herausforderung zur Bearbeitung öffnen, müssen Sie sie zunächst in den Entwurfsstatus zurücksetzen. Alle Anpassungen, die direkt an der automatisch generierten Journey vorgenommen werden, gehen verloren. Nachdem Sie Ihre Änderungen vorgenommen haben, speichern und veröffentlichen Sie die Herausforderung erneut und veröffentlichen Sie dann die zugehörige Journey. [Erfahren Sie, wie Sie eine Challenge starten](create-challenges.md#launch)
 
   >[!IMPORTANT]
   >
@@ -90,4 +94,8 @@ Auf der Registerkarte Aufgaben können Sie Aktionen für Aufgaben durchführen:
 
 * **Aufgabe anzeigen/bearbeiten**: Wählen Sie den Aufgabennamen aus, um die vollständige Konfiguration anzuzeigen und die Aufgabe zu bearbeiten
 * **Aufgabe duplizieren**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und dann **[!UICONTROL Duplizieren]**
-* **Aufgabe löschen**: Wählen Sie das ![](assets/do-not-localize/Smock_More_18_N.svg) und klicken Sie auf **[!UICONTROL Löschen]**
+* **Aufgabe löschen**: Klicken Sie auf das ![](assets/do-not-localize/Smock_More_18_N.svg) und wählen Sie **[!UICONTROL Löschen]**.
+
+  >[!IMPORTANT]
+  >
+  >Sie können eine Aufgabe auch dann löschen, wenn sie in einer oder mehreren Herausforderungen verwendet wird. Berücksichtigen Sie die Auswirkungen auf Herausforderungen, die auf die Aufgabe verweisen, bevor Sie sie löschen.
