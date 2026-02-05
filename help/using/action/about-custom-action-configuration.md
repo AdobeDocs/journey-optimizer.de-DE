@@ -179,7 +179,7 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
    ![](assets/response-values.png){width="70%" align="left"}
 
-1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [ Journey ](../action/action-response.md).
+1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [&#x200B; Journey &#x200B;](../action/action-response.md).
 
    ![](assets/response-values.png){width="70%" align="left"}
 
