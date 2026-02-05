@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-mini-toc-levels: 2
-source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
+mini-toc-levels: 1
+source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 * [Aufgaben erstellen](create-tasks.md) - Herausforderungen definieren
 
 >[!ENDSHADEBOX]
+
+Auf dieser Seite wird der gesamte Prozess zur Erstellung einer Herausforderung für das Treueprogramm behandelt, von der Auswahl des Challenge-Typs und der Konfiguration der Eigenschaften bis hin zur Erstellung und Veröffentlichung der Journey, die die Herausforderung an Ihre Kunden richtet.
 
 ## Herausforderung erstellen {#create-the-challenge}
 
@@ -68,9 +70,9 @@ Definieren Sie auf **[!UICONTROL Registerkarte]** Struktur“, wie Ihre Herausfo
    * **[!UICONTROL Name]**: Geben Sie einen beschreibenden Namen für Ihre Challenge ein. Dieser Name wird im Challenges-Inventar angezeigt.
    * **[!UICONTROL Beschreibung]**: Geben Sie eine Beschreibung ein, die den Zweck und die Ziele der Herausforderung erklärt.
 
-   ![](assets/challenge-create-properties.png)
-
 1. Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Metadaten]**, um benutzerdefinierte Metadaten mithilfe von Schlüssel/Wert-Paaren hinzuzufügen. Diese Metadaten können für das Tracking oder die Integration mit externen Systemen verwendet werden.
+
+   ![](assets/challenge-create-properties.png)
 
 ### Planen der Challenge {#schedule}
 
@@ -117,13 +119,13 @@ Gehen Sie wie folgt vor, um Ihrer Herausforderung Aufgaben hinzuzufügen:
 
    +++Herausforderungen meistern
 
-   * **[!UICONTROL Streak-]**:
+   Wählen **[!UICONTROL in der Dropdown]** Liste „Streak-Typ“ zwischen:
 
-      * **Aufeinander folgend**: Kunden müssen die Aufgabe an aufeinander folgenden Tagen ohne Pausen abschließen. *Beispiel: Kauf am Montag, Dienstag, Mittwoch - ein Tag fehlt, bricht die Serie.*
+   * **Aufeinander folgend**: Kunden müssen die Aufgabe an aufeinander folgenden Tagen ohne Pausen abschließen. *Beispiel: Kauf am Montag, Dienstag, Mittwoch - ein Tag fehlt, bricht die Serie.*
 
-      * **Nicht fortlaufend**: Kunden können die Aufgabe mit Lücken zwischen den Abschlüssen abschließen. *Beispiel: 7 Käufe über 30 Tage abschließen, wobei Pausen erlaubt sind.*
+   * **Nicht fortlaufend**: Kunden können die Aufgabe mit Lücken zwischen den Abschlüssen abschließen. *Beispiel: 7 Käufe über 30 Tage abschließen, wobei Pausen erlaubt sind.*
 
-   * **[!UICONTROL Streak-Länge]**: Geben Sie an, wie oft die Aufgabe abgeschlossen werden muss. *Beispiel: Für eine „7-tägige Kauf-Stream“ auf 7 festgelegt*
+   Geben **[!UICONTROL im Feld]** an, wie oft die Aufgabe abgeschlossen werden soll. *Beispiel: Für eine „7-tägige Kauf-Stream“ auf 7 festgelegt*
 
    +++
 
@@ -157,6 +159,8 @@ So konfigurieren Sie, wann und wie Belohnungen bereitgestellt werden:
      *Beispiel: Vergabe von 10 Punkten nach Aufgabe 1, 20 Punkten nach Aufgabe 2 und 50 Punkten nach Aufgabe 3*
 
 1. Wählen Sie Ihren Belohnungsanbieter. Dies ist Ihre Treuelösung, mit der Kundenpunkte und -belohnungen verwaltet werden.
+
+   ![](assets/challenge-create-reward-type.png)
 
 1. Konfigurieren Sie die Belohnungsbeträge basierend auf Ihrer ausgewählten Versandmethode:
 
@@ -210,7 +214,7 @@ Richten Sie Multi-Channel-Nachrichten ein, um Kunden in wichtigen Phasen des Cha
    * **In Bearbeitung** Nachricht: Halten Sie Kunden mit Erinnerungen und Fortschrittsaktualisierungen in Verbindung
    * **Completion** Nachricht: Erfolg feiern und Zuweisung der Belohnung bestätigen
 
-1. Fügen Sie für jede Phase die Schaltfläche Nachricht hinzufügen hinzu, um eine Nachricht für diese Phase zu erstellen.
+1. Klicken Sie für jede Phase auf die Schaltfläche Nachricht hinzufügen , um eine Nachricht für diese Phase zu erstellen.
 
 1. Wählen Sie den gewünschten Kanal aus: **[!UICONTROL In-App]**, **[!UICONTROL E-Mail]** oder **[!UICONTROL Push-Benachrichtigung]** und wählen Sie die zugehörige Kanalkonfiguration.
 
@@ -245,8 +249,6 @@ Generieren Sie nach der Konfiguration aller Challenge-Komponenten die Journey, d
    ![](assets/challenge-create-generate-journey.png)
 
 1. Journey Optimizer erstellt automatisch eine Journey im Status „Entwurf“. Die automatisch generierte Journey wird in Ihrem Journey-Inventar mit dem Namensformat *&quot;Journey: [Challenge Name]&quot;* angezeigt. [Erfahren Sie mehr über den Journey-Bestand](../building-journeys/journey-ui.md).
-
-   Navigieren Sie zum **[!UICONTROL Journey]**-Inventar, um die automatisch generierte Journey-Konfiguration bei Bedarf zu überprüfen.
 
    ![](assets/challenge-create-journey.png)
 
