@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: c81d9e4c6339ea5637462afb87b6d81a716b22f1
+source-git-commit: 05f076f19a348032e5bb21d7d1682509bd5d2658
 workflow-type: tm+mt
-source-wordcount: '2032'
+source-wordcount: '2022'
 ht-degree: 96%
 
 ---
@@ -179,7 +179,7 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
    ![](assets/response-values.png){width="70%" align="left"}
 
-1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [&#x200B; Journey &#x200B;](../action/action-response.md).
+1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [ Journey ](../action/action-response.md).
 
    ![](assets/response-values.png){width="70%" align="left"}
 
@@ -408,9 +408,6 @@ A comprehensive example integrating multiple concepts:
 >
 >Field names in the payload cannot contain a dot `.` character, nor start with a `$` character. Ensure your JSON structure follows these naming conventions.
 -->
-
-* [Fehlerbehebung bei benutzerdefinierten Aktionen](../action/troubleshoot-custom-action.md): Erfahren Sie, wie Sie Fehler bei einer benutzerdefinierten Aktion beheben
-
 
 ## Weitere Ressourcen
 
