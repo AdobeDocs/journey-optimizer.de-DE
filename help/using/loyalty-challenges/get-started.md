@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 89ce77c686e7faec2b7baba5f2c498515ddcfe0f
+source-git-commit: 7aeb36b88af415d59d9e7275ec3605db1a243b07
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '714'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ Sie können drei Arten von Herausforderungen erstellen:
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
 
-1. **Datenaufnahme einrichten** - Konfigurieren Sie Experience Platform-Quell-Connectoren (z. B. den [Kapillaren-Connector](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home#loyalty), um Treueprogramm-Ereignisdaten aufzunehmen, mit denen Kundenaktionen und -fortschritt verfolgt werden. Diese Daten ermöglichen das Challenge-Tracking und die Aufgabenerledigung.
+1. **Datenaufnahme einrichten** - Konfigurieren Sie Experience Platform-Quell-Connectoren (z. B. den [Kapillaren-Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty), um Treueprogramm-Ereignisdaten aufzunehmen, mit denen Kundenaktionen und -fortschritt verfolgt werden. Diese Daten ermöglichen das Challenge-Tracking und die Aufgabenerledigung.
 
 1. **Herausforderung erstellen** - Definiert die grundlegenden Eigenschaften der Herausforderung, einschließlich Name, Typ (Standard, Streak oder Sequenziell) und Datumsbereich.
 
@@ -89,7 +89,7 @@ Bevor Sie Herausforderungen im Zusammenhang mit dem Treueprogramm nutzen, stelle
 
 Herausforderungen im Zusammenhang mit der Kundentreue beruhen auf Daten, die über Experience Platform-Quell-Connectoren aufgenommen werden, um den Kundenfortschritt und den Abschluss von Aufgaben zu verfolgen.
 
-Bevor Sie beginnen, konfigurieren Sie einen unterstützten Quell-Connector. Derzeit ist der Kapillarverbinder verfügbar. Weitere Connectoren sind für zukünftige Versionen geplant. [Erfahren Sie mehr über Quell-Connectoren für Treueprogramme](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home#loyalty).
+Bevor Sie beginnen, konfigurieren Sie einen unterstützten Quell-Connector. Derzeit ist der Kapillarverbinder verfügbar. Weitere Connectoren sind für zukünftige Versionen geplant. [Erfahren Sie mehr über Quell-Connectoren für Treueprogramme](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
@@ -111,13 +111,15 @@ Stellen Sie sicher, dass die benötigte Zielgruppe in Adobe Experience Platform 
 
 +++
 
-## Nächste Schritte {#next-steps}
+## Tauchen wir tiefer in die Materie ein {#lets-dive-deeper}
+
+Jetzt, da Sie wissen, was Herausforderungen im Zusammenhang mit der Treue sind und wie sie funktionieren, ist es an der Zeit, sich näher mit den Details zu befassen. Erkunden Sie die folgenden Themen, um auf die Benutzeroberfläche zuzugreifen, Ihre erste Herausforderung zu erstellen und die Aufgaben zu definieren, die Ihre Kunden abschließen werden.
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
     <a href="access-loyalty-challenges.md">
-      <img alt="Zugriff" src="assets/do-not-localize/icon-access.png" width="48"/>
+      <img alt="Zugriff" src="assets/do-not-localize/icon-access.png" width="200"/>
     </a>
     <div>
     <a href="access-loyalty-challenges.md"><strong>Zugriff und Verwaltung von Herausforderungen und Aufgaben</strong></a>
@@ -128,7 +130,7 @@ Stellen Sie sicher, dass die benötigte Zielgruppe in Adobe Experience Platform 
   </td>
   <td>
     <a href="create-challenges.md">
-      <img alt="Erstellen" src="assets/do-not-localize/icon-challenge.png" width="48"/>
+      <img alt="Erstellen" src="assets/do-not-localize/icon-challenge.png" width="200"/>
     </a>
     <div>
     <a href="create-challenges.md"><strong>Herausforderungen schaffen</strong></a>
@@ -139,7 +141,7 @@ Stellen Sie sicher, dass die benötigte Zielgruppe in Adobe Experience Platform 
   </td>
   <td>
     <a href="create-tasks.md">
-      <img alt="Aufgaben" src="assets/do-not-localize/icon-task.png" width="48"/>
+      <img alt="Aufgaben" src="assets/do-not-localize/icon-task.png" width="200"/>
     </a>
     <div>
     <a href="create-tasks.md"><strong>Aufgaben erstellen</strong></a>
