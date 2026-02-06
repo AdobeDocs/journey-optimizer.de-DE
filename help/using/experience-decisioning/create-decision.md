@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: fb35bc5a51421818297586b5e386aa75deb1c669
+source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 72%
+source-wordcount: '685'
+ht-degree: 70%
 
 ---
 
@@ -49,7 +49,7 @@ Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Entscheidung
 
 ## Leitlinien und Einschränkungen
 
-* **Unterstützte Kanäle** - Entscheidungsrichtlinien sind für diese Kanäle verfügbar: Code-basierte Erlebnis-, E-Mail-, SMS- und Push-Benachrichtigungen.
+* **Unterstützte Kanäle** - Entscheidungsrichtlinien stehen allen Kundinnen und Kunden für Code-basierte Erlebnisse, SMS und Push-Benachrichtigungen zur Verfügung. Die Entscheidungsfindung für den E-Mail-Kanal ist nur in begrenzter Verfügbarkeit verfügbar.
 * **SDK-Anforderung für Push-Benachrichtigungen** - Experience Decisioning mit Push-Benachrichtigungen erfordert eine bestimmte Version der Mobile SDK. Bevor Sie diese Funktion implementieren, überprüfen Sie die [Versionshinweise](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}, um die erforderliche Version zu identifizieren und sicherzustellen, dass Sie das Upgrade entsprechend durchgeführt haben. Sie können auch alle verfügbaren SDK-Versionen für Ihre Plattform in [diesem Abschnitt](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"} anzeigen.
 * **E-Mail-Mirror-Seiten**: Derzeit werden Entscheidungselemente in E-Mail-Mirror-Seiten nicht gerendert.
 * **Tracking- und Link-Typ**: Zum Nachverfolgen von Links, die von der Entscheidungsfindung generiert wurden, definieren Sie sie im Schema als „Decisioning Assets“. Attributbasierte Links können nicht nachverfolgt werden.
@@ -85,12 +85,12 @@ Die Hauptschritte zur Nutzung von Entscheidungsrichtlinien in Nachrichten lauten
 
 Erfahren Sie, wie Sie mit Decisioning E-Mails für Ihre Audience personalisieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476173?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Erfahren Sie, wie Sie mit Decisioning Push-Benachrichtigungen für Ihre Zielgruppe personalisieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479219?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Erfahren Sie, wie Sie mit Decisioning SMS-Nachrichten für Ihre Zielgruppe personalisieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479538?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
