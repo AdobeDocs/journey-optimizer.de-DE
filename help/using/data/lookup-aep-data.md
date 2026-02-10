@@ -9,11 +9,12 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor
 mini-toc-levels: 1
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
+source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 95%
+source-wordcount: '917'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +26,10 @@ ht-degree: 95%
 >abstract="Durch die Aktivierung eines Datensatzes für die Suche können Sie dessen Daten mit den Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung von Journey Optimizer nutzen."
 
 Mit [!DNL Journey Optimizer] können Sie Daten aus [!DNL Adobe Experience Platform] mit Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung nutzen. Hierzu müssen auf Einträgen basierende Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben für den Suchdienst aktiviert werden. 
+
+>[!NOTE]
+>
+>Die Datensuchfunktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support. Weitere Informationen zu [Verfügbarkeitskennzeichnungen](../rn/releases.md#availability-labels).
 
 Weitere Informationen darüber, wie Sie auf Datensätze zugreifen und damit arbeiten, finden Sie in diesem Abschnitt: [Erste Schritte mit Datensätzen](../data/get-started-datasets.md)
 
