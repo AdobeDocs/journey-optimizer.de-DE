@@ -114,7 +114,7 @@ Um die Ausgabe einer Aktivität vom Typ „Inhaltsentscheidung“ zu nutzen, kö
 
    >[!NOTE]
    >
-   >Jede für ein Attribut definierte eingeschränkte Beschriftung kann zu einer Richtlinienverletzung bei DULE oder Einverständnis führen. Dies gilt für das Journey von Erlebnisereignissen, die in einer Entscheidungsregel verwendet werden, und für das [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema). Weitere Informationen zu Data-Governance-Richtlinien finden [ in diesem Abschnitt](../action/action-privacy.md).
+   >Jede für ein Attribut definierte eingeschränkte Beschriftung kann zu einer Richtlinienverletzung bei DULE oder Einverständnis führen. Dies gilt für das Journey von Erlebnisereignissen, die in einer Entscheidungsregel verwendet werden, und für das [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema). Weitere Informationen zu Data-Governance-Richtlinien finden [&#x200B; in diesem Abschnitt](../action/action-privacy.md).
 
 1. Um zu überprüfen, ob für die Profile, die in die Journey eintreten, ein Angebot zurückgegeben wurde, verwenden Sie die Funktion [listSize](functions/list-functions.md#listSize) mit der folgenden Syntax: `listSize(@decision{ContentdecisionName.items})>0`
 

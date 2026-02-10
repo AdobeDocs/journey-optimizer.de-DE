@@ -146,7 +146,7 @@ Eine schrittweise Implementierungsanleitung mit vollständigen technischen Detai
 
 >[!TIP]
 >
->Durchsuchen Sie alle verfügbaren Anwendungsfälle in der [Journey-Anwendungsfallbibliothek, ](jo-use-cases.md) Sie nach weiteren Mustern und Implementierungen. Beispiele sind [Steigern von ](ramp-up-deliveries-uc.md), [Erlebnisereignismuster](exp-event-lookup.md) und [Entfernen von Profilen aus Live-Journey](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Durchsuchen Sie alle verfügbaren Anwendungsfälle in der [Journey-Anwendungsfallbibliothek, &#x200B;](jo-use-cases.md) Sie nach weiteren Mustern und Implementierungen. Beispiele sind [Steigern von &#x200B;](ramp-up-deliveries-uc.md), [Erlebnisereignismuster](exp-event-lookup.md) und [Entfernen von Profilen aus Live-Journey](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Best Practices für die Verwaltung von Eintritten und Ausstiegen {#best-practices}
 

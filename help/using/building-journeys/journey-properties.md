@@ -134,7 +134,7 @@ Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey **91 
 
 >[!NOTE]
 >
->Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte ](end-journey.md#journey-finished-definition).
+>Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte &#x200B;](end-journey.md#journey-finished-definition).
 
 Aufgrund des Journey-Timeouts von 91 Tagen können wir, wenn der erneute Eintritt in die Journey nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 91 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 

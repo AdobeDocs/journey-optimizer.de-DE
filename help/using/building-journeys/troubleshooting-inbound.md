@@ -78,7 +78,7 @@ Das folgende Diagramm zeigt die Sequenz der zu befolgenden Debugging-Schritte:
 
 >[!TAB In-App-Kanal]
 
-1. Gehen Sie zur [Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}-Sitzung und wählen Sie im linken Panel ]**In-App-Nachrichten**[!UICONTROL  aus.
+1. Gehen Sie zur [Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}-Sitzung und wählen Sie im linken Panel **In-App-Nachrichten** aus.
 
 1. Klicken Sie in der Registerkarte **[!UICONTROL Nachrichten auf Gerät]** auf die Dropdown-Liste **[!UICONTROL Nachrichten]**.
 
@@ -120,7 +120,7 @@ Gehen Sie wie folgt vor, um das Verhalten von Edge Network zu debuggen.
 
    >[!NOTE]
    >
-   >Um die Edge-Aktivität in der **Assurance**-Sitzung zu finden, suchen Sie nach der Aktivität, bei der **[!UICONTROL audienceNamespace]****joai** lautet und die **[!UICONTROL audienceSegmentId]** &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> ist (Beispiel: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
+   >Um die Edge-Aktivität in der **Assurance**-Sitzung zu finden, suchen Sie nach der Aktivität, bei der **[!UICONTROL audienceNamespace]**&#x200B;**joai** lautet und die **[!UICONTROL audienceSegmentId]** &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> ist (Beispiel: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
 
    ![Edge Delivery-Fehler, der besagt, dass das Profil nicht für die Nachricht qualifiziert war](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
 

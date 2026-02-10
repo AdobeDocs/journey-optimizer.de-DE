@@ -23,7 +23,7 @@ Mit Journey-Metriken erhalten Sie einen klaren Einblick in die Effektivität Ihr
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie Ihre Journey-Metriken verwenden können, müssen Sie einen Datensatz hinzufügen, der die `Commerce Details`, `Web` und `Mobile`[ Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} unter „Konfiguration“ > „Berichte“ in [!DNL Adobe Experience Platform] enthält.
+Bevor Sie Ihre Journey-Metriken verwenden können, müssen Sie einen Datensatz hinzufügen, der die `Commerce Details`, `Web` und `Mobile`[&#x200B; Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} unter „Konfiguration“ > „Berichte“ in [!DNL Adobe Experience Platform] enthält.
 
 Diese Feldergruppen müssen aus den integrierten Optionen ausgewählt werden, nicht aus benutzerdefinierten Gruppen. Weitere Informationen sind im Abschnitt [Hinzufügen von Datensätzen](../reports/reporting-configuration.md#add-datasets) verfügbar.
 

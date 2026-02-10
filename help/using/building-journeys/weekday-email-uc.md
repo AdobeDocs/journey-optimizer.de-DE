@@ -56,7 +56,7 @@ Führen Sie diese Schritte aus, um den E-Mail-Fluss nur für Wochentage zu erste
 
 Fügen Sie direkt nach dem Start der Journey eine Aktivität des Typs **[!UICONTROL Bedingung]** hinzu, um zu prüfen, ob der aktuelle Tag ein Samstag oder Sonntag ist. Dadurch wird der Workflow entsprechend verzweigt.
 
-1. Ziehen Sie eine Aktivität des Typs [**[!UICONTROL Bedingung ]**](condition-activity.md) nach dem Eintrittspunkt auf die Arbeitsfläche.
+1. Ziehen Sie eine Aktivität des Typs [**[!UICONTROL Bedingung &#x200B;]**](condition-activity.md) nach dem Eintrittspunkt auf die Arbeitsfläche.
 
 1. Klicken Sie auf die Aktivität des Typs **[!UICONTROL Bedingung]**, um das zugehörige Konfigurations-Panel zu öffnen.
 
