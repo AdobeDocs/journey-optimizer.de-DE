@@ -11,10 +11,10 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsrichtlinie, Arbeitsfläche, Journey
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
-workflow-type: ht
-source-wordcount: '1120'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 93%
 
 ---
 
@@ -80,7 +80,7 @@ Sie können jetzt die Ausgabe dieser Aktivität vom Typ „Inhaltsentscheidung�
 
 Es kann bis zu 48 Stunden dauern, bis aktualisierte Einverständnisrichtlinien wirksam werden. Wenn eine Entscheidungsrichtlinie auf ein Attribut verweist, das mit einer kürzlich aktualisierten Einverständnisrichtlinie verknüpft ist, werden die Änderungen nicht sofort angewendet.
 
-Wenn neue Profilattribute, die einer Einverständnisrichtlinie unterliegen, zu einer Entscheidungsrichtlinie hinzugefügt werden, sind sie ebenfalls verwendbar, aber die mit ihnen verknüpfte Einverständnisrichtlinie wird erst erzwungen, wenn die Verzögerungszeit vorüber ist.
+Ebenso können neue Profilattribute, die einer Einverständnisrichtlinie unterliegen, zu einer Entscheidungsrichtlinie hinzugefügt und verwendet werden. Die zugehörige Einverständnisrichtlinie wird erst durchgesetzt, wenn die Verzögerung abgelaufen ist.
 
 Einverständnisrichtlinien sind nur für Organisationen verfügbar, die über das Zusatzangebot „Adobe Healthcare Shield“ oder „Privacy and Security Shield“ verfügen.
 
@@ -114,7 +114,7 @@ Um die Ausgabe einer Aktivität vom Typ „Inhaltsentscheidung“ zu nutzen, kö
 
    >[!NOTE]
    >
-   >Ein für ein Attribut definiertes eingeschränktes Label, ob in einem Journey-Erlebnisereignis, das in einer Entscheidungsregel (als Kontextdaten) verwendet wird, oder im [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema), führt nicht zu einem Richtlinienverstoß gemäß DULE oder Einverständnis. Weitere Informationen zu Data-Governance-Richtlinien finden Sie in [diesem Abschnitt](../action/action-privacy.md)
+   >Jede für ein Attribut definierte eingeschränkte Beschriftung kann zu einer Richtlinienverletzung bei DULE oder Einverständnis führen. Dies gilt für das Journey von Erlebnisereignissen, die in einer Entscheidungsregel verwendet werden, und für das [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema). Weitere Informationen zu Data-Governance-Richtlinien finden [ in diesem Abschnitt](../action/action-privacy.md).
 
 1. Um zu überprüfen, ob für die Profile, die in die Journey eintreten, ein Angebot zurückgegeben wurde, verwenden Sie die Funktion [listSize](functions/list-functions.md#listSize) mit der folgenden Syntax: `listSize(@decision{ContentdecisionName.items})>0`
 

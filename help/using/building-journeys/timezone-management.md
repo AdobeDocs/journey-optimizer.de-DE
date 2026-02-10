@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Zeitzone, Eigenschaften, Journey, Bedingung, Uhrzeit, Datum, benutzerdefiniert
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ Um die Eigenschaften der Journey aufzurufen, wählen Sie das Stiftsymbol oben re
 
 Diese Zeitzone wird für jede Aktivität der Journey verwendet, die ein Zeitelement enthält, z. B.:
 
-* [Bedingung für die Uhrzeit](../building-journeys/condition-activity.md#time_condition)
+* [Zeitbedingung](../building-journeys/condition-activity.md#time_condition)
 * [Bedingung für das Datum](../building-journeys/condition-activity.md#date_condition)
 * [Benutzerdefinierte Wartezeit](../building-journeys/wait-activity.md#custom)
 
@@ -56,7 +56,7 @@ Wählen Sie dazu im Bereich **[!UICONTROL Journey-Eigenschaften]** eine Zeitzone
 >title="Zeitzone des Profils verwenden"
 >abstract="Aktivieren Sie das Kontrollkästchen, um bei Warte- und Bedingungsaktivitäten die Zeitzone des Profils in Echtzeit zu verwenden. Wenn für ein Profil eine Zeitzone definiert wurde, wird diese von der Journey abgerufen und verwendet.  Andernfalls wird die im Zeitzonenfeld definierte Zeitzone verwendet."
 
-Wenn das Eintrittsereignis der Journey einen Namespace hat, was bedeutet, dass die Journey Zugriff auf den Echtzeit-Kundenprofil-Service von Adobe Experience Platform hat, könnten Sie die auf Profilebene definierte Zeitzone verwenden. Aktivieren Sie dazu in den **Eigenschaften** die Option **Zeitzone des Profils für Wartezeiten und Bedingungen verwenden**. Diese Option ist nicht standardmäßig aktiviert.
+Wenn das Eintrittsereignis der Journey über einen Namespace verfügt, d. h. die Journey den Echtzeit-Kundenprofil-Service von [!DNL Adobe Experience Platform] erreichen kann, empfiehlt es sich, die auf Profilebene definierte Zeitzone zu verwenden. Aktivieren Sie dazu in den **Eigenschaften** die Option **Zeitzone des Profils für Wartezeiten und Bedingungen verwenden**. Diese Option ist nicht standardmäßig aktiviert.
 
 Wenn für ein Profil eine Zeitzone definiert wurde, wird diese von der Journey abgerufen und verwendet.  Ist dies nicht der Fall, wird die im Zeitzonenfeld definierte Zeitzone verwendet.
 

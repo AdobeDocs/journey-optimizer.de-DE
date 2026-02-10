@@ -5,10 +5,10 @@ title: Suche nach Erlebnisereignissen in Journeys
 description: Informationen zum Verwenden der Suche nach Erlebnisereignissen in Journeys
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >
 >Sie würden gerne mehr erfahren? [Lesen Sie die häufig gestellten Fragen](#faq-ee).
 
-Auf dieser Seite werden gängige Muster und skalierbare Ansätze beschrieben, mit denen Sie die Erlebnisereignisse in Adobe Journey Optimizer optimal nutzen können. Diese Anwendungsfälle helfen Ihnen, häufige Herausforderungen zu lösen, wie z. B. das Verwalten von Opt-outs, das Steuern der Häufigkeit von Nachrichten, das Personalisieren von Inhalten basierend auf dem Benutzerverhalten und das Reagieren auf Echtzeitsignale.
+Auf dieser Seite werden gängige Muster und skalierbare Ansätze beschrieben, mit denen Sie das Meiste aus Erlebnisereignissen in [!DNL Adobe Journey Optimizer] machen können. Diese Anwendungsfälle helfen Ihnen, häufige Herausforderungen zu lösen, wie z. B. das Verwalten von Opt-outs, das Steuern der Häufigkeit von Nachrichten, das Personalisieren von Inhalten basierend auf dem Benutzerverhalten und das Reagieren auf Echtzeitsignale.
 
 Mithilfe dieser Strategien können Sie Verhaltensdaten in aussagekräftige Aktionen umwandeln, nämlich das Unterdrücken, Qualifizieren oder Ausschließen von Profilen basierend auf den von ihnen ausgelösten Ereignissen oder ihren enthaltenen Attributen. Unabhängig davon, ob Sie eine Logik für Kaufschwellen, Abbruch-Trigger oder die Handhabung von Bounces erstellen, bieten diese Beispiele praktische Anleitungen, die Sie an Ihre Anforderungen anpassen können.
 
@@ -39,7 +39,7 @@ Weitere Informationen:
 
 ## Unterdrückung bei Bounces
 
-Um Profile auszuschließen, bei denen E-Mail-Bounces aufgetreten sind, nutzen Sie die automatische Unterdrückungsliste von Adobe Journey Optimizer für unzustellbare Adressen. Dieser integrierte Mechanismus stellt sicher, dass ungültige oder unerreichbare E-Mail-Adressen von zukünftigen Sendungen ausgeschlossen werden, ohne dass eine benutzerdefinierte Logik erforderlich ist.
+Um Profile auszuschließen, bei denen E-Mail-Bounces aufgetreten sind, nutzen Sie die automatische Unterdrückungsliste von [!DNL Adobe Journey Optimizer] für unzustellbare Adressen. Dieser integrierte Mechanismus stellt sicher, dass ungültige oder unerreichbare E-Mail-Adressen von zukünftigen Sendungen ausgeschlossen werden, ohne dass eine benutzerdefinierte Logik erforderlich ist.
 
 Weitere Informationen:
 
@@ -52,9 +52,9 @@ Um Profile zu unterdrücken, die bestimmte Verhaltensweisen gezeigt haben, verwe
 
 Weitere Informationen:
 
-* Adobe Experience Platform [Segment Builder – Ereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Segment Builder - Ereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Segment Builder – Zeitbeschränkungen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Segment Builder - Zeitbeschränkungen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +71,9 @@ So verhindern Sie, dass Nachrichten an Profile gesendet werden, die kürzlich Na
 
 Weitere Informationen zum Verwenden von Zielgruppen:
 
-* Adobe Experience Platform [Segment Builder – Ereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Segment Builder - Ereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Segment Builder – Zeitbeschränkungen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Segment Builder - Zeitbeschränkungen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +93,9 @@ Um Profile in Abhängigkeit davon ein- oder auszuschließen, ob sie eine bestimm
 
 Weitere Informationen:
 
-* Adobe Experience Platform [Segment Builder – Ereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Segment Builder - Ereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [Segment Builder – Zeitbeschränkungen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Segment Builder - Zeitbeschränkungen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -105,8 +105,8 @@ Weitere Informationen:
 
 So personalisieren Sie die Nachrichten basierend auf den letzten Ereignissen im Zusammenhang mit dem Warenkorb oder der Seitennavigation über mehrere Warenkorbtypen oder Produktansichten hinweg:
 
-* Wenn Sie über Zugriff auf [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/overview){target="_blank"} verfügen, konfigurieren Sie automatisierte Abfragen, um die erforderlichen Daten aus dem Ereignis zu extrahieren, sie an den Anwendungsfall anzupassen und sie zur Aktivierung zurück in einen für das Profil aktivierten Datensatz zu schreiben.
-* Wenn die Daten zum Abbruchverhalten anhand des Profils mit Skalarattributen modelliert werden können, sollten Sie berechnete Attribute verwenden, um die neuesten Informationen zu erfassen, und diese Attribute dann in der Journey referenzieren, um Nachrichten zu erstellen. [Weitere Informationen hierzu finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}.
+* Wenn Sie Zugriff auf [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/overview){target="_blank"} haben, konfigurieren Sie automatisierte Abfragen, um die erforderlichen Daten aus dem Ereignis zu extrahieren, sie an den Anwendungsfall anzupassen und sie zur Aktivierung in einen profilaktivierten Datensatz zurückzuschreiben.
+* Wenn die Daten zum Abbruchverhalten anhand des Profils mit Skalarattributen modelliert werden können, sollten Sie berechnete Attribute verwenden, um die neuesten Informationen zu erfassen, und diese Attribute dann in der Journey referenzieren, um Nachrichten zu erstellen. [Weitere Informationen finden Sie in  [!DNL Adobe Experience Platform]  Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Verhaltensbasierter Journey-Ausstieg
@@ -123,7 +123,7 @@ Um Journeys basierend auf Käufen auszulösen und zu unterdrücken, wenn der Wer
 
 Weitere Informationen:
 
-* Adobe Experience Platform [Berechnete Attribute – Überblick](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [Berechnete Attribute - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -131,7 +131,7 @@ Weitere Informationen:
 
 Im Folgenden finden Sie häufig gestellte Fragen zum Suchen nach Erlebnisereignissen in Journeys.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen oder eine Verbindung mit [[!DNL Adobe Journey Optimizer] Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"} herzustellen.
 
 +++Welche spezifischen Funktionen sind betroffen? 
 

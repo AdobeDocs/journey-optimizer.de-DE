@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journeys testen
+title: Testen der Journey
 description: Erfahren Sie, wie Sie Ihre Journey testen
 feature: Journeys, Test Profiles
 topic: Content Management
@@ -10,18 +10,18 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '1943'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
-# Journeys testen{#testing_the_journey}
+# Testen der Journey{#testing_the_journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
->title="Journeys testen"
+>title="Testen der Journey"
 >abstract="Verwenden Sie Testprofile, um Ihre Journey vor der Veröffentlichung zu testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben."
 
 Nachdem Sie Ihre Journey erstellt haben, können Sie sie vor dem Veröffentlichen testen. Journey Optimizer bietet einen „Testmodus“ als Möglichkeit, Testprofile anzuzeigen, die die Journey durchlaufen, um so potenzielle Fehler vor der Aktivierung zu erkennen. Mit Schnelltests können Sie überprüfen, ob die Journeys ordnungsgemäß funktionieren, sodass Sie sie sicher veröffentlichen können.
@@ -30,14 +30,16 @@ Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entw
 
 >[!NOTE]
 >
->Vor dem Testen Ihrer Journey müssen Sie alle Fehler beheben, falls vorhanden. Erfahren Sie in ([&#x200B; Abschnitt), wie Sie Fehler vor dem Testen &#x200B;](../building-journeys/troubleshooting.md). Wenn Testprofile im Testmodus nicht fortschreiten, siehe [Fehlerbehebung bei Testmodusübergängen](troubleshooting-execution.md#troubleshooting-test-transitions).
+>Vor dem Testen Ihrer Journey müssen Sie alle Fehler beheben, falls vorhanden. Wie Sie Fehler vor dem Testen feststellen können, erfahren Sie [in diesem Abschnitt](../building-journeys/troubleshooting.md). Wenn Testprofile im Testmodus nicht fortgesetzt werden, finden Sie weitere Informationen unter [Fehlerbehebung bei Transitionen im Testmodus](troubleshooting-execution.md#troubleshooting-test-transitions).
 
 ## Wichtige Hinweise {#important_notes}
+
+Lesen Sie diese Hinweise, bevor Sie Tests auf Ihrem Journey durchführen.
 
 ### Allgemeine Einschränkungen
 
 * **Nur Testprofile**: Nur Personen, die im Echtzeit-Kundenprofil-Service als „Testprofile“ gekennzeichnet sind, können im Testmodus in eine Journey eintreten. [Erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md).
-* **Namespace-Anforderung**: Der Testmodus ist nur für Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine in die Journey eintretende Person ein Testprofil ist oder nicht, und muss daher in der Lage sein, Adobe Experience Platform zu erreichen.
+* **Namespace-Anforderung**: Der Testmodus ist nur für Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Testmodus muss überprüfen, ob eine Person, die die Journey betritt, ein Testprofil ist oder nicht, und muss daher in der Lage sein, [!DNL Adobe Experience Platform] zu erreichen.
 * **Profil-Limit**: Während einer einzelnen Testsitzung können maximal 100 Testprofile in eine Journey eintreten.
 * **Ereignisauslösung**: Ereignisse können nur über die Benutzeroberfläche ausgelöst werden. Ereignisse können nicht mithilfe einer API von externen Systemen ausgelöst werden.
 * **Benutzerdefinierte Upload-Zielgruppen**: Der Journey-Testmodus unterstützt keine Attributanreicherung von [benutzerdefinierten Upload-Zielgruppen](../audience/custom-upload.md).
@@ -53,10 +55,10 @@ Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entw
 
 * **Aufspaltungsverhalten**: Wenn die Journey eine Aufspaltung erreicht, wird immer die oberste Verzweigung ausgewählt. Ordnen Sie Verzweigungen neu an, wenn Sie einen anderen Pfad testen möchten.
 * **Ereignis-Timing**: Wenn die Journey mehrere Trigger enthält, lösen Sie die Ereignisse nacheinander aus. Wird ein Ereignis zu früh (bevor der erste Warteknoten abgeschlossen ist) oder zu spät (nach dem konfigurierten Timeout) gesendet, wird das Ereignis verworfen und das Profil wird an einen Timeout-Pfad gesendet. Vergewissern Sie sich stets, dass Verweise auf Ereignis-Payload-Felder gültig bleiben, indem Sie die Payload innerhalb des definierten Fensters senden.
-* **Aktives Datumsfenster**: Stellen Sie sicher, dass das für die Journey konfigurierte Fenster für [Start- und Enddatum/-zeit](journey-properties.md#dates) beim Initiieren des Testmodus die aktuelle Zeit enthält. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen. Weitere Informationen zur Fehlerbehebung bei diesem Problem [auf dieser Seite](troubleshooting-execution.md#troubleshooting-test-transitions).
+* **Aktives Datumsfenster**: Stellen Sie sicher, dass das für die Journey konfigurierte Fenster für [Start- und Enddatum/-zeit](journey-properties.md#dates) beim Initiieren des Testmodus die aktuelle Zeit enthält. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen. Weitere Informationen zur Behebung dieses Problems finden Sie [auf dieser Seite](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Reaktionsereignisse**: Für Reaktionsereignisse mit einem Timeout beträgt die minimale und die standardmäßige Wartezeit 40 Sekunden.
 * **Testdatensätze**: Im Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert, die wie folgt gekennzeichnet sind: `JOtestmode - <schema of your event>`
-* **Freigegebene Infrastruktur** - Der Testmodus wird auf derselben Infrastruktur ausgeführt wie die Produktion. Bei hohem Traffic-Aufkommen kann es zu Verzögerungen beim E-Mail-Versand oder bei der Ereignisverarbeitung kommen. Überprüfen Sie in diesem Fall die Plattform-Traffic-Dashboards oder wiederholen Sie Ihre Tests außerhalb der Spitzenzeiten.
+* **Freigegebene Infrastruktur**: Der Testmodus wird auf derselben Infrastruktur ausgeführt wie die Produktion. Bei hohem Traffic-Aufkommen kann es zu Verzögerungen beim E-Mail-Versand oder bei der Ereignisverarbeitung kommen. Prüfen Sie in diesem Fall die Plattform-Traffic-Dashboards oder wiederholen Sie Ihre Tests außerhalb der Spitzenzeiten.
 
 <!--
 * Fields from related entities are hidden from the test mode.
@@ -104,7 +106,7 @@ Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um ein Erei
 
 ### Voraussetzungen {#trigger-events-prerequisites}
 
-Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu.
+Als Voraussetzung müssen Sie wissen, welche Profile in [!DNL Adobe Experience Platform] als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu.
 
 Das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Es kann sich beispielsweise um eine ECID oder eine E-Mail-Adresse handeln. Der Wert dieses Schlüssels muss im Feld **Profilkennung** hinzugefügt werden.
 
@@ -190,5 +192,5 @@ Hier eine Liste der verschiedenen Status der Journey eines Kontakts:
 
 Wenn ein Ereignis im Testmodus ausgelöst wird, wird automatisch ein Datensatz mit dem Namen der Quelle generiert.
 
-Der Testmodus erstellt automatisch ein Erlebnisereignis und sendet es an Adobe Experience Platform. Der Name der Quelle für dieses Erlebnisereignis lautet „Journey Orchestration Test-Ereignisse“.
+Der Testmodus erstellt automatisch ein Erlebnisereignis und sendet es an [!DNL Adobe Experience Platform]. Der Name der Quelle für dieses Erlebnis-Ereignis lautet „Journey Orchestration Test-Ereignisse“.
 

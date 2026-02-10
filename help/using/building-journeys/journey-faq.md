@@ -2,30 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey-Orchestrierung – Häufig gestellte Fragen
-description: Häufig gestellte Fragen zur Journey-Orchestrierung in Adobe Journey Optimizer
+description: Häufig gestellte Fragen zu Journey Orchestration in [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung, Orchestrierung
 version: Journey Orchestration
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '5231'
-ht-degree: 99%
+source-wordcount: '5191'
+ht-degree: 93%
 
 ---
 
-
 # Journey-Orchestrierung – Häufig gestellte Fragen {#faq-journeys}
 
-Hier finden Sie Antworten auf häufig gestellte Fragen zur Journey-Orchestrierung in Adobe Journey Optimizer.
+Hier finden Sie Antworten auf häufig gestellte Fragen zu Journey Orchestration in [!DNL Adobe Journey Optimizer].
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen. Sie können auch eine Verbindung zur [[!DNL Adobe Journey Optimizer] Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"} herstellen.
 
 ## Allgemeine Konzepte
 
-+++ Was ist eine Journey in Adobe Journey Optimizer?
++++ Was ist eine Journey in [!DNL Adobe Journey Optimizer]?
 
 Eine Journey ist eine mehrstufige Orchestrierung, mit der Sie Echtzeit-Kundenerlebnisse kanalübergreifend entwerfen und ausführen können. Journeys kombinieren Ereignisse, Orchestrierungsaktivitäten, Aktionen und Nachrichten, um basierend auf Kundenverhalten und Geschäftsereignissen personalisierte, kontextuelle Erlebnisse zu schaffen.
 
@@ -35,10 +35,10 @@ Erfahren Sie mehr über [Journeys](journey.md).
 
 +++ Welche verschiedenen Journey-Typen gibt es?
 
-Adobe Journey Optimizer unterstützt vier Journey-Typen:
+[!DNL Adobe Journey Optimizer] unterstützt vier Typen von Journey:
 
 * **Unitäre Journeys**: Werden einzeln durch ein Ereignis ausgelöst (z. B. Kauf, App-Anmeldung). Die Profile treten jeweils zu dem Zeitpunkt in die Journey ein, zu dem das Ereignis stattfindet.
-* **Journeys des Typs „Zielgruppe lesen“**: Beginnen Sie mit einer Zielgruppe aus Adobe Experience Platform und senden Sie Nachrichten im Batch an alle Profile in dieser Zielgruppe.
+* **Audience-Journey lesen**: Beginnen Sie mit einer Audience aus [!DNL Adobe Experience Platform] und senden Sie Nachrichten im Batch an alle Profile in dieser Audience.
 * **Journeys des Typs „Zielgruppenqualifizierung“**: Werden ausgelöst, wenn Profile sich für ein bestimmtes Zielgruppensegment qualifizieren (oder daraus aussteigen). Profile treten in die Journey ein, wenn sie die Zielgruppenkriterien erfüllen.
 * **Geschäftsereignis-Journeys**: Werden durch Geschäftsereignisse ausgelöst (z. B. Bestandsaktualisierungen, Wetterwarnungen), die mehrere Profile gleichzeitig betreffen.
 
@@ -56,7 +56,7 @@ Es gibt drei Typen von **[Kampagnen](../campaigns/get-started-with-campaigns.md)
 * **[Durch API ausgelöste Kampagnen](../campaigns/api-triggered-campaigns.md)**: Durch API-Aufrufe ausgelöste Kampagnen, die die Integration mit externen Systemen ermöglichen, um Nachrichten basierend auf Echtzeit-Ereignissen oder Geschäftslogik zu senden.
 * **[Orchestrierte Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)**: Mehrstufige, zielgruppenbasierte Kampagnen auf einer Arbeitsfläche, die Bedingungen, Wartezeiten und mehrere Aktionen zur Erstellung geplanter, koordinierter Erlebnisse enthalten können.
 
-**Best Practice**: Verwenden Sie [Journeys](journey.md) für komplexe, ereignisgesteuerte Interaktionen mit erweiterter Orchestrierung, [Aktionskampagnen](../campaigns/create-campaign.md) für geplante, zielgruppenbasierte Kommunikation, [durch API ausgelöste Kampagnen](../campaigns/api-triggered-campaigns.md) für die programmgesteuerte Auslösung aus externen Systemen und [orchestrierte Kampagnen](../orchestrated/gs-orchestrated-campaigns.md) für mehrstufige Kommunikation mit kampagnenspezifischen Anforderungen.
+**Best Practice**: Verwenden Sie [Journey](journey.md) für eine komplexe, ereignisgesteuerte Interaktion mit erweiterter Orchestrierung. Verwenden [Aktionskampagnen](../campaigns/create-campaign.md) für geplante, zielgruppenbasierte Kommunikation. Verwenden Sie [API-ausgelöste Kampagnen](../campaigns/api-triggered-campaigns.md) für die programmgesteuerte Auslösung von externen Systemen. Verwenden [orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md) für mehrstufige Kommunikation mit kampagnenspezifischen Anforderungen.
 
 +++
 
@@ -76,7 +76,7 @@ Erfahren Sie mehr über [Journey-Aktivitäten](about-journey-activities.md).
 
 +++ Welche Zielgruppentypen werden in Journeys unterstützt und welche Einschränkungen gelten für sie?
 
-Adobe Journey Optimizer unterstützt vier Arten von Zielgruppen mit jeweils unterschiedlichen Eigenschaften und Leitlinien:
+[!DNL Adobe Journey Optimizer] unterstützt vier Arten von Zielgruppen mit jeweils unterschiedlichen Eigenschaften und Leitplanken:
 
 **1. Streaming-Zielgruppen**
 
@@ -110,11 +110,11 @@ Adobe Journey Optimizer unterstützt vier Arten von Zielgruppen mit jeweils unte
    * Es gelten CSV-Dateigrößenbeschränkungen (in der Produktdokumentation finden Sie die aktuellen Limits)
    * Zielgruppenmitglieder sind statisch, bis sie mit neuem Upload aktualisiert werden
    * Identity-Namespace muss mit Journey-Namespace übereinstimmen
-   * Profile müssen in Adobe Experience Platform vorhanden sein
+   * Profile müssen in [!DNL Adobe Experience Platform] vorhanden sein
 
 **4. Zielgruppen für die Komposition föderierter Zielgruppen (Federated Audience Composition, FAC)**
 
-* **Beschreibung**: Zielgruppen, die mit föderierten Daten erstellt wurden, sodass Sie Zielgruppen aus externen Data Warehouses abfragen und erstellen können, ohne Daten in Adobe Experience Platform kopieren zu müssen
+* **Beschreibung**: Zielgruppen, die mit Federated Data erstellt wurden, sodass Sie Zielgruppen aus externen Data Warehouses abfragen und erstellen können, ohne Daten nach [!DNL Adobe Experience Platform] kopieren zu müssen
 * **Auswertung**: Statische Komposition wird aktualisiert, wenn die Komposition föderierter Zielgruppen ausgeführt wird
 * **Journey-Nutzung**: Bei Aktivitäten vom Typ „Zielgruppe lesen“ und „Bedingung“ unterstützt; **nicht unterstützt** in Journeys vom Typ „Zielgruppenqualifizierung“ (ähnlich wie bei Upload-Zielgruppen aus einer Backend-Perspektive)
 * **Am besten geeignet für**: Data Warehouse-Integration für Unternehmen, Zielgruppenkomposition unter Verwendung externer Datenquellen, Szenarien, in denen Daten in externen Systemen verbleiben müssen
@@ -187,7 +187,7 @@ Befolgen Sie die [detaillierte Anleitung](journey-gs.md).
 Die Voraussetzungen hängen von Ihrem Journey-Typ ab:
 
 * **Durch Ereignis ausgelöste Journeys**: Konfigurieren Sie Ereignisse, um zu definieren, wann Profile in die Journey eintreten sollen
-* **Zielgruppenbasierte Journeys**: Erstellen Sie Zielgruppen in Adobe Experience Platform
+* **Zielgruppenbasierte Journey**: Erstellen von Zielgruppen in [!DNL Adobe Experience Platform]
 * **Datenanreicherung**: Richten Sie Datenquellen ein, um zusätzliche Informationen abzurufen
 * **Integrationen von Drittanbietern**: Konfigurieren Sie benutzerdefinierte Aktionen bei Verwendung externer Systeme
 
@@ -202,7 +202,7 @@ Ja, es gibt mehrere Ansätze zur Nutzung externer Daten:
 **Best Practices**:
 
 * **Benutzerdefinierte Aktionen**: Rufen Sie externe APIs über benutzerdefinierte Aktionen auf, um Daten abzurufen oder an Drittanbietersysteme zu senden. Dies ist der empfohlene Ansatz für Echtzeit-Interaktionen mit externen Systemen.
-* **Datensatzsuche**: Wenn Sie Daten aus externen Systemen in Adobe Experience Platform laden können, verwenden Sie die Datensatzsuchfunktion, um in Experience Platform-Datensätzen gespeicherte Informationen abzurufen.
+* **Datensatzsuche**: Wenn Sie Daten aus externen Systemen in [!DNL Adobe Experience Platform] laden können, verwenden Sie die Datensatzsuchfunktion, um in Experience Platform-Datensätzen gespeicherte Informationen abzurufen.
 * **Externe Datenquellen**: Konfigurieren Sie externe Datenquellen, um Informationen aus API-Services von Drittanbietern abzurufen (weniger empfohlen als die oben genannten Ansätze).
 
 Mit diesen Optionen können Sie das Kundenerlebnis mit Daten aus CRM, Treuesystemen, Wetterdiensten oder anderen externen Plattformen anreichern.
@@ -247,7 +247,7 @@ Erfahren Sie mehr über [Warteaktivitäten](wait-activity.md).
 
 +++ Kann ich Profilinformationen in einer Journey aktualisieren?
 
-Ja. Verwenden Sie die Aktivität **Profil aktualisieren**, um Profilattribute in Adobe Experience Platform auf der Grundlage von Journey-Ereignissen oder -Bedingungen zu ändern. Dies ist nützlich für das Aktualisieren von Treuepunkten, das Aufzeichnen von Journey-Meilensteinen, das Ändern von Voreinstellungen oder das Verfolgen von Kundeninteraktionswerten.
+Ja. Verwenden Sie die Aktivität **Profil aktualisieren**, um Profilattribute in [!DNL Adobe Experience Platform] auf der Grundlage von Journey-Ereignissen oder -Bedingungen zu ändern. Dies ist nützlich für das Aktualisieren von Treuepunkten, das Aufzeichnen von Journey-Meilensteinen, das Ändern von Voreinstellungen oder das Verfolgen von Kundeninteraktionswerten.
 
 Erfahren Sie mehr über [Profilaktualisierungen](update-profiles.md).
 
@@ -468,7 +468,7 @@ Häufige Gründe, warum Profile möglicherweise nicht in eine Journey eintreten:
 * **Journey nicht veröffentlicht**: Die Journey befindet sich im Entwurfsstatus
 * **Ungültiger Namespace**: Der Journey-Namespace entspricht nicht der Profilidentität
 * **Journey geschlossen**: Die Journey akzeptiert keine neuen Eintritte mehr
-* **Zeitpunkt der Streaming-Zielgruppenqualifizierung**: Bei Journeys, die die Zielgruppenqualifizierung mit Streaming-Zielgruppen verwenden, können Profile möglicherweise nicht eintreten, wenn sie sich bereits in der Zielgruppe befanden, bevor die Journey veröffentlicht wurde, oder wenn die Journey den Aktivierungszeitraum nicht abgeschlossen hat (bis zu 10 Minuten nach Veröffentlichung)
+* **Zeitpunkt der Streaming-Zielgruppenqualifizierung**: Bei Journey, die die Zielgruppenqualifizierung mit Streaming-Zielgruppen verwenden, können Profile möglicherweise nicht eintreten, wenn sie sich bereits in der Zielgruppe befanden, bevor die Journey veröffentlicht wurde. Sie können auch verzögert werden, wenn die Journey ihre Aktivierungszeit nicht abgeschlossen hat (bis zu 10 Minuten nach der Veröffentlichung).
 
 Erfahren Sie mehr über die [Eintrittsverwaltung](entry-management.md) und [Überlegungen zum Timing bei der Qualifizierung von Streaming-Zielgruppen](audience-qualification-events.md#streaming-entry-caveats).
 
@@ -699,12 +699,12 @@ Weitere Informationen über [benutzerdefinierte Aktionen](using-custom-actions.m
 
 +++
 
-+++ Wie kann ich Adobe Campaign mit Journeys verwenden?
++++ Wie kann ich [!DNL Adobe Campaign] mit Journey verwenden?
 
-Journey Optimizer lässt sich nativ mit Adobe Campaign integrieren, um erweiterte Funktionen zu nutzen:
+Journey Optimizer lässt sich nativ mit [!DNL Adobe Campaign] integrieren, um seine erweiterten Funktionen zu nutzen:
 
-* **Adobe Campaign Standard**: Verwenden Sie Campaign Standard-Aktionen, um Transaktionsnachrichten zu senden
-* **Adobe Campaign v7/v8**: Lösen Sie Campaign-Workflows aus und verwenden Sie die Versandinfrastruktur von Campaign
+* **[!DNL Adobe Campaign]Standard**: Verwenden von Campaign Standard-Aktionen zum Senden von Transaktionsnachrichten
+* **[!DNL Adobe Campaign]v7/v8**: Trigger von Campaign-Workflows und Verwendung der Versandinfrastruktur von Campaign
 
 **Best Practice**: Verwenden Sie diese Integration, wenn Sie bereits über Campaign-Vorlagen und -Datenmodelle verfügen oder Campaign-spezifische Funktionen benötigen.
 
@@ -802,7 +802,7 @@ Erfahren Sie mehr über [Geschäftsereignisse](general-events.md).
 
 +++ Was sind Zusammenführungsrichtlinien und wie wirken sie sich auf Journeys aus?
 
-**Zusammenführungsrichtlinien** bestimmen, wie Adobe Experience Platform Daten aus mehreren Quellen kombiniert, um eine einheitliche Profilansicht zu erstellen. Sie definieren Regeln für die Datenpriorisierung und Identitätszuordnung, wenn Profilfragmente in verschiedenen Datensätzen vorhanden sind.
+**Zusammenführungsrichtlinien** bestimmen, wie [!DNL Adobe Experience Platform] Daten aus mehreren Quellen kombiniert, um eine einheitliche Profilansicht zu erstellen. Sie definieren Regeln für die Datenpriorisierung und Identitätszuordnung, wenn Profilfragmente in verschiedenen Datensätzen vorhanden sind.
 
 **Auswirkungen auf Journeys**:
 
@@ -931,7 +931,7 @@ Erfahren Sie mehr über [Journey-Design](using-the-journey-designer.md) und [Lei
 
 * Verwenden Sie [Testmodus](testing-the-journey.md) und [Probelauf](journey-dry-run.md), um die Leistung vor der Veröffentlichung zu überprüfen
 * Minimieren Sie externe API-Aufrufe durch [benutzerdefinierte Aktionen](using-custom-actions.md), um Latenz und Abhängigkeit von Drittanbietersystemen zu vermeiden
-* Speichern Sie wenn möglich häufig verwendete Daten in Adobe Experience Platform mithilfe der [Datensatzsuche](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
+* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [ nach Möglichkeit die Datensatzsuche ](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
 * Überprüfen und optimieren Sie die Leistung des [Nachrichtenversands](journeys-message.md)
 
 Erfahren Sie mehr über [Leitlinien und Einschränkungen](../start/guardrails.md).

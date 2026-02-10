@@ -2,24 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Journeys
-description: Erste Schritte mit Journeys – Erfahren Sie mehr über Journey-Typen, Workflows, Funktionen und Best Practices für die Erstellung personalisierter Kundenerlebnisse in Adobe Journey Optimizer
+description: Erste Schritte mit Journey - Erfahren Sie mehr über Journey-Typen, Workflows, Funktionen und Best Practices zum Erstellen personalisierter Kundenerlebnisse in [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: Journey, Entdecken, Erste Schritte, Unitär, Zielgruppe lesen, Zielgruppen-Qualifizierung, Geschäftsereignis, Echtzeit, Geplant, Batch, Ereignisgesteuert, Workflow, Orchestrierung, Personalisierung, Multi-Channel
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 522dba0516268a17e72f56c0f28205ba60709d78
-workflow-type: ht
-source-wordcount: '1448'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
 
 # Erste Schritte mit Journeys{#jo-general-principle}
 
-In Adobe Journey Optimizer können Sie personalisierte, mehrstufige Customer Journeys erstellen, die sich in Echtzeit an das Verhalten und die Bedürfnisse Ihrer Zielgruppe anpassen. Mithilfe einer intuitiven Drag-and-Drop-Arbeitsfläche können Sie Nachrichten und Aktionen über mehrere Kanäle hinweg orchestrieren und dabei kontextuelle Daten und Zielgruppen-Targeting nutzen, um maximale Wirkung zu erzielen.
+Mit [!DNL Adobe Journey Optimizer] können Sie personalisierte, mehrstufige Kunden-Journey erstellen, die sich in Echtzeit an das Verhalten und die Bedürfnisse Ihrer Zielgruppe anpassen. Mithilfe einer intuitiven Drag-and-Drop-Arbeitsfläche können Sie Nachrichten und Aktionen über mehrere Kanäle hinweg orchestrieren und dabei kontextuelle Daten und Zielgruppen-Targeting nutzen, um maximale Wirkung zu erzielen.
 
 Dieses Handbuch bietet eine klare Roadmap, die Ihnen hilft, die Grundlagen von Journeys zu verstehen, den richtigen Journey-Typ für Ihren Anwendungsfall auszuwählen und Journeys zu entwerfen, die aussagekräftige, zeitnahe Kundenerlebnisse bieten.
 
@@ -39,7 +39,7 @@ Verwenden Sie [!DNL Journey Optimizer] für Folgendes:
 
 ### Journeys vs. Kampagnen: Verwendungszwecke {#journeys-vs-campaigns-intro}
 
-Adobe Journey Optimizer bietet drei Ansätze, um Kundinnen und Kunden zu erreichen: **Journeys** (1:1 Echtzeit-Orchestrierung), **Kampagnen** (einfacher Batch- oder durch API ausgelöster Versand) und **orchestrierte Kampagnen** (Batch-Arbeitsflächen-Workflows mit Daten aus mehreren Entitäten).
+[!DNL Adobe Journey Optimizer] bietet drei Ansätze, um Kunden zu erreichen: **Journey** (:1 Echtzeit-Orchestrierung), **Kampagnen** (einfacher Batch- oder API-gesteuerter Versand) und **Orchestrierte Kampagnen** (Batch-Arbeitsflächen-Workflows mit Daten aus mehreren Entitäten).
 
 **Schnelle Entscheidung:**
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer bietet drei Ansätze, um Kundinnen und Kunden zu erreich
 
 ## Auswählen Ihres Journey-Typs {#journey-types}
 
-Adobe Journey Optimizer unterstützt vier Journey-Typen, die jeweils für unterschiedliche Eintrittsmechanismen und Geschäftsszenarien konzipiert sind:
+[!DNL Adobe Journey Optimizer] unterstützt vier Journey-Typen, die jeweils für unterschiedliche Einstiegsmechanismen und Geschäftsszenarien entwickelt wurden:
 
 * **Unitäre Journeys**: Ereignisgesteuerte Erlebnisse in Echtzeit (Auftragsbestätigungen, Willkommens-E-Mails)
 * **Journeys des Typs „Zielgruppe lesen“**: Geplante Batch-Nachrichten an Zielgruppensegmente (Newsletter, Werbekampagnen)
@@ -73,7 +73,7 @@ Der **[Journey-Designer](using-the-journey-designer.md)** ist Ihre visuelle Arbe
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Eintrittspunkte definieren**
 
@@ -83,7 +83,7 @@ Wählen Sie aus, wie Kundinnen und Kunden eintreten: über ein Ereignis, ein Zie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Nachrichten senden**
 
@@ -93,7 +93,7 @@ Verwenden Sie integrierte Kanalaktionen für E-Mail, Push, SMS/MMS, In-App, Web 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Logik und Bedingungen hinzufügen**
 
@@ -103,17 +103,17 @@ Verzweigen Sie Ihre Journey basierend auf Profilattributen, Zielgruppenzugehöri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Daten verwenden**
 
-Verwenden Sie kontextuelle Daten aus Ereignissen, Adobe Experience Platform oder API-Services von Drittanbietern.
+Verwenden Sie kontextuelle Daten aus Ereignissen, [!DNL Adobe Experience Platform] oder API-Services von Drittanbietern.
 
 [Arbeiten mit Datenquellen](../datasource/about-data-sources.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Externe Systeme anschließen**
 
@@ -123,7 +123,7 @@ Erstellen Sie benutzerdefinierte Aktionen, um Drittanbietersysteme für den Vers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Orchestrierungsaktivitäten hinzufügen**
 
@@ -214,7 +214,7 @@ Lernen Sie aus Praxisbeispielen, die zeigen, wie sich Journey-Konzepte zur Lösu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Neue Abonnierende willkommen heißen**
 
@@ -224,7 +224,7 @@ Wenn sich eine Kundin oder ein Kunde für Ihren Service anmeldet, lösen Sie ein
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Versandzeitoptimierung**
 
@@ -234,9 +234,9 @@ Verwenden Sie KI, um E-Mails genau dann zu senden, wenn die Interaktionswahrsche
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-**Versandaktivität steigern**
+**Steigern der Versandaktivität**
 
 Erhöhen Sie das Nachrichtenvolumen schrittweise, um Ihre Reputation beim Versand aufzubauen und Probleme mit der Zustellbarkeit zu vermeiden.
 
@@ -244,7 +244,7 @@ Erhöhen Sie das Nachrichtenvolumen schrittweise, um Ihre Reputation beim Versan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Targeting nach Wochentag**
 
@@ -254,7 +254,7 @@ Senden Sie unterschiedliche Inhalte basierend auf dem Wochentag, an dem Kundinne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Multi-Channel-Kampagnen**
 
@@ -264,13 +264,13 @@ Orchestrieren Sie nahtlose Erlebnisse über E-Mail, Push, SMS und Web-Kanäle hi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Alle Anwendungsfälle:**
 
 Erkunden Sie die vollständige Bibliothek von Journey-Anwendungsfällen mit Schritt-für-Schritt-Anleitungen zur Implementierung.
 
-[Alle durchsuchen →](jo-use-cases.md) | [Anwendungsfallbibliothek →](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+[Alle durchsuchen →](jo-use-cases.md) | [Anwendungsfallbibliothek →](../../rp_landing_pages/journey-use-cases-landing-page.md)
 :::
 
 ::::
@@ -282,17 +282,17 @@ Sobald Sie mit der Erstellung von Journeys vertrauter sind, können Sie diese le
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Erweiterte Ausdrücke**
 
 Erstellen Sie dynamische Bedingungen und Personalisierungen mithilfe des Ausdruckseditors für Datenbearbeitung und komplexe Logik.
 
-[Mehr zu Ausdrücken](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+[Mehr zu Ausdrücken](../../rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Zeitzonen**
 
@@ -302,7 +302,7 @@ Bedienen Sie globale Zielgruppen mit automatischer Zeitzonenanpassung und optima
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Testmodus und Probelauf**
 
@@ -312,7 +312,7 @@ Validieren Sie Journeys vor der Live-Schaltung mit Testprofilen und zeigen Sie d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **In Sandbox kopieren**
 
@@ -322,7 +322,7 @@ Duplizieren Sie Journeys in Sandboxes, um Test- und Bereitstellungs-Workflows zu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tags und Organisation**
 
@@ -332,7 +332,7 @@ Verwenden Sie Tags, um Journeys zu kategorisieren und zu filtern, damit Sie dies
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Durchsatzsteuerung**
 
@@ -343,13 +343,13 @@ Begrenzen Sie den Nachrichtendurchsatz, um die Reputation beim Versand zu verwal
 
 ::::
 
-[Alle Journey-Funktionen anzeigen →](/help/rp_landing_pages/manage-journey-landing-page.md)
+[Alle Journey-Funktionen anzeigen →](../../rp_landing_pages/manage-journey-landing-page.md)
 
 ## Lernen per Video {#video}
 
 Erhalten Sie eine visuelle Einführung in Journey-Komponenten und lernen Sie die Grundlagen der Journey-Erstellung auf der Arbeitsfläche kennen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Möchten Sie mehr Videos sehen?** [Erkunden von Video-Tutorials für Journeys](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -357,7 +357,7 @@ Erhalten Sie eine visuelle Einführung in Journey-Komponenten und lernen Sie die
 
 +++ Was ist der Unterschied zwischen einer Journey und einer Kampagne?
 
-Adobe Journey Optimizer bietet drei Ansätze:
+[!DNL Adobe Journey Optimizer] bietet drei Ansätze:
 
 * **Journeys** – 1:1 Echtzeitorchestrierung, wobei jedes Profil die Schritte in seinem eigenen Tempo durchläuft. Ideal für verhaltensgesteuerte, mehrstufige Erlebnisse mit bedingter Logik (z. B. Onboarding, Warenkorbabbruch).
 
@@ -390,11 +390,13 @@ Sie können eingeschränkte Elemente bearbeiten (Name, Nachrichteninhalt), struk
 
 ## Benötigen Sie Hilfe? {#help}
 
+Verwenden Sie diese Links, um Anleitungen, Fehlerbehebungen und Ressourcen zu finden.
+
 ### Schnell-Links für häufige Aufgaben
 
 * **[Erstellen Ihrer ersten Journey](journey-gs.md)** – Schritt-für-Schritt-Anleitung, wenn Sie gerade erst beginnen
 * **[Häufig gestellte Fragen zu Journeys](journey-faq.md)** – Antworten auf häufig gestellte Fragen
-* **[Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** – Probleme diagnostizieren und beheben
+* **[Fehlerbehebung](../../rp_landing_pages/troubleshoot-journey-landing-page.md)** – Probleme diagnostizieren und beheben
 * **[Referenz zu Fehler-Codes](error-codes-reference.md)** – Fehlermeldungen verstehen
 * **[Leitlinien und Einschränkungen](../start/guardrails.md)** – Technische Grenzen und Best Practices
 
@@ -404,8 +406,8 @@ Richten Sie **[Journey-Warnhinweise](../reports/alerts.md)** ein, um Echtzeitben
 
 ### Weitere Ressourcen
 
-* **[Journey-Management-Hub](/help/rp_landing_pages/manage-journey-landing-page.md)** – Tools für Filterung, Optimierung und Profilverwaltung
-* **[Referenz für Journey-Aktivitäten](/help/rp_landing_pages/about-journey-building-landing-page.md)** – Vollständige Anleitung zu allen Aktivitätstypen
+* **[Journey-Management-Hub](../../rp_landing_pages/manage-journey-landing-page.md)** – Tools für Filterung, Optimierung und Profilverwaltung
+* **[Referenz für Journey-Aktivitäten](../../rp_landing_pages/about-journey-building-landing-page.md)** – Vollständige Anleitung zu allen Aktivitätstypen
 * **[Fehlerbehebung bei Ausführungsproblemen](troubleshooting-execution.md)** – Debuggen von Journey-Ausführungsproblemen
 * **[Fehlerbehebung bei eingehende Aktivitäten](troubleshooting-inbound.md)** – Beheben von Eintritts- und Qualifizierungsproblemen
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden von Adobe Experience Platform-Daten in Journeys
-description: Erfahren Sie, wie Sie mithilfe der Aktivität „Datensatzsuche“ in Adobe Journey Optimizer Customer Journeys mit externen Daten aus Adobe Experience Platform anreichern können.
+title: Use [!DNL Adobe Experience Platform] data in Journey
+description: Erfahren Sie, wie Sie die Aktivität „Datensatzsuche“ in verwenden [!DNL Adobe Journey Optimizer]  um Kunden-Journey mit externen Daten von anzureichern [!DNL Adobe Experience Platform].
 feature: Journeys, Activities
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6e74fc363784fe4f4bae07bfe766035285c9a2ca
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 100%
+source-wordcount: '761'
+ht-degree: 89%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Aktivität „Datensatzsuche“"
->abstract="Die Aktivität **[!UICONTROL Datensatzsuche]** ermöglicht während der Laufzeit das dynamische Abrufen von Daten aus Adobe Experience Platform-Eintragsdatensätzen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind."
+>abstract="Mit **[!UICONTROL Aktivität „Datensatzsuche]** können Sie zur Laufzeit Daten dynamisch aus [!DNL Adobe Experience Platform] Datensatzdatensätzen abrufen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind."
 
-Die Aktivität **[!UICONTROL Datensatzsuche]** ermöglicht während der Laufzeit das dynamische Abrufen von Daten aus Adobe Experience Platform-Eintragsdatensätzen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind.
+Mit **[!UICONTROL Aktivität „Datensatzsuche]** können Sie während der Laufzeit dynamisch Daten aus [!DNL Adobe Experience Platform] Datensatzdatensätzen abrufen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind.
 
 Wichtigste Vorteile:
 
@@ -38,9 +38,11 @@ Wichtigste Vorteile:
 
 ## Wichtige Informationen {#must-read}
 
+Überprüfen Sie diese Anforderungen, bevor Sie die Datensatzsuche konfigurieren.
+
 ### Datensatzaktivierung
 
-Der Datensatz muss für die Suche in Adobe Experience Platform aktiviert sein. Detaillierte Informationen finden Sie in diesem Abschnitt: [Verwenden von Adobe Experience Platform-Daten](../data/lookup-aep-data.md).
+Der Datensatz muss für die Suche in [!DNL Adobe Experience Platform] aktiviert sein. Detaillierte Informationen finden Sie in diesem Abschnitt: [use [!DNL Adobe Experience Platform] data](../data/lookup-aep-data.md).
 
 ### Limits und Einschränkungen
 
@@ -64,7 +66,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Datensatzsuche]** zu ko
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Orchestrierung]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Datensatzsuche]** auf Ihrer Arbeitsfläche ab.
 
-   ![Suchaktivität für Adobe Experience Platform-Datensätze in Journeys](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] Datensatzsuchaktivität in Journey](assets/aep-data-activity.png)
 
 1. Fügen Sie ein Label und eine Beschreibung hinzu.
 

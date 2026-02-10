@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Definieren der Journey-Eigenschaften
-description: Informationen zum Festlegen der Eigenschaften Ihrer Journey mit Adobe Journey Optimizer
+description: Erfahren Sie, wie Sie Eigenschaften Ihres Journey mit festlegen [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2866'
-ht-degree: 99%
+source-wordcount: '2859'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser
 
 Sie haben folgende Möglichkeiten:
 
-* Zuweisen von einheitlichen Adobe Experience Platform-Tags zu Ihrer Journey, um sie einfach zu klassifizieren und die Suche in der Kampagnenliste zu verbessern. [Weitere Informationen zum Arbeiten mit Tags](../start/search-filter-categorize.md#tags)
+* Weisen Sie Ihrem Journey [!DNL Adobe Experience Platform] einheitliche Tags zu, um sie einfach zu klassifizieren und die Suche über die Kampagnenliste zu verbessern. [Weitere Informationen zum Arbeiten mit Tags](../start/search-filter-categorize.md#tags)
 * Auswählen von Journey-Metriken. [Weitere Informationen zum Konfigurieren und Tracking von Journey-Metriken](success-metrics.md)
 * Verwalten Sie [Eintritt und Wiedereintritt](#entrance). Die Verwaltung des Profileintritts hängt vom Typ der Journey ab. Einzelheiten hierzu finden Sie auf [dieser Seite](entry-management.md).
 * Verwalten des [Zugriffs auf Daten](#manage-access)
@@ -87,7 +87,7 @@ Um der Journey benutzerdefinierte Datennutzungs-Label zuzuweisen, klicken Sie au
 
 ## Zeitzonen von Journeys und Profilen {#timezone}
 
-Die Zeitzone wird auf Journey-Ebene definiert. Sie können eine feste Zeitzone eingeben oder Adobe Experience Platform-Profile verwenden, um die Zeitzone der Journey festzulegen. Wenn eine Zeitzone im Adobe Experience Platform-Profil definiert ist, kann sie in der Journey abgerufen werden.
+Die Zeitzone wird auf Journey-Ebene definiert. Sie können eine feste Zeitzone eingeben oder [!DNL Adobe Experience Platform] verwenden, um die Zeitzone für das Journey festzulegen. Wenn eine Zeitzone in [!DNL Adobe Experience Platform] Profil definiert ist, kann sie auf der Journey abgerufen werden.
 
 [Weitere Informationen zum Zeitzonen-Management](../building-journeys/timezone-management.md)
 
@@ -108,6 +108,8 @@ Standardmäßig können Profile in eine Journey sofort nach ihrer Veröffentlich
 Bei Bedarf können Sie ein benutzerdefiniertes **Start**- und **Enddatum** festlegen. Dadurch können Profile an einem bestimmten Datum in Ihre Journey eintreten und diese bei Erreichen des Enddatums wieder automatisch verlassen.
 
 ## Timeout {#timeout}
+
+Zeitüberschreitungseinstellungen steuern, wie lange ein Journey auf die Ausführung einer Aktivität wartet und wie lange Profile auf einem Journey verbleiben können.
 
 ### Timeout bei Journey-Aktivitäten {#timeout_and_error}
 
@@ -132,7 +134,7 @@ Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey **91 
 
 >[!NOTE]
 >
->Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte &#x200B;](end-journey.md#journey-finished-definition).
+>Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte ](end-journey.md#journey-finished-definition).
 
 Aufgrund des Journey-Timeouts von 91 Tagen können wir, wenn der erneute Eintritt in die Journey nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 91 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 
@@ -140,7 +142,7 @@ Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn er oder sie noch g
 
 #### Häufig gestellte Fragen zur Time-to-Live (TTL) und zur Aufbewahrung von Daten {#timeout-faq}
 
-Ab Adobe Journey Optimizer-Version vom Juni 2024 wurde der globale Timeout für Journeys von 30 auf 91 Tage umgestellt. Die Auswirkungen sind in den folgenden häufig gestellten Fragen aufgeführt:
+Ab [!DNL Adobe Journey Optimizer] Version Juni 2024 wurde die globale Zeitüberschreitung bei Journey von 30 auf 91 Tage verschoben. Die Auswirkungen sind in den folgenden häufig gestellten Fragen aufgeführt:
 
 **Für einheitliche Journeys**
 
@@ -250,15 +252,15 @@ Ab Adobe Journey Optimizer-Version vom Juni 2024 wurde der globale Timeout für 
 
 ## Zusammenführungsrichtlinien {#merge-policies}
 
-Adobe Journey Optimizer verwendet Zusammenführungsrichtlinien beim Abrufen von Profildaten aus Adobe Experience Platform. Je nach Journey-Typ werden unterschiedliche Zusammenführungsrichtlinien verwendet:
+[!DNL Adobe Journey Optimizer] verwendet Zusammenführungsrichtlinien beim Abrufen von Profildaten aus [!DNL Adobe Experience Platform]. Je nach Journey-Typ werden unterschiedliche Zusammenführungsrichtlinien verwendet:
 
 * In Journeys vom Typ „Zielgruppe lesen“ oder „Zielgruppenqualifizierung“ wird die Zusammenführungsrichtlinie aus der Zielgruppe verwendet
 * In Journeys für unitäre Ereignisse wird die standardmäßige Zusammenführungsrichtlinie verwendet
 * In Journeys für Geschäftsereignisse wird die Zusammenführungsrichtlinie aus der Zielgruppe in der Aktivität „Zielgruppe lesen“ verwendet.
 
-Adobe Journey Optimizer wendet die genutzte Zusammenführungsrichtlinie auf die gesamte Journey an. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. [`inAudience`-Funktionen](functions/functioninaudience.md)), entstehen Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie, es wird ein Fehler generiert und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis generiert. Aus diesem Grund wird dringend empfohlen, die mit Ihrer Zielgruppe verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Zielgruppe bei der Nachrichtenpersonalisierung verwendet wird.
+[!DNL Adobe Journey Optimizer] wendet die im gesamten Journey verwendete Zusammenführungsrichtlinie an. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. [`inAudience`-Funktionen](functions/functioninaudience.md)), entstehen Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie, es wird ein Fehler generiert und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis generiert. Aus diesem Grund wird dringend empfohlen, die mit Ihrer Zielgruppe verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Zielgruppe bei der Nachrichtenpersonalisierung verwendet wird.
 
-Weitere Informationen zu Zusammenführungsrichtlinien finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Weitere Informationen zu Zusammenführungsrichtlinien finden Sie unter [[!DNL Adobe Experience Platform] Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >

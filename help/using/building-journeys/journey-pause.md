@@ -9,10 +9,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 0d016d45495c359e226dd1c30611b2c381ef29a4
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 98%
+source-wordcount: '2512'
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,7 @@ Wenn eine Journey pausiert ist, hängen die Profilverwaltung und Aktivitätsausf
 
 | Journey-Aktivität | Wenn die Journey pausiert ist |
 |-------------------------|--------------------------------------------------|
-| [Zielgruppen-Qualifizierung](audience-qualification-events.md) | <ul> <li>Am ersten Knoten auf der Arbeitsfläche: Jede Profilqualifizierung für die Zielgruppe wird verworfen </li><li>In anderen Knoten: Dasselbe Verhalten wie bei einer Live-Journey. Wenn die Zielgruppen-Qualifizierung jedoch nach einer Aktivität vom Typ <strong>Aktion</strong> erfolgt und die bzw. der Benutzende bei dieser Aktion pausiert wird, wird die Zielgruppen-Qualifizierung verworfen. </li></ul> |
+| [Zielgruppenqualifizierung](audience-qualification-events.md) | <ul> <li>Am ersten Knoten auf der Arbeitsfläche: Jede Profilqualifizierung für die Zielgruppe wird verworfen </li><li>In anderen Knoten: Dasselbe Verhalten wie bei einer Live-Journey. Wenn die Zielgruppen-Qualifizierung jedoch nach einer Aktivität vom Typ <strong>Aktion</strong> erfolgt und die bzw. der Benutzende bei dieser Aktion pausiert wird, wird die Zielgruppen-Qualifizierung verworfen. </li></ul> |
 | [Unitäres Ereignis](general-events.md) | <ul> <li>Am ersten Knoten auf der Arbeitsfläche: Das Ereignis wird verworfen</li><li>In anderen Knoten: Dasselbe Verhalten wie bei einer Live-Journey, aber das Ereignis wird verworfen, falls das Ereignis nach einer Aktivität vom Typ <strong>Aktion</strong> erfolgt und die bzw. der Benutzende in dieser Aktion pausiert ist. </li></ul> |
 | [Zielgruppe lesen](read-audience.md) | Dasselbe Verhalten wie bei einer Live-Journey mit einigen Besonderheiten: <ol> <li> Wenn nach dem Start der Aktivität <strong>Zielgruppe lesen</strong> <strong>Anhalten</strong> gedrückt wurde, werden Profile, die in die Journey eingetreten sind, fortgesetzt (bis zur nächsten Aktivität vom Typ <strong>Aktion</strong>). Wenn noch nicht die gesamte Zielgruppe eingetreten ist, werden die verbleibenden Profile in der Warteschlange verworfen, da die Journey Zielgruppen mit einer bestimmten Geschwindigkeit liest.</li><li> Bei einzelnen Ausführungen: Zum Zeitpunkt der Fortsetzung wird kein Fehler angezeigt, wenn das geplante Datum vor dem Datum der Fortsetzung lag. Dieser Zeitplan würde ignoriert werden.</li><li>Für inkrementelle Journeys: <ul><li>Wenn das Pausieren vor dem ersten Auftreten erfolgt, wird bei Fortsetzung die vollständige Zielgruppe abgespielt. </li><li>Wenn das Pausieren beispielsweise am 4. Tag eines täglichen Intervalls stattfindet und die Journey bis zum 9. Tag pausiert bleibt, werden bei der Fortsetzung alle Profile einbezogen, die vom 4. bis 9. eingetreten sind  </li></ul></ol> |
 | [Reaktion](reaction-events.md) | Dasselbe Verhalten wie bei einer Live-Journey, aber das Reaktionsereignis wird verworfen, wenn die Reaktion nach einer Aktivität vom Typ <strong>Aktion</strong> erfolgt und die bzw. der Benutzende in dieser Aktion pausiert ist. |
@@ -202,7 +202,7 @@ Wenn Sie diese Journey fortsetzen:
 
 ## Fehlerbehebung bei Verwerfungen von Profilen in pausierten Journeys {#discards-troubleshoot}
 
-Sie können den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden, um Schrittereignisse abzufragen, die je nach Zeitpunkt weitere Informationen zu Verwerfungen von Profilen enthalten können.
+Sie können den [[!DNL Adobe Experience Platform] Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden, um Schrittereignisse abzufragen, die je nach Zeitpunkt weitere Informationen zu Profilverwerfen enthalten können.
 
 * Verwenden Sie den folgenden Code für Verwerfungen, die vor dem Eintritt des Profils in die Journey erfolgen:
 

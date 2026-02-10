@@ -10,17 +10,17 @@ keywords: Journey-Typen, unitär, Zielgruppe lesen, Zielgruppenqualifizierung, G
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
-workflow-type: ht
-source-wordcount: '986'
-ht-degree: 100%
+exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '977'
+ht-degree: 96%
 
 ---
 
-
 # Journey-Typen und Auswahlrichtlinien {#journey-types-selection}
 
-Adobe Journey Optimizer unterstützt vier Journey-Typen, die jeweils für unterschiedliche Eintrittsmechanismen und Geschäftsszenarien entwickelt wurden. Dieser Leitfaden hilft Ihnen, die Unterschiede zu verstehen und den richtigen Typ für Ihren Anwendungsfall auszuwählen.
+[!DNL Adobe Journey Optimizer] unterstützt vier Journey-Typen, die jeweils für unterschiedliche Einstiegsmechanismen und Geschäftsszenarien entwickelt wurden. Dieser Leitfaden hilft Ihnen, die Unterschiede zu verstehen und den richtigen Typ für Ihren Anwendungsfall auszuwählen.
 
 ## Journey-Typen – Überblick {#journey-types}
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer unterstützt vier Journey-Typen, die jeweils für unters
 
 **Verwendung:** Geplante Kampagnen für Zielgruppensegmente
 
-**Journeys des Typs „Zielgruppe lesen“** beginnen mit einer Adobe Experience Platform-Zielgruppe und senden Nachrichten in Batch-Vorgängen an alle Profile gleichzeitig. Dieser Journey-Typ eignet sich ideal für geplante Kommunikation in großem Umfang.
+**Audience-Journey lesen** Beginnen Sie mit einer [!DNL Adobe Experience Platform] Audience und senden Sie Nachrichten im Batch an alle Profile gleichzeitig. Dieser Journey-Typ eignet sich ideal für geplante Kommunikation in großem Umfang.
 
 **Perfekt für:** Monatliche Newsletter, Werbekampagnen für bestimmte Segmente, Produktankündigungen und saisonale Marketing-Kampagnen.
 
@@ -122,7 +122,7 @@ Verwenden Sie diese Tabelle, um Journey-Typen schnell zu vergleichen und den ric
 | **Verwendung** | Sofortige Reaktion auf einzelne Aktionen sind erforderlich | Große Zielgruppensegmente sollen planmäßig angesprochen werden | Reaktionen auf Änderungen des Kundenstatus sollen erfolgen | Geschäftsereignisse wirken sich auf mehrere Kundinnen und Kunden aus |
 | **Beispiele** | Bestellbestätigung, Passwortzurücksetzung | Monatlicher Newsletter, saisonale Kampagne | VIP-Upgrade, Inaktivitätswarnung | Geringer Lagerbestand, Blitzverkauf, Preissenkung |
 | **Erneuter Eintritt** | Konfigurierbar (mehrere Eintritte pro Profil zulassen) | Jedes Profil tritt einmal pro Ausführung ein | Konfigurierbar pro Qualifizierungsereignis | Mehrere Profile können von demselben Ereignis betroffen sein |
-| **Datenanforderungen** | Ereignisschema mit Trigger-Daten | Adobe Experience Platform-Zielgruppe | Streaming- oder Batch-Zielgruppe | Geschäftsereignisschema |
+| **Datenanforderungen** | Ereignisschema mit Trigger-Daten | Zielgruppe [!DNL Adobe Experience Platform] | Streaming- oder Batch-Zielgruppe | Geschäftsereignisschema |
 
 ## Funktionskompatibilität nach Journey-Typ {#feature-compatibility}
 
@@ -179,4 +179,3 @@ Nachdem Sie nun die Journey-Typen verstehen, können Sie Folgendes tun:
 **Müssen Sie Journeys mit Kampagnen vergleichen?**
 
 * [Anleitung zum Vergleich zwischen Journeys und Kampagnen](../start/journeys-vs-campaigns.md): Wählen zwischen Journey-, Aktions-/API-Kampagnen und orchestrierten Kampagnen
-

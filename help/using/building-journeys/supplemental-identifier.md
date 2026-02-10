@@ -3,10 +3,10 @@ title: Verwenden zusätzlicher Kennungen in Journeys
 description: Erfahren Sie, wie Sie zusätzliche Kennungen in Journeys verwenden.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1424'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1434'
+ht-degree: 99%
 
 ---
 
@@ -218,6 +218,8 @@ In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attrib
 
 ## Beispielhafte Anwendungsfälle
 
+Diese Beispiele zeigen, wie zusätzliche Kennungen mehrere verwandte Datensätze unterstützen.
+
 ### **Benachrichtigungen zur Verlängerung von Policen**
 
 * **Szenario**: Ein Versicherungsanbieter sendet Verlängerungserinnerungen für jede aktive Police einer Kundin oder eines Kunden.
@@ -246,4 +248,4 @@ In einem Objekt-Array mit der zusätzlichen ID als `bookingNum` und einem Attrib
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

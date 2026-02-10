@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Versandzeit, senden, Nachricht, Optimierung, Journey, KI, intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '1546'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1533'
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="Über die Optimierung des Versandzeitpunkts"
->abstract="Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den KI-Services von Adobe. Sie kann basierend auf vergangenen Öffnungs- und Klickraten die beste Versandzeit für E-Mails oder Push-Benachrichtigungen vorhersagen, um die Interaktion zu maximieren."
+>abstract="Die Funktion zur Optimierung des Versandzeitpunkts von [!DNL Adobe Journey Optimizer] basiert auf den KI-Services von Adobe und kann die beste Versandzeit für E-Mails oder Push-Benachrichtigungen vorhersagen, um die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
@@ -34,13 +34,13 @@ ht-degree: 100%
 >title="Aktivieren der Optimierung des Versandzeitpunkts"
 >abstract="Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen. Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option „Senden innerhalb der nächsten“ eingeben."
 
-Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den Journey-KI-Services von Adobe und wählt den optimalen Versandzeitpunkt für E-Mail- und Push-Nachrichten aus, um die Kundeninteraktion basierend auf dem bisherigen Öffnungs- und Klickverhalten Ihrer Kundschaft zu maximieren.
+Die Funktion zur Optimierung des Versandzeitpunkts von [!DNL Adobe Journey Optimizer] basiert auf den Journey-KI-Services von Adobe und wählt basierend auf dem bisherigen Öffnungs- und Klickverhalten Ihrer Kunden den optimalen Versandzeitpunkt für E-Mail- und Push-Nachrichten aus, um die Kundeninteraktion zu maximieren.
 
 Die Optimierung des Versandzeitpunkts ist nur für die integrierten Aktionstypen „E-Mail“ und „Push“ von Journey Optimizer verfügbar. Für Nachrichten, die über benutzerdefinierte Aktionen gesendet werden, oder für andere Aktionstypen ist sie derzeit nicht verfügbar. Die Optimierung des Versandzeitpunkts ist nur für die Aktionen „E-Mail“ und „Push“ in Journey Optimizer verfügbar. Für Nachrichten, die durch Kampagnen gesendet werden, ist sie derzeit nicht verfügbar.
 
 >[!AVAILABILITY]
 >
->* Die Funktion zur Optimierung der Versandzeit wird auf Anfrage für Adobe Journey Optimizer-Kundinnen und -Kunden aktiviert. Wenden Sie sich an die Kundenunterstützung von Adobe oder den Adobe-Support, um diese Funktion für Ihre Organisation zu erhalten.
+>* Die Sendezeitoptimierungsfunktion ist für [!DNL Adobe Journey Optimizer] Kunden auf Anfrage aktiviert. Wenden Sie sich an die Kundenunterstützung von Adobe oder den Adobe-Support, um diese Funktion für Ihre Organisation zu erhalten.
 >
 >* Die Funktion zur Optimierung der Versandzeit gilt nur für die Kanäle **E-Mail** und **Push-Benachrichtigung**.
 >
@@ -70,7 +70,7 @@ Wenn Ihre Journey aktiviert ist und eine Kundin bzw. ein Kunde die E-Mail- oder 
 
 ## Funktionsweise der Optimierung des Versandzeitpunkts {#how-send-time}
 
-Das Modell „Optimierung des Versandzeitpunkts“ nimmt die Adobe Journey Optimizer-Daten Ihrer Organisation über das Kundenverhalten auf und betrachtet die Öffnungsraten und Klicks auf Benutzerebene, um zu bestimmen, wann Ihre Kundschaft mit der größten Wahrscheinlichkeit mit Ihrer Nachricht interagiert.
+Das Modell „Optimierung des Versandzeitpunkts“ nimmt die [!DNL Adobe Journey Optimizer] Kundenverhaltensdaten Ihres Unternehmens auf und betrachtet Öffnungs- und Klickereignisse auf Benutzerebene, um zu bestimmen, wann Ihre Kunden mit der größten Wahrscheinlichkeit mit Ihrer Nachricht interagieren.
 
 Die Optimierung des Versandzeitpunkts trifft für jede Wochenstunde Prognosen für jede Person basierend auf drei Typen von Verhaltensdaten:
 
@@ -101,7 +101,7 @@ Die Versandzeiten zum Ausprobieren werden zufällig aus den Versandzeiten ausgew
 
 Im Folgenden finden Sie häufig gestellte Fragen zur Versandzeitoptimierung.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen oder eine Verbindung mit [[!DNL Adobe Journey Optimizer] Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"} herzustellen.
 
 +++Wie lange muss ich warten, bevor ich die Versandzeitoptimierung verwenden kann?
 

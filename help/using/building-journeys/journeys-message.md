@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 94%
+source-wordcount: '574'
+ht-degree: 92%
 
 ---
 
@@ -164,7 +164,7 @@ Statt der integrierten Nachrichtenfunktionen können Sie benutzerdefinierte Akti
 
 * Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. [Weitere Informationen](../action/action.md)
 
-* Wenn Sie mit Adobe Campaign arbeiten, sollten Sie diese Abschnitte lesen:
+* Wenn Sie mit [!DNL Adobe Campaign] arbeiten, lesen Sie diese Abschnitte:
 
    * [[!DNL Journey Optimizer] und Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] und Campaign Standard](../action/acs-action.md)

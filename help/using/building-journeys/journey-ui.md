@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Durchsuchen und Filtern von Journeys
-description: Durchsuchen und Filtern von Journeys in Adobe Journey Optimizer
+description: Durchsuchen und Filtern Ihrer Journey in [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 98%
+source-wordcount: '1477'
+ht-degree: 96%
 
 ---
 
@@ -128,7 +128,7 @@ Der Typ einer Journey hängt von den in dieser Journey verwendeten Aktivitäten 
 
 * **[!UICONTROL Unitäres Ereignis]**: Journeys des Typs „Unitäre Ereignisse“ sind mit einem bestimmten Profil verknüpft. Ereignisse beziehen sich auf das Verhalten einer Person oder auf etwas, das mit einer Person in Verbindung steht (z. B. eine Person hat 10.000 Treuepunkte erreicht). [Weitere Informationen](../event/about-events.md).
 * **[!UICONTROL Geschäftsereignis]**: Eine Journey des Typs „Geschäftsereignis“ beginnt mit einem nicht profilbezogenen Ereignis. Die Konfiguration des Ereignisses wird von technischen Benutzenden vorgenommen und kann nicht bearbeitet werden. [Weitere Informationen](../event/about-events.md).
-* **[!UICONTROL Zielgruppenqualifizierung]**: Journeys vom Typ „Zielgruppenqualifizierung“ überwachen die Ein- und Austritte von Profilen in Adobe Experience Platform-Zielgruppen, damit Personen in eine Journey eintreten oder damit fortfahren. [Weitere Informationen](audience-qualification-events.md).
+* **[!UICONTROL Zielgruppen-]**: Journey für die Zielgruppen-Qualifizierung überwachen die Ein- und Ausstiege von Profilen in [!DNL Adobe Experience Platform] Zielgruppen, um Personen dazu zu bringen, in eine Journey einzutreten oder in einer neuen Version fortzufahren. [Weitere Informationen](audience-qualification-events.md).
 * **[!UICONTROL Lesen der Zielgruppe]**: In Journeys des Typs „Lesen der Zielgruppe“ treten alle Personen der Zielgruppe in die Journey ein und empfangen die in Ihrer Journey enthaltenen Nachrichten.  [Weitere Informationen](read-audience.md).
 
 

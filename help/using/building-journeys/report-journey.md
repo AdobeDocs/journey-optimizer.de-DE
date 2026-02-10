@@ -10,10 +10,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ Für jede Aktivität in jeder Journey im Live- oder [Probelauf-Modus](journey-dr
 
 Wenn in Ihren Journey-Berichten nicht die erwarteten Daten angezeigt werden, prüfen Sie Folgendes:
 
-* **Synchronisierung des Journey-Namens**: Stellen Sie sicher, dass der Journey-Name in Adobe Journey Optimizer mit dem im Berichtsdatensatz gespeicherten Namen übereinstimmt. Wenn diese Namen nicht übereinstimmen, kann dies zu nicht korrekten Berichtsdaten führen.
+* **Synchronisierung des Journey-Namens**: Stellen Sie sicher, dass der Journey-Name in [!DNL Adobe Journey Optimizer] mit dem im Berichtsdatensatz gespeicherten Namen übereinstimmt. Wenn diese Namen nicht übereinstimmen, kann dies zu nicht korrekten Berichtsdaten führen.
 
 * **Zeitpunkt der Datenaktualisierung**: Warten Sie nach dem Aktualisieren eines Journey-Namens oder einer Konfiguration so lange, bis die Daten aktualisiert wurden. Berichtsdaten werden in der Regel innerhalb weniger Minuten angezeigt, dies kann aber in einigen Fällen auch länger dauern.
 

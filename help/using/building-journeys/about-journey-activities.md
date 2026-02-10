@@ -10,26 +10,26 @@ level: Beginner, Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '711'
+ht-degree: 73%
 
 ---
 
 # Erste Schritte mit Journey-Aktivitäten {#about-journey-activities}
 
-Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
+Kombinieren Sie Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um mehrstufige, kanalübergreifende Szenarien zu erstellen.
 
 ## Ereignisaktivitäten {#event-activities}
 
-Personalisierte Journeys werden durch Ereignisse ausgelöst, z. B. durch einen Online-Kauf.  Wenn ein Profil in eine Journey eintritt, durchläuft es sie als Individuum. Jeder Kontakt bewegt sich in einer anderen Geschwindigkeit und auf einem anderen Pfad. Wenn die Journey mit einem Ereignis beginnt, wird die Journey ausgelöst, sobald das Ereignis empfangen wird. Jede Person in der Journey folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
+Personalisierte Journey beginnen mit Ereignissen wie einem Online-Kauf. Sobald ein Profil auf eine Journey gelangt ist, durchläuft es diese selbstständig. Jedes Profil kann einen anderen Pfad und eine andere Geschwindigkeit wählen. Wenn Sie mit einem Ereignis beginnen, wird der Journey bei Eintreffen des Ereignisses Trigger. Jedes Profil folgt dann den Schritten, die in Ihrem Journey definiert sind.
 
-Die vom/von der technischen Benutzenden konfigurierten Ereignisse (siehe [diese Seite](../event/about-events.md)) werden in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt. Folgende Ereignisaktivitäten sind verfügbar:
+Vom technischen Anwender konfigurierte Ereignisse (siehe [diese Seite](../event/about-events.md) werden in der ersten Kategorie der Palette angezeigt. Diese Kategorie befindet sich auf der linken Bildschirmseite. Folgende Ereignisaktivitäten sind verfügbar:
 
 * [Allgemeine Ereignisse](../building-journeys/general-events.md)
 * [Reaktion](../building-journeys/reaction-events.md)
-* [Zielgruppen-Qualifizierung](../building-journeys/audience-qualification-events.md)
+* [Zielgruppenqualifizierung](../building-journeys/audience-qualification-events.md)
 
 ![Palette „Ereignisaktivitäten“ im Journey-Designer](assets/journey43.png)
 
@@ -39,7 +39,7 @@ Legen Sie zum Starten der Journey eine Ereignisaktivität per Drag-and-Drop ab. 
 
 ## Orchestrierungsaktivitäten {#orchestration-activities}
 
-Orchestrierungsaktivitäten sind Bedingungen, die beim Bestimmen des nächsten Schritts der Journey helfen. Diese Bedingungen können beispielsweise eine Person mit einem offenen Support-Ticket, die Wettervorhersage am aktuellen Standort, der Abschluss eines Kaufs oder das Erreichen von 10.000 Treuepunkten sein. 
+Orchestrierungsaktivitäten sind Bedingungen, die bei der Bestimmung des nächsten Schritts im Journey helfen. Zu diesen Bedingungen kann gehören, ob die Person einen offenen Support-Fall hat oder einen Kauf abgeschlossen hat. Sie können auch die lokale Wettervorhersage enthalten oder angeben, ob die Person 10.000 Treuepunkte erreicht hat.
 
 In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchestrierungsaktivitäten zur Verfügung:
 
@@ -69,13 +69,15 @@ Es können auch bestimmte Aktionen zum Senden von Nachrichten eingerichtet werde
 
 * Wenn zum Versenden von Nachrichten ein Drittanbietersystem verwendet wird, kann eine bestimmte benutzerdefinierte Aktion erstellt werden. [Weitere Informationen](../action/action.md)
 
-* Wenn Sie mit Campaign und Journey Optimizer arbeiten, lesen Sie diese Abschnitte:
+* Wenn Sie mit [!DNL Adobe Campaign] und [!DNL Adobe Journey Optimizer] arbeiten, lesen Sie diese Abschnitte:
 
-   * [[!DNL Journey Optimizer] und Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] und Campaign Standard](../action/acs-action.md)
-   * [[!DNL Journey Optimizer] und Marketo Engage](../action/marketo-engage.md)
+   * [[!DNL Adobe Journey Optimizer] und [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+   * [[!DNL Adobe Journey Optimizer] und [!DNL Adobe Campaign] Standard](../action/acs-action.md)
+   * [[!DNL Adobe Journey Optimizer] und [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
 ## Best Practices {#best-practices}
+
+Verwenden Sie diese Empfehlungen, um Journey lesbar, konsistent und leicht zu beheben.
 
 ### Hinzufügen eines Labels
 
@@ -119,4 +121,4 @@ Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey 
 
 [Auf dieser Seite](troubleshooting.md) erfahren Sie, wie Sie Fehler in Aktivitäten und in der Journey beheben.
 
-Siehe auch **[Monitoring und Fehlerbehebung](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**.
+Siehe auch **[Monitoring und Fehlerbehebung](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**.

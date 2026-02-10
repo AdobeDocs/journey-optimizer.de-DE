@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 79%
+source-wordcount: '1592'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von
 
 Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Journeys benötigen dazu stattdessen die Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming-Aufnahme-APIs in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"} nutzen.
+Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Tatsächlich verlassen sich Journey auf die Streaming-Aufnahme-APIs von [!DNL Adobe Experience Platform]. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming[[!DNL Adobe Experience Platform] Aufnahme-APIs in der ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"}Dokumentation“ aufrufen.
 
 Wenn Ihre Journey den Testmodus nicht aktivieren kann und dabei der Fehler `ERR_MODEL_RULES_16` ausgegeben wird, stellen Sie im Falle von Kanalaktionen sicher, dass das verwendete Ereignis einen [Identity-Namespace](../audience/get-started-identity.md) enthält.
 
@@ -57,43 +57,43 @@ Sie können die Fehlerbehebung mit den folgenden Fragen beginnen:
   Content-type - application/json
   ```
 
-&#x200B;>>
+>>
 **Für Journeys zur Zielgruppenqualifizierung mit Streaming-Zielgruppen**: Wenn Sie eine Aktivität zur Zielgruppenqualifizierung als Eintrittspunkt für die Journey verwenden, beachten Sie, dass nicht unbedingt alle für die Zielgruppe qualifizierten Profile auch in die Journey eintreten. Dies kann an Zeitfaktoren oder kurzfristigen Ausstiegen aus der Zielgruppe liegen oder daran, dass sich Profile bereits vor der Veröffentlichung in der Zielgruppe befanden. Erfahren Sie mehr zu [Überlegungen zum Timing bei der Qualifizierung von Streaming-Zielgruppen](audience-qualification-events.md#streaming-entry-caveats).
 
-## Fehlerbehebung bei Testmodusübergängen {#troubleshooting-test-transitions}
+## Fehlerbehebung bei Transitionen im Testmodus {#troubleshooting-test-transitions}
 
-Wenn Testprofile im Testmodus nicht durch Ihren Journey laufen oder der visuelle Fluss keine grünen Pfeile anzeigt, die den Fortschritt der Schritte angeben, kann das Problem mit der Übergangsvalidierung zusammenhängen. Dieser Abschnitt enthält Anleitungen zur Diagnose und Behebung gängiger Testmodusprobleme.
+Wenn Testprofile im Testmodus in Ihrer Journey nicht vorankommen oder der visuelle Fluss keine grünen Pfeile anzeigt, die den Fortschritt durch die Schritte angeben, kann das Problem mit der Transitionsvalidierung zusammenhängen. Dieser Abschnitt enthält Anleitungen zur Diagnose und Behebung gängiger Testmodusprobleme.
 
-### Testprofile werden nicht ausgeführt
+### Testprofile schreiten nicht voran
 
 Wenn Testprofile in die Journey eintreten, aber nicht über den ursprünglichen Schritt hinausgehen, überprüfen Sie Folgendes:
 
-* **Journey-Startdatum** - Die häufigste Ursache ist, wenn das Startdatum der Journey in der Zukunft liegt. Testprofile werden sofort verworfen, wenn die aktuelle Zeit außerhalb des konfigurierten Journey-Fensters [Start- und Enddatum/-](journey-properties.md#dates)) liegt. Zu beheben:
+* **Journey-Startdatum** – Die häufigste Ursache ist, dass das Startdatum der Journey in der Zukunft liegt. Testprofile werden sofort verworfen, wenn die aktuelle Zeit außerhalb des konfigurierten Fensters [Start- und Enddatum/-zeit](journey-properties.md#dates) für die Journey liegt. Behebung:
    * Stellen Sie sicher, dass das Startdatum der Journey nicht in der Zukunft liegt
-   * Stellen Sie sicher, dass die aktuelle Uhrzeit in das aktive Datumsfenster der Journey fällt.
+   * Stellen Sie sicher, dass die aktuelle Uhrzeit in das aktive Datumsfenster der Journey fällt
    * Aktualisieren Sie bei Bedarf die Journey-Eigenschaften, um das Startdatum anzupassen
 
-* **Testprofilkonfiguration** - Vergewissern Sie sich, dass das Profil in Adobe Experience Platform korrekt als Testprofil gekennzeichnet ist. Weitere [&#x200B; finden Sie unter „Erstellen &#x200B;](../audience/creating-test-profiles.md) Testprofilen“.
+* **Testprofilkonfiguration** - Vergewissern Sie sich, dass das Profil in [!DNL Adobe Experience Platform] korrekt als Testprofil gekennzeichnet ist. Weitere Informationen finden Sie unter [So erstellen Sie Testprofile](../audience/creating-test-profiles.md).
 
-* **Identity-Namespace** - Stellen Sie sicher, dass der in der Ereigniskonfiguration verwendete Identity-Namespace mit dem Namespace Ihres Testprofils übereinstimmt.
+* **Identity-Namespace** – Stellen Sie sicher, dass der in der Ereigniskonfiguration verwendete Identity-Namespace mit dem Namespace Ihres Testprofils übereinstimmt.
 
-### Null-Übergangsindikatoren
+### Null-Transitionsindikatoren
 
-Bei der technischen Fehlerbehebung kann eine `isValidTransition`-Eigenschaft auftreten, die in den technischen Details der Journey auf null gesetzt ist. Diese Eigenschaft „Nur Benutzeroberfläche“ hat keine Auswirkungen auf die Backend-Verarbeitung oder die Journey-Leistung. Ein Nullwert kann jedoch Folgendes angeben:
+Bei der technischen Fehlerbehebung kann eine `isValidTransition`-Eigenschaft auftreten, die in den technischen Details der Journey auf null gesetzt ist. Diese Eigenschaft betrifft ausschließlich die Benutzeroberfläche und hat keine Auswirkungen auf die Backend-Verarbeitung oder die Journey-Leistung. Ein Nullwert kann jedoch auf Folgendes hinweisen:
 
-* **Fehlerhafte Journey-Konfiguration** - Das Journey-Startdatum wird in der Zukunft festgelegt, sodass Testereignisse im Hintergrund verworfen werden
-* **Beschädigte Transition** - In seltenen Fällen müssen Journey-Knoten möglicherweise erneut verbunden werden.
+* **Fehlerhafte Journey-Konfiguration** – Das Journey-Startdatum ist für die Zukunft festgelegt, sodass Testereignisse im Hintergrund verworfen werden
+* **Beschädigte Transition** – In seltenen Fällen müssen Journey-Knoten möglicherweise erneut verbunden werden
 
-Wenn Probleme mit der Transition bestehen:
+Wenn dauerhafte Probleme mit der Transition auftreten:
 
-1. Überprüfen, ob das Startdatum der Journey aktuell ist
-1. Testmodus deaktivieren und reaktivieren
+1. Überprüfen Sie, ob das Startdatum der Journey aktuell ist
+1. Deaktivieren und reaktivieren Sie den Testmodus
 1. Wenn das Problem weiterhin besteht, duplizieren Sie die betroffenen Journey-Knoten und verbinden Sie sie erneut
-1. Wenden Sie sich bei ungelösten Fällen mit Journey-Protokollen, den betroffenen Profil-IDs und Details zur Nulltransition an den Support
+1. Wenden Sie sich bei ungelösten Problemen mit Journey-Protokollen, den betroffenen Profil-IDs und Details zur Nulltransition an den Support
 
 >[!NOTE]
 >
->Beachten Sie, dass Ereignisse, die außerhalb des aktiven Datumsfensters der Journey gesendet werden, ohne Fehlermeldung im Hintergrund verworfen werden. Überprüfen Sie bei der Fehlerbehebung beim Fortschritt des Testprofils immer zuerst Ihre Journey-Zeitkonfiguration.
+>Beachten Sie, dass Ereignisse, die außerhalb des aktiven Datumsfensters der Journey gesendet werden, ohne Fehlermeldung im Hintergrund verworfen werden. Überprüfen Sie bei der Fehlerbehebung im Zusammenhang mit dem Fortschritt des Testprofils immer zuerst die Timing-Konfiguration Ihrer Journey.
 
 ## Überprüfen, wie Personen durch die Journey navigieren {#checking-how-people-navigate-through-the-journey}
 
@@ -115,6 +115,8 @@ Bei einer Nachricht, die über eine benutzerdefinierte Aktion gesendet wird, kan
 
 ## Informationen zu doppelten Einträgen in Journey-Schrittereignissen {#duplicate-step-events}
 
+In diesem Abschnitt erfahren Sie, warum doppelte Zeilen beim Journey von Schrittereignissen angezeigt werden können.
+
 ### Warum sehe ich mehrere Einträge mit derselben Journey-Instanz, demselben Profil, demselben Knoten und denselben Anfrage-IDs?
 
 Beim Abfragen von Daten zu Journey-Schrittereignissen werden Ihnen gelegentlich anscheinend doppelte Protokolleinträge für dieselbe Journey-Ausführung auffallen. Diese Einträge haben identische Werte bei:
@@ -128,7 +130,7 @@ Diese Einträge weisen jedoch **unterschiedliche `_id`-Werte** auf, was der Schl
 
 ### Was verursacht dieses Verhalten?
 
-Die Ursache sind automatische Backend-Skalierungsvorgänge (auch als „Rebalancing“ bezeichnet) in der Microservices-Architektur von Adobe Journey Optimizer. In Zeiten von hoher Auslastung oder Systemoptimierung gilt Folgendes:
+Dies geschieht aufgrund der automatischen Backend-Skalierung (auch als „Rebalancing“ bezeichnet) in der [!DNL Adobe Journey Optimizer]-Microservice-Architektur. In Zeiten von hoher Auslastung oder Systemoptimierung gilt Folgendes:
 
 1. Ein Journey-Schrittereignis beginnt mit der Verarbeitung und wird im Datensatz für Journey-Schrittereignisse protokolliert
 2. Durch einen automatischen Skalierungsvorgang wird die Workload auf verschiedene Dienstinstanzen verteilt
@@ -138,7 +140,7 @@ Dies ist ein erwartetes Systemverhalten und **funktioniert wie vorgesehen**.
 
 ### Hat dies Auswirkungen auf die Ausführung von Journeys oder den Nachrichtenversand?
 
-**Nein.** Die Auswirkungen sind auf die Protokollierung beschränkt. Adobe Journey Optimizer verfügt auf der Nachrichtenausführungsebene über integrierte Deduplizierungsmechanismen, die Folgendes sicherstellen:
+**Nein.** Die Auswirkungen sind auf die Protokollierung beschränkt. [!DNL Adobe Journey Optimizer] verfügt über integrierte Deduplizierungsmechanismen auf der Nachrichtenausführungsebene, die Folgendes sicherstellen:
 
 * An jedes Profil wird nur eine Nachricht (E-Mail, SMS, Push-Benachrichtigung usw.) gesendet
 * Aktionen werden nur einmal ausgeführt

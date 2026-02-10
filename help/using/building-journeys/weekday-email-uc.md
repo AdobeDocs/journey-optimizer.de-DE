@@ -1,24 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Senden von E-Mails nur an Werktagen
-description: Erfahren Sie, wie Sie in Adobe Journey Optimizer eine Journey so konfigurieren, dass E-Mails nur an Werktagen gesendet werden
+title: Senden von E-Mails nur an Wochentagen
+description: Erfahren Sie, wie Sie eine Journey so konfigurieren, dass E-Mails nur an Wochentagen gesendet werden in [!DNL Adobe Journey Optimizer]
 feature: Journeys, Use Cases, Email
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Journey, Anwendungsfall, Werktage, Bedingung, E-Mail, Planung
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
-workflow-type: ht
-source-wordcount: '1070'
-ht-degree: 100%
+exl-id: 2f313e59-ee50-473c-9346-8859889346ec
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 90%
 
 ---
 
-# Senden von E-Mails nur an Werktagen {#send-emails-only-on-weekdays}
+# Senden von E-Mails nur an Wochentagen {#send-emails-only-on-weekdays}
 
-Dieser Anwendungsfall zeigt, wie Sie in Adobe Journey Optimizer eine Journey konfigurieren, die E-Mails nur an Werktagen (Montag bis Freitag) sendet. Bei Profilen, die an Wochenenden (Samstag oder Sonntag) in die Journey eintreten, werden E-Mails automatisch in die Warteschlange gestellt und am Montag zu einer festgelegten Zeit versendet. Dies gewährleistet optimale Interaktion, da Nachrichten während der Arbeitswoche versendet werden.
+Dieser Anwendungsfall zeigt, wie Sie eine Journey in [!DNL Adobe Journey Optimizer] konfigurieren, die E-Mails nur an Werktagen (Montag bis Freitag) sendet. Bei Profilen, die an Wochenenden (Samstag oder Sonntag) in die Journey eintreten, werden E-Mails automatisch in die Warteschlange gestellt und am Montag zu einer festgelegten Zeit versendet. Dies gewährleistet optimale Interaktion, da Nachrichten während der Arbeitswoche versendet werden.
 
 ## Anwendungsfälle – Überblick
 
@@ -32,14 +33,16 @@ Dies ist ideal für B2B-E-Mail-Kampagnen (Business-to-Business), professionelle 
 
 >[!NOTE]
 >
->Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive Adobe Journey Optimizer-Instanz mit einer konfigurierten [E-Mail-Kanaloberfläche](../configuration/channel-surfaces.md), einer [Zielgruppe](../audience/about-audiences.md) oder einem [Ereignis](../event/about-events.md) zum Auslösen der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) und [Ausdrücken](expression/expressionadvanced.md).
+>Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive [!DNL Adobe Journey Optimizer]-Instanz mit einer konfigurierten [E-Mail](../configuration/channel-surfaces.md)Kanaloberfläche, einer [Audience](../audience/about-audiences.md) oder [event](../event/about-events.md) zum Trigger der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) [Expressions](expression/expressionadvanced.md).
 
 
 ## Implementierungsschritte
 
+Führen Sie diese Schritte aus, um den E-Mail-Fluss nur für Wochentage zu erstellen.
+
 ### Schritt 1: Erstellen der Journey
 
-1. Navigieren Sie in Adobe Journey Optimizer zu **[!UICONTROL Journey-Management]** > **[!UICONTROL Journeys]**.
+1. Navigieren Sie zu **[!UICONTROL Journey-]** > **[!UICONTROL Journey]** in [!DNL Adobe Journey Optimizer].
 
 1. Klicken Sie auf **[!UICONTROL Journey erstellen]**, um [eine neue Journey zu erstellen](journey-gs.md).
 
@@ -149,7 +152,7 @@ Dadurch wird sichergestellt, dass alle E-Mails nur an Werktagen gesendet werden 
 
 ### Schritt 6: Testen der Journey
 
-Testen Sie vor der Veröffentlichung Ihre Journey-Logik gründlich im Testmodus von Adobe Journey Optimizer, um sich zu vergewissern, dass alles wie erwartet funktioniert:
+Testen Sie vor der Veröffentlichung Ihre Journey-Logik gründlich im Testmodus von [!DNL Adobe Journey Optimizer], um zu bestätigen, dass alles erwartungsgemäß funktioniert:
 
 1. Klicken Sie hierfür oben rechts auf die Schaltfläche **[!UICONTROL Testen]**.
 

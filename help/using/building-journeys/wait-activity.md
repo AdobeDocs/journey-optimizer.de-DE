@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 82%
+source-wordcount: '906'
+ht-degree: 98%
 
 ---
 
@@ -38,6 +38,8 @@ Sie können zwei Arten der Aktivität vom Typ **Warten** festlegen:
 
 ## Empfehlungen {#wait-recommendations}
 
+Verwenden Sie diese Empfehlungen, um Wartezeiten vorhersehbar und sicher zu halten.
+
 ### Mehrere Warteaktivitäten {#multiple-wait-activities}
 
 Achten Sie bei der Verwendung mehrerer Aktivitäten vom Typ **Warten** in einer Journey darauf, dass der [globale Timeout](journey-properties.md#global_timeout) für Journeys 91 Tage beträgt, d. h., Profile werden immer spätestens 91 Tage nach ihrem Eintritt aus der Journey ausgeschlossen. Weitere Informationen finden Sie auf [dieser Seite](journey-properties.md#global_timeout).
@@ -57,6 +59,8 @@ Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** di
 Wenn Sie eine [In-App-Nachricht](../in-app/create-in-app.md) nach dem Versand einer [Push-Benachrichtigung](../../rp_landing_pages/push-landing-page.md) anzeigen möchten, verwenden Sie eine Aktivität **Warten**, damit die Payload-Zeit der In-App-Nachricht weitergegeben wird. Normalerweise wird eine Wartezeit von 5 bis 15 Minuten empfohlen. Die genauen Zeiten können jedoch je nach Payload-Komplexität und Personalisierungsanforderungen variieren.
 
 ## Konfiguration {#wait-configuration}
+
+Hier Wartezeit und Timing konfigurieren.
 
 ### Dauer der Wartezeit {#duration}
 
@@ -79,7 +83,7 @@ Wählen Sie den Typ **Benutzerdefiniert** aus, um ein benutzerdefiniertes Datum 
 
 ![Definieren einer benutzerdefinierten Wartezeit mit einem Ausdruck](assets/journey57.png)
 
-Der Ausdruck im Editor sollte ein `dateTimeOnly`-Format aufweisen. Mehr dazu erfahren Sie auf [dieser Seite](expression/expressionadvanced.md). Weitere Informationen zum Format „TimeOnly“ finden Sie auf [dieser Seite](expression/data-types.md).
+Der Ausdruck im Editor sollte ein `dateTimeOnly`-Format aufweisen. Weitere Informationen finden Sie auf [dieser Seite](expression/expressionadvanced.md). Weitere Informationen zum Format „TimeOnly“ finden Sie auf [dieser Seite](expression/data-types.md).
 
 Es empfiehlt sich, benutzerdefinierte Datumsangaben zu verwenden, die spezifisch für Ihre Profile sind, und zu vermeiden, dass für alle Profile dasselbe Datum verwendet wird. Definieren Sie beispielsweise nicht `toDateTimeOnly('2024-01-01T01:11:00Z')`, sondern `toDateTimeOnly(@event{Event.productDeliveryDate})`, was für jedes Profil spezifisch ist. Beachten Sie, dass die Verwendung von festen Datumsangaben Probleme bei der Ausführung der Journey verursachen kann. Weitere Informationen zur Auswirkung von Warteaktivitäten auf die Journey-Verarbeitungsrate finden Sie [in diesem Abschnitt](entry-management.md#wait-activities-impact).
 
@@ -104,14 +108,14 @@ Um zu überprüfen, ob die Warteaktivität erwartungsgemäß funktioniert, könn
 
 ## Profilaktualisierung nach Wartezeit {#profile-refresh}
 
-Wenn ein Profil bei einer **Warten**-Aktivität auf einer Journey geparkt wird, die mit einer Aktivität vom Typ **Zielgruppe lesen** beginnt, aktualisiert die Journey automatisch die Profilattribute von Unified Profile Service (UPS), um die neuesten verfügbaren Daten abzurufen.
+Wenn ein Profil bei einer Aktivität des Typs **Warten** in einer Journey geparkt wird, die mit einer Aktivität des Typs **Zielgruppe lesen** beginnt, aktualisiert die Journey automatisch die Profilattribute von Unified Profile Service (UPS), um die neuesten verfügbaren Daten abzurufen.
 
-* **Bei Journey-Eintrag**: Profile verwenden Attributwerte aus dem Zielgruppen-Snapshot, der beim Starten des Journey ausgewertet wurde.
-* **Nach einem Warteknoten**: Der Journey führt eine Suche durch, um die neuesten Profildaten von UPS abzurufen, nicht die älteren Snapshot-Daten. Dies bedeutet, dass sich die Profilattribute möglicherweise seit dem Beginn des Journey geändert haben.
+* **Bei Journey-Eintritt:** Profile verwenden Attributwerte aus dem Zielgruppen-Snapshot, der beim Starten der Journey ausgewertet wurde.
+* **Nach einem Warteknoten:** Die Journey führt eine Suche durch, um die neuesten Profildaten von UPS abzurufen, nicht die älteren Snapshot-Daten. Dies bedeutet, dass sich die Profilattribute möglicherweise seit dem Beginn der Journey geändert haben.
 
-Dadurch wird sichergestellt, dass nachgelagerte Aktivitäten aktuelle Profilinformationen nach einer Wartezeit verwenden. Sie kann jedoch zu unerwarteten Ergebnissen führen, wenn Sie davon ausgehen, dass der Journey während der gesamten Ausführung nur die Original-Snapshot-Daten verwendet.
+Dadurch wird sichergestellt, dass nachgelagerte Aktivitäten nach einer Wartezeit aktuelle Profilinformationen verwenden. Dies kann jedoch zu unerwarteten Ergebnissen führen, wenn Sie davon ausgehen, dass die Journey während der gesamten Ausführung nur die Original-Snapshot-Daten verwendet.
 
-Beispiel: Wenn sich ein Profil beim Journey-Start für eine „Silber-Kunde“-Zielgruppe qualifiziert, aber während einer 3-tägigen Wartezeit auf „Gold-Kunde“ aktualisiert, wird bei Aktivitäten nach der Wartezeit der aktualisierte „Gold-Kunde“-Status angezeigt.
+Beispiel: Wenn sich ein Profil beim Journey-Start für eine Zielgruppe des Typs„Silber-Kundschaft“ qualifiziert, aber während einer 3-tägigen Wartezeit zu „Gold-Kundschaft“ aufsteigt, wird bei Aktivitäten nach der Wartezeit der aktualisierte Status „Gold-Kundschaft“ angezeigt.
 
 ## Automatischer Warteknoten  {#auto-wait-node}
 

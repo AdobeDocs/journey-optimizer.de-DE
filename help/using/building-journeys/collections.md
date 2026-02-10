@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 96%
+source-wordcount: '791'
+ht-degree: 94%
 
 ---
 
@@ -142,7 +142,7 @@ Sammlungen in benutzerdefinierten Aktionen bieten zwar Flexibilität bei der Üb
 
 * **Unterstützung verschachtelter Arrays in benutzerdefinierten Aktionen**
 
-  Adobe Journey Optimizer unterstützt verschachtelte Arrays von Objekten in **Antwort-Payloads** benutzerdefinierter Aktionen, diese Unterstützung ist jedoch in **Anfrage-Payloads** eingeschränkt.
+  [!DNL Adobe Journey Optimizer] unterstützt verschachtelte Arrays von Objekten in benutzerdefinierten Aktionen **Antwort-**), diese Unterstützung ist jedoch in **Anfrage-Payloads** beschränkt.
 
   In Anfrage-Payloads werden verschachtelte Arrays nur dann unterstützt, wenn sie eine feste Anzahl von Elementen enthalten, wie in der Konfiguration der benutzerdefinierten Aktion definiert. Wenn ein verschachteltes Array beispielsweise immer genau drei Elemente enthält, kann es als Konstante konfiguriert werden. Wenn die Anzahl der Elemente dynamisch sein muss, können nur nicht verschachtelte Arrays (Arrays auf der unteren Ebene) als Variablen definiert werden.
 

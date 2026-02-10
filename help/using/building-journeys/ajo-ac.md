@@ -10,16 +10,16 @@ level: Intermediate, Experienced
 keywords: Journey, Nachricht, Kampagne, Integration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '488'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '470'
+ht-degree: 85%
 
 ---
 
 # Senden einer Nachricht mit Campaign v7/v8 {#campaign-v7-v8-use-case}
 
-In diesem Anwendungsfall werden alle Schritte vorgestellt, die zum Senden einer E-Mail mithilfe der Integration mit Adobe Campaign v7 und Adobe Campaign v8 erforderlich sind.
+In diesem Anwendungsbeispiel werden alle Schritte erläutert, die zum Senden einer E-Mail mithilfe der Integration mit [!DNL Adobe Campaign] v7 und [!DNL Adobe Campaign] v8 erforderlich sind.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Weiterführende Informationen zur Campaign-Integration finden Sie auf diesen Sei
 * [Erstellen einer Campaign-Aktion](../action/acc-action.md)
 * [Verwenden der Aktion in einer Journey](../building-journeys/using-adobe-campaign-v7-v8.md).
 
-**Adobe Campaign**
+**[!DNL Adobe Campaign]**
 
 Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funktion für Transaktionsnachrichten muss konfiguriert sein.
 
@@ -40,7 +40,7 @@ Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funk
 
 1. Wählen Sie unter **Administration** > **Platform** > **Aufzählungen** die Aufzählung **Ereignistyp** (eventType) aus. Erstellen Sie einen neuen Ereignistyp (in unserem Beispiel „Journey-Ereignis“). Verwenden Sie später beim Schreiben der JSON-Datei den internen Name des Ereignistyps.
 
-   ![Konfigurieren eines Ereignisses in Adobe Journey Optimizer mit Schema- und Feldauswahl](assets/accintegration-uc-1.png)
+   ![Konfigurieren eines Ereignisses in [!DNL Adobe Journey Optimizer] mit Schema- und Feldauswahl](assets/accintegration-uc-1.png)
 
 1. Trennen Sie die Verbindung zur Instanz und stellen Sie sie erneut her, damit die Erstellung wirksam wird.
 
@@ -48,7 +48,7 @@ Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funk
 
    ![Ereigniskonfiguration mit Einstellungen für Namespace und Profilkennungen](assets/accintegration-uc-2.png)
 
-1. Gestalten Sie Ihre Vorlage. In diesem Beispiel wird eine Personalisierung auf den Vornamen und die Bestellnummer des Profils angewendet. Der Vorname befindet sich in der Adobe Experience Platform-Datenquelle und die Bestellnummer ist ein Feld aus dem Journey Optimizer-Ereignis. Stellen Sie sicher, dass Sie die richtigen Feldnamen in Campaign verwenden.
+1. Gestalten Sie Ihre Vorlage. In diesem Beispiel wird eine Personalisierung auf den Vornamen und die Bestellnummer des Profils angewendet. Der Vorname befindet sich in der [!DNL Adobe Experience Platform] Datenquelle und die Bestellnummer ist ein Feld aus dem Journey Optimizer-Ereignis. Stellen Sie sicher, dass Sie die richtigen Feldnamen in Campaign verwenden.
 
    ![Vorschau der Ereignis-Payload mit JSON-Struktur mit Profil- und Ereignisdaten](assets/accintegration-uc-3.png)
 
@@ -78,11 +78,11 @@ Die Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Funk
 
 1. Erstellen Sie ein Ereignis. Schließen Sie das Feld „purchaseOrderNumber“ ein.
 
-   ![Bildschirm zur Konfiguration benutzerdefinierter Aktionen für die Adobe Campaign Classic-Integration](assets/accintegration-uc-5.png)
+   ![Konfigurationsbildschirm für benutzerdefinierte Aktionen für die [!DNL Adobe Campaign] Classic-Integration](assets/accintegration-uc-5.png)
 
-1. Erstellen Sie eine Aktion in Journey Optimizer, die der Kampagnenvorlage entspricht. Wählen Sie aus der Dropdown-Liste **Aktionstyp** die Option **Adobe Campaign Classic** aus.
+1. Erstellen Sie eine Aktion in Journey Optimizer, die der Kampagnenvorlage entspricht. Wählen **in der Dropdown** Liste „Aktionstyp“ **[!DNL Adobe Campaign]Classic**.
 
-   ![Auswahl des Aktionstyps mit Option „Adobe Campaign Classic“](assets/accintegration-uc-6.png)
+   ![Auswahl des Aktionstyps mit [!DNL Adobe Campaign] Option Classic](assets/accintegration-uc-6.png)
 
 1. Klicken Sie auf das Feld **Payload** und fügen Sie die zuvor erstellte JSON-Datei ein.
 

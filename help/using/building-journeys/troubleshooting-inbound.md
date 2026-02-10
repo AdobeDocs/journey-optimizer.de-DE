@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Handbuch zur Fehlerbehebung bei eingehenden Aktionen in Journeys
-description: Erfahren Sie mehr zum Debugging und Beheben von Fehlern im Zusammenhang mit eingehenden Aktionen bei Journeys in Adobe Journey Optimizer.
+description: Erfahren Sie, wie Sie Probleme im Zusammenhang mit eingehenden Aktionen in Journey debuggen und beheben können [!DNL Adobe Journey Optimizer]
 feature: Journeys, Monitoring
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: eingehende Aktionen, Fehlerbehebung, Journey, Debugging, Selbsthilfe, überprüfen, Fehler
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '1731'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1725'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Dieses Handbuch enthält eine schrittweise Anleitung zum Debugging von Fehlern i
 
 Vor dem Beginn der Fehlerbehebung muss Folgendes sichergestellt sein:
 
-1. Richten Sie eine **Assurance**-Sitzung ein. Weitere Informationen hierzu sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} verfügbar.
+1. Richten Sie eine **Assurance**-Sitzung ein. Weitere Informationen hierzu finden Sie in der Dokumentation zu [[!DNL Adobe Experience Platform] Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 1. Navigieren Sie zur Journey mit der eingehenden Aktion, um den Journey-Namen und die Versions-ID abzurufen.
 
@@ -128,7 +128,7 @@ Gehen Sie wie folgt vor, um das Verhalten von Edge Network zu debuggen.
 
    Sie können überprüfen, ob das **joai**-Segment in der Profilansicht des Edge Network-Versand-Servers vorhanden ist, indem Sie das **segmentsMap**-Element des Profilabschnitts öffnen und nach dem Vorhandensein der **joai**-Segment-ID suchen.
 
-1. Wenn der Edge Network-Versand-Server das Profil nicht als im entsprechenden **joai**-Segment enthalten anzeigt, wird mit dem nächsten Schritt fortgefahren.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Wenn der Edge Network-Versand-Server das Profil nicht als im entsprechenden **joai**-Segment enthalten anzeigt, wird mit dem nächsten Schritt fortgefahren.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### Schritt 3: Überprüfen, ob die „joai“-Zielgruppen-Zugehörigkeit auf Edge Network übertragen wurde {#step-3}
 
@@ -216,8 +216,8 @@ Führen Sie dieselben Debugging-Schritte wie für [Szenario 1](#debugging-steps
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance)
-- [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
+- [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 -->

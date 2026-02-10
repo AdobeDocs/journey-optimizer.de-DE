@@ -9,10 +9,10 @@ level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 92%
+source-wordcount: '1190'
+ht-degree: 87%
 
 ---
 
@@ -23,11 +23,11 @@ Die Profileintrittsverwaltung hängt vom Typ der Journey ab.
 
 >[!TIP]
 >
->Auf der Suche nach praktischer Anleitung mit realen Beispielen? Lesen Sie unser [Handbuch zum Journey der Ein- und Ausstiegskriterien](entry-exit-criteria-guide.md), das Anwendungsfälle wie Willkommenskampagnen, die Wiederherstellung bei Transaktionsabbruch und Treueprogramme mit vollständigen Beispielen für die Ein- und Ausstiegskonfiguration umfasst.
+>Suchen Sie nach einer praktischer Anleitung mit Beispielen aus der Praxis? Lesen Sie unseren [umfassenden Leitfaden zu Eintritts- und Ausstiegskriterien für Journeys](entry-exit-criteria-guide.md), der Anwendungsfälle wie Begrüßungskampagnen, die Wiederherstellung bei Warenkorbabbruch und Treueprogramme mit vollständigen Beispielen für die Eintritts- und Ausstiegskonfiguration umfasst.
 
 ## Journey-Typen {#types-of-journeys}
 
-Mit Adobe Journey Optimizer können Sie die folgenden Journey-Typen erstellen:
+Mit [!DNL Adobe Journey Optimizer] können Sie die folgenden Typen von Journeys erstellen:
 
 * Journeys vom Typ **Unitäres Ereignis**: Diese Journeys beginnen mit einem unitären Ereignis. Wenn das Ereignis empfangen wird, tritt das verknüpfte Profil in die Journey ein. [Weitere Informationen](#entry-unitary)
 
@@ -49,13 +49,13 @@ Die Journey-Verarbeitungsrate wird durch mehrere Faktoren beeinflusst, die besti
 
 Wie Profile in Journeys eintreten und wie hoch ihre erwartete Rate ausfällt, hängt von der ersten verwendeten Aktivität ab:
 
-* Journeys vom Typ **Zielgruppe lesen** (Batch-Szenario, in dem Sie eine Zielgruppe von Profilen ansprechen und eine Journey für die gesamte Zielgruppe auslösen): Der Maximalwert beträgt 20.000 TPS (Transaktionen pro Sekunde). Dies ist das auf einer **Sandbox-Ebene** verfügbare Kontingent. Wenn mehrere Journeys auf dieser Sandbox gleichzeitig ausgeführt werden, sind 20.000 TPS möglicherweise nicht erreichbar. Betrachten Sie dieses Maximum als das beste Szenario.
+* **Zielgruppe lesen** Journey (Batch-Szenario, in dem Sie eine Zielgruppe von Profilen ansprechen und eine Journey für diese gesamte Zielgruppe Trigger haben): Der Maximalwert beträgt 20.000 TPS (Transaktionen pro Sekunde). Dies ist das auf Sandbox-**verfügbare Kontingent**. Wenn in dieser Sandbox mehrere Journeys gleichzeitig ausgeführt werden, sind 20.000 TPS möglicherweise nicht erreichbar. Betrachten Sie dieses Maximum als Best-Case-Szenario.
 
 * Journeys vom Typ **Zielgruppenqualifizierung** (Einzelszenario, in dem Sie eine Journey auslösen möchten, wenn ein Profil für eine Streaming-Zielgruppe qualifiziert oder nicht qualifiziert ist): Der Maximalwert beträgt 5.000 TPS. Beachten Sie, dass es sich hierbei um ein gemeinsam verwendetes Limit für Journeys handelt, die mit Ereignissen beginnen. Außerdem wird es für alle Journeys auf **Organisationsebene** verwendet.
 
 * Journeys vom Typ **Unitäres Ereignis** (unitäres Szenario, in dem Sie eine Journey auslösen möchten, wenn ein Ereignis von einem Profil ausgegeben wird): Wie oben, beide verwenden dasselbe 5.000-TPS-Limit. Weitere Informationen zum Journey-Ereignisdurchsatz finden Sie [in diesem Abschnitt](../event/about-events.md#event-thoughput).
 
-* Journeys vom Typ **Geschäftsereignis** (das im Wesentlichen ein unitäres Batch-Szenario ist, da auf ein Geschäftsereignis immer der Schritt „Zielgruppe lesen“ folgt): Geschäftsereignisse zählen auch für das 5.000-TPS-Kontingent, aber die Aktivität „Zielgruppe lesen“ direkt danach hat dasselbe Limit wie Journeys, die mit „Zielgruppe lesen“ beginnen (20.000 TPS).
+* **Geschäftsereignis** Journey (ein Unitary-to-Batch-Szenario, da auf ein Geschäftsereignis immer die Zielgruppe „Lesen“ folgt): Geschäftsereignisse werden auf das Kontingent von 5.000 TPS angerechnet. Die nachfolgende Aktivität „Zielgruppe lesen“ hat dieselbe Grenze wie Journey und beginnt mit „Zielgruppe lesen“ (20.000 TPS).
 
 ### Ereignisse und Zielgruppenqualifizierungen in Journeys {#events-inside-journeys}
 
@@ -67,7 +67,7 @@ Aktivitäten vom Typ **Warten** in Journeys können sich auch darauf auswirken, 
 
 ### Aktionsaktivitäten {#action-activities-impact}
 
-Schließlich können **Aktionsaktivitäten** (native Kanäle wie E-Mail, SMS, Push usw., ausgehend oder eingehend, benutzerdefinierte Aktionen, Sprünge, die Profile an andere Journeys senden, Aktualisierungsprofile, die Daten an den Unified Profile Service senden usw.) durch die Profillast von Journeys beeinflusst werden, sich aber auch auf die Verarbeitungsrate auswirken. Beispielsweise verlangsamt eine benutzerdefinierte Aktion, die auf einen externen Endpunkt mit einer hohen Antwortzeit abzielt, die Journey-Verarbeitungsrate.
+Schließlich können **action**-Aktivitäten durch die Profillast von Journey beeinflusst werden und sich auch auf die Verarbeitungsrate auswirken. Dazu gehören native Kanäle wie E-Mail, SMS und Push-Benachrichtigungen sowie benutzerdefinierte Aktionen, Sprünge zu anderen Journey und Profilaktualisierungen. Beispielsweise verlangsamt eine benutzerdefinierte Aktion, die auf einen externen Endpunkt mit einer hohen Antwortzeit abzielt, die Journey-Verarbeitungsrate.
 
 Für benutzerdefinierte Aktionen beträgt die standardmäßige Begrenzung 300.000 Aufrufe pro Minute. Dies kann mithilfe einer benutzerdefinierten Begrenzungsrichtlinie geändert werden. Weitere Informationen zur Begrenzung benutzerdefinierter Aktionen finden Sie in [diesem Abschnitt](../configuration/external-systems.md#capping).
 
@@ -124,7 +124,7 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 
 ## Verwandte Themen
 
-* [Handbuch mit den Ein- und Ausstiegskriterien für Journey](entry-exit-criteria-guide.md) - Vollständiges Handbuch mit Beispielen und Best Practices aus der Praxis
-* [Beendigungskriterien konfigurieren](journey-properties.md#exit-criteria) - Festlegen, wann Profile Ihren Journey verlassen sollen
-* [Journey beenden](end-journey.md) - Verstehen, wie Journey schließen und beenden
-* [Journey-Anwendungsfälle](jo-use-cases.md) - Vollständige Beispiele mit Ein- und Ausstiegskonfigurationen anzeigen
+* [Leitfaden zu Eintritts- und Ausstiegskriterien für Journeys](entry-exit-criteria-guide.md) – Vollständiger Leitfaden mit Beispielen und Best Practices aus der Praxis
+* [Konfigurieren von Ausstiegskriterien](journey-properties.md#exit-criteria) – Definieren Sie, wann Profile Ihre Journeys verlassen sollen
+* [Beenden von Journeys](end-journey.md) – Erfahren Sie, wie Journeys abgeschlossen und beendet werden
+* [Journey-Anwendungsfälle](jo-use-cases.md) – Sehen Sie sich vollständige Beispiele mit Eintritts- und Ausstiegskonfigurationen an

@@ -9,18 +9,20 @@ level: Experienced
 keywords: Journey, Datenquellen, Limit, Durchsatz, benutzerdefiniert, Aktionen
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '798'
+ht-degree: 95%
 
 ---
 
 # Anwendungsfall: Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen{#limit-throughput}
 
+Verwenden Sie diesen Anwendungsfall, um die Journey-Verarbeitung zu drosseln, wenn externe Systeme eine begrenzte Anzahl von Anfragen pro Sekunde verarbeiten müssen.
+
 ## Beschreibung des Anwendungsfalls
 
-Mit Adobe Journey Optimizer können Anwenderinnen und Anwender API-Aufrufe über benutzerdefinierte Aktionen und Datenquellen an externe Systeme senden.
+[!DNL Adobe Journey Optimizer] können Benutzerinnen und Benutzer API-Aufrufe über benutzerdefinierte Aktionen und Datenquellen an externe Systeme senden.
 
 Dies kann auf folgende Arten erfolgen:
 
@@ -32,7 +34,7 @@ Dies kann auf folgende Arten erfolgen:
 >
 >Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie in [diesem Abschnitt](../action/action-response.md).
 
-Wenn Sie mit externen Datenquellen oder benutzerdefinierten Aktionen arbeiten, sollten Sie Ihre externen Systeme schützen, indem Sie den Journey-Durchsatz einschränken: bis zu 5.000 Instanzen/Sekunde für unitäre Journeys und bis zu 20.000 Instanzen/Sekunde für durch Zielgruppen ausgelöste Journeys. Weitere Informationen zu Journey-Verarbeitungsraten und -Durchsatz finden Sie [in diesem Abschnitt](entry-management.md#journey-processing-rate).
+Wenn Sie mit externen Datenquellen oder benutzerdefinierten Aktionen arbeiten, sollten Sie Ihre externen Systeme schützen, indem Sie den Journey-Durchsatz einschränken: bis zu 5.000 Instanzen/Sekunde für unitäre Journeys und bis zu 20.000 Instanzen/Sekunde für durch Zielgruppen ausgelöste Journeys. Weitere Informationen zu Journey-Verarbeitungsraten und -Durchsatz finden Sie in [diesem Abschnitt](entry-management.md#journey-processing-rate).
 
 Für benutzerdefinierte Aktionen sind Einschränkungsfunktionen auf Produktebene verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../configuration/external-systems.md#capping).
 

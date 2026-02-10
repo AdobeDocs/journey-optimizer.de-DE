@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestalten einer Journey
+title: Entwerfen einer Journey
 description: Erfahren Sie, wie Sie Ihre Journey entwerfen
 feature: Journeys, Activities
 topic: Content Management
@@ -10,21 +10,21 @@ level: Intermediate
 keywords: Design, Arbeitsfläche, Journey, Benutzeroberfläche, ziehen, ablegen
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 98%
+source-wordcount: '1744'
+ht-degree: 96%
 
 ---
 
-# Gestalten einer Journey {#design-your-journey}
+# Entwerfen einer Journey {#design-your-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
->title="Gestalten einer Journey"
+>title="Entwerfen einer Journey"
 >abstract="Die Benutzeroberfläche für die Journey ermöglicht es Ihnen, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt der Arbeitsfläche hinzuzufügen."
 
-Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Maßnahmen mit Eins-zu-eins-Kundeninteraktionen aufeinander abstimmen können. Die Benutzeroberfläche ermöglicht es, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen, um eine Journey zu erstellen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt der Arbeitsfläche hinzuzufügen.
+[!DNL Adobe Journey Optimizer] enthält eine Arbeitsfläche für die Omni-Channel-Orchestrierung, mit der Marketing-Experten Marketing-Maßnahmen mit Eins-zu-eins-Kundeninteraktionen aufeinander abstimmen können. Die Benutzeroberfläche ermöglicht es, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen, um eine Journey zu erstellen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt der Arbeitsfläche hinzuzufügen.
 
 Ereignisse, Orchestrierungs- und Aktionsaktivitäten haben eine bestimmte Rolle und einen bestimmten Platz im Prozess. Die Aktivitäten finden der Reihe nach statt: Nach Beendigung einer Aktivität wird der Fluss fortgesetzt und die nächste Aktivität wird verarbeitet usw.
 
@@ -72,7 +72,7 @@ Es gibt zwei Möglichkeiten:
 
 1. **Beginn mit einem Ereignis**: Wenn eine Journey so eingestellt ist, dass sie auf Ereignisse wartet, treten Personen **einheitlich** in Echtzeit in die Journey ein. Nachrichten, die in Ihrer Journey enthalten sind, werden an die Person gesendet, die gerade in die Journey kommt. [Weitere Informationen zu Ereignissen](../event/about-events.md)
 
-1. **Beginn mit der Aktivität „Zielgruppe lesen“**: Sie können Ihre Journey so einstellen, dass sie Adobe Experience Platform-Zielgruppen überwacht. In diesem Fall treten alle der angegebenen Zielgruppe angehörenden Personen in die Journey ein. Die in Ihrer Journey enthaltenen Nachrichten werden an die der Zielgruppe angehörenden Personen gesendet. Weitere Informationen über [Zielgruppe lesen](read-audience.md). Weitere Informationen zum Generieren und Targeting von Zielgruppen in Journey Optimizer finden Sie [diesem Abschnitt](../audience/about-audiences.md).
+1. **Mit „Zielgruppe lesen** beginnen: Sie können Ihren Journey so einstellen, dass er auf [!DNL Adobe Experience Platform] Zielgruppen wartet. In diesem Fall treten alle der angegebenen Zielgruppe angehörenden Personen in die Journey ein. Die in Ihrer Journey enthaltenen Nachrichten werden an die der Zielgruppe angehörenden Personen gesendet. Weitere Informationen zur Aktivität [Zielgruppe lesen](read-audience.md). Weitere Informationen zum Generieren und Ansprechen von Zielgruppen in Journey Optimizer finden Sie [in diesem Abschnitt](../audience/about-audiences.md).
 
 ## Definieren der nächsten Schritte{#define-next-steps}
 
@@ -88,13 +88,13 @@ Sie können **mehrere Ereignisse** in Ihrer Journey hinzufügen, sofern sie dens
 
 Sie können nach einer Nachricht auch ein **Reaktions**-Ereignis hinzufügen, um auf Tracking-Daten im Zusammenhang mit der Nachricht zu reagieren. So können Sie z. B. eine weitere Nachricht senden, wenn der Kontakt die vorherige Nachricht geöffnet oder in ihr auf etwas geklickt hat. [Weitere Informationen zu Reaktionsereignissen](reaction-events.md).
 
-Verwenden Sie die Ereignisaktivität **Zielgruppen-Qualifizierung**, um Personen auf der Grundlage von Adobe Experience Platform-Zielgruppeneintritten und -austritten zu veranlassen, in eine Journey einzutreten oder damit fortzufahren. Sie können alle neuen Silber-Kunden dazu bringen, in eine Journey einzutreten und ihnen personalisierte Nachrichten senden. Weiterführende Informationen finden Sie in diesem [Abschnitt](audience-qualification-events.md).
+Verwenden Sie **Ereignisaktivität** Zielgruppen-Qualifizierung), um Personen auf der Grundlage [!DNL Adobe Experience Platform] Zielgruppen-Ein- und -Ausstiege zu veranlassen, in eine Journey einzutreten oder in einer CD fortzufahren. Sie können alle neuen Silber-Kunden dazu bringen, in eine Journey einzutreten und ihnen personalisierte Nachrichten senden. Weiterführende Informationen finden Sie in diesem [Abschnitt](audience-qualification-events.md).
 
 ### Orchestrierung{#jo-orch}
 
 Orchestrierungsaktivitäten sind Bedingungen, die beim Bestimmen des nächsten Schritts der Journey helfen.
 
-In den Orchestrierungsaktivitäten können Sie die Aktivität **Zielgruppe lesen** verwenden, um Ihre Journey so einzurichten, dass sie eine Adobe Experience Platform-Zielgruppe überwacht. [Erfahren Sie mehr zur Aktivität „Zielgruppe lesen“](read-audience.md).
+In den Orchestrierungsaktivitäten können Sie die Aktivität **Zielgruppe lesen** verwenden, um Ihren Journey so einzustellen, dass er auf eine [!DNL Adobe Experience Platform] Zielgruppe wartet. [Erfahren Sie mehr zur Aktivität „Zielgruppe lesen“](read-audience.md).
 
 Die anderen Aktivitäten ermöglichen es Ihnen, Bedingungen zu Ihrer Journey hinzuzufügen, um mehrere Pfade zu definieren, eine Wartezeit festzulegen, bevor Sie die nächste Aktivität ausführen, oder Ihre Journey zu beenden. [Weitere Informationen zu Orchestrierungsaktivitäten](about-journey-activities.md#orchestration-activities).
 

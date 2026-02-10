@@ -10,10 +10,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Mit Journey-Metriken erhalten Sie einen klaren Einblick in die Effektivität Ihr
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Journey-Metriken verwendet werden können, müssen Sie einen Datensatz mit den [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} `Commerce Details`, `Web` und `Mobile` unter „Konfiguration“ > „Reporting“ in Adobe Experience Platform hinzufügen.
+Bevor Sie Ihre Journey-Metriken verwenden können, müssen Sie einen Datensatz hinzufügen, der die `Commerce Details`, `Web` und `Mobile`[ Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} unter „Konfiguration“ > „Berichte“ in [!DNL Adobe Experience Platform] enthält.
 
 Diese Feldergruppen müssen aus den integrierten Optionen ausgewählt werden, nicht aus benutzerdefinierten Gruppen. Weitere Informationen sind im Abschnitt [Hinzufügen von Datensätzen](../reports/reporting-configuration.md#add-datasets) verfügbar.
 

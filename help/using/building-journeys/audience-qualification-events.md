@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: acf73fbce4a8ebfc6f228c92480a5e597e0bfe53
-workflow-type: ht
-source-wordcount: '1598'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1487'
+ht-degree: 73%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Zielgruppen-Qualifizierungsereignisse"
->abstract="Mit dieser Aktivität kann eine Journey die Ein- und Austritte von Profilen in Adobe Experience Platform-Zielgruppen überwachen, damit Personen in eine Journey eintreten oder damit fortfahren."
+>abstract="Diese Aktivität überwacht die Ein- und Ausstiege von Profilen in [!DNL Adobe Experience Platform] Zielgruppen, um Personen durch eine Journey zu bewegen."
 
 ## Informationen zu Zielgruppen-Qualifizierungsereignissen{#about-segment-qualification}
 
-Mit dieser Aktivität kann eine Journey die Ein- und Austritte von Profilen in Adobe Experience Platform-Zielgruppen überwachen, damit Personen in eine Journey eintreten oder damit fortfahren. Weitere Informationen zum Erstellen von Zielgruppen finden Sie in diesem [Abschnitt](../audience/about-audiences.md).
+Diese Aktivität überwacht den Ein- und Austritt von Profilen in [!DNL Adobe Experience Platform] Audiences. Sie kann Personen dazu bringen, eine Journey zu betreten oder fortzufahren. Weitere Informationen zum Erstellen von Zielgruppen finden Sie in diesem [Abschnitt](../audience/about-audiences.md).
 
-Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundinnen und -Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle neuen Silber-Kunden eine Journey beginnen, und ihnen eine Reihe personalisierter Nachrichten senden.
+Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundschaft“. Mit dieser Aktivität können Sie dafür sorgen, dass alle neuen Silber-Kunden eine Journey beginnen, und ihnen eine Reihe personalisierter Nachrichten senden.
 
 Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey positioniert werden.
 
@@ -58,23 +58,25 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 
    ![Dropdown-Liste zur Zielgruppenauswahl für die Konfiguration von Qualifizierungsereignissen](assets/segment6.png)
 
-   Nachdem die Zielgruppe hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** ihren Namen und ihre ID kopieren:
+   Nachdem die Zielgruppe hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** deren Namen und ID kopieren:
 
    `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![Schaltfläche „Kopieren“ zum Kopieren von Zielgruppenname und ID im JSON-Format](assets/segment-copy.png)
+   ![Schaltfläche „Kopieren“ zum Kopieren von Zielgruppenname und -ID im JSON-Format](assets/segment-copy.png)
 
 1. Wählen Sie im Feld **[!UICONTROL Verhalten]** aus, ob Zielgruppeneintritte, -ausstiege oder beides überwacht werden sollen.
 
    >[!NOTE]
    >
-   >**[!UICONTROL Eintreten]** und **[!UICONTROL Aussteigen]** entsprechen den Zielgruppenzugehörigkeitsstatus **Realisiert** und **Ausgestiegen** von Adobe Experience Platform. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/tutorials/evaluate-a-segment#interpret-segment-results){target="_blank"}.
+   >**[!UICONTROL Eintreten]** und **[!UICONTROL Verlassen]** entsprechen den **Realisiert** und **Ausgetreten** Zielgruppenteilnahmestatus aus [!DNL Adobe Experience Platform].
+   >Siehe die [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/tutorials/evaluate-a-segment#interpret-segment-results){target="_blank"}.
 
 1. Wählen Sie einen Namespace aus. Dies ist nur erforderlich, wenn das Ereignis als erster Schritt der Journey positioniert wird. Standardmäßig ist das Feld mit dem zuletzt verwendeten Namespace vorausgefüllt.
 
    >[!NOTE]
    >
-   >Sie können nur einen personenbasierten Identity-Namespace auswählen. Wenn Sie einen Namespace für eine Suchtabelle definiert haben (z. B.: Produkt-ID-Namespace für eine Produktsuche), ist er nicht in der Dropdown-Liste **Namespace** verfügbar.
+   >Sie können nur einen personenbasierten Identity-Namespace auswählen.
+   >Namespaces von Lookup-Tabellen (z. B. ProductID für eine Produktsuche) sind in der Dropdown-Liste **Namespace** nicht verfügbar.
 
    ![Namespace-Auswahl für die Zielgruppen-Qualifizierungs-Identität](assets/segment7.png)
 
@@ -88,35 +90,35 @@ Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die einer
 
 Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_condition).
 
-Eine neue Journey, die ein Ereignis **Zielgruppen-Qualifizierung** enthält, ist zehn Minuten nach der Veröffentlichung einsatzbereit. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Services. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
+Eine neue Journey, die ein Ereignis **Zielgruppen-Qualifizierung** enthält, ist zehn Minuten nach der Veröffentlichung einsatzbereit. Dieses Intervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Services. Warten Sie 10 Minuten, bevor Sie diese Journey verwenden.
 
 ## Best Practices {#best-practices-segments}
 
-Mit der Aktivität **[!UICONTROL Zielgruppen-Qualifizierung]** wird der sofortige Eintritt in Journeys von Kontakten möglich, die über eine Adobe Experience Platform-Zielgruppe qualifiziert oder disqualifiziert werden.
+Die **[!UICONTROL Zielgruppen-]**) ermöglicht Personen, die sich für eine [!DNL Adobe Experience Platform] Zielgruppe qualifizieren oder deren Qualifizierung sie verweigern, den sofortigen Eintritt in die Journey.
 
-Die Empfangsgeschwindigkeit dieser Daten ist hoch. Durchgeführte Messungen zeigen eine Geschwindigkeit von 10.000 empfangenen Ereignissen pro Sekunde. Es ist daher wichtig zu wissen, wie Eintrittsspitzen auftreten können, wie sie sich vermeiden lassen und wie Sie Ihre Journey auf sie vorbereiten. Weitere Informationen zu Journey-Verarbeitungsraten und Durchsatzbeschränkungen finden Sie in [diesem Abschnitt](entry-management.md#journey-processing-rate).
+Die Empfangsgeschwindigkeit dieser Daten ist hoch. Messungen zeigen, dass pro Sekunde 10.000 Ereignisse empfangen werden. Planen Sie Eintrittsspitzen, vermeiden Sie sie nach Möglichkeit, und bereiten Sie Ihren Journey darauf vor. Weitere Informationen zu Journey-Verarbeitungsraten und Durchsatzbeschränkungen finden Sie in [diesem Abschnitt](entry-management.md#journey-processing-rate).
 
 ### Batch-Zielgruppen {#batch-speed-segment-qualification}
 
-Bei Verwendung der Zielgruppen-Qualifizierung für eine Batch-Zielgruppe tritt zum Zeitpunkt der täglichen Berechnung eine Eintrittsspitze auf. Der Umfang dieser Spitze hängt von der Zahl der Kontakte ab, die täglich in die Zielgruppe eintreten (bzw. aus ihr aussteigen).
+Bei Verwendung der Zielgruppen-Qualifizierung für eine Batch-Zielgruppe tritt zum Zeitpunkt der täglichen Berechnung eine Eintrittsspitze auf. Die Größe der Spitze hängt davon ab, wie viele Personen die Zielgruppe jeden Tag betreten oder verlassen.
 
-Wenn die Batch-Zielgruppe neu erstellt und unmittelbar in einer Journey verwendet wird, kann der erste Berechnungs-Batch außerdem dazu führen, dass sehr viele Kontakte in die Journey eintreten.
+Wenn die Batch-Zielgruppe neu erstellt und sofort auf einer Journey verwendet wird, kann der erste Berechnungs-Batch viele Einträge erfordern. Planen Sie für diese Spitze.
 
 ### Streaming-Zielgruppen {#streamed-speed-segment-qualification}
 
-Bei Verwendung der Zielgruppen-Qualifizierung für Streaming-Zielgruppen besteht aufgrund der kontinuierlichen Auswertung der Zielgruppe ein geringeres Risiko, dass es bei Ein-/Austritten zu großen Spitzen kommt. Wenn die Zielgruppendefinition jedoch dazu führt, dass eine große Anzahl von Kundinnen und Kunden sich gleichzeitig qualifiziert, sind ebenfalls Spitzen möglich.
+Bei Verwendung der Zielgruppen-Qualifizierung für gestreamte Zielgruppen besteht ein geringeres Risiko großer Ein- und Ausstiegsspitzen, da die Auswertung kontinuierlich erfolgt. Wenn die Zielgruppendefinition viele Kundinnen und Kunden gleichzeitig qualifiziert, kann es dennoch zu einer Spitze kommen.
 
-Vermeiden Sie die Verwendung von Öffnungs- und Sendeereignissen bei der Streaming-Segmentierung. Verwenden Sie stattdessen echte Nutzeraktivitätssignale wie Klicks, Käufe oder Beacon-Daten. Verwenden Sie für die Häufigkeits- oder Unterdrückungslogik eher Geschäftsregeln als Sendeereignisse. [Weitere Informationen](../audience/about-audiences.md)
+Vermeiden Sie die Verwendung von Öffnungs- und Sendeereignissen bei der Streaming-Segmentierung. Verwenden Sie stattdessen echte Nutzeraktivitätssignale wie Klicks, Käufe oder Beacon-Daten. Verwenden Sie für die Häufigkeits- oder Unterdrückungslogik Geschäftsregeln anstelle von Ereignissen senden. [Weitere Informationen](../audience/about-audiences.md)
 
-Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Siehe die [[!DNL Adobe Experience Platform] Dokumentation zur Streaming-](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 >[!NOTE]
 >
->Bei der Streaming-Segmentierung kann es bis zu **2 Stunden** dauern, bis neu aufgenommene Daten innerhalb von Adobe Experience Platform vollständig propagiert sind und in Echtzeit genutzt werden können. Zielgruppen, die auf tages- oder zeitbasierte Bedingungen angewiesen sind (z. B. „Ereignisse, die heute stattgefunden haben“), können zu zusätzlicher Komplexität bei der Qualifizierungszeitplanung führen. Wenn Ihre Journey von der sofortigen Zielgruppen-Qualifizierung abhängt, sollten Sie zu Beginn eine kurze [Warteaktivität](wait-activity.md) hinzufügen oder eine Pufferzeit einräumen, um eine genaue Qualifizierung sicherzustellen.
+>Bei der Streaming-Segmentierung kann es bis zu **2 Stunden dauern,** neu aufgenommene Daten innerhalb von [!DNL Adobe Experience Platform] vollständig für die Echtzeit-Nutzung übertragen werden. Zielgruppen, die auf tages- oder zeitbasierte Bedingungen angewiesen sind (z. B. „Ereignisse, die heute stattgefunden haben“), können zu zusätzlicher Komplexität bei der Qualifizierungszeitplanung führen. Wenn Ihr Journey von der sofortigen Zielgruppen-Qualifizierung abhängt, sollten Sie zu Beginn [ kurze Aktivität ](wait-activity.md)Warten“ hinzufügen. Um eine genaue Qualifizierung sicherzustellen, können Sie auch Pufferzeiten zulassen.
 
 #### Darum treten möglicherweise nicht alle qualifizierten Profile in die Journey ein {#streaming-entry-caveats}
 
-Bei Verwendung von Streaming-Zielgruppen mit der Aktivität **Zielgruppen-Qualifizierung** treten nicht unbedingt alle Profile, die für die Zielgruppe qualifiziert sind, in die Journey ein. Dieses Verhalten kann aus folgenden Gründen auftreten:
+Bei Verwendung von Streaming-Zielgruppen mit der Aktivität **Zielgruppen-Qualifizierung** treten nicht unbedingt alle Profile, die für die Zielgruppe qualifiziert sind, in die Journey ein. Dieses Verhalten kann aus den folgenden Gründen auftreten:
 
 * **Bereits in der Zielgruppe enthaltene Profile**: Nur Profile, die sich nach der Veröffentlichung der Journey neu für die Zielgruppe qualifizieren, lösen den Eintritt aus. Profile, die sich bereits vor der Veröffentlichung in der Zielgruppe befinden, treten nicht ein.
 
@@ -124,13 +126,13 @@ Bei Verwendung von Streaming-Zielgruppen mit der Aktivität **Zielgruppen-Qualif
 
 * **Schnelle Zielgruppenaustritte**: Wenn ein Profil sich für die Zielgruppe qualifiziert, aber aussteigt, bevor der Journey-Eintritt ausgelöst wird, tritt dieses Profil möglicherweise nicht in die Journey ein.
 
-* **Zeit zwischen Qualifizierung und Journey-Verarbeitung**: Aufgrund des verteilten Charakters von Adobe Experience Platform kann es zwischen dem Zeitpunkt, zu dem ein Profil sich für eine Zielgruppe qualifiziert, und dem Zeitpunkt, zu dem die Journey dieses Qualifizierungsereignis verarbeitet, zu zeitlichen Lücken kommen.
+* **Timing zwischen Qualifizierung und Journey-Verarbeitung**: Aufgrund der verteilten Natur von [!DNL Adobe Experience Platform] kann es zu Zeitlücken kommen. Ein Profil kann sich qualifizieren, bevor die Journey das Qualifizierungsereignis verarbeitet.
 
 **Empfehlungen:**
 
 * Warten Sie nach dem Veröffentlichen einer Journey mindestens 10 Minuten, bevor Sie Ereignisse oder Daten senden, die die Profilqualifizierung auslösen. Dadurch wird sichergestellt, dass die Journey vollständig aktiviert ist und Eintritte verarbeitet werden können.
 
-* Für kritische Anwendungsfälle, bei denen Sie sicherstellen müssen, dass alle qualifizierten Profile eintreten, sollten Sie stattdessen eine Aktivität [Zielgruppe lesen](read-audience.md) verwenden, bei der alle Profile in einer Zielgruppe zu einem bestimmten Zeitpunkt verarbeitet werden.
+* Für kritische Anwendungsfälle, bei denen Sie sicherstellen müssen, dass alle qualifizierten Profile eintreten, sollten Sie stattdessen eine Aktivität [Zielgruppe lesen](read-audience.md) verwenden. Es verarbeitet alle Profile in einer Zielgruppe zu einem bestimmten Zeitpunkt.
 
 * Überwachen Sie [die Eintrittsrate und den Durchsatz](entry-management.md#profile-entrance-rate) Ihrer Journey, um Muster im Profilfluss zu erkennen.
 
@@ -142,7 +144,7 @@ Die folgenden Best Practices helfen dabei, eine Überlastung der für Journeys g
 
 * Verwenden Sie die Batch-Zielgruppe nicht unmittelbar nach ihrer Erstellung in einer Aktivität vom Typ **[!UICONTROL Zielgruppen-Qualifizierung]**. Dadurch wird die erste Berechnungsspitze vermieden. Auf der Journey-Arbeitsfläche wird eine gelbe Warnung angezeigt, wenn Sie im Begriff sind, eine bislang noch nie berechnete Zielgruppe zu verwenden.
 
-  ![Fehlermeldung, wenn Zielgruppe in Adobe Experience Platform nicht gefunden wurde](assets/segment-error.png)
+  ![Fehlermeldung, wenn Zielgruppe nicht in [!DNL Adobe Experience Platform]](assets/segment-error.png) gefunden wurde
 
 * Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden. Weitere Informationen sind in der [Dokumentation zu Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=de){target="_blank"} verfügbar. Beachten Sie, dass die Begrenzungsregel nicht erneut versucht wird. Für einen erneuten Versuch müssen Sie einen alternativen Pfad in der Journey verwenden, indem Sie in den Bedingungen oder Aktionen das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** aktivieren.
 
@@ -161,10 +163,10 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
   Wenn Sie jedoch auf der Batch-Aufnahme basierende Attribute in Ihrer Streaming-Zielgruppe verwenden möchten oder eine Batch-Zielgruppe für eine Journey vom Typ „Zielgruppen-Qualifizierung“, müssen Sie die Zeitspanne für die Zielgruppen-Auswertung/-Aktivierung berücksichtigen. Eine Batch-Zielgruppe oder Streaming-Zielgruppe, die auf der Batch-Aufnahme basierende Attribute verwendet, ist ungefähr **2 Stunden** nach Abschluss des Segmentierungsauftrags für die Verwendung in der Aktivität **Zielgruppen-Qualifizierung** bereit. Dieser Auftrag wird einmal täglich zu der Zeit ausgeführt, die von der bzw. dem Adobe-Organisationsadmin definiert wurde.
 
-* Adobe Experience Platform-Zielgruppen werden entweder einmal täglich (**Batch**-Zielgruppen) oder in Echtzeit (für **Streaming-Zielgruppen** mithilfe der Option „Hochfrequenz-Zielgruppen“ von Adobe Experience Platform) berechnet.
+* [!DNL Adobe Experience Platform] Zielgruppen werden entweder einmal täglich (**Batch**-Zielgruppen) oder in Echtzeit berechnet (für **Streaming**-Zielgruppen mithilfe der Option „Zielgruppen mit hoher Häufigkeit“ von [!DNL Adobe Experience Platform]).
 
    * Wenn die ausgewählte Zielgruppe gestreamt wird, können die zu dieser Zielgruppe gehörenden Kontakte in Echtzeit in die Journey eintreten. 
-   * Bei einer Batch-Zielgruppe treten die für diese Zielgruppe neu qualifizierten Kontakte in die Journey ein, sobald die Zielgruppenberechnung in Adobe Experience Platform ausgeführt wird.
+   * Wenn es sich bei der Zielgruppe um einen Batch-Vorgang handelt, geben Personen, die sich neu für diese Zielgruppe qualifiziert haben, möglicherweise die Journey ein, wenn die Zielgruppenberechnung auf [!DNL Adobe Experience Platform] ausgeführt wird.
 
   Als Best Practice wird empfohlen, Streaming-Zielgruppen für die Aktivität **Zielgruppen-Qualifizierung** zu verwenden. Für Batch-Anwendungsfälle verwenden Sie bitte die Aktivität **[Zielgruppe lesen](read-audience.md)**.
 
@@ -180,7 +182,7 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 >[!CAUTION]
 >
->[Leitlinien für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} gelten auch für Adobe Journey Optimizer.
+>[Leitlinien für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"} gelten auch für [!DNL Adobe Journey Optimizer].
 
 
 
@@ -188,4 +190,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

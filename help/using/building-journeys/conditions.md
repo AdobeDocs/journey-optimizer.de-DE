@@ -12,10 +12,10 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1696'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1662'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ Mit **Bedingungen** können Sie festlegen, wie Einzelpersonen Ihre Journey durch
 
 >[!AVAILABILITY]
 >
->Diese Bedingungen sind über die Aktivität **Optimieren** verfügbar, auf die nach Bedarf zugegriffen werden kann, jedoch mit eingeschränkter Verfügbarkeit. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+>Diese Bedingungen sind über die Aktivität **Optimieren** verfügbar, auf die nach Bedarf zugegriffen werden kann, jedoch mit eingeschränkter Verfügbarkeit. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 >
 >Wenn Sie keinen Zugriff auf diese Funktion haben, können Sie weiterhin die ältere [Bedingungsaktivität](condition-activity.md) verwenden.
 
@@ -70,7 +70,7 @@ Klicken Sie auf **[!UICONTROL Pfad hinzufügen]**, wenn Sie mehrere Bedingungen 
 
 Beachten Sie, dass die Gestaltung der Journeys funktionelle Auswirkungen hat. Wenn mehrere Pfade nach einer Bedingung definiert werden, wird nur der erste infrage kommende Pfad ausgeführt. Das bedeutet, dass Sie die Priorisierung von Pfaden ändern können, indem Sie sie über- oder untereinander platzieren.
 
-Nehmen wir beispielsweise die Bedingung eines ersten Pfads „Die Person ist eine VIP“ und die Bedingung eines zweiten Pfads „Die Person ist ein Mann“. Wenn eine Person, die beide Bedingungen erfüllt (ein männlicher VIP) diesen Schritt durchläuft, wird der erste Pfad ausgewählt, auch wenn die Person ebenfalls für den zweiten Pfad infrage kommt, da der erste Pfad „über“ dem zweiten steht. Um diese Priorität zu ändern, verschieben Sie Ihre Aktivitäten in eine andere vertikale Reihenfolge.
+Nehmen wir zwei Pfadbedingungen: „Die Person ist ein VIP&quot; und „Die Person ist ein Mann“. Wenn eine Person beide Bedingungen erfüllt, wird der erste Pfad ausgewählt, da er über dem zweiten liegt. Um diese Priorität zu ändern, verschieben Sie Ihre Aktivitäten in eine andere vertikale Reihenfolge.
 
 ![Beispiel für Pfadpriorisierung, bei dem die VIP-Bedingung über der Bedingung „männlich“ angezeigt wird](assets/journey48.png)
 
@@ -87,7 +87,7 @@ Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Fe
 
 ![Einfacher Ausdruckseditor mit Drag-and-Drop-Feldern und logischen Operatoren](assets/journey64.png){width=80%}
 
-Wenn Sie zur Erstellung Ihrer Zielgruppen den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} verwenden, können Sie die Zielgruppen in Ihren Journey-Bedingungen nutzen. Weitere Informationen finden Sie unter [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
+Wenn Sie zur Erstellung Ihrer Zielgruppen den [[!DNL Adobe Experience Platform] Segmentierungs](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}Service) verwenden, können Sie diese in Ihren Journey-Bedingungen nutzen. Weitere Informationen finden Sie unter [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Es stehen drei Zeitfilteroptionen zur Verfügung:
 
 ## Profilbegrenzung {#profile_cap}
 
-Verwenden Sie diesen Bedingungstyp, um eine Höchstzahl von Profilen für einen Journey-Pfad festzulegen. Wenn diese Grenze erreicht ist, folgen die eintretenden Profile einem alternativen Pfad. Dadurch wird sichergestellt, dass Ihre Journey nie den definierten Grenzwert überschreitet.
+Verwenden Sie diesen Bedingungstyp, um eine Höchstzahl von Profilen für einen Journey-Pfad festzulegen. Wenn dieses Limit erreicht ist, schlagen die eintretenden Profile einen alternativen Pfad ein. Dadurch wird sichergestellt, dass Ihre Journey nie den definierten Grenzwert überschreitet.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ Die Standardbegrenzung ist 1.000.
 
 Der Zähler gilt nur für die ausgewählte Journey-Version. Der Zähler wird auf null zurückgesetzt, wenn die Journey dupliziert oder eine neue Version erstellt wird. Nach dem Zurücksetzen folgen die eintretenden Profile erneut dem nominalen Pfad, bis die Zählergrenze erreicht ist.
 
-Wenn eine Profilbegrenzung für eine wiederkehrende Journey definiert ist, wird der Zähler nicht nach jeder Wiederholung zurückgesetzt.
+Wenn eine Profilbegrenzung für eine wiederkehrende Journey definiert ist, wird der Zähler nicht nach jedem Intervall zurückgesetzt.
 
 Der nominale Pfad hat immer Vorrang vor dem alternativen Pfad, auch wenn der alternativen Pfad über den nominalen Pfad auf der Journey-Arbeitsfläche verschoben wird.
 
@@ -188,7 +188,7 @@ Gehen Sie wie folgt vor, um in einer Journey-Bedingung eine Zielgruppe zu verwen
 
 1. Erweitern Sie auf der linken Seite den Knoten **[!UICONTROL Zielgruppen]**. Legen Sie die Zielgruppe, die Sie für Ihre Bedingung verwenden möchten, per Drag-and-Drop ab. Standardmäßig lautet die Bedingung für die Zielgruppe „true“.
 
-   ![Zielgruppenknoten im Ausdruckseditor zur Auswahl von Adobe Experience Platform-Zielgruppen](assets/segment4.png){width=80%}
+   ![Zielgruppen-Knoten im Ausdruckseditor zur Auswahl [!DNL Adobe Experience Platform] Zielgruppen](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >

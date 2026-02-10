@@ -1,30 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Fehler-Codes – Referenz
-description: Erfahren Sie mehr über häufige Fehler-Codes in Adobe Journey Optimizer und wie Sie die Fehler beheben können
+title: Referenz für Fehler-Codes
+description: Erfahren Sie mehr über häufige  [!DNL Adobe Journey Optimizer]  in und wie Sie sie beheben können
 feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Fehler, Codes, Fehlerbehebung, Journey, Kampagne, Nachrichten
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
-workflow-type: ht
-source-wordcount: '2394'
-ht-degree: 100%
+exl-id: 84924153-1bb5-465a-b91c-797628fc816c
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '2381'
+ht-degree: 94%
 
 ---
 
+# Referenz für Fehler-Codes {#error-codes}
 
-# Fehler-Codes – Referenz {#error-codes}
-
-Adobe Journey Optimizer verwendet standardisierte Fehler-Codes, mit denen Sie Probleme in Journey-, Kampagnen- und Nachrichtenkonfigurationen schnell identifizieren und beheben können. Wenn Sie diese Fehler-Codes verstehen, können Sie die Zeit für die Fehlerbehebung erheblich verkürzen und die optimale Kampagnen-Leistung aufrechterhalten.
+[!DNL Adobe Journey Optimizer] verwendet standardisierte Fehlercodes, um Probleme in Journey-, Kampagnen- und Nachrichtenkonfigurationen schnell zu identifizieren und zu beheben. Wenn Sie diese Fehler-Codes verstehen, können Sie die Zeit für die Fehlerbehebung erheblich verkürzen und die optimale Kampagnen-Leistung aufrechterhalten.
 
 ## Grundlagen zur Struktur von Fehler-Codes {#error-code-structure}
 
-Fehler-Codes in Adobe Journey Optimizer folgen einem konsistenten Benennungsmuster, das bei der Identifizierung der Komponente und des Problemtyps hilft:
+[!DNL Adobe Journey Optimizer] Fehler-Codes folgen einem konsistenten Benennungsmuster, das bei der Identifizierung der Komponente und des Problemtyps hilft:
 
-* **Service-Präfix**: Gibt an, welcher Adobe Journey Optimizer-Service den Fehler generiert hat (z. B. CJMPTS für Push-/Transport-Service, CJMRT für Journey-Laufzeit, CJMMAS für den Nachrichtenerstellungs-Service, CJMCMP für Campaign, CJMTL für Transportschicht, CJMRPS für Reporting-/Bereitstellungs-Service)
+* **Service-Präfix**: Gibt an, welcher [!DNL Adobe Journey Optimizer]-Service den Fehler erzeugt hat.
+Beispiele: CJMPTS (Push/Transport-Service), CJMRT (Journey-Laufzeit), CJMMAS (Nachrichten-Authoring-Service), CJMCMP (Kampagne), CJMTL (Transportschicht), CJMRPS (Reporting/Provisioning-Service)
 * **Fehlernummer**: Eindeutige Kennung für die konkrete Fehlerbedingung
 * **HTTP-Status-Code**: Standard-HTTP-Status-Code (z. B. 400, 403, 422, 500)
 
@@ -32,7 +33,7 @@ Beispiel: `CJMRT-030012-422` zeigt einen Journey-Laufzeitfehler (CJMRT) mit Fehl
 
 ## So finden Sie Fehler-Codes {#find-error-codes}
 
-Fehler-Codes werden an verschiedenen Stellen in Adobe Journey Optimizer angezeigt:
+Fehlercodes werden an verschiedenen Stellen in [!DNL Adobe Journey Optimizer] angezeigt:
 
 * Berichte und Protokolle zur Journey-Ausführung
 * Bildschirme für Kampagnenaktivierung
@@ -43,6 +44,8 @@ Fehler-Codes werden an verschiedenen Stellen in Adobe Journey Optimizer angezeig
 Notieren Sie sich bei Auftreten eines Fehlers den vollständigen Fehler-Code und alle zugehörigen Anfrage-IDs, da diese für die Fehlerbehebung und Support-Eskalation unerlässlich sind.
 
 ## Häufige Fehler-Codes nach Service {#error-codes-by-service}
+
+Verwenden Sie diesen Abschnitt, um Fehler-Codes zu finden, die nach Service gruppiert sind.
 
 ### CJMPTS: Push- und Transport-Service-Fehler {#cjmpts-errors}
 
@@ -144,6 +147,8 @@ Gehen Sie bei Auftreten eines Fehler-Codes entsprechend dem folgenden systematis
 
 ## Best Practices zur Vermeidung häufiger Fehler {#best-practices}
 
+Verwenden Sie diese Verfahren, um vermeidbare Fehler zu reduzieren und die Zuverlässigkeit zu verbessern.
+
 ### Vor der Journey-Aktivierung {#journey-best-practices}
 
 * **Validieren Sie alle Ressourcen**: Stellen Sie sicher, dass alle referenzierten Zielgruppen, Ereignisse, Datenquellen und benutzerdefinierten Aktionen ordnungsgemäß konfiguriert sind.
@@ -180,17 +185,16 @@ Gehen Sie bei Auftreten eines Fehler-Codes entsprechend dem folgenden systematis
 Gehen Sie folgendermaßen vor, wenn Sie auf anhaltende Fehler stoßen, die mit diesem Handbuch nicht behoben werden können:
 
 1. **Sammeln Sie Informationen**: Erfassen Sie den Fehler-Code, die Anfrage-ID, die Zeitstempel und die Schritte zum Nachstellen
-2. **Überprüfen Sie den Systemstatus**: Besuchen Sie [Adobe-Status](https://status.adobe.com/de){target="_blank"} für bekannte Service-Probleme
+2. **Überprüfen Sie den Systemstatus**: Besuchen Sie [Adobe-Status](https://status.adobe.com/de/){target="_blank"} für bekannte Service-Probleme
 3. **Durchsuchen Sie die Dokumentation**: Suchen Sie in [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de){target="_blank"} nach Lösungen
-4. **Fragen Sie die Community**: Stellen Sie Fragen in der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}
+4. **Engage-Community**: Stellen Sie Fragen in der [[!DNL Adobe Journey Optimizer] Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}
 5. **Kontaktieren Sie den Adobe-Support**: Senden Sie ein Support-Ticket mit allen relevanten Details
 
 >[!NOTE]
 >
->Diese Fehler-Code-Referenz wird laufend aktualisiert, wenn neue Codes identifiziert und dokumentiert werden. Prüfen Sie die [Adobe Journey Optimizer Community-Blogs](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=de){target="_blank"} regelmäßig, um die aktuellsten Informationen zu erhalten.
+>Diese Fehler-Code-Referenz wird laufend aktualisiert, wenn neue Codes identifiziert und dokumentiert werden. Die aktuellsten Informationen finden Sie in den [[!DNL Adobe Journey Optimizer] Community-Blogs](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=de){target="_blank"}.
 
 **Verwandte Themen**
 
-* [Entschlüsselung der Adobe Journey Optimizer-Fehler-Codes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de){target="_blank"}
-* [Entschlüsselung der Adobe Journey Optimizer-Fehler-Codes: Teil 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=de){target="_blank"}
-
+* [Entmystifizierung [!DNL Adobe Journey Optimizer] Fehler-Codes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de){target="_blank"}
+* [Entmystifizierung [!DNL Adobe Journey Optimizer] Fehler-Codes: Teil 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=de){target="_blank"}
