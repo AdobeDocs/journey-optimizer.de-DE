@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 80c652afef03b0be6d917cb4389850780c2a4379
+source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 100%
+source-wordcount: '1269'
+ht-degree: 84%
 
 ---
 
@@ -408,21 +408,81 @@ Die `formatDate`-Funktion wird zum Formatieren eines Datums-/Uhrzeitwerts verwen
 {%= formatDate(datetime, format) %}
 ```
 
-Dabei ist die erste Zeichenfolge das Datumsattribut, und der zweite Wert gibt an, wie das Datum konvertiert und angezeigt werden soll.
+Dabei ist der erste Parameter das Datums-/Uhrzeitattribut und der zweite Wert ist, wie das Datum konvertiert und angezeigt werden soll.
 
 >[!NOTE]
+>
+> Die `formatDate`-Funktion erfordert einen **Datum-Uhrzeit-Feldtyp** als Eingabe, keine Zeichenfolge. Wenn Ihr Feld als String-Typ in Ihrem XDM-Schema gespeichert ist, müssen Sie es zunächst mithilfe einer Konvertierungsfunktion wie `stringToDate()` oder `toDateTime()` in Datum/Uhrzeit konvertieren. Siehe Beispiele unten.
 >
 > Wenn ein Datumsformat ungültig ist, wird das Datum auf das ISO-Standardformat zurückgesetzt.
 >
 > Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank} zusammengefasst sind.
 
-**Beispiel**
+**Beispiele**
 
-Der folgende Vorgang gibt das Datum in diesem Format zurück: MM/TT/JJ.
++++Formatieren eines Datums-/Uhrzeitfelds
+
+Mit dem folgenden Vorgang wird ein Datums-/Uhrzeitfeld im MM-/TT-/JJ-Format formatiert.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
+
++++
+
++++Konvertieren einer Zeichenfolge in das erste Datum
+
+Wenn Ihr Feld als Zeichenfolge gespeichert wird, müssen Sie es zunächst mithilfe von `stringToDate()` in eine Datums-/Uhrzeitangabe konvertieren, bevor Sie es formatieren.
+
+```sql
+{%= formatDate(stringToDate(profile.person.birthDayAndMonth), "MM/DD/YY") %}
+```
+
++++
+
++++Vollständiges Datumsformat mit Tagesname
+
+Der folgende Vorgang gibt ein vollständiges Datumsformat mit Tagesname, Monatsname, Tag und Jahr zurück.
+
+```sql
+{%= formatDate(profile.person.birthDateTime, "EEEE MMMM dd yyyy") %}
+```
+
+Ausgabe: `Wednesday January 01 2020`
+
++++
+
++++Dynamisches Datum basierend auf Systemzeit
+
+Sie können die aktuelle Systemzeit formatieren, um dynamische Datumswerte zu generieren. Durch den folgenden Vorgang wird das aktuelle Datum im Format MM/TT/JJJJ zurückgegeben.
+
+```sql
+{%= formatDate(getCurrentZonedDateTime(), "MM/dd/YYYY") %}
+```
+
+Ausgabe (am 30. Januar 2026): `01/30/2026`
+
++++
+
++++Format des Wochentags
+
+Sie können den Wochentag in Kurzform extrahieren.
+
+```sql
+{%= formatDate(getCurrentZonedDateTime(), "EEE") %}
+```
+
+Ausgabe: `Sun` (für Sonntag), `Mon` (für Montag), `Tue` (für Dienstag) usw.
+
+Für die Ausgabe in Kleinbuchstaben mit der `lowerCase`-Funktion kombinieren:
+
+```sql
+{%= lowerCase(formatDate(getCurrentZonedDateTime(), "EEE")) %}
+```
+
+Ausgabe: `sun`, `mon`, `tue` usw.
+
++++
 
 ### Musterzeichen {#pattern-characters}
 
