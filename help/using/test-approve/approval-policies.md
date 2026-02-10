@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 4ce83c9cd3f70462c977db6e872a7ac51ea0e006
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 95%
+source-wordcount: '713'
+ht-degree: 92%
 
 ---
 
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um eine Genehmigungsrichtlinie zu erstellen:
 
 1. Aktivieren Sie die Option **[!UICONTROL Selbstvalidierung blockieren]**, um zu verhindern, dass Erstellende von Journeys oder Kampagnen ihre eigenen Objekte genehmigen.
 
-   ![](assets/policy_create_2.png)
+   ![Formular mit Details zu Genehmigungsrichtlinien](assets/policy_create_2.png)
 
 Sie können nun die Bedingungen verfeinern, um festzulegen, wer die Genehmigungsanfrage initiieren und wer sie validieren kann.
 

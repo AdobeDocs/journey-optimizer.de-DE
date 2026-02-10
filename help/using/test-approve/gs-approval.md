@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Erste Schritte mit Genehmigungsrichtlinien {#gs}
 
-Mit Journey Optimizer können Sie einen Genehmigungsprozess einrichten, mit dem Marketing-Teams sicherstellen können, dass Kampagnen und Journeys vor ihrer Live-Schaltung von den jeweiligen Stakeholdern geprüft und genehmigt werden.
+Mit [!DNL Journey Optimizer] können Sie einen Validierungsprozess einrichten, mit dem Marketing-Teams sicherstellen können, dass Kampagnen und Journey von den entsprechenden Stakeholdern geprüft und abgemeldet werden, bevor sie live geschaltet werden.
 
 Genehmigungsrichtlinien führen einen strukturierten Workflow direkt in der Benutzeroberfläche ein. Dadurch entfällt die Notwendigkeit externer Medien wie E-Mail oder Aufgaben-Management-Tools und es wird sichergestellt, dass alle Genehmigungen zentral verwaltet und verfolgt werden.
 
@@ -26,9 +26,9 @@ Darüber hinaus bietet diese Funktion eine verbesserte Kontrolle über die Verö
 
 Bevor Sie beginnen, stellen Sie sicher, dass die folgenden Berechtigungen konfiguriert wurden.
 
-Um auf Journeys und Kampagnen zugreifen sowie diese genehmigen und veröffentlichen zu können, müssen Benutzende über die Berechtigungen **Kampagnen genehmigen und veröffentlichen** und **Journeys genehmigen und veröffentlichen** verfügen. [Weitere Informationen](../administration/permissions.md)
+Um Journey und Kampagnen zu genehmigen und zu veröffentlichen, müssen Benutzenden die Berechtigungen **Genehmigen und veröffentlichen** und **Journey genehmigen und**) gewährt werden. [Weitere Informationen](../administration/permissions.md)
 
-+++  Informationen zur Zuweisung von Genehmigungsberechtigungen
++++  Erfahren Sie, wie Sie genehmigungsbezogene Berechtigungen zuweisen
 
 1. Gehen Sie im Produkt **Berechtigungen** zur Registerkarte **Rollen** und wählen Sie die gewünschte **Rolle** aus.
 
@@ -36,11 +36,11 @@ Um auf Journeys und Kampagnen zugreifen sowie diese genehmigen und veröffentlic
 
 1. Fügen Sie die Ressource **Kampagnen** hinzu und wählen Sie dann **Kampagnen genehmigen und veröffentlichen** aus dem Dropdown-Menü aus.
 
-   ![](assets/permissions_approval.png){zoomable="yes"}
+   ![Berechtigung zum Zuweisen, Genehmigen und Veröffentlichen ](assets/permissions_approval.png){zoomable="yes"}
 
 1. Fügen Sie die Ressource **Journey** hinzu und wählen Sie dann **Journeys genehmigen und veröffentlichen** aus dem Dropdown-Menü aus.
 
-   ![](assets/permissions_approval_2.png){zoomable="yes"}
+   ![Berechtigung zum Zuweisen und Genehmigen von Journey](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. Klicken Sie auf **Speichern**, um die Änderungen anzuwenden.
 
@@ -60,15 +60,15 @@ Die Benutzerin oder der Benutzer erhält eine E-Mail mit Anweisungen zum Zugriff
 
 Der globale Genehmigungsprozess sieht folgendermaßen aus:
 
-![](assets/approval-process.png){zoomable="yes"}
+![Genehmigungsprozess](assets/approval-process.png){zoomable="yes"}
 
 1. **Einrichtung von Genehmigungsrichtlinien**
 
-   Eine Administratorin oder ein Administrator erstellt eine Genehmigungsrichtlinie, in der die Bedingungen definiert werden, unter denen die Richtlinie auf Journeys oder Kampagnen angewendet werden soll. Sie können beispielsweise eine Genehmigungsrichtlinie erstellen, die es erfordert, dass alle von einem bestimmten Benutzenden erstellten geplanten Kampagnen vor der Aktivierung genehmigt werden sollen. [Informationen zur Erstellung von Genehmigungsrichtlinien](approval-policies.md)
+   Ein Administrator erstellt eine Validierungsrichtlinie und definiert Bedingungen, unter denen die Richtlinie auf Journey oder Kampagnen angewendet werden soll. Sie können beispielsweise eine Validierungsrichtlinie erstellen, die erfordert, dass alle von einem bestimmten Benutzer erstellten geplanten Kampagnen vor der Aktivierung genehmigt werden. [Informationen zur Erstellung von Genehmigungsrichtlinien](approval-policies.md)
 
 1. **Einreichung von Kampagnen/Journeys zur Genehmigung**
 
-   Die Erstellenden von Kampagnen/Journeys erstellen eine Journey oder Kampagne und reichen sie zur Genehmigung ein. Die Kampagne/Journey wechselt in den Status „Wird überprüft“. In diesem Status können keine Änderungen vorgenommen werden, es sei denn, die Anfrage wird abgebrochen. [Informationen zum Anfordern einer Genehmigung](request-approval.md)
+   Die Kampagnen-/Journey-Ersteller erstellen eine Journey oder Kampagne und reichen sie zur Genehmigung ein. Die Kampagne/Journey wechselt in den Status „Wird überprüft“. In diesem Status können keine Änderungen vorgenommen werden, es sei denn, die Anfrage wird abgebrochen. [Informationen zum Anfordern einer Genehmigung](request-approval.md)
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ Der globale Genehmigungsprozess sieht folgendermaßen aus:
 
 Sie können alle Genehmigungs- und Änderungsanfragen überwachen, die für eine bestimmte Journey oder Kampagne eingereicht wurden. Klicken Sie dazu oben rechts auf der Journey-Arbeitsfläche oder am Bildschirm zur Kampagnenüberprüfung auf das Symbol **[!UICONTROL Audit-Protokoll anzeigen]**.
 
-![](assets/monitor-requests.png)
+![Audit-Protokoll für Genehmigungsanfragen](assets/monitor-requests.png)
 
 ## Weitere Ressourcen
 

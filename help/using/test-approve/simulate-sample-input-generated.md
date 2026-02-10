@@ -11,10 +11,10 @@ badge: label="Private Beta" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 97%
 
 ---
 
@@ -36,11 +36,11 @@ Gehen Sie wie folgt vor, um Varianten für Ihren Inhalt zu generieren und eine V
 
 1. Öffnen Sie Ihren Inhalt und wählen Sie **[!UICONTROL Inhalt simulieren]** / **[!UICONTROL Inhaltsvarianten simulieren]**.
 
-   ![](assets/simulate-sample.png)
+   ![Option „Inhaltsvarianten simulieren“](assets/simulate-sample.png)
 
 2. Klicken Sie auf die Schaltfläche **[!UICONTROL Generieren]**.
 
-   ![](assets/simulate-generate-variant.png)
+   ![Schaltfläche „Varianten generieren“](assets/simulate-generate-variant.png)
 
 3. [!DNL Journey Optimizer] generiert basierend auf erkannten Attributen automatisch Varianten.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '989'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >title="Simulationen mit Beispieleingaben"
 >abstract="Auf diesem Bildschirm können verschiedene Varianten der Inhalte getest werden, indem  Werte für Personalisierungsfelder über eine CSV- oder JSON-Vorlage bereitgestellt oder die Werte manuell eingegeben werden."
 
-Mit Journey Optimizer können Sie mithilfe von Beispieleingabedaten, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden, verschiedene Varianten Ihrer Inhalte in der Vorschau sehen.
+[!DNL Journey Optimizer] können Sie verschiedene Varianten Ihres Inhalts anhand von Beispieleingabedaten in der Vorschau anzeigen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden.
 
 Alle Attribute, die in Ihren Inhalten für die Personalisierung verwendet werden, werden automatisch vom System erkannt und können für Ihre Tests zur Erstellung mehrerer Varianten verwendet werden. Eine Variante bezieht sich auf eine Version des Inhalts mit unterschiedlichen Werten für die zugehörigen Attribute.
 
@@ -49,7 +49,7 @@ Bevor Sie mit dem Testen Ihrer Inhalte unter Verwendung von Beispiel-Eingabedate
 
 * **Attribute**: Sowohl Profil- als auch kontextuelle Attribute werden unterstützt.
 
-* **Datentypen**: Bei der Dateneingabe für Ihre Varianten werden nur die folgenden Datentypen unterstützt: Zahl (Ganzzahl und Dezimalzahl), String, boolescher Wert und Datum. Bei allen anderen Datentypen wird eine Fehlermeldung angezeigt.
+* **Datentypen** - Bei der Eingabe von Daten für Varianten werden nur die folgenden Datentypen unterstützt: Zahl (Ganzzahl und Dezimalzahl), Zeichenfolge, Boolescher Wert und Datentyp. Bei allen anderen Datentypen wird eine Fehlermeldung angezeigt.
 
 * **Variantenanzahl**: Sie können bis zu 30 Varianten entweder mithilfe einer Datei oder manuell hinzufügen, um Ihre Inhalte zu testen.
 
@@ -57,7 +57,7 @@ Bevor Sie mit dem Testen Ihrer Inhalte unter Verwendung von Beispiel-Eingabedate
 
 Um Varianten für Ihren Inhalt zu erstellen und in einer Vorschau anzuzeigen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalte simulieren]** und wählen Sie **[!UICONTROL Inhaltsvarianten simulieren]** aus.
 
-![](assets/simulate-sample.png)
+![Option „Inhaltsvarianten simulieren“](assets/simulate-sample.png)
 
 Die wichtigsten Schritte zum Testen Ihrer Inhalte sind:
 
@@ -71,7 +71,7 @@ Beim Zugriff auf das Erlebnis mit den Inhaltsvarianten werden alle in Ihren Inha
 
 Wenn Ihre E-Mail beispielsweise die beiden Personalisierungsfelder „Stadt“ und „Guthaben an Programmpunkten“ enthält, werden diese in der Liste angezeigt. Zunächst werden keine Werte eingegeben und im Vorschaufenster wird kein personalisierter Inhalt angezeigt.
 
-![](assets/simulate-custom-variants-list.png)
+![Liste der Eingabevarianten](assets/simulate-custom-variants-list.png)
 
 So bearbeiten Sie den Wert einer Variante:
 
@@ -85,7 +85,7 @@ So fügen Sie eine neue Variante hinzu:
 1. Es wird eine neue leere Variante angezeigt, die alle erkannten Personalisierungsfelder enthält.
 1. Bearbeiten Sie die neue Variante nach Bedarf.
 
-![](assets/simulate-custom-add.png)
+![Beispiel-Eingabeschaltfläche erstellen](assets/simulate-custom-add.png)
 
 Sie können auch eine Datei mit vordefinierten Varianten und Werten hochladen, um den Vorgang zu beschleunigen.
 
@@ -113,7 +113,7 @@ Sie können auch eine Datei mit vordefinierten Varianten und Werten hochladen, u
 1. Wenn Ihre Datei fertig ist, klicken Sie auf **[!UICONTROL Eingabedaten hochladen]**, um sie zu laden.
 1. Nach dem Hochladen wird der Liste für jeden Eintrag in der Datei eine neue Variante hinzugefügt.
 
-   ![](assets/simulate-custom-variants.png)
+   ![Hochgeladene Beispiel-Eingabevarianten](assets/simulate-custom-variants.png)
 
 Sobald Varianten hinzugefügt wurden, können Sie diese verwenden, um im rechten Bereich eine Vorschau Ihres Inhalts anzuzeigen und E-Mail-Testsendungen durchzuführen.
 
@@ -125,15 +125,15 @@ Im folgenden Beispiel haben wir zwei Varianten für die E-Mail-Betreffzeile hinz
 
 | Auswahl von Variante 1 | Auswahl von Variante 2 |
 |----------|-------------|
-| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+| ![Auswahl Variante 1](assets/simulate-custom-boxes.png) | ![Auswahl Variante 2](assets/simulate-custom-boxes2.png) |
 
 Für mehrsprachige Inhalte und Experimente steht eine Dropdown-Liste zur Verfügung, über die zwischen den verschiedenen Sprachvarianten oder Abwandlungen gewechselt werden kann.
 
-![](assets/simulate-custom-experiment.png)
+![Sprach- oder Abwandlungsselektor](assets/simulate-custom-experiment.png)
 
-Sie können eine Variante jederzeit entfernen, indem Sie auf die Schaltfläche mit den drei Punkten in der oberen rechten Ecke klicken und **[!UICONTROL Entfernen]** auswählen. Um Informationen für eine Variante zu bearbeiten, klicken Sie auf die Schaltfläche mit den drei Punkten und wählen **[!UICONTROL Bearbeiten]** aus.
+Sie können eine Variante jederzeit entfernen, indem Sie oben rechts auf die Schaltfläche mit den Auslassungspunkten klicken und **[!UICONTROL Entfernen]** auswählen. Um Informationen für eine Variante zu bearbeiten, klicken Sie auf die Schaltfläche mit den drei Punkten und wählen **[!UICONTROL Bearbeiten]** aus.
 
-### Durchführen eines Testversands {#proofs}
+### Durchführen von Testsendungen {#proofs}
 
 Mit Journey Optimizer können Sie Testsendungen an E-Mail-Adressen durchführen und dabei die Identität einer oder mehrerer Varianten annehmen, die Sie im Simulationsbildschirm hinzugefügt haben. Gehen Sie dazu wie folgt vor:
 
@@ -145,10 +145,10 @@ Mit Journey Optimizer können Sie Testsendungen an E-Mail-Adressen durchführen 
 
    Weitere Informationen zu einer Variante erhalten Sie über die Verknüpfung **[!UICONTROL Profilinformationen anzeigen]**. So können Sie die auf dem vorherigen Bildschirm eingegebenen Informationen für die verschiedenen Varianten anzeigen.
 
-   ![](assets/simulate-custom-proofs.png)
+   ![Testversand-Empfänger und Variantenauswahl](assets/simulate-custom-proofs.png)
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testversand durchführen]**, um den Testversand zu beginnen.
 
 1. Um den Testversand zu verfolgen, klicken Sie im Bildschirm „Inhalt simulieren“ auf die Schaltfläche **[!UICONTROL Testsendungen anzeigen]**.
 
-![](assets/simulate-custom-sent-proofs.png)
+![Liste der durchgeführten Testsendungen](assets/simulate-custom-sent-proofs.png)
