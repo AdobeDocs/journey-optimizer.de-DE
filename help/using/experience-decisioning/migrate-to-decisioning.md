@@ -5,9 +5,10 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1240'
 ht-degree: 3%
 
 ---
@@ -26,7 +27,7 @@ Decisioning bietet gegenüber dem alten Entscheidungs-Management-Framework erheb
 
 ### KI- und maschinelle Lernfunktionen
 
-* **Benutzerdefinierte Metriken**: Möglichkeit, benutzerdefinierte Optimierungsmetriken für KI-Modelle zu verwenden. Dies bietet Berichterstellungsinteroperabilität mit [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardisiert das Reporting auf beiden Plattformen und verbessert die Datenkonsistenz und -zuverlässigkeit. Die nahtlose Integration bietet eine klarere Ansicht der Leistungsmetriken und fügt neue Funktionen hinzu, wie z. B. das Erstellen einfacher Metriken, das Veröffentlichen von Zielgruppen, das Stellen von Ad-hoc-Fragen mit Insight Builder und das Planen von Berichten.
+* **Benutzerdefinierte Metriken**: Möglichkeit, benutzerdefinierte Optimierungsmetriken für KI-Modelle zu verwenden. Dies bietet Berichterstellungsinteroperabilität mit [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardisiert das Reporting auf beiden Plattformen und verbessert die Datenkonsistenz und -zuverlässigkeit. Die nahtlose Integration bietet eine klarere Ansicht der Leistungsmetriken und fügt neue Funktionen hinzu, wie z. B. das Erstellen einfacher Metriken, das Veröffentlichen von Zielgruppen, das Stellen von Ad-hoc-Fragen mit Insight Builder und das Planen von Berichten.
 
 * **Steigerungsmessung**: Möglichkeit, Traffic in KI-Modellen zu visualisieren, zu erkunden oder zu nutzen. Dadurch können Marketing-Experten und Datenwissenschaftler quantifizieren, wie die KI-Exploration die langfristige Modellleistung und die Auffindbarkeit neuer erfolgreicher Angebote verbessert. Transparenz bei der Traffic-Zuordnung schafft Vertrauen in KI-Entscheidungen und ermöglicht es Teams, im Laufe der Zeit sowohl für das Lernen als auch für die Leistung zu optimieren. [Weitere Informationen](ranking/auto-optimization-model.md#lift)
 
@@ -64,7 +65,7 @@ Dashboard, das die Leistung von Entscheidungselementen und Auswahlstrategien geg
 
 * **Richtliniendurchsetzung**: Befähigung von Business-Anwendern zur Verwendung von Funktionen [Datennutzungskennzeichnung und -durchsetzung (DULE)](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview){target="_blank"} und [Einverständnis](../action/consent.md) innerhalb von Decisioning, wodurch der Datenschutz im gesamten Entscheidungs-Workflow gewährleistet wird. Dadurch wird sichergestellt, dass Entscheidungen automatisch die Datennutzungsrichtlinien und die Voreinstellungen für das Kundeneinverständnis berücksichtigen.
 
-* **Native Messaging-Kanal-**: Integriertes Messaging und Entscheidungsfindung innerhalb eines einzigen Frameworks über mehrere Kanäle hinweg ([Code-basiertes Erlebnis](../code-based/get-started-code-based.md) und [E-Mail](../email/get-started-email.md) derzeit verfügbar, andere Kanäle kommen in H1 2026). Dank der intuitiven Unterstützung der Benutzeroberfläche können Benutzer Entscheidungskomponenten direkt in Workflows zur Nachrichtenerstellung einfügen.
+* **Native Messaging-Kanal-**: Integriertes Messaging und Entscheidungsfindung innerhalb eines einzigen Frameworks über mehrere Kanäle hinweg: [Code-basiertes Erlebnis](../code-based/get-started-code-based.md), [E-Mail](../email/get-started-email.md) (eingeschränkte Verfügbarkeit), [SMS](../sms/get-started-sms.md) und [Push-Benachrichtigungen](../push/get-started-push.md). Dank der intuitiven Unterstützung der Benutzeroberfläche können Benutzer Entscheidungskomponenten direkt in Workflows zur Nachrichtenerstellung einfügen.
 
 * **Experience Platform-Datensatzsuche**: Möglichkeit zum Hochladen und Referenzieren von [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/overview){target="_blank"}Datensätzen direkt innerhalb der Angebotsauswahlregeln, der Rangfolge und des personalisierten Angebotsinhalts. Dies erhöht die Flexibilität bei Personalisierung und Targeting, da die Entscheidungslogik dynamische externe Datenquellen verwenden kann. [Weitere Informationen](../data/lookup-aep-data.md)
 
@@ -102,4 +103,3 @@ Die vollständige API-Dokumentation, einschließlich Authentifizierung, Endpunkt
 * [Erste Schritte mit der Entscheidungsfindung](gs-experience-decisioning.md)
 * [Leitplanken und Einschränkungen bei Entscheidungen](decisioning-guardrails.md)
 * [Häufig gestellte Fragen zu Decisioning](decisioning-faq.md)
-

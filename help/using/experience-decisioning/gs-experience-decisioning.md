@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 93%
+source-wordcount: '674'
+ht-degree: 82%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 93%
 
 Die Entscheidungsfindung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Rangfolgekriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
-Diese Entscheidungselemente werden über den ([-basierten Erlebniskanal) nahtlos in eine Vielzahl eingehender Oberflächen integriert](../code-based/get-started-code-based.md) auf die in [!DNL Adobe Journey Optimizer] Kampagnen zugegriffen werden kann.
+Diese Entscheidungselemente werden nahtlos in Nachrichten und Erlebnisse auf [!DNL Adobe Journey Optimizer] Kanälen integriert: [Code-basiertes Erlebnis](../code-based/get-started-code-based.md), E-Mail, SMS und Push-Benachrichtigungen.
 
 >[!IMPORTANT]
 >
->Entscheidungsrichtlinien für die Entscheidungsfindung sind nur zur Verwendung in Code-basierten Erlebniskampagnen und E-Mail-Kampagnen verfügbar.
+>Entscheidungsrichtlinien stehen allen Kunden für die Kanäle **Code-basiertes Erlebnis**, **Push-Benachrichtigung** und **SMS** zur Verfügung. Die Entscheidungsfindung für den **E-Mail**-Kanal ist nur in begrenzter Verfügbarkeit verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern. Weitere Informationen zu [Verfügbarkeitskennzeichnungen](../rn/releases.md#availability-labels).
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -85,7 +85,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
    ➡️ [Informationen zum Erstellen von Auswahlstrategien in der Benutzeroberfläche](selection-strategies.md) in der Benutzeroberfläche (und in der [API-Dokumentation](api-reference/selection-strategies/create.md))
 
-1. **Eine Entscheidungsrichtlinie erstellen und in die Code-basierte oder E-Mail-Journey/-Kampagne einbetten**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die für die gewünschte Zielgruppe anzuzeigenden geeigneten Entscheidungselemente zu bestimmen.
+1. **Erstellen Sie eine Entscheidungsrichtlinie und betten Sie sie in Ihre Journey oder Kampagne ein** (Code-basiertes Erlebnis, E-Mail, SMS oder Push): Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die geeigneten Entscheidungselemente zu bestimmen, die für die vorgesehene Audience angezeigt werden sollen.
 
    ➡️ [Informationen zum Arbeiten mit Entscheidungsrichtlinien](create-decision.md)
 ➡️ Um das Angebot erfolgreich über den Code-basierten Erlebniskanal bereitzustellen, befolgen Sie die Implementierungsschritte in [diesem Abschnitt](../code-based/code-based-implementation-samples.md).
@@ -105,4 +105,4 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
 Erfahren Sie mehr über die Entscheidungsfunktionen in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475872?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
