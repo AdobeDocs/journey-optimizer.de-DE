@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden einer Zielgruppe in einer Journey
-description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe lesen“ so konfigurieren und verwenden, dass Personen aus Adobe Experience Platform-Zielgruppen in Journeys eintreten.
+description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe lesen“ konfigurieren und verwenden, damit Personen aus - [!DNL Adobe Experience Platform]  in Journeys eintreten.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -10,14 +10,16 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 846a831077680e1654041b05b59233c138b559fb
+source-git-commit: ac7793f9ac38528fbe9252ad2f12921ca7fe0665
 workflow-type: tm+mt
-source-wordcount: '3033'
-ht-degree: 100%
+source-wordcount: '3024'
+ht-degree: 92%
 
 ---
 
 # Verwenden einer Zielgruppe in einer Journey {#segment-trigger-activity}
+
+Verwenden Sie die Aktivität Zielgruppe lesen , um Journey mit definierten Zielgruppen zu starten.
 
 ## Über die Aktivität „Zielgruppe lesen“ {#about-segment-trigger-actvitiy}
 
@@ -56,11 +58,13 @@ Die Schritte zum Konfigurieren der Aktivität „Zielgruppe lesen“ werden im F
 
    >[!NOTE]
    >
-   >Darüber hinaus können Sie [!DNL Adobe Experience Platform]-Zielgruppen ansprechen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) erstellt oder [aus einer CSV-Datei hochgeladen wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}. [Weitere Informationen zum Generieren und Ansprechen von Zielgruppen in Journey Optimizer](../audience/about-audiences.md).
+   >Darüber hinaus können Sie [!DNL Adobe Experience Platform] Zielgruppen ansprechen, die mithilfe von [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) erstellt wurden.
+   >Sie können auch Zielgruppen auswählen [aus einer CSV-Datei hochgeladen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}.
+   >[Weitere Informationen zum Generieren und Ansprechen von Zielgruppen in Journey Optimizer](../audience/about-audiences.md).
 
    Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
 
-   ![Benutzeroberfläche zur Zielgruppenauswahl mit verfügbaren Adobe Experience Platform-Zielgruppen](assets/read-segment-selection.png)
+   ![Benutzeroberfläche zur Zielgruppenauswahl mit verfügbaren [!DNL Adobe Experience Platform] Zielgruppen](assets/read-segment-selection.png)
 
    Nachdem die Zielgruppe hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** deren Namen und ID kopieren:
 
@@ -186,7 +190,7 @@ So minimieren Sie das Risiko fehlender Profile:
 
 >[!CAUTION]
 >
->Wenn Sie auf eine [benutzerdefinierte Upload-Zielgruppe](../audience/about-audiences.md#about-segments) in Ihrer Journey abzielen, werden Profile nur beim ersten Intervall abgerufen, wenn diese Option in einer wiederkehrenden Journey aktiviert ist, da diese Zielgruppen fixiert sind.
+>Wenn Sie eine [benutzerdefinierte Upload-Zielgruppe](../audience/about-audiences.md#about-segments) auf Ihrem Journey ansprechen, werden Profile nur bei der ersten Wiederholung abgerufen, wenn diese Option auf einer wiederkehrenden Journey aktiviert ist. Diese Zielgruppen sind unveränderlich.
 
 +++
 
@@ -194,7 +198,7 @@ So minimieren Sie das Risiko fehlender Profile:
 
 Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch austreten lassen. 
 
-Wenn Sie beispielsweise eine Wartezeit von 2 Tagen in einer wiederkehrenden Journey haben, werden Profile immer zur nächsten Journey-Ausführung (also am darauffolgenden Tag) verschoben, unabhängig davon, ob sie sich in der Zielgruppe der nächsten Ausführung befinden oder nicht. 
+Wenn Sie beispielsweise eine Wartezeit von 2 Tagen auf einer täglich wiederkehrenden Journey haben, werden Profile bei Aktivierung dieser Option zur nächsten Journey-Ausführung verschoben. Dies geschieht am darauffolgenden Tag, unabhängig davon, ob sie sich in der Zielgruppe der nächsten Ausführung befinden oder nicht.
 
 Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit der Intervalle sein kann, aktivieren Sie diese Option nicht. So stellen Sie sicher, dass die Profile ihre Journey abschließen können.
 
@@ -297,7 +301,7 @@ Wenn Sie Diskrepanzen zwischen der geschätzten Zielgruppengröße, den qualifiz
 
 * **Abschluss des Batch-Segmentierungsauftrags**: Stellen Sie für Batch-Zielgruppen sicher, dass der tägliche Batch-Segmentierungsauftrag abgeschlossen ist und Momentaufnahmen aktualisiert werden, bevor die Journey ausgeführt wird. Batch-Zielgruppen sind etwa **2 Stunden** nach Abschluss des Segmentierungsauftrags einsatzbereit. Weitere Informationen zu [Methoden zur Zielgruppenauswertung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#evaluate-segments){target="_blank"}.
 
-* **Zeitpunkt der Datenaufnahme**: Stellen Sie sicher, dass die Profildatenaufnahme vor der Journey-Ausführung vollständig abgeschlossen wurde. Wenn Profile kurz vor dem Start der Journey aufgenommen wurden, werden sie möglicherweise noch nicht in der Zielgruppe angezeigt. Weitere Informationen zur [Datenaufnahme in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target="_blank"}.
+* **Zeitpunkt der Datenaufnahme**: Stellen Sie sicher, dass die Profildatenaufnahme vor der Journey-Ausführung vollständig abgeschlossen wurde. Wenn Profile kurz vor dem Start der Journey aufgenommen wurden, werden sie möglicherweise noch nicht in der Zielgruppe angezeigt. Weitere Informationen zu [Datenaufnahme in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target="_blank"}.
 
 * **Option „Nach Batch-Zielgruppenauswertung auslösen“ verwenden**: Bei täglich geplanten Journeys, die Batch-Zielgruppen verwenden, sollten Sie die Option **[!UICONTROL Nach Batch-Zielgruppenauswertung auslösen]** aktivieren. Dadurch wird sichergestellt, dass die Journey vor der Ausführung auf neue Zielgruppendaten wartet (bis zu 6 Stunden). [Weitere Informationen zur Planung](#schedule)
 
@@ -305,9 +309,9 @@ Wenn Sie Diskrepanzen zwischen der geschätzten Zielgruppengröße, den qualifiz
 
 ### Validieren und Überwachen von Daten
 
-* **Status des Segmentierungsauftrags prüfen**: Überwachen Sie die Fertigstellungszeiten des Batch-Segmentierungsauftrags im [Überwachungs-Dashboard](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=de){target="_blank"} von Adobe Experience Platform, um zu prüfen, wann die Zielgruppendaten bereit sind.
+* **Status des Segmentierungsauftrags überprüfen** Überwachen der Abschlusszeiten von Batch-Segmentierungsaufträgen im [!DNL Adobe Experience Platform]Überwachungs[Dashboard](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=de){target="_blank"}. Verwenden Sie sie, um zu überprüfen, wann Zielgruppendaten bereit sind.
 
-* **Zusammenführungsrichtlinien prüfen**: Stellen Sie sicher, dass die für Ihre Zielgruppe konfigurierte Zusammenführungsrichtlinie dem erwarteten Verhalten für die Kombination von Profildaten aus verschiedenen Quellen entspricht. Weitere Informationen zu [Zusammenführungsrichtlinien in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=de){target="_blank"}.
+* **Zusammenführungsrichtlinien prüfen**: Stellen Sie sicher, dass die für Ihre Zielgruppe konfigurierte Zusammenführungsrichtlinie dem erwarteten Verhalten für die Kombination von Profildaten aus verschiedenen Quellen entspricht. Weitere Informationen zu [Zusammenführungsrichtlinien in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=de){target="_blank"}.
 
 * **Segmentdefinitionen prüfen**: Prüfen Sie, ob Segmentdefinitionen korrekt konfiguriert sind, und schließen Sie alle erwarteten Qualifikationskriterien ein. Weitere Informationen zum [Erstellen von Zielgruppen](../audience/creating-a-segment-definition.md). Achten Sie besonders auf Folgendes:
    * Zeitbasierte Bedingungen, die Profile basierend auf Ereignis-Zeitstempeln ausschließen können
@@ -332,7 +336,7 @@ Wenn es nach Befolgung dieser Schritte weiterhin zu Diskrepanzen hinsichtlich de
 
 Beim Abrufen des Exportauftrags werden standardmäßig weitere Versuche bei zielgruppenseitig ausgelösten Journeys durchgeführt (beginnend mit der Aktivität **Zielgruppe lesen** oder einem **Geschäftsereignis**). Tritt bei der Erstellung des Exportauftrags ein Fehler auf, werden alle 10 Minuten, aber höchstens eine Stunde lang, weitere Versuche unternommen. Danach wird von einem Fehler ausgegangen. Diese Journey-Typen können daher bis zu einer Stunde nach der geplanten Zeit ausgeführt werden.
 
-Nicht erfolgreiche **Zielgruppen lesen**-Trigger werden erfasst und in den **Warnhinweisen** angezeigt. Der **Warnhinweis „Zielgruppe lesen“** erscheint, wenn eine Aktivität **Zielgruppe lesen** 10 Minuten nach der festgelegten Ausführungszeit kein Profil bearbeitet hat. Dieser Fehler kann durch technische Probleme oder eine leere Zielgruppe verursacht werden. Wenn dieser Fehler auf technische Probleme zurückzuführen ist, sind je nach Problemtyp dennoch weitere Versuche möglich (wenn z. B. die Erstellung eines Exportauftrags fehlgeschlagen ist, erfolgt alle 10 Minuten, aber höchstens eine Stunde lang, ein erneuter Versuch). [Weitere Informationen](../reports/alerts.md#alert-read-audiences)
+Erfolglose **Zielgruppe lesen**-Trigger werden erfasst und in **Warnhinweisen** angezeigt. Der Warnhinweis **Zielgruppe lesen** warnt Sie, wenn eine Aktivität **Zielgruppe lesen** 10 Minuten nach der geplanten Ausführungszeit kein Profil verarbeitet hat. Dieser Fehler kann durch technische Probleme oder eine leere Zielgruppe verursacht werden. Wenn der Fehler auf technische Probleme zurückzuführen ist, können je nach Problemtyp weiterhin weitere Zustellversuche unternommen werden. Wenn die Erstellung des Exportvorgangs beispielsweise fehlschlägt, versuchen wir alle 10 Minuten bis zu 1 Stunde erneut. [Weitere Informationen](../reports/alerts.md#alert-read-audiences)
 
 ## Verwandte Themen
 
@@ -346,4 +350,4 @@ Nicht erfolgreiche **Zielgruppen lesen**-Trigger werden erfasst und in den **War
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
