@@ -36,7 +36,7 @@ Um Journey und Kampagnen zu genehmigen und zu veröffentlichen, müssen Benutzen
 
 1. Fügen Sie die Ressource **Kampagnen** hinzu und wählen Sie dann **Kampagnen genehmigen und veröffentlichen** aus dem Dropdown-Menü aus.
 
-   ![Berechtigung zum Zuweisen, Genehmigen und Veröffentlichen ](assets/permissions_approval.png){zoomable="yes"}
+   ![Berechtigung zum Zuweisen, Genehmigen und Veröffentlichen &#x200B;](assets/permissions_approval.png){zoomable="yes"}
 
 1. Fügen Sie die Ressource **Journey** hinzu und wählen Sie dann **Journeys genehmigen und veröffentlichen** aus dem Dropdown-Menü aus.
 
