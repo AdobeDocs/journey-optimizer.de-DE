@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
+source-git-commit: 8ced9477edf8a7129e974d007755e132f3079943
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 93%
+source-wordcount: '891'
+ht-degree: 97%
 
 ---
 
@@ -60,10 +60,11 @@ Weitere Informationen zu den spezifischen Ausschlussgründen finden Sie in der f
 | EmailNoVariantDefined | 050026 | E-Mail | Ein Ausschlussereignis wird generiert, wenn in der E-Mail-Nachricht keine Variante definiert ist. |
 | EmailNoMessageFoundForTreatment | 050027 | E-Mail | Ein Ausschlussereignis wird generiert, wenn das Experiment für die Nachricht aktiviert ist und keine Nachricht für die qualifizierte Abwandlung gefunden wird. |
 | EmailMalformedAddress | 050024 | E-Mail | Ein Ausschlussereignis wird generiert, wenn die E-Mail eine fehlerhafte Adresse enthält. |
+| UnsubscribeLinkNotValid | 050081 | E-Mail | Ein Ausschlussereignis wird generiert, wenn die Betrefflänge von „list-unsubscribe mailTo“ größer als das RFC-Limit von 998 Zeichen ist. |
 | InAppNoVariantDefined | 050041 | InApp | Ein Ausschlussereignis wird generiert, wenn für In-App-Nachrichten keine Variante definiert ist. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Ein Ausschlussereignis wird generiert, wenn das Experiment für die Nachricht aktiviert ist und keine Nachricht für die qualifizierte Abwandlung gefunden wird. |
 | PushNoTokenFoundInProfile | 050030 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn das Profil keine Push-Token aufweist. |
-| PushNoValidTokenFoundForApps | 050031 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn in der Konfiguration kein gültiges Token für die ausgewählten Apps gefunden wird. **Wichtig:** Bei Verwendung eines Produktionszertifikats muss das Attribut `pushNotificationDetails.platform` im Benutzerprofil auf `apns` gesetzt werden. Wenn Sie ein Sandbox-Zertifikat verwenden, setzen Sie es auf `apnsSandbox`. Wenn das Plattformattribut und der Zertifikatstyp nicht übereinstimmen, tritt dieser Trigger auf. |
+| PushNoValidTokenFoundForApps | 050031 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn in der Konfiguration kein gültiges Token für die Zielanwendungen gefunden wird. **Wichtig:** Bei Verwendung eines Produktionszertifikats muss das Attribut `pushNotificationDetails.platform` im Benutzerprofil auf `apns` gesetzt werden. Wenn Sie ein Sandbox-Zertifikat verwenden, setzen Sie es auf `apnsSandbox`. Wenn das Plattformattribut und der Zertifikatstyp nicht übereinstimmen, wird dieser Ausschluss ausgelöst. |
 | PushMalformedProfile | 050034 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn pushNotificationDetails im Profil fehlerhaft ist. |
 | PushNoConsent | 050111 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn die Person sich von Marketing-Push-Benachrichtigungen abgemeldet hat. |
 | PushNoApplicationDefinedInPreset | 050033 | Push-Benachrichtigung | Ein Ausschlussereignis wird generiert, wenn die Konfiguration keine Zielanwendung enthält. |
