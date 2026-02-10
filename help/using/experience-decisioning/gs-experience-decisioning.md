@@ -105,4 +105,4 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
 
 Erfahren Sie mehr über die Entscheidungsfunktionen in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475872?captions=ger&quality=12)
