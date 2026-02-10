@@ -6,13 +6,13 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
+source-git-commit: 743165991c3f4d351cd6ab15e94ece0309c8e82a
 workflow-type: tm+mt
 source-wordcount: '2108'
 ht-degree: 68%
 
 ---
-
 
 # Erstellen von Entscheidungsrichtlinien {#create-decision}
 
@@ -322,6 +322,6 @@ Für E-Mails müssen Sie eine Platzierung für die Komponente definieren, die mi
 
 ## Nächste Schritte {#next-steps}
 
-Nachdem Sie nun wissen, wie Sie eine Entscheidungsrichtlinie erstellen, können Sie sie in [!DNL Journey Optimizer]-Kanälen verwenden, um Angebote zu unterbreiten.
+Nachdem Sie nun wissen, wie Sie eine Entscheidungsrichtlinie erstellen, können Sie sie in [!DNL Journey Optimizer] Kanälen verwenden, um Angebote zu unterbreiten.
 
 ➡️ [Informationen zum Verwenden von Entscheidungsrichtlinien in Nachrichten](../experience-decisioning/use-decision-policy.md)
