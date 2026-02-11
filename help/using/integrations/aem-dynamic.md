@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 9ec2255cd618035179b5dbc01b2e15374af65f3b
+source-git-commit: 714d3dc6f0c8351e95ce4a2df2ad251c1491904b
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 100%
+source-wordcount: '993'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Weitere Informationen zu Dynamic Media in Adobe Experience Manager as a Cloud Se
 
 >[!AVAILABILITY]
 >
->Für Kundinnen und Kunden im Gesundheitswesen wird die Integration nur bei einer Lizenzierung der Add-on-Angebote Journey Optimizer Healthcare Shield und Adobe Experience Manager Enhanced Security aktiviert.
+>Für Kundinnen und Kunden im Gesundheitswesen wird die Integration nur bei einer Lizenzierung der Add-on-Angebote Journey Optimizer Healthcare Shield und Adobe Experience Manager Extended Security for Healthcare aktiviert.
 
 
 ## Hinzufügen und Verwalten von Dynamic Media {#dynamic-media}
@@ -254,9 +254,9 @@ Enable conditional content in your dynamic media to better target your audience 
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie mehr darüber, wie Adobe Experience Manager Dynamic Media mit Adobe Journey Optimizer integriert werden kann, um eine Aktualisierung und Personalisierung von Inhalten in Echtzeit zu ermöglichen.
+Erfahren Sie, wie Sie Adobe Experience Manager Dynamic Media mit Adobe Journey Optimizer integrieren, um eine Aktualisierung und Personalisierung von Inhalten in Echtzeit zu ermöglichen.
 
 In diesem Tutorial wird beschrieben, wie Sie Bilder direkt in AJO ändern, im HTML-Modus Textüberlagerungen hinzufügen, Dynamic Media-Vorlagen in AEM zur Hyperpersonalisierung erstellen und Kampagnen personalisieren, indem Sie Inhalte auf verschiedene Zielgruppensegmente zuschneiden. Diese Integration ermöglicht es Marketing-Fachleuten, ansprechende und personalisierte Kampagnen effizient zu erstellen, ohne zwischen Anwendungen wechseln zu müssen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463791/?captions=ger&learn=on&enablevpops=&autoplay=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 
