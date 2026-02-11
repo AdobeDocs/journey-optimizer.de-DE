@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 9281adb50d13142ccf323ff5edb3f480b801d986
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1806'
 ht-degree: 87%
 
 ---
@@ -27,17 +27,28 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Januar 2026 – Versionshinweise {#latest-rn}
+## Updates Februar &#39;26 {#feb-26-updates}
 
-<!--**Release date**: January 27-28, 2026-->
+### Neue Funktionen {#feb-26-01-updates-features}
 
-Die Abschnitte [Funktionen](#jan-26-01-features) und [Verbesserungen](#jan-26-01-improv) decken bereits verfügbare Funktionen ab, während [Demnächst verfügbar](#jan-26-01-coming-soon) Elemente auflistet, die für ein späteres Verfügbarkeitsdatum geplant sind.
-
-<!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
-
-### Neue Funktionen {#jan-26-01-features}
+<table>
+<thead>
+<tr>
+<th><strong>Aktivität „Inhaltsentscheidung“ </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eine neue <strong>Aktivität „Inhaltsentscheidung“</strong> ist jetzt in der Journey-Arbeitsfläche verfügbar, mit der Sie <strong>personalisierte Angebote</strong> direkt in Ihre Customer Journeys integrieren können. Mit dieser Aktivität können Sie entscheidungsbasierte Inhalte bereitstellen und diese Angebote in Ihrer gesamten Journey referenzieren, zum Beispiel in Bedingungen für die Erstellung von Verzweigungen je nach Eignung, in benutzerdefinierten Aktionen für die Weitergabe von Angebotsdaten an externe Systeme und in anderen Aktivitäten für die Erstellung vollständig personalisierter Kundenerlebnisse.</p>
+<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p><img src="assets/do-not-localize/content-decision.gif"/></p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/content-decision.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: Donnerstag, 11. Februar 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -79,8 +90,8 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tr>
 </tbody>
 </table>
-<table>
 
+<table>
 <thead>
 <tr>
 <th><strong>Entscheidungsunterstützung im SMS-Kanal</strong><br/></th>
@@ -96,6 +107,30 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tr>
 </tbody>
 </table>
+
+### Verbesserungen {#feb-26-01-updates-improv}
+
+<!--
+* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach <strong>fragments</strong> to <strong>decision items</strong> which can be leveraged in code-based experience campaigns through decision policies.
+
+  Availability date: February 11, 2026.-->
+
+* **SMS-Webhooks** - Webhooks werden jetzt von allen SMS-Anbietern unterstützt. Sie können jeden Webhook für einen bestimmten Zweck, eingehende Webhooks zum Erfassen eingehender Nachrichten und Feedback-Webhooks konfigurieren, um Versandbestätigungen, Statusaktualisierungen und andere nachrichtenbezogene Ereignisse zu erhalten. [Weitere Informationen](../sms/sms-webhook.md)
+
+  Verfügbarkeit: 2. Februar 2026.
+
+## Januar 2026 – Versionshinweise {#latest-rn}
+
+<!--**Release date**: January 27-28, 2026-->
+
+Die Abschnitte [Funktionen](#jan-26-01-features) und [Verbesserungen](#jan-26-01-improv) decken bereits verfügbare Funktionen ab, während [Demnächst verfügbar](#jan-26-01-coming-soon) Elemente auflistet, die für ein späteres Verfügbarkeitsdatum geplant sind.
+
+<!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
+
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+
+### Neue Funktionen {#jan-26-01-features}
+
 
 <table>
 <thead>
@@ -255,7 +290,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Inhaltsqualitätsprüfungen mit dem KI-Assistenten** – Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um potenzielle Probleme mit <strong>Lesbarkeit</strong>, Kohärenz und Effektivität unabhängig von Ihren Markenrichtlinien aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. [Weitere Informationen](../content-management/brands-score.md#validate-quality).
 
-   [Funktion im Video kennenlernen](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on).
+   [Funktion im Video kennenlernen](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Journeys
 
@@ -317,12 +352,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   Verfügbarkeitsdatum: Mittwoch, 27. Januar 2026
 
-#### SMS
-
-* **SMS-Webhooks** - Webhooks werden jetzt von allen SMS-Anbietern unterstützt. Sie können jeden Webhook für einen bestimmten Zweck, eingehende Webhooks zum Erfassen eingehender Nachrichten und Feedback-Webhooks konfigurieren, um Versandbestätigungen, Statusaktualisierungen und andere nachrichtenbezogene Ereignisse zu erhalten. [Weitere Informationen](../sms/sms-webhook.md)
-
-  Verfügbarkeitsdatum: Dienstag, 2. Februar 2026
-
 <!--
 ## Coming soon {#jan-26-01-coming-soon}
 
@@ -330,22 +359,6 @@ In the next few days, the following capabilities and enhancements are scheduled 
 
 ### Features
 
-<table>
-<thead>
-<tr>
-<th><strong>Content decision activity</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new <strong>Content decision activity</strong> is now available in the journey canvas for integrating <strong>personalized offers</strong> directly into your customer journeys. This activity enables you to deliver decision-based content and reference those offers throughout your journey - in conditions for creating eligibility-based branching, in custom actions for passing offer data to external systems, and in other activities for building fully personalized customer experiences.</p>
-<p>This capability will be available to all environments (General Availability).</p>
-<p>Availability date: February 11, 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -367,9 +380,5 @@ In the next few days, the following capabilities and enhancements are scheduled 
 
 ### Improvements
 
-
-* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach <strong>fragments</strong> to <strong>decision items</strong> which can be leveraged in code-based experience campaigns through decision policies.
-
-  Availability date: February 11, 2026.
 
 -->
