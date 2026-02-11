@@ -7,24 +7,19 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsrichtlinie, Arbeitsfläche, Journey
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 93%
+source-wordcount: '1242'
+ht-degree: 82%
 
 ---
 
 # Aktivität „Inhaltsentscheidung“  {#content-decision}
 
->[!AVAILABILITY]
->
->Diese Funktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.
-
-Sie können in [!DNL Journey Optimizer] über die dedizierte Aktivität **Inhaltsentscheidung** auf der Journey-Arbeitsfläche Angebote in Ihre Journey einbeziehen. Anschließend können Sie Ihren Journeys weitere Aktivitäten (wie [benutzerdefinierte Aktionen](../action/about-custom-action-configuration.md)) hinzufügen, um Ihre Zielgruppen mit diesen personalisierten Angeboten anzusprechen.
+Mit [!DNL Journey Optimizer] können Sie über die dedizierte Aktivität **Inhaltsentscheidung“ auf der Journey-** Angebote in Ihre Journey einbeziehen. Anschließend können Sie Ihren Journeys weitere Aktivitäten (wie [benutzerdefinierte Aktionen](../action/about-custom-action-configuration.md)) hinzufügen, um Ihre Zielgruppen mit diesen personalisierten Angeboten anzusprechen.
 
 >[!NOTE]
 >
@@ -78,11 +73,11 @@ Sie können jetzt die Ausgabe dieser Aktivität vom Typ „Inhaltsentscheidung�
 
 **Einverständnisrichtlinien**
 
-Es kann bis zu 48 Stunden dauern, bis aktualisierte Einverständnisrichtlinien wirksam werden. Wenn eine Entscheidungsrichtlinie auf ein Attribut verweist, das mit einer kürzlich aktualisierten Einverständnisrichtlinie verknüpft ist, werden die Änderungen nicht sofort angewendet.
+* Es kann bis zu 48 Stunden dauern, bis aktualisierte Einverständnisrichtlinien wirksam werden. Wenn eine Entscheidungsrichtlinie auf ein Attribut verweist, das mit einer kürzlich aktualisierten Einverständnisrichtlinie verknüpft ist, werden die Änderungen nicht sofort angewendet.
 
-Ebenso können neue Profilattribute, die einer Einverständnisrichtlinie unterliegen, zu einer Entscheidungsrichtlinie hinzugefügt und verwendet werden. Die zugehörige Einverständnisrichtlinie wird erst durchgesetzt, wenn die Verzögerung abgelaufen ist.
+* Wenn neue Profilattribute, die einer Einverständnisrichtlinie unterliegen, zu einer Entscheidungsrichtlinie hinzugefügt werden, sind sie ebenfalls verwendbar, aber die mit ihnen verknüpfte Einverständnisrichtlinie wird erst erzwungen, wenn die Verzögerungszeit vorüber ist.
 
-Einverständnisrichtlinien sind nur für Organisationen verfügbar, die über das Zusatzangebot „Adobe Healthcare Shield“ oder „Privacy and Security Shield“ verfügen.
+* Einverständnisrichtlinien sind nur für Organisationen verfügbar, die über das Zusatzangebot „Adobe Healthcare Shield“ oder „Privacy and Security Shield“ verfügen.
 
 ## Verwenden der Ausgabe der Aktivität „Inhaltsentscheidung“ {#use-content-decision-output}
 
@@ -114,7 +109,7 @@ Um die Ausgabe einer Aktivität vom Typ „Inhaltsentscheidung“ zu nutzen, kö
 
    >[!NOTE]
    >
-   >Jede für ein Attribut definierte eingeschränkte Beschriftung kann zu einer Richtlinienverletzung bei DULE oder Einverständnis führen. Dies gilt für das Journey von Erlebnisereignissen, die in einer Entscheidungsregel verwendet werden, und für das [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema). Weitere Informationen zu Data-Governance-Richtlinien finden [&#x200B; in diesem Abschnitt](../action/action-privacy.md).
+   >Jede für ein Attribut definierte eingeschränkte Beschriftung kann zu einer Richtlinienverletzung bei DULE oder Einverständnis führen. Dies gilt für das Journey von Erlebnisereignissen, die in einer Entscheidungsregel verwendet werden, und für das [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema). Weitere Informationen zu Data-Governance-Richtlinien finden [ in diesem Abschnitt](../action/action-privacy.md).
 
 1. Um zu überprüfen, ob für die Profile, die in die Journey eintreten, ein Angebot zurückgegeben wurde, verwenden Sie die Funktion [listSize](functions/list-functions.md#listSize) mit der folgenden Syntax: `listSize(@decision{ContentdecisionName.items})>0`
 
@@ -152,7 +147,7 @@ Um die Ausgabe einer Aktivität vom Typ „Inhaltsentscheidung“ zu nutzen, kö
    >
    >Die Ausgabe eines Knotens vom Typ „Inhaltsentscheidung“ ist nur im **[!UICONTROL erweiterten Modus]** verfügbar.
 
-1. Durchsuchen Sie das [Angebotskatalogschema](../experience-decisioning/catalogs.md#access-catalog-schema) mithilfe des `items`-Arrays. Verwenden Sie beispielsweise `itemName` vom ersten abgerufenen Angebot und `itemName` vom zweiten abgerufenen Angebot.
+1. Durchsuchen Sie das [Angebotskatalogschema](../experience-decisioning/catalogs.md#access-catalog-schema) mithilfe des `items` Arrays. Verwenden Sie beispielsweise `itemName` vom ersten abgerufenen Angebot und `itemName` vom zweiten abgerufenen Angebot.
 
    ![Anfrageparameter der benutzerdefinierten Aktion, einschließlich der Entscheidungsrichtlinie](assets/journey-content-decision-custom-action-param-ex.png)
 
@@ -181,3 +176,60 @@ Folgendes gilt, sobald die Journey [aktiviert](publish-journey.md) ist:
 1. Nur Profile, für die mindestens ein Angebot abgerufen wurde, setzen die Journey fort (über den Pfad „Geeignete Profile“).
 
 1. Wenn die Bedingung erfüllt ist, werden die entsprechenden Angebote über die benutzerdefinierte Aktion an ein externes System gesendet.
+
+## Entscheidungsdaten in Schrittereignissen {#decisioning-step-events}
+
+Wenn eine Inhaltsentscheidungsaktivität auf einer Journey ausgeführt wird, werden Entscheidungsdaten in den Journey-Schrittereignissen verfügbar gemacht. Diese Daten enthalten detaillierte Informationen über die abgerufenen Elemente und darüber, wie die Entscheidungen getroffen wurden.
+
+Für jede Inhaltsentscheidungsaktivität enthält das Schrittereignis Entscheidungsdaten auf der obersten Ebene (z. B. **exdRequestID** und **propositionEventType**) und ein Array **Vorschläge**. Jeder Vorschlag verfügt über **id**, **scopeDetails** (einschließlich Entscheidungsanbieter, Korrelations-ID und Entscheidungsrichtlinie) und ein **items** -Array. Jedes Element enthält:
+
+* **id**: Die eindeutige Kennung des Elements
+* **name**: Der Name des Elements
+* **score**: Die dem Element zugewiesene Bewertung
+* **itemSelection**: Daten, die sich darauf beziehen, wie die Entscheidung getroffen und das Element abgerufen wurde, einschließlich:
+   * **selectionDetail**: Informationen zur verwendeten Auswahlstrategie
+   * **rankingDetail**: Informationen zum Ranking-Prozess (Strategie, Algorithmus, Schritt, Traffic-Typ)
+
+**Beispiel für Entscheidungsdaten in einem Schrittereignis:**
+
+```json
+"decisioning": {
+  "exdRequestID": "8079d2bb-a8b2-4ecf-b9e7-32923dd6ad4e",
+  "propositions": [
+    {
+      "id": "f475cb21-0842-44da-b0eb-70766ba53464",
+      "scopeDetails": {
+        "decisionProvider": "EXD",
+        "correlationID": "6940d1c46208f3c00dae2ab94f3cd31c601461b47bf6d29ff8af0d0806a9c204",
+        "decisionPolicy": {
+          "id": "b913f724-3747-447b-a51e-8a2f9178f0db"
+        }
+      },
+      "items": [
+        {
+          "id": "dps:14c7468e7f6271ff8023748a1146d11f05f77b7fc1368081:1bebbf0b7e0f1374",
+          "name": "My item name",
+          "score": 0.93,
+          "itemSelection": {
+            "selectionDetail": {
+              "strategyID": "dps:selection-strategy:1bebbfc9245cb35e",
+              "strategyName": "My selection strategy",
+              "selectionType": "selectionStrategy",
+              "version": "latest"
+            },
+            "rankingDetail": {
+              "strategyID": "4FyRZTmpjrbzuL7rX7gvmu",
+              "algorithmID": "RANDOM",
+              "step": "aiModel",
+              "trafficType": "random"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "propositionEventType": {
+    "decision": 1
+  }
+}
+```
