@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zu orchestrierten Kampagnen
 description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Kampagnen
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1887'
+ht-degree: 91%
 
 ---
 
@@ -162,7 +162,7 @@ Sie können orchestrierte Kampagnen erstellen, um **E-Mails**, **SMS**, **Push-B
 
 +++ Können verschiedene Kommunikationen und verschiedene Kanäle innerhalb derselben orchestrierten Kampagne gestartet werden?
 
-Ja, orchestrierte Kampagnen unterstützen kanalübergreifende Orchestrierung. Sie können E-Mail-, SMS- und Push-Benachrichtigungsaktivitäten in einer Arbeitsfläche für mehrstufige Kampagnen kombinieren, um umfassende Kundenerlebnisse zu schaffen.
+Ja, orchestrierte Kampagnen unterstützen kanalübergreifende Orchestrierung. Sie können Aktivitäten aus E-Mail, SMS, Push-Benachrichtigungen und Briefpost in einer mehrstufigen Kampagnen-Arbeitsfläche kombinieren, um umfassende Kundenerlebnisse zu schaffen.
 
 **Weitere Informationen**
 
@@ -195,7 +195,7 @@ Nein, der Content-Designer einschließlich E-Mail-Designer ist in allen Funktion
 
 +++ Wie sind die verschiedenen Kanäle in orchestrierten Kampagnen verbunden?
 
-Die Kanalkomponente und die Laufzeit sind in allen Journey Optimizer-Kampagnen vorhanden. Die unterstützten Kanäle variieren jedoch. Orchestrierte Kampagnen unterstützen E-Mail, SMS und Push-Benachrichtigungen.
+Die Kanalkomponente und die Laufzeit sind in allen Journey Optimizer-Kampagnen vorhanden. Die unterstützten Kanäle variieren jedoch. Orchestrierte Kampagnen unterstützen E-Mail, SMS, Push-Benachrichtigungen und Briefpost.
 
 **Weitere Informationen**
 
@@ -207,7 +207,7 @@ Die Kanalkomponente und die Laufzeit sind in allen Journey Optimizer-Kampagnen v
 
 +++ Können sich orchestrierte Kampagnen mit Outbound-Kanälen (Web, InApp) verbinden?
 
-Nein, Inbound-Kanäle wie Web und In-App werden in orchestrierten Kampagnen nicht unterstützt. Es werden ausschließlich Outbound-Kanäle unterstützt (E-Mail, SMS und Push-Benachrichtigungen).
+Nein, Inbound-Kanäle wie Web und In-App werden in orchestrierten Kampagnen nicht unterstützt. Es werden nur ausgehende Kanäle (E-Mail, SMS, Push-Benachrichtigungen und Briefpost) unterstützt.
 
 **Weitere Informationen**
 

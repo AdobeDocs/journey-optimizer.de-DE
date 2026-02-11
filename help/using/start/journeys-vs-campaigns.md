@@ -9,13 +9,13 @@ level: Beginner
 keywords: Journey, Kampagne, orchestriert, Vergleich, Auswählen, Entscheidung, Workflow, Echtzeit, Batch, Orchestrierung, mehrstufig, geplant, API-ausgelöst, ereignisgesteuert
 hide: true
 hidefromtoc: true
-source-git-commit: c1efa56fc3f3c93bdc4b9c7a9f4e81b58cbcff72
+exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 85%
 
 ---
-
 
 # Journeys oder Kampagnen: Auswählen des richtigen Ansatzes {#journeys-vs-campaigns}
 
@@ -207,7 +207,7 @@ Kombiniert die Komplexität eines Workflows mit der Batch-Kampagnenausführung.
 | Web | ✅ | ✅ | ❌ | ❌ |
 | Code-basiert | ✅ | ✅ | ❌ | ❌ |
 | Inhaltskarten | ✅ | ✅ | ❌ | ❌ |
-| Direkt-Mail | ✅ | ✅ | ❌ | ❌ |
+| Direkt-Mail | ✅ | ✅ | ❌ | ✅ |
 
 ### Erweiterte Funktionen
 
@@ -280,4 +280,3 @@ Bereit, mit dem Erstellen zu beginnen? Informieren Sie sich in der ausführliche
 * [Vergleich der Kampagnentypen](../campaigns/get-started-with-campaigns.md#campaign-types)
 * [Häufig gestellte Fragen zu Journeys](../building-journeys/journey-faq.md)
 * [Häufig gestellte Fragen zu orchestrierten Kampagnen](../orchestrated/orchestrated-campaigns-faq.md)
-
