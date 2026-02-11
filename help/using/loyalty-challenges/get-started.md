@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 17d7cf7ae18ff987b7a9c9bebdec44b354ed11da
+source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 2%
 * [Zugriff und Verwaltung von Herausforderungen und Aufgaben](access-loyalty-challenges.md)
 * [Herausforderungen schaffen](create-challenges.md)
 * [Aufgaben erstellen](create-tasks.md)
+* [API-Referenz für Herausforderungen des Treueprogramms](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -157,3 +158,7 @@ Jetzt, da Sie wissen, was Herausforderungen im Zusammenhang mit der Treue sind u
   </td>
 </tr>
 </table>
+
+## API-Referenz {#api-reference}
+
+Um Herausforderungen im Zusammenhang mit der Treue programmgesteuert zu verwalten, verwenden Sie die [API für Herausforderungen im Zusammenhang mit der Treue](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}. Mit der -API können Sie über REST-Endpunkte Herausforderungen und Aufgaben erstellen, aktualisieren und verwalten.
