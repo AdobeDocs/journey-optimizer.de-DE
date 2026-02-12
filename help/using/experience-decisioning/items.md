@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2121'
 ht-degree: 99%
 
 ---
@@ -52,7 +52,7 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 
    >[!AVAILABILITY]
    >
-   >Diese Funktion ist derzeit nur für den Code-basierten Erlebniskanal und für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit).
+   >Diese Funktion ist derzeit nur für den Code-basierten Erlebniskanal verfügbar.
 
    Wählen Sie im Abschnitt **[!UICONTROL Fragmente]** die veröffentlichten Fragmente aus, die Sie verwenden möchten, und weisen Sie ihnen einen Referenzschlüssel zu. Sie können diese Fragmente dann in Ihren Entscheidungsrichtlinien nutzen. [Weitere Informationen](fragments-decision-policies.md)
 
@@ -78,8 +78,8 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 >abstract="Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

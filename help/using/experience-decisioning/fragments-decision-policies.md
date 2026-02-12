@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 91%
+source-wordcount: '428'
+ht-degree: 88%
 
 ---
-
 
 # Nutzen von Fragmenten in Entscheidungsrichtlinien {#fragments}
 
@@ -19,7 +19,7 @@ Wenn Ihre Entscheidungsrichtlinie Entscheidungselemente einschließlich Fragment
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist derzeit nur für den Kanal **Code-basiertes Erlebnis** und für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+>Diese Funktion ist derzeit nur für den Kanal **Code-basiertes Erlebnis** verfügbar.
 
 Angenommen, Sie möchten verschiedene Inhalte für mehrere Mobilgerätemodelle anzeigen. Stellen Sie sicher, dass Sie Fragmente, die diesen Geräten entsprechen, zu dem Entscheidungselement hinzugefügt haben, das Sie in der Entscheidungsrichtlinie verwenden. [Weitere Informationen](items.md#attributes).
 
@@ -93,6 +93,6 @@ Angenommen, Sie möchten die Variable *sport* in Ihrem Fragment verwenden.
 
 * Die Validierung des Fragmentinhalts erfolgt nur während der Erstellung und Veröffentlichung des Fragments.
 
-* Im Fall von JSON-Fragmenten wird die Gültigkeit des JSON-Objekts nicht sichergestellt. Stellen Sie sicher, dass der Ausdrucksfragmentinhalt ein gültiger JSON-Inhalt ist, damit er in Entscheidungselementen verwendet werden kann.
+* Bei Ausdrucksfragmenten vom Typ JSON wird der Inhalt beim Speichern des Fragments syntaktisch validiert. Validierungsfehler werden als Warnhinweise angezeigt.
 
 Zur Laufzeit wird der Kampagneninhalt (einschließlich des Fragmentinhalts aus Entscheidungselementen) validiert. Im Falle eines Validierungsfehlers wird die Kampagne nicht gerendert.
