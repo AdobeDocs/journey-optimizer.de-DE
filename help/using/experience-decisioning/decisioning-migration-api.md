@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
+exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
+source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 5%
 
 ---
-
 
 # Decisioning-Migrations-API {#decisioning-migration-api}
 
@@ -51,7 +51,7 @@ Zu den typischen Berechtigungen gehören:
 
 >[!NOTE]
 >
->Erfahren Sie in ([&#x200B; Abschnitt), wie Sie &#x200B;](gs-experience-decisioning.md#steps) zuweisen. Eine vollständige Liste der Berechtigungen finden Sie auf der Seite [Integrierte Berechtigungen](../administration/ootb-permissions.md#ootb-permissions) .
+>Erfahren Sie in ([ Abschnitt), wie Sie ](gs-experience-decisioning.md#steps) zuweisen. Eine vollständige Liste der Berechtigungen finden Sie auf der Seite [Integrierte Berechtigungen](../administration/ootb-permissions.md#ootb-permissions) .
 
 ### Vorbereiten der Ziel-Sandbox {#target-sandbox-preparation}
 
@@ -62,7 +62,7 @@ Bevor Sie eine Migration ausführen, stellen Sie sicher, dass Ihre Ziel-Sandbox 
 * **Datensatz** - Identifizieren Sie einen Datensatznamen, der für die Migration verwendet werden soll (`dependency.datasetName`).
 * **Datenstrom** - Festlegen, ob bei der Migration ein Datenstrom erstellt werden soll (`createDataStream`).
 
-Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [&#x200B; und Zuweisen von Sandboxes](../administration/sandboxes.md).
+Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [ und Zuweisen von Sandboxes](../administration/sandboxes.md).
 
 ## API-Grundlagen {#api-basics}
 
@@ -70,8 +70,8 @@ Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [&#x200B; und Zuwe
 
 Verwenden Sie je nach Umgebung die folgenden Basis-URLs:
 
-* **Produktion**: `https://platform.adobe.io`
-* **STAGING**: `https://platform-stage.adobe.io`
+* **Produktion**: `https://decisioning-migration.adobe.io`
+* **STAGING**: `https://decisioning-migration-stage.adobe.io`
 
 ### Authentifizierung {#authentication}
 
@@ -79,7 +79,6 @@ Alle API-Anfragen erfordern die folgenden Kopfzeilen:
 
 * `Authorization: Bearer <IMS_ACCESS_TOKEN>`
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
-* `x-api-key: <CLIENT_API_KEY>`
 * `Content-Type: application/json`
 
 Detaillierte Anweisungen zum Einrichten der Authentifizierung finden Sie im [Authentifizierungshandbuch für Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
@@ -91,7 +90,7 @@ Jeder API-Aufruf erstellt oder ruft eine Workflow-Ressource ab. Workflows sind a
 Ein Workflow verfügt über die folgenden Eigenschaften:
 
 * `id` - Eindeutige Workflow-Kennung (UUID)
-* `status` - Aktueller Workflow-Status: `New`, `Running`, `Completed`, `Failed` oder `Cancelled`
+* `status` - Aktueller Workflow-Status: `New`, `Running`, `Completed` oder `Failed`
 * `result` - Workflow-Ausgabe nach Abschluss (einschließlich Migrationsergebnissen und Warnungen)
 * `errors` - Details zu strukturierten Fehlern bei Fehlschlägen
 * `_etag` - Versionskennung, die für Löschvorgänge verwendet wird (nur Service-Benutzer)
@@ -112,7 +111,7 @@ Verwenden Sie den folgenden API-Aufruf, um einen Workflow zur Abhängigkeitsanal
 **API-Format**
 
 ```http
-POST /migration/service/dependency
+POST /workflows/generate-dependencies
 ```
 
 **Abhängigkeit auf Sandbox-Ebene (zuerst empfohlen)**
@@ -121,10 +120,9 @@ Beginnen Sie mit einer Analyse auf Sandbox-Ebene, um einen vollständigen Überb
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/dependency" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
@@ -149,24 +147,23 @@ Fragen Sie den Abhängigkeits-Workflow ab, um zu überprüfen, wann die Analyse 
 **API-Format**
 
 ```http
-GET /migration/service/dependency/{id}
+GET /workflows/generate-dependencies/{id}
 ```
 
 **Anfrage**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/dependency/<WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies/<WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 Wenn das `status` Feld `Completed` anzeigt, ist die Abhängigkeitsanalyse bereit. Verwenden Sie die Workflow-Ausgabe, um Ihre Zuordnungen von Migrationsabhängigkeiten zu erstellen:
 
-* **profileAttributeDependency** - Ordnet Quellprofilattribute Zielprofilattributen zu
-* **contextAttributeDependency** - Ordnet Quellkontextattribute Zielkontextattributen zu
-* **segmentsDependency** - Ordnet Quellsegmentschlüssel Zielsegmentkennungen (`{segmentNamespace, segmentId}`) zu
+* **profileAttributes** - Ordnet Quellprofilattribute Zielprofilattributen zu
+* **contextAttributes** - Ordnet Quellkontextattribute Zielkontextattributen zu
+* **Segmente** - Ordnet Quellsegmentschlüssel Zielsegmentkennungen (`{namespace, id}`) zu
 * **datasetName** - Gibt den Zieldatensatznamen für die Migration an
 
 ### Schritt 2: Migration ausführen {#execute-migration}
@@ -180,7 +177,7 @@ Verwenden Sie die Abhängigkeitszuordnungen aus Schritt 1, um Ihre Migration zu 
 **API-Format**
 
 ```http
-POST /migration/service/migrations
+POST /workflows/migration
 ```
 
 **Migration auf Sandbox-Ebene**
@@ -189,10 +186,9 @@ So migrieren Sie alle Decisioning-Objekte von einer Sandbox in eine andere:
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/migrations" \
+  --url "https://decisioning-migration.adobe.io/workflows/migration" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
@@ -200,16 +196,16 @@ curl --request POST \
     "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
     "createDataStream": true,
     "dependency": {
-      "profileAttributeDependency": {
+      "profileAttributes": {
         "sourceAttr1": "targetAttr1"
       },
-      "segmentsDependency": {
+      "segments": {
         "sourceSegmentKey1": {
-          "segmentNamespace": "<TARGET_SEGMENT_NAMESPACE>",
-          "segmentId": "<TARGET_SEGMENT_ID>"
+          "namespace": "<TARGET_SEGMENT_NAMESPACE>",
+          "id": "<TARGET_SEGMENT_ID>"
         }
       },
-      "contextAttributeDependency": {
+      "contextAttributes": {
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
@@ -241,17 +237,16 @@ Abfrage des Migrations-Workflows zur Verfolgung des Fortschritts.
 **API-Format**
 
 ```http
-GET /migration/service/migrations/{id}
+GET /workflows/migration/{id}
 ```
 
 **Anfrage**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/migrations/<WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/migration/<WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 **Migrationsergebnisse**
@@ -301,20 +296,21 @@ Starten Sie ein Rollback, indem Sie einen Rollback-Workflow erstellen, der auf d
 **API-Format**
 
 ```http
-POST /migration/service/rollbacks/{migrationWorkflowId}
+POST /workflows/rollback
 ```
-
-Ersetzen Sie `{migrationWorkflowId}` durch die ID des Migrations-Workflows, den Sie zurücksetzen möchten.
 
 **Anfrage**
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/rollbacks/<MIGRATION_WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/rollback" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "Content-Type: application/json" \
+  --data '{ "rollbackWorkflowId": "<MIGRATION_WORKFLOW_ID>" }'
 ```
+
+Ersetzen Sie `<MIGRATION_WORKFLOW_ID>` durch die ID des Migrations-Workflows, den Sie zurücksetzen möchten.
 
 ### Überwachen des Rollback-Status {#poll-rollback-status}
 
@@ -323,17 +319,16 @@ Abruf des Rollback-Workflows zur Verfolgung des Fortschritts.
 **API-Format**
 
 ```http
-GET /migration/service/rollbacks/{rollbackWorkflowId}
+GET /workflows/rollback/{rollbackWorkflowId}
 ```
 
 **Anfrage**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/rollbacks/<ROLLBACK_WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/rollback/<ROLLBACK_WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 ## Gleichzeitige Workflows handhaben {#handle-concurrency}
@@ -363,9 +358,9 @@ Workflow-Ressourcen können nur von Service-Benutzern gelöscht werden. Löschvo
 
 **Verfügbare Löschvorgänge:**
 
-* `DELETE /migration/service/dependency/{id}`
-* `DELETE /migration/service/migrations/{id}`
-* `DELETE /migration/service/rollbacks/{id}`
+* `DELETE /workflows/generate-dependencies/{id}`
+* `DELETE /workflows/migration/{id}`
+* `DELETE /workflows/rollback/{id}`
 
 >[!NOTE]
 >
@@ -376,4 +371,4 @@ Workflow-Ressourcen können nur von Service-Benutzern gelöscht werden. Löschvo
 * [Migration vom Entscheidungs-Management zum Decisioning](migrate-to-decisioning.md) - Verstehen Sie die Vorteile und Möglichkeiten der Migration zu Decisioning
 * [Erste Schritte mit der Entscheidungsfindung](gs-experience-decisioning.md)
 * [Leitplanken und Einschränkungen bei Entscheidungen](decisioning-guardrails.md)
-* [Erste Schritte mit Decisioning-APIs](api-reference/getting-started.md)
+* [Erste Schritte mit Entscheidungsfindungs-APIs](api-reference/getting-started.md)
