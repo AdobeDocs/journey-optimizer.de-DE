@@ -119,7 +119,7 @@ Die folgenden Schemata und Datensätze sind über den Push-Benachrichtigungskana
 
 Um **Web-Push-Benachrichtigungen** zu aktivieren, müssen Sie zunächst sicherstellen, dass die [pushNotifications-Eigenschaft](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) in der Web-SDK ordnungsgemäß konfiguriert ist. Diese Eigenschaft steuert, wie Push-Benachrichtigungen von Ihrer Web-Anwendung verarbeitet werden.
 
-Darüber hinaus müssen Sie GÜLTIGE Schlüssel generieren, die zum Konfigurieren ([ Push-Anmeldeinformationen für Ihre App](#push-credentials-launch) in Journey Optimizer erforderlich sind.
+Darüber hinaus müssen Sie GÜLTIGE Schlüssel generieren, die zum Konfigurieren ([&#x200B; Push-Anmeldeinformationen für Ihre App](#push-credentials-launch) in Journey Optimizer erforderlich sind.
 
 ## Schritt 1: Hinzufügen von Push-Anmeldedaten für die App in Journey Optimizer {#push-credentials-launch}
 
