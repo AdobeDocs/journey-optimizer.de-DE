@@ -45,7 +45,7 @@ Konfigurieren Sie die Aktion, die ausgeführt wird, wenn Empfänger auf den Haup
 
 ![](assets/title-body-push.png)
 
-* **[!UICONTROL Mobile App öffnen]**: Startet die Mobile App, die der Benachrichtigung zugeordnet ist. Die App wird in Ihrer [Kanalkonfiguration“ ](../configuration/channel-surfaces.md)d. h. Nachrichtenvoreinstellung) angegeben.
+* **[!UICONTROL Mobile App öffnen]**: Startet die Mobile App, die der Benachrichtigung zugeordnet ist. Die App wird in Ihrer [Kanalkonfiguration“ &#x200B;](../configuration/channel-surfaces.md)d. h. Nachrichtenvoreinstellung) angegeben.
 * **[!UICONTROL Deeplink]**: Leitet Benutzer zu bestimmten Inhalten in Ihrer App weiter, z. B. zu einer bestimmten Ansicht, einem Seitenabschnitt oder einer Registerkarte. Geben Sie die Deeplink-URL in das bereitgestellte Feld ein.
 * **[!UICONTROL Web-URL]**: Leitet Benutzer zu einer externen Web-Seite weiter. Geben Sie die Ziel-URL in das bereitgestellte Feld ein.
 
@@ -68,7 +68,7 @@ Bei Android können Sie nur ein Bildsymbol und ein Bild für erweiterte Benachri
 
 Sie können Medien mit einer der folgenden Methoden hinzufügen:
 
-* Schaltfläche **[!UICONTROL Medien hinzufügen]**: Wählen Sie ein Asset aus [Adobe Experience Manager Assets ](../integrations/assets.md) oder greifen Sie auf den KI-Assistenten zu, um [ansprechende Bilder](../content-management/generative-image.md) für Push-Benachrichtigungen zu generieren.
+* Schaltfläche **[!UICONTROL Medien hinzufügen]**: Wählen Sie ein Asset aus [Adobe Experience Manager Assets &#x200B;](../integrations/assets.md) oder greifen Sie auf den KI-Assistenten zu, um [ansprechende Bilder](../content-management/generative-image.md) für Push-Benachrichtigungen zu generieren.
 
 * **[!UICONTROL Feld]** Medien hinzufügen“: Geben Sie die Medien-URL direkt ein. Sie können Personalisierungs-Token in die URL aufnehmen.
 
@@ -86,7 +86,7 @@ Für iOS können Sie ein Bild, ein Video oder eine GIF hinzufügen, das bzw. die
 
 Sie können Medien mit einer der folgenden Methoden hinzufügen:
 
-* **[!UICONTROL Medien hinzufügen]**-Schaltfläche: Asset aus **[!DNL Adobe Experience Manager Assets]** auswählen. Weitere Informationen zur Verwendung von **[!DNL Adobe Experience Manager Assets]** finden [ auf dieser Seite](../integrations/assets.md).
+* **[!UICONTROL Medien hinzufügen]**-Schaltfläche: Asset aus **[!DNL Adobe Experience Manager Assets]** auswählen. Weitere Informationen zur Verwendung von **[!DNL Adobe Experience Manager Assets]** finden [&#x200B; auf dieser Seite](../integrations/assets.md).
 
 * **[!UICONTROL Feld]** Medien hinzufügen“: Geben Sie die Medien-URL direkt ein. Sie können Personalisierungs-Token in die URL aufnehmen.
 
