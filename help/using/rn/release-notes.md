@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7263e5ace72823ce7a3a184d2842f9bba495c068
+source-git-commit: 8c4c6212b16b411cd46450afb7e6a6515e972e13
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 31%
+source-wordcount: '1524'
+ht-degree: 36%
 
 ---
 
@@ -49,7 +49,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <p>Sie können den Versand ausgehender Nachrichten von <strong>Kampagnen</strong> oder <strong>Journey</strong> in kontrollierten <strong>Batches) </strong>.</p>
 <p>Der Wave-Versand bietet die folgenden Vorteile:</p>
 <ul>
-<li>Bessere <strong>Zustellbarkeit</strong> - Spread sendet im Laufe der Zeit, um einen guten Ruf <strong> Absenders </strong> wahren und das Risiko zu verringern, als Spam gekennzeichnet zu werden.</li>
+<li>Bessere <strong>Zustellbarkeit</strong> - Spread sendet im Laufe der Zeit, um einen guten Ruf als Absender zu wahren und das Risiko zu reduzieren, als Spam gekennzeichnet zu werden.</li>
 <li><strong>Lastkontrolle</strong> - Vermeiden Sie die Überlastung nachgelagerter Systeme (z. B. Callcenter, Landingpages), indem Sie einschränken, wie viele Nachrichten gleichzeitig gesendet werden.</li>
 <li>Anwendungsfälle mit hohem Volumen und zeitkritischer Relevanz - geeignet für große Zielgruppen oder zur Steuerung des Timings (z. B. Call-Center-Kapazität, Anlaufphase oder zeitlich begrenzte Angebote).</li>
 </ul>
@@ -67,7 +67,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt <strong>Formeln</strong> und <strong>KI-Modelle</strong> verwenden, um die <strong>Journey-Prioritätswerte </strong> auf der Grundlage von Kundenprofilattributen und Kontextfaktoren automatisch zu steigern und so sicherzustellen, dass Kunden die relevantesten Journey eingeben.</p>
+<p>Sie können jetzt <strong>Formeln</strong> und <strong>KI-Modelle</strong> verwenden, um die Journey-Prioritätswerte basierend auf Kundenprofilattributen und Kontextfaktoren automatisch zu steigern und so sicherzustellen, dass Kunden die relevantesten Journey eingeben.</p>
 <p>Diese Funktion ist nur für ausgewählte Organisationen verfügbar (<strong>eingeschränkte Verfügbarkeit</strong>). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
@@ -83,7 +83,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Mit <strong>Adobe Experience Platform Agent Orchestrator </strong> ist <strong>Journey Agent</strong> in Journey Optimizer verfügbar und ermöglicht die Analyse von Journey über eine <strong>Natural Language Interface</strong>. Sie können jetzt auch kanalspezifische Inhalte direkt in Journey Agent generieren und verwalten, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in <strong>Content Designer</strong> zur kontextbezogenen Bearbeitung öffnen.</p>
+<p>Mit <strong>Adobe Experience Platform Agent Orchestrator </strong> ist <strong>Journey Agent</strong> in Journey Optimizer verfügbar und ermöglicht es Ihnen, Journey über eine natürliche Sprachschnittstelle zu analysieren. Sie können jetzt auch kanalspezifische Inhalte direkt in Journey Agent generieren und verwalten, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in <strong>Content Designer</strong> zur kontextbezogenen Bearbeitung öffnen.</p>
 </td>
 </tr>
 </tbody>
@@ -98,7 +98,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p><strong>Live-Aktivitäten</strong> bieten <strong>Echtzeit-Updates</strong> und interaktive Erlebnisse in mobilen Apps, sodass Benutzer direkt auf dem Bildschirm ihres Geräts über laufende Ereignisse oder Aufgaben informiert bleiben. Diese Funktion verbessert die Interaktion, indem Live-Informationen wie Fortschritts-Tracking, Ereignisaktualisierungen oder interaktive Inhalte bereitgestellt werden, ohne dass Benutzende die App öffnen müssen.</p>
+<p><strong>Live-Aktivitäten</strong> bieten Echtzeit-Updates und interaktive Erlebnisse in mobilen Apps, sodass Benutzer direkt auf dem Bildschirm ihres Geräts über laufende Ereignisse oder Aufgaben informiert bleiben. Diese Funktion verbessert die Interaktion, indem Live-Informationen wie Fortschritts-Tracking, Ereignisaktualisierungen oder interaktive Inhalte bereitgestellt werden, ohne dass Benutzende die App öffnen müssen.</p>
 <p>Diese Funktion wurde bereits in der Beta-Version veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 </td>
 </tr>
@@ -114,7 +114,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer unterstützt eine neue generische <strong>Aktionsaktivität</strong> mit der Sie sowohl Einzelaktionen als auch <strong>Aktionsgruppen mit mehreren eingehenden Aktionen</strong> konfigurieren können, was eine optimierte Aktionskonfiguration innerhalb der <strong>Journey-Arbeitsfläche </strong>. Diese neue Funktion ermöglicht insbesondere Folgendes:</p>
+<p>Journey Optimizer unterstützt eine neue generische <strong>Aktionsaktivität</strong> mit der Sie sowohl Einzelaktionen als auch eingehende Aktionsgruppen mit mehreren Aktionen konfigurieren können, was eine optimierte Aktionskonfiguration innerhalb der Journey-Arbeitsfläche ermöglicht. Diese neue Funktion ermöglicht insbesondere Folgendes:</p>
 <ul>
 <li>Eine vereinfachte, native Aktionskonfiguration innerhalb der Journey-Arbeitsfläche</li>
 <li>Die Möglichkeit, eingehende Aktionsgruppen mit mehreren Aktionen zu erstellen</li>
@@ -136,7 +136,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer unterstützt jetzt <strong>Web-Push-Benachrichtigungen</strong> und erweitert damit den Push-Kanal über den mobilen Gebrauch hinaus. Sie können Benachrichtigungen nahtlos an mobile und Desktop-Browser senden, sodass Ihre Kundinnen und Kunden direkt auf ihren Geräten erreicht werden, ohne dass eine App erforderlich ist. Diese Verbesserung ermöglicht es Ihnen, Benutzer mit zeitnahen, personalisierten Nachrichten in Echtzeit zu interagieren, wobei die gleichen <strong>Authoring-Workflows</strong> und <strong>Targeting-Funktionen</strong> genutzt werden, die bereits für mobile Push-Benachrichtigungen verfügbar sind.</p>
+<p>Adobe Journey Optimizer unterstützt jetzt <strong>Web-Push-Benachrichtigungen</strong> und erweitert damit den Push-Kanal über den mobilen Gebrauch hinaus. Sie können Benachrichtigungen nahtlos an mobile und Desktop-Browser senden, sodass Ihre Kundinnen und Kunden direkt auf ihren Geräten erreicht werden, ohne dass eine App erforderlich ist. Diese Verbesserung ermöglicht es Ihnen, Benutzende in Echtzeit mit zeitnahen, personalisierten Nachrichten anzusprechen, unter Nutzung derselben Authoring-Workflows und Targeting-Funktionen, die bereits für mobile Push-Benachrichtigungen verfügbar sind.</p>
 <p>Diese Funktion wurde bereits in der Beta-Version veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Verfügbarkeitsdatum: Samstag, 13. Februar 2026</p>
 </td>
@@ -153,7 +153,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Eine neue <strong>Inhaltsentscheidungsaktivität</strong> ist jetzt auf der <strong>Journey-Arbeitsfläche verfügbar</strong> um "<strong> Angebote“ </strong> Ihren Kunden-Journey zu integrieren. Mit dieser Aktivität können Sie entscheidungsbasierte Inhalte bereitstellen und diese Angebote auf Ihrem gesamten Journey referenzieren - unter Bedingungen für die Erstellung von Verzweigungen auf der Grundlage der Eignung, bei benutzerdefinierten Aktionen zur Weitergabe von Angebotsdaten an externe Systeme und bei anderen Aktivitäten zur Erstellung vollständig personalisierter Kundenerlebnisse.</p>
+<p>Eine neue <strong>Aktivität Inhaltsentscheidung</strong> ist jetzt auf der Journey-Arbeitsfläche verfügbar, um personalisierte Angebote direkt in die Journey Ihrer Kunden zu integrieren. Mit dieser Aktivität können Sie entscheidungsbasierte Inhalte bereitstellen und diese Angebote auf Ihrem gesamten Journey referenzieren - unter Bedingungen für die Erstellung von Verzweigungen auf der Grundlage der Eignung, bei benutzerdefinierten Aktionen zur Weitergabe von Angebotsdaten an externe Systeme und bei anderen Aktivitäten zur Erstellung vollständig personalisierter Kundenerlebnisse.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/content-decision.md">ausführlichen Dokumentation</a>.</p>
@@ -230,38 +230,38 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 * **Nutzung von Erlebnisereignissen in Journey-Ausdrücken** - Ab dem 1. April 2026 wird die Verwendung von Erlebnisereignisattributen in Journey-Ausdrücken für Organisationen, die diese Funktion in den letzten 90 Tagen nicht verwendet haben, nicht mehr unterstützt. Diese Funktion ist bereits seit dem 8. Juli 2025 für neue Kundenorganisationen nicht mehr verfügbar. Alternativen finden Sie unter [Suche nach Erlebnisereignissen in Journey](../building-journeys/exp-event-lookup.md).
 
 
-* **Wechsel der Methode der Subdomain** - Sie können jetzt von einer Methode <strong>Subdomain-Zuweisung</strong> zu einer anderen wechseln. Auf diese Weise können Sie Domains mit dem Modus <strong>CNAME-Delegierung</strong> in die Methode <strong>benutzerdefinierte Delegierung</strong> migrieren, um die Sicherheitsrichtlinien Ihres Unternehmens einzuhalten.
+* **Wechsel der Methode der Subdomain** - Sie können jetzt von einer Methode der Subdomain-Zuweisung zur anderen wechseln. Auf diese Weise können Sie Domains mithilfe des CNAME-Delegierungsmodus zu der benutzerdefinierten Delegierungsmethode migrieren, um die Sicherheitsrichtlinien Ihres Unternehmens einzuhalten.
 
   **Hinweis**: Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (<strong>eingeschränkte Verfügbarkeit</strong>). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 
 #### E-Mail-Designer
 
-* **Verwenden eines Markendesigns zum Konvertieren eines Bildes in eine E-Mail-Vorlage** - Beim Konvertieren eines Bildes in eine E-Mail-Vorlage in Journey Optimizer können Sie jetzt ein <strong>Design</strong> als Eingabe verwenden, sodass das generierte HTML Ihren <strong>Markenparametern</strong> folgt. Stile wie Hintergrundfarbe, Schaltflächenfarbe, Schriftarten, Zeilenabstand, Ränder und Abstand werden automatisch angewendet, wodurch die manuelle Entwurfsarbeit reduziert wird und eine Vorlage bereitgestellt wird, die mit minimalen Bearbeitungen verwendet werden kann.
+* **Verwenden eines Markendesigns zum Konvertieren eines Bildes in eine E-Mail-Vorlage** - Beim Konvertieren eines Bildes in eine E-Mail-Vorlage in Journey Optimizer können Sie jetzt ein Design als Eingabe verwenden, sodass die generierte HTML Ihren Markenparametern entspricht. Stile wie Hintergrundfarbe, Schaltflächenfarbe, Schriftarten, Zeilenabstand, Ränder und Abstand werden automatisch angewendet, wodurch die manuelle Entwurfsarbeit reduziert wird und eine Vorlage bereitgestellt wird, die mit minimalen Bearbeitungen verwendet werden kann.
 
 
-* **Aktualisieren von Marken mit neuer Farbregisterkarte** - <strong>Markenrichtlinien</strong> helfen sicherzustellen, dass Ihre Marke auf allen Touchpoints konsistent präsentiert wird. Der neue <strong>Abschnitt „Farben“</strong> definiert die Standards für das Farbsystem Ihrer Marke und beschreibt, wie Farben in Erlebnissen ausgewählt, organisiert und angewendet werden. Es sorgt für die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben, um eine kohärente, barrierefreie und erkennbare Markenidentität zu unterstützen.
+* **Aktualisieren von Marken mit neuer Farbregisterkarte** – Markenrichtlinien helfen sicherzustellen, dass Ihre Marke an allen Touchpoints konsistent präsentiert wird. Im neuen Abschnitt Farben werden die Standards für das Farbsystem Ihrer Marke definiert und beschrieben, wie Farben in Erlebnissen ausgewählt, organisiert und angewendet werden. Es sorgt für die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben, um eine kohärente, barrierefreie und erkennbare Markenidentität zu unterstützen.
 
 
 #### KI
 
-* **Integration von benutzerdefinierten Firefly-Modellen und Drittanbieter-Image-Generierungsmodellen** - Ermöglicht die nahtlose Integration von standardmäßigen und benutzerdefinierten <strong>Firefly-Modellen</strong> zusammen mit genehmigten <strong>Drittanbieter-Image-Modellen</strong> (z. B. NanoBanana), um mehr Flexibilität, Kontrolle und Markenausrichtung beim Generieren von Images zu bieten. Auf diese Weise können Sie für jeden Anwendungsfall das beste Modell auswählen: standardmäßige Firefly für allgemeine Anforderungen, benutzerdefinierte Firefly für die Markengenerierung oder genehmigte Drittanbietermodelle für spezialisierte oder experimentelle Szenarien.
+* **Integration von benutzerdefinierten Firefly-Modellen und Drittanbieter-Image-Generierungsmodellen** - Ermöglichen Sie die nahtlose Integration von standardmäßigen und benutzerdefinierten Firefly-Modellen zusammen mit genehmigten Drittanbieter-Image-Modellen (z. B. NanoBanana), um mehr Flexibilität, Kontrolle und Markenausrichtung bei der Bilderstellung zu bieten. Auf diese Weise können Sie für jeden Anwendungsfall das beste Modell auswählen: standardmäßige Firefly für allgemeine Anforderungen, benutzerdefinierte Firefly für die Markengenerierung oder genehmigte Drittanbietermodelle für spezialisierte oder experimentelle Szenarien.
 
 
 #### Erlebnis-Entscheidung
 
-* **Eingehende Edge-Unterstützung für die Verwendung von Adobe Experience Platform-Daten in Decisioning** - Die Entscheidungsunterstützung für die <strong>Experience Platform</strong>Datensuche umfasst jetzt Anwendungsfälle <strong>eingehende Edge</strong>Kanäle. Die Funktion ist weiterhin nur eingeschränkt verfügbar. Die allgemeine Verfügbarkeit der zugrunde liegenden Datensuchfunktion wird noch nicht angekündigt (AEP/Produktabhängigkeit).
+* **Eingehende Edge-Unterstützung für die Verwendung von Adobe Experience Platform-Daten in Decisioning** - Die Verwendung von Adobe Experience Platform-Daten in Decisioning unterstützt jetzt eingehende Edge-Anwendungsfälle zusätzlich zu E-Mail und benutzerdefinierten Aktionen in Journey.
 
   **Hinweis**: Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (<strong>eingeschränkte Verfügbarkeit</strong>). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 
-* **Experience Decisioning-Vorschau im Code-basierten Experience**-Kanal<strong> Sie können jetzt eine Vorschau von Entscheidungselementen</strong> anzeigen, wenn Sie <strong>Experience Decisioning</strong> mit dem <strong>Code-basierten Experience</strong>-Kanal konfigurieren. Die Vorschau ist vor der Live-Schaltung direkt in der Authoring-Oberfläche verfügbar.
+* **Experience Decisioning-Vorschau im Code-basierten Erlebniskanal** - Sie können jetzt beim Konfigurieren von Experience Decisioning mit dem Code-basierten Erlebniskanal Entscheidungselemente in der Vorschau anzeigen. Die Vorschau ist vor der Live-Schaltung direkt in der Authoring-Oberfläche verfügbar.
 
 
-* **Offer Ranking-KI-Modellbeobachtbarkeit** - Mit Journey Optimizer können Sie jetzt den <strong>Zustand</strong>, <strong>Trainingsstatus</strong> und <strong>Performance</strong> Ihrer <strong>KI-Modelle</strong> in Decisioning überwachen, um den Trainingserfolg zu überprüfen, Fehler zu beheben und die Auswirkungen auf Ihre Ergebnisse zu verstehen. Diese Funktion ist nur für personalisierte Optimierungsmodelle verfügbar (nicht für die automatische Optimierung).
+* **Offer Ranking-KI-Modell-Beobachtbarkeit** - Mit Journey Optimizer können Sie jetzt den Zustand, den Trainingsstatus und die Leistung Ihrer KI-Modelle in Decisioning überwachen, um den Trainingserfolg zu überprüfen, Fehler zu beheben und die Auswirkungen auf Ihre Ergebnisse zu verstehen. Diese Funktion ist nur für personalisierte Optimierungsmodelle verfügbar (nicht für die automatische Optimierung).
 
 
-* **Fragmente an Entscheidungselemente anhängen** - Journey Optimizer bietet jetzt die Möglichkeit, <strong>Fragmente</strong> an <strong>Entscheidungselemente</strong> anzuhängen, die in code-basierten Erlebniskampagnen über <strong>Entscheidungsrichtlinien</strong> werden können.
+* **Anhängen von Fragmenten an Entscheidungselemente**: Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können.
 
   **Hinweis**: Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
@@ -270,7 +270,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### Journeys
 
-* **Mehrere eingehende Aktionen in Journey** - Um Ihre Journey-Orchestrierung zu vereinfachen, können Sie jetzt mehrere <strong>eingehende Aktionen</strong> in einer einzigen Journey definieren. Diese Funktion war bisher in Kampagnen verfügbar und ermöglicht es Ihnen, mehrere <strong>Code-basierte Erlebnisse</strong>, <strong>In-App-</strong>, <strong>Inhaltskarten</strong> oder <strong>Web-Aktionen</strong> an verschiedenen Orten gleichzeitig bereitzustellen, wobei jede Aktion bestimmte Inhalte enthält.
+* **Mehrere eingehende Aktionen in Journeys** – Um die Orchestrierung Ihrer Journeys zu vereinfachen, können Sie jetzt mehrere eingehende Aktionen in einer einzigen Journey definieren. Diese Funktion war bisher in -Kampagnen verfügbar und ermöglicht es Ihnen, mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen an verschiedene Orte gleichzeitig zu senden, wobei jede Aktion bestimmte Inhalte enthält.
 
   **Hinweis**: Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
