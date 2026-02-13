@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b53f9279a8698e99683cd6e75a7e746102e3e094
+source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1537'
 ht-degree: 29%
 
 ---
@@ -33,7 +33,7 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Veröffentlichungsdatum**: Mittwoch, 17. Februar 2026
+**Veröffentlichungsdatum**: 17.-18. Februar 2026
 
 ### Neue Funktionen {#feb-26-01-features}
 
