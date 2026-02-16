@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 9ceccdf1daca1745cc0610a97660b92524f732d2
+source-git-commit: 7523ee45581c9b84cd006d563d3cc04dc4214f3f
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 92%
@@ -47,7 +47,7 @@ Bevor Sie [!DNL Customer Journey Analytics] für Ihre Journeys verwenden können
 
 >[!NOTE]
 >
->Wenn für Ihre Sandbox mehrere Verbindungen vorhanden sind, überprüfen Sie, ob die [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de){target="_blank"} auf die [Verbindung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=de){target="_blank"} mit dem Flag **[!UICONTROL In CJA verwenden]** verweist. Andernfalls kann die Schaltfläche [**Analysieren in CJA** &#x200B;](report-cja-manage.md#analyze) in [!DNL Journey Optimizer] deaktiviert sein.
+>Wenn für Ihre Sandbox mehrere Verbindungen vorhanden sind, überprüfen Sie, ob die [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de){target="_blank"} auf die [Verbindung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"} mit dem Flag **[!UICONTROL In CJA verwenden]** verweist. Andernfalls kann die Schaltfläche [**Analysieren in CJA** ](report-cja-manage.md#analyze) in [!DNL Journey Optimizer] deaktiviert sein.
 
 Wenn Sie [!DNL Journey Optimizer] zusammen mit [!DNL Customer Journey Analytics] verwenden, kann das zu Abweichungen in den Reporting-Daten führen, die durch Folgendes verursacht werden:
 
