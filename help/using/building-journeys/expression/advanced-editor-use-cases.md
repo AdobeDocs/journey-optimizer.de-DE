@@ -11,10 +11,10 @@ hidefromtoc: true
 keywords: Ausdruck, Bedingung, Anwendungsfälle, Ereignisse
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+source-git-commit: bc89e88baf2adfbb9bb33a60a67b74bc37f31984
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 95%
 
 ---
 
@@ -114,6 +114,16 @@ Dieser Ausdruck gibt einen booleschen Wert zurück.
   ```
 
 Von dort können Sie einen weiteren Pfad zu Ihrer Journey hinzufügen, wenn das Produkt nicht im Store ist, und eine Benachrichtigung mit einem Interaktionsangebot senden. Konfigurieren Sie die Nachrichten entsprechend und verwenden Sie Personalisierungsdaten, um die Nachricht zu verbessern.
+
+## Zeitstempelfilter in Ausdrücken
+
+Wenn Sie auf mehrere Warenkorb-Aktivitätsereignisse verweisen, geben Sie sowohl ein Start- als auch ein Endzeitstempelfenster an, um die Erfassung historischer Daten zu vermeiden. Beispiel:
+
+```json
+toDateTimeOnly(currentDataPackField.timestamp) >= toDateTimeOnly(@event{poc_UDXCartAddSavedCheckOutEv.timestamp})
+AND
+toDateTimeOnly(currentDataPackField.timestamp) < toDateTimeOnly(nowWithDelta(4, "hours"))
+```
 
 ## Beispiele für Zeichenfolgenmanipulationen mit dem erweiterten Ausdruckseditor
 
