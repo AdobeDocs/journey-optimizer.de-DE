@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9dbe9c4f6073f68bc7d01b2a72dc89c927870dcf
+source-git-commit: d3e361c6b7a91a1fd3b72d12a8aa6fefc295837a
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 39%
+source-wordcount: '1549'
+ht-degree: 41%
 
 ---
 
@@ -46,11 +46,11 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Sie können den Versand ausgehender Nachrichten von <strong>Kampagnen</strong> oder <strong>Journey</strong> in kontrollierten <strong>Batches) </strong>.</p>
+<p>Sie können den Versand ausgehender Nachrichten von Kampagnen oder Journey planen, die im Laufe der Zeit in kontrollierten Batches zugestellt werden sollen.</p>
 <p>Der Wave-Versand bietet die folgenden Vorteile:</p>
 <ul>
-<li>Bessere <strong>Zustellbarkeit</strong> - Spread sendet im Laufe der Zeit, um einen guten Ruf als Absender zu wahren und das Risiko zu reduzieren, als Spam gekennzeichnet zu werden.</li>
-<li><strong>Lastkontrolle</strong> - Vermeiden Sie die Überlastung nachgelagerter Systeme (z. B. Callcenter, Landingpages), indem Sie einschränken, wie viele Nachrichten gleichzeitig gesendet werden.</li>
+<li>Bessere Zustellbarkeit: Spread sendet im Laufe der Zeit, um einen guten Ruf als Absender zu wahren und das Risiko zu reduzieren, als Spam gekennzeichnet zu werden.</li>
+<li>Laststeuerung - Vermeiden Sie die Überlastung nachgelagerter Systeme (z. B. Callcenter, Landingpages), indem Sie einschränken, wie viele Nachrichten gleichzeitig gesendet werden.</li>
 <li>Anwendungsfälle mit hohem Volumen und zeitkritischer Relevanz - geeignet für große Zielgruppen oder zur Steuerung des Timings (z. B. Call-Center-Kapazität, Anlaufphase oder zeitlich begrenzte Angebote).</li>
 </ul>
 </td>
@@ -67,7 +67,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt <strong>Formeln</strong> und <strong>KI-Modelle</strong> verwenden, um die Journey-Prioritätswerte basierend auf Kundenprofilattributen und Kontextfaktoren automatisch zu steigern und so sicherzustellen, dass Kunden die relevantesten Journey eingeben.</p>
+<p>Sie können jetzt <strong>Rangfolgeformeln</strong> verwenden<!--and <strong>AI models</strong> --> um die Journey-Prioritätswerte basierend auf Kundenprofilattributen und Kontextfaktoren automatisch zu erhöhen und so sicherzustellen, dass Kundinnen und Kunden in die relevantesten Journey gelangen.</p>
 <p>Diese Funktion ist nur für ausgewählte Organisationen verfügbar (<strong>eingeschränkte Verfügbarkeit</strong>). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
@@ -110,6 +110,22 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
+<th><strong>KI-Modelle überwachen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit Journey Optimizer können Sie jetzt den Zustand, den Trainingsstatus und die Leistung Ihrer KI-Modelle in Decisioning überwachen, um den Trainingserfolg zu überprüfen, Fehler zu beheben und die Auswirkungen auf Ihre Ergebnisse zu verstehen.</p>
+<p>Diese Funktion ist derzeit nur für Modelle <strong>personalisierte Optimierung</strong> verfügbar (nicht für die automatische Optimierung).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Aktionsaktivität in Journeys</strong><br/></th>
 </tr>
 </thead>
@@ -120,8 +136,8 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <ul>
 <li>Eine vereinfachte, native Aktionskonfiguration innerhalb der Journey-Arbeitsfläche</li>
 <li>Die Möglichkeit, eingehende Aktionsgruppen mit mehreren Aktionen zu erstellen</li>
-<li>Die Möglichkeit, <strong>Optimierung</strong> zu jeder integrierten Kanalaktion hinzuzufügen.</li>
-<li>Die Möglichkeit, jeder Aktion sowohl <strong>Experiment</strong> als <strong>mehrsprachig</strong> Optionen hinzuzufügen.</li>
+<li>Die Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen</li>
+<li>Die Möglichkeit, jeder Aktion sowohl experimentelle als auch mehrsprachige &gt; Optionen hinzuzufügen.</li>
 </ul>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 </td>
@@ -193,11 +209,11 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p><strong>Migrations-Tool</strong>APIs sind jetzt verfügbar, um <strong>Entscheidungs-Management</strong>-Entitäten programmgesteuert nach <strong>Decisioning</strong> zu migrieren.</p>
+<p>Migrations-Tool-APIs sind jetzt verfügbar, um <strong> (Entscheidungs-Management)-</strong> programmgesteuert nach <strong>Decisioning</strong> zu migrieren, mit:</p>
 <ul>
-<li>Flexible Migrationsumfänge (<strong>Sandbox</strong>, <strong>Angebot</strong> oder <strong>Entscheidungs</strong>Ebene)</li>
-<li>Automatisierte <strong>Abhängigkeitsanalyse</strong> und -validierung</li>
-<li><strong>Rollback-Unterstützung</strong> für abgeschlossene Migrationen</li>
+<li>Flexible Migrationsbereiche (Sandbox-, Angebots- oder Entscheidungsebene)</li>
+<li>Automatische Analyse und Validierung von Abhängigkeiten</li>
+<li>Rollback-Unterstützung für abgeschlossene Migrationen</li>
 <li>Detaillierte Migrationsberichte mit Objektzuordnungen</li>
 </ul>
 <p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/decisioning-migration-api.md">ausführlichen Dokumentation</a>.</p>
@@ -277,9 +293,6 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 
 * **Experience Decisioning-Vorschau im Code-basierten Erlebniskanal** - Sie können jetzt beim Konfigurieren von Experience Decisioning mit dem Code-basierten Erlebniskanal Entscheidungselemente in der Vorschau anzeigen. Die Vorschau ist vor der Live-Schaltung direkt in der Authoring-Oberfläche verfügbar.
-
-
-* **Offer Ranking-KI-Modell-Beobachtbarkeit** - Mit Journey Optimizer können Sie jetzt den Zustand, den Trainingsstatus und die Leistung Ihrer KI-Modelle in Decisioning überwachen, um den Trainingserfolg zu überprüfen, Fehler zu beheben und die Auswirkungen auf Ihre Ergebnisse zu verstehen. Diese Funktion ist nur für personalisierte Optimierungsmodelle verfügbar (nicht für die automatische Optimierung).
 
 
 * **Anhängen von Fragmenten an Entscheidungselemente**: Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die in Code-basierten Erlebniskampagnen über Entscheidungsrichtlinien genutzt werden können.
