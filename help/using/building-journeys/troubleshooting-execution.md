@@ -31,7 +31,7 @@ Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von
 
 Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Tatsächlich verlassen sich Journey auf die Streaming-Aufnahme-APIs von [!DNL Adobe Experience Platform]. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming[[!DNL Adobe Experience Platform] Aufnahme-APIs in der ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"}Dokumentation“ aufrufen.
+Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Tatsächlich verlassen sich Journey auf die Streaming-Aufnahme-APIs von [!DNL Adobe Experience Platform]. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming[[!DNL Adobe Experience Platform] Aufnahme-APIs in der &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"}Dokumentation“ aufrufen.
 
 Wenn Ihre Journey den Testmodus nicht aktivieren kann und dabei der Fehler `ERR_MODEL_RULES_16` ausgegeben wird, stellen Sie im Falle von Kanalaktionen sicher, dass das verwendete Ereignis einen [Identity-Namespace](../audience/get-started-identity.md) enthält.
 
@@ -57,16 +57,16 @@ Sie können die Fehlerbehebung mit den folgenden Fragen beginnen:
   Content-type - application/json
   ```
 
-* **Ereignisbedingung und Schemadatentypen** - Stellen Sie sicher, dass die in Ihrer Ereignisbedingung (Regel) verwendeten Datentypen mit dem Ereignisschema übereinstimmen. Nicht übereinstimmende Typen (z. B. Zeichenfolge vs. Ganzzahl) führen dazu, dass die Regelauswertung fehlschlägt und Ereignisse gelöscht werden. Siehe [Überprüfen der ](#verify-event-identity-and-rule-data-types).
+* **Ereignisbedingung und Schemadatentypen** - Stellen Sie sicher, dass die in Ihrer Ereignisbedingung (Regel) verwendeten Datentypen mit dem Ereignisschema übereinstimmen. Nicht übereinstimmende Typen (z. B. Zeichenfolge vs. Ganzzahl) führen dazu, dass die Regelauswertung fehlschlägt und Ereignisse gelöscht werden. Siehe [Überprüfen der &#x200B;](#verify-event-identity-and-rule-data-types).
 
->>
+&#x200B;>>
 **Für Journeys zur Zielgruppenqualifizierung mit Streaming-Zielgruppen**: Wenn Sie eine Aktivität zur Zielgruppenqualifizierung als Eintrittspunkt für die Journey verwenden, beachten Sie, dass nicht unbedingt alle für die Zielgruppe qualifizierten Profile auch in die Journey eintreten. Dies kann an Zeitfaktoren oder kurzfristigen Ausstiegen aus der Zielgruppe liegen oder daran, dass sich Profile bereits vor der Veröffentlichung in der Zielgruppe befanden. Erfahren Sie mehr zu [Überlegungen zum Timing bei der Qualifizierung von Streaming-Zielgruppen](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Überprüfen der Ereignisidentität {#verify-event-identity-and-rule-data-types}
 
-Stellen Sie beim Konfigurieren einer ereignisbasierten Journey sicher, dass das Identitätsfeld der Payload mit dem [im Ereignis ausgewählten Namespace) ](../event/about-creating.md#select-the-namespace). Wenn das Ereignis Felder zum Abgleichen von Profilen enthält, überprüfen Sie **ob** Groß-/Kleinschreibung) und **Datentyp** in der Ereignisbedingung genau mit den eingehenden Daten übereinstimmen. Wenn das Ereignisschema beispielsweise `roStatus` als Zeichenfolge definiert, muss die Journey-Regel sie auch als Zeichenfolge auswerten. Nicht übereinstimmende Datentypen (z. B. Zeichenfolge vs. Ganzzahl) führen dazu, dass die Regelauswertung fehlschlägt und gültige Ereignisse gelöscht werden.
+Stellen Sie beim Konfigurieren einer ereignisbasierten Journey sicher, dass das Identitätsfeld der Payload mit dem [im Ereignis ausgewählten Namespace) &#x200B;](../event/about-creating.md#select-the-namespace). Wenn das Ereignis Felder zum Abgleichen von Profilen enthält, überprüfen Sie **ob** Groß-/Kleinschreibung) und **Datentyp** in der Ereignisbedingung genau mit den eingehenden Daten übereinstimmen. Wenn das Ereignisschema beispielsweise `roStatus` als Zeichenfolge definiert, muss die Journey-Regel sie auch als Zeichenfolge auswerten. Nicht übereinstimmende Datentypen (z. B. Zeichenfolge vs. Ganzzahl) führen dazu, dass die Regelauswertung fehlschlägt und gültige Ereignisse gelöscht werden.
 
-Um Ihre Ereignisbedingung in [!DNL Journey Optimizer] zu überprüfen, verwenden Sie die Payload-Vorschau in der Ereigniskonfiguration und stellen Sie sicher, dass die Typen und Werte in der Regel mit der Payload-Struktur übereinstimmen. Erfahren Sie[ wie Sie die Payload ](../event/about-creating.md#preview-the-payload) und [regelbasierte Ereignisse konfigurieren](../event/about-creating.md).
+Um Ihre Ereignisbedingung in [!DNL Journey Optimizer] zu überprüfen, verwenden Sie die Payload-Vorschau in der Ereigniskonfiguration und stellen Sie sicher, dass die Typen und Werte in der Regel mit der Payload-Struktur übereinstimmen. Erfahren Sie[&#x200B; wie Sie die Payload &#x200B;](../event/about-creating.md#preview-the-payload) und [regelbasierte Ereignisse konfigurieren](../event/about-creating.md).
 
 ## Fehlerbehebung bei Transitionen im Testmodus {#troubleshooting-test-transitions}
 
