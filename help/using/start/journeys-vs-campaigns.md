@@ -2,26 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journeys oder Kampagnen – Auswählen des richtigen Ansatzes
-description: Vergleichen Sie Journeys, Kampagnen und orchestrierte Kampagnen, um den richtigen Ansatz für Ihre Marketing-Anforderungen in Adobe Journey Optimizer zu wählen
+description: Vergleichen Sie Journey, Aktionskampagnen, API-ausgelöste Kampagnen und orchestrierte Kampagnen, um den richtigen Ansatz für Ihre Marketing-Anforderungen in Adobe Journey Optimizer zu wählen.
 feature: Journeys, Campaigns, Get Started, Overview
+topic: Content Management
 role: User
 level: Beginner
 keywords: Journey, Kampagne, orchestriert, Vergleich, Auswählen, Entscheidung, Workflow, Echtzeit, Batch, Orchestrierung, mehrstufig, geplant, API-ausgelöst, ereignisgesteuert
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: fc2dc5924f4998d1285dee9c19a0d7e71a1e5722
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 85%
+source-wordcount: '1593'
+ht-degree: 66%
 
 ---
 
 # Journeys oder Kampagnen: Auswählen des richtigen Ansatzes {#journeys-vs-campaigns}
 
-Adobe Journey Optimizer bietet drei leistungsstarke Ansätze, mit denen Sie Ihre Kundschaft erreichen und ansprechen können. Um effektive Marketing-Erlebnisse zu erstellen, müssen Sie unbedingt verstehen, wann die einzelnen Ansätze verwendet werden.
+[!DNL Adobe Journey Optimizer] bietet vier Möglichkeiten, Ihre Kundinnen und Kunden zu erreichen und anzusprechen: **Journey**, **Aktionskampagnen**, **API-ausgelöste Kampagnen** und **orchestrierte Kampagnen**. Die Auswahl des richtigen Elements hängt davon ab, ob Sie 1:1 Orchestrierung in Echtzeit, geplante Sendungen, ereignisgesteuerte Nachrichten oder komplexe Batch-Workflows benötigen.
 
-Dieses Handbuch hilft Ihnen bei der Auswahl zwischen **Journey**, **Aktionskampagnen**, **API-ausgelösten Kampagnen** und **Orchestrierten Kampagnen** basierend auf Ihren spezifischen Marketing-Anforderungen.
+Dieses Handbuch hilft Ihnen bei der Auswahl anhand von Ausführungsstil, Datenanforderungen und Anwendungsfall - mit einem schnellen Vergleich, Entscheidungsbaum und konkreten Beispielen.
 
 ## Schnellvergleich – Überblick {#quick-overview}
 
@@ -31,6 +32,10 @@ Dieses Handbuch hilft Ihnen bei der Auswahl zwischen **Journey**, **Aktionskampa
 | **Aktionskampagnen** | Geplante oder wiederkehrende Sendungen an Zielgruppen | Batch-Ausführung - Zielgruppe zum Versandzeitpunkt gemeinsam verarbeitet |
 | **API-ausgelöste Kampagnen** | Ereignisgesteuerte oder Transaktionsnachrichten von externen Systemen | Ausführung auf Anfrage - ausgelöst durch API-Aufruf mit Payload |
 | **Orchestrierte Kampagnen** | Komplexe Batch-Workflows mit Segmentierung in mehrere Entitäten | Batch-Arbeitsfläche – alle Profile werden gemeinsam verarbeitet |
+
+>[!TIP]
+>
+>**Schnelle Faustregel:** muss sich jeder Kunde in seinem eigenen Tempo mit Echtzeit-Logik bewegen? Verwenden Sie **Journey**. Eine Nachricht nach einem Zeitplan an eine Zielgruppe senden? Verwenden Sie **Aktionskampagnen**. Wird von einem externen System über API ausgelöst? Verwenden Sie **API-ausgelöste Kampagnen**. Benötigen Sie Daten mit mehreren Entitäten, exakte Zählungen oder eine Batch-Arbeitsfläche? Verwenden **orchestrierten Kampagnen**.
 
 ## Detaillierter Vergleich {#detailed-comparison}
 
@@ -55,7 +60,7 @@ Verwenden Sie diese umfassende Tabelle, um die wichtigsten Unterschiede zu verst
 
 ## Entscheidungshilfe {#decision-guide}
 
-Folgen Sie diesem Entscheidungsbaum, um den richtigen Ansatz zu wählen:
+Folgen Sie diesem Entscheidungsbaum, um den richtigen Ansatz zu wählen. Viele Marken verwenden mehr als einen Typ. Wählen Sie für jeden Anwendungsfall die am besten geeignete aus.
 
 ### Schritt 1: Was ist Ihre Ausführungsanforderung?
 
@@ -88,14 +93,14 @@ Folgen Sie diesem Entscheidungsbaum, um den richtigen Ansatz zu wählen:
 | Ihre Anforderungen | Empfohlener Ansatz | Warum |
 |-----------|---------------------|-----|
 | Neue Kundschaft mit mehrstufigem Onboarding begrüßen | Journeys | Eintritt in Echtzeit, mehrere Touchpoints, bedingte Pfade |
-| Senden eines monatlichen Newsletters an Abonnentinnen und Abonnenten | Aktionskampagne | Einfache geplante Nachricht an Zielgruppe |
+| Senden eines monatlichen Newsletters an Abonnentinnen und Abonnenten | Aktionskampagnen | Einfache geplante Nachricht an Zielgruppe |
 | Warenkorbabbruch mit Erinnerungssequenz | Journeys | Echtzeit-Trigger, Wartezeiten, bedingte Nachverfolgung |
-| Werbeankündigung an alle Kundinnen und Kunden | Aktionskampagne | Einmalige Nachricht, sofortiger Versand |
+| Werbeankündigung an alle Kundinnen und Kunden | Aktionskampagnen | Einmalige Nachricht, sofortiger Versand |
 | Erneutes Ansprechen inaktiver Benutzender auf Grundlage des Verhaltens | Journeys | Ausgelöst durch Zielgruppenqualifizierung, personalisierter Pfad |
 | Blitzverkauf ausgelöst durch Geschäftsereignis | Journeys (Geschäftsereignis) | Echtzeit-Trigger mit Auswirkung auf mehrere Kundinnen und Kunden |
-| Saisonale Promotion mit Produktkatalogintegration | Orchestrierte Kampagne | Daten mit mehreren Entitäten, komplexe Segmentierung, genaue Anzahl |
-| Durch API ausgelöste Transaktionsnachricht | Durch API ausgelöste Kampagne | Externe System-Trigger, sofortiger Versand |
-| Mehrstufiger Versand pro Buchung | Orchestrierte Kampagne | Beziehungen mit mehreren Entitäten, eine Nachricht pro Buchung |
+| Saisonale Promotion mit Produktkatalogintegration | Orchestrierte Kampagnen | Daten mit mehreren Entitäten, komplexe Segmentierung, genaue Anzahl |
+| Durch API ausgelöste Transaktionsnachricht | Durch API ausgelöste Kampagnen | Externe System-Trigger, sofortiger Versand |
+| Mehrstufiger Versand pro Buchung | Orchestrierte Kampagnen | Beziehungen mit mehreren Entitäten, eine Nachricht pro Buchung |
 
 ## Erläuterung der wichtigsten Unterschiede {#key-distinctions}
 
@@ -230,12 +235,14 @@ Kombiniert die Komplexität eines Workflows mit der Batch-Kampagnenausführung.
 
 +++ Kann ich Journeys und Kampagnen in meiner Marketing-Strategie kombinieren?
 
-Absolut. Die meisten Unternehmen verwenden alle drei Ansätze für verschiedene Szenarien:
+Ja. Viele Unternehmen verwenden alle vier Ansätze für verschiedene Szenarien:
 
-* Journeys für verhaltensbezogene Interaktion in Echtzeit
-* Aktionskampagnen für geplante Broadcast-Kommunikation
-* Durch API ausgelöste Kampagnen für Transaktionsnachrichten
-* Orchestrierte Kampagnen für komplexe, datenintensive Batch-Kampagnen
+* **Journey** für verhaltensbezogene Interaktion in Echtzeit
+* **Aktionskampagnen** für geplante Broadcast-Nachrichten
+* **API-ausgelöste**) für Transaktionsnachrichten
+* **Orchestrierte**: für komplexe, datenintensive Batch-Kampagnen
+
+Verwenden Sie für jeden Anwendungsfall das richtige Tool, anstatt für alles einen Ansatz zu erzwingen.
 
 +++
 
@@ -253,17 +260,17 @@ Aktionskampagnen sind in der Regel am einfachsten (eine Nachricht an die Zielgru
 
 +++ Welcher Ansatz ist besser für große Zielgruppen geeignet?
 
-Alle drei können gut skaliert werden, aber:
+Alle vier können gut skalieren. Die richtige Wahl hängt von Ihrem Muster ab:
 
-* **Journeys vom Typ „Zielgruppe lesen“** und **Aktionskapamgnen** sind für große Batch-Zielgruppen optimiert
-* **Orchestrierte Kampagnen** zeichnen sich durch eine komplexe Segmentierung mit großen Datensätzen aus
-* **Unitäre Journeys** verarbeiten Profile einzeln, sodass die Skalierung vom Ereignisvolumen abhängt
+* **Audience-Journey lesen** und **Action-** sind für große Batch-Zielgruppen optimiert (eine Nachricht oder ein Fluss zu mehreren Profilen gleichzeitig).
+* **Orchestrierte Kampagnen** zeichnen sich durch eine komplexe Segmentierung mit großen Datensätzen und Daten mit mehreren Entitäten aus.
+* **Unitäre (ereignisbasierte) Journey** verarbeiten Profile einzeln, wenn Ereignisse auftreten. Die Skalierung hängt daher vom Ereignisvolumen und -durchsatz ab.
 
 +++
 
 +++ Kann ich dieselbe Zielgruppe für Journeys und Kampagnen verwenden?
 
-Ja, in Adobe Experience Platform erstellte Zielgruppen können für alle drei Ansätze verwendet werden.
+Ja. In [!DNL Adobe Experience Platform] erstellte Zielgruppen können in Journey-, Aktionskampagnen- und orchestrierten Kampagnen verwendet werden (wobei Zielgruppenlogik auch auf der Arbeitsfläche nach Bedarf erstellt werden kann). API-ausgelöste Kampagnen werden über die Payload gesteuert und verwenden vordefinierte Zielgruppen nicht auf die gleiche Weise.
 
 +++
 
@@ -271,12 +278,13 @@ Ja, in Adobe Experience Platform erstellte Zielgruppen können für alle drei An
 
 Bereit, mit dem Erstellen zu beginnen? Informieren Sie sich in der ausführlichen Dokumentation zu Ihrem gewählten Ansatz:
 
-* **[Erste Schritte mit Journeys](../building-journeys/journey.md)** – Erfahren Sie mehr über Journey-Typen, Designer und Workflow
-* **[Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)** – Erkunden Sie durch Aktionen und APIs ausgelöste Kampagnen
-* **[Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)** – Entdecken Sie Batch-Arbeitsflächen-Workflows
+* **[Erste Schritte mit Journey](../building-journeys/journey.md)** - Journey-Typen, Designer und Workflow
+* **[Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)** - Aktion und API-ausgelöste Kampagnen
+* **[Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)** - Batch-Arbeitsflächen-Workflows
 
-**Benötigen Sie weitere Hilfe bei der Entscheidungsfindung?**
-* [Vergleich der Journey-Typen](../building-journeys/journey.md#journey-types-comparison)
-* [Vergleich der Kampagnentypen](../campaigns/get-started-with-campaigns.md#campaign-types)
-* [Häufig gestellte Fragen zu Journeys](../building-journeys/journey-faq.md)
-* [Häufig gestellte Fragen zu orchestrierten Kampagnen](../orchestrated/orchestrated-campaigns-faq.md)
+>[!MORELIKETHIS]
+>
+>* [Vergleich der Journey-Typen](../building-journeys/journey.md#journey-types-comparison)
+>* [Vergleich der Kampagnentypen](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [Häufig gestellte Fragen zu Journeys](../building-journeys/journey-faq.md)
+>* [Häufig gestellte Fragen zu Orchestrierten Kampagnen](../orchestrated/orchestrated-campaigns-faq.md)
