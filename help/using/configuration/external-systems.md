@@ -19,7 +19,7 @@ ht-degree: 97%
 
 Auf dieser Seite werden die verschiedenen Leitplanken vorgestellt, die Journey Optimizer für die Integration eines externen Systems bietet. Zusätzlich erhalten Sie Best Practices dazu, wie Sie den Schutz Ihres externen Systems mithilfe der Begrenzungs-API optimieren können, wie Journey-Zeitüberschreitungen konfiguriert werden und wie erneute Versuche funktionieren.
 
-Mit Journey Optimizer können Sie Verbindungen zu externen Systemen über &quot;[ Datenquellen“ ](../datasource/about-data-sources.md) &quot;[ Aktionen“ ](../action/action.md). Auf diese Weise können Sie beispielsweise Ihre Journeys mit Daten aus einem externen Reservierungssystem anreichern oder Nachrichten mithilfe eines Drittanbietersystems wie Epsilon oder Facebook versenden.
+Mit Journey Optimizer können Sie Verbindungen zu externen Systemen über &quot;[&#x200B; Datenquellen“ &#x200B;](../datasource/about-data-sources.md) &quot;[&#x200B; Aktionen“ &#x200B;](../action/action.md). Auf diese Weise können Sie beispielsweise Ihre Journeys mit Daten aus einem externen Reservierungssystem anreichern oder Nachrichten mithilfe eines Drittanbietersystems wie Epsilon oder Facebook versenden.
 
 Bei der Integration eines externen Systems können mehrere Probleme auftreten: Das System kann langsam sein, nicht mehr reagieren oder es kann möglicherweise nicht in der Lage sein, große Datenmengen zu verarbeiten. Journey Optimizer bietet verschiedene Schutzmechanismen, um Ihr System vor Überlastung zu schützen.
 
