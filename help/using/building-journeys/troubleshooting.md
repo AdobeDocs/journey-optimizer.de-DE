@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '482'
-ht-degree: 100%
+source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 In diesem Abschnitt erfahren Sie, wie Sie Probleme bei Journeys vor dem Testen oder Veröffentlichen beheben können.  Alle unten aufgeführten Prüfungen können durchgeführt werden, wenn sich die Journey im Testmodus befindet oder live ist. Wir empfehlen, alle unten aufgeführten Prüfungen im Testmodus vorzunehmen und dann mit der Veröffentlichung fortzufahren. Weitere Informationen zum Testmodus finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
-[Auf dieser Seite](troubleshooting-execution.md) erfahren Sie, wie Sie Fehler bei Journey-Ereignissen beheben und wie Sie prüfen, ob Profile in Ihre Journey eingetreten sind, wie sie diese durchlaufen und ob Nachrichten gesendet werden.
+Erfahren Sie, wie Sie Probleme beim Journey von Ereignissen beheben, überprüfen können, ob Profile auf Ihre Journey gelangt sind, wie sie darin navigieren und ob Nachrichten gesendet werden [auf dieser Seite](troubleshooting-execution.md). Wenn trotz aufgenommener Ereignisse keine Profile in Ihre ereignisbasierte Journey eintreten, stellen Sie sicher, [ die Datentypen für Ereignisbedingungen mit dem Ereignisschema ](troubleshooting-execution.md#verify-event-identity-and-rule-data-types).
 
 [Auf dieser Seite](troubleshooting-inbound.md) erfahren Sie, wie Sie Fehler bei eingehenden Aktionen beheben.
 
