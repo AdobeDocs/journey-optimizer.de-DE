@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
+exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
+source-git-commit: 2ba8aecf9f9665d00f553a281ad365e3535b5efe
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 87%
+source-wordcount: '1755'
+ht-degree: 83%
 
 ---
 
@@ -105,7 +106,7 @@ Der [Journey Analyze Agent](https://experienceleague.adobe.com/de/docs/experienc
 
 #### Journey Create SKILL {#journey-create-skill}
 
-Mit dem [Journey Create Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
+Mit dem [Journey Create Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
 
 +++**Wichtige Funktionen**
 
@@ -170,6 +171,7 @@ Verwenden Sie generative KI, um Inhalte über mehrere Kanäle hinweg zu erstelle
 
 ### Wichtigste Funktionen
 
+* **Vollständige Inhaltserstellung** - Generieren vollständiger Inhaltserlebnisse (Text und Bilder) in einem Durchgang für E-Mail, Web, Landingpages und Push-Benachrichtigungen. [Vollständigen Inhalt mit dem KI-Assistenten generieren](../content-management/generative-full-content.md)
 * **Textgenerierung** – Erstellen Sie überzeugende Texte basierend auf Ihrer Markensprache und Ihren Zielen. [Generieren von Text mit KI](../content-management/generative-text.md)
 * **Bildgenerierung** – Generieren Sie benutzerdefinierte Bilder mit Adobe Firefly. [Generieren von Bildern mit KI](../content-management/generative-image.md)
 * **Inhaltsvarianten** – Erstellen Sie mehrere Varianten für A/B-Tests. [Inhaltsexperimente mit KI](../content-management/generative-experimentation.md)
@@ -178,7 +180,7 @@ Verwenden Sie generative KI, um Inhalte über mehrere Kanäle hinweg zu erstelle
 
 ### Best Practices
 
-* **Seien Sie spezifisch** – Verwenden Sie klare, detaillierte Prompts für bessere Ergebnisse
+* **Seien Sie spezifisch** - Geben Sie klare, detaillierte Eingabeaufforderungen für bessere Ergebnisse. [Best Practices für Eingabeaufforderungen kennenlernen](../content-management/ai-assistant-prompting-guide.md)
 * **Laden Sie Marken-Assets hoch** – Verwenden Sie PDFs, Bilder oder ZIP-Dateien (max. 50 MB), um die Markenkonsistenz zu gewährleisten
 * **Verwenden Sie benutzerdefinierte Vorlagen** – Nutzen Sie markenspezifische E-Mail-Vorlagen mit bis zu 8–10 Bildern
 * **Geben Sie Feedback** – Bewerten Sie die Ausgabe, um die KI-Modelle zu verbessern
@@ -278,6 +280,12 @@ Durchsuchen Sie Journey Optimizer-Playbooks nach gängigen Szenarien wie den fol
 Wandeln Sie statische Bildentwürfe (JPEG, PNG) mithilfe der KI-gestützten Konvertierungstechnologie in bearbeitbare HTML-E-Mail-Vorlagen um.
 
 [Weitere Informationen zum Bild-zu-HTML-Converter](../email/image-to-html.md)
+
+### GenStudio for Performance Marketing
+
+Integrieren Sie ihn mit Adobe GenStudio for Performance Marketing, um KI-gestützte E-Mail-Inhalte zu erstellen und Vorlagen zur Orchestrierung in Journey Optimizer zu importieren. Exportieren Sie Journey Optimizer-Vorlagen nach GenStudio, generieren Sie Varianten mit KI und stellen Sie sie wieder bereit. (Eingeschränkte Verfügbarkeit, nur E-Mail-Kanal.)
+
+[Weitere Informationen zu GenStudio](../integrations/genstudio.md)
 
 ### Bewertung der Markenausrichtung
 
