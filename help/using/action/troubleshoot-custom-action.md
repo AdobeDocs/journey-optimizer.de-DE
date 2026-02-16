@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
+source-git-commit: bae446ea38a0cb97487201f7dcf4df751578ad0a
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 94%
+source-wordcount: '1041'
+ht-degree: 61%
 
 ---
 
@@ -93,6 +93,20 @@ Wenn die Anfrage fehlschlägt, können Sie Folgendes überprüfen:
 * Die Anfragemethode (GET vs. POST) und die entsprechende Payload.
 * Der API-Endpunkt und die Header, die in der benutzerdefinierten Aktion definiert sind.
 * Verwenden Sie die Antwortdaten, um potenzielle Fehlkonfigurationen zu identifizieren.
+
+## Verwerfen-Ereignisse und Leerlauf-Timeouts handhaben {#handling-discard-events-and-idle-timeouts}
+
+Wenn eine benutzerdefinierte Aktion auf einem Journey ein Ereignis zum Starten einer **zweiten Journey** Trigger, stellen Sie sicher, dass sich die zweite Journey in einem gültigen Zustand befindet und das Ereignis erkannt wird. Wenn das Ereignis die Einstiegsbedingungen der zweiten Journey nicht erfüllt, kann das Ereignis **verworfen** und in Protokollen mit Codes wie `notSuitableInitialEvent` angezeigt werden. Leerlaufzeitüberschreitungen können auftreten, wenn die zweite Journey nicht bereit ist, was zu Verwerfungsereignissen in den Protokollen führt.
+
+**Häufige Ursachen:**
+
+* **Ereignisqualifizierung nicht erfüllt** - Die zweite Journey verwendet ein regelbasiertes Ereignis mit einer Qualifizierungsbedingung (ein erforderliches Feld darf beispielsweise nicht leer sein, z. B. `isNotEmpty` für ein bestimmtes Feld). Wenn die Ereignis-Payload diese Bedingung nicht erfüllt (z. B. wenn das Feld leer ist oder fehlt), wird das Ereignis **empfangen, aber verworfen** und die zweite Journey wird nicht ausgelöst. Dies ist das erwartete Verhalten. Die Dokumentation und die Protokolle bestätigen, dass das Ereignis verworfen wird und das Journey für dieses Profil nicht ausgelöst wird, wenn die Qualifizierungsbedingung nicht erfüllt ist. Stellen Sie sicher, dass die von der benutzerdefinierten Aktion gesendete Payload alle Felder und Werte enthält, die für die zweite Journey-Ereigniskonfiguration erforderlich sind. Erfahren Sie, wie [regelbasierte Ereignisse konfigurieren](../event/about-creating.md) und [Fehlerbehebung beim Ereignisempfang](../building-journeys/troubleshooting-execution.md#checking-if-people-enter-the-journey) bei der Journey-Ausführung durchführen.
+
+* **Zweite Journey nicht bereit** - Zeitüberschreitungen im Leerlauf können auftreten, wenn die zweite Journey noch nicht aktiv ist (z. B. nicht im Testmodus oder nicht live) oder wenn eine Zeitlücke zwischen der benutzerdefinierten Aktionsauslösung und der zweiten Journey, die bereit zum Empfang ist, besteht. Stellen Sie sicher, dass der Ziel-Journey veröffentlicht wird oder sich im Testmodus befindet, bevor die benutzerdefinierte Aktion ausgelöst wird.
+
+* **Diagnose von Verwerfungsereignissen** - Wenn Verwerfungsereignisse in Protokollen angezeigt werden, überprüfen Sie die Journey-Protokolle und Splunk-Traces, um zu bestätigen, ob das Ereignis empfangen, aber aufgrund von Qualifizierung (Payload entsprach nicht der Regel) oder Timing verworfen wurde. Stellen Sie sicher, dass das Startdatum und die Konfiguration der zweiten Journey korrekt sind und dass sich die Journey im aktiven Datumsfenster befindet.
+
+Um zu vermeiden, dass Ereignisse verworfen werden, wenn Journey über benutzerdefinierte Aktionen verkettet werden, überprüfen Sie die Ereignis-Payload anhand der Ereignisregel der zweiten Journey und bestätigen Sie, dass die Ziel-Journey live oder im Testmodus und innerhalb ihres aktiven Datumsfensters ist.
 
 ## Weitere Ressourcen
 
