@@ -9,10 +9,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 90%
+source-wordcount: '1143'
+ht-degree: 86%
 
 ---
 
@@ -124,7 +124,7 @@ Links zu den Berichten der letzten 24 Stunden und der gesamten Zeit sind im Bes
 
 ## Leitlinien und Einschränkungen {#journey-dry-run-limitations}
 
-* Profile im Dry-Run-Modus werden in Richtung [Engagierbare Profile“ &#x200B;](../audience/license-usage.md)
+* Profile im Dry-Run-Modus werden in Richtung [Engagierbare Profile“ ](../audience/license-usage.md)
 * Journeys im Probelaufmodus werden auf das Live-Journey-Kontingent angerechnet.
 * Probelauf-Journeys wirken sich nicht auf Geschäftsregeln aus.
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
@@ -137,16 +137,16 @@ Ein Journey-Probelauf generiert **stepEvents**. Diese stepEvents haben eine best
 
 ![Schemaattribute eines Journey-Probelaufs](assets/dry-run-attributes.png)
 
-* `_experience.journeyOrchestration.stepEvents.inDryRun` gibt `true` zurück, wenn der Probelauf aktiviert ist und andernfalls `false`
-* `_experience.journeyOrchestration.stepEvents.dryRunID` gibt die ID einer Probelaufinstanz zurück
+* `_experience.journeyOrchestration.stepEvents.inDryRun` gibt `true` zurück, wenn sich die Journey im Probelauf-Modus befindet, und `null` für Test- oder Live-Journey (Nicht-Probelauf).
+* `_experience.journeyOrchestration.stepEvents.dryRunID` gibt die ID der Probelauf-Instanz zurück, wenn sie sich im Probelauf-Modus befindet. Für Test- oder Live-Journey ist sie `null`.
 
 
 Wenn Sie stepEvent-Daten in **externe Systeme** exportieren, können Sie Ausführungen von Probeläufen mit der Markierung `inDryRun` filtern.
 
-Bei der Analyse von **Journey** Berichtsmetriken mithilfe [!DNL Adobe Experience Platform] Abfrage-Service müssen von Probelauf generierte Schrittereignisse ausgeschlossen werden. Legen Sie dazu die Markierung `inDryRun` auf `false` fest.
+Bei der Analyse von **Journey** Berichtsmetriken mithilfe [!DNL Adobe Experience Platform] Abfrage-Service müssen von Probelauf generierte Schrittereignisse ausgeschlossen werden. Schließen Sie dazu Schrittereignisse aus, bei denen `inDryRun` `true` ist (d. h. schließen Sie nur Ereignisse ein, bei denen `inDryRun` `null` oder `false` ist).
 
 ## Anleitungsvideo {#dry-run-video}
 
 In diesem Video erfahren Sie, wie Sie einen Probelauf für Ihre Journeys ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464691/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
