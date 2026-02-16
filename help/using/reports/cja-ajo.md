@@ -47,7 +47,7 @@ Bevor Sie [!DNL Customer Journey Analytics] für Ihre Journeys verwenden können
 
 >[!NOTE]
 >
->Wenn für Ihre Sandbox mehrere Verbindungen vorhanden sind, überprüfen Sie, ob die [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de){target="_blank"} auf die [Verbindung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"} mit dem Flag **[!UICONTROL In CJA verwenden]** verweist. Andernfalls kann die Schaltfläche [**Analysieren in CJA** ](report-cja-manage.md#analyze) in [!DNL Journey Optimizer] deaktiviert sein.
+>Wenn für Ihre Sandbox mehrere Verbindungen vorhanden sind, überprüfen Sie, ob die [Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de){target="_blank"} auf die [Verbindung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"} mit dem Flag **[!UICONTROL In CJA verwenden]** verweist. Andernfalls kann die Schaltfläche [**Analysieren in CJA** &#x200B;](report-cja-manage.md#analyze) in [!DNL Journey Optimizer] deaktiviert sein.
 
 Wenn Sie [!DNL Journey Optimizer] zusammen mit [!DNL Customer Journey Analytics] verwenden, kann das zu Abweichungen in den Reporting-Daten führen, die durch Folgendes verursacht werden:
 
