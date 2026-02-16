@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: b2bfbf707adc60d3f08195c1df1b969523fb87b1
 workflow-type: tm+mt
-source-wordcount: '1805'
+source-wordcount: '1807'
 ht-degree: 97%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 Auf dieser Seite werden die verschiedenen Leitplanken vorgestellt, die Journey Optimizer für die Integration eines externen Systems bietet. Zusätzlich erhalten Sie Best Practices dazu, wie Sie den Schutz Ihres externen Systems mithilfe der Begrenzungs-API optimieren können, wie Journey-Zeitüberschreitungen konfiguriert werden und wie erneute Versuche funktionieren.
 
-Mit Journey Optimizer können Sie Verbindungen zu externen Systemen über benutzerdefinierte Datenquellen und Aktionen konfigurieren. Auf diese Weise können Sie beispielsweise Ihre Journeys mit Daten aus einem externen Reservierungssystem anreichern oder Nachrichten mithilfe eines Drittanbietersystems wie Epsilon oder Facebook versenden.
+Mit Journey Optimizer können Sie Verbindungen zu externen Systemen über &quot;[ Datenquellen“ ](../datasource/about-data-sources.md) &quot;[ Aktionen“ ](../action/action.md). Auf diese Weise können Sie beispielsweise Ihre Journeys mit Daten aus einem externen Reservierungssystem anreichern oder Nachrichten mithilfe eines Drittanbietersystems wie Epsilon oder Facebook versenden.
 
 Bei der Integration eines externen Systems können mehrere Probleme auftreten: Das System kann langsam sein, nicht mehr reagieren oder es kann möglicherweise nicht in der Lage sein, große Datenmengen zu verarbeiten. Journey Optimizer bietet verschiedene Schutzmechanismen, um Ihr System vor Überlastung zu schützen.
 
@@ -58,7 +58,7 @@ Nehmen wir beispielsweise an, Sie haben eine Begrenzungs- oder Drosselungsregel 
 Weiterführende Informationen zur Verwendung der APIs finden Sie in diesen Abschnitten:
 
 * [Capping-API](capping.md)
-* [Einschränkungs-API](throttling.md)
+* [Drosselungs-API](throttling.md)
 
 Eine ausführliche Beschreibung der APIs finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)
 
@@ -101,10 +101,10 @@ Der Wert für die Zeitüberschreitungsdauer hängt vom Anwendungsfall ab. Wenn S
 Sehen wir uns ein Beispiel einer Zeitüberschreitung von fünf Sekunden an.
 
 * Der erste Aufruf dauert weniger als fünf Sekunden: Der Aufruf ist erfolgreich und es wird kein erneuter Versuch unternommen.
-* Der erste Aufruf dauert länger als 5 Sekunden: Der Aufruf wird abgebrochen und es wird kein erneuter Versuch unternommen. In Berichten wird dies als Zeitüberschreitungsfehler gezählt.
+* Der erste Aufruf dauert länger als fünf Sekunden: Der Aufruf wird abgebrochen und es wird kein erneuter Versuch unternommen. In Berichten wird dies als Zeitüberschreitungsfehler gezählt.
 * Der erste Aufruf schlägt nach zwei Sekunden fehl (das externe System gibt einen Fehler zurück): drei Sekunden bleiben für weitere Versuche, wenn Begrenzungs-Slots verfügbar sind.
    * Wenn einer der drei weiteren Versuche vor Ablauf der fünf Sekunden erfolgreich ist, wird der Aufruf durchgeführt und es wird kein Fehler ausgegeben.
-   * Wenn während der erneuten Versuche das Ende der maximalen Wartezeit erreicht wird, wird der Aufruf abgebrochen und im Reporting als Zeitüberschreitungsfehler gezählt.
+   * Wenn während der erneuten Versuche das Ende des Timeouts erreicht wird, wird der Aufruf abgebrochen und im Reporting als Timeout-Fehler gezählt.
 
 ## Häufig gestellte Fragen {#faq}
 
@@ -132,7 +132,7 @@ Sie können in jeder Journey eine Zeitüberschreitungsdauer festlegen. Die Zeit�
 
 +++ Was ist der Ausgangs-Proxy und wann muss ich ihn verwenden?
 
-Der Ausgangs-Proxy stellt eine **statische IP-Adresse** für ausgehende Aufrufe von Journey Optimizer an Ihre externen Systeme bereit. Verwenden Sie ihn, wenn Ihre Drittanbieter-Endpunkte eine IP-Zulassungsauflistung erfordern.
+Der Egress-Proxy bietet eine **statische IP-Adresse** für ausgehende Aufrufe von Journey Optimizer **Benutzerdefinierte Aktionen** an Ihre externen Systeme. Verwenden Sie ihn, wenn Ihre Drittanbieter-Endpunkte eine IP-Zulassungsauflistung erfordern.
 
 **Wichtig:** Der Ausgangs-Proxy steuert NICHT den Durchsatz, die Ratenbegrenzungen oder die Anzahl gleichzeitiger Verbindungen. Um das Aufrufvolumen und die Verbindungsbegrenzungen zu verwalten, verwenden Sie die [Begrenzungs-API](capping.md) oder die [Drosselungs-API](throttling.md).
 
