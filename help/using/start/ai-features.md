@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 2ba8aecf9f9665d00f553a281ad365e3535b5efe
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 83%
@@ -106,7 +106,7 @@ Der [Journey Analyze Agent](https://experienceleague.adobe.com/de/docs/experienc
 
 #### Journey Create SKILL {#journey-create-skill}
 
-Mit dem [Journey Create Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
+Mit dem [Journey Create Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
 
 +++**Wichtige Funktionen**
 
@@ -279,7 +279,7 @@ Durchsuchen Sie Journey Optimizer-Playbooks nach gängigen Szenarien wie den fol
 
 Wandeln Sie statische Bildentwürfe (JPEG, PNG) mithilfe der KI-gestützten Konvertierungstechnologie in bearbeitbare HTML-E-Mail-Vorlagen um.
 
-[Weitere Informationen zum Bild-zu-HTML-Converter](../email/image-to-html.md)
+[Weitere Informationen zum Bild-zu-HTML-Converter](../content-management/image-to-html.md)
 
 ### GenStudio for Performance Marketing
 

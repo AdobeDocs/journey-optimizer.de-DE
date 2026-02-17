@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '3086'
 ht-degree: 98%
@@ -273,7 +273,6 @@ ht-degree: 98%
             + [Importieren von Content](using/email/existing-content.md)
             + [Programmieren von eigenem Inhalt](using/email/code-content.md)
             + [Verwenden von E-Mail-Vorlagen](using/email/use-email-templates.md)
-            + [Konvertieren von Bildern in HTML-Vorlagen](using/email/image-to-html.md)
             + [Nutzen von E-Mail-Designs](using/email/apply-email-themes.md)
             + [Anhängen von PDF-Dateien an E-Mails](using/email/pdf-attachments.md)
          + Gestalten Ihrer Inhalte {#add-content}
@@ -457,6 +456,7 @@ ht-degree: 98%
       + [Erste Schritte mit Inhaltsvorlagen](using/content-management/content-templates.md)
       + [Zugreifen auf und Verwalten von Vorlagen](using/content-management/access-content-templates.md)
       + [Erstellen von Inhaltsvorlagen](using/content-management/create-content-templates.md)
+      + [Konvertieren von Bildern in HTML-Vorlagen](using/content-management/image-to-html.md)
       + [Sperren von Inhalten in E-Mail-Vorlagen](using/content-management/content-locking.md)
       + [Testen von Inhaltsvorlagen](using/content-management/test-content-templates.md)
       + [Verwenden von Inhaltsvorlagen](using/content-management/use-content-templates.md)

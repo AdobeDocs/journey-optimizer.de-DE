@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p>Der Bild-zu-HTML-Converter ist eine KI-gestützte Funktion, die statische Bildentwürfe in vollständig anpassbare, modulare HTML-E-Mail-Inhaltsvorlagen konvertiert. Dieses Code-freie Tool ermöglicht es Marketing-Experten, visuelle Designs in responsive, bearbeitbare E-Mail-Vorlagen umzuwandeln, ohne dass technisches Know-how erforderlich ist. Es eignet sich perfekt für die Plattformmigration, die schnelle Erstellung von Vorlagen und die Erstellung wiederverwendbarer Vorlagenbibliotheken.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
-<p>Weitere Informationen finden Sie in der <a href="../email/image-to-html.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../content-management/image-to-html.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 30. Oktober 2025</p>
 </td>
 </tr>

@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: ht
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Nachdem Sie eine E-Mail erstellt haben, können Sie mit dem Gestalten Ihres E-Ma
 
    * **Importieren Sie vorhandenen HTML-Inhalt** aus einer Datei oder einem .zip-Ordner. In [diesem Abschnitt](existing-content.md) erfahren Sie, wie Sie E-Mail-Inhalte importieren.
 
-   * **Konvertieren von Bild-Designs in HTML-Vorlagen** mithilfe des KI-gestützten Bild-zu-HTML-Converters. In [diesem Abschnitt](image-to-html.md) erfahren Sie, wie Sie statische Bilder in bearbeitbare E-Mail-Vorlagen transformieren.
+   * **Konvertieren von Bild-Designs in HTML-Vorlagen** mithilfe des KI-gestützten Bild-zu-HTML-Converters. In [diesem Abschnitt](../content-management/image-to-html.md) erfahren Sie, wie Sie statische Bilder in bearbeitbare E-Mail-Vorlagen transformieren.
 
    * Wählen Sie aus einer Liste integrierter oder benutzerdefinierter Vorlagen einen **existierenden Inhalt** aus. In [diesem Abschnitt](../email/use-email-templates.md) erfahren Sie, wie Sie mit E-Mail-Vorlagen arbeiten.
 
@@ -88,4 +88,4 @@ Erfahren Sie, wie Sie mit dem Nachrichteneditor E-Mail-Inhalte erstellen.
 
 Erfahren Sie, wie Sie Inhaltsexperimente für A/B-Tests konfigurieren und E-Mail-Inhalte ausprobieren können, um Ihre Geschäftsziele bestmöglich zu erreichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447340?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
