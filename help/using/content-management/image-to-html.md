@@ -25,7 +25,7 @@ ht-degree: 65%
 
 [!DNL Journey Optimizer] können Sie die E-Mail-Erstellung erheblich beschleunigen, indem Sie statische Bilddesigns in vollständig anpassbare, modulare HTML-E-Mail-Inhaltsvorlagen umwandeln.
 
-Mithilfe der Generative AI-Technologie analysiert ein integriertes Tool das Layout, die Typografie, die Farben und die visuellen Elemente in Ihrem Bild und generiert einen übersichtlichen, modularen HTML-Code, der die Designtreue aufrechterhält und gleichzeitig mit der E-[-Designer ](../email/get-started-email-design.md) volle Bearbeitbarkeit gewährleistet.
+Mithilfe der Generative AI-Technologie analysiert ein integriertes Tool das Layout, die Typografie, die Farben und die visuellen Elemente in Ihrem Bild und generiert einen übersichtlichen, modularen HTML-Code, der die Designtreue aufrechterhält und gleichzeitig mit der E-[-Designer &#x200B;](../email/get-started-email-design.md) volle Bearbeitbarkeit gewährleistet.
 
 Diese Code-freie Funktion ermöglicht es Marketing-Experten, visuelle Assets von Grafikdesignern oder Design-Tools in responsive, bearbeitbare E-Mail-Vorlagen umzuwandeln, die in mehreren Journey und Kampagnen gespeichert und wiederverwendet werden können, ohne dass technisches Know-how erforderlich ist.
 
