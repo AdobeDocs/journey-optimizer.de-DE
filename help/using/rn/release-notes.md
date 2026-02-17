@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0472c9bb9decc49e5da392003027df23ec528ac9
+source-git-commit: 1bcd30022ea2360d44f5519e156129f603cdf149
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1525'
 ht-degree: 39%
 
 ---
@@ -46,12 +46,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Sie können den Versand ausgehender Nachrichten von Kampagnen oder Journey planen, die im Laufe der Zeit in kontrollierten Batches zugestellt werden sollen.</p>
+<p>Sie können jetzt den Versand von ausgehenden Nachrichten aus Journey Optimizer-Kampagnen oder Journey-Sendungen in kontrollierten Batches über einen bestimmten Zeitraum planen.</p>
 <p>Der Wave-Versand bietet die folgenden Vorteile:</p>
 <ul>
 <li>Bessere Zustellbarkeit: Spread sendet im Laufe der Zeit, um einen guten Ruf als Absender zu wahren und das Risiko zu reduzieren, als Spam gekennzeichnet zu werden.</li>
 <li>Laststeuerung - Vermeiden Sie die Überlastung nachgelagerter Systeme (z. B. Callcenter, Landingpages), indem Sie einschränken, wie viele Nachrichten gleichzeitig gesendet werden.</li>
 <li>Anwendungsfälle mit hohem Volumen und zeitkritischer Relevanz - geeignet für große Zielgruppen oder zur Steuerung des Timings (z. B. Call-Center-Kapazität, Anlaufphase oder zeitlich begrenzte Angebote).</li>
+<p>In -Kampagnen ist diese Funktion für alle Umgebungen verfügbar (allgemeine Verfügbarkeit). In Journey ist diese Funktion nur für bestimmte Unternehmen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </ul>
 </td>
 </tr>
