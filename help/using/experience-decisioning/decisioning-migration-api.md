@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
+source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1105'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Mit der Decisioning Migration Service-API können Sie Entscheidungs-Management-Objekte von einer Sandbox in eine andere migrieren. Der Migrationsprozess wird als asynchrone Workflows ausgeführt, die Funktionen zur Abhängigkeitsanalyse, Ausführung und optionales Rollback enthalten.
 
-Mit dieser API können Sie Ihre Entscheidungs-Inhalte nahtlos zwischen Umgebungen (z. B. von der Entwicklung zum Staging oder von der Staging- zur Produktionsumgebung) wechseln, während die Datenintegrität und -beziehungen erhalten bleiben.
+Mit dieser API können Sie Ihre Entscheidungs-Inhalte nahtlos zwischen Umgebungen <!--(e.g., from development to staging, or staging to production) -->unter Beibehaltung der Datenintegrität und -beziehungen).
 
 Weitere Informationen zu den Vorteilen und Funktionen von Decisioning im Vergleich zum Entscheidungs-Management finden Sie [dieser Seite](migrate-to-decisioning.md).
 
@@ -51,7 +51,7 @@ Zu den typischen Berechtigungen gehören:
 
 >[!NOTE]
 >
->Erfahren Sie in ([&#x200B; Abschnitt), wie Sie &#x200B;](gs-experience-decisioning.md#steps) zuweisen. Eine vollständige Liste der Berechtigungen finden Sie auf der Seite [Integrierte Berechtigungen](../administration/ootb-permissions.md#ootb-permissions) .
+>Erfahren Sie in ([ Abschnitt), wie Sie ](gs-experience-decisioning.md#steps) zuweisen. Eine vollständige Liste der Berechtigungen finden Sie auf der Seite [Integrierte Berechtigungen](../administration/ootb-permissions.md#ootb-permissions) .
 
 ### Vorbereiten der Ziel-Sandbox {#target-sandbox-preparation}
 
@@ -62,16 +62,16 @@ Bevor Sie eine Migration ausführen, stellen Sie sicher, dass Ihre Ziel-Sandbox 
 * **Datensatz** - Identifizieren Sie einen Datensatznamen, der für die Migration verwendet werden soll (`dependency.datasetName`).
 * **Datenstrom** - Festlegen, ob bei der Migration ein Datenstrom erstellt werden soll (`createDataStream`).
 
-Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [&#x200B; und Zuweisen von Sandboxes](../administration/sandboxes.md).
+Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [ und Zuweisen von Sandboxes](../administration/sandboxes.md).
 
 ## API-Grundlagen {#api-basics}
 
-### Basis-URLs {#base-urls}
+### Basis-URL {#base-url}
 
-Verwenden Sie je nach Umgebung die folgenden Basis-URLs:
+Verwenden Sie die folgende Basis-URL:
 
 * **Produktion**: `https://decisioning-migration.adobe.io`
-* **STAGING**: `https://decisioning-migration-stage.adobe.io`
+  <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### Authentifizierung {#authentication}
 
@@ -93,8 +93,8 @@ Ein Workflow verfügt über die folgenden Eigenschaften:
 * `status` - Aktueller Workflow-Status: `New`, `Running`, `Completed` oder `Failed`
 * `result` - Workflow-Ausgabe nach Abschluss (einschließlich Migrationsergebnissen und Warnungen)
 * `errors` - Details zu strukturierten Fehlern bei Fehlschlägen
-* `_etag` - Versionskennung, die für Löschvorgänge verwendet wird (nur Service-Benutzer)
 * `_links.self` - Workflow-URL zum Abrufen des Status
+  <!--* `_etag` - Version identifier used for delete operations (service users only)-->
 
 ## Migrations-Workflow {#migration-workflow}
 
@@ -354,17 +354,15 @@ Bei der Migration vom Entscheidungs-Management zum Entscheidungs-Management werd
 
 ## Workflow-Bereinigung {#cleanup}
 
-Workflow-Ressourcen können nur von Service-Benutzern gelöscht werden. Löschvorgänge erfordern eine `If-Match` mit dem `_etag` des Workflows.
+<!--Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
 
-**Verfügbare Löschvorgänge:**
+**Available delete operations:**
 
 * `DELETE /workflows/generate-dependencies/{id}`
 * `DELETE /workflows/migration/{id}`
-* `DELETE /workflows/rollback/{id}`
+* `DELETE /workflows/rollback/{id}`-->
 
->[!NOTE]
->
->Das Löschen von Workflows ist nur für Dienstkonten mit entsprechenden Berechtigungen verfügbar. Wenden Sie sich an Ihren Systemadministrator, wenn Sie eine Workflow-Ressource löschen müssen.
+Das Löschen von Workflows ist nicht öffentlich verfügbar. Wenden Sie sich an Ihren Systemadministrator, wenn Sie eine Workflow-Ressource löschen müssen.
 
 ## Verwandte Themen {#related-topics}
 
