@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7dac7dbdb6a84455dc97828884027cfed39f3995
+source-git-commit: 029f91599f0be6d30d1e7d73cac7390a6fb05f1f
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 39%
+source-wordcount: '1461'
+ht-degree: 40%
 
 ---
 
@@ -268,11 +268,14 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 * **Nutzung von Erlebnisereignissen in Journey-Ausdrücken** - Ab dem 1. April 2026 wird die Verwendung von Erlebnisereignisattributen in Journey-Ausdrücken für Organisationen, die diese Funktion in den letzten 90 Tagen nicht verwendet haben, nicht mehr unterstützt. Diese Funktion ist bereits seit dem 8. Juli 2025 für neue Kundenorganisationen nicht mehr verfügbar. Alternativen finden Sie unter [Suche nach Erlebnisereignissen in Journey](../building-journeys/exp-event-lookup.md).
 
 
-#### E-Mail-Designer
+#### Inhaltsvorlagen
 
 * **Verwenden von Designs zum Konvertieren von Bildern in E-Mail-Vorlagen** - Beim Konvertieren eines Bildes in eine E-Mail-Vorlage in Journey Optimizer können Sie jetzt ein Design als Eingabe verwenden, sodass die generierte HTML Ihren Markenparametern entspricht. Stile wie Hintergrundfarbe, Schaltflächenfarbe, Schriftarten, Zeilenabstand, Ränder und Abstand werden automatisch angewendet, wodurch die manuelle Entwurfsarbeit reduziert wird und eine Vorlage bereitgestellt wird, die mit minimalen Bearbeitungen verwendet werden kann. [Weitere Informationen](../content-management/image-to-html.md)
 
   Verfügbarkeit: 13. Februar 2026.
+
+
+#### E-Mail-Designer
 
 * **Aktualisieren von Marken mit neuer Farbregisterkarte** – Markenrichtlinien helfen sicherzustellen, dass Ihre Marke an allen Touchpoints konsistent präsentiert wird. Im neuen Abschnitt Farben werden die Standards für das Farbsystem Ihrer Marke definiert und beschrieben, wie Farben in Erlebnissen ausgewählt, organisiert und angewendet werden. Es sorgt für die konsistente Verwendung von primären, sekundären, Akzent- und neutralen Farben, um eine kohärente, barrierefreie und erkennbare Markenidentität zu unterstützen.
 
@@ -288,7 +291,6 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
   **Hinweis**: Diese Funktion ist nur für eine Reihe von Organisationen verfügbar (<strong>eingeschränkte Verfügbarkeit</strong>). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
-
 * **Experience Decisioning-Vorschau im Code-basierten Erlebniskanal** - Sie können jetzt beim Konfigurieren von Experience Decisioning mit dem Code-basierten Erlebniskanal Entscheidungselemente in der Vorschau anzeigen. Die Vorschau ist vor der Live-Schaltung direkt in der Authoring-Oberfläche verfügbar.
 
 
@@ -298,12 +300,6 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
   Verfügbarkeit: 12. Februar 2026.
 
-
-#### Journeys
-
-* **Mehrere eingehende Aktionen in Journeys** – Um die Orchestrierung Ihrer Journeys zu vereinfachen, können Sie jetzt mehrere eingehende Aktionen in einer einzigen Journey definieren. Diese Funktion war bisher in -Kampagnen verfügbar und ermöglicht es Ihnen, mehrere Code-basierte Erlebnisse, In-App-Nachrichten, Inhaltskarten oder Web-Aktionen an verschiedene Orte gleichzeitig zu senden, wobei jede Aktion bestimmte Inhalte enthält.
-
-  **Hinweis**: Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
 #### SMS
 
