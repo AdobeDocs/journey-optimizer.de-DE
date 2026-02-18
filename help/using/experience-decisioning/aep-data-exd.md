@@ -11,10 +11,10 @@ level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
 workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 99%
 >title="Hinzufügen eines Datensatzes"
 >abstract="Verwenden Sie Datensatzattribute aus [!DNL Adobe Experience Platform], um die Begrenzungskriterien basierend auf dynamischen, externen Attributen zu definieren. Klicken Sie auf **[!UICONTROL Datensatz hinzufügen]**, um den Adobe Experience Platform-Datensatz mit den erforderlichen Attributen auszuwählen. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert und eine Suchzuordnung für den Datensatz erstellt haben."
 
-[!DNL Journey Optimizer] ermöglicht die Nutzung von [!DNL Adobe Experience Platform]-Daten für die Entscheidungsfindung. Auf diese Weise können Sie die Definition Ihrer Entscheidungsattribute auf zusätzliche Daten in Datensätzen für Massenaktualisierungen erweitern, die sich regelmäßig ändern, sodass die Attribute nicht einzeln manuell aktualisiert werden müssen. Beispielsweise Verfügbarkeit, Wartezeiten usw.
+[!DNL Journey Optimizer] ermöglicht die Nutzung von [!DNL Adobe Experience Platform]-Daten für die Entscheidungsfindung. So können Sie die Definition Ihrer Entscheidungsattribute auf zusätzliche Daten in Datensätzen erweitern, um sie bei sich regelmäßig ändernden Massen-Updates zu nutzen, ohne dass Sie die Attribute einzeln manuell aktualisieren müssen. Beispielsweise Verfügbarkeit, Wartezeiten usw.
 
 >[!AVAILABILITY]
 >
@@ -55,7 +55,7 @@ ht-degree: 99%
 
 * **Unterstützte Kanäle**: Die Datensatzsuche mit Entscheidungsfindung funktioniert derzeit für benutzerdefinierte E-Mail- und Journey-Aktionen. <!--Support for code-based experience channels is coming soon.-->
 * **Attributverwendung**: Die Datensatzsuchfunktion für die Entscheidungsfindung erweitert Entscheidungselementdefinitionen mit zusätzlichen Attributen. Attribute werden nicht auf Profile erweitert.
-* **Lookup-Limits**: [!DNL Journey Optimizer] unterstützt bis zu 1.000 Suchen pro Entscheidungsrichtlinie.
+* **Suchgrenzwerte:** [!DNL Journey Optimizer] unterstützt bis zu 1.000 Suchen pro Entscheidungsrichtlinie.
 
 ## Voraussetzungen
 

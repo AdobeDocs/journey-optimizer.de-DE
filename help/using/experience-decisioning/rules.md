@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
@@ -137,4 +137,4 @@ Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
 Erfahren Sie, wie Sie in Adobe Journey Optimizer wiederverwendbare **Targeting-Regeln** erstellen, duplizieren und anwenden, um Kampagnen effizient auf der Grundlage von Kundenattributen wie Region, Sprache und Verhalten zu personalisieren. So sparen Sie Zeit und verbessern die Genauigkeit der Zielgruppe.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476136/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

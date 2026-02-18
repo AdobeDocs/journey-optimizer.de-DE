@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
 workflow-type: tm+mt
 source-wordcount: '1481'
 ht-degree: 95%
@@ -97,7 +97,7 @@ Gehen Sie wie folgt vor, um Kriterien direkt über die Benutzeroberfläche zu de
 1. Geben Sie im Abschnitt **[!UICONTROL Kriterium 1]** die Entscheidungselemente an, auf die Sie einen Rangfolgenwert anwenden möchten, indem Sie Folgendes durchführen:
    * Wählen Sie ein [Entscheidungselement-Attribut](../items.md#attributes)
    * Logischen Operator auswählen
-   * Übereinstimmende Bedingung hinzufügen - Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten“ &#x200B;](../context-data.md)
+   * Übereinstimmende Bedingung hinzufügen - Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten“ ](../context-data.md)
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -141,7 +141,7 @@ Wenn die Region des Entscheidungselements (benutzerdefiniertes Attribut) gleich 
 
 ## Verwenden des Code-Editors {#ranking-code-editor}
 
-Um Rangfolgenformeln in der **PQL-Syntax** auszudrücken, wechseln Sie mithilfe der entsprechenden Schaltfläche oben rechts auf dem Bildschirm zum Code-Editor. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie in der [entsprechenden Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de).
+Um Rangfolgenformeln in der **PQL-Syntax** auszudrücken, wechseln Sie mithilfe der entsprechenden Schaltfläche oben rechts auf dem Bildschirm zum Code-Editor. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview).
 
 >[!CAUTION]
 >
@@ -279,6 +279,6 @@ Beachten Sie, dass bei Verwendung des **Decisioning**-API die Kontextdaten zum P
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie mit dem KI-Formel-Builder in Adobe Journey Optimizer Strategien für die benutzerdefinierte Rangfolge von Angeboten erstellen.
+Erfahren Sie, wie Sie mit dem KI-gestützten Formel-Builder in Adobe Journey Optimizer Strategien zur benutzerdefinierten Angebotsrangfolge erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)
