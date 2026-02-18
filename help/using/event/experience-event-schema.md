@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Schemata, XDM, Plattform, Streaming, Aufnahme, Journey
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 86%
 
 ---
 
@@ -25,7 +25,7 @@ Eine wichtige Voraussetzung für das Einrichten von [!DNL Journey Optimizer]-Ere
 
 >[!CAUTION]
 >
->Die Suche nach Erlebnisereignissen in Journey-Bedingungen wird nicht mehr unterstützt. Hier finden Sie alternative Best Practices. Wenn Ihnen ein durch ein Ereignis ausgelöster Journey-Anwendungsfall vorliegt, der immer noch die Suche nach Erlebnisereignissen erfordert und nicht durch eine der aufgelisteten Alternativen ausgeführt werden kann, wenden Sie sich an den Adobe-Support. Wir helfen Ihnen, Ihr Ziel zu erreichen.
+>Ab dem 8. Juli 2025 können neue Kundenorganisationen in Journey-Bedingungen keine Ausdrücke mehr mit Erlebnisereignisattributen erstellen. Ab dem 1. April 2026 haben Organisationen, die in den letzten 90 Tagen nicht über Journey-Ausdrücke auf Erlebnisereignisse zugegriffen haben, keinen Zugriff mehr auf diese Funktion. Alternative Ansätze und Best Practices sind unter [Suche nach Erlebnisereignissen in Journey](../building-journeys/exp-event-lookup.md) aufgeführt.
 >
 >Der Zugriff auf den Kontext vom Startereignis einer Journey ist nicht betroffen.
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=de).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

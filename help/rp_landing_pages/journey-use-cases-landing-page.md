@@ -5,10 +5,10 @@ title: Anwendungsfälle
 description: Anwendungsfälle
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
-source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
+source-git-commit: 90804dddd9c789e10158502ddbd64ffe7898dacc
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Mit den Anwendungsfällen von Adobe Journey Optimizer können Sie aussagekräfti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Lernen durch Anwendungsfälle
 
@@ -30,17 +30,17 @@ Hier finden Sie praktische Beispiele und Strategien zur Maximierung der Funktion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Suchen nach Erlebnisereignissen
 
-Verwenden Sie Erlebnisereignisse, um Opt-outs zu verwalten, Inhalte zu personalisieren und gängige Herausforderungen bei der Journey-Orchestrierung zu bewältigen.
+Verwenden Sie Alternativen zu Erlebnisereignissen, um Opt-outs zu verwalten, Inhalte zu personalisieren und gängige Herausforderungen bei der Journey-Orchestrierung zu bewältigen.
 
 [Weitere Informationen](../using/building-journeys/exp-event-lookup.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Senden von Multi-Channel-Nachrichten
 
@@ -50,7 +50,7 @@ Erstellen Sie Journeys, die eine Zielgruppensegmentierung und Ereignis-Trigger n
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Senden einer Nachricht mit Campaign v7/v8
 
@@ -60,9 +60,9 @@ Integration von Adobe Campaign mit Journey Optimizer zum Senden von E-Mail-Nachr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Senden einer Nachricht an Abonnierende
+Senden einer Nachricht an Abonnenten
 
 Richten Sie Journeys so ein, dass Nachrichten basierend auf Voreinstellungen und dynamisch abgerufenen Daten an Abonnentinnen und Abonnenten gesendet werden.
 
@@ -70,7 +70,7 @@ Richten Sie Journeys so ein, dass Nachrichten basierend auf Voreinstellungen und
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen
 

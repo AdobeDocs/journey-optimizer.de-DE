@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4f28c1e5c84e303470653803f5d2c9f5051d4ab8
+source-git-commit: 4e9fefb86fd5bc332f9e0dd60eaebf2323f107cd
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
@@ -33,7 +33,7 @@ Die Abschnitte [Neue Funktionen](#feb-26-01-features) und [Verbesserungen](#feb-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -61,30 +61,13 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>KI-Modelle überwachen</strong><br/></th>
+<th><strong>Web-Push-Benachrichtigungskanal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit Journey Optimizer können Sie jetzt den Zustand, den Trainingsstatus und die Leistung Ihrer KI-Modelle für die Entscheidungsfindung überwachen. Auf diese Weise können Sie den Schulungserfolg überprüfen, Fehler beheben und die Auswirkungen auf Ihre Ergebnisse verstehen, um mithilfe von KI die besten Angebote für jeden Kunden auszuwählen. Beachten Sie, dass diese Funktion nur für <strong>Decisioning</strong> verfügbar ist (nicht für ältere Entscheidungs-Management-Modelle).</p>
-<p>Diese Funktion ist derzeit nur für Modelle <strong>personalisierte Optimierung</strong> verfügbar (nicht für die automatische Optimierung).</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 17. Februar 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Kanal für Web-Push-Benachrichtigungen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer unterstützt jetzt <strong>Web-Push-Benachrichtigungen</strong> und erweitert damit den Push-Kanal über den mobilen Gebrauch hinaus. Sie können Benachrichtigungen nahtlos an <strong>mobile und Desktop-Browser</strong> senden, sodass Ihre Kundinnen und Kunden direkt auf ihren Geräten erreicht werden, ohne dass eine App erforderlich ist. Diese Verbesserung ermöglicht es Ihnen, Benutzende in Echtzeit mit zeitnahen, personalisierten Nachrichten anzusprechen, unter Nutzung derselben Authoring-Workflows und Targeting-Funktionen, die bereits für mobile Push-Benachrichtigungen verfügbar sind.</p>
+<p>Adobe Journey Optimizer unterstützt jetzt <strong>Web-Push-Benachrichtigungen</strong> und erweitert den Push-Kanal über Mobile hinaus. Sie können Benachrichtigungen nahtlos an <strong>mobile und Desktop-Browser</strong> senden, sodass Ihre Kundinnen und Kunden direkt auf ihren Geräten erreicht werden, ohne dass eine App erforderlich ist. Diese Verbesserung ermöglicht es Ihnen, Benutzende in Echtzeit mit zeitnahen, personalisierten Nachrichten anzusprechen, unter Nutzung derselben Authoring-Workflows und Targeting-Funktionen, die bereits für mobile Push-Benachrichtigungen verfügbar sind.</p>
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>Diese Funktion wurde bereits in Beta veröffentlicht und steht allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Weitere Informationen finden Sie in der <a href="../push/push-configuration-web.md">ausführlichen Dokumentation</a>.</p>
@@ -165,7 +148,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Februar geplant. Ver�
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent: Kanalinhalt erstellen</strong><br/></th>
+<th><strong>Journey Agent: Erstellung von Kanalinhalten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -242,6 +225,23 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Februar geplant. Ver�
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>KI-Modellüberwachung</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit Journey Optimizer können Sie jetzt den Zustand, den Trainingsstatus und die Leistung Ihrer KI-Modelle für die Entscheidungsfindung überwachen. Auf diese Weise können Sie den Schulungserfolg überprüfen, Fehler beheben und die Auswirkungen auf Ihre Ergebnisse verstehen, um mithilfe von KI die besten Angebote für jeden Kunden auszuwählen. Beachten Sie, dass diese Funktion nur für <strong>Decisioning</strong> verfügbar ist (nicht für ältere Entscheidungs-Management-Modelle).</p>
+<p>Diese Funktion ist derzeit nur für Modelle <strong>personalisierte Optimierung</strong> verfügbar (nicht für die automatische Optimierung).</p>
+<p>Verfügbarkeitsdatum: Samstag, 20. Februar 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Verbesserungen {#coming-soon-improv}
 
 * **Experience Decisioning-Vorschau im Code-basierten Erlebniskanal** - Sie können jetzt beim Konfigurieren von Experience Decisioning mit dem Code-basierten Erlebniskanal Entscheidungselemente in der Vorschau anzeigen. Die Vorschau ist vor der Live-Schaltung direkt in der Authoring-Oberfläche verfügbar.
@@ -255,3 +255,4 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Februar geplant. Ver�
 * **Integration von benutzerdefinierten Firefly-Modellen und Drittanbieter-Image-Generierungsmodellen** - Ermöglichen Sie die nahtlose Integration von standardmäßigen und benutzerdefinierten Firefly-Modellen zusammen mit genehmigten Drittanbieter-Image-Modellen (z. B. NanoBanana), um mehr Flexibilität, Kontrolle und Markenausrichtung bei der Bilderstellung zu bieten. Auf diese Weise können Sie für jeden Anwendungsfall das beste Modell auswählen: standardmäßige Firefly für allgemeine Anforderungen, benutzerdefinierte Firefly für die Markengenerierung oder genehmigte Drittanbietermodelle für spezialisierte oder experimentelle Szenarien.
 
   Verfügbarkeit: 20. Februar 2026.
+

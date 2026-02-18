@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '936'
 ht-degree: 100%
 
 ---
@@ -92,11 +92,7 @@ Gehen Sie wie folgt vor, um eine Regel zu erstellen:
    * **[!UICONTROL Entscheidungselement]**: Die Regel kann auf ein [Entscheidungselement](#decision-rules) im Kontext von Entscheidungsfindung angewendet werden.
    * **[!UICONTROL Targeting]**: Die Regel kann beim Erstellen von [Targeting](#targeting-rules)-Regeln verwendet werden, entweder im Rahmen der [Inhaltsoptimierung](../content-management/optimization-targeting.md) in einer Kampagne oder Journey oder in der Aktivität [Journey optimieren](../building-journeys/optimize.md#targeting).
 
-1. Wenn Sie eine Regel für ein **[!UICONTROL Entscheidungselement]** erstellen, können Sie **[!UICONTROL Datensatzsuche aktivieren]** auswählen, um Daten aus Adobe Experience Platform zur Anreicherung Ihrer Entscheidungslogik mit externen Daten zu verwenden. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, beispielsweise die Produktverfügbarkeit oder Echtzeitpreise.
-
-   >[!AVAILABILITY]
-   >
-   >Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Beta-Version zur Verfügung. Wenden Sie sich an Ihren Kontakt in der Kundenbetreuung, wenn Sie Zugriff wünschen. [Informationen zum Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../experience-decisioning/aep-data-exd.md)
+1. Wenn Sie eine Regel für ein **[!UICONTROL Entscheidungselement]** erstellen, können Sie **[!UICONTROL Datensatzsuche aktivieren]** auswählen, um Daten aus Adobe Experience Platform zur Anreicherung Ihrer Entscheidungslogik mit externen Daten zu verwenden. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, beispielsweise die Produktverfügbarkeit oder Echtzeitpreise. [Informationen zum Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../experience-decisioning/aep-data-exd.md)
 
 1. Der Bildschirm zur Regelerstellung wird geöffnet. Benennen Sie Ihre Regel und geben Sie eine Beschreibung an.
 
@@ -137,4 +133,4 @@ Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
 Erfahren Sie, wie Sie in Adobe Journey Optimizer wiederverwendbare **Targeting-Regeln** erstellen, duplizieren und anwenden, um Kampagnen effizient auf der Grundlage von Kundenattributen wie Region, Sprache und Verhalten zu personalisieren. So sparen Sie Zeit und verbessern die Genauigkeit der Zielgruppe.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476136/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

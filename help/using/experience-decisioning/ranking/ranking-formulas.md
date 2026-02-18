@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1459'
 ht-degree: 95%
 
 ---
@@ -66,9 +66,7 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen:
    >
    >Die Verschachtelungstiefe in einer Rangfolgenformel ist auf 30  Ebenen beschränkt. Diese wird durch Zählen der schließenden Klammern `)` in der PQL-Zeichenfolge gemessen. Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies entspricht 8.000 ASCII-Zeichen (jeweils 1 Byte) oder 2.000 bis 4.000 Nicht-ASCII-Zeichen (jeweils 2 bis 4 Byte). [Weitere Informationen zu den Leitlinien und Einschränkungen für die Entscheidungsfindung](../decisioning-guardrails.md#ranking-formulas)
 
-1. Sie können auch Daten aus Adobe Experience Platform verwenden, um die Rangfolgenlogik dynamisch anzupassen und so reale Bedingungen widerzuspiegeln. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, z. B. Produktverfügbarkeit oder Echtzeitpreise.
-
-   Diese Funktion steht derzeit allen Kundinnen und Kunden als öffentliche Beta-Version zur Verfügung. Wenden Sie sich an Ihren Kontakt in der Kundenbetreuung, wenn Sie Zugriff wünschen. [Informationen zum Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../aep-data-exd.md)
+1. Sie können auch Daten aus Adobe Experience Platform verwenden, um die Rangfolgenlogik dynamisch anzupassen und so reale Bedingungen widerzuspiegeln. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, z. B. Produktverfügbarkeit oder Echtzeitpreise. [Informationen zum Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
@@ -97,7 +95,7 @@ Gehen Sie wie folgt vor, um Kriterien direkt über die Benutzeroberfläche zu de
 1. Geben Sie im Abschnitt **[!UICONTROL Kriterium 1]** die Entscheidungselemente an, auf die Sie einen Rangfolgenwert anwenden möchten, indem Sie Folgendes durchführen:
    * Wählen Sie ein [Entscheidungselement-Attribut](../items.md#attributes)
    * Logischen Operator auswählen
-   * Übereinstimmende Bedingung hinzufügen - Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten“ &#x200B;](../context-data.md)
+   * Übereinstimmende Bedingung hinzufügen - Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten“ ](../context-data.md)
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 

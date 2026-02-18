@@ -5,10 +5,10 @@ title: Suche nach Erlebnisereignissen in Journeys
 description: Informationen zum Verwenden der Suche nach Erlebnisereignissen in Journeys
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 87%
+source-wordcount: '960'
+ht-degree: 76%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 87%
 
 >[!CAUTION]
 >
->Seit dem 8. Juli 2025 wird in neuen Kundenorganisationen das Erstellen von Ausdrücken mit Erlebnisereignissen im in Journey-Bedingungen verwendeten Ausdruckseditor nicht mehr unterstützt. Daher können Erlebnisereignisse in der [Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md) nicht zum Erstellen von Ausdrücken verwendet werden. Nachfolgend werden alternative Ansätze und Best Practices zum Erstellen von Ausdrücken/Logiken mit Erlebnisereignissen beschrieben.
+>Seit dem 8. Juli 2025 wird in neuen Kundenorganisationen das Erstellen von Ausdrücken mit Erlebnisereignissen im in Journey-Bedingungen verwendeten Ausdruckseditor nicht mehr unterstützt. Daher können Erlebnisereignisse in der [Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md) nicht zum Erstellen von Ausdrücken verwendet werden.
+>
+>Ab dem 1. April 2026 wird die Verwendung von Erlebnisereignisattributen in Journey-Ausdrücken für Organisationen, die diese Funktion in den letzten 90 Tagen nicht mehr verwendet haben, nicht mehr unterstützt. Nachfolgend werden alternative Ansätze und Best Practices zum Erstellen von Ausdrücken/Logiken mit Erlebnisereignissen beschrieben.
 >
 >Sie würden gerne mehr erfahren? [Lesen Sie die häufig gestellten Fragen](#faq-ee).
 
@@ -129,9 +131,9 @@ Weitere Informationen:
 
 ## Häufig gestellte Fragen {#faq-ee}
 
-Im Folgenden finden Sie häufig gestellte Fragen zum Suchen nach Erlebnisereignissen in Journeys.
+Diese häufig gestellten Fragen konzentrieren sich auf den Zeitrahmen für die Einstellung der Erlebnisereignisverwendung in Journey-Ausdrücken und darauf, wer betroffen ist. Anleitungen zu alternativen Ansätzen finden Sie oben unter „Anwendungsfälle und Best Practices“.
 
-Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen oder eine Verbindung mit [[!DNL Adobe Journey Optimizer] Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"} herzustellen.
+Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen oder eine Verbindung zur [[!DNL Adobe Journey Optimizer] Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"} herzustellen.
 
 +++Welche spezifischen Funktionen sind betroffen? 
 
@@ -153,9 +155,9 @@ Nur die Suche nach Erlebnisereignissen im Ausdruckseditor ist betroffen. Die fol
 
 +++
 
-+++Ist meine bestehende Adobe-Organisation von dieser Aktualisierung betroffen? 
++++Ist meine bestehende Adobe-Organisation von dieser Aktualisierung betroffen?
 
-Ihre Adobe-Organisation ist nur betroffen, wenn Sie die Suche nach Erlebnisereignissen noch nicht verwenden. Wenn Sie bereits Erlebnisereignisse in der [Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md) verwenden, verfügt Ihre Adobe-Organisation weiterhin über Support für die Suche nach Erlebnisereignissen.
+Ab dem 8. Juli 2025 können neue Kundenorganisationen keine Ausdrücke mehr mit Erlebnisereignis-Attributen erstellen. Ab dem 1. April 2026 haben Organisationen, die in den letzten 90 Tagen nicht über Journey-Ausdrücke auf Erlebnisereignisse zugegriffen haben, keinen Zugriff mehr auf diese Funktion.
 
 +++
 
