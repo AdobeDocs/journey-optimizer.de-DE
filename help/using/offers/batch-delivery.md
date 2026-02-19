@@ -3,16 +3,16 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Batch-Entscheidungsfindung
 description: Erfahren Sie, wie Sie Angebotsentscheidungen an alle Profile in einer bestimmten Adobe Experience Platform-Zielgruppe senden.
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 77fdbd9ea47d20fa2b2534cc9520a9b3cd011ac5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '861'
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, [!DNL Adobe Journey Optimizer] neue Entscheidungsfunktion, ist jetzt über die Code-basierten Erlebnis-, E-Mail-, SMS- und Push-Kanäle verfügbar! [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
 
-## Erste Schritte mit Batch-Entscheidungen {#start}
+## Erste Schritte mit der Batch-Entscheidungsfindung {#start}
 
 Mit Journey Optimizer können Sie Angebotsentscheidungen an alle Profile in einer bestimmten Adobe Experience Platform-Zielgruppe senden.
 
