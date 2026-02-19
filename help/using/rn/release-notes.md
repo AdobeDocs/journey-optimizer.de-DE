@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4e9fefb86fd5bc332f9e0dd60eaebf2323f107cd
+source-git-commit: dc6474bce5645f840d8d2354e3b955aa79b5c903
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 31%
+source-wordcount: '1213'
+ht-degree: 32%
 
 ---
 
@@ -33,7 +33,7 @@ Die Abschnitte [Neue Funktionen](#feb-26-01-features) und [Verbesserungen](#feb-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -245,10 +245,6 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Februar geplant. Ver�
 ### Verbesserungen {#coming-soon-improv}
 
 * **Experience Decisioning-Vorschau im Code-basierten Erlebniskanal** - Sie können jetzt beim Konfigurieren von Experience Decisioning mit dem Code-basierten Erlebniskanal Entscheidungselemente in der Vorschau anzeigen. Die Vorschau ist vor der Live-Schaltung direkt in der Authoring-Oberfläche verfügbar.
-
-  Verfügbarkeit: 20. Februar 2026.
-
-* **Mehrere eingehende Aktionen in Journey (GA)** - Journey Optimizer unterstützt jetzt mehrere eingehende Aktionen in Journey (allgemeine Verfügbarkeit) und ermöglicht so ein flexibleres Journey-Design und eine flexiblere Ereignisverarbeitung.
 
   Verfügbarkeit: 20. Februar 2026.
 
