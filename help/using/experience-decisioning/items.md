@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 98%
+source-wordcount: '2214'
+ht-degree: 90%
 
 ---
 
@@ -78,8 +78,8 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 >abstract="Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -136,13 +136,25 @@ Um Begrenzungsregeln für das Entscheidungselement festzulegen, klicken Sie auf 
    * **[!UICONTROL Entscheidungsereignis]** (Standardwert): Die maximale Häufigkeit, mit der ein Angebot unterbreitet werden kann.
    * **[!UICONTROL Impression]** (nur eingehende Kanäle): Die maximale Häufigkeit, mit der das Angebot einer Person angezeigt werden kann.
    * **[!UICONTROL Klicks]**: Die maximale Anzahl der Klicks auf das Entscheidungselement durch eine Person.
-   * **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerspezifisches Ereignis definieren, das verwendet wird, um die Anzahl der Sendevorgänge des Elements zu begrenzen. Sie können beispielsweise die Anzahl der Einlösungen auf 10.000 begrenzen, oder bis ein bestimmtes Profil 1 Mal eine Einlösung vorgenommen hat. Verwenden Sie dazu [Adobe Experience Platform-XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Schemata, um eine Regel für ein benutzerspezifische Ereignis zu erstellen.
+   * **[!UICONTROL Benutzerspezifisches Ereignis]**: Begrenzung basierend auf Geschäfts- oder Verhaltenserlebnisereignissen, die Sie in Adobe Experience Platform verfolgen, z. B. Einlösungen, Käufe oder Warenkorb-Kassengänge. Die Begrenzung benutzerdefinierter Ereignisse verwendet [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Erlebnisereignisse, die Sie aufnehmen. In der Dropdown-Liste ordnen Sie das spezifische Erlebnisereignis zu, das die Begrenzung antreiben soll, sodass der Begrenzungszähler jedes Mal erhöht wird, wenn dieses Ereignis empfangen wird. Die Begrenzung durch Kanalversandereignisse wie E-Mail-Versand wird nicht unterstützt: Benutzerdefiniertes Ereignis gilt nur für aufgenommene Erlebnisereignisse, nicht für Versand- oder Sendeereignisse.
 
-   >[!NOTE]
-   >
-   >Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zum Entscheidungs-Management möglicherweise nicht automatisch erfasst, was dazu führen könnte, dass der Begrenzungszähler nicht korrekt inkrementiert wird. Damit jedes Begrenzungsereignis verfolgt und im Begrenzungszähler berücksichtigt wird, stellen Sie sicher, dass das Schema, das zur Erfassung von Erlebnisereignissen verwendet wird, die richtige Feldergruppe für dieses Ereignis enthält. Detaillierte Informationen zur Datenerfassung finden Sie in der Dokumentation zum Entscheidungs-Management in Journey Optimizer:
-   >* [Datenerfassung für das Entscheidungs-Management](data-collection/data-collection.md)
-   >* [Konfigurieren der Datenerfassung](data-collection/schema-requirement.md)
+   +++Begrenzung für den Push-Kanal
+
+   Die standardmäßige Begrenzung **[!UICONTROL Klicks]** und **[!UICONTROL Impression]** wird für den Push-Kanal nicht unterstützt. Um über Push bereitgestellte Angebote zu begrenzen, verwenden Sie die Begrenzung **[!UICONTROL Benutzerspezifisches Ereignis]** und setzen Sie den Ereignistyp auf **Push-Tracking-Anwendung geöffnet** oder **Benutzerdefinierte Push-Tracking-Aktion**.
+
+   Für Push-Benachrichtigungen umfassen Tracking-Ereignisse aus dem mobilen Kanal die Experience Cloud ID (ECID). Es wird empfohlen, ECID in der Kampagnen- oder Journey-Konfiguration zu verwenden, um die Identitätskonsistenz zu wahren und sicherzustellen, dass die Begrenzung wie erwartet funktioniert.
+
+   ![](assets/push-capping.png)
+
+   +++
+
+   +++Tracking von Begrenzungsereignissen (Schema und Datenerfassung)
+
+   Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zum Entscheidungs-Management möglicherweise nicht automatisch erfasst, was dazu führen könnte, dass der Begrenzungszähler nicht korrekt inkrementiert wird. Damit jedes Begrenzungsereignis verfolgt und im Begrenzungszähler berücksichtigt wird, stellen Sie sicher, dass das Schema, das zur Erfassung von Erlebnisereignissen verwendet wird, die richtige Feldergruppe für dieses Ereignis enthält. Detaillierte Informationen zur Datenerfassung finden Sie in der Dokumentation zum Entscheidungs-Management in Journey Optimizer:
+   * [Datenerfassung für das Entscheidungs-Management](data-collection/data-collection.md)
+   * [Konfigurieren der Datenerfassung](data-collection/schema-requirement.md)
+
+   +++
 
 1. So wählen Sie den Begrenzungstyp:
 
