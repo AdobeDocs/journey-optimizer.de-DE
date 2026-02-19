@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktivität, Journey, Zielgruppe lesen, Zielgruppe, Segment, Batch, Einstiegspunkt, Trigger, Zeitplan, Zielgruppen-Qualifizierung
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: fc64ca7ef0935ce72ec5bb1cf88546a22d5ca0a4
+source-git-commit: 76f2563d415b3f82e231837566b20d9586166876
 workflow-type: tm+mt
-source-wordcount: '3605'
-ht-degree: 67%
+source-wordcount: '3590'
+ht-degree: 68%
 
 ---
 
@@ -42,7 +42,7 @@ Die **Zielgruppe lesen**-Aktivität ist die Journey-Einstiegspunktaktivität, di
 
 **Voraussetzungen:** Eine [!DNL Adobe Experience Platform] Zielgruppe, die erstellt und ausgewertet wird (realisierter Status), ein personenbasierter Identity-Namespace, der für die Journey ausgewählt wird, und - bei wiederkehrenden Ausführungen - ein Verständnis von [Zeitplan und Durchsatzbeschränkungen](#must-read).
 
-Beispielsweise kann die im Anwendungsfall `Luma app opening and checkout`Zielgruppen erstellen[&#x200B; erstellte &#x200B;](../audience/about-audiences.md)-Zielgruppe als Einstiegspunkt verwendet werden. Alle qualifizierten Profile treten in die Journey ein und durchlaufen personalisierte Pfade, in denen Bedingungen, Timer, Ereignisse und Aktionen verwendet werden.
+Beispielsweise kann die im Anwendungsfall `Luma app opening and checkout`Zielgruppen erstellen[ erstellte ](../audience/about-audiences.md)-Zielgruppe als Einstiegspunkt verwendet werden. Alle qualifizierten Profile treten in die Journey ein und durchlaufen personalisierte Pfade, in denen Bedingungen, Timer, Ereignisse und Aktionen verwendet werden.
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -108,11 +108,6 @@ Sie legen Folgendes fest: **Audience** (obligatorisch), **Namespace** (obligator
 
 ### Zusatzkennung {#read-audience-supplemental-id}
 
->[!CONTEXTUALHELP]
->id="ajo_journey_parameters_supplemental_identifier"
->title="Verwenden einer zusätzlichen Kennung"
->abstract="Optionale sekundäre Kennung (z. B. Bestell-ID) für den Journey-Kontext. Wählen Sie das Feld und seinen Namespace aus."
-
 Optional können Sie **Zusätzliche Kennung verwenden** aktivieren, um die Journey zusätzlich zur Profil-ID im Kontext einer sekundären Kennung (z. B. einer Auftrags-ID oder Buchungs-ID) auszuführen. Dies ermöglicht mehrere Eintritte desselben Profils, wenn die zusätzliche Kennung unterschiedlich ist.
 
 [Erfahren Sie, wie Sie zusätzliche Kennungen in Journey verwenden](supplemental-identifier.md). Bei Journey des Typs „Zielgruppe lesen“ muss die zusätzliche Kennung ein Profilattribut sein. Die Leserate ist auf 500 Profile pro Sekunde beschränkt, wenn eine zusätzliche ID verwendet wird.
@@ -129,7 +124,7 @@ Optional können Sie **Zusätzliche Kennung verwenden** aktivieren, um die Journ
 
 * Als Best Practice wird empfohlen, in einer Aktivität **Zielgruppe lesen** nur Batch-Zielgruppen zu verwenden. Dies ermöglicht eine zuverlässige und konsistente Zählung der in einer Journey verwendeten Zielgruppen. „Zielgruppe lesen“ wurde für Batch-Anwendungsfälle entwickelt. Wenn Ihr Anwendungsfall Echtzeitdaten benötigt, verwenden Sie bitte die Aktivität **[Zielgruppenqualifizierung](audience-qualification-events.md)**.
 
-* Zielgruppen,[&#x200B; die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
+* Zielgruppen,[ die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
 
 * Beschränkung der gleichzeitigen Ausführung des Typs „Zielgruppe lesen“ pro Organisation: Jede Organisation kann bis zu fünf Instanzen des Typs „Zielgruppe lesen“ gleichzeitig ausführen. Dies umfasst sowohl geplante Ausführungen als auch solche, die durch Geschäftsereignisse ausgelöst werden. Das Limit gilt für alle Sandboxes und Journeys. Diese Beschränkung wird durchgesetzt, um eine faire und ausgewogene Ressourcenzuordnung zwischen allen Organisationen zu gewährleisten.
 
@@ -167,12 +162,12 @@ Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwer
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Startdatum/Uhrzeit"
->abstract="Wann diese Journey gestartet wird."
+>abstract="Legen Sie fest, wann diese Journey gestartet werden soll."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Wiederholen bis"
->abstract="Enddatum der wiederkehrenden Ausführungen"
+>abstract="Enddatum für wiederkehrende Ausführungen definieren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
@@ -417,4 +412,4 @@ Erfolglose **Zielgruppe lesen**-Trigger werden erfasst und in **Warnhinweisen** 
 
 Machen Sie sich mit den relevanten Anwendungsfällen für eine Journey vertraut, die durch die Aktivität „Zielgruppe lesen“ ausgelöst wird. Erfahren Sie, wie Sie Batch-basierte Journeys erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430366?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
