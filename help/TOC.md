@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 472bf46d7daf92860fcf208df3bf24ab3a0a029a
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3093'
 ht-degree: 98%
 
 ---
@@ -867,6 +867,7 @@ ht-degree: 98%
       + [Erste Schritte mit der Delegierung von Subdomains](using/configuration/about-subdomain-delegation.md)
       + [Delegieren einer Subdomain](using/configuration/delegate-subdomain.md)
       + [Einrichten einer benutzerdefinierten Subdomain](using/configuration/delegate-custom-subdomain.md)
+      + [Migrieren von CNAME zur benutzerdefinierten Delegierung](using/configuration/custom-subdomain-migration.md)
       + [Festlegen des DMARC-Eintrags](using/configuration/dmarc-record.md)
       + [Hinzufügen eines Google TXT-Eintrags](using/configuration/google-txt.md)
       + [Zugreifen auf und Bearbeiten von PTR-Einträgen](using/configuration/ptr-records.md)

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Optimizer, Delegation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: ab29af6861e8fc1137fbbffd99b9576afa7e04f5
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 86%
+source-wordcount: '996'
+ht-degree: 84%
 
 ---
 
@@ -29,7 +29,7 @@ Wenn Sie eine einzige Domain für alle Aufgaben verwenden und diese gesperrt ode
 
 >[!CAUTION]
 >
->Es kann nicht dieselbe Versand-Domain zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und von einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
+>Es kann nicht dieselbe Versand-Domain zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und von einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
 
 ## Warum sollten Subdomains eingerichtet werden? {#why-set-up-subdomains}
 
@@ -92,7 +92,7 @@ Mit der benutzerdefinierten Delegierungsmethode können Sie alle DNS-Aspekte, di
 
 In diesem Fall besitzen und verwalten Sie unsere eigenen Subdomains und haben die volle Kontrolle über die Zertifikate, die im Rahmen dieses Prozesses generiert werden.
 
-In [diesem Abschnitt](delegate-custom-subdomain.md) erfahren Sie, wie Sie eine benutzerdefinierte Domain einrichten können.
+Erfahren Sie, wie [eine benutzerdefinierte Subdomain einrichten](delegate-custom-subdomain.md). Wenn Ihre Subdomain derzeit CNAME verwendet, können Sie auch [von CNAME zur benutzerdefinierten Delegierung migrieren](custom-subdomain-migration.md).
 
 ## Vergleich der Konfigurationsmethoden
 
