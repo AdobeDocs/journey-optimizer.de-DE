@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c6b92d11b60e28c7dc918f7c4d7d7ced07a2ab5
+source-git-commit: d42bfe84aa7b380be2d8903ea6b046c43a5d04c1
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 31%
+source-wordcount: '1314'
+ht-degree: 33%
 
 ---
 
@@ -33,7 +33,7 @@ Die Abschnitte [Neue Funktionen](#feb-26-01-features) und [Verbesserungen](#feb-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -110,6 +110,29 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/content-decision.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Mittwoch, 10. Februar 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>APIs für Self-Service-Migrations-Tools</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Migrations-Tool-APIs sind jetzt verfügbar, um <strong> (Entscheidungs-Management)-</strong> programmgesteuert nach <strong>Decisioning</strong> zu migrieren, mit:</p>
+<ul>
+<li>Flexible Migrationsbereiche (Sandbox-, Angebots- oder Entscheidungsebene)</li>
+<li>Automatische Analyse und Validierung von Abhängigkeiten</li>
+<li>Rollback-Unterstützung für abgeschlossene Migrationen</li>
+<li>Detaillierte Migrationsberichte mit Objektzuordnungen</li>
+</ul>
+<p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/decisioning-migration-api.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 3. Februar 2026</p>
 </td>
 </tr>
 </tbody>
