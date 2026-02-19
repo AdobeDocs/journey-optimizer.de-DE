@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 743165991c3f4d351cd6ab15e94ece0309c8e82a
+source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 68%
+source-wordcount: '2189'
+ht-degree: 64%
 
 ---
 
@@ -113,7 +113,9 @@ Bei Code-basierten Erlebnissen können Sie eine neue Entscheidungsrichtlinie ent
 
    >[!NOTE]
    >
-   >Wählen Sie **[!UICONTROL Entscheidungsausgabe wiederverwenden]** aus, um eine Entscheidungsrichtlinie wiederzuverwenden, die bereits in dieser E-Mail erstellt wurde.
+   >Mit **[!UICONTROL Option]** Entscheidungsausgabe wiederverwenden“ können Sie eine Entscheidungsrichtlinie wiederverwenden, die bereits in dieser E-Mail erstellt wurde. Dies ist besonders hilfreich, wenn Sie dasselbe Angebot an mehreren Stellen anzeigen möchten (z. B. Kopf- und Fußzeile).
+   >
+   >Wenn dasselbe Angebot durch mehr als eine Entscheidungsrichtlinie im E-Mail-Text ausgewählt werden kann, dedupliziert das Modul Angebote: Jede Platzierung erhält ein anderes Angebot, sodass dasselbe Angebot nicht an beiden Stellen angezeigt wird. Um dasselbe Angebot in mehreren Platzierungen anzuzeigen, verwenden Sie **[!UICONTROL Entscheidungsausgabe wiederverwenden]**, um die Ausgabe einer vorhandenen Entscheidungsrichtlinie in dieser E-Mail wiederzuverwenden.
 
 >[!TAB SMS]
 
