@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Helper, Anwendungsfall, Personalisierung
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 58b4acf8cccfc3a5e507a738bdf6755a8decbaca
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 97%
+source-wordcount: '1238'
+ht-degree: 83%
 
 ---
 
@@ -57,26 +57,26 @@ Der Warenkorbinhalt ist kontextuelle Information aus der Journey. Daher müssen 
 1. Erstellen Sie eine Journey, die mit diesem Ereignis beginnt.
 1. Fügen Sie die Aktivität **E-Mail** zur Journey hinzu.
 
-   ![](assets/personalization-uc-helpers-8.png)
+   ![Journey-Arbeitsfläche mit einer Ereignis- und einer E-Mail-Aktivität im Fluss](assets/personalization-uc-helpers-8.png)
 
-## Schritt 2: E-Mail erstellen{#configure-email}
+## Schritt 2: E-Mail erstellen {#configure-email}
 
 1. Klicken sie in der Aktivität **E-Mail** auf **[!UICONTROL Inhalt bearbeiten]** und anschließend auf **[!UICONTROL E-Mail-Designer]**.
 
-   ![](assets/personalization-uc-helpers-1.png)
+   ![E-Mail-Aktivität mit den Optionen Inhalt bearbeiten und E-Mail an Designer senden](assets/personalization-uc-helpers-1.png)
 
 1. Ziehen Sie drei Strukturkomponenten aus der linken Palette der Startseite von E-Mail-Designer in den Textkörper der Nachricht.
 
 1. Ziehen Sie eine HTML-Inhaltskomponente per Drag-and-Drop auf jede neue Strukturkomponente.
 
-   ![](assets/personalization-uc-helpers-2.png)
+   ![Senden Sie eine E-Mail an Designer mit drei Strukturkomponenten und HTML-Inhaltskomponenten im Hauptteil](assets/personalization-uc-helpers-2.png)
 
 ## Schritt 3: Vornamen des Kunden bzw. der Kundin in Großbuchstaben einfügen {#uppercase-function}
 
 1. Klicken Sie auf der Startseite von E-Mail-Designer auf die HTML-Komponente, der Sie den Vornamen des Kunden hinzufügen möchten.
 1. Klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![Kontextuelle Symbolleiste mit der Option Quellcode anzeigen](assets/personalization-uc-helpers-3.png)
 
 1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** die Zeichenfolgen-Funktionen `upperCase` hinzu:
    1. Wählen Sie im linken Menü die Option **[!UICONTROL Hilfsfunktionen]**.
@@ -89,7 +89,7 @@ Der Warenkorbinhalt ist kontextuelle Information aus der Journey. Daher müssen 
       {%= upperCase(string) %}
       ```
 
-      ![](assets/personalization-uc-helpers-4.png)
+      ![Ausdruckseditor mit in Hilfsfunktionen ausgewählter Funktion für Großbuchstaben](assets/personalization-uc-helpers-4.png)
 
 1. Entfernen Sie den Platzhalter „string“ (Zeichenfolge) aus dem Ausdruck.
 1. Fügen Sie das Vorname-Token hinzu:
@@ -103,13 +103,13 @@ Der Warenkorbinhalt ist kontextuelle Information aus der Journey. Daher müssen 
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![](assets/personalization-uc-helpers-5.png)
+      ![Ausdruckseditor mit Großschreibung des Vornamen-Tokens des Profils](assets/personalization-uc-helpers-5.png)
 
       Weitere Informationen zum Datentyp des Personennamens finden sich in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target="_blank"}.
 
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 
-   ![](assets/personalization-uc-helpers-6.png)
+   ![HTML-Fenster mit den Schaltflächen „Validieren“ und „Speichern“ bearbeiten](assets/personalization-uc-helpers-6.png)
 
 1. Speichern Sie die Nachricht.
 
@@ -122,7 +122,7 @@ Dieser Schritt veranschaulicht die Iteration durch Ereignisdaten. Umfassende Bei
 1. Klicken Sie auf der Startseite von E-Mail-Designer auf die HTML-Komponente, in der Sie den Inhalt des Warenkorbs auflisten möchten.
 1. Klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![Kontextuelle Symbolleiste mit der Option Quellcode anzeigen](assets/personalization-uc-helpers-3.png)
 
 1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** den Helper `each` hinzu:
    1. Wählen Sie im linken Menü die Option **[!UICONTROL Hilfsfunktionen]**.
@@ -135,7 +135,7 @@ Dieser Schritt veranschaulicht die Iteration durch Ereignisdaten. Umfassende Bei
       {{#each someArray as |variable|}} {{/each}}
       ```
 
-      ![](assets/personalization-uc-helpers-9.png)
+      ![Ausdruckseditor mit jeder Hilfsvorlage](assets/personalization-uc-helpers-9.png)
 
 1. Fügen Sie dem Ausdruck das Array `productListItems` hinzu:
 
@@ -158,7 +158,7 @@ Dieser Schritt veranschaulicht die Iteration durch Ereignisdaten. Umfassende Bei
 
       In diesem Beispiel steht *event_ID* für die Kennung Ihres Ereignisses.
 
-      ![](assets/personalization-uc-helpers-10.png)
+      ![Ausdruckseditor mit productListItems in kontextuellen Attributen](assets/personalization-uc-helpers-10.png)
 
    1. Ändern Sie den Ausdruck:
       1. Entfernen Sie die Zeichenfolge „product“.
@@ -170,7 +170,7 @@ Dieser Schritt veranschaulicht die Iteration durch Ereignisdaten. Umfassende Bei
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
 
-1. Fügen Sie diesen Code zwischen dem öffnenden `{{#each}}`-Tag und dem schließenden `{/each}}`-Tag ein:
+1. Fügen Sie diesen Code zwischen dem öffnenden `{{#each}}`-Tag und dem schließenden `{{/each}}`-Tag ein:
 
    ```html
    <table>
@@ -212,14 +212,14 @@ Dieser Schritt veranschaulicht die Iteration durch Ereignisdaten. Umfassende Bei
 
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 
-   ![](assets/personalization-uc-helpers-11.png)
+   ![Ausdruckseditor mit Validieren und Speichern nach der Konfiguration jedes Blocks](assets/personalization-uc-helpers-11.png)
 
 ## Schritt 5: Eine produktspezifische Anmerkung einfügen {#if-helper}
 
 1. Klicken Sie auf der Startseite von E-Mail-Designer auf die HTML-Komponente, in der Sie die Anmerkung einfügen möchten.
 1. Klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![Kontextuelle Symbolleiste mit der Option Quellcode anzeigen](assets/personalization-uc-helpers-3.png)
 
 1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** den Helper `if` hinzu:
    1. Wählen Sie im linken Menü die Option **[!UICONTROL Hilfsfunktionen]**.
@@ -235,7 +235,7 @@ Dieser Schritt veranschaulicht die Iteration durch Ereignisdaten. Umfassende Bei
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-12.png)
+      ![Ausdruckseditor mit der if-Hilfsvorlage](assets/personalization-uc-helpers-12.png)
 
 1. Entfernen Sie diese Bedingung aus dem Ausdruck:
 
@@ -269,7 +269,7 @@ Dieser Schritt veranschaulicht die Iteration durch Ereignisdaten. Umfassende Bei
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-13.png)
+      ![Ausdruckseditor mit dem Namenstoken productListItems in der Wenn-Bedingung](assets/personalization-uc-helpers-13.png)
 
 1. Ändern Sie den Ausdruck:
    1. Geben Sie im Ausdruckseditor den Produktnamen nach dem Token `name` an.
@@ -303,7 +303,7 @@ Dieser Schritt veranschaulicht die Iteration durch Ereignisdaten. Umfassende Bei
    1. Entfernen Sie den Platzhalter „default_render“ aus dem Ausdruck.
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 
-   ![](assets/personalization-uc-helpers-14.png)
+   ![HTML-Fenster nach der Konfiguration des If-Blocks mit Validieren und Speichern bearbeiten](assets/personalization-uc-helpers-14.png)
 
 1. Speichern Sie die Nachricht.
 
@@ -311,19 +311,19 @@ Dieser Schritt veranschaulicht die Iteration durch Ereignisdaten. Umfassende Bei
 
 1. Aktivieren Sie den Umschalter **[!UICONTROL Test]** und klicken Sie dann auf **[!UICONTROL Ereignis auslösen]**.
 
-   ![](assets/personalization-uc-helpers-15.png)
+   ![Journey mit aktiviertem Umschalter „Testen“ und Trigger einer Ereignisschaltfläche](assets/personalization-uc-helpers-15.png)
 
 1. Geben Sie im Fenster **[!UICONTROL Ereigniskonfiguration]** die Eingabewerte ein und klicken Sie dann auf **[!UICONTROL Senden]**.
 
    Der Testmodus funktioniert nur mit Testprofilen.
 
-   ![](assets/personalization-uc-helpers-16.png)
+   ![Fenster „Ereigniskonfiguration“ mit Eingabewerten und der Schaltfläche „Senden“](assets/personalization-uc-helpers-16.png)
 
    Die E-Mail wird an die Adresse des Testprofils gesendet.
 
    In diesem Beispiel enthält die E-Mail die Anmerkung zur Jacke Juno (Juno Jacket), da sich dieses Produkt im Warenkorb befindet:
 
-   ![](assets/personalization-uc-helpers-17.png)
+   ![Beispiel-E-Mail mit der Juno Jacket-Versandnotiz im Nachrichtentext](assets/personalization-uc-helpers-17.png)
 
 1. Vergewissern Sie sich, dass kein Fehler vorliegt, und veröffentlichen Sie die Journey.
 
@@ -342,7 +342,7 @@ Dieser Schritt veranschaulicht die Iteration durch Ereignisdaten. Umfassende Bei
 
 * [Personalisierung mit entscheidungsbasiertem Angebot](../offers/offers-e2e.md)
 
-## Anleitungsvideo{#video}
+## Anleitungsvideo {#video}
 
 Erfahren Sie, wie Sie Hilfsfunktionen verwenden.
 
