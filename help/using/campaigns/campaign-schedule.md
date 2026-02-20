@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 58%
+source-wordcount: '815'
+ht-degree: 54%
 
 ---
 
@@ -96,6 +96,12 @@ Um die Versandrate zu steuern, aktivieren Sie die Option **[!UICONTROL Versand d
 >[!IMPORTANT]
 >
 >Bei der Festlegung einer Versandrate beträgt der maximale Zeitraum, für den die Kampagnenzielgruppe bedient werden kann, 12 Stunden. Wenn die Versandrate auf einen Wert eingestellt ist, der es nicht ermöglicht, dass die gesamte Zielgruppe die Nachricht innerhalb des 12-Stunden-Zeitrahmens erhält, werden die verbleibenden Profile aus der Kampagne ausgeschlossen. Die Anzahl dieser ausgeschlossenen Profile wird im Kampagnenbericht angezeigt.
+
+## Versenden in Schüben
+
+Um Ihre Kampagnennachricht im Zeitverlauf stapelweise statt alle gleichzeitig zu senden, können Sie den Wellenversand verwenden. Auf diese Weise können Auslastung und Zustellbarkeit verbessert und die Überlastung nachgelagerter Systeme (z. B. Callcenter oder Landingpages) vermieden werden. Sie definieren die Anzahl der Schübe, ihre Größe (nach Prozentsatz oder absoluter Zahl) und den Zeitplan für jede Schübe.
+
+[Erfahren Sie, wie Sie mithilfe von Schüben senden](send-using-waves.md).
 
 ## Nächste Schritte {#next}
 

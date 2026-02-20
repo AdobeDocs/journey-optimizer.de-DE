@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 94%
+source-wordcount: '213'
+ht-degree: 92%
 
 ---
 
@@ -46,10 +46,10 @@ Bevor Sie mit Kampagnen beginnen, überprüfen Sie [in diesem Abschnitt](get-sta
 1. [Konfigurieren der Kampagnenaktion](campaign-action.md)
 1. [Bearbeiten des Inhalts einer Aktionskampagne](campaign-content.md)
 1. [Definieren der Zielgruppe einer Aktionskampagne](campaign-audience.md)
-1. [Planen der Aktionskampagne](campaign-schedule.md)
+1. [Planen Sie die Aktionskampagne](campaign-schedule.md). Optional können Sie [in Schüben versenden](send-using-waves.md) um die Nachricht im Zeitverlauf stapelweise zu versenden.
 1. [Überprüfen und Aktivieren der Aktionskampagne](review-activate-campaign.md)
 
-Erfahren Sie mehr über den [Workflow für die Kampagnenerstellung abschließen mit typspezifischen Handbüchern →](get-started-with-campaigns.md#workflow)
+Weitere Informationen über den [gesamten Workflow der Kampagnenerstellung mit typspezifischen Anleitungen →](get-started-with-campaigns.md#workflow)
 
 ## Anleitungsvideos {#video}
 

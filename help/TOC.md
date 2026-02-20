@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3101'
 ht-degree: 98%
 
 ---
@@ -59,6 +59,7 @@ ht-degree: 98%
       + [Erstellen einer Journey](/help/rp_landing_pages/create-journey-landing-page.md)
       + [Erstellen Ihrer ersten Journey](using/building-journeys/journey-gs.md)
       + [Festlegen der Journey-Eigenschaften](using/building-journeys/journey-properties.md)
+      + [Senden mit Schüben in Journey](using/building-journeys/send-using-waves.md)
       + [Konfigurieren und Verfolgen der Journey-Metriken](using/building-journeys/success-metrics.md)
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Journeys testen](using/building-journeys/testing-the-journey.md)
@@ -150,6 +151,7 @@ ht-degree: 98%
       + [Bearbeiten des Kampagneninhalts](using/campaigns/campaign-content.md)
       + [Definieren der Zielgruppe einer Kampagne](using/campaigns/campaign-audience.md)
       + [Planen der Kampagne](using/campaigns/campaign-schedule.md)
+      + [Versenden in Schüben](using/campaigns/send-using-waves.md)
       + [Prüfen und Aktivieren einer Aktionskampagne](using/campaigns/review-activate-campaign.md)
    + Durch API ausgelöste Kampagnen {#api-triggered-campaigns}
       + [Durch API ausgelöste Kampagnen](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)

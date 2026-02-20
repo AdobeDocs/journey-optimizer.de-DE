@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '2859'
-ht-degree: 95%
+source-wordcount: '2885'
+ht-degree: 94%
 
 ---
 
@@ -134,7 +134,7 @@ Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey **91 
 
 >[!NOTE]
 >
->Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte &#x200B;](end-journey.md#journey-finished-definition).
+>Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte ](end-journey.md#journey-finished-definition).
 
 Aufgrund des Journey-Timeouts von 91 Tagen können wir, wenn der erneute Eintritt in die Journey nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 91 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 
@@ -351,7 +351,12 @@ Bei Verwendung der Funktion [Profilattributbasierte Ausstiegskriterien](#profile
 
 ## Journey-Zeitplan {#schedule}
 
-Der Abschnitt **[!UICONTROL Zeitplan]** ist nur dann verfügbar, wenn eine Aktivität vom Typ **[!UICONTROL Zielgruppe lesen]** auf der Arbeitsfläche abgelegt wurde. Darin können Sie Datum, Uhrzeit und Häufigkeit für die Ausführung der Journey festlegen. [Informationen zum Planen einer Journey vom Typ „Zielgruppe lesen“](../building-journeys/read-audience.md)
+Der Abschnitt **[!UICONTROL Zeitplan]** ist nur dann verfügbar, wenn eine Aktivität vom Typ **[!UICONTROL Zielgruppe lesen]** auf der Arbeitsfläche abgelegt wurde. Darin können Sie Datum, Uhrzeit und Häufigkeit für die Ausführung der Journey festlegen. [Informationen zum Planen einer Journey vom Typ „Zielgruppe lesen“](read-audience.md#schedule)
+
+>[!TIP]
+>
+>Bei der Planung der Journey können Sie auch den Wave-Versand so konfigurieren, dass Journey-Aktionen im Zeitverlauf stapelweise bereitgestellt werden. [Erfahren Sie, wie Sie mithilfe von Schüben in Journey senden](send-using-waves.md)
+
 
 ## Konflikt-Management {#conflict}
 
