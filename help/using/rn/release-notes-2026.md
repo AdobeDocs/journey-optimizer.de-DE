@@ -7,10 +7,11 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
+source-git-commit: eb1056b57e72ab1cff5e32bff31b9cba5604f695
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 88%
+source-wordcount: '1371'
+ht-degree: 87%
 
 ---
 
@@ -21,8 +22,6 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 ## Januar 2026 – Versionshinweise {#jan-26-rn}
 
 <!--**Release date**: January 27-28, 2026-->
-
-Die Abschnitte [Funktionen](#jan-26-01-features) und [Verbesserungen](#jan-26-01-improv) decken bereits verfügbare Funktionen ab, während [Demnächst verfügbar](#jan-26-01-coming-soon) Elemente auflistet, die für ein späteres Verfügbarkeitsdatum geplant sind.
 
 ### Neue Funktionen {#jan-26-01-features}
 
@@ -185,7 +184,7 @@ Die Abschnitte [Funktionen](#jan-26-01-features) und [Verbesserungen](#jan-26-01
 
 * **Inhaltsqualitätsprüfungen mit dem KI-Assistenten** – Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um potenzielle Probleme mit <strong>Lesbarkeit</strong>, Kohärenz und Effektivität unabhängig von Ihren Markenrichtlinien aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. [Weitere Informationen](../content-management/brands-score.md#validate-quality).
 
-   [Funktion im Video kennenlernen](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on).
+   [Funktion im Video kennenlernen](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Journeys
 
