@@ -196,4 +196,4 @@ Hier finden Sie einige Beispiele fÃ¼r die Bearbeitung von E-Mails und die zugehÃ
 
 Erfahren Sie, wie Sie Inhalte in E-Mail-Vorlagen sperren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451616?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

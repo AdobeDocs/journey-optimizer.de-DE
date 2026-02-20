@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
->title="Split-Aktivität"
+>title="Aktivität „Aufspaltung“"
 >abstract="Die Split-Aktivität ermöglicht es Ihnen, Ihre Komposition in mehrere Pfade zu unterteilen. Beim Veröffentlichen der Komposition wird für jeden Pfad eine Zielgruppe in Adobe Experience Platform gespeichert."
 
 >[!CONTEXTUALHELP]

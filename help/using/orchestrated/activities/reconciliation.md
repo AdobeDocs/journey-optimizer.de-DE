@@ -50,7 +50,7 @@ Die **[!UICONTROL Abstimmung]** erfordert, dass die entsprechenden Einträge ber
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
->title="Abstimmregeln"
+>title="Abstimmungsregeln"
 >abstract="Wählen Sie die für die Deduplizierung zu verwendenden Abstimmungsregeln aus. Um Attribute zu verwenden, wählen Sie die Option **Einfache Attribute** und dann die Quell- und Zielfelder aus. Um mit dem Regel-Builder Ihre eigene Abstimmungsbedingung zu erstellen, wählen Sie die Option **Erweiterte Abstimmbedingungen** aus."
 
 >[!CONTEXTUALHELP]

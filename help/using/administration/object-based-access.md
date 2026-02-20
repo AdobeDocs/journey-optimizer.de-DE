@@ -10,7 +10,7 @@ level: Experienced
 keywords: Objekt, Ebene, Zugriff, Kontrolle, Labels, OLAC, Autorisierung
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Um [Labels erstellen](#create-labels) zu können, müssen Sie über eine Rolle m
 
 Um [Labels zuweisen](#assign-labels) zu können, müssen Sie über eine Rolle mit der Berechtigung zum **Verwalten** verfügen, d. h. [!DNL Manage journeys], [!DNL Manage Campaigns] oder [!DNL Manage decisions]. Ohne diese Berechtigung ist die Schaltfläche **[!UICONTROL Zugriff verwalten]** ausgegraut.
 
-Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/permissions.md).
+Weitere Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/permissions.md).
 
 ## Erstellen von Labels {#create-labels}
 

@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
 workflow-type: tm+mt
 source-wordcount: '1662'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -123,7 +123,7 @@ Verfolgen Sie den Erfolg Ihrer Journey mit dem Bericht zu Journey-Pfadexperiment
 
 >[!CAUTION]
 >
->Bearbeiten Sie nicht die Metadaten eines Pfadexperiments, nachdem es veröffentlicht wurde. Die Bearbeitung der Metadaten unterbricht die Berechnung und das Reporting der Experimentergebnisse.
+>Bearbeiten Sie die Metadaten eines Pfadexperiments nicht, nachdem es veröffentlicht wurde. Die Bearbeitung der Metadaten unterbricht die Berechnung und das Reporting der Experimentergebnisse.
 
 ### Anwendungsfälle für Experimente {#uc-experiment}
 

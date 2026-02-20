@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
 workflow-type: tm+mt
 source-wordcount: '1928'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,9 +126,9 @@ Gehen Sie wie folgt vor, um in [!DNL Journey Optimizer] eine benutzerdefinierte 
     Capital letters are not allowed in subdomains. TBC by PM
 -->
 
-    >[!NOTE]
+    >[!HINWEIS]
     >
-    >Nachdem Sie eine neue Subdomain mit Ihrem DNS-Anbieter erstellt haben, sollten Sie 24-48 Stunden für die DNS-Verbreitung einplanen, bevor Sie versuchen, eine Delegation an Adobe zu delegieren.
+    >Nachdem Sie eine neue Subdomain mit Ihrem DNS-Anbieter erstellt haben, sollten Sie 24–48 Stunden für die DNS-Propagierung einplanen, bevor Sie eine Delegierung an Adobe versuchen.
 
 1. Richten Sie den **[!UICONTROL DMARC-Eintrag]** im entsprechenden Abschnitt ein. Wenn die Subdomain über einen bestehenden [DMARC-Eintrag](dmarc-record.md) verfügt und dieser von [!DNL Journey Optimizer] abgerufen wird, können Sie dieselben Werte verwenden oder sie nach Bedarf ändern. Wenn Sie keine Werte hinzufügen, werden die Standardwerte verwendet. [Erfahren Sie, wie Sie DMARC-Einträge verwalten](dmarc-record.md#set-up-dmarc)
 
@@ -281,4 +281,4 @@ Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgeho
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412601?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

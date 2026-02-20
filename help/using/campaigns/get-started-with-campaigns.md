@@ -72,7 +72,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="Kampagnen"
->abstract="Einzelne oder wiederkehrende ausgehende Transaktionsaktionen bereitstellen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigungen."
+>abstract="Stellen Sie einzelne oder wiederkehrende ausgehende Transaktionsaktionen bereit. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigungen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
@@ -291,7 +291,7 @@ Sobald Sie mit Kampagnen vertrauter sind, erkunden Sie diese leistungsstarken Fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planung und Timing**
 
@@ -301,7 +301,7 @@ Planen Sie Kampagnen für bestimmte Daten/Uhrzeiten, legen Sie wiederkehrende Se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Ratensteuerung**
 
@@ -311,7 +311,7 @@ Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Syst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Zielgruppen-Targeting**
 
@@ -321,7 +321,7 @@ Sprechen Sie bestimmte Adobe Experience Platform-Zielgruppen präzise an und ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Genehmigungs-Workflows**
 
@@ -331,7 +331,7 @@ Implementieren Sie Überprüfungs- und Genehmigungsprozesse, bevor Sie Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ruhezeiten**
 
@@ -341,7 +341,7 @@ Respektieren Sie Kundenpräferenzen, indem Sie den Versand von Nachrichten inner
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimierung**
 

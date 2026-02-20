@@ -24,7 +24,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"
 >title="Endaktivität"
->abstract="Direkt-Mail ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Direkt-Mail-Drittanbieter zum Senden von Nachrichten an Ihre Kundinnen und Kunden benötigen."
+>abstract="Direkt-Mail ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Direkt-Mail-Drittanbieter zum Senden von Nachrichten an Ihre Kunden und Kundinnen benötigen."
 
 Erstellen Sie zum Erstellen von Briefpostnachrichten eine geplante Kampagne oder eine Journey und konfigurieren Sie die Extraktionsdatei. Diese Datei wird von Briefpost-Dienstleistern benötigt, um E-Mails an Ihre Kundinnen bzw. Kunden zu senden.
 

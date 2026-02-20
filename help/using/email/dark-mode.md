@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: Dunkler Modus, E-Mail, Farbe, Editor
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 100%
 
@@ -181,7 +181,7 @@ Nach dem Wechsel in den **[!UICONTROL dunklen Modus]** können Sie bestimmte Sti
 >
 >Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.-->
 
-Um den Stil des E-Mail-Designers für den benutzerdefinierten dunklen Modus zu nutzen, verwendet Journey Optimizer die CSS-Abfrage <!-- `@media (prefers-color-scheme: dark)` method--> `@media (prefers-color-scheme: dark)`, die erkennt, ob der E-Mail-Client der Benutzerin oder des Benutzers auf den dunklen Modus eingestellt ist, und wendet das in Ihrer E-Mail definierte dunkle Design an.
+Um den Stil des E-Mail-Designers für den benutzerdefinierten dunklen Modus zu nutzen, verwendet Journey Optimizer die CSS-Abfrage <!-- `@media (prefers-color-scheme: dark)` method--> `@media (prefers-color-scheme: dark)` CSS-Abfrage, die erkennt, ob der E-Mail-Client der Benutzerin oder des Benutzers auf den dunklen Modus eingestellt ist, und wendet das in Ihrer E-Mail definierte dunkle Design an.
 
 Gehen Sie wie folgt vor, um die Einstellungen für den benutzerdefinierten dunklen Modus zu definieren.
 

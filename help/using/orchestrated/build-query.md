@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
 
    Um Ihre Bedingung schneller zu erstellen, wählen Sie einen Wert aus und klicken Sie auf **[!UICONTROL Attribut und Wert auswählen]**, um das Attribut und den Wert in der aktuellen Bedingung zu füllen.
 
-   Sie können einen Wert auch mithilfe des Symbols ![Bild mit dem Ausdruckseditorsymbol) in &#x200B;](assets/do-not-localize/activity-copy.svg) Zwischenablage kopieren, um ihn beispielsweise in den Ausdruckseditor einzufügen.
+   Sie können einen Wert auch mithilfe des Symbols ![Bild mit dem Ausdruckseditorsymbol) in ](assets/do-not-localize/activity-copy.svg) Zwischenablage kopieren, um ihn beispielsweise in den Ausdruckseditor einzufügen.
 
    ![Bild, das die Oberfläche der Werteverteilung zeigt](assets/rule-builder-distribution-values.png)
 
@@ -91,7 +91,7 @@ Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
    | Größer oder gleich | Die ausgegebenen Daten sind identisch mit oder übersteigen den angegebenen Wert. | „Alter (@age) größer oder gleich ‚30‘“ gibt alle Empfängerinnen und Empfänger ab 30 Jahren aus. |
    | Kleiner oder gleich | Die ausgegebenen Daten sind identisch mit oder unterschreiten den angegebenen Wert. | „Alter (@age) kleiner oder gleich ‚60‘“ gibt alle Empfängerinnen und Empfänger bis 60 Jahren aus. |
    | Eingeschlossen in | Die ausgegebenen Daten sind in den angegebenen Werten enthalten. Die Werte müssen durch Kommata getrennt werden. | „Geburtsdatum (@birthDate) ist enthalten in ‚10.12.1979,10.12.1984‘“ gibt die Empfängerinnen und Empfänger aus, die zwischen diesen beiden Daten geboren wurden. |
-   | Ist nicht enthalten in | Negative Form des Operators „ist enthalten in“. Hier werden Empfängerinnen und Empfänger anhand der eingegebenen Werte ausgeschlossen. | Das Geburtsdatum (@birthDate) ist nicht in &#39;12/10/1979,12/10/1984&#39; enthalten. Empfängerinnen und Empfänger, die innerhalb dieses Datumsbereichs geboren wurden, werden nicht ausgegeben. |
+   | Nicht enthalten | Negative Form des Operators „ist enthalten in“. Hier werden Empfängerinnen und Empfänger anhand der eingegebenen Werte ausgeschlossen. | Das Geburtsdatum (@birthDate) ist nicht in &#39;12/10/1979,12/10/1984&#39; enthalten. Empfängerinnen und Empfänger, die innerhalb dieses Datumsbereichs geboren wurden, werden nicht ausgegeben. |
    | Ist leer | Die ausgegebenen Daten stimmen mit einem leeren Wert in der zweiten Spalte überein. | „Mobiltelefon (@mobilePhone) ist leer“ gibt alle Empfängerinnen und Empfänger zurück, die keine Mobiltelefonnummer haben. |
    | Ist nicht leer | Negative Form des Operators „Ist leer“. Es ist nicht nötig, Daten in die zweite Wert-Spalte einzugeben. | E-Mail (@email) ist nicht leer. |
    | Beginnt mit | Die ausgegebenen Daten beginnen mit dem angegebenen Wert. | Kundennummer (@account) beginnt mit &#39;32010&#39;. |

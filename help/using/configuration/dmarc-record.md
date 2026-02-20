@@ -12,7 +12,7 @@ exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
 source-git-commit: b3716265282599604de629be540ca68971daa343
 workflow-type: tm+mt
 source-wordcount: '1591'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 86%
 
 ## Was ist DMARC? {#what-is-dmarc}
 
-Die Domain-basierte Nachrichtenauthentifizierung, Berichte und Konformität (DMARC) ist eine E-Mail-Authentifizierungsmethode, mit der der Inhaberinnen und Inhaber einer Domain ihre Domain vor unbefugter Verwendung schützen können. Durch eine klare Richtlinie für E-Mail-Anbieter/Internet-Dienstanbieter (Internet Service Providers, ISPs) verhindert sie, dass auf böswillige Weise E-Mails gesendet werden, die scheinbar von Ihrer Domain stammen. Die Implementierung von DMARC verringert das Risiko, dass rechtmäßige E-Mails als Spam gekennzeichnet oder abgelehnt werden, und verbessert die Zustellbarkeit Ihrer E-Mails.
+Die Domain-basierte Nachrichtenauthentifizierung, Berichte und Konformität (DMARC) ist eine E-Mail-Authentifizierungsmethode, mit der der Inhaberinnen und Inhaber einer Domain ihre Domain vor unbefugter Verwendung schützen können. Durch eine klare Richtlinie für E-Mail-Anbieter/Internet-Dienstanbieter (Internet Service Providers, ISPs) verhindert sie, dass auf böswillige Weise E-Mails gesendet werden, die scheinbar von Ihrer Domain stammen. Die Implementierung von DMARC verringert das Risiko, dass legitime E-Mails als Spam gekennzeichnet oder abgelehnt werden, und verbessert die Zustellbarkeit Ihrer E-Mails.
 
 DMARC bietet außerdem Berichte zu Nachrichten, die bei der Authentifizierung fehlschlagen, sowie Kontrolle über die Verarbeitung von E-Mails, die die DMARC-Validierung nicht bestehen. Je nach der implementierten [DMARC-Richtlinie](#dmarc-policies) können diese E-Mails überwacht, unter Quarantäne gestellt oder abgelehnt werden. Mit diesen Funktionen können Sie Maßnahmen ergreifen, um potenzielle Fehler zu vermeiden und zu beheben.
 
-Um Zustellbarkeitsprobleme zu vermeiden und gleichzeitig die Kontrolle über E-Mails zu erhalten, bei denen die Authentifizierung fehlschlägt, unterstützt [!DNL Journey Optimizer] jetzt die DMARC-Technologie direkt in der Administrationsoberfläche. [Weitere Informationen](#implement-dmarc)
+Um Probleme mit der Zustellbarkeit zu vermeiden und gleichzeitig die Kontrolle über E-Mails zu erhalten, die nicht authentifiziert werden können, unterstützt [!DNL Journey Optimizer] jetzt die DMARC-Technologie direkt in der Administrationsoberfläche. [Weitere Informationen](#implement-dmarc)
 
 ### Wie funktioniert DMARC? {#how-dmarc-works}
 
@@ -72,7 +72,7 @@ Daher empfiehlt Adobe dringend, die folgenden Maßnahmen zu ergreifen:
 
 * Stellen Sie sicher, dass der **DMARC-Eintrag** für **alle Subdomains eingerichtet ist, die Sie bereits in [!DNL Journey Optimizer] an Adobe delegiert haben**. [Weitere Informationen](#check-subdomains-for-dmarc)
 
-* Beim **Delegieren einer neuen Subdomain** an Adobe können Sie **DMARC** direkt in der [!DNL Journey Optimizer]-Verwaltungsoberfläche einrichten. [Weitere Informationen](#set-up-dmarc)
+* Wenn Sie **eine neue Subdomain an Adobe delegieren**, können Sie direkt in der [!DNL Journey Optimizer]-Administrationsoberfläche **DMARC einrichten**. [Weitere Informationen](#set-up-dmarc)
 
 ## Implementieren von DMARC in [!DNL Journey Optimizer] {#implement-dmarc}
 
@@ -98,7 +98,7 @@ Um sicherzustellen, dass Sie den DMARC-Eintrag für alle Subdomains, die Sie in 
 
    >[!NOTE]
    >
-   >Je nachdem, ob ein DMARC-Eintrag mit der übergeordneten Domain gefunden wird oder nicht, können Sie die Werte aus der übergeordneten Domain verwenden oder Adobe den DMARC-Eintrag verwalten lassen. [Weitere Informationen](#manage-dmarc-with-adobe)
+   >Je nachdem, ob ein DMARC-Eintrag bei der übergeordneten Domain gefunden wird oder nicht, können Sie die Werte aus der übergeordneten Domain verwenden oder den DMARC-Eintrag von Adobe verwalten lassen. [Weitere Informationen](#manage-dmarc-with-adobe)
 
 1. Wenn Sie eine Subdomain bearbeiten, die:
 
@@ -195,11 +195,11 @@ Damit Adobe den DMARC-Eintrag für Sie verwalten kann, wählen Sie die Option **
 
 Beim Einrichten eines DMARC-Eintrags wird den DNS-Einstellungen Ihrer Domain ein DNS-TXT-Eintrag hinzugefügt, der Ihre DMARC-Richtlinie angibt.
 
-**Zeitpunkt der DNS-Übertragung**
+**Zeitpunkt der DNS-Verbreitung**
 
-DNS-Änderungen werden erst nach einiger Zeit über das Internet propagiert, in der Regel zwischen einigen Minuten und 48 Stunden. Wenn Sie gerade eine DMARC-Konfigurationsänderung vorgenommen haben und versuchen, das Update sofort zu überprüfen, werden möglicherweise Fehler angezeigt oder die Änderungen werden noch nicht erkannt.
+DNS-Änderungen werden erst nach einiger Zeit über das Internet propagiert, in der Regel zwischen einigen Minuten und 48 Stunden. Wenn Sie gerade eine DMARC-Konfigurationsänderung vorgenommen haben und versuchen, das Update sofort zu überprüfen, werden möglicherweise Fehler angezeigt oder die Änderungen werden noch nicht erkannt.
 
-Warten Sie ausreichend lange, bis die DNS-Einträge übertragen wurden, bevor Sie versuchen, Ihr DMARC-Setup zu überprüfen. Wenn nach 48 Stunden weiterhin Probleme auftreten, stellen Sie sicher, dass die DNS-Einträge korrekt zu Ihrer Hosting-Lösung hinzugefügt wurden.
+Warten Sie ausreichend lange, bis die DNS-Einträge propagiert wurden, bevor Sie versuchen, Ihr DMARC-Setup zu überprüfen. Wenn nach 48 Stunden weiterhin Probleme auftreten, stellen Sie sicher, dass die DNS-Einträge korrekt zu Ihrer Hosting-Lösung hinzugefügt wurden.
 
 <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
