@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: e6aa361229f068c475732c715160b7c644189e51
+source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 59%
+source-wordcount: '750'
+ht-degree: 58%
 
 ---
 
@@ -42,8 +42,6 @@ Wenn Sie beispielsweise eine Kampagne so planen, dass sie um 9 Uhr morgens mit d
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
->
 >Die Planung mit Zeitzonen des Profils ist nur für diese ausgehenden Kanäle verfügbar: E-Mail, Push, SMS, WhatsApp und LINE.
 
 So aktivieren Sie die Zeitzonenplanung für Profile:
@@ -62,7 +60,9 @@ Die Kampagne verbleibt im **Live**-Status, während Nachrichten über alle Zeitz
 
 **Unterstützte Zeitzonenkennungen:**
 
-Journey Optimizer validiert den `profile.timeZone` anhand der standardmäßigen IANA-Zeitzonenkennungen. Bei Kennungen wird zwischen Groß- und Kleinschreibung unterschieden und sie müssen mit der offiziellen IANA-Benennung übereinstimmen. Versätze können sich im Laufe der Zeit aufgrund von Sommerzeitregeln und historischen Aktualisierungen ändern. Siehe die [IANA-Zeitzonendatenbank](https://www.iana.org/time-zones){_blank} für die offizielle Liste der Kennungen.
+Das `profile.timeZone` kann entweder eine IANA-Benennung oder als UTC-Versatz definiert sein. Die IANA-Benennung ist das bevorzugte Format, da es sich automatisch an die Sommerzeit anpasst.
+
+Bei der IANA-Benennung wird zwischen Groß- und Kleinschreibung unterschieden und die Kennungen müssen mit der offiziellen IANA-Benennung übereinstimmen. Versätze können sich im Laufe der Zeit aufgrund von Sommerzeitregeln und historischen Aktualisierungen ändern. Siehe die [IANA-Zeitzonendatenbank](https://www.iana.org/time-zones){_blank} für die offizielle Liste der Kennungen.
 
 ## Festlegen der Ausführungshäufigkeit
 
