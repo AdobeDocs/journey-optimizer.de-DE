@@ -4,11 +4,11 @@ product: journey optimizer
 title: Versenden in Schüben
 description: Planen Sie den Versand ausgehender Kampagnennachrichten in kontrollierten Batches im Zeitverlauf. Wave-Versand unterstützt die Zustellbarkeit und hilft, die Reputation des Absenders zu wahren.
 feature: Campaigns
-topic: Campaign scheduling
+topic: Content Management
 role: User
 level: Intermediate
 keywords: Schübe, Batches, Zeitplan, Kampagne, Journey, Zustellbarkeit
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 1%
