@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 725d1d98759a721a7e2e891f0e560cd967e05f7f
+source-git-commit: d793d9eccde3b0b548e778040bdcd8817e80c90a
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 85%
@@ -34,25 +34,25 @@ ht-degree: 85%
 Die Einrichtung geführter Kanäle unterstützt die folgenden Plattformen und Kanäle.
 
 >[!BEGINTABS]
->
+
 >[!TAB iOS]
->
->**SDK:** Swift von Apple
->
->**Kanäle:** Mobile In-App-, Mobile-Push-Nachricht
->
+
+**SDK:** Swift von Apple
+
+**Kanäle:** Mobile In-App-, Mobile-Push-Nachricht
+
 >[!TAB Android]
->
->**SDK:** Kotlin
->
->**Kanäle:** Mobile In-App-, Mobile-Push-Nachricht
->
+
+**SDK:** Kotlin
+
+**Kanäle:** Mobile In-App-, Mobile-Push-Nachricht
+
 >[!TAB Web]
->
->**SDK:** JavaScript
->
->**Kanäle:** Web Basic
->
+
+**SDK:** JavaScript
+
+**Kanäle:** Web Basic
+
 >[!ENDTABS]
 
 Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separate Konfiguration erstellt werden muss. Dies liegt daran, dass jede App eine eindeutige Kanalkonfiguration erfordert. So können Sie flexibel festlegen, welche Kanäle Sie für jede Plattform wünschen.
