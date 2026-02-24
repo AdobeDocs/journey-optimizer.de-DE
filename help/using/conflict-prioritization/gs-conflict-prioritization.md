@@ -71,4 +71,4 @@ Mit Regelsätzen können Sie **mehrere Regeln gruppieren** und auf die Journey u
 * **[Journey-Begrenzung und Schlichtung](journey-capping.md)** - Richten Sie Begrenzungsregeln und Schlichtungen auf Journey-Ebene ein.
 * **[Frequenzlimitierung nach Kanal](channel-capping.md)** - Legen Sie Frequenzlimitierungen auf Kanalebene fest, um Übernachrichten zu verhindern.
 * **[Stille Stunden festlegen](quiet-hours.md)** - Zeitbasierte Ausschlüsse für den Nachrichtenversand definieren.
-* **[Tutorials ](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** Konfliktmanagement - Schritt-für-Schritt-Video-Tutorials.
+* **[Tutorials &#x200B;](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** Konfliktmanagement - Schritt-für-Schritt-Video-Tutorials.
