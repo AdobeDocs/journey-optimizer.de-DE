@@ -49,7 +49,7 @@ Greifen Sie auf wichtige Berichte zu, um die Journey-Leistung zu überwachen, Me
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
 
 Abrufen und Abonnieren von Systemwarnungen
 
@@ -59,7 +59,7 @@ Erfahren Sie, wie Sie auf Systemwarnungen zugreifen, Benachrichtigungen abonnier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Referenz zu Fehler-Codes
 
@@ -69,7 +69,7 @@ Erfahren Sie mehr über häufige Fehler-Codes in Adobe Journey Optimizer und fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Fehlerbehebung vor dem Testen oder Veröffentlichen der Journey
 
@@ -79,7 +79,7 @@ Identifizieren und beheben Sie Journey-weite Fehler und Aktivitätsprobleme und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Fehlerbehebung bei der Live-Journey-Ausführung
 
@@ -89,7 +89,7 @@ Diagnostizieren Sie Probleme mit der Ereignisvalidierung, dem Profileintrag, der
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Fehlerbehebung bei eingehenden Aktionen in Journeys
 
@@ -99,7 +99,7 @@ Beheben Sie mithilfe detaillierter Handbücher Probleme mit eingehenden Aktionen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Fehlerbehebung bei benutzerdefinierten Aktionen
 
@@ -109,7 +109,7 @@ Validieren und debuggen Sie benutzerdefinierte Aktionen mit der Funktion **Testa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=de)
 
 Support-Ticket-Richtlinien
 
