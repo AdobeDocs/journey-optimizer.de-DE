@@ -9,14 +9,16 @@ role: Admin, Developer
 level: Experienced
 keywords: Sandboxes, virtuell, Umgebungen, Organisation, Plattform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '323'
-ht-degree: 100%
+source-git-commit: 56faee8badff99ff9a39cfd85a78c1ed272cd2ca
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 79%
 
 ---
 
 # Verwenden und Zuweisen von Sandboxes {#sandboxes}
+
+**Sandboxes** sind virtuelle Umgebungen, die Ihre Adobe Journey Optimizer-Instanz in separate, isolierte Workspaces für Entwicklung, Tests oder Produktion unterteilen. Die Sandbox-Verwaltung finden Sie unter **Administration** > **Kanäle** > **Verbinden Ihrer Systeme und Umgebungen** (oder über den Sandbox-Umschalter oben rechts in der Benutzeroberfläche). Sandboxes helfen Ihnen, sicher zu experimentieren, unterschiedliche Zugriffsrechte pro Rolle zuzuweisen und Inhalte zu organisieren. Auf dieser Seite wird beschrieben, wie Sie Sandboxes verwenden und zuweisen, den Inhaltszugriff konfigurieren und - im Artikel [Objekte in eine andere Sandbox exportieren](../configuration/copy-objects-to-sandbox.md) wie Sie Journey und Vorlagen zwischen Sandboxes kopieren.
 
 ## Verwenden von Sandboxes {#using-sandbox}
 
