@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Stil, CSS, Textkörper, Struktur
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: b00a24b7d130fb1a464f01b93b9769a7ae10c41a
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 53%
 
 ---
 
@@ -22,9 +22,21 @@ Sobald Sie mit der Erstellung Ihres E-Mail-Inhalts in [!DNL Journey Optimizer] b
 
 Sie können Ihre Änderungen auf den E-Mail-Text, auf eine Strukturkomponente oder auf eine Inhaltskomponente anwenden.
 
-![](assets/email_designer_content_components_styles.png)
+Wählen Sie ein beliebiges Element in Ihrer E-Mail aus und klicken Sie auf die Registerkarte **[!UICONTROL Stile]**. Alle Stiloptionen für das ausgewählte Element werden im rechten Bereich angezeigt.
 
-Folgen Sie den unten stehenden Links, um zu erfahren, wie Sie Stileinstellungen in Ihrer E-Mail anpassen können.
+![](assets/email_designer_styles.png)
+
+Wenn Sie beispielsweise eine Textkomponente auswählen:
+
+* Sie können die **[!UICONTROL Hintergrundfarbe]** und **[!UICONTROL Schriftfarbe]** des Absatzes anpassen.
+* Sie können die **[!UICONTROL Text]**-Parameter wie Schriftfamilie, Größe, Höhe, Ausrichtung usw. aktualisieren und den Abstand vor dem ersten Zeichen auf einer Linie mithilfe der Einstellung **[!UICONTROL Einzug]** verwalten;
+* Sie können auch Optionen wie **[!UICONTROL Rahmen]**, **[!UICONTROL Rand]** und **[!UICONTROL Abstand]** der Textkomponente anpassen.
+
+Wenn Sie eine standardmäßige [Inhaltsvorlage“ verwenden ](use-email-templates.md) ein Design auf Ihre E-Mail angewendet haben, können Sie nur einige Stileinstellungen an das ausgewählte Design anpassen. [Weitere Informationen zu Designs](apply-email-themes.md)
+
+![](assets/email_designer_styles_theme.png)
+
+Folgen Sie den unten stehenden Links, um zu erfahren, wie Sie bestimmte Stileinstellungen in Ihrer E-Mail anpassen können.
 
 * Erfahren Sie, wie Sie [Ihren E-Mail-Hintergrund personalisieren können](backgrounds.md).
 * Erfahren Sie, wie Sie die [vertikale Ausrichtung und den Abstand verwalten](alignment-and-padding.md).
