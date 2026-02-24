@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 73%
+source-wordcount: '1532'
+ht-degree: 70%
 
 ---
 
@@ -104,6 +104,10 @@ Bei Verwendung der Zielgruppen-Qualifizierung für eine Batch-Zielgruppe tritt z
 
 Wenn die Batch-Zielgruppe neu erstellt und sofort auf einer Journey verwendet wird, kann der erste Berechnungs-Batch viele Einträge erfordern. Planen Sie für diese Spitze.
 
+### Timing der Aktualisierungen der Segmentzugehörigkeit {#timing-segment-membership}
+
+Bei Verwendung von Batch-Momentaufnahmen auf einer Journey dürfen neue Segmentzugehörigkeiten nur in nachfolgenden Momentaufnahmen widergespiegelt werden. Wenn sofortige oder am selben Tag erfolgende Segmenthinzufügungen wichtig sind, sollten Sie die Streaming-Segmentierung in Betracht ziehen oder überprüfen, ob Segmentaktualisierungen vom nächsten Schnappschuss erfasst werden.
+
 ### Streaming-Zielgruppen {#streamed-speed-segment-qualification}
 
 Bei Verwendung der Zielgruppen-Qualifizierung für gestreamte Zielgruppen besteht ein geringeres Risiko großer Ein- und Ausstiegsspitzen, da die Auswertung kontinuierlich erfolgt. Wenn die Zielgruppendefinition viele Kundinnen und Kunden gleichzeitig qualifiziert, kann es dennoch zu einer Spitze kommen.
@@ -114,7 +118,7 @@ Siehe die [[!DNL Adobe Experience Platform] Dokumentation zur Streaming-](https:
 
 >[!NOTE]
 >
->Bei der Streaming-Segmentierung kann es bis zu **2 Stunden dauern,** neu aufgenommene Daten innerhalb von [!DNL Adobe Experience Platform] vollständig für die Echtzeit-Nutzung übertragen werden. Zielgruppen, die auf tages- oder zeitbasierte Bedingungen angewiesen sind (z. B. „Ereignisse, die heute stattgefunden haben“), können zu zusätzlicher Komplexität bei der Qualifizierungszeitplanung führen. Wenn Ihr Journey von der sofortigen Zielgruppen-Qualifizierung abhängt, sollten Sie zu Beginn [&#x200B; kurze Aktivität &#x200B;](wait-activity.md)Warten“ hinzufügen. Um eine genaue Qualifizierung sicherzustellen, können Sie auch Pufferzeiten zulassen.
+>Bei der Streaming-Segmentierung kann es bis zu **2 Stunden dauern,** neu aufgenommene Daten innerhalb von [!DNL Adobe Experience Platform] vollständig für die Echtzeit-Nutzung übertragen werden. Zielgruppen, die auf tages- oder zeitbasierte Bedingungen angewiesen sind (z. B. „Ereignisse, die heute stattgefunden haben“), können zu zusätzlicher Komplexität bei der Qualifizierungszeitplanung führen. Wenn Ihr Journey von der sofortigen Zielgruppen-Qualifizierung abhängt, sollten Sie zu Beginn [ kurze Aktivität ](wait-activity.md)Warten“ hinzufügen. Um eine genaue Qualifizierung sicherzustellen, können Sie auch Pufferzeiten zulassen.
 
 #### Darum treten möglicherweise nicht alle qualifizierten Profile in die Journey ein {#streaming-entry-caveats}
 
@@ -190,4 +194,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

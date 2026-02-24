@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 80795b643ba08e5016d768600c675ce1273e3a16
+source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 94%
 
 ---
 
@@ -54,7 +54,7 @@ Ein Dashboard zeigt Überschneidungen zwischen wichtigen Zielgruppen visuell an 
 
 Im Zielgruppenportal können Sie Zielgruppen mit standardisierten Labels, Governance-Steuerelementen, durchsuchbaren Ordnern und Tags einfach verwalten, suchen und erkunden.
 
-Weitere Informationen zum Arbeiten mit Zielgruppen im Zielgruppenportal sind in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} verfügbar.
+Weitere Informationen zum Arbeiten mit Zielgruppen im Zielgruppenportal sind in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} verfügbar.
 
 ## Zielgruppentypen {#types}
 
@@ -63,7 +63,7 @@ Zielgruppen können auf unterschiedliche Weise erstellt werden:
 * **Segmentdefinitionen**: Erstellen Sie mithilfe des Adobe Experience Platform Segmentierungsdienstes eine neue Zielgruppendefinition. Zielgruppen werden aus Segmentdefinitionen generiert und je nach Auswertungstyp zu unterschiedlichen Zeiten aktualisiert:
 
    * Streaming-Segmentierung: Zielgruppen werden in Echtzeit aktualisiert, während neue Daten einfließen, wodurch eine kontinuierliche Relevanz basierend auf der Benutzeraktivität sichergestellt wird.
-   * Batch-Segmentierung: Zielgruppen werden alle 24 Stunden aktualisiert und es wird eine Momentaufnahme der Profile in einem festen Intervall erfasst.
+   * Batch-Segmentierung: Zielgruppen werden alle 24 Stunden aktualisiert und eine Momentaufnahme der Profile in einem festen Intervall erfasst. Bei Verwendung in Journey werden neu qualifizierte Segmentmitglieder möglicherweise erst beim nächsten Schnappschuss angezeigt. [Weitere Informationen zum Timing](../building-journeys/audience-qualification-events.md#timing-segment-membership).
    * Edge-Segmentierung: Zielgruppen werden sofort am Edge ausgewertet, was die Personalisierung in Echtzeit ermöglicht.
 
   [Weitere Informationen zum Erstellen von Segmentdefinitionen](creating-a-segment-definition.md)
