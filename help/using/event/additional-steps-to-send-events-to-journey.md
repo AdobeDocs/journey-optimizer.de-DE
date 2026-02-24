@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Schritte, Konfiguration, Journey, Ereignisse, Stream, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 95%
 
 ---
 
@@ -22,6 +22,10 @@ Um Ereignisse zu konfigurieren, die an **[!UICONTROL Streaming-Aufnahme-APIs]** 
 
 1. Rufen Sie die Inlet-URL von Adobe Experience Platform-APIs ab. Weitere Informationen finden Sie unter [Übersicht über Streaming-Aufnahme-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de){target="_blank"}.
 1. Kopieren Sie die Payload aus der Payload-Vorschau im Menü **[!UICONTROL Ereignis]**. Weitere Informationen finden Sie auf [dieser Seite](../event/about-creating.md#define-the-payload-fields).
+
+>[!IMPORTANT]
+>
+>Ereignisanforderungen und -beschränkungen (Streaming, Abfrage-Service, Batch-Aufnahme) finden Sie unter [Journey-Leitplanken - Ereignisse](../start/guardrails.md#events-g).
 
 Konfigurieren Sie anschließend das Datensystem, das Ereignisse mithilfe der kopierten Payload an die Streaming-Aufnahme-APIs pusht:
 

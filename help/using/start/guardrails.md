@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
 workflow-type: tm+mt
-source-wordcount: '3977'
-ht-degree: 98%
+source-wordcount: '3982'
+ht-degree: 97%
 
 ---
 
@@ -100,7 +100,7 @@ Für den [SMS-Kanal](../sms/get-started-sms.md) gelten die folgenden Schutzmecha
 
   Die eingehenden Kanäle von Journey Optimizer sprechen neue Profile an, die zuvor noch nicht auf anderen Kanälen erreicht wurden. Dadurch erhöht sich die Gesamtzahl [Engagierbaren Profile](../audience/license-usage.md) was sich auf die Kosten auswirken kann, wenn die vertragliche Anzahl der von Ihnen erworbenen Engagierbaren Profile überschritten wird.
 
-  Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} . Sie können die Anzahl der kontaktierbaren Profile im [Lizenznutzungs-Dashboard“ &#x200B;](../audience/license-usage.md).
+  Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} . Sie können die Anzahl der kontaktierbaren Profile im [Lizenznutzungs-Dashboard“ ](../audience/license-usage.md).
 
 * Journey Optimizer unterstützt zu jedem Zeitpunkt maximal 500 aktive eingehende Aktionen. Diese eingehenden Aktionen werden gezählt, wenn sie Teil einer Live-Kampagne sind oder wenn sie ein Knoten sind, der in einer Live-Journey verwendet wird. Sobald diese Anzahl erreicht ist, müssen Sie ältere Kampagnen oder Journeys deaktivieren, die eingehende Aktionen verwenden, bevor neue gestartet werden können.
 
@@ -279,7 +279,7 @@ Für [Ereignisse](../event/about-events.md) in Ihren Journeys gelten die folgend
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
 * Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Zielgruppen-Qualifizierungaktivitäten verwendet werden.
 * Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn also beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres Ereignis verzeichnet wird (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
-* Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. Über Ereignisse, die in Batches aufgenommen werden, oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) kann eine Journey nicht ausgelöst werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, müssen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe erstellen und die Aktivität **Zielgruppe lesen** verwenden. Die Zielgruppen-Qualifizierung kann zwar theoretisch verwendet werden, wird jedoch nicht empfohlen, da sie aufgrund der verwendeten Aktionen zu nachgelagerten Problemen führen kann.
+* Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. In Batches aufgenommene Ereignisse, über **Abfrage-Service** eingefügte Ereignisse oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) können nicht zum Trigger einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, müssen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe erstellen und die Aktivität **Zielgruppe lesen** verwenden. Zielgruppen-Qualifizierung kann zwar technisch verwendet werden, wird aber nicht empfohlen, da sie nachgelagerte Herausforderungen verursachen kann, die auf den verwendeten Aktionen basieren.
 
 ### Datenquellen  {#data-sources-g}
 
