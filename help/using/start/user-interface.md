@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
-workflow-type: ht
-source-wordcount: '1126'
-ht-degree: 100%
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+workflow-type: tm+mt
+source-wordcount: '1237'
+ht-degree: 91%
 
 ---
 
@@ -103,7 +103,19 @@ Klicken Sie auf das Symbol **Hilfe**, um:
 * Den Adobe Support zu kontaktieren
 * Feedback geben
 
+Die kontextuelle Hilfe zeigt Anleitungen an, die für den angezeigten Bildschirm relevant sind, und verweist direkt auf die entsprechende Dokumentation, sodass Sie die richtigen Informationen erhalten, ohne Ihren Workflow verlassen zu müssen.
+
 ![Beispiel der kontextuellen Hilfe](assets/do-not-localize/Context-help.gif)
+
+### Support-Ticket-Richtlinien {#support-ticket-guidelines}
+
+Wenden Sie sich an den Adobe-Support, um die Ursachenanalyse und -behebung zu beschleunigen:
+
+* **Umgebungsdetails** - Sandbox-Name, Organisations-ID und Produktbereich (z. B. Journey, Kampagnen, Entscheidungsfindung)
+* **Auswirkungsstufe** - Schweregrad des Problems (z. B. Produktionsblockierung, eingeschränkte Funktionalität, kosmetische Mittel)
+* **Replikationsschritte** - Klare, schrittweise Anweisungen zum Reproduzieren des Problems
+* **Protokolle oder**: Relevante Fehlermeldungen, Anfrage-IDs oder Screenshots, die das Problem veranschaulichen
+* **Relevante IDs** - Journey-ID, Kampagnen-ID, Zielgruppen-ID oder andere Objektkennungen, die mit dem Problem zusammenhängen
 
 ### Benachrichtigungen {#notifications}
 

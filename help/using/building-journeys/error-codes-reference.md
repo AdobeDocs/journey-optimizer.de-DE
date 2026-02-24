@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Fehler, Codes, Fehlerbehebung, Journey, Kampagne, Nachrichten
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 94%
+source-wordcount: '2383'
+ht-degree: 92%
 
 ---
 
@@ -139,11 +139,7 @@ Gehen Sie bei Auftreten eines Fehler-Codes entsprechend dem folgenden systematis
 
 6. **Versuchen Sie es ggf. erneut**: Bei Fehlern der Serie 500 kann ein einfacher Neuversuch nach einigen Minuten vorübergehende Probleme beheben.
 
-7. **Eskalieren Sie bei Bedarf**: Wenn der Fehler nach Abschluss der Lösungsschritte bestehen bleibt, wenden Sie sich mit folgenden Informationen an den Adobe-Support:
-   * Vollständiger Fehler-Code
-   * Anfrage-ID (falls verfügbar)
-   * Schritte zum Nachstellen
-   * Relevante Konfigurationsdetails
+7. **Bei Bedarf eskalieren**: Wenn der Fehler nach den folgenden Behebungsschritten weiterhin besteht, [kontaktieren Sie den Adobe-Support](../start/user-interface.md#support-ticket-guidelines) mit dem vollständigen Fehler-Code, der Anfrage-ID (falls verfügbar), den Schritten zur Reproduktion und relevanten Konfigurationsdetails.
 
 ## Best Practices zur Vermeidung häufiger Fehler {#best-practices}
 
@@ -188,7 +184,7 @@ Gehen Sie folgendermaßen vor, wenn Sie auf anhaltende Fehler stoßen, die mit d
 2. **Überprüfen Sie den Systemstatus**: Besuchen Sie [Adobe-Status](https://status.adobe.com/de/){target="_blank"} für bekannte Service-Probleme
 3. **Durchsuchen Sie die Dokumentation**: Suchen Sie in [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de){target="_blank"} nach Lösungen
 4. **Engage-Community**: Stellen Sie Fragen in der [[!DNL Adobe Journey Optimizer] Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}
-5. **Kontaktieren Sie den Adobe-Support**: Senden Sie ein Support-Ticket mit allen relevanten Details
+5. **Adobe-Support kontaktieren**: [Senden eines Support-Tickets](../start/user-interface.md#support-ticket-guidelines) mit allen relevanten Details
 
 >[!NOTE]
 >

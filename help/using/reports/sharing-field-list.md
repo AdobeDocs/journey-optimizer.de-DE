@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Liste der Step-Ereignisfelder
-description: Liste der Step-Ereignisfelder
+title: Liste der Schrittereignisfelder
+description: Liste der Schrittereignisfelder
 feature: Journeys, Reporting
 topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
-# Liste der Step-Ereignisfelder {#sharing-field-list}
+# Liste der Schrittereignisfelder {#sharing-field-list}
 
 Die Felder der Step-Ereignisse sind nach Kategorie geordnet.
 
@@ -95,11 +95,11 @@ Im Folgenden finden Sie Definitionen, häufige Ursachen und Schritte zur Fehlerb
 
   **Fehlerbehebung**: Stellen Sie sicher, dass mindestens eine Journey live und für das Segment konfiguriert ist, und überprüfen Sie Segment-IDs.
 
-* **JOURNEY_INSTANCE_ID_NOT_CREATED**: Das System konnte keine Journey-Instanz für den Kunden erstellen.
+* **JOURNEY_INSTANCE_ID_NOT_CREATED**: Das System konnte keine Journey-Instanz für die Kundin oder den Kunden erstellen.
 
   **Häufige Ursachen**: Duplizierte Ereignisse, großes Ereignisvolumen, Einschränkungen der Systemressourcen.
 
-  **Fehlerbehebung**: Implementieren Sie Deduplizierung, vermeiden Sie Traffic-Spitzen, optimieren Sie das Journey-Design. Wenden Sie sich an den Support, wenn das Problem weiterhin besteht.
+  **Fehlerbehebung**: Implementieren Sie die Deduplizierung, vermeiden Sie Traffic-Spitzen, optimieren Sie das Journey-Design, [wenden Sie sich an den Support](../start/user-interface.md#support-ticket-guidelines) wenn dies dauerhaft ist.
 
 * **EVENT_WITH_NO_JOURNEY**: Ein Ereignis wurde empfangen, aber es ist keine aktive Journey konfiguriert, um darauf zu reagieren.
 

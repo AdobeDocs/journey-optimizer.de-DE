@@ -10,10 +10,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -62,7 +62,7 @@ Wenn in Ihren Journey-Berichten nicht die erwarteten Daten angezeigt werden, pr�
 
 * **Journey-Status**: Berichtsdaten sind nur für veröffentlichte Journeys oder Journeys im [Probelauf-Modus](journey-dry-run.md) verfügbar. Journeys im Entwurfsmodus generieren keine Berichtsdaten.
 
-Wenn nach der Überprüfung dieser Punkte weiterhin Probleme auftreten, wenden Sie sich an Ihre bzw. Ihren Adobe-Admin oder an den Adobe-Support.
+Wenn nach der Überprüfung dieser Elemente weiterhin Probleme auftreten, wenden Sie sich an Ihren Adobe-Administrator oder an den [Adobe](../start/user-interface.md#support-ticket-guidelines)Support.
 
 >[!MORELIKETHIS]
 >

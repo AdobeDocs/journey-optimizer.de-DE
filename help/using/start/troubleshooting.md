@@ -7,10 +7,10 @@ feature: Get Started, Monitoring
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
-source-wordcount: '2945'
-ht-degree: 97%
+source-wordcount: '2972'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 97%
 Im Folgenden finden Sie eine Liste von Artikeln zur Fehlerbehebung in Adobe Journey Optimizer. Jeder Abschnitt zur Fehlerbehebung enthält Antworten auf häufig gestellte Fragen und Lösungen für Probleme.
 
 Siehe auch [Dokumentation mit häufig gestellten Fragen und Fehlerbehebung für Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/troubleshooting){target="_blank"}.
+
+Geben Sie bei der Kontaktaufnahme mit dem Adobe-Support bei ungelösten Problemen Umgebungsdetails, Auswirkungsstufe, Replikationsschritte, Protokolle oder Screenshots und relevante IDs an. [Erfahren Sie, was Sie in Support-Tickets einschließen können](user-interface.md#support-ticket-guidelines).
 
 ## E-Mail-Kanal {#ajo-troubleshooting-email}
 
@@ -201,7 +203,7 @@ Die Diskrepanz kann auftreten, wenn die Journey den Profil-Snapshot eines vorher
 
 In [diesem Artikel zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} erfahren Sie, wie Sie das Problem beheben können.
 
-Weitere Informationen finden Sie in [diesem Beitrag in der Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=de){target="_blank"}.
+Weitere Informationen finden Sie in [diesem Beitrag in der Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
 
 Konsultieren Sie außerdem die [Dokumentation zur API für Adobe Experience Platform-Zeitpläne](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/api/schedules){target="_blank"}, um zu überprüfen, wann Ihr täglicher Auftrag geplant ist.
 
@@ -234,7 +236,7 @@ Die Metrik **Ansprechbare Profile** gibt die Anzahl der eindeutigen Profile an, 
 
 Um dieses Problem zu untersuchen und zu beheben, müssen Sie die Profilzählungslogik verstehen, Journey und Kampagnen untersuchen, die auf große Zielgruppen abzielen, Zielgruppen angemessen filtern, Datensatzänderungen überwachen und möglicherweise die adressierbare Zielgruppengröße reduzieren.
 
-Erfahren Sie in der Dokumentation zum Lizenznutzungs-Dashboard , wie Sie Probleme mit Engageable Profiles beheben und die Lizenznutzung [&#x200B; Unternehmens &#x200B;](../audience/license-usage.md#troubleshooting-engageable-profiles).
+Erfahren Sie in der Dokumentation zum Lizenznutzungs-Dashboard , wie Sie Probleme mit Engageable Profiles beheben und die Lizenznutzung [ Unternehmens ](../audience/license-usage.md#troubleshooting-engageable-profiles).
 
 +++
 
