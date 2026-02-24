@@ -5,7 +5,7 @@ title: Verbinden Ihrer Systeme und Umgebungen
 description: Verbinden Ihrer Systeme und Umgebungen
 redpen-status: CREATED_||_2025-08-11_21-18-12
 exl-id: fe784f79-f8a2-4091-a5f0-3e44a1838c1c
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Mit Adobe Journey Optimizer können Sie Ihre Systeme und Umgebungen nahtlos mite
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integrieren von Adobe Journey Optimizer mit anderen Lösungen
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Adobe Journey Optimizer sich mit anderen Adobe- und Drittanbie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Arbeiten mit Adobe Journey Optimizer-APIs
 
@@ -40,7 +40,7 @@ Entdecken Sie, wie Sie mithilfe von APIs personalisierte Erlebnisse über versch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integrieren von Journeys mit externen Systemen
 
@@ -50,7 +50,7 @@ Best Practices für die Integration von Adobe Journey Optimizer mit externen Sys
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Senden mit Adobe-Lösungen
 
@@ -60,17 +60,17 @@ Konfigurieren Sie Adobe Journey Optimizer für die Integration mit Adobe Campaig
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Sandbox-Management in Adobe Journey Optimizer
 
 Effektives Verwalten von virtuellen Umgebungen, Rollen und Workflows mit Sandboxes in Adobe Journey Optimizer.
 
-[Sandboxes verwalten](sandbox-landing-page.md)
+[Sandboxes verwalten](../using/administration/sandboxes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Quell-Connectoren
 

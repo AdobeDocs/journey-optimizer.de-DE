@@ -5,8 +5,8 @@ title: Dokumentation zu Adobe Journey Optimizer
 description: Dokumentation zu Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
-workflow-type: ht
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
+workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Mithilfe von Ruhezeiten können Sie zeitbasierte Ausschlüsse für den E-Mail-, 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Neueste Versionshinweise
 
@@ -66,7 +66,7 @@ Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte
 
@@ -76,7 +76,7 @@ Lernen Sie die Grundlagen von Journey Optimizer kennen, einschließlich seiner F
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Umfassende Anleitung für Journeys
 
@@ -86,7 +86,7 @@ Entwerfen, orchestrieren, verwalten und optimieren Sie personalisierte Kunden-Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Grundlagen und Verwalten von Kampagnen
 
@@ -96,7 +96,7 @@ Detaillierte Anleitungen zum Erstellen, Verwalten und Optimieren verschiedener K
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Kommunikationskanäle
 
@@ -106,13 +106,13 @@ Konfigurieren und verwalten Sie E-Mail, SMS, Push-Benachrichtigungen und andere 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Konflikt-Management und Priorisierung
 
 Erfahren Sie, wie Sie Kommunikationskonflikte zwischen Kampagnen und Journeys effektiv priorisieren und verwalten können.
 
-[Konflikt-Management erlernen](./rp_landing_pages/conflict-prioritization-landing-page.md)
+[Konflikt-Management erlernen](./using/conflict-prioritization/gs-conflict-prioritization.md)
 :::
 
 ::::

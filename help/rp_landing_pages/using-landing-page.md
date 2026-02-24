@@ -4,8 +4,8 @@ product: Journey Optimizer
 title: Hilfe zu Adobe Journey Optimizer
 description: Hilfe zu Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
-workflow-type: ht
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Mit Adobe Journey Optimizer können Teams nahtlose, personalisierte Kundenerlebn
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Lernen Sie die Grundlagen von Adobe Journey Optimizer kennen, einschließlich se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Umfassende Anleitung für Journeys
 
@@ -41,7 +41,7 @@ Entwerfen, orchestrieren, verwalten und optimieren Sie personalisierte Kunden-Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Grundlagen und Verwalten von Kampagnen
 
@@ -51,13 +51,13 @@ Detaillierte Anleitungen zum Erstellen, Verwalten und Optimieren verschiedener K
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Konflikt-Management und Priorisierung
 
 Erfahren Sie, wie Sie Kommunikationskonflikte zwischen Kampagnen und Journeys effektiv priorisieren und verwalten können.
 
-[Konflikt-Management erlernen](conflict-prioritization-landing-page.md)
+[Konflikt-Management erlernen](../using/conflict-prioritization/gs-conflict-prioritization.md)
 :::
 
 ::::

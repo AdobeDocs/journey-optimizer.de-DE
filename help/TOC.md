@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3090'
 ht-degree: 98%
 
 ---
@@ -215,8 +215,7 @@ ht-degree: 98%
          + [Interagieren mit Kundinnen und Kunden nach Suchaktivität](using/orchestrated/engage-customers-uc.md)
          + [Benachrichtigen von Benutzenden über Produktverfügbarkeit](using/orchestrated/product-availability-uc.md)
 + Konflikte und Priorisierung {#conflict-prioritization}
-   + [Konflikt-Management und Priorisierung](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
-   + [Erste Schritte mit Konflikt-Management und Priorisierung](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Konflikt-Management und Priorisierung](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifizieren potenzieller Konflikte](using/conflict-prioritization/conflicts.md)
    + [Zuweisen von Prioritätswerten](using/conflict-prioritization/priority-scores.md)
    + Festlegen von Regeln für die Nachrichten- und Journey-Begrenzung {#capping-rules}
@@ -861,7 +860,6 @@ ht-degree: 98%
    + [Einrichten von Kanalkonfigurationen](using/configuration/channel-surfaces.md)
    + [Exportieren von Nachrichteninhalten](using/configuration/message-export.md)
    + Geführte Kanaleinrichtung {#guided-setup}
-      + [Geführte Kanaleinrichtung](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Erste Schritte mit der Anleitung zur Kanaleinrichtung](using/configuration/set-mobile-config.md)
       + [Erstellen einer Kanaleinrichtung](using/configuration/create-channel-set-up.md)
    + E-Mail-Subdomains delegieren {#delegate-subdomains}
@@ -930,7 +928,6 @@ ht-degree: 98%
       + [Campaign v7/v8-Aktion in Journeys](using/action/acc-action.md)
       + [Marketo Engage-Aktion in Journeys](using/action/marketo-engage.md)
    + Sandbox-Management {#sandbox}
-      + [Sandbox-Management](/help/rp_landing_pages/sandbox-landing-page.md)
       + [Verwenden und Zuweisen von Sandboxes](using/administration/sandboxes.md)
       + [Exportieren von Objekten in eine andere Sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Konfigurieren des Quell-Connectors](using/start/get-started-sources.md)
