@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_21-17-32
 exl-id: 5dce56d9-0c3d-4eb1-8d44-d69a98925e8c
-source-git-commit: 56faee8badff99ff9a39cfd85a78c1ed272cd2ca
+source-git-commit: 09343aa0f64a71070dbfda178fbf96b238a6bc27
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Sandboxes in Adobe Journey Optimizer sind wie virtuelle Arbeitsbereiche, mit den
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Verwalten und Zuweisen von Sandboxes
 
@@ -32,7 +32,7 @@ Erfahren Sie, wie Sie Sandboxes für Partitionierungsumgebungen verwalten und zu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Kopieren von Objekten zwischen Sandboxes
 
