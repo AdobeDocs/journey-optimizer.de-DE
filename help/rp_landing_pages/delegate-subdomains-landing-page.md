@@ -22,7 +22,7 @@ Sie können aus verschiedenen Einrichtungsmethoden auswählen: **Vollständige D
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte mit der Delegierung von Subdomains
 
@@ -32,7 +32,7 @@ Erfahren Sie mehr über die Vorteile, Konfigurationsmethoden und Überlegungen z
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Delegieren einer Subdomain
 
@@ -42,7 +42,7 @@ Schrittweise Anleitungen zum Delegieren von Subdomains an Adobe, einschließlich
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Einrichten einer benutzerdefinierten Subdomain
 
@@ -52,7 +52,7 @@ Einrichten einer benutzerdefinierten Subdomain
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Migrieren von CNAME zur benutzerdefinierten Delegierung
 
@@ -62,7 +62,7 @@ Migrieren vorhandener CNAME-konfigurierter Subdomains in die benutzerdefinierte 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Festlegen von DMARC-Einträgen
 
@@ -72,7 +72,7 @@ Konfigurieren Sie DMARC-Einträge, um die Sicherheit und Zustellbarkeit von E-Ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Hinzufügen eines Google TXT-Eintrags
 
@@ -82,7 +82,7 @@ Hinzufügen eines Google TXT-Eintrags
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Zugreifen auf und Bearbeiten von PTR-Einträgen
 
@@ -92,7 +92,7 @@ Verwalten Sie PTR-Einträge für delegierte Subdomains, bearbeiten Sie diese und
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen von IP-Pools
 
