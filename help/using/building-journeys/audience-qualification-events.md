@@ -118,7 +118,7 @@ Siehe die [[!DNL Adobe Experience Platform] Dokumentation zur Streaming-](https:
 
 >[!NOTE]
 >
->Bei der Streaming-Segmentierung kann es bis zu **2 Stunden dauern,** neu aufgenommene Daten innerhalb von [!DNL Adobe Experience Platform] vollständig für die Echtzeit-Nutzung übertragen werden. Zielgruppen, die auf tages- oder zeitbasierte Bedingungen angewiesen sind (z. B. „Ereignisse, die heute stattgefunden haben“), können zu zusätzlicher Komplexität bei der Qualifizierungszeitplanung führen. Wenn Ihr Journey von der sofortigen Zielgruppen-Qualifizierung abhängt, sollten Sie zu Beginn [ kurze Aktivität ](wait-activity.md)Warten“ hinzufügen. Um eine genaue Qualifizierung sicherzustellen, können Sie auch Pufferzeiten zulassen.
+>Bei der Streaming-Segmentierung kann es bis zu **2 Stunden dauern,** neu aufgenommene Daten innerhalb von [!DNL Adobe Experience Platform] vollständig für die Echtzeit-Nutzung übertragen werden. Zielgruppen, die auf tages- oder zeitbasierte Bedingungen angewiesen sind (z. B. „Ereignisse, die heute stattgefunden haben“), können zu zusätzlicher Komplexität bei der Qualifizierungszeitplanung führen. Wenn Ihr Journey von der sofortigen Zielgruppen-Qualifizierung abhängt, sollten Sie zu Beginn [&#x200B; kurze Aktivität &#x200B;](wait-activity.md)Warten“ hinzufügen. Um eine genaue Qualifizierung sicherzustellen, können Sie auch Pufferzeiten zulassen.
 
 #### Darum treten möglicherweise nicht alle qualifizierten Profile in die Journey ein {#streaming-entry-caveats}
 
