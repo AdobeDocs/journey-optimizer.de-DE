@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 6b7fe02136a4ac7ca8012576ad8671cf70da6aeb
+source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 85%
+source-wordcount: '822'
+ht-degree: 83%
 
 ---
 
@@ -123,10 +123,12 @@ Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separa
 * Mobile Core v5.2.0 oder höher
 * Adobe Journey Optimizer v5.1.1 oder höher
 
+
 >[!TAB Für Android]
 
 * Mobile Core v3.1.0 oder höher
 * Adobe Journey Optimizer v3.1.0 oder höher
+
 
 >[!ENDTABS]
 
@@ -135,7 +137,7 @@ Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separa
 
 Die Anleitung zur Kanaleinrichtung vereinfacht die schnelle Konfiguration von Marketing-Kanälen, sodass alle wichtigen Ressourcen in den Apps Experience Platform, Journey Optimizer und Datenerfassung verfügbar sind. Dadurch kann Ihr Marketing-Team schnell mit der Erstellung von Kampagnen und Journeys beginnen. Nachfolgend finden Sie eine Liste der Ressourcen, die im Rahmen der Anleitung zur Kanaleinrichtung automatisch generiert und konfiguriert werden.
 
-Durchsuchen Sie die folgenden Registerkarten, um auf die umfassenden Listen aller automatisch generierten Ressourcen zuzugreifen:
+Durchsuchen Sie die folgenden Registerkarten, um auf die umfassenden Listen aller Ressourcen zuzugreifen, die automatisch generiert werden:
 
 >[!BEGINTABS]
 
