@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '816'
+ht-degree: 88%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 >abstract="Adobe Experience Platform Assurance ist in diesen Workflow eingebettet, damit Sie Ihre SDK-Implementierung überprüfen und Anwendungsereignisse simulieren und validieren können."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/assurance/home" text="Überblick über Adobe Experience Platform Assurance"
 
-Diese Einrichtung erleichtert die schnelle Konfiguration von Marketing-Kanälen, sodass alle erforderlichen Ressourcen in Experience Platform, Journey Optimizer und der Datenerfassung sofort verfügbar sind. Dadurch kann Ihr Marketing-Team sofort mit der Erstellung von Kampagnen und Journeys beginnen.
+**Geführte Kanaleinrichtung** ist ein optimierter Workflow in Adobe Journey Optimizer, mit dem Sie Mobile- und Web-Marketing-Kanäle schnell konfigurieren können. Sie befindet sich unter **Administration** > **Kanäle** > **Kanalkonfiguration** und automatisiert die Erstellung wesentlicher Ressourcen wie Tag-Eigenschaften, Datenströme und Kanalkonfigurationen in Adobe Experience Platform, Journey Optimizer und der Datenerfassung. Anstatt jede Komponente manuell zu konfigurieren, folgen Sie einem geführten Fluss, der alles für Sie einrichtet, damit Ihr Marketing-Team sofort mit der Erstellung von In-App-Nachrichten, Push-Benachrichtigungen und Web-Erlebnissen beginnen kann.
 
-Die Anleitung zur Kanaleinrichtung unterstützt die folgenden Plattformen und Kanäle.
+Die Einrichtung geführter Kanäle unterstützt die folgenden Plattformen und Kanäle.
 
 * Plattformen und SDKs:
 
