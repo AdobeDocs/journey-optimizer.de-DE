@@ -32,7 +32,7 @@ Wenn Sie beispielsweise eine Textkomponente auswählen:
 * Sie können die **[!UICONTROL Text]**-Parameter wie Schriftfamilie, Größe, Höhe, Ausrichtung usw. aktualisieren und den Abstand vor dem ersten Zeichen auf einer Linie mithilfe der Einstellung **[!UICONTROL Einzug]** verwalten;
 * Sie können auch Optionen wie **[!UICONTROL Rahmen]**, **[!UICONTROL Rand]** und **[!UICONTROL Abstand]** der Textkomponente anpassen.
 
-Wenn Sie eine standardmäßige [Inhaltsvorlage“ verwenden ](use-email-templates.md) ein Design auf Ihre E-Mail angewendet haben, können Sie nur einige Stileinstellungen an das ausgewählte Design anpassen. [Weitere Informationen zu Designs](apply-email-themes.md)
+Wenn Sie eine standardmäßige [Inhaltsvorlage“ verwenden &#x200B;](use-email-templates.md) ein Design auf Ihre E-Mail angewendet haben, können Sie nur einige Stileinstellungen an das ausgewählte Design anpassen. [Weitere Informationen zu Designs](apply-email-themes.md)
 
 ![](assets/email_designer_styles_theme.png)
 
