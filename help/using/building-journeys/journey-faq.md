@@ -931,7 +931,7 @@ Erfahren Sie mehr über [Journey-Design](using-the-journey-designer.md) und [Lei
 
 * Verwenden Sie [Testmodus](testing-the-journey.md) und [Probelauf](journey-dry-run.md), um die Leistung vor der Veröffentlichung zu überprüfen
 * Minimieren Sie externe API-Aufrufe durch [benutzerdefinierte Aktionen](using-custom-actions.md), um Latenz und Abhängigkeit von Drittanbietersystemen zu vermeiden
-* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [ nach Möglichkeit die Datensatzsuche ](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
+* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [&#x200B; nach Möglichkeit die Datensatzsuche &#x200B;](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
 * Überprüfen und optimieren Sie die Leistung des [Nachrichtenversands](journey-action.md)
 
 Erfahren Sie mehr über [Leitlinien und Einschränkungen](../start/guardrails.md).
