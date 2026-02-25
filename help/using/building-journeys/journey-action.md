@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden der Journey-Aktivität „Aktion“
-description: Erfahren Sie, wie Sie eine generische Aktivität des Typs „Aktion“ hinzufügen, um innerhalb der Journey-Arbeitsfläche einzelne Aktionen und eingehende Aktionsgruppen mit mehreren Aktionen zu konfigurieren.
+title: Verwenden der Aktivität „Aktion“
+description: Erfahren Sie, wie Sie eine generische Aktionsaktivität hinzufügen, um Einzelaktionen und eingehende Aktionsgruppen mit mehreren Aktionen auf der Journey-Arbeitsfläche zu konfigurieren, und wie Sie integrierte Kanalaktionen hinzufügen.
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 95%
+source-wordcount: '1455'
+ht-degree: 86%
 
 ---
 
@@ -22,25 +22,29 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="Aktivität „Aktion“"
->abstract="Mit der generischen Aktivität **Aktion** können Sie eine einzelne native Kanalaktion und mehrere eingehende Aktivitäten konfigurieren, wobei Sie jede integrierte Kanalaktion optimieren können."
+>abstract="Die Aktivität **Aktion** ermöglicht die Konfiguration einer einzelnen nativen Kanalaktion und mehrerer eingehender Aktivitäten mit der Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen."
 
 [!DNL Journey Optimizer] verfügt über eine neue generische Aktivität **Aktion**, mit der eine einzelne integrierte Kanalaktion und auch mehrere eingehende Aktivitäten konfiguriert werden können.
 
-Dies ermöglicht Folgendes:
+Die Aktionsaktivität bietet:
 
 * Eine vereinfachte, native Aktionskonfiguration innerhalb der Journey-Arbeitsfläche
 * Die Möglichkeit, eingehende Aktionsgruppen mit mehreren Aktionen zu erstellen
 * Die Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen
 
->[!NOTE]
+Um eine integrierte Kanalaktion zu Ihrem Journey hinzuzufügen, verwenden Sie die Aktivität **Aktion** . Diese einheitliche Aktivität fasst alle Kanalaktionen (E-Mail, Push, SMS, In-App, Web, Code-basiertes Erlebnis und Inhaltskarte) in einem einzigen Aktivitätstyp zusammen, der die vorherigen individuellen Kanalaktivitäten ersetzt.
+
+>[!IMPORTANT]
 >
->Alle nativen Kanäle sind jetzt über die Aktion-Journey-Aktivität zugänglich. Ältere native Kanalaktivitäten werden mit der März-Version eingestellt. Vorhandene Journey mit Legacy-Aktionen funktionieren weiterhin wie bisher - es ist keine Migration erforderlich.
+>Da nun über die Aktivität Aktion auf alle nativen Kanäle zugegriffen werden kann, werden alte native Kanalaktivitäten mit der März-Version eingestellt. Vorhandene Journey mit Legacy-Aktionen funktionieren weiterhin wie bisher - es ist keine Migration erforderlich.
 
 Sie können in [!DNL Journey Optimizer] auch benutzerdefinierte Aktionen zum Senden von Nachrichten einrichten. [Weitere Informationen](#recommendation)
 
-## Hinzufügen einer Aktion zu einer Journey  {#add-action}
+## Hinzufügen einer integrierten Kanalaktion zu einer Journey  {#add-action}
 
-Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuzufügen.
+Gehen Sie wie folgt vor, um Ihrer Journey mithilfe der Aktivität **[!UICONTROL Aktion]** eine integrierte Kanalaktion hinzuzufügen.
+
+Weitere Informationen zu den in Journeys verfügbaren Kanälen finden Sie in der Tabelle in diesem Abschnitt: [Kanäle in Journeys und Kampagnen](../channels/gs-channels.md#channels).
 
 1. Beginnen Sie Ihre Journey mit einem [Ereignis](general-events.md) oder einer Aktivität vom Typ [Zielgruppe lesen](read-audience.md).
 
@@ -62,7 +66,92 @@ Gehen Sie wie folgt vor, um eine integrierte Kanalaktion zu einer Journey hinzuz
 
 1. Wenn Sie einen eingehenden Kanal ausgewählt haben, können Sie mehrere Aktionen hinzufügen. [Weitere Informationen](#multi-action)
 
-1. Konfigurieren Sie Ihre Aktivität entsprechend dem ausgewählten Kanal. In [diesem Abschnitt](journeys-message.md) erfahren Sie, wie Sie integrierte Kanalaktionen konfigurieren.
+1. Konfigurieren Sie Ihre Aktivität entsprechend dem ausgewählten Kanal. Ausführliche Konfigurationsrichtlinien finden Sie unter den folgenden Links.
+
+   * Erfahren Sie im Detail, wie Sie eine ausgehende Aktion erstellen:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="Lead" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>Erstellen von E-Mails</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="Gelegentlich" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>Push-Benachrichtigungen erstellen<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="Validierung" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>Erstellen von Textnachrichten (SMS/MMS)</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * Erfahren Sie im Detail, wie Sie Ihre eingehende Aktion erstellen:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>Erstellen von In-App-Nachrichten</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="Lead" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>Erstellen von Web-Erlebnissen</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="Lead" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong>Erstellen von Inhaltskarten</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="Gelegentlich" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>Erstellen von Code-basierten Erlebnissen<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   >[!NOTE]
+   >
+   >* Jede eingehende Erlebnisaktion umfasst eine 3-tägige **Warten**-Aktivität. [Weitere Informationen](wait-activity.md#auto-wait-node)
+   >
+   >* Für E-Mails und Push-Benachrichtigungen können Sie die Versandzeitoptimierung aktivieren. [Weitere Informationen](send-time-optimization.md)
+
+1. Je nach Aktivität können Sie erweiterte Parameter für den ausgewählten Kanal anzeigen und einige Standardwerte wie Ausführungsadressen überschreiben. [Weitere Informationen](about-journey-activities.md#advanced-parameters)
+
+   >[!NOTE]
+   >
+   >Wenn die erweiterten Parameter ausgeblendet sind, klicken Sie oben im rechten Bereich auf die Schaltfläche **[!UICONTROL Schreibgeschützte Felder anzeigen]**.
 
 1. Verwenden Sie den Abschnitt **[!UICONTROL Optimierung]**, um Inhaltsexperimente auszuführen, Targeting-Regeln zu nutzen oder erweiterte Kombinationen aus Experimenten und Targeting zu verwenden. 
 
@@ -178,7 +267,32 @@ Gehen Sie wie folgt vor, um mehrere eingehende Aktionen in einem einzigen Journe
 1. Gehen Sie ähnlich vor, um weitere Aktionen hinzuzufügen. Sie können bis zu 10 eingehende Aktionen in einer Journey-Aktionsgruppe hinzufügen.
 
 Sobald die Journey [live](publish-journey.md) ist, werden alle Aktionen gleichzeitig aktiviert.
-<!--
-## Next steps {#next}
 
-Once your action is configured, you can design its content. [Learn more]-->
+## Aktualisieren von Live Content {#update-live-content}
+
+Sie können den Inhalt einer integrierten Kanalaktion in einer Live-Journey aktualisieren.
+
+Änderungen am Inhalt werden erst dann auf der Journey angezeigt, wenn Sie die Eigenschaften der Aktion speichern. [Weitere Informationen](about-journey-activities.md#advanced-parameters)
+
+Öffnen Sie dazu Ihre Live-Journey, wählen Sie die Aktivität „Kanal“ aus und klicken Sie auf **Inhalt bearbeiten**.
+
+![Schaltfläche „Kanalaktivität bearbeiten“ in Live Journey](assets/email-action-edit-content.png)
+
+Sie können jedoch nicht die Attribute ändern, die bei der Personalisierung verwendet wurden, egal, ob es sich um Profilattribute oder kontextuelle Daten (aus Ereignis- oder Journey-Eigenschaften) handelt.
+
+* Wenn Sie Kontextdaten geändert haben, wird die folgende Fehlermeldung angezeigt: `ERR_AUTHORING_JOURNEYVERSION_201`
+
+* Wenn Sie Profilattribute geändert haben, wird die folgende Fehlermeldung angezeigt: `ERR_AUTHORING_JOURNEYVERSION_202`
+
+Beachten Sie, dass für die In-App-Aktivität alle Änderungen am Inhalt vorgenommen werden können, während die Journey live ist. In-App-Trigger können jedoch nicht geändert werden.
+
+## Senden mit benutzerdefinierten Aktionen {#recommendation}
+
+Statt der integrierten Nachrichtenfunktionen können Sie benutzerdefinierte Aktionen verwenden, um die Verbindung eines Drittanbietersystems zum Senden von Nachrichten oder API-Aufrufen zu konfigurieren.
+
+* Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. [Weitere Informationen](../action/action.md)
+
+* Wenn Sie mit Adobe Campaign arbeiten, sollten Sie diese Abschnitte lesen:
+
+   * [[!DNL Journey Optimizer] und Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] und Campaign Standard](../action/acs-action.md)

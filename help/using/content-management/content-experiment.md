@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1927'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
->title="Inhaltsexperimente"
+>title="Inhaltsexperiment"
 >abstract="Sie können den Inhalt oder den Betreff der Nachricht ändern, um mehrfache Abwandlungen zu definieren und die beste Kombination für Ihre Zielgruppen zu ermitteln."
 
 >[!NOTE]
@@ -46,7 +46,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 ## Erstellen Ihrer Inhalte {#campaign-experiment}
 
-1. Erstellen und konfigurieren Sie zunächst Ihre [Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journeys-message.md) entsprechend Ihren Anforderungen. 
+1. Erstellen und konfigurieren Sie zunächst Ihre [Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journey-action.md) entsprechend Ihren Anforderungen. 
 
 1. Beginnen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** mit der Personalisierung der Abwandlung A.
 
@@ -109,8 +109,8 @@ Für Ihr Inhaltsexperiment können Sie zwischen drei Arten von Experimenten wäh
    >[!CAUTION]
    >
    >Beachten Sie beim Erstellen eines Code-basierten Experiments die folgenden Einschränkungen:
-   >* **Anzahl der Behandlungen**: Die Erstellung von mehr als 3-5 Behandlungen kann zu Leistungs- und Schnittstellenproblemen führen. Wenn beim Hinzufügen von Behandlungen Fehler auftreten, reduzieren Sie die Anzahl der Behandlungen oder fügen Sie sie schrittweise hinzu, bis das Problem behoben ist.
-   >* **Reservierte Keywords**: Verwenden Sie in Ihren Abwandlungsnamen keine reservierten Keywords wie „Holdout“, da dies zu Fehlern bei der Entscheidungsknotenzuordnung führen und die ordnungsgemäße Funktionsweise des Experiments verhindern kann.
+   >* **Anzahl der Abwandlungen:** Die Erstellung von mehr als 3–5 Abwandlungen kann zu Leistungs- und Schnittstellenproblemen führen. Wenn beim Hinzufügen von Abwandlungen Fehler auftreten, reduzieren Sie die Anzahl der Abwandlungen oder fügen Sie sie schrittweise hinzu, bis das Problem behoben ist.
+   >* **Reservierte Keywords:** Verwenden Sie in Ihren Abwandlungsnamen keine reservierten Keywords wie „Holdout“, da dies zu Fehlern bei der Entscheidungsknotenzuordnung führen und die ordnungsgemäße Funktionsweise des Experiments verhindern kann.
 
 1. Ändern Sie den **[!UICONTROL Titel]** Ihrer Abwandlung, um die einzelnen Abwandlungen besser unterscheiden zu können.
 

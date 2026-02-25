@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 81%
 
 ---
-
 
 # Festlegen von Ruhezeiten {#quiet-hours}
 
@@ -133,7 +133,7 @@ Nachdem die Regel gespeichert und der Regelsatz aktiviert wurde, können Sie sie
 
 >[!TAB Anwenden von Kanalaktionen mit Ruhezeiten in Journeys]
 
-1. Öffnen Sie Ihre Journey, wählen Sie eine [Kanalaktion](../building-journeys/journeys-message.md) aus und bearbeiten Sie den Inhalt Ihrer Nachricht.
+1. Öffnen Sie Ihre Journey, wählen Sie eine [Kanalaktion](../building-journeys/journey-action.md) aus und bearbeiten Sie den Inhalt Ihrer Nachricht.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Geschäftsregel hinzufügen]** und wählen Sie den Regelsatz aus, der die Regel für Ruhezeiten enthält.
 
    ![](assets/quiet-hours-apply.png)
@@ -192,4 +192,4 @@ Sobald Ihre Journeys oder Kampagnen aktiviert und ausgeführt wurden, können Si
 
 Erfahren Sie, wie Sie die Ruhezeitenfunktion in Adobe Journey Optimizer verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475861?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

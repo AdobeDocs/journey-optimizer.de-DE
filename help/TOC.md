@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '3090'
 ht-degree: 98%
@@ -92,8 +92,8 @@ ht-degree: 98%
       + [Warten](using/building-journeys/wait-activity.md)
       + [Inhaltsentscheidung](using/building-journeys/content-decision.md)
       + [Datensatzsuche](using/building-journeys/dataset-lookup.md)
-      + [Aktion](using/building-journeys/journey-action.md)
       + [Integrierte Kanalaktionen](using/building-journeys/journeys-message.md)
+      + [Aktion](using/building-journeys/journey-action.md)
       + [Sprung](using/building-journeys/jump.md)
       + [Aktualisieren des Profils](using/building-journeys/update-profiles.md)
       + [Benutzerdefinierte Aktionen](using/building-journeys/using-custom-actions.md)

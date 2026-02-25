@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung, Orchestrierung
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 93%
@@ -229,7 +229,7 @@ Ja. Journey Optimizer umfasst **integrierte Kanalaktionen** mit denen Sie Nachri
 
 Bei Kanälen, die nativ nicht unterstützt werden, können Sie **benutzerdefinierte Aktionen** verwenden, um sie in externe Messaging-Plattformen zu integrieren und Nachrichten über einen beliebigen Drittanbieterkanal zu senden.
 
-Erfahren Sie mehr über [Nachrichten in Journeys](journeys-message.md) und [benutzerdefinierte Aktionen](using-custom-actions.md).
+Erfahren Sie mehr über [Nachrichten in Journeys](journey-action.md) und [benutzerdefinierte Aktionen](using-custom-actions.md).
 
 +++
 
@@ -265,7 +265,7 @@ Erstellen Sie eine **unitäre, durch ein Ereignis ausgelöste Journey**:
 
 Die Journey wird bei Erhalt eines Kaufereignisses automatisch ausgelöst und die Bestätigungs-E-Mail wird in Echtzeit gesendet.
 
-Erfahren Sie mehr über [Ereigniskonfiguration](../event/about-events.md) und [E-Mail-Aktionen](journeys-message.md).
+Erfahren Sie mehr über [Ereigniskonfiguration](../event/about-events.md) und [E-Mail-Aktionen](journey-action.md).
 
 +++
 
@@ -300,7 +300,7 @@ Erstellen Sie eine durch ein Ereignis ausgelöste Journey mit einem **[!UICONTRO
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Reaktionsereignisse]** müssen unmittelbar nach [Kanalaktionen](journeys-message.md) platziert werden. Platzieren Sie keine **[!UICONTROL Warten]**-Aktivitäten zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität.
+>**[!UICONTROL Reaktionsereignisse]** müssen unmittelbar nach [Kanalaktionen](journey-action.md) platziert werden. Platzieren Sie keine **[!UICONTROL Warten]**-Aktivitäten zwischen der Kanalaktion und der **[!UICONTROL Reaktion]**-Aktivität.
 
 Erfahren Sie mehr über [Journey-Anwendungsfälle](jo-use-cases.md) und [Reaktionsereignisse](reaction-events.md).
 
@@ -606,7 +606,7 @@ Ja. Verwenden Sie eine **[Bedingungsaktivität](condition-activity.md)**, um Pro
 * Verwenden Sie [Kanaloberflächen](../configuration/channel-surfaces.md) zum Verwalten von Kanalkonfigurationen
 * Testen Sie alle Pfade, um einen ordnungsgemäßen Nachrichtenversand sicherzustellen
 
-Erfahren Sie mehr über [Bedingungen](condition-activity.md), [Nachrichtenaktionen](journeys-message.md) und [Kanalauswahl](../channels/gs-channels.md).
+Erfahren Sie mehr über [Bedingungen](condition-activity.md), [Nachrichtenaktionen](journey-action.md) und [Kanalauswahl](../channels/gs-channels.md).
 
 +++
 
@@ -931,8 +931,8 @@ Erfahren Sie mehr über [Journey-Design](using-the-journey-designer.md) und [Lei
 
 * Verwenden Sie [Testmodus](testing-the-journey.md) und [Probelauf](journey-dry-run.md), um die Leistung vor der Veröffentlichung zu überprüfen
 * Minimieren Sie externe API-Aufrufe durch [benutzerdefinierte Aktionen](using-custom-actions.md), um Latenz und Abhängigkeit von Drittanbietersystemen zu vermeiden
-* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [&#x200B; nach Möglichkeit die Datensatzsuche &#x200B;](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
-* Überprüfen und optimieren Sie die Leistung des [Nachrichtenversands](journeys-message.md)
+* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [ nach Möglichkeit die Datensatzsuche ](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
+* Überprüfen und optimieren Sie die Leistung des [Nachrichtenversands](journey-action.md)
 
 Erfahren Sie mehr über [Leitlinien und Einschränkungen](../start/guardrails.md).
 

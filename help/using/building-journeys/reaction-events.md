@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Journey, Ereignisse, Reaktion, Tracking, Plattform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 94%
@@ -40,7 +40,7 @@ Sie können die Aktivität **[!UICONTROL Reaktion]** auch verwenden, um eine Akt
 
 Führen Sie diese Schritte aus, um die Reaktionsereignisse zu konfigurieren:
 
-1. Platzieren Sie eine Aktivität **[!UICONTROL Reaktion]** in der Journey-Arbeitsfläche **unmittelbar** nach einer [Kanalaktionsaktivität](journeys-message.md).
+1. Platzieren Sie eine Aktivität **[!UICONTROL Reaktion]** in der Journey-Arbeitsfläche **unmittelbar** nach einer [Kanalaktionsaktivität](journey-action.md).
 1. Fügen Sie der Reaktion ein **[!UICONTROL Label]** hinzu. Dieser Schritt ist optional.
 1. Wählen Sie aus der Dropdown-Liste die Aktionsaktivität aus, auf die Sie reagieren möchten. Sie können jede Aktionsaktivität auswählen, die in den vorherigen Schritten des Pfades platziert wurde.
 1. Wählen Sie je nach ausgewählter Aktion, auf was Sie reagieren möchten.
@@ -48,7 +48,7 @@ Führen Sie diese Schritte aus, um die Reaktionsereignisse zu konfigurieren:
 
 ## Leitlinien und Einschränkungen {#guardrails-limitations}
 
-* Eine Aktivität **[!UICONTROL Reaktion]** muss in der Journey-Arbeitsfläche **unmittelbar** nach einer [Kanalaktionsaktivität](journeys-message.md) platziert werden.
+* Eine Aktivität **[!UICONTROL Reaktion]** muss in der Journey-Arbeitsfläche **unmittelbar** nach einer [Kanalaktionsaktivität](journey-action.md) platziert werden.
 * Eine Aktivität **[!UICONTROL Reaktion]** kann nur verwendet werden, wenn zuvor eine Kanalaktionsaktivität stattgefunden hat.
 * Das Platzieren einer Aktivität **[!UICONTROL Warten]** oder einer anderen Aktivität zwischen der Kanalaktion und der Aktivität **[!UICONTROL Reaktion]** wird nicht unterstützt und kann dazu führen, dass die Reaktion nicht wie erwartet funktioniert.
 * Reaktionsereignisse können nur Nachrichten verfolgen, die innerhalb derselben Journey gesendet werden. Meldungen, die in einer anderen Journey stattfinden, können nicht verfolgt werden.

@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 100%
+source-wordcount: '1467'
+ht-degree: 89%
 
 ---
 
@@ -25,13 +25,25 @@ ht-degree: 100%
 
 Gehen Sie wie folgt vor, um eine Inhaltskarte zu einer Journey hinzuzufügen:
 
-1. Öffnen Sie Ihre Journey und ziehen Sie eine Aktivität **[!UICONTROL Karte]** per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
+1. Öffnen Sie Ihre [Journey](../building-journeys/journey-gs.md) und ziehen Sie eine **[!UICONTROL Aktion]**-Aktivität per Drag-and-Drop aus dem Abschnitt **[!UICONTROL Aktionen]** der Palette. Weitere Informationen über die [Aktionsaktivität](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Da nun über die Aktivität Aktion auf alle nativen Kanäle zugegriffen werden kann, werden alte native Kanalaktivitäten mit der März-Version eingestellt. Vorhandene Journey mit Legacy-Aktionen funktionieren weiterhin wie bisher - es ist keine Migration erforderlich.
+
+1. Wählen **[!UICONTROL als]** „Karte“ aus.
 
    ![](assets/content-card-jo-1.png)
 
-1. Geben Sie ein **[!UICONTROL Label]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
+   >[!NOTE]
+   >
+   >Da **Card** eine Aktivität für eingehende Erlebnisse ist, verfügt sie über eine 3-tägige Aktivität **Warten**. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Wählen Sie die [Inhaltskartenkonfiguration](content-card-configuration.md) aus, die verwendet werden soll.
+1. Geben Sie einen **[!UICONTROL Titel]** ein, um Ihre Aktion auf der Journey-Arbeitsfläche zu identifizieren.
+
+1. Klicken Sie auf **[!UICONTROL Schaltfläche „Aktion konfigurieren]**.
+
+1. Sie werden zur Registerkarte **[!UICONTROL Aktionen]** geleitet. Wählen oder erstellen Sie von dort aus die zu verwendende Inhaltskartenkonfiguration. [Weitere Informationen](content-card-configuration.md)
 
    ![](assets/content-card-jo-2.png)
 
@@ -86,11 +98,11 @@ Gehen Sie wie folgt vor, um eine Inhaltskarte zu einer Journey hinzuzufügen:
 
    1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Trigger zu gruppieren.
 
-1. Schließen Sie bei Bedarf Ihren Journey-Fluss ab, indem Sie zusätzliche Aktionen oder Ereignisse per Drag-and-Drop verschieben. [Weitere Informationen](../building-journeys/about-journey-activities.md)
+1. Sie können Ihrer Inhaltskarte eine oder mehrere eingehende Aktionen hinzufügen, indem Sie auf die Schaltfläche **[!UICONTROL Aktion hinzufügen]** klicken. [Weitere Informationen](../building-journeys/journey-action.md#multi-action)
 
-1. Sobald Ihre Inhaltskarte fertig ist, schließen Sie die Konfiguration ab und veröffentlichen Sie Ihre Journey, um sie zu aktivieren.
+1. Zurück zur Journey-Arbeitsfläche. Schließen Sie bei Bedarf Ihren Journey-Fluss ab, indem Sie zusätzliche Aktionen oder Ereignisse per Drag-and-Drop verschieben. [Weitere Informationen](../building-journeys/about-journey-activities.md)
 
-Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
+Weitere Informationen zum Erstellen, Konfigurieren und Veröffentlichen einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
 >[!TAB Hinzufügen von Inhaltskarten zu einer Kampagne]
 

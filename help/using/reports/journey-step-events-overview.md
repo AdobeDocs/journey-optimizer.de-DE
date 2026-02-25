@@ -7,8 +7,9 @@ feature: Journeys, Reporting
 role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: Journey, Schrittereignisse, Analyse, Reporting, Monitoring, XDM
-source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
-workflow-type: ht
+exl-id: 2e7c5ea5-d8c5-416d-ab88-d2bc02043558
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 100%
 
@@ -32,7 +33,7 @@ Es gibt zwei Haupttypen von Journey-Schrittereignissen:
 Journey-Schrittereignisse werden automatisch für verschiedene Journey-Aktivitäten generiert:
 
 - **Eintrittsereignisse**: Wenn ein Profil [in eine Journey eintritt](../building-journeys/entry-management.md)
-- **Aktionsausführung**: Wenn [Nachrichten gesendet werden](../building-journeys/journeys-message.md) oder [benutzerdefinierte Aktionen](../building-journeys/using-custom-actions.md) ausgeführt werden
+- **Aktionsausführung**: Wenn [Nachrichten gesendet werden](../building-journeys/journey-action.md) oder [benutzerdefinierte Aktionen](../building-journeys/using-custom-actions.md) ausgeführt werden
 - **Bedingungsauswertung**: Wenn Profile [Bedingungen](../building-journeys/condition-activity.md) und Entscheidungspunkte durchlaufen
 - **Warteaktivitäten**: Wenn Profile in [Warteknoten](../building-journeys/wait-activity.md) eintreten und aus ihnen aussteigen
 - **Ausstiegsereignisse**: Wenn Profile [aus einer Journey aussteigen](../building-journeys/end-journey.md)

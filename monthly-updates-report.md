@@ -6,7 +6,7 @@ description: Liste der neuen und aktualisierten Dokumentationsseiten
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -101,7 +101,7 @@ ht-degree: 0%
 - [Erstellen und Verwalten von Sammlungen von Entscheidungselementen](help/using/experience-decisioning/collections.md) - 7. November
 - [Kontextdaten](help/using/experience-decisioning/context-data.md) - 7. November
 - [Erste Schritte mit Entscheidungsrichtlinien](help/using/experience-decisioning/create-decision.md) - 7. November
-- [Erste Schritte mit Experience &#x200B;](help/using/experience-decisioning/gs-experience-decisioning.md) - 7. November
+- [Erste Schritte mit Experience ](help/using/experience-decisioning/gs-experience-decisioning.md) - 7. November
 - [Entscheidungspunkte](help/using/experience-decisioning/items.md) - 7. November
 - [Decisioning-Rangfolgenmethoden](help/using/experience-decisioning/ranking/ranking.md) - 7. November
 - [Regeln erstellen](help/using/experience-decisioning/rules.md) - 7. November
@@ -154,7 +154,7 @@ ht-degree: 0%
 - [Verwenden der Action Journey-Aktivität](help/using/building-journeys/journey-action.md) - 14. Oktober
 - [Journey anhalten](help/using/building-journeys/journey-pause.md) - 13. Oktober
 - [Erste Schritte mit Journey](help/using/building-journeys/journey.md) - 27. Oktober
-- [Hinzufügen einer integrierten Kanalaktion zu einer Journey](help/using/building-journeys/journeys-message.md) - 29. Oktober
+- [Hinzufügen einer integrierten Kanalaktion zu einer Journey](help/using/building-journeys/journey-action.md) - 29. Oktober
 - [Aktivität optimieren](help/using/building-journeys/optimize.md) - 22. Oktober
 - [Zielgruppe auf einer Journey verwenden](help/using/building-journeys/read-audience.md) - 17. Oktober
 - [Optimierung des Versandzeitpunkts](help/using/building-journeys/send-time-optimization.md) - 28. Oktober
@@ -165,7 +165,7 @@ ht-degree: 0%
 - [Definieren der API-ausgelösten Kampagneneigenschaften](help/using/campaigns/api-triggered-campaign-properties.md) - 23. Oktober
 - [Arbeiten mit API-ausgelösten Kampagnen](help/using/campaigns/api-triggered-campaigns.md) - 29. Oktober
 - [Konfigurieren der Kampagnenaktion](help/using/campaigns/campaign-action.md) - 29. Oktober
-- [Optimierung in Kampagnen und Journey &#x200B;](help/using/content-management/gs-message-optimization.md) - 22. Oktober
+- [Optimierung in Kampagnen und Journey ](help/using/content-management/gs-message-optimization.md) - 22. Oktober
 - [Erstellen einer Aktionskampagne](help/using/campaigns/create-campaign.md) - 29. Oktober
 - [Erste Schritte mit Kampagnen](help/using/campaigns/get-started-with-campaigns.md) - 29. Oktober
 - [Zugreifen auf und Verwalten von Kampagnen](help/using/campaigns/manage-campaigns.md) - 23. Oktober
@@ -178,9 +178,9 @@ ht-degree: 0%
 - [Arbeiten mit Regelsätzen](help/using/conflict-prioritization/rule-sets.md) - 27. Oktober
 - [Erstellen eines Inhaltsexperiments](help/using/content-management/content-experiment.md) - 15. Oktober
 - [Erstellen eines Fragments](help/using/content-management/create-fragments.md) - 7. Oktober
-- [Verwalten von &#x200B;](help/using/content-management/manage-fragments.md)) 7. Oktober
+- [Verwalten von ](help/using/content-management/manage-fragments.md)) 7. Oktober
 - [Beispiele für Datensatzabfragen](help/using/data/datasets-query-examples.md) - 17. Oktober
-- [Über Leitplanken für die Time-to-Live (TTL) von &#x200B;](help/using/data/datasets-ttl.md)-28. Oktober
+- [Über Leitplanken für die Time-to-Live (TTL) von ](help/using/data/datasets-ttl.md)-28. Oktober
 - [Erstellen einer Briefpostnachricht](help/using/direct-mail/create-direct-mail.md) - 15. Oktober
 - [Entwerfen barrierefreier Inhalte](help/using/email/accessible-content.md) - 25. Oktober
 - [Verwenden von E-Mail-Designer-Inhaltskomponenten](help/using/email/content-components.md) - 25. Oktober

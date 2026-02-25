@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '2189'
-ht-degree: 64%
+source-wordcount: '2188'
+ht-degree: 65%
 
 ---
 
@@ -49,7 +49,7 @@ Um Ihren Kundinnen und Kunden das beste dynamische Angebot und Erlebnis zu biete
 
 ## Hinzufügen einer Entscheidungsrichtlinie {#add}
 
-Um eine Entscheidungsrichtlinie zu Ihrer Nachricht hinzuzufügen, öffnen Sie eine Journey oder Kampagne und wählen Sie eine [Kanalaktion](../building-journeys/journeys-message.md) aus.
+Öffnen Sie eine Journey oder Kampagne, wählen Sie eine [Kanalaktion](../building-journeys/journey-action.md) aus und bearbeiten Sie den Inhalt Ihrer Nachricht.
 
 Bearbeiten Sie den Inhalt Ihrer Nachricht und navigieren Sie zu den folgenden Registerkarten, um weitere Informationen zum Hinzufügen der Entscheidungsrichtlinie basierend auf dem ausgewählten Kanal zu erhalten.
 

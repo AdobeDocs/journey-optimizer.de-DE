@@ -9,8 +9,8 @@ role: Developer, Admin
 level: Intermediate
 keywords: Kampagne, Standard, Integration, Begrenzung, Aktion
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Wenn Sie über Adobe Campaign Standard verfügen, haben Sie Zugriff auf eine int
 
 Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müssen veröffentlicht werden, damit sie in Journey Optimizer verwendet werden können. Wenn das Ereignis veröffentlicht wird, die Nachricht jedoch nicht, wird sie nicht in der Benutzeroberfläche von Journey Optimizer angezeigt. Wenn die Nachricht veröffentlicht wird, das zugehörige Ereignis jedoch nicht, wird sie in der Benutzeroberfläche von Journey Optimizer angezeigt, sie kann jedoch nicht verwendet werden.
 
-## Schutzmechanismen und Einschränkungen {#important-notes}
+## Leitlinien und Einschränkungen {#important-notes}
 
 * Für Adobe Campaign Standard-Aktionen ist automatisch eine Begrenzungsregel von 4.000 Aufrufen pro 5 Minuten definiert. Lesen Sie mehr über Service-Level-Vereinbarungen für Transaktionsnachrichten in der [Produktbeschreibung von Adobe Campaign Standard](https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html){target="_blank"}.
 
@@ -30,7 +30,7 @@ Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müs
 
 * Sie können eine Campaign Standard-Aktion nicht mit den Aktivitäten „Zielgruppen-Qualifizierung“ oder „Zielgruppe lesen“ verwenden.
 
-* Eine Journey kann nicht sowohl [integrierte Kanalaktionen](../building-journeys/journeys-message.md) als auch [Campaign Standard-Aktionen](../building-journeys/using-adobe-campaign-standard.md) verwenden.
+* Eine Journey kann nicht sowohl [integrierte Kanalaktionen](../building-journeys/journey-action.md) als auch [Campaign Standard-Aktionen](../building-journeys/using-adobe-campaign-standard.md) verwenden.
 
 ## Konfigurieren der Aktion {#configure-action}
 

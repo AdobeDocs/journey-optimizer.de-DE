@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 73%
+source-wordcount: '717'
+ht-degree: 72%
 
 ---
 
@@ -43,7 +43,7 @@ Orchestrierungsaktivitäten sind Bedingungen, die bei der Bestimmung des nächst
 
 In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchestrierungsaktivitäten zur Verfügung:
 
-<!--* [Optimize](optimize.md)-->
+* [Optimieren](optimize.md)
 * [Zielgruppe lesen](read-audience.md)
 * [Warten](wait-activity.md)
 * [Inhaltsentscheidung](content-decision.md)
@@ -57,7 +57,7 @@ Aktionen sind das Ergebnis eines Auslösers, wie das Senden einer Nachricht. Sie
 
 In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTROL Ereignisse]** und **[!UICONTROL Orchestrierung]** die Kategorie **[!UICONTROL Aktionen]**. Folgende Aktionsaktivitäten sind verfügbar:
 
-* [Integrierte Kanalaktionen](../building-journeys/journeys-message.md)
+* [Integrierte Kanalaktionen](../building-journeys/journey-action.md) verfügbar über die Aktivität **Aktion** .
 * [Benutzerdefinierte Aktionen](../building-journeys/using-custom-actions.md)
 * [Sprung](../building-journeys/jump.md)
 
@@ -111,7 +111,7 @@ In bestimmten Kontexten können Sie die Werte dieser Parameter für eine bestimm
 
 ### Hinzufügen eines alternativen Pfads
 
-Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey des Kontakts gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
+Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey des Kontakts gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
 ![Option „Alternativen Pfad hinzufügen“ in den Eigenschaften der Bedingungsaktivität](assets/journey42.png)
 
@@ -121,4 +121,4 @@ Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey 
 
 [Auf dieser Seite](troubleshooting.md) erfahren Sie, wie Sie Fehler in Aktivitäten und in der Journey beheben.
 
-Siehe auch **[Monitoring und Fehlerbehebung](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**.
+Siehe auch [Überwachung und Fehlerbehebung](../../rp_landing_pages/troubleshoot-journey-landing-page.md)

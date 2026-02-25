@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 97%
+source-wordcount: '1619'
+ht-degree: 91%
 
 ---
 
@@ -45,7 +45,13 @@ Um einer Journey eine Aktivität **Web** hinzuzufügen, gehen Sie folgendermaße
 
 1. Beginnen Sie Ihre Journey mit einem [Ereignis](../building-journeys/general-events.md) oder einer Aktivität vom Typ [Zielgruppe lesen](../building-journeys/read-audience.md).
 
-1. Ziehen Sie aus dem Abschnitt **[!UICONTROL Aktionen]** der Palette eine Aktivität **[!UICONTROL Web]** und legen Sie sie ab.
+1. Ziehen Sie eine Aktivität **[!UICONTROL Aktion]** per Drag-and-Drop aus dem Abschnitt **[!UICONTROL Aktionen]** der Palette. Weitere Informationen über die [Aktionsaktivität](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Da nun über die Aktivität Aktion auf alle nativen Kanäle zugegriffen werden kann, werden alte native Kanalaktivitäten mit der März-Version eingestellt. Vorhandene Journey mit Legacy-Aktionen funktionieren weiterhin wie bisher - es ist keine Migration erforderlich.
+
+1. Wählen **[!UICONTROL als]** „Web“ aus.
 
    ![](assets/web-activity-journey.png)
 
@@ -53,19 +59,21 @@ Um einer Journey eine Aktivität **Web** hinzuzufügen, gehen Sie folgendermaße
    >
    >Da es sich bei **Web** um eine Aktivität für eingehende Erlebnisse handelt, geht sie mit einer 3-tägigen **Warteaktivität** einher. [Weitere Informationen](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Geben Sie ein **[!UICONTROL Label]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
+1. Geben Sie einen **[!UICONTROL Titel]** ein, um Ihre Aktion auf der Journey-Arbeitsfläche zu identifizieren.
 
-1. Wählen oder erstellen Sie die [Web-Konfiguration](web-configuration.md), die Sie verwenden möchten.
+1. Klicken Sie auf **[!UICONTROL Schaltfläche „Aktion konfigurieren]**.
+
+1. Sie werden zur Registerkarte **[!UICONTROL Aktionen]** geleitet. Wählen oder erstellen Sie dort die [Web-Konfiguration](web-configuration.md) die verwendet werden soll.
 
    ![](assets/web-activity-configuration.png)
 
+1. Sie können eine oder mehrere eingehende Aktionen zu Ihrem Web-Erlebnis hinzufügen, indem Sie auf die Schaltfläche **[!UICONTROL Aktion hinzufügen]** klicken. [Weitere Informationen](../building-journeys/journey-action.md#multi-action)
+
+1. Zurück zur Journey-Arbeitsfläche. Schließen Sie bei Bedarf Ihren Journey-Fluss ab, indem Sie zusätzliche Aktionen oder Ereignisse per Drag-and-Drop verschieben. [Weitere Informationen](../building-journeys/about-journey-activities.md)
+
 1. Wählen Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** und bearbeiten Sie Ihren Inhalt wie gewünscht. [Weitere Informationen](#edit-web-content)
 
-1. Schließen Sie bei Bedarf Ihren Journey-Fluss ab, indem Sie zusätzliche Aktionen oder Ereignisse per Drag-and-Drop verschieben. [Weitere Informationen](../building-journeys/about-journey-activities.md)
-
-1. Sobald Ihr Web-Erlebnis fertig ist, schließen Sie die Konfiguration ab und veröffentlichen Ihre Journey, um sie zu aktivieren. [Weitere Informationen](../building-journeys/publish-journey.md)
-
-Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
+Weitere Informationen zum Erstellen, Konfigurieren und Veröffentlichen einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
 >[!TAB Erstellen einer Web-Kampagne]
 
@@ -216,7 +224,7 @@ Ihre Web-Journey erhält den Status **[!UICONTROL Live]** und ist jetzt schreibg
 
 ### Aktivieren einer Web-Kampagne {#activate-web-campaign}
 
-Nachdem Sie Ihre Web-Kampagneneinstellungen festgelegt und Ihren Inhalt wie gewünscht bearbeitet haben, können Sie Ihre Web-Kampagne überprüfen und aktivieren. Führen Sie dazu folgende Schritte durch.
+Nachdem Sie Ihre Web-Kampagneneinstellungen festgelegt und Ihren Inhalt wie gewünscht bearbeitet haben, können Sie Ihre Web-Kampagne überprüfen und aktivieren. Gehen Sie wie folgt vor.
 
 1. Wählen Sie in Ihrer Web-Kampagne die Option **[!UICONTROL Zur Aktivierung überprüfen]** aus.
 
@@ -230,19 +238,19 @@ Nachdem Sie Ihre Web-Kampagneneinstellungen festgelegt und Ihren Inhalt wie gew�
    >
    >Weitere Informationen zur Aktivierung von Kampagnen finden Sie in [diesem Abschnitt](../campaigns/review-activate-campaign.md).
 
-Ihre Web-Kampagne nimmt den **[!UICONTROL Live]**&#x200B;[&#x200B; Status](../campaigns/manage-campaigns.md#statuses) und ist jetzt für die ausgewählte Audience sichtbar. Alle Empfängerinnen und Empfänge Ihrer Kampagne können die Änderungen sehen, die Sie an Ihrer Website vorgenommen haben.
+Ihre Web-Kampagne geht in den [Status](../campaigns/manage-campaigns.md#statuses) **[!UICONTROL Live]** über und ist nun für die ausgewählte Zielgruppe sichtbar. Alle Empfängerinnen und Empfänge Ihrer Kampagne können die Änderungen sehen, die Sie an Ihrer Website vorgenommen haben.
 
 >[!NOTE]
 >
 >Nachdem Sie auf **[!UICONTROL Aktivieren]** geklickt haben, kann es bis zu 15 Minuten dauern, bis Web-Kampagnenänderungen auf Ihrer Website live sind.
 >
->Wenn Sie einen Zeitplan für Ihre Web-Kampagne definiert haben, hat sie den **[!UICONTROL Geplant]** [Status](../campaigns/manage-campaigns.md#statuses) bis das Startdatum und die Startzeit erreicht sind.
+>Wenn Sie einen Zeitplan für Ihre Web-Kampagne definiert haben, hat sie den [Status](../campaigns/manage-campaigns.md#statuses) **[!UICONTROL Geplant]**, bis das Startdatum und die Startzeit erreicht werden.
 
 Sobald Ihr Erlebnis live ist, können Sie Ihre Web-Journeys und -Kampagnen überwachen. [Weitere Informationen](monitor-web-experiences.md)
 
 ## Stoppen einer Web-Journey oder Kampagne {#stop-web-experience}
 
-Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu verhindern, dass Ihre Zielgruppe Ihre Änderungen sieht. Führen Sie dazu folgende Schritte durch.
+Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu verhindern, dass Ihre Zielgruppe Ihre Änderungen sieht. Gehen Sie wie folgt vor.
 
 1. Wählen Sie eine Live-Journey oder -Kampagne aus der entsprechenden Liste aus.
 
@@ -266,4 +274,4 @@ Wenn eine Web-Journey oder Kampagne live ist, können Sie diese stoppen, um zu v
 
 Im folgenden Video erfahren Sie, wie Sie eine Web-Kampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449990/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

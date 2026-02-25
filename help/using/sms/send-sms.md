@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: d6a46a6db9bcef4def71e915389d725c69d851c3
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 81%
@@ -76,4 +76,4 @@ Wenn Ihre Textnachricht fertig ist, schließen Sie die Konfiguration Ihrer [Jour
 * [Konfigurieren des SMS-Kanals](sms-configuration.md)
 * [SMS- und MMS-Berichte](../reports/journey-global-report-cja-sms.md)
 * [Erstellen einer Textnachricht](create-sms.md)
-* [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
+* [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journey-action.md)
