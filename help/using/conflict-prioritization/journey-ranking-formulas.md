@@ -182,7 +182,7 @@ Gehen Sie wie folgt vor, um den Regelsatz einer Journey zuzuweisen.
 
 Alle Journey, die diesen Regelsatz verwenden, werden bei der Anwendung der Begrenzung nach der ausgewählten Formel gereiht.
 
-Informationen zur Überwachung der Leistung Ihrer Regelsätze und Rangfolgenformeln finden Sie im Abschnitt [Journey-Begrenzung und ](../reports/channel-report-cja.md#rule-sets)Konflikte“ im Übersichtsbericht.
+Informationen zur Überwachung der Leistung Ihrer Regelsätze und Rangfolgenformeln finden Sie im Abschnitt [Journey-Begrenzung und &#x200B;](../reports/channel-report-cja.md#rule-sets)Konflikte“ im Übersichtsbericht.
 
 <!--
 ## Reporting {#reporting}
