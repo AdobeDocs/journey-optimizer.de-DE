@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 98%
@@ -32,6 +32,8 @@ Um eine E-Mail in [!DNL Journey Optimizer] zu erstellen, fügen Sie eine **[!UIC
 >[!TAB Hinzufügen einer E-Mail zu einer Journey]
 
 1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL E-Mail]**-Aktivität per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
+
+   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
 
 1. Geben Sie allgemeine Informationen zu Ihrer Nachricht an (Label, Beschreibung, Kategorie).
 
@@ -164,7 +166,7 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 Sobald Ihr Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen die Vorschau anzeigen, Testsendungen durchführen und das Rendering in beliebten Desktop-, Mobile- und Web-basierten Clients steuern. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
 
-Sie können auch die Qualität Ihrer Inhalte überprüfen, um Lesbarkeit, Effektivität und Inhaltskohärenz zu bewerten. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](../content-management/brands-score.md#validate-quality)
+Sie können auch die Qualität Ihrer Inhalte überprüfen, um Lesbarkeit, Effektivität und Inhaltskohärenz zu bewerten. [Weitere Informationen zur Validierung der Inhaltsqualität](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >
