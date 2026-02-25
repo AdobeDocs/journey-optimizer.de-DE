@@ -202,7 +202,7 @@ Erfahren Sie, wie Sie SMS-Nachrichten konfigurieren, erstellen und in Ihre Journ
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422692?captions=ger&learn=on)
 
 +++
 
@@ -212,7 +212,7 @@ Entdecken Sie die umfassenden Mobile-Messaging-Funktionen, die Adobe Journey Opt
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430371?captions=ger&quality=12&learn=on)
 
 +++
 
@@ -222,7 +222,7 @@ Finden Sie heraus, wie Sie in Adobe Journey Optimizer an Ihre Marke angepasste, 
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3464755)
+>[!VIDEO](https://video.tv.adobe.com/v/3464764?captions=ger)
 
 +++
 

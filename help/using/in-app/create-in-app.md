@@ -246,7 +246,7 @@ Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne
 
   +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451891?captions=ger&quality=12&learn=on)
 
   +++
 
@@ -254,7 +254,7 @@ Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne
 
   +++Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445297/?captions=ger&learn=on&autoplay=true)
 
   +++
 
