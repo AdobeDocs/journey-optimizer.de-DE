@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '896'
+ht-degree: 73%
 
 ---
 
@@ -26,6 +26,7 @@ Die Berichtseite wird mit den folgenden Registerkarten angezeigt:
 * [Journeys](#journey)
 * [Kampagnen](#campaign)
 * [Kanäle](#channel)
+* [Regelsätze](#rule-sets)
 
 Weitere Informationen zu Customer Journey Analytics Workspace und zum Filtern und Analysieren von Daten finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home).
 
@@ -132,3 +133,27 @@ Anhand der Tabelle **[!UICONTROL Ausgehende Fehler]** können Sie die genauen Fe
 ![](assets/cja-channels-outbound-excluded.png)
 
 Die Tabelle **[!UICONTROL Ausgehende Ausschlüsse]** bietet einen umfassenden Überblick über die verschiedenen Faktoren, die zum Ausschluss von Benutzerprofilen aus der Zielgruppe geführt haben, sodass die Nachricht nicht empfangen wurde.
+
+## Journey-Begrenzung und Konflikte {#rule-sets}
+
+Die Tabelle **[!UICONTROL Journey-Begrenzung und -Konflikte]** bietet Einblicke in die Leistung von Journey-Schlichtungsregelsätzen, in denen die Ein- und Ausstiege von Journey basierend auf den Begrenzungsregeln und den auf Ihre Journey angewendeten Prioritätswerten angezeigt werden.
+
++++ Weitere Informationen zu Regelsatzmetriken
+
+Die Spalte **[!UICONTROL Journey-Einträge nach Regelsatz]** zeigt die Anzahl der Profile an, die die Journey betreten haben. Es gibt drei Arten von Eingängen:
+
+* ****[!UICONTROL Kein Konflikt]****: Das Profil ist ohne Regelsatzkonflikte auf die Journey gelangt. Keine aktiven Regelsätze verhinderten diese Eingabe, und der Journey-Eintrag erfolgte unabhängig von den Schlichtungsregeln.
+
+* **Höhere Priorität**: Das Profil ist auf die Journey gelangt, da es eine höhere Priorität hat als andere konkurrierende Journey. Obwohl ein Konflikt aufgetreten ist (das Profil hat sich für mehrere Journey qualifiziert), wurde diese Journey aufgrund ihres höheren Prioritätswerts ausgewählt.
+
+* **Nicht erzwungen**: Das Profil ist auf die Journey gelangt, aber der Regelsatz war zum Zeitpunkt der Eingabe nicht aktiv oder wurde nicht auf diesen Journey-Eintrag angewendet.
+
+Die Spalte **[!UICONTROL Ausschlüsse]** zeigt die Anzahl der Profile an, die von der Eingabe der Journey ausgeschlossen wurden. Profile können aus zwei Gründen ausgeschlossen werden:
+
+* **Begrenzung erreicht**: Das Profil hat die maximale Anzahl von Journey-Einträgen oder gleichzeitigen Journey erreicht, die von der Begrenzungsregel zulässig ist.
+
+* **Niedrigere Priorität**: Die Obergrenze wurde nicht erreicht, aber andere Journey mit höherer Priorität erfüllen die Anforderungen. Das Profil wurde von dieser Journey ausgeschlossen und stattdessen in eine Journey mit höherer Priorität aufgenommen.
+
++++
+
+➡️ [Erfahren Sie mehr über Journey-Begrenzung und Schlichtung](../conflict-prioritization/journey-capping.md)
