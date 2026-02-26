@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '965'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1036'
+ht-degree: 92%
 
 ---
 
@@ -50,9 +50,11 @@ Damit [Marketing-Fachleute](marketer.md) Nachrichten erstellen und senden könne
 
 Führen Sie folgende Schritte aus:
 
-1. **Richten Sie Kanalkonfigurationen ein**. Definieren Sie alle technischen Parameter, die für E-Mail, SMS, Push-Benachrichtigungen und andere Kanäle erforderlich sind:
+1. **Richten Sie Kanalkonfigurationen ein**. Definieren Sie alle technischen Parameter, die für E-Mail, SMS, Push-Benachrichtigungen, Web-Push, Briefpost und andere Kanäle erforderlich sind:
 
    * Definieren Sie **Push-Benachrichtigungseinstellungen** sowohl in [!DNL Adobe Experience Platform] als auch in der Datenerfassung von Adobe Experience Platform. [Weitere Informationen](../../push/push-gs.md)
+
+   * Konfigurieren Sie **Web-Push** Benachrichtigungen), um Benachrichtigungen an mobile und Desktop-Browser zu senden. [Weitere Informationen](../../push/push-configuration-web.md)
 
    * Erstellen Sie **Kanalkonfigurationen**, um alle technischen Parameter zu konfigurieren, die für E-Mail, SMS, Push, In-App, Web und andere Kanäle erforderlich sind. [Weitere Informationen](../../configuration/channel-surfaces.md)
 
@@ -60,7 +62,9 @@ Führen Sie folgende Schritte aus:
 
    * Verwalten Sie die Anzahl der Tage, in denen **weitere Zustellversuche** unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](../../configuration/manage-suppression-list.md)
 
-1. **Subdomains zuweisen**: Für jede neue Subdomain, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zuzuweisen. [Weitere Informationen](../../configuration/about-subdomain-delegation.md)
+   * Aktivieren Sie **Nachrichtenexport** auf der Ebene der Kanalkonfiguration, um gesendete E-Mail- und SMS-Inhalte bei Bedarf zu archivieren (Add-on-Angebot). [Weitere Informationen](../../configuration/message-export.md)
+
+1. **Subdomains zuweisen**: Für jede neue Subdomain, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zuzuweisen. [Weitere Informationen](../../configuration/about-subdomain-delegation.md). Sie können bei Bedarf Subdomains von CNAME zu benutzerdefinierter Delegierung migrieren. [Weitere Informationen](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 
@@ -87,6 +91,8 @@ Berücksichtigen Sie bei wachsenden Anforderungen Ihres Unternehmens die folgend
 * **Data-Governance-Richtlinien**: Wenden Sie Datennutzungs-Labels und -richtlinien an, um zu steuern, wie Daten in Marketing-Aktionen verwendet werden. [Weitere Informationen](../../action/action-privacy.md)
 
 * **IP-Aufwärmpläne**: Steigern Sie die Menge der E-Mail-Sendungen schrittweise, um die Reputation der Absendenden bei E-Mail-Anbietern aufzubauen. [Weitere Informationen](../../configuration/ip-warmup-gs.md)
+
+* **Ruhezeiten**: Konfigurieren von Regelsätzen für zeitbasierte Ausschlüsse, wenn Nachrichten während bestimmter Zeiträume nicht gesendet werden sollen. [Weitere Informationen](../../conflict-prioritization/quiet-hours.md)
 
 ## Rollenübergreifendes Zusammenarbeiten
 

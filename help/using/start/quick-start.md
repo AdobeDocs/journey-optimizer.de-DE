@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
-workflow-type: ht
-source-wordcount: '1724'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1831'
+ht-degree: 88%
 
 ---
 
@@ -54,7 +54,7 @@ Eine erfolgreiche Journey Optimizer-Implementierung folgt normalerweise dieser S
    Die bzw. der Admin richtet die Grundlage ein, indem sie bzw. er Sandboxes konfiguriert, Zugriffssteuerungen einrichtet und Kanalkonfigurationen vorbereitet. Dies muss zuerst geschehen, damit andere Teams arbeiten können.
    * Konfigurieren der Entwicklungs-, Staging- und Produktions-Sandbox
    * Einrichten von Rollen, Berechtigungen und Zugriffssteuerung auf Objektebene (OLAC)
-   * Konfigurieren von Kanalkonfigurationen (E-Mail, SMS, Push, In-App, Web, Inhaltskarten)
+   * Konfigurieren von Kanalkonfigurationen (E-Mail, SMS, Push, Web-Push, In-App, Web, Briefpost, Inhaltskarten)
    * Delegieren von Subdomains und Einrichten von IP-Pools
    * Konfigurieren von Unterdrückungslisten und Einverständnisrichtlinien
 
@@ -70,9 +70,10 @@ Eine erfolgreiche Journey Optimizer-Implementierung folgt normalerweise dieser S
 3. **Entwickelnde**: Implementieren technische Integrationen\
    Entwicklerinnen und Entwickler verbinden Anwendungen mit Journey Optimizer, indem sie SDKs integrieren, Ereignisse senden und API-Endpunkte erstellen. Diese Implementierungen ermöglichen das Auslösen und Ausführen von Journeys.
    * Integrieren von Mobile SDK (iOS/Android) mit der Einrichtung von Push-Benachrichtigungen
-   * Implementieren von Web SDK für Web-Erlebnisse
+   * Implementieren von Web SDK für Web-Erlebnisse und Web-Push-Benachrichtigungen
    * Senden von Ereignissen aus Anwendungen zum Auslösen von Journeys
    * Erstellen benutzerdefinierter Aktionsendpunkte für Integrationen externer Systeme
+   * Überwachen des Zustands und der Leistung benutzerdefinierter Aktionen
    * Testen von Implementierungen mit Adobe Experience Platform Assurance
 
 4. **Marketing-Fachleute**: Entwerfen Kundenerlebnisse und führen sie aus\
@@ -95,15 +96,16 @@ Als Marketing-Fachkraft oder Business-Anwenderin bzw. -Anwender entwerfen Sie Cu
 
 **Wichtige Funktionen, die Sie dabei verwenden:**
 
-* **Journey-Orchestrierung**: Erstellen Sie Eins-zu-eins-Kundeninteraktionen in Echtzeit, bei denen sich jede Person in ihrem eigenen Tempo bewegt, ausgelöst durch Verhalten oder Ereignisse über alle Kanäle hinweg.
-* **Kampagnenorchestrierung**: Entwerfen und automatisieren Sie komplexe, mehrstufige Batch-Kampagnen im benötigten Umfang mithilfe einer visuellen Arbeitsfläche. Perfekt für markenkonforme Kampagnen wie saisonale Werbeaktionen, Produkteinführungen und kontobasierte Kommunikation. Nutzen Sie Segmentierung in mehrere Entitäten, um präzise Zielgruppen durch die Verknüpfung von Kundendaten mit zugehörigen Entitäten (Konten, Käufe, Buchungen) zu erstellen.
+* **Journey Orchestration**: Erstellen Sie Eins-zu-eins-Kundeninteraktionen in Echtzeit, bei denen sich jede Person in ihrem eigenen Tempo bewegt, ausgelöst durch Verhalten oder Ereignisse kanalübergreifend. Verwenden Sie die einheitliche Aktionsaktivität für alle Kanalaktionen, die Inhaltsentscheidungsaktivität zum Integrieren von Angeboten in Journey und Journey Agent zum Erstellen von Journey aus Eingabeaufforderungen in natürlicher Sprache
+* **Kampagnenorchestrierung**: Entwerfen und automatisieren Sie komplexe, mehrstufige Batch-Kampagnen im benötigten Umfang mithilfe einer visuellen Arbeitsfläche. Perfekt für markenkonforme Kampagnen wie saisonale Werbeaktionen, Produkteinführungen und kontobasierte Kommunikation. Nutzen Sie die Segmentierung mehrerer Entitäten, um präzise Zielgruppen zu erstellen, indem Sie Kundendaten mit verwandten Entitäten (Konten, Käufe, Buchungen) verbinden. Versand von Nachrichten in kontrollierten Batches verwenden
 * **Moderner Nachrichten-Designer**: Gestalten und personalisieren Sie E-Mail- und Mobile-Nachrichten mit einer Drag-and-Drop-Oberfläche. Bearbeiten Sie vorkonfigurierte Vorlagen zur Beschleunigung der Markteinführungszeit.
-* **Entscheidungs-Management**: Erstellen und verwalten Sie in einer zentralen Bibliothek Angebote, Eignungsregeln und andere Komponenten, die in E-Mails und Kundenkontaktpunkte eingebettet werden können.
+* **Entscheidungs-Management**: Erstellen und verwalten Sie Angebote, Eignungsregeln und andere Komponenten in einer zentralen Bibliothek, die in E-Mails und Kunden-Touchpoints eingebettet werden kann. Verwenden von Decisioning für die Push- und SMS-Personalisierung
 * **Asset-Management**: Greifen Sie auf Adobe Experience Manager Assets Essentials zu, das vollständig in Journey Optimizer eingebettet ist, für optimierten Asset-Zugriff und optimierte Asset-Bereitstellung.
 * **Zielgruppendefinition**: Erstellen Sie On-Demand-Zielgruppen mit sofortiger Verfeinerung mithilfe relationaler Abfragen und Sichtbarkeit vor dem Versand für eine genaue Zielgruppengröße.
 * **KI/ML-Dienste**: Nutzen Sie Versandzeitoptimierung und prädiktive Interaktionswerte, um lukrative Kundinnen und Kunden anzusprechen und das Abwanderungsrisiko zu minimieren.
+* **Versandkontrolle**: Verwenden Sie ruhige Stunden (zeitbasierte Ausschlüsse) und Konfliktmanagement, um Kundenpräferenzen zu respektieren und Überkommunikation zu verhindern
 
-**Erster Schritt::** Verwenden von Anwendungsfallvorlagen und Assistenten zur einfachen Erstellung und Bereitstellung neuer Customer Journeys.
+**Erste Schritte mit:** Anwendungsfallvorlagen und Assistenten zur einfachen Erstellung und Bereitstellung neuer Kunden-Journey. Verwenden Sie Journey Agent, um Journey aus Eingabeaufforderungen in natürlicher Sprache zu erstellen.
 
 [Erste Schritte als Marketing-Fachkraft →](path/marketer.md)
 
@@ -135,8 +137,9 @@ Als Admin richten Sie die Journey Optimizer-Umgebung ein, damit Ihre Teams effiz
 * **Benutzerverwaltung**: Richten Sie Benutzergruppen und Berechtigungen ein, um den Zugriff auf verschiedene Funktionen zu steuern.
 * **Kanaleinrichtung**: Konfigurieren Sie Versandkanäle und Nachrichtenvoreinstellungen, um ein konsistentes Branding für alle über Journey Optimizer bereitgestellten Nachrichten und Assets sicherzustellen.
 * **Sicherheit und Governance**: Wenden Sie die Zugriffssteuerung auf Objektebene (OLAC) an, konfigurieren Sie Einverständnisrichtlinien und implementieren Sie Data-Governance-Richtlinien.
-* **Zustellbarkeit**: Delegieren Sie Subdomains, erstellen Sie IP-Pools und verwalten Sie Unterdrückungs- und Zulassungslisten.
+* **Zustellbarkeit**: Subdomains delegieren, Subdomains bei Bedarf zur benutzerdefinierten Zuweisung migrieren, IP-Pools erstellen und Unterdrückungslisten und Zulassungslisten verwalten
 * **Journey-Konfigurationen**: Richten Sie Journey-Elemente und -Konfigurationen für Ihre Teams ein.
+* **Kanalkonfiguration**: Konfigurieren von Web-Push-Benachrichtigungen, Briefpost und Nachrichtenexport (E-Mail/SMS), falls erforderlich
 
 **Erster Schritt:** Konfigurieren von Sandboxes und Benutzerberechtigungen und Einrichten der ersten Kanalkonfigurationen und Nachrichtenvoreinstellungen.
 
@@ -207,7 +210,7 @@ Erfolgreiche Journey Optimizer-Implementierungen erfordern die Zusammenarbeit al
 
 Weitere Informationen zu den wichtigsten Funktionen und Personas von Journey Optimizer finden Sie im Einführungsvideo. Das Video führt Sie durch die Benutzeroberfläche und hebt je nach rollenspezifischen Workflows zentrale Funktionen hervor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432377?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Weitere Ressourcen
 

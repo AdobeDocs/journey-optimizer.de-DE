@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '898'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 95%
 
 ---
 
@@ -44,6 +44,8 @@ Führen Sie die folgenden Schritte aus, um die Datengrundlage für Journey Optim
 1. **Erstellen von Testprofilen**. Testprofile sind bei Verwendung des [Testmodus](../../building-journeys/testing-the-journey.md) in einer Journey und [für eine Vorschau sowie zum Testen von Nachrichten](../../content-management/preview-test.md) vor dem Versand erforderlich. Die Schritte zum Erstellen von Testprofilen werden [auf dieser Seite](../../audience/creating-test-profiles.md) beschrieben.
 
 1. **Konfigurieren Sie berechnete Attribute** (optional). Erstellen Sie abgeleitete Attribute aus Profildaten, um die Segmentierung und Personalisierung zu vereinfachen. Berechnete Attribute berechnen automatisch komplexe Metriken wie „Käufe in den letzten 90 Tagen insgesamt“ oder „Durchschnittlicher Bestellwert“. Erfahren Sie mehr über [berechnete Attribute](../../audience/computed-attributes.md).
+
+1. **Nachrichtenexport-Datensätze** (optional). Wenn der Nachrichtenexport auf der Kanalkonfigurationsebene aktiviert ist, werden gesendete E-Mail- und SMS-Inhalte automatisch in einen dedizierten Experience Platform-Datensatz exportiert, um die Einhaltung der Vorschriften zu gewährleisten, die Archivierung zu ermöglichen oder nachgelagerte Analysen durchzuführen. Informationen zum [Nachrichtenexport](../../configuration/message-export.md).
 
 Um Nachrichten in Journeys senden zu können, müssen Sie außerdem **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** konfigurieren. Weiterführende Informationen finden Sie [in diesem Abschnitt](../../configuration/about-data-sources-events-actions.md).
 

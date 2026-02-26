@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
-workflow-type: ht
-source-wordcount: '1476'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1591'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ Als **Marketing-Fachkraft** oder **Business Anwenderin bzw. -Anwender** entwerfe
 
 ## Erste Schritte mit den Grundlagen
 
-Journey Optimizer fasst Echtzeit-Kundenerkenntnisse, moderne Omni-Channel-Orchestrierung und intelligente Entscheidungen in einer einzigen Anwendung zusammen. Erstellen Sie personalisierte, vernetzte Kundenerlebnisse für E-Mail, SMS, Push, In-App, Web, Inhaltskarten und mehr.
+Journey Optimizer fasst Echtzeit-Kundenerkenntnisse, moderne Omni-Channel-Orchestrierung und intelligente Entscheidungen in einer einzigen Anwendung zusammen. Personalisierte, vernetzte Kundenerlebnisse für E-Mail, SMS, Push, Web-Push, In-App, Web, Briefpost, Inhaltskarten und mehr erstellen.
 
 Journey Optimizer bietet zwei leistungsstarke Orchestrierungsansätze:
 
@@ -33,7 +33,7 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
 1. **Erstellen von Zielgruppen**. Erstellen Sie Zielgruppen über Segmentdefinitionen, laden Sie CSV-Dateien hoch oder verwenden Sie die Zielgruppenkomposition. Journey Optimizer bietet mehrere Möglichkeiten, die richtigen Kundinnen und Kunden anzusprechen. Erfahren Sie mehr über [Zielgruppen](../../audience/about-audiences.md) und das [Erstellen von Segmentdefinitionen](../../audience/creating-a-segment-definition.md).
 
-1. **Gestalten Sie Inhalte**. Erstellen Sie ansprechende Nachrichten über alle Kanäle hinweg, einschließlich E-Mail, SMS, Push, In-App, Web und Inhaltskarten:
+1. **Gestalten Sie Inhalte**. Erstellen Sie ansprechende Nachrichten über alle Kanäle hinweg, einschließlich E-Mail, SMS, Push, Web-Push, In-App, Web, Briefpost und Inhaltskarten:
    * Verwenden Sie den **KI-Assistenten**, um E-Mail-Inhalte, Betreffzeilen und Bilder basierend auf Ihren Markenrichtlinien zu generieren. [Weitere Informationen zur Generierung von KI-Inhalten](../../content-management/gs-generative.md)
    * **Personalisieren Sie Nachrichten** mit Kundendaten, dynamischen Inhalten und bedingter Logik. [Informationen zur Personalisierung](../../personalization/personalize.md)
    * **Iterieren Sie über kontextuelle Daten**, um dynamische Listen aus Ereignissen, benutzerdefinierten Aktionen und Datensatzsuchen anzuzeigen. [Weitere Informationen zum Iterieren über kontextuelle Daten](../../personalization/iterate-contextual-data.md)
@@ -43,7 +43,7 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
    ![](../assets/perso_ee2.png)
 
-1. **Fügen Sie Angebote und Entscheidungsfindung hinzu**. Senden Sie allen Kundinnen und Kunden mithilfe einer KI-gestützten Entscheidungsfindung zur richtigen Zeit das beste Angebot. Erfahren Sie mehr über [Entscheidungs-Management](../../offers/get-started/starting-offer-decisioning.md) und [Erlebnis-Entscheidung](../../experience-decisioning/gs-experience-decisioning.md).
+1. **Fügen Sie Angebote und Entscheidungsfindung hinzu**. Senden Sie allen Kundinnen und Kunden mithilfe einer KI-gestützten Entscheidungsfindung zur richtigen Zeit das beste Angebot. Verwenden Sie Decisioning, um Push-, SMS- und andere Kanäle zu personalisieren. Erfahren Sie mehr über [Entscheidungs-Management](../../offers/get-started/starting-offer-decisioning.md) und [Erlebnis-Entscheidung](../../experience-decisioning/gs-experience-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
@@ -56,12 +56,15 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
    Erfahren Sie, wie Sie [Nachrichten testen und validieren](../../content-management/preview-test.md).
 
-1. **Erstellen Sie Customer Journeys**. Erstellen Sie personalisierte Erlebnisse in Echtzeit auf der Journey-Arbeitsfläche:
+1. **Erstellen Sie Customer Journeys**. Erstellen Sie personalisierte Erlebnisse in Echtzeit mithilfe der Journey-Arbeitsfläche. Verwenden Sie **Journey Agent** im KI-Assistenten, um Journey aus Eingabeaufforderungen in natürlicher Sprache zu erstellen. [Erfahren Sie mehr über Journey Agent](../ai-features.md#journey-agent)
 
    * Lösen Sie Journeys durch **Ereignisse** (Kundenaktionen) oder **Zielgruppen** (Batch-Sendungen) aus
    * Fügen Sie **Bedingungen** hinzu, um personalisierte Pfade basierend auf Kundendaten zu erstellen
+   * Verwenden Sie die einheitliche **Aktionsaktivität** für alle Kanalaktionen (E-Mail, Push, SMS und mehr). [Erfahren Sie mehr über die Aktionsaktivität](../../building-journeys/journey-action.md)
+   * Fügen Sie die Aktivität **Inhaltsentscheidung** hinzu, um personalisierte Angebote direkt in Ihren Journey-Fluss zu integrieren. [Erfahren Sie mehr über die Aktivität „Inhaltsentscheidung“](../../building-journeys/content-decision.md)
    * Verwenden Sie **Warteaktivitäten**, um ein perfektes Timing zwischen Nachrichten zu erstellen
    * Senden Sie Nachrichten über **mehrere Kanäle** innerhalb einer Journey
+   * Versand **Wave-Versand** zum Versand von Nachrichten in kontrollierten Batches (eingeschränkte Verfügbarkeit für Journey)
    * Wenden Sie **A/B-Tests** an und optimieren Sie die Versandzeiten, um die Interaktion zu maximieren
    * Verwenden Sie die **Datensatzsuche**, um Journeys mit Echtzeitdaten aus Adobe Experience Platform anzureichern. [Weitere Informationen zur Datensatzsuche](../../building-journeys/dataset-lookup.md)
    * Nutzen Sie **zusätzliche Kennungen**, damit dasselbe Profil in mehrere Journey-Instanzen (z. B. verschiedene Bestellungen oder Buchungen) eintreten kann. [Weitere Informationen zu zusätzlichen Kennungen](../../building-journeys/supplemental-identifier.md)
@@ -78,6 +81,7 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
    * Entwerfen Sie **mehrstufige Workflows** für saisonale Werbeaktionen, Produkteinführungen, Treueangebote oder Account-basiertes Marketing
    * Planen Sie Kampagnen für die sofortige Ausführung zu bestimmten Zeiten oder in wiederkehrenden Abständen (täglich, wöchentlich, monatlich)
    * Verarbeiten Sie Zielgruppen im **Batch-Modus**, bei dem sich alle Profile gemeinsam durch den Workflow bewegen
+   * Verwenden Sie **Wave-Versand** um Nachrichten in kontrollierten Batches zu versenden, um die Zustellbarkeit und Lastkontrolle zu verbessern
 
    Erfahren Sie, wie Sie [mit orchestrierten Kampagnen loslegen](../../orchestrated/gs-orchestrated-campaigns.md) und wann Sie [Kampagnen bzw. Journeys verwenden](../../orchestrated/orchestrated-campaigns-faq.md).
 
@@ -86,7 +90,8 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
    * Analysieren Sie die Raten des **Nachrichtenversands** und Interaktionsmetriken
    * Verwenden Sie **Reporting-Dashboards** mit Customer Journey Analytics-Integration
    * Verfolgen Sie **Konversion** und geschäftliche Auswirkungen
-   * Verwalten Sie **Häufigkeit und Priorisierung von Nachrichten** mithilfe von Regeln für das Konflikt-Management, um übermäßige Kommunikation zu vermeiden. [Weitere Informationen zum Konflikt-Management](../../conflict-prioritization/gs-conflict-prioritization.md)
+   * Verwalten Sie **Häufigkeit und Priorisierung von Nachrichten** mithilfe von Regeln für das Konfliktmanagement, um eine Überkommunikation zu verhindern
+   * Verwenden Sie **ruhige Stunden** (zeitbasierte Ausschlüsse), um den Versand während bestimmter Zeiträume zu vermeiden. [Erfahren Sie mehr über Konfliktmanagement](../../conflict-prioritization/gs-conflict-prioritization.md) und [ruhige Stunden](../../conflict-prioritization/quiet-hours.md)
 
    Erfahren Sie, wie Sie [Leistung überwachen](../../reports/report-gs-cja.md).
 
