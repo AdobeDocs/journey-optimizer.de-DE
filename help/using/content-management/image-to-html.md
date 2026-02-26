@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Konvertieren von Bildern in HTML-Vorlagen
-description: Erfahren Sie, wie Sie mit dem KI-gestützten Bild-zu-HTML-Converter Bild-Designs in bearbeitbare HTML-E-Mail-Vorlagen konvertieren können
+title: Konvertieren von Bildern in E-Mail-Inhaltsvorlagen
+description: Erfahren Sie, wie Sie mit dem KI-gestützten Konvertierer für Bilder in HTML Bilddesigns in bearbeitbare E-Mail-Inhaltsvorlagen konvertieren können
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
@@ -10,28 +10,32 @@ level: Beginner
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: E-Mail, Vorlage, Bild, HTML, KI, Design, Converter
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: e5b02fe84f00dec189d4002280e9a69b782cd91f
+source-git-commit: 30eb70f2a96223d7a948bdbd56ca9c002e954d0e
 workflow-type: tm+mt
-source-wordcount: '1659'
-ht-degree: 64%
+source-wordcount: '1611'
+ht-degree: 50%
 
 ---
 
-# Konvertieren von Bildern in HTML-Vorlagen {#image-to-html}
+# Konvertieren von Bildern in E-Mail-Inhaltsvorlagen {#image-to-html}
 
 >[!AVAILABILITY]
 >
 >Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
-[!DNL Journey Optimizer] können Sie die E-Mail-Erstellung erheblich beschleunigen, indem Sie statische Bilddesigns in vollständig anpassbare, modulare HTML-E-Mail-Inhaltsvorlagen umwandeln.
+[!DNL Journey Optimizer] können Sie die E-Mail-Erstellung erheblich beschleunigen, indem Sie statische Bilddesigns in vollständig anpassbare, modulare E-Mail-Inhaltsvorlagen umwandeln.
 
-Mithilfe der Generative AI-Technologie analysiert ein integriertes Tool das Layout, die Typografie, die Farben und die visuellen Elemente in Ihrem Bild und generiert einen übersichtlichen, modularen HTML-Code, der die Designtreue aufrechterhält und gleichzeitig mit der E-[-Designer &#x200B;](../email/get-started-email-design.md) volle Bearbeitbarkeit gewährleistet.
+>[!NOTE]
+>
+>Diese Funktion ist nur für den E-Mail-Kanal verfügbar.
+
+Durch die Nutzung der generativen KI-Technologie analysiert ein integriertes Tool das Layout, die Typografie, die Farben und die visuellen Elemente in Ihrem Bild und generiert saubere, modulare HTML-Inhalte, die die Designtreue erhalten und gleichzeitig mit der [E-Mail-Designer](../email/get-started-email-design.md) vollständig bearbeitbar sind.
 
 Diese Code-freie Funktion ermöglicht es Marketing-Experten, visuelle Assets von Grafikdesignern oder Design-Tools in responsive, bearbeitbare E-Mail-Vorlagen umzuwandeln, die in mehreren Journey und Kampagnen gespeichert und wiederverwendet werden können, ohne dass technisches Know-how erforderlich ist.
 
 Die wichtigsten Vorteile sind:
 
-* **Schneller als Handcodierung** - Der Konverter wandelt Bilder in Minuten in bearbeitbare HTML um, sodass Sie den manuellen, zeitaufwendigen Mockup-to-HTML-Workflow überspringen können.
+* **Schneller als Handcodierung** - Der Konverter wandelt Bilder in Minuten in bearbeitbare Inhalte um, sodass Sie den manuellen, zeitaufwendigen Mockup-to-HTML-Workflow überspringen können.
 * **Keine technischen Fähigkeiten erforderlich** - Marketing-Experten können Vorlagen ohne Design- oder Entwicklungsunterstützung erstellen und anpassen.
 * **Wiederverwendbar in allen Kampagnen** - Speichern Sie Vorlagen in Ihrer Bibliothek und verwenden Sie sie auf jeder Journey oder Kampagne.
 * **Bleibt dem Design treu** - Die Ausgabe stimmt mit Ihrem Layout und Stil überein und ist gleichzeitig vollständig mit dem E-Mail-Designer kompatibel.
@@ -53,27 +57,21 @@ Der Bild-zu-HTML-Converter eignet sich ideal für:
 
 ## Schutzmechanismen und Empfehlungen {#limitations}
 
-Beachten Sie die folgenden Einschränkungen beim Konvertieren von Bildern in HTML-Inhaltsvorlagen.
+Beachten Sie die folgenden Einschränkungen beim Konvertieren von Bildern in E-Mail-Inhaltsvorlagen.
 
-* **KI-Interpretation**: Die KI generiert HTML basierend auf der visuellen Interpretation Ihres Bildes. Komplexe oder ungewöhnliche Designs erfordern nach der Konvertierung möglicherweise manuelle Anpassungen.
+* **KI-Interpretation**: Die KI generiert statische HTML-Inhalte basierend auf der visuellen Interpretation Ihres Bildes. Sie bietet einen guten Ausgangspunkt für die E-Mail-Erstellung, sollte jedoch mithilfe der E-Mail-Designer überprüft und verfeinert werden, um sicherzustellen, dass sie genau Ihren Anforderungen entspricht. Sie müssen bei Bedarf Personalisierung, dynamische Inhalte und Tracking nach der Konversion manuell hinzufügen.
 
 * **Textgenauigkeit**: Die KI versucht zwar, Text genau zu erkennen und zu reproduzieren, aber Sie sollten Textinhalte immer überprüfen und nach Bedarf korrigieren.
-
-* **Dynamische Inhalte**: Der Konvertierungsprozess erstellt statisches HTML basierend auf Ihrem Bild. Nach der Konvertierung müssen Sie Personalisierung, dynamische Inhalte und Tracking manuell hinzufügen.
 
 * **Komplexe Layouts**: Hochkomplexe Designs mit komplizierten Ebenen, ungewöhnlichen Formen oder nicht standardmäßigen Elementen werden möglicherweise nicht perfekt konvertiert. Einfachere Designs liefern in der Regel bessere Ergebnisse.
 
 * **Verarbeitungszeit**: Der Konvertierungsprozess kann je nach Komplexität und Größe des Bildes bis zu 5 Minuten dauern. Die KI-Verarbeitung erfolgt im Hintergrund, sodass Sie andere Aufgaben bearbeiten können und der Bildschirm nicht geöffnet sein muss. Die Vorlage wird nach Abschluss der Konvertierung automatisch als Entwurf gespeichert.
 
-* **Eingeschränkte Verfügbarkeit**: Als Funktion mit eingeschränkter Verfügbarkeit wird der Bild-zu-HTML-Converter kontinuierlich verbessert. Funktionalität und Genauigkeit können variieren, und Ihr Feedback trägt zur Verbesserung der Funktion bei.
-
->[!NOTE]
->
->Der Bild-zu-HTML-Converter ist als leistungsstarker Ausgangspunkt für die Erstellung von E-Mails konzipiert. Das generierte HTML sollte mithilfe des E-Mail-Designers überprüft und verfeinert werden, um sicherzustellen, dass es Ihren genauen Anforderungen entspricht.
+* **Eingeschränkte Verfügbarkeit**: Als Funktion für eingeschränkte Verfügbarkeit wird dieser Konverter kontinuierlich verbessert. Funktionalität und Genauigkeit können variieren, und Ihr Feedback trägt zur Verbesserung der Funktion bei.
 
 ## Konvertieren eines Bildes in eine HTML-Vorlage {#convert-image}
 
-Gehen Sie wie folgt vor, um ein Bilddesign in eine vollständig anpassbare HTML-E-Mail-Vorlage zu konvertieren.
+Gehen Sie wie folgt vor, um ein Bilddesign in eine vollständig anpassbare E-Mail-Inhaltsvorlage zu konvertieren.
 
 1. Stellen Sie sicher, dass Sie eine Bilddatei im JPEG- oder PNG-Format haben, die Ihr E-Mail-Design enthält.
 
@@ -132,12 +130,12 @@ Ihre Vorlage ist jetzt in der Inhaltsvorlagenbibliothek verfügbar und kann beim
 
 ## Best Practices {#best-practices}
 
-Um beim Konvertieren von Bildern in HTML-Inhaltsvorlagen optimale Ergebnisse zu erzielen, befolgen Sie die folgenden Empfehlungen.
+Um beim Konvertieren von Bildern in E-Mail-Inhaltsvorlagen optimale Ergebnisse zu erzielen, befolgen Sie diese Empfehlungen.
 
 +++Bevor Sie beginnen
 
-* **Speichern Sie vorhandene Inhalte**: Wenn Sie ein Bild in HTML konvertieren, werden alle in Ihrer E-Mail vorhandenen Inhalte ersetzt. Speichern Sie Ihre aktuelle Arbeit immer, bevor Sie diese Funktion verwenden.
-* **Planen Sie den Workflow**: Verwenden Sie den Bild-zu-HTML-Converter zu Beginn Ihres E-Mail-Erstellungsprozesses oder stellen Sie sicher, dass Sie bereit sind, den gesamten aktuellen Inhalt zu ersetzen.
+* **Vorhandenen Inhalt speichern**: Das Konvertieren eines Bildes ersetzt alle vorhandenen Inhalte in Ihrer E-Mail-Vorlage. Speichern Sie Ihre aktuelle Arbeit immer, bevor Sie diese Funktion verwenden.
+* **Workflow planen**: Verwenden Sie diese Funktion zu Beginn Ihres E-Mail-Erstellungsprozesses oder stellen Sie sicher, dass Sie bereit sind, den gesamten aktuellen Inhalt zu ersetzen.
 
 +++
 
@@ -163,7 +161,7 @@ Um beim Konvertieren von Bildern in HTML-Inhaltsvorlagen optimale Ergebnisse zu 
 
 +++Nach der Konversion
 
-* **Prüfen Sie den Entwurf**: Nach Abschluss der Konvertierung wird Ihre Vorlage automatisch als Entwurf gespeichert. Nehmen Sie sich Zeit, um die generierte HTML-Version sorgfältig auf Korrektheit zu überprüfen
+* **Prüfen Sie den Entwurf**: Nach Abschluss der Konvertierung wird Ihre Vorlage automatisch als Entwurf gespeichert. Nehmen Sie sich Zeit, um den generierten Inhalt sorgfältig auf Korrektheit zu überprüfen
 * **Testen Sie sorgfältig**: Testen Sie die E-Mail auf verschiedenen E-Mail-Clients und Geräten
 * **Optimieren Sie manuell**: Nehmen Sie die benötigten Anpassungen mit den umfassenden Bearbeitungsfunktionen des E-Mail-Designers vor
 * **Markenausrichtung**: Prüfen Sie, ob die Farben, Schriften und Formate Ihren Markenrichtlinien entsprechen
@@ -174,15 +172,15 @@ Um beim Konvertieren von Bildern in HTML-Inhaltsvorlagen optimale Ergebnisse zu 
 
 ## Häufig gestellte Fragen {#faq}
 
-+++Was geschieht mit meinen vorhandenen E-Mail-Inhalten, wenn ich den Bild-zu-HTML-Converter verwende?
++++Was passiert mit meinem vorhandenen E-Mail-Inhalt, wenn ich ein Bild in eine Inhaltsvorlage konvertiere?
 
-Alle vorhandenen Inhalte in Ihrer E-Mail werden gelöscht und durch die neu generierte Vorlage ersetzt, wenn Sie ein Bild zur Konvertierung hochladen. Speichern Sie alle wichtigen Inhalte, bevor Sie diese Funktion verwenden. Am besten verwenden Sie den Bild-zu-HTML-Converter zu Beginn Ihres E-Mail-Erstellungsprozesses.
+Alle vorhandenen Inhalte in Ihrer E-Mail werden gelöscht und durch die neu generierte Vorlage ersetzt, wenn Sie ein Bild zur Konvertierung hochladen. Speichern Sie alle wichtigen Inhalte, bevor Sie diese Funktion verwenden. Am besten ist es, diese Funktion zu Beginn des E-Mail-Erstellungsprozesses zu nutzen.
 
 +++
 
 +++Welche Dateiformate werden unterstützt?
 
-Der Bild-zu-HTML-Converter unterstützt die Bildformate JPEG (.jpg, .jpeg) und PNG (.png).
+Der Konverter unterstützt die Bildformate JPEG (.jpg, .jpeg) und PNG (.png).
 
 +++
 
@@ -194,7 +192,7 @@ Die Konvertierung kann je nach Komplexität und Größe Ihres Bild-Designs bis z
 
 +++Kann ich die generierte Vorlage bearbeiten?
 
-Ja. Die generierte HTML-Vorlage wird im E-Mail-Designer mit allen Bearbeitungsfunktionen geöffnet. Sie können alle Aspekte der Vorlage ändern, einschließlich Text, Bilder, Stil, Layout und Struktur.
+Ja. Die generierte Inhaltsvorlage wird in der E-Mail-Designer geöffnet und bietet vollständige Bearbeitungsfunktionen. Sie können alle Aspekte der Vorlage ändern, einschließlich Text, Bilder, Stil, Layout und Struktur.
 
 +++
 
@@ -206,13 +204,13 @@ Die KI bemüht sich, Ihr Design möglichst genau zu interpretieren, doch einige 
 
 +++Kann ich diese Funktion für Landingpages oder andere Inhaltstypen verwenden?
 
-Der Bild-zu-HTML-Converter ist derzeit speziell für E-Mail-Vorlagen konzipiert. Verwenden Sie für andere Inhaltstypen die standardmäßigen Design- und Importoptionen, die im E-Mail-Designer verfügbar sind.
+Der Bild-zu-HTML-Konvertierer wurde speziell für E-Mail-Inhaltsvorlagen entwickelt. Verwenden Sie für andere Inhaltstypen die standardmäßigen Design- und Importoptionen, die im E-Mail-Designer verfügbar sind.
 
 +++
 
 +++Benötige ich spezielle Berechtigungen, um diese Funktion nutzen zu können?
 
-Der Bild-zu-HTML-Converter ist nur eingeschränkt verfügbar. Um diese Funktion nutzen zu können, benötigen Sie Zugriff auf eingeschränkt verfügbare Funktionen (wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten) und die Standardberechtigungen im E-Mail-Designer.
+Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
 +++
 
