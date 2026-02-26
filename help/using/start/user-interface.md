@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b2abf39db81887aa6f183eb390a36b9f428f5ca8
+source-git-commit: 1d09a7ce6428532822955186973b6a2d9973f522
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 81%
+source-wordcount: '1350'
+ht-degree: 80%
 
 ---
 
@@ -41,7 +41,7 @@ Die Benutzeroberfläche von Journey Optimizer besteht aus vier Hauptbereichen:
 
 ### Universelle Suche {#search}
 
-Verwenden Sie das Symbol „Suche“, um Journeys, Kampagnen, Assets und andere Objekte in Journey Optimizer schnell zu finden. Geben Sie Keywords ein, um relevante Ergebnisse aus allen Bereichen der Plattform anzuzeigen.
+Verwenden Sie das Symbol „Suche“, um Journeys, Kampagnen, Assets und andere Objekte in Journey Optimizer schnell zu finden. Geben Sie Schlüsselwörter ein, um relevante Ergebnisse aus allen Bereichen der Plattform anzuzeigen. [Erfahren Sie mehr über die universelle Suche](search-filter-categorize.md#unified-search).
 
 ### Hilfe und Support {#help}
 
