@@ -8,7 +8,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1b0b2b5aa8c5b4ea0a101583ee1132574996bd98
+source-git-commit: 707bc4053ee05c275b562e35227e54836e91fa27
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 3%
@@ -25,7 +25,7 @@ Als Marketing-Experte für eine Einzelhandelsmarke führen Sie beispielsweise ei
 * Empfänger, die 24 Stunden später öffnen, sehen „23 Stunden verbleibend“
 * Empfänger, die nach Verkaufsende öffnen, sehen „Verkauf beendet“
 
-Weitere Informationen zum Erstellen von Dynamic Media in Adobe Experience Manager finden Sie [diesem Dokument](assets/do-not-localize/Dynamic%20Media%20Templates.pdf).
+Weitere Informationen zum Erstellen von Dynamic Media in Adobe Experience Manager finden Sie [diesem Dokument](assets/do-not-localize/countdown.pdf).
 
 
 1. Erstellen Sie **[!DNL Adobe Experience Manager]** eine Dynamic Media-Vorlage und fügen Sie ihr eine Countdown-Timer-Komponente hinzu.
