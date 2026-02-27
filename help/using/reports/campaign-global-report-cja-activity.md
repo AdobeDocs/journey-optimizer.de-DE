@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Kampagnenbericht
+title: Bericht zur Live-Aktivität in Campaign
 description: Informationen zum Verwenden von Daten zu Live-Aktivitäten aus dem Kampagnenbericht
 feature: Reporting
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 17f86c33f56b9855fa1d0f959aac8740ff2c2c2a
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 22%
 
 ---
@@ -37,11 +37,11 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet einen detaillierten Über
 
 * **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die sich für die Zielgruppe qualifiziert haben, bevor Ausschlüsse, Unterdrückungen oder Einverständnisentnahmen angewendet wurden.
 
-* **[!UICONTROL Sendungen]**: Gesamtzahl der Live-Aktivitäten, die an Zielgruppenprofile gesendet wurden.
+* **[!UICONTROL Sendungen]**: Gesamtzahl der Live-Aktivitätsereignisse, die an Zielgruppenprofile gesendet wurden.
 
-* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich an Geräte zugestellten Live-Aktivitäten im Verhältnis zur Gesamtzahl der Sendeversuche.
+* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich an Geräte gesendeten Live-Aktivitätsereignisse im Verhältnis zur Gesamtzahl der Sendeversuche.
 
-* **[!UICONTROL Fehler senden]**: Gesamtzahl der Live-Aktivitäten, die aufgrund von Fehlern (z. B. ungültige Token oder Verbindungsprobleme) nicht gesendet werden konnten.
+* **[!UICONTROL Fehler senden]**: Gesamtzahl der Live-Aktivitätsereignisse, die aufgrund von Fehlern (z. B. ungültige Token oder Verbindungsprobleme) nicht gesendet werden konnten.
 
 * **[!UICONTROL Sendeausschlüsse]**: Anzahl der Profile, die von Adobe Journey Optimizer vom Versand ausgeschlossen wurden (z. B. wegen Opt-out-Status oder Eignungsregeln).
 
