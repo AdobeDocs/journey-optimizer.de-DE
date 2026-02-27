@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen der Textversion einer E-Mail
+title: Textversion einer E-Mail verwalten
 description: Erfahren Sie, wie Sie die Textversion einer E-Mail erstellen
 feature: Email Design
 topic: Content Management
@@ -9,36 +9,44 @@ role: User
 level: Intermediate
 keywords: Text, E-Mail, Version, Nur-Text, Editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 15%
+source-wordcount: '1141'
+ht-degree: 11%
 
 ---
 
-# Erstellen der Textversion einer E-Mail {#text-version-email}
+# Textversion einer E-Mail verwalten {#text-version-email}
 
 Es wird empfohlen, eine Textversion Ihres E-Mail-Textkörpers zu erstellen, die verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können.
 
+Aus Sicherheitssicht ist die Bereitstellung einer Nur-Text-Version wichtig, da HTML-E-Mails Risiken wie bösartige Skripte, Tracking-Pixel oder Phishing-Versuche bergen können, die auf Rich-Formatierung und Links angewiesen sind. Nur-Text reduziert die Angriffsfläche und wird oft von sicherheitsbewussten Empfängerinnen und Empfängern oder E-Mail-Systemen des Unternehmens bevorzugt, die HTML einschränken oder entfernen. Durch die Bereitstellung beider Versionen können Empfängerinnen und Empfänger das Format auswählen, das ihren Sicherheits- und Datenschutzanforderungen entspricht.
+
+## Zugriff auf die Standardtextversion {#plain-text-default}
+
 Standardmäßig erstellt E-Mail-Designer eine **[!UICONTROL Nur-Text-Version]** Ihrer E-Mail einschließlich Personalisierungsfeldern. Diese Version wird automatisch generiert und mit der HTML-Version Ihres Inhalts synchronisiert.
+
+Um auf die Standardtextversion zuzugreifen, wählen Sie in Ihrem E **[!UICONTROL Mail-Inhalt das Symbol]** Nur Text“ aus.
+
+![](assets/text_version_3.png)
+
+## Benutzerdefinierte Textversion verwenden {#plain-text-default-custom}
 
 Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führen Sie die folgenden Schritte aus:
 
 1. Wählen Sie in Ihrer E-Mail das Symbol **[!UICONTROL Nur Text]** aus.
 
-   ![](assets/text_version_3.png)
-
 1. Verwenden Sie den Umschalter **[!UICONTROL Mit HTML synchronisieren]**, um die Synchronisierung zu deaktivieren. Klicken Sie auf das Häkchen, um Ihre Auswahl zu bestätigen.
 
    ![](assets/text_version_2.png)
 
-1. Sie können die Nur-Text-Version dann nach Belieben bearbeiten.
+1. Sie können dann die benutzerdefinierte Nur-Text-Version nach Bedarf bearbeiten.
 
 >[!CAUTION]
 >
 > * Wenn die Synchronisierung deaktiviert ist, werden Änderungen, **[!UICONTROL in der Ansicht]** Nur Text“ vorgenommen wurden, nicht in der HTML-Ansicht angezeigt.
 >
->* Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
+> * Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
 
 ## Verwendung benutzerdefinierter Nur-Text-Versionen {#when-to-use}
 
