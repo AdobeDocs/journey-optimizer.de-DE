@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 7983480646eb49f32716cda19001ef7b9a95ba82
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 95%
+source-wordcount: '561'
+ht-degree: 58%
 
 ---
 
@@ -49,21 +49,43 @@ Die Tabelle **[!UICONTROL Versandstatistiken]** bietet einen detaillierten Über
 
 ## Lebenszyklus der Live-Aktivität {#lifecycle}
 
-![](assets/activity-lifecycle.png)
-
 Die Tabelle **[!UICONTROL Lebenszyklus der Live-Aktivität]** bietet einen umfassenden Überblick über den Fortschritt Ihrer Live-Aktivitäten im zeitlichen Verlauf. Sie liefert Einblicke in wichtige Ereignisse (z. B. wann Aktivitäten gestartet, aktualisiert oder beendet werden), sodass Sie die Benutzerinteraktion und den gesamten Lebenszyklus Ihrer Kampagnen mit Live-Aktivitäten besser verstehen können.
 
-+++ Weitere Informationen zu Lebenszyklusmetriken zu Live-Aktivitäten
+Das Reporting unterscheidet sich je nachdem, ob Sie Transaktions- oder Marketing-Kampagnen verwenden.
 
-* **[!UICONTROL Remote-Starts]**: Anzahl der Live-Aktivitäten, die remote initiiert wurden (normalerweise vom Server oder Backend-System).
+### Transaktions-Live-Aktivitäten
 
-* **[!UICONTROL Lokale Starts]**: Anzahl der Live-Aktivitäten, die lokal auf dem Gerät einer Benutzerin bzw. eines Benutzers gestartet wurden und häufig auf Benutzerinteraktionen oder Client-seitige Trigger zurückzuführen sind.
+![](assets/activity-lifecycle.png)
 
-**[!UICONTROL Aktualisierungen]**: Gesamtzahl der an Geräte gesendeten Aktualisierungen von Live-Aktivitäten. Zu Aktualisierungen gehören Statusänderungen, neue Inhalte oder Fortschrittsbenachrichtigungen.
+Für eine Transaktionskampagne zeigt der Bericht Live-Kampagnenaktivitäten alle Lebenszyklus-Ereignisse an, einschließlich Remote-Starts, lokaler Starts, Aktualisierungen und Enden.
 
-**[!UICONTROL Enden]**: Anzahl der Live-Aktivitäten, die entweder automatisch nach Abschluss oder manuell über einen definierten Trigger oder einen Timeout beendet wurden.
++++ Weitere Informationen zu Lebenszyklusmetriken von Live-Aktivitäten mit Transaktionskampagnen
 
-**[!UICONTROL Gesamtanzahl]**: Gesamtzahl aller Lebenszyklusereignisse bei Live-Aktivitäten, einschließlich Starts, Aktualisierungen und Enden, die eine vollständige Messung des Live-Aktivitätsvolumens liefern.
+* **[!UICONTROL Remote-Starts]**: Gesamtzahl der remote initiierten Live-Aktivitäten-Startereignisse, die normalerweise vom Server oder Back-End-Systemen ausgelöst werden.
+
+* **[!UICONTROL Lokale Starts]**: Gesamtzahl der Startereignisse von Live-Aktivitäten, die lokal auf dem Gerät eines Benutzers initiiert wurden und häufig auf Benutzerinteraktion oder Client-seitige Trigger zurückzuführen sind.
+
+* **[!UICONTROL Aktualisierungen]**: Gesamtzahl der an Geräte gesendeten Aktualisierungen von Live-Aktivitäten. Zu Aktualisierungen gehören Statusänderungen, neue Inhalte oder Fortschrittsbenachrichtigungen.
+
+* **[!UICONTROL Ends]**: Gesamtzahl der an Geräte gesendeten Live-Aktivitäten-Endereignisse.
+
+* **[!UICONTROL Gesamtanzahl]**: Gesamtzahl aller Lebenszyklusereignisse bei Live-Aktivitäten, einschließlich Starts, Aktualisierungen und Enden, die eine vollständige Messung des Live-Aktivitätsvolumens liefern.
+
++++
+
+### Marketing-Live-Aktivitäten
+
+![](assets/activity-lifecycle-broadcast.png)
+
+Marketing-Kampagnen verwenden Live-Aktivitäten für Broadcast-Anwendungsfälle, bei denen Updates an mehrere Geräte gleichzeitig gesendet werden.
+
+Bei iOS Live-Aktivitäten in Marketing-Kampagnen zeigt der Bericht nur **[!UICONTROL Fernstartereignisse]** und **[!UICONTROL Fernstartereignisse]** beim Start an. **[!UICONTROL Updates]** und **[!UICONTROL Ends]**-Ereignisse werden nicht verfolgt, da APNs Aktualisierungen an alle Geräte verteilen, ohne Feedback zu geben. Um **[!UICONTROL Updates]** und **[!UICONTROL Ends]**-Ereignisse anzuzeigen, verwenden Sie die Push-Benachrichtigungskonsole von [Apple](https://developer.apple.com/notifications/push-notifications-console/).
+
++++ Weitere Informationen zu Lebenszyklusmetriken von Live-Aktivitäten mit Marketing-Kampagnen
+
+* **[!UICONTROL Remote-Starts]**: Gesamtzahl der remote initiierten Live-Aktivitäten-Startereignisse, die normalerweise vom Server oder Back-End-Systemen ausgelöst werden.
+
+* **[!UICONTROL Fehler beim Remotestart]**: Gesamtzahl der Fehler, die beim Versuch aufgetreten sind, Live-Aktivitäten remote zu starten (z. B. ungültige Token oder Verbindungsprobleme).
 
 +++
 

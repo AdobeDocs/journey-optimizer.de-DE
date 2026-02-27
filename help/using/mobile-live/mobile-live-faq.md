@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '1603'
-ht-degree: 100%
+exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '1746'
+ht-degree: 89%
 
 ---
 
 # Häufig gestellte Fragen {#mobile-live-faq}
-
->[!BEGINSHADEBOX]
-
-* [Erste Schritte mit Live-Aktivitäten](get-started-mobile-live.md)
-* [Konfiguration von Live-Aktivitäten](mobile-live-configuration.md)
-* [Integration von Live-Aktivitäten mit Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* [Erstellen einer Live-Aktivität](create-mobile-live.md)
-* **[Häufig gestellte Fragen](mobile-live-faq.md)**
-* [Bericht zu Kampagnen mit Live-Aktivitäten](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 ## Allgemeine Fragen
 
@@ -121,6 +111,24 @@ Ja. `ActivityConfiguration` verfügt über eigene Anzeigeoptionen für Sperrbild
 +++Muss ich Push-Token manuell speichern?
 
 Nein. Wenn Sie einen Typ einer Live-Aktivität mit `Messaging.registerLiveActivity()` registrieren, erfasst und verwaltet das SDK automatisch Push-Token für Sie.
++++
+
++++Gibt es Beschränkungen für Remote-Starts von Live-Aktivitäten?
+
+Ja. Remote-Starts über `ActivityKit` unterliegen den vom System erzwungenen Einschränkungen. Wenn Sie mehrere Startanfragen in schneller Folge ausführen, kann iOS weitere Startanfragen aufgrund von Live-Aktivitätsquoten oder Budgetbeschränkungen ablehnen. Nach etwa 5 aufeinander folgenden Startversuchen schlagen nachfolgende Anfragen fehl, bis eine kurze Abklingzeit vergeht.
+
++++
+
++++Wie hoch ist das Budget für Updates mit hoher Priorität?
+
+Apple gibt keine exakte numerische Begrenzung für Live-Aktivitätsaktualisierungen mit hoher Priorität `(priority: 10)`. Das System verwaltet ein dynamisches internes Budget, das begrenzt, wie oft solche Aktualisierungen gesendet werden können. Wenn innerhalb eines kurzen Zeitraums zu viele Updates mit hoher Priorität ausgegeben werden, kann iOS nachfolgende Updates drosseln oder verzögern.
+
+So minimieren Sie Einschränkungen:
+
+* **Prioritätsstufen ausgleichen**: Je nach Wichtigkeit werden sowohl Aktualisierungen des `(priority: 5)` als auch des hohen `(priority: 10)` kombiniert.
+* **Sparsam mit hoher Priorität verwenden**: Bewahren Sie hohe Priorität für zeitkritische Updates auf, z. B. den Versandfortschritt, den Bestellstatus oder Live-Sportergebnisse.
+* **Häufige Updates unterstützen**: Nehmen Sie `NSSupportsLiveActivitiesFrequentUpdates` in die `Info.plist` Ihrer App auf und setzen Sie sie auf **JA**, wenn Sie häufige Updates benötigen.
+
 +++
 
 ### Fragen von Marketing-Fachleuten
@@ -235,6 +243,7 @@ Häufige Ursachen:
 * `content-state`-Felder stimmen nicht mit Ihrer `ContentState`-Struktur überein.
 * Die Live-Aktivität wurde bereits beendet.
 * Probleme mit der Netzwerkverbindung auf dem Gerät.
+* Die als Zeitstempel verwendete Epochenzeit ist nicht aktuell.
 
 +++
 

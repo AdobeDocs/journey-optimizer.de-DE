@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
-workflow-type: ht
-source-wordcount: '317'
-ht-degree: 100%
+exl-id: 9864a136-e129-4279-bb09-081b72f584df
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 75%
 
 ---
 
 # Erstellen einer Live-Aktivität {#create-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* [Erste Schritte mit Live-Aktivitäten](get-started-mobile-live.md)
-* [Konfiguration von Live-Aktivitäten](mobile-live-configuration.md)
-* [Integration von Live-Aktivitäten mit Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* **[Erstellen einer Live-Aktivität](create-mobile-live.md)**
-* [Häufig gestellte Fragen](mobile-live-faq.md)
-* [Bericht zu Kampagnen mit Live-Aktivitäten](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihr Adobe Experience Platform Mobile SDK implementiert haben, können Sie mit der Erstellung Ihrer Live-Aktivität in Journey Optimizer beginnen:
 
@@ -56,6 +46,10 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihr Adobe Experience Plat
 
 1. Wählen Sie auf der Registerkarte **[!UICONTROL Zielgruppe]** Ihren **[!UICONTROL Identitätstyp]** aus. [Weitere Informationen](../audience/about-audiences.md).
 
+   >[!NOTE]
+   >
+   >Bei **API-ausgelösten Marketing**-Kampagnen können Sie eine vorhandene Zielgruppe auswählen, die als erste Segmentierung fungiert, bevor Sie das APNs-Kanal-ID-Abonnement über die API-Payload überprüfen.
+
 1. Kampagnen sind so konzipiert, dass sie an einem bestimmten Datum oder in regelmäßigen Abständen ausgeführt werden. Erfahren Sie in [diesem Abschnitt](../campaigns/create-campaign.md#schedule), wie Sie den **[!UICONTROL Zeitplan]** der Kampagne konfigurieren können.
 
 1. Klicken Sie nach der Konfiguration auf **[!UICONTROL Zum Aktivieren überprüfen]** und dann auf **[!UICONTROL Aktivieren]**.
@@ -68,9 +62,9 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihr Adobe Experience Plat
 
    ![](assets/create-live-3.png)
 
-   +++ Beispiel einer einzelnen Payload
+   +++ Beispiel einer Payload für einheitliche Anwendungsfälle (API-ausgelöste Transaktionskampagne)
 
-   Beachten Sie, dass die meisten Felder aus dem folgenden Payload-Beispiel obligatorisch sind. Nur `requestId`, `dismissal-date` und `alert` sind optional.
+   Dieses Payload-Beispiel ist für einzelne Kampagnen mit dem Kampagnentyp **API-ausgelöst** vorgesehen. Beachten Sie, dass die meisten Felder aus dem folgenden Payload-Beispiel obligatorisch sind. Nur `requestId`, `dismissal-date` und `alert` sind optional.
 
    ```json
    {
@@ -116,4 +110,53 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihr Adobe Experience Plat
 
    +++
 
+   +++ Beispiel einer Payload für Broadcast-Anwendungsfälle (API-ausgelöste Marketing-Kampagne)
+
+   Dieses Payload-Beispiel ist für zielgruppenbasierte Kampagnen vorgesehen, bei denen der Kampagnentyp **API-ausgelöstes Marketing** verwendet wird.
+
+   ```json
+   {
+       "requestId": "123400000",
+       "campaignId": "d32e6f6c-56df-4a98-a2c0-6db6008f8f32",
+       "audience": {
+           "id": "508f9416-52d0-4898-ba47-08baaa22e9c7"
+       },
+       "context": {
+           "requestPayload": {
+               "aps": {
+                   "input-push-channel": "V+8UslywEfAAAOq9SbTrLg==",  //apns-channel-id
+                   "content-available": 1,
+                   "timestamp": 1770808339,
+                   "event": "update",   // start | update | end
+   
+                   // Fields from GameScoreLiveActivityAttributes
+                   "content-state": {
+                       "homeTeamScore": 33,
+                       "awayTeamScore": 49,
+                       "statusText": "Wingdom keeps scoring!"
+                   },
+                   "attributes-type": "GameScoreLiveActivityAttributes",
+                   "attributes": {
+                       "liveActivityData": {
+                           "channelID": "V+8UslywEfAAAOq9SbTrLg=="   //apns-channel-id, must match the "input-push-channel" value
+                       }
+                   },
+                   "alert": {
+                       "title": "This is the title for game",
+                       "body": "This is the body for body"
+                   }
+               }
+           }
+       }
+   }
+   ```
+
+   +++
+
 Nachdem Sie Ihre Live-Aktivität entworfen haben, können Sie mit [integrierten Berichten](../reports/campaign-global-report-cja-activity.md) die Wirkung Ihrer Live-Aktivität messen.
+
+## Anleitungsvideo
+
+Erfahren Sie, wie Sie iOS Live-Aktivitäten mit Adobe Journey Optimizer konfigurieren, um umfangreiche Echtzeit-Updates auf dem iPhone-Sperrbildschirm und auf Dynamic Island zu liefern.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
