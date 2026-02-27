@@ -78,7 +78,7 @@ Gehen Sie wie folgt vor, um eine Formularvoreinstellung zu erstellen.
    >* **Datentyp** muss auf **XDM** festgelegt sein (nicht Rohdaten)
    >* **Authentifizierung** muss **deaktiviert** sein (nicht authentifizierte Verbindung)
    >
-   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können etwas eingeben, um einen bestimmten Datensatz zu durchsuchen, oder einen Datensatz aus der Liste auswählen.
 
