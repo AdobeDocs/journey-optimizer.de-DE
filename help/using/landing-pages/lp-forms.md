@@ -10,10 +10,10 @@ level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 13ef8ae4fa988537db192eca0b906940e51eeb28
+source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 96%
+source-wordcount: '1642'
+ht-degree: 98%
 
 ---
 
@@ -75,16 +75,16 @@ Gehen Sie wie folgt vor, um eine Formularvoreinstellung zu erstellen.
    >
    >Damit eine HTTP-API-Streaming-Verbindung in der Dropdown-Liste angezeigt wird, muss sie beim Erstellen in Adobe Experience Platform die folgenden Anforderungen erfüllen:
    >
-   >* **Datentyp** muss auf &quot;**&quot; festgelegt sein** keine Rohdaten)
+   >* **Datentyp** muss auf **XDM** festgelegt sein (nicht Rohdaten)
    >* **Authentifizierung** muss **deaktiviert** sein (nicht authentifizierte Verbindung)
    >
-   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können etwas eingeben, um einen bestimmten Datensatz zu durchsuchen, oder einen Datensatz aus der Liste auswählen.
 
    >[!NOTE]
    >
-   >Derzeit stehen nur [!DNL Adobe Experience Platform]-Datensätze zur Auswahl. Es kann jeweils nur ein Datensatz ausgewählt werden. [Weitere Informationen zu Datensätzen](../data/get-started-datasets.md)
+   >Derzeit stehen nur **Profil-**) und **Nicht-Profil-**) [!DNL Adobe Experience Platform] Datensätze zur Auswahl. Es kann jeweils nur ein Datensatz ausgewählt werden. Systemdatensätze können nicht zum Speichern von Formulardaten verwendet werden. [Weitere Informationen zu Datensätzen](../data/get-started-datasets.md)
 
 1. Klicken Sie auf **[!UICONTROL Veröffentlichen]**. Ihre Voreinstellung kann jetzt in einem Formular verwendet werden.
 
