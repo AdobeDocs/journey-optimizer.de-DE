@@ -9,10 +9,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 75%
+ht-degree: 69%
 
 ---
 
@@ -54,7 +54,7 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihr Adobe Experience Plat
 
 1. Klicken Sie nach der Konfiguration auf **[!UICONTROL Zum Aktivieren überprüfen]** und dann auf **[!UICONTROL Aktivieren]**.
 
-1. Verwenden Sie nach dem Aktivieren der Kampagne die bereitgestellte **cURL-Anfrage** als Vorlage, um Start-, Aktualisierungs- und Endereignisse für Live-Aktivitäten auszulösen. Aktualisieren Sie die Beispiel-Payload vor der Ausführung mit Ihren konkreten Daten.
+1. Nachdem die Kampagne aktiviert wurde, verwenden Sie die bereitgestellte **cURL-Anfrage** als Vorlage für den Trigger von Live-Aktivitätsereignissen zum Starten, Aktualisieren oder Beenden. Aktualisieren Sie die Beispiel-Payload vor der Ausführung mit Ihren konkreten Daten.
 
    Stellen Sie sicher, dass Sie auch die **[!UICONTROL Kampagnen-ID]**-Kennungen kopieren, die in Ihre Payload aufgenommen werden sollen.
 
@@ -157,6 +157,6 @@ Nachdem Sie Ihre Live-Aktivität entworfen haben, können Sie mit [integrierten 
 
 ## Anleitungsvideo
 
-Erfahren Sie, wie Sie iOS Live-Aktivitäten mit Adobe Journey Optimizer konfigurieren, um umfangreiche Echtzeit-Updates auf dem iPhone-Sperrbildschirm und auf Dynamic Island zu liefern.
+Erfahren Sie, wie Sie die Live-Aktivität von iOS mit Adobe Journey Optimizer konfigurieren, um umfangreiche Echtzeit-Updates auf dem iPhone-Sperrbildschirm und auf Dynamic Island zu liefern.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479873?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

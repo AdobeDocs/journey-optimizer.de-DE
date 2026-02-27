@@ -9,17 +9,17 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 76%
 
 ---
 
-# Integration von Live-Aktivitäten mit Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
+# Live-Aktivitätsintegration mit Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
 
-Das Adobe Experience Platform Mobile SDK bietet integrierte Unterstützung für Live-Aktivitäten von Apple. Dadurch kann Ihre App dynamische Aktualisierungen in Echtzeit direkt auf dem Sperrbildschirm und auf der Dynamic Island anzeigen, ohne dass die App geöffnet werden muss.
+Adobe Experience Platform Mobile SDK bietet integrierte Unterstützung für die Live-Aktivität von Apple. Dadurch kann Ihre App dynamische Aktualisierungen in Echtzeit direkt auf dem Sperrbildschirm und auf der Dynamic Island anzeigen, ohne dass die App geöffnet werden muss.
 
 1. [Importieren erforderlicher Module](#import)
 
@@ -29,7 +29,7 @@ Das Adobe Experience Platform Mobile SDK bietet integrierte Unterstützung für 
 
    Nehmen Sie eine Anpassung an `LiveActivityAttributes` vor und schließen Sie die Attribute `LiveActivityData` und `ContentState` ein.
 
-1. [Registrieren von Live-Aktivitäten](#register)
+1. [Live-Aktivität registrieren](#register)
 
    Verwenden Sie `Messaging.registerLiveActivity()` nach der SDK-Initialisierung.
 
@@ -58,6 +58,7 @@ Stellen Sie sicher, dass mindestens die folgenden Versionen installiert sind, um
 * **Xcode:** 14.0 oder höher
 * **Swift:** 5.7 oder höher
 * **Abhängigkeiten:** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
+* **AEP Mobile SDK Version**: iOS Messaging 5.11.0 oder höher
 
 >[!ENDSHADEBOX]
 
@@ -85,7 +86,7 @@ Zu den wichtigsten Komponenten gehören:
 
 * **`ContentState`** definiert dynamische Daten, die während des Lebenszyklus der Live-Aktivität aktualisiert werden können. Sie müssen `Codable` und `Hashable` entsprechen.
 
-* Die Auflistung `LiveActivityOrigin` gibt an, ob eine Aktivität lokal in der App oder remote über eine Push-to-Start-Benachrichtigung initiiert wurde; wird in iOS 17.2 und höher unterstützt. Dieser Wert ermöglicht es dem SDK, bei der Datenerfassung zwischen lokal initiierten und remote ausgelösten Live-Aktivitäten zu unterscheiden.
+* Die Auflistung `LiveActivityOrigin` gibt an, ob eine Aktivität lokal in der App oder remote über eine Push-to-Start-Benachrichtigung initiiert wurde; wird in iOS 17.2 und höher unterstützt. Dieser Wert ermöglicht es dem SDK, bei der Datenerfassung zwischen lokal initiierter und remote ausgelöster Live-Aktivität zu unterscheiden.
 
 **Beispiele**
 
@@ -111,15 +112,15 @@ public struct LiveActivityData: Codable {
     /// Unique identifier for broadcast Live activity channels
     public let channelID: String?
      
-    /// Unique identifier for individual Live activities
+    /// Unique identifier for individual Live activity
     public let liveActivityID: String?
      
     /// Indicates local vs remote creation
     public let origin: LiveActivityOrigin?
      
     // Initializers
-    public init(channelID: String)        // For broadcast Live activities
-    public init(liveActivityID: String)   // For individual Live activities
+    public init(channelID: String)        // For broadcast Live activity
+    public init(liveActivityID: String)   // For individual Live activity
 }
 ```
 
@@ -133,7 +134,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Schritt 3: Registrieren von Live-Aktivitäten {#register}
+## Schritt 3: Live-Aktivität registrieren {#register}
 
 Registrieren Sie die Typen Ihrer Live-Aktivitäten in `AppDelegate` nach der SDK-Initialisierung. Das ermöglicht Ihnen Folgendes:
 
@@ -151,7 +152,7 @@ if #available(iOS 16.1, *) {
 
 ## Schritt 4: Erstellen von Widgets für Live-Aktivitäten {#widgets}
 
-Live-Aktivitäten werden über Widgets angezeigt. Sie müssen ein Widget-Paket und eine Widget-Konfiguration erstellen:
+Live-Aktivität wird über Widgets angezeigt. Sie müssen ein Widget-Bundle und eine Konfiguration erstellen:
 
 **Beispiel für eine Live-Aktivität eines Lebensmittelversands:**
 
