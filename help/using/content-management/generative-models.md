@@ -23,7 +23,7 @@ Wählen Sie das richtige Modell für Ihre Anforderungen:
 - **[!UICONTROL Partnermodell]**, unterstützt durch Gemini 2.5 Flash, bietet spezielle Funktionen für bestimmte Anwendungsfälle.
 - **[!UICONTROL Benutzerdefinierte Modelle]** sind markenspezifische Modelle, die auf Ihren eigenen Assets trainiert und von Ihrem Unternehmen hinzugefügt werden.
 
-  Weitere Informationen zu **[!UICONTROL benutzerdefinierten Modellen]** finden Sie in der Dokumentation zu [Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  Weitere Informationen zu **[!UICONTROL benutzerdefinierten Modellen]** finden Sie in der Dokumentation zu [Adobe Firefly](https://helpx.adobe.com/de/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
 Nach der Konfiguration können Sie jedes Ihrer generativen Modelle auswählen, wenn Sie Bilder in Ihrem Inhalt erstellen. [Erfahren Sie mehr über das Generieren von Bildern](generative-image.md).
 
@@ -61,7 +61,7 @@ Benutzerdefinierte Firefly-Modelle sind markenspezifische KI-Modelle, die auf Ih
 
 Durch die Erstellung benutzerdefinierter Firefly-Modellanbieter können Sie Ihre KI-Funktionen über die Standardmodelle hinaus erweitern und sicherstellen, dass der generierte Inhalt konsistent die einzigartige Ästhetik und die Anforderungen Ihrer Marke widerspiegelt.
 
-➡️ [Erfahren Sie, wie Sie Ihr benutzerdefiniertes Modell trainieren](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [Erfahren Sie, wie Sie Ihr benutzerdefiniertes Modell trainieren](https://helpx.adobe.com/de/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. Rufen Sie im Menü **[!UICONTROL Marken]** die Registerkarte **[!UICONTROL Generative Modelle]** auf und klicken Sie auf **[!UICONTROL Modell hinzufügen]**.
 
@@ -71,7 +71,7 @@ Durch die Erstellung benutzerdefinierter Firefly-Modellanbieter können Sie Ihre
 
 1. Geben Sie Ihre **[!UICONTROL Modell-ID]** ein.
 
-   Rufen Sie die Firefly-Website auf und navigieren Sie zu Ihren trainierten Modellen, um Ihre Firefly-Modell-ID zu finden. Die eindeutige Kennung ist nach der Veröffentlichung im Verwaltungsabschnitt des Modells verfügbar. Weitere Informationen finden Sie in der Dokumentation zu benutzerdefinierten Modellen für [Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   Rufen Sie die Firefly-Website auf und navigieren Sie zu Ihren trainierten Modellen, um Ihre Firefly-Modell-ID zu finden. Die eindeutige Kennung ist nach der Veröffentlichung im Verwaltungsabschnitt des Modells verfügbar. Weitere Informationen finden Sie in der Dokumentation zu benutzerdefinierten Modellen für [Firefly](https://helpx.adobe.com/de/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 
