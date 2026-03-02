@@ -9,10 +9,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 5bb1a76ac0797f5fdea36e8b7164cb139ebd40dd
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 48%
+source-wordcount: '1802'
+ht-degree: 47%
 
 ---
 
@@ -58,6 +58,12 @@ Nein. Eine Live-Aktivität kann auch dann gestartet, aktualisiert und remote bee
 +++Wie lange kann eine Live-Aktivität aktiv bleiben?
 
 Apple beschränkt die Live-Aktivität auf **8 Stunden aktive Updates**. Danach beendet das System die Aktivität automatisch, sie kann aber bis zu **12 weitere Stunden** in einem statischen Zustand angezeigt werden, bevor sie entfernt wird. Sie können eine Live-Aktivität auch früher beenden, indem Sie eine `dismissalDate` festlegen oder `activity.end()` in Ihrer App explizit aufrufen.
+
++++
+
++++ Wie hoch sind die Limits?
+
+Für Kampagnen besteht ein standardmäßiges Ratenlimit von 500 Transaktionsnachrichten pro Sekunde für alle Kanäle, einschließlich iOS Live-Aktivitäten. Diese Beschränkung gilt für alle Kanäle zusammen, und es gibt keine separate Begrenzung für Live-Aktivitäten in iOS.
 
 +++
 
