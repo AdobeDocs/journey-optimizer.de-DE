@@ -3,17 +3,17 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Wichtige Schritte zum Erstellen eines Angebots
 description: Machen Sie sich mit den wichtigsten Schritten für die Erstellung eines Angebots vertraut
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '361'
+ht-degree: 92%
 
 ---
 
@@ -77,7 +77,7 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 
 ## Angebote erstellen und verwalten {#create-and-manage-offers}
 
-1. [Erstellen Sie Angebote](creating-personalized-offers.md) und konfigurieren Sie deren Inhalt und Eigenschaften.
+1. [Angebote erstellen](creating-personalized-offers.md) und ihren Inhalt und ihre Eigenschaften konfigurieren. Beim Personalisieren von Angebotsinhalten (Darstellungen) werden nur bestimmte Ausdrucksfunktionen unterstützt - siehe [Unterstützte Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
 
 1. [Erstellen Sie Fallback-Angebote](creating-fallback-offers.md), die angezeigt werden, wenn Kunden für keines der ausgewählten Angebote geeignet sind.
 

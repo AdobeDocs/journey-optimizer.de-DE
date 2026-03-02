@@ -3,17 +3,17 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Erstellen von Entscheidungsregeln
 description: Erfahren Sie, wie Sie Entscheidungsregeln erstellen, um zu definieren, wem Angebote angezeigt werden können
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '457'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,11 @@ Im Folgenden finden Sie eine Liste der Einschränkungen, die bei der Arbeit mit 
 * Beim Erstellen einer Entscheidungsregel wird ein Rückblick in einen vorherigen Zeitraum nicht unterstützt. So kann es beispielsweise sein, dass Sie als Bestandteil der Regel ein Erlebnisereignis angeben, das innerhalb des letzten Monats stattgefunden hat. Bei jedem Versuch, einen Rückblick-Zeitraum während der Regelerstellung einzubeziehen, wird beim Speichern ein Fehler ausgelöst.
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
-## Erstellen von Entscheidungsregeln {#create}
+>[!NOTE]
+>
+>Im Entscheidungs-Management wird nur eine Untergruppe von Ausdrucksfunktionen unterstützt. Wenn Ihre Regel Ausdrücke oder Profilattribute verwendet, finden Sie unter [Unterstützte Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md) eine Liste der unterstützten Funktionen.
+
+## Erstellen einer Entscheidungsregel {#create}
 
 Die Liste der erstellten Entscheidungsregeln ist im Menü **[!UICONTROL Komponenten]** verfügbar.
 
@@ -81,4 +85,4 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 ## Tutorial-Video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341369?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

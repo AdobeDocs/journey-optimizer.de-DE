@@ -3,17 +3,17 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Erstellen von personalisierten Angeboten
 description: Erfahren Sie, wie Sie Ihre Angebote erstellen, konfigurieren und verwalten können
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '839'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
    ![](../assets/offer_manage-access.png)
 
-1. Fügen Sie Darstellungen hinzu, um festzulegen, wo in einer Nachricht Ihr Angebot angezeigt werden soll. [Weitere Informationen](add-representations.md)
+1. Fügen Sie Darstellungen hinzu, um festzulegen, wo in einer Nachricht Ihr Angebot angezeigt werden soll. [Weitere Informationen](add-representations.md) Bei der Personalisierung von Darstellungsinhalten werden nur bestimmte Funktionen unterstützt - siehe &quot;[ Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
 
    ![](../assets/channel-placement.png)
 
@@ -174,4 +174,4 @@ Auf diese Weise können Sie auf detaillierte Informationen zu diesem Angebot zug
 
 ## Tutorial-Video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341349?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Rangfolgenformeln
 description: Erfahren Sie, wie Sie Formeln erstellen, um Angebote zu ordnen
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Ranking, Decision Management
 topic: Integrations
 role: User
@@ -11,10 +11,10 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '636'
+ht-degree: 96%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 0%
 Mithilfe von **Rangfolgeformeln** können Sie festlegen, welches Angebot für eine bestimmte Platzierung zuerst angezeigt werden soll, anstatt die Prioritätswerte der Angebote zu berücksichtigen.
 
 Rangfolgeformeln werden in der **PQL-Syntax** angegeben und können Profil-, Kontextdaten- und Angebotsattribute nutzen. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview).
+
+Im Entscheidungs-Management wird nur eine Untergruppe von Funktionen in Rangfolgeformeln unterstützt. Siehe [Unterstützte Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md) für die Liste.
 
 Nachdem Sie eine Rangfolgenformel erstellt haben, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Weitere Informationen dazu finden Sie unter [Konfigurieren der Auswahl von Angeboten in Entscheidungen](../offer-activities/configure-offer-selection.md).
 
