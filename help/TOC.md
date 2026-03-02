@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 57916f631c0154113699ca941a635678813561fe
+source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3117'
 ht-degree: 97%
 
 ---
@@ -486,6 +486,7 @@ ht-degree: 97%
       + [Arbeiten mit Adobe Express](using/integrations/express.md)
       + [Arbeiten mit Experience Manager-Vorlagen](using/integrations/aem-templates.md)
       + [Arbeiten mit Experience Manager-Inhaltsfragmenten](using/integrations/aem-fragments.md)
+      + [Arbeiten mit Experience Manager Content Advisor](using/content-management/aem-content-advisor.md)
       + [Countdown-Timer einfügen](using/integrations/countdown.md)
       + [Arbeiten mit Dynamic Media](using/integrations/aem-dynamic.md)
       + [Arbeiten mit GenStudio for Performance Marketing](using/integrations/genstudio.md)
