@@ -3,13 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Zugriff auf Adobe Experience Manager Content Advisor
 description: Erfahren Sie, wie Sie mithilfe der KI-gestützten semantischen Suche in Adobe Journey Optimizer auf Adobe Experience Manager Content Advisor zugreifen und diese verwenden können, um Assets und Inhaltsfragmente zu ermitteln.
-feature: Content Management
-topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
+source-git-commit: 58b6300dd00cc4475397d117a705fe88deab1796
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -31,7 +29,7 @@ Adobe Experience Manager Content Advisor ersetzt deterministische Erkennung durc
 
 Adobe Experience Manager Content Advisor bietet die folgenden Asset-Funktionen:
 
-* &#x200B;
+* 
   +++ KI-Semantische Suche
 
   Suchen Sie mithilfe natürlicher Sprache nach Assets anstelle exakter Keywords oder Dateinamen. Beschreiben Sie, was Sie benötigen, in einfacher Sprache, z. B. „Kaffee in den Bergen“. Die KI findet kontextuell relevante Assets basierend auf Bedeutung und Inhalt, nicht nur Textübereinstimmungen.
@@ -40,7 +38,7 @@ Adobe Experience Manager Content Advisor bietet die folgenden Asset-Funktionen:
 
   +++
 
-* &#x200B;
+* 
   +++ Letzter Suchverlauf
 
   Greifen Sie auf Ihre letzten Suchvorgänge zu, um Keywords und Kontexte schnell wiederzuverwenden. Dies spart Zeit, wenn Sie an ähnlichen Kampagnen arbeiten oder frühere Suchvorgänge verfeinern müssen.
@@ -49,7 +47,7 @@ Adobe Experience Manager Content Advisor bietet die folgenden Asset-Funktionen:
 
   +++ 
 
-* &#x200B;
+* 
   +++ Zusammenfassung hochladen
 
   Laden Sie ein Marketing-Kurzdokument hoch, um automatisch Assets zu präsentieren, die mit Ihrem Kampagnenkontext übereinstimmen. Die KI analysiert Ihre Zusammenfassung und schlägt relevante Assets basierend auf dem Inhalt und den Anforderungen vor, die im Dokument beschrieben sind.
@@ -58,7 +56,7 @@ Adobe Experience Manager Content Advisor bietet die folgenden Asset-Funktionen:
 
   +++
 
-* &#x200B;
+* 
   +++ Bedienfeld „Asset-Informationen“
 
   Anzeigen detaillierter Metadaten und Eigenschaften für jedes Asset mithilfe des Symbols **Info**. Dazu gehören Asset-Dimensionen, Dateigröße, Erstellungsdatum, Tags und andere relevante Informationen, die Ihnen bei fundierten Entscheidungen helfen können.
@@ -67,7 +65,7 @@ Adobe Experience Manager Content Advisor bietet die folgenden Asset-Funktionen:
 
   +++
 
-* &#x200B;
+* 
   +++ Dynamic Media-Bedienfeld
 
   Zugreifen auf dynamische Ausgabedarstellungen, smartes Zuschneiden und Änderungen direkt basierend auf der Repository-Konfiguration.
@@ -82,7 +80,7 @@ Adobe Experience Manager Content Advisor bietet die folgenden Asset-Funktionen:
 
    * **Scene7**: Verfügbar für veröffentlichte Assets (außer Video und PDF). [Weitere Informationen zu Dynamic Media Scene7-Modifikatoren](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-   * **OpenAPI**: Verfügbar für genehmigte Assets (außer Video). [Weitere Informationen zu Dynamic Media mit OpenAPI-Modifikatoren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=de){target="_blank"}
+   * **OpenAPI**: Verfügbar für genehmigte Assets (außer Video). [Weitere Informationen zu Dynamic Media mit OpenAPI-Modifikatoren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
    * **Sowohl Scene7 als auch OpenAPI**: Verfügbar, wenn beide Konfigurationen vorhanden sind und das Asset die Kriterien erfüllt.
 
@@ -99,7 +97,7 @@ Adobe Experience Manager Content Advisor bietet die folgenden Asset-Funktionen:
 
 Adobe Experience Manager Content Advisor bietet die folgenden Inhaltsfragment-Funktionen:
 
-* &#x200B;
+* 
   +++ Liste der Vorlagenansichten 
 
   Wechseln Sie zwischen Miniatur- und Tabellenansichten, um Inhaltsfragmente in dem Format zu durchsuchen, das für Ihren Workflow am besten geeignet ist. Die Miniaturansicht bietet visuellen Kontext, während die Tabellenansicht detaillierte Informationen in einem strukturierten Format anzeigt.
@@ -108,7 +106,7 @@ Adobe Experience Manager Content Advisor bietet die folgenden Inhaltsfragment-Fu
 
   +++
 
-* &#x200B;
+* 
   +++ Infobereich 
 
   Klicken Sie auf **[!UICONTROL Info]**-Symbol, um einen rechten Bereich zu öffnen, der Fragmentvarianten, Eigenschaften und Details **[!UICONTROL Referenziert von]** anzeigt. Der Abschnitt **[!UICONTROL Referenziert von]** zeigt alle Adobe Experience Manager-Entitäten, in denen das Fragment verwendet wird, mit Links, um diese Verweise direkt in Adobe Experience Manager anzuzeigen.
@@ -117,7 +115,7 @@ Adobe Experience Manager Content Advisor bietet die folgenden Inhaltsfragment-Fu
 
   +++
 
-* &#x200B;
+* 
   +++ In Adobe Experience Manager öffnen
 
   Öffnen Sie schnell ein beliebiges Inhaltsfragment direkt in Adobe Experience Manager zur Bearbeitung, indem Sie das Symbol neben dem Titel verwenden. Durch diese nahtlose Integration können Sie ohne Kontextverlust zwischen Journey Optimizer und Adobe Experience Manager wechseln.
@@ -126,7 +124,7 @@ Adobe Experience Manager Content Advisor bietet die folgenden Inhaltsfragment-Fu
 
   +++
 
-* &#x200B;
+* 
   +++ JSON-Vorschau
 
   Zeigen Sie eine Vorschau der JSON-Struktur von Inhaltsfragmenten in einem übersichtlichen, geordneten Tabellenformat an. Auf diese Weise können Sie die Datenstruktur des Fragments verstehen und Inhalte überprüfen, bevor Sie sie in Ihren Kampagnen verwenden.
