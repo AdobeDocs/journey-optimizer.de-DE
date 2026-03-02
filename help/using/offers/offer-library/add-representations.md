@@ -110,13 +110,13 @@ Um Ihre Inhalte in einer Darstellung wiederzuverwenden, gehen Sie zur **Asset-Bi
 
 Um Inhalte von einem externen öffentlichen Speicherort hinzuzufügen, klicken Sie auf **[!UICONTROL URL]** und geben Sie dann die URL-Adresse des hinzuzufügenden Inhalts ein.
 
-Sie können URLs mit dem Personalisierungseditor personalisieren. Weitere Informationen über [Personalisierung](../../personalization/personalize.md#use-expression-editor). Im Entscheidungs-Management werden nur bestimmte Funktionen unterstützt - siehe &quot;[ Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
+Sie können URLs mit dem Personalisierungseditor personalisieren. Weitere Informationen über [Personalisierung](../../personalization/personalize.md#use-expression-editor). Im Entscheidungs-Management werden nur bestimmte Funktionen unterstützt - siehe &quot;[&#x200B; Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url.png)
 
 Sie möchten zum Beispiel das Bild, das als Angebot angezeigt wird, personalisieren. Sie möchten, dass Benutzende, die einen Stadturlaub bevorzugen, die Skyline von New York sehen und Benutzende, die einen Strandurlaub bevorzugen, die Nordküste von Hawaii sehen.
 
-Verwenden Sie den Personalisierungseditor unter Verwendung von Vereinigungsschemata, um Profilattribute abzurufen, die in Adobe Experience Platform gespeichert sind. [Weitere ](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=de){target="_blank"} zu unterstützten Funktionen im Entscheidungs-Management finden Sie unter [Unterstützte Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
+Verwenden Sie den Personalisierungseditor unter Verwendung von Vereinigungsschemata, um Profilattribute abzurufen, die in Adobe Experience Platform gespeichert sind. [Weitere &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=de){target="_blank"} zu unterstützten Funktionen im Entscheidungs-Management finden Sie unter [Unterstützte Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -138,7 +138,7 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
 
    ![](../assets/offer-text-content.png)
 
-   Sie können Ihre Inhalte mit dem Personalisierungseditor personalisieren.  Weitere Informationen über [Personalisierung](../../personalization/personalize.md#use-expression-editor). Im Entscheidungs-Management werden nur bestimmte Funktionen unterstützt - siehe &quot;[ Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
+   Sie können Ihre Inhalte mit dem Personalisierungseditor personalisieren.  Weitere Informationen über [Personalisierung](../../personalization/personalize.md#use-expression-editor). Im Entscheidungs-Management werden nur bestimmte Funktionen unterstützt - siehe &quot;[&#x200B; Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
 
    ![](../assets/offer-personalization.png)
 

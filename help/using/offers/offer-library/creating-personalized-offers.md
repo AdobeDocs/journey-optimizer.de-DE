@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
    ![](../assets/offer_manage-access.png)
 
-1. Fügen Sie Darstellungen hinzu, um festzulegen, wo in einer Nachricht Ihr Angebot angezeigt werden soll. [Weitere Informationen](add-representations.md) Bei der Personalisierung von Darstellungsinhalten werden nur bestimmte Funktionen unterstützt - siehe &quot;[ Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
+1. Fügen Sie Darstellungen hinzu, um festzulegen, wo in einer Nachricht Ihr Angebot angezeigt werden soll. [Weitere Informationen](add-representations.md) Bei der Personalisierung von Darstellungsinhalten werden nur bestimmte Funktionen unterstützt - siehe &quot;[&#x200B; Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
 
    ![](../assets/channel-placement.png)
 
