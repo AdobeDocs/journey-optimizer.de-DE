@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '3123'
 ht-degree: 97%
@@ -695,7 +695,6 @@ ht-degree: 97%
          + [Erste Schritte mit dem Entscheidungs-Management](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [Über das Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
          + [Schutzmechanismen und Einschränkungen für das Entscheidungs-Management](using/offers/decision-management-guardrails.md)
-         + [Unterstützte Funktionen im Ausdruckseditor](using/offers/personalization-editor-supported-functions.md)
          + [Benutzeroberfläche](using/offers/get-started/user-interface.md)
          + [Wichtigste Schritte bei der Angebotserstellung und -verwaltung](using/offers/offer-library/key-steps.md)
          + [Nutzen benutzerdefinierter Upload-Zielgruppen zur Entscheidungsfindung](using/offers/custom-upload-decisioning.md)
@@ -721,6 +720,7 @@ ht-degree: 97%
             + [Konfigurieren von Angeboten](/help/rp_landing_pages/configure-offers-landing-page.md)
             + [Erstellen von personalisierten Angeboten](using/offers/offer-library/creating-personalized-offers.md)
             + [Hinzufügen von Darstellungen](using/offers/offer-library/add-representations.md)
+            + [Unterstützte Funktionen im Personalisierungseditor](using/offers/offer-library/personalization-editor-supported-functions.md)
             + [Hinzufügen von Einschränkungen](using/offers/offer-library/add-constraints.md)
          + [Erstellen von Fallback-Angeboten](using/offers/offer-library/creating-fallback-offers.md)
          + [Erstellen von Sammlungen](using/offers/offer-library/creating-collections.md)

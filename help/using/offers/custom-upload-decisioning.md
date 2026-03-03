@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 97%
@@ -77,6 +77,6 @@ Um die Attribute einer benutzerdefinierten Upload-Zielgruppe zur Personalisierun
 
 Nachdem die Zielgruppe als Einschränkung hinzugefügt wurde, können Sie ihre Attribute verwenden, um den Darstellungsinhalt zu personalisieren. Rufen Sie hierzu die Registerkarte **Profilattribute** auf und suchen Sie nach der benutzerdefinierten Upload-Zielgruppe. Wählen Sie die relevanten Attribute aus der Zielgruppe aus, um den Angebotsinhalt zu personalisieren.
 
-Im Entscheidungs-Management werden bei der Personalisierung von Inhalten nur bestimmte Funktionen unterstützt - siehe [Unterstützte Funktionen im Ausdruckseditor](personalization-editor-supported-functions.md).
+Im Entscheidungs-Management werden bei der Personalisierung von Inhalten nur bestimmte Funktionen unterstützt - siehe [Unterstützte Funktionen im Personalisierungseditor](offer-library/personalization-editor-supported-functions.md).
 
 ![Benutzeroberfläche zur Personalisierung von Profilattributen](assets/csv-perso.png)

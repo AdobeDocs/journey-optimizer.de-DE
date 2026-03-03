@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 91%
@@ -74,7 +74,7 @@ Sie können einer Darstellung verschiedene Inhaltstypen hinzufügen.
 >
 >Es sind nur Inhalte verfügbar, die dem Content-Typ der Platzierung entsprechen.
 >
->Wenn Sie den Personalisierungseditor im Entscheidungs-Management verwenden, wird nur eine Untergruppe von Funktionen unterstützt - siehe [Unterstützte Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
+>Wenn Sie den Personalisierungseditor im Entscheidungs-Management verwenden, wird nur eine Untergruppe von Funktionen unterstützt - siehe [Unterstützte Funktionen im Personalisierungseditor](personalization-editor-supported-functions.md).
 
 ### Bilder hinzufügen {#images}
 
@@ -110,13 +110,13 @@ Um Ihre Inhalte in einer Darstellung wiederzuverwenden, gehen Sie zur **Asset-Bi
 
 Um Inhalte von einem externen öffentlichen Speicherort hinzuzufügen, klicken Sie auf **[!UICONTROL URL]** und geben Sie dann die URL-Adresse des hinzuzufügenden Inhalts ein.
 
-Sie können URLs mit dem Personalisierungseditor personalisieren. Weitere Informationen über [Personalisierung](../../personalization/personalize.md#use-expression-editor). Im Entscheidungs-Management werden nur bestimmte Funktionen unterstützt - siehe &quot;[&#x200B; Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
+Sie können URLs mit dem Personalisierungseditor personalisieren. Weitere Informationen über [Personalisierung](../../personalization/personalize.md#use-expression-editor). Im Entscheidungs-Management werden nur bestimmte Funktionen unterstützt - siehe [Unterstützte Funktionen im Personalisierungseditor](personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url.png)
 
 Sie möchten zum Beispiel das Bild, das als Angebot angezeigt wird, personalisieren. Sie möchten, dass Benutzende, die einen Stadturlaub bevorzugen, die Skyline von New York sehen und Benutzende, die einen Strandurlaub bevorzugen, die Nordküste von Hawaii sehen.
 
-Verwenden Sie den Personalisierungseditor unter Verwendung von Vereinigungsschemata, um Profilattribute abzurufen, die in Adobe Experience Platform gespeichert sind. [Weitere &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=de){target="_blank"} zu unterstützten Funktionen im Entscheidungs-Management finden Sie unter [Unterstützte Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
+Verwenden Sie den Personalisierungseditor unter Verwendung von Vereinigungsschemata, um Profilattribute abzurufen, die in Adobe Experience Platform gespeichert sind. [Weitere ](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=de){target="_blank"} zu unterstützten Funktionen im Entscheidungs-Management finden Sie unter [Unterstützte Funktionen im Personalisierungseditor](personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -138,7 +138,7 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
 
    ![](../assets/offer-text-content.png)
 
-   Sie können Ihre Inhalte mit dem Personalisierungseditor personalisieren.  Weitere Informationen über [Personalisierung](../../personalization/personalize.md#use-expression-editor). Im Entscheidungs-Management werden nur bestimmte Funktionen unterstützt - siehe &quot;[&#x200B; Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
+   Sie können Ihre Inhalte mit dem Personalisierungseditor personalisieren.  Weitere Informationen über [Personalisierung](../../personalization/personalize.md#use-expression-editor). Im Entscheidungs-Management werden nur bestimmte Funktionen unterstützt - siehe [Unterstützte Funktionen im Personalisierungseditor](personalization-editor-supported-functions.md).
 
    ![](../assets/offer-personalization.png)
 

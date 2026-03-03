@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: b90e3af955496d4fcae54b109cb1e86a8a21be43
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 98%
@@ -85,7 +85,7 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
 1. Fügen Sie Darstellungen hinzu, um festzulegen, wo in einer Nachricht Ihr Angebot angezeigt werden soll. [Weitere Informationen](add-representations.md)
 
-   Bei der Personalisierung von Darstellungsinhalten werden nur bestimmte Funktionen unterstützt - siehe [Unterstützte Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
+   Bei der Personalisierung von Darstellungsinhalten werden nur bestimmte Funktionen unterstützt - siehe [Unterstützte Funktionen im Personalisierungseditor](personalization-editor-supported-functions.md).
 
    ![](../assets/channel-placement.png)
 
@@ -176,4 +176,4 @@ Auf diese Weise können Sie auf detaillierte Informationen zu diesem Angebot zug
 
 ## Tutorial-Video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341349?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

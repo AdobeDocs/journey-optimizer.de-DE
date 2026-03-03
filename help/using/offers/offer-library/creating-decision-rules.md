@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 92%
+source-wordcount: '425'
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,6 @@ Im Folgenden finden Sie eine Liste der Einschränkungen, die bei der Arbeit mit 
 * Bei der Edge-Entscheidung wird das Edge-Profil verwendet, in dem keine Ereignisse gespeichert werden. Daher sind alle in einer Edge-Entscheidung verwendeten Regeln ungültig.
 * Beim Erstellen einer Entscheidungsregel wird ein Rückblick in einen vorherigen Zeitraum nicht unterstützt. So kann es beispielsweise sein, dass Sie als Bestandteil der Regel ein Erlebnisereignis angeben, das innerhalb des letzten Monats stattgefunden hat. Bei jedem Versuch, einen Rückblick-Zeitraum während der Regelerstellung einzubeziehen, wird beim Speichern ein Fehler ausgelöst.
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
-
->[!NOTE]
->
->Im Entscheidungs-Management wird nur eine Untergruppe von Ausdrucksfunktionen unterstützt. Wenn Ihre Regel Ausdrücke oder Profilattribute verwendet, finden Sie unter [Unterstützte Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md) eine Liste der unterstützten Funktionen.
 
 ## Erstellen einer Entscheidungsregel {#create}
 
@@ -85,4 +81,4 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 ## Tutorial-Video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341369?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
