@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,9 @@ Geben Sie beim Konfigurieren einer neuen [E-Mail-Kanalkonfiguration](email-setti
 
 >[!NOTE]
 >
->Um die Kontrolle über die E-Mail-Einstellungen zu verbessern, können Sie die Kopzeilen-Parameter personalisieren. [Weitere Informationen](../email/surface-personalization.md#personalize-header)
+>Um die Kontrolle über die E-Mail-Einstellungen zu verbessern, können Sie die Kopfzeilen-Parameter personalisieren. [Weitere Informationen](../email/surface-personalization.md#personalize-header)
+>
+>Beim [Bearbeiten einer E](../configuration/channel-surfaces.md#edit-channel-surface)Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen eine neue Kanalkonfiguration erstellen.
 
 * **[!UICONTROL Name des Absenders bzw. der Absenderin]**: Der Absendername, wie z. B. der Name Ihrer Marke.
 * **[!UICONTROL Präfix für Absender-E-Mail]**: Die E-Mail-Adresse, die für die Kommunikation verwendet werden soll.

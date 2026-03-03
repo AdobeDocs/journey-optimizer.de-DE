@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Archiv, Nachrichten, HIPAA, BCC, E-Mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 97%
+source-wordcount: '1339'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Sie können eine Blindkopie (BCC) einer von [!DNL Journey Optimizer] gesendeten 
 
 ### Aktivieren von BCC-E-Mails {#enable-bcc}
 
-Um die Option **[!UICONTROL BCC-E-Mail]** zu aktivieren, geben Sie die E-Mail-Adresse Ihrer Wahl in das dafür vorgesehene Feld der [Kanalkonfiguration](channel-surfaces.md) (d. h. der Nachrichtenvoreinstellung) ein. Sie können eine beliebige externe Adresse im korrekten Format angeben, mit Ausnahme einer E-Mail-Adresse, die in der Adobe zugewiesenen Subdomain definiert ist. Wenn Sie zum Beispiel die Subdomain *marketing.luma.com* an Adobe delegiert haben, ist jede Adresse des Typs *abc@marketing.luma.com* verboten.
+Um die Option **[!UICONTROL BCC-E]** Mail zu aktivieren, geben Sie die E-Mail-Adresse Ihrer Wahl in das entsprechende Feld der [Kanalkonfiguration](channel-surfaces.md) ein. Sie können eine beliebige externe Adresse im korrekten Format angeben, mit Ausnahme einer E-Mail-Adresse, die in der Adobe zugewiesenen Subdomain definiert ist. Wenn Sie zum Beispiel die Subdomain *marketing.luma.com* an Adobe delegiert haben, ist jede Adresse des Typs *abc@marketing.luma.com* verboten.
 
 >[!CAUTION]
 >
@@ -148,11 +148,11 @@ Je nach gesuchten Informationen können Sie die folgenden Abfragen ausführen.
 
    >[!NOTE]
    >
-   >Um den `<journey version id>`Parameter abzurufen, wählen Sie die entsprechende Journey-Version aus dem Menü **[!UICONTROL Journey-Verwaltung]** > **[!UICONTROL Journey]**. Die Journey-Versions-ID wird am Ende der URL angezeigt, die in Ihrem Webbrowser angezeigt wird. [Erfahren Sie mehr über Journey-Versionen](../building-journeys/publish-journey.md#journey-versions)
+   >Um den `<journey version id>`-Parameter abzurufen, wählen Sie die entsprechende Journey-Version aus dem Menü **[!UICONTROL Journey-Management]** > **[!UICONTROL Journeys]** aus. Die Journey-Versions-ID wird am Ende der URL angezeigt, die in Ihrem Webbrowser zu sehen ist. [Weitere Informationen über Journey-Versionen](../building-journeys/publish-journey.md#journey-versions)
    >
    >![](assets/preset-bcc-action-id.png)
 
-1. Führen Sie diese Abfrage aus, um alle Nachrichten-Feedback-Ereignisse (insbesondere den Feedback-Status) abzurufen, die in den letzten 2 Tagen für eine bestimmte Nachricht, die an einen bestimmten Benutzer gesendet wurde, generiert wurden:
+1. Führen Sie diese Abfrage aus, um alle Nachrichten-Feedback-Ereignisse (insbesondere den Feedback-Status) abzurufen, die in den letzten 2 Tagen für eine bestimmte Nachricht generiert wurden, die an eine bestimmte Benutzerin bzw. einen bestimmten Benutzer gesendet wurde:
 
    ```
    SELECT  

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1171'
-ht-degree: 100%
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+workflow-type: tm+mt
+source-wordcount: '1192'
+ht-degree: 98%
 
 ---
 
@@ -90,6 +90,10 @@ Nachdem Sie eine oder mehrere dynamische Subdomains zu einer Konfiguration hinzu
 
 Sie können die Personalisierung auch für alle Kopfzeilenparameter verwenden, die in einer Konfiguration definiert sind.
 
+>[!NOTE]
+>
+>Beim [Bearbeiten einer E](../configuration/channel-surfaces.md#edit-channel-surface)Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen eine neue Kanalkonfiguration erstellen.
+
 Wenn Sie beispielsweise über mehrere Marken verfügen, können Sie eine einzelne Konfiguration erstellen und für Ihre E-Mail-Kopfzeilen personalisierte Werte verwenden. Dadurch können Sie sicherstellen, dass alle von Ihren verschiedenen Marken gesendeten E-Mails jeweils mit den richtigen **Von**-Namen und -E-Mail-Adressen versehen werden. Wenn Ihre Empfängerinnen und Empfänger auf die Schaltfläche **Antworten** in der E-Mail-Client-Software klicken, sollten schließlich die Namen und E-Mail-Adressen für **Antwort an** der richtigen Marke für die richtige Person entsprechen.
 
 Gehen Sie wie folgt vor, um personalisierte Variablen für die Kopfzeilenparameter der Konfiguration zu verwenden.
@@ -140,7 +144,7 @@ Wenn die E-Mail gesendet wird, wird der personalisierte Parameter nun automatisc
 
 ## Anzeigen der Konfigurationsdetails {#view-surface-details}
 
-Wenn Sie eine Konfiguration mit personalisierten Einstellungen in einer Kampagne oder Journey verwenden, können Sie die Details der Konfiguration direkt innerhalb der Kampagne oder Journey anzeigen. Führen Sie dazu folgende Schritte durch.
+Wenn Sie eine Konfiguration mit personalisierten Einstellungen in einer Kampagne oder Journey verwenden, können Sie die Details der Konfiguration direkt innerhalb der Kampagne oder Journey anzeigen. Gehen Sie wie folgt vor.
 
 1. Erstellen Sie eine E-Mail-[Kampagne](../campaigns/create-campaign.md) oder [Journey](../building-journeys/journey-gs.md).
 
@@ -162,7 +166,7 @@ Wenn Sie eine Konfiguration mit personalisierten Einstellungen in einer Kampagne
 
 ## Überprüfen Ihrer Konfiguration {#check-configuration}
 
-Durch eine personalisierte Konfiguration in einer Kampagne oder Journey können Sie nun eine Vorschau Ihrer E-Mail-Inhalte mithilfe von Testprofilen anzeigen, um nach potenziellen Fehlern bei den von Ihnen definierten dynamischen Einstellungen zu suchen. Führen Sie dazu folgende Schritte durch.
+Durch eine personalisierte Konfiguration in einer Kampagne oder Journey können Sie nun eine Vorschau Ihrer E-Mail-Inhalte mithilfe von Testprofilen anzeigen, um nach potenziellen Fehlern bei den von Ihnen definierten dynamischen Einstellungen zu suchen. Gehen Sie wie folgt vor.
 
 >[!NOTE]
 >

@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '3123'
+source-wordcount: '3130'
 ht-degree: 97%
 
 ---
@@ -894,7 +894,8 @@ ht-degree: 97%
       + [Weitere Zustellversuche](using/configuration/retries.md)
       + [Zulassungsliste](using/configuration/allow-list.md)
    + [Verwenden von Testadressenlisten](using/configuration/seed-lists.md)
-   + [Unterstützung für Archivierung](using/configuration/archiving-support.md)
+   + [Unterstützung für E-Mail-Archivierung](using/configuration/archiving-support.md)
+   + [Hinzufügen eines CC-Felds zu E-Mails](using/configuration/cc-email-field.md)
    + [Verwalten von Ausführungsfeldern](using/configuration/primary-email-addresses.md)
    + [Erstellen von Feedback-Webhooks](using/configuration/feedback-webhooks.md)
 + Journey-Konfiguration {#configure-journeys}

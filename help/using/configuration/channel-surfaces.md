@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1854'
-ht-degree: 94%
+source-wordcount: '1875'
+ht-degree: 98%
 
 ---
 
@@ -166,6 +166,8 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu bearbeiten.
 >[!NOTE]
 >
 >Die **[!UICONTROL Einstellungen für Push-Benachrichtigungen]** können Sie nicht bearbeiten. Wenn eine Kanalkonfiguration nur für den Kanal „Push-Benachrichtigung“ konfiguriert ist, kann sie nicht bearbeitet werden.
+>
+>Beim Bearbeiten einer E-Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ ](#create-channel-surface).
 
 1. Klicken Sie in der Liste auf den Namen einer Kanalkonfiguration, um sie zu öffnen.
 
@@ -252,13 +254,13 @@ Wenn die Aktualisierung fehlschlägt, kann die Konfiguration erneut bearbeitet w
 
 ## Deaktivieren einer Kanalkonfiguration {#deactivate-a-surface}
 
-Wenn Sie möchten, dass eine **[!UICONTROL aktive]** Kanalkonfiguration nicht verfügbar ist, um neue Nachrichten zu erstellen, können Sie sie deaktivieren. <!--However, journeys' messages currently using this configuration will not be affected and will continue working.-->
+Wenn Sie möchten, dass eine **[!UICONTROL aktive]** Kanalkonfiguration zum Erstellen von neuen Nachrichten nicht verfügbar ist, können Sie sie deaktivieren. <!--However, journeys' messages currently using this configuration will not be affected and will continue working.-->
 
 Eine Kanalkonfiguration kann in den folgenden Fällen nicht deaktiviert werden:
 
-* Wenn er von einer Live-Journey referenziert wird. Der Versuch, eine noch von einer Live-Journey verwendete Konfiguration zu deaktivieren, führt zu einem Fehler. Um eine Kanalkonfiguration zu deaktivieren, stellen Sie sicher, dass alle Live-Journey, die diese Konfiguration verwenden, geschlossen oder gestoppt sind. [Erfahren Sie, wie Sie eine Journey beenden](../building-journeys/end-journey.md)
+* Wenn sie von einer Live-Journey referenziert wird. Der Versuch, eine noch von einer Live-Journey verwendete Konfiguration zu deaktivieren, führt zu einem Fehler. Um eine Kanalkonfiguration zu deaktivieren, stellen Sie sicher, dass alle Live-Journeys, die diese Konfiguration verwenden, geschlossen oder gestoppt sind. [Weitere Informationen zum Beenden einer Journey](../building-journeys/end-journey.md)
 
-* Während eine Aktualisierung der Kanalkonfiguration ausgeführt wird. Sie müssen warten, bis die Aktualisierung entweder erfolgreich war oder fehlgeschlagen ist. Erfahren Sie mehr über [Bearbeiten von Kanalkonfigurationen](#edit-channel-surface) und über die [Aktualisierungsstatus](#update-statuses).
+* Während eine Aktualisierung der Kanalkonfiguration ausgeführt wird. Sie müssen warten, bis die Aktualisierung entweder erfolgreich war oder fehlgeschlagen ist. Erfahren Sie mehr über das [Bearbeiten von Kanalkonfigurationen](#edit-channel-surface) und die [Aktualisierungsstatus](#update-statuses).
 
 Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu deaktivieren.
 

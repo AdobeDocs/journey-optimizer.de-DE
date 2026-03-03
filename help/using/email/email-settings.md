@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Konfigurieren von E-Mail-Einstellungen
+title: E-Mail-Einstellungen konfigurieren
 description: Erfahren Sie, wie Sie E-Mail-Einstellungen auf Kanalkonfigurations-Ebene konfigurieren
 feature: Email, Channel Configuration
 topic: Administration
@@ -9,14 +9,14 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
-workflow-type: ht
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 100%
 
 ---
 
-# Konfigurieren von E-Mail-Einstellungen {#email-settings}
+# E-Mail-Einstellungen konfigurieren {#email-settings}
 
 Zu Beginn der Erstellung einer E-Mail müssen Sie Konfigurationen für E-Mail-Kanäle einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren. [Erfahren Sie, wie Sie Konfigurationen erstellen](../configuration/channel-surfaces.md)
 
@@ -100,10 +100,18 @@ Sie können eine identische Kopie (oder Blindkopie) von E-Mails senden, die von 
 Aktivieren Sie dazu auf der Ebene der Kanalkonfiguration die optionale Funktion **[!UICONTROL BCC-E-Mail]**. [Weitere Informationen](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+<!--replace screenshot-->
 
 Darüber hinaus ist bei der Definition der **[!UICONTROL BCC-E-Mail]**-Adresse sicherzustellen, dass eine Subdomain mit einer gültigen MX-Eintragskonfiguration verwendet wird. Andernfalls schlägt die Verarbeitung der E-Mail-Konfiguration fehl.
 
 Wenn beim Senden der E-Mail-Konfiguration ein Fehler auftritt, bedeutet dies, dass der MX-Eintrag nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Sie können die Administrierenden kontaktieren, um den entsprechenden MX-Eintrag zu konfigurieren, oder eine andere Adresse mit einer gültigen MX-Eintragskonfiguration verwenden.
+
+<!--
+## CC email {#cc-email}
+
+You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey Optimizer], so that an additional address receives a copy and is visible to the primary recipient. The CC field is optional and supports personalization. [Learn more](../configuration/cc-email-field.md)
+
+-->
 
 ## Senden an unterdrückte E-Mail-Adressen {#send-to-suppressed-email-addresses}
 
