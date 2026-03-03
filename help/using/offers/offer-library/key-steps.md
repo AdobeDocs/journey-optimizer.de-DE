@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: 9d85361c6f177e451149baf4e2677dce56c6130c
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 92%
+source-wordcount: '360'
+ht-degree: 93%
 
 ---
 
@@ -77,7 +77,7 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 
 ## Angebote erstellen und verwalten {#create-and-manage-offers}
 
-1. [Angebote erstellen](creating-personalized-offers.md) und ihren Inhalt und ihre Eigenschaften konfigurieren. Beim Personalisieren von Angebotsinhalten (Darstellungen) werden nur bestimmte Ausdrucksfunktionen unterstützt - siehe [Unterstützte Funktionen im Ausdruckseditor](../personalization-editor-supported-functions.md).
+1. [Angebote erstellen](creating-personalized-offers.md) und ihren Inhalt und ihre Eigenschaften konfigurieren. Beim Personalisieren von Angebotsinhalten (Darstellungen) werden nur bestimmte Funktionen unterstützt - siehe [Unterstützte Funktionen im Personalisierungseditor](personalization-editor-supported-functions.md).
 
 1. [Erstellen Sie Fallback-Angebote](creating-fallback-offers.md), die angezeigt werden, wenn Kunden für keines der ausgewählten Angebote geeignet sind.
 
