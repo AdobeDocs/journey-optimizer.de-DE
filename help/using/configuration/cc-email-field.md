@@ -85,7 +85,7 @@ Wenn Sie [E-Mail-Konfiguration bearbeiten](channel-surfaces.md#edit-channel-surf
 
 >[!CAUTION]
 >
->Beim Bearbeiten einer vorhandenen E-Mail-Kanal-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zum Feld **[!UICONTROL CC-E-Mail]** hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ ](channel-surfaces.md#create-channel-surface).
+>Beim Bearbeiten einer vorhandenen E-Mail-Kanal-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zum Feld **[!UICONTROL CC-E-Mail]** hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ &#x200B;](channel-surfaces.md#create-channel-surface).
 
 ## Empfehlungen und Einschränkungen {#cc-recommendations-limitations}
 
@@ -95,7 +95,7 @@ Wenn Sie [E-Mail-Konfiguration bearbeiten](channel-surfaces.md#edit-channel-surf
 
 * **Posteingangsverwaltung:** Ihr Posteingang, der für CC verwendet wird, sollte in Bezug auf Speicherplatz und Versand ordnungsgemäß verwaltet werden. Wenn der Posteingang Bounces zurückgibt, werden einige E-Mails möglicherweise nicht empfangen.
 
-* **Versandzeitpunkt:** Nachrichten können vor den Zielgruppenempfängerinnen und -empfängern an die CC-E-Mail-Adresse gesendet werden. CC-Nachrichten können auch dann gesendet werden, wenn es bei den ursprünglichen Nachrichten zu einem „Bounce[ gekommen ](../reports/suppression-list.md#delivery-failures).
+* **Versandzeitpunkt:** Nachrichten können vor den Zielgruppenempfängerinnen und -empfängern an die CC-E-Mail-Adresse gesendet werden. CC-Nachrichten können auch dann gesendet werden, wenn es bei den ursprünglichen Nachrichten zu einem „Bounce[&#x200B; gekommen &#x200B;](../reports/suppression-list.md#delivery-failures).
 
 * **Reporting:** Öffnungen, Klicks und andere Interaktionen von CC-Empfängern sind in E-Mail-Reporting-Metriken enthalten. Öffnungen oder Klicks von CC-Empfängern führen daher zu falschen Berechnungen in [Berichten](../reports/report-gs-cja.md).
 
