@@ -23,7 +23,7 @@ ht-degree: 90%
 >
 >Auf dieser Seite werden Entscheidungsregeln für die alte Funktion **Entscheidungs-Management** behandelt. Wenn Sie **Decisioning** verwenden - [!DNL Adobe Journey Optimizer] aktuelle Entscheidungsfunktion, die über Code-basierte Erlebnis- und E-Mail-Kanäle verfügbar ist -, lesen Sie stattdessen [Regeln erstellen](../../experience-decisioning/rules.md).
 >
->Sie sind sich nicht sicher, welche Funktion Sie verwenden? [Erfahren Sie mehr über ](../../experience-decisioning/gs-experience-decisioning.md).
+>Sie sind sich nicht sicher, welche Funktion Sie verwenden? [Erfahren Sie mehr über &#x200B;](../../experience-decisioning/gs-experience-decisioning.md).
 
 ## Über Entscheidungsregeln {#about}
 

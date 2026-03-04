@@ -22,7 +22,7 @@ ht-degree: 83%
 >
 >Auf dieser Seite werden Leitplanken für die alte Funktion **Entscheidungs-Management** behandelt. Wenn Sie **Decisioning** verwenden - [!DNL Adobe Journey Optimizer] aktuelle Entscheidungsfunktion, die über Code-basierte Erlebnis- und E-Mail-Kanäle verfügbar ist -, lesen Sie stattdessen [Entscheidungs-Leitplanken und -](../experience-decisioning/decisioning-guardrails.md) .
 >
->Sie sind sich nicht sicher, welche Funktion Sie verwenden? [Erfahren Sie mehr über ](../experience-decisioning/gs-experience-decisioning.md).
+>Sie sind sich nicht sicher, welche Funktion Sie verwenden? [Erfahren Sie mehr über &#x200B;](../experience-decisioning/gs-experience-decisioning.md).
 
 Diese Seite gilt für Benutzer, die noch mit dem alten Entscheidungs-Management-System arbeiten. Beachten Sie für eine optimale Nutzung die folgenden Leitplanken und Einschränkungen.
 
