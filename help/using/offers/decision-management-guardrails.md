@@ -3,26 +3,28 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Leitlinien und Einschränkungen für das Entscheidungs-Management
 description: Erfahren Sie mehr über die Leitlinien und Einschränkungen für das Entscheidungs-Management.
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '400'
+ht-degree: 83%
 
 ---
 
-# Schutzmechanismen und Einschränkungen für das Entscheidungs-Management {#decision-management-guardrails}
+# Leitlinien und Einschränkungen für das Entscheidungs-Management {#decision-management-guardrails}
 
->[!TIP]
+>[!IMPORTANT]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md)
+>Auf dieser Seite werden Leitplanken für die alte Funktion **Entscheidungs-Management** behandelt. Wenn Sie **Decisioning** verwenden - [!DNL Adobe Journey Optimizer] aktuelle Entscheidungsfunktion, die über Code-basierte Erlebnis- und E-Mail-Kanäle verfügbar ist -, lesen Sie stattdessen [Entscheidungs-Leitplanken und -](../experience-decisioning/decisioning-guardrails.md) .
+>
+>Sie sind sich nicht sicher, welche Funktion Sie verwenden? [Erfahren Sie mehr über ](../experience-decisioning/gs-experience-decisioning.md).
 
-Um eine optimale Nutzung des Entscheidungs-Managements sicherzustellen, sollten Sie die folgenden Leitlinien und Einschränkungen beachten.
+Diese Seite gilt für Benutzer, die noch mit dem alten Entscheidungs-Management-System arbeiten. Beachten Sie für eine optimale Nutzung die folgenden Leitplanken und Einschränkungen.
 
 Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey Optimizer] finden Sie in [diesem Abschnitt](../start/guardrails.md).
 

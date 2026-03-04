@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Starten, erste Schritte
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '208'
-ht-degree: 100%
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 48%
 
 ---
 
@@ -23,6 +23,34 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 [!DNL Journey Optimizer] ermöglicht die Erstellung und den Entwurf von Landingpages, um deren Benutzende zu Online-Formularen zu leiten, über die sie sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder einen bestimmten Dienst wie einen Newsletter abonnieren können.
 
 ➡️ [Informationen zur Konfiguration von Abonnements und zur Erstellung von Landingpages finden Sie in diesem Video](#video)
+
+## Verwendung von Landingpages {#when-to-use}
+
+Verwenden Sie Landingpages, wenn Sie Folgendes tun möchten:
+
+* Kunden die Möglichkeit geben **Marketing-Nachrichten über einen Link in einer E-Mail oder Kampagne zu** oder abzumelden
+* Kunden erlauben, sich **bestimmten Dienst oder Newsletter anzumelden** abzumelden
+* **Einverständnis einholen** bevor Nachrichten gesendet werden, und die Aktion mit einer automatisierten E-Mail bestätigen
+* Benutzer zu einem **Web-Formular umleiten** ohne eine externe Seite außerhalb von [!DNL Journey Optimizer] zu erstellen
+
+## Bevor Sie beginnen {#prerequisites}
+
+Führen Sie vor dem Erstellen einer Landingpage die folgenden Schritte aus:
+
+1. **Subdomain konfigurieren** - Richten Sie eine Subdomain ein, die dem Hosten Ihrer Landingpages dient. [Konfigurieren von Landingpage-Subdomains](lp-subdomains.md)
+1. **Landingpage-Voreinstellung erstellen** - Eine Voreinstellung definiert die Subdomain und andere Einstellungen, die auf Ihre Landingpages angewendet werden. [Voreinstellung erstellen](lp-presets.md#lp-create-preset)
+1. **Abonnement-Liste erstellen** (für Abonnement-Anwendungsfälle) - Erforderlich, wenn Kundinnen und Kunden einen bestimmten Dienst abonnieren oder abmelden sollen. [Abonnement-Liste erstellen](subscription-list.md)
+
+## Funktionsweise {#how-it-works}
+
+Das Erstellen und Bereitstellen einer Landingpage folgt dieser Reihenfolge:
+
+1. **Landingpage erstellen und konfigurieren** - Wählen Sie eine Voreinstellung aus, richten Sie die Primärseite ein und fügen Sie alle erforderlichen Unterseiten hinzu. [Landingpage erstellen](create-lp.md)
+1. **Seite gestalten** - Seiteninhalt und Formular mit dem Drag-and-Drop-Editor von [!DNL Journey Optimizer] erstellen. [Erstellen einer Landingpage](design-lp.md)
+1. **Testen und Veröffentlichen** - Vorschau der Seite, Testen des Formularverhaltens und anschließendes Veröffentlichen, um sie live zu schalten. [Landingpages verwalten](manage-lp.md)
+1. **Link in einer Nachricht oder einer Journey** - Fügen Sie die Landingpage-URL zu einer E-Mail-, Kampagnen- oder Journey-Aktion hinzu, damit Kunden sie erreichen können.
+
+## Wichtigste Funktionen {#capabilities}
 
 * Nutzen Sie [!DNL Journey Optimizer]Funktionen zur Inhaltserstellung zur mühelosen Gestaltung von **responsiven Landingpages**.
 * Richten Sie einfach und schnell **Opt-in- und Opt-out-Vorgänge** ein.
@@ -52,7 +80,7 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 <img alt="Validierung" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="design-lp.md"><strong>Landingpages entwerfen</strong></a>
+<a href="design-lp.md"><strong>Entwerfen von Landingpages</strong></a>
 </div>
 <p>
 </td>
@@ -71,4 +99,4 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 
 Im folgenden Video erfahren Sie, wie Sie eine Abonnement-Liste erstellen, Landingpages einrichten, um An- oder Abmeldungen für einen Service zu ermöglichen, die Optionen zum Abonnieren oder Abbestellen in eine Nachricht integrieren und entsprechende Journeys konfigurieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409511?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

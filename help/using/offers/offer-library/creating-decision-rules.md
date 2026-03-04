@@ -10,18 +10,20 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 90%
 
 ---
 
 # Erstellen von Entscheidungsregeln {#create-decision-rules}
 
->[!TIP]
+>[!IMPORTANT]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../experience-decisioning/gs-experience-decisioning.md)
+>Auf dieser Seite werden Entscheidungsregeln für die alte Funktion **Entscheidungs-Management** behandelt. Wenn Sie **Decisioning** verwenden - [!DNL Adobe Journey Optimizer] aktuelle Entscheidungsfunktion, die über Code-basierte Erlebnis- und E-Mail-Kanäle verfügbar ist -, lesen Sie stattdessen [Regeln erstellen](../../experience-decisioning/rules.md).
+>
+>Sie sind sich nicht sicher, welche Funktion Sie verwenden? [Erfahren Sie mehr über ](../../experience-decisioning/gs-experience-decisioning.md).
 
 ## Über Entscheidungsregeln {#about}
 
@@ -81,4 +83,4 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 ## Tutorial-Video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341369?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
