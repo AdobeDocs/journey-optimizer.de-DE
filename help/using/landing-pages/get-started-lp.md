@@ -96,4 +96,4 @@ Das Erstellen und Bereitstellen einer Landingpage folgt dieser Reihenfolge:
 
 Das folgende Video zeigt, wie Sie eine Abonnement-Liste erstellen, Landingpages zum Opt-in oder Opt-out für einen Service einrichten, die Opt-in-/Opt-out-Option in eine Nachricht integrieren und entsprechende Journey konfigurieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3409511?captions=ger&quality=12&learn=on)
