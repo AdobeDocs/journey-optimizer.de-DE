@@ -9,7 +9,8 @@ role: User
 hidefromtoc: true
 hide: true
 level: Experienced
-source-git-commit: 74102069afa519898149de33f890568950571f26
+exl-id: 0c586565-0c65-435f-986d-cd08b59de159
+source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 5%
@@ -60,7 +61,7 @@ Wenn Sie den erweiterten HTML-Editor verwenden, sind die folgenden Leitplanken v
    >
    >Diese Warnung wird nur angezeigt, wenn Sie den erweiterten HTML-Editor zum ersten Mal öffnen und monatlich zurücksetzen.
 
-   ![](assets/email-template-expert-mode-warning.png)
+   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
 1. Der erweiterte HTML-Editor wird angezeigt.
 
@@ -74,7 +75,7 @@ Wenn Sie den erweiterten HTML-Editor verwenden, sind die folgenden Leitplanken v
 
 1. Speichern ist in der erweiterten HTML-Ansicht nicht verfügbar. Wechseln Sie zurück zur Desktop-Ansicht, um Ihre Änderungen zu speichern.
 
-   &lt;![](assets/email-template-expert-mode-save.png)
+   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
