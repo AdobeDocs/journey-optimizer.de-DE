@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: 74102069afa519898149de33f890568950571f26
 workflow-type: tm+mt
-source-wordcount: '3130'
-ht-degree: 97%
+source-wordcount: '3136'
+ht-degree: 96%
 
 ---
 
@@ -461,8 +461,9 @@ ht-degree: 97%
       + [Erste Schritte mit Inhaltsvorlagen](using/content-management/content-templates.md)
       + [Zugreifen auf und Verwalten von Vorlagen](using/content-management/access-content-templates.md)
       + [Erstellen von Inhaltsvorlagen](using/content-management/create-content-templates.md)
-      + [Konvertieren von Bildern in HTML-Vorlagen](using/content-management/image-to-html.md)
+      + [Bilder in E-Mail-Vorlagen konvertieren](using/content-management/image-to-html.md)
       + [Sperren von Inhalten in E-Mail-Vorlagen](using/content-management/content-locking.md)
+      + [E-Mail-Vorlagen im Expertenmodus bearbeiten](using/content-management/email-template-expert-mode.md)
       + [Testen von Inhaltsvorlagen](using/content-management/test-content-templates.md)
       + [Verwenden von Inhaltsvorlagen](using/content-management/use-content-templates.md)
    + Wiederverwendbare Inhaltsfragmente {#fragments}
