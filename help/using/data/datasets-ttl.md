@@ -8,14 +8,14 @@ role: Developer, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
+source-git-commit: f46ec2fa3bcd342b864081e0e2c805c2a07e4236
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 77%
+source-wordcount: '1039'
+ht-degree: 95%
 
 ---
 
-# Time-to-Live(TTL)-Limits für Datensätze {#ttl-guardrail}
+# Leitlinien für die Time-to-Live (TTL) von Datensätzen {#ttl-guardrail}
 
 Ab Februar 2025 werden in **neuen Sandboxes und neuen Organisationen** für systemgenerierte Journey Optimizer-Datensätze als Schutzmechanismen die folgenden Limits für die Time-to-Live (TTL) eingeführt:
 
@@ -33,19 +33,11 @@ In der folgenden Tabelle sind alle betroffenen Datensätze und die jeweilige Tim
 | Ereignisdatensatz mit Feedback zu AJO-Nachrichten | 13 Monate | 90 Tage |
 | Ereignisdatensatz zu Erfahrungen beim AJO-E-Mail-Tracking | 13 Monate | 90 Tage |
 | Ereignisdatensatz zu Erfahrungen beim AJO-Push-Tracking | 13 Monate | 90 Tage |
-| AJO-Entitäts-Datensatz | 13 Monate | 90 Tage |
 | AJO-Oberflächen-Datensatz | 13 Monate | k. A. |
 | Ereignisdatensatz für eingehende AJO-Aktivitäten | 13 Monate | 90 Tage |
-| AJO-Klassifizierungs-Datensatz | 13 Monate | k. A. |
 | Ereignisdatensatz mit Feedback zu AJO-E-Mail-BCC | 13 Monate | k. A. |
 | Entitäts-Ereignisdatensatz | 13 Monate | k. A. |
-| Journeys | 13 Monate | k. A. |
 | Journey-Schrittereignisse | 13 Monate | k. A. |
-| Entscheidungsobjekt-Repository – Personalisierte Angebote | 13 Monate | k. A. |
-| Entscheidungsobjekt-Repository – Fallback-Angebote | 13 Monate | k. A. |
-| Entscheidungsobjekt-Repository – Platzierungen | 13 Monate | k. A. |
-| Entscheidungsobjekt-Repository – Aktivitäten | 13 Monate | k. A. |
-| Repository für Erlebnis-Entscheidungs-Objekte – Personalisierte Angebotselemente | 13 Monate | k. A. |
 | ODE DecisionEvents – Produktions-Entscheidungsfindung | 13 Monate | k. A. |
 
 ## Häufig gestellte Fragen {#faq}
@@ -53,6 +45,12 @@ In der folgenden Tabelle sind alle betroffenen Datensätze und die jeweilige Tim
 Im Folgenden finden Sie häufig gestellte Fragen zur Time-to-Live (TTL) von Datensätzen.
 
 Sie würden gerne mehr erfahren? Verwenden Sie die Feedback-Optionen unten auf dieser Seite, um Ihre Frage zu stellen, oder vernetzen Sie sich mit der [Adobe Journey Optimizer-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=de){target="_blank"}.
+
++++Welche Arten von Datensätzen unterliegen der TTL?
+
+TTL gilt nur für Zeitreihen-Datensätze. Datensätze vom Typ „Datensätze“ (z. B. Entitätsdatensätze, Klassifizierungsdatensätze und Entscheidungsobjekt-Repositorys) unterliegen nicht der TTL und werden daher nicht in der obigen Tabelle Betroffene Datensätze angezeigt.
+
++++
 
 +++Gilt diese Änderung nur für Produktions-Sandboxes oder auch für Entwicklungs-Sandboxes?
 
@@ -78,13 +76,13 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Es ist jedoch geplant, den 
 
 >[!NOTE]
 >
->Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=_blank}
+>Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=&quot;_blank}
 
 +++
 
 +++Können Kundinnen und Kunden die TTL für Systemdatensatzdaten von [!DNL Journey Optimizer] im Data Lake erhöhen? 
 
-TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=&quot;_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -114,29 +112,29 @@ Es wird der Zeitstempel des Ereignisses verwendet (d. h. nicht das Aufnahmedatu
 
 +++
 
-+++Wie wirkt sich die neue TTL auf Anwendungsfälle aus, die eine längere Datenaufbewahrung erfordern (z. B. Profile ausschließen, die in den letzten 120 Tagen eine E-Mail erhalten haben, oder E-Mails über ein Jahr begrenzen)?
++++Wie wirkt sich die neue TTL auf Anwendungsfälle aus, die eine längere Datenspeicherung erfordern (z. B. Ausschließen von Profilen, die in den letzten 120 Tagen eine E-Mail erhalten haben, oder Begrenzen von E-Mails über ein Jahr)?
 
-Die neue TTL-Richtlinie beschränkt den Lookback-Zeitraum für systemgenerierte Datensatzdaten im Profilspeicher auf 90 Tage und im Data Lake auf 13 Monate. Anwendungsfälle, bei denen über diese Zeiträume hinaus auf Daten zugegriffen werden muss, sind davon betroffen. Beispielsweise ist die Zielgruppensegmentierung oder Frequenzlimitierung basierend auf Ereignissen, die älter als 90 Tage im Profilspeicher sind, nicht mehr mit Systemdatensätzen möglich.
+Die neue TTL-Richtlinie beschränkt den Lookback-Zeitraum für systemgenerierte Datensatzdaten im Profilspeicher auf 90 Tage und im Data Lake auf 13 Monate. Es sind Anwendungsfälle davon betroffen, bei denen über diese Zeiträume hinaus auf Daten zugegriffen werden muss. Beispielsweise ist die Zielgruppensegmentierung oder Frequenzbegrenzung basierend auf Ereignissen im Profilspeicher, die älter als 90 Tage sind, nicht mehr mit Systemdatensätzen möglich.
 
 +++
 
 +++Welche Alternativen stehen zur Verfügung, um Daten länger als die TTL aufzubewahren?
 
-Kunden, die eine längere Aufbewahrungsfrist benötigen, sollten den Export relevanter Daten aus AJO-Datensätzen in einen externen Speicher in Betracht ziehen, bevor die TTL abläuft. Adobe Journey Optimizer unterstützt den Export von Datensätzen an verschiedene Cloud-Speicher-Ziele (Amazon S3, Azure Blob, Google Cloud Storage usw.). [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=_blank}
+Kundinnen und Kunden, die eine längere Aufbewahrungsfrist benötigen, sollten den Export relevanter Daten aus AJO-Datensätzen in einen externen Speicher in Betracht ziehen, bevor die TTL abläuft. Adobe Journey Optimizer unterstützt den Export von Datensätzen an verschiedene Cloud-Speicher-Ziele (Amazon S3, Azure Blob, Google Cloud Storage usw.). [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=&quot;_blank}
 
 +++
 
 +++Was sollten Kundinnen und Kunden tun, um sich auf die TTL-Änderung vorzubereiten?
 
-* Überprüfen Sie Ihre Anwendungsfälle und identifizieren Sie alle Fälle, bei denen eine Datenaufbewahrung über die neuen TTLs hinaus erforderlich ist.
+* Überprüfen Sie Ihre Anwendungsfälle und identifizieren Sie alle Fälle, bei denen eine Datenspeicherung über die neuen TTLs hinaus erforderlich ist.
 * Richten Sie automatisierte Abfragen ein, um wichtige Daten in abgeleitete Datensätze zu kopieren, bevor Daten gelöscht werden.
-* Besprechen Sie mit Ihrem Adobe-Support-Mitarbeiter alle zusätzlichen Anforderungen oder potenziellen TTL-Erweiterungen (für zukünftige Versionen geplant).
+* Besprechen Sie mit dem Adobe-Support alle zusätzlichen Anforderungen oder potenziellen TTL-Erweiterungen (für zukünftige Versionen geplant).
 
 +++
 
-+++Werden Kunden benachrichtigt, bevor die TTL in vorhandenen Sandboxes durchgesetzt wird?
++++Werden Kundinnen und Kunden benachrichtigt, bevor die TTL in vorhandenen Sandboxes durchgesetzt wird?
 
-Ja, betroffene Kunden werden vorab benachrichtigt und das Produkt-Team wird mit ihnen zusammenarbeiten, um einen reibungslosen Übergang sicherzustellen.
+Ja, betroffene Kundinnen und Kunden werden vorab benachrichtigt und das Produkt-Team wird mit ihnen zusammenarbeiten, um einen reibungslosen Übergang sicherzustellen.
 
 +++Kann ich systemgenerierte Journey Optimizer-Datensätze löschen?
 
