@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: f212a2178e83283d4755da5483d7c11ba4df183f
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '359'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Als Marketing-Experte für eine Einzelhandelsmarke führen Sie beispielsweise ei
 
 * Empfänger, die sofort öffnen, sehen „47 Stunden verbleibend“
 * Empfänger, die 24 Stunden später öffnen, sehen „23 Stunden verbleibend“
-* Empfänger, die nach Verkaufsende öffnen, sehen „Verkauf beendet“
+* Empfänger, die nach dem Verkauf öffnen, sehen „Die Zeit ist um!“
 
 Weitere Informationen zum Hinzufügen von Countdown-Timern zu Ihrer Dynamic Media-Vorlage in Adobe Experience Manager finden Sie [diesem Dokument](assets/do-not-localize/countdown.pdf).
 
@@ -45,13 +45,17 @@ Weitere Informationen zum Hinzufügen von Countdown-Timern zu Ihrer Dynamic Medi
 
    ![](assets/timer-3.png)
 
+1. Aktivieren Sie das Pillenerlebnis, indem Sie Pillen aktivieren umschalten. Dies verbessert die Lesbarkeit, indem lange Attributpfade ausgeblendet werden.
+
+   ![](assets/timer-6.png)
+
 1. Konfigurieren **[!UICONTROL im Menü „Benutzerdefinierte]**&quot; alle anpassbaren URL-Parameter, die für Ihre Vorlage erforderlich sind.
 
    Klicken Sie **[!UICONTROL Speichern]** wenn Sie fertig sind.
 
    ![](assets/timer-4.png)
 
-1. Wählen Sie das Asset in der E-Mail-Designer aus und rufen Sie dann das Menü **[!UICONTROL Einstellungen]** auf.
+1. Alternativ können Sie auch auf die Parameter der Dynamic Media-Vorlage zugreifen, indem Sie das Asset in der E-Mail-Designer auswählen und dann auf das Menü **[!UICONTROL Einstellungen]** zugreifen.
 
    Konfigurieren Sie Folgendes:
 
