@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
+source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
@@ -80,3 +80,8 @@ Wenn Sie den erweiterten HTML-Editor verwenden, sind die folgenden Leitplanken v
    >[!NOTE]
    >
    >Inhalte können aus Gründen der Inhaltskompatibilität nur in der Desktop-Ansicht gespeichert werden. Ihre Bearbeitungen bleiben beim Wechseln der Ansichten erhalten.
+
+1. Die Inhaltssimulation ist in der erweiterten HTML-Ansicht nicht verfügbar. Um Ihren Inhalt zu simulieren, wechseln Sie zur Desktop-Ansicht.
+
+   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
+
