@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: e6cac6aff79b30a308be480319902f478436391d
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 79%
+source-wordcount: '860'
+ht-degree: 59%
 
 ---
 
@@ -36,7 +36,7 @@ Um Journey und Kampagnen zu genehmigen und zu veröffentlichen, müssen Benutzen
 
 1. Fügen Sie die Ressource **Kampagnen** hinzu und wählen Sie dann **Kampagnen genehmigen und veröffentlichen** aus dem Dropdown-Menü aus.
 
-   ![Berechtigung zum Zuweisen, Genehmigen und Veröffentlichen &#x200B;](assets/permissions_approval.png){zoomable="yes"}
+   ![Berechtigung zum Zuweisen, Genehmigen und Veröffentlichen ](assets/permissions_approval.png){zoomable="yes"}
 
 1. Fügen Sie die Ressource **Journey** hinzu und wählen Sie dann **Journeys genehmigen und veröffentlichen** aus dem Dropdown-Menü aus.
 
@@ -83,6 +83,32 @@ Der globale Genehmigungsprozess sieht folgendermaßen aus:
 Sie können alle Genehmigungs- und Änderungsanfragen überwachen, die für eine bestimmte Journey oder Kampagne eingereicht wurden. Klicken Sie dazu oben rechts auf der Journey-Arbeitsfläche oder am Bildschirm zur Kampagnenüberprüfung auf das Symbol **[!UICONTROL Audit-Protokoll anzeigen]**.
 
 ![Audit-Protokoll für Genehmigungsanfragen](assets/monitor-requests.png)
+
+## Häufig gestellte Fragen {#faq}
+
++++Muss ich für jede Kampagne oder Journey eine Validierungsrichtlinie erstellen?
+
+Nein. Genehmigungsrichtlinien sind bedingt. Sie müssen nur eine Richtlinie erstellen, wenn Sie die Überprüfung für eine bestimmte Kampagnengruppe oder Journey erzwingen möchten (z. B. für alle geplanten Kampagnen, die von einem bestimmten Team erstellt wurden). Wenn für eine Kampagne oder Journey keine Richtlinie gilt, kann der Ersteller bzw. die Erstellerin direkt veröffentlichen, ohne die Genehmigung anzufordern.
+
++++
+
++++Was passiert, wenn die genehmigende Person nicht verfügbar ist?
+
+Die Anfrage bleibt „In Prüfung“, bis eine genehmigende Person tätig wird. Sie können die Anfrage abbrechen (das Element an „Entwurf“ zurückgeben) und erneut senden, sobald die richtige genehmigende Person verfügbar ist. Administratoren können auch die Genehmigungsrichtlinie aktualisieren, um weitere genehmigende Personen hinzuzufügen.
+
++++
+
++++Kann ich eine Kampagne oder Journey bearbeiten, während die Genehmigung aussteht?
+
+Nein. Nach der Übermittlung zur Validierung befindet sich die Kampagne oder Journey in einem gesperrten Status „In Überprüfung“. Um Änderungen vorzunehmen, muss der Ersteller oder eine genehmigende Person die Anforderung zuerst abbrechen. Das Element kehrt zu „Entwurf“ zurück und kann vor dem erneuten Senden bearbeitet werden.
+
++++
+
++++Ich sehe die Berechtigung Genehmigen und Veröffentlichen in der Dropdown-Liste nicht - was soll ich überprüfen?
+
+Stellen Sie sicher, dass Sie zuerst die richtige Ressource hinzufügen. Für die Berechtigung **Kampagnen genehmigen und veröffentlichen** muss die Ressource **Kampagnen** zur Rolle hinzugefügt werden und **Journey genehmigen und veröffentlichen** ist die Ressource **Journey** erforderlich. Beide müssen separat hinzugefügt werden. [Erfahren Sie, wie Sie genehmigungsbezogene Berechtigungen zuweisen](#prerequisites)
+
++++
 
 ## Weitere Ressourcen
 

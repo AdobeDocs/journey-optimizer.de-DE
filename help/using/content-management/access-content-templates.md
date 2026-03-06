@@ -7,14 +7,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 9fc43f2e17c256d33f73f21b6b30c4b593087a28
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 71%
 
 ---
 
 # Zugreifen auf und Verwalten von Inhaltsvorlagen {#access-manage-templates}
+
+## Voraussetzungen {#prerequisites}
+
+Stellen Sie Folgendes sicher, um auf Inhaltsvorlagen zuzugreifen und sie zu verwalten:
+
+* **Berechtigung für Inhaltsvorlagen** - Ihre Rolle muss die Berechtigung **[!UICONTROL Inhaltsvorlagen verwalten]** enthalten (unter der **Content-Management**-Ressource). Ohne sie ist **Menü „Inhaltsvorlagen** im linken Navigationsbereich nicht sichtbar. [Erfahren Sie, wie Sie Berechtigungen verwalten](../administration/permissions.md)
+* **Sandbox-Umfang** - Inhaltsvorlagen sind Sandbox-spezifisch. In einer Sandbox erstellte Vorlagen sind in einer anderen nicht verfügbar. Vergewissern Sie sich, dass Sie sich in der richtigen Sandbox befinden, bevor Sie nach einer Vorlage suchen.
+* **HTML-Vorlagen (veraltet)** - Ab März 2025 werden Inhaltsvorlagen vom Typ HTML nicht mehr unterstützt. Vorhandene HTML-Vorlagen bleiben verfügbar, neue können jedoch nicht erstellt werden.
 
 ## Zugreifen auf Inhaltsvorlagen {#access}
 
@@ -108,6 +116,26 @@ Wählen Sie den Modus **[!UICONTROL Rasteransicht]** aus, um die einzelnen Vorla
 >Richtige Miniaturansichten können nur für HTML-Inhaltsvorlagen von E-Mails generiert werden.
 
 Warten Sie nach dem Aktualisieren des Inhalts einige Sekunden, bis die Änderungen in der Miniaturansicht angezeigt werden.
+
+## Fehlerbehebung {#troubleshooting}
+
++++Ich kann das Menü Inhaltsvorlagen im linken Navigationsbereich nicht sehen
+
+Ihrer Rolle fehlt die Berechtigung **Inhaltsvorlagen verwalten**. Bitten Sie Ihren Administrator, die Ressource **Content-Management** mit der Berechtigung **Inhaltsvorlagen verwalten** zu Ihrer Rolle hinzuzufügen. [Weitere Informationen](../administration/permissions.md)
+
++++
+
++++Eine von mir erstellte Vorlage wird nicht in der Liste angezeigt
+
+Überprüfen Sie, ob Sie sich in der richtigen Sandbox befinden - Vorlagen sind Sandbox-spezifisch. Überprüfen Sie außerdem, ob ein Ordner im linken Bereich ausgewählt ist. Wenn ein Ordner ausgewählt ist, werden nur Vorlagen innerhalb dieses Ordners angezeigt. Klicken Sie **[!UICONTROL Alle Inhaltsvorlagen]**, um alle Vorlagen unabhängig vom Ordner anzuzeigen.
+
++++
+
++++Ich habe eine Vorlage bearbeitet, aber mein Kampagnen- oder Journey-Inhalt wurde nicht aktualisiert
+
+Durch das Bearbeiten oder Löschen einer Vorlage werden Kampagnen oder Journey, die mit ihr erstellt wurden, nicht rückwirkend aktualisiert. Der Inhalt wird zum Zeitpunkt der Verwendung kopiert. Um vorhandene Inhalte zu aktualisieren, bearbeiten Sie die Kampagne oder die Journey direkt.
+
++++
 
 ## Exportieren von Inhaltsvorlagen in eine andere Sandbox {#export}
 

@@ -8,16 +8,42 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: d2f32e0572b78db55c61cf087eb308d6fc0e2d4d
 workflow-type: tm+mt
-source-wordcount: '3337'
-ht-degree: 77%
+source-wordcount: '3542'
+ht-degree: 73%
 
 ---
 
 # Beispiele für Abfragen{#query-examples}
 
 In diesem Abschnitt werden häufig verwendete Beispiele für die Abfrage von Journey-Schrittereignissen im Data Lake aufgeführt. Bevor Sie sich mit bestimmten Anwendungsfällen befassen, müssen Sie wissen, welche wichtigen Kennungen in Journey-Ereignisdaten verwendet werden.
+
+## Voraussetzungen {#prerequisites}
+
+Bevor Sie eine Abfrage auf dieser Seite ausführen, stellen Sie Folgendes sicher:
+
+* **Zugriff auf den Adobe Experience Platform-Abfrage**-Service - Sie müssen Zugriff auf den [Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"} in Ihrer Adobe Experience Platform-Sandbox haben.
+* **Datensatz verfügbar** - Abfragen zielen auf den `journey_step_events` Datensatz ab. Überprüfen Sie über **Experience Platform > Datensätze, ob der Datensatz vorhanden ist und Daten in Ihrer Sandbox**.
+* **Korrekte Journey-Versions-ID** - Die meisten Abfragen erfordern eine `journeyVersionID`. Suchen Sie sie in Journey Optimizer unter **Journey > [Ihr Journey] > Eigenschaften** oder verwenden Sie `journeyVersionName`, um sie zuerst im Datensatz zu finden.
+* **Schemafeldwerte** - Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechenden Schema über zugeordnete Werte verfügen. Leere Felder geben keine Ergebnisse ohne Fehler zurück.
+
+>[!TIP]
+>
+>**Neu bei Query Service?** [Adobe Experience Platform](https://experience.adobe.com/) zu öffnen, navigieren Sie zu **Abfrage-Service > Abfragen** fügen Sie ein beliebiges Beispiel unten ein, ersetzen Sie die Platzhalterwerte (z. B. `<journeyVersionID>`, `<last x hours>`) und wählen Sie **Ausführen**.
+
+## Finden der richtigen Abfrage {#find-query}
+
+| Ich möchte… | Gehe zu |
+|---|---|
+| Profile zählen, die auf eine Journey gelangt sind | [Grundlegende Anwendungsfälle](#common-queries) |
+| Debuggen des Journey-Pfads eines bestimmten Profils | [Profilbasierte Abfragen](#profile-based-queries) |
+| Untersuchen der Ausführung von „Zielgruppe lesen“ oder von Fehlern | [Audience-Abfragen lesen](#read-segment-queries) |
+| Fehlerbehebung bei Nachrichten- oder Aktionsfehlern | [Nachrichten- und Aktionsfehler](#message-action-errors) |
+| Verwerfen der Zielgruppenqualifizierung analysieren | [Zielgruppen-Qualifizierungsabfragen](#segment-qualification-queries) |
+| Debuggen von externen oder Geschäftsereignissen | [Ereignisbasierte Abfragen](#event-based-queries) |
+| Überwachen der Leistung benutzerdefinierter Aktionsendpunkte | [Benutzerdefinierte Aktionsabfragen](#query-custom-action) |
+| Nachverfolgen von aktivierbaren Profilen und Lizenznutzung | [Interaktionsfähige Profilabfragen](#engageable-profiles-queries) |
 
 Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechenden Schema über zugeordnete Werte verfügen.
 
@@ -1050,7 +1076,7 @@ Diese Abfrage hilft Ihnen zu verstehen, wie viele eindeutige Profile eine bestim
 
 +++Anzahl der in den letzten 12 Monaten pro Journey eingesetzten Profile
 
-Diese Abfrage zeigt die Anzahl der eindeutigen Profile an, die von jeder Journey in Ihrem Unternehmen in den letzten 12 Monaten kontaktiert wurden. So können Sie ermitteln, welche Journey am meisten zu Ihrer [Engageable Profiles“ &#x200B;](../audience/license-usage.md).
+Diese Abfrage zeigt die Anzahl der eindeutigen Profile an, die von jeder Journey in Ihrem Unternehmen in den letzten 12 Monaten kontaktiert wurden. So können Sie ermitteln, welche Journey am meisten zu Ihrer [Engageable Profiles“ ](../audience/license-usage.md).
 
 ```sql
 SELECT 
@@ -1105,13 +1131,13 @@ _Beispielausgabe_
 | 22.11.2024 | 9.230 |
 | 21.11.2024 | 8.670 |
 
-Mit dieser Ausgabe können Sie tägliche Trends überwachen und erkennen, wann eine große Anzahl von Profilen interagiert. In diesem Beispiel zeigt der 23. November eine signifikante Spitze (125.340 Profile) im Vergleich zur typischen täglichen Interaktion (ca. 8.000 Profile), die eine Untersuchung rechtfertigen würde, um zu verstehen, was Journey oder Kampagne die Zunahme der Anzahl Ihrer [Engageable Profiles“ verursacht &#x200B;](../audience/license-usage.md).
+Mit dieser Ausgabe können Sie tägliche Trends überwachen und erkennen, wann eine große Anzahl von Profilen interagiert. In diesem Beispiel zeigt der 23. November eine signifikante Spitze (125.340 Profile) im Vergleich zur typischen täglichen Interaktion (ca. 8.000 Profile), die eine Untersuchung rechtfertigen würde, um zu verstehen, was Journey oder Kampagne die Zunahme der Anzahl Ihrer [Engageable Profiles“ verursacht ](../audience/license-usage.md).
 
 +++
 
 +++Identifizieren von Journey, die kürzlich große Zielgruppen angesprochen haben
 
-Diese Abfrage hilft dabei, festzustellen, welche Journey in den letzten Zeiträumen mit einer großen Anzahl neuer Profile interagiert haben, was einen plötzlichen Anstieg der Anzahl [Engageable Profiles“ &#x200B;](../audience/license-usage.md) kann.
+Diese Abfrage hilft dabei, festzustellen, welche Journey in den letzten Zeiträumen mit einer großen Anzahl neuer Profile interagiert haben, was einen plötzlichen Anstieg der Anzahl [Engageable Profiles“ ](../audience/license-usage.md) kann.
 
 ```sql
 SELECT 

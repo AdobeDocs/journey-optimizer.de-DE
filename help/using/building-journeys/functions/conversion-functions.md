@@ -7,10 +7,11 @@ role: Developer
 level: Experienced
 keywords: Konvertierung, Funktionen, Ausdruck, Journey, Typ, Umwandlung
 version: Journey Orchestration
-source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
+exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
+source-git-commit: 57da5ea1cae21ed370b1cc58d953ba740b7ac2c6
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 89%
+source-wordcount: '1249'
+ht-degree: 85%
 
 ---
 
@@ -28,6 +29,30 @@ Verwenden Sie Konvertierungsfunktionen für Folgendes:
 * Verarbeiten von Daten aus externen Quellen, die unterschiedliche Typformate aufweisen können
 
 Jede Konvertierungsfunktion verarbeitet typspezifische Regeln und Randfälle automatisch, wodurch die Datenumwandlung in Ihren Journey-Ausdrücken zuverlässiger und vorhersehbarer wird.
+
+## Kurzübersicht {#quick-reference}
+
+| Ziel | Funktion |
+|------|----------|
+| Konvertieren einer Zeichenfolge oder Epoche in ein Datum **mit** Zeitzone | [toDateTime](#toDateTime) |
+| Konvertieren einer Zeichenfolge oder eines Datums in eine Datums-/**(ohne** Zeitzone | [toDateTimeOnly](#toDateTimeOnly) |
+| Nur ein Datum extrahieren (Jahr-Monat-Tag, keine Zeit) | [toDateOnly](#toDateOnly) |
+| In eine ganze Zahl konvertieren | [toInteger](#toInteger) |
+| In eine Dezimalzahl konvertieren | [toDecimal](#toDecimal) |
+| In true/false konvertieren | [toBool](#toBool) |
+| Konvertieren eines beliebigen Werts in eine Zeichenfolge | [toString](#toString) |
+| In eine Dauer konvertieren (ISO-8601, z. B. PT10H) | [toDuration](#toDuration) |
+
+>[!TIP]
+>
+>**toDateTime vs. toDateTimeOnly:** Verwenden Sie `toDateTime`, wenn Zeitzonen wichtig sind (z. B. beim Planen von Nachrichten oder beim Vergleichen von Ereignis-Zeitstempeln über Regionen hinweg). Verwenden Sie `toDateTimeOnly`, wenn nur die lokale Datums-/Uhrzeitangabe relevant ist und die Zeitzone ignoriert werden kann (z. B. beim Vergleichen von Kalenderdaten in einer Bedingung).
+
+## Häufige Fehler {#pitfalls}
+
+* **Zeitzone muss eine Zeichenfolgenkonstante sein** — Das Zeitzonenargument in `toDateTime` kann kein Feldverweis oder dynamischer Ausdruck sein. Übergeben Sie immer eine literale Zeichenfolge wie `"UTC"` oder `"Europe/Paris"`.
+* **ISO-8601-Format, das für Zeichenfolgeneingaben erforderlich ist** - Stellen Sie beim Übergeben einer Zeichenfolge an `toDateTime` oder `toDateTimeOnly` sicher, dass sie dem ISO-8601-Format entspricht (z. B. `"2023-08-18T23:17:59.123Z"`). Falsch formatierte Zeichenfolgen geben null ohne Fehler zurück.
+* **Epochenwerte sind in Millisekunden** - `toDateTime(1560762190189)` erwartet Millisekunden. Wenn Ihre Quelle Unix-Zeitstempel in Sekunden bereitstellt, multiplizieren Sie zuerst mit 1000 (z. B. `toDateTime(myField * 1000)`).
+* **toBool mit unerwarteten Zeichenfolgen** — `toBool` gibt nur dann `true` zurück, wenn der Zeichenfolgenwert genau `"true"` ist. Jede andere Zeichenfolge (einschließlich `"1"`, `"yes"`, `"TRUE"`) gibt `false` zurück.
 
 ## toBool {#toBool}
 
@@ -93,10 +118,10 @@ Konvertiert ein Argument in einen Wert vom Typ dateOnly. Weitere Informationen z
 
 | Parameter | Typ |
 |-----------|------------------|
-| Zeichenfolgendarstellung eines Datums als „JJJJ-MM-TT“ (XDM-Format). Unterstützt auch das ISO-8601-Format: nur der Teil mit dem **vollständigen Datum** wird berücksichtigt (siehe [RFC 3339, Abschnitt 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | Zeichenfolge |
+| Zeichenfolgendarstellung eines Datums als „JJJJ-MM-TT“ (XDM-Format). Unterstützt auch das ISO-8601-Format: nur der Teil mit dem **vollständigen Datum** wird berücksichtigt (siehe [RFC 3339, Abschnitt 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
 | Datum/Uhrzeit | dateTime |
 | Datum/Uhrzeit ohne Zeitzone | dateTimeOnly |
-| ganzzahliger Wert einer Epoche in Millisekunden | integer |
+| Ganzzahliger Wert einer Epoche in Millisekunden | integer |
 
 +++
 
@@ -145,10 +170,10 @@ Konvertiert Parameter je nach Typ in einen Datum-/Uhrzeit-Wert.
 | Parameter | Beschreibung |
 |--- |--- |
 | string | Datum/Uhrzeit im ISO-8601-Format. Eine Zeichenfolgendarstellung eines Datums-/Uhrzeitwerts mit Zeitzoneninformationen |
-| Zeichenfolge | Zeitzonen-ID. Eine Zeitzonenkennung (z. B. „UTC“, „Europe/Paris„) |
-| dateOnly | Stellt ein Datum ohne Zeitzone dar, das als Jahr-Monat-Tag angezeigt wird |
-| dateTimeOnly | Stellt einen Datum/Uhrzeit-Wert ohne Zeitzone dar, der als Jahr-Monat-Tag-Stunde-Minute-Sekunde-Millisekunde angezeigt wird |
-| integer | ganzzahliger Wert einer Epoche in Millisekunden |
+| string | Zeitzonen-ID. Eine Zeitzonenkennung (z. B. „UTC“, „Europe/Paris“) |
+| dateOnly | Stellt ein reines Datum ohne Zeitzone im Format „Jahr-Monat-Tag“ dar |
+| dateTimeOnly | Stellt Datum und Uhrzeit ohne Zeitzone im Format „Jahr-Monat-Tag-Stunde-Minute-Sekunde-Millisekunde“ dar |
+| integer | Ganzzahliger Wert einer Epoche in Millisekunden |
 
 +++
 
@@ -176,19 +201,19 @@ Die ISO-8601-Zeichenfolge enthält bereits Zeitzoneninformationen.
 
 `toDateTime("Europe/Paris", toDateOnly("2023-08-18"))`
 
-Gibt 2023-08-18T00:00:00.000+02 :00
+Gibt „2023-08-18T00:00:00.000+02:00“ zurück
 
-Dadurch wird eine dateTime erstellt, indem eine Zeitzone mit einem reinen Datumswert kombiniert wird. Die Uhrzeit wird in der angegebenen Zeitzone auf Mitternacht :00:00:00) festgelegt.
+Dadurch wird ein dateTime-Wert erstellt, indem eine Zeitzone mit einem reinen Datumswert kombiniert wird. Die Uhrzeit wird in der angegebenen Zeitzone auf Mitternacht (00:00:00) festgelegt.
 
 `toDateTime("UTC", toDateTimeOnly("2023-08-18T23:17:59.123"))`
 
-Gibt 2023-08-18T23:17:59.123Z zurück.
+Gibt „2023-08-18T23:17:59.123Z“ zurück
 
-Dadurch wird eine dateTime erstellt, indem eine Zeitzone auf einen dateTimeOnly-Wert angewendet wird (der keine Zeitzoneninformationen enthält).
+Dadurch wird ein dateTime-Wert erstellt, indem eine Zeitzone auf einen dateTimeOnly-Wert angewendet wird (der keine Zeitzoneninformationen enthält).
 
 `toDateTime(1560762190189)`
 
-Gibt 2019-06-17T09:03:10.189Z zurück
+Gibt „2019-06-17T09:03:10.189Z“ zurück
 
 Konvertiert einen Unix-Zeitstempel in Millisekunden in einen dateTime-Wert.
 
@@ -212,7 +237,7 @@ Konvertiert einen Argumentwert in einen reinen Datum-/Uhrzeit-Wert.
 
 | Parameter | Typ |
 |-----------|------------------|
-| Datum/Uhrzeit im ISO-8601-Format oder im XDM-Datumsformat &quot;JJJJ-MM-TT&quot; | Zeichenfolge |
+| Datum/Uhrzeit im ISO-8601-Format oder im XDM-Datumsformat &quot;JJJJ-MM-TT&quot; | string |
 | Datum/Uhrzeit | dateTime |
 
 +++
@@ -343,7 +368,7 @@ Konvertiert einen Argumentwert in eine Ganzzahl.
 
 | Parameter | Beschreibung |
 |--- |--- |
-| Zeichenfolge | konvertiert den Zeichenfolgenwert in eine Ganzzahl |
+| string | konvertiert den Zeichenfolgenwert in eine Ganzzahl |
 | dateTime | konvertiert das Datum in die Zahl der Millisekunden (Millisekunden der Epoche) |
 | decimal | konvertiert in eine Ganzzahl, indem der Dezimalteil entfernt wird (Beispiel: 1.5 wird zu 1) |
 | boolean | wandelt den booleschen Wert in 1 um, wenn „true“, und in 0, wenn „false“ |
@@ -430,4 +455,3 @@ Gibt die Zeichenfolgendarstellung des angegebenen dateOnly-Feldes (XDM-Datumsfel
 Gibt „PT1.52S“ zurück.
 
 +++
-
