@@ -4,12 +4,11 @@ product: journey optimizer
 title: Einrichten einer Zulassungsliste
 description: Erfahren Sie, wie Sie in Journey Optimizer eine Zulassungsliste einrichten und verwalten, um den E-Mail-Versand auf vertrauenswürdige Adressen und Domains auf Sandbox-Ebene einzuschränken.
 feature: Deliverability
-topic: Deliverability
 role: Admin
 level: Intermediate
 keywords: Zulassungsliste, sichere Liste, E-Mail, Zustellbarkeit, Sandbox, Domains, Unterdrückung, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
+source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 76%
@@ -56,7 +55,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
 1. Wählen Sie den Umschalter aus.
 
-   ![Umschalter zum Aktivieren der Zulassungsliste &#x200B;](assets/allow-list-edit.png)
+   ![Umschalter zum Aktivieren der Zulassungsliste ](assets/allow-list-edit.png)
 
 1. Wählen Sie **[!UICONTROL Zulassungsliste aktivieren]** aus. Die Zulassungsliste ist jetzt aktiv.
 
@@ -80,7 +79,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu deaktivieren.
 
 1. Wählen Sie den Umschalter aus.
 
-   ![Umschalter zum Deaktivieren der Zulassungsliste &#x200B;](assets/allow-list-edit-active.png)
+   ![Umschalter zum Deaktivieren der Zulassungsliste ](assets/allow-list-edit-active.png)
 
 1. Wählen Sie die Option **[!UICONTROL Zulassungsliste deaktivieren]** aus. Die Zulassungsliste ist nicht mehr aktiv.
 
@@ -158,7 +157,7 @@ Führen Sie die folgenden Schritte aus, um die Zulassungsliste als CSV-Datei zu 
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL CSV herunterladen]**.
 
-   ![Schaltfläche „CSV herunterladen“ auf der Seite Zulassungsliste &#x200B;](assets/allowed-list-download-csv.png)
+   ![Schaltfläche „CSV herunterladen“ auf der Seite Zulassungsliste ](assets/allowed-list-download-csv.png)
 
 1. Warten Sie, bis die Datei generiert wurde.
 
