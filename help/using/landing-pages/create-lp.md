@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1518'
-ht-degree: 100%
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+workflow-type: tm+mt
+source-wordcount: '1567'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,10 @@ Um Ihre Kundinnen und Kunden zu einer definierten Web-Seite zu leiten, die angez
 Die wichtigsten Schritte zum Erstellen von Landingpages sind wie folgt:
 
 ![](assets/lp-creation-process.png)
+
+>[!NOTE]
+>
+>Bevor Sie Ihre erste Landingpage erstellen, schließen Sie das Setup [Konfigurieren von Landingpages](../../rp_landing_pages/lp-configuration-landing-page.md) ab. Dazu gehört das Konfigurieren einer Subdomain zum Hosten Ihrer Landingpages und das Definieren mindestens einer Voreinstellung, die die Subdomain und andere Kanaleinstellungen angibt. Sie müssen beim Erstellen der Landingpage eine Voreinstellung auswählen.
 
 ## Erstellen einer Landingpage {#create-landing-page}
 
@@ -82,7 +86,7 @@ Nachdem Sie die [Primärseite](#configure-primary-page) und die [Unterseiten](#c
 >title="Definieren der primären Seiteneinstellungen"
 >abstract="Die primäre Seite erscheint den Benutzenden sofort, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, beispielsweise in einer E-Mail oder auf einer Website."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=de" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
@@ -194,7 +198,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 >
 >Um Landingpages testen zu können, müssen Sie über die Berechtigung zum **[!UICONTROL Veröffentlichen von Nachrichten]** verfügen.
 >
->Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie verfügbare Testprofile. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../audience/creating-test-profiles.md).
+>Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie verfügbare Testprofile. Hier erfahren Sie, wie Sie [Testprofile erstellen](../audience/creating-test-profiles.md).
 
 1. Klicken Sie auf der Landingpage auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um zur Testprofil-Auswahl zu gelangen.
 

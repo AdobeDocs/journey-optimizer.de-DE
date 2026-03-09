@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 98%
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * Wählen Sie **[!UICONTROL Externer Link]** aus, um einen Link auf eine externe URL einzufügen.
 
-   * Wählen Sie **[!UICONTROL Landingpage]** aus, um einen Link zu einer Landingpage einzufügen. [Weitere Informationen](../landing-pages/get-started-lp.md)
+   * Wählen Sie **[!UICONTROL Landingpage]** aus, um einen Link zu einer Landingpage einzufügen. [Weitere Informationen](../landing-pages/create-lp.md)
 
    * Wählen Sie **[!UICONTROL Opt-out mit einem Klick]** aus, um einen Link einzufügen, über den die Benutzenden Ihre Nachrichten schnell kündigen können, ohne den Kündigungsvorgang bestätigen zu müssen. [Weitere Informationen](email-opt-out.md#one-click-opt-out).
 
@@ -99,7 +99,7 @@ Nach dem Versand der Nachricht beträgt die Gültigkeitsdauer für einen Link **
 
 >[!CAUTION]
 >
->Wenn sowohl **label** als auch **URL** einer Schaltfläche in einem [anpassbaren Fragment) bearbeitbar &#x200B;](../content-management/customizable-fragments.md), wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt.
+>Wenn sowohl **label** als auch **URL** einer Schaltfläche in einem [anpassbaren Fragment) bearbeitbar ](../content-management/customizable-fragments.md), wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt.
 
 ## Link zu einer Mirror-Seite {#mirror-page}
 

@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 74102069afa519898149de33f890568950571f26
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
-source-wordcount: '3136'
+source-wordcount: '3134'
 ht-degree: 96%
 
 ---
@@ -439,7 +439,6 @@ ht-degree: 96%
          + [E-Mail zum Warenkorbabbruch](using/personalization/personalization-use-case-helper-functions.md)
          + [E-Mail mit den Rezepten eines Gesundheitsplans](using/personalization/perso-uc-plan-prescriptions.md)
    + Landingpages {#landing-pages}
-      + [Landingpages](/help/rp_landing_pages/landing-pages-landing-page.md)
       + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
       + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
       + [Verwalten von Landingpages](using/landing-pages/manage-lp.md)
