@@ -8,10 +8,11 @@ version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
+source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 18%
+source-wordcount: '743'
+ht-degree: 16%
 
 ---
 
@@ -23,15 +24,14 @@ ht-degree: 18%
 
 [!DNL Adobe Journey Optimizer] können Sie steuern, welche Journey ein Profil eingeben kann, wenn diese für mehr qualifiziert sind als das System zulässt. Hierfür können Sie mithilfe von [Regelsätzen](rule-sets.md) Begrenzungen für Journey-Einträge oder gleichzeitige Zugriffe definieren. Wenn ein Profil für mehr Journey geeignet ist, als die Obergrenze zulässt, bestimmt die jedem Journey zugewiesene Priorität, welche Journey ausgewählt werden.
 
-Anstatt Prioritäts- oder Rangfolgeformeln zu verwenden, können Sie **KI-Modelle** verwenden, um Journey basierend auf trainierten Modellbewertungen dynamisch zu sortieren. Sie können KI-Modelle über den Abschnitt **[!UICONTROL Orchestrierungs-Rangfolge]** in der Benutzeroberfläche erstellen und in Regelsätzen verwenden, um sie auf Journey anzuwenden.
-
-Einen Überblick über die in [!DNL Journey Optimizer] verfügbaren KI-Modelltypen finden Sie unter [Erste Schritte mit KI-Modellen](../experience-decisioning/ranking/ai-models.md#ai-model-types) im Abschnitt Entscheidungsfindung .
+Anstatt Priorität zu verwenden, können Sie auch **KI-Modelle** in Ihren Rangfolgeformeln verwenden, um Journey basierend auf trainierten Modellbewertungen dynamisch zu reihen.
 
 ## Erstellen eines KI-Modells {#create-ai-model}
 
+<!--Do you need specific permissions to create AI models?
 >[!CAUTION]
 >
->Zum Erstellen, Bearbeiten oder Löschen von KI-Modellen benötigen Sie die Berechtigung zur **Verwaltung von Rangfolgestrategien**. [Weitere Informationen](../administration/high-low-permissions.md#manage-ranking-strategies)
+>To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../administration/high-low-permissions.md#manage-ranking-strategies)-->
 
 Gehen Sie wie folgt vor, um ein KI-Modell für das Journey-Ranking zu erstellen.
 
@@ -55,7 +55,11 @@ Gehen Sie wie folgt vor, um ein KI-Modell für das Journey-Ranking zu erstellen.
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
 
-1. Der **[!UICONTROL Optimierungsmetrik]** enthält Informationen zum Konversionsereignis, das vom KI-Modell verwendet wird. [!DNL Journey Optimizer] rangiert auf der Basis **Konversionsrate** (Konversionsrate = Gesamtzahl der Konversionsereignisse / Gesamtzahl der Impression-Ereignisse). Die Konversionsrate wird wie folgt berechnet:
+1. In der **[!UICONTROL Optimierungsmetrik]** werden alle Metriken aus Ihrer [!DNL Customer Journey Analytics] ([) ](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} Liste angezeigt. Wählen Sie die Metrik aus, für die Sie Ihr Modell optimieren möchten.
+
+   ![Detailbereich des KI-Modells mit Namen- und Beschreibungsfeldern](assets/journey-model-metrics.png){width="80%"}
+
+   [!DNL Journey Optimizer] rangiert auf der Basis **Konversionsrate** (Konversionsrate = Gesamtzahl der Konversionsereignisse / Gesamtzahl der Impression-Ereignisse). Die Konversionsrate wird wie folgt berechnet:
 
    * **Impression-Ereignisse** (angezeigte Elemente)
    * **Konversionsereignisse** (Elemente, die zu Klicks oder Konversionen führen)
@@ -70,21 +74,35 @@ Gehen Sie wie folgt vor, um ein KI-Modell für das Journey-Ranking zu erstellen.
    >
    >In der Dropdown-Liste werden nur Datensätze angezeigt, die aus Schemata erstellt wurden, die mit der Feldergruppe (früher als Mixin bezeichnet) **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sind.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Wählen Sie die Segmente aus, die zum Trainieren des KI-Modells verwendet werden sollen.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Wählen Sie die Segmente aus, die zum Trainieren des KI-Modells verwendet werden sollen.
 
    >[!NOTE]
    >
-   >Sie können bis zu 5 Zielgruppen auswählen.
+   >Sie können bis zu 50 Zielgruppen auswählen.
 
 1. Speichern und aktivieren Sie das KI-Modell.
 
-Das KI-Modell ist jetzt verfügbar, wenn Sie einen Regelsatz konfigurieren.
+Das KI-Modell kann jetzt ausgewählt werden, wenn Sie eine Rangfolgenformel erstellen.
+
+## KI-Modell für eine Rangfolgenformel auswählen {#select-ai-model-for-ranking-formula}
+
+Sie können jetzt das KI-Modell als Referenz festlegen, um eine Rangfolgenformel zu erstellen. Gehen Sie wie folgt vor.
+
+1. Erstellen Sie eine Rangfolgenformel. [Weitere Informationen](journey-ranking-formulas.md#create-journey-ranking-formula)
+
+1. Verwenden Sie die **[!UICONTROL KI-Modell auswählen]**, um das gewünschte KI-Modell auszuwählen.
+
+   ![Detailbereich der Journey-Rangfolgeformel mit KI-Modellauswahl](assets/journey-formula-ai-model.png){width="80%"}
+
+1. Definieren Sie in mindestens einem der Abschnitte **[!UICONTROL Kriterium]** eine Bedingung und wählen Sie **[!UICONTROL KI-Modellwert]** als Rangfolgenmethode aus. Wenn die Journey beispielsweise das Tag „Promo“ aufweist, ist der Rangfolgenwert der KI-Modellwert.
+
+   ![Rangfolgeformel: Promo-Tag verwendet KI-Modellbewertung](assets/journey-formula-ex-2.png){width="60%"}
+
+1. Klicken Sie **[!UICONTROL Erstellen]**, um Ihre Rangfolgenformel abzuschließen.
 
 ## Zuweisen des KI-Modells zu einem Regelsatz {#assign-ai-model-to-ruleset}
 
-Um ein KI-Modell zur Rangfolge Ihrer Journey zu verwenden, müssen Sie es in einer Formel verwenden und diese Formel einem Regelsatz zuweisen.
-
-1. Erstellen Sie eine Rangfolgenformel mit dem von Ihnen erstellten KI-Modell. [Weitere Informationen](journey-ranking-formulas.md#create-journey-ranking-formula)
+Um ein KI-Modell zur Rangfolge Ihrer Journey zu verwenden, müssen Sie die Formel, die auf dieses KI-Modell verweist, einem Regelsatz zuweisen.
 
 1. Erstellen Sie im Menü **[!UICONTROL Geschäftsregeln]** einen Regelsatz, den Sie für die Journey-Schlichtung verwenden möchten. [Weitere Informationen](rule-sets.md#Create)
 
