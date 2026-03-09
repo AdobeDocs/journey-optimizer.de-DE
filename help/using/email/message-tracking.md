@@ -99,7 +99,7 @@ Nach dem Versand der Nachricht beträgt die Gültigkeitsdauer für einen Link **
 
 >[!CAUTION]
 >
->Wenn sowohl **label** als auch **URL** einer Schaltfläche in einem [anpassbaren Fragment) bearbeitbar ](../content-management/customizable-fragments.md), wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt.
+>Wenn sowohl **label** als auch **URL** einer Schaltfläche in einem [anpassbaren Fragment) bearbeitbar &#x200B;](../content-management/customizable-fragments.md), wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt.
 
 ## Link zu einer Mirror-Seite {#mirror-page}
 
