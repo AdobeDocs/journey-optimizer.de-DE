@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Subdomain, Zuweisung, Migration, CNAME, benutzerdefinierte Zuweisung
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
+source-git-commit: 71a047d0c113202e6e1dd4f0730328e32800830d
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 18%
@@ -40,7 +40,7 @@ Bevor Sie mit dem Migrationsprozess beginnen, lesen Sie die folgenden wichtigen 
 
 >[!IMPORTANT]
 >
->Eine Subdomain, die eingerichtet wurde, kann nur mit der [CNAME-Methode) migriert &#x200B;](delegate-subdomain.md#cname-subdomain-setup).
+>Eine Subdomain, die eingerichtet wurde, kann nur mit der [CNAME-Methode) migriert ](delegate-subdomain.md#cname-subdomain-setup).
 
 * Stellen Sie sicher, dass die **Methode der benutzerdefinierten Delegierung“ für** Unternehmen aktiviert ist (diese Funktion ist derzeit nur eingeschränkt verfügbar. Bitte den Adobe-Support kontaktieren, um Zugang zu erhalten). [Weitere Informationen](delegate-custom-subdomain.md)
 * Stellen Sie sicher, dass diese Subdomain nicht von aktiven Kanalkonfigurationen verwendet wird. Der Migrationsprozess unterbricht ihre Funktionalität.
@@ -132,7 +132,7 @@ Im Abschnitt **[!UICONTROL SSL-Zertifikat]** müssen Sie ein neues SSL-Zertifika
 
 Überprüfen Sie davor Folgendes:
 
-* Wenn Sie Ihre CSR bereits im Rahmen der [Schritte vor der Migration“ an die Zertifizierungsstelle gesendet &#x200B;](#start-migration), stellen Sie sicher, dass Sie Ihr SSL-Zertifikat erhalten haben.
+* Wenn Sie Ihre CSR bereits im Rahmen der [Schritte vor der Migration“ an die Zertifizierungsstelle gesendet ](#start-migration), stellen Sie sicher, dass Sie Ihr SSL-Zertifikat erhalten haben.
 
 * Wenn Sie dies noch nicht getan haben, führen Sie die Schritte zum [Generieren, Herunterladen und Senden der CSR](#send-csr-to-ca) aus.
 
@@ -176,7 +176,7 @@ Um den Migrationsprozess abzuschließen, erstellen Sie einen neuen Satz von DNS-
 
 1. Wenn alle Validierungen erfolgreich sind, wird der Abschnitt **[!UICONTROL Zu erstellende Datensätze]** angezeigt.
 
-   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+   ![](assets/subdomain-migrate-records-to-create.png){width="100%"}
 
 1. Erstellen Sie alle erforderlichen Datensätze in Ihrer Hosting-Plattform.
 
