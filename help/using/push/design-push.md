@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1940'
 ht-degree: 74%
 
 ---
@@ -45,7 +45,7 @@ Konfigurieren Sie die Aktion, die ausgeführt wird, wenn Empfänger auf den Haup
 
 ![](assets/title-body-push.png)
 
-* **[!UICONTROL Mobile App öffnen]**: Startet die Mobile App, die der Benachrichtigung zugeordnet ist. Die App wird in Ihrer [Kanalkonfiguration“ &#x200B;](../configuration/channel-surfaces.md)d. h. Nachrichtenvoreinstellung) angegeben.
+* **[!UICONTROL Mobile App öffnen]**: Startet die Mobile App, die der Benachrichtigung zugeordnet ist. Die App wird in Ihrer [Kanalkonfiguration“ ](../configuration/channel-surfaces.md)d. h. Nachrichtenvoreinstellung) angegeben.
 * **[!UICONTROL Deeplink]**: Leitet Benutzer zu bestimmten Inhalten in Ihrer App weiter, z. B. zu einer bestimmten Ansicht, einem Seitenabschnitt oder einer Registerkarte. Geben Sie die Deeplink-URL in das bereitgestellte Feld ein.
 * **[!UICONTROL Web-URL]**: Leitet Benutzer zu einer externen Web-Seite weiter. Geben Sie die Ziel-URL in das bereitgestellte Feld ein.
 
@@ -68,7 +68,7 @@ Bei Android können Sie nur ein Bildsymbol und ein Bild für erweiterte Benachri
 
 Sie können Medien mit einer der folgenden Methoden hinzufügen:
 
-* Schaltfläche **[!UICONTROL Medien hinzufügen]**: Wählen Sie ein Asset aus [Adobe Experience Manager Assets &#x200B;](../integrations/assets.md) oder greifen Sie auf den KI-Assistenten zu, um [ansprechende Bilder](../content-management/generative-image.md) für Push-Benachrichtigungen zu generieren.
+* Schaltfläche **[!UICONTROL Medien hinzufügen]**: Wählen Sie ein Asset aus [Adobe Experience Manager Assets ](../integrations/assets.md) oder greifen Sie auf den KI-Assistenten zu, um [ansprechende Bilder](../content-management/generative-image.md) für Push-Benachrichtigungen zu generieren.
 
 * **[!UICONTROL Feld]** Medien hinzufügen“: Geben Sie die Medien-URL direkt ein. Sie können Personalisierungs-Token in die URL aufnehmen.
 
@@ -86,7 +86,7 @@ Für iOS können Sie ein Bild, ein Video oder eine GIF hinzufügen, das bzw. die
 
 Sie können Medien mit einer der folgenden Methoden hinzufügen:
 
-* **[!UICONTROL Medien hinzufügen]**-Schaltfläche: Asset aus **[!DNL Adobe Experience Manager Assets]** auswählen. Weitere Informationen zur Verwendung von **[!DNL Adobe Experience Manager Assets]** finden [&#x200B; auf dieser Seite](../integrations/assets.md).
+* **[!UICONTROL Medien hinzufügen]**-Schaltfläche: Asset aus **[!DNL Adobe Experience Manager Assets]** auswählen. Weitere Informationen zur Verwendung von **[!DNL Adobe Experience Manager Assets]** finden [ auf dieser Seite](../integrations/assets.md).
 
 * **[!UICONTROL Feld]** Medien hinzufügen“: Geben Sie die Medien-URL direkt ein. Sie können Personalisierungs-Token in die URL aufnehmen.
 
@@ -173,9 +173,9 @@ Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Daten]**, um Schlü
 
 Im Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** können Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzufügen. Weitere Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform finden Sie in [diesem Abschnitt](push-gs.md).
 
-## Personalisieren mit Experience Decisioning {#decisioning-push}
+## Personalisieren mit Decisioning {#decisioning-push}
 
-Sie können den Inhalt Ihrer Push-Benachrichtigungen mit „Experience **&quot; personalisieren und**. Mit dieser Funktion können Sie Prioritätswerte, Formeln oder KI-Modelle verwenden, um die besten Inhalte dynamisch auszuwählen und für Ihre Kunden anzuzeigen.
+Sie können den Inhalt Ihrer Push-Benachrichtigungen mit &quot;**&quot; personalisieren und**. Mit dieser Funktion können Sie Prioritätswerte, Formeln oder KI-Modelle verwenden, um die besten Inhalte dynamisch auszuwählen und für Ihre Kunden anzuzeigen.
 
 Weitere Informationen zum Erstellen und Verwenden von Entscheidungsrichtlinien in Push-Benachrichtigungen finden Sie [diesem Abschnitt](../experience-decisioning/create-decision.md).
 

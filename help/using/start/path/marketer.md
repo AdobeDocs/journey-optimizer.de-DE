@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 89%
+source-wordcount: '1590'
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von 
 
    ![](../assets/perso_ee2.png)
 
-1. **Fügen Sie Angebote und Entscheidungsfindung hinzu**. Senden Sie allen Kundinnen und Kunden mithilfe einer KI-gestützten Entscheidungsfindung zur richtigen Zeit das beste Angebot. Verwenden Sie Decisioning, um Push-, SMS- und andere Kanäle zu personalisieren. Erfahren Sie mehr über [Entscheidungs-Management](../../offers/get-started/starting-offer-decisioning.md) und [Erlebnis-Entscheidung](../../experience-decisioning/gs-experience-decisioning.md).
+1. **Fügen Sie Angebote und Entscheidungsfindung hinzu**. Senden Sie allen Kundinnen und Kunden mithilfe einer KI-gestützten Entscheidungsfindung zur richtigen Zeit das beste Angebot. Verwenden Sie Decisioning, um Push-, SMS- und andere Kanäle zu personalisieren. Erfahren Sie mehr [Entscheidungs-Management](../../offers/get-started/starting-offer-decisioning.md) und [Decisioning](../../experience-decisioning/gs-experience-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 

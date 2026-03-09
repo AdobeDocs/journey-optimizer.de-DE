@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 97%
+source-wordcount: '626'
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ Weiterführende Informationen zu benutzerdefinierten Upload-Zielgruppen finden S
 
 ## Wichtige Informationen {#must-read}
 
-* **Nur Entscheidungs-Management**: Diese Funktion wird nur beim Entscheidungs-Management unterstützt, nicht bei der Entscheidungsfindung (zuvor „Erlebnis-Entscheidung“).
+* **Nur Entscheidungs-Management** - Diese Funktion wird nur im Entscheidungs-Management unterstützt, nicht in der Entscheidungsfindung.
 * **Nur Decisioning-API (Hub)**: Sie ist ausschließlich über Anfragen der Decisioning-API (Hub) verfügbar und wird nicht von der Edge Decisioning-API oder der Batch-Entscheidungsfindung unterstützt.
 * **Erforderliches API-Flag für Anreicherungsdaten**: Wenn Sie eine benutzerdefinierte Upload-Zielgruppe (CSV) verwenden und Anreicherungsdaten in der Antwort auf die Angebotsentscheidung abrufen möchten, müssen Sie `"xdm:enrichedAudience": true` in die Payload Ihrer API-Anfrage aufnehmen. Ohne dieses Flag werden Anreicherungsattribute aus der über CSV hochgeladenen Zielgruppe nicht zurückgegeben. [Weitere Informationen zur Decisioning-API](api-reference/offer-delivery-api/decisioning-api.md)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1283'
 ht-degree: 82%
 
 ---
@@ -101,7 +101,7 @@ Weitere Informationen zum Erstellen, Konfigurieren und Veröffentlichen einer Jo
 
 Sie können jetzt mit der Erstellung des Inhalts Ihrer Textnachricht beginnen, indem Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** anklicken, wie unten beschrieben.
 
-Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [&#x200B; Seite](../campaigns/get-started-with-campaigns.md).
+Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [ Seite](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
@@ -151,9 +151,9 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
 
 1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. Sie können nun den Inhalt Ihrer Nachricht testen und überprüfen, wie in [diesem Abschnitt](#sms-mms-test) beschrieben.
 
-## Personalisieren mit Experience Decisioning {#decisioning-sms}
+## Personalisieren mit Decisioning {#decisioning-sms}
 
-Sie können den Inhalt Ihrer SMS-Nachrichten mit „Experience **&quot; personalisieren und**. Mit dieser Funktion können Sie Prioritätswerte, Formeln oder KI-Modelle verwenden, um die besten Inhalte dynamisch auszuwählen und für Ihre Kunden anzuzeigen.
+Sie können den Inhalt Ihrer SMS-Nachrichten mit &quot;**&quot; personalisieren und**. Mit dieser Funktion können Sie Prioritätswerte, Formeln oder KI-Modelle verwenden, um die besten Inhalte dynamisch auszuwählen und für Ihre Kunden anzuzeigen.
 
 Weiterführende Informationen zur Erstellung und Verwendung von Entscheidungsrichtlinien in SMS-Nachrichten finden Sie [diesem Abschnitt](../experience-decisioning/create-decision.md).
 
