@@ -9,10 +9,11 @@ role: Admin
 level: Intermediate
 keywords: Subdomain, Zuweisung, Migration, CNAME, benutzerdefinierte Zuweisung
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 3148a105551b920c4402c7b3c093aca1bb012061
+exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
+source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 22%
+source-wordcount: '1251'
+ht-degree: 18%
 
 ---
 
@@ -29,7 +30,7 @@ Im Rahmen dieses Prozesses müssen Sie:
 * [Löschen der vorhandenen DNS-Einträge](#delete-dns) aus Ihrer Hosting-Lösung
 * [Hochladen des SSL-](#upload-ssl-certificate), das von der Zertifizierungsstelle abgerufen wurde
 * Schließen Sie die [Schritte der Feedback-Schleife](#feedback-loop) ab, indem Sie Domain-Eigentümerschaft und Reporting-E-Mail-Adresse überprüfen
-* [Kopieren Sie den von Adobe generierten SSL](#copy-ssl-cdn-url-record)CDN-URL-Validierungseintrag in Ihre Hosting-Plattform.
+* [Erstellen Sie einen neuen Satz von DNS](#create-dns-records)Einträgen, die von Adobe in Ihrer Hosting-Plattform generiert wurden
 
 Gehen Sie wie folgt vor, um Ihre Subdomain zu migrieren.
 
@@ -39,10 +40,15 @@ Bevor Sie mit dem Migrationsprozess beginnen, lesen Sie die folgenden wichtigen 
 
 >[!IMPORTANT]
 >
->Eine Subdomain, die eingerichtet wurde, kann nur mit der [CNAME-Methode) migriert &#x200B;](delegate-subdomain.md#cname-subdomain-setup).
+>Eine Subdomain, die eingerichtet wurde, kann nur mit der [CNAME-Methode) migriert ](delegate-subdomain.md#cname-subdomain-setup).
 
 * Stellen Sie sicher, dass die **Methode der benutzerdefinierten Delegierung“ für** Unternehmen aktiviert ist (diese Funktion ist derzeit nur eingeschränkt verfügbar. Bitte den Adobe-Support kontaktieren, um Zugang zu erhalten). [Weitere Informationen](delegate-custom-subdomain.md)
 * Stellen Sie sicher, dass diese Subdomain nicht von aktiven Kanalkonfigurationen verwendet wird. Der Migrationsprozess unterbricht ihre Funktionalität.
+
+  >[!NOTE]
+  >
+  >Wenn Sie eine Kanalkonfiguration deaktivieren, bevor Sie die Migration starten, können Sie sie nach Abschluss des Migrations-Workflows wieder in den aktiven Status zurückversetzen.
+
 * Vergewissern Sie sich, dass keine aktiven Kampagnen oder Journey eine mit dieser Subdomain verknüpfte Kanalkonfiguration verwenden, da dies zu Versandunterbrechungen führen kann.
 * Beachten Sie, dass Ausfallzeiten beginnen, sobald Sie den Migrationsfluss starten. Die Subdomain wechselt während **[!UICONTROL Prozesses zu &quot;]**&quot; und ist erst nach Abschluss des Setups verfügbar.
 * Daher wird empfohlen, **die Schritte vor der Migration auszuführen, bevor der Migrationsprozess gestartet wird** - um Ihr SSL-Zertifikat bereit zu haben und Ausfallzeiten zu reduzieren. [Weitere Informationen](#start-migration)
@@ -99,7 +105,7 @@ Unabhängig davon, ob Sie den Migrationsprozess bereits gestartet haben oder nic
 
    * Das Zertifikat sollte jedoch sowohl data.subdomain.com als auch cdn.subdomain.com als Subject Alternative Names (SAN)-Einträge in einem einzigen Zertifikat abdecken. Wenn Sie beispielsweise example.adobe.com delegieren, entspricht data.subdomain.com dem Eintrag data.example.adobe.com und cdn.subdomain.com entspricht cdn.example.adobe.com.
 
-   * Die Subdomains „Data“ (data.example.adobe.com) und „CDN“ (cdn.example.adobe.com) müssen als Peer-Einträge im selben Zertifikat hinzugefügt werden.
+   * Die Subdomains von Daten (data.example.adobe.com) und CDN (cdn.example.adobe.com) müssen als Peer-Einträge im selben Zertifikat hinzugefügt werden. Diesem Zertifikat sollten keine zusätzlichen Subdomains hinzugefügt werden.
 
    * Die meisten Zertifizierungsstellen ermöglichen es Ihnen, während des Signiervorgangs zusätzliche SANs hinzuzufügen (z. B. die Subdomain „CDN“).
 
@@ -126,7 +132,7 @@ Im Abschnitt **[!UICONTROL SSL-Zertifikat]** müssen Sie ein neues SSL-Zertifika
 
 Überprüfen Sie davor Folgendes:
 
-* Wenn Sie Ihre CSR bereits im Rahmen der [Schritte vor der Migration“ an die Zertifizierungsstelle gesendet &#x200B;](#start-migration), stellen Sie sicher, dass Sie Ihr SSL-Zertifikat erhalten haben.
+* Wenn Sie Ihre CSR bereits im Rahmen der [Schritte vor der Migration“ an die Zertifizierungsstelle gesendet ](#start-migration), stellen Sie sicher, dass Sie Ihr SSL-Zertifikat erhalten haben.
 
 * Wenn Sie dies noch nicht getan haben, führen Sie die Schritte zum [Generieren, Herunterladen und Senden der CSR](#send-csr-to-ca) aus.
 
@@ -159,13 +165,39 @@ Führen Sie dann die Schritte der Feedback-Schleife aus, um Domain-Eigentümersc
 
 Der Prozess ist der gleiche wie beim Einrichten einer neuen benutzerdefinierten Subdomain. Befolgen Sie die auf der Seite [Einrichten einer benutzerdefinierten Subdomain](delegate-custom-subdomain.md#feedback-loop-steps) beschriebenen Schritte.
 
-## Kopieren des SSL-CDN-URL-Validierungseintrags {#copy-ssl-cdn-url-record}
 
-Um den Migrationsprozess abzuschließen, kopieren Sie den von Adobe generierten SSL-CDN-URL-Validierungseintrag in Ihre Hosting-Plattform. Der Prozess ist der gleiche wie beim Einrichten einer neuen benutzerdefinierten Subdomain. Befolgen Sie die auf der Seite [Einrichten einer benutzerdefinierten Subdomain](delegate-custom-subdomain.md#copy-ssl-cdn-url-record) beschriebenen Schritte.
+## Neuen Satz von DNS-Einträgen erstellen {#create-dns-records}
+
+Um den Migrationsprozess abzuschließen, erstellen Sie einen neuen Satz von DNS-Einträgen, die von Adobe in Ihrer Hosting-Plattform generiert werden.
+
+1. Klicken Sie nach Abschluss der Schritte der Feedback **[!UICONTROL Schleife oben rechts]** Bildschirm auf die Schaltfläche „Weiter“.
+
+   Dieser Schritt überprüft, ob die vorherigen Datensätze gelöscht wurden und das SSL-Zertifikat korrekt hochgeladen wurde. Wenn Fehler auftreten, lesen Sie die [Checkliste zur Fehlerbehebung](#troubleshooting).
+
+1. Wenn alle Validierungen erfolgreich sind, wird der Abschnitt **[!UICONTROL Zu erstellende Datensätze]** angezeigt.
+
+   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+
+1. Erstellen Sie alle erforderlichen Datensätze in Ihrer Hosting-Plattform.
+
+1. Nachdem alle Datensätze erstellt wurden, klicken Sie auf **[!UICONTROL Senden]**.
+
+   >[!NOTE]
+   >
+   >Wenn nicht alle aufgelisteten Datensätze erstellt wurden, wird ein Fehler angezeigt. Stellen Sie sicher, dass Sie alle erforderlichen Datensätze erstellen.
 
 Nach dem Senden müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was bis zu 3 Stunden dauern kann. [Weitere Informationen](delegate-subdomain.md#submit-subdomain)
 
 Sobald die Subdomain wieder aktiv ist, müssen keine Änderungen an vorhandenen Kanalkonfigurationen vorgenommen werden, die sie verwenden. Sie funktionieren weiterhin wie zuvor.
+
+## Fehlerbehebung - Checkliste {#troubleshooting}
+
+Wenn beim Senden Ihrer benutzerdefinierten Subdomain Fehler auftreten, führen Sie die unten aufgeführten Fehlerbehebungsaktionen durch.
+
+* _Ressource konnte nicht validiert werden. Der DNS existiert noch und muss gelöscht werden._ - Stellen Sie sicher, dass Sie alle Einträge aus Ihrer Hosting-Lösung löschen. [Weitere Informationen](#delete-dns)
+* _Ressource konnte nicht validiert werden. Bitte laden Sie Ihr SSL-Zertifikat hoch und versuchen Sie es erneut._ - Das SSL-Zertifikat wurde nicht hochgeladen. Stellen Sie sicher, dass Sie sie hochladen. [Weitere Informationen](#upload-ssl-certificate)
+* _Das Zertifikat enthält in seinen Subjekt-Alternativnamen (SAN) unerwartete Domains._ - Stellen Sie sicher, dass Sie das richtige SSL-Zertifikat hochladen. [Weitere Informationen](#upload-ssl-certificate)
+* _Dem Zertifikat fehlen die folgenden erforderlichen Domains in seinen Subjekt-Alternativnamen (SAN)._ - Stellen Sie sicher, dass Sie das richtige SSL-Zertifikat hochladen. [Weitere Informationen](#upload-ssl-certificate)
 
 **Siehe auch**
 
