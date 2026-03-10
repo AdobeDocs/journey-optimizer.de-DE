@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 91%
+source-wordcount: '487'
+ht-degree: 81%
 
 ---
 
@@ -53,6 +53,10 @@ Die folgenden vordefinierten Werte sind über den Personalisierungseditor verfü
 * **Angebots-ID**: ID des in der E-Mail verwendeten Angebots.
 
 * **Quellaktion-ID**: ID der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
+
+  >[!NOTE]
+  >
+  >Journey-Dateien, die nach einer Produktänderung geschlossen oder nicht erneut veröffentlicht wurden, können `context.system.source.actionId` möglicherweise nicht in Tracking-URLs einfügen, was zu leeren Platzhaltern führt (z. B. `cid=em-acou-adob{}`). Um sicherzustellen, dass die Tracking-Parameter korrekt ausgefüllt sind[ veröffentlichen Sie die betroffene Journey erneut](../building-journeys/publish-journey.md#journey-create-new-version) oder entfernen Sie den Verweis auf dieses Kontextfeld für geschlossene Journey. Weitere Informationen finden Sie unter [Fehlerbehebung bei der Live-Journey-Ausführung](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys).
 
 * **Name der Quellaktion**: Name der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
 
