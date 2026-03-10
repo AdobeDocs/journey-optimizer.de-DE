@@ -10,10 +10,10 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 5%
+source-wordcount: '539'
+ht-degree: 7%
 
 ---
 
@@ -33,39 +33,43 @@ Mit dieser Funktion können Sie erweiterte Ausdrücke - wie Bedingungen - direkt
 
 ## Leitlinien {#guardrails}
 
-Wenn Sie den erweiterten HTML-Editor verwenden, sind die folgenden Leitplanken vorhanden, um die Inhaltskompatibilität zu schützen und Erwartungen festzulegen.
+Wenn Sie den erweiterten HTML-Editor verwenden, schützen die folgenden Leitplanken die Inhaltskompatibilität und definieren Erwartungen.
 
-* Derzeit gibt es **erweiterten HTML** Editor keinen Validierungsprozess. Syntaxfehler und fehlerhafte Layouts werden nicht geprüft. Prüfen Sie Ihren Inhalt sorgfältig, bevor Sie ihn speichern.
+* Der erweiterte HTML-Editor **validiert** Code nicht. Syntaxfehler oder fehlerhafte Layouts werden nicht geprüft. Überprüfen Sie Ihre Inhalte sorgfältig, bevor Sie sie speichern.
 
-* Bei zukünftigen Systemaktualisierungen können Änderungen am Standard-Markup rückgängig gemacht werden. Beachten Sie Folgendes **Ihre Änderungen können überschrieben**.
+* Zukünftige Systemaktualisierungen können Änderungen überschreiben, die Sie am Standard-Markup vornehmen. **Ihre Änderungen bleiben möglicherweise nicht erhalten**.
 
-* Probleme, die durch benutzerdefinierten Code und manuelle Änderungen **nicht behoben werden können** oder vom [!DNL Adobe]-Supportteam behoben werden können. Stellen Sie sicher, dass Sie über eine Sicherung Ihres Inhalts verfügen, falls Sie zu einer früheren Version zurückkehren müssen.
+* Das [!DNL Adobe] Support-Team **kann keine Probleme beheben oder**), die durch benutzerdefinierten Code und manuelle Änderungen verursacht werden. Erstellen Sie eine Sicherungskopie Ihres Inhalts, für den Fall, dass Sie ihn wiederherstellen müssen.
 
-* Um die Inhaltskompatibilität sicherzustellen, **Speichern ist nicht verfügbar** in der erweiterten HTML-Ansicht. Wenn Sie bereit sind, Ihre Änderungen zu speichern, müssen Sie zur Desktop-Ansicht zurückkehren.
+* In der erweiterten HTML-Ansicht können keine Inhalte simuliert werden. Zur Desktop-Ansicht wechseln, um eine Vorschau des Inhalts anzuzeigen.
+
+* Um die Inhaltskompatibilität sicherzustellen, **Sie können nicht speichern** in der erweiterten HTML-Ansicht. Wechseln Sie zurück zur Desktop-Ansicht, wenn Sie zum Speichern Ihrer Änderungen bereit sind.
 
 >[!WARNING]
 >
 >Der erweiterte HTML-Editor in der Inhaltsvorlage ist nicht identisch mit dem Modus **[!UICONTROL Eigenen Code erstellen]** in der E-Mail-Designer. Im Modus [!UICONTROL Eigenen Code erstellen] können Sie nicht zum visuellen Editor zurückkehren. Sobald Sie diesen Pfad ausgewählt haben, bleiben Sie in der schreibgeschützten Bearbeitung. Der erweiterte HTML-Editor dagegen ermöglicht es Ihnen, jederzeit zwischen der HTML- und der Desktopansicht (visuell) umzuschalten. [Erfahren Sie mehr über den Code-Editor](../email/code-content.md)
 
-## Zur erweiterten HTML-Ansicht wechseln {#switch-to-desktop-view}
+## Zur erweiterten HTML-Ansicht wechseln {#switch-to-html-view}
+
+Gehen Sie wie folgt vor, um den erweiterten HTML-Editor zu öffnen und Ihre Vorlagenquelle zu bearbeiten.
 
 1. Öffnen oder erstellen Sie eine [E-Mail](../content-management/create-content-templates.md)Vorlage und öffnen Sie die [E-Mail-Designer](../email/get-started-email-design.md), um den Inhalt zu bearbeiten.
 
 1. Klicken Sie oben rechts **[!UICONTROL Bildschirm auf die Schaltfläche]** HTML.
 
-   ![](assets/email-template-expert-mode-button.png)
+   ![Position der Schaltfläche HTML in der E-Mail-Symbolleiste von Designer](assets/email-template-expert-mode-button.png)
 
 1. Beim ersten Öffnen des erweiterten HTML-Editors wird eine Warnmeldung angezeigt. Überprüfen Sie sie sorgfältig und klicken Sie auf **[!UICONTROL OK]**, um fortzufahren. [Weitere Informationen](#guardrails)
+
+   ![Warndialogfeld beim erstmaligen Öffnen des erweiterten HTML-Editors](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >Diese Warnung wird nur angezeigt, wenn Sie den erweiterten HTML-Editor zum ersten Mal öffnen und monatlich zurücksetzen.
 
-   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
-
 1. Der erweiterte HTML-Editor wird angezeigt.
 
-   ![](assets/email-template-expert-mode.png)
+   ![Erweiterte HTML-Editor-Benutzeroberfläche mit Quell-Code der E-Mail-Vorlage](assets/email-template-expert-mode.png)
 
 1. Fügen Sie die gewünschten Änderungen an Ihrem E-Mail-Inhalt hinzu.
 
@@ -75,12 +79,18 @@ Wenn Sie den erweiterten HTML-Editor verwenden, sind die folgenden Leitplanken v
 
 1. Inhaltssimulation und -speicherung sind in der erweiterten HTML-Ansicht aus Kompatibilitätsgründen nicht verfügbar. Wechseln Sie zurück zur Desktop-Ansicht, um eine Vorschau Ihres Inhalts anzuzeigen und Ihre Änderungen zu speichern.
 
-   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
+   ![Wechseln Sie zurück zur Desktop-Ansicht, um Ihre Änderungen zu speichern](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->Ihre Bearbeitungen bleiben beim Wechseln der Ansichten erhalten.
-<!--
-1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
+   >Ihre Bearbeitungen bleiben beim Wechseln der Ansichten erhalten.
 
+<!--
     ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
+
+## Verwandte Themen
+
+* [Codieren Ihres eigenen E-Mail-Inhalts](../email/code-content.md)
+* [Erstellen von Inhaltsvorlagen](create-content-templates.md)
+* [Erste Schritte mit dem Email Designer](../email/get-started-email-design.md)
+

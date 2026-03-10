@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Starten, erste Schritte
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 22%
@@ -23,6 +23,15 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 [!DNL Journey Optimizer] können Sie Landingpages erstellen und gestalten, um Ihre Benutzer zu Online-Formularen zu leiten, über die sie sich für den Erhalt Ihrer Nachrichten oder eines bestimmten Services wie eines Newsletters anmelden oder abmelden können.
 
 ➡️ [Informationen zur Konfiguration von Abonnements und zur Erstellung von Landingpages finden Sie in diesem Video](#video)
+
+## Verwendung von Landingpages {#when-to-use}
+
+Verwenden Sie Landingpages, wenn Sie Folgendes tun möchten:
+
+* Ermöglicht Kunden **Opt-in oder Opt-out** von Marketing-Nachrichten oder einem bestimmten Service oder Newsletter von einem Link in einer E-Mail oder Kampagne, einschließlich Abonnement-Listen für zielgerichtete Services. [Weitere Informationen](lp-use-cases.md#subscription-to-a-service)
+* **Einverständnis einholen** bevor Nachrichten gesendet werden, und eine **Bestätigungs-E-Mail** beim Opt-in oder Opt-out senden. [Weitere Informationen](lp-use-cases.md#send-confirmation-email)
+* Benutzer zu einem **Web-Formular umleiten** ohne eine externe Seite außerhalb von [!DNL Journey Optimizer] zu erstellen
+* Erstellen **responsiven Landingpages** mithilfe der Funktionen zur Inhaltserstellung von [!DNL Journey Optimizer]
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -61,15 +70,6 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 </td>
 </tr></table>
 
-## Verwendung von Landingpages {#when-to-use}
-
-Verwenden Sie Landingpages, wenn Sie Folgendes tun möchten:
-
-* Ermöglicht Kunden **Opt-in oder Opt-out** von Marketing-Nachrichten oder einem bestimmten Service oder Newsletter von einem Link in einer E-Mail oder Kampagne, einschließlich Abonnement-Listen für zielgerichtete Services. [Weitere Informationen](lp-use-cases.md#subscription-to-a-service)
-* **Einverständnis einholen** bevor Nachrichten gesendet werden, und eine **Bestätigungs-E-Mail** beim Opt-in oder Opt-out senden. [Weitere Informationen](lp-use-cases.md#send-confirmation-email)
-* Benutzer zu einem **Web-Formular umleiten** ohne eine externe Seite außerhalb von [!DNL Journey Optimizer] zu erstellen
-* Erstellen **responsiven Landingpages** mithilfe der Funktionen zur Inhaltserstellung von [!DNL Journey Optimizer]
-
 ## Bevor Sie beginnen {#prerequisites}
 
 Führen Sie vor dem Erstellen einer Landingpage die folgenden Schritte aus:
@@ -91,4 +91,4 @@ Das Erstellen und Bereitstellen einer Landingpage folgt dieser Reihenfolge:
 
 Das folgende Video zeigt, wie Sie eine Abonnement-Liste erstellen, Landingpages zum Opt-in oder Opt-out für einen Service einrichten, die Opt-in-/Opt-out-Option in eine Nachricht integrieren und entsprechende Journey konfigurieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409511?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
