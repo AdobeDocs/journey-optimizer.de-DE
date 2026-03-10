@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '1647'
-ht-degree: 100%
+source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
+workflow-type: tm+mt
+source-wordcount: '1718'
+ht-degree: 88%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 100%
 
 ## Arbeiten mit externen Datenquellen {#gs-ext-data-sources}
 
-Mit externen Datenquellen können Sie eine Verbindung zu Drittanbietersystemen herstellen, z. B. um bei der Verwendung eines Hotelbuchungssystems zu überprüfen, ob die Person ein Zimmer gebucht hat. Im Gegensatz zur integrierten Adobe Experience Platform-Datenquelle können Sie beliebig viele externe Datenquellen erstellen.
+Mit externen Datenquellen können Sie eine Verbindung zu Drittanbietersystemen herstellen, z. B. um bei der Verwendung eines Hotelbuchungssystems zu überprüfen, ob die Person ein Zimmer gebucht hat. Im Gegensatz zur integrierten [!DNL Adobe Experience Platform] Datenquelle können Sie so viele externe Datenquellen erstellen, wie Sie benötigen.
 
 >[!NOTE]
 >
 >* Leitlinien für die Arbeit mit externen Systemen werden auf [dieser Seite](../configuration/external-systems.md) aufgeführt.
 >
->* Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie in [diesem Abschnitt](../action/action-response.md).
+>* Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie unter [Benutzerdefinierte Aktionsantworten](../action/action-response.md)
 
 REST-APIs, die POST oder GET verwenden und JSON zurückgeben, werden unterstützt. API-Schlüssel sowie einfache und benutzerdefinierte Authentifizierungsmodi werden unterstützt.
 
@@ -52,13 +52,13 @@ Der Aufruf besteht aus einer Haupt-URL (_https://api.adobeweather.org/weather_),
 
 Im Folgenden finden Sie die wichtigsten Schritte zum Erstellen und Konfigurieren einer neuen externen Datenquelle:
 
-1. Klicken Sie in der Liste der Datenquellen auf **[!UICONTROL Datenquelle erstellen]**, um eine neue externe Datenquelle zu erstellen.
+1. Klicken Sie in der Liste der Datenquellen auf **[!UICONTROL Daten-Source erstellen]**, um eine neue externe Datenquelle zu erstellen.
 
-   ![](assets/journey25.png)
+   ![Listenbildschirm für Datenquellen mit hervorgehobener Schaltfläche &quot;Source erstellen“](assets/journey25.png)
 
    Dadurch wird der Konfigurationsbereich für die Datenquelle auf der rechten Seite des Bildschirms geöffnet.
 
-   ![](assets/journey26.png)
+   ![Der Konfigurationsbereich für die Datenquelle wird auf der rechten Bildschirmseite geöffnet](assets/journey26.png)
 
 1. Geben Sie einen Namen für Ihre Datenquelle ein.
 
@@ -71,7 +71,7 @@ Es sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Lä
    >
    >Aus Sicherheitsgründen wird die Verwendung von HTTPS dringend empfohlen. Beachten Sie außerdem, dass die Verwendung nicht öffentlich zugänglicher Adobe-Adressen und die Verwendung von IP-Adressen nicht zulässig sind.
 
-   ![](assets/journey27.png)
+   ![URL-Feld der externen Datenquelle mit eingegebenem Beispiel-Wetter-API-Endpunkt](assets/journey27.png)
 
 1. Konfigurieren Sie die Authentifizierung je nach Konfiguration des externen Dienstes: **[!UICONTROL Keine Authentifizierung]**, **[!UICONTROL Einfach]**, **[!UICONTROL Benutzerdefiniert]** oder **[!UICONTROL API-Schlüssel]**. 
 
@@ -81,17 +81,17 @@ Es sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Lä
    >
    >* Wenn der Authentifizierungsaufruf erfolgt, wird die in base64 kodierte Zeichenfolge `<username>:<password>` in den Authentifizierungs-Header eingefügt.
    >
-   >* Adobe Journey Optimizer verschlüsselt automatisch in benutzerdefinierten Aktionen definierte geheime Daten. Die Verschlüsselungsschlüssel jeder Organisation werden sicher in einem dedizierten Vault verwaltet, der mit dem Unternehmen verknüpft ist. Wenn Anmeldeinformationen auf der Benutzeroberfläche angezeigt werden, werden sie standardmäßig maskiert, um versehentliches Offenlegen zu verhindern.
+   >* [!DNL Adobe Journey Optimizer] verschlüsselt in benutzerdefinierten Aktionen definierte geheime Daten automatisch. Die Verschlüsselungsschlüssel jeder Organisation werden sicher in einem dedizierten Vault verwaltet, der mit dem Unternehmen verknüpft ist. Wenn Anmeldeinformationen auf der Benutzeroberfläche angezeigt werden, werden sie standardmäßig maskiert, um versehentliches Offenlegen zu verhindern.
 
 
-   Weitere Informationen zum benutzerdefinierten Authentifizierungsmodus finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode). In unserem Beispiel wählen wir den Authentifizierungsmodus „API-Schlüssel“ wie folgt:
+   Weitere Informationen zum benutzerdefinierten Authentifizierungsmodus finden Sie [Abschnitt Benutzerdefinierter Authentifizierungsmodus](../datasource/external-data-sources.md#custom-authentication-mode). In unserem Beispiel wählen wir den Authentifizierungsmodus „API-Schlüssel“ wie folgt:
 
    * **[!UICONTROL Typ]**: „API-Schlüssel“
    * **[!UICONTROL Name]**: „appid“ (dies ist der Name des API-Schlüsselparameters)
    * **[!UICONTROL Wert]**: „1234“ (dies ist der Wert unseres API-Schlüssels)
    * **[!UICONTROL Standort]**: „Abfrageparameter“ (der API-Schlüssel befindet sich in der URL)
 
-     ![](assets/journey28.png)
+     ![API-Schlüsselauthentifizierungsfelder mit Eingaben für Typ, Name, Wert und Speicherort](assets/journey28.png)
 
 1. Fügen Sie für jeden festgelegten API-Parameter eine neue Feldergruppe hinzu, indem Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]** klicken. Im Namen der Feldergruppe sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Länge beträgt 30 Zeichen.  In unserem Beispiel müssen wir zwei Feldergruppen erstellen, eine für jeden Parametersatz (city und long/lat).
 
@@ -99,7 +99,7 @@ Für den Parametersatz „long/lat“ erstellen wir eine Feldergruppe mit folgen
 
 * **[!UICONTROL Verwendet in]**: zeigt die Anzahl der Journeys an, die eine Feldergruppe verwenden. Sie können auf das Symbol **[!UICONTROL Journeys anzeigen]** klicken, um die Liste der Journeys anzuzeigen, die diese Feldergruppe verwenden.
 * **[!UICONTROL Methode]**: Wählen Sie die POST- oder GET-Methode aus. In unserem Beispiel wählen wir die GET-Methode aus.
-* **[!UICONTROL Dynamische Werte]**: Geben Sie die verschiedenen Parameter getrennt durch ein Komma ein, in unserem Beispiel „long,lat“. Da die Parameterwerte vom Ausführungskontext abhängen, werden sie in den Journeys definiert. [Weitere Informationen](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL Dynamische Werte]**: Geben Sie in unserem Beispiel die verschiedenen Parameter getrennt durch ein Komma „long,lat“ ein. Da die Parameterwerte vom Ausführungskontext abhängen, werden sie in den Journeys definiert. [Erfahren Sie mehr über Ausdrücke](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Antwort-Payload]**: Klicken Sie in das Feld **[!UICONTROL Payload]** und fügen Sie ein Beispiel für die Payload ein, die vom Aufruf zurückgegeben wird. Für unser Beispiel haben wir eine Payload verwendet, die auf einer Wetter-API-Website gefunden wurde. Überprüfen Sie, ob die Feldtypen korrekt sind. Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab. Beachten Sie, dass Sie auf **[!UICONTROL Neue Payload einfügen]** klicken können, wenn Sie die aktuell übergebene Payload ändern möchten.
 * **[!UICONTROL Gesendete Payload]**: Dieses Feld wird in unserem Beispiel nicht angezeigt. Es ist nur verfügbar, wenn Sie die POST-Methode auswählen. Fügen Sie die Payload ein, die an das Drittanbietersystem gesendet wird.
 
@@ -112,7 +112,7 @@ Bei einem GET-Aufruf, der Parameter erfordert, geben Sie die Parameter in das Fe
 {"id":{"param":"identifier"}}
 ```
 
-![](assets/journey29.png)
+![Bedienfeld für die Konfiguration von Feldergruppen mit dynamischen Werten und Payload-Feldern für Antworten](assets/journey29.png)
 
 
 Nach dem Speichern Ihrer Änderungen ist die Datenquelle konfiguriert und kann in Ihren Journeys verwendet werden, z. B. in Ihren Bedingungen oder zur Personalisierung einer E-Mail. Wenn die Temperatur über 30 °C liegt, können Sie eine bestimmte Mitteilung versenden.
@@ -128,11 +128,11 @@ Der benutzerdefinierte Authentifizierungsmodus wird für die komplexe Authentifi
 
 Wenn Sie die benutzerdefinierte Authentifizierung konfigurieren, verwenden Sie die Schaltfläche **[!UICONTROL Zum Überprüfen der Authentifizierung klicken]**, um zu überprüfen, ob die Payload der benutzerdefinierten Authentifizierung korrekt konfiguriert ist.
 
-![](assets/journey29-bis.png)
+![Schaltfläche für benutzerdefinierten Authentifizierungstest in der Datenquellenkonfiguration](assets/journey29-bis.png)
 
 Wenn der Test erfolgreich ist, wird die Schaltfläche grün.
 
-![](assets/journey29-ter.png)
+![Die Schaltfläche für den Authentifizierungstest wurde grün angezeigt, was auf eine erfolgreiche Validierung hinweist](assets/journey29-ter.png)
 
 Bei diesem Authentifizierungsmodus erfolgt die Aktionsausführung in zwei Schritten:
 
@@ -229,7 +229,7 @@ Im Folgenden finden Sie ein Beispiel für den Bearer-Authentifizierungstyp:
 
 >[!NOTE]
 >
->* Das Authentifizierungs-Token wird pro Journey zwischengespeichert: Wenn zwei Journey dieselbe benutzerdefinierte Aktion verwenden, wird für jede Journey ein eigenes Token zwischengespeichert. Dieses Token wird zwischen diesen Journeys nicht geteilt.
+>* Das Authentifizierungstoken wird pro Journey zwischengespeichert: Wenn zwei Journey dieselbe benutzerdefinierte Aktion verwenden, verfügt jede Journey über ein eigenes Token im Cache. Dieses Token wird zwischen diesen Journeys nicht geteilt.
 >
 >* Die Aufbewahrungsfrist im Cache hilft, zu viele Aufrufe an die Authentifizierungsendpunkte zu vermeiden. Die Aufbewahrung des Authentifizierungs-Tokens erfolgt im Cache des entsprechenden Service. Er wird also nicht dauerhaft gespeichert. Wenn ein Service neu gestartet wird, beginnt er mit einem leeren Cache. Die Aufbewahrungsfrist im Cache beträgt standardmäßig 1 Stunde. Sie kann in der benutzerdefinierten Authentifizierungs-Payload angepasst werden, indem eine andere Aufbewahrungsfrist angegeben wird.
 >
