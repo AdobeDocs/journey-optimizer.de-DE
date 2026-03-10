@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '1802'
-ht-degree: 47%
+source-wordcount: '1810'
+ht-degree: 46%
 
 ---
 
@@ -238,6 +238,10 @@ Nein. Sie können dieselbe Kampagne verwenden und das Feld `event` in der Payloa
 +++
 
 ### Fragen zur Fehlerbehebung
+
+>[!TIP]
+>
+>Eine umfassende Anleitung zur Fehlerbehebung finden Sie unter [Fehlerbehebung bei Live-Aktivitäten](troubleshoot-mobile-live.md).
 
 +++Meine Live-Aktivität beginnt, wird aber nicht aktualisiert. Was könnte das Problem sein?
 

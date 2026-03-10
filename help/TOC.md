@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3142'
 ht-degree: 96%
 
 ---
@@ -405,6 +405,7 @@ ht-degree: 96%
    + Live-Aktivität {#live-activity}
       + [Erste Schritte mit Live-Aktivitäten](using/mobile-live/get-started-mobile-live.md)
       + [Erstellen einer Live-Aktivität](using/mobile-live/create-mobile-live.md)
+      + [Fehlerbehebung bei Live-Aktivitäten](using/mobile-live/troubleshoot-mobile-live.md)
       + [Häufig gestellte Fragen](using/mobile-live/mobile-live-faq.md)
       + Konfigurieren des Inhaltskartenkanals {#configure}
          + [Konfigurieren einer Live-Aktivität in Journey Optimizer](using/mobile-live/mobile-live-configuration.md)

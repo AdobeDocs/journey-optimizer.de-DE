@@ -7,10 +7,10 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 89%
+source-wordcount: '523'
+ht-degree: 86%
 
 ---
 
@@ -85,3 +85,7 @@ Schritt 1 ist optional, wenn Ihre Push-Anmeldedaten bereits konfiguriert wurden,
 Sie können jetzt die Integration mit Adobe Experience Platform Mobile SDK starten, um dynamische Echtzeit-Aktualisierungen auf dem Sperrbildschirm und auf der Dynamic Island zu ermöglichen.
 
 ➡️ [Weitere Informationen zur Integration von Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
+
+>[!TIP]
+>
+>Wenn bei der Konfiguration oder dem Versand von Live-Aktivitäten Probleme auftreten, finden Sie unter [Fehlerbehebung bei Live-Aktivitäten](troubleshoot-mobile-live.md) Informationen zu den Debugging-Schritten.

@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 69%
+source-wordcount: '400'
+ht-degree: 66%
 
 ---
 
@@ -153,8 +153,12 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihr Adobe Experience Plat
 
 Nachdem Sie Ihre Live-Aktivität entworfen haben, können Sie mit [integrierten Berichten](../reports/campaign-global-report-cja-activity.md) die Wirkung Ihrer Live-Aktivität messen.
 
+>[!TIP]
+>
+>Wenn Ihre Live-Aktivität nicht erwartungsgemäß angezeigt oder aktualisiert wird, finden Sie unter [Fehlerbehebung bei Live-Aktivitäten](troubleshoot-mobile-live.md) eine schrittweise Debugging-Anleitung.
+
 ## Anleitungsvideo
 
 Erfahren Sie, wie Sie die Live-Aktivität von iOS mit Adobe Journey Optimizer konfigurieren, um umfangreiche Echtzeit-Updates auf dem iPhone-Sperrbildschirm und auf Dynamic Island zu liefern.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479873?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

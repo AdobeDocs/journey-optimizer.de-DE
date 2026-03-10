@@ -7,10 +7,10 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 73%
+source-wordcount: '493'
+ht-degree: 70%
 
 ---
 
@@ -239,4 +239,7 @@ Umfassende Dokumentation und Implementierungsdetails zu SDK finden Sie hier:
 * [API-Referenz](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
 * [Live-Aktivitäts-Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
 * [Öffentliche Klassen](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
-s
+
+>[!TIP]
+>
+>Wenn Probleme bei der Token-Registrierung, der Payload-Ausrichtung oder der Bereitstellung von Live-Aktivitäten auftreten, finden Sie unter [Fehlerbehebung bei Live-Aktivitäten](troubleshoot-mobile-live.md) detaillierte Debugging-Anleitungen.
