@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
-workflow-type: ht
-source-wordcount: '303'
-ht-degree: 100%
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 97%
 
 ---
 
@@ -57,3 +57,5 @@ Die wichtigsten Schritte, um KI-Modelle erstellen und verwenden zu können:
    >Rangfolgemodelle erfordern, dass Feedback-Ereignisse als Erlebnisereignisse gesendet werden, damit sie erfasst werden können. [Weitere Informationen zur Datenerfassung bei der Entscheidungsfindung](../data-collection/data-collection.md)
 
 1. Weisen Sie das KI-Modell einer Auswahlstrategie zu, um eine Rangliste der geeigneten Angebote zu erstellen. [Weitere Informationen](../selection-strategies.md#select-ranking-method)
+
+1. Überwachen Sie den Trainings-Status und die Leistung Ihres KI-Modells. [Weitere Informationen](ai-model-observability.md)

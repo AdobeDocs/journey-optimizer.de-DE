@@ -8,10 +8,10 @@ role: User
 level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
-workflow-type: ht
-source-wordcount: '943'
-ht-degree: 100%
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+workflow-type: tm+mt
+source-wordcount: '954'
+ht-degree: 97%
 
 ---
 
@@ -80,4 +80,4 @@ Das „Kaltstart“-Problem tritt auf, wenn es nicht genügend Daten gibt, um ei
 
 ## Erneutes Training {#re-training}
 
-Die Modelle werden wöchentlich neu trainiert, um die neuesten Interaktionen zwischen den Merkmalen zu erlernen und der Verschlechterung der Modell-Performance entgegenzuwirken.
+Die Modelle werden wöchentlich neu trainiert, um die neuesten Interaktionen zwischen den Funktionen zu erlernen und die Beeinträchtigung der Modellleistung zu minimieren. Informationen zum Überwachen des Trainings-Status und der Modellleistung finden Sie unter [KI-Modellüberwachung](ai-model-observability.md).

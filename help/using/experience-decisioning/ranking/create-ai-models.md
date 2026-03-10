@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
-workflow-type: ht
-source-wordcount: '679'
-ht-degree: 100%
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 91%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >Zum Erstellen, Bearbeiten oder Löschen von KI-Modellen benötigen Sie die Berechtigung zur **Verwaltung von Rangfolgestrategien**. [Weitere Informationen](../../administration/high-low-permissions.md#manage-ranking-strategies)
+
+## Zugriff auf KI-Modelle {#access-ai-models}
+
+Um auf die Liste der KI-Modelle zuzugreifen, gehen Sie zu **[!UICONTROL Entscheidung]** > **[!UICONTROL Strategie einrichten]** und wählen Sie **[!UICONTROL KI-Modelle]**. Dort werden alle in Ihrer Instanz erstellten KI-Modelle aufgelistet.
 
 ## Erstellen eines KI-Modells {#create-ranking-strategy}
 
@@ -39,7 +43,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 
    ![](../assets/ai-model-list.png)
 
-   Alle bisher erstellten KI-Modelle werden aufgelistet.
+   Dort werden alle bisher in Ihrer Instanz erstellten KI-Modelle aufgelistet.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL KI-Modell erstellen]**.
 
@@ -102,7 +106,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
    >
    >Sie können bis zu 5 Zielgruppen auswählen.
 
-1. Speichern und aktivieren Sie das KI-Modell.
+1. Speichern und aktivieren Sie das KI-Modell. Sobald Ihr Modell live ist, können Sie [den Trainings-Status und die Leistung ](ai-model-observability.md).
 
 <!--At this point, you must have:
 
@@ -119,4 +123,4 @@ Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu könn
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445960?captions=ger&quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->

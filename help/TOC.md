@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3139'
 ht-degree: 96%
 
 ---
@@ -672,6 +672,7 @@ ht-degree: 96%
             + [Modell für automatische Optimierung](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modell zur personalisierten Optimierung](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Erstellen von KI-Modellen](using/experience-decisioning/ranking/create-ai-models.md)
+            + [Überwachen der Leistung Ihrer KI-Modelle](using/experience-decisioning/ranking/ai-model-observability.md)
       + [Arbeiten mit Platzierungen](using/experience-decisioning/placements.md)
       + Verwenden von Adobe Experience Platform-Daten {#aep-data}
          + [Verwenden von Adobe Experience Platform-Daten](/help/rp_landing_pages/aep-data-landing-page.md)
