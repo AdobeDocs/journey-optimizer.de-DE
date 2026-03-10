@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
+source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '476'
 ht-degree: 5%
 
 ---
@@ -73,15 +73,14 @@ Wenn Sie den erweiterten HTML-Editor verwenden, sind die folgenden Leitplanken v
    >
    >Achten Sie darauf, den richtigen HTML- und CSS-Code einzugeben, da es keinen Syntaxvalidierungsprozess gibt und von [!DNL Adobe] keine Unterstützung bereitgestellt wird. [Weitere Informationen](#guardrails)
 
-1. Speichern ist in der erweiterten HTML-Ansicht nicht verfügbar. Wechseln Sie zurück zur Desktop-Ansicht, um Ihre Änderungen zu speichern.
+1. Inhaltssimulation und -speicherung sind in der erweiterten HTML-Ansicht aus Kompatibilitätsgründen nicht verfügbar. Wechseln Sie zurück zur Desktop-Ansicht, um eine Vorschau Ihres Inhalts anzuzeigen und Ihre Änderungen zu speichern.
 
    ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Inhalte können aus Gründen der Inhaltskompatibilität nur in der Desktop-Ansicht gespeichert werden. Ihre Bearbeitungen bleiben beim Wechseln der Ansichten erhalten.
+   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->Ihre Bearbeitungen bleiben beim Wechseln der Ansichten erhalten.
+<!--
+1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
 
-1. Die Inhaltssimulation ist in der erweiterten HTML-Ansicht nicht verfügbar. Um Ihren Inhalt zu simulieren, wechseln Sie zur Desktop-Ansicht.
-
-   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
-
+    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
