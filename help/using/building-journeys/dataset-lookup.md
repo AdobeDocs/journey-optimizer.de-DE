@@ -13,7 +13,7 @@ exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Aktivität „Datensatzsuche“"
->abstract="Mit **[!UICONTROL Aktivität „Datensatzsuche]** können Sie zur Laufzeit Daten dynamisch aus [!DNL Adobe Experience Platform] Datensatzdatensätzen abrufen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind."
+>abstract="Die Aktivität **[!UICONTROL Datensatzsuche]** ermöglicht das dynamische Abrufen von Daten aus [!DNL Adobe Experience Platform]-Eintragsdatensätzen während der Laufzeit. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind."
 
 Mit **[!UICONTROL Aktivität „Datensatzsuche]** können Sie während der Laufzeit dynamisch Daten aus [!DNL Adobe Experience Platform] Datensatzdatensätzen abrufen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind.
 

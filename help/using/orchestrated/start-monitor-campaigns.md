@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 57%
+ht-degree: 59%
 
 ---
 
@@ -80,7 +80,7 @@ Um eine Kampagne wieder in den Entwurfsstatus zu versetzen, öffnen Sie die orch
 
 ![](assets/back-to-draft.png)
 
-Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Die Kampagne kehrt zum Status **Entwurf** zurück. Sie können jetzt die identifizierten Probleme beheben, die Kampagne [&#x200B; testen &#x200B;](#test) sie dann erneut [veröffentlichen](#publish) wenn sie bereit ist.
+Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Die Kampagne kehrt zum Status **Entwurf** zurück. Sie können jetzt die identifizierten Probleme beheben, die Kampagne [ testen ](#test) sie dann erneut [veröffentlichen](#publish) wenn sie bereit ist.
 
 ## Nachrichtenversand bestätigen {#confirm-sending}
 
@@ -121,7 +121,7 @@ Visuelle Statusindikatoren helfen, zu verstehen, wie jede Aktivität funktionier
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Logs und Aufgaben"
->abstract="Der Bildschirm **Protokolle und Aufgaben** enthält einen Verlauf der orchestrierten Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden."
+>abstract="Der Bildschirm **Protokolle und Aufgaben** enthält einen Verlauf der Ausführung der orchestrierten Kampagne, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden."
 
 Die Überwachung von Protokollen und Aufgaben ist ein wichtiger Schritt, um Ihre orchestrierten Kampagnen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Protokolle und Aufgaben können sowohl im Test- als auch im Live-Modus über die Schaltfläche **[!UICONTROL Logs]** in der Symbolleiste auf der Arbeitsfläche aufgerufen werden.
 

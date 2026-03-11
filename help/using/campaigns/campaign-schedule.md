@@ -13,7 +13,7 @@ exl-id: b183eeb8-606f-444d-9302-274f159c3847
 source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 54%
+ht-degree: 60%
 
 ---
 
@@ -29,12 +29,12 @@ Stellen Sie bei der Planung von Kampagnen in [!DNL Adobe Journey Optimizer] sich
 
 ![](assets/campaign-start.png)
 
-## Zur Ortszeit des Empfängers senden {#profile-timezone}
+## Zur Ortszeit der Empfängerin oder des Empfängers senden {#profile-timezone}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_profile_timezone"
 >title="Zeitzone des Profils verwenden"
->abstract="Senden von Nachrichten basierend auf der Zeitzone des Profils jedes Empfängers. Alle Empfänger erhalten die Nachricht zur gleichen Ortszeit, unabhängig von ihrem geografischen Standort. Das System verwendet das Feld „timeZone“ der Adobe Experience Platform-Profile, wobei die Zeitzone des Kampagnenerstellers als Fallback dient."
+>abstract="Nachrichten basierend auf der Zeitzone des Profils jeder Empfängerin und jedes Empfängers senden. Alle Empfängerinnen und Empfänger erhalten die Nachricht zur gleichen Ortszeit, unabhängig von ihrem geografischen Standort. Das System verwendet das Feld „timeZone“ aus den Adobe Experience Platform-Profilen, wobei die Zeitzone der Kampagnenerstellerin bzw. des Kampagnenerstellers als Fallback dient."
 
 Wenn Sie eine Kampagne für ein bestimmtes Datum und eine bestimmte Uhrzeit planen, können Sie Nachrichten basierend auf der Zeitzone des Profils jedes Empfängers senden. Dadurch wird sichergestellt, dass alle Empfänger die Nachricht zur gleichen Ortszeit erhalten, unabhängig von ihrem geografischen Standort.
 

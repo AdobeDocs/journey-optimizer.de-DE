@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Erstellung von Briefpost"
->abstract="Erstellen Sie Briefpostnachrichten in geplanten Kampagnen und Journey und entwerfen Sie die Extraktionsdateien, die von Briefpostanbietern benötigt werden, um E-Mails an Ihre Kunden zu senden."
+>abstract="Erstellen Sie Direkt-Mail-Nachrichten in geplanten Kampagnen und Journeys und erstellen Sie die von Direkt-Mail-Anbietern benötigten Extraktionsdateien, um E-Mails an Ihre Kundinnen und Kunden zu senden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"

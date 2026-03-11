@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
 workflow-type: tm+mt
 source-wordcount: '1532'
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Zielgruppen-Qualifizierungsereignisse"
->abstract="Diese Aktivität überwacht die Ein- und Ausstiege von Profilen in [!DNL Adobe Experience Platform] Zielgruppen, um Personen durch eine Journey zu bewegen."
+>abstract="Diese Aktivität überwacht die Eintritte und Ausstiege von Profilen in [!DNL Adobe Experience Platform]-Zielgruppen, um Personen durch eine Journey zu führen."
 
 ## Informationen zu Zielgruppen-Qualifizierungsereignissen{#about-segment-qualification}
 
@@ -118,7 +118,7 @@ Siehe die [[!DNL Adobe Experience Platform] Dokumentation zur Streaming-](https:
 
 >[!NOTE]
 >
->Bei der Streaming-Segmentierung kann es bis zu **2 Stunden dauern,** neu aufgenommene Daten innerhalb von [!DNL Adobe Experience Platform] vollständig für die Echtzeit-Nutzung übertragen werden. Zielgruppen, die auf tages- oder zeitbasierte Bedingungen angewiesen sind (z. B. „Ereignisse, die heute stattgefunden haben“), können zu zusätzlicher Komplexität bei der Qualifizierungszeitplanung führen. Wenn Ihr Journey von der sofortigen Zielgruppen-Qualifizierung abhängt, sollten Sie zu Beginn [&#x200B; kurze Aktivität &#x200B;](wait-activity.md)Warten“ hinzufügen. Um eine genaue Qualifizierung sicherzustellen, können Sie auch Pufferzeiten zulassen.
+>Bei der Streaming-Segmentierung kann es bis zu **2 Stunden dauern,** neu aufgenommene Daten innerhalb von [!DNL Adobe Experience Platform] vollständig für die Echtzeit-Nutzung übertragen werden. Zielgruppen, die auf tages- oder zeitbasierte Bedingungen angewiesen sind (z. B. „Ereignisse, die heute stattgefunden haben“), können zu zusätzlicher Komplexität bei der Qualifizierungszeitplanung führen. Wenn Ihr Journey von der sofortigen Zielgruppen-Qualifizierung abhängt, sollten Sie zu Beginn [ kurze Aktivität ](wait-activity.md)Warten“ hinzufügen. Um eine genaue Qualifizierung sicherzustellen, können Sie auch Pufferzeiten zulassen.
 
 #### Darum treten möglicherweise nicht alle qualifizierten Profile in die Journey ein {#streaming-entry-caveats}
 
@@ -194,4 +194,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

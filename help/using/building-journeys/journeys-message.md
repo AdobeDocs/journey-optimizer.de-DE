@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Integrierte Kanalaktion"
->abstract="Journey Optimizer verfügt über integrierte Funktionen für Kanalaktionen. Sie können einfach eine Nachricht (E-Mail, Textnachricht (SMS/MMS), Push, Briefpost) oder ein eingehendes Erlebnis (In-App, Web, Code-basiertes Erlebnis, Inhaltskarte) zu Ihrem Journey hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann im Rahmen der Journey ausgeführt und versendet."
+>abstract="Journey Optimizer verfügt über integrierte Funktionen für Kanalaktionen. Sie können Ihrer Journey einfach eine Nachricht (E-Mail, Textnachricht (SMS/MMS), Push, Direkt-Mail) oder ein Inbound-Erlebnis (In-App, Web, Code-basiertes Erlebnis, Inhaltskarte) hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann im Rahmen der Journey ausgeführt und versendet."
 
 [!DNL Journey Optimizer] verfügt über integrierte Kanalaktionsfunktionen, mit denen Nachrichten gesendet werden können. Um eine integrierte Kanalaktion zu Ihrer Journey hinzuzufügen, legen Sie eine Kanalaktivität per Drag-and-Drop ab und definieren Sie deren Einstellungen und Inhalte. Sie wird dann im Rahmen der Journey ausgeführt und versendet.
 

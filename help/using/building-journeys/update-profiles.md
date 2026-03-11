@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="Aktivität „Profil aktualisieren“"
->abstract="Mit der Aktionsaktivität Profil aktualisieren können Sie ein vorhandenes [!DNL Adobe Experience Platform] mit Informationen aus dem Ereignis, aus einer Datenquelle oder mit einem bestimmten Wert aktualisieren."
+>abstract="Mit der Aktionsaktivität „Profil aktualisieren“ können Sie ein vorhandenes [!DNL Adobe Experience Platform]-Profil mit Informationen aus dem Ereignis, einer Datenquelle oder unter Verwendung eines bestimmten Werts aktualisieren."
 
 Verwenden Sie die Aktionsaktivität **[!UICONTROL Profil aktualisieren]**, um ein vorhandenes [!DNL Adobe Experience Platform] mit Informationen aus einem Ereignis, aus einer Datenquelle oder mit einem bestimmten Wert zu aktualisieren.
 

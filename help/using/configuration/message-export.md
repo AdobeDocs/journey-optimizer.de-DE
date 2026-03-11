@@ -12,7 +12,7 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 44%
+ht-degree: 53%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="Aufbewahren und Exportieren von gesendeten Inhalten"
->abstract="Wenn Sie diese Option auswählen, können Sie den Inhalt der gesendeten E-Mails oder SMS-Nachrichten mit dieser Konfiguration in einen [!DNL Experience Platform] Datensatz schreiben. Datensätze werden 7 Kalendertage nach der Aufnahme aufbewahrt, während derer Sie sie in Ihren eigenen Speicher exportieren können."
+>abstract="Wenn Sie diese Option auswählen, können Sie die Inhalte der gesendeten E-Mails oder SMS-Nachrichten mit dieser Konfiguration in einen [!DNL Experience Platform]-Datensatz schreiben. Einträge werden ab der Aufnahme für sieben Kalendertage aufbewahrt. Während dieses Zeitraums können Sie sie in Ihren eigenen Speicher exportieren."
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur für den E-Mail- und SMS-Kanal für Organisationen verfügbar, die das Add-on „Nachrichtenexport“ erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Diese Funktion ist nur für den E-Mail- und SMS-Kanal verfügbar und steht Unternehmen zur Verfügung, die das Add-on für den Nachrichtenexport erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 **Nachrichtenexport** ermöglicht es Ihnen, gesendete E-Mail- und SMS-Nachrichteninhalte über [!DNL Journey Optimizer] Ziele von [!DNL Adobe Experience Platform] an Ihren eigenen Speicher zu übertragen, wodurch Sie Daten aus [!DNL Experience Platform] an externe Endpunkte senden können. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home){target="_blank"}
 
@@ -60,7 +60,7 @@ Bevor Sie Ihre Daten exportieren können, müssen Sie den Exportvorgang einricht
 
 1. Wählen Sie einen Experience Platform-[Zieltyp](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/destination-types){target="_blank"}. Eine Liste der verfügbaren Zielplattformen, die für den Empfang von Daten bereit sind, finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. Konfigurieren Sie in [!DNL Experience Platform] Ihr Ziel, indem Sie Anmeldedaten, einen Bucket/Container, ein Pfadpräfix und Sicherheitsoptionen definieren. [Weitere Informationen dazu](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. Konfigurieren Sie in [!DNL Experience Platform] Ihr Ziel, indem Sie Anmeldedaten, einen Bucket/Container, ein Pfadpräfix und Sicherheitsoptionen definieren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Erstellen Sie einen Datensatz-Exportfluss mit den folgenden Daten:
 

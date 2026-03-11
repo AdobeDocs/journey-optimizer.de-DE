@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ Um mit Geschäftsregeln arbeiten zu können, benötigen Sie die folgenden Berech
 * **[!UICONTROL Häufigkeitsregeln anzeigen]**: Zugreifen auf und Anzeigen von Geschäftsregeln.
 * **[!UICONTROL Häufigkeitsregeln verwalten]**: Erstellen, Bearbeiten oder Löschen von Geschäftsregeln.
 
-Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
+Weitere Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
 
 ### Globale und benutzerdefinierte Regelsätze {#global-custom}
 
@@ -80,7 +80,7 @@ Zusätzlich zu diesem „Globalen Standardregelsatz“ können **Regelsätze** e
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Regeltyp"
->abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den Typ **Frequenzbegrenzung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag. Wählen Sie **Stille Stunden** aus, um zeitbasierte Ausschlüsse zu definieren, um sicherzustellen, dass während bestimmter Zeiträume keine Nachrichten gesendet werden."
+>abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den Typ **Frequenzbegrenzung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag. Wählen Sie **Ruhezeiten** aus, um zeitbasierte Ausschlüsse zu definieren, damit während bestimmter Zeiträume keine Nachrichten gesendet werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -180,4 +180,4 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="Reaktionsereignisse"
->abstract="Mit dieser Aktivität können Sie auf Tracking-Daten reagieren, die sich auf eine innerhalb derselben Journey gesendete Nachricht beziehen. Wir erfassen diese Informationen in Echtzeit in dem Moment, in dem sie mit [!DNL Adobe Experience Platform] geteilt werden."
+>abstract="Mit dieser Aktivität können Sie auf Tracking-Daten reagieren, die sich auf eine innerhalb derselben Journey gesendete Nachricht beziehen. Wir erfassen diese Informationen in Echtzeit, sobald sie für [!DNL Adobe Experience Platform] freigegeben werden."
 
 ## Überblick {#overview}
 
-Unter den verschiedenen Ereignisaktivitäten, die in der Palette verfügbar sind, finden Sie das integrierte **[!UICONTROL Reaktionsereignis]**. Mit dieser Aktivität können Sie auf Tracking-Daten reagieren, die sich auf eine innerhalb derselben Journey gesendete Nachricht beziehen. Wir erfassen diese Informationen in Echtzeit in dem Moment, in dem sie mit [!DNL Adobe Experience Platform] geteilt werden.
+Unter den verschiedenen Ereignisaktivitäten, die in der Palette verfügbar sind, finden Sie das integrierte **[!UICONTROL Reaktionsereignis]**. Mit dieser Aktivität können Sie auf Tracking-Daten reagieren, die sich auf eine innerhalb derselben Journey gesendete Nachricht beziehen. Wir erfassen diese Informationen in Echtzeit, sobald sie für [!DNL Adobe Experience Platform] freigegeben werden.
 
 Sie können auf angeklickte oder geöffnete Nachrichten reagieren. Beispielsweise können Sie eine weitere Nachricht senden, wenn eine Person die vorherige E-Mail geöffnet oder darin geklickt hat, oder eine andere Folgenachricht senden, wenn sie nicht mit Ihrer Kommunikation interagiert hat.
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit der Inhaltsoptimierung
+title: Erste Schritte mit Inhaltsoptimierung
 description: Erfahren Sie, wie Sie mit der Inhaltsoptimierung personalisierte und optimierte Inhalte in Ihren Kampagnen und Journey bereitstellen können.
 feature: Experimentation
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
-# Erste Schritte mit der Inhaltsoptimierung {#message-optimization}
+# Erste Schritte mit Inhaltsoptimierung {#message-optimization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_optimization"
 >title="Inhaltsoptimierung"
->abstract="Die Inhaltsoptimierung in Journey Optimizer ermöglicht es Ihnen, verschiedene Versionen Ihrer Inhalte zu testen und festzustellen, welche am besten funktioniert. Sie können Targeting verwenden, um personalisierte Inhalte für bestimmte Segmente bereitzustellen, um mehrere Varianten zu testen oder beide Ansätze für anspruchsvolle Optimierungsstrategien zu kombinieren."
+>abstract="Mit der Inhaltsoptimierung in Journey Optimizer können Sie verschiedene Versionen Ihrer Inhalte testen, um zu ermitteln, welche Version die beste Leistung bietet. Sie können Targeting verwenden, um personalisierte Inhalte für bestimmte Segmente bereitzustellen, Experimente durchführen, um mehrere Varianten zu testen, oder beide Ansätze für anspruchsvolle Optimierungsstrategien kombinieren."
 
 Mit der Inhaltsoptimierung können Sie die richtige Botschaft zur richtigen Zeit an die richtige Zielgruppe senden. Durch die Kombination datengesteuerter Einblicke mit leistungsstarken Personalisierungsfunktionen können Sie die Interaktion und Konversionen in all Ihren Kampagnen und Journey maximieren.
 
@@ -35,7 +35,7 @@ Mit der Inhaltsoptimierung in Journey Optimizer können Sie:
 
 * [Zielgruppenbestimmung verwenden](optimization-targeting.md) um personalisierte Inhalte für bestimmte Zielgruppensegmente basierend auf Profilattributen, Kontextdaten oder der Zielgruppenzugehörigkeit bereitzustellen.
 
-* [Führen Sie Experimente &#x200B;](optimization-experimentation.md), um mehrere Inhaltsvarianten zu testen und anhand Ihrer Erfolgsmetriken zu ermitteln, welche am besten abschneidet.
+* [Führen Sie Experimente ](optimization-experimentation.md), um mehrere Inhaltsvarianten zu testen und anhand Ihrer Erfolgsmetriken zu ermitteln, welche am besten abschneidet.
 
 * [Kombinieren Sie beide Ansätze](optimization-combination.md) um komplexe Optimierungsstrategien zu erstellen, mit denen Sie verschiedene Varianten für jedes Zielsegment testen können.
 
@@ -55,7 +55,7 @@ In der folgenden Tabelle sind die wichtigsten Unterschiede zusammengefasst:
 | **basierend auf** | Profilattribute, Kontext, Zielgruppen | Zufällige Verteilung |
 | **Anwendungsfall** | Bereitstellen relevanter Inhalte für bekannte Segmente | Finden Sie heraus, welche Inhalte am besten funktionieren |
 | **Beispiel** | Unterschiedliche Promotions nach Standort anzeigen | Testen Sie zwei Betreffzeilen, um zu sehen, welche mehr Öffnungen erhalten |
-| **Am besten geeignet für** | Personalization im großen Maßstab | Optimierung und Lernen |
+| **Geeignet für** | Personalization im großen Maßstab | Optimierung und Lernen |
 
 ![](../campaigns/assets/msg-optimization-experiment-vs-targeting.png){width="110%" zoomable="yes"}
 
@@ -83,7 +83,7 @@ Kombination:
 
 So optimieren Sie Ihren Inhalt:
 
-1. **Erstellen einer Kampagne oder Journey**: Richten Sie Ihre [Kampagne](../campaigns/create-campaign.md) oder [Journey ein &#x200B;](../building-journeys/journey-gs.md) fügen Sie mindestens eine Aktion hinzu.
+1. **Erstellen einer Kampagne oder Journey**: Richten Sie Ihre [Kampagne](../campaigns/create-campaign.md) oder [Journey ein ](../building-journeys/journey-gs.md) fügen Sie mindestens eine Aktion hinzu.
 
 1. **Wählen Sie Ihren Optimierungsansatz**:
    * [Verwenden Sie Targeting](optimization-targeting.md) um Inhalte für bestimmte Segmente zu personalisieren.
@@ -111,7 +111,7 @@ Sobald Ihr Journey oder Ihre Kampagne live ist, werden die Profile anhand der vo
 
 Erfahren Sie, wie Sie die Inhaltsoptimierung in durch eine Aktion oder API ausgelösten Kampagnen nutzen können. Sie erfahren, wie Sie Teilzielgruppen ansprechen, Nachrichtenvarianten je nach Standort erstellen, Fallback-Inhalte aktivieren und mehrere Experimente innerhalb einer Kampagne durchführen. In diesem Tutorial wird auch beschrieben, wie Sie Multi-Channel-Kampagnen verwalten und dabei die Konsistenz der Nachrichten beibehalten können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470377?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **Verwandte Themen**
 

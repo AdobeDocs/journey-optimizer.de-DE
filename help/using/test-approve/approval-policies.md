@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Sie können Validierungsrichtlinien mit flexiblen Kriterien wie Tags, Kampagnen-
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_self_approval"
 >title="Selbstgenehmigung blockieren"
->abstract="Aktivieren Sie diese Option, um Benutzer daran zu hindern, ihre eigenen Genehmigungsanfragen zu genehmigen, selbst wenn sie zu einer Benutzergruppe oder Rolle gehören, die als Prüfer festgelegt wurde."
+>abstract="Aktivieren Sie diese Option, um zu verhindern, dass Benutzende ihre eigenen Genehmigungsanfragen genehmigen, selbst wenn sie zu einer Benutzergruppe oder Rolle gehören, die als prüfende Person festgelegt wurde."
 
 Gehen Sie wie folgt vor, um eine Genehmigungsrichtlinie zu erstellen:
 
