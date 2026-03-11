@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
-source-wordcount: '866'
-ht-degree: 100%
+source-git-commit: 194874dfe5f3c2dea6d0f418d4a62fd897f474b5
+workflow-type: tm+mt
+source-wordcount: '874'
+ht-degree: 99%
 
 ---
 
@@ -47,21 +47,27 @@ Der KI-Assistent unterstützt die Generierung **in mehreren Sprachen**, sodass S
     <tr style="border: 0;background-color: #FFFFFF;">
       <td>
         <ul>
-          <li>Französisch</li>
-          <li>Spanisch</li>
-          <li>Deutsch</li>
-          <li>Italienisch</li>
+          <li>Chinesisch (Hongkong)</li>
+          <li>Chinesisch (vereinfacht)</li>
+          <li>Chinesisch (Taiwan)</li>
+          <li>Niederländisch</li>
         </ul>
       </td>
       <td>
         <ul>
+          <li>Französisch</li>
+          <li>Deutsch</li>
+          <li>Italienisch</li>
           <li>Japanisch</li>
-          <li>Schwedisch</li>
-          <li>Niederländisch</li>
-          <li>Norwegisch</li>
         </ul>
       </td>
       <td>
+        <ul>
+          <li>Norwegisch</li>
+          <li>Portugiesisch</li>
+          <li>Spanisch</li>
+          <li>Schwedisch</li>
+        </ul>
       </td>
     </tr>
   </tbody>
