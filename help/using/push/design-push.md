@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: 9425192fac4699778f81ce57c31979155dd38b18
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 74%
+source-wordcount: '2017'
+ht-degree: 71%
 
 ---
 
@@ -45,9 +45,14 @@ Konfigurieren Sie die Aktion, die ausgeführt wird, wenn Empfänger auf den Haup
 
 ![](assets/title-body-push.png)
 
-* **[!UICONTROL Mobile App öffnen]**: Startet die Mobile App, die der Benachrichtigung zugeordnet ist. Die App wird in Ihrer [Kanalkonfiguration“ &#x200B;](../configuration/channel-surfaces.md)d. h. Nachrichtenvoreinstellung) angegeben.
+* **[!UICONTROL Mobile App öffnen]**: Startet die Mobile App, die der Benachrichtigung zugeordnet ist. Die App wird in Ihrer [Kanalkonfiguration“ ](../configuration/channel-surfaces.md)d. h. Nachrichtenvoreinstellung) angegeben.
 * **[!UICONTROL Deeplink]**: Leitet Benutzer zu bestimmten Inhalten in Ihrer App weiter, z. B. zu einer bestimmten Ansicht, einem Seitenabschnitt oder einer Registerkarte. Geben Sie die Deeplink-URL in das bereitgestellte Feld ein.
 * **[!UICONTROL Web-URL]**: Leitet Benutzer zu einer externen Web-Seite weiter. Geben Sie die Ziel-URL in das bereitgestellte Feld ein.
+
+  >[!NOTE]
+  >
+  >Wenn Ihre Push-Benachrichtigung eine URL enthält, die als universeller Link in iOS konfiguriert ist, öffnet die Push-Benachrichtigung die zugehörige App, falls installiert, unabhängig von der ausgewählten **[!UICONTROL Web-URL]**-Aktion. Um das Öffnen eines Browsers zu erzwingen, verwenden Sie eine Domain, die nicht für universelle Links konfiguriert ist, oder entfernen Sie die Registrierung für universelle Links für die Domain.
+  >Weitere Informationen dazu, wie Adobe SDK Deep-Links und universelle Links verarbeitet, finden Sie in der [Dokumentation zu Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications/){target="_blank"}.
 
 ## Hinzufügen von Medien {#add-media-push}
 
@@ -68,7 +73,7 @@ Bei Android können Sie nur ein Bildsymbol und ein Bild für erweiterte Benachri
 
 Sie können Medien mit einer der folgenden Methoden hinzufügen:
 
-* Schaltfläche **[!UICONTROL Medien hinzufügen]**: Wählen Sie ein Asset aus [Adobe Experience Manager Assets &#x200B;](../integrations/assets.md) oder greifen Sie auf den KI-Assistenten zu, um [ansprechende Bilder](../content-management/generative-image.md) für Push-Benachrichtigungen zu generieren.
+* Schaltfläche **[!UICONTROL Medien hinzufügen]**: Wählen Sie ein Asset aus [Adobe Experience Manager Assets ](../integrations/assets.md) oder greifen Sie auf den KI-Assistenten zu, um [ansprechende Bilder](../content-management/generative-image.md) für Push-Benachrichtigungen zu generieren.
 
 * **[!UICONTROL Feld]** Medien hinzufügen“: Geben Sie die Medien-URL direkt ein. Sie können Personalisierungs-Token in die URL aufnehmen.
 
@@ -86,7 +91,7 @@ Für iOS können Sie ein Bild, ein Video oder eine GIF hinzufügen, das bzw. die
 
 Sie können Medien mit einer der folgenden Methoden hinzufügen:
 
-* **[!UICONTROL Medien hinzufügen]**-Schaltfläche: Asset aus **[!DNL Adobe Experience Manager Assets]** auswählen. Weitere Informationen zur Verwendung von **[!DNL Adobe Experience Manager Assets]** finden [&#x200B; auf dieser Seite](../integrations/assets.md).
+* **[!UICONTROL Medien hinzufügen]**-Schaltfläche: Asset aus **[!DNL Adobe Experience Manager Assets]** auswählen. Weitere Informationen zur Verwendung von **[!DNL Adobe Experience Manager Assets]** finden [ auf dieser Seite](../integrations/assets.md).
 
 * **[!UICONTROL Feld]** Medien hinzufügen“: Geben Sie die Medien-URL direkt ein. Sie können Personalisierungs-Token in die URL aufnehmen.
 
