@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 58cabac978facef373c6cadee0c8fc0963785df8
+source-git-commit: 2895554bfa00ed1b4cfe2d036568ed5a112689f8
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 86%
+source-wordcount: '878'
+ht-degree: 85%
 
 ---
 
@@ -90,13 +90,16 @@ Es empfiehlt sich, benutzerdefinierte Datumsangaben zu verwenden, die spezifisch
 
 >[!CAUTION]
 >
->Sie können einen `dateTimeOnly`-Ausdruck nutzen oder eine Funktion zur Konvertierung in ein `dateTimeOnly`-Format verwenden.  Beispiel: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`. Das Feld im Ereignis hat die Form 2023-08-12T09:46:06Z. Die **Zeitzone** wird in den Eigenschaften Ihres Journey erwartet. Daher ist es nicht möglich, von der Benutzeroberfläche aus direkt auf eine vollständige ISO-8601-Zeitstempelmischzeit und einen Zeitzonenversatz zu verweisen, z. B. 2023-08-12T09:46:06.982-05. [Weitere Informationen](../building-journeys/timezone-management.md).
+>Beachten Sie beim Arbeiten mit `dateTimeOnly` Ausdrücken Folgendes:
 >
->Wenn Sie einen benutzerdefinierten Warteausdruck mit `toDateTimeOnly()` erstellen, vermeiden Sie es, „Z“ oder einen Zeitzonenversatz (z. B. &quot;-05:00„) im Ergebnis anzuhängen. Journey Der Ausdruck muss eine gültige ISO-Datums-/Uhrzeitsyntax für den Verweis auf die konfigurierte Zeitzone ohne explizite Zeitzonenbezeichner verwenden. Andernfalls können Profile in der Warteaktivität hängen bleiben.
+>* Sie können einen `dateTimeOnly`-Ausdruck direkt verwenden oder ihn mithilfe einer Funktion in ihn konvertieren, z. B. `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, wenn sich der Feldwert im `2023-08-12T09:46:06Z` befindet.
+>* Die **Zeitzone** wird in den Journey-Eigenschaften definiert. Daher ist es nicht möglich, von der Benutzeroberfläche aus auf einen vollständigen ISO-8601-Zeitstempel zu verweisen, der Zeit- und Zeitzonenversatz mischt, z. B. `2023-08-12T09:46:06.982-05`. [Weitere Informationen](../building-journeys/timezone-management.md)
+>* Beim Erstellen eines benutzerdefinierten Warteausdrucks mit `toDateTimeOnly()` dürfen Sie **nicht** `Z` oder einen Zeitzonenversatz anhängen (z. B. `-05:00`). Der Ausdruck muss auf die konfigurierte Zeitzone der Journey ohne explizite Zeitzonenbezeichner verweisen, da andernfalls Profile in der Warteaktivität stecken bleiben können.
 >
->**Korrektes Beispiel:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
->
->**Falsches Beispiel:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (enthält „Z“)
+>| | Beispiel |
+>|---|---|
+>| **Richtig** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
+>| **falsch** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (enthält `Z`) |
 
 Um zu überprüfen, ob die Warteaktivität erwartungsgemäß funktioniert, können Sie Schritt-Ereignisse verwenden. [Weitere Informationen](../reports/query-examples.md#common-queries).
 
