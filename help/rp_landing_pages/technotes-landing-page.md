@@ -2,35 +2,35 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Technotes
-description: Technotes
+description: Erfahren Sie mehr über die statistischen Methoden hinter Journey Optimizer-Experimenten, einschließlich Konfidenzsequenzen, Steigerungsberechnungen und Konversionsraten.
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '123'
+ht-degree: 54%
 
 ---
 
 # Technotes{#section-overview}
 
-Technotes in Adobe Journey Optimizer bieten einen Einblick in die fortschrittlichen statistischen Methoden, die Experimente und Reporting ermöglichen. Ganz gleich, ob Sie sich damit befassen, wie Experimente mit Konfidenzsequenzen kontinuierlich überwacht werden, oder ob Sie verstehen möchten, wie Kennzahlen wie Konversions- und Steigerungsraten berechnet werden – diese Handbücher helfen Ihnen dabei, mit Zuversicht datengestützte Entscheidungen zu treffen. Jedes Thema baut auf Schlüsselkonzepten wie Fehlerquoten und Hypothesentests auf und bietet sowohl Grundlagenwissen als auch detailliertere Informationen zu den einzigartigen Ansätzen von Adobe. Wenn Sie diese Tools beherrschen, erhalten Sie Erkenntnisse, mit denen Sie Kampagnen optimieren und selbstbewusst die für Ihre Zielgruppe leistungsstärksten Strategien festlegen können.
+In diesen technischen Anmerkungen werden die statistischen Methoden erläutert, die beim Experimentieren und Reporting mit Adobe Journey Optimizer verwendet werden. Verwenden Sie sie, um zu verstehen, wie Experimente überwacht werden, wie Metriken wie Steigerung und Konversionsrate berechnet werden und wie Ergebnisse mit Konfidenz interpretiert werden.
 
 ## Technotes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Statistische Berechnungen, die in Adobe Journey Optimizer-Experimenten verwendet werden
 
-Erfahren Sie mehr über fortschrittliche statistische Methoden wie Konfidenzsequenzen und jederzeit gültige Konfidenz, die eine sichere und kontinuierliche Überwachung von Experimenten ermöglichen.
+Erfahren Sie mehr über fortschrittliche statistische Methoden wie Konfidenzsequenzen und jederzeit gültige Konfidenz, die sicheres und kontinuierliches Monitoring von Experimenten ermöglichen.
 
 [Statistische Berechnungen erkunden](../using/content-management/experiment-calculations.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Verstehen der statistischen Berechnungen in Experimentberichten
 

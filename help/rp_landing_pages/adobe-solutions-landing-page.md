@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Senden mit Adobe-Lösungen
-description: Senden mit Adobe-Lösungen
+description: Erfahren Sie, wie Sie mit benutzerdefinierten Aktionen Nachrichten über Adobe Campaign Standard, Campaign v7/v8 und Marketo Engage von Journey Optimizer Journey aus senden können.
 redpen-status: CREATED_||_2025-08-11_21-17-09
 exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: a0ea5aef7616520bbc2792ba33e85ff72724a28e
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 100%
+source-wordcount: '224'
+ht-degree: 86%
 
 ---
 
@@ -20,33 +20,33 @@ Adobe Journey Optimizer kann auch Nachrichten über andere Adobe-Lösungen sende
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integrieren von Adobe Journey Optimizer mit Adobe Campaign Standard
 
 Erfahren Sie, wie Sie Adobe Journey Optimizer mit Adobe Campaign Standard integrieren können, um Funktionen für Transaktionsnachrichten wie E-Mail, Push-Benachrichtigung und SMS zu ermöglichen.
 
-[Tutorial lesen](../using/action/acs-action.md)
+[Integration mit Campaign Standard](../using/action/acs-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integrieren von Adobe Journey Optimizer mit Adobe Campaign v7/v8
 
 Erfahren Sie, wie Sie Adobe Journey Optimizer mit Adobe Campaign v7/v8 für Transaktionsnachrichten über E-Mails, SMS und Push-Benachrichtigungen verbinden.
 
-[Tutorial lesen](../using/action/acc-action.md)
+[Integration mit Campaign v7/v8](../using/action/acc-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Integrieren von Adobe Journey Optimizer mit Marketo Engage
 
 Richten Sie eine benutzerdefinierte Marketo Engage-Aktion ein, um Daten zu synchronisieren und das Marketing in Adobe Journey Optimizer zu personalisieren.
 
-[Tutorial lesen](../using/action/marketo-engage.md)
+[Integrieren mit Marketo Engage](../using/action/marketo-engage.md)
 :::
 
 ::::

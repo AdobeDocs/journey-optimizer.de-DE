@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Marken
-description: Marken
+description: Erfahren Sie, wie Sie in Journey Optimizer Markenrichtlinien erstellen, verwalten und personalisieren können, um konsistente, markeninterne Inhalte für alle Kampagnen sicherzustellen.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ In Adobe Journey Optimizer können Sie mit der Funktion „Marken“ die einziga
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Richtlinien zum Erstellen und Verwalten Ihrer Marke
 
@@ -30,13 +30,33 @@ Erfahren Sie, wie Sie mit Adobe Journey Optimizer Markenrichtlinien für eine ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Auswerten des Markenausrichtungswerts
 
 Machen Sie sich mit der Funktion „Markenausrichtung“ vertraut und nutzen Sie diese, um zu überprüfen, ob die Inhalte den Markenrichtlinien entsprechen, und die Konsistenz zu verbessern.
 
 [Informationen zur Markenausrichtung](../using/content-management/brands-score.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Marken personalisieren
+
+Erfahren Sie, wie Sie standardmäßige Markenvoreinstellungen festlegen und Markenrichtlinien für eine nahtlose Integration mit KI-generierten Inhalten anpassen.
+
+[Marken personalisieren](../using/content-management/brands-personalize.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Erstellen und Verwalten generativer Modelle
+
+Erfahren Sie, wie Sie benutzerdefinierte generative KI-Modelle erstellen und verwalten, die auf Ihren Markenrichtlinien für die konsistente Inhaltserstellung basieren.
+
+[Verwalten generativer Modelle](../using/content-management/generative-models.md)
 :::
 
 ::::

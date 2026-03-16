@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Adobe Experience Platform
-description: Adobe Experience Platform
+description: Erfahren Sie, wie Sie Adobe Experience Platform-Daten- und Zielgruppenfunktionen in Journey Optimizer Journey verwenden, einschließlich der inAudience-Funktion.
 redpen-status: CREATED_||_2025-08-11_20-11-06
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 627b1a99cb9a7f59208e7d1339e8f1d136c07065
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: '187'
+ht-degree: 60%
 
 ---
 
@@ -20,13 +20,33 @@ Adobe Experience Platform ist die Grundlage für die Bereitstellung hochgradig p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „inAudience“
 
 Erfahren Sie, wie Sie die Funktion „inAudience“ verwenden, um die Zielgruppenzugehörigkeit in Adobe Journey Optimizer zu bewerten.
 
 [Funktion „inAudience“ erkunden](../using/building-journeys/functions/functioninaudience.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Verwenden von Adobe Experience Platform-Daten für Personalization
+
+Erfahren Sie, wie Sie auf Adobe Experience Platform-Profilattribute und -Datensätze zugreifen und diese verwenden können, um Nachrichten und Journey-Bedingungen zu personalisieren.
+
+[AEP-Daten für die Personalisierung verwenden](../using/personalization/aep-data-perso.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+
+Verwenden von Adobe Experience Platform-Daten in Journey
+
+Erfahren Sie, wie Sie Adobe Experience Platform-Daten direkt in Journey-Bedingungen, -Aktionen und -Ausdrücken abfragen und nachschlagen können.
+
+[Verwenden von AEP-Daten in Journey](../using/data/lookup-aep-data.md)
 :::
 
 ::::

@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Konfigurieren von Landingpages
-description: Konfigurieren von Landingpages
+description: Erfahren Sie, wie Sie Landingpage-Subdomains und Voreinstellungen in Journey Optimizer konfigurieren, um Ihre Landingpages konsistent zu hosten, zu marken und zu verwalten.
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 1eafa4cef02c13c8498ac9ac2df502a8a7d926d2
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 35%
+source-wordcount: '179'
+ht-degree: 30%
 
 ---
 
@@ -26,7 +26,7 @@ Unabhängig davon, ob Sie bestehende Domains oder neue Setups verwenden, helfen 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren und Verwalten von Landingpage-Subdomains
 
@@ -36,7 +36,7 @@ Erfahren Sie, wie Sie Subdomains für das Hosten von Landingpages in Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definieren der Landingpage-Voreinstellungen
 
