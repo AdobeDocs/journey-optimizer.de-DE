@@ -9,10 +9,11 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: Schübe, Batches, Zeitplan, Journey, Zielgruppe lesen, Zustellbarkeit
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
+source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 1%
+source-wordcount: '871'
+ht-degree: 2%
 
 ---
 
@@ -78,17 +79,13 @@ Wählen Sie die Option **[!UICONTROL Benutzerdefinierte Verteilung]** aus, um di
 
 ![](assets/journey-wave-percentage.png){width="70%"}
 
->[!NOTE]
->
->Die Summe über alle Wellen hinweg muss 100% betragen. Ist dies nicht der Fall, wird eine Warnmeldung angezeigt.<!--are the waves actually sent or does the system prevent user from saving the journey?-->
-
 Wählen Sie **[!UICONTROL Zahlen]** aus, um die Größe jeder Welle als absolute Anzahl von Profilen zu definieren (z. B. 10.000; 50.000).
 
 ![](assets/journey-wave-numbers.png){width="70%"}
 
 >[!NOTE]
->
->Bei der Verwendung von Zahlen überprüft das System nicht, ob die Summe die gesamte Zielgruppe abdeckt. Sie müssen sicherstellen, dass Ihre Wellengrößen die Zielgruppe abdecken, die Sie senden möchten. Weitere Informationen finden Sie unter [Häufig gestellte Fragen](#faq).
+>* Bei Verwendung von Prozentsätzen müssen alle Schübe insgesamt 100 % aufweisen. Ist dies nicht der Fall, wird eine Warnung angezeigt.
+>* Bei Verwendung von Zahlen überprüft das System die Abdeckung nicht. Stellen Sie sicher, dass Ihre Wellengrößen die vorgesehene Zielgruppe abdecken. [Weitere Informationen](#faq)
 
 ### Benutzerdefinierter Zeitplan {#custom-schedule}
 
