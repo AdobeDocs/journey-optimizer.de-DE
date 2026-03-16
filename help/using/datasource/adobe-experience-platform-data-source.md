@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: integriert, Quelle, Daten, Plattform, Integration
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: 43a4b85adb74e24c7c57fa74177795d014b88774
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 94%
 
 ---
 
@@ -29,11 +29,9 @@ Um die Verbindung zum Echtzeit-Kundenprofildienst zu ermöglichen, müssen wir e
 
 Sie können die vorkonfigurierte Feldergruppe mit dem Namen „ProfileFieldGroup“ bearbeiten, neue hinzufügen und diejenigen entfernen, die nicht in Entwurfs- oder Live-Journeys verwendet werden. [Weitere Informationen](../datasource/configure-data-sources.md#define-field-groups).
 
-
 >[!CAUTION]
 >
 >Die Verwendung von Erlebnisereignissen in Journey-Ausdrücken/-Bedingungen wird nicht unterstützt. Wenn Ihr Anwendungsfall die Verwendung von Erlebnisereignissen erfordert, sollten Sie alternative Methoden in Betracht ziehen. [Weitere Informationen](../building-journeys/exp-event-lookup.md)
-
 
 Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquelle Feldergruppen hinzuzufügen:
 
@@ -48,8 +46,12 @@ Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquell
    ![](assets/journey24.png)
 
 1. Wählen Sie ein Schema aus der Dropdown-Liste **[!UICONTROL Schema]** aus. Die Schemaerstellung erfolgt in Adobe Experience Platform, nicht in Adobe Journey Optimizer.
-1. Wählen Sie die zu verwendenden Felder aus und speichern Sie Ihre Änderungen.
 
+   >[!NOTE]
+   >
+   >In der [!DNL Journey Optimizer] Data Source-Konfiguration werden nur XDM Individual Profile-basierte Schemata unterstützt. Weitere Informationen finden Sie unter [Klasse „XDM Individual Profile](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
+
+1. Wählen Sie die zu verwendenden Felder aus und speichern Sie Ihre Änderungen.
 
 >[!TIP]
 >
