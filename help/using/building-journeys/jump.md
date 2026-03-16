@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Springen, Aktivität, Journey, Aufspaltung, Aufspalten
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 98%
+source-wordcount: '1122'
+ht-degree: 78%
 
 ---
 
@@ -73,6 +73,28 @@ Verwenden Sie diese Richtlinien, um das Verhalten von Sprungaktivitäten vorhers
 
 * Wenn die **[!UICONTROL Sprungaktivität]** ausgeführt wird, wird die aktuelle Version der Ziel-Journey ausgelöst.
 * Ein eindeutiger Kontakt kann sich nur einmal in einer Journey befinden. Wenn sich der aus der Ursprungs-Journey geleitete Kontakt bereits in der Ziel-Journey befindet, tritt der Kontakt also nicht noch einmal in die Ziel-Journey ein. Bei der **[!UICONTROL Sprungaktivität]** wird kein Fehler gemeldet, da dies normales Verhalten ist.
+
+## Design-Strategie: Beißgroße Unter-Journey {#jump-strategy}
+
+Komplexe Kundenkanäle und Journey können schnell schwer zu erstellen und zu warten sein, insbesondere wenn zusätzliche Kanäle oder Touchpoints eingeführt werden. Selbst eine Journey mit einer Handvoll Meilensteinen kann 20 oder mehr einzigartige Pfade aufzeigen, die ein Kunde einschlagen kann, und diese Komplexität wächst exponentiell mit jeder Ergänzung.
+
+Ein praktischer Ansatz zur Verwaltung dieses Problems besteht darin, große Journey Journey in kleinere, fokussierte Untergruppen zu unterteilen - eine pro Geschäftsphase oder Meilenstein - und sie mithilfe der Aktivität &quot;**[!UICONTROL &quot;]** verbinden. Dadurch bleibt jede Journey lesbar, testbar und unabhängig wartbar.
+
+**Schritt 1: Visualisieren Sie das End-to-End-Journey**
+
+Ordnen Sie die vollständige Kunden-Journey zu und identifizieren Sie deren allgemeine Phasen. Eine Onboarding-Journey für Treueprogramme kann beispielsweise drei verschiedene Phasen umfassen: Herunterladen der Mobile App, Ausführen einer ersten Transaktion und Durchführen einer zweiten Transaktion.
+
+**Schritt 2: Anmerkungen zu Phasen vornehmen und Unter-Journey definieren**
+
+Markieren Sie die Grenze jeder Phase und definieren Sie deren Geschäftsziel. Jede Phase wird zu einer potenziellen Sub-Journey mit einer eindeutigen Einstiegsbedingung und einem eindeutigen Ziel.
+
+**Schritt 3 - Erstellen und Verbinden von Unter-Journey**
+
+Erstellen Sie jede Phase als separate Journey in Journey Optimizer und verwenden Sie dann **[!UICONTROL Jump]**-Aktivitäten, um Profile von einem Sub-Journey zum nächsten zu übergeben. Das Ergebnis ist eine Reihe einfacherer, wiederverwendbarer Journey, die zusammenarbeiten, um das gesamte End-to-End-Erlebnis zu erzielen - mit geringerem Fehlerrisiko.
+
+>[!TIP]
+>
+>Eine ausführliche Anleitung zu diesem Ansatz finden Sie unter [Best Practices für fortgeschrittene Journey in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 ## Konfigurieren der Sprungaktivität {#jump-configure}
 

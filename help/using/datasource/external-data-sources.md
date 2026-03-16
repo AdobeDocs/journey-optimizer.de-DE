@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 88%
+source-wordcount: '1761'
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ Mit externen Datenquellen können Sie eine Verbindung zu Drittanbietersystemen h
 >
 >* Leitlinien für die Arbeit mit externen Systemen werden auf [dieser Seite](../configuration/external-systems.md) aufgeführt.
 >
->* Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie unter [Benutzerdefinierte Aktionsantworten](../action/action-response.md)
+>* Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie unter [Benutzerdefinierte Aktionsantworten](../action/action-response.md). Benutzerdefinierte Aktionen ohne Data Lake-Persistenz sind die richtige Wahl, wenn die Daten nur innerhalb der Journey nützlich sind und das externe System über einen API-Endpunkt zugänglich ist. Einen Vergleich aller Datenzugriffsoptionen finden Sie unter [Wählen Sie Ihre Datenzugriffsstrategie](../datasource/about-data-sources.md#data-access-strategy).
 
 REST-APIs, die POST oder GET verwenden und JSON zurückgeben, werden unterstützt. API-Schlüssel sowie einfache und benutzerdefinierte Authentifizierungsmodi werden unterstützt.
 

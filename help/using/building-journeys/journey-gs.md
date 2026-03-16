@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 97%
+source-wordcount: '949'
+ht-degree: 92%
 
 ---
 
@@ -85,6 +85,10 @@ Anschließend können Sie mit der Gestaltung Ihrer Journey beginnen.
 ## Entwerfen der Journey {#jo-design}
 
 Der Omnichannel-Journey-Designer hilft Ihnen bei der Erstellung mehrstufiger Journeys – mit entsprechenden Zielgruppen, Aktualisierungen basierend auf Echtzeit-Kunden- bzw. Geschäftsinteraktionen sowie Omnichannel-Nachrichten mithilfe einer intuitiven Drag-and-Drop-Oberfläche.
+
+>[!TIP]
+>
+>Für Journey mit mehreren Phasen oder vielen Touchpoints sollten Sie den End-to-End-Fluss in kleinere, fokussierte Unter-Journey unterteilen, die mit der Aktivität **[!UICONTROL Springen]** verbunden sind. Dieser Ansatz reduziert die Komplexität und erleichtert das unabhängige Testen und Verwalten jeder Sub-Journey. Weitere Informationen finden [ unter „Design-Strategie: Beißgroße Unter-Journey ](jump.md#jump-strategy).
 
 ![Journey-Designer-Benutzeroberfläche mit Aktivitätspalette und Arbeitsfläche](assets/journey38.png)
 
