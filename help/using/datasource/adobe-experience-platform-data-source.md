@@ -49,7 +49,7 @@ Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquell
 
    >[!NOTE]
    >
-   >In der [!DNL Journey Optimizer] Data Source-Konfiguration werden nur XDM Individual Profile-basierte Schemata unterstützt. Weitere Informationen finden Sie unter [Klasse „XDM Individual Profile](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
+   >In der [!DNL Journey Optimizer] Data Source-Konfiguration werden nur XDM Individual Profile-basierte Schemata unterstützt. Weitere Informationen finden Sie unter [Klasse „XDM Individual Profile](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
 
 1. Wählen Sie die zu verwendenden Felder aus und speichern Sie Ihre Änderungen.
 
