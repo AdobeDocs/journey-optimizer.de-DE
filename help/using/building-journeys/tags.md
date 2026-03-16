@@ -92,4 +92,4 @@ Konzentrieren Sie den Journey-Namen weiterhin auf den zugrunde liegenden Kunden-
 
 >[!TIP]
 >
->Eine ausführliche Erläuterung dieses Ansatzes und seiner Vorteile in großem Maßstab finden Sie unter [Best Practices für fortgeschrittene Journey in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Eine ausführliche Erläuterung dieses Ansatzes und seiner Vorteile in großem Maßstab finden Sie unter [Best Practices für fortgeschrittene Journey in Journey Optimizer](https://experienceleague.adobe.com/de/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
