@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -153,17 +153,14 @@ Wenn diese Option aktiviert ist, kann eine Kundin bzw. ein Kunde zwar Ihre Marke
 
 Eine Testadressenliste in [!DNL Journey Optimizer] ermöglicht es Ihnen, automatisch bestimmte E-Mail-Testadressen in Ihre Sendungen einzuschließen. [Weitere Informationen](../configuration/seed-lists.md)
 
->[!CAUTION]
+>[!NOTE]
 >
->Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar.
+>* Diese Funktion gilt derzeit nur für den E-Mail-Kanal.
+>* Es kann jeweils nur eine Testadressenliste ausgewählt werden.
 
 Wählen Sie die Liste, die für Sie relevant ist, im Abschnitt **[!UICONTROL Testadressenliste]** aus. In [diesem Abschnitt](../configuration/seed-lists.md#create-seed-list) erfahren Sie, wie Sie eine Testadressenliste erstellen.
 
 ![](../configuration/assets/seed-list-surface.png){width="80%"}
-
->[!NOTE]
->
->Es kann jeweils nur eine Testadressenliste ausgewählt werden.
 
 Wenn die aktuelle Konfiguration in einer Kampagne oder einer Journey verwendet wird, werden zum Zeitpunkt der Versandausführung die E-Mail-Adressen in der ausgewählten Testadressenliste einbezogen, d. h. sie erhalten zu Sicherheitszwecken eine Kopie des Versands.
 

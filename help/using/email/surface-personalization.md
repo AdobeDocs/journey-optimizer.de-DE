@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 98%
+source-wordcount: '1193'
+ht-degree: 97%
 
 ---
 
@@ -92,15 +92,12 @@ Sie können die Personalisierung auch für alle Kopfzeilenparameter verwenden, d
 
 >[!NOTE]
 >
->Beim [Bearbeiten einer E](../configuration/channel-surfaces.md#edit-channel-surface)Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen eine neue Kanalkonfiguration erstellen.
+>* Alle **[!UICONTROL Kopfzeilenparameter]** Felder können personalisiert werden, mit Ausnahme des Felds **[!UICONTROL E-Mail-Präfix]**.
+>* Beim [Bearbeiten einer E](../configuration/channel-surfaces.md#edit-channel-surface)Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen stattdessen eine neue Kanalkonfiguration erstellen.
 
 Wenn Sie beispielsweise über mehrere Marken verfügen, können Sie eine einzelne Konfiguration erstellen und für Ihre E-Mail-Kopfzeilen personalisierte Werte verwenden. Dadurch können Sie sicherstellen, dass alle von Ihren verschiedenen Marken gesendeten E-Mails jeweils mit den richtigen **Von**-Namen und -E-Mail-Adressen versehen werden. Wenn Ihre Empfängerinnen und Empfänger auf die Schaltfläche **Antworten** in der E-Mail-Client-Software klicken, sollten schließlich die Namen und E-Mail-Adressen für **Antwort an** der richtigen Marke für die richtige Person entsprechen.
 
 Gehen Sie wie folgt vor, um personalisierte Variablen für die Kopfzeilenparameter der Konfiguration zu verwenden.
-
->[!NOTE]
->
->Sie können alle Felder für die **[!UICONTROL Kopfzeilenparameter]** außer dem Feld **[!UICONTROL Fehler beim E-Mail-Präfix]** personalisieren.
 
 1. Definieren Sie Ihre Kopfzeilenparameter wie gewohnt. [Weitere Informationen](email-settings.md#email-header)
 

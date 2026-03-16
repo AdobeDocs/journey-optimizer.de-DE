@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 97%
+source-wordcount: '732'
+ht-degree: 90%
 
 ---
 
@@ -86,12 +86,9 @@ Sie müssen Folgendes angeben:
 
 >[!NOTE]
 >
->Pro Subdomain kann nur eine Weiterleitungs-E-Mail-Adresse verwendet werden. Wenn mehrere Konfigurationen dieselbe Subdomain verwenden, muss daher für alle dieselbe Weiterleitungs-E-Mail-Adresse verwendet werden.
+>* Pro Subdomain kann nur eine Weiterleitungs-E-Mail-Adresse verwendet werden. Wenn mehrere Konfigurationen dieselbe Subdomain verwenden, muss für alle dieselbe Weiterleitungs-E-Mail-Adresse verwendet werden.
+>* Wenn die Weiterleitung nicht aktiviert ist, werden E-Mails, die direkt an die Adresse **Absender-E-Mail** gesendet werden, standardmäßig verworfen.
 
 Die Weiterleitungs-E-Mail-Adresse wird von Adobe eingerichtet. Dies kann 3 bis 4 Tage dauern.
 
 Danach werden alle Nachrichten, die über die Adressen unter **[!UICONTROL Antwort an (E-Mail)]** und **Fehler-E-Mail** empfangen werden, sowie alle E-Mails, die an die Adresse unter **Von E-Mail** gesendet werden, an die von Ihnen angegebene spezifische E-Mail-Adresse weitergeleitet.
-
->[!NOTE]
->
->Wenn die Weiterleitung nicht aktiviert ist, werden standardmäßig alle E-Mails verworfen, die direkt an die Adresse unter **Von E-Mail** gesendet werden.
