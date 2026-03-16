@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 58cabac978facef373c6cadee0c8fc0963785df8
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 98%
+source-wordcount: '890'
+ht-degree: 86%
 
 ---
 
@@ -88,21 +88,15 @@ Der Ausdruck im Editor sollte ein `dateTimeOnly`-Format aufweisen. Weitere Infor
 Es empfiehlt sich, benutzerdefinierte Datumsangaben zu verwenden, die spezifisch für Ihre Profile sind, und zu vermeiden, dass für alle Profile dasselbe Datum verwendet wird. Definieren Sie beispielsweise nicht `toDateTimeOnly('2024-01-01T01:11:00Z')`, sondern `toDateTimeOnly(@event{Event.productDeliveryDate})`, was für jedes Profil spezifisch ist. Beachten Sie, dass die Verwendung von festen Datumsangaben Probleme bei der Ausführung der Journey verursachen kann. Weitere Informationen zur Auswirkung von Warteaktivitäten auf die Journey-Verarbeitungsrate finden Sie [in diesem Abschnitt](entry-management.md#wait-activities-impact).
 
 
->[!NOTE]
->
->Sie können einen `dateTimeOnly`-Ausdruck nutzen oder eine Funktion zur Konvertierung in ein `dateTimeOnly`-Format verwenden.  Beispiel: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, das Feld im Ereignis hat folgende Form: 2023-08-12T09:46:06Z.
->
->Die Angabe der **Zeitzone** ist für die Eigenschaften Ihrer Journey erforderlich. Aus diesem Grund ist es nicht möglich, von direkt der Benutzeroberfläche auf eine Zeitstempelmischzeit nach ISO-8601 und einen Zeitzonenversatz wie 2023-08-12T09:46:06.982-05 zu verweisen. [Weitere Informationen](../building-journeys/timezone-management.md).
-
 >[!CAUTION]
 >
->Wenn Sie einen benutzerdefinierten Warteausdruck mit `toDateTimeOnly()` erstellen, vermeiden Sie es, „Z“ oder einen Zeitzonenversatz (z. B. „-05:00“) im Ausdrucksergebnis anzuhängen. Der Ausdruck muss eine gültige ISO-Datums-/Uhrzeitsyntax verwenden, die auf die konfigurierte Zeitzone der Journey verweist, ohne explizite Zeitzonenbezeichner.
+>Sie können einen `dateTimeOnly`-Ausdruck nutzen oder eine Funktion zur Konvertierung in ein `dateTimeOnly`-Format verwenden.  Beispiel: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`. Das Feld im Ereignis hat die Form 2023-08-12T09:46:06Z. Die **Zeitzone** wird in den Eigenschaften Ihres Journey erwartet. Daher ist es nicht möglich, von der Benutzeroberfläche aus direkt auf eine vollständige ISO-8601-Zeitstempelmischzeit und einen Zeitzonenversatz zu verweisen, z. B. 2023-08-12T09:46:06.982-05. [Weitere Informationen](../building-journeys/timezone-management.md).
+>
+>Wenn Sie einen benutzerdefinierten Warteausdruck mit `toDateTimeOnly()` erstellen, vermeiden Sie es, „Z“ oder einen Zeitzonenversatz (z. B. &quot;-05:00„) im Ergebnis anzuhängen. Journey Der Ausdruck muss eine gültige ISO-Datums-/Uhrzeitsyntax für den Verweis auf die konfigurierte Zeitzone ohne explizite Zeitzonenbezeichner verwenden. Andernfalls können Profile in der Warteaktivität hängen bleiben.
 >
 >**Korrektes Beispiel:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
 >
 >**Falsches Beispiel:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (enthält „Z“)
->
->Die Verwendung nicht unterstützter Zeitzonenbezeichner kann dazu führen, dass Profile in der Warteaktivität hängen bleiben, anstatt wie erwartet fortzufahren.
 
 Um zu überprüfen, ob die Warteaktivität erwartungsgemäß funktioniert, können Sie Schritt-Ereignisse verwenden. [Weitere Informationen](../reports/query-examples.md#common-queries).
 
