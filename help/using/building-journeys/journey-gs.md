@@ -88,7 +88,7 @@ Der Omnichannel-Journey-Designer hilft Ihnen bei der Erstellung mehrstufiger Jou
 
 >[!TIP]
 >
->Für Journey mit mehreren Phasen oder vielen Touchpoints sollten Sie den End-to-End-Fluss in kleinere, fokussierte Unter-Journey unterteilen, die mit der Aktivität **[!UICONTROL Springen]** verbunden sind. Dieser Ansatz reduziert die Komplexität und erleichtert das unabhängige Testen und Verwalten jeder Sub-Journey. Weitere Informationen finden [ unter „Design-Strategie: Beißgroße Unter-Journey ](jump.md#jump-strategy).
+>Für Journey mit mehreren Phasen oder vielen Touchpoints sollten Sie den End-to-End-Fluss in kleinere, fokussierte Unter-Journey unterteilen, die mit der Aktivität **[!UICONTROL Springen]** verbunden sind. Dieser Ansatz reduziert die Komplexität und erleichtert das unabhängige Testen und Verwalten jeder Sub-Journey. Weitere Informationen finden [&#x200B; unter „Design-Strategie: Beißgroße Unter-Journey &#x200B;](jump.md#jump-strategy).
 
 ![Journey-Designer-Benutzeroberfläche mit Aktivitätspalette und Arbeitsfläche](assets/journey38.png)
 
