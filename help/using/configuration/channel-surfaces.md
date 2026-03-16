@@ -292,4 +292,4 @@ Eine deaktivierte Kanalkonfiguration kann nicht direkt bearbeitet werden. Sie kÃ
 
 Erfahren Sie, was Kanalkonfigurationen sind und wie sie in Adobe Journey Optimizer verwendet werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480460/?captions=ger&learn=on)
