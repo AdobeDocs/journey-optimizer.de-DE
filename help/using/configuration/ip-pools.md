@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+workflow-type: tm+mt
+source-wordcount: '695'
+ht-degree: 79%
 
 ---
 
@@ -54,13 +54,9 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
    >
    >Der Name muss mit einem Buchstaben (A–Z) beginnen und darf nur alphanumerische Zeichen oder Sonderzeichen ( _, ., - ) enthalten.
 
-1. Wählen Sie aus der Dropdown-Liste die IP-Adressen aus, die in den Pool aufgenommen werden sollen, und klicken Sie dann auf **[!UICONTROL Senden]**.
+1. Wählen Sie aus der Dropdown-Liste die IP-Adressen aus, die in den Pool aufgenommen werden sollen, und klicken Sie dann auf **[!UICONTROL Senden]**. Alle mit Ihrer Instanz bereitgestellten IP-Adressen sind in der Liste verfügbar.
 
    ![](assets/ip-pool-config.png)
-
-   >[!NOTE]
-   >
-   >Alle mit Ihrer Instanz bereitgestellten IP-Adressen sind in der Liste verfügbar.
 
 Bei der Auswahl von IPs können Sie in der Liste die mit den IPs verknüpften PTR-Einträge sehen. Auf diese Weise können Sie die Branding-Informationen für jede IP-Adresse überprüfen, wenn Sie einen IP-Pool erstellen, und beispielsweise IPs auswählen, die dieselben Branding-Informationen enthalten. [Weitere Informationen zu PTR-Einträgen](ptr-records.md)
 
@@ -82,17 +78,13 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu bearbeiten.
 
 1. Klicken Sie in der Liste auf den Namen des IP-Pools, um ihn zu öffnen.
 
-1. Bearbeiten Sie die Eigenschaften nach Bedarf. Sie können die Beschreibung ändern und IP-Adressen hinzufügen oder entfernen.
-
-   >[!NOTE]
-   >
-   >Der Name des IP-Pools kann nicht bearbeitet werden. Wenn Sie ihn ändern möchten, müssen Sie den IP-Pool löschen und einen neuen mit dem Namen Ihrer Wahl erstellen.
+1. Bearbeiten Sie die Eigenschaften nach Bedarf. Sie können die Beschreibung ändern und IP-Adressen hinzufügen oder entfernen. Beachten Sie, dass der Name des IP-Pools nicht bearbeitet werden kann. Um ihn umzubenennen, löschen Sie den Pool und erstellen Sie einen neuen.
 
    ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
-   >Gehen Sie beim Löschen einer IP-Adresse mit besonderer Sorgfalt vor, da dies die anderen IPs zusätzlich belastet und möglicherweise erhebliche Auswirkungen auf Ihre Zustellbarkeit hat. Wenden Sie sich im Zweifel an einen Zustellbarkeitsexperten.
+   >Gehen Sie beim Löschen einer IP-Adresse mit besonderer Sorgfalt vor, da dies die anderen IPs zusätzlich belastet und möglicherweise schwerwiegende Auswirkungen auf Ihre Zustellbarkeit hat. Wenden Sie sich im Zweifel an einen Zustellbarkeitsexperten.
 
 1. Speichern Sie Ihre Änderungen.
 
@@ -103,18 +95,12 @@ Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, ob der IP-Pool
 
 >[!NOTE]
 >
->Wenn Sie beim [Erstellen einer Kanalkonfiguration](channel-surfaces.md#create-channel-surface) einen IP-Pool auswählen, der sich in Bearbeitung befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der für diese Konfiguration ausgewählten Subdomain verknüpft wurde, können Sie nicht mit der Erstellung der Konfiguration fortfahren. [Weitere Informationen](channel-surfaces.md#create-channel-surface)
+>* Wenn Sie [Erstellen einer Kanalkonfiguration](channel-surfaces.md#create-channel-surface) einen IP-Pool im Status **[!UICONTROL Verarbeitung läuft]** auswählen, der noch nie mit der ausgewählten Subdomain verknüpft wurde, können Sie nicht mit der Konfigurationserstellung fortfahren. [Weitere Informationen](channel-surfaces.md#create-channel-surface)
+>* Warten Sie nach der erfolgreichen Aktualisierung eines IP-Pools einige Minuten, bevor er für Echtzeit-Nachrichten wirksam wird, oder warten Sie bis zum nächsten Batch-Vorgang auf Batch-Nachrichten.
 
 Um den Status der Aktualisierung des IP-Pools zu überprüfen, klicken Sie auf den Button **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Letzte Updates]** aus.
 
 ![](assets/ip-pool-recent-update.png)
-
->[!NOTE]
->
->Nachdem ein IP-Pool erfolgreich aktualisiert wurde, müssen Sie möglicherweise warten:
->
->* einige Minuten, bevor er von den unitären Nachrichten genutzt wird,
->* bis der nächste Batch für den IP-Pool in Batch-Nachrichten wirksam ist.
 
 Sie können auch den Button **[!UICONTROL Löschen]** verwenden, um einen IP-Pool zu löschen. Beachten Sie, dass Sie einen mit einer Kanalkonfiguration verknüpften IP-Pool nicht löschen können.
 

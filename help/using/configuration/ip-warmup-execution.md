@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '2733'
-ht-degree: 100%
+source-wordcount: '2709'
+ht-degree: 91%
 
 ---
 
@@ -50,37 +50,25 @@ Um die Phasen Ihres IP-Aufwärmplans zu definieren, müssen Sie für jede Phase 
 
 1. Wählen Sie die Kampagne aus, die Sie mit der ersten Phase des IP-Aufwärmplans verbinden möchten.
 
-   >[!NOTE]
-   >
-   >Eine Kampagne, die bereits in einem anderen IP-Aufwärmplan verwendet wird, kann nicht ausgewählt werden. Dieselbe Kampagne kann jedoch in einer oder mehreren Phasen desselben IP-Aufwärmplans verwendet werden.
-
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
-   >* Nur Kampagnen, für die die Option **[!UICONTROL Aktivierung des IP-Aufwärmplans]** aktiviert ist, stehen zur Auswahl zur Verfügung. [Weitere Informationen](#create-ip-warmup-campaign)
-   >
+   >* Nur Kampagnen mit aktivierter Option **[!UICONTROL IP-Aufwärmplan]** können ausgewählt werden. [Weitere Informationen](#create-ip-warmup-campaign)
    >* Zur Auswahl stehen nur Kampagnen, die dieselbe Konfiguration wie der ausgewählte IP-Aufwärmplan verwenden.
+   >* Eine Kampagne, die bereits in einem anderen IP-Aufwärmplan verwendet wird, kann nicht ausgewählt werden. Dieselbe Kampagne kann in mehreren Phasen desselben Plans verwendet werden.
 
-1. Sobald eine Kampagne für die aktuelle Phase ausgewählt wurde, werden die Abschnitte zum Ausschließen von Profilen, Kampagnenzielgruppen und Domain-Gruppen angezeigt.
-
-   >[!NOTE]
-   >
-   >Nachdem eine Ausführung aktiviert wurde, können Ausschlüsse nur geändert werden, wenn Sie [die Ausführung in eine neue Phase aufteilen](#split-phase).
+1. Nachdem eine Kampagne für die aktuelle Phase ausgewählt wurde, werden die Abschnitte zum Ausschließen von Profilen, Kampagnen-Audiences und Domain-Gruppen angezeigt. Beachten Sie, dass Ausschlüsse nach der Aktivierung eines Durchgangs nur noch geändert werden können, wenn [ den Durchgang in ](#split-phase) neue Phase aufteilen.
 
    1. Wählen Sie im Abschnitt **[!UICONTROL Ausgeschlossene Domain-Gruppen]** die Domains aus, die Sie aus der Phase ausschließen möchten.
 
       >[!NOTE]
       >
-      >Der Ausschluss von Domains erfordert eine nicht ausgeführte Phase, daher müssen Sie möglicherweise [eine laufende Phase aufteilen](#split-phase), um Ausschlüsse hinzuzufügen.
+      >Der Domain-Ausschluss erfordert eine nicht ausgeführte Phase. Daher müssen Sie möglicherweise eine [laufende Phase aufteilen](#split-phase) um Ausschlüsse hinzuzufügen. Außerdem können Sie nur eine benutzerdefinierte Domain-Gruppe ausschließen, die zur [IP-Aufwärmplan-Vorlage](ip-warmup-plan.md#prepare-file) hinzugefügt wurde. Wenn nicht, aktualisieren Sie die Vorlage mit der benutzerdefinierten Domain-Gruppe und [laden Sie den Plan erneut hoch](#re-upload-plan).
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
       Zum Beispiel: Sie haben einige Tage lang ein IP-Aufwärmen ausgeführt und Sie erkennen, dass Ihr ISP-Ruf bei einer Domain (z. B. Adobe) nicht gut ist. Sie möchten dies beheben, ohne Ihren IP-Aufwärmplan zu stoppen. In einem solchen Fall können Sie die Adobe-Domain-Gruppe ausschließen.
-
-      >[!NOTE]
-      >
-      >Sie können nur eine benutzerdefinierte Domain-Gruppe ausschließen, die der [IP-Aufwärmplan-Vorlage](ip-warmup-plan.md#prepare-file) hinzugefügt wurde. Andernfalls müssen Sie die Vorlage mit der benutzerdefinierten Domain-Gruppe aktualisieren, die Sie ausschließen möchten, und [den Plan erneut hochladen](#re-upload-plan).
 
       >[!CAUTION]
       >
@@ -103,11 +91,7 @@ Um die Phasen Ihres IP-Aufwärmplans zu definieren, müssen Sie für jede Phase 
       1. Wählen Sie im Menü **Schemata** das Schema **AJO Message Feedback Event** und navigieren Sie zum Feld **_messageID**. Wählen Sie **Beziehung hinzufügen** und wählen Sie das Schema **AJO Entity Record Schema** als **Referenzschema** und Ihren zuvor erstellten Namespace als **Referenz-Identity-Namespace**.
       +++
 
-   1. Im Abschnitt **[!UICONTROL In vorherigen Ausführungen angesprochene Profile]** können Sie sehen, dass die Profile aus den früheren Durchläufen dieser Phase immer ausgeschlossen werden. Wenn beispielsweise in der Ausführung Nr. 1 ein Profil aus den ersten 4.800 angesprochenen Personen behandelt wurde, stellt das System automatisch sicher, dass dasselbe Profil die E-Mail in Ausführung Nr. 2 nicht erhält.
-
-      >[!NOTE]
-      >
-      >Dieser Abschnitt kann nicht bearbeitet werden.
+   1. Im Abschnitt **[!UICONTROL Profile, die in vorherigen Ausführungen angesprochen wurden]** können Sie sehen, dass die Profile aus den vorherigen Ausführungen dieser Phase immer ausgeschlossen sind (dieser Abschnitt ist schreibgeschützt). Wenn beispielsweise in der Ausführung Nr. 1 ein Profil aus den ersten 4.800 angesprochenen Personen behandelt wurde, stellt das System automatisch sicher, dass dasselbe Profil die E-Mail in Ausführung Nr. 2 nicht erhält.
 
 1. Bei Bedarf können Sie die Kampagne über die Schaltfläche **[!UICONTROL Ersetzen]** austauschen. Sie können die ausgewählte Kampagne auch über die Schaltfläche **[!UICONTROL Löschen]** **[!UICONTROL löschen]**. Mit dieser Aktion wird nicht nur die Kampagne gelöscht, sondern auch andere Eigenschaften auf Phasenebene wie Domain-Gruppenausschluss, Campaign oder Journey-Ausschluss und weitere. Nach dem Löschen können Sie entweder sofort oder zu einem späteren Zeitpunkt eine neue Kampagne auswählen.
 
@@ -125,13 +109,9 @@ Um die Phasen Ihres IP-Aufwärmplans zu definieren, müssen Sie für jede Phase 
 
    >[!CAUTION]
    >
-   >Sie können die Aktion **[!UICONTROL Phase löschen]** nicht rückgängig machen.
+   >Sie können die Aktion **[!UICONTROL Löschphase]** nicht rückgängig machen. Wenn Sie alle Phasen löschen, wird empfohlen, den Plan erneut hochzuladen. [Weitere Informationen](#re-upload-plan)
 
    ![](assets/ip-warmup-plan-delete-phase.png)
-
-   >[!NOTE]
-   >
-   >Wenn Sie alle Phasen aus dem IP-Aufwärmplan löschen, wird empfohlen, einen Plan erneut hochzuladen. [Weitere Informationen](#re-upload-plan)
 
 ## Definieren der Ausführungen {#define-runs}
 
@@ -170,27 +150,19 @@ Nachdem Sie die Phasen Ihres IP-Aufwärmplans definiert haben, müssen Sie die e
 
    >[!NOTE]
    >
-   >Weitere Zustellversuche werden alle 30 Minuten bis zum Ende des definierten Zeitfensters durchgeführt.
+   >Weitere Zustellversuche erfolgen alle 30 Minuten bis zum Ende des definierten Zeitfensters. Wenn kein Zeitfenster angegeben ist, wird die Ausführung zum Versandzeitpunkt gestartet und schlägt fehl, falls die Bewertung der Zielgruppe nicht abgeschlossen ist.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
    Wenn Sie beispielsweise eine Sendezeit für einen bestimmten Tag auf 9:00 Uhr und als Wartezeit für einen erneuten Versuch 120 Minuten festlegen, können Sie bei unerwarteten Verzögerungen bei der Zielgruppenbewertung ein Zeitfenster von 2 Stunden (9:00 – 11:00 Uhr) für die Ausführung nutzen.
 
-   >[!NOTE]
-   >
-   >Wenn kein Zeitfenster angegeben ist, wird die Ausführung zum Versandzeitpunkt gestartet und schlägt fehl, falls die Bewertung der Zielgruppe nicht abgeschlossen ist.
-
 1. Wählen Sie bei Bedarf **[!UICONTROL Ausführen bearbeiten]** über das Symbol „Mehr Aktionen“ aus. Dort können Sie die Anzahl der Adressen in jeder Spalte aktualisieren. Sie können auch das Feld **[!UICONTROL Letzte Interaktion]** aktualisieren, um beispielsweise nur die Benutzerinnen und Benutzer anzusprechen, die in den letzten 20 Tagen mit Ihrer Marke interagiert haben.
 
    >[!NOTE]
    >
-   >Es wird empfohlen, diese Zahlen in Absprache mit Ihrer Zustellbarkeitsfachkraft zu ändern.
+   >Es wird empfohlen, diese Zahlen in Absprache mit Ihrem Zustellbarkeitsexperten zu ändern. Um den Interaktionszeitraum für einen Lauf zu deaktivieren, geben Sie 0 in das Feld **[!UICONTROL Zuletzt aktiviert]** ein.
 
    ![](assets/ip-warmup-plan-edit-run.png)
-
-   >[!NOTE]
-   >
-   >Wenn Sie auf eine Ausführung keinen Interaktionszeitraum anwenden möchten, geben Sie 0 in das Feld **[!UICONTROL Letzte Interaktion]** ein.
 
 1. Wählen Sie die Option **[!UICONTROL Aktivierte Ausführungen im Fall von Fehlern abbrechen]** aus, um eine Ausführung abzubrechen, wenn es weniger qualifizierte Profile als Zielgruppenprofile gibt, nachdem die Zielgruppe für diese Ausführung ausgewertet wurde.
 

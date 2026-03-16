@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1928'
-ht-degree: 100%
+source-wordcount: '1925'
+ht-degree: 98%
 
 ---
 
@@ -200,11 +200,7 @@ Gehen Sie wie folgt vor, um die Subdomain-Delegierung abzuschließen.
 
    <!--![](assets/subdomain-processing.png)-->
 
-1. Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was bis zu drei Stunden dauern kann. [Weitere Informationen](#subdomain-validation).
-
-   >[!NOTE]
-   >
-   >Stellen Sie vor dem Fortfahren sicher, dass alle Einträge ordnungsgemäß erstellt wurden.
+1. Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie sicherstellen, dass alle DNS-Einträge ordnungsgemäß erstellt wurden, und dann warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was bis zu drei Stunden dauern kann. [Weitere Informationen](#subdomain-validation).
 
 ### Subdomain-Validierung {#subdomain-validation}
 
@@ -281,4 +277,4 @@ Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgeho
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412601?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

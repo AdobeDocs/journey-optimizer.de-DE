@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, PTR, Einträge, DNS, Domain, E-Mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '842'
-ht-degree: 100%
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+workflow-type: tm+mt
+source-wordcount: '844'
+ht-degree: 97%
 
 ---
 
@@ -102,11 +102,7 @@ Führen Sie die folgenden Schritte aus, um einen PTR-Eintrag mit einer Subdomain
    >   * Überprüfen Sie beim DNS-Provider, ob der Forward-DNS-Eintrag erfolgreich erstellt wurde.
    >   * Einträge im DNS werden möglicherweise nicht sofort synchronisiert. Warten Sie einige Minuten und versuchen Sie es erneut.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
-
->[!NOTE]
->
->Sie können die Felder **[!UICONTROL IP]** und **[!UICONTROL PTR-Eintrag]** nicht ändern.
+1. Klicken Sie **[!UICONTROL Speichern]**, um Ihre Änderungen zu bestätigen. Beachten Sie, **[!UICONTROL die Felder]** IP) und **[!UICONTROL PTR-Eintrag]** nicht geändert werden können.
 
 ## Prüfen der Aktualisierungsdetails der PTR-Einträge {#check-ptr-record-update}
 

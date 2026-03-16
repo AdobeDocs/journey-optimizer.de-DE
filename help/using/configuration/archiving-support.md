@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Archiv, Nachrichten, HIPAA, BCC, E-Mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 98%
+source-wordcount: '1332'
+ht-degree: 95%
 
 ---
 
@@ -45,13 +45,8 @@ Um die Option **[!UICONTROL BCC-E]** Mail zu aktivieren, geben Sie die E-Mail-Ad
 
 >[!CAUTION]
 >
->Sie können nur eine einzige BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass die BCC-Adresse über genügend Aufnahmekapazität verfügt, um alle E-Mails zu speichern, die mit der aktuellen Kanalkonfiguration gesendet werden.
->
->Weitere Empfehlungen finden Sie in [diesem Abschnitt](#bcc-recommendations-limitations).
-
->[!NOTE]
->
->Wenn Sie das Add-On-Angebot „Healthcare Shield“ erworben haben, müssen Sie sicherstellen, dass der ISP Ihrer BCC-Adresse das TLS 1.2-Protokoll unterstützt.
+>* Sie können nur eine einzige BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass genügend Aufnahmekapazität vorhanden ist, um alle mit der aktuellen Kanalkonfiguration gesendeten E-Mails zu speichern. Weitere Empfehlungen finden Sie in [diesem Abschnitt](#bcc-recommendations-limitations).
+>* Wenn Sie das Add-on Healthcare Shield erworben haben, stellen Sie sicher, dass der ISP Ihrer BCC-Adresse das TLS 1.2-Protokoll unterstützt.
 
 ![](assets/preset-bcc.png)
 

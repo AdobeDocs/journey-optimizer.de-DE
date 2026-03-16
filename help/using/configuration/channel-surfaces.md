@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1875'
-ht-degree: 98%
+source-wordcount: '1876'
+ht-degree: 95%
 
 ---
 
@@ -167,7 +167,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu bearbeiten.
 >
 >Die **[!UICONTROL Einstellungen für Push-Benachrichtigungen]** können Sie nicht bearbeiten. Wenn eine Kanalkonfiguration nur für den Kanal „Push-Benachrichtigung“ konfiguriert ist, kann sie nicht bearbeitet werden.
 >
->Beim Bearbeiten einer E-Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ &#x200B;](#create-channel-surface).
+>Beim Bearbeiten einer E-Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ ](#create-channel-surface).
 
 1. Klicken Sie in der Liste auf den Namen einer Kanalkonfiguration, um sie zu öffnen.
 
@@ -177,19 +177,13 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu bearbeiten.
 
    >[!NOTE]
    >
-   >Wenn eine Kanalkonfiguration den Status **[!UICONTROL Aktiv]** hat, sind die Felder **[!UICONTROL Name]**, **[!UICONTROL Kanal auswählen]** und **[!UICONTROL Subdomain]** grau dargestellt und können nicht bearbeitet werden.
+   >* Wenn die Konfiguration den Status **[!UICONTROL Aktiv]** hat, sind **[!UICONTROL Felder Name]**, **[!UICONTROL Kanal]** und **[!UICONTROL Subdomain]** schreibgeschützt und können nicht geändert werden.
+   >* Sie können Ihre Änderungen jederzeit als Entwurf speichern und die Aktualisierung später fortsetzen.
+   >* Änderungen, die auf die Felder **[!UICONTROL Beschreibung]**, **[!UICONTROL E-Mail-Typ]** und/oder **[!UICONTROL E-Mail-Wiederholungsparameter beschränkt sind]** werden sofort wirksam, ohne dass es zu einer Verarbeitungsverzögerung kommt.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre Änderungen zu bestätigen.
 
-   >[!NOTE]
-   >
-   >Sie können die Kanalkonfiguration auch als Entwurf speichern und die Aktualisierung später fortsetzen.
-
 Sobald die Änderungen übermittelt wurden, durchläuft die Kanalkonfiguration einen ähnlichen Validierungszyklus wie beim [Erstellen einer Kanalkonfiguration](#create-channel-surface). Die Verarbeitungszeit nach dem Bearbeiten kann bis zu **3 Stunden** dauern.
-
->[!NOTE]
->
->Wenn Sie nur die Felder **[!UICONTROL Beschreibung]**, **[!UICONTROL E-Mail-Typ]** und/oder **[!UICONTROL E-Mail-Wiederholungsparameter]** bearbeiten, wird die Aktualisierung sofort wirksam.
 
 ### Details zur Aktualisierung {#update-details}
 
@@ -298,4 +292,4 @@ Eine deaktivierte Kanalkonfiguration kann nicht direkt bearbeitet werden. Sie k�
 
 Erfahren Sie, was Kanalkonfigurationen sind und wie sie in Adobe Journey Optimizer verwendet werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480460/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Domain, Mail, DMARC, Eintrag
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b3716265282599604de629be540ca68971daa343
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
 source-wordcount: '1591'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -146,13 +146,10 @@ Damit Adobe den DMARC-Eintrag für Sie verwalten kann, wählen Sie die Option **
 
 >[!NOTE]
 >
->Erfolgt der Abruf über [!DNL Journey Optimizer], können Sie dieselben Werte verwenden, die in der Benutzeroberfläche hervorgehoben sind, oder sie nach Bedarf ändern.
+>* Erfolgt der Abruf über [!DNL Journey Optimizer], können Sie dieselben Werte verwenden, die in der Benutzeroberfläche hervorgehoben sind, oder sie nach Bedarf ändern.
+>* Wenn Sie keine Werte hinzufügen, werden die vorausgefüllten Standardwerte verwendet.
 
 ![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
-
->[!NOTE]
->
->Wenn Sie keine Werte hinzufügen, werden die vorausgefüllten Standardwerte verwendet.
 
 1. Legen Sie die Aktion fest, die der Empfänger-Server ausführen soll, wenn DMARC fehlschlägt. Wählen Sie je nach der [DMARC-Richtlinie](#dmarc-policies), die Sie anwenden möchten, eine der drei Optionen aus:
 
@@ -168,16 +165,13 @@ Damit Adobe den DMARC-Eintrag für Sie verwalten kann, wählen Sie die Option **
 
    >[!NOTE]
    >
-   >Stellen Sie sicher, dass Sie über einen eigenen Posteingang (nicht Adobe) verfügen, in dem Sie diese Berichte empfangen können.
+   >* Stellen Sie sicher, dass Sie über einen eigenen Posteingang (nicht Adobe) verfügen, in dem Sie diese Berichte empfangen können.
+   >* Diese hochtechnischen Berichte bieten einen Überblick über E-Mails, die Spoofing-Versuch sind und am besten über ein Tool eines Drittanbieters verdaut werden.
 
    Es gibt zwei verschiedene Berichte, die von ISPs generiert werden und die Absenderinnen und Absender über die RUA/RUF-Tags in ihrer DMARC-Richtlinie empfangen können:
 
    * **Aggregierte Berichte** (RUA): Sie enthalten keine personenbezogenen Daten (PII), bei denen es sich im Sinne der DSGVO um sensible Daten handeln könnte.
    * **Forensische Fehlerberichte** (RUF): Sie enthalten E-Mail-Adressen, bei denen es sich im Sinne der DSGVO um sensible E-Mail-Adressen handelt. Prüfen Sie vor der Verwendung intern, wie mit Informationen umgegangen werden soll, die DSGVO-konform sein müssen.
-
-   >[!NOTE]
-   >
-   >Diese hochtechnischen Berichte bieten einen Überblick über E-Mails, bei denen es sich um versuchtes Spoofing handelt. Sie sollten am besten mit einem Tool eines Drittanbieters verarbeitet werden.
 
 1. Wählen Sie den **anwendbaren Prozentsatz** von E-Mails für DMARC aus.
 

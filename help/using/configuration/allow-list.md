@@ -8,10 +8,10 @@ role: Admin
 level: Intermediate
 keywords: Zulassungsliste, sichere Liste, E-Mail, Zustellbarkeit, Sandbox, Domains, Unterdrückung, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 76%
+source-wordcount: '1308'
+ht-degree: 72%
 
 ---
 
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
 1. Wählen Sie den Umschalter aus.
 
-   ![Umschalter zum Aktivieren der Zulassungsliste &#x200B;](assets/allow-list-edit.png)
+   ![Umschalter zum Aktivieren der Zulassungsliste ](assets/allow-list-edit.png)
 
 1. Wählen Sie **[!UICONTROL Zulassungsliste aktivieren]** aus. Die Zulassungsliste ist jetzt aktiv.
 
@@ -63,13 +63,10 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
    >[!NOTE]
    >
-   >Nachdem Sie die Zulassungsliste aktiviert haben, wird sie in Ihren Journeys und Kampagnen mit einer Verzögerung von 10 Minuten aktiv. Ebenso kann es bis zu 10 Minuten dauern, bis Aktualisierungen der Zulassungs- und Unterdrückungsliste angezeigt werden.
+   >* Nach der Aktivierung dauert es 10 Minuten, bis die Zulassungsliste in Journey und Kampagnen wirksam wird. Es kann bis zu 10 Minuten dauern, bis Aktualisierungen sowohl der Zulassungslisten- als auch der Unterdrückungsliste angezeigt werden.
+   >* Wenn diese Option aktiviert ist, wird die Zulassungsliste nicht nur in Live-Journey[ sondern auch beim Testen von Nachrichten mit „Testsendungen](../content-management/proofs.md) und Journey im [Testmodus](../building-journeys/testing-the-journey.md) durchgesetzt.
 
 Die Logik der Zulassungsliste wird angewendet, wenn die Funktion aktiviert ist. Weiterführende Informationen finden Sie in [diesem Abschnitt](#logic).
-
->[!NOTE]
->
->Wenn sie aktiviert ist, wird die Funktion „Zulassungsliste“ beim Ausführen von Journeys, aber auch beim Testen von Nachrichten mit [Testsendungen](../content-management/proofs.md) und beim Testen von Journeys unter Verwendung des [Testmodus](../building-journeys/testing-the-journey.md) berücksichtigt.
 
 ## Deaktivieren der Zulassungsliste {#deactivate-allow-list}
 
@@ -79,7 +76,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu deaktivieren.
 
 1. Wählen Sie den Umschalter aus.
 
-   ![Umschalter zum Deaktivieren der Zulassungsliste &#x200B;](assets/allow-list-edit-active.png)
+   ![Umschalter zum Deaktivieren der Zulassungsliste ](assets/allow-list-edit-active.png)
 
 1. Wählen Sie die Option **[!UICONTROL Zulassungsliste deaktivieren]** aus. Die Zulassungsliste ist nicht mehr aktiv.
 
@@ -157,7 +154,7 @@ Führen Sie die folgenden Schritte aus, um die Zulassungsliste als CSV-Datei zu 
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL CSV herunterladen]**.
 
-   ![Schaltfläche „CSV herunterladen“ auf der Seite Zulassungsliste &#x200B;](assets/allowed-list-download-csv.png)
+   ![Schaltfläche „CSV herunterladen“ auf der Seite Zulassungsliste ](assets/allowed-list-download-csv.png)
 
 1. Warten Sie, bis die Datei generiert wurde.
 

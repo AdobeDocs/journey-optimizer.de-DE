@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 84%
@@ -123,9 +123,7 @@ Wenn Sie beispielsweise die benutzerdefinierte Domain „Roadrunner“ hinzufüg
 
 ![](assets/ip-warmup-sample-file-custom.png)
 
->[!NOTE]
->
->Wenn Sie keine benutzerdefinierten Domains benötigen, lassen Sie die Registerkarte **[!UICONTROL Benutzerdefinierte Domain-Gruppe]** leer.
+Wenn Sie keine benutzerdefinierten Domains benötigen, lassen Sie die Registerkarte **[!UICONTROL Benutzerdefinierte Domain-Gruppe]** leer.
 
 ### Registerkarte „Vorkonfigurierte Domain-Gruppen“ {#ootb-domain-groups-tab}
 
@@ -208,7 +206,7 @@ Domains außerhalb von Hotmail und aus der Domain-Gruppe „Microsoft“ werden 
 
 1. Fügen Sie alle Hotmail-Domains in derselben Zeile hinzu.
 
-   Sie können alle Hotmail-Domains [kopieren und einfügen](#copy-paste), die auf der Registerkarte [&#x200B; „Vorkonfigurierte Domain-Gruppen“](#ootb-domain-groups-tab) aufgeführt sind.
+   Sie können alle Hotmail-Domains [kopieren und einfügen](#copy-paste), die auf der Registerkarte [ „Vorkonfigurierte Domain-Gruppen“](#ootb-domain-groups-tab) aufgeführt sind.
 
 1. Fügen Sie eine weitere Zeile hinzu.
 
@@ -251,15 +249,12 @@ Jede Domain wird nun in einer anderen Spalte in derselben Zeile angezeigt.
 
 1. Um einen IP-Aufwärmplan zu löschen, klicken Sie auf das Symbol **[!UICONTROL Löschen]** neben dem Namen eines Plans und bestätigen Sie den Löschvorgang.
 
-   >[!NOTE]
-   >
-   >Nur Pläne mit dem Status **Nicht gestartet** können gelöscht werden.
-
-   ![](assets/ip-warmup-delete-plan.png)
-
    >[!CAUTION]
    >
-   >Der ausgewählte IP-Aufwärmplan wird endgültig gelöscht.
+   >* Nur Pläne mit dem Status **Nicht gestartet** können gelöscht werden.
+   >* Der ausgewählte IP-Aufwärmplan wird endgültig gelöscht.
+
+   ![](assets/ip-warmup-delete-plan.png)
 
 ## Erstellen eines IP-Aufwärmplans {#create-ip-warmup-plan}
 
