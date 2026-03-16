@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 93%
@@ -234,17 +234,14 @@ Mit dieser Funktion können Sie kontextuelle Informationen an beliebige native A
 
 >[!NOTE]
 >
->Die Funktion „Ausführungsmetadaten“ wird von [benutzerdefinierten Aktionen](../../action/action.md) nicht unterstützt.
+>* Die Funktion „Ausführungsmetadaten“ wird von [benutzerdefinierten Aktionen](../../action/action.md) nicht unterstützt.
+>* Die Funktion „Ausführungsmetadaten“ ist nicht sichtbar, wenn der Inhalt selbst angezeigt wird.
 
 Sie können beispielsweise die Hilfsfunktion „Ausführungsmetadaten“ verwenden, um eine bestimmte ID an jeden Versand anzuhängen, der an jedes Profil gesendet wird. Diese Informationen werden zur Laufzeit generiert und die angereicherten Ausführungsmetadaten können dann zur nachgelagerten Abstimmung mit einer externen Reporting-Plattform exportiert werden.
 
 **Funktionsweise**
 
 Wählen Sie in einer Kampagne oder Journey ein beliebiges Element aus Ihrem Kanalinhalt aus und fügen Sie mithilfe des Personalisierungseditors diesem Element die Hilfsfunktion `executionMetadata` hinzu.
-
->[!NOTE]
->
->Die Funktion „Ausführungsmetadaten“ ist nicht sichtbar, wenn der Inhalt selbst angezeigt wird.
 
 
 Zur Laufzeit wird der Metadatenwert dem vorhandenen **[!UICONTROL Nachrichten-Feedback-Ereignisdatensatz]** hinzugefügt, wobei das folgende Schema hinzugefügt wird:

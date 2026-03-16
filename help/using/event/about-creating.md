@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
-workflow-type: ht
-source-wordcount: '1693'
-ht-degree: 100%
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+workflow-type: tm+mt
+source-wordcount: '1684'
+ht-degree: 96%
 
 ---
 
@@ -56,7 +56,7 @@ Nachfolgend finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereigni
 
 1. Die Anzahl der Journeys, die dieses Ereignis verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit diesem Ereignis anzuzeigen.
 
-1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen aus (normalerweise als Payload bezeichnet), die von Journeys erwartet werden. Anschließend können Sie diese Informationen in Ihrer Journey verwenden. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating.md#define-the-payload-fields).
+1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen aus (normalerweise als Payload bezeichnet), die von Journeys erwartet werden. Anschließend können Sie diese Informationen in Ihrer Journey verwenden. Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#define-the-payload-fields).
 
    ![](assets/jo-event5.png)
 
@@ -94,15 +94,13 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
    >[!NOTE]
    >
-   >Stellen Sie bei systemgenerierten Ereignissen sicher, dass Sie die Feldergruppe „Orchestrierung“ zum XDM-Schema hinzugefügt haben. Dadurch wird sichergestellt, dass Ihr Schema alle erforderlichen Informationen für die Zusammenarbeit mit [!DNL Journey Optimizer] enthält.
+   >Für systemgenerierte Ereignisse:
+   >* Stellen Sie sicher, dass Sie die `orchestration` Feldergruppe zum XDM-Schema hinzugefügt haben - dadurch wird sichergestellt, dass Ihr Schema alle für die Arbeit mit [!DNL Journey Optimizer] erforderlichen Informationen enthält.
+   >* Das **[!UICONTROL eventID]**-Feld wird automatisch zur Liste der ausgewählten Felder hinzugefügt, damit [!DNL Journey Optimizer] das Ereignis identifizieren können. Das System, das das Ereignis per Push sendet, sollte keine ID generieren - stattdessen die ID verwenden, die in der Payload-Vorschau verfügbar ist. [Weitere Informationen](../event/about-creating.md#preview-the-payload)
 
    ![](assets/journey9.png)
 
 1. Wählen Sie die Felder aus, die Sie vom Ereignis erwarten. Dies sind die Felder, die der Business-Anwender in der Journey nutzen wird. Sie müssen auch den Schlüssel enthalten, mit dem die mit dem Ereignis verbundene Person identifiziert werden kann (siehe [diesen Abschnitt](../event/about-creating.md#define-the-event-key)).
-
-   >[!NOTE]
-   >
-   >Das Feld **[!UICONTROL eventID]** wird automatisch in die Liste der ausgewählten Felder eingefügt, damit [!DNL Journey Optimizer] das Ereignis identifizieren kann. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID verwenden, die in der Payload-Vorschau verfügbar ist. Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#preview-the-payload).
 
 1. Wenn Sie die erforderlichen Felder ausgewählt haben, klicken Sie auf **[!UICONTROL OK]** oder drücken Sie die **[!UICONTROL Eingabetaste]**.
 

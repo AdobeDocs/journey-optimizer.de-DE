@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Schübe, Batches, Zeitplan, Kampagne, Journey, Zustellbarkeit
-source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
+exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
+source-git-commit: 55181db4fd8c1e6ee0f0f865dd61201be3c2df39
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 1%
+source-wordcount: '781'
+ht-degree: 2%
 
 ---
 
@@ -73,17 +74,13 @@ Wählen Sie die Option **[!UICONTROL Benutzerdefinierte Verteilung]** aus, um di
 
 ![](assets/campaign-wave-percentage.png){width="80%"}
 
->[!NOTE]
->
->Die Summe über alle Wellen hinweg muss 100% betragen. Ist dies nicht der Fall, wird eine Warnmeldung angezeigt.<!--are the waves actually sent or does the system prevent user from saving the campaign?-->
-
 Wählen Sie **[!UICONTROL Zahlen]** aus, um die Größe jeder Welle als absolute Anzahl von Profilen zu definieren (z. B. 10.000; 50.000).
 
 ![](assets/campaign-wave-numbers.png){width="80%"}
 
 >[!NOTE]
->
->Bei der Verwendung von Zahlen überprüft das System nicht, ob die Summe die gesamte Zielgruppe abdeckt. Sie müssen sicherstellen, dass Ihre Wellengrößen die Zielgruppe abdecken, die Sie senden möchten. Weitere Informationen finden Sie unter [Häufig gestellte Fragen](#faq).
+>* Bei Verwendung von Prozentsätzen müssen alle Schübe insgesamt 100 % aufweisen. Ist dies nicht der Fall, wird eine Warnung angezeigt.
+>* Bei Verwendung von Zahlen überprüft das System die Abdeckung nicht. Stellen Sie sicher, dass Ihre Wellengrößen die vorgesehene Zielgruppe abdecken. [Weitere Informationen](#faq)
 
 ### Benutzerdefinierter Zeitplan {#custom-schedule}
 
