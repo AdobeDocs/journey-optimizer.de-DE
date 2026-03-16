@@ -20,7 +20,7 @@ In Adobe Journey Optimizer können Sie mit der Funktion „Marken“ die einziga
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Richtlinien zum Erstellen und Verwalten Ihrer Marke
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit Adobe Journey Optimizer Markenrichtlinien für eine ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Auswerten des Markenausrichtungswerts
 
@@ -40,7 +40,7 @@ Machen Sie sich mit der Funktion „Markenausrichtung“ vertraut und nutzen Sie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Marken personalisieren
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie standardmäßige Markenvoreinstellungen festlegen und Mark
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen und Verwalten generativer Modelle
 

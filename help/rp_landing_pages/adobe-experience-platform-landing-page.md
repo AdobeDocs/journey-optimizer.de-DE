@@ -20,7 +20,7 @@ Adobe Experience Platform ist die Grundlage für die Bereitstellung hochgradig p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden der Funktion „inAudience“
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die Funktion „inAudience“ verwenden, um die Zielgruppe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Verwenden von Adobe Experience Platform-Daten für Personalization
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie auf Adobe Experience Platform-Profilattribute und -Datens�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
 
 Verwenden von Adobe Experience Platform-Daten in Journey
 

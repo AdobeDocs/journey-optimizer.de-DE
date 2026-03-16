@@ -20,7 +20,7 @@ In diesen technischen Anmerkungen werden die statistischen Methoden erläutert, 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Statistische Berechnungen, die in Adobe Journey Optimizer-Experimenten verwendet werden
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über fortschrittliche statistische Methoden wie Konfidenzsequ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Verstehen der statistischen Berechnungen in Experimentberichten
 
