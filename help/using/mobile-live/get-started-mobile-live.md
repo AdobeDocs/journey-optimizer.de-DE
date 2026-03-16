@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: f3c398a7164d7c83a39c4ec7c9460589309c8cae
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 60%
+source-wordcount: '276'
+ht-degree: 55%
 
 ---
 
@@ -54,3 +54,9 @@ Führen Sie die folgenden Schritte aus, um die Live-Aktivität in Ihrer Anwendun
 1. **[Nachverfolgen von Kampagnen](../reports/campaign-global-report-cja-activity.md)**
 
    Beginnen Sie mit der Messung der Wirkung Ihrer Live-Aktivität mit integrierten Berichten.
+
+## Anleitungsvideo
+
+Erfahren Sie, wie Sie iOS Live-Aktivitäten mit Adobe Journey Optimizer konfigurieren, um umfangreiche Echtzeit-Updates auf dem iPhone-Sperrbildschirm und auf Dynamic Island zu liefern.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
