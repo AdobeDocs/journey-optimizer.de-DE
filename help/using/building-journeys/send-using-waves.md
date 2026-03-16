@@ -10,18 +10,14 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: Schübe, Batches, Zeitplan, Journey, Zielgruppe lesen, Zustellbarkeit
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
+source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 2%
+source-wordcount: '858'
+ht-degree: 1%
 
 ---
 
 # Senden mit Schüben in Journey {#send-using-waves-journeys}
-
->[!AVAILABILITY]
->
->Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
 Sie können ausgehende Nachrichten von einer Journey im Zeitverlauf stapelweise (in Schüben) statt alle gleichzeitig versenden. Der Wave-Versand trägt dazu bei, die Auslastung auszugleichen, überlastete nachgelagerte Systeme (wie Callcenter oder Landingpages) zu vermeiden und die Zustellbarkeit und die Reputation des Absenders zu unterstützen - insbesondere für Journey mit großen Lesemengen.
 

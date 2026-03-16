@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 145944952ad9aca752085588526f71e8034b8611
+source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1961'
 ht-degree: 34%
 
 ---
@@ -80,7 +80,7 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 <td>
 <p>Mit <strong>Adobe Experience Platform Agent Orchestrator </strong> ist <strong>Journey Agent</strong> in Journey Optimizer verfügbar und ermöglicht es Ihnen, Journey über eine natürliche Sprachschnittstelle zu analysieren. Sie können jetzt auch kanalspezifische Inhalte direkt in Journey Agent generieren und verwalten, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in <strong>Content Designer</strong> zur kontextbezogenen Bearbeitung öffnen.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=de">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Donnerstag, 4. März 2026</p>
 </td>
 </tr>
@@ -126,6 +126,14 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 ### Verbesserungen {#march-26-improv}
 
+#### Journeys
+
+* **Senden ausgehender Nachrichten in Journey** - Sie können jetzt den Versand von Nachrichten aus Journey Optimizer Journey in kontrollierten Batches über einen bestimmten Zeitraum planen. [Weitere Informationen](../building-journeys/send-using-waves.md)
+
+  Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit für den Einsatz in Journey veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
+
+  Verfügbarkeitsdatum: Dienstag, 16. März 2026
+
 #### Konfiguration
 
 * **Änderung im Ereignisdatensatz für das Sekundäre Empfängerfeedback in AJO** - Der Ereignisdatensatz für das E-Mail-BCC-Feedback in AJO wird in den Ereignisdatensatz für das Sekundäre Empfängerfeedback in AJO umbenannt.
@@ -139,7 +147,7 @@ Die Abschnitte [Neue Funktionen](#feb-26-01-features) und [Verbesserungen](#feb-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
