@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: df3ae62439882bd4b1f5f00e9c24d341f83b8df9
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 98%
+source-wordcount: '1509'
+ht-degree: 89%
 
 ---
 
@@ -52,6 +52,15 @@ Wenn diese Optionen aktiviert sind, verfolgen Sie das Verhalten der Empfangenden
 ## Links einfügen {#insert-links}
 
 Wenn das [Tracking aktiviert ist](#enable-tracking), werden alle im Nachrichteninhalt enthaltenen Links nachverfolgt.
+
+Eine eindeutige Tracking-Kennung (urlID) wird nur generiert, wenn sowohl **URL** als auch **label** eindeutig sind. Links, die dieselbe URL verwenden und dieselbe effektive Beschriftung aufweisen (auch wenn die Beschriftung leer ist), verwenden dieselbe urlID erneut, d. h. Sie können nicht feststellen, auf welchen Link geklickt wurde. Um dieselbe URL über mehrere E-Mails hinweg (oder mehrmals in einer E-Mail) zu verfolgen, verwenden Sie für jede ähnliche URL eine eindeutige Kennzeichnung. Andernfalls können [!DNL Journey Optimizer] nicht verfolgen, auf welchen Link geklickt wurde. Sie können in der E-Mail-Designer oder für HTML über das Attribut `data-label` unterschiedliche Kennzeichnungen festlegen.
+
+| URL | Tag | Label | urlID-Verhalten |
+|-----|-----|-------|----------------|
+| www.example.com | Erste/r | (leer) | Ruft eine urlID ab (z. B. A) |
+| www.example.com | Second | (leer) | Verwendet urlID A - kann nicht erkennen, auf welchen Link geklickt wurde |
+| www.example.com | Dritte/r | Erste Bezeichnung | Ruft eine urlID ab (z. B. B) |
+| www.example.com | Vierte | Zweite Bezeichnung | Ruft eine urlID ab (z. B. C) |
 
 >[!NOTE]
 >
@@ -99,7 +108,7 @@ Nach dem Versand der Nachricht beträgt die Gültigkeitsdauer für einen Link **
 
 >[!CAUTION]
 >
->Wenn sowohl **label** als auch **URL** einer Schaltfläche in einem [anpassbaren Fragment) bearbeitbar &#x200B;](../content-management/customizable-fragments.md), wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt.
+>Wenn sowohl **label** als auch **URL** einer Schaltfläche in einem [anpassbaren Fragment) bearbeitbar ](../content-management/customizable-fragments.md), wird in Tracking-Berichten die URL anstelle der Schaltflächenbeschriftung angezeigt.
 
 ## Link zu einer Mirror-Seite {#mirror-page}
 
