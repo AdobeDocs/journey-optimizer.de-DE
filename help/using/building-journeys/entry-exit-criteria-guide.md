@@ -208,7 +208,7 @@ Beginnen Sie damit, Ihre Kunden-Trigger und Ausstiegspunkte klar zuzuordnen, gr�
 
 **Tutorials und Beispiele**
 
-[Journey-Anwendungsfälle](jo-use-cases.md) | [Video zum Kunden-Onboarding](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video zu Warenkorbabbrüchen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Community-Blog: Eintritts- und Ausstiegskriterien](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[Journey-Anwendungsfälle](jo-use-cases.md) | [Video zum Kunden-Onboarding](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video zu Warenkorbabbrüchen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Community-Blog: Eintritts- und Ausstiegskriterien](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=de)
 
 **Verwandte Funktionen**
 
