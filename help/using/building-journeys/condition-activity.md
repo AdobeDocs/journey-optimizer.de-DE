@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 95%
+source-wordcount: '1818'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,11 @@ Folgende Bedingungstypen sind verfügbar:
 * [Bedingung für das Datum](#date_condition)
 * [Profilbegrenzung](#profile_cap)
 
-Sie können auch eine Zielgruppe in einer Journey-Bedingung verwenden. [Weitere Informationen](#using-a-segment). Weitere Information zum Generieren und Ansprechen von Zielgruppen finden Sie [in diesem Abschnitt](../audience/about-audiences.md).
+Zielgruppen können auch direkt in Journey-Bedingungen verwendet werden. Siehe:
+
+* [Verwenden einer Zielgruppe in einer Bedingung](#using-a-segment) - Filtern Sie, welche Profile einen bestimmten Pfad basierend auf der Zielgruppenzugehörigkeit annehmen
+* [Erstellen und Verwalten von Zielgruppen](../audience/about-audiences.md) - Erfahren Sie, wie Sie Zielgruppen in [!DNL Adobe Experience Platform] erstellen, auswerten und ansprechen.
+* [Zielgruppen-Targeting-Muster in Journey](read-audience.md#audience-targeting-in-journeys) — Segmentieren, Ausschließen oder Zusammenführen von Zielgruppenverzweigungen nach dem Eintrag „Zielgruppe lesen“
 
 >[!NOTE]
 >

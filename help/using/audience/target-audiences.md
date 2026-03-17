@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 52%
+source-wordcount: '783'
+ht-degree: 97%
 
 ---
 
@@ -21,23 +21,23 @@ Sie können in Kampagnen und Journeys eine beliebige Zielgruppe auswählen, die 
 
 ## Leitlinien und Einschränkungen {#guardrails}
 
-* **Healthcare Shield oder Privacy and Security Shield** - Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition ist derzeit nicht mit Healthcare Shield oder Privacy and Security Shield verfügbar. [Erfahren Sie, wie Sie Zielgruppen-Anreicherungsattribute in verwenden [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment)
+* **Healthcare Shield oder Privacy and Security Shield** – Die Verwendung von Zielgruppen und Attributen aus der Zielgruppenkomposition ist derzeit nicht mit Healthcare Shield oder Privacy and Security Shield verfügbar. [Weitere Informationen zur Verwendung von Zielgruppenanreicherungsattribute in [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment)
 
-* **Benutzerdefinierter Upload und Federated-Audience-Komposition** - Beachten Sie die folgenden Leitplanken für benutzerdefinierte Upload- und Federated-Audience-Komposition-Zielgruppen:
+* **Benutzerdefinierter Upload und Komposition föderierter Zielgruppen** – Beachten Sie die folgenden Leitlinien für benutzerdefinierte Upload-Zielgruppen und die Komposition föderierter Zielgruppen:
 
-   * **Unterstützung von Vorschau und Testversand:** Zurzeit werden Vorschau und Testversand für Zielgruppen, die mit CSV-Uploads oder Federated Audience Composition erstellt wurden, nicht unterstützt. Berücksichtigen Sie dies bei der Planung Ihrer Kampagnen.
+   * **Unterstützung für Vorschau und Testversand:** Derzeit werden Vorschau und Testversand für Zielgruppen, die mithilfe eines CSV-Uploads oder der Komposition föderierter Zielgruppen erstellt wurden, nicht unterstützt. Berücksichtigen Sie dies bei der Planung Ihrer Kampagnen.
 
-   * **Targeting neuer Profile:** Wenn keine Übereinstimmung zwischen einem Eintrag und einem Profil des einheitlichen Profildienstes gefunden wird, wird ein neues leeres Profil erstellt. Dieses Profil ist mit den Anreicherungsattributen verknüpft, die im Data Lake gespeichert sind. Da dieses neue Profil leer ist, sind Zielgruppenbestimmungsfelder, die normalerweise in [!DNL Journey Optimizer] verwendet werden (z. B. personalEmail.address, mobilePhone.number) leer. Daher können diese Felder nicht für die Zielgruppenbestimmung verwendet werden.
+   * **Targeting neuer Profile:** Wenn keine Übereinstimmung zwischen einem Eintrag und einem Profil des einheitlichen Profildienstes gefunden wird, wird ein neues leeres Profil erstellt. Dieses Profil ist mit den Anreicherungsattributen verknüpft, die im Data Lake gespeichert sind. Da dieses neue Profil leer ist, sind Targeting-Felder, die normalerweise in [!DNL Journey Optimizer] verwendet werden (z. B. personalEmail.address, mobilePhone.number) leer. Daher können diese Felder nicht für das Targeting verwendet werden.
 
-     Um dieses Problem zu lösen, können Sie das „Ausführungsfeld“ (oder je nach Kanal die „Ausführungsadresse“) in der Kanalkonfiguration als „identityMap“ angeben. Dadurch wird sichergestellt, dass beim Erstellen der Zielgruppe als Identität das Attribut ausgewählt wird, das beim Targeting in [!DNL Journey Optimizer] verwendet wird.
+     Um dieses Problem zu lösen, können Sie das „Ausführungsfeld“ (oder je nach Kanal die „Ausführungsadresse“) in der Kanalkonfiguration als „identityMap“ angeben. So wird sichergestellt, dass das bei der Zielgruppenerstellung als Identität ausgewählte Attribut für das Targeting in [!DNL Journey Optimizer] verwendet wird.
 
-   * **Aktivierte Einträge und Identitätszuordnung:** Jeder Eintrag in der Zielgruppe wird aktiviert, einschließlich aller Duplikate. Beim nächsten Profilexport im Unified Profile Service durchlaufen diese Datensätze eine Identitätszuordnung. Infolgedessen kann die Anzahl der aktivierten Einträge nach der Identitätszuordnung von der Anzahl der Profile abweichen.
+   * **Aktivierte Einträge und Identitätszuordnung:** Jeder Eintrag in der Zielgruppe wird aktiviert, einschließlich aller Duplikate. Beim nächsten Export des Profils des Unified Profile Service werden diese Einträge einer Identitätszuordnung unterzogen. Infolgedessen kann die Anzahl der aktivierten Einträge nach der Identitätszuordnung von der Anzahl der Profile abweichen.
 
 ## Verzögerung der Zielgruppenaktivierung {#activation}
 
-Zielgruppen können direkt nach Abschluss der Aufnahme in [!DNL Journey Optimizer] verwendet werden. Dies geschieht in der Regel innerhalb einer Stunde, kann jedoch variieren. Zielgruppen, die aus Kompositionen resultieren, sollten 24 Stunden nach der Veröffentlichung verfügbar sein.
+Zielgruppen sind direkt nach Abschluss der Aufnahme für die Verwendung in [!DNL Journey Optimizer] bereit. Dies geschieht in der Regel innerhalb einer Stunde, kann jedoch variieren. Zielgruppen, die aus Kompositionen resultieren, sollten 24 Stunden nach der Veröffentlichung verfügbar sein.
 
-Bei Zielgruppen, die aus Batch-Segmentierungsaufträgen resultieren, kann sich die Aktivierung aufgrund von Variabilität bei der Batch-Aufnahme verzögern. Für täglich geplante Journey mit Lesezugriff auf Zielgruppen können Sie in den Journey-Eigenschaften ein Zeitfenster definieren, um sicherzustellen, dass vor der Journey-Ausführung neue Zielgruppendaten verfügbar sind.
+Bei Zielgruppen, die aus Batch-Segmentierungsaufträgen resultieren, kann sich die Aktivierung aufgrund von Variabilität bei der Batch-Aufnahme verzögern. Für täglich geplante Journeys vom Typ „Zielgruppe lesen“ können Sie in den Journey-Eigenschaften ein Zeitfenster definieren, um sicherzustellen, dass vor der Journey-Ausführung neue Zielgruppendaten verfügbar sind. 
 
 Wenn der Segmentierungsauftrag nicht innerhalb des definierten Zeitfensters abgeschlossen wird, wird die Journey bis zum nächsten Auftreten übersprungen. [Informationen zum Planen einer Journey vom Typ „Zielgruppe lesen“](../building-journeys/read-audience.md)
 
@@ -47,13 +47,15 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
 * Wählen Sie eine Zielgruppe für eine **Kampagne** aus, sodass die Nachricht an alle Personen gesendet wird, die zur ausgewählten Zielgruppe gehören. [Erfahren Sie, wie Sie die Zielgruppe einer Kampagne definieren](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Verwenden Sie die Orchestrierungsaktivität **Zielgruppe lesen** in einer Journey, damit alle Personen der Zielgruppe in die Journey eintreten und die in Ihrer Journey enthaltenen Nachrichten empfangen. Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundinnen und -Kunden“. Mit dieser Aktivität können Sie alle Silber-Kunden auf eine Journey bringen. Sie können ihnen dann eine Reihe personalisierter Nachrichten senden. [Erfahren Sie, wie Sie eine Aktivität vom Typ „Zielgruppe lesen“ konfigurieren](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Verwenden Sie die Orchestrierungsaktivität **Zielgruppe lesen** in einer Journey, damit alle Personen der Zielgruppe in die Journey eintreten und die in Ihrer Journey enthaltenen Nachrichten empfangen. Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundschaft“. Mit dieser Aktivität können Sie alle Silber-Kundinnen und -Kunden in eine Journey eintreten lassen. Sie können ihnen dann eine Reihe personalisierter Nachrichten senden. [Erfahren Sie, wie Sie eine Aktivität vom Typ „Zielgruppe lesen“ konfigurieren](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
-  Bei Journey, die Zielgruppen aus der Zielgruppenkomposition oder dem benutzerdefinierten Upload verwenden, sind Profilattribute so aktuell wie die letzte Batch-Auswertung beim Journey-Eintrag. Nach einer **Warten**-Aktivität aktualisiert der Journey jedoch Profilattribute vom Unified Profile Service (UPS). Dabei werden die neuesten verfügbaren Daten abgerufen, was bedeutet, dass sich die Profilattribute während der Journey-Ausführung ändern können. [Erfahren Sie mehr über die Aktualisierung von Profilen nach einer Warteaktivität](../building-journeys/wait-activity.md#profile-refresh)
+  Verwenden Sie nach der Eingabe **Bedingung**-Aktivitäten, um [nach Attributen oder Verhalten zu segmentieren, einen Teil der Population auszuschließen oder Verzweigungen zusammenzuführen](../building-journeys/read-audience.md#audience-targeting-in-journeys).
+
+  Bei Journeys, die Zielgruppen aus der Zielgruppenkomposition oder dem benutzerdefinierten Upload verwenden, sind Profilattribute so aktuell wie die letzte Batch-Auswertung beim Journey-Eintritt. Nach einer Aktivität des Typs **Warten** aktualisiert die Journey jedoch Profilattribute vom Unified Profile Service (UPS). Dabei werden die neuesten verfügbaren Daten abgerufen, was bedeutet, dass sich die Profilattribute während der Journey-Ausführung ändern können. [Weitere Informationen zur Aktualisierung von Profilen nach einer Aktivität des Typs „Warten“](../building-journeys/wait-activity.md#profile-refresh)
 
 * Verwenden Sie die Aktivität **Bedingung** in einer Journey, um Bedingungen zu erstellen, die auf der Zielgruppenzugehörigkeit basieren. [Erfahren Sie, wie Sie Zielgruppen in Bedingungen verwenden](../building-journeys/condition-activity.md#using-a-segment).
 
-* Verwenden Sie die Ereignisaktivität **Zielgruppen-Qualifizierung**, um Personen auf der Grundlage von Adobe Experience Platform-Zielgruppeneintritten und -austritten zu veranlassen, in eine Journey einzutreten oder damit fortzufahren. So können Sie z. B. alle neuen Silber-Kundinnen und -Kunden in eine Journey eintreten lassen und ihnen Nachrichten senden. [Erfahren Sie, wie Sie eine Aktivität vom Typ Zielgruppenqualifizierung konfigurieren](../building-journeys/audience-qualification-events.md).
+* Verwenden Sie die Ereignisaktivität **Zielgruppen-Qualifizierung**, um Personen auf der Grundlage von Adobe Experience Platform-Zielgruppeneintritten und -austritten zu veranlassen, in eine Journey einzutreten oder damit fortzufahren. So können Sie z. B. alle neuen Silber-Kundinnen und -Kunden in eine Journey eintreten lassen und ihnen Nachrichten senden. [Weitere Informationen zur Konfiguration einer Aktivität des Typs „Zielgruppenqualifizierung“](../building-journeys/audience-qualification-events.md).
 
   >[!NOTE]
   >
@@ -61,8 +63,8 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
 ## Aktivierung nicht unterstützter Zielgruppentypen in [!DNL Journey Optimizer]
 
-Nur Audiences, die mit **Segmentdefinition**, **Audience-Kompositionen**, **benutzerdefiniertem Upload (CSV-**) und **Federated Audience Composition** generiert wurden, können direkt in Journey Optimizer-Journey und -Kampagnen angesprochen werden. [Erfahren Sie mehr über verfügbare Zielgruppentypen](../audience/about-audiences.md#types)
+Nur Zielgruppen, die mit **Segmentdefinition**, **Zielgruppenkompositionen**, **benutzerdefiniertem Upload (CSV-Datei)** und **Komposition föderierter Zielgruppen** generiert wurden, können direkt in Journey Optimizer-Journeys und -Kampagnen angesprochen werden. [Weitere Informationen zu den verfügbaren Zielgruppentypen](../audience/about-audiences.md#types)
 
-Wenn Sie Profile aus einer nicht unterstützten Zielgruppe, z. B. einer Customer Journey Analytics-Zielgruppe, ansprechen möchten, müssen Sie sie im Zielgruppenportal in eine neue Segmentdefinition einschließen. Detaillierte Informationen zum Hinzufügen von Zielgruppen in einer Segmentdefinition finden Sie in der [Segment Builder-Dokumentation](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
+Wenn Sie Profile aus einer nicht unterstützten Zielgruppe ansprechen möchten, z. B. aus einer Customer Journey Analytics-Zielgruppe, müssen Sie sie im Zielgruppenportal in eine neue Segmentdefinition einschließen. Detaillierte Informationen zum Hinzufügen von Zielgruppen in einer Segmentdefinition finden Sie in der [Segment Builder-Dokumentation](https://experienceleagu;e.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
-Warten Sie anschließend, bis die Segmentierungsbewertung abgeschlossen ist, um sie in Ihren Journey und Kampagnen zu verwenden.
+Warten Sie anschließend, bis die Segmentierungsauswertung abgeschlossen ist, um sie in Ihren Journeys und Kampagnen zu verwenden.
