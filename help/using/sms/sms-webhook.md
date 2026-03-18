@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: cfe6fa417c81e7488a3f2f1313b08f346f1aeb03
+source-git-commit: f91abf82dff8f9cc9e16d769bdfb65725f5e2983
 workflow-type: tm+mt
 source-wordcount: '2742'
 ht-degree: 7%
@@ -104,7 +104,7 @@ Erstellen Sie für Sinch und Sinch Conversational einen einzigen Webhook, der so
 
 1. Wählen Sie eine Schlüsselwortkategorie aus der Dropdown **[!UICONTROL Liste „Eingehende]**&quot; aus, um Folgendes zu konfigurieren:
 
-   * &#x200B;
+   * 
      +++ Opt-in
 
       * Aktivieren von Keywords, die Benutzer mit deren Zustimmung anmelden. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer für den Empfang von SMS-Nachrichten angemeldet.
@@ -113,9 +113,9 @@ Erstellen Sie für Sinch und Sinch Conversational einen einzigen Webhook, der so
 
       * Verwenden Sie das Feld **[!UICONTROL Antwortnachricht]**, um eine Nachricht zu erstellen, die automatisch gesendet wird, wenn die eingehende Nachricht eines Benutzers mit einem Opt-in-Schlüsselwort übereinstimmt.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Opt-out
 
       * Aktivieren Sie Schlüsselwörter, die Benutzer abmelden und die Zustimmung zum Senden von Textnachrichten entfernen. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer vom Erhalt von SMS-Nachrichten abgemeldet.
@@ -126,9 +126,9 @@ Erstellen Sie für Sinch und Sinch Conversational einen einzigen Webhook, der so
 
       * Aktivieren Sie **[!UICONTROL Fuzzy Logic]**, um ähnliche Keywords wie konfigurierte Opt-out-Keywords zu erkennen. Wenn die Antwort eines Benutzers nahe, aber nicht genau ist, wird die im Feld **[!UICONTROL Ungenaue automatische Antwort]** eingegebene Nachricht gesendet. In der Regel zeigt diese Meldung an, dass die Abmeldung nicht stattgefunden hat, und gibt das genaue Keyword an, das zum Abmelden erforderlich ist.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Double-Opt-in
 
       * Aktivieren Sie Schlüsselwörter für die Anmeldeanforderung mit zweifacher Bestätigung. Wenn die Nachricht eines/r Benutzenden mit einem konfigurierten Keyword übereinstimmt, werden sie zu diesem Zeitpunkt nicht vollständig angemeldet. Dieser zweistufige Einverständnis-Workflow erfordert, dass Benutzer ihr Opt-in mit einem zweiten Schlüsselwort bestätigen.
@@ -137,7 +137,7 @@ Erstellen Sie für Sinch und Sinch Conversational einen einzigen Webhook, der so
 
    +++
 
-   * &#x200B;
+   * 
      +++ Hilfe
 
       * Aktivieren von Schlüsselwörtern, die eine Standardantwort liefern, wenn Hilfe angefordert wird. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, erhält er die Hilfe-Antwortnachricht.
@@ -146,16 +146,16 @@ Erstellen Sie für Sinch und Sinch Conversational einen einzigen Webhook, der so
 
       * Verwenden Sie das Feld **[!UICONTROL Antwortnachricht]**, um eine Nachricht zu erstellen, die automatisch gesendet wird, wenn die eingehende Nachricht eines Benutzers mit einem „Hilfe“-Schlüsselwort übereinstimmt.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Benutzerspezifisch
 
       * Konfigurieren Sie ein einzelnes benutzerdefiniertes Keyword. Wenn die Nachricht eines Benutzers mit diesem Keyword übereinstimmt, wird das Keyword in den Datensatz **[!UICONTROL Nachrichten-Feedback-Tracking]** zum Erstellen von Berichten und Zielgruppen geschrieben.
 
       * Erstellen Sie eine Zielgruppe (Streaming oder Batch), die auf dieses Keyword zur Verwendung in Ihren Journey und Kampagnen verweist.
 
-   +++
+     +++
 
 1. Geben Sie eine **[!UICONTROL Standardantwortnachricht]** ein. Diese Nachricht wird automatisch gesendet, wenn die Antwort eines Benutzers mit keinem konfigurierten Schlüsselwort übereinstimmt.
 
@@ -210,7 +210,7 @@ Erstellen Sie für Infobip zwei separate Webhooks, einen für Feedback-Ereigniss
 
 1. Wählen Sie eine Schlüsselwortkategorie aus der Dropdown **[!UICONTROL Liste „Eingehende]**&quot; aus, um Folgendes zu konfigurieren:
 
-   * &#x200B;
+   * 
      +++ Opt-in
 
       * Aktivieren von Keywords, die Benutzer mit deren Zustimmung anmelden. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer für den Empfang von SMS-Nachrichten angemeldet.
@@ -219,9 +219,9 @@ Erstellen Sie für Infobip zwei separate Webhooks, einen für Feedback-Ereigniss
 
       * Verwenden Sie das Feld **[!UICONTROL Antwortnachricht]**, um eine Nachricht zu erstellen, die automatisch gesendet wird, wenn die eingehende Nachricht eines Benutzers mit einem Opt-in-Schlüsselwort übereinstimmt.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Opt-out
 
       * Aktivieren Sie Schlüsselwörter, die Benutzer abmelden und die Zustimmung zum Senden von Textnachrichten entfernen. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer vom Erhalt von SMS-Nachrichten abgemeldet.
@@ -232,18 +232,18 @@ Erstellen Sie für Infobip zwei separate Webhooks, einen für Feedback-Ereigniss
 
       * Aktivieren Sie **[!UICONTROL Fuzzy Logic]**, um ähnliche Keywords wie konfigurierte Opt-out-Keywords zu erkennen. Wenn die Antwort eines Benutzers nahe, aber nicht genau ist, wird die im Feld **[!UICONTROL Ungenaue automatische Antwort]** eingegebene Nachricht gesendet. In der Regel zeigt diese Meldung an, dass die Abmeldung nicht stattgefunden hat, und gibt das genaue Keyword an, das zum Abmelden erforderlich ist.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Double-Opt-in
 
       * Aktivieren Sie Schlüsselwörter für die Anmeldeanforderung mit zweifacher Bestätigung. Wenn die Nachricht eines/r Benutzenden mit einem konfigurierten Keyword übereinstimmt, werden sie zu diesem Zeitpunkt nicht vollständig angemeldet. Dieser zweistufige Einverständnis-Workflow erfordert, dass Benutzer ihr Opt-in mit einem zweiten Schlüsselwort bestätigen.
 
       * Verwenden Sie das Feld **[!UICONTROL Antwortnachricht]**, um eine Nachricht zu erstellen, die automatisch gesendet wird, wenn ein doppeltes Opt-in-Schlüsselwort zugeordnet wird. Diese Meldung weist den Benutzer an, ein Opt-in-Schlüsselwort einzugeben, um den Opt-in-Prozess abzuschließen.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Hilfe
 
       * Aktivieren von Schlüsselwörtern, die eine Standardantwort liefern, wenn Hilfe angefordert wird. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, erhält er die Hilfe-Antwortnachricht.
@@ -252,16 +252,16 @@ Erstellen Sie für Infobip zwei separate Webhooks, einen für Feedback-Ereigniss
 
       * Verwenden Sie das Feld **[!UICONTROL Antwortnachricht]**, um eine Nachricht zu erstellen, die automatisch gesendet wird, wenn die eingehende Nachricht eines Benutzers mit einem „Hilfe“-Schlüsselwort übereinstimmt.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Benutzerspezifisch
 
       * Konfigurieren Sie ein einzelnes benutzerdefiniertes Keyword. Wenn die Nachricht eines Benutzers mit diesem Keyword übereinstimmt, wird das Keyword in den Datensatz **[!UICONTROL Nachrichten-Feedback-Tracking]** zum Erstellen von Berichten und Zielgruppen geschrieben.
 
       * Erstellen Sie eine Zielgruppe (Streaming oder Batch), die auf dieses Keyword zur Verwendung in Ihren Journey und Kampagnen verweist.
 
-   +++
+     +++
 
 1. Geben Sie eine **[!UICONTROL Standardantwortnachricht]** ein. Diese Nachricht wird automatisch gesendet, wenn die Antwort eines Benutzers mit keinem konfigurierten Schlüsselwort übereinstimmt.
 
@@ -323,7 +323,7 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
 
 1. Wählen Sie eine Schlüsselwortkategorie aus der Dropdown **[!UICONTROL Liste „Eingehende]**&quot; aus, um Folgendes zu konfigurieren:
 
-   * &#x200B;
+   * 
      +++ Opt-in
 
       * Aktivieren von Keywords, die Benutzer mit deren Zustimmung anmelden. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer für den Empfang von SMS-Nachrichten angemeldet.
@@ -332,9 +332,9 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
 
       * Verwenden Sie das Feld **[!UICONTROL Antwortnachricht]**, um eine Nachricht zu erstellen, die automatisch gesendet wird, wenn die eingehende Nachricht eines Benutzers mit einem Opt-in-Schlüsselwort übereinstimmt.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Opt-out
 
       * Aktivieren Sie Schlüsselwörter, die Benutzer abmelden und die Zustimmung zum Senden von Textnachrichten entfernen. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer vom Erhalt von SMS-Nachrichten abgemeldet.
@@ -345,18 +345,18 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
 
       * Aktivieren Sie **[!UICONTROL Fuzzy Logic]**, um ähnliche Keywords wie konfigurierte Opt-out-Keywords zu erkennen. Wenn die Antwort eines Benutzers nahe, aber nicht genau ist, wird die im Feld **[!UICONTROL Ungenaue automatische Antwort]** eingegebene Nachricht gesendet. In der Regel zeigt diese Meldung an, dass die Abmeldung nicht stattgefunden hat, und gibt das genaue Keyword an, das zum Abmelden erforderlich ist.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Double-Opt-in
 
       * Aktivieren Sie Schlüsselwörter für die Anmeldeanforderung mit zweifacher Bestätigung. Wenn die Nachricht eines/r Benutzenden mit einem konfigurierten Keyword übereinstimmt, werden sie zu diesem Zeitpunkt nicht vollständig angemeldet. Dieser zweistufige Einverständnis-Workflow erfordert, dass Benutzer ihr Opt-in mit einem zweiten Schlüsselwort bestätigen.
 
       * Verwenden Sie das Feld **[!UICONTROL Antwortnachricht]**, um eine Nachricht zu erstellen, die automatisch gesendet wird, wenn ein doppeltes Opt-in-Schlüsselwort zugeordnet wird. Diese Meldung weist den Benutzer an, ein Opt-in-Schlüsselwort einzugeben, um den Opt-in-Prozess abzuschließen.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Hilfe
 
       * Aktivieren von Schlüsselwörtern, die eine Standardantwort liefern, wenn Hilfe angefordert wird. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, erhält er die Hilfe-Antwortnachricht.
@@ -365,16 +365,16 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
 
       * Verwenden Sie das Feld **[!UICONTROL Antwortnachricht]**, um eine Nachricht zu erstellen, die automatisch gesendet wird, wenn die eingehende Nachricht eines Benutzers mit einem „Hilfe“-Schlüsselwort übereinstimmt.
 
-   +++
+     +++
 
-   * &#x200B;
+   * 
      +++ Benutzerspezifisch
 
       * Konfigurieren Sie ein einzelnes benutzerdefiniertes Keyword. Wenn die Nachricht eines Benutzers mit diesem Keyword übereinstimmt, wird das Keyword in den Datensatz **[!UICONTROL Nachrichten-Feedback-Tracking]** zum Erstellen von Berichten und Zielgruppen geschrieben.
 
       * Erstellen Sie eine Zielgruppe (Streaming oder Batch), die auf dieses Keyword zur Verwendung in Ihren Journey und Kampagnen verweist.
 
-   +++
+     +++
 
 1. Geben Sie eine **[!UICONTROL Standardantwortnachricht]** ein. Diese Nachricht wird automatisch gesendet, wenn die Antwort eines Benutzers mit keinem konfigurierten Schlüsselwort übereinstimmt.
 
@@ -393,13 +393,13 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
    +++Payload-Beispiel
 
        „json
-       &lbrace;
+       {
        „inboundMessage“: &quot;{{inboundMessage}}&quot;,
        „profileNumber“: &quot;{{profileNumber}}&quot;,
        „requestId“: &quot;{{requestId}}&quot;,
        „originTimestamp“: &quot;{{originTimestamp}}&quot;,
        „inboundNumber“: &quot;{{inboundNumber}}&quot;
-       &rbrace;
+       }
        &quot;
    +++
 
@@ -432,15 +432,15 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
    +++Payload-Beispiel
 
        „json
-       &lbrace;
+       {
        „clientReference“: &quot;{{client_reference}}&quot;,
-       „status“: &lbrack;
-       &lbrace;
+       „status“: [
+       {
        „code“: &quot;{{failureCode}}&quot;,
        „status“: &quot;{{feedbackStatus}}&quot;
-       &rbrace;
-       &rbrack;
-       &rbrace;
+       }
+       ]
+       }
        &quot;
    
    +++
