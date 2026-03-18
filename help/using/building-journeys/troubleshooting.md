@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 90%
+source-wordcount: '521'
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 In diesem Abschnitt erfahren Sie, wie Sie Probleme bei Journeys vor dem Testen oder Veröffentlichen beheben können.  Alle unten aufgeführten Prüfungen können durchgeführt werden, wenn sich die Journey im Testmodus befindet oder live ist. Wir empfehlen, alle unten aufgeführten Prüfungen im Testmodus vorzunehmen und dann mit der Veröffentlichung fortzufahren. Weitere Informationen zum Testmodus finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
-Erfahren Sie, wie Sie Probleme beim Journey von Ereignissen beheben, überprüfen können, ob Profile auf Ihre Journey gelangt sind, wie sie darin navigieren und ob Nachrichten gesendet werden [auf dieser Seite](troubleshooting-execution.md). Wenn trotz aufgenommener Ereignisse keine Profile in Ihre ereignisbasierte Journey eintreten, stellen Sie sicher, [&#x200B; die Datentypen für Ereignisbedingungen mit dem Ereignisschema &#x200B;](troubleshooting-execution.md#verify-event-identity-and-rule-data-types).
+Erfahren Sie, wie Sie Probleme beim Journey von Ereignissen beheben, überprüfen können, ob Profile auf Ihre Journey gelangt sind, wie sie darin navigieren und ob Nachrichten gesendet werden [auf dieser Seite](troubleshooting-execution.md). Wenn trotz aufgenommener Ereignisse keine Profile in Ihre ereignisbasierte Journey eintreten, stellen Sie sicher, [ die Datentypen für Ereignisbedingungen mit dem Ereignisschema ](troubleshooting-execution.md#verify-event-identity-and-rule-data-types).
 
 [Auf dieser Seite](troubleshooting-inbound.md) erfahren Sie, wie Sie Fehler bei eingehenden Aktionen beheben.
 
@@ -49,7 +49,7 @@ Das System erkennt zwei Arten von Problemen: **Fehler** und **Warnungen**. Fehle
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 
-Fehler und Warnungen, die die gesamte Journey betreffen, werden in der Liste zuerst aufgeführt. Fehler und Warnungen, die einzelne Aktivitäten betreffen, werden danach aufgeführt (anhand der Aktivitätsreihenfolge oder des Auftretens in der Journey von links nach rechts). Unten in der Liste der Warnungen können Sie über die Schaltfläche **[!UICONTROL Details kopieren]** technische Informationen über die Journey kopieren, die zur Fehlerbehebung nützlich sind.
+Fehler und Warnungen, die die gesamte Journey betreffen, werden in der Liste zuerst aufgeführt. Fehler und Warnungen, die einzelne Aktivitäten betreffen, werden danach aufgeführt (anhand der Aktivitätsreihenfolge oder des Auftretens in der Journey von links nach rechts). Unten in der Liste der Warnhinweise können Sie mit der Schaltfläche **[!UICONTROL Details kopieren]** technische Informationen zur Journey kopieren, die bei der Fehlerbehebung helfen. Eine Liste der kopierten Felder (einschließlich Informationen zum Anhalten und Fortsetzen) finden Sie unter [Technische Details kopieren](journey-properties.md#access-properties) unter Journey-Eigenschaften.
 
 ## Hinzufügen eines alternativen Pfads {#canvas-add-path}
 

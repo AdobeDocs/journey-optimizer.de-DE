@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 4d62f9eedcf50f3ebaa2236b0a3286e7490c069c
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 84%
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um **ein Schema zu erstellen**:
    ![Menü „Schemata“ mit der Schaltfläche „Schema erstellen“](assets/test-profiles-0.png)
 
 1. Wählen Sie **[!UICONTROL Standard]** als Option zur Schemaerstellung aus.
-1. Wählen Sie einen Schematyp aus, z. B. **[!UICONTROL Individuelles Profil]**, und klicken Sie auf **Weiter**.
+1. Wählen Sie einen Schematyp aus, z. B. **Individuelles Profil**, und klicken Sie auf **Weiter**.
    ![Auswahl eines Schematyps mit der Option „Individuelles Profil“](assets/test-profiles-1.png)
 1. Geben Sie einen Namen für Ihr Schema ein und klicken Sie auf **Beenden**.
    ![Dialogfeld zum Benennen und Speichern eines Schemas](assets/test-profiles-1-bis.png)

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8e6d69fb1d6eb7d29261dd0fafdb779e57be26c7
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 92%
@@ -40,11 +40,11 @@ Folgende Bedingungstypen sind verfügbar:
 * [Bedingung für das Datum](#date_condition)
 * [Profilbegrenzung](#profile_cap)
 
-Zielgruppen können auch direkt in Journey-Bedingungen verwendet werden. Siehe:
+Sie können eine Bedingung auch auf der Zielgruppenzugehörigkeit basieren. Siehe diese Abschnitte:
 
-* [Verwenden einer Zielgruppe in einer Bedingung](#using-a-segment) - Filtern Sie, welche Profile einen bestimmten Pfad basierend auf der Zielgruppenzugehörigkeit annehmen
-* [Erstellen und Verwalten von Zielgruppen](../audience/about-audiences.md) - Erfahren Sie, wie Sie Zielgruppen in [!DNL Adobe Experience Platform] erstellen, auswerten und ansprechen.
-* [Zielgruppen-Targeting-Muster in Journey](read-audience.md#audience-targeting-in-journeys) — Segmentieren, Ausschließen oder Zusammenführen von Zielgruppenverzweigungen nach dem Eintrag „Zielgruppe lesen“
+* [Verwenden einer Zielgruppe in einer Bedingung](#using-a-segment) - Fügen Sie Pfade hinzu, je nachdem, ob Profile zu einer Zielgruppe gehören.
+* [Zielgruppen erstellen und ansprechen](../audience/about-audiences.md) - Erstellen und Verwalten von Zielgruppen im Zielgruppenmenü.
+* [Zielgruppen-Targeting in Journey](read-audience.md#audience-targeting-in-journeys) - Nach der Aktivität „Zielgruppe lesen“ können Sie mithilfe von Bedingungen Zweige segmentieren, ausschließen oder zusammenführen.
 
 >[!NOTE]
 >

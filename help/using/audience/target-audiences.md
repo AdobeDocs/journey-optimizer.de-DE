@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 97%
+source-wordcount: '797'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
 * Wählen Sie eine Zielgruppe für eine **Kampagne** aus, sodass die Nachricht an alle Personen gesendet wird, die zur ausgewählten Zielgruppe gehören. [Erfahren Sie, wie Sie die Zielgruppe einer Kampagne definieren](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Verwenden Sie die Orchestrierungsaktivität **Zielgruppe lesen** in einer Journey, damit alle Personen der Zielgruppe in die Journey eintreten und die in Ihrer Journey enthaltenen Nachrichten empfangen. Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundschaft“. Mit dieser Aktivität können Sie alle Silber-Kundinnen und -Kunden in eine Journey eintreten lassen. Sie können ihnen dann eine Reihe personalisierter Nachrichten senden. [Erfahren Sie, wie Sie eine Aktivität vom Typ „Zielgruppe lesen“ konfigurieren](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Verwenden Sie die Orchestrierungsaktivität **Zielgruppe lesen** in einer Journey, damit alle Personen der Zielgruppe in die Journey eintreten und die in Ihrer Journey enthaltenen Nachrichten empfangen. Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundschaft“. Mit dieser Aktivität können Sie alle Silber-Kundinnen und -Kunden in eine Journey eintreten lassen. Sie können ihnen dann eine Reihe personalisierter Nachrichten senden. [Erfahren Sie, wie Sie die Aktivität „Zielgruppe lesen“ konfigurieren](../building-journeys/read-audience.md#configuring-segment-trigger-activity). Informationen zum Segmentieren, Ausschließen oder Zusammenführen von Verzweigungen nach dem Eintritt finden Sie unter [Zielgruppen-Targeting in Journey](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   Verwenden Sie nach der Eingabe **Bedingung**-Aktivitäten, um [nach Attributen oder Verhalten zu segmentieren, einen Teil der Population auszuschließen oder Verzweigungen zusammenzuführen](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 

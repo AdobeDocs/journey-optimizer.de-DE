@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2885'
-ht-degree: 94%
+source-wordcount: '3069'
+ht-degree: 88%
 
 ---
 
@@ -47,7 +47,33 @@ Sie haben folgende Möglichkeiten:
 >
 >Für Live-Journeys werden in diesem Bildschirm nur das Veröffentlichungsdatum und der Name der Person angezeigt, die die Journey veröffentlicht hat.
 
-Mithilfe der Option **Technische Details kopieren** können Sie jederzeit technische Informationen zur Journey kopieren, die dem Support-Team bei der Problembehebung helfen. Die folgenden Informationen werden kopiert: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+Mithilfe der Option **Technische Details kopieren** können Sie jederzeit technische Informationen zur Journey kopieren, die dem Support-Team bei der Problembehebung helfen. Die folgenden Informationen werden kopiert:
+
+**Allgemein**
+
+* `JourneyVersion UID` - Eindeutige Kennung dieser Journey-Version
+* `OrgID` - Kennung Ihres Unternehmens (IMS)
+* `orgName` - Name Ihres Unternehmens
+* `sandboxName` : Name der Sandbox, in der die Journey ausgeführt wird
+* `lastDeployedBy` - Benutzer, der die Journey zuletzt veröffentlicht hat
+* `lastDeployedAt` - Datum und Uhrzeit der letzten Veröffentlichung
+
+
+**Anhalten und Fortsetzen** (enthalten, wenn die Journey mindestens einmal angehalten wurde)
+
+* `lastPausedAt` - Datum und Uhrzeit der letzten Pause der Journey
+* `lastPausedBy` - Anzeigename des Benutzers, der die letzte Pause durchgeführt hat
+* `lastPausedById` - Interne Kennung des Benutzers, der die letzte Pause ausgeführt hat.
+* `lastResumedAt` - Datum und Uhrzeit der letzten Wiederaufnahme der Journey
+* `lastResumedBy` - Anzeigename des Benutzers, der den letzten Lebenslauf ausgeführt hat
+* `lastResumedById` - Interne Kennung des Benutzers, der den letzten Lebenslauf ausgeführt hat.
+
+**Einstellungen für Journey angehalten** (in `pausedJourneySettings`, wenn die Journey angehalten wurde oder wurde)
+
+* `pauseBehavior` - Was passiert mit Profilen auf der Journey, wenn sie pausiert werden (beispielsweise verwerfen oder an Ort und Stelle behalten)?
+* `maxPauseDurationInMinutes` - Maximale Pausendauer in Minuten, nach der die Journey automatisch fortgesetzt wird (z. B. 20160 = 14 Tage)
+* `transitionStateForAutoResume` - Status, der angewendet wird, wenn die Journey am Ende der Pausenzeit automatisch fortgesetzt wird (z. B. Beenden oder Fortsetzen)
+* `pauseId` - Eindeutige Kennung für die aktuelle Pauseninstanz
 
 Weitere Informationen zu technischen Feldern, die mit einer Journey für ein bestimmtes Profil in Verbindung stehen, und dazu, wie Sie sie verwenden können, finden Sie [auf dieser Seite](expression/journey-properties.md).
 
@@ -134,7 +160,7 @@ Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey **91 
 
 >[!NOTE]
 >
->Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte &#x200B;](end-journey.md#journey-finished-definition).
+>Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte ](end-journey.md#journey-finished-definition).
 
 Aufgrund des Journey-Timeouts von 91 Tagen können wir, wenn der erneute Eintritt in die Journey nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 91 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 

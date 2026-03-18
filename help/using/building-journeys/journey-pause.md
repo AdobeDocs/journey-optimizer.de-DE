@@ -9,10 +9,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 97%
+source-wordcount: '2626'
+ht-degree: 93%
 
 ---
 
@@ -116,6 +116,15 @@ Mit den folgenden Schritten wird eine pausierte Journey fortgesetzt und Journey-
 
 Aus der Liste der Journeys können eine oder mehrere **pausierte** Journeys fortgesetzt werden. Um eine Gruppe von Journeys fortzusetzen (_Massenfortsetzung_), wählen Sie diese aus und klicken Sie auf die Schaltfläche **Fortsetzen** in der blauen Leiste am unteren Bildschirmrand. Beachten Sie, dass die Schaltfläche **Fortsetzen** nur verfügbar ist, wenn **pausierte** Journeys ausgewählt sind.
 
+## Anzeigen, wann eine Journey angehalten oder fortgesetzt wurde {#view-pause-resume-info}
+
+Um zu sehen, wann eine Journey zuletzt angehalten oder fortgesetzt wurde und von wem, öffnen Sie die Journey und gehen Sie zu **Eigenschaften** (klicken Sie auf das Stiftsymbol neben dem Journey-Namen). Verwenden Sie die Schaltfläche **Technische Details kopieren**, um technische Informationen zu kopieren, die Folgendes beinhalten:
+
+* Datum und Uhrzeit der letzten Pause und Wiederaufnahme
+* Anzeigename und -kennung des Benutzers, der die letzte Pause und den letzten Lebenslauf durchgeführt hat
+* Einstellungen für angehaltenes Journey (Pausenverhalten, maximale Pausendauer, Status der automatischen Wiederaufnahme, Pause-ID)
+
+Diese Informationen sind für die Fehlerbehebung, das Auditing oder die Freigabe für den Support nützlich. Eine vollständige Liste der kopierten Felder finden Sie unter [Zugriff auf die Eigenschaften einer Journey](journey-properties.md#access-properties).
 
 ## Anwenden von Ausstiegskriterien in einer pausierten Journey {#journey-exit-criteria}
 
