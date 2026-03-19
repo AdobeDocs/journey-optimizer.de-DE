@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fce84d7b9ee636cec68c8fcbde8eeb88d19cacab
+source-git-commit: f2c8bcfb39ba3c2bd325bc07f000e525cd2cf530
 workflow-type: tm+mt
-source-wordcount: '3183'
-ht-degree: 26%
+source-wordcount: '3136'
+ht-degree: 27%
 
 ---
 
@@ -80,7 +80,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <td>
 <p>Mit <strong>Adobe Experience Platform Agent Orchestrator </strong> ist <strong>Journey Agent</strong> in Journey Optimizer verfügbar und ermöglicht es Ihnen, Journey über eine natürliche Sprachschnittstelle zu analysieren. Sie können jetzt auch kanalspezifische Inhalte direkt in Journey Agent generieren und verwalten, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in <strong>Content Designer</strong> zur kontextbezogenen Bearbeitung öffnen.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=de">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Donnerstag, 4. März 2026</p>
 </td>
 </tr>
@@ -381,8 +381,6 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### E-Mail-Designer
 
-* **Open-Time-Personalisierung mit Dynamic Media (Beta)** - Sie können jetzt E-Mail-Inhalte zur offenen Zeit mit Adobe Dynamic Media-Assets personalisieren, sodass empfängerspezifische Bilder und Visualisierungen in Echtzeit generiert werden, die dynamisch auf den Attributen der einzelnen Empfänger zum Zeitpunkt der E-Mail-Öffnung basieren. Diese Funktion befindet sich derzeit in Beta.
-
 * **E-Mail-Designer in Unified Shell angezeigt** - Die E-Mail-Designer wird jetzt in Unified Shell angezeigt und bietet ein konsistentes Navigations- und Kopfzeilenerlebnis, das mit anderen Adobe-Programmen übereinstimmt.
 
 * **Unterstützung des Textmodus in Fragmenten** - Um textbasierte E-Mail-Workflows zu unterstützen, können Sie jetzt Textversionen Ihrer visuellen Fragmente erstellen und verwalten, um sie optimal in der Nur-Text-Version von E-Mails zu verwenden, die dieses Fragment enthalten.
@@ -419,7 +417,7 @@ Die Abschnitte [Neue Funktionen](#feb-26-01-features) und [Verbesserungen](#feb-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
