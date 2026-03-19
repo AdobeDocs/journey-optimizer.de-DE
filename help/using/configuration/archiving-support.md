@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Archiv, Nachrichten, HIPAA, BCC, E-Mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: baf210042685316742dac85658d281fe2711d716
+source-git-commit: 255b8c701f1dbe273a8910e8ba81f1ac720cb2e9
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 88%
@@ -90,7 +90,7 @@ Gehen Sie dazu wie folgt vor.
 
 1. Wechseln Sie zu **[!UICONTROL Daten-Management]** > **[!UICONTROL Schemata]** > **[!UICONTROL Durchsuchen]** und wählen Sie **[!UICONTROL AJO Sekundär Recipient Feedback Event Schema]**.
 
-   ![](assets/preset-bcc-schema.png)
+   <!--<![](assets/preset-bcc-schema.png)-->
 
 1. Klicken Sie auf **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagement]** und dann auf **[!UICONTROL secondaryRecipientDetail]**, um die Struktur zu erweitern.
 
@@ -102,7 +102,7 @@ Gehen Sie dazu wie folgt vor.
 
 1. Wählen Sie einen Namespace aus der Dropdown-Liste aus.
 
-   ![](assets/preset-bcc-schema-identity.png)
+   <!--<![](assets/preset-bcc-schema-identity.png)-->
 
 1. Klicken Sie auf **[!UICONTROL Übernehmen]**.
 
