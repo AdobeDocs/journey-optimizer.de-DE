@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 92%
+source-wordcount: '1230'
+ht-degree: 52%
 
 ---
 
@@ -37,36 +37,43 @@ Die wichtigsten Schritte zum Erstellen einer Journey werden auf dieser Seite bes
 
 ![Schritte der Journey-Erstellung: Erstellen, Entwerfen, Testen und Veröffentlichen](assets/journey-creation-process.png)
 
+In diesem Handbuch werden Sie:
+
+* Definieren eines Journey-Einstiegspunkts - ein Zielgruppensegment oder ein Echtzeit-Ereignis
+* Hinzufügen von Nachrichtenaktionen über verschiedene Kanäle hinweg (E-Mail, Push oder SMS)
+* Testen des Journey mit Testprofilen vor der Aktivierung
+* Veröffentlichen des Journey und Überwachen seiner Leistung
 
 Erstellen Sie mehrstufige Customer Journeys, um eine Abfolge von kanalübergreifenden Interaktionen, Angeboten und Nachrichten in Echtzeit zu initiieren. Dieser Ansatz stellt sicher, dass mit Kundinnen und Kunden zu optimalen Zeitpunkten basierend auf ihren Aktionen und relevanten Geschäftssignalen interagiert wird. Zielgruppen werden basierend auf Verhalten, kontextuellen Daten und Geschäftsereignissen definiert. Die Voraussetzungen hängen von Ihrem Anwendungsfall und dem [Typ der Journey](entry-management.md#types-of-journeys) ab, die Sie erstellen.
 
 Weitere Informationen dazu, wie Profile Journeys durchlaufen, und zu Journey-Verarbeitungsraten finden Sie [in diesem Abschnitt](entry-management.md#journey-processing-rate).
 
-Stellen Sie sicher, dass die entsprechenden Konfigurationsschritte ausgeführt wurden, bevor Sie mit dem Erstellen der Journey beginnen:
+<!-->[!TIP]
+>>
+Sie sind sich nicht sicher, ob Sie eine Journey oder eine Kampagne verwenden sollen? [Erfahren Sie, wie Sie den richtigen Ansatz wählen](../start/journeys-vs-campaigns.md).
+>—>
 
-* Wenn Sie Ihre Journeys beim Empfang eines Ereignisses individuell auslösen möchten, **konfigurieren Sie ein Ereignis**. Definieren Sie die erwarteten Informationen sowie deren Verarbeitungsmethode. [Weitere Informationen](../event/about-events.md).
+## Bevor Sie beginnen {#prerequisites}
 
-<!--   ![](assets/jo-event7bis.png)  -->
+Was Sie vor dem Erstellen konfigurieren müssen, hängt davon ab, wie Ihr Journey ausgelöst wird. Die meisten Journey beginnen an einem dieser beiden Einstiegspunkte:
 
-* Ihre Journey kann auch Adobe Experience Platform-Zielgruppen überwachen, um Nachrichten in Batches an einen bestimmten Satz von Profilen zu senden. Erstellen Sie dazu **Zielgruppen**. [Weitere Informationen](../audience/about-audiences.md).
+* **Zielgruppenbasierter Eintrag** - Die Journey wird für eine definierte Gruppe von Profilen zum geplanten Zeitpunkt ausgeführt. [Erstellen einer Zielgruppe](../audience/about-audiences.md) in Adobe Experience Platform vor dem Erstellen des Journey. Dies ist der empfohlene Ausgangspunkt, wenn Sie neu bei Journey Optimizer sind.
 
-<!--   ![](assets/segment2.png)  -->
+* **Ereignisbasierter Eintrag** - Der Journey wird in Echtzeit ausgelöst, wenn ein Kontakt eine Aktion ausführt, z. B. einen Kauf oder eine Anmeldung. [Ereignis konfigurieren](../event/about-events.md) um den Trigger und die darin enthaltenen Daten zu definieren.
 
-* Definieren Sie eine Verbindung zu einem System, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden (z. B. in Ihren Bedingungen). Diese Verbindung beruht auf einer **Datenquelle**. [Weitere Informationen](../datasource/about-data-sources.md).
+Die folgenden Elemente sind optional, können jedoch je nach Anwendungsfall erforderlich sein:
 
-<!--   ![](assets/jo-datasource.png)  -->
+* **Datenquelle** - Richten Sie eine (Datenquelle[ ein, um Journey-Bedingungen oder Personalisierungen mit Daten aus einem externen System ](../datasource/about-data-sources.md).
 
-* Journey Optimizer verfügt über [integrierte Nachrichtenfunktionen](../building-journeys/journey-action.md). Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie **eine benutzerdefinierte Aktion erstellen**. Weiterführende Informationen finden Sie in diesem [Abschnitt](../action/action.md).
-
-<!--    ![](assets/custom2.png)  -->
-
-
-Für Data Engineers werden die Schritte zur Konfiguration der Journeys, einschließlich Datenquellen, Ereignissen und Aktionen, in [diesem Abschnitt](../configuration/about-data-sources-events-actions.md) beschrieben.
-
+* **Benutzerdefinierte Aktion** - Wenn Sie Nachrichten über ein Drittanbietersystem und nicht über die integrierten Kanäle senden, konfigurieren Sie eine [benutzerdefinierte Aktion](../action/action.md).
 
 >[!NOTE]
 >
->Leitlinien und Einschränkungen für Journeys werden auf [dieser Seite](../start/guardrails.md) beschrieben.
+>Wenn Sie als Datentechniker für die technische Einrichtung (Ereignisse, Datenquellen und Aktionen) verantwortlich sind, lesen Sie [diesen Abschnitt](../configuration/about-data-sources-events-actions.md).
+
+>[!NOTE]
+>
+>Journey-Leitplanken und -Einschränkungen werden auf [ Seite ](../start/guardrails.md).
 
 ## Erstellen einer Journey {#jo-build}
 
@@ -78,25 +85,33 @@ Gehen Sie wie folgt vor, um eine mehrstufige Journey zu erstellen:
 
 1. Bearbeiten Sie den Konfigurationsbereich der Journey, um den Namen der Journey zu definieren und ihre Eigenschaften festzulegen. Informationen zum Festlegen der Eigenschaften Ihrer Journey finden Sie auf [dieser Seite](journey-properties.md).
 
+   >[!TIP]
+   >
+   >**Welchen Journey-Typ sollte ich wählen?** Wenn Sie mit Journey Optimizer noch nicht vertraut sind, beginnen Sie mit einer zielgruppenbasierten Journey mit einer **[!UICONTROL Zielgruppe lesen]**-Aktivität. Dafür ist keine vorherige Ereigniskonfiguration erforderlich und der einfachste Weg, sich mit der Arbeitsfläche vertraut zu machen. Für ereignisgesteuerte Erlebnisse in Echtzeit (z. B. Reaktion auf einen Kauf oder eine Formularübermittlung) konfigurieren Sie zuerst ein Ereignis und verwenden Sie einen ereignisbasierten Eintrag. Erfahren Sie mehr über [Journey-Typen](entry-management.md#types-of-journeys).
+
    ![Panel „Journey-Eigenschaften“ mit Einstellungen und Konfigurationsoptionen](assets/jo-properties.png)
 
 Anschließend können Sie mit der Gestaltung Ihrer Journey beginnen.
 
 ## Entwerfen der Journey {#jo-design}
 
-Der Omnichannel-Journey-Designer hilft Ihnen bei der Erstellung mehrstufiger Journeys – mit entsprechenden Zielgruppen, Aktualisierungen basierend auf Echtzeit-Kunden- bzw. Geschäftsinteraktionen sowie Omnichannel-Nachrichten mithilfe einer intuitiven Drag-and-Drop-Oberfläche.
-
->[!TIP]
->
->Für Journey mit mehreren Phasen oder vielen Touchpoints sollten Sie den End-to-End-Fluss in kleinere, fokussierte Unter-Journey unterteilen, die mit der Aktivität **[!UICONTROL Springen]** verbunden sind. Dieser Ansatz reduziert die Komplexität und erleichtert das unabhängige Testen und Verwalten jeder Sub-Journey. Weitere Informationen finden [&#x200B; unter „Design-Strategie: Beißgroße Unter-Journey &#x200B;](jump.md#jump-strategy).
+Mit dem Journey-Designer können Sie mehrstufige Journey mit einer intuitiven Drag-and-Drop-Oberfläche erstellen. Aktivitäten in der linken Palette sind in drei Kategorien unterteilt: **Ereignisse**, **** und **Aktionen**. Eine vollständige Übersicht der Arbeitsfläche und ihrer Steuerelemente finden Sie auf [dieser Seite](using-the-journey-designer.md).
 
 ![Journey-Designer-Benutzeroberfläche mit Aktivitätspalette und Arbeitsfläche](assets/journey38.png)
 
-1. Ziehen Sie zuerst ein Ereignis oder die Aktivität **Zielgruppe lesen** per Drag-and-Drop aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
+Führen Sie die folgenden Schritte aus, um Ihren Journey zu entwerfen:
+
+1. **Einstiegspunkt hinzufügen** - Ziehen Sie ein Ereignis oder eine Aktivität **[!UICONTROL Zielgruppe lesen]** aus der Palette auf die Arbeitsfläche. Dadurch wird definiert, wie Profile auf die Journey zugreifen: einzeln in Echtzeit (ereignisbasiert) oder gleichzeitig über eine definierte Zielgruppe (zielgruppenbasiert).
 
    ![Konfiguration der Aktivität „Zielgruppe lesen“ zur Auswahl der gewünschten Zielgruppe](assets/read-segment.png)
 
-1. Ziehen Sie ein Ereignis oder eine Aktivität des Typs **Zielgruppe lesen** per Drag-and-Drop aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
+1. **Nachrichtenaktionen hinzufügen** - Ziehen Sie aus dem Abschnitt **[!UICONTROL Aktionen]** der Palette eine Kanalaktion auf die Arbeitsfläche, um Nachrichten an Profile zu senden, die den Journey durchlaufen. Aktionen sind für E-Mail, Push-Benachrichtigungen, SMS und mehr verfügbar.
+
+1. **Orchestrierungsaktivitäten hinzufügen** - Verwenden Sie eine Aktivität vom Typ **[!UICONTROL Bedingung]**, um den Journey basierend auf Profilattributen oder Verhalten in mehrere Pfade zu verzweigen. Verwenden **[!UICONTROL Aktivität &quot;]**&quot;, um eine Zeitverzögerung zwischen den Schritten einzuführen.
+
+>[!TIP]
+>
+>Für Journey mit mehreren Phasen oder vielen Touchpoints sollten Sie den End-to-End-Fluss in kleinere Sub-Journey unterteilen, die mit der Aktivität **[!UICONTROL Springen]** verbunden sind. Dies reduziert die Komplexität und erleichtert das unabhängige Testen jedes Sub-Journey. Weitere Informationen finden [ unter „Design-Strategie: Beißgroße Unter-Journey ](jump.md#jump-strategy).
 
 ## Testen der Journey {#jo-test}
 
@@ -116,6 +131,38 @@ Nach der Veröffentlichung können Sie Ihre Journey mit den dedizierten Reportin
 
 Weitere Informationen zu Journey-Berichten finden Sie in diesem [Abschnitt](../reports/live-report.md).
 
+## Häufige Anwendungsfälle {#use-cases}
+
+Nicht sicher, wo man anfangen soll? Im Folgenden finden Sie drei typische Szenarien, in denen Journey den größten Nutzen bieten:
+
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+    <td>
+      <a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">
+        <img src="../assets/do-not-localize/icon-quick-start.svg">
+      </a>
+      <div><strong>Begrüßungsreihe</strong><br/>Automatisches Onboarding neuer Benutzer mit einer Abfolge von Nachrichten nach der Anmeldung, um sie durch Ihr Produkt oder Ihren Service zu führen.</div>
+    </td>
+    <td>
+      <a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">
+        <img src="../assets/do-not-localize/icon-campaign.svg">
+      </a>
+      <div><strong>Warenkorbabbruch</strong><br/> Erneut mit Kunden interagieren, die den Warenkorb verlassen haben, ohne einen Kauf abzuschließen, indem sie rechtzeitig eine Erinnerung mit personalisierten Inhalten senden.</div>
+    </td>
+    <td>
+      <a href="jo-use-cases.md">
+        <img src="../assets/do-not-localize/icon-content.svg">
+      </a>
+      <div><strong>Re-Engagement</strong><br/>Gewinnen Sie inaktive Benutzende mit zielgerichteten Angeboten oder Aktualisierungen basierend auf ihrem letzten bekannten Verhalten zurück.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="jo-use-cases.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+  </tr>
+</table>
+
 ## Weitere Ressourcen
 
 * **[Journey-Designer – Überblick](using-the-journey-designer.md)**: Lernen Sie die Journey-Arbeitsfläche zum Entwerfen und Orchestrieren von Customer Journeys kennen.
@@ -126,6 +173,3 @@ Weitere Informationen zu Journey-Berichten finden Sie in diesem [Abschnitt](../r
 * **[Fehlerbehebung bei Journeys](troubleshooting.md)**: Hier finden Sie Lösungen für häufige Journey-Probleme und Best Practices für das Debugging.
 * **[Journey-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}**: Sehen Sie sich detaillierte Anleitungsvideos zum Erstellen von Journeys und Best Practices an.
 
->[!NOTE]
->
->Wenn Sie eine **Live**-Journey ändern müssen, [erstellen Sie eine neue Version](journey-ui.md#journey-filter) der Journey.

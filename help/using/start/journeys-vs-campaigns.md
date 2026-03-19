@@ -11,16 +11,16 @@ keywords: Journey, Kampagne, orchestriert, Vergleich, Auswählen, Entscheidung, 
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: fc2dc5924f4998d1285dee9c19a0d7e71a1e5722
+source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 66%
+source-wordcount: '1613'
+ht-degree: 65%
 
 ---
 
 # Journeys oder Kampagnen: Auswählen des richtigen Ansatzes {#journeys-vs-campaigns}
 
-[!DNL Adobe Journey Optimizer] bietet vier Möglichkeiten, Ihre Kundinnen und Kunden zu erreichen und anzusprechen: **Journey**, **Aktionskampagnen**, **API-ausgelöste Kampagnen** und **orchestrierte Kampagnen**. Die Auswahl des richtigen Elements hängt davon ab, ob Sie 1:1 Orchestrierung in Echtzeit, geplante Sendungen, ereignisgesteuerte Nachrichten oder komplexe Batch-Workflows benötigen.
+[!DNL Adobe Journey Optimizer] bietet zwei Möglichkeiten, Ihre Kunden zu erreichen und zu kontaktieren: **Journey** und **Kampagnen**. Journey sind für eine mehrstufige Orchestrierung in Echtzeit konzipiert, die vom Kundenverhalten gesteuert wird, während Kampagnen sich besser für einmalige oder geplante Sendungen an eine definierte Zielgruppe eignen. Sobald Sie sich für eine Kampagne entschieden haben, können Sie den Kampagnentyp auswählen, der Ihrem Anwendungsfall am besten entspricht.
 
 Dieses Handbuch hilft Ihnen bei der Auswahl anhand von Ausführungsstil, Datenanforderungen und Anwendungsfall - mit einem schnellen Vergleich, Entscheidungsbaum und konkreten Beispielen.
 
