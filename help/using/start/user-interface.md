@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 85c170fce64e3cdfa790234002758c8d5e43bafd
+source-git-commit: 0088b81d0d8a45626611dfdcf063766e2bcf50c4
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1501'
 ht-degree: 72%
 
 ---
@@ -353,3 +353,18 @@ Der KI-Assistent bietet sofortige Hilfe und betriebliche Erkenntnisse. Klicken S
 >id="ajo_orchestration_incrementalquery_history"
 >title="Verlauf in Tagen"
 >abstract="Mit dieser Einstellung wird festgelegt, wie lange diese Liste beibehalten wird. Der Wert 0 bedeutet eine unbegrenzte Beibehaltung; es werden keine Datensätze entfernt."
+
+>[!CONTEXTUALHELP]
+>id="ajo_inbox_location"
+>title="Speicherort auf der Seite"
+>abstract="."
+
+>[!CONTEXTUALHELP]
+>id="ajo_inbox_app_id"
+>title="App-ID"
+>abstract="."
+
+>[!CONTEXTUALHELP]
+>id="ajo_inbox_location"
+>title="Speicherort oder Pfad in der App"
+>abstract="."
