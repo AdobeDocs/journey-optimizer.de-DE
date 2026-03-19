@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Archiv, Nachrichten, HIPAA, BCC, E-Mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 255b8c701f1dbe273a8910e8ba81f1ac720cb2e9
+source-git-commit: 63b5f1504679deb8e7a912341b7a2b470033de13
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 88%
@@ -90,7 +90,7 @@ Gehen Sie dazu wie folgt vor.
 
 1. Wechseln Sie zu **[!UICONTROL Daten-Management]** > **[!UICONTROL Schemata]** > **[!UICONTROL Durchsuchen]** und wählen Sie **[!UICONTROL AJO Sekundär Recipient Feedback Event Schema]**.
 
-   <!--<![](assets/preset-bcc-schema.png)-->
+   ![](assets/preset-bcc-schema.png){width="95%"}
 
 1. Klicken Sie auf **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagement]** und dann auf **[!UICONTROL secondaryRecipientDetail]**, um die Struktur zu erweitern.
 
@@ -102,7 +102,7 @@ Gehen Sie dazu wie folgt vor.
 
 1. Wählen Sie einen Namespace aus der Dropdown-Liste aus.
 
-   <!--<![](assets/preset-bcc-schema-identity.png)-->
+   ![](assets/preset-bcc-schema-identity.png){width="85%"}
 
 1. Klicken Sie auf **[!UICONTROL Übernehmen]**.
 
@@ -116,11 +116,11 @@ Das Reporting über BCC als solches ist in den Journey- und Nachrichtenberichten
 
 Um über die Benutzeroberfläche auf diesen Datensatz zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus. Weitere Informationen zum Zugriff auf Datensätze finden Sie in [diesem Abschnitt](../data/get-started-datasets.md#access-datasets).
 
-<!--![](assets/preset-bcc-dataset.png)-->
+![](assets/preset-bcc-dataset.png){width="85%"}
 
 Um Abfragen für diesen Datensatz auszuführen, können Sie den Abfrage-Editor verwenden, der vom [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} bereitgestellt wird. Um darauf zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Abfragen]** und klicken Sie auf **[!UICONTROL Abfrage erstellen]**. [Weitere Informationen](../data/get-started-queries.md)
 
-![](assets/preset-bcc-queries.png)
+![](assets/preset-bcc-queries.png){width="100%"}
 
 Je nach gesuchten Informationen können Sie die folgenden Abfragen ausführen.
 
@@ -145,7 +145,7 @@ Je nach gesuchten Informationen können Sie die folgenden Abfragen ausführen.
    >
    >Um den `<journey version id>`-Parameter abzurufen, wählen Sie die entsprechende Journey-Version aus dem Menü **[!UICONTROL Journey-Management]** > **[!UICONTROL Journeys]** aus. Die Journey-Versions-ID wird am Ende der URL angezeigt, die in Ihrem Webbrowser zu sehen ist. [Weitere Informationen über Journey-Versionen](../building-journeys/publish-journey.md#journey-versions)
    >
-   >![](assets/preset-bcc-action-id.png)
+   >![](assets/preset-bcc-action-id.png){width="85%"}
 
 1. Führen Sie diese Abfrage aus, um alle Nachrichten-Feedback-Ereignisse (insbesondere den Feedback-Status) abzurufen, die in den letzten 2 Tagen für eine bestimmte Nachricht generiert wurden, die an eine bestimmte Benutzerin bzw. einen bestimmten Benutzer gesendet wurde:
 
