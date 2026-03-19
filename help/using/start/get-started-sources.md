@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 93%
 
 ---
 
@@ -94,6 +94,10 @@ Adobe Journey Optimizer verwendet das Quellen-Framework von Adobe Experience Pla
 5. **Überwachen** – Verfolgen Sie den Datenfluss und beheben Sie etwaige Synchronisierungsprobleme
 
 Nach der Konfiguration werden Quellen automatisch im Hintergrund ausgeführt, damit Ihre Kundendaten aktuell bleiben und für die Verwendung in Journeys bereitstehen.
+
+>[!NOTE]
+>
+>**Datenaufnahme für orchestrierte Kampagnen** - Für dateibasierte Änderungsdatenaufzeichnungsquellen, die mit orchestrierten Kampagnen verwendet werden, ist das Feld &quot;`_change_request_type`&quot; erforderlich. Unterstützte Werte sind `u` (upsert) oder `d` (delete). Diese Werte müssen `u` und `d` in Kleinbuchstaben geschrieben werden, nicht `U` und `D`. [Erfahren Sie mehr über Leitplanken und Einschränkungen für orchestrierte Kampagnen](../orchestrated/guardrails.md)
 
 ## Weitere Informationen {#learn-more}
 

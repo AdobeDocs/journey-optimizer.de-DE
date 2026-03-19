@@ -5,10 +5,10 @@ title: Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 description: Grundlegendes über Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 97%
+source-wordcount: '519'
+ht-degree: 94%
 
 ---
 
@@ -35,13 +35,13 @@ Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung
 
 * Relationale Schemata können nicht für Adobe Experience Platform-**Profile** aktiviert werden. Bei Adobe Experience Platform-**Profilen** werden nur standardmäßige XDM-Schemata unterstützt. Relationale Schemata können für orchestrierte Kampagnen oder Aktionskampagnen aktiviert werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
-### Datenaufnahme
+### Datenaufnahme {#data-ingestion}
 
 * Profil und relationale Datenaufnahme sind erforderlich.
 
 * Alle Aufnahmen müssen über **Change Data Capture**-Quellen erfolgen:
 
-   * Falls **dateibasiert**: Das Feld `_change_request_type` ist erforderlich. Unterstützte Werte sind `U` (upsert) oder `D` (delete).
+   * Falls **dateibasiert**: Das Feld `_change_request_type` ist erforderlich. Unterstützte Werte sind `u` (upsert) oder `d` (delete). Diese Werte müssen `u` und `d` in Kleinbuchstaben geschrieben werden, nicht `U` und `D`.
 
    * Falls **Cloud-basiert**: Die Tabellenprotokollierung muss aktiviert sein.
 
