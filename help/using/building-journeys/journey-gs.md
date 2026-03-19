@@ -64,7 +64,7 @@ Was Sie vor dem Erstellen konfigurieren müssen, hängt davon ab, wie Ihr Journe
 
 Die folgenden Elemente sind optional, können jedoch je nach Anwendungsfall erforderlich sein:
 
-* **Datenquelle** - Richten Sie eine (Datenquelle[ ein, um Journey-Bedingungen oder Personalisierungen mit Daten aus einem externen System ](../datasource/about-data-sources.md).
+* **Datenquelle** - Richten Sie eine (Datenquelle[&#x200B; ein, um Journey-Bedingungen oder Personalisierungen mit Daten aus einem externen System &#x200B;](../datasource/about-data-sources.md).
 
 * **Benutzerdefinierte Aktion** - Wenn Sie Nachrichten über ein Drittanbietersystem und nicht über die integrierten Kanäle senden, konfigurieren Sie eine [benutzerdefinierte Aktion](../action/action.md).
 
@@ -74,7 +74,7 @@ Die folgenden Elemente sind optional, können jedoch je nach Anwendungsfall erfo
 
 >[!NOTE]
 >
->Journey-Leitplanken und -Einschränkungen werden auf [ Seite ](../start/guardrails.md).
+>Journey-Leitplanken und -Einschränkungen werden auf [&#x200B; Seite &#x200B;](../start/guardrails.md).
 
 ## Erstellen einer Journey {#jo-build}
 
@@ -96,7 +96,7 @@ Anschließend können Sie mit der Gestaltung Ihrer Journey beginnen.
 
 ## Entwerfen der Journey {#jo-design}
 
-Mit dem Journey-Designer können Sie mehrstufige Journey mit einer intuitiven Drag-and-Drop-Oberfläche erstellen. Aktivitäten in der linken Palette sind in drei Kategorien unterteilt: **Ereignisse**, **** und **Aktionen**. Eine vollständige Übersicht der Arbeitsfläche und ihrer Steuerelemente finden Sie auf [dieser Seite](using-the-journey-designer.md).
+Mit dem Journey-Designer können Sie mehrstufige Journey mit einer intuitiven Drag-and-Drop-Oberfläche erstellen. Aktivitäten in der linken Palette sind in drei Kategorien unterteilt: **Ereignisse**, **&#x200B;**&#x200B;und **Aktionen**. Eine vollständige Übersicht der Arbeitsfläche und ihrer Steuerelemente finden Sie auf [dieser Seite](using-the-journey-designer.md).
 
 ![Journey-Designer-Benutzeroberfläche mit Aktivitätspalette und Arbeitsfläche](assets/journey38.png)
 
@@ -112,7 +112,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Journey zu entwerfen:
 
 >[!TIP]
 >
->Für Journey mit mehreren Phasen oder vielen Touchpoints sollten Sie den End-to-End-Fluss in kleinere Sub-Journey unterteilen, die mit der Aktivität **[!UICONTROL Springen]** verbunden sind. Dies reduziert die Komplexität und erleichtert das unabhängige Testen jedes Sub-Journey. Weitere Informationen finden [ unter „Design-Strategie: Beißgroße Unter-Journey ](jump.md#jump-strategy).
+>Für Journey mit mehreren Phasen oder vielen Touchpoints sollten Sie den End-to-End-Fluss in kleinere Sub-Journey unterteilen, die mit der Aktivität **[!UICONTROL Springen]** verbunden sind. Dies reduziert die Komplexität und erleichtert das unabhängige Testen jedes Sub-Journey. Weitere Informationen finden [&#x200B; unter „Design-Strategie: Beißgroße Unter-Journey &#x200B;](jump.md#jump-strategy).
 
 ## Testen der Journey {#jo-test}
 
