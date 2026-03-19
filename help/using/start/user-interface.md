@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1d09a7ce6428532822955186973b6a2d9973f522
+source-git-commit: 85c170fce64e3cdfa790234002758c8d5e43bafd
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 80%
+source-wordcount: '1490'
+ht-degree: 72%
 
 ---
 
@@ -338,3 +338,18 @@ Der KI-Assistent bietet sofortige Hilfe und betriebliche Erkenntnisse. Klicken S
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="Header-Parameter"
 >abstract="In diesem Abschnitt können Sie zusätzliche benutzerdefinierte Header konfigurieren, die mit jeder Webhook-Anfrage gesendet werden sollen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery"
+>title="Inkrementelle Abfrage"
+>abstract="Die inkrementelle Abfrage ist eine Zielgruppenbestimmungsaktivität, die bei jeder Ausführung der orchestrierten Kampagne eine Datenbankabfrage ausführt. Es werden nur neue Datensätze zurückgegeben und alle bereits in einer vorherigen Ausführung enthaltenen ausgeschlossen, sodass Sie nicht dieselben Personen erneut ansprechen oder dieselben Zeilen erneut exportieren müssen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery_processeddata"
+>title="Verarbeitete Daten"
+>abstract="Wählen Sie unter Verarbeitete Daten aus, wie Datensätze aus früheren Ausführungen ausgeschlossen werden sollen. Bei der Option Ergebnisse früherer Ausführungen ausschließen speichert die Aktivität eine Liste der in vorherigen Ausführungen zurückgegebenen Datensätze. Bei jedem Durchgang werden diese ausgeschlossen und nur neue Datensätze zurückgegeben. Bei Verwendung der Option Datumsfeld verwenden verwendet die Aktivität ein ausgewähltes Datumsfeld, anstatt einzelne IDs zu verfolgen, und jede Ausführung gibt nur Zeilen zurück, deren Datum nach der letzten Ausführung liegt."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery_history"
+>title="Verlauf in Tagen"
+>abstract="Mit dieser Einstellung wird festgelegt, wie lange diese Liste beibehalten wird. Der Wert 0 bedeutet eine unbegrenzte Beibehaltung; es werden keine Datensätze entfernt."
