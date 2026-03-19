@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 720cff6feca34f89851a28e1c2e6866ab2e51e2e
+source-git-commit: ea7faa183f7b0a28efc81ec5132e539a960e7e05
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 34%
+source-wordcount: '3121'
+ht-degree: 28%
 
 ---
 
@@ -27,9 +27,217 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Updates vom 26. März {#march-26-rn}
+## Hinweise zur Vorabversion vom 26. März {#march-26-rn}
+
+**Die nachfolgenden Vorab- Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentationen werden in den Versionshinweisen am Veröffentlichungsdatum veröffentlicht.
+
+Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**Veröffentlichungsdatum**: 24.-25. März 2026
 
 ### Neue Funktionen {#march-26-features}
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>LLM email optimizer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now optimize your email content for deliverability using large language model (LLM) technology. The LLM email optimizer analyzes your email content and provides actionable recommendations to improve sender reputation, avoid spam filters, and enhance overall deliverability performance.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Konvertieren von Bildern in E-Mail-Inhaltsvorlagen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Bilder direkt in Journey Optimizer in E-Mail-Inhaltsvorlagen konvertieren. Verwenden Sie die KI-gestützte Analyse, um automatisch strukturierte HTML-Vorlagen aus visuellen Referenzen zu generieren, wodurch die E-Mail-Design-Zeit erheblich verkürzt wird.</p>
+<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Inkrementelle Abfrageaktivität in koordinierten Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eine neue Aktivität <strong>Inkrementelle Abfrage</strong> ist jetzt in orchestrierten Kampagnen verfügbar. Diese Aktivität fragt nur neue oder aktualisierte Datensätze seit der letzten Ausführung des Workflows ab, wodurch die Verarbeitungszeit erheblich verkürzt und die Effizienz wiederkehrender Kampagnen, die auf große Datensätze abzielen, verbessert wird.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Transaktionsnachrichten in koordinierten Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Orchestrierte Kampagnen unterstützen jetzt <strong>Transaktionsnachrichten</strong>, sodass Sie ereignisgesteuerte Nachrichten in Echtzeit wie Bestellbestätigungen, Buchungsbenachrichtigungen und Kontoaktualisierungen direkt in Ihrem Kampagnen-Workflow Trigger können.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Testaktivität in koordinierten Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eine neue <strong>Test</strong>-Aktivität ist jetzt in orchestrierten Kampagnen verfügbar. Diese Aktivität leitet die Workflow-Ausführung basierend auf definierten Bedingungen an verschiedene Verzweigungen weiter, sodass Sie Kampagnenlogik und -konfigurationen vor der Aktivierung von Live-Sendungen validieren können.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Benutzerdefinierte Formulare in Landingpages</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt <strong>benutzerdefinierte Formulare</strong> in Landingpages erstellen, um bestimmte Abonnentendaten über die standardmäßigen Opt-in-Felder hinaus zu erfassen. Definieren Sie Ihre eigenen Formularfelder, Validierungsregeln und Übermittlungsverhalten, um eine breitere Palette von Anwendungsfällen für Abonnements und Profilanreicherung zu unterstützen.</p>
+<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent: Anwendungsfall für orchestrierte Kampagnen erstellen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Journey Agent</strong>, unterstützt durch Adobe Experience Platform Agent Orchestrator, kann jetzt vollständige <strong>Orchestrierte Kampagne</strong>-Anwendungsfälle über eine natürliche Sprachschnittstelle erstellen. Beschreiben Sie Ihre Kampagnenziele und -anforderungen in verständlicher Sprache. Journey Agent konfiguriert die Kampagnenstruktur, die Aktivitäten und das Targeting für Sie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey-Pfadoptimierung</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Journey-Pfadoptimierung: </strong> KI, um die bisherige Journey-Leistung zu analysieren und automatisch den besten Pfad für jeden Kunden auszuwählen, um Konversions- und Interaktionsergebnisse zu maximieren.</p>
+<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Unterstützung von Entscheidungen im E-Mail-Kanal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt <strong>Decisioning</strong> verwenden, um den Inhalt Ihrer E-Mail-Nachrichten zu personalisieren und zu optimieren. Nutzen Sie Prioritätswerte, Formeln oder KI-Modelle, um jedem Empfänger die relevantesten Angebote und Inhalte anzuzeigen.</p>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit). Mit dieser Version zur allgemeinen Verfügbarkeit werden nun Mirrorseiten unterstützt.</p>
+<p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/create-decision-policy.md">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nachrichten-Posteingang</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer In <strong> ist jetzt ein neuer </strong>Nachrichten-Posteingang“ verfügbar, der eine zentralisierte Ansicht der empfangenen In-App-, Push- und SMS-Nachrichten bietet. Empfänger und Empfängerinnen können an einem Ort auf alle ihre Nachrichten zugreifen und mit ihnen interagieren, was eine umfassendere Interaktion und erneute Interaktion mit ihnen ermöglicht.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Native Kanalaktionsaktivitäten werden nicht mehr unterstützt</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nach der allgemeinen Verfügbarkeit der <strong>Aktionsaktivität</strong> im Februar 2026 werden alte native Kanalaktionsaktivitäten (E-Mail, SMS, Push, In-App usw.) auf der Journey-Arbeitsfläche jetzt nicht mehr unterstützt. Vorhandene Journey, die ältere Kanalaktivitäten verwenden, funktionieren weiterhin, ohne dass Änderungen oder eine Migration erforderlich sind. Weitere Informationen finden Sie in der <a href="../building-journeys/journey-action.md">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Unterstützung der Datensatzsuche in Journey</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Eine neue Aktivität in Journey namens Datensatzsuche ermöglicht während der Laufzeit das dynamische Abrufen von Daten aus Adobe Experience Platform-Datensatzdatensätzen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind. Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit). Weitere Informationen finden Sie in der <a href="../building-journeys/dataset-lookup.md">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Vom Trigger orchestrierte Kampagnen mithilfe der API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt einen Trigger für eine orchestrierte Kampagne über die API durchführen. Konfigurieren Sie die Zielkampagne als „Ausgelöst durch ein Signal“ und veröffentlichen Sie sie. Verwenden Sie dann einen API-Aufruf, um die Kampagne auszulösen. Der API-Aufruf kann Parameter enthalten, die als Variablen in der ausgelösten Kampagne verfügbar sind.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -80,7 +288,7 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 <td>
 <p>Mit <strong>Adobe Experience Platform Agent Orchestrator </strong> ist <strong>Journey Agent</strong> in Journey Optimizer verfügbar und ermöglicht es Ihnen, Journey über eine natürliche Sprachschnittstelle zu analysieren. Sie können jetzt auch kanalspezifische Inhalte direkt in Journey Agent generieren und verwalten, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in <strong>Content Designer</strong> zur kontextbezogenen Bearbeitung öffnen.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=de">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Donnerstag, 4. März 2026</p>
 </td>
 </tr>
@@ -126,7 +334,11 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 ### Verbesserungen {#march-26-improv}
 
+Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
+
 #### Journeys
+
+* **Journey-Schlichtung - KI-Modelle** - Zusätzlich zu den Rangfolgeformeln können KI-Modelle jetzt mit der Journey-Schlichtung verwendet werden, um den Journey-Eintrag für Kunden automatisch zu ordnen und zu priorisieren. Dabei wird maschinelles Lernen verwendet, um die relevanteste Journey für jedes Profil auf der Grundlage von Verlaufsverhalten und Kontextsignalen zu ermitteln. Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 * **Senden ausgehender Nachrichten in Journey** - Sie können jetzt den Versand von Nachrichten aus Journey Optimizer Journey in kontrollierten Batches über einen bestimmten Zeitraum planen. [Weitere Informationen](../building-journeys/send-using-waves.md)
 
@@ -138,15 +350,44 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
   Verfügbarkeitsdatum: Dienstag, 2. März 2026
 
+#### Reporting
+
+* **Bot-Klicks für E-Mail- und SMS-Reporting ausschließen** - Die E-Mail- und SMS-Berichterstellung filtert jetzt Bot-Klicks aus Klickmetriken automatisch heraus, bietet genauere Interaktionsdaten und verhindert, dass der automatisierte Traffic Ihre Leistungszahlen in die Höhe treibt.
+
+* **Sendezeitoptimierung: Die Steuerelemente Speicherort der aktualisierten Steuerelemente und Neuer Aufstiegsbericht** - Sendezeitoptimierung (STO) wurden in das Menü Aktionskonfiguration verschoben. Darüber hinaus ist jetzt ein neuer Steigerungsbericht in den Journey-Berichten verfügbar, um die Auswirkungen von STOP auf Ihre Kampagnenleistungsmetriken zu messen.
+
+#### E-Mail-Designer
+
+* **Open-Time-Personalisierung mit Dynamic Media (Beta)** - Sie können jetzt E-Mail-Inhalte zur offenen Zeit mit Adobe Dynamic Media-Assets personalisieren, sodass empfängerspezifische Bilder und Visualisierungen in Echtzeit generiert werden, die dynamisch auf den Attributen der einzelnen Empfänger zum Zeitpunkt der E-Mail-Öffnung basieren. Diese Funktion befindet sich derzeit in Beta.
+
+* **E-Mail-Designer in Unified Shell angezeigt** - Die E-Mail-Designer wird jetzt in Unified Shell angezeigt und bietet ein konsistentes Navigations- und Kopfzeilenerlebnis, das mit anderen Adobe-Programmen übereinstimmt.
+
+* **Unterstützung des Textmodus in Fragmenten** - Fragmente unterstützen jetzt die Bearbeitung im Textmodus, sodass Sie Textversionen Ihrer Inhaltsfragmente zur Verwendung in textbasierten E-Mail-Workflows und Multi-Channel-Szenarien erstellen und verwalten können.
+
+#### Entscheidungsfindung
+
+* **Unterstützung des Ausdrucksfragmentverweis-Änderungs-Feeds in Edge Decisioning** - Diese Verbesserung ermöglicht es, Änderungen an Fragmentverweisen automatisch in allen Elementen widerzuspiegeln, die auf Fragmente verweisen, ohne etwas manuell aktualisieren zu müssen (erneute Veröffentlichung der Kampagne oder der Entscheidungsrichtlinie).
+
+* **Optionale Fragmente in Entscheidungselementen** - Fragmente, die an Entscheidungselemente angehängt sind, können jetzt als optional konfiguriert werden, was eine größere Flexibilität bei der Inhaltskomposition bietet, wenn nicht alle Entscheidungselement-Renderings ein bestimmtes Fragment erfordern.
 
 #### Konfiguration
+
+* **URL-**: URL-Parameter in Tracking-Links und Landingpages können jetzt verschlüsselt werden, was eine zusätzliche Sicherheitsebene für vertrauliche Parameterdaten bietet. Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
+
+* **Ordner für Journey und Kampagnen** - Sie können Ihre Journey und Kampagnen jetzt in Ordnern organisieren, was eine strukturierte Navigation und eine einfachere Verwaltung für Teams ermöglicht, die mit großen Inhaltsmengen arbeiten. Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 * **Änderung im Ereignisdatensatz für das Sekundäre Empfängerfeedback in AJO** - Der Ereignisdatensatz für das E-Mail-BCC-Feedback in AJO wird in den Ereignisdatensatz für das Sekundäre Empfängerfeedback in AJO umbenannt.
    * **Vorhandene Benutzer**: Nur der Anzeigename ändert sich. Der zugrunde liegende Tabellenname bleibt unverändert.
    * **Neue Benutzer und neue Sandboxes**: Sowohl der Anzeigename als auch der Tabellenname verwenden den neuen Namen.
    * **Vorhandene Benutzer/Organisationen mit neuen Sandboxes**: Sowohl der Anzeigename als auch der Tabellenname ändern sich in den neuen Namen.
 
-     Verfügbarkeitsdatum: Dienstag, 2. März 2026
+  Verfügbarkeitsdatum: Dienstag, 2. März 2026
+
+#### Orchestrierte Kampagnen
+
+* **Globale Variablen in orchestrierten Kampagnen** - Orchestrierte Kampagnen unterstützen jetzt globale Variablen, die einmal definiert und über alle Aktivitäten innerhalb eines Workflows hinweg wiederverwendet werden können, um die Konfiguration zu vereinfachen und die Konsistenz von dynamischen Werten, Ausdrücken und der Personalisierung von Inhalten sicherzustellen.
+
+* **Vereinfachung der Zielgruppendimension in orchestrierten Kampagnen** - Sie können jetzt die richtigen Zielgruppendimensionen und sekundären Dimensionen in orchestrierten Kampagnen einfach auswählen oder automatisch ableiten, um eine genaue, effiziente Zielgruppenaktivierung zu ermöglichen.
 
 ## Versionshinweise Februar 2026 {#feb-26-01-rn}
 
@@ -154,7 +395,7 @@ Die Abschnitte [Neue Funktionen](#feb-26-01-features) und [Verbesserungen](#feb-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
