@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Integration mit anderen Lösungen
+title: Integrieren mit anderen Lösungen
 description: Erfahren Sie mehr über die Integration von Journey Optimizer in andere Lösungen.
 feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: c047b3fb04e9867be98da845aa89b0b9d6f59df2
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
 ---
 
-# Integration mit anderen Lösungen {#integration}
+# Integrationen mit anderen Lösungen {#integration}
 
 Mit Adobe Journey Optimizer können Sie diese Daten einfach verwalten, speichern und in Plattformen oder Systeme exportieren, die Teil Ihres Technologie-Stacks sind. Mithilfe dieser Integrationen können Sie Ihre spezifischen Anwendungsfälle abdecken und den Funktionsumfang von Adobe Journey Optimizer erweitern.
 
@@ -65,7 +65,7 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 Durch die Integration von Adobe Experience Manager mit Adobe Journey Optimizer können Sie jetzt Ihre AEM-Inhaltsfragmente nahtlos in Journey Optimizer in Ihre E-Mail-Inhalte integrieren. Diese optimierte Verbindung vereinfacht den Zugriff auf und die Nutzung von AEM-Inhalten und ermöglicht die Erstellung personalisierter und dynamischer Kampagnen und Journeys.
 
-[![Weitere Informationen](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-fragments.md)
+[![Weitere Informationen](../assets/do-not-localize/learn-more-button.svg)](aem-fragments.md)
 
 >[!TAB Dynamic Media]
 
@@ -121,7 +121,7 @@ Weitere Informationen zu [Journey Optimizer und Campaign Standard](../building-j
 
 Verwenden Sie die Adobe Journey Optimizer-Module in Adobe Workfront, um Einträge zu erstellen, zu lesen, zu aktualisieren, zu löschen oder führen Sie einen benutzerdefinierten API-Aufruf an die Adobe Journey Optimizer-API durch.
 
-Eine Übersicht über den wichtigsten Schritt bei dieser Integration finden Sie in [diesem Blogpost](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=de){target="_blank"}.
+Eine Übersicht über den wichtigsten Schritt bei dieser Integration finden Sie in [diesem Blogpost](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Weitere Informationen zu Journey Optimizer und Adobe Workfront finden Sie in der [Dokumentation zu Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=de){target="_blank"}.
 
