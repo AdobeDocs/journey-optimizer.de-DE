@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Archiv, Nachrichten, HIPAA, BCC, E-Mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: baf210042685316742dac85658d281fe2711d716
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 95%
+source-wordcount: '1334'
+ht-degree: 88%
 
 ---
 
@@ -84,11 +84,11 @@ Die BCC-Adresse wird jedoch gemäß der [hier](../email/email-settings.md) besch
 
 ### DSGVO-Konformität {#gdpr-compliance}
 
-Vorschriften wie die DSGVO besagen, dass die betroffenen Personen ihr Einverständnis jederzeit ändern können. Da die mit Journey Optimizer gesendeten BCC-E-Mails auf sichere Weise personenbezogene Daten enthalten, müssen Sie das **[!UICONTROL CJM E-Mail-BCC-Feedback-Ereignisschema]** bearbeiten, um diese personenbezogenen Daten unter Einhaltung der DSGVO und ähnlicher Vorschriften verwalten zu können.
+Vorschriften wie die DSGVO besagen, dass die betroffenen Personen ihr Einverständnis jederzeit ändern können. Da die mit Journey Optimizer gesendeten BCC-E-Mails auf sichere Weise personenbezogene Daten enthalten, müssen Sie das Sekundäre Empfängerfeedback-Ereignisschema für **[!UICONTROL AJO bearbeiten]** um diese personenbezogenen Daten unter Einhaltung der DSGVO und ähnlicher Vorschriften verwalten zu können.
 
 Gehen Sie dazu wie folgt vor.
 
-1. Gehen Sie zu **[!UICONTROL Daten-Management]** > **[!UICONTROL Schemata]** > **[!UICONTROL Durchsuchen]** und wählen Sie **[!UICONTROL CJM E-Mail-BCC-Feedback-Ereignisschema]** aus.
+1. Wechseln Sie zu **[!UICONTROL Daten-Management]** > **[!UICONTROL Schemata]** > **[!UICONTROL Durchsuchen]** und wählen Sie **[!UICONTROL AJO Sekundär Recipient Feedback Event Schema]**.
 
    ![](assets/preset-bcc-schema.png)
 
@@ -112,7 +112,7 @@ Gehen Sie dazu wie folgt vor.
 
 ### BCC-Berichtsdaten {#bcc-reporting}
 
-Das Reporting über BCC als solches ist in den Journey- und Nachrichtenberichten nicht verfügbar. Informationen werden jedoch in einem Systemdatensatz mit dem Namen **[!UICONTROL Datensatz mit AJO BCC-Feedback-Ereignissen]** gespeichert. Sie können Abfragen für diesen Datensatz ausführen, um beispielsweise nützliche Informationen zu Debugging-Zwecken zu finden.
+Das Reporting über BCC als solches ist in den Journey- und Nachrichtenberichten nicht verfügbar. Informationen werden jedoch in einem Systemdatensatz mit dem Namen **[!UICONTROL Sekundärer AJO-Empfänger-Feedback-Ereignisdatensatz gespeichert]**. Sie können Abfragen für diesen Datensatz ausführen, um beispielsweise nützliche Informationen zu Debugging-Zwecken zu finden.
 
 Um über die Benutzeroberfläche auf diesen Datensatz zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus. Weitere Informationen zum Zugriff auf Datensätze finden Sie in [diesem Abschnitt](../data/get-started-datasets.md#access-datasets).
 
@@ -225,7 +225,7 @@ Wenn Ihre E-Mail-BCC-Kopien beispielsweise auf einem externen System archiviert 
 
 Jede E-Mail-Nachricht enthält jetzt einen Header mit dem Namen `x-message-profile-id`. Der Wert dieses Headers ist für jedes Profil unterschiedlich: Er ist für jede gesendete E-Mail und die entsprechende BCC-E-Mail-Kopie eindeutig.
 
-Der Header `x-message-profile-id` wird auch in den folgenden Systemdatensätzen gespeichert: [AJO-Nachrichten-Feedback-Ereignisdatensatz](../data/datasets-query-examples.md#message-feedback-event-dataset) (gesendete E-Mails) und [AJO-BCC-Feedback-Ereignisdatensatz](#bcc-reporting) (BCC-Kopien). Sie können diese Datensätze abfragen, um die BCC-Kopie und die entsprechende tatsächliche E-Mail abzugleichen.
+Der `x-message-profile-id` wird auch in den folgenden Systemdatensätzen gespeichert: [AJO-Nachrichten-Feedback-Ereignisdatensatz](../data/datasets-query-examples.md#message-feedback-event-dataset) (gesendete E-Mails) und [AJO-Sekundär-Empfänger-Feedback-Ereignisdatensatz](#bcc-reporting) (BCC-Kopien). Sie können diese Datensätze abfragen, um die BCC-Kopie und die entsprechende tatsächliche E-Mail abzugleichen.
 
 * Um über die Benutzeroberfläche auf diese Datensätze zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus. Weitere Informationen zum Zugriff auf Datensätze finden Sie in [diesem Abschnitt](../data/get-started-datasets.md#access-datasets).
 
