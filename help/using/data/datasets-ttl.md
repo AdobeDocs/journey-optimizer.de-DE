@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Experienced
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: f46ec2fa3bcd342b864081e0e2c805c2a07e4236
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 95%
@@ -35,7 +35,7 @@ In der folgenden Tabelle sind alle betroffenen Datensätze und die jeweilige Tim
 | Ereignisdatensatz zu Erfahrungen beim AJO-Push-Tracking | 13 Monate | 90 Tage |
 | AJO-Oberflächen-Datensatz | 13 Monate | k. A. |
 | Ereignisdatensatz für eingehende AJO-Aktivitäten | 13 Monate | 90 Tage |
-| Ereignisdatensatz mit Feedback zu AJO-E-Mail-BCC | 13 Monate | k. A. |
+| AJO Sekundärer Empfänger-Feedback-Ereignisdatensatz | 13 Monate | k. A. |
 | Entitäts-Ereignisdatensatz | 13 Monate | k. A. |
 | Journey-Schrittereignisse | 13 Monate | k. A. |
 | ODE DecisionEvents – Produktions-Entscheidungsfindung | 13 Monate | k. A. |
@@ -76,13 +76,13 @@ TTL-Erweiterungen werden derzeit nicht unterstützt. Es ist jedoch geplant, den 
 
 >[!NOTE]
 >
->Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=_blank}
+>Im Profil gespeicherte Daten unterliegen der Berechtigung für das gesamte Datenvolumen. Daher würde jede Erhöhung der Datenspeicherung im Profil infolge einer TTL-Erweiterung der Berechtigung für das gesamte Datenvolumen angerechnet werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/license/total-data-volume){target=&quot;_blank}
 
 +++
 
 +++Können Kundinnen und Kunden die TTL für Systemdatensatzdaten von [!DNL Journey Optimizer] im Data Lake erhöhen? 
 
-TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL-Erweiterungen werden derzeit nicht unterstützt. Kundinnen und Kunden können Daten über Ziele exportieren, um diese länger aufzubewahren. [Erfahren Sie mehr](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=&quot;_blank}. Darüber hinaus können Kundinnen und Kunden mit **[!DNL Data Distiller]**-Berechtigung abgeleitete Datensätze erstellen, um die Daten ohne TTL im Data Lake zu speichern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -120,7 +120,7 @@ Die neue TTL-Richtlinie beschränkt den Lookback-Zeitraum für systemgenerierte 
 
 +++Welche Alternativen stehen zur Verfügung, um Daten länger als die TTL aufzubewahren?
 
-Kundinnen und Kunden, die eine längere Aufbewahrungsfrist benötigen, sollten den Export relevanter Daten aus AJO-Datensätzen in einen externen Speicher in Betracht ziehen, bevor die TTL abläuft. Adobe Journey Optimizer unterstützt den Export von Datensätzen an verschiedene Cloud-Speicher-Ziele (Amazon S3, Azure Blob, Google Cloud Storage usw.). [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=_blank}
+Kundinnen und Kunden, die eine längere Aufbewahrungsfrist benötigen, sollten den Export relevanter Daten aus AJO-Datensätzen in einen externen Speicher in Betracht ziehen, bevor die TTL abläuft. Adobe Journey Optimizer unterstützt den Export von Datensätzen an verschiedene Cloud-Speicher-Ziele (Amazon S3, Azure Blob, Google Cloud Storage usw.). [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/export-datasets){target=&quot;_blank}
 
 +++
 

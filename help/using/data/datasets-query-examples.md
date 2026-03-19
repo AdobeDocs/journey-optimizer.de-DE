@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '1066'
-ht-degree: 100%
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+workflow-type: tm+mt
+source-wordcount: '1086'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze un
 * [Erlebnisereignisdatensatz beim Push-Tracking](#push-tracking-experience-event-dataset)
 * [Journey-Schritt-Ereignis](#journey-step-event)
 * [Ereignisdatensatz zur Entscheidungsfindung](#ode-decisionevents)
-* [Ereignisdatensatz mit Feedback zu BCC](#bcc-feedback-event-dataset)
+* [Sekundärer Empfänger-Feedback-Ereignisdatensatz (BCC)](#bcc-feedback-event-dataset)
 * [Entitätsdatensatz](#entity-dataset)
 
 Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
@@ -35,7 +35,7 @@ Siehe auch einige häufig verwendete [Beispiele zum Abfragen von Journey-Schritt
 
 ## Erlebnisereignisdatensatz beim E-Mail-Tracking{#email-tracking-experience-event-dataset}
 
-_Name in der Benutzeroberfläche: AJO Email Tracking Experience Event Dataset_
+_Name in der Benutzeroberfläche: AJO-E-Mail-Tracking-Erlebnisereignis-Datensatz_
 
 Systemdatensatz für die Aufnahme von E-Mail-Tracking-Erlebnisereignissen aus Journey Optimizer.
 
@@ -272,7 +272,7 @@ group by
 
 Siehe auch einige häufig verwendete [Beispiele zum Abfragen von Journey-Schrittereignissen](../reports/query-examples.md).
 
-Erfahren Sie, wie Sie [bei verworfenen Ereignistypen in journey_step_events Fehler beheben](../reports/sharing-field-list.md#discarded-events).
+Erfahren Sie, wie Sie [Fehler bei verworfenen Ereignistypen in journey_step_events beheben](../reports/sharing-field-list.md#discarded-events).
 
 ## Ereignisdatensatz zur Entscheidungsfindung{#ode-decisionevents}
 
@@ -336,11 +336,11 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## Ereignisdatensatz mit Feedback zu BCC{#bcc-feedback-event-dataset}
+## Sekundärer Empfänger-Feedback-Ereignisdatensatz (BCC){#bcc-feedback-event-dataset}
 
-_Name in der Benutzeroberfläche: AJO-BCC-Feedback-Ereignisdatensatz (Systemdatensatz)_
+_Name in der Benutzeroberfläche: AJO Sekundärer Empfänger-Feedback-Ereignisdatensatz (Systemdatensatz). Im Abfrage-Service kann die Datensatztabelle weiterhin `ajo_bcc_feedback_event_dataset` benannt sein._
 
-Datensatz zum Speichern von Informationen für BCC-Nachrichten.
+Datensatz für E-Mail-BCC-Nachrichten (sekundärer Empfänger), wenn die BCC-Archivierung aktiviert ist.
 
 Abfrage aller BCC-Nachrichten innerhalb von 2 Tagen (für eine bestimmte Kampagne):
 

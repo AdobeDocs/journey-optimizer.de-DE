@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Export, Nachrichten, HIPAA, E-Mails, SMS, Konfiguration
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 53%
+source-wordcount: '701'
+ht-degree: 48%
 
 ---
 
@@ -52,7 +52,9 @@ Der Onboarding-Prozess für die Funktion „Nachrichtenexport“ besteht aus zwe
 
 ### Einrichten des Datenflusses für den Export {#set-up-export-dataflow}
 
-Bevor Sie Ihre Daten exportieren können, müssen Sie den Exportvorgang einrichten, indem Sie das [!DNL Experience Platform]-Ziel und den zu verwendenden Datensatz definieren. Gehen Sie wie folgt vor.
+Bevor Sie Ihre Daten exportieren können, richten Sie den Exportprozess ein, indem Sie das [!DNL Experience Platform]-Ziel und den Datensatz-Exportfluss definieren.
+
+Detaillierte Anweisungen, unterstützte Cloud-Ziele, erforderliche Berechtigungen und weitere Informationen finden Sie [diesem Abschnitt](../data/export-datasets.md#export-datasets).
 
 >[!NOTE]
 >
