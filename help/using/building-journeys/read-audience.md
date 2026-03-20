@@ -19,7 +19,7 @@ ht-degree: 64%
 
 # Verwenden einer Zielgruppe in einer Journey {#segment-trigger-activity}
 
-Verwenden Sie die Aktivität Zielgruppe lesen , um Journey mit definierten Zielgruppen zu starten. Wählen Sie die Zielgruppe und den Ausführungszeitpunkt aus. Personalisieren Sie dann [ Pfad jedes Profils mit ](#audience-targeting-in-journeys)Bedingungen“, Timern und Aktionen.
+Verwenden Sie die Aktivität Zielgruppe lesen , um Journey mit definierten Zielgruppen zu starten. Wählen Sie die Zielgruppe und den Ausführungszeitpunkt aus. Personalisieren Sie dann [&#x200B; Pfad jedes Profils mit &#x200B;](#audience-targeting-in-journeys)Bedingungen“, Timern und Aktionen.
 
 ## Über die Aktivität „Zielgruppe lesen“ {#about-segment-trigger-activity}
 
@@ -42,7 +42,7 @@ Die **Zielgruppe lesen**-Aktivität ist die Journey-Einstiegspunktaktivität, di
 
 **Voraussetzungen:** Eine [!DNL Adobe Experience Platform] Zielgruppe, die erstellt und ausgewertet wird (realisierter Status), ein personenbasierter Identity-Namespace, der für die Journey ausgewählt wird, und - bei wiederkehrenden Ausführungen - ein Verständnis von [Zeitplan und Durchsatzbeschränkungen](../start/guardrails.md#read-segment-g).
 
-Beispielsweise kann die im Anwendungsfall `Luma app opening and checkout`Zielgruppen erstellen[ erstellte ](../audience/about-audiences.md)-Zielgruppe als Einstiegspunkt verwendet werden. Alle qualifizierten Profile treten in die Journey ein und durchlaufen personalisierte Pfade, in denen Bedingungen, Timer, Ereignisse und Aktionen verwendet werden.
+Beispielsweise kann die im Anwendungsfall `Luma app opening and checkout`Zielgruppen erstellen[&#x200B; erstellte &#x200B;](../audience/about-audiences.md)-Zielgruppe als Einstiegspunkt verwendet werden. Alle qualifizierten Profile treten in die Journey ein und durchlaufen personalisierte Pfade, in denen Bedingungen, Timer, Ereignisse und Aktionen verwendet werden.
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -119,7 +119,7 @@ Alle Leitplanken und Einschränkungen für die Aktivität **Zielgruppe lesen** (
 **Recommendations**
 
 * Verwenden Sie als Best Practice Batch-Zielgruppen in einer Aktivität vom Typ **Zielgruppe lesen**, um eine zuverlässige und konsistente Zählung zu erzielen. „Zielgruppe lesen“ wurde für Batch-Anwendungsfälle entwickelt. Wenn für Ihren Anwendungsfall Echtzeitdaten benötigt werden, verwenden Sie stattdessen die Aktivität [Zielgruppen](audience-qualification-events.md)Qualifizierung.
-* Zielgruppen,[ die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
+* Zielgruppen,[&#x200B; die aus einer CSV-Datei importiert wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) stammen, können in der Aktivität **Zielgruppe lesen** ausgewählt werden. Diese Zielgruppen sind in der Aktivität **Zielgruppen-Qualifizierung** nicht verfügbar.
 * Stellen Sie bei Verwendung von Batch-Segmenten sicher, dass die Aufnahme und tägliche Snapshot-Updates lange vor dem Start des Journey abgeschlossen sind. Ziehen Sie eine zusätzliche Wartezeit in Betracht, wenn Segmente Daten widerspiegeln müssen, die am selben Tag aufgenommen wurden. Wenn die sofortige Profilfrische wichtig ist, verwenden Sie einen ereignisbasierten oder Streaming-Ansatz oder fügen Sie eine **Warten**-Aktivität hinzu, damit aktualisierte Daten vor der Auswertung weitergegeben werden können.
 
 >[!CAUTION]
