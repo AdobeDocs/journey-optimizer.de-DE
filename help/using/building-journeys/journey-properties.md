@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 88%
+source-wordcount: '3223'
+ht-degree: 84%
 
 ---
 
@@ -160,7 +160,7 @@ Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey **91 
 
 >[!NOTE]
 >
->Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte &#x200B;](end-journey.md#journey-finished-definition).
+>Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte ](end-journey.md#journey-finished-definition).
 
 Aufgrund des Journey-Timeouts von 91 Tagen können wir, wenn der erneute Eintritt in die Journey nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 91 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 
@@ -272,6 +272,22 @@ Ab [!DNL Adobe Journey Optimizer] Version Juni 2024 wurde die globale Zeitübers
     </td>
     <td>
       <p>Die TTL für das Profil beträgt 91 Tage (7 Tage für HIPAA), entsprechend der TTL der erneut veröffentlichten Journey-Version.  Bei wiederkehrenden Journeys mit erzwungenem erneuten Eintritt entspricht die TTL dem Wiederholungsintervall.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Wird die wiederkehrende Read Audience Journey nach 91 Tagen beendet?</p>
+    </td>
+    <td>
+      <p>Nein. Eine wiederkehrende Journey mit dem Titel „Zielgruppe lesen“ ohne Enddatum bleibt <strong>Live</strong> solange sie veröffentlicht wird. Der Status <strong>Beendet</strong> wird nur 91 Tage nach der Ausführung des <strong>letzten Vorkommens“ </strong>. Das globale 91-Tage-Timeout gilt für einzelne Profile, die die Journey durchlaufen (maximale aktive Dauer pro Profil), nicht für den Live-Status der Journey.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Was ist der Unterschied zwischen der 91-tägigen Journey-Zeitüberschreitung und dem 91-tägigen Berichtsfenster?</p>
+    </td>
+    <td>
+      <p>Dies sind zwei separate Konzepte. Das globale Zeitlimit von <strong>Journey</strong> (91 Tage) ist die maximale Zeit, die ein einzelnes Profil innerhalb eines Journey aktiv bleiben kann - nach 91 Tagen wird das Profil beendet und seine Daten gelöscht. Das <strong>Reporting-Fenster</strong> (ca. 91 Tage) ist eine Anzeigebeschränkung in der Benutzeroberfläche: Leistungsdaten, die älter als ~91 Tage sind, sind in Berichten nicht mehr sichtbar, aber die Journey selbst wird weiterhin ausgeführt und neue Profile treten weiterhin ein.</p>
     </td>
   </tr>
 </table>

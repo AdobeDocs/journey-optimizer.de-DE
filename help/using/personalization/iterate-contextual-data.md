@@ -8,10 +8,11 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Handlebars, Iteration, Arrays, Kontext, Personalisierung
-source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
-workflow-type: ht
-source-wordcount: '3008'
-ht-degree: 100%
+exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+workflow-type: tm+mt
+source-wordcount: '3060'
+ht-degree: 98%
 
 ---
 
@@ -67,6 +68,16 @@ context.journey.events.<event_ID>.<fieldPath>
 
 * `<event_ID>`: Die eindeutige ID Ihres Ereignisses, wie in der Journey konfiguriert
 * `<fieldPath>`: Der Pfad zum Feld oder Array in Ihrem Ereignisschema
+
+>[!NOTE]
+>
+>**Numerische Ereignis-IDs erfordern Backticks.** Wenn Ihre Ereignis-ID eine Zahl ist (z. B. `1697323153`), schließen Sie sie in den Ausdruckspfad in Backticks (`` ` ``) ein. Ohne Backticks löst der PQL-Parser einen Syntaxfehler aus.
+>
+>```handlebars
+>context.journey.events.`1697323153`.fieldName
+>```
+>
+>Weitere Details und ein vollständiges Beispiel einschließlich der Datumsformatierung aus Ereignis-Zeitstempeln finden Sie [Formatieren eines Zeitstempels aus einem Kontextereignis](../personalization/functions/dates.md#format-date).
 
 ### Beispiel: Warenkorbartikel aus einem Ereignis
 
@@ -1042,4 +1053,3 @@ Verwenden Sie den [Journey-Testmodus](../building-journeys/testing-the-journey.m
 **Personalisierungs-Anwendungsfälle:** [E-Mail zu Warenkorbabbruch](personalization-use-case-helper-functions.md) | [Benachrichtigung zum Bestellstatus](personalization-use-case.md)
 
 **Nachrichten-Design:** [Erste Schritte beim E-Mail-Design](../email/get-started-email-design.md) | [Erstellen von Push-Benachrichtigungen](../push/create-push.md) | [Erstellen von SMS-Nachrichten](../sms/create-sms.md) | [Vorschau und Testen von Inhalten](../content-management/preview-test.md)
-

@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 91%
+source-wordcount: '913'
+ht-degree: 76%
 
 ---
 
@@ -93,6 +93,10 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Datensatzsuche]** zu ko
    * Bei Schlüsseln kann es sich um Ausdrücke handeln, die aus dem Journey-Kontext abgeleitet werden (z. B. SKUs, E-Mail-IDs oder andere Kennungen). Beispiel: `@profile.email` oder `list(@event{purchase_event.products.sku})`.
 
    * Es werden ausschließlich **Strings** oder **Listen mit Strings** unterstützt.
+
+   >[!IMPORTANT]
+   >
+   >Sie müssen den Lookup-Schlüssel mit **Erweiterter Modus** definieren. Wenn Sie den einfachen Modus verwenden, um den Schlüssel festzulegen, ist die Ausgabe der Datensatzsuchaktivität nicht als Kontextattribut in nachgelagerten Aktivitäten verfügbar und die `@datasetLookup{}`-Syntax schlägt mit dem Fehler „Datensatzsuche nicht gefunden“ in Bedingungsaktivitäten fehl.
 
    +++Beispiel
 
@@ -191,3 +195,15 @@ Die von der Aktivität **[!UICONTROL Datensatzsuche]** abgerufenen Daten werden 
    ```
    {{context.journey.datasetLookup.1482319411.entity.loyaltyMember.loyaltyTier}}
    ```
+
++++
+
+## Fehlerbehebung {#troubleshooting}
+
+### Fehler „Datensatzsuche nicht gefunden“ in Bedingungsaktivität {#troubleshooting-not-found}
+
+**Symptom:** Die `@datasetLookup{}` Syntax im erweiterten Ausdruckseditor einer Bedingungsaktivität gibt den Fehler „Datensatz-Suche nicht gefunden“ zurück, obwohl die Datensatz-Suchaktivität auf der Journey korrekt konfiguriert ist.
+
+**Ursache:** Der Suchschlüssel in der Datensatz-Suchaktivität wurde im einfachen Modus festgelegt. Wenn der Schlüssel im erweiterten Modus nicht definiert ist, wird die Aktivitätsausgabe in nachgelagerten Aktivitäten nicht als Kontextattribut bereitgestellt.
+
+**Behebung:** Öffnen Sie die Aktivität Datensatzsuche , suchen Sie das Feld **[!UICONTROL Suchschlüssel(n)]** und wechseln Sie in den **erweiterten Modus**, um den Schlüsselausdruck neu zu definieren. Speichern Sie die Aktivität, und veröffentlichen Sie die Journey erneut.

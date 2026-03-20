@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 84%
+source-wordcount: '1419'
+ht-degree: 75%
 
 ---
 
@@ -483,6 +483,29 @@ Für die Ausgabe in Kleinbuchstaben mit der `lowerCase`-Funktion kombinieren:
 Ausgabe: `sun`, `mon`, `tue` usw.
 
 +++
+
++++Formatieren eines Zeitstempels aus einem Kontextereignis
+
+Bei Verwendung eines Zeitstempels aus einem Journey-Ereigniskontextattribut gelten zwei Anforderungen:
+
+* **Zeitstempel mit`toDateTime()`** umschließen - Zeitstempel für Kontextereignisse werden von `formatDate()` nicht automatisch als Datums-/Uhrzeitwerte erkannt.
+* **Numerische Ereignis-IDs in Backticks umschließen** - Wenn Ihre Ereignis-ID eine Zahl ist (z. B. `1697323153`), muss sie mit Backticks im Ausdruckspfad maskiert werden. Andernfalls löst der Editor einen PQL-Syntaxfehler aus.
+* **`{% let %}` Zuordnungssyntax verwenden** - Diese Muster wird von der Inline-`{%= %}` nicht unterstützt. Weisen Sie das Ergebnis zuerst einer Variablen zu und rendern Sie es dann mit `{{varName}}`.
+
+```handlebars
+{% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
+{{appointmentDate}}
+```
+
+Ausgabe (Beispiel): `18/03/2026 14:30`
+
++++
+
+>[!CAUTION]
+>
+>**Häufiger Fehler: „Eingabe &#39;(&#39; entspricht nicht dem erwarteten \&lt;EOF\>&quot;**
+>
+>Dieser PQL-Syntaxfehler tritt auf, wenn `formatDate()` mit einem Zeitstempel für ein Kontextereignis inline (`{%= formatDate(...) %}`) verwendet wird. Die häufigsten Ursachen sind numerische Ereignis-IDs, die nicht in Backticks (`` ` ``) eingeschlossen sind, oder Zeitstempelfelder, die direkt an `formatDate()` übergeben werden, ohne sie zuerst in `toDateTime()` einzuschließen. Um beide Probleme zu beheben, verwenden Sie das `{% let %}` im obigen Beispiel.
 
 ### Musterzeichen {#pattern-characters}
 
