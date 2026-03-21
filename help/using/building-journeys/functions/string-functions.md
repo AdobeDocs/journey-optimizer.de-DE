@@ -1,20 +1,21 @@
 ---
 product: journey optimizer
-title: Zeichenfolgenfunktionen
+title: Zeichenfolgen-Funktionen
 description: Erfahren Sie mehr über Zeichenfolgefunktionen
 feature: Journeys
 role: Developer
 level: Experienced
 keywords: Zeichenfolge, Funktionen, Ausdruck, Journey, Text, Manipulation
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '1127'
+exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
+source-git-commit: 11997fed640a626717ceef4201fcb7735f96cd89
+workflow-type: tm+mt
+source-wordcount: '1129'
 ht-degree: 100%
 
 ---
 
-# Zeichenfolgenfunktionen {#string-functions}
+# Zeichenfolgen-Funktionen {#string-functions}
 
 Mit Zeichenfolgenfunktionen können Sie Textwerte in Ihren Journey-Ausdrücken bearbeiten und mit ihnen arbeiten. Diese Funktionen sind für die Textverarbeitung, Validierung, Umwandlung und Analyse in Ihren Customer Journeys unerlässlich.
 
@@ -249,7 +250,7 @@ Gibt „true“ zurück.
 
 ## indexOf {#indexOf}
 
-Gibt die Position (im ersten Argument) des ersten Auftretens des zweiten Parameters zurück. Gibt „–1“ zurück, wenn keine Übereinstimmung vorliegt.
+Gibt die Position (im ersten Argument) des ersten Auftretens des zweiten Parameters zurück. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
 
 +++Syntax
 
@@ -261,8 +262,8 @@ Gibt die Position (im ersten Argument) des ersten Auftretens des zweiten Paramet
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | Zeichenfolge |
-| angegebener Wert | Zeichenfolge |
+| string | String |
+| angegebener Wert | String |
 
 +++
 
@@ -320,6 +321,10 @@ Gibt „true“ zurück.
 
 Gibt „false“ zurück.
 
+`isEmpty(<null>)`
+
+Gibt „false“ zurück.
+
 +++
 
 ## isNotEmpty {#isNotEmpty}
@@ -360,7 +365,7 @@ Gibt „true“ zurück.
 
 ## lastIndexOf {#lastIndexOf}
 
-Gibt die Position (im ersten Argument) des letzten Auftretens des zweiten Parameters zurück. Gibt „–1“ zurück, wenn keine Übereinstimmung vorliegt.
+Gibt die Position (im ersten Argument) des letzten Auftretens des zweiten Parameters zurück. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
 
 +++Syntax
 
@@ -372,8 +377,8 @@ Gibt die Position (im ersten Argument) des letzten Auftretens des zweiten Parame
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | Zeichenfolge |
-| angegebener Wert | Zeichenfolge |
+| string | String |
+| angegebener Wert | String |
 
 +++
 
@@ -425,7 +430,7 @@ Gibt eine Ganzzahl zurück.
 
 `length("Hello World")`
 
-Gibt „11“ zurück.
+Gibt 11 zurück.
 
 +++
 
@@ -872,4 +877,3 @@ Gibt eine Zeichenfolge zurück.
 Gibt „79e70b7f-8a85-400b-97a1-9f9826121553“ zurück.
 
 +++
-
