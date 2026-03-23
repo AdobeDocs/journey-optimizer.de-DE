@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Daten, Quelle, Journey, Plattform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '616'
 ht-degree: 56%
 
 ---
@@ -51,7 +51,7 @@ Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen ab
 
 ## Wählen Ihrer Datenzugriffsstrategie {#data-access-strategy}
 
-Bevor Sie eine Datenquelle konfigurieren, überlegen Sie, welcher Ansatz Ihrem Anwendungsfall am besten entspricht. Es stehen drei Optionen zur Verfügung, die jeweils unterschiedliche Kompromisse hinsichtlich Persistenz, Profilanreicherung und Wiederverwendbarkeit aufweisen. Eine ausführliche Erläuterung dieser Optionen finden Sie unter [Best Practices für erweiterte Journey in Journey Optimizer](https://experienceleague.adobe.com/de/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Bevor Sie eine Datenquelle konfigurieren, überlegen Sie, welcher Ansatz Ihrem Anwendungsfall am besten entspricht. Es stehen drei Optionen zur Verfügung, die jeweils unterschiedliche Kompromisse hinsichtlich Persistenz, Profilanreicherung und Wiederverwendbarkeit aufweisen. Eine ausführliche Erläuterung dieser Optionen finden Sie unter [Best Practices für erweiterte Journey in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Option 1 - Zugriff auf externe Daten über benutzerdefinierte Aktionen (kein Data Lake)**
 
@@ -60,7 +60,7 @@ Stellen Sie zur Journey-Laufzeit eine direkte Verbindung zu einer externen API h
 * Die Daten sind nur innerhalb des Journey-Kontexts nützlich und anderswo nicht benötigt.
 * Auf das externe System kann über einen API-Endpunkt zugegriffen werden, der die erforderlichen Attribute zurückgibt.
 
-Erfahren Sie mehr über [benutzerdefinierte Aktionen](../action/action.md) und [benutzerdefinierte &#x200B;](../action/action-response.md).
+Erfahren Sie mehr über [benutzerdefinierte Aktionen](../action/action.md) und [benutzerdefinierte ](../action/action-response.md).
 
 **Option 2 — Datensatz im Data Lake, nicht für Profil aktiviert**
 
@@ -71,7 +71,7 @@ Nehmen Sie Daten in einen Datensatz auf, um Journey auf der Grundlage kontextuel
 
 **Option 3 - Profil-aktivierter Datensatz im Data Lake**
 
-Nehmen Sie Daten in einen profilaktivierten Datensatz auf, um Zielgruppen zu erstellen, Identitätsdiagramme anzureichern und Daten über mehrere Journey- und RT-CDP-Ziele hinweg zu nutzen. Am besten geeignet, wenn:
+Nehmen Sie Daten in einen [profilaktivierten Datensatz](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} auf, um Zielgruppen zu erstellen, Identitätsdiagramme anzureichern und Daten über mehrere Journey- und RT-CDP-Ziele hinweg zu nutzen. Am besten geeignet, wenn:
 
 * Die Daten sind für Zielgruppendefinitionen nützlich, die in Kanälen außerhalb von Journey Optimizer verwendet werden.
 * Die Daten enthalten mehrere Identitäten, die zu umfangreicheren, zusammengefügten Profilfragmenten beitragen.

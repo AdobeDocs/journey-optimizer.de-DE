@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
+workflow-type: tm+mt
+source-wordcount: '486'
+ht-degree: 92%
 
 ---
 
@@ -24,11 +24,11 @@ Mit dem Echtzeit-Kundenprofil in [!DNL Adobe Journey Optimizer] erhalten Sie ein
 
 **Echtzeit-Kundenprofil**: Integrieren Sie Kundenattribute und Ereignisse aus Online-, Offline- und pseudonymen Quellen in ein einziges, einheitliches Profil.Verwenden Sie das Profil, um mit der Kundschaft über mehrere Touchpoints hinweg durch personalisierte Echtzeiterlebnisse zu interagieren. 
 
-**Datenaufnahme**: Stellen Sie eine Verbindung zu verschiedenen Datenquellen her, um Verhaltens-, Transaktions-, Finanz- und Betriebsdaten aufzunehmen. Importieren Sie Daten entweder in Echtzeit oder über Batch-Uploads, um Profile ständig zu aktualisieren. 
+**Datenaufnahme**: Stellen Sie eine Verbindung zu verschiedenen Datenquellen her, um Verhaltens-, Transaktions-, Finanz- und Betriebsdaten aufzunehmen. Nehmen Sie Daten entweder in Echtzeit oder über Batch-Uploads auf, um Profile ständig zu aktualisieren. Profile werden nicht direkt in der [!DNL Journey Optimizer] erstellt, sondern automatisch in Adobe Experience Platform erstellt oder aktualisiert, wenn Daten aufgenommen werden.
 
 >[!NOTE]
 >
->Bei der Datenaufnahme wird bei E-Mail-Adressen die Groß- und Kleinschreibung beachtet. Das bedeutet, dass möglicherweise doppelte Profile erstellt (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.greene@luma.com) und beim Targeting der entsprechenden Person in Ihren [!DNL Journey Optimizer]-Journeys und Kampagnen verwendet werden.
+>Bei der Datenaufnahme wird bei E-Mails die Groß- und Kleinschreibung beachtet. Das bedeutet, dass möglicherweise doppelte Profile erstellt (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.greene@luma.com) und beim Targeting der entsprechenden Person in Ihren [!DNL Journey Optimizer]-Journeys und Kampagnen verwendet werden.
 
 **Identitätsdiagramm**: Kombinieren Sie Daten aus verschiedenen Quellen mithilfe von Kundenidentitäten wie Treue-IDs oder CRM-System-IDs. Erstellen Sie eine umfassende Ansicht der Kundin oder des Kunden, indem Sie Beziehungen zwischen verschiedenen Identitäten in den Datensätzen einer Marke zuordnen. 
 
@@ -58,4 +58,4 @@ Datenfragmente können aus verschiedenen Quellen zusammengeführt und kombiniert
 
 In diesem Video wird erläutert, wie Adobe Experience Platform Echtzeit-Kundenprofile zusammenstellt und aktualisiert und wie Sie auf diese Profile zugreifen und sie verwenden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/31581?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

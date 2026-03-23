@@ -5,9 +5,9 @@ title: Suche nach Erlebnisereignissen in Journeys
 description: Informationen zum Verwenden der Suche nach Erlebnisereignissen in Journeys
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
+source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '961'
 ht-degree: 76%
 
 ---
@@ -107,7 +107,7 @@ Weitere Informationen:
 
 So personalisieren Sie die Nachrichten basierend auf den letzten Ereignissen im Zusammenhang mit dem Warenkorb oder der Seitennavigation über mehrere Warenkorbtypen oder Produktansichten hinweg:
 
-* Wenn Sie Zugriff auf [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/overview){target="_blank"} haben, konfigurieren Sie automatisierte Abfragen, um die erforderlichen Daten aus dem Ereignis zu extrahieren, sie an den Anwendungsfall anzupassen und sie zur Aktivierung in einen profilaktivierten Datensatz zurückzuschreiben.
+* Wenn Sie Zugriff auf [[!DNL Adobe Experience Platform] Daten-Distiller](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/overview){target="_blank"} haben, konfigurieren Sie automatisierte Abfragen, um die erforderlichen Daten aus dem Ereignis zu extrahieren, sie an den Anwendungsfall anzupassen und sie zur Aktivierung [ einen profilaktivierten Datensatz](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} zurückzuschreiben.
 * Wenn die Daten zum Abbruchverhalten anhand des Profils mit Skalarattributen modelliert werden können, sollten Sie berechnete Attribute verwenden, um die neuesten Informationen zu erfassen, und diese Attribute dann in der Journey referenzieren, um Nachrichten zu erstellen. [Weitere Informationen finden Sie in  [!DNL Adobe Experience Platform]  Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
