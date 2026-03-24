@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 83%
+source-wordcount: '344'
+ht-degree: 85%
 
 ---
 
@@ -37,7 +37,7 @@ Unser Entscheidungs-Framework der nächsten Generation, das dazu dient, bestehen
 * Aktualisierte Entscheidungsrichtlinie und Konfiguration der Auswahlstrategie: Lassen die erneute Verwendung von Entscheidungskomponenten zu
 * Experimentfunktionen: Testen die Entscheidungslogik anhand anderer Inhaltskomponenten, um die Leistung zu messen
 
-Decisioning steht allen Kunden für die Kanäle **Code-basiertes Erlebnis**, **Push-Benachrichtigung** und **SMS** zur Verfügung. Die Entscheidungsfindung für den Kanal **E-Mail** ist in begrenzter Verfügbarkeit verfügbar. Um Zugriff auf E-Mail-Entscheidungen zu erhalten, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter. Weitere Informationen zu [Verfügbarkeitskennzeichnungen](../rn/releases.md#availability-labels).
+Decisioning steht allen Kunden für die Kanäle **Code-basiertes Erlebnis**, **Push-Benachrichtigung** und **SMS** zur Verfügung. Die Entscheidungsfindung für den Kanal **E-Mail** ist in begrenzter Verfügbarkeit verfügbar. Um Zugriff auf E-Mail-Entscheidungen zu erhalten, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
 
 ➡️ [Erste Schritte mit der Entscheidungsfindung](../experience-decisioning/gs-experience-decisioning.md)
 
