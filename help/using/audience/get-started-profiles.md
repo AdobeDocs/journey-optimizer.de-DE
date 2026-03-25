@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 92%
+source-wordcount: '494'
+ht-degree: 91%
 
 ---
 
@@ -38,6 +38,7 @@ Mit dem Echtzeit-Kundenprofil in [!DNL Adobe Journey Optimizer] erhalten Sie ein
 
 >[!MORELIKETHIS]
 >
+>* [Erste Schritte mit der Datenverwaltung in Journey Optimizer](../data/gs-data.md)
 >* [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"}
 >* [Standardleitlinien für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"}
 >* [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/home){target="_blank"}
@@ -58,4 +59,4 @@ Datenfragmente können aus verschiedenen Quellen zusammengeführt und kombiniert
 
 In diesem Video wird erläutert, wie Adobe Experience Platform Echtzeit-Kundenprofile zusammenstellt und aktualisiert und wie Sie auf diese Profile zugreifen und sie verwenden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/31581?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

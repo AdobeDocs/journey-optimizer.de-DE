@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 89%
 
 ---
 
@@ -102,7 +102,7 @@ Ihre administrative Arbeit ermöglicht es allen Teams, erfolgreich zu sein:
 
 >[!TAB Unterstützen von Dateningenieurinnen und -ingenieuren]
 
-Arbeiten Sie mit [Dateningenieurinnen und -ingenieuren](data-engineer.md) bei Verwaltung und Zugriff auf Daten zusammen:
+Zusammenarbeit mit [Dateningenieuren](data-engineer.md) bei der Verwaltung und dem Zugriff auf Daten. Lesen Sie die Übersicht [Erste Schritte mit dem Daten](../../data/gs-data.md), um die Schemata, Datensätze und Datenquellen zu verstehen, die Ihre Dateningenieure konfigurieren müssen.
 
 * Erteilen von Berechtigungen für das Daten-Management und die Schemaerstellung
 * Genehmigen des Sandbox-Zugriffs für Entwicklung und Tests

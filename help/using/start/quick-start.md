@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 88%
+source-wordcount: '1867'
+ht-degree: 86%
 
 ---
 
@@ -123,7 +123,7 @@ Als Datenarchitektin bzw. -architekt oder Dateningenieurin bzw. -ingenieur richt
 * **Profil-Management**: Aktivieren Sie Datensätze für das Echtzeit-Kundenprofil, um personalisierte Erlebnisse zu ermöglichen.
 * **Datenqualität** Überwachen Sie die Datenaufnahme, um sicherzustellen, dass alle Daten reibungslos in Journey Optimizer gelangen.
 
-**Erster Schritt:** Modellieren des ersten Kundenprofilschemas und Konfigurieren eines Quell-Connectors, um mit der Datenaufnahme zu beginnen.
+**Erste Schritte mit:** Lesen Sie [Erste Schritte mit dem Daten-Management](../data/gs-data.md)Überblick , um Schemata, Datensätze, Identitäten und die vollständige Checkliste für die Dateneinrichtung zu verstehen. Modellieren Sie dann Ihr erstes Kundenprofilschema und konfigurieren Sie einen Quell-Connector , um mit der Datenaufnahme zu beginnen.
 
 [Erste Schritte als Dateningenieurin bzw. -ingenieur →](path/data-engineer.md)
 
@@ -210,7 +210,7 @@ Erfolgreiche Journey Optimizer-Implementierungen erfordern die Zusammenarbeit al
 
 Weitere Informationen zu den wichtigsten Funktionen und Personas von Journey Optimizer finden Sie im Einführungsvideo. Das Video führt Sie durch die Benutzeroberfläche und hebt je nach rollenspezifischen Workflows zentrale Funktionen hervor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432377?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Weitere Ressourcen
 
@@ -221,6 +221,7 @@ Detailliertere Informationen und Aktualisierungen finden Sie in den folgenden Re
 >[!TAB Lernmaterialien und Dokumentation]
 
 * [Anleitungsvideos](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=de){target="_blank"}: Detaillierte Video-Tutorials für alle Rollen
+* [Erste Schritte mit dem Daten](../data/gs-data.md)Management - Schemata, Datensätze, Identitäten und die Checkliste für die Datenbereitschaft für Journey Optimizer
 * [Journey-Anwendungsfallbibliothek](../building-journeys/jo-use-cases.md): Praxisbeispiele und Implementierungsmuster
 * [KI und intelligente Funktionen](ai-features.md): Informationen über den KI-Assistenten, die Versandzeitoptimierung und die Inhaltsgenerierung
 * [Handbuch zur Benutzeroberfläche](user-interface.md): Effektive Navigation in Journey Optimizer

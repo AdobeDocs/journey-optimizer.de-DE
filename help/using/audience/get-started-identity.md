@@ -7,10 +7,10 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '215'
+ht-degree: 94%
 
 ---
 
@@ -30,3 +30,9 @@ Nehmen wir die Telefonnummer 555-555-1234 als Beispiel. Die Zeichenfolge „555-
 Es stellt ein **Identitätsdiagramm** zur Verfügung, das eine Zuordnung von Beziehungen zwischen verschiedenen Identitäten für eine bestimmte Kundin oder einen bestimmten Kunden darstellt. Dieses Diagramm zeigt visuell, wie eine Kundin oder ein Kunde über verschiedene Kanäle hinweg mit einer Marke interagiert. Alle Kunden-Identitätsdiagramme werden von Adobe Experience Platform Identity Service bei Kundenaktivität zusammen verwaltet und aktualisiert.
 
 Detaillierte Informationen zum Arbeiten mit Identitäten sind in der [Dokumentation zu Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"} verfügbar.
+
+>[!MORELIKETHIS]
+>
+>* [Erste Schritte mit der Datenverwaltung in Journey Optimizer](../data/gs-data.md)
+>* [Erste Schritte mit Profilen](get-started-profiles.md)
+>* [Identity Service-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"}

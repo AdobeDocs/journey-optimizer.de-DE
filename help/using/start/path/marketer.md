@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 88%
+source-wordcount: '1612'
+ht-degree: 86%
 
 ---
 
@@ -27,7 +27,7 @@ Journey Optimizer bietet zwei leistungsstarke Orchestrierungsansätze:
 * **Journeys**: Eins-zu-eins-Interaktion in Echtzeit, bei der sich alle Kundinnen und Kunden in ihrem eigenen Tempo bewegen, ausgelöst durch Verhalten oder Ereignisse
 * **Orchestrierte Kampagnen**: Komplexe, mehrstufige Batch-Kampagnen im benötigten Umfang, bei denen Zielgruppen über Workflows zusammenarbeiten; perfekt für markenkonforme Kampagnen wie saisonale Werbeaktionen, Produkteinführungen oder kontobasierte Kommunikation
 
-Arbeiten Sie mit Ihren [Admins](administrator.md) zusammen, um Zugriff zu erhalten, und mit [Dateningenieurinnen und -ingenieuren](data-engineer.md), um Zielgruppen, Daten und relationale Schemata für die erweiterte Segmentierung einzurichten.
+Arbeiten Sie mit Ihren [Administratoren](administrator.md) zusammen, um Zugriff zu erhalten, und mit [Dateningenieuren](data-engineer.md), um Zielgruppen, Daten und relationale Schemata für die erweiterte Segmentierung einzurichten. Siehe den [Erste Schritte mit dem Daten-Management](../../data/gs-data.md) , um zu verstehen, welche Dateneinrichtung erforderlich ist, bevor Sie Journey und Kampagnen erstellen können.
 
 Führen Sie die folgenden grundlegenden Schritte aus, um mit der Erstellung von Erlebnissen zu beginnen:
 

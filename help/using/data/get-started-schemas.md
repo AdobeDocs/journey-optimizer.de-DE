@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Schemata, Plattform, Daten, Struktur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 98%
 
 ---
 
@@ -60,6 +60,7 @@ Erfahren Sie, wie Sie ein Standardschema erstellen, Feldergruppen hinzufügen so
 
 >[!MORELIKETHIS]
 >
+>* [Erste Schritte mit der Datenverwaltung in Journey Optimizer](gs-data.md)
 >* [Erstellen eines Schemas und eines Datensatzes und Aufnehmen von Daten zum Hinzufügen von Testprofilen in Journey Optimizer](../audience/creating-test-profiles.md)
 >* [XDM-System – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}
 >* [Best Practices für die Datenmodellierung](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=de){target="_blank"}

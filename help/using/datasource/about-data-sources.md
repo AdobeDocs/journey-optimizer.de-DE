@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Daten, Quelle, Journey, Plattform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 56%
+source-wordcount: '645'
+ht-degree: 54%
 
 ---
 
@@ -22,6 +22,9 @@ ht-degree: 56%
 >id="ajo_journey_data_source_list"
 >title="Informationen zu Datenquellen"
 >abstract="Die Konfiguration von Datenquellen wird immer von einem technischen Anwender durchgeführt. Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden. Damit können Sie Bedingungen definieren, Parameter- und Personalisierungsdaten in Aktionen verwenden sowie benutzerdefinierte Wartezeiten und die Zeitzone definieren."
+
+>[!TIP]
+>Neu bei der Datenverwaltung in Journey Optimizer? Beginnen Sie mit der [Erste Schritte mit dem Daten-Management](../data/gs-data.md) Übersicht , um Schemata, Datensätze, Identitäten und die Art und Weise des Datenflusses zu verstehen, bevor Sie Datenquellen konfigurieren.
 
 Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, zum Beispiel für:
 
@@ -51,7 +54,7 @@ Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen ab
 
 ## Wählen Ihrer Datenzugriffsstrategie {#data-access-strategy}
 
-Bevor Sie eine Datenquelle konfigurieren, überlegen Sie, welcher Ansatz Ihrem Anwendungsfall am besten entspricht. Es stehen drei Optionen zur Verfügung, die jeweils unterschiedliche Kompromisse hinsichtlich Persistenz, Profilanreicherung und Wiederverwendbarkeit aufweisen. Eine ausführliche Erläuterung dieser Optionen finden Sie unter [Best Practices für erweiterte Journey in Journey Optimizer](https://experienceleague.adobe.com/de/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Bevor Sie eine Datenquelle konfigurieren, überlegen Sie, welcher Ansatz Ihrem Anwendungsfall am besten entspricht. Es stehen drei Optionen zur Verfügung, die jeweils unterschiedliche Kompromisse hinsichtlich Persistenz, Profilanreicherung und Wiederverwendbarkeit aufweisen. Eine ausführliche Erläuterung dieser Optionen finden Sie unter [Best Practices für erweiterte Journey in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Option 1 - Zugriff auf externe Daten über benutzerdefinierte Aktionen (kein Data Lake)**
 
@@ -60,7 +63,7 @@ Stellen Sie zur Journey-Laufzeit eine direkte Verbindung zu einer externen API h
 * Die Daten sind nur innerhalb des Journey-Kontexts nützlich und anderswo nicht benötigt.
 * Auf das externe System kann über einen API-Endpunkt zugegriffen werden, der die erforderlichen Attribute zurückgibt.
 
-Erfahren Sie mehr über [benutzerdefinierte Aktionen](../action/action.md) und [benutzerdefinierte &#x200B;](../action/action-response.md).
+Erfahren Sie mehr über [benutzerdefinierte Aktionen](../action/action.md) und [benutzerdefinierte ](../action/action-response.md).
 
 **Option 2 — Datensatz im Data Lake, nicht für Profil aktiviert**
 
