@@ -11,10 +11,10 @@ keywords: Ausdruck, Editor
 mini-toc-levels: 1
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 94%
+source-wordcount: '894'
+ht-degree: 93%
 
 ---
 
@@ -56,8 +56,6 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
   **Batch 3**: Sku7, Sku8, Sku9, Sku10
 
   Wenn Sie **Batch 1** löschen, werden Sku1, Sku2 und Sku3 aus dem Suchspeicher entfernt. Die resultierenden Suchdaten enthalten dann: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
-
-* **Keine verketteten Suchen**: Datensatzsuchen können nicht verkettet werden. Anders ausgedrückt können Sie das Ergebnis einer Suche nicht als Variable verwenden, die dann zum Schlüssel für eine zweite Suche wird.
 
 ### Berechtigung für den Suchdienst
 
