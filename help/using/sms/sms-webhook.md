@@ -10,7 +10,7 @@ exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
 source-git-commit: 7b6efb1997074723be25b0f99d47debb1f1188e0
 workflow-type: tm+mt
 source-wordcount: '2742'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_flow_type"
 >title="Webhook-Typ auswählen"
->abstract="Beim Einrichten eines Webhooks &quot;**&quot;,** wählen, um Einverständnisantworten und Benutzervoreinstellungen zu erfassen, oder &quot;**[!UICONTROL &quot;,]** Versand- und Interaktionsereignisse für Berichte und Analysen zu verfolgen."
+>abstract="Beim Einrichten eines Webhooks **Eingehend** wählen, um Einverständnisantworten und Benutzervoreinstellungen zu erfassen, oder **[!UICONTROL Feedback]**, um Versand- und Interaktionsereignisse für Berichte und Analysen zu verfolgen."
 
 >[!BEGINSHADEBOX]
 
@@ -104,7 +104,7 @@ Erstellen Sie für Sinch und Sinch Conversational einen einzigen Webhook, der so
 
 1. Wählen Sie eine Schlüsselwortkategorie aus der Dropdown **[!UICONTROL Liste „Eingehende]**&quot; aus, um Folgendes zu konfigurieren:
 
-   * &#x200B;
+   * 
      +++ Opt-in
 
       * Aktivieren von Keywords, die Benutzer mit deren Zustimmung anmelden. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer für den Empfang von SMS-Nachrichten angemeldet.
@@ -115,7 +115,7 @@ Erstellen Sie für Sinch und Sinch Conversational einen einzigen Webhook, der so
 
      +++
 
-   * &#x200B;
+   * 
      +++ Opt-out
 
       * Aktivieren Sie Schlüsselwörter, die Benutzer abmelden und die Zustimmung zum Senden von Textnachrichten entfernen. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer vom Erhalt von SMS-Nachrichten abgemeldet.
@@ -128,7 +128,7 @@ Erstellen Sie für Sinch und Sinch Conversational einen einzigen Webhook, der so
 
      +++
 
-   * &#x200B;
+   * 
      +++ Double-Opt-in
 
       * Aktivieren Sie Schlüsselwörter für die Anmeldeanforderung mit zweifacher Bestätigung. Wenn die Nachricht eines/r Benutzenden mit einem konfigurierten Keyword übereinstimmt, werden sie zu diesem Zeitpunkt nicht vollständig angemeldet. Dieser zweistufige Einverständnis-Workflow erfordert, dass Benutzer ihr Opt-in mit einem zweiten Schlüsselwort bestätigen.
@@ -137,7 +137,7 @@ Erstellen Sie für Sinch und Sinch Conversational einen einzigen Webhook, der so
 
      +++
 
-   * &#x200B;
+   * 
      +++ Hilfe
 
       * Aktivieren von Schlüsselwörtern, die eine Standardantwort liefern, wenn Hilfe angefordert wird. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, erhält er die Hilfe-Antwortnachricht.
@@ -148,7 +148,7 @@ Erstellen Sie für Sinch und Sinch Conversational einen einzigen Webhook, der so
 
      +++
 
-   * &#x200B;
+   * 
      +++ Benutzerspezifisch
 
       * Konfigurieren Sie ein einzelnes benutzerdefiniertes Keyword. Wenn die Nachricht eines Benutzers mit diesem Keyword übereinstimmt, wird das Keyword in den Datensatz **[!UICONTROL Nachrichten-Feedback-Tracking]** zum Erstellen von Berichten und Zielgruppen geschrieben.
@@ -210,7 +210,7 @@ Erstellen Sie für Infobip zwei separate Webhooks, einen für Feedback-Ereigniss
 
 1. Wählen Sie eine Schlüsselwortkategorie aus der Dropdown **[!UICONTROL Liste „Eingehende]**&quot; aus, um Folgendes zu konfigurieren:
 
-   * &#x200B;
+   * 
      +++ Opt-in
 
       * Aktivieren von Keywords, die Benutzer mit deren Zustimmung anmelden. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer für den Empfang von SMS-Nachrichten angemeldet.
@@ -221,7 +221,7 @@ Erstellen Sie für Infobip zwei separate Webhooks, einen für Feedback-Ereigniss
 
      +++
 
-   * &#x200B;
+   * 
      +++ Opt-out
 
       * Aktivieren Sie Schlüsselwörter, die Benutzer abmelden und die Zustimmung zum Senden von Textnachrichten entfernen. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer vom Erhalt von SMS-Nachrichten abgemeldet.
@@ -234,7 +234,7 @@ Erstellen Sie für Infobip zwei separate Webhooks, einen für Feedback-Ereigniss
 
      +++
 
-   * &#x200B;
+   * 
      +++ Double-Opt-in
 
       * Aktivieren Sie Schlüsselwörter für die Anmeldeanforderung mit zweifacher Bestätigung. Wenn die Nachricht eines/r Benutzenden mit einem konfigurierten Keyword übereinstimmt, werden sie zu diesem Zeitpunkt nicht vollständig angemeldet. Dieser zweistufige Einverständnis-Workflow erfordert, dass Benutzer ihr Opt-in mit einem zweiten Schlüsselwort bestätigen.
@@ -243,7 +243,7 @@ Erstellen Sie für Infobip zwei separate Webhooks, einen für Feedback-Ereigniss
 
      +++
 
-   * &#x200B;
+   * 
      +++ Hilfe
 
       * Aktivieren von Schlüsselwörtern, die eine Standardantwort liefern, wenn Hilfe angefordert wird. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, erhält er die Hilfe-Antwortnachricht.
@@ -254,7 +254,7 @@ Erstellen Sie für Infobip zwei separate Webhooks, einen für Feedback-Ereigniss
 
      +++
 
-   * &#x200B;
+   * 
      +++ Benutzerspezifisch
 
       * Konfigurieren Sie ein einzelnes benutzerdefiniertes Keyword. Wenn die Nachricht eines Benutzers mit diesem Keyword übereinstimmt, wird das Keyword in den Datensatz **[!UICONTROL Nachrichten-Feedback-Tracking]** zum Erstellen von Berichten und Zielgruppen geschrieben.
@@ -323,7 +323,7 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
 
 1. Wählen Sie eine Schlüsselwortkategorie aus der Dropdown **[!UICONTROL Liste „Eingehende]**&quot; aus, um Folgendes zu konfigurieren:
 
-   * &#x200B;
+   * 
      +++ Opt-in
 
       * Aktivieren von Keywords, die Benutzer mit deren Zustimmung anmelden. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer für den Empfang von SMS-Nachrichten angemeldet.
@@ -334,7 +334,7 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
 
      +++
 
-   * &#x200B;
+   * 
      +++ Opt-out
 
       * Aktivieren Sie Schlüsselwörter, die Benutzer abmelden und die Zustimmung zum Senden von Textnachrichten entfernen. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer vom Erhalt von SMS-Nachrichten abgemeldet.
@@ -347,7 +347,7 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
 
      +++
 
-   * &#x200B;
+   * 
      +++ Double-Opt-in
 
       * Aktivieren Sie Schlüsselwörter für die Anmeldeanforderung mit zweifacher Bestätigung. Wenn die Nachricht eines/r Benutzenden mit einem konfigurierten Keyword übereinstimmt, werden sie zu diesem Zeitpunkt nicht vollständig angemeldet. Dieser zweistufige Einverständnis-Workflow erfordert, dass Benutzer ihr Opt-in mit einem zweiten Schlüsselwort bestätigen.
@@ -356,7 +356,7 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
 
      +++
 
-   * &#x200B;
+   * 
      +++ Hilfe
 
       * Aktivieren von Schlüsselwörtern, die eine Standardantwort liefern, wenn Hilfe angefordert wird. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, erhält er die Hilfe-Antwortnachricht.
@@ -367,7 +367,7 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
 
      +++
 
-   * &#x200B;
+   * 
      +++ Benutzerspezifisch
 
       * Konfigurieren Sie ein einzelnes benutzerdefiniertes Keyword. Wenn die Nachricht eines Benutzers mit diesem Keyword übereinstimmt, wird das Keyword in den Datensatz **[!UICONTROL Nachrichten-Feedback-Tracking]** zum Erstellen von Berichten und Zielgruppen geschrieben.
@@ -393,13 +393,13 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
    +++Payload-Beispiel
 
        „json
-       &lbrace;
+       {
        „inboundMessage“: &quot;{{inboundMessage}}&quot;,
        „profileNumber“: &quot;{{profileNumber}}&quot;,
        „requestId“: &quot;{{requestId}}&quot;,
        „originTimestamp“: &quot;{{originTimestamp}}&quot;,
        „inboundNumber“: &quot;{{inboundNumber}}&quot;
-       &rbrace;
+       }
        &quot;
    +++
 
@@ -432,15 +432,15 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
    +++Payload-Beispiel
 
        „json
-       &lbrace;
+       {
        „clientReference“: &quot;{{client_reference}}&quot;,
-       „status“: &lbrack;
-       &lbrace;
+       „status“: [
+       {
        „code“: &quot;{{failureCode}}&quot;,
        „status“: &quot;{{feedbackStatus}}&quot;
-       &rbrace;
-       &rbrack;
-       &rbrace;
+       }
+       ]
+       }
        &quot;
    
    +++
