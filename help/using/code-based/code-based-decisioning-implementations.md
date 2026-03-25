@@ -6,28 +6,26 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 77%
+ht-degree: 95%
 
 ---
 
-# Entscheidungsfindung in Code-basierten Erlebnisimplementierungen {#code-based-decisioning-implementations}
+# Entscheidungsfindung bei Implementierungen von Code-basierten Erlebnissen {#code-based-decisioning-implementations}
 
 Wenn Sie die Entscheidungsfindung in Code-basierten Erlebnissen verwenden, sollten Sie in den nachfolgend beschriebenen Fällen die folgenden Markierungen zu Ihrer Client-Implementierung hinzufügen.
 
 >[!CAUTION]
 >
->Der Code-basierte Erlebniskanal unterstützt nur die Funktion [!DNL Journey Optimizer] [Decisioning](../experience-decisioning/gs-experience-decisioning.md). Die alte Entscheidungs-Management-Funktion ist nicht für Code-basierte Erlebnisse verfügbar.
+>Der Kanal für Code-basierte Erlebnisse unterstützt nur die [!DNL Journey Optimizer]-Funktion [Entscheidungsfindung](../experience-decisioning/gs-experience-decisioning.md). Die alte Entscheidungs-Management-Funktion ist nicht für Code-basierte Erlebnisse verfügbar.
 
-➡️ Weitere Informationen zum Konfigurieren von Web SDK für Code-basierte Erlebnisse und Entscheidungen finden Sie in [diesen Tutorials](#tutorials).
+➡️ Weitere Informationen zum Konfigurieren von Web SDK für Code-basierte Erlebnisse und Entscheidungen finden Sie [in diesen Tutorials](#tutorials).
 
 ## Testen von Code-basierten Erlebnissen mithilfe von Entscheidungen {#code-based-test-decisions}
 
-<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
-
-Beim Testen eines [Code-basierten Erlebnisses](create-code-based.md) mit der Entscheidungsfindung kann die Markierung `dryRun` verwendet werden, um Feedback-Ereignisse für Reporting- und Begrenzungszähler zu unterdrücken.
+Beim Testen [code-basierten Erlebnisses](create-code-based.md) mit Decisioning kann das `dryRun`-Flag verwendet werden, um Feedback-Ereignisse für Reporting- und Begrenzungszähler zu unterdrücken.
 
 Fügen Sie nach dem Veröffentlichen Ihrer Kampagne die Markierung `dryRun` zum XDM-Ereignis-Block `data` in Ihrer Client-Implementierung hinzu:
 
@@ -297,10 +295,10 @@ Nehmen wir an, Sie verwenden dieselbe Entscheidungsrichtlinie mit Kopf- und Fuß
 
 ## Tutorials {#tutorials}
 
-In diesem Tutorial erfahren Sie, wie Sie Code-basierte Erlebnisse mit der [Adobe Journey Optimizer-Erweiterung](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} für Adobe Experience Platform Mobile SDKs abrufen, anzeigen [&#x200B; verfolgen &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+In [diesem Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} erfahren Sie, wie Sie Code-basierte Erlebnisse mit der [Adobe Journey Optimizer-Erweiterung](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} für Adobe Experience Platform Mobile SDKs abrufen, anzeigen und nachverfolgen.
 
-In diesem Tutorial erfahren Sie, wie Sie mithilfe von Decisioning in Journey Optimizer Inhaltsangebote auf Ihrer Website personalisieren können, wobei der Schwerpunkt auf der Konfiguration von Web[SDK &#x200B;](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
+In [diesem Tutorial](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} erfahren Sie, wie Sie mithilfe von Entscheidungsfindung in Journey Optimizer Inhaltsangebote auf Ihrer Website personalisieren können, wobei der Schwerpunkt auf der Konfiguration von Web SDK liegt.
 
-Erfahren Sie in diesem Tutorial, wie Sie die Web-SDK konfigurieren und Decisioning mit Code-basierten Erlebnissen verwenden, um Angebote mithilfe von Echtzeit-Wetterdaten und kontextuellen Informationen [&#x200B; personalisieren](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
+In [diesem Tutorial](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} erfahren Sie, wie Sie das Web SDK konfigurieren und Entscheidungsfindung mit Code-basierten Erlebnissen verwenden, um Angebote mithilfe von Echtzeit-Wetterdaten und kontextuellen Informationen zu personalisieren.
 
 

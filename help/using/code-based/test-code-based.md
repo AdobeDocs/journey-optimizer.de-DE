@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 98%
+source-wordcount: '794'
+ht-degree: 87%
 
 ---
 
@@ -38,10 +38,11 @@ Führen Sie die folgenden Schritte aus, um eine Vorschau des geänderten Code-ba
 
 Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie in [diesem Abschnitt](../content-management/preview.md).
 
+Wenn Ihr Code-basiertes Erlebnis [Experience Decisioning](../experience-decisioning/gs-experience-decisioning.md) verwendet, können Sie die bereitzustellenden Entscheidungselemente in der Vorschau anzeigen: Wählen Sie in **[!UICONTROL Inhalt simulieren]** ein oder mehrere Testprofile aus und in der Vorschau werden die Entscheidungselemente angezeigt, die für jedes Profil qualifiziert sind.
+
 >[!NOTE]
 >
->Derzeit können Sie keine Inhalte über die Benutzeroberfläche in einer Kampagne oder Journey mit Code-basiertem Erlebnis mithilfe der [Entscheidungsfindung](../experience-decisioning/gs-experience-decisioning.md) simulieren. Eine Problemumgehung finden Sie in [diesem Abschnitt &#x200B;](../experience-decisioning/create-decision.md#test-and-publish).
-
+>Diese Vorschau ist **nur Inhaltsvorschau**: Sie zeigt an, welche Entscheidungselemente für das ausgewählte Testprofil qualifiziert sind und wie der Inhalt von erstellten Inhalten gerendert wird. **Kontextdaten** die in Live-Edge-Anfragen gesendet werden (z. B. Daten, die in Entscheidungskriterien verwendet oder in Ihrer Client-Implementierung referenziert werden) werden in der Vorschau **[!UICONTROL Inhalt simulieren]** nicht simuliert.
 
 ## Vorschau auf Gerät {#preview-on-device}
 

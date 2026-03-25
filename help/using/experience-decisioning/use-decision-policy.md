@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '773'
 ht-degree: 12%
 
 ---
@@ -87,13 +87,13 @@ Der Entscheidungsrichtlinien-Code wird hinzugefügt. Sie können jetzt Attribute
 
 >[!NOTE]
 >
->Wiederholen Sie diese Sequenz für Code-basierte Erlebnis- und E-Mail-Kanäle einmal pro Entscheidungselement, das Sie zurückgeben möchten. Wenn Sie beispielsweise beim Erstellen der Entscheidung zwei Elemente zurückgeben [, wiederholen &#x200B;](create-decision-policy.md) die Sequenz zweimal. Bei SMS- und Push-Kanälen kann nur ein Entscheidungselement zurückgegeben werden.
+>Wiederholen Sie diese Sequenz für Code-basierte Erlebnis- und E-Mail-Kanäle einmal pro Entscheidungselement, das Sie zurückgeben möchten. Wenn Sie beispielsweise beim Erstellen der Entscheidung zwei Elemente zurückgeben [, wiederholen ](create-decision-policy.md) die Sequenz zweimal. Bei SMS- und Push-Kanälen kann nur ein Entscheidungselement zurückgegeben werden.
 
 ## Mit Entscheidungselementattributen personalisieren {#attributes}
 
-Nachdem Sie den Code für eine Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, werden alle Attribute aus den zurückgegebenen Entscheidungselementen für die Personalisierung verfügbar. [Erfahren Sie, wie Sie mit Personalisierung &#x200B;](../personalization/personalize.md).
+Nachdem Sie den Code für eine Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, werden alle Attribute aus den zurückgegebenen Entscheidungselementen für die Personalisierung verfügbar. [Erfahren Sie, wie Sie mit Personalisierung ](../personalization/personalize.md).
 
-Attribute werden im „Angebote“ ([) &#x200B;](catalogs.md). Sie werden im Personalisierungseditor in den folgenden Ordnern angezeigt:
+Attribute werden im „Angebote“ ([) ](catalogs.md). Sie werden im Personalisierungseditor in den folgenden Ordnern angezeigt:
 * **Benutzerdefinierte Attribute**: `_\<imsOrg\>` Ordner
 * **Standardattribute**: `_experience` Ordner
 
@@ -136,10 +136,6 @@ Sobald Ihr Inhalt fertig ist, überprüfen und veröffentlichen Sie Ihre Kampagn
 * [Überprüfen und Aktivieren einer Kampagne](../campaigns/review-activate-campaign.md)
 
 Sobald Ihre Entwickelnden bei Code-basierten Erlebnissen einen API- oder SDK-Aufruf zum Abrufen von Inhalten für die in Ihrer Kanalkonfiguration definierte Oberfläche starten, werden die Änderungen auf Ihre Web-Seite oder App angewendet.
-
->[!NOTE]
->
->Sie können derzeit keine entscheidungsbasierten Inhalte für ([-basierte Erlebnisse](../code-based/create-code-based.md) Kampagnen oder Journey simulieren. Eine Problemumgehung ist verfügbar [hier](../code-based/code-based-decisioning-implementations.md).
 
 ## Reporting-Dashboards verwenden
 
