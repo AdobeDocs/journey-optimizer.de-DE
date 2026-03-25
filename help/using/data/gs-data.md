@@ -29,7 +29,7 @@ Auf dieser Seite erhalten Sie einen praktischen Ausgangspunkt zum Verständnis:
 Verwenden Sie dieses Handbuch zusammen mit Ihren Dateningenieuren, Administratoren und Marketern, damit jeder Benutzer ein gemeinsames Bild davon hat, wie Daten in Journey Optimizer ein- und ausfließen.
 
 >[!TIP]
->Neu bei der Datenverwaltung in Journey Optimizer? Sehen Sie sich [&#x200B; Tutorial zum Einrichten &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} Datenübersicht an, um eine praktische, anfängerfreundliche Anleitung für Schemata, Datensätze und Quellen zu erhalten.
+>Neu bei der Datenverwaltung in Journey Optimizer? Sehen Sie sich [&#x200B; Tutorial zum Einrichten &#x200B;](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} Datenübersicht an, um eine praktische, anfängerfreundliche Anleitung für Schemata, Datensätze und Quellen zu erhalten.
 
 ## Verwendung von Adobe Experience Platform-Daten durch Journey Optimizer {#aep-data}
 
@@ -40,7 +40,7 @@ Schemata und Datensätze sind in Adobe Experience Platform verfügbar. Identitä
 >[!TIP]
 >Stellen Sie sich Adobe Experience Platform als zentrale Datenschicht und Journey Optimizer als eine Anwendung vor, die Journey und Nachrichten mithilfe dieser gemeinsamen Datengrundlage orchestriert.
 
-➡️ [Erfahren Sie mehr über die Architektur von Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
+➡️ [Erfahren Sie mehr über die Architektur von Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
 
 ## Wichtige Datenkonzepte in Journey Optimizer {#key-concepts}
 
@@ -84,7 +84,7 @@ Eine Datenquelle in Journey Optimizer definiert, welche Felder aus Adobe Experie
 ➡️ [Erfahren Sie mehr über Datenquellen](../datasource/about-data-sources.md)
 
 >[!NOTE]
->Das [Adobe Experience Platform-Glossar](https://experienceleague.adobe.com/en/docs/experience-platform/landing/glossary){target="_blank"} definiert „Datenquelle“ allgemein als Ursprung von Daten (CRM, Mobile App usw.). In Journey Optimizer hat **Datenquelle** eine bestimmte Bedeutung: eine Benutzeroberflächenkonfiguration, die steuert, welche Felder in Journey und Nachrichten verfügbar gemacht werden.
+>Das [Adobe Experience Platform-Glossar](https://experienceleague.adobe.com/de/docs/experience-platform/landing/glossary){target="_blank"} definiert „Datenquelle“ allgemein als Ursprung von Daten (CRM, Mobile App usw.). In Journey Optimizer hat **Datenquelle** eine bestimmte Bedeutung: eine Benutzeroberflächenkonfiguration, die steuert, welche Felder in Journey und Nachrichten verfügbar gemacht werden.
 
 ### Identität und Echtzeit-Kundenprofil {#identity}
 
@@ -131,7 +131,7 @@ Konfigurieren Sie Quell-Connectoren für Ihre Unternehmenssysteme, z. B. Adobe A
 
 ➡️ [Weitere Informationen zu Quell-Connectoren](../start/get-started-sources.md)
 
-➡️ [Tutorial: Erstellen Sie Datensätze und nehmen Sie Daten auf](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+➡️ [Tutorial: Erstellen Sie Datensätze und nehmen Sie Daten auf](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
 
 ### &#x200B;5. Konfigurieren von Datenquellen in Journey Optimizer {#configure-data-sources}
 
@@ -140,7 +140,7 @@ Datenquellen sind ein Journey Optimizer-spezifisches Konzept: Sie sind nicht der
 Journey Optimizer enthält eine integrierte [Adobe Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md) die direkten Zugriff auf Echtzeit-Kundenprofilattribute bietet. Dies deckt den Großteil der Anwendungsfälle ab: das Lesen von Profilattributen zur Personalisierung oder das Überprüfen von Einverständnis- und Präferenzfeldern. Sie können [externe Datenquellen](../datasource/external-data-sources.md) auch so konfigurieren, dass Drittanbieter-APIs zur Journey-Laufzeit aufgerufen werden, um beispielsweise einen Echtzeit-Treueprogramm-Score, eine Produktempfehlung oder eine Store-Inventarebene abzurufen, die nicht in Adobe Experience Platform gespeichert ist.
 
 >[!NOTE]
->Der direkte Zugriff auf Erlebnisereignisdaten über die integrierte Adobe Experience Platform-Datenquelle wird nicht mehr unterstützt und schrittweise deaktiviert. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}.
+>Der direkte Zugriff auf Erlebnisereignisdaten über die integrierte Adobe Experience Platform-Datenquelle wird nicht mehr unterstützt und schrittweise deaktiviert. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}.
 
 Das Konfigurieren von Datenquellen ist eine Verwaltungsaufgabe, die die vollständige Datenschicht für Journey-Autoren und Marketing-Experten freischaltet. Sobald ein Feld über eine Datenquelle verfügbar gemacht wurde, wird es im Journey-Bedingungsgenerator, in den Nachrichtenpersonalisierungseditoren und in Offer Decisioning-Regeln verfügbar, ohne dass zum Zeitpunkt der Journey-Erstellung zusätzliche technische Arbeiten erforderlich sind.
 
@@ -204,6 +204,6 @@ Dieser Fluss veranschaulicht, wie Schemas, Datensätze, Quellen, Datenquellen un
 
 * **[Erste Schritte mit Profilen](../audience/get-started-profiles.md)** - Erfahren Sie, wie das Echtzeit-Kundenprofil in Journey Optimizer funktioniert und wie Sie einzelne Kundenprofile in der Platform-Benutzeroberfläche durchsuchen, untersuchen und validieren.
 
-* **[Tutorial zur Datenübersicht einrichten](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}** - Eine Videoeinführung für Anfänger, in der die Einrichtung von Daten in Journey Optimizer erläutert wird und Schemata, Datensätze und Quellen von Anfang bis Ende behandelt werden.
+* **[Tutorial zur Datenübersicht einrichten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}** - Eine Videoeinführung für Anfänger, in der die Einrichtung von Daten in Journey Optimizer erläutert wird und Schemata, Datensätze und Quellen von Anfang bis Ende behandelt werden.
 
-* **[Tutorial zum Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}** - Ein praktisches Tutorial, das zeigt, wie Datensätze in Adobe Experience Platform erstellt und mithilfe von Quell-Connectoren aufgenommen werden, mit schrittweisen Anweisungen, die Sie in Ihrer eigenen Sandbox befolgen können.
+* **[Tutorial zum Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}** - Ein praktisches Tutorial, das zeigt, wie Datensätze in Adobe Experience Platform erstellt und mithilfe von Quell-Connectoren aufgenommen werden, mit schrittweisen Anweisungen, die Sie in Ihrer eigenen Sandbox befolgen können.
