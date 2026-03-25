@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,11 @@ Aufgaben definieren die spezifischen Aktionen oder Meilensteine, die Kundinnen u
 Jede Aufgabe stellt eine messbare Aktion dar, die zum Abschluss der Herausforderung beiträgt. Aufgaben sind wiederverwendbare Komponenten, die unabhängig erstellt und dann zu einer oder mehreren Herausforderungen hinzugefügt oder direkt in einer Herausforderung erstellt werden können.
 
 ## Erstellen einer Aufgabe {#create-task}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_create"
+>title="Erstellen einer Aufgabe"
+>abstract="Wählen Sie eine Kundenaktivität (Kauf oder Ausgaben) aus und konfigurieren Sie dann aktivitätsspezifische Attribute: Mengen oder Beträge, geeignete Artikel und Ausschlüsse sowie optionale Limits wie Mindestausgaben oder maximale Transaktionen. Legen Sie im Bereich Eigenschaften den Aufgabennamen und die Beschreibung fest."
 
 Sie können Aufgaben aus zwei Einstiegspunkten erstellen. Der Konfigurationsprozess ist unabhängig davon, wo Sie beginnen, identisch.
 
@@ -101,6 +106,11 @@ Verfügbare Attribute für **Ausgaben**-Aktivitäten:
 >[!ENDTABS]
 
 ## Definieren der zulässigen Elemente und Ausschlüsse {#eligible-items-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_eligible_items_exclusion"
+>title="Zulässige Elemente und Ausschlüsse"
+>abstract="Legen Sie fest, welche Käufe bei Kauf- und Ausgabenaufgaben gezählt werden. Geben Sie im ersten Feld kommagetrennte Element-IDs, Kategorien oder Ziel-IDs ein, um nur diese zuzulassen. Lassen Sie es leer, damit alle Käufe gezählt werden, oder geben Sie ein Sternchen ein, um alle Käufe zu meinen. Im zweiten Feld werden Artikel oder Kategorien aufgelistet, die nie gezählt werden sollten - wie Geschenkgutscheine oder Abfertigungen."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 

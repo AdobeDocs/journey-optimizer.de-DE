@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '712'
 ht-degree: 4%
 
 ---
@@ -38,6 +38,11 @@ ht-degree: 4%
 >Diese Funktion befindet sich derzeit in der **privaten Betaversion**. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
 
 ## Überblick {#overview}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_inventory"
+>title="Herausforderungen bei der Treue"
+>abstract="Herausforderungen im Zusammenhang mit der Kundentreue sind Gamified-Programme, mit denen Kunden für die Erfüllung von Aufgaben belohnt werden. Erfahren Sie, was sie sind, wie sich Standard-, Streak- und sequenzielle Herausforderungen unterscheiden und was Sie konfigurieren können, bevor Sie eine Herausforderung erstellen."
 
 Herausforderungen im Zusammenhang mit der Kundentreue ermöglichen es Ihnen, ansprechende, Gamified-Treueprogramme zu erstellen, die das Kundenverhalten fördern und die Markenbeziehungen vertiefen. Stellen Sie Herausforderungen auf, die Kunden für bestimmte Aktionen belohnen - von Käufen und dem Schreiben von Rezensionen bis hin zur Interaktion in sozialen Medien und der Vermittlung von Freunden.
 
