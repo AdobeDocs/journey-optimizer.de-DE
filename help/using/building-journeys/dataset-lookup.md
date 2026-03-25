@@ -8,12 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 76%
+source-wordcount: '891'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Aktivität „Datensatzsuche“"
->abstract="Die Aktivität **[!UICONTROL Datensatzsuche]** ermöglicht das dynamische Abrufen von Daten aus [!DNL Adobe Experience Platform]-Eintragsdatensätzen während der Laufzeit. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind."
+>abstract="Mit **[!UICONTROL Aktivität „Datensatzsuche]** können Sie während der Laufzeit dynamisch Daten aus [!DNL Adobe Experience Platform] Datensatzdatensätzen abrufen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind."
 
 Mit **[!UICONTROL Aktivität „Datensatzsuche]** können Sie während der Laufzeit dynamisch Daten aus [!DNL Adobe Experience Platform] Datensatzdatensätzen abrufen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind.
 
@@ -31,10 +30,6 @@ Wichtigste Vorteile:
 * **Echtzeit-Personalisierung**: Passen Sie Kundenerlebnisse mit angereicherten Daten an.
 * **Dynamische Entscheidungsfindung**: Nutzen Sie externe Daten, um Logik und Aktionen von Journeys zu steuern.
 * **Verbesserter Datenzugriff**: Rufen Sie Produktmetadaten, Preistabellen oder relationale Daten ab, die mit bestimmten Schlüsseln verknüpft sind.
-
->[!AVAILABILITY]
->
->Diese Aktivität ist nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 ## Wichtige Informationen {#must-read}
 

@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Handlebars, Iteration, Arrays, Kontext, Personalisierung
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3040'
 ht-degree: 98%
 
 ---
@@ -255,10 +255,6 @@ Das folgende Beispiel zeigt, wie Sie dynamische Vorteile basierend auf dem Treue
 ## Iterieren über die Ergebnisse der Datensatzsuche {#dataset-lookup}
 
 Die Aktivität [Datensatzsuche](../building-journeys/dataset-lookup.md) ermöglicht das dynamische Abrufen von Daten aus [Adobe Experience Platform-Datensätzen](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de){target="_blank"} während der Journey-Laufzeit. Die angereicherten Daten werden als Array gespeichert und es kann in Ihren Nachrichten über sie iteriert werden.
-
->[!AVAILABILITY]
->
->Die Aktivität „Datensatzsuche“ ist nur für eine begrenzte Anzahl von Organisationen verfügbar. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Weitere Informationen zum Konfigurieren der Aktivität „Datensatzsuche“ finden Sie [in diesem Abschnitt](../building-journeys/dataset-lookup.md). Die Datensatzsuche ist besonders leistungsstark in Kombination mit Ereignisdaten. Einen praktischen Anwendungsfall finden Sie unter [Beispiel: Mit Datensatzsuche angereicherte Ereignisdaten](#combine-sources).
 
@@ -962,7 +958,7 @@ Handlebars bieten spezielle Variablen in Schleifen, die bei erweiterten Iteratio
 
 >[!NOTE]
 >
->Diese Handlebars-Variablen (`@index`, `@first`, `@last`) sind nur in `{{#each}}`-Schleifen bei der Nachrichtenpersonalisierung verfügbar. Verwenden Sie zum Arbeiten mit Arrays in Journey-Ausdrücken (z. B. Abrufen des ersten Elements aus einem Array vor der Übergabe an eine benutzerdefinierte Aktion) Array-Funktionen wie [`head`](../personalization/functions/arrays-list.md#head), [`first`](../building-journeys/expression/collection-management-functions.md) oder [`all`](../building-journeys/expression/collection-management-functions.md). Weitere Informationen finden Sie unter [&#x200B; Arbeiten mit Arrays in Journey-Ausdrücken](#arrays-in-journeys).
+>Diese Handlebars-Variablen (`@index`, `@first`, `@last`) sind nur in `{{#each}}`-Schleifen bei der Nachrichtenpersonalisierung verfügbar. Verwenden Sie zum Arbeiten mit Arrays in Journey-Ausdrücken (z. B. Abrufen des ersten Elements aus einem Array vor der Übergabe an eine benutzerdefinierte Aktion) Array-Funktionen wie [`head`](../personalization/functions/arrays-list.md#head), [`first`](../building-journeys/expression/collection-management-functions.md) oder [`all`](../building-journeys/expression/collection-management-functions.md). Weitere Informationen finden Sie unter [ Arbeiten mit Arrays in Journey-Ausdrücken](#arrays-in-journeys).
 
 ## Fehlerbehebung {#troubleshooting}
 
