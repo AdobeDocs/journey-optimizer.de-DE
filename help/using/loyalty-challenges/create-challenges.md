@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1807'
 ht-degree: 1%
 
 ---
@@ -262,7 +262,7 @@ Legen Sie nach Abschluss der Messaging-Konfiguration fest, welche Kunden für di
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Zielgruppe"
->abstract="Wählen Sie auf der Registerkarte Zielgruppe aus, wer an der Challenge teilnehmen kann. Wählen Sie Zielgruppe auswählen aus, wählen Sie im Dialogfeld Ihre Zielgruppe aus den verfügbaren Adobe Experience Platform-Zielgruppen aus und klicken Sie auf Zielgruppe hinzufügen . Nur Mitglieder dieser Zielgruppe sind berechtigt. Zielgruppen werden in Experience Platform definiert. Verwenden Sie eine bestehende Zielgruppe oder erstellen Sie dort eine, bevor Sie diesen Schritt abschließen."
+>abstract="Wählen Sie auf der Registerkarte Zielgruppe aus den verfügbaren Adobe Experience Platform-Zielgruppen aus, wer an der Challenge teilnehmen kann."
 
 Definieren Sie, welche Kundinnen und Kunden an Ihrer Herausforderung der Treue teilnehmen können.
 

@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '808'
 ht-degree: 2%
 
 ---
@@ -110,7 +110,7 @@ Verfügbare Attribute für **Ausgaben**-Aktivitäten:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="Zulässige Elemente und Ausschlüsse"
->abstract="Legen Sie fest, welche Käufe bei Kauf- und Ausgabenaufgaben gezählt werden. Geben Sie im ersten Feld kommagetrennte Element-IDs, Kategorien oder Ziel-IDs ein, um nur diese zuzulassen. Lassen Sie es leer, damit alle Käufe gezählt werden, oder geben Sie ein Sternchen ein, um alle Käufe zu meinen. Im zweiten Feld werden Artikel oder Kategorien aufgelistet, die nie gezählt werden sollten - wie Geschenkgutscheine oder Abfertigungen."
+>abstract="Sowohl für **Kauf** als auch für **Ausgaben** können Sie das Attribut **[!UICONTROL Mögliche Artikel und Ausschlüsse]** verwenden, um festzulegen, welche Artikel und Gruppen förderfähig und welche ausgeschlossen sind. Auf diese Weise können Sie bestimmte Produkte, Kategorien oder Standorte auswählen, um sie an Ihre Challenge-Ziele anzupassen. Sie können beispielsweise eine Ausgabenaufgabe auf bestimmte Produktkategorien beschränken oder Geschenkgutscheine oder Werbeartikel von der Zählung für die Aufgabenerledigung ausschließen."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
