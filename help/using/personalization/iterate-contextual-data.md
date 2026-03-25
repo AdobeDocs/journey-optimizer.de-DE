@@ -958,7 +958,7 @@ Handlebars bieten spezielle Variablen in Schleifen, die bei erweiterten Iteratio
 
 >[!NOTE]
 >
->Diese Handlebars-Variablen (`@index`, `@first`, `@last`) sind nur in `{{#each}}`-Schleifen bei der Nachrichtenpersonalisierung verfügbar. Verwenden Sie zum Arbeiten mit Arrays in Journey-Ausdrücken (z. B. Abrufen des ersten Elements aus einem Array vor der Übergabe an eine benutzerdefinierte Aktion) Array-Funktionen wie [`head`](../personalization/functions/arrays-list.md#head), [`first`](../building-journeys/expression/collection-management-functions.md) oder [`all`](../building-journeys/expression/collection-management-functions.md). Weitere Informationen finden Sie unter [ Arbeiten mit Arrays in Journey-Ausdrücken](#arrays-in-journeys).
+>Diese Handlebars-Variablen (`@index`, `@first`, `@last`) sind nur in `{{#each}}`-Schleifen bei der Nachrichtenpersonalisierung verfügbar. Verwenden Sie zum Arbeiten mit Arrays in Journey-Ausdrücken (z. B. Abrufen des ersten Elements aus einem Array vor der Übergabe an eine benutzerdefinierte Aktion) Array-Funktionen wie [`head`](../personalization/functions/arrays-list.md#head), [`first`](../building-journeys/expression/collection-management-functions.md) oder [`all`](../building-journeys/expression/collection-management-functions.md). Weitere Informationen finden Sie unter [&#x200B; Arbeiten mit Arrays in Journey-Ausdrücken](#arrays-in-journeys).
 
 ## Fehlerbehebung {#troubleshooting}
 
