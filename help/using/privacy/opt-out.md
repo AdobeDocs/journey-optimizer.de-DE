@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 95%
+source-wordcount: '1207'
+ht-degree: 84%
 
 ---
 
@@ -25,12 +25,25 @@ Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der Doku
 
 Beim Versand von Nachrichten von Journeys oder Kampagnen müssen Sie stets sicherstellen, dass sich Kundinnen und Kunden von der künftigen Kommunikation abmelden können.  Nach der Kündigung des Abos werden die Profile automatisch aus der Zielgruppe künftiger Marketing-Nachrichten entfernt.
 
-**[!DNL Journey Optimizer]** bietet Möglichkeiten zum Verwalten des Opt-outs in E-Mails und SMS-Nachrichten. Push-Benachrichtigungen erfordern hingegen keine Maßnahme Ihrerseits, da sich Empfänger selbst über ihre Geräte abmelden können. Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer Mobile App deaktivieren. Ebenso können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem ändern.
+Während **[!DNL Journey Optimizer]** Möglichkeiten zum Verwalten des Opt-outs in E-Mails und SMS-Nachrichten bietet, erfordern Push-Benachrichtigungen keine Aktion von Ihrer Seite, da sich Empfänger selbst über ihre Geräte abmelden können. Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer App deaktivieren. Ebenso können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem ändern.
 
 >[!NOTE]
 >
->Darüber hinaus können Sie über die **Unterdrückungs-REST-API** von Journey Optimizer Ihre ausgehenden Nachrichten mithilfe von Unterdrückungs- und Zulassungslisten steuern. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+>Darüber hinaus können Sie über das **Unterdrückungs-REST-API** von Journey Optimizer Ihre ausgehenden Nachrichten mithilfe von Unterdrückungs- und Zulassungslisten steuern. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
+### Push-Opt-out-Status überprüfen {#push-opt-out-status}
+
+Ein Push-Opt-out für Mobile Apps wird auf Geräteebene gehandhabt: Wenn ein Benutzer Benachrichtigungen auf seinem Gerät deaktiviert, wird das Push-Token aus seinem Profil entfernt. Das **Vorhandensein eines Push-Tokens** auf einem Profil ist daher der Indikator für das implizite Push-Einverständnis.
+
+So überprüfen Sie den Push-Einverständnisstatus eines Profils in Adobe Experience Platform:
+
+1. Öffnen Sie das Profil im **[!UICONTROL Profile]** von Adobe Experience Platform.
+1. Wechseln Sie zur Registerkarte **[!UICONTROL Attribute]** und suchen Sie nach der Feldergruppe **[!UICONTROL Details zur Push-Benachrichtigung]**.
+1. Wenn ein Push-Token vorhanden ist, hat das Profil dem Empfang von Push-Benachrichtigungen implizit zugestimmt. Wenn kein Token gefunden wird, hat sich der Benutzer auf Geräteebene abgemeldet.
+
+>[!NOTE]
+>
+>Verwenden Sie für Compliance-Anwendungsfälle, die eine explizite Push-Einverständnisverfolgung erfordern, das **`consents.marketing.push.val`** -Attribut aus der [Einverständnis und Voreinstellungen](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"}. Der Wert `y` bedeutet explizites Opt-in, `n` explizites Opt-out.
 
 In den folgenden Abschnitten erfahren Sie, wie Sie Opt-out-Verfahren in E-Mails und SMS-Nachrichten von Journey Optimizer verwalten:
 
