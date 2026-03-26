@@ -95,7 +95,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
 
    Die Kampagne wird täglich oder an ausgewählten Tagen ausgeführt.
 
-   * **[!UICONTROL Tägliche Wiederholung]**: Wählen Sie aus, wie oft die Kampagne ausgeführt werden soll:
+   * **[!UICONTROL Täglich]**: Wählen Sie aus, wie oft die Kampagne ausgeführt werden soll:
       * **[!UICONTROL Jeden Tag]**: Die Kampagne wird an jedem Wochentag ausgeführt, einschließlich dem Wochenende.
       * **[!UICONTROL An Wochentagen]**: Die Kampagne wird nur von Montag bis Freitag ausgeführt.
       * **[!UICONTROL Über einen bestimmten Zeitraum]**: Die Kampagne wird täglich innerhalb eines definierten Datumsbereichs ausgeführt (z. B. vom 1. Juli bis zum 15. Juli). Die Kampagne wird nicht außerhalb dieses Zeitraums ausgeführt.
@@ -120,7 +120,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
 
    * **[!UICONTROL Häufigkeit]**: Wählen Sie aus, wie oft die Kampagne ausgeführt werden soll (z. B. jede Woche, alle 2 Wochen).
    * **[!UICONTROL Ab dem Datum]**: Wählen Sie das Datum aus, an dem das Intervall beginnen soll.
-   * **[!UICONTROL Tägliche Wiederholung]**: Wählen Sie bestimmte Wochentage für die Ausführung aus (z. B. jeden Montag und Donnerstag).
+   * **[!UICONTROL Täglich]**: Wählen Sie bestimmte Wochentage für die Ausführung aus (z. B. jeden Montag und Donnerstag).
    * **[!UICONTROL Startzeit]**: Legen Sie die Zeit fest, zu der die Kampagne an ausgewählten Tagen ausgeführt werden soll.
 
    +++
@@ -129,8 +129,8 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
 
    Die Kampagne wird monatlich ausgeführt, mit Optionen zur Einstellung bestimmter Tage.
 
-   * **[!UICONTROL Monatliche Wiederholung]**: Wählen Sie aus, ob die Kampagne jeden Monat oder nur während bestimmter Monate ausgeführt werden soll.
-   * **[!UICONTROL Tägliche Wiederholung]**:
+   * **[!UICONTROL Monatlich]**: Wählen Sie aus, ob die Kampagne jeden Monat oder nur während bestimmter Monate ausgeführt werden soll.
+   * **[!UICONTROL Täglich]**:
       * **[!UICONTROL Jeden Tag]**: Die Kampagne wird an jedem Kalendertag im Monat ausgeführt, einschließlich an Wochenenden.
       * **[!UICONTROL Letzter Tag des Monats]**: Die Kampagne wird nur am letzten Kalendertag jedes Monats ausgeführt (z. B. am 31. Januar, 28./29. Februar).
       * **[!UICONTROL Spezifischer Tag des Monats (z. B. 15.)]**: Die Kampagne wird an einem bestimmten Tag ausgeführt (z. B. am 15. jedes Monats).
