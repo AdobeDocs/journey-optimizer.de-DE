@@ -2,28 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erstellen und Verwenden von Formularen für Landingpages
-description: Informationen zum Erstellen und Verwenden von Formularen für Ihre Landingpages in Journey Optimizer
+description: Erfahren Sie, wie Sie Formulare für Ihre Landingpages in Journey Optimizer erstellen und verwenden
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 98%
+source-wordcount: '2029'
+ht-degree: 75%
 
 ---
 
 # Verwenden von Formularen in Ihren Landingpages {#lp-forms}
 
->[!AVAILABILITY]
->
->Diese Funktion ist derzeit nur für Kundschaft in den USA und Australien verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
-
-Um Profildaten mit Ihren [!DNL Journey Optimizer]-Landingpages zu erfassen und Ihre [!DNL Experience Platform]-Datensätze anzureichern, können Sie in Ihren Landingpages Formulare nutzen.
+Um Profildaten mit Ihren [!DNL Journey Optimizer] Landingpages zu erfassen und Ihre [!DNL Experience Platform] Datensätze anzureichern, können Sie Formulare in Ihren Landingpages nutzen. Eine Übersicht über Datenerfassungsszenarien und -anforderungen finden Sie unter [Datenerfassung mit Landingpages](get-started-lp.md#data-capture-lp).
 
 ## Erstellen einer Formularvoreinstellung {#create-form-preset}
 
@@ -78,7 +73,7 @@ Gehen Sie wie folgt vor, um eine Formularvoreinstellung zu erstellen.
    >* **Datentyp** muss auf **XDM** festgelegt sein (nicht Rohdaten)
    >* **Authentifizierung** muss **deaktiviert** sein (nicht authentifizierte Verbindung)
    >
-   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können etwas eingeben, um einen bestimmten Datensatz zu durchsuchen, oder einen Datensatz aus der Liste auswählen.
 
@@ -270,7 +265,7 @@ Sie können dieses Formular jetzt in eine Landingpage einbetten, um Daten zu erf
 
    >[!NOTE]
    >
-   >Sie können das ausgewählte Formular mithilfe der Schaltfläche **[!UICONTROL Formular bearbeiten]** überarbeiten. Das Formular wird in einer neuen Registerkarte geöffnet. Die Schritte zum Bearbeiten des Formularinhalts sind [in diesem Abschnitt](#create-form) beschrieben.
+   >Sie können das ausgewählte Formular mithilfe der Schaltfläche **[!UICONTROL Formular bearbeiten]** überarbeiten. Das Formular wird in einer neuen Registerkarte geöffnet. Die Schritte zum Bearbeiten des Formularinhalts sind [in diesem Abschnitt](#edit-form) beschrieben.
 
 1. Konfigurieren Sie im Abschnitt **[!UICONTROL Folge-Typ]**, was geschehen soll, wenn eine Benutzerin bzw. ein Benutzer das Formular ausfüllt:
 
@@ -282,8 +277,65 @@ Sie können dieses Formular jetzt in eine Landingpage einbetten, um Daten zu erf
 
 1. Speichern und testen Sie Ihre Landingpage. [Weitere Informationen](create-lp.md#test-landing-page)
 
-Nachdem Sie Ihre Landingpage [veröffentlicht](create-lp.md#publish-landing-page) haben und in einer Journey verwenden, werden eingegebene Daten in den ausgewählten Datensatz aufgenommen, wenn Benutzende das Formular ausfüllen.
+Sobald Ihre Landingpage [veröffentlicht) ](create-lp.md#publish-landing-page) auf einer Journey verwendet wurde und Benutzer das Formular ausfüllen, werden die eingegebenen Informationen in den ausgewählten Datensatz aufgenommen. Die Verarbeitung und Verfügbarkeit der Daten kann bis zu 15 Minuten dauern.
 
 >[!NOTE]
 >
 >Wenn Sie die Veröffentlichung eines Formulars aufheben, das in einer Landingpage verwendet wird, bearbeiten Sie das Formular und veröffentlichen Sie es erneut. Für die Landingpage wird immer die neueste veröffentlichte Version des Formulars genutzt.
+
+## Häufig gestellte Fragen {#lp-forms-faq}
+
++++Welche Art von Landingpage benötige ich, um ein Formular zu verwenden?
+
+Wählen Sie beim Erstellen einer Landingpage **[!UICONTROL Datenerfassung]** als Landingpage-Typ aus. Dies ist der einzige Landingpage-Typ, der das Einbetten eines Formulars für die Datenerfassung unterstützt.
+
++++
+
++++Kann ich einen beliebigen Datensatz mit einer Formularvorgabe verwenden?
+
+Nur **profilaktivierte** und **nicht profilaktivierte** [!DNL Adobe Experience Platform] Datensätze können ausgewählt werden. Systemdatensätze können nicht zum Speichern von Formulardaten verwendet werden, und pro Voreinstellung kann nur ein Datensatz ausgewählt werden.
+
++++
+
++++Kann ich denselben Datensatz oder dieselbe Streaming-Verbindung über mehrere Formularvorgaben hinweg wiederverwenden?
+
+Ja. Derselbe Datensatz oder dieselbe Streaming-Verbindung kann über mehrere Voreinstellungen hinweg wiederverwendet werden. Sie können auch mehrere Vorgaben mit verschiedenen Kombinationen aus Datensätzen und Streaming-Verbindungen einrichten, um verschiedene Datenerfassungsszenarien zu unterstützen.
+
++++
+
++++Kann ich einen Formularentwurf in einer Landingpage verwenden?
+
+Nein. Nur **veröffentlichte** Formulare können ausgewählt und in eine Landingpage eingebettet werden.
+
++++
+
++++Welche Version verwendet die Landingpage, wenn ich ein Formular, das bereits in eine Live-Landingpage eingebettet ist, bearbeite und erneut veröffentliche?
+
+Die Landingpage verwendet immer die **neueste veröffentlichte Version** des Formulars. Änderungen an Entwürfen werden erst wirksam, nachdem das aktualisierte Formular veröffentlicht wurde.
+
++++
+
++++Kann ich Benutzer auf verschiedene Seiten umleiten, je nachdem, wie sie das Formular ausgefüllt haben?
+
+Ja. Sie können auf der Dankeseite eine **[!UICONTROL bedingte Weiterleitung]** konfigurieren und Regeln definieren, um verschiedene Folgeaktionen basierend auf Formularantworten anzuzeigen - z. B. die Weiterleitung von Besuchern in einem Land zu einer Seite und von Besuchern in einem anderen Land zu einer anderen Seite mit einem standardmäßigen Fallback für alle anderen. [Weitere Informationen](#thank-you-page)
+
++++
+
++++Können Formularfelder mit vorhandenen Profildaten vorausgefüllt werden?
+
+Ja. Beim Konfigurieren eines Felds können Sie die Option **[!UICONTROL Vorbefüllt aktiviert]** aktivieren, sodass das Feld automatisch aus den bekannten Profilinformationen ausgefüllt wird, sofern diese verfügbar sind.
+
++++
+
++++Kann ich ein Feld zu einem Pflichtfeld machen, damit Benutzer es nicht überspringen können?
+
+Ja. Wählen Sie **[!UICONTROL Abschnitt]** Feldverhalten“ der Konfiguration eines Felds die Option **[!UICONTROL Erforderlich]**. Benutzer können das Formular erst senden, wenn alle erforderlichen Felder ausgefüllt sind.
+
++++
+
++++Wohin gehen die Formulardaten, nachdem ein Benutzer das Formular gesendet hat?
+
+Wenn das Formular übermittelt wird, werden Daten an die **Streaming-Verbindung** gesendet, die in der Formularvorgabe definiert ist. Sie wird dann über einen automatisch generierten Quellfluss, der **[!DNL Experience Platform], Transformation und Validierung verarbeitet, in den verknüpften**-Datensatz übertragen.
+
++++
+

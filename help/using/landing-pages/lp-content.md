@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular, Komponente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '1336'
-ht-degree: 100%
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+workflow-type: tm+mt
+source-wordcount: '1571'
+ht-degree: 83%
 
 ---
 
@@ -26,7 +26,11 @@ ht-degree: 100%
 
 Um den Inhalt Ihrer Landingpage zu entwerfen, können dieselben Komponenten wie für eine E-Mail verwendet werden. [Weitere Informationen](../email/content-components.md#add-content-components)
 
-Um spezifische Inhalte zu entwerfen, mit denen Benutzende ihre Auswahl treffen und übermitteln können, können Sie die [Formularkomponente nutzen](#use-form-component) und ihre [Landingpage-spezifischen Stile](#lp-form-styles) definieren.
+Um spezifische Inhalte zu entwerfen, mit denen Benutzende ihre Auswahl treffen und übermitteln können, können Sie die **Formularkomponente** verwenden:
+
+* Verwenden Sie für Opt-in-, Opt-out- und Abonnement[Szenarien die integrierte Formularkomponente ](#use-form-component) definieren Sie ihre [Landingpage-spezifischen Stile](#lp-form-styles).
+
+* Wenn Benutzerinnen und Benutzer Daten über ein bestimmtes Formular senden können sollen (z. B. um einen [!DNL Experience Platform] anzureichern), [ ](#embed-form) Sie auf einer Landingpage des Typs **[!UICONTROL Datenerfassung]** ein veröffentlichtes Formular ein. [Weitere Informationen zum Erstellen von Formularen](lp-forms.md)
 
 >[!NOTE]
 >
@@ -36,7 +40,7 @@ Mit dem Inhalt-Designer für Landingpages können auch kontextbezogene Daten aus
 
 >[!NOTE]
 >
->Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32019L0882){target="_blank"} legt fest, dass jegliche digitale Kommunikation barrierefrei sein sollte. Beachten Sie beim Erstellen von Inhalten in [!DNL Journey Optimizer] die konkreten Richtlinien [auf dieser Seite](../email/accessible-content.md).
+>Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass jegliche digitale Kommunikation barrierefrei sein sollte. Beachten Sie beim Erstellen von Inhalten in [!DNL Journey Optimizer] die konkreten Richtlinien [auf dieser Seite](../email/accessible-content.md).
 
 ## Verwenden der Formularkomponente {#use-form-component}
 
@@ -168,6 +172,40 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
    ![](assets/lp_designer-form-error-preview.png)
 
+## Einbetten eines Formulars (Datenerfassung) {#embed-form}
+
+Bei Landingpages, die mit dem [Datenerfassung](get-started-lp.md#data-capture-lp)-Typ erstellt wurden, können Sie ein [veröffentlichtes Formular](lp-forms.md) einbetten, das Sie erstellt haben. Übermittlungen werden an die Streaming-Verbindung und den in der Formularvorgabe konfigurierten Datensatz gesendet.
+
+Gehen Sie im Content Designer für Landingpages wie folgt vor.
+
+1. Ziehen Sie eine Komponente **[!UICONTROL Struktur]** in Ihren Inhalt und ziehen Sie dann die Komponente **[!UICONTROL Formular]** in diese Struktur.
+
+   >[!NOTE]
+   >
+   >Auf **Landingpage können nur** Formulare ausgewählt werden.
+
+1. Wählen Sie im Abschnitt **[!UICONTROL Formular]**) das anzuzeigende Formular aus.
+
+   ![](assets/lp_embed-form.png)
+
+   >[!NOTE]
+   >
+   >Verwenden Sie **[!UICONTROL Formular bearbeiten]** wenn Sie den Formularinhalt oder das Verhalten der Dankeseite ändern müssen. Das Formular wird auf einer neuen Registerkarte geöffnet. [Weitere Informationen zum Bearbeiten von Formularen](lp-forms.md#edit-form)
+
+1. Definieren Sie **[!UICONTROL Abschnitt &quot;]**&quot;, was nach der Übermittlung geschieht:
+
+   * **[!UICONTROL Formular definiert]** - Verwenden Sie die Aktion „Dankeseite“, die im eingebetteten Formular konfiguriert ist. [Weitere Informationen](lp-forms.md#thank-you-page)
+   * **Veröffentlichte Landingpage** - Umleitung zu einer anderen veröffentlichten [Landingpage](create-lp.md).
+   * **Externe URL** - Zu einer vollständigen URL umleiten.
+
+1. Speichern Sie den Inhalt Ihrer Landingpage, wenn Sie fertig sind.
+
+Den vollständigen Workflow (Erstellung, Test und Veröffentlichung von Landingpages) finden Sie unter [Nutzen des Formulars in einer Landingpage](lp-forms.md#leverage-form-in-lp).
+
+>[!NOTE]
+>
+>Dieses eingebettete Formularerlebnis gilt nur für **[!UICONTROL Datenerfassung]** Landingpages.
+
 ## Verwenden des primären Seitenkontexts {#use-primary-page-context}
 
 Sie können kontextuelle Daten verwenden, die von einer anderen Seite innerhalb derselben Landingpage stammen.
@@ -186,7 +224,7 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/lp_designer-form-subpage-perso.png)
 
-1. Im Fenster **[!UICONTROL Personalisierung bearbeiten]** wählen Sie **[!UICONTROL Kontextuelle Attribute]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Primärer Seitenkontext]** > **[!UICONTROL Abonnement]**.
+1. Im Fenster **[!UICONTROL Personalisierung bearbeiten]** wählen Sie **[!UICONTROL Kontextuelle Attribute]** > **[!UICONTROL Landingpages]** > **[!UICONTROL Primärer Seitenkontext]** > **[!UICONTROL Abonnement]**.
 
 1. Alle Abonnement-Listen, die Sie auf der primären Seite ausgewählt haben, werden aufgelistet. Wählen Sie über das Symbol „+“ die entsprechenden Elemente aus.
 

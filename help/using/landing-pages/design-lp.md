@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Design, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 90%
+source-wordcount: '235'
+ht-degree: 88%
 
 ---
 
@@ -26,13 +26,15 @@ Dort haben Sie folgende Möglichkeiten:
 
 * **Entwerfen Sie Ihre Landingpage von Grund auf** über die Benutzeroberfläche des E-Mail-Designers und nutzen Sie Bilder aus [Adobe Experience Manager Assets](../integrations/assets.md). Um zu erfahren, wie Sie Inhalte entwerfen <!--or use built-in templates-->, lesen Sie [diesen Abschnitt](../email/content-from-scratch.md).
 
-* **Generieren von Inhalten mit dem KI-**, um die Erstellung von Landingpages mit KI-generiertem Text und Bildern zu beschleunigen. [Weitere Informationen zum KI-Assistenten](../content-management/generative-full-content.md).
+* **Generieren Sie Inhalte mit dem KI-Assistenten**, um die Erstellung von Landingpages mit KI-generierten Texten und Bildern zu beschleunigen. [Weitere Informationen zum KI-Assistenten](../content-management/generative-full-content.md).
 
 * **Codieren Sie oder fügen Sie rohen HTML-Code** direkt in Content Designer ein. Erfahren Sie [in diesem Abschnitt](../email/code-content.md), wie Sie Ihren eigenen Inhalt codieren.
 
 * **Importieren Sie vorhandenen HTML-Inhalt** aus einer Datei oder einem .zip-Ordner. [In diesem Abschnitt](../email/existing-content.md) erfahren Sie, wie Sie Inhalte importieren.
 
 * **Verwenden Sie eine gespeicherte Landingpage-Vorlage**, die in [!DNL Journey Optimizer] erstellt wurde. [Weitere Informationen](lp-templates.md)
+
+Sobald Sie sich im Inhalts-Designer für Landingpages befinden, können Sie dieselben Komponenten wie für eine E-Mail verwenden und Landingpage-spezifische Inhalte mithilfe der Formularkomponente definieren. [Weitere Informationen](lp-content.md)
 
 >[!NOTE]
 >

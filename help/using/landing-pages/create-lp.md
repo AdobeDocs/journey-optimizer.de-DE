@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 66bf475ed473f3b3d8c61f17ac0f7a36696fe962
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 95%
+source-wordcount: '1613'
+ht-degree: 93%
 
 ---
 
@@ -53,7 +53,7 @@ Um eine Landingpage zu erstellen, müssen Sie eine Voreinstellung auswählen, da
 
 1. Fügen Sie einen Titel hinzu. Sie können bei Bedarf eine Beschreibung hinzufügen.
 
-   ![](assets/lp_create-lp-details.png)
+   ![](assets/lp_create-lp-details.png){width=75%}
 
 1. Um der Landingpage benutzerdefinierte oder Core-Datennutzungs-Labels zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
 
@@ -61,7 +61,12 @@ Um eine Landingpage zu erstellen, müssen Sie eine Voreinstellung auswählen, da
 
 1. Wählen Sie eine Voreinstellung aus. In [diesem Abschnitt](../landing-pages/lp-presets.md#lp-create-preset) erfahren Sie, wie Sie Landingpage-Voreinstellungen erstellen.
 
-   ![](assets/lp_create-lp-presets.png)
+1. Wählen Sie den Typ der Landingpage aus, den Sie erstellen möchten.
+
+   ![](assets/lp_create-lp-data-capture.png){width=60%}
+
+   * **[!UICONTROL An-/Abmeldung]**: Verwenden Sie diesen Typ, um eine Landingpage für An- oder Abmeldungen zu erstellen. [Weitere Informationen](lp-use-cases.md#subscription-to-a-service)
+   * **[!UICONTROL Datenerfassung]**: Verwenden Sie diesen Typ, um eine Landingpage für Anwendungsfälle der Datenerfassung zu erstellen. [Weitere Informationen](get-started-lp.md#data-capture-lp)
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -86,7 +91,7 @@ Nachdem Sie die [Primärseite](#configure-primary-page) und die [Unterseiten](#c
 >title="Definieren der primären Seiteneinstellungen"
 >abstract="Die primäre Seite erscheint den Benutzenden sofort, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, beispielsweise in einer E-Mail oder auf einer Website."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=de" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
