@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3bd51b6ac69a4b1f0965259a6b3b597435bc77f1
+source-git-commit: 80241ba0afa94d6683f0fd562bb3185876c55cac
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 21%
+source-wordcount: '1537'
+ht-degree: 19%
 
 ---
 
@@ -34,7 +34,7 @@ Die Abschnitte [Neue Funktionen](#march-26-features) und [Verbesserungen](#march
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Veröffentlichungsdatum**: 24.-25. März 2026
 
@@ -66,7 +66,8 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>Eine neue Aktivität in Journey namens Datensatzsuche ermöglicht während der Laufzeit das dynamische Abrufen von Daten aus Adobe Experience Platform-Datensatzdatensätzen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit). </p>
+<p>Eine neue Aktivität <strong>Datensatzsuche</strong> in Journey ermöglicht das dynamische Abrufen von Daten aus Adobe Experience Platform-Datensatzdatensätzen zur Laufzeit. Dadurch erhalten Sie Zugriff auf Informationen, die nicht zur Profil- oder Ereignis-Payload gehören, sodass Kundeninteraktionen relevant und zeitnah bleiben.</p>
+<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit). </p>
 <p><img src="../building-journeys/assets/aep-data-activity.png"></p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/dataset-lookup.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -180,7 +181,7 @@ Bestehende Journey, die ältere Kanalaktivitäten verwenden, funktionieren weite
 <td>
 <p>Mit <strong>Adobe Experience Platform Agent Orchestrator </strong> ist <strong>Journey Agent</strong> in Journey Optimizer verfügbar und ermöglicht es Ihnen, Journey über eine natürliche Sprachschnittstelle zu analysieren. Sie können jetzt auch kanalspezifische Inhalte direkt in Journey Agent generieren und verwalten, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in <strong>Content Designer</strong> zur kontextbezogenen Bearbeitung öffnen.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=de">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Donnerstag, 4. März 2026</p>
 </td>
 </tr>
@@ -277,7 +278,7 @@ Die folgenden Funktionen und Verbesserungen sind für März/Anfang April geplant
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt einen Trigger für eine orchestrierte Kampagne über ein Signal durchführen, das über APIs gesendet wird. Konfigurieren Sie die Zielkampagne als „Ausgelöst durch ein Signal“ und veröffentlichen Sie sie. Verwenden Sie dann einen API-Aufruf, um die Kampagne auszulösen. Der API-Aufruf kann Parameter enthalten, die als Variablen in der ausgelösten Kampagne verfügbar sind. Hinweis: Eine von einem Signal gestartete orchestrierte Kampagne ist weiterhin eine **Batch**-Kampagne und nicht identisch mit API-ausgelösten Kampagnen.</p>
+<p>Orchestrierte Kampagnen können jetzt über ein <strong>API-Signal“ ausgelöst </strong>. Um dies einzurichten, konfigurieren Sie die Zielkampagne als <strong>Ausgelöst durch ein Signal</strong>, veröffentlichen Sie sie und lösen Sie sie dann mithilfe eines API-Aufrufs aus. Alle im API-Aufruf enthaltenen Parameter sind als Variablen innerhalb der laufenden Kampagne verfügbar. Beachten Sie, dass signalgesteuerte orchestrierte Kampagnen (<strong>) bleiben </strong> sich von API-ausgelösten Kampagnen unterscheiden.</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
 <p>Verfügbarkeitsdatum: 1. April 2026</p>
 </td>
