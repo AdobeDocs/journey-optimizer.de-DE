@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 80241ba0afa94d6683f0fd562bb3185876c55cac
+source-git-commit: a4d1ef8820ef3cafc4dae5d897c850b106163868
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1535'
 ht-degree: 19%
 
 ---
@@ -34,7 +34,7 @@ Die Abschnitte [Neue Funktionen](#march-26-features) und [Verbesserungen](#march
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Veröffentlichungsdatum**: 24.-25. März 2026
 
@@ -161,7 +161,7 @@ Bestehende Journey, die ältere Kanalaktivitäten verwenden, funktionieren weite
 <tbody>
 <tr>
 <td>
-<p>Mit iOS Live Activity in Adobe Journey Optimizer können Sie Echtzeit-Erlebnisse direkt in Lock Screens und Dynamic Island Ihrer Kunden integrieren. Live-Updates bereitstellen, von der Bestellverfolgung und dem Flugstatus bis hin zu Zählungen von Ereignissen, Live-Scores und Versandfortschritt, ohne dass Benutzer Ihre App öffnen müssen. Halten Sie Ihr Publikum zum richtigen Zeitpunkt und an der richtigen Stelle auf dem Laufenden und engagieren Sie sich aktiv.</p>
+<p>Mit der <strong>iOS Live Activity} in Adobe Journey Optimizer können Sie Ihren Kunden Echtzeit-Erlebnisse direkt auf Lock Screens und </strong> Island bieten. Live-Updates bereitstellen, von der Bestellverfolgung und dem Flugstatus bis hin zu Zählungen von Ereignissen, Live-Scores und Versandfortschritt, ohne dass Benutzer Ihre App öffnen müssen. Halten Sie Ihr Publikum zum richtigen Zeitpunkt und an der richtigen Stelle auf dem Laufenden und engagieren Sie sich aktiv.</p>
 <p>Diese Funktion wurde bereits in der Beta-Version veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Weitere Informationen finden Sie in der <a href="../mobile-live/get-started-mobile-live.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Mittwoch, 3. März 2026</p>
@@ -181,7 +181,7 @@ Bestehende Journey, die ältere Kanalaktivitäten verwenden, funktionieren weite
 <td>
 <p>Mit <strong>Adobe Experience Platform Agent Orchestrator </strong> ist <strong>Journey Agent</strong> in Journey Optimizer verfügbar und ermöglicht es Ihnen, Journey über eine natürliche Sprachschnittstelle zu analysieren. Sie können jetzt auch kanalspezifische Inhalte direkt in Journey Agent generieren und verwalten, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in <strong>Content Designer</strong> zur kontextbezogenen Bearbeitung öffnen.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=de">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Donnerstag, 4. März 2026</p>
 </td>
 </tr>
@@ -272,23 +272,6 @@ Die folgenden Funktionen und Verbesserungen sind für März/Anfang April geplant
 <table>
 <thead>
 <tr>
-<th><strong>Trigger hat Kampagnen mithilfe eines Signals orchestriert</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Orchestrierte Kampagnen können jetzt über ein <strong>API-Signal“ ausgelöst </strong>. Um dies einzurichten, konfigurieren Sie die Zielkampagne als <strong>Ausgelöst durch ein Signal</strong>, veröffentlichen Sie sie und lösen Sie sie dann mithilfe eines API-Aufrufs aus. Alle im API-Aufruf enthaltenen Parameter sind als Variablen innerhalb der laufenden Kampagne verfügbar. Beachten Sie, dass signalgesteuerte orchestrierte Kampagnen (<strong>) bleiben </strong> sich von API-ausgelösten Kampagnen unterscheiden.</p>
-<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
-<p>Verfügbarkeitsdatum: 1. April 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Konvertieren von Bildern in E-Mail-Inhaltsvorlagen</strong><br/></th>
 </tr>
 </thead>
@@ -298,6 +281,23 @@ Die folgenden Funktionen und Verbesserungen sind für März/Anfang April geplant
 <p>Sie können jetzt Bilder direkt in Journey Optimizer in E-Mail-Inhaltsvorlagen konvertieren. Verwenden Sie die KI-gestützte Analyse, um automatisch strukturierte HTML-Vorlagen aus visuellen Referenzen zu generieren, wodurch die E-Mail-Design-Zeit erheblich verkürzt wird.</p>
 <p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit). <a href="../content-management/image-to-html.md">Weitere Informationen</a></p>
 <p>Verfügbarkeitsdatum: Freitag, 26. März 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Transaktionskategorie in koordinierten Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In orchestrierten Kampagnen können Sie jetzt eine Kanalaktivität auf die Kategorie <strong>Transaktion“ </strong>. Dies gilt für Konfigurationen von Transaktionskanälen für diese Aktivität und ist nützlich, wenn keine Geschäftsregeln gelten sollten oder wenn das Opt-in der Kundschaft nicht erforderlich ist.</p>
+<p><img src="assets/do-not-localize/oc-transactional.gif"></p>
+<p>Verfügbarkeitsdatum: 26. März 2026 - Diese Funktion wird in den nächsten Tagen schrittweise für alle Regionen eingeführt.</p>
 </td>
 </tr>
 </tbody>
@@ -327,23 +327,6 @@ Die folgenden Funktionen und Verbesserungen sind für März/Anfang April geplant
 <table>
 <thead>
 <tr>
-<th><strong>Transaktionskategorie in koordinierten Kampagnen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>In orchestrierten Kampagnen können Sie jetzt eine Kanalaktivität auf die Kategorie <strong>Transaktion“ </strong>. Dies gilt für Konfigurationen von Transaktionskanälen für diese Aktivität und ist nützlich, wenn keine Geschäftsregeln gelten sollten oder wenn das Opt-in der Kundschaft nicht erforderlich ist.</p>
-<p><img src="assets/do-not-localize/oc-transactional.gif"></p>
-<p>Verfügbarkeitsdatum: 26. März 2026 - Diese Funktion wird in den nächsten Tagen schrittweise für alle Regionen eingeführt.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Posteingang</strong><br/></th>
 </tr>
 </thead>
@@ -352,6 +335,23 @@ Die folgenden Funktionen und Verbesserungen sind für März/Anfang April geplant
 <td>
 <p><strong>Posteingang</strong> ist eine Funktion für Mobilgeräte, die mit Inhaltskarten verfügbar ist und es Kunden ermöglicht, einen zentralen Ort in ihrer App oder Website zu erstellen, um Nachrichten anzuzeigen, die an ihre Benutzer gesendet werden. Dies verlängert die Lebensdauer der Marketing-Kommunikation, indem sichergestellt wird, dass Nachrichten auch nach ihrer Beendigung zugänglich bleiben.</p>
 <p>Verfügbarkeitsdatum: Mittwoch, 31. März 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Trigger hat Kampagnen mithilfe eines Signals orchestriert</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Orchestrierte Kampagnen können jetzt über ein <strong>API-Signal“ ausgelöst </strong>. Um dies einzurichten, konfigurieren Sie die Zielkampagne als <strong>Ausgelöst durch ein Signal</strong>, veröffentlichen Sie sie und lösen Sie sie dann mithilfe eines API-Aufrufs aus. Alle im API-Aufruf enthaltenen Parameter sind als Variablen innerhalb der laufenden Kampagne verfügbar. Beachten Sie, dass signalgesteuerte orchestrierte Kampagnen (<strong>) bleiben </strong> sich von API-ausgelösten Kampagnen unterscheiden.</p>
+<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
+<p>Verfügbarkeitsdatum: Donnerstag, 1. April 2026</p>
 </td>
 </tr>
 </tbody>
