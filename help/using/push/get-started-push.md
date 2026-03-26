@@ -35,7 +35,7 @@ Verwenden Sie die zugehörigen Registerkarten, um die Push-Benachrichtigungs-Ein
 
 >[!NOTE]
 >
->Während **[!DNL Journey Optimizer]** Möglichkeiten zum Verwalten des Opt-outs in E-Mails und SMS-Nachrichten bietet, erfordern Push-Benachrichtigungen keine Aktion von Ihrer Seite, da sich Empfänger selbst über ihre Geräte abmelden können. Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer App deaktivieren. Ebenso können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem oder die Einstellungen des Webbrowsers ändern. Informationen zum Überprüfen des Push-Einverständnisstatus eines Profils im AEP-Profil-Viewer finden Sie unter [Push-Opt-out-Status ](../privacy/opt-out.md#push-opt-out-status).
+>Während **[!DNL Journey Optimizer]** Möglichkeiten zum Verwalten des Opt-outs in E-Mails und SMS-Nachrichten bietet, erfordern Push-Benachrichtigungen keine Aktion von Ihrer Seite, da sich Empfänger selbst über ihre Geräte abmelden können. Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer App deaktivieren. Ebenso können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem oder die Einstellungen des Webbrowsers ändern. Informationen zum Überprüfen des Push-Einverständnisstatus eines Profils im AEP-Profil-Viewer finden Sie unter [Push-Opt-out-Status &#x200B;](../privacy/opt-out.md#push-opt-out-status).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
