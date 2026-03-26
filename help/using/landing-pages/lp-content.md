@@ -28,9 +28,9 @@ Um den Inhalt Ihrer Landingpage zu entwerfen, können dieselben Komponenten wie 
 
 Um spezifische Inhalte zu entwerfen, mit denen Benutzende ihre Auswahl treffen und übermitteln können, können Sie die **Formularkomponente** verwenden:
 
-* Verwenden Sie für Opt-in-, Opt-out- und Abonnement[Szenarien die integrierte Formularkomponente ](#use-form-component) definieren Sie ihre [Landingpage-spezifischen Stile](#lp-form-styles).
+* Verwenden Sie für Opt-in-, Opt-out- und Abonnement[Szenarien die integrierte Formularkomponente &#x200B;](#use-form-component) definieren Sie ihre [Landingpage-spezifischen Stile](#lp-form-styles).
 
-* Wenn Benutzerinnen und Benutzer Daten über ein bestimmtes Formular senden können sollen (z. B. um einen [!DNL Experience Platform] anzureichern), [ ](#embed-form) Sie auf einer Landingpage des Typs **[!UICONTROL Datenerfassung]** ein veröffentlichtes Formular ein. [Weitere Informationen zum Erstellen von Formularen](lp-forms.md)
+* Wenn Benutzerinnen und Benutzer Daten über ein bestimmtes Formular senden können sollen (z. B. um einen [!DNL Experience Platform] anzureichern), [&#x200B; &#x200B;](#embed-form) Sie auf einer Landingpage des Typs **[!UICONTROL Datenerfassung]** ein veröffentlichtes Formular ein. [Weitere Informationen zum Erstellen von Formularen](lp-forms.md)
 
 >[!NOTE]
 >
