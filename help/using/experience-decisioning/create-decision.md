@@ -85,12 +85,12 @@ Die Hauptschritte zur Nutzung von Entscheidungsrichtlinien in Nachrichten lauten
 
 Erfahren Sie, wie Sie mit Decisioning E-Mails für Ihre Audience personalisieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476173?captions=ger&quality=12)
 
 Erfahren Sie, wie Sie mit Decisioning Push-Benachrichtigungen für Ihre Zielgruppe personalisieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479219?captions=ger&quality=12)
 
 Erfahren Sie, wie Sie mit Decisioning SMS-Nachrichten für Ihre Zielgruppe personalisieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479538?captions=ger&quality=12)
