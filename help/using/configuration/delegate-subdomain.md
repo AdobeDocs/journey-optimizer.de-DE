@@ -127,7 +127,7 @@ Gehen Sie wie folgt vor, um in [!DNL Journey Optimizer] eine benutzerdefinierte 
     Capital letters are not allowed in subdomains. TBC by PM
 -->
 
-    >[!HINWEIS]
+    >[ !HINWEIS]
     >
     >Nachdem Sie eine neue Subdomain mit Ihrem DNS-Anbieter erstellt haben, sollten Sie 24–48 Stunden für die DNS-Propagierung einplanen, bevor Sie eine Delegierung an Adobe versuchen.
 
