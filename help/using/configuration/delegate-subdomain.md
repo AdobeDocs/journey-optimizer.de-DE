@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1925'
-ht-degree: 98%
+source-wordcount: '1931'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,7 @@ Sie haben folgende Möglichkeiten:
 
 * Vollständiges Delegieren einer Subdomain – [Weitere Informationen](#set-up-subdomain)
 * Erstellen einer Subdomain mit CNAMEs, die auf Adobe-spezifische Einträge verweisen – [Weitere Informationen](#set-up-subdomain)
+* Delegieren einer benutzerdefinierten Subdomain - [Weitere Informationen](delegate-custom-subdomain.md)
 
 Die **vollständige Delegierung einer Subdomain** ist die empfohlene Methode. Weitere Informationen zu den Unterschieden zwischen den verschiedenen Subdomain-Konfigurationsmethoden finden Sie in [diesem Abschnitt](about-subdomain-delegation.md#subdomain-delegation-methods).
 
@@ -126,7 +127,7 @@ Gehen Sie wie folgt vor, um in [!DNL Journey Optimizer] eine benutzerdefinierte 
     Capital letters are not allowed in subdomains. TBC by PM
 -->
 
-    >[ !HINWEIS]
+    >[!HINWEIS]
     >
     >Nachdem Sie eine neue Subdomain mit Ihrem DNS-Anbieter erstellt haben, sollten Sie 24–48 Stunden für die DNS-Propagierung einplanen, bevor Sie eine Delegierung an Adobe versuchen.
 
@@ -277,4 +278,4 @@ Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgeho
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412601?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

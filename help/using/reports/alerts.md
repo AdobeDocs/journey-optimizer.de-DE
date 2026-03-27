@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 6184ea004448b95ba6a75139124b47cf775a0fb1
+source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
 source-wordcount: '2876'
 ht-degree: 54%
@@ -40,7 +40,7 @@ Systemwarnhinweise sind im Menü **[!UICONTROL Warnhinweise]** unter **[!UICONTR
 
 Vor der Arbeit mit Warnhinweisen:
 
-* **Berechtigungen**: Sie benötigen spezifische Berechtigungen zum Anzeigen und Verwalten von Warnhinweisen. Siehe [Erforderliche Berechtigungen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de#permissions){target="_blank"}.
+* **Berechtigungen**: Sie benötigen spezifische Berechtigungen zum Anzeigen und Verwalten von Warnhinweisen. Siehe [Erforderliche Berechtigungen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
 
 * **Sandbox-**: Warnhinweis-Abonnements sind Sandbox-spezifisch. Wenn Sie Warnhinweise abonnieren, gelten diese nur für die aktuelle Sandbox. Wenn eine Sandbox zurückgesetzt wird, werden auch alle Warnhinweis-Abonnements zurückgesetzt.
 
@@ -70,7 +70,7 @@ Journey Optimizer bietet zwei Kategorien von Systemwarnungen:
 
 Überwachen der Journey-Ausführung und -Leistung:
 
-* [Trigger „Zielgruppe lesen“ nicht &#x200B;](#alert-read-audiences) - Warnt, wenn eine Aktivität „Zielgruppe lesen“ keine Profile verarbeiten kann
+* [Trigger „Zielgruppe lesen“ nicht ](#alert-read-audiences) - Warnt, wenn eine Aktivität „Zielgruppe lesen“ keine Profile verarbeiten kann
 * [Fehlerrate für benutzerdefinierte Aktion überschritten](#alert-custom-action-error-rate) - Erkennt hohe Fehlerraten in API-Aufrufen für benutzerdefinierte Aktion (ersetzt den vorherigen Warnhinweis für Fehler bei benutzerdefinierter Journey-Aktion)
 * [Profil-Verwerfungsrate überschritten](#alert-discard-rate) - Gibt an, wann Profile mit einer abnormalen Rate verworfen werden
 * [Profilfehlerrate überschritten](#alert-profile-error-rate) - Flags, wenn bei Profilen während der Journey-Ausführung Fehler auftreten
@@ -84,13 +84,13 @@ Probleme beim Einrichten der E-Mail-Zustellbarkeit erkennen:
 
 * [DNS-Eintrag der AJO-Domain fehlt](#alert-dns-record-missing) - Identifiziert fehlende oder falsch konfigurierte DNS-Einträge.
 * [AJO-Kanalkonfigurationsfehler](#alert-channel-config-failure) - Erkennt E-Mail-Konfigurationsprobleme (SPF-, DKIM-, MX-Einträge)
-* [Erneuerung der AJO-Domänenzertifikate fehlgeschlagen](#alert-certificates-renewal) - Warnt, wenn Ressourcen- oder Verfolgungszertifikate in einer benutzerdefinierten Subdomain-Delegierung bald ablaufen oder abgelaufen sind
+* [Erneuerung der AJO-Domänenzertifikate fehlgeschlagen](#alert-certificates-renewal-unsuccessful) - Warnt, wenn Ressourcen- oder Verfolgungszertifikate in einer benutzerdefinierten Subdomain-Delegierung bald ablaufen oder abgelaufen sind
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->Warnhinweise von anderen Adobe Experience Platform-Services (Datenaufnahme, Identitätsauflösung, Segmentierung usw.) finden Sie in der [Standarddokumentation zu Warnhinweisregeln](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=de){target="_blank"}.
+>Warnhinweise von anderen Adobe Experience Platform-Services (Datenaufnahme, Identitätsauflösung, Segmentierung usw.) finden Sie in der [Standarddokumentation zu Warnhinweisregeln](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## Abonnieren von Warnhinweisen {#subscribe-alerts}
 
@@ -149,7 +149,7 @@ Klicken Sie **[!UICONTROL Abo beenden]** neben dem Warnhinweis.
 
 **Alternative Anmeldemethode:**
 
-Sie können auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren, was die Integration in externe Systeme ermöglicht. Ereignisabonnementnamen für Journey Optimizer-Warnhinweise werden in jeder [Warnhinweisbeschreibung unten) &#x200B;](#journey-alerts).
+Sie können auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren, was die Integration in externe Systeme ermöglicht. Ereignisabonnementnamen für Journey Optimizer-Warnhinweise werden in jeder [Warnhinweisbeschreibung unten) ](#journey-alerts).
 
 ### Journey-spezifisches Abonnement {#unitary-subscription}
 
@@ -183,7 +183,7 @@ Journey-spezifische Abonnements ermöglichen es Ihnen, einzelne Journey mit hohe
 >
 >Der Warnhinweis [Zielgruppen-Trigger nicht erfolgreich](#alert-read-audiences) ist nur über ein globales Abonnement verfügbar, nicht pro Journey-Abonnement.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Journey-Warnhinweise {#journey-alerts}
 
@@ -436,6 +436,6 @@ Um Abonnierende zu entfernen, löschen Sie ihre E-Mail-Adressen aus den aktuelle
 **Warnhinweis-Framework:**
 
 * [Übersicht über Adobe Experience Platform-Warnhinweise](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de){target="_blank"} - Grundlagen zum Warnhinweis-Framework
-* [Verwalten von Warnhinweisen in der &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de){target="_blank"}: Anzeigen, Abonnieren und Verwalten von Warnhinweisen
+* [Verwalten von Warnhinweisen in der ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de){target="_blank"}: Anzeigen, Abonnieren und Verwalten von Warnhinweisen
 * [Warnhinweise über I/O-Ereignisse abonnieren](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} - Erweiterte Integrationsoptionen
-* [Standardwarnungsregeln](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=de){target="_blank"} - Vollständige Liste der verfügbaren Platform-Warnungen
+* [Standardwarnungsregeln](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} - Vollständige Liste der verfügbaren Platform-Warnungen

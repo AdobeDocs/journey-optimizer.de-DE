@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App, Web, Inhaltskarte, Code-basiertes Erlebnis
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 86%
+source-wordcount: '1514'
+ht-degree: 81%
 
 ---
 
@@ -24,7 +24,9 @@ ht-degree: 86%
 >title="Aktivität „Aktion“"
 >abstract="Die Aktivität **Aktion** ermöglicht die Konfiguration einer einzelnen nativen Kanalaktion und mehrerer eingehender Aktivitäten mit der Möglichkeit, jeder integrierten Kanalaktion eine Optimierung hinzuzufügen."
 
-Die **Action**-Aktivität ist der zentrale Einstiegspunkt für alle Kanalaktionen auf der Journey-Arbeitsfläche. Es ersetzt die vorherigen individuellen integrierten Kanalaktivitäten und fasst E-Mail, Push, SMS, In-App, Web, Code-basiertes Erlebnis und Inhaltskarten in einem einheitlichen Aktivitätstyp zusammen.
+Die **Action**-Aktivität ist der zentrale Einstiegspunkt für alle Kanalaktionen auf der Journey-Arbeitsfläche.
+
+Es ersetzt die vorherigen individuellen integrierten Kanalaktivitäten und fasst E-Mail, Push, SMS, In-App, Web, Code-basiertes Erlebnis und Inhaltskarten in einem einheitlichen Aktivitätstyp zusammen.
 
 Verwenden Sie ihn, um:
 
@@ -32,11 +34,21 @@ Verwenden Sie ihn, um:
 * Erstellen Sie eingehende Aktionsgruppen mit mehreren Aktionen.
 * Wendet die Optimierung auf jede Kanalaktion an.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Ältere native Kanalaktivitäten (E-Mail, Push, SMS, In-App, Web, Code-basiertes Erlebnis und Inhaltskarte) werden seit der Version vom März 2026 nicht mehr unterstützt. Vorhandene Journey, die diese Aktivitäten verwenden, funktionieren weiterhin unverändert - es ist keine Migration erforderlich.
+>Sie können in [!DNL Journey Optimizer] auch benutzerdefinierte Aktionen zum Senden von Nachrichten einrichten. [Weitere Informationen](#recommendation)
 
-Sie können in [!DNL Journey Optimizer] auch benutzerdefinierte Aktionen zum Senden von Nachrichten einrichten. [Weitere Informationen](#recommendation)
+## Über alte Kanalaktivitäten
+
+Ältere native Kanalaktivitäten (E-Mail, Push, SMS, In-App, Web, Code-basiertes Erlebnis und Inhaltskarte) werden **seit der Version vom März 2026 nicht mehr**.
+
+Vorhandene Journey, die diese Aktivitäten verwenden, funktionieren weiterhin unverändert - es ist keine Migration erforderlich.
+
+Alte native Kanalaktivitäten werden auch in diesen Fällen beibehalten:
+
+* **Duplizieren einer Journey** - Die duplizierte Journey verwendet weiterhin Legacy-Aktivitäten. Sie können sie unverändert bearbeiten und veröffentlichen. Es ist keine Migration erforderlich.
+* **Neue Journey-Version erstellen** - Die neue Version verwendet weiterhin Legacy-Aktivitäten. Sie können sie unverändert bearbeiten und veröffentlichen. Es ist keine Migration erforderlich.
+* **Kopieren und Einfügen von Legacy-Aktivitäten auf einer Journey** — Eingefügte Aktivitäten bleiben Legacy-Aktivitäten. Sie können sie unverändert bearbeiten und veröffentlichen. Es ist keine Migration erforderlich.
 
 ## Hinzufügen einer integrierten Kanalaktion zu einer Journey  {#add-action}
 
