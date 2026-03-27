@@ -5,10 +5,10 @@ title: Erstellen und Planen orchestrierter Kampagnen mit Journey Optimizer
 description: Informationen zur Erstellung und Planung einer orchestrierten Kampagne mit Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 100%
+source-wordcount: '1140'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,9 @@ Gehen Sie wie folgt vor, um eine orchestrierte Kampagne zu erstellen:
 
 1. Navigieren Sie zum Menü **[!UICONTROL Kampagnen]** und wählen Sie die Registerkarte **[!UICONTROL Orchestrierung]** aus.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Kampagne erstellen]** und wählen Sie den Kampagnentyp **[!UICONTROL Orchestrierung – Marketing]** aus.
+1. Klicken Sie auf **[!UICONTROL Schaltfläche Kampagne erstellen]** wählen Sie den Kampagnentyp **[!UICONTROL Orchestrierung - Marketing und]**) aus.
+
+   Beim Hinzufügen einer „Kanalaktivität“ wählen Sie aus, ob es sich bei jeder [ um eine Marketing- oder ](../orchestrated/activities/channels.md) handelt.
 
    ![](assets/create-modal.png)
 

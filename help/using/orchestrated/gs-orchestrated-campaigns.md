@@ -6,10 +6,10 @@ description: Informationen zu den ersten Schritten mit orchestrierten Kampagnen
 short-description: Entdecken Sie wichtige Funktionen und Anwendungsfälle von orchestrierten Kampagnen.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >title="campaigns_overview_orchestrated"
 >abstract="<b>Kampagnenorchestrierung</b><br/>Aufteilen, Kombinieren, Anreichern und Bearbeiten von relationalen Datensätzen zur Definition der Zielgruppe<br/><br/> <b>Nutzen von Daten mehrerer Entitäten</b><br/>Erfahren Sie, wie Sie mit orchestrierten Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern<br/><br/><b>Ad-hoc-Segmentierung und genaue Zählungen</b><br/>Erstellen eines Segments Schritt für Schritt mit exakten Zahlen<br/><br/><b>Verfügbare Kanäle</b><br/>E-Mail, SMS, Push-Benachrichtigungen, Direkt-Mail"
 
-Die Kampagnenorchestrierung in [!DNL Adobe Journey Optimizer] ermöglicht kanalübergreifend anspruchsvolle, markeninitiierte Marketing-Kampagnen und hilft Ihnen so, die Interaktion, den Umsatz und die Kundentreue im gewünschten Umfang zu fördern.
+Die Kampagnenorchestrierung in [!DNL Adobe Journey Optimizer] ermöglicht anspruchsvolle, markeninitiierte Kampagnen über alle Kanäle hinweg - sowohl **Marketing** als auch **transaktionale**. Marketing-Kampagnen helfen Ihnen, die Interaktion, den Umsatz und die Kundentreue in großem Umfang zu steigern. Transaktionsnachrichten erfordern keine Anmeldung und eignen sich für zeitkritische Nachrichten, z. B. Unterbrechungen, Notfälle oder Absagen.
 
 >[!IMPORTANT]
 >
