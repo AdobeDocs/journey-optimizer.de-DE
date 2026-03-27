@@ -5,10 +5,10 @@ title: Verwenden der Aktivität „Warten“ in orchestrierten Kampagnen
 description: Informationen zur Verwendung der Aktivität „Warten“ in orchestrierten Kampagnen
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: c783d638bd2a64298ff587067c29639636da0c54
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 84%
 
 ---
 
@@ -26,6 +26,10 @@ Sie können beispielsweise einige Tage nach einem E-Mail-Versand warten, um Öff
 
 ## Konfiguration{#wait-configuration}
 
+>[!IMPORTANT]
+>
+>Daten in temporären Tabellen bleiben nicht länger als **5 Tage** bestehen. Wenn Sie **[!UICONTROL Dauer]** oder **[!UICONTROL Feste Zeit]** verwenden, stellen Sie sicher, dass die verstrichene Zeit bis zum Abschluss der nächsten Aktivität innerhalb dieses Limits liegt, damit Zwischendaten verfügbar bleiben.
+
 Gehen Sie folgendermaßen vor, um die Aktivität **[!UICONTROL Warten]** zu konfigurieren:
 
 1. Fügen Sie Ihrer orchestrierten Kampagne eine Aktivität des Typs **[!UICONTROL Warten]** hinzu.
@@ -40,6 +44,6 @@ Gehen Sie folgendermaßen vor, um die Aktivität **[!UICONTROL Warten]** zu konf
 
 ## Beispiel{#wait-example}
 
-Das folgende Beispiel erläutert die Aktivität **[!UICONTROL Warten]** anhand eines typischen Fallbeispiels.  An Profile, die Geburtstag feiern, wird eine E-Mail mit einem Gutschein-Code gesendet. Nach 29 Tagen wird eine SMS an dieselbe Gruppe gesendet, um sie daran zu erinnern, dass ihr Gutschein-Code für ihren Geburtstag bald abläuft.
+Das folgende Beispiel erläutert die Aktivität **[!UICONTROL Warten]** anhand eines typischen Fallbeispiels.  An Profile, die Geburtstag feiern, wird eine E-Mail mit einem Gutschein-Code gesendet. Nach 2 Tagen wird eine SMS an dieselbe Gruppe gesendet, um sie daran zu erinnern, dass ihr Gutschein-Code für ihren Geburtstag bald abläuft.
 
 ![](../assets/wait-example.png)
