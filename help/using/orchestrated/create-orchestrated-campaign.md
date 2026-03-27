@@ -30,7 +30,7 @@ Gehen Sie wie folgt vor, um eine orchestrierte Kampagne zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Schaltfläche Kampagne erstellen]** wählen Sie den Kampagnentyp **[!UICONTROL Orchestrierung - Marketing und]**) aus.
 
-   Beim Hinzufügen einer „Kanalaktivität“ wählen Sie aus, ob es sich bei jeder [ um eine Marketing- oder ](../orchestrated/activities/channels.md) handelt.
+   Beim Hinzufügen einer „Kanalaktivität“ wählen Sie aus, ob es sich bei jeder [&#x200B; um eine Marketing- oder &#x200B;](../orchestrated/activities/channels.md) handelt.
 
    ![](assets/create-modal.png)
 
