@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
+source-git-commit: 727f277b06b748cd4712c9cce62d7b4a1ad1f146
 workflow-type: tm+mt
-source-wordcount: '3142'
+source-wordcount: '3147'
 ht-degree: 96%
 
 ---
@@ -92,7 +92,6 @@ ht-degree: 96%
       + [Warten](using/building-journeys/wait-activity.md)
       + [Inhaltsentscheidung](using/building-journeys/content-decision.md)
       + [Datensatzsuche](using/building-journeys/dataset-lookup.md)
-      + [Integrierte Kanalaktionen](using/building-journeys/journeys-message.md)
       + [Aktion](using/building-journeys/journey-action.md)
       + [Sprung](using/building-journeys/jump.md)
       + [Aktualisieren des Profils](using/building-journeys/update-profiles.md)
@@ -214,6 +213,8 @@ ht-degree: 96%
          + [Senden von Aktualisierungen von Wunschlistenartikeln](using/orchestrated/wishlist-uc.md)
          + [Interagieren mit Kundinnen und Kunden nach Suchaktivität](using/orchestrated/engage-customers-uc.md)
          + [Benachrichtigen von Benutzenden über Produktverfügbarkeit](using/orchestrated/product-availability-uc.md)
+      + Erweiterte Vorgänge {#orchestrated-advanced}
+         + [Trigger hat Kampagnen mithilfe eines Signals orchestriert](using/orchestrated/trigger-orchestrated-campaign.md)
 + Konflikte und Priorisierung {#conflict-prioritization}
    + [Konflikt-Management und Priorisierung](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifizieren potenzieller Konflikte](using/conflict-prioritization/conflicts.md)
