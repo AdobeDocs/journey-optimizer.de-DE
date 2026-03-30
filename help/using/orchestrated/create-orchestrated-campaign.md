@@ -5,10 +5,10 @@ title: Erstellen und Planen orchestrierter Kampagnen mit Journey Optimizer
 description: Informationen zur Erstellung und Planung einer orchestrierten Kampagne mit Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 97%
+source-wordcount: '1173'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Gehen Sie wie folgt vor, um eine orchestrierte Kampagne zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Schaltfläche Kampagne erstellen]** wählen Sie den Kampagnentyp **[!UICONTROL Orchestrierung - Marketing und]**) aus.
 
-   Beim Hinzufügen einer „Kanalaktivität“ wählen Sie aus, ob es sich bei jeder [&#x200B; um eine Marketing- oder &#x200B;](../orchestrated/activities/channels.md) handelt.
+   Beim Hinzufügen einer „Kanalaktivität“ wählen Sie aus, ob es sich bei jeder [ um eine Marketing- oder ](../orchestrated/activities/channels.md) handelt.
 
    ![](assets/create-modal.png)
 
@@ -69,6 +69,8 @@ Gehen Sie wie folgt vor, um eine orchestrierte Kampagne zu erstellen:
 >abstract="Definieren Sie die Häufigkeit der Planung. Er kann zu einem bestimmten Zeitpunkt, einmal oder mehrmals pro Tag, Woche oder Monat, ausgeführt werden."
 
 Standardmäßig starten orchestrierte Kampagnen, wenn sie manuell aktiviert werden, und enden, sobald die zugehörigen Aktivitäten ausgeführt worden sind. Wenn Sie es vorziehen, die Ausführung zu verzögern oder die Kampagne wiederkehrend ausführen möchten, können Sie einen Zeitplan für die Kampagne definieren.
+
+Sie können die Kampagne auch starten, wenn sie ein Signal von einem externen System oder einer externen Anwendung erhält, anstatt nach einem Zeitplan ausgeführt zu werden. [Erfahren Sie, wie Sie einen Trigger für eine orchestrierte Kampagne mithilfe eines Signals erstellen](trigger-orchestrated-campaign.md).
 
 Beachten Sie bei der Planung orchestrierter Kampagnen die folgenden Best Practices, um eine optimale Leistung und das erwartete Verhalten sicherzustellen:
 

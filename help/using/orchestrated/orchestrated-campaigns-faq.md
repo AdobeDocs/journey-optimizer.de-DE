@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zu orchestrierten Kampagnen
 description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Kampagnen
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 91%
+source-wordcount: '1958'
+ht-degree: 88%
 
 ---
 
@@ -140,6 +140,12 @@ Yes. Campaign orchestration is natively integrated with:
 * **Customer Journey Analytics**: Campaign orchestration reports are available.  
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
+
++++ Wie kann ich eine signalgesteuerte orchestrierte Kampagne vor der Veröffentlichung testen?
+
+Während sich die Kampagne in **Entwurf** befindet, können Sie sie testen, indem Sie **Parameter** im Zeitplan definieren und **Testwerte** für jede Kampagne angeben. Starten Sie den Workflow und rufen Sie dann die Trigger-API auf - mithilfe der Beispielanfrage aus der Zeitplankonfiguration oder Ihrer eigenen Anfrage mit demselben Endpunkt -, um die Kampagne mit diesen Testwerten auszuführen. [Erfahren Sie, wie Sie eine signalgesteuerte Kampagne abschließen und testen](trigger-orchestrated-campaign.md#complete-and-test).
+
++++
 
 +++ Kann ich eine orchestrierte Live-Kampagne wieder auf den Entwurf zurücksetzen?
 

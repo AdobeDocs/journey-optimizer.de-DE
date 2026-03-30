@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kam
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 59%
+source-wordcount: '1172'
+ht-degree: 55%
 
 ---
 
@@ -31,11 +31,13 @@ Mit [!DNL Journey Optimizer] können Sie orchestrierte Kampagnen vor der Live-Sc
 >
 >Es werden alle Aktivitäten auf der Arbeitsfläche ausgeführt, mit Ausnahme von Aktivitäten des Typs **[!UICONTROL Zielgruppe speichern]** und Kanalaktivitäten. Es gibt keine funktionalen Auswirkungen auf Ihre Daten oder Ihre Zielgruppe.
 
-Um eine orchestrierte Kampagne zu testen, öffnen Sie die Kampagne und wählen Sie **[!UICONTROL Starten]**.
+Um eine orchestrierte Kampagne zu testen, öffnen Sie die Kampagne und wählen Sie **[!UICONTROL Starten]** aus. Jede Aktivität in der Kampagne wird sequenziell ausgeführt, bis das Ende der Arbeitsfläche erreicht ist.
 
 ![Schaltfläche „Starten“ in der Symbolleiste der Kampagnen-Arbeitsfläche](assets/campaign-start.png){zoomable="yes"}
 
-Jede Aktivität in der Kampagne wird sequenziell ausgeführt, bis das Ende der Arbeitsfläche erreicht ist. Während des Tests können Sie die Kampagnenausführung über die Aktionsleiste auf der Arbeitsfläche verwalten. Dort haben Sie folgende Möglichkeiten:
+Bei **ausgelösten orchestrierten Kampagnen** wartet das System auf einen API-Aufruf, um die Kampagne zu starten. Sie müssen das Signal senden, um den Test fortzusetzen. [Erfahren Sie, wie Sie signalgesteuerte Kampagnen testen](trigger-orchestrated-campaign.md#complete-and-test).
+
+Während des Tests können Sie die Kampagnenausführung über die Aktionsleiste auf der Arbeitsfläche verwalten. Dort haben Sie folgende Möglichkeiten:
 
 * **Stoppen** Sie die Ausführung jederzeit.
 * **Starten** Sie die Ausführung erneut.
@@ -80,7 +82,7 @@ Um eine Kampagne wieder in den Entwurfsstatus zu versetzen, öffnen Sie die orch
 
 ![](assets/back-to-draft.png)
 
-Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Die Kampagne kehrt zum Status **Entwurf** zurück. Sie können jetzt die identifizierten Probleme beheben, die Kampagne [&#x200B; testen &#x200B;](#test) sie dann erneut [veröffentlichen](#publish) wenn sie bereit ist.
+Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Die Kampagne kehrt zum Status **Entwurf** zurück. Sie können jetzt die identifizierten Probleme beheben, die Kampagne [ testen ](#test) sie dann erneut [veröffentlichen](#publish) wenn sie bereit ist.
 
 ## Nachrichtenversand bestätigen {#confirm-sending}
 

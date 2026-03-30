@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 98%
+source-wordcount: '900'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,6 @@ Darüber hinaus können Sie Kontextdaten auch in **Rangfolgeformeln** nutzen, od
 
 * [Rangfolgeformeln – Verstärken von Angeboten basierend auf Kontextdaten](../offers/ranking/create-ranking-formulas.md#context-data)
 * [Personalisieren von Darstellungen basierend auf Kontextdaten](../offers/offer-library/add-representations.md#context-data)
-* [Unterstützte Funktionen im Personalisierungseditor](offer-library/personalization-editor-supported-functions.md) (bei der Personalisierung von Angebotsinhalten im Entscheidungs-Management)
 
 >[!ENDSHADEBOX]
 
