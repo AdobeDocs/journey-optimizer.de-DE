@@ -28,7 +28,7 @@ Eine häufige Herausforderung bei Live-Aktivitäten besteht darin, dass der API-
 
 Stellen Sie vor der Fehlerbehebung Folgendes sicher:
 
-* 
+* &#x200B;
   +++ Einrichten einer Assurance-Sitzung
 
   Richten Sie eine **Assurance-** ein, um SDK-Ereignisse zu erfassen und die Bereitstellungs-Pipeline zu überprüfen. Assurance bietet Einblicke in:
@@ -44,7 +44,7 @@ Stellen Sie vor der Fehlerbehebung Folgendes sicher:
 
   +++
 
-* 
+* &#x200B;
   +++ Erfassen von Details zur API-ausgelösten Kampagne
 
   Navigieren Sie zu Ihrer API-ausgelösten Kampagne in Journey Optimizer und rufen Sie Folgendes ab:
@@ -56,7 +56,7 @@ Stellen Sie vor der Fehlerbehebung Folgendes sicher:
 
   +++
 
-* 
+* &#x200B;
   +++ Erfassen von API-Anfrageinformationen
 
   Wenn Sie den API-Aufruf an den Trigger für die Live-Aktivität ausführen, speichern Sie:
@@ -68,7 +68,7 @@ Stellen Sie vor der Fehlerbehebung Folgendes sicher:
 
   +++
 
-* 
+* &#x200B;
   +++ Testprofil identifizieren
 
   Aus Ihrer API-Anfrage können Sie Folgendes abrufen:
@@ -76,11 +76,11 @@ Stellen Sie vor der Fehlerbehebung Folgendes sicher:
    * Profil-Namespace, z. B. ECID, E-Mail, Kunden-ID
    * Im API-Aufruf verwendete Profil-ID
 
-  Stellen Sie sicher, dass Sie dieses Profil in Adobe Experience Platform nachschlagen können. Erfahren Sie in [ Dokumentation zu Experience Platform, wie Sie ein Profil ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html).
+  Stellen Sie sicher, dass Sie dieses Profil in Adobe Experience Platform nachschlagen können. Erfahren Sie in [&#x200B; Dokumentation zu Experience Platform, wie Sie ein Profil &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html).
 
   +++
 
-* 
+* &#x200B;
   +++ Geräte- und App-Informationen
 
   Erfassen Sie Folgendes auf Ihrem Testgerät:
@@ -119,7 +119,7 @@ Die API gibt HTTP 200 zurück, aber die Live-Aktivität wird nicht angezeigt. H�
 
 #### Debugging-Schritte
 
-1. 
+1. &#x200B;
    +++ Überprüfen, ob das Profil in Adobe Experience Platform vorhanden ist
 
    1. Navigieren Sie in Journey Optimizer zu **Kunde** `>` **Profile**.
@@ -129,7 +129,7 @@ Die API gibt HTTP 200 zurück, aber die Live-Aktivität wird nicht angezeigt. H�
 
       +++
 
-1. 
+1. &#x200B;
    +++ Überprüfen, ob das Push-Token der Live-Aktivität synchronisiert ist
 
    Sie können Assurance verwenden, um die Token-Registrierung zu überprüfen:
@@ -149,7 +149,7 @@ Die API gibt HTTP 200 zurück, aber die Live-Aktivität wird nicht angezeigt. H�
 
    +++
 
-1. 
+1. &#x200B;
    +++ Token-Details im Profil validieren
 
    1. Rufen Sie von **Profil** aus die Registerkarte **Attribute** auf.
@@ -198,16 +198,16 @@ Profil ist mit gültigen Token vorhanden, aber die Live-Aktivität wird nicht an
 * `content-state` und `attributes` stimmen nicht mit der Implementierung der iOS-`ActivityAttributes` überein.
 * Veraltete `timestamp` (wichtig für Aktualisierung/Ende).
 
-**Hinweis für Broadcast-Anwendungsfälle**: Die Kampagne muss **API-ausgelöstes Marketing** (keine Transaktion) sein. Payload verwendet `audience` anstelle von einzelnen `profile`. Vollständige API[Spezifikationen finden Sie in diesem ](#broadcast-config) für die Broadcast-spezifische Payload-Struktur und in der [](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution) Dokumentation zu Adobe Developer.
+**Hinweis für Broadcast-Anwendungsfälle**: Die Kampagne muss **API-ausgelöstes Marketing** (keine Transaktion) sein. Payload verwendet `audience` anstelle von einzelnen `profile`. Vollständige API[Spezifikationen finden Sie in diesem &#x200B;](#broadcast-config) für die Broadcast-spezifische Payload-Struktur und in der [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution) Dokumentation zu Adobe Developer.
 
 #### Vorab-Prüfungen
 
 * Campaign ist **API-ausgelöste Transaktion** (unitäres) oder **API-ausgelöstes Marketing** (Broadcast) und **Hoher Durchsatz** Option muss **nicht** aktiviert sein, da sie mit Live-Aktivität nicht kompatibel ist.
-* Stellen Sie sicher, dass das Profil vorhanden ist und Token mit dem [ Szenario korrekt synchronisiert ](#profile-issue).
+* Stellen Sie sicher, dass das Profil vorhanden ist und Token mit dem [&#x200B; Szenario korrekt synchronisiert &#x200B;](#profile-issue).
 
 #### Debugging-Schritte
 
-1. 
+1. &#x200B;
    +++ Konfiguration der Kampagnenoberfläche überprüfen
 
    1. Öffnen Sie in Journey Optimizer Ihre **Kampagne** und navigieren Sie zum Menü **Aktionen** .
@@ -216,7 +216,7 @@ Profil ist mit gültigen Token vorhanden, aber die Live-Aktivität wird nicht an
 
       +++
 
-1. 
+1. &#x200B;
    +++Validieren der API-Payload-Struktur
 
    Stellen Sie beim Ausführen der Kampagne über die API sicher, dass die Payload der richtigen Struktur entspricht.
@@ -280,7 +280,7 @@ Profil ist mit gültigen Token vorhanden, aber die Live-Aktivität wird nicht an
 
      +++
 
-1. 
+1. &#x200B;
    +++ Payload an iOS-Implementierung anpassen
 
    Stellen Sie sicher, dass Ihre API-Payload mit der `ActivityAttributes` Implementierung Ihrer iOS-App übereinstimmt. Das `LiveActivityAttributes`-Protokoll von Adobe SDK erweitert iOS `ActivityAttributes` und erfordert eine `liveActivityData`.
@@ -350,11 +350,11 @@ Profil ist mit gültigen Token vorhanden, aber die Live-Aktivität wird nicht an
    | Einschließen von `attributes` in Aktualisierung/Ende | Unnötig, aber normalerweise ignoriert | Nur `attributes` in Startereignis einbeziehen |
    | Veralteter Zeitstempel bei Aktualisierung/Ende | Update/Ende vom Gerät ignoriert | Immer neuen Zeitstempel erzeugen |
 
-   Weitere Beispiele finden Sie auf [ Seite „Live-Aktivität erstellen](create-mobile-live.md).
+   Weitere Beispiele finden Sie auf [&#x200B; Seite „Live-Aktivität erstellen](create-mobile-live.md).
 
    +++
 
-1. 
+1. &#x200B;
    +++ Testen mit Assurance
 
    Überprüfen der API-Ausführung und der Payload-Bereitstellung mithilfe von Assurance:
@@ -401,7 +401,7 @@ Die Live-Aktivität wird jedoch weiterhin nicht wie erwartet angezeigt, aktualis
 
 #### Debugging-Schritte
 
-1. 
+1. &#x200B;
    +++ Kampagnenberichte überprüfen
 
    1. Navigieren Sie zu Ihrer **Live-Kampagnenaktivität**.
@@ -440,7 +440,7 @@ Die Live-Aktivität wird jedoch weiterhin nicht wie erwartet angezeigt, aktualis
 
    +++
 
-1. 
+1. &#x200B;
    +++ Prüfen von Nachrichten-Feedback-Ereignissen im Profil
 
    1. Navigieren Sie **Journey Optimizer zu** > **Profile**.
@@ -467,7 +467,7 @@ Die Live-Aktivität wird jedoch weiterhin nicht wie erwartet angezeigt, aktualis
 
       +++
 
-1. 
+1. &#x200B;
    +++ Überprüfen der Bereitstellung von Live-Aktivitäten an APNs in Assurance
 
    1. Öffnen Sie Ihre Assurance-Sitzung. Sie muss während des API-Aufrufs aktiv sein.
@@ -490,7 +490,7 @@ Die Live-Aktivität wird jedoch weiterhin nicht wie erwartet angezeigt, aktualis
 
       +++
 
-1. 
+1. &#x200B;
    +++ Weitere Diagnoseprüfungen durchführen
 
    1. Überprüfen Sie die Lebenszyklusmetriken der Live-Aktivität im Kampagnenbericht.
@@ -516,7 +516,7 @@ Die Live-Aktivität wird jedoch weiterhin nicht wie erwartet angezeigt, aktualis
 
       +++
 
-1. 
+1. &#x200B;
    +++ Eskalation an den Adobe Support
 
    Wenn Sie alle Schritte ausgeführt haben und das Problem weiterhin nicht behoben ist, wenden Sie sich an die Adobe-Kundenunterstützung mit:
@@ -568,7 +568,7 @@ Damit Aktualisierungs- und End-Ereignisse funktionieren, muss Folgendes passiere
 
 #### Debugging-Schritte
 
-1. 
+1. &#x200B;
    +++ Überprüfen der Update-Token-Synchronisierung in Assurance
 
    1. Öffnen Sie Ihre Assurance-Sitzung.
@@ -591,7 +591,7 @@ Damit Aktualisierungs- und End-Ereignisse funktionieren, muss Folgendes passiere
 
       +++
 
-2. 
+2. &#x200B;
    +++ Überprüfen des Aktualisierungs-Tokens in Profilereignissen
 
    1. Navigieren Sie **Journey Optimizer zu** > **Profile**.
@@ -614,7 +614,7 @@ Damit Aktualisierungs- und End-Ereignisse funktionieren, muss Folgendes passiere
 
       +++
 
-3. 
+3. &#x200B;
    +++ Live-Aktivitäts-Versandereignisse in Assurance überprüfen
 
    1. Führen Sie in Ihrer Assurance-Sitzung einen Update- oder End-API-Aufruf aus.
@@ -653,7 +653,7 @@ Dieses Fehlerbehebungsszenario gilt für alle Live-Aktivitätsereignisse in Broa
 
 #### Debugging-Schritte
 
-1. 
+1. &#x200B;
    +++ Konfiguration der Campaign-Zielgruppe überprüfen
 
    1. Öffnen Sie Ihre **API-ausgelöste Marketing** Kampagne in Journey Optimizer.
@@ -668,7 +668,7 @@ Dieses Fehlerbehebungsszenario gilt für alle Live-Aktivitätsereignisse in Broa
 
       +++
 
-1. 
+1. &#x200B;
    +++ Validieren der Payload-Struktur der Broadcast-API
 
    Die Struktur der Broadcast-Payload unterscheidet sich von unitären Kampagnen. Vergewissern Sie sich, dass Ihre Payload das richtige Sendeformat verwendet.
@@ -736,11 +736,11 @@ Dieses Fehlerbehebungsszenario gilt für alle Live-Aktivitätsereignisse in Broa
    * `dismissal-date`: Unix-Epochenzeit für automatische Abweisung (nur relevant für `end` Ereignisse)
    * `alert`: Objekt mit `title` und `body` zur Benachrichtigung
 
-   Vollständige API-Spezifikationen finden Sie in der [ zur Adobe Journey Optimizer Messaging-API ](https://developer.adobe.com/journey-optimizer-apis/references/messaging).
+   Vollständige API-Spezifikationen finden Sie in der [&#x200B; zur Adobe Journey Optimizer Messaging-API &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging).
 
    +++
 
-1. 
+1. &#x200B;
    +++ Ausrichten von Inhaltsstatus, Attributen und Eingabe-Push-Kanal an der iOS-Implementierung
 
    Stellen Sie sicher, dass die Payload-Felder mit der `ActivityAttributes` Implementierung Ihrer iOS-App übereinstimmen und dass die `input-push-channel` mit der `channelID` in `liveActivityData` übereinstimmt.
@@ -821,7 +821,7 @@ Dieses Fehlerbehebungsszenario gilt für alle Live-Aktivitätsereignisse in Broa
 
    +++
 
-1. 
+1. &#x200B;
    +++ Testen mit Assurance
 
    Überprüfen der API-Ausführung und der Payload-Bereitstellung mithilfe von Assurance:
@@ -868,7 +868,7 @@ Adobe Experience Platform verwendet verschiedene Methoden zur Zielgruppenauswert
 
 #### Debugging-Schritte
 
-1. 
+1. &#x200B;
    +++ Überprüfen, ob sich das Profil in der Zielgruppe befindet
 
    Bestätigen Sie zunächst, ob das Profil, das die Live-Aktivität erhalten soll, tatsächlich Teil der Zielgruppe ist.
@@ -886,7 +886,7 @@ Adobe Experience Platform verwendet verschiedene Methoden zur Zielgruppenauswert
 
       +++
 
-2. 
+2. &#x200B;
    +++ Typ und Zeitplan der Zielgruppenauswertung überprüfen
 
    Ermitteln Sie, ob die Zielgruppe die Batch- oder Streaming-Auswertung verwendet, da dies die Datenfrische bestimmt.
