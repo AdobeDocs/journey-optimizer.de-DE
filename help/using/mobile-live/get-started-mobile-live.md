@@ -78,4 +78,4 @@ Führen Sie die folgenden Schritte aus, um die Live-Aktivität in Ihrer Anwendun
 
 Erfahren Sie, wie Sie iOS Live-Aktivitäten mit Adobe Journey Optimizer konfigurieren, um umfangreiche Echtzeit-Updates auf dem iPhone-Sperrbildschirm und auf Dynamic Island zu liefern.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479873/?captions=ger&learn=on)
