@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '1810'
-ht-degree: 46%
+source-wordcount: '1817'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 46%
 
 +++Was ist der Unterschied zwischen einer Live -Aktivität und einer Push-Benachrichtigung?
 
-Live-Aktivität bietet beständige Echtzeit-Updates auf dem Sperrbildschirm und auf Dynamic Island, ohne dass Benutzer ihr Gerät entsperren müssen. Push-Benachrichtigungen sind temporäre Warnhinweise, die nach dem Verwerfen ausgeblendet werden. Live-Aktivität bleibt sichtbar und kann mehrmals aktualisiert werden, bis sie explizit beendet wird.
+Eine Live-Aktivität bietet dauerhafte Echtzeit-Aktualisierungen auf dem Sperrbildschirm und auf Dynamic Island, ohne dass Benutzer ihr Gerät entsperren müssen. Push-Benachrichtigungen sind temporäre Warnhinweise, die nach dem Verwerfen ausgeblendet werden. Eine Live-Aktivität bleibt sichtbar und kann mehrmals aktualisiert werden, bis sie explizit beendet wird.
 
 +++
 
@@ -48,7 +48,7 @@ Nein. Eine Live-Aktivität kann auch dann gestartet, aktualisiert und remote bee
 
 +++Welche iOS-Versionen unterstützen Live-Aktivitäten?
 
-* iOS 16.1+: Grundlegende Unterstützung für Live-Aktivitäten
+* iOS 16.1+: Grundlegende Unterstützung von Live-Aktivitäten
 * iOS 17.2 und höher: Push-to-Start-Funktion (Remote-Start ohne Öffnen des Programms)
 * iOS 18+: Unterstützung von Broadcast-Kanälen für zielgruppenbasierte Live-Aktivitäten
 +++
@@ -67,9 +67,9 @@ Für Kampagnen besteht ein standardmäßiges Ratenlimit von 500 Transaktionsnach
 
 ### Fragen von Entwickelnden
 
-+++Muss ich eine separate Widget-Erweiterung für die Live -Aktivität erstellen?
++++Muss ich eine separate Widget-Erweiterung für Live-Aktivitäten erstellen?
 
-Ja. Die Live-Aktivität wird über WidgetKit angezeigt. Daher müssen Sie eine Widget-Erweiterung in Ihrem Xcode-Projekt erstellen und die `ActivityConfiguration` implementieren.
+Ja. Live-Aktivitäten werden über WidgetKit angezeigt. Daher müssen Sie eine Widget-Erweiterung in Ihrem Xcode-Projekt erstellen und die `ActivityConfiguration` implementieren.
 [Weitere Informationen zur Widget-Konfiguration](mobile-live-configuration-sdk.md)
 
 +++
@@ -86,11 +86,11 @@ Wenn Sie eine Aktualisierung oder ein Ereignis zum Beenden für eine nicht vorha
 
 +++
 
-+++Kann ich die Live -Aktivität im iOS-Simulator testen?
++++Kann ich Live-Aktivitäten im iOS-Simulator testen?
 
 Ja, Sie können im iOS-Simulator sowohl lokal gestartete als auch remote gestartete Live-Aktivitäten testen.
 
-* **Lokal**: Dazu gehört das Erstellen, Aktualisieren und Beenden von Live-Aktivitäten direkt in Ihrer App mithilfe von **ActivityKit-APIs**.
+* **Lokal**: Dazu gehört das Erstellen, Aktualisieren und Senden einer Live-Aktivität direkt in Ihrer App mithilfe von **ActivityKit-APIs**.
 
 * **Remote**: Um die Live-Aktivitätsfunktion remote zu testen, integrieren Sie unsere Messaging-SDK in Ihre App und verwenden Sie die bereitgestellten Ausführungs-APIs, um Remote-Start, -Update und -Ende an Ihr Testgerät oder Ihren iOS-Simulator zu senden. Dies funktioniert ähnlich, wie Push-Benachrichtigungen derzeit mit der Adobe SDK-Integration getestet werden können.
 
@@ -98,7 +98,7 @@ Ja, Sie können im iOS-Simulator sowohl lokal gestartete als auch remote gestart
 
 +++Wie gehe ich mit Aktualisierungen um, wenn sich die App im Hintergrund befindet?
 
-Das SDK übernimmt dies automatisch. Nach der Registrierung erhält die Live-Aktivität Aktualisierungen, selbst wenn die App beendet wird. Es sind keine zusätzlichen Hintergrundmodi erforderlich.
+Das SDK übernimmt dies automatisch. Nach der Registrierung erhält eine Live-Aktivität Aktualisierungen, selbst wenn die App beendet wird. Es sind keine zusätzlichen Hintergrundmodi erforderlich.
 +++
 
 +++Was ist der Unterschied zwischen `liveActivityID` und `channelID`?
@@ -114,7 +114,7 @@ Ja. `ActivityConfiguration` verfügt über eigene Anzeigeoptionen für Sperrbild
 
 +++Muss ich Push-Token manuell speichern?
 
-Nein. Wenn Sie einen Typ einer Live-Aktivität mit `Messaging.registerLiveActivity()` registrieren, erfasst und verwaltet das SDK automatisch Push-Token für Sie.
+Nein. Wenn Sie einen Live-Aktivitätstyp bei `Messaging.registerLiveActivity()` registrieren, erfasst und verwaltet die SDK automatisch Push-Token für Sie.
 +++
 
 +++Gibt es Beschränkungen für Remote-Starts von Live-Aktivitäten?
@@ -154,7 +154,7 @@ Durch den API-Aufruf wird die Live-Aktivität sofort Trigger. Sie können Ihre A
 
 +++Was passiert, wenn ich ein „Start“-Ereignis für eine bereits vorhandene Live-Aktivität sende?
 
-Beim Remote-Start von Live-Aktivitäten über die Ausführungs-APIs von Adobe:
+Beim Remote-Start einer Live-Aktivität über die Ausführungs-APIs von Adobe:
 
 * Sie können der Anfrage einen `x-request-id`-Header hinzufügen. Idealerweise sollte eine Eins-zu-eins-Beziehung zwischen jeder `liveActivityID` und der entsprechenden `x-request-id` bestehen. Dadurch wird sichergestellt, dass bei mehreren Anfragen mit derselben `x-request-id` und `liveActivityID` Kombination nur eine Live-Aktivitätsinstanz auf dem Gerät gestartet und doppelte Anfragen ignoriert werden.
 
@@ -176,7 +176,7 @@ Aktualisieren Sie sie nur, wenn sich wichtige Informationen ändern, da zu häuf
 
 +++
 
-+++Kann ich Benutzende darauf ansprechen, ob sie Live-Aktivität aktiviert haben?
++++Kann ich Benutzende darauf ansprechen, ob sie Live-Aktivitäten aktiviert haben?
 
 Sie müssen mit Ihrem Entwicklungs-Team zusammenarbeiten, um diese Voreinstellung als Benutzerattribut nachzuverfolgen und an Adobe Experience Platform zu übergeben. Anschließend können Sie basierend auf diesem Attribut segmentieren.
 
@@ -260,13 +260,13 @@ Häufige Ursachen:
 * Stellen Sie sicher, dass der Klassenname **exakt** (unter Berücksichtigung der Groß-/Kleinschreibung) Ihrem Swift-Strukturnamen entspricht
 * Überprüfen Sie, ob die Struktur ordnungsgemäß definiert und registriert ist
 * Überprüfen Sie die JSON-Payload auf Tippfehler
-* Vergewissern Sie sich, dass die installierte App-Version über die Implementierung der Live-Aktivität verfügt
+* Überprüfen Sie, ob die installierte App-Version die Live-Aktivitätsimplementierung enthält
 
 +++
 
 +++Benutzende sehen nur die Live-Aktivitäts-Aktualisierung und nicht die Warnmeldung. Ist dieses Problem bekannt?
 
-Nein. Das Feld `alert` ist optional und kann unter bestimmten Bedingungen von iOS unterdrückt werden, z. B. im Modus „Nicht stören“. Live-Aktivitäten können im Hintergrund aktualisiert werden, was häufig das beabsichtigte Verhalten ist. Das Feld für Warnhinweise ist obligatorisch für das Senden von Remote-Starts, andernfalls behandelt Apple es wie eine stille Hintergrundbenachrichtigung.
+Nein. Das Feld `alert` ist optional und kann unter bestimmten Bedingungen von iOS unterdrückt werden, z. B. im Modus „Nicht stören“. Eine Live-Aktivität kann im Hintergrund aktualisiert werden, was häufig das beabsichtigte Verhalten ist. Das Feld für Warnhinweise ist obligatorisch für das Senden von Remote-Starts, andernfalls behandelt Apple es wie eine stille Hintergrundbenachrichtigung.
 
 +++
 

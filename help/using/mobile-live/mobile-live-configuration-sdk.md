@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Konfigurieren des Kanals für Live-Aktivitäten
+title: Konfigurieren des Live-Aktivitätskanals
 description: Informationen zum Konfigurieren Ihrer Adobe Experience Platform Mobile SDK-Integration
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 70%
+source-wordcount: '494'
+ht-degree: 74%
 
 ---
 
 # Live-Aktivitätsintegration mit Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
 
-Adobe Experience Platform Mobile SDK bietet integrierte Unterstützung für die Live-Aktivität von Apple. Dadurch kann Ihre App dynamische Aktualisierungen in Echtzeit direkt auf dem Sperrbildschirm und auf der Dynamic Island anzeigen, ohne dass die App geöffnet werden muss.
+Das Adobe Experience Platform Mobile SDK bietet integrierte Unterstützung für Live-Aktivitäten von Apple. Dadurch kann Ihre App dynamische Aktualisierungen in Echtzeit direkt auf dem Sperrbildschirm und auf der Dynamic Island anzeigen, ohne dass die App geöffnet werden muss.
 
 1. [Importieren erforderlicher Module](#import)
 
@@ -150,7 +150,7 @@ if #available(iOS 16.1, *) {
 
 ## Schritt 4: Erstellen von Widgets für Live-Aktivitäten {#widgets}
 
-Live-Aktivität wird über Widgets angezeigt. Sie müssen ein Widget-Bundle und eine Konfiguration erstellen:
+Eine Live-Aktivität wird über Widgets angezeigt. Sie müssen ein Widget-Bundle und eine Konfiguration erstellen:
 
 **Beispiel für eine Live-Aktivität eines Lebensmittelversands:**
 

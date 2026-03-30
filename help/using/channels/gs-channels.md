@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie mit Kommunikationskanälen in  [!DNL Adobe Jo
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 1e2d9dce832c28573486e10ae4d8246313d49cc1
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 84%
@@ -27,7 +27,7 @@ Bei ausgehenden Kanälen für den Nachrichtenversand werden Nachrichten ohne vor
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-Mail-Kanal
 
@@ -37,7 +37,7 @@ Erfahren Sie, wie Sie E-Mail-Kampagnen erstellen, konfigurieren und optimieren k
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Push-Benachrichtigungs-Kanal
 
@@ -47,17 +47,17 @@ Erfahren Sie, wie Sie Push-Benachrichtigungen für iOS und Android erstellen, ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
-iOS Live-Aktivität
+iOS Live-Aktivitäten
 
 Stellen Sie persistente Echtzeit-Updates direkt auf dem iPhone-Sperrbildschirm und auf Dynamic Island bereit. Power Live-Aktivitäten aus API-ausgelösten Kampagnen für einzelne Anwendungsfälle (Auftrags-Tracking, Fahrtstatus) oder Broadcast-Anwendungsfälle (Sportergebnisse, Flugstatus).
 
-[Weitere Informationen zur iOS Live-Aktivität](../mobile-live/get-started-mobile-live.md)
+[Weitere Informationen zu iOS Live-Aktivitäten](../mobile-live/get-started-mobile-live.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS-/MMS-/RCS-Nachrichten
 
@@ -67,7 +67,7 @@ Erfahren Sie, wie Sie SMS-, MMS- und RCS-Nachrichten für Marketing- und Transak
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Briefpostkampagnen
 
@@ -77,7 +77,7 @@ Erfahren Sie, wie Sie Briefpostkampagnen erstellen und verwalten, einschließlic
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 WhatsApp Messaging
 
@@ -87,7 +87,7 @@ Erfahren Sie, wie Sie WhatsApp-Nachrichten über die Cloud-API von Meta integrie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 LINE-Messaging
 
@@ -105,7 +105,7 @@ Mit Inbound-Erlebnissen über Mobile App und Web initiieren Kundinnen und Kunden
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 In-App-Nachrichten
 
@@ -115,7 +115,7 @@ Erfahren Sie, wie Sie In-App-Benachrichtigungen für mobile und Web-Plattformen 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -125,7 +125,7 @@ Erfahren Sie, wie Sie Web-Erlebnisse erstellen, konfigurieren und personalisiere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Code-basiertes Erlebnis
 
@@ -135,7 +135,7 @@ Machen Sie sich mit Code-basierten Erlebnissen vertraut, um mithilfe von SDKs un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Inhaltskarten
 
@@ -162,7 +162,7 @@ Die nachstehende Tabelle zeigt die Verfügbarkeit der einzelnen Kanäle für ver
 | E-Mail | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Push-Benachrichtigung | ✅ | ✅ | ✅ | ✅ | ✅ |
-| iOS Live-Aktivität | — | — | — | ✅ | — |
+| iOS Live-Aktivitäten | — | — | — | ✅ | — |
 | In-App | ✅ | ✅ | — | — | — |
 | Direkt-Mail | ✅ | ✅ | — | — | ✅ |
 | Web | ✅ | ✅ | — | — | — |

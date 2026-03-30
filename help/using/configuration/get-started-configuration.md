@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
-source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 87%
@@ -52,7 +52,7 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Inhaltskarten</strong></a></div></td>
     </tr></table>
 
-   Weitere Kanäle finden Sie unter: [iOS Live Activity](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) und [LINE](../line/line-configuration.md).
+   Weitere Kanäle finden Sie unter: [iOS Live-](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) und [LINE](../line/line-configuration.md).
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
 * **[IP-Aufwärmen](ip-warmup-gs.md)**: Entdecken Sie Best Practices für das Aufwärmen von IP-Adressen, um die E-Mail-Zustellbarkeit und den Ruf der absendenden Partei zu verbessern.
 * **[Verwalten der Unterdrückungsliste](manage-suppression-list.md)**: Erfahren Sie, wie Sie Unterdrückungslisten verwalten, um mit Bounces umzugehen und die Listenhygiene zu gewährleisten.
 * **[Konfigurieren von Apps](set-mobile-config.md)**: Richten Sie App-Konfigurationen für Push-Benachrichtigungen und In-App-Messaging ein.
-* **[iOS Live-Aktivität konfigurieren](../mobile-live/mobile-live-configuration.md)** - Richten Sie Ihre Umgebung ein, um Live-Aktivitäten an den iPhone Lock Screen und Dynamic Island zu senden.
+* **[Konfigurieren von iOS Live-Aktivitäten](../mobile-live/mobile-live-configuration.md)** - Richten Sie Ihre Umgebung ein, um Live-Aktivitäten an den iPhone Lock Screen und Dynamic Island zu senden.
 * **[WhatsApp konfigurieren](../whatsapp/whatsapp-configuration.md)** - Einrichten von WhatsApp-Nachrichten über die Meta Cloud-API für Kampagnen und Journey.
 * **[LINE konfigurieren](../line/line-configuration.md)** - Einrichten von LINE-Messaging für Kampagnen und Journey.
 * **[Tutorials zu Konfigurationen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}**: Sehen Sie sich detaillierte Video-Tutorials zur Kanalkonfiguration und Best Practices an.

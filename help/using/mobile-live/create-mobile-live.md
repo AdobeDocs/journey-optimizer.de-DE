@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 66%
@@ -159,6 +159,6 @@ Nachdem Sie Ihre Live-Aktivität entworfen haben, können Sie mit [integrierten 
 
 ## Anleitungsvideo
 
-Erfahren Sie, wie Sie die Live-Aktivität von iOS mit Adobe Journey Optimizer konfigurieren, um umfangreiche Echtzeit-Updates auf dem iPhone-Sperrbildschirm und auf Dynamic Island zu liefern.
+Erfahren Sie, wie Sie iOS Live-Aktivitäten mit Adobe Journey Optimizer konfigurieren, um umfangreiche Echtzeit-Updates auf dem iPhone-Sperrbildschirm und auf Dynamic Island zu liefern.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479873?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
