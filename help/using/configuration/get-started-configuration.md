@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: Konfiguration, Konfigurieren, Nachrichten, Kanal, Sandbox, Optimizer
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 87%
 
 ---
 
@@ -31,11 +31,11 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
 1. [Adobe Journey Optimizer-Systemadministrierende](../start/path/administrator.md) können kanalspezifische Konfigurationen definieren. Auf den folgenden Seiten erfahren Sie, wie Sie diese Konfigurationen einrichten:
 
    <table style="table-layout:fixed"><tr style="border: 0;">
-    <td><a href="../email/get-started-email-config.md"><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png"></a>
+    <td><a href="../email/get-started-email-config.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a>
     <div align="center"><a href="../email/get-started-email-config.md"><strong>E-Mail</strong></a></div></td>
     <td><a href="../sms/sms-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
     <div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
-    <td><a href="../push/push-configuration.md"><img alt="Push" src="../channels/assets/do-not-localize/push.png"></a>
+    <td><a href="../push/push-configuration.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
     <div align="center"><a href="../push/push-configuration.md"><strong>Push-Benachrichtigung</strong></a></div></td>
     <td><a href="../direct-mail/direct-mail-configuration.md"><img alt="Direkt-Mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
     <div align="center"><a href="../direct-mail/direct-mail-configuration.md"><strong>Direkt-Mail</strong></a></div></td>
@@ -51,6 +51,8 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
     <td><a href="../content-card/content-card-configuration-prereq.md"><img alt="Inhaltskarten" src="../channels/assets/do-not-localize/cards.png"></a>
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Inhaltskarten</strong></a></div></td>
     </tr></table>
+
+   Weitere Kanäle finden Sie unter: [iOS Live Activity](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) und [LINE](../line/line-configuration.md).
 
    >[!NOTE]
    >
@@ -81,4 +83,7 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
 * **[IP-Aufwärmen](ip-warmup-gs.md)**: Entdecken Sie Best Practices für das Aufwärmen von IP-Adressen, um die E-Mail-Zustellbarkeit und den Ruf der absendenden Partei zu verbessern.
 * **[Verwalten der Unterdrückungsliste](manage-suppression-list.md)**: Erfahren Sie, wie Sie Unterdrückungslisten verwalten, um mit Bounces umzugehen und die Listenhygiene zu gewährleisten.
 * **[Konfigurieren von Apps](set-mobile-config.md)**: Richten Sie App-Konfigurationen für Push-Benachrichtigungen und In-App-Messaging ein.
+* **[iOS Live-Aktivität konfigurieren](../mobile-live/mobile-live-configuration.md)** - Richten Sie Ihre Umgebung ein, um Live-Aktivitäten an den iPhone Lock Screen und Dynamic Island zu senden.
+* **[WhatsApp konfigurieren](../whatsapp/whatsapp-configuration.md)** - Einrichten von WhatsApp-Nachrichten über die Meta Cloud-API für Kampagnen und Journey.
+* **[LINE konfigurieren](../line/line-configuration.md)** - Einrichten von LINE-Messaging für Kampagnen und Journey.
 * **[Tutorials zu Konfigurationen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}**: Sehen Sie sich detaillierte Video-Tutorials zur Kanalkonfiguration und Best Practices an.

@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Kommunikationskanälen in  [!DNL Adobe Jo
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: 1e2d9dce832c28573486e10ae4d8246313d49cc1
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '626'
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ Bei ausgehenden Kanälen für den Nachrichtenversand werden Nachrichten ohne vor
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-Mail-Kanal
 
@@ -37,7 +37,7 @@ Erfahren Sie, wie Sie E-Mail-Kampagnen erstellen, konfigurieren und optimieren k
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Push-Benachrichtigungs-Kanal
 
@@ -47,7 +47,17 @@ Erfahren Sie, wie Sie Push-Benachrichtigungen für iOS und Android erstellen, ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+
+iOS Live-Aktivität
+
+Stellen Sie persistente Echtzeit-Updates direkt auf dem iPhone-Sperrbildschirm und auf Dynamic Island bereit. Power Live-Aktivitäten aus API-ausgelösten Kampagnen für einzelne Anwendungsfälle (Auftrags-Tracking, Fahrtstatus) oder Broadcast-Anwendungsfälle (Sportergebnisse, Flugstatus).
+
+[Weitere Informationen zur iOS Live-Aktivität](../mobile-live/get-started-mobile-live.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS-/MMS-/RCS-Nachrichten
 
@@ -57,13 +67,33 @@ Erfahren Sie, wie Sie SMS-, MMS- und RCS-Nachrichten für Marketing- und Transak
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Briefpostkampagnen
 
 Erfahren Sie, wie Sie Briefpostkampagnen erstellen und verwalten, einschließlich des Exports von Extraktionsdateien für Drittanbieter und Compliance bezüglich des Benutzereinverständnisses.
 
 [Weitere Informationen zu Briefpostkampagnen](../../rp_landing_pages/direct-mail-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+
+WhatsApp Messaging
+
+Erfahren Sie, wie Sie WhatsApp-Nachrichten über die Cloud-API von Meta integrieren und für personalisierte und konforme Kommunikationskampagnen und Journey verwenden können.
+
+[Weitere Informationen zu WhatsApp-Nachrichten](../../rp_landing_pages/whatsapp-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
+
+LINE-Messaging
+
+Erfahren Sie, wie Sie LINE-Nachrichten konfigurieren, erstellen und personalisieren können, um eine effektive Kommunikation in Kampagnen und Journey zu gewährleisten.
+
+[Weitere Informationen zu LINE-Messaging](../../rp_landing_pages/line-landing-page.md)
 :::
 
 ::::
@@ -75,7 +105,7 @@ Mit Inbound-Erlebnissen über Mobile App und Web initiieren Kundinnen und Kunden
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 In-App-Nachrichten
 
@@ -85,7 +115,7 @@ Erfahren Sie, wie Sie In-App-Benachrichtigungen für mobile und Web-Plattformen 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +125,7 @@ Erfahren Sie, wie Sie Web-Erlebnisse erstellen, konfigurieren und personalisiere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Code-basiertes Erlebnis
 
@@ -105,7 +135,7 @@ Machen Sie sich mit Code-basierten Erlebnissen vertraut, um mithilfe von SDKs un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Inhaltskarten
 
@@ -116,11 +146,6 @@ Erfahren Sie, wie Sie Inhaltskarten für ansprechende und personalisierte Nachri
 
 ::::
 
-
-## Weitere Ressourcen
-
-- **[WhatsApp-Nachrichten](../../rp_landing_pages/whatsapp-landing-page.md)**: Erfahren Sie, wie Sie WhatsApp-Nachrichten über die Cloud-API von Meta in personalisierten und richtlinienkonformen Kommunikationskampagnen integrieren und verwenden können.
-- **[LINE-Nachrichten](../../rp_landing_pages/line-landing-page.md)**: Erfahren Sie, wie Sie LINE-Nachrichten für effektive Kommunikation in Kampagnen und Journeys konfigurieren, erstellen und personalisieren können.
 
 ## Kanäle in Journeys und Kampagnen {#channels}
 
@@ -137,6 +162,7 @@ Die nachstehende Tabelle zeigt die Verfügbarkeit der einzelnen Kanäle für ver
 | E-Mail | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Push-Benachrichtigung | ✅ | ✅ | ✅ | ✅ | ✅ |
+| iOS Live-Aktivität | — | — | — | ✅ | — |
 | In-App | ✅ | ✅ | — | — | — |
 | Direkt-Mail | ✅ | ✅ | — | — | ✅ |
 | Web | ✅ | ✅ | — | — | — |
