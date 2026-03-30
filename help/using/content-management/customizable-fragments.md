@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 874bbd1d7235c8043e824290d748677fe30f43a9
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 98%
+source-wordcount: '1496'
+ht-degree: 94%
 
 ---
 
@@ -124,7 +124,7 @@ Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzende nun die
 
 * Für HTML-Komponenten wird die Variable in der Liste der bearbeitbaren Felder im E-Mail-Designer angezeigt. [Informationen dazu, wie Sie bearbeitbare Felder in einem visuellen Fragment anpassen](../email/use-visual-fragments.md#customize-fields)
 
-### Beispiel für ein bearbeitbares Ausdrucksfragment {#example}
+### Beispiel: Anpassbares Ausdrucksfragment {#example}
 
 Im folgenden Beispiel wird ein Ausdrucksfragment zur Präsentation einer neuen Sportkollektion erstellt. Standardmäßig zeigt das Fragment diesen Inhalt an: *Sie wollen mehr? Dann sehen Sie sich unsere neueste Sportkollektion an!*
 
@@ -146,9 +146,9 @@ Gehen Sie dazu wie folgt vor:
 
 ## Hinzufügen von Rich Text zu einem anpassbaren Fragment {#rich-text}
 
-Rich Text wie Zeilenumbrüche, fette oder kursive Formatierung usw. kann mithilfe von HTML-Komponenten zu einem bearbeitbaren Fragment hinzugefügt werden. Gehen Sie dazu wie folgt vor.
+Rich-Text wie Zeilenumbrüche, fett, kursiv usw. kann mithilfe von HTML-Komponenten zu einem anpassbaren Fragment hinzugefügt werden. Gehen Sie dazu wie folgt vor.
 <!--
-➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
+➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)-->
 
 ### Erstellen eines Fragments mit Rich Text {#add-rich-text}
 
@@ -176,9 +176,9 @@ Rich Text wie Zeilenumbrüche, fette oder kursive Formatierung usw. kann mithilf
 
 1. Speichern und [veröffentlichen](create-fragments.md#publish) Sie das Fragment.
 
-### Verwenden von bearbeitbaren Rich-Text-Fragmenten {#use-rich-text}
+### Verwenden von Rich-Text in anpassbaren Fragmenten {#use-rich-text}
 
-Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzende jetzt den von Ihnen erstellten Rich-Text-Inhalt und -Stil bearbeiten. Gehen Sie wie folgt vor, um bearbeitbare Rich-Text-Fragmente als Marketing-Fachkraft zu verwenden.
+Beim Hinzufügen des Fragments zu Ihrer E-Mail können Sie jetzt den von Ihnen erstellten Rich-Text-Inhalt und -Stil bearbeiten. Gehen Sie als Marketing-Experte wie folgt vor.
 
 1. [Erstellen Sie eine E-Mail](../email/create-email.md) in einer Kampagne oder einer Journey und fügen Sie dann das Fragment mit dem zuvor [erstellten](#add-rich-text) Rich Text hinzu.
 
@@ -199,5 +199,5 @@ Beim Hinzufügen des Fragments zu ihrem E-Mail-Inhalt können Benutzende jetzt d
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464377/?captions=ger&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
