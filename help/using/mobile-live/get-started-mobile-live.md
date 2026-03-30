@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 4f599e46c35bc328057247b84193a4db670fee83
+source-git-commit: df4183e15b2907bfb669e7e2e8eb88771627dcf4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 21%
@@ -26,7 +26,7 @@ Live-Aktivitäten sind beständige, überprüfbare Benutzeroberflächenelemente,
 Im Gegensatz zu herkömmlichen Push-Benachrichtigungen stellen Live-Aktivitäten **statusbasierte Interaktion** dar: Statt einmalige Warnhinweise bereitzustellen, behalten sie eine kontinuierliche, kontextuelle Präsenz bei, die dynamisch aktualisiert wird, wenn sich Ereignisse entwickeln.
 
 
-![](assets/do-not-localize/live-activity.jpeg){width="50%" align="left"}
+![](assets/do-not-localize/live-activity.jpeg){width="30%" align="left"}
 
 Mit Adobe Journey Optimizer können Sie Live **Aktivitäten programmgesteuert über API** ausgelöste Kampagnen remote starten **aktualisieren** und **beenden**. Dabei werden sowohl individuelle als auch zielgruppenbasierte Anwendungsfälle im benötigten Umfang unterstützt.
 
@@ -78,4 +78,4 @@ Führen Sie die folgenden Schritte aus, um die Live-Aktivität in Ihrer Anwendun
 
 Erfahren Sie, wie Sie iOS Live-Aktivitäten mit Adobe Journey Optimizer konfigurieren, um umfangreiche Echtzeit-Updates auf dem iPhone-Sperrbildschirm und auf Dynamic Island zu liefern.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479873/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
