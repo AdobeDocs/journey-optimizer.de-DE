@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 727f277b06b748cd4712c9cce62d7b4a1ad1f146
+source-git-commit: e49528fa70225e7435683f5a63d883a0ffce29fa
 workflow-type: tm+mt
 source-wordcount: '3147'
 ht-degree: 96%
@@ -403,7 +403,7 @@ ht-degree: 96%
       + [Konfigurieren eines LINE-Kanals in Journey Optimizer](using/line/line-configuration.md)
       + [Erstellen einer LINE-Nachricht](using/line/create-line.md)
       + [Überprüfen und Senden Ihrer LINE-Nachrichten](using/line/send-line.md)
-   + Live-Aktivität {#live-activity}
+   + Live-Aktivitäten {#live-activity}
       + [Erste Schritte mit Live-Aktivitäten](using/mobile-live/get-started-mobile-live.md)
       + [Erstellen einer Live-Aktivität](using/mobile-live/create-mobile-live.md)
       + [Fehlerbehebung bei Live-Aktivitäten](using/mobile-live/troubleshoot-mobile-live.md)
