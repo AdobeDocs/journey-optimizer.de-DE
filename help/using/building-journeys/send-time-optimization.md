@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Versandzeit, senden, Nachricht, Optimierung, Journey, KI, intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 93%
+source-wordcount: '1567'
+ht-degree: 78%
 
 ---
 
@@ -47,26 +47,33 @@ Die Optimierung des Versandzeitpunkts ist nur für die integrierten Aktionstypen
 
 ## Verwenden der Optimierung des Versandzeitpunkts{#use-send-time-optimization}
 
-Aktivieren Sie die Optimierung des Versandzeitpunkts für eine E-Mail oder Push-Aktion, indem Sie den Umschalter „Optimierung des Versandzeitpunkts“ in den Aktionsparametern aktivieren.
+Gehen Sie wie folgt vor, um die Sendezeitoptimierung für eine E-Mail- oder Push-Aktion zu aktivieren und zu konfigurieren.
 
-![Umschalter für die Optimierung des Versandzeitpunkts in der Konfiguration des E-Mail-Kanals](assets/jo-message5.png)
+Bevor Sie beginnen, überlegen Sie, welche Nachrichten gut passen, bevor Sie sie aktivieren. Die Sendezeitoptimierung sollte nicht für dringende, zeitkritische Betriebsnachrichten verwendet werden, z. B. eine Bestellbestätigung, eine Benachrichtigung zum Zurücksetzen des Kennworts oder eine Benachrichtigung über eine Änderung des Fluggatters. Dies eignet sich am besten für weniger dringende Marketing-Nachrichten, z. B. für wöchentliche Anzeigen, Werbeinformationen zu einem neuen Produkt oder Informationen zu einem monatlichen Verkauf.
 
-Die Optimierung des Versandzeitpunkts sollte nicht für dringende, zeitkritische Betriebsnachrichten verwendet werden – z. B. eine Bestellbestätigung, eine Benachrichtigung zum Zurücksetzen des Kennworts oder eine Benachrichtigung über eine Änderung des Gates am Flughafen. Die Optimierung des Versandzeitpunkts eignet sich am besten für weniger dringende Marketing-Nachrichten, z. B. eine wöchentliche Anzeige, Werbeinformationen zu einem neuen Produkt oder Informationen zu einem einmonatigen Ausverkauf.
+1. Öffnen Sie auf Ihrem Journey das Menü **[!UICONTROL Aktion konfigurieren]**.
 
-Wählen Sie für E-Mail-Nachrichten durch Auswahl des entsprechenden Radio-Buttons aus, ob die E-Mail-Öffnungen oder die E-Mail-Clickthroughs optimiert werden sollen. Push-Benachrichtigungen werden immer in Bezug auf Öffnungen optimiert.
+   ![Umschalter für die Optimierung des Versandzeitpunkts in der Konfiguration des E-Mail-Kanals](assets/sto-1.png)
 
->[!TIP]
->
->Um die besten Ergebnisse zu erzielen, sollten die meisten E-Mail-Nachrichten in Bezug auf Klicks optimiert werden. Wählen Sie die Optimierung für Öffnungen aus, wenn Ihre E-Mail-Nachricht informativen Charakter hat und nicht dazu gedacht ist, eine Aktion direkt zu steuern.
+1. Schalten Sie im Menü **[!UICONTROL Versandzeitoptimierung]** die Option „Sendezeitoptimierung“ ein.
 
-Wählen Sie für E-Mail- und Push-Nachrichten die maximale Anzahl der Stunden aus, die das System vor dem Senden der Nachricht warten soll, indem Sie einen Wert für die Option „Senden innerhalb der nächsten“ festlegen. Sie können einen Wert zwischen 1 und 168 Stunden wählen.
+   ![Umschalter für die Optimierung des Versandzeitpunkts in der Konfiguration des E-Mail-Kanals](assets/sto-2.png)
 
->[!TIP]
->
->Um die besten Ergebnisse zu erzielen, wählen Sie eine maximale Wartezeit zwischen 6 und 24 Stunden. Die Auswahl eines niedrigeren Werts für die maximale Wartezeit reduziert die Anzahl der verfügbaren Sendezeiten und kann daher den potenziellen Wert der Optimierung des Versandzeitpunkts verringern. Die Auswahl eines höheren Werts für die maximale Wartezeit kann dazu führen, dass eine Nachricht zum Zeitpunkt ihres Versands veraltet oder irrelevant ist.
+1. Wählen Sie für E-Mail-Nachrichten durch Auswahl der entsprechenden Option aus, ob für Öffnungen oder Clickthroughs optimiert werden soll. Push-Benachrichtigungen werden immer in Bezug auf Öffnungen optimiert.
+
+   Um optimale Ergebnisse zu erzielen, optimieren Sie die meisten E-Mails für **Klicks**. Wählen Sie **Öffnungen**, wenn die Nachricht informativ ist und nicht dazu dient, eine bestimmte Aktion zu steuern.
+
+1. Legen Sie sowohl für E-Mail- als auch **[!UICONTROL -Nachrichten „Senden innerhalb der nächsten]**&quot; die maximale Anzahl von Stunden (1-168) fest, die das System vor dem Senden der Nachricht wartet.
+
+   Um die besten Ergebnisse zu erzielen, wählen Sie einen Wert zwischen 6 und 24 Stunden. Ein niedrigerer Wert reduziert die Anzahl der verfügbaren Sendezeiten und kann die Vorteile der Sendezeitoptimierung einschränken. Ein höherer Wert kann bedeuten, dass die Nachricht zum Zeitpunkt des Versands veraltet oder weniger relevant ist.
+
+   ![Umschalter für die Optimierung des Versandzeitpunkts in der Konfiguration des E-Mail-Kanals](assets/sto-3.png)
+
+1. Wählen Sie für E-Mail-Nachrichten aus, wie das Aktions-Tracking konfiguriert werden soll. Sie können E-Mail-Öffnungen und Klicks auf Links und Schaltflächen in der E-Mail verfolgen.
 
 Wenn Ihre Journey aktiviert ist und eine Kundin bzw. ein Kunde die E-Mail- oder Push-Aktion in der Journey erreicht, wählt die Optimierung des Versandzeitpunkts die prognostizierte beste Sendezeit aus, die für jede Person innerhalb Ihrer festgelegten Limits verfügbar ist.
 
+Informationen zur Überwachung der Leistung der Journey finden Sie auf der [Übersichtsseite](../reports/channel-report-cja.md).
 
 ## Funktionsweise der Optimierung des Versandzeitpunkts {#how-send-time}
 

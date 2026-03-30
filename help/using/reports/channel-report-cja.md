@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 73%
+source-wordcount: '1065'
+ht-degree: 62%
 
 ---
 
@@ -27,6 +27,7 @@ Die Berichtseite wird mit den folgenden Registerkarten angezeigt:
 * [Kampagnen](#campaign)
 * [Kanäle](#channel)
 * [Regelsätze](#rule-sets)
+* [Modelle zur Optimierung](#optimization-models)
 
 Weitere Informationen zu Customer Journey Analytics Workspace und zum Filtern und Analysieren von Daten finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/home).
 
@@ -142,7 +143,7 @@ Die Tabelle **[!UICONTROL Journey-Begrenzung und -Konflikte]** bietet Einblicke 
 
 Die Spalte **[!UICONTROL Journey-Einträge nach Regelsatz]** zeigt die Anzahl der Profile an, die die Journey betreten haben. Es gibt drei Arten von Eingängen:
 
-* **&#x200B;**&#x200B;[!UICONTROL Kein Konflikt]&#x200B;**&#x200B;**: Das Profil ist ohne Regelsatzkonflikte auf die Journey gelangt. Keine aktiven Regelsätze verhinderten diese Eingabe, und der Journey-Eintrag erfolgte unabhängig von den Schlichtungsregeln.
+* ****[!UICONTROL Kein Konflikt]****: Das Profil ist ohne Regelsatzkonflikte auf die Journey gelangt. Keine aktiven Regelsätze verhinderten diese Eingabe, und der Journey-Eintrag erfolgte unabhängig von den Schlichtungsregeln.
 
 * **Höhere Priorität**: Das Profil ist auf die Journey gelangt, da es eine höhere Priorität hat als andere konkurrierende Journey. Obwohl ein Konflikt aufgetreten ist (das Profil hat sich für mehrere Journey qualifiziert), wurde diese Journey aufgrund ihres höheren Prioritätswerts ausgewählt.
 
@@ -157,3 +158,25 @@ Die Spalte **[!UICONTROL Ausschlüsse]** zeigt die Anzahl der Profile an, die vo
 +++
 
 ➡️ [Erfahren Sie mehr über Journey-Begrenzung und Schlichtung](../conflict-prioritization/journey-capping.md)
+
+## Modelle zur Optimierung {#optimization-models}
+
+![](assets/sto-report.png)
+
+Die **[!UICONTROL Sendezeitoptimierung]**-Tabellen geben Ihnen Einblicke in die Leistung Ihrer optimierten und kontrollierten E-Mail- oder Push-Nachrichten. Vergleichen Sie damit Schlüsselmetriken wie Sendungen, Öffnungen, Klicks und Bounces, damit Sie sehen können, wie sich die einzelnen Varianten verhalten und in Ihre Optimierungsentscheidungen einfließen können.
+
+Beachten Sie, dass Metriken in diesem Bericht, einschließlich **[!UICONTROL Steigerung]** und **[!UICONTROL Konfidenz]**, ab **60 Tagen** des Versands und der Interaktion berechnet werden.
+
++++ Weitere Informationen über Metriken zur Sendezeitoptimierung
+
+* **[!UICONTROL Sendungen]**: Gesamtzahl der Sendevorgänge für jede Nachrichtenvariante.
+
+* **[!UICONTROL Öffnen]**: Gesamtzahl der für die Nachricht aufgezeichneten offenen Ereignisse.
+
+* **[!UICONTROL Öffnungsrate]**: Der Prozentsatz der gesendeten Nachrichten, für die das Profil die Nachricht mindestens einmal geöffnet hat.
+
+* **[!UICONTROL Steigerung]**: prozentuale Verbesserung der Konversionsrate für eine bestimmte Behandlung im Vergleich zur Baseline-Variante. Die Steigerung quantifiziert das Ausmaß einer Differenz und interpretiert sie zusammen mit **[!UICONTROL Konfidenz]**.
+
+* **[!UICONTROL Konfidenz]**: Statistische Beweiskraft, dass sich die Öffnungs- oder Klickrate der für den Versandzeitpunkt optimierten Variante von der Kontrollvariante unterscheidet (Versandzeit zufällig zugewiesen). Es wird mit einem zweiteiligen Z-Test berechnet.
+
++++
