@@ -98,11 +98,11 @@ Erstellen Sie Ihre Kampagne auf der Arbeitsfläche und testen Sie sie dann optio
 
 1. Senden Sie den Trigger-API-Aufruf mit der Beispielanfrage, die Sie aus der Planung kopiert haben. <!--For the complete API reference, refer to the [Journey Optimizer API documentation](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.-->
 
-Wenn Sie mit den Testergebnissen zufrieden sind, veröffentlichen [ die Kampagne](#publish).
+Wenn Sie mit den Testergebnissen zufrieden sind, veröffentlichen [&#x200B; die Kampagne](#publish).
 
 ## Veröffentlichen und Trigger der Kampagne {#publish}
 
-Nachdem Sie [ Kampagne erstellt und getestet haben](#build-and-test) veröffentlichen Sie die Kampagne, damit sie über Ihre Anwendung ausgelöst werden kann.
+Nachdem Sie [&#x200B; Kampagne erstellt und getestet haben](#build-and-test) veröffentlichen Sie die Kampagne, damit sie über Ihre Anwendung ausgelöst werden kann.
 
 1. Klicken Sie **[!UICONTROL der Kampagnen]** Arbeitsfläche auf „Veröffentlichen“. Die Kampagne muss veröffentlicht werden, bevor sie von einem externen System ausgelöst werden kann. [Weitere Informationen zum Starten und Überwachen der Kampagne](start-monitor-campaigns.md#publish).
 
