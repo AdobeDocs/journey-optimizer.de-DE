@@ -8,11 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 6836d30ca7864a82a75a73b8944e43691338558e
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 73%
+source-wordcount: '906'
+ht-degree: 74%
 
 ---
 
@@ -24,6 +25,10 @@ ht-degree: 73%
 >abstract="Mit **[!UICONTROL Aktivität „Datensatzsuche]** können Sie während der Laufzeit dynamisch Daten aus [!DNL Adobe Experience Platform] Datensatzdatensätzen abrufen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind."
 
 Mit **[!UICONTROL Aktivität „Datensatzsuche]** können Sie während der Laufzeit dynamisch Daten aus [!DNL Adobe Experience Platform] Datensatzdatensätzen abrufen. Mit dieser Funktion können Sie auf Daten zugreifen, die sich möglicherweise nicht in der Profil- oder Ereignis-Payload befinden. So können Sie sicherstellen, dass Ihre Kundeninteraktionen sowohl relevant als auch zeitlich passend sind.
+
+>[!AVAILABILITY]
+>
+>Diese Funktion steht derzeit allen Kundinnen und Kunden eingeschränkt zur Verfügung.
 
 Wichtigste Vorteile:
 
