@@ -319,11 +319,11 @@ Dieser Helper verschlüsselt vertrauliche Daten und speichert das Ergebnis in ei
 
 Sie können den Helper je nach URL-Design und Längenbeschränkungen auf einen Parameter, mehrere oder alle Parameter in einem Link anwenden.
 
-- **Input**: `dataPath` (Datenverweis, der in eine Zeichenfolge aufgelöst werden muss), `keyName` (Verschlüsselungsschlüsselkennung), `version` (optionale Schlüsselversion), `result` (Variablenname für verschlüsselte Ausgabe)
-- **Ausgabe**: Stellt den verschlüsselten Wert in der angegebenen `result` zur Verfügung.
-- **Ergebnisformat**: Die Ergebnisvariable enthält eine durch Punkte getrennte Zeichenfolge: `keyName.version.nonce.authTag.cipherText` (alle Segmente außer `keyName` und `version` sind URL-sicher, Base64-codiert, ohne Abstand).
-- **Statische Schlüsselanforderungen**: `keyName` und `version` müssen statische Zeichenfolgenliterale sein (dynamische Verweise werden nicht unterstützt).
-- **Standardversion**: Der `version` ist optional. Wird er weggelassen, löst der Verschlüsselungsschlüssel-Service die Standardversion auf
+&#x200B;- **Input**: `dataPath` (Datenverweis, der in eine Zeichenfolge aufgelöst werden muss), `keyName` (Verschlüsselungsschlüsselkennung), `version` (optionale Schlüsselversion), `result` (Variablenname für verschlüsselte Ausgabe)
+&#x200B;- **Ausgabe**: Stellt den verschlüsselten Wert in der angegebenen `result` zur Verfügung.
+&#x200B;- **Ergebnisformat**: Die Ergebnisvariable enthält eine durch Punkte getrennte Zeichenfolge: `keyName.version.nonce.authTag.cipherText` (alle Segmente außer `keyName` und `version` sind URL-sicher, Base64-codiert, ohne Abstand).
+&#x200B;- **Statische Schlüsselanforderungen**: `keyName` und `version` müssen statische Zeichenfolgenliterale sein (dynamische Verweise werden nicht unterstützt).
+&#x200B;- **Standardversion**: Der `version` ist optional. Wird er weggelassen, löst der Verschlüsselungsschlüssel-Service die Standardversion auf
 
 **Beispiele**
 
