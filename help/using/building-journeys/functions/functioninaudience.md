@@ -8,10 +8,10 @@ level: Experienced
 keywords: inAudience, Funktion, Ausdruck, Journey, Zielgruppe, Segmentierung
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: acdcd6e09f75e3d3c5184a71937d443890f378b6
+source-git-commit: e71c4c20e8360006d99b12821fb9a588db5e0548
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 81%
+source-wordcount: '730'
+ht-degree: 82%
 
 ---
 
@@ -115,8 +115,8 @@ Beachten Sie bei Verwendung der Funktion `inAudience` in Ihren Journeys die folg
 
 Bei Verwendung von `inAudience()` in einem Bedingungsknoten variiert der Zeitpunkt der Segmentzugehörigkeitsevaluierung je nachdem, wo die Bedingung auf der Journey erscheint:
 
-* **Vor einer Warteaktivität (oder auf einer Zielgruppen-Journey):** AJO liest aus der Batch-Projektion des Profils. Die Datenfrische in dieser Projektion trägt ein SLT von bis zu **2 Stunden** nach der Aufnahme. Bei Zielgruppen, die auf tägliche oder zeitbasierte Bedingungen angewiesen sind, können zusätzliche Verzögerungen auftreten. Fügen Sie eine [Warteaktivität](../wait-activity.md) am Anfang der Journey hinzu oder lassen Sie eine Pufferzeit zu, um sicherzustellen, dass die neueste Segmentzugehörigkeit widergespiegelt wird.
-* **Nach einer Warteaktivität (oder in einem unitären Ereignis-Journey) wird** Segmentzugehörigkeit aus der Streaming-(unitären)-Projektion gelesen. Informationen zur erwarteten Latenz finden Sie in der Dokumentation zur Streaming-Aufnahme in [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Dieser Pfad reagiert im Allgemeinen besser auf jüngste Profiländerungen.
+* **Vor einer Warteaktivität (oder auf einer Zielgruppen-Journey):** Journey Optimizer liest aus der Batch-Projektion des Profils. Die Daten in dieser Projektion werden innerhalb von **2 Stunden** der Aufnahme aktualisiert. Bei Zielgruppen, die auf tägliche oder zeitbasierte Bedingungen angewiesen sind, können zusätzliche Verzögerungen auftreten. Fügen Sie eine [Warteaktivität](../wait-activity.md) am Anfang der Journey hinzu oder lassen Sie eine Pufferzeit zu, um sicherzustellen, dass die neueste Segmentzugehörigkeit widergespiegelt wird.
+* **Nach einer Warteaktivität (oder in einem unitären Ereignis-Journey) wird** Segmentzugehörigkeit aus der Streaming-(unitären)-Projektion gelesen. Informationen zur erwarteten Latenz finden Sie in der Dokumentation zur Streaming-Aufnahme in [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Dieser Pfad reagiert im Allgemeinen besser auf jüngste Profiländerungen.
 
 ## Verwandte Themen
 
