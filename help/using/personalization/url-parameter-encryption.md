@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verschlüsseln von URL-Parametern beim Tracking
+title: URL-Parameter verschlüsseln
 description: Erfahren Sie, wie Sie sensible URL-Abfrageparameter verschlüsseln, damit personenbezogene Daten nicht im Klartext auf Journey Optimizer-Tracking-Links und Landingpages verfügbar gemacht werden.
 feature: Personalization
 topic: Personalization
@@ -9,15 +9,15 @@ role: Admin
 level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Verschlüsselung, URL, Tracking, Landingpage, Schlüsselregistrierung, Personalisierung, Sicherheit, Datenschutz, Sandbox
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
+source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 4%
+source-wordcount: '656'
+ht-degree: 5%
 
 ---
 
-
-# Verschlüsseln von URL-Parametern beim Tracking {#url-parameter-encryption}
+# URL-Parameter verschlüsseln {#url-parameter-encryption}
 
 >[!AVAILABILITY]
 >
@@ -36,7 +36,7 @@ Sie verschlüsseln nur die ausgewählten Abfrageparameter mithilfe von Schlüsse
 ### Funktionsweise {#how-it-works}
 
 * **Administratoren** verwenden die Schlüsselregistrierung, um [Schlüssel zu erstellen](#create-keys) und [Schlüssel zu verwalten](#manage-keys) in Übereinstimmung mit den Sicherheitsrichtlinien Ihrer Organisation.
-* **Marketingexperten** Fügen Sie den Verschlüsselungs-Helper in den Personalisierungseditor ein und übergeben Sie den zu schützenden Wert sowie eine aktive Schlüsselkennung aus der Registrierung. Syntax und Optionen finden Sie unter [URL Parameter encryption](functions/helpers.md#url-parameter-encryption-helper).
+* **Marketingexperten** Fügen Sie den `Encrypt` Helper in den Personalisierungseditor ein und übergeben Sie den zu schützenden Wert sowie eine aktive Schlüsselkennung aus der Registrierung. Syntax und Optionen finden Sie [diesem Abschnitt](functions/helpers.md#url-parameter-encryption-helper).
 
 >[!IMPORTANT]
 >
@@ -96,6 +96,3 @@ Gehen Sie wie folgt vor, um Schlüssel zu verwalten.
    >[!NOTE]
    >
    >Es sollten nur aktive Schlüssel ausgewählt werden, um neue Werte im Personalisierungseditor zu verschlüsseln. Verwenden Sie keine widerrufenen Schlüssel für neue Inhalte.
-
-
-
