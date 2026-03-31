@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e49528fa70225e7435683f5a63d883a0ffce29fa
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '3147'
-ht-degree: 96%
+source-wordcount: '3160'
+ht-degree: 95%
 
 ---
 
@@ -420,7 +420,9 @@ ht-degree: 96%
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
       + [Iterieren über kontextuelle Daten](using/personalization/iterate-contextual-data.md)
       + [Wiederverwenden von Ausdrucksfragmenten](using/personalization/use-expression-fragments.md)
-      + [Verwenden von Adobe Experience Platform-Daten für die Personalisierung](using/personalization/aep-data-perso.md)
+      + Verwenden von Adobe Experience Platform-Daten für die Personalisierung {#aep-data-perso}
+         + [Verwenden von Adobe Experience Platform-Daten für die Personalisierung](using/personalization/aep-data-perso.md)
+         + [Verschlüsseln von URL-Parametern in Tracking-Links](using/personalization/url-parameter-encryption.md)
       + Liste der Hilfsfunktionen {#functions}
          + [Liste der Hilfsfunktionen](/help/rp_landing_pages/functions-landing-page.md)
          + [Erste Schritte mit Helper-Funktionen](using/personalization/functions/functions.md)

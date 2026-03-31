@@ -6,43 +6,43 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '2458'
-ht-degree: 93%
+source-wordcount: '2479'
+ht-degree: 99%
 
 ---
 
 # Erste Schritte mit Helper-Funktionen{#functions}
 
-Helper-Funktionen ermöglichen es Ihnen, Daten in Ihren personalisierten Inhalten zu transformieren und zu bearbeiten. Verwenden Sie sie, um Berechnungen durchzuführen, Daten zu formatieren, Bedingungen anzuwenden und verschiedene Vorgänge auszuführen, um dynamische, maßgeschneiderte Erlebnisse für Ihre Kunden zu erstellen.
+Helper-Funktionen ermöglichen es Ihnen, Daten in Ihren personalisierten Inhalten zu transformieren und zu bearbeiten. Verwenden Sie sie, um Berechnungen durchzuführen, Daten zu formatieren, Bedingungen anzuwenden und verschiedene Vorgänge auszuführen, um dynamische, maßgeschneiderte Erlebnisse für Ihre Kundschaft zu erstellen.
 
-Diese Funktionen nutzen die [!DNL Journey Optimizer] Vorlagensprache. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden [&#x200B; auf dieser Seite](../personalization-syntax.md).
+Diese Funktionen nutzen die [!DNL Journey Optimizer]-Vorlagensprache. Weitere Informationen über Richtlinien zur Personalisierungssyntax finden Sie [auf dieser Seite](../personalization-syntax.md).
 
-➡️ [In diesem Video erfahren Sie, wie Sie Hilfsfunktionen verwenden](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie Helper-Funktionen verwenden](#video)
 
-## Zugriff auf Helper-Funktionen
+## Aufrufen der Helper-Funktionen
 
-Hilfsfunktionen sind im Funktionsmenü des Personalisierungseditors verfügbar:
+Helper-Funktionen sind im Funktionsmenü des Personalisierungseditors verfügbar:
 
 ![](../assets/access-helper-functions.png)
 
 Zur einfachen Navigation sind die Funktionen in drei Kategorien unterteilt:
 
-* **[Funktionen](#functions-helper)** - Datenmanipulations- und -umwandlungsvorgänge
-* **[Helper](#helper-helper)** - Bedingte Logik und Dienstprogramm-Funktionen
-* **[Operatoren](#operators-helper)** - Vergleich und logische Operatoren
+* **[Funktionen](#functions-helper)** – Datenmanipulations- und -umwandlungsvorgänge
+* **[Helper](#helper-helper)** – Bedingungslogik und Dienstprogrammfunktionen
+* **[Operatoren](#operators-helper)** – Vergleichsoperatoren und logische Operatoren
 
-**So verwenden Sie eine Hilfsfunktion:**
+**So verwenden Sie eine Helper-Funktion:**
 
-1. Kategorie auswählen, um ihre Unterkategorien und verfügbaren Funktionen anzuzeigen
-1. Klicken Sie auf das `>`, um Unterkategorien zu erweitern
-1. Klicken Sie auf das `+` neben einer Funktion, um sie zu Ihrem Personalisierungs-Code hinzuzufügen
-1. Klicken Sie auf das Symbol `...` , um die Funktionsbeschreibung anzuzeigen oder zu Ihren Favoriten hinzuzufügen. [Weitere Informationen](../personalize.md#fav)
+1. Wählen Sie eine Kategorie aus, um auf die verfügbaren Unterkategorien und Funktionen zuzugreifen.
+1. Klicken Sie auf das Symbol `>`, um Unterkategorien zu erweitern.
+1. Klicken Sie auf das Symbol `+` neben einer Funktion, um sie Ihrem Personalisierungs-Code hinzuzufügen.
+1. Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen oder sie Ihren Favoriten hinzuzufügen. [Weitere Informationen](../personalize.md#fav)
 
 >[!NOTE]
 >
->Die im Personalisierungseditor verfügbaren Funktionen und Leistungsmerkmale unterscheiden sich von denen im erweiterten Ausdruckseditor [Journey](../../building-journeys/expression/expressionadvanced.md). Beispielsweise ist die `now()` nur in Journey-Ausdrücken verfügbar. [Weitere Informationen](../../email/code-content.md#date-time-limitations)
+>Die im Personalisierungseditor verfügbaren Funktionen unterscheiden sich von denen im [erweiterten Journey-Ausdruckseditor](../../building-journeys/expression/expressionadvanced.md). Beispielsweise ist die Funktion `now()` nur in Journey-Ausdrücken verfügbar. [Weitere Informationen](../../email/code-content.md#date-time-limitations)
 
 ## Funktionen{#functions-helper}
 
@@ -389,7 +389,7 @@ Zur einfachen Navigation sind die Funktionen in drei Kategorien unterteilt:
         <td><a href="string.md#sha256">SHA256</a></td><td>Diese Funktion berechnet den SHA256-Hash einer Zeichenfolge und gibt ihn zurück.</td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Teilen</a></td><td>Mit dieser Funktion wird eine Zeichenfolge durch ein bestimmtes Zeichen aufgeteilt</td>
+        <td><a href="string.md#split">Aufspaltung</a></td><td>Mit dieser Funktion wird eine Zeichenfolge durch ein bestimmtes Zeichen aufgeteilt</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Beginnt mit</a></td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge beginnt</td>
@@ -454,8 +454,11 @@ Helper werden auf [dieser Seite](helpers.md) näher beschrieben.
     <tr>
         <td><a href="helpers.md#let">Zulassen</a></td><td>Diese Funktion ermöglicht das Speichern eines Ausdrucks als Variable, die später in einer Abfrage verwendet werden kann</td>
     </tr>
-   <tr>
+    <tr>
         <td><a href="helpers.md#unless">Außer</a></td><td>Mit dieser Funktion wird ein bedingter Block definiert. Wenn die Ausdrucksauswertung „false“ zurückgibt, wird der Block gerendert</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#url-parameter-encryption-helper">URL-Parameterverschlüsselung</a></td><td>Verschlüsselt Ausdruckswerte für URL-Abfrageparameter zum Rendering-Zeitpunkt mithilfe eines aktiven Schlüssels aus der Sandbox-Registrierung </td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">Mit</a></td><td>Diese Funktion wird verwendet, um das Auswertungs-Token des Vorlagenteils zu ändern</td>

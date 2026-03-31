@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 93%
+source-wordcount: '1002'
+ht-degree: 64%
 
 ---
 
@@ -282,4 +282,49 @@ In diesem Beispiel ist unter der Annahme `profile.person.name.firstName` = „Al
   "value": "Alex"
 }
 ```
+
+## URL-Parameterverschlüsselung {#url-parameter-encryption-helper}
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+>
+>Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar.
+
+Mit dem `EncryptParam` Helper können Sie jeden Ausdruckswert zum Zeitpunkt der Wiedergabe verschlüsseln - normalerweise ein Profilattribut, ein Token oder sogar eine stringisierte JSON-Struktur, die Sie im Ausdruck erstellen -, bevor er in einen Abfrageparameter auf Tracking-Links oder Landingpages geschrieben wird.
+
+Werte, die in der URL als Nur-Text angezeigt würden (einschließlich PII oder anderer vertraulicher Daten), sind nicht lesbar, wenn der Link geprüft oder weitergeleitet wird. Nur die mit diesem Helper umschlossenen Werte werden verschlüsselt. Der Rest der URL bleibt unverändert.
+
+Sie können den Helper je nach URL-Design und Längenbeschränkungen auf einen Parameter, mehrere oder alle Parameter in einem Link anwenden.
+
+**Voraussetzungen**
+
+* Die URL-Parameterverschlüsselung muss für Ihre Organisation aktiviert sein (eingeschränkte Verfügbarkeit). Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+* Ein Administrator muss mindestens einen aktiven Schlüssel in der Schlüsselregistrierung auf Sandbox-Ebene erstellen. [Erfahren Sie, wie Sie Schlüssel erstellen und verwalten](../url-parameter-encryption.md)
+
+**Funktionsweise**
+
+1. Wählen Sie in der Helper-Liste den `EncryptParam` Helper aus.
+
+1. Übergeben Sie `data`: den Wert oder Ausdruck, der verschlüsselt werden soll (z. B. `profile` Felder, eine Variable oder ein zusammengestelltes Zeichenfolgen-Token).
+
+1. Übergeben Sie `key`: eine aktive Schlüsselkennung aus Ihrer Sandbox-Schlüsselregistrierung.
+
+>[!NOTE]
+>
+>Die Verwendung eines widerrufenen oder anderweitig nicht aktiven Schlüssels sollte dazu führen, dass die Personalisierung zum Zeitpunkt des Renderings fehlschlägt, sodass eine Nachricht nicht mit einem ungültigen Schlüssel gesendet wird.
+
+**Beispiel**
+
+Angenommen, Sie definieren oder berechnen einen Wert (z. B. eine `stringToken`, die eine JSON-Payload oder verkettete Kennungen enthält), der im `token` Abfrageparameter nicht als Nur-Text angezeigt werden darf. Eine endgültige URL kann diesem Muster folgen. Ersetzen Sie `stringToken` durch Ihren Ausdruck und `encrypt-key` Sie sie durch eine aktive Schlüssel-ID aus der Schlüsselregistrierung:
+
+```text
+https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+```
+
+**Schutzmechanismen**
+
+Die Entschlüsselung erfolgt außerhalb der [!DNL Journey Optimizer] auf den Landingpages, Apps oder APIs. Planen Sie den Lebenszyklus und die Rotation der Schlüssel mit Ihrem Sicherheits-Team, damit historische Payloads bei Bedarf weiterhin entschlüsselt werden können.
+
+Die widerrufenen Schlüssel dürfen nicht für eine neue Verschlüsselung verwendet werden. Befolgen Sie Ihre Sicherheitsrichtlinien für Rotation und Stilllegung.
 
