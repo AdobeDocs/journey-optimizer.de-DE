@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 44a635c07989c075dc36d8698c19e33644c3b687
+source-git-commit: f4c4cf0f9b4f197123bfcf9f1986d304695c17be
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 61%
+source-wordcount: '1611'
+ht-degree: 66%
 
 ---
 
@@ -120,9 +120,7 @@ Siehe die [[!DNL Adobe Experience Platform] Dokumentation zur Streaming-](https:
 >
 >Der Propagierungszeitpunkt für die Streaming-Segmentzugehörigkeit hängt davon ab, wie die Zugehörigkeit bewertet wird und wo sie im Journey verwendet wird:
 >
->* **Zielgruppen-Qualifizierungsknoten + Streaming-Segment:** Wenn sich ein Profil für ein Streaming-Segment auf der Edge qualifiziert, wird diese Zugehörigkeit von Edge zu Hub projiziert, bevor die Journey darauf reagieren kann. Diese Edge-zu-Hub-Übertragung dauert in der Regel **15 bis 30 Minuten** (gemäß UPS SLT). Die zusätzliche Journey-Verarbeitungszeit beträgt in der Regel weniger als 5 Minuten, es sei denn, das System ist stark ausgelastet. Wenn Profile nicht wie erwartet in eine Zielgruppen-Qualifizierungs-Journey eintreten, sollte dieses Übertragungsfenster berücksichtigt werden, bevor weitere Untersuchungen eingeleitet werden. Bei Anwendungsfällen, für die eine Echtzeit-Eingabe erforderlich ist, sollten Sie stattdessen einen unitären Ereignis-Trigger in Betracht ziehen.
->* **`inAudience()`in einem Bedingungsknoten - vor einer Warteaktivität (oder auf einer Zielgruppe-Journey lesen):** Wenn die Segmentzugehörigkeit in einem Bedingungsausdruck in diesem Kontext bewertet wird, liest AJO aus der Batch-Projektion des Profils. Die Datenfrische in dieser Projektion trägt ein SLT von bis zu **2 Stunden** nach der Aufnahme. Bei Zielgruppen, die auf tägliche oder zeitbasierte Bedingungen angewiesen sind, können zusätzliche Verzögerungen auftreten. Fügen Sie eine [Warteaktivität](wait-activity.md) am Anfang der Journey hinzu oder lassen Sie eine Pufferzeit zu, um sicherzustellen, dass die neueste Segmentzugehörigkeit widergespiegelt wird.
->* **`inAudience()`in einem Bedingungsknoten - nach einer Warteaktivität (oder in einer unitären Ereignis-Journey):** In diesem Kontext wird die Segmentzugehörigkeit aus der Streaming-(unitären) Projektion gelesen. Informationen zur erwarteten Latenz finden Sie in der Dokumentation zur Streaming-Aufnahme in [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Dieser Pfad reagiert im Allgemeinen besser auf jüngste Profiländerungen.
+>* **Zielgruppen-Qualifizierungsknoten + Streaming-Segment:** Wenn sich ein Profil für ein Streaming-Segment auf der Edge qualifiziert, wird diese Zugehörigkeit von Edge zu Hub projiziert, bevor die Journey darauf reagieren kann. Diese Übertragung von Edge auf den Hub dauert in der Regel **15 bis 30 Minuten**. Wenn Profile nicht wie erwartet in eine Zielgruppen-Qualifizierungs-Journey eintreten, sollte dieses Übertragungsfenster berücksichtigt werden (durch Hinzufügen einer Warteaktivität, falls zutreffend), bevor weitere Untersuchungen durchgeführt werden. Bei Anwendungsfällen, für die eine Echtzeit-Eingabe erforderlich ist, sollten Sie stattdessen einen unitären Ereignis-Trigger in Betracht ziehen.
 
 #### Darum treten möglicherweise nicht alle qualifizierten Profile in die Journey ein {#streaming-entry-caveats}
 
@@ -198,4 +196,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
