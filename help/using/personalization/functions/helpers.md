@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
+source-git-commit: 8b50f0f1cc78e32ef9b3a3e918a5de82e7e16406
 workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 63%
@@ -301,7 +301,7 @@ Mit diesem Helper können Sie vertrauliche Profildaten (PII) schützen, bevor Si
 
 **Voraussetzung**
 
-Ein Administrator muss mindestens einen aktiven Schlüssel in der Schlüsselregistrierung auf Sandbox-Ebene erstellen. [Erfahren Sie, wie Sie Schlüssel erstellen und verwalten](../url-parameter-encryption.md)
+Ein Administrator muss mindestens einen aktiven Schlüssel in der Schlüsselregistrierung auf Sandbox-Ebene erstellen. [Erfahren Sie, wie Sie Schlüssel erstellen und verwalten](../url-parameter-encryption.md#create-keys)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ Dieser Helper verschlüsselt vertrauliche Daten und speichert das Ergebnis in ei
 
 Sie können den Helper je nach URL-Design und Längenbeschränkungen auf einen Parameter, mehrere oder alle Parameter in einem Link anwenden.
 
-&#x200B;- **Input**: `dataPath` (Datenverweis, der in eine Zeichenfolge aufgelöst werden muss), `keyName` (Verschlüsselungsschlüsselkennung), `version` (optionale Schlüsselversion), `result` (Variablenname für verschlüsselte Ausgabe)
-&#x200B;- **Ausgabe**: Stellt den verschlüsselten Wert in der angegebenen `result` zur Verfügung.
-&#x200B;- **Ergebnisformat**: Die Ergebnisvariable enthält eine durch Punkte getrennte Zeichenfolge: `keyName.version.nonce.authTag.cipherText` (alle Segmente außer `keyName` und `version` sind URL-sicher, Base64-codiert, ohne Abstand).
-&#x200B;- **Statische Schlüsselanforderungen**: `keyName` und `version` müssen statische Zeichenfolgenliterale sein (dynamische Verweise werden nicht unterstützt).
-&#x200B;- **Standardversion**: Der `version` ist optional. Wird er weggelassen, löst der Verschlüsselungsschlüssel-Service die Standardversion auf
+- **Input**: `dataPath` (Datenverweis, der in eine Zeichenfolge aufgelöst werden muss), `keyName` (Verschlüsselungsschlüsselkennung), `version` (optionale Schlüsselversion), `result` (Variablenname für verschlüsselte Ausgabe)
+- **Ausgabe**: Stellt den verschlüsselten Wert in der angegebenen `result` zur Verfügung.
+- **Ergebnisformat**: Die Ergebnisvariable enthält eine durch Punkte getrennte Zeichenfolge: `keyName.version.nonce.authTag.cipherText` (alle Segmente außer `keyName` und `version` sind URL-sicher, Base64-codiert, ohne Abstand).
+- **Statische Schlüsselanforderungen**: `keyName` und `version` müssen statische Zeichenfolgenliterale sein (dynamische Verweise werden nicht unterstützt).
+- **Standardversion**: Der `version` ist optional. Wird er weggelassen, löst der Verschlüsselungsschlüssel-Service die Standardversion auf
 
 **Beispiele**
 

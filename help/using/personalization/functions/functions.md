@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2477'
 ht-degree: 99%
 
 ---
@@ -458,7 +458,7 @@ Helper werden auf [dieser Seite](helpers.md) näher beschrieben.
         <td><a href="helpers.md#unless">Außer</a></td><td>Mit dieser Funktion wird ein bedingter Block definiert. Wenn die Ausdrucksauswertung „false“ zurückgibt, wird der Block gerendert</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#url-parameter-encryption-helper">URL-Parameterverschlüsselung</a></td><td>Verschlüsselt Ausdruckswerte für URL-Abfrageparameter zum Rendering-Zeitpunkt mithilfe eines aktiven Schlüssels aus der Sandbox-Registrierung </td>
+        <td><a href="helpers.md#url-parameter-encryption-helper">Verschlüsseln</a></td><td>Verschlüsselt Ausdruckswerte für URL-Abfrageparameter zum Rendering-Zeitpunkt mithilfe eines aktiven Schlüssels aus der Sandbox-Registrierung </td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">Mit</a></td><td>Diese Funktion wird verwendet, um das Auswertungs-Token des Vorlagenteils zu ändern</td>
