@@ -7,31 +7,32 @@ feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: E-Mail, Vorlage, Bild, HTML, KI, Design, Converter
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: 30eb70f2a96223d7a948bdbd56ca9c002e954d0e
+source-git-commit: 8c6de43fd60849d1e236183a3c8a81ce20a227ca
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 50%
+source-wordcount: '2043'
+ht-degree: 19%
 
 ---
 
 # Konvertieren von Bildern in E-Mail-Inhaltsvorlagen {#image-to-html}
 
->[!AVAILABILITY]
->
->Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
-
 [!DNL Journey Optimizer] können Sie die E-Mail-Erstellung erheblich beschleunigen, indem Sie statische Bilddesigns in vollständig anpassbare, modulare E-Mail-Inhaltsvorlagen umwandeln.
 
->[!NOTE]
+>[!AVAILABILITY]
+>
+>Um diese Funktion verwenden zu können, muss Ihr Unternehmen das [!DNL Generative AI]-Addendum mit Adobe unterzeichnet haben. Wenden Sie sich im Zweifelsfall an den Adobe-Support.
 >
 >Diese Funktion ist nur für den E-Mail-Kanal verfügbar.
 
 Durch die Nutzung der generativen KI-Technologie analysiert ein integriertes Tool das Layout, die Typografie, die Farben und die visuellen Elemente in Ihrem Bild und generiert saubere, modulare HTML-Inhalte, die die Designtreue erhalten und gleichzeitig mit der [E-Mail-Designer](../email/get-started-email-design.md) vollständig bearbeitbar sind.
 
 Diese Code-freie Funktion ermöglicht es Marketing-Experten, visuelle Assets von Grafikdesignern oder Design-Tools in responsive, bearbeitbare E-Mail-Vorlagen umzuwandeln, die in mehreren Journey und Kampagnen gespeichert und wiederverwendet werden können, ohne dass technisches Know-how erforderlich ist.
+
+>[!IMPORTANT]
+>
+>Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die zugehörigen [Leitplanken und Empfehlungen](#limitations).
 
 Die wichtigsten Vorteile sind:
 
@@ -55,19 +56,52 @@ Der Bild-zu-HTML-Converter eignet sich ideal für:
 
 +++
 
+## Zugreifen auf das Bild zum HTML Converter {#access-image-to-html}
+
+**Addendum mit Adobe**
+
+Um auf diese Funktion zugreifen zu können, muss Ihr Unternehmen das [!DNL Generative AI]-Addendum mit Adobe unterzeichnet haben. Wenden Sie sich im Zweifelsfall an den Adobe-Support.
+
+**Berechtigungen**
+
+* Um auf Vorlagen zuzugreifen und sie zu erstellen, muss Ihre Rolle die Berechtigung **[!UICONTROL Inhaltsvorlagen verwalten]** (unter der Ressource **Content-Management** enthalten. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
+
+* Um den Konvertierer für das Bild in HTML verwenden zu können, muss Ihnen die Berechtigung **Inhalt generieren** gewährt werden. Erfahren Sie in [ Abschnitt, wie Sie Berechtigungen zum Erstellen von Inhalten ](../content-management/gs-generative.md#generative-access).
+
+**Vereinbarung**
+
+Bevor Sie diese Funktion nutzen können, müssen Sie einer Benutzervereinbarung zustimmen, die angezeigt wird, wenn Sie Generative AI in [!DNL Journey Optimizer] zum ersten Mal verwenden. Weitere Informationen finden Sie in den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+
 ## Schutzmechanismen und Empfehlungen {#limitations}
 
-Beachten Sie die folgenden Einschränkungen beim Konvertieren von Bildern in E-Mail-Inhaltsvorlagen.
+Beachten Sie die folgenden Einschränkungen und Empfehlungen beim Konvertieren von Bildern in E-Mail-Inhaltsvorlagen.
+
+**Angemessenheit**
 
 * **KI-Interpretation**: Die KI generiert statische HTML-Inhalte basierend auf der visuellen Interpretation Ihres Bildes. Sie bietet einen guten Ausgangspunkt für die E-Mail-Erstellung, sollte jedoch mithilfe der E-Mail-Designer überprüft und verfeinert werden, um sicherzustellen, dass sie genau Ihren Anforderungen entspricht. Sie müssen bei Bedarf Personalisierung, dynamische Inhalte und Tracking nach der Konversion manuell hinzufügen.
 
-* **Textgenauigkeit**: Die KI versucht zwar, Text genau zu erkennen und zu reproduzieren, aber Sie sollten Textinhalte immer überprüfen und nach Bedarf korrigieren.
+* **Textgenauigkeit**: Während die KI versucht, Text genau zu erkennen und zu reproduzieren, sollten Textinhalte immer überprüft und nach Bedarf korrigiert werden. Lesen Sie die [Benutzerrichtlinien für die generative KI von Adobe](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
-* **Komplexe Layouts**: Hochkomplexe Designs mit komplizierten Ebenen, ungewöhnlichen Formen oder nicht standardmäßigen Elementen werden möglicherweise nicht perfekt konvertiert. Einfachere Designs liefern in der Regel bessere Ergebnisse.
+**Bildauswahl**
 
-* **Verarbeitungszeit**: Der Konvertierungsprozess kann je nach Komplexität und Größe des Bildes bis zu 5 Minuten dauern. Die KI-Verarbeitung erfolgt im Hintergrund, sodass Sie andere Aufgaben bearbeiten können und der Bildschirm nicht geöffnet sein muss. Die Vorlage wird nach Abschluss der Konvertierung automatisch als Entwurf gespeichert.
+* **PII und vertrauliche Daten**: Achten Sie darauf, ein Bild auszuwählen, das keine personenbezogenen oder anderen vertraulichen Daten enthält.
 
-* **Eingeschränkte Verfügbarkeit**: Als Funktion für eingeschränkte Verfügbarkeit wird dieser Konverter kontinuierlich verbessert. Funktionalität und Genauigkeit können variieren, und Ihr Feedback trägt zur Verbesserung der Funktion bei.
+* **Bildgröße**: Sie können keine Bilder hochladen, die größer als 10 MB sind.
+
+* **Bilder in hoher Qualität**: Verwenden Sie klare, hochwertige Bilder, um optimale Ergebnisse zu erzielen: scharfe Grafiken, lesbarer Text und klar definierte Layout-Elemente. Unscharfe, dunkle oder unübersichtliche Bilder verringern die Konvertierungsqualität. Bilder sollten idealerweise zwischen 600 und 800 Pixel breit sein, um den standardmäßigen E-Mail-Größen zu entsprechen.
+
+* **Einfache Layouts**: Hochkomplexe Designs mit komplizierten Ebenen, ungewöhnlichen Formen oder nicht standardmäßigen Elementen werden möglicherweise nicht perfekt konvertiert. Einfachere Designs liefern in der Regel bessere Ergebnisse.
+
+**Verarbeitung**
+
+* **Seite aktualisieren**: Das Ergebnis wird bis zur Aktualisierung nicht automatisch angezeigt.
+
+* **Verarbeitungszeit**: Je nach Komplexität und Bildgröße endet die Konvertierung **innerhalb von** etwa 5 Minuten). Sehr große oder komplexe Bilder können manchmal bis zu 10 Minuten dauern. Warten Sie entsprechend und aktualisieren Sie dann, um das Ergebnis anzuzeigen.
+
+<!--
+* **Background processing**: The AI processing happens in the background, so you can work on other tasks without keeping the screen open. The template is automatically saved as a draft once the conversion is complete.
+
+**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.-->
 
 ## Konvertieren eines Bildes in eine HTML-Vorlage {#convert-image}
 
@@ -75,9 +109,9 @@ Gehen Sie wie folgt vor, um ein Bilddesign in eine vollständig anpassbare E-Mai
 
 1. Stellen Sie sicher, dass Sie eine Bilddatei im JPEG- oder PNG-Format haben, die Ihr E-Mail-Design enthält.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Für optimale Ergebnisse sollten Sie hochwertige Bilder mit klaren visuellen Elementen und lesbarem Text verwenden. Bilder sollten idealerweise zwischen 600 und 800 Pixel breit sein, um den standardmäßigen E-Mail-Größen zu entsprechen.
+   >Die Bildgröße darf **10 MB** nicht überschreiten. Die besten Ergebnisse erzielen Sie, wenn Sie ein **klares, hochwertiges Bild** mit scharfen Bildern, lesbarem Text und klar definierten Layout-Elementen verwenden.
 
 1. Greifen Sie auf die Liste der Inhaltsvorlagen zu, indem Sie **[!UICONTROL Content]** Management“ > **[!UICONTROL Inhaltsvorlagen]** aus dem linken Menü auswählen.
 
@@ -91,26 +125,38 @@ Gehen Sie wie folgt vor, um ein Bilddesign in eine vollständig anpassbare E-Mai
 
      Auf die generierte Vorlage werden Stile wie Hintergrundfarbe, Schaltflächenfarbe, Schriftarten, Zeilenabstand, Ränder und Abstand angewendet, wodurch die zusätzliche Entwurfsarbeit reduziert wird und eine Vorlage erstellt wird, die mit minimalen Bearbeitungen verwendet werden kann.
 
-   * Um ein Bild hochladen zu können, stellen Sie sicher, dass es keine persönlich identifizierbaren Informationen (PII) oder anderen sensiblen Daten enthält, und aktivieren Sie die entsprechende Option, um zu bestätigen, dass Sie die Datei geprüft haben.
+   * Um ein Bild hochladen zu können, stellen Sie sicher, dass es keine personenbezogenen oder anderen sensiblen Daten enthält. Aktivieren Sie die entsprechende Option, um die Überprüfung der Datei zu bestätigen.
 
    * Klicken Sie auf **[!UICONTROL Bild hochladen]**, um Ihre Bilddatei auszuwählen.
 
-     ![](../email/assets/email_designer_convert_img.png)
+     ![Editor für Journey Optimizer-E-Mail-Inhaltsvorlagen mit Abschnitt „Bild in Vorlage konvertieren“](../email/assets/email_designer_convert_img.png){width=80%}
 
      >[!CAUTION]
      >
      >Wenn Sie ein Bild zur Konversion hochladen, wird der gesamte aktuell in der E-Mail hinzugefügte Inhalt gelöscht und durch die generierte Vorlage ersetzt.
 
+1. Wenn Sie in [!DNL Journey Optimizer] zum ersten Mal generative KI verwenden, werden Sie aufgefordert, der Benutzervereinbarung zuzustimmen. Weitere Informationen finden Sie in den [Benutzerrichtlinien für die generative KI von Adobe](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
-1. Klicken Sie nach Auswahl des Bildes **[!UICONTROL Öffnen]**, um den KI-gestützten Konvertierungsprozess zu starten.
+   ![Dialogfeld für Benutzervereinbarungen für generative KI in Journey Optimizer](../email/assets/email_designer_convert_agreement.png){width=50%}
+
+   Klicken Sie **[!UICONTROL Zustimmen]**, um fortzufahren.
+
+1. Klicken Sie nach der Auswahl des Bildes **[!UICONTROL Öffnen]** um den KI-gestützten Konvertierungsprozess zu starten, der häufig - je nach Komplexität und Größe Ihres Bilddesigns - innerhalb **etwa 5 Minuten** abgeschlossen wird.
 
    >[!NOTE]
    >
-   >Der Generierungsvorgang kann je nach Komplexität und Größe Ihres Bild-Designs bis zu 5 Minuten dauern. Sie können diesen Bildschirm verlassen und an anderen Aufgaben arbeiten, während die Konvertierung ausgeführt wird.
+   >Sehr große Bilder können in einigen Fällen bis zu 10 Minuten dauern. Sie können diesen Bildschirm verlassen und an anderen Aufgaben arbeiten, während die Konvertierung ausgeführt wird.
 
-1. Nach Abschluss der Konvertierung wird Ihre Inhaltsvorlage automatisch als Entwurf gespeichert.
+1. **Aktualisieren Sie die Seite** um die Ausgabe anzuzeigen. Nach Abschluss der Konvertierung wird der generierte Inhalt angezeigt und automatisch als Entwurf gespeichert.
 
-   ![](../email/assets/email_designer_converted_img.png)
+   >[!IMPORTANT]
+   >
+   >Das Ergebnis wird erst nach der Aktualisierung automatisch angezeigt.
+
+   ![E-Mail-Inhaltsvorlage, die den aus der Bildkonvertierung generierten Entwurf anzeigt](../email/assets/email_designer_converted_img.png){width=90%}
+
+1. Verwenden Sie den Abschnitt **[!UICONTROL Feedback zur Konvertierung von Bildern in Vorlagen]**, um Ihre Gedanken und Vorschläge mit Adobe zu teilen, damit wir die Funktion verbessern können.
+   ![Feedback-Bereich in Journey Optimizer mit einem Textbereich zum Austausch Ihrer Gedanken und Vorschläge](../email/assets/email_designer_converter_feedback.png){width=70%}
 
 1. Klicken Sie **[!UICONTROL E-Mail-Textkörper bearbeiten]**. Die konvertierte Vorlage wird in der [E-Mail-Designer](../email/get-started-email-design.md) mit allen Bearbeitungsfunktionen geöffnet. Sie können jetzt:
 
@@ -120,9 +166,9 @@ Gehen Sie wie folgt vor, um ein Bilddesign in eine vollständig anpassbare E-Mai
    * Inhaltskomponenten hinzufügen, entfernen oder neu anordnen
    * Alle E-Mail-Designer-Funktionen wie bei jeder anderen Vorlage nutzen
 
-   ![](../email/assets/email_designer_html_components.png)
+   ![Senden Sie eine E-Mail an Designer in Journey Optimizer, in der die konvertierte Vorlage als modulare Inhaltskomponenten zur Bearbeitung angezeigt wird](../email/assets/email_designer_html_components.png)
 
-1. Nehmen Sie die erforderlichen Anpassungen vor, um die Vorlage zu verfeinern und auf Ihre Markenrichtlinien abzustimmen.
+   Nehmen Sie die erforderlichen Anpassungen vor, um die Vorlage zu verfeinern und auf Ihre Markenrichtlinien abzustimmen.
 
 1. Wenn Sie mit Ihrer Vorlage zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -141,34 +187,46 @@ Um beim Konvertieren von Bildern in E-Mail-Inhaltsvorlagen optimale Ergebnisse z
 
 +++Bildvorbereitung
 
-* **Auflösung**: Verwenden Sie hochauflösende Bilder (mindestens 1200 Pixel breit) für eine bessere Texterkennung und Auffindbarkeit von Elementen
-* **Klarheit**: Stellen Sie sicher, dass der Text klar lesbar ist und visuelle Elemente klar definiert sind
-* **Breite**: Entwerfen Sie Bilder mit standardmäßigen E-Mail-Breiten (600–800 px), um die Anforderungen typischer E-Mail-Clients zu erfüllen
-* **Dateiformat**: Verwenden Sie das JPEG- oder PNG-Format, um komprimierte Bilder oder Bilder mit geringer Qualität zu vermeiden
-* **Vollständiges Design**: Nehmen Sie das vollständige E-Mail-Design in ein einziges Bild auf, von Kopf- bis Fußzeile
+* **Resolution**: Verwenden Sie hochauflösende Bilder für eine bessere Texterkennung und Elementerkennung.
+* **Klarheit**: Verwenden Sie ein klares Bild. Der Text muss leicht lesbar und die visuellen Elemente klar definiert sein. Vermeiden Sie verschwommene, kontrastarme oder verrauschte Quelldateien.
+* **Breite**: Entwerfen Sie Bilder mit standardmäßigen E-Mail-Breiten (600-800 px), um die typischen E-Mail-Client-Anforderungen zu erfüllen.
+* **Dateiformat**: Verwenden Sie das JPEG- oder PNG-Format, um komprimierte Bilder oder Bilder von schlechter Qualität zu vermeiden.
+* **Vollständiges Design**: Vollständiges E-Mail-Design in ein einziges Bild aufnehmen, von Kopf- bis Fußzeile.
 
 +++
 
 +++Überlegungen zum Design
 
-* **Einfache Layouts**: Einfachere, gut strukturierte Layouts ermöglichen eine präzisere Konvertierung als hochkomplexe Designs
-* **Standardelemente**: Verwenden Sie gängige E-Mail-Design-Muster (Kopfzeile, Hauptteil, CTAs und Fußzeile)
-* **Textlesbarkeit**: Stellen Sie einen ausreichenden Kontrast zwischen Text und Hintergrund sicher
-* **Web-sichere Schriften**: Designs, die gängige Web-sichere Schriften verwenden, sind zuverlässiger
-* **Vermeiden Sie überlappende Elemente**: Halten Sie Design-Elemente zur besseren Strukturerkennung klar getrennt
+* **Einfache Layouts**: Einfachere, gut strukturierte Layouts ermöglichen eine präzisere Konvertierung als hochkomplexe Designs.
+* **Standardelemente**: Verwenden Sie gängige E-Mail-Design-Muster (Kopfzeilen-, Hauptteil-, CTAs- und Fußzeilen).
+* **Textlesbarkeit**: Sicherstellen eines ausreichenden Kontrasts zwischen Text und Hintergrund.
+* **Web-sichere Schriftarten**: Designs, die gängige Web-sichere Schriftarten verwenden, sind zuverlässiger.
+* **Überlappende Elemente vermeiden**: Halten Sie Designelemente zur besseren Strukturerkennung klar getrennt.
 
 +++
 
 +++Nach der Konversion
 
-* **Prüfen Sie den Entwurf**: Nach Abschluss der Konvertierung wird Ihre Vorlage automatisch als Entwurf gespeichert. Nehmen Sie sich Zeit, um den generierten Inhalt sorgfältig auf Korrektheit zu überprüfen
-* **Testen Sie sorgfältig**: Testen Sie die E-Mail auf verschiedenen E-Mail-Clients und Geräten
-* **Optimieren Sie manuell**: Nehmen Sie die benötigten Anpassungen mit den umfassenden Bearbeitungsfunktionen des E-Mail-Designers vor
-* **Markenausrichtung**: Prüfen Sie, ob die Farben, Schriften und Formate Ihren Markenrichtlinien entsprechen
-* **Personalisierung**: Fügen Sie nach Bedarf dynamische Inhalte und Personalisierungs-Token hinzu
-* **Barrierefreiheit**: Prüfen und erweitern Sie die Barrierefreiheitsfunktionen bei Bedarf
+* **Aktualisieren, um Ergebnisse anzuzeigen**: Aktualisieren Sie die Seite nach etwa 5 Minuten (oder bis zu 10 Minuten bei sehr großen Bildern), sodass die vollständige Konvertierung angezeigt wird.
+* **Prüfen Sie den Entwurf**: Nach Abschluss der Konvertierung wird Ihre Vorlage automatisch als Entwurf gespeichert. Nehmen Sie sich Zeit, um den generierten Inhalt sorgfältig auf Korrektheit zu überprüfen.
+* **Gründlich testen**: Testen Sie die E-Mail über verschiedene E-Mail-Clients und Geräte hinweg. [Erfahren Sie, wie Sie Inhalte in der Vorschau anzeigen und testen können](preview-test.md).
+* **Manuell verfeinern**: Nehmen Sie die erforderlichen Anpassungen mit den [E-Mail-Designer](../email/get-started-email-design.md)Bearbeitungsfunktionen vor.
+* **Markenausrichtung**: Überprüfen Sie, ob Farben, Schriftarten und Stile Ihren Markenrichtlinien entsprechen, und verwenden Sie Designs, falls verfügbar. [Weitere Informationen zu E-Mail-Designs](../email/apply-email-themes.md).
+* **Personalization**: Fügen Sie nach Bedarf dynamische Inhalte und Personalisierungs-Token hinzu. [Weitere Informationen über Personalisierung](../personalization/personalize.md).
+* **Barrierefreiheit**: Überprüfen und erweitern Sie die Funktionen für die Barrierefreiheit bei Bedarf. [Weitere Informationen über barrierefreie E-Mail-Inhalte](../email/accessible-content.md).
 
 +++
+
++++Feedback ist willkommen!
+
+Verwenden Sie den entsprechenden Abschnitt, um Ihre Gedanken und Vorschläge mit Adobe zu teilen, damit wir die Funktion verbessern können.
+
++++
+
+
+
+
+
 
 ## Häufig gestellte Fragen {#faq}
 
@@ -186,7 +244,7 @@ Der Konverter unterstützt die Bildformate JPEG (.jpg, .jpeg) und PNG (.png).
 
 +++Wie lange dauert der Konvertierungsprozess?
 
-Die Konvertierung kann je nach Komplexität und Größe Ihres Bild-Designs bis zu 5 Minuten dauern. Die KI-Verarbeitung erfolgt im Hintergrund, sodass Sie zu anderen Aufgaben wechseln und diese bearbeiten können. Der Bildschirm muss nicht geöffnet bleiben. Nach Abschluss der Konvertierung wird Ihre Datei automatisch als Entwurf gespeichert, den Sie überprüfen und bearbeiten können.
+Je nach Komplexität und Größe des Bilddesigns endet die Konvertierung häufig innerhalb von etwa 5 Minuten. Sehr große Bilder können manchmal bis zu 10 Minuten dauern. Warten Sie etwas länger und aktualisieren Sie dann. Die KI-Verarbeitung erfolgt im Hintergrund, sodass Sie weg navigieren und an anderen Aufgaben arbeiten können - Sie müssen den Bildschirm nicht offen lassen. Nach Abschluss der Konvertierung wird die Datei automatisch als Entwurf gespeichert, den Sie überprüfen und bearbeiten können.
 
 +++
 
@@ -210,7 +268,7 @@ Der Bild-zu-HTML-Konvertierer wurde speziell für E-Mail-Inhaltsvorlagen entwick
 
 +++Benötige ich spezielle Berechtigungen, um diese Funktion nutzen zu können?
 
-Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+Diese Funktion steht allen Kunden zur Verfügung, die das [!DNL Gen AI]-Addendum mit Adobe unterzeichnet haben. Wenn Sie sich nicht sicher sind, ob Ihr Unternehmen das Addendum unterzeichnet hat, wenden Sie sich an den Adobe-Support.
 
 +++
 
@@ -233,5 +291,3 @@ Ja. Der Bild-zu-HTML-Converter eignet sich ideal für die Migration von anderen 
 * [Verwenden von E-Mail-Vorlagen](../email/use-email-templates.md)
 * [Nutzen von E-Mail-Designs](../email/apply-email-themes.md)
 * [Erste Schritte mit dem E-Mail-Design](../email/get-started-email-design.md)
-* [Importieren von E-Mail-Inhalten](../email/existing-content.md)
-* [Neugestalten von Inhalten](../email/content-from-scratch.md)
