@@ -66,7 +66,7 @@ Um auf diese Funktion zugreifen zu können, muss Ihr Unternehmen das [!DNL Gener
 
 * Um auf Vorlagen zuzugreifen und sie zu erstellen, muss Ihre Rolle die Berechtigung **[!UICONTROL Inhaltsvorlagen verwalten]** (unter der Ressource **Content-Management** enthalten. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
 
-* Um den Konvertierer für das Bild in HTML verwenden zu können, muss Ihnen die Berechtigung **Inhalt generieren** gewährt werden. Erfahren Sie in [ Abschnitt, wie Sie Berechtigungen zum Erstellen von Inhalten ](../content-management/gs-generative.md#generative-access).
+* Um den Konvertierer für das Bild in HTML verwenden zu können, muss Ihnen die Berechtigung **Inhalt generieren** gewährt werden. Erfahren Sie in [&#x200B; Abschnitt, wie Sie Berechtigungen zum Erstellen von Inhalten &#x200B;](../content-management/gs-generative.md#generative-access).
 
 **Vereinbarung**
 
