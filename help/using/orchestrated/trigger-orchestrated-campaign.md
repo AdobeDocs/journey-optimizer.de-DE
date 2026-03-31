@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+exl-id: d1fd072d-b143-4752-822f-23f98684ba80
+source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
-
 
 # Trigger hat Kampagnen mithilfe eines Signals orchestriert {#trigger-signal}
 
@@ -26,6 +26,10 @@ End-to-End-Prozess zum Trigger einer orchestrierten Kampagne mithilfe eines Sign
 1. [Parameter für die Signal-Payload hinzufügen](#add-parameters-for-the-signal-payload-optional-parameters) (optional)
 1. [Erstellen und Testen der Kampagne](#build-and-test-the-campaign-build-and-test)
 1. [Veröffentlichen und Trigger der Kampagne](#publish-and-trigger-the-campaign-publish)
+
+>[!NOTE]
+>
+>Um eine orchestrierte Kampagne mithilfe eines Signals Trigger, benötigen Sie die **[!DNL Publish orchestrated campaigns]** (`orchestrated-campaign.publish`). Siehe [Integrierte Berechtigungen](../administration/ootb-permissions.md).
 
 ## Planung der durch ein Signal ausgelösten Kampagne {#configure-signal}
 
@@ -98,11 +102,11 @@ Erstellen Sie Ihre Kampagne auf der Arbeitsfläche und testen Sie sie dann optio
 
 1. Senden Sie den Trigger-API-Aufruf mit der Beispielanfrage, die Sie aus der Planung kopiert haben. <!--For the complete API reference, refer to the [Journey Optimizer API documentation](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.-->
 
-Wenn Sie mit den Testergebnissen zufrieden sind, veröffentlichen [&#x200B; die Kampagne](#publish).
+Wenn Sie mit den Testergebnissen zufrieden sind, veröffentlichen [ die Kampagne](#publish).
 
 ## Veröffentlichen und Trigger der Kampagne {#publish}
 
-Nachdem Sie [&#x200B; Kampagne erstellt und getestet haben](#build-and-test) veröffentlichen Sie die Kampagne, damit sie über Ihre Anwendung ausgelöst werden kann.
+Nachdem Sie [ Kampagne erstellt und getestet haben](#build-and-test) veröffentlichen Sie die Kampagne, damit sie über Ihre Anwendung ausgelöst werden kann.
 
 1. Klicken Sie **[!UICONTROL der Kampagnen]** Arbeitsfläche auf „Veröffentlichen“. Die Kampagne muss veröffentlicht werden, bevor sie von einem externen System ausgelöst werden kann. [Weitere Informationen zum Starten und Überwachen der Kampagne](start-monitor-campaigns.md#publish).
 
