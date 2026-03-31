@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: Funktion „inAudience“
+title: inAudience-Funktion
 description: Erfahren Sie mehr über die Funktion „inAudience“ von Adobe Experience Platform
 feature: Journeys
 role: Developer
@@ -8,14 +8,14 @@ level: Experienced
 keywords: inAudience, Funktion, Ausdruck, Journey, Zielgruppe, Segmentierung
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
-workflow-type: ht
-source-wordcount: '600'
-ht-degree: 100%
+source-git-commit: acdcd6e09f75e3d3c5184a71937d443890f378b6
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 81%
 
 ---
 
-# Funktion „inAudience“ {#inAudience}
+# inAudience-Funktion {#inAudience}
 
 Die Funktion `inAudience` ist eine Adobe Experience Platform-Funktion, mit der Sie überprüfen können, ob ein Kontakt in Ihrer Journey zu einer bestimmten Zielgruppe gehört. Mit dieser leistungsstarken Funktion können Sie personalisierte Journey-Pfade basierend auf der Zielgruppenzugehörigkeit erstellen und ermöglichen dadurch anspruchsvolle Segmentierung und anspruchsvolles Targeting in Ihren Kundenerlebnissen.
 
@@ -36,7 +36,7 @@ Zielgruppen können zwei Beteiligungsstatus aufweisen:
 * **Realisiert**: Der Kontakt qualifiziert sich für die Zielgruppendefinition und ist ein aktives Mitglied
 * **Ausgestiegen**: Der Kontakt hat die Zielgruppe verlassen und ist nicht mehr qualifiziert
 
-Nur Kontakte mit dem Status **Realisiert** werden als aktive Zielgruppenmitglieder betrachtet. Wenn die Funktion `true` zurückgibt, bestätigt sie, dass der Kontakt den Status „Realisiert“ hat. Wenn sie `false` zurückgibt, zeigt dies den Status „Ausgestiegen“ an. Weitere Informationen zur Zielgruppenauswertung finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results){target="_blank"}.
+Nur Kontakte mit dem Status **Realisiert** werden als aktive Zielgruppenmitglieder betrachtet. Wenn die Funktion `true` zurückgibt, bestätigt sie, dass der Kontakt den Status „Realisiert“ hat. Wenn sie `false` zurückgibt, zeigt dies den Status „Ausgestiegen“ an. Weitere Informationen zur Zielgruppenauswertung finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/tutorials/evaluate-a-segment#interpret-segment-results){target="_blank"}.
 
 +++Syntax
 
@@ -110,6 +110,13 @@ Beachten Sie bei Verwendung der Funktion `inAudience` in Ihren Journeys die folg
 **Überlegungen zur Zusammenführungsrichtlinie:**
 * Beim Verwenden mehrerer Zielgruppen mit der Funktion `inAudience` können Inkonsistenzen mit Zusammenführungsrichtlinien zu Fehlern oder Warnhinweisen führen
 * Weitere Informationen zum Verhalten von Zusammenführungsrichtlinien finden Sie unter [Journey-Eigenschaften](../journey-properties.md).
+
+**Ausbreitungszeitpunkt:** {#propagation-timing}
+
+Bei Verwendung von `inAudience()` in einem Bedingungsknoten variiert der Zeitpunkt der Segmentzugehörigkeitsevaluierung je nachdem, wo die Bedingung auf der Journey erscheint:
+
+* **Vor einer Warteaktivität (oder auf einer Zielgruppen-Journey):** AJO liest aus der Batch-Projektion des Profils. Die Datenfrische in dieser Projektion trägt ein SLT von bis zu **2 Stunden** nach der Aufnahme. Bei Zielgruppen, die auf tägliche oder zeitbasierte Bedingungen angewiesen sind, können zusätzliche Verzögerungen auftreten. Fügen Sie eine [Warteaktivität](../wait-activity.md) am Anfang der Journey hinzu oder lassen Sie eine Pufferzeit zu, um sicherzustellen, dass die neueste Segmentzugehörigkeit widergespiegelt wird.
+* **Nach einer Warteaktivität (oder in einem unitären Ereignis-Journey) wird** Segmentzugehörigkeit aus der Streaming-(unitären)-Projektion gelesen. Informationen zur erwarteten Latenz finden Sie in der Dokumentation zur Streaming-Aufnahme in [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Dieser Pfad reagiert im Allgemeinen besser auf jüngste Profiländerungen.
 
 ## Verwandte Themen
 
