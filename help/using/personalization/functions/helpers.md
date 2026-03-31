@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 8b50f0f1cc78e32ef9b3a3e918a5de82e7e16406
+source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
 workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 63%
@@ -319,11 +319,11 @@ Dieser Helper verschlüsselt vertrauliche Daten und speichert das Ergebnis in ei
 
 Sie können den Helper je nach URL-Design und Längenbeschränkungen auf einen Parameter, mehrere oder alle Parameter in einem Link anwenden.
 
-&#x200B;- **Input**: `dataPath` (Datenverweis, der in eine Zeichenfolge aufgelöst werden muss), `keyName` (Verschlüsselungsschlüsselkennung), `version` (optionale Schlüsselversion), `result` (Variablenname für verschlüsselte Ausgabe)
-&#x200B;- **Ausgabe**: Stellt den verschlüsselten Wert in der angegebenen `result` zur Verfügung.
-&#x200B;- **Ergebnisformat**: Die Ergebnisvariable enthält eine durch Punkte getrennte Zeichenfolge: `keyName.version.nonce.authTag.cipherText` (alle Segmente außer `keyName` und `version` sind URL-sicher, Base64-codiert, ohne Abstand).
-&#x200B;- **Statische Schlüsselanforderungen**: `keyName` und `version` müssen statische Zeichenfolgenliterale sein (dynamische Verweise werden nicht unterstützt).
-&#x200B;- **Standardversion**: Der `version` ist optional. Wird er weggelassen, löst der Verschlüsselungsschlüssel-Service die Standardversion auf
+* **Input**: `dataPath` (Datenverweis, der in eine Zeichenfolge aufgelöst werden muss), `keyName` (Verschlüsselungsschlüsselkennung), `version` (optionale Schlüsselversion), `result` (Variablenname für verschlüsselte Ausgabe)
+* **Ausgabe**: Stellt den verschlüsselten Wert in der angegebenen `result` zur Verfügung.
+* **Ergebnisformat**: Die Ergebnisvariable enthält eine durch Punkte getrennte Zeichenfolge: `keyName.version.nonce.authTag.cipherText` (alle Segmente außer `keyName` und `version` sind URL-sicher, Base64-codiert, ohne Abstand).
+* **Statische Schlüsselanforderungen**: `keyName` und `version` müssen statische Zeichenfolgenliterale sein (dynamische Verweise werden nicht unterstützt).
+* **Standardversion**: Der `version` ist optional. Wird er weggelassen, löst der Verschlüsselungsschlüssel-Service die Standardversion auf
 
 **Beispiele**
 
