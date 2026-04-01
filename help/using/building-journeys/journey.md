@@ -349,7 +349,7 @@ Begrenzen Sie den Nachrichtendurchsatz, um die Reputation beim Versand zu verwal
 
 Erhalten Sie eine visuelle Einführung in Journey-Komponenten und lernen Sie die Grundlagen der Journey-Erstellung auf der Arbeitsfläche kennen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
 
 ➡️ **Möchten Sie mehr Videos sehen?** [Erkunden von Video-Tutorials für Journeys](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
