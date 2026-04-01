@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zu orchestrierten Kampagnen
 description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Kampagnen
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1958'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -73,7 +73,7 @@ Für einen Zugriff auf die Kampagnenorchestrierung muss die Lizenz entweder das 
 * **Orchestrierte Kampagnen**: Optimiert für **Batch-Kampagnen, 1:n-Kampagnen**. Zielgruppen schreiten in großen Mengen nach einem Zeitplan fort.
 * **Journeys**: Am besten geeignet für **Echtzeit-1:1-Interaktion**. Jede Person durchläuft die Customer Journey in ihrem eigenen Tempo, ausgelöst durch ihr Verhalten oder bestimmte Ereignisse.
 
-**Best Practice**: Verwenden Sie sie zusammen – Journeys für ausgelöste, reaktive Erlebnisse und orchestrierte Kampagnen für geplante, kalenderbasierte Initiativen.
+**Best Practice**: Verwenden Sie sie zusammen - Journey für ausgelöste, reaktive Erlebnisse und koordinierte Kampagnen für geplante, kalenderbasierte Initiativen.
 
 **Weitere Informationen**
 

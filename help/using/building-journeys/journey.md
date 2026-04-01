@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: Journey, Entdecken, Erste Schritte, Unitär, Zielgruppe lesen, Zielgruppen-Qualifizierung, Geschäftsereignis, Echtzeit, Geplant, Batch, Ereignisgesteuert, Workflow, Orchestrierung, Personalisierung, Multi-Channel
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 93%
+source-wordcount: '1441'
+ht-degree: 88%
 
 ---
 
@@ -39,13 +39,13 @@ Verwenden Sie [!DNL Journey Optimizer] für Folgendes:
 
 ### Journeys vs. Kampagnen: Verwendungszwecke {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer] bietet drei Ansätze, um Kunden zu erreichen: **Journey** (:1 Echtzeit-Orchestrierung), **Kampagnen** (einfacher Batch- oder API-gesteuerter Versand) und **Orchestrierte Kampagnen** (Batch-Arbeitsflächen-Workflows mit Daten aus mehreren Entitäten).
+[!DNL Adobe Journey Optimizer] bietet drei Ansätze, um Kundinnen und Kunden zu erreichen: **Journey** (:1 Echtzeit-Orchestrierung), **Kampagnen** (einfacher Batch- oder API-gesteuerter Versand) und **Orchestrierte Kampagnen** (Batch-Arbeitsflächen-Workflows mit Daten aus mehreren Entitäten).
 
 **Schnelle Entscheidung:**
 
 * Verwenden Sie **Journeys** für mehrstufige, verhaltensgesteuerte Erlebnisse, bei denen jede Kundin und jeder Kunde im eigenen Tempo Fortschritte macht
-* Verwenden Sie **Aktions/API-Kampagnen** für einen einfachen, geplanten oder ausgelösten Nachrichtenversand an Zielgruppen
-* Verwenden Sie **orchestrierte Kampagnen** für komplexe Batch-Workflows, die eine Segmentierung mehrerer Entitäten und exakte Zählungen vor dem Versand erfordern
+* Verwenden Sie **Aktion und API-ausgelöste Kampagnen** für einen einfachen, geplanten oder ausgelösten Nachrichtenversand an Zielgruppen
+* Verwenden Sie **Orchestrierte Kampagnen** für komplexe Batch-Workflows, die eine Segmentierung mehrerer Entitäten und exakte Zählungen vor dem Versand erfordern
 
 <!-- waiting for DOCAC-13912
 ➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
@@ -73,7 +73,7 @@ Der **[Journey-Designer](using-the-journey-designer.md)** ist Ihre visuelle Arbe
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Eintrittspunkte definieren**
 
@@ -83,7 +83,7 @@ Wählen Sie aus, wie Kundinnen und Kunden eintreten: über ein Ereignis, ein Zie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Nachrichten senden**
 
@@ -93,7 +93,7 @@ Verwenden Sie integrierte Kanalaktionen für E-Mail, Push, SMS/MMS, In-App, Web 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Logik und Bedingungen hinzufügen**
 
@@ -103,7 +103,7 @@ Verzweigen Sie Ihre Journey basierend auf Profilattributen, Zielgruppenzugehöri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Daten verwenden**
 
@@ -113,7 +113,7 @@ Verwenden Sie kontextuelle Daten aus Ereignissen, [!DNL Adobe Experience Platfor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Externe Systeme anschließen**
 
@@ -123,7 +123,7 @@ Erstellen Sie benutzerdefinierte Aktionen, um Drittanbietersysteme für den Vers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Orchestrierungsaktivitäten hinzufügen**
 
@@ -214,7 +214,7 @@ Lernen Sie aus Praxisbeispielen, die zeigen, wie sich Journey-Konzepte zur Lösu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Neue Abonnierende willkommen heißen**
 
@@ -224,7 +224,7 @@ Wenn sich eine Kundin oder ein Kunde für Ihren Service anmeldet, lösen Sie ein
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Versandzeitoptimierung**
 
@@ -234,7 +234,7 @@ Verwenden Sie KI, um E-Mails genau dann zu senden, wenn die Interaktionswahrsche
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Steigern der Versandaktivität**
 
@@ -244,7 +244,7 @@ Erhöhen Sie das Nachrichtenvolumen schrittweise, um Ihre Reputation beim Versan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Targeting nach Wochentag**
 
@@ -254,7 +254,7 @@ Senden Sie unterschiedliche Inhalte basierend auf dem Wochentag, an dem Kundinne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Multi-Channel-Kampagnen**
 
@@ -264,7 +264,7 @@ Orchestrieren Sie nahtlose Erlebnisse über E-Mail, Push, SMS und Web-Kanäle hi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Alle Anwendungsfälle:**
 
@@ -282,7 +282,7 @@ Sobald Sie mit der Erstellung von Journeys vertrauter sind, können Sie diese le
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Erweiterte Ausdrücke**
 
@@ -292,7 +292,7 @@ Erstellen Sie dynamische Bedingungen und Personalisierungen mithilfe des Ausdruc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Zeitzonen**
 
@@ -302,7 +302,7 @@ Bedienen Sie globale Zielgruppen mit automatischer Zeitzonenanpassung und optima
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Testmodus und Probelauf**
 
@@ -312,7 +312,7 @@ Validieren Sie Journeys vor der Live-Schaltung mit Testprofilen und zeigen Sie d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **In Sandbox kopieren**
 
@@ -322,7 +322,7 @@ Duplizieren Sie Journeys in Sandboxes, um Test- und Bereitstellungs-Workflows zu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tags und Organisation**
 
@@ -332,7 +332,7 @@ Verwenden Sie Tags, um Journeys zu kategorisieren und zu filtern, damit Sie dies
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Durchsatzsteuerung**
 
@@ -349,7 +349,7 @@ Begrenzen Sie den Nachrichtendurchsatz, um die Reputation beim Versand zu verwal
 
 Erhalten Sie eine visuelle Einführung in Journey-Komponenten und lernen Sie die Grundlagen der Journey-Erstellung auf der Arbeitsfläche kennen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Möchten Sie mehr Videos sehen?** [Erkunden von Video-Tutorials für Journeys](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -363,9 +363,9 @@ Erhalten Sie eine visuelle Einführung in Journey-Komponenten und lernen Sie die
 
 * **Kampagnen (Aktion und durch API ausgelöst)**: Einfacher Nachrichtenversand an Zielgruppen, der gleichzeitig für alle Profile ausgeführt wird, entweder nach Zeitplan oder über API-Auslösung. Ideal für Werbekampagnen, Newsletter und Transaktionsnachrichten.
 
-* **Orchestrierte Kampagnen**: Mehrstufige Batch-Workflows mit komplexer Segmentierung unter Verwendung relationaler Daten (Profile + Produkte/Geschäfte/Buchungen). Alle Profile werden mit exakten Zählungen vor dem Versand gemeinsam verarbeitet. Ideal für saisonale Werbeaktionen, Produkteinführungen und Kampagnen, die Daten aus mehreren Entitäten erfordern.
+* **Orchestrierte Kampagnen**: Mehrstufige Batch-Workflows mit komplexer Segmentierung mithilfe relationaler Daten (Profile + Produkte/Geschäfte/Buchungen). Alle Profile werden mit exakten Zählungen vor dem Versand gemeinsam verarbeitet. Ideal für saisonale Werbeaktionen, Produkteinführungen und Kampagnen, die Daten aus mehreren Entitäten erfordern.
 
-**Hauptunterschied**: Journeys halten den individuellen Kundenstatus für Echtzeit-Aktionen fest; Aktions-/API-Kampagnen versenden einfache Nachrichten im Batch-Verfahren; orchestrierte Kampagnen bieten eine Arbeitsfläche für Batch-Workflows mit Funktionen zur Segmentierung mehrerer Entitäten.
+**Hauptunterschied**: Journey verwalten den individuellen Kundenstatus für Echtzeitaktionen; Aktions- und API-ausgelöste Kampagnen liefern einfache Nachrichten im Batch; Orchestrierte Kampagnen bieten die Arbeitsfläche für Batch-Workflows mit Funktionen für die Segmentierung mehrerer Entitäten.
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [Informationen zu orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)

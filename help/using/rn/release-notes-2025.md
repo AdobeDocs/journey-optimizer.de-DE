@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '9009'
-ht-degree: 100%
+source-wordcount: '9005'
+ht-degree: 99%
 
 ---
 
@@ -197,13 +197,13 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <table>
 <thead>
 <tr>
-<th><strong>Messaging mit hohem Durchsatz für durch API ausgelöste E-Mail-Kampagnen</strong><br/></th>
+<th><strong>Messaging mit hohem Durchsatz für API-ausgelöste E-Mail-Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Für Kampagnen, die durch API ausgelöst werden, ist jetzt ein neuer Transaktions-Messaging-Modus verfügbar. Dieser Modus ist für groß angelegtes Transaktions-Messaging in Echtzeit konzipiert und unterstützt bis zu 5.000 Transaktionen pro Sekunde mit einer höheren Verfügbarkeit. Dieser Modus unterstützt auch Transaktionsnachrichten ohne Verweis auf oder Erstellung von Kundenprofilen, wie z. B. Gast-Checkout, Bestellbestätigung, Zurücksetzen des Passworts, Sicherheitsbenachrichtigungen und andere Service-/Betriebsbenachrichtigungen.</p>
+<p>In API-ausgelösten Kampagnen ist ein neuer Transaktionsnachrichtenmodus mit hohem Durchsatz verfügbar. Dieser Modus ist für groß angelegtes Transaktions-Messaging in Echtzeit konzipiert und unterstützt bis zu 5.000 Transaktionen pro Sekunde mit einer höheren Verfügbarkeit. Dieser Modus unterstützt auch Transaktionsnachrichten ohne Verweis auf oder Erstellung von Kundenprofilen, wie z. B. Gast-Checkout, Bestellbestätigung, Zurücksetzen des Passworts, Sicherheitsbenachrichtigungen und andere Service-/Betriebsbenachrichtigungen.</p>
 <p>Diese Funktion ist nur für den E-Mail-Kanal verfügbar und steht Unternehmen zur Verfügung, die das Adobe-Add-on für Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../campaigns/api-triggered-high-throughput.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 22. Oktober 2025</p>
@@ -570,8 +570,8 @@ You can now use AI models to optimize the best content in your email through the
 
 ### Verbesserungen {#sept-25-9-improvements}
 
-* **Webhook-Unterstützung für Kampagnen, die durch API ausgelöst werden**\
-  Kampagnen, die durch API ausgelöst werden, unterstützen jetzt Webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen in Echtzeit für jede Nachricht zu erhalten. Dies verbessert die Beobachtbarkeit und ermöglicht nahtlose Überwachung und Automatisierung. [Weitere Informationen](../configuration/feedback-webhooks.md)
+* **Webhook-Unterstützung für API-ausgelöste Kampagnen**\
+  API-ausgelöste Kampagnen unterstützen jetzt Webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen in Echtzeit für jede Nachricht zu erhalten. Dies verbessert die Beobachtbarkeit und ermöglicht nahtlose Überwachung und Automatisierung. [Weitere Informationen](../configuration/feedback-webhooks.md)
 
   Verfügbarkeitsdatum: 29. September 2025
 

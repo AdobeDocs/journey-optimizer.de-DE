@@ -5,19 +5,19 @@ title: Erstellen einer Zielgruppendimension
 description: Erfahren Sie, wie Sie dem Kundenprofil ein relationales Schema zuordnen.
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: f842142a985481004192c88af2973787912c85b3
-workflow-type: ht
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 
 # Konfigurieren einer Zielgruppendimension {#configuration}
 
-Mit **[!UICONTROL orchestrierten Kampagnen]** können Sie zielgerichtete Kommunikation auf Entitätsebene gestalten und bereitstellen und dabei die Funktionen von relationalen Schemata von Adobe Experience Platform nutzen. Schemata dienen in Experience Platform zur konsistenten und wiederverwendbaren Beschreibung der Struktur von Daten. Wenn Daten in Experience Platform aufgenommen werden, werden sie nach einem XDM-Schema strukturiert.
+Mit **[!UICONTROL Orchestrierten Kampagnen]** können Sie zielgerichtete Kommunikation auf Entitätsebene entwerfen und bereitstellen und dabei die relationalen Schemafunktionen von Adobe Experience Platform nutzen. Schemata dienen in Experience Platform zur konsistenten und wiederverwendbaren Beschreibung der Struktur von Daten. Wenn Daten in Experience Platform aufgenommen werden, werden sie nach einem XDM-Schema strukturiert.
 
-Auch wenn die Segmentierung für **[!UICONTROL orchestrierte Kampagnen]** hauptsächlich in relationalen Schemata erfolgt, erfolgt der tatsächliche Nachrichtenversand immer auf der Ebene **Profil**.
+Obwohl die Segmentierung für **[!UICONTROL orchestrierte Kampagnen]** hauptsächlich auf relationalen Schemata erfolgt, erfolgt der tatsächliche Nachrichtenversand immer auf der Ebene **Profil**.
 
 Bei der Konfiguration der Zielgruppenbestimmung definieren Sie zwei wichtige Aspekte:
 
@@ -27,7 +27,7 @@ Bei der Konfiguration der Zielgruppenbestimmung definieren Sie zwei wichtige Asp
 
   >[!IMPORTANT]
   >
-  > Orchestrierte Kampagnen ermöglichen Targeting für jedes Schema, das eine direkte oder verwandte Beziehung zum Schema **Profil** aufweist. Obwohl die Verwendung in erster Linie für 1:1-Beziehungen vorgesehen ist, unterstützt sie auch 1:N-Beziehungen wie „Konto“ `>` „Empfänger“, sofern der Beziehungspfad im Datenmodell ordnungsgemäß modelliert ist. Dies ermöglicht Targeting anhand von Daten auf Kontoebene, während gleichzeitig die richtige Profilidentität für den Nachrichtenversand aufgelöst wird.
+  > Orchestrierte Kampagnen ermöglichen die Zielgruppenbestimmung für jedes Schema, das eine direkte oder verwandte Beziehung zum **Profil“**. Obwohl die Verwendung in erster Linie für 1:1-Beziehungen vorgesehen ist, unterstützt sie auch 1:N-Beziehungen wie „Konto“ `>` „Empfänger“, sofern der Beziehungspfad im Datenmodell ordnungsgemäß modelliert ist. Dies ermöglicht Targeting anhand von Daten auf Kontoebene, während gleichzeitig die richtige Profilidentität für den Nachrichtenversand aufgelöst wird.
 
 * **Profilverknüpfung**
 

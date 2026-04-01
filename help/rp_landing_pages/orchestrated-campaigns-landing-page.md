@@ -5,10 +5,10 @@ title: Orchestrierte Kampagnen
 description: Orchestrierte Kampagnen
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Orchestrierte Kampagnen in Adobe Journey Optimizer ermöglichen es Ihnen, anspruchsvolle, mehrstufige Marketing-Kampagnen zu entwerfen und auszuführen, die der richtigen Zielgruppe im benötigten Umfang die richtige Botschaft bereitstellen. Im Gegensatz zu Echtzeit-Journeys verarbeiten diese Batch-Kampagnen Zielgruppensegmente und -profile gemeinsam, sodass sie sich ideal für geplante Initiativen im Data-driven Marketing eignen. Sie erkunden das Zusammenspiel von Aktivitäten wie Zielgruppensegmentierung, Transitionen und Arbeitstabellen, um nahtlose Workflows zu erstellen. Dabei erfahren Sie, wie sich orchestrierte Kampagnen von Journeys unterscheiden, und lernen, Daten für die Personalisierung zu konfigurieren, Kampagnen zu erstellen und zu starten sowie die Leistung zu optimieren – alles auf einer intuitiven visuellen Arbeitsfläche. Machen Sie sich bereit, Ihre Marketing-Automatisierung auf die nächste Stufe zu heben.
 
-## Überblick über orchestrierte Kampagnen
+## Orchestrierte Kampagnen - Übersicht
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in orchestrierte Kampagnen
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Kernfunktionen, Komponenten und Besonderheiten von o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Leitlinien und Einschränkungen
 
@@ -40,9 +40,9 @@ Machen Sie sich mit den Einschränkungen und Grenzen vertraut, die bei der Verwe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Datenkonfiguration für orchestrierte Kampagnen
+Datenkonfiguration für koordinierte Kampagnen
 
 Konfigurieren Sie relationale Schemata, Datensätze und Kanäle, um sicherzustellen, dass die Daten für orchestrierte Kampagnen bereit sind.
 
@@ -50,19 +50,19 @@ Konfigurieren Sie relationale Schemata, Datensätze und Kanäle, um sicherzustel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Starten und Verwalten von orchestrierten Kampagnen
 
-Eine schrittweise Anleitung zum Erstellen, Orchestrieren, Überwachen und Analysieren Ihrer ersten orchestrierten Kampagne.
+Eine schrittweise Anleitung zum Erstellen, Orchestrieren, Monitoring und Analysieren Ihrer ersten orchestrierten Kampagne.
 
 [Informationen zum Starten von Kampagnen](launch-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Abfragen der Datenbank nach orchestrierten Kampagnen
+Abfrage der Datenbank nach orchestrierten Kampagnen
 
 Beherrschen Sie Datenbankabfragen, um Zielgruppen in orchestrierten Kampagnen effektiv anzusprechen, zu segmentieren und erneut anzusprechen.
 
@@ -70,7 +70,7 @@ Beherrschen Sie Datenbankabfragen, um Zielgruppen in orchestrierten Kampagnen ef
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Umfassendes Handbuch zu Kampagnenaktivitäten
 

@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1001'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -92,7 +92,7 @@ Machen Sie sich durch die Tabelle unten damit vertraut, welche Journey Optimizer
 | Ereignisdatensatz zu Erfahrungen beim AJO-E-Mail-Tracking | Interaktionsprotokolle für den E-Mail-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird.  |
 | AJO-Entitäts-Datensatz | Datensatz zum Speichern von Entitätsmetadaten für Nachrichten, die an die Endbenutzenden gesendet werden.  |
 | Ereignisdatensatz für eingehende AJO-Aktivitäten | Datensatz für Web- und In-App-Kanäle von Journey Optimizer für Versand- und Interaktionsereignisse. |
-| Profildatensatz für interaktive AJO-Nachrichten | Speichert Profile, die erstellt wurden, um API-gesteuerte Kampagnen zu unterstützen |
+| Profildatensatz für interaktive AJO-Nachrichten | Speichert Profile, die zur Unterstützung von API-ausgelösten Kampagnen erstellt wurden |
 | Ereignisdatensatz mit Feedback zu AJO-Nachrichten | Nachrichten-Versandlogs.  Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet. Dieser Datensatz enthält Ereignisse für alle Kanäle: E-Mail, SMS/MMS, Direkt-Mail, usw. |
 | AJO-Nachrichtenexport-Datensatz | Speichert gesendete E-Mail- und SMS-Nachrichteninhalte, die für den Export markiert wurden. Daten werden sieben Kalendertage nach der Aufnahme aufbewahrt. |
 | AJO Profile Counters-Erweiterung | Enthält eine Zuordnung von Objekten, die „counter_value“ und „expiryDate“ enthalten, die von „counter_id“ eingegeben wurden. |

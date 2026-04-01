@@ -5,10 +5,10 @@ title: Abfragen der Datenbank
 description: Abfragen der Datenbank
 redpen-status: CREATED_||_2025-08-11_20-25-18
 exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -20,37 +20,37 @@ Entdecken Sie mit den leistungsstarken Datenbankabfrage-Tools von Adobe Journey 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Verwenden des Regel-Builders für orchestrierte Kampagnen
+Verwenden des Regel-Builders für koordinierte Kampagnen
 
 Erfahren Sie, wie Sie mit dem Regel-Builder in Adobe Journey Optimizer Regeln für Zielgruppen-Targeting und -segmentierung erstellen und verwalten.
 
-[Mit dem Regel-Builder arbeiten](../using/orchestrated/orchestrated-rule-builder.md)
+[Arbeiten mit dem Regel-Builder](../using/orchestrated/orchestrated-rule-builder.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen Ihrer ersten Regel in Adobe Journey Optimizer
 
 Schrittweise Anleitung zum Erstellen und Validieren von Regeln zum Filtern und Targeting von Zielgruppen in orchestrierten Kampagnen.
 
-[Erste Regel erstellen](../using/orchestrated/build-query.md)
+[Erstellen Ihrer ersten Regel](../using/orchestrated/build-query.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Bearbeiten von Ausdrücken in Adobe Journey Optimizer
 
 Beherrschen Sie den Ausdruckseditor, um Abfrageregeln manuell zu definieren und erweiterte Funktionen zur Datenbearbeitung zu nutzen.
 
-[Ausdrücke bearbeiten](../using/orchestrated/edit-expressions.md)
+[Bearbeiten von Ausdrücken](../using/orchestrated/edit-expressions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Erstellen von Retargeting-Abfragen in Adobe Journey Optimizer
 

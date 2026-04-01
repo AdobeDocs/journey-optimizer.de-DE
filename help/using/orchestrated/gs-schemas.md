@@ -5,10 +5,10 @@ title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie in Adobe Experience Platform ein relationales Schema erstellen, indem Sie eine DDL-Datei hochladen.
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ Es beschreibt:
 * Die Attribute dieser Entitäten (z. B. Kundenname, Startdatum der Kampagne)
 * Die Beziehungen zwischen Entitäten (z. B. Kundinnen und Kunden gehören zu Segmenten, Kampagnen zielen auf Segmente ab)
 
-Ein Datenmodell ist logisch und konzeptionell und nicht an eine physische Implementierung in einer orchestrierten Kampagne gebunden.
+Ein Datenmodell ist logisch und konzeptionell und nicht an eine physische Implementierung in einer orchestrierten Kampagne gebunden
 
 In einem **relationalen Datenmodell** werden Daten in Tabellen organisiert, die sich auf andere Tabellen beziehen.
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um Daten aufzunehmen und ein relationales Schema zu ers
 
 1. [Aktivieren orchestrierter Kampagnen](manual-schema.md#enable)
 
-   Dieser Datensatz speichert Ihre aufgenommenen Daten und muss für orchestrierte Kampagnen aktiviert sein, damit er in Adobe Journey Optimizer verfügbar ist. 
+   Der Datensatz speichert Ihre aufgenommenen Daten und muss für orchestrierte Kampagnen aktiviert werden, um sicherzustellen, dass er in Adobe Journey Optimizer verfügbar ist.
 
 1. [Aufnehmen von Daten](ingest-data.md)
 

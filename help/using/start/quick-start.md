@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer ermöglicht es Marken, während der gesamten Customer Jo
 Journey Optimizer bietet zwei Orchestrierungsansätze, um verschiedene Marketing-Anforderungen zu erfüllen:
 
 * **Journeys**: Am besten geeignet für Eins-zu-eins-Interaktionen in Echtzeit, bei denen sich alle Kundinnen und Kunden in ihrem eigenen Tempo bewegen, ausgelöst durch Verhalten oder Ereignisse
-* **Orchestrierte Kampagnen**: Am besten geeignet für Eins-zu-viele-Kampagnen in Batches, bei denen sich Zielgruppen mithilfe mehrstufiger Workflows nach einem Zeitplan gemeinsam bewegen; ideal für saisonale Werbeaktionen, Produkteinführungen und kontobasierte Kommunikation
+* **Orchestrierte Kampagnen**: Optimiert für Batch-Kampagnen, bei denen Zielgruppen mithilfe mehrstufiger Workflows nach einem Zeitplan zusammenarbeiten. Ideal für saisonale Werbeaktionen, Produkteinführungen und kontobasierte Kommunikation
 
 Dieses einheitliche Erlebnis ermöglicht es Ihnen, ganze Anwendungsfälle an einem Ort zu implementieren, von der Definition von Zielgruppen und der Gestaltung von Journeys bis hin zur Erstellung personalisierter Inhalte und der Analyse von Ergebnissen. In dieser Dokumentation werden die zentralen Rollen und ihre effektive Verwendung von Journey Optimizer sowie ihre Verantwortlichkeiten und die ersten Schritte erklärt.
 
@@ -210,7 +210,7 @@ Erfolgreiche Journey Optimizer-Implementierungen erfordern die Zusammenarbeit al
 
 Weitere Informationen zu den wichtigsten Funktionen und Personas von Journey Optimizer finden Sie im Einführungsvideo. Das Video führt Sie durch die Benutzeroberfläche und hebt je nach rollenspezifischen Workflows zentrale Funktionen hervor.
 
->[!VIDEO](https://video.tv.adobe.com/v/3432377?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Weitere Ressourcen
 

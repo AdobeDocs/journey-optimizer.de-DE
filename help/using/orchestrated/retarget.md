@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kam
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 68%
+ht-degree: 67%
 
 ---
 
@@ -32,7 +32,7 @@ Feedback-basierte Retargeting-Regel ermöglicht die erneute Zielgruppenbestimmun
 
 Mithilfe dieser Daten können Sie Regeln definieren, um Empfängerinnen und Empfänger zu identifizieren, die eine frühere Nachricht erhalten haben. Dies erlaubt eine Folgekommunikation basierend auf bestimmten Versandstatus.
 
-1. Erstellen Sie eine neue **[!UICONTROL orchestrierte Kampagne]**.
+1. Erstellen Sie eine neue **[!UICONTROL Orchestrierte Kampagne]**.
 
 1. Fügen Sie die Aktivität **[!UICONTROL Zielgruppe aufbauen]** hinzu und legen Sie für die Zielgruppendimension **[!UICONTROL Empfänger (caas)]** fest. Klicken Sie auf **[!UICONTROL Fortfahren]**.
 
@@ -44,7 +44,7 @@ Mithilfe dieser Daten können Sie Regeln definieren, um Empfängerinnen und Empf
 
    1. Wählen Sie die Filterregel und anschließend das **[!UICONTROL Verhalten]** das Sie ansprechen möchten, z. B. **[!UICONTROL Nachricht gesendet]**.
 
-   1. Klicken Sie auf ![Ordnersymbol &#x200B;](assets/do-not-localize/folder-search.svg) , um die spezifische Kampagne auszuwählen, die Sie neu ansprechen möchten. Sie haben zwei Möglichkeiten:
+   1. Klicken Sie auf ![Ordnersymbol ](assets/do-not-localize/folder-search.svg) , um die spezifische Kampagne auszuwählen, die Sie neu ansprechen möchten. Sie haben zwei Möglichkeiten:
 
       * **[!UICONTROL Spezifische Kampagne auswählen]**: Wählen Sie eine bestimmte Kampagne aus Ihrer Liste aus, um Empfänger, die mit dieser Kampagne interagiert haben, erneut anzusprechen.
 
@@ -119,7 +119,7 @@ Die Tracking-basierte Retargeting-Regel richtet sich anhand der Daten aus dem E-
 
 Um Empfängerinnen und Empfänger auf der Grundlage von Interaktionen mit Nachrichten (z. B. Öffnen oder Klicken) erneut anzusprechen, verwenden Sie die Entität **[!UICONTROL E-Mail-Tracking]** wie folgt:
 
-1. Erstellen Sie eine neue **[!UICONTROL orchestrierte Kampagne]**.
+1. Erstellen Sie eine neue **[!UICONTROL Orchestrierte Kampagne]**.
 
 1. Fügen Sie eine Aktivität **[!UICONTROL Zielgruppe erstellen]** hinzu und legen Sie die Zielgruppendimension auf **[!UICONTROL Empfänger (caas)]** fest, um sich auf die vorherigen Empfängerinnen und Empfänger der orchestrierten Kampagne zu konzentrieren.
 
@@ -135,7 +135,7 @@ Um Empfängerinnen und Empfänger auf der Grundlage von Interaktionen mit Nachri
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. Klicken Sie auf ![Ordnersymbol &#x200B;](assets/do-not-localize/folder-search.svg) , um die spezifische Kampagne auszuwählen, die Sie neu ansprechen möchten. Sie haben zwei Möglichkeiten:
+   1. Klicken Sie auf ![Ordnersymbol ](assets/do-not-localize/folder-search.svg) , um die spezifische Kampagne auszuwählen, die Sie neu ansprechen möchten. Sie haben zwei Möglichkeiten:
 
       * **[!UICONTROL Spezifische Kampagne auswählen]**: Wählen Sie eine bestimmte Kampagne aus Ihrer Liste aus, um Empfänger, die mit dieser Kampagne interagiert haben, erneut anzusprechen.
 

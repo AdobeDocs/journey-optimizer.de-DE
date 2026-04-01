@@ -5,10 +5,10 @@ title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie Daten aus unterstützten Quellen wie SFTP, Cloud-Speicher oder Datenbanken in Adobe Experience Platform aufnehmen.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Adobe Experience Platform ermöglicht die Aufnahme von Daten aus externen Quellen und bietet spezielle Experience Platform-Services, mittels derer Sie eingehende Daten strukturieren, beschriften und erweitern können. Daten können aus verschiedensten Quellen aufgenommen werden, darunter etwa Adobe-Anwendungen, Cloud-basierte Datenspeicher und Datenbanken.
 
-Ein Datensatz ist ein Konstrukt zur Speicherung und Verwaltung einer Sammlung von Daten, in der Regel eine Tabelle, die ein Schema (Spalten) und Felder (Zeilen) enthält. Daten, die erfolgreich in Experience Platform aufgenommen wurden, werden im Data Lake als Datensätze gespeichert.
+Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. Daten, die erfolgreich in Experience Platform aufgenommen wurden, werden im Data Lake als Datensätze gespeichert.
 
 ## Unterstützte Quellen für orchestrierte Kampagnen {#supported}
 
@@ -111,7 +111,7 @@ Dieses Beispiel zeigt, wie sich ein Datenfluss konfigurieren lässt, der struktu
 
    >[!IMPORTANT]
    >
-   > **Nur dateibasierten Quellen**: Jede Zeile in der Datendatei muss eine Spalte `_change_request_type` mit den Werten `U` (upsert) oder `D` (delete) enthalten. Ohne diese Spalte erkennt das System nicht, dass die Daten die Änderungsverfolgung unterstützen, und der Umschalter für „orchestrierte Kampagne“ wird nicht angezeigt, sodass der Datensatz nicht für die Zielgruppenbestimmung ausgewählt werden kann.
+   > **Nur dateibasierten Quellen**: Jede Zeile in der Datendatei muss eine Spalte `_change_request_type` mit den Werten `U` (upsert) oder `D` (delete) enthalten. Ohne diese Spalte erkennt das System die Daten nicht als unterstützendes Änderungs-Tracking, und der Umschalter Orchestrierte Kampagne wird nicht angezeigt, was verhindert, dass der Datensatz für die Zielgruppenbestimmung ausgewählt wird.
 
    ![](assets/S3_config_6.png)
 

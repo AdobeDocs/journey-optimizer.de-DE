@@ -11,10 +11,10 @@ keywords: Journey, Kampagne, orchestriert, Vergleich, Auswählen, Entscheidung, 
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1613'
-ht-degree: 65%
+ht-degree: 62%
 
 ---
 
@@ -35,7 +35,7 @@ Dieses Handbuch hilft Ihnen bei der Auswahl anhand von Ausführungsstil, Datenan
 
 >[!TIP]
 >
->**Schnelle Faustregel:** muss sich jeder Kunde in seinem eigenen Tempo mit Echtzeit-Logik bewegen? Verwenden Sie **Journey**. Eine Nachricht nach einem Zeitplan an eine Zielgruppe senden? Verwenden Sie **Aktionskampagnen**. Wird von einem externen System über API ausgelöst? Verwenden Sie **API-ausgelöste Kampagnen**. Benötigen Sie Daten mit mehreren Entitäten, exakte Zählungen oder eine Batch-Arbeitsfläche? Verwenden **orchestrierten Kampagnen**.
+>**Schnelle Faustregel:** muss sich jeder Kunde in seinem eigenen Tempo mit Echtzeit-Logik bewegen? Verwenden Sie **Journey**. Eine Nachricht nach einem Zeitplan an eine Zielgruppe senden? Verwenden Sie **Aktionskampagnen**. Wird von einem externen System über API ausgelöst? Verwenden Sie **API-ausgelöste Kampagnen**. Benötigen Sie Daten mit mehreren Entitäten, exakte Zählungen oder eine Batch-Arbeitsfläche? Verwenden Sie **Orchestrierte Kampagnen**.
 
 ## Detaillierter Vergleich {#detailed-comparison}
 
@@ -71,7 +71,7 @@ Folgen Sie diesem Entscheidungsbaum, um den richtigen Ansatz zu wählen. Viele M
 * Echtzeitkontext ist entscheidend
 
 **Einfacher Nachrichtenversand an eine Zielgruppe zu einem geplanten Zeitpunkt?**
-→ **Verwenden von Aktionskampagnen**
+→ **Verwenden von**
 * Alle Profile erhalten die Nachricht gleichzeitig
 * Geplante oder wiederkehrende Sendungen
 * Keine komplexe mehrstufige Logik erforderlich
@@ -83,7 +83,7 @@ Folgen Sie diesem Entscheidungsbaum, um den richtigen Ansatz zu wählen. Viele M
 * Keine komplexe mehrstufige Logik erforderlich
 
 **Komplexer Batch-Workflow mit erweiterter Segmentierung?**
-→ **Orchestrierte Kampagnen verwenden**
+→ **Verwenden von orchestrierten Kampagnen**
 * Daten mit mehreren Entitäten (Produkte, Geschäfte, Buchungen) erforderlich
 * Exakte Zählung vor dem Versand erforderlich
 * Mehrstufige Batch-Verarbeitung mit Aufspaltungen und Anreicherung
@@ -141,12 +141,12 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 Jede Person bekommt dieselbe Botschaft zur selben Zeit.
 
 **Typen:**
-* **Aktionskampagnen**: Geplanter Versand an Zielgruppen (einmal oder wiederkehrend)
+* **Aktionskampagnen**: Geplanter Versand an Zielgruppen (einmalig oder wiederkehrend)
 * **API-ausgelöste Kampagnen**: Versand auf Anfrage, ausgelöst durch einen API-Aufruf mit Payload-Daten
 
 [Weitere Informationen zu Kampagnen](../campaigns/get-started-with-campaigns.md)
 
-### Orchestrierte Kampagnen: Batch-Arbeitsflächen-Workflows
+### Orchestrierte Kampagnen: Workflows für Batch-Arbeitsflächen
 
 **Alleinstellungsmerkmal:**
 * Batch-Arbeitsfläche mit Aktivitäten und Transitionen (ähnlich wie Journey-Arbeitsfläche, aber Batch-orientiert)
@@ -165,7 +165,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 Kombiniert die Komplexität eines Workflows mit der Batch-Kampagnenausführung.
 
-[Weitere Informationen über orchestrierte Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)
+[Weitere Informationen zu orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)
 
 ## Beispiele für Anwendungsfälle {#use-cases}
 
@@ -185,13 +185,13 @@ Kombiniert die Komplexität eines Workflows mit der Batch-Kampagnenausführung.
 * **Produkteinführungen:** Koordinierte Ankündigung an alle Kundinnen und Kunden
 * **Saisonale Grüße:** Feiertagsnachrichten zu bestimmten Terminen
 
-**Durch API ausgelöste Kampagnen:**
+**API-ausgelöste Kampagnen:**
 * **Bestellbestätigungen:** Ausgelöst durch E-Commerce-System nach dem Kauf
 * **Versandbenachrichtigungen:** Ausgelöst durch Logistiksystem
 * **Kontowarnungen:** Ausgelöst durch ein System zur Betrugserkennung
 * **Passwortzurücksetzung:** Ausgelöst durch Benutzeraktion in der Anwendung
 
-### Anwendungsfälle für orchestrierte Kampagnen
+### Anwendungsfälle für koordinierte Kampagnen
 
 * **Saisonale Promotion mit Katalogintegration:** Abfragen des Produktkatalogs, Identifizieren von berechtigten Kundinnen und Kunden, Segmentieren nach Präferenzen, Versand von personalisierten Produktempfehlungen
 * **Store-spezifische Kampagnen:** Targeting von Kundinnen und Kunden in der Nähe bestimmter Store-Standorte mit Store-Inventardaten
@@ -254,7 +254,7 @@ Nein, Sie müssen das Erlebnis im entsprechenden Format neu erstellen. Sie könn
 
 +++ Welcher Ansatz ist einfacher zu erstellen?
 
-Aktionskampagnen sind in der Regel am einfachsten (eine Nachricht an die Zielgruppe), gefolgt von durch API ausgelösten Kampagnen, Journeys (komplexer, mit Mehrstufenlogik) und orchestrierten Kampagnen (am komplexesten aufgrund des Arbeitsflächen-Workflows und der Funktionen für mehrere Entitäten).
+Aktionskampagnen sind in der Regel die einfachste (eine Nachricht an die Zielgruppe), gefolgt von API-ausgelösten Kampagnen, Journey (komplexer mit Mehrstufenlogik) und orchestrierten Kampagnen (am komplexesten aufgrund der Workflow-Funktionen der Arbeitsfläche und der Funktionen für mehrere Entitäten).
 
 +++
 
@@ -262,7 +262,7 @@ Aktionskampagnen sind in der Regel am einfachsten (eine Nachricht an die Zielgru
 
 Alle vier können gut skalieren. Die richtige Wahl hängt von Ihrem Muster ab:
 
-* **Audience-Journey lesen** und **Action-** sind für große Batch-Zielgruppen optimiert (eine Nachricht oder ein Fluss zu mehreren Profilen gleichzeitig).
+* **Audience-Journey lesen** und **Action-** sind für große Batch-Zielgruppen optimiert (eine Nachricht oder Fluss zu mehreren Profilen gleichzeitig).
 * **Orchestrierte Kampagnen** zeichnen sich durch eine komplexe Segmentierung mit großen Datensätzen und Daten mit mehreren Entitäten aus.
 * **Unitäre (ereignisbasierte) Journey** verarbeiten Profile einzeln, wenn Ereignisse auftreten. Die Skalierung hängt daher vom Ereignisvolumen und -durchsatz ab.
 
@@ -270,7 +270,7 @@ Alle vier können gut skalieren. Die richtige Wahl hängt von Ihrem Muster ab:
 
 +++ Kann ich dieselbe Zielgruppe für Journeys und Kampagnen verwenden?
 
-Ja. In [!DNL Adobe Experience Platform] erstellte Zielgruppen können in Journey-, Aktionskampagnen- und orchestrierten Kampagnen verwendet werden (wobei Zielgruppenlogik auch auf der Arbeitsfläche nach Bedarf erstellt werden kann). API-ausgelöste Kampagnen werden über die Payload gesteuert und verwenden vordefinierte Zielgruppen nicht auf die gleiche Weise.
+Ja. In [!DNL Adobe Experience Platform] erstellte Audiences können in Journey-, Aktions- und orchestrierten Kampagnen verwendet werden (wobei die Audience-Logik auch auf der Arbeitsfläche nach Bedarf erstellt werden kann). API-ausgelöste Kampagnen sind Payload-gesteuert und verwenden vordefinierte Zielgruppen nicht auf die gleiche Weise.
 
 +++
 
@@ -287,4 +287,4 @@ Bereit, mit dem Erstellen zu beginnen? Informieren Sie sich in der ausführliche
 >* [Vergleich der Journey-Typen](../building-journeys/journey.md#journey-types-comparison)
 >* [Vergleich der Kampagnentypen](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [Häufig gestellte Fragen zu Journeys](../building-journeys/journey-faq.md)
->* [Häufig gestellte Fragen zu Orchestrierten Kampagnen](../orchestrated/orchestrated-campaigns-faq.md)
+>* [Häufig gestellte Fragen zu orchestrierten Kampagnen](../orchestrated/orchestrated-campaigns-faq.md)

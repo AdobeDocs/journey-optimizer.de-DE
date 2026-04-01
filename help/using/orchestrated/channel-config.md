@@ -4,10 +4,11 @@ product: journey optimizer
 title: Konfigurieren der Kanalkonfiguration
 description: Informationen zum Konfigurieren der Kanalkonfiguration
 version: Campaign Orchestration
-source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
+exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 82%
+ht-degree: 78%
 
 ---
 
@@ -65,7 +66,7 @@ So konfigurieren Sie die Kanalkonfiguration:
 
 1. Klicken Sie nach der Konfiguration auf **[!UICONTROL Speichern]**.
 
-Ihr Kanal kann jetzt mit **orchestrierten Kampagnen** verwendet werden. Nachrichten werden dabei entsprechend der ausgewählten Zielgruppendimension versendet.
+Ihr Kanal kann jetzt mit &quot;**Kampagnen“ verwendet** und Nachrichten werden entsprechend der ausgewählten Zielgruppendimension zugestellt.
 
 ## URL-Tracking-Parameter {#url-tracking}
 
@@ -87,4 +88,4 @@ Beispiel:
 www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}
 ```
 
-Weitere Informationen zu URL-Tracking-Parametern finden [&#x200B; in diesem Abschnitt](../email/url-tracking.md).
+Weitere Informationen zu URL-Tracking-Parametern finden [ in diesem Abschnitt](../email/url-tracking.md).

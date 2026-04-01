@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3156'
 ht-degree: 95%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 95%
       + [Prüfen und Aktivieren einer Aktionskampagne](using/campaigns/review-activate-campaign.md)
    + Durch API ausgelöste Kampagnen {#api-triggered-campaigns}
       + [Durch API ausgelöste Kampagnen](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
-      + [Arbeiten mit durch API ausgelösten Kampagnen](using/campaigns/api-triggered-campaigns.md)
+      + [Arbeiten mit API-ausgelösten Kampagnen](using/campaigns/api-triggered-campaigns.md)
       + [Definieren der Kampagneneigenschaften](using/campaigns/api-triggered-campaign-properties.md)
       + [Konfigurieren der Kampagnenaktion](using/campaigns/api-triggered-campaign-action.md)
       + [Bearbeiten des Kampagneninhalts](using/campaigns/api-triggered-campaign-content.md)
@@ -162,7 +162,7 @@ ht-degree: 95%
       + [Planen der Kampagne](using/campaigns/api-triggered-campaign-schedule.md)
       + [Prüfen und Aktivieren der Kampagne](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Auslösen der Kampagnenausführung](using/campaigns/trigger-campaigns.md)
-      + [Aktivieren des Modus mit hohem Durchsatz für durch API ausgelöste Kampagnen](using/campaigns/api-triggered-high-throughput.md)
+      + [Aktivieren des Modus „Hoher Durchsatz“ für API-ausgelöste Kampagnen](using/campaigns/api-triggered-high-throughput.md)
    + Orchestrierte Kampagnen {#orchestrated-campaigns}
       + [Orchestrierte Kampagnen](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Erste Schritte mit orchestrierten Kampagnen](using/orchestrated/gs-orchestrated-campaigns.md)
