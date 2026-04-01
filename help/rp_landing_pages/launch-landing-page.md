@@ -20,7 +20,7 @@ Mit dem Start Ihrer ersten orchestrierten Kampagne in Adobe Journey Optimizer k�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Schrittweise Anleitung zum Erstellen einer orchestrierten Kampagne
 
@@ -30,7 +30,7 @@ Lernen Sie die wichtigsten Schritte zum Erstellen, Verwalten und Analysieren ein
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen und Planen einer orchestrierten Kampagne
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Kampagneneigenschaften und Ausführungspläne erstellen un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Orchestrieren von Kampagnenaktivitäten
 
@@ -50,7 +50,7 @@ Meistern Sie die visuelle Arbeitsfläche, um Aktivitäten für Ihre orchestriert
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Starten und Überwachen Ihrer Kampagnen
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Ihre orchestrierten Kampagnen für eine erfolgreiche Ausf�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Berichte für orchestrierte Kampagnen
 
