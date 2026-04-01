@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
-workflow-type: ht
-source-wordcount: '1569'
-ht-degree: 100%
+source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
+workflow-type: tm+mt
+source-wordcount: '1566'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Beispiele für personalisierte URLs:
 >
 >Leerzeichen werden in den Personalisierungs-Token, die in URLs verwendet werden, nicht unterstützt.
 
-Journey Optimizer unterstützt auch vollständige/Basis-URL-Personalisierung. Diese Funktion ist derzeit für bestimmte Kundinnen und Kunden eingeschränkt verfügbar. Beispiel:
+Journey Optimizer unterstützt auch die vollständige/Basis-URL-Personalisierung. Beispiel:
 
 ```
 <a href="{{profile.social.link}}" />
@@ -85,9 +85,9 @@ Journey Optimizer unterstützt auch vollständige/Basis-URL-Personalisierung. Di
 <a href="https://{{profile.social.baseUrl}}/profile" />
 ```
 
->[!WARNING]
+>[!NOTE]
 >
->Die Liste der zulässigen Domains muss Adobe im Voraus zur Verfügung gestellt werden.
+>Um die vollständige oder Basis-URL-Personalisierung zu aktivieren, wenden Sie sich an Adobe und geben Sie Ihre Liste der zulässigen Domains an.
 
 +++
 

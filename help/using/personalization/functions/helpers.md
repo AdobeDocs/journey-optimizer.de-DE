@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
+source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1025'
 ht-degree: 63%
 
 ---
@@ -337,3 +337,5 @@ Sie können den Helper je nach URL-Design und Längenbeschränkungen auf einen P
 * Die Entschlüsselung erfolgt außerhalb der [!DNL Journey Optimizer] auf den Landingpages, Apps oder APIs. Planen Sie den Lebenszyklus und die Rotation der Schlüssel mit Ihrem Sicherheits-Team, damit historische Payloads bei Bedarf weiterhin entschlüsselt werden können.
 
 * Die widerrufenen Schlüssel dürfen nicht für eine neue Verschlüsselung verwendet werden. Befolgen Sie Ihre Sicherheitsrichtlinien für Rotation und Stilllegung.
+
+* Da der Verschlüsselungsprozess ressourcenintensiv ist, kann die Verwendung der `Encrypt` den Durchsatz zum Zeitpunkt des Renderings beeinträchtigen.
