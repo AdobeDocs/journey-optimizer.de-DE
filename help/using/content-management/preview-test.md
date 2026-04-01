@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 95%
 
 ---
 
@@ -31,6 +31,10 @@ Darüber hinaus können Sie auch Testsendungen Ihrer E-Mail-Nachrichten an besti
 Alle diese Aktionen können mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** durchgeführt werden, auf die Sie über den Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder über die E-Mail- und Web-Designer für die E-Mail- bzw. Web-Kanäle zugreifen können.
 
 ![](../email/assets/email-preview-button.png)
+
+>[!IMPORTANT]
+>
+>Wenn Sie **[!UICONTROL Kanalaktivität „Inhalt simulieren]** aus einer **orchestrierten Kampagne** verwenden, finden Sie unter [Überprüfen und Testen Ihres Inhalts](../orchestrated/activities/channels.md#simulate-content-test-profiles) weitere Informationen und wichtige Hinweise.
 
 ## Testen mit Testprofil- oder Beispieleingabedaten {#methods}
 
@@ -68,4 +72,4 @@ Journey Optimizer bietet zwei Erlebnisse zum Testen von Inhalten:
 
 Erfahren Sie, wie Sie mit Testprofilen das E-Mail-Rendering über Postfächer hinweg testen, personalisierten E-Mails mit Testprofilen in der Vorschau anzeigen und einen Testversand durchführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430337?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

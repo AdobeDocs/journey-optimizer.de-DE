@@ -5,10 +5,10 @@ title: Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 description: Informationen über das Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 65%
+source-wordcount: '1682'
+ht-degree: 60%
 
 ---
 
@@ -104,7 +104,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Anwenden von Begrenzungsregeln**
 
-   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. [Erfahren Sie, wie Sie mit Regelsätzen &#x200B;](../../conflict-prioritization/rule-sets.md).
+   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. [Erfahren Sie, wie Sie mit Regelsätzen ](../../conflict-prioritization/rule-sets.md).
 
 1. **Erstellen eines Inhaltsexperiments**
 
@@ -167,11 +167,17 @@ Wenn Sie über eine orchestrierte Kampagne auf den Personalisierungseditor zugre
 
 Einen detaillierten Überblick über die Verwendung des Personalisierungseditors finden Sie unter [Erste Schritte mit der Personalisierung](../../personalization/personalize.md).
 
-### Überprüfen und Testen der Inhalte
+### Überprüfen und Testen der Inhalte {#simulate-content-test-profiles}
 
 Sobald der Inhalt erstellt ist, verwenden Sie die Schaltfläche **[!UICONTROL Inhalte simulieren]**, um eine Vorschau anzuzeigen und den Inhalt mit Testprofilen oder Beispieleingabedaten zu testen, die aus einer CSV- oder JSON-Datei hochgeladen oder manuell hinzugefügt wurden. [Weitere Informationen](../../content-management/preview-test.md)
 
 ![Bild, das die Schaltfläche „Inhalte simulieren“ zeigt](../assets/channel-simulate.png)
+
+Bei der Simulation von Inhalten mit **Testprofilen** in einer orchestrierten Kampagne gelten zwei wichtige Einschränkungen:
+
+* **Die Ausführung muss die Kanalaktivität im Test erreicht haben** - Führen Sie die Kampagne im Test mit der Schaltfläche **[!UICONTROL Starten]** aus, damit der Workflow die Kanalaktivität erreicht, die Sie simulieren möchten. Im Testmodus wird der Workflow bei der Kanalaktivität angehalten, sodass eine Kanalaktivität, die auf eine andere Kanalaktivität folgt, nie erreicht wird. Sie können **[!UICONTROL Inhalt simulieren]** für diese nachgelagerten Kanalaktivitäten nicht verwenden. Siehe [Testen der Kampagne vor der Veröffentlichung](../start-monitor-campaigns.md#test).
+
+* **Das Testprofil muss mit dem Kanalaktivitätsziel übereinstimmen** - Verwenden Sie ein Testprofil, das zu der Audience gehört, die von dieser Kanalaktivität angesprochen wird. Wenn sich das Profil nicht in dieser Zielgruppe befindet, wird durch Auswahl keine Vorschau Ihres Inhalts gerendert. Siehe [Testprofile auswählen](../../content-management/test-profiles.md).
 
 ## Nachrichtenversand bestätigen
 
@@ -191,7 +197,7 @@ Diese Funktion ist besonders nützlich, um eine Überlastung nachgelagerter Syst
 
 Gehen Sie wie folgt vor, um die Ratensteuerung festzulegen:
 
-1. Wählen Sie eine Aktivität für einen ausgehenden Kanal auf der Arbeitsfläche aus und klicken Sie je nach **[!UICONTROL Kanal auf E-Mail]**&#x200B;**[!UICONTROL SMS bearbeiten]** oder **[!UICONTROL Push bearbeiten]**.
+1. Wählen Sie eine Aktivität für einen ausgehenden Kanal auf der Arbeitsfläche aus und klicken Sie je nach **[!UICONTROL Kanal auf E-Mail]****[!UICONTROL SMS bearbeiten]** oder **[!UICONTROL Push bearbeiten]**.
 
    ![Bild, das die Arbeitsfläche mit einer E-Mail -Aktivität zeigt](../assets/channel-edit.png)
 
