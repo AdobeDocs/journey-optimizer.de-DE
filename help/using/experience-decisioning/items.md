@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
+source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 90%
+source-wordcount: '2159'
+ht-degree: 88%
 
 ---
 
@@ -48,23 +48,11 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 
 1. Das Feld **Tags** ermöglicht es Ihnen, Ihren Entscheidungselementen einheitliche Adobe Experience Platform-Tags zuzuweisen. Dies erleichtert die Klassifizierung und die Suche. [Weitere Informationen zum Arbeiten mit Tags](../start/search-filter-categorize.md#tags)
 
-1. Verwenden Sie Fragmente, um dem Entscheidungselement mehrere Inhalte hinzuzufügen – beispielsweise, wenn Sie für verschiedene Modelle von Mobilgeräten unterschiedliche Inhalte anzeigen möchten. [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
+1. Verwenden Sie [Fragmente](../content-management/fragments.md), um dem Entscheidungselement mehrere Inhalte hinzuzufügen - beispielsweise, wenn Sie unterschiedliche Inhalte für mehrere Mobilgerätemodelle anzeigen möchten. Sie können diese Fragmente dann in Ihren Entscheidungsrichtlinien nutzen. [Weitere Informationen](fragments-decision-policies.md)
 
    >[!AVAILABILITY]
    >
-   >Diese Funktion ist derzeit nur für den Code-basierten Erlebniskanal verfügbar.
-
-   Wählen Sie im Abschnitt **[!UICONTROL Fragmente]** die veröffentlichten Fragmente aus, die Sie verwenden möchten, und weisen Sie ihnen einen Referenzschlüssel zu. Sie können diese Fragmente dann in Ihren Entscheidungsrichtlinien nutzen. [Weitere Informationen](fragments-decision-policies.md)
-
-   ![](assets/item-fragments.png){width=70%}
-
-   Sie können nur veröffentlichte Fragmente auswählen und bis zu sechs Fragmente zu einem Entscheidungselement hinzufügen.
-
-   >[!WARNING]
-   >
-   >Derzeit werden nur [Ausdrucksfragmente](../personalization/use-expression-fragments.md) unterstützt.
-   >
-   >Verschachtelte Fragmente (d. h. Fragmente, die auf andere Fragmente verweisen) können nicht verwendet werden. Die [Genehmigung](#approve) des Entscheidungselements schlägt fehl, wenn Sie ein solches Fragment hinzufügen.
+   >Diese Funktion ist in begrenzter Verfügbarkeit für die Kanäle **Code-basiertes Erlebnis** und **E-Mail** verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern.
 
 1. Geben Sie benutzerdefinierte Attribute an (optional). Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente definiert. [Erfahren Sie, wie Sie mit Vorlagen arbeiten](catalogs.md)
 
@@ -78,8 +66,8 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 >abstract="Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
