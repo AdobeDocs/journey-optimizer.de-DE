@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um Ihrer Abfrage Bedingungen hinzuzufügen:
 
    Um Ihre Bedingung schneller zu erstellen, wählen Sie einen Wert aus und klicken Sie auf **[!UICONTROL Attribut und Wert auswählen]**, um das Attribut und den Wert in der aktuellen Bedingung zu füllen.
 
-   Sie können einen Wert auch mithilfe des Symbols ![Bild mit dem Ausdruckseditorsymbol) in ](assets/do-not-localize/activity-copy.svg) Zwischenablage kopieren, um ihn beispielsweise in den Ausdruckseditor einzufügen.
+   Sie können einen Wert auch mithilfe des Symbols ![Bild mit dem Ausdruckseditorsymbol) in &#x200B;](assets/do-not-localize/activity-copy.svg) Zwischenablage kopieren, um ihn beispielsweise in den Ausdruckseditor einzufügen.
 
    ![Bild, das die Oberfläche der Werteverteilung zeigt](assets/rule-builder-distribution-values.png)
 
