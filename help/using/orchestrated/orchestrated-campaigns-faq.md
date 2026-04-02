@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zu orchestrierten Kampagnen
 description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Kampagnen
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
-source-wordcount: '1958'
-ht-degree: 87%
+source-wordcount: '1969'
+ht-degree: 86%
 
 ---
 
@@ -143,7 +143,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ Wie kann ich eine signalgesteuerte orchestrierte Kampagne vor der Veröffentlichung testen?
 
-Während sich die Kampagne in **Entwurf** befindet, können Sie sie testen, indem Sie **Parameter** im Zeitplan definieren und **Testwerte** für jede Kampagne angeben. Starten Sie den Workflow und rufen Sie dann die Trigger-API auf - mithilfe der Beispielanfrage aus der Zeitplankonfiguration oder Ihrer eigenen Anfrage mit demselben Endpunkt -, um die Kampagne mit diesen Testwerten auszuführen. [Erfahren Sie, wie Sie eine signalgesteuerte Kampagne abschließen und testen](trigger-orchestrated-campaign.md#complete-and-test).
+Während sich die Kampagne in **Entwurf** befindet, können Sie sie testen, indem Sie **Parameter** im Zeitplan definieren und **Testwerte** für jede Kampagne angeben. Starten Sie den Workflow und rufen Sie dann die Trigger-API auf - mithilfe der Beispielanfrage aus der Zeitplankonfiguration oder Ihrer eigenen Anfrage mit demselben Endpunkt -, um die Kampagne mit diesen Testwerten auszuführen. [Erfahren Sie, wie Sie eine signalgesteuerte Kampagne abschließen und testen](trigger-orchestrated-campaign.md#build-and-test). Die Trigger-API-Referenz finden Sie unter [Trigger Orchestered Campaign API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}.
 
 +++
 
