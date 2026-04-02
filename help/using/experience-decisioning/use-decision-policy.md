@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 72a3b8696c28b2f0af1f0080b9550999f8b9ee96
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '780'
 ht-degree: 12%
 
 ---
@@ -59,7 +59,7 @@ Nachdem Sie Ihrem Inhalt eine Entscheidungsrichtlinie hinzugefügt haben, könne
 
    >[!NOTE]
    >
-   >Wenn Sie mehrere Entscheidungsrichtlinien in derselben E-Mail verwenden (z. B. eine für die Kopfzeile und eine für die Fußzeile), wird dasselbe Angebot für alle Platzierungen dedupliziert: Jeder Bereich erhält ein anderes Angebot. Um dasselbe Angebot in mehreren Bereichen anzuzeigen, verwenden Sie **[!UICONTROL Entscheidungsausgabe wiederverwenden]** wenn Sie eine Entscheidungsrichtlinie hinzufügen. [Erfahren Sie, wie Sie Entscheidungsrichtlinien erstellen](create-decision-policy.md).
+   >Wenn Sie mehrere Entscheidungsrichtlinien in derselben E-Mail verwenden (z. B. eine für die Kopfzeile und eine für die Fußzeile), wird dasselbe Angebot für alle Platzierungen dedupliziert: es wird nicht zweimal gerendert. Die zweite Entscheidungsrichtlinie gibt keinen Inhalt zurück und zeigt eine Leerstelle an, es sei denn, Sie haben ein Fallback-Angebot konfiguriert. In diesem Fall wird stattdessen das Fallback angezeigt.
 
 >[!TAB SMS]
 
@@ -87,13 +87,13 @@ Der Entscheidungsrichtlinien-Code wird hinzugefügt. Sie können jetzt Attribute
 
 >[!NOTE]
 >
->Wiederholen Sie diese Sequenz für Code-basierte Erlebnis- und E-Mail-Kanäle einmal pro Entscheidungselement, das Sie zurückgeben möchten. Wenn Sie beispielsweise beim Erstellen der Entscheidung zwei Elemente zurückgeben [, wiederholen &#x200B;](create-decision-policy.md) die Sequenz zweimal. Bei SMS- und Push-Kanälen kann nur ein Entscheidungselement zurückgegeben werden.
+>Wiederholen Sie diese Sequenz für Code-basierte Erlebnis- und E-Mail-Kanäle einmal pro Entscheidungselement, das Sie zurückgeben möchten. Wenn Sie beispielsweise beim Erstellen der Entscheidung zwei Elemente zurückgeben [, wiederholen ](create-decision-policy.md) die Sequenz zweimal. Bei SMS- und Push-Kanälen kann nur ein Entscheidungselement zurückgegeben werden.
 
 ## Mit Entscheidungselementattributen personalisieren {#attributes}
 
-Nachdem Sie den Code für eine Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, werden alle Attribute aus den zurückgegebenen Entscheidungselementen für die Personalisierung verfügbar. [Erfahren Sie, wie Sie mit Personalisierung &#x200B;](../personalization/personalize.md).
+Nachdem Sie den Code für eine Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, werden alle Attribute aus den zurückgegebenen Entscheidungselementen für die Personalisierung verfügbar. [Erfahren Sie, wie Sie mit Personalisierung ](../personalization/personalize.md).
 
-Attribute werden im „Angebote“ ([) &#x200B;](catalogs.md). Sie werden im Personalisierungseditor in den folgenden Ordnern angezeigt:
+Attribute werden im „Angebote“ ([) ](catalogs.md). Sie werden im Personalisierungseditor in den folgenden Ordnern angezeigt:
 * **Benutzerdefinierte Attribute**: `_\<imsOrg\>` Ordner
 * **Standardattribute**: `_experience` Ordner
 
