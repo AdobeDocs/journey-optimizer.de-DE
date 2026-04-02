@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
+source-git-commit: e179f5a503b93cbc01c812d8bcecaeb808560394
 workflow-type: tm+mt
-source-wordcount: '3223'
-ht-degree: 84%
+source-wordcount: '3257'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Journey-Eigenschaften"
->abstract="In diesem Abschnitt werden die Journey-Eigenschaften angezeigt. Standardmäßig sind schreibgeschützte Parameter ausgeblendet. Die verfügbaren Einstellungen hängen vom Status der Journey, von Ihren Berechtigungen und der Produktkonfiguration ab."
+>abstract="Konfigurieren Sie globale Einstellungen für diese Journey, einschließlich Name, Tags, Eintrittsregeln, Zeitzone, Datumsangaben, Zeitüberschreitung und Konfliktmanagement. Schreibgeschützte Parameter sind standardmäßig ausgeblendet. Die verfügbaren Optionen variieren je nach Journey-Status, Berechtigungen und Produktkonfiguration."
 
 ## Zugreifen auf die Eigenschaften einer Journey {#access-properties}
 
@@ -160,7 +160,7 @@ Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey **91 
 
 >[!NOTE]
 >
->Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte &#x200B;](end-journey.md#journey-finished-definition).
+>Die genaue Definition, wann eine Journey als „beendet“ gilt, variiert je nach Journey-Typ. [Siehe detaillierte ](end-journey.md#journey-finished-definition).
 
 Aufgrund des Journey-Timeouts von 91 Tagen können wir, wenn der erneute Eintritt in die Journey nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 91 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die in die Journey eingetreten sind, 91 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 91 Tagen bereits Eintritt hatte.
 
@@ -292,13 +292,18 @@ Ab [!DNL Adobe Journey Optimizer] Version Juni 2024 wurde die globale Zeitübers
   </tr>
 </table>
 
-## Zusammenführungsrichtlinien {#merge-policies}
+## Zusammenführungsrichtlinie {#merge-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_merge_policy"
+>title="Zusammenführungsrichtlinie"
+>abstract="Die Zusammenführungsrichtlinie wird automatisch basierend auf Ihrem ausgewählten Ereignis oder Ihrer ausgewählten Zielgruppe abgerufen. Diese Zusammenführungsrichtlinie wird in bis zum gesamten Journey verwendet."
 
 [!DNL Adobe Journey Optimizer] verwendet Zusammenführungsrichtlinien beim Abrufen von Profildaten aus [!DNL Adobe Experience Platform]. Je nach Journey-Typ werden unterschiedliche Zusammenführungsrichtlinien verwendet:
 
-* In Journeys vom Typ „Zielgruppe lesen“ oder „Zielgruppenqualifizierung“ wird die Zusammenführungsrichtlinie aus der Zielgruppe verwendet
-* In Journeys für unitäre Ereignisse wird die standardmäßige Zusammenführungsrichtlinie verwendet
-* In Journeys für Geschäftsereignisse wird die Zusammenführungsrichtlinie aus der Zielgruppe in der Aktivität „Zielgruppe lesen“ verwendet.
+* In **[Zielgruppe lesen](read-audience.md)** oder **[Zielgruppen-Qualifizierung](audience-qualification-events.md)** Journey wird die Zusammenführungsrichtlinie der Zielgruppe verwendet
+* In **[Unitäres](../event/about-events.md)**: Journey wird die standardmäßige Zusammenführungsrichtlinie verwendet
+* In **[Geschäftsereignis](../event/about-creating-business.md)** Journeys: Die Zusammenführungsrichtlinie der Zielgruppe wird in der folgenden Aktivität vom Typ Zielgruppe lesen verwendet
 
 [!DNL Adobe Journey Optimizer] wendet die im gesamten Journey verwendete Zusammenführungsrichtlinie an. Wenn also mehrere Zielgruppen in einer Journey verwendet werden (z. B. [`inAudience`-Funktionen](functions/functioninaudience.md)), entstehen Inkonsistenzen mit der von der Journey verwendeten Zusammenführungsrichtlinie, es wird ein Fehler generiert und die Veröffentlichung blockiert. Wenn jedoch bei der Nachrichtenpersonalisierung eine inkonsistente Zielgruppe verwendet wird, wird trotz der Inkonsistenz kein Warnhinweis generiert. Aus diesem Grund wird dringend empfohlen, die mit Ihrer Zielgruppe verknüpfte Zusammenführungsrichtlinie zu überprüfen, wenn diese Zielgruppe bei der Nachrichtenpersonalisierung verwendet wird.
 
