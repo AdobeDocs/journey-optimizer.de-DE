@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: f4c4cf0f9b4f197123bfcf9f1986d304695c17be
+source-git-commit: 29c591590415add30780cf5ea80964141a8fd236
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 66%
+source-wordcount: '1702'
+ht-degree: 62%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
->title="Zielgruppen-Qualifizierungsereignisse"
->abstract="Diese Aktivität überwacht die Eintritte und Ausstiege von Profilen in [!DNL Adobe Experience Platform]-Zielgruppen, um Personen durch eine Journey zu führen."
+>title="Zielgruppen-Qualifizierung"
+>abstract="Trigger Journey Einstieg oder Fortsetzung, wenn ein Profil sich für eine [!DNL Adobe Experience Platform] Zielgruppe qualifiziert oder diese verlässt. Empfohlen für Streaming-Zielgruppen; Verwenden der Aktivität „Zielgruppe lesen“ für Batch-Szenarien."
 
 ## Informationen zu Zielgruppen-Qualifizierungsereignissen{#about-segment-qualification}
 
@@ -43,6 +43,33 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 ## Konfigurieren der Aktivität {#configure-segment-qualification}
 
 Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizierung]** zu konfigurieren:
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_label"
+>title="Label"
+>abstract="Fügen Sie eine optionale Bezeichnung hinzu, um diese Aktivität in Reporting- und Testmodusprotokollen zu identifizieren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_audience"
+>title="Zielgruppe"
+>abstract="Wählen Sie die [!DNL Adobe Experience Platform] Zielgruppe aus, die genutzt werden soll. Die Journey überwacht Profileintritte und -austritte aus dieser Zielgruppe."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_behavior"
+>title="Verhalten"
+>abstract="Wählen Sie aus, ob Zielgruppeneintritte, -austritte oder beides überwacht werden sollen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_identity"
+>title="Identitätstyp"
+>abstract="Wählen Sie den Identitätstyp aus, der zum Identifizieren von Personen verwendet wird. Es sind nur personenbasierte Identity-Namespaces verfügbar."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_merge_policy"
+>title="Zusammenführungsrichtlinie"
+>abstract="Die Zusammenführungsrichtlinie wird automatisch von der ausgewählten Zielgruppe abgerufen und auf der gesamten Journey angewendet."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Weitere Informationen zu Zusammenführungsrichtlinien"
+
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Zielgruppen-Qualifizierung]** in Ihrer Arbeitsfläche ab.
 
@@ -196,4 +223,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
