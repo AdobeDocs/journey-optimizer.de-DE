@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
 workflow-type: tm+mt
-source-wordcount: '3156'
+source-wordcount: '3159'
 ht-degree: 95%
 
 ---
@@ -240,6 +240,7 @@ ht-degree: 95%
       + [Simulieren von Inhaltsvarianten](using/test-approve/simulate-sample-input.md)
       + [Automatische Generierung von Inhaltsvarianten](using/test-approve/simulate-sample-input-generated.md)
       + [E-Mail-Spam-Bericht](using/content-management/spam-report.md)
+      + [LLM Email Optimizer](using/content-management/llm-email-optimizer.md)
    + Genehmigen von Journeys und Kampagnen {#approve}
       + [Genehmigen von Journeys und Kampagnen](/help/rp_landing_pages/approve-landing-page.md)
       + [Erste Schritte mit Genehmigungen](using/test-approve/gs-approval.md)

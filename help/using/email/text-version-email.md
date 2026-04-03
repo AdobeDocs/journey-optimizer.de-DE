@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Text, E-Mail, Version, Nur-Text, Editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 7a3ff59bab5f0d4d8f61fa05a20f4922b83ca7f8
+source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1232'
 ht-degree: 11%
 
 ---
@@ -47,6 +47,18 @@ Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führe
 > * Wenn die Synchronisierung deaktiviert ist, werden Änderungen, **[!UICONTROL in der Ansicht]** Nur Text“ vorgenommen wurden, nicht in der HTML-Ansicht angezeigt.
 >
 > * Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
+
+## Textversion für KI-Posteingänge optimieren {#optimize-plain-text-ai}
+
+Mithilfe der Schaltfläche „Für KI-Posteingang optimieren“ können Sie KI-gestützte Posteingangsfunktionen (z. B. Zusammenfassungen in [!DNL Gmail], [!DNL Outlook] oder [!DNL Apple Mail]) bei der Erstellung Ihrer wichtigen Angebote **[!UICONTROL Details]**. Diese Aktion erzeugt eine verbesserte Nur-Text-Version, die sich auf Informationen konzentriert, die Assistenten wahrscheinlich aus dem Textteil der Nachricht lesen.
+
+![Schaltfläche „Für KI-Posteingang optimieren“ in der Textansicht](../content-management/assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+
+>[!IMPORTANT]
+>
+>Bei Verwendung dieser Funktion wird die Option **[!UICONTROL Mit HTML synchronisieren]** automatisch deaktiviert.
+
+Eine vollständige Anleitung und empfohlene Szenarien finden Sie unter [Optimieren von E-Mail-Text für KI-Posteingänge](../content-management/llm-email-optimizer.md).
 
 ## Verwendung benutzerdefinierter Nur-Text-Versionen {#when-to-use}
 
