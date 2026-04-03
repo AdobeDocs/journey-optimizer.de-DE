@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
 workflow-type: tm+mt
-source-wordcount: '3159'
+source-wordcount: '3173'
 ht-degree: 95%
 
 ---
@@ -490,7 +490,10 @@ ht-degree: 95%
       + [Arbeiten mit Adobe Stock](using/integrations/stock.md)
       + [Arbeiten mit Adobe Express](using/integrations/express.md)
       + [Arbeiten mit Experience Manager-Vorlagen](using/integrations/aem-templates.md)
-      + [Arbeiten mit Experience Manager-Inhaltsfragmenten](using/integrations/aem-fragments.md)
+      + Experience Manager-Inhaltsfragmente {#aem}
+         + [Erste Schritte mit Experience Manager-Inhaltsfragmenten](using/integrations/aem-fragments-gs.md)
+         + [Arbeiten mit Experience Manager-Inhaltsfragmenten](using/integrations/aem-fragments.md)
+         + [Überlegungen und Fehlerbehebung](using/integrations/aem-fragments-limitations.md)
       + [Arbeiten mit Experience Manager Content Advisor](using/content-management/aem-content-advisor.md)
       + [Countdown-Timer einfügen](using/integrations/countdown.md)
       + [Arbeiten mit Dynamic Media](using/integrations/aem-dynamic.md)
