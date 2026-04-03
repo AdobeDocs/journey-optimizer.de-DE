@@ -41,7 +41,7 @@ Beachten Sie Folgendes bei der Verwendung von Inhaltsfragmenten aus [!DNL Adobe 
 * **Aktualisierungen und Versionierung**
    * Für Aktualisierungen ist eine manuelle Neuveröffentlichung durch [!DNL Adobe Experience Manager] erforderlich. Es gibt keine automatische Versionsabstimmung.
    * Wenn ein Inhaltsfragment in [!DNL Adobe Experience Manager] veröffentlicht oder erneut veröffentlicht wird, aktualisiert [!DNL Journey Optimizer] dieses Fragment und aktualisiert **alle Varianten dieses Fragments, auf die verwiesen wird** in aktiven Kampagnen oder Journey.
-   * Die [!DNL Adobe Experience Manager] [Veröffentlichungsaktion](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) kann verzögert werden. Nach Abschluss des Vorgangs erhält [!DNL Journey Optimizer] ein Ereignis und aktualisiert den Inhalt.
+   * Die [!DNL Adobe Experience Manager] [Veröffentlichungsaktion](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) kann verzögert werden. Nach Abschluss des Vorgangs erhält [!DNL Journey Optimizer] ein Ereignis und aktualisiert den Inhalt.
    * Nach einer erfolgreichen Aktualisierung sind Änderungen normalerweise innerhalb von etwa **5 Minuten** für unitäre Journey und im **nächsten Batch** für Batch-Anwendungsfälle verfügbar.
 
 * **Caching und Proofing**
