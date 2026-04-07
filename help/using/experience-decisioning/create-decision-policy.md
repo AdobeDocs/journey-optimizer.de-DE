@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 65%
+source-wordcount: '2225'
+ht-degree: 64%
 
 ---
 
@@ -39,13 +39,11 @@ Um Ihren Kundinnen und Kunden das beste dynamische Angebot und Erlebnis zu biete
 1. [Einrichten einer Strategiesequenz](#strategy): Wählen Sie die Elemente aus, die mit der Entscheidungsrichtlinie zurückgegeben werden sollen.
 1. [Auswählen von Fallback-Angeboten](#fallback) (optional): Wählen Sie Elemente aus, die angezeigt werden sollen, wenn keine Elemente oder Auswahlstrategien qualifiziert sind.
 1. [Überprüfen und Speichern](#review) der Auswahlstrategie
-1. [Platzierung zuweisen](#placement) (E-Mail-Kanal)
+1. [Platzierung zuweisen](#placement) (nur E-Mail-Kanal)
 
 >[!AVAILABILITY]
 >
->Entscheidungsrichtlinien stehen allen Kunden für die Kanäle **Code-basiertes Erlebnis**, **Push-Benachrichtigung** und SMS zur Verfügung.
->
->Die Entscheidungsfindung für den E-Mail-Kanal ist in begrenzter Verfügbarkeit verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
+>Entscheidungsrichtlinien sind für die Kanäle **Code-basiertes Erlebnis**, **Push-Benachrichtigung**, **SMS** und **E** verfügbar.
 
 ## Hinzufügen einer Entscheidungsrichtlinie {#add}
 
@@ -116,6 +114,16 @@ Bei Code-basierten Erlebnissen können Sie eine neue Entscheidungsrichtlinie ent
    >Mit **[!UICONTROL Option]** Entscheidungsausgabe wiederverwenden“ können Sie eine Entscheidungsrichtlinie wiederverwenden, die bereits in dieser E-Mail erstellt wurde. Dies ist besonders hilfreich, wenn Sie dasselbe Angebot an mehreren Stellen anzeigen möchten (z. B. Kopf- und Fußzeile).
    >
    >Wenn dasselbe Angebot durch mehr als eine Entscheidungsrichtlinie im E-Mail-Text ausgewählt werden kann, dedupliziert das Modul Angebote: Jede Platzierung erhält ein anderes Angebot, sodass dasselbe Angebot nicht an beiden Stellen angezeigt wird. Um dasselbe Angebot in mehreren Platzierungen anzuzeigen, verwenden Sie **[!UICONTROL Entscheidungsausgabe wiederverwenden]**, um die Ausgabe einer vorhandenen Entscheidungsrichtlinie in dieser E-Mail wiederzuverwenden.
+
+   +++
+
+Sie können Entscheidungsrichtlinien auch hinzufügen, wenn Sie den Modus **[!UICONTROL Eigenen Code erstellen]** in der E-Mail-Designer verwenden. Navigieren Sie dazu zu **[!UICONTROL Entscheidungsrichtlinien]**, um den Entscheidungsrichtlinien-Code einzufügen. [Erfahren Sie, wie Sie Ihren eigenen E-Mail-Inhalt codieren](../email/code-content.md).
+
+![](assets/decision-policy-add-code-your-own.png)
+
+>[!NOTE]
+>
+>Im Modus **[!UICONTROL Eigenen Code erstellen]** können Sie pro Richtlinie nur ein Entscheidungselement zurückgeben, da die Komponente **[!UICONTROL Raster wiederholen]** nicht verfügbar ist.
 
 >[!TAB SMS]
 

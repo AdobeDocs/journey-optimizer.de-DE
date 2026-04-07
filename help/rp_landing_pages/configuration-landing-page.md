@@ -5,9 +5,9 @@ title: Kanalkonfiguration
 description: Kanalkonfiguration
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '293'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Die Kanalkonfiguration in Adobe Journey Optimizer ermöglicht es Ihnen, zu verwa
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit der Kanalkonfiguration
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer Kanäle konfigurieren, einschli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Einrichten und Verwalten von Kanalkonfigurationen
 
@@ -40,7 +40,7 @@ Befolgen Sie eine detaillierte Anleitung zum Erstellen, Bearbeiten, Deaktivieren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Anleitung zur Kanaleinrichtung
 
@@ -50,7 +50,7 @@ Konfigurieren Sie Mobile- und Web-Kanäle effizient mit schrittweisen Anleitunge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Delegieren und Verwalten von E-Mail-Subdomains
 
@@ -59,18 +59,18 @@ Erfahren Sie, wie Sie E-Mail-Subdomains delegieren und konfigurieren, um die Zus
 [E-Mail-Subdomains delegieren](delegate-subdomains-landing-page.md)
 :::
 
+<!--:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+Implement an IP Warmup Plan
+
+Create and execute IP warmup plans to establish sender reputation and enhance email deliverability.
+
+[Learn about IP warmup plans](implement-ip-warmup-plan-landing-page.md)
+:::-->
+
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
-
-Implementieren eines IP-Aufwärmplans
-
-Erstellen und führen Sie IP-Aufwärmpläne aus, um die Reputation des Absenders aufzubauen und die Zustellbarkeit von E-Mails zu verbessern.
-
-[Informationen zu IP-Aufwärmplänen](implement-ip-warmup-plan-landing-page.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Überwachen der Zustellbarkeit und Reputation von E-Mails
 
