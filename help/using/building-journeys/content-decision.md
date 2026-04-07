@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsrichtlinie, Arbeitsfläche, Journey
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 82%
+source-wordcount: '1257'
+ht-degree: 74%
 
 ---
 
@@ -29,7 +29,7 @@ Um diese Funktion zu nutzen, erstellen Sie eine Journey, in der Sie eine [Aktivi
 
 Sie können dann die Ausgabe der Aktivität „Inhaltsentscheidung“ in folgenden Bereichen verwenden:
 
-* in einer [Aktivität vom Typ „Bedingung“](#add-condition-activity), um Profile basierend auf den abgerufenen Angeboten in bestimmte Pfade zu verschieben;
+* eine [Aktivität mit einer Bedingung optimieren](#add-condition-activity), um Profile basierend auf den abgerufenen Angeboten in bestimmte Pfade zu verschieben;
 
 * in einer [benutzerdefinierte Aktion](#add-custom-action), mit der Sie diese Angebote an externe Systeme senden können.
 
@@ -81,15 +81,15 @@ Sie können jetzt die Ausgabe dieser Aktivität vom Typ „Inhaltsentscheidung�
 
 ## Verwenden der Ausgabe der Aktivität „Inhaltsentscheidung“ {#use-content-decision-output}
 
-Die Ausgabe einer Inhaltsentscheidung kann in mehreren Journey-Aktivitäten verwendet werden. Sie können beispielsweise eine [Aktivität des Typs „Bedingung“](#add-condition-activity) verwenden, um Profile basierend auf der Anzahl der für sie abgerufenen Angebote in bestimmte Verzweigungen Ihrer Journey zu verschieben.
+Die Ausgabe einer Inhaltsentscheidung kann in mehreren Journey-Aktivitäten verwendet werden. Sie können beispielsweise eine Aktivität [Optimieren mit einer Bedingung](#add-condition-activity) verwenden, um Profile je nach der Anzahl der für sie abgerufenen Angebote in bestimmte Verzweigungen Ihres Journey zu verschieben.
 
 Sie können Ihrer Journey auch eine [benutzerdefinierte Aktion](#add-custom-action) hinzufügen, um die Angebote aus der Aktivität „Inhaltsentscheidung“ für ein externes System freizugeben.
 
-### In einer Aktivität des Typs „Bedingung“ {#add-condition-activity}
+### In einer Aktivität „Optimieren“ (Bedingungsmethode) {#add-condition-activity}
 
-Um die Ausgabe einer Aktivität vom Typ „Inhaltsentscheidung“ zu nutzen, können Sie eine Bedingung zu Ihrer Journey hinzufügen, in der Sie Ausdrücke definieren, um Profile mithilfe von Daten aus diesen Angeboten in bestimmte Pfade zu verschieben. Gehen Sie wie folgt vor.
+Um die Ausgabe einer Inhaltsentscheidungsaktivität zu nutzen, fügen Sie eine **[!UICONTROL Optimieren]**-Aktivität hinzu, wählen Sie die **[!UICONTROL Bedingung]**-Methode aus und definieren Sie Ausdrücke, um Profile mithilfe von Daten aus diesen Angeboten in bestimmte Pfade zu verschieben. Gehen Sie wie folgt vor. Weitere Bedingungstypen und Optionen finden Sie unter [Bedingungen](conditions.md).
 
-1. Ziehen Sie aus der Kategorie **[!UICONTROL Orchestrierung]** eine Aktivität vom Typ **[!UICONTROL Bedingung]** auf Ihre Arbeitsfläche. [Weitere Informationen](condition-activity.md#add-condition-activity)
+1. Ziehen Sie aus der Kategorie **[!UICONTROL Orchestrierung]** eine Aktivität **[!UICONTROL Optimieren]** auf Ihre Arbeitsfläche. [Weitere Informationen](optimize.md)
 
 1. (Optional) Benennen Sie **[!UICONTROL Pfad1]**, der dem ersten von Ihnen definierten Ausdruck entspricht, in ein relevanteres Label um.
 
@@ -109,7 +109,7 @@ Um die Ausgabe einer Aktivität vom Typ „Inhaltsentscheidung“ zu nutzen, kö
 
    >[!NOTE]
    >
-   >Jede für ein Attribut definierte eingeschränkte Beschriftung kann zu einer Richtlinienverletzung bei DULE oder Einverständnis führen. Dies gilt für das Journey von Erlebnisereignissen, die in einer Entscheidungsregel verwendet werden, und für das [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema). Weitere Informationen zu Data-Governance-Richtlinien finden [&#x200B; in diesem Abschnitt](../action/action-privacy.md).
+   >Jede für ein Attribut definierte eingeschränkte Beschriftung kann zu einer Richtlinienverletzung bei DULE oder Einverständnis führen. Dies gilt für das Journey von Erlebnisereignissen, die in einer Entscheidungsregel verwendet werden, und für das [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema). Weitere Informationen zu Data-Governance-Richtlinien finden [ in diesem Abschnitt](../action/action-privacy.md).
 
 1. Um zu überprüfen, ob für die Profile, die in die Journey eintreten, ein Angebot zurückgegeben wurde, verwenden Sie die Funktion [listSize](functions/list-functions.md#listSize) mit der folgenden Syntax: `listSize(@decision{ContentdecisionName.items})>0`
 

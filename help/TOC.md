@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '3185'
+source-wordcount: '3194'
 ht-degree: 94%
 
 ---
@@ -85,9 +85,11 @@ ht-degree: 94%
       + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
       + [Reaktionsereignisse](using/building-journeys/reaction-events.md)
       + [Zielgruppen-Qualifizierung](using/building-journeys/audience-qualification-events.md)
-      + [Optimieren](using/building-journeys/optimize.md)
-      + [Bedingungen](using/building-journeys/conditions.md)
-      + [Bedingung](using/building-journeys/condition-activity.md)
+      + Optimieren {#optimize-activity}
+         + [Erste Schritte mit der Aktivität Optimieren](using/building-journeys/optimize.md)
+         + [Pfadexperiment](using/building-journeys/path-experimentation.md)
+         + [Pfad-Targeting](using/building-journeys/path-targeting.md)
+         + [Bedingungen](using/building-journeys/conditions.md)
       + [Zielgruppe lesen](using/building-journeys/read-audience.md)
       + [Warten](using/building-journeys/wait-activity.md)
       + [Inhaltsentscheidung](using/building-journeys/content-decision.md)

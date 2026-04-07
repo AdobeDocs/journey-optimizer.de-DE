@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 100%
@@ -52,8 +52,8 @@ Häufig handelt es sich dabei um eine Kombination mehrerer Attribute zusätzlich
 
 Sie können diese Regeln in folgenden Szenarien verwenden:
 
-* Beim Erstellen von [Targeting zur Inhaltsoptimierung](../content-management/optimization-targeting.md) in Journeys oder Kampagnen.
-* Beim Erstellen der [Journey-Pfadoptimierung](../building-journeys/optimize.md#targeting).
+* Beim Erstellen von [Targeting zur Inhaltsoptimierung](../campaigns/campaigns-message-optimization.md#targeting) in Journeys oder Kampagnen.
+* Beim Erstellen der [Journey-Pfadoptimierung](../building-journeys/path-targeting.md).
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -90,7 +90,7 @@ Gehen Sie wie folgt vor, um eine Regel zu erstellen:
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL Entscheidungselement]**: Die Regel kann auf ein [Entscheidungselement](#decision-rules) im Kontext von Entscheidungsfindung angewendet werden.
-   * **[!UICONTROL Targeting]**: Die Regel kann beim Erstellen von [Targeting](#targeting-rules)-Regeln verwendet werden, entweder im Rahmen der [Inhaltsoptimierung](../content-management/optimization-targeting.md) in einer Kampagne oder Journey oder in der Aktivität [Journey optimieren](../building-journeys/optimize.md#targeting).
+   * **[!UICONTROL Targeting]**: Die Regel kann beim Erstellen von [Targeting](#targeting-rules)-Regeln verwendet werden, entweder im Rahmen der [Inhaltsoptimierung](../campaigns/campaigns-message-optimization.md#targeting) in einer Kampagne oder Journey oder in der Aktivität [Journey optimieren](../building-journeys/path-targeting.md).
 
 1. Wenn Sie eine Regel für ein **[!UICONTROL Entscheidungselement]** erstellen, können Sie **[!UICONTROL Datensatzsuche aktivieren]** auswählen, um Daten aus Adobe Experience Platform zur Anreicherung Ihrer Entscheidungslogik mit externen Daten zu verwenden. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, beispielsweise die Produktverfügbarkeit oder Echtzeitpreise. [Informationen zum Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../experience-decisioning/aep-data-exd.md)
 
@@ -133,4 +133,4 @@ Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
 Erfahren Sie, wie Sie in Adobe Journey Optimizer wiederverwendbare **Targeting-Regeln** erstellen, duplizieren und anwenden, um Kampagnen effizient auf der Grundlage von Kundenattributen wie Region, Sprache und Verhalten zu personalisieren. So sparen Sie Zeit und verbessern die Genauigkeit der Zielgruppe.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476136/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

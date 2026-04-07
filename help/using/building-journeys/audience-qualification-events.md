@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 29c591590415add30780cf5ea80964141a8fd236
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1701'
 ht-degree: 62%
 
 ---
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="Zusammenführungsrichtlinie"
 >abstract="Die Zusammenführungsrichtlinie wird automatisch von der ausgewählten Zielgruppe abgerufen und auf der gesamten Journey angewendet."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Weitere Informationen zu Zusammenführungsrichtlinien"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Weitere Informationen zu Zusammenführungsrichtlinien"
 
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Zielgruppen-Qualifizierung]** in Ihrer Arbeitsfläche ab.
@@ -115,7 +115,7 @@ Die Payload enthält die folgenden Kontextinformationen, die Sie in Bedingungen 
 
 Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die einer Aktivität vom Typ **[!UICONTROL Zielgruppen-Qualifizierung]** folgt, können Sie auf den Knoten **[!UICONTROL AudienceQualification]** zugreifen. Sie können zwischen der **[!UICONTROL letzten Qualifizierungszeit]** und dem **[!UICONTROL Status]** (Einstieg oder Ausstieg) wählen.
 
-Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_condition).
+Siehe [Bedingungen](../building-journeys/conditions.md#about_condition).
 
 Eine neue Journey, die ein Ereignis **Zielgruppen-Qualifizierung** enthält, ist zehn Minuten nach der Veröffentlichung einsatzbereit. Dieses Intervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Services. Warten Sie 10 Minuten, bevor Sie diese Journey verwenden.
 
@@ -223,4 +223,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

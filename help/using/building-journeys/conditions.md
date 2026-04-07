@@ -1,21 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aktivität des Typs „Bedingung“
-description: Erfahren Sie mehr über Bedingungsaktivitäten
+title: Bedingungen
+description: Konfigurieren von Bedingungen für das Journey von Pfaden in der Aktivität „Optimieren“
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
-hidefromtoc: true
-hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 95%
+source-wordcount: '1873'
+ht-degree: 89%
 
 ---
 
@@ -24,15 +22,15 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Bedingungen"
->abstract="Mit Bedingungen können Sie festlegen, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade basierend auf Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen."
+>abstract="Mit Bedingungen können Sie festlegen, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade basierend auf Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um Zeitüberschreitungen oder Fehler zu handhaben und so ein nahtloses Erlebnis sicherzustellen. Beachten Sie, dass die Bedingungen jetzt in der Aktivität Optimieren konfiguriert sind, die die frühere Aktivität Bedingung ersetzt."
 
 Mit **Bedingungen** können Sie festlegen, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade basierend auf bestimmten Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen.
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->Diese Bedingungen sind über die Aktivität **Optimieren** verfügbar, auf die nach Bedarf zugegriffen werden kann, jedoch mit eingeschränkter Verfügbarkeit. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+>Das neue Vehikel zum Erstellen bedingter Pfade in Journey ist die Aktivität [Optimieren](optimize.md). Sie ersetzt die frühere Aktivität **Bedingung**, die aus der Benutzeroberfläche entfernt wurde. Die gesamte bedingte Logik wird jetzt durch die Bedingungen der Aktivität Optimieren auf dieser Seite verarbeitet.
 >
->Wenn Sie keinen Zugriff auf diese Funktion haben, können Sie weiterhin die ältere [Bedingungsaktivität](condition-activity.md) verwenden.
+>Wenn Sie über Journey verfügen, die **[!UICONTROL Bedingungs]**-Aktivitäten verwendet haben, können Sie diese weiterhin wie zuvor verwenden. Sie werden jetzt mit einem neuen Symbol als **[!UICONTROL Optimieren]**-Aktivitäten mit der **[!UICONTROL Bedingung]**-Methode angezeigt, das Verhalten ist jedoch unverändert. Jede benutzerdefinierte Beschriftung, die Sie auf dem Knoten festgelegt hatten, wird beibehalten.
 
 ## Hinzufügen einer Bedingung {#add-condition-activity}
 
@@ -54,6 +52,10 @@ Gehen Sie wie folgt vor, um Ihrer Journey eine Bedingung hinzuzufügen.
    * [Bedingung für das Datum](#date_condition)
    * [Profilbegrenzung](#profile_cap)
    * Sie können auch eine Zielgruppe in einer Journey-Bedingung verwenden. [Weitere Informationen](#using-a-segment)
+
+>[!NOTE]
+>
+>Die Bedingungsauswertung schlägt für Profile fehl, die mehr als zwei geräteübergreifende Identitäten im [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"} enthalten.
 
 ## Verwalten von Bedingungspfaden {#condition_paths}
 
@@ -87,7 +89,7 @@ Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Fe
 
 ![Einfacher Ausdruckseditor mit Drag-and-Drop-Feldern und logischen Operatoren](assets/journey64.png){width=80%}
 
-Wenn Sie zur Erstellung Ihrer Zielgruppen den [[!DNL Adobe Experience Platform] Segmentierungs](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}Service) verwenden, können Sie diese in Ihren Journey-Bedingungen nutzen. Weitere Informationen finden Sie unter [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
+Wenn Sie zur Erstellung Ihrer Zielgruppen den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} verwenden, können Sie die Zielgruppen in Ihren Journey-Bedingungen nutzen. Siehe [Verwenden der Zielgruppe in Bedingungen](#using-a-segment).
 
 >[!NOTE]
 >
@@ -102,6 +104,14 @@ Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ un
 Verwenden Sie eine **[!UICONTROL Datenquellenbedingung]**, um eine Definition basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen zu definieren. Dieser Bedingungstyp wird mit dem Ausdruckseditor definiert. [Informationen dazu, wie Sie den Ausdruckseditor verwenden](expression/expressionadvanced.md)
 
 Beim Targeting einer Zielgruppe mit Anreicherungsattributen, die mithilfe eines Kompositions-Workflows oder eines benutzerdefinierten Uploads (CSV-Datei) generiert wurden, können Sie beispielsweise diese Anreicherungsattribute nutzen, um Ihre Bedingung zu erstellen.
+
+>[!IMPORTANT]
+>
+>**Verarbeiten fehlender oder nicht aufgenommener Attribute**
+>
+>Wenn in Ihrem Profilschema ein Schemafeld definiert ist, aber keine Daten für dieses Feld aufgenommen wurden, interpretieren Journey Optimizer und das zugrunde liegende Echtzeit-Kundenprofil das Feld als `null`. Daher werden Bedingungen, die auf `isEmpty()`, `isNull()` oder ähnliche Funktionen prüfen, als `true` ausgewertet, selbst wenn das Attribut nie aufgenommen wurde. Dies kann zu unerwartetem Journey-Verhalten führen, wenn Sie nicht wissen, dass das Feld keine Daten enthält.
+>
+>Um Missverständnisse zu vermeiden, stellen Sie sicher, dass die Attribute, die Sie in Bedingungsausdrücken verwenden, mit tatsächlichen Daten aufgenommen wurden, bevor das Profil in die Journey eintritt. Sie können Attributwerte im [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} überprüfen, um zu bestätigen, ob für die in Ihren Bedingungen verwendeten Felder Daten vorhanden sind.
 
 Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. [Weitere Informationen](../datasource/external-data-sources.md)
 

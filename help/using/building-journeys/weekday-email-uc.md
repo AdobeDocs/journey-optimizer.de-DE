@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Anwendungsfall, Werktage, Bedingung, E-Mail, Planung
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 90%
+source-wordcount: '1068'
+ht-degree: 91%
 
 ---
 
@@ -33,8 +33,7 @@ Dies ist ideal für B2B-E-Mail-Kampagnen (Business-to-Business), professionelle 
 
 >[!NOTE]
 >
->Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive [!DNL Adobe Journey Optimizer]-Instanz mit einer konfigurierten [E-Mail](../configuration/channel-surfaces.md)Kanaloberfläche, einer [Audience](../audience/about-audiences.md) oder [event](../event/about-events.md) zum Trigger der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](condition-activity.md) [Expressions](expression/expressionadvanced.md).
-
+>Um diesen Anwendungsfall zu implementieren, benötigen Sie eine aktive Adobe Journey Optimizer-Instanz mit einer konfigurierten [E-Mail-Kanaloberfläche](../configuration/channel-surfaces.md), einer [Zielgruppe](../audience/about-audiences.md) oder einem [Ereignis](../event/about-events.md) zum Auslösen der Journey sowie ein grundlegendes Verständnis von [Journey-Bedingungen](conditions.md) und [Ausdrücken](expression/expressionadvanced.md).
 
 ## Implementierungsschritte
 
@@ -56,7 +55,7 @@ Führen Sie diese Schritte aus, um den E-Mail-Fluss nur für Wochentage zu erste
 
 Fügen Sie direkt nach dem Start der Journey eine Aktivität des Typs **[!UICONTROL Bedingung]** hinzu, um zu prüfen, ob der aktuelle Tag ein Samstag oder Sonntag ist. Dadurch wird der Workflow entsprechend verzweigt.
 
-1. Ziehen Sie eine Aktivität des Typs [**[!UICONTROL Bedingung &#x200B;]**](condition-activity.md) nach dem Eintrittspunkt auf die Arbeitsfläche.
+1. Ziehen Sie eine Aktivität [**[!UICONTROL Optimieren ]**auf ](optimize.md) Arbeitsfläche nach Ihrem Einstiegspunkt.
 
 1. Klicken Sie auf die Aktivität des Typs **[!UICONTROL Bedingung]**, um das zugehörige Konfigurations-Panel zu öffnen.
 
@@ -186,7 +185,7 @@ Nach Abschluss der Tests:
 
 ## Verwandte Themen
 
-* [Bedingungsaktivitäten](condition-activity.md): Erfahren Sie, wie Sie verschiedene Pfade in Ihrer Journey erstellen.
+* [Aktivitäten optimieren](optimize.md) - Erfahren Sie, wie Sie verschiedene Pfade in Ihrem Journey erstellen.
 * [Verwenden von Bedingungen in einer Journey](conditions.md): Detaillierte Anleitung zu Journey-Bedingungen
 * [Aktivität „Warten“](wait-activity.md): Konfigurieren der Wartezeiten und Formeln
 * [Datumsfunktionen](functions/date-functions.md): Vollständige Referenz für Datums- und Uhrzeitfunktionen

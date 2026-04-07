@@ -9,8 +9,8 @@ level: Experienced
 keywords: Journey, Ausdruck, Editor, Eigenschaften
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Attribute der Journey-Eigenschaften {#journey-properties}
 
-Im [einfachen Ausdruckseditor](../condition-activity.md#about_condition)und im [erweiterten Ausdruckseditor](../expression/expressionadvanced.md) können Sie unterhalb der Kategorien **Ereignis** und **Datenquelle** auf die Kategorie **Journey-Eigenschaften** zugreifen. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen.  Dies sind die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler.
+Im [einfachen Ausdruckseditor](../conditions.md#about_condition)und im [erweiterten Ausdruckseditor](../expression/expressionadvanced.md) können Sie unterhalb der Kategorien **Ereignis** und **Datenquelle** auf die Kategorie **Journey-Eigenschaften** zugreifen. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen.  Dies sind die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler.
 
 ![](../assets/journey-properties.png)
 

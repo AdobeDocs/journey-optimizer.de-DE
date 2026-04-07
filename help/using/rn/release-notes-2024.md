@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt:
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu steuern, um zu vermeiden, dass Kundinnen und Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet nun mehrere Tools zum Konflikt-Management und zur Priorisierung. <p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/gs-conflict-prioritization.md">ausführlichen Dokumentation</a>.</p></p><p><ul><li><b>Journey-Frequenzbegrenzung</b>: Sie können nun Regelsätze erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journeys für ein Profil pro Tag, Woche oder Monat begrenzen und die Anzahl gleichzeitig ausgeführter Journeys kontrollieren können.</li>
+<p>In Journey Optimizer ist es wichtig, das Volumen und den Zeitpunkt von Kampagnen und Journeys zu verwalten, um zu vermeiden, dass Kundinnen und Kunden mit zu vielen Interaktionen überfordert werden. Journey Optimizer bietet nun mehrere Tools zum Konflikt-Management und zur Priorisierung. <p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/gs-conflict-prioritization.md">ausführlichen Dokumentation</a>.</p></p><p><ul><li><b>Journey-Frequenzbegrenzung</b>: Sie können nun Regelsätze erstellen, die auf Ihre Journey angewendet werden, sodass Sie die Anzahl der Journeys für ein Profil pro Tag, Woche oder Monat begrenzen und die Anzahl gleichzeitig ausgeführter Journeys kontrollieren können.</li>
 <li><b>Prioritätswert</b>: Sie können einer Kampagne oder Journey nun einen Prioritätswert zwischen 0 und 100 zuweisen. Eine höhere Zahl bedeutet eine höhere Priorität. Wenn zwei Kampagnen oder Journeys dieselbe Kanalkonfiguration verwenden, wählt Journey Optimizer die Kampagne oder Journey mit dem höchsten Prioritätswert aus. Wenn die Kampagnen den gleichen Wert aufweisen, wird die Kampagne ausgewählt, die zuletzt geändert wurde.</li>
 <li><b>Potenzielle Konflikte anzeigen</b>: Mit der neuen Schaltfläche „Potenzielle Konflikte anzeigen“ in Journeys und Kampagnen können Sie nun Überschneidungen mit anderen Journeys oder Kampagnen identifizieren, z. B. beim Startdatum, bei der Zielgruppe oder bei der ausgewählten Kanalkonfiguration.</li>
 <li><b>Journey Arbitration</b>: Mit dieser neuen Funktion können Sie die wichtigsten Journeys für Ihre Kundschaft priorisieren. Sie können eine Regel erstellen, um den Eintritt in eine Journey mit niedrigerer Priorität zu unterdrücken, wenn eine Kundin oder ein Kunde für eine bevorstehende Journey mit höherer Priorität qualifiziert ist.</li>
@@ -357,7 +357,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 >
 -->
 
-**Veröffentlichungsdatum**: 24.–26. September 2024
+**Veröffentlichungsdatum**: 24.-26. September 2024
 
 ### Neue Funktionen {#24-9-features}
 
@@ -391,7 +391,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tr>
 <td>
 <p>Mit Genehmigungsrichtlinien können Sie nun einen Genehmigungsprozess in Journey Optimizer einrichten, mit dem Marketing-Teams sicherstellen können, dass Kampagnen und Journeys vor ihrer Live-Schaltung von den jeweiligen Stakeholderinnen und Stakeholdern geprüft und abgezeichnet werden.</p>
-<p>Genehmigungsrichtlinien sind derzeit nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Genehmigungsrichtlinien sind derzeit nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../test-approve/gs-approval.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
@@ -492,7 +492,7 @@ Sie können jetzt Inhaltsvorlagen und Fragmente zwischen Sandboxes exportieren. 
 
 **E-Mail-Kanal**
 
-* **Nachrichtenkopfzeile in gesendeter E-Mail und Blindkopie (BCC)**: Allen E-Mail-Nachrichten wurde eine neue Kopfzeile hinzugefügt. Der Wert dieser Kopfzeile ist für jede gesendete E-Mail und die zugehörige BCC-E-Mail-Kopie eindeutig. Diese Kopfzeile wird auch in den Nachrichten- und BCC-Feedback-Datensätzen gespeichert, was eine Abstimmung zwischen der Blindkopie und den entsprechenden gesendeten E-Mail-Informationen ermöglicht. [Mehr dazu](../configuration/archiving-support.md#bcc-header)
+* **Nachrichtenkopfzeile in gesendeter E-Mail und Blindkopie (BCC)**: Allen E-Mail-Nachrichten wurde eine neue Kopfzeile hinzugefügt. Der Wert dieser Kopfzeile ist für jede gesendete E-Mail und die zugehörige BCC-E-Mail-Kopie eindeutig. Diese Kopfzeile wird auch in den Nachrichten- und BCC-Feedback-Datensätzen gespeichert, was eine Abstimmung zwischen der Blindkopie und den entsprechenden gesendeten E-Mail-Informationen ermöglicht. [Weitere Informationen](../configuration/archiving-support.md#bcc-header)
 
 * **Spam-Bewertung** (GA): Sie können jetzt Ihre Spam-Bewertung von Inhalten in einem speziellen **Spam-Bericht** überprüfen. Mithilfe von SpamAssassin kann Adobe Journey Optimizer jetzt Ihre E-Mail-Inhalte testen und mit einer Punktzahl versehen, die angibt, ob ISPs oder Mailbox-Anbieter sie als Spam betrachten oder nicht. [Weitere Informationen](../content-management/spam-report.md)
 
@@ -630,8 +630,8 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* In der Aktivität **Bedingung** ist die **[!UICONTROL Zeit-Bedingung]** jetzt standardmäßig stundenweise festgelegt, von 00:00 bis 12:00. [Mehr dazu](../building-journeys/condition-activity.md#time_condition)
-* Beim Erstellen Ihrer Journeys werden Warnhinweise jetzt über die Schaltfläche **Warnungen** angezeigt, um sie mit anderen Warnungen abzugleichen und ein einheitliches Anwendererlebnis zu gewährleisten. [Mehr dazu](../building-journeys/troubleshooting.md#activity-errors)
+* In der Aktivität **Bedingung** ist die **[!UICONTROL Zeit-Bedingung]** jetzt standardmäßig stundenweise festgelegt, von 00:00 bis 12:00. [Weitere Informationen](../building-journeys/conditions.md#time_condition)
+* Beim Erstellen Ihrer Journeys werden Warnhinweise jetzt über die Schaltfläche **Warnungen** angezeigt, um sie mit anderen Warnungen abzugleichen und ein einheitliches Anwendererlebnis zu gewährleisten. [Weitere Informationen](../building-journeys/troubleshooting.md#activity-errors)
 * Die Zoom-Optionen in der Journey-Symbolleiste wurden verbessert: Der Zoom-Prozentsatz ist jetzt sichtbar, und der Zoom-Wert kann leichter zurückgesetzt werden.
 
 **Push-Kanal**
@@ -772,7 +772,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tr>
 <td>
 <p>Sie können jetzt im Rahmen einer Kampagne oder Journey mühelos Inhalte in mehreren Sprachen erstellen.  Mit dieser Funktion können Sie bei der Bearbeitung Ihrer Kampagne oder Journey zwischen Sprachen wechseln, den gesamten Bearbeitungsvorgang optimieren und Ihre mehrsprachigen Inhalte effizienter verwalten.</p>
-<p>Mehrsprachige Inhalte sind derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Mehrsprachige Inhalte sind derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
@@ -789,7 +789,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tr>
 <td>
 <p>Adobe Journey Optimizer ist bereits in Kampagnen verfügbar und unterstützt jetzt Experimente in Journeys. Bei Experimenten handelt es sich um randomisierte Test, was im Rahmen von Online-Tests bedeutet, dass Sie einigen zufällig ausgewählten Benutzenden eine bestimmte Variante einer Nachricht anbieten und einer anderen zufällig ausgewählten Gruppe von Benutzenden eine andere Variante oder Abwandlung anbieten. Nach dem Angebot können Sie die Ihre gewünschten Ergebnismetriken messen, z. B. Öffnung von E-Mails, Abonnements oder Käufe.</p>
-<p>Das Experimentieren in Journeys ist derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Das Experimentieren in Journeys ist derzeit nur für eine Gruppe von ausgewählten Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
@@ -898,7 +898,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <td>
 <p>Die Erlebnis-Entscheidung vereinfacht die Personalisierung, indem sie einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Rangfolgekriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.</p>
 <p>Diese Entscheidungselemente sind über den neuen Code-basierten Erlebniskanal, der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Konfigurationen integriert. Entscheidungsrichtlinien für die Erlebnis-Entscheidung sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.</p>
-<p>Erlebnis-Entscheidung ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Erlebnis-Entscheidung ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/gs-experience-decisioning.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -916,7 +916,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 <tr>
 <td>
 <p>Sie können jetzt beim Erstellen von E-Mail-Kanal-Konfigurationen dynamische Subdomains und personalisierte Kopfzeilenparameter definieren, um mehr Flexibilität und Kontrolle über Ihre E-Mail-Einstellungen zu erhalten.</p>
-<p>Die Personalisierung der E-Mail-Konfiguration ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Die Personalisierung der E-Mail-Konfiguration ist derzeit nur für eine Gruppe von Organisationen verfügbar (begrenzte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../email/surface-personalization.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -1123,8 +1123,8 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Konfiguration**
 
-* Sie können jetzt eine Marketing-Aktion auf der Kanalkonfigurationsebene auswählen. Bei Verwendung in einer Konfiguration werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Mehr dazu](../action/consent.md#surface-marketing-actions)
-* Die Verwendung der Zugriffssteuerung auf Objektebene ist jetzt für Kanalkonfigurationen verfügbar. [Mehr dazu](../configuration/channel-surfaces.md#create-channel-surface)
+* Sie können jetzt eine Marketing-Aktion auf der Kanalkonfigurationsebene auswählen. Bei Verwendung in einer Konfiguration werden alle mit dieser Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
+* Die Verwendung der Zugriffssteuerung auf Objektebene ist jetzt für Kanalkonfigurationen verfügbar. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
 * Wenn Sie die Abmeldung von Listen in einer Kanalkonfiguration aktivieren, können Sie jetzt die Einverständnisebene so definieren, dass sie mit der Verwaltung von Einverständniserklärungen aus allen anderen Quellen übereinstimmt. [Weitere Informationen](../email/email-settings.md#list-unsubscribe)
 
 **Content-Management**

@@ -8,10 +8,10 @@ level: Experienced
 keywords: inAudience, Funktion, Ausdruck, Journey, Zielgruppe, Segmentierung
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 72c6392d9d978c74c7ab2e82f654f17171d7ec55
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 82%
+ht-degree: 80%
 
 ---
 
@@ -21,7 +21,7 @@ Die Funktion `inAudience` ist eine Adobe Experience Platform-Funktion, mit der S
 
 Verwenden Sie die Funktion `inAudience`, wenn Sie Folgendes tun müssen:
 
-* Journey-Pfade basierend auf der Zielgruppenzugehörigkeit verzweigen. [Weitere Informationen](../condition-activity.md#using-a-segment)
+* Journey-Pfade basierend auf der Zielgruppenzugehörigkeit verzweigen. [Weitere Informationen](../conditions.md#using-a-segment)
 * Bedingte Logik anwenden, die davon abhängt, ob ein Profil zu einem bestimmten Segment gehört
 * Bestimmte Zielgruppen von Kundinnen und Kunden mit personalisierten Erlebnissen ansprechen
 * Echtzeit-Zielgruppenbeteiligung unter Journey-Bedingungen auswerten
@@ -116,7 +116,7 @@ Beachten Sie bei Verwendung der Funktion `inAudience` in Ihren Journeys die folg
 Bei Verwendung von `inAudience()` in einem Bedingungsknoten variiert der Zeitpunkt der Segmentzugehörigkeitsevaluierung je nachdem, wo die Bedingung auf der Journey erscheint:
 
 * **Auf einer Zielgruppen-Journey lesen vor einer Warteaktivität:** Journey Optimizer liest aus der Batch-Projektion des Profils. Die Daten in dieser Projektion werden innerhalb von **2 Stunden** der Aufnahme aktualisiert. Bei Zielgruppen, die auf tägliche oder zeitbasierte Bedingungen angewiesen sind, können zusätzliche Verzögerungen auftreten. Fügen Sie eine [Warteaktivität](../wait-activity.md) am Anfang der Journey hinzu oder lassen Sie eine Pufferzeit zu, um sicherzustellen, dass die neueste Segmentzugehörigkeit widergespiegelt wird.
-* **Auf einer Journey mit einem unitären Ereignis oder nach einer Warteaktivität wird** Segmentzugehörigkeit aus der Streaming-(unitären)-Projektion gelesen. Die Daten sind normalerweise innerhalb von **15 Minuten** verfügbar. Weitere Informationen finden Sie in der Dokumentation zur Streaming-Aufnahme in [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
+* **Auf einer Journey mit einem unitären Ereignis oder nach einer Warteaktivität wird** Segmentzugehörigkeit aus der Streaming-(unitären)-Projektion gelesen. Die Daten sind normalerweise innerhalb von **15 Minuten** verfügbar. Weitere Informationen finden Sie in der Dokumentation zur Streaming-Aufnahme in [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
 
 ## Verwandte Themen
 
@@ -125,6 +125,6 @@ Weitere Informationen zur Verwendung von Zielgruppen in Adobe Journey Optimizer:
 * **[Informationen zu Zielgruppen](../../audience/about-audiences.md)**: Erfahren Sie, wie Zielgruppen in Adobe Experience Platform und Journey Optimizer funktionieren, einschließlich ihrer Erstellung und Verwaltung
 * **[Aktivität „Zielgruppe lesen“](../read-audience.md)**: Verwenden Sie Zielgruppen, um den Journey-Eintritt auszulösen und alle Mitglieder der Zielgruppe zum Eintritt in eine Journey zu bewegen
 * **[Zielgruppenqualifizierungsereignisse](../audience-qualification-events.md)**: Überwachen Sie Zielgruppeneintritte und -austritte von Profilen, um Journey-Aktionen in Echtzeit auszulösen
-* **[Verwenden von Zielgruppen in Bedingungen](../condition-activity.md#using-a-segment)**: Erstellen Sie bedingte Journey-Pfade basierend auf der Zielgruppenzugehörigkeit mithilfe der Aktivität „Bedingung“
+* **[Verwenden von Zielgruppen in Bedingungen](../conditions.md#using-a-segment)** - Erstellen bedingter Journey-Pfade basierend auf der Zielgruppenzugehörigkeit mithilfe der Aktivität „Optimieren“
 * **[Journey-Eigenschaften – Zusammenführungsrichtlinien](../journey-properties.md)**: Erfahren Sie, wie Zusammenführungsrichtlinien funktionieren, wenn mehrere Zielgruppen mit der Funktion „inAudience“ verwendet werden
 

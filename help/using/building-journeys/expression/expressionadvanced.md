@@ -9,8 +9,8 @@ level: Experienced
 keywords: Ausdruckseditor, Daten, Journey
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 100%
 
@@ -40,11 +40,11 @@ Der erweiterte Ausdruckseditor bietet eine Reihe integrierter Funktionen und Ope
 
 Der erweiterte Ausdruckseditor kann für folgende Aufgaben verwendet werden:
 
-* Erstellen [erweiterter Bedingungen](../condition-activity.md#about_condition) für Datenquellen und Ereignisinformationen
+* Erstellen [erweiterter Bedingungen](../conditions.md#data_source_condition) für Datenquellen und Ereignisinformationen
 * Definieren benutzerdefinierter [Warteaktivitäten](../wait-activity.md#custom)
 * Definieren der Zuordnung von Aktionsparametern
 
-Wenn möglich, können Sie mithilfe der Schaltfläche **[!UICONTROL Erweiterter Modus]** / **[!UICONTROL Einfacher Modus]** zwischen den beiden Modi wechseln. Der einfache Modus wird [hier](../condition-activity.md#about_condition) beschrieben.
+Wenn möglich, können Sie mithilfe der Schaltfläche **[!UICONTROL Erweiterter Modus]** / **[!UICONTROL Einfacher Modus]** zwischen den beiden Modi wechseln. Der einfache Modus wird [hier](../conditions.md#about_condition) beschrieben.
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Auf der linken Bildschirmseite werden die verfügbaren Felder und Funktionen ang
   >
   >Das Erstellen von Ausdrücken mithilfe von Erlebnisereignissen wird nicht unterstützt. Alternative Ansätze und Best Practices zum Erstellen von Ausdrücken/Logik mit Erlebnisereignissen sind [hier](../../building-journeys/exp-event-lookup.md) zu finden
 
-* **[!UICONTROL Zielgruppen]**: Wenn Sie ein **[!UICONTROL Zielgruppen-Qualifizierungsereignis]** eingefügt haben, wählen Sie die Zielgruppe aus, die in Ihrem Ausdruck verwendet werden soll. [Weitere Informationen](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Zielgruppen]**: Wenn Sie ein **[!UICONTROL Zielgruppen-Qualifizierungsereignis]** eingefügt haben, wählen Sie die Zielgruppe aus, die in Ihrem Ausdruck verwendet werden soll. [Weitere Informationen](../conditions.md#using-a-segment)
 * **[!UICONTROL Datenquellen]**: Wählen Sie aus der Liste der Felder aus, die in den Feldergruppen Ihrer Datenquellen verfügbar sind. [Weitere Informationen](../../datasource/about-data-sources.md)
 * **[!UICONTROL Journey-Eigenschaften]**: Dieser Abschnitt gruppiert die technischen Felder neu, die mit der Journey für ein bestimmtes Profil verbunden sind. [Weitere Informationen](journey-properties.md)
 * **[!UICONTROL Funktionen]**: Wählen Sie aus der Liste der integrierten Funktionen, die eine komplexe Filterung ermöglichen. Die Funktionen sind nach Kategorien geordnet. [Weitere Informationen](functions.md)

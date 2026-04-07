@@ -8,7 +8,7 @@ role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: Journey, Schrittereignisse, Analyse, Reporting, Monitoring, XDM
 exl-id: 2e7c5ea5-d8c5-416d-ab88-d2bc02043558
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Journey-Schrittereignisse werden automatisch für verschiedene Journey-Aktivitä
 
 - **Eintrittsereignisse**: Wenn ein Profil [in eine Journey eintritt](../building-journeys/entry-management.md)
 - **Aktionsausführung**: Wenn [Nachrichten gesendet werden](../building-journeys/journey-action.md) oder [benutzerdefinierte Aktionen](../building-journeys/using-custom-actions.md) ausgeführt werden
-- **Bedingungsauswertung**: Wenn Profile [Bedingungen](../building-journeys/condition-activity.md) und Entscheidungspunkte durchlaufen
+- **Bedingungsauswertung**: Wenn Profile [Bedingungen](../building-journeys/conditions.md) und Entscheidungspunkte durchlaufen
 - **Warteaktivitäten**: Wenn Profile in [Warteknoten](../building-journeys/wait-activity.md) eintreten und aus ihnen aussteigen
 - **Ausstiegsereignisse**: Wenn Profile [aus einer Journey aussteigen](../building-journeys/end-journey.md)
 - **Fehlerbehandlung**: Wenn bei der Journey-Ausführung Fehler auftreten

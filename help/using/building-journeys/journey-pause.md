@@ -9,7 +9,7 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 93%
@@ -84,7 +84,7 @@ Wenn eine Journey pausiert ist, hängen die Profilverwaltung und Aktivitätsausf
 | [Zielgruppe lesen](read-audience.md) | Dasselbe Verhalten wie bei einer Live-Journey mit einigen Besonderheiten: <ol> <li> Wenn nach dem Start der Aktivität <strong>Zielgruppe lesen</strong> <strong>Anhalten</strong> gedrückt wurde, werden Profile, die in die Journey eingetreten sind, fortgesetzt (bis zur nächsten Aktivität vom Typ <strong>Aktion</strong>). Wenn noch nicht die gesamte Zielgruppe eingetreten ist, werden die verbleibenden Profile in der Warteschlange verworfen, da die Journey Zielgruppen mit einer bestimmten Geschwindigkeit liest.</li><li> Bei einzelnen Ausführungen: Zum Zeitpunkt der Fortsetzung wird kein Fehler angezeigt, wenn das geplante Datum vor dem Datum der Fortsetzung lag. Dieser Zeitplan würde ignoriert werden.</li><li>Für inkrementelle Journeys: <ul><li>Wenn das Pausieren vor dem ersten Auftreten erfolgt, wird bei Fortsetzung die vollständige Zielgruppe abgespielt. </li><li>Wenn das Pausieren beispielsweise am 4. Tag eines täglichen Intervalls stattfindet und die Journey bis zum 9. Tag pausiert bleibt, werden bei der Fortsetzung alle Profile einbezogen, die vom 4. bis 9. eingetreten sind  </li></ul></ol> |
 | [Reaktion](reaction-events.md) | Dasselbe Verhalten wie bei einer Live-Journey, aber das Reaktionsereignis wird verworfen, wenn die Reaktion nach einer Aktivität vom Typ <strong>Aktion</strong> erfolgt und die bzw. der Benutzende in dieser Aktion pausiert ist. |
 | [Warten](wait-activity.md) | Dasselbe Verhalten wie bei einer Live-Journey |
-| [Bedingung](condition-activity.md) | Dasselbe Verhalten wie bei einer Live-Journey |
+| [Optimieren](optimize.md) | Dasselbe Verhalten wie bei einer Live-Journey |
 | [Inhaltsentscheidung](content-decision.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Pausieren der Journey geparkt oder verworfen |
 | [Kanalaktion](journey-action.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Pausieren der Journey geparkt oder verworfen |
 | [Benutzerdefinierte Aktion](../action/action.md) | Profile werden basierend auf der Auswahl der Benutzerin bzw. des Benutzers nach dem Pausieren der Journey geparkt oder verworfen |

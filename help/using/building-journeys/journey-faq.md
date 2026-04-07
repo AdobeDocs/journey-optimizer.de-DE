@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung, Orchestrierung
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 93%
@@ -219,7 +219,7 @@ Sie können Bedingungen mithilfe der **Bedingungsaktivität** aus der Orchestrie
 * Aufspalten der Journey in mehrere Pfade basierend auf Profilattributen, Zielgruppenzugehörigkeit, Ereignissen oder kontextuellen Daten
 * Definieren von Timeout-Pfaden für Profile, die die Bedingung nicht innerhalb einer bestimmten Zeit erfüllen
 
-Erfahren Sie mehr über [Bedingungen](condition-activity.md).
+Erfahren Sie mehr über [Bedingungen](conditions.md).
 
 +++
 
@@ -317,7 +317,7 @@ Verwenden Sie eine **Bedingungsaktivität** mit Zielgruppenzugehörigkeit oder P
    * **Pfad 3**: Neue Kundinnen und Kunden (Gesamteinkäufe &lt; 100 $)
 3. Fügen Sie für jeden Pfad unterschiedliche Nachrichten oder Angebote hinzu.
 
-Erfahren Sie mehr über [Bedingungen](condition-activity.md) und [Zielgruppenqualifizierung](audience-qualification-events.md).
+Erfahren Sie mehr über [Bedingungen](optimize.md#conditions) und [Zielgruppenqualifizierung](audience-qualification-events.md).
 
 +++
 
@@ -588,9 +588,9 @@ Erhalten Sie mehr über [Personalisierung](../personalization/personalize.md).
 
 +++ Kann ich je nach bevorzugtem Kanal verschiedene Nachrichten senden?
 
-Ja. Verwenden Sie eine **[Bedingungsaktivität](condition-activity.md)**, um Profile basierend auf ihrem bevorzugten Kanal weiterzuleiten:
+Ja. Verwenden Sie eine **[Aktivität „Optimieren](conditions.md)**, um Profile basierend auf ihrem bevorzugten Kanal zu routen:
 
-1. Fügen Sie der Journey eine [Bedingungsaktivität](condition-activity.md) hinzu.
+1. Fügen Sie [ Journey eine Aktivität ](optimize.md)Optimieren“ hinzu
 2. Erstellen Sie einen Pfad für jeden Kanal, indem Sie das Profilattribut des bevorzugten Kanals überprüfen (z. B. `profile.preferredChannel`).
 3. Konfigurieren von kanalspezifischen Pfaden:
    * **E-Mail-Pfad**: Fügen Sie eine [E-Mail-Aktion](../email/create-email.md) mit für E-Mails optimierten Inhalten hinzu
@@ -606,7 +606,7 @@ Ja. Verwenden Sie eine **[Bedingungsaktivität](condition-activity.md)**, um Pro
 * Verwenden Sie [Kanaloberflächen](../configuration/channel-surfaces.md) zum Verwalten von Kanalkonfigurationen
 * Testen Sie alle Pfade, um einen ordnungsgemäßen Nachrichtenversand sicherzustellen
 
-Erfahren Sie mehr über [Bedingungen](condition-activity.md), [Nachrichtenaktionen](journey-action.md) und [Kanalauswahl](../channels/gs-channels.md).
+Erfahren Sie mehr über [Bedingungen](conditions.md), [Nachrichtenaktionen](journeys-message.md) und [Kanalauswahl](../channels/gs-channels.md).
 
 +++
 
@@ -622,7 +622,7 @@ Ja, es gibt mehrere Möglichkeiten, Kundinnen und Kunden auszuschließen:
 
 **In der Journey**:
 
-* Hinzufügen einer [Bedingungsaktivität](condition-activity.md) früh in der Journey, um unerwünschte Profile aussteigen zu lassen
+* Fügen Sie [Aktivität Optimieren](conditions.md) früh im Journey hinzu, um unerwünschte Profile zu verlassen
 * Prüfen auf Ausschlussattribute (z. B. VIP-Status, Testkonten)
 * Verwenden der [Zielgruppenqualifizierung](audience-qualification-events.md), um auszuschließende Profile zu ermitteln
 
@@ -838,7 +838,7 @@ Erfahren Sie mehr über [Zusammenführungsrichtlinien](../audience/get-started-p
 * Warten Sie eine bestimmte Zeit und überprüfen Sie dann mithilfe einer Bedingung, ob während der Wartezeit etwas passiert ist
 * Beispiel: Warten Sie 7 Tage und überprüfen Sie dann, ob die Kundin bzw. der Kunde einen Kauf getätigt hat
 
-Erfahren Sie mehr über [Bedingungen](condition-activity.md) und [Warteaktivitäten](wait-activity.md).
+Erfahren Sie mehr über [Bedingungen](optimize.md#conditions) und [Warteaktivitäten](wait-activity.md).
 
 +++
 
@@ -918,7 +918,7 @@ Erfahren Sie mehr über [Journey-Design](using-the-journey-designer.md) und [Lei
 * Verwenden Sie [zielgruppenbasierten Eintritt](read-audience.md) für Batch-Nachrichten anstelle von einzelnen Ereignissen
 * Implementieren Sie angemessene [Wartezeiten](wait-activity.md), um Nachrichtenvolumen zu verteilen
 * Nutzen Sie [Begrenzungsregeln](../conflict-prioritization/journey-capping.md), um eine Systemüberlastung zu vermeiden
-* Optimieren Sie [Bedingungslogik](condition-activity.md), um die Verarbeitungskomplexität zu reduzieren
+* Optimieren Sie [Bedingungslogik](conditions.md), um die Verarbeitungskomplexität zu reduzieren
 
 **Monitoring**:
 
@@ -931,7 +931,7 @@ Erfahren Sie mehr über [Journey-Design](using-the-journey-designer.md) und [Lei
 
 * Verwenden Sie [Testmodus](testing-the-journey.md) und [Probelauf](journey-dry-run.md), um die Leistung vor der Veröffentlichung zu überprüfen
 * Minimieren Sie externe API-Aufrufe durch [benutzerdefinierte Aktionen](using-custom-actions.md), um Latenz und Abhängigkeit von Drittanbietersystemen zu vermeiden
-* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [&#x200B; nach Möglichkeit die Datensatzsuche &#x200B;](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
+* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [ nach Möglichkeit die Datensatzsuche ](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
 * Überprüfen und optimieren Sie die Leistung des [Nachrichtenversands](journey-action.md)
 
 Erfahren Sie mehr über [Leitlinien und Einschränkungen](../start/guardrails.md).

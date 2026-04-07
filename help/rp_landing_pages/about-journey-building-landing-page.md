@@ -5,10 +5,10 @@ title: Aktivitäten
 description: Aktivitäten
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 86%
+source-wordcount: '390'
+ht-degree: 84%
 
 ---
 
@@ -20,7 +20,7 @@ Aktivitäten in Adobe Journey Optimizer sind die Bausteine, die Ihre Customer Jo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in Journey-Aktivitäten
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über Ereignis-, Orchestrierungs- und Aktionsaktivitäten in A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Verwenden allgemeiner Ereignisse
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie allgemeine Ereignisse nutzen können, um Journeys auszulö
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Konfigurieren von Reaktionsereignissen
 
@@ -50,7 +50,7 @@ Erkunden Sie, wie Sie auf Tracking-Daten wie Klicks oder Öffnungen von Nachrich
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Ereignisse zur Zielgruppenqualifizierung
 
@@ -60,17 +60,17 @@ Erfahren Sie, wie Sie Aktionen und Bedingungen basierend auf dem Status der Ziel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Verwenden der Bedingungsaktivität
+Verwenden der Aktivität „Optimieren“ (Bedingungen)
 
 Definieren Sie mehrere Pfade in einer Journey basierend auf Kriterien wie Zeit, Datenquelle oder prozentualer Aufspaltung.
 
-[Bedingungsaktivitäten konfigurieren](../using/building-journeys/condition-activity.md)
+[Konfigurieren und Optimieren von Bedingungen](../using/building-journeys/optimize.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Konfigurieren der Warteaktivität
 

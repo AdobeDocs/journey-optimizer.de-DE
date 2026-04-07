@@ -12,10 +12,10 @@ hidefromtoc: true
 keywords: Zustellbarkeit, Journey, Anwendungsfall, E-Mail, Reputation
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 91%
 
 ---
 
@@ -29,11 +29,11 @@ In diesem Anwendungsbeispiel wird eine Journey erstellt, um die Versandaktivitä
 
 1. Erstellen Sie eine Journey. [Weitere Informationen](journey-gs.md).
 
-1. Fügen Sie zur Journey die Aktivität **[!UICONTROL Bedingung]** hinzu. [Weitere Informationen](condition-activity.md).
+1. Fügen Sie **[!UICONTROL Journey]** Aktivität „Optimieren“ hinzu. [Weitere Informationen](optimize.md).
 
 1. Legen Sie in den Einstellungen für die Aktivität **[!UICONTROL Bedingung]** die maximale Empfängeranzahl für Ihren Versand fest:
 
-   1. Wählen Sie in den Einstellungen für die Aktivität **[!UICONTROL Bedingung]** für das Feld **[!UICONTROL Typ]** die Option **[!UICONTROL Profilbegrenzung]** aus. [Weitere Informationen](condition-activity.md#profile_cap).
+   1. Wählen Sie in **[!UICONTROL Aktivitätseinstellungen]** Optimieren) die Methode **[!UICONTROL Bedingungen]** und setzen Sie das Feld **[!UICONTROL Typ]** auf **[!UICONTROL Profilbegrenzung]**. [Weitere Informationen](conditions.md#profile_cap).
 
    1. Legen Sie das Feld **[!UICONTROL Limit]** auf die maximale Anzahl an Empfängern für diesen Versand fest.
 

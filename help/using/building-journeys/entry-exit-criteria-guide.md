@@ -9,10 +9,10 @@ level: Intermediate
 keywords: Eintritt, Ausstieg, Kriterien, Journey, Profil, Wiedereintritt, Best Practices
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '1560'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Dieses Handbuch enthält praktische Anleitungen, Beispiele aus der Praxis und Be
 
 * **Erreichen der Erfolgsmetrik** – Profile steigen aus, wenn sie das [Journey-Ziel](success-metrics.md) erreicht haben, z. B. einen Kauf getätigt oder eine App heruntergeladen haben, wodurch unnötige Nachfolgekommunikation entfällt.
 
-* **Bedingungsbasiert** – Profile steigen aus, wenn [bestimmte Bedingungen](condition-activity.md) erfüllt sind, z. B. Inaktivität über einen bestimmten Zeitraum oder Änderungen an Profilattributen.
+* **Bedingungsbasiert** – Profile steigen aus, wenn [bestimmte Bedingungen](conditions.md) erfüllt sind, z. B. Inaktivität über einen bestimmten Zeitraum oder Änderungen an Profilattributen.
 
 * **Ereignisbasiert** – Profile steigen aus, wenn [bestimmte Ereignisse](../event/about-events.md) wie Abonnementkündigung oder Produktrückgabe eintreten.
 
@@ -102,11 +102,11 @@ Sammeln Sie Erkenntnisse über Kundenzufriedenheit und Produktleistung, indem Si
 
 * **[Ereignisbasierte Trigger:](../event/about-events.md)** Verwenden Sie Ereignisse wie „Profilerstellung“, „Transaktion abgeschlossen“ oder benutzerdefinierte Ereignisse, um eine Journey zu starten. [Konfigurieren Sie Ereignisse](../event/about-creating.md) unter **[!UICONTROL Administration]** > **[!UICONTROL Ereignisse]** und definieren Sie [Ereignisschema und -felder](../event/experience-event-schema.md). Fügen Sie dann das Ereignis aus der **[!UICONTROL Ereignisse]**-Palette im [Journey-Designer hinzu](using-the-journey-designer.md).
 
-* **[Zielgruppenbasierter Eintritt:](read-audience.md)** Richten Sie Journeys an Profile, die zu bestimmten Zielgruppen gehören, entweder als einmaligen Batch oder gemäß einem wiederkehrenden Zeitplan. [Zielgruppen erstellen](../audience/creating-a-segment-definition.md) im Menü **[!UICONTROL Zielgruppen]** fügen Sie dann eine Aktivität **[!UICONTROL Zielgruppe lesen]** hinzu und [&#x200B; Sie den Zeitplan](journey-properties.md#schedule). Verwenden Sie nach der Eingabe Bedingungen [Segmentieren, Ausschließen oder Zusammenführen von Verzweigungen](read-audience.md#audience-targeting-in-journeys).
+* **[Zielgruppenbasierter Eintritt:](read-audience.md)** Richten Sie Journeys an Profile, die zu bestimmten Zielgruppen gehören, entweder als einmaligen Batch oder gemäß einem wiederkehrenden Zeitplan. [Zielgruppen erstellen](../audience/creating-a-segment-definition.md) im Menü **[!UICONTROL Zielgruppen]** fügen Sie dann eine Aktivität **[!UICONTROL Zielgruppe lesen]** hinzu und [ Sie den Zeitplan](journey-properties.md#schedule). Verwenden Sie nach der Eingabe Bedingungen [Segmentieren, Ausschließen oder Zusammenführen von Verzweigungen](read-audience.md#audience-targeting-in-journeys).
 
 * **[Eintritt nach Zielgruppenqualifizierung:](audience-qualification-events.md)** Lösen Sie Journeys in Echtzeit aus, wenn Profile sich für bestimmte Zielgruppen qualifizieren oder aus ihnen aussteigen. Definieren Sie [Streaming-Zielgruppen](../audience/about-audiences.md), fügen Sie ein Ereignis des Typs **[!UICONTROL Zielgruppenqualifizierung]** aus der Palette **[!UICONTROL Ereignisse]** hinzu und wählen Sie den Trigger-Typ aus.
 
-* **[Attributfilter:](condition-activity.md)** Verfeinern Sie Eintrittskriterien, indem Sie Ereignisse oder Zielgruppen mit Profilattributen und Kontext mithilfe der UND/ODER-Logik kombinieren. Verwenden Sie [Bedingungen](conditions.md), um auf [Profilattribute](../audience/get-started-profiles.md), Ereignisse oder [externe Daten](../datasource/about-data-sources.md) zu verweisen.
+* **[Attributfilter:](conditions.md)** Verfeinern Sie Eintrittskriterien, indem Sie Ereignisse oder Zielgruppen mit Profilattributen und Kontext mithilfe der UND/ODER-Logik kombinieren. Verwenden Sie [Bedingungen](conditions.md), um auf [Profilattribute](../audience/get-started-profiles.md), Ereignisse oder [externe Daten](../datasource/about-data-sources.md) zu verweisen.
 
 * **[Zeitfenster und Planung:](journey-properties.md#schedule)** Legen Sie Zeitbeschränkungen fest, damit Journeys zeitgerecht und relevant bleiben. Konfigurieren Sie [Zeitpläne für Aktivitäten des Typs „Zielgruppe lesen“](read-audience.md), verwenden Sie [Warteaktivitäten](wait-activity.md) und fügen Sie [zeitbasierte Bedingungen](conditions.md) hinzu, um das Timing zu steuern.
 
@@ -122,7 +122,7 @@ Sammeln Sie Erkenntnisse über Kundenzufriedenheit und Produktleistung, indem Si
 
 * **[Erreichen einer Erfolgsmetrik:](journey-properties.md#exit-criteria)** Definieren Sie Erfolgsmetriken (wie Kauf oder Abonnement) und lassen Sie Profile nach Abschluss aussteigen. Klicken Sie auf das Symbol **[!UICONTROL Ausstiegskriterien anzeigen]**, wählen Sie **[!UICONTROL Ausstiegskriterien hinzufügen]** und wählen Sie ein [Ereignis](../event/about-events.md) oder eine [Zielgruppe](../audience/about-audiences.md) als Trigger aus.
 
-* **[Timeouts bei Inaktivität](wait-activity.md)**: Profile sollen aussteigen, wenn innerhalb eines bestimmten Zeitraums keine Interaktion auftritt. Verwenden Sie [Ausstiegskriterien](journey-properties.md#exit-criteria) mit Zielgruppen, die das Datum der letzten Interaktion prüfen, legen Sie [Warteaktivitäten](wait-activity.md) mit definierten Dauer fest und verwenden Sie [Bedingungen](condition-activity.md), um auf Aktivität zu prüfen.
+* **[Timeouts bei Inaktivität](wait-activity.md)**: Profile sollen aussteigen, wenn innerhalb eines bestimmten Zeitraums keine Interaktion auftritt. Verwenden Sie [Ausstiegskriterien](journey-properties.md#exit-criteria) mit Zielgruppen, die das Datum der letzten Interaktion prüfen, legen Sie [Warteaktivitäten](wait-activity.md) mit definierten Dauer fest und verwenden Sie [Bedingungen](conditions.md), um auf Aktivität zu prüfen.
 
 * **[Regeln für den erneuten Eintritt:](entry-management.md)** Entscheiden Sie, ob Profile je nach Kampagnenstrategie mehrmals oder nur einmal in die Journey eintreten können. Konfigurieren Sie die Einstellungen für den **[!UICONTROL Wiedereintritt]** in den **[!UICONTROL Eigenschaften]** der Journey, um Wartezeiten festzulegen, den erzwungenen Wiedereintritt zu aktivieren oder [zusätzliche Kennungen](supplemental-identifier.md) für den kontextspezifischen Wiedereintritt zu verwenden.
 
@@ -146,7 +146,7 @@ Eine schrittweise Implementierungsanleitung mit vollständigen technischen Detai
 
 >[!TIP]
 >
->Durchsuchen Sie alle verfügbaren Anwendungsfälle in der [Journey-Anwendungsfallbibliothek, &#x200B;](jo-use-cases.md) Sie nach weiteren Mustern und Implementierungen. Beispiele sind [Steigern von &#x200B;](ramp-up-deliveries-uc.md), [Erlebnisereignismuster](exp-event-lookup.md) und [Entfernen von Profilen aus Live-Journey](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Durchsuchen Sie alle verfügbaren Anwendungsfälle in der [Journey-Anwendungsfallbibliothek, ](jo-use-cases.md) Sie nach weiteren Mustern und Implementierungen. Beispiele sind [Steigern von ](ramp-up-deliveries-uc.md), [Erlebnisereignismuster](exp-event-lookup.md) und [Entfernen von Profilen aus Live-Journey](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Best Practices für die Verwaltung von Eintritten und Ausstiegen {#best-practices}
 
@@ -208,8 +208,8 @@ Beginnen Sie damit, Ihre Kunden-Trigger und Ausstiegspunkte klar zuzuordnen, gr�
 
 **Tutorials und Beispiele**
 
-[Journey-Anwendungsfälle](jo-use-cases.md) | [Video zum Kunden-Onboarding](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video zu Warenkorbabbrüchen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Community-Blog: Eintritts- und Ausstiegskriterien](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=de)
+[Journey-Anwendungsfälle](jo-use-cases.md) | [Video zum Kunden-Onboarding](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video zu Warenkorbabbrüchen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Community-Blog: Eintritts- und Ausstiegskriterien](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Verwandte Funktionen**
 
-[Zielgruppenqualifizierungsereignisse](audience-qualification-events.md) | [Erfolgsmetriken und Ziele](success-metrics.md) | [Konflikt-Management](../conflict-prioritization/conflicts.md) | [Frequenzbegrenzung](../conflict-prioritization/rule-sets.md) | [Testen von Journeys](testing-the-journey.md) | [Bedingungsaktivität](condition-activity.md) | [Reaktionsereignisse](reaction-events.md) | [Warteaktivität](wait-activity.md)
+[Zielgruppen-Qualifizierungsereignisse](audience-qualification-events.md) | [Erfolgsmetriken und -ziele](success-metrics.md) | [Konfliktmanagement](../conflict-prioritization/conflicts.md) | [Frequenzlimitierung](../conflict-prioritization/rule-sets.md) | [Journey testen](testing-the-journey.md) | [Aktivität optimieren](optimize.md) | [Reaktionsereignisse](reaction-events.md) | [Warteaktivität](wait-activity.md)

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Zeitzone, Eigenschaften, Journey, Bedingung, Uhrzeit, Datum, benutzerdefiniert
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 65%
@@ -31,8 +31,8 @@ Um die Eigenschaften der Journey aufzurufen, wählen Sie das Stiftsymbol oben re
 
 Diese Zeitzone wird für jede Aktivität der Journey verwendet, die ein Zeitelement enthält, z. B.:
 
-* [Zeitbedingung](../building-journeys/condition-activity.md#time_condition)
-* [Bedingung für das Datum](../building-journeys/condition-activity.md#date_condition)
+* [Zeitbedingung](../building-journeys/conditions.md#time_condition)
+* [Bedingung für das Datum](../building-journeys/conditions.md#date_condition)
 * [Benutzerdefinierte Wartezeit](../building-journeys/wait-activity.md#custom)
 
 <!--

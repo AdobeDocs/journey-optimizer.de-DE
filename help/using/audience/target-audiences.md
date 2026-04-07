@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -53,7 +53,7 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
   Bei Journeys, die Zielgruppen aus der Zielgruppenkomposition oder dem benutzerdefinierten Upload verwenden, sind Profilattribute so aktuell wie die letzte Batch-Auswertung beim Journey-Eintritt. Nach einer Aktivität des Typs **Warten** aktualisiert die Journey jedoch Profilattribute vom Unified Profile Service (UPS). Dabei werden die neuesten verfügbaren Daten abgerufen, was bedeutet, dass sich die Profilattribute während der Journey-Ausführung ändern können. [Weitere Informationen zur Aktualisierung von Profilen nach einer Aktivität des Typs „Warten“](../building-journeys/wait-activity.md#profile-refresh)
 
-* Verwenden Sie die Aktivität **Bedingung** in einer Journey, um Bedingungen zu erstellen, die auf der Zielgruppenzugehörigkeit basieren. [Erfahren Sie, wie Sie Zielgruppen in Bedingungen verwenden](../building-journeys/condition-activity.md#using-a-segment).
+* Verwenden Sie die **Optimieren**-Aktivität in einem Journey, um Bedingungen zu erstellen, die auf der Zielgruppenzugehörigkeit basieren. [Erfahren Sie, wie Sie Zielgruppen in Bedingungen verwenden](../building-journeys/conditions.md#using-a-segment).
 
 * Verwenden Sie die Ereignisaktivität **Zielgruppen-Qualifizierung**, um Personen auf der Grundlage von Adobe Experience Platform-Zielgruppeneintritten und -austritten zu veranlassen, in eine Journey einzutreten oder damit fortzufahren. So können Sie z. B. alle neuen Silber-Kundinnen und -Kunden in eine Journey eintreten lassen und ihnen Nachrichten senden. [Weitere Informationen zur Konfiguration einer Aktivität des Typs „Zielgruppenqualifizierung“](../building-journeys/audience-qualification-events.md).
 
