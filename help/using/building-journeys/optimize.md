@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey, Optimierung
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 31%
@@ -34,13 +34,13 @@ Mit der Aktivität **Optimieren** können Sie festlegen, wie Einzelpersonen Ihre
 
 ![Schaltfläche „Optimieren“ in der Palette „Journey-Aktivität“](assets/journey-optimize.png)
 
-## Was ist ein Journey-Pfad?
+## Was ist ein Journey-Pfad? {#journey-path}
 
 Ein Journey-**Pfad** kann aus beliebigen der folgenden Variablen bestehen: Sequenzierung von Nachrichten, dazwischen liegende Zeit, Anzahl der Nachrichten oder eine beliebige Kombination dieser drei Variablen.
 
 Ein Pfad kann beispielsweise eine E-Mail enthalten, ein anderer zwei SMS-Nachrichten und ein dritter eine E-Mail, einen Knoten, um zwei Stunden zu warten, und dann eine SMS-Nachricht.
 
-## Drei Möglichkeiten zur Optimierung Ihrer Journey
+## Drei Möglichkeiten zur Optimierung Ihrer Journey {#optimization-methods}
 
 Durch die Aktivität **Optimieren** können Sie die folgenden Aktionen für Ihre Journey-Pfade ausführen:
 
@@ -54,11 +54,11 @@ Durch die Aktivität **Optimieren** können Sie die folgenden Aktionen für Ihre
 
 * [Bedingungen anwenden](conditions.md) - Erstellen Sie bedingte Pfade basierend auf bestimmten Kriterien wie Datenquellen, Zeit, Datum, Prozentaufspaltungen oder Profilobergrenzen. Dies entspricht der vorherigen Aktivität vom Typ Bedingung .
 
-## Funktionsweise
+## Funktionsweise {#how-it-works}
 
 Sobald die Journey live ist, werden die Profile anhand der definierten Kriterien bewertet und basierend auf den passenden Kriterien auf den entsprechenden Pfad der Journey weitergeleitet.
 
-## Nächste Schritte
+## Nächste Schritte {#next-steps}
 
 Wählen Sie die Optimierungsmethode aus, die am besten zu Ihrem Anwendungsfall passt:
 
