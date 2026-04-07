@@ -54,7 +54,7 @@ Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen ab
 
 ## Wählen Ihrer Datenzugriffsstrategie {#data-access-strategy}
 
-Bevor Sie eine Datenquelle konfigurieren, überlegen Sie, welcher Ansatz Ihrem Anwendungsfall am besten entspricht. Es stehen drei Optionen zur Verfügung, die jeweils unterschiedliche Kompromisse hinsichtlich Persistenz, Profilanreicherung und Wiederverwendbarkeit aufweisen. Eine ausführliche Erläuterung dieser Optionen finden Sie unter [Best Practices für erweiterte Journey in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Bevor Sie eine Datenquelle konfigurieren, überlegen Sie, welcher Ansatz Ihrem Anwendungsfall am besten entspricht. Es stehen drei Optionen zur Verfügung, die jeweils unterschiedliche Kompromisse hinsichtlich Persistenz, Profilanreicherung und Wiederverwendbarkeit aufweisen. Eine ausführliche Erläuterung dieser Optionen finden Sie unter [Best Practices für erweiterte Journey in Journey Optimizer](https://experienceleague.adobe.com/de/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Option 1 - Zugriff auf externe Daten über benutzerdefinierte Aktionen (kein Data Lake)**
 
