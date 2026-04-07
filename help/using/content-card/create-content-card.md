@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 89%
+source-wordcount: '1480'
+ht-degree: 88%
 
 ---
 
@@ -129,6 +129,10 @@ Gehen Sie wie folgt vor, um mit der Erstellung der Inhaltskarten durch eine Kamp
    ![](assets/content-card-create-2.png)
 
 1. Wählen oder erstellen Sie eine neue [Inhaltskartenkonfiguration](content-card-configuration.md).
+
+1. Wählen Sie eine [Konfiguration des Posteingangs](../inbox/inbox-configuration.md), die die Oberfläche des Posteingangs für diese **Inhaltskarte** definiert.
+
+   ![](assets/content-card-create-2.png)
 
 1. Um den Inhalt Ihrer Nachricht zu testen, klicken Sie auf **[!UICONTROL Experiment erstellen]**. Auf diese Weise können Sie mehrere Variablen eines Versands für Stichprobenpopulationen testen, um festzustellen, welche Behandlung die größte Auswirkung auf die Zielgruppe hat. [Weitere Informationen zu Inhaltskomponenten](../content-management/content-experiment.md)
 

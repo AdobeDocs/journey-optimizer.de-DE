@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 95%
+source-wordcount: '3185'
+ht-degree: 94%
 
 ---
 
@@ -392,6 +392,11 @@ ht-degree: 95%
          + [Konfigurieren der Unterstützung für Inhaltskarten in Web-SDK](using/content-card/content-card-configuration-sdk.md)
       + [Erstellen von Inhaltskarten](using/content-card/create-content-card.md)
       + [Entwerfen von Inhaltskarten](using/content-card/design-content-card.md)
+   + Posteingang {#inbox}
+      + [Erste Schritte mit dem Posteingang](using/inbox/inbox-gs.md)
+      + [Konfigurieren des Posteingangskanals in Journey Optimizer](using/inbox/inbox-configuration.md)
+      + [Erstellen des Posteingangs](using/inbox/inbox-create.md)
+      + [Gestalten Ihres Posteingangs](using/inbox/inbox-design.md)
    + WhatsApp {#whatsapp}
       + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
       + [Erste Schritte mit WhatsApp-Nachrichten](using/whatsapp/get-started-whatsapp.md)
