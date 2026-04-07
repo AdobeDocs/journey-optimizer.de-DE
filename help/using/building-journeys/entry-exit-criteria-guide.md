@@ -102,7 +102,7 @@ Sammeln Sie Erkenntnisse über Kundenzufriedenheit und Produktleistung, indem Si
 
 * **[Ereignisbasierte Trigger:](../event/about-events.md)** Verwenden Sie Ereignisse wie „Profilerstellung“, „Transaktion abgeschlossen“ oder benutzerdefinierte Ereignisse, um eine Journey zu starten. [Konfigurieren Sie Ereignisse](../event/about-creating.md) unter **[!UICONTROL Administration]** > **[!UICONTROL Ereignisse]** und definieren Sie [Ereignisschema und -felder](../event/experience-event-schema.md). Fügen Sie dann das Ereignis aus der **[!UICONTROL Ereignisse]**-Palette im [Journey-Designer hinzu](using-the-journey-designer.md).
 
-* **[Zielgruppenbasierter Eintritt:](read-audience.md)** Richten Sie Journeys an Profile, die zu bestimmten Zielgruppen gehören, entweder als einmaligen Batch oder gemäß einem wiederkehrenden Zeitplan. [Zielgruppen erstellen](../audience/creating-a-segment-definition.md) im Menü **[!UICONTROL Zielgruppen]** fügen Sie dann eine Aktivität **[!UICONTROL Zielgruppe lesen]** hinzu und [ Sie den Zeitplan](journey-properties.md#schedule). Verwenden Sie nach der Eingabe Bedingungen [Segmentieren, Ausschließen oder Zusammenführen von Verzweigungen](read-audience.md#audience-targeting-in-journeys).
+* **[Zielgruppenbasierter Eintritt:](read-audience.md)** Richten Sie Journeys an Profile, die zu bestimmten Zielgruppen gehören, entweder als einmaligen Batch oder gemäß einem wiederkehrenden Zeitplan. [Zielgruppen erstellen](../audience/creating-a-segment-definition.md) im Menü **[!UICONTROL Zielgruppen]** fügen Sie dann eine Aktivität **[!UICONTROL Zielgruppe lesen]** hinzu und [&#x200B; Sie den Zeitplan](journey-properties.md#schedule). Verwenden Sie nach der Eingabe Bedingungen [Segmentieren, Ausschließen oder Zusammenführen von Verzweigungen](read-audience.md#audience-targeting-in-journeys).
 
 * **[Eintritt nach Zielgruppenqualifizierung:](audience-qualification-events.md)** Lösen Sie Journeys in Echtzeit aus, wenn Profile sich für bestimmte Zielgruppen qualifizieren oder aus ihnen aussteigen. Definieren Sie [Streaming-Zielgruppen](../audience/about-audiences.md), fügen Sie ein Ereignis des Typs **[!UICONTROL Zielgruppenqualifizierung]** aus der Palette **[!UICONTROL Ereignisse]** hinzu und wählen Sie den Trigger-Typ aus.
 
@@ -146,7 +146,7 @@ Eine schrittweise Implementierungsanleitung mit vollständigen technischen Detai
 
 >[!TIP]
 >
->Durchsuchen Sie alle verfügbaren Anwendungsfälle in der [Journey-Anwendungsfallbibliothek, ](jo-use-cases.md) Sie nach weiteren Mustern und Implementierungen. Beispiele sind [Steigern von ](ramp-up-deliveries-uc.md), [Erlebnisereignismuster](exp-event-lookup.md) und [Entfernen von Profilen aus Live-Journey](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Durchsuchen Sie alle verfügbaren Anwendungsfälle in der [Journey-Anwendungsfallbibliothek, &#x200B;](jo-use-cases.md) Sie nach weiteren Mustern und Implementierungen. Beispiele sind [Steigern von &#x200B;](ramp-up-deliveries-uc.md), [Erlebnisereignismuster](exp-event-lookup.md) und [Entfernen von Profilen aus Live-Journey](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Best Practices für die Verwaltung von Eintritten und Ausstiegen {#best-practices}
 
