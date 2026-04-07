@@ -18,7 +18,7 @@ Das Design des Posteingangs bestimmt, wie jede Nachricht an Zielgruppenprofile i
 
 Eine vollständige Anleitung zum Erstellen einer Posteingangskampagne finden Sie unter [Erstellen eines Posteingangs](inbox-create.md).
 
-1. Öffnen Sie die **[!UICONTROL Inhalt]** der von [ erstellten Posteingangskampagne](inbox-create.md).
+1. Öffnen Sie die **[!UICONTROL Inhalt]** der von [&#x200B; erstellten Posteingangskampagne](inbox-create.md).
 
 1. Legen Sie den **[!UICONTROL Container-Titel]** fest.
 
