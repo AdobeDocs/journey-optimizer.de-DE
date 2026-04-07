@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 99%
+source-wordcount: '2496'
+ht-degree: 98%
 
 ---
 
@@ -444,6 +444,9 @@ Helper werden auf [dieser Seite](helpers.md) näher beschrieben.
     </tr>
     <tr>
         <td><a href="helpers.md#each">Jeweils</a></td><td>Diese Funktion wird verwendet, um über ein Array zu iterieren</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#dataset-lookup">Datensatzsuche</a></td><td>Dieser Helper ruft Felder aus Adobe Experience Platform-Datensatzdatensätzen zur Render-Zeit mithilfe eines Suchschlüssels ab</td>
     </tr>
     <tr>
         <td><a href="helpers.md#execution-metadata">Ausführungsmetadaten</a></td><td>Diese Hilfsfunktion erfasst benutzerdefinierte Schlüssel-Wert-Metadaten beim Rendern der Nachricht, damit sie im Metadatenobjekt der Laufzeitausführung gespeichert werden können</td>

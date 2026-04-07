@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 63%
+source-wordcount: '1124'
+ht-degree: 59%
 
 ---
 
@@ -215,6 +215,26 @@ Im folgenden Beispiel können Sie die Gesamtsumme der Preise für Produkte im Wa
     {{/each}}
 {{sum}}
 ```
+
+## Datensatzsuche {#dataset-lookup}
+
+>[!AVAILABILITY]
+>
+>Diese Funktion steht derzeit allen Kundinnen und Kunden eingeschränkt zur Verfügung.
+>
+>Derzeit kann die Hilfsfunktion `datasetLookup` in Ausdrucksfragmenten für eine begrenzte Anzahl von Kunden verwendet werden. Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
+
+Der `datasetLookup`-Helper ruft während der Personalisierung Daten aus Adobe Experience Platform-Datensatzdatensätzen ab, damit Sie Feldwerte verwenden können, die nicht im Profil oder in der Ereignis-Payload gespeichert sind.
+
+**Syntax**
+
+```sql
+{{datasetLookup datasetId="datasetId" id="key" result="store" required=false}}
+```
+
+Referenzieren Sie die abgerufenen Felder mit `{{result.fieldId}}`, wobei `result` der Wert ist, den Sie an den `result` übergeben.
+
+Informationen zur Aktivierung von Datensätzen, Parameterdetails, Beispiele und Tests finden Sie unter [Verwenden von Adobe Experience Platform-Daten für die Personalisierung](../aep-data-perso.md).
 
 ## Ausführungsmetadaten {#execution-metadata}
 
