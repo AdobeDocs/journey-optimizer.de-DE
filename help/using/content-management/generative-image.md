@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
-source-git-commit: 57916f631c0154113699ca941a635678813561fe
+source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 96%
+source-wordcount: '1504'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ Erfahren Sie, wie Sie effektive Prompts erstellen und Bildeinstellungen konfigur
 
 1. Passen Sie Ihr Prompt mit der Option **[!UICONTROL Bildeinstellungen]** an:
 
-   * **[!UICONTROL Generatives Modell]**: Wählen Sie aus dem einsatzbereiten **[!UICONTROL Adobe-]**, dem **[!UICONTROL Partnermodell]** für spezielle Funktionen oder **[!UICONTROL Benutzerdefinierte Modelle]**, die auf Ihren Marken-Assets trainiert wurden. [Weitere Informationen](generative-models.md)
+   * **[!UICONTROL Generatives Modell]**: Wählen Sie aus dem einsatzbereiten **[!UICONTROL Adobe-]**, dem **[!UICONTROL Partnermodell]** für spezielle Funktionen oder **[!UICONTROL Benutzerdefinierte Modelle]**, die auf Ihren Marken-Assets trainiert wurden. [Weitere Informationen](generative-models.md). Um das Partnermodell (**Gemini**) mit **Textüberlagerungen** auf generierten Bildern zu verwenden, siehe [Verwenden von Gemini als generatives Modell für Textüberlagerungsbild](generative-uc.md#generative-gemini).
    * **[!UICONTROL Seitenverhältnis]**: Dadurch wird die Breite und Höhe des Assets bestimmt. Sie können aus gängigen Verhältnissen wie 16:9, 4:3, 3:2 oder 1:1 wählen oder eine benutzerdefinierte Größe eingeben.
    * **[!UICONTROL Content-Typ]**: Hiermit wird die Art des visuellen Elements kategorisiert, wobei zwischen verschiedenen Arten der visuellen Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
    * **[!UICONTROL Visuelle Intensität]**: Sie können die Wirkung des Bildes durch Anpassen seiner Intensität steuern. Eine niedrigere Einstellung (2) sorgt für ein weicheres, zurückhaltenderes Erscheinungsbild, während eine höhere Einstellung (10) das Bild lebendiger und visuell kräftiger macht.
@@ -149,7 +149,7 @@ Nachdem Sie auf den KI-Assistenten zugegriffen haben, können Sie die Generierun
 
 1. Wählen Sie die **[!UICONTROL Bildeinstellungen]**:
 
-   * **[!UICONTROL Generatives Modell]**: Wählen Sie aus dem einsatzbereiten **[!UICONTROL Adobe-]**, dem **[!UICONTROL Partnermodell]** für spezielle Funktionen oder **[!UICONTROL Benutzerdefinierte Modelle]**, die auf Ihren Marken-Assets trainiert wurden. [Weitere Informationen](generative-models.md)
+   * **[!UICONTROL Generatives Modell]**: Wählen Sie aus dem einsatzbereiten **[!UICONTROL Adobe-]**, dem **[!UICONTROL Partnermodell]** für spezielle Funktionen oder **[!UICONTROL Benutzerdefinierte Modelle]**, die auf Ihren Marken-Assets trainiert wurden. [Weitere Informationen](generative-models.md). Um das Partnermodell (**Gemini**) mit **Textüberlagerungen** auf generierten Bildern zu verwenden, siehe [Verwenden von Gemini als generatives Modell für Textüberlagerungsbild](generative-uc.md#generative-gemini).
    * **[!UICONTROL Content-Typ]**: Hiermit wird die Art des visuellen Elements kategorisiert, wobei zwischen verschiedenen Arten der visuellen Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
    * **[!UICONTROL Visuelle Intensität]**: Sie können die Wirkung des Bildes durch Anpassen seiner Intensität steuern. Eine niedrigere Einstellung (2) sorgt für ein weicheres, zurückhaltenderes Erscheinungsbild, während eine höhere Einstellung (10) das Bild lebendiger und visuell kräftiger macht.
    * **[!UICONTROL Farbe und Ton]**: Die Gesamterscheinung der Farben in einem Bild und die Stimmung oder Atmosphäre, die diese vermittelt.
