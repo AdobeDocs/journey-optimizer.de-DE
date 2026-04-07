@@ -5,10 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: 337b8ed47892ef06a84884468919e32a333653f3
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 1%
+source-wordcount: '318'
+ht-degree: 0%
 
 ---
 
@@ -42,3 +42,9 @@ Führen Sie die folgenden Schritte aus, um den Posteingang zu konfigurieren und 
 1. [Erstellen Sie Ihre Inhaltskarte und verknüpfen Sie sie mit Ihrem Posteingang](../content-card/create-content-card.md)
 
    Erstellen Sie den Karteninhalt im Designer, beenden Sie die für den Posteingang spezifischen Optionen und aktivieren Sie dann Ihre Kampagne, damit die Nachrichten den Posteingang erreichen.
+
+## Zusätzliche Ressourcen
+
+* [Posteingang abrufen und anzeigen](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): Laden Sie Journey Optimizer-Posteingangsnachrichten und rendern Sie die Benutzeroberfläche des Posteingangs auf Android (Dokumentation zu Adobe Developer).
+* [Posteingang anpassen](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/): Passen Sie das Layout, den Stil und das Interaktionsverhalten des Posteingangs für Ihre Android-App an (Dokumentation zu Adobe Developer).
+* [Überwachen von Posteingangsereignissen](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Abonnieren von Posteingangsrückrufen für Benutzeraktionen und Lebenszyklusaktualisierungen auf Android (Dokumentation zu Adobe Developer).
