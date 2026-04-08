@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
+source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 84%
+source-wordcount: '761'
+ht-degree: 83%
 
 ---
 
@@ -105,7 +105,7 @@ Im Folgenden finden Sie Definitionen, häufige Ursachen und Schritte zur Fehlerb
 
   **Häufige Ursachen**: Die Journey-Instanz des Profils wird bei einem langwierigen Schritt blockiert (z. B. lange Wartezeiten, langsame Anreicherungen oder erneute Versuche für benutzerdefinierte Aktionen), und die Ereignisse für dasselbe, die auch auf dieser Journey verwendet werden, häufen sich über das Limit von 10 Ereignissen hinaus.
 
-  **Fehlerbehebung**: Langwierige Schritte für Pfade reduzieren, bei denen häufig Trigger wiederholt wird, Upstream-Ereignisse debounces oder dedupliziert werden und lange Szenarien in mehrere Journey unterteilt werden können. Dies ist eine Sicherheitsmaßnahme, und das Limit kann nicht konfiguriert werden. Weitere Ereignisse werden verworfen, bis der Stack abläuft. Weitere Anleitungen finden Sie unter [Verworfene Ereignisse mit maxInstanceStackEventsReached](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
+  **Fehlerbehebung**: Langwierige Schritte für Pfade reduzieren, bei denen häufig Trigger wiederholt wird, Upstream-Ereignisse debounces oder dedupliziert werden und lange Szenarien in mehrere Journey unterteilt werden können. Dies ist eine Sicherheitsmaßnahme, und das Limit kann nicht konfiguriert werden. Weitere Ereignisse werden verworfen, bis der Stack abläuft. Weitere Anleitungen finden Sie unter [Ereignisse, die aufgrund einer blockierten Journey-Instanz verworfen wurden](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
 * **EVENT_WITH_NO_JOURNEY**: Ein Ereignis wurde empfangen, aber es ist keine aktive Journey konfiguriert, um darauf zu reagieren.
 
