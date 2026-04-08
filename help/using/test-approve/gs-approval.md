@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: e6cac6aff79b30a308be480319902f478436391d
+source-git-commit: 58d83c2d3c6c1d3b3c680e394323de33321eeb6e
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 59%
+source-wordcount: '966'
+ht-degree: 53%
 
 ---
 
@@ -36,7 +36,7 @@ Um Journey und Kampagnen zu genehmigen und zu veröffentlichen, müssen Benutzen
 
 1. Fügen Sie die Ressource **Kampagnen** hinzu und wählen Sie dann **Kampagnen genehmigen und veröffentlichen** aus dem Dropdown-Menü aus.
 
-   ![Berechtigung zum Zuweisen, Genehmigen und Veröffentlichen &#x200B;](assets/permissions_approval.png){zoomable="yes"}
+   ![Berechtigung zum Zuweisen, Genehmigen und Veröffentlichen ](assets/permissions_approval.png){zoomable="yes"}
 
 1. Fügen Sie die Ressource **Journey** hinzu und wählen Sie dann **Journeys genehmigen und veröffentlichen** aus dem Dropdown-Menü aus.
 
@@ -107,6 +107,20 @@ Nein. Nach der Übermittlung zur Validierung befindet sich die Kampagne oder Jou
 +++Ich sehe die Berechtigung Genehmigen und Veröffentlichen in der Dropdown-Liste nicht - was soll ich überprüfen?
 
 Stellen Sie sicher, dass Sie zuerst die richtige Ressource hinzufügen. Für die Berechtigung **Kampagnen genehmigen und veröffentlichen** muss die Ressource **Kampagnen** zur Rolle hinzugefügt werden und **Journey genehmigen und veröffentlichen** ist die Ressource **Journey** erforderlich. Beide müssen separat hinzugefügt werden. [Erfahren Sie, wie Sie genehmigungsbezogene Berechtigungen zuweisen](#prerequisites)
+
++++
+
++++Wie bestimmt [!DNL Journey Optimizer], welche Genehmigungsrichtlinie gilt, wenn mehr als eine Richtlinie übereinstimmen könnte?
+
+Wenn mehrere aktive Genehmigungsrichtlinien auf dieselbe Journey oder Kampagne angewendet werden können, hat die Richtlinie, **zuletzt aktiviert wurde,**. Die in dieser Richtlinie definierten Benutzergruppen für genehmigende Personen sind diejenigen, die benachrichtigt werden und die Anfrage steuern.
+
+[Weitere Informationen](approval-policies.md#multiple-policies)
+
++++
+
++++Wenn ein Antragsteller mehreren Benutzergruppen angehört, kann er dann auswählen, an welche Gruppe die Genehmigungsanfrage gesendet werden soll?
+
+Nein. Anfordernde können nicht manuell auswählen, welche Benutzergruppe die Genehmigungsanfrage erhält oder weiterleitet. Die Benutzergruppen, die in der geltenden Genehmigungsrichtlinie angegeben sind, werden entsprechend [Richtlinienpriorität](approval-policies.md#multiple-policies) automatisch benachrichtigt.
 
 +++
 
