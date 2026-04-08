@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 keywords: Landing, Landingpage, Konfigurieren, Umgebung, Subdomain, Voreinstellungen
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen:
 
    >[!NOTE]
    >
-   >Um eine Subdomain auswählen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben. [Weitere Informationen dazu](lp-subdomains.md)
+   >Um eine Subdomain auswählen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben. [Weitere Informationen](lp-subdomains.md)
 
    Die der ausgewählten Subdomain entsprechenden Einstellungen werden angezeigt.
 
@@ -88,7 +88,8 @@ Sie sind nun bereit, in [!DNL Journey Optimizer] [Landingpages zu erstellen](../
 <!--
 >[!NOTE]
 >
->Learn how to create channel configurations for push notifications and emails in [this section](channel-surfaces.md).-->
+>Learn how to create channel configurations for push notifications and emails in [this section](channel-surfaces.md).
+-->
 
 **Verwandte Themen**:
 

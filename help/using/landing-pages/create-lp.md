@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 93%
@@ -91,7 +91,8 @@ Nachdem Sie die [Primärseite](#configure-primary-page) und die [Unterseiten](#c
 >title="Definieren der primären Seiteneinstellungen"
 >abstract="Die primäre Seite erscheint den Benutzenden sofort, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, beispielsweise in einer E-Mail oder auf einer Website."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=de" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
@@ -138,9 +139,11 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
    ![](assets/lp_expiry-date.png)
 
-<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-additional-data).
+<!--
+1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-additional-data).
 
-    ![](assets/lp_create-lp-additional-data.png)-->
+    ![](assets/lp_create-lp-additional-data.png)
+-->
 
 1. Wenn Sie beim [Erstellen der Primärseite](design-lp.md) eine oder mehrere Abonnement-Listen ausgewählt haben, werden diese im Abschnitt **[!UICONTROL Abonnement-Liste]** angezeigt.
 
@@ -253,14 +256,14 @@ Es können zwei Arten von Warnhinweisen auftreten:
 >
 > Sie müssen vor der Veröffentlichung alle Warnhinweise zu **Fehlern** beheben.
 
-<!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
+<!--
+The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
 **Warnings**:
 
 * 
 
 **Errors**:
-
 -->
 
 ## Veröffentlichen der Landingpage {#publish-landing-page}

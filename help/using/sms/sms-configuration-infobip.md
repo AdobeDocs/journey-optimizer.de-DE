@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 70%
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
    +++ Liste der SMS-Anmeldedaten für die Konfiguration
 
    | Konfigurationsfelder | Beschreibung |
-   |---|---|    
+   |---|---|
    | SMS-Anbieter | Infobip |
    | Name | Wählen Sie einen Namen für Ihre API-Anmeldedaten. |
    | API-Basis-URL und API-Schlüssel | Rufen Sie die Startseite Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf. Dort finden Sie Ihre Anmeldedaten. Geben Sie für regionale oder alternative Domain-Endpunkte, z. B. `api-ny2.infobip.com`, die vollständige Basis-URL an und überprüfen Sie Ihr Autorisierungs-Token mit Infobip-Unterstützung. </br>Weitere Informationen finden Sie in der [Infobip-Dokumentation](https://www.infobip.com/docs/api){target="_blank"}. |
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
    | Opt-out-Nachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Opt-out-Nachricht gesendet wird. |
    | Hilfe-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre **Hilfemeldung“ automatisch Trigger erhält**. Verwenden Sie für mehrere Keywords kommagetrennte Werte. |
    | Hilfenachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfe-Nachricht“ gesendet**. |
-   | Double-Opt-in-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die Keywords ein, die den doppelten Opt-in-Prozess Trigger machen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3440289/?captions=ger&learn=on). |
+   | Double-Opt-in-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die Keywords ein, die den doppelten Opt-in-Prozess Trigger machen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Double-Opt-in-Nachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Antwort auf die Bestätigung des doppelten Opt-ins gesendet wird. |
    | Prinzipalentitäts-ID | Geben Sie die Ihnen zugewiesene DLT-Prinzipalentitäts-ID ein. |
    | Inhaltsvorlagen-ID | Geben Sie Ihre registrierte DLT-Inhaltsvorlagen-ID ein. |

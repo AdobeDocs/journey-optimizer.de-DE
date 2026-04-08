@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '2525'
 ht-degree: 64%
@@ -248,13 +248,15 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
   Verfügbarkeitsdatum: Donnerstag, 18. Februar 2026
 
-<!--THIS WAS FINALLY NOT RELEASED IN FEBRUARY
+<!--
+THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach fragments to decision items which can be leveraged in code-based experience campaigns through decision policies. [Read more](../experience-decisioning/fragments-decision-policies.md)
 
   Previously released in Limited Availability, this capability is now available to all environments (General Availability).
 
-  Availability date: February 12, 2026.-->
+  Availability date: February 12, 2026.
+-->
 
 #### Personalisierung
 
@@ -437,7 +439,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Inhaltsqualitätsprüfungen mit dem KI-Assistenten** – Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um potenzielle Probleme mit <strong>Lesbarkeit</strong>, Kohärenz und Effektivität unabhängig von Ihren Markenrichtlinien aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. [Weitere Informationen](../content-management/brands-score.md#validate-quality).
 
-   [Funktion im Video kennenlernen](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on).
+   [Funktion im Video kennenlernen](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Journeys
 

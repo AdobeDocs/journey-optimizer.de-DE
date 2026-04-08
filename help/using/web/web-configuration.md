@@ -6,8 +6,8 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Eine Web-Konfiguration ist eine Web-Eigenschaft, die durch eine URL identifizier
 
 Gehen Sie wie folgt vor, um eine Web-Kanalkonfiguration zu erstellen.
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf, und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
+1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
 
    ![](assets/web_config_1.png)
 

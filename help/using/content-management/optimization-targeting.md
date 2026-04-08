@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 keywords: Zielgruppenbestimmung, Optimierung, Zielgruppe, Personalisierung, Regeln
 exl-id: ced2248a-e0fb-4fc5-b00b-13972618eeb9
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 95%
@@ -95,8 +95,10 @@ Gehen Sie folgendermaßen vor, um das Targeting einzurichten.
 
 Sobald die Journey/Kampagne live ist, werden für jede Zielgruppe maßgeschneiderte Inhalte versendet, sodass etwa in den USA ansässige Personen eine bestimmte Nachricht erhalten, in Frankreich ansässige Personen eine andere usw.
 
-<!--Default content:
+<!--
+Default content:
 
 * If no targeting rules match, default content can be delivered.
 
-* If default content is not enabled, passthrough behavior ensures lower-priority campaigns are evaluated.-->
+* If default content is not enabled, passthrough behavior ensures lower-priority campaigns are evaluated.
+-->

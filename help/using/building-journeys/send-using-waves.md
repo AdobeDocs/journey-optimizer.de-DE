@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: Schübe, Batches, Zeitplan, Journey, Zielgruppe lesen, Zustellbarkeit
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -24,7 +24,8 @@ Sie können ausgehende Nachrichten von einer Journey im Zeitverlauf stapelweise 
 <!--
 >[!CAUTION]
 >
->Wave sending is available for read audience journeys only and applies to **outbound** actions only (Email, SMS, Push, Direct mail).-->
+>Wave sending is available for read audience journeys only and applies to **outbound** actions only (Email, SMS, Push, Direct mail).
+-->
 
 Sie konfigurieren ihn auf Journey-Ebene, wenn Sie definieren, wie die Zielgruppe eintritt und wie Aktionen geplant werden. Sie definieren die Anzahl der Schübe, ihre Größe (als Prozentsatz der Zielgruppe oder als absolute Zahlen) und den Zeitpunkt, zu dem jede Schübe ausgeführt wird.
 

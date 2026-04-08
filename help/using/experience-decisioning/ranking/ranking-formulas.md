@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 95%
@@ -68,7 +68,8 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen:
 
 1. Sie können auch Daten aus Adobe Experience Platform verwenden, um die Rangfolgenlogik dynamisch anzupassen und so reale Bedingungen widerzuspiegeln. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, z. B. Produktverfügbarkeit oder Echtzeitpreise. [Informationen zum Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../aep-data-exd.md)
 
-<!--## Select an ELS dataset {#els-dataset}
+<!--
+## Select an ELS dataset {#els-dataset}
 
 Journey Optimizer allows you to leverage data from Adobe Experience Platform. [Learn more](../data/aep-data-perso.md)
 
@@ -82,7 +83,8 @@ To leverage data from an AEP dataset, follow the steps below.
     >
     >This action is mandatory.
 
-![](../assets/formula-els-settings.png){width="80%"-->
+![](../assets/formula-els-settings.png){width="80%"}
+-->
 
 ## Definieren von Kriterien mithilfe des Formel-Builders {#ranking-select-criteria}
 
@@ -95,7 +97,7 @@ Gehen Sie wie folgt vor, um Kriterien direkt über die Benutzeroberfläche zu de
 1. Geben Sie im Abschnitt **[!UICONTROL Kriterium 1]** die Entscheidungselemente an, auf die Sie einen Rangfolgenwert anwenden möchten, indem Sie Folgendes durchführen:
    * Wählen Sie ein [Entscheidungselement-Attribut](../items.md#attributes)
    * Logischen Operator auswählen
-   * Übereinstimmende Bedingung hinzufügen - Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten“ &#x200B;](../context-data.md)
+   * Übereinstimmende Bedingung hinzufügen - Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten“ ](../context-data.md)
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 

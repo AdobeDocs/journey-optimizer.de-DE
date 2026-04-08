@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -47,15 +47,15 @@ Hier gilt:
 
   Angenommen, der Wert des Felds `profile.person.name` lautet „Mark &amp; Mary“. Die Syntax `{{profile.person.name}}` zeigt `Mark &amp; Mary` an, während `{{{profile.person.name}}}` `Mark & Mary` anzeigt.
 
-* Bezüglich der Argumente für literale Funktionen unterstützt der Sprach-Parser für Vorlagen keinen einfachen umgekehrten Schrägstrich (`\`), der nicht escaped ist. Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (`\`) escaped werden. Beispiel:
+* Bezüglich der Argumente für Literalfunktionen unterstützt der Sprach-Parser für Vorlagen keinen einfachen umgekehrten Schrägstrich ohne Escape-Sequenz (`\`). Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (`\`) mit Escape-Sequenz versehen werden. Beispiel:
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
-## Reservierte Schlüsselwörter {#reserved-keywords}
+## Reservierte Keywords {#reserved-keywords}
 
-Bestimmte Schlüsselwörter sind in Profile Query Language (PQL) reserviert und können nicht direkt als Feld- oder Variablennamen in Personalisierungsausdrücken verwendet werden. Wenn Ihr XDM-Schema Felder mit Namen enthält, die reservierten Schlüsselwörtern entsprechen, müssen Sie diese mit Backticks (`` ` ``) maskieren, um in Ihren Ausdrücken darauf zu verweisen.
+Bestimmte Keywords sind in Profile Query Language (PQL) reserviert und können nicht direkt als Feld- oder Variablennamen in Personalisierungsausdrücken verwendet werden. Wenn Ihr XDM-Schema Felder mit Namen enthält, die reservierten Keywords entsprechen, müssen Sie diese mit Backticks (`` ` ``) maskieren, wenn Sie in Ihren Ausdrücken darauf verweisen möchten.
 
-**Reservierte Schlüsselwörter beinhalten:**
+**Zu den reservierten Keywords zählen:**
 
 * `next`
 * `last`
@@ -69,7 +69,7 @@ Wenn Ihr Profilschema ein Feld mit dem Namen `next` enthält, müssen Sie es in 
 {{profile.person.`next`.name}}
 ```
 
-Ohne die Backticks schlägt die Validierung des Personalisierungseditors mit einem Fehler fehl.
+Ohne die Backticks gibt die Validierung des Personalisierungseditors einen Fehler zurück.
 
 ## Verfügbare Namespaces {#namespaces}
 
@@ -144,7 +144,7 @@ Diese Block-Helper werden durch ein `#` am Anfang des Helper-Namens gekennzeichn
 
 Blöcke sind Ausdrücke mit einer Blockeröffnung (`{{# }}`) und schließendem (`{{/}}`).
 
-    Weitere Informationen zu Hilfsfunktionen finden Sie in [diesem Abschnitt](functions/helpers.md).
+    Weitere Informationen zu Helper-Funktionen finden Sie [in diesem Abschnitt](functions/helpers.md).
 
 ## Literaltypen {#literal-types}
 
@@ -152,7 +152,7 @@ Blöcke sind Ausdrücke mit einer Blockeröffnung (`{{# }}`) und schließendem (
 
 | Literal | Definition |
 | ------- | ---------- |
-| String | Ein Datentyp, der aus Zeichen besteht, die von doppelten Anführungszeichen umgeben sind. <br>Beispiele: `"prospect"`, `"jobs"`, `"articles"` |
+| Zeichenfolge | Ein Datentyp, der aus Zeichen besteht, die von doppelten Anführungszeichen umgeben sind. <br>Beispiele: `"prospect"`, `"jobs"`, `"articles"` |
 | Boolesch | Ein Datentyp, der entweder „true“ oder „false“ ist. |
 | Ganzzahl | Ein Datentyp, der eine ganze Zahl darstellt. Sie kann positiv, negativ oder null sein. <br>Beispiele: `-201`, `0`, `412` |
 | Array | Ein Datentyp, der aus einer Gruppe anderer Literalwerte besteht. Zur Gruppierung werden eckige Klammern und Kommas verwendet, um zwischen verschiedenen Werten zu trennen. <br> **Hinweis:** Sie können nicht direkt auf die Eigenschaften von Elementen in einem Array zugreifen. <br> Beispiele: `[1, 4, 7]`, `["US", "FR"]` |

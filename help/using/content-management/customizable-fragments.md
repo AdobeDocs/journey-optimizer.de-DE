@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 874bbd1d7235c8043e824290d748677fe30f43a9
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 94%
@@ -148,7 +148,8 @@ Gehen Sie dazu wie folgt vor:
 
 Rich-Text wie Zeilenumbrüche, fett, kursiv usw. kann mithilfe von HTML-Komponenten zu einem anpassbaren Fragment hinzugefügt werden. Gehen Sie dazu wie folgt vor.
 <!--
-➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)-->
+➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
+-->
 
 ### Erstellen eines Fragments mit Rich Text {#add-rich-text}
 
@@ -199,5 +200,5 @@ Beim Hinzufügen des Fragments zu Ihrer E-Mail können Sie jetzt den von Ihnen e
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464377/?captions=ger&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->

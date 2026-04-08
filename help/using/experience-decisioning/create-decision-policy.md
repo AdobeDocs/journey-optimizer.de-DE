@@ -7,7 +7,7 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 64%
@@ -146,6 +146,8 @@ Für SMS können Sie eine neue Entscheidungsrichtlinie entweder über den **Pers
 
    ![](assets/decision-policy-add-sms.png)
 
++++
+
 >[!TAB Push-Benachrichtigung]
 
 Für Push-Benachrichtigungen können Sie eine neue Entscheidungsrichtlinie entweder über den **Personalisierungseditor** oder das Menü **Entscheidungsfindung** im Eigenschaftenbereich hinzufügen.
@@ -170,6 +172,8 @@ Für Push-Benachrichtigungen können Sie eine neue Entscheidungsrichtlinie entwe
 >[!IMPORTANT]
 >
 >Für Experience Decisioning mit Push-Benachrichtigungen ist eine bestimmte Version der Mobile SDK erforderlich. Bevor Sie diese Funktion implementieren, überprüfen Sie die [Versionshinweise](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}, um die erforderliche Version zu identifizieren und sicherzustellen, dass Sie das Upgrade entsprechend durchgeführt haben. Sie können auch alle verfügbaren SDK-Versionen für Ihre Plattform in [diesem Abschnitt](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"} anzeigen.
+
++++
 
 >[!ENDTABS]
 

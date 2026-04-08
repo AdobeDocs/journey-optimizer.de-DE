@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 96%
@@ -142,6 +142,8 @@ Gehen Sie wie folgt vor, um die mit einer Genehmigungsrichtlinie verknüpften Be
     <td>Name der Benutzergruppe der anfragenden Personen</td>
     </tr>
     </table>
+
+   +++
 
 1. Um weitere Kriterien hinzuzufügen, klicken Sie auf **[!UICONTROL Bedingung hinzufügen]**, um zusätzliche Regeln zu definieren, und wählen Sie entweder **[!UICONTROL Und]** oder **[!UICONTROL Oder]** aus, um anzugeben, wie die Bedingungen miteinander verbunden sind.
 

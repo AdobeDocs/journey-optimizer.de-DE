@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 100%
@@ -50,7 +50,7 @@ In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberfläch
 **Web und Mobil**
 
 | Typ | URI | Beschreibung |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Web | `web://domain.com/path/page.html#element` | Stellt ein einzelnes Element innerhalb einer bestimmten Seite einer bestimmten Domain dar, bei dem ein Element wie in den folgenden Beispielen ein Label sein kann: hero_banner, top_nav, menu, footer. |
 | iOS-App | `mobileapp://com.vendor.bundle/activity#element` | Stellt ein bestimmtes Element innerhalb der Aktivität einer nativen App dar, z. B. eine Schaltfläche oder ein anderes Ansichtselement. |
 | Android-App | `mobileapp://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer nativen App dar. |
@@ -58,7 +58,7 @@ In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberfläch
 **Andere Gerätetypen**
 
 | Typ | URI | Beschreibung |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Desktop | `desktop://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer Anwendung dar, z. B. eine Schaltfläche, ein Menü, ein Hero Banner usw. |
 | TV-App | `tvcd://com.vendor.bundle/#element` | Stellt ein bestimmtes Element in einer mit einem Smart TV- oder TV-Gerät verbundenen Geräteanwendung dar – Bundle-ID. |
 | Service | `service://servicename/#element` | Stellt einen Server-seitigen Prozess oder eine andere manuelle Entität dar. |
@@ -68,7 +68,7 @@ In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberfläch
 **Platzhalteroberfläche**
 
 | Typ | URI | Beschreibung |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Platzhalter-Web | `wildcard:web://domain.com/*#element` | Platzhalteroberfläche – stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domain dar. |
 | Platzhalter-Web | `wildcard:web://*domain.com/*#element` | Platzhalteroberfläche – stellt ein einzelnes Element auf jeder Seite unter allen Domains dar, die auf „domain.com“ enden. |
 

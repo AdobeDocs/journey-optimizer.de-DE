@@ -9,8 +9,8 @@ role: Admin, Developer
 level: Intermediate
 keywords: Berechtigungen, Rechte, Einschränkungen, Zugriff, Sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%
 
@@ -24,14 +24,16 @@ Die Zugriffssteuerung für [!DNL Journey Optimizer] erfolgt über die **Berechti
 
 Zum Konfigurieren der Zugriffssteuerung für Journey Optimizer werden system- oder produktbezogene Administratorrechte für Ihr Unternehmen benötigt. Zum Erteilen oder Entziehen von Berechtigungen ist mindestens eine Produktadmin-Rolle erforderlich. Zu einer anderen Administratorrolle, die Berechtigungen verwalten können, gehören die Systemadmins (keine Einschränkungen). Dieser [Artikel im Hilfezentrum von Adobe](https://helpx.adobe.com/de/enterprise/using/admin-roles.html){target="_blank"} enthält weitere Informationen zu administrativen Rollen.
 
-<!-- A high-level workflow for gaining and assigning access permissions can be summarized as follows:
+<!--
+ A high-level workflow for gaining and assigning access permissions can be summarized as follows:
 
 * After licensing [!DNL Journey Optimizer], an email is sent to the administrator specified during licensing.
 * The administrator logs in to Adobe Admin Console and selects [!DNL Journey Optimizer] from the list of products on the overview page.
 * To grant access to [!DNL Journey Optimizer], it is recommended that the administrator add users to the default product profile
 * In Experience Platform Permissions, the administrator can create new roles or edit the permissions and users for any existing roles.
 * When creating or editing a role, the administrator adds users to the role using the users tab, and grants permissions to these users (such as "Read Datasets" or "Manage Schemas") by editing the role's permissions. Similarly, the administrator can assign access to sandboxes using the same editing option.
-* When users log in to the Journey Optimizer user interface, their access to capabilities is driven by the permissions that have been granted to them from the previous step. For example, if a user does not have the View Datasets permission, the Datasets tab in the side menu will not be visible to that user.-->
+* When users log in to the Journey Optimizer user interface, their access to capabilities is driven by the permissions that have been granted to them from the previous step. For example, if a user does not have the View Datasets permission, the Datasets tab in the side menu will not be visible to that user.
+-->
 
 
 Die Verwaltung von Benutzenden in [!DNL Journey Optimizer] basiert auf drei Schlüsselkonzepten:

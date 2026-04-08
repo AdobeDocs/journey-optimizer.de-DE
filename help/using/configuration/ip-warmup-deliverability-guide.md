@@ -8,8 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, Zustellbarkeit, Reputation, ISP, Interaktion
-source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
-workflow-type: ht
+exl-id: a4c4890e-fc69-498c-83c3-8a37c34e36ed
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 100%
 
@@ -19,7 +20,7 @@ ht-degree: 100%
 
 Beim Starten von E-Mail-Kampagnen mit neuen IP-Adressen oder Domains in Adobe Journey Optimizer sind die Grundlagen der Zustellbarkeit von entscheidender Bedeutung für den Aufbau einer guten Reputation der Absendenden. In diesem Handbuch werden die wichtigsten Konzepte, Vorbereitungsschritte und Best Practices behandelt, die Ihnen beim Übergang von keiner Reputation zu einer erfolgreichen Platzierung im Posteingang helfen.
 
-➡️ Weitere Informationen über die Grundlagen der Zustellbarkeit, das Aufbauen einer guten Reputation und Best Practices für die IP-Aufwärmung finden Sie im Video in diesem [Adobe-Blogpost](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=de){target="_blank"}.
+➡️ Weitere Informationen über die Grundlagen der Zustellbarkeit, das Aufbauen einer guten Reputation und Best Practices für die IP-Aufwärmung finden Sie im Video in diesem [Adobe-Blogpost](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
 
 >[!NOTE]
 >
@@ -135,7 +136,8 @@ Gehen Sie wie folgt vor, sobald Sie Ihren Aufwärmplan abgeschlossen haben und s
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=de).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).
+-->
 
 ## Verwandte Themen {#related-topics}
 
@@ -147,4 +149,3 @@ Gehen Sie wie folgt vor, sobald Sie Ihren Aufwärmplan abgeschlossen haben und s
 * [Delegieren von Subdomains](delegate-subdomain.md)
 * [Verwalten der Unterdrückungsliste](manage-suppression-list.md)
 * [Handbuch mit Best Practices für die Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=de)
-

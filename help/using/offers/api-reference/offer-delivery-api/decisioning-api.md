@@ -3,17 +3,17 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Angebote bereitstellen
 description: Entscheidungs-Management ist eine Sammlung von Services und Benutzeroberflächenprogrammen, mit denen Marketing-Experten personalisierte Angebotserlebnisse für Endbenutzer erstellen und bereitstellen können – über verschiedene Kanäle und Anwendungen hinweg und unter Verwendung von Business-Logik und Entscheidungsregeln.
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Dieses Tutorial erfordert ein Verständnis von APIs, insbesondere im Hinblick au
 >
 >**Übergeben von Kontextdaten in Entscheidungsanfragen**
 >
->Sie können Kontextdaten (z. B. Gerätetyp, Standort oder Benutzereinstellungen) in Ihren Entscheidungsanfragen übergeben, um dynamische Eignungsregeln zu erstellen und basierend auf Echtzeitbedingungen personalisierte Angebote bereitzustellen. [Erfahren Sie mehr über Kontextdaten und Entscheidungsanfragen](../../context-data-decisioning.md)
+>Sie können Kontextdaten (z. B. Gerätetyp, Standort oder Benutzereinstellungen) in Ihren Entscheidungsanfragen übergeben, um dynamische Eignungsregeln zu erstellen und basierend auf Echtzeitbedingungen personalisierte Angebote bereitzustellen. [Weitere Informationen zu Kontextdaten und Entscheidungsanfragen](../../context-data-decisioning.md)
 
 ## Erforderliche Kopfzeilen {#required-headers}
 
@@ -131,7 +131,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:allowDuplicatePropositions` | Dieses Objekt ist die Kontrollstruktur der Deduplizierungsregeln. Es besteht aus einer Reihe von Flags, die angeben, ob dieselbe Option für eine bestimmte Dimension vorgeschlagen werden kann. Wenn ein Flag auf „true“ gesetzt ist, sind Duplikate erlaubt und sollten in der durch das Flag angegebenen Kategorie nicht entfernt werden. Wenn ein Flag auf „false“ gesetzt ist, sollte die Entscheidungs-Engine nicht denselben Vorschlag für die gesamte Dimension machen und stattdessen die nächste beste Option für eine der Unterentscheidungen auswählen. |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Wenn auf „true“ gesetzt, kann mehreren Entscheidungen dieselbe Option zugewiesen werden. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Wenn auf „wahr“ gesetzt, kann mehreren Platzierungen dieselbe Option zugewiesen werden. | `"xdm:acrossPlacements": true` |
-| `xdm:enrichedAudience` | Legen Sie diesen Parameter auf `true` fest, wenn Sie eine benutzerdefinierte Upload-(CSV)-Zielgruppe ansprechen und Anreicherungsdaten in der Antwort auf die Angebotsentscheidung abrufen möchten. [Erfahren Sie mehr über die Verwendung von CSV-Zielgruppen für die Entscheidungsfindung](../../custom-upload-decisioning.md#must-read) | `"xdm:enrichedAudience": true` |
+| `xdm:enrichedAudience` | Stellen Sie diesen Parameter auf `true` ein, wenn Sie eine benutzerdefinierte Upload-Zielgruppe (CSV) ansprechen und Anreicherungsdaten in der Antwort auf die Angebotsentscheidung abrufen möchten. [Weitere Informationen zur Verwendung von CSV-Zielgruppen für die Entscheidungsfindung](../../custom-upload-decisioning.md#must-read) | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | Gibt die Zusammenführungsrichtlinie an, nach der die vom Profilzugriffsdienst zurückgegebenen Daten verwaltet werden. Wenn in der Anfrage keine angegeben ist, gibt das Entscheidungs-Management nichts an den Profilzugriffs-Service weiter, andernfalls wird die vom Aufrufer bereitgestellte ID übergeben. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | Eine Reihe von Flags, die den Inhalt der Antwort formatieren. |  |
 | `xdm:responseFormat.xdm:includeContent` | Ein boolescher Wert, der den Inhalt der Antwort einschließt, wenn er auf `true` gesetzt wird. | `"xdm:includeContent": true` |
@@ -225,7 +225,9 @@ In der folgenden Tabelle sind alle Codes aufgeführt, die in der Antwort zurück
 | 500 | Interner Server-Fehler. Der Server ist auf eine unerwartete Bedingung gestoßen, die ihn daran hindert, die Anfrage zu bearbeiten. |
 | 503 | Dienst aufgrund einer Server-Überlastung nicht verfügbar. Der Server kann die Anfrage aufgrund einer temporären Überlastung derzeit nicht verarbeiten. |
 
-<!-- ## Tutorial video {#video}
+<!--
+ 
+## Tutorial video {#video}
 
 The following video is intended to support your understanding of the components of Decision Management.
 
@@ -233,7 +235,8 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/343541/?captions=ger&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
+-->
 
 ## Nächste Schritte {#next-steps}
 

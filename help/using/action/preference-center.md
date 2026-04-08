@@ -5,13 +5,14 @@ title: Verwalten der Voreinstellungen von Kundinnen und Kunden
 description: Informationen zum Verwalten der Voreinstellungen von Benutzenden über Einverständnisrichtlinien
 feature: Journeys, Privacy, Consent Management, Landing Pages
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Developer, Admin
 level: Experienced
 keywords: Richtlinien, Governance, Plattform, Einverständnis, Healthcare Shield
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '859'
-ht-degree: 98%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +24,8 @@ ht-degree: 98%
 
 In einem modernen Ökosystem der Marketing-Automatisierung interagieren Marken mit Kundinnen und Kunden über verschiedene Touchpoints hinweg und sehen sich dem Risiko irrelevanter oder übermäßiger Kommunikation ausgesetzt, was zu abgebrochener Interaktion, Spam-Beschwerden und Compliance-Risiken führt. Aus diesem Grund müssen sie die Voreinstellungen ihrer Kundinnen und Kunden verwalten, um Echtzeiterkenntnisse zu ihrer Zielgruppe zu erhalten und personalisierte, respektvolle Kommunikation bereitzustellen.
 
-Mit [!DNL Adobe Journey Optimizer] können Sie durch die Verwendung [Einverständnisrichtlinien](consent.md) die Vorlieben Ihrer Kunden berücksichtigen<!-- in terms of **channels** and **topics**-->. Dadurch wird sichergestellt, dass [!DNL Journey Optimizer] Kundinnen und Kunden nur basierend auf deren Entscheidungen anspricht<!-- their preferred channels and on the subscription topics--> und gleichzeitig ihr Einverständnis respektiert.
+Mit [!DNL Adobe Journey Optimizer] können Sie durch die Verwendung von [Einverständnisrichtlinien](consent.md) die Voreinstellungen Ihrer Kundinnen und Kunden berücksichtigen<!-- in terms of **channels** and **topics**-->. Dadurch wird sichergestellt, dass [!DNL Journey Optimizer] nur Kunden anspricht, die auf ihrer Auswahl beruhen, und gleichzeitig ihr Einverständnis respektiert.
+<!-- their preferred channels and on the subscription topics-->
 
 Es gibt folgende Möglichkeiten zum Verwalten der Voreinstellungen von Benutzenden mit [!DNL Journey Optimizer]:
 
@@ -37,9 +39,10 @@ Es gibt folgende Möglichkeiten zum Verwalten der Voreinstellungen von Benutzend
 
 >[!IMPORTANT]
 >
->Das Einverständnis hat Vorrang vor den Voreinstellungen. Wenn beispielsweise der bevorzugte Kanal einer Person E-Mail ist und diese Person dem Empfang eines Newsletters zugestimmt hat<!-- they are interested in yoga-->, sie sich jedoch vom Empfang von Nachrichten von Ihnen abgemeldet hat, können Sie dieser Person keinen E-Mail-Newsletter senden<!-- on yoga-->.
+>Das Einverständnis hat Vorrang vor den Voreinstellungen. Beispielsweise hat eine Ihrer Kundinnen und Kunden angegeben, dass ihr bevorzugter Kanal E-Mail ist und dass sie dem Empfang von Newslettern zugestimmt haben<!-- they are interested in yoga-->. Wenn sie sich jedoch gegen den Erhalt von Nachrichten von Ihnen entschieden haben, können sie nicht von einem E-Mail-Newsletter angesprochen werden, den Sie senden.
+<!-- on yoga-->
 
-## Aufzeichnen und Berücksichtigen von Voreinstellungen {#manage-preferences}
+## Speichern und Berücksichtigen von Voreinstellungen {#manage-preferences}
 
 Mit Einverständnisrichtlinien können Sie in [!DNL Journey Optimizer] die Voreinstellungen Ihrer Kundinnen und Kunden zentral verwalten. Auf diese Weise können Sie sicherstellen, dass Sie Kundinnen und Kunden nur auf der Grundlage der von ihnen ausgewählten Themen ansprechen und dabei ihre Einverständnisentscheidungen respektieren. Gehen Sie dazu wie folgt vor.
 
@@ -81,11 +84,13 @@ Angenommen, Sie möchten Ihre Kundinnen und Kunden anhand ihrer Kommunikationsvo
 
    ![](assets/profile-preference-attributes.png){width=80%}
 
-<!--The corresponding profile dataset is updated as follows:
+<!--
+The corresponding profile dataset is updated as follows:
 
 |Attribute = Email id | Attribute = Offers_Push | Attribute = Newsletters_Email |
 |---------|----------|---------|
-| john.black@lumamail.com | Y | N |-->
+| john.black@lumamail.com | Y | N |
+-->
 
     >[!NOTE]
     >
@@ -101,11 +106,13 @@ Angenommen, Sie möchten Ihre Kundinnen und Kunden anhand ihrer Kommunikationsvo
 
 1. Wählen Sie den Typ der **[!UICONTROL Einverständnisrichtlinien]** und konfigurieren Sie eine Bedingung wie folgt. [Informationen zum Konfigurieren von Einverständnisrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#consent-policy){target="_blank"}
 
-<!--Consent policies are comprised of two logical components:
+<!--
+Consent policies are comprised of two logical components:
 
 * **If**: The condition that will trigger the policy check, based on a certain marketing action (email, SMS, push, custom action, etc.) being performed, the presence of certain data usage labels, or a combination of the two.
 
-* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.-->
+* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.
+-->
 
     Um beispielsweise Nachrichten nur an Kundinnen und Kunden zu senden, die sich nicht gegen den Empfang von E-Mail-Newslettern entschieden haben, erstellen Sie eine benutzerdefinierte Richtlinie und definieren Sie die folgende Bedingung:
     

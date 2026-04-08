@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ Gehen Sie wie folgt vor, um den Empfängerinnen und Empfängern einer Nachricht 
 
    >[!WARNING]
    >
-   >Wenn Sie in der E-Mail auf den Abmelde-Link klicken, wird nur die Landingpage geöffnet. Der Empfänger muss **das Formular senden, indem er auf die Opt-out-Schaltfläche auf der Landingpage klickt** um die Abmeldung abzuschließen und sein Profileinverständnis zu aktualisieren.
+   >Nach dem Klicken auf den Abmelde-Link in der E-Mail wird nur die Landingpage geöffnet. Die Empfängerin bzw. der Empfänger muss **durch Klicken auf die Opt-out-Schaltfläche auf der Landingpage das Formular absenden**, um die Abmeldung abzuschließen und das Profileinverständnis zu aktualisieren.
 
    Wenn der Empfänger das Kästchen aktiviert und das Formular absendet:
 
@@ -179,7 +179,6 @@ Die Opt-out-Informationen werden im **Einverständnisdienst-Datensatz** gespeich
 * [Ausschluss-Link in der Kopfzeile der E-Mail](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
-
 ### Other ways to opt out
 
 You can also enable your recipients to unsubscribe whithout using landing pages.
@@ -191,20 +190,20 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 * **Unsubscribe link in header**
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
-
 -->
 
-## Übermittlungsereignis für Landingpages nutzen {#leverage-lp-event}
+## Nutzen des Übermittlungsereignisses für Landingpages {#leverage-lp-event}
 
-Sie können Informationen verwenden, die auf einer Landingpage gesendet wurden, um weitere Aktionen durchzuführen. Wenn ein Benutzer beispielsweise eine bestimmte Abonnement-Liste abonniert, können Sie diese Informationen nutzen, um diesem Benutzer eine E-Mail mit Empfehlungen für andere Abonnement-Listen zu senden.
+Sie können Informationen verwenden, die auf einer Landingpage übermittelt wurden, um weitere Aktionen durchzuführen. Wenn eine Person beispielsweise eine bestimmte Abonnement-Liste abonniert, können Sie diese Informationen nutzen, um dieser Person eine E-Mail mit Empfehlungen für andere Abonnement-Listen zu senden.
 
-Dazu müssen Sie ein [regelbasiertes unitäres Ereignis“ auf &#x200B;](../event/about-creating.md) Grundlage des **[!UICONTROL AJO E-Mail-Tracking-Erlebnisereignisschemas]** erstellen, das die Übermittlungsinformationen enthält, und [dieses Ereignis auf einer Journey verwenden](../building-journeys/general-events.md).
+Dazu müssen Sie ein [regelbasiertes unitäres Ereignis](../event/about-creating.md) auf Grundlage des **[!UICONTROL AJO E-Mail-Tracking-Erlebnisereignisschemas]** erstellen, das die Übermittlungsinformationen enthält, und [dieses Ereignis in einer Journey verwenden](../building-journeys/general-events.md).
 
 >[!NOTE]
 >
->Beachten Sie bei der Arbeit mit Landingpage-Übermittlungsereignissen, dass das Feld `interactionType` möglicherweise nicht immer genau die spezifische Benutzeraktion widerspiegelt. Um genau festzustellen, ob ein Benutzer sich abgemeldet, abonniert oder eine andere Aktion ausgeführt hat, überprüfen Sie immer die tatsächlichen Profilattribute (z. B. Einverständnisvoreinstellungen) oder Formularfeldwerte, anstatt sich ausschließlich auf die `interactionType` zu verlassen.
+>Beachten Sie bei der Arbeit mit Landingpage-Übermittlungsereignissen, dass das Feld `interactionType` möglicherweise nicht immer genau die spezifische Benutzeraktion widerspiegelt. Um genau festzustellen, ob eine Person sich abgemeldet, etwas abonniert oder eine andere Aktion ausgeführt hat, überprüfen Sie immer die tatsächlichen Profilattribute (z. B. Einverständnisvoreinstellungen) oder Formularfeldwerte, anstatt sich ausschließlich auf das Ereignis `interactionType` zu verlassen.
 
-<!--DETAILED STEPS TBC:
+<!--
+DETAILED STEPS TBC:
 
 Follow the steps below.
 
@@ -254,4 +253,5 @@ Follow the steps below.
 
     ![](assets/lp_subscription-uc-journey-email.png)
 
-///How do you use the information from the event to send an email to the users? -->
+///How do you use the information from the event to send an email to the users? 
+-->

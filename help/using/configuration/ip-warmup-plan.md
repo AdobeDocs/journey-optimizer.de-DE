@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 84%
+source-wordcount: '1765'
+ht-degree: 82%
 
 ---
 
@@ -206,7 +206,7 @@ Domains außerhalb von Hotmail und aus der Domain-Gruppe „Microsoft“ werden 
 
 1. Fügen Sie alle Hotmail-Domains in derselben Zeile hinzu.
 
-   Sie können alle Hotmail-Domains [kopieren und einfügen](#copy-paste), die auf der Registerkarte [&#x200B; „Vorkonfigurierte Domain-Gruppen“](#ootb-domain-groups-tab) aufgeführt sind.
+   Sie können alle Hotmail-Domains [kopieren und einfügen](#copy-paste), die auf der Registerkarte [ „Vorkonfigurierte Domain-Gruppen“](#ootb-domain-groups-tab) aufgeführt sind.
 
 1. Fügen Sie eine weitere Zeile hinzu.
 
@@ -290,13 +290,14 @@ Um einen IP-Aufwärmplan zu erstellen, führen Sie die folgenden Schritte aus.
 1. Laden Sie die Excel-Datei hoch, die Ihren IP-Aufwärmplan enthält. [Weitere Informationen](#prepare-file)
 
    <!--
-    You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.-->
+    You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.
+-->
 
-   ![](assets/ip-warmup-upload-success.png)
-
-   >[!NOTE]
-   >
-   >Wenn der Upload fehlschlägt, stellen Sie sicher, dass Sie die richtige Formatierung und das richtige Dateiformat (XLS oder XLSX) verwenden. Verwenden Sie die von Adobe bereitgestellte [Vorlage](assets/IPWarmupPlan-Template.xlsx).
+    ![](assets/ip-warmup-upload-success.png)
+    
+    >[!NOTE]
+    >
+    >Falls der Upload fehlschlägt, stellen Sie sicher, dass Sie die richtige Formatierung und das richtige Dateiformat (.xls oder .xlsx) verwenden. Verwenden Sie die [Vorlage](assets/IPWarmupPlan-Template.xlsx), die Ihnen von Adobe bereitgestellt wird.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Alle Phasen, Ausführungen, Spalten und deren Inhalte, die in der von Ihnen hochgeladenen Datei definiert sind, werden automatisch in der Oberfläche von [!DNL Journey Optimizer] angezeigt.
 

@@ -6,8 +6,8 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -187,7 +187,8 @@ Mit dem folgenden Vorgang werden Personen definiert, deren Lieblingsfarben minde
 ```
 
 
-<!-- ## Intersection{#intersection}
+<!--
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -217,7 +218,7 @@ Die Funktion `bottomN` sortiert ein Array in aufsteigender Reihenfolge basierend
 ```
 
 | Argument | Beschreibung |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | Das zu sortierende Array oder die zu sortierende Liste. |
 | `{VALUE}` | Die Eigenschaft, in der das Array oder die Liste sortiert werden soll. |
 | `{AMOUNT}` | Die Zahl der zurückzugebenden Elemente. |

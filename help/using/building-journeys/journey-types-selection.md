@@ -11,7 +11,7 @@ version: Journey Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 96%
@@ -130,34 +130,34 @@ Nicht alle Funktionen sind für alle Journey-Typen verfügbar. Mithilfe dieser M
 
 | Funktion | Unitär | Zielgruppe lesen | Zielgruppenqualifizierung | Geschäftsereignis |
 |---------------------|:-------:|:-------------:|:----------------------:|:--------------:|
-| **Eintrittsmechanismen** |
+| **Eintrittsmechanismen** | | | | |
 | Durch Ereignis ausgelöster Eintritt | ✅ | ❌ | ❌ | ✅ |
 | Geplanter Eintritt | ❌ | ✅ | ❌ | ❌ |
 | Zielgruppenbasierter Eintritt | ❌ | ✅ | ✅ | ❌ |
-| **Orchestrierungsfunktionen** |
+| **Orchestrierungsfunktionen** | | | | |
 | Warteaktivitäten | ✅ | ✅ | ✅ | ✅ |
 | Bedingungsaktivitäten | ✅ | ✅ | ✅ | ✅ |
 | Benutzerdefinierte Aktionen | ✅ | ✅ | ✅ | ✅ |
 | Aktivität „Zielgruppe lesen“ (innerhalb von Journey) | ✅ | ✅ | ✅ | ✅ |
 | Aktivität des Typs „Zielgruppenqualifizierung“ | ✅ | ✅ | ✅ | ✅ |
 | Aktivität „Springen“ | ✅ | ✅ | ✅ | ✅ |
-| **Profil-Management** |
+| **Profil-Management** | | | | |
 | Erneuter Profileintritt | ✅ Konfigurierbar | ❌ Einmal pro Ausführung | ✅ Konfigurierbar | ✅ Pro Ereignis |
 | Namespace-Konfiguration | ✅ Erforderlich | ✅ Optional | ✅ Erforderlich | ✅ Erforderlich |
 | Profilbegrenzung | ✅ | ✅ | ✅ | ✅ |
-| **Tests und Optimierung** |
+| **Tests und Optimierung** | | | | |
 | Testmodus | ✅ | ✅ | ✅ | ✅ |
 | Probelauf | ✅ | ✅ | ✅ | ✅ |
 | Pfadexperimente (A/B-Tests) | ✅ | ✅ | ✅ | ❌ |
 | Versandzeitoptimierung | ✅ | ✅ | ✅ | ✅ |
-| **Kanäle** |
+| **Kanäle** | | | | |
 | E-Mail | ✅ | ✅ | ✅ | ✅ |
 | Push-Benachrichtigungen  | ✅ | ✅ | ✅ | ✅ |
 | SMS/MMS | ✅ | ✅ | ✅ | ✅ |
 | In-App-Nachrichten | ✅ | ✅ | ✅ | ✅ |
 | Web | ✅ | ✅ | ✅ | ✅ |
 | Inhaltskarten | ✅ | ✅ | ✅ | ✅ |
-| **Erweiterte Funktionen** |
+| **Erweiterte Funktionen** | | | | |
 | Inkrementelles Lesen | ❌ | ✅ | ❌ | ❌ |
 | Exportieren der Zielgruppe | ✅ | ✅ | ✅ | ✅ |
 | Zeitzonen-Management | ✅ | ✅ | ✅ | ✅ |

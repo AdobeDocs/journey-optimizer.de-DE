@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 84%
@@ -124,7 +124,8 @@ Nachdem Sie den Identity-Namespace ausgewählt und die CSV-Datei basierend auf d
 >
 >Testprofile können vorhandene Profile überschreiben. Bevor Sie den Anwendungsfall ausführen, stellen Sie sicher, dass die CSV-Datei nur Testprofile enthält und dass sie für die richtige Sandbox ausgeführt wird.
 
-<!-- Removed as asked in DOCAC-13605 AJO Test Profiles Using a Journey should be removed
+<!--
+ Removed as asked in DOCAC-13605 AJO Test Profiles Using a Journey should be removed
 ## Turn a profile into a test profile{#turning-profile-into-test}
 
 You can turn an existing profile into a test profile: you can update profiles attributes in the same way as when you create a profile. 

@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 92%
@@ -86,7 +86,7 @@ Sobald der Export abgeschlossen ist, wird der Inhalt des Datensatzes gemäß dem
 Machen Sie sich durch die Tabelle unten damit vertraut, welche Journey Optimizer-Datensätze Sie exportieren können.
 
 | Datensatz | Beschreibung |
-| ------- | ------- | 
+| ------- | ------- |
 | AJO-Klassifizierungs-Datensatz | Datensatz zur Aufnahme von Feedback-Ereignissen zu E-Mail- und Push-Anwendungen aus Journey Optimizer.  Erstellt über SDK. |
 | AJO-Einverständnisdienst-Datensatz | Speichert Einverständnisinformationen eines Profils. |
 | Ereignisdatensatz zu Erfahrungen beim AJO-E-Mail-Tracking | Interaktionsprotokolle für den E-Mail-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird.  |

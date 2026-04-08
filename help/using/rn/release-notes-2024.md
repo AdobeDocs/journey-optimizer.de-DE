@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -399,7 +399,8 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table>
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>Email Content Locking</strong><br/></th>
@@ -414,7 +415,8 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 <table>
 <thead>
@@ -520,7 +522,8 @@ Sie können jetzt Inhaltsvorlagen und Fragmente zwischen Sandboxes exportieren. 
 * **IP-Aufwärmpläne**: Diese Funktion steht nun allen Kundinnen und Kunden zur Verfügung, einschließlich Organisationen, die die Adobe-Zusatzangebote **Helathcare Shield** oder **Privacy and Security Shield** erworben haben. [Weitere Informationen](../configuration/ip-warmup-gs.md)
 
 <!--
-![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.-->
+![Newsletter](../assets/do-not-localize/nl-icon.png) Sign up for the [Adobe Journey Optimizer quarterly newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} today, and receive the latest product updates, exciting stories, use cases, tips and more delivered directly to your inbox every quarter.
+-->
 
 
 
@@ -549,7 +552,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -795,7 +798,8 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Extended personalization data - Beta</strong><br/></th>
@@ -809,7 +813,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 ### Verbesserungen {#june24-improvements}
 
@@ -923,7 +927,8 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>IP Warmup Workflow</strong><br/></th>
@@ -937,9 +942,10 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Business rules - Beta</strong><br/></th>
@@ -954,10 +960,11 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Extended personalization data - Beta</strong><br/></th>
@@ -971,7 +978,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 ### Verbesserungen {#e-improvements}
 
@@ -988,10 +995,12 @@ Von der Beta-Version bis hin zu dieser Version wurden die folgenden Verbesserung
 * **Reporting**: Sie können jetzt benutzerdefinierte Berichts-Dashboards von Erlebnis-Entscheidungs-Kampagnen mit [!DNL Customer Journey Analytics] erstellen. [Weitere Informationen](../experience-decisioning/cja-reporting.md)
 
 
-<!--**Decision Management**
+<!--
+**Decision Management**
 
 * **Multi-rule support** - You can now add up to 10 capping rules for a given offer in Decision Management. This allows you to increase the level of control over the way offers are sent.
-* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
+* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. 
+-->
 
 
 **E-Mail-Kanal**
@@ -1009,11 +1018,14 @@ Von der Beta-Version bis hin zu dieser Version wurden die folgenden Verbesserung
 <!--
 **Audiences**
 
-* The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.-->
+* The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.
+-->
 
-<!--**Personalization**
+<!--
+**Personalization**
 
-* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
+* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)
+-->
 
 **Journeys**
 
@@ -1072,7 +1084,8 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </tbody>
 </table>
 
-<!-- table>
+<!--
+ table>
 <thead>
 <tr>
 <th><strong>AI Assistant - Experience Variant Generation - Beta</strong><br/></th>
@@ -1085,10 +1098,11 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Email Surface Personalization - Private beta </strong><br/></th>
@@ -1101,7 +1115,7 @@ Mit dieser Version werden die unten aufgeführten neue Funktionen eingeführt.
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 ### Verbesserungen {#apr-improvements}
 
@@ -1268,9 +1282,11 @@ Die folgenden Verbesserungen, die bisher als Beta-Version verfügbar waren, steh
 
 * Zusätzlich zu „E-Mail“ und „Push“ können Sie nun Häufigkeitsregeln für SMS- und Briefpost-Kanäle erstellen. Häufigkeitsregeln schließen automatisch die zu oft angeforderten Profile aus Nachrichten und Aktionen aus, wenn die Frequenzbegrenzung erreicht wird. [Weitere Informationen](../conflict-prioritization/rule-sets.md)
 
-<!--**Decision management**
+<!--
+**Decision management**
 
-* **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
+* **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.
+-->
 
 
 ## Version Januar 2024 {#jan-2024}

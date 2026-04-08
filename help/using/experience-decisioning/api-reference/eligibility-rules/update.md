@@ -7,8 +7,8 @@ role: Developer
 level: Experienced
 exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
-workflow-type: ht
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Weitere Informationen zu JSON PUT, einschließlich der verfügbaren Vorgänge, f
 Folgende Tabelle zeigt die gültigen Werte mit den Feldern „Content-Typ“ im Anfrage-Header:
 
 | Header-Name | Wert |
-| --------- | ----------- | 
+| --------- | ----------- |
 | Inhaltstyp | `application/json` |
 
 **API-Format**

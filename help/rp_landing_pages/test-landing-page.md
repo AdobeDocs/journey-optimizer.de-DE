@@ -9,8 +9,8 @@ level: Beginner, Intermediate
 keywords: Testen, Validieren, Genehmigen, Genehmigung, Qualitätssicherung, QS, Testprofile, Personalisierung, Rendering, Spam-Prüfung, Inhaltsexperiment, A/B-Test, Konflikterkennung, Testadressenliste, Testsendungen, Beispieldaten, Genehmigungs-Workflow, E-Mail-Test, Validierungs-Workflow
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: c3535f39b351d671054031b9cc391bf6d9d83a09
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Diese Landingpage hilft Ihnen dabei, den richtigen Testansatz auszuwählen, je n
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vorschau, Testen und Validieren von Inhalten
 
@@ -36,7 +36,7 @@ Erfahren Sie, wie Sie personalisierte Inhalte mithilfe von Testprofilen, E-Mail-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Validierungs-Workflows für Journeys und Kampagnen
 
@@ -46,7 +46,7 @@ Erfahren Sie, wie Sie Validierungsprozesse einrichten, verwalten und ausführen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Testen der Journey
 
@@ -56,7 +56,7 @@ Validieren Sie Ihre Journey vor der Veröffentlichung, indem Sie sie mit bestimm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Journey-Probelauf
 
@@ -66,7 +66,7 @@ Führen Sie einen Probelauf durch, um Ihren Journey-Ausführungspfad zu simulier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoring und Fehlerbehebung
 
@@ -76,7 +76,7 @@ Zugriff auf umfassende Ressourcen zur Fehlerbehebung, Systemwarnungen und Fehler
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalisierungs-Playground
 
@@ -86,7 +86,7 @@ Experimentieren Sie mit Personalisierungsausdrücken in einer sicheren Umgebung.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Inhaltsexperimente und A/B-Tests
 
@@ -96,7 +96,7 @@ Optimieren Sie Ihre Kampagnen, indem Sie mehrere Inhaltsvarianten testen und die
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Testadressenlisten für Stakeholder-Monitoring
 
@@ -106,7 +106,7 @@ Schließen Sie automatisch die Adressen interner Stakeholder in Sendungen ein, u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Konflikterkennung
 
@@ -133,7 +133,8 @@ Test- und Validierungsprozesse dienen als wichtige Kontrollpunkte, die den Ruf I
 
 * **Zeit und Ressourcen sparen** – Erkennen Sie Probleme frühzeitig im Entwicklungszyklus, wenn Fehlerbehebungen noch kostengünstiger und schneller umsetzbar sind, wodurch kostspielige Fehlerbehebungen nach dem Launch oder Eskalationen beim Kundendienst vermieden werden.
 
-<!--## Testing capabilities overview
+<!--
+## Testing capabilities overview
 
 **Testing types available:**
 
@@ -166,7 +167,6 @@ Test- und Validierungsprozesse dienen als wichtige Kontrollpunkte, die den Ruf I
 2. During development: Preview with [test profiles](#choose-your-testing-approach), validate with [sample input data](#choose-your-testing-approach)
 3. Pre-launch: Run [technical tests](#2-technical-validation) (rendering, spam), check [conflicts](#test--approve-content), submit for [approval](#test--approve-content)
 4. Post-launch: Monitor with live reports (see [Monitoring & Troubleshooting](#test--approve-content)), iterate based on results
-
 -->
 
 <!--
@@ -207,7 +207,6 @@ Use this decision tree to quickly identify the right testing tools for your spec
 * Before launch → [Rendering tests](#2-technical-validation), [spam checks](#2-technical-validation), [conflict detection](#test--approve-content), [approvals](#test--approve-content)
 * After launch → [Live reports](../using/building-journeys/report-journey.md) and [monitoring](#test--approve-content)
 +++
-
 -->
 
 ## Auswählen des Testansatzes

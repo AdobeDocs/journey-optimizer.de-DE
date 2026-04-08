@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '2709'
 ht-degree: 91%
@@ -40,9 +40,11 @@ Jede Phase besteht aus mehreren Ausführungen, denen Sie eine einzelne Kampagne 
 >title="Definieren der Phasen Ihres Plans"
 >abstract="Jede Phase besteht aus mehreren Ausführungen, denen Sie eine einzelne Kampagne zuweisen."
 
-<!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
+<!--
+You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
-At phase level, system ensures that previously targeted + new profiles are picked up AND at iteration level, system ensures that each run is having unique profiles and the count matches what is stated in plan-->
+At phase level, system ensures that previously targeted + new profiles are picked up AND at iteration level, system ensures that each run is having unique profiles and the count matches what is stated in plan
+-->
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
 
@@ -58,7 +60,7 @@ Um die Phasen Ihres IP-Aufwärmplans zu definieren, müssen Sie für jede Phase 
    >* Zur Auswahl stehen nur Kampagnen, die dieselbe Konfiguration wie der ausgewählte IP-Aufwärmplan verwenden.
    >* Eine Kampagne, die bereits in einem anderen IP-Aufwärmplan verwendet wird, kann nicht ausgewählt werden. Dieselbe Kampagne kann in mehreren Phasen desselben Plans verwendet werden.
 
-1. Nachdem eine Kampagne für die aktuelle Phase ausgewählt wurde, werden die Abschnitte zum Ausschließen von Profilen, Kampagnen-Audiences und Domain-Gruppen angezeigt. Beachten Sie, dass Ausschlüsse nach der Aktivierung eines Durchgangs nur noch geändert werden können, wenn [&#x200B; den Durchgang in &#x200B;](#split-phase) neue Phase aufteilen.
+1. Nachdem eine Kampagne für die aktuelle Phase ausgewählt wurde, werden die Abschnitte zum Ausschließen von Profilen, Kampagnen-Audiences und Domain-Gruppen angezeigt. Beachten Sie, dass Ausschlüsse nach der Aktivierung eines Durchgangs nur noch geändert werden können, wenn [ den Durchgang in ](#split-phase) neue Phase aufteilen.
 
    1. Wählen Sie im Abschnitt **[!UICONTROL Ausgeschlossene Domain-Gruppen]** die Domains aus, die Sie aus der Phase ausschließen möchten.
 

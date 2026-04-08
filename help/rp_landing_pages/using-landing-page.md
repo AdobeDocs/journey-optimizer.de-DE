@@ -4,7 +4,7 @@ product: Journey Optimizer
 title: Hilfe zu Adobe Journey Optimizer
 description: Hilfe zu Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Mit Adobe Journey Optimizer können Teams nahtlose, personalisierte Kundenerlebn
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Lernen Sie die Grundlagen von Adobe Journey Optimizer kennen, einschließlich se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Umfassende Anleitung für Journeys
 
@@ -41,7 +41,7 @@ Entwerfen, orchestrieren, verwalten und optimieren Sie personalisierte Kunden-Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Grundlagen und Verwalten von Kampagnen
 
@@ -51,7 +51,7 @@ Detaillierte Anleitungen zum Erstellen, Verwalten und Optimieren verschiedener K
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Konflikt-Management und Priorisierung
 
@@ -89,5 +89,7 @@ Erfahren Sie, wie Sie Kommunikationskonflikte zwischen Kampagnen und Journeys ef
 </td>
 </tr></table>
 
-<!--table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr></table-->
+<!--
+table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
+<b>Stay informed and elevate your Adobe Journey Optimizer experience!</b><br/>Sign up for our quarterly newsletter. Gain exclusive access to the latest product updates, captivating stories, real-world use cases, valuable tips, and more – all delivered directly to your inbox every quarter. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Sign up today!</a></td></tr>
+-->

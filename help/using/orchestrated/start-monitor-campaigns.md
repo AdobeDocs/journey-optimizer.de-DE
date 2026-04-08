@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kam
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 54%
@@ -82,7 +82,7 @@ Um eine Kampagne wieder in den Entwurfsstatus zu versetzen, öffnen Sie die orch
 
 ![](assets/back-to-draft.png)
 
-Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Die Kampagne kehrt zum Status **Entwurf** zurück. Sie können jetzt die identifizierten Probleme beheben, die Kampagne [&#x200B; testen &#x200B;](#test) sie dann erneut [veröffentlichen](#publish) wenn sie bereit ist.
+Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Die Kampagne kehrt zum Status **Entwurf** zurück. Sie können jetzt die identifizierten Probleme beheben, die Kampagne [ testen ](#test) sie dann erneut [veröffentlichen](#publish) wenn sie bereit ist.
 
 ## Nachrichtenversand bestätigen {#confirm-sending}
 

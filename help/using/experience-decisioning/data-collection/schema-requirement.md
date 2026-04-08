@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ Um zu anderen Ereignistypen als Entscheidungsereignissen Feedback erhalten zu k�
 
 >[!CAUTION]
 >
->Stellen Sie für jeden Ereignistyp sicher, dass mit dem im Datensatz verwendeten Schema die Feldergruppe **[!UICONTROL Erlebnisereignis - Vorschlagsinteraktionen]** verknüpft ist. <!--[Learn more](create-dataset.md)-->
+>Stellen Sie für jeden Ereignistyp sicher, dass mit dem im Datensatz verwendeten Schema die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft ist. <!--[Learn more](create-dataset.md)-->
 
 Im Folgenden finden Sie die Schemaanforderungen, die Sie in Ihren JavaScript-Code implementieren müssen.
 
-## Verfolgen von Impressions {#track-impressions}
+## Nachverfolgen von Impressions {#track-impressions}
 
 Stellen Sie sicher, dass die folgenden Felder korrekt konfiguriert sind:
 
-**Erlebnisereignistyp:** `decisioning.propositionDisplay`
+**Ereigniserlebnistyp:** `decisioning.propositionDisplay`
 
 **propositionEventType:** `_experience.decisioning.propositionEventType.display`
 
-**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
+**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
 
 +++**Beispiel-Payload:**
 
@@ -96,17 +96,17 @@ Stellen Sie sicher, dass die folgenden Felder korrekt konfiguriert sind:
 
 Stellen Sie sicher, dass die folgenden Felder korrekt konfiguriert sind:
 
-**Erlebnisereignistyp:** `decisioning.propositionInteract`
+**Ereigniserlebnistyp:** `decisioning.propositionInteract`
 
 **propositionEventType:** `_experience.decisioning.propositionEventType.interact`
 
-**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
+**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
 
-Jedes Angebot in einem Vorschlag enthält ein Tracking-Token, bei dem es sich um eine eindeutige Kennung handelt, die von Adobe generiert wird. Dieses Token muss genau so übergeben werden, wie es im entsprechenden Klick- oder Impressionsereignis empfangen wurde - ohne Änderung. Durch übereinstimmende Tracking-Token wird sichergestellt, dass Adobe die Benutzeraktion präzise mit der richtigen Angebotsentscheidung verknüpfen kann, was nachgelagertes Reporting und KI-basierte Optimierung ermöglicht.
+Jedes Angebot in einem Vorschlag enthält ein Tracking-Token, bei dem es sich um eine eindeutige Kennung handelt, die von Adobe generiert wird. Dieses Token muss unverändert genau so übergeben werden, wie es im entsprechenden Klick- oder Impression-Ereignis empfangen wurde. Durch übereinstimmende Tracking-Token wird sichergestellt, dass Adobe die Benutzeraktion präzise mit der richtigen Angebotsentscheidung verknüpfen kann, was nachgelagertes Reporting und KI-basierte Optimierung ermöglicht.
 
 >[!CAUTION]
 >
->Wenn Sie beim Verfolgen von Klicks das Tracking-Token im Feld `propositionAction.tokens` nicht übergeben, werden die Klickereignisse nicht ordnungsgemäß dem entsprechenden Angebot zugeordnet. Dies führt zu unvollständigen Tracking-Daten und wirkt sich negativ auf das Reporting und die KI-basierte Ranking-Optimierung aus. Stellen Sie immer sicher, dass Sie das Tracking-Token aus dem Vorschlag in Ihre Klick-Tracking-Implementierung aufnehmen.
+>Wenn Sie beim Tracking von Klicks das Tracking-Token im Feld `propositionAction.tokens` nicht übergeben, werden die Klickereignisse nicht ordnungsgemäß dem entsprechenden Angebot zugeordnet. Dies führt zu unvollständigen Tracking-Daten und wirkt sich negativ auf das Reporting und die KI-basierte Rangfolgenoptimierung aus. Stellen Sie immer sicher, dass Sie das Tracking-Token aus dem Vorschlag in Ihre Klick-Tracking-Implementierung aufnehmen.
 
 +++**Beispiel-Payload:**
 
@@ -175,7 +175,6 @@ Jedes Angebot in einem Vorschlag enthält ein Tracking-Token, bei dem es sich um
 Bei benutzerdefinierten Ereignissen muss das im Datensatz verwendete Schema auch die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** aufweisen, die damit verknüpft ist. Es gibt jedoch keine spezielle Anforderung für den Erlebnisereignistyp, die zum Taggen dieser Ereignisse verwendet werden muss.
 
 <!--
-
 >[!NOTE]
 >
 >To have your custom events accounted for in [capping](../items.md#capping), you need to connect the experience event to Adobe Experience Platform endpoints by sending it to either one of these two Edge data collection endpoints:
@@ -183,4 +182,5 @@ Bei benutzerdefinierten Ereignissen muss das im Datensatz verwendete Schema auch
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.
+-->

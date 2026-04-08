@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Damit ein Teil Ihres JSON- oder HTML-Codes bearbeitbar ist, erstellen Sie zunäc
     | ------- | ------- | ------- |
     |Declare an editable field containing an **image source** that needs to be published.|`assetType="image"`|`{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}`|
     |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
-    -->
+-->
 
 1. Klicken Sie auf **[!UICONTROL Vorschau der Formularfelder anzeigen]**, um zu überprüfen, wie die bearbeitbaren Formularfelder in den Code-basierten Erlebnissen angezeigt werden, die diese Vorlage anwenden.
 
@@ -246,4 +246,4 @@ Sie können die Formularfelder einfach von einer Code-basierten Erlebnis-Journey
 
 Erfahren Sie, wie Sie bearbeitbare Felder zu Inhaltsvorlagen für Code-basierte Erlebniskanäle hinzufügen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464000/?captions=ger&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

@@ -3,7 +3,7 @@ title: Verwenden zusätzlicher Kennungen in Journeys
 description: Erfahren Sie, wie Sie zusätzliche Kennungen in Journeys verwenden.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 99%
@@ -141,13 +141,15 @@ Gehen Sie wie folgt vor, um eine zusätzliche Kennung in einer Journey vom Typ �
 
       Nachdem Sie den nicht personenbezogenen Identity-Namespace auf ein Schema angewendet haben, müssen Sie eine neue Feldergruppe erstellen, um die zusätzliche Kennung verwenden zu können. Bestehende Entitäten können nicht aktualisiert werden, um die neue Kennung zu erkennen.
 
-<!--1. **Add the supplemental ID field to the data source**
+<!--
+1. **Add the supplemental ID field to the data source**
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
         ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
-    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
+    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).
+-->
 
 1. **Hinzufügen und Konfigurieren einer Aktivität „Zielgruppe lesen“ in der Journey**
 
@@ -248,4 +250,4 @@ Diese Beispiele zeigen, wie zusätzliche Kennungen mehrere verwandte Datensätze
 
 Erfahren Sie, wie Sie eine zusätzliche Kennung in [!DNL Adobe Journey Optimizer] aktivieren und anwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464801?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

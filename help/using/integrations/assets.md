@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Assets, Experience Manager, Integration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 5ac4220250b69289ec0f722ca54fef3b63174643
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Um Dateien in **[!DNL Assets Essentials]** oder **[!DNL Assets as a Cloud Serv
     Note that this option is available for licensed/unlicensed Stock images and images from your Assets folder. 
 
     ![](assets/media_library_14.png)
-    -->
+-->
 
 
 ## Häufig gestellte Fragen {#faq-assets}
@@ -144,37 +144,37 @@ Solange die Person eine standardmäßige Berechtigung für **[!DNL Adobe Experie
 
 +++ Warum werden Bilder in E-Mails, die von Journey Optimizer gesendet werden, manchmal nicht geladen?
 
-Wenn Assets (z. B. Bilder) über Adobe Experience Manager verwaltet und in Journey Optimizer verwendet werden, unterliegen sie einer Asset-Lebenszyklusrichtlinie mit einer TTL (Time-to-Live). Nach Ablauf des TTL-Zeitraums können Assets aus dem Speicher (CDN) entfernt werden, was zu beschädigten Bildern in E-Mails führen kann, die auf diese Assets verweisen.
+Wenn Assets (z. B. Bilder) über Adobe Experience Manager verwaltet und in Journey Optimizer verwendet werden, unterliegen sie einer Richtlinie zum Asset-Lebenszyklus mit einer TTL (Time-to-Live). Nach Ablauf des TTL-Zeitraums können Assets aus dem Speicher (CDN) entfernt werden, was zu beschädigten Bildern in E-Mails führen kann, die auf diese Assets verweisen.
 
 >[!NOTE]
 >
->Die Asset-TTL wird von Adobe Journey Optimizer-Backend-Services verwaltet und kann derzeit von Kunden nicht konfiguriert werden. Der aktuelle TTL-Zeitraum ist für alle Journey Optimizer-Organisationen auf 730 Tage festgelegt.
+>Die Asset-TTL wird von Adobe Journey Optimizer-Backend-Services verwaltet und kann derzeit von Kundinnen und Kunden nicht konfiguriert werden. Der aktuelle TTL-Zeitraum ist für alle Journey Optimizer-Organisationen auf 730 Tage festgelegt.
 
 +++
 
-+++ Wie kann ich fehlerhafte Bilder aufgrund des Asset-Ablaufs auflösen?
++++ Wie kann ich Probleme mit fehlerhaften Bildern aufgrund des Asset-Ablaufs lösen?
 
 So stellen Sie die Bildverfügbarkeit bei abgelaufenen Assets wieder her:
 
-1. **Betroffene Assets erneut veröffentlichen**: Navigieren Sie zum Asset in Adobe Experience Manager und veröffentlichen Sie es erneut. Dadurch wird das Asset erneut im CDN verfügbar.
+1. **Betroffene Assets erneut veröffentlichen**: Navigieren Sie in Adobe Experience Manager zum Asset und veröffentlichen Sie es erneut. Dadurch wird das Asset erneut im CDN verfügbar.
 
 2. **Inhaltsreferenzen aktualisieren**: Wenn Sie Inhaltsfragmente oder Vorlagen verwenden, die auf abgelaufene Assets verweisen:
-   * Erstellen eines Entwurfs oder Klons des Inhaltsfragments
-   * Asset erneut hinzufügen oder auswählen
-   * Veröffentlichen des aktualisierten Inhalts
+   * Erstellen Sie einen Entwurf oder Klon des Inhaltsfragments
+   * Fügen Sie das Asset erneut hinzu oder wählen Sie es erneut aus
+   * Veröffentlichen Sie den aktualisierten Inhalt
 
-3. **Proaktive Verwaltung**: Um zukünftige Unterbrechungen zu vermeiden, sollten Sie in aktiven E-Mail-Kampagnen verwendete Assets regelmäßig überprüfen und erneut veröffentlichen, insbesondere solche, die sich dem TTL-Ablaufzeitraum nähern.
+3. **Proaktive Verwaltung**: Um zukünftige Unterbrechungen zu vermeiden, sollten Sie in aktiven E-Mail-Kampagnen verwendete Assets regelmäßig prüfen und erneut veröffentlichen, insbesondere solche, die sich kurz vor Ende des TTL-Ablaufzeitraums befinden.
 
 >[!CAUTION]
 >
->Die Anforderungen an die erneute Veröffentlichung gelten für alle Umgebungen (Produktion, Staging, Entwicklung). Stellen Sie sicher, dass Assets verfügbar bleiben, indem Sie ihren Lebenszyklus angemessen verwalten.
+>Die Anforderungen bezüglich der erneuten Veröffentlichung gelten für alle Umgebungen (Produktion, Staging, Entwicklung). Stellen Sie sicher, dass Assets verfügbar bleiben, indem Sie ihren Lebenszyklus angemessen verwalten.
 
 +++
 
-+++ Wird die Logik zum Ablauf von Assets in Zukunft verbessert?
++++ Wird die Logik zum Asset-Ablauf in Zukunft verbessert?
 
-Ja, Adobe arbeitet aktiv an Verbesserungen, um die Logik zum Ablauf von Assets und zur Lebenszyklusverwaltung zu verfeinern. Diese Verbesserungen sollen einen besseren Überblick über den Asset-Lebenszyklusstatus bieten und das Risiko von fehlerhaften Bildern in Live-Kampagnen verringern.
+Ja, Adobe arbeitet aktiv an Verbesserungen, um die Logik zum Asset-Ablauf und zur Lebenszyklusverwaltung zu verbessern. Diese Änderungen sollen einen besseren Überblick über den Asset-Lebenszyklusstatus bieten und das Risiko von fehlerhaften Bildern in Live-Kampagnen verringern.
 
-Die neuesten Aktualisierungen erhalten Sie von Ihrem Adobe-Accountteam oder lesen Sie die Versionshinweise zu Adobe Journey Optimizer.
+Wenden Sie sich für die neuesten Aktualisierungen an Ihr Adobe-Account-Team oder verfolgen Sie die Versionshinweise zu Adobe Journey Optimizer.
 
 +++

@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 100%
@@ -36,7 +36,7 @@ Die folgenden gängigen Tastaturbefehle sind in [!DNL Journey Optimizer] verfüg
 
 | Aktion | Tastenkombination |
 | --- | --- |
-| Wechseln zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche | Tabulatortaste |
+| Wechseln zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche | Tab |
 | Rückwärts zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Umschalttaste + Tabulatortaste |
 | Bewegen innerhalb von Abschnitten zum Setzen des Fokus auf einzelne Elemente | Pfeil |
 | Auswählen oder Löschen eines Element, das sich im Fokus befindet | Eingabetaste oder Leertaste |
@@ -75,7 +75,7 @@ Sie können diese Tastaturbefehle in bestimmten Bereichen der Benutzeroberfläch
   </tr>   
   <tr>
     <td>Fokus auf das nächste ausführbare Element auf der Arbeitsfläche verschieben, wobei die Symbolleiste das erste Element ist</td>
-    <td>Tabulatortaste</td>
+    <td>Tab</td>
   </tr>  
   <tr>
     <td>Rechten Konfigurationsbereich öffnen (Fokus auf eine Aktivität)</td>
@@ -96,7 +96,7 @@ Sie können diese Tastaturbefehle in bestimmten Bereichen der Benutzeroberfläch
 </ul>
   </td>
     <td>Wechseln zum nächsten zu konfigurierenden Feld</td>
-    <td>Tabulatortaste</td>
+    <td>Tab</td>
   </tr>
   <tr>
     <td>Speichern der Änderungen und Schließen des Konfigurationsbereichs</td>
@@ -106,7 +106,8 @@ Sie können diese Tastaturbefehle in bestimmten Bereichen der Benutzeroberfläch
     <td>Verwerfen von Änderungen und Schließen des Konfigurationsbereichs</td>
     <td>Esc</td>
   </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+<!--
+ //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>
     <td>Page with a search bar</td>
     <td>Select the search bar</td>

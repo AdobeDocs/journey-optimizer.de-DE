@@ -3,17 +3,17 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Datensatz für personalisierte Angebote
 description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Angebote verwendet werden
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1951'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** characteristics
 **Titel:** Merkmale der Entscheidungsoption
-**Beschreibung:** Merkmale sind zusätzliche Attribute oder Eigenschaften von Angeboten, die zu einer bestimmten Entscheidungsoption gehören. Bei diesen Attributen handelt es sich um Schlüssel-Wert-Paare, d. h. sie enthalten einen Attributnamen (manchmal auch als Schlüssel bezeichnet), dem ein Wert zugeordnet ist, und werden verwendet, um eine Entscheidungsoption von den anderen Angeboten zu unterscheiden. Bei einem Attributnamen „color“ kann der Wert beispielsweise für ein bestimmtes Angebot „green“ lauten.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**Beschreibung:** Merkmale sind zusätzliche Attribute oder Eigenschaften von Angeboten, die zu einer bestimmten Entscheidungsoption gehören. Bei diesen Attributen handelt es sich um Schlüssel-Wert-Paare, d. h. sie enthalten einen Attributnamen (manchmal auch als Schlüssel bezeichnet), dem ein Wert zugeordnet ist, und werden verwendet, um eine Entscheidungsoption von den anderen Angeboten zu unterscheiden. Bei einem Attributnamen „color“ kann der Wert für ein bestimmtes Angebot beispielsweise „green“ lauten.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **Typ:** Objekt
 
 +++
@@ -107,6 +107,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Beschreibung:** Die Komponenten des Inhalts, der die Entscheidungsoption darstellt, einschließlich aller zugehörigen Sprachvarianten. Spezifische Komponenten werden durch „dx:format“, „dc:subject“ und „dc:language“ oder eine Kombination daraus gefunden. Diese Metadaten werden verwendet, um den mit einem Angebot verknüpften Inhalt zu suchen oder darzustellen und ihn gemäß dem Platzierungsvertrag zu integrieren.
 **Typ:** Array
 **Erforderlich:** „_type“, „_dc“ <!--TBC?-->
+
++++
 
 * **_experience > decisioning > contents > components > Content Component Type**
 
@@ -186,7 +188,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
   **Feld:** linkURL
   **Beschreibung:** Eine optionale, eindeutige URL für Benutzerinteraktionen. Diese URL wird verwendet, um den Endbenutzer auf einen User Agent zu verweisen, und kann verfolgt werden.
   **Typ:** Zeichenfolge
-  **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
+  **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
 
 +++_experience > decisioning > contents > Placement
 

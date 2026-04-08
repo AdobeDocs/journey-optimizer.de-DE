@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d8de1524-9d71-4978-86f5-1cd46f2e265c
-source-git-commit: bd1bb6156427fc9539a60119f909b67c505d5a1c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 78%
@@ -33,7 +33,8 @@ Bevor Sie eine Mobile App erstellen, müssen Sie zunächst sicherstellen, dass S
 >
 >Die Konfiguration für Push-Benachrichtigungen muss von einem erfahrenen Benutzer durchgeführt werden. Abhängig von Ihrem Implementierungsmodell und den an dieser Implementierung beteiligten Rollen müssen Sie möglicherweise den gesamten Berechtigungssatz einem einzelnen Produktprofil zuweisen oder Berechtigungen zwischen dem App-Entwickler und dem **Adobe Journey Optimizer**-Administrator aufteilen. Weitere Informationen zu Berechtigungen für **Tags** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=de){target="_blank"}.
 
-<!--ou need to your have access to perform following roles :
+<!--
+ou need to your have access to perform following roles :
 
 * Manage Datastreams
 * Manage Client-side Properties
@@ -117,9 +118,9 @@ Die folgenden Schemata und Datensätze sind über den Push-Benachrichtigungskana
 
 ### Konfigurieren der Eigenschaft „pushNotification“ {#push-property}
 
-Um **Web-Push-Benachrichtigungen** zu aktivieren, müssen Sie zunächst sicherstellen, dass die [pushNotifications-Eigenschaft](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/pushnotifications) in der Web-SDK ordnungsgemäß konfiguriert ist. Diese Eigenschaft steuert, wie Push-Benachrichtigungen von Ihrer Web-Anwendung verarbeitet werden.
+Um **Web-Push-Benachrichtigungen** zu aktivieren, müssen Sie zunächst sicherstellen, dass die [pushNotifications-Eigenschaft](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) in der Web-SDK ordnungsgemäß konfiguriert ist. Diese Eigenschaft steuert, wie Push-Benachrichtigungen von Ihrer Web-Anwendung verarbeitet werden.
 
-Darüber hinaus müssen Sie GÜLTIGE Schlüssel generieren, die zum Konfigurieren ([&#x200B; Push-Anmeldeinformationen für Ihre App](#push-credentials-launch) in Journey Optimizer erforderlich sind.
+Darüber hinaus müssen Sie GÜLTIGE Schlüssel generieren, die zum Konfigurieren ([ Push-Anmeldeinformationen für Ihre App](#push-credentials-launch) in Journey Optimizer erforderlich sind.
 
 ## Schritt 1: Hinzufügen von Push-Anmeldedaten für die App in Journey Optimizer {#push-credentials-launch}
 
@@ -174,7 +175,7 @@ Sie können Ihre Konfiguration jetzt beim Erstellen Ihrer Push-Benachrichtigunge
 
 ## Schritt 3: Konfigurieren der Eigenschaft „sendPushSubscription“ {#sendPushSubscription-property}
 
-Nachdem Sie Ihre Push-Anmeldeinformationen und die Kanalkonfiguration eingerichtet haben, müssen Sie [den Befehl sendPushSubscription](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/sendpushsubscription) in Ihrer Web-Anwendung implementieren. Dieser Befehl registriert Benutzer-Push-Abonnements bei Adobe Experience Platform, sodass das System verfolgen kann, welche Benutzer sich für den Empfang von Push-Benachrichtigungen entschieden haben, und ihren Abonnementstatus beibehalten kann. Diese Registrierung ist für Journey Optimizer unerlässlich, um gezielte Push-Benachrichtigungen an Ihre Benutzerinnen und Benutzer zu senden.
+Nachdem Sie Ihre Push-Anmeldeinformationen und die Kanalkonfiguration eingerichtet haben, müssen Sie [den Befehl sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) in Ihrer Web-Anwendung implementieren. Dieser Befehl registriert Benutzer-Push-Abonnements bei Adobe Experience Platform, sodass das System verfolgen kann, welche Benutzer sich für den Empfang von Push-Benachrichtigungen entschieden haben, und ihren Abonnementstatus beibehalten kann. Diese Registrierung ist für Journey Optimizer unerlässlich, um gezielte Push-Benachrichtigungen an Ihre Benutzerinnen und Benutzer zu senden.
 
 ## Schritt 4: Testen Sie Ihre Mobile App mit einem Ereignis {#mobile-app-test}
 

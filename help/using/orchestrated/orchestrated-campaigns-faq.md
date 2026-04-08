@@ -5,7 +5,7 @@ title: Häufig gestellte Fragen zu orchestrierten Kampagnen
 description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Kampagnen
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 82f455bf3707d3701ea602569c5bd7e3cee326fc
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 87%
@@ -139,7 +139,8 @@ Yes. Campaign orchestration is natively integrated with:
 
 * **Customer Journey Analytics**: Campaign orchestration reports are available.  
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
-* **Federated Audience Composition (FAC)**: Available as an add-on.  -->
+* **Federated Audience Composition (FAC)**: Available as an add-on.  
+-->
 
 +++ Wie kann ich eine signalgesteuerte orchestrierte Kampagne vor der Veröffentlichung testen?
 

@@ -10,8 +10,8 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -77,7 +77,8 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 <!--
 **Spam scoring for emails**
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.
+-->
 
 **Kampagnen**
 
@@ -90,12 +91,13 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
    * das Feld **Dauer** in der [Warteaktivität](../building-journeys/wait-activity.md)
    * die **Wartezeit bis zum erneuten Eintritt** in den [Journey-Eigenschaften](../building-journeys/journey-properties.md#entrance)
-   * das Feld **Warten auf** in der Definition der maximalen Wartezeit von [Ereignisaktivitäten](../building-journeys/general-events.md#events-specific-time).
+   * das Feld **Warten auf** in der Definition des Timeouts von [Ereignisaktivitäten](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
 
-* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.
+-->
 
 **Entscheidungs-Management**
 
@@ -194,7 +196,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Web-Kanal**
 
-* Einzelseitenanwendungen (SPA) können jetzt im visuellen Web-Editor erstellt werden, mit dem Sie auswählen können, auf welche spezifischen Ansichten Sie Ihre Web-Seitenänderungen anwenden möchten. Eine Ansicht kann als ganze Seite oder als Gruppe visueller Elemente auf einer Seite definiert werden, z. B. als Startseite, als gesamte Produktseite oder als Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten. Zur Definition der Ansichten in der Adobe Experience Platform Web SDK-Implementierung ist ein einmaliges Entwickler-Setup erforderlich, damit Marketing-Fachleute Web-Kampagnen von Adobe Journey Optimizer auf Einzelseitenanwendungen erstellen und ausführen können. [Weitere Informationen](../web/web-spa.md)
+* Einzelseitenanwendungen (SPA) können jetzt im visuellen Web-Editor erstellt werden, mit dem Sie auswählen können, auf welche spezifischen Ansichten Sie Ihre Web-Seitenänderungen anwenden möchten. Eine Ansicht kann als ganze Seite oder als Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, als gesamte Produktseite oder als Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten. Zur Definition der Ansichten in der Adobe Experience Platform Web SDK-Implementierung ist ein einmaliges Entwickler-Setup erforderlich, damit Marketing-Fachleute Web-Kampagnen von Adobe Journey Optimizer auf Einzelseitenanwendungen erstellen und ausführen können. [Weitere Informationen](../web/web-spa.md)
 
 * Bei der Bearbeitung einer Seite mit dem Web-Designer können Sie neue Änderungen direkt im Bereich „Änderungen“ hinzufügen, ohne erst eine Komponente auswählen und in der Designer-Oberfläche bearbeiten zu müssen. [Weitere Informationen](../web/manage-web-modifications.md#add-modifications)
 
@@ -231,9 +233,11 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * Mit einer neuen Option für Assets können Sie das Repository für Ihre Assets in Journey Optimizer auswählen. Sie können sich für ein Assets Essentials-Repository oder ein Asset as a Cloud Service-Repository entscheiden, sofern Sie über diese Lösung verfügen. [Weitere Informationen](../integrations/assets.md)
 
-<!--**Decision management**
+<!--
+**Decision management**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    
+-->
 
 ## Version August 2023 {#aug-rn-2023}
 
@@ -276,7 +280,8 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 </table>
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Generate text and images with the Content assistant</strong><br/></th>
@@ -291,7 +296,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
 
@@ -302,11 +307,14 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 <!--
 **APIs**
 
-A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+-->
 
-<!--**Email channel**
+<!--
+**Email channel**
 
-A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.
+-->
 
 **Journeys**
 
@@ -348,7 +356,7 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>Briefpost-Kanal</strong><br/></th>
+<th><strong>Direkt-Mail-Kanal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -652,9 +660,11 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## Version April 2023 {#apr-rn-2023}
 
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
+<!--
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
 
-**Release date**: April 27, 2023-->
+**Release date**: April 27, 2023
+-->
 
 ### Neue Funktionen{#apr-2023-features}
 
@@ -796,7 +806,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * Dem Testmodus wurde ein Schutzmechanismus hinzugefügt, der nur Ereignisse überwacht, die über die Oberfläche gesendet werden. Ereignisse, die über ein externes Tool gesendet werden, werden nicht berücksichtigt. [Weitere Informationen](../building-journeys/testing-the-journey.md)
 
 
-<!-- 
+<!--
+ 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
 * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
@@ -868,7 +879,6 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 </table>
 
 <!--
-
 <table>
 <thead>
 <tr>
@@ -916,7 +926,6 @@ Note that each widget can be resized and deleted as needed.
 </tr>
 </tbody>
 </table>
-
 -->
 
 ### Verbesserungen {#feb-2023-improvements}
@@ -928,7 +937,6 @@ Note that each widget can be resized and deleted as needed.
 * Es wurden Verbesserungen in Bezug auf die **Start- und Enddaten einer Journey** vorgenommen. Wenn kein Startdatum angegeben wurde, wird es jetzt automatisch zum Veröffentlichungszeitpunkt hinzugefügt. Für **Zielgruppe lesen**-Journeys kann jetzt ein Enddatum hinzugefügt werden. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. [Weitere Informationen](../building-journeys/journey-gs.md#dates)
 
 <!--
-
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes. [Learn more](../building-journeys/using-the-journey-designer.md)
 
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)

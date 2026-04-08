@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Zielgruppenbestimmung, Regeln, Journey, Pfad, Optimierung, Personalisierung
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
-source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 88%
@@ -31,13 +31,15 @@ Mit Targeting-Regeln können Sie auf der Grundlage bestimmter Zielgruppensegment
 
 Im Gegensatz zu Experimenten, bei denen es sich um eine zufällige Zuweisung eines bestimmten Pfads handelt, ist das Targeting deterministisch, da sichergestellt wird, dass die richtige Zielgruppe oder das richtige Profil in den angegebenen Pfad eintritt.
 
-<!--With targeting, specific rules can be defined based on:
+<!--
+With targeting, specific rules can be defined based on:
 
 * **User profile attributes** such as location (eg. geo-targeting), age, or preferences. For example, users in the US receive a "Golden Gate" promotion, while users in France receive an "Eiffel Tower" promotion.
 
 * **Contextual data** such as device type (eg. device-targeting), time of day, or session details. For example, desktop users receive desktop-optimized content, while mobile users receive mobile-optimized content.
 
-* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.-->
+* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.
+-->
 
 Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 

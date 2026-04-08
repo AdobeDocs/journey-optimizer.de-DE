@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 75%
@@ -54,7 +54,7 @@ Gehen Sie wie folgt vor, um Ihren Sinch-Anbieter zum Senden von SMS-Nachrichten 
    +++ Liste der SMS-Anmeldedaten für die Konfiguration
 
    | Konfigurationsfelder | Beschreibung |
-   |---|---|    
+   |---|---|
    | SMS-Anbieter | Sinch |
    | Name | Wählen Sie einen Namen für Ihre API-Anmeldedaten. |
    | Service-ID und API-Token | Rufen Sie die API-Seite auf. Sie finden Ihre Anmeldedaten auf der Registerkarte „SMS“. Weitere Informationen finden Sie in der [Sinch-Dokumentation](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
@@ -64,7 +64,7 @@ Gehen Sie wie folgt vor, um Ihren Sinch-Anbieter zum Senden von SMS-Nachrichten 
    | Opt-out-Nachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Opt-out-Nachricht gesendet wird. |
    | Hilfe-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br> Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre **Hilfemeldung“ automatisch Trigger**. Verwenden Sie für mehrere Keywords kommagetrennte Werte. |
    | Hilfenachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfe-Nachricht“ gesendet**. |
-   | Double-Opt-in-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die Keywords ein, die den doppelten Opt-in-Prozess Trigger machen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3440289/?captions=ger&learn=on). |
+   | Double-Opt-in-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die Keywords ein, die den doppelten Opt-in-Prozess Trigger machen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Double-Opt-in-Nachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Antwort auf die Bestätigung des doppelten Opt-ins gesendet wird. |
    | Eingehende Nummer | Fügen Sie Ihre eindeutige eingehende Nummer oder Ihren eindeutigen Kurz-Code hinzu. Auf diese Weise können Sie dieselben API-Anmeldedaten für verschiedene Sandboxes verwenden, von denen jede über eine eigene eingehende Zahl oder einen eigenen Kurz-Code verfügt. |
    | Benutzerdefinierte eingehende Keywords | Definieren Sie eindeutige, nicht auf Einverständnis bezogene Keywords für Batch-basierte Aktionen, z. B. RABATT, ANGEBOTE, REGISTRIEREN. Diese Keywords werden als Attribute im Profil erfasst und gespeichert, sodass Sie eine Batch-Segmentqualifikation innerhalb der Journey auslösen und eine benutzerdefinierte Antwort oder Aktion bereitstellen können. |

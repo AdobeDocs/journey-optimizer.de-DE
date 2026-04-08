@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsrichtlinie, Arbeitsfläche, Journey
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 74%
@@ -109,7 +109,7 @@ Um die Ausgabe einer Inhaltsentscheidungsaktivität zu nutzen, fügen Sie eine *
 
    >[!NOTE]
    >
-   >Jede für ein Attribut definierte eingeschränkte Beschriftung kann zu einer Richtlinienverletzung bei DULE oder Einverständnis führen. Dies gilt für das Journey von Erlebnisereignissen, die in einer Entscheidungsregel verwendet werden, und für das [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema). Weitere Informationen zu Data-Governance-Richtlinien finden [&#x200B; in diesem Abschnitt](../action/action-privacy.md).
+   >Jede für ein Attribut definierte eingeschränkte Beschriftung kann zu einer Richtlinienverletzung bei DULE oder Einverständnis führen. Dies gilt für das Journey von Erlebnisereignissen, die in einer Entscheidungsregel verwendet werden, und für das [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema). Weitere Informationen zu Data-Governance-Richtlinien finden [ in diesem Abschnitt](../action/action-privacy.md).
 
 1. Um zu überprüfen, ob für die Profile, die in die Journey eintreten, ein Angebot zurückgegeben wurde, verwenden Sie die Funktion [listSize](functions/list-functions.md#listSize) mit der folgenden Syntax: `listSize(@decision{ContentdecisionName.items})>0`
 
@@ -165,9 +165,11 @@ Nachfolgend finden Sie ein vollständiges Beispiel für eine Journey mit einer A
 
 Folgendes gilt, sobald die Journey [aktiviert](publish-journey.md) ist:
 
-<!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
+<!--
+* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
-* If no offer is returned for a profile, they are excluded from the custom action.-->
+* If no offer is returned for a profile, they are excluded from the custom action.
+-->
 
 1. Jedes Mal, wenn sich ein Profil für diese Zielgruppe qualifiziert, tritt es in die Journey ein.
 

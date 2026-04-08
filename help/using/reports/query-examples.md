@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: d2f32e0572b78db55c61cf087eb308d6fc0e2d4d
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '3542'
 ht-degree: 73%
@@ -388,6 +388,8 @@ FROM journey_step_event
 
 WHERE _experience.journeyOrchestration.serviceType is not null;
 ```
+
++++
 
 ## Nachrichten-/Aktionsfehler {#message-action-errors}
 
@@ -1076,7 +1078,7 @@ Diese Abfrage hilft Ihnen zu verstehen, wie viele eindeutige Profile eine bestim
 
 +++Anzahl der in den letzten 12 Monaten pro Journey eingesetzten Profile
 
-Diese Abfrage zeigt die Anzahl der eindeutigen Profile an, die von jeder Journey in Ihrem Unternehmen in den letzten 12 Monaten kontaktiert wurden. So können Sie ermitteln, welche Journey am meisten zu Ihrer [Engageable Profiles“ &#x200B;](../audience/license-usage.md).
+Diese Abfrage zeigt die Anzahl der eindeutigen Profile an, die von jeder Journey in Ihrem Unternehmen in den letzten 12 Monaten kontaktiert wurden. So können Sie ermitteln, welche Journey am meisten zu Ihrer [Engageable Profiles“ ](../audience/license-usage.md).
 
 ```sql
 SELECT 
@@ -1131,13 +1133,13 @@ _Beispielausgabe_
 | 22.11.2024 | 9.230 |
 | 21.11.2024 | 8.670 |
 
-Mit dieser Ausgabe können Sie tägliche Trends überwachen und erkennen, wann eine große Anzahl von Profilen interagiert. In diesem Beispiel zeigt der 23. November eine signifikante Spitze (125.340 Profile) im Vergleich zur typischen täglichen Interaktion (ca. 8.000 Profile), die eine Untersuchung rechtfertigen würde, um zu verstehen, was Journey oder Kampagne die Zunahme der Anzahl Ihrer [Engageable Profiles“ verursacht &#x200B;](../audience/license-usage.md).
+Mit dieser Ausgabe können Sie tägliche Trends überwachen und erkennen, wann eine große Anzahl von Profilen interagiert. In diesem Beispiel zeigt der 23. November eine signifikante Spitze (125.340 Profile) im Vergleich zur typischen täglichen Interaktion (ca. 8.000 Profile), die eine Untersuchung rechtfertigen würde, um zu verstehen, was Journey oder Kampagne die Zunahme der Anzahl Ihrer [Engageable Profiles“ verursacht ](../audience/license-usage.md).
 
 +++
 
 +++Identifizieren von Journey, die kürzlich große Zielgruppen angesprochen haben
 
-Diese Abfrage hilft dabei, festzustellen, welche Journey in den letzten Zeiträumen mit einer großen Anzahl neuer Profile interagiert haben, was einen plötzlichen Anstieg der Anzahl [Engageable Profiles“ &#x200B;](../audience/license-usage.md) kann.
+Diese Abfrage hilft dabei, festzustellen, welche Journey in den letzten Zeiträumen mit einer großen Anzahl neuer Profile interagiert haben, was einen plötzlichen Anstieg der Anzahl [Engageable Profiles“ ](../audience/license-usage.md) kann.
 
 ```sql
 SELECT 

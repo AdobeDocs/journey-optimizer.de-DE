@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1931'
 ht-degree: 97%
@@ -95,7 +95,8 @@ Gehen Sie wie folgt vor, um in [!DNL Journey Optimizer] eine benutzerdefinierte 
 <!--
 >[!NOTE]
 >
->This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).-->
+>This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).
+-->
 
 1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL Subdomains]** auf und klicken Sie dann auf **[!UICONTROL Subdomain einrichten]**.
 
@@ -118,7 +119,8 @@ Gehen Sie wie folgt vor, um in [!DNL Journey Optimizer] eine benutzerdefinierte 
 
    ![](assets/subdomain-name.png)
 
-<!-- >[!CAUTION]
+<!--
+ >[!CAUTION]
     >
     >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     >
@@ -127,7 +129,7 @@ Gehen Sie wie folgt vor, um in [!DNL Journey Optimizer] eine benutzerdefinierte 
     Capital letters are not allowed in subdomains. TBC by PM
 -->
 
-    >[ !HINWEIS]
+    >[!HINWEIS]
     >
     >Nachdem Sie eine neue Subdomain mit Ihrem DNS-Anbieter erstellt haben, sollten Sie 24–48 Stunden für die DNS-Propagierung einplanen, bevor Sie eine Delegierung an Adobe versuchen.
 
@@ -189,7 +191,8 @@ Gehen Sie wie folgt vor, um die Subdomain-Delegierung abzuschließen.
 <!--
     >[!NOTE]
     >
-    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).-->
+    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).
+-->
 
 1. Sie können die Einträge erstellen und die Subdomain-Konfiguration später über die Schaltfläche **[!UICONTROL Als Entwurf speichern]** übermitteln.
 
@@ -278,4 +281,4 @@ Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgeho
 
 Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3412601?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

@@ -3,17 +3,17 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Bereitstellen von Angeboten mithilfe der Edge Decisioning-API
 description: Mit dem Adobe Experience Platform Web SDK können Sie personalisierte Angebote abrufen und rendern, die Sie mithilfe von APIs oder der Angebotsbibliothek erstellt haben.
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Um Angebote zu personalisieren, müssen Sie Ihre Personalisierung/Profile separa
 >
 >**Übergeben von Kontextdaten in Edge Decisioning-Anfragen**
 >
->Sie können Kontextdaten (z. B. Gerätetyp, Standort oder Benutzereinstellungen) in Ihren Edge-Entscheidungsanfragen übergeben, um dynamische Eignungsregeln zu erstellen und basierend auf Echtzeitbedingungen personalisierte Angebote bereitzustellen. [Erfahren Sie mehr über Kontextdaten und Edge-Entscheidungsanfragen](../../context-data-edge.md)
+>Sie können in Ihren Edge Decisioning-Anfragen Kontextdaten (z. B. Gerätetyp, Standort oder Benutzereinstellungen) übergeben, um dynamische Eignungsregeln zu erstellen und basierend auf Echtzeitbedingungen personalisierte Angebote bereitzustellen. [Weitere Informationen über Kontextdaten und Edge Decisioning-Anfragen](../../context-data-edge.md)
 
 Führen Sie einen der beiden folgenden Schritte aus, um das SDK für Entscheidungs-Management zu konfigurieren:
 
@@ -263,6 +263,8 @@ document.getElementById("offerDescription").innerHTML = offerDescription;
 document.getElementById('offerImage').src = offerImageURL;
 ```
 
-<!--## Limitations
+<!--
+## Limitations
 
-Some offer constraints are currently not supported with the mobile Experience Edge workflows, for example Capping. The Capping field value specifies the number of times an offer can be presented across all users. For more details, see [Add constraints to an offer](../../offer-library/add-constraints.md#capping).-->
+Some offer constraints are currently not supported with the mobile Experience Edge workflows, for example Capping. The Capping field value specifies the number of times an offer can be presented across all users. For more details, see [Add constraints to an offer](../../offer-library/add-constraints.md#capping).
+-->

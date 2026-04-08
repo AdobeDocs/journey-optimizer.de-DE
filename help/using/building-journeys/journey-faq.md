@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung, Orchestrierung
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 93%
@@ -553,9 +553,11 @@ Lösung: Validieren Sie die Profildatenqualität
 * **Journey nicht veröffentlicht**: Die Journey befindet sich noch im Entwurfsmodus
 Lösung: Veröffentlichen Sie die Journey, um sie zu aktivieren
 
-<!-- 
+<!--
+ 
 * **Message not approved**: Message content requires approval before sending
-  Solution: Submit for approval or check approval status-->
+  Solution: Submit for approval or check approval status
+-->
 
 * **Kanalkonfigurationsproblem**: E-Mail-/SMS-Konfiguration ist falsch
 Lösung: Überprüfen Sie die Kanalkonfigurationen und -authentifizierung
@@ -590,7 +592,7 @@ Erhalten Sie mehr über [Personalisierung](../personalization/personalize.md).
 
 Ja. Verwenden Sie eine **[Aktivität „Optimieren](conditions.md)**, um Profile basierend auf ihrem bevorzugten Kanal zu routen:
 
-1. Fügen Sie [&#x200B; Journey eine Aktivität &#x200B;](optimize.md)Optimieren“ hinzu
+1. Fügen Sie [ Journey eine Aktivität ](optimize.md)Optimieren“ hinzu
 2. Erstellen Sie einen Pfad für jeden Kanal, indem Sie das Profilattribut des bevorzugten Kanals überprüfen (z. B. `profile.preferredChannel`).
 3. Konfigurieren von kanalspezifischen Pfaden:
    * **E-Mail-Pfad**: Fügen Sie eine [E-Mail-Aktion](../email/create-email.md) mit für E-Mails optimierten Inhalten hinzu
@@ -931,7 +933,7 @@ Erfahren Sie mehr über [Journey-Design](using-the-journey-designer.md) und [Lei
 
 * Verwenden Sie [Testmodus](testing-the-journey.md) und [Probelauf](journey-dry-run.md), um die Leistung vor der Veröffentlichung zu überprüfen
 * Minimieren Sie externe API-Aufrufe durch [benutzerdefinierte Aktionen](using-custom-actions.md), um Latenz und Abhängigkeit von Drittanbietersystemen zu vermeiden
-* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [&#x200B; nach Möglichkeit die Datensatzsuche &#x200B;](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
+* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [ nach Möglichkeit die Datensatzsuche ](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
 * Überprüfen und optimieren Sie die Leistung des [Nachrichtenversands](journey-action.md)
 
 Erfahren Sie mehr über [Leitlinien und Einschränkungen](../start/guardrails.md).

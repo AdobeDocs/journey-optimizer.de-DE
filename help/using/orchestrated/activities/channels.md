@@ -5,7 +5,7 @@ title: Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 description: Informationen über das Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1682'
 ht-degree: 60%
@@ -47,7 +47,6 @@ UNUSED IDs in BJ
 >id="ajo_orchestration_push_android"
 >title="Push Android activity"
 >abstract="The Push Android activity lets you send Android Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending of Android Push notifications to a predefined target within the same Orchestrated campaign. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
-
 -->
 
 >[!CONTEXTUALHELP]
@@ -104,7 +103,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Anwenden von Begrenzungsregeln**
 
-   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. [Erfahren Sie, wie Sie mit Regelsätzen &#x200B;](../../conflict-prioritization/rule-sets.md).
+   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. [Erfahren Sie, wie Sie mit Regelsätzen ](../../conflict-prioritization/rule-sets.md).
 
 1. **Erstellen eines Inhaltsexperiments**
 
@@ -197,7 +196,7 @@ Diese Funktion ist besonders nützlich, um eine Überlastung nachgelagerter Syst
 
 Gehen Sie wie folgt vor, um die Ratensteuerung festzulegen:
 
-1. Wählen Sie eine Aktivität für einen ausgehenden Kanal auf der Arbeitsfläche aus und klicken Sie je nach **[!UICONTROL Kanal auf E-Mail]**&#x200B;**[!UICONTROL SMS bearbeiten]** oder **[!UICONTROL Push bearbeiten]**.
+1. Wählen Sie eine Aktivität für einen ausgehenden Kanal auf der Arbeitsfläche aus und klicken Sie je nach **[!UICONTROL Kanal auf E-Mail]****[!UICONTROL SMS bearbeiten]** oder **[!UICONTROL Push bearbeiten]**.
 
    ![Bild, das die Arbeitsfläche mit einer E-Mail -Aktivität zeigt](../assets/channel-edit.png)
 
@@ -234,14 +233,16 @@ how to add and configure the activity
 
 example of a configured activity within a workflow
 The Email delivery activity allows you to configure the sending an email in a workflow. 
-
 -->
 
-<!--You can also create a recurring Orchestrated campaign to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
+<!--
+You can also create a recurring Orchestrated campaign to send a personalized SMS every first day of the month at 8 PM to all customers living in Paris.
 
-![](../assets/workflow-channel-example2.png)-->
+![](../assets/workflow-channel-example2.png)
+-->
 
-<!-- Scheduled emails available?
+<!--
+ Scheduled emails available?
 
 This can be a single send email and sent just once, or it can be a recurring email.
 * Single send emails are standard emails, sent once.
@@ -249,7 +250,6 @@ This can be a single send email and sent just once, or it can be a recurring ema
 
 When linked to a scheduler, you can define recurring emails.
 Email recipients are defined upstream of the activity in the same workflow, via an Audience targeting activity.
-
 -->
 
 

@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -29,109 +29,100 @@ Adobe Experience Manager Content Advisor ersetzt deterministische Erkennung durc
 
 Adobe Experience Manager Content Advisor bietet die folgenden Asset-Funktionen:
 
-* &#x200B;
-  +++ KI-Semantische Suche
++++ KI-Semantische Suche
 
-  Suchen Sie mithilfe natürlicher Sprache nach Assets anstelle exakter Keywords oder Dateinamen. Beschreiben Sie, was Sie benötigen, in einfacher Sprache, z. B. „Kaffee in den Bergen“. Die KI findet kontextuell relevante Assets basierend auf Bedeutung und Inhalt, nicht nur Textübereinstimmungen.
+Suchen Sie mithilfe natürlicher Sprache nach Assets anstelle exakter Keywords oder Dateinamen. Beschreiben Sie, was Sie benötigen, in einfacher Sprache, z. B. „Kaffee in den Bergen“. Die KI findet kontextuell relevante Assets basierend auf Bedeutung und Inhalt, nicht nur Textübereinstimmungen.
 
-  ![](assets/content-advisor-2.png){zoomable="yes"}
+![](assets/content-advisor-2.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Letzter Suchverlauf
++++ Letzter Suchverlauf
 
-  Greifen Sie auf Ihre letzten Suchvorgänge zu, um Keywords und Kontexte schnell wiederzuverwenden. Dies spart Zeit, wenn Sie an ähnlichen Kampagnen arbeiten oder frühere Suchvorgänge verfeinern müssen.
+Greifen Sie auf Ihre letzten Suchvorgänge zu, um Keywords und Kontexte schnell wiederzuverwenden. Dies spart Zeit, wenn Sie an ähnlichen Kampagnen arbeiten oder frühere Suchvorgänge verfeinern müssen.
 
-  ![](assets/content-advisor-4.png){zoomable="yes"}
+![](assets/content-advisor-4.png){zoomable="yes"}
 
-  +++ 
++++ 
 
-* &#x200B;
-  +++ Zusammenfassung hochladen
++++ Zusammenfassung hochladen
 
-  Laden Sie ein Marketing-Kurzdokument hoch, um automatisch Assets zu präsentieren, die mit Ihrem Kampagnenkontext übereinstimmen. Die KI analysiert Ihre Zusammenfassung und schlägt relevante Assets basierend auf dem Inhalt und den Anforderungen vor, die im Dokument beschrieben sind.
+Laden Sie ein Marketing-Kurzdokument hoch, um automatisch Assets zu präsentieren, die mit Ihrem Kampagnenkontext übereinstimmen. Die KI analysiert Ihre Zusammenfassung und schlägt relevante Assets basierend auf dem Inhalt und den Anforderungen vor, die im Dokument beschrieben sind.
 
-  ![](assets/content-advisor-5.png){zoomable="yes"}
+![](assets/content-advisor-5.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Bedienfeld „Asset-Informationen“
++++ Bedienfeld „Asset-Informationen“
 
-  Anzeigen detaillierter Metadaten und Eigenschaften für jedes Asset mithilfe des Symbols **Info**. Dazu gehören Asset-Dimensionen, Dateigröße, Erstellungsdatum, Tags und andere relevante Informationen, die Ihnen bei fundierten Entscheidungen helfen können.
+Anzeigen detaillierter Metadaten und Eigenschaften für jedes Asset mithilfe des Symbols **Info**. Dazu gehören Asset-Dimensionen, Dateigröße, Erstellungsdatum, Tags und andere relevante Informationen, die Ihnen bei fundierten Entscheidungen helfen können.
 
-  ![](assets/content-advisor-6.png){zoomable="yes"}
+![](assets/content-advisor-6.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Dynamic Media-Bedienfeld
++++ Dynamic Media-Bedienfeld
 
-  Zugreifen auf dynamische Ausgabedarstellungen, smartes Zuschneiden und Änderungen direkt basierend auf der Repository-Konfiguration.
+Zugreifen auf dynamische Ausgabedarstellungen, smartes Zuschneiden und Änderungen direkt basierend auf der Repository-Konfiguration.
 
-  ![](assets/content-advisor-1.png){zoomable="yes"}
+![](assets/content-advisor-1.png){zoomable="yes"}
 
-  Das Bedienfeld „Dynamic Media“ bietet Zugriff auf dynamische Ausgabedarstellungen, smartes Zuschneiden und Änderungen direkt vor Ort. Sie können Modifikatoren direkt im Bedienfeld eingeben, um benutzerdefinierte Ausgabedarstellungen zu erstellen.
+Das Bedienfeld „Dynamic Media“ bietet Zugriff auf dynamische Ausgabedarstellungen, smartes Zuschneiden und Änderungen direkt vor Ort. Sie können Modifikatoren direkt im Bedienfeld eingeben, um benutzerdefinierte Ausgabedarstellungen zu erstellen.
 
-  **Verfügbarkeit**
+**Verfügbarkeit**
 
-  Die Verfügbarkeit von Dynamic Media hängt von Ihrer Repository-Konfiguration ab:
+Die Verfügbarkeit von Dynamic Media hängt von Ihrer Repository-Konfiguration ab:
 
-   * **Scene7**: Verfügbar für veröffentlichte Assets (außer Video und PDF). [Weitere Informationen zu Dynamic Media Scene7-Modifikatoren](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
+* **Scene7**: Verfügbar für veröffentlichte Assets (außer Video und PDF). [Weitere Informationen zu Dynamic Media Scene7-Modifikatoren](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-   * **OpenAPI**: Verfügbar für genehmigte Assets (außer Video). [Weitere Informationen zu Dynamic Media mit OpenAPI-Modifikatoren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=de){target="_blank"}
+* **OpenAPI**: Verfügbar für genehmigte Assets (außer Video). [Weitere Informationen zu Dynamic Media mit OpenAPI-Modifikatoren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
-   * **Sowohl Scene7 als auch OpenAPI**: Verfügbar, wenn beide Konfigurationen vorhanden sind und das Asset die Kriterien erfüllt.
+* **Sowohl Scene7 als auch OpenAPI**: Verfügbar, wenn beide Konfigurationen vorhanden sind und das Asset die Kriterien erfüllt.
 
-  **Stapelauswahl**
+**Stapelauswahl**
 
-  Die angezeigten Schaltflächen hängen von Ihrer Repository-Konfiguration ab:
+Die angezeigten Schaltflächen hängen von Ihrer Repository-Konfiguration ab:
 
-   * **Nur Scene7-Schaltfläche**: Das Repository verfügt über eine Scene7-Konfiguration und das Asset wird in Dynamic Media veröffentlicht.
-   * **Nur OpenAPI-Schaltfläche**: Repository verfügt über eine OpenAPI-Konfiguration und das Asset wird genehmigt.
-   * **Beide Schaltflächen**: Das Repository verfügt über beide Konfigurationen und das Asset wird sowohl veröffentlicht als auch genehmigt.
-  +++
+* **Nur Scene7-Schaltfläche**: Das Repository verfügt über eine Scene7-Konfiguration und das Asset wird in Dynamic Media veröffentlicht.
+* **Nur OpenAPI-Schaltfläche**: Repository verfügt über eine OpenAPI-Konfiguration und das Asset wird genehmigt.
+* **Beide Schaltflächen**: Das Repository verfügt über beide Konfigurationen und das Asset wird sowohl veröffentlicht als auch genehmigt.
++++
 
 ### für Inhaltsfragment {#content-fragment-features}
 
 Adobe Experience Manager Content Advisor bietet die folgenden Inhaltsfragment-Funktionen:
 
-* &#x200B;
-  +++ Liste der Vorlagenansichten 
++++ Liste der Vorlagenansichten 
 
-  Wechseln Sie zwischen Miniatur- und Tabellenansichten, um Inhaltsfragmente in dem Format zu durchsuchen, das für Ihren Workflow am besten geeignet ist. Die Miniaturansicht bietet visuellen Kontext, während die Tabellenansicht detaillierte Informationen in einem strukturierten Format anzeigt.
+Wechseln Sie zwischen Miniatur- und Tabellenansichten, um Inhaltsfragmente in dem Format zu durchsuchen, das für Ihren Workflow am besten geeignet ist. Die Miniaturansicht bietet visuellen Kontext, während die Tabellenansicht detaillierte Informationen in einem strukturierten Format anzeigt.
 
-  ![](assets/content-advisor-7.png){zoomable="yes"}
+![](assets/content-advisor-7.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Infobereich 
++++ Infobereich 
 
-  Klicken Sie auf **[!UICONTROL Info]**-Symbol, um einen rechten Bereich zu öffnen, der Fragmentvarianten, Eigenschaften und Details **[!UICONTROL Referenziert von]** anzeigt. Der Abschnitt **[!UICONTROL Referenziert von]** zeigt alle Adobe Experience Manager-Entitäten, in denen das Fragment verwendet wird, mit Links, um diese Verweise direkt in Adobe Experience Manager anzuzeigen.
+Klicken Sie auf **[!UICONTROL Info]**-Symbol, um einen rechten Bereich zu öffnen, der Fragmentvarianten, Eigenschaften und Details **[!UICONTROL Referenziert von]** anzeigt. Der Abschnitt **[!UICONTROL Referenziert von]** zeigt alle Adobe Experience Manager-Entitäten, in denen das Fragment verwendet wird, mit Links, um diese Verweise direkt in Adobe Experience Manager anzuzeigen.
 
-  ![](assets/content-advisor-8.png){zoomable="yes"}
+![](assets/content-advisor-8.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ In Adobe Experience Manager öffnen
++++ In Adobe Experience Manager öffnen
 
-  Öffnen Sie schnell ein beliebiges Inhaltsfragment direkt in Adobe Experience Manager zur Bearbeitung, indem Sie das Symbol neben dem Titel verwenden. Durch diese nahtlose Integration können Sie ohne Kontextverlust zwischen Journey Optimizer und Adobe Experience Manager wechseln.
+Öffnen Sie schnell ein beliebiges Inhaltsfragment direkt in Adobe Experience Manager zur Bearbeitung, indem Sie das Symbol neben dem Titel verwenden. Durch diese nahtlose Integration können Sie ohne Kontextverlust zwischen Journey Optimizer und Adobe Experience Manager wechseln.
 
-  ![](assets/content-advisor-9.png){zoomable="yes"}
+![](assets/content-advisor-9.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ JSON-Vorschau
++++ JSON-Vorschau
 
-  Zeigen Sie eine Vorschau der JSON-Struktur von Inhaltsfragmenten in einem übersichtlichen, geordneten Tabellenformat an. Auf diese Weise können Sie die Datenstruktur des Fragments verstehen und Inhalte überprüfen, bevor Sie sie in Ihren Kampagnen verwenden.
+Zeigen Sie eine Vorschau der JSON-Struktur von Inhaltsfragmenten in einem übersichtlichen, geordneten Tabellenformat an. Auf diese Weise können Sie die Datenstruktur des Fragments verstehen und Inhalte überprüfen, bevor Sie sie in Ihren Kampagnen verwenden.
 
-  ![](assets/content-advisor-10.png){zoomable="yes"}
+![](assets/content-advisor-10.png){zoomable="yes"}
 
-  +++
++++
 
 ## Zugriff auf Adobe Experience Manager Content Advisor {#access}
 

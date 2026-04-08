@@ -4,20 +4,20 @@ product: Journey Optimizer
 title: Personalisierte Angebote aktualisieren
 description: Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
 feature: Decision Management, API
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 9d8f2df6-aa04-4e66-8555-d51c2e409063
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
 
 ---
 
-# Aktualisieren personalisierter Angebote {#update-personalized-offer}
+# Aktualisieren eines personalisierten Angebots {#update-personalized-offer}
 
 >[!TIP]
 >

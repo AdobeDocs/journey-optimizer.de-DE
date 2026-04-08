@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Dunkler Modus, E-Mail, Farbe, Editor
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 100%
@@ -119,14 +119,16 @@ Beim dunklen Modus im E-Mail-Designer sind zwei Aspekte zu berücksichtigen:
 <!--
     >[!CAUTION]
     >
-    >The final rendering may vary according to the recipient's email client. To see the exact rendering for each email client, use the [Email rendering](../content-management/rendering.md) option.-->
+    >The final rendering may vary according to the recipient's email client. To see the exact rendering for each email client, use the [Email rendering](../content-management/rendering.md) option.
+-->
 
 * Wenn Sie die Standardeinstellungen unterstützender E-Mail-Clients überschreiben möchten, können Sie benutzerdefinierte Einstellungen für den dunklen Modus definieren, die auf die E-Mail angewendet werden, die Sie bearbeiten. [Weitere Informationen](#define-custom-dark-mode)
 
 <!--
     >[!WARNING]
     >
-    >Not all email clients support custom dark mode. Some email clients only apply their own default dark mode for all emails that are received. In this case, the custom settings that you defined in the Email Designer cannot be rendered. [Learn more](#guardrails)-->
+    >Not all email clients support custom dark mode. Some email clients only apply their own default dark mode for all emails that are received. In this case, the custom settings that you defined in the Email Designer cannot be rendered. [Learn more](#guardrails)
+-->
 
 ### Vorschau des standardmäßigen dunklen Modus {#preview-dark-mode}
 
@@ -134,10 +136,12 @@ Gehen Sie wie folgt vor, um auf den dunklen Modus im E-Mail-Designer zuzugreifen
 
 1. Wählen Sie auf der Startseite des E-Mail-Designers die Option **[!UICONTROL Inhalte von Grund auf neu erstellen]** aus. [Weitere Informationen](content-from-scratch.md)
 
-<!--Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
+<!--
+Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
     >[!NOTE]
     >
-    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
+    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).
+-->
 
 1. Fügen Sie Ihrem Inhalt [Strukturen](content-from-scratch.md) und [Inhaltskomponenten](content-components.md) hinzu.
 
@@ -157,11 +161,13 @@ Das bedeutet, dass Bereiche mit hellen und dunklen Elementen erkannt und inverti
 >
 >Das endgültige Rendering kann je nach E-Mail-Client der Empfängerinnen und Empfänger variieren. Um für jeden E-Mail-Client eine Simulation anzuzeigen, die dem Endergebnis möglichst nahe kommt, verwenden Sie die Option [E-Mail-Rendering](../content-management/rendering.md).
 
-<!--This is custom dark mode:
+<!--
+This is custom dark mode:
 
   ![](assets/dark-mode-custom.png)
 
-Here you can see that we have applied a different background, defined another image and change the color of the text and button.-->
+Here you can see that we have applied a different background, defined another image and change the color of the text and button.
+-->
 
 ### Definieren des benutzerdefinierten dunklen Modus {#define-custom-dark-mode}
 
@@ -179,7 +185,8 @@ Nach dem Wechsel in den **[!UICONTROL dunklen Modus]** können Sie bestimmte Sti
 <!--
 >[!WARNING]
 >
->Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.-->
+>Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.
+-->
 
 Um den Stil des E-Mail-Designers für den benutzerdefinierten dunklen Modus zu nutzen, verwendet Journey Optimizer die CSS-Abfrage <!-- `@media (prefers-color-scheme: dark)` method--> `@media (prefers-color-scheme: dark)` CSS-Abfrage, die erkennt, ob der E-Mail-Client der Benutzerin oder des Benutzers auf den dunklen Modus eingestellt ist, und wendet das in Ihrer E-Mail definierte dunkle Design an.
 
@@ -233,15 +240,19 @@ Der dunkle Modus kann Farben, Hintergründe und Bilder verändern – und manchm
 
 * Vermeiden Sie es, sich bei kritischen Inhalten allein auf Hintergrundfarben zu verlassen. Einige Clients überschreiben Hintergrundfarben im dunklen Modus, sodass Sie sicherstellen müssen, dass wichtige Informationen weiterhin sichtbar sind.
 
-<!--**Inline critical styles**
+<!--
+**Inline critical styles**
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.
+-->
 
 **Entwerfen barrierefreier Inhalte im dunklen Modus**
 
-<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
+<!--
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
-The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).-->
+The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
+-->
 
 * Verwenden Sie Farbkombinationen, die für Menschen mit Farbenblindheit leicht zu unterscheiden sind.
 
@@ -262,7 +273,6 @@ The best practices for designing accesible content in dark mode are listed in [t
 * Verwenden Sie die Option [E-Mail-Rendering](../content-management/rendering.md), die Litmus zur Simulation Ihrer Designs in wichtigen E-Mail-Clients (Apple Mail, Gmail, Outlook) nutzt, damit Sie sehen, wie sich Farben und Bilder im dunklen Modus verhalten.
 
 <!--
-
 ## Email clients supporting dark mode {#supporting-email-clients}
 
 Below is a list of the main email clients supporting dark mode using the with the `@media (prefers-color-scheme: dark)` query.
@@ -304,27 +314,26 @@ Below is a list of the main email clients supporting dark mode using the with th
 
 Some email clients allow users to switch their interface to dark mode, but this setting does not affect how HTML emails are displayed.  Here is a list of those clients:
 
-| Main email clients with their own dark mode| 
+| Main email clients with their own dark mode|
 |---------|
-| Gmail (Desktop Webmail, iOS, Android, Mobile Webmail) | 
+| Gmail (Desktop Webmail, iOS, Android, Mobile Webmail) |
 | Outloook Windows |
 | Outlook Windows Mail |
 
 Other email clients do not support dark mode at all:
 
-| Main email clients not supporting dark mode| 
+| Main email clients not supporting dark mode|
 |---------|
-| Yahoo!Mail | 
-| AOL | 
+| Yahoo!Mail |
+| AOL |
 
-| Other mail clients not supporting dark mode| 
+| Other mail clients not supporting dark mode|
 |---------|
 | ProtonMail |
 | SFR iOS |
-| SFR Android | 
-| GMX Desktop Webmail | 
-| Mail.ru | 
-| WEB.DE Desktop Webmail | 
+| SFR Android |
+| GMX Desktop Webmail |
+| Mail.ru |
+| WEB.DE Desktop Webmail |
 | T-online.de |
-
 -->
