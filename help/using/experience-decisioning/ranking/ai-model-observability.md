@@ -167,7 +167,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 Erfahren Sie, wie Sie Ihre KI-Ranking-Modelle überwachen und den Trainings-Status und die Leistung in [!DNL Journey Optimizer] interpretieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479858?captions=ger&quality=12)
 
 ## Verwandte Dokumentation {#related}
 
