@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '1873'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Bedingungen"
->abstract="Mit Bedingungen können Sie festlegen, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade basierend auf Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um Zeitüberschreitungen oder Fehler zu handhaben und so ein nahtloses Erlebnis sicherzustellen. Beachten Sie, dass die Bedingungen jetzt in der Aktivität Optimieren konfiguriert sind, die die frühere Aktivität Bedingung ersetzt."
+>abstract="Mit Bedingungen können Sie festlegen, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade basierend auf Grundlage bestimmter Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um Zeitüberschreitungen oder Fehler zu umgehen und so ein nahtloses Erlebnis sicherzustellen. Beachten Sie, dass die Bedingungen jetzt in der Aktivität Optimieren konfiguriert sind, die die frühere Aktivität Bedingung ersetzt."
 
 Mit **Bedingungen** können Sie festlegen, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade basierend auf bestimmten Kriterien erstellen. Sie können auch einen alternativen Pfad konfigurieren, um mit Timeouts oder Fehlern umzugehen und so ein nahtloses Erlebnis sicherzustellen.
 

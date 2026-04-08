@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Zielgruppenbestimmung, Regeln, Journey, Pfad, Optimierung, Personalisierung
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 88%
 
 ---
-
 
 # Pfad-Targeting nutzen {#targeting}
 
@@ -140,4 +140,3 @@ Kundinnen und Kunden, die kürzlich gekauft haben, können in einen kurzen Pfad 
 ![Targeting anhand des Kaufverlaufs mit Crosssell-Pfad für Käuferinnen und Käufer und Nurturing-Pfad für Nicht-Käuferinnen und -Käufer](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
-
