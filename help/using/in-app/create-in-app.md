@@ -236,7 +236,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
    ![](assets/in_app_create_4.png)
 
-Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [ Seite](../campaigns/get-started-with-campaigns.md).
+Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [&#x200B; Seite](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 

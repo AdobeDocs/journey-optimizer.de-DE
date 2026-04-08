@@ -80,7 +80,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_campaign_tracking.png)
 -->
-Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [ Seite](../campaigns/get-started-with-campaigns.md).
+Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [&#x200B; Seite](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 

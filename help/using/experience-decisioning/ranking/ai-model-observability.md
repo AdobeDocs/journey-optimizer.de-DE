@@ -115,7 +115,7 @@ Die KI-Modellüberwachung wird derzeit nur für Modelle [personalisierte Optimie
 
 +++ Warum ist der Trainingsvorgang meines Modells fehlgeschlagen?
 
-Trainingsaufträge schlagen oft fehl, wenn der für das Modell ausgewählte Datensatz keine oder nur sehr wenige Feedback-(Konversions-)Ereignisse aufweist. Überprüfen Sie **[!UICONTROL Abschnitt „Letzter Trainingsvorgang]** auf die Fehlerdetails und überprüfen Sie dann die **[!UICONTROL Eigenschaften]** des Modells, um den Datensatz und die Optimierungsmetrik zu bestätigen. Füllen Sie den Datensatz mit den richtigen Ereignissen oder [ Sie einen anderen Datensatz ](create-ai-models.md) geeignete Konvertierungsdaten aus.
+Trainingsaufträge schlagen oft fehl, wenn der für das Modell ausgewählte Datensatz keine oder nur sehr wenige Feedback-(Konversions-)Ereignisse aufweist. Überprüfen Sie **[!UICONTROL Abschnitt „Letzter Trainingsvorgang]** auf die Fehlerdetails und überprüfen Sie dann die **[!UICONTROL Eigenschaften]** des Modells, um den Datensatz und die Optimierungsmetrik zu bestätigen. Füllen Sie den Datensatz mit den richtigen Ereignissen oder [&#x200B; Sie einen anderen Datensatz &#x200B;](create-ai-models.md) geeignete Konvertierungsdaten aus.
 +++
 
 +++ In welcher Beziehung steht die KI-Modellüberwachung zu Kampagnen- und Journey-Berichten?

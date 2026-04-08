@@ -106,7 +106,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
    >
    >Sie können bis zu 5 Zielgruppen auswählen.
 
-1. Speichern und aktivieren Sie das KI-Modell. Sobald Ihr Modell live ist, können Sie [den Trainings-Status und die Leistung ](ai-model-observability.md).
+1. Speichern und aktivieren Sie das KI-Modell. Sobald Ihr Modell live ist, können Sie [den Trainings-Status und die Leistung &#x200B;](ai-model-observability.md).
 
 <!--
 At this point, you must have:
