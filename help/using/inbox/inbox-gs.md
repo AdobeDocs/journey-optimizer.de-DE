@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: f7f303685e954614b44a9b62368460e9b07b26b3
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 1%
 
 ---
 
@@ -44,8 +44,12 @@ Führen Sie die folgenden Schritte aus, um den Posteingang zu konfigurieren und 
 
    Erstellen Sie den Karteninhalt im Designer, beenden Sie die für den Posteingang spezifischen Optionen und aktivieren Sie dann Ihre Kampagne, damit die Nachrichten den Posteingang erreichen.
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
+
+* [Posteingang-Benutzeroberfläche (iOS)](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/iOS/): Anforderungen, öffentliche API-Oberfläche, Posteingangseinstellungen und Links zu Tutorials zur Implementierung des Journey Optimizer-Posteingangs in einer iOS-App mit Adobe Experience Platform Mobile SDK (iOS 15 oder höher, Xcode 15 oder höher, Swift 5.1 oder höher).
 
 * [Posteingang abrufen und anzeigen](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): Laden Sie Journey Optimizer-Posteingangsnachrichten und rendern Sie die Benutzeroberfläche des Posteingangs auf Android (Dokumentation zu Adobe Developer).
+
 * [Posteingang anpassen](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/): Passen Sie das Layout, den Stil und das Interaktionsverhalten des Posteingangs für Ihre Android-App an (Dokumentation zu Adobe Developer).
+
 * [Überwachen von Posteingangsereignissen](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Abonnieren von Posteingangsrückrufen für Benutzeraktionen und Lebenszyklusaktualisierungen auf Android (Dokumentation zu Adobe Developer).
