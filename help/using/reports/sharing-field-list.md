@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 97%
+source-wordcount: '757'
+ht-degree: 84%
 
 ---
 
@@ -100,6 +100,12 @@ Im Folgenden finden Sie Definitionen, häufige Ursachen und Schritte zur Fehlerb
   **Häufige Ursachen**: Duplizierte Ereignisse, großes Ereignisvolumen, Einschränkungen der Systemressourcen.
 
   **Fehlerbehebung**: Implementieren Sie die Deduplizierung, vermeiden Sie Traffic-Spitzen, optimieren Sie das Journey-Design, [wenden Sie sich an den Support](../start/user-interface.md#support-ticket-guidelines) wenn dies dauerhaft ist.
+
+* **maxInstanceStackEventsReached**: Die Journey-Laufzeit hat das interne Ereignisstapellimit von 10 Ereignissen pro Profil für eine bestimmte Journey-Version erreicht.
+
+  **Häufige Ursachen**: Die Journey-Instanz des Profils wird bei einem langwierigen Schritt blockiert (z. B. lange Wartezeiten, langsame Anreicherungen oder erneute Versuche für benutzerdefinierte Aktionen), und die Ereignisse für dasselbe, die auch auf dieser Journey verwendet werden, häufen sich über das Limit von 10 Ereignissen hinaus.
+
+  **Fehlerbehebung**: Langwierige Schritte für Pfade reduzieren, bei denen häufig Trigger wiederholt wird, Upstream-Ereignisse debounces oder dedupliziert werden und lange Szenarien in mehrere Journey unterteilt werden können. Dies ist eine Sicherheitsmaßnahme, und das Limit kann nicht konfiguriert werden. Weitere Ereignisse werden verworfen, bis der Stack abläuft. Weitere Anleitungen finden Sie unter [Verworfene Ereignisse mit maxInstanceStackEventsReached](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
 * **EVENT_WITH_NO_JOURNEY**: Ein Ereignis wurde empfangen, aber es ist keine aktive Journey konfiguriert, um darauf zu reagieren.
 
