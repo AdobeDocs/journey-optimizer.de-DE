@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 337b8ed47892ef06a84884468919e32a333653f3
+exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Der Posteingang baut auf dem Kanal Inhaltskarten auf und fügt hinzu:
 * **Persistent Messaging**: Inhalte bleiben im Posteingang, bis Sie sie entfernen oder ablaufen, sodass Benutzer nach dem Schließen einer Benachrichtigung oder dem Verlassen der App dorthin zurückkehren können.
 * **Zentraler Speicherort**: Ein einzelnes Postfach in Ihrer App oder Site für relevante Marketing-Nachrichten.
 * **Flexible Implementierung**: Verwenden Sie den vorgefertigten Posteingang-Container oder passen Sie das Erlebnis in Ihrer eigenen Benutzeroberfläche an.
-* **Geräteübergreifende Synchronisierung**: Der Lesestatus und die Interaktion bleiben auf den Geräten eines Benutzers ausgerichtet.
+* **Lesestatus**: Nachrichten können auf dem Gerät, auf dem sie geöffnet werden, als gelesen oder ungelesen markiert werden.
 
 ## Schnellstartanleitung
 

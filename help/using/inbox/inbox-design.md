@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Das Design des Posteingangs bestimmt, wie jede Nachricht an Zielgruppenprofile i
 
 Eine vollständige Anleitung zum Erstellen einer Posteingangskampagne finden Sie unter [Erstellen eines Posteingangs](inbox-create.md).
 
-1. Öffnen Sie die **[!UICONTROL Inhalt]** der von [&#x200B; erstellten Posteingangskampagne](inbox-create.md).
+1. Öffnen Sie die **[!UICONTROL Inhalt]** der von [ erstellten Posteingangskampagne](inbox-create.md).
 
 1. Legen Sie den **[!UICONTROL Container-Titel]** fest.
 
@@ -52,8 +53,15 @@ Eine vollständige Anleitung zum Erstellen einer Posteingangskampagne finden Sie
 
    ![](assets/inbox-design-3.png)
 
+1. Klicken Sie auf ![Leistensymbol](assets/do-not-localize/Smock_Rail_18_N.svg), um das Vorschaufenster zu öffnen und zu sehen, wie der leere Posteingang aussieht.
+
+   ![](assets/inbox-design-3.png)
+
 1. Klicken Sie **[!UICONTROL Abschnitt]** Daten“ auf **[!UICONTROL Meta hinzufügen]**, um benutzerdefinierte Schlüssel/Wert-Paare zur Payload hinzuzufügen.
 
 1. Klicken Sie auf das Symbol ![](assets/do-not-localize/Smock_StarOutline_18_N.svg) , um eine Vorschau des Posteingangs im Dunkelmodus zu öffnen und Ihre dunklen Themenfarben und Bilder zu bestätigen.
 
    ![](assets/inbox-design-4.png)
+
+Wenn Sie bereit sind, überprüfen Sie Ihre Einstellungen und aktivieren Sie den Posteingang. Nach der Aktivierung kann sie mit &quot;[&quot; verwendet ](../content-card/create-content-card.md).
+
