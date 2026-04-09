@@ -10,10 +10,10 @@ level: Intermediate
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Verschlüsselung, URL, Tracking, Landingpage, Schlüsselregistrierung, Personalisierung, Sicherheit, Datenschutz, Sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 5%
+source-wordcount: '693'
+ht-degree: 4%
 
 ---
 
@@ -49,6 +49,10 @@ Eine Landingpage-URL verwendet möglicherweise einen Abfrageparameter wie `token
 ## Schlüssel erstellen {#create-keys}
 
 Bevor Sie den URL-Parameter-Verschlüsselungs-Helper verwenden können, müssen Sie einen Schlüssel erstellen. Gehen Sie dazu wie folgt vor.
+
+>[!NOTE]
+>
+>Derzeit gibt es keine spezifischen Berechtigungen zum Zugreifen auf und Verwalten von Schlüsseln. Rollen, die Zugriff auf den Abschnitt **[!UICONTROL Konfigurationen]** unter **[!UICONTROL Administration]** gewähren, gewähren auch Zugriff auf die Schlüsselregistrierung. Spezifische Berechtigungen sind jedoch für eine zukünftige Version geplant.
 
 <!--
 >[!IMPORTANT]
