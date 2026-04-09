@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 04f0515131f0db889fdd206df540a110a9cee81c
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
-source-wordcount: '3191'
+source-wordcount: '3194'
 ht-degree: 94%
 
 ---
@@ -241,7 +241,6 @@ ht-degree: 94%
       + [Simulieren von Inhaltsvarianten](using/test-approve/simulate-sample-input.md)
       + [Automatische Generierung von Inhaltsvarianten](using/test-approve/simulate-sample-input-generated.md)
       + [E-Mail-Spam-Bericht](using/content-management/spam-report.md)
-      + [LLM Email Optimizer](using/content-management/llm-email-optimizer.md)
    + Genehmigen von Journeys und Kampagnen {#approve}
       + [Genehmigen von Journeys und Kampagnen](/help/rp_landing_pages/approve-landing-page.md)
       + [Erste Schritte mit Genehmigungen](using/test-approve/gs-approval.md)
@@ -290,6 +289,7 @@ ht-degree: 94%
             + [Hinzufügen von Links und Verfolgen von Nachrichten](using/email/message-tracking.md)
             + [Einfügen von personalisierten Angeboten](using/email/add-offers-email.md)
             + [Textversion verwalten](using/email/text-version-email.md)
+            + [Optimieren von E-Mail-Text für KI-Posteingänge](using/email/llm-email-optimizer.md)
             + [Hinzufügen von Metadaten](using/email/email-metadata.md)
          + Bearbeiten des Stils {#edit-style}
             + [Bearbeiten des Stils](/help/rp_landing_pages/edit-style-landing-page.md)

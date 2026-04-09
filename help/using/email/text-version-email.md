@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Text, E-Mail, Version, Nur-Text, Editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 11%
@@ -52,13 +52,13 @@ Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führe
 
 Mithilfe der Schaltfläche „Für KI-Posteingang optimieren“ können Sie KI-gestützte Posteingangsfunktionen (z. B. Zusammenfassungen in [!DNL Gmail], [!DNL Outlook] oder [!DNL Apple Mail]) bei der Erstellung Ihrer wichtigen Angebote **[!UICONTROL Details]**. Diese Aktion erzeugt eine verbesserte Nur-Text-Version, die sich auf Informationen konzentriert, die Assistenten wahrscheinlich aus dem Textteil der Nachricht lesen.
 
-![Schaltfläche „Für KI-Posteingang optimieren“ in der Textansicht](../content-management/assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+![Schaltfläche „Für KI-Posteingang optimieren“ in der Textansicht](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
 >[!IMPORTANT]
 >
 >Bei Verwendung dieser Funktion wird die Option **[!UICONTROL Mit HTML synchronisieren]** automatisch deaktiviert.
 
-Eine vollständige Anleitung und empfohlene Szenarien finden Sie unter [Optimieren von E-Mail-Text für KI-Posteingänge](../content-management/llm-email-optimizer.md).
+Eine vollständige Anleitung und empfohlene Szenarien finden Sie unter [Optimieren von E-Mail-Text für KI-Posteingänge](llm-email-optimizer.md).
 
 ## Verwendung benutzerdefinierter Nur-Text-Versionen {#when-to-use}
 
