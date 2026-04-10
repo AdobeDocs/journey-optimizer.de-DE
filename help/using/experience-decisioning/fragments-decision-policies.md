@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 907dad4ab4890714da5dd8a12692c0ee7c381bf2
+source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 86%
+source-wordcount: '564'
+ht-degree: 54%
 
 ---
 
@@ -24,7 +24,7 @@ Wenn Ihre Entscheidungsrichtlinie Entscheidungselemente einschließlich Fragment
 
 Angenommen, Sie möchten verschiedene Inhalte für mehrere Mobilgerätemodelle anzeigen. Stellen Sie sicher, dass Sie Fragmente, die diesen Geräten entsprechen, zu dem Entscheidungselement hinzugefügt haben, das Sie in der Entscheidungsrichtlinie verwenden. [Weitere Informationen](items.md#attributes).
 
-![](assets/item-fragments.png){width=70%}
+![Abschnitt „Fragmente“ eines Entscheidungselements mit Fragmentverweisen und Platzierungsschlüsseln.](assets/item-fragments.png){width=70%}
 
 Anschließend können Sie eine der folgenden Methoden verwenden:
 
@@ -34,7 +34,7 @@ Anschließend können Sie eine der folgenden Methoden verwenden:
 
 Kopieren Sie einfach den unten stehenden Code-Block in den Entscheidungsrichtlinien-Code. Ersetzen Sie `variable` durch die Fragment-ID und `placement` durch den Fragmentverweisschlüssel:
 
-```
+```handlebars
 {% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
 {{fragment id = variable}}
 ```
@@ -43,19 +43,19 @@ Kopieren Sie einfach den unten stehenden Code-Block in den Entscheidungsrichtlin
 
 1. Navigieren Sie zu den **[!UICONTROL Hilfsfunktionen]** und fügen Sie die **Let**-Funktion `{% let variable = expression %} {{variable}}` zum Code-Bereich hinzu, in dem Sie die Variable für Ihr Fragment deklarieren können.
 
-   ![](assets/decision-let-function.png)
+   ![Entscheidungsrichtlinien-Code-Editor, der die dem Codebereich hinzugefügte Hilfsfunktion „Let“ anzeigt.](assets/decision-let-function.png)
 
-1. Verwenden Sie die auf **Map** > **Get** basierende Funktion `{%= get(map, string) %}`, um Ihren Ausdruck zu erstellen. Die Zuordnung ist das Fragment, auf das im Entscheidungselement verwiesen wird, und die Zeichenfolge kann das Gerätemodell sein, das Sie im Entscheidungselement als **[!UICONTROL Fragmentverweisschlüssel]** eingegeben haben.
+1. Verwenden Sie die auf **Map** > **Get** basierende Funktion `{%= get(map, string) %}`, um Ihren Ausdruck zu erstellen. Die Zuordnung ist das Fragment, auf das im Entscheidungselement verwiesen wird. Die Zeichenfolge kann das Gerätemodell sein, das Sie im Entscheidungselement als **[!UICONTROL Fragmentverweisschlüssel“ eingegeben]**.
 
-   ![](assets/decision-map-function.png)
+   ![Die Funktionen Map und Get werden zum Referenzieren der Fragmentzuordnung und des Fragmentverweisschlüssels verwendet.](assets/decision-map-function.png)
 
 1. Sie können auch ein kontextuelles Attribut verwenden, das diese Gerätemodell-ID enthält.
 
-   ![](assets/decision-contextual-attribute.png)
+   ![Für die Gerätemodellkennung ausgewähltes kontextuelles Attribut.](assets/decision-contextual-attribute.png)
 
 1. Fügen Sie die Variable hinzu, die Sie für Ihr Fragment als Fragment-ID ausgewählt haben.
 
-   ![](assets/decision-fragment-id.png)
+   ![Die Fragment-ID-Variable wird aus dem Entscheidungselement im Entscheidungsrichtlinien-Code festgelegt.](assets/decision-fragment-id.png)
 
 >[!ENDTABS]
 
@@ -67,21 +67,29 @@ Die Fragment-ID und der Referenzschlüssel werden später im Abschnitt **[!UICON
 
 ## Leitlinien bei der Verwendung von Fragmenten {#fragments-guardrails}
 
+**Simulieren von Inhalts- und Ausdrucksfragmenten in E-Mails**
+
+Für den **E-Mail**-Kanal werden mit einem Entscheidungselement verknüpfte Ausdrucksfragmente korrekt angezeigt, wenn Sie **[!UICONTROL Testversand durchführen]** oder die Kampagne aktiviert wird. In **[!UICONTROL Inhalt simulieren]** wird das Ausdrucksfragment jedoch nicht aus dem Entscheidungselement angezeigt.
+
+**Visuelle Fragmente und Entscheidungselemente in E-Mails**
+
+Sie können einem Entscheidungselement kein **[!UICONTROL visuelles Fragment]** zuweisen, nur **Ausdrucksfragmente** werden in diesem Kontext unterstützt.
+
 **Entscheidungselement- und Kontextattribute**
 
-Entscheidungselement- und Kontextattribute werden in [!DNL Journey Optimizer]-Fragmenten nicht standardmäßig unterstützt. Sie können jedoch stattdessen globale Variablen verwenden, wie unten beschrieben.
+Entscheidungselementattribute und kontextuelle Attribute werden in [!DNL Journey Optimizer] Fragmenten nicht standardmäßig unterstützt. Sie können jedoch stattdessen globale Variablen verwenden, wie unten beschrieben.
 
 Angenommen, Sie möchten die Variable *sport* in Ihrem Fragment verwenden.
 
 1. Verweisen Sie auf diese Variable im Fragment, z. B.:
 
-   ```
+   ```text
    Elevate your practice with new {{sport}} gear!
    ```
 
 1. Definieren Sie die Variable mit der Funktion **Let** im Entscheidungsrichtlinienblock. Im folgenden Beispiel wird *sport* mit dem Entscheidungsattribut definiert:
 
-   ```
+   ```handlebars
    {#each decisionPolicy.13e1d23d-b8a7-4f71-a32e-d833c51361e0.items as |item|}}
    {% let sport = item._cjmstage.value %}
    {{fragment id = get(item._experience.decisioning.offeritem.contentReferencesMap, "placement1").id }}
@@ -90,7 +98,7 @@ Angenommen, Sie möchten die Variable *sport* in Ihrem Fragment verwenden.
 
 **Inhaltsvalidierung von Entscheidungselementfragmenten**
 
-* Aufgrund der Dynamik dieser Fragmente wird bei Verwendung in einer Kampagne die Nachrichtenvalidierung während der Erstellung des Kampagneninhalts für Fragmente übersprungen, auf die in Entscheidungselementen verwiesen wird.
+* Aufgrund der Dynamik dieser Fragmente wird bei Verwendung in einer Kampagne die Nachrichtenvalidierung bei der Erstellung von Kampagneninhalten für Fragmente übersprungen, auf die in Entscheidungselementen verwiesen wird.
 
 * Die Validierung des Fragmentinhalts erfolgt nur während der Erstellung und Veröffentlichung des Fragments.
 
