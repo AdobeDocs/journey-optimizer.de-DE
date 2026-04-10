@@ -21,4 +21,4 @@ Themen:
 * Reporting
 * Angebotsentscheidung/Entscheidungs-Management
 * Konfigurationsrichtlinien
-* Zugriffskontrolle
+* Zugriffssteuerung
