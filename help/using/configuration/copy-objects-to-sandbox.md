@@ -9,10 +9,10 @@ role: User, Developer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 5f0fd2770004570efe28778e5395a7254fcb8a4b
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 97%
+source-wordcount: '1757'
+ht-degree: 95%
 
 ---
 
@@ -72,7 +72,11 @@ Journey Optimizer ermöglicht den Export von Journeys, benutzerdefinierten Aktio
 
 +++ Kampagnen
 
-Kampagnen werden zusammen mit allen Elementen im Zusammenhang mit dem Profil, der Zielgruppe, dem Schema, Inline-Nachrichten und abhängigen Objekten kopiert. Die folgenden Elemente werden jedoch **nicht** kopiert:
+>[!NOTE]
+>
+>Die Informationen zur Kampagnen-Sandbox-Kopie in diesem Unterabschnitt gelten für **Aktion** Kampagnen und **API-ausgelöste** Kampagnen. **Orchestriert** Kampagnen werden für das Kopieren zwischen Sandboxes nicht unterstützt.
+
+Bei **Action** und **API-ausgelösten**-Kampagnen werden Kampagnen zusammen mit allen Elementen kopiert, die mit dem Profil, der Audience, dem Schema, Inline-Nachrichten und abhängigen Objekten zusammenhängen. Die folgenden Elemente werden jedoch **nicht** kopiert:
 
 * mehrsprachige Varianten und Spracheinstellungen,
 * Geschäftsregeln,
