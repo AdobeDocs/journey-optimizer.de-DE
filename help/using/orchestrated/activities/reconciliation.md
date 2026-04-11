@@ -5,10 +5,10 @@ title: Verwenden der Aktivität „Abstimmung“
 description: Informationen zur Verwendung der Aktivität „Abstimmung“ in einer orchestrierten Kampagne
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -99,6 +99,6 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Abstimmung]** zu konfig
 
 ## Beispiel {#example-reconciliation}
 
-In diesem Beispiel wird die Aktivität **[!UICONTROL Abstimmung]** in Adobe Journey Optimizer verwendet, um sicherzustellen, dass E-Mails nur an bekannte Kundinnen und Kunden gesendet werden. Die Daten fließen über eine Aktivität vom Typ **[!UICONTROL Zielgruppe lesen]** ein, die Benutzende mit früheren Bestellungen anspricht. Die Aktivität **[!UICONTROL Abstimmung]** gleicht diese eingehenden Daten dann mithilfe des E-Mail-Felds mit vorhandenen Profilen in der Datenbank ab.
+In diesem Beispiel wird die Aktivität **[!UICONTROL Abstimmung]** in Adobe Journey Optimizer verwendet, um sicherzustellen, dass E-Mails nur an bekannte Kundinnen und Kunden gesendet werden. Die Daten fließen über die Aktivität **[!UICONTROL Zielgruppe aufbauen]** ein, die sich an Benutzende mit früheren Bestellungen richtet. Die Aktivität **[!UICONTROL Abstimmung]** gleicht diese eingehenden Daten dann mithilfe des E-Mail-Felds mit vorhandenen Profilen in der Datenbank ab.
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
