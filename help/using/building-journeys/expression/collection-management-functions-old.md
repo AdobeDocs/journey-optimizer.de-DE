@@ -5,12 +5,11 @@ title: Funktionen zur Verwaltung von Sammlungen
 description: Erfahren Sie mehr über die Datentypen in den Funktionen zur Verwaltung von Sammlungen
 feature: Journeys
 hide: true
-hidefromtoc: true
 role: Developer
 level: Experienced
 keywords: Abfrage, Sammlungen, Funktionen, Payload, Journey
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%

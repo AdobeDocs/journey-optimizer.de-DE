@@ -4,11 +4,10 @@ product: Journey Optimizer
 title: Frühere Versionshinweise
 description: Frühere Versionshinweise
 hide: true
-hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_20-02-38
 exl-id: 74d13927-18ca-4b7a-8e0e-fd69b38c0eff
-source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Die Versionshinweise zu Adobe Journey Optimizer bieten einen monatlichen Überbl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Versionshinweise 2025 zu Adobe Journey Optimizer
 
@@ -32,7 +31,7 @@ Informieren Sie sich über alle Funktionen, Updates und Verbesserungen, die 2025
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Versionshinweise 2024 zu Adobe Journey Optimizer
 

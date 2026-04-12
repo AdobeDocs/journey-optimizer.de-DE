@@ -8,11 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 hide: true
-hidefromtoc: true
-source-git-commit: 69efe0254aae3cb067f2c9f89db6aa4fe0a50549
+exl-id: a274656e-2570-4a9c-b72b-4e8e920b7462
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um einem veröffentlichten Fragment kontextuelle Attrib
 
 >[!IMPORTANT]
 >
->Fahren Sie nur fort, wenn Sie [&#x200B; Auswirkungen auf Journey und Kampagnen, &#x200B;](#limitations) auf das Fragment verweisen, vollständig verstehen.
+>Fahren Sie nur fort, wenn Sie [ Auswirkungen auf Journey und Kampagnen, ](#limitations) auf das Fragment verweisen, vollständig verstehen.
 
 1. Navigieren Sie **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]**.
 
@@ -81,4 +81,3 @@ Gehen Sie wie folgt vor, um einem veröffentlichten Fragment kontextuelle Attrib
 * [Bearbeiten eines Fragments](manage-fragments.md#edit-fragments)
 * [Durch API ausgelöste Kampagnen](../campaigns/api-triggered-campaigns.md)
 * [Personalisierungssyntax](../personalization/personalization-syntax.md)
-

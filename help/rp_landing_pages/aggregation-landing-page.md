@@ -6,9 +6,8 @@ description: Aggregation
 redpen-status: CREATED_||_2025-08-11_20-12-06
 exl-id: fd46c749-c77a-4cda-94ec-58c58d136595
 hide: true
-hidefromtoc: true
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Mit Aggregationsfunktionen in Adobe Journey Optimizer können Sie aussagekräfti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „avg“ in Adobe Journey Optimizer
 
@@ -32,7 +31,7 @@ Erfahren Sie anhand von Beispielen und Syntaxdetails, wie Sie mit der Funktion �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Dokumentation zur Funktion „count“
 
@@ -42,7 +41,7 @@ Machen Sie sich mit der Funktion „count“ für die Aggregation von Daten in L
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „countOnlyNull“ – Nullwerte in Listen zählen
 
@@ -52,7 +51,7 @@ Erfahren Sie anhand von detaillierten Beispielen und Syntax, wie die Funktion �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Überblick über die Funktion „countWithNull“
 
@@ -62,7 +61,7 @@ Erfahren Sie anhand von Syntax und Beispielen, wie die Funktion „countWithNull
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „distinctCount“ in Adobe Journey Optimizer
 
@@ -72,7 +71,7 @@ Erkunden Sie anhand von Syntax- und Nutzungsbeispielen die Funktion „distinctC
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „distinctCountWithNull“: Eindeutige Werte zählen (einschließlich Nullwerten)
 
