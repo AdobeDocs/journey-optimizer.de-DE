@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 5eca5b3794731f030427fa426cb09e705d491b6f
+source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 1%
@@ -91,4 +91,3 @@ Nein. Der MCP-Server ist sowohl für Marketing- als auch für technische Persona
 
 Wenn Sie eine Eingabeaufforderung senden, kann der KI-Assistent relevanten Kontext (einschließlich [!DNL Adobe Journey Optimizer] vom MCP-Server zurückgegebenen Daten) zur Verarbeitung an sein Modell senden. Lesen Sie die Datenschutz- und Datenverarbeitungsrichtlinien Ihres KI-Assistentenanbieters, bevor Sie eine Verbindung zu Produktionsdaten herstellen.
 +++
-
