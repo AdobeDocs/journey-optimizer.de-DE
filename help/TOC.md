@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9903089f4a97ee9e427873e95fd1f0bac73b3542
+source-git-commit: 9c337313943b878252db0429aac61443ed1349ea
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3213'
 ht-degree: 91%
 
 ---
@@ -279,7 +279,6 @@ ht-degree: 91%
             + [Inhalte von Grund auf gestalten](using/email/content-from-scratch.md)
             + [Importieren von Content](using/email/existing-content.md)
             + [Programmieren von eigenem Inhalt](using/email/code-content.md)
-            + [Bearbeiten mit dem erweiterten HTML-Editor](using/email/email-expert-mode.md)
             + [Verwenden von E-Mail-Vorlagen](using/email/use-email-templates.md)
             + [Nutzen von E-Mail-Designs](using/email/apply-email-themes.md)
             + [Anhängen von PDF-Dateien an E-Mails](using/email/pdf-attachments.md)
@@ -292,6 +291,7 @@ ht-degree: 91%
             + [Textversion verwalten](using/email/text-version-email.md)
             + [Optimieren von E-Mail-Text für KI-Posteingänge](using/email/llm-email-optimizer.md)
             + [Hinzufügen von Metadaten](using/email/email-metadata.md)
+            + [Bearbeiten mit dem erweiterten HTML-Editor](using/email/email-expert-mode.md)
          + Bearbeiten des Stils {#edit-style}
             + [Bearbeiten des Stils](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Erste Schritte mit E-Mail-Stilen](using/email/get-started-email-style.md)
@@ -505,6 +505,9 @@ ht-degree: 91%
       + [Arbeiten mit Dynamic Media](using/integrations/aem-dynamic.md)
       + [Arbeiten mit GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + {hide-from-toc}[Arbeiten mit Integrationen](using/integrations/external-sources.md)
+      + {hide-from-toc}[Erste Schritte mit der Vendors-Integration](using/integrations/vendor-integration-gs.md)
+      + {hide-from-toc}[Verfügbare Anbieter](using/integrations/vendor-integration.md)
+      + {hide-from-toc}[FAQs](using/integrations/vendor-integration-faq.md)
       + {hide-from-toc}[Arbeiten mit KI-Assistenten über MCP](using/integrations/ajo-mcp.md)
    + KI-Assistent für die Inhaltsgenerierung {#ai-assistant}
       + [KI-Assistent für die Inhaltsgenerierung](/help/rp_landing_pages/ai-assistant-landing-page.md)
