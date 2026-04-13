@@ -82,7 +82,7 @@ Diese Schritte umfassen die Erstellung von Personalisierungsausdrücken von Grun
 
 1. Um die Ausgabe in Ihrem Personalisierungsausdruck zu implementieren, klicken Sie auf **[!UICONTROL Anwenden]**. Die Assistentenausgabe wird an der Cursorposition im Personalisierungseditor eingefügt. Um stattdessen bereits vorhandenen Code zu ersetzen, wählen Sie diesen Code zuerst im Editor aus und verwenden Sie dann **[!UICONTROL Bearbeiten mit dem KI-Assistenten]** (siehe [Bearbeiten, Korrigieren oder Erläutern von vorhandenem Code](#edit-existing)).
 
-   Sie können die Ausgabe auch kopieren und über das Symbol „Kopieren![ an der gewünschten ](../orchestrated/assets/do-not-localize/activity-copy.svg) einfügen.
+   Sie können die Ausgabe auch kopieren und über das Symbol „Kopieren![&#x200B; an der gewünschten &#x200B;](../orchestrated/assets/do-not-localize/activity-copy.svg) einfügen.
 
 ## Vorhandenen Code bearbeiten, korrigieren oder erklären {#edit-existing}
 
