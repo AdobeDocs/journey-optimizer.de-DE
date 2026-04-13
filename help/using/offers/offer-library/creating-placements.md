@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Erstellen von Platzierungen
 description: Erfahren Sie, wie Sie Platzierungen für Ihre Angebote erstellen
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
@@ -12,8 +12,8 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '647'
+ht-degree: 100%
 
 ---
 

@@ -7,11 +7,10 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgeführt, die im Jahr 2021 veröffentlicht wurden.
 
-## Version vom November 2021 {#november-2021-release}
+## Version November 2021 {#november-2021-release}
 
 <table>
 <thead>
@@ -84,9 +83,9 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Journeys**
 
-* **Ausdruckseditor** – Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. Diese Funktion kann mit den Abonnement-Listen genutzt werden. Beispielsweise können Sie jetzt in einer Zielgruppe eine E-Mail-Adresse aus einer Abonnement-Liste abrufen. [In diesem Beispiel erfahren Sie mehr](../building-journeys/message-to-subscribers-uc.md).
+* **Ausdruckseditor** – Als Power-User stehen Ihnen jetzt Funktionen zur Verfügung, um mit Karten zu arbeiten. Diese Funktion kann mit den Abonnement-Listen genutzt werden. Beispielsweise können Sie jetzt in einer Zielgruppe eine E-Mail-Adresse aus einer Abonnement-Liste abrufen. [In diesem Beispiel erfahren Sie mehr](../building-journeys/message-to-subscribers-uc.md).
 
-* **Monitoring** – Step-Ereignisse für Live-Journeys und den Testmodus wurden verbessert. Es wurden [neue Felder](../reports/sharing-field-list.md#servicevents-field) im Zusammenhang mit Profilexportvorgängen hinzugefügt. Für ein besseres Benutzererlebnis sind die Felder für Step-Ereignisse jetzt in verschiedenen Kategorien organisiert. Alle Felder für vorhergehende Step-Ereignisse sind weiterhin in der Kategorie [stepEvents](../reports/sharing-legacy-fields.md) verfügbar.
+* **Monitoring** – Step-Ereignisse für Live-Journeys und den Testmodus wurden verbessert. Es wurden [neue Felder](../reports/sharing-field-list.md#servicevents-field) im Zusammenhang mit Profilexportaufträgen hinzugefügt. Für ein besseres Benutzererlebnis sind die Felder für Step-Ereignisse jetzt in verschiedenen Kategorien organisiert. Alle Felder für vorhergehende Schrittereignisse sind weiterhin in der Kategorie [stepEvents](../reports/sharing-legacy-fields.md) verfügbar.
 * **Barrierefreiheit** – Es wurden Verbesserungen an der Barrierefreiheit von Journeys implementiert.
 * **Sammlungen** – Arrays von Objekten, die Unterobjekte enthalten, werden nun unterstützt. [Weitere Informationen](../building-journeys/collections.md)
 * **Listen** – Die Bildschirme „Listen“ für Journeys, Ereignisse, Aktionen und Datenquellen wurden verbessert.
@@ -342,18 +341,18 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Journeys**
 
-* Die Gesamteinschränkungsrate aller Aktivitäten „Zielgruppe lesen“, die gleichzeitig in derselben Sandbox ausgeführt werden, ist auf 17.000 Nachrichten pro Sekunde begrenzt. [Mehr dazu](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
-* Das Feld **Aufbewahrungsfrist im Cache** wurde aus dem Konfigurationsbereich der Datenquelle entfernt. [Mehr dazu](../datasource/about-data-sources.md)
-* Für externe Datenquellen ist jetzt automatisch eine Begrenzungsregel von 15 Aufrufen pro Sekunde definiert. [Mehr dazu](../configuration/external-systems.md#capping)
-* Für Live-Journeys werden im Journey-Eigenschaftsfenster das Veröffentlichungsdatum und der Name des Benutzers angezeigt, der die Journey veröffentlicht hat. [Mehr dazu](../building-journeys/journey-gs.md#change-properties)
-* Im Journey-Listenfenster wurde ein Filter für den Journey-Typ hinzugefügt. [Mehr dazu](../start/user-interface.md#filter-lists)
+* Die Gesamteinschränkungsrate aller Aktivitäten „Zielgruppe lesen“, die gleichzeitig in derselben Sandbox ausgeführt werden, ist auf 17.000 Nachrichten pro Sekunde begrenzt. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Das Feld **Aufbewahrungsfrist im Cache** wurde aus dem Konfigurationsbereich der Datenquelle entfernt. [Weitere Informationen](../datasource/about-data-sources.md)
+* Für externe Datenquellen wird jetzt automatisch eine Begrenzungsregel von 15 Aufrufen pro Sekunde festgelegt. [Weitere Informationen](../configuration/external-systems.md#capping)
+* Bei Live-Journeys zeigt der Journey-Eigenschaftenbildschirm jetzt das Veröffentlichungsdatum und den Namen des Benutzers an, der die Journey veröffentlicht hat. [Weitere Informationen](../building-journeys/journey-gs.md#change-properties)
+* Im Journey-Listenfenster wurde ein Filter für den Journey-Typ hinzugefügt. [Weitere Informationen](../start/user-interface.md#filter-lists)
 * Der Parameter **[!UICONTROL Einschränkungsrate]** wurde in der Aktivität „Zielgruppe lesen“ hinzugefügt. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Vorschau und Test**
 
-* Identität und Namespace sind nun im Bildschirm **[!UICONTROL Vorschau]** sichtbar. [Mehr dazu](../content-management/preview-test.md#preview-test)
+* Identität und Namespace sind nun im Bildschirm **[!UICONTROL Vorschau]** sichtbar. [Weitere Informationen](../content-management/preview-test.md#preview-test)
 * Die Anzahl der Test-E-Mails für Testsendungen ist jetzt auf 10 beschränkt.
-* Die Anzahl der für das **Präfix der Betreffzeile** in Testsendungen zulässigen Zeichen ist jetzt begrenzt. [Mehr dazu](../content-management/preview-test.md#send-proofs)
+* Die Anzahl der für das **Präfix der Betreffzeile** in Testsendungen zulässigen Zeichen ist jetzt begrenzt. [Weitere Informationen](../content-management/preview-test.md#send-proofs)
 
 **Ausdruckseditor für Personalisierung**
 

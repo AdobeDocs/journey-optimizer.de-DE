@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zu orchestrierten Kampagnen
 description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Kampagnen
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ea7fdaf61a52f1dc65938e0aaa3ff6ca0be109a4
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 87%
+source-wordcount: '2493'
+ht-degree: 70%
 
 ---
 
@@ -153,6 +153,66 @@ Während sich die Kampagne in **Entwurf** befindet, können Sie sie testen, inde
 Ja, in bestimmten Situationen. Die Option **[!UICONTROL Zurück zum Entwurf]** ist als Wiederherstellungsmechanismus zum Rückgängigmachen der Veröffentlichung und Zurücksetzen einer Kampagne in den Entwurfsstatus konzipiert.
 
 Diese Option ist für geplante Kampagnen, die auf ihre Ausführung warten, oder für Live-Kampagnen mit Ausführungsfehlern verfügbar. [Erfahren Sie, wie Sie eine Live-Kampagne wieder auf den Entwurf zurücksetzen können](start-monitor-campaigns.md#back-to-draft)
+
++++
+
++++ Was passiert intern, wenn ich eine orchestrierte Kampagne veröffentliche?
+
+Wenn Sie auf **[!UICONTROL Veröffentlichen]** klicken, tritt die folgende Sequenz auf:
+
+1. **Planeraktivierung** - Wenn ein Zeitplan konfiguriert ist, wird der Planer gestartet und die Trigger werden zum definierten Zeitpunkt ausgeführt.
+1. **Audience-Aktivitäten speichern werden zuerst ausgeführt** — Alle Audience-Aktivitäten speichern werden ausgeführt, bevor die Nachrichtenaktivitäten angezeigt werden. Die Audience Shell wird im Audience Portal erstellt und qualifizierte Profile beginnen mit der Aufnahme.
+1. **Nachrichtenausführung beginnt** - Kanalaktivitäten beginnen mit der Verarbeitung der ersten Nachrichtenaktivität im Workflow.
+1. **Suche nach Profilschnappschüssen** - Profildaten werden anhand eines Schnappschusses aufgelöst, der zum Zeitpunkt der Veröffentlichung erstellt wurde, nicht anhand des Echtzeit-Profils. Dies gewährleistet die Konsistenz über die gesamte Ausführung hinweg.
+1. **Einverständnisbewertung** - Das Einverständnis wird direkt aus dem Profildatensatz berücksichtigt und zum Versandzeitpunkt nicht erneut ausgewertet.
+1. **Profilabstimmung** - Die Empfänger und Empfängerinnen werden zum Versandzeitpunkt mit den Adobe Experience Platform-Profilen abgeglichen.
+1. **Erstellung von Versandlogs** - Versandereignisse werden im `ajo_message_feedback_event` Datensatz aufgezeichnet.
+
+**Weitere Informationen**
+
+* [Ausführungssequenz zur Veröffentlichungszeit](start-monitor-campaigns.md#publication-sequence)
+* [Starten und Überwachen von orchestrierten Kampagnen](start-monitor-campaigns.md)
+
++++
+
++++ Warum werden meine Nachrichten nach der Veröffentlichung der Kampagne nicht gesendet?
+
+In verschiedenen Situationen kann das Senden von Nachrichten nach der Veröffentlichung verhindert werden. Überprüfen Sie Folgendes in der richtigen Reihenfolge:
+
+1. **Bestätigungsversand ausstehend (am häufigsten)** - Bei nicht wiederkehrenden Kampagnen wird der Nachrichtenversand standardmäßig angehalten, bis Sie den Versand im Eigenschaftenbereich der Kanalaktivität explizit bestätigen. Die Kampagne wird als **Live** angezeigt, es werden jedoch erst dann Nachrichten ausgegeben, wenn diese bestätigt wurden. [Weitere Informationen](start-monitor-campaigns.md#confirm-sending)
+
+1. **Kampagne ist für einen späteren Zeitpunkt geplant** - Wenn ein Zeitplan konfiguriert ist, ist die Kampagne live, aber die Ausführung wurde noch nicht gestartet. Überprüfen Sie die Zeitplaneinstellungen und warten Sie auf die konfigurierte Startzeit. [Weitere Informationen](create-orchestrated-campaign.md#schedule)
+
+1. **Zielgruppenaktivitäten speichern, die noch aufgenommen werden** — Zielgruppenaktivitäten speichern, die vor den Nachrichtenaktivitäten zum Zeitpunkt der Veröffentlichung ausgeführt werden. Wenn die Aufnahme der Zielgruppe noch in Bearbeitung ist, wurde die Ausführung der Nachricht noch nicht gestartet. Überwachen Sie die Aktivitätsstatusindikatoren auf der Arbeitsfläche. [Weitere Informationen](start-monitor-campaigns.md#activities)
+
+1. **Zielgruppe ist leer** - Die Zielgruppenbestimmungsabfrage hat null Profile zurückgegeben. Überprüfen Sie Ihre Segmentierungsregeln und validieren Sie die Zielgruppengröße vor der erneuten Veröffentlichung.
+
+1. **Alle Profile abgemeldet** - Das Einverständnis wird zum Sendezeitpunkt für jedes Profil ausgewertet. Wenn alle Zielgruppenprofile sich im entsprechenden Kanal abgemeldet haben, werden keine Nachrichten gesendet. [Weitere Informationen](../action/consent.md)
+
+1. **Kanalaktivität im Fehlerstatus** - Eine orangefarbene oder rote Statusanzeige auf der Kanalaktivität signalisiert ein Sperrproblem. Öffnen Sie **[!UICONTROL Protokolle]**, um Details zum Fehler und zu seiner Behebung anzuzeigen. [Weitere Informationen](start-monitor-campaigns.md#logs-tasks)
+
+1. **Drosselung des Versands durch die Ratensteuerung** - Wenn die Ratensteuerung für die Kanalaktivität aktiviert ist, kann der Versand langsamer als erwartet sein. Überprüfen Sie die Einstellungen für die Ratensteuerung im Bereich Kanalaktivität . [Weitere Informationen](activities/channels.md#rate-control)
+
+**Weitere Informationen**
+
+* [Starten und Überwachen von orchestrierten Kampagnen](start-monitor-campaigns.md)
+* [Hinzufügen einer Kanalaktivität in einer orchestrierten Kampagne](activities/channels.md)
+
++++
+
++++ Verwendet die Veröffentlichung das Echtzeit-Profil oder einen Schnappschuss?
+
+Zum Zeitpunkt der Veröffentlichung werden Profildaten anhand eines **Snapshots, der zum Zeitpunkt der Veröffentlichung erstellt wurde** aufgelöst, nicht anhand des Echtzeit-Profils. Dadurch wird die Konsistenz über die gesamte Kampagnenausführung hinweg sichergestellt - alle Aktivitäten verarbeiten denselben Profilstatus, unabhängig davon, wie lange die Kampagne läuft.
+
+Das Einverständnis wird jedoch immer aus dem aktuellen Profildatensatz berücksichtigt und zum Versandzeitpunkt nicht erneut ausgewertet.
+
+Beachten Sie, dass die Segmentierung in orchestrierten Kampagnen für Empfänger (relativer Store) durchgeführt wird, während der Nachrichtenversand und die Einverständnisprüfung für das Adobe Experience Platform-Profil aufgelöst werden.
+
+**Weitere Informationen**
+
+* [Ausführungssequenz zur Veröffentlichungszeit](start-monitor-campaigns.md#publication-sequence)
+* [Welche Beziehung besteht zwischen Empfänger- und Profilentitäten?](#faq-oc)
+* [Arbeiten mit Einverständnisrichtlinien](../action/consent.md)
 
 +++
 

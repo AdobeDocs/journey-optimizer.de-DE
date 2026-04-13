@@ -29,7 +29,7 @@ ht-degree: 97%
 >title="Delegieren von Subdomains"
 >abstract="Um mit dem Versand von E-Mails zu beginnen, wird die Subdomain an Adobe delegiert. Daraufhin werden DNS-Einträge, Postfächer, Absender-, Antwort- und Bounce-Adressen konfiguriert."
 
-Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) an eine anderen Entität zu delegieren. Wenn Sie also als Kundin bzw. Kunde die Zone „example.com“ verwalten, können Sie die Unterzone an Adobe „marketing.example.com“ delegieren.
+Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann an eine andere Entität eine Untergliederung des Domain-Namens (technisch: eine untergeordnete DNS-Zone) delegieren. Wenn Sie also als Kundin bzw. Kunde die Zone „example.com“ verwalten, können Sie die Unterzone an Adobe „marketing.example.com“ delegieren.
 
 >[!NOTE]
 >

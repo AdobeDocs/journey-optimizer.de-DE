@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 2a9587461520290899e3c70c4943e111d6af65ee
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 83%
+source-wordcount: '1777'
+ht-degree: 82%
 
 ---
 
@@ -175,6 +175,7 @@ Verwenden Sie generative KI, um Inhalte über mehrere Kanäle hinweg zu erstelle
 * **Textgenerierung** – Erstellen Sie überzeugende Texte basierend auf Ihrer Markensprache und Ihren Zielen. [Generieren von Text mit KI](../content-management/generative-text.md)
 * **Bildgenerierung** – Generieren Sie benutzerdefinierte Bilder mit Adobe Firefly. [Generieren von Bildern mit KI](../content-management/generative-image.md)
 * **Inhaltsvarianten** – Erstellen Sie mehrere Varianten für A/B-Tests. [Inhaltsexperimente mit KI](../content-management/generative-experimentation.md)
+* **Personalization** - Generieren Sie im Personalization-Editor neue Ausdrücke, erklären Sie vorhandenen Code oder beheben Sie Probleme mit dem KI-Assistenten. [KI-Assistent für Personalization-Ausdrücke](../content-management/generative-personalization-expressions.md)
 * **Markenausrichtung** – Stellen Sie sicher, dass der generierte Inhalt Ihren Markenrichtlinien entspricht. [Bewertung der Markenausrichtung](../content-management/brands-score.md)
 * **Vorlagenunterstützung** – Nutzen Sie Ihre vorhandenen E-Mail-Vorlagen. [Arbeiten mit Inhaltsvorlagen](../content-management/content-templates.md)
 

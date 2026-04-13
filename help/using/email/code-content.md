@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 keywords: Code, HTML, Editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 67%
+source-wordcount: '492'
+ht-degree: 66%
 
 ---
 
@@ -26,7 +26,7 @@ Sie müssen über HTML-Kenntnisse verfügen. Sobald Sie diesen Modus ausgewählt
 
 >[!NOTE]
 >
->**[!UICONTROL Eigenen Code erstellen]** ist nicht dasselbe wie der erweiterte HTML-Editor in Inhaltsvorlagen. Mit dem erweiterten HTML-Editor können Sie jederzeit zwischen der HTML-Ansicht und der visuellen (Desktop-)Ansicht wechseln - nicht zwischen dem Code-Editor. [Weitere Informationen zum erweiterten HTML-Editor](../content-management/email-template-expert-mode.md).
+>**[!UICONTROL Eigenen Code erstellen]** ist nicht dasselbe wie der erweiterte HTML-Editor in der E-Mail-Designer. Mit dem erweiterten HTML-Editor können Sie jederzeit zwischen der HTML-Ansicht und der visuellen (Desktop-)Ansicht wechseln - nicht zwischen dem Code-Editor. [Weitere Informationen zum erweiterten HTML-Editor](email-expert-mode.md).
 
 ## Verwenden des Code-Editors {#use-code-editor}
 

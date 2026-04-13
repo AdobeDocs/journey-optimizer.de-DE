@@ -1,20 +1,19 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Zeichenfolge
-description: Zeichenfolge
+title: String
+description: String
 redpen-status: CREATED_||_2025-08-11_20-18-34
 hide: true
-hidefromtoc: true
 exl-id: 1085e570-10b8-4d96-912a-994979358b65
-source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 
 ---
 
-# Zeichenfolge{#section-overview}
+# String{#section-overview}
 
 Zeichenfolgen sind die Bausteine textbasierter Daten, und die Zeichenfolgenfunktionen von Adobe Journey Optimizer bieten Ihnen leistungsstarke Tools, um sie mühelos zu verwalten und zu transformieren.
 

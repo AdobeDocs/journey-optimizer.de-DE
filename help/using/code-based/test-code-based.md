@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: deb4ee9bb52ba1fad1f12ecc0905fa2f21028c9c
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 79%
+source-wordcount: '794'
+ht-degree: 87%
 
 ---
 
@@ -113,11 +113,11 @@ Beim Erstellen Code-basierter Erlebnisse für Web-Seiten oder mobile Apps könne
 1. Vorschau-Links werden für das ausgewählte Testprofil und, wenn Sie [Inhaltsexperiment](../content-management/content-experiment.md) in Ihrer Journey oder Kampagne verwenden, für die ausgewählte Abwandlung generiert.
 
    <!--
-Wenn Sie den Inhalt geändert oder eine andere Abwandlung oder ein anderes Testprofil ausgewählt haben, scrollen Sie zum unteren Rand des Popup-Fensters **[!UICONTROL Vorschau auf Gerät]** und klicken Sie auf **[!UICONTROL Vorschau-Link aktualisieren]**, um den aktuellen Status anzuzeigen.
+   If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
 
-![](assets/preview-on-device-refresh.png)
-—>
+   ![](assets/preview-on-device-refresh.png)
+   -->
 
-<!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-    Beim Aktualisieren des Inhalts oder beim Auswählen eines anderen Testprofils oder einer anderen Variante wird der Vorschau-Link automatisch aktualisiert. Sie können den Link in verschiedene Browser-Registerkarten kopieren und die Erlebnisse vergleichen.
+   Beim Aktualisieren des Inhalts oder Auswählen eines anderen Testprofils oder einer anderen Abwandlung wird der Vorschau-Link automatisch aktualisiert. Sie können den Link in verschiedene Browser-Tabs kopieren und die Erlebnisse vergleichen.

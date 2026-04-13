@@ -151,7 +151,7 @@ Verfügbare Optionen sind:
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 
 1. **[!UICONTROL HTML]**/**[!UICONTROL JSON]**/**[!UICONTROL Text]**: Identifizieren Sie das Format Ihres Codes. Dadurch kann das System die Funktion zur Validierung und automatischen Vervollständigung basierend auf der ausgewählten Sprache anpassen.
-1. **[!UICONTROL Validieren]**: Überprüfen Sie die Syntax Ihres Ausdrucks. Weiterführende Informationen finden Sie in [diesem Abschnitt](../personalization/personalization-build-expressions.md).
+1. **[!UICONTROL Validieren]**: Überprüfen Sie die Syntax Ihres Ausdrucks. Weiterführende Informationen finden Sie in diesem [Abschnitt](../personalization/personalization-build-expressions.md).
 1. **[!UICONTROL Als Fragment speichern]**: Speichern Sie Ihren Ausdruck als Ausdrucksfragment. Weiterführende Informationen finden Sie in [diesem Abschnitt](../content-management/save-fragments.md#save-as-expression-fragment).
 1. **[!UICONTROL Schriftgrad]**: Passt den Schriftgrad für den Content im Editor an, um die Lesbarkeit zu verbessern.
 1. **[!UICONTROL Zeilenumbruch]**: Aktiviert oder deaktiviert den Zeilenumbruch, sodass lange Ausdrücke in einer einzelnen Zeile angezeigt oder im Editor umgebrochen werden können. Zu den Optionen gehören:

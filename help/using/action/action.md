@@ -10,7 +10,7 @@ level: Experienced
 keywords: Aktionen, Journey, Nachrichten, Senden, Verbindungen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 100%
 
@@ -57,6 +57,6 @@ In den folgenden Abschnitten erfahren Sie mehr über die Konfiguration und Verwe
 
 * [Konfigurieren benutzerdefinierter Aktionen](../action/about-custom-action-configuration.md): Erfahren Sie, wie Sie eine benutzerdefinierte Aktion erstellen und konfigurieren
 * [Verwenden benutzerdefinierter Aktionen](../building-journeys/using-custom-actions.md): Erfahren Sie, wie Sie benutzerdefinierte Aktionen in Ihren Journeys verwenden
-* [Übergeben von Sammlungen in Parameter von benutzerdefinierten Aktionen](../building-journeys/collections.md): Erfahren Sie, wie Sie eine Sammlung in Parameter von benutzerdefinierten Aktionen übergeben, die zur Laufzeit dynamisch gefüllt werden
+* [Übergeben von Sammlungen in Parameter benutzerdefinierter Aktionen](../building-journeys/collections.md): Erfahren Sie, wie Sie eine Sammlung in Parameter benutzerdefinierter Aktionen übergeben, die zur Laufzeit dynamisch gefüllt werden
 * [Fehlerbehebung bei benutzerdefinierten Aktionen](../action/troubleshoot-custom-action.md): Erfahren Sie, wie Sie Fehler bei einer benutzerdefinierten Aktion beheben
 

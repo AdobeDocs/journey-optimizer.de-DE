@@ -1,33 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Bearbeiten von E-Mail-Vorlagen mit dem erweiterten HTML-Editor
-description: Verwenden Sie den Expertenmodus, um die HTML-Quelle für E-Mail-Inhalte im WYSIWYG-Editor mit Feature-Flag-Steuerung, Leitplanken und Speichervalidierung anzuzeigen und zu bearbeiten.
-feature: Templates
+title: E-Mail-Inhalte mit dem erweiterten HTML-Editor bearbeiten
+description: Verwenden Sie den Expertenmodus , um die HTML-Quelle für E-Mail-Inhalte in der E-Mail-Designer mit Feature-Flag-Steuerung, Leitplanken und Speichervalidierung anzuzeigen und zu bearbeiten.
+feature: Email Design
 topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 36fc8247844a2f6a5e9b478d9c3a31ed82a40356
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '559'
 ht-degree: 7%
 
 ---
 
-# Bearbeiten von E-Mail-Vorlagen mit dem erweiterten HTML-Editor {#email-template-expert-mode}
+# E-Mail-Inhalte mit dem erweiterten HTML-Editor bearbeiten {#email-expert-mode}
 
 >[!AVAILABILITY]
 >
 >Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
-Der **erweiterte HTML-Editor** ist ein Expertenmodus, mit dem Sie den Rohcode von E-Mail-Inhaltsvorlagen direkt über die [!DNL Journey Optimizer] E-Mail-Designer-Benutzeroberfläche anzeigen und bearbeiten können.
+Der **erweiterte HTML-Editor** ist ein Expertenmodus, mit dem Sie die unformatierte HTML-Quelle **E-Mail-**) direkt in der [!DNL Journey Optimizer] [E-Mail-Designer](get-started-email-design.md) anzeigen und bearbeiten können - unabhängig davon, ob Sie [E-Mail erstellen](content-from-scratch.md) für eine Journey, eine Kampagne oder eine [E-Mail-Inhaltsvorlage](../content-management/create-content-templates.md).
 
 Mit dieser Funktion können Sie erweiterte Ausdrücke - wie Bedingungen - direkt in die Quelle einfügen. Wenn Sie zur visuellen Ansicht (Desktop) zurückkehren, wird der Inhalt erneut gerendert, damit Sie überprüfen können, wie er aussieht, und die Bearbeitung in jeder Ansicht fortsetzen können.
-
->[!NOTE]
->
->Diese Funktion ist nur in Inhaltsvorlagen und für den E-Mail-Kanal verfügbar.
 
 ## Leitlinien {#guardrails}
 
@@ -45,13 +41,13 @@ Wenn Sie den erweiterten HTML-Editor verwenden, schützen die folgenden Leitplan
 
 >[!WARNING]
 >
->Der erweiterte HTML-Editor in der Inhaltsvorlage ist nicht identisch mit dem Modus **[!UICONTROL Eigenen Code erstellen]** in der E-Mail-Designer. Im Modus [!UICONTROL Eigenen Code erstellen] können Sie nicht zum visuellen Editor zurückkehren. Sobald Sie diesen Pfad ausgewählt haben, bleiben Sie in der schreibgeschützten Bearbeitung. Der erweiterte HTML-Editor dagegen ermöglicht es Ihnen, jederzeit zwischen der HTML- und der Desktopansicht (visuell) umzuschalten. [Erfahren Sie mehr über den Code-Editor](../email/code-content.md)
+>Der erweiterte HTML-Editor unterscheidet sich vom Modus **[!UICONTROL Eigenen Code erstellen]** in der E-Mail-Designer. Im Modus [!UICONTROL Eigenen Code erstellen] können Sie nicht zum visuellen Editor zurückkehren. Sobald Sie diesen Pfad ausgewählt haben, bleiben Sie in der schreibgeschützten Bearbeitung. Der erweiterte HTML-Editor dagegen ermöglicht es Ihnen, jederzeit zwischen der HTML- und der Desktopansicht (visuell) umzuschalten. [Erfahren Sie mehr über den Code-Editor](code-content.md)
 
 ## Zur erweiterten HTML-Ansicht wechseln {#switch-to-html-view}
 
-Gehen Sie wie folgt vor, um den erweiterten HTML-Editor zu öffnen und Ihre Vorlagenquelle zu bearbeiten.
+Gehen Sie wie folgt vor, um den erweiterten HTML-Editor zu öffnen und Ihre HTML-Quelle zu bearbeiten.
 
-1. Öffnen oder erstellen Sie eine [E-Mail](../content-management/create-content-templates.md)Vorlage und öffnen Sie die [E-Mail-Designer](../email/get-started-email-design.md), um den Inhalt zu bearbeiten.
+1. Öffnen Sie die E-Mail oder Vorlage, die Sie in der E-Mail-Designer bearbeiten möchten, z. B. [E-Mail erstellen oder bearbeiten](create-email.md) von einer Journey oder Kampagne oder öffnen Sie eine [E-Mail-Inhaltsvorlage](../content-management/create-content-templates.md) und bearbeiten Sie deren Textkörper in der [E-Mail-Designer](get-started-email-design.md).
 
 1. Klicken Sie oben rechts **[!UICONTROL Bildschirm auf die Schaltfläche]** HTML.
 
@@ -67,7 +63,7 @@ Gehen Sie wie folgt vor, um den erweiterten HTML-Editor zu öffnen und Ihre Vorl
 
 1. Der erweiterte HTML-Editor wird angezeigt.
 
-   ![Erweiterte HTML-Editor-Benutzeroberfläche mit Quell-Code der E-Mail-Vorlage](assets/email-template-expert-mode.png)
+   ![Erweiterte HTML-Editor-Benutzeroberfläche mit E-Mail-Quell-Code](assets/email-template-expert-mode.png)
 
 1. Fügen Sie die gewünschten Änderungen an Ihrem E-Mail-Inhalt hinzu.
 
@@ -89,7 +85,6 @@ Gehen Sie wie folgt vor, um den erweiterten HTML-Editor zu öffnen und Ihre Vorl
 
 ## Verwandte Themen
 
-* [Codieren Ihres eigenen E-Mail-Inhalts](../email/code-content.md)
-* [Erstellen von Inhaltsvorlagen](create-content-templates.md)
-* [Erste Schritte mit dem Email Designer](../email/get-started-email-design.md)
-
+* [Codieren Ihres eigenen E-Mail-Inhalts](code-content.md)
+* [Erstellen von Inhaltsvorlagen](../content-management/create-content-templates.md)
+* [Erste Schritte mit dem Email Designer](get-started-email-design.md)

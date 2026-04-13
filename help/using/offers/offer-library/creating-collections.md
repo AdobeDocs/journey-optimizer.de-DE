@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Erstellen von Sammlungen
 description: Erfahren Sie, wie Sie Angebote mithilfe von Sammlungen ordnen
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management, Collections
 topic: Integrations
 role: User
@@ -12,8 +12,8 @@ exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '482'
+ht-degree: 100%
 
 ---
 

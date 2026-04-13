@@ -5,10 +5,10 @@ title: Dokumentation zu Adobe Journey Optimizer
 description: Dokumentation zu Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 84a44eac9171c45098b8ad40d62bcae68a610f84
+source-git-commit: e4b8ba5941c276b74608a5510d97b33786b2507c
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '537'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ Mithilfe von Ruhezeiten können Sie zeitbasierte Ausschlüsse für den E-Mail-, 
 
 ## Die Erkundung starten {#section-explore}
 
-:::: landing-cards-container
+::::landing-cards-container
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 

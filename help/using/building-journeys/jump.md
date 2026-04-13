@@ -78,7 +78,7 @@ Verwenden Sie diese Richtlinien, um das Verhalten von Sprungaktivitäten vorhers
 
 Komplexe Kundenkanäle und Journey können schnell schwer zu erstellen und zu warten sein, insbesondere wenn zusätzliche Kanäle oder Touchpoints eingeführt werden. Selbst eine Journey mit einer Handvoll Meilensteinen kann 20 oder mehr einzigartige Pfade aufzeigen, die ein Kunde einschlagen kann, und diese Komplexität wächst exponentiell mit jeder Ergänzung.
 
-Ein praktischer Ansatz zur Verwaltung dieses Problems besteht darin, große Journey Journey in kleinere, fokussierte Untergruppen zu unterteilen - eine pro Geschäftsphase oder Meilenstein - und sie mithilfe der Aktivität &quot;**[!UICONTROL &quot;]** verbinden. Dadurch bleibt jede Journey lesbar, testbar und unabhängig wartbar.
+Ein praktischer Ansatz zur Verwaltung dieses Problems besteht darin, große Journey in kleinere, fokussierte Untergruppen zu unterteilen - eine pro Geschäftsphase oder Meilenstein - und sie mithilfe der Aktivität &quot;**[!UICONTROL &quot;]** verbinden. Dadurch bleibt jede Journey lesbar, testbar und unabhängig wartbar.
 
 **Schritt 1: Visualisieren Sie das End-to-End-Journey**
 

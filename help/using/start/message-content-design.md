@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 keywords: Inhalt, Design, E-Mail, Push, SMS, Personalisierung, Vorlagen
-source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
+exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 100%
@@ -103,4 +103,3 @@ Erstellen Sie wiederverwendbare Inhalte mit Vorlagen, speichern Sie Inhaltsbaust
 - **[Asset-Management](../integrations/assets.md)**: Nutzen Sie die Möglichkeiten von Adobe Experience Manager Assets Essentials, um Ihre Nachrichten anzureichern, Marken-Assets zu verwalten und eine zentralisierte Inhaltsbibliothek zu pflegen.
 - **[Adobe Stock-Integration](../integrations/stock.md)**: Greifen Sie direkt in Journey Optimizer auf Millionen von lizenzfreien Fotos, Videos und Illustrationen zu, um Ihr Inhalts-Design zu verbessern.
 - **[Mehrsprachige Inhalte](../content-management/multilingual-gs.md)**: Erstellen und verwalten Sie mehrsprachige Kampagnen und Journeys, um Zielgruppen in mehreren Sprachen mit lokalisierten Inhaltsvarianten zu erreichen.
-

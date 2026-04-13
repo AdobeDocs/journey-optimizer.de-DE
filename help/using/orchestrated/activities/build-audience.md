@@ -13,7 +13,7 @@ ht-degree: 100%
 ---
 
 
-# Zielgruppe erstellen {#build-audience}
+# Erstellen einer Zielgruppe {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"

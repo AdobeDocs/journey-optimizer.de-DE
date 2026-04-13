@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Erste Schritte mit KI-Modellen
 description: Erfahren Sie mehr über KI-Modelle, mit denen Angebote nach Rang geordnet werden können
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Ranking, Decision Management
 topic: Artificial Intelligence
 role: User
@@ -12,8 +12,8 @@ exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 

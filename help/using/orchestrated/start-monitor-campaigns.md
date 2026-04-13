@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kam
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 54%
+source-wordcount: '1588'
+ht-degree: 41%
 
 ---
 
@@ -22,6 +22,21 @@ ht-degree: 54%
 >abstract="Um Ihre Kampagne zu starten, müssen Sie sie veröffentlichen. Stellen Sie sicher, dass alle Fehler vor der Veröffentlichung gelöscht wurden."
 
 Nachdem Sie Ihre orchestrierte Kampagne erstellt und die Aufgaben entworfen haben, die auf der Arbeitsfläche ausgeführt werden sollen, können Sie sie veröffentlichen und ihre Ausführung überwachen. Sie können die Kampagne auch im Testmodus ausführen, um ihre Ausführung und das Ergebnis der verschiedenen Aktivitäten zu überprüfen.
+
+## Kampagnen-Lebenszyklus auf einen Blick {#lifecycle}
+
+Orchestrierte Kampagnen durchlaufen einen definierten Satz von Status. Die wichtigsten Phasen des Veröffentlichungs-Workflows sind:
+
+| Status | Bedeutung |
+|---|---|
+| **Entwurf** | Die Kampagne wird erstellt und getestet - noch nicht aktiv. |
+| **Live** | Die Kampagne wurde veröffentlicht und wird ausgeführt. |
+| **Geschlossen** | Die wiederkehrende Kampagne wird für neue Einträge geschlossen, aber die aktiven Profile bleiben bis zum Abschluss aller Aktivitäten erhalten. |
+| **Abgeschlossen** | Kampagnenausführung abgeschlossen. |
+
+>[!NOTE]
+>
+>Informationen zu allen Status (einschließlich Geplant, Gestoppt, Archiviert) und verfügbaren Aktionen in jeder Phase finden Sie unter [Kampagnenstatus](../campaigns/manage-campaigns.md#statuses).
 
 ## Testen der Kampagne vor der Veröffentlichung {#test}
 
@@ -52,7 +67,13 @@ Außerdem können Sie fehlgeschlagene Aktivitäten schnell mithilfe der [visuell
 
 Wenn Sie Kanalaktivitäten in der Arbeitsfläche hinzugefügt haben, können Sie mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** den Inhalt Ihrer Nachrichten in der Vorschau anzeigen und testen. [Erfahren Sie, wie Sie mit Kanalaktivitäten arbeiten und Inhalte simulieren](activities/channels.md#simulate-content-test-profiles).
 
-Nach der Validierung kann die Kampagne veröffentlicht werden.
+>[!TIP]
+>
+>Bevor Sie auf **[!UICONTROL Veröffentlichen]** klicken, bestätigen Sie Folgendes:
+>* Die Kampagne wurde im Testmodus erfolgreich ausgeführt, ohne dass Fehler in den [Protokollen](#logs-tasks) aufgetreten sind.
+>* Der Nachrichteninhalt wurde mit „Inhalt simulieren **[!UICONTROL in der Vorschau]**.
+>* Der [Zeitplan ist konfiguriert](create-orchestrated-campaign.md#schedule) wenn es sich um eine geplante Kampagne handelt.
+>* Sie haben das Verhalten [Versandbestätigung](#confirm-sending) geprüft. Bei nicht wiederkehrenden Kampagnen werden erst dann Nachrichten gesendet, wenn Sie den Versand nach der Veröffentlichung ausdrücklich genehmigen.
 
 ## Veröffentlichen der Kampagne {#publish}
 
@@ -68,6 +89,24 @@ Der visuelle Fluss wird neu gestartet, und echte Profile beginnen, in Echtzeit d
 
 Wenn die Veröffentlichungsaktion fehlschlägt (z. B. wegen fehlenden Nachrichteninhalts), werden Sie benachrichtigt und müssen das Problem beheben, bevor Sie es erneut versuchen. Nach erfolgreicher Veröffentlichung wird die Kampagne ausgeführt (sofort oder planmäßig), wechselt von **Entwurf** in **Live**-Status und wird zu „Schreibgeschützt“.
 
+>[!IMPORTANT]
+>
+>Bei nicht wiederkehrenden Kampagnen wird der Nachrichtenversand nach der Veröffentlichung angehalten, bis Sie den Versand im Eigenschaftenbereich der Kanalaktivität explizit bestätigen. Die Kampagne wird als **Live** angezeigt, es werden jedoch keine Nachrichten gesendet, bis sie bestätigt werden. [Weitere Informationen](#confirm-sending)
+
+### Ausführungssequenz zur Veröffentlichungszeit {#publication-sequence}
+
+Wenn Sie auf **[!UICONTROL Veröffentlichen]** klicken, tritt intern die folgende Sequenz auf:
+
+1. **Planeraktivierung** - Wenn für die Kampagne ein [Zeitplan konfiguriert](create-orchestrated-campaign.md#schedule) ist, wird die Planung gestartet und die Trigger werden zum definierten Zeitpunkt ausgeführt.
+1. **Audience-Aktivitäten speichern werden zuerst ausgeführt** — Alle [Audience speichern](activities/save-audience.md)-Aktivitäten im Workflow werden ausgeführt, bevor die Nachrichtenaktivitäten angezeigt werden. Die Audience-Shell wird im [Audience Portal](../audience/about-audiences.md#browse) erstellt und qualifizierte Profile beginnen mit der Aufnahme.
+1. **Die Nachrichtenausführung beginnt** - [Kanalaktivitäten](activities/channels.md) Die Verarbeitung für die erste Nachrichtenaktivität im Workflow wird gestartet.
+1. **Suche nach Profilschnappschüssen** - Profildaten werden anhand eines Schnappschusses aufgelöst, der zum Zeitpunkt der Veröffentlichung erstellt wurde, nicht anhand des Echtzeit-Profils. Dadurch wird die Konsistenz über die gesamte Ausführung hinweg sichergestellt.
+1. **Einverständnisbewertung** - Für übereinstimmende Profile wird das Einverständnis direkt aus dem Profildatensatz berücksichtigt. Das Einverständnis wird zum Zeitpunkt des Versands nicht erneut ausgewertet. [Erfahren Sie mehr über die Einverständnisverwaltung](../action/consent.md)
+1. **On-the-fly-Profilerstellung** - Profile, die mit keinem vorhandenen Datensatz übereinstimmen, werden während der Ausführung direkt erstellt.
+1. **Erstellung von Versandlogs** - Versandereignisse werden im [`ajo_message_feedback_event`](../data/datasets-query-examples.md#message-feedback-event-dataset) Datensatz aufgezeichnet, der die primäre Quelle für Versandlogs und die Validierung nach dem Versand ist.
+
+Um die Ergebnisse nach der Ausführung zu validieren, verwenden Sie die Reporting-Funktionen von Journey Optimizer. [Weitere Informationen über das Reporting zu orchestrierten Kampagnen](reporting-campaigns.md)
+
 ## Kampagne auf Entwurf zurücksetzen {#back-to-draft}
 
 Mit **[!UICONTROL Funktion „Zurück zum Entwurf]** können Sie die Veröffentlichung einer orchestrierten Kampagne aufheben und sie in bestimmten Situationen auf den Entwurfsstatus zurücksetzen. Dieser Mechanismus wurde als Wiederherstellungsmechanismus konzipiert, um Probleme zu beheben, bevor Nachrichten gesendet werden, wobei die Integrität des Kampagnenlebenszyklus gewahrt bleibt.
@@ -80,7 +119,7 @@ Diese Option ist in zwei Szenarien verfügbar:
 
 Um eine Kampagne wieder in den Entwurfsstatus zu versetzen, öffnen Sie die orchestrierte Kampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Zurück zum Entwurf]** in der Symbolleiste der Kampagnen-Arbeitsfläche.
 
-![](assets/back-to-draft.png)
+![Schaltfläche „Zurück zum Entwurf“ in der Symbolleiste der Kampagnen-Arbeitsfläche](assets/back-to-draft.png)
 
 Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Die Kampagne kehrt zum Status **Entwurf** zurück. Sie können jetzt die identifizierten Probleme beheben, die Kampagne [&#x200B; testen &#x200B;](#test) sie dann erneut [veröffentlichen](#publish) wenn sie bereit ist.
 
@@ -88,7 +127,7 @@ Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Di
 
 Standardmäßig wird der Nachrichtenversand bei nicht wiederkehrenden orchestrierten Kampagnen angehalten, bis Sie den Versand ausdrücklich genehmigen. Nachdem Sie die Kampagne veröffentlicht haben, bestätigen Sie die Sendeanfrage über den Bereich Eigenschaften der Kanalaktivität. Bis es bestätigt wird, bleibt die Kanalaktivität ausstehend und es wird keine Nachricht gesendet.
 
-![Bild, das die Schaltfläche Bestätigen zeigt](assets/confirm-sending.png)
+![Schaltfläche „Senden bestätigen“ im Bereich mit den Eigenschaften der Kanalaktivität](assets/confirm-sending.png)
 
 Vor der Veröffentlichung können Sie im Eigenschaftenbereich der Kanalaktivität die Option zum Senden von Bestätigungen deaktivieren. Weitere Informationen finden Sie unter [Nachrichtenversand bestätigen](activities/channels.md#confirm-message-sending).
 
@@ -107,6 +146,8 @@ Die über Transitionen von einer Aktivität zu einer anderen übertragenen Daten
 
    ![Übergangsvorschau mit Arbeitstabellenschema und Ergebnissen](assets/transition.png){zoomable="yes"}
 
+Sie können jetzt die zwischen den Aktivitäten übergebenen Daten überprüfen, um Ihren Kampagnenfluss zu überprüfen und sicherzustellen, dass jede Aktivität die erwarteten Profile verarbeitet.
+
 ### Indikatoren zur Aktivitätsausführung {#activities}
 
 Visuelle Statusindikatoren helfen, zu verstehen, wie jede Aktivität funktioniert:
@@ -114,7 +155,7 @@ Visuelle Statusindikatoren helfen, zu verstehen, wie jede Aktivität funktionier
 | Visueller Indikator | Beschreibung |
 |-----|------------|
 | ![Status „Ausstehend](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | Die Aktivität wird derzeit ausgeführt. |
-| ![Orangefarbener Status](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | Die Aktivität erfordert Ihre Aufmerksamkeit. Dies kann die Bestätigung eines Versands oder die Ergreifung einer notwendigen Maßnahme beinhalten. |
+| ![Statusanzeige „Achtung erforderlich“](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | Die Aktivität erfordert Ihre Aufmerksamkeit. Dies kann die Bestätigung eines Versands oder die Ergreifung einer notwendigen Maßnahme beinhalten. |
 | ![Fehlerstatus](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | Bei der Aktivität ist ein Fehler aufgetreten. Um das Problem zu beheben, öffnen Sie die Protokolle zu orchestrierten Kampagnen , um weitere Informationen zu erhalten. |
 | ![Erfolgsstatus](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | Die Aktivität wurde erfolgreich ausgeführt. |
 
@@ -143,3 +184,5 @@ Auf beiden Registerkarten können Sie die angezeigten Spalten und ihre Reihenfol
 ## Nächste Schritte {#next}
 
 Nach dem Start der Arbeitsfläche für die koordinierte Kampagne können Sie die Reporting-Funktionen von Journey Optimizer verwenden, um Erkenntnisse zu erhalten, z. B. um das Verhalten der Zielgruppe zu verstehen und die Leistung der einzelnen Schritte in Ihrer Customer Journey zu messen. [Weitere Informationen über das Reporting zu orchestrierten Kampagnen](../orchestrated/reporting-campaigns.md)
+
+Haben Sie Fragen zu orchestrierten Kampagnen? In den [Häufig gestellte Fragen zu Orchestrierten Kampagnen](orchestrated-campaigns-faq.md) finden Sie Antworten auf die häufigsten Fragen von Fachleuten.

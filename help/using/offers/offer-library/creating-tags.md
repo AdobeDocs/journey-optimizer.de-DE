@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Erstellen von Sammlungsqualifizierern
 description: Erfahren Sie, wie Sie Sammlungsqualifizierer für Ihre Angebote erstellen
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
@@ -12,8 +12,8 @@ exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '203'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Die Zuordnung von Sammlungsqualifizierern (ehemals als „Tags“ bezeichnet) zu
 
 Sammlungsqualifizierer können auch dazu dienen, Angebote in Angebotssammlungen zu gruppieren. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
 
-➡️ [Funktion im Video kennenlernen](#video).
+➡️ [Funktion im Video kennenlernen](#video)
 
 Die Liste der erstellten Sammlungsqualifizierer ist im Menü **[!UICONTROL Komponenten]** verfügbar.
 

@@ -42,7 +42,7 @@ Eine Code-basierte Erlebniskonfiguration muss auf die Oberfläche verweisen, die
 
 Gehen Sie wie folgt vor, um eine Code-basierte Erlebniskanalkonfiguration zu erstellen:
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf, und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
+1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]** auf und klicken Sie dann auf **[!UICONTROL Kanalkonfiguration erstellen]**.
 
    ![](assets/code_config_1.png)
 

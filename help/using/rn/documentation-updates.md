@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '6654'
-ht-degree: 72%
+source-wordcount: '6825'
+ht-degree: 71%
 
 ---
 
@@ -20,6 +20,14 @@ ht-degree: 72%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## April 2026 {#april-2026}
+
+* Die Seite **E-Mail-Inhalt bearbeiten mit dem erweiterten HTML-Editor** wurde aus dem Abschnitt Content-Management in den Abschnitt **E-Mail** der Dokumentation (unter E-Mail-Design) verschoben und die Seitendatei wurde in **email-expert-mode.md** umbenannt. Auf der Seite wird nun dokumentiert, dass der erweiterte HTML-Editor in der E-Mail-Designer für E-Mail-Nachrichten und für E-Mail-Inhaltsvorlagen verfügbar ist. [Weitere Informationen](../email/email-expert-mode.md)
+
+* Die Dokumentation **Starten und Überwachen orchestrierter Kampagnen** wurde mit einem neuen Abschnitt aktualisiert, der die interne Ausführungssequenz der Veröffentlichungszeit sowie eine Tabelle mit dem Kampagnenlebenszyklusstatus, eine Checkliste vor der Veröffentlichung und eine Bestätigungswarnung für nicht wiederkehrende Kampagnen enthält. [Weitere Informationen](../orchestrated/start-monitor-campaigns.md#publication-sequence)
+
+* Die **Audience speichern**-Aktivität wurde mit einem Hinweis aktualisiert, der klarstellt, dass Audience-Speicheraktivitäten zum Zeitpunkt der Veröffentlichung immer vor Nachrichtenaktivitäten ausgeführt werden. [Weitere Informationen](../orchestrated/activities/save-audience.md)
+
+* Die FAQ zu **Orchestrierten Kampagnen“ wurden um drei neue Fragen und Antworten ergänzt** nämlich: was passiert intern zur Veröffentlichungszeit, eine 7-Punkte-Checkliste mit Gründen, warum Nachrichten nach der Veröffentlichung möglicherweise nicht gesendet werden, und wie sich die Suche nach Profil-Snapshots von der Echtzeit-Profilauflösung unterscheidet. [Weitere Informationen](../orchestrated/orchestrated-campaigns-faq.md)
 
 * Ein neuer Abschnitt **[Ereignisse, die aufgrund einer blockierten Journey-Instanz verworfen wurden](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)** wurde zur Dokumentation zur Fehlerbehebung bei Journey hinzugefügt, in dem der `maxInstanceStackEventsReached` Grund für die Verwerfung, der Zeitpunkt und die Maßnahmen zu deren Behebung erläutert werden. Die Listenseiten „Leitplanken“ und „Schrittereignisfeld“ wurden ebenfalls entsprechend aktualisiert.
 
@@ -59,7 +67,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Eine neue Seite **Überwachen Ihrer KI** Modelle“ ist jetzt in der Dokumentation zur Entscheidungsfindung verfügbar. Es wird erläutert, wie Sie Zustand, Trainingsstatus und Leistung personalisierter Optimierungsmodelle direkt in [!DNL Journey Optimizer] verfolgen können. [Weitere Informationen](../experience-decisioning/ranking/ai-model-observability.md)
 
-* Der **erweiterte HTML-Editor** (Expertenmodus) für E-Mail-Vorlagen ist jetzt in begrenztem Umfang verfügbar. Die Dokumentationsseite ist jetzt öffentlich zugänglich. Mit dieser Funktion können Sie die HTML-Rohquelle von E-Mail-Inhaltsvorlagen direkt über die E-Mail-Designer anzeigen und bearbeiten. [Weitere Informationen](../content-management/email-template-expert-mode.md)
+* Der **erweiterte HTML-Editor** (Expertenmodus) für E-Mail-Vorlagen ist jetzt in begrenztem Umfang verfügbar. Die Dokumentationsseite ist jetzt öffentlich zugänglich. Mit dieser Funktion können Sie die HTML-Rohquelle von E-Mail-Inhaltsvorlagen direkt über die E-Mail-Designer anzeigen und bearbeiten. [Weitere Informationen](../email/email-expert-mode.md)
 
 * Die **URL-Tracking** und **Journey-Fehlerbehebung** wurden aktualisiert, um das Verhalten von `context.system.source.actionId` in geschlossenen Journey zu dokumentieren. Geschlossene oder nicht erneut veröffentlichte Journey können leere `{}` Platzhalter in Tracking-URLs erzeugen. Es wurden Anleitungen hinzugefügt, wie Sie das Problem beheben können, indem Sie die Journey erneut veröffentlichen oder den betroffenen Parameter entfernen. [Weitere Informationen](../email/url-tracking.md)
 

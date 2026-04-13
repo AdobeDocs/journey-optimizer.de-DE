@@ -1,0 +1,105 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: KI-Assistent für Personalization Expressions
+description: Erfahren Sie, wie Sie mit dem KI-Assistenten im Journey Optimizer Personalization-Editor neue Ausdrücke aus natürlicher Sprache generieren, vorhandenen Code erklären oder korrigieren und Auswahlen verfeinern können.
+feature: Content Assistant
+topic: Content Management, Artificial Intelligence
+role: User
+level: Intermediate
+mini-toc-levels: 1
+source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+workflow-type: tm+mt
+source-wordcount: '761'
+ht-degree: 5%
+
+---
+
+# KI-Assistent für Personalization Expressions{#generative-personalization-expressions}
+
+>[!IMPORTANT]
+>
+>Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden Informationen zu [Leitlinien und Einschränkungen](gs-generative.md#generative-guardrails).
+></br>
+>
+>Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) zustimmen, damit Sie den KI-Assistenten in Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+
+## Überblick {#where-available}
+
+Im [!UICONTROL Personalization-Editor] können Sie mit [!UICONTROL KI-] eine neue Personalisierung aus einer einfachen Sprache generieren, die Funktion vorhandener Ausdrücke erklären und Probleme im ausgewählten Code beheben, sodass Sie weniger Zeit mit Syntax- und manuellen Felderkennungen verbringen. Sie können auch eine Auswahl iterieren oder andere Änderungen in der Konversation anfordern.
+
+* Weitere Informationen zur Einrichtung und zu den Sprachen des KI-Assistenten finden Sie unter [Erste Schritte mit dem KI-Assistenten](gs-generative.md).
+* Weitere Informationen zur Personalisierung in [!DNL Journey Optimizer] finden Sie unter [Erste Schritte mit der Personalisierung](../personalization/personalize.md).
+* Informationen zu umgehenden Ideen finden Sie unter [Best Practices für KI-Eingabeaufforderungen](ai-assistant-prompting-guide.md).
+
+Sie verwenden [!UICONTROL KI]Assistenten im [!UICONTROL Personalization-Editor] wo immer dieser Editor verfügbar ist - z. B. in der Betreffzeile, im Textkörper und in anderen Feldern, die ihn öffnen. Informationen dazu, wo und wie der Editor geöffnet wird, finden Sie unter [Personalisierung hinzufügen](../personalization/personalization-build-expressions.md#where).
+
+Je nach Kampagnen- oder Journey-Kontext kann der Assistent mit Daten arbeiten und erstellt den [!UICONTROL Personalization-Editor], der bereits bereitstellt - z. B. Profilattribute, Segmentzugehörigkeit, Hilfsfunktionen und zugehörige Personalisierungsquellen.
+
+>[!NOTE]
+>
+>Der Assistent behält nur dann den Kontext aus Ihren Eingabeaufforderungen, wenn [!UICONTROL KI-Assistent] in dieser Editor-Sitzung geöffnet bleibt. Wenn Sie den Assistenten oder den [!UICONTROL Personalization-Editor] schließen, wird die Unterhaltung nicht gespeichert. Wenn Sie den Assistenten das nächste Mal öffnen, beginnen Sie eine neue Unterhaltung.
+
+## Generieren von Personalisierungsausdrücken {#generate}
+
+Diese Schritte umfassen die Erstellung von Personalisierungsausdrücken von Grund auf. Informationen zum Arbeiten mit Code, der sich bereits im Editor befindet, finden Sie unter [Bearbeiten, Korrigieren oder Erläutern von vorhandenem Code](#edit-existing).
+
+1. Öffnen Sie in Ihrer Nachricht oder Ihrem Inhalt den **[!UICONTROL Personalization-Editor]**.
+
+1. Platzieren Sie den Cursor im Editor an der Stelle, an der der generierte Personalisierungscode eingefügt werden soll, und klicken Sie auf die Schaltfläche **[!UICONTROL KI-Assistent]**.
+
+   ![](assets/ai-perso-access.png)
+
+1. Beschreiben Sie im Textfeld den gewünschten Personalisierungsausdruck in einfacher Sprache - beispielsweise welche Profilattribute, Segmente oder Logik Sie benötigen, und klicken Sie dann auf **[!UICONTROL Generieren]**.
+
+   Sie können auch einsatzbereite Eingabeaufforderungen aus dem Abschnitt &quot;**[!UICONTROL Eingabeaufforderungen“ verwenden]** z. B. personalisierte Begrüßung, Erstellung von Promo-Code und mehr.
+
+   ![](assets/ai-perso-generate.png)
+
+   >[!NOTE]
+   >
+   >Jede nicht damit zusammenhängende Eingabeaufforderung oder Frage gibt einen Fehler zurück, der außerhalb des Bereichs liegt. Passen Sie Ihre Eingabeaufforderung an und stellen Sie eine relevante Frage zur benötigten Personalisierung.
+
+1. Sie können die Diskussion mit dem Assistenten in einem mehrgängigen Gespräch fortsetzen: Es wird der Kontext aus Ihren Eingabeaufforderungen beibehalten, sodass Sie denselben Ausdruck Schritt für Schritt verfeinern können. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue Sitzung]**, um von vorne zu beginnen.
+
+   ![](assets/ai-perso-question.png)
+
+1. Nachdem Sie einen Ausdruck generiert haben, klicken Sie auf **[!UICONTROL Vorschau für Beispielprofile anzeigen]** um zu sehen, wie der Ausdruck mit Beispieldaten ausgewertet wird, und um die zugehörige Payload als JSON anzuzeigen. Für diese Prüfung generiert der Assistent einen begrenzten Satz synthetischer Musterprofile, die nicht in Ihrer Organisation gespeichert werden.
+
+   Wenn Sie mehr Beispielprofile benötigen, geben Sie **Vorschau** in die Diskussion mit dem Assistenten ein, damit zusätzliche Vorschauprofile generiert werden können.
+
+   ![](assets/ai-perso-preview-button.png)
+
+   +++Beispiel für eine Vorschau
+
+   ![](assets/ai-perso-preview.png)
+
+   +++
+
+   >[!NOTE]
+   >
+   >Mit diesem Steuerelement können Sie Ihren Personalisierungs-Code im Editor schnell überprüfen, nicht aber die vollständige Vorschau Ihres Inhalts. Verwenden Sie für eine vollständige Validierung des Erlebnisses Ihren üblichen Simulationsfluss. [Erfahren Sie, wie Sie eine Vorschau der Inhalte anzeigen und die Inhalte testen](../content-management/preview-test.md)
+
+1. Um die Ausgabe in Ihrem Personalisierungsausdruck zu implementieren, klicken Sie auf **[!UICONTROL Anwenden]**. Die Assistentenausgabe wird an der Cursorposition im Personalisierungseditor eingefügt. Um stattdessen bereits vorhandenen Code zu ersetzen, wählen Sie diesen Code zuerst im Editor aus und verwenden Sie dann **[!UICONTROL Bearbeiten mit dem KI-Assistenten]** (siehe [Bearbeiten, Korrigieren oder Erläutern von vorhandenem Code](#edit-existing)).
+
+   Sie können die Ausgabe auch kopieren und über das Symbol „Kopieren![&#x200B; an der gewünschten &#x200B;](../orchestrated/assets/do-not-localize/activity-copy.svg) einfügen.
+
+## Vorhandenen Code bearbeiten, korrigieren oder erklären {#edit-existing}
+
+Sie können einen vorhandenen Personalisierungsausdruck auswählen und den KI-Assistenten verwenden, um Personalisierungsprobleme zu beheben, zu erklären, was der Code tut, oder andere Änderungen anzufordern.
+
+1. Wählen Sie den vorhandenen Personalisierungscode im Editor aus.
+
+1. Klicken Sie mit der rechten Maustaste auf die Auswahl und wählen Sie **[!UICONTROL Mit KI-Assistent bearbeiten]** sodass der Assistent Ihre Auswahl als Kontext verwendet.
+
+   ![](assets/ai-perso-right-click.png)
+
+1. **[!UICONTROL KI-Assistent]** wird geöffnet. Klicken **[!UICONTROL Schnellbefehle]** auf **[!UICONTROL Erläutern]** oder **[!UICONTROL Korrigieren]** oder verwenden Sie das Textfeld, um andere Änderungen anzufordern und eine Konversation zu starten.
+
+   ![](assets/ai-perso-edit.png)
+
+1. Wenn Sie **[!UICONTROL Beheben]** verwenden, klicken Sie in der **[!UICONTROL auf]** Fehlerbehebungsdetails anzeigen, um eine Erklärung der Fehlerbehebung und eine zeilenweise Anleitung vor und nach der Vorschau anzuzeigen.
+
+   ![](assets/ai-perso-fix.png)
+
+1. Klicken Sie wie beim Generieren eines Personalisierungsausdrucks auf **[!UICONTROL Anwenden]** um die Assistentenausgabe zu implementieren. Er ersetzt den Code, den Sie im Personalisierungseditor ausgewählt hatten. Wenn Sie beispielsweise nach einer Erklärung des Codes gefragt haben, fügt das Anwenden von Kommentare zum Ausdruck hinzu, die beschreiben, was er tut.
