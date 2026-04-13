@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6645910a92c963ab99e786040cb4323789a95a68
+source-git-commit: a949dc4332e6f49ed0e68507a55bf27264002a84
 workflow-type: tm+mt
-source-wordcount: '3200'
+source-wordcount: '3205'
 ht-degree: 91%
 
 ---
@@ -514,6 +514,7 @@ ht-degree: 91%
       + [Generieren von Text mit KI](using/content-management/generative-text.md)
       + [Generieren von Bildern mit KI](using/content-management/generative-image.md)
       + [Inhaltsexperiment mit KI](using/content-management/generative-experimentation.md)
+      + [KI-Assistent für Personalization Expressions](using/content-management/generative-personalization-expressions.md)
       + [Anwendungsfälle für den KI-Assistenten](using/content-management/generative-uc.md)
       + Marken {#brands}
          + [Marken](/help/rp_landing_pages/brands-landing-page.md)

@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 90%
 
 ---
 
@@ -31,9 +31,7 @@ Mit dem **Personalisierungseditor** können Sie alle Daten auswählen, anordnen,
 
 Journey Optimizer verwendet eine Inline-Personalisierungssyntax, die auf Handlebars basiert. Damit können Sie Ausdrücke mit Inhalten erstellen, die von doppelten geschweiften Klammern **`{{}}`** eingeschlossen sind.
 
-Bei der Verarbeitung der Nachricht ersetzt Journey Optimizer den Ausdruck durch die im Experience Platform-Datensatz enthaltenen Daten. Beispielsweise wird `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` dynamisch zu `Hello John Doe`.
-
-Mit dieser Syntax können Sie Nachrichten über mehrere Felder hinweg personalisieren, einschließlich E-Mail-Betreffzeilen, Nachrichtentexten, Push-Benachrichtigungen oder URLs.
+Bei der Verarbeitung der Nachricht ersetzt Journey Optimizer den Ausdruck durch die im Experience Platform-Datensatz enthaltenen Daten. Beispielsweise wird `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` dynamisch zu `Hello John Doe`. Mit dieser Syntax können Sie Nachrichten über mehrere Felder hinweg personalisieren, einschließlich E-Mail-Betreffzeilen, Nachrichtentexten, Push-Benachrichtigungen oder URLs.
 
 ## Für die Personalisierung verwendete Daten
 
@@ -52,6 +50,14 @@ Dieser Playground bietet eine simulierte Umgebung zum Schreiben und Testen von P
 ![Personalisierungs-Playground](assets/playground.png)
 
 ➡️ [Zugriff auf den Personalisierungs-Playground](https://experienceleague.adobe.com/de/apps/journey-optimizer/ajo-personalization){target="_blank"}
+
+## KI-Assistent im Personalization-Editor {#ai-personalization-expressions}
+
+Im **[!UICONTROL Personalization-Editor]** können Sie mit **[!UICONTROL KI-]** neue Ausdrücke aus natürlicher Sprache generieren, erklären, was vorhandener Code tut, und Probleme in einer Auswahl beheben, und dann die Ausgabe anwenden, wenn sie Ihrer Absicht entspricht.
+
+![](../content-management/assets/ai-perso-generate.png)
+
+➡️ [Erfahren Sie, wie Sie mit dem KI-Assistenten für Personalization-Ausdrücke arbeiten](../content-management/generative-personalization-expressions.md)
 
 ## Tauchen wir tiefer in die Materie ein
 
@@ -97,7 +103,7 @@ Jetzt, da Sie über Kenntnisse zur Personalisierung in **[!DNL Journey Optimizer
 
 Erfahren Sie, wie Sie kontextuelle Ereignisinformationen von einer Journey verwenden können, um eine Nachricht zu personalisieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448148?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzufügen und die Zielgruppenzugehörigkeit als Vorbedingung für einen Personalisierungsbaustein verwenden.
 
@@ -105,6 +111,6 @@ Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzu
 
 Erfahren Sie, wie Sie den Personalisierungseditor-Playground nutzen können, um Personalisierungs-Code mithilfe von Beispieldaten zu schreiben und zu testen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475961?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 Weitere Video-Tutorials zu Personalisierungsfunktionen und Best Practices finden Sie in den [Personalisierungs-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}
