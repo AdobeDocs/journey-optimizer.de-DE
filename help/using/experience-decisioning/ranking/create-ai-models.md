@@ -106,7 +106,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
    >
    >Sie können bis zu 5 Zielgruppen auswählen.
 
-1. Speichern und aktivieren Sie das KI-Modell. Sobald Ihr Modell live ist, können Sie [den Trainings-Status und die Leistung &#x200B;](ai-model-observability.md).
+1. Speichern und aktivieren Sie das KI-Modell. Sobald Ihr Modell live ist, können Sie [den Trainings-Status und die Leistung ](ai-model-observability.md).
 
 <!--
 At this point, you must have:
@@ -125,5 +125,5 @@ Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu könn
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445960?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
 -->

@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: eaaa11352bcb0b77c5517836b26eb2e72b82ac20
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Zielgrup
 
 1. Fügen Sie Ihrer Aktivität einen **[!UICONTROL Label]** hinzu. Dieses Label dient als Name Ihrer Zielgruppe.
 
-1. Klicken Sie ![Ordnersuchsymbol](../assets/do-not-localize/folder-search.svg), um die Audience auszuwählen, die Sie für Ihre orchestrierte Kampagne ansprechen möchten. [&#x200B; Erfahren Sie mehr darüber, wie Sie in Journey Optimizer Zielgruppen generieren und ansprechen &#x200B;](../../audience/about-audiences.md).
+1. Klicken Sie auf das ![Ordnersuchsymbol](../assets/do-not-localize/folder-search.svg), um die Zielgruppe auszuwählen, die Sie für Ihre orchestrierte Kampagne ansprechen möchten. [Weitere Informationen zum Generieren und Ansprechen von Zielgruppen in Journey Optimizer](../../audience/about-audiences.md).
 
    ![](../assets/read-audience-2.png)
 

@@ -134,6 +134,6 @@ Das folgende Video veranschaulicht, wie Sie Ihre eigenen Marken erstellen und an
 
 +++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

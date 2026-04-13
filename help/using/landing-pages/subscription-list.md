@@ -12,7 +12,7 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Die Profile können über eine [Landingpage](create-lp.md) zu einer Abonnement-L
 
 >[!NOTE]
 >
->Wenn Sie eine Abonnement-Liste erstellen, wird automatisch ein entsprechendes Streaming-Segment in Adobe Experience Platform generiert. Damit das Streaming-Segment erfolgreich erstellt werden kann, muss die Option **Active-On-Edge** für die Zusammenführungsrichtlinie aktiviert sein. Weitere Informationen zu den Eignungskriterien für Streaming-Segmente finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/streaming-segmentation).
+>Wenn Sie eine Abonnement-Liste erstellen, wird automatisch ein entsprechendes Streaming-Segment in Adobe Experience Platform generiert. Damit das Streaming-Segment erfolgreich erstellt werden kann, muss die Option **Active-On-Edge** für die Zusammenführungsrichtlinie aktiviert sein. Weitere Informationen zu Eignungskriterien für Streaming-Segmente finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Gehen Sie wie folgt vor, um eine Abonnement-Liste zu erstellen.
 

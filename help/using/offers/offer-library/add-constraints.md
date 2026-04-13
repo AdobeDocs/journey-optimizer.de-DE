@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Hinzufügen von Einschränkungen zu Angeboten
 description: Erfahren Sie, wie Sie Bedingungen für ein anzuzeigendes Angebot definieren
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
@@ -36,7 +36,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="Informationen zur Angebotspriorität"
->abstract="In diesem Feld können Sie die Prioritätseinstellungen für das Angebot festlegen. Die Priorität ist eine Zahl, die verwendet wird, um Angebote, die alle Einschränkungen wie Eignung, Datum und Begrenzungen erfüllen, in eine Rangfolge zu bringen."
+>abstract="In diesem Feld können Sie die Prioritätseinstellungen für das Angebot festlegen. Die Priorität ist eine Zahl, die verwendet wird, um Angebote, die alle Einschränkungen wie Berechtigung, Datum und Begrenzungen erfüllen, in eine Rangfolge zu bringen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
@@ -75,7 +75,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Definieren der Eignung"
+>title="Definieren der Qualifikation"
 >abstract="Standardmäßig kann das Angebot jedem Profil unterbreitet werden, Sie können jedoch Zielgruppen oder Entscheidungsregeln verwenden, um das Angebot auf bestimmte Profile zu beschränken."
 
 >[!CONTEXTUALHELP]
@@ -83,7 +83,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 >title="Informationen zur Eignung von Angeboten"
 >abstract="In diesem Abschnitt können Sie mithilfe von Entscheidungsregeln bestimmen, welche Benutzer für das Angebot geeignet sind."
 
-<!--additional-url="https://video.tv.adobe.com/v/341369?captions=ger" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"

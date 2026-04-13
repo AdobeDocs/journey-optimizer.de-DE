@@ -54,7 +54,7 @@ Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen ab
 
 ## Wählen Ihrer Datenzugriffsstrategie {#data-access-strategy}
 
-Bevor Sie eine Datenquelle konfigurieren, überlegen Sie, welcher Ansatz Ihrem Anwendungsfall am besten entspricht. Es stehen drei Optionen zur Verfügung, die jeweils unterschiedliche Kompromisse hinsichtlich Persistenz, Profilanreicherung und Wiederverwendbarkeit aufweisen. Eine ausführliche Erläuterung dieser Optionen finden Sie unter [Best Practices für erweiterte Journey in Journey Optimizer](https://experienceleague.adobe.com/de/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Bevor Sie eine Datenquelle konfigurieren, überlegen Sie, welcher Ansatz Ihrem Anwendungsfall am besten entspricht. Es stehen drei Optionen zur Verfügung, die jeweils unterschiedliche Kompromisse hinsichtlich Persistenz, Profilanreicherung und Wiederverwendbarkeit aufweisen. Eine ausführliche Erläuterung dieser Optionen finden Sie unter [Best Practices für erweiterte Journey in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Option 1 - Zugriff auf externe Daten über benutzerdefinierte Aktionen (kein Data Lake)**
 
@@ -63,7 +63,7 @@ Stellen Sie zur Journey-Laufzeit eine direkte Verbindung zu einer externen API h
 * Die Daten sind nur innerhalb des Journey-Kontexts nützlich und anderswo nicht benötigt.
 * Auf das externe System kann über einen API-Endpunkt zugegriffen werden, der die erforderlichen Attribute zurückgibt.
 
-Erfahren Sie mehr über [benutzerdefinierte Aktionen](../action/action.md) und [benutzerdefinierte &#x200B;](../action/action-response.md).
+Erfahren Sie mehr über [benutzerdefinierte Aktionen](../action/action.md) und [benutzerdefinierte ](../action/action-response.md).
 
 **Option 2 — Datensatz im Data Lake, nicht für Profil aktiviert**
 

@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="Zusammenführungsrichtlinie"
 >abstract="Die Zusammenführungsrichtlinie wird automatisch von der ausgewählten Zielgruppe abgerufen und auf der gesamten Journey angewendet."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Weitere Informationen zu Zusammenführungsrichtlinien"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Weitere Informationen zu Zusammenführungsrichtlinien"
 
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Zielgruppen-Qualifizierung]** in Ihrer Arbeitsfläche ab.
@@ -223,4 +223,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

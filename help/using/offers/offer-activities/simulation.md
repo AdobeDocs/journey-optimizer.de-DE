@@ -3,7 +3,7 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Erstellen von Simulationen
 description: Erfahren Sie, wie Sie simulieren können, welche Angebote für eine bestimmte Platzierung zugestellt werden, um Ihre Entscheidungslogik zu validieren
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
@@ -12,8 +12,8 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '901'
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Um auf diese Funktion zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL S
 ➡️ [Discover this feature in video](#video)
 -->
 
-## Auswählen der Testprofile {#select-test-profiles}
+## Auswählen von Testprofilen {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"

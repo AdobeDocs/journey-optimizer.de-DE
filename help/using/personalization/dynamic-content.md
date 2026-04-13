@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen dynamischer Inhalte
+title: Erstellen von dynamischen Inhalten
 description: Erfahren Sie, wie Sie Ihren Nachrichten dynamische Inhalte hinzufügen.
 feature: Personalization
 topic: Personalization
@@ -10,13 +10,13 @@ level: Intermediate
 keywords: Ausdruck, Editor, dynamisch, Inhalt
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 100%
 
 ---
 
-# Erstellen dynamischer Inhalte {#dynamic-content}
+# Erstellen von dynamischen Inhalten {#dynamic-content}
 
 Mit Adobe Journey Optimizer können Sie die in der Bibliothek erstellten bedingten Regeln nutzen, um dynamische Inhalte in Ihre Nachrichten einzufügen.
 
@@ -97,7 +97,7 @@ Gehen Sie wie folgt vor, um Varianten einer Inhaltskomponente in E-Mail-Designer
    >
    >* Bedingte Inhalte werden anhand der zugehörigen Regeln in der Reihenfolge ausgewertet, in der die Varianten angezeigt werden. Die Standardvariante wird immer angezeigt, wenn keine anderen Bedingungen erfüllt sind.
    >
-   >* Bei der Simulation oder dem Rendern von Testsendungen für E-Mails mit mehreren bedingten Varianten kann Journey Optimizer mehr Verarbeitungszeit benötigen. Wenn Zeitüberschreitungen oder Fehlermeldungen auftreten, sollten Sie die Gesamtzahl der Varianten reduzieren oder die bedingten Regeln vereinfachen. Weitere Informationen zum Testen Ihrer Inhalte finden Sie auf [dieser Seite](../content-management/preview-test.md).
+   >* Bei der Simulation oder dem Rendern von Testsendungen für E-Mails mit mehreren bedingten Varianten kann Journey Optimizer mehr Verarbeitungszeit benötigen. Wenn Timeouts oder Fehlermeldungen auftreten, sollten Sie die Gesamtzahl der Varianten reduzieren oder die bedingten Regeln vereinfachen. Weitere Informationen zum Testen Ihrer Inhalte finden Sie auf [dieser Seite](../content-management/preview-test.md).
 
 
 1. Um eine Variante zu löschen, klicken Sie auf das Symbol „Mehr Aktionen“ neben der gewünschten Variante und wählen Sie **[!UICONTROL Löschen]** aus.

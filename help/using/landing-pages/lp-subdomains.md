@@ -9,8 +9,8 @@ level: Experienced
 keywords: Landing, Landingpage, Subdomains, Konfiguration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '971'
 ht-degree: 100%
 
 ---
@@ -80,7 +80,7 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
    >[!CAUTION]
    >
-   >Wenn Sie eine Domain auswählen, die mit der [CNAME-Methode](../configuration/delegate-subdomain.md#cname-subdomain-setup) an Adobe delegiert wurde, müssen Sie den DNS-Eintrag auf Ihrer Hosting-Plattform erstellen. Um den DNS-Eintrag zu generieren, gehen Sie genauso vor wie bei der Konfiguration einer neuen Landingpage-Subdomain. Weitere Informationen dazu finden Sie in [diesem Abschnitt](#lp-configure-new-subdomain).
+   >Wenn Sie eine Domain auswählen, die mit der [CNAME-Methode](../configuration/delegate-subdomain.md#cname-subdomain-setup) an Adobe delegiert wurde, müssen Sie den DNS-Eintrag auf Ihrer Hosting-Plattform erstellen. Um den DNS-Eintrag zu generieren, gehen Sie genauso vor wie bei der Konfiguration einer neuen Landingpage-Subdomain. Mehr dazu erfahren Sie in [diesem Abschnitt](#lp-configure-new-subdomain).
 
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 
@@ -90,7 +90,7 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
    Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was **bis zu 4 Stunden** dauern kann.<!--Learn more in [this section](../configuration/delegate-subdomain.md#subdomain-validation).-->
 
-1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie können jetzt damit Landingpage-Voreinstellungen erstellen.
+1. Sobald die Prüfungen erfolgreich abgeschlossen wurden, erhält die Subdomain den Status **[!UICONTROL Erfolgreich]**. Sie können jetzt damit Landingpage-Voreinstellungen erstellen.
 
 ## Konfigurieren einer neuen Subdomain {#lp-configure-new-subdomain}
 
@@ -133,7 +133,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
    Bevor Sie diese Subdomain für Ihre Landingpages verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was **bis zu 4 Stunden** dauern kann.<!--Learn more in [this section](#subdomain-validation).-->
 
-1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie können jetzt damit Landingpage-Voreinstellungen erstellen.
+1. Sobald die Prüfungen erfolgreich abgeschlossen wurden, erhält die Subdomain den Status **[!UICONTROL Erfolgreich]**. Sie können jetzt damit Landingpage-Voreinstellungen erstellen.
 
    Beachten Sie, dass die Subdomain als **[!UICONTROL Fehlgeschlagen]** markiert wird, wenn Sie den Validierungseintrag in Ihrer Hosting-Lösung nicht erstellen können.
 
@@ -151,4 +151,4 @@ Gehen Sie wie folgt vor, wenn Sie die Delegierung einer Landingpage-Subdomain au
 
 1. Wenden Sie sich an den Adobe-Support mit der Subdomain, deren Delegierung Sie aufheben möchten.
 
-Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Inventarseite angezeigt.
+Nachdem Ihre Anfrage von Adobe bearbeitet wurde, wird die Domain mit der aufgehobenen Delegierung nicht mehr auf der Subdomain-Übersichtsseite angezeigt.

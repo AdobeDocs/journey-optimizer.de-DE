@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_api_triggered"
->title="Kampagnen, die durch API ausgelöst werden"
+>title="Durch API ausgelöste Kampagnen"
 >abstract="**Transaktionskampagnen, die durch API ausgelöst werden**<br/> Lösen Sie Echtzeit-Nachrichten über API-Aufrufe aus <br/><br/>**Marketing-Nachrichten**<br/> Werbeinhalte (erfordert Opt-in, unterliegt Geschäftsregeln)<br/><br/>**Transaktionsnachrichten**<br/> Service-bezogene Inhalte (Bestätigung, Warnhinweise, nicht der Zustimmung zum Marketing unterliegend)<br/><br/>**Verfügbare Kanäle**<br/> E-Mail, SMS, Push-Benachrichtigung"
 
 ## Informationen zu Kampagnen, die durch API ausgelöst werden {#about}
@@ -50,10 +50,10 @@ Bevor Sie mit Kampagnen beginnen, überprüfen Sie [in diesem Abschnitt](get-sta
 1. [Prüfen und Aktivieren der Kampagne](review-activate-api-triggered-campaign.md)
 1. [Auslösen der Kampagnenausführung](trigger-campaigns.md)
 
-Erfahren Sie mehr über den [Workflow für die Kampagnenerstellung abschließen mit typspezifischen Handbüchern →](get-started-with-campaigns.md#workflow)
+Weitere Informationen über den [gesamten Workflow der Kampagnenerstellung mit typspezifischen Anleitungen →](get-started-with-campaigns.md#workflow)
 
 ## Anleitungsvideos {#video}
 
 Erfahren Sie, wie Sie eine Kampagne erstellen und sie von einem externen System aus basierend auf Benutzerinteraktionen auslösen, indem Sie das REST-API zur Ausführung interaktiver Nachrichten verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452734?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

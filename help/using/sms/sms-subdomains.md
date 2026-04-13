@@ -9,7 +9,7 @@ level: Intermediate
 keywords: SMS, Subdomains, Konfiguration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Sie können entweder eine Subdomain verwenden, die bereits an Adobe delegiert is
 
 Die Konfiguration von SMS-Subdomains ist **in allen Umgebungen gleich**. Daher wirkt sich jede Änderung an einer SMS-Subdomain auch auf die Produktions-Sandboxes aus.
 
-Um auf SMS-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von SMS-Subdomains]** für die Produktions-Sandbox. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
+Um auf SMS-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von SMS-Subdomains]** für die Produktions-Sandbox. Weitere Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
 
 ## Verwenden einer vorhandenen Subdomain {#sms-use-existing-subdomain}
 
@@ -78,7 +78,7 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
    >[!CAUTION]
    >
-   >Wenn Sie eine Domain auswählen, die mit der [CNAME-Methode](../configuration/delegate-subdomain.md#cname-subdomain-setup) an Adobe delegiert wurde, müssen Sie den DNS-Eintrag auf Ihrer Hosting-Plattform erstellen. Um den DNS-Eintrag zu generieren, gehen Sie genauso vor wie bei der Konfiguration einer neuen SMS-Subdomain. Weitere Informationen dazu finden Sie in [diesem Abschnitt](#sms-configure-new-subdomain).
+   >Wenn Sie eine Domain auswählen, die mit der [CNAME-Methode](../configuration/delegate-subdomain.md#cname-subdomain-setup) an Adobe delegiert wurde, müssen Sie den DNS-Eintrag auf Ihrer Hosting-Plattform erstellen. Um den DNS-Eintrag zu generieren, gehen Sie genauso vor wie bei der Konfiguration einer neuen SMS-Subdomain. Mehr dazu erfahren Sie in [diesem Abschnitt](#sms-configure-new-subdomain).
 
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
    Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was **bis zu 4 Stunden** dauern kann.<!--Learn more in [this section](../configuration/delegate-subdomain.md#subdomain-validation).-->
 
-1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie kann zur Erstellung von Kanälen für SMS-Konfigurationen verwendet werden.
+1. Sobald die Prüfungen erfolgreich abgeschlossen wurden, erhält die Subdomain den Status **[!UICONTROL Erfolgreich]**. Sie kann zur Erstellung von Kanälen für SMS-Konfigurationen verwendet werden.
 
 ## Konfigurieren einer neuen Subdomain {#sms-configure-new-subdomain}
 

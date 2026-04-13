@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >title="Live-Bericht zu Landingpages"
 >abstract="Mit dem Live-Bericht zu Landingpages kann die Wirkung und Performance einer Landingpage nur in den letzten 24 Stunden in Echtzeit gemessen und visualisiert werden. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Landingpage detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
 
-Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich Berichte in Customer Journey Analytics auf Ereignisse, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab.
+Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt dabei mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich Berichte in Customer Journey Analytics auf Ereignisse, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab.
 
 Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht für letzte 24 Stunden anzeigen]** über das erweiterte Menü der ausgewählten Landingpage aus.
 

@@ -39,7 +39,7 @@ Um auf die Ansichten in der Benutzeroberfläche von [!DNL Journey Optimizer] zug
 
 ## Entdecken von Ansichten im Web-Designer {#discover-views}
 
-Nachdem das Setup des SPAs in der Adobe Experience Platform Web SDK-Implementierung durchgeführt wurde, müssen Sie durch alle Ansichten Ihrer Website navigieren, auf die Sie Änderungen anwenden möchten. Führen Sie dazu folgende Schritte durch.
+Nachdem das Setup des SPAs in der Adobe Experience Platform Web SDK-Implementierung durchgeführt wurde, müssen Sie durch alle Ansichten Ihrer Website navigieren, auf die Sie Änderungen anwenden möchten. Gehen Sie wie folgt vor.
 
 1. [Erstellen Sie eine Web-Journey oder Kampagne](create-web.md) und rufen Sie den [Web-Designer](web-visual-editor.md) auf.
 
@@ -57,7 +57,7 @@ Nachdem das Setup des SPAs in der Adobe Experience Platform Web SDK-Implementier
 
 ## Anwenden von Änderungen auf andere Ansichten {#apply-modifications-views}
 
-Nachdem eine Änderung in einer bestimmten Ansicht hinzugefügt wurde, kann sie auf andere ausgewählte Ansichten angewendet werden. Führen Sie dazu folgende Schritte durch.
+Nachdem eine Änderung in einer bestimmten Ansicht hinzugefügt wurde, kann sie auf andere ausgewählte Ansichten angewendet werden. Gehen Sie wie folgt vor.
 
 >[!CAUTION]
 >
@@ -90,4 +90,4 @@ In diesem Video wird Folgendes erklärt:
 * Anwenden von Website-Änderungen auf mehrere Ansichten oder auf alle erkannten Ansichten
 * Durchführen von Massenaktionen für Änderungen
 
->[!VIDEO](https://video.tv.adobe.com/v/3446894/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

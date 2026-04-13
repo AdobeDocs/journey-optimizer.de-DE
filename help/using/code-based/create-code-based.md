@@ -93,7 +93,7 @@ Gehen Sie wie folgt vor, um Ihr **Code-basiertes Erlebnis** durch eine Kampagne 
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
-Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [&#x200B; Seite](../campaigns/get-started-with-campaigns.md).
+Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [ Seite](../campaigns/get-started-with-campaigns.md).
 
 ➡️ [Erfahren Sie in diesem Video, wie Sie eine Code-basierte Erlebniskampagne erstellen.](#video)
 
@@ -153,4 +153,4 @@ Sobald Ihre Entwicklungspersonen nun einen API- oder SDK-Aufruf zum Abrufen von 
 
 Im folgenden Video erfahren Sie, wie Sie eine Code-basierte Erlebniskampagne erstellen, ihre Eigenschaften konfigurieren, sie testen und veröffentlichen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449462/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

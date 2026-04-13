@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Sie können beliebig viele Strukturkomponenten zu einer oder mehreren Strukturko
 
 >[!NOTE]
 >
->Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32019L0882){target="_blank"} legt fest, dass jegliche digitale Kommunikation barrierefrei sein sollte. Beachten Sie die auf [dieser Seite](accessible-content.md) aufgeführten spezifischen Richtlinien, wenn Sie Inhaltskomponenten für das E-Mail-Design in [!DNL Journey Optimizer] nutzen, wie z. B. die Verwendung von barrierefreien Schriften, lesbaren Formaten und die Bereitstellung von alternativem Text für Bilder.
+>Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Beachten Sie die auf [dieser Seite](accessible-content.md) aufgeführten spezifischen Richtlinien, wenn Sie Inhaltskomponenten für das E-Mail-Design in [!DNL Journey Optimizer] nutzen, wie z. B. die Verwendung von barrierefreien Schriften, lesbaren Formaten und die Bereitstellung von alternativem Text für Bilder.
 
 ## Hinzufügen von Inhaltskomponenten {#add-content-components}
 
@@ -126,7 +126,7 @@ Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzu
    * **Schriftgröße**: Auswahl der Schriftgröße des Textes in Pixel.
    * **[!UICONTROL Textfarbe ändern]**: Wählen Sie die Schriftfarbe aus.
    * **[!UICONTROL Link einfügen]**: Fügen Sie Links jeder Art zu Ihrem Inhalt hinzu.
-   * **[!UICONTROL Bild bearbeiten]**: Einfügen eines Bildes oder Assets in Ihre Textkomponente. [Weitere Informationen über das Asset-Management](../integrations/assets.md)
+   * **[!UICONTROL Bild bearbeiten]**: Einfügen eines Bildes oder Assets in Ihre Textkomponente. [Weitere Informationen über Asset-Management](../integrations/assets.md)
    * **[!UICONTROL Textfarbe ändern]**: Wählen Sie die Schriftfarbe aus.
    * **[!UICONTROL Personalisierung hinzufügen]**: Einfügen von Personalisierungsfeldern zur Inhaltsanpassung auf der Basis von Profildaten. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
    * **[!UICONTROL Quellcode anzeigen]**: Anzeigen des Quell-Codes Ihres Textes (keine Änderungen möglich).

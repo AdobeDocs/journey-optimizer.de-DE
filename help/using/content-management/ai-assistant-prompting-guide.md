@@ -6,8 +6,9 @@ description: Erfahren Sie, wie Sie mit dem CO-STAR-Framework effektive Prompts z
 topic: Artificial Intelligence
 role: User
 level: Intermediate
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: ht
+exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 100%
 

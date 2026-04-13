@@ -12,7 +12,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -127,6 +127,6 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Ihrers Inhalts zu beginnen:
 
    ![](assets/email_designer_simulate_content.png)
 
-1. Sie können auch die Qualität Ihrer Inhalte überprüfen, um Lesbarkeit, Effektivität und Inhaltskohärenz zu bewerten. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](../content-management/brands-score.md#validate-quality)
+1. Sie können auch die Qualität Ihrer Inhalte überprüfen, um Lesbarkeit, Effektivität und Inhaltskohärenz zu bewerten. [Weitere Informationen zur Validierung der Inhaltsqualität](../content-management/brands-score.md#validate-quality)
 
 1. Wenn Ihre Inhalte fertig sind, klicken Sie auf **[!UICONTROL Speichern]**.

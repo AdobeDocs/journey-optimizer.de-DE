@@ -22,7 +22,7 @@ ht-degree: 99%
 >title="Journey-Live-Bericht"
 >abstract="Mit dem Journey-Live-Bericht können Sie die Wirkung und Performance Ihrer Journeys nur in den letzten 24 Stunden in Echtzeit messen und visualisieren. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Journey detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
 
-Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich Berichte in Customer Journey Analytics auf Ereignisse, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab.
+Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt dabei mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich Berichte in Customer Journey Analytics auf Ereignisse, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab.
 
 Greifen Sie über das Menü [!UICONTROL Journeys] auf den Live-Journey-Bericht zu, indem Sie in Ihrer Journey das Menü [!UICONTROL Weitere Aktionen] öffnen und die Option [!UICONTROL Bericht für letzte 24 Stunden anzeigen] auswählen.
 
@@ -276,7 +276,7 @@ Das Widget **[!UICONTROL E-Mail – Leistung nach Datum]** bietet einen detailli
 
 Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]** stellen die verfügbaren Daten zu Bounce-Nachrichten zusammen und bieten detaillierte Einblicke in die spezifischen Gründe und Kategorien für E-Mail-Bounces der letzten 24 Stunden.
 
-Weitere Informationen zu Bounces finden Sie auf der Seite [&#x200B; Unterdrückungslisten](../reports/suppression-list.md).
+Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../reports/suppression-list.md).
 
 +++ Weitere Informationen zu den Metriken „E-Mail – Bounce-Kategorien“ und „E-Mail – Bounce-Gründe“
 

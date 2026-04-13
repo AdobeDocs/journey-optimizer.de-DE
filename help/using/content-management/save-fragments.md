@@ -23,7 +23,7 @@ Beim Bearbeiten von Inhalten in [!DNL Journey Optimizer] können Sie Ihren Inhal
 >
 >Beachten Sie, dass [kontextuelle Attribute](../personalization/personalization-build-expressions.md) in Fragmenten nicht unterstützt werden.
 >
->Wenn in einer Journey oder einer Kampagne das Tracking aktiviert ist, werden Links, die in einem gespeicherten Fragment vorhanden sind und in einer Nachricht verwendet werden, ebenso wie alle anderen Links in der Nachricht nachverfolgt. [Erfahren Sie mehr über Links und Tracking](../email/message-tracking.md)
+>Wenn in einer Journey oder einer Kampagne das Tracking aktiviert ist, werden Links, die in einem gespeicherten Fragment vorhanden sind und in einer Nachricht verwendet werden, ebenso wie alle anderen Links in der Nachricht nachverfolgt. [Weitere Informationen über Links und Tracking](../email/message-tracking.md)
 
 ## Speichern als visuelles Fragment {#save-as-visual-fragment}
 

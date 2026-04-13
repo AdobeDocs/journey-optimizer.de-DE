@@ -58,7 +58,7 @@ Sie können mühelos alle Komponenten, Anpassungen und Stile verwalten, die Sie 
 
 ## Hinzufügen von Änderungen über den dedizierten Bereich {#add-modifications}
 
-Bei der Bearbeitung einer Seite mit dem Web-Designer können Sie neue Änderungen direkt aus dem Bereich **[!UICONTROL Änderungen]** in den Inhalt übernehmen, ohne dass eine Komponente ausgewählt und über die Web-Designer-Oberfläche bearbeitet werden muss. Führen Sie dazu folgende Schritte durch.
+Bei der Bearbeitung einer Seite mit dem Web-Designer können Sie neue Änderungen direkt aus dem Bereich **[!UICONTROL Änderungen]** in den Inhalt übernehmen, ohne dass eine Komponente ausgewählt und über die Web-Designer-Oberfläche bearbeitet werden muss. Gehen Sie wie folgt vor.
 
 1. Klicken Sie im Bereich **[!UICONTROL Änderungen]** auf die Schaltfläche **[!UICONTROL Mehr Aktionen]**.
 
