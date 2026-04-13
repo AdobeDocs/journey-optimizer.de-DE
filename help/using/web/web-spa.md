@@ -90,4 +90,4 @@ In diesem Video wird Folgendes erklärt:
 * Anwenden von Website-Änderungen auf mehrere Ansichten oder auf alle erkannten Ansichten
 * Durchführen von Massenaktionen für Änderungen
 
->[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446894/?captions=ger&quality=12&learn=on)

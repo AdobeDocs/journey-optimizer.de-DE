@@ -96,6 +96,6 @@ Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3411812?captions=ger&quality=12)
 
 
