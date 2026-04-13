@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 908d418e88813511d25346bae721e93da2cf1336
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '806'
 ht-degree: 5%
 
 ---
@@ -66,13 +66,17 @@ Diese Schritte umfassen die Erstellung von Personalisierungsausdrücken von Grun
 
 1. Nachdem Sie einen Ausdruck generiert haben, klicken Sie auf **[!UICONTROL Vorschau für Beispielprofile anzeigen]** um zu sehen, wie der Ausdruck mit Beispieldaten ausgewertet wird, und um die zugehörige Payload als JSON anzuzeigen. Für diese Prüfung generiert der Assistent einen begrenzten Satz synthetischer Musterprofile, die nicht in Ihrer Organisation gespeichert werden.
 
-   Wenn Sie mehr Beispielprofile benötigen, geben Sie **Vorschau** in die Diskussion mit dem Assistenten ein, damit zusätzliche Vorschauprofile generiert werden können.
+   Wenn Sie benutzerdefinierte oder zusätzliche Beispielprofile benötigen, beschreiben Sie, was Sie in der Diskussion mit dem Assistenten benötigen, und fügen Sie das Keyword **preview** in Ihre Eingabeaufforderung ein, damit die richtigen Vorschauprofile für Ihre Prüfung generiert werden können.
 
    ![](assets/ai-perso-preview-button.png)
 
    +++Beispiel für eine Vorschau
 
    ![](assets/ai-perso-preview.png)
+
+   >[!NOTE]
+   >
+   >Zusätzliche Vorschauen dienen zur Stichprobenprüfung. Der Assistent ist so eingestellt, dass er ungefähr ein bis fünf Profile generiert. Wenn Sie nach einer sehr großen Anzahl fragen, kann dies dazu führen, dass die Anfrage fehlschlägt.
 
    +++
 
