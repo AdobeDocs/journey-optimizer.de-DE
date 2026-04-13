@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 65b4b80aa1e68bf72bc0621ad22597f8273ec0a1
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -1367,3 +1367,4 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Entscheidungs-Management**
 
 * **Frequenzbegrenzung für Edge** – Der Frequenzbegrenzungszähler wird jetzt in weniger als 3 Sekunden aktualisiert und in einer Entscheidung der Edge Decisioning-API zur Verfügung gestellt. [Weitere Informationen](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+
