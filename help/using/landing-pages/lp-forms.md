@@ -277,7 +277,7 @@ Sie können dieses Formular jetzt in eine Landingpage einbetten, um Daten zu erf
 
 1. Speichern und testen Sie Ihre Landingpage. [Weitere Informationen](create-lp.md#test-landing-page)
 
-Sobald Ihre Landingpage [veröffentlicht) ](create-lp.md#publish-landing-page) auf einer Journey verwendet wurde und Benutzer das Formular ausfüllen, werden die eingegebenen Informationen in den ausgewählten Datensatz aufgenommen. Die Verarbeitung und Verfügbarkeit der Daten kann bis zu 15 Minuten dauern.
+Sobald Ihre Landingpage [veröffentlicht) &#x200B;](create-lp.md#publish-landing-page) auf einer Journey verwendet wurde und Benutzer das Formular ausfüllen, werden die eingegebenen Informationen in den ausgewählten Datensatz aufgenommen. Die Verarbeitung und Verfügbarkeit der Daten kann bis zu 15 Minuten dauern.
 
 >[!NOTE]
 >

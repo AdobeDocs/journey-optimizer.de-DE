@@ -116,7 +116,7 @@ Sie können URLs mit dem Personalisierungseditor personalisieren. Weitere Inform
 
 Sie möchten zum Beispiel das Bild, das als Angebot angezeigt wird, personalisieren. Sie möchten, dass Benutzende, die einen Stadturlaub bevorzugen, die Skyline von New York sehen und Benutzende, die einen Strandurlaub bevorzugen, die Nordküste von Hawaii sehen.
 
-Verwenden Sie den Personalisierungseditor unter Verwendung von Vereinigungsschemata, um Profilattribute abzurufen, die in Adobe Experience Platform gespeichert sind. [Weitere ](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=de){target="_blank"} zu unterstützten Funktionen im Entscheidungs-Management finden Sie unter [Unterstützte Funktionen im Personalisierungseditor](personalization-editor-supported-functions.md).
+Verwenden Sie den Personalisierungseditor unter Verwendung von Vereinigungsschemata, um Profilattribute abzurufen, die in Adobe Experience Platform gespeichert sind. [Weitere &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=de){target="_blank"} zu unterstützten Funktionen im Entscheidungs-Management finden Sie unter [Unterstützte Funktionen im Personalisierungseditor](personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url-personalization.png)
 

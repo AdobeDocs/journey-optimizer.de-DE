@@ -56,7 +56,7 @@ Die folgenden vordefinierten Werte sind über den Personalisierungseditor verfü
 
   >[!NOTE]
   >
-  >Journey-Dateien, die nach einer Produktänderung geschlossen oder nicht erneut veröffentlicht wurden, können `context.system.source.actionId` möglicherweise nicht in Tracking-URLs einfügen, was zu leeren Platzhaltern führt (z. B. `cid=em-acou-adob{}`). Um sicherzustellen, dass die Tracking-Parameter korrekt ausgefüllt sind[ veröffentlichen Sie die betroffene Journey erneut](../building-journeys/publish-journey.md#journey-create-new-version) oder entfernen Sie den Verweis auf dieses Kontextfeld für geschlossene Journey. Weitere Informationen finden Sie unter [Fehlerbehebung bei der Live-Journey-Ausführung](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys).
+  >Journey-Dateien, die nach einer Produktänderung geschlossen oder nicht erneut veröffentlicht wurden, können `context.system.source.actionId` möglicherweise nicht in Tracking-URLs einfügen, was zu leeren Platzhaltern führt (z. B. `cid=em-acou-adob{}`). Um sicherzustellen, dass die Tracking-Parameter korrekt ausgefüllt sind[&#x200B; veröffentlichen Sie die betroffene Journey erneut](../building-journeys/publish-journey.md#journey-create-new-version) oder entfernen Sie den Verweis auf dieses Kontextfeld für geschlossene Journey. Weitere Informationen finden Sie unter [Fehlerbehebung bei der Live-Journey-Ausführung](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys).
 
 * **Name der Quellaktion**: Name der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
 

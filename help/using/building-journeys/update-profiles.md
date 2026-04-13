@@ -28,13 +28,13 @@ Verwenden Sie die Aktionsaktivität **[!UICONTROL Profil aktualisieren]**, um ei
 
 ## Auswahl der Datensätze {#dataset-selection}
 
-Die Aktivität **[!UICONTROL Profil aktualisieren]** erfordert einen eigenen Datensatz, um Aktualisierungen zu speichern. Da diese Aktivität nur den [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"} (nicht den Datalake) aktualisiert, sollten alle Aktualisierungen in einem [profilaktivierten Datensatz gespeichert werden, ](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} speziell für **[!UICONTROL Profil aktualisieren]**.
+Die Aktivität **[!UICONTROL Profil aktualisieren]** erfordert einen eigenen Datensatz, um Aktualisierungen zu speichern. Da diese Aktivität nur den [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"} (nicht den Datalake) aktualisiert, sollten alle Aktualisierungen in einem [profilaktivierten Datensatz gespeichert werden, &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} speziell für **[!UICONTROL Profil aktualisieren]**.
 
 >[!CAUTION]
 >
 >Verwenden Sie keinen Datensatz, der auch für die Batch- oder Streaming-Aufnahme verwendet wird. Andere Aufnahmedurchgänge überschreiben die Änderungen, die durch die Aktion **[!UICONTROL Profil aktualisieren]** vorgenommen wurden, sodass Profilattribute verschwinden oder zu ihren vorherigen Werten zurückkehren. Wenn Sie dieses Verhalten beobachten, stellen Sie in Adobe Experience Platform sicher, dass keine andere Aufnahme in denselben Datensatz schreibt. Anweisungen zur Fehlerbehebung finden Sie unter [Beheben von Profilaktualisierungsfehlern in Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-26352){target="_blank"}.
 
-Darüber hinaus ist für **[!UICONTROL Konfiguration der Aktivität]** Profil aktualisieren“ kein [Identity-Namespace“ ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"}. Stellen Sie daher sicher, dass der ausgewählte Datensatz denselben **[!UICONTROL Identity-Namespace]** verwendet, den die Journey gestartet hat, da dieser Namespace für diese Aktualisierungen verwendet wird. Die Identitätszuordnung kann auch vom ausgewählten Datensatz verwendet werden. Wenn Sie keinen Datensatz mit dem richtigen Identity-Namespace auswählen oder einen Datensatz verwenden, der Identitätszuordnung verwendet, schlägt **[!UICONTROL Aktivität „Profil aktualisieren]** fehl.
+Darüber hinaus ist für **[!UICONTROL Konfiguration der Aktivität]** Profil aktualisieren“ kein [Identity-Namespace“ &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"}. Stellen Sie daher sicher, dass der ausgewählte Datensatz denselben **[!UICONTROL Identity-Namespace]** verwendet, den die Journey gestartet hat, da dieser Namespace für diese Aktualisierungen verwendet wird. Die Identitätszuordnung kann auch vom ausgewählten Datensatz verwendet werden. Wenn Sie keinen Datensatz mit dem richtigen Identity-Namespace auswählen oder einen Datensatz verwenden, der Identitätszuordnung verwendet, schlägt **[!UICONTROL Aktivität „Profil aktualisieren]** fehl.
 
 ## Konfigurieren der Aktivität Profil aktualisieren . {#use-profile-update}
 
@@ -85,7 +85,7 @@ Beachten Sie, dass [Testmodus](testing-the-journey.md) Profilaktualisierungen so
 
 Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entweder ein neues Testprofil erstellen oder ein vorhandenes Profil in ein Testprofil konvertieren. In [!DNL Adobe Experience Platform] können Profilattribute über einen CSV-Dateiimport oder API-Aufruf aktualisiert werden. Eine schnellere Alternative besteht darin, eine Aktivität vom Typ **[!UICONTROL Profil aktualisieren]** innerhalb der Journey selbst zu verwenden, um das boolesche Feld „Testprofil“ auf „true“ zu setzen.
 
-Weiterführende Informationen dazu, wie Sie ein vorhandenes Profil in ein Testprofil umwandeln, finden Sie in [ Abschnitt](../audience/creating-test-profiles.md#create-test-profiles-csv).
+Weiterführende Informationen dazu, wie Sie ein vorhandenes Profil in ein Testprofil umwandeln, finden Sie in [&#x200B; Abschnitt](../audience/creating-test-profiles.md#create-test-profiles-csv).
 
 ## Leitlinien und Einschränkungen {#guardrails}
 
@@ -93,7 +93,7 @@ Weiterführende Informationen dazu, wie Sie ein vorhandenes Profil in ein Testpr
 * Die Aktion aktualisiert nur vorhandene Felder, sie erstellt keine neuen Profilfelder.
 * Die Aktion unterstützt nur einfache Feldtypen (Zeichenfolge, Zahl, boolescher Wert). XDM-Felder, die als Auflistungen, vorgeschlagene Werte, Objekt-Arrays oder komplexe Sammlungen (z. B. Produktlisten) definiert sind, werden nicht unterstützt.
 * Sie können die Aktion **[!UICONTROL Profil aktualisieren]** nicht verwenden, um [Erlebnisereignisse](../event/about-events.md) wie einen Kauf zu generieren.
-* Wie bei jeder anderen Aktion können Sie einen [alternativen Pfad im Falle eines Fehlers oder einer Zeitüberschreitung) ](using-the-journey-designer.md#paths). Zwei Aktionen können nicht parallel geschaltet werden.
+* Wie bei jeder anderen Aktion können Sie einen [alternativen Pfad im Falle eines Fehlers oder einer Zeitüberschreitung) &#x200B;](using-the-journey-designer.md#paths). Zwei Aktionen können nicht parallel geschaltet werden.
 * Es ist nicht garantiert, dass Profilaktualisierungen sofort nachgelagert in derselben Journey verfügbar sind. Vermeiden Sie es, eine Aktion, die ein Feld direkt nach der Aktion **[!UICONTROL Profil aktualisieren]** liest, die es schreibt, zu platzieren, da der aktualisierte Wert möglicherweise noch nicht angezeigt wird.
 * Die Aktivität **[!UICONTROL Profil aktualisieren]** aktualisiert nur den [Profilspeicher](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de#profile-data-store){target="_blank"}, nicht den Data Lake.
 * Bis zu fünf Feld/Wert-Paare können in einer einzigen Aktion **[!UICONTROL Profil aktualisieren]** aktualisiert werden. Verwenden Sie die Schaltfläche **[!UICONTROL Weiteres Feld aktualisieren]**, um weitere Paare hinzuzufügen.

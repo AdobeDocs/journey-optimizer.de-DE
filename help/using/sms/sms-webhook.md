@@ -378,13 +378,13 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
    +++Payload-Beispiel
 
        „json
-       {
+       &lbrace;
        „inboundMessage“: &quot;{{inboundMessage}}&quot;,
        „profileNumber“: &quot;{{profileNumber}}&quot;,
        „requestId“: &quot;{{requestId}}&quot;,
        „originTimestamp“: &quot;{{originTimestamp}}&quot;,
        „inboundNumber“: &quot;{{inboundNumber}}&quot;
-       }
+       &rbrace;
        &quot;
    +++
 
@@ -417,15 +417,15 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
    +++Payload-Beispiel
 
        „json
-       {
+       &lbrace;
        „clientReference“: &quot;{{client_reference}}&quot;,
-       „status“: [
-       {
+       „status“: &lbrack;
+       &lbrace;
        „code“: &quot;{{failureCode}}&quot;,
        „status“: &quot;{{feedbackStatus}}&quot;
-       }
-       ]
-       }
+       &rbrace;
+       &rbrack;
+       &rbrace;
        &quot;
    
    +++

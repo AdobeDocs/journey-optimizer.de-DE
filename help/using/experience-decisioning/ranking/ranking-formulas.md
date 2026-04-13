@@ -97,7 +97,7 @@ Gehen Sie wie folgt vor, um Kriterien direkt über die Benutzeroberfläche zu de
 1. Geben Sie im Abschnitt **[!UICONTROL Kriterium 1]** die Entscheidungselemente an, auf die Sie einen Rangfolgenwert anwenden möchten, indem Sie Folgendes durchführen:
    * Wählen Sie ein [Entscheidungselement-Attribut](../items.md#attributes)
    * Logischen Operator auswählen
-   * Übereinstimmende Bedingung hinzufügen - Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten“ ](../context-data.md)
+   * Übereinstimmende Bedingung hinzufügen - Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten“ &#x200B;](../context-data.md)
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 

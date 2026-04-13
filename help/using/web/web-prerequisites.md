@@ -27,7 +27,7 @@ Sie müssen folgende Voraussetzungen erfüllen, um Web-Seiten in der Benutzerobe
 
 >[!IMPORTANT]
 >
->* Web-Kampagnen in [!DNL Journey Optimizer] sprechen neue Profile an, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl [Engagierbaren Profile](../audience/license-usage.md) was sich auf die Kosten auswirken kann, wenn die vertragliche Anzahl der von Ihnen erworbenen Engagierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Sie können die Anzahl der kontaktierbaren Profile im [Lizenznutzungs-Dashboard“ ](../audience/license-usage.md).
+>* Web-Kampagnen in [!DNL Journey Optimizer] sprechen neue Profile an, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl [Engagierbaren Profile](../audience/license-usage.md) was sich auf die Kosten auswirken kann, wenn die vertragliche Anzahl der von Ihnen erworbenen Engagierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Sie können die Anzahl der kontaktierbaren Profile im [Lizenznutzungs-Dashboard“ &#x200B;](../audience/license-usage.md).
 >
 >* Wenn pseudonyme Profile (nicht authentifizierte Besuchende) mit Ihren Web-Seiten angesprochen werden, sollten Sie eine Time-to-Live (TTL) für die automatische Profillöschung festlegen, um die Anzahl der ansprechbaren Profile und die damit verbundenen Kosten zu verwalten. [Weitere Informationen](../start/guardrails.md#profile-management-inbound)
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um die Browser-Erweiterung „Visual Editing Helper“ 
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-Der Visual Editing Helper von Adobe Experience Cloud wird jetzt automatisch aktiviert, wenn eine Website im Web-Designer von [!DNL Journey Optimizer] geöffnet wird, um die Inhaltserstellung zu unterstützen.[](web-visual-editor.md)
+Der Visual Editing Helper von Adobe Experience Cloud wird jetzt automatisch aktiviert, wenn eine Website im Web-Designer von [!DNL Journey Optimizer] geöffnet wird, um die Inhaltserstellung zu unterstützen.[&#128279;](web-visual-editor.md)
 
 Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet alle Einstellungen automatisch, einschließlich der SameSite-Cookie-Einstellungen.
 
