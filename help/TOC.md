@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e452542d5520970e00bd619304b636e7833743a2
+source-git-commit: 9903089f4a97ee9e427873e95fd1f0bac73b3542
 workflow-type: tm+mt
-source-wordcount: '3199'
+source-wordcount: '3205'
 ht-degree: 91%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 91%
       + [2024](using/rn/release-notes-2024.md)
       + {hide-from-toc}[2023](using/rn/release-notes-2023.md)
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
-      + [2021](using/rn/release-notes-2021.md)
+      + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [Dokumentation – Aktualisierungen](using/rn/documentation-updates.md)
    + {hide-from-toc}[Verbesserte Journey-Arbeitsfläche](using/rn/new-canvas.md)
 + Erste Schritte {#get-started}
@@ -279,6 +279,7 @@ ht-degree: 91%
             + [Inhalte von Grund auf gestalten](using/email/content-from-scratch.md)
             + [Importieren von Content](using/email/existing-content.md)
             + [Programmieren von eigenem Inhalt](using/email/code-content.md)
+            + [Bearbeiten mit dem erweiterten HTML-Editor](using/email/email-expert-mode.md)
             + [Verwenden von E-Mail-Vorlagen](using/email/use-email-templates.md)
             + [Nutzen von E-Mail-Designs](using/email/apply-email-themes.md)
             + [Anhängen von PDF-Dateien an E-Mails](using/email/pdf-attachments.md)
@@ -473,7 +474,6 @@ ht-degree: 91%
       + [Erstellen von Inhaltsvorlagen](using/content-management/create-content-templates.md)
       + [Bilder in E-Mail-Vorlagen konvertieren](using/content-management/image-to-html.md)
       + [Sperren von Inhalten in E-Mail-Vorlagen](using/content-management/content-locking.md)
-      + [E-Mail-Vorlagen im Expertenmodus bearbeiten](using/content-management/email-template-expert-mode.md)
       + [Testen von Inhaltsvorlagen](using/content-management/test-content-templates.md)
       + [Verwenden von Inhaltsvorlagen](using/content-management/use-content-templates.md)
    + Wiederverwendbare Inhaltsfragmente {#fragments}
@@ -505,6 +505,7 @@ ht-degree: 91%
       + [Arbeiten mit Dynamic Media](using/integrations/aem-dynamic.md)
       + [Arbeiten mit GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + {hide-from-toc}[Arbeiten mit Integrationen](using/integrations/external-sources.md)
+      + {hide-from-toc}[Arbeiten mit KI-Assistenten über MCP](using/integrations/ajo-mcp.md)
    + KI-Assistent für die Inhaltsgenerierung {#ai-assistant}
       + [KI-Assistent für die Inhaltsgenerierung](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Erste Schritte mit dem KI-Assistenten](using/content-management/gs-generative.md)
