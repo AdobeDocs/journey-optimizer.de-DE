@@ -10,14 +10,16 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: e179f5a503b93cbc01c812d8bcecaeb808560394
+source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
 workflow-type: tm+mt
-source-wordcount: '3257'
-ht-degree: 81%
+source-wordcount: '3380'
+ht-degree: 76%
 
 ---
 
 # Festlegen der Journey-Eigenschaften {#jo-properties}
+
+Verwenden Sie Journey-Eigenschaften, um globale Einstellungen für Ihren Journey zu konfigurieren, einschließlich Name, Eintrittsregeln, Zeitzone, Start- und Enddatum, Zeitüberschreitungsdauer, Ausstiegskriterien und Konfliktmanagement. Eigenschaften können in jeder Phase des Journey-Authorings über die rechte Leiste aufgerufen werden.
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
@@ -150,7 +152,7 @@ Die empfohlenen Werte liegen zwischen 1 und 30 Sekunden.
 
 Es wird empfohlen, unter **[!UICONTROL Timeout oder Fehler]** einen sehr kurzen Wert festzulegen, wenn Ihre Journey zeitempfindlich ist (z. B. als Reaktion auf den Echtzeit-Standort einer Person), da Sie Ihre Aktion nicht länger als einige Sekunden verzögern können. Wenn Ihre Journey weniger zeitkritisch ist, können Sie einen längeren Wert verwenden, um dem aufgerufenen System mehr Zeit zum Senden einer gültigen Antwort zu geben.
 
-Bei Journeys wird auch ein globaler Timeout verwendet, wie unten detailliert beschrieben.
+Journey verwenden auch eine maximale globale Wartezeit, wie unten beschrieben.
 
 ### Globaler Timeout der Journey {#global_timeout}
 
@@ -166,7 +168,7 @@ Aufgrund des Journey-Timeouts von 91 Tagen können wir, wenn der erneute Eintri
 
 Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn er oder sie noch genügend Zeit hat, um die Wartezeit vor Ablauf des 91-tägigen Timeouts der Journey zu erfüllen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/wait-activity.md).
 
-#### Häufig gestellte Fragen zur Time-to-Live (TTL) und zur Aufbewahrung von Daten {#timeout-faq}
+### Häufig gestellte Fragen zu Time-to-Live (TTL) und Datenspeicherung {#timeout-faq}
 
 Ab [!DNL Adobe Journey Optimizer] Version Juni 2024 wurde die globale Zeitüberschreitung bei Journey von 30 auf 91 Tage verschoben. Die Auswirkungen sind in den folgenden häufig gestellten Fragen aufgeführt:
 
@@ -263,7 +265,7 @@ Ab [!DNL Adobe Journey Optimizer] Version Juni 2024 wurde die globale Zeitübers
       <p>Was passiert mit einem laufenden Profil in einer vorherigen Journey-Version, die nach dem Launch der TTL-Erweiterung erneut veröffentlicht wird?</p>
     </td>
     <td>
-      <p>Für das Profil bleibt eine TTL von 30 Tagen (7 Tage für HIPAA) bestehen, ausgerichtet auf den ursprünglichen Veröffentlichungszeitpunkt der Journey. Bei wiederkehrenden Journeys mit erzwungenem erneuten Eintritt entspricht die TTL dem Wiederholungsintervall.</p>
+      <p>Das Profil verwaltet eine TTL von 30 Tagen (7 Tage für HIPAA), abgestimmt auf die Veröffentlichungszeit der Original-Journey-Version. Bei wiederkehrenden Journeys mit erzwungenem erneuten Eintritt entspricht die TTL dem Wiederholungsintervall.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -297,7 +299,7 @@ Ab [!DNL Adobe Journey Optimizer] Version Juni 2024 wurde die globale Zeitübers
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="Zusammenführungsrichtlinie"
->abstract="Die Zusammenführungsrichtlinie wird automatisch basierend auf Ihrem ausgewählten Ereignis oder Ihrer ausgewählten Zielgruppe abgerufen. Diese Zusammenführungsrichtlinie wird in bis zum gesamten Journey verwendet."
+>abstract="Die Zusammenführungsrichtlinie wird automatisch basierend auf Ihrem ausgewählten Ereignis oder Ihrer ausgewählten Zielgruppe abgerufen. Diese Zusammenführungsrichtlinie wird auf der gesamten Journey verwendet."
 
 [!DNL Adobe Journey Optimizer] verwendet Zusammenführungsrichtlinien beim Abrufen von Profildaten aus [!DNL Adobe Experience Platform]. Je nach Journey-Typ werden unterschiedliche Zusammenführungsrichtlinien verwendet:
 
@@ -322,7 +324,7 @@ Weitere Informationen zu Zusammenführungsrichtlinien finden Sie unter [[!DNL Ad
 
 ### Kriterien für den Journey-Ausstieg {#exit-criteria-desc}
 
-Durch Hinzufügen von Ausstiegskriterien sorgen Sie dafür, dass Profile die Journey verlassen, sobald ein Ereignis eintritt (z. B. ein Kauf) oder sie sich für eine Zielgruppe qualifizieren. Dadurch wird verhindert, dass Benutzende weitere Nachrichten von der Journey erhalten.
+Durch Hinzufügen von Beendigungskriterien veranlassen Sie die Profile, die Journey zu verlassen, sobald ein Ereignis eintritt (z. B. Kauf) oder sie für eine Zielgruppe qualifiziert sind. Dadurch wird verhindert, dass Benutzende weitere Nachrichten von der Journey erhalten.
 
 Sie können Profile aus einer Journey entfernen, wenn sie nicht mehr dem Zweck der Journey entsprechen. Dies kann durch **globale Ausstiegskriterien** erreicht werden, die eng mit dem Ziel-Management verbunden sind.
 
@@ -334,7 +336,7 @@ Sie können Profile aus einer Journey entfernen, wenn sie nicht mehr dem Zweck d
 
 Eine Marketing-Fachperson hat eine Werbe-Journey, die eine Reihe von Kommunikationsmaßnahmen umfasst. Jede dieser Kommunikationsmaßnahmen zielt darauf ab, die Kundschaft zum Kauf zu bewegen. Sobald der Kauf getätigt wurde, sollte die Kundin bzw. der Kunde die restlichen Nachrichten der Serie nicht mehr erhalten. Durch die Definition von Ausstiegskriterien werden alle Profile, die einen Kauf getätigt haben, aus der Journey entfernt.
 
-#### Konfiguration und Verwendung {#exit-criteria-config}
+### Konfiguration und Verwendung {#exit-criteria-config}
 
 Ausstiegskriterien werden auf Journey-Ebene festgelegt. Eine Journey kann mehrere Ausstiegskriterien haben. Wenn Sie mehrere Ausstiegskriterien festgelegt haben, erfolgt die Auswertung von oben nach unten mit einer `OR`-Logik. Wenn Sie also Ausstiegskriterien A und Ausstiegskriterien B haben, wird es als A **ODER** B ausgewertet. Die Kriterien werden bei jedem Schritt der Journey ausgewertet.
 
@@ -351,7 +353,7 @@ Um ein Ausstiegskriterium zu **erstellen**, gehen Sie folgendermaßen vor:
    * Für Ausstiegskriterien, die auf einem Ereignis basieren, wie z. B. das Herunterladen einer App oder das Hinzufügen eines Produkts zu einem Warenkorb, wählen Sie nur ein einziges Ereignis.
    * Für Ausstiegskriterien, die auf einer Zielgruppe basieren, wie z. B. eine Zielgruppe, die überprüft, ob eine Person in den letzten 24 Stunden einen Kauf getätigt hat, wählen Sie eine Zielgruppe. Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien, die eine Zielgruppe verwenden, wirksam werden.
 
-Sie können mehrere Ausstiegskriterien hinzufügen.
+Sie können mehrere Beendigungskriterien hinzufügen. Das Ausstiegskriterium ist nun aktiviert und wird bei jedem Schritt des Journey ausgewertet.
 
 ![Panel für Ausstiegskriterien, das die Zielgruppenbedingungen für das Beenden der Journey anzeigt](assets/exitcriteria-sample.png){width="40%" align="left"}
 
@@ -413,6 +415,15 @@ Im Abschnitt **[!UICONTROL Konflikt-Management]** in den Eigenschaften der Journ
 
 * Weisen Sie der Journey einen **Prioritätswert** von 0 bis 100 zu. Eine höhere Zahl bedeutet eine höhere Priorität. Der hier eingegebene Prioritätswert wird von allen eingehenden Aktionen übernommen (beispielsweise In-App-Aktionen), die in dieser Journey enthalten sind. [Informationen zum Arbeiten mit Prioritätswerten](../conflict-prioritization/priority-scores.md)
 
-  In Fällen, in denen dieselbe eingehende Kanalkonfiguration in anderen Kampagnen oder Journeys verwendet wird, wird der Empfängerin bzw. dem Empfänger die eingehende Aktion mit der höchsten Priorität angezeigt. Wenn mehrere Journeys oder Kampagnen denselben Wert aufweisen, wird das Element ausgewählt, das zuletzt geändert wurde.
+  In Fällen, in denen dieselbe eingehende Kanalkonfiguration in anderen Kampagnen oder Journeys verwendet wird, wird der Empfängerin bzw. dem Empfänger die eingehende Aktion mit der höchsten Priorität angezeigt. Wenn mehrere Journey oder Kampagnen dasselbe Ergebnis aufweisen, wird das zuletzt geänderte Element ausgewählt.
 
 * **Zeigen Sie Konflikte** mit anderen Journeys, Kampagnen oder Kanalkonfigurationen an. Wenn Sie Überschneidungen bei Zielgruppe, Start- und Enddatum, Kanalkonfiguration oder Kanal oder Regelsatz identifizieren möchten, können Sie hier potenzielle Konflikte anzeigen. [Informationen zum Identifizieren potenzieller Konflikte in Journeys und Kampagnen](../conflict-prioritization/conflicts.md)
+
+## Verwandte Themen {#related-topics}
+
+* [Verwaltung des Profileintritts](entry-management.md) - Konfigurieren, wie Profile in Journey eintreten und erneut eintreten
+* [Leitfaden zu Eintritts- und Ausstiegskriterien für Journeys](entry-exit-criteria-guide.md) – Vollständiger Leitfaden mit Beispielen und Best Practices aus der Praxis
+* [Wie Journey enden](end-journey.md) - Verstehen Sie die natürliche Journey-Vervollständigung und den Profilaustritt
+* [Journey anhalten](journey-pause.md) - Anhalten und Fortsetzen von Journey mit Beendigungskriterien für Profilattribute
+* [Zeitzonenverwaltung](timezone-management.md) - Konfigurieren von Journey- und Profil-Zeitzonen
+* [Konfliktmanagement und Priorisierung](../conflict-prioritization/conflicts.md) - Identifizieren und Beheben von Konflikten in Journey und Kampagnen
