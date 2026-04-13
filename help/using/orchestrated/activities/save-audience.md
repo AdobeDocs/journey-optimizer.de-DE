@@ -5,10 +5,10 @@ title: Verwenden der Aktivität „Zielgruppe speichern“
 description: Informationen zur Verwendung der Aktivität „Zielgruppe speichern“ in einer orchestrierten Kampagne
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 93%
+source-wordcount: '596'
+ht-degree: 87%
 
 ---
 
@@ -54,6 +54,10 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Zielgrup
 1. Schließen Sie die Einrichtung ab, indem Sie die orchestrierte Kampagne speichern und veröffentlichen. Dadurch wird Ihre Zielgruppe generiert und gespeichert.
 
 1. Veröffentlichen Sie die Kampagne für die Zielgruppe, die erstellt oder ersetzt werden soll, da die Aktivität **[!UICONTROL Zielgruppe speichern]** nicht ausgeführt wird, während sich die Kampagne im **[!UICONTROL Entwurfsmodus]** befindet.
+
+>[!NOTE]
+>
+>Zum Zeitpunkt der Veröffentlichung werden **[!UICONTROL Zielgruppe speichern]**-Aktivitäten immer vor den Nachrichtenaktivitäten im Workflow ausgeführt. Die Audience-Shell wird erstellt und Profile beginnen mit der Aufnahme in das Audience Portal, bevor die Verarbeitung einer Kanalaktivität beginnt. [Erfahren Sie mehr über die Ausführungssequenz zur Veröffentlichungszeit](../start-monitor-campaigns.md#publication-sequence)
 
 Der Inhalt der gespeicherten Zielgruppe ist dann in der Detailansicht der Zielgruppe verfügbar. Diese kann über das Menü **[!UICONTROL Zielgruppen]** aufgerufen oder bei der Zielgruppenbestimmung ausgewählt werden, z. B. mit der Aktivität **[!UICONTROL Zielgruppe lesen]**.
 
