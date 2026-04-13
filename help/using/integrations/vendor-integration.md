@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: Integration, Anbieter, Drittanbieter
-source-git-commit: 3733c9ab401f85b22e1d6e07dbf4db535ff8a96d
+source-git-commit: f3e3a2d86a03a442494ea712509eb2636f851968
 workflow-type: tm+mt
 source-wordcount: '9157'
 ht-degree: 7%
@@ -1154,7 +1154,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Versandaufrufe erfolgen häufig **POST** mit einem JSON-Text. Konfigurieren Sie OAuth pro [Target-Authentifizierung](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/configure-authentication){target="_blank"} fügen Sie eine Beispielantwort ein, ordnen Sie Felder zu und testen Sie unter dem erwarteten Volumen.
+1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Versandaufrufe erfolgen häufig **POST** mit einem JSON-Text. Konfigurieren Sie OAuth pro [Target-Authentifizierung](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"} fügen Sie eine Beispielantwort ein, ordnen Sie Felder zu und testen Sie unter dem erwarteten Volumen.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -1209,7 +1209,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 **Authentifizierung**
 
-Siehe [Target-Authentifizierungskonfiguration](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/configure-authentication) und fügen Sie JSON zur Payload hinzu.
+Siehe [Target-Authentifizierungskonfiguration](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) und fügen Sie JSON zur Payload hinzu.
 
 **Anfrage-Payload**
 
@@ -1671,7 +1671,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispiele für Integrationsfelder. Weitere Informationen [&#x200B; OAuth 2.0-Payload finden Sie in der &#x200B;](https://developer.bynder.com/){target="_blank"} zur Bynder-API .
+Beispiele für Integrationsfelder. Weitere Informationen [ OAuth 2.0-Payload finden Sie in der ](https://developer.bynder.com/){target="_blank"} zur Bynder-API .
 
 | Feld | Wert |
 | --- | --- |
@@ -2075,7 +2075,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispiele für Integrationsfelder. Versionierung [&#x200B; Zugriffstoken finden Sie unter &#x200B;](https://developers.facebook.com/docs/graph-api){target="_blank"}Graph-API“.
+Beispiele für Integrationsfelder. Versionierung [ Zugriffstoken finden Sie unter ](https://developers.facebook.com/docs/graph-api){target="_blank"}Graph-API“.
 
 | Feld | Wert |
 | --- | --- |
