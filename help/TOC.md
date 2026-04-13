@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 6645910a92c963ab99e786040cb4323789a95a68
 workflow-type: tm+mt
-source-wordcount: '3194'
+source-wordcount: '3200'
 ht-degree: 91%
 
 ---
@@ -504,6 +504,7 @@ ht-degree: 91%
       + {hide-from-toc}[Countdown-Timer einfügen](using/integrations/countdown.md)
       + [Arbeiten mit Dynamic Media](using/integrations/aem-dynamic.md)
       + [Arbeiten mit GenStudio for Performance Marketing](using/integrations/genstudio.md)
+      + {hide-from-toc}[Arbeiten mit KI-Assistenten über MCP](using/integrations/ajo-mcp.md)
       + {hide-from-toc}[Arbeiten mit Integrationen](using/integrations/external-sources.md)
    + KI-Assistent für die Inhaltsgenerierung {#ai-assistant}
       + [KI-Assistent für die Inhaltsgenerierung](/help/rp_landing_pages/ai-assistant-landing-page.md)
