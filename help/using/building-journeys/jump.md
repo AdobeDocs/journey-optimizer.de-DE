@@ -94,7 +94,7 @@ Erstellen Sie jede Phase als separate Journey in Journey Optimizer und verwenden
 
 >[!TIP]
 >
->Eine ausführliche Anleitung zu diesem Ansatz finden Sie unter [Best Practices für fortgeschrittene Journey in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Eine ausführliche Anleitung zu diesem Ansatz finden Sie unter [Best Practices für fortgeschrittene Journey in Journey Optimizer](https://experienceleague.adobe.com/de/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 ## Konfigurieren der Sprungaktivität {#jump-configure}
 
