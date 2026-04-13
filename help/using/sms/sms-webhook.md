@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2721'
 ht-degree: 9%
 
 ---
@@ -377,15 +377,16 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
 
    +++Payload-Beispiel
 
-       „json
-       &lbrace;
-       „inboundMessage“: &quot;{{inboundMessage}}&quot;,
-       „profileNumber“: &quot;{{profileNumber}}&quot;,
-       „requestId“: &quot;{{requestId}}&quot;,
-       „originTimestamp“: &quot;{{originTimestamp}}&quot;,
-       „inboundNumber“: &quot;{{inboundNumber}}&quot;
-       &rbrace;
-       &quot;
+   ```json
+   {
+   "inboundMessage": "{{inboundMessage}}",
+   "profileNumber": "{{profileNumber}}",
+   "requestId": "{{requestId}}",
+   "originTimestamp": "{{originTimestamp}}",
+   "inboundNumber": "{{inboundNumber}}"
+   }
+   ```
+
    +++
 
 1. Wenn Sie Ihre JSON-Datei erstellt haben, klicken Sie auf **[!UICONTROL Payload-Editor anzeigen]** kopieren Sie dann Ihre JSON-Payload in den Editor und speichern Sie sie.
@@ -416,18 +417,18 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
 
    +++Payload-Beispiel
 
-       „json
-       &lbrace;
-       „clientReference“: &quot;{{client_reference}}&quot;,
-       „status“: &lbrack;
-       &lbrace;
-       „code“: &quot;{{failureCode}}&quot;,
-       „status“: &quot;{{feedbackStatus}}&quot;
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       &quot;
-   
+   ```json
+   {
+   "clientReference": "{{client_reference}}",
+   "statuses": [
+       {
+           "code": "{{failureCode}}",
+           "status": "{{feedbackStatus}}"
+       }
+   ]
+   }
+   ```
+
    +++
 
 1. Klicken Sie **[!UICONTROL Payload-Editor anzeigen]** kopieren Sie dann Ihre JSON-Payload in den Editor und speichern Sie sie.
