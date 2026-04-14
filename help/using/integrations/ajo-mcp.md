@@ -5,12 +5,13 @@ title: Arbeiten mit KI-Assistenten über MCP
 description: Erfahren Sie, wie Sie Adobe Journey Optimizer mithilfe des MCP-Servers mit KI-Assistenten verbinden
 feature: Integrations
 topic: Content Management, Artificial Intelligence
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
+hide: true
+source-git-commit: 03ac391f57c271416506b1213c4b8da5f06b32d5
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '793'
 ht-degree: 1%
 
 ---
@@ -19,7 +20,9 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Der [!DNL Adobe Journey Optimizer] MCP-Server ist derzeit nur in **Claude Web** und **Claude Desktop** verfügbar.
+>Der [!DNL Adobe Journey Optimizer] MCP-Server ist derzeit nur in **Claude Web** und **Claude Desktop** verfügbar. In zukünftigen Versionen wird Unterstützung für weitere MCP-kompatible Anwendungen hinzugefügt.
+
+Die [!DNL Adobe Journey Optimizer] MCP-Integration ermöglicht die Abfrage von Kampagnen, Journey und Angeboten mithilfe von Eingabeaufforderungen in einfacher Sprache - ohne dass API-Aufrufe verfasst oder durch Produktbildschirme navigiert werden müssen. Auf dieser Seite wird erläutert, wie die Integration funktioniert, was Sie damit tun können und wie Sie beginnen können.
 
 ## Was ist das Modell-Kontextprotokoll? {#mcp-overview}
 
@@ -29,7 +32,7 @@ Marketing- und Kundenerlebnis-Teams verlassen sich zunehmend auf Chat-basierte P
 
 ## Wichtigste Funktionen {#mcp-capabilities}
 
-Mit dem [!DNL Adobe Journey Optimizer] MCP-Server können Sie [!DNL Adobe Journey Optimizer] Journey, Kampagnen und Angebote direkt von Ihrem KI-Assistenten aus überprüfen, zusammenfassen und Fehler beheben. Die Abruf-APIs von [!DNL Adobe Journey Optimizer] werden in Nur-Sprache-Antworten umgewandelt, sodass Sie:
+Mit dem [!DNL Adobe Journey Optimizer] MCP-Server können Sie Journey, Kampagnen und Angebote direkt von Ihrem KI-Assistenten aus überprüfen, zusammenfassen und Fehler beheben. Alle Vorgänge sind **schreibgeschützt** - Die MCP-Serveroberflächen rufen APIs als Klarsprachenantworten ab, damit Sie Folgendes tun können:
 
 * **Grundlegendes zur Journey-**) - Eine menschenlesbare Zusammenfassung aller Verzweigungen, Bedingungen und Aktionen auf der Journey.
 * **Kampagnenbereitschaft überprüfen** - Blocker identifizieren, die die Veröffentlichung einer Kampagne verhindern.
@@ -61,7 +64,13 @@ Stellen Sie vor dem Anschließen des [!DNL Adobe Journey Optimizer] MCP-Servers 
 
 >[!NOTE]
 >
->Detaillierte Einrichtungsschritte werden hinzugefügt, sobald die Integration allgemein verfügbar ist. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um frühzeitig Zugang zu erhalten.
+>Diese Integration befindet sich in Beta. Detaillierte Einrichtungsschritte werden veröffentlicht, sobald sie die allgemeine Verfügbarkeit erreichen. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um frühzeitig Zugriff auf zu erhalten und Konfigurationsanweisungen zu erhalten.
+
+Während der Beta-Phase wird Ihr Adobe-Support-Mitarbeiter Folgendes bereitstellen:
+
+* Die für Ihre Organisation spezifische MCP Server-Endpunkt-URL.
+* Authentifizierungsdaten für die Verbindung Ihres KI-Assistenten mit [!DNL Adobe Journey Optimizer].
+* Anleitung zum Konfigurieren des MCP-Servers in Claude Desktop oder Claude Web.
 
 <!--
 Step-by-step connection instructions to be added here, including:
@@ -90,4 +99,14 @@ Nein. Der MCP-Server ist sowohl für Marketing- als auch für technische Persona
 +++Werden meine Daten an den KI-Assistentenanbieter gesendet?
 
 Wenn Sie eine Eingabeaufforderung senden, kann der KI-Assistent relevanten Kontext (einschließlich [!DNL Adobe Journey Optimizer] vom MCP-Server zurückgegebenen Daten) zur Verarbeitung an sein Modell senden. Lesen Sie die Datenschutz- und Datenverarbeitungsrichtlinien Ihres KI-Assistentenanbieters, bevor Sie eine Verbindung zu Produktionsdaten herstellen.
++++
+
++++Welche Berechtigungen benötige ich in [!DNL Adobe Journey Optimizer]?
+
+Sie benötigen mindestens **Anzeigen**-Berechtigungen für die Objekte, die Sie abfragen möchten - Kampagnen, Journey oder Angebote. Es sind keine Schreibberechtigungen erforderlich, da der MCP-Server nur Lesevorgänge ausführt. Wenden Sie sich an Ihren [!DNL Adobe Journey Optimizer], wenn Sie sich bezüglich Ihrer aktuellen Zugriffsebene nicht sicher sind.
++++
+
++++Kann ich den MCP-Server in Sandbox-Umgebungen verwenden?
+
+Ja. Der MCP-Server berücksichtigt Ihre [!DNL Adobe Journey Optimizer] Sandbox-Konfiguration. Sie können Sandbox-spezifische Daten abfragen, indem Sie die Sandbox in Ihrer Eingabeaufforderung angeben oder eine Verbindung mit Anmeldeinformationen herstellen, die für eine bestimmte Sandbox gelten.
 +++
