@@ -6,7 +6,7 @@ description: Journeys
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
 hide: true
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Mit Journeys in Adobe Journey Optimizer können Sie personalisierte, mehrstufige
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Journeys in Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Erfahren Sie, wie Sie mit den intuitiven Drag-and-Drop-Tools und den kontextuell
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Umfassende Anleitung zum Erstellen und Verwalten von Journeys
 
@@ -41,7 +41,7 @@ Schrittweise Anleitungen zum Entwerfen, Testen, Veröffentlichen und Tracking vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Umfassendes Handbuch zum Verwalten von Journeys
 
@@ -51,7 +51,7 @@ Verwalten Sie Customer Journeys effizient mit Tools für Filterung, Profilverwal
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Aktivitäten in Adobe Journey Optimizer
 
@@ -61,7 +61,7 @@ Entdecken Sie, wie Sie Aktivitäten wie Trigger, Entscheidungsschritte, Zielgrup
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Erstellen von Ausdrücken in Adobe Journey Optimizer
 
@@ -71,7 +71,7 @@ Meistern Sie die Erstellung von Ausdrücken für dynamische Workflows, Datenmani
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Praktische Anwendungsfälle für Adobe Journey Optimizer
 

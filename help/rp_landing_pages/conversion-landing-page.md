@@ -6,7 +6,7 @@ description: Konversion
 redpen-status: CREATED_||_2025-08-11_20-13-12
 exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
 hide: true
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Der Abschnitt „Konvertierung“ in Adobe Journey Optimizer ermöglicht es Ihne
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toBool“
 
@@ -31,7 +31,7 @@ Konvertieren Sie mithilfe der Funktion „toBool“ verschiedene Datentypen in b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDateOnly“
 
@@ -41,7 +41,7 @@ Konvertieren Sie mit der Funktion „toDateOnly“ Datumsdarstellungen in den Ty
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDateTime“
 
@@ -51,7 +51,7 @@ Konvertieren Sie mithilfe der Funktion „toDateTime“ verschiedene Eingaben in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDateTimeOnly“
 
@@ -61,7 +61,7 @@ Konvertieren Sie mithilfe der Funktion „toDateTimeOnly“ einen Wert ohne Zeit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDecimal“
 
@@ -71,7 +71,7 @@ Konvertieren Sie mithilfe der Funktion „toDecimal“ verschiedene Datentypen i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDuration“
 

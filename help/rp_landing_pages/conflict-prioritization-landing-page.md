@@ -6,7 +6,7 @@ description: Konflikt-Management und Priorisierung
 hide: true
 redpen-status: CREATED_||_2025-08-11_20-29-02
 exl-id: 02176308-efeb-49dc-88a6-bc886dc8fc9b
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Das Konflikt-Management und die Priorisierung in Adobe Journey Optimizer helfen 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit dem Konflikt-Management
 
@@ -31,7 +31,7 @@ Erfahren Sie, wie Sie Tools wie Konflikterkennung, Prioritätswerte und Regelsä
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Identifizieren potenzieller Konflikte
 
@@ -41,7 +41,7 @@ Entdecken Sie Methoden zur Erkennung und Lösung von Kampagnen- und Journey-Konf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Zuweisen von Prioritätswerten zu Journeys und Kampagnen
 
@@ -51,7 +51,7 @@ Erfahren Sie, wie Sie Journeys und Kampagnen numerische Prioritätswerte zuweise
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Festlegen von Regeln für die Nachrichten- und Journey-Begrenzung
 

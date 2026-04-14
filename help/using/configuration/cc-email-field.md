@@ -11,7 +11,7 @@ hide: true
 keywords: CC, Kopie, E-Mail, Kanalkonfiguration, E-Mail-Kopfzeilen, BCC
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 13%
@@ -85,7 +85,7 @@ Wenn Sie [E-Mail-Konfiguration bearbeiten](channel-surfaces.md#edit-channel-surf
 
 >[!CAUTION]
 >
->Beim Bearbeiten einer vorhandenen E-Mail-Kanal-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zum Feld **[!UICONTROL CC-E-Mail]** hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ &#x200B;](channel-surfaces.md#create-channel-surface).
+>Beim Bearbeiten einer vorhandenen E-Mail-Kanal-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zum Feld **[!UICONTROL CC-E-Mail]** hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ ](channel-surfaces.md#create-channel-surface).
 
 ## Empfehlungen und Einschränkungen {#cc-recommendations-limitations}
 
@@ -95,7 +95,7 @@ Wenn Sie [E-Mail-Konfiguration bearbeiten](channel-surfaces.md#edit-channel-surf
 
 * **Posteingangsverwaltung:** Ihr Posteingang, der für CC verwendet wird, sollte in Bezug auf Speicherplatz und Versand ordnungsgemäß verwaltet werden. Wenn der Posteingang Bounces zurückgibt, werden einige E-Mails möglicherweise nicht empfangen.
 
-* **Versandzeitpunkt:** Nachrichten können vor den Zielgruppenempfängerinnen und -empfängern an die CC-E-Mail-Adresse gesendet werden. CC-Nachrichten können auch dann gesendet werden, wenn es bei den ursprünglichen Nachrichten zu einem „Bounce[&#x200B; gekommen &#x200B;](../reports/suppression-list.md#delivery-failures).
+* **Versandzeitpunkt:** Nachrichten können vor den Zielgruppenempfängerinnen und -empfängern an die CC-E-Mail-Adresse gesendet werden. CC-Nachrichten können auch dann gesendet werden, wenn es bei den ursprünglichen Nachrichten zu einem „Bounce[ gekommen ](../reports/suppression-list.md#delivery-failures).
 
 * **Reporting:** Öffnungen, Klicks und andere Interaktionen von CC-Empfängern sind in E-Mail-Reporting-Metriken enthalten. Öffnungen oder Klicks von CC-Empfängern führen daher zu falschen Berechnungen in [Berichten](../reports/report-gs-cja.md).
 
