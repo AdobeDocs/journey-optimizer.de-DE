@@ -7,22 +7,22 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
+source-git-commit: d03d69a858be99e83c563d8577847b6a60032274
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 54%
+source-wordcount: '759'
+ht-degree: 30%
 
 ---
 
 # Nutzen von Fragmenten in Entscheidungsrichtlinien {#fragments}
 
-Wenn Ihre Entscheidungsrichtlinie Entscheidungselemente einschließlich Fragmenten enthält, können Sie diese Fragmente im Entscheidungsrichtlinien-Code nutzen. [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
+Wenn Ihre Entscheidungsrichtlinie Entscheidungselemente einschließlich Fragmenten enthält, können Sie diese Fragmente beim Verfassen einer Nachricht innerhalb der Entscheidungsrichtlinie nutzen. [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
 >Diese Funktion ist in begrenzter Verfügbarkeit für die Kanäle **Code-basiertes Erlebnis** und **E-Mail** verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern.
 
-Angenommen, Sie möchten verschiedene Inhalte für mehrere Mobilgerätemodelle anzeigen. Stellen Sie sicher, dass Sie Fragmente, die diesen Geräten entsprechen, zu dem Entscheidungselement hinzugefügt haben, das Sie in der Entscheidungsrichtlinie verwenden. [Weitere Informationen](items.md#attributes).
+Angenommen, Sie möchten verschiedene Inhalte für mehrere Mobilgerätemodelle anzeigen. Fügen Sie die angegebenen Fragmente, die sich jeweils auf ein anderes Telefonmodell beziehen, zu dem Entscheidungselement hinzu, das Sie in der Entscheidungsrichtlinie verwenden. [Weitere Informationen](items.md#attributes).
 
 ![Abschnitt „Fragmente“ eines Entscheidungselements mit Fragmentverweisen und Platzierungsschlüsseln.](assets/item-fragments.png){width=70%}
 
@@ -36,7 +36,7 @@ Kopieren Sie einfach den unten stehenden Code-Block in den Entscheidungsrichtlin
 
 ```handlebars
 {% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
-{{fragment id = variable}}
+{{fragment id = variable required=false}}
 ```
 
 >[!TAB Befolgen Sie die detaillierten Schritte]
@@ -63,19 +63,21 @@ Die Fragment-ID und der Referenzschlüssel werden später im Abschnitt **[!UICON
 
 >[!WARNING]
 >
->Wenn der Fragmentschlüssel falsch oder der Fragmentinhalt ungültig ist, schlägt das Rendern fehl und verursacht einen Fehler im Edge-Aufruf.
+>Wenn der Fragmentschlüssel falsch ist oder der Fragmentinhalt ungültig ist, kann das Rendering fehlschlagen und einen Fehler im Edge-Aufruf verursachen.
+>
+>Um Fehler zu vermeiden, wenn ein Fragment vorübergehend nicht verfügbar ist, wird das `required=false`-Flag verwendet, sodass das Fragment stattdessen übersprungen wird. [Weitere Informationen](#temporary-unavailable-fragments)
 
-## Leitlinien bei der Verwendung von Fragmenten {#fragments-guardrails}
+## Verwendung und Leitlinien {#fragments-guardrails}
 
-**Simulieren von Inhalts- und Ausdrucksfragmenten in E-Mails**
+### Simulieren von Inhalts- und Ausdrucksfragmenten in E-Mails {#simulate-content-expression-fragments}
 
 Für den **E-Mail**-Kanal werden mit einem Entscheidungselement verknüpfte Ausdrucksfragmente korrekt angezeigt, wenn Sie **[!UICONTROL Testversand durchführen]** oder die Kampagne aktiviert wird. In **[!UICONTROL Inhalt simulieren]** wird das Ausdrucksfragment jedoch nicht aus dem Entscheidungselement angezeigt.
 
-**Visuelle Fragmente und Entscheidungselemente in E-Mails**
+### Visuelle Fragmente und Entscheidungselemente in E-Mails {#visual-fragments-decision-items}
 
 Sie können einem Entscheidungselement kein **[!UICONTROL visuelles Fragment]** zuweisen, nur **Ausdrucksfragmente** werden in diesem Kontext unterstützt.
 
-**Entscheidungselement- und Kontextattribute**
+### Entscheidungselement- und Kontextattribute {#decision-item-context-attributes}
 
 Entscheidungselementattribute und kontextuelle Attribute werden in [!DNL Journey Optimizer] Fragmenten nicht standardmäßig unterstützt. Sie können jedoch stattdessen globale Variablen verwenden, wie unten beschrieben.
 
@@ -96,7 +98,7 @@ Angenommen, Sie möchten die Variable *sport* in Ihrem Fragment verwenden.
    {{/each}}
    ```
 
-**Inhaltsvalidierung von Entscheidungselementfragmenten**
+### Validierung des Inhalts eines Entscheidungsfragments {#fragment-content-validation}
 
 * Aufgrund der Dynamik dieser Fragmente wird bei Verwendung in einer Kampagne die Nachrichtenvalidierung bei der Erstellung von Kampagneninhalten für Fragmente übersprungen, auf die in Entscheidungselementen verwiesen wird.
 
@@ -105,3 +107,19 @@ Angenommen, Sie möchten die Variable *sport* in Ihrem Fragment verwenden.
 * Bei Ausdrucksfragmenten vom Typ JSON wird der Inhalt beim Speichern des Fragments syntaktisch validiert. Validierungsfehler werden als Warnhinweise angezeigt.
 
 Zur Laufzeit wird der Kampagneninhalt (einschließlich des Fragmentinhalts aus Entscheidungselementen) validiert. Im Falle eines Validierungsfehlers wird die Kampagne nicht gerendert.
+
+### Vorübergehend nicht verfügbare Fragmente werden übersprungen {#temporary-unavailable-fragments}
+
+Wenn Journey oder Kampagnen auf Fragmente verweisen, die an Entscheidungselemente angehängt sind, kann es zu kurzen Synchronisierungsverzögerungen kommen, bevor aktualisierte Fragmente in Edge verfügbar sind.
+
+Um Fehler zu vermeiden, wenn ein Fragment vorübergehend nicht verfügbar ist, ist für Fragmente jetzt das `required`-Flag standardmäßig auf `false` festgelegt, sodass sie übersprungen werden, anstatt einen Journey- oder Kampagnenfehler zu verursachen.
+
+Das bedeutet, dass ein Fragment einfach ignoriert wird, wenn es vorübergehend in Edge nicht verfügbar ist. Wenn das Fragment verfügbar ist, wird es normal gerendert.
+
+**Beispiel**
+
+Wenn Ihre Entscheidungsrichtlinie für zwei Angebote qualifiziert ist und jedes ein Fragment hat - z. B. „20 % Rabatt“ und „30 % Rabatt“ - und das zweite Fragment vorübergehend nicht verfügbar ist, mit `required=false` das System das verfügbare Angebot rendert (20 % Rabatt) und das andere Fragment (30 % Rabatt) überspringt, anstatt die Journey oder Kampagne fehlschlagen zu lassen. Dies erhöht die Zuverlässigkeit bei der Synchronisierung von Inhalten.
+
+>[!NOTE]
+>
+>Sie können ein Fragment weiterhin als obligatorisch markieren, indem Sie die `required`-Markierung auf `true` setzen. Wenn ein Fragment jedoch vorübergehend fehlt, kann dies dazu führen, dass das Journey- oder Kampagnen-Rendering fehlschlägt.

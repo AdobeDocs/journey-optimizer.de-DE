@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: e13b870022fa168da4ee0643dbefad1f99f5f6fa
 workflow-type: tm+mt
-source-wordcount: '2159'
-ht-degree: 88%
+source-wordcount: '2185'
+ht-degree: 87%
 
 ---
 
@@ -53,6 +53,8 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
    >[!AVAILABILITY]
    >
    >Diese Funktion ist in begrenzter Verfügbarkeit für die Kanäle **Code-basiertes Erlebnis** und **E-Mail** verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern.
+
+   Wenn Sie diese Fragmente in Ihren Entscheidungsrichtlinien verwenden, können Sie ein Fragment optional machen, sodass es übersprungen wird, wenn es vorübergehend in Edge nicht verfügbar ist. [Weitere Informationen](fragments-decision-policies.md#optional-fragments)
 
 1. Geben Sie benutzerdefinierte Attribute an (optional). Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente definiert. [Erfahren Sie, wie Sie mit Vorlagen arbeiten](catalogs.md)
 
