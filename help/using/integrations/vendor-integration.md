@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: Integration, Anbieter, Drittanbieter
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '9157'
 ht-degree: 7%
@@ -47,6 +47,7 @@ Es gelten die folgenden Voraussetzungen:
 
 * Inhalte mit Zugriff auf die Bereitstellungs-API und einem leseorientierten API-Schlüssel
 * Löschen von Inhaltstypen und Feld-IDs; Administratorzugriff in Journey Optimizer zum Erstellen von Integrationen.
+
 
 Die folgenden Einschränkungen und Ausschlüsse gelten:
 
