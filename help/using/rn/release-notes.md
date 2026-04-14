@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: 7529370ed8308dea4ab39aaf6b7f82f4982933ca
 workflow-type: tm+mt
 source-wordcount: '2482'
 ht-degree: 21%
@@ -129,8 +129,6 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 ### Verbesserungen {#april-26-improv}
 
-#### Journey-Pfadoptimierung
-
 #### E-Mail-Design
 
 * **Erweiterter HTML-Editor für E-Mail** - Im erweiterten HTML-Modus können Sie die HTML-Quelle Ihres Inhalts in der E-Mail-Designer bearbeiten, erweiterte Ausdrücke (wie Bedingungen) in der Quelle hinzufügen und zwischen HTML- und Desktop-Ansicht wechseln, ohne Ihre Änderungen zu verlieren.
@@ -138,6 +136,8 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
   Diese Funktion war bisher nur für E-Mail-Inhaltsvorlagen verfügbar und wird jetzt zusätzlich zu E-Mail **Inhaltsvorlagen für E-Mail-**-Inhalte in der E-Mail-Designer bereitgestellt (z. B. E-Mails, die in Journey und Kampagnen verfasst wurden). Sie ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten. [Weitere Informationen](../email/email-expert-mode.md)
 
   Verfügbarkeitsdatum: Freitag, 9. April 2026
+
+#### Journey-Pfadoptimierung
 
 * **Experimenttyp** - Bei der Konfiguration eines Pfadexperiments können Sie jetzt zwischen A/B-Experiment (feste Aufspaltung am Beginn) oder Mehrarmiger Bandit (automatische Aufspaltung mit wöchentlichen Aktualisierungen der Gewichtung) wählen. [Weitere Informationen](../building-journeys/path-experimentation.md)
 
