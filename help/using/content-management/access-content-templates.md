@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 9fc43f2e17c256d33f73f21b6b30c4b593087a28
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 71%
+ht-degree: 70%
 
 ---
 
@@ -101,7 +101,7 @@ Verwenden Sie zum einfachen Navigieren in Ihren Inhaltsvorlagen Ordner, um die I
 >
 >Wenn eine Vorlage bearbeitet oder gelöscht wird, sind Kampagnen oder Journeys, einschließlich mit dieser Vorlage erstellter Inhalte, nicht betroffen.
 
-## [!BADGE Eingeschränkte Verfügbarkeit]{type=Informative} Anzeigen von Vorlagen als Miniaturansichten {#template-thumbnails}
+## [!BADGE eingeschränkte Verfügbarkeit]{type=Informative} Anzeigen von Vorlagen als Miniaturen {#template-thumbnails}
 
 Wählen Sie den Modus **[!UICONTROL Rasteransicht]** aus, um die einzelnen Vorlagen als Miniaturansicht anzuzeigen.
 

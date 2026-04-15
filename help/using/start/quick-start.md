@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -46,7 +46,7 @@ Um die Implementierung zu vereinfachen, organisiert Adobe Journey Optimizer Aufg
 
 Jede Rolle ist für eine bestimmte Phase der Adobe Journey Optimizer-Implementierung zuständig und sorgt für einen strukturierten und effizienten Bereitstellungsprozess.
 
-## Reihenfolge bei der Implementierung und Rollenabhängigkeiten
+## Reihenfolge der Implementierung und Rollenabhängigkeiten
 
 Eine erfolgreiche Journey Optimizer-Implementierung folgt normalerweise dieser Sequenz, die die Abhängigkeiten zwischen Rollen widerspiegelt:
 
@@ -86,7 +86,7 @@ Eine erfolgreiche Journey Optimizer-Implementierung folgt normalerweise dieser S
 
 **Hinweis:** Parallel zu dieser typischen Sequenz können andere Aktivitäten ausgeführt werden. Entwickelnde können beispielsweise an App-Integrationen arbeiten, während Dateningenieure Schemata konfigurieren.
 
-## Erste Schritte je nach Rolle
+## Erste Schritte nach Rolle
 
 Jede Rolle beginnt mit bestimmten Aufgaben entsprechend ihres Schwerpunkts. Durch das Durchführen dieser ersten Schritte wird ein reibungsloseres Onboarding und eine Abstimmung mit dem gesamten Implementierungsprozess sichergestellt:
 
@@ -109,7 +109,7 @@ Als Marketing-Fachkraft oder Business-Anwenderin bzw. -Anwender entwerfen Sie Cu
 
 [Erste Schritte als Marketing-Fachkraft →](path/marketer.md)
 
-### Für Dateningenieurinnen und Dateningenieure {#for-data-engineers}
+### Für Dateningenieure {#for-data-engineers}
 
 Als Datenarchitektin bzw. -architekt oder Dateningenieurin bzw. -ingenieur richten Sie die Kundenprofildaten und andere Datenquellen ein, auf denen die von Journey Optimizer orchestrierten Erlebnisse basieren, und pflegen diese.
 

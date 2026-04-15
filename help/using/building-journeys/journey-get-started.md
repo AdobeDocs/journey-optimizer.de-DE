@@ -9,14 +9,14 @@ level: Beginner, Intermediate
 hide: true
 keywords: Journey, Orchestrierung, Erste Schritte, Onboarding, Funktionen
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
-# Vollständiges Handbuch zur Journey-Orchestrierung{#journey-orchestration-guide}
+# Journey Orchestration - vollständiges Handbuch{#journey-orchestration-guide}
 
 Journey in [!DNL Adobe Journey Optimizer] ermöglichen es Ihnen, personalisierte, mehrstufige Kunden-Journey zu erstellen, die sich in Echtzeit an das Verhalten und die Bedürfnisse Ihrer Zielgruppe anpassen. Mithilfe einer intuitiven Drag-and-Drop-Arbeitsfläche können Sie Nachrichten und Aktionen über mehrere Kanäle hinweg orchestrieren und dabei kontextuelle Daten und Zielgruppen-Targeting nutzen, um maximale Wirkung zu erzielen.
 

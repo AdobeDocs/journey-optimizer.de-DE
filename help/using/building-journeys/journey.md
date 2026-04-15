@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: Journey, Entdecken, Erste Schritte, Unitär, Zielgruppe lesen, Zielgruppen-Qualifizierung, Geschäftsereignis, Echtzeit, Geplant, Batch, Ereignisgesteuert, Workflow, Orchestrierung, Personalisierung, Multi-Channel
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -44,7 +44,7 @@ Verwenden Sie [!DNL Journey Optimizer] für Folgendes:
 
 ➡️ **Bereit, mit dem Erstellen zu beginnen?** [Erstellen Sie Ihre erste Journey](journey-gs.md) in 5 Minuten.
 
-### Journeys vs. Kampagnen: Verwendungszwecke {#journeys-vs-campaigns-intro}
+### Journey im Vergleich zu Kampagnen: Wann ist jede zu verwenden? {#journeys-vs-campaigns-intro}
 
 [!DNL Adobe Journey Optimizer] bietet drei Ansätze, um Kundinnen und Kunden zu erreichen: **Journey** (:1 Echtzeit-Orchestrierung), **Kampagnen** (einfacher Batch- oder API-gesteuerter Versand) und **Orchestrierte Kampagnen** (Batch-Arbeitsflächen-Workflows mit Daten aus mehreren Entitäten).
 

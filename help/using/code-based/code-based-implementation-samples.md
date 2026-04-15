@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 82%
@@ -321,7 +321,7 @@ Wenn Sie eine hybride Implementierung haben, sehen Sie sich die folgenden Links 
 * Adobe Tech Blog: [Hybride Personalisierung im Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/de/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK-Dokumentation: [Hybride Personalisierung mit Web SDK und Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=de){target="_blank"}
 
-## Debuggen von Edge-Netzwerk-API-Aufrufen mit Adobe Experience Platform Assurance {#debugging-edge-api-assurance}
+## Debuggen von Edge Network-API-Aufrufen mit Adobe Experience Platform Assurance {#debugging-edge-api-assurance}
 
 Wenn Sie die Edge Network-API direkt für Code-basierte Erlebnisse verwenden (nicht mit Web SDK oder Mobile SDK), können Sie Ihre API-Aufrufe mit Adobe Experience Platform Assurance debuggen, indem Sie die Assurance-Sitzungs-ID als Validierungs-Token-Kopfzeile angeben.
 

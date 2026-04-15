@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
-source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1934'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -125,7 +125,7 @@ Nachdem Sie Inhaltsvarianten generiert haben, können Sie die Ergebnisse anpasse
    * **Web**: Nachdem Sie Ihre Web-Kampagneneinstellungen festgelegt und Ihren Inhalt wie gewünscht bearbeitet haben, können Sie Ihre Web-Kampagne prüfen und aktivieren. [Weitere Informationen](../web/create-web.md#activate-web-campaign)
    * **Landingpage**: Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie für die Verwendung in einer Nachricht verfügbar zu machen. [Weitere Informationen](../landing-pages/create-lp.md#publish-landing-page)
 
-## Für Mobile-Kanäle {#mobile-channels}
+## Für mobile Kanäle {#mobile-channels}
 
 Der KI-Assistent unterstützt auch die Inhaltsgenerierung für Mobile-Push-Benachrichtigungen und ermöglicht Ihnen so die Erstellung ansprechender Titel, Nachrichten und Bilder für Ihre Apps. Dies hilft Ihnen, eine konsistente, hochwertige Kommunikation über alle Kunden-Touchpoints (einschließlich Mobile-Touchpoints) hinweg aufrechtzuerhalten.
 

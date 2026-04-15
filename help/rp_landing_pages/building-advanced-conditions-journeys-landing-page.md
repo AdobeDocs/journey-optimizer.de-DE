@@ -5,10 +5,10 @@ title: Erstellen von Ausdrücken
 description: Erstellen von Ausdrücken
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Adobe Journey Optimizer enthält einen **erweiterten Ausdruckseditor** mit dem Sie innerhalb von Journeys eine komplexe Logik erstellen können, die präzise Personalisierung und Orchestrierung ermöglicht. Sie können Bedingungen definieren, Aktionsparameter zuordnen und Ereignis- oder externe Daten in eine umsetzbare Logik umwandeln. Dieser Abschnitt enthält detaillierte Anleitungen zur Ausdruckssyntax, einschließlich Operatoren, Datentypen und bedingten Workflows, sowie Funktionen für Aufgaben wie Datenaggregation, Datumsverarbeitung und Zeichenfolgenbearbeitung. Diese Tools unterstützen erweiterte Anwendungsfälle und bieten technischen Benutzenden die Möglichkeit, Journeys an spezifische Geschäftsanforderungen anzupassen.
 
-## Erkunden der Ausdruckserstellung in Adobe Journey Optimizer
+## Erkunden der Ausdrucksbildung in Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Verwenden des erweiterten Ausdruckseditors
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie mit dem erweiterten Ausdruckseditor benutzerdefinierte Aus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Erweiterte Syntax für Ausdrücke
 
@@ -40,7 +40,7 @@ Beherrschen Sie die Syntaxregeln, bedingten Anweisungen und Datentypen, die zum 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Funktionen in Adobe Journey Optimizer
 
@@ -61,7 +61,7 @@ Greifen Sie auf praktische SQL-Abfragebeispiele zu, um Daten in verschiedenen Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Beispiel-SQL-Abfragen für die Datenanalyse
 

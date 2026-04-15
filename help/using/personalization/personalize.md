@@ -9,7 +9,7 @@ role: Developer
 level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 90%
@@ -51,7 +51,7 @@ Dieser Playground bietet eine simulierte Umgebung zum Schreiben und Testen von P
 
 ➡️ [Zugriff auf den Personalisierungs-Playground](https://experienceleague.adobe.com/de/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## KI-Assistent im Personalization-Editor {#ai-personalization-expressions}
+## KI-Assistent im Personalisierungseditor {#ai-personalization-expressions}
 
 Im **[!UICONTROL Personalization-Editor]** können Sie mit **[!UICONTROL KI-]** neue Ausdrücke aus natürlicher Sprache generieren, erklären, was vorhandener Code tut, und Probleme in einer Auswahl beheben, und dann die Ausgabe anwenden, wenn sie Ihrer Absicht entspricht.
 

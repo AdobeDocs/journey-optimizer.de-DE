@@ -9,10 +9,10 @@ role: User
 level: Experienced
 keywords: Inhalt, Experiment, statistisch, Berechnung
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,7 @@ Die obige Tabelle zeigt die verschiedenen Fehlertypen:
 
 Bei den meisten statistischen Inferenzverfahren müssen Sie Ihre Stichprobengröße im Voraus festlegen, und zwar auf der Grundlage der Effektgröße, die Sie bestimmen möchten, sowie Ihrer Fehlertoleranz (`\alpha` und `\beta`). Die Methodik von Adobe Journey Optimizer ist jedoch so konzipiert, dass Sie Ihre Ergebnisse kontinuierlich und für jede Stichprobengröße überprüfen können.
 
-## Die statistische Methodik von Adobe: Jederzeit gültige Konfidenzsequenzen
+## Statistische Methodik von Adobe: Jederzeit gültige Konfidenzsequenzen
 
 Eine **Konfidenzsequenz** ist ein sequenzielles Analogon eines **Konfidenzintervalls**, z. B. wenn Sie Ihre Experimente hundertmal wiederholen und eine Schätzung der mittleren Metrik und die zugehörige 95%ige Konfidenzsequenz für jede neue Person berechnen, die an dem Experiment teilnimmt. Eine 95%ige Konfidenzsequenz beinhaltet den wahren Wert der Metrik in 95 von 100 Experimenten, die Sie durchgeführt haben. Ein 95%-Konfidenzintervall kann nur einmal pro Experiment berechnet werden, um denselben Abdeckungsgrad von 95 % zu gewährleisten, und nicht bei jeder einzelnen neuen Person. Konfidenzsequenzen ermöglichen daher eine kontinuierliche Überwachung der Experimente, ohne die Falsch-Positiv-Fehlerrate zu erhöhen.
 

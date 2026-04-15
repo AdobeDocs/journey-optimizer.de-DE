@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: f0b9eb87608eb8183cf0b08926b1dee695634e11
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '529'
-ht-degree: 39%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 39%
 
 ## Schnellzugriff {#quick-access}
 
-Durchsuchen Sie die [vollständige API-Referenz](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}, um auf alle Journey Optimizer-APIs zuzugreifen und sie direkt zu testen. Um zu beginnen, stellen Sie sicher, [&#x200B; Sie „Authentifizierung einrichten](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} , um die erforderlichen Anmeldeinformationen zu erfassen.
+Durchsuchen Sie die [vollständige API-Referenz](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}, um auf alle Journey Optimizer-APIs zuzugreifen, und testen Sie sie direkt. Zunächst müssen Sie die [Authentifizierung einrichten](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}, um die erforderlichen Anmeldedaten zu erfassen.
 
 ## Überblick {#overview}
 
@@ -28,61 +28,61 @@ Adobe Journey Optimizer basiert nativ auf Adobe Experience Platform und kombinie
 
 **Erste Schritte mit Journey Optimizer-APIs:**
 
-* **[Durchsuchen Sie die vollständige API-Referenz](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** - Greifen Sie auf alle Journey Optimizer-APIs zu und testen Sie sie direkt
-* **[Authentifizierung einrichten](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** - Sammeln Sie die erforderlichen Anmeldeinformationen, um mit der Verwendung der APIs zu beginnen
-* **[Entscheidungs-Management-APIs](../offers/api-reference/getting-started.md)** - Angebote und Entscheidungen programmgesteuert verwalten
-* **[Experience Decisioning-](../experience-decisioning/api-reference/getting-started.md)**: Bereitstellen personalisierter Entscheidungselemente mithilfe von Code-basierten Erlebnissen
+* **[Durchsuchen der vollständigen API-Referenz](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** – Greifen Sie auf alle Journey Optimizer-APIs zu und testen Sie sie direkt
+* **[Einrichten der Authentifizierung](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** – Erfassen Sie die erforderlichen Anmeldedaten, um mit der Verwendung der APIs zu beginnen
+* **[Entscheidungs-Management-APIs](../offers/api-reference/getting-started.md)** – Verwalten Sie Angebote und Entscheidungen programmgesteuert
+* **[Erlebnis-Entscheidungs-APIs](../experience-decisioning/api-reference/getting-started.md)** – Stellen Sie personalisierte Entscheidungselemente mithilfe von Code-basierten Erlebnissen bereit
 
 ## Authentifizierung {#authentication}
 
 Bevor Sie Journey Optimizer-APIs verwenden können, müssen Sie die Authentifizierung einrichten, um auf die API-Endpunkte zuzugreifen.
 
-Folgen Sie [Authentifizierungshandbuch“, &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} die erforderlichen Authentifizierungsdaten für alle Journey Optimizer-APIs zu erfassen.
+Befolgen Sie den [Leitfaden zur Authentifizierung](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}, um die erforderlichen Anmeldedaten für alle Journey Optimizer-APIs zu erfassen.
 
 ## API-Dokumentation {#api-documentation}
 
 Die vollständige Dokumentation zur Adobe Journey Optimizer-API enthält detaillierte Informationen zu allen verfügbaren Endpunkten, Anfrage-/Antwortformaten und interaktiven Testfunktionen.
 
-Rufen Sie die [Adobe Journey Optimizer-API](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}Dokumentation auf und durchsuchen Sie das Menü **API** Referenzen, um alle verfügbaren APIs zu erkunden.
+Rufen Sie die [Dokumentation zur Adobe Journey Optimizer-API](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"} auf und durchsuchen Sie das Menü **API-Referenzen**, um alle verfügbaren APIs zu erkunden.
 
 ## Entscheidungs-Management-APIs {#decision-management-apis}
 
 Journey Optimizer bietet dedizierte APIs für das Entscheidungs-Management, mit denen Sie Angebote, Entscheidungen und Platzierungen programmgesteuert verwalten können.
 
-Informationen zu den ersten [&#x200B; mit Offer Decisioning-APIs finden &#x200B;](../offers/api-reference/getting-started.md) im Entwicklerhandbuch für die Entscheidungs-Management-API .
+Lesen Sie die [Entwicklerhandbuch zur Entscheidungs-Management-API](../offers/api-reference/getting-started.md), um sich mit den Angebotsentscheidungs-APIs vertraut zu machen.
 
 ## Experience Decisioning-APIs {#experience-decisioning-apis}
 
-Journey Optimizer bietet außerdem Experience Decisioning-APIs zur Bereitstellung personalisierter Entscheidungselemente über Code-basierte Erlebnisse. Experience Decisioning bietet einen vereinfachten Ansatz für die Personalisierung mit Entscheidungselementen, Eignungsregeln und Auswahlstrategien.
+Journey Optimizer bietet außerdem Erlebnis-Entscheidungs-APIs zur Bereitstellung personalisierter Entscheidungselemente über Code-basierte Erlebnisse. Die Erlebnis-Entscheidung bietet einen vereinfachten Ansatz für die Personalisierung mit Entscheidungselementen, Eignungsregeln und Auswahlstrategien.
 
 **Verfügbare API-Vorgänge:**
 
-* **Entscheidungselemente** - Entscheidungselemente erstellen, lesen, aktualisieren und löschen
-* **Auswahlstrategien** - Definieren, wie Entscheidungselemente ausgewählt und geordnet werden
-* **Eignungsregeln** - Bedingungen für die Artikeleignung festlegen
-* **Artikelsammlungen** - Organisieren von Entscheidungselementen in Sammlungen
-* **Rangfolgeformeln** - Konfigurieren einer benutzerdefinierten Rangfolgelogik
-* **Platzierungen** - Definieren, wo Entscheidungselemente angezeigt werden können
+* **Entscheidungselemente** – Erstellen, lesen, aktualisieren und löschen Sie Entscheidungselemente
+* **Auswahlstrategien** – Definieren Sie, wie Entscheidungselemente ausgewählt und geordnet werden
+* **Eignungsregeln** – Legen Sie Bedingungen für die Eignung von Elementen fest
+* **Elementsammlungen** – Organisieren Sie Entscheidungselemente in Sammlungen
+* **Rangfolgenformeln** – Konfigurieren Sie eine benutzerdefinierte Rangfolgenlogik
+* **Platzierungen** – Definieren Sie, wo Entscheidungselemente angezeigt werden können
 
-Erfahren Sie mehr in der [API-Referenz zu Experience Decisioning](../experience-decisioning/api-reference/getting-started.md) und erfahren Sie, wie Sie [Angebote mithilfe von Code-basierten Erlebnissen bereitstellen](../experience-decisioning/gs-experience-decisioning.md).
+Erhalten Sie weitere Informationen in der [Erlebnis-Entscheidungs-API-Referenz](../experience-decisioning/api-reference/getting-started.md) und erfahren Sie, wie Sie [Angebote mithilfe von Code-basierten Erlebnissen bereitstellen](../experience-decisioning/gs-experience-decisioning.md).
 
 ## Verwandte Themen {#related-topics}
 
 **API-Dokumentation und -Handbücher**
 
 * [Adobe Journey Optimizer-API-Referenz](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}
-* [Authentifizierungshandbuch](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
+* [Handbuch für die Authentifizierung](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
 * [Entwicklerhandbuch für die Entscheidungs-Management-API](../offers/api-reference/getting-started.md)
-* [Experience Decisioning-API-Referenz](../experience-decisioning/api-reference/getting-started.md)
+* [Erlebnis-Entscheidungs-API-Referenz](../experience-decisioning/api-reference/getting-started.md)
 
 **Journey Optimizer-Integration**
 
-* [Integration mit anderen Lösungen](../integrations/ajo-integrations.md)
-* [Integration mit Adobe Analytics](../event/about-analytics.md)
-* [Integrieren von Adobe Campaign](../building-journeys/using-adobe-campaign-v7-v8.md)
+* [Integrationen mit anderen Lösungen](../integrations/ajo-integrations.md)
+* [Integrieren mit Adobe Analytics](../event/about-analytics.md)
+* [Integrieren mit Adobe Campaign](../building-journeys/using-adobe-campaign-v7-v8.md)
 
 **Entwicklerressourcen**
 
 * [Adobe Experience Platform-APIs](https://developer.adobe.com/experience-platform-apis/){target="_blank"}
 * [Adobe Developer Console](https://developer.adobe.com/console){target="_blank"}
-* [Benutzerdefinierte Aktionen in Journey](../action/about-custom-action-configuration.md)
+* [Benutzerdefinierte Aktionen in Journeys](../action/about-custom-action-configuration.md)

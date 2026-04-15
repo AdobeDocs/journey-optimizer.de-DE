@@ -7,10 +7,10 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 74%
+ht-degree: 70%
 
 ---
 
@@ -70,7 +70,7 @@ import AEPMessagingLiveActivity
 import ActivityKit
 ```
 
-## Schritt 2: Definieren Ihrer Live-Aktivitätsattribute {#attributes}
+## Schritt 2: Definieren Sie Ihre Live-Aktivitätsattribute {#attributes}
 
 Erstellen Sie eine Struktur, die dem Protokoll `LiveActivityAttributes` entspricht. Dadurch werden sowohl die statischen Daten als auch der Status der dynamischen Inhalte für Ihre Live-Aktivität definiert.
 
@@ -148,7 +148,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Schritt 4: Erstellen von Widgets für Live-Aktivitäten {#widgets}
+## Schritt 4: Erstellen Sie Live-Aktivitäts-Widgets {#widgets}
 
 Eine Live-Aktivität wird über Widgets angezeigt. Sie müssen ein Widget-Bundle und eine Konfiguration erstellen:
 
@@ -187,7 +187,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## Schritt 5: Lokales Starten einer Live-Aktivität (optional) {#local}
+## Schritt 5: Live-Aktivität lokal starten (optional) {#local}
 
 Journey Optimizer kann Live-Aktivitäten zwar remote starten, Sie können sie aber auch lokal starten:
 

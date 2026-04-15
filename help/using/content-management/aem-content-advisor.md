@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -87,7 +87,7 @@ Die angezeigten Schaltflächen hängen von Ihrer Repository-Konfiguration ab:
 * **Beide Schaltflächen**: Das Repository verfügt über beide Konfigurationen und das Asset wird sowohl veröffentlicht als auch genehmigt.
 +++
 
-### für Inhaltsfragment {#content-fragment-features}
+### Für Inhaltsfragment {#content-fragment-features}
 
 Adobe Experience Manager Content Advisor bietet die folgenden Inhaltsfragment-Funktionen:
 

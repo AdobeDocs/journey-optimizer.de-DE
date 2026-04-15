@@ -5,8 +5,8 @@ title: Vorschau und Testen der Inhalte
 description: Validieren Sie die Genauigkeit Ihrer Nachrichten vor dem Launch. Erstellen Sie eine Vorschau personalisierter Inhalte mit Testprofilen, senden Sie Testsendungen an Stakeholder, überprüfen Sie das E-Mail-Rendering in verschiedenen Clients, werten Sie Spam-Werte aus und testen Sie effizient mehrere Inhaltsvarianten.
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 6b83b015dfd74da9eb58bd06958d0963d81c6489
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
 

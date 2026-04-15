@@ -5,7 +5,7 @@ title: Gestalten Ihrer Inhalte
 description: Gestalten Ihrer Inhalte
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 87%
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 Beim Gestalten Ihrer Inhalte in Adobe Journey Optimizer geht es darum, personalisierte, wirkungsvolle E-Mail-Erlebnisse zu schaffen, die Ihre Zielgruppe ansprechen. Unabhängig davon, ob Sie dynamische Layouts, wiederverwendbare visuelle Fragmente oder benutzerdefinierte Links hinzufügen – jedes Tool arbeitet mit den anderen zusammen, um Ihnen die volle Kontrolle über Ihr E-Mail-Design zu geben. Außerdem erfahren Sie, wie Sie Metadaten für Barrierefreiheit integrieren, Angebote für eine größere Relevanz personalisieren und sogar erweiterte Stile mithilfe von benutzerdefiniertem CSS anwenden können. Diese Funktionen ermöglichen es Ihnen, mit Schritt-für-Schritt-Anleitungen E-Mails zu erstellen, die nicht nur optisch ansprechend sind, sondern auch auf Ihre Ziele und die Bedürfnisse Ihrer Zielgruppe zugeschnitten sind.
 
-## Gestalten von Inhalten
+## Gestalten Ihrer Inhalte
 
 :::: landing-cards-container
 :::
@@ -40,7 +40,7 @@ Entdecken Sie, wie Sie wiederverwendbare Fragmente erstellen, um Ihr E-Mail-Desi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Hinzufügen von Links und Nachverfolgen von Nachrichten
 
@@ -50,7 +50,7 @@ Aktivieren Sie Tracking, fügen Sie Links ein und verwalten Sie das Erscheinungs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Einfügen von personalisierten Angeboten
 
@@ -60,7 +60,7 @@ Verwenden Sie das Entscheidungs-Management zur dynamischen Anzeige personalisier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 Generieren der Textversion
 
@@ -80,7 +80,7 @@ Strukturieren Sie die Textebene Ihrer E-Mail, damit KI-unterstützte Posteingang
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Hinzufügen von Metadaten
 

@@ -5,10 +5,10 @@ title: Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 description: Grundlegendes über Leitlinien und Einschränkungen bei orchestrierten Kampagnen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung
 
 ## Einschränkungen beim Datenfluss
 
-### Daten-Design- und -Speicherung
+### Datendesign und -speicherung
 
 * Der relationale Datenspeicher unterstützt **maximal 200 Tabellen** (Schemata).
 

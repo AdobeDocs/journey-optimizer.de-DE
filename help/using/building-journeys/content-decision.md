@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsrichtlinie, Arbeitsfläche, Journey
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 74%
@@ -85,7 +85,7 @@ Die Ausgabe einer Inhaltsentscheidung kann in mehreren Journey-Aktivitäten verw
 
 Sie können Ihrer Journey auch eine [benutzerdefinierte Aktion](#add-custom-action) hinzufügen, um die Angebote aus der Aktivität „Inhaltsentscheidung“ für ein externes System freizugeben.
 
-### In einer Aktivität „Optimieren“ (Bedingungsmethode) {#add-condition-activity}
+### In einer Aktivität vom Typ „Optimieren“ (Bedingungsmethode) {#add-condition-activity}
 
 Um die Ausgabe einer Inhaltsentscheidungsaktivität zu nutzen, fügen Sie eine **[!UICONTROL Optimieren]**-Aktivität hinzu, wählen Sie die **[!UICONTROL Bedingung]**-Methode aus und definieren Sie Ausdrücke, um Profile mithilfe von Daten aus diesen Angeboten in bestimmte Pfade zu verschieben. Gehen Sie wie folgt vor. Weitere Bedingungstypen und Optionen finden Sie unter [Bedingungen](conditions.md).
 

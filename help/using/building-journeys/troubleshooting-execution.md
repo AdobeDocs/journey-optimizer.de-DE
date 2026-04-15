@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2205'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 
@@ -137,11 +137,11 @@ Wenn Personen die Journey zwar richtig durchlaufen, aber nicht die vorgesehenen 
 
 Bei einer Nachricht, die über eine benutzerdefinierte Aktion gesendet wird, kann während des Journey-Tests nur geprüft werden, ob der Systemaufruf der benutzerdefinierten Aktion zu einem Fehler führt oder nicht.  Wenn der Aufruf an das externe System, das mit der benutzerdefinierten Aktion verknüpft ist, nicht zu einem Fehler führt, aber auch nicht zum Senden der Nachricht, sollten Sie das externe System überprüfen.
 
-## Informationen zu doppelten Einträgen in Journey-Schrittereignissen {#duplicate-step-events}
+## Grundlegendes zu doppelten Einträgen beim Journey von Schrittereignissen {#duplicate-step-events}
 
 In diesem Abschnitt erfahren Sie, warum doppelte Zeilen beim Journey von Schrittereignissen angezeigt werden können.
 
-### Warum sehe ich mehrere Einträge mit derselben Journey-Instanz, demselben Profil, demselben Knoten und denselben Anfrage-IDs?
+### Warum sehe ich mehrere Einträge mit derselben Journey-Instanz, demselben Profil, demselben Knoten und derselben Anfrage-ID?
 
 Beim Abfragen von Daten zu Journey-Schrittereignissen werden Ihnen gelegentlich anscheinend doppelte Protokolleinträge für dieselbe Journey-Ausführung auffallen. Diese Einträge haben identische Werte bei:
 
@@ -203,7 +203,7 @@ Gehen Sie beim Analysieren von Daten zu Journey-Schrittereignissen wie folgt vor
      AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID>'
    ```
 
-### Was sollte ich tun, wenn mir das auffällt?
+### Was sollte ich tun, wenn ich dies feststelle?
 
 Dies ist ein normales Systemverhalten. Es ist **keine Aktion erforderlich**. Die Duplikatprotokollierung weist nicht auf ein Problem mit Ihrer Journey-Konfiguration oder dem Nachrichtenversand hin.
 

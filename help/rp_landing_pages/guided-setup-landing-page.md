@@ -6,7 +6,7 @@ description: Geführte Kanaleinrichtung
 hide: true
 redpen-status: CREATED_||_2025-08-11_21-07-03
 exl-id: fb2185b8-6c92-4c50-8a79-2eb776cf0ac5
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 Die geführte Kanaleinrichtung in Adobe Journey Optimizer vereinfacht das Konfigurieren von Mobile- und Web-Marketing-Kanälen und hilft Ihnen, Kampagnen schnell und effektiv einzurichten. Unabhängig davon, ob Sie iOS, Android oder Web-Plattformen einrichten, erstellt dieses Tool automatisch wichtige Ressourcen wie Mobile-Tag-Eigenschaften und Datenströme, damit Sie sich auf die Bereitstellung wirkungsvoller Kundenerlebnisse konzentrieren können. Sie lernen die Voraussetzungen kennen, um sicherzustellen, dass Sie bereit sind. Sie erfahren mehr über die für Sie generierten Ressourcen und sehen, wie die einzelnen Kanalkonfigurationen funktionieren. Am Ende haben Sie eine klare, umsetzbare Roadmap, um Ihre Marketing-Ziele vertrauensvoll mit den richtigen Kanälen zu verbinden.
 
-## Anleitung zur Kanaleinrichtung
+## Geführte Kanaleinrichtung
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Einrichten von Mobile- und Web-Kanälen
 
@@ -31,7 +31,7 @@ Erfahren Sie, wie Sie Mobile- und Web-Kanäle mithilfe der geführten Kanaleinri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Ändern von Kanalkonfigurationen
 

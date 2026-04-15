@@ -8,14 +8,14 @@ level: Experienced
 hide: true
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Helper zur Suche externer Daten
+# Externer Helper zur Datensuche
 
 Mit dem `externalDataLookup`-Helper im Personalisierungs-Editor von [!DNL Journey Optimizer] können Sie Daten dynamisch von einem externen Endpunkt abrufen und sie zur Erstellung von Inhalten für eingehende Kanäle wie Code-basierte Erlebnisse, Web- und In-App-Nachrichten verwenden.
 
@@ -169,7 +169,7 @@ Sie können die Elemente auch abrufen und in einer Schleife durchlaufen, um ein 
 
 ## Fehlerbehebung
 
-### Timeouts und Fehlerbehandlung
+### Zeitüberschreitungen und Fehlerbehandlung
 
 [!DNL Journey Optimizer] verwendet beim Aufruf des externen Endpunkts ein striktes Timeout, um für das Adobe Experience Platform Edge Network eine Leistung mit niedriger Latenz und hohem Durchsatz zu gewährleisten.
 

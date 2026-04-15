@@ -10,7 +10,7 @@ level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 93%
@@ -123,7 +123,7 @@ Um eine benutzerdefinierte Subdomain einzurichten, führen Sie die folgenden Sch
 >Both Data and CDN subdomains must be included in the same certificate.
 -->
 
-## Abschließen der Schritte der Feedback-Schleife {#feedback-loop-steps}
+## Schritte der Feedback-Schleife abschließen {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"

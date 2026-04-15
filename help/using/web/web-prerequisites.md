@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d1f651eeb9401e4344f5bff12e6b706ff0080320
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ Damit Sie Ihre Web-Seiten zuverlässig im Web-Designer von [!DNL Journey Optimiz
 >
 >Google Chrome und Microsoft Edge sind derzeit die einzigen Browser, die die Erstellung von Web-Seiten in [!DNL Journey Optimizer] unterstützen.
 
-### Installieren der Erweiterung Visual Editing Helper {#install-visual-editing-helper}
+### Installieren der Visual Editing Helper-Erweiterung {#install-visual-editing-helper}
 
 Gehen Sie wie folgt vor, um die Browser-Erweiterung „Visual Editing Helper“ herunterzuladen und zu installieren.
 

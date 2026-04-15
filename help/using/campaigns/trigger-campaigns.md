@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: a5d8f10c8751d6be47f5423aea576e16590b86d6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -45,9 +45,9 @@ Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-
 
 ### Verzögerungen beim E-Mail-Versand {#delivery-delays}
 
-Wenn die E-Mail-Versandzeiten die Erwartungen übertreffen, untersuchen Sie potenzielle Ausfälle oder Leistungsprobleme mit externen Services, wie Cloud-Infrastrukturanbietern oder E-Mail-Dienstanbietern. Journey Optimizer protokolliert Abfahrtszeitstempel von Nachrichten, mit denen festgestellt werden kann, ob in nachgelagerten Bereichen der Versand-Pipeline Verzögerungen aufgetreten sind.
+Wenn die E-Mail-Versandzeiten länger als erwartet sind, untersuchen Sie potenzielle Ausfälle oder Leistungsprobleme mit externen Services, wie Cloud-Infrastrukturanbietern oder E-Mail-Dienstanbietern. Journey Optimizer protokolliert Ausgangszeitstempel von Nachrichten, mit denen festgestellt werden kann, ob in nachgelagerten Bereichen der Versand-Pipeline Verzögerungen aufgetreten sind.
 
-### Azure Cosmos DB-Authentifizierungsfehler (500 Internal Server Error) {#cosmosdb-auth-errors}
+### Azure Cosmos DB-Authentifizierungsfehler (500 interner Server-Fehler) {#cosmosdb-auth-errors}
 
 Wenn beim Auslösen von durch API ausgelösten Kampagnen Fehler des Typs **500 Internal Server Error** auftreten und die Systemprotokolle einen **403 Forbidden**-Fehler von Azure Cosmos DB mit einer Meldung wie der folgenden zeigen:
 

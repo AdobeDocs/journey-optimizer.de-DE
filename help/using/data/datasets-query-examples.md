@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1086'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im
 Siehe auch einige häufig verwendete [Beispiele zum Abfragen von Journey-Schrittereignissen](../reports/query-examples.md).
 
 
-## Erlebnisereignisdatensatz beim E-Mail-Tracking{#email-tracking-experience-event-dataset}
+## E-Mail-Tracking-Erlebnisereignis-Datensatz{#email-tracking-experience-event-dataset}
 
 _Name in der Benutzeroberfläche: AJO-E-Mail-Tracking-Erlebnisereignis-Datensatz_
 
@@ -73,7 +73,7 @@ order by
 limit 100;
 ```
 
-## Ereignisdatensatz mit Feedback zu Nachrichten{#message-feedback-event-dataset}
+## Nachrichten-Feedback-Ereignisdatensatz{#message-feedback-event-dataset}
 
 _Name in der Benutzeroberfläche: AJO-Nachrichten-Feedback-Ereignisdatensatz_
 
@@ -183,7 +183,7 @@ Sobald Sie diese Adressen identifiziert haben, entfernen Sie sie aus der Unterdr
 
 
 
-## Erlebnisereignisdatensatz beim Push-Tracking {#push-tracking-experience-event-dataset}
+## Push-Tracking-Erlebnisereignis-Datensatz {#push-tracking-experience-event-dataset}
 
 _Name in der Benutzeroberfläche: AJO Push Tracking Experience Event Dataset_
 
@@ -201,7 +201,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-## Journey-Schritt-Ereignis{#journey-step-event}
+## Journey-Schrittereignis{#journey-step-event}
 
 _Interner Name: Journey-Schritt-Ereignisse (Systemdatensatz)_
 
@@ -274,7 +274,7 @@ Siehe auch einige häufig verwendete [Beispiele zum Abfragen von Journey-Schritt
 
 Erfahren Sie, wie Sie [Fehler bei verworfenen Ereignistypen in journey_step_events beheben](../reports/sharing-field-list.md#discarded-events).
 
-## Ereignisdatensatz zur Entscheidungsfindung{#ode-decisionevents}
+## Decisioning-Ereignisdatensatz{#ode-decisionevents}
 
 _Name in der Benutzeroberfläche: ODE DecisionEvents (Systemdatensatz)_
 
@@ -305,7 +305,7 @@ group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.rank
 ```
 
 <!--
-## Consent Service Dataset{#consent-service-dataset}
+## Consent service dataset{#consent-service-dataset}
 
 _Name in the interface: CJM Consent Service Dataset (system dataset)_
 

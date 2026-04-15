@@ -5,10 +5,10 @@ title: Zugriffssteuerung
 description: Zugriffssteuerung
 redpen-status: CREATED_||_2025-08-11_21-19-16
 exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Die Zugriffssteuerung in Adobe Journey Optimizer ermöglicht es Admins, den Benutzerzugriff gemäß den Anforderungen und Governance-Standards des Unternehmens zu verwalten. Mit **Rollen**, **Berechtigungen**, **Sandboxes** und erweiterten Modellen wie objektbasierten und attributbasierten Steuerelementen können Sie den Zugriff so anpassen, dass vertrauliche Daten geschützt werden und gleichzeitig die Zusammenarbeit ermöglicht wird. Integrierte Rollen vereinfachen die Einrichtung, während benutzerdefinierte Berechtigungen und Labels eine präzisere Steuerung bieten. Diese Tools tragen dazu bei, ein ausgewogenes Verhältnis zwischen Sicherheit und Flexibilität zu erzielen, sodass Teams den Zugriff erhalten, den sie benötigen, ohne die Einhaltung von Vorschriften zu beeinträchtigen.
 
-## Zugriffssteuerungsfunktionen
+## Funktionen zur Zugriffssteuerung
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit der Zugriffssteuerung
 
@@ -30,7 +30,7 @@ Lernen Sie die Konzepte und Prozesse zum Verwalten von Benutzerberechtigungen, R
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwalten von Benutzenden und Rollen
 
@@ -40,7 +40,7 @@ Schrittweise Anleitung zum Zuweisen, Bearbeiten und Erstellen von Rollen, um den
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Integrierte Rollen
 
@@ -50,7 +50,7 @@ Entdecken Sie die vordefinierten Rollen und die zugehörigen Berechtigungen, um 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Integrierte Berechtigungen
 
@@ -60,7 +60,7 @@ Machen Sie sich mit den verfügbaren Berechtigungen und deren Funktionen zur Kon
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Berechtigungsstufen
 

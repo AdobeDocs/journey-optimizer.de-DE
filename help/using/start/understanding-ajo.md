@@ -6,10 +6,11 @@ description: Erfahren Sie, wie Adobe Journey Optimizer mit Adobe Experience Plat
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
-workflow-type: ht
+exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -42,7 +43,7 @@ Adobe Journey Optimizer wendet die Daten und Erkenntnisse aus Adobe Experience P
 * **Versand (Verbindungen)** – Versendet Nachrichten über Kanäle wie E-Mail, SMS, Push-Benachrichtigungen und Direkt-Mail; exportiert Daten in externe Systeme. [Konfigurieren der Kanäle](../configuration/get-started-configuration.md)
 * **Messung und Analyse** – Verfolgt die Kundeninteraktion und die Kampagnenleistung mit Berichten zur kontinuierlichen Verbesserung. [Anzeigen von Berichten](../reports/campaign-global-report-cja.md)
 
-### Kontinuierlicher Optimierungszyklus {#optimization-cycle}
+### Der kontinuierliche Optimierungszyklus {#optimization-cycle}
 
 Dieses Ökosystem funktioniert als kontinuierlicher Optimierungszyklus. Daten fördern das Kundenverständnis, das in personalisierte Inhalte und Entscheidungen einfließt. Diese werden in Journeys orchestriert, kanalübergreifend bereitgestellt, auf Effektivität getestet und im Laufe der Zeit verfeinert.
 

@@ -6,14 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 75%
+ht-degree: 74%
 
 ---
 
-# Funktionen für Datum/Uhrzeit{#date-time}
+# Datums-/Uhrzeitfunktionen{#date-time}
 
 Mit Datums- und Uhrzeitfunktionen können Datums- und Uhrzeitvorgänge für Werte in Journey Optimizer durchgeführt werden.
 
@@ -503,7 +503,7 @@ Ausgabe (Beispiel): `18/03/2026 14:30`
 
 >[!CAUTION]
 >
->**Häufiger Fehler: „Eingabe &#39;(&#39; entspricht nicht dem erwarteten \&lt;EOF\>&quot;**
+>**Häufiger Fehler: „Eingabe &#39;(&#39; erwartet \&lt;EOF\>&quot;** stimmt nicht überein
 >
 >Dieser PQL-Syntaxfehler tritt auf, wenn `formatDate()` mit einem Zeitstempel für ein Kontextereignis inline (`{%= formatDate(...) %}`) verwendet wird. Die häufigsten Ursachen sind numerische Ereignis-IDs, die nicht in Backticks (`` ` ``) eingeschlossen sind, oder Zeitstempelfelder, die direkt an `formatDate()` übergeben werden, ohne sie zuerst in `toDateTime()` einzuschließen. Um beide Probleme zu beheben, verwenden Sie das `{% let %}` im obigen Beispiel.
 
@@ -656,7 +656,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## Zu Uhrzeit-/Datumsangabe {#to-date-time}
+## Bis Datum/Uhrzeit {#to-date-time}
 
 Die Funktion `ToDateTime` wandelt eine Zeichenfolge in ein Datum um. Bei einer ungültigen Eingabe wird als Ausgabe das Epochen-Datum zurückgegeben.
 
@@ -693,7 +693,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## Auf Tagesanfang kürzen {#truncate-day}
+## Zum Tagesanfang kürzen {#truncate-day}
 
 Die Funktion `truncateToStartOfDay` wird verwendet, um eine bestimmte Uhrzeit-/Datumsangabe zu ändern, indem diese auf den Tagesanfang gesetzt wird, wobei die Zeit auf 00:00 Uhr eingestellt ist.
 

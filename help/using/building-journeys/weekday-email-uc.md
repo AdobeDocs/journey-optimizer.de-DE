@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Anwendungsfall, Werktage, Bedingung, E-Mail, Planung
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1068'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -51,7 +51,7 @@ Führen Sie diese Schritte aus, um den E-Mail-Fluss nur für Wochentage zu erste
    * **[Zielgruppe lesen](read-audience.md)**: Für Batch-Kampagnen, die eine bestimmte Zielgruppe ansprechen
    * **[Ereignis](../event/about-events.md)**: Für Journeys, die in Echtzeit basierend auf dem Kundenverhalten ausgelöst werden
 
-### Schritt 2: Hinzufügen einer Bedingungsaktivität zum Prüfen des Wochentags
+### Schritt 2: Fügen Sie eine Aktivität vom Typ Bedingung hinzu, um den Wochentag zu überprüfen
 
 Fügen Sie direkt nach dem Start der Journey eine Aktivität des Typs **[!UICONTROL Bedingung]** hinzu, um zu prüfen, ob der aktuelle Tag ein Samstag oder Sonntag ist. Dadurch wird der Workflow entsprechend verzweigt.
 
@@ -78,7 +78,7 @@ Fügen Sie direkt nach dem Start der Journey eine Aktivität des Typs **[!UICONT
 >
 >Die Zeitzone, die für die Auswertung des Wochentags verwendet wird, wird auf Journey-Ebene in den Journey-Eigenschaften definiert, nicht auf Bedingungsebene. Die in der Formel verwendete [Zeitzone](timezone-management.md) der Journey ist die konfigurierte Zeitzone der Journey, nicht die der Empfängerin oder des Empfängers.
 
-### Schritt 3: Konfigurieren von Warteaktivitäten für Eintritte am Wochenende
+### Schritt 3: Warteaktivitäten für Wochenendeinträge konfigurieren
 
 Verwenden Sie für Profile, die am Samstag oder Sonntag eintreten, Aktivitäten des Typs **[!UICONTROL Warten]** mit benutzerdefinierten Formeln, um die E-Mail bis zur gewünschten Uhrzeit am Montag zu verschieben.
 

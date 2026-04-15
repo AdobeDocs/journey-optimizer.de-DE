@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2085'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Im Detail wird der 32-Bit-Algorithmus MumurHash3 verwendet, um die Benutzerident
 
 Beachten Sie, dass Sie bei der Konfiguration jeder Kampagne mit einem Inhaltsexperiment einen Identity-Namespace auswählen müssen, aus dem die userId für den Randomisierungsalgorithmus ausgewählt wird. Dies ist unabhängig von den [Ausführungsadressen](../configuration/primary-email-addresses.md).
 
-### Datensammlung und Analyse
+### Datenerfassung und -analyse
 
 Zum Zeitpunkt der Zuweisung, d. h. wenn die Nachricht in ausgehenden Kanälen gesendet wird oder wenn Benutzende über eingehende Kanäle in die Kampagne eintreten, wird ein „Zuweisungseintrag“ im entsprechenden Systemdatensatz protokolliert. Dadurch wird aufgezeichnet, welcher Abwandlung den Benutzenden zugewiesen wurde, dazu Experiment- und Kampagnen-Kennungen.
 
@@ -141,17 +141,17 @@ Wenn sich die Konfidenzintervalle für zwei Abwandlungen kaum überschneiden, be
 
 Adobe verwendet 95 % jederzeit gültige Konfidenzintervalle oder Konfidenzsequenzen, was bedeutet, dass die Ergebnisse zu jedem Zeitpunkt des Experiments sicher angezeigt werden können.
 
-### &#x200B;3. Verstehen von Steigerungen {#understand-lift}
+### &#x200B;3. Aufstieg verstehen {#understand-lift}
 
 In der Zusammenfassung des Experiments wird die **[!UICONTROL Steigerung gegenüber der Baseline]** angezeigt, die ein Maß für die prozentuale Verbesserung der Konversionsrate einer bestimmten Abwandlung gegenüber der Baseline darstellt. Genauer gesagt handelt es sich um den Unterschied in der Performance zwischen einer bestimmten Abwandlung und der Baseline, geteilt durch die Performance der Baseline, ausgedrückt in Prozent.
 
-### &#x200B;3. Verstehen von Konfidenz {#understand-confidence}
+### &#x200B;3. Verstehen von Vertrauen {#understand-confidence}
 
 Während Sie sich in erster Linie auf das **[!UICONTROL Konfidenzintervall]** für die Performance der einzelnen Abwandlungen konzentrieren sollten, zeigt Adobe auch die Konfidenz an, die ein probabilistisches Maß dafür ist, wie viel Evidenz es dafür gibt, dass eine bestimmte Abwandlung mit der Baseline-Abwandlung identisch ist. Ein höherer Konfidenzwert zeigt an, dass die Annahme, wonach die Baseline- und die Nicht-Baseline-Abwandlung die gleiche Performance aufweisen, weniger gut belegt ist. Genauer gesagt ist die angezeigte Konfidenz die Wahrscheinlichkeit (ausgedrückt als Prozentsatz), dass wir einen geringeren Unterschied bei den Konversionsraten zwischen einer bestimmten Abwandlung und der Baseline beobachtet hätten, wenn es in Wirklichkeit keinen Unterschied bei den tatsächlichen zugrunde liegenden Konversionsraten gibt. Um es mit den p-Werten auszudrücken, ist die angezeigte Konfidenz 1 - p-Wert.
 
 Adobe verwendet „jederzeit gültige“ Konfidenz und „jederzeit gültige“ p-Werte, die mit den oben beschriebenen Konfidenzsequenzen übereinstimmen.
 
-### &#x200B;4. Statistische Signifikanz
+### &#x200B;4. Statistische Bedeutung
 
 Bei der Durchführung von Experimenten wird ein Ergebnis als statistisch signifikant eingestuft, wenn es sehr unwahrscheinlich ist, dass es bei der Nullhypothese, dass eine bestimmte Abwandlung und die Baseline identische zugrunde liegende Konversionsraten/Performances aufweisen, beobachtet worden wäre.
 

@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 34%
@@ -161,7 +161,7 @@ Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie 
 
 Mit Adobe Experience Manager können die Journey Optimizer-Kampagnen oder -Journeys identifiziert werden, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen hierzu sind in der [Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"} verfügbar.
 
-## Arbeiten mit Varianten von Inhaltsfragmenten {#aem-variations}
+## Arbeiten mit Inhaltsfragmentvarianten {#aem-variations}
 
 In Adobe Experience Manager besteht jedes Inhaltsfragment aus Folgendem:
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: eingehende Aktionen, Fehlerbehebung, Journey, Debugging, Selbsthilfe, überprüfen, Fehler
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1725'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -71,7 +71,7 @@ Das folgende Diagramm zeigt die Sequenz der zu befolgenden Debugging-Schritte:
 
 ![Workflow zur Fehlerbehebung für eingehende Nachricht wird nicht angezeigt: Überprüfen von Journey, Edge Delivery und Profil](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
-### Schritt 1: Überprüfen, ob das Gerät/der Client den Inhalt von Edge Network erhält {#step-1}
+### Schritt 1: Überprüfen, ob das Gerät/der Client den Inhalt vom Edge Network erhält {#step-1}
 
 Überprüfen Sie zunächst ob das Gerät/der Client den erwarteten Inhalt erhält.
 
@@ -99,7 +99,7 @@ Führen Sie mit dem [Adobe-API](https://developer.adobe.com/data-collection-apis
 
 >[!ENDTABS]
 
-### Schritt 2: Überprüfen, ob Edge Network den Inhalt zurückgibt {#step-2}
+### Schritt 2: Überprüfen, ob das Edge-Netzwerk den Inhalt zurückgibt {#step-2}
 
 In diesem Schritt wird sichergestellt, dass Edge Network den erwarteten eingehenden Inhalt zurückgibt, der auf dem Gerät/Client gerendert werden soll.
 
@@ -131,7 +131,7 @@ Gehen Sie wie folgt vor, um das Verhalten von Edge Network zu debuggen.
 
 1. Wenn der Edge Network-Versand-Server das Profil nicht als im entsprechenden **joai**-Segment enthalten anzeigt, wird mit dem nächsten Schritt fortgefahren.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-### Schritt 3: Überprüfen, ob die „joai“-Zielgruppen-Zugehörigkeit auf Edge Network übertragen wurde {#step-3}
+### Schritt 3: Überprüfen, ob die Zugehörigkeit zur Audience „joai“ auf das Edge-Netzwerk übertragen wurde {#step-3}
 
 In diesem Schritt wird überprüft, ob das Edge-Profil beim Eintritt in die eingehende Journey-Aktion korrekt aktualisiert wurde und ob das Profil in das entsprechende **joai**-Segment qualifiziert wurde.
 
@@ -165,7 +165,7 @@ Das Vorhandensein des **joai**-Segments in den `segmentMembership`-Attributen de
 
 <!--The next step is to check whether the audience segment is present in the profile on the Hub.-->
 
-### Schritt 4: Überprüfen, ob die Zielgruppen-Zugehörigkeit „joai“ im Hub-Profil vorhanden ist {#step-4}
+### Schritt 4: Überprüfen Sie, ob im Profil auf dem Hub die Zielgruppenzugehörigkeit „joai“ vorhanden ist. {#step-4}
 
 In diesem Schritt wird überprüft, ob das Hub-Profil beim Eintritt in die eingehende Journey-Aktion korrekt aktualisiert wurde und ob das Profil in das entsprechende **joai**-Segment qualifiziert wurde.
 

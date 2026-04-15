@@ -5,10 +5,10 @@ title: Starten Ihrer ersten orchestrierten Kampagne
 description: Starten Ihrer ersten orchestrierten Kampagne
 redpen-status: CREATED_||_2025-08-11_20-24-42
 exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 Mit dem Start Ihrer ersten orchestrierten Kampagne in Adobe Journey Optimizer können Sie nahtlose, personalisierte Kundenerlebnisse schaffen, die sich an die Journey jeder Einzelperson anpassen. Dieses Handbuch führt Sie durch alle Schritte, von der Einrichtung Ihrer Kampagne und der Gestaltung ihres Flusses mithilfe einer intuitiven visuellen Arbeitsfläche bis hin zum Testen, Starten, Monitoring und Analysieren ihrer Leistung. Sie lernen, wie Sie Aktivitäten aufeinander abstimmen, das Timing optimieren und umsetzbare Erkenntnisse nutzen, um die Ergebnisse zu optimieren. Ganz gleich, ob Sie einmalige Nachrichten planen oder erweiterte Retargeting-Strategien entwickeln – jedes Thema ist darauf ausgelegt, Ihr Selbstvertrauen zu stärken und Ihnen dabei zu helfen, Ihre Marketing-Vision zum Leben zu erwecken.
 
-## Starten der ersten orchestrierten Kampagne
+## Starten Ihrer ersten orchestrierten Kampagne
 
 :::: landing-cards-container
 :::
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie Kampagneneigenschaften und Ausführungspläne erstellen un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Orchestrieren von Kampagnenaktivitäten
 
@@ -50,7 +50,7 @@ Meistern Sie die visuelle Arbeitsfläche, um Aktivitäten für Ihre orchestriert
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Starten und Überwachen Ihrer Kampagnen
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie Ihre orchestrierten Kampagnen für eine erfolgreiche Ausf�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Berichte für orchestrierte Kampagnen
 

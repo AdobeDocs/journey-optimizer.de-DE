@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -194,7 +194,7 @@ Alle in der Benutzeroberfläche verfügbaren Journey-Benachrichtigungen sind unt
 >
 >Adobe Journey Optimizer-spezifische Warnhinweise gelten nur für **Live**-Journeys. Warnhinweise werden für Journeys im Testmodus nicht ausgelöst.
 
-### Zielgruppe-lesen-Auslöser konnte nicht gelesen werden {#alert-read-audiences}
+### Lesen des Zielgruppen-Triggers fehlgeschlagen {#alert-read-audiences}
 
 Dieser Warnhinweis erscheint, wenn eine Aktivität **Zielgruppe lesen** 10 Minuten nach der festgelegten Ausführungszeit kein Profil bearbeitet hat. Dieser Fehler kann durch technische Probleme oder eine leere Zielgruppe verursacht werden. Wenn dieser Fehler auf technische Probleme zurückzuführen ist, sind je nach Problemtyp dennoch weitere Versuche möglich (wenn z. B. die Erstellung eines Exportauftrags fehlgeschlagen ist, erfolgt alle 10 Minuten, aber höchstens eine Stunde lang, ein erneuter Versuch).
 
@@ -206,7 +206,7 @@ Der Name des I/O-Ereignis-Abonnements, das dem Warnhinweis **Auslösen von „Zi
 
 Überprüfen Sie zur Fehlerbehebung von Warnhinweisen bei **Zielgruppe lesen** die Anzahl Ihrer Zielgruppen auf der Experience Platform-Oberfläche.
 
-### Rate beim Verwerfen des Profils überschritten {#alert-discard-rate}
+### Verwerfungsrate des Profils überschritten {#alert-discard-rate}
 
 Dieser Warnhinweis warnt Sie, wenn das Verhältnis zwischen verworfenen Profilen und eingetretenen Profilen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
 
@@ -221,7 +221,7 @@ Es kann mehrere Gründe dafür geben, wieso ein Profil verworfen wird. Die Metho
 * Die Ereignisdurchsatzrate wurde überschritten. Um dies zu beheben, stellen Sie sicher, dass die in das System eingehenden Ereignisse diese Grenzwerte nicht überschreiten.
 
 
-### Fehlerrate bei benutzerdefinierter Aktion überschritten {#alert-custom-action-error-rate}
+### Fehlerrate für benutzerdefinierte Aktion überschritten {#alert-custom-action-error-rate}
 
 Dieser Warnhinweis warnt Sie, wenn das Verhältnis von Fehlern bei benutzerdefinierten Aktionen zu erfolgreichen HTTP-Aufrufen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
 
@@ -240,7 +240,7 @@ Fehler bei benutzerdefinierten Aktionen können aus verschiedenen Gründen auftr
 * Prüfen Sie, ob der Endpunkt erreichbar ist und die benutzerdefinierte Aktion ihn über die Konnektivitätsprüfung für benutzerdefinierte Aktionen erreichen kann.
 * Überprüfen Sie die Anmeldeinformationen, die Internet-Verbindung usw.
 
-### Fehlerrate bei Profil überschritten {#alert-profile-error-rate}
+### Profil-Fehlerrate überschritten {#alert-profile-error-rate}
 
 Dieser Warnhinweis warnt Sie, wenn das Verhältnis zwischen fehlerhaften Profilen und eingetretenen Profilen in den letzten 5 Minuten den Schwellenwert überschritten hat. Der Standardschwellenwert ist auf 20 % festgelegt, Sie können jedoch [einen benutzerdefinierten Schwellenwert definieren](#custom-threshold).
 
@@ -260,7 +260,7 @@ Dieser Warnhinweis informiert Sie, wenn eine Journey abgeschlossen wurde. Die De
 
 Dies ist ein informativer Warnhinweis, mit dem Sie den Abschluss der Journey verfolgen können. Es gibt keine Auflösungskriterien, da es sich um eine einmalige Benachrichtigung handelt.
 
-### Begrenzung benutzerdefinierter Aktionen ausgelöst {#alert-custom-action-capping}
+### Benutzerdefinierte Aktionsbegrenzung ausgelöst {#alert-custom-action-capping}
 
 Dieser Warnhinweis warnt Sie, wenn bei einer benutzerdefinierten Aktion eine Begrenzung ausgelöst wurde. Mit einer Begrenzung wird die Anzahl der an einen externen Endpunkt gesendeten Aufrufe begrenzt, um zu verhindern, dass der Endpunkt überlastet wird.
 

@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 2a9587461520290899e3c70c4943e111d6af65ee
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1777'
-ht-degree: 82%
+ht-degree: 80%
 
 ---
 
@@ -33,7 +33,7 @@ Klicken Sie in der oberen Leiste auf das Symbol „KI-Assistent“, um das Panel
 >
 >Bevor Sie den KI-Assistenten verwenden können, müssen Sie den [Benutzerrichtlinien für generative KI in Adobe Experience Cloud](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"} zustimmen. 
 
-### Das kann der KI-Assistent für Sie tun
+### Was der KI-Assistent tun kann
 
 **Produktwissen** – Stellen Sie Fragen zu den Funktionen und Konzepten von Adobe Journey Optimizer:
 
@@ -63,7 +63,7 @@ Klicken Sie in der oberen Leiste auf das Symbol „KI-Assistent“, um das Panel
 
 [Weitere Informationen zum KI-Assistenten in Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}
 
-## Erweiterte AI Agents für die Journey-Optimierung {#ai-agents}
+## Erweiterte KI-Agenten für die Journey-Optimierung {#ai-agents}
 
 Aufbauend auf den Gesprächsfunktionen des KI-Assistenten bietet Adobe Journey Optimizer spezialisierte AI Agents, die detaillierte Analysen und umsetzbare Empfehlungen für die Journey-Optimierung und für Experimente bereitstellen.
 
@@ -208,7 +208,7 @@ Die Versandzeitoptimierung analysiert historische Interaktionsdaten (Öffnungen 
 
 [Informationen zur Versandzeitoptimierung](../building-journeys/send-time-optimization.md)
 
-## KI-Modelle für die Entscheidungsfindung {#ai-decisioning}
+## KI-Modelle für Entscheidungen {#ai-decisioning}
 
 Erstellen Sie intelligente Rangfolgenmodelle, die automatisch optimieren, welche Angebote jeder Kundin bzw. jedem Kunden angezeigt werden sollen, und maximieren Sie so Ihre Geschäftsziele.
 
@@ -241,7 +241,7 @@ Wichtigste Funktionen:
 
 [Weitere Informationen zu Experiment Accelerator](../content-management/experiment-accelerator-gs.md)
 
-## Anwendungsfall-Playbooks {#playbooks}
+## Playbooks für Anwendungsfälle {#playbooks}
 
 Anwendungsfall-Playbooks sind vorkonfigurierte Workflows, mit denen Sie gängige Marketing-Szenarien schnell implementieren können. Jedes Playbook enthält einsatzbereite Journeys, Nachrichten, Schemata und Segmente.
 
@@ -282,13 +282,13 @@ Wandeln Sie statische Bildentwürfe (JPEG, PNG) mithilfe der KI-gestützten Konv
 
 [Weitere Informationen zum Bild-zu-HTML-Converter](../content-management/image-to-html.md)
 
-### GenStudio for Performance Marketing
+### GenStudio für Performance-Marketing
 
 Integrieren Sie ihn mit Adobe GenStudio for Performance Marketing, um KI-gestützte E-Mail-Inhalte zu erstellen und Vorlagen zur Orchestrierung in Journey Optimizer zu importieren. Exportieren Sie Journey Optimizer-Vorlagen nach GenStudio, generieren Sie Varianten mit KI und stellen Sie sie wieder bereit. (Eingeschränkte Verfügbarkeit, nur E-Mail-Kanal.)
 
 [Weitere Informationen zu GenStudio](../integrations/genstudio.md)
 
-### Bewertung der Markenausrichtung
+### Markenausrichtungsbewertung
 
 Bewerten Sie, wie gut Ihre Inhalte mit Ihren Markenrichtlinien übereinstimmen, indem Sie eine KI-gestützte Bewertung verwenden, die die Konsistenz von Ton, Stimme und Botschaften misst.
 

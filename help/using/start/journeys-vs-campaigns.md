@@ -10,14 +10,14 @@ level: Beginner
 keywords: Journey, Kampagne, orchestriert, Vergleich, Auswählen, Entscheidung, Workflow, Echtzeit, Batch, Orchestrierung, mehrstufig, geplant, API-ausgelöst, ereignisgesteuert
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1613'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
-# Journeys oder Kampagnen: Auswählen des richtigen Ansatzes {#journeys-vs-campaigns}
+# Journey vs. Kampagnen: Wählen Sie den richtigen Ansatz {#journeys-vs-campaigns}
 
 [!DNL Adobe Journey Optimizer] bietet zwei Möglichkeiten, Ihre Kunden zu erreichen und zu kontaktieren: **Journey** und **Kampagnen**. Journey sind für eine mehrstufige Orchestrierung in Echtzeit konzipiert, die vom Kundenverhalten gesteuert wird, während Kampagnen sich besser für einmalige oder geplante Sendungen an eine definierte Zielgruppe eignen. Sobald Sie sich für eine Kampagne entschieden haben, können Sie den Kampagnentyp auswählen, der Ihrem Anwendungsfall am besten entspricht.
 
@@ -176,7 +176,7 @@ Kombiniert die Komplexität eines Workflows mit der Batch-Kampagnenausführung.
 * **Geburtstagskampagnen:** Eintritt basierend auf Geburtsdatum, personalisierte Angebote
 * **Wiederaufnahme der Interaktion:**: Ausgelöst durch Zielgruppenqualifizierung (Inaktivität), progressive Kontaktaufnahme
 
-### Anwendungsfälle für Kampagnen (durch Aktion und API ausgelöst)
+### Anwendungsfälle für Kampagnen (Aktion und API-gesteuert)
 
 **Aktionskampagnen:**
 * **Monatliche Newsletter:** Geplanter Batch-Versand an das Abonnentensegment

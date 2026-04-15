@@ -5,10 +5,10 @@ title: Festlegen von Regeln für die Nachrichten- und Journey-Begrenzung
 description: Festlegen von Regeln für die Nachrichten- und Journey-Begrenzung
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
-source-git-commit: 9e23162373564e7866af115ee2cd706527336e4a
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 38%
+ht-degree: 36%
 
 ---
 
@@ -18,11 +18,11 @@ Begrenzungsregeln sind Teil von [Konfliktmanagement und &#x200B;](../using/confl
 
 Sie können Beschränkungen festlegen, wie oft Nachrichten gesendet werden (Frequenzlimitierung), wie viele Journey ein Profil eingeben kann (Journey-Begrenzung) und wann Nachrichten blockiert werden (Ruhezeit). Regeln werden in **Regelsätze“ gruppiert** auf Kampagnen oder Journey angewendet. Informationen zur programmgesteuerten Steuerung von externen Systemen finden Sie unter [Begrenzungs-API](../using/configuration/capping.md).
 
-## Festlegen von Regeln für die Nachrichten- und Journey-Begrenzung
+## Festlegen von Begrenzungsregeln für Nachrichten und Journey
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Arbeiten mit Regelsätzen
 
@@ -32,7 +32,7 @@ Erfahren Sie, wie Sie Regelsätze erstellen, verwalten und aktivieren, um die Re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey-Begrenzung und -Zuweisung
 
@@ -52,7 +52,7 @@ Erfahren Sie, wie Sie kanalspezifische Regeln zur Frequenzbegrenzung erstellen u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Festlegen von ruhigen Stunden
 

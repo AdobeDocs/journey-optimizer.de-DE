@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen
 
 Erfahren Sie mehr über [Journey Optimizer und Assets Express](../integrations/express.md).
 
-## GenStudio for Performance Marketing
+## GenStudio für Performance-Marketing
 
 Adobe GenStudio for Performance Marketing ist eine generative KI-First-Anwendung, mit der Marketing-Teams ihre eigenen Anzeigen und E-Mails erstellen können, um wirkungsvolle, personalisierte Marketing-Kampagnen voranzubringen, die Ihren Markenstandards und Unternehmensrichtlinien entsprechen. Dank der KI-Technologie von Adobe bietet diese Anwendung eine umfassende Palette an Tools, die die komplexe Erstellung und Verwaltung von Inhalten vereinfachen, sodass sich Kreative darauf konzentrieren können, innovativ zu sein.
 

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Profil, Aktualisieren, Journey, Aktivität
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 29%
@@ -36,7 +36,7 @@ Die Aktivität **[!UICONTROL Profil aktualisieren]** erfordert einen eigenen Dat
 
 Darüber hinaus ist für **[!UICONTROL Konfiguration der Aktivität]** Profil aktualisieren“ kein [Identity-Namespace“ &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"}. Stellen Sie daher sicher, dass der ausgewählte Datensatz denselben **[!UICONTROL Identity-Namespace]** verwendet, den die Journey gestartet hat, da dieser Namespace für diese Aktualisierungen verwendet wird. Die Identitätszuordnung kann auch vom ausgewählten Datensatz verwendet werden. Wenn Sie keinen Datensatz mit dem richtigen Identity-Namespace auswählen oder einen Datensatz verwenden, der Identitätszuordnung verwendet, schlägt **[!UICONTROL Aktivität „Profil aktualisieren]** fehl.
 
-## Konfigurieren der Aktivität Profil aktualisieren . {#use-profile-update}
+## Konfigurieren der Aktivität „Profil aktualisieren“ {#use-profile-update}
 
 Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Profil aktualisieren]** auf Ihrem Journey zu konfigurieren.
 

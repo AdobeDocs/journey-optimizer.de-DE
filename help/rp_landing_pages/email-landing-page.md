@@ -5,10 +5,10 @@ title: E-Mail-Kanal
 description: E-Mail-Kanal
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
-source-git-commit: e2ecfcd3163965bbd0ada68edd61ac07373eaad2
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -27,12 +27,12 @@ E-Mail-Sendungen können erstellt werden:
 >
 >Wenn Sie zum ersten Mal eine E-Mail erstellen, überprüfen Sie, ob zuvor der E-Mail-Kanal konfiguriert wurde. [Weitere Informationen](../using/email/email-settings.md)
 
-## Funktionen und Dokumentation des E-Mail-Kanals
+## E-Mail-Kanalfunktionen und Dokumentation
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen einer E-Mail
 
@@ -42,7 +42,7 @@ Schrittweise Anleitung zum Hinzufügen, Konfigurieren und Testen von E-Mail-Akti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Entwerfen und Optimieren von E-Mail-Inhalten
 
@@ -52,7 +52,7 @@ Erfahren Sie mehr über Tools und Best Practices zum Entwerfen responsiver und p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Verwalten von E-Mail-Opt-outs
 
@@ -62,7 +62,7 @@ Konfigurieren Sie Mechanismen zum Opt-out mit einem Klick oder in zwei Schritten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren des E-Mail-Kanals
 
@@ -72,7 +72,7 @@ Richten Sie E-Mail-Konfigurationen wie Subdomain-Delegierung, Unterdrückungslis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Informationen zur E-Mail-Zustellbarkeit
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Fehler, Codes, Fehlerbehebung, Journey, Kampagne, Nachrichten
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 92%
@@ -76,7 +76,7 @@ Diese Fehler treten bei der Journey-Ausführung, der Ereignisverarbeitung und be
 | **CJMRT-080608-400** | Fehlerhafte Anfrage in Domain/Kanal/Delegierung | Erforderliche DNS-Einträge oder E-Mail-/SMS-Konfiguration fehlen | &#x200B;1. DNS-Konfiguration für E-Mail-Domains vervollständigen<br/>2. Verifizieren, ob die Subdomain-Delegierung abgeschlossen ist<br/>3. Konfigurationsassistenten erneut ausführen<br/>4. Zeit für DNS-Verbreitung einplanen (bis zu 72 Stunden)<br/><br/>**Verwandte Dokumentation**: [Kanaloberflächen](../configuration/channel-surfaces.md), [Subdomain-Delegierung](../configuration/delegate-subdomain.md) |
 | **CJMRT-110100-500** | Interner Fehler in der Payload | Backend-Daten-/Konfigurationsfehler oder nicht unterstützte Konfiguration | &#x200B;1. Vorgang wiederholen<br/>2. Konfiguration bei Verwendung erweiterter Funktionen vereinfachen<br/>3. An den Adobe-Support mit der Anfrage-ID und der exakten Payload eskalieren<br/>4. In den Versionshinweisen nach bekannten Fehlern suchen <br/><br/>**Verwandte Dokumentation**: [Journey-Fehlerbehebung](troubleshooting.md) |
 
-### CJMMAS: Fehler beim Nachrichtenerstellungs-Service {#cjmmas-errors}
+### CJMAS: Fehler des Nachrichtenerstellungs-Services {#cjmmas-errors}
 
 Diese Fehler treten beim Erstellen, Bearbeiten oder Veröffentlichen von Nachrichten, Voreinstellungen und Inhalten auf.
 
@@ -101,7 +101,7 @@ Diese Fehler treten bei der Erstellung, Konfiguration und Aktivierung einer Kamp
 | **CJMCMP-3001-400** | Simulation/Vorschau „Falscher Filter für den Oberflächentyp“ | Ein Knoten, der mit einer alten Struktur erstellt wurde, sendet „type=surfaceId“, Backend erwartet „brandingPresetId“ | &#x200B;1. Betroffenen Knoten löschen und neu erstellen<br/>2. Neue Journey-Version/-Vorlage verwenden<br/>3. Testmodus verwenden, um die Konfiguration zu löschen<br/>4. Knoten massenhaft neu erstellen, wenn das Problem weit verbreitet ist <br/><br/>**Verwandte Dokumentation**: [Kanaloberflächen](../configuration/channel-surfaces.md), [Nachrichtensimulation](../content-management/preview.md) |
 | **CJMCMP-2050-400** | Fehlerhafte Anfrage bei Aktivierung oder Genehmigung einer Kampagne | Kampagnenverweise ungültig/fehlende Richtlinie oder fehlendes Segment | &#x200B;1. Alle Konfigurationen für Kampagnenknoten prüfen<br/>2. Überprüfen, ob Richtlinien- bzw. Segmentverknüpfungen aktuell und gültig sind<br/>3. Mit der korrekten Konfiguration aktualisieren<br/>4. Kampagne vor der Aktivierung erneut testen <br/><br/>**Verwandte Dokumentation**: [Erstellen einer Kampagne](../campaigns/create-campaign.md), [Genehmigen einer Kampagne](../test-approve/gs-approval.md) |
 
-### CJMTL: Fehler bei Transportebene {#cjmtl-errors}
+### CJMTL: Fehler der Transportschicht {#cjmtl-errors}
 
 Diese Fehler treten während des Nachrichtentransports und bei Versandvorgängen auf.
 
@@ -110,7 +110,7 @@ Diese Fehler treten während des Nachrichtentransports und bei Versandvorgängen
 | **CJMTL-010018-422** | „Personalisierung im Domain-Namen nicht zulässig“ beim Speichern/Senden von Inhalten | Eine zu strenge Validierung hat die dynamische Personalisierung der href-Domain vorübergehend unterbrochen | &#x200B;1. Links refaktorieren, wenn Sie Domain-Variablen verwenden<br/>2. Verifizieren, dass die neueste AJO-Version verwendet wird<br/>3. Vorgang erneut versuchen<br/>4. Statische Domains verwenden, wenn das Problem weiterhin besteht <br/><br/>**Verwandte Dokumentation**: [Personalisierungssyntax](../personalization/personalization-syntax.md), [E-Mail-Design](../email/content-from-scratch.md) |
 | **CJMTL-010011-422** | Nicht verarbeitbare Entität – Push-/SMS-/E-Mail-Versand schlägt fehl, Meldung „Feld ungültig“ | Payload- oder Empfänger-/Kontaktdaten fehlen oder sind ungültig | &#x200B;1. Protokolle auf spezifische Feldfehler prüfen<br/>2. Profil-/Kontaktinformationen korrigieren<br/>3. Mit Testprofil validieren<br/>4. Payload-Format nach Bedarf refaktorieren <br/><br/>**Verwandte Dokumentation**: [Profil-Management](../audience/get-started-profiles.md), [Testprofile](../audience/creating-test-profiles.md) |
 
-### CJMRPS: Reporting- und Bereitstellungs-Service-Fehler {#cjmrps-errors}
+### CJMRPS: Reporting- und Provisioning-Service-Fehler {#cjmrps-errors}
 
 Diese Fehler treten bei der Reporting-Konfiguration und bei der Datensatzbereitstellung auf.
 

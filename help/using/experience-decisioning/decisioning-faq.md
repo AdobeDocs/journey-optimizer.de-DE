@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 7bb72527-d4e1-49f8-b2c3-c943d65903f2
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Häufig gestellte Fragen zur Entscheidungsfindung {#decisioning-faq}
+# Häufig gestellte Fragen zur Entscheidung {#decisioning-faq}
 
 Auf dieser Seite finden Sie Antworten auf häufig gestellte Fragen zu den Entscheidungsfunktionen in Adobe Journey Optimizer.
 

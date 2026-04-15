@@ -5,10 +5,10 @@ title: Content-Management
 description: Content-Management
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: e5e4acf5c83c036b5ff72c8022750f9827bd98d3
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Mit den Content-Management-Funktionen von Adobe Journey Optimizer können Sie Inhalte nahtlos über Kampagnen, Kanäle und Regionen hinweg erstellen, personalisieren und organisieren. Ob Sie dynamische Nachrichten erstellen, wiederverwendbare Vorlagen entwickeln oder mit neuen Ideen experimentieren – in diesem Abschnitt finden Sie die Tools und Strategien, mit denen Sie Ihren Workflow optimieren und die Wirkung maximieren können. Tauchen Sie in Themen wie Personalisierung, mehrsprachige Inhalte, KI-gestützte Generierung und lösungsübergreifende Integrationen ein, um zu erfahren, wie diese Funktionen zusammenpassen, um maßgeschneiderte, ansprechende Kundenerlebnisse bereitzustellen. Mit praktischen Handbüchern und intuitiven Funktionen sind Sie bestens gerüstet, um Inhalte mit Zuversicht und Kreativität zu verwalten.
 
-## Content-Management-Funktionen
+## Funktionen für das Content-Management
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Hinzufügen von Personalisierung
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Personalisierungsfunktionen implementieren und optimieren 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen von Landingpages
 
@@ -50,7 +50,7 @@ Optimieren Sie die Inhaltserstellung mithilfe wiederverwendbarer Vorlagen für e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Wiederverwendbare Inhaltsfragmente
 
@@ -60,7 +60,7 @@ Erfahren Sie, wie Sie wiederverwendbare Inhaltsfragmente für verbesserte Person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Erstellen von dynamischen Inhalten
 
@@ -70,7 +70,7 @@ Verwenden Sie bedingte Regeln, um dynamische, personalisierte Inhalte für E-Mai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Lösungsübergreifende Anwendungsfälle
 

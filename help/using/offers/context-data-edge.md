@@ -9,14 +9,14 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Kontextdaten und Edge Decisioning-Anfragen {#edge}
+# Kontextdaten und Edge-Entscheidungsanfragen {#edge}
 
 >[!TIP]
 >
@@ -42,7 +42,7 @@ Darüber hinaus können Sie Kontextdaten auch in **Rangfolgeformeln** nutzen, od
 
 >[!ENDSHADEBOX]
 
-## Voraussetzungen für die Übergabe von Kontextdaten in Edge Decisioning-Anfragen {#prerequisites}
+## Voraussetzungen für die Übergabe von Kontextdaten in Edge-Entscheidungsanfragen {#prerequisites}
 
 Im Gegensatz zur Übergabe von Kontext in einem freien Format mithilfe der Decisioning-API erfordert der Edge Decisioning-Kontext die XDM-Konformität. Die Kontext-Payload muss mit XDM Experience Event kompatibel sein. Dazu muss der Kontext als Teil des „XDM-Erlebnisereignisses“ definiert werden, das für die Datenerfassung verwendet wird.
 
@@ -132,7 +132,7 @@ Erstellen Sie eine neue Entscheidung, die die Angebotsentscheidungs-Engine nutzt
 >
 >Darüber hinaus können Sie Kontextdaten in Rangfolgeformeln nutzen und sie Ihrer Entscheidung zuweisen. INFORMATIONEN HINZUFÜGEN
 
-## Übergeben von Kontextdaten in der Edge Decisioning-Anfrage {#request}
+## Übergeben von Kontextdaten in der Edge-Entscheidungsanfrage {#request}
 
 ### Endpunkt
 

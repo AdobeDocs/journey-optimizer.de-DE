@@ -10,10 +10,10 @@ role: User
 level: Beginner
 keywords: Assets, Integration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Um auf das **[!DNL Adobe Express]**-Menü zuzugreifen, rufen Sie im E-Mail-Desig
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
-## Verwenden von Adobe Express mit einer Enterprise-Lizenz {#licence}
+## Verwenden von Adobe Express mit einer Unternehmenslizenz {#licence}
 
 Die in den folgenden Abschnitten beschriebenen Funktionen sind für Benutzende ohne Adobe Express Enterprise-Lizenz verfügbar.
 
@@ -51,7 +51,7 @@ Mit einer Enterprise-Lizenz haben Benutzende vollen Zugriff auf den Web-Editor v
 
 Weitere Informationen zu verfügbaren Anwendungsfällen für Benutzende mit einer Enterprise-Lizenz für Adobe Express finden Sie in der [Dokumentation zu Adobe Express Web](https://helpx.adobe.com/de/express/web.html).
 
-## Verwenden von Adobe Express ohne eine Enterprise-Lizenz  {#edit}
+## Verwenden von Adobe Express ohne Enterprise-Lizenz  {#edit}
 
 Ohne eine Enterprise-Lizenz haben Benutzende Zugriff auf die folgenden Anwendungsfälle, die mit Adobe Express verfügbar sind:
 

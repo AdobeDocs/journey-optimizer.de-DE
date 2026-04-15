@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b2bfbf707adc60d3f08195c1df1b969523fb87b1
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 97%
@@ -37,7 +37,7 @@ Wenn Journey Optimizer einen Aufruf an eine externe API ausführt, werden die te
 
 ## APIs für Begrenzung und Drosselung {#capping}
 
-### Über Begrenzungs- und Einschränkungs-APIs
+### Über Begrenzungs- und Drosselungs-APIs
 
 Beim Konfigurieren einer Datenquelle oder einer Aktion stellen Sie eine Verbindung zu einem System her, um entweder zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, oder um Nachrichten oder API-Aufrufe zu senden.
 

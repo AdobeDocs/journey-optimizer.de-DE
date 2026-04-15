@@ -10,14 +10,14 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Bereitstellen von Angeboten mithilfe der Edge Decisioning-API {#edge-decisioning-api}
+# Unterbreiten von Angeboten mithilfe der Edge Decisioning-API {#edge-decisioning-api}
 
 >[!TIP]
 >
@@ -68,7 +68,7 @@ Um Angebote zu personalisieren, müssen Sie Ihre Personalisierung/Profile separa
 
 Führen Sie einen der beiden folgenden Schritte aus, um das SDK für Entscheidungs-Management zu konfigurieren:
 
-## Option 1: Installieren Sie die Tag-Erweiterung und -Implementierung mithilfe von Adobe Experience Platform Launch
+## Option 1: Installieren der Tag-Erweiterung und -Implementierung mithilfe von Launch
 
 Diese Option ist benutzerfreundlicher für Personen, die über weniger Programmiererfahrung verfügen.
 

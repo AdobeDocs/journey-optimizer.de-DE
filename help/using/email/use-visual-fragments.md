@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um ein Fragment in einer E-Mail zu verwenden.
 
    >[!CAUTION]
    >
-   >Sie können jeden **Fragmententwurf** und jedes **Live-Fragment** zu Ihrem Inhalt hinzufügen. Sie können Ihre Journey oder Kampagne jedoch nicht aktivieren, wenn ein Fragment mit dem Status „Entwurf“ darin verwendet wird. Bei der Veröffentlichung einer Journey oder Kampagne wird bei Fragmententwürfen ein Fehler angezeigt. Sie müssen sie erst genehmigen, um sie veröffentlichen zu können.
+   >Sie können jeden **Entwurf** und jedes **Live-Fragment** zu Ihrem Inhalt hinzufügen. Sie können Ihre Journey oder Kampagne jedoch nicht aktivieren, wenn ein Fragment mit dem Status „Entwurf“ darin verwendet wird. Bei der Veröffentlichung einer Journey oder Kampagne wird bei Fragmententwürfen ein Fehler angezeigt. Sie müssen sie erst genehmigen, um sie veröffentlichen zu können.
 
 1. Wie jede andere Komponente können Sie das Fragment in Ihrem Inhalt verschieben.
 
@@ -109,7 +109,7 @@ In [diesem Abschnitt](../personalization/use-expression-fragments.md#implicit-va
 
 ## Anpassen bearbeitbarer Felder {#customize-fields}
 
-Wenn bestimmte Teile des ausgewählten Fragments bearbeitbar gemacht wurden, können Sie deren Standardwert überschreiben, nachdem Sie das Fragment in Ihren Inhalt eingefügt haben. [Erfahren Sie, wie Sie Ihre Fragmente anpassbar machen können](../content-management/customizable-fragments.md)
+Wenn bestimmte Teile des ausgewählten Fragments bearbeitbar gemacht wurden, können Sie deren Standardwert überschreiben, nachdem Sie das Fragment in Ihren Inhalt eingefügt haben. [Informationen dazu, wie Sie Ihre Fragmente anpassbar machen können](../content-management/customizable-fragments.md)
 
 Gehen Sie wie folgt vor, um bearbeitbare Felder in einem Fragment anzupassen:
 

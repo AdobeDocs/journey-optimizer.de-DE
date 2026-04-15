@@ -5,7 +5,7 @@ title: Genehmigen von Journeys und Kampagnen
 description: Genehmigen von Journeys und Kampagnen
 redpen-status: CREATED_||_2025-08-11_20-30-36
 exl-id: 88c48ccd-c3b7-4235-933b-7a08f5a8f346
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
@@ -20,37 +20,37 @@ Durch die Genehmigung von Journeys und Kampagnen in Adobe Journey Optimizer wird
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einrichten und Verwalten von Journey- und Kampagnengenehmigungen
 
-Erfahren Sie, wie Sie den Genehmigungsprozess für Journeys und Kampagnen einrichten und verwalten, einschließlich der Voraussetzungen und der Überwachung von Anfragen.
+Erfahren Sie, wie Sie den Genehmigungsprozess für Journeys und Kampagnen einrichten und verwalten, einschließlich Voraussetzungen und Monitoring von Anfragen.
 
 [Mehr zu Genehmigungen](../using/test-approve/gs-approval.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Erstellen und Verwalten von Genehmigungsrichtlinien
 
 Schrittweise Anleitung zum Erstellen, Konfigurieren und Verwalten von Genehmigungsrichtlinien, einschließlich Bedingungen und Aktivierung.
 
-[Genehmigungsrichtlinien erstellen](../using/test-approve/approval-policies.md)
+[Erstellen von Genehmigungsrichtlinien](../using/test-approve/approval-policies.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Anfordern von Genehmigungen für Journeys und Kampagnen
 
 Erfahren Sie, wie Sie Genehmigungen für Journey und Kampagnen anfordern, einschließlich Workflows mit oder ohne aktive Genehmigungsrichtlinien.
 
-[Genehmigung anfordern](../using/test-approve/request-approval.md)
+[Anfragen einer Genehmigung](../using/test-approve/request-approval.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Überprüfen und Genehmigen von Anfragen für Journeys und Kampagnen
 
