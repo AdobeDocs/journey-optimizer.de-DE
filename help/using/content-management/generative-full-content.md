@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
-source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1934'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -67,7 +67,7 @@ Wenn der KI-Assistent geöffnet ist, können Sie die Generierungseinstellungen s
 
 1. Wählen Sie die **[!UICONTROL Bildeinstellungen]**:
 
-   * **[!UICONTROL Generatives Modell]**: Wählen Sie aus verfügbaren integrierten Modellen, benutzerdefinierten Firefly-Modellen, die für Ihre Marken-Assets trainiert wurden, oder Drittanbietern zur Bilderzeugung, um Images zu erstellen, die Ihren spezifischen Anforderungen und Markenanforderungen entsprechen. [Weitere Informationen](generative-models.md). Für **Gemini** mit **Textüberlagerungen** auf Bildern siehe &quot;[&#x200B; als generatives Modell für Textüberlagerungsbild verwenden](generative-uc.md#generative-gemini).
+   * **[!UICONTROL Generatives Modell]**: Wählen Sie aus verfügbaren integrierten Modellen, benutzerdefinierten Firefly-Modellen, die für Ihre Marken-Assets trainiert wurden, oder Drittanbietern zur Bilderzeugung, um Images zu erstellen, die Ihren spezifischen Anforderungen und Markenanforderungen entsprechen. [Weitere Informationen](generative-models.md). Für **Gemini** mit **Textüberlagerungen** auf Bildern siehe &quot;[ als generatives Modell für Textüberlagerungsbild verwenden](generative-uc.md#generative-gemini).
    * **[!UICONTROL Content-Typ]**: Hiermit wird die Art des visuellen Elements kategorisiert, wobei zwischen verschiedenen Arten der visuellen Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
    * **[!UICONTROL Visuelle Intensität]**: Sie können die Wirkung des Bildes durch Anpassen seiner Intensität steuern. Eine niedrigere Einstellung (2) sorgt für ein weicheres, zurückhaltenderes Erscheinungsbild, während eine höhere Einstellung (10) das Bild lebendiger und visuell kräftiger macht.
    * **[!UICONTROL Farbe und Ton]**: Die Gesamterscheinung der Farben in einem Bild und die Stimmung oder Atmosphäre, die diese vermittelt.
@@ -125,7 +125,7 @@ Nachdem Sie Inhaltsvarianten generiert haben, können Sie die Ergebnisse anpasse
    * **Web**: Nachdem Sie Ihre Web-Kampagneneinstellungen festgelegt und Ihren Inhalt wie gewünscht bearbeitet haben, können Sie Ihre Web-Kampagne prüfen und aktivieren. [Weitere Informationen](../web/create-web.md#activate-web-campaign)
    * **Landingpage**: Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie für die Verwendung in einer Nachricht verfügbar zu machen. [Weitere Informationen](../landing-pages/create-lp.md#publish-landing-page)
 
-## Für Mobile-Kanäle {#mobile-channels}
+## Für mobile Kanäle {#mobile-channels}
 
 Der KI-Assistent unterstützt auch die Inhaltsgenerierung für Mobile-Push-Benachrichtigungen und ermöglicht Ihnen so die Erstellung ansprechender Titel, Nachrichten und Bilder für Ihre Apps. Dies hilft Ihnen, eine konsistente, hochwertige Kommunikation über alle Kunden-Touchpoints (einschließlich Mobile-Touchpoints) hinweg aufrechtzuerhalten.
 
@@ -174,7 +174,7 @@ Nachdem Sie auf den KI-Assistenten für Push-Benachrichtigungen zugegriffen habe
 
 1. Wählen Sie die **[!UICONTROL Bildeinstellungen]**:
 
-   * **[!UICONTROL Generatives Modell]**: Wählen Sie aus verfügbaren integrierten Modellen, benutzerdefinierten Firefly-Modellen, die für Ihre Marken-Assets trainiert wurden, oder Drittanbietern zur Bilderzeugung, um Images zu erstellen, die Ihren spezifischen Anforderungen und Markenanforderungen entsprechen. [Weitere Informationen](generative-models.md). Für **Gemini** mit **Textüberlagerungen** auf Bildern siehe &quot;[&#x200B; als generatives Modell für Textüberlagerungsbild verwenden](generative-uc.md#generative-gemini).
+   * **[!UICONTROL Generatives Modell]**: Wählen Sie aus verfügbaren integrierten Modellen, benutzerdefinierten Firefly-Modellen, die für Ihre Marken-Assets trainiert wurden, oder Drittanbietern zur Bilderzeugung, um Images zu erstellen, die Ihren spezifischen Anforderungen und Markenanforderungen entsprechen. [Weitere Informationen](generative-models.md). Für **Gemini** mit **Textüberlagerungen** auf Bildern siehe &quot;[ als generatives Modell für Textüberlagerungsbild verwenden](generative-uc.md#generative-gemini).
    * **[!UICONTROL Content-Typ]**: Hiermit wird die Art des visuellen Elements kategorisiert, wobei zwischen verschiedenen Arten der visuellen Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
    * **[!UICONTROL Visuelle Intensität]**: Sie können die Wirkung des Bildes durch Anpassen seiner Intensität steuern. Eine niedrigere Einstellung (2) sorgt für ein weicheres, zurückhaltenderes Erscheinungsbild, während eine höhere Einstellung (10) das Bild lebendiger und visuell kräftiger macht.
    * **[!UICONTROL Farbe und Ton]**: Die Gesamterscheinung der Farben in einem Bild und die Stimmung oder Atmosphäre, die diese vermittelt.

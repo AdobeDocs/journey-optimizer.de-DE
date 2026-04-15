@@ -6,7 +6,8 @@ description: Erfahren Sie, wie Sie auf AEM-Inhaltsfragmente zugreifen und diese 
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+exl-id: c36a53a4-c324-4082-838e-ed27bd3b2e90
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 42%
@@ -27,7 +28,7 @@ Weitere Informationen zu AEM-Inhaltsfragmenten finden Sie unter [Arbeiten mit In
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-Inhaltsfragmente folgen verschiedenen Lebenszyklusphasen, je nachdem, in welcher Adobe Experience Manager-Ebene sie vorhanden sind. [Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+Inhaltsfragmente folgen verschiedenen Lebenszyklusphasen, je nachdem, in welcher Adobe Experience Manager-Ebene sie vorhanden sind. [Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
 
 Inhalte werden auf der **Autorenebene“ erstellt und verwaltet** wo Fragmente Status wie Neu, Entwurf, Veröffentlicht, Geändert oder Veröffentlichung rückgängig gemacht haben können. Diese Status gelten nur für die **Autorenebene** und unterstützen die Inhaltserstellung und -überprüfung.
 

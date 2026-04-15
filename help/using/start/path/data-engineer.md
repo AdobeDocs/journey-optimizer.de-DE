@@ -7,14 +7,14 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 92%
 
 ---
 
-# Erste Schritte für Datentechniker {#data-engineer}
+# Erste Schritte für Dateningenieure {#data-engineer}
 
 Als **Datenarchitektin bzw. -architekt** oder **Dateningenieurin bzw. -ingenieur** richten Sie die Kundenprofildaten und andere Datenquellen ein, auf denen die von [!DNL Journey Optimizer] orchestrierten Erlebnisse basieren, und pflegen diese. Dazu gehört die Integration aller Kunden- und Geschäftsdaten (egal ob aus Web-, CRM- oder Offline-Quellen) in eine einheitliche 360-Grad-Sicht auf die Kundin bzw. den Kunden. Sie modellieren Kundenprofildaten und Geschäftsdaten in Schemata, konfigurieren Quell-Connectoren für die Datenaufnahme und stellen einen reibungslosen Datenfluss sicher, um Kundenerkenntnisse und Interaktion in Echtzeit zu ermöglichen. Sobald die oder der [Systemadmin](administrator.md) Ihnen Zugriff gewährt und die Umgebung vorbereitet hat, können Sie mit der Arbeit mit [!DNL Adobe Journey Optimizer] beginnen.
 

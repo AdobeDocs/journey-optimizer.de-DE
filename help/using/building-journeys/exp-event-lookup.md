@@ -5,7 +5,7 @@ title: Suche nach Erlebnisereignissen in Journeys
 description: Informationen zum Verwenden der Suche nach Erlebnisereignissen in Journeys
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 76%
@@ -107,7 +107,7 @@ Weitere Informationen:
 
 So personalisieren Sie die Nachrichten basierend auf den letzten Ereignissen im Zusammenhang mit dem Warenkorb oder der Seitennavigation über mehrere Warenkorbtypen oder Produktansichten hinweg:
 
-* Wenn Sie Zugriff auf [[!DNL Adobe Experience Platform] Daten-Distiller](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/overview){target="_blank"} haben, konfigurieren Sie automatisierte Abfragen, um die erforderlichen Daten aus dem Ereignis zu extrahieren, sie an den Anwendungsfall anzupassen und sie zur Aktivierung [&#x200B; einen profilaktivierten Datensatz](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} zurückzuschreiben.
+* Wenn Sie Zugriff auf [[!DNL Adobe Experience Platform] Daten-Distiller](https://experienceleague.adobe.com/de/docs/experience-platform/query/data-distiller/overview){target="_blank"} haben, konfigurieren Sie automatisierte Abfragen, um die erforderlichen Daten aus dem Ereignis zu extrahieren, sie an den Anwendungsfall anzupassen und sie zur Aktivierung [ einen profilaktivierten Datensatz](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} zurückzuschreiben.
 * Wenn die Daten zum Abbruchverhalten anhand des Profils mit Skalarattributen modelliert werden können, sollten Sie berechnete Attribute verwenden, um die neuesten Informationen zu erfassen, und diese Attribute dann in der Journey referenzieren, um Nachrichten zu erstellen. [Weitere Informationen finden Sie in  [!DNL Adobe Experience Platform]  Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 

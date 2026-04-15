@@ -10,14 +10,14 @@ level: Intermediate
 keywords: künstlich, KI, intelligent, Journey, Service
 exl-id: 20da09e1-0611-4d27-a589-30552011e06c
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 59%
+ht-degree: 56%
 
 ---
 
-# Integrieren mit Intelligent Services {#ai-overview}
+# Integration mit Intelligent Services {#ai-overview}
 
 Die Integration mit **[!DNL Adobe Intelligent Services]** ermöglicht die Nutzung von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen mit Kundenerlebnissen. So können Marketing-Analystinnen und -Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen für die Anforderungen der Firma erstellen, ohne dass hierfür Kenntnisse aus der Datenwissenschaft erforderlich sind.
 

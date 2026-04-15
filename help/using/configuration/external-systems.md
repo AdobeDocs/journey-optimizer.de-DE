@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b2bfbf707adc60d3f08195c1df1b969523fb87b1
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 97%
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 Auf dieser Seite werden die verschiedenen Leitplanken vorgestellt, die Journey Optimizer für die Integration eines externen Systems bietet. Zusätzlich erhalten Sie Best Practices dazu, wie Sie den Schutz Ihres externen Systems mithilfe der Begrenzungs-API optimieren können, wie Journey-Zeitüberschreitungen konfiguriert werden und wie erneute Versuche funktionieren.
 
-Mit Journey Optimizer können Sie Verbindungen zu externen Systemen über &quot;[&#x200B; Datenquellen“ &#x200B;](../datasource/about-data-sources.md) &quot;[&#x200B; Aktionen“ &#x200B;](../action/action.md). Auf diese Weise können Sie beispielsweise Ihre Journeys mit Daten aus einem externen Reservierungssystem anreichern oder Nachrichten mithilfe eines Drittanbietersystems wie Epsilon oder Facebook versenden.
+Mit Journey Optimizer können Sie Verbindungen zu externen Systemen über &quot;[ Datenquellen“ ](../datasource/about-data-sources.md) &quot;[ Aktionen“ ](../action/action.md). Auf diese Weise können Sie beispielsweise Ihre Journeys mit Daten aus einem externen Reservierungssystem anreichern oder Nachrichten mithilfe eines Drittanbietersystems wie Epsilon oder Facebook versenden.
 
 Bei der Integration eines externen Systems können mehrere Probleme auftreten: Das System kann langsam sein, nicht mehr reagieren oder es kann möglicherweise nicht in der Lage sein, große Datenmengen zu verarbeiten. Journey Optimizer bietet verschiedene Schutzmechanismen, um Ihr System vor Überlastung zu schützen.
 
@@ -37,7 +37,7 @@ Wenn Journey Optimizer einen Aufruf an eine externe API ausführt, werden die te
 
 ## APIs für Begrenzung und Drosselung {#capping}
 
-### Über Begrenzungs- und Einschränkungs-APIs
+### Über Begrenzungs- und Drosselungs-APIs
 
 Beim Konfigurieren einer Datenquelle oder einer Aktion stellen Sie eine Verbindung zu einem System her, um entweder zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, oder um Nachrichten oder API-Aufrufe zu senden.
 

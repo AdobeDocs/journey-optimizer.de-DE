@@ -5,10 +5,10 @@ title: Entscheidungsfunktionen
 description: Entscheidungsfunktionen
 redpen-status: CREATED_||_2025-08-11_21-05-27
 exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Mit den Entscheidungsfunktionen in Journey Optimizer können Sie Ihren Kundinnen und Kunden die besten Angebote und personalisierte Erlebnisse zu genau den richtigen Zeiten über alle Touchpoints hinweg unterbreiten. Diese Funktionen vereinfachen die Personalisierung durch einen zentralisierten Katalog von Marketing-Angeboten und eine erweiterte Entscheidungs-Engine, die Regeln und Rangfolgekriterien verwendet, um die relevantesten Inhalte für jeden Kontakt bereitzustellen.
 
-## Überblick über die Entscheidungsfunktionen
+## Übersicht über die Entscheidungsfunktionen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in die Entscheidungsfunktionen
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Tools und Funktionen in Adobe Journey Optimizer, die
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Entscheidungsfindung in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie die Bereitstellung personalisierter Inhalte mithilfe von E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Entscheidungs-Management in Adobe Journey Optimizer
 

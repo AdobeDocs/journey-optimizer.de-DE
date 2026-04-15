@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '1859'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -232,7 +232,7 @@ Mit der folgenden Abfrage wird unter Berücksichtigung der Groß-/Kleinschreibun
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Gleich ohne Groß-/Kleinschreibung{#equalsIgnoreCase}
+## Groß-/Kleinschreibung ignorieren{#equalsIgnoreCase}
 
 Mit der Funktion `equalsIgnoreCase` wird bestimmt, ob eine Zeichenfolge gleich der angegebenen Zeichenfolge ist, wobei nicht zwischen Groß- und Kleinschreibung unterschieden wird.
 
@@ -575,7 +575,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Entspricht nicht (Groß-/Kleinschreibung ignorieren) {#not-equal-with-ignore-case}
+## Ungleich Groß-/Kleinschreibung ignorieren {#not-equal-with-ignore-case}
 
 Die Funktion `notEqualWithIgnoreCase` wird verwendet, um zwei Zeichenfolgen zu vergleichen, wobei Groß-/Kleinschreibung ignoriert wird.
 
@@ -648,7 +648,7 @@ Gibt „Hallo Mark, hier ist dein monatlicher Newsletter!“ zurück.
 
 ## Alle ersetzen{#replaceAll}
 
-Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Textes, die mit dem „Regex“-Ausdruck übereinstimmen, durch die angegebene literale „Ersatz“-Zeichenfolge zu ersetzen. Regex hat eine besondere Handhabung für „\“ und „+“, und alle Regex-Ausdrücke folgen der PQL-Escaping-Strategie. Die Ersetzung erfolgt vom Anfang der Zeichenfolge zum Ende, z. B. führt ein Ersetzen von „aa“ in der Zeichenfolge „aaa“ durch „b“ zu „ba“ und nicht zu „ab“.
+Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Textes, die mit dem „Regex“-Ausdruck übereinstimmen, durch die angegebene literale „Ersatz“-Zeichenfolge zu ersetzen. Regex hat eine besondere Handhabung für „\“ und „+“, und alle Regex-Ausdrücke folgen der PQL-Escaping-Strategie. Die Ersetzung verläuft vom Anfang der Zeichenfolge zum Ende. Wenn Sie z. B. in der Zeichenfolge „aaa“ „aa“ durch „b“ ersetzen, erhalten Sie „ba“ und nicht „ab“.
 
 **Syntax**
 
@@ -691,7 +691,7 @@ Mit der Funktion `SHA256` wird der sha256-Hash eines Strings berechnet und zurü
 
 Gibt `0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d` zurück
 
-## Teilen {#split}
+## Aufspaltung {#split}
 
 Die Funktion `split` wird verwendet, um eine Zeichenfolge durch ein bestimmtes Zeichen zu teilen.
 
@@ -798,9 +798,9 @@ Die Funktion `toBool` wird verwendet, um einen Argumentwert je nach Typ in einen
 {= toBool(string) %}: boolean
 ```
 
-## Zu Uhrzeit-/Datumsangabe {#to-date-time}
+## Bis Datum/Uhrzeit {#to-date-time}
 
-Die Funktion `toDateTime` wird verwendet, um die Zeichenfolge in ein Datum zu konvertieren. Bei einer ungültigen Eingabe wird als Ausgabe das Epoch-Datum zurückgegeben.
+Die Funktion `toDateTime` wird verwendet, um die Zeichenfolge in ein Datum zu konvertieren. Bei einer ungültigen Eingabe wird als Ausgabe das Epochen-Datum zurückgegeben.
 
 **Syntax**
 
@@ -808,7 +808,7 @@ Die Funktion `toDateTime` wird verwendet, um die Zeichenfolge in ein Datum zu ko
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## Nur zu Datums-/Uhrzeitangabe {#to-date-time-only}
+## Nur zu Uhrzeit-/Datumsangabe {#to-date-time-only}
 
 Die Funktion `toDateTimeOnly` wird verwendet, um einen Argumentwert in einen Datums-/Uhrzeitwert zu konvertieren. Bei einer ungültigen Eingabe wird als Ausgabe das Epoch-Datum zurückgegeben. Diese Funktion akzeptiert die Feldtypen string, date, long und int.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: db1e4ee5b2b4bb3a3d7d9e86aded14ad3c613765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 17%
@@ -32,7 +32,7 @@ Um auf das Dashboard zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** >
 
 [!DNL Adobe Journey Optimizer] können Sie im Dashboard die Anzahl der (**Profile)**.
 
-## Was ist ein „Engageable Profile“? {#what-is-engageable-profile}
+## Was ist ein kontaktierbares Profil? {#what-is-engageable-profile}
 
 Ein **Ansprechbares Profil** ist ein Datensatz mit Informationen, die eine Person darstellen, die im Profil-Service gespeichert ist und von Journey oder Kampagnen kontaktiert wurde.
 
@@ -91,7 +91,7 @@ Gehen Sie wie folgt vor, um dieses Problem zu beheben:
 4. **Verringern der adressierbaren Zielgruppengröße:**
 
    * Pseudonyme Profile löschen, falls erforderlich. Beachten Sie, dass diese Aktion sowohl Journey Optimizer als auch Real-Time Customer Data Platform betrifft.
-   * Weitere Informationen zum Ablauf [&#x200B; Daten pseudonymer Profile &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} Sie im Handbuch zum Echtzeit-Kundenprofil .
+   * Weitere Informationen zum Ablauf [ Daten pseudonymer Profile ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} Sie im Handbuch zum Echtzeit-Kundenprofil .
    * **Hinweis:** Ablauf von Daten pseudonymer Profile kann nicht über die Platform-Benutzeroberfläche oder APIs konfiguriert werden. Sie müssen sich an den Support wenden, um diese Funktion zu aktivieren.
 
 5. **Datensatzänderungen überwachen:**

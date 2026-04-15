@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 91%
@@ -140,7 +140,7 @@ Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des KI-Assistenten 
 * Die Verwendung des KI-Assistenten unterliegt den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. [Weitere Informationen](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Im Zuge seiner Selbstverpflichtung zur Förderung von Transparenz bei der Nutzung generativer KI-Tools zur Medienerstellung wendet Adobe Content Credentials an, wenn Inhalte oder Projekte mit einem Firefly-generierten Asset heruntergeladen oder exportiert werden. [Weitere Informationen](https://helpx.adobe.com/de/firefly/using/content-credentials.html)
 
-### KI-Assistent im Personalization-Editor {#ai-assistant-personalization-editor-guardrails}
+### KI-Assistent im Personalisierungseditor {#ai-assistant-personalization-editor-guardrails}
 
 Die folgenden Leitplanken gelten für den [KI-Assistenten für Personalisierungsausdrücke](generative-personalization-expressions.md) im [!UICONTROL Personalization-Editor].
 

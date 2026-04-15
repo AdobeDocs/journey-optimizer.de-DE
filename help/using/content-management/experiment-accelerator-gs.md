@@ -8,14 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
-source-git-commit: 460ac269404842001f320df6404db474a34c30b7
-workflow-type: ht
+exl-id: 8913889e-3c8d-414f-8300-16fc1bd30607
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Erste Schritte mit Journey Optimizer Experimentation Accelerator {#content-experiment}
+# Erste Schritte mit dem Journey Optimizer Experimentation Accelerator {#content-experiment}
 
 >[!AVAILABILITY]
 >

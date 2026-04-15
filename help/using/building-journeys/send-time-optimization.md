@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Versandzeit, senden, Nachricht, Optimierung, Journey, KI, intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1567'
-ht-degree: 78%
+ht-degree: 77%
 
 ---
 
@@ -45,7 +45,7 @@ Die Optimierung des Versandzeitpunkts ist nur für die integrierten Aktionstypen
 >* Die Funktion zur Optimierung der Versandzeit gilt nur für die Kanäle **E-Mail** und **Push-Benachrichtigung**.
 >
 
-## Verwenden der Optimierung des Versandzeitpunkts{#use-send-time-optimization}
+## Verwenden der Sendezeitoptimierung{#use-send-time-optimization}
 
 Gehen Sie wie folgt vor, um die Sendezeitoptimierung für eine E-Mail- oder Push-Aktion zu aktivieren und zu konfigurieren.
 
@@ -75,7 +75,7 @@ Wenn Ihre Journey aktiviert ist und eine Kundin bzw. ein Kunde die E-Mail- oder 
 
 Informationen zur Überwachung der Leistung der Journey finden Sie auf der [Übersichtsseite](../reports/channel-report-cja.md).
 
-## Funktionsweise der Optimierung des Versandzeitpunkts {#how-send-time}
+## Funktionsweise der Sendezeitoptimierung {#how-send-time}
 
 Das Modell „Optimierung des Versandzeitpunkts“ nimmt die [!DNL Adobe Journey Optimizer] Kundenverhaltensdaten Ihres Unternehmens auf und betrachtet Öffnungs- und Klickereignisse auf Benutzerebene, um zu bestimmen, wann Ihre Kunden mit der größten Wahrscheinlichkeit mit Ihrer Nachricht interagieren.
 

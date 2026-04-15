@@ -5,7 +5,7 @@ title: Kanal für Push-Benachrichtigungen
 description: Kanal für Push-Benachrichtigungen
 redpen-status: CREATED_||_2025-08-11_20-37-12
 exl-id: 8d82ef2f-91ee-4502-9a01-f66ccbd55fea
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
@@ -30,15 +30,15 @@ Push-Benachrichtigungen können erstellt werden:
 
 >[!NOTE]
 >
->Während **[!DNL Journey Optimizer]** Möglichkeiten zum Verwalten des Opt-outs in E-Mails und SMS-Nachrichten bietet, erfordern Push-Benachrichtigungen keine Aktion von Ihrer Seite, da sich Empfänger selbst über ihre Geräte abmelden können. Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer Mobile App deaktivieren. Ebenso können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem ändern.
+>Während **[!DNL Journey Optimizer]** Möglichkeiten zum Verwalten des Opt-outs in E-Mails und SMS-Nachrichten bietet, erfordern Push-Benachrichtigungen keine Aktion von Ihrer Seite, da sich Empfänger selbst über ihre Geräte abmelden können. Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer App deaktivieren. Ebenso können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem ändern.
 
 
-## Push-Benachrichtigungs-Kanal
+## Kanal für Push-Benachrichtigungen
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen und Konfigurieren von Push-Benachrichtigungen
 
@@ -48,7 +48,7 @@ Schritt-für-Schritt-Handbuch zum Erstellen und Konfigurieren von Push-Benachric
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Gestalten einer Push-Benachrichtigung
 
@@ -58,7 +58,7 @@ Entdecken Sie, wie Sie Push-Benachrichtigungen mit Medien, Schaltflächen, still
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Vorschau, Validieren und Senden von Push-Benachrichtigungen
 
@@ -68,7 +68,7 @@ Erfahren Sie, wie Sie Push-Benachrichtigungen in der Vorschau anzeigen, validier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfiguration von Push-Benachrichtigungen
 

@@ -7,14 +7,14 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
-# Verwenden der Entscheidungsfindung in einem Code-basierten Erlebnis mit Inhaltsexperimenten {#experience-decisioning-uc}
+# Verwenden von Decisioning in einem Code-basierten Erlebnis mit Inhaltsexperiment {#experience-decisioning-uc}
 
 In diesem Anwendungsfall werden alle Schritte vorgestellt, die zur Verwendung der Entscheidungsfindung mit dem Code-basierten [!DNL Journey Optimizer]-Kanal erforderlich sind.
 

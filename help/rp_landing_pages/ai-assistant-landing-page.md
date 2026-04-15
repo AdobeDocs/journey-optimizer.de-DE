@@ -5,10 +5,10 @@ title: KI-Assistent für die Inhaltsgenerierung
 description: KI-Assistent für die Inhaltsgenerierung
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Der KI-Assistent von Adobe Journey Optimizer revolutioniert die Erstellung von Inhalten, indem er generative KI nutzt, um personalisierte Texte und Grafiken für E-Mails, SMS, Push-Benachrichtigungen, Web-Seiten und mehr zu erstellen. Unabhängig davon, ob Sie vollständige Kampagnen generieren oder bestimmte Assets verfeinern, hilft Ihnen diese Funktion, Inhalte nahtlos an Ihren Markenrichtlinien auszurichten und dabei noch Zeit zu sparen. Sie erfahren, wie Sie auf den KI-Assistenten zugreifen, die Schutzmaßnahmen verstehen und die Funktionen kanalübergreifend nutzen können. Jedes Unterthema bietet praktische Anleitungen – von der Erstellung ansprechender E-Mails bis hin zum Experimentieren mit Inhaltsvarianten –, damit Sie mit Zuversicht wirkungsvolle, markengerechte Kampagnen erstellen können, die bei Ihrer Zielgruppe Anklang finden.
 
-## KI-Assistent für die Inhaltsgenerierung
+## KI-Assistent für die Inhaltserstellung
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit dem KI-Assistenten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie auf die Funktion „KI-Assistent“ zugreifen und diese ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Generieren von vollständigem Inhalt
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie mit dem KI-Assistenten vollständige Inhalte erstellen kö
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Generieren von Text
 
@@ -50,7 +50,7 @@ Verwenden Sie den KI-Assistenten, um Textinhalte für alle Kanäle zu generieren
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Generieren von Bildern
 

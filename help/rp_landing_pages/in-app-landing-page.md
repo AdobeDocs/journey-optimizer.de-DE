@@ -5,10 +5,10 @@ title: In-App-Kanal
 description: In-App-Kanal
 redpen-status: CREATED_||_2025-08-11_20-36-05
 exl-id: 79283c99-af70-4871-a72a-dec0b2e39c5a
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Der In-App-Kanal in Adobe Journey Optimizer ermöglicht es Ihnen, über personal
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 In-App-Kanalkonfiguration
 
@@ -31,7 +31,7 @@ Schrittweise Anleitung zum Einrichten von Berechtigungen, Versandeinstellungen u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen von In-App-Nachrichten für Mobilgeräte
 
@@ -41,7 +41,7 @@ Erfahren Sie, wie Sie mithilfe von Triggern, Kampagnen und Journeys In-App-Nachr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Erstellen von Web-In-App-Nachrichten
 
@@ -51,7 +51,7 @@ Konfigurieren und erstellen Sie Web-In-App-Messaging-Kampagnen mit Triggern, Zie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
 
 Entwerfen und Anpassen von In-App-Inhalten
 
@@ -61,7 +61,7 @@ Erkunden Sie Layout-Optionen, personalisieren Sie Inhalte und verwenden Sie die 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Überprüfen und Senden von In-App-Benachrichtigungen
 

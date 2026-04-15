@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 05f076f19a348032e5bb21d7d1682509bd5d2658
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2022'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -153,7 +153,7 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
    >
    >Header werden gemäß den folgenden Parsing-Regeln validiert. Weitere Informationen finden Sie in [dieser Dokumentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## Transport Security Layer {#tls}
+## Transport-Sicherheitsschicht {#tls}
 
 ### TLS-Protokoll-Unterstützung {#tls-protocol-support}
 
@@ -179,7 +179,7 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
    ![](assets/response-values.png){width="70%" align="left"}
 
-1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [&#x200B; Journey &#x200B;](../action/action-response.md).
+1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [ Journey ](../action/action-response.md).
 
    ![](assets/response-values.png){width="70%" align="left"}
 

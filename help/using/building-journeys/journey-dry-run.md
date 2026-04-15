@@ -9,10 +9,10 @@ level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -124,14 +124,14 @@ Links zu den Berichten der letzten 24 Stunden und der gesamten Zeit sind im Bes
 
 ## Leitlinien und Einschränkungen {#journey-dry-run-limitations}
 
-* Profile im Dry-Run-Modus werden in Richtung [Engagierbare Profile“ &#x200B;](../audience/license-usage.md)
+* Profile im Dry-Run-Modus werden in Richtung [Engagierbare Profile“ ](../audience/license-usage.md)
 * Journeys im Probelaufmodus werden auf das Live-Journey-Kontingent angerechnet.
 * Probelauf-Journeys wirken sich nicht auf Geschäftsregeln aus.
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * Aktionen des Typs **Sprung** sind im Probelauf nicht aktiviert.
 Wenn eine Quell-Journey ein **Sprung**-Ereignis zu einer Ziel-Journey auslöst, gilt dieses Sprung-Ereignis nicht für eine Probelaufversion der Journey. Wenn sich beispielsweise die neueste Journey-Version im Probelauf befindet und die vorherige Version **Live** ist, ignoriert das Sprung-Ereignis die Probelaufversion und betrifft nur die **Live**-Version.
 
-## Journey-Schrittereignisse und -Probelauf {#journey-step-events}
+## Journey-Schrittereignisse und Probelauf {#journey-step-events}
 
 Ein Journey-Probelauf generiert **stepEvents**. Diese stepEvents haben eine bestimmte Markierung und eine Probelauf-ID: `inDryRun` und `dryRunID`.
 
@@ -149,4 +149,4 @@ Bei der Analyse von **Journey** Berichtsmetriken mithilfe [!DNL Adobe Experience
 
 In diesem Video erfahren Sie, wie Sie einen Probelauf für Ihre Journeys ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464691/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

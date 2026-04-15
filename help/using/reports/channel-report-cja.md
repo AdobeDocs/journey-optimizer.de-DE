@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 62%
@@ -143,7 +143,7 @@ Die Tabelle **[!UICONTROL Journey-Begrenzung und -Konflikte]** bietet Einblicke 
 
 Die Spalte **[!UICONTROL Journey-Einträge nach Regelsatz]** zeigt die Anzahl der Profile an, die die Journey betreten haben. Es gibt drei Arten von Eingängen:
 
-* **&#x200B;**&#x200B;[!UICONTROL Kein Konflikt]&#x200B;**&#x200B;**: Das Profil ist ohne Regelsatzkonflikte auf die Journey gelangt. Keine aktiven Regelsätze verhinderten diese Eingabe, und der Journey-Eintrag erfolgte unabhängig von den Schlichtungsregeln.
+* ****[!UICONTROL Kein Konflikt]****: Das Profil ist ohne Regelsatzkonflikte auf die Journey gelangt. Keine aktiven Regelsätze verhinderten diese Eingabe, und der Journey-Eintrag erfolgte unabhängig von den Schlichtungsregeln.
 
 * **Höhere Priorität**: Das Profil ist auf die Journey gelangt, da es eine höhere Priorität hat als andere konkurrierende Journey. Obwohl ein Konflikt aufgetreten ist (das Profil hat sich für mehrere Journey qualifiziert), wurde diese Journey aufgrund ihres höheren Prioritätswerts ausgewählt.
 

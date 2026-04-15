@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Subdomain, Zuweisung, Migration, CNAME, benutzerdefinierte Zuweisung
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 18%
@@ -40,7 +40,7 @@ Bevor Sie mit dem Migrationsprozess beginnen, lesen Sie die folgenden wichtigen 
 
 >[!IMPORTANT]
 >
->Eine Subdomain, die eingerichtet wurde, kann nur mit der [CNAME-Methode) migriert &#x200B;](delegate-subdomain.md#cname-subdomain-setup).
+>Eine Subdomain, die eingerichtet wurde, kann nur mit der [CNAME-Methode) migriert ](delegate-subdomain.md#cname-subdomain-setup).
 
 * Stellen Sie sicher, dass die **Methode der benutzerdefinierten Delegierung“ für** Unternehmen aktiviert ist (diese Funktion ist derzeit nur eingeschränkt verfügbar. Bitte den Adobe-Support kontaktieren, um Zugang zu erhalten). [Weitere Informationen](delegate-custom-subdomain.md)
 * Stellen Sie sicher, dass diese Subdomain nicht von aktiven Kanalkonfigurationen verwendet wird. Der Migrationsprozess unterbricht ihre Funktionalität.
@@ -132,7 +132,7 @@ Im Abschnitt **[!UICONTROL SSL-Zertifikat]** müssen Sie ein neues SSL-Zertifika
 
 Überprüfen Sie davor Folgendes:
 
-* Wenn Sie Ihre CSR bereits im Rahmen der [Schritte vor der Migration“ an die Zertifizierungsstelle gesendet &#x200B;](#start-migration), stellen Sie sicher, dass Sie Ihr SSL-Zertifikat erhalten haben.
+* Wenn Sie Ihre CSR bereits im Rahmen der [Schritte vor der Migration“ an die Zertifizierungsstelle gesendet ](#start-migration), stellen Sie sicher, dass Sie Ihr SSL-Zertifikat erhalten haben.
 
 * Wenn Sie dies noch nicht getan haben, führen Sie die Schritte zum [Generieren, Herunterladen und Senden der CSR](#send-csr-to-ca) aus.
 

@@ -3,17 +3,17 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Erste Schritte mit dem Entscheidungs-Management
 description: Erfahren Sie, wie Adobe Journey Optimizer Ihnen dabei helfen kann, Ihren Kunden das richtige Angebot zum richtigen Zeitpunkt zu senden.
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ Dank der Entscheidungs-Management-Funktionen und der Integration mit Adobe Exper
 
   ![](../../assets/do-not-localize/call-center.png)
 
-## Zugriff auf das Entscheidungs-Management gewähren {#granting-acess-to-decision-management}
+## Zugriff auf Entscheidungs-Management gewähren {#granting-acess-to-decision-management}
 
 Die Zugriffsberechtigungen und die Verwendung der Entscheidungsfunktionen werden mithilfe der [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html){target="_blank"} verwaltet.
 
@@ -114,12 +114,12 @@ Unten finden Sie eine Liste der wichtigsten Konzepte bei der Verwendung des Ents
 
 Das folgende Video bietet eine Einführung in die wichtigsten Funktionen, Architekturmerkmale und Anwendungsfälle des Entscheidungs-Managements:
 
->[!VIDEO](https://video.tv.adobe.com/v/340413?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Angebote definieren und verwalten {#use-offer-decisioning}
 
 Das folgende Video zeigt, wie Sie mit dem Entscheidungs-Management Angebote definieren und verwalten sowie Echtzeit-Kundendaten nutzen können.
 
->[!VIDEO](https://video.tv.adobe.com/v/340351?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

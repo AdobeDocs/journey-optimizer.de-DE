@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen
 
 Erfahren Sie mehr über [Journey Optimizer und Assets Express](../integrations/express.md).
 
-## GenStudio for Performance Marketing
+## GenStudio für Performance-Marketing
 
 Adobe GenStudio for Performance Marketing ist eine generative KI-First-Anwendung, mit der Marketing-Teams ihre eigenen Anzeigen und E-Mails erstellen können, um wirkungsvolle, personalisierte Marketing-Kampagnen voranzubringen, die Ihren Markenstandards und Unternehmensrichtlinien entsprechen. Dank der KI-Technologie von Adobe bietet diese Anwendung eine umfassende Palette an Tools, die die komplexe Erstellung und Verwaltung von Inhalten vereinfachen, sodass sich Kreative darauf konzentrieren können, innovativ zu sein.
 
@@ -120,7 +120,7 @@ Weitere Informationen zu [Journey Optimizer und Campaign Standard](../building-j
 
 Verwenden Sie die Adobe Journey Optimizer-Module in Adobe Workfront, um Einträge zu erstellen, zu lesen, zu aktualisieren, zu löschen oder führen Sie einen benutzerdefinierten API-Aufruf an die Adobe Journey Optimizer-API durch.
 
-Eine Übersicht über den wichtigsten Schritt bei dieser Integration finden Sie in [diesem Blogpost](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=de){target="_blank"}.
+Eine Übersicht über den wichtigsten Schritt bei dieser Integration finden Sie in [diesem Blogpost](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Weitere Informationen zu Journey Optimizer und Adobe Workfront finden Sie in der [Dokumentation zu Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=de){target="_blank"}.
 

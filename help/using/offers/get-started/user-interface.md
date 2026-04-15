@@ -3,17 +3,17 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Benutzeroberfläche der Angebotsbibliothek
 description: Erfahren Sie mehr über die Benutzeroberfläche der Angebotsbibliothek
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '654'
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ Verwenden Sie das **[!UICONTROL Komponenten]**-Menü zum Erstellen und Verwalten
 >
 >Wenn beim Zugriff auf Entscheidungs-Management oder einige seiner Funktionen Probleme auftreten, wenden Sie sich an eine Administratorin oder einen Administrator, um zu ermitteln, ob Ihnen die erforderlichen Berechtigungen gewährt wurden. Siehe [Zugriff auf Entscheidungs-Management gewähren](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 Wenn Sie mit [!DNL decision management] noch nicht vertraut sind, führt Sie die Registerkarte **[!UICONTROL Übersicht]** durch die wichtigsten Schritte, die zum Erstellen Ihrer ersten Angebotsentscheidung erforderlich sind. Führen Sie die Schritte auf dem Bildschirm aus, um mit der Erstellung von Platzierungen, Angeboten und Sammlungen zu beginnen. Sobald Sie diese ersten Schritte ausgeführt haben, werden Sie dazu aufgefordert, Angebotsentscheidungen zu erstellen.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Sie können auf Ihren Code-basierten Kampagnenbericht zugreifen, indem Sie in Ih
 
 >[!NOTE]
 >
->Code-basierte Erlebnisse fungieren als eingehende Interaktionen, bei denen sich Benutzer per Zugriff auf Ihre Site oder Ihr Programm anmelden. Daher **die Metriken** Targeting **oder Audience**, mit denen für den ausgehenden Nachrichtenversand ausgewählte Profile verfolgt werden, für Code-basierte Kampagnen nicht inkrementiert.
+>Code-basierte Erlebnisse fungieren als eingehende Interaktionen, bei denen sich Benutzende per Zugriff auf Ihre Site oder Ihr Programm anmelden. Daher werden die Metriken für **Targeting** oder **Zielgruppe**, mit denen für den ausgehenden Nachrichtenversand ausgewählte Profile verfolgt werden, für Code-basierte Kampagnen nicht inkrementiert.
 
 ## Anzeigen und Klicken {#impressions-code}
 
@@ -165,7 +165,7 @@ Zu den angezeigten Schlüsselmetriken gehören:
 >
 >Derzeit ist der Bericht [Steigerungsmessung](../experience-decisioning/ranking/auto-optimization-model.md#lift) nur für das KI-Modell [Personalisierte Optimierung](../experience-decisioning/ranking/personalized-optimization-model.md) verfügbar. Wenn Sie Berichte zur Steigerungsmessung benötigen, verwenden Sie also stattdessen das Optimierungsmodell „Personalisiert“.
 
-### Konversionsrate für Holdout- und modellgesteuerten Traffic {#conversion-rate}
+### Konversionsrate für zurückhaltenden und modellgesteuerten Traffic {#conversion-rate}
 
 >[!NOTE]
 >

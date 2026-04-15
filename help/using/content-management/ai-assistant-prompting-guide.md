@@ -7,10 +7,10 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2107'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -297,9 +297,9 @@ Sobald der Inhalt generiert wurde, verwenden Sie die Funktion **Verfeinern**, um
 | **Ton ändern** | Anpassen von Inhalten für verschiedene Zielgruppen | „Lockere den Ton für jüngere Bevölkerungsgruppen auf“ |
 | **Transkreation** | Kulturelle Anpassung über reine Übersetzung hinaus | „Erstelle eine Transkreation dieser Kampagne für den japanischen Markt“ |
 
-## Beispiele für szenariobasierte Prompts
+## Szenariobasierte Eingabeaufforderungsbeispiele
 
-### Basierend auf Inhaltstyp {#content-type-practices}
+### Basierend auf Content-Typ {#content-type-practices}
 
 <table style="table-layout: fixed; border: 0;">
 <thead>

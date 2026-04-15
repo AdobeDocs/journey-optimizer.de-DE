@@ -6,10 +6,11 @@ description: Grundlegende Begriffe und Konzepte in Adobe Journey Optimizer
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
-workflow-type: ht
+exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +49,7 @@ In diesem Referenzhandbuch werden die wichtigsten Begriffe definiert, die bei de
 | **Kontaktierbare Zielgruppe** | Die Anzahl der Kundenprofile, mit denen Sie sich basierend auf Ihrer Lizenzvereinbarung aktiv über Adobe Journey Optimizer in Verbindung setzen können. Dies bezieht sich in der Regel auf Profile, mit denen Sie innerhalb der letzten 12 Monate interagiert haben. |
 | **Testprofil** | Fiktive Profile, die zum Testen und zur Vorschau von Nachrichten verwendet werden, bevor sie an echte Kundschaft gesendet werden. Mit Testprofilen können Sie Personalisierung, Inhalte und Journey-Logik prüfen. [Weitere Informationen](../audience/creating-test-profiles.md) |
 
-## Begriffe in Bezug auf Inhalte und Personalisierung {#content-terms}
+## Begriffe für Inhalt und Personalisierung {#content-terms}
 
 | Begriff | Definition |
 |------|------------|
@@ -57,7 +58,7 @@ In diesem Referenzhandbuch werden die wichtigsten Begriffe definiert, die bei de
 | **Fragment** | Ein wiederverwendbarer Inhaltsbaustein (z. B. Kopfzeile, Fußzeile oder Werbe-Banner), der für mehrere Nachrichten verwendet werden kann, um Konsistenz zu gewährleisten und zentralisierte Aktualisierungen zu ermöglichen. [Weitere Informationen](../content-management/fragments.md) |
 | **Landingpage** | Eine eigenständige Web-Seite, auf der Kundinnen und Kunden sich für die Kommunikation anmelden oder abmelden, Services abonnieren oder Informationen über Online-Formulare bereitstellen können. [Weitere Informationen](../landing-pages/get-started-lp.md) |
 
-## Begriffe in Bezug auf Entscheidungen und Angebote {#decision-terms}
+## Entscheidungs- und Angebotsbedingungen {#decision-terms}
 
 | Begriff | Definition |
 |------|------------|
@@ -65,7 +66,7 @@ In diesem Referenzhandbuch werden die wichtigsten Begriffe definiert, die bei de
 | **Angebot** | Eine Marketing-Nachricht, ein Rabatt oder eine Promotion, die bzw. der Kundinnen und Kunden präsentiert werden kann. Angebote beinhalten Eignungsregeln, die bestimmen, welche Personen sie erhalten können. [Weitere Informationen](../offers/offer-library/creating-personalized-offers.md) |
 | **Entscheidungsrichtlinie** | Eine Reihe von Regeln und Strategien, die basierend auf Einschränkungen wie Berechtigung, Priorität und Begrenzungsregeln bestimmen, welches Angebot welcher Person zu welchem Zeitpunkt angezeigt werden soll. [Weitere Informationen](../experience-decisioning/create-decision.md) |
 
-## Begriffe in Bezug auf Daten und Konfiguration {#data-config-terms}
+## Daten- und Konfigurationsbedingungen {#data-config-terms}
 
 | Begriff | Definition |
 |------|------------|
@@ -81,4 +82,3 @@ In diesem Referenzhandbuch werden die wichtigsten Begriffe definiert, die bei de
 * [Grundlegendes zur Funktionsweise von Journey Optimizer](understanding-ajo.md)
 * [Erste Schritte mit der Benutzeroberfläche](user-interface.md)
 * [Auswählen Ihrer Rolle und Ihres Lernpfads](quick-start.md)
-

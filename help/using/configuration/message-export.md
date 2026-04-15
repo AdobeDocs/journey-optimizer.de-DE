@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Export, Nachrichten, HIPAA, E-Mails, SMS, Konfiguration
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '701'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -39,7 +39,7 @@ Datensätze werden dann sieben Kalendertage nach der Aufnahme im Datensatz aufbe
 * Datensätze im AJO-Nachrichtenexport-Datensatz werden **sieben Kalendertage nach der Aufnahme)**.
 * Die Aufstockung wird nicht für Nachrichten unterstützt, die vor dem Aktivieren des Nachrichtenexports gesendet wurden (wie unten beschrieben).
 
-## Aktivieren des Nachrichtenexports {#enable-message-export}
+## Nachrichtenexport aktivieren {#enable-message-export}
 
 Der Onboarding-Prozess für die Funktion „Nachrichtenexport“ besteht aus zwei Schritten:
 
