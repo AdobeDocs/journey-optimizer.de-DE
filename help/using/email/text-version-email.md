@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Text, E-Mail, Version, Nur-Text, Editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1141'
 ht-degree: 11%
 
 ---
@@ -48,21 +48,24 @@ Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führe
 >
 > * Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
 
-## Textversion für KI-Posteingänge optimieren {#optimize-plain-text-ai}
+<!--
+## Optimize the text version for AI inboxes {#optimize-plain-text-ai}
 
-Mithilfe der Schaltfläche „Für KI-Posteingang optimieren“ können Sie KI-gestützte Posteingangsfunktionen (z. B. Zusammenfassungen in [!DNL Gmail], [!DNL Outlook] oder [!DNL Apple Mail]) bei der Erstellung Ihrer wichtigen Angebote **[!UICONTROL Details]**. Diese Aktion erzeugt eine verbesserte Nur-Text-Version, die sich auf Informationen konzentriert, die Assistenten wahrscheinlich aus dem Textteil der Nachricht lesen.
+You can help AI-powered inbox features (such as summaries in [!DNL Gmail], [!DNL Outlook], or [!DNL Apple Mail]) surface your key offers and details by using the **[!UICONTROL Optimize for AI Inbox]** button. That action generates an improved plain text version focused on information assistants are likely to read from the text part of the message.
 
-![Schaltfläche „Für KI-Posteingang optimieren“ in der Textansicht](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+![Optimize for AI Inbox button in the text version view](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
 >[!IMPORTANT]
 >
->Bei Verwendung dieser Funktion wird die Option **[!UICONTROL Mit HTML synchronisieren]** automatisch deaktiviert.
+>When using this capability, the **[!UICONTROL Sync with HTML]** option is automatically disabled.
 
-Eine vollständige Anleitung und empfohlene Szenarien finden Sie unter [Optimieren von E-Mail-Text für KI-Posteingänge](llm-email-optimizer.md).
+For a full walkthrough and recommended scenarios, see [Optimize email text for AI inboxes](llm-email-optimizer.md).
+-->
 
 ## Verwendung benutzerdefinierter Nur-Text-Versionen {#when-to-use}
 
 Wenn Sie verstehen, wann eine benutzerdefinierte Nur-Text-Version im Vergleich zur Verwendung der automatischen Synchronisierung erstellt werden muss, wird ein optimaler E-Mail-Versand und eine optimale Lesbarkeit sichergestellt.
+
 
 ### Benutzerdefinierten Text verwenden (Synchronisierung deaktivieren), wenn:
 
