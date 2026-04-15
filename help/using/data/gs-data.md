@@ -29,7 +29,7 @@ Auf dieser Seite erhalten Sie einen praktischen Ausgangspunkt zum Verständnis:
 Verwenden Sie dieses Handbuch zusammen mit Ihren Dateningenieuren, Administratoren und Marketern, damit jeder Benutzer ein gemeinsames Bild davon hat, wie Daten in Journey Optimizer ein- und ausfließen.
 
 >[!TIP]
->Neu bei der Datenverwaltung in Journey Optimizer? Sehen Sie sich [ Tutorial zum Einrichten ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} Datenübersicht an, um eine praktische, anfängerfreundliche Anleitung für Schemata, Datensätze und Quellen zu erhalten.
+>Neu bei der Datenverwaltung in Journey Optimizer? Sehen Sie sich [&#x200B; Tutorial zum Einrichten &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} Datenübersicht an, um eine praktische, anfängerfreundliche Anleitung für Schemata, Datensätze und Quellen zu erhalten.
 
 ## Verwendung von Adobe Experience Platform-Daten durch Journey Optimizer {#aep-data}
 
@@ -178,7 +178,7 @@ Das Konfigurieren von Datenquellen ist eine Verwaltungsaufgabe, die die vollstä
 Einige Produkt-Leitplanken und Einschränkungen können sich auf die Gestaltung Ihres Datenmodells und Ihrer Journey auswirken. Überprüfen Sie diese frühzeitig, um eine spätere Überarbeitung zu vermeiden.
 
 >[!IMPORTANT]
->Die neuesten Informationen finden Sie immer auf der Seite [Leitplanken und Einschränkungen ](../start/guardrails.md) Journey Optimizer . In den nachstehenden Zusammenfassungen werden die wichtigsten Punkte hervorgehoben, sie können sich jedoch im Laufe der Zeit weiterentwickeln.
+>Die neuesten Informationen finden Sie immer auf der Seite [Leitplanken und Einschränkungen &#x200B;](../start/guardrails.md) Journey Optimizer . In den nachstehenden Zusammenfassungen werden die wichtigsten Punkte hervorgehoben, sie können sich jedoch im Laufe der Zeit weiterentwickeln.
 
 ### Journey Optimizer-Systemdatensätze und TTL {#datasets-ttl}
 
@@ -206,7 +206,7 @@ Das folgende Beispiel zeigt, wie die Konzepte auf dieser Seite in einem einfache
 1. [Profil-Datensätze](get-started-datasets.md) werden für jedes Schema erstellt: einen für CRM-Attribute und einen für Anmeldungsereignisse.
 1. Web- und Mobile-Teams streamen Registrierungsereignisse über Adobe Experience Platform Web SDK. CRM-Daten werden über einen [Quell-Connector](../start/get-started-sources.md) aufgenommen.
 1. Ein Administrator konfiguriert die [Adobe Experience Platform-Datenquelle](../datasource/adobe-experience-platform-data-source.md) in Journey Optimizer und macht Felder wie `profile.person.name.firstName`, `profile.personalEmail.address` und `profile.loyaltyTier` verfügbar.
-1. Ein Marketing[Experte erstellt eine Begrüßungs-Journey](../building-journeys/journey-gs.md), die auf ein Registrierungsereignis wartet und diese Profilattribute verwendet, um [ Begrüßungs-E-Mail zu personalisieren](../personalization/personalize.md). Journey Optimizer schreibt Ereignisse zum Senden und Öffnen in Tracking-Datensätze und protokolliert den Journey-Fortschritt in Journey-Schritt-Ereignisdatensätzen.
+1. Ein Marketing[Experte erstellt eine Begrüßungs-Journey](../building-journeys/journey-gs.md), die auf ein Registrierungsereignis wartet und diese Profilattribute verwendet, um [&#x200B; Begrüßungs-E-Mail zu personalisieren](../personalization/personalize.md). Journey Optimizer schreibt Ereignisse zum Senden und Öffnen in Tracking-Datensätze und protokolliert den Journey-Fortschritt in Journey-Schritt-Ereignisdatensätzen.
 1. Entwicklerinnen und Entwickler verwenden [Abfrage-Editor](get-started-queries.md), um zu überprüfen, ob Ereignisse ordnungsgemäß fließen, und die Leistung (Öffnungen, Klicks, Versandzeit) zu analysieren. Basierend auf diesen Erkenntnissen passt das Team die Journey und den Inhalt an.
 
 Dieser Fluss veranschaulicht, wie Schemas, Datensätze, Quellen, Datenquellen und Abfragen in einem vollständigen, anfängerfreundlichen Anwendungsfall zusammenarbeiten.
