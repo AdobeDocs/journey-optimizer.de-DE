@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: d03d69a858be99e83c563d8577847b6a60032274
+source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 30%
@@ -123,3 +123,4 @@ Wenn Ihre Entscheidungsrichtlinie für zwei Angebote qualifiziert ist und jedes 
 >[!NOTE]
 >
 >Sie können ein Fragment weiterhin als obligatorisch markieren, indem Sie die `required`-Markierung auf `true` setzen. Wenn ein Fragment jedoch vorübergehend fehlt, kann dies dazu führen, dass das Journey- oder Kampagnen-Rendering fehlschlägt.
+

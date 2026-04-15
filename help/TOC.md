@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac163c2bfd1ec59fbf39547fbefdacd1adec3838
+source-git-commit: bff1526dc5a0553741f688032745861debc17ddd
 workflow-type: tm+mt
-source-wordcount: '3200'
+source-wordcount: '3205'
 ht-degree: 91%
 
 ---
@@ -288,6 +288,7 @@ ht-degree: 91%
             + [Nutzen von visuellen Fragmenten](using/email/use-visual-fragments.md)
             + [Hinzufügen von Links und Verfolgen von Nachrichten](using/email/message-tracking.md)
             + [Einfügen von personalisierten Angeboten](using/email/add-offers-email.md)
+            + [E-Mail für KI-Posteingänge optimieren](using/email/llm-email-optimizer.md)
             + [Textversion verwalten](using/email/text-version-email.md)
             + [Hinzufügen von Metadaten](using/email/email-metadata.md)
             + [Bearbeiten mit dem erweiterten HTML-Editor](using/email/email-expert-mode.md)
@@ -978,4 +979,3 @@ ht-degree: 91%
       + [Verwalten der Kundeneinstellungen](using/action/preference-center.md)
    + [Data Governance](using/action/action-privacy.md)
    + [Einrichten und Verwalten von kundenseitig verwalteten Schlüsseln](using/privacy/cmk.md)
-
