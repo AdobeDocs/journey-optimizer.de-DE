@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 90e71c42-94f3-4cc5-bd6e-1df29def4d39
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 110c4c9b12b085f3febb83f799f5fd0ba8a8b1fb
 workflow-type: tm+mt
 source-wordcount: '1432'
 ht-degree: 2%
@@ -104,7 +104,7 @@ Gehen Sie wie folgt vor, um Fehlerdetails für ein KI-Modell für die personalis
 
 1. Sie können überprüfen, welcher Datensatz in den (Eigenschaften **[!UICONTROL des Modells ausgewählt]**. Klicken Sie **[!UICONTROL Eigenschaften bearbeiten]**, um einen anderen Datensatz auszuwählen. [Weitere Informationen](create-ai-models.md)
 
-   ![](../assets/ai-model-properties-edit-dataset.png){align="left" width="45%"}
+   ![](../assets/ai-model-properties-edit-dataset.png){align="center" width="45%"}
 
 ## Häufig gestellte Fragen {#faq}
 
@@ -115,7 +115,7 @@ Die KI-Modellüberwachung wird derzeit nur für Modelle [personalisierte Optimie
 
 +++ Warum ist der Trainingsvorgang meines Modells fehlgeschlagen?
 
-Trainingsaufträge schlagen oft fehl, wenn der für das Modell ausgewählte Datensatz keine oder nur sehr wenige Feedback-(Konversions-)Ereignisse aufweist. Überprüfen Sie **[!UICONTROL Abschnitt „Letzter Trainingsvorgang]** auf die Fehlerdetails und überprüfen Sie dann die **[!UICONTROL Eigenschaften]** des Modells, um den Datensatz und die Optimierungsmetrik zu bestätigen. Füllen Sie den Datensatz mit den richtigen Ereignissen oder [&#x200B; Sie einen anderen Datensatz &#x200B;](create-ai-models.md) geeignete Konvertierungsdaten aus.
+Trainingsaufträge schlagen oft fehl, wenn der für das Modell ausgewählte Datensatz keine oder nur sehr wenige Feedback-(Konversions-)Ereignisse aufweist. Überprüfen Sie **[!UICONTROL Abschnitt „Letzter Trainingsvorgang]** auf die Fehlerdetails und überprüfen Sie dann die **[!UICONTROL Eigenschaften]** des Modells, um den Datensatz und die Optimierungsmetrik zu bestätigen. Füllen Sie den Datensatz mit den richtigen Ereignissen oder [ Sie einen anderen Datensatz ](create-ai-models.md) geeignete Konvertierungsdaten aus.
 +++
 
 +++ In welcher Beziehung steht die KI-Modellüberwachung zu Kampagnen- und Journey-Berichten?
@@ -167,7 +167,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 Erfahren Sie, wie Sie Ihre KI-Ranking-Modelle überwachen und den Trainings-Status und die Leistung in [!DNL Journey Optimizer] interpretieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479858?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
 
 ## Verwandte Dokumentation {#related}
 
