@@ -21,7 +21,7 @@ Zeichenfolgen sind die Bausteine textbasierter Daten, und die Zeichenfolgenfunkt
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Referenz zur Funktion „concat“
 
@@ -31,7 +31,7 @@ Erfahren Sie, wie Sie Zeichenfolgen oder eine Liste von Zeichenfolgen mithilfe d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Verwenden der Funktion „contain“
 
@@ -41,7 +41,7 @@ Entdecken Sie, wie Sie überprüfen können, ob eine Zeichenfolge innerhalb eine
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Funktion „containIgnoreCase“
 
@@ -51,7 +51,7 @@ Erfahren Sie, wie Sie Zeichenfolgen auf enthaltene Zeichenfolgen prüfen, ohne d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Referenz zur Funktion „endWith“
 
@@ -61,7 +61,7 @@ Erfahren Sie, wie Sie überprüfen können, ob eine Zeichenfolge mit einem besti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Referenz zur Funktion „endWithIgnoreCase“
 
@@ -71,7 +71,7 @@ Referenz zur Funktion „endWithIgnoreCase“
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Referenz zur Funktion „equalIgnoreCase“
 

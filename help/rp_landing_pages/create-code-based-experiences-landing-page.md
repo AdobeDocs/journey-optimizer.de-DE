@@ -20,7 +20,7 @@ Code-basierte Erlebnisse in Adobe Journey Optimizer ermöglichen Ihnen die Erste
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Aufbauen und Zusammenstellen von Code-basierten Erlebnissen
 

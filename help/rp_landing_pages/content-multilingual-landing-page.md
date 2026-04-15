@@ -50,7 +50,7 @@ Richten Sie externe Übersetzungsdienstleister ein, um eine nahtlose Integration
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Erstellen mehrsprachiger Inhalte mit manueller Übersetzung
 

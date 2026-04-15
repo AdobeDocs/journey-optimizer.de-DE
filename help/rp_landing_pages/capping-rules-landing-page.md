@@ -42,7 +42,7 @@ Erfahren Sie, wie Sie Ober- und Untergrenzen für Journey-Eintritte festlegen, e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Frequenzbegrenzung nach Kanal
 

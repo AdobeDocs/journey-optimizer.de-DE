@@ -41,7 +41,7 @@ Entdecken Sie Methoden zur Erkennung und Lösung von Kampagnen- und Journey-Konf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Zuweisen von Prioritätswerten zu Journeys und Kampagnen
 

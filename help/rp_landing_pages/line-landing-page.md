@@ -30,7 +30,7 @@ Bevor Sie Ihre LINE-Nachricht erstellen, konfigurieren Sie Ihren LINE-Kanal mit 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren des LINE-Kanals
 

@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie AEP-Datensätze mit der Hilfsfunktion „datasetLookup“ 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Referenzhandbuch zu Hilfsfunktionen
 

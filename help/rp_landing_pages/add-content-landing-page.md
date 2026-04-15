@@ -20,7 +20,7 @@ Beim Gestalten Ihrer Inhalte in Adobe Journey Optimizer geht es darum, personali
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Verwenden von Inhaltskomponenten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Komponenten wie Text, Schaltflächen, Bilder und mehr hinz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=de)
 
 Nutzen von visuellen Fragmenten
 
@@ -70,7 +70,7 @@ Erstellen und passen Sie die Nur-Text-Version Ihrer E-Mail für Empfängerinnen 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
 
 Optimieren von E-Mail-Text für KI-Posteingänge
 

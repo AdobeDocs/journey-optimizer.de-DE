@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Zielgruppen mithilfe von Segmentierungs- und Anreicherungs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=de)
 
 Profile: Verwalten und Optimieren von Kundendaten
 

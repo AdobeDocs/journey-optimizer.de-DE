@@ -40,7 +40,7 @@ Folgen Sie den schrittweisen Anweisungen, um URI-Oberflächen zu definieren und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Konfigurieren der Unterstützung für Inhaltskarten im Mobile SDK
 
@@ -50,7 +50,7 @@ Aktivieren und passen Sie Inhaltskarten in Apps mithilfe von Adobe Experience Pl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Konfigurieren der Unterstützung für Inhaltskarten im Web SDK
 

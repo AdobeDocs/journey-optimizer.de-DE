@@ -51,7 +51,7 @@ Greifen Sie auf ein umfassendes Handbuch zu Funktionen für die Datenbearbeitung
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Beispiele für Abfragen in Journey Optimizer-Datensätzen und zugehörige Anwendungsfälle
 

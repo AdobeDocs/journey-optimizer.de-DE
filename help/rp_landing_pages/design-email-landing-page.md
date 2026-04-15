@@ -50,7 +50,7 @@ Entdecken Sie Tools und Best Practices für die Verwendung von Komponenten, visu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Bearbeiten des Stils: Anpassen von E-Mail-Designs
 

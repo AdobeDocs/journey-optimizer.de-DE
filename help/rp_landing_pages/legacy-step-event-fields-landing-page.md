@@ -40,7 +40,7 @@ Entdecken Sie die Felder innerhalb des Journey-Schemas, ihre Typen und wie sie d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Gängige Felder für Journey-Schrittereignisse
 
@@ -60,7 +60,7 @@ Verstehen Sie die Felder, die sich auf die Aktionsausführung in journeyStep-Ere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Datenabruffelder
 
@@ -70,7 +70,7 @@ Erfahren Sie mehr über die Felder, die mit dem Datenabruf während der Schrittv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 JourneyStep-Identitätsfelder
 

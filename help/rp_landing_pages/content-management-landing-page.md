@@ -40,7 +40,7 @@ Entdecken Sie Tools und Tutorials zum Erstellen, Verwalten und Optimieren von La
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Inhaltsvorlagen
 

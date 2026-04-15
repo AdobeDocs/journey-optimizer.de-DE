@@ -43,7 +43,7 @@ Schritt-für-Schritt-Tutorial zum Erstellen, Anpassen und Implementieren von Inh
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Entwerfen von Inhaltskarten
 

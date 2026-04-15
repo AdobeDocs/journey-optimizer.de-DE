@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie in Adobe Journey Optimizer auf die Funktion „Bericht fü
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Umfassende Liste der Metriken
 

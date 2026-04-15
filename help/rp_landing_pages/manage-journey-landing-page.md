@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie zusätzliche Kennungen für erweiterte Personalisierung un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Zeitzonen-Management
 

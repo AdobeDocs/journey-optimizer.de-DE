@@ -34,7 +34,7 @@ Hier erfahren Sie mehr über die wichtigsten Funktionen, Anwendungsfälle und di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Grundlegendes zur Funktionsweise
 

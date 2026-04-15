@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie auf die Funktion „KI-Assistent“ zugreifen und diese ko
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 Generieren von vollständigem Inhalt
 

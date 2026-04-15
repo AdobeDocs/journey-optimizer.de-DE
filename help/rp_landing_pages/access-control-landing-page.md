@@ -70,7 +70,7 @@ Erfahren Sie mehr über Berechtigungen auf hoher und niedriger Ebene und darübe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Attributbasierte Zugriffssteuerung
 
