@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
+source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2510'
 ht-degree: 21%
 
 ---
@@ -138,6 +138,10 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
   Verfügbarkeitsdatum: Mittwoch, 14. April 2026
 
 #### E-Mail-Design
+
+* **KI-Assistent für Personalisierungsausdrücke in der E-Mail-Designer** - Der KI-Assistent für Personalisierungsausdrücke ist jetzt auch direkt über die Inline-Bearbeitung in der E-Mail-Designer verfügbar. Klicken Sie beim Bearbeiten einer Textkomponente im Pop **up für die Inline-Bearbeitung auf** KI zum Generieren verwenden“, um die benötigte Personalisierung in einfacher Sprache zu beschreiben, den generierten Ausdruck zu überprüfen und einzufügen, ohne die E-Mail-Designer zu verlassen. [Weitere Informationen](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  Verfügbarkeitsdatum: Donnerstag, 15. April 2026
 
 * **Erweiterter HTML-Editor für E-Mail** - Im erweiterten HTML-Modus können Sie die HTML-Quelle Ihres Inhalts in der E-Mail-Designer bearbeiten, erweiterte Ausdrücke (wie Bedingungen) in der Quelle hinzufügen und zwischen HTML- und Desktop-Ansicht wechseln, ohne Ihre Änderungen zu verlieren.
 
