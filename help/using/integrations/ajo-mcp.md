@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: d4d746cdab0f30a09d04855768912927007bc12b
+source-git-commit: c0124f71de8e8f74d525725b7b8241b09917020e
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '777'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Marketing- und Kundenerlebnis-Teams verlassen sich zunehmend auf Chat-basierte P
 
 Mit dem [!DNL Adobe Journey Optimizer] MCP-Server können Sie Journey, Kampagnen und Angebote direkt von Ihrem KI-Assistenten aus überprüfen, zusammenfassen und Fehler beheben. Alle Vorgänge sind **schreibgeschützt** - Die MCP-Serveroberflächen rufen APIs als Klarsprachenantworten ab, damit Sie Folgendes tun können:
 
-* **Grundlegendes zur Journey-**) - Eine menschenlesbare Zusammenfassung aller Verzweigungen, Bedingungen und Aktionen auf der Journey.
+<!--* **Understand journey logic** — Get a human-readable summary of any journey's branching, conditions, and actions.-->
 * **Kampagnenbereitschaft überprüfen** - Blocker identifizieren, die die Veröffentlichung einer Kampagne verhindern.
 * **Lücken in der Live-** und -Kampagnen erkennen, welche Kanäle abgedeckt werden und wo Lücken bestehen.
 * **Orchestrierungsportfolio prüfen** - Überprüfen Sie den vollständigen Status von Kampagnen und Journey, ohne JSON zu analysieren oder über Produktbildschirme zu springen.
@@ -49,7 +49,7 @@ Die folgenden Beispiele zeigen, wie Sie mit dem [!DNL Adobe Journey Optimizer] M
 | **Inventar- und Statusprüfung** | „Was haben wir und in welchem Zustand ist es? Anzeigen von Live- vs. Entwurfs- vs. abgeschlossenen/gestoppten/archivierten Zählungen für Kampagnen.“ |
 | **Überprüfen der Veröffentlichungsbereitschaft** | „Warum ist Campaign CMP456 nicht zur Veröffentlichung bereit? Zeigen Sie mir die Blocker.“ |
 | **Objekte vergleichen** | „Kampagnen abc123 und xyz789 vergleichen - was hat sich in Status und Zeitplan geändert?“ |
-| **Prüfen Sie Ihr Portfolio** | „In allen Live-Journey und -Kampagnen: Welche Kanäle werden abgedeckt und wo sind die Lücken?“ |
+| **Prüfen Sie Ihr Portfolio** | „Welche Kanäle werden in allen Live-Kampagnen abgedeckt und wo sind die Lücken?“ |
 | **Kanalabdeckung und -mix** | „Zeigt den Channel-Platzbedarf für Journey, Kampagnen und Angebotsplatzierungen an - Nur-E-Mail im Vergleich zu kanalübergreifender Nutzung, Push-/SMS-/In-App-Nutzung und Diskrepanzen zwischen Journey-Kanälen.“ |
 
 ## Voraussetzungen {#mcp-prerequisites}
