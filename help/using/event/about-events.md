@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+source-git-commit: 873a9ed182e69c43be7c0f655a1696384395263c
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 97%
+source-wordcount: '1951'
+ht-degree: 74%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Journey-Ereignisse"
->abstract="Ein Ereignis ist mit einer Person verbunden. Es bezieht sich auf das Verhalten einer Person (z. B. eine Person hat ein Produkt gekauft, einen Shop besucht, eine Website verlassen usw.) oder auf etwas, das mit einer Person verknüpft ist (z. B. eine Person hat 10.000 Treuepunkte erreicht). Journey Optimizer überwacht unitäre Ereignisse in Journeys, um die nächsten besten Aktionen zu orchestrieren."
+>abstract="Journey Optimizer unterstützt in Journey drei Ereignistypen: unitäre Ereignisse, die mit dem Verhalten einer bestimmten Person verknüpft sind (z. B. ein Kauf oder ein Treuemeilenstein), Geschäftsereignisse, die durch ein globales Ereignis ausgelöst werden (z. B. eine Flugstornierung oder eine Stock-Aktualisierung), und Zielgruppen-Qualifizierungsereignisse, die ausgelöst werden, wenn ein Profil eine Zielgruppe betritt oder verlässt. Verwenden Sie -Ereignisse, um Journey in Triggern zusammenzustellen und die richtigen Aktionen für Ihre Profile zu orchestrieren."
 
 Ereignisse ermöglichen es, Journeys einzeln auszulösen und allen Benutzenden beim Eintritt in die Journey Nachrichten in Echtzeit zu senden.
 
@@ -33,7 +33,7 @@ In der Ereigniskonfiguration konfigurieren Sie die in den Journeys erwarteten Er
 
 Die Ereigniskonfiguration ist **obligatorisch** und muss vom Daten-Engineering durchgeführt werden.
 
-Sie können zwei Arten von Ereignissen konfigurieren: **unitäre Ereignisse** und **Geschäftsereignisse**.
+Sie können drei Ereignistypen konfigurieren: **Unitäre Ereignisse**, **Geschäftsereignisse** und **Zielgruppen-Qualifizierungsereignisse**.
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
@@ -45,8 +45,15 @@ Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizi
 
 ## Geschäftsereignisse {#business-events}
 
-**Geschäftsereignisse** sind nicht mit einem bestimmten Profil verknüpft. Dabei kann es sich beispielsweise um eine Nachrichtenmeldung, ein Sportergebnis, eine Änderung oder Annullierung eines Fluges, eine Bestandsaktualisierung, um Wetterereignisse usw. handeln. Obwohl diese Ereignisse nicht profilspezifisch sind, können sie für eine beliebige Zahl von Profilen von Interesse sein: Personen, die bestimmte Nachrichten abonniert haben, Passagiere eines bestimmten Fluges oder Kunden, die an einem nicht vorrätigen Produkt interessiert sind. Geschäftsereignisse sind immer regelbasiert. Wenn Sie ein Geschäftsereignis in einer Journey ablegen, wird direkt danach eine Aktivität **Zielgruppe lesen** automatisch hinzugefügt. Informationen zum Erstellen eines Geschäftsereignisses finden Sie auf [dieser Seite](../event/about-creating-business.md).
+**Geschäftsereignisse** sind nicht mit einem bestimmten Profil verknüpft. Dabei kann es sich beispielsweise um eine Nachrichtenmeldung, ein Sportergebnis, eine Änderung oder Annullierung eines Fluges, eine Bestandsaktualisierung, um Wetterereignisse usw. handeln. Obwohl diese Ereignisse nicht profilspezifisch sind, können sie für eine beliebige Zahl von Profilen von Interesse sein: Personen, die bestimmte Nachrichten abonniert haben, Passagiere eines bestimmten Fluges oder Kunden, die an einem nicht vorrätigen Produkt interessiert sind. Geschäftsereignisse sind immer regelbasiert. Wenn Sie ein Geschäftsereignis in eine Journey einfügen, wird danach automatisch eine Aktivität vom Typ **Zielgruppe lesen** hinzugefügt. Erfahren Sie (auf [ Seite), wie Sie ein Geschäftsereignis ](../event/about-creating-business.md).
 
+## Zielgruppen-Qualifizierungsereignisse {#audience-qualification-events}
+
+Ein **Zielgruppen-Qualifizierungsereignis** wird ausgelöst, wenn ein Profil in eine Zielgruppe eintritt oder diese verlässt. Beispiel: Kunden, die einen Schwellenwert für Treueausgaben überschreiten, werden in die Zielgruppe der Gold-Stufe aufgenommen, d. h., bei der Qualifizierung wird die Journey für dieses Profil in Echtzeit (für Streaming-Zielgruppen) oder bei der nächsten Batch-Auswertung Trigger. Im Gegensatz zu unitären Ereignissen können Sie mit der Zielgruppen-Qualifizierung eine komplexe Trigger-Logik erstellen, indem Sie die volle Leistungsfähigkeit von Zielgruppendefinitionen nutzen, ohne dass Implementierungsänderungen erforderlich sind, um ein neues Ereignis zu senden. Weitere Informationen zu [Zielgruppen-Qualifizierungsereignissen](../building-journeys/audience-qualification-events.md).
+
+>[!NOTE]
+>
+>Zielgruppen-Qualifizierungsereignisse werden nicht in **Administration > Ereignisse** konfiguriert, sondern direkt auf der Journey-Arbeitsfläche als erster Schritt einer Journey ausgewählt.
 
 ## Ereignis-ID-Typ {#event-id-type}
 
@@ -66,6 +73,20 @@ Bei **unitären** Ereignissen sind zwei Typen von Ereignis-IDs möglich:
 >
 >Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. In Batches aufgenommene Ereignisse, über **Abfrage-Service** eingefügte Ereignisse oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) können nicht zum Trigger einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, erstellen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe und verwenden Sie die Aktivität **Zielgruppe lesen**. Die Zielgruppen-Qualifizierung kann zwar theoretisch verwendet werden, kann aber im späteren Verlauf abhängig von den verwendeten Aktionen zu Problemen führen. Diese Daten müssen nicht unbedingt an das Echtzeitprofil gesendet werden. Wenn Sie die Ereignisse zur Segmentierung verwenden möchten, empfehlen wir, den Datensatz für das Profil zu aktivieren.
 
+## Auswahlmöglichkeiten {#choose-event-type}
+
+Verwenden Sie die folgenden Kriterien, um den richtigen Ereignistyp für Ihren Journey auszuwählen - die Schlüsselfrage ist: **Lösen Sie eine Aktion für eine bestimmte Person aus oder senden Sie sie an viele Profile?** [Weitere Informationen zu Journey-Typen](../building-journeys/journey.md#journey-types).
+
+* **Wählen Sie ein unitäres** aus, wenn der Trigger an eine bestimmte Person gebunden ist, z. B. an einen Kauf, eine Formularübermittlung oder einen Treuemeilenstein. Unitäre Ereignisse erfordern eine personenbasierte primäre Identität im Schema und starten die Journey sofort für dieses Profil. [Erfahren Sie, wie Sie ein unitäres Ereignis konfigurieren](../event/about-creating.md).
+
+* **Wählen Sie ein Geschäftsereignis aus** wenn der Trigger ein globales Ereignis ist - z. B. eine Wiederverfügbarkeit eines Produkts, ein Preisverfall oder eine Flugannullierung - und Sie an eine Reihe von Profilen senden möchten, die mit diesem Signal in Verbindung stehen. Geschäftsereignisse müssen der erste Schritt auf dem Journey sein und Profile automatisch über die Aktivität „Zielgruppe lesen **ansprechen**. Sie erfordern ein Zeitreihenschema mit einer primären Identität für Nicht-Personen und den `_id`- und `timestamp`. Planen Sie eine Verzögerung des Zielgruppenexports von 15 Minuten bis zu einer Stunde ein. [Erfahren Sie, wie Sie ein Geschäftsereignis konfigurieren](../event/about-creating-business.md).
+
+* **Wählen Sie ein Zielgruppen-Qualifizierungsereignis** wenn es sich bei dem Trigger um ein Profil handelt, das in eine Zielgruppe eintritt oder diese verlässt, und Sie eine komplexere Segmentierungslogik benötigen, als ein einzelnes Ereignis bereitstellen kann. So können Sie beispielsweise abgelaufene Kundinnen und Kunden, die gerade einen Ausgabenschwellenwert erreicht haben, erneut ansprechen oder einen Offboarding-Fluss auslösen, wenn ein VIP-Mitglied die Treuestufe verlässt. [Weitere Informationen zu Zielgruppen-Qualifizierungsereignissen](../building-journeys/audience-qualification-events.md).
+
+>[!CAUTION]
+>
+>Geschäftsereignisse können nicht auf derselben Journey wie unitäre Ereignisse oder Zielgruppen-Qualifizierungsaktivitäten verwendet werden.
+
 ## Datenzyklus {#data-cycle}
 
 Ereignisse sind POST-API-Aufrufe. Ereignisse werden über Streaming-Aufnahme-APIs an Adobe Experience Platform gesendet. Das URL-Ziel von Ereignissen, die über Transaktionsnachrichten-APIs gesendet werden, wird als „Inlet“ bezeichnet. Die Payload der Ereignisse verwendet die XDM-Formatierung.
@@ -79,7 +100,7 @@ Systemgenerierte Ereignisse: Die Pipeline filtert Ereignisse mit einer Payload, 
 
 ## Über den Journey-Ereignisdurchsatz {#event-thoughput}
 
-Adobe Journey Optimizer unterstützt auf Organisationsebene ein Spitzenvolumen von 5.000 Journey-Ereignissen pro Sekunde über alle Sandboxes hinweg. Dieses Kontingent gilt für alle Ereignisse, die in aktiven Journeys genutzt werden, darunter in Journeys vom Typ **Live**, **Probelauf**, **Geschlossen** und **Angehalten**. Sobald dieses Kontingent erreicht wird, werden neue Ereignisse mit einer Verarbeitungsrate von 5.000 pro Sekunde in die Warteschlange gestellt. Die maximale Zeit, die ein Ereignis in der Warteschlange verbringen kann, beträgt **&#x200B; 24Stunden**.
+Adobe Journey Optimizer unterstützt auf Organisationsebene ein Spitzenvolumen von 5.000 Journey-Ereignissen pro Sekunde über alle Sandboxes hinweg. Dieses Kontingent gilt für alle Ereignisse, die in aktiven Journeys genutzt werden, darunter in Journeys vom Typ **Live**, **Probelauf**, **Geschlossen** und **Angehalten**. Sobald dieses Kontingent erreicht wird, werden neue Ereignisse mit einer Verarbeitungsrate von 5.000 pro Sekunde in die Warteschlange gestellt. Die maximale Zeit, die ein Ereignis in der Warteschlange verbringen kann, beträgt ** 24Stunden**.
 
 Weitere Informationen zu Journey-Verarbeitungsraten und dazu, wie sich verschiedene Journey-Typen auf den Durchsatz auswirken, finden Sie [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
 
@@ -126,7 +147,7 @@ Jedes Ereignis, das in **Live**-, **Entwurfs**- oder **geschlossenen** Journeys 
 
 Erfahren Sie, wie Sie ein Ereignis konfigurieren und den Streaming-Endpunkt und die Payload für ein Ereignis angeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431515?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Machen Sie sich mit den entsprechenden Anwendungsfällen für Geschäftsereignisse vertraut. Erfahren Sie, wie Sie mithilfe eines Geschäftsereignisses eine Journey erstellen und welche Best Practices anzuwenden sind.
 
