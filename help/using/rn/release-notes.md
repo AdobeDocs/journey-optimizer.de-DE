@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d5008b20bef1a129c2ce9b29edf0460c58d481da
+source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2568'
 ht-degree: 21%
 
 ---
@@ -31,26 +31,24 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 ### Neue Funktionen {#april-26-features}
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Optimize email for AI inboxes</strong><br/></th>
+<th><strong>E-Mail für KI-Posteingänge optimieren</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer now includes a new capability that ensures your emails are optimally structured for AI-powered inboxes such as Apple Intelligence and Google Gemini in Gmail.</p>
-<p>As AI assistants increasingly control how recipients read and act on email, this feature helps you author content that performs well across downstream AI tasks including summarization, triage, prioritization, and intent extraction.</p>
+<p>Adobe Journey Optimizer bietet jetzt eine neue Funktion, mit der sichergestellt wird, dass Ihre E-Mails für KI-gestützte Posteingänge wie Apple Intelligence und Google Gemini in Gmail optimal strukturiert sind.</p>
+<p>Da KI-Assistenten zunehmend steuern, wie Empfänger E-Mails lesen und darauf reagieren, hilft Ihnen diese Funktion bei der Erstellung von Inhalten, die in nachgelagerten KI-Aufgaben gut funktionieren, einschließlich Zusammenfassung, Klassifizierung, Priorisierung und Extraktion von Absichten.</p>
 <p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
-<p>For more information, refer to <a href="../email/llm-email-optimizer.md">Optimize email text for AI inboxes</a>.</p>
-<p>Availability date: April 17, 2026</p>
+<p>Weitere Informationen finden Sie unter <a href="../email/llm-email-optimizer.md">E-Mail-Text für KI-Posteingänge optimieren</a>.</p>
+<p>Verfügbarkeitsdatum: Samstag, 17. April 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>

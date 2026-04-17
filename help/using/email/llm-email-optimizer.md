@@ -1,20 +1,19 @@
 ---
 title: Optimieren von E-Mail-Text für KI-Posteingänge
-description: Verfeinern Sie die Nur-Text-Ebene von E-Mails in Journey Optimizer, damit KI-unterstützte Posteingangskunden Ihre Angebote und CTAs verwenden können, wenn sie E-Mails zusammenfassen oder Absichten extrahieren - in der E-Mail-Designer mit KI optimieren .
+description: Erstellen und verfeinern Sie eine dedizierte Version Ihrer Nachrichten, damit KI-unterstützte Posteingangskunden Ihre Angebote und CTAs verwenden können, wenn sie E-Mails zusammenfassen oder Absichten extrahieren - in der E-Mail-Designer mit KI optimieren .
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-hide: true
-source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
+source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
 
-# Optimieren von E-Mail-Text für KI-Posteingänge {#email-text-optimizer}
+# E-Mail für KI-Posteingänge optimieren {#email-text-optimizer}
 
 [!DNL Adobe Journey Optimizer] verfügt über eine E-Mail-Kanal-Funktion, mit der Sie eine bestimmte Version Ihrer Nachrichten strukturieren können, um die KI-gestützten Posteingangserlebnisse zu verbessern - z. B. [!DNL Apple Intelligence] und [!DNL Google Gemini] in [!DNL Gmail] -, damit E-Mails anhand Ihres Inhalts präziser beantwortet und mit besseren Ergebnissen zusammengefasst werden können.
 
