@@ -9,10 +9,10 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 4b56f4531d169e224f92fd08e6e2d03f7b1365a7
+source-git-commit: aebdc15b5ca46a2aa623c8c245f00c74a43c9bb2
 workflow-type: tm+mt
-source-wordcount: '1330'
-ht-degree: 4%
+source-wordcount: '1300'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,6 @@ ht-degree: 4%
 >[!CAUTION]
 >
 >**Hinweis zur Beta-Dokumentation:** Diese Dokumentation behandelt eine Beta-Funktion und stellt keine endgültige Dokumentation dar. Der hier beschriebene Inhalt bezieht sich auf eine Beta-Version und kann sich vor der allgemeinen Verfügbarkeit ändern. Adobe übernimmt keine Gewähr für die Vollständigkeit oder Richtigkeit dieser Dokumentation.
->
->© Adobe Inc. Alle Rechte vorbehalten. Adobe, das Adobe-Logo und Adobe Journey Optimizer sind eingetragene Marken oder Marken von Adobe in den Vereinigten Staaten und/oder anderen Ländern.
 >
 >Durch die Verwendung des Adobe Journey Optimizer MCP Servers (Beta) (“Beta„) erkennen Sie hiermit an, dass der Beta **„wie besehen“ und ohne Gewährleistung jeglicher Art bereitgestellt wird**. Adobe ist nicht verpflichtet, die Beta zu pflegen, zu korrigieren, zu aktualisieren, zu ändern oder anderweitig zu unterstützen. Es wird empfohlen, Vorsicht walten zu lassen und sich nicht auf die ordnungsgemäße Funktionsweise oder Leistung solcher Beta und/oder Begleitmaterialien zu verlassen. Die Beta gilt als vertrauliche Information von Adobe. Jedes „Feedback“ (Informationen zur Beta-Version, einschließlich, aber nicht beschränkt auf Probleme oder Mängel, auf die Sie bei der Verwendung der Beta-Version stoßen, Vorschläge, Verbesserungen und Empfehlungen), das Sie Adobe übermitteln, wird hiermit an Adobe übertragen, einschließlich aller Rechte, Titel und Interessen an diesem Feedback.
 
