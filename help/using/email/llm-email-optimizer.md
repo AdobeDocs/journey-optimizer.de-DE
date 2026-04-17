@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 hide: true
-source-git-commit: 434480b9ea30ab456e97c2cf281adb1253b8f73d
+source-git-commit: 93e19a78dc942f8897b306f4549e971542f01c3a
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1115'
 ht-degree: 1%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer] verfügt über eine E-Mail-Kanal-Funktion, mit der Sie eine bestimmte Version Ihrer Nachrichten strukturieren können, um die KI-gestützten Posteingangserlebnisse zu verbessern - z. B. [!DNL Apple Intelligence] und [!DNL Google Gemini] in [!DNL Gmail] -, damit E-Mails anhand Ihres Inhalts präziser beantwortet und mit besseren Ergebnissen zusammengefasst werden können.
 
-Sie können diese Funktion verwenden, um eine dedizierte Textversion Ihrer Nachrichten zu verfeinern, sodass KI-gestützte Posteingangserlebnisse mit höherer Wahrscheinlichkeit die Angebote, Aktionsaufrufe und Details, die Sie beabsichtigen, zum Vorschein bringen, anstatt automatisch generierten Text oder nicht verwandten Kontext zu verdünnen.
+Sie können diese Funktion verwenden, um eine dedizierte Textversion Ihrer Nachrichten zu generieren und zu verfeinern, sodass KI-unterstützte Posteingangserlebnisse mit höherer Wahrscheinlichkeit die Angebote, Aktionsaufrufe und Details, die Sie beabsichtigen, aufdecken, anstatt automatisch generierten Text oder nicht verwandten Kontext zu verdünnen.
+
+>[!NOTE]
+>
+>Diese für KI-Posteingänge optimierte Textversion ist nicht dasselbe wie die standardmäßige oder benutzerdefinierte Nur-Text-Version Ihrer Nachrichten. [Weitere Informationen](text-version-email.md)
 
 ## Funktionsweise {#how-it-works}
 
 Zu den typischen Fragen, die Empfangende in KI-unterstützten Posteingängen stellen können, gehören *Worum geht es in dieser E-Mail?* oder *Was sind diese Angebote?*.
 
-* Die Antworten dieser KI-Assistenten können eine kurze Zusammenfassung sein (z. B. dass die Nachricht werblich ist, frühzeitigen Zugriff auf VIP und einen Verkauf erwähnt und Links zu Produktkategorien enthält), aber sie lassen die Ziele aus, die dem Marketing-Experten wichtig waren, da die Assistenten aus dem tatsächlich angezeigten Text ableiten - nicht unbedingt die vollständige Story, die Sie beabsichtigt hatten.
+* Die Antworten dieser KI-Assistenten können eine kurze Zusammenfassung sein (z. B., dass die Nachricht werblich ist, einen frühzeitigen Zugriff auf VIP und einen Verkauf erwähnt und Links zu Produktkategorien enthält). Sie lassen jedoch die Ziele aus, die dem Marketing-Experten wichtig waren, da die Assistenten aus dem tatsächlich angezeigten Text ableiten - nicht unbedingt aus der ganzen Story, die Sie beabsichtigt hatten.
 
 * Außerdem können die Assistenten proaktiv nach Rabatten oder Coupons im Zusammenhang mit der Marke suchen und diese in die Antwort einfließen lassen, sodass der Benutzer nicht mehr nur das sieht, was Ihre Nachricht tatsächlich versprochen hat. Dieses Verhalten ist für Endbenutzende nützlich, beeinträchtigt aber die Kontrolle für Marketing-Fachleute, die Antworten benötigen, um die tatsächlichen Begriffe beim Versand zu verfolgen.
 
-Um diese Probleme zu vermeiden, erstellt [!DNL Journey Optimizer] eine zusätzliche Textversion Ihrer Nachrichten, sodass Coupons, Rabattbereiche, Aktionsaufrufe und andere Prioritäten in klarer linearer Kopie im Voraus angezeigt werden.
-
->[!NOTE]
->
->Diese dedizierte Textversion unterscheidet sich von der standardmäßigen oder benutzerdefinierten Nur-Text-Version Ihrer Nachrichten. [Weitere Informationen](text-version-email.md)
+Um diese Probleme zu vermeiden, erstellt [!DNL Journey Optimizer] eine zusätzliche spezifische Textversion Ihrer Nachrichten, sodass Coupons, Rabattbereiche, Aktionsaufrufe und andere Prioritäten in klarer linearer Kopie im Voraus angezeigt werden. Diese Version unterscheidet sich von der standardmäßigen oder benutzerdefinierten [Nur-Text-Version](text-version-email.md) Ihrer Nachrichten.
 
 Ziel ist es, dass die KI des Posteingangs Zusammenfassungen und Fragen und Antworten in Ihren definierten Angeboten und Aktionen erstellt, anstatt sich auf einen dünnen Standardtextteil oder auf nicht verwandte Web-Ergebnisse zu stützen.
 
@@ -40,7 +40,7 @@ Ziel ist es, dass die KI des Posteingangs Zusammenfassungen und Fragen und Antwo
 >
 >Das genaue Verhalten der KI-Assistenten hängt vom Posteingangsanbieter und der Modellversion ab. Nachdem Ihre E-Mail zugestellt wurde, können Antworten und Zusammenfassungen, die von externen KI-Clients bereitgestellt werden, falsch, unvollständig oder mit Web-Ergebnissen vermischt sein.
 >
->Die Funktion E-Mail-Text für KI-Posteingänge optimieren generiert nur eine dedizierte Textversion in Journey Optimizer. Sie garantiert nicht, wie ein Drittanbieterassistent die Nachricht interpretiert oder anzeigt. Erfahren Sie mehr über [Einschränkungen und Risiken der Posteingangshilfe von Drittanbietern](#inbox-ai-risks).
+>Die Funktion E-Mail-Text für KI-Posteingänge optimieren generiert nur eine dedizierte Version in Journey Optimizer. Es ist nicht garantiert, wie ein Drittanbieterassistent die Nachricht interpretiert oder anzeigt. Erfahren Sie mehr über [Einschränkungen und Risiken der Posteingangshilfe von Drittanbietern](#inbox-ai-risks).
 
 ## Empfohlene Anwendungsfälle {#use-cases}
 
@@ -48,9 +48,9 @@ Ziel ist es, dass die KI des Posteingangs Zusammenfassungen und Fragen und Antwo
 * **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.
 -->
 
-* **Dichte oder fragmentierter automatisch generierter Text** - Wenn der standardmäßige Nur-Text schwer zu scannen ist, kann die Optimierung eine klarere lineare Erzählung mit expliziten Angeboten und Links erzeugen.
+* **Dichte oder fragmentierter Text** - Wenn der Inhalt der E-Mail schwer zu scannen ist, kann die Optimierung eine klarere lineare Erzählung mit expliziten Angeboten und Links erzeugen.
 
-* **Steuern des Posteingangs** - Wenn Sie erwarten, dass Empfänger Assistenten fragen *worum es bei der E-Mail geht* oder *was die Angebote sind*, reduziert eine starke Version des KI-Posteingangs Teilzusammenfassungen und vermeidet die Abhängigkeit von Web-ergänzten Antworten, die nicht an Ihre genehmigte Kopie gebunden sind.
+* **Steuern des Posteingangs** - Wenn Sie erwarten, dass Empfänger Assistenten fragen *worum es bei der E-Mail geht* oder *was die Angebote sind*, reduziert eine für KI optimierte Version Teilzusammenfassungen und vermeidet die Abhängigkeit von Web-ergänzten Antworten, die nicht an Ihre genehmigte Kopie gebunden sind.
 
 ## Für KI-Posteingangserlebnisse optimieren {#optimize-with-ai}
 
@@ -60,7 +60,7 @@ Ziel ist es, dass die KI des Posteingangs Zusammenfassungen und Fragen und Antwo
 >
 >Um auf diese Funktion zugreifen zu können, müssen Sie einer Benutzervereinbarung zustimmen, die angezeigt wird, wenn Sie Generative AI in [!DNL Journey Optimizer] zum ersten Mal verwenden. Weitere Informationen finden Sie in den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
-Gehen Sie wie folgt vor, um die Nur-Text-Version Ihrer E-Mail für KI-Posteingänge mit [!DNL Journey Optimizer] zu optimieren.
+Gehen Sie wie folgt vor, um den Inhalt Ihrer E-Mail für KI-Posteingangserlebnisse mit [!DNL Journey Optimizer] zu optimieren.
 
 1. Öffnen Sie Ihre E-Mail in [E-Mail-Designer](content-from-scratch.md) (über eine Kampagne, Journey oder Vorlage, je nach Workflow).
 
@@ -74,21 +74,19 @@ Gehen Sie wie folgt vor, um die Nur-Text-Version Ihrer E-Mail für KI-Posteingä
 
    Klicken Sie **[!UICONTROL Zustimmen]**, um fortzufahren.
 
-1. Die generierte Version wird angezeigt.
+1. Die generierte Version wird im Fenster **[!UICONTROL AI Inbox Optimizer]** angezeigt.
 
    ![Generierte Version optimiert für KI-Posteingänge](assets/optimize-ai-inbox-output.png){zoomable="yes" width="80%"}
 
    >[!NOTE]
    >
-   >**Optimieren von E-Mail-Text für KI** Posteingänge: Ändert nicht Ihr HTML-Design, -Layout oder -Bilder.
+   >Die optimierte Version unterscheidet sich von der HTML- und Textansicht Ihrer E-Mail. Das Design, Layout oder Bilder werden nicht geändert.
 
-1. Um Änderungen an den automatisch generierten Inhalten vorzunehmen, wählen Sie den Umschalter **[!UICONTROL Bearbeiten aktivieren]** und bearbeiten Sie die Inhalte nach Bedarf manuell.
+1. Um den automatisch generierten Inhalt zu bearbeiten, wählen Sie den Umschalter **[!UICONTROL Bearbeiten aktivieren]** aus und nehmen Sie bei Bedarf manuelle Änderungen vor.
 
-1. Sobald Sie mit Ihrer Version zufrieden sind, klicken Sie zur Bestätigung auf **[!UICONTROL E-Mail]** Optimieren).
+1. Sobald Sie mit Ihrer Version zufrieden sind, klicken Sie zur Bestätigung auf **[!UICONTROL E-Mail]** Optimieren). Sie können auch die Schaltfläche **[!UICONTROL Neu optimieren]** verwenden, um eine neue Version zu generieren.
 
-1. Ihre E-Mail ist jetzt erfolgreich für KI-Posteingänge optimiert.
-
-1. Um auf die optimierte Version zuzugreifen oder sie zu bearbeiten, klicken Sie auf die Schaltfläche **[!UICONTROL Für KI-Posteingang optimiert]**.
+1. Sie werden zur Ansicht **[!UICONTROL HTML]** umgeleitet und Ihre E-Mail ist jetzt erfolgreich für KI-Posteingänge optimiert. Um erneut auf die optimierte Version zuzugreifen oder sie zu bearbeiten, klicken Sie auf die Schaltfläche **[!UICONTROL Für KI-Posteingang optimiert]**.
 
    ![Schaltfläche „Neu optimieren“ in der E-Mail-Designer](assets/optimize-ai-inbox-optimized-button.png){zoomable="yes" width="80%"}
 
@@ -98,19 +96,19 @@ Gehen Sie wie folgt vor, um die Nur-Text-Version Ihrer E-Mail für KI-Posteingä
 
    >[!NOTE]
    >
-   >Wenn Sie Änderungen am ursprünglichen HTML-Inhalt vornehmen, müssen Sie die Version für KI-Posteingänge neu optimieren.
+   >Wenn Sie Änderungen am ursprünglichen HTML-Inhalt vornehmen, müssen Sie die generierte Version für KI-Posteingänge neu optimieren, damit sie mit dem neuen Inhalt übereinstimmt.
 
 ## Risiken und Einschränkungen von Drittanbieter-Posteingang-KI {#inbox-ai-risks}
 
 Mit der Funktion „E-Mail für KI-Posteingänge optimieren“ können Sie eine Version Ihrer E-Mail darauf vorbereiten, wie Postfachanbieter Ihre [!DNL Journey Optimizer] verarbeiten können. Sie kontrolliert nicht die Produkte dieser Anbieter. Nach dem Versand einer Nachricht werden alle KI-Funktionen in [!DNL Gmail], [!DNL Apple] Mail, [!DNL Outlook] oder anderen Clients nach ihren Bedingungen, Modellen und Richtlinien ausgeführt - nicht nach den Richtlinien von Adobe.
 
-* **Unvorhersehbare Präsentation** - Zusammenfassungen, Benachrichtigungs-Blurbs und dialogorientierte Antworten können Angebote, Preise oder Datumsangaben weglassen, Inhalte mit nicht verwandten Web-Ergebnissen zusammenführen oder auf eine Weise umschreiben, die nicht mehr mit Ihrer genehmigten Kopie übereinstimmt. Das Verhalten ändert sich, wenn Anbieter Modelle oder Benutzeroberflächen ohne Vorankündigung aktualisieren.
+* **Unvorhersehbare Präsentation** - Zusammenfassungen, Benachrichtigungs-Blurbs und dialogorientierte Antworten können Angebote, Preise oder Datumsangaben weglassen, Inhalte mit nicht verwandten Web-Ergebnissen zusammenführen oder auf eine Weise umschreiben, die nicht mehr mit Ihrer genehmigten Kopie übereinstimmt. Dieses Verhalten kann sich ändern, wenn Anbieter Modelle oder die Benutzeroberfläche ohne Vorankündigung aktualisieren.
 
 * **Keine Gewähr für Parität mit HTML** - Empfängerinnen und Empfänger, die auf Vorschauen oder Hilfsantworten angewiesen sind, sehen möglicherweise nie Ihr vollständiges HTML-Design, Ihre Bilder oder Ihre rechtlichen Fußzeilen. Was sie glauben, dass die Nachricht „sagt“, kommt möglicherweise nur aus einem kurzen KI-generierten Auszug.
 
 * **Datenschutz, Compliance und Datennutzung** - Die KI des Posteingangs kann Nachrichteninhalte in der Infrastruktur des Anbieters verarbeiten, wobei die Datenschutzrichtlinie, die Aufbewahrung und die regionalen Regeln dieses Anbieters zu beachten sind. Organisationen in regulierten Branchen sollten unabhängig davon, wie die E-Mail in [!DNL Journey Optimizer] verfasst wurde, bewerten, ob die Verwendung solcher Funktionen durch Empfänger ihre Verpflichtungen beeinträchtigt.
 
-* **Marken- und rechtliche Offenlegung** - Falsche oder unvollständige KI-Zusammenfassungen können bei Kunden weiterhin Verwirrung oder Streitigkeiten über Werbeaktionen, Bedingungen oder die Sprache zum Opt-out hervorrufen. **E-Mail für KI-Posteingänge optimieren** stellt nicht sicher, dass das Modell eines Drittanbieters die optimierte Version Ihrer E-Mail zuverlässig reproduziert.
+* **Marken- und rechtliche Offenlegung** - Falsche oder unvollständige KI-Zusammenfassungen können bei Kunden weiterhin Verwirrung oder Streitigkeiten über Werbeaktionen, Bedingungen oder die Sprache zum Opt-out hervorrufen. [!DNL Journey Optimizer] stellt nicht sicher, dass das Modell eines Drittanbieters die optimierte Version Ihrer E-Mail zuverlässig reproduziert.
 
 * **[!UICONTROL Für KI-Posteingang optimieren]** in [!DNL Journey Optimizer] - Die Steuerung der Bearbeitungszeit in der E-Mail-Designer ist getrennt von den Posteingangsassistenten für Endbenutzer. Generierten Text vor dem Versand immer überprüfen.
 
