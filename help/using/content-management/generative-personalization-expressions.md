@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: KI-Assistent für Personalization Expressions
-description: Erfahren Sie, wie Sie mit dem KI-Assistenten in Journey Optimizer Personalisierungsausdrücke aus natürlicher Sprache generieren können - im Personalization-Editor oder in der E-Mail-Designer-Symbolleiste.
+description: Erfahren Sie, wie Sie mit dem KI-Assistenten in Journey Optimizer Personalisierungsausdrücke aus natürlicher Sprache im Personalization-Editor generieren und wie das Steuerelement „Ausdruck hinzufügen“ in E-Mail-Designer funktioniert.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
+source-git-commit: a71456af0d414ba435e307f29dd6dd70ba2737a8
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1064'
 ht-degree: 4%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 4%
 
 [!UICONTROL KI-Assistent] hilft Ihnen, eine neue Personalisierung aus einer einfachen Sprache zu generieren, zu erklären, was vorhandene Ausdrücke tun, und Probleme im ausgewählten Code zu beheben, sodass Sie weniger Zeit mit Syntax- und manuellen Felderkennungen verbringen. Sie können auch eine Auswahl iterieren oder andere Änderungen in der Konversation anfordern. Es ist auf zwei Arten verfügbar:
 
-* **[!UICONTROL Personalization-Editor]** - überall dort, wo der Editor verfügbar ist (Betreffzeile, Hauptteil und andere Felder, die ihn öffnen). Informationen dazu, wo und wie der Editor geöffnet wird, finden Sie unter [Personalisierung hinzufügen](../personalization/personalization-build-expressions.md#where).
-* **E-Mail-Designer** - Wenn Sie eine Komponente auswählen, verwenden Sie **[!UICONTROL Ausdruck hinzufügen]** in der kontextuellen Symbolleiste, um den Assistenten in einer Toolbox zu öffnen. Siehe [Generieren aus der E-Mail-Designer](#generate-email-designer).
+* **[!UICONTROL Personalization-Editor]** - überall dort, wo der Editor kanalübergreifend verfügbar ist (Betreffzeile, Hauptteil und andere Felder, die ihn öffnen). Dies ist der allgemeine Pfad zur KI-unterstützten Personalisierung. Informationen dazu, wo und wie der Editor geöffnet wird, finden Sie unter [Personalisierung hinzufügen](../personalization/personalization-build-expressions.md#where).
+* **E-Mail-Designer-Symbolleiste** - Wenn Sie E-Mails in der E-Mail-Designer verfassen, wählen Sie eine Komponente aus und verwenden Sie **[!UICONTROL Ausdruck hinzufügen]** in der kontextuellen Symbolleiste, um den Assistenten in einer Toolbox zu öffnen, ohne zuerst den vollständigen Editor zu öffnen. Dieser Einstiegspunkt ist außerhalb des E-Mail-Authorings nicht verfügbar. Siehe [Generieren aus der E-Mail-Designer](#generate-email-designer).
 
 Weitere Informationen zur Einrichtung und zu den Sprachen des KI-Assistenten finden Sie unter [Erste Schritte mit dem KI-Assistenten](gs-generative.md). Personalisierungskonzepte finden Sie unter [Erste Schritte mit der Personalisierung](../personalization/personalize.md). Informationen zu umgehenden Ideen finden Sie unter [Best Practices für KI-Eingabeaufforderungen](ai-assistant-prompting-guide.md).
 
@@ -63,9 +63,9 @@ Diese Schritte umfassen die Erstellung von Personalisierungsausdrücken von Grun
 
    ![](assets/ai-perso-question.png)
 
-1. Nachdem Sie einen Ausdruck generiert haben, klicken Sie auf **[!UICONTROL Vorschau für Beispielprofile anzeigen]** um zu sehen, wie der Ausdruck mit Beispieldaten ausgewertet wird, und um die zugehörige Payload als JSON anzuzeigen. Für diese Prüfung generiert der Assistent einen begrenzten Satz synthetischer Musterprofile, die nicht in Ihrer Organisation gespeichert werden.
+1. Nachdem Sie einen Ausdruck generiert haben, klicken Sie auf **[!UICONTROL Vorschau für Beispielprofile anzeigen]**, um zu sehen, wie der Ausdruck anhand **synthetischen** ausgewertet wird, und um die zugehörige Payload als JSON anzuzeigen. Bei der Vorschau handelt es sich um eine **-**-Prüfung, damit Sie darauf vertrauen können, dass Ihr Code erwartungsgemäß aufgelöst wird. Dabei werden **mehrere Empfänger, unterschiedliche Daten oder** vollständige Abdeckung simuliert. Beispieldaten werden in Ihrer Organisation nicht gespeichert.
 
-   Wenn Sie benutzerdefinierte oder zusätzliche Beispielprofile benötigen, beschreiben Sie, was Sie in der Diskussion mit dem Assistenten benötigen, und fügen Sie das Keyword **preview** in Ihre Eingabeaufforderung ein, damit die richtigen Vorschauprofile für Ihre Prüfung generiert werden können.
+   Wenn Sie die Stichprobe anpassen möchten (z. B. Hervorhebung verschiedener Attribute), beschreiben Sie, was Sie in der Diskussion mit dem Assistenten benötigen, und fügen Sie in **Eingabeaufforderung das Keyword preview** ein.
 
    ![](assets/ai-perso-preview-button.png)
 
@@ -75,7 +75,7 @@ Diese Schritte umfassen die Erstellung von Personalisierungsausdrücken von Grun
 
    >[!NOTE]
    >
-   >Zusätzliche Vorschauen dienen zur Stichprobenprüfung. Der Assistent ist so eingestellt, dass er ungefähr ein bis fünf Profile generiert. Wenn Sie nach einer sehr großen Anzahl fragen, kann dies dazu führen, dass die Anfrage fehlschlägt.
+   >Erwarten Sie hier nicht mehrere Vorschauzeilen oder vollständige Szenarien. Die Kontrolle ist absichtlich auf **eine) Beispielauswertung** eine schnelle Code-Prüfung beschränkt, nicht auf eine partielle Abdeckung vieler Profile. Die Anforderung eines unrealistisch großen Satzes von Vorschauen kann dazu führen, dass die Anfrage fehlschlägt.
 
    +++
 
@@ -85,7 +85,7 @@ Diese Schritte umfassen die Erstellung von Personalisierungsausdrücken von Grun
 
 1. Um die Ausgabe in Ihrem Personalisierungsausdruck zu implementieren, klicken Sie auf **[!UICONTROL Anwenden]**. Die Assistentenausgabe wird an der Cursorposition im Personalisierungseditor eingefügt. Um stattdessen bereits vorhandenen Code zu ersetzen, wählen Sie diesen Code zuerst im Editor aus und verwenden Sie dann **[!UICONTROL Bearbeiten mit dem KI-Assistenten]** (siehe [Bearbeiten, Korrigieren oder Erläutern von vorhandenem Code](#edit-existing)).
 
-   Sie können die Ausgabe auch kopieren und über das Symbol „Kopieren![&#x200B; an der gewünschten &#x200B;](../orchestrated/assets/do-not-localize/activity-copy.svg) einfügen.
+   Sie können die Ausgabe auch kopieren und über das Symbol „Kopieren![ an der gewünschten ](../orchestrated/assets/do-not-localize/activity-copy.svg) einfügen.
 
 ## Vorhandenen Code bearbeiten, korrigieren oder erklären {#edit-existing}
 
@@ -109,7 +109,11 @@ Sie können einen vorhandenen Personalisierungsausdruck auswählen und den KI-As
 
 ## Über die E-Mail-Designer-Symbolleiste generieren {#generate-email-designer}
 
-In der E-Mail-Designer können Sie den [!UICONTROL KI-Assistenten für Personalisierungsausdrücke] von der kontextuellen Symbolleiste aus verwenden, ohne zuerst den vollständigen [!UICONTROL Personalization-Editor &#x200B;] öffnen.
+>[!NOTE]
+>
+>Dieser Abschnitt gilt nur, wenn Sie **E-Mail**-Inhalte in der E-Mail-Designer bearbeiten. Verwenden Sie für andere Kanäle den **[!UICONTROL Personalization-Editor]**.
+
+In der E-Mail-Designer können Sie den [!UICONTROL KI-Assistenten für Personalisierungsausdrücke] von der kontextuellen Symbolleiste aus verwenden, ohne zuerst den vollständigen [!UICONTROL Personalization-Editor ] öffnen.
 
 1. Wählen Sie in der E-Mail-Designer die Komponente aus, die Sie personalisieren möchten, und klicken Sie an der Stelle, an der Sie den Ausdruck einfügen möchten.
 
@@ -125,7 +129,7 @@ In der E-Mail-Designer können Sie den [!UICONTROL KI-Assistenten für Personali
 
    Sie haben folgende Möglichkeiten:
 
-   * Validieren Sie die Ausdrucksausgabe mit Beispielwerten - verwenden Sie die Registerkarte **[!UICONTROL Vorschau]**.
+   * Validieren Sie die Ausdrucksausgabe mit einem Beispielwert - verwenden Sie die Registerkarte **[!UICONTROL Vorschau]**.
    * Aus derselben Eingabeaufforderung einen weiteren Vorschlag generieren - mit **[!UICONTROL Regenerieren]**.
    * Deaktivieren Sie die Diskussion und beginnen Sie von vorne - verwenden Sie **[!UICONTROL Zurücksetzen]**.
    * Verfeinern Sie den Ausdruck im vollständigen Editor - klicken Sie auf das Symbol ![Bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg "Bearbeiten"), um den **[!UICONTROL Personalization-Editor zu]**.
