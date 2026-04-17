@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
+source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2568'
 ht-degree: 21%
 
 ---
@@ -30,6 +30,25 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 ## Updates April &#39;26 {#april-26-rn}
 
 ### Neue Funktionen {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>E-Mail für KI-Posteingänge optimieren</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer bietet jetzt eine neue Funktion, mit der sichergestellt wird, dass Ihre E-Mails für KI-gestützte Posteingänge wie Apple Intelligence und Google Gemini in Gmail optimal strukturiert sind.</p>
+<p>Da KI-Assistenten zunehmend steuern, wie Empfänger E-Mails lesen und darauf reagieren, hilft Ihnen diese Funktion bei der Erstellung von Inhalten, die in nachgelagerten KI-Aufgaben gut funktionieren, einschließlich Zusammenfassung, Klassifizierung, Priorisierung und Extraktion von Absichten.</p>
+<p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
+<p>Weitere Informationen finden Sie unter <a href="../email/llm-email-optimizer.md">E-Mail-Text für KI-Posteingänge optimieren</a>.</p>
+<p>Verfügbarkeitsdatum: Samstag, 17. April 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
