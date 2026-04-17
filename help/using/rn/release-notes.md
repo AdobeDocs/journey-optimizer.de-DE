@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
+source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2490'
 ht-degree: 21%
 
 ---
@@ -139,7 +139,7 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 #### E-Mail-Design
 
-* **KI-Assistent für Personalisierungsausdrücke in der E-Mail-Designer** - Der KI-Assistent für Personalisierungsausdrücke ist jetzt auch direkt über die Inline-Bearbeitung in der E-Mail-Designer verfügbar. Klicken Sie beim Bearbeiten einer Textkomponente im Pop **up für die Inline-Bearbeitung auf** KI zum Generieren verwenden“, um die benötigte Personalisierung in einfacher Sprache zu beschreiben, den generierten Ausdruck zu überprüfen und einzufügen, ohne die E-Mail-Designer zu verlassen. [Weitere Informationen](../content-management/generative-personalization-expressions.md#generate-email-designer)
+* **KI-Assistent für Personalisierungsausdrücke in der E-Mail-Designer** - Wählen Sie in der E-Mail-Designer eine Komponente aus und verwenden Sie **Ausdruck hinzufügen** in der kontextuellen Symbolleiste, um die benötigte Personalisierung in einfacher Sprache zu beschreiben, den generierten Ausdruck zu überprüfen und einzufügen, ohne den Designer zu verlassen. [Weitere Informationen](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
   Verfügbarkeitsdatum: Donnerstag, 15. April 2026
 

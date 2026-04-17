@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: KI-Assistent für Personalization Expressions
-description: Erfahren Sie, wie Sie mit dem KI-Assistenten in Journey Optimizer Personalisierungsausdrücke aus natürlicher Sprache generieren können - im Personalization-Editor oder inline in der E-Mail-Designer.
+description: Erfahren Sie, wie Sie mit dem KI-Assistenten in Journey Optimizer Personalisierungsausdrücke aus natürlicher Sprache generieren können - im Personalization-Editor oder in der E-Mail-Designer-Symbolleiste.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 8a905fd7e51c2dac60f4edccb9e9dd790a0dd424
+source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '979'
 ht-degree: 4%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 4%
 
 ## Überblick {#where-available}
 
-[!UICONTROL KI-Assistent] hilft Ihnen, eine neue Personalisierung aus einer einfachen Sprache zu generieren, zu erklären, was vorhandene Ausdrücke tun, und Probleme im ausgewählten Code zu beheben, sodass Sie weniger Zeit mit Syntax- und manuellen Felderkennungen verbringen. Sie können auch eine Auswahl iterieren oder andere Änderungen in der Konversation anfordern. Es ist über zwei Einstiegspunkte verfügbar:
+[!UICONTROL KI-Assistent] hilft Ihnen, eine neue Personalisierung aus einer einfachen Sprache zu generieren, zu erklären, was vorhandene Ausdrücke tun, und Probleme im ausgewählten Code zu beheben, sodass Sie weniger Zeit mit Syntax- und manuellen Felderkennungen verbringen. Sie können auch eine Auswahl iterieren oder andere Änderungen in der Konversation anfordern. Es ist auf zwei Arten verfügbar:
 
 * **[!UICONTROL Personalization-Editor]** - überall dort, wo der Editor verfügbar ist (Betreffzeile, Hauptteil und andere Felder, die ihn öffnen). Informationen dazu, wo und wie der Editor geöffnet wird, finden Sie unter [Personalisierung hinzufügen](../personalization/personalization-build-expressions.md#where).
-* **Inline-Textbearbeitung von Designer** - Direkt über das Inline-Bearbeitungs-Pop-up beim Bearbeiten einer Textkomponente. Siehe [Generieren aus der E-Mail-Designer](#generate-email-designer).
+* **E-Mail-Designer** - Wenn Sie eine Komponente auswählen, verwenden Sie **[!UICONTROL Ausdruck hinzufügen]** in der kontextuellen Symbolleiste, um den Assistenten in einer Toolbox zu öffnen. Siehe [Generieren aus der E-Mail-Designer](#generate-email-designer).
 
 Weitere Informationen zur Einrichtung und zu den Sprachen des KI-Assistenten finden Sie unter [Erste Schritte mit dem KI-Assistenten](gs-generative.md). Personalisierungskonzepte finden Sie unter [Erste Schritte mit der Personalisierung](../personalization/personalize.md). Informationen zu umgehenden Ideen finden Sie unter [Best Practices für KI-Eingabeaufforderungen](ai-assistant-prompting-guide.md).
 
@@ -107,29 +107,27 @@ Sie können einen vorhandenen Personalisierungsausdruck auswählen und den KI-As
 
 1. Klicken Sie wie beim Generieren eines Personalisierungsausdrucks auf **[!UICONTROL Anwenden]** um die Assistentenausgabe zu implementieren. Er ersetzt den Code, den Sie im Personalisierungseditor ausgewählt hatten. Wenn Sie beispielsweise nach einer Erklärung des Codes gefragt haben, fügt das Anwenden von Kommentare zum Ausdruck hinzu, die beschreiben, was er tut.
 
-## Aus E-Mail-Designer generieren {#generate-email-designer}
+## Über die E-Mail-Designer-Symbolleiste generieren {#generate-email-designer}
 
-[!UICONTROL KI-Assistent für Personalisierungsausdrücke] ist auch direkt über die Inline-Bearbeitung in der E-Mail-Designer verfügbar, ohne den vollständigen [!UICONTROL Personalization-Editor zu öffnen]. Der generierte Ausdruck wird an der Cursorposition in die Textkomponente eingefügt.
+In der E-Mail-Designer können Sie den [!UICONTROL KI-Assistenten für Personalisierungsausdrücke] von der kontextuellen Symbolleiste aus verwenden, ohne zuerst den vollständigen [!UICONTROL Personalization-Editor &#x200B;] öffnen.
 
-1. Wählen Sie in der E-Mail-Designer eine Textkomponente aus und bearbeiten Sie sie inline.
+1. Wählen Sie in der E-Mail-Designer die Komponente aus, die Sie personalisieren möchten, und klicken Sie an der Stelle, an der Sie den Ausdruck einfügen möchten.
 
-1. Öffnen Sie das Pop-up für die Inline-Personalisierung auf eine dieser zwei Arten:
+1. Klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Ausdruck hinzufügen]**.
 
-   * Geben Sie `{{` an der Position ein, an der der Ausdruck eingefügt werden soll. Das Popover wird automatisch geöffnet.
-   * Klicken Sie **[!UICONTROL Pop-up für]** Inline-Bearbeitung auf „KI zum Generieren verwenden“, wenn es bereits geöffnet ist.
+   ![](assets/ai-perso-add-expression.png)
 
-   ![](assets/ai-perso-email-entry.png)
+1. Daraufhin wird eine Toolbox geöffnet, in der Sie den KI-Assistenten zur Personalisierung auffordern können. Geben Sie ein, was Sie benötigen. Der Assistent empfiehlt Profilfelder und andere Attribute, die Ihrer Eingabeaufforderung entsprechen, damit Sie den Ausdruck schneller erstellen können.
 
-1. Beschreiben Sie im Textfeld den gewünschten Personalisierungsausdruck in einfacher Sprache und klicken Sie dann auf **[!UICONTROL Generieren]**.
+1. Der Assistent generiert den Ausdruck.
 
-1. Überprüfen Sie das Ergebnis auf der Registerkarte **[!UICONTROL Ausdruck]**, um den generierten Ausdruck anzuzeigen.
+   ![](assets/ai-perso-add-expression-insert.png)
 
-   Wechseln Sie zur Registerkarte **[!UICONTROL Vorschau]**, um anhand von Beispielprofilwerten zu sehen, wie der Ausdruck ausgewertet wird, damit Sie die Ausgabe vor dem Einfügen überprüfen können.
+   Sie haben folgende Möglichkeiten:
 
-   ![](assets/ai-perso-email-result.png)
+   * Validieren Sie die Ausdrucksausgabe mit Beispielwerten - verwenden Sie die Registerkarte **[!UICONTROL Vorschau]**.
+   * Aus derselben Eingabeaufforderung einen weiteren Vorschlag generieren - mit **[!UICONTROL Regenerieren]**.
+   * Deaktivieren Sie die Diskussion und beginnen Sie von vorne - verwenden Sie **[!UICONTROL Zurücksetzen]**.
+   * Verfeinern Sie den Ausdruck im vollständigen Editor - klicken Sie auf das Symbol ![Bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg "Bearbeiten"), um den **[!UICONTROL Personalization-Editor zu]**.
 
-1. Klicken Sie **[!UICONTROL Einfügen]**, um den Ausdruck an der Cursorposition in der Textkomponente anzuwenden. Verwenden Sie **[!UICONTROL Regenerieren]**, um einen neuen Vorschlag zu erstellen, oder **[!UICONTROL Zurücksetzen]**, um von vorne zu beginnen.
-
->[!NOTE]
->
->Die [!UICONTROL KI-Assistent für Personalisierungsausdrücke] im Inline-E-Mail-Designer-Pop-up ist unabhängig von Sitzungen im [!UICONTROL Personalization-Editor]. Das Schließen des Popups löscht die Konversation.
+1. Wenn Sie mit dem Ergebnis zufrieden sind, klicken Sie auf **[!UICONTROL Einfügen]**, um den Ausdruck zu Ihrem Inhalt hinzuzufügen.

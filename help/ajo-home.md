@@ -5,10 +5,10 @@ title: Dokumentation zu Adobe Journey Optimizer
 description: Dokumentation zu Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: dbb52143912170bfb99e22d924c1395fce7ca010
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 92%
+source-wordcount: '565'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Die Versionshinweise enthalten die in neuesten Funktionen und Verbesserungen von
 
 >[!TAB KI-Assistent für Personalisierung]
 
-Verwenden Sie **KI** Assistenten im Personalization-Editor, um im Klartext zu beschreiben, was Sie möchten, und rufen Sie einen Personalisierungsausdruck ab, oder wählen Sie vorhandenen Code aus, um ihn zu erklären, Probleme zu beheben oder Verbesserungen vorzuschlagen.
+Verwenden Sie **KI** Assistenten im Personalization-Editor oder in der E-Mail-Designer-Symbolleiste (**Ausdruck hinzufügen**), um zu beschreiben, was Sie möchten, und rufen Sie einen Personalisierungsausdruck ab, oder wählen Sie vorhandenen Code aus, um ihn zu erklären, Probleme zu beheben oder Verbesserungen vorzuschlagen.
 
 [![Weitere Informationen](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/generative-personalization-expressions.md)
 

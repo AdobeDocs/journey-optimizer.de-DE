@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 80%
+source-wordcount: '1785'
+ht-degree: 79%
 
 ---
 
@@ -175,7 +175,7 @@ Verwenden Sie generative KI, um Inhalte über mehrere Kanäle hinweg zu erstelle
 * **Textgenerierung** – Erstellen Sie überzeugende Texte basierend auf Ihrer Markensprache und Ihren Zielen. [Generieren von Text mit KI](../content-management/generative-text.md)
 * **Bildgenerierung** – Generieren Sie benutzerdefinierte Bilder mit Adobe Firefly. [Generieren von Bildern mit KI](../content-management/generative-image.md)
 * **Inhaltsvarianten** – Erstellen Sie mehrere Varianten für A/B-Tests. [Inhaltsexperimente mit KI](../content-management/generative-experimentation.md)
-* **Personalization** - Generieren Sie im Personalization-Editor neue Ausdrücke, erklären Sie vorhandenen Code oder beheben Sie Probleme mit dem KI-Assistenten. [KI-Assistent für Personalization-Ausdrücke](../content-management/generative-personalization-expressions.md)
+* **Personalization** - Generieren Sie neue Ausdrücke, erklären Sie vorhandenen Code oder beheben Sie Probleme mit dem KI-Assistenten über den Personalization-Editor oder die E-Mail-Symbolleiste von Designer (**Ausdruck hinzufügen**). [KI-Assistent für Personalization-Ausdrücke](../content-management/generative-personalization-expressions.md)
 * **Markenausrichtung** – Stellen Sie sicher, dass der generierte Inhalt Ihren Markenrichtlinien entspricht. [Bewertung der Markenausrichtung](../content-management/brands-score.md)
 * **Vorlagenunterstützung** – Nutzen Sie Ihre vorhandenen E-Mail-Vorlagen. [Arbeiten mit Inhaltsvorlagen](../content-management/content-templates.md)
 
