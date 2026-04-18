@@ -25,7 +25,7 @@ Im Abschnitt „Erstellen und Verwalten von Angeboten“ in Adobe Journey Optimi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren von Angeboten in Adobe Journey Optimizer
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie personalisierte Angebote erstellen, Darstellungen konfigur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen von Fallback-Angeboten
 

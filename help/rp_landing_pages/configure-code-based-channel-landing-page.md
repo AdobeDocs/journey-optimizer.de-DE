@@ -20,7 +20,7 @@ Der Abschnitt „Konfigurieren des Code-basierten Kanals“ in Adobe Journey Opt
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Voraussetzungen für Code-basierte Erlebnisse
 
@@ -40,7 +40,7 @@ Grundlegendes zu Oberflächen und ihren Kennungen, ihrer Komposition und Verwend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Beispiele für Implementierungsmethoden
 
@@ -50,7 +50,7 @@ Hier erhalten Sie eine schrittweise Anleitung zur Implementierung Client-seitige
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Entscheidungsfindung bei der Implementierung von Code-basierten Erlebnissen
 

@@ -32,7 +32,7 @@ E-Mail-Sendungen können erstellt werden:
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen einer E-Mail
 
@@ -42,7 +42,7 @@ Schrittweise Anleitung zum Hinzufügen, Konfigurieren und Testen von E-Mail-Akti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Entwerfen und Optimieren von E-Mail-Inhalten
 
@@ -52,7 +52,7 @@ Erfahren Sie mehr über Tools und Best Practices zum Entwerfen responsiver und p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Verwalten von E-Mail-Opt-outs
 
@@ -62,7 +62,7 @@ Konfigurieren Sie Mechanismen zum Opt-out mit einem Klick oder in zwei Schritten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren des E-Mail-Kanals
 
@@ -72,7 +72,7 @@ Richten Sie E-Mail-Konfigurationen wie Subdomain-Delegierung, Unterdrückungslis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Informationen zur E-Mail-Zustellbarkeit
 

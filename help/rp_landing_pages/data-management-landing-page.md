@@ -30,7 +30,7 @@ Erfahren Sie, wie Adobe Journey Optimizer die Benutzenden mit seinen erweiterten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Arbeiten mit Schemata in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Hier finden Sie eine umfassende Anleitung zum Verwalten von Datensätzen, einsch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Verwenden von Adobe Experience Platform-Daten
 
@@ -60,7 +60,7 @@ Aktivieren und nutzen Sie Adobe Experience Platform-Datensätze in Journey Optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Erste Schritte mit Abfragen in Journey Optimizer
 

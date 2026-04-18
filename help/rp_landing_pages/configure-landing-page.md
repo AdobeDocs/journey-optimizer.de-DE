@@ -20,7 +20,7 @@ Im Abschnitt „Konfigurieren des Inhaltskartenkanals“ in Adobe Journey Optimi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Voraussetzungen für die Konfiguration von Inhaltskarten-Kanälen
 
@@ -30,7 +30,7 @@ Erfahren Sie, welche Konfigurationen und Einstellungen erforderlich sind, um den
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Konfigurieren des Inhaltskarten-Kanals in Journey Optimizer
 

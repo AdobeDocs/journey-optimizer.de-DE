@@ -40,7 +40,7 @@ Erfahren Sie, wie Unterdrückungslisten die Reputation des Absenders schützen u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Einhalten der neuen DMARC-Anforderungen
 
