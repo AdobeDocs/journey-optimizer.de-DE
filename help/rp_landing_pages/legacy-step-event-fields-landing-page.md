@@ -20,7 +20,7 @@ Alte Schrittereignisfelder in Adobe Journey Optimizer sind für das Monitoring u
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Grundlegendes zu alten Feldern
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über alte Schrittereignisfelder in Adobe Journey Optimizer, e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 Überblick über Journey-Felder
 
@@ -50,7 +50,7 @@ Finden Sie wichtige Felder, die von journeyStepEvent und journeyStepProfileEvent
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Aktionsausführungsfelder
 

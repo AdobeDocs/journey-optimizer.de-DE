@@ -25,7 +25,7 @@ Verwenden Sie Entscheidungs-Management-Ereignisdaten und das DecisioningEvents-X
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Arbeiten mit Entscheidungs-Management-Ereignissen
 

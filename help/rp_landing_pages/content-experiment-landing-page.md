@@ -30,7 +30,7 @@ Erfahren Sie mehr über die Grundlagen von Inhaltsexperimenten, ihren Zweck und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Erstellen und Skalieren von Inhaltsexperimenten
 

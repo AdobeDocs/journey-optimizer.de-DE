@@ -22,7 +22,7 @@ Sie können Beschränkungen festlegen, wie oft Nachrichten gesendet werden (Freq
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Arbeiten mit Regelsätzen
 
@@ -32,7 +32,7 @@ Erfahren Sie, wie Sie Regelsätze erstellen, verwalten und aktivieren, um die Re
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Journey-Begrenzung und -Zuweisung
 
@@ -52,7 +52,7 @@ Erfahren Sie, wie Sie kanalspezifische Regeln zur Frequenzbegrenzung erstellen u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
 
 Festlegen von ruhigen Stunden
 

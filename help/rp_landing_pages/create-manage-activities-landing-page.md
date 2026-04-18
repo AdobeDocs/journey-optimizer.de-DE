@@ -25,7 +25,7 @@ In Adobe Journey Optimizer können Sie durch die Erstellung und Verwaltung von E
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen von Entscheidungen in Adobe Journey Optimizer
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie Entscheidungen erstellen, Bereiche definieren, Fallback-An
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Konfigurieren von Angebotsauswahlmethoden
 
@@ -45,7 +45,7 @@ Erfahren Sie, wie Sie Ranking-Methoden für Entscheidungen konfigurieren, einsch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Simulieren von Angebotsentscheidungen
 
