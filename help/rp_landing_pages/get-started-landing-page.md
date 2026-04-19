@@ -5,10 +5,10 @@ title: Erste Schritte
 description: Erste Schritte mit Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 46b1e980ebe480b19b2796c34de676935c272fb9
+source-git-commit: 2f266c189514d92309ad199685222af3a3973b11
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -140,7 +140,7 @@ Verwenden Sie Suchen, Filter und Tags, um Journeys, Kampagnen und Inhalte effizi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=de)
 
 Häufig gestellte Fragen zur Fehlerbehebung
 
