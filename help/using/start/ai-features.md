@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 79%
+source-wordcount: '1845'
+ht-degree: 77%
 
 ---
 
@@ -329,3 +329,11 @@ Nein. Überprüfen Sie [KI-generierte Inhalte](#content-generation) immer auf Ko
 Die meisten KI-Funktionen sind in Adobe Journey Optimizer enthalten. Einige Funktionen wie [Versandzeitoptimierung](#send-time-optimization) oder [AI Agents](#ai-agents) müssen möglicherweise von Adobe aktiviert werden. Wenden Sie sich an den Adobe-Support, um weitere Informationen zu Ihrer spezifischen Lizenz und den verfügbaren Funktionen zu erhalten.
 
 +++
+
+>[!MORELIKETHIS]
+>
+>* [Was ist Journey Optimizer?](get-started.md) - Überblick über die wichtigsten Funktionen, Anwendungsfälle und die Architektur.
+>* [Funktionsweise verstehen](understanding-ajo.md) - So arbeiten Journey Optimizer und Experience Platform zusammen.
+>* [KI-Inhaltserstellung](../content-management/gs-generative.md) - Generieren von E-Mails, Push-, SMS- und Web-Inhalten mit dem KI-Assistenten.
+>* [Optimierung des Versandzeitpunkts](../building-journeys/send-time-optimization.md) - Prognostizieren und optimieren Sie den Versandzeitpunkt von Nachrichten für jede Person.
+>* [KI-Modelle für die Entscheidungsfindung](../experience-decisioning/ranking/ai-models.md) - Angebote automatisch mit KI-Ranking-Modellen bewerten und personalisieren.
