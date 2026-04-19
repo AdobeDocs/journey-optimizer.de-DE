@@ -10,10 +10,10 @@ level: Beginner
 keywords: Journey, Kampagne, orchestriert, Vergleich, Auswählen, Entscheidung, Workflow, Echtzeit, Batch, Orchestrierung, mehrstufig, geplant, API-ausgelöst, ereignisgesteuert
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 61%
+source-wordcount: '1696'
+ht-degree: 59%
 
 ---
 
@@ -111,6 +111,10 @@ Folgen Sie diesem Entscheidungsbaum, um den richtigen Ansatz zu wählen. Viele M
 * Entscheidungsfindung in Echtzeit basierend auf Verhalten und Ereignissen
 * Warteaktivitäten erstellen eine personalisierte Zeitplanung
 * Bedingte Verzweigungen erstellen eindeutige Pfade pro Profil
+* Integriertes Aktiv-Listening - Inaktivität für einen definierten Zeitraum kann auch einen Trigger beim nächsten Schritt darstellen, nicht nur bei expliziten Ereignissen. [Erfahren Sie mehr über Warteaktivitäten](../building-journeys/wait-activity.md)
+* Frequenzlimitierung : Legt fest, wie oft Kundinnen und Kunden Nachrichten von einer Journey eingeben oder empfangen können. [Erfahren Sie mehr über Journey-Begrenzung](../conflict-prioritization/journey-capping.md)
+* Zielgruppenteilung nach Prozentsatz - Teilt Profile in zufällige, prozentualbasierte Gruppen auf, um A/B-Experimente über Journey-Pfade hinweg durchzuführen. [Erfahren Sie mehr über die prozentuale Aufspaltung](../building-journeys/condition-activity.md)
+* Testmodus - Validieren der Journey-Logik und des Nachrichtenversands mit Testprofilen vor der Live-Veröffentlichung. [Erfahren Sie mehr über den Testmodus](../building-journeys/testing-the-journey.md)
 
 **Beispielfluss:**
 
@@ -212,6 +216,8 @@ Kombiniert die Komplexität eines Workflows mit der Batch-Kampagnenausführung.
 | Code-basiert | ✅ | ✅ | ❌ | ❌ |
 | Inhaltskarten | ✅ | ✅ | ❌ | ❌ |
 | Direkt-Mail | ✅ | ✅ | ❌ | ✅ |
+| LINE | ✅ | ✅ | ✅ | ✅ |
+| WhatsApp | ✅ | ✅ | ✅ | ✅ |
 
 ### Erweiterte Funktionen
 
@@ -226,7 +232,7 @@ Kombiniert die Komplexität eines Workflows mit der Batch-Kampagnenausführung.
 | Daten mit mehreren Entitäten | ❌ | ❌ | ❌ | ✅ |
 | Genaue Anzahl vor dem Versand | ❌ | ❌ | ❌ | ✅ |
 | On-Demand-Segmentierung | ❌ | ❌ | ❌ | ✅ |
-| Versandzeitoptimierung | ✅ | ✅ | ✅ | ✅ |
+| Versandzeitoptimierung | ✅ | ❌ | ❌ | ❌ |
 | A/B-Tests | ✅ | ✅ | ❌ | ❌ |
 | Genehmigungs-Workflows | ✅ | ✅ | ✅ | ❌ |
 

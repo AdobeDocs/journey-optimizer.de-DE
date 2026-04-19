@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e42168a8eb2e5824a4054cced014b6ec57afd7f
+source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
 workflow-type: tm+mt
-source-wordcount: '3207'
+source-wordcount: '3209'
 ht-degree: 91%
 
 ---
@@ -35,18 +35,19 @@ ht-degree: 91%
    + Grundlagen {#essentials}
       + [Was ist Journey Optimizer?](using/start/get-started.md)
       + [Grundlegendes zur Funktionsweise](using/start/understanding-ajo.md)
+      + [KI und intelligente Funktionen](using/start/ai-features.md)
       + [Wichtige Terminologie](using/start/terminology.md)
       + [Leitlinien und Einschränkungen](using/start/guardrails.md)
    + Erste Schritte nach Rolle {#by-role}
-      + [Wählen Ihres Lernpfads](using/start/quick-start.md)
-      + [Erste Schritte als Marketing-Fachkraft](using/start/path/marketer.md)
-      + [Erste Schritte als Dateningenieurin oder -ingenieur](using/start/path/data-engineer.md)
+      + [Rollen und Verantwortlichkeiten](using/start/quick-start.md)
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
+      + [Erste Schritte als Dateningenieurin oder -ingenieur](using/start/path/data-engineer.md)
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
+      + [Erste Schritte als Marketing-Fachkraft](using/start/path/marketer.md)
    + Effizientes Arbeiten {#work-efficiently}
       + [Navigieren in der Benutzeroberfläche](using/start/user-interface.md)
       + [Suchen, Filtern und Organisieren](using/start/search-filter-categorize.md)
-      + [KI und intelligente Funktionen](using/start/ai-features.md)
+      + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Barrierefreiheit](using/start/accessibility.md)
       + {hide-from-toc}[Journey vs. Kampagnen](using/start/journeys-vs-campaigns.md)
 + Journeys {#orchestrate-journeys}
