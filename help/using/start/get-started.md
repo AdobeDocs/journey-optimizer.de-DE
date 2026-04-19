@@ -162,7 +162,7 @@ Die Kernfunktionen und Services von Journey Optimizer basieren auf den grundlege
 
 Blueprints für digitale Erlebnisse stellen System- und Datenflussarchitekturdiagramme zur Verfügung, um ein besseres Verständnis der Integration und Implementierung von Adobe Experience Platform und anderen Programmen zu ermöglichen. Die Blueprints bieten eine visuelle Darstellung der Daten- und Inhaltsflüsse zwischen Systemen und Komponenten, der Abfolge von Vorgängen sowie der Abhängigkeiten, um Informationen zum Design von Anwendungsfällen und zur Architektur von Adobe Experience Platform und anderen Programmen zu liefern.
 
-Siehe [Blueprints für Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Siehe [Blueprints für Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
 
 
 >[!MORELIKETHIS]
