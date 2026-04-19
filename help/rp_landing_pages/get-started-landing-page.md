@@ -5,16 +5,16 @@ title: Erste Schritte
 description: Erste Schritte mit Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 5951889d9cc245488ef89b8a6fc73e515068281e
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 98%
+source-wordcount: '608'
+ht-degree: 88%
 
 ---
 
 # Erste Schritte mit Adobe Journey Optimizer{#get-started}
 
-Mit Adobe Journey Optimizer können Sie auf allen Kanälen personalisierte Kundenerlebnisse in Echtzeit bereitstellen. Begegnen Sie Ihrer Kundschaft dort, wo sie ist, mit der richtigen Botschaft zur richtigen Zeit.
+Mit Adobe Journey Optimizer können Sie personalisierte Kundenerlebnisse in Echtzeit über jeden Kanal hinweg bereitstellen - von einer einzigen Anwendung aus und in jedem Maßstab. Das Ergebnis sind aussagekräftige Markenerlebnisse, die die Kundentreue und den Kundenlebenswert steigern.
 
 Unabhängig davon, ob Sie neu bei Journey Optimizer sind oder bereits Erfahrung damit haben und Ihre Kenntnisse erweitern möchten, finden Sie in diesem Abschnitt alles, was Sie für einen schnellen und effektiven Einstieg benötigen.
 
@@ -24,7 +24,7 @@ Lernen Sie die Grundlagen von Adobe Journey Optimizer kennen und erfahren Sie, w
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Was ist Journey Optimizer?
 
@@ -34,7 +34,7 @@ Hier erfahren Sie mehr über die wichtigsten Funktionen, Anwendungsfälle und di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Grundlegendes zur Funktionsweise
 
@@ -44,7 +44,7 @@ Erfahren Sie, wie Journey Optimizer mit Adobe Experience Platform integriert wir
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 Wichtige Terminologie
 
@@ -53,84 +53,8 @@ Grundlegende Begriffe und Konzepte für eine sichere Navigation durch Journey Op
 [Terminologie kennenlernen](../using/start/terminology.md)
 :::
 
-::::
-
-## Wählen Ihres Lernpfads {#by-role}
-
-Legen Sie mit rollenspezifischen Anleitungen los, die auf Ihre Zuständigkeiten und Ziele zugeschnitten sind.
-
-:::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=de)
-
-Für Marketing-Fachleute
-
-Entwerfen Sie Journeys, erstellen Sie Kampagnen und personalisieren Sie Inhalte, um Ihre Zielgruppen anzusprechen.
-
-[Als Marketing-Fachkraft loslegen](../using/start/path/marketer.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=de)
-
-Für Dateningenieurinnen und Dateningenieure
-
-Konfigurieren Sie Datenstrukturen, verwalten Sie Schemata und Datensätze und stellen Sie die Datenqualität sicher.
-
-[Als Dateningenieurin bzw. -ingenieur loslegen](../using/start/path/data-engineer.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
-
-Für Admins
-
-Richten Sie Umgebungen ein, verwalten Sie Berechtigungen und konfigurieren Sie Kanäle für Ihre Organisation.
-
-[Als Admin loslegen](../using/start/path/administrator.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=de)
-
-Für Entwicklende
-
-Integrieren Sie Apps, implementieren Sie Web SDKs, konfigurieren Sie Ereignisse und erstellen Sie benutzerdefinierte Integrationen.
-
-[Als Entwicklerin bzw. Entwickler loslegen](../using/start/path/developer.md)
-:::
-
-::::
-
-[Nicht sicher, welche Rolle zu Ihnen passt? Machen Sie unseren schnellen Test →](../using/start/quick-start.md)
-
-## Effizientes Arbeiten {#work-efficiently}
-
-Lernen Sie die Benutzeroberfläche kennen und nutzen Sie intelligente Funktionen, um Ihre Arbeit zu beschleunigen.
-
-:::: landing-cards-container
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=de)
-
-Navigieren in der Benutzeroberfläche
-
-Erfahren Sie, wie Sie die Benutzeroberfläche von Journey Optimizer verwenden, auf wichtige Funktionen zugreifen und schnell finden, was Sie benötigen.
-
-[Benutzeroberfläche erkunden](../using/start/user-interface.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
-
-Suchen und Organisieren
-
-Verwenden Sie Suchen, Filter und Tags, um Journeys, Kampagnen und Inhalte effizient zu verwalten.
-
-[Suche kennenlernen](../using/start/search-filter-categorize.md)
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/sparkle.svg)
 
 KI und intelligente Funktionen
 
@@ -141,7 +65,93 @@ Entdecken Sie, wie KI Sie beim Erstellen von Inhalten, Optimieren von Versandzei
 
 ::::
 
-## Weitere Ressourcen {#additional-resources}
+## Erste Schritte nach Rolle {#by-role}
+
+Legen Sie mit rollenspezifischen Anleitungen los, die auf Ihre Zuständigkeiten und Ziele zugeschnitten sind.
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+
+Für Marketing-Fachleute
+
+Entwerfen Sie Journeys, erstellen Sie Kampagnen und personalisieren Sie Inhalte, um Ihre Zielgruppen anzusprechen.
+
+[Als Marketing-Fachkraft loslegen](../using/start/path/marketer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+
+Für Dateningenieurinnen und Dateningenieure
+
+Konfigurieren Sie Datenstrukturen, verwalten Sie Schemata und Datensätze und stellen Sie die Datenqualität sicher.
+
+[Als Dateningenieurin bzw. -ingenieur loslegen](../using/start/path/data-engineer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Für Admins
+
+Richten Sie Umgebungen ein, verwalten Sie Berechtigungen und konfigurieren Sie Kanäle für Ihre Organisation.
+
+[Als Admin loslegen](../using/start/path/administrator.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+
+Für Entwicklende
+
+Integrieren Sie Apps, implementieren Sie Web SDKs, konfigurieren Sie Ereignisse und erstellen Sie benutzerdefinierte Integrationen.
+
+[Als Entwicklerin bzw. Entwickler loslegen](../using/start/path/developer.md)
+:::
+
+::::
+
+[Alle Rollen und Zuständigkeiten anzeigen →](../using/start/quick-start.md)
+
+## Effizientes Arbeiten {#work-efficiently}
+
+Lernen Sie die Benutzeroberfläche kennen und nutzen Sie intelligente Funktionen, um Ihre Arbeit zu beschleunigen.
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+
+Navigieren in der Benutzeroberfläche
+
+Erfahren Sie, wie Sie die Benutzeroberfläche von Journey Optimizer verwenden, auf wichtige Funktionen zugreifen und schnell finden, was Sie benötigen.
+
+[Benutzeroberfläche erkunden](../using/start/user-interface.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Suchen und Organisieren
+
+Verwenden Sie Suchen, Filter und Tags, um Journeys, Kampagnen und Inhalte effizient zu verwalten.
+
+[Suche kennenlernen](../using/start/search-filter-categorize.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
+
+Häufig gestellte Fragen zur Fehlerbehebung
+
+Hier finden Sie Antworten auf häufig gestellte Fragen und Lösungen für gängige Probleme auf allen Kanälen und in allen Funktionen.
+
+[Handbuch zur Fehlerbehebung anzeigen](../using/start/troubleshooting.md)
+:::
+
+::::
+
+## Zusätzliche Ressourcen {#additional-resources}
 
 ### Referenz und Best Practices
 
