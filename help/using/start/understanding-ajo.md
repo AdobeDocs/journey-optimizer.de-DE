@@ -9,10 +9,10 @@ role: Admin, Developer, User
 level: Beginner
 keywords: Journey Optimizer, Funktionsweise, Architektur, Experience Platform, Funktionsbereiche
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
+source-git-commit: 3983f5912cb0579d489af6466025551b60d6938e
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer fungiert als kontinuierlicher Fluss, in dem Daten erfass
 
 ![Abbildung, die Adobe Experience Platform als grundlegende Datenschicht zeigt, wobei Journey Optimizer zusammen mit Real-Time CDP, Customer Journey Analytics und Adobe Mix Modeler auf basiert und alle zentrale Services wie Echtzeit-Kundenprofil, Data Governance und Identitätsauflösung gemeinsam nutzen.](assets/ajo-aep-architecture-diagram.png)
 
-### Adobe Experience Platform: Das Fundament {#aep-foundation}
+### Adobe Experience Platform: Die Stiftung {#aep-foundation}
 
 Adobe Experience Platform dient als Backbone, mit dem Marken Kundendaten zentralisieren und für personalisierte Erlebnisse aktivieren können.
 
@@ -85,7 +85,7 @@ Diese Funktionsbereiche arbeiten in einem kontinuierlichen Zyklus:
 
 Journey Optimizer ist eine von vier nativ auf Adobe Experience Platform aufbauenden Anwendungen neben Real-Time CDP, Customer Journey Analytics und Adobe Mix Modeler. Es nutzt die zentralen Services von AEP - Echtzeit-Kundenprofil, Identitätsdiagramm, Data Governance und Abfrage-Services - gemeinsam, sodass es auf eine einheitliche Kundendatenbasis zugreift, ohne dass separate Integrationen erforderlich sind. Journey Optimizer kann als eigenständige Anwendung ausgeführt werden oder mit anderen AEP-nativen Anwendungen zusammenarbeiten.
 
-Einen tiefen Einblick in die technische Architektur - einschließlich Integrationsmustern, Voraussetzungen und Systemdatenflüssen - finden Sie in den [Adobe Journey Optimizer Blueprints](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Überlegungen zur Implementierung finden [&#x200B; unter (Leitplanken und Einschränkungen überprüfen](guardrails.md).
+Einen tiefen Einblick in die technische Architektur - einschließlich Integrationsmustern, Voraussetzungen und Systemdatenflüssen - finden Sie in den [Adobe Journey Optimizer Blueprints](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Überlegungen zur Implementierung finden [ unter (Leitplanken und Einschränkungen überprüfen](guardrails.md).
 
 ## Datenschutz und Sicherheit {#privacy-security}
 
