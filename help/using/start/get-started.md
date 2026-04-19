@@ -135,12 +135,12 @@ Für [!DNL Journey Optimizer] gelten die allgemeinen Datenschutzrichtlinien und 
 
 ## Architektur {#architecture}
 
-Journey Optimizer basiert nativ auf Adobe Experience Platform und bietet gemeinsame Datengrundlagen, Identitätsdiagramme und Governance-Services. Eine ausführliche Beschreibung der Funktionsweise dieser Systeme finden Sie unter [ von Journey Optimizer](understanding-ajo.md).
+Journey Optimizer basiert nativ auf Adobe Experience Platform und bietet gemeinsame Datengrundlagen, Identitätsdiagramme und Governance-Services. Eine ausführliche Beschreibung der Funktionsweise dieser Systeme finden Sie unter [&#x200B; von Journey Optimizer](understanding-ajo.md).
 
 
 >[!MORELIKETHIS]
 >
->* [Wichtige Schritte für den ](quick-start.md): Rollenbasierte Schnellstartanleitungen für Administratoren, Marketing-Experten und Dateningenieure.
+>* [Wichtige Schritte für den &#x200B;](quick-start.md): Rollenbasierte Schnellstartanleitungen für Administratoren, Marketing-Experten und Dateningenieure.
 >* [Erste Schritte mit dem Daten-](../data/gs-data.md) - Erfahren Sie, wie Daten in Journey Optimizer aufgenommen, vereinheitlicht und aktiviert werden.
 >* [Journey entwerfen und Nachrichten senden](../building-journeys/journey-gs.md) - Erstellen Sie Ihre erste Kunden-Journey und konfigurieren Sie Kanalaktionen.
 >* [Live-Berichte](../reports/live-report.md) - Überwachen der Kampagnen- und Journey-Performance in Echtzeit.
