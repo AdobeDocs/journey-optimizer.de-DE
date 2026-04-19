@@ -113,7 +113,7 @@ Weitere Informationen zur Push-Konfiguration finden Sie auf [dieser Seite](../pu
 
 Abgelaufene oder falsch konfigurierte Push-Anmeldeinformationen - z. B. ein APNs-Zertifikat für iOS oder ein FCM-Schlüssel für Android - führen zu Bereitstellungsfehlern im Hintergrund. Journey Optimizer kann keine Benachrichtigungen senden, wenn die in der Konfiguration des Push-Kanals gespeicherten Anmeldeinformationen nicht mehr mit den bei der Geräteplattform registrierten übereinstimmen. Aktualisieren Sie die Anmeldeinformationen in der Konfiguration des Push-Kanals und überprüfen Sie, ob die zugehörige Mobile-App-Oberfläche erneut veröffentlicht wird.
 
-Erfahren Sie (auf dieser Seite), wie [ Push-Anmeldeinformationen ](../push/push-gs.md).
+Erfahren Sie (auf dieser Seite), wie [&#x200B; Push-Anmeldeinformationen &#x200B;](../push/push-gs.md).
 
 Siehe auch die [Dokumentation zur Konfiguration von Push-Kanälen](../push/push-configuration.md).
 
@@ -134,7 +134,7 @@ Wenn eine Empfängerin bzw. ein Empfänger auf eine SMS mit **STOPP** antwortet,
 
 SMS-Versandfehler nach der Kanaleinrichtung werden meist durch falsche Provider-API-Anmeldeinformationen, eine fehlende Übereinstimmung zwischen der Absender-ID und dem, was der Provider registriert hat, oder Routing-Einschränkungen auf Provider-Ebene verursacht. Überprüfen Sie, ob der in Journey Optimizer eingegebene API-Schlüssel, das Passwort und die Absenderdetails genau mit dem übereinstimmen, was Ihr SMS-Anbieter bereitgestellt hat. Senden Sie dann eine Testnachricht, um die Verbindung zu bestätigen, bevor Sie eine Kampagne starten.
 
-Erfahren Sie auf dieser Seite , wie Sie [ SMS-Anbieter ](../sms/sms-configuration.md).
+Erfahren Sie auf dieser Seite , wie Sie [&#x200B; SMS-Anbieter &#x200B;](../sms/sms-configuration.md).
 
 +++
 
@@ -142,7 +142,7 @@ Erfahren Sie auf dieser Seite , wie Sie [ SMS-Anbieter ](../sms/sms-configuratio
 
 Wenn ein Profil den Text STOP schreibt, aktualisiert Journey Optimizer das SMS-Einverständnisattribut des Profils. Um den aktuellen Opt-out-Status zu überprüfen, öffnen Sie das Profil in der Experience Platform-Benutzeroberfläche und überprüfen Sie die Einverständnisfelder unter **Datenschutz** > **Einverständnisse**. Überprüfen Sie zur Fehlerbehebung bei Campaign auch die Ausschlussgründe im Kampagnenbericht . Opt-out-Profile werden unter der **Ausgeschlossen** mit dem Grund „Opt-out“ angezeigt.
 
-Weitere Informationen zur Handhabung des SMS-Opt-outs [ Sie auf dieser Seite](../sms/sms-opt-out.md).
+Weitere Informationen zur Handhabung des SMS-Opt-outs [&#x200B; Sie auf dieser Seite](../sms/sms-opt-out.md).
 
 +++
 
@@ -160,7 +160,7 @@ Siehe auch die Dokumentation zu [Journey Optimizer All-Time Reports](../reports/
 
 In-App-Nachrichten erfordern, dass Adobe Experience Platform Mobile SDK korrekt installiert und die Messaging-Erweiterung in der App registriert ist. Wenn die Nachricht nicht angezeigt wird, stellen Sie sicher, dass die SDK initialisiert wurde, bevor die App versucht, In-App-Nachrichten abzurufen, dass die richtige Programmoberfläche (Bundle-ID) in Journey Optimizer konfiguriert ist und dass sich die Kampagne im Status **Live** befindet. Bestätigen Sie außerdem, dass das Profil die Zielgruppenkriterien erfüllt und noch nicht durch eine Häufigkeitsregel begrenzt wurde.
 
-Erfahren Sie (auf dieser Seite), wie Sie [ In-App-Kanal ](../in-app/inapp-configuration.md).
+Erfahren Sie (auf dieser Seite), wie Sie [&#x200B; In-App-Kanal &#x200B;](../in-app/inapp-configuration.md).
 
 +++
 
@@ -168,7 +168,7 @@ Erfahren Sie (auf dieser Seite), wie Sie [ In-App-Kanal ](../in-app/inapp-config
 
 In-App-Kampagnen-Trigger basierend auf Ereignisnamen, die genau zwischen der SDK-Implementierung Ihrer App und der in Journey Optimizer definierten Trigger-Bedingung übereinstimmen müssen. Wenn die Schreibweise, die Schreibweise oder die Payload-Struktur des Ereignisses nicht übereinstimmen, kann der Trigger nicht ausgelöst werden. Verwenden Sie das Adobe Experience Platform Assurance-Tool, um SDK-Live-Ereignisse zu untersuchen und sie mit der Trigger-Konfiguration Ihrer Kampagne zu vergleichen.
 
-Erfahren Sie (auf dieser Seite), wie Sie [ In-App-Nachricht erstellen ](../in-app/create-in-app.md) konfigurieren.
+Erfahren Sie (auf dieser Seite), wie Sie [&#x200B; In-App-Nachricht erstellen &#x200B;](../in-app/create-in-app.md) konfigurieren.
 
 +++
 
@@ -179,7 +179,7 @@ Erfahren Sie (auf dieser Seite), wie Sie [ In-App-Nachricht erstellen ](../in-ap
 
 Für Inhaltskarten müssen Adobe Experience Platform Mobile SDK und **Messaging SDK** in der App installiert, registriert und konfiguriert werden. Im Gegensatz zu Push- oder In-App-Nachrichten werden Inhaltskarten nicht automatisch gerendert. Ihre App muss die Messaging-SDK-APIs explizit aufrufen, um verfügbare Karten abzurufen und sie dann in Ihrer Benutzeroberfläche zu rendern. Wenn keine Karten angezeigt werden, verwenden Sie **Adobe Experience Platform Assurance**, um zu überprüfen, ob Entscheidungsanfragen beim Auslösen des Target-Ereignisses ausgelöst werden und ob die Antworten von Edge Network zurückgegeben werden.
 
-Erfahren Sie auf dieser Seite , wie Sie die Unterstützung für Inhaltskarten in Mobile [ konfigurieren](../content-card/content-card-configuration-sdk.md).
+Erfahren Sie auf dieser Seite , wie Sie die Unterstützung für Inhaltskarten in Mobile [&#x200B; konfigurieren](../content-card/content-card-configuration-sdk.md).
 
 +++
 
@@ -195,7 +195,7 @@ Weitere Informationen zum Inhaltskarten-Kanal [auf dieser Seite](../content-card
 
 Impressionen und Interaktionen von Inhaltskarten (Klicks, Abweisungen) werden nicht automatisch verfolgt. Ihre Mobile App muss Tracking-Ereignisse explizit über den Messaging-SDK an Adobe zurücksenden, nachdem eine Karte gerendert und Benutzer mit ihr interagiert haben. Wenn diese Tracking-Aufrufe in der Implementierung fehlen, zeigen Berichte selbst dann keine Impressionen an, wenn die Karten korrekt bereitgestellt werden. Überprüfen Sie, ob die Tracking-Aufrufe in **Assurance ausgelöst werden** bevor Sie die Kampagnenkonfiguration untersuchen.
 
-Erfahren Sie (auf dieser Seite), wie [ auf Berichte ](../content-card/content-card-report.md) Inhaltskarte zugreifen können.
+Erfahren Sie (auf dieser Seite), wie [&#x200B; auf Berichte &#x200B;](../content-card/content-card-report.md) Inhaltskarte zugreifen können.
 
 Siehe auch [Konfiguration der Inhaltskarte für SDK](../content-card/content-card-configuration-sdk.md) für die erforderlichen Tracking-Aufrufe.
 
@@ -207,7 +207,7 @@ Siehe auch [Konfiguration der Inhaltskarte für SDK](../content-card/content-car
 
 Für den Versand von WhatsApp-Nachrichten müssen zwei Bedingungen erfüllt sein: Der Empfänger muss sich explizit für den Empfang von WhatsApp-Nachrichten von Ihrer Marke entschieden haben, und die Nachricht muss eine **vorab genehmigte Nachrichtenvorlage) verwenden** die bei der WhatsApp Business-API registriert ist. Wenn eine der Bedingungen nicht erfüllt ist, wird die Nachricht von der WhatsApp-Plattform vor dem Versand stillschweigend blockiert. Überprüfen Sie den Opt-in-Status in den Einverständnisattributen des Empfängerprofils und bestätigen Sie, dass die Vorlage in Ihrem WhatsApp Business **Konto den** Genehmigt“ hat.
 
-Erfahren Sie auf dieser Seite , wie Sie [ WhatsApp-Kanal ](../whatsapp/whatsapp-configuration.md).
+Erfahren Sie auf dieser Seite , wie Sie [&#x200B; WhatsApp-Kanal &#x200B;](../whatsapp/whatsapp-configuration.md).
 
 +++
 
@@ -215,7 +215,7 @@ Erfahren Sie auf dieser Seite , wie Sie [ WhatsApp-Kanal ](../whatsapp/whatsapp-
 
 Die WhatsApp Business-API erlaubt nur vorab genehmigte Nachrichtenvorlagen für ausgehende geschäftlich initiierte Nachrichten. Freiformnachrichten sind nur innerhalb eines **24-Stunden-Kundendienstfensters zulässig** d. h. innerhalb von 24 Stunden, nachdem der Kunde eine Nachricht zuerst an Ihre Marke gesendet hat. Wenn Ihre Nachricht abgelehnt wird, stellen Sie sicher, dass die Vorlage an Meta gesendet und von diesem genehmigt wurde, dass die Vorlagenvariablen (Platzhalter) in der Journey Optimizer-Nachricht genau mit der genehmigten Vorlagenstruktur übereinstimmen und dass die richtige Vorlage in der Kampagne oder der Journey-Aktion ausgewählt ist.
 
-Erfahren Sie (auf dieser [), wie Sie WhatsApp-Nachrichten ](../whatsapp/create-whatsapp.md).
+Erfahren Sie (auf dieser [), wie Sie WhatsApp-Nachrichten &#x200B;](../whatsapp/create-whatsapp.md).
 
 +++
 
@@ -241,7 +241,7 @@ Weitere Informationen zur TTL von Datensätzen finden Sie auf [dieser Seite](../
 
 Damit ein Datensatz die profilbasierte Personalisierung und Journey-Bedingungen in Journey Optimizer unterstützt, müssen zwei Anforderungen erfüllt sein: Für das zugrunde liegende XDM-Schema muss **Profile** aktiviert sein, und der Datensatz selbst muss für **Echtzeit-Kundenprofil** in der Experience Platform-Benutzeroberfläche aktiviert sein. Wenn eines von beiden fehlt, werden die Daten in den Data Lake aufgenommen, aber nicht in einheitlichen Profilen zusammengeführt. Stellen Sie außerdem sicher, dass der Datensatz mindestens ein Identitätsfeld enthält, das einem erkannten Namespace zugeordnet ist.
 
-Erfahren Sie (auf [ Seite), wie Sie Datensätze ](../data/get-started-datasets.md).
+Erfahren Sie (auf [&#x200B; Seite), wie Sie Datensätze &#x200B;](../data/get-started-datasets.md).
 
 Siehe auch [Übersicht über das Daten-Management](../data/gs-data.md), um die vollständige Setup-Checkliste zu erhalten.
 
@@ -251,7 +251,7 @@ Siehe auch [Übersicht über das Daten-Management](../data/gs-data.md), um die v
 
 Aufnahmefehler werden im Dashboard **Überwachung** von Adobe Experience Platform unter **Quellen** > **Datenflüsse** angezeigt. Häufige Ursachen sind Fehler bei der Schemavalidierung (ein Feld in den Quelldaten stimmt nicht mit dem XDM-Schema überein), fehlende erforderliche Identitätsfelder oder falsch formatierte JSON-Payloads. Öffnen Sie den fehlgeschlagenen Batch-Datensatz, um den spezifischen Fehler-Code und die betroffenen Zeilen anzuzeigen. Korrigieren Sie die Quelldaten und nehmen Sie die Schemazuordnung erneut auf bzw. passen Sie sie an, wenn sich das Quellformat geändert hat.
 
-Weitere Informationen zu Schemata und zur Dateneinrichtung [ Sie auf dieser Seite](../data/gs-data.md).
+Weitere Informationen zu Schemata und zur Dateneinrichtung [&#x200B; Sie auf dieser Seite](../data/gs-data.md).
 
 +++
 
@@ -278,7 +278,7 @@ Weitere Informationen über die Aktivität **Profil aktualisieren** finden Sie a
 
 Die Diskrepanz kann auftreten, wenn der Journey den Profilschnappschuss eines vorherigen Tages verwendet, wenn der aktuelle Tagesschnappschuss zum Zeitpunkt der Journey-Ausführung nicht verfügbar ist. Um zu untersuchen, überprüfen Sie, wann Ihr täglicher Segmentierungsauftrag zuletzt ausgeführt wurde und ob der Journey ausgelöst wurde, bevor der Snapshot bereit war.
 
-Weitere Informationen zur Aktivität **Zielgruppe lesen** und zum Zeitplanverhalten finden [ auf dieser Seite](../building-journeys/read-audience.md).
+Weitere Informationen zur Aktivität **Zielgruppe lesen** und zum Zeitplanverhalten finden [&#x200B; auf dieser Seite](../building-journeys/read-audience.md).
 
 +++
 
@@ -305,7 +305,7 @@ Die Metrik **Ansprechbare Profile** gibt die Anzahl der eindeutigen Profile an, 
 
 Um dieses Problem zu untersuchen und zu beheben, müssen Sie die Profilzählungslogik verstehen, Journey und Kampagnen untersuchen, die auf große Zielgruppen abzielen, Zielgruppen angemessen filtern, Datensatzänderungen überwachen und möglicherweise die adressierbare Zielgruppengröße reduzieren.
 
-Erfahren Sie in der Dokumentation zum Lizenznutzungs-Dashboard , wie Sie Probleme mit Engageable Profiles beheben und die Lizenznutzung [ Unternehmens ](../audience/license-usage.md#troubleshooting-engageable-profiles).
+Erfahren Sie in der Dokumentation zum Lizenznutzungs-Dashboard , wie Sie Probleme mit Engageable Profiles beheben und die Lizenznutzung [&#x200B; Unternehmens &#x200B;](../audience/license-usage.md#troubleshooting-engageable-profiles).
 
 +++
 
@@ -424,7 +424,7 @@ Probleme mit dem Dropdown-Menü **Begrenzungsregeln** treten häufig auf, wenn R
 
 Regeln zur Frequenzlimitierung werden nur wirksam, wenn der Regelsatz explizit an die Kampagne oder den Journey angehängt wird. Wenn die Begrenzung nicht funktioniert, stellen Sie sicher, dass in den Kampagnen- oder Journey-Einstellungen der richtige Regelsatz ausgewählt ist, dass der Kanaltyp der Regel mit dem verwendeten Kanal übereinstimmt und dass die Regel den Status **Aktiv** hat. Überprüfen Sie außerdem, ob das Profil bereits in einer vorherigen Ausführung die Begrenzung erreicht hat, wodurch weitere Meldungen verhindert würden, selbst wenn die Regel korrekt konfiguriert erscheinen würde.
 
-Erfahren Sie (auf dieser Seite), wie [ Regeln für die Kanalbegrenzung ](../conflict-prioritization/channel-capping.md).
+Erfahren Sie (auf dieser Seite), wie [&#x200B; Regeln für die Kanalbegrenzung &#x200B;](../conflict-prioritization/channel-capping.md).
 
 +++
 
@@ -432,7 +432,7 @@ Erfahren Sie (auf dieser Seite), wie [ Regeln für die Kanalbegrenzung ](../conf
 
 Ruhestunden sind zeitbasierte Ausschlussregeln, die in einem **Kanalregelsatz“ konfiguriert**. Definieren Sie das Blackout-Fenster (z. B. 22 Uhr bis 8 Uhr morgens) und wenden Sie den Regelsatz auf die entsprechenden Kampagnen oder Journey an. Wenn der Versand einer Nachricht für ruhige Zeiten geplant ist, behält Journey Optimizer die Nachricht entweder bis zum nächsten zulässigen Fenster bei oder verwirft sie je nach Regelkonfiguration.
 
-Erfahren Sie (auf dieser Seite), wie [ ruhige Stunden ](../conflict-prioritization/quiet-hours.md).
+Erfahren Sie (auf dieser Seite), wie [&#x200B; ruhige Stunden &#x200B;](../conflict-prioritization/quiet-hours.md).
 
 +++
 
@@ -458,7 +458,7 @@ Weitere Informationen zu den erforderlichen Berechtigungen für Offer Decisionin
 
 Wenn ein qualifizierendes Angebot nicht in einer Entscheidungsantwort angezeigt wird, überprüfen Sie die folgende Reihenfolge: Überprüfen Sie, ob das Angebot den Status **Genehmigt** (nicht Entwurf) hat; bestätigen Sie, dass die Platzierungs-ID in der Anfrage mit der Darstellungsfläche des Angebots übereinstimmt; überprüfen Sie, ob für dieses Angebot ein Begrenzungslimit (insgesamt oder pro Profil) erreicht wurde; und stellen Sie sicher, dass die Sammlung und der Entscheidungsumfang korrekt konfiguriert sind. Verwenden Sie das **Simulation**-Tool in Experience Decisioning, um Angebotsantworten mit einem bestimmten Profil zu testen, ohne Live-Traffic zu senden.
 
-Informationen zu den ersten Schritten mit Experience Decisioning [ Sie auf dieser Seite](../experience-decisioning/gs-experience-decisioning.md).
+Informationen zu den ersten Schritten mit Experience Decisioning [&#x200B; Sie auf dieser Seite](../experience-decisioning/gs-experience-decisioning.md).
 
 +++
 
@@ -477,7 +477,7 @@ Weitere Informationen zu mehrsprachigem Inhalt finden Sie auf [dieser Seite](../
 
 Verbindungsfehler beim Übersetzungsanbieter werden in der Regel durch falsche API-Anmeldeinformationen oder eine fehlende Anbieterkonfiguration in den mehrsprachigen Einstellungen verursacht. Überprüfen Sie, ob der API-Schlüssel, die Endpunkt-URL und alle erforderlichen Authentifizierungstoken in Journey Optimizer genau mit dem übereinstimmen, was Ihr Übersetzungsanbieter bereitgestellt hat. Wenn die Anmeldeinformationen korrekt sind, überprüfen Sie, ob das Anbieterkonto über ein ausreichendes Kontingent oder einen aktiven Abonnementstatus verfügt, speichern Sie die Verbindung und testen Sie sie erneut.
 
-Erfahren Sie (auf dieser Seite), wie [ einen Übersetzungsanbieter ](../content-management/multilingual-provider.md).
+Erfahren Sie (auf dieser Seite), wie [&#x200B; einen Übersetzungsanbieter &#x200B;](../content-management/multilingual-provider.md).
 
 +++
 
@@ -485,7 +485,7 @@ Erfahren Sie (auf dieser Seite), wie [ einen Übersetzungsanbieter ](../content-
 
 Wenn für ein bestimmtes Gebietsschema keine Übersetzung bereitgestellt wurde, greift Journey Optimizer auf die Inhalte zurück, die in der **Primärsprache** (Fallback-Gebietsschema) definiert sind, die in Ihren Spracheinstellungen konfiguriert ist. Wenn kein Fallback konfiguriert ist, kann die Nachricht als leer gerendert werden oder die Validierung vor dem Senden schlägt fehl. Um dies zu verhindern, definieren Sie in Ihren mehrsprachigen Projekteinstellungen immer ein Fallback-Gebietsschema und stellen Sie sicher, dass alle Gebietsschemata genehmigte Übersetzungen haben, bevor Sie die Kampagne oder den Journey aktivieren.
 
-Weitere Informationen zum Einrichten mehrsprachiger Inhalte [ Sie auf dieser Seite](../content-management/multilingual-gs.md).
+Weitere Informationen zum Einrichten mehrsprachiger Inhalte [&#x200B; Sie auf dieser Seite](../content-management/multilingual-gs.md).
 
 +++
 
@@ -512,7 +512,7 @@ Weitere Informationen zu Abfragen in Journey Optimizer [auf dieser Seite](../dat
 
 Adressen werden nach Hardbounces, Spam-Beschwerden oder manuellen Hinzufügungen durch einen Administrator automatisch zur Unterdrückungsliste hinzugefügt. Nach der Unterdrückung erhält ein Profil unabhängig vom Kampagnen- oder Journey-Targeting keine Nachrichten von diesem Kanal. Öffnen Sie zur Untersuchung **Administration** > **Kanäle** > **Unterdrückungsliste** und suchen Sie nach der Adresse. Wenn die Unterdrückung irrtümlich hinzugefügt wurde, kann sie direkt aus der Schnittstelle entfernt werden. Überprüfen Sie bei Unterdrückungen von Hardbounces auch das zugrunde liegende Zustellbarkeitsproblem, bevor Sie die Adresse entfernen.
 
-Erfahren Sie (auf dieser Seite), wie [ Unterdrückungsliste ](../configuration/manage-suppression-list.md).
+Erfahren Sie (auf dieser Seite), wie [&#x200B; Unterdrückungsliste &#x200B;](../configuration/manage-suppression-list.md).
 
 +++
 
