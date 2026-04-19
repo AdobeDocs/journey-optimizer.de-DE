@@ -5,16 +5,16 @@ title: Erste Schritte
 description: Erste Schritte mit Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 5951889d9cc245488ef89b8a6fc73e515068281e
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 98%
+source-wordcount: '608'
+ht-degree: 88%
 
 ---
 
 # Erste Schritte mit Adobe Journey Optimizer{#get-started}
 
-Mit Adobe Journey Optimizer können Sie auf allen Kanälen personalisierte Kundenerlebnisse in Echtzeit bereitstellen. Begegnen Sie Ihrer Kundschaft dort, wo sie ist, mit der richtigen Botschaft zur richtigen Zeit.
+Mit Adobe Journey Optimizer können Sie personalisierte Kundenerlebnisse in Echtzeit über jeden Kanal hinweg bereitstellen - von einer einzigen Anwendung aus und in jedem Maßstab. Das Ergebnis sind aussagekräftige Markenerlebnisse, die die Kundentreue und den Kundenlebenswert steigern.
 
 Unabhängig davon, ob Sie neu bei Journey Optimizer sind oder bereits Erfahrung damit haben und Ihre Kenntnisse erweitern möchten, finden Sie in diesem Abschnitt alles, was Sie für einen schnellen und effektiven Einstieg benötigen.
 
@@ -53,9 +53,19 @@ Grundlegende Begriffe und Konzepte für eine sichere Navigation durch Journey Op
 [Terminologie kennenlernen](../using/start/terminology.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/sparkle.svg)
+
+KI und intelligente Funktionen
+
+Entdecken Sie, wie KI Sie beim Erstellen von Inhalten, Optimieren von Versandzeiten und Treffen intelligenterer Entscheidungen unterstützt.
+
+[KI-Funktionen erkunden](../using/start/ai-features.md)
+:::
+
 ::::
 
-## Wählen Ihres Lernpfads {#by-role}
+## Erste Schritte nach Rolle {#by-role}
 
 Legen Sie mit rollenspezifischen Anleitungen los, die auf Ihre Zuständigkeiten und Ziele zugeschnitten sind.
 
@@ -102,7 +112,7 @@ Integrieren Sie Apps, implementieren Sie Web SDKs, konfigurieren Sie Ereignisse 
 
 ::::
 
-[Nicht sicher, welche Rolle zu Ihnen passt? Machen Sie unseren schnellen Test →](../using/start/quick-start.md)
+[Alle Rollen und Zuständigkeiten anzeigen →](../using/start/quick-start.md)
 
 ## Effizientes Arbeiten {#work-efficiently}
 
@@ -130,18 +140,18 @@ Verwenden Sie Suchen, Filter und Tags, um Journeys, Kampagnen und Inhalte effizi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
 
-KI und intelligente Funktionen
+Häufig gestellte Fragen zur Fehlerbehebung
 
-Entdecken Sie, wie KI Sie beim Erstellen von Inhalten, Optimieren von Versandzeiten und Treffen intelligenterer Entscheidungen unterstützt.
+Hier finden Sie Antworten auf häufig gestellte Fragen und Lösungen für gängige Probleme auf allen Kanälen und in allen Funktionen.
 
-[KI-Funktionen erkunden](../using/start/ai-features.md)
+[Handbuch zur Fehlerbehebung anzeigen](../using/start/troubleshooting.md)
 :::
 
 ::::
 
-## Weitere Ressourcen {#additional-resources}
+## Zusätzliche Ressourcen {#additional-resources}
 
 ### Referenz und Best Practices
 
