@@ -5,7 +5,7 @@ title: Erste Schritte
 description: Erste Schritte mit Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 5951889d9cc245488ef89b8a6fc73e515068281e
+source-git-commit: 46b1e980ebe480b19b2796c34de676935c272fb9
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 88%
@@ -54,7 +54,7 @@ Grundlegende Begriffe und Konzepte für eine sichere Navigation durch Journey Op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/sparkle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 KI und intelligente Funktionen
 
