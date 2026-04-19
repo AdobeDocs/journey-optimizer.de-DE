@@ -167,7 +167,7 @@ Siehe [Blueprints für Adobe Journey Optimizer](https://experienceleague.adobe.c
 
 >[!MORELIKETHIS]
 >
->* [Wichtige Schritte für den ](quick-start.md): Rollenbasierte Schnellstartanleitungen für Administratoren, Marketing-Experten und Dateningenieure.
+>* [Wichtige Schritte für den &#x200B;](quick-start.md): Rollenbasierte Schnellstartanleitungen für Administratoren, Marketing-Experten und Dateningenieure.
 >* [Erste Schritte mit dem Daten-](../data/gs-data.md) - Erfahren Sie, wie Daten in Journey Optimizer aufgenommen, vereinheitlicht und aktiviert werden.
 >* [Journey entwerfen und Nachrichten senden](../building-journeys/journey-gs.md) - Erstellen Sie Ihre erste Kunden-Journey und konfigurieren Sie Kanalaktionen.
 >* [Live-Berichte](../reports/live-report.md) - Überwachen der Kampagnen- und Journey-Performance in Echtzeit.
