@@ -5,10 +5,10 @@ title: Verwenden der Aktivität „Zielgruppe erstellen“
 description: Informationen zur Verwendung der Aktivität „Zielgruppe erstellen“ in einer orchestrierten Kampagne
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 86%
 
 ---
 
@@ -54,3 +54,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Zielgrup
 Im Folgenden finden Sie ein Beispiel für eine orchestrierte Kampagne mit zwei Aktivitäten vom Typ **[!UICONTROL Zielgruppe erstellen]**. Die erste richtet sich an Profile, in deren Warenkorb sich Artikel befinden. Hier folgt ein E-Mail-Versand. Die zweite richtet sich an Profile mit einer Wunschliste. Hier folgt ein SMS-Versand.
 
 ![](../assets/build-audience-2.png)
+
+Im folgenden Beispiel verwendet die Aktivität **[!UICONTROL Zielgruppe aufbauen]** den Regel-Builder, um Profile nach ihrem Abonnementplan zu filtern. Für das `plan`-Attribut wird eine Bedingung festgelegt, die so festgelegt ist, dass nur Profile einbezogen werden, bei denen `plan = "basic"`, wodurch die Zielgruppe auf Abonnenten der untersten Ebene eingeschränkt wird, bevor sie an die nächste Aktivität übergeben wird.
+
+![](../assets/build-audience-plan.png){width="50%" align="left"}

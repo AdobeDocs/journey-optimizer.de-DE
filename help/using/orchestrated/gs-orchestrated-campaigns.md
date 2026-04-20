@@ -6,10 +6,10 @@ description: Informationen zu den ersten Schritten mit orchestrierten Kampagnen
 short-description: Entdecken Sie wichtige Funktionen und Anwendungsfälle von orchestrierten Kampagnen.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 94%
+source-wordcount: '876'
+ht-degree: 86%
 
 ---
 
@@ -81,6 +81,13 @@ Jede orchestrierte Kampagne enthält:
 
 * **Arbeitstabellen**: Die Arbeitstabelle enthält alle von der Transition übermittelten Informationen. Jede orchestrierte Kampagne nutzt mehrere Arbeitstabellen. Die in diesen Tabellen enthaltenen Daten können während des gesamten Lebenszyklus der orchestrierten Kampagne verwendet werden.
 
+Eine typische orchestrierte Einstiegskampagne folgt diesem Muster: **Zielgruppe → Verzweigung → Kanal A + Kanal B**.
+
+Mit diesem Ansatz können Sie dieselbe Zielgruppe in einem einzigen Kampagnendurchgang mit zwei parallelen Verzweigungen ansprechen. So kann beispielsweise eine Verzweigung eine Marketing-E-Mail und eine andere eine Transaktions-E-Mail verwenden. Jede Verzweigung ist unabhängig und kann eine andere Kanalkonfiguration, einen anderen Nachrichteninhalt oder eine andere Kategorie verwenden.
+
+➡️ [Erfahren Sie, wie Sie die Aktivität Verzweigung verwenden](activities/fork.md)
+
+➡️ [Verstehen von Marketing- und Transaktionsnachrichten](activities/channels.md#marketing-vs-transactional)
 
 ## Einführungsvideo {#video-oc}
 

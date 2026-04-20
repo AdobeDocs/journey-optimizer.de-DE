@@ -5,10 +5,10 @@ title: Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 description: Informationen über das Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 60%
+source-wordcount: '1769'
+ht-degree: 57%
 
 ---
 
@@ -91,6 +91,22 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 
 1. Geben Sie auf der Registerkarte **[!UICONTROL Eigenschaften]** eine Beschreibung ein und wechseln Sie dann zur Registerkarte **[!UICONTROL Aktionen]**, um die Aktivität zu konfigurieren.
 
+## Marketing- vs. Transaktionsnachrichten {#marketing-vs-transactional}
+
+Die Auswahl der richtigen Kategorie bestimmt, wie Nachrichten zugestellt werden und welche Regeln gelten:
+
+| | Marketing | Transaktion |
+| --- | --- | --- |
+| **Opt-in erforderlich** | Ja | Nein |
+| **Geschäftsregeln** | Angewendet (Frequenzlimitierung, Ermüdungsregeln) | Umgangen |
+| **Kanaltyp** | Konfiguration des Marketing-Kanals | Konfiguration des Transaktionskanals |
+| **Typische Anwendungsfälle** | Promotions, Newsletter, saisonale Kampagnen | Bestellbestätigungen, Kennwortzurücksetzungen, Unterbrechungswarnmeldungen |
+| **Zielgruppe** | Nur Opt-in-Abonnenten | Jedes Profil, unabhängig vom Opt-in-Status |
+
+>[!NOTE]
+>
+>Verwenden Sie Transaktionsnachrichten nur für betriebliche oder zeitkritische Kommunikation. Durch die falsche Klassifizierung einer Werbenachricht als Transaktion werden Einverständnis- und Geschäftsregeln umgangen, was gegen regulatorische Anforderungen verstoßen kann.
+
 ## Einrichten der Kanalkonfiguration und -einstellungen {#configuration}
 
 Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfiguration für Ihre Nachricht auszuwählen und um zusätzliche Einstellungen wie Tracking, Inhaltsexperiment oder mehrsprachige Inhalte zu konfigurieren.
@@ -103,7 +119,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Anwenden von Begrenzungsregeln**
 
-   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. [Erfahren Sie, wie Sie mit Regelsätzen &#x200B;](../../conflict-prioritization/rule-sets.md).
+   Wählen Sie in der Dropdown-Liste **[!UICONTROL Regelsatz]** einen Satz von Kanalregeln aus, um Begrenzungsregeln auf Ihre Kampagne anzuwenden. Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. [Erfahren Sie, wie Sie mit Regelsätzen ](../../conflict-prioritization/rule-sets.md).
 
 1. **Erstellen eines Inhaltsexperiments**
 
@@ -196,7 +212,7 @@ Diese Funktion ist besonders nützlich, um eine Überlastung nachgelagerter Syst
 
 Gehen Sie wie folgt vor, um die Ratensteuerung festzulegen:
 
-1. Wählen Sie eine Aktivität für einen ausgehenden Kanal auf der Arbeitsfläche aus und klicken Sie je nach **[!UICONTROL Kanal auf E-Mail]**&#x200B;**[!UICONTROL SMS bearbeiten]** oder **[!UICONTROL Push bearbeiten]**.
+1. Wählen Sie eine Aktivität für einen ausgehenden Kanal auf der Arbeitsfläche aus und klicken Sie je nach **[!UICONTROL Kanal auf E-Mail]****[!UICONTROL SMS bearbeiten]** oder **[!UICONTROL Push bearbeiten]**.
 
    ![Bild, das die Arbeitsfläche mit einer E-Mail -Aktivität zeigt](../assets/channel-edit.png)
 
