@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
 workflow-type: tm+mt
-source-wordcount: '6825'
-ht-degree: 71%
+source-wordcount: '6969'
+ht-degree: 69%
 
 ---
 
@@ -19,8 +19,15 @@ ht-degree: 71%
 
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
-## April 2026 {#april-2026}
+## April 2026 {#april-2026}
 
+* Die **Kanalaktivitäten**-Dokumentation wurde mit einem neuen Abschnitt **Marketing vs. Transaktionsnachrichten** aktualisiert, in dem die Verhaltensunterschiede zwischen den beiden Kanalkategorien erläutert werden: Opt-in-Anforderungen, Geschäftsregelanwendung, Kanalkonfigurationstyp und empfohlene Anwendungsfälle. [Weitere Informationen](../orchestrated/activities/channels.md#marketing-vs-transactional)
+
+* Die **Aktivität Verzweigung** wurde um einen neuen Abschnitt **Beispiele** erweitert, in dem veranschaulicht wird, wie mit der Aktivität Verzweigung eine Zielgruppe in einem einzigen Kampagnendurchgang auf zwei parallele E-Mail-Zweige - einen Marketing- und einen Transaktionszweig - aufgeteilt wird. [Weitere Informationen](../orchestrated/activities/fork.md#fork-examples)
+
+* Die **Aktivität Zielgruppe aufbauen** wurde um ein neues Beispiel erweitert, das zeigt, wie Profile mithilfe des Regel-Builders nach einem Abonnementplanattribut gefiltert werden können. [Weitere Informationen](../orchestrated/activities/build-audience.md#build-audience-examples)
+
+* Die Seite **Erste Schritte mit orchestrierten Kampagnen** dokumentiert das Muster **Zielgruppe erstellen → Verzweigung → Kanal A + Kanal B** der Einstiegsebene in **Was befindet sich in einer orchestrierten Kampagne?** mit Querverweisen auf die Seiten Verzweigung und Marketing vs. Transaktionsnachrichten . [Weitere Informationen](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * Die Seite **E-Mail-Inhalt bearbeiten mit dem erweiterten HTML-Editor** wurde aus dem Abschnitt Content-Management in den Abschnitt **E-Mail** der Dokumentation (unter E-Mail-Design) verschoben und die Seitendatei wurde in **email-expert-mode.md** umbenannt. Auf der Seite wird nun dokumentiert, dass der erweiterte HTML-Editor in der E-Mail-Designer für E-Mail-Nachrichten und für E-Mail-Inhaltsvorlagen verfügbar ist. [Weitere Informationen](../email/email-expert-mode.md)
 
 * Die Dokumentation **Starten und Überwachen orchestrierter Kampagnen** wurde mit einem neuen Abschnitt aktualisiert, der die interne Ausführungssequenz der Veröffentlichungszeit sowie eine Tabelle mit dem Kampagnenlebenszyklusstatus, eine Checkliste vor der Veröffentlichung und eine Bestätigungswarnung für nicht wiederkehrende Kampagnen enthält. [Weitere Informationen](../orchestrated/start-monitor-campaigns.md#publication-sequence)

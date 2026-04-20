@@ -5,10 +5,10 @@ title: Verwenden der Aktivität „Verzweigung“
 description: Informationen zur Verwendung der Aktivität „Verzweigung“ in einer orchestrierten Kampagne
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 4ba956e83c4e28a6d578ffa093d8b8e5fbd2c50b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 55%
 
 ---
 
@@ -42,3 +42,16 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Verzweig
 1. Um eine Transition zu entfernen, klicken Sie auf das Symbol ![](../assets/do-not-localize/Smock_Delete_18_N.svg).
 
 1. Klicken Sie bei Bedarf auf **[!UICONTROL Transition hinzufügen]**, um eine zusätzliche ausgehende Transition hinzuzufügen.
+
+## Beispiele {#fork-examples}
+
+Eine typische Verwendung der Aktivität **[!UICONTROL Verzweigung]** besteht darin, dieselbe Zielgruppe mit zwei verschiedenen E-Mail-Kanälen anzusprechen - einem Marketing- und einem Transaktionskanal -, um das Versandverhalten zu vergleichen.
+
+Nachdem eine Aktivität **[!UICONTROL Zielgruppe aufbauen]** die Zielpopulation ausgewählt hat, erstellt **[!UICONTROL Verzweigung]** zwei parallele Verzweigungen:
+
+* **Zweig 1** stellt eine Verbindung zu einer Marketing-E-Mail-Kanalaktivität her. Nachrichten befolgen standardmäßige Geschäftsregeln und werden nur an Opt-in-Profile gesendet.
+* **Zweig 2** stellt eine Verbindung zu einer Transaktions-E-Mail-Kanalaktivität her. Nachrichten werden unter Umgehung der Geschäftsregeln an alle Profile gesendet, unabhängig vom Opt-in-Status.
+
+![](../assets/workflow-fork.png)
+
+Dieses Muster ist nützlich, um zu verstehen, wie Kanalkategorieeinstellungen das Versandverhalten beeinflussen, und um verschiedene Nachrichtentypen in einer einzigen Kampagnenausführung an dieselbe Zielgruppe zu senden.
