@@ -6,16 +6,394 @@ description: Vorab veröffentlichte Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: b2098decc7e9d76163f4425c99adda6fa03ca9cf
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 100%
+source-wordcount: '1733'
+ht-degree: 21%
 
 ---
 
 # Vorab veröffentlichte Versionshinweise {#e-release-notes}
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden am Ende jedes Monats in den [Versionshinweisen](release-notes.md) zusammengefasst.
+
+## Hinweise zur Vorabversion vom 26. April {#april-26-rn}
+
+**Die nachfolgenden Vorab- Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentationen werden in den Versionshinweisen am Veröffentlichungsdatum veröffentlicht.
+
+Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**Veröffentlichungsdatum**: 28.-29. April 2026
+
+### Neue Funktionen {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>AJO MCP-Server (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] bietet jetzt einen <strong>MCP-Server (Model Context Protocol</strong>, der Kampagnen-, Journey-, Treueprogramm- und Sandbox-Vorgänge direkt in jeder MCP-kompatiblen Anwendung aufbereitet. Mit dieser Integration können verschiedene Personas um dieselben Orchestrierungsdaten herum zusammenarbeiten. Anstatt Abfragen für die AJO-REST-API zu schreiben oder durch mehrere Bildschirme der Benutzeroberfläche zu navigieren, können Sie Ihre Absicht im Gespräch beschreiben und das LLM die entsprechenden MCP-Tools aufrufen lassen. Diese Funktion ist derzeit in Claude Web und Desktop verfügbar.</p>
+<p>Diese Funktion befindet sich derzeit in Beta. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
+<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Neue Profilakquise mit Landingpages</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] Landingpages unterstützen jetzt Workflows für <strong>neue Profilakquise</strong> sodass Marken öffentliche, freigebbare Landingpages erstellen können, ohne dass eine Authentifizierung erforderlich ist. Erfassen Sie Daten von vollkommen unbekannten Besuchern und erstellen oder reichern Sie automatisch neue Kundenprofile in Adobe Experience Platform an. Dies unterstützt Akquise-Anwendungsfälle wie Newsletter-Anmeldungen, Downloads von abgerufenen Assets, Webinar-Registrierungen und Testanmeldungen.</p>
+<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-13757">DOCAC-13757</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>CC-Unterstützung für E-Mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] unterstützt jetzt <strong>CC (Carbon Copy)</strong> für den E-Mail-Kanal, sodass Sie über die vorhandene BCC-Funktion hinaus sichtbare CC-Empfänger zu E-Mails hinzufügen können. Dadurch können zusätzliche Parteien, wie z. B. Beziehungsmanager, sichtbar in die Kundenkommunikation einbezogen werden.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14051">DOCAC-14051</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Dynamischer E-Mail-Absender</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit der Funktion <strong>Dynamischer Absender</strong> können Sie jetzt E-Mails senden, bei denen sich die sendende Entität (Absender) von der Authoring-Entität (Von) unterscheidet. E-Mail-Clients, die dies unterstützen, rendern es normalerweise als „Absender im Namen von Von“ oder zeigen einen „Über“-Indikator an.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14458">DOCAC-14458</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey-Schlichtung - KI-Modelle (begrenzte Verfügbarkeit)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Marketing-Experten können jetzt die Auswahl von Journey basierend auf bestimmten Einschränkungen intelligent automatisieren - mithilfe von Formeln und KI-Modellen. KI-Modelle können die Journey-Auswahl basierend auf Interaktionsmetriken wie Klickrate, Käufe oder anderen benutzerdefinierten Metriken, für die der Marketing-Experte optimieren möchte, optimieren.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Ordner für Journey und Kampagnen (eingeschränkte Verfügbarkeit)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Unterstützung von Sandbox-Kopien in koordinierten Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>E-Mail für KI-Posteingänge optimieren: aktualisierter Workflow</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Inkrementelle Abfrageaktivität in koordinierten Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey simulieren</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Fragments (eingeschränkte Verfügbarkeit)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen. Nach der Erstellung werden Fragmente in einem dedizierten [!UICONTROL Fragment Inventory] gespeichert und können mit der Aktivität [!UICONTROL Journey Fragments] in einen beliebigen Journey eingefügt werden.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
+<p>Verfügbarkeitsdatum:Dienstag, 4. Mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>E-Mail für KI-Posteingänge optimieren</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer bietet jetzt eine neue Funktion, mit der sichergestellt wird, dass Ihre E-Mails für KI-gestützte Posteingänge wie Apple Intelligence und Google Gemini in Gmail optimal strukturiert sind. Da KI-Assistenten zunehmend steuern, wie Empfänger E-Mails lesen und darauf reagieren, hilft Ihnen diese Funktion bei der Erstellung von Inhalten, die in nachgelagerten KI-Aufgaben gut funktionieren, einschließlich Zusammenfassung, Klassifizierung, Priorisierung und Extraktion von Absichten.</p>
+<p>Weitere Informationen finden Sie unter <a href="../email/llm-email-optimizer.md">E-Mail-Text für KI-Posteingänge optimieren</a>.</p>
+<p>Verfügbarkeitsdatum: Samstag, 17. April 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>KI-Assistent für Personalization Expressions</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] enthält jetzt einen KI-Assistenten im Personalization-Editor. Beschreiben Sie, was Sie personalisieren möchten. Der Assistent erstellt einen Personalisierungsausdruck, den Sie unverändert verwenden können, oder verfeinern Sie ihn in einem kurzen Nachgespräch. Sie können auch einen vorhandenen Personalisierungs-Code auswählen und den Assistenten bitten, ihn zu erklären, zu korrigieren oder Verbesserungen vorzuschlagen.</p>
+<p>Weitere Informationen finden Sie unter <a href="../content-management/generative-personalization-expressions.md">KI-Assistent für Personalization-Ausdrücke</a>.</p>
+<p>Verfügbarkeitsdatum: Dienstag, 13. April 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Posteingang</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Posteingang</strong> ist eine Funktion für Mobilgeräte, die mit Inhaltskarten verfügbar ist und es Kunden ermöglicht, einen zentralen Ort in ihrer App oder Website zu erstellen, um Nachrichten anzuzeigen, die an ihre Benutzer gesendet werden. Dies verlängert die Lebensdauer der Marketing-Kommunikation, indem sichergestellt wird, dass Nachrichten auch nach ihrer Beendigung zugänglich bleiben.</p>
+<p>Weitere Informationen finden Sie in der <a href="../inbox/inbox-gs.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: Mittwoch, 7. April 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey-Pfadexperiment</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Verwenden Sie den neuen <strong>Optimieren</strong>-Knoten, um A/B-Tests oder Multi-Armed-Bandit-Experimente durchzuführen, um den besten Pfad zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln. Mit diesem Tool können Sie Kommunikation, Sequenzierung und Timing testen und variieren, um Ihre Kunden optimal zu erreichen. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/path-experimentation.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: Mittwoch, 7. April 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Unterstützung von Entscheidungen im E-Mail-Kanal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt <strong>Decisioning</strong> verwenden, um den Inhalt Ihrer E-Mail-Nachrichten zu personalisieren und zu optimieren. Nutzen Sie Prioritätswerte, Formeln oder KI-Modelle, um jedem Empfänger die relevantesten Angebote und Inhalte anzuzeigen. Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit). Mit dieser Version zur allgemeinen Verfügbarkeit werden nun Mirrorseiten unterstützt.</p>
+<p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/create-decision-policy.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: Dienstag, 6. April 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen {#april-26-improv}
+
+Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
+
+#### KI
+
+* **Bewertung der Markenausrichtung im Kampagnen-Dashboard** - &lt;TBC>
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14516](https://jira.corp.adobe.com/browse/DOCAC-14516)
+
+#### Entscheidungsfindung
+
+* **Fragmente an Entscheidungselemente anhängen** - Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die über Entscheidungsrichtlinien in Code-basierten Erlebnis- und E-Mail-Kampagnen genutzt werden können. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14452](https://jira.corp.adobe.com/browse/DOCAC-14452)
+
+* **Vorübergehend nicht verfügbare Fragmente werden übersprungen** - Bei der Verwendung von Fragmenten in Entscheidungselementen wird ein Fragment übersprungen, wenn es vorübergehend in Edge nicht verfügbar ist, und die Journey oder Kampagne wird weiter gerendert, anstatt fehlzuschlagen. [Weitere Informationen](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
+
+  Verfügbarkeitsdatum: Mittwoch, 14. April 2026
+
+#### E-Mail-Design
+
+* **KI-Assistent für Personalisierungsausdrücke in der E-Mail-Designer** - Wählen Sie in der E-Mail-Designer eine Komponente aus und verwenden Sie **Ausdruck hinzufügen** in der kontextuellen Symbolleiste, um die benötigte Personalisierung in einfacher Sprache zu beschreiben, den generierten Ausdruck zu überprüfen und einzufügen, ohne den Designer zu verlassen. [Weitere Informationen](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  Verfügbarkeitsdatum: Donnerstag, 15. April 2026
+
+* **Erweiterter HTML-Editor für E-Mail** - Im erweiterten HTML-Modus können Sie die HTML-Quelle Ihres Inhalts in der E-Mail-Designer bearbeiten, erweiterte Ausdrücke (wie Bedingungen) in der Quelle hinzufügen und zwischen HTML- und Desktop-Ansicht wechseln, ohne Ihre Änderungen zu verlieren. Zuvor nur für E-Mail-Inhaltsvorlagen verfügbar, wird diese Funktion jetzt für E-**-**-Inhalte in der E-Mail-Designer bereitgestellt. Sie ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten. [Weitere Informationen](../email/email-expert-mode.md)
+
+  Verfügbarkeitsdatum: Freitag, 9. April 2026
+
+#### Journey-Pfadoptimierung
+
+* **Experimenttyp** - Bei der Konfiguration eines Pfadexperiments können Sie jetzt zwischen A/B-Experiment (feste Aufspaltung am Beginn) oder Mehrarmiger Bandit (automatische Aufspaltung mit wöchentlichen Aktualisierungen der Gewichtung) wählen. [Weitere Informationen](../building-journeys/path-experimentation.md)
+
+  Verfügbarkeitsdatum: Mittwoch, 7. April 2026
+
+* **Pfadexperiment: Skalieren Sie den Gewinner** - Sie können jetzt automatisch oder manuell den Gewinnpfad eines Experiments für Ihre gesamte Zielgruppe einführen. Sobald ein Gewinner ermittelt wurde, können Sie seine Reichweite und Effektivität steigern, ohne das Experiment ständig zu überwachen. Diese Funktion ist nur in unitären Journey verfügbar (ereignisausgelöst und Zielgruppenqualifikationen). [Weitere Informationen](../building-journeys/path-experimentation.md#scale-winner)
+
+  Verfügbarkeitsdatum: Mittwoch, 7. April 2026
+
+* **Bedingungen** - Die Aktivität [Optimieren](../building-journeys/optimize.md) ist das neue Vehikel zum Erstellen bedingter Pfade in Journey. Sie ersetzt die frühere Aktivität **Bedingung**. Die gesamte bedingte Logik wird beibehalten und jetzt über die Bedingungen **Aktivität** Optimieren) verarbeitet. Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit). [Weitere Informationen](../building-journeys/conditions.md)
+
+  Verfügbarkeitsdatum: Mittwoch, 7. April 2026
+
+#### Adobe Experience Manager-Integrationen
+
+* **Content Advisor-Selektor** - Die AEM Assets- und Inhaltsfragment-Selektoren werden jetzt durch den **Content Advisor-Selektor** ersetzt, ein einheitliches Modal, mit dem Sie alle AEM Assets- und AEM-Inhaltsfragmente durchsuchen, suchen, filtern und darauf zugreifen können. Dynamic Media-Ausgabedarstellungen werden ebenfalls unterstützt, sodass Sie bei der Auswahl von Dynamic Media-Assets über die Benutzeroberfläche Bilddarstellungen hinzufügen können. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
+
+* **Open-Time-Personalisierung mit Countdown-Timer unter Verwendung von Dynamic Media** - &lt;TBC>
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
+
+* **Unterstützung von Adobe Experience Manager-Inhaltsfragmentvarianten** - Sie können beim Einfügen von Adobe Experience Manager **Inhaltsfragmenten „Inhaltsfragmentvarianten“** (z. B. Sprach- oder Kanalvarianten) auswählen, um die Handhabung für Gebietsschema- und mehrsprachige Szenarien zu verbessern. Diese Funktion ist nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support. [Weitere Informationen](../integrations/aem-fragments.md#aem-variations)
+
+  Verfügbarkeitsdatum: Samstag, 3. April 2026
+
+* **Adobe Experience Manager-Inhaltsfragmentkontext beim Authoring** - Ihre Inhaltsfragmentauswahl bleibt beim Wechseln zwischen Textfeldern und Inhaltsblöcken aktiv, sodass Sie weitere Fragmentfelder hinzufügen können, ohne **AEM Content Advisor** erneut zu öffnen. Diese Funktion ist nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support. [Weitere Informationen](../integrations/aem-fragments.md)
+
+  Verfügbarkeitsdatum: Donnerstag, 1. April 2026
+
+#### WhatsApp
+
+* **WhatsApp-Wiederverkaufsangebot** - &lt;TBC>
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-13669](https://jira.corp.adobe.com/browse/DOCAC-13669)
+
+* **WhatsApp-Kanal: Eingebettete Anmeldung** - &lt;TBC>
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+
+#### Konfiguration
+
+* **Spezifische Berechtigungen für die URL-Parameterverschlüsselung** - &lt;TBC>
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14490](https://jira.corp.adobe.com/browse/DOCAC-14490)
+
+#### Daten-Management
+
+* **Unterstützung der Sandbox-Tools für einheitliche Tags** - &lt;TBC>
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14453](https://jira.corp.adobe.com/browse/DOCAC-14453)
+
+#### Orchestrierte Kampagnen
+
+* **Globale Variablen in orchestrierten Kampagnen** - Sie können jetzt mithilfe einer neuen Option im Kampagnenmenü globale Variablen für eine bestimmte orchestrierte Kampagne definieren. Diese Variablen können für alle Aktivitäten in Ihrem Kampagnen-Workflow wiederverwendet werden.
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
+
+* **Verbesserungen an Data Modeler** - &lt;TBC>
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
+
+#### Externe Integrationen
+
+* **Externe Datenintegrationen** - &lt;TBC>
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-13803](https://jira.corp.adobe.com/browse/DOCAC-13803)
 
 <!--
 ## March '26 pre-release notes {#march-26-rn}

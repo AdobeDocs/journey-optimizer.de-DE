@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: Journey Optimizer, was ist AJO, Adobe Journey Optimizer, Erste Schritte, Omni-Channel, Personalisierung, Kunden-Journey
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: a528fba262dccf93edb4eb2b04dba83c72793206
+source-git-commit: c4404de32e9a1d400273863185c1b7fa9b21eb6d
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1218'
 ht-degree: 14%
 
 ---
@@ -138,12 +138,12 @@ Für [!DNL Journey Optimizer] gelten die allgemeinen Datenschutzrichtlinien und 
 Journey Optimizer basiert nativ auf Adobe Experience Platform und bietet gemeinsame Datengrundlagen, Identitätsdiagramme und Governance-Services. Eine ausführliche Beschreibung der Funktionsweise dieser Systeme finden Sie unter [&#x200B; von Journey Optimizer](understanding-ajo.md).
 
 
->[!MORELIKETHIS]
->
->* [Wichtige Schritte für den &#x200B;](quick-start.md): Rollenbasierte Schnellstartanleitungen für Administratoren, Marketing-Experten und Dateningenieure.
->* [Erste Schritte mit dem Daten-](../data/gs-data.md) - Erfahren Sie, wie Daten in Journey Optimizer aufgenommen, vereinheitlicht und aktiviert werden.
->* [Journey entwerfen und Nachrichten senden](../building-journeys/journey-gs.md) - Erstellen Sie Ihre erste Kunden-Journey und konfigurieren Sie Kanalaktionen.
->* [Live-Berichte](../reports/live-report.md) - Überwachen der Kampagnen- und Journey-Performance in Echtzeit.
->* [Tutorial zur Einführung in Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - Eine angeleitete Videoeinführung zu den wichtigsten Journey Optimizer-Konzepten.
->* [Journey Optimizer-Sicherheitsübersicht](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) - Details zur Sicherheitsarchitektur, zum Datenschutz und zur Compliance.
->* [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — Offizielle Lizenzbedingungen und Aufschlüsselung der Bearbeitungsfunktionen.
+## Verwandte Ressourcen {#related-resources}
+
+* [Wichtige Schritte für den &#x200B;](quick-start.md): Rollenbasierte Schnellstartanleitungen für Administratoren, Marketing-Experten und Dateningenieure.
+* [Erste Schritte mit dem Daten-](../data/gs-data.md) - Erfahren Sie, wie Daten in Journey Optimizer aufgenommen, vereinheitlicht und aktiviert werden.
+* [Journey entwerfen und Nachrichten senden](../building-journeys/journey-gs.md) - Erstellen Sie Ihre erste Kunden-Journey und konfigurieren Sie Kanalaktionen.
+* [Live-Berichte](../reports/live-report.md) - Überwachen der Kampagnen- und Journey-Performance in Echtzeit.
+* [Tutorial zur Einführung in Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - Eine angeleitete Videoeinführung zu den wichtigsten Journey Optimizer-Konzepten.
+* [Journey Optimizer-Sicherheitsübersicht](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) - Details zur Sicherheitsarchitektur, zum Datenschutz und zur Compliance.
+* [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — Offizielle Lizenzbedingungen und Aufschlüsselung der Bearbeitungsfunktionen.
