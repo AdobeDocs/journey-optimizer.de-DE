@@ -6,16 +6,16 @@ description: Vorab veröffentlichte Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 289a4c107ba8e4e22d285c305e11083c56a2ba24
+source-git-commit: 90bc3ad994e941d0e888cabb327b934719a03a5b
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '1828'
 ht-degree: 17%
 
 ---
 
 # Vorab veröffentlichte Versionshinweise {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden am Ende jedes Monats in den [Versionshinweisen](release-notes.md) zusammengefasst.
+Adobe Journey Optimizer bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden am Ende jedes Monats in den [Versionshinweisen](release-notes.md) zusammengefasst.
 
 ## Hinweise zur Vorabversion vom 26. April {#april-26-rn}
 
@@ -30,48 +30,15 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>AJO MCP-Server (Beta)</strong><br/></th>
+<th><strong>Journey Optimizer AI Agent-Integration über MCP</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] bietet jetzt einen <strong>MCP (Model Context Protocol)-Server</strong> der Kampagnen-, Treueprogramm- und Sandbox-Vorgänge direkt in jeder MCP-kompatiblen Anwendung aufbereitet. Mit dieser Integration können verschiedene Personas um dieselben Orchestrierungsdaten herum zusammenarbeiten. Anstatt Abfragen für die AJO-REST-API zu schreiben oder durch mehrere Bildschirme der Benutzeroberfläche zu navigieren, können Sie Ihre Absicht im Gespräch beschreiben und das LLM die entsprechenden MCP-Tools aufrufen lassen. Diese Funktion ist derzeit in Claude Web und Desktop verfügbar.</p>
+<p>Adobe Journey Optimizer bietet jetzt einen <strong>MCP-Server (Model Context Protocol</strong>, der Kampagnen-, Treueprogramm- und Sandbox-Vorgänge direkt in jeder MCP-kompatiblen Anwendung bereitstellt. Mit dieser Integration können verschiedene Personas um dieselben Orchestrierungsdaten herum zusammenarbeiten. Anstatt Abfragen für die AJO-REST-API zu schreiben oder durch mehrere Bildschirme der Benutzeroberfläche zu navigieren, können Sie Ihre Absicht im Gespräch beschreiben und das LLM die entsprechenden MCP-Tools aufrufen lassen. Diese Funktion ist derzeit in Claude Web und Desktop verfügbar.</p>
 <p>Diese Funktion steht allen Kunden in Public Beta zur Verfügung.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Neue Profilakquise mit Landingpages</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>[!DNL Adobe Journey Optimizer] Landingpages unterstützen jetzt Workflows für <strong>neue Profilakquise</strong> sodass Marken öffentliche, freigebbare Landingpages erstellen können, ohne dass eine Authentifizierung erforderlich ist. Erfassen Sie Daten von vollkommen unbekannten Besuchern und erstellen oder reichern Sie automatisch neue Kundenprofile in Adobe Experience Platform an. Dies unterstützt Akquise-Anwendungsfälle wie Newsletter-Anmeldungen, Downloads von abgerufenen Assets, Webinar-Registrierungen und Testanmeldungen.</p>
-<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-13757">DOCAC-13757</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>CC-Unterstützung für E-Mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>[!DNL Adobe Journey Optimizer] unterstützt jetzt <strong>CC (Carbon Copy)</strong> für den E-Mail-Kanal, sodass Sie über die vorhandene BCC-Funktion hinaus sichtbare CC-Empfänger zu E-Mails hinzufügen können. Dadurch können zusätzliche Parteien, wie z. B. Beziehungsmanager, sichtbar in die Kundenkommunikation einbezogen werden.</p>
-<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14051">DOCAC-14051</a></p>
 </td>
 </tr>
 </tbody>
@@ -97,13 +64,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Journey-Schlichtung - KI-Modelle (begrenzte Verfügbarkeit)</strong><br/></th>
+<th><strong>Journey-Schlichtung - KI-Modelle</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt KI-Modelle in Ihren Rangfolgeformeln verwenden, um die Journey-Prioritätswerte basierend auf Kundenprofilattributen und Kontextfaktoren automatisch zu erhöhen und so sicherzustellen, dass Kunden in die relevantesten Journey eintreten.</p>
+<p>Sie können jetzt <strong>KI-Modelle</strong> in Ihren <strong>Rangfolgeformeln</strong> verwenden, um die <strong>Journey-</strong> basierend auf Kundenprofilattributen und Kontextfaktoren automatisch zu steigern und so sicherzustellen, dass Kunden die relevantesten Journey eingeben.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
 </td>
@@ -114,13 +81,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Ordner für Journey und Kampagnen (eingeschränkte Verfügbarkeit)</strong><br/></th>
+<th><strong>Ordner für Journey und Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können Ihre Journey und Kampagnen jetzt in Ordnern organisieren, um die Navigation und Verwaltung in der Benutzeroberfläche zu verbessern.</p>
+<p>Sie können Ihre Journey und Kampagnen jetzt in <strong>Ordnern</strong> organisieren, um die Navigation und Verwaltung in der Benutzeroberfläche zu verbessern.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
 </td>
@@ -131,13 +98,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Unterstützung von Sandbox-Kopien in koordinierten Kampagnen</strong><br/></th>
+<th><strong>Sandbox-Kopie für koordinierte Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die Sandbox-Tools unterstützen jetzt den Export und Import orchestrierter Kampagnen zwischen Sandboxes über Pakete.</p>
+<p><strong>Sandbox-Tools</strong> unterstützen jetzt den Export und Import <strong>orchestrierter Kampagnen</strong> zwischen Sandboxes über Pakete.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
 </td>
 </tr>
@@ -153,7 +120,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer bietet jetzt eine neue Funktion, mit der sichergestellt wird, dass Ihre E-Mails für KI-gestützte Posteingänge wie Apple Intelligence und Google Gemini in Gmail optimal strukturiert sind. Da KI-Assistenten zunehmend steuern, wie Empfänger E-Mails lesen und darauf reagieren, hilft Ihnen diese Funktion bei der Erstellung von Inhalten, die in nachgelagerten KI-Aufgaben gut funktionieren, einschließlich Zusammenfassung, Klassifizierung, Priorisierung und Extraktion von Absichten.</p>
+<p>Adobe Journey Optimizer bietet jetzt eine neue Funktion, mit der sichergestellt wird, dass Ihre E-Mails für <strong>KI-gestützte Posteingänge</strong> wie <strong>Apple Intelligence</strong> und <strong>Google Gemini in Gmail</strong> optimal strukturiert sind. Da KI-Assistenten zunehmend steuern, wie Empfänger E-Mails lesen und darauf reagieren, hilft Ihnen diese Funktion bei der Erstellung von Inhalten, die in nachgelagerten KI-Aufgaben gut funktionieren, einschließlich Zusammenfassung, Klassifizierung, Priorisierung und Extraktion von Absichten.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
 </td>
 </tr>
@@ -169,7 +136,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Die Aktivität Inkrementelle Abfrage ist jetzt in orchestrierten Kampagnen verfügbar. Diese Zielgruppenbestimmungsaktivität führt Ihre Abfrage jedes Mal aus, wenn die Kampagne ausgeführt wird, und gibt nur Datensätze zurück, die in einer vorherigen Ausführung nicht zurückgegeben wurden. Sie können nur neue Anmeldungen, neue Gold-Mitglieder oder andere „neue seit dem letzten Durchgang“-Segmente senden oder exportieren, ohne dieselben Profile erneut anzusprechen.</p>
+<p>Die Aktivität <strong>Inkrementelle Abfrage</strong> ist jetzt in <strong>Orchestrierten Kampagnen“ </strong>. Diese Zielgruppenbestimmungsaktivität führt Ihre Abfrage jedes Mal aus, wenn die Kampagne ausgeführt wird, und gibt nur Datensätze zurück, die in einer vorherigen Ausführung nicht zurückgegeben wurden. Sie können nur neue Anmeldungen, neue Gold-Mitglieder oder andere „neue seit dem letzten Durchgang“-Segmente senden oder exportieren, ohne dieselben Profile erneut anzusprechen.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
 </td>
 </tr>
@@ -179,13 +146,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Journey simulieren</strong><br/></th>
+<th><strong>Journey-Simulation</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Jetzt können Sie Ihren Journey auf Simulation einstellen. In diesem Modus können Sie Ihre Logik mithilfe simulierter Benutzer überprüfen. Hierbei handelt es sich um temporäre Profile, die speziell für die Simulation erstellt wurden. Sie können also frei testen, ohne persistente Testprofile in Adobe Experience Platform verwalten zu müssen.</p>
+<p>Jetzt können Sie Ihren Journey auf <strong>Simulation</strong> einstellen. In diesem Modus können Sie Ihre Logik mithilfe von <strong>simulierten Benutzern</strong> überprüfen. Hierbei handelt es sich um temporäre Profile, die speziell für die Simulation erstellt wurden. Sie können also frei testen, ohne persistente Testprofile in Adobe Experience Platform verwalten zu müssen.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
 </td>
 </tr>
@@ -195,13 +162,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Journey Fragments (eingeschränkte Verfügbarkeit)</strong><br/></th>
+<th><strong>Journey Fragments</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen. Nach der Erstellung werden Fragmente in einem dedizierten [!UICONTROL Fragment Inventory] gespeichert und können mit der Aktivität [!UICONTROL Journey Fragments] in einen beliebigen Journey eingefügt werden.</p>
+<p><strong>Journey-Fragmente</strong> sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen. Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente&rbrace; in </strong> Journey eingefügt werden.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
 <p>Verfügbarkeitsdatum:Dienstag, 4. Mai 2026</p>
@@ -213,30 +180,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>E-Mail für KI-Posteingänge optimieren</strong><br/></th>
+<th><strong>KI-Assistent für Personalization-Ausdrücke</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer bietet jetzt eine neue Funktion, mit der sichergestellt wird, dass Ihre E-Mails für KI-gestützte Posteingänge wie Apple Intelligence und Google Gemini in Gmail optimal strukturiert sind. Da KI-Assistenten zunehmend steuern, wie Empfänger E-Mails lesen und darauf reagieren, hilft Ihnen diese Funktion bei der Erstellung von Inhalten, die in nachgelagerten KI-Aufgaben gut funktionieren, einschließlich Zusammenfassung, Klassifizierung, Priorisierung und Extraktion von Absichten.</p>
-<p>Weitere Informationen finden Sie unter <a href="../email/llm-email-optimizer.md">E-Mail-Text für KI-Posteingänge optimieren</a>.</p>
-<p>Verfügbarkeitsdatum: Samstag, 17. April 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>KI-Assistent für Personalization Expressions</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>[!DNL Adobe Journey Optimizer] enthält jetzt einen KI-Assistenten im Personalization-Editor. Beschreiben Sie, was Sie personalisieren möchten. Der Assistent erstellt einen Personalisierungsausdruck, den Sie unverändert verwenden können, oder verfeinern Sie ihn in einem kurzen Nachgespräch. Sie können auch einen vorhandenen Personalisierungs-Code auswählen und den Assistenten bitten, ihn zu erklären, zu korrigieren oder Verbesserungen vorzuschlagen.</p>
+<p>Adobe Journey Optimizer enthält jetzt einen <strong>KI-Assistenten</strong> im <strong>Personalization-Editor</strong>. Beschreiben Sie, was Sie personalisieren möchten. Der Assistent erstellt einen <strong>Personalisierungsausdruck</strong> den Sie unverändert verwenden oder in einem kurzen Folgegespräch verfeinern können. Sie können auch einen vorhandenen Personalisierungs-Code auswählen und den Assistenten bitten, ihn zu erklären, zu korrigieren oder Verbesserungen vorzuschlagen.</p>
 <p>Weitere Informationen finden Sie unter <a href="../content-management/generative-personalization-expressions.md">KI-Assistent für Personalization-Ausdrücke</a>.</p>
 <p>Verfügbarkeitsdatum: Dienstag, 13. April 2026</p>
 </td>
@@ -253,7 +203,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p><strong>Posteingang</strong> ist eine Funktion für Mobilgeräte, die mit Inhaltskarten verfügbar ist und es Kunden ermöglicht, einen zentralen Ort in ihrer App oder Website zu erstellen, um Nachrichten anzuzeigen, die an ihre Benutzer gesendet werden. Dies verlängert die Lebensdauer der Marketing-Kommunikation, indem sichergestellt wird, dass Nachrichten auch nach ihrer Beendigung zugänglich bleiben.</p>
+<p><strong>Posteingang</strong> ist eine Funktion für Mobilgeräte, die mit <strong>Inhaltskarten</strong> verfügbar ist und es Kunden ermöglicht, einen zentralen Ort in ihrer App oder Website zu erstellen, um Nachrichten anzuzeigen, die an ihre Benutzer gesendet werden. Dies verlängert die Lebensdauer der Marketing-Kommunikation, indem sichergestellt wird, dass Nachrichten auch nach ihrer Beendigung zugänglich bleiben.</p>
 <p>Weitere Informationen finden Sie in der <a href="../inbox/inbox-gs.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Mittwoch, 7. April 2026</p>
 </td>
@@ -270,7 +220,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Verwenden Sie den neuen <strong>Optimieren</strong>-Knoten, um A/B-Tests oder Multi-Armed-Bandit-Experimente durchzuführen, um den besten Pfad zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln. Mit diesem Tool können Sie Kommunikation, Sequenzierung und Timing testen und variieren, um Ihre Kunden optimal zu erreichen. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p>Verwenden Sie den neuen <strong>Optimieren</strong>-Knoten, um A<strong>B-</strong> oder <strong>Multi-Armed-Bandit</strong>-Experimente durchzuführen, um den besten Weg zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln. Mit diesem Tool können Sie Kommunikation, Sequenzierung und Timing testen und variieren, um Ihre Kunden optimal zu erreichen. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/path-experimentation.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Mittwoch, 7. April 2026</p>
 </td>
@@ -287,7 +237,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt <strong>Decisioning</strong> verwenden, um den Inhalt Ihrer E-Mail-Nachrichten zu personalisieren und zu optimieren. Nutzen Sie Prioritätswerte, Formeln oder KI-Modelle, um jedem Empfänger die relevantesten Angebote und Inhalte anzuzeigen. Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit). Mit dieser Version zur allgemeinen Verfügbarkeit werden nun Mirrorseiten unterstützt.</p>
+<p>Sie können jetzt <strong>Decisioning</strong> verwenden, um den Inhalt Ihrer E-Mail-Nachrichten zu personalisieren und zu optimieren. Nutzen Sie <strong>Prioritätswerte</strong>, <strong>Formeln</strong> oder <strong>KI-Modelle</strong>, um jedem Empfänger die relevantesten Angebote und Inhalte anzuzeigen. Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit). Mit dieser allgemeinen Verfügbarkeit werden <strong>Mirrorseiten</strong> nun unterstützt.</p>
 <p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/create-decision-policy.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Dienstag, 6. April 2026</p>
 </td>
@@ -359,11 +309,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### WhatsApp
 
-* **WhatsApp-Wiederverkaufsangebot** - &lt;TBC>
-
-  Dokumentations-JIRA-Aufgabe: [DOCAC-13669](https://jira.corp.adobe.com/browse/DOCAC-13669)
-
-* **WhatsApp-Kanal: Eingebettete Anmeldung** - &lt;TBC>
+* **WhatsApp-Kanal: Eingebettete Anmeldung** - Adobe Journey Optimizer unterstützt jetzt den Meta-Fluss <strong>Eingebettete Anmeldung</strong> für die Konfiguration des WhatsApp-Kanals. Durch dieses optimierte Onboarding-Erlebnis können Sie Ihr <strong>WhatsApp Business-Konto</strong> und Telefonnummern direkt in der AJO-Benutzeroberfläche verbinden, ohne zu <strong>Meta Business Manager</strong> zu navigieren, wodurch die Einrichtungszeit erheblich verkürzt wird. Es dient auch als Migrationswerkzeug, um bestehende Telefonnummern und <strong>WhatsApp Business Accounts (WABAs) </strong> Adobe zu übertragen.
 
   Dokumentations-JIRA-Aufgabe: [DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
 
@@ -373,27 +319,11 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
   Dokumentations-JIRA-Aufgabe: [DOCAC-14490](https://jira.corp.adobe.com/browse/DOCAC-14490)
 
-#### Daten-Management
-
-* **Unterstützung der Sandbox-Tools für einheitliche Tags** - &lt;TBC>
-
-  Dokumentations-JIRA-Aufgabe: [DOCAC-14453](https://jira.corp.adobe.com/browse/DOCAC-14453)
-
 #### Orchestrierte Kampagnen
 
-* **Globale Variablen in orchestrierten Kampagnen** - Sie können jetzt mithilfe einer neuen Option im Kampagnenmenü globale Variablen für eine bestimmte orchestrierte Kampagne definieren. Diese Variablen können für alle Aktivitäten in Ihrem Kampagnen-Workflow wiederverwendet werden.
-
-  Dokumentations-JIRA-Aufgabe: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
-
-* **Verbesserungen an Data Modeler** - &lt;TBC>
+* **Verbesserungen am Data Modeler** - Der Data Modeler in orchestrierten Kampagnen unterstützt jetzt <strong> verbesserte „Composite Relationship Management</strong>. Sie können zusammengesetzte Beziehungen direkt in der Benutzeroberfläche erstellen und verwalten, einschließlich der Verknüpfung eines Felds mit mehreren Tabellen desselben Typs. Diese Verbesserungen basieren auf den Funktionen <strong>zusammengesetzten Schlüssels</strong> und <strong>Auflistungsverwaltung</strong>, die in der vorherigen Version eingeführt wurden.
 
   Dokumentations-JIRA-Aufgabe: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
-
-#### Externe Integrationen
-
-* **Externe Datenintegrationen** - Die Integrationsfunktion ermöglicht es Ihnen, Datenquellen von Drittanbietern direkt mit Adobe Journey Optimizer zu verbinden. Diese Funktion vereinfacht das Abrufen externer Daten und Inhalte und erleichtert so die Bereitstellung personalisierter, dynamischer Nachrichten auf allen Kanälen.
-
-  Dokumentations-JIRA-Aufgabe: [DOCAC-13803](https://jira.corp.adobe.com/browse/DOCAC-13803)
 
 <!--
 ## March '26 pre-release notes {#march-26-rn}
