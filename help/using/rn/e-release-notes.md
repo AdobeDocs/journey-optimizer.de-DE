@@ -6,10 +6,10 @@ description: Vorab veröffentlichte Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3919d6514554748c4b49987fee70685a4b34b2ff
+source-git-commit: 289a4c107ba8e4e22d285c305e11083c56a2ba24
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 20%
+source-wordcount: '2041'
+ht-degree: 17%
 
 ---
 
@@ -120,7 +120,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>Sie können Ihre Journey und Kampagnen jetzt in Ordnern organisieren, um die Navigation und Verwaltung in der Benutzeroberfläche zu verbessern.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
 </td>
@@ -137,7 +137,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>Die Sandbox-Tools unterstützen jetzt den Export und Import orchestrierter Kampagnen zwischen Sandboxes über Pakete.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
 </td>
 </tr>
@@ -153,7 +153,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>Adobe Journey Optimizer bietet jetzt eine neue Funktion, mit der sichergestellt wird, dass Ihre E-Mails für KI-gestützte Posteingänge wie Apple Intelligence und Google Gemini in Gmail optimal strukturiert sind. Da KI-Assistenten zunehmend steuern, wie Empfänger E-Mails lesen und darauf reagieren, hilft Ihnen diese Funktion bei der Erstellung von Inhalten, die in nachgelagerten KI-Aufgaben gut funktionieren, einschließlich Zusammenfassung, Klassifizierung, Priorisierung und Extraktion von Absichten.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
 </td>
 </tr>
@@ -169,7 +169,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>Die Aktivität Inkrementelle Abfrage ist jetzt in orchestrierten Kampagnen verfügbar. Diese Zielgruppenbestimmungsaktivität führt Ihre Abfrage jedes Mal aus, wenn die Kampagne ausgeführt wird, und gibt nur Datensätze zurück, die in einer vorherigen Ausführung nicht zurückgegeben wurden. Sie können nur neue Anmeldungen, neue Gold-Mitglieder oder andere „neue seit dem letzten Durchgang“-Segmente senden oder exportieren, ohne dieselben Profile erneut anzusprechen.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
 </td>
 </tr>
@@ -185,7 +185,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>Jetzt können Sie Ihren Journey auf Simulation einstellen. In diesem Modus können Sie Ihre Logik mithilfe simulierter Benutzer überprüfen. Hierbei handelt es sich um temporäre Profile, die speziell für die Simulation erstellt wurden. Sie können also frei testen, ohne persistente Testprofile in Adobe Experience Platform verwalten zu müssen.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
 </td>
 </tr>
@@ -301,7 +301,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### KI
 
-* **Bewertung der Markenausrichtung im Kampagnen-Dashboard** - &lt;TBC>
+* **Bewertung der Markenausrichtung im Kampagnen-Dashboard** - Sie können jetzt die Bewertung Ihrer Markenausrichtung direkt in Ihrem Kampagnen-Dashboard bewerten, um sicherzustellen, dass die Inhalte markenkonform bleiben. Auf diese Weise können Sie die Richtlinien auf einen Blick überprüfen, ohne den Content Designer öffnen zu müssen.
 
   Dokumentations-JIRA-Aufgabe: [DOCAC-14516](https://jira.corp.adobe.com/browse/DOCAC-14516)
 
@@ -345,7 +345,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
   Dokumentations-JIRA-Aufgabe: [DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
 
-* **Open-Time-Personalisierung mit Countdown-Timer unter Verwendung von Dynamic Media** - &lt;TBC>
+* **Open-Time-Personalisierung mit Countdown-Timer unter Verwendung von Dynamic Media** - Die Integration von Journey Optimizer und Adobe Experience Manager Dynamic Media ermöglicht die Open-Time-Personalisierung für Dynamic Media-Vorlagen und erschließt so extrem personalisierte Anwendungsfälle. Kunden können personalisierte Vorlagen in Adobe Experience Manager erstellen und veröffentlichen und in Journey Optimizer verwenden, wobei Daten zur offenen Zeit gerendert werden.
 
   Dokumentations-JIRA-Aufgabe: [DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
 
@@ -391,7 +391,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### Externe Integrationen
 
-* **Externe Datenintegrationen** - &lt;TBC>
+* **Externe Datenintegrationen** - Die Integrationsfunktion ermöglicht es Ihnen, Datenquellen von Drittanbietern direkt mit Adobe Journey Optimizer zu verbinden. Diese Funktion vereinfacht das Abrufen externer Daten und Inhalte und erleichtert so die Bereitstellung personalisierter, dynamischer Nachrichten auf allen Kanälen.
 
   Dokumentations-JIRA-Aufgabe: [DOCAC-13803](https://jira.corp.adobe.com/browse/DOCAC-13803)
 
