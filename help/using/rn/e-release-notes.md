@@ -6,9 +6,9 @@ description: Vorab veröffentlichte Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 121171b536964efef5fdb1a7f1390bf10719735e
+source-git-commit: 56e01ac04baab45b3acf35f0f977ede8c8263d7c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1715'
 ht-degree: 17%
 
 ---
@@ -195,7 +195,8 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer enthält jetzt einen <strong>KI-Assistenten</strong> im <strong>Personalization-Editor</strong>. Beschreiben Sie, was Sie personalisieren möchten. Der Assistent erstellt einen <strong>Personalisierungsausdruck</strong> den Sie unverändert verwenden oder in einem kurzen Folgegespräch verfeinern können. Sie können auch einen vorhandenen Personalisierungs-Code auswählen und den Assistenten bitten, ihn zu erklären, zu korrigieren oder Verbesserungen vorzuschlagen.</p>
+<p>Adobe Journey Optimizer enthält jetzt einen KI-Assistenten für Personalisierungsausdrücke. Sie können sie beim Entwerfen von E-Mail-Inhalten im Personalization-Editor und in der E-Mail-Designer-Symbolleiste öffnen. Beschreiben Sie, was Sie personalisieren möchten. Der Assistent erstellt einen Personalisierungsausdruck, den Sie unverändert verwenden können, oder verfeinern Sie ihn in einem kurzen Nachgespräch.
+Sie können auch einen vorhandenen Personalisierungs-Code auswählen und den Assistenten bitten, ihn zu erklären, zu korrigieren oder Verbesserungen vorzuschlagen. Nachdem Sie einen Ausdruck generiert haben, wird durch Anzeigen einer Vorschau für Beispielprofile eine Schnellprüfung mit einem begrenzten Satz synthetischer Beispielprofile durchgeführt.</p>
 <p>Weitere Informationen finden Sie unter <a href="../content-management/generative-personalization-expressions.md">KI-Assistent für Personalization-Ausdrücke</a>.</p>
 <p>Verfügbarkeitsdatum: Dienstag, 13. April 2026</p>
 </td>
@@ -276,10 +277,6 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### E-Mail-Design
 
-* **KI-Assistent für Personalisierungsausdrücke in der E-Mail-Designer** - Wählen Sie in der E-Mail-Designer eine Komponente aus und verwenden Sie **Ausdruck hinzufügen** in der kontextuellen Symbolleiste, um die benötigte Personalisierung in einfacher Sprache zu beschreiben, den generierten Ausdruck zu überprüfen und einzufügen, ohne den Designer zu verlassen. [Weitere Informationen](../content-management/generative-personalization-expressions.md#generate-email-designer)
-
-  Verfügbarkeitsdatum: Donnerstag, 15. April 2026
-
 * **Erweiterter HTML-Editor für E-Mail** - Im erweiterten HTML-Modus können Sie die HTML-Quelle Ihres Inhalts in der E-Mail-Designer bearbeiten, erweiterte Ausdrücke (wie Bedingungen) in der Quelle hinzufügen und zwischen HTML- und Desktop-Ansicht wechseln, ohne Ihre Änderungen zu verlieren. Zuvor nur für E-Mail-Inhaltsvorlagen verfügbar, wird diese Funktion jetzt für E-**-**-Inhalte in der E-Mail-Designer bereitgestellt. Sie ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten. [Weitere Informationen](../email/email-expert-mode.md)
 
   Verfügbarkeitsdatum: Freitag, 9. April 2026
@@ -339,7 +336,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -633,7 +630,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -886,7 +883,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1063,7 +1060,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
