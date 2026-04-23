@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 75%
@@ -33,6 +33,12 @@ Um Profildaten mit Ihren [!DNL Journey Optimizer] Landingpages zu erfassen und I
 >title="Auswählen eines Datensatzes"
 >abstract="Definieren Sie einen Datensatz, in dem die Formularantworten gespeichert und dargestellt werden. Sie können etwas eingeben, um einen bestimmten Datensatz zu durchsuchen, oder einen Datensatz aus der Liste auswählen."
 
+<!--
+>[!NOTE]
+>
+>To access and edit form presets, you must have the **[!UICONTROL View form presets]**, **[!UICONTROL Manage form presets]**, and **[!UICONTROL Publish form presets]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
+
 Bevor Sie ein Formular erstellen können, müssen Sie eine dedizierte Voreinstellung einrichten, in der Sie den Verbindungsendpunkt auswählen, an den Formulardaten gesendet werden. Zudem müssen Sie den Datensatz auswählen, in dem die im Formular erfassten Daten gespeichert werden.
 
 Sobald Daten auf dem Streaming-Endpunkt landen, werden sie mit den Datensatzinformationen verknüpft. Mithilfe der generierten Quell-/Zielverbindungen und des Quellflusses werden die Daten dann in den Datensatz übertragen.
@@ -45,12 +51,6 @@ Beim Erstellen einer Voreinstellung:
    * **Quellverbindung**: Woher die Daten stammen.
    * **Zielverbindung**: Wo die Daten gespeichert oder genutzt werden.
    * **Quellfluss**: Die Pipeline, die Daten von der Quellverbindung in [!DNL Experience Platform] bewegt, um Zuordnungen, Umwandlungen und Validierungen zu verarbeiten.
-
-<!--
->[!NOTE]
->
-> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
--->
 
 Gehen Sie wie folgt vor, um eine Formularvoreinstellung zu erstellen.
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um eine Formularvoreinstellung zu erstellen.
    >* **Datentyp** muss auf **XDM** festgelegt sein (nicht Rohdaten)
    >* **Authentifizierung** muss **deaktiviert** sein (nicht authentifizierte Verbindung)
    >
-   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können etwas eingeben, um einen bestimmten Datensatz zu durchsuchen, oder einen Datensatz aus der Liste auswählen.
 
@@ -84,6 +84,12 @@ Gehen Sie wie folgt vor, um eine Formularvoreinstellung zu erstellen.
 1. Klicken Sie auf **[!UICONTROL Veröffentlichen]**. Ihre Voreinstellung kann jetzt in einem Formular verwendet werden.
 
 ## Aufrufen und Verwalten von Formularen {#access-forms}
+
+<!--
+>[!NOTE]
+>
+>To access and edit forms, you must have the **[!UICONTROL View forms]**, **[!UICONTROL Manage forms]**, and **[!UICONTROL Publish forms]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
 
 Um auf die Formularliste zuzugreifen, wählen Sie im Menü links **[!UICONTROL Content-Management]** > **[!UICONTROL Formulare]** aus.
 
@@ -277,7 +283,7 @@ Sie können dieses Formular jetzt in eine Landingpage einbetten, um Daten zu erf
 
 1. Speichern und testen Sie Ihre Landingpage. [Weitere Informationen](create-lp.md#test-landing-page)
 
-Sobald Ihre Landingpage [veröffentlicht) &#x200B;](create-lp.md#publish-landing-page) auf einer Journey verwendet wurde und Benutzer das Formular ausfüllen, werden die eingegebenen Informationen in den ausgewählten Datensatz aufgenommen. Die Verarbeitung und Verfügbarkeit der Daten kann bis zu 15 Minuten dauern.
+Sobald Ihre Landingpage [veröffentlicht) ](create-lp.md#publish-landing-page) auf einer Journey verwendet wurde und Benutzer das Formular ausfüllen, werden die eingegebenen Informationen in den ausgewählten Datensatz aufgenommen. Die Verarbeitung und Verfügbarkeit der Daten kann bis zu 15 Minuten dauern.
 
 >[!NOTE]
 >
