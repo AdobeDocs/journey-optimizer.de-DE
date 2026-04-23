@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
+source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
 workflow-type: tm+mt
-source-wordcount: '6969'
+source-wordcount: '7025'
 ht-degree: 69%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 69%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## April 2026 {#april-2026}
+
+* Die Leitplanken in der Dokumentation **Hinzufügen eines CC** Felds zu E-Mails“ wurden verbessert. Sie legen jetzt fest, dass die CC-Adresse nicht mit der Einwilligung oder Unterdrückung abgeglichen wird und dass Öffnungen und Klicks aus E-Mails, die an die CC-Adresse gesendet werden, in der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. [Weitere Informationen](../configuration/cc-email-field.md)
 
 * Die **Kanalaktivitäten**-Dokumentation wurde mit einem neuen Abschnitt **Marketing vs. Transaktionsnachrichten** aktualisiert, in dem die Verhaltensunterschiede zwischen den beiden Kanalkategorien erläutert werden: Opt-in-Anforderungen, Geschäftsregelanwendung, Kanalkonfigurationstyp und empfohlene Anwendungsfälle. [Weitere Informationen](../orchestrated/activities/channels.md#marketing-vs-transactional)
 
