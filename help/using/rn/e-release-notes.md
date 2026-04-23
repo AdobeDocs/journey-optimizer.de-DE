@@ -6,10 +6,10 @@ description: Vorab veröffentlichte Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fe8e38287939e289e04e07dfe5a2ca51172825e6
+source-git-commit: 36ccd3383eef4bed54e727a74bf0db6c7a34fe43
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 17%
+source-wordcount: '1817'
+ht-degree: 16%
 
 ---
 
@@ -48,15 +48,34 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Dynamischer E-Mail-Absender</strong><br/></th>
+<th><strong>Absenderparameter im E-Mail-Header</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Mit der Funktion <strong>Dynamischer Absender</strong> können Sie jetzt E-Mails senden, bei denen sich die sendende Entität (Absender) von der Authoring-Entität (Von) unterscheidet. E-Mail-Clients, die dies unterstützen, rendern es normalerweise als „Absender im Namen von Von“ oder zeigen einen „Über“-Indikator an.</p>
+<p>Mit Journey Optimizer können Sie jetzt E-Mails senden, bei denen sich die sendende Entität (Absender) von der Authoring-Entität (Von) unterscheidet. E-Mail-Clients, die dies unterstützen, rendern es normalerweise als „Absender im Namen von Von“ oder zeigen einen „Über“-Indikator an. Füllen Sie die optionalen Felder <strong>Absender-Kopfzeilen</strong> in den Einstellungen des E-Mail-Kanals aus, um diese Funktion zu konfigurieren.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14458">DOCAC-14458</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>CC-Feld in E-Mail-Kanaleinstellungen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Jetzt können Sie in Ihren E-Mail-Kanaleinstellungen ein optionales CC-Feld (Carbon Copy) konfigurieren. Im Gegensatz zu BCC sind CC-Empfänger für den primären Empfänger sichtbar, was eine transparente Kommunikation und eine klarere Eigentümerschaft ermöglicht.</p>
+<p>Auf diese Weise können Sie automatisch den richtigen Stakeholder für jede Nachricht kopieren - z. B. einen Beziehungs-Manager oder einen Kontoinhaber - und gleichzeitig sicherstellen, dass der Kunde weiß, an wen er sich zwecks Folgenachricht wenden muss.</p>
+<p>Das CC-Feld unterstützt Personalisierung, sodass eine einzelne Konfiguration Kopien basierend auf Profildaten dynamisch weiterleiten kann, sodass sie ohne zusätzliche Einrichtung für mehrere Anwendungsfälle skalierbar ist.</p>
+<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14581">DOCAC-14581</a></p>
 </td>
 </tr>
 </tbody>
@@ -153,14 +172,19 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>E-Mail für KI-Posteingänge optimieren: aktualisierter Workflow</strong><br/></th>
+<th><strong>E-Mail für KI-Posteingänge optimieren</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer bietet jetzt eine neue Funktion, mit der sichergestellt wird, dass Ihre E-Mails für <strong>KI-gestützte Posteingänge</strong> wie <strong>Apple Intelligence</strong> und <strong>Google Gemini in Gmail</strong> optimal strukturiert sind. Da KI-Assistenten zunehmend steuern, wie Empfänger E-Mails lesen und darauf reagieren, hilft Ihnen diese Funktion bei der Erstellung von Inhalten, die in nachgelagerten KI-Aufgaben gut funktionieren, einschließlich Zusammenfassung, Klassifizierung, Priorisierung und Extraktion von Absichten.</p>
-<p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
+<p>Adobe Journey Optimizer bietet jetzt eine neue Funktion, mit der sichergestellt wird, dass Ihre E-Mails für KI-gestützte Posteingänge wie Apple Intelligence und Google Gemini in Gmail optimal strukturiert sind. Da KI-Assistenten zunehmend steuern, wie Empfänger E-Mails lesen und darauf reagieren, hilft Ihnen diese Funktion bei der Erstellung von Inhalten, die in nachgelagerten KI-Aufgaben gut funktionieren, einschließlich Zusammenfassung, Klassifizierung, Priorisierung und Extraktion von Absichten.</p>
+<p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
+<p>Weitere Informationen finden Sie unter <a href="../email/llm-email-optimizer.md">E-Mail für KI-Posteingänge optimieren</a>.</p>
+<p>Verfügbarkeitsdatum: Samstag, 17. April 2026</p>
+<!--
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
+-->
 </td>
 </tr>
 </tbody>
@@ -230,7 +254,7 @@ Sie können auch einen vorhandenen Personalisierungs-Code auswählen und den Ass
 <tbody>
 <tr>
 <td>
-<p>Verwenden Sie den neuen <strong>Optimieren</strong>-Knoten, um A<strong>B-</strong> oder <strong>Multi-Armed-Bandit</strong>-Experimente durchzuführen, um den besten Weg zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln. Mit diesem Tool können Sie Kommunikation, Sequenzierung und Timing testen und variieren, um Ihre Kunden optimal zu erreichen. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p>Verwenden Sie den neuen <strong>Optimieren</strong>-Knoten, um A/B-Tests oder Multi-Armed-Bandit-Experimente durchzuführen, um den besten Pfad zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln. Mit diesem Tool können Sie Kommunikation, Sequenzierung und Timing testen und variieren, um Ihre Kunden optimal zu erreichen. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/path-experimentation.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Mittwoch, 7. April 2026</p>
 </td>
@@ -338,7 +362,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -629,7 +653,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -882,7 +906,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1059,7 +1083,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
