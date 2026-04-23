@@ -6,9 +6,9 @@ description: Vorab veröffentlichte Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
+source-git-commit: dd17038e3bae77f9de2642d2578e5fa4cad54d43
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2189'
 ht-degree: 14%
 
 ---
@@ -322,6 +322,12 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
   Verfügbarkeitsdatum: Freitag, 9. April 2026
 
+#### Push-Benachrichtigung
+
+* **App-ID in Kanaleinstellungen personalisieren** - In den Konfigurationseinstellungen für den Push-Kanal können Sie jetzt das Feld **App-ID** personalisieren, damit jeder Empfänger anhand seiner Profilinformationen eine Push-Benachrichtigung von der entsprechenden Marke erhalten kann.
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14592](https://jira.corp.adobe.com/browse/DOCAC-14592)
+
 #### SMS
 
 * **Zeichenanzahl** - In Adobe Journey Optimizer können Sie jetzt die Zeichenanzahl verwenden, um die Länge Ihrer SMS-Nachrichten in Echtzeit zu überwachen. Auf diese Weise lässt sich erkennen, wann eine Nachricht in mehrere Segmente aufgeteilt wird, um die Formatierung besser zu verwalten und unerwartete Erhöhungen der Versandkosten zu vermeiden. [Weitere Informationen](../sms/create-sms.md)
@@ -396,7 +402,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### Orchestrierte Kampagnen
 
-* **Verbesserungen am Data Modeler** - Für orchestrierte relationale Schemata unterstützt der Data Modeler jetzt die Erstellung zusammengesetzter Schlüssel mit mehreren Feldern. Zusammengesetzte Beziehungen zwischen Tabellen werden erstellt, wenn Sie ein Schema aus einer DDL- oder Excel-Datei laden. In der Ansicht der Entitätsbeziehung zeigen zusammengesetzte Links nach dem Hochladen einer Datei den vollständigen Satz von Feldpaaren zwischen Tabellen an.
+* **Verbesserungen bei Data Modeler** - Orchestrierte relationale Schemata unterstützen jetzt zusammengesetzte Schlüssel, die mehrere Felder umfassen. Das Laden eines Schemas aus einer DDL-Datei führt auch zu Auflistungen, und beim Laden aus einer DDL- oder Excel-Datei werden automatisch zusammengesetzte Beziehungen zwischen Tabellen erstellt. In der Ansicht der Entitätsbeziehung zeigen zusammengesetzte Links jetzt den vollständigen Satz von Feldpaaren zwischen Tabellen an, nachdem eine Datei hochgeladen wurde.
 
   Dokumentations-JIRA-Aufgabe: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
 
