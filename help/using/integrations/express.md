@@ -5,15 +5,14 @@ title: Bearbeiten von Assets mit Adobe Express in Journey Optimizer
 description: Erste Schritte mit Adobe Express
 feature: Assets, Integrations
 topic: Content Management, Integrations
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 role: User
 level: Beginner
 keywords: Assets, Integration
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -24,14 +23,13 @@ ht-degree: 97%
 >title="Adobe Express-Integration"
 >abstract="Beginnen Sie mit der Personalisierung Ihrer Assets mit der Integration von Adobe Express. Mit dieser Funktion können Sie die Größe von Bildern ändern, Hintergründe entfernen, visuelle Elemente zuschneiden und Assets in JPEG oder PNG konvertieren."
 
+>[!IMPORTANT]
+>
+>Durch Verwendung der Adobe Express-Integration verlassen die Daten Journey Optimizer. Verwenden Sie diese Integration nicht mit PHI oder anderen Gesundheitsdaten.
+
 Die Adobe Express-Integration in Adobe Journey Optimizer ermöglicht Ihnen einen einfachen Zugriff auf die leistungsstarken Bearbeitungs-Tools von Adobe Express beim Erstellen von Inhalten. Dank dieser Integration können Sie die Größe von Bildern ändern, Hintergründe entfernen, visuelle Elemente zuschneiden und Assets in JPEG oder PNG konvertieren, ohne zwischen Lösungen wechseln zu müssen.
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
-
-
->[!AVAILABILITY]
->
->Die Adobe Express-Integration in Adobe Journey Optimizer ist derzeit nicht für Healthcare Shield oder Privacy and Security Shield verfügbar.
 
 Weitere Informationen zu Adobe Express finden Sie in [dieser Dokumentation](https://helpx.adobe.com/de/express/user-guide.html).
 
@@ -41,7 +39,7 @@ Um auf das **[!DNL Adobe Express]**-Menü zuzugreifen, rufen Sie im E-Mail-Desig
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
-## Verwenden von Adobe Express mit einer Unternehmenslizenz {#licence}
+## Verwenden von Adobe Express mit einer Enterprise-Lizenz {#licence}
 
 Die in den folgenden Abschnitten beschriebenen Funktionen sind für Benutzende ohne Adobe Express Enterprise-Lizenz verfügbar.
 
@@ -51,7 +49,7 @@ Mit einer Enterprise-Lizenz haben Benutzende vollen Zugriff auf den Web-Editor v
 
 Weitere Informationen zu verfügbaren Anwendungsfällen für Benutzende mit einer Enterprise-Lizenz für Adobe Express finden Sie in der [Dokumentation zu Adobe Express Web](https://helpx.adobe.com/de/express/web.html).
 
-## Verwenden von Adobe Express ohne Enterprise-Lizenz  {#edit}
+## Verwenden von Adobe Express ohne eine Enterprise-Lizenz  {#edit}
 
 Ohne eine Enterprise-Lizenz haben Benutzende Zugriff auf die folgenden Anwendungsfälle, die mit Adobe Express verfügbar sind:
 
