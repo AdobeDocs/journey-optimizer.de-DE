@@ -6,10 +6,10 @@ description: Vorab veröffentlichte Versionshinweise zu Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 36ccd3383eef4bed54e727a74bf0db6c7a34fe43
+source-git-commit: b12904ef889530ebe7fc1962148e06b810908d18
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 16%
+source-wordcount: '2084'
+ht-degree: 15%
 
 ---
 
@@ -305,6 +305,32 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
   Verfügbarkeitsdatum: Freitag, 9. April 2026
 
+#### SMS
+
+* **Zeichenanzahl** - In Adobe Journey Optimizer können Sie jetzt die Zeichenanzahl verwenden, um die Länge Ihrer SMS-Nachrichten in Echtzeit zu überwachen. Auf diese Weise lässt sich erkennen, wann eine Nachricht in mehrere Segmente aufgeteilt wird, um die Formatierung besser zu verwalten und unerwartete Erhöhungen der Versandkosten zu vermeiden. [Weitere Informationen](../sms/create-sms.md)
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14346](https://jira.corp.adobe.com/browse/DOCAC-14346)
+
+* **Opt-out und Einverständnis bei Telefonnummer und Absender** - Für SMS zeichnet Journey Optimizer jetzt das Marketing-Einverständnis und das Opt-out auf der Ebene sowohl der Telefonnummer des Profils als auch der Kurzwahlnummer auf. Wenn sich die Telefonnummer eines Profils ändert, wird das mit der vorherigen Nummer verknüpfte Einverständnis nicht auf die neue übertragen. Der Empfänger muss sich erneut anmelden und sicherstellen, dass alle Nachrichten auf der bestimmten Anzahl und Absenderebene mit dem Einverständnis abgestimmt bleiben.
+
+  Diese Funktion ist derzeit nur für Sinch-SMS-Konfigurationen verfügbar. [Weitere Informationen](../sms/sms-configuration-sinch.md)
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14344](https://jira.corp.adobe.com/browse/DOCAC-14344)
+
+* **Benutzerdefinierte Datensatzauswahl unterstützen** - Eingehende SMS-Ereignisse können in einen von Ihnen ausgewählten **benutzerdefinierten Datensatz** geschrieben werden, sodass Zielgruppen und Journey diese Daten früher verwenden können als beim Warten auf den standardmäßigen Nachrichten-Feedback-Pfad und beim Aktualisieren der Streaming-Zielgruppe. Dies ist für **bidirektionale SMS** nützlich. [Weitere Informationen](../sms/sms-webhook.md)
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14356](https://jira.corp.adobe.com/browse/DOCAC-14356)
+
+* **Verbesserung der Webhook-**: Bei der Konfiguration von SMS-Webhooks enthält die Benutzeroberfläche jetzt ein integriertes Setup-Handbuch mit praktischen Beispielen, das die Abstimmung von Provider-Payloads und die Fehlerbehebung erleichtert, ohne den Konfigurationsfluss verlassen zu müssen. [Weitere Informationen](../sms/sms-webhook.md)
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14589](https://jira.corp.adobe.com/browse/DOCAC-14589)
+
+#### WhatsApp
+
+* **Interaktive Schaltflächen und Tracking von WhatsApp** - WhatsApp in Journey Optimizer unterstützt jetzt interaktive Schaltflächen, die von Ihren Vorlagen und Anwendungsfällen benötigt werden, sowie integriertes Interaktions-Tracking, mit dem Sie die Interaktion messen und die Leistung neben Ihren anderen Kanalberichten analysieren können.
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14590](https://jira.corp.adobe.com/browse/DOCAC-14590)
+
 #### Journey-Pfadoptimierung
 
 * **Experimenttyp** - Bei der Konfiguration eines Pfadexperiments können Sie jetzt zwischen A/B-Experiment (feste Aufspaltung am Beginn) oder Mehrarmiger Bandit (automatische Aufspaltung mit wöchentlichen Aktualisierungen der Gewichtung) wählen. [Weitere Informationen](../building-journeys/path-experimentation.md)
@@ -321,7 +347,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### Adobe Experience Manager-Integrationen
 
-* **Content Advisor-Selektor** - Die AEM Assets- und Inhaltsfragment-Selektoren werden jetzt durch den **Content Advisor-Selektor** ersetzt, ein einheitliches Modal, mit dem Sie alle AEM Assets- und AEM-Inhaltsfragmente durchsuchen, suchen, filtern und darauf zugreifen können. Dynamic Media-Ausgabedarstellungen werden ebenfalls unterstützt, sodass Sie bei der Auswahl von Dynamic Media-Assets über die Benutzeroberfläche Bilddarstellungen hinzufügen können. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
+* **Content Advisor-Selektor** - Die Adobe Experience Manager Assets- und Inhaltsfragment-Selektoren werden jetzt durch den **Content Advisor-Selektor** ersetzt, ein einheitliches Modal, mit dem Sie alle AEM Assets- und AEM-Inhaltsfragmente durchsuchen, suchen, filtern und darauf zugreifen können. Dynamic Media-Ausgabedarstellungen werden ebenfalls unterstützt, sodass Sie bei der Auswahl von Dynamic Media-Assets über die Benutzeroberfläche Bilddarstellungen hinzufügen können. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
   Dokumentations-JIRA-Aufgabe: [DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
 
@@ -337,11 +363,13 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
   Verfügbarkeitsdatum: Donnerstag, 1. April 2026
 
+<!--
 #### WhatsApp
 
-* **WhatsApp-Kanal: Eingebettete Anmeldung** - Adobe Journey Optimizer unterstützt jetzt den Meta-Fluss <strong>Eingebettete Anmeldung</strong> für die Konfiguration des WhatsApp-Kanals. Durch dieses optimierte Onboarding-Erlebnis können Sie Ihr <strong>WhatsApp Business-Konto</strong> und Telefonnummern direkt in der AJO-Benutzeroberfläche verbinden, ohne zu <strong>Meta Business Manager</strong> zu navigieren, wodurch die Einrichtungszeit erheblich verkürzt wird. Es dient auch als Migrationswerkzeug, um bestehende Telefonnummern und <strong>WhatsApp Business Accounts (WABAs) </strong> Adobe zu übertragen.
+* **WhatsApp Channel: Embedded Sign Up** - Adobe Journey Optimizer now supports Meta's <strong>Embedded Sign Up</strong> flow for WhatsApp channel configuration. This streamlined onboarding experience allows you to connect your <strong>WhatsApp Business Account</strong> and phone numbers directly within the AJO interface, without navigating to <strong>Meta Business Manager</strong>, reducing setup time significantly. It also serves as a migration tool to transfer existing phone numbers and <strong>WhatsApp Business Accounts (WABAs)</strong> to Adobe.
 
-  Dokumentations-JIRA-Aufgabe: [DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+  Documentation JIRA task: [DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+-->
 
 #### Konfiguration
 
@@ -351,7 +379,9 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### Orchestrierte Kampagnen
 
-<!--* **Data Modeler enhancements** - The Data Modeler in Orchestrated Campaigns now supports enhanced <strong>composite relationship management</strong>. You can create and manage composite relationships directly in the UI, including linking a field to multiple tables of the same type. These enhancements build on the <strong>composite key</strong> and <strong>enumeration management</strong> capabilities introduced in the previous release.Documentation JIRA task: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)-->
+* **Verbesserungen am Data Modeler** - Für orchestrierte relationale Schemata unterstützt der Data Modeler jetzt die Erstellung zusammengesetzter Schlüssel mit mehreren Feldern. Zusammengesetzte Beziehungen zwischen Tabellen werden erstellt, wenn Sie ein Schema aus einer DDL- oder Excel-Datei laden. In der Ansicht der Entitätsbeziehung zeigen zusammengesetzte Links nach dem Hochladen einer Datei den vollständigen Satz von Feldpaaren zwischen Tabellen an.
+
+  Dokumentations-JIRA-Aufgabe: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
 
 * **Globale Variablen in orchestrierten Kampagnen** - Orchestrierte Kampagnen unterstützen jetzt globale Variablen, die einmal definiert und über alle Aktivitäten innerhalb eines Workflows hinweg wiederverwendet werden können, um die Konfiguration zu vereinfachen und die Konsistenz von dynamischen Werten, Ausdrücken und der Personalisierung von Inhalten sicherzustellen.
 
