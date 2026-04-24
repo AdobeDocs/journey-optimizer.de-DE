@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '7025'
-ht-degree: 69%
+source-wordcount: '7188'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,8 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 ## April 2026 {#april-2026}
 
+* Die **Dimensionsänderung** wurde aktualisiert, um klarzustellen, dass während die Aktivität einen externen Join verwendet und alle Datensätze beim Schritt der Dimensionsänderung speichert, Datensätze ohne übereinstimmendes Profil in der neuen Zielgruppendimension zum Zeitpunkt des Nachrichtenversands schweigend ausgeschlossen werden. [Weitere Informationen](../orchestrated/activities/change-dimension.md)
+
 * Die Leitplanken in der Dokumentation **Hinzufügen eines CC** Felds zu E-Mails“ wurden verbessert. Sie legen jetzt fest, dass die CC-Adresse nicht mit der Einwilligung oder Unterdrückung abgeglichen wird und dass Öffnungen und Klicks aus E-Mails, die an die CC-Adresse gesendet werden, in der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. [Weitere Informationen](../configuration/cc-email-field.md)
 
 * Die **Kanalaktivitäten**-Dokumentation wurde mit einem neuen Abschnitt **Marketing vs. Transaktionsnachrichten** aktualisiert, in dem die Verhaltensunterschiede zwischen den beiden Kanalkategorien erläutert werden: Opt-in-Anforderungen, Geschäftsregelanwendung, Kanalkonfigurationstyp und empfohlene Anwendungsfälle. [Weitere Informationen](../orchestrated/activities/channels.md#marketing-vs-transactional)
@@ -29,7 +31,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Die **Aktivität Zielgruppe aufbauen** wurde um ein neues Beispiel erweitert, das zeigt, wie Profile mithilfe des Regel-Builders nach einem Abonnementplanattribut gefiltert werden können. [Weitere Informationen](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* Die Seite **Erste Schritte mit orchestrierten Kampagnen** dokumentiert das Muster **Zielgruppe erstellen → Verzweigung → Kanal A + Kanal B** der Einstiegsebene in **Was befindet sich in einer orchestrierten Kampagne?** mit Querverweisen auf die Seiten Verzweigung und Marketing vs. Transaktionsnachrichten . [Weitere Informationen](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* Die Seite **Erste Schritte mit orchestrierten Kampagnen** dokumentiert das Muster **Zielgruppe → Verzweigung erstellen → Kanal A + Kanal B** der Einstiegsebene in **Was befindet sich in einer orchestrierten Kampagne?** mit Querverweisen auf die Seiten Verzweigung und Marketing vs. Transaktionsnachrichten . [Weitere Informationen](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * Die Seite **E-Mail-Inhalt bearbeiten mit dem erweiterten HTML-Editor** wurde aus dem Abschnitt Content-Management in den Abschnitt **E-Mail** der Dokumentation (unter E-Mail-Design) verschoben und die Seitendatei wurde in **email-expert-mode.md** umbenannt. Auf der Seite wird nun dokumentiert, dass der erweiterte HTML-Editor in der E-Mail-Designer für E-Mail-Nachrichten und für E-Mail-Inhaltsvorlagen verfügbar ist. [Weitere Informationen](../email/email-expert-mode.md)
 
 * Die Dokumentation **Starten und Überwachen orchestrierter Kampagnen** wurde mit einem neuen Abschnitt aktualisiert, der die interne Ausführungssequenz der Veröffentlichungszeit sowie eine Tabelle mit dem Kampagnenlebenszyklusstatus, eine Checkliste vor der Veröffentlichung und eine Bestätigungswarnung für nicht wiederkehrende Kampagnen enthält. [Weitere Informationen](../orchestrated/start-monitor-campaigns.md#publication-sequence)
@@ -84,7 +86,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Die Dokumentation **Leitplanken für die Time-to-Live (TTL)** Datensätze wurde um einen neuen FAQ-Eintrag erweitert, um eindeutig zu identifizieren, welche Datensätze der TTL unterliegen. TTL gilt ausschließlich für Zeitreihen-Datensätze - Datensätze vom Typ Datensätze wie Entitätsdatensätze, Klassifizierungsdatensätze und Entscheidungsobjekt-Repositorys unterliegen nicht der TTL und sind von dem Rollout der Leitplanken nicht betroffen. [Weitere Informationen](../data/datasets-ttl.md)
 
-* Die Dokumentationen zu **&#x200B;**&#x200B;Journey-Eigenschaften **und &quot;Journey anhalten** wurden aktualisiert, um die neuen Felder zum Anhalten und Fortsetzen zu dokumentieren, die jetzt in den technischen Details zum Journey verfügbar sind. Die Schaltfläche **Technische Details kopieren** enthält jetzt zusätzlich zum vorhandenen `lastPausedAt`-Block `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy`, `lastResumedById` und `pausedJourneySettings`. Es wurde auch ein neuer Abschnitt zur Seite &quot;**einer Journey&quot; hinzugefügt** in dem erläutert wird, wie Zeitstempel für Pausen und Fortsetzungen direkt aus den Journey-Eigenschaften angezeigt werden können. [Weitere Informationen](../building-journeys/journey-properties.md)
+* Die Dokumentationen zu **&#x200B;**&#x200B;Journey-Eigenschaften **und &quot;Journey anhalten** wurden aktualisiert, um die neuen Felder zum Anhalten und Fortsetzen zu dokumentieren, die jetzt in den technischen Details zum Journey verfügbar sind. Die Schaltfläche **Technische Details kopieren** enthält jetzt zusätzlich zum vorhandenen `pausedJourneySettings`-Block `lastPausedAt`, `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy` und `lastResumedById`. Es wurde auch ein neuer Abschnitt zur Seite &quot;**einer Journey&quot; hinzugefügt** in dem erläutert wird, wie Zeitstempel für Pausen und Fortsetzungen direkt aus den Journey-Eigenschaften angezeigt werden können. [Weitere Informationen](../building-journeys/journey-properties.md)
 
 ## Februar 2026 {#february-2026}
 
@@ -339,7 +341,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
    * Zusätzliche Kennungen werden nicht anhand der DULE-Richtlinien (Data Usage Labeling &amp; Enforcement) validiert und bei Data-Governance-Prüfungen in Journeys nicht berücksichtigt.
 
-[Mehr dazu](../building-journeys/supplemental-identifier.md)
+     [Mehr dazu](../building-journeys/supplemental-identifier.md)
 
 * Die Seite zur Optimierung in Kampagnen wurde aktualisiert, um der Tatsache Rechnung zu tragen, dass die Optimierung jetzt auch in Journeys verfügbar ist. [Weitere Informationen](../content-management/gs-message-optimization.md)
 
