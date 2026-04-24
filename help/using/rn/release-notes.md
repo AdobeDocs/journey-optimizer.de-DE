@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
+source-git-commit: 1c61a6f19cf08d9de0133f323129efe196cc10f6
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 21%
+source-wordcount: '3896'
+ht-degree: 18%
 
 ---
 
@@ -27,9 +27,145 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Updates April &#39;26 {#april-26-rn}
+## Vorab-Versionshinweise April 2026 {#april-26-rn}
+
+**Die nachfolgenden Vorab- Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentationen werden in den Versionshinweisen am Veröffentlichungsdatum veröffentlicht.
+
+Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, werden mit ihrem Verfügbarkeitsdatum angekündigt.
+
+**Veröffentlichungsdatum**: 28.-29. April 2026
 
 ### Neue Funktionen {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey-Simulation</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Jetzt können Sie Ihren Journey auf <strong>Simulation</strong> einstellen. In diesem Modus können Sie Ihre Logik mithilfe von <strong>simulierten Benutzern</strong> überprüfen. Hierbei handelt es sich um temporäre Profile, die speziell für die Simulation erstellt wurden. Sie können also frei testen, ohne persistente Testprofile in Adobe Experience Platform verwalten zu müssen.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Absenderparameter im E-Mail-Header</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit Journey Optimizer können Sie jetzt E-Mails senden, bei denen sich die sendende Entität (Absender) von der Authoring-Entität (Von) unterscheidet. E-Mail-Clients, die dies unterstützen, rendern es normalerweise als „Absender im Namen von Von“ oder zeigen einen „Über“-Indikator an. Füllen Sie die optionalen Felder <strong>Absender-Kopfzeilen</strong> in den Einstellungen des E-Mail-Kanals aus, um diese Funktion zu konfigurieren.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>CC-Feld in E-Mail-Kanaleinstellungen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Jetzt können Sie in Ihren E-Mail-Kanaleinstellungen ein optionales CC-Feld (Carbon Copy) konfigurieren. Im Gegensatz zu BCC sind CC-Empfänger für den primären Empfänger sichtbar, was eine transparente Kommunikation und eine klarere Eigentümerschaft ermöglicht.</p>
+<p>Auf diese Weise können Sie automatisch den richtigen Stakeholder für jede Nachricht kopieren - z. B. einen Beziehungs-Manager oder einen Kontoinhaber - und gleichzeitig sicherstellen, dass der Kunde weiß, an wen er sich zwecks Folgenachricht wenden muss.</p>
+<p>Das CC-Feld unterstützt Personalisierung, sodass eine einzelne Konfiguration Kopien basierend auf Profildaten dynamisch weiterleiten kann, sodass sie ohne zusätzliche Einrichtung für mehrere Anwendungsfälle skalierbar ist.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Deeplinks in der E-Mail-Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Es ist jetzt möglich, über eine dedizierte Option in der E-Mail-Designer Deeplinks zu Ihren E-Mail-Inhalten hinzuzufügen. Dadurch wird sichergestellt, dass Benutzende direkt zu den richtigen In-App-Inhalten geleitet werden, anstatt zu Browsern oder App-Stores weitergeleitet zu werden, wodurch der Kontext und die Interaktion erhalten bleiben.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer AI Agent-Integration über MCP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer bietet jetzt einen <strong>MCP (Model Context Protocol)-Server</strong> der Kampagnen-, Treueprogramm-, Kanalkonfigurations- und Sandbox-Vorgänge direkt in jeder MCP-kompatiblen Anwendung aufbereitet. Mit dieser Integration können verschiedene Personas um dieselben Orchestrierungsdaten herum zusammenarbeiten. Anstatt Abfragen für die Adobe Journey Optimizer-REST-API zu schreiben oder durch mehrere Bildschirme der Benutzeroberfläche zu navigieren, können Sie Ihre Absicht im Gespräch beschreiben und das LLM die entsprechenden MCP-Tools aufrufen lassen. Diese Funktion ist derzeit in Claude Web und Desktop verfügbar.</p>
+<p>Diese Funktion steht allen Kunden in Public Beta zur Verfügung.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Kopieren orchestrierter Kampagnen in Sandboxes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Die Sandbox-Tools unterstützen jetzt das Verpacken und Kopieren orchestrierter Kampagnen von einer Sandbox in eine andere. Dadurch entfällt die Notwendigkeit, Kampagnen in jeder Umgebung manuell neu zu erstellen. Wenn eine Kampagne in einem Package zusammengefasst wird, werden ihre abhängigen Kernobjekte wie Zusammenführungsrichtlinien und Nachrichten automatisch einbezogen, sodass die importierte Kampagne bereit für die Konfiguration und Validierung ist. Zum Schutz der Produktionsumgebungen landen alle importierten Kampagnen im Entwurfsstatus in der Ziel-Sandbox, sodass Teams vor der Live-Schaltung einer Kampagne einen Prüfungs- und Genehmigungsschritt erhalten.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Inkrementelle Abfrageaktivität in koordinierten Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Orchestrierte Kampagnen</strong> unterstützen jetzt eine Aktivität vom Typ <strong>Inkrementelle Abfrage</strong>, die nur auf Profile oder Ereignisse abzielt, die seit der letzten Ausführung neu qualifiziert wurden.
+
+Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue Anmeldungen, neu qualifizierte Mitglieder des Treueprogramms und ähnliche Segmente), während die Abfrage-Workloads reduziert und redundante Sendungen im Laufe der Zeit vermieden werden.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey-Schlichtung - KI-Modelle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt <strong>KI-Modelle</strong> in Ihren Rangfolgeformeln verwenden, um die Journey-Prioritätswerte basierend auf Kundenprofilattributen und Kontextfaktoren automatisch zu erhöhen, sodass Kundinnen und Kunden die relevantesten Journey eingeben.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -70,6 +206,24 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>KI-Assistent für Personalization Expressions</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] enthält jetzt <strong>KI-Assistent</strong> direkt im Personalisierungseditor, der Eingabeaufforderungen in natürliche Sprachen in gültige Personalisierungsausdrücke und bedingte Logik umwandelt, ohne dass ein Syntaxwissen erforderlich ist. Beschreiben Sie die Personalisierung, die Sie erreichen möchten, und KI generiert einsatzbereiten Code, den Sie sofort anwenden oder durch Folgeaufforderungen verfeinern können.</p>
+<p>Der Assistent arbeitet auch rückwärts. Wählen Sie einen vorhandenen Ausdruck aus und bitten Sie ihn, die Logik zu erklären, Probleme zu identifizieren oder Verbesserungen vorzuschlagen. Dies ist nicht nur für das Erstellen neuer Ausdrücke nützlich, sondern auch für die Überprüfung und das Debugging vorhandener Ausdrücke in Ihrem Team.</p>
+<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
+<p>Weitere Informationen finden Sie unter <a href="../content-management/generative-personalization-expressions.md">KI-Assistent für Personalization-Ausdrücke</a>.</p>
+<p>Verfügbarkeitsdatum: Dienstag, 13. April 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -150,44 +304,81 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>KI-Assistent für Personalization Expressions</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>[!DNL Adobe Journey Optimizer] enthält jetzt einen KI-Assistenten im Personalization-Editor. Beschreiben Sie, was Sie personalisieren möchten. Der Assistent erstellt einen Personalisierungsausdruck, den Sie unverändert verwenden können, oder verfeinern Sie ihn in einem kurzen Nachgespräch.</p>
-<p>Sie können auch einen vorhandenen Personalisierungs-Code auswählen und den Assistenten bitten, ihn zu erklären, zu korrigieren oder Verbesserungen vorzuschlagen. Nachdem Sie einen Ausdruck generiert haben<strong> führt „Vorschau für Beispielprofile anzeigen</strong> eine Schnellprüfung mit einem begrenzten Satz synthetischer Beispielprofile durch.</p>
-<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
-<p>Weitere Informationen finden Sie unter <a href="../content-management/generative-personalization-expressions.md">KI-Assistent für Personalization-Ausdrücke</a>.</p>
-<p>Verfügbarkeitsdatum: Dienstag, 13. April 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Verbesserungen {#april-26-improv}
 
+#### KI
+
+* **Bewertung der Markenausrichtung im Kampagnen-Dashboard** - Sie können jetzt die Bewertung Ihrer Markenausrichtung direkt in Ihrem Kampagnen-Dashboard bewerten, um sicherzustellen, dass die Inhalte markenkonform bleiben. Auf diese Weise können Sie die Richtlinien auf einen Blick überprüfen, ohne den Content Designer öffnen zu müssen.
+
+* **Verbesserung des Eingabeaufforderungsassistenten** - Wenn eine Eingabeaufforderung vage, unvollständig ist oder mehrere Ziele mischt, kann **Eingabeaufforderungsassistent** jetzt fokussierte klärende Fragen stellen oder eine klarere Neufassung Ihrer Anfrage vor der Generierung vorschlagen, sodass Sie feststellen können, was Sie benötigen, bevor der Assistent antwortet, was die Konsistenz verbessert und Wiederholungen reduziert. [Weitere Informationen](../content-management/ai-assistant-prompting-guide.md)
+
 #### Entscheidungsfindung
+
+* **Fragmente an Entscheidungselemente anhängen** - Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die über Entscheidungsrichtlinien in Code-basierten Erlebnis- und E-Mail-Kampagnen genutzt werden können. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
 * **Vorübergehend nicht verfügbare Fragmente werden übersprungen** - Bei der Verwendung von Fragmenten in Entscheidungselementen wird ein Fragment übersprungen, wenn es vorübergehend in Edge nicht verfügbar ist, und die Journey oder Kampagne wird weiter gerendert, anstatt fehlzuschlagen. [Weitere Informationen](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
   Verfügbarkeitsdatum: Mittwoch, 14. April 2026
 
+#### Push-Benachrichtigung
+
+* **App-ID in Kanaleinstellungen personalisieren** - In den Konfigurationseinstellungen für den Push-Kanal können Sie jetzt das Feld **App-ID** personalisieren, damit jeder Empfänger anhand seiner Profilinformationen eine Push-Benachrichtigung von der entsprechenden Marke erhalten kann.
+
+#### SMS
+
+* **Zeichenanzahl** - In Adobe Journey Optimizer können Sie jetzt die Zeichenanzahl verwenden, um die Länge Ihrer SMS-Nachrichten in Echtzeit zu überwachen. Auf diese Weise lässt sich erkennen, wann eine Nachricht in mehrere Segmente aufgeteilt wird, um die Formatierung besser zu verwalten und unerwartete Erhöhungen der Versandkosten zu vermeiden. [Weitere Informationen](../sms/create-sms.md)
+
+* **Opt-out und Einverständnis bei Telefonnummer und Absender** - Für SMS zeichnet Journey Optimizer jetzt das Marketing-Einverständnis und das Opt-out auf der Ebene sowohl der Telefonnummer des Profils als auch der Kurzwahlnummer auf.
+
+  Diese Funktion ist derzeit nur für Sinch-SMS-Konfigurationen verfügbar. [Weitere Informationen](../sms/sms-configuration-sinch.md)
+
+* **SMS-Eingänge in einen benutzerdefinierten Datensatz** - Führen Sie **SMS-API-** Eingehende **SMS** zu einem **benutzerdefinierten, profilaktivierten Erlebnisereignis-Datensatz** Sie anstelle des standardmäßigen Tracking-Datensatzes aus. [Weitere Informationen](../sms/sms-webhook.md)
+
+* **Verbesserung der Webhook-**: Bei der Konfiguration von SMS-Webhooks enthält die Benutzeroberfläche jetzt ein integriertes Setup-Handbuch mit praktischen Beispielen, das die Abstimmung von Provider-Payloads und die Fehlerbehebung erleichtert, ohne den Konfigurationsfluss verlassen zu müssen. [Weitere Informationen](../sms/sms-webhook.md)
+
+#### WhatsApp
+
+* **Interaktive Schaltflächen und Tracking von WhatsApp** - WhatsApp in Journey Optimizer unterstützt jetzt interaktive Schaltflächen, die von Ihren Vorlagen und Anwendungsfällen benötigt werden, sowie integriertes Interaktions-Tracking, mit dem Sie die Interaktion messen und die Leistung neben Ihren anderen Kanalberichten analysieren können.
+
+#### Adobe Experience Manager-Integrationen
+
+* **Content Advisor-Selektor** - Die Adobe Experience Manager Assets- und Inhaltsfragment-Selektoren werden jetzt durch den **Content Advisor-Selektor** ersetzt, ein einheitliches Modal, mit dem Sie alle AEM Assets- und AEM-Inhaltsfragmente durchsuchen, suchen, filtern und darauf zugreifen können. Dynamic Media-Ausgabedarstellungen werden ebenfalls unterstützt, sodass Sie bei der Auswahl von Dynamic Media-Assets über die Benutzeroberfläche Bilddarstellungen hinzufügen können. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
+
+* **Open-Time-Personalisierung mit Countdown-Timer unter Verwendung von Dynamic Media** - Die Integration von Journey Optimizer und Adobe Experience Manager Dynamic Media ermöglicht die Open-Time-Personalisierung für Dynamic Media-Vorlagen und erschließt so extrem personalisierte Anwendungsfälle. Kunden können personalisierte Vorlagen in Adobe Experience Manager erstellen und veröffentlichen und in Journey Optimizer verwenden, wobei Daten zur offenen Zeit gerendert werden.
+
+* **Unterstützung von Adobe Experience Manager-Inhaltsfragmentvarianten** - Sie können beim Einfügen von Adobe Experience Manager **Inhaltsfragmenten „Inhaltsfragmentvarianten“** (z. B. Sprach- oder Kanalvarianten) auswählen, um die Handhabung für Gebietsschema- und mehrsprachige Szenarien zu verbessern. [Weitere Informationen](../integrations/aem-fragments.md#aem-variations)
+
+  Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
+
+  Verfügbarkeitsdatum: Samstag, 3. April 2026
+
+* **Adobe Experience Manager-Inhaltsfragmentkontext beim Authoring** - Ihre Inhaltsfragmentauswahl bleibt beim Wechseln zwischen Textfeldern und Inhaltsblöcken aktiv, sodass Sie weitere Fragmentfelder hinzufügen können, ohne **AEM Content Advisor** erneut zu öffnen. [Weitere Informationen](../integrations/aem-fragments.md)
+
+  Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
+
+  Verfügbarkeitsdatum: Donnerstag, 1. April 2026
+
+#### Konfiguration
+
+* **Spezifische Berechtigungen für URL-Parameter-**: Um auf Schlüssel für die URL-Parameterverschlüsselung zuzugreifen und sie zu verwalten, wurden neue Berechtigungen erstellt. Ihnen müssen jetzt die Berechtigungen **Schlüsselregistrierung anzeigen** und **Schlüsselregistrierung verwalten** gewährt worden sein.
+
+#### Orchestrierte Kampagnen
+
+* **Verbesserungen bei Data Modeler** - Orchestrierte relationale Schemata unterstützen jetzt zusammengesetzte Schlüssel, die mehrere Felder umfassen. Das Laden eines Schemas aus einer DDL-Datei führt auch zu Auflistungen, und beim Laden aus einer DDL- oder Excel-Datei werden automatisch zusammengesetzte Beziehungen zwischen Tabellen erstellt. In der Ansicht der Entitätsbeziehung zeigen zusammengesetzte Links jetzt den vollständigen Satz von Feldpaaren zwischen Tabellen an, nachdem eine Datei hochgeladen wurde.
+
+* **Globale Variablen in orchestrierten Kampagnen** - Orchestrierte Kampagnen unterstützen jetzt globale Variablen, die einmal definiert und über alle Aktivitäten innerhalb eines Workflows hinweg wiederverwendet werden können, um die Konfiguration zu vereinfachen und die Konsistenz von dynamischen Werten, Ausdrücken und der Personalisierung von Inhalten sicherzustellen.
+
 #### E-Mail-Design
-
-* **KI-Assistent für Personalisierungsausdrücke in der E-Mail-Designer** - Wählen Sie in der E-Mail-Designer eine Komponente aus und verwenden Sie **Ausdruck hinzufügen** in der kontextuellen Symbolleiste, um die benötigte Personalisierung in einfacher Sprache zu beschreiben, den generierten Ausdruck zu überprüfen und einzufügen, ohne den Designer zu verlassen. [Weitere Informationen](../content-management/generative-personalization-expressions.md#generate-email-designer)
-
-  Verfügbarkeitsdatum: Donnerstag, 15. April 2026
 
 * **Erweiterter HTML-Editor für E-Mail** - Im erweiterten HTML-Modus können Sie die HTML-Quelle Ihres Inhalts in der E-Mail-Designer bearbeiten, erweiterte Ausdrücke (wie Bedingungen) in der Quelle hinzufügen und zwischen HTML- und Desktop-Ansicht wechseln, ohne Ihre Änderungen zu verlieren.
 
   Diese Funktion war bisher nur für E-Mail-Inhaltsvorlagen verfügbar und wird jetzt zusätzlich zu E-Mail **Inhaltsvorlagen für E-Mail-**-Inhalte in der E-Mail-Designer bereitgestellt (z. B. E-Mails, die in Journey und Kampagnen verfasst wurden). Sie ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten. [Weitere Informationen](../email/email-expert-mode.md)
 
   Verfügbarkeitsdatum: Freitag, 9. April 2026
+
+* **KI-Assistent für Personalisierungsausdrücke in der E-Mail-Designer** - Wählen Sie in der E-Mail-Designer eine Komponente aus und verwenden Sie **Ausdruck hinzufügen** in der kontextuellen Symbolleiste, um die benötigte Personalisierung in einfacher Sprache zu beschreiben, den generierten Ausdruck zu überprüfen und einzufügen, ohne den Designer zu verlassen. [Weitere Informationen](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  Verfügbarkeitsdatum: Donnerstag, 15. April 2026
 
 #### Journey-Pfadoptimierung
 
@@ -207,29 +398,15 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
   Verfügbarkeitsdatum: Mittwoch, 7. April 2026
 
-#### Adobe Experience Manager-Integrationen
-
-* **Unterstützung von Adobe Experience Manager-Inhaltsfragmentvarianten** - Sie können beim Einfügen von Adobe Experience Manager **Inhaltsfragmenten „Inhaltsfragmentvarianten“** (z. B. Sprach- oder Kanalvarianten) auswählen, um die Handhabung für Gebietsschema- und mehrsprachige Szenarien zu verbessern. [Weitere Informationen](../integrations/aem-fragments.md#aem-variations)
-
-  Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
-
-  Verfügbarkeitsdatum: Samstag, 3. April 2026
-
-* **Adobe Experience Manager-Inhaltsfragmentkontext beim Authoring** - Ihre Inhaltsfragmentauswahl bleibt beim Wechseln zwischen Textfeldern und Inhaltsblöcken aktiv, sodass Sie weitere Fragmentfelder hinzufügen können, ohne **AEM Content Advisor** erneut zu öffnen. [Weitere Informationen](../integrations/aem-fragments.md)
-
-  Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
-
-  Verfügbarkeitsdatum: Donnerstag, 1. April 2026
-
 
 ## Versionshinweise März 2026 {#march-26-rn}
 
-Die Abschnitte [Neue Funktionen](#march-26-features) und [Verbesserungen](#march-26-improv) decken bereits verfügbare Funktionen ab. Der [Demnächst](#coming-soon) Abschnitt enthält Funktionen und Verbesserungen, die im März veröffentlicht werden sollen.
+Die Abschnitte [Neue Funktionen](#march-26-features) und [Verbesserungen](#march-26-improv) decken bereits verfügbare Funktionen ab. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in March.-->
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Veröffentlichungsdatum**: 24.-25. März 2026
@@ -399,7 +576,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>Mit der <strong>iOS Live Activity&rbrace; in Adobe Journey Optimizer können Sie Ihren Kunden Echtzeit-Erlebnisse direkt auf Lock Screens und </strong> Island bieten. Live-Updates bereitstellen, von der Bestellverfolgung und dem Flugstatus bis hin zu Zählungen von Ereignissen, Live-Scores und Versandfortschritt, ohne dass Benutzer Ihre App öffnen müssen. Halten Sie Ihr Publikum zum richtigen Zeitpunkt und an der richtigen Stelle auf dem Laufenden und engagieren Sie sich aktiv.</p>
+<p>Mit der <strong>iOS Live Activity} in Adobe Journey Optimizer können Sie Ihren Kunden Echtzeit-Erlebnisse direkt auf Lock Screens und </strong> Island bieten. Live-Updates bereitstellen, von der Bestellverfolgung und dem Flugstatus bis hin zu Zählungen von Ereignissen, Live-Scores und Versandfortschritt, ohne dass Benutzer Ihre App öffnen müssen. Halten Sie Ihr Publikum zum richtigen Zeitpunkt und an der richtigen Stelle auf dem Laufenden und engagieren Sie sich aktiv.</p>
 <p>Diese Funktion wurde bereits in der Beta-Version veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Weitere Informationen finden Sie in der <a href="../mobile-live/get-started-mobile-live.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Mittwoch, 3. März 2026</p>
@@ -419,7 +596,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Mit <strong>Adobe Experience Platform Agent Orchestrator </strong> ist <strong>Journey Agent</strong> in Journey Optimizer verfügbar und ermöglicht es Ihnen, Journey über eine natürliche Sprachschnittstelle zu analysieren. Sie können jetzt auch kanalspezifische Inhalte direkt in Journey Agent generieren und verwalten, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in <strong>Content Designer</strong> zur kontextbezogenen Bearbeitung öffnen.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=de" target="_blank">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: Donnerstag, 4. März 2026</p>
 </td>
 </tr>
