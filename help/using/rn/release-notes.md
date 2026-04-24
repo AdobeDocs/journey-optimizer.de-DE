@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7284814029465a8806b78640b8ffe6c44ad030a7
+source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
 workflow-type: tm+mt
-source-wordcount: '3902'
+source-wordcount: '3944'
 ht-degree: 16%
 
 ---
@@ -98,6 +98,22 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 <tr>
 <td>
 <p>Es ist jetzt möglich, über eine dedizierte Option in der E-Mail-Designer Deeplinks zu Ihren E-Mail-Inhalten hinzuzufügen. Dadurch wird sichergestellt, dass Benutzende direkt zu den richtigen In-App-Inhalten geleitet werden, anstatt zu Browsern oder App-Stores weitergeleitet zu werden, wodurch der Kontext und die Interaktion erhalten bleiben.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Ordner für Journey und Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können Ihre Journey und Kampagnen jetzt in <strong>Ordnern</strong> organisieren, um die Navigation und Verwaltung in der Benutzeroberfläche zu verbessern.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 </td>
 </tr>
 </tbody>
