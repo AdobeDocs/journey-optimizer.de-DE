@@ -5,10 +5,10 @@ title: Verwenden der Aktivität „Dimensionsänderung“
 description: Erfahren Sie, wie Sie die Aktivität „Dimensionsänderung“ verwenden
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 63%
 
 ---
 
@@ -43,7 +43,11 @@ Gehen Sie folgendermaßen vor, um die Aktivität **[!UICONTROL Dimensionsänderu
 
    ![](../assets/orchestrated-change-dimension.png)
 
-1. Definieren Sie die **[!UICONTROL neue Zielgruppendimension]**. Bei einer Dimensionsänderung werden alle Einträge beibehalten.
+1. Definieren Sie die **[!UICONTROL neue Zielgruppendimension]**. Der Schritt Dimensionsänderung verwendet einen externen Join: Alle Datensätze aus der Eingabepopulation werden durchlaufen, einschließlich der Datensätze ohne übereinstimmenden Eintrag in der neuen Dimension.
+
+   >[!IMPORTANT]
+   >
+   >Datensätze, die in der neuen Zielgruppendimension kein übereinstimmendes Profil aufweisen, werden **beim Nachrichtenversand im Hintergrund ausgeschlossen**. Dieser Ausschluss wird derzeit nicht in den Ausschlusslogs angezeigt. Um nicht übereinstimmende Datensätze frühzeitig zu identifizieren, verwenden Sie die Option **Vorschau der Ergebnisse** auf der Transition nach dem Schritt Dimensionsänderung und überprüfen Sie, ob die Datensatzzählungen Ihren Erwartungen entsprechen, bevor Sie fortfahren.
 
 
 ## Beispiel {#example}
@@ -52,6 +56,6 @@ Dieser Anwendungsfall konzentriert sich auf den Versand einer SMS an Profile, di
 
 Beginnen Sie mit einer Aktivität des Typs **[!UICONTROL Zielgruppe erstellen]** und verwenden Sie die Zielgruppendimension **[!UICONTROL Wunschliste]**, um alle relevanten Wunschlisten zu ermitteln.
 
-Fügen Sie dann eine Aktivität des Typs **[!UICONTROL Dimensionsänderung]** hinzu, um die Zielgruppendimension von **[!UICONTROL Wunschliste]** auf **[!UICONTROL Empfängerin oder Empfänger] umzustellen.** Dieser Schritt stellt sicher, dass die orchestrierte Kampagne die richtigen Profile anspricht, die mit diesen Wunschlisten verknüpft sind, sodass die SMS an die gewünschten Profile gesendet werden kann.
+Fügen Sie dann die Aktivität **[!UICONTROL Dimension ändern]** hinzu, um die Zielgruppendimension von **[!UICONTROL Wunschliste]** auf **[!UICONTROL Empfänger] umzustellen** Dieser Schritt stellt sicher, dass die orchestrierte Kampagne die richtigen Profile anspricht, die mit diesen Wunschlisten verknüpft sind, sodass die SMS an die gewünschten Profile gesendet werden kann.
 
 ![](../assets/orchestrated-change-dimension-example.png)

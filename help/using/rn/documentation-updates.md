@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '7025'
-ht-degree: 69%
+source-wordcount: '7188'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,8 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 ## April 2026 {#april-2026}
 
+* Die **Dimensionsänderung** wurde aktualisiert, um klarzustellen, dass während die Aktivität einen externen Join verwendet und alle Datensätze beim Schritt der Dimensionsänderung speichert, Datensätze ohne übereinstimmendes Profil in der neuen Zielgruppendimension zum Zeitpunkt des Nachrichtenversands schweigend ausgeschlossen werden. [Weitere Informationen](../orchestrated/activities/change-dimension.md)
+
 * Die Leitplanken in der Dokumentation **Hinzufügen eines CC** Felds zu E-Mails“ wurden verbessert. Sie legen jetzt fest, dass die CC-Adresse nicht mit der Einwilligung oder Unterdrückung abgeglichen wird und dass Öffnungen und Klicks aus E-Mails, die an die CC-Adresse gesendet werden, in der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. [Weitere Informationen](../configuration/cc-email-field.md)
 
 * Die **Kanalaktivitäten**-Dokumentation wurde mit einem neuen Abschnitt **Marketing vs. Transaktionsnachrichten** aktualisiert, in dem die Verhaltensunterschiede zwischen den beiden Kanalkategorien erläutert werden: Opt-in-Anforderungen, Geschäftsregelanwendung, Kanalkonfigurationstyp und empfohlene Anwendungsfälle. [Weitere Informationen](../orchestrated/activities/channels.md#marketing-vs-transactional)
@@ -29,7 +31,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Die **Aktivität Zielgruppe aufbauen** wurde um ein neues Beispiel erweitert, das zeigt, wie Profile mithilfe des Regel-Builders nach einem Abonnementplanattribut gefiltert werden können. [Weitere Informationen](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* Die Seite **Erste Schritte mit orchestrierten Kampagnen** dokumentiert das Muster **Zielgruppe erstellen → Verzweigung → Kanal A + Kanal B** der Einstiegsebene in **Was befindet sich in einer orchestrierten Kampagne?** mit Querverweisen auf die Seiten Verzweigung und Marketing vs. Transaktionsnachrichten . [Weitere Informationen](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* Die Seite **Erste Schritte mit orchestrierten Kampagnen** dokumentiert das Muster **Zielgruppe → Verzweigung erstellen → Kanal A + Kanal B** der Einstiegsebene in **Was befindet sich in einer orchestrierten Kampagne?** mit Querverweisen auf die Seiten Verzweigung und Marketing vs. Transaktionsnachrichten . [Weitere Informationen](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * Die Seite **E-Mail-Inhalt bearbeiten mit dem erweiterten HTML-Editor** wurde aus dem Abschnitt Content-Management in den Abschnitt **E-Mail** der Dokumentation (unter E-Mail-Design) verschoben und die Seitendatei wurde in **email-expert-mode.md** umbenannt. Auf der Seite wird nun dokumentiert, dass der erweiterte HTML-Editor in der E-Mail-Designer für E-Mail-Nachrichten und für E-Mail-Inhaltsvorlagen verfügbar ist. [Weitere Informationen](../email/email-expert-mode.md)
 
 * Die Dokumentation **Starten und Überwachen orchestrierter Kampagnen** wurde mit einem neuen Abschnitt aktualisiert, der die interne Ausführungssequenz der Veröffentlichungszeit sowie eine Tabelle mit dem Kampagnenlebenszyklusstatus, eine Checkliste vor der Veröffentlichung und eine Bestätigungswarnung für nicht wiederkehrende Kampagnen enthält. [Weitere Informationen](../orchestrated/start-monitor-campaigns.md#publication-sequence)
@@ -84,7 +86,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Die Dokumentation **Leitplanken für die Time-to-Live (TTL)** Datensätze wurde um einen neuen FAQ-Eintrag erweitert, um eindeutig zu identifizieren, welche Datensätze der TTL unterliegen. TTL gilt ausschließlich für Zeitreihen-Datensätze - Datensätze vom Typ Datensätze wie Entitätsdatensätze, Klassifizierungsdatensätze und Entscheidungsobjekt-Repositorys unterliegen nicht der TTL und sind von dem Rollout der Leitplanken nicht betroffen. [Weitere Informationen](../data/datasets-ttl.md)
 
-* Die Dokumentationen zu **&#x200B;**&#x200B;Journey-Eigenschaften **und &quot;Journey anhalten** wurden aktualisiert, um die neuen Felder zum Anhalten und Fortsetzen zu dokumentieren, die jetzt in den technischen Details zum Journey verfügbar sind. Die Schaltfläche **Technische Details kopieren** enthält jetzt zusätzlich zum vorhandenen `lastPausedAt`-Block `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy`, `lastResumedById` und `pausedJourneySettings`. Es wurde auch ein neuer Abschnitt zur Seite &quot;**einer Journey&quot; hinzugefügt** in dem erläutert wird, wie Zeitstempel für Pausen und Fortsetzungen direkt aus den Journey-Eigenschaften angezeigt werden können. [Weitere Informationen](../building-journeys/journey-properties.md)
+* Die Dokumentationen zu **** Journey-Eigenschaften **und &quot;Journey anhalten** wurden aktualisiert, um die neuen Felder zum Anhalten und Fortsetzen zu dokumentieren, die jetzt in den technischen Details zum Journey verfügbar sind. Die Schaltfläche **Technische Details kopieren** enthält jetzt zusätzlich zum vorhandenen `pausedJourneySettings`-Block `lastPausedAt`, `lastPausedBy`, `lastPausedById`, `lastResumedAt`, `lastResumedBy` und `lastResumedById`. Es wurde auch ein neuer Abschnitt zur Seite &quot;**einer Journey&quot; hinzugefügt** in dem erläutert wird, wie Zeitstempel für Pausen und Fortsetzungen direkt aus den Journey-Eigenschaften angezeigt werden können. [Weitere Informationen](../building-journeys/journey-properties.md)
 
 ## Februar 2026 {#february-2026}
 
@@ -339,7 +341,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
    * Zusätzliche Kennungen werden nicht anhand der DULE-Richtlinien (Data Usage Labeling &amp; Enforcement) validiert und bei Data-Governance-Prüfungen in Journeys nicht berücksichtigt.
 
-[Mehr dazu](../building-journeys/supplemental-identifier.md)
+     [Mehr dazu](../building-journeys/supplemental-identifier.md)
 
 * Die Seite zur Optimierung in Kampagnen wurde aktualisiert, um der Tatsache Rechnung zu tragen, dass die Optimierung jetzt auch in Journeys verfügbar ist. [Weitere Informationen](../content-management/gs-message-optimization.md)
 
@@ -585,7 +587,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -615,7 +617,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=de){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -690,7 +692,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -818,7 +820,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
