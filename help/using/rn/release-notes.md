@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b3663df6447d0f689f598f258f050891388a8729
+source-git-commit: 7284814029465a8806b78640b8ffe6c44ad030a7
 workflow-type: tm+mt
-source-wordcount: '3896'
-ht-degree: 18%
+source-wordcount: '3902'
+ht-degree: 16%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 18%
 
 [!DNL Adobe Journey Optimizer] folgt einem kontinuierlichen Bereitstellungsmodell, sodass Adobe kontinuierlich neue Funktionen, Verbesserungen und Fehlerbehebungen bereitstellen kann. Dieser Ansatz ermöglicht ein skalierbares Rollout von Funktionen in Phasen, um die Leistung und Stabilität aller Umgebungen sicherzustellen.
 
-Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Versionen aktualisiert.  Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](releases.md).
+Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Versionen aktualisiert. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](releases.md).
 
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
@@ -35,7 +35,7 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 
 Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, werden mit ihrem Verfügbarkeitsdatum angekündigt.
 
-**Veröffentlichungsdatum**: 28.-29. April 2026
+**Veröffentlichungsdatum**: 28. bis 29. April 2026
 
 ### Neue Funktionen {#april-26-features}
 
@@ -181,7 +181,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
 <p>Weitere Informationen finden Sie in der <a href="../integrations/express.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Freitag, 23. April 2026</p>
+<p>Verfügbarkeitsdatum: 23. April 2026</p>
 </td>
 </tr>
 </tbody>
@@ -200,7 +200,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <p>Da KI-Assistenten zunehmend steuern, wie Empfängerinnen und Empfänger E-Mails lesen und darauf reagieren, hilft Ihnen diese Funktion bei der Erstellung und Erstellung von Inhalten, die in nachgelagerten KI-Aufgaben, einschließlich Zusammenfassung, Klassifizierung, Priorisierung und Extraktion von Absichten, gut funktionieren.</p>
 <p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
 <p>Weitere Informationen finden Sie unter <a href="../email/llm-email-optimizer.md">E-Mail für KI-Posteingänge optimieren</a>.</p>
-<p>Verfügbarkeitsdatum: Samstag, 17. April 2026</p>
+<p>Verfügbarkeitsdatum: 17. April 2026</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <p>Der Assistent arbeitet auch rückwärts. Wählen Sie einen vorhandenen Ausdruck aus und bitten Sie ihn, die Logik zu erklären, Probleme zu identifizieren oder Verbesserungen vorzuschlagen. Dies ist nicht nur für das Erstellen neuer Ausdrücke nützlich, sondern auch für die Überprüfung und das Debugging vorhandener Ausdrücke in Ihrem Team.</p>
 <p><img src="assets/do-not-localize/assistant-perso.gif"></p>
 <p>Weitere Informationen finden Sie unter <a href="../content-management/generative-personalization-expressions.md">KI-Assistent für Personalization-Ausdrücke</a>.</p>
-<p>Verfügbarkeitsdatum: Dienstag, 13. April 2026</p>
+<p>Verfügbarkeitsdatum: 13. April 2026</p>
 </td>
 </tr>
 </tbody>
@@ -240,7 +240,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <p>Als Teil der allgemeinen Verfügbarkeit führt diese Version die Auswahl <strong>Experimenttyp</strong> (A/B oder mehrarmiger Bandit) und <strong>Gewinner skalieren</strong> für einheitliche Journey ein.</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/path-experimentation.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 7. April 2026</p>
+<p>Verfügbarkeitsdatum: 7. April 2026</p>
 </td>
 </tr>
 </tbody>
@@ -258,7 +258,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <p><strong>Posteingang</strong> ist eine Funktion für Mobilgeräte, die mit Inhaltskarten verfügbar ist und es Kunden ermöglicht, einen zentralen Ort in ihrer App oder Website zu erstellen, um Nachrichten anzuzeigen, die an ihre Benutzer gesendet werden. Dies verlängert die Lebensdauer der Marketing-Kommunikation, indem sichergestellt wird, dass Nachrichten auch nach ihrer Beendigung zugänglich bleiben.</p>
 <p><img src="assets/do-not-localize/inbox.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../inbox/inbox-gs.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 7. April 2026</p>
+<p>Verfügbarkeitsdatum: 7. April 2026</p>
 </td>
 </tr>
 </tbody>
@@ -295,10 +295,10 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <tr>
 <td>
 <p>Sie können jetzt <strong>Decisioning</strong> verwenden, um den Inhalt Ihrer E-Mail-Nachrichten zu personalisieren und zu optimieren. Nutzen Sie Prioritätswerte, Formeln oder KI-Modelle, um jedem Empfänger die relevantesten Angebote und Inhalte anzuzeigen.</p>
-<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit). Mit dieser Version zur allgemeinen Verfügbarkeit werden nun Mirrorseiten unterstützt.</p>
+<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit). Mit dieser Version zur allgemeinen Verfügbarkeit werden nun Mirrorseiten unterstützt.</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
 <p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/create-decision-policy.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Dienstag, 6. April 2026</p>
+<p>Verfügbarkeitsdatum: 6. April 2026</p>
 </td>
 </tr>
 </tbody>
@@ -318,7 +318,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 
 * **Vorübergehend nicht verfügbare Fragmente werden übersprungen** - Bei der Verwendung von Fragmenten in Entscheidungselementen wird ein Fragment übersprungen, wenn es vorübergehend in Edge nicht verfügbar ist, und die Journey oder Kampagne wird weiter gerendert, anstatt fehlzuschlagen. [Weitere Informationen](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
-  Verfügbarkeitsdatum: Mittwoch, 14. April 2026
+  Verfügbarkeitsdatum: 14. April 2026
 
 #### Push-Benachrichtigung
 
@@ -342,21 +342,17 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 
 #### Adobe Experience Manager-Integrationen
 
-* **Content Advisor-Selektor** - Die Adobe Experience Manager Assets- und Inhaltsfragment-Selektoren werden jetzt durch den **Content Advisor-Selektor** ersetzt, ein einheitliches Modal, mit dem Sie alle AEM Assets- und AEM-Inhaltsfragmente durchsuchen, suchen, filtern und darauf zugreifen können. Dynamic Media-Ausgabedarstellungen werden ebenfalls unterstützt, sodass Sie bei der Auswahl von Dynamic Media-Assets über die Benutzeroberfläche Bilddarstellungen hinzufügen können. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
-
-* **Open-Time-Personalisierung mit Countdown-Timer unter Verwendung von Dynamic Media** - Die Integration von Journey Optimizer und Adobe Experience Manager Dynamic Media ermöglicht die Open-Time-Personalisierung für Dynamic Media-Vorlagen und erschließt so extrem personalisierte Anwendungsfälle. Kunden können personalisierte Vorlagen in Adobe Experience Manager erstellen und veröffentlichen und in Journey Optimizer verwenden, wobei Daten zur offenen Zeit gerendert werden.
-
 * **Unterstützung von Adobe Experience Manager-Inhaltsfragmentvarianten** - Sie können beim Einfügen von Adobe Experience Manager **Inhaltsfragmenten „Inhaltsfragmentvarianten“** (z. B. Sprach- oder Kanalvarianten) auswählen, um die Handhabung für Gebietsschema- und mehrsprachige Szenarien zu verbessern. [Weitere Informationen](../integrations/aem-fragments.md#aem-variations)
 
   Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
-  Verfügbarkeitsdatum: Samstag, 3. April 2026
+  Verfügbarkeitsdatum: 3. April 2026
 
 * **Adobe Experience Manager-Inhaltsfragmentkontext beim Authoring** - Ihre Inhaltsfragmentauswahl bleibt beim Wechseln zwischen Textfeldern und Inhaltsblöcken aktiv, sodass Sie weitere Fragmentfelder hinzufügen können, ohne **AEM Content Advisor** erneut zu öffnen. [Weitere Informationen](../integrations/aem-fragments.md)
 
   Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
-  Verfügbarkeitsdatum: Donnerstag, 1. April 2026
+  Verfügbarkeitsdatum: 1. April 2026
 
 #### Konfiguration
 
@@ -374,29 +370,29 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 
   Diese Funktion war bisher nur für E-Mail-Inhaltsvorlagen verfügbar und wird jetzt zusätzlich zu E-Mail **Inhaltsvorlagen für E-Mail-**-Inhalte in der E-Mail-Designer bereitgestellt (z. B. E-Mails, die in Journey und Kampagnen verfasst wurden). Sie ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten. [Weitere Informationen](../email/email-expert-mode.md)
 
-  Verfügbarkeitsdatum: Freitag, 9. April 2026
+  Verfügbarkeitsdatum: 9. April 2026
 
 * **KI-Assistent für Personalisierungsausdrücke in der E-Mail-Designer** - Wählen Sie in der E-Mail-Designer eine Komponente aus und verwenden Sie **Ausdruck hinzufügen** in der kontextuellen Symbolleiste, um die benötigte Personalisierung in einfacher Sprache zu beschreiben, den generierten Ausdruck zu überprüfen und einzufügen, ohne den Designer zu verlassen. [Weitere Informationen](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
-  Verfügbarkeitsdatum: Donnerstag, 15. April 2026
+  Verfügbarkeitsdatum: 15. April 2026
 
 #### Journey-Pfadoptimierung
 
 * **Experimenttyp** - Bei der Konfiguration eines Pfadexperiments können Sie jetzt zwischen A/B-Experiment (feste Aufspaltung am Beginn) oder Mehrarmiger Bandit (automatische Aufspaltung mit wöchentlichen Aktualisierungen der Gewichtung) wählen. [Weitere Informationen](../building-journeys/path-experimentation.md)
 
-  Verfügbarkeitsdatum: Mittwoch, 7. April 2026
+  Verfügbarkeitsdatum: 7. April 2026
 
 * **Pfadexperiment: Skalieren Sie den Gewinner** - Sie können jetzt automatisch oder manuell den Gewinnpfad eines Experiments für Ihre gesamte Zielgruppe einführen. Sobald ein Gewinner ermittelt wurde, können Sie seine Reichweite und Effektivität steigern, ohne das Experiment ständig zu überwachen. [Weitere Informationen](../building-journeys/path-experimentation.md#scale-winner)
 
   Diese Funktion ist nur in unitären Journey verfügbar (ereignisausgelöst und Zielgruppenqualifikationen). Sie ist nicht für Journey unter Zielgruppe lesen verfügbar.
 
-  Verfügbarkeitsdatum: Mittwoch, 7. April 2026
+  Verfügbarkeitsdatum: 7. April 2026
 
 * **Bedingungen** - Die Aktivität [Optimieren](../building-journeys/optimize.md) ist das neue Vehikel zum Erstellen bedingter Pfade in Journey. Sie ersetzt die frühere Aktivität **Bedingung**, die aus der Benutzeroberfläche entfernt wurde. Die gesamte bedingte Logik wird beibehalten und jetzt über die Bedingungen **Aktivität** Optimieren) verarbeitet. [Weitere Informationen](../building-journeys/conditions.md)
 
   Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
-  Verfügbarkeitsdatum: Mittwoch, 7. April 2026
+  Verfügbarkeitsdatum: 7. April 2026
 
 
 ## Versionshinweise März 2026 {#march-26-rn}
@@ -430,7 +426,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>Weitere Informationen finden Sie in der <a href="../personalization/url-parameter-encryption.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 31. März 2026</p>
+<p>Verfügbarkeitsdatum: 31. März 2026</p>
 </td>
 </tr>
 </tbody>
@@ -449,7 +445,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/image-to-html.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 31. März 2026</p>
+<p>Verfügbarkeitsdatum: 31. März 2026</p>
 </td>
 </tr>
 </tbody>
@@ -542,7 +538,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Diese Funktion ist nur für den E-Mail-Kanal in Inhaltsvorlagen verfügbar. Sie ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten.</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../email/email-expert-mode.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 10. März 2026</p>
+<p>Verfügbarkeitsdatum: 10. März 2026</p>
 </td>
 </tr>
 </tbody>
@@ -561,7 +557,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Wählen Sie das richtige Modell für Ihre Anforderungen:</p>
 <ul><li> <strong>Adobe-Modell</strong> (unterstützt von Firefly Image Model 4) für die sofortige Bildgenerierung ohne zusätzliche Einrichtung</li><li> <strong>Partnermodell</strong> (unterstützt von Gemini 2.5 Flash) für spezielle Funktionen</li><li><strong>Benutzerdefinierte Modelle</strong> (markenspezifische Modelle, die auf Ihren eigenen Assets trainiert wurden) für die Generierung innerhalb der Marke, die genau auf Ihre Markenidentität, Ihren Stil und Ihre visuellen Richtlinien abgestimmt ist.</li></ul>
 <p>Weitere Informationen finden Sie in der <a href="../content-management/generative-models.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Dienstag, 2. März 2026</p>
+<p>Verfügbarkeitsdatum: 2. März 2026</p>
 </td>
 </tr>
 </tbody>
@@ -579,7 +575,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Mit der <strong>iOS Live Activity&rbrace; in Adobe Journey Optimizer können Sie Ihren Kunden Echtzeit-Erlebnisse direkt auf Lock Screens und </strong> Island bieten. Live-Updates bereitstellen, von der Bestellverfolgung und dem Flugstatus bis hin zu Zählungen von Ereignissen, Live-Scores und Versandfortschritt, ohne dass Benutzer Ihre App öffnen müssen. Halten Sie Ihr Publikum zum richtigen Zeitpunkt und an der richtigen Stelle auf dem Laufenden und engagieren Sie sich aktiv.</p>
 <p>Diese Funktion wurde bereits in der Beta-Version veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Weitere Informationen finden Sie in der <a href="../mobile-live/get-started-mobile-live.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 3. März 2026</p>
+<p>Verfügbarkeitsdatum: 3. März 2026</p>
 </td>
 </tr>
 </tbody>
@@ -597,7 +593,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Mit <strong>Adobe Experience Platform Agent Orchestrator </strong> ist <strong>Journey Agent</strong> in Journey Optimizer verfügbar und ermöglicht es Ihnen, Journey über eine natürliche Sprachschnittstelle zu analysieren. Sie können jetzt auch kanalspezifische Inhalte direkt in Journey Agent generieren und verwalten, Inhalte für Kanäle wie E-Mail und Push erstellen, Vorlagen anwenden und in der Vorschau anzeigen, Ton und Stil durch Eingabeaufforderungen verfeinern und Inhalte in <strong>Content Designer</strong> zur kontextbezogenen Bearbeitung öffnen.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=de" target="_blank">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Donnerstag, 4. März 2026</p>
+<p>Verfügbarkeitsdatum: 4. März 2026</p>
 </td>
 </tr>
 </tbody>
@@ -616,7 +612,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Diese Funktion ist derzeit nur für Modelle <strong>personalisierte Optimierung</strong> verfügbar (nicht für die automatische Optimierung).</p>
 <p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/ranking/ai-model-observability.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Dienstag, 9. März 2026</p>
+<p>Verfügbarkeitsdatum: 9. März 2026</p>
 </td>
 </tr>
 </tbody>
@@ -667,13 +663,13 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
   Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit für den Einsatz in Journey veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
-  Verfügbarkeitsdatum: Donnerstag, 1. April 2026
+  Verfügbarkeitsdatum: 1. April 2026
 
 #### Reporting
 
 * **Sendezeitoptimierung: Die Steuerelemente Speicherort der aktualisierten Steuerelemente und Neuer Aufstiegsbericht** - Sendezeitoptimierung (STO) wurden in das Menü Aktionskonfiguration verschoben. Darüber hinaus ist jetzt ein neuer Steigerungsbericht in den Journey-Berichten verfügbar, um die Auswirkungen von STOP auf Ihre Kampagnenleistungsmetriken zu messen. [Weitere Informationen](../reports/channel-report-cja.md#optimization-models)
 
-  Verfügbarkeitsdatum: Samstag, 27. März 2026
+  Verfügbarkeitsdatum: 27. März 2026
 
 <!--
 * **Exclude bot clicks for email and SMS reporting** - Email and SMS reporting now automatically filters out bot clicks from click metrics, providing more accurate engagement data and preventing automated traffic from inflating your performance figures.
@@ -693,7 +689,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Verlängerung von AJO-Domänenzertifikaten fehlgeschlagen** - Sie können jetzt Systemwarnungen per E-Mail oder im Journey Optimizer-Benachrichtigungszentrum abonnieren, wenn ein für die E-Mail-Zustellbarkeit verwendetes Domänenzertifikat bald abläuft oder bereits abgelaufen ist. [Weitere Informationen](../reports/alerts.md#alert-certificates-renewal-unsuccessful)
 
-  Verfügbarkeitsdatum: Freitag, 26. März 2026
+  Verfügbarkeitsdatum: 26. März 2026
 
 * **Umbenennen des Ereignisdatensatzes mit Sekundärem AJO-Empfängerfeedback** - Der `AJO Email BCC Feedback Event` wurde in `AJO Secondary Recipient Feedback Event` Datensatz umbenannt. Die Auswirkungen variieren je nach Ihrer Situation:
 
@@ -705,7 +701,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
   >
   >In neuen Datensätzen wird der neue Name sofort angezeigt. Bei älteren Datensatznamen werden Aufstockung und Abstimmung schrittweise durchgeführt, was mehrere Wochen dauern kann.
 
-  Verfügbarkeitsdatum: Dienstag, 2. März 2026
+  Verfügbarkeitsdatum: 2. März 2026
 
 
 #### Journeys
@@ -716,17 +712,17 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
   Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit für den Einsatz in Journey veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
-  Verfügbarkeitsdatum: Dienstag, 16. März 2026
+  Verfügbarkeitsdatum: 16. März 2026
 
 * **Pause- und Fortsetzungsdetails beim Journey technischer Details** - Die Journey **technischen Details** enthalten jetzt zusätzliche Informationen zu Pause und Wiederaufnahme: das Datum und die Uhrzeit der letzten Pause und Wiederaufnahme, den Anzeigenamen und die interne Kennung des Benutzers, der die jeweilige Aktion ausgeführt hat, sowie einen vollständigen Satz von Einstellungen für das pausierte Journey wie Pausenverhalten, die maximale Pausendauer und den Status der automatischen Wiederaufnahme. [Weitere Informationen](../building-journeys/journey-properties.md)
 
-  Verfügbarkeitsdatum: Dienstag, 2. März 2026
+  Verfügbarkeitsdatum: 2. März 2026
 
 #### Entscheidungsfindung
 
 * **Entscheidungsmigration - Angebots- und Kontexteigenschaften** - Die Entitätszuordnung der Migrations-API führt jetzt **Angebotsattribute** (`migratedofferattributes` im Schema für personalisierte Angebotselemente) und **Kontexteigenschaften** (`migratedcontextattributes` im Schema für den Migrationsdatensatz) auf. [Weitere Informationen](../experience-decisioning/decisioning-migration-api.md#entity-mapping)
 
-  Verfügbarkeitsdatum: Mittwoch, 31. März 2026
+  Verfügbarkeitsdatum: 31. März 2026
 
 <!--
 ## Coming soon {#coming-soon}
