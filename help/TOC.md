@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '3209'
+source-wordcount: '3275'
 ht-degree: 91%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 91%
    + {hide-from-toc}[Frühzeitige Versionshinweise](using/rn/e-release-notes.md)
    + [Neueste Versionshinweise](using/rn/release-notes.md)
    + Frühere Versionshinweise {#previous-rn-new}
-      + {hide-from-toc}[Frühere Versionshinweise](/help/rp_landing_pages/previous-rn-new-landing-page.md)
+      + {hide-from-toc}[Hinweise zu früheren Versionen](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2026](using/rn/release-notes-2026.md)
       + [2025](using/rn/release-notes-2025.md)
       + [2024](using/rn/release-notes-2024.md)
@@ -47,7 +47,7 @@ ht-degree: 91%
    + Effizientes Arbeiten {#work-efficiently}
       + [Navigieren in der Benutzeroberfläche](using/start/user-interface.md)
       + [Suchen, Filtern und Organisieren](using/start/search-filter-categorize.md)
-      + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Barrierefreiheit](using/start/accessibility.md)
       + {hide-from-toc}[Journey vs. Kampagnen](using/start/journeys-vs-campaigns.md)
 + Journeys {#orchestrate-journeys}
@@ -136,7 +136,7 @@ ht-degree: 91%
       + {hide-from-toc}[Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
       + [Verwenden von benutzerdefinierten Aktionen zum Schreiben von Journey-Ereignissen in Experience Platform](using/building-journeys/custom-action-aep.md)
-+ Herausforderungen bei der Treue {#loyalty-challenges}
++ Treue-Challenges {#loyalty-challenges}
    + {hide-from-toc}[Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[Zugriff und Verwaltung von Herausforderungen und Aufgaben](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[Herausforderungen schaffen](using/loyalty-challenges/create-challenges.md)
@@ -505,7 +505,7 @@ ht-degree: 91%
       + {hide-from-toc}[Countdown-Timer einfügen](using/integrations/countdown.md)
       + [Arbeiten mit Dynamic Media](using/integrations/aem-dynamic.md)
       + [Arbeiten mit GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[Arbeiten mit Integrationen](using/integrations/external-sources.md)
+      + {hide-from-toc}[Arbeiten mit Integrationen](using/integrations/integrations.md)
       + {hide-from-toc}[Erste Schritte mit der Vendors-Integration](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[Verfügbare Anbieter](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQs](using/integrations/vendor-integration-faq.md)

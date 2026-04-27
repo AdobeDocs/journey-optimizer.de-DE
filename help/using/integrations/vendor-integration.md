@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 keywords: Integration, Anbieter, Drittanbieter
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '9157'
+source-wordcount: '9327'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 Inhaltsverzeichnis:
 
-* [Arbeiten mit Integrationen](external-sources.md)
+* [Arbeiten mit Integrationen](integrations.md)
 * [Erste Schritte mit der Vendors-Integration](vendor-integration-gs.md)
 * **[Verfügbare Anbieter](vendor-integration.md)**
 * [FAQs](vendor-integration-faq.md)
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Authentifizierungskopfzeile hinzufügen:
 
-Autorisierung: Bearer &lt;CONTENTFUL_DELIVERY_TOKEN>
+   Autorisierung: Bearer &lt;CONTENTFUL_DELIVERY_TOKEN>
 
 1. Fügen Sie bei Bedarf Pfadvariablen hinzu (z. B. Eintrags-ID, Gebietsschema).
 
@@ -140,7 +140,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Konfigurieren Sie **GET** in Ihrem Download-Auftragspfad, legen Sie Autorisierungskopfzeilen pro Sitecore fest, ordnen Sie `id` aus dem Kontext zu, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu und stimmen Sie Zeitüberschreitungen für die Asset-Latenz ab.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** in Ihrem Download-Auftragspfad, legen Sie Autorisierungskopfzeilen pro Sitecore fest, ordnen Sie `id` aus dem Kontext zu, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu und stimmen Sie Zeitüberschreitungen für die Asset-Latenz ab.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -224,7 +224,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Einzelproduktabruf gegenüber Massenaufrufen im Katalog vorziehen, Bearer-Authentifizierung festlegen, Beispiel-JSON einfügen, Felder zuordnen, testen, aktivieren.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Einzelproduktabruf gegenüber Massenaufrufen im Katalog vorziehen, Bearer-Authentifizierung festlegen, Beispiel-JSON einfügen, Felder zuordnen, testen, aktivieren.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -309,7 +309,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Fügen Sie sowohl `api_key`- als auch `access_token`-Kopfzeilen hinzu, wie es der Content-Stack erfordert, schließen Sie den `environment` Abfrageparameter ein, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Fügen Sie sowohl `api_key`- als auch `access_token`-Kopfzeilen hinzu, wie es der Content-Stack erfordert, schließen Sie den `environment` Abfrageparameter ein, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -396,7 +396,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Verwenden Sie **GET** mit Bearer-Token, fordern Sie nur erforderliche Attributoptionen in Abfrage-Flags an, fügen Sie Beispiel-JSON ein, ordnen Sie einen minimalen Attributsatz zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** mit Bearer-Token, fordern Sie nur erforderliche Attributoptionen in Abfrage-Flags an, fügen Sie Beispiel-JSON ein, ordnen Sie einen minimalen Attributsatz zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -486,7 +486,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Verwenden Sie das URL-Muster für die öffentliche Bereitstellung, das Ihre Module bereitstellen, authentifizieren Sie sich gemäß der Magnolia-Anleitung (anonymer Versand vs. Token für geschützte Inhalte), fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie das URL-Muster für die öffentliche Bereitstellung, das Ihre Module bereitstellen, authentifizieren Sie sich gemäß der Magnolia-Anleitung (anonymer Versand vs. Token für geschützte Inhalte), fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -568,7 +568,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Festlegen der Basis-URL für Ihren Cluster, Hinzufügen erforderlicher Kopfzeilen (`X-APP-ID`, `X-APP-TOKEN`), Einschränken von Listenendpunkten mit Filtern oder IDs, Einfügen von Beispiel-JSON, Zuordnen von Feldern, Testen, Aktivieren.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Festlegen der Basis-URL für Ihren Cluster, Hinzufügen erforderlicher Kopfzeilen (`X-APP-ID`, `X-APP-TOKEN`), Einschränken von Listenendpunkten mit Filtern oder IDs, Einfügen von Beispiel-JSON, Zuordnen von Feldern, Testen, Aktivieren.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -641,7 +641,7 @@ Beispiele für Integrationsfelder. Vollständige Referenz: [Gutschein-API](https
 
 +++
 
-### Talon.One {#talon-one}
+### Talon.one {#talon-one}
 
 >[!BEGINSHADEBOX]
 
@@ -667,7 +667,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Verwenden Sie **GET** auf dem benötigten Profil- oder Erfolgspfad, legen Sie `Authorization: ApiKey-v1 <key>` wie dokumentiert fest, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** auf dem benötigten Profil- oder Erfolgspfad, legen Sie `Authorization: ApiKey-v1 <key>` wie dokumentiert fest, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -757,7 +757,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Konfigurieren Sie **GET** mit der Authentifizierung des Anbieters (z. B. API-Schlüssel in der Abfrage), vermeiden Sie die Offenlegung von PII für Richtlinien, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** mit der Authentifizierung des Anbieters (z. B. API-Schlüssel in der Abfrage), vermeiden Sie die Offenlegung von PII für Richtlinien, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -841,7 +841,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Verwenden Sie den Treueprogramm-Integrationsendpunkt, den Ihr Team genehmigt, Salesforce OAuth abschließt, JSON-Beispielfelder einfügt, Felder zuordnet, zusammengesetzte API-Limits einhält, testet, aktiviert.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie den Treueprogramm-Integrationsendpunkt, den Ihr Team genehmigt, Salesforce OAuth abschließt, JSON-Beispielfelder einfügt, Felder zuordnet, zusammengesetzte API-Limits einhält, testet, aktiviert.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -934,7 +934,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Konfigurieren Sie Kopfzeilen wie `CAP-API-ACCESS-TOKEN` nach Bedarf, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie Kopfzeilen wie `CAP-API-ACCESS-TOKEN` nach Bedarf, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -1064,7 +1064,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Zeigen Sie auf den Ringelblumen-Host für Ihre Region, legen Sie die Authentifizierung fest (das folgende Beispiel verwendet `X-Api-Key` mit Schlüssel und Geheimnis), fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Zeigen Sie auf den Ringelblumen-Host für Ihre Region, legen Sie die Authentifizierung fest (das folgende Beispiel verwendet `X-Api-Key` mit Schlüssel und Geheimnis), fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -1155,7 +1155,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Versandaufrufe erfolgen häufig **POST** mit einem JSON-Text. Konfigurieren Sie OAuth pro [Target-Authentifizierung](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/configure-authentication){target="_blank"} fügen Sie eine Beispielantwort ein, ordnen Sie Felder zu und testen Sie unter dem erwarteten Volumen.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Versandaufrufe erfolgen häufig **POST** mit einem JSON-Text. Konfigurieren Sie OAuth pro [Target-Authentifizierung](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"} fügen Sie eine Beispielantwort ein, ordnen Sie Felder zu und testen Sie unter dem erwarteten Volumen.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -1210,7 +1210,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 **Authentifizierung**
 
-Siehe [Target-Authentifizierungskonfiguration](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/configure-authentication) und fügen Sie JSON zur Payload hinzu.
+Siehe [Target-Authentifizierungskonfiguration](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) und fügen Sie JSON zur Payload hinzu.
 
 **Anfrage-Payload**
 
@@ -1298,7 +1298,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Verwenden Sie **GET** Sofern Ihr Abonnement nichts anderes erfordert, fügen Sie den `apiKey` Abfrageparameter (oder wie dokumentiert) hinzu, ordnen Sie `locationKey` und andere Variablen aus dem Profil/Kontext zu, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu und testen Sie dann.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** Sofern Ihr Abonnement nichts anderes erfordert, fügen Sie den `apiKey` Abfrageparameter (oder wie dokumentiert) hinzu, ordnen Sie `locationKey` und andere Variablen aus dem Profil/Kontext zu, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu und testen Sie dann.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -1390,7 +1390,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Targeting der benötigten Ressource (Bestellungen vs. Sendungen), Authentifizierung pro [ShipStation-API](https://www.shipstation.com/docs/api/){target="_blank"}, Einfügen von Beispiel-JSON, Zuordnen von Feldern, Testen, Aktivieren.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Targeting der benötigten Ressource (Bestellungen vs. Sendungen), Authentifizierung pro [ShipStation-API](https://www.shipstation.com/docs/api/){target="_blank"}, Einfügen von Beispiel-JSON, Zuordnen von Feldern, Testen, Aktivieren.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -1480,7 +1480,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Rufen Sie den unten modellierten REST **GET** auf, authentifizieren Sie sich mit der Kopfzeile des geheimen Schlüssels, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Rufen Sie den unten modellierten REST **GET** auf, authentifizieren Sie sich mit der Kopfzeile des geheimen Schlüssels, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -1566,7 +1566,7 @@ Es gelten die folgenden Voraussetzungen:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Engere Lesepfade werden empfohlen. Wenn Sie die **POST**-Anweisungsausführung verwenden, fügen Sie den von der API benötigten JSON-Text ein, fügen Sie eine Beispiel-Erfolgsantwort für die Zuordnung ein, testen Sie die Latenz sorgfältig und aktivieren Sie sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Engere Lesepfade werden empfohlen. Wenn Sie die **POST**-Anweisungsausführung verwenden, fügen Sie den von der API benötigten JSON-Text ein, fügen Sie eine Beispiel-Erfolgsantwort für die Zuordnung ein, testen Sie die Latenz sorgfältig und aktivieren Sie sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -1645,7 +1645,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Konfigurieren Sie **GET** für den ausgewählten Endpunkt (ein gängiges Muster ist eine Benutzerauflistung), schließen Sie OAuth pro [Bynder](https://developer.bynder.com/){target="_blank"} ab, vermeiden Sie das Abrufen unnötiger Datenseiten, ordnen Sie Felder zu, testen Sie und aktivieren Sie dann.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** für den ausgewählten Endpunkt (ein gängiges Muster ist eine Benutzerauflistung), schließen Sie OAuth pro [Bynder](https://developer.bynder.com/){target="_blank"} ab, vermeiden Sie das Abrufen unnötiger Datenseiten, ordnen Sie Felder zu, testen Sie und aktivieren Sie dann.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -1672,7 +1672,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispiele für Integrationsfelder. Weitere Informationen [&#x200B; OAuth 2.0-Payload finden Sie in der &#x200B;](https://developer.bynder.com/){target="_blank"} zur Bynder-API .
+Beispiele für Integrationsfelder. Weitere Informationen [ OAuth 2.0-Payload finden Sie in der ](https://developer.bynder.com/){target="_blank"} zur Bynder-API .
 
 | Feld | Wert |
 | --- | --- |
@@ -1795,7 +1795,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). **GET** mit der erforderlichen Abfrageauthentifizierung konfigurieren, Kennungen aus Profil oder Kontext zuordnen, Beispiel-JSON einfügen, Felder zuordnen, testen, aktivieren.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). **GET** mit der erforderlichen Abfrageauthentifizierung konfigurieren, Kennungen aus Profil oder Kontext zuordnen, Beispiel-JSON einfügen, Felder zuordnen, testen, aktivieren.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -1879,7 +1879,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Verwenden Sie **GET** mit `passkey` als Abfrageparameter in der Conversations-API, legen Sie `Accept: application/json` fest, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** mit `passkey` als Abfrageparameter in der Conversations-API, legen Sie `Accept: application/json` fest, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -1931,9 +1931,9 @@ Beispiel-Einstiegspunkt: `https://api.bazaarvoice.com/data/products.json` mit Ab
 
 | Parameter | Name | Typ | Wert | Obligatorisch |
 | --- | --- | --- | --- | --- |
-| `apiversion` | apiversionNumber | Konstante | 5,4 | Ja (ein) |
+| `apiversion` | apiversionNumber | Konstante | 5.4 | Ja (ein) |
 | `filter` | `filter` | Variable | ID:47950830 | Nein (aus) |
-| `stats` | `stats` | Variable | all | Nein (aus) |
+| `stats` | `stats` | Variable | Alle | Nein (aus) |
 
 +++
 
@@ -1963,7 +1963,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Verwenden Sie das veröffentlichte Schema oder den Pfad zum Präferenzcenter in Ihren Abonnementdokumenten, füllen Sie bei Bedarf OAuth aus, fügen Sie JSON-Beispieldateien ein, ordnen Sie Felder zu, testen Sie sie, aktivieren Sie sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie das veröffentlichte Schema oder den Pfad zum Präferenzcenter in Ihren Abonnementdokumenten, füllen Sie bei Bedarf OAuth aus, fügen Sie JSON-Beispieldateien ein, ordnen Sie Felder zu, testen Sie sie, aktivieren Sie sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -2049,7 +2049,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Diagrammaufrufe sind häufig **GET** mit einem versionierten Pfad; verarbeiten Token-Ablauf, fügen Beispiel-JSON ein, mappen Felder, testen, aktivieren.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Diagrammaufrufe sind häufig **GET** mit einem versionierten Pfad; verarbeiten Token-Ablauf, fügen Beispiel-JSON ein, mappen Felder, testen, aktivieren.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -2076,7 +2076,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispiele für Integrationsfelder. Versionierung [&#x200B; Zugriffstoken finden Sie unter &#x200B;](https://developers.facebook.com/docs/graph-api){target="_blank"}Graph-API“.
+Beispiele für Integrationsfelder. Versionierung [ Zugriffstoken finden Sie unter ](https://developers.facebook.com/docs/graph-api){target="_blank"}Graph-API“.
 
 | Feld | Wert |
 | --- | --- |
@@ -2134,7 +2134,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Verwenden Sie **GET** auf dem gewünschten Datensatzpfad, senden Sie erforderliche Kopfzeilen wie `API-VERSION`, fügen Sie Beispiel-JSON (HAL oder JSON als Rückgabe) ein, ordnen Sie einen minimalen Feldsatz zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** auf dem gewünschten Datensatzpfad, senden Sie erforderliche Kopfzeilen wie `API-VERSION`, fügen Sie Beispiel-JSON (HAL oder JSON als Rückgabe) ein, ordnen Sie einen minimalen Feldsatz zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 
@@ -2216,7 +2216,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](external-sources.md). Raten Sie keine öffentlichen URLs. Verwenden Sie die Spezifikation aus Epsilon, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Raten Sie keine öffentlichen URLs. Verwenden Sie die Spezifikation aus Epsilon, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
 

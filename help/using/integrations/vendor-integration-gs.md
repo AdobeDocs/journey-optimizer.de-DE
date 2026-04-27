@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 keywords: Integration, Anbieter, Drittanbieter
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Inhaltsverzeichnis:
 
-* [Arbeiten mit Integrationen](external-sources.md)
+* [Arbeiten mit Integrationen](integrations.md)
 * **[Erste Schritte mit der Vendors-Integration](vendor-integration-gs.md)**
 * [Verfügbare Anbieter](vendor-integration.md)
 * [FAQs](vendor-integration-faq.md)
@@ -31,7 +31,7 @@ Inhaltsverzeichnis:
 >[!ENDSHADEBOX]
 
 
-Sie können **Integrationen** in Adobe Journey Optimizer verwenden, um **externe Systeme über HTTP** aufzurufen, wenn jedes System einen **API-Endpunkt)**, der Ihrem Anwendungsfall entspricht und damit kompatibel ist, wie Integrations Anfragen ausgibt und Antworten nutzt. Einen vollständigen Workflow finden Sie unter [Arbeiten mit Integrationen](external-sources.md).
+Sie können **Integrationen** in Adobe Journey Optimizer verwenden, um **externe Systeme über HTTP** aufzurufen, wenn jedes System einen **API-Endpunkt)**, der Ihrem Anwendungsfall entspricht und damit kompatibel ist, wie Integrations Anfragen ausgibt und Antworten nutzt. Einen vollständigen Workflow finden Sie unter [Arbeiten mit Integrationen](integrations.md).
 
 Die Liste der beschriebenen Lösungen von Drittanbietern ist anschaulich, nicht vollständig. Andere Plattformen können verwendet werden, wenn sie die Produktanforderungen erfüllen.
 
@@ -41,7 +41,7 @@ Wenden Sie Folgendes an, wenn Sie eine Integration in diesem Handbuch oder einem
 
 * **Antwortformat: Zuordnungsfelder von** Integrationen aus **JSON**-Antworten. Design-Aufrufe so, dass die API JSON zurückgibt, das zur Authoring-Zeit für die Zuordnung geeignet ist.
 * **Payload und Felder:** Fordern Sie nur die benötigten Attribute an und ordnen Sie sie zu. Kleinere Antworten reduzieren die Latenz und begrenzen die Verfügbarkeit sensibler Daten.
-* **Endpunktform:** Sie einen stabilen **-Einzelressourcen-**-Abruf (z. B. einen Eintrag, ein Produkt oder ein Mitglied) gegenüber Endpunkten für eine umfassende Liste oder Paginierung, wenn das Produkt zielgerichtete Suchen erwartet. Siehe [Einschränkungen und Ausschlüsse](#limitations-exclusions) und [Arbeiten mit Integrationen](external-sources.md).
+* **Endpunktform:** Sie einen stabilen **-Einzelressourcen-**-Abruf (z. B. einen Eintrag, ein Produkt oder ein Mitglied) gegenüber Endpunkten für eine umfassende Liste oder Paginierung, wenn das Produkt zielgerichtete Suchen erwartet. Siehe [Einschränkungen und Ausschlüsse](#limitations-exclusions) und [Arbeiten mit Integrationen](integrations.md).
 * **Volumen und Zuverlässigkeit** Einhaltung der **des Anbieters**. Konfigurieren Sie **Zeitüberschreitung**, **Wiederholen** und **Cache**-Richtlinie für Ihren Kanal (z. B. Batch-E-Mail vs. Transaktionsnachrichten) und validieren Sie unter Last.
 * **Sicherheit:** Speichern und Drehen von Token, API-Schlüsseln und OAuth-Anmeldeinformationen gemäß den Richtlinien Ihrer Organisation. Betten Sie keine Geheimnisse in den Nachrichteninhalt ein.
 
