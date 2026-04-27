@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
+source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
 workflow-type: tm+mt
-source-wordcount: '3944'
+source-wordcount: '3965'
 ht-degree: 16%
 
 ---
@@ -326,7 +326,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 
 * **Bewertung der Markenausrichtung im Kampagnen-Dashboard** - Sie können jetzt die Bewertung Ihrer Markenausrichtung direkt in Ihrem Kampagnen-Dashboard bewerten, um sicherzustellen, dass die Inhalte markenkonform bleiben. Auf diese Weise können Sie die Richtlinien auf einen Blick überprüfen, ohne den Content Designer öffnen zu müssen.
 
-* **Verbesserung des Eingabeaufforderungsassistenten** - Wenn eine Eingabeaufforderung vage, unvollständig ist oder mehrere Ziele mischt, kann **Eingabeaufforderungsassistent** jetzt fokussierte klärende Fragen stellen oder eine klarere Neufassung Ihrer Anfrage vor der Generierung vorschlagen, sodass Sie feststellen können, was Sie benötigen, bevor der Assistent antwortet, was die Konsistenz verbessert und Wiederholungen reduziert. [Weitere Informationen](../content-management/ai-assistant-prompting-guide.md)
+* **Verbesserung des Eingabeaufforderungsassistenten** - Der Eingabeaufforderungsassistent verbessert die KI-Inhaltserstellung, indem er Benutzeraufforderungen in Echtzeit analysiert und Lücken in Klarheit, Vollständigkeit und Kontext erkennt. Es schlägt verbesserte Neuschreibungen vor und bietet praktische Anleitungen, um Eingabeaufforderungen mit wichtigen Details wie Zielgruppe, Ton und Absicht anzureichern. Die Funktion stellt außerdem gezielte Fragen, um Benutzenden zu helfen, ihre Eingaben vor der Generierung zu verfeinern. Dies führt zu genaueren, hochwertigeren Ausgaben mit weniger Iterationen. [Weitere Informationen](../content-management/ai-assistant-prompting-guide.md)
 
 #### Entscheidungsfindung
 
