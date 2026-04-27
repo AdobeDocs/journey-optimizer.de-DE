@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 keywords: Integration, Anbieter, Drittanbieter
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: eab38d6c5f07af0f2dc403abaf0deb3a09f0d392
 workflow-type: tm+mt
-source-wordcount: '9327'
+source-wordcount: '9320'
 ht-degree: 7%
 
 ---
@@ -58,17 +58,17 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** mit der Inhaltsbereitstellungs-API und Ihrem Versand-Token, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Content Delivery API (CDA)-URL: `https://cdn.contentful.com/spaces/{space_id}/environments/{environment_id}/entries/{entry_id}`
 
-1. Wählen Sie die HTTP-Methode: GET.
+1. HTTP-Methode auswählen: **GET**.
 
-1. Authentifizierungskopfzeile hinzufügen:
-
-   Autorisierung: Bearer &lt;CONTENTFUL_DELIVERY_TOKEN>
+1. Authentifizierung hinzufügen. Legen Sie den **`access_token`**-Parameter **query** auf Ihr Inhaltsbereitstellungs-API-Token fest, wie **folgenden Beispielintegrationsfelder** dargestellt. Contentful akzeptiert dasselbe Token auch in einer `Authorization: Bearer`-Kopfzeile; verwenden Sie dasjenige, das Ihre Integrationsfelder unterstützen.
 
 1. Fügen Sie bei Bedarf Pfadvariablen hinzu (z. B. Eintrags-ID, Gebietsschema).
 
@@ -88,7 +88,7 @@ Beispiele für Integrationsfelder (Abstimmung mit der [Content Delivery API](htt
 
 | Feld | Wert |
 | -- | -- |
-| **URL** | `https://cdn.contentful.com/spaces/{{spaceID}}/entries/environments/{{environment_id}}` |
+| **URL** | `https://cdn.contentful.com/spaces/{{spaceID}}/environments/{{environment_id}}/entries/{{entry_id}}` |
 | Antwort-Payload | Wählen Sie die gewünschten Antwortfelder aus und konfigurieren Sie sie für die Verwendung beim Authoring basierend auf der API-Antwort. |
 | Richtlinie | Konfigurieren Sie Details auf Richtlinienebene nach Bedarf. |
 | **HTTP-Methode** | `GET` |
@@ -99,6 +99,7 @@ Beispiele für Integrationsfelder (Abstimmung mit der [Content Delivery API](htt
 | --- | --- | --- |
 | `spaceID` | `spaceID` | `<YOUR_SPACE_ID>` |
 | `environment_id` | `environment_id` | `<YOUR_ENV_ID>` |
+| `entry_id` | `entry_id` | `<YOUR_ENTRY_ID>` |
 
 **Kopfzeilen**
 
@@ -142,14 +143,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** in Ihrem Download-Auftragspfad, legen Sie Autorisierungskopfzeilen pro Sitecore fest, ordnen Sie `id` aus dem Kontext zu, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu und stimmen Sie Zeitüberschreitungen für die Asset-Latenz ab.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Content Hub-API (Beispiel: Download order by ID). Beispiel für URL-Muster:
 
-1. `https://xmapps-api.sitecorecloud.io/api/v1/downloadorders/{id}`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://xmapps-api.sitecorecloud.io/api/v1/downloadorders/{id}`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -226,14 +228,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Einzelproduktabruf gegenüber Massenaufrufen im Katalog vorziehen, Bearer-Authentifizierung festlegen, Beispiel-JSON einfügen, Felder zuordnen, testen, aktivieren.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Salsify Product-API. Beispiel für URL-Muster:
 
-1. `https://api.salsify.com/v1/...`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://api.salsify.com/v1/...`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -311,14 +314,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Fügen Sie sowohl `api_key`- als auch `access_token`-Kopfzeilen hinzu, wie es der Content-Stack erfordert, schließen Sie den `environment` Abfrageparameter ein, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Content Delivery API. Beispiel für URL-Muster:
 
-1. `https://cdn.contentstack.io/v3/content_types/{content_type_uid}/entries/{entry_uid}`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://cdn.contentstack.io/v3/content_types/{content_type_uid}/entries/{entry_uid}`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -398,14 +402,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** mit Bearer-Token, fordern Sie nur erforderliche Attributoptionen in Abfrage-Flags an, fügen Sie Beispiel-JSON ein, ordnen Sie einen minimalen Attributsatz zu, testen Sie, aktivieren Sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der AEM-REST-API. Beispiel für URL-Muster:
 
-1. `https://{pim-host}/api/rest/v1/...`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://{pim-host}/api/rest/v1/...`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -488,14 +493,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie das URL-Muster für die öffentliche Bereitstellung, das Ihre Module bereitstellen, authentifizieren Sie sich gemäß der Magnolia-Anleitung (anonymer Versand vs. Token für geschützte Inhalte), fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mit Magnolia REST (Versand). Beispiel für URL-Muster:
 
-1. `https://{author-or-public}/.rest/delivery/...`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://{author-or-public}/.rest/delivery/...`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -535,7 +541,7 @@ Beispielmuster: URLs im Stil von `https://{domain}/magnoliaAuthor/.rest/delivery
 | --- | --- | --- | --- |
 | API-Schlüssel | Autorisierung | `<bearer_token>` | Header |
 
-Hinweis: Die Bereitstellungs-API dient der Verwendung der REST-anonymen Rolle für Inhalte, für die keine Anmeldung erforderlich ist. Für einen sicheren Zugriff auf geschützte Daten wird eine robustere Methode wie API-Token oder OAuth 2.0 bevorzugt
+Hinweis: Die Bereitstellungs-API dient der Verwendung der REST-anonymen Rolle für Inhalte, für die keine Anmeldung erforderlich ist. Für einen sicheren Zugriff auf geschützte Daten wird eine robustere Methode wie API-Token oder OAuth 2.0 bevorzugt.
 
 +++
 
@@ -570,15 +576,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Festlegen der Basis-URL für Ihren Cluster, Hinzufügen erforderlicher Kopfzeilen (`X-APP-ID`, `X-APP-TOKEN`), Einschränken von Listenendpunkten mit Filtern oder IDs, Einfügen von Beispiel-JSON, Zuordnen von Feldern, Testen, Aktivieren.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
-1. Konfigurieren Sie den Endpunkt mithilfe der Treue-/REST-APIs. Beispiel für URL-Muster:
+1. Konfigurieren Sie den Endpunkt mithilfe der Treue-/REST-APIs. Legen Sie [Voucherify](https://docs.voucherify.io/){target="_blank"} den **Cluster**-Host und die Pfade für Ihre Region fest. Beispiel für URL-Muster:
 
-1. OpenAPI-Basis-URL pro Gutschein für Ihre Region
+   `https://{cluster}.voucherify.io/`
 
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -669,14 +675,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** auf dem benötigten Profil- oder Erfolgspfad, legen Sie `Authorization: ApiKey-v1 <key>` wie dokumentiert fest, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Talon.One-Integrations-API. Beispiel für URL-Muster:
 
-1. `https://{your-domain}.talon.one/v1/...`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://{your-domain}.talon.one/v1/...`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -759,15 +766,13 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** mit der Authentifizierung des Anbieters (z. B. API-Schlüssel in der Abfrage), vermeiden Sie die Offenlegung von PII für Richtlinien, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
-1. Konfigurieren Sie den Endpunkt mithilfe der Antavo Enterprise-API. Beispiel für URL-Muster:
+1. Konfigurieren Sie den Endpunkt mithilfe der Antavo Enterprise-API.
 
-1. Pro Antavo-Stack-Basis-URL in Ihrem Mandanten dokumentiert
-
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -843,14 +848,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie den Treueprogramm-Integrationsendpunkt, den Ihr Team genehmigt, Salesforce OAuth abschließt, JSON-Beispielfelder einfügt, Felder zuordnet, zusammengesetzte API-Limits einhält, testet, aktiviert.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mit dem Salesforce Loyalty Management-REST. Beispiel für URL-Muster:
 
-1. `https://{instance}.salesforce.com/services/data/vXX.X/...`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://{instance}.salesforce.com/services/data/vXX.X/...`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -936,15 +942,13 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie Kopfzeilen wie `CAP-API-ACCESS-TOKEN` nach Bedarf, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
-1. Konfigurieren Sie den Endpunkt mithilfe der Kapillaren-APIs. Beispiel für URL-Muster:
+1. Konfigurieren Sie den Endpunkt mithilfe der Kapillaren-APIs.
 
-1. Handbuch zur Kapillarintegration für Ihre Region
-
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1022,15 +1026,17 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ein.
 
-1. Konfigurieren Sie den Endpunkt mithilfe der Stensul-Vorlagen-API-URL (Beispielmuster): `https://api.stensul.com/v1/templates/{template_id}`
+1. Konfigurieren Sie den Endpunkt mithilfe der Stensul-Vorlagen-API-URL. Beispiel für URL-Muster:
+
+   `https://api.stensul.com/v1/templates/{template_id}`
 
 1. Konfigurieren der Authentifizierung (API-Schlüssel oder OAuth gemäß Stensul-API-Dokumentation).
 
-1. Definieren Sie Pfadvariablen (z. B. Vorlagen-ID).
+1. Definieren von Pfadvariablen , z. B. Vorlagen-ID.
 
 1. Fügen Sie eine JSON-Beispielantwort zur Felderkennung ein.
 
@@ -1066,15 +1072,13 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Zeigen Sie auf den Ringelblumen-Host für Ihre Region, legen Sie die Authentifizierung fest (das folgende Beispiel verwendet `X-Api-Key` mit Schlüssel und Geheimnis), fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
-1. Konfigurieren Sie den Endpunkt mithilfe der Marigold-REST-API (Endpunkt gemäß Ihrem Integrationshandbuch). Beispiel für URL-Muster:
+1. Konfigurieren Sie den Endpunkt mithilfe der Marigold-REST-API.
 
-1. Verwenden Sie die Basis-URL und den Pfad, die in Ihrer Marigold-API-Dokumentation angegeben sind.
-
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1090,8 +1094,8 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Marigold verwendet zwei Endpunkte, die auf dem geografischen Gebiet basieren, für das die Kundeninstanz aktiv ist:
 
-1. Europa: https://{{customername}}.module.slgnt.eu
-USA: https://{{customername}}.module.slgnt.us
+   * Europa: `https://{{customername}}.module.slgnt.eu`
+   * USA: `https://{{customername}}.module.slgnt.us`
 
 In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufgeführt.
 
@@ -1155,17 +1159,15 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Versandaufrufe erfolgen häufig **POST** mit einem JSON-Text. Konfigurieren Sie OAuth pro [Target-Authentifizierung](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/configure-authentication){target="_blank"} fügen Sie eine Beispielantwort ein, ordnen Sie Felder zu und testen Sie unter dem erwarteten Volumen.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Versandaufrufe erfolgen häufig **POST** mit einem JSON-Text. Konfigurieren Sie OAuth pro [Target-Authentifizierung](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"} fügen Sie eine Beispielantwort ein, ordnen Sie Felder zu und testen Sie unter dem erwarteten Volumen.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
-1. Konfigurieren Sie den Endpunkt mithilfe der Target Recommendations-/Bereitstellungs-APIs (gemäß Adobe-Dokumentation für Ihr Integrationsmuster). Beispiel für URL-Muster:
+1. Konfigurieren Sie den Endpunkt mithilfe der Target Recommendations-/Bereitstellungs-APIs.
 
-1. Siehe Dokumentation zur Adobe Target Recommendations-API für Ihren Anwendungsfall
-
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1210,7 +1212,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 **Authentifizierung**
 
-Siehe [Target-Authentifizierungskonfiguration](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/configure-authentication) und fügen Sie JSON zur Payload hinzu.
+Siehe [Target-Authentifizierungskonfiguration](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) und fügen Sie JSON zur Payload hinzu.
 
 **Anfrage-Payload**
 
@@ -1298,16 +1300,17 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** Sofern Ihr Abonnement nichts anderes erfordert, fügen Sie den `apiKey` Abfrageparameter (oder wie dokumentiert) hinzu, ordnen Sie `locationKey` und andere Variablen aus dem Profil/Kontext zu, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu und testen Sie dann.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** Sofern Ihr Abonnement nichts anderes erfordert, hängen Sie den `apiKey` Abfrageparameter an, ordnen Sie `locationKey` und andere Variablen aus dem Profil/Kontext zu, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu und testen Sie dann.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der API für tägliche Prognosen . Beispiel für URL-Muster:
 
-1. `https://dataservice.accuweather.com/forecasts/v1/daily/{days}day/{locationKey}`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://dataservice.accuweather.com/forecasts/v1/daily/{days}day/{locationKey}`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1392,14 +1395,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Targeting der benötigten Ressource (Bestellungen vs. Sendungen), Authentifizierung pro [ShipStation-API](https://www.shipstation.com/docs/api/){target="_blank"}, Einfügen von Beispiel-JSON, Zuordnen von Feldern, Testen, Aktivieren.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der ShipStation-REST-API. Beispiel für URL-Muster:
 
-1. `https://ssapi.shipstation.com/...`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://ssapi.shipstation.com/...`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1482,14 +1486,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Rufen Sie den unten modellierten REST **GET** auf, authentifizieren Sie sich mit der Kopfzeile des geheimen Schlüssels, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der RevenueCat-REST-API. Beispiel für URL-Muster:
 
-1. `https://api.revenuecat.com/v1/...`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://api.revenuecat.com/v1/...`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1568,14 +1573,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Engere Lesepfade werden empfohlen. Wenn Sie die **POST**-Anweisungsausführung verwenden, fügen Sie den von der API benötigten JSON-Text ein, fügen Sie eine Beispiel-Erfolgsantwort für die Zuordnung ein, testen Sie die Latenz sorgfältig und aktivieren Sie sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der DataBricks SQL-Anweisungsausführungs-API. Beispiel für URL-Muster:
 
-1. `https://{workspace-host}/api/2.0/sql/statements/...`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://{workspace-host}/api/2.0/sql/statements/...`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1647,14 +1653,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** für den ausgewählten Endpunkt (ein gängiges Muster ist eine Benutzerauflistung), schließen Sie OAuth pro [Bynder](https://developer.bynder.com/){target="_blank"} ab, vermeiden Sie das Abrufen unnötiger Datenseiten, ordnen Sie Felder zu, testen Sie und aktivieren Sie dann.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
-1. Konfigurieren Sie den Endpunkt mithilfe der Bynder-API v4 (Beispiel: Benutzerauflistungsmuster). Beispiel für URL-Muster:
+1. Konfigurieren Sie den Endpunkt mithilfe der Bynder-API v4. Beispiel für URL-Muster:
 
-1. `https://{your-bynder-domain}/api/v4/users/`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://{your-bynder-domain}/api/v4/users/`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1672,7 +1679,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispiele für Integrationsfelder. Weitere Informationen [&#x200B; OAuth 2.0-Payload finden Sie in der &#x200B;](https://developer.bynder.com/){target="_blank"} zur Bynder-API .
+Beispiele für Integrationsfelder. Weitere Informationen [ OAuth 2.0-Payload finden Sie in der ](https://developer.bynder.com/){target="_blank"} zur Bynder-API .
 
 | Feld | Wert |
 | --- | --- |
@@ -1797,14 +1804,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). **GET** mit der erforderlichen Abfrageauthentifizierung konfigurieren, Kennungen aus Profil oder Kontext zuordnen, Beispiel-JSON einfügen, Felder zuordnen, testen, aktivieren.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Trustpilot-APIs. Beispiel für URL-Muster:
 
-1. `https://api.trustpilot.com/v1/...`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://api.trustpilot.com/v1/...`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1881,14 +1889,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** mit `passkey` als Abfrageparameter in der Conversations-API, legen Sie `Accept: application/json` fest, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Bazaarvoice Conversations-API. Beispiel für URL-Muster:
 
-1. `https://api.bazaarvoice.com/...`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://api.bazaarvoice.com/...`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1965,15 +1974,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie das veröffentlichte Schema oder den Pfad zum Präferenzcenter in Ihren Abonnementdokumenten, füllen Sie bei Bedarf OAuth aus, fügen Sie JSON-Beispieldateien ein, ordnen Sie Felder zu, testen Sie sie, aktivieren Sie sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
-1. Konfigurieren Sie den Endpunkt mithilfe der OneTrust-API. Beispiel für URL-Muster:
+1. Konfigurieren Sie den Endpunkt mithilfe der OneTrust-API. Ihr Mandant, Produkt und Pfad stammen aus der [OneTrust](https://developer.onetrust.com/){target="_blank"}-Dokumentation für Ihr Abonnement. Beispiel für URL-Muster:
 
-1. Basis-URL des OneTrust-Entwicklerportals
+   `https://{tenant}.my.onetrust.com/api/...`
 
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -2051,14 +2060,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Diagrammaufrufe sind häufig **GET** mit einem versionierten Pfad; verarbeiten Token-Ablauf, fügen Beispiel-JSON ein, mappen Felder, testen, aktivieren.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Meta Graph-API. Beispiel für URL-Muster:
 
-1. `https://graph.facebook.com/vXX.X/...`
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+   `https://graph.facebook.com/vXX.X/...`
+
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -2076,7 +2086,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispiele für Integrationsfelder. Versionierung [&#x200B; Zugriffstoken finden Sie unter &#x200B;](https://developers.facebook.com/docs/graph-api){target="_blank"}Graph-API“.
+Beispiele für Integrationsfelder. Versionierung [ Zugriffstoken finden Sie unter ](https://developers.facebook.com/docs/graph-api){target="_blank"}Graph-API“.
 
 | Feld | Wert |
 | --- | --- |
@@ -2136,15 +2146,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** auf dem gewünschten Datensatzpfad, senden Sie erforderliche Kopfzeilen wie `API-VERSION`, fügen Sie Beispiel-JSON (HAL oder JSON als Rückgabe) ein, ordnen Sie einen minimalen Feldsatz zu, testen Sie, aktivieren Sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
-1. Konfigurieren Sie den Endpunkt mithilfe der Aprimo DAM / Records API. Beispiel für URL-Muster:
+1. Konfigurieren Sie den Endpunkt mithilfe der Aprimo DAM / Records API. Verwenden Sie die API-Basis-URL und den Datensatzpfad für Ihren **Mandanten** (pro Aprimo). Beispiel für URL-Muster:
 
-1. Per Aprimo API Basis-URL und Ressourcenpfad für Ihren Mandanten
+   `https://{tenant}.dam.aprimo.com/`
 
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -2218,15 +2228,15 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Raten Sie keine öffentlichen URLs. Verwenden Sie die Spezifikation aus Epsilon, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
-1. Gehen Sie in Journey Optimizer zu Konfigurationen > Verwalten und klicken Sie auf Integration erstellen .
+1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
 1. Geben Sie einen Integrationsnamen ohne Leerzeichen ein.
 
-1. Konfigurieren Sie den Endpunkt mithilfe der Epsilon-API (gemäß Ihrer Integrationsspezifikation). Beispiel für URL-Muster:
+1. Konfigurieren Sie den Endpunkt mithilfe der Epsilon-API (gemäß Ihrer Integrationsspezifikation). Basis-URL und Ressourcenpfade werden von Ihrem Epsilon-Konto-Team bereitgestellt. Beispiel für URL-Muster:
 
-1. Bildmaterial von Epsilon für Ihr Programm
+   `https://{your-instance}.epsilon3.io/api/...`
 
-1. Wählen Sie die HTTP-Methode aus, die in der Konfigurationstabelle angezeigt wird (normalerweise GET, sofern nicht anders angegeben).
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
