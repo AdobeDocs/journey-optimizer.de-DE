@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
+source-git-commit: 4c42f2ec6b427cf48550fc38a81d47c16a08b5fc
 workflow-type: tm+mt
-source-wordcount: '3965'
+source-wordcount: '4017'
 ht-degree: 16%
 
 ---
@@ -42,6 +42,22 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 <table>
 <thead>
 <tr>
+<th><strong>Integrationen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit <b> Funktion </b>Integrationen“ können Sie Datenquellen von Drittanbietern direkt mit Adobe Journey Optimizer verbinden. Diese Funktion vereinfacht das Einlesen externer Daten und <b>zusammenstellbarer Inhalte</b> und erleichtert so die Bereitstellung personalisierter, dynamischer Nachrichten auf allen Kanälen.</p>
+<p>Diese Funktion wurde bereits in der Beta-Version veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Journey-Simulation</strong><br/></th>
 </tr>
 </thead>
@@ -49,7 +65,7 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 <tr>
 <td>
 <p>Jetzt können Sie Ihren Journey auf <strong>Simulation</strong> einstellen. In diesem Modus können Sie Ihre Logik mithilfe von <strong>simulierten Benutzern</strong> überprüfen. Hierbei handelt es sich um temporäre Profile, die speziell für die Simulation erstellt wurden. Sie können also frei testen, ohne persistente Testprofile in Adobe Experience Platform verwalten zu müssen.</p>
-<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Die Integration ist derzeit nicht für Healthcare Shield oder Privacy and Security Shield verfügbar.</p>
 </td>
 </tr>
 </tbody>

@@ -10,7 +10,7 @@ level: Beginner
 keywords: Integration
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 97%
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 Inhaltsverzeichnis:
 
-* **[Arbeiten mit Integrationen](external-sources.md)**
+* **[Arbeiten mit Integrationen](integrations.md)**
 * [Erste Schritte mit der Vendors-Integration](vendor-integration-gs.md)
 * [Verfügbare Anbieter](vendor-integration.md)
 * [FAQs](vendor-integration-faq.md)
@@ -123,7 +123,7 @@ Als Marketing-Fachleute können Sie konfigurierte Integrationen verwenden, um Ih
 
 1. Greifen Sie auf Ihren Kampagneninhalt zu und klicken Sie in Ihren Text- oder HTML-**[!UICONTROL Komponenten]** auf **[!UICONTROL Personalisierung hinzufügen]**.
 
-[Weitere Informationen zu Komponenten](../email/content-components.md)
+   [Weitere Informationen zu Komponenten](../email/content-components.md)
 
    ![](assets/external-integration-content-1.png)
 
