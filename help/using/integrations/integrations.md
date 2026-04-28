@@ -10,10 +10,10 @@ level: Beginner
 keywords: Integration
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 57%
+source-wordcount: '1227'
+ht-degree: 49%
 
 ---
 
@@ -134,6 +134,10 @@ Wenn der erneute Versuch aktiviert ist, folgen andere Fehler **drei** Wiederholu
 
    ![](assets/external-integration-config-5.png)
 
+   >[!NOTE]
+   >
+   >Die **[!UICONTROL Antwort-Payload]**-Konfiguration definiert die erwartete Antwort für das Authoring einschließlich aller in diesem Schritt angewendeten Schemata. Marketing-Experten dürfen nur auf offen gelegte Felder verweisen. Token für andere Pfade schlagen die Validierung im Editor fehl.
+
 1. Verwenden Sie **[!UICONTROL Testverbindung senden]**, um die Integration zu validieren.
 
    Klicken Sie nach dem Validieren auf **[!UICONTROL Aktivieren]**.
@@ -146,7 +150,14 @@ Die Aufrufe **die von** konfigurierte Drosselungsrate ein: Journey Optimizer pla
 
 Jede Nachricht in der Warteschlange verfügt außerdem über ein Gültigkeitsfenster (TTL). Wenn die Verarbeitung fehlschlägt und eine Nachricht über dieses Fenster hinausgeht, **das System sie** und gibt ein **`MessageValidityExclusion`** aus, sodass veraltete Arbeit aus der Warteschlange entfernt wird und Ressourcen verfügbar bleiben.
 
+
 ## Verwenden externer Integrationen für die Personalisierung {#personalization}
+
+Bevor Sie externe Integrationen für die Personalisierung verwenden, beachten Sie, dass die Planung und Isolierung von Integrationsaufrufen vom Ausführungskontext abhängen:
+
+* **Batch-Ausführung** (Batch-Kampagnen, orchestrierte Kampagnen und API-ausgelöste Marketing-Kampagnen): Jeder Batch-Vorgang wird in einer dedizierten, isolierten Umgebung ausgeführt. Gleichzeitige Batch-Ausführungen, die externe Systeme aufrufen, stehen daher nicht im Konflikt miteinander oder behindern einander.
+
+* **Einzelausführung** (einheitliche Journey, Batch-Journey und API-ausgelöste Transaktionskampagnen): Der Integrations-Traffic ist pro Marken-Sandbox isoliert, sodass eine langsame externe API für eine Marke die andere nicht verzögert. In Ihrer Sandbox können gleichzeitige Integrationen andere durch die Integration unterstützte Nachrichten kurz verzögern. Jede Nachricht wird bis zu 12 Stunden vor Ablauf des Versands bearbeitet.
 
 Als Marketing-Fachleute können Sie konfigurierte Integrationen verwenden, um Ihre Inhalte zu personalisieren. Führen Sie folgende Schritte aus:
 
@@ -186,6 +197,10 @@ Als Marketing-Fachleute können Sie konfigurierte Integrationen verwenden, um Ih
 1. Sobald die Integrationsattribute definiert sind, können Sie die Integrationsfelder in Ihren Inhalten für personalisierte Nachrichten verwenden, indem Sie auf das Symbol ![Hinzufügen](assets/do-not-localize/Smock_Add_18_N.svg) klicken.
 
    ![](assets/external-integration-content-6.png)
+
+   >[!NOTE]
+   >
+   >Token in Ihrer Vorlage dürfen nur Felder verwenden, die der Administrator in der Integrationskonfiguration bereitgestellt hat. Beispielsweise ist `{{weatherResponse.temperature}}` gültig, wenn `temperature` verfügbar gemacht wird; `{{weatherResponse.humidity}}` wird im Editor abgelehnt, wenn `humidity` nicht verfügbar ist.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
