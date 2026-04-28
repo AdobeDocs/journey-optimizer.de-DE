@@ -10,10 +10,10 @@ level: Beginner
 keywords: Integration
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 97%
+source-wordcount: '1055'
+ht-degree: 57%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 Inhaltsverzeichnis:
 
 * **[Arbeiten mit Integrationen](integrations.md)**
-* [Erste Schritte mit der Vendors-Integration](vendor-integration-gs.md)
+* [Erste Schritte](vendor-integration-gs.md)
 * [Verfügbare Anbieter](vendor-integration.md)
 * [FAQs](vendor-integration-faq.md)
 
@@ -32,7 +32,7 @@ Inhaltsverzeichnis:
 
 ## Überblick
 
-Die Funktion **Integrationen** ermöglicht eine nahtlose Integration von externen Datenquellen in Adobe Journey Optimizer. Sie erleichtert somit die Integration externer Daten und Inhaltsquellen in Ihre Kampagnen und erlaubt es Ihnen, hochgradig personalisierte und dynamische Nachrichten über verschiedene Kanäle hinweg bereitzustellen.
+Die **Integrationen**-Funktion verknüpft Adobe Journey Optimizer mit Drittanbietersystemen, deren Daten und zusammenstellbaren Inhalt Sie bereits an anderer Stelle verwalten. Sie können dieses Material beim Authoring und beim Versand aufdecken, was responsivere, personalisierte Erlebnisse für alle in Journey Optimizer verwendeten Kanäle unterstützt.
 
 Sie können diese Funktion verwenden, um externe Daten und Inhalte aus Drittanbieter-Tools abzurufen, z. B.:
 
@@ -41,19 +41,35 @@ Sie können diese Funktion verwenden, um externe Daten und Inhalte aus Drittanbi
 * **Produktempfehlungen** aus Empfehlungs-Engines.
 * **Logistische Updates** wie Versandstatus.
 
-## Beta-Einschränkungen {#limitations}
+Um mit der Verwendung von Integrationen beginnen zu können, müssen Benutzenden die Berechtigungen **[!UICONTROL AJO-Integrationskonfiguration verwalten]** und **[!UICONTROL AJO-Integration anzeigen]** gewährt werden. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
 
-Die Beta-Version weist die folgenden Einschränkungen auf:
++++ Erfahren Sie, wie Sie Berechtigungen für Integrationen zuweisen
 
-* Es werden nur ausgehende Kanäle unterstützt.
+1. Gehen Sie im Produkt **[!UICONTROL Berechtigungen]** zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie die gewünschte **[!UICONTROL Rolle]** aus.
 
-* Für API-Aufrufantworten wird nur das JSON-Format unterstützt. HTML- und Raw-Binärbildausgaben sind nicht verfügbar.
+1. Klicken Sie auf **[!UICONTROL Bearbeiten]**, um die Berechtigungen zu ändern.
 
-* Es werden nur Abruf-APIs unterstützt, die auf bestimmte Inhalte abzielen. Auflistungs-APIs sind nicht verfügbar.
+1. Fügen Sie die Ressource **[!UICONTROL AJO-]** hinzu und wählen Sie dann die entsprechenden Integrationsberechtigungen aus dem Dropdown-Menü aus.
 
-* Die Integrationsfunktion ist sowohl für Journeys als auch für Kampagnen verfügbar, wird aber in Fragmenten nicht unterstützt.
+   ![](assets/external-integration-config-9.png)
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen anzuwenden.
+
+   Die Berechtigungen aller Benutzenden, die dieser Rolle bereits zugewiesen sind, werden automatisch aktualisiert.
+
+1. Um diese Rolle neuen Benutzenden zuzuweisen, navigieren Sie im Dashboard **[!UICONTROL Rollen]** zur Registerkarte **[!UICONTROL Benutzer]** und klicken Sie auf **[!UICONTROL Benutzer hinzufügen]**.
+
+1. Geben Sie den Namen und die E-Mail-Adresse der Benutzerin oder des Benutzers ein oder wählen Sie aus der Liste aus und klicken Sie dann auf **[!UICONTROL Speichern]**.
+
+Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/users).
+
++++
 
 ## Konfigurieren Ihrer Integration {#configure}
+
+>[!AVAILABILITY]
+>
+> Diese Integrationsfunktion ist auf ausgehende Kanäle (E-Mail, SMS und Push-Benachrichtigungen) beschränkt und stellt Daten im JSON- oder HTML-Format bereit. Beachten Sie, dass die API schreibgeschützt ist und nur Abrufvorgänge unterstützt.
 
 Als Admin können Sie externe Integrationen einrichten, indem Sie die folgenden Schritte ausführen:
 
@@ -62,6 +78,8 @@ Als Admin können Sie externe Integrationen einrichten, indem Sie die folgenden 
    Klicken Sie dann auf **[!UICONTROL Integration erstellen]**, um eine neue Konfiguration zu starten.
 
    ![](assets/external-integration-config-1.png)
+
+1. Fügen Sie optional einen **cURL**-Befehl ein, um die URL, die HTTP-Methode, die Kopfzeilen und Abfrageparameter automatisch auszufüllen.
 
 1. Es müssen ein **[!UICONTROL Name]** und eine **[!UICONTROL Beschreibung]** für die Integration angegeben werden.
 
@@ -103,7 +121,10 @@ Als Admin können Sie externe Integrationen einrichten, indem Sie die folgenden 
 
    ![](assets/external-integration-config-4.png)
 
-1. Legen Sie die **[!UICONTROL Richtlinienkonfiguration]** fest, z. B. den **[!UICONTROL Timeout]** für API-Anfragen und die Möglichkeit, Drosselung, Cache und/oder Wiederholungsversuche zu aktivieren.
+1. Legen Sie **[!UICONTROL Richtlinienkonfiguration]** wie **[!UICONTROL Timeout]** für API-Anfragen fest und wählen Sie die Aktivierung von Drosselung, Cache und/oder Wiederholung aus.
+
+   Wenn die Drosselung aktiviert ist, liegen die unterstützten Raten zwischen **50** TPS (Minimum) und **5000** TPS (Maximum).
+Wenn der erneute Versuch aktiviert ist, folgen andere Fehler **drei** Wiederholungsversuchen, wobei **200 ms**, **400 ms** und **800 ms** zwischen aufeinander folgenden Versuchen liegen.
 
 1. Mit dem Feld **[!UICONTROL Antwort-Payload]** können Sie festlegen, welche Felder der Beispielausgabe für die Personalisierung von Nachrichten verwendet werden sollen.
 
@@ -117,6 +138,14 @@ Als Admin können Sie externe Integrationen einrichten, indem Sie die folgenden 
 
    Klicken Sie nach dem Validieren auf **[!UICONTROL Aktivieren]**.
 
+### Sendezeitbeschränkungen und -verhalten {#configure-send-time}
+
+Zum Zeitpunkt des Versands können Antworten von der externen API standardmäßig bis zu **4 MB**. Alles, was größer ist, wird als Integrationsfehler behandelt und **erneute Versuche werden nicht versucht** wenn der Fehler durch die Antwortgröße verursacht wird.
+
+Die Aufrufe **die von** konfigurierte Drosselungsrate ein: Journey Optimizer plant Versuche bis zu diesem Limit, selbst wenn das externe System ausfällt oder Fehler zurückgibt. Wenn **cache** aktiviert ist, werden nur **erfolgreiche** Antworten gespeichert und wiederverwendet, bis der **TTL** definierte Cache abläuft. Fehlgeschlagene Antworten werden nie zwischengespeichert.
+
+Jede Nachricht in der Warteschlange verfügt außerdem über ein Gültigkeitsfenster (TTL). Wenn die Verarbeitung fehlschlägt und eine Nachricht über dieses Fenster hinausgeht, **das System sie** und gibt ein **`MessageValidityExclusion`** aus, sodass veraltete Arbeit aus der Warteschlange entfernt wird und Ressourcen verfügbar bleiben.
+
 ## Verwenden externer Integrationen für die Personalisierung {#personalization}
 
 Als Marketing-Fachleute können Sie konfigurierte Integrationen verwenden, um Ihre Inhalte zu personalisieren. Führen Sie folgende Schritte aus:
@@ -129,6 +158,8 @@ Als Marketing-Fachleute können Sie konfigurierte Integrationen verwenden, um Ih
 
 1. Navigieren Sie zum Abschnitt **[!UICONTROL Integrationen]** und klicken Sie auf **[!UICONTROL Integrationen öffnen]**, um alle aktiven Integrationen anzuzeigen.
 
+   Beachten Sie, dass Inhaltsfragmente mit Integrationen verfügbar sind, aber nur ausgehende Kanäle unterstützen. Eine eingehende Veröffentlichung ist nicht erfolgreich. Nach der Veröffentlichung eines Fragments ist das Hinzufügen und Speichern neuer Integrationen deaktiviert, um Auswirkungen auf bestehende Journey und Kampagnen zu vermeiden.
+
    ![](assets/external-integration-content-2.png)
 
 1. Wählen Sie eine Integration aus und klicken Sie auf **[!UICONTROL Speichern]**.
@@ -138,6 +169,13 @@ Als Marketing-Fachleute können Sie konfigurierte Integrationen verwenden, um Ih
 1. Aktivieren Sie den **[!UICONTROL Pillen-Modus]**, um das erweiterte Integrationsmenü zu entsperren.
 
    ![](assets/external-integration-content-4.png)
+
+1. Wenn Sie die Integrationspersonalisierung erstellen, enthält der Integrations-Helper ein **`required`**, das definiert, wie Fehler oder fehlende Daten mit Standardinhalten interagieren:
+
+   * **`required=true`** (Standard): Das Rendern dieser Nachricht wird angehalten. Der Versand wird mit **`ExternalDataLookupExclusion`** ausgeschlossen und dieser Ausschluss wird im **Nachrichten-Feedback-Datensatz“**.
+   * **`required=false`**: Die Ergebnisvariable wird auf **`null`** festgelegt und das Rendern wird fortgesetzt. Verwenden Sie Standardtext, Fallbacks oder bedingte Logik in Ihrer Vorlage, damit Profile keine leeren Inhalte erhalten, wenn die Integration keine Daten zurückgibt.
+
+     ![](assets/external-integration-content-8.png)
 
 1. Um die Einrichtung der Integration abzuschließen, definieren Sie die Integrationsattribute, die zuvor bei der [Konfiguration](#configure) angegeben wurden.
 
@@ -154,3 +192,4 @@ Als Marketing-Fachleute können Sie konfigurierte Integrationen verwenden, um Ih
 Ihre Integrationspersonalisierung wird jetzt erfolgreich auf Ihre Inhalte angewendet, sodass alle Empfängerinnen und Empfänger ein maßgeschneidertes, relevantes Erlebnis erhalten, das auf den von Ihnen konfigurierten Attributen basiert.
 
 ![](assets/external-integration-content-7.png)
+

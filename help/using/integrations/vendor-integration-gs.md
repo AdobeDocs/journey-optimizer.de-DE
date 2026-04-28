@@ -9,15 +9,15 @@ role: User
 level: Intermediate
 hide: true
 keywords: Integration, Anbieter, Drittanbieter
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
 
-# Erste Schritte mit der Vendors-Integration {#vendor-integration}
+# Vendors-Integration {#vendor-integration}
 
 >[!BEGINSHADEBOX]
 
@@ -30,7 +30,6 @@ Inhaltsverzeichnis:
 
 >[!ENDSHADEBOX]
 
-
 Sie können **Integrationen** in Adobe Journey Optimizer verwenden, um **externe Systeme über HTTP** aufzurufen, wenn jedes System einen **API-Endpunkt)**, der Ihrem Anwendungsfall entspricht und damit kompatibel ist, wie Integrations Anfragen ausgibt und Antworten nutzt. Einen vollständigen Workflow finden Sie unter [Arbeiten mit Integrationen](integrations.md).
 
 Die Liste der beschriebenen Lösungen von Drittanbietern ist anschaulich, nicht vollständig. Andere Plattformen können verwendet werden, wenn sie die Produktanforderungen erfüllen.
@@ -39,7 +38,7 @@ Die Liste der beschriebenen Lösungen von Drittanbietern ist anschaulich, nicht 
 
 Wenden Sie Folgendes an, wenn Sie eine Integration in diesem Handbuch oder einem ähnlichen Anbieter konfigurieren:
 
-* **Antwortformat: Zuordnungsfelder von** Integrationen aus **JSON**-Antworten. Design-Aufrufe so, dass die API JSON zurückgibt, das zur Authoring-Zeit für die Zuordnung geeignet ist.
+* **Antwortformat: Zuordnungsfelder von** Integrationen aus **JSON**- oder **HTML**-Antworten. Design-Aufrufe, sodass die API JSON oder HTML zurückgibt, die zum Zeitpunkt der Erstellung für die Zuordnung geeignet sind.
 * **Payload und Felder:** Fordern Sie nur die benötigten Attribute an und ordnen Sie sie zu. Kleinere Antworten reduzieren die Latenz und begrenzen die Verfügbarkeit sensibler Daten.
 * **Endpunktform:** Sie einen stabilen **-Einzelressourcen-**-Abruf (z. B. einen Eintrag, ein Produkt oder ein Mitglied) gegenüber Endpunkten für eine umfassende Liste oder Paginierung, wenn das Produkt zielgerichtete Suchen erwartet. Siehe [Einschränkungen und Ausschlüsse](#limitations-exclusions) und [Arbeiten mit Integrationen](integrations.md).
 * **Volumen und Zuverlässigkeit** Einhaltung der **des Anbieters**. Konfigurieren Sie **Zeitüberschreitung**, **Wiederholen** und **Cache**-Richtlinie für Ihren Kanal (z. B. Batch-E-Mail vs. Transaktionsnachrichten) und validieren Sie unter Last.
@@ -47,14 +46,14 @@ Wenden Sie Folgendes an, wenn Sie eine Integration in diesem Handbuch oder einem
 
 ## Einschränkungen und Ausschlüsse {#limitations-exclusions}
 
-Die Liste der Lösungen von Drittanbietern ist **(**) nicht vollständig. Anbieter-APIs, Hosts, Ratenbeschränkungen und JSON-Antwort-Shapes können sich ändern. Bestätigen Sie Endpunkte, Authentifizierung und Feldzuordnung mit der aktuellen Dokumentation des Anbieters und Ihrem Abonnement. Muster gehen dabei von **leseorientierten** für die Personalisierung geeigneten Aufrufen aus. Writeback, Batch-Exporte oder Nicht-JSON-Antworten können außerhalb des Gültigkeitsbereichs liegen, es sei denn, dies wird angegeben.
+Die Liste der Lösungen von Drittanbietern ist **(**) nicht vollständig. Anbieter-APIs, Hosts, Ratenbeschränkungen und JSON- oder HTML-Antwort-Shapes können sich ändern. Bestätigen Sie Endpunkte, Authentifizierung und Feldzuordnung mit der aktuellen Dokumentation des Anbieters und Ihrem Abonnement. Muster gehen dabei von **leseorientierten** für die Personalisierung geeigneten Aufrufen aus. Integrationen unterstützen nur die Zuordnung von **JSON**- und **HTML**-Antworten. **Writeback**, **Batch-Exporte** und Antworten in einem anderen Format werden nicht unterstützt.
 
 ## Schnellnavigation {#quick-navigation}
 
 Verwenden Sie diese gruppierten Links, um schnell zum entsprechenden Anbietermuster zu gelangen:
 
-* **Content und CMS:** [Content](#contentful), [SiteCore](#sitecore), [Salsify](#salsify), [ContentStack](#contentstack), [Akeneo](#akeneo), [Magnolia](#magnolia)
+* **Content-Management-System:** [Content](#contentful), [SiteCore](#sitecore), [Salsify](#salsify), [ContentStack](#contentstack), [Akeneo](#akeneo), [Magnolia](#magnolia)
 * **Treue und Prämien:** [Gutschein](#voucherify), [Talon.One](#talon-one), [Antavo](#antavo), [Salesforce-Treue](#salesforce-loyalty), [Kapillare](#capillary)
-* **Vorlagen und Nachrichten:** [Stensul](#stensul), [Ringelblume](#marigold), [Adobe Target Recommendations](#adobe-target-recommendations)
+* **Vorlagen, Personalisierung und Empfehlungen:** [Stensul](#stensul), [Marigold](#marigold), [Adobe Target Recommendations](#adobe-target-recommendations)
 * **Daten, Wetter und Betrieb:** [AccuWeather](#accuweather), [ShipStation](#shipstation), [RevenueCat](#revenuecat), [Databricks](#databricks)
 * **Bewertungen, Einverständnis und Social:** [Bynder](#bynder), [Trustpilot](#trustpilot), [Bazaarvoice](#bazaarvoice), [OneTrust](#onetrust), [Meta](#meta), [Aprimo](#aprimo), [Epsilon (Epsilon3)](#epsilon)

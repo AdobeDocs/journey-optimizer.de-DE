@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '3275'
-ht-degree: 91%
+source-wordcount: '3276'
+ht-degree: 90%
 
 ---
 
@@ -507,7 +507,7 @@ ht-degree: 91%
       + [Arbeiten mit GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + {hide-from-toc}[Arbeiten mit Integrationen](using/integrations/integrations.md)
       + {hide-from-toc}[Erste Schritte mit der Vendors-Integration](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[Verfügbare Anbieter](using/integrations/vendor-integration.md)
+      + {hide-from-toc}[Beispielkonfigurationen von Anbietern](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQs](using/integrations/vendor-integration-faq.md)
       + {hide-from-toc}[Arbeiten mit KI-Tools über MCP](/help/using/integrations/ajo-mcp.md)
    + KI-Assistent für die Inhaltsgenerierung {#ai-assistant}

@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 hide: true
 keywords: Integration, Anbieter, Drittanbieter
-source-git-commit: eab38d6c5f07af0f2dc403abaf0deb3a09f0d392
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '9320'
+source-wordcount: '9348'
 ht-degree: 7%
 
 ---
 
-# Verfügbare Anbieter
+# Beispiele für Anbieterkonfigurationen {#vendor-integration}
 
 >[!BEGINSHADEBOX]
 
@@ -24,8 +24,14 @@ Inhaltsverzeichnis:
 
 * [Arbeiten mit Integrationen](integrations.md)
 * [Erste Schritte mit der Vendors-Integration](vendor-integration-gs.md)
-* **[Verfügbare Anbieter](vendor-integration.md)**
+* **[Beispielkonfigurationen von Anbietern](vendor-integration.md)**
 * [FAQs](vendor-integration-faq.md)
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Kunden und Drittanbieter sind dafür verantwortlich, API-Endpunkte nach Bedarf zu sichern, um ihre Sicherheits- und Compliance-Anforderungen zu erfüllen.
 
 >[!ENDSHADEBOX]
 
