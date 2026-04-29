@@ -282,6 +282,6 @@ Bereit, mit dem Erstellen zu beginnen? Wählen Sie Ihren ersten Implementierungs
 1. **Mobile App?** Beginnen Sie mit [Mobile SDK-Integration](#mobile-integration)
 2. **Website?** Beginnen Sie mit [Einrichten von Web SDK](#web-implementation)
 3. **API-Integration?** Wechseln zu [Arbeiten mit APIs](#apis)
-4. **Benutzerdefiniertes System?** ([ Aktionen](#custom-actions)
+4. **Benutzerdefiniertes System?** ([&#x200B; Aktionen](#custom-actions)
 
 Jeder Abschnitt enthält Links zu detaillierter technischer Dokumentation, Code-Beispielen und Tutorials, die Sie bei der Implementierung unterstützen.
