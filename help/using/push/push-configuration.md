@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 9195a5cd0b8c76cc5a580fc89d2324786931bcfe
+source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
 workflow-type: tm+mt
 source-wordcount: '2189'
 ht-degree: 88%
@@ -21,7 +21,6 @@ ht-degree: 88%
 >[!AVAILABILITY]
 >
 >Der neue **Schnellstart-Workflow für Mobile-Onboarding** ist jetzt verfügbar. Verwenden Sie diese neue Produktfunktion, um das Mobile SDK schnell so zu konfigurieren, dass es mit der Erfassung und Validierung von Mobile-Ereignisdaten und dem Senden von Mobile-Push-Benachrichtigungen beginnt. Auf diese Funktion kann über die Startseite der Datenerfassung als öffentliche Beta-Version zugegriffen werden. [Weitere Informationen](mobile-onboarding-wf.md)
->
 
 ## Bevor Sie beginnen {#start-push}
 
@@ -428,4 +427,3 @@ Ihr Ereignis wurde erstellt und kann jetzt in einer Journey verwendet werden.
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 
 Ihr Ereignis wird ausgelöst und Sie erhalten in Ihrer Mobile App eine Push-Benachrichtigung.
-

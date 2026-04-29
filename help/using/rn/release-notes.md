@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f607c8a6b18c08d55e23ca25265e75babaf9ae0a
+source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
 workflow-type: tm+mt
-source-wordcount: '2019'
-ht-degree: 19%
+source-wordcount: '2038'
+ht-degree: 20%
 
 ---
 
@@ -41,23 +41,59 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 
 ### Neue Funktionen {#april-26-features}
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Folders for journeys and campaigns</strong><br/></th>
+<th><strong>Absenderparameter im E-Mail-Header</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now organize your journeys and campaigns into <strong>folders</strong> to improve navigation and management in the interface.</p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Mit Journey Optimizer können Sie jetzt E-Mails senden, bei denen sich die sendende Entität (Absender) von der Authoring-Entität (Von) unterscheidet. E-Mail-Clients, die dies unterstützen, rendern es normalerweise als „Absender im Namen von Von“ oder zeigen einen „Über“-Indikator an. Füllen Sie die optionalen Felder <strong>Absender-Kopfzeilen</strong> in den Einstellungen des E-Mail-Kanals aus, um diese Funktion zu konfigurieren.</p>
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p><img src="assets/do-not-localize/sender-headers.gif"></p>
+<p>Weitere Informationen finden Sie in der <a href="../email/header-parameters.md#sender-header">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
+<table>
+<thead>
+<tr>
+<th><strong>CC-Feld in E-Mail-Kanaleinstellungen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Jetzt können Sie in Ihren E-Mail-Kanaleinstellungen ein optionales CC-Feld (Carbon Copy) konfigurieren. Im Gegensatz zu BCC sind CC-Empfänger für den primären Empfänger sichtbar, was eine transparente Kommunikation und eine klarere Eigentümerschaft ermöglicht.</p>
+<p>Auf diese Weise können Sie automatisch den richtigen Stakeholder für jede Nachricht kopieren - z. B. einen Beziehungs-Manager oder einen Kontoinhaber - und gleichzeitig sicherstellen, dass der Kunde weiß, an wen er sich zwecks Folgenachricht wenden muss.</p>
+<p>Das CC-Feld unterstützt Personalisierung, sodass eine einzelne Konfiguration Kopien basierend auf Profildaten dynamisch weiterleiten kann, sodass sie ohne zusätzliche Einrichtung für mehrere Anwendungsfälle skalierbar ist.</p>
+<p><img src="../configuration/assets/email-config-cc.png"></p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/cc-email-field.md">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Kopieren orchestrierter Kampagnen in Sandboxes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Sandbox-Tools unterstützen jetzt das Verpacken und Kopieren orchestrierter Kampagnen von einer Sandbox in eine andere. Dadurch entfällt die Notwendigkeit, Kampagnen in jeder Umgebung manuell neu zu erstellen. Wenn eine Kampagne in einem Package zusammengefasst wird, werden ihre abhängigen Kernobjekte wie Zusammenführungsrichtlinien und Nachrichten automatisch einbezogen, sodass die importierte Kampagne bereit für die Konfiguration und Validierung ist. Zum Schutz der Produktionsumgebungen landen alle importierten Kampagnen im Entwurfsstatus in der Ziel-Sandbox, sodass Teams vor der Live-Schaltung einer Kampagne einen Prüfungs- und Genehmigungsschritt erhalten.</p>
+<p><img src="assets/do-not-localize/oc-sandbox.gif"></p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/copy-objects-to-sandbox.md">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -68,8 +104,9 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer bietet jetzt einen <strong>MCP (Model Context Protocol)-Server</strong> der Kampagnen-, Treueprogramm-, Kanalkonfigurations- und Sandbox-Vorgänge direkt in jeder MCP-kompatiblen Anwendung aufbereitet. Mit dieser Integration können verschiedene Personas um dieselben Orchestrierungsdaten herum zusammenarbeiten. Anstatt Abfragen für die Adobe Journey Optimizer-REST-API zu schreiben oder durch mehrere Bildschirme der Benutzeroberfläche zu navigieren, können Sie Ihre Absicht im Gespräch beschreiben und das LLM die entsprechenden MCP-Tools aufrufen lassen. Diese Funktion ist derzeit in Claude Web und Desktop verfügbar.</p>
+<p>Adobe Journey Optimizer bietet jetzt einen <strong>MCP (Model Context Protocol)-Server</strong> der Kampagnen-, Kanalkonfigurations- und Sandbox-Vorgänge direkt in jeder MCP-kompatiblen Anwendung aufbereitet. Mit dieser Integration können verschiedene Personas um dieselben Orchestrierungsdaten herum zusammenarbeiten. Anstatt Abfragen für die Adobe Journey Optimizer-REST-API zu schreiben oder durch mehrere Bildschirme der Benutzeroberfläche zu navigieren, können Sie Ihre Absicht im Gespräch beschreiben und das LLM die entsprechenden MCP-Tools aufrufen lassen. Diese Funktion ist derzeit in Claude Web und Desktop verfügbar.</p>
 <p>Diese Funktion steht allen Kunden in Public Beta zur Verfügung.</p>
+<p>Weitere Informationen finden Sie in der <a href="../integrations/ajo-mcp.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -219,6 +256,10 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 * **Prompt Assistant enhancement** - Prompt Assistant enhances AI content generation by analyzing user prompts in real time and identifying gaps in clarity, completeness, and context. It suggests improved rewrites and provides actionable guidance to enrich prompts with key details like audience, tone, and intent. The feature also asks targeted clarifying questions to help users refine their inputs before generation. This results in more accurate, high-quality outputs with fewer iterations. [Learn more](../content-management/ai-assistant-prompting-guide.md)
 -->
 
+#### Push-Benachrichtigung
+
+* **App-ID in Kanaleinstellungen personalisieren** - In den Konfigurationseinstellungen für den Push-Kanal können Sie jetzt das Feld **App-ID** personalisieren, damit jeder Empfänger anhand seiner Profilinformationen eine Push-Benachrichtigung von der entsprechenden Marke erhalten kann. [Weitere Informationen](../push/push-configuration.md#app-id-personalization)
+
 #### Entscheidungsfindung
 
 * **Fragmente an Entscheidungselemente anhängen** - Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die über Entscheidungsrichtlinien in Code-basierten Erlebnis- und E-Mail-Kampagnen genutzt werden können. Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit). [Weitere Informationen](../experience-decisioning/fragments-decision-policies.md)
@@ -226,10 +267,6 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 * **Vorübergehend nicht verfügbare Fragmente werden übersprungen** - Bei der Verwendung von Fragmenten in Entscheidungselementen wird ein Fragment übersprungen, wenn es vorübergehend in Edge nicht verfügbar ist, und die Journey oder Kampagne wird weiter gerendert, anstatt fehlzuschlagen. [Weitere Informationen](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
   Verfügbarkeitsdatum: 14. April 2026
-
-#### Push-Benachrichtigung
-
-* **App-ID in Kanaleinstellungen personalisieren** - In den Konfigurationseinstellungen für den Push-Kanal können Sie jetzt das Feld **App-ID** personalisieren, damit jeder Empfänger anhand seiner Profilinformationen eine Push-Benachrichtigung von der entsprechenden Marke erhalten kann. [Weitere Informationen](../push/push-configuration.md)
 
 <!--
 #### SMS
@@ -289,28 +326,15 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 
   Verfügbarkeitsdatum: 7. April 2026
 
+#### Orchestrierte Kampagnen
+
+* **Verbesserungen bei Data Modeler** - Orchestrierte relationale Schemata unterstützen jetzt zusammengesetzte Schlüssel, die mehrere Felder umfassen. Das Laden eines Schemas aus einer DDL-Datei führt auch zu Auflistungen, und beim Laden aus einer DDL- oder Excel-Datei werden automatisch zusammengesetzte Beziehungen zwischen Tabellen erstellt. In der Ansicht der Entitätsbeziehung zeigen zusammengesetzte Links jetzt den vollständigen Satz von Feldpaaren zwischen Tabellen an, nachdem eine Datei hochgeladen wurde. [Weitere Informationen](../orchestrated/gs-schemas.md)
+
 ## Demnächst {#coming-soon}
 
 Die Veröffentlichung der folgenden Funktionen und Verbesserungen ist für die nächsten Tage geplant. **Informationen können Änderungen unterliegen**. Aktualisierte Links, Bildschirme und Dokumentationen werden freigegeben, sobald diese Aktualisierungen live in der Produktion verfügbar sind.
 
 ### Neue Funktionen {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Kopieren orchestrierter Kampagnen in Sandboxes</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Die Sandbox-Tools unterstützen jetzt das Verpacken und Kopieren orchestrierter Kampagnen von einer Sandbox in eine andere. Dadurch entfällt die Notwendigkeit, Kampagnen in jeder Umgebung manuell neu zu erstellen. Wenn eine Kampagne in einem Package zusammengefasst wird, werden ihre abhängigen Kernobjekte wie Zusammenführungsrichtlinien und Nachrichten automatisch einbezogen, sodass die importierte Kampagne bereit für die Konfiguration und Validierung ist. Zum Schutz der Produktionsumgebungen landen alle importierten Kampagnen im Entwurfsstatus in der Ziel-Sandbox, sodass Teams vor der Live-Schaltung einer Kampagne einen Prüfungs- und Genehmigungsschritt erhalten.</p>
-<!--<p><img src="assets/do-not-localize/oc-sandbox.gif"></p>-->
-<!--<p>For more information, refer to the <a href="../integrations/express.md">detailed documentation</a>.</p>-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -365,43 +389,6 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <table>
 <thead>
 <tr>
-<th><strong>Absenderparameter im E-Mail-Header</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Mit Journey Optimizer können Sie jetzt E-Mails senden, bei denen sich die sendende Entität (Absender) von der Authoring-Entität (Von) unterscheidet. E-Mail-Clients, die dies unterstützen, rendern es normalerweise als „Absender im Namen von Von“ oder zeigen einen „Über“-Indikator an. Füllen Sie die optionalen Felder <strong>Absender-Kopfzeilen</strong> in den Einstellungen des E-Mail-Kanals aus, um diese Funktion zu konfigurieren.</p>
-<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
-<p>Weitere Informationen finden Sie in der <a href="../email/header-parameters.md">ausführlichen Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>CC-Feld in E-Mail-Kanaleinstellungen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Jetzt können Sie in Ihren E-Mail-Kanaleinstellungen ein optionales CC-Feld (Carbon Copy) konfigurieren. Im Gegensatz zu BCC sind CC-Empfänger für den primären Empfänger sichtbar, was eine transparente Kommunikation und eine klarere Eigentümerschaft ermöglicht.</p>
-<p>Auf diese Weise können Sie automatisch den richtigen Stakeholder für jede Nachricht kopieren - z. B. einen Beziehungs-Manager oder einen Kontoinhaber - und gleichzeitig sicherstellen, dass der Kunde weiß, an wen er sich zwecks Folgenachricht wenden muss.</p>
-<p>Das CC-Feld unterstützt Personalisierung, sodass eine einzelne Konfiguration Kopien basierend auf Profildaten dynamisch weiterleiten kann, sodass sie ohne zusätzliche Einrichtung für mehrere Anwendungsfälle skalierbar ist.</p>
-<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
-<p>Weitere Informationen finden Sie in der <a href="../configuration/cc-email-field.md">ausführlichen Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Deeplinks in der E-Mail-Designer</strong><br/></th>
 </tr>
 </thead>
@@ -424,6 +411,5 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 
 #### Orchestrierte Kampagnen
 
-* **Verbesserungen bei Data Modeler** - Orchestrierte relationale Schemata unterstützen jetzt zusammengesetzte Schlüssel, die mehrere Felder umfassen. Das Laden eines Schemas aus einer DDL-Datei führt auch zu Auflistungen, und beim Laden aus einer DDL- oder Excel-Datei werden automatisch zusammengesetzte Beziehungen zwischen Tabellen erstellt. In der Ansicht der Entitätsbeziehung zeigen zusammengesetzte Links jetzt den vollständigen Satz von Feldpaaren zwischen Tabellen an, nachdem eine Datei hochgeladen wurde.
-
 * **Globale Variablen in orchestrierten Kampagnen** - Orchestrierte Kampagnen unterstützen jetzt globale Variablen, die einmal definiert und über alle Aktivitäten innerhalb eines Workflows hinweg wiederverwendet werden können, um die Konfiguration zu vereinfachen und die Konsistenz von dynamischen Werten, Ausdrücken und der Personalisierung von Inhalten sicherzustellen.
+
