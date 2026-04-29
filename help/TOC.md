@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: aef18a41657866c5c612442c460b5c464553eaba
 workflow-type: tm+mt
 source-wordcount: '3276'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Effizientes Arbeiten {#work-efficiently}
       + [Navigieren in der Benutzeroberfläche](using/start/user-interface.md)
       + [Suchen, Filtern und Organisieren](using/start/search-filter-categorize.md)
-      + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Barrierefreiheit](using/start/accessibility.md)
       + {hide-from-toc}[Journey vs. Kampagnen](using/start/journeys-vs-campaigns.md)
 + Journeys {#orchestrate-journeys}
@@ -230,7 +230,7 @@ ht-degree: 90%
       + [Festlegen von Ruhezeiten](using/conflict-prioritization/quiet-hours.md)
    + Journey-Schlichtung {#journey-arbitration}
       + [Formeln verwenden, um Journey zu ordnen](using/conflict-prioritization/journey-ranking-formulas.md)
-      + {hide-from-toc}[Verwenden von KI-Modellen, um Journey zu reihen](using/conflict-prioritization/journey-ai-models.md)
+      + [Verwenden von KI-Modellen zum Sortieren von Journey](using/conflict-prioritization/journey-ai-models.md)
 + Testen und Genehmigen {#test}
    + [Testen, Validieren und Genehmigen](/help/rp_landing_pages/test-landing-page.md)
    + Vorschau und Testen der Inhalte {#preview-test}
@@ -509,7 +509,7 @@ ht-degree: 90%
       + {hide-from-toc}[Erste Schritte mit der Vendors-Integration](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[Beispielkonfigurationen von Anbietern](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQs](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[Arbeiten mit KI-Tools über MCP](/help/using/integrations/ajo-mcp.md)
+      + [Arbeiten mit KI-Tools über MCP](/help/using/integrations/ajo-mcp.md)
    + KI-Assistent für die Inhaltsgenerierung {#ai-assistant}
       + [KI-Assistent für die Inhaltsgenerierung](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Erste Schritte mit dem KI-Assistenten](using/content-management/gs-generative.md)
@@ -915,7 +915,7 @@ ht-degree: 90%
       + [Zulassungsliste](using/configuration/allow-list.md)
    + [Verwenden von Testadressenlisten](using/configuration/seed-lists.md)
    + [Unterstützung für E-Mail-Archivierung](using/configuration/archiving-support.md)
-   + {hide-from-toc}[Hinzufügen eines CC-Felds zu E-Mails](using/configuration/cc-email-field.md)
+   + [Hinzufügen eines CC-Felds zu E-Mails](using/configuration/cc-email-field.md)
    + [Verwalten von Ausführungsfeldern](using/configuration/primary-email-addresses.md)
    + [Erstellen von Feedback-Webhooks](using/configuration/feedback-webhooks.md)
 + Journey-Konfiguration {#configure-journeys}
