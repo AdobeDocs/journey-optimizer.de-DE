@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 95%
+source-wordcount: '549'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Wenn Sie die Entscheidungsfindung in Code-basierten Erlebnissen verwenden, sollt
 
 ## Testen von Code-basierten Erlebnissen mithilfe von Entscheidungen {#code-based-test-decisions}
 
-Beim Testen [code-basierten Erlebnisses](create-code-based.md) mit Decisioning kann das `dryRun`-Flag verwendet werden, um Feedback-Ereignisse für Reporting- und Begrenzungszähler zu unterdrücken.
+When testing [code-based experience](create-code-based.md) with decisioning, the `dryRun` flag can be used to suppress feedback events for both reporting and capping counters.
 
 Fügen Sie nach dem Veröffentlichen Ihrer Kampagne die Markierung `dryRun` zum XDM-Ereignis-Block `data` in Ihrer Client-Implementierung hinzu:
 
@@ -296,7 +296,7 @@ Nehmen wir an, Sie verwenden dieselbe Entscheidungsrichtlinie mit Kopf- und Fuß
 
 ## Tutorials {#tutorials}
 
-In [diesem Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} erfahren Sie, wie Sie Code-basierte Erlebnisse mit der [Adobe Journey Optimizer-Erweiterung](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} für Adobe Experience Platform Mobile SDKs abrufen, anzeigen und nachverfolgen.
+In [diesem Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"} erfahren Sie, wie Sie Code-basierte Erlebnisse mit der [Adobe Journey Optimizer-Erweiterung](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} für Adobe Experience Platform Mobile SDKs abrufen, anzeigen und nachverfolgen.
 
 In [diesem Tutorial](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} erfahren Sie, wie Sie mithilfe von Entscheidungsfindung in Journey Optimizer Inhaltsangebote auf Ihrer Website personalisieren können, wobei der Schwerpunkt auf der Konfiguration von Web SDK liegt.
 

@@ -6,10 +6,10 @@ feature: Content Cards
 role: Admin, Developer
 level: Experienced
 exl-id: 8e1a1e94-c3c1-4981-9380-76b7d8302c78
-source-git-commit: 01d3d3d272f2ade11f6edcd6ed01b3308f9079b8
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '257'
+ht-degree: 61%
 
 ---
 
@@ -22,27 +22,27 @@ Auf den folgenden Dokumentationsseiten erfahren Sie, wie Sie mithilfe des Messag
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/displaying-content-cards/">
+<a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/displaying-content-cards">
 <img alt="Abrufen" src="assets/do-not-localize/fetch.jpeg">
 </a>
-<div><a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/displaying-content-cards/"><strong>Abrufen und Anzeigen von Inhaltskarten</strong>
+<div><a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/displaying-content-cards"><strong>Abrufen und Anzeigen von Inhaltskarten</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/customizing-content-card-templates/">
+<a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/customizing-content-card-templates">
 <img alt="Anpassen" src="assets/do-not-localize/customize.jpeg">
 </a>
 <div>
-<a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/customizing-content-card-templates/"><strong>Anpassen von Inhaltskarten</strong></a>
+<a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/customizing-content-card-templates"><strong>Anpassen von Inhaltskarten</strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/listening-content-card-events/">
+<a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/listening-content-card-events">
 <img alt="Überwachen" src="assets/do-not-localize/listen.jpeg">
 </a>
 <div>
-<a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/listening-content-card-events/"><strong>Überwachen von Inhaltskarten-Ereignissen</strong></a>
+<a href="https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/tutorial/listening-content-card-events"><strong>Überwachen von Inhaltskarten-Ereignissen</strong></a>
 </div>
 <p>
 </td>

@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 64%
+source-wordcount: '2257'
+ht-degree: 62%
 
 ---
 
@@ -47,7 +47,7 @@ Um Ihren Kundinnen und Kunden das beste dynamische Angebot und Erlebnis zu biete
 
 ## Hinzufügen einer Entscheidungsrichtlinie {#add}
 
-Öffnen Sie eine Journey oder Kampagne, wählen Sie eine [Kanalaktion](../building-journeys/journey-action.md) aus und bearbeiten Sie den Inhalt Ihrer Nachricht.
+Öffnen Sie eine Journey oder Kampagne, wählen Sie [Kanalaktion](../building-journeys/journey-action.md) und bearbeiten Sie den Inhalt Ihrer Nachricht.
 
 Bearbeiten Sie den Inhalt Ihrer Nachricht und navigieren Sie zu den folgenden Registerkarten, um weitere Informationen zum Hinzufügen der Entscheidungsrichtlinie basierend auf dem ausgewählten Kanal zu erhalten.
 
@@ -171,7 +171,7 @@ Für Push-Benachrichtigungen können Sie eine neue Entscheidungsrichtlinie entwe
 
 >[!IMPORTANT]
 >
->Für Experience Decisioning mit Push-Benachrichtigungen ist eine bestimmte Version der Mobile SDK erforderlich. Bevor Sie diese Funktion implementieren, überprüfen Sie die [Versionshinweise](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}, um die erforderliche Version zu identifizieren und sicherzustellen, dass Sie das Upgrade entsprechend durchgeführt haben. Sie können auch alle verfügbaren SDK-Versionen für Ihre Plattform in [diesem Abschnitt](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"} anzeigen.
+>Für Experience Decisioning mit Push-Benachrichtigungen ist eine bestimmte Version der Mobile SDK erforderlich. Bevor Sie diese Funktion implementieren, überprüfen Sie die [Versionshinweise](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}, um die erforderliche Version zu identifizieren und sicherzustellen, dass Sie das Upgrade entsprechend durchgeführt haben. Sie können auch alle verfügbaren SDK-Versionen für Ihre Plattform in [diesem Abschnitt](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"} anzeigen.
 
 +++
 
@@ -179,7 +179,7 @@ Für Push-Benachrichtigungen können Sie eine neue Entscheidungsrichtlinie entwe
 
 ## Konfigurieren der Entscheidungsrichtlinie {#configure}
 
-Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, wird der Konfigurationsbildschirm für Entscheidungsrichtlinien geöffnet. Führen Sie die folgenden Schritte aus, um die Entscheidungsrichtlinie zu konfigurieren:
+Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, wird der Konfigurationsbildschirm für Entscheidungsrichtlinien geöffnet. Follow these steps to configure the decision policy:
 
 1. Geben Sie einen Namen für die Entscheidungsrichtlinie an und wählen Sie einen Katalog aus (derzeit beschränkt auf den Standardkatalog **[!UICONTROL Angebote]**).
 
@@ -225,7 +225,7 @@ Im Bereich **[!UICONTROL Strategiesequenz]** können Sie die Entscheidungselemen
    >
    >Eine Entscheidungsrichtlinie unterstützt bis zu 10 Auswahlstrategien und Entscheidungselemente zusammen. [Weitere Informationen zu den Leitlinien und Einschränkungen für die Entscheidungsfindung](gs-experience-decisioning.md#guardrails)
 
-1. Wenn mehrere Entscheidungselemente und/oder Strategien hinzugefügt werden, werden diese in einer bestimmten Reihenfolge ausgewertet. Das erste Objekt, das der Sequenz hinzugefügt wurde, wird zuerst ausgewertet und die Auswertung wird in dieser Reihenfolge fortgeführt. Die Objekte und/oder Gruppen können nach Bedarf per Drag-and-Drop verschoben werden, um die Standardsequenz zu ändern.  Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten.
+1. Wenn mehrere Entscheidungselemente und/oder Strategien hinzugefügt werden, werden diese in einer bestimmten Reihenfolge ausgewertet. Das erste Objekt, das der Sequenz hinzugefügt wurde, wird zuerst ausgewertet und die Auswertung wird in dieser Reihenfolge fortgeführt. Die Objekte und/oder Gruppen können nach Bedarf per Drag-and-Drop verschoben werden, um die Standardsequenz zu ändern. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten.
 
    +++Verwalten der Auswertungsreihenfolge in einer Entscheidungsrichtlinie
 
@@ -274,11 +274,11 @@ Im Bereich **[!UICONTROL Strategiesequenz]** können Sie die Entscheidungselemen
 
      Angebote mit Strategie 1 und 2 werden gemeinsam ausgewertet (Angebot 1, Angebot 2, Angebot 3, Angebot 4, Angebot 5). Nehmen wir an, das Ergebnis lautet:
 
-     Angebot 1 – 10
-Angebot 2 – 20
-Angebot 3 – 30 aus Strategie 1, 45 aus Strategie 2. Der höchste Wert von beiden wird berücksichtigt, also 45.
-Angebot 4 - 40
-Angebot 5 - 50
+     Offer 1 - 10
+Offer 2 - 20
+Angebot 3 - 30 aus Strategie 1, 45 aus Strategie 2. Der höchste Wert von beiden wird berücksichtigt, also 45.
+Offer 4 - 40
+Offer 5 - 50
 
      Die Rangfolge der Angebote lautet nun wie folgt: Angebot 5, Angebot 3, Angebot 4, Angebot 2, Angebot 1.
 
@@ -312,7 +312,7 @@ Nachdem Sie eine Auswahlstrategie konfiguriert und Fallback-Angebote hinzugefüg
 
 >[!IMPORTANT]
 >
->Nachdem eine Entscheidungsrichtlinie erstellt wurde, kann es bis zu 15 Minuten dauern, bis Änderungen an ihr in allen Datenregionen propagiert werden, und bis zu 30 Minuten für Kanada. Dazu gehören Änderungen, z. B. das Hinzufügen eines neuen Entscheidungselements zu einer Sammlung, das Ändern einer Regel in einem Element, das Ändern des Elementinhalts oder das Aktualisieren einer Formel.
+>Once a decision policy is created, any changes made to it can take up to 15 minutes to propagate across all data regions, and up to 30 minutes for Canada. Dazu gehören Änderungen, z. B. das Hinzufügen eines neuen Entscheidungselements zu einer Sammlung, das Ändern einer Regel in einem Element, das Ändern des Elementinhalts oder das Aktualisieren einer Formel.
 
 Sie können eine Entscheidungsrichtlinie jederzeit mithilfe der Schaltfläche mit den Auslassungspunkten im Personalisierungseditor oder im Menü **[!UICONTROL Entscheidungsfindung]** im Bereich der Komponenteneigenschaften bearbeiten oder löschen.
 
@@ -322,7 +322,7 @@ Sie können eine Entscheidungsrichtlinie jederzeit mithilfe der Schaltfläche mi
 
 ![](assets/decision-policy-edit.png)
 
->[!TAB Bearbeiten oder Löschen einer Richtlinie aus dem Menü Entscheidung]
+>[!TAB Edit or delete a policy from the Decisioning menu]
 
 ![](assets/decision-policy-edit-properties.png)
 
@@ -336,6 +336,6 @@ Für E-Mails müssen Sie eine Platzierung für die Komponente definieren, die mi
 
 ## Nächste Schritte {#next-steps}
 
-Nachdem Sie nun wissen, wie Sie eine Entscheidungsrichtlinie erstellen, können Sie sie in [!DNL Journey Optimizer] Kanälen verwenden, um Angebote zu unterbreiten.
+Now that you understand how to create a decision policy, you&#39;re ready to use it into [!DNL Journey Optimizer] channels to deliver offers.
 
 ➡️ [Informationen zum Verwenden von Entscheidungsrichtlinien in Nachrichten](../experience-decisioning/use-decision-policy.md)

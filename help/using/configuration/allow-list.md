@@ -8,10 +8,10 @@ role: Admin
 level: Intermediate
 keywords: Zulassungsliste, sichere Liste, E-Mail, Zustellbarkeit, Sandbox, Domains, Unterdrückung, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 72%
+source-wordcount: '1341'
+ht-degree: 73%
 
 ---
 
@@ -27,7 +27,7 @@ In Nicht-Produktions-Sandboxes, in denen versehentliche Sendungen auftreten kön
 
 Wenn die Zulassungsliste aktiv, aber leer ist, werden keine E-Mails gesendet. Dies macht es zu einer nützlichen Notbremse: Wenn ein kritisches Problem auftritt, können Sie eine leere Zulassungsliste aktivieren, um alle von [!DNL Journey Optimizer] ausgehenden Nachrichten zu stoppen, bis das Problem behoben ist. Erfahren Sie mehr über die [Logik der Zulassungsliste](#logic).
 
-Sie können auch die Journey Optimizer-Unterdrückungs **REST-API verwenden,** ausgehende Nachrichten programmgesteuert über Unterdrückungs- und Zulassungslisten zu verwalten. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Sie können auch die Journey Optimizer-Unterdrückungs **REST-API verwenden,** ausgehende Nachrichten programmgesteuert über Unterdrückungs- und Zulassungslisten zu verwalten. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet.](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## Zugriff auf die Zulassungsliste {#access-allowed-list}
 
@@ -51,11 +51,11 @@ Sie können nach E-Mail-Adressen oder Domains suchen und nach dem **[!UICONTROL 
 
 Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]** auf.
+1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]**.
 
 1. Wählen Sie den Umschalter aus.
 
-   ![Umschalter zum Aktivieren der Zulassungsliste &#x200B;](assets/allow-list-edit.png)
+   ![Umschalter zum Aktivieren der Zulassungsliste ](assets/allow-list-edit.png)
 
 1. Wählen Sie **[!UICONTROL Zulassungsliste aktivieren]** aus. Die Zulassungsliste ist jetzt aktiv.
 
@@ -64,7 +64,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
    >[!NOTE]
    >
    >* Nach der Aktivierung dauert es 10 Minuten, bis die Zulassungsliste in Journey und Kampagnen wirksam wird. Es kann bis zu 10 Minuten dauern, bis Aktualisierungen sowohl der Zulassungslisten- als auch der Unterdrückungsliste angezeigt werden.
-   >* Wenn diese Option aktiviert ist, wird die Zulassungsliste nicht nur in Live-Journey[&#x200B; sondern auch beim Testen von Nachrichten mit „Testsendungen](../content-management/proofs.md) und Journey im [Testmodus](../building-journeys/testing-the-journey.md) durchgesetzt.
+   >* Wenn diese Option aktiviert ist, wird die Zulassungsliste nicht nur in Live-Journey[ sondern auch beim Testen von Nachrichten mit „Testsendungen](../content-management/proofs.md) und Journey im [Testmodus](../building-journeys/testing-the-journey.md) durchgesetzt.
 
 Die Logik der Zulassungsliste wird angewendet, wenn die Funktion aktiviert ist. Weiterführende Informationen finden Sie in [diesem Abschnitt](#logic).
 
@@ -72,11 +72,11 @@ Die Logik der Zulassungsliste wird angewendet, wenn die Funktion aktiviert ist. 
 
 Gehen Sie wie folgt vor, um die Zulassungsliste zu deaktivieren.
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]** auf.
+1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]**.
 
 1. Wählen Sie den Umschalter aus.
 
-   ![Umschalter zum Deaktivieren der Zulassungsliste &#x200B;](assets/allow-list-edit-active.png)
+   ![Umschalter zum Deaktivieren der Zulassungsliste ](assets/allow-list-edit-active.png)
 
 1. Wählen Sie die Option **[!UICONTROL Zulassungsliste deaktivieren]** aus. Die Zulassungsliste ist nicht mehr aktiv.
 
@@ -154,7 +154,7 @@ Führen Sie die folgenden Schritte aus, um die Zulassungsliste als CSV-Datei zu 
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL CSV herunterladen]**.
 
-   ![Schaltfläche „CSV herunterladen“ auf der Seite Zulassungsliste &#x200B;](assets/allowed-list-download-csv.png)
+   ![Schaltfläche „CSV herunterladen“ auf der Seite Zulassungsliste ](assets/allowed-list-download-csv.png)
 
 1. Warten Sie, bis die Datei generiert wurde.
 

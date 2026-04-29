@@ -11,10 +11,10 @@ keywords: Ausdruck, Editor
 mini-toc-levels: 1
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 93%
+source-wordcount: '890'
+ht-degree: 92%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 93%
 >title="Für Lookup aktivieren"
 >abstract="Durch die Aktivierung eines Datensatzes für die Suche können Sie dessen Daten mit den Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung von Journey Optimizer nutzen."
 
-Mit [!DNL Journey Optimizer] können Sie Daten aus [!DNL Adobe Experience Platform] mit Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung nutzen. Hierzu müssen auf Einträgen basierende Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben für den Suchdienst aktiviert werden. 
+Mit [!DNL Journey Optimizer] können Sie Daten aus [!DNL Adobe Experience Platform] mit Funktionen für Personalisierung, Entscheidungsfindung und Journey-Orchestrierung nutzen. Hierzu müssen auf Einträgen basierende Datensätze, die für die Personalisierung der Suche erforderlich sind, zunächst wie nachfolgend beschrieben für den Suchdienst aktiviert werden.
 
 >[!NOTE]
 >
->Die Datensuchfunktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
+>The data lookup capability is only available for a set of organizations (Limited Availability). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
 
 Weitere Informationen darüber, wie Sie auf Datensätze zugreifen und damit arbeiten, finden Sie in diesem Abschnitt: [Erste Schritte mit Datensätzen](../data/get-started-datasets.md)
 
@@ -47,7 +47,7 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 
 * **Ständig aktivierte Suchoption**: Vermeiden Sie die wiederholte Aktivierung und Deaktivierung von Datensätzen. Dies kann zu unerwartetem Indizierungsverhalten führen. Es empfiehlt sich, den Datensatz so lange aktiviert zu lassen, wie Sie ihn für Suchen verwenden möchten.
 
-* **Edge-Aktivierungsregion** - Datensätze, die für die Suche aktiviert sind, sind nur für die eingehende Edge-basierte Aktivierung in der Region verfügbar, in der sich die Sandbox des Datensatzes befindet (z. B. NLD2 oder VA7). Der Sandbox-Bereich wird in der Benutzeroberfläche neben dem Sandbox-Namen angezeigt.
+* **Edge activation region** - Datasets enabled for lookup are available for inbound edge-based activation only in the region where the dataset&#39;s sandbox resides (for example, NLD2 or VA7). Der Sandbox-Bereich wird in der Benutzeroberfläche neben dem Sandbox-Namen angezeigt.
 
 * **Löschen eines Daten-Batches**: Wenn Sie einen Batch von Daten aus Ihrem Datensatz entfernen, werden alle übereinstimmenden Schlüssel vollständig aus dem Suchdienst entfernt. Beispiel:
 
@@ -109,7 +109,7 @@ Verwenden Sie in der Benutzeroberfläche zur Datensatzverwaltung den Umschalter,
 
 ### API-Methode
 
-Befolgen Sie die Anweisungen in [dieser Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/authentication/), um Ihre Umgebung für das Senden von API-Befehlen zu konfigurieren.
+Befolgen Sie die Anweisungen in [dieser Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/authentication), um Ihre Umgebung für das Senden von API-Befehlen zu konfigurieren.
 
 #### Voraussetzungen
 

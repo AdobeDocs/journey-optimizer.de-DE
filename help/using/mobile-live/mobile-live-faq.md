@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1850'
 ht-degree: 44%
 
 ---
@@ -137,46 +137,46 @@ So minimieren Sie Einschränkungen:
 
 ### Fragen von Marketing-Fachleuten
 
-+++Kann ich den Inhalt der Live-Aktivität für jeden Benutzer in einer Broadcast-Kampagne personalisieren?
++++Can I personalize Live activity content for each user in a broadcast campaign?
 
 Übertragungskampagnen senden dieselben Inhalte an alle Benutzenden in der Zielgruppe. Verwenden Sie für personalisierte Inhalte einheitliche (Transaktions-)Kampagnen, die auf einzelne Benutzende abzielen.
 +++
 
-+++Woher weiß ich, ob meine Live-Aktivität erfolgreich bereitgestellt wurde?
++++How do I know if my Live activity was successfully delivered?
 
 [Überwachen Sie Ihre Kampagnenanalysen](../reports/campaign-global-report-cja-activity.md) in Adobe Journey Optimizer. Sie können Versandraten, Fehler und Interaktionsmetriken nachverfolgen. Erwägen Sie auch, benutzerdefinierte Analyseereignisse in Ihrer App zu implementieren.
 +++
 
-+++Kann ich Live-Aktivitäten im Voraus planen?
++++Can I schedule Live activities in advance?
 
-Durch den API-Aufruf wird die Live-Aktivität sofort Trigger. Sie können Ihre API-Aufrufe jedoch über Ihre Backend-Systeme planen oder die Orchestrierungsfunktionen von Journey Optimizer verwenden, um sie zeitlich passend festzulegen.
+The API call triggers the Live activity immediately. Sie können Ihre API-Aufrufe jedoch über Ihre Backend-Systeme planen oder die Orchestrierungsfunktionen von Journey Optimizer verwenden, um sie zeitlich passend festzulegen.
 +++
 
-+++Was passiert, wenn ich ein „Start“-Ereignis für eine bereits vorhandene Live-Aktivität sende?
++++What happens if I send a &quot;start&quot; event for a Live activity that already exists?
 
-Beim Remote-Start einer Live-Aktivität über die Ausführungs-APIs von Adobe:
+When remotely starting a Live activity through Adobe&#39;s Execution APIs:
 
-* Sie können der Anfrage einen `x-request-id`-Header hinzufügen. Idealerweise sollte eine Eins-zu-eins-Beziehung zwischen jeder `liveActivityID` und der entsprechenden `x-request-id` bestehen. Dadurch wird sichergestellt, dass bei mehreren Anfragen mit derselben `x-request-id` und `liveActivityID` Kombination nur eine Live-Aktivitätsinstanz auf dem Gerät gestartet und doppelte Anfragen ignoriert werden.
+* Sie können der Anfrage einen `x-request-id`-Header hinzufügen. Idealerweise sollte eine Eins-zu-eins-Beziehung zwischen jeder `liveActivityID` und der entsprechenden `x-request-id` bestehen. This ensures that if multiple requests are made with the same `x-request-id` and `liveActivityID` combination, only one Live activity instance will be started on the device, and duplicate requests will be ignored.
 
-* Wenn der `x-request-id`-Header ausgelassen wird, wird jede Anfrage unabhängig behandelt, was dazu führen kann, dass mehrere Live-Aktivitätsinstanzen mit demselben `liveActivityID` erstellt werden. In solchen Fällen können zukünftige Aktualisierungen fehlschlagen oder nur für eine der aktiven Instanzen gelten.
+* If the `x-request-id` header is omitted, each request is treated independently, which can result in multiple Live activity instances being created with the same `liveActivityID`. In solchen Fällen können zukünftige Aktualisierungen fehlschlagen oder nur für eine der aktiven Instanzen gelten.
 
 * Der `x-request-id`-Wert sollte nicht in verschiedenen `liveActivityIDs` in separaten API-Anfragen wiederverwendet werden.
 
 +++
 
-+++Kann ich verschiedene Live-Aktivitätserlebnisse in A/B testen?
++++Can I A/B test different Live activity experiences?
 
 Ja. Erstellen Sie mehrere Kampagnen mit unterschiedlichen Inhaltsstrukturen und verwenden Sie die Experimentierfunktionen von Adobe Journey Optimizer, um zu testen, welche besser funktioniert. Stellen Sie sicher, dass Ihre App alle Inhaltszustandsvarianten unterstützt.
 
 +++
 
-+++Wie oft sollte ich eine Live-Aktivität aktualisieren?
++++How often should I update a Live activity?
 
 Aktualisieren Sie sie nur, wenn sich wichtige Informationen ändern, da zu häufige Aktualisierungen den Akku entladen und die Qualität des Anwendererlebnisses beeinträchtigen können. Bei Echtzeit-Szenarien wie dem Versand-Tracking ist in der Regel ein Abstand von 30 bis 60 Sekunden akzeptabel. Bei sich langsamer ändernden Inhalten wie Zwischenständen von Sportereignissen werden nur Aktualisierungen bei wichtigen Geschehnissen vorgenommen.
 
 +++
 
-+++Kann ich Benutzende darauf ansprechen, ob sie Live-Aktivitäten aktiviert haben?
++++Can I target users based on whether they have Live activities enabled?
 
 Sie müssen mit Ihrem Entwicklungs-Team zusammenarbeiten, um diese Voreinstellung als Benutzerattribut nachzuverfolgen und an Adobe Experience Platform zu übergeben. Anschließend können Sie basierend auf diesem Attribut segmentieren.
 
@@ -187,7 +187,7 @@ Sie müssen mit Ihrem Entwicklungs-Team zusammenarbeiten, um diese Voreinstellun
 +++Was ist der Unterschied zwischen `timestamp` und `dismissal-date`?
 
 * `timestamp`: Die aktuelle Epochenzeit, zu der das Ereignis auftritt. Wird für alle Ereignisse benötigt.
-* `dismissal-date`: Ein zukünftiger Zeitraum, in dem die Live-Aktivität automatisch beendet werden soll. Dies ist nur für „Ende“-Ereignisse erforderlich.
+* `dismissal-date`: A future epoch time when the Live activity should auto-dismiss, required only for &quot;end&quot; events.
 
 +++
 
@@ -215,7 +215,7 @@ Nein. Jede API-Anfrage sollte über eine eindeutige `requestId` verfügen, um di
 
 +++Welche Authentifizierung ist für die Headless-API erforderlich?
 
-Informationen zu Authentifizierungspflichten, einschließlich OAuth-Token und API-Schlüsseln, finden Sie der [Dokumentation zu durch API ausgelösten Kampagnen](https://developer.adobe.com/journey-optimizer-apis/references/messaging/).
+Informationen zu Authentifizierungspflichten, einschließlich OAuth-Token und API-Schlüsseln, finden Sie der [Dokumentation zu durch API ausgelösten Kampagnen](https://developer.adobe.com/journey-optimizer-apis/references/messaging).
 
 +++
 
@@ -225,9 +225,9 @@ Implementieren Sie eine Wiederholungslogik mit exponentiellem Backoff. Überprü
 
 +++
 
-+++Kann ich Live-Aktivitäts-Updates von meinen eigenen Backend-Servern senden?
++++Can I send Live activity updates from my own backend servers?
 
-Ja, das ist das beabsichtigte Verhalten. Ihr Backend ruft die Adobe Journey Optimizer Headless-API auf, um Trigger-Live-Aktivitätsereignisse zu senden, wenn Ihre Geschäftslogik dies erfordert.
+Ja, das ist das beabsichtigte Verhalten. Your backend calls the Adobe Journey Optimizer Headless API to trigger Live activity events when your business logic requires it.
 
 +++
 
@@ -243,13 +243,13 @@ Nein. Sie können dieselbe Kampagne verwenden und das Feld `event` in der Payloa
 >
 >Eine umfassende Anleitung zur Fehlerbehebung finden Sie unter [Fehlerbehebung bei Live-Aktivitäten](troubleshoot-mobile-live.md).
 
-+++Meine Live-Aktivität beginnt, wird aber nicht aktualisiert. Was könnte das Problem sein?
++++My Live activity starts but does not update. Was könnte das Problem sein?
 
 Häufige Ursachen:
 
 * `liveActivityID` oder `channelID` von Start- und Auktualisierungsaufrufen stimmen nicht überein.
 * `content-state`-Felder stimmen nicht mit Ihrer `ContentState`-Struktur überein.
-* Die Live-Aktivität wurde bereits beendet.
+* The Live activity has already ended.
 * Probleme mit der Netzwerkverbindung auf dem Gerät.
 * Die als Zeitstempel verwendete Epochenzeit ist nicht aktuell.
 
@@ -260,23 +260,23 @@ Häufige Ursachen:
 * Stellen Sie sicher, dass der Klassenname **exakt** (unter Berücksichtigung der Groß-/Kleinschreibung) Ihrem Swift-Strukturnamen entspricht
 * Überprüfen Sie, ob die Struktur ordnungsgemäß definiert und registriert ist
 * Überprüfen Sie die JSON-Payload auf Tippfehler
-* Überprüfen Sie, ob die installierte App-Version die Live-Aktivitätsimplementierung enthält
+* Confirm the app version installed has the Live activity implementation
 
 +++
 
-+++Benutzende sehen nur die Live-Aktivitäts-Aktualisierung und nicht die Warnmeldung. Ist dieses Problem bekannt?
++++Users only see the Live activity update and not the alert notification, is this a known issue?
 
-Nein. Das Feld `alert` ist optional und kann unter bestimmten Bedingungen von iOS unterdrückt werden, z. B. im Modus „Nicht stören“. Eine Live-Aktivität kann im Hintergrund aktualisiert werden, was häufig das beabsichtigte Verhalten ist. Das Feld für Warnhinweise ist obligatorisch für das Senden von Remote-Starts, andernfalls behandelt Apple es wie eine stille Hintergrundbenachrichtigung.
-
-+++
-
-+++Kann ich alle Live-Aktivitätsinstanzen für einen Benutzer löschen oder löschen?
-
-Sie müssen für jede aktive Live-Aktivitätsinstanz ein „Ende“-Ereignis senden. Verfolgen Sie, welche Live-Aktivitätsinstanzen für jede Benutzerin und jeden Benutzer in Ihren Systemen aktiv sind, damit Sie sie ordnungsgemäß bereinigen können.
+Nein. Das Feld `alert` ist optional und kann unter bestimmten Bedingungen von iOS unterdrückt werden, z. B. im Modus „Nicht stören“. A Live activity can update silently, which is often the intended behavior. Das Feld für Warnhinweise ist obligatorisch für das Senden von Remote-Starts, andernfalls behandelt Apple es wie eine stille Hintergrundbenachrichtigung.
 
 +++
 
-+++Mein Widget zeigt „Keine Daten“ an, obwohl ich eine Aktualisierung gesendet habe. Was könnte das Problem sein?
++++Can I delete or clear all Live activity instances for a user?
+
+You need to send an &quot;end&quot; event for each active Live activity instance. Track which Live activity instances are active for each user in your systems so you can properly clean them up.
+
++++
+
++++My widget shows &quot;No data&quot; even though I sent an update. Was könnte das Problem sein?
 
 * Überprüfen Sie, ob Ihre Widget-Implementierung ordnungsgemäß auf `context.state` und `context.attributes` zugreifen kann.
 * Vergewissern Sie sich, dass in Ihrer Widget-Oberfläche Standardwerte oder Fehlerstatus verarbeitet werden.

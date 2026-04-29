@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Einschränkungs-API
+title: Drosselungs-API
 description: Erfahren Sie, wie Sie mit der Einschränkungs-API arbeiten
 feature: Journeys, API
 role: Developer
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1060'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 Mit der Drosselungs-API können Sie Ihre Drosselungskonfigurationen erstellen, konfigurieren und überwachen, um die Anzahl der pro Sekunde gesendeten Ereignisse zu begrenzen.
 
-In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. Eine detaillierte API-Beschreibung finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
+In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. Eine detaillierte API-Beschreibung finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
 
 ## Wichtige Informationen
 
@@ -32,7 +32,7 @@ In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. 
 
 ## Beschreibung des Drosselungs-APIs und Postman-Sammlung {#description}
 
-In der folgenden Tabelle sind die verfügbaren Befehle für das Drosselungs-API aufgeführt. Ausführliche Informationen, einschließlich Anfragebeispielen, Parametern und Antwortformaten, finden Sie in der [Dokumentation zu den Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/).
+In der folgenden Tabelle sind die verfügbaren Befehle für das Drosselungs-API aufgeführt. Ausführliche Informationen, einschließlich Anfragebeispielen, Parametern und Antwortformaten, finden Sie in der [Dokumentation zu den Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling).
 
 | Methode | Pfad | Beschreibung |
 |---|---|---|
@@ -55,7 +55,7 @@ Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzu
 * `{BASE_PATH}` : Einstiegspunkt für die API.
 * `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de){target="_blank"}.
 
-## Drosselungskonfiguration{#configuration}
+## Drosselungskonfiguration {#configuration}
 
 Hier finden Sie die Struktur einer Drosselungskonfiguration. Die Attribute **name** und **description** sind optional.
 

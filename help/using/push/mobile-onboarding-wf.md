@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 9d3100389f6cfbd80ef8539db831ecc6817848c5
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '369'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ Der neue **Schnellstart-Workflow für Mobile-Onboarding** ist eine neue Produktf
 
 Diese Funktion ist als eine öffentliche Beta-Version über die **[!DNL Adobe Experience Platform Data Collection]**-Startseite für alle Kunden verfügbar.
 
-## Erste Schritte  {#gs-mobile-wf}
+## Erste Schritte{#gs-mobile-wf}
 
 Dieser neue Workflow automatisiert die Einrichtung der Datenerfassung, indem die Gesamtzahl der Klicks reduziert und die Mobile-Konfiguration für Journey Optimizer beschleunigt wird. Dieser Schnellstart-Workflow führt Sie durch vier einfache Schritte, um Ihre Mobile-Konfiguration [einzurichten](#gs-mobile-wf), zu [implementieren](#implement-mobile-wf), zu [validieren](#valid-mobile-wf) und zu [überprüfen](#review-mobile-wf).
 
@@ -33,7 +33,7 @@ Navigieren Sie vom Lösungsumschalter aus zum neuen Schnellstart-Workflow für d
 Im Folgenden finden Sie einige zusätzliche Funktionen:
 
 * Einfacher, vierstufiger Workflow und Benutzeroberfläche.
-* Bietet eine grundlegende Einrichtung, um in Minutenschnelle mit der Erfassung von Mobile-Ereignisdaten über das [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} zu beginnen.
+* Bietet eine grundlegende Einrichtung, um in Minutenschnelle mit der Erfassung von Mobile-Ereignisdaten über das [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation){target="_blank"} zu beginnen.
 * Möglichkeit zum Testen und Validieren eines einfachen mobilen Push-Ereignisses mithilfe von [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=de){target="_blank"}.
 * Erstellt und konfiguriert automatisch alle erforderlichen Datenerfassungs- und Journey Optimizer-Assets.
 * In Produktanleitungen und QuickInfos.

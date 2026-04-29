@@ -9,10 +9,10 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '4377'
-ht-degree: 100%
+source-wordcount: '4441'
+ht-degree: 98%
 
 ---
 
@@ -120,7 +120,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tr>
 <td>
 <p>Berechnete Attribute ermöglichen eine einfache Zusammenfassung von Ereignisdaten in Profilattributen über eine intuitive Benutzeroberfläche für eine verbesserte verhaltensbasierte Segmentierung, Personalisierung und Aktivierung. Mit dieser Funktion können Sie berechnete Attribute selbstständig erstellen, verwalten und in Segmentierung, Echtzeit-Kundenprofilzielen oder Journey Optimizer verwenden.<br/><br/>
-Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-Workflows vereinfacht, sodass Sie relevante Erlebnisse nahtlos bereitstellen können. Weitere Informationen finden Sie in der <a href="../audience/computed-attributes.md">detaillierten Dokumentation</a>.</p>
+Darüber hinaus vereinfachen berechnete Attribute die Segmentierung und das Journey von Workflows, damit relevante Erlebnisse nahtlos bereitgestellt werden können. Weitere Informationen finden Sie in der <a href="../audience/computed-attributes.md">detaillierten Dokumentation</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -343,7 +343,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>Sie können nun einen Kompositions-Workflow erstellen, um vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und verschiedene Aktivitäten (Aufteilung, Anreicherung …) zum Erstellen neuer Zielgruppen zu nutzen. Neu erstellte Zielgruppen werden zusammen mit vorhandenen Zielgruppen wieder in Adobe Experience Platform gespeichert und können in Journey Optimizer-Kampagnen zur Kundenansprache verwendet werden.</p>
+<p>Sie können jetzt Kompositions-Workflows erstellen, um bestehende Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und verschiedene Aktivitäten (Aufspaltung, Anreicherung …) zu nutzen. um neue Zielgruppen zu erstellen. Neu erstellte Zielgruppen werden zusammen mit vorhandenen Zielgruppen wieder in Adobe Experience Platform gespeichert und können in Journey Optimizer-Kampagnen zur Kundenansprache verwendet werden.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../audience/get-started-audience-orchestration.md">ausführlichen Dokumentation</a>.</p>
 <p>Die Zielgruppenkomposition ist vollständig in das neue Adobe Experience Platform-Menü „Zielgruppen“ integriert, das als zentralisiertes Portal für Zielgruppen dient. Sie können jetzt eine Seite zum Durchsuchen verwenden, die ein neues Dashboard mit Segmenttrends und Überschneidungen enthält, um neue Einblicke zu erhalten und Organisations-Tools für die Ordner- und Tagging-Verwaltung zu erkunden. Eingebettet in dieses Erlebnis sind Governance-Steuerelemente für standardisierte Zielgruppenbeschriftungen sowie Funktionen für das Management des Zielgruppen-Lebenszyklus, um Aktivierungs-Workflows zu verwalten. Mit diesem neuen Management-Erlebnis können Sie Zielgruppen jetzt einfach und sicher von einem Ort aus verwalten. Weitere Informationen sind in der <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de" target="_blank">Dokumentation zu Adobe Experience Platform</a> verfügbar.</p></p>
@@ -416,7 +416,7 @@ A new option is available in the email surface settings to include email address
 <tr>
 <td>
 <p>Sie können jetzt Adobe Journey Optimizer-Inhaltsvorlagen mithilfe von dedizierten APIs erstellen und verwalten, um eine nahtlose Integration in Ihr vorhandenes Inhaltssystem zu ermöglichen.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://developer.adobe.com/journey-optimizer-apis/references/content/">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://developer.adobe.com/journey-optimizer-apis/references/content">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -443,7 +443,7 @@ Daher wird in Adobe Journey Optimizer und auf der Benutzeroberfläche von Adobe 
 
 **APIs**
 
-Die JWT-Methode zum Generieren von Zugriffs-Token für die Authentifizierung von Adobe Journey Optimizer APIs wird nicht mehr unterstützt. Alle neuen Integrationen müssen mit der Authentifizierungsmethode OAuth-Server-zu-Server erstellt werden. Adobe empfiehlt auch, Ihre vorhandenen Integrationen zur OAuth-Methode zu migrieren. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+Die JWT-Methode zum Generieren von Zugriffs-Token für die Authentifizierung von Adobe Journey Optimizer APIs wird nicht mehr unterstützt. Alle neuen Integrationen müssen mit der Authentifizierungsmethode OAuth-Server-zu-Server erstellt werden. Adobe empfiehlt auch, Ihre vorhandenen Integrationen zur OAuth-Methode zu migrieren. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
 
 **Weitere Änderungen**
