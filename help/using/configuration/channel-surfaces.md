@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1876'
-ht-degree: 95%
+source-wordcount: '1898'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 >title="Marketing-Aktion"
 >abstract="Wählen Sie eine Marketing-Aktion aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die dieses Setup verwenden. Es werden alle mit der Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren."
 
-Mit [!DNL Journey Optimizer] können Sie Kanalkonfigurationen (z. B. Nachrichtenvoreinstellungen) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und -Name, Mobile Apps sowie SMS-Konfiguration.
+Mit [!DNL Journey Optimizer] können Sie Kanalkonfigurationen (z. B. Nachrichtenvoreinstellungen) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und -Name, Antwort- und Fehlerrouting, Mobile Apps, SMS-Konfiguration und mehr.
 
 >[!CAUTION]
 >
@@ -167,7 +167,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu bearbeiten.
 >
 >Die **[!UICONTROL Einstellungen für Push-Benachrichtigungen]** können Sie nicht bearbeiten. Wenn eine Kanalkonfiguration nur für den Kanal „Push-Benachrichtigung“ konfiguriert ist, kann sie nicht bearbeitet werden.
 >
->Beim Bearbeiten einer E-Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ &#x200B;](#create-channel-surface).
+>Beim Bearbeiten einer E-Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ ](#create-channel-surface).
 
 1. Klicken Sie in der Liste auf den Namen einer Kanalkonfiguration, um sie zu öffnen.
 
@@ -292,4 +292,4 @@ Eine deaktivierte Kanalkonfiguration kann nicht direkt bearbeitet werden. Sie k�
 
 Erfahren Sie, was Kanalkonfigurationen sind und wie sie in Adobe Journey Optimizer verwendet werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480460/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
