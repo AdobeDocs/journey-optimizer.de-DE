@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 88%
+source-wordcount: '1336'
+ht-degree: 86%
 
 ---
 
@@ -80,7 +80,7 @@ Nachdem Sie eine oder mehrere dynamische Subdomains zu einer Konfiguration hinzu
 
 * Die [Abmelde-URL](email-settings.md#list-unsubscribe)
 
-* Die Suffixe **Von E-Mail** und **Fehler-E-Mail** 
+* Die Suffixe **Von E-Mail** und **Fehler-E-Mail**
 
 >[!NOTE]
 >
@@ -92,14 +92,14 @@ Sie können die Personalisierung auch für alle Kopfzeilenparameter verwenden, d
 
 >[!NOTE]
 >
->* Alle **[!UICONTROL Kopfzeilenparameter]** Felder können personalisiert werden, mit Ausnahme des Felds **[!UICONTROL E-Mail-Präfix]**.
+>* Alle **[!UICONTROL Kopfzeilenparameter]** und optionalen **[!UICONTROL Absenderkopfzeilen]** können personalisiert werden, mit Ausnahme des Felds **[!UICONTROL E-Mail-Präfix]**.
 >* Beim [Bearbeiten einer E](../configuration/channel-surfaces.md#edit-channel-surface)Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen stattdessen eine neue Kanalkonfiguration erstellen.
 
 Wenn Sie beispielsweise über mehrere Marken verfügen, können Sie eine einzelne Konfiguration erstellen und für Ihre E-Mail-Kopfzeilen personalisierte Werte verwenden. Dadurch können Sie sicherstellen, dass alle von Ihren verschiedenen Marken gesendeten E-Mails jeweils mit den richtigen **Von**-Namen und -E-Mail-Adressen versehen werden. Wenn Ihre Empfängerinnen und Empfänger auf die Schaltfläche **Antworten** in der E-Mail-Client-Software klicken, sollten schließlich die Namen und E-Mail-Adressen für **Antwort an** der richtigen Marke für die richtige Person entsprechen.
 
 Gehen Sie wie folgt vor, um personalisierte Variablen für die Kopfzeilenparameter der Konfiguration zu verwenden.
 
-1. Definieren Sie Ihre Kopfzeilenparameter wie gewohnt. [Weitere Informationen](email-settings.md#email-header)
+1. Definieren Sie Ihre Kopfzeilenparameter wie gewohnt. [Weitere Informationen](header-parameters.md)
 
 1. Wählen Sie für jedes Feld das Symbol „Bearbeiten“ aus.
 
@@ -125,7 +125,7 @@ In den folgenden Beispielen werden Ereignisparameter verwendet, die derzeit nich
 
 >[!NOTE]
 >
->Wenn Sie Ihrer Konfiguration eine oder mehrere dynamische Subdomains hinzugefügt haben, werden die Suffixe **Von-E-Mail** und **Fehler-E-Mail** basierend auf der aufgelösten [dynamischen Subdomain](#dynamic-subdomains) gefüllt.
+>Wenn Sie Ihrer Konfiguration eine oder mehrere dynamische Subdomains hinzugefügt haben, werden die Suffixe **Von-E-Mail** und **Fehler-E-Mail** basierend auf der aufgelösten [dynamischen Subdomain](#dynamic-subdomains) gefüllt. **[!UICONTROL Absender-E]** Mail) ist eine vollständige Adresse und wird nicht aus diesem Subdomain-Suffix erstellt.
 
 ## Verwenden von personalisiertem URL-Tracking {#personalize-url-tracking}
 

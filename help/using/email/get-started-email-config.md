@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: E-Mail, Konfiguration, Oberfläche, Subdomains
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '208'
-ht-degree: 100%
+source-git-commit: 9274277872e34f47e05be1acfe248a3b3303cb13
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 84%
 
 ---
 
@@ -39,7 +39,7 @@ Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] verse
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * Die **[!UICONTROL Absender-E-Mail-Adresse]** und **[!UICONTROL Fehler-E-Mail]**-Adressen müssen die aktuell ausgewählte delegierte Subdomain verwenden. [Weitere Informationen](email-settings.md#email-header)
+   * Die **[!UICONTROL Von E-Mail]** Präfix und **[!UICONTROL Fehler-E-Mail]** Präfix verwenden die aktuell ausgewählte [delegierte Subdomain](../configuration/about-subdomain-delegation.md). Optional können **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** eine andere übertragende Partei identifizieren (vollständige **Absender**-Adresse, nicht an dieses Subdomain-Suffix gebunden). [Weitere Informationen](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 

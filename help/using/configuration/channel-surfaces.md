@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1876'
-ht-degree: 95%
+source-wordcount: '1898'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 >title="Marketing-Aktion"
 >abstract="Wählen Sie eine Marketing-Aktion aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die dieses Setup verwenden. Es werden alle mit der Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren."
 
-Mit [!DNL Journey Optimizer] können Sie Kanalkonfigurationen (z. B. Nachrichtenvoreinstellungen) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und -Name, Mobile Apps sowie SMS-Konfiguration.
+Mit [!DNL Journey Optimizer] können Sie Kanalkonfigurationen (z. B. Nachrichtenvoreinstellungen) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und -Name, Antwort- und Fehlerrouting, Mobile Apps, SMS-Konfiguration und mehr.
 
 >[!CAUTION]
 >

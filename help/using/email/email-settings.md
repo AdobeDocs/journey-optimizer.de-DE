@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 99%
+source-wordcount: '1490'
+ht-degree: 96%
 
 ---
 
@@ -91,7 +91,11 @@ Dadurch können Sie eine URL zum Abmelden mit einem Klick in die E-Mail-Kopfzeil
 
 ## Header-Parameter {#email-header}
 
-Geben Sie im Abschnitt **[!UICONTROL Header-Parameter]** die Absendernamen und E-Mail-Adressen ein, die mit dem Typ der mit dieser Konfiguration gesendeten E-Mails verknüpft sind. [Weitere Informationen](header-parameters.md)
+Geben **[!UICONTROL im Abschnitt]** die Werte **Von**, **Antwort an** und **Fehler** für den Typ der mit dieser Konfiguration gesendeten E-Mails ein. [Weitere Informationen](header-parameters.md)
+
+
+Wenn sich der sendende Drittanbieter vom Autor **Absender** unterscheiden soll, können Sie optional einen anderen **Absender**-Namen und eine andere E-Mail festlegen, die zum E-Mail-Header hinzugefügt werden soll. [Weitere Informationen](header-parameters.md#sender-header)
+
 
 ## BCC-E-Mail-Adresse {#bcc-email}
 

@@ -7,12 +7,12 @@ feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
-keywords: Einstellungen, E-Mail, Konfiguration
+keywords: Einstellungen, E-Mail, Konfiguration, Absender-Header, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
+source-git-commit: 646817ff0bb2473b0693a27a2fdf54bd1acc463f
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 90%
+source-wordcount: '1089'
+ht-degree: 59%
 
 ---
 
@@ -27,9 +27,13 @@ Geben Sie beim Konfigurieren einer neuen [E-Mail-Kanalkonfiguration](email-setti
 >Beim [Bearbeiten einer E](../configuration/channel-surfaces.md#edit-channel-surface)Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen eine neue Kanalkonfiguration erstellen.
 
 * **[!UICONTROL Name des Absenders bzw. der Absenderin]**: Der Absendername, wie z. B. der Name Ihrer Marke.
+
 * **[!UICONTROL Präfix für Absender-E-Mail]**: Die E-Mail-Adresse, die für die Kommunikation verwendet werden soll.
+
 * **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn die Empfängerin oder der Empfänger in der E-Mail-Client-Software auf die Schaltfläche **Antworten** klickt.
+
 * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn die Empfängerin oder der Empfänger in der E-Mail-Client-Software auf die Schaltfläche **Antworten** klickt. [Weitere Informationen](#reply-to-email)
+
 * **[!UICONTROL Präfix für Fehler-E-Mail]**: Unter dieser Adresse werden alle Fehler empfangen, die von ISPs einige Tage nach der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces). Die Abwesenheitsbenachrichtigungen und Challenge-Responses werden ebenfalls an diese Adresse gesendet.
 
   Wenn Sie die Abwesenheitsbenachrichtigungen und Challenge-Responses auf Anfragen an eine bestimmte E-Mail-Adresse erhalten möchten, die nicht an Adobe delegiert ist, müssen Sie einen [Weiterleitungsprozess](#forward-email) einrichten. Vergewissern Sie sich in diesem Fall, dass Sie über eine manuelle oder automatisierte Lösung verfügen, mit der die in diesen Posteingang eingehenden E-Mails verarbeitet werden können.
@@ -45,7 +49,42 @@ Geben Sie beim Konfigurieren einer neuen [E-Mail-Kanalkonfiguration](email-setti
 
 >[!NOTE]
 >
->Adressen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
+>Bei **[!UICONTROL Von-E]** Mail-Präfix **[!UICONTROL und Fehler-E-Mail-Präfix]** müssen Werte mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-`.
+
+## Absender-Header {#sender-header}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_sender_header"
+>title="Absender-Header"
+>abstract="Verwenden Sie diese optionalen Felder, wenn sich die sendende Entität (der Absender) von der Authoring-Entität (von) unterscheidet: z. B. ein übergeordnetes Unternehmen, das Nachrichten für eine untergeordnete Marke sendet, oder eine Agentur, die Nachrichten für mehrere Kunden sendet. E-Mail-Clients, die dies unterstützen, rendern ihn normalerweise als „Absender im Namen von“ oder zeigen einen „via“-Indikator an."
+
+Bei einigen Anwendungsfällen muss sich das Postfach, das die Nachricht übermittelt, vom **Von**-Autor unterscheiden, z. B. eine übergeordnete Organisation, die im Namen einer Tochtergesellschaft sendet, ein gemeinsames Marketing-Team für mehrere Marken oder eine Agentur, die für mehrere Kunden sendet.
+
+Mit anderen Worten: **Von** ist der Autor der Nachricht (von dem die E-Mail stammt) und **Absender** ist der für die Übertragung der Nachricht verantwortliche Agent (der sie tatsächlich gesendet hat). Das Feld **Absender** ist für die Verwendung vorgesehen, wenn sich die Übertragungsentität vom Autor unterscheidet.
+
+In diesem Fall können Sie einen anderen **Absender**-Namen und eine andere E-Mail-Adresse festlegen, die zum E-Mail-Header hinzugefügt werden sollen, indem Sie die folgenden Felder im Abschnitt **Absender-**&quot; verwenden:
+
+* **[!UICONTROL Absendername]**: Der Name des für die Übertragung der Nachricht verantwortlichen Benutzers, sofern dieser nicht mit dem **Absenderautor** übereinstimmt.
+
+* **[!UICONTROL Absender-E-]**: Die E-Mail-Adresse des sendenden Teilnehmers.
+
+![](assets/preset-sender-header.png){width="80%"}
+
+>[!NOTE]
+>
+>Diese Felder sind optional. Sie können [&#x200B; wie &#x200B;](surface-personalization.md#personalize-header) anderen Header-Felder personalisieren.
+
+Wenn **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** festgelegt sind, fügt [!DNL Journey Optimizer] der E-Mail eine **Absender**-SMTP-Kopfzeile hinzu<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->. E-Mail-Clients, die dies unterstützen, können Formulierungen wie **Absender im Auftrag von** oder einen **über**-Indikator anzeigen.
+
+>[!NOTE]
+>
+>Wenn Sie **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** leer lassen oder wenn der aufgelöste **Absender** identisch mit **Von** ist, wird kein **Absender**-Header hinzugefügt.
+
+Hinweise:
+
+* Die **Absenderadresse** wird nicht für die Ausrichtung von SPF, DKIM oder DMARC verwendet, sondern nur **format**-Validierung. SPF, DKIM und DMARC sind weiterhin auf die Felder **Von** angewiesen. Die [delegierte Subdomain](../configuration/about-subdomain-delegation.md) die für die Konfiguration ausgewählt wurde, bleibt die für diese Prüfungen verwendete Versand-Domain.
+
+* Wenn **Absender** konfiguriert ist und die Personalisierung nicht auf einen Wert für einen Empfänger aufgelöst wird, wird die Nachricht nicht an diesen Empfänger gesendet.
 
 ## Antwort auf E-Mail {#reply-to-email}
 
