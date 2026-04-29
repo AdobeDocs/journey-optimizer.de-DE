@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '2525'
-ht-degree: 64%
+source-wordcount: '2640'
+ht-degree: 62%
 
 ---
 
@@ -39,7 +39,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/journey-ranking-formulas.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 24. Februar 2026</p>
+<p>Verfügbarkeitsdatum: 24. Februar 2026</p>
 </td>
 </tr>
 </tbody>
@@ -64,7 +64,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-action.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Samstag, 20. Februar 2026</p>
+<p>Verfügbarkeitsdatum: 20. Februar 2026</p>
 <p><strong>Hinweis:</strong> Alle nativen Kanäle sind jetzt über die Aktion-Journey-Aktivität zugänglich. Ältere native Kanalaktivitäten werden mit der März-Version eingestellt. Vorhandene Journey mit Legacy-Aktionen funktionieren weiterhin wie bisher - es ist keine Migration erforderlich.</p>
 </td>
 </tr>
@@ -91,7 +91,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p>In <strong>Kampagnen</strong> ist diese Funktion für alle Umgebungen verfügbar (allgemeine Verfügbarkeit). Weitere Informationen finden Sie in der <a href="../campaigns/send-using-waves.md">ausführlichen Dokumentation</a>.</p>
 
 <p>In <strong>Journey</strong> ist diese Funktion nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff zu erhalten. Weitere Informationen finden Sie in der <a href="../building-journeys/send-using-waves.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Freitag, 19. Februar 2026</p>
+<p>Verfügbarkeitsdatum: 19. Februar 2026</p>
 </td>
 </tr>
 </tbody>
@@ -110,7 +110,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p><img src="assets/do-not-localize/subdomain-migration.gif"/></p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../configuration/custom-subdomain-migration.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Freitag, 19. Februar 2026</p>
+<p>Verfügbarkeitsdatum: 19. Februar 2026</p>
 </td>
 </tr>
 </tbody>
@@ -129,7 +129,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>Diese Funktion wurde bereits in Beta veröffentlicht und steht allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Weitere Informationen finden Sie in der <a href="../push/push-configuration-web.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Samstag, 13. Februar 2026</p>
+<p>Verfügbarkeitsdatum: 13. Februar 2026</p>
 </td>
 </tr>
 </tbody>
@@ -138,7 +138,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <table>
 <thead>
 <tr>
-<th><strong>Aktivität „Inhaltsentscheidung“ </strong><br/></th>
+<th><strong>Aktivität „Inhaltsentscheidung“</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -148,7 +148,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/content-decision.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: Mittwoch, 10. Februar 2026</p>
+<p>Verfügbarkeitsdatum: 10. Februar 2026</p>
 </td>
 </tr>
 </tbody>
@@ -246,7 +246,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Entscheidungsvorschau im Code-basierten Erlebniskanal** - Sie können jetzt Entscheidungselemente in der Vorschau anzeigen, wenn Sie Decisioning mit dem Code-basierten Erlebniskanal konfigurieren. Die Vorschau ist vor der Live-Schaltung direkt in der Authoring-Oberfläche verfügbar. [Weitere Informationen](../code-based/test-code-based.md#preview-code-based)
 
-  Verfügbarkeitsdatum: Donnerstag, 18. Februar 2026
+  Verfügbarkeitsdatum: 18. Februar 2026
 
 <!--
 THIS WAS FINALLY NOT RELEASED IN FEBRUARY
@@ -291,7 +291,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tr>
 <td>
 <p>Sie können jetzt den Inhalt Ihrer <strong>Push-Benachrichtigungen“ mit </strong>Decisioning<strong> personalisieren und </strong>. Verwenden Sie Prioritätswerte, Formeln oder KI-Modelle, um Ihren Kundinnen und Kunden den besten Inhalt anzuzeigen.</p>
-<p>Für Experience Decisioning mit Push-Benachrichtigungen ist eine bestimmte Version der Mobile SDK erforderlich. Bevor Sie diese Funktion implementieren, überprüfen Sie die <a href="https://developer.adobe.com/client-sdks/home/release-notes/" target="_blank">Versionshinweise</a>, um die erforderliche Version zu identifizieren und sicherzustellen, dass Sie das Upgrade entsprechend durchgeführt haben. Sie können auch alle verfügbaren SDK-Versionen für Ihre Plattform in <a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions/" target="_blank">diesem Abschnitt</a> anzeigen.</p>
+<p>Für Experience Decisioning mit Push-Benachrichtigungen ist eine bestimmte Version der Mobile SDK erforderlich. Bevor Sie diese Funktion implementieren, überprüfen Sie die <a href="https://developer.adobe.com/client-sdks/home/release-notes" target="_blank">Versionshinweise</a>, um die erforderliche Version zu identifizieren und sicherzustellen, dass Sie das Upgrade entsprechend durchgeführt haben. Sie können auch alle verfügbaren SDK-Versionen für Ihre Plattform in <a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions" target="_blank">diesem Abschnitt</a> anzeigen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/create-decision.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 30. Januar 2026</p>
 </td>
@@ -371,7 +371,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tbody>
 <tr>
 <td>
-<p>Der Direkt-Mail-Kanal ist jetzt in orchestrierten Kampagnen verfügbar.  Die <strong>Direkt-Mail-Aktivität</strong> erleichtert den Direkt-Mail-Versand innerhalb der orchestrierten Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Direkt-Mail-Dienstleistern benötigten <strong>Extraktionsdatei</strong> zu automatisieren. Kanalaktivitäten können in der Arbeitsfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.</p>
+<p>Der Direkt-Mail-Kanal ist jetzt in orchestrierten Kampagnen verfügbar. Die <strong>Direkt-Mail-Aktivität</strong> erleichtert den Direkt-Mail-Versand innerhalb der orchestrierten Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Direkt-Mail-Dienstleistern benötigten <strong>Extraktionsdatei</strong> zu automatisieren. Kanalaktivitäten können in der Arbeitsfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../orchestrated/activities/channels.md#channel">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 28. Januar 2026</p>
@@ -407,7 +407,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tr>
 <td>
 <p>Eine neue Journey Optimizer-API ist jetzt verfügbar, mit der Sie <strong>kampagnenbezogene Daten</strong> wie Details, Versionen und Konfigurationen programmgesteuert abrufen und überprüfen können.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/" target="_blank">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve" target="_blank">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 24. November 2025</p>
 </td>
 </tr>
@@ -439,7 +439,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Inhaltsqualitätsprüfungen mit dem KI-Assistenten** – Zusätzlich zur Markenausrichtung können Sie jetzt die gesamte <strong>Inhaltsqualität</strong> bewerten, um potenzielle Probleme mit <strong>Lesbarkeit</strong>, Kohärenz und Effektivität unabhängig von Ihren Markenrichtlinien aufzudecken. Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. [Weitere Informationen](../content-management/brands-score.md#validate-quality).
 
-   [Funktion im Video kennenlernen](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on).
+  [Funktion im Video kennenlernen](https://video.tv.adobe.com/v/3470555/?captions=ger&learn=on).
 
 #### Journeys
 
@@ -489,7 +489,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 #### Kampagnen
 
-* **Kampagne mithilfe der Zeitzone des Profils planen** - Die Kampagnenplanung kann jetzt die <strong>Zeitzone“ jedes Profils verwenden, </strong> Nachrichten zur gewünschten lokalen Zeit zu versenden. [Weitere Informationen](../campaigns/campaign-schedule.md)
+* **Planen von Kampagnen mithilfe der Zeitzone des Profils** – Die Kampagnenplanung kann jetzt die <strong>Zeitzone</strong> jedes Profils verwenden, um Nachrichten zur gewünschten lokalen Zeit zu versenden. [Weitere Informationen](../campaigns/campaign-schedule.md)
 
   **Hinweis**: Diese Verbesserung steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit).
 

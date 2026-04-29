@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 98%
+source-wordcount: '551'
+ht-degree: 95%
 
 ---
 
@@ -37,9 +37,9 @@ Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-
    >
    >Die Endpunkte im cURL-Abschnitt unterscheiden sich zwischen standardmäßigen Kampagnen und [Kampagnen mit hohem Durchsatz](../campaigns/api-triggered-high-throughput.md).
 
-1. Verwenden Sie diese cURL-Anfrage in den APIs, um Ihre Payload zu erstellen und die Kampagne auszulösen. Weitere Informationen finden Sie in der [Dokumentation zur Interactive Message Execution-API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution), wo alle Endpunkte für standardmäßige Kampagnen und Kampagnen mit hohem Durchsatz aufgelistet sind.
+1. Verwenden Sie diese cURL-Anfrage in den APIs, um Ihre Payload zu erstellen und die Kampagne auszulösen. Weitere Informationen finden Sie in der [Dokumentation zur Interactive Message Execution-API](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution), wo alle Endpunkte für standardmäßige Kampagnen und Kampagnen mit hohem Durchsatz aufgelistet sind.
 
-   Beispiele für API-Aufrufe finden Sie auch auf [dieser Seite](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
+   Beispiele für API-Aufrufe finden Sie auch auf [dieser Seite](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples).
 
 ## Fehlerbehebung {#troubleshooting}
 

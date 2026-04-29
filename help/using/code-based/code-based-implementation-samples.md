@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1114'
 ht-degree: 82%
 
 ---
@@ -33,7 +33,7 @@ Wenn Sie eine Client-seitige Implementierung haben, können Sie eines der AEP-Cl
 
 * Die [folgenden](#client-side-how) Schritte beschreiben den Prozess zum Abrufen von Inhalten, die von Code-basierten Erlebnis-Journeys und -kampagnen in einer Beispielimplementierung mit dem **Web SDK** am Edge veröffentlicht wurden, und zum Anzeigen der personalisierten Inhalte.
 
-* Die Schritte zur Implementierung eines Code-basierten Kanals mit **Mobile SDK** sind in [diesem Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} beschrieben.
+* Die Schritte zur Implementierung eines Code-basierten Kanals mit **Mobile SDK** sind in [diesem Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"} beschrieben.
 
   >[!NOTE]
   >
@@ -82,7 +82,7 @@ Wenn Sie eine Client-seitige Implementierung haben, können Sie eines der AEP-Cl
    }
    ```
 
-1. Bei Code-basierten Erlebnis-Journeys und -kampagnen müssen Interaktionsereignisse manuell gesendet werden, um anzugeben, wann die Benutzerin oder der Benutzer mit dem Inhalt interagiert hat.  Dies geschieht über den Befehl `sendEvent`.
+1. Bei Code-basierten Erlebnis-Journeys und -kampagnen müssen Interaktionsereignisse manuell gesendet werden, um anzugeben, wann die Benutzerin oder der Benutzer mit dem Inhalt interagiert hat. Dies geschieht über den Befehl `sendEvent`.
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -364,7 +364,7 @@ Wenn Sie die Edge Network-API direkt für Code-basierte Erlebnisse verwenden (ni
 
 To help you get started with implementing code-based experiences, refer to the comprehensive step-by-step tutorials below:
 
-* **Mobile SDK implementation**: Follow [this tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} to learn how to set up code-based experiences on mobile apps using the Adobe Experience Platform Mobile SDK.
+* **Mobile SDK implementation**: Follow [this tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"} to learn how to set up code-based experiences on mobile apps using the Adobe Experience Platform Mobile SDK.
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 

@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 66%
+source-wordcount: '421'
+ht-degree: 63%
 
 ---
 
@@ -56,7 +56,7 @@ Nachdem Sie Ihre Mobile-Konfiguration konfiguriert und Ihr Adobe Experience Plat
 
    Stellen Sie sicher, dass Sie auch die **[!UICONTROL Kampagnen-ID]**-Kennungen kopieren, die in Ihre Payload aufgenommen werden sollen.
 
-   ➡️ Informationen zu Authentifizierungspflichten, einschließlich OAuth-Token und API-Schlüsseln, finden Sie der [Dokumentation zu durch API ausgelösten Kampagnen](https://developer.adobe.com/journey-optimizer-apis/references/messaging/).
+   ➡️ Informationen zu Authentifizierungspflichten, einschließlich OAuth-Token und API-Schlüsseln, finden Sie der [Dokumentation zu durch API ausgelösten Kampagnen](https://developer.adobe.com/journey-optimizer-apis/references/messaging).
 
    ![](assets/create-live-3.png)
 

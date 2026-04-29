@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: Testen, Validieren, Genehmigen, Genehmigung, Qualitätssicherung, QS, Testprofile, Personalisierung, Rendering, Spam-Prüfung, Inhaltsexperiment, A/B-Test, Konflikterkennung, Testadressenliste, Testsendungen, Beispieldaten, Genehmigungs-Workflow, E-Mail-Test, Validierungs-Workflow
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '2328'
-ht-degree: 99%
+source-wordcount: '2419'
+ht-degree: 92%
 
 ---
 
@@ -232,7 +232,7 @@ Der richtige Testansatz hängt davon ab, was Sie erstellen und was Sie validiere
 
 **Für durch API ausgelöste Kampagnen:**
 
-* [API zur Kampagnensimulation](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} verwenden, um Testsendungen programmgesteuert auszulösen
+* [API zur Kampagnensimulation](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} verwenden, um Testsendungen programmgesteuert auszulösen
 
 >[!TAB Testen von Journeys]
 
@@ -451,17 +451,17 @@ Erfahren Sie, wie die Testfunktionen miteinander und mit Ihren übergeordneten J
 
 +++**F: Welche Tests sind vor dem Start einer Kampagne erforderlich?**
 
-**Minimum:** Inhaltsvorschau mit Testprofilen + Prüfung des Spam-Werts (E-Mail)
+**Minimum:** Inhaltsvorschau mit Testprofilen + Spam-Score-Prüfung (E-Mail)
 **Empfohlen:** + E-Mail-Rendering + Konflikterkennung + Genehmigungs-Workflow
-**Best Practice:** + Tests mit Beispieleingabedaten + Testadressenlisten + A/B-Experiment (bei Optimierung)
+**Best Practice:** + Tests von Beispieleingabedaten + Testlisten + A/B-Experiment (bei Optimierung)
 
 +++
 
 +++**F: Wie teste ich die Personalisierung, ohne viele Testprofile zu erstellen?**
 
-**Primäre Lösung:** Verwenden Sie [Beispieleingabedaten](../using/test-approve/simulate-sample-input.md) mit CSV-/JSON-Dateien (unterstützt bis zu 30 Varianten)
-**Alternative:** Erstellen Sie 3 bis 5 repräsentative [Testprofile](../using/audience/creating-test-profiles.md), die wichtige Segmente abdecken.
-**Lern-Tools:** Experimentieren Sie zuerst im [Personalisierungs-Playground](../using/personalization/personalize.md#playground)
+**Primäre Lösung:** Verwenden von [Beispieleingabedaten](../using/test-approve/simulate-sample-input.md) mit CSV-/JSON-Dateien (unterstützt bis zu 30 Varianten)
+**Alternative:** Erstellen Sie 3-5 repräsentative [Testprofile](../using/audience/creating-test-profiles.md) die wichtige Segmente abdecken.
+**Lernwerkzeug:** Experimentieren Sie zuerst in [Personalisierungs-Playground](../using/personalization/personalize.md#playground)
 
 +++
 
@@ -475,16 +475,16 @@ Erfahren Sie, wie die Testfunktionen miteinander und mit Ihren übergeordneten J
 
 +++**F: Kann ich Journeys im Produktionsstatus oder im Live-Status testen?**
 
-**Testmodus:** Nein - nur Journeys im Entwurfsstatus
-**Probelauf:** Ja - funktioniert bei jedem Journey-Status
-**Inhaltsvorschau:** Ja - Vorschau einzelner Nachrichten jederzeit möglich.
-**Umgehungslösung:** Duplizieren Sie die Live-Journey als Entwurf für eine vollständige Validierung im Testmodus
+**Testmodus:** Nein - nur Entwurfs-Journey
+**Probelauf:** Ja - funktioniert mit jedem Journey-Status
+**Inhaltsvorschau:** Ja - Sie können jederzeit eine Vorschau einzelner Nachrichten anzeigen.
+**Problemumgehung:** Duplizieren von Live-Journey zum Entwurf für die vollständige Testmodusvalidierung
 
 +++
 
 +++**F: Welche Testfunktionen erfordern externe Integrationen?**
 
-**E-Mail-Rendering:** Erfordert Litmus-Integration (separate Lizenz)
+**E-Mail-Rendering:** erfordert Litmus-Integration (separate Lizenz)
 **Alle anderen:** In Journey Optimizer integriert, keine zusätzlichen Integrationen erforderlich
 **Hinweis:** Testprofile erfordern den Echtzeit-Kundenprofil-Service (enthalten)
 
@@ -492,10 +492,10 @@ Erfahren Sie, wie die Testfunktionen miteinander und mit Ihren übergeordneten J
 
 +++**F: Wie teste ich durch API ausgelöste Kampagnen?**
 
-**Option 1:** [API zur Kampagnensimulation](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} für programmatisches Testen verwenden
-**Option 2:** Vorschau von Inhalten mit Testprofilen in der Benutzeroberfläche
+**Option 1:** Verwenden [Kampagnensimulations-API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-„_blank“} für programmatische Tests
+**Option 2:** Vorschau des Inhalts mit Testprofilen in der Benutzeroberfläche
 **Option 3:** Testsendungen an Test-E-Mail-Adressen durchführen
-**Best Practice:** Alle drei Optionen für eine umfassende Validierung kombinieren
+**Best Practice:** Alle drei für eine umfassende Validierung kombinieren
 
 +++
 

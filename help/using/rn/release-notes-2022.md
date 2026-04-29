@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '3599'
-ht-degree: 100%
+source-wordcount: '3645'
+ht-degree: 97%
 
 ---
 
@@ -85,7 +85,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <table>
 <thead>
 <tr>
-<th><strong>API-ausgelöste Kampagnen</strong><br/></th>
+<th><strong>Durch API ausgelöste Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +222,7 @@ table>
 
 **Audit-Kontrollen**
 
-* Mit Journey Optimizer können Sie die von den Nutzenden im System durchgeführten Aktionen für verschiedene Services und Funktionen wie Kampagnen, Journeys, Nachrichten, Landingpages usw. ermitteln. Auditprotokoll-Ressourcen enthalten jetzt Änderungen an verschiedenen anderen Aktionen und werden automatisch aufgezeichnet, wenn die Aktivität stattfindet. Weitere Informationen finden Sie auf [dieser Seite](../privacy/audit-logs.md).
+* Mit Journey Optimizer können Sie die von den Nutzern im System durchgeführten Aktionen für verschiedene Services und Funktionen wie Kampagnen, Journey, Nachrichten, Landingpages usw. identifizieren. Audit-Protokoll-Ressourcen enthalten jetzt Änderungen an verschiedenen anderen Aktionen und werden automatisch aufgezeichnet, wenn die Aktivität stattfindet. Weitere Informationen finden Sie auf [dieser Seite](../privacy/audit-logs.md).
 
 **Archivierungsunterstützung**
 
@@ -448,7 +448,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Das Plug-in für die Integration von E-Mail-Designer mit Adobe Stock und Adobe Journey Optimizer bietet Kunden eine einfache Möglichkeit, zur Verwendung bei der Nachrichtenbearbeitung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern. </br> Die neue Option <b>Ähnliche Stock-Fotos suchen</b> ermöglicht es Ihnen auch, Stock-Fotos zu finden, die mit Inhalt, Farbe und Komposition Ihrer Bilder übereinstimmen. </p>
+<p>Das Plug-in für die Integration von Adobe Stock und Adobe Journey Optimizer Email Designer bietet Kunden und Kundinnen eine einfache Möglichkeit, zur Nachrichtenerstellung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern. </br> Die neue <b>Ähnliche Stock-Fotos suchen</b> ermöglicht es Ihnen auch, Stock-Fotos zu finden, die mit Inhalt, Farbe und Komposition Ihrer Bilder übereinstimmen. </p>
 <p>Weitere Informationen finden Sie in der <a href="../integrations/stock.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -738,7 +738,7 @@ table>
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
 The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you do not send mails to customers from your development sandbox.</p>
-<p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
+<p>See <a href="https://developer.adobe.com/journey-optimizer-apis">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -765,7 +765,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **Journeys**
 
 * Um die Performance zu optimieren, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, jetzt wieder in den Entwurfsstatus zurück. [Weitere Informationen](../building-journeys/testing-the-journey.md#important_notes)
-* Die Integration zwischen Journey Optimizer und Adobe Campaign v7/v8 wurde optimiert, um die Leistung zu verbessern.  Die Standardkonfiguration für Begrenzungen wurde auf 4.000 Aufrufe/5 Minuten geändert.  [Weitere Informationen](../action/acc-action.md#important-notes)
+* Die Integration zwischen Journey Optimizer und Adobe Campaign v7/v8 wurde optimiert, um die Leistung zu verbessern. Die Standardkonfiguration für Begrenzungen wurde auf 4.000 Aufrufe/5 Minuten geändert. [Weitere Informationen](../action/acc-action.md#important-notes)
 
 **Reporting**
 

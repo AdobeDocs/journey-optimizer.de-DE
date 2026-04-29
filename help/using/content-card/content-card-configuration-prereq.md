@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 90%
+source-wordcount: '361'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Fügen Sie die Feldgruppe **Erlebnisereignis – Interaktion mit dem Angebot** 
 
 * **Adobe Experience Platform Mobile- oder Platform Web SDK**
 
-  Für mobile und Web-Anwendungen müssen Sie entweder das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"} auf Ihrer Website oder das [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/){target="_blank"} auf Ihren mobilen Apps implementieren, um Änderungen an Ihren Webseiten oder mobilen Apps vorzunehmen.
+  Für mobile und Web-Anwendungen müssen Sie entweder das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/platform-learn/implement-web-sdk/overview){target="_blank"} auf Ihrer Website oder das [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home){target="_blank"} auf Ihren mobilen Apps implementieren, um Änderungen an Ihren Webseiten oder mobilen Apps vorzunehmen.
 
 * **Journey Optimizer**
 
@@ -50,4 +50,4 @@ Fügen Sie die Feldgruppe **Erlebnisereignis – Interaktion mit dem Angebot** 
 
 >[!CAUTION]
 >
->Wenn Sie pseudonyme Profile (nicht authentifizierte Besucher) mit Ihren Inhaltskarten als Ziel auswählen, sollten Sie eine Time-to-Live (TTL) für das automatische Löschen von Profilen festlegen, um die Anzahl Ihrer interagierbaren Profile und die damit verbundenen Kosten zu verwalten. [Weitere Informationen](../start/guardrails.md#profile-management-inbound)
+>Wenn pseudonyme Profile (nicht authentifizierte Besuchende) mit Inhaltskarten angesprochen werden, sollten Sie eine Time-to-Live (TTL) für die automatische Profillöschung festlegen, um die Anzahl der ansprechbaren Profile und die damit verbundenen Kosten zu verwalten. [Weitere Informationen](../start/guardrails.md#profile-management-inbound)

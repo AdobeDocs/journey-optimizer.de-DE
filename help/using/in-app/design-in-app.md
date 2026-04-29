@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Design, Formatierung
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 100%
+source-wordcount: '1272'
+ht-degree: 98%
 
 ---
 
@@ -133,10 +133,10 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, könn
 * die **[!UICONTROL Schriftart]**
 * die **[!UICONTROL Punkt-Größe]**
 * die **[!UICONTROL Schriftfarbe]**
-* die **[!UICONTROL Ausrichtung]**
+* **[!UICONTROL Ausrichtung]**
 +++
 
-### Schaltflächen        {#add-buttons}
+### Schaltflächen {#add-buttons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_buttons"
@@ -161,7 +161,7 @@ So personalisieren Sie Ihre Schaltfläche:
 
 Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können Sie für Ihre **[!UICONTROL Schaltflächen]** Folgendes auswählen:
 
-* **[!UICONTROL Schriftart]**
+* die **[!UICONTROL Schriftart]**
 * die **[!UICONTROL Punkt-Größe]**
 * die **[!UICONTROL Schriftfarbe]**
 * **[!UICONTROL Ausrichtung]**
@@ -242,9 +242,9 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können S
 
 ## Registerkarte „Daten“ {#data-tab}
 
-Auf der Registerkarte **Daten** können Sie einen **[!UICONTROL Schlüssel]** und einen **[!UICONTROL Wert]** definieren, um benutzerdefinierte Variablen in die Payload aufzunehmen. Mit diesen Schlüssel-Wertpaaren können Sie je nach Konfiguration zusätzliche Daten übergeben. 
+Auf der Registerkarte **Daten** können Sie einen **[!UICONTROL Schlüssel]** und einen **[!UICONTROL Wert]** definieren, um benutzerdefinierte Variablen in die Payload aufzunehmen. Mit diesen Schlüssel-Wertpaaren können Sie je nach Konfiguration zusätzliche Daten übergeben.
 
-Weitere Informationen finden Sie in der [Developer-Dokumentation](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
+Weitere Informationen finden Sie in der [Developer-Dokumentation](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata).
 
 1. Wählen Sie auf der Registerkarte **[!UICONTROL Daten]** die Option **[!UICONTROL Schlüssel-Wert-Paar hinzufügen]** aus.
 

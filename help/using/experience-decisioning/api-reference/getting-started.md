@@ -5,12 +5,12 @@ feature: API, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-exl-id: 7a4b5d4e-9c1d-4f3a-b8e9-1d5f6e7a8c3a
+exl-id: 78ed06a3-7787-4aab-8373-df7eb40c1727
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 89%
+source-wordcount: '339'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ Mit Decisioning-APIs können Sie die Komponenten programmgesteuert erstellen und
 
 ## Authentifizierung {#authentication}
 
-Bevor Sie Decisioning-APIs verwenden können, müssen Sie die Authentifizierung einrichten, um auf die API-Endpunkte zuzugreifen. Eine detaillierte Anleitung finden Sie im [Authentifizierungshandbuch für Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+Bevor Sie Decisioning-APIs verwenden können, müssen Sie die Authentifizierung einrichten, um auf die API-Endpunkte zuzugreifen. Eine detaillierte Anleitung finden Sie im [Authentifizierungshandbuch für Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
 ## Verfügbare API-Vorgänge {#available-operations}
 

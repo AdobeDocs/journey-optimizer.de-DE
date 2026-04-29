@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1834'
 ht-degree: 97%
 
 ---
@@ -60,7 +60,7 @@ Weiterführende Informationen zur Verwendung der APIs finden Sie in diesen Absch
 * [Capping-API](capping.md)
 * [Drosselungs-API](throttling.md)
 
-Eine ausführliche Beschreibung der APIs finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)
+Eine ausführliche Beschreibung der APIs finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling)
 
 ### Kapazität von Datenquellen und benutzerdefinierten Aktionen {#capacity}
 
@@ -74,7 +74,7 @@ Für **benutzerdefinierte Aktionen** müssen Sie die Kapazität Ihrer externen A
 
 >[!NOTE]
 >
->Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie in [diesem Abschnitt](../action/action-response.md).
+>Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden. Weitere Informationen zu Antworten finden Sie in [diesem Abschnitt](../action/action-response.md).
 
 ## Endpunkte mit langsamer Reaktionszeit {#response-time}
 

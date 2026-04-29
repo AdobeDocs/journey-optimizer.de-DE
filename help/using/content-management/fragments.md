@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E
 
 So nutzen Sie Fragmente am besten:
 
-* **Erstellen eigener Fragmente**: Erstellen Sie visuelle Fragmente oder Ausdrucksfragmente, indem Sie sie von Grund auf neu erstellen oder Inhalte als Fragment speichern. [Erfahren Sie, wie Sie ein Fragment erstellen](create-fragments.md).  Darüber hinaus können Sie Inhaltsfragmente mit der **Inhalts-REST API** von Journey Optimizer verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+* **Erstellen eigener Fragmente**: Erstellen Sie visuelle Fragmente oder Ausdrucksfragmente, indem Sie sie von Grund auf neu erstellen oder Inhalte als Fragment speichern. [Erfahren Sie, wie Sie ein Fragment erstellen](create-fragments.md). Darüber hinaus können Sie Inhaltsfragmente mit der **Inhalts-REST API** von Journey Optimizer verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}.
 * **Wiederverwenden eigener Fragmente:** Diese können beliebig oft in Ihren Inhalten verwendet werden. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md) und [Nutzen von Ausdrucksfragmenten](../personalization/use-expression-fragments.md)
 
 ## Bevor Sie beginnen {#fragment-prerequisites}

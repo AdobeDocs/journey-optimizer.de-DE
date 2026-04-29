@@ -8,10 +8,10 @@ role: Developer
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 99%
+source-wordcount: '761'
+ht-degree: 98%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 99%
 
 Mit der Capping-API können Sie Begrenzungskonfigurationen erstellen, konfigurieren und überwachen.
 
-In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. Eine detaillierte API-Beschreibung finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
+In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. Eine detaillierte API-Beschreibung finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
 
 ## Beschreibung des Begrenzungs-APIs und Postman-Sammlung {#description}
 
-In der folgenden Tabelle sind die verfügbaren Befehle für das Begrenzungs-API aufgeführt. Ausführliche Informationen, einschließlich Anfragebeispielen, Parametern und Antwortformaten, finden Sie in der [Dokumentation zu den Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/){target="_blank"}.
+In der folgenden Tabelle sind die verfügbaren Befehle für das Begrenzungs-API aufgeführt. Ausführliche Informationen, einschließlich Anfragebeispielen, Parametern und Antwortformaten, finden Sie in der [Dokumentation zu den Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"}.
 
 | Methode | Pfad | Beschreibung |
 |---|---|---|

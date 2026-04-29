@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '9005'
+source-wordcount: '9308'
 ht-degree: 99%
 
 ---
@@ -71,7 +71,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>Mit [!DNL Journey Optimizer] können Sie jetzt Profilattribute über Ihre Landingpages erfassen.</p>
 <p>Erstellen, entwerfen und verwalten Sie benutzerdefinierte Formulare, die auf Ihre Anforderungen zugeschnitten sind und auf einem bestimmten Datensatz basieren. Sie können diese Formulare dann in Landingpages nutzen, um die Profilattribute Ihrer Wahl zu dem für jedes Formular definierten Datensatz hinzuzufügen.</p>
-<p>Diese Funktion ist derzeit nur für Kundinnen und Kunden in den USA und Australien verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
+<p>Diese Funktion ist derzeit nur für Kundschaft in den USA und Australien verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>Weitere Informationen finden Sie in der <a href="../landing-pages/lp-forms.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 23. Oktober 2025</p>
@@ -90,7 +90,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tr>
 <td>
 <p>Mithilfe von Ruhezeiten können Sie zeitbasierte Ausschlüsse für E-Mail-, SMS-, Push- und WhatsApp-Kanäle definieren. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen.</p>
-<p>Ruhezeiten können über Regelsätze angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können. </p>
+<p>Ruhezeiten können über Regelsätze angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können.</p>
 <p>Die Regeln für Ruhezeiten sind derzeit nur für eine ausgewählte Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit).  Sie werden in zukünftigen Versionen schrittweise allen Kundinnen und Kunden zur Verfügung stehen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/quiet-hours.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 22. Oktober 2025</p>
@@ -209,13 +209,13 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Messaging mit hohem Durchsatz für API-ausgelöste E-Mail-Kampagnen</strong><br/></th>
+<th><strong>High throughput messaging for API-triggered email campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In API-ausgelösten Kampagnen ist ein neuer Transaktionsnachrichtenmodus mit hohem Durchsatz verfügbar. Dieser Modus ist für groß angelegtes Transaktions-Messaging in Echtzeit konzipiert und unterstützt bis zu 5.000 Transaktionen pro Sekunde mit einer höheren Verfügbarkeit. Dieser Modus unterstützt auch Transaktionsnachrichten ohne Verweis auf oder Erstellung von Kundenprofilen, wie z. B. Gast-Checkout, Bestellbestätigung, Zurücksetzen des Passworts, Sicherheitsbenachrichtigungen und andere Service-/Betriebsbenachrichtigungen.</p>
+<p>A new high throughput transactional messaging mode is available in API-triggered campaigns. Dieser Modus ist für groß angelegtes Transaktions-Messaging in Echtzeit konzipiert und unterstützt bis zu 5.000 Transaktionen pro Sekunde mit einer höheren Verfügbarkeit. Dieser Modus unterstützt auch Transaktionsnachrichten ohne Verweis auf oder Erstellung von Kundenprofilen, wie z. B. Gast-Checkout, Bestellbestätigung, Zurücksetzen des Passworts, Sicherheitsbenachrichtigungen und andere Service-/Betriebsbenachrichtigungen.</p>
 <p>Diese Funktion ist nur für den E-Mail-Kanal verfügbar und steht Unternehmen zur Verfügung, die das Adobe-Add-on für Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../campaigns/api-triggered-high-throughput.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 22. Oktober 2025</p>
@@ -333,7 +333,7 @@ table>
 <tr>
 <td>
 <p>Eine neue Journey Optimizer-API ist jetzt verfügbar, um Journeys und ihre zugehörigen Objekte wie Kampagnen und Oberflächen abzurufen.</p>
-<p>Weitere Informationen finden Sie in der <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 25. September 2025</p>
 </td>
 </tr>
@@ -581,13 +581,13 @@ You can now use AI models to optimize the best content in your email through the
 
 ### Verbesserungen {#sept-25-9-improvements}
 
-* **Webhook-Unterstützung für API-ausgelöste Kampagnen**\
-  API-ausgelöste Kampagnen unterstützen jetzt Webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen in Echtzeit für jede Nachricht zu erhalten. Dies verbessert die Beobachtbarkeit und ermöglicht nahtlose Überwachung und Automatisierung. [Weitere Informationen](../configuration/feedback-webhooks.md)
+* **Webhook support for API-triggered campaigns**\
+  API-triggered campaigns now support webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen in Echtzeit für jede Nachricht zu erhalten. Dies verbessert die Beobachtbarkeit und ermöglicht nahtlose Überwachung und Automatisierung. [Weitere Informationen](../configuration/feedback-webhooks.md)
 
   Verfügbarkeitsdatum: 29. September 2025
 
 * **mTLS-Unterstützung für SMS-Kanal**
-Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Möglichkeit, die gegenseitige TLS-Authentifizierung (mTLS) zu aktivieren. Dazu müssen sowohl der Client als auch der Server die Identität des jeweils anderen bestätigen, bevor eine sichere Verbindung hergestellt wird. [Mehr zum Thema](../sms/sms-configuration-custom.md) – Verfügbarkeitsdatum: 23. September 2025
+When setting up a custom SMS provider, you now have the option to enable mutual TLS (mTLS) authentication, which requires both the client and the server to confirm each other&#39;s identities before a secure connection is established. [Mehr zum Thema](../sms/sms-configuration-custom.md) – Verfügbarkeitsdatum: 23. September 2025
 
 * **Relationale Schemata**\
   Relationale Schemata können jetzt verwendet werden, um in orchestrierten Kampagnen Ihre Anforderungen an relationale Modellierung zu unterstützen. [Mehr zum Thema](../orchestrated/gs-schemas.md) – Verfügbarkeitsdatum: 23. September 2025
@@ -1023,7 +1023,7 @@ Weitere Informationen finden Sie in der <a href="../experience-decisioning/creat
 <tbody>
 <tr>
 <td>
-<p>Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren. Mit dieser Funktion können Journey-Anwendende Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie die Journey live veröffentlichen.</p>
+<p>Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren. Mit dieser Funktion können Journey-Nutzende Vertrauen in ihr Journey-Design und das Zielgruppen-Targeting gewinnen, bevor sie Journeys live schalten.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-dry-run.md">ausführlichen Dokumentation</a>.</p>
@@ -1083,12 +1083,12 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
    * **Neuorganisation des Kampagneninventars**: Geplante und API-ausgelöste Kampagnen sind jetzt im Kampagneninventar zur leichteren Navigation und Verwaltung in separate Registerkarten unterteilt.
 
-[Mehr dazu](../campaigns/manage-campaigns.md)
+  [Mehr dazu](../campaigns/manage-campaigns.md)
 
 * **Daten-Management**
    * **Aktualisierung der Systemdatensätze des Entscheidungs-Managements**: Die gelöschten personalisierten Angebote und Fallback-Angebote werden jetzt in den Datensätzen „decision_object_repository_personalized_offers“ und „decision_object_repository_fallback_offers“ als archiviert gekennzeichnet. Die vorhandenen Einträge im Datensatz werden nicht geändert.
 
-[Mehr dazu](../offers/export-catalog/access-dataset.md)
+  [Mehr dazu](../offers/export-catalog/access-dataset.md)
 
 * **Journeys**
    * **Verbesserungen an den Sandbox-Tools von Journeys**: Beim Kopieren von Journeys über mehrere Sandboxes hinweg mithilfe der Paketexport- und -importfunktionen sind jetzt auch die folgenden Funktionen verfügbar:
@@ -1096,7 +1096,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
       * Kopieren eines Ereignisses unabhängig von einer Journey
       * Erkennen von Feldergruppen-/Datenquellenbeziehungen und Verknüpfen dieser am Ziel, wenn sie vorhanden sind bzw. Erstellen dieser, wenn sie nicht vorhanden sind
 
-[Mehr dazu](../configuration/copy-objects-to-sandbox.md)
+  [Mehr dazu](../configuration/copy-objects-to-sandbox.md)
 
 * **Kanal: In-App**
    * **In-App-Schlüssel-Wert-Paare**: Bei In-App-Nachrichten können Sie Schlüssel-Wert-Paare definieren, um benutzerdefinierte Variablen in die Nachrichten-Payload einzuschließen. Diese Schlüssel-Wert-Paare ermöglichen es Ihnen, zusätzliche Daten basierend auf Ihrer spezifischen Konfiguration und Ihrem Anwendungsfall zu übergeben. [Weitere Informationen](../in-app/design-in-app.md)
@@ -1108,7 +1108,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
       * „Meldung verwerfen, wenn“: Bedingungen, die die Inhaltskarte vorübergehend ausblenden. Sie kann erneut angezeigt werden, wenn die Anzeigebedingungen wieder erfüllt sind.
       * „Meldung disqualifizieren, wenn“: Bedingungen, die dauerhaft verhindern, dass die Inhaltskarte erneut angezeigt wird.
 
-[Mehr dazu](../content-card/design-content-card.md)
+     [Mehr dazu](../content-card/design-content-card.md)
 
 * **Entscheidungsfindung**
    * **Migration-Tooling-APIs**: Das Journey Optimizer-Team arbeitet derzeit an Migration-Tooling-APIs, um Entitäten für das Entscheidungs-Management in die Entscheidungsfindung zu migrieren. Diese Tools ermöglichen eine nahtlose Migration zwischen Sandboxes mit Funktionen zur Abhängigkeitsauflösung und zum Rollback. Wenden Sie sich bei Interesse an den Adobe-Support.
@@ -1116,7 +1116,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 * **Personalisierung**
    * Im Personalisierungseditor wurde die neue Hilfsfunktion „SHA256“ hinzugefügt. Diese Funktion wird verwendet, um den SHA256-Hash einer Zeichenfolge zu berechnen und zurückzugeben.
 
-[Mehr dazu](../personalization/functions/string.md#sha256)
+  [Mehr dazu](../personalization/functions/string.md#sha256)
 
 
 ## Versionshinweise für Juni 2025 {#25-6-rn}
@@ -1222,7 +1222,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren. Mit dieser Funktion können Journey-Anwendende Vertrauen in ihr Journey-Design und die Zielgruppenbestimmung gewinnen, bevor sie die Journey live veröffentlichen.</p>
+<p>Der Journey-Probelauf ist ein spezieller Journey-Veröffentlichungsmodus in Adobe Journey Optimizer, der es Journey-Anwendenden ermöglicht, eine Journey mit echten Produktionsdaten zu testen, ohne echte Kundinnen und Kunden zu kontaktieren oder Profilinformationen zu aktualisieren. Mit dieser Funktion können Journey-Nutzende Vertrauen in ihr Journey-Design und das Zielgruppen-Targeting gewinnen, bevor sie Journeys live schalten.</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>Diese Funktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit) und wird in einer zukünftigen Version global eingeführt.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-dry-run.md">ausführlichen Dokumentation</a>.</p>
@@ -1327,7 +1327,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Aktualisierung des API für die Ausführung interaktiver Nachrichten** – Verfügbarkeitsdatum: 6. Juni 2025
 
-  Mit dem API für die Ausführung interaktiver Nachrichten können Sie jetzt den Zeitplan der bevorstehenden Kampagnenausführung löschen. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  Mit dem API für die Ausführung interaktiver Nachrichten können Sie jetzt den Zeitplan der bevorstehenden Kampagnenausführung löschen. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"}
 
 
 ## Versionshinweise Mai 2025 {#25-5-rn}
@@ -1454,7 +1454,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tbody>
 <tr>
 <td>
-<p>Sie können nun tägliche Journey-Ausführungen nach Abschluss der Batch-Segmentierung auslösen. Diese Option ist jetzt bei täglich geplanten Journeys für alle Kundinnen und Kunden verfügbar. Sie können damit ein Zeitfenster von bis zu 6 Stunden definieren, in dem auf Zielgruppendaten aus Batch-Segmentierungsaufträgen gewartet wird. So wird sichergestellt, dass Journeys mit den aktuellen Daten ausgeführt oder übersprungen werden, falls sie noch nicht bereit sind. </p>
+<p>Sie können nun tägliche Journey-Ausführungen nach Abschluss der Batch-Segmentierung auslösen. Diese Option ist jetzt bei täglich geplanten Journeys für alle Kundinnen und Kunden verfügbar. Sie können damit ein Zeitfenster von bis zu 6 Stunden definieren, in dem auf Zielgruppendaten aus Batch-Segmentierungsaufträgen gewartet wird. So wird sichergestellt, dass Journeys mit den aktuellen Daten ausgeführt oder übersprungen werden, falls sie noch nicht bereit sind.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/read-audience.md#schedule">ausführlichen Dokumentation</a>.</p>
@@ -1856,7 +1856,7 @@ Zusätzlich zu den vorhandenen Funktionen für den Testversand stehen neue APIs 
 
   >[!AVAILABILITY]
   >
-  >Diese Verbesserung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). 
+  >Diese Verbesserung ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit).
 
 <!--
 **Folders for content templates and fragments** - Availability date: May 5, 2025
@@ -2148,7 +2148,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt eine benutzerdefinierte Aktionskonfiguration validieren, indem Sie echte API-Aufrufe direkt aus Adobe Journey Optimizer durchführen. Mit dieser neuen Funktion können Sie Fehler bei benutzerdefinierten Aktionen beheben, bevor oder nachdem diese in einer Journey verwendet werden.  </p>
+<p>Sie können jetzt eine benutzerdefinierte Aktionskonfiguration validieren, indem Sie echte API-Aufrufe direkt aus Adobe Journey Optimizer durchführen. Mit dieser neuen Funktion können Sie Fehler bei benutzerdefinierten Aktionen beheben, bevor oder nachdem diese in einer Journey verwendet werden. </p>
 <p>Weitere Informationen finden Sie in der <a href="../action/troubleshoot-custom-action.md">ausführlichen Dokumentation</a>.</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -2203,7 +2203,7 @@ Die folgenden Verbesserungen werden mit dem Februar-Update vorgenommen.
 -->
 
 
-* **E-Mail-Konfiguration**: Im Falle einer Einverständnisverwaltung außerhalb von Adobe können Sie nun eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte URL zum Abmelden mit einem Klick im Rahmen Ihrer Konfigurationseinstellungen für den E-Mail-Kanal festlegen. [Weitere Informationen](../email/list-unsubscribe.md#custom-managed)
+* **E-Mail-Konfiguration**: Im Falle einer Einverständnisverwaltung außerhalb von Adobe können Sie nun eine benutzerdefinierte Abmelde-E-Mail-Adresse und eine benutzerdefinierte URL zum Abmelden mit einem Klick im Rahmen Ihrer Konfigurationseinstellungen für den E-Mail-Kanal festlegen. [Weitere Informationen](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 

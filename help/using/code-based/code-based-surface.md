@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '828'
+ht-degree: 99%
 
 ---
 
@@ -76,7 +76,7 @@ In der folgenden Tabelle sind einige beispielhafte Definitionen eines Oberfläch
 
 In [!DNL Journey Optimizer] unterstützt der Code-basierte Erlebniskanal zwei Arten von Kundenimplementierungen:
 
-* Basierend auf dem [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} für Ihre Websites oder dem [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} für Ihre Apps;
+* Basierend auf dem [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} für Ihre Websites oder dem [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation){target="_blank"} für Ihre Apps;
 * Server-seitig oder hybrid mit [AEP Edge Network Server APIs](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"}.
 
 >[!NOTE]

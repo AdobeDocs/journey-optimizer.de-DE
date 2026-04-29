@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '641'
+ht-degree: 85%
 
 ---
 
@@ -27,15 +27,15 @@ Wählen Sie im Abschnitt **[!UICONTROL Inhaltskarten-Layout]** eine der drei Opt
 
 * **[!UICONTROL Kleines Bild]**: Zeigt ein kompaktes Bild zusammen mit Text an, ideal für Nachrichten, bei denen Inhalt Vorrang vor Visualisierungen hat.
 
-  Weitere Informationen finden Sie in der Adobe-Entwicklerdokumentation [für iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) und [für Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/).
+  Weitere Informationen finden Sie in der Adobe-Entwicklerdokumentation [für iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template) und [für Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate).
 
 * **[!UICONTROL Großes Bild]**: Ein hervorgehobenes Bild über oder neben dem Text, wodurch der visuelle Aspekt zum Hauptfokus Ihrer Nachricht wird.
 
-  Weitere Informationen finden Sie in der Adobe-Entwicklerdokumentation [für iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) und [für Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/).
+  Weitere Informationen finden Sie in der Adobe-Entwicklerdokumentation [für iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template) und [für Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate).
 
 * **[!UICONTROL Nur Bild]**: Zeigt das Bild ohne begleitenden Text an, perfekt für visuell gesteuerte Nachrichten oder eigenständige Bilder.
 
-  Weitere Informationen finden Sie in der Adobe-Entwicklerdokumentation [für iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) und [für Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/).
+  Weitere Informationen finden Sie in der Adobe-Entwicklerdokumentation [für iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template) und [für Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate).
 
 ## Registerkarte „Inhalt“ {#content-tab}
 
@@ -63,7 +63,7 @@ Wenn der **[!UICONTROL Modus „Erweiterte Formatierung“]** eingeschaltet ist,
 
 +++
 
-### Schaltflächen        {#add-buttons}
+### Schaltflächen {#add-buttons}
 
 ![](assets/content-card-design-4.png)
 

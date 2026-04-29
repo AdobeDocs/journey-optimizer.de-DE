@@ -8,10 +8,10 @@ role: Admin
 level: Intermediate
 keywords: Zulassungsliste, sichere Liste, E-Mail, Zustellbarkeit, Sandbox, Domains, Unterdrückung, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 72%
+source-wordcount: '1341'
+ht-degree: 73%
 
 ---
 
@@ -27,7 +27,7 @@ In Nicht-Produktions-Sandboxes, in denen versehentliche Sendungen auftreten kön
 
 Wenn die Zulassungsliste aktiv, aber leer ist, werden keine E-Mails gesendet. Dies macht es zu einer nützlichen Notbremse: Wenn ein kritisches Problem auftritt, können Sie eine leere Zulassungsliste aktivieren, um alle von [!DNL Journey Optimizer] ausgehenden Nachrichten zu stoppen, bis das Problem behoben ist. Erfahren Sie mehr über die [Logik der Zulassungsliste](#logic).
 
-Sie können auch die Journey Optimizer-Unterdrückungs **REST-API verwenden,** ausgehende Nachrichten programmgesteuert über Unterdrückungs- und Zulassungslisten zu verwalten. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet.](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Sie können auch die Journey Optimizer-Unterdrückungs **REST-API verwenden,** ausgehende Nachrichten programmgesteuert über Unterdrückungs- und Zulassungslisten zu verwalten. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet.](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## Zugriff auf die Zulassungsliste {#access-allowed-list}
 
@@ -51,7 +51,7 @@ Sie können nach E-Mail-Adressen oder Domains suchen und nach dem **[!UICONTROL 
 
 Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]** auf.
+1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]**.
 
 1. Wählen Sie den Umschalter aus.
 
@@ -72,7 +72,7 @@ Die Logik der Zulassungsliste wird angewendet, wenn die Funktion aktiviert ist. 
 
 Gehen Sie wie folgt vor, um die Zulassungsliste zu deaktivieren.
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]** auf.
+1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]**.
 
 1. Wählen Sie den Umschalter aus.
 

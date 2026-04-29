@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1143'
 ht-degree: 5%
 
 ---
@@ -81,7 +81,7 @@ Alle API-Anfragen erfordern die folgenden Kopfzeilen:
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-Detaillierte Anweisungen zum Einrichten der Authentifizierung finden Sie im [Authentifizierungshandbuch für Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+Detaillierte Anweisungen zum Einrichten der Authentifizierung finden Sie im [Authentifizierungshandbuch für Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
 ### Workflow-Modell {#workflow-model}
 

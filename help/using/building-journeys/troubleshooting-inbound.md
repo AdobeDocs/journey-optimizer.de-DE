@@ -10,9 +10,9 @@ level: Intermediate
 keywords: eingehende Aktionen, Fehlerbehebung, Journey, Debugging, Selbsthilfe, überprüfen, Fehler
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1809'
 ht-degree: 95%
 
 ---
@@ -95,7 +95,7 @@ Besuchen Sie die Seite und überprüfen Sie die Registerkarte „Netzwerk“ ode
 
 >[!TAB Code-basierter Erlebniskanal]
 
-Führen Sie mit dem [Adobe-API](https://developer.adobe.com/data-collection-apis/docs/api/) eine cURL-Anfrage durch und überprüfen Sie die Edge-Antwort-Payload im Abschnitt **[!UICONTROL Edge Delivery]** der [Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}-Sitzung.
+Führen Sie mit dem [Adobe-API](https://developer.adobe.com/data-collection-apis/docs/api) eine cURL-Anfrage durch und überprüfen Sie die Edge-Antwort-Payload im Abschnitt **[!UICONTROL Edge Delivery]** der [Assurance](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}-Sitzung.
 
 >[!ENDTABS]
 
