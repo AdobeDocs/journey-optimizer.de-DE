@@ -60,8 +60,8 @@ Alle Fragmente sind links über das Menü **[!UICONTROL Content-Management]** > 
 
 Informationen zum Verwalten, Erstellen und Verwenden von **visuellen Fragmenten** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451191/?captions=ger&quality=12)
 
 Informationen zum Verwalten, Erstellen und Verwenden von **Ausdrucksfragmenten** in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3438927/?captions=ger&quality=12)
