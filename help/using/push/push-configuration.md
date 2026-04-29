@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 9195a5cd0b8c76cc5a580fc89d2324786931bcfe
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 98%
+source-wordcount: '2189'
+ht-degree: 88%
 
 ---
 
@@ -210,7 +210,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=de).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## Schritt 2: Erstellen einer Kanalkonfiguration für Push-Benachrichtigungen{#message-preset}
@@ -238,11 +238,28 @@ Nachdem Ihre Push-Anmeldedaten erstellt haben, müssen Sie eine Konfiguration er
 
 1. Wählen Sie Ihre **[!UICONTROL Plattform]** aus: Android und/oder iOS <!--and/or Web-->.
 
-1. Wählen Sie dieselbe **[!UICONTROL App-ID]** wie für Ihre oben konfigurierten [Push-Anmeldedaten](#push-credentials-launch) aus.
+1. Wählen Sie für **[!UICONTROL App-ID]** den Wert aus, der Ihren [Push-Anmeldedaten](#push-credentials-launch) entspricht. Optional können Sie eine Personalisierung verwenden, um viele Apps von einer Journey oder Kampagne zu steuern. [Weitere Informationen](#app-id-personalization)
 
-1. Speichern Sie Ihre Änderungen.
+1. **Speichern** Ihre Änderungen.
 
 Sie können Ihre Konfiguration jetzt beim Erstellen Ihrer Push-Benachrichtigungen auswählen.
+
+### App-ID personalisieren (optional) {#app-id-personalization}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_app_id"
+>title="App-ID personalisieren"
+>abstract="Wenn Sie mehrere Mobile Apps verwalten, speichern Sie jede App-ID im Profil und verwenden Sie eine einzige Push-Kanal-Konfiguration. Öffnen Sie den Personalisierungseditor neben dem Feld App-ID , um ein Profilattribut auszuwählen. Der Ausdruck wird zum Sendezeitpunkt für jede Empfängerin und jeden Empfänger ausgewertet. Stellen Sie sicher, dass für jede App-ID, die Ihr Ausdruck zurückgeben kann, Push-Anmeldeinformationen vorhanden sind."
+
+Wenn Sie viele Marken oder Mandanten mit separaten Programmen haben, können Sie jede **[!UICONTROL App-ID]** im Profil speichern und über eine einzige Kanalkonfiguration für jeden Empfänger eine Push-Benachrichtigung an die richtige Mobile App senden.
+
+Klicken Sie dazu auf das Personalization-Symbol neben dem Feld **[!UICONTROL App-ID]**, wählen Sie ein der App-ID zugeordnetes Profilattribut aus und speichern Sie es. Das Feld verwendet den entsprechenden [Handlebars-Ausdruck](../personalization/personalization-syntax.md) der zum Sendezeitpunkt für jeden Empfänger ausgewertet wird.
+
+![](assets/push-config-11.png){width="70%"}
+
+>[!CAUTION]
+>
+>[!DNL Journey Optimizer] überprüft nicht, ob [Push-Anmeldeinformationen](#push-credentials-launch) für jeden Wert vorhanden sind, den der Ausdruck zurückgeben kann. Stellen Sie sicher, dass Sie Push-Anmeldeinformationen für jede mögliche App-ID haben und testen Sie mit repräsentativen Profilen. Wenn die aufgelöste Anwendungs-ID eines Empfängers keine passenden Push-Anmeldeinformationen hat, werden sie nicht wie erwartet bereitgestellt.
 
 ## Schritt 3: Konfigurieren der Adobe Journey Optimizer-Erweiterung in Ihrer Mobile-Eigenschaft {#configure-journey-optimizer-extension}
 
