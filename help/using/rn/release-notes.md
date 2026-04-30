@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
+source-git-commit: 5336d78b070bbbdc735c56f53c284fbe9eff815d
 workflow-type: tm+mt
-source-wordcount: '2038'
-ht-degree: 20%
+source-wordcount: '2020'
+ht-degree: 19%
 
 ---
 
@@ -290,15 +290,11 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 
 * **Unterstützung von Adobe Experience Manager-Inhaltsfragmentvarianten** - Sie können beim Einfügen von Adobe Experience Manager **Inhaltsfragmenten „Inhaltsfragmentvarianten“** (z. B. Sprach- oder Kanalvarianten) auswählen, um die Handhabung für Gebietsschema- und mehrsprachige Szenarien zu verbessern. [Weitere Informationen](../integrations/aem-fragments.md#aem-variations)
 
-  Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
-
-  Verfügbarkeitsdatum: 3. April 2026
+  Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
 * **Adobe Experience Manager-Inhaltsfragmentkontext beim Authoring** - Ihre Inhaltsfragmentauswahl bleibt beim Wechseln zwischen Textfeldern und Inhaltsblöcken aktiv, sodass Sie weitere Fragmentfelder hinzufügen können, ohne **AEM Content Advisor** erneut zu öffnen. [Weitere Informationen](../integrations/aem-fragments.md)
 
-  Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
-
-  Verfügbarkeitsdatum: 1. April 2026
+  Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
 #### E-Mail-Design
 
