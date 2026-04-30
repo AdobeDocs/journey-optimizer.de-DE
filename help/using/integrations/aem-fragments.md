@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 1f5d5138674633b8b2da1d54b45d66a17ab30dcc
+source-git-commit: 5bbe7aa2e1acfc02fc8d6fdd571c9640d848dc76
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 34%
+source-wordcount: '1479'
+ht-degree: 35%
 
 ---
 
@@ -24,11 +24,11 @@ Die Integration zwischen Adobe Experience Manager und Journey Optimizer folgt di
 
 1. **[Konfigurieren der Dispatcher](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}**: Damit Journey Optimizer über die Inhaltsfragmentverwaltungs-API auf Adobe Experience Manager-Inhaltsfragmente zugreifen kann, müssen Sie zunächst die Dispatcher konfigurieren. Dies ist eine Voraussetzung für die Integration.
 
-1. **[Erstellen und Verfassen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: Inhalte werden in Adobe Experience Manager als Inhaltsfragmente erstellt und konfiguriert.
+1. **[Erstellen und Verfassen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: Inhalte werden in Adobe Experience Manager als Inhaltsfragmente erstellt und konfiguriert.
 
-1. **[Tagging](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: Inhaltsfragmente müssen mit dem Journey Optimizer-spezifischen Tag (`ajo-enabled:{OrgId}/{SandboxName}`) getaggt werden.
+1. **[Tagging](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: Inhaltsfragmente müssen mit dem Journey Optimizer-spezifischen Tag (`ajo-enabled:{OrgId}/{SandboxName}`) getaggt werden.
 
-1. **[Veröffentlichen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: Inhaltsfragmente werden in Adobe Experience Manager veröffentlicht und stehen damit Journey Optimizer zur Verfügung.
+1. **[Veröffentlichen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: Inhaltsfragmente werden in Adobe Experience Manager veröffentlicht und stehen damit Journey Optimizer zur Verfügung.
 
 1. **[Zugriff](#aem-add)**: Journey Optimizer ruft verfügbare Inhaltsfragmente aus der Adobe Experience Manager-Veröffentlichungsinstanz in Echtzeit ab und zeigt sie an.
 
@@ -156,7 +156,7 @@ Stellen Sie in diesem Fall mit der folgenden Syntax sicher, dass **_variableName
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Sie können nun den Inhalt Ihrer Nachricht testen und überprüfen, wie in [diesem Abschnitt](../content-management/preview.md) beschrieben.
 
-   <!--Note that the Content Fragment you selected stays active for this message. When you open the Personalization Editor in another field or content block, you can keep working with the same fragment from the **[!UICONTROL AEM Content Fragment]** section and add more fields without reopening **[!UICONTROL Open AEM CF selector]**.-->
+   Beachten Sie, dass das ausgewählte Inhaltsfragment für diese Nachricht aktiv bleibt. Wenn Sie den Personalization-Editor in einem anderen Feld oder Inhaltsblock öffnen, können Sie weiterhin mit demselben Fragment aus dem Abschnitt **[!UICONTROL AEM-Inhaltsfragment]** arbeiten und weitere Felder hinzufügen, ohne den **[!UICONTROL AEM CF-Selektor öffnen]** erneut zu öffnen.
 
 Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihrer Zielgruppe [Ihre Kampagne senden](../campaigns/review-activate-campaign.md) oder für sie [Ihre Journey veröffentlichen](../building-journeys/publish-journey.md).
 
@@ -175,7 +175,7 @@ Beispiele für Anwendungsfälle mit Varianten:
 * Regionale Tonanpassungen ohne Erstellen eines separaten Fragments.
 * Kanalspezifisches Messaging (z. B. Web im Vergleich zu Mobile).
 
-➡️ [Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)
+➡️ [Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)
 
 Mit Journey Optimizer können Sie auswählen, welche Variante beim Einfügen eines Fragments verwendet werden soll. So können verschiedene Kampagnen oder Journey auf verschiedene Ausgabedarstellungen desselben Quellinhalts in Adobe Experience Manager angewiesen sein, ohne Fragmente zu duplizieren.
 
