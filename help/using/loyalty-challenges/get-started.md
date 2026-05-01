@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue
-description: Learn how to create and manage loyalty challenges in Adobe Journey Optimizer to build engaging loyalty programs.
+description: Erfahren Sie, wie Sie in Adobe Journey Optimizer Herausforderungen im Zusammenhang mit Treueprogrammen erstellen und verwalten, um ansprechende Treueprogramme zu erstellen.
 feature: Journeys
 topic: Content Management
 role: User
@@ -18,13 +18,13 @@ ht-degree: 4%
 
 ---
 
-# Get started with loyalty challenges {#get-started-loyalty-challenges}
+# Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue {#get-started-loyalty-challenges}
 
 >[!BEGINSHADEBOX]
 
 **Dokumentation zu Herausforderungen im Zusammenhang mit der Treue:**
 
-* **Get started with Loyalty Challenges** ◀︎ **You are here**
+* **Erste Schritte mit den Herausforderungen im Zusammenhang mit**◀︎ **Sie sind hier**
 * [Zugriff und Verwaltung von Herausforderungen und Aufgaben](access-loyalty-challenges.md)
 * [Herausforderungen schaffen](create-challenges.md)
 * [Aufgaben erstellen](create-tasks.md)
@@ -41,23 +41,23 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="Treue-Challenges"
->abstract="Loyalty Challenges enable you to create engaging, gamified loyalty programs that drive customer behavior and deepen brand relationships. Build challenges that reward customers for specific actions—from making purchases and writing reviews to engaging on social media and referring friends."
+>abstract="Herausforderungen im Zusammenhang mit der Kundentreue ermöglichen es Ihnen, ansprechende, Gamified-Treueprogramme zu erstellen, die das Kundenverhalten fördern und die Markenbeziehungen vertiefen. Stellen Sie Herausforderungen auf, die Kunden für bestimmte Aktionen belohnen - von Käufen und dem Schreiben von Rezensionen bis hin zur Interaktion in sozialen Medien und der Vermittlung von Freunden."
 
-Loyalty Challenges enable you to create engaging, gamified loyalty programs that drive customer behavior and deepen brand relationships. Build challenges that reward customers for specific actions—from making purchases and writing reviews to engaging on social media and referring friends.
+Herausforderungen im Zusammenhang mit der Kundentreue ermöglichen es Ihnen, ansprechende, Gamified-Treueprogramme zu erstellen, die das Kundenverhalten fördern und die Markenbeziehungen vertiefen. Stellen Sie Herausforderungen auf, die Kunden für bestimmte Aktionen belohnen - von Käufen und dem Schreiben von Rezensionen bis hin zur Interaktion in sozialen Medien und der Vermittlung von Freunden.
 
-With Loyalty Challenges, you can:
+Herausforderungen im Zusammenhang mit der Kundentreue bieten Ihnen folgende Möglichkeiten:
 
-* **Design flexible challenge types**: Create Standard, Streak, or Sequential challenges to match your business goals
-* **Configure rewards strategically**: Deliver points at task milestones or upon full completion to maintain engagement
-* **Personalize the experience**: Use content cards and multi-channel messaging to create immersive, branded experiences
-* **Integrate seamlessly**: Connect with your existing loyalty providers and leverage Experience Platform data
-* **Track automatically**: Monitor customer progress through auto-generated journeys without custom development
+* **Entwerfen Sie flexible**: Erstellen Sie Standard-, Streak- oder sequenzielle Herausforderungen, um Ihre Geschäftsziele zu erreichen
+* **Prämien strategisch konfigurieren**: Punkte an Aufgaben-Meilensteinen oder nach vollständigem Abschluss liefern, um die Interaktion aufrechtzuerhalten
+* **Personalisieren des Erlebnisses**: Verwenden Sie Inhaltskarten und Multi-Channel-Messaging, um beeindruckende Markenerlebnisse zu schaffen
+* **Nahtlose Integration**: Verbinden Sie sich mit Ihren bestehenden Treueanbietern und nutzen Sie Experience Platform-Daten
+* **Automatisch nachverfolgen**: Überwachen des Kundenfortschritts über automatisch generierte Journey ohne benutzerdefinierte Entwicklung
 
 ![](assets/challenges-gs.png)
 
-You can create three types of challenge experiences:
+Sie können drei Arten von Herausforderungen erstellen:
 
-* **Standard challenges**: Customers complete any specified number of tasks in any order. Use this type when you want flexibility and multiple paths to completion.\
+* **Standardherausforderungen**: Kunden führen eine beliebige Anzahl von Aufgaben in beliebiger Reihenfolge aus. Verwenden Sie diesen Typ, wenn Sie Flexibilität und mehrere Pfade zum Abschluss wünschen.\
   *Beispiel: „Summer Wellness Challenge“ - 3 von 5 Aufgaben erledigen: Gesundheitsprodukte kaufen, in den sozialen Medien teilen, einen Freund verweisen, eine Bewertung schreiben oder an einer virtuellen Veranstaltung teilnehmen*
 
 * **Streak Challenges**: Kunden führen dieselbe Aufgabe mehrmals hintereinander aus. Verwenden Sie diesen Typ, um im Laufe der Zeit ein konsistentes, wiederholtes Verhalten zu fördern.\
