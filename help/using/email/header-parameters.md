@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Absender-Header, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 646817ff0bb2473b0693a27a2fdf54bd1acc463f
+source-git-commit: 48a25f41701f5e42c15fb8149b03cabcc575db24
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 59%
@@ -131,3 +131,4 @@ Sie müssen Folgendes angeben:
 Die Weiterleitungs-E-Mail-Adresse wird von Adobe eingerichtet. Dies kann 3 bis 4 Tage dauern.
 
 Danach werden alle Nachrichten, die über die Adressen unter **[!UICONTROL Antwort an (E-Mail)]** und **Fehler-E-Mail** empfangen werden, sowie alle E-Mails, die an die Adresse unter **Von E-Mail** gesendet werden, an die von Ihnen angegebene spezifische E-Mail-Adresse weitergeleitet.
+
