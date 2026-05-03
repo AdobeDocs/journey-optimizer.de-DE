@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 83%
+source-wordcount: '781'
+ht-degree: 82%
 
 ---
 
@@ -57,7 +57,7 @@ Für journeyStepEvent müssen auch Identitätsfelder hinzugefügt werden:
 
 ## serviceEvents {#servicevents-field}
 
-Dieses Mix-in enthält alle Felder, die einem Profilexportauftrag entsprechen. Diese Ereignisse werden pro Aktivität **Zielgruppe lesen** generiert, um den Lebenszyklus von Zielgruppenexportvorgängen (in der Warteschlange, gestartet, abgeschlossen, Fehler) zu verfolgen. Im Gegensatz zu regulären Schrittereignissen sind serviceEvents nicht an einzelne Profile gebunden, sondern an den Knoten „Zielgruppe lesen“ selbst, d. h. sie verfügen möglicherweise nicht über eine zugeordnete Profilkennung.
+Dieses Mixin enthält alle Felder, die einem Profilexportauftrag entsprechen. Diese Ereignisse werden pro Aktivität **Zielgruppe lesen** generiert, um den Lebenszyklus von Zielgruppenexportvorgängen (in der Warteschlange, gestartet, abgeschlossen, Fehler) zu verfolgen. Im Gegensatz zu regulären Schrittereignissen sind serviceEvents nicht an einzelne Profile gebunden, sondern an den Knoten „Zielgruppe lesen“ selbst, d. h. sie verfügen möglicherweise nicht über eine zugeordnete Profilkennung.
 
 | Feldname | Typ | Beschreibung |
 |---|---|------------|
@@ -70,7 +70,7 @@ Dieses Mix-in enthält alle Felder, die einem Profilexportauftrag entsprechen. D
 | eventType | Zeichenfolge | Der Ereignistyp, der angibt, ob es sich um ein Fehlerereignis oder ein Informationsereignis handelt: Info, Fehler |
 | eventCode | Zeichenfolge | Der Fehler-Code, der den Grund für den entsprechenden eventType angibt |
 
-Weitere Informationen zu eventTypes finden Sie in [diesem Abschnitt](#discarded-events). 
+Weitere Informationen zu eventTypes finden Sie in [diesem Abschnitt](#discarded-events).
 
 ## stepEvents {#stepevents-field}
 
@@ -124,5 +124,6 @@ Im Folgenden finden Sie Definitionen, häufige Ursachen und Schritte zur Fehlerb
 
 * [Beispiele für Datensatzabfragen – Journey-Schrittereignis](../data/datasets-query-examples.md#journey-step-event).
 * [Beispiele für Abfragen – Ereignisbasierte Abfragen](query-examples.md#event-based-queries).
+* [Beispiele für Abfragen - Geschäftsregelabfragen](query-examples.md#business-rules-queries).
 * [Wörterbuch für integrierte Schemata](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
 

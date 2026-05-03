@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 100%
+source-wordcount: '1033'
+ht-degree: 96%
 
 ---
 
@@ -73,7 +73,7 @@ Die Tabelle **[!UICONTROL Journey-Statistiken]** bietet eine detaillierte Zusamm
 
 ## Journey-Ausschluss {#journey-exclusion}
 
-Die Tabelle **[!UICONTROL Journey-Ausschluss]** bietet einen umfassenden Überblick über die verschiedenen Faktoren, die zum Ausschluss von Benutzerprofilen geführt haben.
+Die Tabelle **[!UICONTROL Journey-Ausschluss]** bietet einen umfassenden Überblick über die verschiedenen Faktoren, die zum Ausschluss von Benutzerprofilen geführt haben. Um geschäftsregelbezogene Ausschlüsse auf Data-Lake-Ebene zu untersuchen und festzustellen, ob Profile aufgrund eines erreichten Grenzwerts oder einer niedrigeren Priorität ausgeschlossen wurden, verwenden Sie die Abfragen in [diesem Abschnitt](query-examples.md#business-rules-queries).
 
 ## Aktionsfehler {#action-error}
 

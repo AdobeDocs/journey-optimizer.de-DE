@@ -7,9 +7,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1131'
 ht-degree: 20%
 
 ---
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel für Ihre Journey zu erstellen
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
 -->
 
-1. Klicken Sie optional auf **[!UICONTROL KI-Modell auswählen]**, um das Modell festzulegen, das als Referenz zur Erstellung Ihrer Rangfolgenformel verwendet wird. [Weitere Informationen](journey-ai-models.md)
+1. Klicken Sie optional auf **[!UICONTROL KI-Modell auswählen]**, um das Modell festzulegen, das als Referenz zur Erstellung der Rangfolgenformel verwendet wird. [Weitere Informationen](journey-ai-models.md)
 
 <!--
     >[!NOTE]
@@ -97,7 +97,7 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel für Ihre Journey zu erstellen
 
    ![Ausdrucksfeld für Journey, die keine Kriterien erfüllen](assets/journey-formula-criteria-not-met.png){width="70%"}
 
-1. Klicken Sie **[!UICONTROL Erstellen]**, um Ihre Rangfolgenformel abzuschließen.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um Ihre Rangfolgenformel fertigzustellen.
 
 Sie können diese Formel jetzt aus der Liste auswählen, um ihre Details anzuzeigen und sie zu bearbeiten oder zu löschen. Sie ist dann verfügbar, wenn Sie einen Regelsatz konfigurieren. [Weitere Informationen](#assign-formula-to-ruleset)
 
@@ -134,7 +134,7 @@ Wenn keine der oben genannten Bedingungen erfüllt ist, wird der Rangfolgenwert 
 
 ### Verwenden des Code-Editors {#journey-ranking-formula-code-editor}
 
-Um Rangfolgenformeln in der **PQL-Syntax** auszudrücken, wechseln Sie mithilfe der entsprechenden Schaltfläche oben rechts auf dem Bildschirm zum Code-Editor. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de).
+Um Rangfolgenformeln in der **PQL-Syntax** auszudrücken, wechseln Sie mithilfe der entsprechenden Schaltfläche oben rechts auf dem Bildschirm zum Code-Editor. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview).
 
 >[!CAUTION]
 >
@@ -186,7 +186,7 @@ Gehen Sie wie folgt vor, um den Regelsatz einer Journey zuzuweisen.
 
 Alle Journey, die diesen Regelsatz verwenden, werden bei der Anwendung der Begrenzung nach der ausgewählten Formel gereiht.
 
-Informationen zur Überwachung der Leistung Ihrer Regelsätze und Rangfolgenformeln finden Sie im Abschnitt [Journey-Begrenzung und &#x200B;](../reports/channel-report-cja.md#rule-sets)Konflikte“ im Übersichtsbericht.
+Informationen zur Überwachung der Leistung Ihrer Regelsätze und Rangfolgenformeln finden Sie im Abschnitt [Journey-Begrenzung und &#x200B;](../reports/channel-report-cja.md#rule-sets)Konflikte“ im Übersichtsbericht. Verwenden Sie die in diesem Abschnitt verfügbaren Abfragen, um Verwerfungen auf Data-Lake-Ebene zu untersuchen und festzustellen, ob ein Profil aufgrund eines erreichten (`CAP_REACHED`) oder niedrigeren Prioritätswerts (`LOWER_PRIORITY`) [&#x200B; wurde](../reports/query-examples.md#business-rules-queries).
 
 <!--
 ## Reporting {#reporting}

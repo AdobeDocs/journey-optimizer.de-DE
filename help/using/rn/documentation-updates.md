@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
+source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
 workflow-type: tm+mt
-source-wordcount: '7188'
+source-wordcount: '7252'
 ht-degree: 68%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 68%
 # Dokumentation – Aktualisierungen {#latest-updates}
 
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
+
+## Mai 2026 {#may-2026}
+
+* Der neue Abschnitt **Geschäftsregelabfragen** wurde zur Seite mit den Abfragebeispielen hinzugefügt und bietet eine Data-Lake-Abfrage , um alle Profilverwerfen-Aktionen aufgrund von Journey-Frequenzlimitierungs-Ausschlüssen auf einer bestimmten Journey nach einem bestimmten Datum zu überprüfen. Die Abfrage enthält das Feld `eventCodeReason` , um anzugeben, ob Profile ausgeschlossen wurden, weil eine Begrenzung erreicht (`CAP_REACHED`) oder aufgrund einer niedrigeren Priorität (`LOWER_PRIORITY`). [Weitere Informationen](../reports/query-examples.md#business-rules-queries)
 
 ## April 2026 {#april-2026}
 

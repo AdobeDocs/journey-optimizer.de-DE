@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 73%
+source-wordcount: '3739'
+ht-degree: 71%
 
 ---
 
@@ -30,7 +30,7 @@ Bevor Sie eine Abfrage auf dieser Seite ausführen, stellen Sie Folgendes sicher
 
 >[!TIP]
 >
->**Neu bei Query Service?** [Adobe Experience Platform](https://experience.adobe.com/) zu öffnen, navigieren Sie zu **Abfrage-Service > Abfragen** fügen Sie ein beliebiges Beispiel unten ein, ersetzen Sie die Platzhalterwerte (z. B. `<journeyVersionID>`, `<last x hours>`) und wählen Sie **Ausführen**.
+>**Neu bei Query Service?** Öffnen Sie [Adobe Experience Platform](https://experience.adobe.com/), navigieren Sie zu **Abfrage-Service > Abfragen** fügen Sie ein beliebiges Beispiel unten ein, ersetzen Sie die Platzhalterwerte (z. B. `<journeyVersionID>`, `<last x hours>`) und wählen Sie **Ausführen**.
 
 ## Finden der richtigen Abfrage {#find-query}
 
@@ -41,6 +41,7 @@ Bevor Sie eine Abfrage auf dieser Seite ausführen, stellen Sie Folgendes sicher
 | Untersuchen der Ausführung von „Zielgruppe lesen“ oder von Fehlern | [Audience-Abfragen lesen](#read-segment-queries) |
 | Fehlerbehebung bei Nachrichten- oder Aktionsfehlern | [Nachrichten- und Aktionsfehler](#message-action-errors) |
 | Verwerfen der Zielgruppenqualifizierung analysieren | [Zielgruppen-Qualifizierungsabfragen](#segment-qualification-queries) |
+| Untersuchen von Verwerfen von Geschäftsregeln | [Geschäftsregelabfragen](#business-rules-queries) |
 | Debuggen von externen oder Geschäftsereignissen | [Ereignisbasierte Abfragen](#event-based-queries) |
 | Überwachen der Leistung benutzerdefinierter Aktionsendpunkte | [Benutzerdefinierte Aktionsabfragen](#query-custom-action) |
 | Nachverfolgen von aktivierbaren Profilen und Lizenznutzung | [Interaktionsfähige Profilabfragen](#engageable-profiles-queries) |
@@ -57,7 +58,7 @@ Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechen
 
 >[!NOTE]
 >
->Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journeys die Verwendung von journeyVersionID anstelle von journeyVersionName.  Weitere Informationen über die Attribute von Journey-Eigenschaften finden Sie [in diesem Abschnitt](../building-journeys/expression/journey-properties.md#journey-properties-fields).
+>Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journeys die Verwendung von journeyVersionID anstelle von journeyVersionName. Weitere Informationen über die Attribute von Journey-Eigenschaften finden Sie [in diesem Abschnitt](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 +++
 
@@ -371,7 +372,7 @@ WHERE
 
 +++Wie werden die Details eines serviceEvents überprüft? 
 
-Der Journey-Schritt-Ereignis-Datensatz enthält alle stepEvents und serviceEvents. stepEvents werden in Berichten verwendet, denn sie beziehen sich auf Aktivitäten (Ereignisse, Aktionen usw.) von Profilen in einer Journey. serviceEvents werden im selben Datensatz gespeichert und geben zusätzliche Informationen zu Debugging-Zwecken an, z. B. den Grund für die Verwerfung eines Erlebnisereignisses.
+Der Journey-Schritt-Ereignis-Datensatz enthält alle stepEvents und serviceEvents. stepEvents werden in Berichten verwendet, da sie sich auf Aktivitäten beziehen (Ereignisse, Aktionen usw.) von Profilen in einer Journey. serviceEvents werden im selben Datensatz gespeichert und geben zusätzliche Informationen zu Debugging-Zwecken an, z. B. den Grund für die Verwerfung eines Erlebnisereignisses.
 
 Im Folgenden finden Sie ein Beispiel für eine Abfrage, um die Details eines serviceEvents zu überprüfen:
 
@@ -558,11 +559,11 @@ _Beispielausgabe_
 
 | ENTRY_DATE | PROFILES_COUNT |
 |---|---|
-| 25.11.2024 | 1.245 |
-| 24.11.2024 | 1.189 |
-| 23.11.2024 | 15.340 |
-| 22.11.2024 | 1.205 |
-| 21.11.2024 | 1.167 |
+| 2024-11-25 | 1.245 |
+| 2024-11-24 | 1.189 |
+| 2024-11-23 | 15.340 |
+| 2024-11-22 | 1.205 |
+| 2024-11-21 | 1.167 |
 
 Die Abfrage gibt für den definierten Zeitraum die Anzahl der Profile zurück, die täglich in die Journey eingetreten sind. Wenn ein Profil über mehrere Identitäten eingetreten ist, wird es zweimal gezählt. Wenn der erneute Eintritt aktiviert ist, kann die Profilanzahl über verschiedene Tage hinweg dupliziert werden, wenn das Profil an einem anderen Tag erneut auf die Journey gelangt ist.
 
@@ -965,6 +966,60 @@ Diese Abfrage gibt alle Ereignisse (externe Ereignisse/Zielgruppen-Qualifizierun
 
 +++
 
+## Abfragen im Zusammenhang mit Geschäftsregeln {#business-rules-queries}
+
++++Überprüfen Sie alle Verwerfungen aufgrund von Journey-Frequenzlimitierungs-Ausschlüssen auf einer bestimmten Journey nach einem bestimmten Datum
+
+Diese Abfrage gibt den zurückgewiesenen Regelsatz und die Regeldetails für alle Profile zurück, die aufgrund von Frequenzlimitierungsregeln auf einer bestimmten Journey ab einem bestimmten Datum verworfen wurden.
+
+_Data-Lake-Abfrage_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionId>'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('<YYYY-MM-DD>')
+```
+
+_Beispiel_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
+Diese Abfrage gibt alle Verwerfungen zurück, bei denen ein Regelsatz zugeordnet wurde (`rejectedRuleset.ID` ungleich null). Das Feld `eventCodeReason` gibt den Untergrund für die Verwerfung an: `LOWER_PRIORITY` (Profil wird aufgrund einer Journey-Schlichtung verworfen) oder `CAP_REACHED` (Profil wird verworfen, weil die Häufigkeitsbegrenzung erreicht wurde). Die Ergebnisse zeigen, welche spezifischen Regelsätze und Regeln zur Frequenzlimitierung dazu geführt haben, dass Profile nach dem angegebenen Datum aus dem Journey ausgeschlossen wurden.
+
++++
+
 ## Ereignisbasierte Abfragen {#event-based-queries}
 
 +++Überprüfung, ob ein Geschäftsereignis für eine Journey empfangen wurde
@@ -1053,13 +1108,12 @@ Erfahren Sie, wie Sie [Fehler bei verworfenen Ereignistypen in journey_step_even
 
 Mit diesen Abfragen können Sie die Anzahl Ihrer Engageable Profile überwachen und analysieren. Ein Ansprechbares Profil ist ein eindeutiges Profil, das in den letzten 12 Monaten über Journey oder Kampagnen interagiert hat. Erfahren Sie mehr über [Engageable Profiles und Lizenznutzung](../audience/license-usage.md#what-is-engageable-profile).
 
->[!IMPORTANT]
->
->**Best Practices für die Abfrage von ansprechbaren Profilen:**
->* Stellen Sie sicher, dass jedes Nicht-Aggregatfeld in der `GROUP BY` enthalten ist
->* Verweisen auf Datensätze, die nicht in der Sandbox vorhanden sind, vermeiden - Bestätigen von Datensatznamen in der Platform-Benutzeroberfläche
->* Verwenden Sie `distinct` beim Zählen eindeutiger Profile, um Duplikate über Identity-Namespaces hinweg zu vermeiden
->* Wenn Sie `LIMIT` verwenden, platzieren Sie sie nach `ORDER BY` Klauseln am Ende der Abfrage
+**Best Practices für die Abfrage von ansprechbaren Profilen:**
+
+* Stellen Sie sicher, dass jedes Nicht-Aggregatfeld in der `GROUP BY` enthalten ist
+* Verweisen auf Datensätze, die nicht in der Sandbox vorhanden sind, vermeiden - Bestätigen von Datensatznamen in der Platform-Benutzeroberfläche
+* Verwenden Sie `distinct` beim Zählen eindeutiger Profile, um Duplikate über Identity-Namespaces hinweg zu vermeiden
+* Wenn Sie `LIMIT` verwenden, platzieren Sie sie nach `ORDER BY` Klauseln am Ende der Abfrage
 
 +++Anzahl der eindeutigen Profile, an die eine bestimmte Journey beteiligt ist
 
@@ -1127,11 +1181,11 @@ _Beispielausgabe_
 
 | ENGAGEMENT_DATE | ENGAGED_PROFILES |
 |---|---|
-| 25.11.2024 | 8.450 |
-| 24.11.2024 | 7.820 |
-| 23.11.2024 | 125.340 |
-| 22.11.2024 | 9.230 |
-| 21.11.2024 | 8.670 |
+| 2024-11-25 | 8.450 |
+| 2024-11-24 | 7.820 |
+| 2024-11-23 | 125.340 |
+| 2024-11-22 | 9.230 |
+| 2024-11-21 | 8.670 |
 
 Mit dieser Ausgabe können Sie tägliche Trends überwachen und erkennen, wann eine große Anzahl von Profilen interagiert. In diesem Beispiel zeigt der 23. November eine signifikante Spitze (125.340 Profile) im Vergleich zur typischen täglichen Interaktion (ca. 8.000 Profile), die eine Untersuchung rechtfertigen würde, um zu verstehen, was Journey oder Kampagne die Zunahme der Anzahl Ihrer [Engageable Profiles“ verursacht &#x200B;](../audience/license-usage.md).
 
@@ -1162,9 +1216,9 @@ _Beispielausgabe_
 
 | JOURNEY_VERSION_ID | JOURNEY_NAME | ENGAGEMENT_DATE | ENGAGED_PROFILES |
 |---|---|---|---|
-| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Black Friday Campaign | 23.11.2024 | 125.340 |
-| A3C21B89-456D-4E21-B8F3-9A8E7C6D5432 | Journey zur Produkteinführung | 22.11.2024 | 45.230 |
-| F9E8D7C6-B5A4-3210-9876-543210FEDCBA | Weihnachts-Newsletter | 21.11.2024 | 32.150 |
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Black Friday Campaign | 2024-11-23 | 125.340 |
+| A3C21B89-456D-4E21-B8F3-9A8E7C6D5432 | Journey zur Produkteinführung | 2024-11-22 | 45.230 |
+| F9E8D7C6-B5A4-3210-9876-543210FEDCBA | Weihnachts-Newsletter | 2024-11-21 | 32.150 |
 
 Diese Abfrage filtert nach Journey, die in den letzten sieben Tagen mehr als 1.000 Profile pro Tag kontaktiert haben. Die Ausgabe zeigt, welche Journey und Daten für große Profilinteraktionen verantwortlich sind. Passen Sie den Schwellenwert der `HAVING` entsprechend Ihren Anforderungen an (ändern Sie z. B. `> 1000` für größere Schwellenwerte in `> 10000`).
 
@@ -1213,11 +1267,11 @@ _Beispielausgabe_
 
 | ACTIVITY_DATE | ACTIVE_JOURNEY |
 |---|---|
-| 25.11.2024 | 12 |
-| 24.11.2024 | 15 |
-| 23.11.2024 | 14 |
-| 22.11.2024 | 11 |
-| 21.11.2024 | 13 |
+| 2024-11-25 | 12 |
+| 2024-11-24 | 15 |
+| 2024-11-23 | 14 |
+| 2024-11-22 | 11 |
+| 2024-11-21 | 13 |
 
 Die Abfrage gibt für den definierten Zeitraum die Anzahl der eindeutigen Journeys zurück, die jeden Tag ausgelöst wurden. Eine einzelne Journey, die an mehreren Tagen ausgelöst wird, wird einmal pro Tag gezählt.
 
