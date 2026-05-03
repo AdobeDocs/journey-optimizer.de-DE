@@ -5,10 +5,10 @@ title: Verwenden der Aktivität „Test“ in Ihren orchestrierten Kampagnen
 description: Informationen zur Verwendung der Aktivität „Test“
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 30%
+source-wordcount: '412'
+ht-degree: 28%
 
 ---
 
@@ -41,7 +41,7 @@ So richten Sie die Aktivität **[!UICONTROL Test]** ein:
 
    * **label**: Ein Name für die Transition, der auf der Arbeitsfläche erkennbar ist.
 
-   * **Bedingungstyp**: Die standardmäßig auszuwertenden Daten zur Populationsanzahl.
+   * **Bedingungstyp**: Die standardmäßig auszuwertenden Daten zur Populationsanzahl.  Variablen (die von globalen Variablen oder einem Variablensignal stammen) werden hier ebenfalls aufgelistet und können so ausgewählt werden, dass eine Bedingung auf einem Variablenwert basiert. [Erfahren Sie, wie Sie Variablen in orchestrierten Kampagnen verwenden](../variables-orchestrated-campaigns.md)
 
    * **Operator**: Der anzuwendende Vergleich, z. B. gleich, größer als, kleiner als. Die Liste der Operatoren hängt vom Datentyp des Bedingungstyps ab.
 
