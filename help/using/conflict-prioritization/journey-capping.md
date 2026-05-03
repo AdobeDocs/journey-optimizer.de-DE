@@ -115,7 +115,7 @@ Sobald eine Journey live ist, können Sie in der Tabelle **[!UICONTROL Journey-A
 
 ![](assets/journey-report.png)
 
-Darüber hinaus können Sie auch den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} zum Erstellen von Abfragen nutzen, um herauszufinden, welche Regel dazu geführt hat, dass ein Profil nicht in eine bestimmte Journey eintreten konnte. Abfragebeispiele, einschließlich des Untergrundes zum Verwerfen (`CAP_REACHED` oder `LOWER_PRIORITY`), finden [ in diesem Abschnitt](../reports/query-examples.md#business-rules-queries).
+Darüber hinaus können Sie auch den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} zum Erstellen von Abfragen nutzen, um herauszufinden, welche Regel dazu geführt hat, dass ein Profil nicht in eine bestimmte Journey eintreten konnte. Abfragebeispiele, einschließlich des Untergrundes zum Verwerfen (`CAP_REACHED` oder `LOWER_PRIORITY`), finden [&#x200B; in diesem Abschnitt](../reports/query-examples.md#business-rules-queries).
 
 ## Anleitungsvideo {#video}
 

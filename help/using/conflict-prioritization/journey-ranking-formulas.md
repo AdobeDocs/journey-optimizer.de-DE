@@ -186,7 +186,7 @@ Gehen Sie wie folgt vor, um den Regelsatz einer Journey zuzuweisen.
 
 Alle Journey, die diesen Regelsatz verwenden, werden bei der Anwendung der Begrenzung nach der ausgewählten Formel gereiht.
 
-Informationen zur Überwachung der Leistung Ihrer Regelsätze und Rangfolgenformeln finden Sie im Abschnitt [Journey-Begrenzung und ](../reports/channel-report-cja.md#rule-sets)Konflikte“ im Übersichtsbericht. Verwenden Sie die in diesem Abschnitt verfügbaren Abfragen, um Verwerfungen auf Data-Lake-Ebene zu untersuchen und festzustellen, ob ein Profil aufgrund eines erreichten (`CAP_REACHED`) oder niedrigeren Prioritätswerts (`LOWER_PRIORITY`) [ wurde](../reports/query-examples.md#business-rules-queries).
+Informationen zur Überwachung der Leistung Ihrer Regelsätze und Rangfolgenformeln finden Sie im Abschnitt [Journey-Begrenzung und &#x200B;](../reports/channel-report-cja.md#rule-sets)Konflikte“ im Übersichtsbericht. Verwenden Sie die in diesem Abschnitt verfügbaren Abfragen, um Verwerfungen auf Data-Lake-Ebene zu untersuchen und festzustellen, ob ein Profil aufgrund eines erreichten (`CAP_REACHED`) oder niedrigeren Prioritätswerts (`LOWER_PRIORITY`) [&#x200B; wurde](../reports/query-examples.md#business-rules-queries).
 
 <!--
 ## Reporting {#reporting}
