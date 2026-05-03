@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 62%
+source-wordcount: '1102'
+ht-degree: 61%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 62%
 
 Der Übersichtsbericht bietet Benutzenden eine gründliche Zusammenfassung von Traffic- und Interaktionsmetriken für alle Kampagnen und Journeys in Ihrer Umgebung. Diese Metriken werden kombiniert, um einheitliche Werte für Aktionen aus verschiedenen Kanälen zu liefern, die verschiedene Kampagnen und Journeys umfassen.
 
-Greifen Sie auf den Übersichtsbericht zu, indem Sie im Abschnitt **Journey-Management** zum Menü **Berichte** navigieren. 
+Greifen Sie auf den Übersichtsbericht zu, indem Sie im Abschnitt **Journey-Management** zum Menü **Berichte** navigieren.
 
 Die Berichtseite wird mit den folgenden Registerkarten angezeigt:
 
@@ -143,7 +143,7 @@ Die Tabelle **[!UICONTROL Journey-Begrenzung und -Konflikte]** bietet Einblicke 
 
 Die Spalte **[!UICONTROL Journey-Einträge nach Regelsatz]** zeigt die Anzahl der Profile an, die die Journey betreten haben. Es gibt drei Arten von Eingängen:
 
-* **&#x200B;**&#x200B;[!UICONTROL Kein Konflikt]&#x200B;**&#x200B;**: Das Profil ist ohne Regelsatzkonflikte auf die Journey gelangt. Keine aktiven Regelsätze verhinderten diese Eingabe, und der Journey-Eintrag erfolgte unabhängig von den Schlichtungsregeln.
+* ****[!UICONTROL Kein Konflikt]****: Das Profil ist ohne Regelsatzkonflikte auf die Journey gelangt. Keine aktiven Regelsätze verhinderten diese Eingabe, und der Journey-Eintrag erfolgte unabhängig von den Schlichtungsregeln.
 
 * **Höhere Priorität**: Das Profil ist auf die Journey gelangt, da es eine höhere Priorität hat als andere konkurrierende Journey. Obwohl ein Konflikt aufgetreten ist (das Profil hat sich für mehrere Journey qualifiziert), wurde diese Journey aufgrund ihres höheren Prioritätswerts ausgewählt.
 
@@ -156,6 +156,8 @@ Die Spalte **[!UICONTROL Ausschlüsse]** zeigt die Anzahl der Profile an, die vo
 * **Niedrigere Priorität**: Die Obergrenze wurde nicht erreicht, aber andere Journey mit höherer Priorität erfüllen die Anforderungen. Das Profil wurde von dieser Journey ausgeschlossen und stattdessen in eine Journey mit höherer Priorität aufgenommen.
 
 +++
+
+Informationen zur Untersuchung dieser Ausschlüsse auf Data-Lake-Ebene mithilfe von Adobe Experience Platform Query Service finden Sie unter [Geschäftsregelabfragen](query-examples.md#business-rules-queries).
 
 ➡️ [Erfahren Sie mehr über Journey-Begrenzung und Schlichtung](../conflict-prioritization/journey-capping.md)
 
