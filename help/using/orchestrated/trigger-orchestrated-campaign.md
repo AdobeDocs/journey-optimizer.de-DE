@@ -2,32 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Trigger einer orchestrierten Kampagne mithilfe eines Signals
-description: Erfahren Sie, wie Sie einen Trigger für eine orchestrierte Kampagne mit einem -Signal in  [!DNL Adobe Journey Optimizer].
+description: Erfahren Sie, wie Sie einen Trigger für eine orchestrierte Kampagne mit einem Signal erstellen und Parameter übergeben, die wie in der Kampagne verfügbar werden.
 feature: Campaigns
 topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
 
 # Trigger hat Kampagnen mithilfe eines Signals orchestriert {#trigger-signal}
 
-Sie können einen Trigger für eine orchestrierte Kampagne durchführen, indem Sie ihr ein Signal senden, anstatt sie planmäßig auszuführen. Das Signal wird über einen API-Aufruf von einem externen System oder einer externen Anwendung gesendet. Bei Verwendung eines Signals können Parameter übergeben werden. Sie werden dann in der orchestrierten Kampagne als Ereignisvariablen im Ausführungskontext zur Verwendung bei der Zielgruppenbestimmung, in Bedingungen oder Ausdrücken bereitgestellt.
+Sie können einen Trigger für eine orchestrierte Kampagne durchführen, indem Sie ihr ein Signal senden, anstatt sie planmäßig auszuführen. Das Signal wird über einen API-Aufruf von einem externen System oder einer externen Anwendung gesendet. Bei Verwendung eines Signals können Sie Parameter übergeben, die als Variablen in der Kampagne verfügbar werden - zur Verwendung bei der Zielgruppenbestimmung, Bedingungen oder Ausdrücken.
+
+Auf dieser Seite wird beschrieben, wie Sie ein Signal konfigurieren und Trigger vornehmen. Sobald die Variablen verfügbar sind, finden Sie weitere Informationen zu ihrer Verwendung in Regeln und **[!UICONTROL Test]**-Bedingungen unter [Verwenden von Variablen in orchestrierten Kampagnen](variables-orchestrated-campaigns.md).
 
 Die vollständige REST-Spezifikation für den Trigger-Endpunkt (Pfade, Kopfzeilen, Hauptteil, Antworten und Fehler) finden Sie unter [Trigger Orchestered Campaign API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} in der Adobe Journey Optimizer-API-Dokumentation.
 
 End-to-End-Prozess zum Trigger einer orchestrierten Kampagne mithilfe eines Signals:
 
-1. [Planung der durch ein Signal ausgelösten Kampagne](#set-an-orchestrated-campaign-to-wait-for-a-signal-configure-signal)
-1. [Parameter für die Signal-Payload hinzufügen](#add-parameters-for-the-signal-payload-optional-parameters) (optional)
-1. [Erstellen und Testen der Kampagne](#build-and-test-the-campaign-build-and-test)
-1. [Veröffentlichen und Trigger der Kampagne](#publish-and-trigger-the-campaign-publish)
+1. [Planung der durch ein Signal ausgelösten Kampagne](#configure-signal)
+1. [Parameter für die Signal-Payload hinzufügen](#parameters) (optional)
+1. [Erstellen und Testen der Kampagne](#build-and-test)
+1. [Veröffentlichen und Trigger der Kampagne](#publish)
 
 >[!NOTE]
 >
@@ -57,7 +59,7 @@ Sie können Parameter im Kampagnensignal übergeben und in Ihrer Trigger im Ausf
 
 >[!NOTE]
 >
->Wenn Sie im API-Aufruf einen Parameter übergeben, der nicht im Planer definiert wurde, ist der API-Aufruf trotzdem erfolgreich und der Parameter wird weitergegeben, und Sie können ihn in Ausdrücken verwenden. Die orchestrierte Kampagnenschnittstelle hilft Ihnen jedoch nicht bei der Verwendung. Beispielsweise werden in der Testaktivität keine Parameter aufgelistet oder angezeigt, die nicht in der Planung definiert sind.
+>Wenn Sie im API-Aufruf einen Parameter übergeben, der nicht im Planer definiert wurde, ist der API-Aufruf trotzdem erfolgreich und der Parameter wird weitergegeben, und Sie können ihn in Ausdrücken verwenden. Die koordinierte Kampagnenschnittstelle hilft Ihnen jedoch nicht bei der Verwendung. Beispielsweise werden in der Testaktivität keine Parameter aufgelistet oder angezeigt, die nicht in der Planung definiert wurden.
 
 ## Erstellen und Testen der Kampagne {#build-and-test}
 
@@ -102,13 +104,13 @@ Erstellen Sie Ihre Kampagne auf der Arbeitsfläche und testen Sie sie dann optio
 
 1. Klicken Sie **[!UICONTROL Starten]**, um die Kampagne zu starten.
 
-1. Senden Sie den Trigger-API-Aufruf mit der Beispielanfrage, die Sie aus der Planung kopiert haben. Details zu Anfragen und Antworten finden Sie unter [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} API für orchestrierte Kampagnen in Trigger.
+1. Senden Sie den Trigger-API-Aufruf mit der Beispielanfrage, die Sie aus der Planung kopiert haben. Details zu Anfragen und Antworten finden Sie unter [](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} API für orchestrierte Kampagnen in Trigger.
 
-Wenn Sie mit den Testergebnissen zufrieden sind, veröffentlichen [&#x200B; die Kampagne](#publish).
+Wenn Sie mit den Testergebnissen zufrieden sind, veröffentlichen [ die Kampagne](#publish).
 
 ## Veröffentlichen und Trigger der Kampagne {#publish}
 
-Nachdem Sie [&#x200B; Kampagne erstellt und getestet haben](#build-and-test) veröffentlichen Sie die Kampagne, damit sie über Ihre Anwendung ausgelöst werden kann.
+Nachdem Sie [ Kampagne erstellt und getestet haben](#build-and-test) veröffentlichen Sie die Kampagne, damit sie über Ihre Anwendung ausgelöst werden kann.
 
 1. Klicken Sie **[!UICONTROL der Kampagnen]** Arbeitsfläche auf „Veröffentlichen“. Die Kampagne muss veröffentlicht werden, bevor sie von einem externen System ausgelöst werden kann. [Weitere Informationen zum Starten und Überwachen der Kampagne](start-monitor-campaigns.md#publish).
 
@@ -118,7 +120,7 @@ Nachdem Sie [&#x200B; Kampagne erstellt und getestet haben](#build-and-test) ver
 
    ![Kopieren einer API-Anfrage in der Zeitplankonfiguration](assets/triggered-oc-copy.png)
 
-1. Rufen Sie die Trigger-API von Ihrem System aus auf. Siehe [API für orchestrierte Trigger &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} für die Live-Endpunktspezifikation.
+1. Rufen Sie die Trigger-API von Ihrem System aus auf. Siehe [API für orchestrierte Trigger ](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} für die Live-Endpunktspezifikation.
 
    >[!IMPORTANT]
    >

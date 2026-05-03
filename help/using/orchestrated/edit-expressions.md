@@ -5,10 +5,10 @@ title: Bearbeiten von Ausdrücken
 description: Erfahren Sie, wie Sie Ausdrücke bearbeiten.
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 100%
+source-wordcount: '2071'
+ht-degree: 97%
 
 ---
 
@@ -33,9 +33,11 @@ Der Ausdruckseditor bietet Folgendes:
 
 * ein **Eingabefeld (1)**, in dem der Ausdruck definiert wird,
 * eine Liste der verfügbaren **Felder (2)**, die im Ausdruck verwendet werden können und die der Zielgruppendimension der Abfrage entsprechen,
-* **Hilfsfunktionen (3)**, sortiert nach Kategorie.
+* Eine Liste der verfügbaren **Variablen (3)** die im Ausdruck verwendet werden können. Dieses Menü ist für das Feld **Wert** verfügbar. [Erfahren Sie, wie Sie Variablen in orchestrierten Kampagnen verwenden](variables-orchestrated-campaigns.md)
 
-Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, gehen Sie mit dem Cursor zu dem Ausdruck, zu dem Sie es/sie hinzufügen möchten, und klicken Sie auf die Schaltfläche „+“.
+* **Hilfsfunktionen (4)**, sortiert nach Kategorie.
+
+Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld, eine Variable oder eine Hilfsfunktion hinzuzufügen, platzieren Sie den Cursor in den Ausdruck, in dem Sie sie hinzufügen möchten, und klicken Sie auf die Schaltfläche &quot;+&quot;.
 
 ![Benutzeroberfläche des Ausdruckseditors](assets/rule-builder-expression-editor.png){zoomable="yes"}
 
@@ -60,7 +62,7 @@ Aggregatfunktionen führen Berechnungen für eine Reihe von Werten durch.
 <td>Avg(&lt;Wert&gt;)</td>
 </tr>
 <tr>
-<td><strong>Count</strong></td>
+<td><strong>Anzahl</strong></td>
 <td>Zählt die Werte ungleich null einer Spalte</td>
 <td>Count(&lt;Wert&gt;)</td>
 </tr>
@@ -95,7 +97,7 @@ Aggregatfunktionen führen Berechnungen für eine Reihe von Werten durch.
 <td>StringAgg(&lt;Wert&gt;, &lt;String&gt;)</td>
 </tr>
 <tr>
-<td><strong>Sum</strong></td>
+<td><strong>Summe</strong></td>
 <td>Gibt die Summe der Werte einer Spalte vom Typ Zahl, String oder Datum aus</td>
 <td>Sum(&lt;Wert&gt;)</td>
 </tr>
@@ -214,7 +216,7 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 <td>MinutesDiff(&lt;Enddatum&gt;, &lt;Startdatum&gt;)</td>
 </tr>
 <tr>
-<td><strong>Month</strong></td>
+<td><strong>Monat</strong></td>
 <td>Gibt die Zahl zurück, die dem Monat des Datums entspricht</td>
 <td>Month(&lt;Datum&gt;)</td>
 </tr>
@@ -316,7 +318,7 @@ Datumsfunktionen dienen zur Bearbeitung von Datums- oder Zeitwerten.
 <tr>
 <td><strong>TruncTime</strong></td>
 <td>Rundet die Uhrzeit auf die nächste Sekunde auf</td>
-<td> TruncTime(&lt;Datum&gt;, &lt;Anzahl an Sekunden&gt;)</td>
+<td>TruncTime(&lt;Datum&gt;, &lt;Anzahl an Sekunden&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncWeek</strong></td>
@@ -569,7 +571,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
  </tbody> 
 </table>
 
-### String
+### Zeichenfolge
 
 Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
 
@@ -769,7 +771,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   </tr> 
   <tr> 
    <td> <strong>PartitionBy</strong><br /> </td> 
-   <td> Partitioniert das Ergebnis einer Abfrage<br /> </td> 
+   <td> Partitioniert das Ergebnis einer Abfrage in einer Tabelle<br /> </td> 
    <td> PartitionBy(&lt;Wert 1&gt;)<br /> </td>  
   </tr> 
   <tr> 
