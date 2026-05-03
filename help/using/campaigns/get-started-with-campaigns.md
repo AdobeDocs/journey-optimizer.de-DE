@@ -12,8 +12,8 @@ keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 98%
+source-wordcount: '1613'
+ht-degree: 90%
 
 ---
 
@@ -57,12 +57,12 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
->abstract="Den Kampagnentyp auswählen. Die verfügbaren Kanäle variieren je nach ausgewähltem Typ. <br>**Geplante Kampagnen** (Aktionskampagnen) – Ideal für einfache, einmalige Batch-Nachrichten, deren Ausführung für einen bestimmten Zeitpunkt geplant werden kann.<br>**Durch API ausgelöste Kampagnen** – Werden über einen API-Aufruf aktiviert, wodurch direkt von externen Systemen aus automatisiertes, ereignisbasiertes Messaging ermöglicht wird.<br>**Orchestrierte Kampagnen** – Stellen eine visuelle Drag-and-Drop-Arbeitsfläche bereit, auf der komplexe, mehrstufige Marketing-Workflows entworfen und automatisiert werden können: von der Zielgruppensegmentierung bis hin zum kanalübergreifenden Versand personalisierter Nachrichten."
+>abstract="Den Kampagnentyp auswählen. Die verfügbaren Kanäle variieren je nach ausgewähltem Typ. <br>**Geplante Kampagnen** (Aktionskampagnen) - Ideal für einfache, einmalige Batch-Nachrichten, die Sie für die Ausführung zu einem bestimmten Zeitpunkt planen können.<br>**API-ausgelöste Kampagnen** - Wird über einen API-Aufruf aktiviert und ermöglicht automatisiertes, ereignisbasiertes Messaging direkt über externe Systeme.<br>**Orchestrierte Kampagnen** – Stellen eine visuelle Drag-and-Drop-Arbeitsfläche bereit, auf der komplexe, mehrstufige Marketing-Workflows entworfen und automatisiert werden können: von der Zielgruppensegmentierung bis hin zum kanalübergreifenden Versand personalisierter Nachrichten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Kampagnen"
->abstract="Erstellen Sie Ihren Segmentierungsfluss, gestalten Sie Ihre kanalübergreifenden Nachrichten und planen Sie Ihre Kampagnen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigungen, Briefpost."
+>abstract="Erstellen Sie Ihren Segmentierungsfluss, gestalten Sie Ihre kanalübergreifenden Nachrichten und planen Sie Ihre Kampagnen. Unterstützte Kanäle, E-Mail, SMS, Push-Benachrichtigungen, Direkt-Mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -101,7 +101,7 @@ Dieses Handbuch bietet eine klare Roadmap, die Ihnen hilft, die Grundlagen von K
 
 ![](assets/gs-campaigns.png)
 
-➡️ **Bereit, mit dem Erstellen zu beginnen?** [Erstellen Sie Ihre erste Kampagne](create-campaign.md) in wenigen Minuten.
+➡️ **Bereit zum Bauen?** [Erstellen Sie Ihre erste Kampagne](create-campaign.md) in Minuten.
 
 ## Auswählen des Kampagnentyps {#campaign-types}
 
@@ -194,19 +194,19 @@ Stellen Sie vor der Arbeit mit Kampagnen sicher, dass die folgenden Voraussetzun
 
 Das Erstellen erfolgreicher Kampagnen folgt einem klaren, wiederholbaren Prozess. Im Folgenden finden Sie den Schritt-für-Schritt-Workflow:
 
-+++&#x200B;1. Planen Ihrer Kampagne
++++&#x200B;1. Kampagne planen
 
 Klären Sie Ihre Ziele, bevor Sie beginnen:
 
-* **Was ist das Ziel?** (z. B. Konversionen steigern, Interaktion erhöhen, Kundschaft benachrichtigen)
-* **Wer ist die Zielgruppe?** (z. B. in Adobe Experience Platform erstellen oder daraus auswählen)
-* **Welcher Kampagnentyp ist am besten geeignet?** (Siehe [Kampagnentypen](#campaign-types) oben)
-* **Welche Kanäle möchten Sie verwenden?** (E-Mail, Push, SMS, In-App, Web usw.) → Siehe [Unterstützte Kanäle nach Kampagnentyp](../channels/gs-channels.md#channels)
-* **Wann soll die Ausführung erfolgen?** (Sofort, geplant oder durch API ausgelöst)
+* **Was ist das Ziel?** (z. B. Konversionen fördern, Interaktionen steigern, Kunden benachrichtigen)
+* **Wer ist das Publikum?** (z. B. aus Adobe Experience Platform erstellen oder auswählen)
+* **Welcher Kampagnentyp passt zu?** (Siehe [Kampagnentypen](#campaign-types) oben)
+* **Welche Kanäle werden Sie verwenden?** (E-Mail, Push, SMS, In-App, Web usw.) → [Siehe Unterstützte Kanäle nach Kampagnentyp](../channels/gs-channels.md#channels)
+* **Wann sollte sie ausgeführt werden?** (sofort, geplant oder API-ausgelöst)
 
 +++
 
-+++&#x200B;2. Konfigurieren der Kampagneneigenschaften
++++&#x200B;2. Kampagneneigenschaften konfigurieren
 
 Legen Sie die Grundlage für Ihre Kampagne fest:
 
@@ -220,7 +220,7 @@ Legen Sie die Grundlage für Ihre Kampagne fest:
 
 +++
 
-+++&#x200B;3. Gestalten von Inhalten
++++&#x200B;3. Gestalten Ihrer Inhalte
 
 Erstellen Sie überzeugende Nachricht für Ihre Zielgruppe:
 
@@ -234,7 +234,7 @@ Erstellen Sie überzeugende Nachricht für Ihre Zielgruppe:
 
 +++
 
-+++&#x200B;4. Überprüfen und Testen
++++&#x200B;4. Überprüfen und testen
 
 Überprüfen Sie Ihre Kampagne immer vor der Aktivierung:
 
@@ -248,7 +248,7 @@ Erstellen Sie überzeugende Nachricht für Ihre Zielgruppe:
 
 +++
 
-+++&#x200B;5. Aktivieren Ihrer Kampagne
++++&#x200B;5. Aktivieren einer Kampagne
 
 Aktivieren Sie Ihre Kampagne nach Abschluss der Überprüfung:
 
@@ -305,7 +305,7 @@ Planen Sie Kampagnen für bestimmte Daten/Uhrzeiten, legen Sie wiederkehrende Se
 
 **Ratensteuerung**
 
-Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Plattformen für die Kundenunterstützung zu verhindern. 
+Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Systeme wie Landingpages oder Plattformen für die Kundenunterstützung zu verhindern.
 
 [Ratenbegrenzungen steuern](create-campaign.md)
 :::

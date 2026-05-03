@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1378'
 ht-degree: 83%
 
 ---
@@ -21,7 +21,7 @@ Um auf Adobe Journey Optimizer zuzugreifen, melden Sie sich mit Ihrer Adobe ID b
 
 >[!NOTE]
 >
->* Welche Komponenten und Funktionen in Ihrer Umgebung verfügbar sind, hängt von Ihren [Berechtigungen](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. 
+>* Welche Komponenten und Funktionen in Ihrer Umgebung verfügbar sind, hängt von Ihren [Berechtigungen](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab.
 >* Diese Dokumentation wird häufig aktualisiert. Einige Screenshots können leicht von Ihrer Benutzeroberfläche abweichen.
 
 ## Schneller Überblick {#quick-tour}
@@ -41,7 +41,7 @@ Die Benutzeroberfläche von Journey Optimizer besteht aus vier Hauptbereichen:
 
 ### Universelle Suche {#universal-search}
 
-Verwenden Sie das Symbol „Suche“, um Journeys, Kampagnen, Assets und andere Objekte in Journey Optimizer schnell zu finden. Geben Sie Schlüsselwörter ein, um relevante Ergebnisse aus allen Bereichen der Plattform anzuzeigen. [Erfahren Sie mehr über die universelle Suche](search-filter-categorize.md#unified-search).
+Verwenden Sie das Symbol „Suche“, um Journeys, Kampagnen, Assets und andere Objekte in Journey Optimizer schnell zu finden. Geben Sie Keywords ein, um relevante Ergebnisse aus allen Bereichen der Plattform anzuzeigen. [Erfahren Sie mehr über die universelle Suche](search-filter-categorize.md#unified-search).
 
 ### Hilfe und Support {#help}
 
@@ -247,7 +247,7 @@ Der KI-Assistent bietet sofortige Hilfe und betriebliche Erkenntnisse. Klicken S
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_campaign_ovv_1"
 >title="Geführte Benutzeroberfläche zum Erstellen und Senden einer Kampagne"
->abstract="Legen Sie eine oder mehrere Aktionen mit einem Kanal fest, wählen Sie eine Zielgruppe aus, legen Sie den Inhalt fest, definieren Sie einen Zeitplan und Sie sind bereit zum Senden"
+>abstract="Legen Sie eine oder mehrere Aktionen mit einem Kanal fest, wählen Sie eine Zielgruppe aus, legen Sie einen Inhalt fest, definieren Sie einen Zeitplan – und schon sind Sie bereit für den Versand."
 
 
 >[!CONTEXTUALHELP]
@@ -338,28 +338,3 @@ Der KI-Assistent bietet sofortige Hilfe und betriebliche Erkenntnisse. Klicken S
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="Header-Parameter"
 >abstract="In diesem Abschnitt können Sie zusätzliche benutzerdefinierte Header konfigurieren, die mit jeder Webhook-Anfrage gesendet werden sollen."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery"
->title="Inkrementelle Abfrage"
->abstract="Die inkrementelle Abfrage ist eine Zielgruppenbestimmungsaktivität, die bei jeder Ausführung der orchestrierten Kampagne eine Datenbankabfrage ausführt. Es werden nur neue Datensätze zurückgegeben und alle bereits in einer vorherigen Ausführung enthaltenen ausgeschlossen, sodass Sie nicht dieselben Personen erneut ansprechen oder dieselben Zeilen erneut exportieren müssen."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_processeddata"
->title="Verarbeitete Daten"
->abstract="Wählen Sie unter Verarbeitete Daten aus, wie Datensätze aus früheren Ausführungen ausgeschlossen werden sollen. Bei der Option Ergebnisse früherer Ausführungen ausschließen speichert die Aktivität eine Liste der in vorherigen Ausführungen zurückgegebenen Datensätze. Bei jedem Durchgang werden diese ausgeschlossen und nur neue Datensätze zurückgegeben. Bei Verwendung der Option Datumsfeld verwenden verwendet die Aktivität ein ausgewähltes Datumsfeld, anstatt einzelne IDs zu verfolgen, und jede Ausführung gibt nur Zeilen zurück, deren Datum nach der letzten Ausführung liegt."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_history"
->title="Verlauf in Tagen"
->abstract="Mit dieser Einstellung wird festgelegt, wie lange diese Liste beibehalten wird. Der Wert 0 bedeutet eine unbegrenzte Beibehaltung; es werden keine Datensätze entfernt."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_location"
->title="Speicherort auf der Seite"
->abstract="."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_app_id"
->title="App-ID"
->abstract="."

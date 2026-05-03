@@ -13,7 +13,7 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
 source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '925'
 ht-degree: 12%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"
 >title="Definieren einer CC-E-Mail-Adresse"
->abstract="Sie können ein sichtbares CC-Feld (Carbon Copy) zu E-Mails hinzufügen, die mit dieser Kanalkonfiguration gesendet werden. Geben Sie eine feste E-Mail-Adresse ein oder verwenden Sie eine Personalisierung (Profilattribut oder Kontextvariable). Beachten Sie, dass die CC-Nutzung auf das für Sie festgelegte Nachrichtenvolumen angerechnet wird."
+>abstract="Sie können ein sichtbares CC-Feld zu E-Mails hinzufügen, die mit dieser Kanalkonfiguration gesendet werden. Geben Sie eine feste E-Mail-Adresse ein oder verwenden Sie eine Personalisierung (Profilattribut oder Kontextvariable). Beachten Sie, dass die CC-Nutzung auf das für Sie festgelegte Nachrichtenvolumen angerechnet wird."
 
 >[!AVAILABILITY]
 >
