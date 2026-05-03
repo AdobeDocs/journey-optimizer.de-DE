@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
 source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2806'
 ht-degree: 9%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_sms_webhook_settings_create"
->title="SMS-Webhook erstellen"
->abstract="Sie können Webhooks konfigurieren, um eingehende Antworten für die Verwaltung des Opt-in- und Opt-out-Einverständnisses zu erfassen und Versandberichte einschließlich Lesebestätigungen zu erhalten, sofern verfügbar."
+>title="Erstellen eines SMS-Webhooks"
+>abstract="Sie können Webhooks konfigurieren, um eingehende Antworten für die Verwaltung des Opt-in- und Opt-out-Einverständnisses zu erfassen und Versandberichte einschließlich Lesebestätigungen (sofern verfügbar) zu erhalten."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_flow_type"
->title="Webhook-Typ auswählen"
->abstract="Beim Einrichten eines Webhooks **Eingehend** wählen, um Einverständnisantworten und Benutzervoreinstellungen zu erfassen, oder **[!UICONTROL Feedback]**, um Versand- und Interaktionsereignisse für Berichte und Analysen zu verfolgen."
+>title="Auswählen Ihres Webhook-Typs"
+>abstract="Wählen Sie beim Einrichten eines Webhooks **Eingehend** aus, um Inhaltsantworten und Benutzereinstellungen zu erfassen, oder **[!UICONTROL Feedback]**, um Bereitstellungs- oder Interaktionsereignisse für Reporting und Analyse nachzuverfolgen."
 
 >[!BEGINSHADEBOX]
 
