@@ -7,13 +7,11 @@ feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: CC, Kopie, E-Mail, Kanalkonfiguration, E-Mail-Kopfzeilen, BCC
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
+source-git-commit: 05c0fcb3283a2adb7c69e3afdd4b2d75cbc4b5b5
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '906'
 ht-degree: 12%
 
 ---
@@ -24,10 +22,6 @@ ht-degree: 12%
 >id="ajo_admin_config_cc"
 >title="Definieren einer CC-E-Mail-Adresse"
 >abstract="Sie können ein sichtbares CC-Feld zu E-Mails hinzufügen, die mit dieser Kanalkonfiguration gesendet werden. Geben Sie eine feste E-Mail-Adresse ein oder verwenden Sie eine Personalisierung (Profilattribut oder Kontextvariable). Beachten Sie, dass die CC-Nutzung auf das für Sie festgelegte Nachrichtenvolumen angerechnet wird."
-
->[!AVAILABILITY]
->
->Diese Funktion ist für alle Kunden mit eingeschränkter Verfügbarkeit verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
 Sie können ein sichtbares CC-Feld (Carbon Copy) zu E-Mails hinzufügen, die von [!DNL Journey Optimizer] über Ihre Journey und Kampagnen gesendet werden. Diese optionale Funktion wird auf [Kanalkonfigurationsebene](channel-surfaces.md) zusammen mit den E-Mail-Kopfzeilenparametern und der BCC-E-Mail-Option konfiguriert.
 
