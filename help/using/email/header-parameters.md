@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Absender-Header, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 48a25f41701f5e42c15fb8149b03cabcc575db24
+source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 59%
+source-wordcount: '1108'
+ht-degree: 60%
 
 ---
 
@@ -57,6 +57,10 @@ Geben Sie beim Konfigurieren einer neuen [E-Mail-Kanalkonfiguration](email-setti
 >id="ajo_admin_preset_sender_header"
 >title="Absender-Header"
 >abstract="Verwenden Sie diese optionalen Felder, wenn sich die sendende Entität (der Absender) von der Authoring-Entität (von) unterscheidet: z. B. ein übergeordnetes Unternehmen, das Nachrichten für eine untergeordnete Marke sendet, oder eine Agentur, die Nachrichten für mehrere Kunden sendet. E-Mail-Clients, die dies unterstützen, rendern ihn normalerweise als „Absender im Namen von“ oder zeigen einen „via“-Indikator an."
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Bei einigen Anwendungsfällen muss sich das Postfach, das die Nachricht übermittelt, vom **Von**-Autor unterscheiden, z. B. eine übergeordnete Organisation, die im Namen einer Tochtergesellschaft sendet, ein gemeinsames Marketing-Team für mehrere Marken oder eine Agentur, die für mehrere Kunden sendet.
 
