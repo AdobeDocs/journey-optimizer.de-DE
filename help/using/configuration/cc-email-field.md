@@ -7,13 +7,11 @@ feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: CC, Kopie, E-Mail, Kanalkonfiguration, E-Mail-Kopfzeilen, BCC
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
+source-git-commit: 05c0fcb3283a2adb7c69e3afdd4b2d75cbc4b5b5
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '906'
 ht-degree: 12%
 
 ---
@@ -24,10 +22,6 @@ ht-degree: 12%
 >id="ajo_admin_config_cc"
 >title="Definieren einer CC-E-Mail-Adresse"
 >abstract="Sie können ein sichtbares CC-Feld zu E-Mails hinzufügen, die mit dieser Kanalkonfiguration gesendet werden. Geben Sie eine feste E-Mail-Adresse ein oder verwenden Sie eine Personalisierung (Profilattribut oder Kontextvariable). Beachten Sie, dass die CC-Nutzung auf das für Sie festgelegte Nachrichtenvolumen angerechnet wird."
-
->[!AVAILABILITY]
->
->Diese Funktion ist für alle Kunden mit eingeschränkter Verfügbarkeit verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 
 Sie können ein sichtbares CC-Feld (Carbon Copy) zu E-Mails hinzufügen, die von [!DNL Journey Optimizer] über Ihre Journey und Kampagnen gesendet werden. Diese optionale Funktion wird auf [Kanalkonfigurationsebene](channel-surfaces.md) zusammen mit den E-Mail-Kopfzeilenparametern und der BCC-E-Mail-Option konfiguriert.
 
@@ -85,7 +79,7 @@ Wenn Sie [E-Mail-Konfiguration bearbeiten](channel-surfaces.md#edit-channel-surf
 
 >[!CAUTION]
 >
->Beim Bearbeiten einer vorhandenen E-Mail-Kanal-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zum Feld **[!UICONTROL CC-E-Mail]** hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ &#x200B;](channel-surfaces.md#create-channel-surface).
+>Beim Bearbeiten einer vorhandenen E-Mail-Kanal-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zum Feld **[!UICONTROL CC-E-Mail]** hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ ](channel-surfaces.md#create-channel-surface).
 
 ## Empfehlungen und Einschränkungen {#cc-recommendations-limitations}
 
@@ -95,11 +89,11 @@ Wenn Sie [E-Mail-Konfiguration bearbeiten](channel-surfaces.md#edit-channel-surf
 
 * **Posteingangsverwaltung:** Ihr Posteingang, der für CC verwendet wird, sollte in Bezug auf Speicherplatz und Versand ordnungsgemäß verwaltet werden. Wenn der Posteingang Bounces zurückgibt, werden einige E-Mails möglicherweise nicht empfangen.
 
-* **Versandzeitpunkt:** Nachrichten können vor den Zielgruppenempfängerinnen und -empfängern an die CC-E-Mail-Adresse gesendet werden. CC-Nachrichten können auch dann gesendet werden, wenn es bei den ursprünglichen Nachrichten zu einem „Bounce[&#x200B; gekommen &#x200B;](../reports/suppression-list.md#delivery-failures).
+* **Versandzeitpunkt:** Nachrichten können vor den Zielgruppenempfängerinnen und -empfängern an die CC-E-Mail-Adresse gesendet werden. CC-Nachrichten können auch dann gesendet werden, wenn es bei den ursprünglichen Nachrichten zu einem „Bounce[ gekommen ](../reports/suppression-list.md#delivery-failures).
 
 * **Einverständnis und Unterdrückung:** Die CC-E-Mail-Adresse wird nicht mit dem Einverständnis oder der Unterdrückung abgeglichen.
 
-* **Reporting:** Öffnungen, Klicks und andere Interaktionen von CC-Empfängern sind in E-Mail-Reporting-Metriken enthalten. Öffnen oder klicken Sie nicht durch die an die CC-Adresse gesendeten E-Mails, da sie bei der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. Dies könnte in [Berichten) zu falschen Berechnungen &#x200B;](../reports/report-gs-cja.md).
+* **Reporting:** Öffnungen, Klicks und andere Interaktionen von CC-Empfängern sind in E-Mail-Reporting-Metriken enthalten. Öffnen oder klicken Sie nicht durch die an die CC-Adresse gesendeten E-Mails, da sie bei der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. Dies könnte in [Berichten) zu falschen Berechnungen ](../reports/report-gs-cja.md).
 
 * **Spam:** Nachrichten im CC-Posteingang nicht als Spam kennzeichnen, da sich dies auf alle anderen an diese Adresse gesendeten E-Mails auswirken wird.
 
