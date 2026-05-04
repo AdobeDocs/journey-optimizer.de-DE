@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Absender-Header, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 60%
+source-wordcount: '1089'
+ht-degree: 59%
 
 ---
 
@@ -58,10 +58,6 @@ Geben Sie beim Konfigurieren einer neuen [E-Mail-Kanalkonfiguration](email-setti
 >title="Absender-Header"
 >abstract="Verwenden Sie diese optionalen Felder, wenn sich die sendende Entität (der Absender) von der Authoring-Entität (von) unterscheidet: z. B. ein übergeordnetes Unternehmen, das Nachrichten für eine untergeordnete Marke sendet, oder eine Agentur, die Nachrichten für mehrere Kunden sendet. E-Mail-Clients, die dies unterstützen, rendern ihn normalerweise als „Absender im Namen von“ oder zeigen einen „via“-Indikator an."
 
->[!AVAILABILITY]
->
->Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
-
 Bei einigen Anwendungsfällen muss sich das Postfach, das die Nachricht übermittelt, vom **Von**-Autor unterscheiden, z. B. eine übergeordnete Organisation, die im Namen einer Tochtergesellschaft sendet, ein gemeinsames Marketing-Team für mehrere Marken oder eine Agentur, die für mehrere Kunden sendet.
 
 Mit anderen Worten: **Von** ist der Autor der Nachricht (von dem die E-Mail stammt) und **Absender** ist der für die Übertragung der Nachricht verantwortliche Agent (der sie tatsächlich gesendet hat). Das Feld **Absender** ist für die Verwendung vorgesehen, wenn sich die Übertragungsentität vom Autor unterscheidet.
@@ -76,7 +72,7 @@ In diesem Fall können Sie einen anderen **Absender**-Namen und eine andere E-Ma
 
 >[!NOTE]
 >
->Diese Felder sind optional. Sie können [&#x200B; wie &#x200B;](surface-personalization.md#personalize-header) anderen Header-Felder personalisieren.
+>Diese Felder sind optional. Sie können [ wie ](surface-personalization.md#personalize-header) anderen Header-Felder personalisieren.
 
 Wenn **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** festgelegt sind, fügt [!DNL Journey Optimizer] der E-Mail eine **Absender**-SMTP-Kopfzeile hinzu<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->. E-Mail-Clients, die dies unterstützen, können Formulierungen wie **Absender im Auftrag von** oder einen **über**-Indikator anzeigen.
 
