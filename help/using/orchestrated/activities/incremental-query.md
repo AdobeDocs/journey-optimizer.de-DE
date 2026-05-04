@@ -8,7 +8,7 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: 0ec63458f12381b0b818f2cf35f9d6f4d7fb7729
+source-git-commit: 4c306ef5dddca4917b6b964979023b9574f59a90
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 21%
@@ -54,7 +54,7 @@ Legen Sie die Zielgruppendimension fest, erstellen Sie Ihre Abfrage und wählen 
 
    ![](../assets/incremental-query.png)
 
-1. Klicken Sie **[!UICONTROL Bedingung hinzufügen]**, um die Abfrage zu definieren. [Erfahren Sie, wie Sie den Regel-Builder &#x200B;](../orchestrated-rule-builder.md).
+1. Klicken Sie **[!UICONTROL Bedingung hinzufügen]**, um die Abfrage zu definieren. [Erfahren Sie, wie Sie den Regel-Builder ](../orchestrated-rule-builder.md).
 
    ![](../assets/incremental-query-2.png)
 
@@ -79,3 +79,4 @@ Im folgenden Beispiel wird eine Begrüßungs-E-Mail an Profile gesendet, die ger
 * **[!UICONTROL E-Mail-Versand]**: Sendet die Begrüßungs-E-Mail an die von der Abfrage ausgegebenen Profile.
 
 ![Konfiguration der inkrementellen Abfrageaktivität auf der Arbeitsfläche der orchestrierten Kampagne](../assets/incremental-query-example.png)
+
