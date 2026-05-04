@@ -54,7 +54,7 @@ Legen Sie die Zielgruppendimension fest, erstellen Sie Ihre Abfrage und wählen 
 
    ![](../assets/incremental-query.png)
 
-1. Klicken Sie **[!UICONTROL Bedingung hinzufügen]**, um die Abfrage zu definieren. [Erfahren Sie, wie Sie den Regel-Builder ](../orchestrated-rule-builder.md).
+1. Klicken Sie **[!UICONTROL Bedingung hinzufügen]**, um die Abfrage zu definieren. [Erfahren Sie, wie Sie den Regel-Builder &#x200B;](../orchestrated-rule-builder.md).
 
    ![](../assets/incremental-query-2.png)
 
