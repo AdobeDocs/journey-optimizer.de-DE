@@ -7,28 +7,16 @@ feature: Integrations
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: Integration, Anbieter, Drittanbieter
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '375'
+ht-degree: 0%
 
 ---
 
 
 # Vendors-Integration {#vendor-integration}
-
->[!BEGINSHADEBOX]
-
-Inhaltsverzeichnis:
-
-* [Arbeiten mit Integrationen](integrations.md)
-* **[Erste Schritte mit der Vendors-Integration](vendor-integration-gs.md)**
-* [Verfügbare Anbieter](vendor-integration.md)
-* [FAQs](vendor-integration-faq.md)
-
->[!ENDSHADEBOX]
 
 Sie können **Integrationen** in Adobe Journey Optimizer verwenden, um **externe Systeme über HTTP** aufzurufen, wenn jedes System einen **API-Endpunkt)**, der Ihrem Anwendungsfall entspricht und damit kompatibel ist, wie Integrations Anfragen ausgibt und Antworten nutzt. Einen vollständigen Workflow finden Sie unter [Arbeiten mit Integrationen](integrations.md).
 
@@ -44,6 +32,7 @@ Wenden Sie Folgendes an, wenn Sie eine Integration in diesem Handbuch oder einem
 * **Volumen und Zuverlässigkeit** Einhaltung der **des Anbieters**. Konfigurieren Sie **Zeitüberschreitung**, **Wiederholen** und **Cache**-Richtlinie für Ihren Kanal (z. B. Batch-E-Mail vs. Transaktionsnachrichten) und validieren Sie unter Last.
 * **Sicherheit:** Speichern und Drehen von Token, API-Schlüsseln und OAuth-Anmeldeinformationen gemäß den Richtlinien Ihrer Organisation. Betten Sie keine Geheimnisse in den Nachrichteninhalt ein.
 
+
 ## Einschränkungen und Ausschlüsse {#limitations-exclusions}
 
 Die Liste der Lösungen von Drittanbietern ist **(**) nicht vollständig. Anbieter-APIs, Hosts, Ratenbeschränkungen und JSON- oder HTML-Antwort-Shapes können sich ändern. Bestätigen Sie Endpunkte, Authentifizierung und Feldzuordnung mit der aktuellen Dokumentation des Anbieters und Ihrem Abonnement. Muster gehen dabei von **leseorientierten** für die Personalisierung geeigneten Aufrufen aus. Integrationen unterstützen nur die Zuordnung von **JSON**- und **HTML**-Antworten. **Writeback**, **Batch-Exporte** und Antworten in einem anderen Format werden nicht unterstützt.
@@ -52,8 +41,8 @@ Die Liste der Lösungen von Drittanbietern ist **(**) nicht vollständig. Anbiet
 
 Verwenden Sie diese gruppierten Links, um schnell zum entsprechenden Anbietermuster zu gelangen:
 
-* **Content-Management-System:** [Content](#contentful), [SiteCore](#sitecore), [Salsify](#salsify), [ContentStack](#contentstack), [Akeneo](#akeneo), [Magnolia](#magnolia)
-* **Treue und Prämien:** [Gutschein](#voucherify), [Talon.One](#talon-one), [Antavo](#antavo), [Salesforce-Treue](#salesforce-loyalty), [Kapillare](#capillary)
-* **Vorlagen, Personalisierung und Empfehlungen:** [Stensul](#stensul), [Marigold](#marigold), [Adobe Target Recommendations](#adobe-target-recommendations)
-* **Daten, Wetter und Betrieb:** [AccuWeather](#accuweather), [ShipStation](#shipstation), [RevenueCat](#revenuecat), [Databricks](#databricks)
-* **Bewertungen, Einverständnis und Social:** [Bynder](#bynder), [Trustpilot](#trustpilot), [Bazaarvoice](#bazaarvoice), [OneTrust](#onetrust), [Meta](#meta), [Aprimo](#aprimo), [Epsilon (Epsilon3)](#epsilon)
+* **Content-Management-System:** [Content](vendor-integration.md#contentful), [SiteCore](vendor-integration.md#sitecore), [Salsify](vendor-integration.md#salsify), [ContentStack](vendor-integration.md#contentstack), [Akeneo](vendor-integration.md#akeneo), [Magnolia](vendor-integration.md#magnolia)
+* **Treue und Prämien:** [Gutschein](vendor-integration.md#voucherify), [Talon.One](vendor-integration.md#talon-one), [Antavo](vendor-integration.md#antavo), [Salesforce-Treue](vendor-integration.md#salesforce-loyalty), [Kapillare](vendor-integration.md#capillary)
+* **Vorlagen, Personalisierung und Empfehlungen:** [Stensul](vendor-integration.md#stensul), [Marigold](vendor-integration.md#marigold), [Adobe Target Recommendations](vendor-integration.md#adobe-target-recommendations)
+* **Daten, Wetter und Betrieb:** [AccuWeather](vendor-integration.md#accuweather), [ShipStation](vendor-integration.md#shipstation), [RevenueCat](vendor-integration.md#revenuecat), [Databricks](vendor-integration.md#databricks)
+* **Bewertungen, Einverständnis und Social:** [Bynder](vendor-integration.md#bynder), [Trustpilot](vendor-integration.md#trustpilot), [Bazaarvoice](vendor-integration.md#bazaarvoice), [OneTrust](vendor-integration.md#onetrust), [Meta](vendor-integration.md#meta), [Aprimo](vendor-integration.md#aprimo), [Epsilon (Epsilon3)](vendor-integration.md#epsilon)
