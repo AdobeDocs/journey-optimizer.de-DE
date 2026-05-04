@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '1990'
 ht-degree: 20%
 
 ---
@@ -32,7 +32,7 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, werden mit ihrem Verfügbarkeitsdatum angekündigt.
@@ -40,6 +40,24 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 **Veröffentlichungsdatum**: 28. bis 29. April 2026
 
 ### Neue Funktionen {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Integrationen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit <b> Funktion </b>Integrationen“ können Sie Datenquellen von Drittanbietern direkt mit Adobe Journey Optimizer verbinden. Diese Funktion vereinfacht das Einlesen externer Daten und <b>zusammenstellbarer Inhalte</b> und erleichtert so die Bereitstellung personalisierter, dynamischer Nachrichten auf allen Kanälen.</p>
+<p>Diese Funktion wurde zuvor als Beta-Version veröffentlicht, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p>Weitere Informationen finden Sie in der <a href="../integrations/integrations.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 4. Mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -53,7 +71,7 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 <p><strong>Orchestrierte Kampagnen</strong> unterstützen jetzt eine Aktivität vom Typ <strong>Inkrementelle Abfrage</strong>, die nur auf Profile oder Ereignisse abzielt, die seit der letzten Ausführung neu qualifiziert wurden.
 
 Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue Anmeldungen, neu qualifizierte Mitglieder des Treueprogramms und ähnliche Segmente), während die Abfrage-Workloads reduziert und redundante Sendungen im Laufe der Zeit vermieden werden.</p>
-<p>Weitere Informationen finden Sie in der <a href="../orchestrated/activities/incremental-query.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -69,7 +87,6 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <tr>
 <td>
 <p>Mit Journey Optimizer können Sie jetzt E-Mails senden, bei denen sich die sendende Entität (Absender) von der Authoring-Entität (Von) unterscheidet. E-Mail-Clients, die dies unterstützen, rendern es normalerweise als „Absender im Namen von Von“ oder zeigen einen „Über“-Indikator an. Füllen Sie die optionalen Felder <strong>Absender-Kopfzeilen</strong> in den Einstellungen des E-Mail-Kanals aus, um diese Funktion zu konfigurieren.</p>
-<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
 <p>Weitere Informationen finden Sie in der <a href="../email/header-parameters.md#sender-header">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -278,8 +295,6 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 
 * **App-ID in Kanaleinstellungen personalisieren** - In den Konfigurationseinstellungen für den Push-Kanal können Sie jetzt das Feld **App-ID** personalisieren, damit jeder Empfänger anhand seiner Profilinformationen eine Push-Benachrichtigung von der entsprechenden Marke erhalten kann. [Weitere Informationen](../push/push-configuration.md#app-id-personalization)
 
-  Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
-
 #### Entscheidungsfindung
 
 * **Fragmente an Entscheidungselemente anhängen** - Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die über Entscheidungsrichtlinien in Code-basierten Erlebnis- und E-Mail-Kampagnen genutzt werden können. [Weitere Informationen](../experience-decisioning/fragments-decision-policies.md)
@@ -358,22 +373,6 @@ Die Veröffentlichung der folgenden Funktionen und Verbesserungen ist für die n
 <table>
 <thead>
 <tr>
-<th><strong>Integrationen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Mit <b> Funktion </b>Integrationen“ können Sie Datenquellen von Drittanbietern direkt mit Adobe Journey Optimizer verbinden. Diese Funktion vereinfacht das Einlesen externer Daten und <b>zusammenstellbarer Inhalte</b> und erleichtert so die Bereitstellung personalisierter, dynamischer Nachrichten auf allen Kanälen.</p>
-<p>Diese Funktion wurde bereits in der Beta-Version veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Journey-Simulation</strong><br/></th>
 </tr>
 </thead>
@@ -400,13 +399,9 @@ Die Veröffentlichung der folgenden Funktionen und Verbesserungen ist für die n
 <p>Es ist jetzt möglich, über eine dedizierte Option in der E-Mail-Designer Deeplinks zu Ihren E-Mail-Inhalten hinzuzufügen.</p><p>Dadurch wird sichergestellt, dass Benutzende direkt zu den richtigen In-App-Inhalten geleitet werden, anstatt zu Browsern oder App-Stores weitergeleitet zu werden, wodurch der Kontext und die Interaktion erhalten bleiben.</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>Weitere Informationen finden Sie in der <a href="../email/message-tracking.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 7. Mai 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Verbesserungen {#comming-soon-improv}
-
-#### Konfiguration
-
-* **Spezifische Berechtigungen für URL-Parameter-**: Um auf Schlüssel für die URL-Parameterverschlüsselung zuzugreifen und sie zu verwalten, wurden neue Berechtigungen erstellt. Ihnen müssen jetzt die Berechtigungen **Schlüsselregistrierung anzeigen** und **Schlüsselregistrierung verwalten** gewährt worden sein. <!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
