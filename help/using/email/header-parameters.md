@@ -76,7 +76,7 @@ In diesem Fall können Sie einen anderen **Absender**-Namen und eine andere E-Ma
 
 >[!NOTE]
 >
->Diese Felder sind optional. Sie können [ wie ](surface-personalization.md#personalize-header) anderen Header-Felder personalisieren.
+>Diese Felder sind optional. Sie können [&#x200B; wie &#x200B;](surface-personalization.md#personalize-header) anderen Header-Felder personalisieren.
 
 Wenn **[!UICONTROL Absendername]** und **[!UICONTROL Absender-E-Mail]** festgelegt sind, fügt [!DNL Journey Optimizer] der E-Mail eine **Absender**-SMTP-Kopfzeile hinzu<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->. E-Mail-Clients, die dies unterstützen, können Formulierungen wie **Absender im Auftrag von** oder einen **über**-Indikator anzeigen.
 
