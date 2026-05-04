@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: 9a240f0a70842a00af81f771440f9b00b74cd0cb
 workflow-type: tm+mt
-source-wordcount: '3289'
-ht-degree: 90%
+source-wordcount: '3297'
+ht-degree: 91%
 
 ---
 
@@ -508,10 +508,13 @@ ht-degree: 90%
       + {hide-from-toc}[Countdown-Timer einfügen](using/integrations/countdown.md)
       + [Arbeiten mit Dynamic Media](using/integrations/aem-dynamic.md)
       + [Arbeiten mit GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[Arbeiten mit Integrationen](using/integrations/integrations.md)
-      + {hide-from-toc}[Erste Schritte mit der Vendors-Integration](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[Beispielkonfigurationen von Anbietern](using/integrations/vendor-integration.md)
-      + {hide-from-toc}[FAQs](using/integrations/vendor-integration-faq.md)
+      + Integrationen {#integrations}
+         + [Arbeiten mit Integrationen](using/integrations/integrations.md)
+         + [Verwenden externer Integrationen für die Personalisierung](using/integrations/integrations-personalization.md)
+         + [Häufig gestellte Fragen](using/integrations/vendor-integration-faq.md)
+         + Beispiele für Anbieter {#vendors}
+            + [Erste Schritte mit der Vendors-Integration](using/integrations/vendor-integration-gs.md)
+            + [Beispielkonfigurationen von Anbietern](using/integrations/vendor-integration.md)
       + [Arbeiten mit KI-Tools über MCP](/help/using/integrations/ajo-mcp.md)
    + KI-Assistent für die Inhaltsgenerierung {#ai-assistant}
       + [KI-Assistent für die Inhaltsgenerierung](/help/rp_landing_pages/ai-assistant-landing-page.md)
@@ -528,7 +531,7 @@ ht-degree: 90%
          + [Erstellen und Verwalten von Marken](using/content-management/brands.md)
          + [Personalisieren Ihrer Marken](using/content-management/brands-personalize.md)
          + [Erstellen und Verwalten generativer Modelle](using/content-management/generative-models.md)
-         + [Inhalt auswerten](using/content-management/brands-score.md)
+         + [Auswerten Ihrer Inhalte](using/content-management/brands-score.md)
    + Mehrsprachige Inhalte {#content-multilingual}
       + [Mehrsprachige Inhalte](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)

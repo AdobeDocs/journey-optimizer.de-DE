@@ -8,27 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Integration
-hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 49%
+source-wordcount: '1125'
+ht-degree: 34%
 
 ---
 
 # Arbeiten mit Integrationen {#external-sources}
-
->[!BEGINSHADEBOX]
-
-Inhaltsverzeichnis:
-
-* **[Arbeiten mit Integrationen](integrations.md)**
-* [Erste Schritte](vendor-integration-gs.md)
-* [Verfügbare Anbieter](vendor-integration.md)
-* [FAQs](vendor-integration-faq.md)
-
->[!ENDSHADEBOX]
 
 ## Überblick
 
@@ -41,7 +29,7 @@ Sie können diese Funktion verwenden, um externe Daten und Inhalte aus Drittanbi
 * **Produktempfehlungen** aus Empfehlungs-Engines.
 * **Logistische Updates** wie Versandstatus.
 
-Um mit der Verwendung von Integrationen beginnen zu können, müssen Benutzenden die Berechtigungen **[!UICONTROL AJO-Integrationskonfiguration verwalten]** und **[!UICONTROL AJO-Integration anzeigen]** gewährt werden. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
+Um mit der Verwendung von Integrationen beginnen zu können, müssen Benutzenden die Berechtigungen **[!UICONTROL AJO-Integrationskonfiguration verwalten]** und **[!UICONTROL AJO-Integrationskonfiguration anzeigen]** gewährt werden. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
 
 +++ Erfahren Sie, wie Sie Berechtigungen für Integrationen zuweisen
 
@@ -69,7 +57,7 @@ Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Si
 
 >[!AVAILABILITY]
 >
-> Diese Integrationsfunktion ist auf ausgehende Kanäle (E-Mail, SMS und Push-Benachrichtigungen) beschränkt und stellt Daten im JSON- oder HTML-Format bereit. Beachten Sie, dass die API schreibgeschützt ist und nur Abrufvorgänge unterstützt.
+> Diese Integrationsfunktion ist auf ausgehende Kanäle (E-Mail, SMS und Push) beschränkt und unterstützt das Abrufen von JSON oder HTML.
 
 Als Admin können Sie externe Integrationen einrichten, indem Sie die folgenden Schritte ausführen:
 
@@ -85,11 +73,15 @@ Als Admin können Sie externe Integrationen einrichten, indem Sie die folgenden 
 
    >[!NOTE]
    >
-   >Diese Felder dürfen keine Leerzeichen enthalten.
+   >**[!UICONTROL Name]** Feld darf keine Leerzeichen enthalten.
 
-1. Geben Sie die **[!UICONTROL URL]** des API-Endpunkts ein, der Pfadparameter mit Variablen enthalten kann, die sich mithilfe von Labels und Standardwerten definieren lassen.
+1. Geben Sie den API-Endpunkt (**[!UICONTROL )]**.
 
-1. Konfigurieren Sie die **[!UICONTROL Pfadvorlage]** mit **[!UICONTROL Name]** und **[!UICONTROL Standardwert]**.
+   Umschließen Sie für Pfadvariablen eine Beschriftung in doppelte geschweifte Klammern in der URL, z. B. `https://api.example.com/v1/products/{{productId}}`, und legen Sie dann jeden Platzhalter in „Pfadvorlage **[!UICONTROL fest]**.
+
+1. Konfigurieren Sie **[!UICONTROL Pfadvorlage]** mit **[!UICONTROL Name]** und **[!UICONTROL Standardwert]** für jeden Platzhalter, den Sie der URL hinzugefügt haben.
+
+   Beachten Sie **[!UICONTROL dass „Name]** nur im Editor eine dem Marketing zugewandte Beschriftung ist, sie wird nicht in der API-Anfrage gesendet.
 
    ![](assets/external-integration-config-2.png)
 
@@ -97,15 +89,15 @@ Als Admin können Sie externe Integrationen einrichten, indem Sie die folgenden 
 
 1. Klicken Sie je nach Bedarf für Ihre Integration auf **[!UICONTROL Header hinzufügen]** und/oder **[!UICONTROL Abfrageparameter hinzufügen]**. Geben Sie für jeden Parameter die folgenden Details an:
 
-   * **[!UICONTROL Parameter]**: Eine eindeutige Kennung, die intern verwendet wird, um auf den Parameter zu verweisen.
+   * **[!UICONTROL Parameter]**: Der tatsächliche Header- oder Abfrageparametername, wie von der API erwartet.
 
-   * **[!UICONTROL Name]**: Der tatsächliche Name des Parameters, wie von der API erwartet.
+   * **[!UICONTROL Name]**: Ein marketerfreundlicher Titel für diesen Parameter, den Autoren beim Zuordnen von Werten in Kampagnen auswählen.
 
    * **[!UICONTROL Typ]**: Wählen Sie **Konstante** für einen festen Wert oder **Variable** für eine dynamische Eingabe.
 
    * **[!UICONTROL Wert]**: Geben Sie für Konstanten den Wert direkt ein oder wählen Sie eine Variablenzuordnung aus.
 
-   * **[!UICONTROL Obligatorisch]**: Geben Sie an, ob dieser Parameter obligatorisch ist.
+   * **[!UICONTROL Obligatorisch]**: Geben Sie an, ob dieser Parameter obligatorisch ist. Wenn bei obligatorischen **[!UICONTROL Variablen]**-Parametern zur Laufzeit kein Wert aufgelöst und kein Standard angegeben wird, schlägt die Anfragegenerierung mit einem Fehler fehl und der ausgehende API-Aufruf wird nicht ausgeführt.
 
    ![](assets/external-integration-config-3.png)
 
@@ -123,8 +115,11 @@ Als Admin können Sie externe Integrationen einrichten, indem Sie die folgenden 
 
 1. Legen Sie **[!UICONTROL Richtlinienkonfiguration]** wie **[!UICONTROL Timeout]** für API-Anfragen fest und wählen Sie die Aktivierung von Drosselung, Cache und/oder Wiederholung aus.
 
-   Wenn die Drosselung aktiviert ist, liegen die unterstützten Raten zwischen **50** TPS (Minimum) und **5000** TPS (Maximum).
-Wenn der erneute Versuch aktiviert ist, folgen andere Fehler **drei** Wiederholungsversuchen, wobei **200 ms**, **400 ms** und **800 ms** zwischen aufeinander folgenden Versuchen liegen.
+   >[!NOTE]
+   >
+   >Bei aktivierter Drosselung liegen die unterstützten Raten bei 50 bis 5.000 TPS. Die Beschränkungen gelten für **Integration**, nicht für jeden API-Endpunkt.
+   >
+   >Wenn der Wiederholungsvorgang aktiviert ist, **andere Fehler standardmäßig (** Mal), **200 ms**, **400 ms** und **800 ms** zwischen den Versuchen.
 
 1. Mit dem Feld **[!UICONTROL Antwort-Payload]** können Sie festlegen, welche Felder der Beispielausgabe für die Personalisierung von Nachrichten verwendet werden sollen.
 
@@ -138,9 +133,20 @@ Wenn der erneute Versuch aktiviert ist, folgen andere Fehler **drei** Wiederholu
    >
    >Die **[!UICONTROL Antwort-Payload]**-Konfiguration definiert die erwartete Antwort für das Authoring einschließlich aller in diesem Schritt angewendeten Schemata. Marketing-Experten dürfen nur auf offen gelegte Felder verweisen. Token für andere Pfade schlagen die Validierung im Editor fehl.
 
-1. Verwenden Sie **[!UICONTROL Testverbindung senden]**, um die Integration zu validieren.
+1. Verwenden Sie **[!UICONTROL Testverbindung senden]**, um die Integration zu validieren. [Erfahren Sie mehr über das Testen Ihrer Verbindung](#connection)
 
    Klicken Sie nach dem Validieren auf **[!UICONTROL Aktivieren]**.
+
+1. Greifen Sie auf Ihre neu erstellte Integration zu:
+
+   * **Aktualisieren**: Ändern Sie nur **Authentifizierung** Details und **Richtlinienkonfiguration**. Für Live-Journey und -Kampagnen gelten Aktualisierungen. Bevor Sie Änderungen speichern, verwenden Sie das Menü **[!UICONTROL Verweise erkunden]**, um zu bestätigen, wo die Integration verwendet wird.
+   * **Archivieren**: Archivieren einer Integrationskonfiguration.
+
+   ![](assets/external-integration-config-7.png)
+
+Klicken Sie nach der Aktivierung auf ![Erweitertes Menü](assets/do-not-localize/Smock_More_18_N.svg), um auf das Menü **[!UICONTROL Verweise erkunden]** zuzugreifen und die Verwendung für diese Konfiguration zu überprüfen, einschließlich der davon abhängigen Journey und Kampagnen.
+
+![](assets/external-integration-config-6.png)
 
 ### Sendezeitbeschränkungen und -verhalten {#configure-send-time}
 
@@ -150,61 +156,25 @@ Die Aufrufe **die von** konfigurierte Drosselungsrate ein: Journey Optimizer pla
 
 Jede Nachricht in der Warteschlange verfügt außerdem über ein Gültigkeitsfenster (TTL). Wenn die Verarbeitung fehlschlägt und eine Nachricht über dieses Fenster hinausgeht, **das System sie** und gibt ein **`MessageValidityExclusion`** aus, sodass veraltete Arbeit aus der Warteschlange entfernt wird und Ressourcen verfügbar bleiben.
 
+## Testen der Verbindung {#connection}
 
-## Verwenden externer Integrationen für die Personalisierung {#personalization}
+**[!UICONTROL Testverbindung senden]** validiert die Endpunkt-URL, Authentifizierung und Anfragestruktur vor der Aktivierung anhand der Ziel-API, was das Risiko von Laufzeitfehlern während der Nachrichtenverarbeitung reduziert.
 
-Bevor Sie externe Integrationen für die Personalisierung verwenden, beachten Sie, dass die Planung und Isolierung von Integrationsaufrufen vom Ausführungskontext abhängen:
+1. Wenn die URL, die HTTP-Methode, die Header und die Abfrageparameter definiert sind, klicken Sie auf **[!UICONTROL Verbindung testen]**, um einen Konnektivitätstest durchzuführen und die Konfiguration zu bestätigen.
 
-* **Batch-Ausführung** (Batch-Kampagnen, orchestrierte Kampagnen und API-ausgelöste Marketing-Kampagnen): Jeder Batch-Vorgang wird in einer dedizierten, isolierten Umgebung ausgeführt. Gleichzeitige Batch-Ausführungen, die externe Systeme aufrufen, stehen daher nicht im Konflikt miteinander oder behindern einander.
+1. Geben **[!UICONTROL im Dialogfeld Testverbindung senden]** Standardwerte für alle **[!UICONTROL Variable]**-Platzhalter im URL-Pfad, in den Kopfzeilen und in den Abfrageparametern ein.
 
-* **Einzelausführung** (einheitliche Journey, Batch-Journey und API-ausgelöste Transaktionskampagnen): Der Integrations-Traffic ist pro Marken-Sandbox isoliert, sodass eine langsame externe API für eine Marke die andere nicht verzögert. In Ihrer Sandbox können gleichzeitige Integrationen andere durch die Integration unterstützte Nachrichten kurz verzögern. Jede Nachricht wird bis zu 12 Stunden vor Ablauf des Versands bearbeitet.
+   Diese Werte sind in der Testanfrage enthalten. Journey Optimizer ruft den Endpunkt auf und meldet, ob die Verbindung erfolgreich hergestellt wurde oder fehlgeschlagen ist.
 
-Als Marketing-Fachleute können Sie konfigurierte Integrationen verwenden, um Ihre Inhalte zu personalisieren. Führen Sie folgende Schritte aus:
+   ![](assets/external-integration-config-11.png)
 
-1. Greifen Sie auf Ihren Kampagneninhalt zu und klicken Sie in Ihren Text- oder HTML-**[!UICONTROL Komponenten]** auf **[!UICONTROL Personalisierung hinzufügen]**.
+1. Wenn der Test eine erfolgreiche Antwort zurückgibt, wählen Sie **[!UICONTROL Als Antwort-Payload verwenden]** aus, um den Antworttext in das Feld **[!UICONTROL Antwort-Payload]** zu kopieren. Weitere Informationen finden Sie in Schritt 10 unter [Integration konfigurieren](#configure), wo Datentypen erkannt und Felder für die Personalisierung ausgewählt werden können.
 
-   [Weitere Informationen zu Komponenten](../email/content-components.md)
+   ![](assets/external-integration-config-10.png)
 
-   ![](assets/external-integration-content-1.png)
+1. Wenn der Test nicht erfolgreich ist, erweitern Sie die **[!UICONTROL Fehler]**-Dropdown-Liste, um die Fehlerdetails zu überprüfen, die Integrationskonfiguration nach Bedarf zu aktualisieren, und führen Sie **[!UICONTROL Testverbindung senden]** erneut aus.
 
-1. Navigieren Sie zum Abschnitt **[!UICONTROL Integrationen]** und klicken Sie auf **[!UICONTROL Integrationen öffnen]**, um alle aktiven Integrationen anzuzeigen.
+   ![](assets/external-integration-content-12.png)
 
-   Beachten Sie, dass Inhaltsfragmente mit Integrationen verfügbar sind, aber nur ausgehende Kanäle unterstützen. Eine eingehende Veröffentlichung ist nicht erfolgreich. Nach der Veröffentlichung eines Fragments ist das Hinzufügen und Speichern neuer Integrationen deaktiviert, um Auswirkungen auf bestehende Journey und Kampagnen zu vermeiden.
-
-   ![](assets/external-integration-content-2.png)
-
-1. Wählen Sie eine Integration aus und klicken Sie auf **[!UICONTROL Speichern]**.
-
-   ![](assets/external-integration-content-3.png)
-
-1. Aktivieren Sie den **[!UICONTROL Pillen-Modus]**, um das erweiterte Integrationsmenü zu entsperren.
-
-   ![](assets/external-integration-content-4.png)
-
-1. Wenn Sie die Integrationspersonalisierung erstellen, enthält der Integrations-Helper ein **`required`**, das definiert, wie Fehler oder fehlende Daten mit Standardinhalten interagieren:
-
-   * **`required=true`** (Standard): Das Rendern dieser Nachricht wird angehalten. Der Versand wird mit **`ExternalDataLookupExclusion`** ausgeschlossen und dieser Ausschluss wird im **Nachrichten-Feedback-Datensatz“**.
-   * **`required=false`**: Die Ergebnisvariable wird auf **`null`** festgelegt und das Rendern wird fortgesetzt. Verwenden Sie Standardtext, Fallbacks oder bedingte Logik in Ihrer Vorlage, damit Profile keine leeren Inhalte erhalten, wenn die Integration keine Daten zurückgibt.
-
-     ![](assets/external-integration-content-8.png)
-
-1. Um die Einrichtung der Integration abzuschließen, definieren Sie die Integrationsattribute, die zuvor bei der [Konfiguration](#configure) angegeben wurden.
-
-   Sie können diesen Attributen Werte zuweisen – entweder mithilfe statischer Werte, die konstant bleiben, oder mithilfe von Profilattributen, die Informationen dynamisch aus Benutzerprofilen abrufen.
-
-   ![](assets/external-integration-content-5.png)
-
-1. Sobald die Integrationsattribute definiert sind, können Sie die Integrationsfelder in Ihren Inhalten für personalisierte Nachrichten verwenden, indem Sie auf das Symbol ![Hinzufügen](assets/do-not-localize/Smock_Add_18_N.svg) klicken.
-
-   ![](assets/external-integration-content-6.png)
-
-   >[!NOTE]
-   >
-   >Token in Ihrer Vorlage dürfen nur Felder verwenden, die der Administrator in der Integrationskonfiguration bereitgestellt hat. Beispielsweise ist `{{weatherResponse.temperature}}` gültig, wenn `temperature` verfügbar gemacht wird; `{{weatherResponse.humidity}}` wird im Editor abgelehnt, wenn `humidity` nicht verfügbar ist.
-
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
-Ihre Integrationspersonalisierung wird jetzt erfolgreich auf Ihre Inhalte angewendet, sodass alle Empfängerinnen und Empfänger ein maßgeschneidertes, relevantes Erlebnis erhalten, das auf den von Ihnen konfigurierten Attributen basiert.
-
-![](assets/external-integration-content-7.png)
+Wählen Sie nach erfolgreichem Test **[!UICONTROL Aktivieren]** in der Integrationskonfiguration aus. Siehe [Konfigurieren der Integration](#configure).
 

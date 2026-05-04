@@ -8,26 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Integration, häufig gestellte Fragen, externe Daten, Personalisierung
-hide: true
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '852'
+ht-degree: 1%
 
 ---
 
 # Häufig gestellte Fragen zu Integrationen {#vendor-integration-faq}
-
->[!BEGINSHADEBOX]
-
-Inhaltsverzeichnis:
-
-* [Arbeiten mit Integrationen](integrations.md)
-* [Erste Schritte mit der Vendors-Integration](vendor-integration-gs.md)
-* [Verfügbare Anbieter](vendor-integration.md)
-* **[FAQs](vendor-integration-faq.md)**
-
->[!ENDSHADEBOX]
 
 Im Folgenden finden Sie häufig gestellte Fragen zu **Integrationen** in Adobe Journey Optimizer.
 
@@ -114,9 +102,9 @@ Ja. Die Funktion ist sowohl für Journey- als auch für Kampagnen für **ausgehe
 
 +++ Kann ich Integrationen in wiederverwendbaren Fragmenten verwenden?
 
-Die Integrationsfunktion wird **Fragmenten** unterstützt. Verwenden Sie Integrationen in Campaign und Journey-Nachrichteninhalt dort, wo das Produkt sie unterstützt.
+Die Integrationsfunktion wird in Fragmenten unterstützt.
 
-➡️ [Weitere Informationen zu Fragmenten und Beta-Beschränkungen](integrations.md#limitations)
+➡️ [Weitere Informationen zu Fragmenten](aem-fragments-gs.md)
 
 +++
 
@@ -132,7 +120,7 @@ Die Integrationsfunktion wird **Fragmenten** unterstützt. Verwenden Sie Integra
 
 +++ Welche API-Antwortformate werden unterstützt?
 
-Bei API-Aufrufantworten wird **JSON** für die Feldzuordnung unterstützt. Rohe binäre Bildausgaben und Formate, die keine JSON sind, sind für diesen Workflow nicht verfügbar.
+Bei API-Aufrufantworten werden **JSON** und **HTML** für die Feldzuordnung unterstützt. Rohe binäre Bildausgaben und Formate, die keine JSON sind, sind für diesen Workflow nicht verfügbar.
 
 ➡️ [Erfahren Sie mehr über JSON und Antwortformate](integrations.md#limitations)
 
@@ -150,9 +138,9 @@ Bei API-Aufrufantworten wird **JSON** für die Feldzuordnung unterstützt. Rohe 
 
 +++ Welche Berechtigungen benötige ich, um Integrationen zu konfigurieren?
 
-Configuration ist ein Administrator-Workflow unter **[!UICONTROL Konfigurationen]** > **[!UICONTROL Integrationen]**. Die genauen Berechtigungsnamen hängen von den Admin Console- und Journey Optimizer-Produktprofilen Ihres Unternehmens ab. Bestätigen Sie den Vorgang mit Ihrem Administrator oder Adobe-Support-Mitarbeiter.
+Um mit der Verwendung von Integrationen beginnen zu können, müssen Benutzenden die Berechtigungen **[!UICONTROL AJO-Integrationskonfiguration verwalten]** und **[!UICONTROL AJO-Integrationskonfiguration anzeigen]** gewährt werden.
 
-➡️ [Erfahren Sie mehr darüber, wo Integrationen konfiguriert werden](integrations.md#configure)
+➡️ [Weitere Informationen zu Integrationsberechtigungen](integrations.md#overview)
 
 +++
 

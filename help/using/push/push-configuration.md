@@ -7,9 +7,9 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2189'
 ht-degree: 88%
 
 ---
@@ -249,10 +249,6 @@ Sie können Ihre Konfiguration jetzt beim Erstellen Ihrer Push-Benachrichtigunge
 >id="ajo_surface_dynamic_app_id"
 >title="App-ID personalisieren"
 >abstract="Wenn Sie mehrere Mobile Apps verwalten, speichern Sie jede App-ID im Profil und verwenden Sie eine einzige Push-Kanal-Konfiguration. Öffnen Sie den Personalisierungseditor neben dem Feld App-ID , um ein Profilattribut auszuwählen. Der Ausdruck wird zum Sendezeitpunkt für jede Empfängerin und jeden Empfänger ausgewertet. Stellen Sie sicher, dass für jede App-ID, die Ihr Ausdruck zurückgeben kann, Push-Anmeldeinformationen vorhanden sind."
-
->[!AVAILABILITY]
->
->Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
 Wenn Sie viele Marken oder Mandanten mit separaten Programmen haben, können Sie jede **[!UICONTROL App-ID]** im Profil speichern und über eine einzige Kanalkonfiguration für jeden Empfänger eine Push-Benachrichtigung an die richtige Mobile App senden.
 
