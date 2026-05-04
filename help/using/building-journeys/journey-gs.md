@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: e7586f50e9f806b7dccb6d88998c43a89feb392b
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 47%
+source-wordcount: '1452'
+ht-degree: 45%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Erstellen von Journeys"
->abstract="Bitte **[!DNL Adobe Journey Optimizer]** verwenden, um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von kontextuellen Daten aus Ereignissen oder Datenquellen zu erstellen."
+>abstract="Verwenden Sie **[!DNL Adobe Journey Optimizer]**, um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von in Ereignissen oder Datenquellen gespeicherten kontextuellen Daten zu erstellen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
@@ -44,7 +44,7 @@ In diesem Handbuch werden Sie:
 * Testen des Journey mit Testprofilen vor der Aktivierung
 * Veröffentlichen des Journey und Überwachen seiner Leistung
 
-Erstellen Sie mehrstufige Customer Journeys, um eine Abfolge von kanalübergreifenden Interaktionen, Angeboten und Nachrichten in Echtzeit zu initiieren. Dieser Ansatz stellt sicher, dass Kunden zu optimalen Zeitpunkten auf der Grundlage ihrer Aktionen und relevanten Geschäftssignale eingebunden werden.
+Erstellen Sie mehrstufige Customer Journeys, um eine Abfolge von kanalübergreifenden Interaktionen, Angeboten und Nachrichten in Echtzeit zu initiieren. Dieser Ansatz stellt sicher, dass mit Kundinnen und Kunden zu optimalen Zeitpunkten basierend auf ihren Aktionen und relevanten Geschäftssignalen interagiert wird.
 
 <!--
 >[!TIP]
@@ -59,6 +59,15 @@ Was Sie vor dem Erstellen konfigurieren müssen, hängt davon ab, wie Ihr Journe
 * **Zielgruppenbasierter Eintrag** - Die Journey wird für eine definierte Gruppe von Profilen zum geplanten Zeitpunkt ausgeführt. [Erstellen einer Zielgruppe](../audience/about-audiences.md) in Adobe Experience Platform vor dem Erstellen des Journey. Dies ist der empfohlene Ausgangspunkt, wenn Sie neu bei Journey Optimizer sind.
 
 * **Ereignisbasierter Eintrag** - Der Journey wird in Echtzeit ausgelöst, wenn ein Kontakt eine Aktion ausführt, z. B. einen Kauf oder eine Anmeldung. [Ereignis konfigurieren](../event/about-events.md) um den Trigger und die darin enthaltenen Daten zu definieren.
+
+**Nicht sicher, welcher Einstiegspunkt verwendet werden soll?** In der folgenden Tabelle werden die häufigsten Anwendungsfälle der richtigen Startaktivität zugeordnet.
+
+| Einstiegspunkt | Verwenden, wenn… | Eingetretene Profile |
+|---|---|---|
+| **[Zielgruppe lesen](read-audience.md)** | Sie möchten eine geplante oder wiederkehrende Nachricht an eine definierte Gruppe von Profilen (Newsletter, Werbeaktionen, Onboarding-Serien) senden. | Alle Profile einer Batch-Zielgruppe auf einmal oder nach einem Zeitplan. |
+| **[Zielgruppenqualifizierung](audience-qualification-events.md)** | Sie müssen in Echtzeit reagieren, wenn ein Profil in eine Audience eintritt oder diese verlässt (Upgrade der Treuestufe, Markierung für Abwanderungsrisiko). | Jeweils ein Profil, sobald es sich für eine Streaming-Zielgruppe qualifiziert. |
+| **Unitäres Ereignis** | Bei einer Profilaktion wird eine sofortige Antwort Trigger (Kaufbestätigung, Formularübermittlung, App-Anmeldung). | Jeweils ein Profil in Echtzeit. |
+| **[Geschäftsereignis](../event/about-creating-business.md)** | Ein Ereignis, das kein Profil ist, wirkt sich auf mehrere Personen gleichzeitig aus (Flugannullierung, Bestandsauffüllung, Eilmeldung). | Alle mit dem Ereignis verknüpften Profile über einen automatischen Schritt „Zielgruppe lesen“. |
 
 Die folgenden Elemente sind optional, können jedoch je nach Anwendungsfall erforderlich sein:
 
@@ -118,7 +127,7 @@ Sie können Ihre Journey auch im **Probelauf** ausführen. Der Journey-Probelauf
 
 ## Veröffentlichen der Journey {#jo-pub}
 
-Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen. Weitere Informationen zur Veröffentlichung von Journeys finden Sie in diesem [Abschnitt](publish-journey.md).
+Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen. Weitere Informationen zum Journey von Veröffentlichungen finden Sie in [Abschnitt](publish-journey.md).
 
 ![Vollständiger Journey Flow mit Zielgruppe, Bedingungen und Aktionen](assets/jo-journeyuc2_32bis.png)
 

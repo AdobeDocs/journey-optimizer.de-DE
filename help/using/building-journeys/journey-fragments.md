@@ -11,9 +11,9 @@ hide: true
 keywords: Fragmente, Journey, Wiederverwendung, Knoten, Arbeitsfläche, Inventar, Wiederverwendbar
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 version: Journey Orchestration
-source-git-commit: 869c1e32911d873a4a565cd0f81a8ff6b92ff96b
+source-git-commit: d18f56e2730ba4b59d2923ed0b7a00ccfff06b3f
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1482'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal
 Nach der Erstellung werden Fragmente in einem dedizierten **[!UICONTROL Fragmentinventar)]** können mithilfe der Aktivität **[!UICONTROL Journey-Fragmente&rbrace; in]** Journey eingefügt werden.
 
 >[!NOTE]
->In dieser ersten Version verwenden Journey-Fragmente ein **Kopierverhalten**: Durch Einfügen eines Fragments in eine Journey wird eine statische Kopie der Originalknoten erstellt. Aktualisierungen, die am Originalfragment vorgenommen werden, werden nicht automatisch in den Journey übernommen, die es bereits verwendet haben.
+>Journey-Fragmente verwenden ein **Kopierverhalten**: Durch Einfügen eines Fragments in einen Journey wird eine statische Kopie der Originalknoten erstellt. Alle am Originalfragment vorgenommenen Aktualisierungen werden nicht in den Journey übernommen, die es bereits verwendet haben.
 
 ## Berechtigungen {#journey-fragments-permissions}
 
@@ -71,7 +71,7 @@ So speichern Sie Journey-Knoten direkt auf der Journey-Arbeitsfläche als Fragme
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Das Fragment wird als Entwurf gespeichert.
 
 >[!TIP]
->Wenn Sie ein Fragment von einer Journey erstellen, [&#x200B; Sie &#x200B;](testing-the-journey.md) Journey **,** Sie das Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
+>Wenn Sie ein Fragment von einer Journey erstellen, testen [&#x200B; (testen oder simulieren](testing-the-journey.md) **Sie** Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
 
 >[!TAB Aus dem Fragmentinventar]
 
@@ -83,7 +83,7 @@ So erstellen Sie ein Fragment direkt aus dem Inventar:
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**, um das Fragment als Entwurf zu speichern.
 
 >[!CAUTION]
->Der Testmodus ist im Fragment-Editor nicht verfügbar. Das bedeutet, dass Sie das Verhalten der konfigurierten Aktivitäten nicht überprüfen können, bevor das Fragment aktiviert und in eine Journey eingefügt wurde. Bei Fragmenten, bei denen die Logikgenauigkeit entscheidend ist, sollten Sie [die Knoten zunächst in einer vollständigen Journey erstellen und testen](testing-the-journey.md) und sie dann über die Registerkarte „Arbeitsfläche“ oben als Fragment speichern.
+>Testmodus und Simulation sind im Fragment-Editor nicht verfügbar. Das bedeutet, dass Sie das Verhalten der konfigurierten Aktivitäten nicht überprüfen können, bevor das Fragment aktiviert und in eine Journey eingefügt wurde. Bei Fragmenten, bei denen die Logikgenauigkeit entscheidend ist, sollten Sie [Erstellen und Testen oder Simulieren der Knoten auf einer vollständigen Journey](testing-the-journey.md) zuerst und dann über die Registerkarte „Arbeitsfläche“ oben als Fragment speichern.
 
 >[!ENDTABS]
 
@@ -103,7 +103,7 @@ Um ein Fragment zu bearbeiten, öffnen Sie es über das **[!UICONTROL Fragmentin
 >
 >* Nur **[!UICONTROL Entwurf]**-Fragmente können bearbeitet werden. Um ein **[!UICONTROL Aktives]** Fragment zu ändern, deaktivieren Sie es zunächst.
 >
->* Der Testmodus ist im Fragment-Editor nicht verfügbar. Testen Sie eine beliebige Logik auf Journey-Ebene auf der vollständigen Journey, bevor Sie Knoten als Fragment speichern.
+>* Testmodus und Simulation sind im Fragment-Editor nicht verfügbar. Testen oder simulieren Sie eine beliebige Logik auf Journey-Ebene auf der vollständigen Journey, bevor Sie Knoten als Fragment speichern.
 >
 >* [Sprung](jump.md)-Aktivitäten sind innerhalb eines Fragments nicht zulässig.
 
@@ -111,40 +111,53 @@ Um ein Fragment zu bearbeiten, öffnen Sie es über das **[!UICONTROL Fragmentin
 
 ### Fragmentstatus {#fragment-statuses}
 
-Journey-Fragmente folgen einem Lebenszyklus mit zwei Status:
+Das Journey von Fragmenten folgt einem Lebenszyklus mit folgenden Status:
 
 | Status | Beschreibung |
 |---|---|
 | **[!UICONTROL Entwurf]** | Das Fragment wird gerade erstellt und ist noch nicht für die Verwendung in Journey verfügbar. |
 | **[!UICONTROL aktiv]** | Das Fragment kann nun in Journey verwendet werden. |
+| **[!UICONTROL Archiviert]** | Das Fragment wurde archiviert und ist nicht mehr für die Verwendung in Journey verfügbar. |
 
-Um ein Fragment **[!UICONTROL Entwurf]** zu aktivieren, öffnen Sie es und verwenden Sie das Symbol **[!UICONTROL Aktivieren]** . Um ein **[!UICONTROL Aktives]** Fragment zu deaktivieren, öffnen Sie es und verwenden Sie das Symbol **[!UICONTROL Deaktivieren]** .
+Die folgenden Regeln gelten für Fragmentstatusübergänge:
+
+* Nur **[!UICONTROL Entwurf]**-Fragmente können aktiviert werden. Öffnen Sie ein Entwurfsfragment und verwenden Sie das Symbol **[!UICONTROL Aktivieren]** .
+* Nur **[!UICONTROL Aktive]** Fragmente können deaktiviert oder archiviert werden.
+* Nur **[!UICONTROL archivierte]** Fragmente können archiviert werden. Wenn Sie die Archivierung eines Fragments aufheben, wird es wieder in **[!UICONTROL Status „Entwurf]** versetzt.
+* Nur **[!UICONTROL Entwurf]**-Fragmente können gelöscht werden.
+
+>[!NOTE]
+>Beim Aktivieren eines Fragments werden die meisten der Validierungsprüfungen angewendet, die beim Journey der Veröffentlichung ausgeführt werden. Allerdings werden **kontextuelle Attribute nicht validiert** und **Governance-Richtlinien werden** Aktivierungszeitpunkt nicht erzwungen). Beide werden ausgewertet, wenn das Fragment eingefügt und auf einer Journey verwendet wird.
 
 ### Fragmentaktionen {#fragment-actions}
 
 Aus dem Fragmentinventar können Sie die folgenden Aktionen für ein Fragment ausführen:
 
 * **[!UICONTROL Öffnen]**: Bearbeiten Sie das Fragment, indem Sie auf seinen Namen klicken.
-* **[!UICONTROL Duplizieren]**: Erstellen Sie über das Symbol **[!UICONTROL Mehr Aktionen]** (…) eine Kopie des Fragments.
-* **[!UICONTROL Löschen]**: Löschen eines Fragments aus dem aktiven Inventar über das Symbol **[!UICONTROL Mehr Aktionen]** (…).
-* **[!UICONTROL Tags bearbeiten]** - Über das Symbol **[!UICONTROL Mehr Aktionen]** (…) können Sie Tags eines Fragments hinzufügen oder entfernen.
+* **[!UICONTROL Duplizieren]**: Erstellen Sie eine Kopie des Fragments über **[!UICONTROL Mehr Aktionen]** (…) Symbol.
+* **[!UICONTROL Archivieren]**: Archivieren Sie ein Fragment (nur für **[!UICONTROL Aktive]** Fragmente verfügbar) über die **[!UICONTROL Mehr Aktionen]** (…) Symbol. Archivierte Fragmente sind nicht mehr in der Fragmentauswahl verfügbar.
+* **[!UICONTROL Archivierung aufheben]**: Wiederherstellen eines archivierten Fragments (nur für **[!UICONTROL archivierte]** Fragmente verfügbar) über die **[!UICONTROL Mehr Aktionen]** (…) Symbol. Das Fragment kehrt zum Status **[!UICONTROL Entwurf]** zurück.
+* **[!UICONTROL Löschen]**: Fragment dauerhaft aus der **[!UICONTROL Mehr Aktionen]** (…) löschen (nur für **[!UICONTROL Entwurf]** Fragmente) Symbol.
+* **[!UICONTROL Tags bearbeiten]**: Hinzufügen oder Entfernen von Tags eines Fragments über **[!UICONTROL Weitere Aktionen]** (…) Symbol.
 
 ## Verwenden eines Fragments in einer Journey {#use-journey-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="Journey-Fragment hinzufügen"
->abstract="In **[!UICONTROL Auswahl sind nur]** Fragmente verfügbar. Durch Einfügen eines Fragments wird eine **statische Kopie** seiner Knoten erstellt - nachfolgende Aktualisierungen des Originalfragments werden nicht auf der Journey widergespiegelt."
+>abstract="In **[!UICONTROL Auswahl sind nur]** Fragmente verfügbar. Durch Einfügen eines Fragments wird eine **statische Kopie** seiner Knoten erstellt. Aktualisierungen am Originalfragment werden nicht auf der Journey widergespiegelt."
 
 So fügen Sie ein Fragment in eine Journey ein:
 
 1. Öffnen Sie Ihren Journey und ziehen Sie die Aktivität **[!UICONTROL Journey-]** aus der linken Leiste.
-1. Ablegen in einer vorhandenen Verzweigung. Eine Fragmentauswahl wird angezeigt.
+1. Ablegen in einer bestehenden Verzweigung oder auf einer leeren Arbeitsfläche. Eine Fragmentauswahl wird angezeigt.
 1. Suchen Sie nach dem Fragment, das Sie verwenden möchten. Sie können ein Fragment in der Vorschau anzeigen oder es auf einer anderen Registerkarte öffnen, bevor Sie es einfügen.
 1. Wählen Sie das Fragment aus. Seine Knoten werden am Ablagepunkt in die Arbeitsfläche kopiert.
 
 >[!NOTE]
 >In **[!UICONTROL Auswahl sind nur]** Fragmente verfügbar. Durch Einfügen eines Fragments wird eine **statische Kopie** seiner Knoten erstellt - nachfolgende Aktualisierungen des Originalfragments werden nicht auf der Journey widergespiegelt.
+>
+>Wenn Sie ein Fragment auf eine leere Arbeitsfläche ablegen, muss das Fragment mit einem **[!UICONTROL Zielgruppe lesen]**, **[!UICONTROL Zielgruppen-Qualifizierung]** oder **[!UICONTROL Ereignis]**-Knoten beginnen (dieselbe Regel wie beim Starten einer Journey).
 
 ## Leitlinien und Einschränkungen {#guardrails}
 
@@ -163,7 +176,7 @@ Die folgenden Leitplanken gelten für Journey-Fragmente:
 
 * Nur **[!UICONTROL Active]**-Fragmente können in eine Journey eingefügt werden.
 * Durch Einfügen eines Fragments wird eine **statische Kopie** seiner Knoten erstellt. Aktualisierungen des Originalfragments werden nicht an Journey weitergegeben, wo es verwendet wurde.
-* Ein Fragment muss in eine **vorhandene Verzweigung) auf** Arbeitsfläche eingefügt werden.
+* Ein Fragment kann in einem vorhandenen Zweig oder auf einer leeren Arbeitsfläche abgelegt werden. Wenn das Fragment auf einer leeren Arbeitsfläche abgelegt wird, muss es mit einem Knoten **[!UICONTROL Zielgruppe lesen]**, **[!UICONTROL Zielgruppen-]** oder **[!UICONTROL Ereignis]** beginnen.
 
 **Allgemein**
 
@@ -178,13 +191,13 @@ Die folgenden Beispiele veranschaulichen gängige Journey-Muster, die als Journe
 
 **Eignungsprüfungen**
 
-Ein standardmäßiges Eintragsmuster, z. B. ein Knoten [Zielgruppe lesen](read-audience.md) gefolgt von Eignungsfiltern, kann in ein Fragment eingekapselt werden. Auf diese Weise können Teams die Konsistenz bei der Eingabe von Profilen in Journey gewährleisten und gleichzeitig die Einrichtungszeit verkürzen. Das Fragment kann nur die [Bedingung](condition-activity.md) oder die Bedingung „Zielgruppe lesen“ und die Bedingung zusammen sein.
+Ein standardmäßiges Eintragsmuster, z. B. ein Knoten [Zielgruppe lesen](read-audience.md) gefolgt von Eignungsfiltern, kann in ein Fragment eingekapselt werden. Auf diese Weise können Teams die Konsistenz bei der Eingabe von Profilen in Journey gewährleisten und gleichzeitig die Einrichtungszeit verkürzen. Das Fragment kann nur die Aktivität [Optimieren](optimize.md) oder die Aktivität „Zielgruppe lesen“ und „Optimieren“ zusammen sein.
 
 ![Beispiel für ein Fragment zur Eignungsprüfung](assets/journey-fragments-uc-eligibility-check.png)
 
 **Bevorzugter Kanal**
 
-Ein Fragment kann den bevorzugten Kommunikationskanal eines Profils - E-Mail, Push oder SMS - auswerten und das Profil entsprechend weiterleiten. Diese Logik kann auf jeder Journey wiederverwendet werden, die ausgehende Nachrichten beinhaltet, wodurch eine konsistente Verwaltung der Kanalpräferenzen gewährleistet ist. Das Fragment kann die [Bedingung](condition-activity.md) und alle drei Kanalzweige enthalten.
+Ein Fragment kann den bevorzugten Kommunikationskanal eines Profils - E-Mail, Push oder SMS - auswerten und das Profil entsprechend weiterleiten. Diese Logik kann auf jeder Journey wiederverwendet werden, die ausgehende Nachrichten beinhaltet, wodurch eine konsistente Verwaltung der Kanalpräferenzen gewährleistet ist. Das Fragment kann die Aktivität [Optimieren](optimize.md) und alle drei Kanalzweige enthalten.
 
 ![Beispiel für bevorzugte Kanalfragmente](assets/journey-fragments-uc-preferred-channel.png)
 

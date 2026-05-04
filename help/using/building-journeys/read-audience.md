@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Aktivität, Journey, Zielgruppe lesen, Zielgruppe, Segment, Batch, Einstiegspunkt, Trigger, Zeitplan, Zielgruppen-Qualifizierung
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '3538'
-ht-degree: 64%
+source-wordcount: '3612'
+ht-degree: 63%
 
 ---
 
@@ -37,6 +37,13 @@ Die **Zielgruppe lesen**-Aktivität ist die Journey-Einstiegspunktaktivität, di
 | Sie möchten eine Journey einmal oder nach einem Zeitplan (Batch) ausführen. | Sie benötigen Profile, um die Journey in Echtzeit aufrufen zu können, da sie sich qualifizieren. |
 | Ihre Zielgruppe wird per Batch ausgewertet (z. B. täglicher Schnappschuss). | Ihre Zielgruppe streamt oder ereignisbasiert. |
 | Sie können mit einer Verzögerung zwischen der Zielgruppenauswertung und dem Journey-Eintrag einverstanden sein. | Sie müssen sofort eintreten, wenn ein Profil qualifiziert ist. |
+
+>[!TIP]
+>
+>**Beispiele aus der Praxis**
+>* **Wöchentlicher Newsletter** → Zielgruppe lesen. Ihre Zielgruppe ist eine tägliche Batch-Momentaufnahme. Sie planen die Journey jeden Montag um 9 Uhr morgens. Alle qualifizierten Profile treten gemeinsam ein.
+>* **Upgrade der Treuestufe** → Zielgruppen-Qualifizierung. Sobald ein Profil in einer Streaming-Zielgruppe den Gold-Status erreicht, gelangt es sofort auf die Journey, um eine Glückwunsch-E-Mail zu erhalten.
+>* **Serie zur erneuten Interaktion** → Zielgruppe lesen. Sie führen alle 30 Tage eine wiederkehrende Journey aus, um Profile anzusprechen, die seit über 90 Tagen inaktiv sind.
 
 **Schlüsselbeschränkungen:** eine „Zielgruppe lesen“ pro Journey (muss die erste Aktivität sein); eine Zielgruppe pro Aktivität; bis zu fünf gleichzeitige „Zielgruppe lesen“-Ausführungen pro Organisation; 20.000 Profile pro Sekunde pro Sandbox; 12-Stunden-Job-Timeout. Ausführliche Informationen finden Sie unter [Leitplanken und Einschränkungen](../start/guardrails.md#read-segment-g).
 
