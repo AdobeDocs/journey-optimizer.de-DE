@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: e7586f50e9f806b7dccb6d88998c43a89feb392b
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 47%
+source-wordcount: '1452'
+ht-degree: 45%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Erstellen von Journeys"
->abstract="Bitte **[!DNL Adobe Journey Optimizer]** verwenden, um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von kontextuellen Daten aus Ereignissen oder Datenquellen zu erstellen."
+>abstract="Verwenden Sie **[!DNL Adobe Journey Optimizer]**, um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von in Ereignissen oder Datenquellen gespeicherten kontextuellen Daten zu erstellen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
@@ -44,7 +44,7 @@ In diesem Handbuch werden Sie:
 * Testen des Journey mit Testprofilen vor der Aktivierung
 * Veröffentlichen des Journey und Überwachen seiner Leistung
 
-Erstellen Sie mehrstufige Customer Journeys, um eine Abfolge von kanalübergreifenden Interaktionen, Angeboten und Nachrichten in Echtzeit zu initiieren. Dieser Ansatz stellt sicher, dass Kunden zu optimalen Zeitpunkten auf der Grundlage ihrer Aktionen und relevanten Geschäftssignale eingebunden werden.
+Erstellen Sie mehrstufige Customer Journeys, um eine Abfolge von kanalübergreifenden Interaktionen, Angeboten und Nachrichten in Echtzeit zu initiieren. Dieser Ansatz stellt sicher, dass mit Kundinnen und Kunden zu optimalen Zeitpunkten basierend auf ihren Aktionen und relevanten Geschäftssignalen interagiert wird.
 
 <!--
 >[!TIP]
@@ -60,9 +60,18 @@ Was Sie vor dem Erstellen konfigurieren müssen, hängt davon ab, wie Ihr Journe
 
 * **Ereignisbasierter Eintrag** - Der Journey wird in Echtzeit ausgelöst, wenn ein Kontakt eine Aktion ausführt, z. B. einen Kauf oder eine Anmeldung. [Ereignis konfigurieren](../event/about-events.md) um den Trigger und die darin enthaltenen Daten zu definieren.
 
+**Nicht sicher, welcher Einstiegspunkt verwendet werden soll?** In der folgenden Tabelle werden die häufigsten Anwendungsfälle der richtigen Startaktivität zugeordnet.
+
+| Einstiegspunkt | Verwenden, wenn… | Eingetretene Profile |
+|---|---|---|
+| **[Zielgruppe lesen](read-audience.md)** | Sie möchten eine geplante oder wiederkehrende Nachricht an eine definierte Gruppe von Profilen (Newsletter, Werbeaktionen, Onboarding-Serien) senden. | Alle Profile einer Batch-Zielgruppe auf einmal oder nach einem Zeitplan. |
+| **[Zielgruppenqualifizierung](audience-qualification-events.md)** | Sie müssen in Echtzeit reagieren, wenn ein Profil in eine Audience eintritt oder diese verlässt (Upgrade der Treuestufe, Markierung für Abwanderungsrisiko). | Jeweils ein Profil, sobald es sich für eine Streaming-Zielgruppe qualifiziert. |
+| **Unitäres Ereignis** | Bei einer Profilaktion wird eine sofortige Antwort Trigger (Kaufbestätigung, Formularübermittlung, App-Anmeldung). | Jeweils ein Profil in Echtzeit. |
+| **[Geschäftsereignis](../event/about-creating-business.md)** | Ein Ereignis, das kein Profil ist, wirkt sich auf mehrere Personen gleichzeitig aus (Flugannullierung, Bestandsauffüllung, Eilmeldung). | Alle mit dem Ereignis verknüpften Profile über einen automatischen Schritt „Zielgruppe lesen“. |
+
 Die folgenden Elemente sind optional, können jedoch je nach Anwendungsfall erforderlich sein:
 
-* **Datenquelle** - Richten Sie eine (Datenquelle[&#x200B; ein, um Journey-Bedingungen oder Personalisierungen mit Daten aus einem externen System &#x200B;](../datasource/about-data-sources.md).
+* **Datenquelle** - Richten Sie eine (Datenquelle[ ein, um Journey-Bedingungen oder Personalisierungen mit Daten aus einem externen System ](../datasource/about-data-sources.md).
 
 * **Benutzerdefinierte Aktion** - Wenn Sie Nachrichten über ein Drittanbietersystem und nicht über die integrierten Kanäle senden, konfigurieren Sie eine [benutzerdefinierte Aktion](../action/action.md).
 
@@ -70,7 +79,7 @@ Die folgenden Elemente sind optional, können jedoch je nach Anwendungsfall erfo
 >
 >* Wenn Sie als Datentechniker für die technische Einrichtung (Ereignisse, Datenquellen und Aktionen) verantwortlich sind, lesen Sie [diesen Abschnitt](../configuration/about-data-sources-events-actions.md).
 >
->* Journey-Leitplanken und -Einschränkungen werden auf [&#x200B; Seite &#x200B;](../start/guardrails.md).
+>* Journey-Leitplanken und -Einschränkungen werden auf [ Seite ](../start/guardrails.md).
 
 ## Erstellen einer Journey {#jo-build}
 
@@ -92,7 +101,7 @@ Anschließend können Sie mit der Gestaltung Ihrer Journey beginnen.
 
 ## Entwerfen der Journey {#jo-design}
 
-Mit dem Journey-Designer können Sie mehrstufige Journey mit einer intuitiven Drag-and-Drop-Oberfläche erstellen. Aktivitäten in der linken Palette sind in drei Kategorien unterteilt: **Ereignisse**, **&#x200B;**&#x200B;und **Aktionen**. Eine vollständige Übersicht der Arbeitsfläche und ihrer Steuerelemente finden Sie auf [dieser Seite](using-the-journey-designer.md).
+Mit dem Journey-Designer können Sie mehrstufige Journey mit einer intuitiven Drag-and-Drop-Oberfläche erstellen. Aktivitäten in der linken Palette sind in drei Kategorien unterteilt: **Ereignisse**, **** und **Aktionen**. Eine vollständige Übersicht der Arbeitsfläche und ihrer Steuerelemente finden Sie auf [dieser Seite](using-the-journey-designer.md).
 
 ![Journey-Designer-Benutzeroberfläche mit Aktivitätspalette und Arbeitsfläche](assets/journey38.png)
 
@@ -108,7 +117,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Journey zu entwerfen:
 
 >[!TIP]
 >
->Für Journey mit mehreren Phasen oder vielen Touchpoints sollten Sie den End-to-End-Fluss in kleinere Sub-Journey unterteilen, die mit der Aktivität **[!UICONTROL Springen]** verbunden sind. Dies reduziert die Komplexität und erleichtert das unabhängige Testen jedes Sub-Journey. Weitere Informationen finden [&#x200B; unter „Design-Strategie: Beißgroße Unter-Journey &#x200B;](jump.md#jump-strategy).
+>Für Journey mit mehreren Phasen oder vielen Touchpoints sollten Sie den End-to-End-Fluss in kleinere Sub-Journey unterteilen, die mit der Aktivität **[!UICONTROL Springen]** verbunden sind. Dies reduziert die Komplexität und erleichtert das unabhängige Testen jedes Sub-Journey. Weitere Informationen finden [ unter „Design-Strategie: Beißgroße Unter-Journey ](jump.md#jump-strategy).
 
 ## Testen der Journey {#jo-test}
 
@@ -118,7 +127,7 @@ Sie können Ihre Journey auch im **Probelauf** ausführen. Der Journey-Probelauf
 
 ## Veröffentlichen der Journey {#jo-pub}
 
-Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen. Weitere Informationen zur Veröffentlichung von Journeys finden Sie in diesem [Abschnitt](publish-journey.md).
+Sie müssen eine Journey veröffentlichen, um sie zu aktivieren und für neue Profile verfügbar zu machen, damit diese in sie eintreten können. Stellen Sie vor der Veröffentlichung Ihrer Journey sicher, dass sie gültig ist und keine Fehler vorliegen. Es ist nicht möglich, eine fehlerhafte Journey zu veröffentlichen. Weitere Informationen zum Journey von Veröffentlichungen finden Sie in [Abschnitt](publish-journey.md).
 
 ![Vollständiger Journey Flow mit Zielgruppe, Bedingungen und Aktionen](assets/jo-journeyuc2_32bis.png)
 

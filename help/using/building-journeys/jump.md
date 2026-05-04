@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Springen, Aktivität, Journey, Aufspaltung, Aufspalten
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 78%
+source-wordcount: '1418'
+ht-degree: 60%
 
 ---
 
@@ -53,6 +53,20 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktiv
 >[!NOTE]
 >
 >Journey B kann auch über ein externes Ereignis ausgelöst werden.
+
+### Profilverhalten während eines Sprungs {#jump-profile-behavior}
+
+Wenn ein Profil den **[!UICONTROL Sprung]**-Schritt erreicht, schreitet es auf der Ursprungs-Journey (Journey A) weiter voran, während es gleichzeitig auf die Ziel-Journey (Journey B) gelangt. Das Profil ist daher in beiden Journey gleichzeitig aktiv.
+
+Das bedeutet:
+
+* Das Profil führt alle verbleibenden Schritte in Journey A nach der Sprungaktivität aus (z. B. eine Folgewartezeit oder eine schließende Aktion).
+* Das Profil beginnt auch unabhängig von Journey A von seinem ersten Ereignis an durch Journey B zu fließen.
+* Wenn das Profil **bereits aktiv** in Journey B ist, wenn der Sprung ausgeführt wird, wird **nicht** erneut in Journey B eingegeben. Journey A läuft normal weiter; es wird kein Fehler gemeldet.
+
+>[!NOTE]
+>
+>Der obige Fall - Profil ist bereits auf Journey B aktiv - führt zu einem **stillen Überspringen**: Es wird kein Fehler ausgelöst und Journey A wird normal fortgesetzt. In anderen Situationen kann der Sprung **fehlschlagen** und Journey A wendet die standardmäßige Aktionsfehlerbehandlung an. Siehe [Laufzeitfehler](#jump-troubleshoot) für die vollständige Liste der Fälle.
 
 ## Best Practices und Einschränkungen {#jump-limitations}
 
@@ -94,7 +108,7 @@ Erstellen Sie jede Phase als separate Journey in Journey Optimizer und verwenden
 
 >[!TIP]
 >
->Eine ausführliche Anleitung zu diesem Ansatz finden Sie unter [Best Practices für fortgeschrittene Journey in Journey Optimizer](https://experienceleague.adobe.com/de/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Eine ausführliche Anleitung zu diesem Ansatz finden Sie unter [Best Practices für fortgeschrittene Journey in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 ## Konfigurieren der Sprungaktivität {#jump-configure}
 
@@ -138,10 +152,20 @@ Wenn in einer Journey eine **[!UICONTROL Sprungaktivität]** konfiguriert ist, w
 
 ## Fehlerbehebung {#jump-troubleshoot}
 
-Fehler treten auf, wenn:
+### Konfigurationsfehler
 
-* Die Ziel-Journey nicht mehr existiert
-* Der Status der Ziel-Journey „Entwurf“, „Geschlossen“ oder „Gestoppt“ ist
-* Das erste Ereignis der Ziel-Journey sich geändert hat und die Zuordnung unterbrochen wird
+Die folgenden Probleme verhindern, dass der Sprung ordnungsgemäß funktioniert und auf der Journey-Arbeitsfläche als Fehler angezeigt werden:
+
+* Die Ziel-Journey existiert nicht mehr.
+* Die Ziel-Journey ist Entwurf, geschlossen oder gestoppt.
+* Das erste Ereignis der Ziel-Journey hat sich geändert und die Zuordnung ist beschädigt.
 
 ![Journey-Analysen mit Ausführungsmetriken zur Sprungaktivität](assets/jump6.png)
+
+### Laufzeitfehler
+
+In den folgenden Fällen wird der Sprungschritt in Journey A als **fehlgeschlagene Aktion** behandelt. Journey A wendet die standardmäßige Aktionsfehlerbehandlung an und fährt fort:
+
+* Die bestehende Ziel-Journey-Instanz wurde beendet, und die Ziel-Journey ist nicht wiedereintrittspflichtig.
+* Auf der Ziel-Journey wird eine Periode für den erneuten Eintritt konfiguriert. Selbst wenn der erneute Eintritt grundsätzlich zulässig ist, kann das Profil erst wieder eintreten, wenn der Zeitraum abgelaufen ist (der Sprung schlägt mit dem Status „Kein Eintritt für den Zeitraum“ fehl).
+* Die Ziel-Journey-Version kann nicht gefunden werden, wurde gelöscht, befindet sich in einem fertigen Zustand oder wurde gestoppt.

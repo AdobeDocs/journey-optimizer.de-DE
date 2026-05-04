@@ -10,10 +10,10 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: f06c834fcd1a70aba33a37bb02de461869b50b77
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1947'
-ht-degree: 96%
+source-wordcount: '2222'
+ht-degree: 84%
 
 ---
 
@@ -56,7 +56,7 @@ Lesen Sie diese Hinweise, bevor Sie Tests auf Ihrem Journey durchführen.
 ### Ausführung
 
 * **Aufspaltungsverhalten**: Wenn die Journey eine Aufspaltung erreicht, wird immer die oberste Verzweigung ausgewählt. Ordnen Sie Verzweigungen neu an, wenn Sie einen anderen Pfad testen möchten.
-* **Ereignis-Timing**: Wenn die Journey mehrere Trigger enthält, lösen Sie die Ereignisse nacheinander aus. Wird ein Ereignis zu früh (bevor der erste Warteknoten abgeschlossen ist) oder zu spät (nach dem konfigurierten Timeout) gesendet, wird das Ereignis verworfen und das Profil wird an einen Timeout-Pfad gesendet. Vergewissern Sie sich stets, dass Verweise auf Ereignis-Payload-Felder gültig bleiben, indem Sie die Payload innerhalb des definierten Fensters senden.
+* **Ereigniszeitplanung** - Wenn die Journey mehrere Ereignisse enthält, jedes Ereignis in Sequenzen Trigger setzen.Wird ein Ereignis zu früh (bevor der erste Warteknoten abgeschlossen ist) oder zu spät (nach der konfigurierten maximalen Wartezeit) gesendet, wird das Ereignis verworfen und das Profil wird an einen maximalen Wartepfad gesendet. Vergewissern Sie sich stets, dass Verweise auf Ereignis-Payload-Felder gültig bleiben, indem Sie die Payload innerhalb des definierten Fensters senden.
 * **Aktives Datumsfenster**: Stellen Sie sicher, dass das für die Journey konfigurierte Fenster für [Start- und Enddatum/-zeit](journey-properties.md#dates) beim Initiieren des Testmodus die aktuelle Zeit enthält. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen. Weitere Informationen zur Behebung dieses Problems finden Sie [auf dieser Seite](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Reaktionsereignisse**: Für Reaktionsereignisse mit einem Timeout beträgt die minimale und die standardmäßige Wartezeit 40 Sekunden.
 * **Testdatensätze**: Im Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert, die wie folgt gekennzeichnet sind: `JOtestmode - <schema of your event>`
@@ -95,6 +95,29 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
    ![Schaltfläche „Protokoll anzeigen“ zum Anzeigen von Testergebnissen](assets/journeyuctest2.png)
 
 1. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Nach Abschluss der Tests können Sie Ihre Journey veröffentlichen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/publish-journey.md).
+
+## Arbeitsbeispiel: Validieren einer einfachen Journey {#test-walkthrough}
+
+Im folgenden Beispiel wird erläutert, wie Sie eine Journey testen, die mit einem unitären Ereignis beginnt, eine E-Mail sendet, 10 Minuten wartet und dann eine Push-Benachrichtigung sendet.
+
+So validieren Sie das Journey End-to-End:
+
+1. Aktivieren Sie den Testmodus, indem Sie **[!UICONTROL Testmodus]** in der oberen rechten Ecke klicken. Die Arbeitsfläche wechselt in den Testmodus und die Schaltfläche **[!UICONTROL Trigger an event]** wird angezeigt.
+1. Stellen Sie **[!UICONTROL Wartezeit]** auf **10 Sekunden** ein, damit der Warteknoten während des Tests schnell abgeschlossen wird.
+1. Klicken Sie auf **[!UICONTROL Trigger eines Ereignisses]**, wählen Sie Ihr Ereignis aus und geben Sie eine Testprofilkennung ein (z. B. die E-Mail-Adresse eines Profils, das in Adobe Experience Platform als Testprofil gekennzeichnet ist).
+1. Klicken Sie auf **[!UICONTROL Senden]**. Der visuelle Fluss wird auf der Arbeitsfläche angezeigt und färbt sich grün, wenn das Profil die einzelnen Schritte durchläuft.
+1. Klicken Sie **[!UICONTROL Protokoll anzeigen]** und bestätigen Sie Folgendes in der JSON-Ausgabe:
+   * `currentstep` entspricht der Aktivität, die das Profil erwartungsgemäß aufweist.
+   * `phase` zeigt `running` an, während sich das Profil in einem Warteknoten befindet, und `finished`, wann es das Ende erreicht.
+   * Es sind keine `actionExecutionErrors` Einträge vorhanden.
+1. Aktualisieren Sie das Protokoll nach 10 Sekunden. Das Profil sollte über den Warteknoten hinaus fortgeschritten sein und die Push-Aktion ausgelöst haben.
+1. Wenn alle Schritte `finished` anzeigen und keine Fehler protokolliert werden, deaktivieren Sie den Testmodus und veröffentlichen Sie die Journey.
+
+>[!TIP]
+>
+>Wenn das Profil überhaupt nicht im Protokoll aufgeführt wird, überprüfen Sie Folgendes:
+>* Die eingegebene Profilkennung wird in [!DNL Adobe Experience Platform] als Testprofil gekennzeichnet.
+>* Das konfigurierte Start- und Enddatum der Journey enthält die aktuelle Zeit. Außerhalb dieses Fensters ausgelöste Ereignisse werden im Hintergrund verworfen. [Weitere Informationen](troubleshooting-execution.md#troubleshooting-test-transitions).
 
 ## Auslösen Ihrer Ereignisse {#firing_events}
 

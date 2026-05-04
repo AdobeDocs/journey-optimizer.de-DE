@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 873a9ed182e69c43be7c0f655a1696384395263c
+source-git-commit: 51ea1695ab52c01403d16c0193c72e8e9339ee2d
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 74%
+source-wordcount: '2152'
+ht-degree: 63%
 
 ---
 
@@ -39,13 +39,13 @@ Sie können drei Ereignistypen konfigurieren: **Unitäre Ereignisse**, **Geschä
 
 ## Unitäre Ereignisse {#unitary-events}
 
-**Unitäre** Ereignisse sind mit einer Person verbunden. Sie beziehen sich auf das Verhalten einer Person (z. B. eine Person hat ein Produkt gekauft, einen Shop besucht, eine Website verlassen usw.) oder auf etwas, das mit einer Person in Verbindung steht (z. B. eine Person hat 10.000 Treuepunkte erreicht). Diese Ereignisse werden von [!DNL Journey Optimizer] in Journeys überwacht, um die besten nächsten Aktionen zu orchestrieren. Unitäre Ereignisse können regelbasiert oder systemgeneriert sein. Informationen zum Erstellen eines unitären Ereignisses finden Sie auf dieser [Seite](../event/about-creating.md).
+**Unitäre** Ereignisse sind mit einer Person verbunden. Sie beziehen sich auf das Verhalten einer Person (z. B. eine Person hat ein Produkt gekauft, einen Shop besucht, eine Website verlassen usw.) oder auf etwas, das mit einer Person verknüpft ist (z. B. eine Person hat 10.000 Treuepunkte erreicht). Diese Ereignisse werden von [!DNL Journey Optimizer] in Journeys überwacht, um die besten nächsten Aktionen zu orchestrieren. Unitäre Ereignisse können regelbasiert oder systemgeneriert sein. Informationen zum Erstellen eines unitären Ereignisses finden Sie auf dieser [Seite](../event/about-creating.md).
 
 Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn also beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres Ereignis verzeichnet wird (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
 
 ## Geschäftsereignisse {#business-events}
 
-**Geschäftsereignisse** sind nicht mit einem bestimmten Profil verknüpft. Dabei kann es sich beispielsweise um eine Nachrichtenmeldung, ein Sportergebnis, eine Änderung oder Annullierung eines Fluges, eine Bestandsaktualisierung, um Wetterereignisse usw. handeln. Obwohl diese Ereignisse nicht profilspezifisch sind, können sie für eine beliebige Zahl von Profilen von Interesse sein: Personen, die bestimmte Nachrichten abonniert haben, Passagiere eines bestimmten Fluges oder Kunden, die an einem nicht vorrätigen Produkt interessiert sind. Geschäftsereignisse sind immer regelbasiert. Wenn Sie ein Geschäftsereignis in eine Journey einfügen, wird danach automatisch eine Aktivität vom Typ **Zielgruppe lesen** hinzugefügt. Erfahren Sie (auf [&#x200B; Seite), wie Sie ein Geschäftsereignis &#x200B;](../event/about-creating-business.md).
+**Geschäftsereignisse** sind nicht mit einem bestimmten Profil verknüpft. Dabei kann es sich beispielsweise um eine Nachrichtenmeldung, Sportaktualisierung, eine Änderung oder Annullierung eines Fluges, eine Bestandsaktualisierung oder um Wetterereignisse handeln. Diese Ereignisse sind zwar nicht profilspezifisch, können aber für eine beliebige Anzahl von Profilen von Interesse sein: Personen, die bestimmte Nachrichtenthemen abonniert haben, Passagiere eines Fluges oder Kunden, die an einem nicht vorrätigen Produkt interessiert sind. Geschäftsereignisse sind immer regelbasiert. Wenn Sie ein Geschäftsereignis auf einer Journey ablegen, wird automatisch eine Aktivität **Zielgruppe lesen** unmittelbar danach hinzugefügt. Erfahren Sie (auf [ Seite), wie Sie ein Geschäftsereignis ](../event/about-creating-business.md).
 
 ## Zielgruppen-Qualifizierungsereignisse {#audience-qualification-events}
 
@@ -54,6 +54,21 @@ Ein **Zielgruppen-Qualifizierungsereignis** wird ausgelöst, wenn ein Profil in 
 >[!NOTE]
 >
 >Zielgruppen-Qualifizierungsereignisse werden nicht in **Administration > Ereignisse** konfiguriert, sondern direkt auf der Journey-Arbeitsfläche als erster Schritt einer Journey ausgewählt.
+
+## Unitäre vs. geschäftliche Ereignisse auf einen Blick {#event-comparison}
+
+| | Unitäres Ereignis | Geschäftsereignis |
+|---|---|---|
+| **Mit einem Profil verknüpft?** | Ja - ausgelöst durch die Aktion einer bestimmten Person. | Nein — ausgelöst durch ein externes Ereignis, das nicht an eine Person gebunden ist. |
+| **Eintrittsverhalten** | Ein Profil gelangt in Echtzeit auf die Journey. | Mehrere Profile treten über einen automatischen Schritt „Zielgruppe lesen“ ein. |
+| **Typische Anwendungsfälle** | Kaufbestätigung, Formularübermittlung, App-Anmeldung, Treuemeilenstein. | Flugstornierung, Warnhinweis bezüglich der Bestandsauffüllung, aktuelle Nachrichten, Wetterereignis. |
+| **Wie startet man die Journey** | Ereignisbasierter Eintrag - keine Zielgruppe erforderlich. | Geschäftsereignis + automatische Zielgruppe lesen (von Journey Optimizer hinzugefügt). |
+| **Mehrere pro Journey?** | Ja, Sie können mehrere unitäre Ereignisse über Journey-Schritte hinweg überwachen. | Nein - nur ein Geschäftsereignis pro Journey, platziert am Anfang. |
+| **Ereignis-ID-Typ** | Regelbasiert oder systemgeneriert. | Immer regelbasiert. |
+
+>[!NOTE]
+>
+>Eine Journey kann nur **ein** Geschäftsereignis enthalten, bei dem es sich um die erste Aktivität handeln muss. Journey Optimizer fügt nach der Aktivität automatisch die Aktivität **Zielgruppe lesen** hinzu, um zu definieren, welche Profile die von diesem Ereignis ausgelöste Journey erhalten.
 
 ## Ereignis-ID-Typ {#event-id-type}
 
@@ -71,7 +86,7 @@ Bei **unitären** Ereignissen sind zwei Typen von Ereignis-IDs möglich:
 
 >[!NOTE]
 >
->Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. In Batches aufgenommene Ereignisse, über **Abfrage-Service** eingefügte Ereignisse oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) können nicht zum Trigger einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, erstellen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe und verwenden Sie die Aktivität **Zielgruppe lesen**. Die Zielgruppen-Qualifizierung kann zwar theoretisch verwendet werden, kann aber im späteren Verlauf abhängig von den verwendeten Aktionen zu Problemen führen. Diese Daten müssen nicht unbedingt an das Echtzeitprofil gesendet werden. Wenn Sie die Ereignisse zur Segmentierung verwenden möchten, empfehlen wir, den Datensatz für das Profil zu aktivieren.
+>Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. In Batches aufgenommene Ereignisse, über **Abfrage-Service** eingefügte Ereignisse oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) Kann nicht zum Trigger einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, erstellen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe und verwenden Sie die Aktivität **Zielgruppe lesen**. Die Zielgruppen-Qualifizierung kann zwar theoretisch verwendet werden, kann aber im späteren Verlauf abhängig von den verwendeten Aktionen zu Problemen führen. Diese Daten müssen nicht unbedingt an das Echtzeitprofil gesendet werden. Wenn Sie die Ereignisse zur Segmentierung verwenden möchten, empfehlen wir, den Datensatz für das Profil zu aktivieren.
 
 ## Auswahlmöglichkeiten {#choose-event-type}
 
@@ -100,7 +115,7 @@ Systemgenerierte Ereignisse: Die Pipeline filtert Ereignisse mit einer Payload, 
 
 ## Über den Journey-Ereignisdurchsatz {#event-thoughput}
 
-Adobe Journey Optimizer unterstützt auf Organisationsebene ein Spitzenvolumen von 5.000 Journey-Ereignissen pro Sekunde über alle Sandboxes hinweg. Dieses Kontingent gilt für alle Ereignisse, die in aktiven Journeys genutzt werden, darunter in Journeys vom Typ **Live**, **Probelauf**, **Geschlossen** und **Angehalten**. Sobald dieses Kontingent erreicht wird, werden neue Ereignisse mit einer Verarbeitungsrate von 5.000 pro Sekunde in die Warteschlange gestellt. Die maximale Zeit, die ein Ereignis in der Warteschlange verbringen kann, beträgt **&#x200B; 24Stunden**.
+Adobe Journey Optimizer unterstützt auf Organisationsebene ein Spitzenvolumen von 5.000 Journey-Ereignissen pro Sekunde über alle Sandboxes hinweg. Dieses Kontingent gilt für alle Ereignisse, die in aktiven Journeys genutzt werden, darunter in Journeys vom Typ **Live**, **Probelauf**, **Geschlossen** und **Angehalten**. Sobald dieses Kontingent erreicht wird, werden neue Ereignisse mit einer Verarbeitungsrate von 5.000 pro Sekunde in die Warteschlange gestellt. Die maximale Zeit, die ein Ereignis in der Warteschlange verbringen kann, beträgt ** 24Stunden**.
 
 Weitere Informationen zu Journey-Verarbeitungsraten und dazu, wie sich verschiedene Journey-Typen auf den Durchsatz auswirken, finden Sie [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
 
@@ -110,7 +125,7 @@ Die folgenden Ereignistypen werden auf das Kontingent von 5.000 TPS angerechnet
 
 * **Zielgruppen-Qualifizierungsereignisse**: Wenn dieselbe Streaming-Zielgruppe in verschiedenen Journeys zum Einsatz kommt, wird jede Verwendung separat gezählt. Wird dieselbe Zielgruppe beispielsweise in einer Zielgruppen-Qualifizierungsaktivität in zwei Journeys verwendet, werden zwei Ereignisse gezählt.
 
-* **Reaktionsereignisse**: Ereignisse, die durch Profilreaktionen (geöffnete E-Mails, angeklickte E-Mails usw.) in einer Journey ausgelöst werden.
+* **Reaktionsereignisse**: Ereignisse, die durch Profilreaktionen ausgelöst werden (geöffnete E-Mail, angeklickte E-Mail usw.) innerhalb einer Journey.
 
 * **Geschäftsereignisse**: Ereignisse, die nicht an ein bestimmtes Profil gebunden sind, sondern an ein geschäftsbezogenes Ereignis.
 
@@ -139,7 +154,7 @@ Ein und dasselbe Raw-Ereignis kann sich in Journeys für verschiedene Regeldefin
 ## Aktualisieren und Löschen eines Ereignisses {#update-event}
 
 
-Um Unterbrechungen vorhandener Journeys zu vermeiden, wenn Sie ein Ereignis bearbeiten, das in einer **Entwurfs**-, **Live**- oder **geschlossenen** Journey verwendet wird, können Sie nur den Namen bzw. die Beschreibung ändern oder Payload-Felder hinzufügen. 
+Um Unterbrechungen vorhandener Journeys zu vermeiden, wenn Sie ein Ereignis bearbeiten, das in einer **Entwurfs**-, **Live**- oder **geschlossenen** Journey verwendet wird, können Sie nur den Namen bzw. die Beschreibung ändern oder Payload-Felder hinzufügen.
 
 Jedes Ereignis, das in **Live**-, **Entwurfs**- oder **geschlossenen** Journeys verwendet wird, kann nicht gelöscht werden. Um ein verwendetes Ereignis zu löschen, müssen Sie seine Verwendung durch Journeys unterbinden und/oder es aus den Entwurfs-Journeys entfernen, in denen es verwendet wird. Sie können das Feld **[!UICONTROL Verwendet in]** überprüfen. Es zeigt die Anzahl der Journeys an, die dieses bestimmte Ereignis verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
 
@@ -147,7 +162,7 @@ Jedes Ereignis, das in **Live**-, **Entwurfs**- oder **geschlossenen** Journeys 
 
 Erfahren Sie, wie Sie ein Ereignis konfigurieren und den Streaming-Endpunkt und die Payload für ein Ereignis angeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431515?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Machen Sie sich mit den entsprechenden Anwendungsfällen für Geschäftsereignisse vertraut. Erfahren Sie, wie Sie mithilfe eines Geschäftsereignisses eine Journey erstellen und welche Best Practices anzuwenden sind.
 
