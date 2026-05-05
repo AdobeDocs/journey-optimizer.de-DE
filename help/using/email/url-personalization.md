@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 keywords: URL, Link, Personalisierung, Tracking, Kodierung, geschweifte Klammern
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+source-git-commit: daf07abd855079aeedf77708575a92d1ce13f66d
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 24%
@@ -25,7 +25,7 @@ Je nach den Profilattributen führen sie Empfänger zu bestimmten Seiten einer W
 
 Gehen Sie wie folgt vor, um eine URL zu personalisieren.
 
-1. Wählen Sie in der E-Mail-Designer ein Inhaltselement aus und [&#x200B; Sie mithilfe der kontextuellen Symbolleiste &#x200B;](message-tracking.md#insert-links)Link einfügen“.
+1. Wählen Sie in der E-Mail-Designer ein Inhaltselement aus und [ Sie mithilfe der kontextuellen Symbolleiste ](message-tracking.md#insert-links)Link einfügen“.
 
    >[!IMPORTANT]
    >
@@ -72,7 +72,7 @@ Journey Optimizer unterstützt auch die Personalisierung **gesamten** URL oder d
 
 [URL-Tracking](url-tracking.md) wird auf der Ebene der Kanalkonfiguration verwaltet und gilt für alle URLs, die im Nachrichteninhalt enthalten sind. Sie können auch URL-Tracking-Parameter für einen einzelnen Link in der E-Mail-Designer personalisieren. Auf diese Weise können Sie einen empfängerspezifischen Parameter an einen einzelnen Link anhängen (z. B. um eine Kennung an Ihre Web-Analyse-Tools zu übergeben).
 
-Wählen Sie dazu [Link einfügen](message-tracking.md#insert-links), klicken Sie auf das Personalisierungssymbol, fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im Personalisierungseditor [&#x200B; gewünschte Profilattribut &#x200B;](../personalization/personalization-build-expressions.md).
+Wählen Sie dazu [Link einfügen](message-tracking.md#insert-links), klicken Sie auf das Personalisierungssymbol, fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im Personalisierungseditor [ gewünschte Profilattribut ](../personalization/personalization-build-expressions.md).
 
 ![](assets/message-tracking-perso-parameter.png)
 
@@ -83,6 +83,7 @@ Wenn die E-Mail gesendet wird, wird dieser Parameter jetzt automatisch an das En
 >[!NOTE]
 >
 >Um die endgültige URL zu überprüfen, können Sie einen [Testversand durchführen](../content-management/proofs.md) und auf den Link im E-Mail-Inhalt klicken, sobald Sie die als Testversand vorgesehene Nachricht erhalten haben. Die URL sollte den Tracking-Parameter anzeigen. Beispiel: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+
 
 <!--
 ## Best practices and guardrails {#best-practices}
