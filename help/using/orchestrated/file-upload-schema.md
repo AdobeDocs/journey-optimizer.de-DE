@@ -5,10 +5,10 @@ title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie in Adobe Experience Platform ein relationales Schema erstellen, indem Sie eine DDL-Datei hochladen.
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 98%
+source-wordcount: '1222'
+ht-degree: 86%
 
 ---
 
@@ -40,8 +40,9 @@ Uploads von Excel-basierten Schemadateien werden unterstützt. Laden Sie die [be
 +++Beim Erstellen relationaler Schemata in Adobe Experience Platform werden die folgenden Funktionen unterstützt
 
 * **ENUM**\
-  ENUM-Felder werden sowohl bei der DDL-basierten als auch bei der manuellen Schemaerstellung unterstützt, sodass Sie Attribute mit einem festen Satz zulässiger Werte definieren können.
-Siehe folgendes Beispiel:
+  ENUM-Felder werden sowohl bei der DDL-basierten als auch bei der manuellen Schemaerstellung unterstützt. Beim Laden eines Schemas aus einer DDL-Datei werden die in der Datei definierten Auflistungen automatisch importiert, sodass Sie Attribute mit einem festen Satz zulässiger Werte definieren können.
+
+  Siehe folgendes Beispiel:
 
   ```
   CREATE TABLE orders (
@@ -54,6 +55,12 @@ Siehe folgendes Beispiel:
   PRIMARY KEY (order_id, product_id)
   );
   ```
+
+* **Zusammengesetzter Schlüssel** und **Zusammengesetzte Beziehungen**
+
+  Zusammengesetzte Primärschlüssel, die mehrere Felder umfassen, werden in relationalen Schemadefinitionen unterstützt, sodass mehrere Felder zusammen verwendet werden können, um Datensätze eindeutig zu identifizieren.
+
+  Beim Laden eines Schemas aus einer DDL- oder Excel-Datei werden automatisch zusammengesetzte Beziehungen zwischen Tabellen erstellt. In der Ansicht der Entitätsbeziehung zeigt jede zusammengesetzte Relation den vollständigen Satz von Feldpaaren zwischen den verknüpften Tabellen an.
 
 * **Schema-Label für Data Governance**\
   Label werden auf der Ebene der Schemafelder unterstützt, um Data-Governance-Richtlinien wie Zugriffskontrolle und Nutzungsbeschränkungen durchzusetzen. Weitere Informationen sind in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) verfügbar.
@@ -75,7 +82,7 @@ Siehe folgendes Beispiel:
    Die Tabellenstruktur muss Folgendes enthalten:
    * Mindestens einen Primärschlüssel,
    * eine Versionskennung, z. B. ein `lastmodified`-Feld vom Typ `datetime` oder `number`.
-   * Bei der Aufnahme mit Change Data Capture (CDC) gibt eine spezielle Spalte mit dem Namen `_change_request_type` vom Typ `String`, die den Typ der Datenänderung angibt (z. B. Einfügen, Aktualisieren, Löschen) und eine inkrementelle Verarbeitung ermöglicht.
+   * Bei einer Aufnahme mit Änderungsdatenerfassung (Change Data Capture, CDC) gibt es eine spezielle Spalte mit dem Namen `_change_request_type` vom Typ `String`, die den Typ der Datenänderung angibt (z. B. Einfügen, Aktualisieren, Löschen) und eine inkrementelle Verarbeitung ermöglicht.
    * Die DDL-Datei darf nicht mehr als 200 Tabellen definieren.
 
 
@@ -114,7 +121,7 @@ Sie können beim Erstellen Ihres Schemas Beziehungen direkt in der DDL-Datei ang
 
    >[!NOTE]
    >
-   >Zusammengesetzte Schlüssel werden unterstützt, wenn sie in der DDL-Datei definiert sind.
+   >Zusammengesetzte Schlüssel, die mehrere Felder umfassen, werden unterstützt, wenn sie in der DDL-Datei definiert sind. Beim Laden aus einer DDL- oder Excel-Datei werden automatisch zusammengesetzte Beziehungen zwischen Tabellen erstellt. In der Ansicht „Entitätsbeziehung“ zeigen zusammengesetzte Links den vollständigen Satz von Feldpaaren zwischen den verknüpften Tabellen an.
 
    ![](assets/admin_schema_5.png)
 
