@@ -10,10 +10,10 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
+source-git-commit: 60c2e2c1aa1beb11aeb67bbc9e30e946a9d7fdb8
 workflow-type: tm+mt
-source-wordcount: '2222'
-ht-degree: 84%
+source-wordcount: '2307'
+ht-degree: 74%
 
 ---
 
@@ -25,10 +25,15 @@ ht-degree: 84%
 >abstract="Verwenden Sie Testprofile, um Ihre Journey vor der Veröffentlichung zu testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Journey-Probelauf"
 
-
-Nachdem Sie Ihre Journey erstellt haben, können Sie sie vor dem Veröffentlichen testen. Journey Optimizer bietet einen „Testmodus“ als Möglichkeit, Testprofile anzuzeigen, die die Journey durchlaufen, um so potenzielle Fehler vor der Aktivierung zu erkennen. Mit Schnelltests können Sie überprüfen, ob die Journeys ordnungsgemäß funktionieren, sodass Sie sie sicher veröffentlichen können.
+Nachdem Sie Ihre Journey erstellt haben, können Sie sie vor dem Veröffentlichen testen. [!DNL Adobe Journey Optimizer] bietet den „Testmodus“ als Möglichkeit, Testprofile anzuzeigen, während sie sich auf der Journey bewegen, und potenzielle Fehler vor der Aktivierung zu erkennen. Mit Schnelltests können Sie überprüfen, ob die Journeys ordnungsgemäß funktionieren, sodass Sie sie sicher veröffentlichen können.
 
 Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entweder neue Testprofile erstellen oder vorhandene Profile in Testprofile umwandeln. Weiterführende Informationen zu Testprofilen finden Sie in [diesem Abschnitt](../audience/creating-test-profiles.md).
+
+Adobe Journey Optimizer bietet zwei Möglichkeiten zum Testen und Validieren Ihres Journey:
+
+* **[Simulation](simulate-journey.md#test-users)**: Setzen Sie die Journey auf **[!UICONTROL Simulation]** und verwenden Sie simulierte Benutzende (temporäre Profile, die Sie ohne vorab erstellte Profile in Adobe Experience Platform erstellen oder im laufenden Betrieb generieren).
+
+* **[Testmodus](#test-profiles)**: Persistente Profile, die in Adobe Experience Platform explizit als Testprofile gekennzeichnet sind. Sie können in mehreren Testsitzungen wiederverwendet werden. Diese Methode wird für Tests mit konsistenten, vordefinierten Profildaten empfohlen. [Erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -56,8 +61,8 @@ Lesen Sie diese Hinweise, bevor Sie Tests auf Ihrem Journey durchführen.
 ### Ausführung
 
 * **Aufspaltungsverhalten**: Wenn die Journey eine Aufspaltung erreicht, wird immer die oberste Verzweigung ausgewählt. Ordnen Sie Verzweigungen neu an, wenn Sie einen anderen Pfad testen möchten.
-* **Ereigniszeitplanung** - Wenn die Journey mehrere Ereignisse enthält, jedes Ereignis in Sequenzen Trigger setzen.Wird ein Ereignis zu früh (bevor der erste Warteknoten abgeschlossen ist) oder zu spät (nach der konfigurierten maximalen Wartezeit) gesendet, wird das Ereignis verworfen und das Profil wird an einen maximalen Wartepfad gesendet. Vergewissern Sie sich stets, dass Verweise auf Ereignis-Payload-Felder gültig bleiben, indem Sie die Payload innerhalb des definierten Fensters senden.
-* **Aktives Datumsfenster**: Stellen Sie sicher, dass das für die Journey konfigurierte Fenster für [Start- und Enddatum/-zeit](journey-properties.md#dates) beim Initiieren des Testmodus die aktuelle Zeit enthält. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen. Weitere Informationen zur Behebung dieses Problems finden Sie [auf dieser Seite](troubleshooting-execution.md#troubleshooting-test-transitions).
+* **Ereigniszeitplanung** - Wenn die Journey mehrere Ereignisse enthält, jedes Ereignis der Reihe nach mit einem Trigger versehen. Wird ein Ereignis zu früh (bevor der erste Warteknoten abgeschlossen ist) oder zu spät (nach der konfigurierten maximalen Wartezeit) gesendet, wird das Ereignis verworfen. Das Profil wird dann an einen Zeitüberschreitungspfad gesendet. Bestätigen Sie immer, dass alle Verweise auf Ereignis-Payload-Felder gültig bleiben, indem Sie die Payload im definierten Fenster senden.
+* **Aktives Datumsfenster** - Stellen Sie sicher, dass das konfigurierte Fenster [Start- und Enddatum/-](journey-properties.md#dates)) die aktuelle Zeit enthält, wenn Sie den Testmodus starten. Andernfalls werden ausgelöste Testereignisse im Hintergrund verworfen. Weitere Informationen zur Behebung dieses Problems finden Sie [auf dieser Seite](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Reaktionsereignisse**: Für Reaktionsereignisse mit einem Timeout beträgt die minimale und die standardmäßige Wartezeit 40 Sekunden.
 * **Testdatensätze**: Im Testmodus ausgelöste Ereignisse werden in dedizierten Datensätzen gespeichert, die wie folgt gekennzeichnet sind: `JOtestmode - <schema of your event>`
 * **Freigegebene Infrastruktur**: Der Testmodus wird auf derselben Infrastruktur ausgeführt wie die Produktion. Bei hohem Traffic-Aufkommen kann es zu Verzögerungen beim E-Mail-Versand oder bei der Ereignisverarbeitung kommen. Prüfen Sie in diesem Fall die Plattform-Traffic-Dashboards oder wiederholen Sie Ihre Tests außerhalb der Spitzenzeiten.
@@ -68,9 +73,9 @@ Lesen Sie diese Hinweise, bevor Sie Tests auf Ihrem Journey durchführen.
 
 ## Aktivieren des Testmodus
 
-Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
+Verwenden Sie die **[!UICONTROL Testmodus]**-Methode, wenn Sie Ihren Journey mit bereits in Adobe Experience Platform erstellten Testprofilen testen möchten.
 
-1. Um den Testmodus zu aktivieren, klicken Sie in der rechten oberen Ecke auf die Schaltfläche **[!UICONTROL Testmodus]**.
+1. Um den Testmodus zu aktivieren, klicken Sie auf die Schaltfläche **[!UICONTROL Simulieren]** und wählen Sie **[!UICONTROL Testmodus]**.
 
    ![Schaltfläche „Testmodus“ in der Journey-Oberfläche](assets/journeytest1.png)
 
@@ -141,14 +146,14 @@ Der Identity-Namespace dient dazu, die Testprofile eindeutig zu identifizieren. 
 
 >[!NOTE]
 >
->* Wenn Sie ein Ereignis im Testmodus auslösen, wird ein reales Ereignis generiert, d. h. es beeinflusst auch andere Journeys, die dieses Ereignis überwachen.
+>* Beim Trigger eines Ereignisses im Testmodus wird ein reales Ereignis generiert, d. h. es treffen auch andere Journey, die dieses Ereignis überwachen.
 >
 >* Stellen Sie sicher, dass jedes Ereignis im Testmodus in der richtigen Reihenfolge und innerhalb des konfigurierten Wartefensters ausgelöst wird. Bei einer Wartezeit von beispielsweise 60 Sekunden darf das zweite Ereignis erst nach Ablauf dieser Wartezeit von 60 Sekunden und vor Ablauf des Timeout-Limits ausgelöst werden.
 >
 
 ### Ereigniskonfiguration {#trigger-events-configuration}
 
-Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Über die Benutzeroberfläche können Sie die richtigen Informationen in der Ereignis-Payload angeben und prüfen, ob der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
+Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Über die Benutzeroberfläche können Sie die richtigen Informationen in die Ereignis-Payload eingeben und sicherstellen, dass der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
 
 ![Benutzeroberfläche für die Ereigniskonfiguration mit Feldern und Dropdown-Liste für die Ereignisauswahl](assets/journeytest4.png)
 
@@ -196,7 +201,7 @@ Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Tester
 >
 >In den Testprotokollen werden bei einem fehlerhaften Aufruf eines Drittanbietersystems (Datenquelle oder Aktion) der Fehlercode und die Fehlerantwort angezeigt.
 
-Die Anzahl der Kontakte (technisch gesehen handelt es sich um Instanzen), die sich derzeit innerhalb der Journey befinden, wird angezeigt. Außerdem finden Sie hier nützliche Informationen zu jedem Kontakt:
+Die Anzahl der Kontakte (technisch als Instanzen bezeichnet), die sich derzeit auf der Journey befinden, wird angezeigt. Für jede Person werden die folgenden Informationen angezeigt:
 
 * _ID_: die interne ID des Kontakts in der Journey. Diese kann zum Debugging verwendet werden.
 * _currentstep_: der Schritt, in dem sich der Kontakt in der Journey befindet. Es wird empfohlen, Ihren Aktivitäten Labels zu geben, damit Sie sie leichter identifizieren können.

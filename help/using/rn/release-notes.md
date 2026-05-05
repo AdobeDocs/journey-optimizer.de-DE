@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2183'
 ht-degree: 19%
 
 ---
@@ -32,6 +32,25 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 <table>
 <thead>
 <tr>
+<th><strong>Journey-Simulation</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Jetzt können Sie Ihren Journey auf <strong>Simulation</strong> einstellen. In diesem Modus können Sie Ihre Logik mithilfe von <strong>simulierten Benutzern</strong> überprüfen. Hierbei handelt es sich um temporäre Profile, die speziell für die Simulation erstellt wurden. Sie können also frei testen, ohne persistente Testprofile in Adobe Experience Platform verwalten zu müssen.</p>
+<p>Diese Funktion steht allen Kunden als eingeschränkte Verfügbarkeit mit wichtigen Funktionen zur Verfügung.</p>
+<p><img src="assets/do-not-localize/simulate-user.gif"></p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/simulate-journey.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 5. Mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Entscheidungsregeln und KI-Optimierung der Rangfolgenformel</strong><br/></th>
 </tr>
 </thead>
@@ -45,20 +64,6 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 </tr>
 </tbody>
 </table>
-
-## Versionshinweise April &#39;26 {#april-26-rn}
-
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, werden mit ihrem Verfügbarkeitsdatum angekündigt.
-
-**Veröffentlichungsdatum**: 28. bis 29. April 2026
-
-### Neue Funktionen {#april-26-features}
 
 <table>
 <thead>
@@ -78,6 +83,20 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 </tbody>
 </table>
 
+## Versionshinweise April &#39;26 {#april-26-rn}
+
+<!--
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
+
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+-->
+
+Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, werden mit ihrem Verfügbarkeitsdatum angekündigt.
+
+**Veröffentlichungsdatum**: 28. bis 29. April 2026
+
+### Neue Funktionen {#april-26-features}
+
 <table>
 <thead>
 <tr>
@@ -91,6 +110,7 @@ Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, wer
 
 Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue Anmeldungen, neu qualifizierte Mitglieder des Treueprogramms und ähnliche Segmente), während die Abfrage-Workloads reduziert und redundante Sendungen im Laufe der Zeit vermieden werden.</p>
 <p>Weitere Informationen finden Sie in der <a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 30. April 2026</p>
 </td>
 </tr>
 </tbody>
@@ -390,23 +410,6 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 Die Veröffentlichung der folgenden Funktionen und Verbesserungen ist für die nächsten Tage geplant. **Informationen können Änderungen unterliegen**. Aktualisierte Links, Bildschirme und Dokumentationen werden freigegeben, sobald diese Aktualisierungen live in der Produktion verfügbar sind.
 
 ### Neue Funktionen {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey-Simulation</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Jetzt können Sie Ihren Journey auf <strong>Simulation</strong> einstellen. In diesem Modus können Sie Ihre Logik mithilfe von <strong>simulierten Benutzern</strong> überprüfen. Hierbei handelt es sich um temporäre Profile, die speziell für die Simulation erstellt wurden. Sie können also frei testen, ohne persistente Testprofile in Adobe Experience Platform verwalten zu müssen.</p>
-<p>Diese Funktion steht allen Kunden als eingeschränkte Verfügbarkeit mit wichtigen Funktionen zur Verfügung.</p>
-<!--p><img src="assets/do-not-localize/simulate-user.gif"></p-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
