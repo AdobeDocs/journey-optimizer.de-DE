@@ -11,7 +11,7 @@ hide: true
 keywords: Fragmente, Journey, Wiederverwendung, Knoten, Arbeitsfläche, Inventar, Wiederverwendbar
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 version: Journey Orchestration
-source-git-commit: d18f56e2730ba4b59d2923ed0b7a00ccfff06b3f
+source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%
@@ -71,6 +71,7 @@ So speichern Sie Journey-Knoten direkt auf der Journey-Arbeitsfläche als Fragme
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Das Fragment wird als Entwurf gespeichert.
 
 >[!TIP]
+>
 >Wenn Sie ein Fragment von einer Journey erstellen, testen [&#x200B; (testen oder simulieren](testing-the-journey.md) **Sie** Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
 
 >[!TAB Aus dem Fragmentinventar]
@@ -83,6 +84,7 @@ So erstellen Sie ein Fragment direkt aus dem Inventar:
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**, um das Fragment als Entwurf zu speichern.
 
 >[!CAUTION]
+>
 >Testmodus und Simulation sind im Fragment-Editor nicht verfügbar. Das bedeutet, dass Sie das Verhalten der konfigurierten Aktivitäten nicht überprüfen können, bevor das Fragment aktiviert und in eine Journey eingefügt wurde. Bei Fragmenten, bei denen die Logikgenauigkeit entscheidend ist, sollten Sie [Erstellen und Testen oder Simulieren der Knoten auf einer vollständigen Journey](testing-the-journey.md) zuerst und dann über die Registerkarte „Arbeitsfläche“ oben als Fragment speichern.
 
 >[!ENDTABS]
