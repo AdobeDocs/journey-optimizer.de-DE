@@ -230,7 +230,7 @@ Erstellen Sie intelligente Rangfolgenmodelle, die automatisch optimieren, welche
 
 ## KI-gestützte Regel- und Formeloptimierung {#decisioning-optimization}
 
-Adobe Journey Optimizer kann automatisch [Entscheidungsregeln](../experience-decisioning/rules.md) und [Rangfolgeformeln) analysieren, ](../experience-decisioning/ranking/ranking-formulas.md) in der PQL-Syntax ausgedrückt werden, und Vereinfachungen vorschlagen, die die ursprüngliche Logik beibehalten. Wenn eine Vereinfachung gefunden wird, wird neben der Regel oder Formel ein roter **[!UICONTROL Optimieren]**-Indikator angezeigt, der einen direkten Vergleich des ursprünglichen und der von KI vorgeschlagenen Ausdrücke öffnet, mit einer herunterladbaren Analyse, um zu überprüfen, ob sich beide identisch verhalten.
+Adobe Journey Optimizer kann automatisch [Entscheidungsregeln](../experience-decisioning/rules.md) und [Rangfolgeformeln) analysieren, &#x200B;](../experience-decisioning/ranking/ranking-formulas.md) in der PQL-Syntax ausgedrückt werden, und Vereinfachungen vorschlagen, die die ursprüngliche Logik beibehalten. Wenn eine Vereinfachung gefunden wird, wird neben der Regel oder Formel ein roter **[!UICONTROL Optimieren]**-Indikator angezeigt, der einen direkten Vergleich des ursprünglichen und der von KI vorgeschlagenen Ausdrücke öffnet, mit einer herunterladbaren Analyse, um zu überprüfen, ob sich beide identisch verhalten.
 
 ### Wichtige Funktionen
 
