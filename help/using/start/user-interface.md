@@ -247,7 +247,7 @@ Der KI-Assistent bietet sofortige Hilfe und betriebliche Erkenntnisse. Klicken S
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_campaign_ovv_1"
 >title="Geführte Benutzeroberfläche zum Erstellen und Senden einer Kampagne"
->abstract="Legen Sie eine oder mehrere Aktionen mit einem Kanal fest, wählen Sie eine Zielgruppe aus, legen Sie einen Inhalt fest, definieren Sie einen Zeitplan – und schon sind Sie bereit für den Versand."
+>abstract="Legen Sie eine oder mehrere Aktionen mit einem Kanal fest, wählen Sie eine Zielgruppe aus, legen Sie den Inhalt fest, definieren Sie einen Zeitplan und Sie sind bereit zum Senden"
 
 
 >[!CONTEXTUALHELP]
