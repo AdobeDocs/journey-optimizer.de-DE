@@ -7,7 +7,7 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
+source-git-commit: 6bf20170e139fd1cf000a553ae677f35ba25cd6a
 workflow-type: tm+mt
 source-wordcount: '2352'
 ht-degree: 82%
@@ -152,19 +152,19 @@ Diese Anfragen werden nicht unterstützt und sollten über andere Tools verarbei
 
 Stellen Sie vor dem Generieren von Inhalten Folgendes sicher:
 
-&check; **Ziel löschen**: Gibt die Aktion, das Produkt/den Service, den Wert und den Kontext klar an.
+&amp;check; **Ziel löschen**: Gibt die Aktion, das Produkt/den Service, den Wert und den Kontext klar an.
 
-&check; **Zielgruppe definiert**: Gibt die demografische Zielgruppe, die Rolle oder das Segment an.
+&amp;check; **Zielgruppe definiert**: Gibt die demografische Zielgruppe, die Rolle oder das Segment an.
 
-&check; **Content type align**: Ziel entspricht dem ausgewählten Kanal oder Format.
+&amp;check; **Content type align**: Ziel entspricht dem ausgewählten Kanal oder Format.
 
-&check; **Dropdown-Auswahl konfiguriert**: Tonwert, Strategie und Gebietsschema ausgewählt sind, schließen Sie diese nicht in die Eingabeaufforderung ein.
+&amp;check; **Dropdown-Auswahl konfiguriert**: Tonwert, Strategie und Gebietsschema ausgewählt sind, schließen Sie diese nicht in die Eingabeaufforderung ein.
 
-&check; **Dokumentfokus angegeben**: Markiert die Inhalte oder Abschnitte, auf die verwiesen werden soll.
+&amp;check; **Dokumentfokus angegeben**: Markiert die Inhalte oder Abschnitte, auf die verwiesen werden soll.
 
-&check; **Marke angewendet**: Es werden die entsprechenden Markenrichtlinien ausgewählt.
+&amp;check; **Marke angewendet**: Es werden die entsprechenden Markenrichtlinien ausgewählt.
 
-&check; **Realistischer Umfang**: Vermeiden Sie Anforderungen an Layout-Änderungen, Stile oder strukturelle Bearbeitungen.
+&amp;check; **Realistischer Umfang**: Vermeiden Sie Anforderungen an Layout-Änderungen, Stile oder strukturelle Bearbeitungen.
 
 ## Formulieren effektiver Marketing-Ziele {#marketing-objectives}
 
@@ -174,11 +174,11 @@ Achten Sie bei der Formulierung von Marketing-Zielen darauf, dass diese klar, um
 
 **Beispiele für gute Ziele:**
 
-&check; „Fordern Sie die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards an“
+&amp;check; „Fordern Sie die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards an“
 
-&check; „Generieren Sie Leads für unser B2B-Webinar zum Thema „Reduzierung der Cloud-Kosten um 40 %&quot;, das am 15. März stattfindet“
+&amp;check; „Generieren Sie Leads für unser B2B-Webinar zum Thema „Reduzierung der Cloud-Kosten um 40 %&quot;, das am 15. März stattfindet“
 
-&check; „Werben Sie für unseren zeitlich begrenzten 25-%-Urlaubsrabatt auf Premium-Abonnements, der am 25. Dezember endet“
+&amp;check; „Werben Sie für unseren zeitlich begrenzten 25-%-Urlaubsrabatt auf Premium-Abonnements, der am 25. Dezember endet“
 
 **Beispiele zu vermeidender Formulierungen:**
 
@@ -195,11 +195,11 @@ Verwenden Sie diese Formel, um effektive Ziele zu formulieren: **Aktion + Produk
 
 **Beispiele für gute Ziele:**
 
-&check; „Ermutigen Sie Downloads unserer neuen mobilen App, die Benutzern hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
+&amp;check; „Ermutigen Sie Downloads unserer neuen mobilen App, die Benutzern hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
 
-&check; „Registrierung für unseren exklusiven Workshop zu fortgeschrittenen Datenvisualisierungstechniken für Marketing-Experten fördern“
+&amp;check; „Registrierung für unseren exklusiven Workshop zu fortgeschrittenen Datenvisualisierungstechniken für Marketing-Experten fördern“
 
-&check; „Ermöglichen Sie die Teilnahme an unserer Produkteinführung, bei der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
+&amp;check; „Ermöglichen Sie die Teilnahme an unserer Produkteinführung, bei der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
 
 **Beispiele zu vermeidender Formulierungen:**
 
