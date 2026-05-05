@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 89%
+source-wordcount: '1364'
+ht-degree: 86%
 
 ---
 
@@ -56,11 +56,11 @@ Eine eindeutige Tracking-Kennung (urlID) wird nur generiert, wenn sowohl **URL**
 Um dieselbe URL über mehrere E-Mails hinweg (oder mehrmals in einer E-Mail) zu verfolgen, verwenden Sie für jede ähnliche URL eine eindeutige Kennzeichnung. Andernfalls können [!DNL Journey Optimizer] nicht verfolgen, auf welchen Link geklickt wurde. Sie können in der E-Mail-Designer oder für HTML über das Attribut `data-label` unterschiedliche Kennzeichnungen festlegen.
 
 | URL | Tag | Label | urlID-Verhalten |
-|-----|-----|-------|----------------|
-| www.example.com | Erste/r | (leer) | Ruft eine urlID ab (z. B. A) |
-| www.example.com | Second | (leer) | Verwendet urlID A - kann nicht erkennen, auf welchen Link geklickt wurde |
-| www.example.com | Dritte/r | Erste Bezeichnung | Ruft eine urlID ab (z. B. B) |
-| www.example.com | Vierte | Zweite Bezeichnung | Ruft eine urlID ab (z. B. C) |
+| --- | --- | --- | --- |
+| `https://www.example.com` | Erste/r | (leer) | Ruft eine urlID ab (z. B. A) |
+| `https://www.example.com` | Second | (leer) | Verwendet urlID A - kann nicht erkennen, auf welchen Link geklickt wurde |
+| `https://www.example.com` | Dritte/r | Erste Bezeichnung | Ruft eine urlID ab (z. B. B) |
+| `https://www.example.com` | Vierte | Zweite Bezeichnung | Ruft eine urlID ab (z. B. C) |
 
 ## Links einfügen {#insert-links}
 
@@ -96,7 +96,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
    >
    >Zum Interpretieren von URLs hält sich [!DNL Journey Optimizer] an die URI-Syntax ([RFC 3986-Standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), sodass einige internationale Sonderzeichen in URLs unterbunden werden. Wenn beim Test- oder E-Mail-Versand ein Fehler im Zusammenhang mit einer URL zurückgegeben wird, die zu Ihrem Inhalt hinzugefügt wurde, können Sie für die Zeichenfolge eine URL-Codierung durchführen und so das Problem umgehen.
 
-1. Sie können Ihre Links personalisieren. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+1. Sie können Ihre Links personalisieren. [Weitere Informationen](url-personalization.md)
 
 1. Speichern Sie Ihre Änderungen.
 
@@ -199,26 +199,4 @@ Reporting zu Öffnungen und Klicks ist im [Live-Bericht](../reports/live-report.
 
 ## Personalisieren des URL-Trackings {#url-tracking}
 
-Das [URL-Tracking](email-settings.md#url-tracking) wird auf Konfigurationsebene verwaltet und gilt für alle im Nachrichteninhalt vorhandenen URLs.
-
-Sie können im E-Mail-Designer auch einzelne URLs personalisieren. Gehen Sie wie folgt vor, um einem Link in Ihrem Inhalt personalisierte URL-Tracking-Parameter hinzuzufügen.
-
-1. Wählen Sie einen Link aus und klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Link einfügen]**.
-
-1. Wählen Sie das Personalisierungssymbol aus. Das Personalisierungssymbol ist nur für folgende Arten von Links verfügbar: **externer Link**, **Abmelde-Link** und **Ausschluss-Link**.
-
-   ![](assets/message-tracking-insert-link-perso.png)
-
-1. Fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im [Personalisierungseditor](../personalization/personalization-build-expressions.md) das gewünschte Profilattribut aus.
-
-   ![](assets/message-tracking-perso-parameter.png)
-
-1. Speichern Sie Ihre Änderungen.
-
-1. Wiederholen Sie die obigen Schritte für jeden Link, dem Sie diesen Tracking-Parameter hinzufügen möchten.
-
-Wenn die E-Mail gesendet wird, wird dieser Parameter nun automatisch an das Ende der URL angehängt. Sie können diesen Parameter dann in Web-Analyse-Tools oder in Leistungsberichten erfassen.
-
->[!NOTE]
->
->Um die endgültige URL zu überprüfen, können Sie einen [Testversand durchführen](../content-management/proofs.md) und auf den Link im E-Mail-Inhalt klicken, sobald Sie die als Testversand vorgesehene Nachricht erhalten haben. Die URL sollte den Tracking-Parameter anzeigen. Im obigen Beispiel lautet die endgültige URL: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+Ausführliche Anleitungen zur URL-Personalisierung (einschließlich der Personalisierung von URL-Tracking-Parametern und der Personalisierung einer vollständigen/Basis-URL) finden Sie unter [URL-Personalisierung](url-personalization.md).
