@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 100%
+source-wordcount: '1106'
+ht-degree: 85%
 
 ---
 
@@ -129,8 +129,30 @@ Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 >
 >[Weitere Informationen zu den Leitlinien und Einschränkungen für Eignungsregeln](decisioning-guardrails.md#eligibility-rules)
 
+## KI-gestützte Regeloptimierung {#optimize}
+
+[!DNL Journey Optimizer] können automatisch Regeln analysieren und Vereinfachungen vorschlagen, die die ursprüngliche Logik beibehalten. Nur Regeln, deren PQL-Ausdruck größer als **2 KB** (UTF-8-kodiert) ist, sind zulässig. Kleinere Ausdrücke werden nicht analysiert. Wenn eine Vereinfachung gefunden wird, wird neben **[!UICONTROL Regel im Inventar ein roter]** Optimieren“ angezeigt.
+
+>[!NOTE]
+>
+>Die KI-gestützte Regeloptimierung stützt sich auf dieselben generativen KI-Funktionen wie **KI-Assistent** und verwendet dieselben Zugriffssteuerungen. Benutzern muss für die Ressource **[!UICONTROL KI-Assistent]** die Berechtigung **[!UICONTROL Inhalt generieren]** gewährt werden. Weitere Informationen finden Sie unter [Zugriff auf KI-Assistent](../content-management/gs-generative.md#generative-access).
+
+![](assets/decision-rules-ai.png)
+
+So optimieren Sie eine Regel:
+
+1. Klicken Sie im Regelinventar auf das rote Symbol neben dem Regelnamen.
+
+1. Das Fenster **[!UICONTROL Optimieren]** wird geöffnet, in dem der ursprüngliche PQL-Ausdruck zusammen mit der von KI vorgeschlagenen Version angezeigt wird.
+
+   ![](assets/decision-rules-ai-details.png)
+
+1. Um zu überprüfen, ob sich beide Ausdrücke identisch verhalten, klicken Sie auf **[!UICONTROL Optimierungsanalyse herunterladen (TSV)]**, um eine Datei herunterzuladen, die zeigt, wie simulierte Profile für jede Version ausgewertet werden.
+
+1. Wenn Sie zufrieden sind, klicken **[!UICONTROL auf]**, um den ursprünglichen Ausdruck durch den optimierten Ausdruck zu ersetzen.
+
 ## Anleitungsvideo {#video}
 
 Erfahren Sie, wie Sie in Adobe Journey Optimizer wiederverwendbare **Targeting-Regeln** erstellen, duplizieren und anwenden, um Kampagnen effizient auf der Grundlage von Kundenattributen wie Region, Sprache und Verhalten zu personalisieren. So sparen Sie Zeit und verbessern die Genauigkeit der Zielgruppe.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476136/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
