@@ -7,10 +7,10 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
 workflow-type: tm+mt
-source-wordcount: '2107'
-ht-degree: 99%
+source-wordcount: '2352'
+ht-degree: 82%
 
 ---
 
@@ -23,6 +23,36 @@ ht-degree: 99%
 
 Dieser Leitfaden hilft Ihnen, Ihre Anfragen zu strukturieren, Ihre Absichten klar und deutlich zu kommunizieren und sicherzustellen, dass die KI Nachrichten generiert, die auf Ihre Markenrichtlinien, Zielgruppenanforderungen und Kampagnenziele abgestimmt sind.
 Erfahren Sie, wie Sie effektive Prompts schreiben, mit denen der KI-Assistent hochwertige markenkonforme Marketing-Inhalte generieren kann, die auf Ihre Ziele abgestimmt sind.
+
+## Verwenden des Eingabeaufforderungs-Assistenten {#prompt-assistant}
+
+Der Eingabeaufforderungs-Assistent unterstützt Sie bei der Stärkung Ihrer Eingabeaufforderung, sodass die Inhaltserstellung weniger Hin- und Herwechseln erfordert. Aus dieser ersten Eingabe erhalten Sie möglicherweise Vorschläge, eine vorgeschlagene Neufassung, optionale Verbesserungen und klärende Fragen. Ihre Antworten verfeinern die Eingabeaufforderung, die zum Generieren des Inhalts verwendet wird.
+
+1. Öffnen Sie im Menü **[!UICONTROL KI]** Assistent“ **[!UICONTROL Eingabeaufforderungsassistent]**, um Ihre Eingabeaufforderung vor der Inhaltserstellung zu verfeinern.
+
+   ![](assets/prompt-assistant-1.png)
+
+1. Geben Sie Ihre Eingabeaufforderung ein. Vorschläge können nach dem Text inline und in einer Liste unten angezeigt werden. Klicken **[!UICONTROL auf „Probieren Sie]**&quot;, um die aktuelle Eingabeaufforderung durch diese Version zu ersetzen.
+
+   ![](assets/prompt-assistant-2.png)
+
+1. Klicken Sie **[!UICONTROL Eingabeaufforderung analysieren]**, wenn der Eingabeaufforderungsassistent Ihren Text überprüfen soll.
+
+1. Im Nachrichtenbereich werden Probleme oder Lücken zusammengefasst, die der Assistent in Ihrer Eingabeaufforderung gefunden hat. Wenn eine vorgeschlagene Neufassung angezeigt wird, überprüfen Sie sie und wenden Sie sie an, wenn Sie diese Formulierung benötigen.
+
+   ![](assets/prompt-assistant-3.png)
+
+1. Klärung von Fragen beantworten, um dem Assistenten den Kontext zu geben, den er braucht. Ihre Antworten werden in die verfeinerte Eingabeaufforderung integriert, die für die Generierung verwendet wird.
+
+   Klicken Sie **[!UICONTROL Kontext aktualisieren]** und anschließend erneut auf **[!UICONTROL Eingabeaufforderung analysieren]**, wenn Sie einen weiteren Durchlauf durchführen möchten.
+
+   ![](assets/prompt-assistant-4.png)
+
+1. Nachdem Sie das Feedback des Assistenten geprüft und mit Ihrer Eingabeaufforderung zufrieden sind, klicken Sie auf **[!UICONTROL Diese Eingabeaufforderung verwenden]**, um sie anzuwenden und mit der Inhaltserstellung fortzufahren.
+
+   ![](assets/prompt-assistant-5.png)
+
+Im Anschluss an diesen Workflow werden die Ziele und erforderlichen Details in der Eingabeaufforderung vor der Generierung festgelegt, wodurch die Relevanz verbessert und spätere Revisionen reduziert werden.
 
 ## Verwenden des CO-STAR-Frameworks {#costar-framework}
 
@@ -122,19 +152,19 @@ Diese Anfragen werden nicht unterstützt und sollten über andere Tools verarbei
 
 Stellen Sie vor dem Generieren von Inhalten Folgendes sicher:
 
-&check; **Klares Ziel**: Gibt die Aktion, das Produkt/den Service, den Wert und den Kontext klar an.
+&check; **Ziel löschen**: Gibt die Aktion, das Produkt/den Service, den Wert und den Kontext klar an.
 
-&check; **Zielgruppe definiert**: Gibt die Demografie, die Rolle oder das Segment an.
+&check; **Zielgruppe definiert**: Gibt die demografische Zielgruppe, die Rolle oder das Segment an.
 
-&check; **Inhaltstypen abgestimmt**: Ziel passt zum ausgewählten Kanal oder Format.
+&check; **Content type align**: Ziel entspricht dem ausgewählten Kanal oder Format.
 
-&check; **Dropdown-Auswahl konfiguriert**: Ton, Strategie und Gebietsschema sind ausgewählt, nicht im Prompt enthalten.
+&check; **Dropdown-Auswahl konfiguriert**: Tonwert, Strategie und Gebietsschema ausgewählt sind, schließen Sie diese nicht in die Eingabeaufforderung ein.
 
-&check; **Dokumentfokus festgelegt**: Hebt hervor, welche Inhalte oder Abschnitte referenziert werden.
+&check; **Dokumentfokus angegeben**: Markiert die Inhalte oder Abschnitte, auf die verwiesen werden soll.
 
-&check; **Marke angewendet**: Passende Markenrichtlinien sind ausgewählt.
+&check; **Marke angewendet**: Es werden die entsprechenden Markenrichtlinien ausgewählt.
 
-&check; **Realistischer Umfang**: Vermeiden Sie Anfragen nach Layout-Änderungen, Formatierungen oder Bearbeitungen der Struktur.
+&check; **Realistischer Umfang**: Vermeiden Sie Anforderungen an Layout-Änderungen, Stile oder strukturelle Bearbeitungen.
 
 ## Formulieren effektiver Marketing-Ziele {#marketing-objectives}
 
@@ -144,11 +174,11 @@ Achten Sie bei der Formulierung von Marketing-Zielen darauf, dass diese klar, um
 
 **Beispiele für gute Ziele:**
 
-&check; „Fördere die Anmeldungen bei unserer kostenlosen 30-tägigen Testversion des neuen KI-gestützten Analyse-Dashboards“
+&check; „Fordern Sie die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards an“
 
-&check; „Generiere Leads für unser B2B-Webinar zum Thema ,Reduzieren der Cloud-Kosten um 40 %‘, das am 15. März stattfindet“
+&check; „Generieren Sie Leads für unser B2B-Webinar zum Thema „Reduzierung der Cloud-Kosten um 40 %&quot;, das am 15. März stattfindet“
 
-&check; „Bewirb unseren zeitlich begrenzten Weihnachtsrabatt von 25 % auf Premium-Abonnements, der am 25. Dezember endet“
+&check; „Werben Sie für unseren zeitlich begrenzten 25-%-Urlaubsrabatt auf Premium-Abonnements, der am 25. Dezember endet“
 
 **Beispiele zu vermeidender Formulierungen:**
 
@@ -165,11 +195,11 @@ Verwenden Sie diese Formel, um effektive Ziele zu formulieren: **Aktion + Produk
 
 **Beispiele für gute Ziele:**
 
-&check; „Fordere zu Downloads unserer neuen App auf, die Benutzerinnen und Benutzern dabei hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
+&check; „Ermutigen Sie Downloads unserer neuen mobilen App, die Benutzern hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
 
-&check; „Bewirb die Anmeldung für unseren exklusiven Workshop über fortschrittliche Datenvisualisierungstechniken für Marketing-Fachleute“
+&check; „Registrierung für unseren exklusiven Workshop zu fortgeschrittenen Datenvisualisierungstechniken für Marketing-Experten fördern“
 
-&check; „Erhöhe die Teilnehmerzahl bei unserer Produkteinführungsveranstaltung, auf der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
+&check; „Ermöglichen Sie die Teilnahme an unserer Produkteinführung, bei der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
 
 **Beispiele zu vermeidender Formulierungen:**
 

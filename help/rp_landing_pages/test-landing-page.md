@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: Testen, Validieren, Genehmigen, Genehmigung, Qualitätssicherung, QS, Testprofile, Personalisierung, Rendering, Spam-Prüfung, Inhaltsexperiment, A/B-Test, Konflikterkennung, Testadressenliste, Testsendungen, Beispieldaten, Genehmigungs-Workflow, E-Mail-Test, Validierungs-Workflow
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 3409e7a17dc0bae3511e3e021e244a2fa74f99aa
 workflow-type: tm+mt
 source-wordcount: '2419'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
@@ -398,7 +398,7 @@ Machen Sie sich mit diesen wesentlichen Testkonzepten vertraut, um die Test- und
 
 Erfahren Sie, wie die Testfunktionen miteinander und mit Ihren übergeordneten Journey Optimizer-Workflows verbunden sind. In diesem Abschnitt werden Voraussetzungen, vor- und nachgelagerte Abhängigkeiten sowie gängige Funktionskombinationen beschrieben.
 
-+++**Voraussetzungen (vor dem Testen erforderlich)**
+### Voraussetzungen (vor dem Testen erforderlich)
 
 * Testprofile müssen vor der Verwendung des Testmodus oder der Inhaltsvorschau erstellt werden
 * Genehmigungsrichtlinien müssen konfiguriert sein, bevor etwas zur Genehmigung eingereicht wird
@@ -407,27 +407,21 @@ Erfahren Sie, wie die Testfunktionen miteinander und mit Ihren übergeordneten J
 * Die Journey muss sich im Entwurfsstatus befinden, damit der Testmodus verwendet werden kann
 * Für den Testmodus muss in der Journey ein Namespace konfiguriert sein
 
-+++
-
-+++**Wovon das Testen abhängt (vorgelagert)**
+### Worauf es beim Testen ankommt (Upstream)
 
 * Inhaltserstellung: Zu testende Kampagnen oder Journeys müssen vorhanden sein
 * Testprofile: Erforderlich für den Testmodus und die Vorschau von Inhalten
 * Genehmigungsrichtlinien: Für Genehmigungs-Workflows erforderlich
 * Konfiguration: Kanalkonfigurationen, E-Mail-Authentifizierung, Domain-Einstellungen
 
-+++
-
-+++**Was vom Testen abhängt (nachgelagert)**
+### Was von Tests abhängt (nachgelagert)
 
 * Aktivierung von Kampagnen und Journeys: Aktivierung ist erst nach Fehlerbehebung möglich
 * Veröffentlichung: Vor der Veröffentlichung kann eine Genehmigung erforderlich sein
 * Live-Monitoring: Überwachung und Reporting nach dem Launch
 * Optimierung: Verwendung von Testergebnissen zur Optimierung künftiger Kampagnen
 
-+++
-
-+++**Verwandte Funktionen**
+### Verwandte Funktionen
 
 * Testen + Genehmigungs-Workflows – Qualitätssicherungsprozess
 * Testen + Konflikterkennung – Vermeidung von übermäßig vielen Nachrichten an Kundinnen und Kunden
@@ -436,67 +430,51 @@ Erfahren Sie, wie die Testfunktionen miteinander und mit Ihren übergeordneten J
 * Testprofile + Personalisierung – Inhaltsvalidierung
 * Probelauf + Testmodus – Umfassende Journey-Validierung
 
-+++
-
-+++**Gängige Funktionskombinationen**
+### Häufige Funktionskombinationen
 
 * Inhaltstests: Testprofile + Beispieleingabedaten + Personalisierungs-Playground
 * E-Mail-Validierung: Rendering-Tests + Spam-Werte + Testprofile + Testsendungen
 * Journey-Validierung: Testmodus + Probelauf + Testprofile
 * Checkliste vor dem Launch: Alle technischen Tests + Konflikterkennung + Genehmigungs-Workflows
 
-+++
-
 >[!TAB Häufige Fragen]
 
-+++**F: Welche Tests sind vor dem Start einer Kampagne erforderlich?**
+### F: Welche Tests sind vor dem Start einer Kampagne erforderlich?
 
 **Minimum:** Inhaltsvorschau mit Testprofilen + Spam-Score-Prüfung (E-Mail)
 **Empfohlen:** + E-Mail-Rendering + Konflikterkennung + Genehmigungs-Workflow
 **Best Practice:** + Tests von Beispieleingabedaten + Testlisten + A/B-Experiment (bei Optimierung)
 
-+++
-
-+++**F: Wie teste ich die Personalisierung, ohne viele Testprofile zu erstellen?**
+### F.: Wie kann ich die Personalisierung testen, ohne viele Testprofile zu erstellen?
 
 **Primäre Lösung:** Verwenden von [Beispieleingabedaten](../using/test-approve/simulate-sample-input.md) mit CSV-/JSON-Dateien (unterstützt bis zu 30 Varianten)
 **Alternative:** Erstellen Sie 3-5 repräsentative [Testprofile](../using/audience/creating-test-profiles.md) die wichtige Segmente abdecken.
 **Lernwerkzeug:** Experimentieren Sie zuerst in [Personalisierungs-Playground](../using/personalization/personalize.md#playground)
 
-+++
-
-+++**F: Was ist der Unterschied zwischen Testmodus und Probelauf für Journeys?**
+### F: Was ist der Unterschied zwischen Testmodus und Probelauf für Journey?
 
 **Testmodus:** Sendet Testprofile durch die Journey, löst echte Aktionen aus und generiert Testnachrichten. Erfordert Entwurfs-Journey + Namespace.
 **Probelauf:** Verfolgt Ausführungspfade, ohne etwas zu senden. Funktioniert bei jedem Journey-Status. Keine Nachrichten gesendet, keine Aktionen ausgeführt.
 **Kombiniert verwenden:** Testmodus für Nachrichtentests + Probelauf für Logikvalidierung – für eine umfassende Abdeckung.
 
-+++
-
-+++**F: Kann ich Journeys im Produktionsstatus oder im Live-Status testen?**
+### F.: Kann ich Journey im Produktions-/Live-Status testen?
 
 **Testmodus:** Nein - nur Entwurfs-Journey
 **Probelauf:** Ja - funktioniert mit jedem Journey-Status
 **Inhaltsvorschau:** Ja - Sie können jederzeit eine Vorschau einzelner Nachrichten anzeigen.
 **Problemumgehung:** Duplizieren von Live-Journey zum Entwurf für die vollständige Testmodusvalidierung
 
-+++
-
-+++**F: Welche Testfunktionen erfordern externe Integrationen?**
+### F.: Welche Testfunktionen erfordern externe Integrationen?
 
 **E-Mail-Rendering:** erfordert Litmus-Integration (separate Lizenz)
 **Alle anderen:** In Journey Optimizer integriert, keine zusätzlichen Integrationen erforderlich
 **Hinweis:** Testprofile erfordern den Echtzeit-Kundenprofil-Service (enthalten)
 
-+++
-
-+++**F: Wie teste ich durch API ausgelöste Kampagnen?**
+### F.: Wie kann ich API-ausgelöste Kampagnen testen?
 
 **Option 1:** Verwenden [Kampagnensimulations-API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-„_blank“} für programmatische Tests
 **Option 2:** Vorschau des Inhalts mit Testprofilen in der Benutzeroberfläche
 **Option 3:** Testsendungen an Test-E-Mail-Adressen durchführen
 **Best Practice:** Alle drei für eine umfassende Validierung kombinieren
-
-+++
 
 >[!ENDTABS]

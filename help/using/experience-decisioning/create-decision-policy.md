@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2261'
 ht-degree: 62%
 
 ---
@@ -51,13 +51,11 @@ Um Ihren Kundinnen und Kunden das beste dynamische Angebot und Erlebnis zu biete
 
 Bearbeiten Sie den Inhalt Ihrer Nachricht und navigieren Sie zu den folgenden Registerkarten, um weitere Informationen zum Hinzufügen der Entscheidungsrichtlinie basierend auf dem ausgewählten Kanal zu erhalten.
 
->[!BEGINTABS]
-
->[!TAB Code-basiertes Erlebnis]
+### Für Code-basierte Erlebnisse
 
 Bei Code-basierten Erlebnissen können Sie eine neue Entscheidungsrichtlinie entweder mit dem **Code-Editor** oder dem Menü **Decisioning** im Eigenschaftenbereich hinzufügen.
 
-+++Hinzufügen einer Entscheidungsrichtlinie aus dem Code-Editor
++++ Hinzufügen einer Entscheidungsrichtlinie aus dem Code-Editor
 
 1. Öffnen Sie den Code-Editor mithilfe der Schaltfläche **[!UICONTROL Code bearbeiten]**.
 
@@ -67,7 +65,7 @@ Bei Code-basierten Erlebnissen können Sie eine neue Entscheidungsrichtlinie ent
 
 +++
 
-+++Hinzufügen einer Entscheidungsrichtlinie über das Menü Entscheidungsfindung .
++++ Hinzufügen einer Entscheidungsrichtlinie über das Menü Entscheidungsfindung .
 
 1. Klicken Sie auf das Symbol ![](assets/do-no-localize/decisioning-icon.png) im Bereich Eigenschaften , um auf das Menü **[!UICONTROL Entscheidung]** zuzugreifen.
 
@@ -77,7 +75,7 @@ Bei Code-basierten Erlebnissen können Sie eine neue Entscheidungsrichtlinie ent
 
 +++
 
->[!TAB E-Mail]
+### für E-Mail
 
 1. Schalten Sie die Option **[!UICONTROL Entscheidungsfindung aktivieren]** um.
 
@@ -89,7 +87,7 @@ Bei Code-basierten Erlebnissen können Sie eine neue Entscheidungsrichtlinie ent
 
 1. Fügen Sie eine neue Entscheidungsrichtlinie hinzu, indem Sie entweder den **Personalisierungseditor** oder das Menü **Entscheidung** verwenden, das im E-Mail-Designer verfügbar ist.
 
-   +++Hinzufügen einer Entscheidungsrichtlinie aus dem Personalization-Editor
+   +++ Hinzufügen einer Entscheidungsrichtlinie aus dem Personalization-Editor
 
    1. Öffnen Sie den Personalisierungseditor mithilfe des ![](assets/do-no-localize/editor-icon.svg)-Symbols im Feld Betreffzeile oder in einem beliebigen Feld im E-Mail-Textkörper, in dem Sie eine Personalisierung hinzufügen können.
 
@@ -99,7 +97,7 @@ Bei Code-basierten Erlebnissen können Sie eine neue Entscheidungsrichtlinie ent
 
    +++
 
-   +++Hinzufügen einer Entscheidungsrichtlinie über das Menü Entscheidungsfindung .
+   +++ Hinzufügen einer Entscheidungsrichtlinie über das Menü Entscheidungsfindung .
 
    1. Öffnen Sie die E-Mail-Designer und wählen Sie eine beliebige Komponente in der E-Mail-Struktur aus.
 
@@ -125,11 +123,11 @@ Sie können Entscheidungsrichtlinien auch hinzufügen, wenn Sie den Modus **[!UI
 >
 >Im Modus **[!UICONTROL Eigenen Code erstellen]** können Sie pro Richtlinie nur ein Entscheidungselement zurückgeben, da die Komponente **[!UICONTROL Raster wiederholen]** nicht verfügbar ist.
 
->[!TAB SMS]
+### Für SMS
 
 Für SMS können Sie eine neue Entscheidungsrichtlinie entweder über den **Personalisierungseditor** oder das Menü **Decisioning** im Eigenschaftenbereich hinzufügen.
 
-+++Hinzufügen einer Entscheidungsrichtlinie aus dem Personalisierungseditor
++++ Hinzufügen einer Entscheidungsrichtlinie aus dem Personalisierungseditor
 
 1. Öffnen Sie den Personalisierungseditor mithilfe des ![](assets/do-no-localize/editor-icon.svg).
 1. Navigieren Sie zum Menü **[!UICONTROL Entscheidungsrichtlinien]** und klicken Sie auf die Schaltfläche **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
@@ -138,7 +136,7 @@ Für SMS können Sie eine neue Entscheidungsrichtlinie entweder über den **Pers
 
 +++
 
-+++Hinzufügen einer Entscheidungsrichtlinie über das Menü Entscheidungsfindung .
++++ Hinzufügen einer Entscheidungsrichtlinie über das Menü Entscheidungsfindung .
 
 1. Klicken Sie auf das Symbol ![](assets/do-no-localize/decisioning-icon.png) im Bereich Eigenschaften , um auf das Menü **[!UICONTROL Entscheidung]** zuzugreifen.
 
@@ -148,11 +146,11 @@ Für SMS können Sie eine neue Entscheidungsrichtlinie entweder über den **Pers
 
 +++
 
->[!TAB Push-Benachrichtigung]
+### Für Push-Benachrichtigungen
 
 Für Push-Benachrichtigungen können Sie eine neue Entscheidungsrichtlinie entweder über den **Personalisierungseditor** oder das Menü **Entscheidungsfindung** im Eigenschaftenbereich hinzufügen.
 
-+++Hinzufügen einer Entscheidungsrichtlinie aus dem Personalisierungseditor
++++ Hinzufügen einer Entscheidungsrichtlinie aus dem Personalisierungseditor
 
 1. Öffnen Sie den Personalisierungseditor mithilfe des ![](assets/do-no-localize/editor-icon.svg).
 1. Navigieren Sie zum Menü **[!UICONTROL Entscheidungsrichtlinien]** und klicken Sie auf die Schaltfläche **[!UICONTROL Entscheidungsrichtlinie hinzufügen]**.
@@ -161,7 +159,7 @@ Für Push-Benachrichtigungen können Sie eine neue Entscheidungsrichtlinie entwe
 
 +++
 
-+++Hinzufügen einer Entscheidungsrichtlinie über das Menü Entscheidungsfindung .
++++ Hinzufügen einer Entscheidungsrichtlinie über das Menü Entscheidungsfindung .
 
 1. Klicken Sie auf das Symbol ![](assets/do-no-localize/decisioning-icon.png) im Bereich Eigenschaften , um auf das Menü **[!UICONTROL Entscheidung]** zuzugreifen.
 
@@ -175,11 +173,9 @@ Für Push-Benachrichtigungen können Sie eine neue Entscheidungsrichtlinie entwe
 
 +++
 
->[!ENDTABS]
-
 ## Konfigurieren der Entscheidungsrichtlinie {#configure}
 
-Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, wird der Konfigurationsbildschirm für Entscheidungsrichtlinien geöffnet. Follow these steps to configure the decision policy:
+Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben, wird der Konfigurationsbildschirm für Entscheidungsrichtlinien geöffnet. Führen Sie die folgenden Schritte aus, um die Entscheidungsrichtlinie zu konfigurieren:
 
 1. Geben Sie einen Namen für die Entscheidungsrichtlinie an und wählen Sie einen Katalog aus (derzeit beschränkt auf den Standardkatalog **[!UICONTROL Angebote]**).
 
@@ -193,7 +189,7 @@ Nachdem Sie eine neue Entscheidungsrichtlinie zu Ihrem Inhalt hinzugefügt haben
 
    Um mehrere Elemente für den E-Mail-Kanal zurückzugeben, müssen Sie die Entscheidungsrichtlinie innerhalb einer **[!UICONTROL Wiederholungsraster]**-Komponente hinzufügen. Erweitern Sie den folgenden Abschnitt, um weitere Informationen zu erhalten:
 
-   +++Zurückgeben mehrerer Entscheidungselemente in E-Mails
+   +++ Zurückgeben mehrerer Entscheidungselemente in E-Mails
 
    1. Ziehen Sie eine Komponente vom Typ **[!UICONTROL Wiederholungsraster]** in Ihre E-Mail und konfigurieren Sie sie wie gewünscht mithilfe des Bereichs **[!UICONTROL Einstellungen]**.
 
@@ -274,11 +270,11 @@ Im Bereich **[!UICONTROL Strategiesequenz]** können Sie die Entscheidungselemen
 
      Angebote mit Strategie 1 und 2 werden gemeinsam ausgewertet (Angebot 1, Angebot 2, Angebot 3, Angebot 4, Angebot 5). Nehmen wir an, das Ergebnis lautet:
 
-     Offer 1 - 10
-Offer 2 - 20
+     Angebot 1 - 10
+Angebot 2 - 20
 Angebot 3 - 30 aus Strategie 1, 45 aus Strategie 2. Der höchste Wert von beiden wird berücksichtigt, also 45.
-Offer 4 - 40
-Offer 5 - 50
+Angebot 4 - 40
+Angebot 5 - 50
 
      Die Rangfolge der Angebote lautet nun wie folgt: Angebot 5, Angebot 3, Angebot 4, Angebot 2, Angebot 1.
 
@@ -312,7 +308,7 @@ Nachdem Sie eine Auswahlstrategie konfiguriert und Fallback-Angebote hinzugefüg
 
 >[!IMPORTANT]
 >
->Once a decision policy is created, any changes made to it can take up to 15 minutes to propagate across all data regions, and up to 30 minutes for Canada. Dazu gehören Änderungen, z. B. das Hinzufügen eines neuen Entscheidungselements zu einer Sammlung, das Ändern einer Regel in einem Element, das Ändern des Elementinhalts oder das Aktualisieren einer Formel.
+>Nachdem eine Entscheidungsrichtlinie erstellt wurde, kann es bis zu 15 Minuten dauern, bis Änderungen an ihr in allen Datenregionen propagiert werden, und bis zu 30 Minuten für Kanada. Dazu gehören Änderungen, z. B. das Hinzufügen eines neuen Entscheidungselements zu einer Sammlung, das Ändern einer Regel in einem Element, das Ändern des Elementinhalts oder das Aktualisieren einer Formel.
 
 Sie können eine Entscheidungsrichtlinie jederzeit mithilfe der Schaltfläche mit den Auslassungspunkten im Personalisierungseditor oder im Menü **[!UICONTROL Entscheidungsfindung]** im Bereich der Komponenteneigenschaften bearbeiten oder löschen.
 
@@ -322,7 +318,7 @@ Sie können eine Entscheidungsrichtlinie jederzeit mithilfe der Schaltfläche mi
 
 ![](assets/decision-policy-edit.png)
 
->[!TAB Edit or delete a policy from the Decisioning menu]
+>[!TAB Bearbeiten oder Löschen einer Richtlinie aus dem Menü Entscheidung]
 
 ![](assets/decision-policy-edit-properties.png)
 
@@ -336,6 +332,6 @@ Für E-Mails müssen Sie eine Platzierung für die Komponente definieren, die mi
 
 ## Nächste Schritte {#next-steps}
 
-Now that you understand how to create a decision policy, you&#39;re ready to use it into [!DNL Journey Optimizer] channels to deliver offers.
+Nachdem Sie nun wissen, wie Sie eine Entscheidungsrichtlinie erstellen, können Sie sie in [!DNL Journey Optimizer] Kanälen verwenden, um Angebote zu unterbreiten.
 
 ➡️ [Informationen zum Verwenden von Entscheidungsrichtlinien in Nachrichten](../experience-decisioning/use-decision-policy.md)
