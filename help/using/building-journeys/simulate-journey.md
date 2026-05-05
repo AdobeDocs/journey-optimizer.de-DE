@@ -10,7 +10,7 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 51a8ad000bbb485852d6e3daee13a7c1852123fc
+source-git-commit: b858b41cf65ed28e229938102e0f44b369180da8
 workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 4%
