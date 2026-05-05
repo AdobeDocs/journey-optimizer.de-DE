@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 98%
+source-wordcount: '1532'
+ht-degree: 95%
 
 ---
 
@@ -46,48 +46,21 @@ Sie kann auch in anderen Abschnitten Ihres Contents hinzugefügt werden. Zum Bei
 
 +++E-Mail-Designer
 
-Beim Bearbeiten von E-Mail-Content im [E-Mail-Designer](../email/get-started-email-design.md) können Sie mithilfe des Symbols in der kontextuellen Symbolleiste Personalisierungen in Textblöcken und in URLs hinzufügen.
+Beim Bearbeiten von E-Mail[Inhalten in der E-Mail](../email/get-started-email-design.md)Designer können Sie mithilfe des Symbols in der kontextuellen Symbolleiste eine Personalisierung in den meisten Textelementen hinzufügen.
 
 ![](assets/perso_insert.png)
 
 +++
 
-+++Angebote
-
-Sie können eine Personalisierung hinzufügen, wenn Sie Textinhalte in Ihren **Angebotsdarstellungen** verwenden. [Informationen zum Erstellen von personalisierten Angeboten](../offers/offer-library/creating-personalized-offers.md)
-
-+++
-
 +++URLs
 
-Mit Journey Optimizer können Sie auch **URLs** in Ihrer Nachricht personalisieren.  Personalisierte URLs führen Empfangende je nach den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. Die Personalisierung von URLs ist für diese Link-Typen verfügbar: **Externer Link**, **Abmelde-Link** und **Ausschluss**.
-
-Beispiele für personalisierte URLs:
-
-* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
-* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
-* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
-* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+Mit Journey Optimizer können Sie auch **URLs** in Ihren Nachrichten personalisieren. Personalisierte URLs führen Empfangende je nach den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. [Weitere Informationen](../email/url-personalization.md)
 
 ![](assets/perso-url.png){width="50%"}
 
 >[!NOTE]
 >
->Beim Bearbeiten einer personalisierten URL im Personalisierungseditor werden Hilfsfunktionen und die Zielgruppenzugehörigkeit aus Sicherheitsgründen deaktiviert.
->
->Leerzeichen werden in den Personalisierungs-Token, die in URLs verwendet werden, nicht unterstützt.
-
-Journey Optimizer unterstützt auch die vollständige/Basis-URL-Personalisierung. Beispiel:
-
-```
-<a href="{{profile.social.link}}" />
-<a href="{{profile.social.baseUrl}}/profile" />
-<a href="https://{{profile.social.baseUrl}}/profile" />
-```
-
->[!NOTE]
->
->Um die vollständige oder Basis-URL-Personalisierung zu aktivieren, wenden Sie sich an Adobe und geben Sie Ihre Liste der zulässigen Domains an.
+>Die Personalisierung von URLs ist für diese Link-Typen verfügbar: **Externer Link**, **Abmelde-Link** und **Ausschluss**.
 
 +++
 
@@ -97,15 +70,21 @@ Beim Erstellen einer E-Mail-Kanalkonfiguration können Sie personalisierte Werte
 
 +++
 
++++Angebote
+
+Sie können eine Personalisierung hinzufügen, wenn Sie Textinhalte in Ihren **Angebotsdarstellungen** verwenden. [Informationen zum Erstellen von personalisierten Angeboten](../offers/offer-library/creating-personalized-offers.md)
+
++++
+
 ## Personalisierungsquellen {#sources}
 
 Im Navigationsbereich können Sie die Quelle für die Personalisierung auswählen. Verfügbare Quellen sind:
 
 * **[!UICONTROL Profilattribute]**: Listet alle Verweise auf, die mit dem Profilschema verknüpft sind, wie in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"} beschrieben.
 * **[!UICONTROL Zielattribute]**: Dieser Ordner ist spezifisch für orchestrierte Kampagnen. Er enthält Attribute, die direkt auf der Kampagnen-Arbeitsfläche berechnet werden. [Informationen zum Hinzufügen von Personalisierungen in orchestrierten Kampagnen](../orchestrated/activities/channels.md#add-personalization)
-* **[!UICONTROL Zielgruppen]**: Listet alle im Segmentierungs-Service von Adobe Experience Platform erstellten Zielgruppen auf. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
+* **[!UICONTROL Zielgruppen]**: Listet alle im Segmentierungs-Service von Adobe Experience Platform erstellten Zielgruppen auf. Weitere Informationen finden Sie in der Dokumentation zur [Adobe Experience Platform-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
 * **[!UICONTROL Angebotsentscheidungen]**: Listet alle Angebote auf, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebote in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../offers/get-started/starting-offer-decisioning.md).
-* **[!UICONTROL Kontextattribute]**: Wenn eine Kanalaktionsaktivität (E-Mail, Push, SMS) in einer Journey oder Kampagne verwendet wird, stehen für die Personalisierung Kontextattribute im Zusammenhang mit Ereignissen und Eigenschaften zur Verfügung. Ein Beispiel für die Personalisierung mit kontextuellen Attributen finden Sie in [diesem Abschnitt](personalization-use-case.md). Darüber hinaus können Antworten benutzerdefinierter Aktionen für die Personalisierung verwendet werden. [Erfahren Sie, wie Sie Antworten benutzerdefinierter Aktionen in nativen Kanälen verwenden &#x200B;](../action/action-response.md#response-in-channels).
+* **[!UICONTROL Kontextattribute]**: Wenn eine Kanalaktionsaktivität (E-Mail, Push, SMS) in einer Journey oder Kampagne verwendet wird, stehen für die Personalisierung Kontextattribute im Zusammenhang mit Ereignissen und Eigenschaften zur Verfügung. Ein Beispiel für die Personalisierung mit kontextuellen Attributen finden Sie in [diesem Abschnitt](personalization-use-case.md). Darüber hinaus können Antworten benutzerdefinierter Aktionen für die Personalisierung verwendet werden. [Erfahren Sie, wie Sie Antworten benutzerdefinierter Aktionen in nativen Kanälen verwenden ](../action/action-response.md#response-in-channels).
 
 >[!NOTE]
 >
@@ -151,7 +130,7 @@ Verfügbare Optionen sind:
    ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"}
 
 1. **[!UICONTROL HTML]**/**[!UICONTROL JSON]**/**[!UICONTROL Text]**: Identifizieren Sie das Format Ihres Codes. Dadurch kann das System die Funktion zur Validierung und automatischen Vervollständigung basierend auf der ausgewählten Sprache anpassen.
-1. **[!UICONTROL Validieren]**: Überprüfen Sie die Syntax Ihres Ausdrucks. Weiterführende Informationen finden Sie in diesem [Abschnitt](../personalization/personalization-build-expressions.md).
+1. **[!UICONTROL Validieren]**: Überprüfen Sie die Syntax Ihres Ausdrucks. Weiterführende Informationen finden Sie in [diesem Abschnitt](../personalization/personalization-build-expressions.md).
 1. **[!UICONTROL Als Fragment speichern]**: Speichern Sie Ihren Ausdruck als Ausdrucksfragment. Weiterführende Informationen finden Sie in [diesem Abschnitt](../content-management/save-fragments.md#save-as-expression-fragment).
 1. **[!UICONTROL Schriftgrad]**: Passt den Schriftgrad für den Content im Editor an, um die Lesbarkeit zu verbessern.
 1. **[!UICONTROL Zeilenumbruch]**: Aktiviert oder deaktiviert den Zeilenumbruch, sodass lange Ausdrücke in einer einzelnen Zeile angezeigt oder im Editor umgebrochen werden können. Zu den Optionen gehören:
@@ -175,9 +154,9 @@ Im Navigationsbereich stehen zusätzliche Funktionen zur Verfügung, mit denen S
 
 * **[!UICONTROL Bedingungen]**: Nutzen Sie die in der Bibliothek erstellten bedingten Regeln, um dynamischen Content in Ihre Nachrichten einzufügen. Auf diese Weise können Sie basierend auf Bedingungen mehrere Varianten Ihrer Nachricht erstellen. [Informationen zum Erstellen von dynamischem Content](../personalization/get-started-dynamic-content.md)
 
-* **[!UICONTROL Fragmente]**: Nutzen Sie Ausdrucksfragmente, die in der aktuellen Sandbox erstellt oder gespeichert wurden. Ein Fragment ist eine wiederverwendbare Komponente, die in [!DNL Journey Optimizer]-Kampagnen und -Journeys referenziert werden kann. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Fachleute Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können.  [Informationen zur Verwendung von Ausdrucksfragmenten](../personalization/use-expression-fragments.md)
+* **[!UICONTROL Fragmente]**: Nutzen Sie Ausdrucksfragmente, die in der aktuellen Sandbox erstellt oder gespeichert wurden. Ein Fragment ist eine wiederverwendbare Komponente, die in [!DNL Journey Optimizer]-Kampagnen und -Journeys referenziert werden kann. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Fachleute Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können. [Informationen zur Verwendung von Ausdrucksfragmenten](../personalization/use-expression-fragments.md)
 
-Wenn Ihr Personalisierungsausdruck fertig ist, müssen Sie ihn vom Personalisierungseditor validieren lassen.  Weiterführende Informationen finden Sie in [diesem Abschnitt](../personalization/personalization-build-expressions.md).
+Wenn Ihr Personalisierungsausdruck fertig ist, müssen Sie ihn vom Personalisierungseditor validieren lassen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../personalization/personalization-build-expressions.md).
 
 ## Mechanismen der Validierung {#validation-mechanisms}
 
@@ -272,10 +251,10 @@ Ressource mit der ID activityID und dem Typ OfferActivity nicht gefunden<br/></t
   </tr>
   <tr> 
    <td>Angebotsattribut – Das Angebotsattribut ist ungültig.</td> 
-   <td>Überprüfen Sie, ob das Angebotsattribut, auf das in der Angebots-Dropdown-Liste verwiesen wird, gültig ist. Folgende Attribute sind gültig: <br/>
+   <td>Überprüfen Sie, ob das Angebotsattribut, auf das in der Angebots-Dropdown-Liste verwiesen wird, gültig ist. Im Folgenden finden Sie die gültigen Attribute: <br/>
 Bild: deliveryURL, linkURL<br/>
 Text: content<br/>
-HTML: content<br/></td> 
+HTML: Inhalt<br/></td> 
   </tr> 
  </tbody> 
 </table>
