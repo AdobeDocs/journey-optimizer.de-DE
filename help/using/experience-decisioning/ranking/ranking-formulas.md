@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '1459'
-ht-degree: 95%
+source-wordcount: '1731'
+ht-degree: 64%
 
 ---
 
-# Verwenden des KI-Formel-Builder {#create-ranking-formulas}
+# Erstellen von Ranglistenformeln {#create-ranking-formulas}
 
 **Rangfolgeformeln** ermöglichen es Ihnen, Regeln zu definieren, die bestimmen, welches Angebot zuerst unterbreitet werden soll, anstatt die Prioritätswerte zu berücksichtigen.
 
@@ -26,7 +26,18 @@ Sobald eine Rangfolgenformel erstellt wurde, können Sie diese einer [Auswahlstr
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
-## Erstellen einer Rangfolgenformel {#create-ranking-formula}
+## Leitlinien und Einschränkungen {#ranking-guardrails}
+
+Beachten Sie vor dem Erstellen von Rangfolgeformeln die folgenden Einschränkungen:
+
+* Der KI-Formel-Builder unterstützt keine [personalisierten Optimierungsmodelle](personalized-optimization-model.md) die kontinuierliche Metriken verwenden.
+* Wenn ein KI-Modell in einer Rangfolgenformel verwendet wird, werden die Daten nicht im Bericht [Konversionsrate für Holdout- und modellgesteuerten Traffic](../../reports/campaign-global-report-cja-code.md#conversion-rate) angezeigt.
+* Die Verschachtelungstiefe in einer Rangfolgenformel ist auf 30 Ebenen begrenzt, gemessen durch die Zählung von `)` in der PQL-Zeichenfolge.
+* Eine Zeichenfolge der Rangfolgeformeln kann für UTF-8-codierte Zeichen bis zu 8 KB groß sein (8.000 ASCII-Zeichen oder 2.000-4.000 Nicht-ASCII-Zeichen).
+* Lookback-Zeiträume werden in Rangfolgeformeln (z. B. Erlebnisereignisse aus dem letzten Monat) nicht unterstützt. Beim Versuch, solche Formeln zu speichern, ist ein Trigger aufgetreten.
+* [KI-gestützte Formeloptimierung](#optimize) gilt nur für Rangfolgenformeln, deren codebasierter PQL-Ausdruck größer als **2 KB** in UTF-8-codierter Größe ist. Kleinere Formeln werden nicht analysiert.
+
+## Rangfolgenformel erstellen und Eigenschaften festlegen {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
@@ -45,54 +56,38 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen:
 
    ![](../assets/create-formula.png){width="80%"}
 
-1. Klicken Sie optional auf **[!UICONTROL KI-Modell auswählen]**, um das Modell festzulegen, das als Referenz zur Erstellung der Rangfolgenformel verwendet wird. 
-
-   >[!NOTE]
-   >
-   >[Personalisierte Optimierungsmodelle](personalized-optimization-model.md), die kontinuierliche Metriken verwenden, werden vom KI-Formel-Builder nicht unterstützt.
+1. Klicken Sie optional auf **[!UICONTROL KI-Modell auswählen]**, um das Modell festzulegen, das als Referenz zur Erstellung der Rangfolgenformel verwendet wird.
 
    Jedes Mal, wenn Sie bei der Definition Ihrer unten stehenden Formel auf eine Modellbewertung verweisen, wird das von Ihnen ausgewählte KI-Modell verwendet.
 
-   >[!CAUTION]
-   >
-   >Wenn Sie ein KI-Modell verwenden, das in eine Rangfolgenformel integriert ist, werden Daten nicht im Bericht [Konversionsrate für Holdout und modellgesteuerten Traffic](../../reports/campaign-global-report-cja-code.md#conversion-rate) angezeigt.
-
 1. Definieren Sie die Bedingungen, die den Rangfolgewert für die übereinstimmenden Entscheidungselemente bestimmen. Sie haben folgende Möglichkeiten:
 
-   * Füllen Sie den Abschnitt **[!UICONTROL Kriterien]** über die [Benutzeroberfläche](#ranking-select-criteria) aus,
-   * oder wechseln Sie zum [Code-Editor](#ranking-code-editor).
+   * Füllen Sie den Abschnitt **[!UICONTROL Kriterien]** mit dem [Formel-Builder](#ranking-select-criteria) aus und/oder
+   * Klicken Sie **[!UICONTROL Zum Code-Editor wechseln]**, um die Rangfolgelogik mit [PQL im Code-Editor zu definieren oder &#x200B;](#ranking-code-editor).
 
-   >[!NOTE]
-   >
-   >Die Verschachtelungstiefe in einer Rangfolgenformel ist auf 30  Ebenen beschränkt. Diese wird durch Zählen der schließenden Klammern `)` in der PQL-Zeichenfolge gemessen. Eine Regelzeichenfolge kann für UTF-8-kodierte Zeichen bis zu 8 KB groß sein. Dies entspricht 8.000 ASCII-Zeichen (jeweils 1 Byte) oder 2.000 bis 4.000 Nicht-ASCII-Zeichen (jeweils 2 bis 4 Byte). [Weitere Informationen zu den Leitlinien und Einschränkungen für die Entscheidungsfindung](../decisioning-guardrails.md#ranking-formulas)
+## Verwenden von Adobe Experience Platform-Daten {#aep-data}
 
-1. Sie können auch Daten aus Adobe Experience Platform verwenden, um die Rangfolgenlogik dynamisch anzupassen und so reale Bedingungen widerzuspiegeln. Dies ist besonders nützlich bei Attributen, die sich häufig ändern, z. B. Produktverfügbarkeit oder Echtzeitpreise. [Informationen zum Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../aep-data-exd.md)
+Im Abschnitt **[!UICONTROL Datensatzsuche]** können Sie Daten aus Adobe Experience Platform verwenden, um die Rangfolgelogik dynamisch anzupassen, um reale Bedingungen widerzuspiegeln.
 
-<!--
-## Select an ELS dataset {#els-dataset}
+Dies ist besonders nützlich bei Attributen, die sich häufig ändern, z. B. Produktverfügbarkeit oder Echtzeitpreise. [Informationen zum Verwenden von Adobe Experience Platform-Daten für die Entscheidungsfindung](../aep-data-exd.md)
 
-Journey Optimizer allows you to leverage data from Adobe Experience Platform. [Learn more](../data/aep-data-perso.md)
-
-To leverage data from an AEP dataset, follow the steps below.
-
-1. From the **[!UICONTROL ELS settings]** section, select an ELS dataset from the list.
-
-1. Select a decision attribute.
-
-    >[!NOTE]
-    >
-    >This action is mandatory.
-
-![](../assets/formula-els-settings.png){width="80%"}
--->
+![](../assets/ranking-formula-dataset.png)
 
 ## Definieren von Kriterien mithilfe des Formel-Builders {#ranking-select-criteria}
 
+Definieren Sie **Kriterien** die den Rangfolgenwert für die übereinstimmenden Entscheidungselemente bestimmen.
+
 Mit einer intuitiven Benutzeroberfläche können Sie durch die Anpassung von KI-Bewertungen (Tendenz), Angebotswert (Priorität), kontextuellen Hebeln und externen Profiltendenzen die Entscheidungsfindung einzeln oder in Kombination verfeinern, um jede Interaktion zu optimieren. <!--Whether you are maximizing revenue, promoting strategic offers, or balancing business goals with real-time context, the formula builder gives you total control in defining ranking strategies.-->
 
-Gehen Sie wie folgt vor, um Kriterien direkt über die Benutzeroberfläche zu definieren.
-
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
+
+1. Klicken Sie bei Bedarf auf **[!UICONTROL Zum Code-Editor wechseln]**, um einen Ausdruck hinzuzufügen, der die **PQL-Syntax**. Diese Option ergänzt die Felder in der Benutzeroberfläche in den folgenden Schritten, sodass Sie beide Ansätze in derselben Rangfolgenformel kombinieren können. Weitere Informationen zur Verwendung der PQL-Syntax finden Sie in der [&#x200B; Dokumentation &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview). Die Syntax für Entscheidungselementattribute und Beispiele für das Kopieren und Einfügen finden Sie im Abschnitt [Verwenden des Code-Editors](#ranking-code-editor) .
+
+   ![](../assets/ranking-formula-code-editor-button.png)
+
+   >[!NOTE]
+   >
+   >Durch den Wechsel zum Code-Editor werden Ihre Kriterien um ausdrucksbasierte Eingaben erweitert und die anderen Felder der Benutzeroberfläche werden nicht entfernt.
 
 1. Geben Sie im Abschnitt **[!UICONTROL Kriterium 1]** die Entscheidungselemente an, auf die Sie einen Rangfolgenwert anwenden möchten, indem Sie Folgendes durchführen:
    * Wählen Sie ein [Entscheidungselement-Attribut](../items.md#attributes)
@@ -129,33 +124,33 @@ Gehen Sie wie folgt vor, um Kriterien direkt über die Benutzeroberfläche zu de
 
    ![](../assets/ranking-formula-criteria-not-met.png){width="70%"}
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**, um Ihre Rangfolgenformel fertigzustellen. Sie können sie jetzt aus der Liste auswählen, um ihre Details anzuzeigen und sie zu bearbeiten oder zu löschen. Sie kann in einer [Auswahlstrategie](../selection-strategies.md) verwendet werden, um die geeigneten Entscheidungselemente in einer Rangfolge zu ordnen.
+   +++Beispiel für Rangfolgenformeln
 
-### Beispiel für Rangfolgenformeln {#ranking-formula-example}
+   ![](../assets/ranking-formula-example.png){width="80%"}
 
-Siehe das Beispiel unten:
+   Wenn die Region des Entscheidungselements (benutzerdefiniertes Attribut) gleich dem geografischen Label des Profils (Profilattribut) ist, wird der hier ausgedrückte Rangfolgenwert (eine Kombination aus der Priorität des Entscheidungselements, dem Wert des KI-Modells und einem statischen Wert) auf alle Entscheidungselemente angewendet, die diese Bedingung erfüllen.
 
-![](../assets/ranking-formula-example.png){width="80%"}
+   +++
 
-Wenn die Region des Entscheidungselements (benutzerdefiniertes Attribut) gleich dem geografischen Label des Profils (Profilattribut) ist, wird der hier ausgedrückte Rangfolgenwert (eine Kombination aus der Priorität des Entscheidungselements, dem Wert des KI-Modells und einem statischen Wert) auf alle Entscheidungselemente angewendet, die diese Bedingung erfüllen.
+1. Wenn Ihre Formel fertig ist, klicken Sie auf **[!UICONTROL Erstellen]**.
 
-## Verwenden des Code-Editors {#ranking-code-editor}
+Sie können jetzt über die Liste auf die Rangfolgenformel zugreifen, um ihre Details anzuzeigen und sie zu bearbeiten oder zu löschen. Sie kann in einer [Auswahlstrategie](../selection-strategies.md) verwendet werden, um die geeigneten Entscheidungselemente in einer Rangfolge zu ordnen.
 
-Um Rangfolgenformeln in der **PQL-Syntax** auszudrücken, wechseln Sie mithilfe der entsprechenden Schaltfläche oben rechts auf dem Bildschirm zum Code-Editor. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview).
+## Definieren von Kriterien mit dem Code-Editor {#ranking-code-editor}
 
->[!CAUTION]
+Verwenden Sie **[!UICONTROL Zum Code-Editor wechseln]** wenn Sie eine Rangfolgelogik als **PQL-Ausdruck schreiben** bearbeiten möchten.
+
+![](../assets/ranking-formula-switch.png)
+
+>[!NOTE]
 >
 >Diese Aktion verhindert ein Zurückkehren zur Standard-Builder-Ansicht für diese Formel.
 
-Anschließend können Sie Profilattribute, [Kontextdaten](../context-data.md) und [Entscheidungselement-Attribute](../items.md#attributes) nutzen.
+Sie können Profilattribute, [Kontextdaten](../context-data.md) und [Entscheidungselementattribute](../items.md#attributes) nutzen.
 
-Sie möchten zum Beispiel die Priorität aller Angebote durch Hinzufügen des Attributs „heiß“ erhöhen, wenn das Wetter heiß ist. Zu diesem Zweck wurde **contextData.weather=hot** im Entscheidungsaufruf übergeben. <!--[Learn how to work with context data](context-data.md)-->
+Sie möchten zum Beispiel die Priorität aller Angebote durch Hinzufügen des Attributs „heiß“ erhöhen, wenn das Wetter heiß ist. Zu diesem Zweck wurde **contextData.weather=hot** im Entscheidungsaufruf übergeben.
 
 ![](../assets/ranking-formula-code-editor.png){width="80%"}
-
->[!IMPORTANT]
->
->Beim Erstellen einer Rangfolgenformel wird ein Rückblick auf einen früheren Zeitraum nicht unterstützt, z. B. das Hinzufügen eines Erlebnisereignisses, das innerhalb des letzten Monats stattgefunden hat, als Komponente der Formel. Bei jedem Versuch, einen Rückblick-Zeitraum während der Formelerstellung einzubeziehen, wird beim Speichern ein Fehler ausgelöst.
 
 Um Attribute im Zusammenhang mit Ihren Entscheidungselementen in Formeln zu nutzen, stellen Sie sicher, dass Sie die korrekte Syntax im Code Ihrer Rangfolgenformel befolgen. Erweitern Sie jeden Abschnitt, um weitere Informationen zu erhalten:
 
@@ -171,9 +166,7 @@ Um Attribute im Zusammenhang mit Ihren Entscheidungselementen in Formeln zu nutz
 
 +++
 
-### Beispiele für Rangfolgenformel-PQLs {#ranking-formula-examples}
-
-Sie können je nach Bedarf viele verschiedene Rangfolgeformeln erstellen. Im Folgenden finden Sie einige Beispiele.
+Sie können je nach Bedarf viele verschiedene Code-basierte Rangfolgeformeln erstellen. Im Folgenden finden Sie einige Beispiele.
 
 +++Verstärken von Angeboten mit bestimmten Angebotsattributen auf der Grundlage von Profilattributen
 
@@ -245,7 +238,7 @@ Was die Formel bewirkt:
 
 +++Verstärken von Angeboten basierend auf Kontextdaten
 
-Mit [!DNL Journey Optimizer] können Sie bestimmte Angebote basierend auf Kontextdaten verstärken, die beim Entscheidungsaufruf übergeben werden. Wenn beispielsweise `contextData.weather=hot` übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden.
+Mit [!DNL Journey Optimizer] können Sie bestimmte Angebote basierend auf Kontextdaten verstärken, die beim Entscheidungsaufruf übergeben werden. Wenn beispielsweise `contextData.weather=hot` im Entscheidungsaufruf übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden.
 
 >[!NOTE]
 >
@@ -276,6 +269,28 @@ Beachten Sie, dass bei Verwendung des **Decisioning**-API die Kontextdaten zum P
 ```
 
 +++
+
+## KI-gestützte Formeloptimierung {#optimize}
+
+[!DNL Journey Optimizer] können Rangfolgeformeln automatisch analysieren und Vereinfachungen vorschlagen, die die ursprüngliche Logik beibehalten. Nur Formeln, deren PQL-Ausdruck größer als **2 KB** (UTF-8-kodiert) ist, sind zulässig. Kleinere Ausdrücke werden nicht analysiert. Wenn eine Vereinfachung gefunden wird, wird in der Liste neben dem Formelnamen ein roter Indikator angezeigt.
+
+![](../assets/ranking-formula-ai.png)
+
+>[!NOTE]
+>
+>Die KI-gestützte Formeloptimierung stützt sich auf dieselben generativen KI-Funktionen wie **KI-Assistent** und verwendet dieselben Zugriffssteuerungen. Benutzern muss für die Ressource **[!UICONTROL KI-Assistent]** die Berechtigung **[!UICONTROL Inhalt generieren]** gewährt werden. Weitere Informationen finden Sie unter [Zugriff auf KI-Assistent](../../content-management/gs-generative.md#generative-access).
+
+So optimieren Sie eine Rangfolgenformel:
+
+1. Klicken Sie in der Liste der Rangfolgeformeln auf das rote Symbol neben dem Namen der Formel.
+
+1. Das Fenster **[!UICONTROL Optimieren]** wird geöffnet, in dem der ursprüngliche PQL-Ausdruck zusammen mit der von KI vorgeschlagenen Version angezeigt wird.
+
+   ![](../assets/ranking-formula-ai-details.png)
+
+1. Um zu überprüfen, ob beide Ausdrücke identische Ranking-Ergebnisse liefern, klicken Sie auf **[!UICONTROL Optimierungsanalyse herunterladen (TSV)]**, um eine Datei herunterzuladen, die zeigt, wie simulierte Profile für jede Version ausgewertet werden.
+
+1. Wenn Sie zufrieden sind, klicken **[!UICONTROL auf]**, um den ursprünglichen Ausdruck durch den optimierten Ausdruck zu ersetzen.
 
 ## Anleitungsvideo {#video}
 

@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 77%
+source-wordcount: '2177'
+ht-degree: 70%
 
 ---
 
@@ -31,7 +31,7 @@ Klicken Sie in der oberen Leiste auf das Symbol „KI-Assistent“, um das Panel
 
 >[!IMPORTANT]
 >
->Bevor Sie den KI-Assistenten verwenden können, müssen Sie den [Benutzerrichtlinien für generative KI in Adobe Experience Cloud](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"} zustimmen. 
+>Bevor Sie den KI-Assistenten verwenden können, müssen Sie den [Benutzerrichtlinien für generative KI in Adobe Experience Cloud](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"} zustimmen.
 
 ### Was der KI-Assistent tun kann
 
@@ -227,6 +227,26 @@ Erstellen Sie intelligente Rangfolgenmodelle, die automatisch optimieren, welche
 * Maximal 5 KI-Rangfolgenmodelle pro Organisation
 
 [Weitere Informationen über KI-Modelle für die Entscheidungsfindung](../experience-decisioning/ranking/ai-models.md) | [Erstellen von KI-Rangfolgenmodellen](../experience-decisioning/ranking/create-ai-models.md)
+
+## KI-gestützte Regel- und Formeloptimierung {#decisioning-optimization}
+
+Adobe Journey Optimizer kann automatisch [Entscheidungsregeln](../experience-decisioning/rules.md) und [Rangfolgeformeln) analysieren, &#x200B;](../experience-decisioning/ranking/ranking-formulas.md) in der PQL-Syntax ausgedrückt werden, und Vereinfachungen vorschlagen, die die ursprüngliche Logik beibehalten. Wenn eine Vereinfachung gefunden wird, wird neben der Regel oder Formel ein roter **[!UICONTROL Optimieren]**-Indikator angezeigt, der einen direkten Vergleich des ursprünglichen und der von KI vorgeschlagenen Ausdrücke öffnet, mit einer herunterladbaren Analyse, um zu überprüfen, ob sich beide identisch verhalten.
+
+### Wichtige Funktionen
+
+* **Vereinfachungen zum Beibehalten der Logik** - Die KI schlägt einen kürzeren Ausdruck vor, der bei simulierten Profilen dasselbe Ergebnis zurückgibt.
+* **Validierungsbericht** - Laden Sie eine Analyse (TSV) herunter, die zeigt, wie jedes simulierte Profil mit beiden Versionen ausgewertet wird, bevor Sie die Änderung anwenden.
+* **Mit einem Klick anwenden** - Ersetzen Sie die ursprüngliche PQL-Version direkt im Fenster **[!UICONTROL Optimieren]** durch die optimierte Version.
+
+### Eignung
+
+Nur Regeln und Rangfolgeformeln, deren PQL-Ausdruck größer als **2 KB** (UTF-8-kodiert) ist, werden für die Analyse ausgewählt. Kleinere Ausdrücke werden nicht analysiert.
+
+### Berechtigungen
+
+Diese Funktion verwendet dieselben generativen KI-Zugriffssteuerungen wie **KI-Assistent**. Benutzern muss für die Ressource **[!UICONTROL KI-Assistent]** die Berechtigung **[!UICONTROL Inhalt generieren]** gewährt werden. [Erfahren Sie mehr über den Zugriff auf KI-Assistenten](../content-management/gs-generative.md#generative-access)
+
+[Entscheidungsregeln optimieren](../experience-decisioning/rules.md#optimize) | [Rangfolgeformeln optimieren](../experience-decisioning/ranking/ranking-formulas.md#optimize)
 
 ## Inhaltsexperimente mit KI {#experimentation}
 
