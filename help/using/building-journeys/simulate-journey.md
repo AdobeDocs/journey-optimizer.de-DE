@@ -10,9 +10,9 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: b858b41cf65ed28e229938102e0f44b369180da8
+source-git-commit: 064a1e595e4b8ac532b9d9c24b0c1d490ab5e1ce
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1861'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,7 @@ Die folgenden Schritte zeigen Ihnen, wie Sie simulierte Benutzer über die Benut
 
    ![Bedienfeld zur simulierten Benutzerauswahl](assets/simulate-5.png)
 
-1. Greifen Sie auf **[!UICONTROL Ergebnisse]** zu, um die Ausführungsergebnisse zu öffnen und zu überprüfen, wie die einzelnen Schritte ausgeführt wurden. Weitere Informationen finden Sie unter [Ergebnisse anzeigen](#viewing-logs).
+1. Rufen Sie die **[!UICONTROL Ergebnisse]** auf, um das Ausführungsprotokoll zu öffnen und die Ausführung der einzelnen Schritte zu überprüfen. Weitere Informationen finden Sie unter [Ergebnisse anzeigen](#viewing-results).
 
 Nachdem Sie die Journey in **[!UICONTROL Simulation]** validiert haben, überprüfen Sie das **[!UICONTROL Ergebnisse]**-Protokoll. Wenn Fehler auftreten, lassen Sie **[!UICONTROL Simulation]**, wenden Sie die erforderlichen Änderungen auf die Journey an und führen Sie **[!UICONTROL Simulation]** erneut aus, bis der Durchlauf korrekt aussieht. Sie können dann die Journey veröffentlichen. Siehe [Veröffentlichen des Journey](../building-journeys/publish-journey.md).
 
@@ -119,7 +119,7 @@ Die von Ihnen manuell erstellten simulierten Benutzenden werden gespeichert und 
 
    ![Bedienfeld zur simulierten Benutzerauswahl](assets/simulate-5.png)
 
-1. Klicken Sie **[!UICONTROL Protokoll anzeigen]**, um das Ausführungsprotokoll zu öffnen und die Ausführung der einzelnen Schritte zu überprüfen. Weitere Informationen finden Sie unter [Ergebnisse anzeigen](#viewing-logs).
+1. Rufen Sie die **[!UICONTROL Ergebnisse]** auf, um das Ausführungsprotokoll zu öffnen und die Ausführung der einzelnen Schritte zu überprüfen. Weitere Informationen finden Sie unter [Ergebnisse anzeigen](#viewing-results).
 
 Nachdem Sie die Journey in **[!UICONTROL Simulation]** validiert haben, überprüfen Sie das **[!UICONTROL Ergebnisse]**-Protokoll. Wenn Fehler auftreten, lassen Sie **[!UICONTROL Simulation]**, wenden Sie die erforderlichen Änderungen auf die Journey an und führen Sie **[!UICONTROL Simulation]** erneut aus, bis der Durchlauf korrekt aussieht. Sie können dann die Journey veröffentlichen. Siehe [Veröffentlichen des Journey](../building-journeys/publish-journey.md).
 
@@ -143,9 +143,9 @@ Wenn Ihr Journey ein oder mehrere Ereignisse enthält, können Sie diese mit ein
 
    Wenn die simulierten Benutzenden die Journey erfolgreich betreten haben, wird eine `Events triggered successfully`-Bestätigungsmeldung angezeigt.
 
-1. Klicken Sie **[!UICONTROL Protokoll anzeigen]**, um das Ausführungsprotokoll zu öffnen und die Ausführung der einzelnen Schritte zu überprüfen. Weitere Informationen finden Sie unter [Ergebnisse anzeigen](#viewing-logs).
+1. Rufen Sie die **[!UICONTROL Ergebnisse]** auf, um das Ausführungsprotokoll zu öffnen und die Ausführung der einzelnen Schritte zu überprüfen. Weitere Informationen finden Sie unter [Ergebnisse anzeigen](#viewing-results).
 
-## Anzeigen von Ergebnissen {#viewing-logs}
+## Anzeigen von Ergebnissen {#viewing-results}
 
 Auf **[!UICONTROL Registerkarte]** Ergebnisse“ können Sie die Testergebnisse anzeigen. Verwenden Sie den Ansichtsselektor, um festzulegen, wie das Protokoll durchsucht werden soll:
 
