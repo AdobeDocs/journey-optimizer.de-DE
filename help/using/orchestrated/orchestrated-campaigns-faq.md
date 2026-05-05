@@ -5,10 +5,10 @@ title: Häufig gestellte Fragen zu orchestrierten Kampagnen
 description: Häufig gestellte Fragen zu mit Journey Optimizer orchestrierten Kampagnen
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 0ef85efeb5fc9a542c60b076df8bc58b781ccff9
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 70%
+source-wordcount: '2699'
+ht-degree: 65%
 
 ---
 
@@ -64,7 +64,7 @@ Für einen Zugriff auf die Kampagnenorchestrierung muss die Lizenz entweder das 
 **Weitere Informationen**
 
 * [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)
-* [Produktbeschreibung von Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
 
 +++
 
@@ -347,16 +347,17 @@ Nein, orchestrierte Kampagnen unterstützen keine Entscheidungsfindungsfunktione
 
 +++ Wie funktioniert die Bereitstellung in allen Umgebungen?
 
-Objekte, die in orchestrierten Kampagnen erstellt werden (z. B. Zielgruppen, Workflows), sind an die Sandbox gebunden, in der sie erstellt werden. Standardmäßige Verpackungs- und Bereitstellungs-Workflows in Umgebungen (Entwicklung, Staging, Produktion) sind für orchestrierte Kampagnen derzeit nicht verfügbar.
+In orchestrierten Kampagnen erstellte Objekte (z. B. Zielgruppen und Workflows) gehören zur Sandbox, in der sie erstellt wurden. Um eine orchestrierte Kampagne in einer anderen Sandbox (z. B. Entwicklung, Staging oder Produktion) wiederzuverwenden, kopieren Sie sie mit **Sandbox-Tools**: Fügen Sie die Kampagne einem Paket hinzu, veröffentlichen Sie das Paket und importieren Sie es in die Ziel-Sandbox. Die importierte Kopie wird in &quot;**&quot; erstellt** und **erneute Importieren desselben Pakets wird eine neue Kampagne erstellt** anstatt eine vorhandene zu aktualisieren. Eine vollständige Verschiebung erfordert oft **mehr als einen Schritt**: Sie müssen möglicherweise **Kanalkonfigurationen** (übereinstimmende Namen in der Zielgruppe), **Schemata** und **Datensätze** durch dasselbe Paket oder zusätzliche Paketimporte ausrichten. Kanalkonfigurationen werden nicht mit der Kampagne kopiert. In der Benutzeroberfläche gibt es keine vollständige Checkliste für den Pre-Export. Verwenden Sie den Zuordnungsfluss des Imports und **Warnungen nach dem Import** um die Einrichtung abzuschließen. Weitere Informationen und Einschränkungen finden Sie unter [Kopieren von Journey Optimizer-Objekten zwischen Sandboxes](../configuration/copy-objects-to-sandbox.md).
 
 **Best Practices**
 
 * Pflegen Sie **separate Sandboxes** für Experimente, Qualitätssicherung und Produktion.
-* Dokumentieren Sie Konfigurationen sorgfältig, um bei Bedarf eine manuelle Replikation zu ermöglichen.
-* Stimmen Sie sich mit Governance-Teams ab, um Konfigurationsabweichungen zwischen Umgebungen zu reduzieren
+* Validieren Sie nach jedem Import die Kampagnendurchgänge in der Ziel-Sandbox, bevor Sie die Veröffentlichung durchführen.
+* Dokumentieren von Konfigurationen und Abstimmung mit Governance-Teams, um Konfigurationsabweichungen zwischen Umgebungen zu reduzieren.
 
 **Weitere Informationen**
 
+* [Kopieren von Journey Optimizer-Objekten zwischen Sandboxes](../configuration/copy-objects-to-sandbox.md)
 * [Erste Schritte mit orchestrierten Kampagnen](gs-orchestrated-campaigns.md)
 * [Leitlinien und Einschränkungen](guardrails.md)
 
@@ -410,7 +411,7 @@ Wenn Sie mit „Ja“ antworten, wird der beste Datenspeicher vorgeschlagen. Bes
 
 +++ Wie viele Aktivitäten sind pro orchestrierter Kampagne maximal zulässig?
 
-Die Anzahl der Aktivitäten in einer orchestrierten Kampagne ist auf maximal 500 begrenzt. 
+Die Anzahl der Aktivitäten in einer orchestrierten Kampagne ist auf maximal 500 begrenzt.
 
 **Weitere Informationen**
 
@@ -450,4 +451,4 @@ Detailliertere Informationen und Updates finden Sie in den folgenden Ressourcen:
 * [Leitlinien und Einschränkungen bei orchestrierten Kampagnen](guardrails.md)
 * [Erste Schritte mit Schemata und Datensätzen in orchestrierten Kampagnen](gs-schemas.md)
 * [Erstellen Ihrer ersten orchestrierten Kampagne](gs-campaign-creation.md)
-* [Produktbeschreibung zu Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
