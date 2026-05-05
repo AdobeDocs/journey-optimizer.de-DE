@@ -95,7 +95,7 @@ Stellen Sie beim Kopieren **(**- oder **API-ausgelösten)** sicher, dass das unt
 
 Sie können orchestrierte Kampagnen mithilfe von Package-Export und -Import zwischen Sandboxes kopieren. Orchestrierte Kampagnen folgen demselben Muster wie andere Objekte, aber was im Paket enthalten ist und was Sie in der Ziel-Sandbox vorbereiten müssen, unterscheidet sich von durch eine Aktion oder API ausgelösten Kampagnen.
 
-Um eine orchestrierte Kampagne zu exportieren, [ Sie sie (einem Sandbox-Paket ](#add-objects-as-a-package-export)) in der Quell-Sandbox (unabhängig vom Status) [veröffentlichen Sie das ](#publish) und [importieren Sie dann das Paket](#import) in die Ziel-Sandbox.
+Um eine orchestrierte Kampagne zu exportieren, [&#x200B; Sie sie (einem Sandbox-Paket &#x200B;](#add-objects-as-a-package-export)) in der Quell-Sandbox (unabhängig vom Status) [veröffentlichen Sie das &#x200B;](#publish) und [importieren Sie dann das Paket](#import) in die Ziel-Sandbox.
 
 Beachten Sie beim Import in die Produktion das folgende Verhalten und die folgenden Einschränkungen:
 
