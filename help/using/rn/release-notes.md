@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
+source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2067'
 ht-degree: 20%
 
 ---
@@ -32,7 +32,7 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, werden mit ihrem Verfügbarkeitsdatum angekündigt.
@@ -283,13 +283,15 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 
 ### Verbesserungen {#april-26-improv}
 
+#### KI
+
 <!--
-#### AI
-
 * **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.
-
-* **Prompt Assistant enhancement** - Prompt Assistant enhances AI content generation by analyzing user prompts in real time and identifying gaps in clarity, completeness, and context. It suggests improved rewrites and provides actionable guidance to enrich prompts with key details like audience, tone, and intent. The feature also asks targeted clarifying questions to help users refine their inputs before generation. This results in more accurate, high-quality outputs with fewer iterations. [Learn more](../content-management/ai-assistant-prompting-guide.md)
 -->
+
+* **Verbesserung des Eingabeaufforderungsassistenten** - Der Eingabeaufforderungsassistent verbessert die KI-Inhaltserstellung, indem er Benutzeraufforderungen in Echtzeit analysiert und Lücken in Klarheit, Vollständigkeit und Kontext erkennt. Es schlägt verbesserte Neuschreibungen vor und bietet praktische Anleitungen, um Eingabeaufforderungen mit wichtigen Details wie Zielgruppe, Ton und Absicht anzureichern. Die Funktion stellt außerdem gezielte Fragen, um Benutzenden zu helfen, ihre Eingaben vor der Generierung zu verfeinern. Dies führt zu genaueren, hochwertigeren Ausgaben mit weniger Iterationen. [Weitere Informationen](../content-management/ai-assistant-prompting-guide.md#prompt-assistant)
+
+  Verfügbarkeitsdatum: 5. Mai 2026
 
 #### Push-Benachrichtigung
 
