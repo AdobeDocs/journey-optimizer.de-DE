@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1562'
 ht-degree: 86%
 
 ---
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um eine Inhaltskarte zu einer Journey hinzuzufügen:
 
    1. Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]**, um Ihr Ereignis auszuwählen.
 
-      Verfügbares Ereignis
+      +++ Verfügbare Ereignisse anzeigen
 
       | Paket | Auslöser | Definition |
       |---|---|---|
@@ -69,11 +69,13 @@ Gehen Sie wie folgt vor, um eine Inhaltskarte zu einer Journey hinzuzufügen:
       | Anwendungslebenszyklus | Schließen der Anwendung | Wird ausgelöst, wenn die Anwendung geschlossen wird. |
       | Anwendungslebenszyklus | Anwendungsabsturz | Wird ausgelöst, wenn die Anwendung beim Beenden nicht im Hintergrund ausgeführt wird. Das Ereignis wird gesendet, wenn die Anwendung nach dem Absturz gestartet wird. Adobe Mobile-Absturz-Reporting implementiert keinen globalen Handler für nicht abgefangene Ausnahmen. |
 
+      +++ 
+
    1. Wählen Sie die Bedingung **[!UICONTROL Oder]**, wenn Sie weitere **[!UICONTROL Trigger]** hinzufügen möchten, um Ihre Regel weiter zu erweitern.
 
    1. Wählen Sie die Bedingung **[!UICONTROL Und]**, wenn Sie **[!UICONTROL Merkmale]** hinzufügen und Ihre Regel besser anpassen möchten.
 
-      Verfügbare Eigenschaften
+      +++ Verfügbare Eigenschaften anzeigen
 
       | Paket | Merkmale | Definition |
       |---|---|---|
@@ -91,6 +93,8 @@ Gehen Sie wie folgt vor, um eine Inhaltskarte zu einer Journey hinzuzufügen:
       | Anwendungslebenszyklus | Installationsdatum | Wird ausgelöst, wenn das angegebene Installationsdatum erreicht ist. |
       | Anwendungslebenszyklus | Starts | Wird ausgelöst, wenn die angegebene Anzahl von Starts erreicht ist. |
       | Anwendungslebenszyklus | Tageszeit | Wird ausgelöst, wenn die angegebene Tageszeit erreicht ist. |
+
+      +++ 
 
    1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Trigger zu gruppieren.
 
@@ -138,7 +142,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung der Inhaltskarten durch eine Kamp
 
    1. Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]**, um Ihr Ereignis auszuwählen.
 
-      Verfügbares Ereignis
+      +++ Verfügbare Ereignisse anzeigen
 
       | Paket | Auslöser | Definition |
       |---|---|---|
@@ -152,11 +156,13 @@ Gehen Sie wie folgt vor, um mit der Erstellung der Inhaltskarten durch eine Kamp
       | Anwendungslebenszyklus | Schließen der Anwendung | Wird ausgelöst, wenn die Anwendung geschlossen wird. |
       | Anwendungslebenszyklus | Anwendungsabsturz | Wird ausgelöst, wenn die Anwendung beim Beenden nicht im Hintergrund ausgeführt wird. Das Ereignis wird gesendet, wenn die Anwendung nach dem Absturz gestartet wird. Adobe Mobile-Absturz-Reporting implementiert keinen globalen Handler für nicht abgefangene Ausnahmen. |
 
+      +++ 
+
    1. Wählen Sie die Bedingung **[!UICONTROL Oder]**, wenn Sie weitere **[!UICONTROL Trigger]** hinzufügen möchten, um Ihre Regel weiter zu erweitern.
 
    1. Wählen Sie die Bedingung **[!UICONTROL Und]**, wenn Sie **[!UICONTROL Merkmale]** hinzufügen und Ihre Regel besser anpassen möchten.
 
-      Verfügbare Eigenschaften
+      +++ Verfügbare Eigenschaften anzeigen
 
       | Paket | Merkmale | Definition |
       |---|---|---|
@@ -174,6 +180,8 @@ Gehen Sie wie folgt vor, um mit der Erstellung der Inhaltskarten durch eine Kamp
       | Anwendungslebenszyklus | Installationsdatum | Wird ausgelöst, wenn das angegebene Installationsdatum erreicht ist. |
       | Anwendungslebenszyklus | Starts | Wird ausgelöst, wenn die angegebene Anzahl von Starts erreicht ist. |
       | Anwendungslebenszyklus | Tageszeit | Wird ausgelöst, wenn die angegebene Tageszeit erreicht ist. |
+
+      +++ 
 
    1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Trigger zu gruppieren.
 

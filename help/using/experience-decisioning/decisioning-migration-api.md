@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 5b8c86fadb59820e2f6127f84fa205e2daf6c386
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1175'
 ht-degree: 5%
 
 ---
@@ -51,7 +51,7 @@ Zu den typischen Berechtigungen gehören:
 
 >[!NOTE]
 >
->Erfahren Sie in ([&#x200B; Abschnitt), wie Sie &#x200B;](gs-experience-decisioning.md#steps) zuweisen. Eine vollständige Liste der Berechtigungen finden Sie auf der Seite [Integrierte Berechtigungen](../administration/ootb-permissions.md#ootb-permissions) .
+>Erfahren Sie in ([ Abschnitt), wie Sie ](gs-experience-decisioning.md#steps) zuweisen. Eine vollständige Liste der Berechtigungen finden Sie auf der Seite [Integrierte Berechtigungen](../administration/ootb-permissions.md#ootb-permissions) .
 
 ### Vorbereiten der Ziel-Sandbox {#target-sandbox-preparation}
 
@@ -62,7 +62,7 @@ Bevor Sie eine Migration ausführen, stellen Sie sicher, dass Ihre Ziel-Sandbox 
 * **Datensatz** - Identifizieren Sie einen Datensatznamen, der für die Migration verwendet werden soll (`dependency.datasetName`).
 * **Datenstrom** - Festlegen, ob bei der Migration ein Datenstrom erstellt werden soll (`createDataStream`).
 
-Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [&#x200B; und Zuweisen von Sandboxes](../administration/sandboxes.md).
+Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [ und Zuweisen von Sandboxes](../administration/sandboxes.md).
 
 ## API-Grundlagen {#api-basics}
 
@@ -120,25 +120,24 @@ Beginnen Sie mit einer Analyse auf Sandbox-Ebene, um einen vollständigen Überb
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies?request-level=sandbox" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
-    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
-    "requestLevel": "sandbox"
+    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" }
   }'
 ```
 
 **Abhängigkeit auf Angebotsebene**
 
-Um die Abhängigkeiten nur für bestimmte Angebote zu analysieren, legen Sie `requestLevel: "offer"` fest und stellen Sie ein `offersList`-Array mit den Angebots-IDs bereit, die Sie analysieren möchten.
+Um die Abhängigkeiten nur für bestimmte Angebote zu analysieren, rufen Sie denselben Endpunkt mit `request-level=offer` in der Abfragezeichenfolge auf und geben Sie ein `offersList`-Array im Hauptteil mit den Angebots-IDs an, die Sie analysieren möchten.
 
 **Abhängigkeit auf Entscheidungsebene**
 
-Um die Abhängigkeiten nur für bestimmte Entscheidungen zu analysieren, legen Sie `requestLevel: "decision"` fest und stellen Sie ein `decisionsList`-Array mit den Entscheidungs-IDs bereit, die Sie analysieren möchten.
+Um die Abhängigkeiten nur für bestimmte Entscheidungen zu analysieren, verwenden Sie `request-level=decision` in der Abfragezeichenfolge und stellen Sie ein `decisionsList`-Array im Hauptteil mit den Entscheidungs-IDs bereit, die Sie analysieren möchten.
 
 #### Überprüfen des Workflow-Status der Abhängigkeit {#poll-dependency-status}
 
@@ -186,10 +185,10 @@ So migrieren Sie alle Decisioning-Objekte von einer Sandbox in eine andere:
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/migration" \
-  --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "Content-Type: application/json" \
+  --url 'https://decisioning-migration.adobe.io/workflows/migration?request-level=sandbox' \
+  --header 'Authorization: Bearer <IMS_ACCESS_TOKEN>' \
+  --header 'Content-Type: application/json' \
+  --header 'x-gw-ims-org-id: <IMS_ORG_ID>' \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
@@ -209,14 +208,13 @@ curl --request POST \
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
-    },
-    "requestLevel": "sandbox"
+    }
   }'
 ```
 
 **Migration auf Angebotsebene**
 
-Um nur bestimmte Angebote zu migrieren, verwenden Sie `requestLevel: "offer"` und fügen Sie ein `offersList`-Array hinzu:
+Um nur bestimmte Angebote zu migrieren, verwenden Sie `request-level=offer` in der Abfragezeichenfolge und fügen Sie dem Hauptteil ein `offersList`-Array hinzu:
 
 ```json
 "offersList": ["offer-id-1", "offer-id-2"]
@@ -224,7 +222,7 @@ Um nur bestimmte Angebote zu migrieren, verwenden Sie `requestLevel: "offer"` un
 
 **Migration auf Entscheidungsebene**
 
-Um nur bestimmte Entscheidungen zu migrieren, verwenden Sie `requestLevel: "decision"` und fügen Sie ein `decisionsList`-Array hinzu:
+Um nur bestimmte Entscheidungen zu migrieren, verwenden Sie `request-level=decision` in der Abfragezeichenfolge und fügen Sie dem Hauptteil ein `decisionsList`-Array hinzu:
 
 ```json
 "decisionsList": ["decision-id-1", "decision-id-2"]
