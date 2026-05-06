@@ -6,12 +6,11 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-hide: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 70a9be0c253bbed319510058f7f249f5919bf7b8
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '661'
+ht-degree: 16%
 
 ---
 
@@ -57,7 +56,7 @@ Gehen Sie wie folgt vor, um ein KI-Modell für das Journey-Ranking zu erstellen.
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
 -->
 
-1. Im Abschnitt **[!UICONTROL Optimierungsmetrik]** werden alle Metriken aus Ihrer [!DNL Customer Journey Analytics] ([) &#x200B;](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} Liste angezeigt. Wählen Sie die Metrik aus, für die Sie Ihr Modell optimieren möchten.
+1. Im Abschnitt **[!UICONTROL Optimierungsmetrik]** werden alle Metriken aus Ihrer [!DNL Customer Journey Analytics] ([) ](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} Liste angezeigt. Wählen Sie die Metrik aus, für die Sie Ihr Modell optimieren möchten.
 
    ![Dropdown-Liste Optimierungsmetrik mit Customer Journey Analytics-Metriken für das KI-Modell](assets/journey-model-metrics.png){width="70%"}
 
@@ -76,7 +75,7 @@ Gehen Sie wie folgt vor, um ein KI-Modell für das Journey-Ranking zu erstellen.
    >
    >In der Dropdown-Liste werden nur Datensätze angezeigt, die aus Schemata erstellt wurden **[!UICONTROL die mit der Feldergruppe]** Erlebnisereignis - Vorschlagsinteraktionen“ verknüpft sind. Sie können bis zu 5 Datensätze auswählen.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Wählen Sie die Segmente aus, die zum Trainieren des KI-Modells verwendet werden sollen.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Wählen Sie die Segmente aus, die zum Trainieren des KI-Modells verwendet werden sollen.
 
    >[!NOTE]
    >
@@ -100,7 +99,7 @@ Sie können jetzt das KI-Modell als Referenz festlegen, um eine Rangfolgenformel
 
    ![Ein Beispiel für eine Rangfolgenformel, bei dem das Tag-Kriterium „Promo“ den KI-Modellwert als Rangfolgenmethode verwendet](assets/journey-formula-ex-2.png){width="60%"}
 
-1. Klicken Sie **[!UICONTROL Erstellen]**, um Ihre Rangfolgenformel abzuschließen.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um Ihre Rangfolgenformel fertigzustellen.
 
 1. Erstellen Sie jetzt einen Regelsatz und wählen Sie die Formel aus, die Sie als Rangfolgenmethode erstellt haben. [Weitere Informationen](journey-ranking-formulas.md#assign-formula-to-ruleset)
 
