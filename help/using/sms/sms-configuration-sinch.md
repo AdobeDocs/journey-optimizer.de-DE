@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 75%
+source-wordcount: '941'
+ht-degree: 86%
 
 ---
 
@@ -33,18 +33,6 @@ Gehen Sie wie folgt vor, um Ihren Sinch-Provider zu konfigurieren:
 
 ## Konfigurieren von API-Anmeldedaten für SMS{#create-api}
 
->[!BEGINSHADEBOX]
-
-Wenn keine Opt-in- oder Opt-out-Keywords angegeben werden, werden standardmäßige Einverständnisnachrichten verwendet, um den Datenschutz der Benutzenden zu berücksichtigen. Durch das Hinzufügen benutzerdefinierter Keywords werden die Standardwerte automatisch überschrieben.
-
-**Standard-Keywords:**
-
-* **Opt-in**: SUBSCRIBE, YES, UNSTOP, START, CONTINUE, RESUME, BEGIN
-* **Opt-out**: STOP, QUIT, CANCEL, END, UNSUBSCRIBE, NO
-* **Hilfe**: HELP.
-
->[!ENDSHADEBOX]
-
 Gehen Sie wie folgt vor, um Ihren Sinch-Anbieter zum Senden von SMS-Nachrichten und MMS in Journey Optimizer zu konfigurieren:
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** `>` **[!UICONTROL SMS-Einstellungen]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
@@ -58,24 +46,30 @@ Gehen Sie wie folgt vor, um Ihren Sinch-Anbieter zum Senden von SMS-Nachrichten 
    | SMS-Anbieter | Sinch |
    | Name | Wählen Sie einen Namen für Ihre API-Anmeldedaten. |
    | Service-ID und API-Token | Rufen Sie die API-Seite auf. Sie finden Ihre Anmeldedaten auf der Registerkarte „SMS“. Weitere Informationen finden Sie in der [Sinch-Dokumentation](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
-   | Opt-in-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre Opt-in-Nachricht automatisch in Trigger gesetzt wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte. |
-   | Opt-in-Nachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br> Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Opt-in-Nachricht gesendet wird. |
-   | Opt-out-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br> Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre Opt-out-Nachricht automatisch in Trigger gesetzt wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte. |
-   | Opt-out-Nachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Opt-out-Nachricht gesendet wird. |
-   | Hilfe-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br> Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre **Hilfemeldung“ automatisch Trigger**. Verwenden Sie für mehrere Keywords kommagetrennte Werte. |
-   | Hilfenachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfe-Nachricht“ gesendet**. |
-   | Double-Opt-in-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die Keywords ein, die den doppelten Opt-in-Prozess Trigger machen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3440289/?captions=ger&learn=on). |
-   | Double-Opt-in-Nachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Antwort auf die Bestätigung des doppelten Opt-ins gesendet wird. |
    | Eingehende Nummer | Fügen Sie Ihre eindeutige eingehende Nummer oder Ihren eindeutigen Kurz-Code hinzu. Auf diese Weise können Sie dieselben API-Anmeldedaten für verschiedene Sandboxes verwenden, von denen jede über eine eigene eingehende Zahl oder einen eigenen Kurz-Code verfügt. |
-   | Benutzerdefinierte eingehende Keywords | Definieren Sie eindeutige, nicht auf Einverständnis bezogene Keywords für Batch-basierte Aktionen, z. B. RABATT, ANGEBOTE, REGISTRIEREN. Diese Keywords werden als Attribute im Profil erfasst und gespeichert, sodass Sie eine Batch-Segmentqualifikation innerhalb der Journey auslösen und eine benutzerdefinierte Antwort oder Aktion bereitstellen können. |
-   | Eingehende Standard-Antwortnachricht | Geben Sie die Standardantwort ein, die gesendet wird, wenn Endbenutzende eine eingehende SMS senden, die keinem der definierten Keywords entspricht. |
    | Überschreibungs-URL | Geben Sie Ihre benutzerdefinierte URL ein, um die Standard-Endpunkte für SMS-Versandberichte, Feedback-Daten, eingehende Nachrichten oder Ereignisbenachrichtigungen zu ersetzen. Sinch sendet alle relevanten Aktualisierungen an diese URL anstelle der vordefinierten. |
 
    +++
 
-1. Aktivieren Sie die Option **[!UICONTROL Unpräzises Opt-out]**, um Nachrichten zu erkennen, die Opt-out-Schlüsselwörtern ähneln (z. B. „ABNELDEN“), und passen Sie die Bestätigungsantwort im Feld **[!UICONTROL Unpräzise automatische Antwort]** an.
+<!--
+1. Choose how user consent should be tracked for messaging:
 
-   **[!UICONTROL Unpräzises Opt-out]** kennzeichnet SMS-Nachrichten, die darauf hinweisen, dass jemand das Abonnement kündigen möchte, auch wenn die Nachricht nicht genau mit einem definierten Keyword zum Abmelden übereinstimmt. Es kann häufig verwendete Opt-out-Phrasen und bestimmte anstößige Begriffe erkennen und sicherstellen, dass Ihre Kampagnen die Benutzerpräferenzen respektieren und die Regeln einhalten.
+    * **[!UICONTROL Sender short code]**: Inbound keyword consent is keyed to your **sender short code** only. Use when one inbound number is enough to represent consent.
+
+    * **[!UICONTROL Sender short code + profile number]**: Consent is keyed to the **sender short code** and the profile **mobile number**. Use when profiles can have several numbers, or when opt-in/out must apply per sender and recipient pair.
+-->
+
+1. Wählen Sie **[!UICONTROL Benutzerdefinierten Datensatz für eingehende]** verwenden) aus, um die eingehenden SMS dieser Berechtigung an einen vorab erstellten Datensatz weiterzuleiten, den Sie aus der Dropdown-Liste auswählen. [Weitere Informationen zum Erstellen von Datensätzen](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >Das Datensatzschema muss **[!UICONTROL XDM ExperienceEvent]** sein und mindestens die folgenden Feldergruppen enthalten:
+   >* Adobe CJM ExperienceEvent - Details zur Nachrichteninteraktion
+   >* Adobe CJM ExperienceEvent - Details zur Nachrichtenausführung
+   >* Adobe CJM ExperienceEvent - Details zum Nachrichtenprofil
+   >
+   >Das Schema und der Datensatz müssen für das Profil aktiviert sein.
+
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
@@ -168,7 +162,7 @@ Beachten Sie, dass Nachrichten automatisch über SMS gesendet werden, wenn das G
 
 1. **Einrichten Ihrer [benutzerdefinierten API-Anmeldedaten](sms-configuration-custom.md)**
 
-   Nachdem der RCS-Agent genehmigt wurde, müssen Sie Ihre benutzerdefinierten API-Anmeldedaten einrichten, die Ihre AppId, Name, URL und Authentifizierungstyp enthalten. 
+   Nachdem der RCS-Agent genehmigt wurde, müssen Sie Ihre benutzerdefinierten API-Anmeldedaten einrichten, die Ihre AppId, Name, URL und Authentifizierungstyp enthalten.
 
 1. **Konfigurieren Sie RCS mit der Anbieter-Payload.**
 

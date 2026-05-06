@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 100%
+source-wordcount: '881'
+ht-degree: 92%
 
 ---
 
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um in Journey Optimizer SMS- und RCS-Nachrichten mit ei
 
    Um nur mTLS zu verwenden, wählen Sie die Option **[!UICONTROL Keine Authentifizierung]** aus der Dropdown-Liste **[!UICONTROL Authentifizierungstyp]** aus und aktivieren Sie dann die **[!UICONTROL mTLS-Unterstützung]**.
 
-1. Klicken Sie im Abschnitt **[!UICONTROL Header]** auf **[!UICONTROL Neuen Parameter hinzufügen]**, um die HTTP-Header der Anfragenachricht anzugeben, die an den externen Service gesendet werden soll. 
+1. Klicken Sie im Abschnitt **[!UICONTROL Header]** auf **[!UICONTROL Neuen Parameter hinzufügen]**, um die HTTP-Header der Anfragenachricht anzugeben, die an den externen Service gesendet werden soll.
 
    Die Header-Felder **Inhaltstyp** und **Charset** werden standardmäßig festgelegt und können nicht gelöscht werden.
 
@@ -84,6 +84,16 @@ Gehen Sie wie folgt vor, um in Journey Optimizer SMS- und RCS-Nachrichten mit ei
    >
    >Beim Konfigurieren eines benutzerdefinierten SMS-Anbieters mit einfacher oder Bearer-Authentifizierung müssen Sie den `authOption`-Parameter in die JSON-Payload einbeziehen. Außerdem muss die **Anbieter-Payload** auf die Vorlagenvariablen `{{fromNumber}}`, `{{toNumber}}` und `{{message}}` verweisen.
 
+1. Wählen Sie **[!UICONTROL Benutzerdefinierten Datensatz für eingehende]** verwenden) aus, um die eingehenden SMS dieser Berechtigung an einen vorab erstellten Datensatz weiterzuleiten, den Sie aus der Dropdown-Liste auswählen. [Weitere Informationen zum Erstellen von Datensätzen](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >Das Datensatzschema muss **[!UICONTROL XDM ExperienceEvent]** sein und mindestens die folgenden Feldergruppen enthalten:
+   >* Adobe CJM ExperienceEvent - Details zur Nachrichteninteraktion
+   >* Adobe CJM ExperienceEvent - Details zur Nachrichtenausführung
+   >* Adobe CJM ExperienceEvent - Details zum Nachrichtenprofil
+   >
+   >Das Schema und der Datensatz müssen für das Profil aktiviert sein.
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 

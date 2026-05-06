@@ -7,26 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 70%
+source-wordcount: '764'
+ht-degree: 83%
 
 ---
 
 # Konfigurieren des Infobip-Anbieters {#sms-configuration-infobip}
-
->[!BEGINSHADEBOX]
-
-Wenn keine Opt-in- oder Opt-out-Keywords angegeben werden, werden standardmäßige Einverständnisnachrichten verwendet, um den Datenschutz der Benutzenden zu berücksichtigen. Durch das Hinzufügen benutzerdefinierter Keywords werden die Standardwerte automatisch überschrieben.
-
-**Standard-Keywords:**
-
-* **Opt-in**: SUBSCRIBE, YES, UNSTOP, START, CONTINUE, RESUME, BEGIN
-* **Opt-out**: STOP, QUIT, CANCEL, END, UNSUBSCRIBE, NO
-* **Hilfe**: HELP.
-
->[!ENDSHADEBOX]
 
 Durch die Integration von Infobip mit Adobe Journey Optimizer können Sie im Rahmen Ihrer Journey und Kampagnen Textnachrichten an Ihre Profile senden.
 
@@ -52,27 +40,28 @@ Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
    | SMS-Anbieter | Infobip |
    | Name | Wählen Sie einen Namen für Ihre API-Anmeldedaten. |
    | API-Basis-URL und API-Schlüssel | Rufen Sie die Startseite Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf. Dort finden Sie Ihre Anmeldedaten. Geben Sie für regionale oder alternative Domain-Endpunkte, z. B. `api-ny2.infobip.com`, die vollständige Basis-URL an und überprüfen Sie Ihr Autorisierungs-Token mit Infobip-Unterstützung. </br>Weitere Informationen finden Sie in der [Infobip-Dokumentation](https://www.infobip.com/docs/api){target="_blank"}. |
-   | Opt-in-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre Opt-in-Nachricht automatisch in Trigger gesetzt wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte. |
-   | Opt-in-Nachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br> Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Opt-in-Nachricht gesendet wird. |
-   | Opt-out-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br> Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre Opt-out-Nachricht automatisch in Trigger gesetzt wird. Verwenden Sie für mehrere Keywords kommagetrennte Werte. |
-   | Opt-out-Nachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Opt-out-Nachricht gesendet wird. |
-   | Hilfe-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die standardmäßigen oder benutzerdefinierten Keywords ein, mit denen Ihre **Hilfemeldung“ automatisch Trigger erhält**. Verwenden Sie für mehrere Keywords kommagetrennte Werte. |
-   | Hilfenachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die benutzerdefinierte Antwort ein, die automatisch als **Hilfe-Nachricht“ gesendet**. |
-   | Double-Opt-in-Keywords | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die Keywords ein, die den doppelten Opt-in-Prozess Trigger machen. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. Verwenden Sie für mehrere Keywords kommagetrennte Werte. [Erfahren Sie mehr über das SMS-Double-Opt-in](https://video.tv.adobe.com/v/3440289/?captions=ger&learn=on). |
-   | Double-Opt-in-Nachricht | **Verwenden Sie für neue SMS-Konfigurationen das Menü [Webhooks](sms-webhook.md), um Einverständnisschlüsselwörter zu konfigurieren. Vorhandene Konfigurationen können in diesem Abschnitt weiterhin Einverständnisschlüsselwörter verwenden.** </br>Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Antwort auf die Bestätigung des doppelten Opt-ins gesendet wird. |
    | Prinzipalentitäts-ID | Geben Sie die Ihnen zugewiesene DLT-Prinzipalentitäts-ID ein. |
    | Inhaltsvorlagen-ID | Geben Sie Ihre registrierte DLT-Inhaltsvorlagen-ID ein. |
    | Gültigkeitszeitraum | Geben Sie den Gültigkeitszeitraum der Nachricht in Stunden ein. Wenn Nachrichten nicht innerhalb dieses Zeitrahmens zugestellt werden können, unternimmt das System zusätzliche Versuche, sie erneut zu senden. Der standardmäßige Gültigkeitszeitraum beträgt 48 Stunden. |
    | Callback-Daten | Geben Sie die zusätzlichen Client-Daten ein, die an die Benachrichtigungs-URL gesendet werden. |
    | Eingehende Nummer | Fügen Sie Ihre eindeutige eingehende Nummer hinzu. Auf diese Weise können Sie dieselben API-Anmeldedaten für verschiedene Sandboxes verwenden, von denen jede über eine eigene eingehende Nummer verfügt. |
-   | Benutzerdefinierte eingehende Keywords | Definieren Sie eindeutige, nicht auf Einverständnis bezogene Keywords für Batch-basierte Aktionen, z. B. RABATT, ANGEBOTE, REGISTRIEREN. Diese Keywords werden als Attribute im Profil erfasst und gespeichert, sodass Sie eine Batch-Segmentqualifikation innerhalb der Journey auslösen und eine benutzerdefinierte Antwort oder Aktion bereitstellen können. |
-   | Eingehende Standard-Antwortnachricht | Geben Sie die Standardantwort ein, die gesendet wird, wenn eine Endanwenderin oder ein Endanwender eine eingehende SMS sendet, die keinem der definierten Keywords entspricht. |
 
    +++
 
 1. Aktivieren Sie die Option **[!UICONTROL Unpräzises Opt-out]**, um Nachrichten zu erkennen, die Opt-out-Schlüsselwörtern ähneln (z. B. „ABNELDEN“), und passen Sie die Bestätigungsantwort im Feld **[!UICONTROL Unpräzise automatische Antwort]** an.
 
    **[!UICONTROL Unpräzises Opt-out]** kennzeichnet SMS-Nachrichten, die darauf hinweisen, dass jemand das Abonnement kündigen möchte, auch wenn die Nachricht nicht genau mit einem definierten Keyword zum Abmelden übereinstimmt. Es kann häufig verwendete Opt-out-Phrasen und bestimmte anstößige Begriffe erkennen und sicherstellen, dass Ihre Kampagnen die Benutzerpräferenzen respektieren und die Regeln einhalten.
+
+1. Wählen Sie **[!UICONTROL Benutzerdefinierten Datensatz für eingehende]** verwenden) aus, um die eingehenden SMS dieser Berechtigung an einen vorab erstellten Datensatz weiterzuleiten, den Sie aus der Dropdown-Liste auswählen. [Weitere Informationen zum Erstellen von Datensätzen](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >Das Datensatzschema muss **[!UICONTROL XDM ExperienceEvent]** sein und mindestens die folgenden Feldergruppen enthalten:
+   >* Adobe CJM ExperienceEvent - Details zur Nachrichteninteraktion
+   >* Adobe CJM ExperienceEvent - Details zur Nachrichtenausführung
+   >* Adobe CJM ExperienceEvent - Details zum Nachrichtenprofil
+   >
+   >Das Schema und der Datensatz müssen für das Profil aktiviert sein.
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
@@ -90,7 +79,7 @@ Gehen Sie wie folgt vor, um Infobip mit Journey Optimizer zu konfigurieren:
 
    ![](assets/verify-connection.png)
 
-Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie nun eine Kanalkonfiguration für SMS- und MMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)
+Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie nun eine Kanalkonfiguration für SMS- und MMS-Nachrichten erstellen. [Weitere Informationen](sms-configuration-surface.md)
 
 ## Konfigurieren der API-Anmeldedaten für RCS
 
