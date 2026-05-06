@@ -6,12 +6,11 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-hide: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 70a9be0c253bbed319510058f7f249f5919bf7b8
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '661'
+ht-degree: 16%
 
 ---
 
@@ -100,7 +99,7 @@ Sie können jetzt das KI-Modell als Referenz festlegen, um eine Rangfolgenformel
 
    ![Ein Beispiel für eine Rangfolgenformel, bei dem das Tag-Kriterium „Promo“ den KI-Modellwert als Rangfolgenmethode verwendet](assets/journey-formula-ex-2.png){width="60%"}
 
-1. Klicken Sie **[!UICONTROL Erstellen]**, um Ihre Rangfolgenformel abzuschließen.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um Ihre Rangfolgenformel fertigzustellen.
 
 1. Erstellen Sie jetzt einen Regelsatz und wählen Sie die Formel aus, die Sie als Rangfolgenmethode erstellt haben. [Weitere Informationen](journey-ranking-formulas.md#assign-formula-to-ruleset)
 
