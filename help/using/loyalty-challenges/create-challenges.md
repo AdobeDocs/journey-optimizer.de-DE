@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1918'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,13 @@ Auf dieser Seite wird der gesamte Prozess zur Erstellung einer Herausforderung f
    * **[!UICONTROL Sequenziell]**: Kunden führen Aufgaben in einer definierten Reihenfolge aus\
      *Beispiel: → erwerben → überprüfen (muss in dieser Reihenfolge ausgefüllt werden)*
 
-   Nach Auswahl eines Challenge-Typs wird die Benutzeroberfläche zur Challenge-Erstellung mit mehreren Konfigurations-Registerkarten geöffnet. Beginnen Sie mit der Konfiguration der Challenge-Struktur.
+   * **[!UICONTROL Eigene Daten einbringen]**: Wählen Sie **[!UICONTROL Eigene Daten einbringen]**, wenn Sie möchten, dass das Challenge-Framework, z. B. Aufgaben und Belohnungen, aus Ihrer Loyalty Challenges-Datenintegration zusammengestellt wird. Wenn dieser Typ ausgewählt ist, müssen Sie die Challenge-Struktur nicht konfigurieren. Sie konfigurieren nur **[!UICONTROL Content]**, **[!UICONTROL Messaging]** und **[!UICONTROL Audience]** wie andere Challenges.
+
+     >[!AVAILABILITY]
+     >
+     >Der Challenge **[!UICONTROL Typ „Eigene Daten]**&quot; steht derzeit einer begrenzten Anzahl von Organisationen zur Verfügung und wird in einer zukünftigen Version breiter verfügbar gemacht.
+
+   Nach Auswahl eines Challenge-Typs wird die Benutzeroberfläche zur Challenge-Erstellung mit mehreren Konfigurations-Registerkarten geöffnet. Beginnen Sie bei allen Typen außer **[!UICONTROL Eigene Daten einbringen]** mit der Konfiguration der Challenge-Struktur.
 
 ## Konfiguration der Challenge-Struktur {#structure}
 
@@ -144,49 +150,49 @@ Gehen Sie wie folgt vor, um Ihrer Herausforderung Aufgaben hinzuzufügen:
 
    +++
 
-   +++Sequential challenges
+   +++Sequenzielle Herausforderungen
 
    Wählen Sie in **[!UICONTROL Dropdown-Liste]** Anforderung für Aufgabenabschluss“ zwischen:
 
    * **[!UICONTROL Der Kunde wählt eine zu]** Aufgabe aus *- Kunden können jede einzelne Aufgabe auswählen und abschließen, um Belohnungen zu erhalten*
-   * **[!UICONTROL Customer completes a specific number of tasks]** - *Customers must complete a defined number of tasks in the exact order you define. Missing or skipping a task breaks the sequence. Specify the required number of tasks to complete*
+   * **[!UICONTROL Kunde führt eine bestimmte Anzahl von Aufgaben aus]** - *Kunden müssen eine definierte Anzahl von Aufgaben in der von Ihnen definierten Reihenfolge ausführen. Fehlende oder ausgelassene Aufgaben unterbrechen die Sequenz. Geben Sie die erforderliche Anzahl von Aufgaben an, die abgeschlossen werden sollen*
 
    +++
 
-1. By default, standard and sequential challenges allow customers to complete tasks across multiple transactions. To require all tasks to be completed in a single transaction, select the **[!UICONTROL Settings]** icon and toggle on the option below.
+1. Standardmäßig können Kunden mit standardmäßigen und sequenziellen Herausforderungen Aufgaben über mehrere Transaktionen hinweg ausführen. Wenn alle Aufgaben in einer Transaktion ausgeführt werden sollen, wählen Sie das Symbol **[!UICONTROL Einstellungen]** und aktivieren Sie die folgende Option.
 
    ![](assets/challenge-create-single-transaction.png)
 
-After adding tasks to your challenge, configure the rewards customers will earn for completing them.
+Nachdem Sie Aufgaben zu Ihrer Challenge hinzugefügt haben, konfigurieren Sie die Belohnungen, die Kunden für den Abschluss erhalten.
 
-### Configure rewards {#rewards}
+### Konfigurieren von Belohnungen {#rewards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_rewards"
->title="Rewards"
->abstract="Choose when customers earn points: when they complete the whole challenge, or at task milestones as they progress. Select your reward provider (your loyalty solution that manages points and rewards), then set amounts: a single total for full completion, or per-task values for milestones, turning rewards on only for the tasks you want to pay out."
+>title="Belohnungen"
+>abstract="Wählen Sie aus, wann Kunden Punkte sammeln: wenn sie die gesamte Challenge abgeschlossen haben, oder bei Aufgabenmeilensteinen, wenn sie voranschreiten. Wählen Sie Ihren Belohnungsanbieter aus (Ihre Treuelösung, mit der Punkte und Belohnungen verwaltet werden) und legen Sie dann Beträge fest: einen einzigen Gesamtbetrag für den vollständigen Abschluss oder Werte pro Aufgabe für Meilensteine, wobei Belohnungen nur für die Aufgaben aktiviert werden, die Sie auszahlen möchten."
 
-Rewards are the loyalty points or benefits customers receive for completing challenges.
+Prämien sind die Treuepunkte oder Vorteile, die Kundinnen und Kunden bei der Bewältigung von Herausforderungen erhalten.
 
-To configure when and how rewards are delivered:
+So konfigurieren Sie, wann und wie Belohnungen bereitgestellt werden:
 
-1. In the **[!UICONTROL Reward delivery]** drop-down menu, choose when to deliver rewards:
+1. Wählen Sie im Dropdown **[!UICONTROL Menü]** Belohnungsversand“ aus, wann Belohnungen bereitgestellt werden sollen:
 
-   * **[!UICONTROL Deliver rewards when challenge is completed]**: Award rewards when customers complete the entire challenge\
-     *Example: Award 100 points after completing all 5 tasks*
+   * **[!UICONTROL Belohnungen nach Abschluss der Herausforderung bereitstellen]**: Belohnungen erhalten, wenn Kunden die gesamte Herausforderung bewältigen\
+     *Beispiel: Vergabe von 100 Punkten nach Abschluss aller 5 Aufgaben*
 
-   * **[!UICONTROL Deliver rewards at task completion milestones as challenge progress is made]**: Award rewards incrementally as customers complete individual tasks (only available for challenges requiring more than one task)\
-     *Example: Award 10 points after task 1, 20 points after task 2, and 50 points after task 3*
+   * **[!UICONTROL Belohnungen bei Meilensteinen zum Abschluss von Aufgaben bereitstellen, sobald der Fortschritt der Herausforderung erreicht wird]**: Belohnungen werden schrittweise verliehen, sobald Kunden einzelne Aufgaben erledigen (nur für Herausforderungen, die mehr als eine Aufgabe erfordern).\
+     *Beispiel: Vergabe von 10 Punkten nach Aufgabe 1, 20 Punkten nach Aufgabe 2 und 50 Punkten nach Aufgabe 3*
 
-1. Select your reward provider. This is your loyalty solution that manages customer points and rewards.
+1. Wählen Sie Ihren Belohnungsanbieter. Dies ist Ihre Treuelösung, mit der Kundenpunkte und -belohnungen verwaltet werden.
 
    ![](assets/challenge-create-reward-type.png)
 
-1. Configure the reward amounts based on your selected delivery method:
+1. Konfigurieren Sie die Belohnungsbeträge basierend auf Ihrer ausgewählten Versandmethode:
 
-   +++Deliver rewards when challenge is completed
+   +++Belohnungen nach Abschluss der Challenge bereitstellen
 
-   Specify the total reward amount to give when customers complete the entire challenge.
+   Geben Sie den Gesamtbelohnungsbetrag an, der gegeben werden soll, wenn Kunden die gesamte Challenge abschließen.
 
    *Im folgenden Beispiel erhalten Kunden 100 Punkte, wenn sie die Challenge abschließen.*
 

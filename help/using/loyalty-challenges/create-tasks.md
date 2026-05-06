@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '989'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ Konfigurieren Sie die Aufgabenattribute basierend auf dem ausgewählten Aktivit�
 Verfügbare Attribute für **Kauf**-Aktivitäten:
 
 * **[!UICONTROL Menge]**: Geben Sie die Anzahl der Artikel ein, die gekauft werden müssen, um diese Aufgabe abzuschließen.
-* **[!UICONTROL Mögliche Artikel und Ausschlüsse]**: Definieren Sie Artikel oder Artikelgruppen, die für die Aufgabenfertigstellung angerechnet werden, und solche, die dies nicht tun. [Erfahren Sie mehr über geeignete Elemente und Ausschlüsse](#eligible-items-exclusions)
+* **[!UICONTROL Mögliche Artikel und Ausschlüsse]**: Definieren Sie Artikel oder Artikelgruppen, die für den Abschluss von Aufgaben zählen, und solche, die dies nicht tun, oder wählen Sie **[!UICONTROL Eigene Daten einbringen]**, um die Eignung aus Ihren externen Daten zu generieren. [Weitere Informationen](#eligible-items-exclusions)
 * **[!UICONTROL Mindestausgabewert-Betrag]**: Legen Sie eine Anforderung für den Mindestbezugsbetrag fest.
 * **[!UICONTROL Maximale Anzahl von Transaktionen]**: Schränken Sie ein, wie viele Transaktionen zum Abschließen der Aufgabe verwendet werden können.
 
@@ -98,42 +98,64 @@ Verfügbare Attribute für **Ausgaben**-Aktivitäten:
 
 * **[!UICONTROL Betrag]**: Geben Sie den Gesamtbetrag der Ausgaben ein, der erforderlich ist, um die Aufgabe abzuschließen.
 * **[!UICONTROL Mögliche Artikel und Ausschlüsse]**: Definieren Sie Artikel oder Artikelgruppen, die für die Aufgabenfertigstellung angerechnet werden, und solche, die dies nicht tun. [Erfahren Sie mehr über geeignete Elemente und Ausschlüsse](#eligible-items-exclusions)
-* **[!UICONTROL Maximale Anzahl von Transaktionen]**: Geben Sie an, wie viele Transaktionen die Ausgabenanforderung erfüllen dürfen. You can activate this attribute from the parameters icon.
+* **[!UICONTROL Maximale Anzahl von Transaktionen]**: Geben Sie an, wie viele Transaktionen die Ausgabenanforderung erfüllen dürfen. Sie können dieses Attribut über das Symbol Parameter aktivieren.
 
 ![](assets/task-create-spend.png)
 
 >[!ENDTABS]
 
-## Define eligible items and exclusions {#eligible-items-exclusions}
+## Definieren der zulässigen Elemente und Ausschlüsse {#eligible-items-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
->title="Eligible items &amp; exclusions"
->abstract="For both **Purchase** and **Spend** activities, you can use the **[!UICONTROL Eligible items &amp; exclusions]** attribute to define which items and groups are eligible and which are excluded. This allows you to target specific products, categories, or locations to align with your challenge goals. For example, you can limit a spending task to specific product categories, or exclude gift cards or promotional items from counting toward task completion."
+>title="Zulässige Elemente und Ausschlüsse"
+>abstract="Sowohl für **Kauf** als auch für **Ausgaben** können Sie das Attribut **[!UICONTROL Mögliche Artikel und Ausschlüsse]** verwenden, um festzulegen, welche Artikel und Gruppen förderfähig und welche ausgeschlossen sind. Auf diese Weise können Sie bestimmte Produkte, Kategorien oder Standorte auswählen, um sie an Ihre Challenge-Ziele anzupassen. Sie können beispielsweise eine Ausgabenaufgabe auf bestimmte Produktkategorien beschränken oder Geschenkgutscheine oder Werbeartikel von der Zählung für die Aufgabenerledigung ausschließen."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-For both **Purchase** and **Spend** activities, you can use the **[!UICONTROL Eligible items &amp; exclusions]** attribute to define which items and groups are eligible and which are excluded. This allows you to target specific products, categories, or locations to align with your challenge goals.
+Sowohl für **Kauf** als auch für **Ausgaben** können Sie das Attribut **[!UICONTROL Mögliche Artikel und Ausschlüsse]** verwenden, um festzulegen, welche Artikel und Gruppen förderfähig und welche ausgeschlossen sind. Auf diese Weise können Sie bestimmte Produkte, Kategorien oder Standorte auswählen, um sie an Ihre Challenge-Ziele anzupassen.
 
-For example, you can limit a spending task to specific product categories, or exclude gift cards or promotional items from counting toward task completion.
+Sie können beispielsweise eine Aufgabe auf bestimmte Produktkategorien beschränken oder Geschenkgutscheine oder Werbeartikel von der Zählung für die Aufgabenfertigstellung ausschließen.
 
 ![](assets/tasks-create-eligible.png)
 
-* To define eligible items, enter specific item IDs, categories, or destination IDs, separated by commas in the **[!UICONTROL Eligible task purchases are limited to the following]** field. If you leave this field empty, all purchases are eligible by default. You can also enter `*` to explicitly make all purchases eligible.
+### Zulässige Elemente für die Aufgabe festlegen
 
-  Beispiel: `SKU001, SKU002, CategoryA`
+Um geeignete Artikel zu definieren, geben Sie bestimmte Artikel-IDs, Kategorien oder Ziel-IDs ein, getrennt durch Kommas im Feld **[!UICONTROL Mögliche Aufgabenkäufe sind auf das folgende Feld beschränkt]**. Wenn Sie dieses Feld leer lassen, sind standardmäßig alle Käufe berechtigt. Sie können auch `*` eingeben, um alle Käufe explizit als geeignet festzulegen.
 
-* To exclude items from the task, enter specific item IDs, categories, or destination IDs in the **[!UICONTROL The following are excluded from this task]** field.
+Beispiel: `SKU001, SKU002, CategoryA`
 
-  Beispiel: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+### Elemente aus der Aufgabe ausschließen
 
-## Define task properties {#define-task-properties}
+Um Elemente aus der Aufgabe auszuschließen, geben Sie bestimmte Element-IDs, Kategorien oder Ziel-IDs in das Feld **[!UICONTROL Folgendes ist von dieser Aufgabe ausgeschlossen]** ein.
 
-In the task **[!UICONTROL Properties]** pane, configure the basic task information:
+Beispiel: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
 
-* **[!UICONTROL Task name]**: Enter a descriptive name for the task.
-* **[!UICONTROL Task description]**: The description is automatically generated based on the configured activity and attributes. To enter a custom description, toggle off the automatic generation option and enter your description in the text field.
+### Eigene Daten für Berechtigung und Ausschlüsse einbringen {#byod-personalization}
+
+>[!AVAILABILITY]
+>
+>Die **[!UICONTROL Eigene Daten einbringen]** ist derzeit für eine begrenzte Anzahl von Organisationen verfügbar und wird in einer zukünftigen Version auf breiterer Basis verfügbar gemacht.
+
+Zusätzlich zur Eingabe von Element-IDs, um sie als berechtigt oder ausgeschlossen festzulegen, können Sie die Berechtigung auch zur Laufzeit aus Ihren externen Treueprogramm-Challenges mithilfe der Option **[!UICONTROL Eigene Daten]**.
+
+Wenn **[!UICONTROL Eigene Daten einbringen]** ausgewählt ist, wird die Berechtigung pro Teilnehmer zur Laufzeit aus Daten aufgelöst, die mit Ihrer Umgebung für Treueprogramm-Herausforderungen synchronisiert sind, anstatt aus einer Liste von Element-IDs.
+
+Um diese Option zu verwenden, wählen Sie das Personalisierungssymbol unter **[!UICONTROL Mögliche Elemente und Ausschlüsse]** und dann **[!UICONTROL Eigene Daten einbringen]** aus.
+
+![](assets/tasks-create-eligible-bring.png)
+
+>[!IMPORTANT]
+>
+>Wenn Sie diese Aufgabe einer Herausforderung zuweisen, wählen Sie **[!UICONTROL Standard]** als Herausforderungstyp aus. Wählen Sie auf **[!UICONTROL Ebene der Herausforderung nicht]** Eigene Daten einbringen“, da diese Option vollständig datengesteuerten Herausforderungen vorbehalten ist, bei denen die gesamte Struktur, einschließlich Aufgaben und Belohnungen, extern bereitgestellt wird.
+
+## Aufgabeneigenschaften definieren {#define-task-properties}
+
+Konfigurieren Sie im Bereich **[!UICONTROL Eigenschaften]** die grundlegenden Informationen zur Aufgabe:
+
+* **[!UICONTROL Aufgabenname]**: Geben Sie einen beschreibenden Namen für die Aufgabe ein.
+* **[!UICONTROL Aufgabenbeschreibung]**: Die Beschreibung wird automatisch auf der Grundlage der konfigurierten Aktivität und der Attribute generiert. Um eine benutzerdefinierte Beschreibung einzugeben, deaktivieren Sie die Option Automatische Generierung und geben Sie Ihre Beschreibung in das Textfeld ein.
 
 ![](assets/tasks-create-properties.png)
 
-After configuring all attributes and properties, select **[!UICONTROL Create]** to save the task. The task is saved to your Tasks inventory and, if created from within a challenge, is automatically added to that challenge.
+Klicken Sie nach dem Konfigurieren aller Attribute und Eigenschaften auf **[!UICONTROL Erstellen]**, um die Aufgabe zu speichern. Die Aufgabe wird in Ihrem Aufgabeninventar gespeichert und, wenn sie innerhalb einer Herausforderung erstellt wurde, automatisch zu dieser Herausforderung hinzugefügt.
