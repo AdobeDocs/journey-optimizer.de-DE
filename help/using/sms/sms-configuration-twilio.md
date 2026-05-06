@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 93%
+source-wordcount: '601'
+ht-degree: 83%
 
 ---
 
@@ -43,6 +43,17 @@ Um Twilio mit Journey Optimizer zu konfigurieren, müssen Sie neue API-Anmeldeda
 
    * **[!UICONTROL Eingehende Zahl]**: Fügen Sie Ihre eindeutige eingehende Zahl hinzu. Auf diese Weise können Sie dieselben API-Anmeldedaten für verschiedene Sandboxes verwenden, von denen jede über eine eigene eingehende Nummer verfügt.
 
+1. Wählen Sie **[!UICONTROL Benutzerdefinierten Datensatz für eingehende]** verwenden) aus, um die eingehenden SMS dieser Berechtigung an einen vorab erstellten Datensatz weiterzuleiten, den Sie aus der Dropdown-Liste auswählen. [Weitere Informationen zum Erstellen von Datensätzen](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >Das Datensatzschema muss **[!UICONTROL XDM ExperienceEvent]** sein und mindestens die folgenden Feldergruppen enthalten:
+   >* Adobe CJM ExperienceEvent - Details zur Nachrichteninteraktion
+   >* Adobe CJM ExperienceEvent - Details zur Nachrichtenausführung
+   >* Adobe CJM ExperienceEvent - Details zum Nachrichtenprofil
+   >
+   >Das Schema und der Datensatz müssen für das Profil aktiviert sein.
+
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldedaten abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
 1. Klicken Sie im Menü **[!UICONTROL API-Anmeldedaten]** auf das Papierkorbsymbol, um Ihre API-Anmeldedaten zu löschen.
@@ -59,7 +70,7 @@ Um Twilio mit Journey Optimizer zu konfigurieren, müssen Sie neue API-Anmeldeda
 
    ![](assets/verify-connection.png)
 
-Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie nun eine Kanalkonfiguration für SMS- und MMS-Nachrichten erstellen.  [Weitere Informationen](sms-configuration-surface.md)
+Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie nun eine Kanalkonfiguration für SMS- und MMS-Nachrichten erstellen. [Weitere Informationen](sms-configuration-surface.md)
 
 ## Konfigurieren der API-Anmeldedaten für RCS
 

@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
+source-git-commit: d999f48597fab65e7239883f6b40c338532f1ef1
 workflow-type: tm+mt
-source-wordcount: '2806'
+source-wordcount: '2818'
 ht-degree: 9%
 
 ---
@@ -375,19 +375,10 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
    * **OriginTimestamp**: Der Zeitstempel, wann die Nachricht empfangen wurde, im UTC-Format.
    * **InboundNumber**: Die für diese Webhook-Konfiguration verwendete Telefonnummer.
 
-   +++Payload-Beispiel
+   >[!TIP]
+   >
+   > Öffnen Sie das **[!UICONTROL Setup-Handbuch]**, um eine JSON-Payload zu erhalten und eine schrittweise Anleitung zu erhalten.
 
-   ```json
-   {
-   "inboundMessage": "{{inboundMessage}}",
-   "profileNumber": "{{profileNumber}}",
-   "requestId": "{{requestId}}",
-   "originTimestamp": "{{originTimestamp}}",
-   "inboundNumber": "{{inboundNumber}}"
-   }
-   ```
-
-   +++
 
 1. Wenn Sie Ihre JSON-Datei erstellt haben, klicken Sie auf **[!UICONTROL Payload-Editor anzeigen]** kopieren Sie dann Ihre JSON-Payload in den Editor und speichern Sie sie.
 
