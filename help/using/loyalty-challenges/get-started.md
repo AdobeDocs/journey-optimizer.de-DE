@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue
-description: Erfahren Sie, wie Sie in Adobe Journey Optimizer Herausforderungen im Zusammenhang mit Treueprogrammen erstellen und verwalten, um ansprechende Treueprogramme zu erstellen.
+description: Erfahren Sie, wie Sie in Adobe Journey Optimizer Herausforderungen im Zusammenhang mit Treueprogrammen erstellen und verwalten können, um ansprechende, lohnende Treueprogramme zu erstellen.
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
+source-git-commit: cfd307c78624486c9791f8d3821f9d24f409cdcc
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '827'
 ht-degree: 4%
 
 ---
@@ -74,7 +74,7 @@ Sie können die folgenden Arten von Challenge-Erlebnissen erstellen:
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
 
-1. **Herausforderung erstellen** - Definiert die grundlegenden Challenge-Eigenschaften, einschließlich Name, Typ (Standard, Streak, Sequential oder Bring Your Own Data, falls verfügbar) und Datumsbereich. [Erfahren Sie, wie Sie einen Challenge-Typ &#x200B;](create-challenges.md#create-the-challenge).
+1. **Herausforderung erstellen** - Definiert die grundlegenden Challenge-Eigenschaften, einschließlich Name, Typ (Standard, Streak, Sequential oder Bring Your Own Data, falls verfügbar) und Datumsbereich. [Erfahren Sie, wie Sie einen Challenge-Typ ](create-challenges.md#create-the-challenge).
 
 1. **Aufgaben hinzufügen** - Definiert die spezifischen Aktionen, die Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben), Mengen, Produktfiltern und Belohnungen.
 
