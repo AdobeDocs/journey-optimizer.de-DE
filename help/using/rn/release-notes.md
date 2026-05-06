@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '2545'
+source-wordcount: '2609'
 ht-degree: 17%
 
 ---
@@ -143,7 +143,7 @@ Die Veröffentlichung der folgenden Funktionen und Verbesserungen ist für die n
 <tr>
 <td>
 <p>Sie können jetzt <strong>Journey-Fragmente</strong> in Adobe Journey Optimizer erstellen. Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen.</p>
-<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente&rbrace; in </strong> Journey eingefügt werden.</p>
+<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente} in </strong> Journey eingefügt werden.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
 <p>Diese Funktion steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <!--p>For more information, refer to the <a href="../building-journeys/journey-fragments.md">detailed documentation</a>.</p-->
@@ -158,7 +158,7 @@ Die Veröffentlichung der folgenden Funktionen und Verbesserungen ist für die n
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, werden mit ihrem Verfügbarkeitsdatum angekündigt.
@@ -437,6 +437,12 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
   Diese Funktion war bisher nur für E-Mail-Inhaltsvorlagen verfügbar und wird jetzt zusätzlich zu E-Mail **Inhaltsvorlagen für E-Mail-**-Inhalte in der E-Mail-Designer bereitgestellt (z. B. E-Mails, die in Journey und Kampagnen verfasst wurden). Sie ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten. [Weitere Informationen](../email/email-expert-mode.md)
 
   Verfügbarkeitsdatum: 9. April 2026
+
+#### Journeys
+
+* **Aktuelle Journey-Payload-Größe in den Journey-Eigenschaften sichtbar** - Im Bedienfeld &quot;Journey-Eigenschaften“ wird nun die aktuelle Größe der Journey-Payload im Vergleich zum konfigurierten Limit angezeigt - z. B. *1,5 MB (von 2 MB)*. Dieser schreibgeschützte Indikator hilft Ihnen, die Journey-Komplexität vor der Veröffentlichung zu überwachen und Fehler zu vermeiden, die durch die Überschreitung der Payload-Größenbeschränkung verursacht werden. [Weitere Informationen](../building-journeys/journey-properties.md#journey-payload-size)
+
+  Verfügbarkeitsdatum: 30. April 2026
 
 #### Journey-Pfadoptimierung
 

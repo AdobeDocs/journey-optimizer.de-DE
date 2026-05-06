@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: a9da10694f4e8299e32d94d3f3d9bf4363a8773a
 workflow-type: tm+mt
-source-wordcount: '4095'
-ht-degree: 92%
+source-wordcount: '4226'
+ht-degree: 91%
 
 ---
 
@@ -100,7 +100,7 @@ Für den [SMS-Kanal](../sms/get-started-sms.md) gelten die folgenden Schutzmecha
 
   Die eingehenden Kanäle von Journey Optimizer sprechen neue Profile an, die zuvor noch nicht auf anderen Kanälen erreicht wurden. Dadurch erhöht sich die Gesamtzahl [Engagierbaren Profile](../audience/license-usage.md) was sich auf die Kosten auswirken kann, wenn die vertragliche Anzahl der von Ihnen erworbenen Engagierbaren Profile überschritten wird.
 
-  Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} . Sie können die Anzahl der kontaktierbaren Profile im [Lizenznutzungs-Dashboard“ &#x200B;](../audience/license-usage.md).
+  Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} . Sie können die Anzahl der kontaktierbaren Profile im [Lizenznutzungs-Dashboard“ ](../audience/license-usage.md).
 
 * Journey Optimizer unterstützt zu jedem Zeitpunkt maximal 500 aktive eingehende Aktionen. Diese eingehenden Aktionen werden gezählt, wenn sie Teil einer Live-Kampagne sind oder wenn sie ein Knoten sind, der in einer Live-Journey verwendet wird. Sobald diese Anzahl erreicht ist, müssen Sie ältere Kampagnen oder Journeys deaktivieren, die eingehende Aktionen verwenden, bevor neue gestartet werden können.
 
@@ -147,7 +147,7 @@ Für [Fragmente](../content-management/fragments.md) gelten die folgenden Schutz
 * Visuelle Fragmente sind nur für den E-Mail-Kanal verfügbar.
 * Ausdrucksfragmente sind nicht für den In-App-Kanal verfügbar.
 * Visuelle Fragmente dürfen 100 KB nicht überschreiten. Ausdrucksfragmente dürfen 200 KB nicht überschreiten.
-* Damit ein Fragment in einer Journey oder Kampagne verwendet werden kann, muss es sich im Status **Live** befinden. 
+* Damit ein Fragment in einer Journey oder Kampagne verwendet werden kann, muss es sich im Status **Live** befinden.
 * [Kontextuelle Attribute](../personalization/personalization-build-expressions.md) werden in Fragmenten nicht unterstützt.
 * Visuelle Fragmente sind zwischen den Modi „Designs verwenden“ und „Manuelle Formatierung“ nicht kreuzkompatibel. Um ein Fragment in einem Inhalt verwenden zu können, auf den Sie ein Design anwenden möchten, muss dieses Fragment im Modus „Designs verwenden“ erstellt werden. [Weitere Informationen zu Designs](../email/apply-email-themes.md)
 * Wenn in einer Journey oder Kampagne das Tracking aktiviert ist und Sie Links zu einem Fragment hinzufügen, das in einer Nachricht verwendet wird, werden diese Links ebenso wie alle anderen in der Nachricht enthaltenen Links nachverfolgt. [Weitere Informationen über Links und Tracking](../email/message-tracking.md)
@@ -185,7 +185,7 @@ In diesem Abschnitt werden Leitlinien und Einschränkungen für Journeys beschri
 * Standardmäßig ist die Anzahl der Live-/Pausen-/Probelauf-Journeys jeweils auf 100 begrenzt.  Die aktuelle Anzahl der Journeys wird über der Journey-Arbeitsfläche angezeigt.
 * Während Sie Journeys veröffentlichen, skalieren und passen wir sie automatisch an, um maximalen Durchsatz und maximale Stabilität zu gewährleisten. Wenn Sie den Meilenstein von 100 Live-Journeys gleichzeitig erreichen, wird in der UI eine Benachrichtigung zu dieser Leistung angezeigt. Wenn Sie diese Benachrichtigung sehen, aber die Notwendigkeit besteht, Ihre Journey über 100 Live-Journeys hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung, und wir helfen Ihnen bei der Erreichung Ihrer Ziele.
 * Bei Verwendung einer Zielgruppenqualifizierung in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
-* Eine Journey-Instanz für ein Profil hat eine Maximalgröße von 1 MB. Alle Daten, die im Rahmen der Journey-Ausführung gesammelt wurden, werden in dieser Journey-Instanz gespeichert. Daher werden Daten aus einem eingehenden Ereignis, aus Adobe Experience Platform abgerufene Profilinformationen, benutzerdefinierte Aktionsantworten usw. in dieser Journey-Instanz gespeichert und wirken sich auf die Journey-Größe aus. Es wird empfohlen, die Maximalgröße dieser Ereignis-Payload zu begrenzen, wenn eine Journey mit einem Ereignis beginnt (z. B. weniger als 800 KB), um zu verhindern, dass dieses Limit nach wenigen Aktivitäten bei der Ausführung der Journey erreicht wird. Wenn dieses Limit erreicht ist, befindet sich das Profil im Fehlerstatus und wird von der Journey ausgeschlossen.
+* Eine Journey-Instanz für ein Profil hat eine Maximalgröße von 1 MB. Alle Daten, die im Rahmen der Journey-Ausführung gesammelt wurden, werden in dieser Journey-Instanz gespeichert. Daher werden Daten von einem eingehenden Ereignis, von Adobe Experience Platform abgerufene Profilinformationen, benutzerdefinierte Aktionsantworten usw. in dieser Journey-Instanz gespeichert, was sich auf die Journey-Größe auswirkt. Es wird empfohlen, die Maximalgröße dieser Ereignis-Payload zu begrenzen, wenn eine Journey mit einem Ereignis beginnt (z. B. weniger als 800 KB), um zu verhindern, dass dieses Limit nach wenigen Aktivitäten bei der Ausführung der Journey erreicht wird. Wenn dieses Limit erreicht ist, befindet sich das Profil im Fehlerstatus und wird von der Journey ausgeschlossen.
 * Für jedes Profil und jede Journey-Version speichert die Journey-Laufzeitumgebung während der Verarbeitung eines Ereignisses eine interne Warteschlange von bis zu 10 ausstehenden Ereignissen. Wenn diese Grenze erreicht ist, werden zusätzliche Ereignisse mit dem `maxInstanceStackEventsReached` Grund verworfen, bis der Stapel abgelaufen ist. Siehe [Ereignisse werden aufgrund einer blockierten Journey-Instanz verworfen](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 * Zusätzlich zum in den Journey-Aktivitäten verwendeten Timeout gibt es auch einen globalen Journey-Timeout, der nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Dieser globale Timeout stoppt den Fortschritt von Kontakten in der Journey 91 Tage nach ihrem Eintritt. [Weitere Informationen](../building-journeys/journey-properties.md#global_timeout)
 
@@ -216,6 +216,8 @@ Wenn die Anfrage die maximal zulässige Größe überschreitet, enthält die Ant
 * Vereinfachen Sie Bedingungen, reduzieren Sie Datenzuordnungen und entfernen Sie unnötige Schritte oder Parameter.
 * Erwägen Sie bei Bedarf, die Journey in kleinere Journeys aufzuteilen.
 * Wenn Sie der Meinung sind, dass Ihr Unternehmen ein höheres Limit benötigt, wenden Sie sich an den Adobe-Support.
+
+Um die aktuelle Payload-Größe des Journey vor der Veröffentlichung zu überwachen, verwenden Sie die Anzeige **[!UICONTROL Aktuelle Journey-Payload-]**&quot; im Bedienfeld &quot;Journey-Eigenschaften“. [Erfahren Sie, wie Sie die Größe Ihrer Journey-Payload überprüfen](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Auswählen von Paketeinschränkungen für unitäre Journeys {#select-package-limitations}
 
@@ -280,9 +282,9 @@ Für [Ereignisse](../event/about-events.md) in Ihren Journeys gelten die folgend
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
 * Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Zielgruppen-Qualifizierungaktivitäten verwendet werden.
 * Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn also beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres Ereignis verzeichnet wird (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
-* Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. In Batches aufgenommene Ereignisse, über **Abfrage-Service** eingefügte Ereignisse oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) können nicht zum Trigger einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, müssen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe erstellen und die Aktivität **Zielgruppe lesen** verwenden. Zielgruppen-Qualifizierung kann zwar technisch verwendet werden, wird aber nicht empfohlen, da sie nachgelagerte Herausforderungen verursachen kann, die auf den verwendeten Aktionen basieren.
+* Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. In Batches aufgenommene Ereignisse, über **Abfrage-Service** eingefügte Ereignisse oder Ereignisse aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) Kann nicht zum Trigger einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, müssen Sie stattdessen eine auf diesen Ereignissen basierende Zielgruppe erstellen und die Aktivität **Zielgruppe lesen** verwenden. Zielgruppen-Qualifizierung kann zwar technisch verwendet werden, wird aber nicht empfohlen, da sie nachgelagerte Herausforderungen verursachen kann, die auf den verwendeten Aktionen basieren.
 
-### Datenquellen  {#data-sources-g}
+### Datenquellen {#data-sources-g}
 
 Für [Datenquellen](../datasource/about-data-sources.md) in Ihren Journeys gelten die folgenden Schutzmechanismen:
 
