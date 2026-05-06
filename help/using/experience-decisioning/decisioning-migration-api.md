@@ -51,7 +51,7 @@ Zu den typischen Berechtigungen gehören:
 
 >[!NOTE]
 >
->Erfahren Sie in ([ Abschnitt), wie Sie ](gs-experience-decisioning.md#steps) zuweisen. Eine vollständige Liste der Berechtigungen finden Sie auf der Seite [Integrierte Berechtigungen](../administration/ootb-permissions.md#ootb-permissions) .
+>Erfahren Sie in ([&#x200B; Abschnitt), wie Sie &#x200B;](gs-experience-decisioning.md#steps) zuweisen. Eine vollständige Liste der Berechtigungen finden Sie auf der Seite [Integrierte Berechtigungen](../administration/ootb-permissions.md#ootb-permissions) .
 
 ### Vorbereiten der Ziel-Sandbox {#target-sandbox-preparation}
 
@@ -62,7 +62,7 @@ Bevor Sie eine Migration ausführen, stellen Sie sicher, dass Ihre Ziel-Sandbox 
 * **Datensatz** - Identifizieren Sie einen Datensatznamen, der für die Migration verwendet werden soll (`dependency.datasetName`).
 * **Datenstrom** - Festlegen, ob bei der Migration ein Datenstrom erstellt werden soll (`createDataStream`).
 
-Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [ und Zuweisen von Sandboxes](../administration/sandboxes.md).
+Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [&#x200B; und Zuweisen von Sandboxes](../administration/sandboxes.md).
 
 ## API-Grundlagen {#api-basics}
 
