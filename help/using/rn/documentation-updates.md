@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
+source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
 workflow-type: tm+mt
-source-wordcount: '7252'
-ht-degree: 68%
+source-wordcount: '7267'
+ht-degree: 67%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 68%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Mai 2026 {#may-2026}
+
+* Es wurde eine neue Seite **URLs in E** Mails personalisieren“ hinzugefügt, die Anleitungen zur dynamischen URL-Personalisierung, zur vollständigen/Basis-URL-Personalisierung, zur Personalisierung von URL-Tracking-Parametern und zu wichtigen Leitplanken enthält. [Weitere Informationen](../email/url-personalization.md)
 
 * Der neue Abschnitt **Geschäftsregelabfragen** wurde zur Seite mit den Abfragebeispielen hinzugefügt und bietet eine Data-Lake-Abfrage , um alle Profilverwerfen-Aktionen aufgrund von Journey-Frequenzlimitierungs-Ausschlüssen auf einer bestimmten Journey nach einem bestimmten Datum zu überprüfen. Die Abfrage enthält das Feld `eventCodeReason` , um anzugeben, ob Profile ausgeschlossen wurden, weil eine Begrenzung erreicht (`CAP_REACHED`) oder aufgrund einer niedrigeren Priorität (`LOWER_PRIORITY`). [Weitere Informationen](../reports/query-examples.md#business-rules-queries)
 
@@ -36,7 +38,8 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Die **Aktivität Zielgruppe aufbauen** wurde um ein neues Beispiel erweitert, das zeigt, wie Profile mithilfe des Regel-Builders nach einem Abonnementplanattribut gefiltert werden können. [Weitere Informationen](../orchestrated/activities/build-audience.md#build-audience-examples)
 
 * Die Seite **Erste Schritte mit orchestrierten Kampagnen** dokumentiert das Muster **Zielgruppe → Verzweigung erstellen → Kanal A + Kanal B** der Einstiegsebene in **Was befindet sich in einer orchestrierten Kampagne?** mit Querverweisen auf die Seiten Verzweigung und Marketing vs. Transaktionsnachrichten . [Weitere Informationen](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
-* Die Seite **E-Mail-Inhalt bearbeiten mit dem erweiterten HTML-Editor** wurde aus dem Abschnitt Content-Management in den Abschnitt **E-Mail** der Dokumentation (unter E-Mail-Design) verschoben und die Seitendatei wurde in **email-expert-mode.md** umbenannt. Auf der Seite wird nun dokumentiert, dass der erweiterte HTML-Editor in der E-Mail-Designer für E-Mail-Nachrichten und für E-Mail-Inhaltsvorlagen verfügbar ist. [Weitere Informationen](../email/email-expert-mode.md)
+
+* Die **E-Mail-Inhalt mit dem erweiterten HTML** Editor bearbeiten“ wurde aus dem Abschnitt Content-Management in den Abschnitt **E-Mail** der Dokumentation verschoben. Auf der Seite wird nun dokumentiert, dass der erweiterte HTML-Editor in der E-Mail-Designer für E-Mail-Nachrichten und für E-Mail-Inhaltsvorlagen verfügbar ist. [Weitere Informationen](../email/email-expert-mode.md)
 
 * Die Dokumentation **Starten und Überwachen orchestrierter Kampagnen** wurde mit einem neuen Abschnitt aktualisiert, der die interne Ausführungssequenz der Veröffentlichungszeit sowie eine Tabelle mit dem Kampagnenlebenszyklusstatus, eine Checkliste vor der Veröffentlichung und eine Bestätigungswarnung für nicht wiederkehrende Kampagnen enthält. [Weitere Informationen](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
