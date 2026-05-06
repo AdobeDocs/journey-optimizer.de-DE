@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
+source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 100%
+source-wordcount: '957'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Mit Adobe Journey Optimizer können Sie ansprechende Nachrichten in WhatsApp ent
 
 Beachten Sie, dass in Journey Optimizer nur ausgehende Nachrichtenelemente unterstützt werden.
 
-+++ Weitere Informationen zu unterstützten Nachrichtenelementen und CTAs
++++ Weitere Informationen zu unterstützten Nachrichtenelementen und interaktiven Schaltflächen
 
 Die folgenden Nachrichtentypen werden in WhatsApp unterstützt:
 
@@ -37,13 +37,18 @@ Die folgenden Nachrichtentypen werden in WhatsApp unterstützt:
 | Textkörper | Unterstützt dynamische Inhalte durch Parameter. |
 | Fußzeilentext | Unterstützt dynamische Inhalte durch Parameter. |
 
-Die folgende CTA-Option ist für Ihre WhatsApp-Nachrichten verfügbar:
+Für Ihre WhatsApp-Nachrichten stehen die folgenden call-to-action-Optionen zur Verfügung:
 
 | CTA | Beschreibung |
 |-|-|
+| Schnelle Antwort | Kurze Voreinstellungsantworten, auf die der Benutzer tippen kann, um auf Ihre Nachricht zu antworten. |
 | Besuchen einer Website | Es ist nur eine Schaltfläche zulässig, einschließlich Variablenparametern. |
 | Anruf über WhatsApp | Stellt eine Schaltfläche bereit, mit der ein WhatsApp-Chat mit der angegebenen Telefonnummer direkt von der Nachricht aus geöffnet wird. |
 | Anrufen einer Telefonnummer | Stellt eine Schaltfläche bereit, mit der ein Telefonanruf an die angegebene Nummer gestartet wird, wenn die Benutzenden darauf tippen. |
+| CALL TO ACTION - URL | Öffnet eine URL (**Website besuchen**). Es ist nur eine URL-Schaltfläche mit darin enthaltenen Variablenparametern zulässig. |
+| Call to action - Telefon | Verwendet die Telefonnummer aus der Vorlage, z. B. **Telefonnummer anrufen** (telefoniert) oder **Anruf auf WhatsApp** (öffnet einen Chat mit dieser Nummer in WhatsApp). |
+
+Beachten Sie **dass interaktive Schaltflächen** Code kopieren“ nicht unterstützt werden.
 
 +++
 
@@ -130,7 +135,7 @@ Beachten Sie, dass Ihre WhatsApp-Vorlage zunächst von Meta genehmigt werden mus
 
 1. Wählen Sie aus dem Dropdown **WhatsApp-Vorlage** Ihre zuvor in Meta erstellte Vorlage aus.
 
-   [Weitere Informationen zum Erstellen von WhatsApp-Vorlagen](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+   [Erfahren Sie mehr über das Erstellen Ihrer WhatsApp-Vorlagen](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
 
