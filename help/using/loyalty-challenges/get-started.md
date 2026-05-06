@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 4%
 * [Zugriff und Verwaltung von Herausforderungen und Aufgaben](access-loyalty-challenges.md)
 * [Herausforderungen schaffen](create-challenges.md)
 * [Aufgaben erstellen](create-tasks.md)
+* [Überwachen der Leistung beim Treueprogramm](loyalty-reporting.md)
 * [API-Referenz für Herausforderungen im Treueprogramm](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -52,10 +53,11 @@ Herausforderungen im Zusammenhang mit der Kundentreue bieten Ihnen folgende Mög
 * **Personalisieren des Erlebnisses**: Verwenden Sie Inhaltskarten und Multi-Channel-Messaging, um beeindruckende Markenerlebnisse zu schaffen
 * **Nahtlose Integration**: Verbinden Sie sich mit Ihren bestehenden Treueanbietern und nutzen Sie Experience Platform-Daten
 * **Automatisch nachverfolgen**: Überwachen des Kundenfortschritts über automatisch generierte Journey ohne benutzerdefinierte Entwicklung
+* **Leistung messen**: Verwenden Sie integrierte Reporting-Dashboards, um Programm-KPIs, Challenge-Ergebnisse und Metriken auf Aufgabenebene zu verfolgen
 
 ![](assets/challenges-gs.png)
 
-Sie können drei Arten von Herausforderungen erstellen:
+Sie können die folgenden Arten von Challenge-Erlebnissen erstellen:
 
 * **Standardherausforderungen**: Kunden führen eine beliebige Anzahl von Aufgaben in beliebiger Reihenfolge aus. Verwenden Sie diesen Typ, wenn Sie Flexibilität und mehrere Pfade zum Abschluss wünschen.\
   *Beispiel: „Summer Wellness Challenge“ - 3 von 5 Aufgaben erledigen: Gesundheitsprodukte kaufen, in den sozialen Medien teilen, einen Freund verweisen, eine Bewertung schreiben oder an einer virtuellen Veranstaltung teilnehmen*
@@ -65,6 +67,8 @@ Sie können drei Arten von Herausforderungen erstellen:
 
 * **Sequenzielle Herausforderungen**: Kunden führen Aufgaben in einer definierten Reihenfolge aus. Verwenden Sie diesen Typ, um Kunden durch einen bestimmten Journey- oder Onboarding-Prozess zu führen.\
   *Beispiel: „New Member Journey&quot; - Melden Sie sich für E-Mails an → tätigen Sie Ihren ersten Kauf → schreiben Sie eine Produktbewertung → Empfehlen Sie einem Freund (in dieser exakten Bestellung vollständig)*
+
+* **Bringen Sie Ihre eigenen Datenherausforderungen** (eingeschränkte Verfügbarkeit): Das Challenge-Framework (Aufgaben und Belohnungen) wird aus Ihrer Datenintegration für die Treueprogramm-Herausforderungen zusammengestellt. Sie konfigurieren Inhalt, Messaging und Zielgruppe so, wie Sie es für jeden anderen Herausforderungstyp tun würden.
 
 ## Funktionsweise {#how-it-works}
 
@@ -158,6 +162,17 @@ Jetzt, da Sie wissen, was Herausforderungen im Zusammenhang mit der Treue sind u
     </div>
     <p>
     <em>Erfahren Sie, wie Sie Aufgaben definieren, die Kundinnen und Kunden für Herausforderungen ausführen müssen</em>
+    </p>
+  </td>
+  <td>
+    <a href="loyalty-reporting.md">
+      <img alt="Berichte" src="assets/do-not-localize/icon-reporting.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-reporting.md"><strong>Überwachen der Performance</strong></a>
+    </div>
+    <p>
+    <em>Verfolgen Sie Programm-KPIs, Challenge-Ergebnisse und Aufgabenmetriken mit integrierten Dashboards</em>
     </p>
   </td>
 </tr>

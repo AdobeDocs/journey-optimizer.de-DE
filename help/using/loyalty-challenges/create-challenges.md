@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 1%
 * [Zugriff und Verwaltung von Herausforderungen und Aufgaben](access-loyalty-challenges.md)
 * **Herausforderungen schaffen** ◀︎ **Sie sind hier**
 * [Aufgaben erstellen](create-tasks.md)
+* [Überwachen der Leistung beim Treueprogramm](loyalty-reporting.md)
 * [API-Referenz für Herausforderungen im Treueprogramm](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -299,7 +300,7 @@ Das Starten einer Challenge erfordert **drei Schritte**: (1) Veröffentlichen de
 
 1. Öffnen Sie die Journey und veröffentlichen Sie sie. Der Journey startet automatisch am angegebenen Startdatum der Challenge und sendet Inhalte und Nachrichten entsprechend Ihrer Konfiguration. [Erfahren Sie, wie Sie eine Journey veröffentlichen](../building-journeys/publish-journey.md).
 
-1. Sobald die Challenge live ist, überwachen Sie die Leistung und den Nachrichtenversand im [Journey-Bericht](../reports/journey-global-report-cja.md).
+1. Sobald Ihre Challenge live ist, überwachen Sie Programm-KPIs, Challenge-Ergebnisse und Aufgabenmetriken in den [Treueprogramm-Challenge-Berichten](loyalty-reporting.md). Sie können den Nachrichtenversand auch im Bericht [Journey überwachen](../reports/journey-global-report-cja.md).
 
 >[!NOTE]
 >
