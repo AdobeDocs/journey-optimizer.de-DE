@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 181d3d050177730f07454024e5d1a531724b4886
+source-git-commit: 5b8c86fadb59820e2f6127f84fa205e2daf6c386
 workflow-type: tm+mt
-source-wordcount: '2294'
-ht-degree: 19%
+source-wordcount: '2386'
+ht-degree: 18%
 
 ---
 
@@ -129,7 +129,13 @@ Die Veröffentlichung der folgenden Funktionen und Verbesserungen ist für die n
 </tbody>
 </table>
 
+### Verbesserungen {#may-26-improv}
 
+#### Entscheidungsfindung
+
+* **Decisioning-Migrations-Workflow**-APIs - Der API-Vertrag zum Erstellen von Abhängigkeitsanalysen und Migrations-Workflows wurde aktualisiert: Übergeben Sie **`request-level`** als **Abfrageparameter** an die Anfrage-URL (`sandbox`, `offer` oder `decision`). Anfrageebene darf nicht mehr im JSON-Text gesendet werden. [Weitere Informationen](../experience-decisioning/decisioning-migration-api.md)
+
+  Verfügbarkeitsdatum: 6. Mai 2026
 
 ## Versionshinweise April &#39;26 {#april-26-rn}
 
@@ -385,6 +391,10 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 * **App-ID in Kanaleinstellungen personalisieren** - In den Konfigurationseinstellungen für den Push-Kanal können Sie jetzt das Feld **App-ID** personalisieren, damit jeder Empfänger anhand seiner Profilinformationen eine Push-Benachrichtigung von der entsprechenden Marke erhalten kann. [Weitere Informationen](../push/push-configuration.md#app-id-personalization)
 
 #### Entscheidungsfindung
+
+* **Decisioning-Migrations-Workflow**-APIs - Der API-Vertrag zum Erstellen von Abhängigkeitsanalysen und Migrations-Workflows wurde aktualisiert: Übergeben Sie **`request-level`** als **Abfrageparameter** an die Anfrage-URL (`sandbox`, `offer` oder `decision`). Anfrageebene darf nicht mehr im JSON-Text gesendet werden. [Weitere Informationen](../experience-decisioning/decisioning-migration-api.md)
+
+  Verfügbarkeitsdatum: 6. Mai 2026
 
 * **Fragmente an Entscheidungselemente anhängen** - Journey Optimizer bietet jetzt die Möglichkeit, Fragmente an Entscheidungselemente anzuhängen, die über Entscheidungsrichtlinien in Code-basierten Erlebnis- und E-Mail-Kampagnen genutzt werden können. [Weitere Informationen](../experience-decisioning/fragments-decision-policies.md)
 
