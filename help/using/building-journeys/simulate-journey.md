@@ -10,9 +10,9 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 0a0301fd62f5844c72a582c7ba06ad3f8e161d7c
+source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1952'
 ht-degree: 4%
 
 ---
@@ -131,17 +131,17 @@ Wenn Ihr Journey ein oder mehrere Ereignisse enthält, können Sie diese mit ein
 
    ![Benutzeroberfläche für die Ereigniskonfiguration mit Feldern und Dropdown-Liste für die Ereignisauswahl](assets/simulate-10.png)
 
-1. Klicken Sie ![Ereignis bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg), um das Ereignis für diesen simulierten Benutzer anzupassen.
+1. Klicken Sie **[!UICONTROL Ereignisse konfigurieren]**, um den Editor zu öffnen und das Ereignis nach Bedarf anzupassen. Um die Payload nur für einen bestimmten simulierten Benutzer zu ändern, klicken Sie ![&#x200B; „Ereignis bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg) neben diesem Benutzer.
 
    ![Benutzeroberfläche für die Ereigniskonfiguration mit Feldern und Dropdown-Liste für die Ereignisauswahl](assets/simulate-9.png)
 
-1. Wählen Sie in der Dropdown-Liste des simulierten Benutzers den simulierten Benutzer aus und schließen Sie die Konfiguration des Ereignisses und dessen Generierung ab.
+1. Geben Sie in der Ansicht **&#x200B;**&#x200B;Benutzerereignis“ an, welche simulierten Trigger in die Ausführung aufgenommen werden sollen. Die Ereigniskonfiguration gilt jeweils für ein einzelnes Ereignis. Durch Ändern des ausgewählten Ereignisses oder der Gruppe eingeschlossener Benutzer werden zuvor eingegebene Feldwerte zurückgesetzt. Vervollständigen Sie die aktuelle Konfiguration, bevor Sie eine der Auswahlmöglichkeiten ändern.
 
-   ![Benutzeroberfläche für die Ereigniskonfiguration mit Feldern und Dropdown-Liste für die Ereignisauswahl](assets/simulate-8.png)
+   ![Ereigniskonfiguration mit Listen- und Ereignisfeldern von Testbenutzenden](assets/simulate-8.png)
 
-1. Klicken Sie auf **[!UICONTROL Trigger für ausgewählte Ereignisse]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-   Wenn die simulierten Benutzenden die Journey erfolgreich betreten haben, wird eine `Events triggered successfully`-Bestätigungsmeldung angezeigt.
+1. Wählen Sie dann **[!UICONTROL Testereignisse]** entweder die Option **[!UICONTROL Alle senden]** aus, um jeden unter **[!UICONTROL Testbenutzer]** aufgelisteten simulierten Benutzer auf die Journey zu senden, oder wählen Sie ![Senden-Symbol](assets/do-not-localize/Smock_Send_18_N.svg) aus, damit ein einzelner Benutzer die Simulation nur für diesen Benutzer ausführt.
 
 1. Rufen Sie die **[!UICONTROL Ergebnisse]** auf, um das Ausführungsprotokoll zu öffnen und die Ausführung der einzelnen Schritte zu überprüfen. Weitere Informationen finden Sie unter [Ergebnisse anzeigen](#viewing-results).
 
@@ -224,6 +224,6 @@ Diese Schutzmaßnahmen gelten für **[!UICONTROL Simulation]**. Numerische Begre
 | Maximale Anzahl an eindeutigen simulierten Benutzern, die in einem einzigen Simulationslauf getestet werden | 100 | Erreichen von **100** eindeutigen Benutzern in einem Ausführungsblock **[!UICONTROL Wählen Sie simulierte]** aus) für neue simulierte Benutzer. Wenn Sie bei **90** sind, können Sie vor demselben Block höchstens **10** mehr hinzufügen. |
 | Maximale Anzahl von Journey, die gleichzeitig in **[!UICONTROL Simulation]** in einer Sandbox ausgeführt werden können | 20 | Die Begrenzung wird von jeder **[!UICONTROL Simulation]**-Journey in dieser Sandbox gleichzeitig verwendet. |
 | Maximale Anzahl aktiver simulierter Benutzer in einer Sandbox | 2,000 | Maximale Anzahl an simulierten Benutzern, die gleichzeitig in der Sandbox vorhanden sein können. Adobe kann diese Grenze auf der Grundlage von Kunden-Feedback anpassen. |
-| Vorausfüllen des Ereignisses (nur Browser) | — | Das Vorausfüllen von Ereignissen wird nur im Browser unterstützt. Vorausgefüllte Ereignisdaten sind spezifisch für den Browser. |
+| Vorausfüllen des Ereignisses (nur Browser) | — | Sie können Payload-Felder für Ereignisse nur in der Browser-basierten Simulationsoberfläche vorab ausfüllen. Vorausgefüllte Werte bleiben in diesem Browser und werden nicht mit anderen Browsern, Geräten oder Sitzungen synchronisiert, sodass möglicherweise an jedem Ort, den Sie testen, andere Daten zum Vorbefüllen angezeigt werden. |
 
 +++
