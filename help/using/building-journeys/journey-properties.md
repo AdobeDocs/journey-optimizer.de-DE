@@ -10,10 +10,10 @@ level: Intermediate
 keywords: Journey, Konfiguration, Eigenschaften
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
+source-git-commit: 18984a14c6831c6476be18bd48266f3f265a7456
 workflow-type: tm+mt
-source-wordcount: '3380'
-ht-degree: 76%
+source-wordcount: '3633'
+ht-degree: 73%
 
 ---
 
@@ -28,7 +28,7 @@ Verwenden Sie Journey-Eigenschaften, um globale Einstellungen für Ihren Journey
 
 ## Zugreifen auf die Eigenschaften einer Journey {#access-properties}
 
-Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser Abschnitt wird beim Erstellen einer neuen Journey standardmäßig angezeigt.  Klicken Sie zum Öffnen bestehender Journeys auf das Stiftsymbol neben dem Journey-Namen.
+Die Eigenschaften einer Journey sind in der rechten Leiste zentralisiert. Dieser Abschnitt wird beim Erstellen einer neuen Journey standardmäßig angezeigt. Klicken Sie zum Öffnen bestehender Journeys auf das Stiftsymbol neben dem Journey-Namen.
 
 Über diesen Abschnitt können Sie den Namen der Journey definieren, eine Beschreibung hinzufügen und globale Journey-Eigenschaften festlegen.
 
@@ -41,6 +41,7 @@ Sie haben folgende Möglichkeiten:
 * Auswählen der [Zeitzonen](#timezone) für die Journey und das Profil
 * Festlegen benutzerdefinierter [Start- und Enddaten](#dates)
 * Definieren einer [Timeout-Dauer](#timeout) in Journey-Aktivitäten (nur für Admins)
+* Überwachen Sie die [aktuelle Größe der Journey-Payload](#journey-payload-size), um Veröffentlichungsfehler zu vermeiden.
 * Überwachen von Konflikten und Priorisieren Ihrer Journeys mithilfe von [Konflikt-Management-Tools](#conflict)
 
 ![Panel zur Konfiguration von Journey-Eigenschaften mit allgemeinen Einstellungen und erweiterten Optionen](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
@@ -107,11 +108,28 @@ Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wa
 
 ## Verwalten des Zugriffs {#manage-access}
 
-Sie können den Zugriff auf eine Journey basierend auf Zugriffs-Labels einschränken. 
+Sie können den Zugriff auf eine Journey basierend auf Zugriffs-Labels einschränken.
 
 Um der Journey benutzerdefinierte Datennutzungs-Label zuzuweisen, klicken Sie auf das Symbol **[!UICONTROL Verwalten von Zugriffs-Labels]** und wählen Sie ein oder mehrere Labels aus.
 
 [Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC)](../administration/object-based-access.md)
+
+## Journey-Payload-Größe {#journey-payload-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_payload_size"
+>title="Aktuelle Journey-Payload-Größe"
+>abstract="Zeigt die aktuelle Größe der Journey-Payload im Vergleich zum konfigurierten Limit an. Verwenden Sie diesen Indikator, um die Journey-Komplexität vor der Veröffentlichung zu überwachen und Fehler zu vermeiden, die durch die Überschreitung der Payload-Größenbeschränkung verursacht werden."
+
+Das Feld **[!UICONTROL Aktuelle Journey-Payload]** im Bedienfeld Journey-Eigenschaften zeigt die aktuelle Payload-Größe Ihrer Journey im Verhältnis zum konfigurierten Limit an - z. B. *1,5 MB (von 2 MB)*. Dieser schreibgeschützte Indikator ist in jeder Phase des Journey-Authorings sichtbar.
+
+![Größenanzeige der aktuellen Journey-Payload im Bedienfeld &quot;Journey-Eigenschaften“](assets/journey-payload-size.png){width="50%" zoomable="yes"}
+
+Verwenden Sie diese Informationen, um die Komplexität Ihres Journey vor der Veröffentlichung zu überwachen. Wenn die Payload-Größe das Limit erreicht oder überschreitet, schlägt die Journey-Veröffentlichung fehl. Um die Größe zu reduzieren, sollten Sie die Journey-Logik vereinfachen oder die Anzahl der Aktivitäten reduzieren.
+
+Der Standardwert ist 2 MB. Wenden Sie sich an die Adobe-Kundenunterstützung, wenn Sie eine höhere Begrenzung für Ihr Unternehmen anfordern müssen.
+
+Ausführliche Informationen zu Schwellenwerten, Warn- und Fehlermeldungen sowie Schritten zur Fehlerbehebung finden Sie unter [Validierung der Journey-Payload](../start/guardrails.md#journey-payload-size) und [Allgemeine Schutzmaßnahmen beim Journey](../start/guardrails.md#journeys-guardrails-journeys).
 
 ## Zeitzonen von Journeys und Profilen {#timezone}
 
@@ -249,7 +267,7 @@ Ab [!DNL Adobe Journey Optimizer] Version Juni 2024 wurde die globale Zeitübers
       <p>Was passiert mit einem Profil, das in eine Journey eintritt, die vor dem Launch der TTL-Verlängerung veröffentlicht wurde?</p>
     </td>
     <td>
-      <p>Die TTL für das Profil beträgt 30 Tage (7 Tage für HIPAA) ab dem ursprünglichen Veröffentlichungszeitpunkt.  Bei wiederkehrenden Journeys mit erzwungenem erneuten Eintritt entspricht die TTL dem Wiederholungsintervall.</p>
+      <p>Die TTL für das Profil beträgt 30 Tage (7 Tage für HIPAA) ab dem ursprünglichen Veröffentlichungszeitpunkt. Bei wiederkehrenden Journeys mit erzwungenem erneuten Eintritt entspricht die TTL dem Wiederholungsintervall.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -257,7 +275,7 @@ Ab [!DNL Adobe Journey Optimizer] Version Juni 2024 wurde die globale Zeitübers
       <p>Was passiert mit einem Profil, das beim Launch der TTL-Verlängerung gerade eine Journey durchläuft?</p>
     </td>
     <td>
-      <p>Für das Profil bleibt eine TTL von 30 Tagen (7 Tage für HIPAA) gemäß dem ursprünglichen Veröffentlichungszeitpunkt der Journey bestehen.  Bei wiederkehrenden Journeys mit erzwungenem erneuten Eintritt entspricht die TTL dem Wiederholungsintervall.</p>
+      <p>Für das Profil bleibt eine TTL von 30 Tagen (7 Tage für HIPAA) gemäß dem ursprünglichen Veröffentlichungszeitpunkt der Journey bestehen. Bei wiederkehrenden Journeys mit erzwungenem erneuten Eintritt entspricht die TTL dem Wiederholungsintervall.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -265,7 +283,7 @@ Ab [!DNL Adobe Journey Optimizer] Version Juni 2024 wurde die globale Zeitübers
       <p>Was passiert mit einem laufenden Profil in einer vorherigen Journey-Version, die nach dem Launch der TTL-Erweiterung erneut veröffentlicht wird?</p>
     </td>
     <td>
-      <p>Das Profil verwaltet eine TTL von 30 Tagen (7 Tage für HIPAA), abgestimmt auf die Veröffentlichungszeit der Original-Journey-Version. Bei wiederkehrenden Journeys mit erzwungenem erneuten Eintritt entspricht die TTL dem Wiederholungsintervall.</p>
+      <p>Für das Profil bleibt eine TTL von 30 Tagen (7 Tage für HIPAA) gemäß bestehen, ausgerichtet auf den ursprünglichen Veröffentlichungszeitpunkt der Journey. Bei wiederkehrenden Journeys mit erzwungenem erneuten Eintritt entspricht die TTL dem Wiederholungsintervall.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -273,7 +291,7 @@ Ab [!DNL Adobe Journey Optimizer] Version Juni 2024 wurde die globale Zeitübers
       <p>Was passiert mit einem neuen Profil, das nach dem Launch der TTL-Verlängerung in eine erneut veröffentlichte Journey-Version eintritt?</p>
     </td>
     <td>
-      <p>Die TTL für das Profil beträgt 91 Tage (7 Tage für HIPAA), entsprechend der TTL der erneut veröffentlichten Journey-Version.  Bei wiederkehrenden Journeys mit erzwungenem erneuten Eintritt entspricht die TTL dem Wiederholungsintervall.</p>
+      <p>Die TTL für das Profil beträgt 91 Tage (7 Tage für HIPAA), entsprechend der TTL der erneut veröffentlichten Journey-Version. Bei wiederkehrenden Journeys mit erzwungenem erneuten Eintritt entspricht die TTL dem Wiederholungsintervall.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -353,7 +371,7 @@ Um ein Ausstiegskriterium zu **erstellen**, gehen Sie folgendermaßen vor:
    * Für Ausstiegskriterien, die auf einem Ereignis basieren, wie z. B. das Herunterladen einer App oder das Hinzufügen eines Produkts zu einem Warenkorb, wählen Sie nur ein einziges Ereignis.
    * Für Ausstiegskriterien, die auf einer Zielgruppe basieren, wie z. B. eine Zielgruppe, die überprüft, ob eine Person in den letzten 24 Stunden einen Kauf getätigt hat, wählen Sie eine Zielgruppe. Hinweis: Es kann bis zu 10 Minuten dauern, bis Ausstiegskriterien, die eine Zielgruppe verwenden, wirksam werden.
 
-Sie können mehrere Beendigungskriterien hinzufügen. Das Ausstiegskriterium ist nun aktiviert und wird bei jedem Schritt des Journey ausgewertet.
+Sie können mehrere Ausstiegskriterien hinzufügen. Das Ausstiegskriterium ist nun aktiviert und wird bei jedem Schritt des Journey ausgewertet.
 
 ![Panel für Ausstiegskriterien, das die Zielgruppenbedingungen für das Beenden der Journey anzeigt](assets/exitcriteria-sample.png){width="40%" align="left"}
 

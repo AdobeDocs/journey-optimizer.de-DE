@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '7267'
+source-wordcount: '7327'
 ht-degree: 67%
 
 ---
@@ -24,6 +24,8 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Es wurde eine neue Seite **URLs in E** Mails personalisieren“ hinzugefügt, die Anleitungen zur dynamischen URL-Personalisierung, zur vollständigen/Basis-URL-Personalisierung, zur Personalisierung von URL-Tracking-Parametern und zu wichtigen Leitplanken enthält. [Weitere Informationen](../email/url-personalization.md)
 
 * Der neue Abschnitt **Geschäftsregelabfragen** wurde zur Seite mit den Abfragebeispielen hinzugefügt und bietet eine Data-Lake-Abfrage , um alle Profilverwerfen-Aktionen aufgrund von Journey-Frequenzlimitierungs-Ausschlüssen auf einer bestimmten Journey nach einem bestimmten Datum zu überprüfen. Die Abfrage enthält das Feld `eventCodeReason` , um anzugeben, ob Profile ausgeschlossen wurden, weil eine Begrenzung erreicht (`CAP_REACHED`) oder aufgrund einer niedrigeren Priorität (`LOWER_PRIORITY`). [Weitere Informationen](../reports/query-examples.md#business-rules-queries)
+
+* Die Dokumentation zu **Journey** Eigenschaften: wurde aktualisiert, um den neuen Indikator **Aktuelle Größe der Journey-Payload** im Bedienfeld &quot;Journey-Eigenschaften“ zu dokumentieren. Dieses schreibgeschützte Feld zeigt die aktuelle Größe der Journey-Payload im Vergleich zum konfigurierten Limit an (z. B. 1,5 MB von 2 MB), sodass Sie die Komplexität von Journey vor der Veröffentlichung überwachen und größenbedingte Veröffentlichungsfehler vermeiden können. [Weitere Informationen](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## April 2026 {#april-2026}
 

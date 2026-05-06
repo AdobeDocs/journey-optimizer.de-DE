@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '2545'
+source-wordcount: '2609'
 ht-degree: 17%
 
 ---
@@ -437,6 +437,12 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
   Diese Funktion war bisher nur für E-Mail-Inhaltsvorlagen verfügbar und wird jetzt zusätzlich zu E-Mail **Inhaltsvorlagen für E-Mail-**-Inhalte in der E-Mail-Designer bereitgestellt (z. B. E-Mails, die in Journey und Kampagnen verfasst wurden). Sie ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugang zu erhalten. [Weitere Informationen](../email/email-expert-mode.md)
 
   Verfügbarkeitsdatum: 9. April 2026
+
+#### Journeys
+
+* **Aktuelle Journey-Payload-Größe in den Journey-Eigenschaften sichtbar** - Im Bedienfeld &quot;Journey-Eigenschaften“ wird nun die aktuelle Größe der Journey-Payload im Vergleich zum konfigurierten Limit angezeigt - z. B. *1,5 MB (von 2 MB)*. Dieser schreibgeschützte Indikator hilft Ihnen, die Journey-Komplexität vor der Veröffentlichung zu überwachen und Fehler zu vermeiden, die durch die Überschreitung der Payload-Größenbeschränkung verursacht werden. [Weitere Informationen](../building-journeys/journey-properties.md#journey-payload-size)
+
+  Verfügbarkeitsdatum: 30. April 2026
 
 #### Journey-Pfadoptimierung
 
