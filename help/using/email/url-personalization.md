@@ -25,7 +25,7 @@ Je nach den Profilattributen führen sie Empfänger zu bestimmten Seiten einer W
 
 Gehen Sie wie folgt vor, um eine URL zu personalisieren.
 
-1. Wählen Sie in der E-Mail-Designer ein Inhaltselement aus und [ Sie mithilfe der kontextuellen Symbolleiste ](message-tracking.md#insert-links)Link einfügen“.
+1. Wählen Sie in der E-Mail-Designer ein Inhaltselement aus und [&#x200B; Sie mithilfe der kontextuellen Symbolleiste &#x200B;](message-tracking.md#insert-links)Link einfügen“.
 
    >[!IMPORTANT]
    >
@@ -72,7 +72,7 @@ Journey Optimizer unterstützt auch die Personalisierung **gesamten** URL oder d
 
 [URL-Tracking](url-tracking.md) wird auf der Ebene der Kanalkonfiguration verwaltet und gilt für alle URLs, die im Nachrichteninhalt enthalten sind. Sie können auch URL-Tracking-Parameter für einen einzelnen Link in der E-Mail-Designer personalisieren. Auf diese Weise können Sie einen empfängerspezifischen Parameter an einen einzelnen Link anhängen (z. B. um eine Kennung an Ihre Web-Analyse-Tools zu übergeben).
 
-Wählen Sie dazu [Link einfügen](message-tracking.md#insert-links), klicken Sie auf das Personalisierungssymbol, fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im Personalisierungseditor [ gewünschte Profilattribut ](../personalization/personalization-build-expressions.md).
+Wählen Sie dazu [Link einfügen](message-tracking.md#insert-links), klicken Sie auf das Personalisierungssymbol, fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im Personalisierungseditor [&#x200B; gewünschte Profilattribut &#x200B;](../personalization/personalization-build-expressions.md).
 
 ![](assets/message-tracking-perso-parameter.png)
 
