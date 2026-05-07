@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 100%
+source-wordcount: '1280'
+ht-degree: 93%
 
 ---
 
@@ -80,13 +80,15 @@ Gehen Sie wie folgt vor, um einen Kanalregelsatz zu erstellen:
 
    Stellen Sie sicher, dass Sie einen Wert eingeben, der dem ausgewählten Zeitdauertyp entspricht: 3–23 für „Stündlich“, 1–30 für „Täglich“, 1–4 für „Wöchentlich“ und 1–3 für „Monatlich“.
 
-   Der Zähler wird automatisch auf 0 zurückgesetzt, wenn ein neues Zeitfenster beginnt. Bei einer Frequenzbegrenzung von 2 Tagen erfolgt dieses Zurücksetzen alle zwei Tage um Mitternacht UTC.
+   Der Zähler wird automatisch auf 0 zurückgesetzt, wenn ein neues Zeitfenster beginnt. Bei einer Frequenzlimitierung von 2 Tagen erfolgt dieses Zurücksetzen alle zwei Tage um Mitternacht UTC.
 
-1. Wählen Sie den Kanal, den Sie für diese Regel verwenden möchten: **[!UICONTROL E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-Benachrichtigung]** oder **[!UICONTROL Direkt-Mail]**.
+1. Wählen Sie die Kanäle aus, die Sie für diese Regel verwenden möchten: **[!UICONTROL E-]**, **[!UICONTROL SMS]**, **[!UICONTROL Push-]**, **[!UICONTROL Briefpost]** oder **[!UICONTROL WhatsApp]**.
 
-1. Wählen Sie mehrere Kanäle aus, wenn Sie für alle ausgewählten Kanäle gemeinsam eine Begrenzung festlegen möchten.
+   ![](assets/rule-set-channels.png)
 
-   Legen Sie beispielsweise die Begrenzung auf 5 fest und wählen Sie dann den E-Mail- und SMS-Kanal aus. Wenn ein Profil im ausgewählten Zeitraum bereits drei Marketing-E-Mails und 2 SMS erhalten hat, wird dieses Profil vom nächsten Versand einer Marketing-E-Mail oder SMS ausgeschlossen.
+   Wählen Sie mehrere Kanäle aus, wenn Sie für alle ausgewählten Kanäle gemeinsam eine Begrenzung festlegen möchten.
+
+   Legen Sie beispielsweise die Begrenzung auf 5 fest und wählen Sie dann den E-Mail- und SMS-Kanal aus. Wenn ein Profil für den ausgewählten Zeitraum bereits drei Marketing-E-Mails und zwei Marketing-SMS-Nachrichten erhalten hat, wird dieses Profil vom nächsten Versand einer Marketing-E-Mail oder SMS-Nachricht ausgeschlossen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Erstellung der Regel zu bestätigen. Ihre Nachricht wird dem Regelsatz mit dem Status **[!UICONTROL Entwurf]** hinzugefügt.
 
@@ -166,4 +168,4 @@ In this scenario, an individual profile:
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

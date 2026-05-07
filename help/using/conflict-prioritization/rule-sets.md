@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 96%
+source-wordcount: '1067'
+ht-degree: 94%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 96%
 
 ### Was sind Regelsätze? {#what}
 
-Mit Regelsätzen können **mehrere Regeln zu Regelsätzen gruppiert** und auf die gewünschten Journeys und Kampagnen angewendet werden. Dies bietet eine verbesserte Granularität, um zu begrenzen, wie oft und in wie viele Journeys Kundinnen und Kunden innerhalb eines bestimmten Zeitrahmens eintreten können, oder mit der gesteuert wird, wie oft Benutzende je nach Kommunikationstyp eine Nachricht erhalten.
+Mit Regelsätzen können **mehrere Regeln zu Regelsätzen gruppiert** und auf die gewünschten Journeys und Kampagnen angewendet werden. Dies bietet eine verbesserte Granularität, die begrenzt, wie oft und in wie viele Journeys Kundinnen und Kunden innerhalb eines bestimmten Zeitrahmens eintreten können, oder die steuert, wie oft Benutzende je nach Kommunikationsart eine Nachricht erhalten.
 
 Es können zwei Arten von Regelsätzen erstellt werden:
 
 * Regelsätze des Typs **Kanal** wenden Begrenzungsregeln auf Kommunikationskanäle an. Sie ermöglichen es Ihnen, Folgendes festzulegen:
 
-   * **Regeln für die Frequenzbegrenzung**: *Senden Sie nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.*
+   * **Regeln zur Frequenzlimitierung** - *Senden Sie nicht mehr als 1 E-Mail-, SMS-, Push-, Briefpost- oder WhatsApp-Kommunikation pro Tag.*
    * **Regeln für ruhige Stunden** - *Senden Sie keine E-Mail-Nachrichten außerhalb des Zeitfensters von 8:00 bis 21:00 Uhr.*
 
 * **Journey**-Regelsätze wenden Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. Lassen Sie Profile beispielsweise nicht in mehrere Journeys gleichzeitig eintreten.
@@ -53,7 +53,7 @@ Weitere Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../admi
 
 Wenn Sie zum ersten Mal über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Geschäftsregeln]** auf Regelsätze zugreifen, wird ein Standardregelsatz vorab erstellt und aktiviert: der **globale Standardregelsatz**.
 
-Dieser Regelsatz enthält globale Regeln, die angewendet werden können, um zu steuern, wie oft Benutzende Nachrichten über einen oder mehrere Kanäle erhalten. Alle in diesem Regelsatz definierten Regeln gelten für alle ausgewählten Kanäle, unabhängig davon, ob Nachrichten von einer Journey oder einer Kampagne gesendet werden. 
+Dieser Regelsatz enthält globale Regeln, die angewendet werden können, um zu steuern, wie oft Benutzende Nachrichten über einen oder mehrere Kanäle erhalten. Alle in diesem Regelsatz definierten Regeln gelten für alle ausgewählten Kanäle, unabhängig davon, ob Nachrichten von einer Journey oder einer Kampagne gesendet werden.
 
 Zusätzlich zu diesem „Globalen Standardregelsatz“ können **Regelsätze** erstellt werden, die auf jede Journey oder Kampagne angewendet werden können, um bestimmte Begrenzungsregeln anzuwenden. [Weitere Informationen zum Erstellen benutzerdefinierter Regelsätze](#create)
 
@@ -92,7 +92,7 @@ NOT USED?
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_capping"
 >title="Regelbegrenzung"
->abstract="Legen Sie die Begrenzung für Ihre Regel fest.  Abhängig von der Regelsatz-Domain und der Auswahl im Feld „Regeltyp“ kann dieses Feld die maximale Anzahl an Nachrichten definieren, die an ein Profil gesendet werden können, oder die maximale Anzahl an Journeys, in die das Profil eintreten oder an denen das Profil gleichzeitig teilnehmen kann."
+>abstract="Legen Sie die Begrenzung für Ihre Regel fest. Abhängig von der Regelsatz-Domain und der Auswahl im Feld „Regeltyp“ kann dieses Feld die maximale Anzahl an Nachrichten definieren, die an ein Profil gesendet werden können, oder die maximale Anzahl an Journeys, in die das Profil eintreten oder an denen das Profil gleichzeitig teilnehmen kann."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_business_rules"
@@ -114,7 +114,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 1. Wählen Sie die Regelsatz-Domain aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
    * **Kanal**-Domain: wendet Begrenzungsregeln oder Regeln für Ruhezeiten auf Kommunikationskanäle an.
-   * **Journey**-Domain: wendet Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. 
+   * **Journey**-Domain: wendet Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an.
 
    ![](assets/rule-sets-create.png)
 
@@ -148,7 +148,7 @@ Gehen Sie wie folgt vor, um einen Regelsatz zu erstellen:
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
-1. Ein Regelsatz kann je nach der bei der Erstellung des Regelsatzes ausgewählten Domain auf eine Nachricht oder eine Journey angewendet werden. 
+1. Ein Regelsatz kann je nach der bei der Erstellung des Regelsatzes ausgewählten Domain auf eine Nachricht oder eine Journey angewendet werden.
 
    Weitere Informationen zum Anwenden von Regelsätzen sind in den folgenden Abschnitten verfügbar:
 
@@ -182,4 +182,4 @@ Der Status ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird nicht meh
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444735?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
