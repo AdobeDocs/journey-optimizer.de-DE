@@ -10,9 +10,9 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
+source-git-commit: 615c970210894c9d189f86b7ed6363593c39f6d7
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1900'
 ht-degree: 4%
 
 ---
@@ -147,11 +147,11 @@ Wenn Ihr Journey ein oder mehrere Ereignisse enthält, können Sie diese mit ein
 
 ## Anzeigen von Ergebnissen {#viewing-results}
 
-Auf **[!UICONTROL Registerkarte]** Ergebnisse“ können Sie die Testergebnisse anzeigen. Verwenden Sie den Ansichtsselektor, um festzulegen, wie das Protokoll durchsucht werden soll:
+Auf **[!UICONTROL Registerkarte]** Ergebnisse“ können Sie die Testergebnisse anzeigen. Wählen **[!UICONTROL in der Dropdown]** Liste Testbenutzer den simulierten Benutzer aus, dessen Ausführung Sie überprüfen möchten.
 
-* **Alle simulierten Benutzer**: Wählen Sie **[!UICONTROL Alle]** aus, um die Ergebnisse für alle simulierten Benutzer in der Ausführung aggregiert anzuzeigen. In dieser Ansicht können Sie die gesamte Simulation auf einen Blick scannen, ohne zuerst einen einzelnen simulierten Benutzer auszuwählen, d. h. Aktivität, Ergebnisse und Fehler.
-
-* **Ein simulierter Benutzer**: Wählen Sie in der Dropdown **[!UICONTROL Liste „Benutzer testen]** den simulierten Benutzer aus, dessen Ausführung Sie überprüfen möchten.
+<!--
+* **All simulated users**: Select **[!UICONTROL All]** to see results aggregated across every simulated user in the run. This view helps you scan the full simulation at a glance, activity, outcomes, and errors, without picking a single simulated user first.
+-->
 
 Für jede Aktivität kann das Protokoll anzeigen, ob der simulierte Benutzer in den Schritt eingetreten ist oder ihn verlassen hat, sowie auf Fehler, die während der Simulation aufgetreten sind.
 
