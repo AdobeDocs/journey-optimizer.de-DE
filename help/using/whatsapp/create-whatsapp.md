@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 88%
+source-wordcount: '986'
+ht-degree: 86%
 
 ---
 
@@ -69,6 +69,10 @@ Auf den folgenden Registerkarten finden Sie weitere Informationen dazu, wie Sie 
    Weitere Informationen zur Konfiguration der Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
    Das Feld **[!UICONTROL Konfiguration]** ist standardmäßig mit der letzten Konfiguration für den Kanal vorausgefüllt, den die Benutzerin oder der Benutzer verwendet hat.
+
+1. Im Abschnitt **[!UICONTROL Geschäftsregeln]** können Sie einen Regelsatz anwenden, um den Kommunikationsdruck auf WhatsApp-Nachrichten zu steuern.
+
+   Erfahren Sie mehr [Regelsätze](../conflict-prioritization/rule-sets.md), [Frequenzlimitierung für Kanäle](../conflict-prioritization/channel-capping.md) und [ruhige Stunden](../conflict-prioritization/quiet-hours.md).
 
 Sie können jetzt mit der Erstellung des Inhalts Ihrer WhatsApp-Nachricht beginnen, indem Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** klicken, wie unten beschrieben.
 
