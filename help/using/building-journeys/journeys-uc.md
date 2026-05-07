@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: Anwendungsfall, mehrere Kanäle, Nachrichten, Journey, Kanal, Ereignisse, Push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '769'
-ht-degree: 100%
+source-git-commit: e74f16a98b70e97a9b18d0561100e1214ccff256
+workflow-type: tm+mt
+source-wordcount: '1060'
+ht-degree: 73%
 
 ---
 
@@ -92,9 +92,9 @@ Das Ereignis ist jetzt konfiguriert und kann in der Journey verwendet werden. Mi
 
 1. Fügen Sie ein Ereignis vom Typ **Reaktion** hinzu und wählen Sie **E-Mail geöffnet**. Das Ereignis wird ausgelöst, sobald ein zur Zielgruppe gehörender Kontakt die E-Mail öffnet.
 
-1. Aktivieren Sie das Kontrollkästchen **Maximale Wartezeit für das Ereignis definieren**, definieren Sie eine Dauer (in diesem Beispiel 1 Tag) und aktivieren Sie **Zeitüberschreitungspfad einrichten**. Dadurch wird ein weiterer Pfad für Einzelpersonen erstellt, die die erste Push- oder E-Mail-Nachricht nicht öffnen.
+1. Aktivieren Sie das Kontrollkästchen **Timeout für das Ereignis definieren**, definieren Sie eine Dauer (in diesem Beispiel 1 Tag) und aktivieren Sie **Zeitüberschreitungspfad einrichten**. Dadurch wird ein weiterer Pfad für Einzelpersonen erstellt, die die erste Push- oder E-Mail-Nachricht nicht öffnen.
 
-1. Legen Sie im Pfad der maximalen Wartezeit die Aktionsaktivität **E-Mail** ab und definieren Sie den Inhalt der Folgenachricht. Diese Nachricht wird an Personen gesendet, die die erste E-Mail- oder Push-Nachricht nicht innerhalb des nächsten Tages öffnen. [Erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten](../email/create-email.md).
+1. Legen Sie im Pfad des Timeouts die Aktionsaktivität **E-Mail** ab und definieren sie den Inhalt der Folgenachricht. Diese Nachricht wird an Personen gesendet, die die erste E-Mail- oder Push-Nachricht nicht innerhalb des nächsten Tages öffnen. [Erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten](../email/create-email.md).
 
 1. Fügen Sie im ersten Pfad das zuvor erstellte Kaufereignis hinzu. Dieses Ereignis wird ausgelöst, wenn ein Kontakt einen Kauf tätigt.
 
@@ -102,8 +102,43 @@ Das Ereignis ist jetzt konfiguriert und kann in der Journey verwendet werden. Mi
 
 ## Testen und Veröffentlichen der Journey
 
-1. Stellen Sie vor dem Testen der Journey sicher, dass sie gültig ist und kein Fehler vorliegt. 
+1. Stellen Sie vor dem Testen der Journey sicher, dass sie gültig ist und kein Fehler vorliegt.
 
 1. Verwenden Sie den Umschalter **Test** in der oberen rechten Ecke, um den Testmodus zu aktivieren. In diesem [Abschnitt](testing-the-journey.md) erfahren Sie, wie Sie den Testmodus verwenden.
 
 1. Wenn die Journey fertig ist, veröffentlichen Sie diese mit der Schaltfläche **Veröffentlichen** rechts oben.
+
+## Mehrphasen-Treue-Journey {#multi-phase-loyalty}
+
+Dieses Beispiel veranschaulicht ein wichtiges Journey-Architekturmuster: Ein komplexes, mehrphasiges Journey wird in kleinere, fokussierte Unter-Journey zerlegt, die mit der Aktivität [**[!UICONTROL Springen]**](jump.md) verbunden sind. Als Szenario dient ein Treueprogramm, aber dieses Muster gilt für alle Journey, die mehrere Meilensteine oder Geschäftsphasen umfassen.
+
+Komplexe mehrphasige Journey generieren schnell eine große Anzahl von Kundenpfaden. Durch die Zerlegung in eine Sub-Journey pro Phase ist jede Journey verwaltbar, testbar und unabhängig wartbar.
+
+### Szenario
+
+Stellen Sie sich ein Treueprogramm vor, das Kundinnen und Kunden mithilfe von zwei Marketing-Kanälen (E[Mail](../email/create-email.md) und [Push](../push/create-push.md)) durch drei Meilensteine führt:
+
+1. **Phase 1 - Mobile App herunterladen:** Erste Mitteilungen ermutigen neue Mitglieder des Treueprogramms, die App herunterzuladen. Eine Folgenachricht wird gesendet, wenn der Kunde nicht innerhalb eines bestimmten Zeitraums gehandelt hat.
+1. **Phase 2 - Erste Transaktion durchführen:** Nach dem Herunterladen der App leiten zielgerichtete Nachrichten Kunden zur Durchführung ihrer ersten Treuetransaktion.
+1. **Phase 3 - Zweite Transaktion durchführen:** Nach der ersten Transaktion steuert ein endgültiger Satz von Nachrichten eine zweite Transaktion, um die Interaktion mit Treueprogrammen zu vertiefen.
+
+Selbst bei dieser einfachen Strategie zeigt diese Journey mehr als 20 einzigartige Pfade auf, die ein Kunde einschlagen kann. Die Komplexität steigt exponentiell mit jedem zusätzlichen Touchpoint oder Kanal.
+
+### Sub-Journey-Zerlegung
+
+Teilen Sie den End-to-End-Journey in drei kleinere, verbundene Unter-Journey auf:
+
+| Sub-Journey | Einreisebedingung | Unternehmensziel |
+|---|---|---|
+| Phase 1 — App-Download | Kunde tritt dem Treueprogramm bei | Mobile App-Download fördern |
+| Phase 2 — Erste Transaktion | Kunde lädt App herunter | Erste Treuetransaktion fördern |
+| Phase 3 — Zweite Transaktion | Kunde schließt erste Transaktion ab | Zweite Treuetransaktion fördern |
+
+Verbinden Sie die Unterprofile mit der Aktivität [**[!UICONTROL Springen]**](jump.md), sodass die Journey nahtlos von einer Phase zur nächsten übergehen. Jede Sub-Journey bleibt einfach, lesbar und unabhängig wartbar.
+
+<!--
+>[!NOTE]
+>
+>If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
+-->
+
