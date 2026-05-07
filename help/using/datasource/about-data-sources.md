@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Daten, Quelle, Journey, Plattform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: f79d37ff0d1e73fb415985ae918cd28e438e3b3f
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 54%
+source-wordcount: '917'
+ht-degree: 42%
 
 ---
 
@@ -44,7 +44,7 @@ Es gibt zwei Arten von Datenquellen:
 
 >[!NOTE]
 >
->Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie in [diesem Abschnitt](../action/action-response.md).
+>Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden. Weitere Informationen zu Antworten finden Sie in [diesem Abschnitt](../action/action-response.md).
 
 Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen abgerufen werden sollen. Feldergruppen sind Gruppen von Feldern, die aus einer Datenquelle abgerufen werden können. Weitere Informationen finden Sie auf [dieser Seite](../datasource/configure-data-sources.md#define-field-groups).
 
@@ -65,6 +65,12 @@ Stellen Sie zur Journey-Laufzeit eine direkte Verbindung zu einer externen API h
 
 Erfahren Sie mehr über [benutzerdefinierte Aktionen](../action/action.md) und [benutzerdefinierte &#x200B;](../action/action-response.md).
 
+>[!TIP]
+>
+>Diese Option eignet sich gut, wenn Sie **beiden Fragen** ja“ beantworten:
+>* Sind die Daten nur innerhalb des Journey-Kontexts nützlich und werden sie an anderer Stelle nicht benötigt? Wenn die Daten auch für Zielgruppen oder andere Kanäle benötigt werden, ziehen Sie die Optionen 2 oder 3 in Betracht.
+>* Ist der Zugriff auf das externe System über einen API-Endpunkt möglich, der die erforderlichen Attribute zurückgibt? Andernfalls müssen Sie die Daten zuerst in den Data Lake aufnehmen.
+
 **Option 2 — Datensatz im Data Lake, nicht für Profil aktiviert**
 
 Nehmen Sie Daten in einen Datensatz auf, um Journey auf der Grundlage kontextueller Ereignisdaten Trigger zu erstellen und zu personalisieren, ohne zum Echtzeit-Kundenprofil beizutragen. Am besten geeignet, wenn:
@@ -72,12 +78,26 @@ Nehmen Sie Daten in einen Datensatz auf, um Journey auf der Grundlage kontextuel
 * Datensätze enthalten ein Identitätsfeld, das für den Zugriff auf Profile verwendet werden kann, die bereits in Experience Platform gespeichert sind.
 * Die Daten werden nicht für die Erstellung von Zielgruppen oder die Identitätszuordnung außerhalb von Journey Optimizer benötigt.
 
+>[!TIP]
+>
+>Diese Option eignet sich gut, wenn Sie **beiden Fragen** ja“ beantworten:
+>* Enthalten Datensätze ein Identitätsfeld, das für den Zugriff auf Profile verwendet werden kann, die bereits in Experience Platform gespeichert sind? Andernfalls können Journey nicht auf Profile zugreifen und sie nicht an sie senden.
+>* Werden die Daten NICHT für die Erstellung [&#x200B; Zielgruppe oder &#x200B;](../audience/about-audiences.md) Identitätszuordnung außerhalb von Journey Optimizer benötigt? Ist dies der Fall, verwenden Sie stattdessen Option 3.
+
 **Option 3 - Profil-aktivierter Datensatz im Data Lake**
 
 Nehmen Sie Daten in einen [profilaktivierten Datensatz](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} auf, um Zielgruppen zu erstellen, Identitätsdiagramme anzureichern und Daten über mehrere Journey- und RT-CDP-Ziele hinweg zu nutzen. Am besten geeignet, wenn:
 
 * Die Daten sind für Zielgruppendefinitionen nützlich, die in Kanälen außerhalb von Journey Optimizer verwendet werden.
 * Die Daten enthalten mehrere Identitäten, die zu umfangreicheren, zusammengefügten Profilfragmenten beitragen.
+
+>[!CAUTION]
+>
+>**Bevor Sie einen Datensatz für Profil aktivieren** sollten Sie die folgenden Bereiche bewerten:
+>* **Datensynchronisation** - Externe Datenbanken müssen mit Warnhinweisen synchronisiert werden, um Aufnahmefehler zu identifizieren.
+>* **[Profil-](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"}**: Profilspezifische Leitplanken gelten zusätzlich zu den &quot;[&#x200B; Leitplanken für die Datenaufnahme](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/guardrails){target="_blank"} für Experience Platform.
+>* **Identitätsintegrität** - Identitätsdaten in Ihren Quellsystemen müssen sorgfältig geplant werden, um gesunde Identitätsdiagramme zu erhalten.
+>* **Data Lake-Nutzung** - Der gesamte Speicherverbrauch, Tabellenbeziehungen und adressierbare Profile müssen vor der Aufnahme bewertet werden.
 
 | | Im Data Lake persistierte Daten | Datensatz für Profil aktiviert |
 | --- | --- | --- |

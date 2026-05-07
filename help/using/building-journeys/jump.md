@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Springen, Aktivität, Journey, Aufspaltung, Aufspalten
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
+source-git-commit: 96b003c3e45550e89454366387a6aea20cfea9c8
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1405'
 ht-degree: 60%
 
 ---
@@ -108,7 +108,7 @@ Erstellen Sie jede Phase als separate Journey in Journey Optimizer und verwenden
 
 >[!TIP]
 >
->Eine ausführliche Anleitung zu diesem Ansatz finden Sie unter [Best Practices für fortgeschrittene Journey in Journey Optimizer](https://experienceleague.adobe.com/de/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Ein funktionierendes Beispiel mit einem mehrphasigen Treueprogramm finden Sie unter [Mehrphasen-Treueprogramm-Journey](journeys-uc.md#multi-phase-loyalty).
 
 ## Konfigurieren der Sprungaktivität {#jump-configure}
 
