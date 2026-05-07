@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
+source-git-commit: e1b650bb5997017748875bcc4e4e33db12847658
 workflow-type: tm+mt
 source-wordcount: '2609'
 ht-degree: 17%
@@ -127,7 +127,7 @@ Die Veröffentlichung der folgenden Funktionen und Verbesserungen ist für die n
 <p>Es ist jetzt möglich, über eine dedizierte Option in der E-Mail-Designer Deeplinks zu Ihren E-Mail-Inhalten hinzuzufügen.</p><p>Dadurch wird sichergestellt, dass Benutzende direkt zu den richtigen In-App-Inhalten geleitet werden, anstatt zu Browsern oder App-Stores weitergeleitet zu werden, wodurch der Kontext und die Interaktion erhalten bleiben.</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>Weitere Informationen finden Sie in der <a href="../email/message-tracking.md">ausführlichen Dokumentation</a>.</p>
-<p>Verfügbarkeitsdatum: 7. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 11. Mai 2026</p>
 </td>
 </tr>
 </tbody>
