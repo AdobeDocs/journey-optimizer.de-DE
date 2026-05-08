@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung, Orchestrierung
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
 workflow-type: tm+mt
-source-wordcount: '5191'
-ht-degree: 93%
+source-wordcount: '5290'
+ht-degree: 91%
 
 ---
 
@@ -541,26 +541,26 @@ Erfahren Sie mehr über [Journey-Live-Reporting](report-journey.md).
 
 **Häufige Gründe und Lösungen**:
 
-* **Einverständnisprobleme**: Empfangende haben sich nicht für den Empfang von Nachrichten angemeldet
-Lösung: Überprüfen Sie Einverständnisrichtlinien und Opt-in-Status
+* **Einverständnisprobleme**: Empfänger haben sich nicht für den Erhalt von Nachrichten angemeldet
+Lösung: Einverständnisrichtlinien und Opt-in-Status überprüfen
 
 * **Unterdrückungsliste**: E-Mail-Adressen befinden sich auf der Unterdrückungsliste
 Lösung: Überprüfen Sie die Unterdrückungsliste auf Bounces oder Beschwerden
 
 * **Ungültige Kontaktinformationen**: Fehlende oder falsch formatierte E-Mail-Adressen/Telefonnummern
-Lösung: Validieren Sie die Profildatenqualität
+Lösung: Validieren der Profildatenqualität
 
 * **Journey nicht veröffentlicht**: Die Journey befindet sich noch im Entwurfsmodus
 Lösung: Veröffentlichen Sie die Journey, um sie zu aktivieren
 
-<!--
+  <!--
  
-* **Message not approved**: Message content requires approval before sending
+  * **Message not approved**: Message content requires approval before sending
   Solution: Submit for approval or check approval status
--->
+  -->
 
 * **Kanalkonfigurationsproblem**: E-Mail-/SMS-Konfiguration ist falsch
-Lösung: Überprüfen Sie die Kanalkonfigurationen und -authentifizierung
+Lösung: Überprüfen der Kanalkonfigurationen und -authentifizierung
 
 Erfahren Sie mehr über [Fehlerbehebung](troubleshooting.md) und [Einverständnisverwaltung](../action/consent.md).
 
@@ -584,7 +584,7 @@ Sie können mir dem **Personalisierungseditor** Nachrichten personalisieren.
 * „Entsprechend Ihrer Treuestufe (`{{profile.loyaltyTier}}`) erhalten Sie hier ein Sonderangebot“
 * Dynamische Inhaltsbausteine, die sich je nach Kundenvorlieben ändern
 
-Erhalten Sie mehr über [Personalisierung](../personalization/personalize.md). 
+Erhalten Sie mehr über [Personalisierung](../personalization/personalize.md).
 
 +++
 
@@ -592,7 +592,7 @@ Erhalten Sie mehr über [Personalisierung](../personalization/personalize.md).
 
 Ja. Verwenden Sie eine **[Aktivität „Optimieren](conditions.md)**, um Profile basierend auf ihrem bevorzugten Kanal zu routen:
 
-1. Fügen Sie [&#x200B; Journey eine Aktivität &#x200B;](optimize.md)Optimieren“ hinzu
+1. Fügen Sie [ Journey eine Aktivität ](optimize.md)Optimieren“ hinzu
 2. Erstellen Sie einen Pfad für jeden Kanal, indem Sie das Profilattribut des bevorzugten Kanals überprüfen (z. B. `profile.preferredChannel`).
 3. Konfigurieren von kanalspezifischen Pfaden:
    * **E-Mail-Pfad**: Fügen Sie eine [E-Mail-Aktion](../email/create-email.md) mit für E-Mails optimierten Inhalten hinzu
@@ -933,7 +933,7 @@ Erfahren Sie mehr über [Journey-Design](using-the-journey-designer.md) und [Lei
 
 * Verwenden Sie [Testmodus](testing-the-journey.md) und [Probelauf](journey-dry-run.md), um die Leistung vor der Veröffentlichung zu überprüfen
 * Minimieren Sie externe API-Aufrufe durch [benutzerdefinierte Aktionen](using-custom-actions.md), um Latenz und Abhängigkeit von Drittanbietersystemen zu vermeiden
-* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [&#x200B; nach Möglichkeit die Datensatzsuche &#x200B;](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
+* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [ nach Möglichkeit die Datensatzsuche ](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
 * Überprüfen und optimieren Sie die Leistung des [Nachrichtenversands](journey-action.md)
 
 Erfahren Sie mehr über [Leitlinien und Einschränkungen](../start/guardrails.md).
@@ -948,4 +948,4 @@ Detailliertere Informationen und Updates finden Sie in den folgenden Ressourcen:
 * [Erstellen Ihrer ersten Journey](journey-gs.md)
 * [Handbücher zur Fehlerbehebung](troubleshooting.md)
 * [Anwendungsfälle für Journeys](jo-use-cases.md)
-* [Produktbeschreibung zu Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

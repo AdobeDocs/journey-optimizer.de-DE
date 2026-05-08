@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration, Subdomain
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
+source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 86%
+source-wordcount: '1214'
+ht-degree: 95%
 
 ---
 
@@ -116,10 +116,10 @@ Gehen Sie wie folgt vor, um personalisierte Variablen für die Kopfzeilenparamet
    Beispiel: Sie möchten dynamische E-Mails im Namen einer Person im Beziehungs-Management senden, deren Details im Kundenprofil hinterlegt sind, sodass jede Kundin und jeder Kunde mit einer Person im Beziehungs-Management verknüpft ist. In einer [Journey](../building-journeys/journey-gs.md) kann die E-Mail-Kopfzeile (Absendername, Absender-E-Mail, Antwortadresse) mit den Parametern der Person im Beziehungs-Management personalisiert werden, die aus den Profilattributen entnommen werden.
 
    <!--
-In den folgenden Beispielen werden Ereignisparameter verwendet, die derzeit nicht verfügbar sind.
-
-    Angenommen, Sie möchten die im Namen eines Verkaufsassistenten gesendeten E-Mails dynamisch verarbeiten, wobei der Verkaufsassistent über kontextuelle Parameter eines Ereignisses oder einer Kampagne abgerufen wird. Beispiel: Wenn in einer [Journey](../building-journeys/journey-gs.md) ein Kaufereignis mit dem Verkaufsassistenten eines bestimmten Shops verknüpft ist, kann die E-Mail-Kopfzeile (Absendername, Absender-E-Mail, Antwortadresse) mit den Parametern des Verkaufsassistenten personalisiert werden, die aus den Ereignisattributen entnommen werden. In einer [API-ausgelösten Kampagne](../campaigns/api-triggered-campaigns.md), die extern von einem Vertriebsassistenten initiiert wird, kann die ausgelöste E-Mail im Namen des Vertriebsassistenten gesendet werden und die Header-Personalisierungswerte können aus den kontextuellen Parametern der Kampagne übernommen werden.
--->
+    The examples below use event parameters, which are currently not available.
+    
+    Let's say you want to handle dynamically emails sent on behalf of a sales assistant, where the sales assistant is retrieved from an event or campaign contextual parameters. For example: In a [journey](../building-journeys/journey-gs.md), when a purchase event is linked to the sales assistant of a specific shop, the email header (sender name, sender email, reply to address) can be personalized with the sales assistant parameters, taken from the event attributes. In an [API-triggered campaign](../campaigns/api-triggered-campaigns.md), initiated externally by a sales assistant, the triggered email can be sent on behalf of the sales assistant and the header personalization values taken from campaign contextual parameters.
+    -->
 
 1. Wiederholen Sie die obigen Schritte für jeden Parameter, den Sie personalisieren möchten.
 
