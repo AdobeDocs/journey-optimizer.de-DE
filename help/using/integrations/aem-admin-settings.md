@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, Inhaltsfragmente, Administration, Repository, Authentifizierung, Autor, Veröffentlichung
-source-git-commit: edea85366fb6f3a031c0eaec321e6d37bb41dd18
+source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -52,15 +52,15 @@ So konfigurieren Sie Ihr Repository:
 
 1. Wählen Sie Ihr Setup:
 
-   >[!BEGINTABS]
-
-   >[!TAB Setup nur für Autor]
+   +++ Setup nur für Autor
 
    Wählen Sie **[!UICONTROL Nur Autoren-Setup]** aus, wenn Journey Optimizer nur Inhaltsfragmente aus der Adobe Experience Manager-**Autoren**-Umgebung lesen soll. Die Replikation von Autoren- zu Veröffentlichungs- und Live-Veröffentlichungsaktualisierungen wird nicht unterstützt.
 
    ![](assets/aem-admin-settings-3.png)
 
-   >[!TAB Einrichtung der Veröffentlichungsinstanz]
+   +++
+
+   +++ Einrichtung der Veröffentlichungsinstanz
 
    1. Wählen Sie **[!UICONTROL Veröffentlichungsinstanz einrichten]** aus, um die Einstellungen der Veröffentlichungsinstanz zu aktivieren.
 
@@ -74,7 +74,7 @@ So konfigurieren Sie Ihr Repository:
 
       ![](assets/aem-admin-settings-5.png)
 
-   >[!ENDTABS]
+   +++
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
