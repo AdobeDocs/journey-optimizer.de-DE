@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 23191f22b6314f9d08cb12da8027bfbbf9550c34
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3312'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Effizientes Arbeiten {#work-efficiently}
       + [Navigieren in der Benutzeroberfläche](using/start/user-interface.md)
       + [Suchen, Filtern und Organisieren](using/start/search-filter-categorize.md)
-      + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Barrierefreiheit](using/start/accessibility.md)
       + {hide-from-toc}[Journey vs. Kampagnen](using/start/journeys-vs-campaigns.md)
 + Journeys {#orchestrate-journeys}
@@ -505,6 +505,7 @@ ht-degree: 90%
       + {hide-from-toc}[Arbeiten mit Experience Manager-Vorlagen](using/integrations/aem-templates.md)
       + Experience Manager-Inhaltsfragmente {#aem}
          + [Erste Schritte mit Experience Manager-Inhaltsfragmenten](using/integrations/aem-fragments-gs.md)
+         + {hide-from-toc}[Konfigurieren des Repositorys für Inhaltsfragmente](using/integrations/aem-admin-settings.md)
          + [Arbeiten mit Experience Manager-Inhaltsfragmenten](using/integrations/aem-fragments.md)
          + [Überlegungen und Fehlerbehebung](using/integrations/aem-fragments-limitations.md)
       + {hide-from-toc}[Arbeiten mit Experience Manager Content Advisor](using/content-management/aem-content-advisor.md)
