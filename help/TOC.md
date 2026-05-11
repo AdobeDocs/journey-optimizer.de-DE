@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 455f6d00c9f5e4377408ddf89c80444c56cb0d55
+source-git-commit: a0277e825a3e08f09ba0085f77b02dbec409747b
 workflow-type: tm+mt
-source-wordcount: '3307'
+source-wordcount: '3311'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Effizientes Arbeiten {#work-efficiently}
       + [Navigieren in der Benutzeroberfläche](using/start/user-interface.md)
       + [Suchen, Filtern und Organisieren](using/start/search-filter-categorize.md)
-      + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Barrierefreiheit](using/start/accessibility.md)
       + {hide-from-toc}[Journey vs. Kampagnen](using/start/journeys-vs-campaigns.md)
 + Journeys {#orchestrate-journeys}
@@ -896,6 +896,7 @@ ht-degree: 90%
    + [Erste Schritte bei der Kanalkonfiguration](using/configuration/get-started-configuration.md)
    + [Einrichten von Kanalkonfigurationen](using/configuration/channel-surfaces.md)
    + [Exportieren von Nachrichteninhalten](using/configuration/message-export.md)
+   + {hide-from-toc}[AJO-Nachrichtenexportschema](using/configuration/message-export-schema.md)
    + Geführte Kanaleinrichtung {#guided-setup}
       + [Erste Schritte mit der Anleitung zur Kanaleinrichtung](using/configuration/set-mobile-config.md)
       + [Erstellen einer Kanaleinrichtung](using/configuration/create-channel-set-up.md)
