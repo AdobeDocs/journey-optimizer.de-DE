@@ -29,7 +29,7 @@ ht-degree: 26%
 
 **Nachrichtenexport** ermöglicht Ihnen die Übertragung gesendeter E-Mail- und SMS-Nachrichteninhalte von [!DNL Journey Optimizer] an Ihren eigenen Speicher über [[!DNL Adobe Experience Platform] Ziele](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home){target="_blank"}, mit denen Sie Daten aus [!DNL Experience Platform] an externe Endpunkte senden können.
 
-Mit dieser Funktion wird der Inhalt von E-Mail- und SMS-Nachrichten, die über [!DNL Journey Optimizer] gesendet werden und für den Export markiert wurden, in den [!DNL Experience Platform] [AJO-Nachrichtenexportdatensatz ](message-export-schema.md).
+Mit dieser Funktion wird der Inhalt von E-Mail- und SMS-Nachrichten, die über [!DNL Journey Optimizer] gesendet werden und für den Export markiert wurden, in den [!DNL Experience Platform] [AJO-Nachrichtenexportdatensatz &#x200B;](message-export-schema.md).
 
 Datensätze werden dann sieben Kalendertage nach der Aufnahme im Datensatz aufbewahrt, während derer Sie sie in das externe System Ihrer Wahl exportieren können.
 
