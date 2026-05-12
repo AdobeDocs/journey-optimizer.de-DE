@@ -41,7 +41,7 @@ Um Deeplinks in E-Mails für Mobile Apps verwenden zu können, führen Sie die f
 
 1. Delegieren Sie in Journey Optimizer die Subdomain, für die die Deeplinking-Funktion aktiviert ist. [Weitere Informationen](../configuration/delegate-subdomain.md)
 
-1. Hosten Sie die AASA-Datei für iOS und die assetLinks.json-Datei für Android in Ihrer Subdomain. Wenden Sie sich mit den folgenden Informationen an die ](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}-Kundenunterstützung von [Adobe oder Ihren Adobe-Support-Mitarbeiter:
+1. Hosten Sie die AASA-Datei für iOS und die assetLinks.json-Datei für Android in Ihrer Subdomain. Wenden Sie sich mit den folgenden Informationen an die [&#128279;](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}-Kundenunterstützung von Adobe oder Ihren Adobe-Support-Mitarbeiter:
 
    * **Für iOS (AASA)**:
       * Delegierte Subdomain
