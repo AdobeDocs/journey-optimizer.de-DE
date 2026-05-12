@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a0277e825a3e08f09ba0085f77b02dbec409747b
+source-git-commit: d28376a9c7296dbb4e508dbb87b53658692e1e89
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3322'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Effizientes Arbeiten {#work-efficiently}
       + [Navigieren in der Benutzeroberfläche](using/start/user-interface.md)
       + [Suchen, Filtern und Organisieren](using/start/search-filter-categorize.md)
-      + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Häufig gestellte Fragen zur Fehlerbehebung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Barrierefreiheit](using/start/accessibility.md)
       + {hide-from-toc}[Journey vs. Kampagnen](using/start/journeys-vs-campaigns.md)
 + Journeys {#orchestrate-journeys}
@@ -317,6 +317,7 @@ ht-degree: 90%
          + [Header-Parameter](using/email/header-parameters.md)
          + [URL-Tracking](using/email/url-tracking.md)
          + [Personalisieren der E-Mail-Konfiguration](using/email/surface-personalization.md)
+         + [Konfigurieren von Deeplinks in E-Mails](using/email/deeplinks.md)
    + In-App-Kanal {#in-app}
       + [In-App-Kanal](/help/rp_landing_pages/in-app-landing-page.md)
       + [Erste Schritte mit In-App](using/in-app/get-started-in-app.md)
@@ -353,6 +354,7 @@ ht-degree: 90%
          + [Konfigurieren eines benutzerdefinierten Anbieters](using/sms/sms-configuration-custom.md)
          + [Erstellen eines Webhook](using/sms/sms-webhook.md)
          + [Erstellen einer SMS/MMS/RCS-Konfiguration](using/sms/sms-configuration-surface.md)
+         + [Benutzerdefinierten Datensatz für eingehende Keywords verwenden](using/sms/custom-dataset-inbound-keywords.md)
    + Direkt-Mail {#direct-mail}
       + [Direkt-Mail](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [Erste Schritte mit Direkt-Mail](using/direct-mail/get-started-direct-mail.md)
