@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: Export, Nachrichten, Datensatz, Schema, E-Mails, SMS
-source-git-commit: 9c3baf2558f81eb105c5bfbd98be6ede4ba49c65
+source-git-commit: cc84ad59f4233967c484c99651edb0558518c58c
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 37%
@@ -454,3 +454,4 @@ In diesem Abschnitt werden die im exportierten Datensatz verfügbaren Felder auf
 **Typ:** dateTime
 
 +++
+
