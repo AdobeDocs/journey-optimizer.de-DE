@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: Deeplink, Deep-Link, universelle Links, App-Links, E-Mail
-source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
+source-git-commit: 8efe5aaf0ebf24aa61decf40651c2ecc198ab0bc
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Um Deeplinks in E-Mails für Mobile Apps verwenden zu können, führen Sie die f
 
 1. Delegieren Sie in Journey Optimizer die Subdomain, für die die Deeplinking-Funktion aktiviert ist. [Weitere Informationen](../configuration/delegate-subdomain.md)
 
-1. Hosten Sie die AASA-Datei für iOS und die assetLinks.json-Datei für Android in Ihrer Subdomain. Wenden Sie sich mit den folgenden Informationen an die [&#128279;](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}-Kundenunterstützung von Adobe oder Ihren Adobe-Support-Mitarbeiter:
+1. Hosten Sie die AASA-Datei für iOS und die assetLinks.json-Datei für Android in Ihrer Subdomain. Wenden Sie sich mit den folgenden Informationen an die ](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}-Kundenunterstützung von [Adobe oder Ihren Adobe-Support-Mitarbeiter:
 
    * **Für iOS (AASA)**:
       * Delegierte Subdomain
@@ -307,3 +307,4 @@ Ja. UTM-Parameter, die Sie in [!DNL Journey Optimizer] konfigurieren, sind in de
 Der Link wird im Standard-Webbrowser des Geräts geöffnet (Standard-Klick-Tracking-Verhalten) und nicht wie ein App-Deep-Link durch den auf dieser Seite beschriebenen `mclick`-Fluss gehandhabt.
 
 +++
+
