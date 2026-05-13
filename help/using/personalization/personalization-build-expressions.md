@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+source-git-commit: ec0232dc13c259941e85d8e5d520e6ea523aacd8
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 95%
+source-wordcount: '1563'
+ht-degree: 93%
 
 ---
 
@@ -84,7 +84,7 @@ Im Navigationsbereich können Sie die Quelle für die Personalisierung auswähle
 * **[!UICONTROL Zielattribute]**: Dieser Ordner ist spezifisch für orchestrierte Kampagnen. Er enthält Attribute, die direkt auf der Kampagnen-Arbeitsfläche berechnet werden. [Informationen zum Hinzufügen von Personalisierungen in orchestrierten Kampagnen](../orchestrated/activities/channels.md#add-personalization)
 * **[!UICONTROL Zielgruppen]**: Listet alle im Segmentierungs-Service von Adobe Experience Platform erstellten Zielgruppen auf. Weitere Informationen finden Sie in der Dokumentation zur [Adobe Experience Platform-Segmentierung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
 * **[!UICONTROL Angebotsentscheidungen]**: Listet alle Angebote auf, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebote in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../offers/get-started/starting-offer-decisioning.md).
-* **[!UICONTROL Kontextattribute]**: Wenn eine Kanalaktionsaktivität (E-Mail, Push, SMS) in einer Journey oder Kampagne verwendet wird, stehen für die Personalisierung Kontextattribute im Zusammenhang mit Ereignissen und Eigenschaften zur Verfügung. Ein Beispiel für die Personalisierung mit kontextuellen Attributen finden Sie in [diesem Abschnitt](personalization-use-case.md). Darüber hinaus können Antworten benutzerdefinierter Aktionen für die Personalisierung verwendet werden. [Erfahren Sie, wie Sie Antworten benutzerdefinierter Aktionen in nativen Kanälen verwenden &#x200B;](../action/action-response.md#response-in-channels).
+* **[!UICONTROL Kontextattribute]**: Wenn eine Kanalaktionsaktivität (E-Mail, Push, SMS) in einer Journey oder Kampagne verwendet wird, stehen für die Personalisierung Kontextattribute im Zusammenhang mit Ereignissen und Eigenschaften zur Verfügung. Ein Beispiel für die Personalisierung mit kontextuellen Attributen finden Sie in [diesem Abschnitt](personalization-use-case.md). Darüber hinaus können Antworten benutzerdefinierter Aktionen für die Personalisierung verwendet werden. [Erfahren Sie, wie Sie Antworten benutzerdefinierter Aktionen in nativen Kanälen verwenden ](../action/action-response.md#response-in-channels).
 
 >[!NOTE]
 >
@@ -155,6 +155,10 @@ Im Navigationsbereich stehen zusätzliche Funktionen zur Verfügung, mit denen S
 * **[!UICONTROL Bedingungen]**: Nutzen Sie die in der Bibliothek erstellten bedingten Regeln, um dynamischen Content in Ihre Nachrichten einzufügen. Auf diese Weise können Sie basierend auf Bedingungen mehrere Varianten Ihrer Nachricht erstellen. [Informationen zum Erstellen von dynamischem Content](../personalization/get-started-dynamic-content.md)
 
 * **[!UICONTROL Fragmente]**: Nutzen Sie Ausdrucksfragmente, die in der aktuellen Sandbox erstellt oder gespeichert wurden. Ein Fragment ist eine wiederverwendbare Komponente, die in [!DNL Journey Optimizer]-Kampagnen und -Journeys referenziert werden kann. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Fachleute Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können. [Informationen zur Verwendung von Ausdrucksfragmenten](../personalization/use-expression-fragments.md)
+
+>[!TIP]
+>
+>Suchen Sie nach einsatzbereiten Ausdrücken? Die Seite **[Personalization-Rezepte](personalization-recipes.md)** enthält Muster zum Kopieren und Einfügen für die häufigsten Anwendungsfälle: Datumsformatierung, Countdown-Timer, bedingte Fallbacks, Nur-Zeit-Anzeige und mehr.
 
 Wenn Ihr Personalisierungsausdruck fertig ist, müssen Sie ihn vom Personalisierungseditor validieren lassen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../personalization/personalization-build-expressions.md).
 

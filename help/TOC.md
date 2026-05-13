@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3324'
 ht-degree: 98%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 98%
       + [Beenden der Journey](using/building-journeys/end-journey.md)
       + [Kopieren einer Journey in eine andere Sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
-      + {hide-from-toc}[Journey-Fragmente](using/building-journeys/journey-fragments.md)
    + Aktivitäten {#about-journey-building}
       + [Aktivitäten](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Erste Schritte mit Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
@@ -94,6 +93,7 @@ ht-degree: 98%
          + [Bedingungen](using/building-journeys/conditions.md)
       + [Zielgruppe lesen](using/building-journeys/read-audience.md)
       + [Warten](using/building-journeys/wait-activity.md)
+      + [Journey Fragments](using/building-journeys/journey-fragments.md)
       + [Inhaltsentscheidung](using/building-journeys/content-decision.md)
       + [Datensatzsuche](using/building-journeys/dataset-lookup.md)
       + [Aktion](using/building-journeys/journey-action.md)
@@ -455,6 +455,7 @@ ht-degree: 98%
          + [Zeichenfolgenfunktionen](using/personalization/functions/string.md)
       + Anwendungsfälle für die Personalisierung {#personalization-use-cases}
          + [Anwendungsfälle für die Personalisierung](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
+         + [Personalization-Rezepte](using/personalization/personalization-recipes.md)
          + [Benachrichtigung zum Bestellstatus](using/personalization/personalization-use-case.md)
          + [E-Mail zum Warenkorbabbruch](using/personalization/personalization-use-case-helper-functions.md)
          + [E-Mail mit den Rezepten eines Gesundheitsplans](using/personalization/perso-uc-plan-prescriptions.md)

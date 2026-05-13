@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 6d62604f975fce76860eba000a09870806d54934
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 89%
+source-wordcount: '608'
+ht-degree: 91%
 
 ---
 
@@ -90,6 +90,14 @@ Jetzt, da Sie über Kenntnisse zur Personalisierung in **[!DNL Journey Optimizer
 </div>
 <p></td>
 <td>
+<a href="../personalization/personalization-recipes.md">
+<img alt="Gelegentlich" src="assets/do-not-localize/uc.png">
+</a>
+<div>
+<a href="../personalization/personalization-recipes.md"><strong>Personalization-Rezepte</strong></a>
+</div>
+<p></td>
+<td>
 <a href="../personalization/personalization-use-case.md">
 <img alt="Gelegentlich" src="assets/do-not-localize/uc.png">
 </a>
@@ -103,7 +111,7 @@ Jetzt, da Sie über Kenntnisse zur Personalisierung in **[!DNL Journey Optimizer
 
 Erfahren Sie, wie Sie kontextuelle Ereignisinformationen von einer Journey verwenden können, um eine Nachricht zu personalisieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448148?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzufügen und die Zielgruppenzugehörigkeit als Vorbedingung für einen Personalisierungsbaustein verwenden.
 
@@ -111,6 +119,6 @@ Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzu
 
 Erfahren Sie, wie Sie den Personalisierungseditor-Playground nutzen können, um Personalisierungs-Code mithilfe von Beispieldaten zu schreiben und zu testen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475961?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 Weitere Video-Tutorials zu Personalisierungsfunktionen und Best Practices finden Sie in den [Personalisierungs-Tutorials](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}
