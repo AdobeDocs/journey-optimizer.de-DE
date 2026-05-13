@@ -57,7 +57,7 @@ Journey Optimizer enthält jetzt die neue Funktion **Kampagnenorchestrierung**, 
 
 ::::landing-cards-container
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Neueste Versionshinweise
 
@@ -67,7 +67,7 @@ Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserun
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erste Schritte
 
@@ -77,7 +77,7 @@ Lernen Sie die Grundlagen von Journey Optimizer kennen, einschließlich seiner F
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Umfassende Anleitung für Journeys
 
@@ -87,7 +87,7 @@ Entwerfen, orchestrieren, verwalten und optimieren Sie personalisierte Kunden-Jo
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=de)
 
 Grundlagen und Verwalten von Kampagnen
 
@@ -97,7 +97,7 @@ Detaillierte Anleitungen zum Erstellen, Verwalten und Optimieren verschiedener K
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 Kommunikationskanäle
 
@@ -107,7 +107,7 @@ Konfigurieren und verwalten Sie E-Mail, SMS, Push-Benachrichtigungen und andere 
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=de)
 
 Konflikt-Management und Priorisierung
 
