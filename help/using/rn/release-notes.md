@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 593d3e784bc260603423e1e6c70549b3a0e394d4
 workflow-type: tm+mt
-source-wordcount: 2609
-ht-degree: 81%
+source-wordcount: 2578
+ht-degree: 82%
 
 ---
 
@@ -51,6 +35,28 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 ## Updates vom Mai 2026 {#may-26-rn}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Fragments</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt <strong>Journey-Fragmente</strong> in Adobe Journey Optimizer erstellen. Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen.</p>
+<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente} in </strong> Journey eingefügt werden.</p>
+<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
+<p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-fragments.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 13. Mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -150,38 +156,20 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 * **Unterstützung und Tracking von WhatsApp-Schaltflächen** - WhatsApp-Vorlagen unterstützen jetzt **Schnellantwort**, **Call to action - URL** und **Call to action - Telefon**, **Code kopieren** wird nicht unterstützt. Journey Optimizer sendet unterstützte Schaltflächen und verfolgt Interaktionen zusammen mit Ihren anderen Kanalberichten.
 
-## Demnächst {#coming-soon}
+<!-- 
+## Coming soon {#coming-soon}
 
-Die Veröffentlichung der folgenden Funktionen und Verbesserungen ist für die nächsten Tage geplant. **Informationen können Änderungen unterliegen**. Aktualisierte Links, Bildschirme und Dokumentationen werden freigegeben, sobald diese Aktualisierungen live in der Produktion verfügbar sind.
+The following capabilities and enhancements are scheduled for release in the next few days. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
 
-### Neue Funktionen {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Fragments</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt <strong>Journey-Fragmente</strong> in Adobe Journey Optimizer erstellen. Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen.</p>
-<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente&rbrace; in </strong> Journey eingefügt werden.</p>
-<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
-<p>Diese Funktion steht nur einer Reihe von Organisationen zur Verfügung (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-fragments.md">detailed documentation</a>.</p-->
-<p>Verfügbarkeitsdatum: 12. Mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+### New capabilities {#comming-soon-features}
+-->
 
 ## Versionshinweise April &#39;26 {#april-26-rn}
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, werden mit ihrem Verfügbarkeitsdatum aufgeführt.
