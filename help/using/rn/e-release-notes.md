@@ -7,7 +7,8 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 source-git-commit: f561e5c548964d380ba7884c1e872e86db8409f3
 workflow-type: tm+mt
 source-wordcount: 1700
@@ -255,7 +256,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### Entscheidungsfindung
 
-* **Adobe Experience Manager-Inhaltsfragmente in Decisioning** - Sie können jetzt **Adobe Experience Manager-Inhaltsfragmente** in Experience Decisioning Angebotsattributen zuordnen. In Adobe Experience Manager erstellte personalisierte Inhalte können über Entscheidungsmodelle, Formeln und Rankings ausgewählt und optimiert werden. Pro Angebotselement können bis zu fünf AEM-Inhaltsfragmente hinzugefügt werden. Es können nur Inhaltsfragmente ausgewählt werden, die in AEM als **0}AJO aktiviert“ gekennzeichnet sind.**
+* **Adobe Experience Manager-Inhaltsfragmente in Decisioning** - Sie können jetzt **Adobe Experience Manager-Inhaltsfragmente** in Experience Decisioning Angebotsattributen zuordnen. In Adobe Experience Manager erstellte personalisierte Inhalte können über Entscheidungsmodelle, Formeln und Rankings ausgewählt und optimiert werden. Pro Angebotselement können bis zu fünf AEM-Inhaltsfragmente hinzugefügt werden. Es können nur Inhaltsfragmente ausgewählt werden, die in AEM als **0&rbrace;AJO aktiviert“ gekennzeichnet sind.**
 
   Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
