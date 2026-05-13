@@ -65,7 +65,7 @@ Sobald ein Datensatz für die Lookup-Personalisierung aktiviert wurde, können S
 
    +++Wo kann ich eine Datensatz-ID abrufen?
 
-   Datensatz-IDs können in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. Wie Sie mit Datensätzen arbeiten, erfahren Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   Datensatz-IDs können in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. Wie Sie mit Datensätzen arbeiten, erfahren Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
@@ -98,7 +98,7 @@ Sobald ein Datensatz für die Lookup-Personalisierung aktiviert wurde, können S
 
      +++Wo kann ich eine Feld-ID abrufen?
 
-     Feld-IDs können bei der Vorschau eines Datensatzes in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. Erfahren Sie in der Dokumentation zu [Adobe Experience Platform, wie Sie eine Vorschau von Datensätzen anzeigen können](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Feld-IDs können bei der Vorschau eines Datensatzes in der Benutzeroberfläche von Adobe Experience Platform abgerufen werden. Erfahren Sie in der Dokumentation zu [Adobe Experience Platform, wie Sie eine Vorschau von Datensätzen anzeigen können](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 

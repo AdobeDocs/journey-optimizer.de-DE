@@ -90,7 +90,7 @@ Nutzen Sie **kontextuelle Daten** aus Ereignissen, Informationen aus [!DNL Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 **Integrierte Aktionen**
 
@@ -110,7 +110,7 @@ Erstellen Sie **benutzerdefinierte Aktionen**, wenn Sie ein Drittanbietersystem 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 **Grafischer Journey-Designer**
 
@@ -151,7 +151,7 @@ Erkunden Sie umfassende End-to-End-Journey-Anwendungsfälle, die reale Implement
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 **Neue Abonnierende willkommen heißen**
 
@@ -171,7 +171,7 @@ Verwenden Sie die KI-gestützte Versandzeitoptimierung, um E-Mails dann zu verse
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 **Steigern der Versandaktivität**
 
@@ -209,7 +209,7 @@ Hier finden Sie Antworten auf häufig gestellte Fragen zur Journey-Erstellung, F
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 **Erstellen und Verwalten von Journeys**
 
@@ -219,7 +219,7 @@ Schrittweise Anleitungen zum Entwerfen, Testen, Veröffentlichen und Tracking vo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 **Journey-Aktivitäten**
 

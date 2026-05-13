@@ -37,7 +37,7 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
 
    >[!NOTE]
    >
-   >Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie in der [XDM-Systemübersichtsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
+   >Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie in der [XDM-Systemübersichtsdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
 
 1. Geben Sie einen Namen und eine Beschreibung für Ihr Schema ein und klicken Sie auf **Beenden**.
    ![](../../offers/assets/ai-ranking-xdm-event-2.png)
@@ -60,7 +60,7 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
 
 >[!NOTE]
 >
->Erfahren Sie mehr über das Erstellen von Schemas in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
+>Erfahren Sie mehr über das Erstellen von Schemas in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#understanding-schemas){target="_blank"}.
 
 Sie können jetzt einen Datensatz mit diesem Schema erstellen. Gehen Sie dazu wie folgt vor:
 

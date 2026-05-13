@@ -64,7 +64,7 @@ Klicken Sie auf das Symbol KI-Assistent in der oberen Leiste, um das Bedienfeld 
 
 >[!IMPORTANT]
 >
->Sie müssen den [Benutzerrichtlinien für generative KI von Adobe Experience Cloud zustimmen](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"} bevor Sie den KI-Assistenten verwenden.
+>Sie müssen den [Benutzerrichtlinien für generative KI von Adobe Experience Cloud zustimmen](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"} bevor Sie den KI-Assistenten verwenden.
 
 ### Was der KI-Assistent tun kann
 
@@ -94,7 +94,7 @@ Klicken Sie auf das Symbol KI-Assistent in der oberen Leiste, um das Bedienfeld 
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
 
-[Weitere Informationen zum KI-Assistenten in Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}
+[Weitere Informationen zum KI-Assistenten in Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}
 
 ## Erweiterte KI-Agenten für die Journey-Optimierung {#ai-agents}
 
@@ -116,7 +116,7 @@ Journey Agent umfasst zwei Kenntnisse im KI-Assistenten: Analysieren und Erstell
 
 #### Journey Analyze Skill {#journey-analyze-skill}
 
-Der [Journey Analyze Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} unterstützt Sie bei der Optimierung der Journey-Leistung durch eine Analyse in natürlicher Sprache:
+Der [Journey Analyze Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} unterstützt Sie bei der Optimierung der Journey-Leistung durch eine Analyse in natürlicher Sprache:
 
 +++**Schlüsselfunktionen**
 
@@ -139,7 +139,7 @@ Der [Journey Analyze Agent](https://experienceleague.adobe.com/en/docs/experienc
 
 #### Journey Create SKILL {#journey-create-skill}
 
-Mit dem [Journey Create Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
+Mit dem [Journey Create Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} können Sie Journey aus Spracheingaben erstellen und Ihre Ziele in strukturierte Journey-Konfigurationen übersetzen:
 
 +++**Schlüsselfunktionen**
 
@@ -161,7 +161,7 @@ Mit dem [Journey Create Agent](https://experienceleague.adobe.com/en/docs/experi
 
 ### Experimentation Agent {#experimentation-agent}
 
-[Experimentation Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} modernisiert die Ausführung und Verwaltung digitaler Experimente auf Websites, E-Mails, Push-Nachrichten und Anwendungen:
+[Experimentation Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} modernisiert die Ausführung und Verwaltung digitaler Experimente auf Websites, E-Mails, Push-Nachrichten und Anwendungen:
 
 +++**Schlüsselfunktionen**
 
@@ -194,9 +194,9 @@ Mit dem [Journey Create Agent](https://experienceleague.adobe.com/en/docs/experi
 
 ### Zusätzliche KI-Agenten
 
-**Audience Agent** - Für die konversative Audience-Exploration und -Verwaltung in Adobe Experience Platform, einschließlich Duplikaterkennung und Größenverfolgung. [Erfahren Sie mehr über Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - Für die konversative Audience-Exploration und -Verwaltung in Adobe Experience Platform, einschließlich Duplikaterkennung und Größenverfolgung. [Erfahren Sie mehr über Audience Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
-**Agent Orchestrator** - Koordiniert mehrere spezialisierte Agenten, um komplexe, mehrstufige Marketing-Herausforderungen zu lösen. Der Orchestrator bestimmt automatisch, welche Agenten beteiligt werden sollen, und sequenziert ihre Arbeit effizient. [Erfahren Sie mehr über Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+**Agent Orchestrator** - Koordiniert mehrere spezialisierte Agenten, um komplexe, mehrstufige Marketing-Herausforderungen zu lösen. Der Orchestrator bestimmt automatisch, welche Agenten beteiligt werden sollen, und sequenziert ihre Arbeit effizient. [Erfahren Sie mehr über Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
 ## KI-gestützte Inhaltserstellung {#content-generation}
 
@@ -325,7 +325,7 @@ Durchsuchen Sie Journey Optimizer-Playbooks nach gängigen Szenarien wie:
 
 +++
 
-[Alle verfügbaren Playbooks anzeigen](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html){target="_blank"} | [Weitere Informationen finden Sie in der Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[Alle verfügbaren Playbooks anzeigen](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=de){target="_blank"} | [Weitere Informationen finden Sie in der Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=de){target="_blank"}
 
 ## Zusätzliche KI-Funktionen {#additional-capabilities}
 

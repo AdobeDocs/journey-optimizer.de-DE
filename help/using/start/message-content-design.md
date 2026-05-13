@@ -58,7 +58,7 @@ Erfahren Sie mehr zum E-Mail-Design mit dem E-Mail-Designer, erstellen Sie respo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=de)
 
 Gestalten von Push-Benachrichtigungen
 
@@ -88,7 +88,7 @@ Erstellen Sie ansprechende In-App-Erlebnisse mit mehreren Layout-Optionen, einsc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=de)
 
 Personalisieren von Inhalten
 

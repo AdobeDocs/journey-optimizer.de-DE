@@ -49,7 +49,7 @@ Jede Phase besteht aus mehreren Durchgängen, denen Sie eine einzelne Kampagne z
 >id="ajo_admin_ip_warmup_domains_excluded"
 >title="Ausschließen von Domain-Gruppen"
 >abstract="Wählen Sie die Domains aus, die Sie aus der aktuellen Phase ausschließen möchten. Der Domain-Ausschluss erfordert eine nicht ausgeführte Phase, sodass Sie möglicherweise eine laufende Phase aufteilen müssen, um Ausschlüsse hinzuzufügen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Phase teilen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=de#split-phase" text="Phase teilen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -164,7 +164,7 @@ Nachdem Sie die Phasen Ihres IP-Aufwärmplans definiert haben, müssen Sie die e
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Optional können Sie ein Zeitfenster festlegen, in dem die IP-Aufwärmkampagne ausgeführt werden kann, falls es bei der (Zielgruppen[Auswertung zu Verzögerungen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Klicken Sie dazu auf das Symbol Eigenschaften oben links neben dem Namen des Plans und verwenden Sie die **[!UICONTROL Laufzeit wiederholen]** Dropdown-Liste, um eine Dauer von bis zu 240 Minuten (4 Stunden) auszuwählen.
+1. Optional können Sie ein Zeitfenster festlegen, in dem die IP-Aufwärmkampagne ausgeführt werden kann, falls es bei der (Zielgruppen[Auswertung zu Verzögerungen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#how-segmentation-works){target="_blank"}. Klicken Sie dazu auf das Symbol Eigenschaften oben links neben dem Namen des Plans und verwenden Sie die **[!UICONTROL Laufzeit wiederholen]** Dropdown-Liste, um eine Dauer von bis zu 240 Minuten (4 Stunden) auszuwählen.
 
    >[!NOTE]
    >
@@ -214,7 +214,7 @@ Um einen Durchlauf zu aktivieren, klicken Sie auf die Schaltfläche **[!UICONTRO
 
 Wenn Sie mehrere IP-Aufwärmpläne gleichzeitig ausführen, die alle auf denselben IP-Pool und dieselben Domains abzielen, ist es wichtig, die möglichen Folgen zu antizipieren. Wenn beispielsweise ein ISP ein tägliches Limit von 100 E-Mails erzwingt, kann die Ausführung mehrerer Pläne, die auf dieselben Domains abzielen, diesen Schwellenwert überschreiten.
 
-Vergewissern Sie sich, dass Sie genügend Zeit eingeplant haben, um die [Zielgruppenbewertung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} auszuführen.
+Vergewissern Sie sich, dass Sie genügend Zeit eingeplant haben, um die [Zielgruppenbewertung](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de#how-segmentation-works){target="_blank"} auszuführen.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -226,7 +226,7 @@ Beim Aktivieren eines Laufs werden automatisch mehrere Zielgruppen erstellt.
 
 * Beim Aktivieren des ersten Durchgangs einer Phase:
 
-   * Für [&#x200B; ausgeschlossenen Kampagnen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"}Audiences (sofern vorhanden) wird eine „Audience“ mit der folgenden Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
+   * Für [&#x200B; ausgeschlossenen Kampagnen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de){target="_blank"}Audiences (sofern vorhanden) wird eine „Audience“ mit der folgenden Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
 
    * Für die ausgeschlossenen Domain-Gruppen (falls vorhanden) wird eine Zielgruppe mit der folgenden Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
@@ -248,7 +248,7 @@ Beim Aktivieren eines Laufs werden automatisch mehrere Zielgruppen erstellt.
      >
      >Das System erstellt keine neue Zielgruppe, wenn sich der letzte Interaktionsfilter für nachfolgende Phasen nicht ändert.
 
-   * Eine [Zielgruppenkomposition](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"} wird entsprechend der Zielgruppe erstellt, an die die Kampagne gesendet wird, und zwar mit der folgenden Namenskonvention: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
+   * Eine [Zielgruppenkomposition](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=de){target="_blank"} wird entsprechend der Zielgruppe erstellt, an die die Kampagne gesendet wird, und zwar mit der folgenden Namenskonvention: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
      >[!NOTE]
      >

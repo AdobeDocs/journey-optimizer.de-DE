@@ -176,7 +176,7 @@ Gehen Sie wie folgt vor, um die Code-basierten Erlebniskonfigurationseinstellung
 
    >[!NOTE]
    >
-   >Wenn bei der Vorschau des Erlebnisses Probleme auftreten, lesen Sie bitte [diese Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >Wenn bei der Vorschau des Erlebnisses Probleme auftreten, lesen Sie bitte [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Andere Plattformen {#other}
 

@@ -119,7 +119,7 @@ Damit sich Ihre Empfänger von Ihren Nachrichten abmelden können, können Sie i
 
 ### Opt-out-Verwaltung {#opt-out-management}
 
-Es ist gesetzlich vorgeschrieben, Empfängerinnen und Empfängern die Möglichkeit zu geben, sich vom Erhalt von Nachrichten einer Marke abzumelden. Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
+Es ist gesetzlich vorgeschrieben, Empfängerinnen und Empfängern die Möglichkeit zu geben, sich vom Erhalt von Nachrichten einer Marke abzumelden. Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de#regulations){target="_blank"}.
 
 Daher müssen Sie in jeder E **Mail, die an Empfänger gesendet wird, immer einen** Abmelde-Link“ einfügen:
 
@@ -178,7 +178,7 @@ Gehen Sie wie folgt vor, um Empfängern einer E-Mail zu ermöglichen, sich über
 
    * Die Profildaten werden aktualisiert und erhalten keine Nachrichten mehr von Ihrer Marke, es sei denn, Sie haben sich erneut angemeldet.
 
-Um sich zu vergewissern, dass die Aktualisierung des entsprechenden Profils erfolgt ist, öffnen Sie das Profil in Experience Platform, indem Sie einen Identity-Namespace und den entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
+Um sich zu vergewissern, dass die Aktualisierung des entsprechenden Profils erfolgt ist, öffnen Sie das Profil in Experience Platform, indem Sie einen Identity-Namespace und den entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der Dokumentation zu [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -188,7 +188,7 @@ Die Opt-out-Informationen werden im **Einverständnisdienst-Datensatz** gespeich
 
 >[!NOTE]
 >
->Wenn die Zusammenführungsmethode für Ihre standardmäßige [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"}**[!UICONTROL Profiles]**-Zusammenführungsrichtlinie **[!UICONTROL Datensatzpriorität]** ist, stellen Sie sicher, dass Sie den **[!UICONTROL AJO Consent Service-Datensatz]** aktivieren und ihn in der Zusammenführungsrichtlinie priorisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>Wenn die Zusammenführungsmethode für Ihre standardmäßige [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}**[!UICONTROL Profiles]**-Zusammenführungsrichtlinie **[!UICONTROL Datensatzpriorität]** ist, stellen Sie sicher, dass Sie den **[!UICONTROL AJO Consent Service-Datensatz]** aktivieren und ihn in der Zusammenführungsrichtlinie priorisieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#dataset-precedence-profile){target="_blank"}
 >
 >Selbst wenn diesem Datensatz keine Batches hinzugefügt wurden, enthält er weiterhin die Opt-in-/Opt-out-Informationen.
 

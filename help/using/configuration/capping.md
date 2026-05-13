@@ -61,7 +61,7 @@ Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzu
 
 * `{JO_HOST}` : [!DNL Journey Optimizer] Gateway-URL.
 * `{BASE_PATH}` : Einstiegspunkt für die API.
-* `{SANDBOX_NAME}` : die Kopfzeile **x-sandbox-name** (z. B. „prod„), die dem Sandbox-Namen entspricht, in dem die API-Vorgänge ausgeführt werden. Weitere Informationen finden Sie [&#x200B; „Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html){target="_blank"}Übersicht“.
+* `{SANDBOX_NAME}` : die Kopfzeile **x-sandbox-name** (z. B. „prod„), die dem Sandbox-Namen entspricht, in dem die API-Vorgänge ausgeführt werden. Weitere Informationen finden Sie [&#x200B; „Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de){target="_blank"}Übersicht“.
 
 ## Endpunktkonfiguration
 

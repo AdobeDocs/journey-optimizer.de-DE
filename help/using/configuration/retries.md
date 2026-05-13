@@ -58,7 +58,7 @@ Sofern zwischen diesen beiden E-Mails kein anderer Versand versucht wurde und er
 >title="Aktualisieren des Schwellenwerts für weitere Zustellversuche"
 >abstract="Wenn der Standardwert Ihren Anforderungen nicht entspricht, können Sie die zulässige Anzahl aufeinander folgender Softbounces ändern. Wenn der Zähler für weitere Zustellversuche den Fehlerschwellenwert für eine bestimmte E-Mail-Adresse erreicht, wird diese Adresse der Unterdrückungsliste hinzugefügt."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=de" text="Understand the suppresion list"
 -->
 
 Falls der Standardwert 5 Ihren Anforderungen nicht entspricht, können Sie den Fehlerschwellenwert wie folgt ändern.
