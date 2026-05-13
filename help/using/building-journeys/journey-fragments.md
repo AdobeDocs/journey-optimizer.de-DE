@@ -7,11 +7,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: Fragmente, Journey, Wiederverwendung, Knoten, Arbeitsfläche, Inventar, Wiederverwendbar
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 version: Journey Orchestration
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%
@@ -26,7 +25,7 @@ ht-degree: 1%
 
 Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen. [Siehe Beispiele für Anwendungsfälle.](#examples)
 
-Nach der Erstellung werden Fragmente in einem dedizierten **[!UICONTROL Fragmentinventar)]** können mithilfe der Aktivität **[!UICONTROL Journey-Fragmente&rbrace; in]** Journey eingefügt werden.
+Nach der Erstellung werden Fragmente in einem dedizierten **[!UICONTROL Fragmentinventar)]** können mithilfe der Aktivität **[!UICONTROL Journey-Fragmente} in]** Journey eingefügt werden.
 
 >[!NOTE]
 >Journey-Fragmente verwenden ein **Kopierverhalten**: Durch Einfügen eines Fragments in einen Journey wird eine statische Kopie der Originalknoten erstellt. Alle am Originalfragment vorgenommenen Aktualisierungen werden nicht in den Journey übernommen, die es bereits verwendet haben.
@@ -72,13 +71,13 @@ So speichern Sie Journey-Knoten direkt auf der Journey-Arbeitsfläche als Fragme
 
 >[!TIP]
 >
->Wenn Sie ein Fragment von einer Journey erstellen, testen [&#x200B; (testen oder simulieren](testing-the-journey.md) **Sie** Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
+>Wenn Sie ein Fragment von einer Journey erstellen, testen [ (testen oder simulieren](testing-the-journey.md) **Sie** Fragment, um sicherzustellen, dass sich die ausgewählten Knoten wie erwartet verhalten.
 
 >[!TAB Aus dem Fragmentinventar]
 
 So erstellen Sie ein Fragment direkt aus dem Inventar:
 
-1. Navigieren Sie zur Registerkarte **&#x200B;**&#x200B;> **[!UICONTROL Fragmente]** .
+1. Navigieren Sie zur Registerkarte **** > **[!UICONTROL Fragmente]** .
 1. Klicken Sie **[!UICONTROL Fragment erstellen]**.
 1. Fügen Sie auf der Arbeitsfläche für die Fragmentbearbeitung Journey-Aktivitäten hinzu und konfigurieren Sie diese.
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**, um das Fragment als Entwurf zu speichern.
