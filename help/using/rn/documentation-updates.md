@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '7709'
-ht-degree: 93%
+source-wordcount: '7777'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 93%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Mai 2026 {#may-2026}
+
+* Die **Deeplinks**-Dokumentation wurde um einen neuen Abschnitt **Authoring-Deeplinks** erweitert, in dem die beiden für E-Mail verfügbaren Optionen (E-Mail-Benutzeroberfläche von Designer und Personalization-Editor-Code) und die URL-Funktionssyntax für SMS beschrieben werden. Die **„SMS-Nachricht erstellen** enthält jetzt einen Deeplink-Schritt im Inhaltserstellungsfluss. [Weitere Informationen](../email/deeplinks.md)
+
+* Die Hilfsreferenz **URL** wurde mit einem speziellen Abschnitt in der Personalization-Dokumentation aktualisiert. [Weitere Informationen](../personalization/functions/helpers.md#url)
 
 * Es wurde eine neue Seite **Personalization** Rezepte“ hinzugefügt, die einsatzbereite Personalisierungsmuster für die häufigsten Anwendungsfälle in Journey Optimizer bereitstellt. Es behandelt Rezepte für Datum und Uhrzeit (Formatierung des aktuellen Datums, Countdown bis zum Ablauf, Berechnungen für Tage vor dem Ablauf, Anzeige nur für Zeit und Erkennung von Wochenenden vs. Wochentagen), Zeichenfolgenrezepte (Verwendung von `replaceAll` mit Variablenzuweisung) und bedingte Fallback-Rezepte (Fallbacks mit leeren Feldern unter Verwendung von `isEmpty`). [Weitere Informationen](../personalization/personalization-recipes.md)
 

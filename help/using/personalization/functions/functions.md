@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '2496'
-ht-degree: 98%
+source-wordcount: '2536'
+ht-degree: 97%
 
 ---
 
@@ -136,7 +136,7 @@ Zur einfachen Navigation sind die Funktionen in drei Kategorien unterteilt:
         <td><a href="dates.md#age-months">Alter in Monaten</a></td><td>Diese Funktion berechnet das Alter eines bestimmten Datums in Monaten, d. h. die Anzahl der Monate, die zwischen dem angegebenen und dem aktuellen Datum verstrichen sind, wobei für zukünftige Datumswerte ein negativer und für vergangene Datumswerte ein positiver Wert gilt.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#compare-dates">Daten vergleichen</a></td><td>Diese Funktion vergleicht das erste Eingabedatum mit dem anderen Datum. Gibt 0 zurück, wenn date1 gleich date2 ist, -1, wenn date1 vor date2 liegt, und 1, wenn date1 nach date2 liegt.</td>
+        <td><a href="dates.md#compare-dates">Daten vergleichen</a></td><td>Diese Funktion vergleicht das erste Eingabedatum mit dem anderen. Gibt 0 zurück, wenn date1 gleich date2 ist, -1, wenn date1 vor date2 liegt, und 1, wenn date1 nach date2 liegt.</td>
     </tr>
     <tr>
         <td><a href="dates.md#convert-zoned-date-time">Uhrzeit-/Datumsangabe in eine bestimmte Zeitzone umwandeln</a></td><td>Diese Funktion wandelt eine Datums-/Uhrzeitangabe in eine bestimmte Zeitzone um.</td>
@@ -462,6 +462,9 @@ Helper werden auf [dieser Seite](helpers.md) näher beschrieben.
     </tr>
     <tr>
         <td><a href="helpers.md#url-parameter-encryption-helper">Verschlüsseln</a></td><td>Verschlüsselt Ausdruckswerte für URL-Abfrageparameter zum Rendering-Zeitpunkt mithilfe eines aktiven Schlüssels aus der Sandbox-Registrierung </td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#url-function">URL</a></td><td>Diese Funktion verarbeitet URLs im SMS-Nachrichteninhalt. Verwenden Sie sie zusammen mit <code>originalUrl</code>, um URLs zu kürzen und Deeplinks <code>type='DEEPLINK'</code> einfügen</td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">Mit</a></td><td>Diese Funktion wird verwendet, um das Auswertungs-Token des Vorlagenteils zu ändern</td>

@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 59%
+source-wordcount: '1184'
+ht-degree: 55%
 
 ---
 
@@ -134,8 +134,8 @@ Some edu specific content
 ## Jeweils{#each}
 
 Der Helper `each` wird verwendet, um die Elemente eines Arrays zu verarbeiten.
-Die Syntax des Helpers ist ```{{#each ArrayName}}``` YourContent `{{/each}}`
-Die einzelnen Array-Elemente werden durch die Verwendung des Keywords **this** innerhalb des Blocks referenziert. Der Index des Array-Elements kann mithilfe von `{{@index}}` gerendert werden.
+Die Syntax des Helpers lautet ```{{#each ArrayName}}``` YourContent `{{/each}}`
+Wir können auf die einzelnen Array-Elemente verweisen, indem wir das Keyword **this** innerhalb des Blocks verwenden. Der Index des Array-Elements kann mithilfe von `{{@index}}` gerendert werden.
 
 **Syntax**
 
@@ -216,6 +216,30 @@ Im folgenden Beispiel können Sie die Gesamtsumme der Preise für Produkte im Wa
 {{sum}}
 ```
 
+## URL {#url}
+
+Der `url` Helper wird verwendet, um Links zu verfolgen, URLs zu kürzen und [Deeplinks](../../email/deeplinks.md) in den Inhalt Ihrer SMS-Nachricht einzufügen.
+
+**Syntax**
+
+```sql
+{{url originalUrl='<your_url>' type='<DEEPLINK>' action='CLICK'}}
+```
+
+**Parameter**
+
+| Parameter | Beschreibung |
+|---|---|
+| `originalUrl` | Die zu kürzende URL. |
+| `type` | Der Link-Typ. Verwenden Sie `DEEPLINK` , um einen bestimmten Bildschirm in einer Mobile App zu öffnen. |
+| `action` | Die Tracking-Aktion Verwenden Sie `CLICK`, um Klicks auf den Link zu verfolgen. |
+
+**Beispiel**
+
+```sql
+  {{url originalUrl='https://www.mybusiness.com/offers/summer-sale' type='DEEPLINK' action='CLICK'}}
+```
+
 ## Datensatzsuche {#dataset-lookup}
 
 >[!AVAILABILITY]
@@ -284,7 +308,7 @@ Zur Laufzeit wird der Metadatenwert dem vorhandenen **[!UICONTROL Nachrichten-Fe
 
 **Einschränkungen**
 
-Für die Schlüssel-Wert-Paare pro Aktion gibt es eine Obergrenze von 2 KB. Wenn die Grenze von 2 KB überschritten wird, wird die Nachricht weiterhin zugestellt, aber jedes der Schlüssel-Wert-Paare kann abgeschnitten werden.
+Die Obergrenze für Schlüssel-Wert-Paare pro Aktion ist 2 KB. Wenn die Grenze von 2 KB überschritten wird, wird die Nachricht weiterhin zugestellt, aber jedes der Schlüssel-Wert-Paare kann abgeschnitten werden.
 
 Metadaten werden nicht für Profile erfasst, die von der Aktion ausgeschlossen sind. Wenn ein Profil vom Erhalt einer Nachricht ausgeschlossen wird, wird für dieses Profil kein Metadateneintrag im Datensatz erstellt.
 
@@ -307,7 +331,7 @@ In diesem Beispiel ist unter der Annahme `profile.person.name.firstName` = „Al
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+>Diese Funktion ist nur in begrenztem Umfang verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 >
 >Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar.
 

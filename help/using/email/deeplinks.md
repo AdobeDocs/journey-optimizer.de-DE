@@ -1,26 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden von Deeplinks in E-Mail-Nachrichten
-description: Erfahren Sie, wie Sie Deeplinks zu E-Mail-Inhalten hinzufügen und wie Sie die Deep-Link-Handhabung in iOS- und Android-Apps implementieren.
-feature: Email
+title: Verwenden und Konfigurieren von Deeplinks in E-Mail- und SMS-Nachrichten
+description: Erfahren Sie, wie Sie E-Mail- und SMS-Inhalten Deeplinks hinzufügen und wie Sie die Deeplink-Handhabung in iOS- und Android-Apps implementieren.
+feature: Email, SMS
 topic: Content Management
 role: User, Developer
 level: Intermediate
-keywords: Deeplink, Deep-Link, universelle Links, App-Links, E-Mail
-source-git-commit: 8efe5aaf0ebf24aa61decf40651c2ecc198ab0bc
+keywords: Deeplink, Deep-Link, universelle Links, App-Links, E-Mail, SMS
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
 
 
-# Konfigurieren von Deeplinks in E-Mails {#email-deeplinks}
+# Verwenden und Konfigurieren von Deeplinks in E-Mails und SMS {#deeplinks}
 
-Deeplinks in E-Mails helfen Ihnen, Empfänger von einer E-Mail zu einem bestimmten Bildschirm oder Inhalt in Ihrer Mobile App zu führen. Dadurch können Benutzer direkt zum gewünschten In-App-Erlebnis gelangen, ohne sie über einen Webbrowser oder einen App Store weiterzuleiten, sodass der Journey relevant und markenintern bleibt.
-
-Um einer E-Mail einen Deeplink hinzuzufügen, stellen Sie sicher, [Linktracking aktiviert ist](message-tracking.md#enable-tracking). Wählen Sie das Element aus, das Sie in der E-Mail-Designer verknüpfen möchten (Text, Schaltfläche oder Bild), klicken Sie auf **[!UICONTROL Link einfügen]** in der kontextuellen Symbolleiste und wählen Sie **[!UICONTROL Deeplink]** aus, um Ihre Deeplink-URL einzugeben. [Weitere Informationen zum Einfügen von Links](message-tracking.md#insert-links)
+Mit Deeplinks können Sie Empfänger von einer E-Mail oder SMS-Nachricht zu einem bestimmten Bildschirm oder Inhalt in Ihrer Mobile App weiterleiten. Dadurch können Benutzer direkt zum gewünschten In-App-Erlebnis gelangen, ohne sie über einen Webbrowser oder einen App Store weiterzuleiten, sodass der Journey relevant und markenintern bleibt.
 
 Wenn Ihre Empfänger auf den Deeplink klicken, werden sie direkt zum gewünschten In-App-Inhalt weitergeleitet - **vorausgesetzt, Sie haben die Konfigurationsschritte abgeschlossen** die auf dieser Seite beschrieben sind. Diese umfassen:
 
@@ -31,9 +29,37 @@ Wenn Ihre Empfänger auf den Deeplink klicken, werden sie direkt zum gewünschte
 >
 >[!DNL Adobe Journey Optimizer] unterstützt Deeplinking für iOS und Android mithilfe von getrackten URLs (`/ee/v1/mclick/*`), um Kompatibilität und Klick-Tracking sicherzustellen.
 
+## Erstellen von Deeplinks {#authoring}
+
+### E-Mail {#authoring-email}
+
+Für E-Mail-Nachrichten haben Sie zwei Möglichkeiten, einen Deeplink einzufügen:
+
+* **E-Mail an Designer**: Stellen Sie sicher[&#x200B; dass das Linktracking aktiviert &#x200B;](message-tracking.md#enable-tracking). Wählen Sie das Element aus, das Sie verknüpfen möchten (Text, Schaltfläche oder Bild), klicken Sie **[!UICONTROL Link einfügen]** in der kontextuellen Symbolleiste und wählen Sie **[!UICONTROL Deeplink]** aus, um Ihre Deeplink-URL einzugeben. [Weitere Informationen zum Einfügen von Links](message-tracking.md#insert-links)
+
+* **Personalization-Editor (Code)**: Fügen Sie den Deeplink mithilfe des folgenden Snippets direkt in HTML ein:
+
+  ```html
+  <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
+  ```
+
+  Ersetzen Sie `<<deeplink_url>>` durch Ihre tatsächliche Deeplink-URL und verwenden Sie eine eindeutige `id` für jeden Block, um Konflikte zu vermeiden.
+
+### SMS {#authoring-sms}
+
+Für SMS werden Deeplinks mit der Hilfsfunktion **URL** im Personalisierungseditor erstellt. Weitere Informationen zum Hinzufügen von Links zu SMS-Inhalten finden Sie [&#x200B; diesem Abschnitt](../sms/create-sms.md#sms-content).
+
+Verwenden Sie die folgende Syntax, um Deeplinks in SMS-Inhalte einzufügen:
+
+```
+{{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
+```
+
+Ersetzen Sie `<<url>>` durch Ihre tatsächliche Deeplink-URL.
+
 ## Konfiguration in Journey Optimizer {#configuration}
 
-Um Deeplinks in E-Mails für Mobile Apps verwenden zu können, führen Sie die folgenden Konfigurationsschritte aus.
+Um Deeplinks in E-Mails und SMS für Ihre Mobile Apps verwenden zu können, führen Sie die folgenden Konfigurationsschritte aus.
 
 >[!NOTE]
 >
@@ -53,7 +79,7 @@ Um Deeplinks in E-Mails für Mobile Apps verwenden zu können, führen Sie die f
 
 >[!IMPORTANT]
 >
->Deeplinking über die Adobe E-Mail-Infrastruktur gilt, wenn [Linktracking aktiviert ist](message-tracking.md#enable-tracking). Getrackte Deeplink-Klicks verwenden URLs unter `/ee/v1/mclick/*`, die von Adobe gehostet und aufgelöst werden.
+>Deeplinking über die Adobe-Infrastruktur gilt, wenn das Linktracking für Ihre Nachricht in den E[Mail-Tracking-Einstellungen &#x200B;](message-tracking.md#enable-tracking) im Abschnitt **[!UICONTROL Aktionstracking]** für SMS-Kampagnen aktiviert ist. Getrackte Deeplink-Klicks verwenden URLs unter `/ee/v1/mclick/*`, die von Adobe gehostet und aufgelöst werden.
 >
 >Bei **nicht getrackten** Links wird die URL nicht über Adobe-Systeme neu geschrieben. Sie müssen universelle Links oder App-Links auf Ihren eigenen Domains und beim Hosting konfigurieren, damit diese Links Ihre App wie vorgesehen öffnen.
 
@@ -64,7 +90,7 @@ In diesem Abschnitt wird erläutert, wie Sie mobile Deeplinks mit [!DNL Adobe Jo
 * einen bestimmten Bildschirm in der App öffnen, wenn die App installiert ist, oder
 * Öffnen Sie Ihre Website als Fallback, wenn die App nicht installiert ist.
 
-Wenn [Linktracking aktiviert](message-tracking.md#enable-tracking) für Ihre Nachricht aktiviert ist, verfolgt [!DNL Journey Optimizer] diese Klicks weiterhin, nimmt sie in Berichte auf und kann sie in [Inhaltsexperimenten](../content-management/content-experiment.md) verwenden, wenn Sie sie für die Nachricht ausführen.
+Wenn das Linktracking für Ihre Nachricht aktiviert ist, verfolgt [!DNL Journey Optimizer] diese Klicks weiterhin, bezieht sie in das Reporting ein und kann sie in [Inhaltsexperimenten“ verwenden](../content-management/content-experiment.md) wenn Sie sie für die Nachricht ausführen.
 
 In diesem Abschnitt finden Sie allgemeine Implementierungsmuster für Deeplinks. Die genaue Einrichtung hängt von Ihrer App-Architektur und dem Routing-Framework ab.
 
@@ -278,7 +304,7 @@ URL-kodierte Abfrageparameterwerte. Dadurch werden Bereitstellungs- und Renderin
 
 * Erstellen Sie einen Korrekturabzug mit einem Deeplink und klicken Sie darauf auf iOS- und Android-Geräten (installierte und nicht installierte Szenarien).
 * Validieren:
-   * Der endgültige E-Mail-Link-Wert (Host/Pfad/Abfrage)
+   * Der endgültige Wert der E-Mail- oder SMS-Relation (Host/Pfad/Abfrage)
    * Die Verknüpfung auf Betriebssystemebene (bei Verwendung von universellen Links/App-Links)
    * Das In-App-Routing-Ergebnis
 
