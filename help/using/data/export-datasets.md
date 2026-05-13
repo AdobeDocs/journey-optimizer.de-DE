@@ -8,10 +8,17 @@ role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+TQID: https://experienceleague.adobe.com/5jeWrWwq-7qu4UcfgYuum2n5o8ITy2HAdSSCfBJbg3U
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 92%
+source-wordcount: 1113
+ht-degree: 88%
 
 ---
 
@@ -87,13 +94,13 @@ Machen Sie sich durch die Tabelle unten damit vertraut, welche Journey Optimizer
 
 | Datensatz | Beschreibung |
 | ------- | ------- |
-| AJO-Klassifizierungs-Datensatz | Datensatz zur Aufnahme von Feedback-Ereignissen zu E-Mail- und Push-Anwendungen aus Journey Optimizer.  Erstellt über SDK. |
+| AJO-Klassifizierungs-Datensatz | Datensatz zur Aufnahme von Feedback-Ereignissen zu E-Mail- und Push-Anwendungen aus Journey Optimizer. Erstellt über SDK. |
 | AJO-Einverständnisdienst-Datensatz | Speichert Einverständnisinformationen eines Profils. |
 | Ereignisdatensatz zu Erfahrungen beim AJO-E-Mail-Tracking | Interaktionsprotokolle für den E-Mail-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird.  |
 | AJO-Entitäts-Datensatz | Datensatz zum Speichern von Entitätsmetadaten für Nachrichten, die an die Endbenutzenden gesendet werden.  |
 | Ereignisdatensatz für eingehende AJO-Aktivitäten | Datensatz für Web- und In-App-Kanäle von Journey Optimizer für Versand- und Interaktionsereignisse. |
 | Profildatensatz für interaktive AJO-Nachrichten | Speichert Profile, die zur Unterstützung von API-ausgelösten Kampagnen erstellt wurden |
-| Ereignisdatensatz mit Feedback zu AJO-Nachrichten | Nachrichten-Versandlogs.  Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet. Dieser Datensatz enthält Ereignisse für alle Kanäle: E-Mail, SMS/MMS, Direkt-Mail, usw. |
+| Ereignisdatensatz mit Feedback zu AJO-Nachrichten | Nachrichten-Versandlogs. Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet. Dieser Datensatz enthält Ereignisse für alle Kanäle: E-Mail, SMS/MMS, Direkt-Mail, usw. |
 | AJO-Nachrichtenexport-Datensatz | Speichert gesendete E-Mail- und SMS-Nachrichteninhalte, die für den Export markiert wurden. Daten werden sieben Kalendertage nach der Aufnahme aufbewahrt. |
 | AJO Profile Counters-Erweiterung | Enthält eine Zuordnung von Objekten, die „counter_value“ und „expiryDate“ enthalten, die von „counter_id“ eingegeben wurden. |
 | Datensatz mit AJO-Push-Profilen | Speichert Push-Token eines Profils. |
@@ -102,11 +109,11 @@ Machen Sie sich durch die Tabelle unten damit vertraut, welche Journey Optimizer
 | AJO-Oberflächen-Datensatz | Leerer Datensatz im Zusammenhang mit dem Schema „Eingehende Journey Optimizer-Oberflächen“ |
 | AOOutputForUPSDataset | Enthält alle AO-Zielgruppenzugehörigkeiten, die zum einheitlichen Profildienst zurückgeschrieben werden sollen |
 | Profil-Datensatz der Zielgruppen-Orchestrierung | Wird durch die Zielgruppenkomposition für Zielgruppenkompositions-Zielgruppen generiert. Enthält alle Zielgruppenkompositions-Zielgruppen, ihre Attribute und Anreicherungsdaten |
-| Entscheidungsobjekt-Repository – Aktivitäten | in der Benutzeroberfläche auch als „Entscheidungen“ bezeichnet. Dies sind jedoch die Objekte, die eine Benutzerin bzw. ein Benutzer erstellt, mit denen alle Bausteine zusammengeführt werden, einschließlich der Entscheidungslogik. Beispielsweise wird für eine bestimmte Platzierung (Position) entschieden, welche Angebote (Angebotssammlung) berücksichtigt werden sollen und welche Rangfolgenmethode für diese Angebote verwendet werden soll.  |
+| Entscheidungsobjekt-Repository – Aktivitäten | in der Benutzeroberfläche auch als „Entscheidungen“ bezeichnet. Dies sind jedoch die Objekte, die eine Benutzerin bzw. ein Benutzer erstellt, mit denen alle Bausteine zusammengeführt werden, einschließlich der Entscheidungslogik. Beispielsweise wird für eine bestimmte Platzierung (Position) entschieden, welche Angebote (Angebotssammlung) berücksichtigt werden sollen und welche Rangfolgenmethode für diese Angebote verwendet werden soll. |
 | Entscheidungsobjekt-Repository – Fallback-Angebote | Dies ist das Repository für den anderen Angebotstyp, den eine Benutzerin oder ein Benutzer erstellt. Insbesondere wenn sie nicht geeignet sind, ein personalisiertes Angebot zu sehen, und sie etwas sehen müssen, dann sehen sie zumindest das Fallback-Angebot. Dieser Datensatz enthält die Attribute für diesen Angebotstyp |
 | Entscheidungsobjekt-Repository – Personalisierte Angebote | Repository für einen Angebotstyp, den eine Benutzerin oder ein Benutzer erstellt. Dieser Datensatz enthält also die Attribute zu diesem Angebotstyp. |
 | Entscheidungsobjekt-Repository – Platzierungen | Repository mit Objekten, die den Speicherort definieren, an dem ein Angebot angezeigt werden soll. |
-| Repository für Erlebnis-Entscheidungs-Objekte – Personalisierte Angebotselemente | Speichert alle Angebotselemente, einschließlich aller Attribute und Lebenszyklusstatus, um kanalübergreifende Personalisierung und Berichte zu unterstützen. </br> Nach dem Hinzufügen neuer Felder für benutzerdefinierte Attribute zum Angebotselementschema kann es eine Verzögerung von bis zu einer Stunde geben, bevor diese neuen Attribute im Datensatz sichtbar werden. Um möglichen Datenverlust oder Inkonsistenzen zu vermeiden, wird empfohlen, mindestens eine Stunde zu warten, bevor Sie Änderungen oder Aktualisierungen vornehmen, die auf den neu hinzugefügten Attributen basieren. |
-| Journey-Schrittereignisse | Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Services wie Reporting genutzt werden können.  |
+| Repository für Erlebnis-Entscheidungs-Objekte – Personalisierte Angebotselemente | Speichert alle Angebotselemente, einschließlich aller Attribute und Lebenszyklusstatus, um kanalübergreifende Personalisierung und Berichte zu unterstützen. </br> Nachdem dem Angebotselementschema neue Felder für benutzerdefinierte Attribute hinzugefügt wurden, kann es bis zu einer Stunde dauern, bis diese neuen Attribute im Datensatz sichtbar werden. Um möglichen Datenverlust oder Inkonsistenzen zu vermeiden, wird empfohlen, mindestens eine Stunde zu warten, bevor Sie Änderungen oder Aktualisierungen vornehmen, die auf den neu hinzugefügten Attributen basieren. |
+| Journey-Schrittereignisse | Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Services wie Reporting genutzt werden können. |
 | Journeys | Metadaten-Datensatz, der Informationen zu jedem Schritt in einer Journey enthält. |
 | ODE DecisionEvents – Produktions-Entscheidungsfindung | Jedes Mal, wenn wir eine auf einer Anfrage basierende Entscheidung treffen, zählen wir dies als Entscheidungsereignis |

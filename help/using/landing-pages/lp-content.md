@@ -9,10 +9,17 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular, Komponente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+TQID: https://experienceleague.adobe.com/F-E8Fy-EYYhS-PqrpQJZKO4MUKfJBTWX9V0DpUyudXU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 83%
+source-wordcount: 1633
+ht-degree: 84%
 
 ---
 
@@ -28,9 +35,9 @@ Um den Inhalt Ihrer Landingpage zu entwerfen, können dieselben Komponenten wie 
 
 Um spezifische Inhalte zu entwerfen, mit denen Benutzende ihre Auswahl treffen und übermitteln können, können Sie die **Formularkomponente** verwenden:
 
-* Verwenden Sie für Opt-in-, Opt-out- und Abonnement[Szenarien die integrierte Formularkomponente &#x200B;](#use-form-component) definieren Sie ihre [Landingpage-spezifischen Stile](#lp-form-styles).
+* Verwenden Sie für Opt-in-, Opt-out- und Abonnement[Szenarien die integrierte Formularkomponente ](#use-form-component) definieren Sie ihre [Landingpage-spezifischen Stile](#lp-form-styles).
 
-* Wenn Benutzerinnen und Benutzer Daten über ein bestimmtes Formular senden können sollen (z. B. um einen [!DNL Experience Platform] anzureichern), [&#x200B; &#x200B;](#embed-form) Sie auf einer Landingpage des Typs **[!UICONTROL Datenerfassung]** ein veröffentlichtes Formular ein. [Weitere Informationen zum Erstellen von Formularen](lp-forms.md)
+* Wenn Benutzerinnen und Benutzer Daten über ein bestimmtes Formular senden können sollen (z. B. um einen [!DNL Experience Platform] anzureichern), [ ](#embed-form) Sie auf einer Landingpage des Typs **[!UICONTROL Datenerfassung]** ein veröffentlichtes Formular ein. [Weitere Informationen zum Erstellen von Formularen](lp-forms.md)
 
 >[!NOTE]
 >
@@ -40,7 +47,7 @@ Mit dem Inhalt-Designer für Landingpages können auch kontextbezogene Daten aus
 
 >[!NOTE]
 >
->Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass jegliche digitale Kommunikation barrierefrei sein sollte. Beachten Sie beim Erstellen von Inhalten in [!DNL Journey Optimizer] die konkreten Richtlinien [auf dieser Seite](../email/accessible-content.md).
+>Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Beachten Sie beim Erstellen von Inhalten in [!DNL Journey Optimizer] die konkreten Richtlinien [auf dieser Seite](../email/accessible-content.md).
 
 ## Verwenden der Formularkomponente {#use-form-component}
 

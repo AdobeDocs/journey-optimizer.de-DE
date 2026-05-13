@@ -1,22 +1,26 @@
 ---
-title: Löschen einer Auswahlstrategie
-description: Auswahlstrategien bestehen aus Sammlungen, die mit Begrenzungen und Rangfolgenmethoden zur Bestimmung von Angeboten verknüpft sind.
+title: Auswahlstrategie löschen
+description: Auswahlstrategien bestehen aus Sammlungen, die mit Einschränkungen und Ranking-Methoden verknüpft sind, um Angebote zu bestimmen.
 feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 774f3773-bc39-46c4-b32c-143abbd45696
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
-workflow-type: ht
-source-wordcount: '121'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/KnyhVoNWfjSIIMw2q7OZkBG--wgaBU4JXn7A9i41Vf8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 121
+ht-degree: 0%
 
 ---
 
-# Löschen einer Auswahlstrategie {#delete-selection-strategy}
+# Auswahlstrategie löschen {#delete-selection-strategy}
 
-Gelegentlich kann es erforderlich sein, eine Auswahlstrategie zu entfernen (DELETE). Führen Sie dazu mithilfe der ID der Auswahlstrategie, die Sie löschen möchten, eine DELETE-Anfrage an die Angebotsbibliotheks-API aus.
+Gelegentlich kann es erforderlich sein, (DELETE) eine Auswahlstrategie zu entfernen. Dies geschieht, indem Sie eine DELETE-Anfrage an die Angebotsbibliotheks-API mit der ID der Auswahlstrategie durchführen, die Sie löschen möchten.
 
 **API-Format**
 
@@ -26,7 +30,7 @@ DELETE /{ENDPOINT_PATH}/selection-strategies/{ID}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | Die ID der Entität, die Sie löschen möchten. | `selectionStrategy1234` |
 
 **Anfrage**
@@ -42,6 +46,6 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/selection-strategies/sel
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort wird der HTTP-Status 200 und leerer Text zurückgegeben.
+Eine erfolgreiche Antwort gibt den HTTP-Status-Code 200 und einen leeren Text zurück.
 
-Sie können den Löschvorgang bestätigen, indem Sie eine Nachschlageanfrage (GET) für die Auswahlstrategie ausführen. Sie sollten den HTTP-Status 404 (Nicht gefunden) erhalten, da die Auswahlstrategie entfernt wurde.
+Sie können den Löschvorgang bestätigen, indem Sie eine Suchanfrage (GET) an die Auswahlstrategie stellen. Sie sollten den HTTP-Status 404 (Nicht gefunden) erhalten, da die Auswahlstrategie entfernt wurde.

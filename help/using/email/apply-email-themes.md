@@ -10,10 +10,17 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail-Designs, Module, Wiederverwendbarkeit, Markenkonsistenz, E-Mail-Design, benutzerdefiniertes CSS, Optimierung für Mobilgeräte
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
+TQID: https://experienceleague.adobe.com/2zlrBZi84Uq475zZd5jzGki6NZuqTLJABh-G36VwNVA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 92%
+source-wordcount: 1748
+ht-degree: 90%
 
 ---
 
@@ -170,7 +177,7 @@ Gehen Sie wie folgt vor, um standardmäßige oder benutzerdefinierte Stil-Design
    >
    >Diese Aktion kann nicht für Inhaltskomponenten ausgeführt werden.
 
-   Wählen Sie hierzu eine Strukturkomponente aus, klicken Sie auf der Registerkarte **[!UICONTROL Stile]** rechts auf die Option **Variante eines bestimmten Designs verwenden** und wenden Sie die gewünschte Variante auf diese Struktur an.
+   Wählen Sie hierzu eine Strukturkomponente aus, klicken Sie auf der Registerkarte **[!UICONTROL Stile]** rechts auf die Option ]**Variante eines bestimmten Designs verwenden**[!UICONTROL  und wenden Sie die gewünschte Variante auf diese Struktur an.
 
    ![](assets/theme-structure-variant.png)
 
@@ -256,7 +263,7 @@ Mit [!DNL Journey Optimizer] können Sie eine Vorlage, die mit manuellen Formati
 
 1. Geben Sie einen Namen für Ihr Design ein.
 
-1. Nehmen Sie bei Bedarf eigene Anpassungen vor, wie beim Erstellen eines Designs von Grund auf, z. B. durch Hinzufügen einer Farbvariante, Bearbeiten von Schriften usw. [Weitere Informationen](#create-and-edit-themes)
+1. Nehmen Sie Ihre eigenen Anpassungen vor, wie Sie es tun, wenn Sie ein Design von Grund auf neu erstellen, z. B. eine Farbvariante hinzufügen, Schriftarten bearbeiten usw. [Erfahren Sie, wie](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 

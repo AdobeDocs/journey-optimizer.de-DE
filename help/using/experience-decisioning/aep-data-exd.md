@@ -11,9 +11,15 @@ level: Intermediate
 keywords: Ausdruck, Editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+TQID: https://experienceleague.adobe.com/PpKizv9cq9CzZkYL1CpTXgYJk8T3o4HRWLlncAmgqg8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: 1218
 ht-degree: 95%
 
 ---
@@ -105,7 +111,7 @@ Gehen Sie wie folgt vor, um Adobe Experience Platform-Daten in Entscheidungsrege
 
    ![](assets/exd-lookup-rule.png)
 
-1. Klicken Sie auf **[!UICONTROL Datensatz hinzufügen]**, um den Datensatz mit den erforderlichen Attributen auszuwählen. 
+1. Klicken Sie auf **[!UICONTROL Datensatz hinzufügen]**, um den Datensatz mit den erforderlichen Attributen auszuwählen.
 
    ![](assets/exd-lookup-select-dataset.png)
 
@@ -115,7 +121,7 @@ Gehen Sie wie folgt vor, um Adobe Experience Platform-Daten in Entscheidungsrege
 
 ### Rangfolgenformeln {#ranking-formulas}
 
-Rangfolgenformeln definieren die Priorität von Entscheidungselementen. Durch Verwendung von Datensatzattributen aus [!DNL Adobe Experience Platform] können Sie die Rangfolgelogik dynamisch anpassen, um reale Bedingungen widerzuspiegeln. 
+Rangfolgenformeln definieren die Priorität von Entscheidungselementen. Durch Verwendung von Datensatzattributen aus [!DNL Adobe Experience Platform] können Sie die Rangfolgelogik dynamisch anpassen, um reale Bedingungen widerzuspiegeln.
 
 Nehmen wir beispielsweise an, eine Fluggesellschaft verwendet eine Rangfolgenformel, um Upgrade-Angebote zu priorisieren. Wenn eine Kundin bzw. ein Kunde über eine hohe Treuestufe verfügt und die aktuelle Verfügbarkeit von Sitzplätzen niedrig ist (basierend auf einem Datensatz, der stündlich aktualisiert wird), erhält die Person eine höhere Priorität. Der Datensatz enthält Felder wie `flight_number`, `available_seats` und `loyalty_score`.
 
@@ -125,7 +131,7 @@ Gehen Sie wie folgt vor, um Adobe Experience Platform-Daten in Rangfolgenformeln
 
 1. Klicken Sie im Abschnitt **[!UICONTROL Datensatzsuche]** auf **[!UICONTROL Datensatz hinzufügen]**.
 
-1. Wählen Sie den entsprechenden Datensatz aus. 
+1. Wählen Sie den entsprechenden Datensatz aus.
 
    ![](assets/exd-lookup-formula-dataset.png)
 

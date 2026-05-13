@@ -1,30 +1,34 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Sammlungen nachschlagen
-description: Sammlungen sind Teilmengen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+title: Suchen einer Sammlung
+description: Sammlungen sind Teilmengen von Angeboten, die auf von Marketing-Fachleuten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Decision Management, API, Collections
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 91317c46-d8b6-456e-8282-aef1169941af
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/xrPunLrH7qiFNVM4mznVAIJS6rBTIQ0q1iiEwvQgbX4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: 194
 ht-degree: 100%
 
 ---
 
-# Sammlungen nachschlagen {#look-up-collection}
+# Suchen einer Sammlung {#look-up-collection}
 
 >[!TIP]
 >
 >Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-Sammlungen sind Teilmengen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+Sammlungen sind Teilmengen von Angeboten, die auf von Marketing-Fachleuten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
 Sie können nach bestimmten Sammlungen suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die Sammlungs-`@id` oder den Namen der Sammlung im Anfragepfad enthält.
 

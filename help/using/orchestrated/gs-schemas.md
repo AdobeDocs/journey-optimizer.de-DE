@@ -5,13 +5,16 @@ title: Konfigurationsschritte
 description: Erfahren Sie, wie Sie in Adobe Experience Platform ein relationales Schema erstellen, indem Sie eine DDL-Datei hochladen.
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/tNL6BkFKuOWMyEnR-FWc38mYrcA15wAdsHzZntCEwVw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 90%
+source-wordcount: 485
+ht-degree: 81%
 
 ---
-
 
 # Erste Schritte mit relationalen Schemata und Datensätzen{#gs-schemas}
 
@@ -23,7 +26,7 @@ Dieses Handbuch führt Sie durch den Prozess der Erstellung eines relationalen S
 
 Im Kontext orchestrierter Kampagnen ist ein **Datensatz** ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten in der Regel in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. Daten, die erfolgreich in Experience Platform aufgenommen wurden, werden im Data Lake als Datensätze gespeichert.
 
-Ein **Schema** stellt die Struktur und das Format von Daten dar und validiert sie. Es bietet eine abstrakte Definition eines realen Objekts (z. B. einer Person) und beschreibt, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Name, Geburtstag usw.).
+Ein **Schema** stellt die Struktur und das Format von Daten dar und validiert sie. Sie bietet eine abstrakte Definition eines realen Objekts (z. B. einer Person) und legt fest, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Name, Geburtsdatum usw.).
 
 Ein **Datenmodell** ist die konzeptionelle Blaupause zur Normalisierung Ihrer Daten.
 

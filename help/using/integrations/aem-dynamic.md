@@ -7,10 +7,17 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/bgBuZlYcuJ1VpBZIlpGA4WIYZ6ufqNMnxlBoUvPpVqg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 96%
+source-wordcount: 1134
+ht-degree: 95%
 
 ---
 
@@ -68,7 +75,7 @@ Gehen Sie wie folgt vor, um ein Adobe Experience Manager-Asset zu Ihrem HTML-Inh
 
 1. Durchsuchen Sie Ihre AEM-Assets und wählen Sie das Asset aus, das zu Ihren Inhalten hinzugefügt werden soll.
 
-1. Passen Sie die Bildparameter (z. B. Höhe, Breite, Drehung, Spiegelung, Helligkeit, Farbton usw.) nach Bedarf an Ihre Asset-Anforderungen an.
+1. Passen Sie die Bildparameter an (z. B. Höhe, Breite, Drehen, Spiegeln, Helligkeit, Farbton usw.) nach Bedarf, um Ihre Asset-Anforderungen zu erfüllen.
 
    Eine umfassende Liste der Bildparameter, die der URL hinzugefügt werden können, finden Sie in der [Dokumentation zu Experience Manager](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}.
 
@@ -169,7 +176,7 @@ Sie können Ihre dynamische Vorlage mithilfe der Bildkomponente direkt in Ihren 
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre Nachricht an Ihre Zielgruppe senden. 
+Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre Nachricht an Ihre Zielgruppe senden.
 
 ### Mit HTML-Komponente {#html-component}
 
@@ -195,7 +202,7 @@ Sie können Ihre dynamische Vorlage mithilfe der HTML-Komponente direkt in Ihren
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre Nachricht an Ihre Zielgruppe senden. 
+Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre Nachricht an Ihre Zielgruppe senden.
 
 <!--
 ## Personalization with text overlay
@@ -257,5 +264,5 @@ Erfahren Sie, wie Sie Adobe Experience Manager Dynamic Media mit Adobe Journey O
 
 In diesem Tutorial wird beschrieben, wie Sie Bilder direkt in AJO ändern, im HTML-Modus Textüberlagerungen hinzufügen, Dynamic Media-Vorlagen in AEM zur Hyperpersonalisierung erstellen und Kampagnen personalisieren, indem Sie Inhalte auf verschiedene Zielgruppensegmente zuschneiden. Diese Integration ermöglicht es Marketing-Fachleuten, ansprechende und personalisierte Kampagnen effizient zu erstellen, ohne zwischen Anwendungen wechseln zu müssen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463791/?captions=ger&learn=on&enablevpops=&autoplay=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 

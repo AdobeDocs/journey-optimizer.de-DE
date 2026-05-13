@@ -2,16 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit der Zustellbarkeit
-description: 'Zustellbarkeitsrichtlinien kennenlernen '
+description: Zustellbarkeitsrichtlinien kennenlernen
 feature: Deliverability
 topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+TQID: https://experienceleague.adobe.com/7EdZZJgxpZA2AtSo-lMpMEDV6C9zk78mmvNVhe5KXcw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c343082f-e963-4f57-a96b-b64d27f8118eid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 100%
+source-wordcount: 1175
+ht-degree: 94%
 
 ---
 
@@ -39,9 +46,9 @@ Einen tieferen Einblick in das Thema der Zustellbarkeit und weitere Informatione
 
 ## Verringern der Beschwerderate {#reduce-complaint-rate}
 
-ISPs haben in der Regel eine ausgeprägte Möglichkeit, eine empfangene Nachricht als Spam zu melden. Dadurch ist es möglich, unzuverlässige Quellen zu identifizieren. Indem Sie Opt-out-Anfragen schnell befolgen und damit zeigen, dass Sie ein zuverlässiger Absender sind, können Sie die Beschwerderate senken. [Weitere Informationen zum Opt-out-Management](../privacy/opt-out.md#opt-out-decision-management)
+ISPs haben in der Regel eine ausgeprägte Möglichkeit, eine empfangene Nachricht als Spam zu melden. Dadurch können unzuverlässige Quellen identifiziert werden. Indem Sie Opt-out-Anfragen schnell befolgen und damit zeigen, dass Sie ein zuverlässiger Absender sind, können Sie die Beschwerderate senken. [Weitere Informationen zum Opt-out-Management](../privacy/opt-out.md#opt-out-decision-management)
 
-Generell empfehlen wir, Empfänger nicht darin zu behindern, sich abzumelden, indem Sie von ihnen verlangen, Felder wie beispielsweise ihre E-Mail-Adresse oder ihren Namen auszufüllen. Die Landingpage für die Abmeldung sollte nur eine einzige Validierungs-Schaltfläche aufweisen.
+Generell sollten Sie nicht versuchen, Empfängerinnen und Empfängern, die sich abmelden möchten, in die Quere zu kommen, indem Sie von ihnen verlangen, Felder wie beispielsweise ihre E-Mail-Adresse oder ihren Namen auszufüllen. Die Landingpage der Abmeldung sollte nur eine Schaltfläche zum Bestätigen enthalten.
 
 Seien Sie besonders vorsichtig, wenn Sie zusätzliche Bestätigungen anfordern: Ein Benutzer kann zwei E-Mail-Adressen auf denselben Posteingang umleiten lassen (zum Beispiel: vorname.nachname@club.com und vorname.nachname@internet-club.com). Wenn das Profil sich nur an die erste Adresse erinnern kann und sich über eine an die andere Adresse gesendete Nachricht abmelden möchte, würde das Formular dies verweigern, da die verschlüsselte Kennung und die eingegebene E-Mail-Adresse nicht übereinstimmen.
 
@@ -70,7 +77,7 @@ In geringerem Maße kann der Inhalt bestimmter Nachrichten als Spam erkannt werd
 
 Um Ihre Zustellbarkeitsrate zu verbessern und sicherzustellen, dass Ihre E-Mails Ihre Empfänger erreichen, sollten Sie bei der Gestaltung Ihrer Nachrichteninhalte die folgenden Grundsätze beachten:
 
-* **Name und Adresse des Absenders:** Die Adresse muss die Identität eines Absenders enthalten. Die Domain muss im Besitz des Absenders und auf ihn registriert sein. Die Domain-Registrierung darf nicht anonymisiert sein.
+* **Name und Adresse des Absenders**: Die Adresse muss den Absender explizit identifizieren. Die Domain muss im Besitz des Absenders und auf ihn registriert sein. Die Domain-Registrierung darf nicht privat erfolgen.
 
 * **Abmelde-Link und -Landingpage**: Der Link zum Abmelden ist unverzichtbar. Er muss sichtbar und gültig sein und das Formular muss funktionsfähig sein.
 
@@ -80,7 +87,7 @@ Um Ihre Zustellbarkeitsrate zu verbessern und sicherzustellen, dass Ihre E-Mails
 
 Wenn Sie kürzlich Ihren E-Mail-Dienstleister, Ihre IP-Adresse, Ihre E-Mail-Domain oder Ihre Subdomain gewechselt haben, müssen Sie erst Ihre Reputation als Absender aufbauen. Andernfalls könnten Ihre Sendungen blockiert oder in den Spam-Ordner des Postfachs der Empfänger verschoben werden.
 
-Beim Versenden von E-Mails an eine brandneue IP-Adresse können Sie nun IP-Aufwärm-Workflows einfach direkt über die Benutzeroberfläche ausführen. 
+Beim Versenden von E-Mails an eine brandneue IP-Adresse können Sie nun IP-Aufwärm-Workflows einfach direkt über die Benutzeroberfläche ausführen.
 
 Adobe Journey Optimizer bietet eine standardisierte und effiziente Methode zum Aufwärmen von IP-Adressen, die den Best Practices für optimale Zustellbarkeit entspricht.
 
@@ -92,7 +99,7 @@ Adobe Journey Optimizer bietet eine standardisierte und effiziente Methode zum A
 
 Um das Risiko zu verringern, dass E-Mails als Spam gekennzeichnet oder abgelehnt werden, und Probleme mit der Zustellbarkeit zu vermeiden, ermöglicht [!DNL Journey Optimizer] Ihnen, den DMARC-Eintrag für alle Subdomains einzurichten, die Sie an Adobe delegieren.
 
-Die Domain-basierte Nachrichtenauthentifizierung mit Berichten und Konformität (DMARC) ist eine E-Mail-Authentifizierungsmethode, mit der der Inhaberinnen und Inhaber einer Domain ihre Domain vor unbefugter Verwendung durch boshafte Akteure schützen können. 
+Die Domain-basierte Nachrichtenauthentifizierung mit Berichten und Konformität (DMARC) ist eine E-Mail-Authentifizierungsmethode, mit der der Inhaberinnen und Inhaber einer Domain ihre Domain vor unbefugter Verwendung durch boshafte Akteure schützen können.
 
 [Weitere Informationen zu DMARC-Einträgen](../configuration/dmarc-record.md)
 

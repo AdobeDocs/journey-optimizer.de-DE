@@ -8,9 +8,13 @@ level: Experienced
 keywords: Konvertierung, Funktionen, Ausdruck, Journey, Typ, Umwandlung
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
-source-git-commit: 57da5ea1cae21ed370b1cc58d953ba740b7ac2c6
+TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: 1271
 ht-degree: 85%
 
 ---
@@ -121,7 +125,7 @@ Konvertiert ein Argument in einen Wert vom Typ dateOnly. Weitere Informationen z
 | Zeichenfolgendarstellung eines Datums als „JJJJ-MM-TT“ (XDM-Format). Unterstützt auch das ISO-8601-Format: nur der Teil mit dem **vollständigen Datum** wird berücksichtigt (siehe [RFC 3339, Abschnitt 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
 | Datum/Uhrzeit | dateTime |
 | Datum/Uhrzeit ohne Zeitzone | dateTimeOnly |
-| Ganzzahliger Wert einer Epoche in Millisekunden | integer |
+| Ganzzahliger Wert einer Epoche in Millisekunden | Ganzzahl |
 
 +++
 
@@ -213,7 +217,7 @@ Dadurch wird ein dateTime-Wert erstellt, indem eine Zeitzone auf einen dateTimeO
 
 `toDateTime(1560762190189)`
 
-Gibt „2019-06-17T09:03:10.189Z“ zurück
+Gibt 2019-06-17T09:03:10.189Z zurück
 
 Konvertiert einen Unix-Zeitstempel in Millisekunden in einen dateTime-Wert.
 
@@ -221,7 +225,7 @@ Konvertiert einen Unix-Zeitstempel in Millisekunden in einen dateTime-Wert.
 
 >[!NOTE]
 >
->Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Sie darf weder ein Feldverweis noch ein Ausdruck sein. Weitere Informationen zu Datentypen finden Sie auf [dieser Seite](../expression/data-types.md).
+>Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Er darf weder ein Feldverweis noch ein Ausdruck sein. Weitere Informationen zu Datentypen finden Sie auf [dieser Seite](../expression/data-types.md).
 
 ## toDateTimeOnly {#toDateTimeOnly}
 
@@ -279,7 +283,7 @@ Konvertiert einen Argumentwert je nach Typ in einen Dezimalwert.
 | string | konvertiert den Zeichenfolgenwert in eine Dezimalzahl |
 | dateTime | konvertiert das Datum in die Zahl der Millisekunden (Millisekunden der Epoche) |
 | boolean | wandelt den booleschen Wert in 1 um, wenn „true“, und in 0, wenn „false“ |
-| integer | konvertiert in eine Dezimalzahl (Beispiel: 1 wird zu 1.0) |
+| integer | wird in eine Dezimalzahl konvertiert (Beispiel: 1 wird zu 1,0) |
 
 +++
 
@@ -418,7 +422,7 @@ Konvertiert einen Argumentwert je nach Typ in einen Zeichenfolgenwert. Weitere I
 | duration | konvertiert in die entsprechende Anzahl von Millisekunden als Zeichenfolge |
 | integer | konvertiert den Wert in eine Zeichenfolgendarstellung (1 wird zu „1“) |
 | decimal | konvertiert den Wert in eine Zeichenfolgendarstellung (1,5 wird zu „1,5“) |
-| Boolescher Wert | konvertiert den booleschen Wert in &#39;true&#39;, wenn „true“, in &#39;false&#39;, wenn „false“ |
+| boolean | konvertiert den booleschen Wert in &#39;true&#39;, wenn „true“, in &#39;false&#39;, wenn „false“ |
 
 +++
 

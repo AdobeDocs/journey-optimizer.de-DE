@@ -3,16 +3,22 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Konfigurieren der Ereigniserfassung
 description: Erfahren Sie, wie Sie Ihr Angebotsschema zur Erfassung von Ereignissen konfigurieren
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Ranking, Datasets, Decision Management
 role: Developer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/DhaXO7sS2zR9iewgoQjrN5ptYNpYSt97e-hflU2iq7c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: acc16deb-1d7f-4ec9-9ce3-6cdf355afde6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 307
+ht-degree: 94%
 
 ---
 
@@ -34,12 +40,12 @@ Im Folgenden finden Sie die Schemaanforderungen, die Sie in Ihren JavaScript-Cod
 >
 >Entscheidungsereignisse müssen nicht gesendet werden, da das Entscheidungs-Management diese Ereignisse automatisch generiert und im Datensatz **[!UICONTROL ODE DecisionEvents]**<!--to check--> speichert, der automatisch generiert wird.
 
-## Verfolgen von Impressions {#track-impressions}
+## Nachverfolgen von Impressions {#track-impressions}
 
 Stellen Sie sicher, dass der Ereignistyp und die Quelle wie folgt aussehen:
 
 **Erlebnisereignistyp:** `decisioning.propositionDisplay`
-**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
 +++**Beispiel-Payload:**
 
 ```
@@ -73,7 +79,7 @@ Stellen Sie sicher, dass der Ereignistyp und die Quelle wie folgt aussehen:
 Stellen Sie sicher, dass der Ereignistyp und die Quelle wie folgt aussehen:
 
 **Erlebnisereignistyp:** `decisioning.propositionInteract`
-**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
 +++**Beispiel-Payload:**
 
 ```

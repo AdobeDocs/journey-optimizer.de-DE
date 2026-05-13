@@ -4,15 +4,19 @@ product: Journey Optimizer
 title: Löschen von Sammlungsqualifizierern
 description: Mit Sammlungsqualifizierern können Sie Ihre Angebote besser organisieren und sortieren.
 feature: Decision Management, API
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: cc67519e-7a80-49c7-8c8b-c777be633026
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/F-VfY9-rc6cxyIz077xD6oRzXUUThUpokPjDEn3wNnE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: 178
 ht-degree: 100%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 100%
 >Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-Gelegentlich kann es erforderlich sein, einen Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) zu entfernen (DELETE). Es können nur Sammlungskennzeichner gelöscht werden, die Sie im Mandanten-Container erstellt haben. Dies geschieht, indem Sie eine DELETE-Anfrage an die [!DNL Offer Library]-API mit der $ID des Sammlungsqualifizierers durchführen, den Sie löschen möchten.
+Gelegentlich kann es erforderlich sein, einen Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) zu löschen (DELETE). Es können nur Sammlungskennzeichner gelöscht werden, die Sie im Mandanten-Container erstellt haben. Dies geschieht, indem Sie eine DELETE-Anfrage an die [!DNL Offer Library]-API mit der $ID des Sammlungsqualifizierers durchführen, den Sie löschen möchten.
 
 **API-Format**
 
@@ -52,6 +56,6 @@ curl -X DELETE \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt den HTTP-Status 202 (kein Inhalt) und leeren Text zurück.
+Eine erfolgreiche Antwort gibt den HTTP-Status 202 (Kein Inhalt) und leeren Text zurück.
 
 Sie können die Löschung bestätigen, indem Sie eine Nachschlageanfrage (GET) an den Sammlungsqualifizierer versuchen. Sie müssen einen Accept-Header in die Anfrage einbeziehen, sollten jedoch einen HTTP-Status 404 (Nicht gefunden) erhalten, da der Sammlungsqualifizierer aus dem Container entfernt wurde.

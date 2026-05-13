@@ -6,10 +6,16 @@ description: Erfahren Sie, wie Sie auf  [!DNL Adobe Journey Optimizer] -Berichte
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+TQID: https://experienceleague.adobe.com/Zpz0yKyYrpflNhiGCIYQPELCCFp7A4CkbrJphwxuz70
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 95%
+source-wordcount: 489
+ht-degree: 100%
 
 ---
 
@@ -31,7 +37,7 @@ Um die Zustellbarkeit der [!DNL Journey Optimizer]-Erlebnisse zu optimieren, wir
 
   ![](assets/gs-cja-report-1.png)
 
-  Wenn Sie über eine Adobe Customer Journey Analytics-Lizenz verfügen, können Sie Ihre Journey Optimizer-Berichte in Customer Journey Analytics analysieren. Diese leistungsstarke Option leitet Sie nahtlos zur Customer Journey Analytics-Umgebung weiter, sodass Sie Berichte umfassend personalisieren können. Sie können Widgets mit spezialisierten Customer Journey Analytics-Metriken anreichen, die Ihre Erkenntnisse auf eine völlig neue Ebene bringen. [Weitere Informationen](report-cja-manage.md)
+  Mit einer Adobe Customer Journey Analytics-Lizenz können Journey Optimizer-Berichte in Customer Journey Analytics analysiert werden. Diese leistungsstarke Option leitet Sie nahtlos zur Customer Journey Analytics-Umgebung weiter, sodass Sie Berichte umfassend personalisieren können. Sie können Widgets mit spezialisierten Customer Journey Analytics-Metriken anreichen, die Ihre Erkenntnisse auf eine völlig neue Ebene bringen. [Weitere Informationen](report-cja-manage.md)
 
 
 ## Tauchen wir tiefer in die Materie ein
@@ -109,11 +115,11 @@ Alle Berichte für die gesamte Zeit stehen für alle Ihre Kanäle zur Verfügung
 Wählen Sie einen Outbound-Kanal aus, um zugeordnete **globale Berichte für die gesamte Zeit** zu finden.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><img alt="E-Mail" src="../channels/assets/do-not-localize/email.png">
+<td><img alt="email" src="../channels/assets/do-not-localize/email.png">
 <div align="center"><p><strong>E-Mail-Kanal</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>Journey-Bericht</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<td><a href="campaign-global-report-cja-sms.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
 <div align="center"><p><strong>SMS-Kanal</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>Journey-Bericht</strong></a></p></div></td>
-<td><a href="campaign-global-report-cja-push.md"><img alt="Push" src="../channels/assets/do-not-localize/push.png"></a>
+<td><a href="campaign-global-report-cja-push.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
 <div align="center"><p><strong>Push-Kanal</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>Journey-Bericht</strong></a></p></div></td>
 <td><a href="campaign-global-report-cja-direct.md"><img alt="Direkt-Mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
 <div align="center"><p><strong>Direkt-Mail-Kanal</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>Kampagnenbericht</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>Journey-Bericht</strong></a></p></div></td>
@@ -140,7 +146,7 @@ Erfahren Sie, wie Sie den Bericht für die gesamte Zeit in Adobe Journey Optimiz
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3422692?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 

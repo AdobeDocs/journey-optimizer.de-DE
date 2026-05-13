@@ -4,13 +4,15 @@ product: journey optimizer
 title: Arbeiten mit vordefinierten Filtern
 description: Erfahren Sie, wie Sie vordefinierte Filter in orchestrierten Kampagnen speichern, anwenden und verwalten können
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
+TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 11%
+source-wordcount: 507
+ht-degree: 20%
 
 ---
-
 
 # Arbeiten mit vordefinierten Filtern {#predefined-filters}
 
@@ -75,7 +77,7 @@ Wenn ein Filter als Favorit gespeichert wird, wird er im Abschnitt **[!UICONTROL
 
 ![Abschnitt „Bevorzugte Filter“](assets/predefined-filter-favorites.png)
 
-## Freigeben eines vordefinierten Filters {#share-filter}
+## Erstellen eines vordefinierten Filters {#share-filter}
 
 Standardmäßig sind vordefinierte Filter, die Sie erstellen, privat und nur für Sie sichtbar. Um anderen Benutzenden in Ihrer Organisation Zugriff auf einen Filter zu gewähren, aktivieren Sie die Option **[!UICONTROL Freigegebener Filter]**.
 
@@ -89,6 +91,6 @@ Gehen Sie wie folgt vor, um vordefinierte Filter zu bearbeiten oder zu löschen:
 
 1. Öffnen Sie die vordefinierte Filterliste mithilfe der Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** im Regelaufbau.
 
-1. Klicken Sie auf ![&#x200B; Schaltfläche mit &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) Auslassungspunkten neben einem Filter und wählen Sie die gewünschte Aktion aus.
+1. Klicken Sie auf ![ Schaltfläche mit ](assets/do-not-localize/rule-builder-icon-more.svg) Auslassungspunkten neben einem Filter und wählen Sie die gewünschte Aktion aus.
 
 ![](assets/predefined-filters-edit.png)

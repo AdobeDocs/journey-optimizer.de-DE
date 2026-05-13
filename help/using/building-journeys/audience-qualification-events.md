@@ -10,10 +10,17 @@ level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d08afb72-92f6-4856-88e3-11ec34313c2fid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 62%
+source-wordcount: 1767
+ht-degree: 63%
 
 ---
 
@@ -68,7 +75,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="Zusammenführungsrichtlinie"
 >abstract="Die Zusammenführungsrichtlinie wird automatisch von der ausgewählten Zielgruppe abgerufen und auf der gesamten Journey angewendet."
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Weitere Informationen zu Zusammenführungsrichtlinien"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Weitere Informationen zu Zusammenführungsrichtlinien"
 
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Zielgruppen-Qualifizierung]** in Ihrer Arbeitsfläche ab.
@@ -198,7 +205,7 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 * [!DNL Adobe Experience Platform] Zielgruppen werden entweder einmal täglich (**Batch**-Zielgruppen) oder in Echtzeit berechnet (für **Streaming**-Zielgruppen mithilfe der Option „Zielgruppen mit hoher Häufigkeit“ von [!DNL Adobe Experience Platform]).
 
-   * Wenn die ausgewählte Zielgruppe gestreamt wird, können die zu dieser Zielgruppe gehörenden Kontakte in Echtzeit in die Journey eintreten. 
+   * Wenn die ausgewählte Zielgruppe gestreamt wird, können die zu dieser Zielgruppe gehörenden Kontakte in Echtzeit in die Journey eintreten.
    * Wenn es sich bei der Zielgruppe um einen Batch-Vorgang handelt, geben Personen, die sich neu für diese Zielgruppe qualifiziert haben, möglicherweise die Journey ein, wenn die Zielgruppenberechnung auf [!DNL Adobe Experience Platform] ausgeführt wird.
 
   Als Best Practice wird empfohlen, Streaming-Zielgruppen für die Aktivität **Zielgruppen-Qualifizierung** zu verwenden. Für Batch-Anwendungsfälle verwenden Sie bitte die Aktivität **[Zielgruppe lesen](read-audience.md)**.
@@ -208,7 +215,7 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
   >Aufgrund der Batch-Beschaffenheit von Zielgruppen, die mithilfe von Kompositions-Workflows und benutzerdefinierten Uploads erstellt wurden, können diese Zielgruppen nicht in einer Aktivität „Zielgruppen-Qualifizierung“ ausgewählt werden. In dieser Aktivität können nur Zielgruppen genutzt werden, die mithilfe von Segmentdefinitionen erstellt wurden.
 
 
-* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ **Zielgruppe lesen**, **Zielgruppen-Qualifizierung** oder **Geschäftsereignis** beginnen. 
+* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ **Zielgruppe lesen**, **Zielgruppen-Qualifizierung** oder **Geschäftsereignis** beginnen.
 
 * Bei Verwendung einer Aktivität **Zielgruppenqualifizierung** in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
 
@@ -223,4 +230,4 @@ Die nachstehenden Schutzmechanismen und Empfehlungen müssen befolgt werden, um 
 
 Machen Sie sich mit den entsprechenden Anwendungsszenarien für Journeys vom Typ „Zielgruppenqualifizierung“ in diesem Video vertraut. Erfahren Sie, wie Sie eine Journey mit Zielgruppenqualifizierung erstellen und welche Best Practices anzuwenden sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446213?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

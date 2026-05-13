@@ -9,10 +9,17 @@ level: Intermediate
 keywords: Eintritt, Ausstieg, Kriterien, Journey, Profil, Wiedereintritt, Best Practices
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 91%
+source-wordcount: 1670
+ht-degree: 92%
 
 ---
 
@@ -102,7 +109,7 @@ Sammeln Sie Erkenntnisse über Kundenzufriedenheit und Produktleistung, indem Si
 
 * **[Ereignisbasierte Trigger:](../event/about-events.md)** Verwenden Sie Ereignisse wie „Profilerstellung“, „Transaktion abgeschlossen“ oder benutzerdefinierte Ereignisse, um eine Journey zu starten. [Konfigurieren Sie Ereignisse](../event/about-creating.md) unter **[!UICONTROL Administration]** > **[!UICONTROL Ereignisse]** und definieren Sie [Ereignisschema und -felder](../event/experience-event-schema.md). Fügen Sie dann das Ereignis aus der **[!UICONTROL Ereignisse]**-Palette im [Journey-Designer hinzu](using-the-journey-designer.md).
 
-* **[Zielgruppenbasierter Eintritt:](read-audience.md)** Richten Sie Journeys an Profile, die zu bestimmten Zielgruppen gehören, entweder als einmaligen Batch oder gemäß einem wiederkehrenden Zeitplan. [Zielgruppen erstellen](../audience/creating-a-segment-definition.md) im Menü **[!UICONTROL Zielgruppen]** fügen Sie dann eine Aktivität **[!UICONTROL Zielgruppe lesen]** hinzu und [&#x200B; Sie den Zeitplan](journey-properties.md#schedule). Verwenden Sie nach der Eingabe Bedingungen [Segmentieren, Ausschließen oder Zusammenführen von Verzweigungen](read-audience.md#audience-targeting-in-journeys).
+* **[Zielgruppenbasierter Eintritt:](read-audience.md)** Richten Sie Journeys an Profile, die zu bestimmten Zielgruppen gehören, entweder als einmaligen Batch oder gemäß einem wiederkehrenden Zeitplan. [Erstellen Sie Zielgruppen](../audience/creating-a-segment-definition.md) im Menü **[!UICONTROL Zielgruppen]**, fügen Sie dann eine Aktivität des Typs **[!UICONTROL Zielgruppe lesen]** hinzu und [konfigurieren Sie den Zeitplan](journey-properties.md#schedule). Verwenden Sie nach der Eingabe Bedingungen [Segmentieren, Ausschließen oder Zusammenführen von Verzweigungen](read-audience.md#audience-targeting-in-journeys).
 
 * **[Eintritt nach Zielgruppenqualifizierung:](audience-qualification-events.md)** Lösen Sie Journeys in Echtzeit aus, wenn Profile sich für bestimmte Zielgruppen qualifizieren oder aus ihnen aussteigen. Definieren Sie [Streaming-Zielgruppen](../audience/about-audiences.md), fügen Sie ein Ereignis des Typs **[!UICONTROL Zielgruppenqualifizierung]** aus der Palette **[!UICONTROL Ereignisse]** hinzu und wählen Sie den Trigger-Typ aus.
 
@@ -146,7 +153,7 @@ Eine schrittweise Implementierungsanleitung mit vollständigen technischen Detai
 
 >[!TIP]
 >
->Durchsuchen Sie alle verfügbaren Anwendungsfälle in der [Journey-Anwendungsfallbibliothek, &#x200B;](jo-use-cases.md) Sie nach weiteren Mustern und Implementierungen. Beispiele sind [Steigern von &#x200B;](ramp-up-deliveries-uc.md), [Erlebnisereignismuster](exp-event-lookup.md) und [Entfernen von Profilen aus Live-Journey](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Durchsuchen Sie alle verfügbaren Anwendungsfälle in der [Journey-Anwendungsfallbibliothek, ](jo-use-cases.md) Sie nach weiteren Mustern und Implementierungen. Beispiele sind [Steigern von ](ramp-up-deliveries-uc.md), [Erlebnisereignismuster](exp-event-lookup.md) und [Entfernen von Profilen aus Live-Journey](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Best Practices für die Verwaltung von Eintritten und Ausstiegen {#best-practices}
 
@@ -172,7 +179,7 @@ Vermeiden Sie Kundenverwirrung und Nachrichtenkonflikte, indem Sie Ihre Journey-
 >
 >Verwenden Sie bei erweiterten Szenarien wie dem automatischen Entfernen von Profilen bei Qualifizierung für Journeys mit höherer Priorität [Journey-Begrenzung und Schlichtung](../conflict-prioritization/journey-capping.md) anstelle von Ausstiegskriterien.
 
-**Überwachen und Optimieren** 
+**Überwachen und Optimieren**
 
 Bewerten Sie kontinuierlich die Journey-Leistung und verfeinern Sie Ihre Eintritts- und Ausstiegskriterien basierend auf dem tatsächlichen Kundenverhalten:
 
@@ -208,7 +215,7 @@ Beginnen Sie damit, Ihre Kunden-Trigger und Ausstiegspunkte klar zuzuordnen, gr�
 
 **Tutorials und Beispiele**
 
-[Journey-Anwendungsfälle](jo-use-cases.md) | [Video zum Kunden-Onboarding](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video zu Warenkorbabbrüchen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Community-Blog: Eintritts- und Ausstiegskriterien](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=de)
+[Journey-Anwendungsfälle](jo-use-cases.md) | [Video zum Kunden-Onboarding](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video zu Warenkorbabbrüchen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Community-Blog: Eintritts- und Ausstiegskriterien](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Verwandte Funktionen**
 

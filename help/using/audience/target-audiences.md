@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/tcx8KXGtorgevwLUj6rnvoE1mFYESJ4VaLL2vn3aZfA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 93%
+source-wordcount: 811
+ht-degree: 94%
 
 ---
 
@@ -37,7 +44,7 @@ Sie können in Kampagnen und Journeys eine beliebige Zielgruppe auswählen, die 
 
 Zielgruppen sind direkt nach Abschluss der Aufnahme für die Verwendung in [!DNL Journey Optimizer] bereit. Dies geschieht in der Regel innerhalb einer Stunde, kann jedoch variieren. Zielgruppen, die aus Kompositionen resultieren, sollten 24 Stunden nach der Veröffentlichung verfügbar sein.
 
-Bei Zielgruppen, die aus Batch-Segmentierungsaufträgen resultieren, kann sich die Aktivierung aufgrund von Variabilität bei der Batch-Aufnahme verzögern. Für täglich geplante Journeys vom Typ „Zielgruppe lesen“ können Sie in den Journey-Eigenschaften ein Zeitfenster definieren, um sicherzustellen, dass vor der Journey-Ausführung neue Zielgruppendaten verfügbar sind. 
+Bei Zielgruppen, die aus Batch-Segmentierungsaufträgen resultieren, kann sich die Aktivierung aufgrund von Variabilität bei der Batch-Aufnahme verzögern. Für täglich geplante Journeys vom Typ „Zielgruppe lesen“ können Sie in den Journey-Eigenschaften ein Zeitfenster definieren, um sicherzustellen, dass vor der Journey-Ausführung neue Zielgruppendaten verfügbar sind.
 
 Wenn der Segmentierungsauftrag nicht innerhalb des definierten Zeitfensters abgeschlossen wird, wird die Journey bis zum nächsten Auftreten übersprungen. [Informationen zum Planen einer Journey vom Typ „Zielgruppe lesen“](../building-journeys/read-audience.md)
 
@@ -47,7 +54,7 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
 * Wählen Sie eine Zielgruppe für eine **Kampagne** aus, sodass die Nachricht an alle Personen gesendet wird, die zur ausgewählten Zielgruppe gehören. [Erfahren Sie, wie Sie die Zielgruppe einer Kampagne definieren](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Verwenden Sie die Orchestrierungsaktivität **Zielgruppe lesen** in einer Journey, damit alle Personen der Zielgruppe in die Journey eintreten und die in Ihrer Journey enthaltenen Nachrichten empfangen. Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundschaft“. Mit dieser Aktivität können Sie alle Silber-Kundinnen und -Kunden in eine Journey eintreten lassen. Sie können ihnen dann eine Reihe personalisierter Nachrichten senden. [Erfahren Sie, wie Sie die Aktivität „Zielgruppe lesen“ konfigurieren](../building-journeys/read-audience.md#configuring-segment-trigger-activity). Informationen zum Segmentieren, Ausschließen oder Zusammenführen von Verzweigungen nach dem Eintritt finden Sie unter [Zielgruppen-Targeting in Journey](../building-journeys/read-audience.md#audience-targeting-in-journeys).
+* Verwenden Sie die Orchestrierungsaktivität **Zielgruppe lesen** in einer Journey, damit alle Personen der Zielgruppe in die Journey eintreten und die in Ihrer Journey enthaltenen Nachrichten empfangen. Angenommen, Sie verfügen über eine Zielgruppe für „Silber-Kundschaft“. Mit dieser Aktivität können Sie alle Silber-Kundinnen und -Kunden in eine Journey eintreten lassen. Sie können ihnen dann eine Reihe personalisierter Nachrichten senden. [Erfahren Sie, wie Sie eine Aktivität vom Typ „Zielgruppe lesen“ konfigurieren](../building-journeys/read-audience.md#configuring-segment-trigger-activity). Informationen zum Segmentieren, Ausschließen oder Zusammenführen von Verzweigungen nach dem Eintritt finden Sie unter [Zielgruppen-Targeting in Journey](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   Verwenden Sie nach der Eingabe **Bedingung**-Aktivitäten, um [nach Attributen oder Verhalten zu segmentieren, einen Teil der Population auszuschließen oder Verzweigungen zusammenzuführen](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 

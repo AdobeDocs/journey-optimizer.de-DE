@@ -6,9 +6,15 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 00d2fc73-3ac8-421c-982a-0f3ec7e3dacd
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+TQID: https://experienceleague.adobe.com/AVN9LN-KzTpcMx-dexxN7i1i2nB4496dzSZ473a3NJE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: 427
 ht-degree: 100%
 
 ---
@@ -35,7 +41,7 @@ Gehen Sie wie folgt vor, um Ihre Web-Erlebnisse mit dem nicht visuellen Editor z
 
 1. Wählen Sie in der Dropdown-Liste den Änderungstyp aus.
 
-   Es stehen zwei Typen zur Verfügung.  Sie bieten verschiedene Optionen. Weitere Informationen dazu finden Sie unter den folgenden Links:
+   Es stehen zwei Typen zur Verfügung. Sie bieten verschiedene Optionen. Weitere Informationen dazu finden Sie unter den folgenden Links:
 
    * **[!UICONTROL CSS-Auswahl]** – [Weitere Informationen](manage-web-modifications.md#css-selector)
    * **[!UICONTROL Seite`<head>`]** – [Weitere Informationen](manage-web-modifications.md#page-head)
@@ -61,7 +67,7 @@ Gehen Sie wie folgt vor, um Ihre Web-Erlebnisse mit dem nicht visuellen Editor z
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]** über dem Bereich **[!UICONTROL Änderungen]**, um eine weitere Änderung hinzuzufügen, und wiederholen Sie die oben beschriebenen Schritte.
 
 
-1. Darüber hinaus können Sie ein beliebiges Element Ihrer Web-Seite auswählen und die Klicks auf dieses Element nachverfolgen.  Um das Klick-Tracking zu aktivieren und die Aktionen zu definieren, die nachverfolgt werden sollen, klicken Sie auf das zweite Symbol in der linken Leiste, wie unten dargestellt:
+1. Darüber hinaus können Sie ein beliebiges Element Ihrer Web-Seite auswählen und die Klicks auf dieses Element nachverfolgen. Um das Klick-Tracking zu aktivieren und die Aktionen zu definieren, die nachverfolgt werden sollen, klicken Sie auf das zweite Symbol in der linken Leiste, wie unten dargestellt:
 
    ![](assets/web-campaign-click.png){width="50%" align="left"}
 

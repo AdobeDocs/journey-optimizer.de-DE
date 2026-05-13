@@ -9,14 +9,20 @@ role: User
 level: Beginner, Intermediate
 keywords: vertikale Ausrichtung, E-Mail-Editor, Abstand
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 4817b7426abf202c886b7fd63d59aa0f245e5496
+TQID: https://experienceleague.adobe.com/vJhROWi5ZiOLJrESMe-oUkmve1vSXrE5sNewDLpv-eE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 52%
+source-wordcount: 381
+ht-degree: 100%
 
 ---
 
-# Anpassen der vertikalen Ausrichtung und des Paddings {#alignment-and-padding}
+# Anpassen der vertikalen Ausrichtung und des Abstands {#alignment-and-padding}
 
 In diesem Beispiel passen wir den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente an, die aus drei Spalten besteht.
 
@@ -46,20 +52,20 @@ In diesem Beispiel passen wir den Abstand und die senkrechte Ausrichtung innerha
 >
 >Achten Sie beim Entwerfen von E-Mail-Inhalt für Gmail auf Android-Geräten darauf, dass für Bilder und Trennelemente Spaltenabstände und keine großen, festen Ränder verwendet werden. Gmail auf Android rendert übergroße Bilder und Ränder häufig falsch, was zu Layout-Überlauf oder reduzierten Trennlinien führt. Verwenden Sie eine kleinere Bildbreite oder spaltenbasierte Abstände, um eine konsistente Anzeige zu erreichen.
 
-## Verwalten des Abstand von Fragmenten mit Breadcrumb-Navigation {#fragment-padding-breadcrumb}
+## Verwalten der Abstände von Fragmenten mit Breadcrumb-Navigation {#fragment-padding-breadcrumb}
 
-Beim Arbeiten mit [Fragmenten](../content-management/fragments.md) in der E-Mail-Designer kann es vorkommen, dass der ausgeblendete oder restliche Abstand das Rendering auf Mobilgeräten anders beeinflusst als auf dem Desktop. Dies ist besonders häufig, wenn Fragmente entsperrt wurden oder [die Vererbung unterbrochen wurde](use-visual-fragments.md#break-inheritance) da übrig gebliebene Formatierungen in den zugrunde liegenden Spalten- oder Textkomponenten verbleiben können.
+Beim Arbeiten mit [Fragmenten](../content-management/fragments.md) im E-Mail-Designer kann es vorkommen, dass der ausgeblendete oder verbleibende Abstand das Rendering auf Mobilgeräten anders beeinflusst als auf dem Desktop. Dies geschieht besonders häufig, wenn Fragmente entsperrt wurden oder [die Vererbung unterbrochen wurde](use-visual-fragments.md#break-inheritance), da übrig gebliebene Formatierungen in den zugrunde liegenden Spalten- oder Textkomponenten verbleiben können.
 
-So identifizieren und bearbeiten Sie übrig gebliebene Abstände in Fragmenten:
+So identifizieren und bearbeiten Sie verbleibende Abstände in Fragmenten:
 
 1. Verwenden Sie den **[!UICONTROL Navigationsbaum]** oder klicken Sie direkt auf Elemente im Editor, um jede übergeordnete Struktur oder Spalte innerhalb Ihres Fragments auszuwählen. Auf diese Weise können Sie ausgeblendete Abstände oder Ränder finden, die speziell für Mobilgeräte gelten.
 
-1. Nachdem Sie das Element im Breadcrumb ausgewählt haben, navigieren Sie zur Registerkarte **[!UICONTROL Stile]** auf der rechten Seite.
+1. Nachdem Sie das Element im Breadcrumb ausgewählt haben, navigieren Sie auf der rechten Seite zur Registerkarte **[!UICONTROL Stile]**.
 
-1. Überprüfen Sie die **[!UICONTROL Padding]**-Einstellungen und entfernen oder passen Sie den Padding nach Bedarf an, um eine korrekte Ausrichtung auf Mobilgeräten zu erreichen.
+1. Überprüfen Sie die Einstellungen für **[!UICONTROL Abstände]** und entfernen Sie die Abstände nach Bedarf oder passen Sie sie an, um eine korrekte Ausrichtung auf Mobilgeräten zu erreichen.
 
 1. Wenn bei der Wiederverwendung von Fragmenten weiterhin Ausrichtungsprobleme auftreten, wiederholen Sie diesen Vorgang für andere Spalten oder Textkomponenten innerhalb des Fragments.
 
 >[!NOTE]
 >
->Dieses Verhalten ist zu erwarten, wenn Fragmente wiederholt eingefügt und entfernt werden, da sich Stilregeln ansammeln können. Überprüfen Sie die Auffüllwerte immer mithilfe der Breadcrumb-Navigation, insbesondere bei Mobilgeräten.
+>Dieses Verhalten tritt in der Regel auf, wenn Fragmente wiederholt eingefügt und entfernt werden, da sich Stilregeln akkumulieren können. Überprüfen Sie die Abstandswerte immer mithilfe der Breadcrumb-Navigation, insbesondere für Mobilgeräte.

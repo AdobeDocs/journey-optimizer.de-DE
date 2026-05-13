@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/kqNGPnCDU-yeMvOX-L55POHs1-vmQCEcq4Psky8wSfs
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 84%
+source-wordcount: 1360
+ht-degree: 83%
 
 ---
 
@@ -49,8 +56,8 @@ Gehen Sie wie folgt vor, um **ein Schema zu erstellen**:
 1. Geben Sie einen Namen für Ihr Schema ein und klicken Sie auf **Beenden**.
    ![Dialogfeld zum Benennen und Speichern eines Schemas](assets/test-profiles-1-bis.png)
 1. Klicken Sie links im Bereich **Feldergruppen** auf **Hinzufügen** und wählen Sie die entsprechenden Feldergruppen aus. Stellen Sie sicher, dass Sie die Feldergruppe **[!UICONTROL Profiltestdetails]** hinzufügen.
-   ![Abschnitt „Feldergruppen“ mit Schaltfläche „Hinzufügen“](assets/test-profiles-1-ter.png)
-Klicken Sie abschließend auf **[!UICONTROL Feldergruppen hinzufügen]**: Die Liste der Feldergruppen wird im Bildschirm der Schemaübersicht angezeigt.
+   ![Abschnitt „Feldergruppen“ mit der Schaltfläche „Hinzufügen“](assets/test-profiles-1-ter.png)
+Klicken Sie abschließend **[!UICONTROL Feldergruppen hinzufügen]**: Die Liste der Feldergruppen wird im Bildschirm „Schemaübersicht“ angezeigt.
    ![Schemaübersicht mit der Liste der Feldergruppen](assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -195,7 +202,7 @@ Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey
 >
 >Weitere Informationen zu CSV-Importen finden Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=de#tutorials){target="_blank"}.
 
-## Erstellen von Testprofilen mithilfe von API-Aufrufen {#create-test-profiles-api}
+## Erstellen von Testprofilen mithilfe von API-Aufrufen{#create-test-profiles-api}
 
 Sie können Testprofile auch über API-Aufrufe erstellen. Weitere Informationen finden Sie in der [[!DNL Adobe Experience Platform] Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}.
 

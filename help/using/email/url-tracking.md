@@ -9,10 +9,16 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
+TQID: https://experienceleague.adobe.com/q1T-efX3vK77d1PfKA8mWU73w6Cj4-H95RynkHHg16U
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 81%
+source-wordcount: 489
+ht-degree: 85%
 
 ---
 
@@ -34,7 +40,7 @@ Die im entsprechenden Abschnitt definierten Parameter werden an das Ende der URL
 
 >[!NOTE]
 >
->Die Reihenfolge der an die URL angehängten URL-Tracking-Parameter ist zufällig und kann nicht gesteuert werden. Wenn Ihr System Parameter in einer bestimmten Reihenfolge benötigt, müssen Sie sie analysieren und auf Ihrer Seite neu anordnen.
+>Die Reihenfolge der an die URL angehängten URL-Tracking-Parameter ist zufällig und kann nicht gesteuert werden. Wenn Ihr System Parameter in einer bestimmten Reihenfolge benötigt, müssen Sie sie parsen und auf Ihrer Seite neu anordnen.
 
 Sie können mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen]** bis zu 10 Tracking-Parameter hinzufügen.
 
@@ -42,13 +48,13 @@ Sie können mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen
 
 Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben.
 
-Mithilfe des [Personalisierungseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes Feld **[!UICONTROL Wert]** bearbeiten.  Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die gewünschten Kontexteigenschaften und/oder den Text direkt bearbeiten.
+Mithilfe des [Personalisierungseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes Feld **[!UICONTROL Wert]** bearbeiten. Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die gewünschten Kontexteigenschaften und/oder den Text direkt bearbeiten.
 
 ![](assets/preset-url-tracking-editor.png)
 
 Die folgenden vordefinierten Werte sind über den Personalisierungseditor verfügbar:
 
-* **Nachrichtprofil-ID**:Ein nachrichtenorientiertes Attribut, das jede an jedes Zielprofil in einem Versand gesendete Nachricht eindeutig identifiziert. 
+* **Nachrichtprofil-ID**:Ein nachrichtenorientiertes Attribut, das jede an jedes Zielprofil in einem Versand gesendete Nachricht eindeutig identifiziert.
 
 * **Angebots-ID**: ID des in der E-Mail verwendeten Angebots.
 
@@ -56,7 +62,7 @@ Die folgenden vordefinierten Werte sind über den Personalisierungseditor verfü
 
   >[!NOTE]
   >
-  >Journey-Dateien, die nach einer Produktänderung geschlossen oder nicht erneut veröffentlicht wurden, können `context.system.source.actionId` möglicherweise nicht in Tracking-URLs einfügen, was zu leeren Platzhaltern führt (z. B. `cid=em-acou-adob{}`). Um sicherzustellen, dass die Tracking-Parameter korrekt ausgefüllt sind[&#x200B; veröffentlichen Sie die betroffene Journey erneut](../building-journeys/publish-journey.md#journey-create-new-version) oder entfernen Sie den Verweis auf dieses Kontextfeld für geschlossene Journey. Weitere Informationen finden Sie unter [Fehlerbehebung bei der Live-Journey-Ausführung](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys).
+  >Journey-Dateien, die nach einer Produktänderung geschlossen oder nicht erneut veröffentlicht wurden, können `context.system.source.actionId` möglicherweise nicht in Tracking-URLs einfügen, was zu leeren Platzhaltern führt (z. B. `cid=em-acou-adob{}`). Um sicherzustellen, dass die Tracking-Parameter korrekt ausgefüllt sind[ veröffentlichen Sie die betroffene Journey erneut](../building-journeys/publish-journey.md#journey-create-new-version) oder entfernen Sie den Verweis auf dieses Kontextfeld für geschlossene Journey. Weitere Informationen finden Sie unter [Fehlerbehebung bei der Live-Journey-Ausführung](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys).
 
 * **Name der Quellaktion**: Name der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
 
@@ -68,7 +74,7 @@ Die folgenden vordefinierten Werte sind über den Personalisierungseditor verfü
 
 >[!NOTE]
 >
->Sie können die Eingabe von Textwerten und die Verwendung von kontextuellen Attributen im Personalisierungseditor kombinieren.  Jedes **[!UICONTROL Wert]**-Feld kann eine Anzahl von Zeichen bis zu einer Größe von 5 KB enthalten.
+>Sie können die Eingabe von Textwerten und die Verwendung von kontextuellen Attributen im Personalisierungseditor kombinieren. Jedes **[!UICONTROL Wert]**-Feld kann eine Anzahl von Zeichen bis zu einer Größe von 5 KB enthalten.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

@@ -7,10 +7,16 @@ role: Developer
 level: Experienced
 keywords: Datum, Funktionen, Ausdruck, Journey, Uhrzeit
 version: Journey Orchestration
-source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
+exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
+TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 95%
+source-wordcount: 834
+ht-degree: 100%
 
 ---
 
@@ -354,7 +360,7 @@ Gibt das aktuelle Datum im Datum/Uhrzeit-Format zurück. Weitere Informationen z
 
 >[!NOTE]
 >
->Diese Funktion ist nur in Journey-Ausdrücken verfügbar. Verwenden Sie stattdessen `getCurrentZonedDateTime()` für die Personalisierung von E-Mails und andere Inhalte. [Weitere Informationen](../../personalization/functions/dates.md#get-current-zoned-date-time)
+>Diese Funktion ist nur in Journey-Ausdrücken verfügbar. Verwenden Sie für die Personalisierung von E-Mails und andere Inhalte stattdessen `getCurrentZonedDateTime()`. [Weitere Informationen](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++Syntax
 
@@ -452,7 +458,7 @@ Legt die Stunden eines Datum/Uhrzeit-Werts oder Datum/Uhrzeit-Werts ohne Zeitzon
 |--- |--- |
 | Datum/Uhrzeit | dateTime |
 | Datum/Uhrzeit ohne Berücksichtigung der Zeitzone | dateTimeOnly |
-| Stunden | Ganzzahl |
+| Stunden | integer |
 
 +++
 
@@ -558,4 +564,3 @@ Gibt 2023-08-28T17:15:30.123+02:00 zurück.
 Wenn der Wert des Zeitstempelfelds `2021-11-16T16:55:12.939318+01:00` ist, gibt die Funktion `2021-11-17T02:55:12.942115+11:00` zurück.
 
 +++
-

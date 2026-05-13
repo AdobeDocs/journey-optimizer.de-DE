@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/KrsJKfvAPAE5yW2Lgrc-MrMUtoxi336rsmQIglfs7Mc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 17%
+source-wordcount: 868
+ht-degree: 23%
 
 ---
 
@@ -91,7 +98,7 @@ Gehen Sie wie folgt vor, um dieses Problem zu beheben:
 4. **Verringern der adressierbaren Zielgruppengröße:**
 
    * Pseudonyme Profile löschen, falls erforderlich. Beachten Sie, dass diese Aktion sowohl Journey Optimizer als auch Real-Time Customer Data Platform betrifft.
-   * Weitere Informationen zum Ablauf [&#x200B; Daten pseudonymer Profile &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} Sie im Handbuch zum Echtzeit-Kundenprofil .
+   * Weitere Informationen zum Ablauf [ Daten pseudonymer Profile ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} Sie im Handbuch zum Echtzeit-Kundenprofil .
    * **Hinweis:** Ablauf von Daten pseudonymer Profile kann nicht über die Platform-Benutzeroberfläche oder APIs konfiguriert werden. Sie müssen sich an den Support wenden, um diese Funktion zu aktivieren.
 
 5. **Datensatzänderungen überwachen:**
@@ -106,13 +113,13 @@ Gehen Sie wie folgt vor, um dieses Problem zu beheben:
 **Siehe auch:**
 
 * [Beispiele für Engageable Profiles-](../reports/query-examples.md#engageable-profiles-queries): Beispielabfragen zur Überwachung und Analyse Ihrer Engageable Profiles
-* [Übersicht über den Adobe Experience Platform Query Service](https://experienceleague.adobe.com/de/docs/experience-platform/query/home){target="_blank"}
+* [Adobe Experience Platform Query Service - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/query/home){target="_blank"}
 
 ## Verwandte Dokumentation {#related-documentation}
 
 Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform:
 
 * [Überblick über das Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=de){target="_blank"}
-* [Erkunden des Lizenznutzungs-Dashboards](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=de#exploring-the-license-usage-dashboard){target="_blank"}
+* [Genauere Informationen zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=de#exploring-the-license-usage-dashboard){target="_blank"}
 * [Verfügbare Metriken](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=de#available-metrics){target="_blank"}
 * [Ablauf von Daten pseudonymer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=de){target="_blank"}

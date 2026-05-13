@@ -10,9 +10,15 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
+TQID: https://experienceleague.adobe.com/TMWU9R07fDaJpqQHKLt2yOFAdu8dlJhtqXIgv7e8oaU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: a37e4ecd-c740-426a-addf-cb1b483c5c5aid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d1823595-9241-4128-8a33-e4ac3bf08773
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 469
 ht-degree: 90%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 90%
 >
 >Auf dieser Seite werden Entscheidungsregeln für die alte Funktion **Entscheidungs-Management** behandelt. Wenn Sie **Decisioning** verwenden - [!DNL Adobe Journey Optimizer] aktuelle Entscheidungsfunktion, die über Code-basierte Erlebnis- und E-Mail-Kanäle verfügbar ist -, lesen Sie stattdessen [Regeln erstellen](../../experience-decisioning/rules.md).
 >
->Sie sind sich nicht sicher, welche Funktion Sie verwenden? [Erfahren Sie mehr über &#x200B;](../../experience-decisioning/gs-experience-decisioning.md).
+>Sie sind sich nicht sicher, welche Funktion Sie verwenden? [Erfahren Sie mehr über ](../../experience-decisioning/gs-experience-decisioning.md).
 
 ## Über Entscheidungsregeln {#about}
 
@@ -81,6 +87,6 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 >
 >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"} erstellen, können Sie sie nicht in einem Angebot nutzen.
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341369?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

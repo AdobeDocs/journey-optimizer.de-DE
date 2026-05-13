@@ -4,9 +4,14 @@ description: Erfahren Sie, wie Sie Journeys und Kampagnen Prioritätswerte zuwei
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+TQID: https://experienceleague.adobe.com/An8xmTbO8yWDFizK1B8uvSFkr0t6e9a59ntUoLqhosw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: 615
 ht-degree: 100%
 
 ---
@@ -15,7 +20,7 @@ ht-degree: 100%
 
 Mit Journey Optimizer können Sie einer Journey, einer Kampagne oder einer eingehenden Kanalaktion in der Journey-Aktivität **[!UICONTROL Aktion]** einen Prioritätswert zuweisen.
 
-Die Priorität ist von wesentlicher Bedeutung, um eine Journey, Kampagne oder Aktion zu priorisieren, wenn eine erzwungene Begrenzung vorliegt (z. B. eine Häufigkeitsbegrenzung). 
+Die Priorität ist von wesentlicher Bedeutung, um eine Journey, Kampagne oder Aktion zu priorisieren, wenn eine erzwungene Begrenzung vorliegt (z. B. eine Häufigkeitsbegrenzung).
 
 In Situationen, in denen Ihre Kundschaft für viele Journeys, Kampagnen oder Mitteilungen infrage kommt und Sie selektiv auswählen möchten, in welche sie eintreten und welche sie erhalten soll, sollten Sie dieses Feld verwenden.
 
@@ -39,7 +44,7 @@ Die Zuweisung eines Prioritätswerts ist für eingehende Kommunikation wie Web, 
 >
 >In Kampagnen ist der Prioritätswert nur für eingehende Web-, In-App- und Code-basierte Kanäle verfügbar.
 
-Um einer Journey oder Kampagne einen Prioritätswert zuzuweisen, geben Sie einen numerischen Wert (von 0 bis 100) in das Feld **[!UICONTROL Prioritätswert]** ein, das sich in den Journey- oder Kampagneneigenschaften befindet. Es gilt: Je höher die Zahl, desto höher die Priorität. 
+Um einer Journey oder Kampagne einen Prioritätswert zuzuweisen, geben Sie einen numerischen Wert (von 0 bis 100) in das Feld **[!UICONTROL Prioritätswert]** ein, das sich in den Journey- oder Kampagneneigenschaften befindet. Es gilt: Je höher die Zahl, desto höher die Priorität.
 
 Wenn Sie diese Kampagne erstellen und sicherstellen möchten, dass der Inhalt dieser Kampagne angezeigt wird, sollten Sie ihr den Wert 100 geben.
 
@@ -66,10 +71,10 @@ So können Sie eine eingehende Aktion priorisieren, wenn verschiedene Journey-Ak
 
 Im Abschnitt **[!UICONTROL Konflikt-Management]** ist die Option **[!UICONTROL Journey-Priorität verwenden]** standardmäßig aktiviert, was bedeutet, dass der Prioritätswert für die Aktion vom Gesamtprioritätswert für die Journey übernommen wird.
 
-Um den eingehenden Aktionen, die in der Aktivität **[!UICONTROL Aktion]** definiert sind, einen Prioritätswert zuzuweisen, deaktivieren Sie die Option **[!UICONTROL Journey-Priorität verwenden]** und geben Sie in das Feld **[!UICONTROL Priorität]** einen numerischen Wert (von 0–100) ein. Es gilt: Je höher die Zahl, desto höher die Priorität. 
+Um den eingehenden Aktionen, die in der Aktivität **[!UICONTROL Aktion]** definiert sind, einen Prioritätswert zuzuweisen, deaktivieren Sie die Option **[!UICONTROL Journey-Priorität verwenden]** und geben Sie in das Feld **[!UICONTROL Priorität]** einen numerischen Wert (von 0–100) ein. Es gilt: Je höher die Zahl, desto höher die Priorität.
 
 ![](assets/action-journey-priority-score.png){width=70%}
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445010?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

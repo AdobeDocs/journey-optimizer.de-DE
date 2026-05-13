@@ -7,13 +7,16 @@ mini-toc-levels: 1
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
+TQID: https://experienceleague.adobe.com/ZFSEl140wBA-sWfOVUMk9U5La9sJSlgGrNMhSF4Xp4s
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 41%
+source-wordcount: 1604
+ht-degree: 43%
 
 ---
-
 
 # Starten und Überwachen von orchestrierten Kampagnen {#start-monitor}
 
@@ -47,7 +50,7 @@ Mit [!DNL Journey Optimizer] können Sie orchestrierte Kampagnen vor der Live-Sc
 >
 >Es werden alle Aktivitäten auf der Arbeitsfläche ausgeführt, mit Ausnahme von Aktivitäten des Typs **[!UICONTROL Zielgruppe speichern]** und Kanalaktivitäten. Es gibt keine funktionalen Auswirkungen auf Ihre Daten oder Ihre Zielgruppe.
 
-Um eine orchestrierte Kampagne zu testen, öffnen Sie die Kampagne und wählen Sie **[!UICONTROL Starten]** aus. Jede Aktivität in der Kampagne wird sequenziell ausgeführt, bis das Ende der Arbeitsfläche erreicht ist.
+Um eine orchestrierte Kampagne zu testen, öffnen Sie die Kampagne und wählen Sie **[!UICONTROL Starten]**. Jede Aktivität in der Kampagne wird sequenziell ausgeführt, bis das Ende der Arbeitsfläche erreicht ist.
 
 ![Schaltfläche „Starten“ in der Symbolleiste der Kampagnen-Arbeitsfläche](assets/campaign-start.png){zoomable="yes"}
 
@@ -122,7 +125,7 @@ Um eine Kampagne wieder in den Entwurfsstatus zu versetzen, öffnen Sie die orch
 
 ![Schaltfläche „Zurück zum Entwurf“ in der Symbolleiste der Kampagnen-Arbeitsfläche](assets/back-to-draft.png)
 
-Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Die Kampagne kehrt zum Status **Entwurf** zurück. Sie können jetzt die identifizierten Probleme beheben, die Kampagne [&#x200B; testen &#x200B;](#test) sie dann erneut [veröffentlichen](#publish) wenn sie bereit ist.
+Die Veröffentlichung der Kampagne wird aufgehoben und der Workflow gestoppt. Die Kampagne kehrt zum Status **Entwurf** zurück. Sie können jetzt die identifizierten Probleme beheben, die Kampagne [ testen ](#test) sie dann erneut [veröffentlichen](#publish) wenn sie bereit ist.
 
 ## Nachrichtenversand bestätigen {#confirm-sending}
 
@@ -157,7 +160,7 @@ Visuelle Statusindikatoren helfen, zu verstehen, wie jede Aktivität funktionier
 |-----|------------|
 | ![Status „Ausstehend](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | Die Aktivität wird derzeit ausgeführt. |
 | ![Statusanzeige „Achtung erforderlich“](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | Die Aktivität erfordert Ihre Aufmerksamkeit. Dies kann die Bestätigung eines Versands oder die Ergreifung einer notwendigen Maßnahme beinhalten. |
-| ![Fehlerstatus](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | Bei der Aktivität ist ein Fehler aufgetreten. Um das Problem zu beheben, öffnen Sie die Protokolle zu orchestrierten Kampagnen , um weitere Informationen zu erhalten. |
+| ![Fehlerstatus](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | Bei der Aktivität ist ein Fehler aufgetreten. Öffnen Sie zur Behebung dieses Problems die Protokolle der orchestrierten Kampagne, um weitere Informationen zu erhalten. |
 | ![Erfolgsstatus](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | Die Aktivität wurde erfolgreich ausgeführt. |
 
 ### Logs und Aufgaben {#logs-tasks}
@@ -171,13 +174,13 @@ Die Überwachung von Protokollen und Aufgaben ist ein wichtiger Schritt, um Ihre
 
 ![Schaltfläche Protokolle in der Symbolleiste der Kampagnen-Arbeitsfläche](assets/logs-button.png){zoomable="yes"}
 
-Der Bildschirm **[!UICONTROL Logs und Aufgaben]** enthält einen Verlauf der Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden. 
+Der Bildschirm **[!UICONTROL Logs und Aufgaben]** enthält einen Verlauf der Kampagnenausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden.
 
 ![Bildschirm „Protokolle und Aufgaben“ mit dem Ausführungsverlauf der Kampagne](assets/workflow-logs.png){zoomable="yes"}
 
 Es stehen zwei Arten von Informationen zur Verfügung:
 
-* Die Registerkarte **[!UICONTROL Log]** enthält den chronologischen Verlauf aller Vorgänge und Fehler. 
+* Die Registerkarte **[!UICONTROL Log]** enthält den chronologischen Verlauf aller Vorgänge und Fehler.
 * Auf der Registerkarte **[!UICONTROL Aufgaben]** wird die Ausführungssequenz der Aktivitäten Schritt für Schritt beschrieben.
 
 Auf beiden Registerkarten können Sie die angezeigten Spalten und ihre Reihenfolge auswählen, Filter anwenden und das Suchfeld verwenden, um die gewünschten Informationen schnell zu finden.

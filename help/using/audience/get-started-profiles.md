@@ -7,10 +7,17 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/QpLGV-y5qbtmksC-99GU5PtaV-mUA-imew8JDj7-weA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 91%
+source-wordcount: 537
+ht-degree: 77%
 
 ---
 
@@ -22,23 +29,23 @@ Mit dem Echtzeit-Kundenprofil in [!DNL Adobe Journey Optimizer] erhalten Sie ein
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
-**Echtzeit-Kundenprofil**: Integrieren Sie Kundenattribute und Ereignisse aus Online-, Offline- und pseudonymen Quellen in ein einziges, einheitliches Profil.Verwenden Sie das Profil, um mit der Kundschaft über mehrere Touchpoints hinweg durch personalisierte Echtzeiterlebnisse zu interagieren. 
+**Echtzeit-Kundenprofil&#x200B;** - Integrieren Sie Kundenattribute und Ereignisse aus Online-, Offline- und pseudonymen Quellen in ein einziges, einheitliches Profil. &#x200B;Verwenden Sie das Profil, um Kundinnen und Kunden über mehrere Touchpoints hinweg mit personalisierten Echtzeit-Erlebnissen anzusprechen. &#x200B;
 
-**Datenaufnahme**: Stellen Sie eine Verbindung zu verschiedenen Datenquellen her, um Verhaltens-, Transaktions-, Finanz- und Betriebsdaten aufzunehmen. Nehmen Sie Daten entweder in Echtzeit oder über Batch-Uploads auf, um Profile ständig zu aktualisieren. Profile werden nicht direkt in der [!DNL Journey Optimizer] erstellt, sondern automatisch in Adobe Experience Platform erstellt oder aktualisiert, wenn Daten aufgenommen werden.
+**Datenaufnahme**: Stellen Sie eine Verbindung zu verschiedenen Datenquellen her, um Verhaltens-, Transaktions-, Finanz- und Betriebsdaten aufzunehmen. Importieren Sie Daten entweder in Echtzeit oder über Batch-Uploads, um Profile ständig zu aktualisieren. Profile werden nicht direkt in der [!DNL Journey Optimizer] erstellt, sondern automatisch in Adobe Experience Platform erstellt oder aktualisiert, wenn Daten aufgenommen werden.
 
 >[!NOTE]
 >
 >Bei der Datenaufnahme wird bei E-Mails die Groß- und Kleinschreibung beachtet. Das bedeutet, dass möglicherweise doppelte Profile erstellt (z. B. ein Profil für John.Greene@luma.com und ein anderes Profil für john.greene@luma.com) und beim Targeting der entsprechenden Person in Ihren [!DNL Journey Optimizer]-Journeys und Kampagnen verwendet werden.
 
-**Identitätsdiagramm**: Kombinieren Sie Daten aus verschiedenen Quellen mithilfe von Kundenidentitäten wie Treue-IDs oder CRM-System-IDs. Erstellen Sie eine umfassende Ansicht der Kundin oder des Kunden, indem Sie Beziehungen zwischen verschiedenen Identitäten in den Datensätzen einer Marke zuordnen. 
+**Identitätsdiagramm** - Kombinieren Sie Daten aus verschiedenen Quellen mithilfe von Kundenidentitäten, wie z. B. Treueprogramm-IDs oder CRM-System-IDs. &#x200B;Erstellen Sie eine umfassende Ansicht des Kunden, indem Sie Beziehungen zwischen verschiedenen Identitäten in den Datensätzen einer Marke zuordnen. &#x200B;
 
-**Kundeninteraktion**: Verwenden Sie das Echtzeit-Kundenprofil, um kontextbezogene, personalisierte Erlebnisse bereitzustellen, z. B. zielgerichtete Angebote und Nachrichten. Binden Sie die Kundschaft über verschiedene Kanäle ein, einschließlich Marketing-Kampagnen, Kunden-Support und Transaktions-Updates. 
+**Kundeninteraktion** - Verwenden Sie das Echtzeit-Kundenprofil, um kontextuelle, personalisierte Erlebnisse wie zielgerichtete Angebote und Nachrichten bereitzustellen. &#x200B;Kundeninteraktion über verschiedene Kanäle hinweg, einschließlich Marketing-Kampagnen, Kunden-Support und Transaktions-Updates. &#x200B;
 
 **Datenfreigabe**: Geben Sie Kundenprofile für führende Cloud-Speicheranbieter wie Amazon Web Services, Microsoft Azure und Google Cloud frei. Verwenden Sie freigegebene Profile für Berichte, Datenarchivierung oder tiefer gehende Analysen mit Business Intelligence Tools.
 
 >[!MORELIKETHIS]
 >
->* [Erste Schritte mit der Datenverwaltung in Journey Optimizer](../data/gs-data.md)
+>* [Erste Schritte mit Daten-Management in Journey Optimizer](../data/gs-data.md)
 >* [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"}
 >* [Standardleitlinien für Echtzeit-Kundenprofildaten und Segmentierung](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"}
 >* [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/home){target="_blank"}
@@ -59,4 +66,4 @@ Datenfragmente können aus verschiedenen Quellen zusammengeführt und kombiniert
 
 In diesem Video wird erläutert, wie Adobe Experience Platform Echtzeit-Kundenprofile zusammenstellt und aktualisiert und wie Sie auf diese Profile zugreifen und sie verwenden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/31581?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

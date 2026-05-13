@@ -9,16 +9,23 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
+TQID: https://experienceleague.adobe.com/ecrWN9KOSy0Ha4OgJ9pW7RHp2X3pnGtxsH5tOfXvDgA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 75%
+source-wordcount: 2080
+ht-degree: 78%
 
 ---
 
 # Verwenden von Formularen in Ihren Landingpages {#lp-forms}
 
-Um Profildaten mit Ihren [!DNL Journey Optimizer] Landingpages zu erfassen und Ihre [!DNL Experience Platform] Datensätze anzureichern, können Sie Formulare in Ihren Landingpages nutzen. Eine Übersicht über Datenerfassungsszenarien und -anforderungen finden Sie unter [Datenerfassung mit Landingpages](get-started-lp.md#data-capture-lp).
+Um Profildaten mit Ihren [!DNL Journey Optimizer]-Landingpages zu erfassen und Ihre [!DNL Experience Platform]-Datensätze anzureichern, können Sie in Ihren Landingpages Formulare nutzen. Eine Übersicht über Datenerfassungsszenarien und -anforderungen finden Sie unter [Datenerfassung mit Landingpages](get-started-lp.md#data-capture-lp).
 
 ## Erstellen einer Formularvoreinstellung {#create-form-preset}
 
@@ -73,7 +80,7 @@ Gehen Sie wie folgt vor, um eine Formularvoreinstellung zu erstellen.
    >* **Datentyp** muss auf **XDM** festgelegt sein (nicht Rohdaten)
    >* **Authentifizierung** muss **deaktiviert** sein (nicht authentifizierte Verbindung)
    >
-   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Wenn Ihre Streaming-Verbindung nicht in der Liste angezeigt wird, stellen Sie sicher, dass beide Bedingungen erfüllt sind. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Wählen Sie einen **[!UICONTROL Datensatz]** aus, um ihn mit dem Formular zu verknüpfen. Hier werden die Formularantworten gespeichert und dargestellt. Sie können etwas eingeben, um einen bestimmten Datensatz zu durchsuchen, oder einen Datensatz aus der Liste auswählen.
 
@@ -107,7 +114,7 @@ Alle vorhandenen Formulare werden angezeigt. Sie können Formulare nach ihrem St
 
 Gehen Sie wie folgt vor, um ein Formular zu erstellen.
 
-1. Klicken Sie in der Liste **[!UICONTROL Formulare]** auf **[!UICONTROL Formular erstellen]**. 
+1. Klicken Sie in der Liste **[!UICONTROL Formulare]** auf **[!UICONTROL Formular erstellen]**.
 
 1. Fügen Sie einen Namen hinzu. Sie können bei Bedarf eine Beschreibung hinzufügen.
 
@@ -283,7 +290,7 @@ Sie können dieses Formular jetzt in eine Landingpage einbetten, um Daten zu erf
 
 1. Speichern und testen Sie Ihre Landingpage. [Weitere Informationen](create-lp.md#test-landing-page)
 
-Sobald Ihre Landingpage [veröffentlicht) &#x200B;](create-lp.md#publish-landing-page) auf einer Journey verwendet wurde und Benutzer das Formular ausfüllen, werden die eingegebenen Informationen in den ausgewählten Datensatz aufgenommen. Die Verarbeitung und Verfügbarkeit der Daten kann bis zu 15 Minuten dauern.
+Nachdem Sie Ihre Landingpage [veröffentlicht](create-lp.md#publish-landing-page) haben und in einer Journey verwenden, werden eingegebene Daten in den ausgewählten Datensatz aufgenommen, wenn Benutzende das Formular ausfüllen. Die Verarbeitung und Verfügbarkeit der Daten kann bis zu 15 Minuten dauern.
 
 >[!NOTE]
 >
@@ -305,7 +312,7 @@ Nur **profilaktivierte** und **nicht profilaktivierte** [!DNL Adobe Experience P
 
 +++Kann ich denselben Datensatz oder dieselbe Streaming-Verbindung über mehrere Formularvorgaben hinweg wiederverwenden?
 
-Ja. Derselbe Datensatz oder dieselbe Streaming-Verbindung kann über mehrere Voreinstellungen hinweg wiederverwendet werden. Sie können auch mehrere Vorgaben mit verschiedenen Kombinationen aus Datensätzen und Streaming-Verbindungen einrichten, um verschiedene Datenerfassungsszenarien zu unterstützen.
+Ja. Derselbe Datensatz oder dieselbe Streaming-Verbindung kann über verschiedene Voreinstellungen hinweg wiederverwendet werden. Sie können auch mehrere Vorgaben mit verschiedenen Kombinationen aus Datensätzen und Streaming-Verbindungen einrichten, um verschiedene Datenerfassungsszenarien zu unterstützen.
 
 +++
 
@@ -341,7 +348,7 @@ Ja. Wählen Sie **[!UICONTROL Abschnitt]** Feldverhalten“ der Konfiguration ei
 
 +++Wohin gehen die Formulardaten, nachdem ein Benutzer das Formular gesendet hat?
 
-Wenn das Formular übermittelt wird, werden Daten an die **Streaming-Verbindung** gesendet, die in der Formularvorgabe definiert ist. Sie wird dann über einen automatisch generierten Quellfluss, der **[!DNL Experience Platform], Transformation und Validierung verarbeitet, in den verknüpften**-Datensatz übertragen.
+Wenn das Formular übermittelt wird, werden Daten an die **Streaming-Verbindung** gesendet, die in der Formularvorgabe definiert ist. Sie wird dann über einen automatisch generierten Quellfluss, der **, Transformation und Validierung verarbeitet, in den verknüpften**[!DNL Experience Platform]-Datensatz übertragen.
 
 +++
 

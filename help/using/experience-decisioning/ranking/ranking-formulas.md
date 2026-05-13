@@ -7,9 +7,15 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: 1731
 ht-degree: 64%
 
 ---
@@ -63,7 +69,7 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel zu erstellen:
 1. Definieren Sie die Bedingungen, die den Rangfolgewert für die übereinstimmenden Entscheidungselemente bestimmen. Sie haben folgende Möglichkeiten:
 
    * Füllen Sie den Abschnitt **[!UICONTROL Kriterien]** mit dem [Formel-Builder](#ranking-select-criteria) aus und/oder
-   * Klicken Sie **[!UICONTROL Zum Code-Editor wechseln]**, um die Rangfolgelogik mit [PQL im Code-Editor zu definieren oder &#x200B;](#ranking-code-editor).
+   * Klicken Sie **[!UICONTROL Zum Code-Editor wechseln]**, um die Rangfolgelogik mit [PQL im Code-Editor zu definieren oder ](#ranking-code-editor).
 
 ## Verwenden von Adobe Experience Platform-Daten {#aep-data}
 
@@ -81,7 +87,7 @@ Mit einer intuitiven Benutzeroberfläche können Sie durch die Anpassung von KI-
 
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
-1. Klicken Sie bei Bedarf auf **[!UICONTROL Zum Code-Editor wechseln]**, um einen Ausdruck hinzuzufügen, der die **PQL-Syntax**. Diese Option ergänzt die Felder in der Benutzeroberfläche in den folgenden Schritten, sodass Sie beide Ansätze in derselben Rangfolgenformel kombinieren können. Weitere Informationen zur Verwendung der PQL-Syntax finden Sie in der [&#x200B; Dokumentation &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview). Die Syntax für Entscheidungselementattribute und Beispiele für das Kopieren und Einfügen finden Sie im Abschnitt [Verwenden des Code-Editors](#ranking-code-editor) .
+1. Klicken Sie bei Bedarf auf **[!UICONTROL Zum Code-Editor wechseln]**, um einen Ausdruck hinzuzufügen, der die **PQL-Syntax**. Diese Option ergänzt die Felder in der Benutzeroberfläche in den folgenden Schritten, sodass Sie beide Ansätze in derselben Rangfolgenformel kombinieren können. Weitere Informationen zur Verwendung der PQL-Syntax finden Sie in der [ Dokumentation ](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview). Die Syntax für Entscheidungselementattribute und Beispiele für das Kopieren und Einfügen finden Sie im Abschnitt [Verwenden des Code-Editors](#ranking-code-editor) .
 
    ![](../assets/ranking-formula-code-editor-button.png)
 
@@ -92,7 +98,7 @@ Mit einer intuitiven Benutzeroberfläche können Sie durch die Anpassung von KI-
 1. Geben Sie im Abschnitt **[!UICONTROL Kriterium 1]** die Entscheidungselemente an, auf die Sie einen Rangfolgenwert anwenden möchten, indem Sie Folgendes durchführen:
    * Wählen Sie ein [Entscheidungselement-Attribut](../items.md#attributes)
    * Logischen Operator auswählen
-   * Übereinstimmende Bedingung hinzufügen - Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten“ &#x200B;](../context-data.md)
+   * Übereinstimmende Bedingung hinzufügen - Sie können entweder einen Wert eingeben oder ein Profilattribut oder [Kontextdaten“ ](../context-data.md)
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 

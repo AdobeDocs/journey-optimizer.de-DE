@@ -8,10 +8,18 @@ topic: Administration
 role: User
 level: Beginner
 keywords: Tracking, Überwachen, Analysen, Reporting, Zustellbarkeit
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+exl-id: d5e7adb7-8473-4c29-8ae6-ba979aef97f3
+TQID: https://experienceleague.adobe.com/jLHTNJlUPQm39EZvTLLBvYT92eGlCBoHpTKBfJ1Zxlk
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1916'
-ht-degree: 100%
+source-wordcount: 1962
+ht-degree: 97%
 
 ---
 
@@ -89,7 +97,7 @@ Das E-Mail-Tracking wird beim Erstellen einer E-Mail-Nachricht automatisch aktiv
 
 * **Aktivieren/deaktivieren von Tracking** – Steuern Sie das Tracking auf Nachrichtenebene beim Entwerfen Ihrer E-Mail. Sie können Öffnungen, Klicks oder beides nachverfolgen. [Weitere Informationen](../email/message-tracking.md)
 
-* **Einrichten von URL-Tracking-Parametern** – Konfigurieren Sie Tracking-Parameter auf Oberflächenebene, um automatisch Kampagnenkennungen (utm_campaign, utm_source usw.) an alle E-Mail-Links anzuhängen. Dies ermöglicht das Attributions-Tracking über Ihr gesamtes digitales Ökosystem. [Weitere Informationen](../email/url-tracking.md)
+* **URL-Tracking-Parameter einrichten** - Konfigurieren von Tracking-Parametern auf Oberflächenebene, um Kampagnenkennungen automatisch anzuhängen (utm_campaign, utm_source usw.) auf alle E-Mail-Links. Dies ermöglicht das Attributions-Tracking über Ihr gesamtes digitales Ökosystem. [Weitere Informationen](../email/url-tracking.md)
 
 * **Tracking von Links in gespeicherten Fragmenten** – Wenn Sie ein Fragment aus Inhalten speichern, für die Tracking aktiviert ist, bleibt das Tracking der Links in diesem Fragment aktiv, wenn Sie es in anderen Journeys oder Kampagnen wiederverwenden. [Weitere Informationen](../content-management/save-fragments.md)
 
@@ -224,7 +232,7 @@ Landingpages verfügen über ein integriertes Tracking, das keine zusätzliche E
 
 Konfigurieren Sie nicht nur das Tracking auf Kanalebene, sondern auch das Tracking, um die Gesamtleistung zu messen und das Kundenverhalten über Ihre Marketing-Initiativen hinweg zu verstehen.
 
-* **Definieren von benutzerdefinierten Erfolgsmetriken** – Konfigurieren Sie spezifische KPIs, die neben den standardmäßigen Interaktionsmetriken auch auf Ihre Geschäftsziele (Käufe, Anmeldungen, Verlängerungen usw.) abgestimmt sind. [Weitere Informationen](../building-journeys/success-metrics.md)
+* **Definieren von benutzerdefinierten Erfolgsmetriken** - Konfigurieren spezifischer KPIs, die auf Ihre Geschäftsziele ausgerichtet sind (Käufe, Anmeldungen, Erneuerungen usw.) Über Standard-Interaktionsmetriken hinaus. [Weitere Informationen](../building-journeys/success-metrics.md)
 
 * **Aktivieren von Journey-Schrittereignissen** – Aktivieren Sie detailliertes Tracking jeder Aktion, die Kundinnen und Kunden beim Durchlaufen von Journeys ausführen. Dies bietet eine granulare Sichtbarkeit von Eintritts-/Ausstiegspunkten, Pfadauswahl und Absprungorten. [Weitere Informationen](../reports/journey-step-events-overview.md)
 
@@ -297,4 +305,3 @@ Richten Sie eine proaktive Überwachung ein, um Echtzeit-Benachrichtigungen zu k
 * **Aktivieren von Auditprotokollen** – Aktivieren Sie die Auditprotokollierung, um alle Aktionen auf Ressourcen für die Compliance und Fehlerbehebung nachzuverfolgen. [Weitere Informationen](../privacy/audit-logs.md)
 
 * **Überwachen von Integrationen** – Verfolgen Sie die Leistung von benutzerdefinierten Aktionen und die externe Systemkonnektivität nach, um Integrationsprobleme frühzeitig zu erkennen. [Weitere Informationen](../action/reporting.md)
-

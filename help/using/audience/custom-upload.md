@@ -8,10 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71c652ba-f38f-452c-9c1b-dcd728307baf
-source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
+TQID: https://experienceleague.adobe.com/HkybhydJwQDHVEXCKM5o16ZNeiBk-n9mogm-2pwFKus
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 88%
+source-wordcount: 149
+ht-degree: 89%
 
 ---
 
@@ -23,7 +29,7 @@ Geben Sie während des benutzerdefinierten Upload-Prozesses das CSV-Attribut, da
 
 >[!NOTE]
 >
->Wenn bei benutzerdefinierten Upload-Zielgruppen „Inkrementelles Lesen“ in einer wiederkehrenden Journey aktiviert ist, werden Profile nur bei der ersten Wiederholung abgerufen, da diese Zielgruppen fest sind.
+>Wenn bei benutzerdefinierten Upload-Zielgruppen „Inkrementelles Lesen“ in einer wiederkehrenden Journey aktiviert ist, werden Profile nur beim ersten Intervall abgerufen, da diese Zielgruppen fest sind.
 
 ![](assets/import-audience.png)
 
@@ -31,4 +37,4 @@ Detaillierte Informationen zum Importieren von Zielgruppen finden Sie in der Dok
 
 Mehr zum Hochladen von Zielgruppen im CSV-Format erfahren Sie in diesem Video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3423357?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)

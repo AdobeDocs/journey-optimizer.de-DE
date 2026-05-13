@@ -5,13 +5,16 @@ title: Arbeiten mit Aktivitäten orchestrierter Kampagnen
 description: Informationen zu Aktivitäten orchestrierter Kampagnen
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 43fa71d7ec05e8c4b1ccd8d8c0ff8727128f5030
+TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: 413
 ht-degree: 100%
 
 ---
-
 
 # Über Aktivitäten orchestrierter Kampagnen {#orchestrated-campaign-activities}
 
@@ -30,7 +33,7 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 >
 >* Je nach Ihrem Lizenzmodell, Ihren Berechtigungen und Ihrer Implementierung können die verfügbaren Aktivitäten unterschiedlich sein.
 >
->* Die Anzahl der Aktivitäten in einer orchestrierten Kampagne ist auf maximal 500 begrenzt. 
+>* Die Anzahl der Aktivitäten in einer orchestrierten Kampagne ist auf maximal 500 begrenzt.
 
 
 ## Targeting-Aktivitäten {#targeting}
@@ -51,7 +54,7 @@ Die verfügbaren Aktivitäten zur Zielgruppenbestimmung sind:
 
 ## Kanalaktivitäten {#channel}
 
-In Adobe Journey Optimizer können Sie Marketing-Kampagnen automatisieren und über mehrere Kanäle hinweg ausführen. Sie können [Kanalaktivitäten](channels.md) auf der Arbeitsfläche kombinieren, um orchestrierte Cross-Channel-Kampagnen zu erstellen, bei denen je nach Kundenverhalten Aktionen ausgelöst werden können. 
+In Adobe Journey Optimizer können Sie Marketing-Kampagnen automatisieren und über mehrere Kanäle hinweg ausführen. Sie können [Kanalaktivitäten](channels.md) auf der Arbeitsfläche kombinieren, um orchestrierte Cross-Channel-Kampagnen zu erstellen, bei denen je nach Kundenverhalten Aktionen ausgelöst werden können.
 
 Erfahren Sie, wie Sie [in einer orchestrierten Kampagne eine Kanalaktion erstellen](channels.md).
 

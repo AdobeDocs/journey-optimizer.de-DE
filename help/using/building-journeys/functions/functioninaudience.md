@@ -8,10 +8,16 @@ level: Experienced
 keywords: inAudience, Funktion, Ausdruck, Journey, Zielgruppe, Segmentierung
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 80%
+source-wordcount: 754
+ht-degree: 79%
 
 ---
 
@@ -48,7 +54,7 @@ Nur Kontakte mit dem Status **Realisiert** werden als aktive Zielgruppenmitglied
 
 | Parameter | Beschreibung | Typ |
 |--- |--- |--- |
-| Zielgruppe | Der Zielgruppenname | `<string>` |
+| Zielgruppe | Zielgruppenname | `<string>` |
 
 **Wichtige Einschränkungen:**
 
@@ -103,7 +109,7 @@ Beachten Sie bei Verwendung der Funktion `inAudience` in Ihren Journeys die folg
 * Feldverweise und Ausdrücke werden nicht als Parameter unterstützt
 
 **Änderungen des Zielgruppennamens:**
-* Wenn Sie den Namen einer bestehenden Zielgruppe in Adobe Experience Platform ändern, werden die Verweise auf diese Zielgruppe in Ihren Journey-Ausdrücken nicht automatisch aktualisiert. 
+* Wenn Sie den Namen einer bestehenden Zielgruppe in Adobe Experience Platform ändern, werden die Verweise auf diese Zielgruppe in Ihren Journey-Ausdrücken nicht automatisch aktualisiert.
 * Wenn Ihr Bedingungsknoten `inAudience('oldAudienceName')` verwendet, müssen Sie den Ausdruck manuell bearbeiten, damit der neue Name verwendet wird.
 * Wenn der Zielgruppenname nicht aktualisiert wird, funktioniert die Journey-Bedingung nicht mehr, was zu falschem Journey-Verhalten führen kann
 
@@ -116,7 +122,7 @@ Beachten Sie bei Verwendung der Funktion `inAudience` in Ihren Journeys die folg
 Bei Verwendung von `inAudience()` in einem Bedingungsknoten variiert der Zeitpunkt der Segmentzugehörigkeitsevaluierung je nachdem, wo die Bedingung auf der Journey erscheint:
 
 * **Auf einer Zielgruppen-Journey lesen vor einer Warteaktivität:** Journey Optimizer liest aus der Batch-Projektion des Profils. Die Daten in dieser Projektion werden innerhalb von **2 Stunden** der Aufnahme aktualisiert. Bei Zielgruppen, die auf tägliche oder zeitbasierte Bedingungen angewiesen sind, können zusätzliche Verzögerungen auftreten. Fügen Sie eine [Warteaktivität](../wait-activity.md) am Anfang der Journey hinzu oder lassen Sie eine Pufferzeit zu, um sicherzustellen, dass die neueste Segmentzugehörigkeit widergespiegelt wird.
-* **Auf einer Journey mit einem unitären Ereignis oder nach einer Warteaktivität wird** Segmentzugehörigkeit aus der Streaming-(unitären)-Projektion gelesen. Die Daten sind normalerweise innerhalb von **15 Minuten** verfügbar. Weitere Informationen finden Sie in der Dokumentation zur Streaming-Aufnahme in [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
+* **Auf einer Journey mit einem unitären Ereignis oder nach einer Warteaktivität wird** Segmentzugehörigkeit aus der Streaming-(unitären)-Projektion gelesen. Die Daten sind normalerweise innerhalb von **15 Minuten** verfügbar. Weitere Informationen finden Sie in der Dokumentation zur Streaming-Aufnahme in [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
 
 ## Verwandte Themen
 

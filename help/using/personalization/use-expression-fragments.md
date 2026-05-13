@@ -9,10 +9,16 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
+TQID: https://experienceleague.adobe.com/0N5waBGElHBnlsk1pHhKT8roaly-A6srIjb3UPIDNqY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 75%
+source-wordcount: 1313
+ht-degree: 98%
 
 ---
 
@@ -20,7 +26,7 @@ ht-degree: 75%
 
 Bei Verwendung des **Personalisierungseditors** können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt oder gespeichert wurden.
 
-Ein Fragment ist eine wiederverwendbare Komponente, die in [!DNL Journey Optimizer]-Kampagnen und -Journeys referenziert werden kann. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Fachleute Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können.  [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
+Ein Fragment ist eine wiederverwendbare Komponente, die in [!DNL Journey Optimizer]-Kampagnen und -Journeys referenziert werden kann. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, mit denen Marketing-Fachleute Inhalte schnell in einem verbesserten Design-Prozess zusammenstellen können. [Erfahren Sie mehr über Fragmente](../content-management/fragments.md)
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden](../content-management/fragments.md#video-fragments)
 
@@ -34,8 +40,8 @@ Um Ausdrucksfragmente zu Ihren Inhalten hinzuzufügen, gehen Sie folgendermaßen
 
 1. Öffnen Sie den [Personalisierungseditor](personalization-build-expressions.md) und wählen Sie die Schaltfläche **[!UICONTROL Fragmente]** im linken Bereich aus.
 
-   In der Liste werden alle Ausdrucksfragmente angezeigt, die in der aktuellen Sandbox als Fragmente erstellt oder gespeichert wurden. [Informationen zum Erstellen von Fragmenten](../content-management/create-fragments.md)
-Sie werden nach Erstellungsdatum sortiert, wobei die zuletzt hinzugefügten Ausdrucksfragmente in der Liste zuerst angezeigt werden.
+   In der Liste werden alle Ausdrucksfragmente angezeigt, die in der aktuellen Sandbox als Fragmente erstellt oder gespeichert wurden. [Erfahren Sie, wie Sie Fragmente erstellen](../content-management/create-fragments.md)
+Sie sind nach Erstellungsdatum sortiert: Kürzlich hinzugefügte Ausdrucksfragmente werden in der Liste zuerst angezeigt.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -109,9 +115,9 @@ Folgende Anwendungsfälle sind möglich:
 
 ## Verwenden von Ausdrucksfragmenten in Schleifen {#fragments-in-loops}
 
-Bei der Verwendung von Ausdrucksfragmenten in `{{#each}}`-Schleifen ist es wichtig zu verstehen, wie die Variablenauswahl funktioniert. Ausdrucksfragmente können auf globale Variablen zugreifen, die im Nachrichteninhalt definiert sind, sie können jedoch keine schleifenspezifischen Variablen als Parameter empfangen.
+Bei der Verwendung von Ausdrucksfragmenten in `{{#each}}`-Schleifen ist die Variablenauswahl von entscheidender Bedeutung. Ausdrucksfragmente können auf globale Variablen zugreifen, die im Nachrichteninhalt definiert sind, sie können jedoch keine schleifenspezifischen Variablen als Parameter empfangen.
 
-### Unterstützte Muster: Globale Variablen verwenden {#global-variables-in-loops}
+### Unterstützte Muster: Verwenden globaler Variablen {#global-variables-in-loops}
 
 Ausdrucksfragmente können auf globale Variablen verweisen, die außerhalb des Fragments definiert sind, selbst wenn das Fragment aus einer Schleife heraus aufgerufen wird. Dies ist der empfohlene Ansatz, wenn Sie Fragmente in iterativen Kontexten verwenden müssen.
 
@@ -131,7 +137,7 @@ Definieren Sie in Ihrem Nachrichteninhalt eine globale Variable und verwenden Si
 {{/each}}
 ```
 
-Im Ausdrucksfragment (fragment123) können Sie auf die `globalDiscount` Variable verweisen:
+Im Ausdrucksfragment (fragment123) können Sie auf die Variable `globalDiscount` verweisen:
 
 ```handlebars
 <p class="discount-info">Save {{globalDiscount}}% on all items!</p>
@@ -141,9 +147,9 @@ Dieses Muster funktioniert, weil die globale Variable in der gesamten Nachricht 
 
 ### Nicht unterstützt: Übergeben von Schleifenvariablen als Fragmentparameter {#loop-variables-limitations}
 
-Sie können das aktuelle Iterationselement (z. B. `product` im obigen Beispiel) nicht als Parameter an ein Ausdrucksfragment übergeben. Das Fragment kann nicht direkt auf Variablen im Schleifenbereich vom umgebenden `{{#each}}`-Block zugreifen.
+Sie können das aktuelle Iterationselement (z. B. `product` im obigen Beispiel) nicht als Parameter an ein Ausdrucksfragment übergeben. Das Fragment kann aus dem umgebenden `{{#each}}`-Block nicht direkt auf Variablen im Schleifenbereich zugreifen.
 
-**Beispiel: Was funktioniert NICHT**
+**Beispiel: Was NICHT funktioniert**
 
 ```handlebars
 {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -152,13 +158,13 @@ Sie können das aktuelle Iterationselement (z. B. `product` im obigen Beispiel) 
 {{/each}}
 ```
 
-Das Fragment kann keine `product` als Parameter empfangen und intern verwenden, da die Parameterübergabe für schleifenspezifische Variablen in der aktuellen Implementierung nicht unterstützt wird.
+Das Fragment kann nicht `product` als Parameter empfangen und intern verwenden, da die Parameterübergabe für schleifenspezifische Variablen in der aktuellen Implementierung nicht unterstützt wird.
 
 ### Empfohlene Problemumgehungen {#fragments-in-loops-workarounds}
 
 Wenn Sie Ausdrucksfragmente mit Daten aus einer Schleife verwenden müssen, sollten Sie die folgenden Ansätze berücksichtigen:
 
-1. **Logik direkt in die Nachricht einfügen**: Anstatt ein Fragment für eine schleifenspezifische Logik zu verwenden, fügen Sie den Personalisierungscode direkt in Ihrem `{{#each}}` hinzu.
+1. **Einfügen von Logik direkt in die Nachricht:** Statt ein Fragment für eine schleifenspezifische Logik zu verwenden, fügen Sie den Personalisierungs-Code direkt in Ihrem `{{#each}}`-Block ein.
 
    ```handlebars
    {{#each context.journey.actions.GetProducts.items as |product|}}
@@ -172,7 +178,7 @@ Wenn Sie Ausdrucksfragmente mit Daten aus einer Schleife verwenden müssen, soll
    {{/each}}
    ```
 
-2. **Fragmente außerhalb von Schleifen verwenden**: Wenn der Fragmentinhalt nicht schleifenabhängig ist, rufen Sie das Fragment vor oder nach dem Iterationsblock auf.
+2. **Verwenden von Fragmenten außerhalb von Schleifen:** Wenn der Fragmentinhalt nicht schleifenabhängig ist, rufen Sie das Fragment vor oder nach dem Iterationsblock auf.
 
    ```handlebars
    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
@@ -185,11 +191,11 @@ Wenn Sie Ausdrucksfragmente mit Daten aus einer Schleife verwenden müssen, soll
    {{/each}}
    ```
 
-3. **Mehrere globale Variablen festlegen**: Wenn Sie iterationsweise verschiedene Werte an ein Fragment übergeben müssen, legen Sie vor jedem Fragmentaufruf globale Variablen fest (obwohl dies die Flexibilität einschränkt).
+3. **Festlegen mehrerer globaler Variablen:** Wenn Sie verschiedene Werte an ein Fragment über mehrere Iterationen hinweg übergeben müssen, legen Sie vor jedem Fragmentaufruf globale Variablen fest (obwohl dies die Flexibilität einschränkt).
 
 >[!NOTE]
 >
->Informationen zum Iterieren über kontextuelle Daten und zum Arbeiten mit Schleifen finden Sie im umfassenden Handbuch zum [Iterieren über kontextuelle Daten](iterate-contextual-data.md) mit Best Practices, Tipps zur Fehlerbehebung und erweiterten Mustern.
+>Informationen zum Iterieren über kontextuelle Daten und zum Arbeiten mit Schleifen finden Sie im umfassenden Leitfaden zum [Iterieren über kontextuelle Daten](iterate-contextual-data.md) mit Best Practices, Tipps zur Fehlerbehebung und erweiterten Mustern.
 
 ## Anpassen bearbeitbarer Felder {#customize-fields}
 

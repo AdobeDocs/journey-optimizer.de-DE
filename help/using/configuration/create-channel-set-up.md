@@ -9,9 +9,15 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 5a20911d-cc87-4fdc-9b4b-936c19258876
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+TQID: https://experienceleague.adobe.com/Ji0NLpjn8Auv2wEbPfRNN0vf5ycq-vEk0cZxMBVt50s
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: 656
 ht-degree: 100%
 
 ---
@@ -74,7 +80,7 @@ Dieses Setup vereinfacht die schnelle Konfiguration von Marketing-Kanälen, soda
 
 1. Zur Optimierung des Setup-Prozesses werden die erforderlichen Ressourcen automatisch erstellt, um Ihnen die ersten Schritte zu erleichtern. Dazu gehören die Erstellung einer neuen **[!UICONTROL Mobile Tag-Eigenschaft]** und die Installation von Erweiterungen.
 
-[Weitere Informationen zu automatisch erstellten Ressourcen](set-mobile-config.md#auto-create-resources)
+   [Weitere Informationen zu automatisch erstellten Ressourcen](set-mobile-config.md#auto-create-resources)
 
 1. Nachdem die Erstellung von Ressourcen abgeschlossen ist, befolgen Sie die Anweisungen auf der Benutzeroberfläche, um Ihre SDKs und Kanäle einzurichten und zu validieren.
 

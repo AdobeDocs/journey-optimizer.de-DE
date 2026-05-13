@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: d999f48597fab65e7239883f6b40c338532f1ef1
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '2818'
+source-wordcount: '2855'
 ht-degree: 9%
 
 ---
@@ -47,6 +47,10 @@ Beim Einrichten eines Webhooks können Sie seinen Zweck basierend auf dem Typ de
 * **Eingehend**: Verwenden Sie diese Option, wenn Sie Einverständnisantworten wie Opt-ins oder Opt-outs und Benutzereinstellungen erfassen möchten.
 
 * **Feedback**: Wählen Sie diese Option, um Versand- und Interaktionsereignisse zu verfolgen, einschließlich Sendungen, ausgehende Fehler, Lesebestätigungen (falls zutreffend), um Berichte und Analysen zu unterstützen.
+
+>[!NOTE]
+>
+>Eingehende Keyword-Daten werden im Systemdatensatz _Eingehende Aktivitätsereignisse von AJO gespeichert_ es sei denn, ein benutzerdefinierter Datensatz wird konfiguriert. Mindestens eine Nachricht eines Profils muss von [!DNL Journey Optimizer] gesendet werden, bevor eingehende Nachrichten erfasst werden. [Weitere Informationen](../data/get-started-datasets.md#system-datasets)
 
 Je nach Anbieter werden unterschiedliche Erwartungen an die Komponenten gestellt, die für eine erfolgreiche SMS-Implementierung eingerichtet werden müssen:
 
