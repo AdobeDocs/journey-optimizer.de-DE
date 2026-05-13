@@ -10,10 +10,17 @@ level: Beginner, Intermediate
 keywords: Journey, Fragen, Antworten, Fehlerbehebung, Hilfe, Anleitung, Orchestrierung
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
+TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d08afb72-92f6-4856-88e3-11ec34313c2fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
 workflow-type: tm+mt
-source-wordcount: '5290'
-ht-degree: 91%
+source-wordcount: 5499
+ht-degree: 87%
 
 ---
 
@@ -65,7 +72,7 @@ Es gibt drei Typen von **[Kampagnen](../campaigns/get-started-with-campaigns.md)
 Eine Journey besteht aus:
 
 * **Ereignissen**: Eintrittspunkte, die die Journey auslösen (z. B. Profilqualifizierung, Geschäftsereignisse)
-* **Orchestrierungsaktivitäten**: Logikkomponenten wie Bedingungen, Wartezeiten, Lesen der Zielgruppe und Beenden
+* **Orchestrierungsaktivitäten**: Logikkomponenten wie Bedingungen, Warten, Zielgruppe lesen, Journey-Fragmente und Ende
 * **Aktionen**: Aktivitäten, die Aufgaben ausführen, z. B. Senden von Nachrichten, Aktualisieren von Profilen oder Aufrufen externer APIs
 * **Native Kanalaktionen**: Native Messaging-Funktionen für E-Mail, SMS, Push und andere Kanäle
 * **Benutzerdefinierte Aktionen**: Integration mit Drittanbietersystemen
@@ -355,6 +362,29 @@ Erfahren Sie mehr über [Warteaktivitäten](wait-activity.md) und [Journey-Begre
 
 +++
 
++++ Was sind Journey-Fragmente und wann sollte ich sie verwenden?
+
+**Journey-Fragmente** sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in eine beliebige Journey in Ihrer Sandbox einfügen. Sie sind als Orchestrierungsaktivität auf der Journey-Arbeitsfläche verfügbar.
+
+**Verwendung von Journey-Fragmenten**:
+
+* Es gibt eine Logik, die sich über mehrere Journey hinweg wiederholt (z. B. Eignungsprüfungen, bevorzugtes Kanalrouting, Willkommenssequenzen)
+* Sie möchten die Konsistenz über Teams hinweg durchsetzen - das Muster einmal definieren und überall wiederverwenden
+* Sie möchten die Journey-Erstellung beschleunigen, indem Sie vermeiden, gängige Knotensequenzen von Grund auf neu zu erstellen
+
+**Wichtige zu beachtende Verhaltensweisen**:
+
+* Durch Einfügen eines Fragments wird eine **statische Kopie** seiner Knoten erstellt. Aktualisierungen am Originalfragment werden **nicht** an Journey übertragen, die es bereits verwenden
+* Nur **Active**-Fragmente können in eine Journey eingefügt werden
+* Fragmente sind Sandbox-spezifisch und unterstützen maximal 20 Knoten und 200 aktive Fragmente pro Sandbox
+* [Sprung](jump.md)-Aktivitäten sind innerhalb eines Fragments nicht zulässig
+
+**Unterschied zur Sprungaktivität**: Die [Sprungaktivität](jump.md) leitet Profile zur Laufzeit auf eine andere Live-Journey um. Journey-Fragmente kopieren Knoten zur Entwurfszeit in die aktuelle Journey. Dabei handelt es sich um einen Mechanismus zur Wiederverwendung während des Builds, nicht um einen Laufzeitroutingmechanismus.
+
+Weitere Informationen zu [Journey-Fragmenten](journey-fragments.md).
+
++++
+
 ## Testen und Veröffentlichen
 
 +++ Wie kann ich meine Journey vor der Veröffentlichung testen?
@@ -592,7 +622,7 @@ Erhalten Sie mehr über [Personalisierung](../personalization/personalize.md).
 
 Ja. Verwenden Sie eine **[Aktivität „Optimieren](conditions.md)**, um Profile basierend auf ihrem bevorzugten Kanal zu routen:
 
-1. Fügen Sie [&#x200B; Journey eine Aktivität &#x200B;](optimize.md)Optimieren“ hinzu
+1. Fügen Sie [ Journey eine Aktivität ](optimize.md)Optimieren“ hinzu
 2. Erstellen Sie einen Pfad für jeden Kanal, indem Sie das Profilattribut des bevorzugten Kanals überprüfen (z. B. `profile.preferredChannel`).
 3. Konfigurieren von kanalspezifischen Pfaden:
    * **E-Mail-Pfad**: Fügen Sie eine [E-Mail-Aktion](../email/create-email.md) mit für E-Mails optimierten Inhalten hinzu
@@ -904,8 +934,8 @@ Wenn Journeys etwa 50 Aktivitäten enthalten, können Wartung, Fehlerbehebung u
 
 **Best Practice**: Stellen Sie sicher, dass Ihre Journeys fokussiert und verwaltbar sind. Wenn Ihre Journey immer komplexer wird, sollten Sie Folgendes in Betracht ziehen:
 
-* Unterteilen in mehrere Journeys mithilfe der Sprungaktivität
-* Erstellen von wiederverwendbaren Mustern in einfacheren Journeys
+* Unterteilen in mehrere Journey mithilfe der [Sprungaktivität](jump.md)
+* Extrahieren von wiederholter Logik in [Journey-Fragmente](journey-fragments.md) zur Wiederverwendung in allen Journeys ohne Neuerstellung von Grund auf
 * Vereinfachen der Logik mit effizienteren Bedingungen
 * Überprüfen der Notwendigkeit aller Aktivitäten
 
@@ -933,7 +963,7 @@ Erfahren Sie mehr über [Journey-Design](using-the-journey-designer.md) und [Lei
 
 * Verwenden Sie [Testmodus](testing-the-journey.md) und [Probelauf](journey-dry-run.md), um die Leistung vor der Veröffentlichung zu überprüfen
 * Minimieren Sie externe API-Aufrufe durch [benutzerdefinierte Aktionen](using-custom-actions.md), um Latenz und Abhängigkeit von Drittanbietersystemen zu vermeiden
-* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [&#x200B; nach Möglichkeit die Datensatzsuche &#x200B;](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
+* Häufig verwendete Daten in [!DNL Adobe Experience Platform] speichern, [ nach Möglichkeit die Datensatzsuche ](dataset-lookup.md), anstatt externe Aufrufe durchzuführen
 * Überprüfen und optimieren Sie die Leistung des [Nachrichtenversands](journey-action.md)
 
 Erfahren Sie mehr über [Leitlinien und Einschränkungen](../start/guardrails.md).
