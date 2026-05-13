@@ -5,13 +5,19 @@ title: Verwenden der Aktivität „Und-Verknüpfung“
 description: Informationen zur Verwendung der Aktivität „Und-Verknüpfung“ in einer orchestrierten Kampagne
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 version: Campaign Orchestration
-source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
+TQID: https://experienceleague.adobe.com/6mTYgjWPoUUos8rWCE5qWwPWBl4387c9SRq1U4QgreQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 276
 ht-degree: 100%
 
 ---
-
 
 # Und-Verknüpfung {#join}
 
@@ -25,7 +31,7 @@ ht-degree: 100%
 >title="Aktivität „Zusammenführen“"
 >abstract="Platzhalter für die Aktivität „Zusammenführen“."
 
-Die Aktivität **[!UICONTROL Und-Verknüpfung]** ist eine Aktivität zur **[!UICONTROL Flusskontrolle]**. Mit ihr können Sie die Ausführung verschiedener Verzweigungen einer orchestrierten Kampagne synchronisieren. 
+Die Aktivität **[!UICONTROL Und-Verknüpfung]** ist eine Aktivität zur **[!UICONTROL Flusskontrolle]**. Mit ihr können Sie die Ausführung verschiedener Verzweigungen einer orchestrierten Kampagne synchronisieren.
 
 Diese Aktivität löst ihre ausgehende Transition erst aus, wenn alle eingehenden Transitionen aktiviert sind, d. h. wenn alle vorangegangenen Aktivitäten beendet sind. So können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen wurden, bevor Sie mit der Ausführung der orchestrierten Kampagne fortfahren.
 
@@ -46,7 +52,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Und-Verk
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Zusammenführungsoptionen]** alle vorherigen Aktivitäten aus, die Sie verknüpfen möchten.
 
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Hauptmenge]** die Population der eingehenden Transition aus, die Sie beibehalten möchten. 
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Hauptmenge]** die Population der eingehenden Transition aus, die Sie beibehalten möchten.
 
 ## Beispiel{#and-join-example}
 

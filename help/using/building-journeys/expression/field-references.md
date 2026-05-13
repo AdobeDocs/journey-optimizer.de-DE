@@ -9,9 +9,20 @@ level: Experienced
 keywords: Journey, Feld, Ausdruck, Ereignis
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '558'
+TQID: https://experienceleague.adobe.com/G8ooc1R2PwL06V89EBs-jH8Lf43F6q5xj3I4Wl6hDHk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 557
 ht-degree: 100%
 
 ---
@@ -24,7 +35,7 @@ Wenn Sie in einem Feld Sonderzeichen verwenden, müssen Sie doppelte oder einfac
 
 * das Feld beginnt mit numerischen Zeichen;
 * das Feld beginnt mit dem Zeichen „-“;
-* das Feld enthält andere Zeichen als: _a_–_z_, _A_–_Z_, _0_–_9_, _ , _-_.
+* das Feld enthält andere Zeichen als: _a_–_z_, _A_–_Z_, _0_–_9_, _,_-_.
 
 Wenn Ihr Feld zum Beispiel folgendermaßen lautet: _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -100,7 +111,7 @@ Sie können jede Art von Ausdruck als Standardwert hinzufügen. Die einzige Eins
 
 ## Verweis auf ein Feld in Sammlungen
 
-Auf die in Sammlungen definierten Elemente wird mit den speziellen Funktionen `all`, `first` und `last` verwiesen. Weitere Informationen dazu finden Sie auf dieser [Seite](../expression/collection-management-functions.md).
+Auf die in Sammlungen definierten Elemente wird mit den speziellen Funktionen `all`, `first` und `last` verwiesen. Weitere Informationen dazu finden Sie auf [dieser Seite](../expression/collection-management-functions.md).
 
 Beispiel:
 

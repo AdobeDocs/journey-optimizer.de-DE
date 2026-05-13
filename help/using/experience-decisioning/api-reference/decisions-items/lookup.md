@@ -1,5 +1,5 @@
 ---
-title: Nachschlagen eines Entscheidungselements
+title: Entscheidungselement nachschlagen
 description: Entscheidungselemente sind Marketing-Angebote, die Sie erstellen und in Sammlungen und Katalogen organisieren können.
 feature: API, Collections, Decisioning
 topic: Integrations
@@ -7,16 +7,23 @@ role: Developer
 level: Experienced
 exl-id: 8a4e09ec-57bc-48ad-b626-6a15ba987791
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
-workflow-type: ht
-source-wordcount: '80'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/xJsgp0F-4jph6z67eXTMlwFFU02BE8dJzGg8KbJ5IBY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 80
+ht-degree: 0%
 
 ---
 
-# Nachschlagen eines Entscheidungselements {#lookup-decision-items}
+# Entscheidungselement nachschlagen {#lookup-decision-items}
 
-Um nach bestimmten Entscheidungselementen zu suchen, stellen Sie eine GET-Anfrage an die Angebotsbibliothek-API, die die ID im Anfragepfad enthält.
+Um bestimmte Entscheidungselemente zu suchen, stellen Sie eine GET-Anfrage an die Angebotsbibliotheks-API, die die ID im Anfragepfad enthält.
 
 **API-Format**
 
@@ -26,8 +33,8 @@ GET /{ENDPOINT_PATH}/offer-items/{ID}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | Die ID der Identität, die Sie nachschlagen möchten. | `offerItem1234` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{ID}` | Die ID der Entität, die Sie suchen möchten. | `offerItem1234` |
 
 **Anfrage**
 
@@ -43,7 +50,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234' 
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details des Entscheidungselements zurückgegeben.
+Eine erfolgreiche Antwort gibt die Details des Entscheidungselements zurück.
 
 ```json
 {

@@ -1,22 +1,29 @@
 ---
 title: Erstellen einer Auswahlstrategie
-description: Auswahlstrategien bestehen aus Sammlungen, die mit Begrenzungen und Rangfolgenmethoden zur Bestimmung von Angeboten verknüpft sind.
+description: Auswahlstrategien bestehen aus Sammlungen, die mit Einschränkungen und Ranking-Methoden verknüpft sind, um Angebote zu bestimmen.
 feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 0e35c77b-6741-4c32-b012-36fc3a8b6d7a
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
-workflow-type: ht
-source-wordcount: '81'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/ei2UI51ezO5fOBbZU48w3AtsrumB5-6rf6SZDYfF6-k
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 81
+ht-degree: 0%
 
 ---
 
 # Erstellen einer Auswahlstrategie {#create-selection-strategy}
 
-Sie können eine Auswahlstrategie erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliothek-API richten.
+Sie können eine Auswahlstrategie erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliotheks-API senden.
 
 **API-Format**
 
@@ -26,7 +33,7 @@ POST /{ENDPOINT_PATH}/selection-strategies
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps` |
 
 **Anfrage**
 
@@ -58,7 +65,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/selection-strategies' \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details der neu erstellten Auswahlstrategie zurückgegeben, einschließlich der ID. Sie können die ID in späteren Schritten verwenden, um Ihre Auswahlstrategie zu aktualisieren oder zu löschen.
+Eine erfolgreiche Antwort gibt die Details der neu erstellten Auswahlstrategie zurück, einschließlich der ID. Sie können die ID in späteren Schritten verwenden, um Ihre Auswahlstrategie zu aktualisieren oder zu löschen.
 
 ```json
 {

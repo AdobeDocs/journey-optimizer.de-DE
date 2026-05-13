@@ -9,10 +9,28 @@ role: User
 level: Beginner, Intermediate
 keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+TQID: https://experienceleague.adobe.com/t-8ADluALsr8pglh8Rv1y9TvObyUjjTAfXaagM-N7cs
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 100%
+source-wordcount: 1468
+ht-degree: 92%
 
 ---
 
@@ -50,8 +68,7 @@ Sie können beliebig viele Strukturkomponenten zu einer oder mehreren Strukturko
 
 Um zu Ihrer E-Mail Inhaltskomponenten hinzuzufügen und sie an Ihre Anforderungen anzupassen, führen Sie die folgenden Schritte aus.
 
-1. Verwenden Sie zum Definieren des Layouts Ihrer E-Mail einen vorhandenen Inhalt im E-Mail-Designer oder platzieren Sie per Drag-and-Drop **[!UICONTROL Strukturkomponenten]** in leerem Inhalt.
-[Weitere Informationen](content-from-scratch.md)
+1. Verwenden Sie zum Definieren des Layouts Ihrer E-Mail einen vorhandenen Inhalt im E-Mail-Designer oder platzieren Sie per Drag-and-Drop **[!UICONTROL Strukturkomponenten]** in leerem Inhalt. [Weitere Informationen](content-from-scratch.md)
 
 1. Um auf den Abschnitt **[!UICONTROL Inhaltskomponenten]** zuzugreifen, wählen Sie die entsprechende Schaltfläche im linken Fensterbereich des E-Mail-Designers aus.
 
@@ -103,11 +120,11 @@ Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrer
 
    ![](assets/email_designer_button_link.png)
 
-1. Sie können Ihre Schaltfläche weiter personalisieren, indem Sie Stilattribute wie etwa **[!UICONTROL Rahmen]**, **[!UICONTROL Größe]** und **[!UICONTROL Rand]** im Bereich **[!UICONTROL Komponenteneinstellungen]** ändern.
+1. Sie können Ihre Schaltfläche weiter personalisieren, indem Sie Stilattribute wie **[!UICONTROL Rahmen]**, **[!UICONTROL Größe]**, **[!UICONTROL Rand]** usw. im Bereich **[!UICONTROL Komponenteneinstellungen]** ändern.
 
 ## Text {#text}
 
-Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzufügen und den Stil (Rahmen, Größe, Abstand usw.) über die Registerkarte **[!UICONTROL Stile]** anzupassen.
+Verwenden Sie die **[!UICONTROL Text]**-Komponente, um Text in Ihre E-Mail einzufügen und den Stil (Rahmen, Größe, Abstand usw.) mithilfe der Registerkarte **[!UICONTROL Stile]**.
 
 ![](assets/email_designer_text_component.png)
 
@@ -191,7 +208,7 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 
 1. Sie können auch **[!UICONTROL Nach ähnlichen Stockfotos suchen]**. [Weitere Informationen](../integrations/stock.md)
 
-1. Passen Sie auf der Registerkarte **[!UICONTROL Stile]** die anderen Stilattribute wie Rand, Rahmen usw. an oder fügen Sie einen Link hinzu, um Ihre Zielgruppe zu einem anderen Inhalt über das Bedienfeld **[!UICONTROL Komponenteneinstellungen]** umzuleiten.
+1. Passen Sie auf **[!UICONTROL Registerkarte]** Stile“ die anderen Stilattribute wie Rand, Rahmen usw. an oder fügen Sie einen Link hinzu, um Ihre Audience zu einem anderen Inhalt **[!UICONTROL Bereich Komponenteneinstellungen]**.
 
 ## Social Media {#social}
 
@@ -211,7 +228,7 @@ Verwenden Sie die Komponente **[!UICONTROL Social]**, um Links zu Social-Media-S
 
    ![](assets/email_designer_21.png)
 
-1. Bei Bedarf können Sie auch die Symbole der einzelnen sozialen Medien über Ihre Assets ändern. 
+1. Bei Bedarf können Sie auch die Symbole der einzelnen sozialen Medien über Ihre Assets ändern.
 
 1. Passen Sie die anderen Stilattribute wie Stil, Rand, Rahmen usw. auf der Registerkarte **[!UICONTROL Stile]** an.
 

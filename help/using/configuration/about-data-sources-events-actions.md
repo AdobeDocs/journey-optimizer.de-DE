@@ -9,10 +9,29 @@ role: Admin
 level: Intermediate
 keywords: Konfiguration, Journey, Dashboard, Datenquellen, Ereignisse, Aktionen
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+TQID: https://experienceleague.adobe.com/e-4vo3PypkPPOl5pIKWJ1Ecmflj3-CTIAtEV8fjMdk4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: c2062154-398f-466d-bbc2-4e0d0c3f37a9
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+  - id: efb19423-4da4-4fd1-88d8-5ee8c71ae766
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 96%
+source-wordcount: 539
+ht-degree: 100%
 
 ---
 
@@ -48,7 +67,7 @@ Journey Optimizer-Nachrichtenfunktionen sind integriert: Sie müssen nur eine Ka
 
 Bei der Definition von [Ereignis-Payload](../event/about-creating.md#define-the-payload-fields), [Feldgruppen-Payload](../datasource/configure-data-sources.md#define-field-groups) und der Auswahl von Feldern im [Ausdruckseditor](../building-journeys/expression/expressionadvanced.md) wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen.
 
-Wenn beim Einrichten von Schemata Deskriptoren wie &quot;:alternateDisplayInfo&quot; bereitgestellt werden, ersetzen die benutzerfreundlichen Namen Anzeigenamen. Dies ist besonders beim Arbeiten mit „eVars“und generischen Feldern nützlich. Sie können die Deskriptoren für benutzerfreundliche Namen über einen API-Aufruf konfigurieren. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de){target="_blank"}.
+Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternateDisplayInfo“ bereitgestellt werden, ersetzen die benutzerfreundlichen Namen Anzeigenamen. Dies ist besonders beim Arbeiten mit „eVars“und generischen Feldern nützlich. Sie können die Deskriptoren für benutzerfreundliche Namen über einen API-Aufruf konfigurieren. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de){target="_blank"}.
 
 ![](assets/xdm-from-descriptors.png)
 

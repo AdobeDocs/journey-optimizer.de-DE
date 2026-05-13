@@ -2,31 +2,64 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Journeys
-description: Erste Schritte mit Journey - Erfahren Sie mehr über Journey-Typen, Workflows, Funktionen und Best Practices zum Erstellen personalisierter Kundenerlebnisse in [!DNL Adobe Journey Optimizer]
+description: 'Erste Schritte mit Journeys: Weitere Informationen über Journey-Typen, Workflows, Funktionen und Best Practices für die Erstellung personalisierter Kundenerlebnisse in [!DNL Adobe Journey Optimizer]'
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: Journey, Entdecken, Erste Schritte, Unitär, Zielgruppe lesen, Zielgruppen-Qualifizierung, Geschäftsereignis, Echtzeit, Geplant, Batch, Ereignisgesteuert, Workflow, Orchestrierung, Personalisierung, Multi-Channel
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 86%
+source-wordcount: 1615
+ht-degree: 100%
 
 ---
-
 
 # Erste Schritte mit Journeys {#jo-general-principle}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="Erstellen einer Journey"
->abstract="Verwenden Sie die Drag-and-Drop-Arbeitsfläche, um Nachrichten und Aktionen über mehrere Kanäle hinweg zu orchestrieren und dabei kontextuelle Daten und Audience-Targeting zu nutzen, um die Wirkung zu maximieren."
+>abstract="Verwenden Sie die intuitive Drag-and-Drop-Arbeitsfläche, um Nachrichten und Aktionen über mehrere Kanäle hinweg zu orchestrieren und dabei kontextuelle Daten und Zielgruppen-Targeting zu nutzen und so maximale Wirkung zu erzielen."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Erstellen Ihrer ersten Journey"
 
 
-Mit [!DNL Adobe Journey Optimizer] können Sie personalisierte, mehrstufige Kunden-Journey erstellen, die sich in Echtzeit an das Verhalten und die Bedürfnisse Ihrer Zielgruppe anpassen. Mithilfe einer intuitiven Drag-and-Drop-Arbeitsfläche können Sie Nachrichten und Aktionen über mehrere Kanäle hinweg orchestrieren und dabei kontextuelle Daten und Zielgruppen-Targeting nutzen, um maximale Wirkung zu erzielen.
+In [!DNL Adobe Journey Optimizer] können Sie personalisierte, mehrstufige Customer Journeys erstellen, die sich in Echtzeit an das Verhalten und die Bedürfnisse Ihrer Zielgruppe anpassen. Mithilfe einer intuitiven Drag-and-Drop-Arbeitsfläche können Sie Nachrichten und Aktionen über mehrere Kanäle hinweg orchestrieren und dabei kontextuelle Daten und Zielgruppen-Targeting nutzen, um maximale Wirkung zu erzielen.
 
 Dieses Handbuch bietet eine klare Roadmap, die Ihnen hilft, die Grundlagen von Journeys zu verstehen, den richtigen Journey-Typ für Ihren Anwendungsfall auszuwählen und Journeys zu entwerfen, die aussagekräftige, zeitnahe Kundenerlebnisse bieten.
 
@@ -42,17 +75,17 @@ Verwenden Sie [!DNL Journey Optimizer] für Folgendes:
 
 ![Benutzeroberfläche des Journey-Designers mit Palette, Arbeitsfläche und Eigenschaftenbereich](assets/journey38.png)
 
-➡️ **Bereit, mit dem Erstellen zu beginnen?** [Erstellen Sie Ihre erste Journey](journey-gs.md) in 5 Minuten.
+➡️ **Bereit, mit dem Erstellen zu beginnen?** [Erstellen Sie Ihre erste Journey](journey-gs.md) in 5 Minuten.
 
-### Journey im Vergleich zu Kampagnen: Wann ist jede zu verwenden? {#journeys-vs-campaigns-intro}
+### Journeys vs. Kampagnen: Verwendungszwecke {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer] bietet drei Ansätze, um Kundinnen und Kunden zu erreichen: **Journey** (:1 Echtzeit-Orchestrierung), **Kampagnen** (einfacher Batch- oder API-gesteuerter Versand) und **Orchestrierte Kampagnen** (Batch-Arbeitsflächen-Workflows mit Daten aus mehreren Entitäten).
+[!DNL Adobe Journey Optimizer] bietet drei Ansätze, um Kundinnen und Kunden anzusprechen: **Journeys** (1:1-Echtzeit-Orchestrierung), **Kampagnen** (einfacher Batch- oder durch API ausgelöster Versand) und **orchestrierte Kampagnen** (Batch-Arbeitsflächen-Workflows mit Daten aus mehreren Entitäten).
 
 **Schnelle Entscheidung:**
 
 * Verwenden Sie **Journeys** für mehrstufige, verhaltensgesteuerte Erlebnisse, bei denen jede Kundin und jeder Kunde im eigenen Tempo Fortschritte macht
-* Verwenden Sie **Aktion und API-ausgelöste Kampagnen** für einen einfachen, geplanten oder ausgelösten Nachrichtenversand an Zielgruppen
-* Verwenden Sie **Orchestrierte Kampagnen** für komplexe Batch-Workflows, die eine Segmentierung mehrerer Entitäten und exakte Zählungen vor dem Versand erfordern
+* Verwenden Sie **durch Aktionen und API ausgelöste Kampagnen** für einfachen, geplanten oder ausgelösten Nachrichtenversand an Zielgruppen
+* Verwenden Sie **orchestrierte Kampagnen** für komplexe Batch-Workflows, die eine Segmentierung in mehrere Entitäten und exakte Zählungen vor dem Versand erfordern
 
 <!--
  waiting for DOCAC-13912
@@ -61,7 +94,7 @@ Verwenden Sie [!DNL Journey Optimizer] für Folgendes:
 
 ## Auswählen Ihres Journey-Typs {#journey-types}
 
-[!DNL Adobe Journey Optimizer] unterstützt vier Journey-Typen, die jeweils für unterschiedliche Einstiegsmechanismen und Geschäftsszenarien entwickelt wurden:
+[!DNL Adobe Journey Optimizer] unterstützt vier Journey-Typen, die jeweils für unterschiedliche Eintrittsmechanismen und Geschäftsszenarien konzipiert sind:
 
 * **Unitäre Journeys**: Ereignisgesteuerte Erlebnisse in Echtzeit (Auftragsbestätigungen, Willkommens-E-Mails)
 * **Journeys des Typs „Zielgruppe lesen“**: Geplante Batch-Nachrichten an Zielgruppensegmente (Newsletter, Werbekampagnen)
@@ -160,7 +193,7 @@ Bevor Sie den Designer öffnen, klären Sie Ihre Ziele:
 * **Was ist das Ziel?** (z. B. Onboarding neuer Kundschaft, Rückgewinnung inaktiver Benutzender)
 * **Wer ist die Zielgruppe?** (spezifisches Segment, ereignisgesteuerte Kontakte)
 * **Welcher Journey-Typ ist am besten geeignet?** (siehe [Journey-Typen](#journey-types) oben)
-* **Welche Kanäle möchten Sie verwenden?** (E-Mail, Push, SMS usw.)
+* **Welche Kanäle möchten Sie verwenden?** (E-Mail, Push, SMS usw.)
 
 ### &#x200B;2. Gestalten auf der Arbeitsfläche {#design}
 
@@ -205,7 +238,7 @@ Verfolgen Sie, wie Ihre Journey in der Praxis abschneidet:
 
 [Überwachen und Berichte →](report-journey.md) | [Einrichten von Warnhinweisen →](../reports/alerts.md)
 
-### &#x200B;6. Optimieren und Iterieren {#optimize}
+### &#x200B;6. Optimieren und Wiederholen {#optimize}
 
 Nutzen Sie Erkenntnisse zur Verbesserung:
 
@@ -216,7 +249,7 @@ Nutzen Sie Erkenntnisse zur Verbesserung:
 
 [Optimieren Ihrer Journeys →](optimize.md) | [Versandzeitoptimierung →](send-time-optimization.md)
 
-➡️ **Bereit zum Loslegen?** [Erstellen Sie jetzt Ihre erste Journey →](journey-gs.md)
+➡️ **Bereit zum Loslegen?** [Jetzt Ihre erste Journey erstellen →](journey-gs.md)
 
 ## Anwendungsfälle aus der Praxis {#use-cases}
 
@@ -362,7 +395,7 @@ Erhalten Sie eine visuelle Einführung in Journey-Komponenten und lernen Sie die
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
 
-➡️ **Möchten Sie mehr Videos sehen?** [Erkunden von Video-Tutorials für Journeys](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Möchten Sie mehr Videos sehen?** [Video-Tutorials zu Journeys erkunden](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Häufige Fragen {#common-questions}
 
@@ -374,9 +407,9 @@ Erhalten Sie eine visuelle Einführung in Journey-Komponenten und lernen Sie die
 
 * **Kampagnen (Aktion und durch API ausgelöst)**: Einfacher Nachrichtenversand an Zielgruppen, der gleichzeitig für alle Profile ausgeführt wird, entweder nach Zeitplan oder über API-Auslösung. Ideal für Werbekampagnen, Newsletter und Transaktionsnachrichten.
 
-* **Orchestrierte Kampagnen**: Mehrstufige Batch-Workflows mit komplexer Segmentierung mithilfe relationaler Daten (Profile + Produkte/Geschäfte/Buchungen). Alle Profile werden mit exakten Zählungen vor dem Versand gemeinsam verarbeitet. Ideal für saisonale Werbeaktionen, Produkteinführungen und Kampagnen, die Daten aus mehreren Entitäten erfordern.
+* **Orchestrierte Kampagnen**: Mehrstufige Batch-Workflows mit komplexer Segmentierung unter Verwendung relationaler Daten (Profile + Produkte/Geschäfte/Buchungen). Alle Profile werden mit exakten Zählungen vor dem Versand gemeinsam verarbeitet. Ideal für saisonale Werbeaktionen, Produkteinführungen und Kampagnen, die Daten aus mehreren Entitäten erfordern.
 
-**Hauptunterschied**: Journey verwalten den individuellen Kundenstatus für Echtzeitaktionen; Aktions- und API-ausgelöste Kampagnen liefern einfache Nachrichten im Batch; Orchestrierte Kampagnen bieten die Arbeitsfläche für Batch-Workflows mit Funktionen für die Segmentierung mehrerer Entitäten.
+**Hauptunterschied**: Journeys halten den individuellen Kundenstatus für Echtzeit-Aktionen fest; durch Aktionen/API ausgelöste Kampagnen versenden einfache Nachrichten im Batch-Verfahren; orchestrierte Kampagnen bieten eine Arbeitsfläche für Batch-Workflows mit Funktionen zur Segmentierung in mehrere Entitäten.
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [Informationen zu orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)
@@ -398,7 +431,7 @@ Sie können eingeschränkte Elemente bearbeiten (Name, Nachrichteninhalt), struk
 
 +++
 
-➡️ **Haben Sie weitere Fragen?** [Zeigen Sie eine vollständige Übersicht der häufig gestellten Fragen zu Journeys](journey-faq.md) mit mehr als 40 detaillierten Antworten an
+➡️ **Weitere Fragen?** [Vollständigen Überblick mit häufig gestellten Fragen zu Journeys](journey-faq.md) mit über 40 detaillierten Antworten anzeigen
 
 ## Benötigen Sie Hilfe? {#help}
 
@@ -423,4 +456,4 @@ Richten Sie **[Journey-Warnhinweise](../reports/alerts.md)** ein, um Echtzeitben
 * **[Fehlerbehebung bei Ausführungsproblemen](troubleshooting-execution.md)** – Debuggen von Journey-Ausführungsproblemen
 * **[Fehlerbehebung bei eingehende Aktivitäten](troubleshooting-inbound.md)** – Beheben von Eintritts- und Qualifizierungsproblemen
 
-**Sind Sie bereit, Ihre erste Journey zu erstellen?** [Legen Sie jetzt los](journey-gs.md)
+**Sind Sie bereit, Ihre erste Journey zu erstellen?** [Jetzt loslegen →](journey-gs.md)

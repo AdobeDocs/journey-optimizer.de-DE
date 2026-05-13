@@ -11,9 +11,20 @@ keywords: Ausdruck, Editor
 mini-toc-levels: 1
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/8D-sZ8--lEZSWcfVb9Q-dT59WqBQM2tRV5ses3PX0Ps
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: 890
 ht-degree: 92%
 
 ---
@@ -29,7 +40,7 @@ Mit [!DNL Journey Optimizer] können Sie Daten aus [!DNL Adobe Experience Platfo
 
 >[!NOTE]
 >
->The data lookup capability is only available for a set of organizations (Limited Availability). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
+>Die Datensuchfunktion ist nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
 
 Weitere Informationen darüber, wie Sie auf Datensätze zugreifen und damit arbeiten, finden Sie in diesem Abschnitt: [Erste Schritte mit Datensätzen](../data/get-started-datasets.md)
 
@@ -47,7 +58,7 @@ Bevor Sie beginnen, lesen Sie sich die folgenden Einschränkungen und Richtlinie
 
 * **Ständig aktivierte Suchoption**: Vermeiden Sie die wiederholte Aktivierung und Deaktivierung von Datensätzen. Dies kann zu unerwartetem Indizierungsverhalten führen. Es empfiehlt sich, den Datensatz so lange aktiviert zu lassen, wie Sie ihn für Suchen verwenden möchten.
 
-* **Edge activation region** - Datasets enabled for lookup are available for inbound edge-based activation only in the region where the dataset&#39;s sandbox resides (for example, NLD2 or VA7). Der Sandbox-Bereich wird in der Benutzeroberfläche neben dem Sandbox-Namen angezeigt.
+* **Edge-Aktivierungsregion** - Datensätze, die für die Suche aktiviert sind, sind nur für die eingehende Edge-basierte Aktivierung in der Region verfügbar, in der sich die Sandbox des Datensatzes befindet (z. B. NLD2 oder VA7). Der Sandbox-Bereich wird in der Benutzeroberfläche neben dem Sandbox-Namen angezeigt.
 
 * **Löschen eines Daten-Batches**: Wenn Sie einen Batch von Daten aus Ihrem Datensatz entfernen, werden alle übereinstimmenden Schlüssel vollständig aus dem Suchdienst entfernt. Beispiel:
 

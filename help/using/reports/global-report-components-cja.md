@@ -8,10 +8,29 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+TQID: https://experienceleague.adobe.com/4gzLvShm8zKHTfFLYU7FR8LxaC3F1uUs9HXcln6NL5w
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2189'
-ht-degree: 97%
+source-wordcount: 2213
+ht-degree: 95%
 
 ---
 
@@ -156,7 +175,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr>
   <tr> 
    <td> Einzelklicks<br/> </td> 
-   <td> Die Anzahl der Profile, die auf Inhalt in einer E-Mail geklickt haben.<br> Beachten Sie, dass bei der Berechnung von Einzelklicks die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Klicks innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelklicks gezählt. Wenn jedoch ein Profil zwei Klicks im Abstand von mehr als 10 Tagen aufweist, werden diese nicht als Einzelklicks betrachtet.<br/> </td> 
+   <td> Anzahl der Profile, die auf einen Inhalt in einer E-Mail geklickt haben.<br> Beachten Sie, dass bei der Berechnung von Einzelklicks die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Klicks innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelklicks gezählt. Wenn jedoch ein Profil zwei Klicks im Abstand von mehr als 10 Tagen aufweist, werden diese nicht als Einzelklicks betrachtet.<br/> </td> 
   </tr>
   <tr> 
    <td>Eindeutige Klick-Öffnungsrate<br/> </td> 
@@ -180,7 +199,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   </tr>
   <tr> 
    <td> Einzelöffungen<br/> </td> 
-   <td> Anzahl der Profile, die den Versand geöffnet haben. <br> Beachten Sie, dass bei der Berechnung von Einzelöffnungen die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Öffnungen innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelöffnungen gezählt. Wenn ein Profil jedoch zwei Öffnungen hat, die mehr als 10 Tage voneinander entfernt sind, werden sie nicht als Einzelöffnungen betrachtet.<br/> </td> 
+   <td> Anzahl der Profile, die den Versand geöffnet haben <br> Beachten Sie, dass bei der Berechnung der Einzelöffnungen die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Öffnungen innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelöffnungen gezählt. Wenn ein Profil jedoch zwei Öffnungen hat, die mehr als 10 Tage voneinander entfernt sind, werden sie nicht als Einzelöffnungen betrachtet.<br/> </td> 
   </tr> 
   <tr>
   <tr> 
@@ -433,7 +452,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
   <tr> 
    <td> Zugestellt<br/> </td> 
-   <td> Zahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
+   <td> Anzahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten<br/> </td> 
 </tr> 
   <tr> 
    <td> Zustellungsrate<br/> </td> 

@@ -10,9 +10,24 @@ level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/NzVDDmULBe37NjMcby0RRpow1yNUc9bhTlZR9GTZhBY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: 960
 ht-degree: 93%
 
 ---
@@ -74,7 +89,7 @@ Um eine benutzerdefinierte Subdomain einzurichten, führen Sie die folgenden Sch
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
 >title="Auswählen der Schlüssellänge"
->abstract="Die Schlüssellänge kann nur 2.048 oder 4.096 Bit betragen. Sie kann nach dem Senden der Subdomain nicht mehr geändert werden."
+>abstract="Die Schlüssellänge kann nur 2048 oder 4096 Bit betragen. Sie kann nach dem Senden der Subdomain nicht mehr geändert werden."
 
 1. Klicken Sie im Abschnitt **[!UICONTROL SSL-Zertifikat]** auf **[!UICONTROL CSR generieren]**.
 
@@ -90,9 +105,9 @@ Um eine benutzerdefinierte Subdomain einzurichten, führen Sie die folgenden Sch
 
    >[!NOTE]
    >
-   >Die Schlüssellänge kann nur 2.048 oder 4.096 Bit betragen. Sie kann nach dem Senden der Subdomain nicht mehr geändert werden.
+   >Die Schlüssellänge kann nur 2048 oder 4096 Bit betragen. Sie kann nach dem Senden der Subdomain nicht mehr geändert werden.
 
-1. Klicken Sie auf **[!UICONTROL CSR herunterladen]** und speichern Sie das Formular lokal auf Ihrem Computer. 
+1. Klicken Sie auf **[!UICONTROL CSR herunterladen]** und speichern Sie das Formular lokal auf Ihrem Computer.
 
 1. Senden Sie es an die Zertifizierungsstelle (CA), um Ihr SSL-Zertifikat zu erhalten. Bevor Sie diese CSR zur Signierung an Ihre Zertifizierungsstelle senden, sollten Sie einige wichtige Punkte beachten:
 
@@ -130,7 +145,7 @@ Um eine benutzerdefinierte Subdomain einzurichten, führen Sie die folgenden Sch
 >title="Abschließen der Schritte der Feedback-Schleife"
 >abstract="Rufen Sie das Yahoo! Sender Hub auf und füllen Sie das Formular aus, um zu überprüfen, wem die Domain gehört. Geben Sie die unten aufgeführte E-Mail-Adresse für das FBL-Reporting ein und verwenden Sie das daraufhin erhaltene OTP für die Verifizierung der Besitzverhältnisse im Yahoo! Sender Hub ein."
 
-1. Rufen Sie die Website [Yahoo! Sender Hub](https://senders.yahooinc.com/) auf und füllen Sie das Formular aus, um zu überprüfen, ob die Domain Ihnen gehört. 
+1. Rufen Sie die Website [Yahoo! Sender Hub](https://senders.yahooinc.com/) auf und füllen Sie das Formular aus, um zu überprüfen, ob die Domain Ihnen gehört.
 
 1. Für die Prüfung der Domain-Eigentümerschaft erfordert Yahoo! Sender Hub die Eingabe einer E-Mail-Adresse. Geben Sie die FBL-Reporting-E-Mail-Adresse ein, die unter **[!UICONTROL Wert]** aufgeführt ist. Dies ist eine Adobe-eigene E-Mail-Adresse.
 

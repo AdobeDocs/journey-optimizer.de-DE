@@ -8,9 +8,29 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
+TQID: https://experienceleague.adobe.com/zGML5v-T-z6d-r8J8lzWBl-bCo7UX9zqH1XTlw42y-k
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: 1456
 ht-degree: 100%
 
 ---
@@ -21,7 +41,7 @@ ht-degree: 100%
 
 Um Ihre Fragmente zu verwalten, greifen Sie links über das Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]** auf die Fragmentliste zu.
 
-Es werden alle in der aktuellen Sandbox entweder [über das Menü **[!UICONTROL Fragmente]** oder](create-fragments.md#create-fragments) die Option [Als Fragment speichern](save-fragments.md) erstellten Fragmente angezeigt. 
+Es werden alle in der aktuellen Sandbox entweder [über das Menü **[!UICONTROL Fragmente]** oder](create-fragments.md#create-fragments) die Option [Als Fragment speichern](save-fragments.md) erstellten Fragmente angezeigt.
 
 Im Bereich auf der linken Seite können Sie Fragmente in Ordnern organisieren. Standardmäßig werden alle Fragmente angezeigt. Bei der Auswahl eines Ordners werden nur die Fragmente und Ordner angezeigt, die im ausgewählten Ordner enthalten sind. [Weitere Informationen](#folders)
 
@@ -153,7 +173,7 @@ Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten.
 
 1. Sobald Ihre Änderungen fertig sind, speichern Sie sie und klicken Sie auf die Schaltfläche **[!UICONTROL Veröffentlichen]**, um Ihre Änderungen live zu schalten. [Weitere Informationen](create-fragments.md#publish)
 
-Wenn Sie ein Fragment bearbeiten, werden die Änderungen automatisch auf alle Inhalte übertragen, die dieses Fragment verwenden, einschließlich Live-Journeys und Kampagnen. Davon ausgenommen sind Inhalte, bei denen Sie die Vererbung vom ursprünglichen Fragment unterbrochen haben. 
+Wenn Sie ein Fragment bearbeiten, werden die Änderungen automatisch auf alle Inhalte übertragen, die dieses Fragment verwenden, einschließlich Live-Journeys und Kampagnen. Davon ausgenommen sind Inhalte, bei denen Sie die Vererbung vom ursprünglichen Fragment unterbrochen haben.
 
 >[!NOTE]
 >
@@ -188,7 +208,7 @@ Gehen Sie wie folgt vor, um zusätzliche Attribute in ein Live-Fragment einzubin
 
 ## Erkunden der Verweise {#explore-references}
 
-Sie können die Liste aller Journeys, Kampagnen und Inhaltsvorlagen anzeigen, die derzeit ein Fragment verwenden.  Wählen Sie dazu entweder über das Menü **[!UICONTROL Weitere Aktionen]** in der Fragmentliste oder im Bildschirm „Fragmenteigenschaften“ die Option **[!UICONTROL Verweise durchsuchen]** aus.
+Sie können die Liste aller Journeys, Kampagnen und Inhaltsvorlagen anzeigen, die derzeit ein Fragment verwenden. Wählen Sie dazu entweder über das Menü **[!UICONTROL Weitere Aktionen]** in der Fragmentliste oder im Bildschirm „Fragmenteigenschaften“ die Option **[!UICONTROL Verweise durchsuchen]** aus.
 
 ![](assets/fragment-explore-references.png){width="70%" align="left"}
 

@@ -6,10 +6,19 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 832b0bfa-ec74-4b1d-ad85-d4e4ea2f8863
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '131'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/fZtkkz9pvdZ3G7ojmHlNhasxawVbXmBHX-uznq6hseY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 131
+ht-degree: 81%
 
 ---
 
@@ -31,15 +40,15 @@ In diesem Anwendungsfall möchten wir jedem Profil eine einzelne E-Mail senden, 
 <ul>
 
 <li>
-      <strong>Rezept-ID:</strong> pres1<br>
-      <strong>Name:</strong> Medikament A<br>
-      <strong>Status:</strong> Bereit
+      <strong>Verschreibungs-ID:</strong> press1<br>
+      <strong>name:</strong> Medikament A<br>
+      <strong>state:</strong> ready
    </li>
 
 <li>
-      <strong>Rezept-ID:</strong> pres2<br>
-      <strong>Name:</strong> Medikament B<br>
-      <strong>Status:</strong> Rückruf
+      <strong>Verschreibungs-ID:</strong> press2<br>
+      <strong>Name:</strong> Medizin B<br>
+      <strong>state:</strong> recall
    </li>
 
 </ul>
@@ -49,9 +58,9 @@ In diesem Anwendungsfall möchten wir jedem Profil eine einzelne E-Mail senden, 
 <ul>
 
 <li>
-      <strong>Rezept-ID:</strong> pres4<br>
-      <strong>Name:</strong> Medikament D<br>
-      <strong>Status:</strong> Breit
+      <strong>Rezept-ID:</strong> press4<br>
+      <strong>Name:</strong> Medizin-ID<br>
+      <strong>state:</strong> ready
    </li>
 
 </ul>

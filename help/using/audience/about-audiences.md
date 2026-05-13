@@ -8,13 +8,29 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
+TQID: https://experienceleague.adobe.com/OL0VFfxegvbTbSLKeqFaUNTeZllmFtjMW6bmh1XDF00
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 94%
+source-wordcount: 629
+ht-degree: 96%
 
 ---
-
 
 # Erste Schritte mit Zielgruppen {#about-segments}
 
@@ -40,7 +56,7 @@ Diese Dokumentation enthält Informationen zum Arbeiten mit Zielgruppen in [!DNL
 
 * [Handbuch zur Benutzeroberfläche des Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
-* [Segmentierungs-Service – häufig gestellte Fragen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/faq){target="_blank"}
+* [Segmentierungs-Service - häufig gestellte Fragen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +79,7 @@ Zielgruppen können auf unterschiedliche Weise erstellt werden:
 * **Segmentdefinitionen**: Erstellen Sie mithilfe des Adobe Experience Platform Segmentierungsdienstes eine neue Zielgruppendefinition. Zielgruppen werden aus Segmentdefinitionen generiert und je nach Auswertungstyp zu unterschiedlichen Zeiten aktualisiert:
 
    * Streaming-Segmentierung: Zielgruppen werden in Echtzeit aktualisiert, während neue Daten einfließen, wodurch eine kontinuierliche Relevanz basierend auf der Benutzeraktivität sichergestellt wird.
-   * Batch-Segmentierung: Zielgruppen werden alle 24 Stunden aktualisiert und eine Momentaufnahme der Profile in einem festen Intervall erfasst. Bei Verwendung in Journey werden neu qualifizierte Segmentmitglieder möglicherweise erst beim nächsten Schnappschuss angezeigt. [Weitere Informationen zum Timing](../building-journeys/audience-qualification-events.md#timing-segment-membership).
+   * Batch-Segmentierung: Zielgruppen werden alle 24 Stunden aktualisiert und es wird eine Momentaufnahme der Profile in einem festen Intervall erfasst. Bei Verwendung in Journey werden neu qualifizierte Segmentmitglieder möglicherweise erst beim nächsten Schnappschuss angezeigt. [Weitere Informationen zum Timing](../building-journeys/audience-qualification-events.md#timing-segment-membership).
    * Edge-Segmentierung: Zielgruppen werden sofort am Edge ausgewertet, was die Personalisierung in Echtzeit ermöglicht.
 
   [Weitere Informationen zum Erstellen von Segmentdefinitionen](creating-a-segment-definition.md)

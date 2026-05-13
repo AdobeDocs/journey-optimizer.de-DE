@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 'In Journey Optimizer integrierte Rollen '
+title: In Journey Optimizer integrierte Rollen
 description: Erfahren Sie mehr über die integrierten Rollen.
 feature: Access Management
 topic: Administration
@@ -9,10 +9,36 @@ role: Admin, User
 level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: a91d5c6a22f81411d7a9acbe2bbc8e86c1a4da13
+TQID: https://experienceleague.adobe.com/LkOCFOSH-AzwWMoteNN-XI3R2yYkO5iBrVwMtobd4iI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 96%
+source-wordcount: 2107
+ht-degree: 97%
 
 ---
 
@@ -31,7 +57,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 |-|-|
 | Adobe Experience Platform | <ul> <li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li> <li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li> <li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li> <li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li> <li>**[!DNL Read Identity namespace]**: Nur-Lese-Zugriff auf Identity-Namespace.</li> <li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li> <li>**[!DNL Sandbox]**: Gewähren des Zugriffs auf Sandboxes.</li> </ul> |
 | Kampagnen | <ul><li> **[!DNL Manage campaigns]**: Lesen, Erstellen, Bearbeiten und Löschen von Kampagnen.</li><li>**[!DNL Publish campaigns]**: Veröffentlichen von Kampagnen.</li><li>**[!DNL View campaigns report]**: Lesen und Bearbeiten von Kampagnen-Berichten.</li></ul> |
-| Kanalkonfigurationen | <ul> <li>**[!DNL Export suppression list]**: Zugriff auf das Exportieren der Unterdrückungsliste als CSV-Datei.</li> <li>**[!DNL Manage alerts]**: Aktivieren/Deaktivieren von Warnhinweisen für Kampagnen, Nachrichten und Berechtigungen.</li> <li>**[!DNL Manage IP pools]**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools.</li> <li>**[!DNL Manage landing page settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für Landingpages.</li> <li>**[!DNL Manage messages general settings]**: Lesen, Erstellen, Bearbeiten und Löschen der allgemeinen Einstellungen für Nachrichten.</li> <li>**[!DNL Manage messages presets]**: Lesen, Erstellen, Bearbeiten und Löschen von Inhalts-Branding.</li> <li>**[!DNL Manage PTR records]**: Lesen und Bearbeiten von PTR-Einträgen.</li> <li>**[!DNL Manage SMS settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für SMS-Nachrichten.</li> <li>**[!DNL Manage subdomains delegation]**: Lesen, Erstellen, Bearbeiten und Löschen von Subdomain-Delegierung.</li> <li>**[!DNL Manage suppression rules]**: Zugriff auf das Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</li> <li>**[!DNL View PTR records]**: Nur-Lese-Zugriff auf PTR-Einträge.</li> <li>**[!DNL View suppression list]**: Lesen und Exportieren der lokalen Unterdrückungsliste.</li> </ul> |
+| Kanalkonfigurationen | <ul> <li>**[!DNL Export suppression list]**: Zugriff auf das Exportieren der Unterdrückungsliste als CSV-Datei.</li> <li>**[!DNL Manage alerts]**: Aktivieren/Deaktivieren von Warnhinweisen für Kampagnen, Nachrichten und Berechtigungen.</li> <li>**[!DNL Manage IP pools]**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools.</li> <li>**[!DNL Manage landing page settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für Landingpages.</li> <li>**[!DNL Manage messages general settings]**: Lesen, Erstellen, Bearbeiten und Löschen der allgemeinen Einstellungen für Nachrichten.</li> <li>**[!DNL Manage messages presets]**: Lesen, Erstellen, Bearbeiten und Löschen von Inhalts-Branding.</li> <li>**[!DNL Manage PTR records]**: Lesen und Bearbeiten von PTR-Einträgen.</li> <li>**[!DNL Manage SMS settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für SMS-Nachrichten.</li> <li>**[!DNL Manage subdomains delegation]**: Lesen, Erstellen, Bearbeiten und Löschen von Subdomain-Delegierungen.</li> <li>**[!DNL Manage suppression rules]**: Zugriff auf das Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</li> <li>**[!DNL View PTR records]**: Nur-Lese-Zugriff auf PTR-Einträge.</li> <li>**[!DNL View suppression list]**: Lesen und Exportieren der lokalen Unterdrückungsliste.</li> </ul> |
 | Entscheidungs-Management | <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li></ul> |
 
 ## [!DNL Campaign Approver] {#campaign-approver}
@@ -103,7 +129,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 | Ressourcen | Berechtigungen |
 |-|-|
 | Adobe Experience Platform | <ul> <li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li> <li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li> <li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li> <li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li> <li>**[!DNL Read Identity namespace]**: Nur-Lese-Zugriff auf Identity-Namespace.</li> <li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li> <li>**[!DNL Sandbox]**: Gewähren des Zugriffs auf Sandboxes.</li> </ul> |
-| Kanalkonfigurationen | <ul> <li>**[!DNL Manage alerts]**: Aktivieren/Deaktivieren von Warnhinweisen für Journeys und Berechtigungen.</li> <li>**[!DNL Manage IP pools]**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools.</li> <li>**[!DNL Manage Landing page settings]**: Erstellen, Bearbeiten und Löschen von Landingpage-Subdomains und Landingpage-Voreinstellungen.</li> <li>**[!DNL Manage messages general settings]**: Lesen, Erstellen, Bearbeiten und Löschen der allgemeinen Einstellungen für Nachrichten.</li> <li>**[!DNL Manage messages presets]**: Lesen, Erstellen, Bearbeiten und Löschen von Inhalts-Branding.</li> <li>**[!DNL Manage PTR records]**: Lesen und Bearbeiten von PTR-Einträgen.</li> <li>**[!DNL Manage SMS settings]**: Erstellen, Bearbeiten und Löschen von API-Anmeldedaten und SMS-Kanalkonfigurationen, die für die Aktivierung des SMS-Kanals erforderlich sind.</li> <li>**[!DNL Manage subdomains delegation]**: Lesen, Erstellen, Bearbeiten und Löschen von Subdomain-Delegierung.</li> <li>**[!DNL Manage suppression rules]**: Zugriff auf das Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</li> <li>**[!DNL View PTR records]**: Nur-Lese-Zugriff auf PTR-Einträge.</li> <li>**[!DNL View suppression list]**: Lesen und Exportieren der lokalen Unterdrückungsliste.</li> </ul> |
+| Kanalkonfigurationen | <ul> <li>**[!DNL Manage alerts]**: Aktivieren/Deaktivieren von Warnhinweisen für Journeys und Berechtigungen.</li> <li>**[!DNL Manage IP pools]**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools.</li> <li>**[!DNL Manage Landing page settings]**: Erstellen, Bearbeiten und Löschen von Landingpage-Subdomains und Landingpage-Voreinstellungen.</li> <li>**[!DNL Manage messages general settings]**: Lesen, Erstellen, Bearbeiten und Löschen der allgemeinen Einstellungen für Nachrichten.</li> <li>**[!DNL Manage messages presets]**: Lesen, Erstellen, Bearbeiten und Löschen von Inhalts-Branding.</li> <li>**[!DNL Manage PTR records]**: Lesen und Bearbeiten von PTR-Einträgen.</li> <li>**[!DNL Manage SMS settings]**: Erstellen, Bearbeiten und Löschen von API-Anmeldedaten und SMS-Kanalkonfigurationen, die für die Aktivierung des SMS-Kanals erforderlich sind.</li> <li>**[!DNL Manage subdomains delegation]**: Lesen, Erstellen, Bearbeiten und Löschen von Subdomain-Delegierungen.</li> <li>**[!DNL Manage suppression rules]**: Zugriff auf das Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</li> <li>**[!DNL View PTR records]**: Nur-Lese-Zugriff auf PTR-Einträge.</li> <li>**[!DNL View suppression list]**: Lesen und Exportieren der lokalen Unterdrückungsliste.</li> </ul> |
 | Data Governance | <ul> <li>**[!DNL Manage data usage policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Datennutzungsrichtlinien.</li> <li>**[!DNL Manage usage label]**: Lesen, Erstellen und Löschen von Nutzungs-Labels.</li> <li>**[!DNL View data usage policies]**: Schreibgeschützter Zugriff auf Datennutzungsrichtlinien.</li> <li>**[!DNL View user activity log]**: Schreibgeschützter Zugriff zur Anzeige aufgezeichneter Auditprotokolle zu Experience Platform-Aktivitäten.</li> </ul> |
 | Entscheidungs-Management | <ul> <li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li> <li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li> </ul> |
 | Journeys | <ul> <li>**[!DNL Manage journeys]**: Lesen, Erstellen, Bearbeiten, Stoppen (Live, Testmodus und Probelauf) und Löschen von Journey. </li> <li>**[!DNL Manage journeys events, data sources and actions]**: Lesen, Erstellen, Bearbeiten und Löschen von Ereignissen, Quellen oder Aktionen.</li> <li>**[!DNL Publish journeys]**: Veröffentlichen, Testmodus starten, Probelauf starten, Journey pausieren und fortsetzen. </li> <li>**[!DNL View journeys report]**: Lesen und Bearbeiten von Berichten zu Journeys.</li> </ul> |
@@ -111,7 +137,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 
 ## [!DNL Journey Approver] {#journey-approver}
 
-Die Rolle **[!DNL Journey Approver]** ermöglicht es Benutzenden, Sendungen zu genehmigen und zu veröffentlichen. Später können sie den Erfolg ihrer Sendungen anhand der **[!DNL Journey]**-Berichte überprüfen.
+Die Rolle **[!DNL Journey Approver]** ermöglicht es Benutzenden, Sendungen zu genehmigen und zu veröffentlichen. Später können sie den Erfolg ihrer Sendungen anhand der Berichte **[!DNL Journey]** überprüfen.
 
 Diese Rolle umfasst die folgenden Berechtigungen:
 
@@ -156,12 +182,12 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 
 | Ressourcen | Berechtigungen |
 |-|-|
-| Adobe Experience Platform | <ul> <li>**[!DNL Enable AI Assistant]**: Aktivieren von KI-gestützten Kampagnen- und Zielgruppenfunktionen oder Zugreifen auf diese.</li> <li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li> <li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li> <li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li> <li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li> <li>**[!DNL Read Identity namespace]**: Nur-Lese-Zugriff auf Identity-Namespace.</li> <li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li> <li>**[!DNL Sandbox]**: Gewähren des Zugriffs auf Sandboxes.</li> <li>**[!DNL View operational insights]**: Schreibgeschützter Zugriff auf Erkenntnis- und Überwachungs-Dashboards auf Systemebene.</li></ul> |
-| Kanalkonfigurationen | <ul><li>**[!DNL Export suppression list]**: Zugriff auf das Exportieren der Unterdrückungsliste als CSV-Datei.</li> <li>**[!DNL Manage alerts]**: Aktivieren/Deaktivieren von Warnhinweisen für Kampagnen, Nachrichten und Berechtigungen.</li> <li>**[!DNL Manage custom dashboards]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Dashboards.</li><li>**[!DNL Manage IP pools]**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools.</li> <li>**[!DNL Manage landing page settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für Landingpages.</li> <li>**[!DNL Manage messages general settings]**: Lesen, Erstellen, Bearbeiten und Löschen der allgemeinen Einstellungen für Nachrichten.</li> <li>**[!DNL Manage messages presets]**: Lesen, Erstellen, Bearbeiten und Löschen von Inhalts-Branding.</li><li>**[!DNL Manage PTR records]**: Lesen und Bearbeiten von PTR-Einträgen.</li> <li>**[!DNL Manage SMS settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für SMS-Nachrichten.</li> <li>**[!DNL Manage subdomains delegation]**: Lesen, Erstellen, Bearbeiten und Löschen von Subdomain-Delegierung.</li> <li>**[!DNL Manage suppression rules]**: Zugriff auf das Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</li> <li>**[!DNL View PTR records]**: Nur-Lese-Zugriff auf PTR-Einträge.</li> <li>**[!DNL View suppression list]**: Lesen und Exportieren der lokalen Unterdrückungsliste.</li> </ul> |
+| Adobe Experience Platform | <ul> <li>**[!DNL Enable AI Assistant]**: Aktivieren oder Aufrufen KI-gestützter Kampagnen- und Zielgruppenfunktionen.</li> <li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li> <li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li> <li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li> <li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li> <li>**[!DNL Read Identity namespace]**: Nur-Lese-Zugriff auf Identity-Namespace.</li> <li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li> <li>**[!DNL Sandbox]**: Gewähren des Zugriffs auf Sandboxes.</li> <li>**[!DNL View operational insights]**: Schreibgeschützter Zugriff auf Erkenntnis- und Überwachungs-Dashboards auf Systemebene.</li></ul> |
+| Kanalkonfigurationen | <ul><li>**[!DNL Export suppression list]**: Zugriff auf das Exportieren der Unterdrückungsliste als CSV-Datei.</li> <li>**[!DNL Manage alerts]**: Aktivieren/Deaktivieren von Warnhinweisen für Kampagnen, Nachrichten und Berechtigungen.</li> <li>**[!DNL Manage custom dashboards]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Dashboards.</li><li>**[!DNL Manage IP pools]**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools.</li> <li>**[!DNL Manage landing page settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für Landingpages.</li> <li>**[!DNL Manage messages general settings]**: Lesen, Erstellen, Bearbeiten und Löschen der allgemeinen Einstellungen für Nachrichten.</li> <li>**[!DNL Manage messages presets]**: Lesen, Erstellen, Bearbeiten und Löschen von Inhalts-Branding.</li><li>**[!DNL Manage PTR records]**: Lesen und Bearbeiten von PTR-Einträgen.</li> <li>**[!DNL Manage SMS settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für SMS-Nachrichten.</li> <li>**[!DNL Manage subdomains delegation]**: Lesen, Erstellen, Bearbeiten und Löschen von Subdomain-Delegierungen.</li> <li>**[!DNL Manage suppression rules]**: Zugriff auf das Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</li> <li>**[!DNL View PTR records]**: Nur-Lese-Zugriff auf PTR-Einträge.</li> <li>**[!DNL View suppression list]**: Lesen und Exportieren der lokalen Unterdrückungsliste.</li> </ul> |
 | Dashboard | <ul> <li>**[!DNL Manage standard dashboard]**: Lesen, Erstellen, Bearbeiten und Löschen benutzerdefinierter Widgets und Widget-Schemata über die Widget-Bibliothek.</li> </ul> |
 | Data Governance | <ul> <li>**[!DNL View user activity log]**: Schreibgeschützter Zugriff zur Anzeige aufgezeichneter Auditprotokolle zu Experience Platform-Aktivitäten. </li> </ul> |
 | Datenaufnahme | <ul> <li>**[!DNL Manage sources]**: Lesen, Erstellen, Bearbeiten und Deaktivieren von Quellen.</li> </ul> |
-| Daten-Management | <ul> <li>**[!DNL Manage datasets]**: Lesen, Erstellen, Bearbeiten und Löschen von Datensätzen. </li> </ul> |
+| Daten-Management | <ul> <li>**[!DNL Manage datasets]**: Lesen, Erstellen, Bearbeiten und Löschen von Datensätzen.</li> </ul> |
 | Datenmodellierung | <ul> <li>**[!DNL Manage schemas]**: Lesen, Erstellen, Bearbeiten und Löschen von Schemata und zugehörigen Ressourcen.</li> </ul> |
 | Entscheidungs-Management | <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li></ul> |
 | Journey Optimizer-Regeln | <ul> <li>**[!DNL View frequency rules]**: Schreibgeschützter Zugriff auf Häufigkeitsregeln.</li><li>**[!DNL Manage frequency rules]**: Lesen, Erstellen, Bearbeiten oder Löschen von Häufigkeitsregeln.</li> </ul> |
@@ -174,7 +200,7 @@ Mit der Rolle **[!DNL Orchestrated Campaign Approver]** können Benutzende orche
 
 | Ressourcen | Berechtigungen |
 |-|-|
-| Adobe Experience Platform | <ul> <li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen. </li> <li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li> <li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li> <li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li> <li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li> <li>**[!DNL Enable AI Assistant]**: Aktivieren von KI-gestützten Kampagnen- und Zielgruppenfunktionen oder Zugreifen auf diese.</li>  <li>**[!DNL View operational insights]**: Schreibgeschützter Zugriff auf Erkenntnis- und Überwachungs-Dashboards auf Systemebene.</li></ul> |
+| Adobe Experience Platform | <ul> <li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li> <li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li> <li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li> <li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li> <li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li> <li>**[!DNL Enable AI Assistant]**: Aktivieren oder Aufrufen KI-gestützter Kampagnen- und Zielgruppenfunktionen.</li>  <li>**[!DNL View operational insights]**: Schreibgeschützter Zugriff auf Erkenntnis- und Überwachungs-Dashboards auf Systemebene.</li></ul> |
 | Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li> <li>**[!DNL Manage custom dashboards]**: Erstellen, Bearbeiten und Löschen benutzerdefinierter Dashboards.</li></ul> |
 | Dashboard | <ul> <li>**[!DNL Manage standard dashboard]**: Lesen, Erstellen, Bearbeiten und Löschen benutzerdefinierter Widgets und Widget-Schemata über die Widget-Bibliothek.</li> </ul> |
 | Data Governance | <ul> <li>**[!DNL View user activity log]**: Schreibgeschützter Zugriff zur Anzeige aufgezeichneter Auditprotokolle zu Experience Platform-Aktivitäten.</li> </ul> |
@@ -191,7 +217,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 
 | Ressourcen | Berechtigungen |
 |-|-|
-| Adobe Experience Platform | <ul><li>**[!DNL Enable AI Assistant]**: Aktivieren von KI-gestützten Kampagnen- und Zielgruppenfunktionen oder Zugreifen auf diese.</li> <li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li> **[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li><li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li>  <li>**[!DNL View operational insights]**: Schreibgeschützter Zugriff auf Erkenntnis- und Überwachungs-Dashboards auf Systemebene.</li><li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Enable AI Assistant]**: Aktivieren oder Aufrufen KI-gestützter Kampagnen- und Zielgruppenfunktionen.</li> <li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li> **[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li><li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li>  <li>**[!DNL View operational insights]**: Schreibgeschützter Zugriff auf Erkenntnis- und Überwachungs-Dashboards auf Systemebene.</li><li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li></ul> |
 | Kanalkonfigurationen | <ul><li>**[!DNL Manage custom dashboards]**: Erstellen, Bearbeiten und Löschen benutzerdefinierter Dashboards.</li><li>**[!DNL View messages presets]**: Schreibgeschützter Zugriff auf Nachrichtenvoreinstellungen.</li></ul> |
 | Dashboard | <ul> <li>**[!DNL Manage standard dashboard]**: Lesen, Erstellen, Bearbeiten und Löschen benutzerdefinierter Widgets und Widget-Schemata über die Widget-Bibliothek.</li> </ul> |
 | Data Governance | <ul> <li>**[!DNL View user activity log]**: Schreibgeschützter Zugriff zur Anzeige aufgezeichneter Auditprotokolle zu Experience Platform-Aktivitäten.</li> </ul> |
@@ -210,7 +236,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 
 | Ressourcen | Berechtigungen |
 |-|-|
-| Adobe Experience Platform | <ul><li>**[!DNL Enable AI Assistant]**: Aktivieren von KI-gestützten Kampagnen- und Zielgruppenfunktionen oder Zugreifen auf diese.</li> <li>**[!DNL View operational insights]**: Schreibgeschützter Zugriff auf Erkenntnis- und Überwachungs-Dashboards auf Systemebene.</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Enable AI Assistant]**: Aktivieren oder Aufrufen KI-gestützter Kampagnen- und Zielgruppenfunktionen.</li> <li>**[!DNL View operational insights]**: Schreibgeschützter Zugriff auf Erkenntnis- und Überwachungs-Dashboards auf Systemebene.</li></ul> |
 | Kanalkonfigurationen | <ul><li>**[!DNL Manage custom dashboards]**: Erstellen, Bearbeiten und Löschen benutzerdefinierter Dashboards.</li></ul> |
 | Dashboard | <ul> <li>**[!DNL Manage standard dashboard]**: Lesen, Erstellen, Bearbeiten und Löschen benutzerdefinierter Widgets und Widget-Schemata über die Widget-Bibliothek.</li> </ul> |
 | Data Governance | <ul> <li>**[!DNL View user activity log]**: Schreibgeschützter Zugriff zur Anzeige aufgezeichneter Auditprotokolle zu Experience Platform-Aktivitäten.</li> </ul> |

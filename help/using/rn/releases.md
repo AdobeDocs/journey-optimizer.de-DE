@@ -4,9 +4,18 @@ product: journey optimizer
 title: Veröffentlichungszyklus von Adobe Journey Optimizer
 feature: Release Notes
 description: Grundlegendes zum Veröffentlichungszyklus von Adobe Journey Optimizer
-source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
-workflow-type: ht
-source-wordcount: '920'
+exl-id: 344ae3cf-923c-4f0e-b3bc-0313993243c8
+TQID: https://experienceleague.adobe.com/u8FJOgdav9VhwCk4CzrJoLrbFkVAa7BO83BCZ4SWsBc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 943
 ht-degree: 100%
 
 ---
@@ -60,9 +69,9 @@ Zu den gängigen Veröffentlichungspfaden gehören:
 
 | **Label** | **Zweck** | **Verfügbarkeit** | **Wichtige Hinweise** |
 |------------|-------------|------------------|----------------|
-| **Beta** | Frühzeitige Tests und Sammlung von Feedback. | Beschränkt auf ausgewählte Kundinnen und Kunden oder Organisationen, die am Beta-Programm von Adobe teilnehmen. | – Nicht zur Verwendung in der Produktion bestimmt.<br>– Funktionalität oder Design können sich vor Übergang in die allgemeine Verfügbarkeit ändern.<br>– Feedback hilft, die endgültige Implementierung zu optimieren. |
-| **Eingeschränkte Verfügbarkeit** | Kontrolliertes Rollout für Validierung und Überwachung. | Nur für ausgewählte Kundinnen und Kunden oder Umgebungen (z. B. Entwicklungs-Sandboxes) aktiviert. | – Produktionsbereit und vollständig unterstützt.<br>– Wird vor der allgemeinen Veröffentlichung zur Überprüfung der Leistung und Skalierbarkeit verwendet.<br>– Zugriff erfordert Adobe-Genehmigung. |
-| **Allgemeine Verfügbarkeit** | Allgemeine Veröffentlichung der vollständig unterstützten Funktionen. | Standardmäßig für alle berechtigten Organisationen aktiviert. | – Produktionsbereit und vollständig unterstützt.<br> – Möglicherweise gelten Lizenzierung oder Berechtigungen.<br> – Wird möglicherweise schrittweise über Regionen hinweg eingeführt. |
+| **Beta** | Frühzeitige Tests und Sammlung von Feedback. | Beschränkt auf ausgewählte Kundinnen und Kunden oder Organisationen, die am Beta-Programm von Adobe teilnehmen. | – Nicht für den Produktionseinsatz vorgesehen.<br>– Funktionalität oder Design können sich vor allgemeiner Verfügbarkeit noch ändern.<br>– Feedback hilft bei der Verfeinerung der endgültigen Implementierung. |
+| **Eingeschränkte Verfügbarkeit** | Kontrolliertes Rollout für Validierung und Monitoring. | Nur für ausgewählte Kundinnen und Kunden oder Umgebungen (z. B. Entwicklungs-Sandboxes) aktiviert. | – Produktionsbereit und vollständig unterstützt.<br>– Wird zum Überprüfen von Leistung und Skalierbarkeit vor der allgemeinen Veröffentlichung verwendet.<br>– Zugriff erfordert die Genehmigung durch Adobe. |
+| **Allgemeine Verfügbarkeit** | Allgemeine Veröffentlichung der vollständig unterstützten Funktionen. | Standardmäßig für alle berechtigten Organisationen aktiviert. | – Produktionsbereit und vollständig unterstützt.<br> – Es gelten möglicherweise Lizenzierungsregeln oder Berechtigungen.<br> – Wird möglicherweise schrittweise über Regionen hinweg eingeführt. |
 
 
 ## Rollout und Verfügbarkeit {#rollout}
@@ -117,7 +126,7 @@ Einige allgemein verfügbare Funktionen werden schrittweise eingeführt, um die 
 
 +++ Durchlaufen alle Funktionen eine Beta-Phase und eine Phase mit eingeschränkter Verfügbarkeit?
 
-Nein. Einige Funktionen werden je nach Art und Einsatzbereitschaft direkt allgemein oder nur eingeschränkt verfügbar gemacht. Der Veröffentlichungspfad ist auf jede Funktion zugeschnitten, um Agilität, Qualität und Stabilität zu gewährleisten.
+Nein. Einige Funktionen werden je nach Art und Einsatzbereitschaft direkt allgemein oder nur eingeschränkt verfügbar gemacht.Der Veröffentlichungspfad ist auf jede Funktion zugeschnitten, um Agilität, Qualität und Stabilität zu gewährleisten.
 
 +++
 

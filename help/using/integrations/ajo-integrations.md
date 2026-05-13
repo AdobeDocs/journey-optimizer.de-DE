@@ -7,9 +7,33 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: e311344a9fd11aca5430c31b257f8433c2b9c85b
+TQID: https://experienceleague.adobe.com/i5xKfvLh9J1Ec3ux19XJhWDGhAdQ2ZVIbvyMk2W6UW4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: 1007
 ht-degree: 99%
 
 ---
@@ -48,7 +72,7 @@ Wer Adobe Experience Manager nutzt, kann die eigenen Workflows mit Adobe Journey
 
 >[!TAB AEM Assets]
 
-Führen Sie Marketing- und Kreativ-Workflows mithilfe von **[!DNL Adobe Experience Manager Assets]** zusammen. Greifen Sie auf **[!DNL Assets Essentials]** oder **[!DNL Assets as a Cloud Service]** zu, die beide nativ mit **[!DNL Adobe Journey Optimizer]** integriert sind, um digitale Assets zu speichern, zu verwalten, zu entdecken und zu verbreiten. Dies bietet ein zentrales Repository für Assets, die Sie für Ihre Nachrichten verwenden können.
+Zusammenführen von Marketing- und Kreativ-Workflows mithilfe von **[!DNL Adobe Experience Manager Assets]**. Greifen Sie auf **[!DNL Assets Essentials]** oder **[!DNL Assets as a Cloud Service]** zu, die beide nativ mit **[!DNL Adobe Journey Optimizer]** integriert sind, um digitale Assets zu speichern, zu verwalten, zu entdecken und zu verbreiten. Dies bietet ein zentrales Repository für Assets, die Sie für Ihre Nachrichten verwenden können.
 
 [![Weitere Informationen](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
 
@@ -107,7 +131,7 @@ Erfahren Sie mehr über [Journey Optimizer und Adobe Intelligent Services](../bu
 
 ## Adobe Campaign {#integration-ac}
 
-Für Adobe Campaign v7 und v8 ist eine Integration verfügbar. Diese Integration ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mithilfe der Transaktionsnachrichtenfunktionen von Adobe Campaign 
+Für Adobe Campaign v7 und v8 ist eine Integration verfügbar. Diese Integration ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mithilfe der Transaktionsnachrichtenfunktionen von Adobe Campaign
 
 Weitere Informationen zu [Journey Optimizer und Campaign](../building-journeys/ajo-ac.md).
 
@@ -120,7 +144,7 @@ Weitere Informationen zu [Journey Optimizer und Campaign Standard](../building-j
 
 Verwenden Sie die Adobe Journey Optimizer-Module in Adobe Workfront, um Einträge zu erstellen, zu lesen, zu aktualisieren, zu löschen oder führen Sie einen benutzerdefinierten API-Aufruf an die Adobe Journey Optimizer-API durch.
 
-Eine Übersicht über den wichtigsten Schritt bei dieser Integration finden Sie in [diesem Blogpost](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=de){target="_blank"}.
+Eine Übersicht über den wichtigsten Schritt bei dieser Integration finden Sie in [diesem Blogpost](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
 Weitere Informationen zu Journey Optimizer und Adobe Workfront finden Sie in der [Dokumentation zu Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=de){target="_blank"}.
 

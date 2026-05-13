@@ -1,30 +1,41 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Löschen von Sammlungen
-description: Sammlungen sind Teilmengen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+title: Löschen einer Sammlung
+description: Sammlungen sind Teilmengen von Angeboten, die auf von Marketing-Fachleuten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Decision Management, API, Collections
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 351d1f44-f3dc-49f9-bc3d-c775dad3cad4
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/G6jbQBv1gvN0sYtrD34swQNoYwQgnSXKgipIHw395Lw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: 173
 ht-degree: 100%
 
 ---
 
-# Löschen von Sammlungen {#delete-collection}
+# Löschen einer Sammlung {#delete-collection}
 
 >[!TIP]
 >
 >Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-Gelegentlich kann es erforderlich sein, eine Sammlung zu entfernen (DELETE). Es können nur Sammlungen gelöscht werden, die Sie im Mandanten-Container erstellen. Dies geschieht, indem Sie mit der $id der Sammlung, die Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
+Gelegentlich kann es erforderlich sein, eine Sammlung zu löschen (DELETE). Es können nur Sammlungen gelöscht werden, die Sie im Mandanten-Container erstellen. Dies geschieht, indem Sie mit der $id der Sammlung, die Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
 
 **API-Format**
 
@@ -52,6 +63,6 @@ curl -X DELETE \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt den HTTP-Status 202 (kein Inhalt) und leeren Text zurück.
+Eine erfolgreiche Antwort gibt den HTTP-Status 202 (Kein Inhalt) und leeren Text zurück.
 
 Sie können den Löschvorgang bestätigen, indem Sie eine Nachschlageanfrage (GET) für die Sammlung ausführen. Sie müssen einen Accept-Header in die Anfrage einbeziehen, sollten jedoch einen HTTP-Status 404 (Nicht gefunden) erhalten, da die Sammlung aus dem Container entfernt wurde.

@@ -8,10 +8,30 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/aZO-1xrS-34tIqadKDzZQBr-1x3W3tKgkQAM7q3FhLM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 84%
+source-wordcount: 1291
+ht-degree: 99%
 
 ---
 
@@ -31,19 +51,19 @@ Während **[!DNL Journey Optimizer]** Möglichkeiten zum Verwalten des Opt-outs 
 >
 >Darüber hinaus können Sie über das **Unterdrückungs-REST-API** von Journey Optimizer Ihre ausgehenden Nachrichten mithilfe von Unterdrückungs- und Zulassungslisten steuern. [Erfahren Sie, wie man mit der Unterdrückungs-REST-API arbeitet.](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
-### Push-Opt-out-Status überprüfen {#push-opt-out-status}
+### Überprüfen des Push-Opt-out-Status {#push-opt-out-status}
 
-Ein Push-Opt-out für Mobile Apps wird auf Geräteebene gehandhabt: Wenn ein Benutzer Benachrichtigungen auf seinem Gerät deaktiviert, wird das Push-Token aus seinem Profil entfernt. Das **Vorhandensein eines Push-Tokens** auf einem Profil ist daher der Indikator für das implizite Push-Einverständnis.
+Ein Push-Opt-out für Apps wird auf Geräteebene gehandhabt: Wenn eine Person Benachrichtigungen auf ihrem Gerät deaktiviert, wird das Push-Token aus ihrem Profil entfernt. Das **Vorhandensein eines Push-Tokens** in einem Profil ist daher ein Zeichen für implizites Push-Einverständnis.
 
 So überprüfen Sie den Push-Einverständnisstatus eines Profils in Adobe Experience Platform:
 
-1. Öffnen Sie das Profil im **[!UICONTROL Profile]** von Adobe Experience Platform.
+1. Öffnen Sie das Profil im Abschnitt **[!UICONTROL Profile]** von Adobe Experience Platform.
 1. Wechseln Sie zur Registerkarte **[!UICONTROL Attribute]** und suchen Sie nach der Feldergruppe **[!UICONTROL Details zur Push-Benachrichtigung]**.
-1. Wenn ein Push-Token vorhanden ist, hat das Profil dem Empfang von Push-Benachrichtigungen implizit zugestimmt. Wenn kein Token gefunden wird, hat sich der Benutzer auf Geräteebene abgemeldet.
+1. Wenn ein Push-Token vorhanden ist, hat das Profil dem Empfang von Push-Benachrichtigungen implizit zugestimmt. Wenn kein Token gefunden wird, hat die Person ein Opt-out auf Geräteebene gewählt.
 
 >[!NOTE]
 >
->Verwenden Sie für Compliance-Anwendungsfälle, die eine explizite Push-Einverständnisverfolgung erfordern, das **`consents.marketing.push.val`** -Attribut aus der [Einverständnis und Voreinstellungen](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"}. Der Wert `y` bedeutet explizites Opt-in, `n` explizites Opt-out.
+>Verwenden Sie für Compliance-Anwendungsfälle, die ein explizites Push-Einverständnis-Tracking erfordern, das **`consents.marketing.push.val`**-Attribut aus der Feldergruppe [Einverständnisse und Voreinstellungen](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target="_blank"}. Der Wert `y` bedeutet explizites Opt-in, `n` bedeutet explizites Opt-out.
 
 In den folgenden Abschnitten erfahren Sie, wie Sie Opt-out-Verfahren in E-Mails und SMS-Nachrichten von Journey Optimizer verwalten:
 
@@ -82,7 +102,7 @@ Bei der Nutzung von Angeboten werden Personalisierungsvoreinstellungen nicht aut
 >
 >Entscheidungsbereiche, die von in [!DNL Journey Optimizer] verfassten Kanälen verwendet werden, erfüllen diese Anforderung der Journey oder Kampagne, zu der sie gehören.
 
-1. Erstellen Sie eine [Adobe Experience Platform](../audience/about-audiences.md)Zielgruppe mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"} und verwenden Sie ein Profilattribut wie **[!UICONTROL Personalisierungsinhalt = Ja (Opt-in)]**, um Benutzerinnen und Benutzer anzusprechen, die der Personalisierung zugestimmt haben.
+1. Erstellen Sie eine [Adobe Experience Platform-Zielgruppe](../audience/about-audiences.md) mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"} und verwenden Sie ein Profilattribut wie **[!UICONTROL Personalisierungsinhalt = Ja (Opt-in)]**, um Benutzende anzusprechen, die der Personalisierung zugestimmt haben.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -134,7 +154,7 @@ Um das Einverständnis zur Personalisierung in Kampagnen manuell durchzusetzen, 
 
 Sie können den Segment-Regel-Builder verwenden, um eine Zielgruppe mit Opt-out-Profilen zu erstellen.
 
-1. Erstellen Sie eine [Adobe Experience Platform](../audience/about-audiences.md)Zielgruppe mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"}.
+1. Erstellen Sie eine [Adobe Experience Platform-Zielgruppe](../audience/about-audiences.md) mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/overview){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 

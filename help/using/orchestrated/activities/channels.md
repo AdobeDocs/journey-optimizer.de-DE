@@ -5,13 +5,26 @@ title: Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 description: Informationen über das Hinzufügen einer Kanalaktivität in einer mehrstufigen Kampagne
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
+TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: 1803
 ht-degree: 57%
 
 ---
-
 
 # Kanalaktivitäten {#channel}
 
@@ -83,7 +96,7 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 
    ![Bild, das die Arbeitsfläche mit verfügbaren Aktivitäten zeigt](../assets/channel-add.png)
 
-1. Verwenden Sie in der rechten Leiste das Feld **[!UICONTROL Kategorie]**, um **[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]** für diese Nachricht auszuwählen. Transaktionsnachrichten erfordern keine Anmeldung und eignen sich für zeitkritische Nachrichten, z. B. Unterbrechungen, Notfälle oder Absagen.
+1. Verwenden Sie in der rechten Leiste das Feld **[!UICONTROL Kategorie]**, um **[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]** für diese Nachricht auszuwählen. Transaktionsnachrichten erfordern kein Opt-in und eignen sich für zeitkritische Nachrichten, z. B. im Fall von Unterbrechungen, Notfällen oder Absagen.
 
 1. Wählen Sie die Aktivität aus und klicken Sie je **[!UICONTROL Kanal auf E-Mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Push bearbeiten]** oder **[!UICONTROL Briefpost bearbeiten]**.
 
@@ -113,7 +126,7 @@ Verwenden Sie die Registerkarte **[!UICONTROL Aktionen]**, um eine Kanalkonfigur
 
 1. **Auswählen einer Kanalkonfiguration**
 
-   Eine Konfiguration wird durch [Systemadmins](../../start/path/administrator.md) definiert. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Informationen zum Einrichten von Kanalkonfigurationen](../../configuration/channel-surfaces.md)
+   Eine Konfiguration wird durch [Systemadmins](../../start/path/administrator.md) definiert. Es enthält alle technischen Parameter zum Senden der Nachricht, wie Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Erfahren Sie, wie Sie Kanalkonfigurationen einrichten](../../configuration/channel-surfaces.md)
 
    ![Bild, das den Abschnitt „Aktionen“ zeigt](../assets/channel-actions.png)
 

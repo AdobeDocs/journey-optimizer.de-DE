@@ -8,10 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/RoRap9ND2FI0-rMSSM0eeWcsx7wfjdePCy8XbOMOPKA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '3543'
-ht-degree: 98%
+source-wordcount: 3575
+ht-degree: 97%
 
 ---
 
@@ -24,7 +40,7 @@ ht-degree: 98%
 
 Live-Berichte, auf die über die Registerkarte „Letzte 24 Std.“ zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt dabei mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich Berichte in Customer Journey Analytics auf Ereignisse, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab.
 
-Sie können direkt über Ihre Kampagne auf den Live-Kampagnenbericht zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Berichte]** klicken und dann **[!UICONTROL Bericht für letzte 24 Stunden anzeigen]** auswählen. 
+Sie können direkt über Ihre Kampagne auf den Live-Kampagnenbericht zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Berichte]** klicken und dann **[!UICONTROL Bericht für letzte 24 Stunden anzeigen]** auswählen.
 
 Die Seite **[!UICONTROL Live-Bericht]** in Campaign wird mit den folgenden Registerkarten angezeigt:
 
@@ -37,7 +53,7 @@ Die Seite **[!UICONTROL Live-Bericht]** in Campaign wird mit den folgenden Regis
 * [Direkt-Mail](#direct-mail-tab)
 
 >[!AVAILABILITY]
->Orchestrierte Kampagnen unterstützen nur die Kanäle SMS, E-Mail und Push. Andere Kanäle (In-App, Web, Direkt-Mail usw.) sind in orchestrierten Kampagnen nicht verfügbar und werden auch nicht in Berichten angezeigt.
+>Orchestrierte Kampagnen unterstützen nur die Kanäle SMS, E-Mail und Push. Andere Kanäle (In-App, Web, Briefpost usw.) sind nicht in orchestrierten Kampagnen verfügbar und werden nicht in Berichten angezeigt.
 
 Der **[!UICONTROL Live-Bericht]** in Campaign ist in verschiedene Widgets unterteilt, die Erfolge und Fehler bei Ihrer Kampagne detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/live-report.md#modify-dashboard).
 
@@ -116,9 +132,9 @@ Die Tabelle **[!UICONTROL Versandmetriken nach E-Mail]** bietet eine umfassende 
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versandvorgang und der automatischen Rücksendungen.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Sendevorgang und der automatischen Rücksendungen.
 
-* **[!UICONTROL Fehler]**: Gesamtzahl der während des Versandvorgangs aufgetretenen Fehler, die den Versand an Profile verhindert haben.
+* **[!UICONTROL Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
 * **[!UICONTROL Öffnungen]**: Gibt an, wie oft eine Nachricht geöffnet wurde.
 
@@ -147,7 +163,7 @@ Die Tabelle **[!UICONTROL Versandmetriken nach E-Mail]** bietet eine umfassende 
 
 Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]** stellen die verfügbaren Daten der letzten 24 Stunden in Bezug auf Bounce-Nachrichten zusammen und bieten detaillierte Einblicke in die spezifischen Gründe und Kategorien für E-Mail-Bounces.
 
-Weitere Informationen zu Bounces finden Sie auf der Seite [Unterdrückungslisten](../reports/suppression-list.md).
+Weitere Informationen zu Bounces finden Sie auf der Seite [&#x200B; Unterdrückungslisten](../reports/suppression-list.md).
 
 +++ Weitere Informationen zu den Metriken „E-Mail – Bounce-Kategorien“ und „E-Mail – Bounce-Gründe“
 
@@ -176,9 +192,9 @@ Das Widget **[!UICONTROL Email – Leistung nach Datum]** bietet einen detaillie
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versandvorgang und der automatischen Rücksendungen.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Sendevorgang und der automatischen Rücksendungen.
 
-* **[!UICONTROL Fehler]**: Gesamtzahl der während des Versandvorgangs aufgetretenen Fehler, die den Versand an Profile verhindert haben.
+* **[!UICONTROL Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
 * **[!UICONTROL Öffnungen]**: Gibt an, wie oft eine Nachricht geöffnet wurde.
 
@@ -239,7 +255,7 @@ Die Widgets **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstati
 
 * **[!UICONTROL Angebots-Impression]**: Gibt an, wie oft das Angebot in Ihren E-Mails geöffnet wurde.
 
-* **[!UICONTROL Angebot-Klicks]**: Gibt an, wie oft ein Angebot in Ihren E-Mails angeklickt wurde.
+* **[!UICONTROL Angebots-Klicks]**: Gibt an, wie oft ein Angebot in Ihren E-Mails angeklickt wurde.
 
 +++
 
@@ -309,7 +325,7 @@ Das Diagramm **[!UICONTROL Versandleistung für Push-Benachrichtigungen]** biete
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versandvorgang und der automatischen Rücksendungen.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Sendevorgang und der automatischen Rücksendungen.
 
 * **[!UICONTROL Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
@@ -338,9 +354,9 @@ Die Tabelle **[!UICONTROL Push-Benachrichtigung – Statistiken]** bietet eine �
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versandvorgang und der automatischen Rücksendungen.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Sendevorgang und der automatischen Rücksendungen.
 
-* **[!UICONTROL Fehler]**: Gesamtzahl der während des Versandvorgangs aufgetretenen Fehler, die den Versand an Profile verhindert haben.
+* **[!UICONTROL Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
 * **[!UICONTROL Öffnungen]**: Gibt an, wie oft eine Nachricht geöffnet wurde.
 
@@ -441,9 +457,9 @@ Die Tabelle **[!UICONTROL SMS – Statistiken]** bietet eine übersichtliche Zus
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versandvorgang und der automatischen Rücksendungen.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Sendevorgang und der automatischen Rücksendungen.
 
-* **[!UICONTROL Fehler]**: Gesamtzahl der während des Versandvorgangs aufgetretenen Fehler, die den Versand an Profile verhindert haben.
+* **[!UICONTROL Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der URL-Besuche.
 
@@ -464,9 +480,9 @@ Das Widget **[!UICONTROL SMS – Leistung nach Datum]** bietet einen detailliert
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versandvorgang und der automatischen Rücksendungen.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Sendevorgang und der automatischen Rücksendungen.
 
-* **[!UICONTROL Fehler]**: Gesamtzahl der während des Versandvorgangs aufgetretenen Fehler, die den Versand an Profile verhindert haben.
+* **[!UICONTROL Fehler]**: Gesamtzahl der während des Sendevorgangs aufgetretenen Fehler, die das Senden an Profile verhindert haben.
 
 +++
 

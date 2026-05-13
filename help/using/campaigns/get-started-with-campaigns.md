@@ -10,10 +10,38 @@ level: Beginner
 mini-toc-levels: 1
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 90%
+source-wordcount: 1613
+ht-degree: 100%
 
 ---
 
@@ -57,12 +85,12 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
->abstract="Den Kampagnentyp auswählen. Die verfügbaren Kanäle variieren je nach ausgewähltem Typ. <br>**Geplante Kampagnen** (Aktionskampagnen) - Ideal für einfache, einmalige Batch-Nachrichten, die Sie für die Ausführung zu einem bestimmten Zeitpunkt planen können.<br>**API-ausgelöste Kampagnen** - Wird über einen API-Aufruf aktiviert und ermöglicht automatisiertes, ereignisbasiertes Messaging direkt über externe Systeme.<br>**Orchestrierte Kampagnen** – Stellen eine visuelle Drag-and-Drop-Arbeitsfläche bereit, auf der komplexe, mehrstufige Marketing-Workflows entworfen und automatisiert werden können: von der Zielgruppensegmentierung bis hin zum kanalübergreifenden Versand personalisierter Nachrichten."
+>abstract="Den Kampagnentyp auswählen. Die verfügbaren Kanäle variieren je nach ausgewähltem Typ. <br>**Geplante Kampagnen** (Aktionskampagnen) – Ideal für einfache, einmalige Batch-Nachrichten, deren Ausführung für einen bestimmten Zeitpunkt geplant werden kann.<br>**Durch API ausgelöste Kampagnen** – Werden über einen API-Aufruf aktiviert, wodurch direkt von externen Systemen aus ein automatisiertes, ereignisbasiertes Messaging möglich wird.<br>**Orchestrierte Kampagnen** – Stellen eine visuelle Drag-and-Drop-Arbeitsfläche bereit, auf der komplexe, mehrstufige Marketing-Workflows entworfen und automatisiert werden können: von der Zielgruppensegmentierung bis hin zum kanalübergreifenden Versand personalisierter Nachrichten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Kampagnen"
->abstract="Erstellen Sie Ihren Segmentierungsfluss, gestalten Sie Ihre kanalübergreifenden Nachrichten und planen Sie Ihre Kampagnen. Unterstützte Kanäle, E-Mail, SMS, Push-Benachrichtigungen, Direkt-Mail."
+>abstract="Erstellen Sie Ihren Segmentierungsfluss, gestalten Sie Ihre kanalübergreifenden Nachrichten und planen Sie Ihre Kampagnen. Unterstützte Kanäle: E-Mail, SMS, Push-Benachrichtigungen, Briefpost."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -101,7 +129,7 @@ Dieses Handbuch bietet eine klare Roadmap, die Ihnen hilft, die Grundlagen von K
 
 ![](assets/gs-campaigns.png)
 
-➡️ **Bereit zum Bauen?** [Erstellen Sie Ihre erste Kampagne](create-campaign.md) in Minuten.
+➡️ **Bereit, mit dem Erstellen zu beginnen?** [Erstellen sie Ihre erste Kampagne](create-campaign.md) innerhalb weniger Minuten.
 
 ## Auswählen des Kampagnentyps {#campaign-types}
 
@@ -194,19 +222,19 @@ Stellen Sie vor der Arbeit mit Kampagnen sicher, dass die folgenden Voraussetzun
 
 Das Erstellen erfolgreicher Kampagnen folgt einem klaren, wiederholbaren Prozess. Im Folgenden finden Sie den Schritt-für-Schritt-Workflow:
 
-+++&#x200B;1. Kampagne planen
++++&#x200B;1. Planen Ihrer Kampagne
 
 Klären Sie Ihre Ziele, bevor Sie beginnen:
 
-* **Was ist das Ziel?** (z. B. Konversionen fördern, Interaktionen steigern, Kunden benachrichtigen)
-* **Wer ist das Publikum?** (z. B. aus Adobe Experience Platform erstellen oder auswählen)
-* **Welcher Kampagnentyp passt zu?** (Siehe [Kampagnentypen](#campaign-types) oben)
-* **Welche Kanäle werden Sie verwenden?** (E-Mail, Push, SMS, In-App, Web usw.) → [Siehe Unterstützte Kanäle nach Kampagnentyp](../channels/gs-channels.md#channels)
-* **Wann sollte sie ausgeführt werden?** (sofort, geplant oder API-ausgelöst)
+* **Was ist das Ziel?** (z. B. Konversionen steigern, Interaktion erhöhen, Kundschaft benachrichtigen)
+* **Wer ist die Zielgruppe?** (z. B. in Adobe Experience Platform erstellen oder auswählen)
+* **Welcher Kampagnentyp ist am besten geeignet?** (Siehe [Kampagnentypen](#campaign-types) oben)
+* **Welche Kanäle möchten Sie verwenden?** (E-Mail, Push, SMS, In-App, Web usw.) → [Siehe unterstützte Kanäle nach Kampagnentyp](../channels/gs-channels.md#channels)
+* **Wann soll die Ausführung erfolgen?** (sofort, geplant oder durch API ausgelöst)
 
 +++
 
-+++&#x200B;2. Kampagneneigenschaften konfigurieren
++++&#x200B;2. Konfigurieren der Kampagneneigenschaften
 
 Legen Sie die Grundlage für Ihre Kampagne fest:
 
@@ -214,7 +242,7 @@ Legen Sie die Grundlage für Ihre Kampagne fest:
 2. **Wählen Sie den Kampagnentyp aus** (Aktion, durch API ausgelöst oder orchestriert)
 3. **Wählen Sie Ihre Zielgruppe aus**
 4. **Legen Sie die Priorität fest**, falls Sie das Konflikt-Management nutzen
-5. **Zeitplan konfigurieren** (für Aktionskampagnen) oder API-Details (für API-ausgelöste). Bei Aktionskampagnen können Sie die Nachricht auch [in Schüben versenden](send-using-waves.md) um sie im Zeitverlauf stapelweise zu versenden.
+5. **Konfigurieren Sie den Zeitplan** (für Aktionskampagnen) oder die API-Details (für durch API ausgelöste Kampagnen). Bei Aktionskampagnen können Sie die Nachricht auch [in Schüben versenden](send-using-waves.md), um sie im Laufe der Zeit in Batches zuzustellen.
 
 **Typspezifische Handbücher:** [Eigenschaften von Aktionskampagnen](campaign-properties.md) | [Eigenschaften von durch API ausgelösten Kampagnen](api-triggered-campaign-properties.md) | [Einrichten orchestrierter Kampagnen](../orchestrated/create-orchestrated-campaign.md)
 
@@ -234,7 +262,7 @@ Erstellen Sie überzeugende Nachricht für Ihre Zielgruppe:
 
 +++
 
-+++&#x200B;4. Überprüfen und testen
++++&#x200B;4. Überprüfen und Testen
 
 Überprüfen Sie Ihre Kampagne immer vor der Aktivierung:
 
@@ -248,7 +276,7 @@ Erstellen Sie überzeugende Nachricht für Ihre Zielgruppe:
 
 +++
 
-+++&#x200B;5. Aktivieren einer Kampagne
++++&#x200B;5. Aktivieren Ihrer Kampagne
 
 Aktivieren Sie Ihre Kampagne nach Abschluss der Überprüfung:
 

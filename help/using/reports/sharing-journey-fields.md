@@ -8,16 +8,30 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
+TQID: https://experienceleague.adobe.com/dpQ6PEm-afX4PZuWSPrpAWDH7yBhUKZHZRF134VehAg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 60%
+source-wordcount: 130
+ht-degree: 100%
 
 ---
 
 # Journey-Felder {#sharing-journey-fields}
 
-Diese Feldergruppe wird im **Journey**-Schema verwendet (in Verbindung mit **journeyStepEvent**).  Sie enthält die unten aufgeführten Felder.
+Diese Feldergruppe wird im **Journey**-Schema verwendet (in Verbindung mit **journeyStepEvent**). Sie enthält die unten aufgeführten Felder.
 
 
 >[!NOTE]
@@ -33,7 +47,7 @@ Typ: Zeichenfolge
 
 ## journeyVersionID {#journeyversionid-field}
 
-ID der Journey-Version. Diese Kennung stellt die Identität einer Journey dar.
+Kennung der Journey-Version. Diese Kennung stellt die Identität einer Journey dar.
 
 Typ: Zeichenfolge
 
@@ -45,7 +59,7 @@ Typ: Zeichenfolge
 
 >[!NOTE]
 >
->Der Journey-Name wird verwendet, um Journey-Ausführungsdaten mit Reporting-Datensätzen zu verknüpfen. Wenn Sie eine Journey umbenennen, stellen Sie sicher, dass der neue Name mit dem Namen in Ihrem Reporting-Datensatz übereinstimmt, um ein korrektes Reporting zu gewährleisten. Eine Nichtübereinstimmung kann dazu führen, dass die Berichtsdaten nicht wie erwartet angezeigt werden. Weitere Informationen über [Fehlerbehebung bei fehlenden Berichtsdaten](../building-journeys/report-journey.md#troubleshooting-missing-data).
+>Der Journey-Name wird verwendet, um Journey-Ausführungsdaten mit Berichtsdatensätzen zu verknüpfen. Wenn Sie eine Journey umbenennen, stellen Sie sicher, dass der neue Name mit dem Namen in Ihrem Berichtsdatensatz übereinstimmt, um korrekte Berichte zu gewährleisten. Bei Nichtübereinstimmung werden die Berichtsdaten möglicherweise nicht wie erwartet angezeigt. Erfahren Sie mehr zur [Fehlerbehebung bei fehlenden Berichtsdaten](../building-journeys/report-journey.md#troubleshooting-missing-data).
 
 ## description {#description-field}
 

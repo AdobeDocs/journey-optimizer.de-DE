@@ -8,13 +8,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+TQID: https://experienceleague.adobe.com/m11Vxa3bSvaOHe1kFs5tU9oQS08lzcL0DSPyrABbXBI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: 339
 ht-degree: 100%
 
 ---
-
 
 # Experimente – Kampagnenbericht {#campaign-global-report-cja-experimentation}
 
@@ -27,7 +42,7 @@ ht-degree: 100%
 
 Die Registerkarte **[!UICONTROL Experimentieren]** bietet wichtige Einblicke in die Performance der einzelnen Varianten und ermittelt die erfolgreichste Variante.
 
-Beachten Sie, dass es ein wenig dauern kann, um die beste Leistung zu ermitteln.  Wenn Ihr Experiment nicht erfolgreich ist, wird es auf **Nicht stichhaltig** gesetzt.
+Beachten Sie, dass es ein wenig dauern kann, um die beste Leistung zu ermitteln. Wenn Ihr Experiment nicht erfolgreich ist, wird es auf **Nicht stichhaltig** gesetzt.
 
 ![](assets/cja-experimentation-1.png)
 
@@ -49,7 +64,7 @@ Die KPIs (Key Performance Indicators) zum **[!UICONTROL Experimentieren]** diene
 
 ![](assets/cja-experimentation-variants.png)
 
-Die Tabelle **Variante nach Erfolgsmetriken** zeigt, wie einzelne Varianten bezüglich der Erfolgsmetrik abschneiden, die beim Einrichten des Experiments ausgewählt wurde.
+Die Tabelle **Variante nach Erfolgsmetriken** zeigt, wie die einzelnen Varianten bezüglich der Erfolgsmetrik abschneiden, die beim Einrichten des Experiments ausgewählt wurde.
 Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf [dieser Seite](../content-management/get-started-experiment.md#interpret-results).
 
 +++ Weitere Informationen zu Varianten nach Erfolgsmetrik

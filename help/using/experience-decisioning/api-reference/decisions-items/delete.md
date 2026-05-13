@@ -7,16 +7,23 @@ role: Developer
 level: Experienced
 exl-id: 0fd608e0-df71-4e2d-8304-d7d5561c7c7a
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
-workflow-type: ht
-source-wordcount: '112'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/OkPIse7NFATcyTdTT0pzNhjPMenbrvigSG2lSRatb-M
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 112
+ht-degree: 0%
 
 ---
 
 # Löschen eines Entscheidungselements {#delete-decision-item}
 
-Um ein Entscheidungselement zu entfernen, führen Sie eine DELETE-Anfrage an die Angebotsbibliothek-API mit der ID des Entscheidungselements aus, das Sie löschen möchten.
+Um ein Entscheidungselement zu entfernen, führen Sie eine DELETE-Anfrage an die Angebotsbibliotheks-API mit der ID des Entscheidungselements aus, das Sie löschen möchten.
 
 **API-Format**
 
@@ -26,7 +33,7 @@ DELETE /{ENDPOINT_PATH}/offer-items/{ID}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | Die ID der Entität, die Sie löschen möchten. | `offerItem1234` |
 
 **Anfrage**
@@ -43,6 +50,6 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-items/offerItem123
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort wird der HTTP-Status 200 und leerer Text zurückgegeben.
+Eine erfolgreiche Antwort gibt den HTTP-Status-Code 200 und einen leeren Text zurück.
 
-Sie können den Löschvorgang bestätigen, indem Sie eine Nachschlageanfrage (GET) an das Entscheidungselement richten. Sie sollten einen HTTP-Status 404 (Nicht gefunden) erhalten, da das Entscheidungselement entfernt wurde.
+Sie können den Löschvorgang bestätigen, indem Sie eine Suchanfrage (GET) an das Entscheidungselement senden. Sie sollten den HTTP-Status 404 (Nicht gefunden) erhalten, da das Entscheidungselement entfernt wurde.

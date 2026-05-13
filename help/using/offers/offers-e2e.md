@@ -3,21 +3,35 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Verwenden personalisierter Angebote in einer E-Mail
 description: Hier finden Sie ein Beispiel, das alle notwendigen Schritte zur Konfiguration von Angeboten und deren Verwendung in einer E-Mail zeigt.
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/m5tujeeveBXer8JDWUhe3-QmJhQMV9czOWC-8StyaT0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 1128
+ht-degree: 100%
 
 ---
 
-# Anwendungsfall: Personalisierte Angebote für deren Verwendung in einer E-Mail konfigurieren {#configure-add-personalized-offers-email}
+# Anwendungsfall: Konfigurieren personalisierter Angebote für deren Verwendung in einer E-Mail {#configure-add-personalized-offers-email}
 
 >[!TIP]
 >
@@ -36,7 +50,6 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
    * Erstellen von Sammlungsqualifizierern (ehemals als „Tags“ bezeichnet)
    * Ranking erstellen (optional)
 
-
 1. [Angebote konfigurieren](#configure-offers)
 
    * Angebote erstellen
@@ -46,7 +59,7 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
       * Fügen Sie für jedes Angebot eine Regel hinzu.
       * Definieren Sie für jedes Angebot eine Priorität.
 
-1. [Erstellen eines Fallback-Angebotes](#create-fallback)
+1. [Erstellen eines Fallback-Angebots](#create-fallback)
 
 1. [Erstellen Sie eine Sammlung](#create-collection), in der die von Ihnen erstellten personalisierten Angebote zusammengefasst werden.
 
@@ -56,7 +69,6 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
    * Wählen sie die von Ihnen erstellten Platzierungen aus.
    * Wählen Sie für jede Platzierung die Sammlung aus.
    * Wählen Sie für jede Platzierung ein Ranking aus (optional).
-
    * Wählen Sie das Fallback-Angebot aus.
 
 1. [Fügen Sie die Entscheidung in eine E-Mail ein.](#insert-decision-in-email)
@@ -120,7 +132,7 @@ Sie finden sie im Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTRO
    >
    >In diesem Beispiel verwenden wir nur die Prioritätswerte. Erfahren Sie mehr über [Eignungsregeln und Einschränkungen](../../using/offers/offer-library/add-constraints.md#eligibility).
 
-## Angebote konfigurieren {#configure-offers}
+## Konfigurieren von Angeboten {#configure-offers}
 
 Jetzt können Sie Ihre Angebote erstellen und konfigurieren. In diesem Beispiel erstellen Sie vier Angebote, die Sie je nach Profil anzeigen möchten.
 
@@ -163,7 +175,7 @@ Jetzt können Sie Ihre Angebote erstellen und konfigurieren. In diesem Beispiel 
 
 Die detaillierten Schritte zum Erstellen und Konfigurieren von Angeboten werden in [diesem Abschnitt](../../using/offers/offer-library/creating-personalized-offers.md) beschrieben.
 
-## Erstellen eines Fallback-Angebotes {#create-fallback}
+## Erstellen eines Fallback-Angebots {#create-fallback}
 
 1. Erstellen eines Fallback-Angebotes
 

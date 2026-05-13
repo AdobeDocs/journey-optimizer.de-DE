@@ -3,17 +3,32 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Platzierungsdatensatz
 description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Platzierungen verwendet werden
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/UFE7I-hQM4jKPpclDl3avrcE-q-vwRq-c91WOLdPBgo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 388
+ht-degree: 71%
 
 ---
 
@@ -27,7 +42,7 @@ Jedes Mal, wenn ein Angebot geändert wird, wird der automatisch erstellte Daten
 
 ![](../assets/dataset-placements.png)
 
-Der zuletzt erfolgreiche Batch im Datensatz wird rechts angezeigt. Die hierarchische Ansicht des Schemas für den Datensatz wird im linken Bereich angezeigt.
+Der letzte erfolgreiche Batch im Datensatz wird rechts angezeigt. Die hierarchische Ansicht des Schemas für den Datensatz wird im linken Bereich angezeigt.
 
 >[!NOTE]
 >
@@ -37,18 +52,18 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
-+++ ID
++++ Kennung
 
 **Feld:** _id
 **Titel:** Kennung
-**Beschreibung:** Eindeutige Kennung des Eintrags.
+**Beschreibung:** Eine eindeutige Kennung für den Datensatz.
 **Typ:** Zeichenfolge
 
 +++
 
 +++ _experience
 
-**Feld:** _experience 
+**Feld:** _experience
 **Typ:** Objekt
 
 +++
@@ -62,8 +77,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++ _experience > decisioning > Placement&#39;s Channel Identifier
 
-**Feld:** channelID 
-**Titel:** Die Kanalkennung der Platzierung 
+**Feld:** channelID
+**title:** Kanalkennung der Platzierung
 **Beschreibung:** Der Kanal, in dem der Vorschlag gemacht wurde. Der Wert ist eine gültige Kanal-URI. Siehe https://ns.adobe.com/xdm/channels/channel.
 **Typ:** Zeichenfolge
 
@@ -71,23 +86,23 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++ _experience > decisioning > Content Component Type
 
-**Feld:** componentType 
-**Titel:** Inhaltskomponententyp 
-**Beschreibung:** Ein Aufzählungssatz von URIs, wobei jeder Wert einem der Inhaltskomponente gegebenen Typ zugeordnet ist. Einige Verbraucher der Inhaltsdarstellungen erwarten, dass der @type-Wert ein Verweis auf das Schema ist, das zusätzliche Eigenschaften der Inhaltskomponente beschreibt.
+**Feld:** componentType
+**Titel:** Inhaltskomponententyp
+**Beschreibung:** Ein Aufzählungssatz von URIs, bei dem jeder Wert einem der Inhaltskomponente gegebenen Typ zugeordnet ist. Einige Verbraucher der Inhaltsdarstellungen erwarten, dass der @type-Wert ein Verweis auf das Schema ist, das zusätzliche Eigenschaften der Inhaltskomponente beschreibt.
 **Typ:** Zeichenfolge
 
 +++
 
 +++ _experience > decisioning > contentTypes
 
-**Feld:** contentTypes 
+**Feld:** contentTypes
 **Typ:** Array
 
 +++
 
 +++_experience > decisioning > contentTypes > MIME Media Type
 
-**Titel:** MIME-Medientyp
+**title:** MIME-Medientyp
 **Beschreibung:** Eine Begrenzung für den Medientyp der Komponenten, der an dieser Platzierung erwartet wird. Für eine Komponente kann es mehr als einen Medientyp geben, z. B. verschiedene Bildformate.
 **Typ:** Zeichenfolge
 
@@ -95,17 +110,17 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++ _experience > decisioning > Placement Description
 
-**Feld:** description 
-**Titel:** Platzierungsbeschreibung
-**Beschreibung:** Hiermit werden für Menschen lesbare Absichten darüber vermittelt, wie dynamische Inhalte im allgemeinen Nachrichtenversand verwendet werden. Die Tatsache, dass ein bestimmter Bereich auf einer Website ein \&quot;Banner\&quot; ist, wird oft über die Beschreibung und nicht über eine formale Methode vermittelt.
+**Feld:** description
+**title:** Platzierungsbeschreibung
+**Beschreibung:** Wird verwendet, um für den Menschen lesbare Absichten darüber zu vermitteln, wie dynamischer Inhalt im gesamten Nachrichtenversand verwendet wird. Die Tatsache, dass ein bestimmter Bereich auf einer Website ein \&quot;Banner\&quot; ist, wird oft über die Beschreibung und nicht über eine formale Methode vermittelt.
 **Typ:** Zeichenfolge
 
 +++
 
 +++ _experience > decisioning > Placement Name
 
-**Feld:** name 
-**Titel:** Platzierungsname 
+**Feld:** name
+**title:** Platzierungsname
 **Beschreibung:** Ein zugewiesener Name für die Platzierung, auf den in menschlichen Interaktionen verwiesen werden kann.
 **Typ:** Zeichenfolge
 
@@ -113,16 +128,16 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++ _repo
 
-**Feld:** _repo 
+**Feld:** _repo
 **Typ:** Objekt
 
 +++
 
 +++ _repo > Placement ETag
 
-**Feld:** etag 
-**Titel:** E-Tag für Platzierungen
-**Beschreibung:** Die Revision, in der sich das Entscheidungsoptionsobjekt zum Zeitpunkt des Speicherauszugs befand.
+**Feld:** eTag
+**Titel:** ETag für Platzierung
+**Beschreibung:** Die Überprüfung, bei der sich das Entscheidungsoptionsobjekt zum Zeitpunkt des Speicherauszugs befand.
 **Typ:** Zeichenfolge
 
 +++

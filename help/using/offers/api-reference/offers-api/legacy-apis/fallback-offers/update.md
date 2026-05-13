@@ -1,40 +1,50 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Aktualisieren von Fallback-Angeboten
-description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
+title: Fallback-Angebot aktualisieren
+description: Ein Fallback-Angebot wird an Kunden gesendet, wenn sie für andere Angebote nicht infrage kommen
 feature: Decision Management, API
-badge: label="Legacy" type="Informative"
+badge: label="Veraltet" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: f153c2ee-e789-4d8e-a03b-e914690ff354
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/LS2tnWXKdj2cFf-VFEJd-tygvnE48dyi2JAKSejsxZ8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 100%
+source-wordcount: 186
+ht-degree: 0%
 
 ---
 
-# Aktualisieren von Fallback-Angeboten {#update-fallback-offer}
+# Fallback-Angebot aktualisieren {#update-fallback-offer}
 
 >[!TIP]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, [!DNL Adobe Journey Optimizer] neue Entscheidungsfunktion, ist jetzt über die Code-basierten Erlebnis- und E-Mail-Kanäle verfügbar! [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Sie können ein Fallback-Angebot in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 
-Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](https://jsonpatch.com/).
+Weitere Informationen zu JSON-Patch-Vorgängen, einschließlich verfügbarer Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](https://jsonpatch.com/).
 
-## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
+## Accept- und Content-Type-Kopfzeilen {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
+Die folgende Tabelle zeigt die gültigen Werte der Felder *Content-Type* und *Accept* im Anfrage-Header:
 
 | Header-Name | Wert |
 | ----------- | ----- |
-| Inhaltstyp | `application/json` |
+| content-type | `application/json` |
 
 **API-Format**
 
@@ -73,13 +83,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 | Parameter | Beschreibung |
 | --------- | ----------- |
-| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen `add`, `replace` und `remove`. |
+| `op` | Der Operationsaufruf, der verwendet wird, um die Aktion zu definieren, die zum Aktualisieren der Verbindung erforderlich ist. Operationen umfassen: `add`, `replace` und `remove`. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die aktualisierten Details des Fallback-Angebots zurückgegeben, einschließlich der eindeutigen Instanz-`id`.
+Eine erfolgreiche Antwort gibt die aktualisierten Details des Fallback-Angebots zurück, einschließlich der eindeutigen `id`.
 
 ```json
 {

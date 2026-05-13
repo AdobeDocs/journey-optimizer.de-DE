@@ -7,10 +7,38 @@ feature: Get Started, Monitoring
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: 7755e29c4ad07319dadfb3426c8093199b4f843b
+TQID: https://experienceleague.adobe.com/-E1vLZQv8dDZqejyh944at7jHheePuzXybU4lCyMris
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '4652'
-ht-degree: 47%
+source-wordcount: 4714
+ht-degree: 48%
 
 ---
 
@@ -276,7 +304,7 @@ Weitere Informationen über die Aktivität **Profil aktualisieren** finden Sie a
 
 +++ Warum stimmt die Profilanzahl beim Eintritt in eine Journey nicht mit der Zahl in der zugehörigen Zielgruppe überein?
 
-Die Diskrepanz kann auftreten, wenn der Journey den Profilschnappschuss eines vorherigen Tages verwendet, wenn der aktuelle Tagesschnappschuss zum Zeitpunkt der Journey-Ausführung nicht verfügbar ist. Um zu untersuchen, überprüfen Sie, wann Ihr täglicher Segmentierungsauftrag zuletzt ausgeführt wurde und ob der Journey ausgelöst wurde, bevor der Snapshot bereit war.
+Die Diskrepanz kann auftreten, wenn die Journey den Profil-Snapshot eines vorherigen Tages verwendet und der Snapshot des aktuellen Tages zum Zeitpunkt der Journey-Ausführung nicht verfügbar ist. Um zu untersuchen, überprüfen Sie, wann Ihr täglicher Segmentierungsauftrag zuletzt ausgeführt wurde und ob der Journey ausgelöst wurde, bevor der Snapshot bereit war.
 
 Weitere Informationen zur Aktivität **Zielgruppe lesen** und zum Zeitplanverhalten finden [&#x200B; auf dieser Seite](../building-journeys/read-audience.md).
 
@@ -311,7 +339,7 @@ Erfahren Sie in der Dokumentation zum Lizenznutzungs-Dashboard , wie Sie Problem
 
 +++ Warum werden anhand von Datumsfunktionen E-Mails an Personen außerhalb der beabsichtigten Zielgruppe gesendet?
 
-E-Mails werden ggf. an Empfängerinnen und Empfänger gesendet **, die die angegebenen Zielgruppenkriterien nicht erfüllen**. Beispielsweise können Mitglieder mit Einlösungsterminen **vor dem 4. Juli 2025** E-Mails erhalten, die nur für Mitglieder nach diesem Datum bestimmt sind. Dieses Verhalten kann aus **falsch konfigurierten Zielgruppensegmentierung** oder **unerwarteten Änderungen in der Profilqualifikationslogik)**. Überprüfen Sie die Zielgruppendefinition und testen Sie sie mit Beispielprofilen, um sicherzustellen, dass die Datumslogik korrekt angewendet wird.
+E-Mails werden ggf. an Empfängerinnen und Empfänger gesendet **, die die angegebenen Zielgruppenkriterien nicht erfüllen**. Beispielsweise können Mitglieder mit Einlösungsterminen **vor dem 4. Juli 2025** E-Mails erhalten, die nur für Mitglieder nach diesem Datum bestimmt sind. Dieses Verhalten kann mit einer **falsch konfigurierten Zielgruppensegmentierung** oder **unerwarteten Änderungen in der Profilqualifizierungslogik** zusammenhängen. Überprüfen Sie die Zielgruppendefinition und testen Sie sie mit Beispielprofilen, um sicherzustellen, dass die Datumslogik korrekt angewendet wird.
 
 Weitere Informationen zu Datumsfunktionen finden Sie auf [dieser Seite](../building-journeys/functions/date-functions.md).
 
@@ -467,7 +495,7 @@ Informationen zu den ersten Schritten mit Experience Decisioning [&#x200B; Sie a
 
 +++ Wie kann ich das Problem `Message validation error (CJMMAS - 1069-500)` beheben?
 
-In Adobe Journey Optimizer verhindert ein mit der mehrsprachigen Funktion verknüpfter Nachrichtenvalidierungsfehler (CJMMAS - 1069-500), dass die Journey in den Testmodus versetzt oder veröffentlicht werden. Vergewissern Sie sich, dass alle Gebietsschema-Inhalte vollständig sind, dass die primäre Sprache korrekt festgelegt ist und dass keine erforderlichen Übersetzungsfelder leer sind, bevor Sie versuchen, zu veröffentlichen.
+Ein Fehler bei der Nachrichtenvalidierung (CJMMAS – 1069-500), der mit der mehrsprachigen Funktion zusammenhängt, verhindert in Adobe Journey Optimizer, dass Journeys in den Testmodus versetzt oder veröffentlicht werden. Vergewissern Sie sich, dass alle Gebietsschema-Inhalte vollständig sind, dass die primäre Sprache korrekt festgelegt ist und dass keine erforderlichen Übersetzungsfelder leer sind, bevor Sie versuchen, zu veröffentlichen.
 
 Weitere Informationen zu mehrsprachigem Inhalt finden Sie auf [dieser Seite](../content-management/multilingual-gs.md).
 

@@ -1,32 +1,42 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Sammlungen auflisten
-description: Sammlungen sind Teilmengen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+title: Auflisten von Sammlungen
+description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Decision Management, API, Collections
-badge: label="Legacy" type="Informative"
+badge: label="Veraltet" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: ce39d77d-6d81-48d7-9e73-e1d537874018
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/GXifM0uja-KQGmejxq9Ge-g84pJCkIaYTv0xAmWV4-8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: 291
+ht-degree: 0%
 
 ---
 
-# Sammlungen auflisten {#list-collections}
+# Auflisten von Sammlungen {#list-collections}
 
 >[!TIP]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, [!DNL Adobe Journey Optimizer] neue Entscheidungsfunktion, ist jetzt über die Code-basierten Erlebnis- und E-Mail-Kanäle verfügbar! [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-Sammlungen sind Teilmengen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
-Durch Ausführung einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste aller Sammlungen in einem Container anzeigen.
+Sie können eine Liste aller Sammlungen in einem Container anzeigen, indem Sie eine einzelne GET-Anfrage an die [!DNL Offer Library]-API durchführen.
 
 **API-Format**
 
@@ -37,10 +47,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=2` |
+| `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse nach . | `limit=2` |
 | `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | Definiert das Schema, das Sammlungen zugeordnet ist. <https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |  |
-| `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=1` |
+| `{SCHEMA_FILTER}` | Definiert das mit Sammlungen verknüpfte Schema. <https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |  |
+| `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse nach . | `limit=1` |
 
 **Anfrage**
 
@@ -54,21 +64,21 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Verwenden von Abfrageparametern {#using-query-parameters}
+## Abfrageparameter verwenden {#using-query-parameters}
 
-Beim Auflisten von Ressourcen können Sie Abfrageparameter nutzen, um Ergebnisse zu sortieren und zu filtern.
+Sie können beim Auflisten von Ressourcen Abfrageparameter zum Paging und Filtern von Ergebnissen verwenden.
 
 ### Paging {#paging}
 
-Zu den häufigsten Abfrageparametern für das Paging gehören:
+Zu den häufigsten Abfrageparametern für Paging gehören:
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `q` | Eine optionale Abfragezeichenfolge, nach der in ausgewählten Feldern gesucht werden soll. Die Abfragezeichenfolge sollte in Kleinbuchstaben verfasst werden und kann von doppelten Anführungszeichen umgeben sein, um eine Tokenisierung zu verhindern und Sonderzeichen zu umgehen (Escape). Die Zeichen `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` haben eine besondere Bedeutung und sollten bei der Darstellung in der Abfragezeichenfolge mit einem umgekehrten Schrägstrich als Escape-Zeichen versehen werden. | `demo collection` |
-| `qop` | Wendet den AND- oder OR-Operator auf Werte im Abfragezeichenfolgen-Parameter an. | `AND` / `OR` |
-| `field` | Optionale Liste der Felder, auf die die Suche beschränkt werden soll. Dieser Parameter kann wie folgt wiederholt werden: field=field1[,field=field2,…] und (Pfadausdrücke haben die Form von durch Punkten getrennten Pfaden wie _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Das Hinzufügen von `-` vor dem Titel (`orderby=-title`) sortiert die Ergebnisse nach Titel in absteigender Reihenfolge (Z-A). | `-repo:createdDate` |
-| `limit` | Schränken Sie die Anzahl der zurückgegebenen Sammlungen ein. | `limit=5` |
+| `q` | Eine optionale Abfragezeichenfolge, nach der in ausgewählten Feldern gesucht werden soll. Die Abfragezeichenfolge sollte in Kleinbuchstaben geschrieben sein und kann von doppelten Anführungszeichen umgeben sein, um zu verhindern, dass sie mit einem Token versehen wird, und um Sonderzeichen zu umgehen. Die Zeichen `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` eine besondere Bedeutung haben und sollten mit einem umgekehrten Schrägstrich escaped werden, wenn sie in der Abfragezeichenfolge angezeigt werden. | `demo collection` |
+| `qop` | Wendet den AND- oder OR-Operator auf Werte in einem Abfragezeichenfolgenparameter an. | `AND`/`OR` |
+| `field` | Optionale Liste von Feldern, auf die die Suche beschränkt werden soll. Dieser Parameter kann wie folgt wiederholt werden: field=field1[,field=field2,…] und (Pfadausdrücke haben die Form von punktgetrennten Pfaden wie _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines `-` vor Titel (`orderby=-title`) werden Elemente nach Titel in absteigender Reihenfolge sortiert (Z-A). | `-repo:createdDate` |
+| `limit` | Begrenzen Sie die Anzahl der zurückgegebenen Sammlungen. | `limit=5` |
 
 **Antwort**
 

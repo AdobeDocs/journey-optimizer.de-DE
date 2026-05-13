@@ -3,17 +3,34 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Entscheidungsdatensatz
 description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Entscheidungen verwendet werden
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/DTi8clyXof5lmdx0elOPHQGm0cwQuKwAm0KbQ-U-Fmo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 1574
+ht-degree: 80%
 
 ---
 
@@ -41,14 +58,14 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** _id
 **Titel:** Kennung
-**Beschreibung:** Eindeutige Kennung des Eintrags.
+**Beschreibung:** Eine eindeutige Kennung für den Datensatz.
 **Typ:** Zeichenfolge
 
 +++
 
 +++ _experience
 
-**Feld:** _experience 
+**Feld:** _experience
 **Typ:** Objekt
 
 +++
@@ -63,25 +80,25 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 +++ _experience > decisioning > criteria
 
 **Feld:** criteria
-**Titel:** Kriterien 
-**Beschreibung:** Definiert einen Satz von Entscheidungskriterien, wobei jedes von ihnen eine Reihe von Einschränkungen enthält.
+**Titel:** Kriterien
+**Beschreibung:** Definiert einen Satz von Entscheidungskriterien, bei denen jede eine Reihe von Einschränkungen enthält.
 **Typ:** Array
 
 +++
 
 +++ _experience > decisioning > criteria > description
 
-**Feld:** description 
-**Titel:** Beschreibung 
-**Beschreibung:** Kriterienbeschreibung Wird verwendet, um für den Menschen lesbare Absichten zu vermitteln, wie oder warum dieses Kriterium konstruiert wurde und wie es sich auf die Entscheidung auswirkt.
+**Feld:** description
+**Titel:** Beschreibung
+**Beschreibung:** Kriterienbeschreibung. Wird verwendet, um für den Menschen lesbare Absichten zu vermitteln, wie oder warum dieses Kriterium konstruiert wurde und wie es sich auf die Entscheidung auswirkt.
 **Typ:** Zeichenfolge
 
 +++
 
 +++_experience > decisioning > criteria > optionSelection
 
-**Feld:** optionSelection 
-**Titel:** Optionsauswahl 
+**Feld:** optionSelection
+**title:** Optionsauswahl
 **Beschreibung:** Die Optionsauswahl definiert die Gültigkeit/Anwendbarkeit von Optionen in diesem Kontext.
 **Typ:** Objekt
 
@@ -120,9 +137,9 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++_experience > decisioning > criteria > placements
 
-**Feld:** placements 
-**Titel:** Platzierungsbegrenzungen
-**Beschreibung:** Die Platzierungsbegrenzung gibt an, dass dieses Kriterium nur für die aufgelisteten Platzierungen gilt. Nur wenn sich die beabsichtigte Platzierung in der Liste `xdm:placements` befindet, wird die Option ausgewählt. Andernfalls werden die gesamten Entscheidungskriterien übersprungen. Wenn die Liste „xdm:placements“ ausgelassen wird oder leer ist, wird das Kriterium für jede Zielplatzierung berücksichtigt. Die hier aufgeführten Platzierungen erzwingen implizite Kriterien für die Optionsauswahl. Eine zu berücksichtigende Option muss für die Zielplatzierung repräsentativ sein.
+**Feld:** placements
+**title:** Platzierungsbeschränkungen
+**Beschreibung:** Die Platzierungsbeschränkung besagt, dass dieses Kriterium nur für die aufgelisteten Platzierungen gilt. Nur wenn sich die beabsichtigte Platzierung in der Liste `xdm:placements` befindet, wird die Option ausgewählt. Andernfalls werden die gesamten Entscheidungskriterien übersprungen. Wenn die Liste „xdm:placements“ ausgelassen wird oder leer ist, wird das Kriterium für jede Zielplatzierung berücksichtigt. Die hier aufgeführten Platzierungen erzwingen implizite Kriterien für die Optionsauswahl. Eine zu berücksichtigende Option muss für die Zielplatzierung repräsentativ sein.
 **Typ:** Array
 
 * Platzierungskennung
@@ -135,18 +152,18 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++_experience > decisioning > criteria > profileConstraints
 
-**Feld:** profileConstraints 
-**Titel:** Profilbegrenzung 
-**Beschreibung:** Die Profilbegrenzung bestimmt, ob eine Option in diesem Kontext für diese Profil-ID geeignet ist. Wenn die Profileinschränkung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie gegenüber den Optionen aus der Optionsauswahl invariant ist, hebt die als „false“ ausgewertete Profileinschränkung die gesamte Optionsauswahl auf. Dagegen wird eine Profileinschränkungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierte Option der Optionsauswahl ausgewertet.
+**Feld:** profileConstraints
+**title:** Profilbegrenzung
+**Beschreibung:** Die Profilbegrenzung entscheidet, ob eine Optionsauswahl zu diesem Zeitpunkt und in diesem Kontext für diese Profil-ID geeignet ist. Wenn die Profileinschränkung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie gegenüber den Optionen aus der Optionsauswahl invariant ist, hebt die als „false“ ausgewertete Profileinschränkung die gesamte Optionsauswahl auf. Dagegen wird eine Profileinschränkungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierte Option der Optionsauswahl ausgewertet.
 **Typ**: Objekt
 
 +++
 
 +++_experience > decisioning > criteria > profileConstraints > Description
 
-**Feld:** description 
-**Titel:** Beschreibung 
-**Beschreibung:** Beschreibung der Profilbegrenzung. Die Beschreibung soll in für Menschen verständlicher Form vermitteln, wie oder warum diese Profilbegrenzung erstellt wurde und/oder welche Option ein- oder ausgeschlossen wird.
+**Feld:** description
+**Titel:** Beschreibung
+**Beschreibung:** Beschreibung der Profileinschränkung. Die Beschreibung soll in für Menschen verständlicher Form vermitteln, wie oder warum diese Profilbegrenzung erstellt wurde und/oder welche Option ein- oder ausgeschlossen wird.
 **Typ:** Zeichenfolge
 
 +++
@@ -162,10 +179,10 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++ _experience > decisioning > criteria > profileConstraints > Profile Constraint Type
 
-**Feld:** profileConstraintType 
-**Titel:** Profileinschränkungstyp 
+**Feld:** profileConstraintType
+**Titel:** Profileinschränkungstyp
 **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann durch eine Regel oder durch die Zugehörigkeit zu einer oder mehreren Zielgruppen erfolgen.
-**Typ:** Zeichenfolge 
+**Typ:** Zeichenfolge
 **Mögliche Werte:**
 
 * „none“ (Standard)
@@ -178,9 +195,9 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++ _experience > decisioning > criteria > profileConstraints > segmentIdentities
 
-**Feld:** segmentIdentities 
-**Titel:** Segmentkennungen 
-**Beschreibung:** Kennungen der Zielgruppe
+**Feld:** segmentIdentities
+**title:** Segmentkennungen
+**Beschreibung:** Kennungen der Zielgruppe.
 **Typ:** Array
 
 * Kennung
@@ -216,18 +233,18 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++_experience > decisioning > criteria > ranking
 
-**Feld:** ranking 
-**Titel:** Ranking-Details 
-**Beschreibung:** Rangfolge (Priorität) Definiert, wie die „beste Option“ angesichts des Kontexts des Entscheidungskriteriums bestimmt wird. Unter allen ausgewählten Optionen, die den Profilbegrenzungen entsprechen, entscheidet die Rangfolge über die beste oder die besten n Optionen, die vorgeschlagen werden.
+**Feld:** ranking
+**title:** Ranking-Details
+**Beschreibung:** Rang (Priorität). Definiert, wie die „beste Option“ angesichts des Kontexts des Entscheidungskriteriums bestimmt wird. Unter allen ausgewählten Optionen, die den Profilbegrenzungen entsprechen, entscheidet die Rangfolge über die beste oder die besten n Optionen, die vorgeschlagen werden.
 **Typ: Objekt**
 
 +++ 
 
 +++_experience > decisioning > criteria > ranking > order
 
-**Feld:** order 
-**Titel:** Auswertung der Rangfolge 
-**Beschreibung:** Auswertung einer relativen Reihenfolge einer oder mehrerer Entscheidungsoptionen. Optionen mit höheren Ordinalzahlen werden vor Optionen mit niedrigeren Ordinalzahlen ausgewählt. Die durch diese Methode ermittelten Werte können geordnet werden, die Entfernungen zwischen ihnen können jedoch nicht gemessen werden. Außerdem können weder Summen noch Produkte berechnet werden. Der Medianwert und der Modus sind als einzige Messgrößen der zentralen Tendenz für Ordinaldaten verfügbar.
+**Feld:** order
+**Titel:** Evaluierung der Rangfolge
+**Beschreibung:** Bewertung einer relativen Reihenfolge für eine oder mehrere Entscheidungsoptionen. Optionen mit höheren Ordinalzahlen werden vor Optionen mit niedrigeren Ordinalzahlen ausgewählt. Die durch diese Methode ermittelten Werte können geordnet werden, die Entfernungen zwischen ihnen können jedoch nicht gemessen werden. Außerdem können weder Summen noch Produkte berechnet werden. Der Medianwert und der Modus sind als einzige Messgrößen der zentralen Tendenz für Ordinaldaten verfügbar.
 **Typ:** Objekt
 
 * Scoring-Funktion
@@ -256,11 +273,11 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++ _experience > decisioning > criteria > ranking > Priority
 
-**Feld:** priority 
-**Titel:** Priorität 
+**Feld:** priority
+**Titel:** Priorität
 **Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption im Verhältnis zu allen anderen Optionen. Optionen, für die keine Reihenfolgefunktion angegeben ist, werden mithilfe dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine Option nach demselben Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
-**Typ:** Ganzzahl
-**Mindestwert:** 0 
+**type:** Integer
+**Mindestwert:** 0
 **Standardwert:** 0
 
 +++
@@ -268,8 +285,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 +++ _experience > decisioning > Activity End Date and Time
 
 **Feld:** endTime
-**Titel:** Enddatum und -zeit der Aktivität 
-**Beschreibung:** Enddatum und -zeit der Entscheidung (früher als „Aktivität“ bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „endTime“ von schema.org, die auf http://schema.org/Action definiert ist.
+**Titel:Enddatum und -zeit** Aktivität
+**Beschreibung:** Enddatum und Endzeit der Entscheidung (früher als Aktivität bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „endTime“ von schema.org, die auf http://schema.org/Action definiert ist.
 **Typ:** Zeichenfolge
 
 +++
@@ -277,17 +294,17 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 +++ _experience > decisioning > Fallback Option
 
 **Feld:** fallback
-**Titel:** Fallback-Option 
-**Beschreibung:** Der Verweis auf eine Fallback-Option, die verwendet wird, wenn zur Entscheidungsfindung im Kontext dieser Entscheidung keine der regulären Optionen geeignet sind (dies geschieht in der Regel bei Anwendung von harten Einschränkungen). Der Wert ist die URI (@id) der Fallback-Option, auf die verwiesen wird.
+**title:** Fallback-Option
+**Beschreibung:** Der Verweis auf eine Fallback-Option, die bei der Entscheidung im Kontext dieser Entscheidung verwendet wird, qualifiziert keine der regulären Optionen (dies geschieht typischerweise, wenn harte Begrenzungen angewendet werden). Der Wert ist die URI (@id) der Fallback-Option, auf die verwiesen wird.
 **Typ:** Zeichenfolge
 
 +++
 
 +++ _experience > decisioning > Activity Name
 
-**Feld:** name 
-**Titel:** Aktivitätsname 
-**Beschreibung:** Name der Entscheidung (früher als „Aktivität“ bezeichnet) der in verschiedenen Benutzeroberflächen angezeigt wird.
+**Feld:** name
+**Titel:** Aktivitätsname
+**Beschreibung:** Name der Entscheidung (früher als Aktivität bezeichnet), der in verschiedenen Benutzeroberflächen angezeigt wird.
 **Typ:** Zeichenfolge
 
 +++
@@ -295,24 +312,24 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 +++_experience > decisioning > Activity Start Date and Time
 
 **Feld:** startTime
-**Titel:** Startdatum und -zeit der Aktivität 
-**Beschreibung:** Startdatum und -zeit der Entscheidung (früher als „Aktivität“ bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „startTime“ von schema.org, die auf http://schema.org/Action definiert ist.
+**Titel:** Startdatum und -zeit der Aktivität
+**Beschreibung:** Startdatum und Endzeit der Entscheidung (früher als Aktivität bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „startTime“ von schema.org, die auf http://schema.org/Action definiert ist.
 **Typ:** Zeichenfolge
 
 +++
 
 +++ _repo
 
-**Feld:** _repo 
+**Feld:** _repo
 **Typ:** Objekt
 
 +++
 
 +++ _repo > Activity Etag
 
-**Feld:** etag
-**Titel:** Aktivitäts-ETag
-**Beschreibung:** Die Überprüfung, bei der sich das Objekt einer Entscheidung (früher als „Aktivität“ bezeichnet) zum Zeitpunkt des Snapshots befand.
+**Feld:** eTag
+**Titel:** Aktivitäts-E-Tag
+**Beschreibung:** Die Überprüfung, bei der sich das Entscheidungsobjekt (früher als Aktivität bezeichnet) zum Zeitpunkt des Speicherauszugs befand.
 **Typ:** Zeichenfolge
 
 +++

@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 95%
+source-wordcount: '545'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Alle diese Aktionen können mit der Schaltfläche **[!UICONTROL Inhalt simuliere
 
 >[!IMPORTANT]
 >
->Wenn Sie **[!UICONTROL Kanalaktivität „Inhalt simulieren]** aus einer **orchestrierten Kampagne** verwenden, finden Sie unter [Überprüfen und Testen Ihres Inhalts](../orchestrated/activities/channels.md#simulate-content-test-profiles) weitere Informationen und wichtige Hinweise.
+>Unter [Überprüfen und Testen Ihres Inhalts](../orchestrated/activities/channels.md#simulate-content-test-profiles) finden Sie weitere Informationen und wichtige Hinweise zur Verwendung von **[!UICONTROL Inhalte simulieren]** aus einer Kanalaktivität einer **orchestrierten Kampagne**.
 
 ## Testen mit Testprofil- oder Beispieleingabedaten {#methods}
 
@@ -47,8 +47,8 @@ Journey Optimizer bietet zwei Erlebnisse zum Testen von Inhalten:
   ➡️ [Auswählen von Testprofilen](test-profiles.md)
 ➡️ [Vorschau mit Testprofilen](preview.md)
 ➡️ [Durchführen von E-Mail-Testsendungen](proofs.md)
-➡️ [Überprüfen von E-Mail-Rendering](rendering.md)
-➡️ [Anzeigen der Vorschau und Durchführen eines Testversands einer E-Mail (Video)](#video-preview)
+➡️ [Überprüfen des E-Mail-Renderings](rendering.md)
+➡️ [Anzeigen einer Vorschau und eines Testversands Ihrer E-Mail (Video)](#video-preview)
 
 * **Testen von Inhaltsvarianten mit Beispieleingabedaten**
 

@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Anwendungsfälle für die Personalisierung
-description: Anwendungsfälle für die Personalisierung
+description: Schrittweise Anwendungsfälle für die Erstellung personalisierter Nachrichten in Adobe Journey Optimizer, einschließlich Benachrichtigungen zum Bestellstatus, E-Mails zu Warenkorbabbrüchen und Warnhinweisen für Gesundheitspläne.
 redpen-status: CREATED_||_2025-08-12_00-35-09
 exl-id: 1b351130-3caa-4389-9caf-1a56e263f085
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 22ee2215c9f7793aedb7e0d63d310a15051ea534
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '245'
+ht-degree: 16%
 
 ---
 
 # Anwendungsfälle für die Personalisierung{#section-overview}
 
-Stellen Sie sich vor, Sie könnten Kommunikationen so genau auf Ihre Zielgruppe zuschneiden, dass diese sich jedes Mal wie maßgeschneidert anfühlen. Mit den Anwendungsfällen für die Personalisierung von Adobe Journey Optimizer können Sie genau dies tun und dabei Kundenprofile, Echtzeit-Kontext und entscheidungsbasierte Angebote kombinieren, um Botschaften zu erstellen, die wirklich Anklang finden. Ob Sie nun eine Aktualisierung des Bestellstatus versenden, Käuferinnen und Käufer mit E-Mails zum Warenkorbabbruch erneut ansprechen oder gesundheitsbezogene Benachrichtigungen personalisieren – dieser Abschnitt führt Sie Schritt für Schritt durch den Prozess. In jedem Anwendungsfall wird gezeigt, wie Sie Daten und Tools – wie Hilfsfunktionen oder dynamische Vorlagen – kombinieren können, um Botschaften bereitzustellen, die für Ihre Zielgruppe relevant und ansprechend sind. Lernen Sie die Details kennen, um zu sehen, wie diese Techniken Ihre Kampagnen transformieren können.
+In diesem Abschnitt finden Sie Anwendungsfälle, in denen Sie personalisierte Nachrichten in Adobe Journey Optimizer schrittweise erstellen können. Jedes Beispiel basiert auf einem realen Szenario und zeigt, wie Profilattribute, kontextuelle Daten, Hilfsfunktionen und Angebotsentscheidungen kombiniert werden können, um zielgerichtete, relevante Inhalte für Ihre Zielgruppe bereitzustellen.
 
 ## Anwendungsfälle für die Personalisierung
 
@@ -22,31 +22,41 @@ Stellen Sie sich vor, Sie könnten Kommunikationen so genau auf Ihre Zielgruppe 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
-Tutorial zur Personalisierung der Benachrichtigungen zum Bestellstatus
+Benachrichtigung zum Bestellstatus
 
-Erfahren Sie, wie Sie personalisierte Push-Benachrichtigungen für Aktualisierungen des Bestellstatus mithilfe von Profil-, Kontext- und Angebotsentscheidungsdaten erstellen können.
+Lesen Sie sich ein vollständiges Szenario durch, in dem Profilattribute, kontextuelle Echtzeitdaten und Offer Decisioning kombiniert werden, um Kunden eine personalisierte Push-Benachrichtigung zu senden, die ihren Bestellstatus bestätigt oder aktualisiert.
 
-[Tutorial beginnen](../using/personalization/personalization-use-case.md)
+[Tutorial lesen](../using/personalization/personalization-use-case.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
-Handbuch zur Personalisierung von E-Mails bei Warenkorbabbrüchen
+E-Mail zum Warenkorbabbruch
 
-Erfahren Sie, wie Sie E-Mails zu Warenkorbabbrüchen mithilfe von Hilfsfunktionen personalisieren können, um kundenspezifische und produktspezifische Details hinzuzufügen.
+Erfahren Sie, wie Sie mithilfe von Hilfsfunktionen eine E-Mail zum Warenkorbabbruch dynamisch mit kundenspezifischen Details und Produktinformationen füllen können, um Umsatzausfälle mit relevanten, zeitnahen Nachrichten wiederherzustellen.
 
-[Handbuch erkunden](../using/personalization/personalization-use-case-helper-functions.md)
+[Handbuch lesen](../using/personalization/personalization-use-case-helper-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
-Beispiel für die Personalisierung von E-Mails zu Rezepten für Krankenkassen
+Warnung bei Verschreibung von Krankenversicherungen
 
-Erstellen Sie personalisierte E-Mails für Abonnentinnen und Abonnenten von Krankenkassenangeboten, um den Status von Verschreibungen wie „Abholbereit“ oder „Abgerufen“ hervorzuheben.
+Erstellen Sie eine einzelne personalisierte E-Mail, in der alle Rezepte eines Abonnenten aufgelistet sind, die sich derzeit im Status „Bereit zur Abholung“ oder „Abgerufen“ befinden, wobei bedingte Logik und Vorlagenausdrücke verwendet werden.
 
-[Beispiel ansehen](../using/personalization/perso-uc-plan-prescriptions.md)
+[Beispiel lesen](../using/personalization/perso-uc-plan-prescriptions.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+
+Personalization-Rezepte
+
+Durchsuchen Sie eine Bibliothek mit einsatzbereiten Personalisierungsmustern, die Datumsangaben, Profilattribute, bedingte Logik und mehr abdecken. Jedes Rezept enthält ein funktionierendes Syntax-Snippet, das Sie direkt in Ihre E-Mail-, SMS- oder Push-Inhalte kopieren können.
+
+[Rezepte durchsuchen](../using/personalization/personalization-recipes.md)
 :::
 
 ::::

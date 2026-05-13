@@ -7,9 +7,16 @@ role: Developer
 level: Experienced
 exl-id: b924b7d0-bbed-409e-8173-0685fc41d7de
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
-workflow-type: ht
-source-wordcount: '137'
+TQID: https://experienceleague.adobe.com/5hMZmGEl--fCOFYxhy-wRRFh4JG7o-CHWDMKfA7rD78
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 138
 ht-degree: 100%
 
 ---
@@ -59,11 +66,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 | --------- | ----------- |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
-| `op` | Die Art des auszuführenden Vorgangs. Die Vorgänge umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
+| `op` | Die Art des auszuführenden Vorgangs. Die Operationen umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details des aktualisierten Elements, einschließlich der ID, zurückgegeben. Sie können die ID in späteren Schritten verwenden, um Ihr Entscheidungselement zu aktualisieren oder zu löschen. 
+Bei einer erfolgreichen Antwort werden die Details des aktualisierten Elements, einschließlich der ID, zurückgegeben. Sie können die ID in späteren Schritten verwenden, um Ihr Entscheidungselement zu aktualisieren oder zu löschen.
 
 ```json
 {

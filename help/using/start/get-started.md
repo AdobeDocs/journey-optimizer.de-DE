@@ -7,24 +7,51 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
-keywords: Journey Optimizer, was ist AJO, Adobe Journey Optimizer, Erste Schritte, Omni-Channel, Personalisierung, Kunden-Journey
+keywords: Journey Optimizer, Was ist AJO, Adobe Journey Optimizer, Erste Schritte, Omni-Channel, Personalisierung, Customer Journey
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c4404de32e9a1d400273863185c1b7fa9b21eb6d
+TQID: https://experienceleague.adobe.com/HYykJIqT1bcoN1oXrG6uvfNuhDNOGLfPtOAf-Y3hzsQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 14%
+source-wordcount: 1296
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Journey Optimizer {#ajo-gs}
 
-Auf dieser Seite werden Adobe Journey Optimizer vorgestellt: was es ist, für wen es ist, seine wichtigsten Funktionen und wie es in die Adobe Experience Platform-Architektur passt. Dies ist der empfohlene Ausgangspunkt für neue Benutzende.
+Auf dieser Seite wird Adobe Journey Optimizer vorgestellt: Was es ist, für wen es ist, die wichtigsten Funktionen und wie es in die Adobe Experience Platform-Architektur passt. Dies ist der empfohlene Ausgangspunkt für neue Benutzende.
 
 ## Was ist [!DNL Adobe Journey Optimizer]?{#about-ajo}
 
-[!DNL Adobe Journey Optimizer] ist eine Unternehmensanwendung zur Erstellung und Bereitstellung vernetzter, kontextueller und personalisierter Kundenerlebnisse auf allen Kanälen und Touchpoints. Sie basiert nativ auf [!DNL Adobe Experience Platform] und nutzt ein einheitliches Echtzeit-Kundenprofil, ein API-First-Open-Framework, zentralisiertes Offer Decisioning und KI/ML-Funktionen. Journey Optimizer ermöglicht es Marken, sowohl geplante Marketing-Kampagnen als auch ereignisgesteuerte Echtzeit-Kommunikation skaliert und über eine einzige Anwendung zu orchestrieren. Das Ergebnis sind aussagekräftige Markenerlebnisse, die die Kundentreue und den Kundenlebenswert steigern.
+[!DNL Adobe Journey Optimizer] ist eine Enterprise-Anwendung zur Erstellung und Bereitstellung vernetzter, kontextueller und personalisierter Kundenerlebnisse über alle Kanälen und Touchpoints hinweg. Sie basiert nativ auf [!DNL Adobe Experience Platform] und nutzt ein einheitliches Echtzeit-Kundenprofil, ein offenes API-first-Framework, zentralisierte Angebotsentscheidung und KI/ML-Funktionen. Journey Optimizer ermöglicht es Marken, sowohl geplante Marketing-Kampagnen als auch ereignisgesteuerte Echtzeit-Kommunikation in einer einzigen Anwendung im benötigten Umfang zu orchestrieren. Das Ergebnis sind aussagekräftige Markenerlebnisse, die die Kundentreue und den Lebenszeitwert steigern.
 
-Dieses Handbuch richtet sich an Marketing-Fachleute, Betriebs-Teams und Administratoren, die noch nicht mit Journey Optimizer vertraut sind.
+Dieses Handbuch richtet sich an Marketing-Fachleute, Betriebs-Teams und Admins, die noch nicht mit Journey Optimizer vertraut sind.
 
 ➡️ [Journey Optimizer entdecken](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=de){target="_blank"} (Video)
 
@@ -40,110 +67,110 @@ You can also create audience-based campaigns to send messages.
 
 [!DNL Adobe Journey Optimizer] ist eine agile und skalierbare Anwendung zur Erstellung und Bereitstellung personalisierter, vernetzter und zeitnaher Kundenerlebnisse in allen Mobile Apps, Geräten oder Kanälen.
 
-![Abbildung der drei Kernfunktionsbereiche von Journey Optimizer: Echtzeit-Kundeneinblicke und Interaktion, Moderne Omni-Channel-Orchestrierung und -Ausführung sowie Intelligent Decisioning und Personalization, die alle auf Adobe Experience Platform basieren.](assets/ajo-capabilities.png)
+![Diagramm der drei Kernfunktionsbereiche von Journey Optimizer: Echtzeit-Kundenerkenntnisse und -Interaktion, moderne Omni-Channel-Orchestrierung und -Ausführung sowie intelligente Entscheidungsfindung und Personalisierung, die alle auf Adobe Experience Platform basieren.](assets/ajo-capabilities.png)
 
-Die wichtigsten Funktionen ermöglichen Folgendes:
+Die wichtigsten Funktionen sind:
 
-### Echtzeit-Kundeneinblicke und Interaktion
+### Echtzeit-Kundenerkenntnisse und -Interaktion
 
-Ein integriertes Profil verbindet Live-Daten aus allen Quellen auf allen Kunden-Touchpoints, einschließlich Verhaltens-, Transaktions-, Finanz- und Betriebsdaten, um persönliche und kontextuelle Erlebnisse für Kunden zeitnah zu optimieren. [Erfahren Sie mehr über Profile und Audiences](../audience/get-started-profiles.md)
+Ein integriertes Profil verbindet Live-Daten aus allen Quellen aller Kundenkontaktpunkte, einschließlich Verhaltens-, Transaktions-, Finanz- und Betriebsdaten, um persönliche und kontextuelle Erlebnisse für Kundinnen und Kunden zeitnah zu optimieren. [Weitere Informationen zu Profilen und Zielgruppen](../audience/get-started-profiles.md)
 
 ### Moderne Omni-Channel-Orchestrierung und -Ausführung
 
-Eine einzige Arbeitsfläche, auf der die Kunden-Journey harmonisiert und optimiert werden kann, um 1:1 Kundeninteraktion und Marketing-Maßnahmen zu ermöglichen - damit Marken im gesamten Kundenlebenszyklus einen Mehrwert bieten können. In [!DNL Adobe Journey Optimizer] entwickelte Kunden-Journey können dynamisch und ereignisbasiert sein und Marken dabei helfen, auf Echtzeitsignale zu reagieren und diese Interaktionen mit geplanten Kampagnen zu verbinden. So können die richtigen Entscheidungen darüber getroffen werden, welche Nachrichten wann und über welche Kanäle an einen Kunden gesendet werden. Eingebettete Inhaltserstellungs-Tools - einschließlich eines visuellen Designers per Drag-and-Drop, wiederverwendbare Vorlagen, Inhaltsfragmente und eines Personalisierungs-Editors - ermöglichen es Teams, Nachrichten für jeden Kanal direkt im selben Workflow zu erstellen, zu personalisieren und zu verwalten. [Erstellen Sie Ihre erste Journey](../building-journeys/journey-gs.md) | [Gestalten Sie Ihre Inhalte](../../rp_landing_pages/content-management-landing-page.md)
+Über eine einzige Arbeitsfläche kann die Customer Journey durch 1:1-Kundeninteraktionen und Marketing-Maßnahmen harmonisiert und optimiert werden. So werden Marken dabei unterstützt, während des gesamten Kundenzyklus einen Mehrwert zu erzielen. In [!DNL Adobe Journey Optimizer] entwickelte Customer Journeys sind dynamisch und ereignisbasiert und ermöglichen es Marken, auf Echtzeitsignale zu reagieren und diese Interaktionen mit geplanten Kampagnen zu verbinden. Dadurch können die richtigen Entscheidungen darüber getroffen werden, welche Nachrichten wann und über welche Kanäle an Kundschaft gesendet werden. Eingebettete Tools zur Inhaltserstellung, einschließlich eines visuellen Drag-and-Drop-Designers, wiederverwendbarer Vorlagen, Inhaltsfragmenten und eines Personalisierungseditors, ermöglichen es Teams, Nachrichten für jeden Kanal direkt im selben Workflow zu erstellen, zu personalisieren und zu verwalten. [Erstellen Ihrer ersten Journey](../building-journeys/journey-gs.md) | [Gestalten Ihres Inhalts](../../rp_landing_pages/content-management-landing-page.md)
 
-### Intelligent Decisioning und Personalization
+### Intelligente Entscheidungsfindung und Personalisierung
 
-Marken können zentralisierte Entscheidungsfindung nutzen und künstliche Intelligenz und maschinelles Lernen integrieren, um prädiktive Erkenntnisse über das gesamte Kundenerlebnis zu konfigurieren, was die Automatisierung von Entscheidungen und die Optimierung eines Erlebnisses im großen Maßstab erleichtert. Decisioning ermöglicht mithilfe von [!DNL Adobe Journey Optimizer] auf allen Kanälen zentralisierte Angebote im großen Maßstab. [Erkunden von Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) | [Entdecken Sie KI-Funktionen](ai-features.md)
+Marken können zentralisierte Entscheidungsfindung nutzen und künstliche Intelligenz sowie maschinelles Lernen integrieren. Daraus lassen sich prädiktive Erkenntnisse über das gesamte Kundenerlebnis gewinnen, was die Automatisierung von Entscheidungen und die Optimierung eines Erlebnisses im benötigten Umfang erleichtert. [!DNL Adobe Journey Optimizer] ermöglicht mithilfe der Entscheidungsfindung auf allen Kanälen zentralisierte Angebote im benötigten Umfang. [Erkunden der Angebotsentscheidung](../offers/get-started/starting-offer-decisioning.md) | [Entdecken von KI-Funktionen](ai-features.md)
 
 
 ## Anwendungsfälle {#use-cases}
 
 Diese Beispiele veranschaulichen, wie die Funktionen von Journey Optimizer in verschiedenen Rollen, Branchen und Kanälen zusammenarbeiten.
 
-### Verspätete Sendungsrückerstattung {#uc-delayed-shipment}
+### Rückerstattung für verzögerte Sendungen {#uc-delayed-shipment}
 
-**Rolle:** Marketing-Experte | **Kernfunktion:** [Einheitliches Profil + Zielgruppenausschluss](../audience/get-started-profiles.md)
+**Rolle:** Marketing-Fachkraft | **Kernfunktion:** [Einheitliches Profil + Zielgruppenausschluss](../audience/get-started-profiles.md)
 
-Ein Bekleidungsgeschäft sendet in der Regel Umfragen nach dem Kauf an alle Kunden, die in der letzten Woche Produkte gekauft haben. Aufgrund des schlechten Wetters kam es bei einigen Lieferungen zu Verspätungen. Da das Bekleidungsgeschäft weiß, welche Kundinnen und Kunden ihre Lieferungen nicht erhalten haben, kann es diese vom geplanten Versand der Zufriedenheitsumfrage ausschließen. Stattdessen kann es eine personalisierte E-Mail versenden, in der es sich für die Verzögerung entschuldigt, und einen Rabatt-Code mit Produktempfehlungen einfügen, die auf früheren Käufen der Kundin bzw. des Kunden basieren.
+Ein Bekleidungsgeschäft versendet in der Regel nach dem Kauf eine Umfrage an alle Kundinnen und Kunden, die in der letzten Woche Produkte erworben haben. Aufgrund des schlechten Wetters kam es bei einigen Lieferungen zu Verspätungen. Da das Bekleidungsgeschäft weiß, welche Kundinnen und Kunden ihre Lieferungen nicht erhalten haben, kann es diese vom geplanten Versand der Zufriedenheitsumfrage ausschließen. Stattdessen kann es eine personalisierte E-Mail versenden, in der es sich für die Verzögerung entschuldigt, und einen Rabatt-Code mit Produktempfehlungen einfügen, die auf früheren Käufen der Kundin bzw. des Kunden basieren.
 
 [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)
 
-### Interaktion in Echtzeit in Geschäften {#uc-instore}
+### Echtzeit-Interaktion in Geschäften {#uc-instore}
 
-**Rolle:** Marketing-Experte | **Kernfunktion:** [Geofence-Auslösung + Push](../push/get-started-push.md)
+**Rolle:** Marketing-Fachkraft | **Kernfunktion:** [Geofence-Auslösung + Push](../push/get-started-push.md)
 
-Dieselbe retailer kann einen treuen Kunden ansprechen, der in Echtzeit auf den Parkplatz des Geschäfts einbiegt, indem er ihm eine Push-Benachrichtigung über einen Pullover sendet, der wieder in der Größe des Kunden vorrätig ist.
+Derselbe Einzelhändler kann in Echtzeit mit einer treuen Kundin interagieren, die gerade am Parkplatz des Geschäfts ankommt, und ihr eine Push-Benachrichtigung über einen Pullover senden, der wieder in ihrer Größe vorrätig ist.
 
 [Erste Schritte mit Push-Benachrichtigungen](../push/get-started-push.md)
 
 ### Wiederherstellung bei Warenkorbabbruch {#uc-cart}
 
-**Rolle:** Marketing-Experte | **Kernfunktion:** [Ereignisgesteuertes mehrstufiges Journey](../building-journeys/journey-gs.md)
+**Rolle:** Marketing-Fachkraft | **Kernfunktion:** [Durch Ereignis ausgelöste mehrstufige Journey](../building-journeys/journey-gs.md)
 
-Wenn ein Kunde Artikel in einen Online-Warenkorb legt, den Kauf jedoch nicht abschließt, erkennt Journey Optimizer das Ereignis in Echtzeit und startet automatisch eine Wiederherstellungs-Journey. Der Kunde erhält eine personalisierte E-Mail, in der er an die zurückgelassenen Artikel erinnert wird. Wenn sich der Kunde nicht innerhalb von 24 Stunden durchklickt, wird eine Follow-up-Push-Benachrichtigung gesendet, die basierend auf seinem Browser-Verlauf und seinem Treuestatus personalisiert wird.
+Wenn eine Person Artikel einem Online-Warenkorb hinzufügt, den Kauf jedoch nicht abschließt, erkennt Journey Optimizer das Ereignis in Echtzeit und startet automatisch eine Wiederherstellungs-Journey. Die Person erhält eine personalisierte E-Mail, in der sie an die zurückgelassenen Artikel erinnert wird. Wenn sich die Person nicht innerhalb von 24 Stunden durchklickt, wird eine Folge-Push-Benachrichtigung gesendet, die basierend auf dem Browser-Verlauf und Treuestatus personalisiert wird.
 
-[Erstellen des ersten Journey](../building-journeys/journey-gs.md)
+[Erstellen Ihrer ersten Journey](../building-journeys/journey-gs.md)
 
-### Begrüßungsserie zum Streaming-Service {#uc-welcome}
+### Begrüßungsserie für den Streaming-Service {#uc-welcome}
 
-**Rolle:** Marketing-Experte | **Kernfunktion:** [Ereignis-ausgelöster Willkommens-Journey](../building-journeys/journey-gs.md)
+**Rolle:** Marketing-Fachkraft | **Kernfunktion:** [Durch Ereignis ausgelöste Begrüßungs-Journey](../building-journeys/journey-gs.md)
 
-Wenn ein Kunde einen Streaming-Service abonniert, erkennt Journey Optimizer das Anmeldungsereignis und startet sofort eine mehrstufige Begrüßungs-Journey. Der Kunde erhält eine Begrüßungs-E-Mail, in der er aufgefordert wird, die App zum ersten Mal zu öffnen. Wenn innerhalb von 48 Stunden keine Anmeldeaktivität erkannt wird, wird eine Follow-up-Push-Benachrichtigung mit personalisierten Inhaltsempfehlungen gesendet, die auf den angegebenen Interessen während der Anmeldung basieren - sodass ein passiver Abonnent vom ersten Tag an zu einem aktiven, interaktiven Benutzer wird.
+Wenn eine Person einen Streaming-Service abonniert, erkennt Journey Optimizer das Registrierungsereignis und startet sofort eine mehrstufige Begrüßungs-Journey. Die Person erhält eine Begrüßungs-E-Mail, in der sie aufgefordert wird, die App zum ersten Mal zu öffnen. Wenn innerhalb von 48 Stunden keine Anmeldeaktivität erkannt wird, wird eine Folge-Push-Benachrichtigung mit personalisierten Inhaltsempfehlungen gesendet, die auf den bei der Registrierung angegebenen Interessen basieren. So werden passive Abonnierende vom ersten Tag an zu aktiven, interaktiven Benutzenden.
 
-[Erstellen des ersten Journey](../building-journeys/journey-gs.md)
+[Erstellen Ihrer ersten Journey](../building-journeys/journey-gs.md)
 
 ### Reservierungserinnerung mit Wegbeschreibung {#uc-reservation}
 
-**Rolle:** Marketer | **Kernfunktion:** [Geplantes + standortbezogenes Messaging](../campaigns/get-started-with-campaigns.md)
+**Rolle:** Marketing-Fachkraft | **Kernfunktion:** [Geplantes + standortbezogenes Messaging](../campaigns/get-started-with-campaigns.md)
 
-Eine Hotelmarke sendet jedem Gast eine Stunde vor der Reservierung eine rechtzeitige Erinnerung. Die Benachrichtigung enthält den Namen des Gastes, die Reservierungszeit und die standortbasierte Anfahrt zum Veranstaltungsort - automatisch aus den Kundenprofil- und Buchungsdaten zusammengestellt, ohne dass ein manueller Aufwand seitens des Marketing-Teams erforderlich ist.
+Eine Marke im Gastgewerbe sendet allen Gästen eine Stunde vor ihrer Reservierung eine rechtzeitige Erinnerung. Die Benachrichtigung enthält den Namen des Gastes, die Reservierungszeit und die standortbasierte Wegbeschreibung zum Ort. Dies wird automatisch aus den Daten im Kundenprofil und der Buchung zusammengestellt, ohne dass manueller Aufwand des Marketing-Teams notwendig ist.
 
 [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)
 
-### Proaktive Service-Ausfallbenachrichtigung {#uc-outage}
+### Proaktive Benachrichtigung zu Service-Ausfall {#uc-outage}
 
-**Rolle:** Vorgänge | **Kernfunktion:** [Automatisierte Zielgruppenauswahl im benötigten Umfang](../audience/about-audiences.md)
+**Rolle:** Operations | **Kernfunktion:** [Automatisierte Zielgruppenauswahl im benötigten Umfang](../audience/about-audiences.md)
 
-Wenn eine Service-Unterbrechung auftritt, identifiziert Journey Optimizer die betroffenen Kunden automatisch anhand ihrer Kontodaten und Nutzungsmuster. Diese Kunden erhalten eine proaktive Benachrichtigung, in der sie das Problem quittieren und die nächsten Schritte skizzieren - eine potenziell negative Erfahrung in einen Moment der Transparenz und des Vertrauens zu verwandeln, und zwar in großem Maßstab.
+Wenn eine Service-Unterbrechung auftritt, identifiziert Journey Optimizer die betroffenen Personen automatisch anhand ihrer Kontodaten und Nutzungsmuster. Diese Personen erhalten eine proaktive Benachrichtigung, in der das Problem geschildert und die nächsten Schritte erläutert werden. Dies wandelt ein potenziell negatives Erlebnis in einen transparenten Moment um, der Vertrauen schafft und im benötigten Umfang bereitgestellt wird.
 
-[Erstellen des ersten Journey](../building-journeys/journey-gs.md)
+[Erstellen Ihrer ersten Journey](../building-journeys/journey-gs.md)
 
 ### KI-gestützte Werbekampagne {#uc-ai-campaign}
 
-**Rolle:** Marketing-Experte | **Kernfunktion:** [KI-Inhaltserstellung + Experimentieren](ai-features.md)
+**Rolle:** Marketing-Fachkraft | **Kernfunktion:** [KI-Inhaltsgenerierung + -experimente](ai-features.md)
 
-Eine Einzelhandelsmarke, die eine Produkteinführung plant, verwendet den KI-Assistenten von Journey Optimizer, um mehrere Betreffzeilen- und Textkopievarianten in Minuten zu generieren - geleitet von einer natürlichen Sprachaufforderung und den hochgeladenen Markenrichtlinien. Integrierte Inhaltsexperimente identifizieren automatisch die Variante mit der besten Performance in einem anfänglichen Zielgruppenbeispiel. Die erfolgreichste Nachricht wird dann an die verbleibenden Empfänger gesendet, wodurch die Interaktion ohne zusätzlichen Aufwand für das Schreiben von Texten maximiert wird.
+Eine Einzelhandelsmarke, die eine Produkteinführung plant, verwendet den KI-Assistenten von Journey Optimizer, um mehrere Betreffzeilen- und Textkörpervarianten innerhalb weniger Minuten zu generieren, und zwar basierend auf einem Prompt in natürlicher Sprache und den hochgeladenen Markenrichtlinien. Integrierte Inhaltsexperimente identifizieren automatisch die leistungsstärkste Variante in einer anfänglichen Auswahl an Zielgruppen. Die erfolgreichste Nachricht wird dann an die verbleibenden Empfangenden gesendet, wodurch die Interaktion ohne zusätzlichen Texterstellungsaufwand maximiert wird.
 
-[Erkunden von KI und intelligenten Funktionen](ai-features.md) | [Erfahren Sie mehr über Inhaltsexperimente](../content-management/experiment-accelerator-gs.md)
+[Erkunden von KI- und intelligenten Funktionen](ai-features.md) | [Weitere Informationen über Inhaltsexperimente](../content-management/experiment-accelerator-gs.md)
 
-### Wartungs-Warnhinweise über Mobile App {#uc-maintenance}
+### Wartungswarnhinweise über App {#uc-maintenance}
 
-**Rolle:** Vorgänge | **Kernfunktion:** [Nicht-Marketing-Journey-Orchestrierung](../building-journeys/journey-gs.md)
+**Rolle:** Operations | **Kernfunktion:** [Nicht-Marketing-Journey-Orchestrierung](../building-journeys/journey-gs.md)
 
-Nicht-Marketing-Experten wie Operations- und Support-Teams können [!DNL Adobe Journey Optimizer] verwenden, um Benachrichtigungen zum Betrieb zu verwalten oder Onboarding-Prozesse zu überwachen. Ein Beispiel: ein Vergnügungspark, in dem Besucher eine Mobile App als Teil ihres Erlebnisses herunterladen: Wartungspersonal kann Journey Optimizer verwenden, um Parkbesucher über Attraktionen zu informieren, die aufgrund von Wartungsarbeiten derzeit geschlossen sind.
+Nicht-Marketing-Fachleute wie Operations- und Support-Teams können [!DNL Adobe Journey Optimizer] verwenden, um betriebliche Benachrichtigungen zu verwalten oder Onboarding-Prozesse zu überwachen. Beispielsweise kann Wartungspersonal eines Vergnügungsparks, in dem Besuchende eine App als Teil ihres Erlebnisses herunterladen, Journey Optimizer verwenden, um Besuchende des Parks über Attraktionen zu informieren, die aufgrund von Wartungsarbeiten derzeit geschlossen sind.
 
-[Erstellen des ersten Journey](../building-journeys/journey-gs.md)
+[Erstellen Ihrer ersten Journey](../building-journeys/journey-gs.md)
 
 
 ## Verfügbarkeit und Lizenzierung {#availability}
 
-Diese Dokumentation behandelt die aktuelle Version von Journey Optimizer und gilt, sofern nicht anders angegeben, sowohl für B2C- als auch für B2B edition-Benutzer. Welche Komponenten und Funktionen in Ihrer Umgebung verfügbar sind, hängt von Ihren [Berechtigungen](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder an den Adobe-Support.
+Diese Dokumentation behandelt die aktuelle Version von Journey Optimizer und gilt, sofern nicht anders angegeben, sowohl für Benutzende der B2C- als auch der B2B-Edition. Welche Komponenten und Funktionen in Ihrer Umgebung verfügbar sind, hängt von Ihren [Berechtigungen](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager oder an den Adobe-Support.
 
 Für [!DNL Journey Optimizer] gelten die allgemeinen Datenschutzrichtlinien und -verfahren von Adobe Experience Cloud. [Weitere Informationen zum Datenschutz](https://www.adobe.com/de/privacy/experience-cloud.html){target="_blank"} in Adobe Experience Cloud.
 
 
 ## Architektur {#architecture}
 
-Journey Optimizer basiert nativ auf Adobe Experience Platform und bietet gemeinsame Datengrundlagen, Identitätsdiagramme und Governance-Services. Eine ausführliche Beschreibung der Funktionsweise dieser Systeme finden Sie unter [&#x200B; von Journey Optimizer](understanding-ajo.md).
+Journey Optimizer basiert nativ auf Adobe Experience Platform und verwendet dieselben Datengrundlagen, Identitätsdiagramme und Governance-Services. Eine ausführliche Beschreibung der Funktionsweise dieser Systeme finden Sie unter [Grundlegendes zu Journey Optimizer](understanding-ajo.md).
 
 
 ## Verwandte Ressourcen {#related-resources}
 
-* [Wichtige Schritte für den &#x200B;](quick-start.md): Rollenbasierte Schnellstartanleitungen für Administratoren, Marketing-Experten und Dateningenieure.
-* [Erste Schritte mit dem Daten-](../data/gs-data.md) - Erfahren Sie, wie Daten in Journey Optimizer aufgenommen, vereinheitlicht und aktiviert werden.
-* [Journey entwerfen und Nachrichten senden](../building-journeys/journey-gs.md) - Erstellen Sie Ihre erste Kunden-Journey und konfigurieren Sie Kanalaktionen.
-* [Live-Berichte](../reports/live-report.md) - Überwachen der Kampagnen- und Journey-Performance in Echtzeit.
-* [Tutorial zur Einführung in Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - Eine angeleitete Videoeinführung zu den wichtigsten Journey Optimizer-Konzepten.
-* [Journey Optimizer-Sicherheitsübersicht](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) - Details zur Sicherheitsarchitektur, zum Datenschutz und zur Compliance.
-* [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} — Offizielle Lizenzbedingungen und Aufschlüsselung der Bearbeitungsfunktionen.
+* [Wichtige erste Schritte](quick-start.md): Rollenbasierte Schnellstartanleitungen für Admins, Marketing-Fachleute und Datentechnik-Teams.
+* [Erste Schritte mit dem Daten-Management](../data/gs-data.md): Erfahren Sie, wie Daten in Journey Optimizer aufgenommen, vereinheitlicht und aktiviert werden.
+* [Entwerfen von Journeys und Senden von Nachrichten](../building-journeys/journey-gs.md): Erstellen Sie Ihre erste Customer Journey und konfigurieren Sie Kanalaktionen.
+* [Live-Berichte](../reports/live-report.md): Überwachen Sie Kampagnen- und Journey-Leistung in Echtzeit.
+* [Tutorial zur Einführung in Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}: Eine angeleitete Videoeinführung zu den wichtigsten Journey Optimizer-Konzepten.
+* [Journey Optimizer-Sicherheitsüberblick](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF): Details zu Sicherheitsarchitektur, Datenschutz und Compliance.
+* [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}: Offizielle Lizenzbedingungen und Aufschlüsselung der Bearbeitungsfunktionen.

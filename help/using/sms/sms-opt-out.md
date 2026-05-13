@@ -8,10 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 38d537eb7a14f926cafd2769fd09821eebb1186a
+TQID: https://experienceleague.adobe.com/mQVaZ8jb-hBBPxDnztkayDEI4vj0KvMTREI0KxOgAf0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 89%
+source-wordcount: 673
+ht-degree: 98%
 
 ---
 
@@ -42,14 +58,14 @@ Stellen Sie bei Verwendung von Infobip sicher, dass für die Weiterleitungsaktio
 
 Es sind keine Schritte erforderlich, um sicherzustellen, dass die SMS-Opt-out-Funktionen in Adobe Journey Optimizer funktionieren, da die Keyword-Antworten STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE automatisch erkannt werden. Der Opt-out-Status von Profilen wird in Echtzeit in Adobe Journey Optimizer aktualisiert.
 
-Wenn Sie benutzerdefinierte Keywords zum Opt-out in Ihren SMS-API-Anmeldeinformationen definieren, überschreiben diese die oben aufgeführten standardmäßigen eingehenden Keywords. Um die Standardschlüsselwörter wie STOP, QUIT, CANCEL, END und UNSUBSCRIBE funktionsfähig zu halten, fügen Sie sie explizit zusammen mit Ihren benutzerdefinierten Schlüsselwörtern in das Feld Opt-out-Schlüsselwörter Ihrer SMS-Konfiguration ein. Andernfalls werden nur Ihre benutzerdefinierten Keywords erkannt, und die Standard-Keywords führen nicht mehr zu Trigger-Opt-out-Aktionen.
+Wenn Sie benutzerdefinierte Keywords zum Opt-out in Ihren SMS-API-Anmeldedaten definieren, überschreiben diese die oben aufgeführten standardmäßigen eingehenden Keywords. Damit die Standard-Keywords wie STOP, QUIT, CANCEL, END und UNSUBSCRIBE funktionsfähig bleiben, fügen Sie sie explizit zusammen mit Ihren benutzerdefinierten Keywords in das Feld „Opt-out-Keywords“ Ihrer SMS-Konfiguration ein. Andernfalls werden nur Ihre benutzerdefinierten Keywords erkannt und die Standard-Keywords lösen keine Opt-out-Aktionen mehr aus.
 
 Wenn eine Kundin oder ein Kunde mit STOP auf eine Textnachricht antwortet, blockiert der Anbieter alle nachfolgenden SMS von dieser Absender-ID (Kurzwahlnummer oder lange Nummer), einschließlich Transaktionsnachrichten. Um einen unterbrechungsfreien Versand von Transaktions-SMS sicherzustellen, verwenden Sie eine separate Absender-ID, für die noch kein Opt-out durchgeführt wurde.
 
 
 >[!NOTE]
 >
->Wenn Sie eine bidirektionale SMS verwenden möchten (Antwort mit STOP, QUIT usw.), stellen Sie sicher, dass Sie zunächst mindestens eine unidirektionale SMS gesendet haben, um die Telefonnummer für die Profilzuordnung festzulegen. Abgelaufene oder falsch konfigurierte Anbieter-Anmeldeinformationen verhindern, dass das Benutzerprofil durch eingehende Keywords aktualisiert wird. Dies führt zu fehlenden oder verzögerten Opt-out-Einträgen.
+>Wenn Sie eine bidirektionale SMS verwenden möchten (Antwort mit STOP, QUIT usw.), stellen Sie sicher, dass Sie zunächst mindestens eine unidirektionale SMS gesendet haben, um die Telefonnummer für die Profilzuordnung festzulegen. Abgelaufene oder falsch konfigurierte Anbieter-Anmeldeinformationen verhindern, dass das Benutzerprofil durch eingehende Keywords aktualisiert wird. Dies führt zu fehlenden oder verzögerten Opt-out-Einträgen. Eingehende Antworten werden im Systemdatensatz _Eingehende Aktivitätsereignisse von AJO_ gespeichert. [Weitere Informationen](../data/get-started-datasets.md#system-datasets)
 
 
 ## Blockierungslisten {#sms-blocklists}
@@ -71,7 +87,7 @@ Alphanumerische Sender IDs sind nur für einseitige Nachrichten gedacht und kön
 
 * Im folgenden Video erfahren Sie, wie Sie das Double-Opt-in für SMS konfigurieren.
 
-  +++ Siehe Video
+  +++ Video ansehen
 
   >[!VIDEO](https://video.tv.adobe.com/v/3440289/?captions=ger&learn=on)
 

@@ -9,10 +9,25 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
+TQID: https://experienceleague.adobe.com/wZkMADPKflUPDtBaSa0eEdHESX-0X0MQCqmk98fZn9k
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 83%
+source-wordcount: 858
+ht-degree: 100%
 
 ---
 
@@ -29,9 +44,9 @@ ht-degree: 83%
 >abstract="Adobe Experience Platform Assurance ist in diesen Workflow eingebettet, damit Sie Ihre SDK-Implementierung überprüfen und Anwendungsereignisse simulieren und validieren können."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/assurance/home" text="Überblick über Adobe Experience Platform Assurance"
 
-**Geführte Kanaleinrichtung** ist ein optimierter Workflow in Adobe Journey Optimizer, mit dem Sie Mobile- und Web-Marketing-Kanäle schnell konfigurieren können. Sie befindet sich unter **Administration** > **Kanäle** > **Kanalkonfiguration** und automatisiert die Erstellung wesentlicher Ressourcen wie Tag-Eigenschaften, Datenströme und Kanalkonfigurationen in Adobe Experience Platform, Journey Optimizer und der Datenerfassung. Anstatt jede Komponente manuell zu konfigurieren, folgen Sie einem geführten Fluss, der alles für Sie einrichtet, damit Ihr Marketing-Team sofort mit der Erstellung von In-App-Nachrichten, Push-Benachrichtigungen und Web-Erlebnissen beginnen kann.
+Die **geführte Kanaleinrichtung** ist ein optimierter Workflow in Adobe Journey Optimizer, mit dem Sie Mobile- und Web-Marketing-Kanäle schnell konfigurieren können. Sie befindet sich unter **Administration** > **Kanäle** > **Kanalkonfiguration** und automatisiert die Erstellung wesentlicher Ressourcen wie Tag-Eigenschaften, Datenströme und Kanalkonfigurationen in Adobe Experience Platform, Journey Optimizer und der Datenerfassung. Anstatt jede Komponente manuell zu konfigurieren, folgen Sie einem geführten Fluss, bei dem alles für Sie eingerichtet wird, damit Ihr Marketing-Team ohne Verzögerung mit der Erstellung von In-App-Nachrichten, Push-Benachrichtigungen und Web-Erlebnissen beginnen kann.
 
-Die Einrichtung geführter Kanäle unterstützt die folgenden Plattformen und Kanäle.
+Die geführte Kanaleinrichtung unterstützt die folgenden Plattformen und Kanäle.
 
 >[!BEGINTABS]
 
@@ -39,19 +54,19 @@ Die Einrichtung geführter Kanäle unterstützt die folgenden Plattformen und Ka
 
 **SDK:** Swift von Apple
 
-**Kanäle:** Mobile In-App-, Mobile-Push-Nachricht
+**Kanäle:** In-App-Nachrichten für Mobilgeräte, Push-Nachrichten für Mobilgeräte
 
 >[!TAB Android]
 
 **SDK:** Kotlin
 
-**Kanäle:** Mobile In-App-, Mobile-Push-Nachricht
+**Kanäle:** In-App-Nachrichten für Mobilgeräte, Push-Nachrichten für Mobilgeräte
 
 >[!TAB Web]
 
 **SDK:** JavaScript
 
-**Kanäle:** Web Basic
+**Kanäle:** Einfache Web-Kanäle
 
 >[!ENDTABS]
 
@@ -137,7 +152,7 @@ Beachten Sie, dass für jede Plattform, die Sie einrichten möchten, eine separa
 
 Die Anleitung zur Kanaleinrichtung vereinfacht die schnelle Konfiguration von Marketing-Kanälen, sodass alle wichtigen Ressourcen in den Apps Experience Platform, Journey Optimizer und Datenerfassung verfügbar sind. Dadurch kann Ihr Marketing-Team schnell mit der Erstellung von Kampagnen und Journeys beginnen. Nachfolgend finden Sie eine Liste der Ressourcen, die im Rahmen der Anleitung zur Kanaleinrichtung automatisch generiert und konfiguriert werden.
 
-Durchsuchen Sie die folgenden Registerkarten, um auf die umfassenden Listen aller Ressourcen zuzugreifen, die automatisch generiert werden:
+Navigieren Sie zu folgenden Registerkarten, um auf die umfassenden Listen aller automatisch generierten Ressourcen zuzugreifen:
 
 >[!BEGINTABS]
 

@@ -5,13 +5,19 @@ title: Erstellen von orchestrierten Kampagnen mit Adobe Journey Optimizer
 description: Informationen zur Erstellung von orchestrierten Kampagnen mit Adobe Journey Optimizer
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: 886
 ht-degree: 100%
 
 ---
-
 
 # Orchestrieren von Kampagnenaktivitäten {#orchestrate}
 
@@ -53,7 +59,7 @@ Die Symbolleiste der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der
 
 ### Verwalten von Aktivitäten {#manage}
 
-Beim Hinzufügen von Aktivitäten sind im Eigenschattenbereich Aktionsschaltflächen verfügbar, mit denen Sie mehrere Vorgänge ausführen können. 
+Beim Hinzufügen von Aktivitäten sind im Eigenschattenbereich Aktionsschaltflächen verfügbar, mit denen Sie mehrere Vorgänge ausführen können.
 
 ![](assets/activity-action.png)
 
@@ -63,7 +69,7 @@ Beim Hinzufügen von Aktivitäten sind im Eigenschattenbereich Aktionsschaltflä
 
 ![Symbol „Pausieren“](assets/do-not-localize/activity-pause.svg) ![Symbol „Fortsetzen“](assets/do-not-localize/activity-resume.svg) Pausiert die Aktivität bzw. setzt sie fort. Wenn die orchestrierte Kampagne ausgeführt wird, wird sie bei der pausierten Aktivität pausiert. Die entsprechende Aufgabe und alle ihr im gleichen Pfad folgenden Aufgaben werden nicht ausgeführt.
 
-Sie können jede Aktivität auf der Arbeitsfläche als Bruchpunkt verwenden, um die Kampagnenausführung anzuhalten. Das bedeutet, dass die Kampagne nur bis zu dieser Aktivität ausgeführt wird und die Ausführung dann angehalten wird. Beim Anhalten der Ausführung hält die Segmentierungs-Engine temporäre Daten für Sie zur Vorschau bereit. Sie können die eingehende Transition direkt vor der pausierten Aktivität auswählen, um die übertragenen Daten anzuzeigen. Weitere Informationen finden Sie im Abschnitt [Visuelle Flussüberwachung](../orchestrated/start-monitor-campaigns.md#flow).
+Sie können jede Aktivität auf der Arbeitsfläche als Bruchpunkt verwenden, um die Kampagnenausführung anzuhalten. Das bedeutet, dass die Kampagne nur bis zu dieser Aktivität ausgeführt wird und die Ausführung dann angehalten wird. Beim Anhalten der Ausführung hält die Segmentierungs-Engine temporäre Daten für Sie zur Vorschau bereit. Sie können die eingehende Transition direkt vor der pausierten Aktivität auswählen, um die übertragenen Daten anzuzeigen. Weitere Informationen finden Sie im Abschnitt [Visuelles Fluss-Monitoring](../orchestrated/start-monitor-campaigns.md#flow).
 
 ![Symbol „Kopieren“](assets/do-not-localize/activity-copy.svg) Kopiert die Aktivität. [Weitere Informationen zum Kopieren und Einfügen von Aktivitäten](#copy)
 

@@ -8,10 +8,24 @@ role: Developer, Admin
 level: Experienced
 keywords: Schemata, Plattform, Daten, Struktur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/fWsW9Rvyd8L4nphczzc7GF1rbO7HuYsjqDBBpy3uoGU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: 440
+ht-degree: 100%
 
 ---
 
@@ -49,7 +63,7 @@ In Adobe Experience Platform gibt es zwei Arten von Schemata:
    1. **Verknüpfen Sie Schemata**, um Beziehungen zwischen Entitäten und Personen zu definieren (z. B. mit Mitgliedern verknüpfte Treuetransaktionen, mit Marken verknüpfte Prämien).
    1. **Nehmen Sie Daten** aus unterstützten Quellen in Ihren Datensatz auf.
 
-  ➡️ [Informationen zum Verwalten von relationalen Schemata und Datensätzen](../orchestrated/gs-schemas.md)
+  ➡️ [Weiter Informationen zum Verwalten von relationalen Schemata und Datensätzen](../orchestrated/gs-schemas.md)
 ➡️ [Erste Schritte mit orchestrierten Kampagnen](../orchestrated/gs-schemas.md)
 
 ## Anleitungsvideo{#video-schema}
@@ -60,7 +74,7 @@ Erfahren Sie, wie Sie ein Standardschema erstellen, Feldergruppen hinzufügen so
 
 >[!MORELIKETHIS]
 >
->* [Erste Schritte mit der Datenverwaltung in Journey Optimizer](gs-data.md)
+>* [Erste Schritte mit Daten-Management in Journey Optimizer](gs-data.md)
 >* [Erstellen eines Schemas und eines Datensatzes und Aufnehmen von Daten zum Hinzufügen von Testprofilen in Journey Optimizer](../audience/creating-test-profiles.md)
 >* [XDM-System – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}
 >* [Best Practices für die Datenmodellierung](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=de){target="_blank"}

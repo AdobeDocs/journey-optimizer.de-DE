@@ -7,10 +7,27 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/vlCiIs-yHeTzHxkij1OTVljHm07GI-jLtS-RKFV5nKs
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 89%
+source-wordcount: 691
+ht-degree: 100%
 
 ---
 
@@ -22,7 +39,7 @@ Eine **Quelle** ist ein Connector, der externe Daten in Adobe Journey Optimizer 
 
 Betrachten Sie Quellen als Brücken zwischen Journey Optimizer und Ihren externen Datensystemen. Sie synchronisieren Daten automatisch, sodass Ihnen für Ihre Marketing-Kampagnen stets aktuelle Kundeninformationen zur Verfügung stehen.
 
-## Bedeutung von Quellen  {#why-sources-matter}
+## Bedeutung von Quellen {#why-sources-matter}
 
 Quellen sind für die Erstellung personalisierter, datengestützter Kundenerlebnisse in Journey Optimizer unerlässlich. Hier erfahren Sie, warum:
 
@@ -97,7 +114,7 @@ Nach der Konfiguration werden Quellen automatisch im Hintergrund ausgeführt, da
 
 >[!NOTE]
 >
->**Datenaufnahme für orchestrierte Kampagnen** - Für dateibasierte Änderungsdatenaufzeichnungsquellen, die mit orchestrierten Kampagnen verwendet werden, ist das Feld &quot;`_change_request_type`&quot; erforderlich. Unterstützte Werte sind `u` (upsert) oder `d` (delete). Diese Werte müssen `u` und `d` in Kleinbuchstaben geschrieben werden, nicht `U` und `D`. [Erfahren Sie mehr über Leitplanken und Einschränkungen für orchestrierte Kampagnen](../orchestrated/guardrails.md)
+>**Datenaufnahme für orchestrierte Kampagnen**: Für dateibasierte Änderungsdatenerfassungsquellen, die mit orchestrierten Kampagnen verwendet werden, ist das Feld `_change_request_type` erforderlich. Unterstützte Werte sind `u` (upsert) oder `d` (delete). Diese Werte müssen kleingeschrieben sein (`u` und `d`), nicht großgeschrieben (`U` und `D`). [Weitere Informationen über die Leitlinien und Einschränkungen für orchestrierte Kampagnen](../orchestrated/guardrails.md)
 
 ## Weitere Informationen {#learn-more}
 
@@ -117,4 +134,4 @@ Nachdem Sie nun wissen, was Quellen sind und warum sie wichtig sind:
 * Erfahren Sie, wie Sie eine [Quellverbindung erstellen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=de){target="_blank"}
 * Verstehen Sie [Datenzuordnung und -umwandlung](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=de){target="_blank"}
 * Erfahren Sie, wie Sie [importierte Daten in Journeys verwenden](../building-journeys/journey-gs.md)
-* Lesen Sie die Übersicht [Erste Schritte mit dem Daten](../data/gs-data.md), um zu verstehen, wie Quellen in die vollständige Dateneinrichtung für Journey Optimizer passen
+* Lesen Sie den Überblick [Erste Schritte mit dem Daten-Management](../data/gs-data.md), um mehr darüber zu erfahren, wie Quellen in die vollständige Dateneinrichtung für Journey Optimizer passen.

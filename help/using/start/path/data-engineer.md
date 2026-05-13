@@ -7,14 +7,39 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/BAnAycmwv9oD4On4LSMwm7bBRKOuw5Tbv5a-r3ND-Dw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 92%
+source-wordcount: 991
+ht-degree: 100%
 
 ---
 
-# Erste Schritte für Dateningenieure {#data-engineer}
+# Erste Schritte für Dateningenieurinnen und -ingenieure {#data-engineer}
 
 Als **Datenarchitektin bzw. -architekt** oder **Dateningenieurin bzw. -ingenieur** richten Sie die Kundenprofildaten und andere Datenquellen ein, auf denen die von [!DNL Journey Optimizer] orchestrierten Erlebnisse basieren, und pflegen diese. Dazu gehört die Integration aller Kunden- und Geschäftsdaten (egal ob aus Web-, CRM- oder Offline-Quellen) in eine einheitliche 360-Grad-Sicht auf die Kundin bzw. den Kunden. Sie modellieren Kundenprofildaten und Geschäftsdaten in Schemata, konfigurieren Quell-Connectoren für die Datenaufnahme und stellen einen reibungslosen Datenfluss sicher, um Kundenerkenntnisse und Interaktion in Echtzeit zu ermöglichen. Sobald die oder der [Systemadmin](administrator.md) Ihnen Zugriff gewährt und die Umgebung vorbereitet hat, können Sie mit der Arbeit mit [!DNL Adobe Journey Optimizer] beginnen.
 
@@ -24,7 +49,7 @@ Als **Datenarchitektin bzw. -architekt** oder **Dateningenieurin bzw. -ingenieur
 
 >[!TIP]
 >
->Neu bei Daten in Journey Optimizer? Beginnen Sie mit der Übersicht [Erste Schritte mit dem Daten](../../data/gs-data.md)Management, um Schemata, Datensätze, Identitäten, das Profilfragmentmodell und die vollständige Checkliste für die Datenbereitschaft zu verstehen, bevor Sie sich mit der Konfiguration befassen.
+>Sie haben noch keine Erfahrungen mit Daten in Journey Optimizer? Beginnen Sie mit dem Überblick [Erste Schritte mit dem Daten-Management](../../data/gs-data.md), um Schemata, Datensätze, Identitäten, das Profilfragmentmodell und die vollständige Checkliste für die Datenbereitschaft zu verstehen, bevor Sie sich mit der Konfiguration befassen.
 
 ## Wichtige Schritte zur Datenkonfiguration
 
@@ -49,7 +74,7 @@ Führen Sie die folgenden Schritte aus, um die Datengrundlage für Journey Optim
 
 1. **Konfigurieren Sie berechnete Attribute** (optional). Erstellen Sie abgeleitete Attribute aus Profildaten, um die Segmentierung und Personalisierung zu vereinfachen. Berechnete Attribute berechnen automatisch komplexe Metriken wie „Käufe in den letzten 90 Tagen insgesamt“ oder „Durchschnittlicher Bestellwert“. Erfahren Sie mehr über [berechnete Attribute](../../audience/computed-attributes.md).
 
-1. **Nachrichtenexport-Datensätze** (optional). Wenn der Nachrichtenexport auf der Kanalkonfigurationsebene aktiviert ist, werden gesendete E-Mail- und SMS-Inhalte automatisch in einen dedizierten Experience Platform-Datensatz exportiert, um die Einhaltung der Vorschriften zu gewährleisten, die Archivierung zu ermöglichen oder nachgelagerte Analysen durchzuführen. Informationen zum [Nachrichtenexport](../../configuration/message-export.md).
+1. **Nachrichtenexportdatensätze** (optional). Wenn der Nachrichtenexport auf der Kanalkonfigurationsebene aktiviert ist, werden gesendete E-Mail- und SMS-Inhalte automatisch in einen dedizierten Experience Platform-Datensatz exportiert, um Compliance, Archivierung und nachgelagerte Analyse zu ermöglichen. Erfahren Sie mehr zum [Nachrichtenexport](../../configuration/message-export.md).
 
 Um Nachrichten in Journeys senden zu können, müssen Sie außerdem **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** konfigurieren. Weiterführende Informationen finden Sie [in diesem Abschnitt](../../configuration/about-data-sources-events-actions.md).
 

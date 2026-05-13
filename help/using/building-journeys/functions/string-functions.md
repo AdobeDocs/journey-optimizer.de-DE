@@ -8,9 +8,19 @@ level: Experienced
 keywords: Zeichenfolge, Funktionen, Ausdruck, Journey, Text, Manipulation
 version: Journey Orchestration
 exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
-source-git-commit: 11997fed640a626717ceef4201fcb7735f96cd89
+TQID: https://experienceleague.adobe.com/wrP3c7l3uHzN6w3l-fXBQOSb5Tx2NuW-6iyogKpDPc8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: 1140
 ht-degree: 100%
 
 ---
@@ -49,7 +59,7 @@ Verkettet zwei Zeichenfolgenparameter oder eine Liste von Zeichenfolgen.
 | Parameter | Typ |
 |-----------|------------------|
 | Liste | listString |
-| string | Zeichenfolge |
+| string | string |
 
 +++
 
@@ -228,7 +238,7 @@ Vergleicht die erste Argumentzeichenfolge mit der zweiten Argumentzeichenfolge u
 
 +++Parameter
 
-* Zeichenfolge
+* string
 
 +++
 
@@ -299,7 +309,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im Parameter keine Zeichen enthä
 
 +++Parameter
 
-* Zeichenfolge
+* string
 
 +++
 
@@ -339,7 +349,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im Parameter nicht leer ist.
 
 +++Parameter
 
-* Zeichenfolge
+* string
 
 +++
 
@@ -481,7 +491,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im ersten Parameter mit dem regul
 | Parameter | Typ |
 |--- |--- |
 | string | string |
-| regexp | string |
+| regexp | Zeichenfolge |
 
 +++
 
@@ -549,7 +559,7 @@ Die Ersetzung verläuft vom Anfang der Zeichenfolge zum Ende. Wenn Sie z. B. in 
 |-----------|--------------|
 | base | string |
 | target | string (RegExp) |
-| replacement | string |
+| replacement | Zeichenfolge |
 
 +++
 
@@ -607,7 +617,7 @@ Die Ersetzung verläuft vom Anfang der Zeichenfolge zum Ende. Wenn Sie z. B. in 
 |-----------|--------------|
 | base | string |
 | target | string (RegExp) |
-| replacement | string |
+| replacement | Zeichenfolge |
 
 +++
 
@@ -644,7 +654,7 @@ Spaltet die erste Argumentzeichenfolge mit einer Trennzeichenfolge (zweite Argum
 | Parameter | Typ |
 |-----------|------------------|
 | Eingabezeichenfolge | Zeichenfolge |
-| Trennzeichenfolge | Zeichenfolge |
+| Trennzeichenfolge | string |
 
 +++
 
@@ -685,7 +695,7 @@ Gibt „true“ zurück, wenn der zweite Parameter ein Präfix des ersten Parame
 | Parameter | Typ |
 |-------------|--------|
 | string | string |
-| prefix | string |
+| prefix | Zeichenfolge |
 
 +++
 
@@ -800,7 +810,7 @@ Entfernt Leerzeichen am Anfang und Ende.
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | Zeichenfolge |
+| string | string |
 
 +++
 

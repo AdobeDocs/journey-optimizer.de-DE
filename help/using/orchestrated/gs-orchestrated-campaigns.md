@@ -6,13 +6,26 @@ description: Informationen zu den ersten Schritten mit orchestrierten Kampagnen
 short-description: Entdecken Sie wichtige Funktionen und Anwendungsfälle von orchestrierten Kampagnen.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
+TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 86%
+source-wordcount: 909
+ht-degree: 100%
 
 ---
-
 
 # Erste Schritte mit orchestrierten Kampagnen {#orchestrated-camp}
 
@@ -21,7 +34,7 @@ ht-degree: 86%
 >title="campaigns_overview_orchestrated"
 >abstract="<b>Kampagnenorchestrierung</b><br/>Aufteilen, Kombinieren, Anreichern und Bearbeiten von relationalen Datensätzen zur Definition der Zielgruppe<br/><br/> <b>Nutzen von Daten mehrerer Entitäten</b><br/>Erfahren Sie, wie Sie mit orchestrierten Kampagnen relationale Datensätze nutzen können, um Daten für die Segmentierung und Personalisierung anzureichern<br/><br/><b>Ad-hoc-Segmentierung und genaue Zählungen</b><br/>Erstellen eines Segments Schritt für Schritt mit exakten Zahlen<br/><br/><b>Verfügbare Kanäle</b><br/>E-Mail, SMS, Push-Benachrichtigungen, Direkt-Mail"
 
-Die Kampagnenorchestrierung in [!DNL Adobe Journey Optimizer] ermöglicht anspruchsvolle, markeninitiierte Kampagnen über alle Kanäle hinweg - sowohl **Marketing** als auch **transaktionale**. Marketing-Kampagnen helfen Ihnen, die Interaktion, den Umsatz und die Kundentreue in großem Umfang zu steigern. Transaktionsnachrichten erfordern keine Anmeldung und eignen sich für zeitkritische Nachrichten, z. B. Unterbrechungen, Notfälle oder Absagen.
+Die Kampagnenorchestrierung in [!DNL Adobe Journey Optimizer] ermöglicht anspruchsvolle, markenkonforme Kampagnen über alle Kanäle hinweg – sowohl vom Typ **Marketing** als auch vom Typ **Transaktion**. Marketing-Kampagnen helfen Ihnen, die Interaktion, den Umsatz und die Kundentreue im benötigten Umfang zu fördern. Transaktionsnachrichten erfordern kein Opt-in und eignen sich für zeitkritische Nachrichten, z. B. im Fall von Unterbrechungen, Notfällen oder Absagen.
 
 >[!IMPORTANT]
 >
@@ -81,13 +94,13 @@ Jede orchestrierte Kampagne enthält:
 
 * **Arbeitstabellen**: Die Arbeitstabelle enthält alle von der Transition übermittelten Informationen. Jede orchestrierte Kampagne nutzt mehrere Arbeitstabellen. Die in diesen Tabellen enthaltenen Daten können während des gesamten Lebenszyklus der orchestrierten Kampagne verwendet werden.
 
-Eine typische orchestrierte Einstiegskampagne folgt diesem Muster: **Zielgruppe → Verzweigung → Kanal A + Kanal B**.
+Eine typische orchestrierte Kampagne auf Einstiegs-Level folgt diesem Muster: **Zielgruppe erstellen → Verzweigung → Kanal A + Kanal B**.
 
-Mit diesem Ansatz können Sie dieselbe Zielgruppe in einem einzigen Kampagnendurchgang mit zwei parallelen Verzweigungen ansprechen. So kann beispielsweise eine Verzweigung eine Marketing-E-Mail und eine andere eine Transaktions-E-Mail verwenden. Jede Verzweigung ist unabhängig und kann eine andere Kanalkonfiguration, einen anderen Nachrichteninhalt oder eine andere Kategorie verwenden.
+Mit diesem Ansatz können Sie dieselbe Zielgruppe in einer einzigen Kampagnenausführung mit zwei parallelen Verzweigungen ansprechen. So kann beispielsweise eine Verzweigung eine Marketing-E-Mail und eine andere eine Transaktions-E-Mail verwenden. Jede Verzweigung ist unabhängig und kann eine andere Kanalkonfiguration, einen anderen Nachrichteninhalt oder eine andere Kategorie verwenden.
 
-➡️ [Erfahren Sie, wie Sie die Aktivität Verzweigung verwenden](activities/fork.md)
+➡️ [Weitere Informationen zum Verwenden der Aktivität „Verzweigung“](activities/fork.md)
 
-➡️ [Verstehen von Marketing- und Transaktionsnachrichten](activities/channels.md#marketing-vs-transactional)
+➡️ [Grundlegendes zum Unterschied zwischen Marketing- und Transaktionsnachrichten](activities/channels.md#marketing-vs-transactional)
 
 ## Einführungsvideo {#video-oc}
 

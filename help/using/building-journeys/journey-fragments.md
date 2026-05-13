@@ -7,13 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: Fragmente, Journey, Wiederverwendung, Knoten, Arbeitsfläche, Inventar, Wiederverwendbar
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 version: Journey Orchestration
-source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -78,8 +77,8 @@ So speichern Sie Journey-Knoten direkt auf der Journey-Arbeitsfläche als Fragme
 
 So erstellen Sie ein Fragment direkt aus dem Inventar:
 
-1. Navigieren Sie zur Registerkarte **&#x200B;**&#x200B;> **[!UICONTROL Fragmente]** .
-1. Klicken Sie **[!UICONTROL Fragment erstellen]**.
+1. Navigieren Sie zur Registerkarte **[!UICONTROL Journey]** > **[!UICONTROL Journey-Fragmente]**.
+1. Klicken Sie **[!UICONTROL Journey-Fragment erstellen]**.
 1. Fügen Sie auf der Arbeitsfläche für die Fragmentbearbeitung Journey-Aktivitäten hinzu und konfigurieren Sie diese.
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**, um das Fragment als Entwurf zu speichern.
 

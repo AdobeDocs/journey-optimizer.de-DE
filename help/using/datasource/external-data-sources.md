@@ -9,9 +9,29 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: 1803
 ht-degree: 87%
 
 ---
@@ -31,7 +51,7 @@ Mit externen Datenquellen können Sie eine Verbindung zu Drittanbietersystemen h
 >
 >* Leitlinien für die Arbeit mit externen Systemen werden auf [dieser Seite](../configuration/external-systems.md) aufgeführt.
 >
->* Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden.  Weitere Informationen zu Antworten finden Sie unter [Benutzerdefinierte Aktionsantworten](../action/action-response.md). Benutzerdefinierte Aktionen ohne Data Lake-Persistenz sind die richtige Wahl, wenn die Daten nur innerhalb der Journey nützlich sind und das externe System über einen API-Endpunkt zugänglich ist. Einen Vergleich aller Datenzugriffsoptionen finden Sie unter [Wählen Sie Ihre Datenzugriffsstrategie](../datasource/about-data-sources.md#data-access-strategy).
+>* Da die Antworten jetzt unterstützt werden, sollten Sie für Anwendungsfälle mit externen Datenquellen benutzerdefinierte Aktionen anstelle von Datenquellen verwenden. Weitere Informationen zu Antworten finden Sie unter [Benutzerdefinierte Aktionsantworten](../action/action-response.md). Benutzerdefinierte Aktionen ohne Data Lake-Persistenz sind die richtige Wahl, wenn die Daten nur innerhalb der Journey nützlich sind und das externe System über einen API-Endpunkt zugänglich ist. Einen Vergleich aller Datenzugriffsoptionen finden Sie unter [Wählen Sie Ihre Datenzugriffsstrategie](../datasource/about-data-sources.md#data-access-strategy).
 
 REST-APIs, die POST oder GET verwenden und JSON zurückgeben, werden unterstützt. API-Schlüssel sowie einfache und benutzerdefinierte Authentifizierungsmodi werden unterstützt.
 
@@ -73,7 +93,7 @@ Es sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Lä
 
    ![URL-Feld der externen Datenquelle mit eingegebenem Beispiel-Wetter-API-Endpunkt](assets/journey27.png)
 
-1. Konfigurieren Sie die Authentifizierung je nach Konfiguration des externen Dienstes: **[!UICONTROL Keine Authentifizierung]**, **[!UICONTROL Einfach]**, **[!UICONTROL Benutzerdefiniert]** oder **[!UICONTROL API-Schlüssel]**. 
+1. Konfigurieren Sie die Authentifizierung je nach Konfiguration des externen Dienstes: **[!UICONTROL Keine Authentifizierung]**, **[!UICONTROL Einfach]**, **[!UICONTROL Benutzerdefiniert]** oder **[!UICONTROL API-Schlüssel]**.
 
    Für den einfachen Authentifizierungsmodus müssen Sie einen Benutzernamen und ein Kennwort eingeben.
 
@@ -93,7 +113,7 @@ Es sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Lä
 
      ![API-Schlüsselauthentifizierungsfelder mit Eingaben für Typ, Name, Wert und Speicherort](assets/journey28.png)
 
-1. Fügen Sie für jeden festgelegten API-Parameter eine neue Feldergruppe hinzu, indem Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]** klicken. Im Namen der Feldergruppe sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Länge beträgt 30 Zeichen.  In unserem Beispiel müssen wir zwei Feldergruppen erstellen, eine für jeden Parametersatz (city und long/lat).
+1. Fügen Sie für jeden festgelegten API-Parameter eine neue Feldergruppe hinzu, indem Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]** klicken. Im Namen der Feldergruppe sind nur alphanumerische Zeichen und Unterstriche zulässig. Die maximale Länge beträgt 30 Zeichen. In unserem Beispiel müssen wir zwei Feldergruppen erstellen, eine für jeden Parametersatz (city und long/lat).
 
 Für den Parametersatz „long/lat“ erstellen wir eine Feldergruppe mit folgenden Informationen:
 
@@ -163,7 +183,7 @@ Bei diesem Authentifizierungsmodus erfolgt die Aktionsausführung in zwei Schrit
 
 * **tokenInResponse**: zeigt an, wie das Zugriffstoken aus dem Authentifizierungsaufruf extrahiert wird. Diese Eigenschaft kann Folgendes sein:
    * `response`: gibt an, dass die HTTP-Antwort das Zugriffstoken
-   * einer Auswahl in einer JSON-Datei ist (es wird vorausgesetzt, dass die Antwort eine JSON-Datei ist. Andere Formate wie XML werden nicht unterstützt). Das Format dieser Auswahl ist _json://&lt;Pfad zur Zugriffstoken-Eigenschaft>_. Wenn die Antwort des Aufrufs zum Beispiel folgendermaßen lautet: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, wird die tokenInResponse Folgendes sein: _json: //access_token_
+   * einer Auswahl in einer JSON-Datei ist (es wird vorausgesetzt, dass die Antwort eine JSON-Datei ist. Andere Formate wie XML werden nicht unterstützt). Das Format dieser Auswahl ist _json://&lt;Pfad zur Zugriffstoken-Eigenschaft>_. Wenn die Antwort des Aufrufs zum Beispiel folgendermaßen lautet: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, wird die tokenInResponse Folgendes sein:_ json: //access_token_
 
 Das Format dieser Authentifizierung lautet:
 
@@ -272,4 +292,4 @@ Im Folgenden finden Sie ein Beispiel für die Antwort des Anmeldungs-API-Aufrufs
 
 >[!CAUTION]
 >
->Beachten Sie beim Konfigurieren der benutzerdefinierten Authentifizierung für eine benutzerdefinierte Aktion, dass verschachtelte JSON-Objekte (z. B. Unterobjekte innerhalb von `bodyParams`) **unterstützt** werden. 
+>Beachten Sie beim Konfigurieren der benutzerdefinierten Authentifizierung für eine benutzerdefinierte Aktion, dass verschachtelte JSON-Objekte (z. B. Unterobjekte innerhalb von `bodyParams`) **unterstützt** werden.

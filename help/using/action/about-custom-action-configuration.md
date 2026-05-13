@@ -9,10 +9,33 @@ role: Developer, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/q4zuwxmF2Gr5P5IkdZCKFHoA18-GGrlLD0f-WPCQ3q4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2022'
-ht-degree: 95%
+source-wordcount: 2057
+ht-degree: 94%
 
 ---
 
@@ -21,7 +44,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
 >title="Benutzerdefinierte Aktionen"
->abstract="Wenn Sie ein Drittanbietersystem zum Nachrichtenversand verwenden oder wenn Sie möchten, dass von Journeys API-Aufrufe an ein Drittanbietersystem gesendet werden, verwenden Sie benutzerdefinierte Aktionen, um die Verbindung zwischen dem System und Ihrer Journey zu konfigurieren. "
+>abstract="Wenn Sie ein Drittanbietersystem zum Nachrichtenversand verwenden oder wenn Sie möchten, dass von Journeys API-Aufrufe an ein Drittanbietersystem gesendet werden, verwenden Sie benutzerdefinierte Aktionen, um die Verbindung zwischen dem System und Ihrer Journey zu konfigurieren."
 
 Wenn Sie ein Drittanbietersystem zum Nachrichtenversand verwenden oder wenn Sie möchten, dass von Journeys API-Aufrufe an ein Drittanbietersystem gesendet werden, verwenden Sie benutzerdefinierte Aktionen, um die Verbindung zwischen dem System und Ihrer Journey zu konfigurieren. Sie können mit benutzerdefinierten Aktionen beispielsweise eine Verbindung zu den folgenden Systemen herstellen: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase usw.
 
@@ -45,7 +68,7 @@ Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren 
 1. Fügen Sie Ihrer Aktion eine Beschreibung hinzu. Dieser Schritt ist optional.
 1. Die Anzahl der Journeys, die diese Aktion verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys, die diese Aktion verwenden, anzuzeigen.
 1. Definieren Sie die verschiedenen **[!UICONTROL URL-Konfigurations]**-Parameter. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#url-configuration).
-1. Konfigurieren Sie den Abschnitt **[!UICONTROL Authentifizierung]**. Diese Konfiguration entspricht der für Datenquellen. Weitere Informationen finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode).
+1. Konfigurieren Sie den Abschnitt **[!UICONTROL Authentifizierung]**. Diese Konfiguration entspricht der für Datenquellen.  Weitere Informationen finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode).
 1. Definieren Sie die **[!UICONTROL Aktionsparameter]**. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -157,7 +180,7 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
 
 ### TLS-Protokoll-Unterstützung {#tls-protocol-support}
 
-Adobe Journey Optimizer unterstützt für benutzerdefinierte Aktionen standardmäßig TLS 1.3. Wenn ein Client ebenfalls TLS 1.3 unterstützt, erfolgt die Kommunikation über TLS 1.3. Andernfalls kann der TLS-Aushandlungsprozess auf TLS 1.2 zurückfallen.
+Adobe Journey Optimizer unterstützt für benutzerdefinierte Aktionen standardmäßig TLS 1.3. Wenn ein Client auch TLS 1.3 unterstützt, erfolgt die Kommunikation über TLS 1.3. Andernfalls kann der TLS-Verhandlungsprozess auf TLS 1.2 zurückfallen.
 
 ### mTLS-Protokoll-Unterstützung {#mtls-protocol-support}
 
@@ -171,7 +194,7 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
 1. Fügen Sie im Abschnitt **[!UICONTROL Anfrage]** ein Beispiel der JSON-Payload ein, die an den externen Service gesendet werden soll. Dieses Feld ist optional und nur für die Aufrufmethoden „POST“ und „PUT“ verfügbar.
 
-   Aktivieren Sie die Option **[!UICONTROL NULL-Werte zulassen]**, um Nullwerte im externen Aufruf beizubehalten. Beachten Sie, dass das Senden von Arrays aus int, string usw. mit Null-Werten darin nicht vollständig unterstützt wird. Zum Beispiel wird das folgende Array mit den Ganzzahlen `[1, null, 2, 3]` als `[1, 2, 3]` gesendet, auch wenn diese Option aktiviert ist. Wenn ein solches Array null ist, wird es außerdem als leeres Array gesendet.
+   Aktivieren Sie die Option **[!UICONTROL NULL-Werte zulassen]**, um Nullwerte im externen Aufruf beizubehalten. Beachten Sie, dass das Senden von Arrays von int, string usw. mit Null-Werten in nicht vollständig unterstützt wird. Zum Beispiel wird das folgende Array mit den Ganzzahlen `[1, null, 2, 3]` als `[1, 2, 3]` gesendet, auch wenn diese Option aktiviert ist. Wenn ein solches Array null ist, wird es außerdem als leeres Array gesendet.
 
    ![](assets/null-values.png){width="70%" align="left"}
 

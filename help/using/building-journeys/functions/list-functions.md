@@ -1,20 +1,30 @@
 ---
 product: journey optimizer
-title: Listenfunktionen
+title: Auflistungsfunktionen
 description: Informationen zu Listenfunktionen
 feature: Journeys
 role: Developer
 level: Experienced
 keywords: Liste, Funktionen, Ausdruck, Journey, Array, Sammlung
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '1158'
+exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
+TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 1158
 ht-degree: 100%
 
 ---
 
-# Listenfunktionen {#list-functions}
+# Auflistungsfunktionen {#list-functions}
 
 Mit Listenfunktionen können Sie Sammlungen von Werten in Ihren Journey-Ausdrücken bearbeiten und verwenden. Diese Funktionen sind für das Filtern, Sortieren, Umwandeln und Analysieren von Arrays und Listen in Ihren Customer Journeys unerlässlich.
 
@@ -339,7 +349,7 @@ Der Typ von `<expression>` muss mit Elementen der Liste übereinstimmen. Zur Eri
 
 | Parameter | Typ |
 |-----------|------------------|
-| Zeichenfolge | Zeichenfolge |
+| String | String |
 | Boolesch | Boolesch |
 | Ganzzahl | Ganzzahl |
 | Dezimal | Dezimal |
@@ -408,7 +418,7 @@ Gibt die gemeinsamen Werte in den beiden Eingabe-Listen zurück. Wenn eine der b
 | Parameter | Typ |
 |-----------|------------------|
 | Liste 1 | Liste |
-| Liste 2 | Liste  |
+| Liste 2 | Liste |
 
 +++
 
@@ -479,7 +489,7 @@ Gibt die ersten oder letzten n Elemente einer Liste zurück.
 
 | Parameter | Typ | Beschreibung |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu berücksichtigende Liste.  Bei listObject muss es sich um einen Feldverweis handeln. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu berücksichtigende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
 | numberOfItems | integer | Anzahl der aus der angegebenen Liste zurückzugebenden Elemente. |
 | firstOrLastItems | Boolescher Wert | Dieser Parameter ist optional (standardmäßig „true“). „True“ gibt die ersten Elemente zurück. „False“ gibt die letzten Elemente zurück. |
 
@@ -624,8 +634,8 @@ Konvertiert eine angegebene Liste (alle Typen außer listObject) in eine Zeichen
 | Parameter | Typ | Beschreibung |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Liste zur Konvertierung in eine Zeichenfolge. |
-| Trennzeichen | Zeichenfolge | Trennzeichen zwischen den einzelnen Listenelementen in der Ausgabezeichenfolge. |
-| addQuotes | Boolescher Wert | Dieser Parameter gibt an, ob jedes Element der Ausgabezeichenfolge Anführungszeichen enthalten soll (true) oder nicht (false). |
+| Trennzeichen | string | Trennzeichen zwischen den einzelnen Listenelementen in der Ausgabezeichenfolge. |
+| addQuotes | boolean | Dieser Parameter gibt an, ob jedes Element der Ausgabezeichenfolge Anführungszeichen enthalten soll (true) oder nicht (false). |
 
 +++
 
@@ -734,4 +744,3 @@ Gibt `[3, 2, 1]` zurück.
 Gibt das listObject, geordnet nach SKU-Attribut (aufsteigende Reihenfolge), zurück
 
 +++
-

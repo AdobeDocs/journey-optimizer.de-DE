@@ -5,9 +5,22 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
-source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
+TQID: https://experienceleague.adobe.com/47tFiWTUUsGUMeWhuJVQnakAIrgz1Ax1mO-u8pf27uc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: 629
 ht-degree: 100%
 
 ---
@@ -17,7 +30,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
 >title="Experimenttyp"
->abstract="Der Experimenttyp bestimmt, wie der Traffic während des Tests zwischen den Abwandlungen verteilt wird. Wählen Sie die Methode aus, die am besten zu Ihren Zielen passt:</br><b>A/B-Test</b>: Teilt den Traffic während der Definition zwischen Abwandlungen und misst die Leistung, bis die Ergebnisse statistisch signifikant sind. Ideal, um zu erfahren, welche Abwandlung in einem kontrollierten Vergleich besser funktioniert.</br><b>Mehrarmiger Bandit</b>: Verlagert den Traffic hin zu leistungsfähigeren Abwandlungen, wenn Daten gesammelt werden, wodurch Geschwindigkeit und Optimierung miteinander in Einklang gebracht werden. Nützlich, wenn Sie Konversionen während des Experiments maximieren möchten.</br><b>Eigenen mehrarmigen Banditen einbringen</b>: Verwenden Sie Ihren eigenen Algorithmus, um die Traffic-Zuordnung zu bestimmen, sodass Sie bei Vorliegen eines benutzerdefinierten Modells oder einer benutzerdefinierten Strategie flexibel sind."
+>abstract="Der Experimenttyp bestimmt, wie der Traffic während des Tests zwischen den Abwandlungen verteilt wird. Wählen Sie die Methode aus, die am besten zu Ihren Zielen passt:</br><b>A/B-Test</b>: Teilt den Traffic während der Definition zwischen Abwandlungen und misst die Leistung, bis die Ergebnisse statistisch signifikant sind. Am besten geeignet, um in einem kontrollierten Vergleich herauszufinden, welche Abwandlung die bessere Leistung erbringt.</br><b>Mehrarmiger Bandit</b>: Er verlagert den Traffic bei der Datenerfassung zu leistungsstärkeren Abwandlungen und bringt Geschwindigkeit und Optimierung in Einklang. Nützlich, wenn Sie Konversionen während des Experiments maximieren möchten.</br><b>Eigenen mehrarmigen Banditen einbringen</b>: Verwenden Sie Ihren eigenen Algorithmus, um die Traffic-Zuordnung zu bestimmen, sodass Sie bei Vorliegen eines benutzerdefinierten Modells oder einer benutzerdefinierten Strategie flexibel sind."
 
 Auf dieser Seite finden Sie einen detaillierten Vergleich von **A/B**-Tests und **Multi-Armed-Bandit**-Experimenten. Es werden die jeweiligen Stärken, Einschränkungen und Szenarien erläutert, in denen die beiden Ansätze am effektivsten sind.
 

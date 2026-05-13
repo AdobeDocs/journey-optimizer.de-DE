@@ -9,10 +9,28 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/aV2B02I-zFMavzM3OuLJnihia0YOenMn3FXsJXfpdJs
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 99%
+source-wordcount: 1696
+ht-degree: 96%
 
 ---
 
@@ -30,7 +48,7 @@ Dementsprechend finden Sie im Folgenden Best Practices für die Gestaltung barri
 >
 >Auf dieser Seite geht es darum, Ihre Inhalte für alle Empfängerinnen und Empfänger barrierefrei zu machen, um sicherzustellen, dass Menschen mit Behinderungen Ihre mit [!DNL Journey Optimizer] entworfenen E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
 >
->Die Barrierefreiheit der [!DNL Journey Optimizer]-Oberfläche selbst wird hingegen in [diesem Abschnitt](../start/accessibility.md) beschrieben. 
+>Die Barrierefreiheit der [!DNL Journey Optimizer]-Oberfläche selbst wird hingegen in [diesem Abschnitt](../start/accessibility.md) beschrieben.
 
 ## Sicherstellen der Lesbarkeit von Text {#text-readability}
 
@@ -79,7 +97,7 @@ Sie können beispielsweise den [Hintergrund](backgrounds.md) aktualisieren oder 
 
 ![](assets/accessible-styles.png){width="80%"}
 
-Darüber hinaus können Sie mit dem E-Mail-Designer von [!DNL Journey Optimizer] das Design für verschiedene Geräte und Bildschirmgrößen in der Vorschau anzeigen und optimieren. Sie können jederzeit die Option **[!UICONTROL Zur Live-Ansicht wechseln]** wählen, um zu überprüfen, wie Ihre Inhalte auf verschiedenen Gerätegrößen gerendert werden. 
+Darüber hinaus können Sie mit dem E-Mail-Designer von [!DNL Journey Optimizer] das Design für verschiedene Geräte und Bildschirmgrößen in der Vorschau anzeigen und optimieren. Sie können jederzeit die Option **[!UICONTROL Zur Live-Ansicht wechseln]** wählen, um zu überprüfen, wie Ihre Inhalte auf verschiedenen Gerätegrößen gerendert werden.
 
 ![](assets/accessible-live-view.png){width="80%"}
 
@@ -96,7 +114,7 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um alternativen Text für Bi
 Wenden Sie die folgenden Richtlinien an, um in digitalen Produkten effektiven Alternativtext zu nutzen:
 
 * Beschreiben Sie den Zweck des Bildes kurz und kontextbezogen.
-* Vermeiden Sie redundante Ausdrücke wie „Abbildung von …“ und verwenden Sie leeren Alternativtext für dekorative Bilder.
+* Vermeiden Sie redundante Ausdrücke wie „Bild von …“ und leeren Alternativtext für dekorative Bilder verwenden.
 * Geben Sie für Symbole mit Bedeutung aussagekräftige Labels an. Nutzen Sie für komplexe Bilder einen kurzen Alternativtext und an anderer Stelle eine längere Beschreibung.
 
 ## Verwenden von lesbarem Format {#readable-format}
@@ -301,7 +319,7 @@ Die Bildschirmlesehilfen lesen:
 
 +++
 
-+++Beispiel – schlechter Link (nicht beschreibend):
++++Beispiel – schlechter Link (nicht beschreibend)
 
 ```
 <p>Learn more about our new features.  

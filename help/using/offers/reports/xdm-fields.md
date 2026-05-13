@@ -3,16 +3,27 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Zugriff auf XDM-Felder von Ereignissen
 description: Erfahren Sie mehr über das DecisioningEvents-XDM-Schema.
-badge: label="Legacy" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 feature: Decision Management, Datasets
 role: User, Developer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/TLkfs8ADogMCSIC3CS24Hzao-BhoxxIBp0GGw0ufg-o
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 127
+ht-degree: 97%
 
 ---
 
@@ -34,5 +45,5 @@ Um weitere Informationen zu einem bestimmten Feld zu erhalten, wählen Sie es au
 
 Detaillierte Informationen zur Arbeit mit XDM-Schemata und -Feldern finden Sie in der Dokumentation zum Experience-Datenmodell:
 
-* [XDM-System – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de)
-* [XDM-Ressourcen](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/explore.html?lang=de)
+* [XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de)
+* [Erkunden von XDM-Ressourcen](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/explore.html?lang=de)

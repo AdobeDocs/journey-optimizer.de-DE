@@ -9,9 +9,26 @@ role: Admin
 level: Experienced
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/DwAI8P5ACNyZ8IGCsMoLglZ-EK0HE99ZV0yap51EfKo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1931'
+source-wordcount: 1963
 ht-degree: 97%
 
 ---
@@ -29,7 +46,7 @@ ht-degree: 97%
 >title="Delegieren von Subdomains"
 >abstract="Um mit dem Versand von E-Mails zu beginnen, wird die Subdomain an Adobe delegiert. Daraufhin werden DNS-Einträge, Postfächer, Absender-, Antwort- und Bounce-Adressen konfiguriert."
 
-Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann an eine andere Entität eine Untergliederung des Domain-Namens (technisch: eine untergeordnete DNS-Zone) delegieren. Wenn Sie also als Kundin bzw. Kunde die Zone „example.com“ verwalten, können Sie die Unterzone an Adobe „marketing.example.com“ delegieren.
+Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) an eine anderen Entität zu delegieren. Wenn Sie also als Kundin bzw. Kunde die Zone „example.com“ verwalten, können Sie die Unterzone an Adobe „marketing.example.com“ delegieren.
 
 >[!NOTE]
 >
@@ -185,7 +202,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAMEs einzurichten:
 
 ## Übermitteln Ihrer Subdomain-Einrichtung {#submit-subdomain}
 
-Gehen Sie wie folgt vor, um die Subdomain-Delegierung abzuschließen. 
+Gehen Sie wie folgt vor, um die Subdomain-Delegierung abzuschließen.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 <!--

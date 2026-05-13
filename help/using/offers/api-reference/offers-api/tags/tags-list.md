@@ -1,35 +1,44 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Sammlungsqualifizierer auflisten
+title: Auflisten von Sammlungsqualifizierern
 description: Mit Sammlungsqualifizierern können Sie Ihre Angebote besser organisieren und sortieren.
 feature: Decision Management, API
-badge: label="Legacy" type="Informative"
+badge: label="Veraltet" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/DcYX-UvEtACsS3pY73dkfRpR0kqYH6BJfJl2nxFIFdo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 100%
+source-wordcount: 252
+ht-degree: 0%
 
 ---
 
-
-# Sammlungsqualifizierer auflisten {#list-tags}
+# Auflisten von Sammlungsqualifizierern {#list-tags}
 
 >[!TIP]
 >
->Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, [!DNL Adobe Journey Optimizer] neue Entscheidungsfunktion, ist jetzt über die Code-basierten Erlebnis- und E-Mail-Kanäle verfügbar! [Weitere Informationen](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-Mit Sammlungsqualifizierern (ehemals als „Tags“ bezeichnet) können Sie Ihre Angebote besser organisieren und sortieren. Beispielsweise könnten Sie Ihre Black Friday-Angebote mit dem Sammlungsqualifizierer „Black Friday“ kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek nutzen, um alle Angebote mit diesem Sammlungsqualifizierer einfach zu finden.
+Mit Sammlungsqualifizierern (ehemals als „Tags“ bezeichnet) können Sie Ihre Angebote besser organisieren und sortieren. Beispielsweise können Sie Ihre Black Friday-Angebote mit dem Sammlungsqualifizierer „Black Friday“ kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek verwenden, um alle Angebote mit diesem Sammlungsqualifizierer einfach zu finden.
 
-Sammlungsqualifizierer können auch dazu dienen, Angebote in Sammlungen zu gruppieren.
+Sammlungsqualifizierer können auch verwendet werden, um Angebote in Sammlungen zu gruppieren.
 
-Sie können eine Liste aller Sammlungsqualifizierer in einem Container anzeigen, indem Sie eine einzelne GET-Anfrage an die Angebotsbibliotheks-API durchführen.
+Sie können eine Liste aller Sammlungsqualifizierer in einem Container anzeigen, indem Sie eine einzige GET-Anfrage an die Angebotsbibliotheks-API durchführen.
 
 **API-Format**
 
@@ -39,18 +48,18 @@ GET /{ENDPOINT_PATH}/tags?{QUERY_PARAMS}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
-| `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=2` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse nach . | `limit=2` |
 
 ## Paging {#paging}
 
-Zu den häufigsten Abfrageparametern für das Paging gehören:
+Zu den häufigsten Abfrageparametern für Paging gehören:
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `property` | Ein optionaler Eigenschaftenfilter: <ul><li>Die Eigenschaften werden nach UND-Vorgang gruppiert.</li><li>Parameter können wie folgt wiederholt werden: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}…] oder property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}…]</li><li>Eigenschaftenausdrücke haben das Format `[!]field[op]value`, mit `op` in `[==,!=,<=,>=,<,>,~]`, wobei reguläre Ausdrücke unterstützt werden.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines „-“ vor dem Namen (orderby=-name) werden Elemente nach Namen in absteigender Reihenfolge sortiert (Z–A). Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden. Dieser Parameter kann wie folgt wiederholt werden: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
-| `limit` | Einschränken der Anzahl der zurückgegebenen Platzierungen. | `limit=5` |
+| `property` | Ein optionaler Eigenschaftsfilter: <ul><li>Die Eigenschaften sind nach AND-Vorgang gruppiert.</li><li>Parameter können wie folgt wiederholt werden: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}…] oder property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}…]</li><li>Eigenschaftsausdrücke haben das Format `[ !]field[op]value`, wobei reguläre Ausdrücke in `[==,!=,<=,>=,<,>,~]` unterstützt `op`.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines - vor dem Namen (orderby=-name) werden Elemente nach Namen in absteigender Reihenfolge sortiert (Z-A). Pfadausdrücke werden in Form von punktgetrennten Pfaden verwendet. Dieser Parameter kann wie folgt wiederholt werden: `orderby=field1[,-fields2,field3,...]` | `orderby=id` `-name` |
+| `limit` | Anzahl der zurückgegebenen Platzierungen begrenzen. | `limit=5` |
 
 **Anfrage**
 
