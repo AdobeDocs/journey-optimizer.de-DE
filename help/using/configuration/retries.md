@@ -10,10 +10,16 @@ level: Experienced
 keywords: weitere Zustellversuche, Bounce, Soft, Optimizer, Fehler
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 TQID: https://experienceleague.adobe.com/msEFNW2-wJiuhGNuJYWWETQC18j1ihcDdmMmJGUMraA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 569
@@ -27,7 +33,7 @@ Wenn eine Nachricht aufgrund eines temporären Fehlers des Typs **Softbounce** f
 
 >[!NOTE]
 >
->Weitere Informationen zu Fehlertypen finden Sie im Abschnitt [Typen von fehlgeschlagenen ](../reports/suppression-list.md#delivery-failures)).
+>Weitere Informationen zu Fehlertypen finden Sie im Abschnitt [Typen von fehlgeschlagenen &#x200B;](../reports/suppression-list.md#delivery-failures)).
 
 In der Standardkonfiguration ist der Schwellenwert auf 5 Fehler festgelegt.
 
@@ -77,9 +83,9 @@ Falls der Standardwert 5 Ihren Anforderungen nicht entspricht, können Sie den F
 
 Der **Zeitraum für weitere Zustellversuche** ist der Zeitraum, in dem alle E-Mail-Nachrichten des Versands, bei denen ein temporärer Fehler oder ein Softbounce aufgetreten ist, erneut gesendet werden.
 
-Standardmäßig werden weitere Zustellversuche **** 3,5 Tage (oder **84 Stunden**) ab dem Zeitpunkt durchgeführt, zu dem die Nachricht zur E-Mail-Warteschlange hinzugefügt wurde.
+Standardmäßig werden weitere Zustellversuche **&#x200B;**&#x200B;3,5 Tage (oder **84 Stunden**) ab dem Zeitpunkt durchgeführt, zu dem die Nachricht zur E-Mail-Warteschlange hinzugefügt wurde.
 
-Um jedoch sicherzustellen, dass Zustellversuche nur so lange durchgeführt werden, wie sie benötigt werden, können Sie diese Einstellung Ihren Anforderungen entsprechend ändern, wenn Sie eine [Kanalkonfiguration“ erstellen oder bearbeiten, ](channel-surfaces.md) auf den E-Mail-Kanal angewendet wird.
+Um jedoch sicherzustellen, dass Zustellversuche nur so lange durchgeführt werden, wie sie benötigt werden, können Sie diese Einstellung Ihren Anforderungen entsprechend ändern, wenn Sie eine [Kanalkonfiguration“ erstellen oder bearbeiten, &#x200B;](channel-surfaces.md) auf den E-Mail-Kanal angewendet wird.
 
 Beispielsweise können Sie den Zeitraum für weitere Zustellversuche für eine Transaktions-E-Mail, die sich auf das Zurücksetzen des Kennworts bezieht und einen nur für einen Tag gültigen Link enthält, auf 24 Stunden festlegen. Ebenso können Sie für einen Midnight Sale einen Wiederholungszeitraum von 6 Stunden definieren.
 
@@ -87,5 +93,5 @@ Beispielsweise können Sie den Zeitraum für weitere Zustellversuche für eine T
 >
 >Der Zeitraum für weitere Zustellversuche darf 84 Stunden nicht überschreiten. Der Mindestzeitraum für weitere Zustellversuche beträgt 6 Stunden für Marketing-E-Mails und 10 Minuten für Transaktions-E-Mails.
 
-Erfahren Sie in (diesem Abschnitt), wie Sie die Parameter für weitere Zustellversuche für E[Mails anpassen, während Sie eine Kanalkonfiguration ](../email/email-settings.md#email-retry).
+Erfahren Sie in (diesem Abschnitt), wie Sie die Parameter für weitere Zustellversuche für E[Mails anpassen, während Sie eine Kanalkonfiguration &#x200B;](../email/email-settings.md#email-retry).
 

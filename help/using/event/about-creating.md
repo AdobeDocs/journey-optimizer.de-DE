@@ -10,12 +10,24 @@ level: Intermediate, Experienced
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 TQID: https://experienceleague.adobe.com/kADXordq0QBDchciYaOzFb-3plU0JruiGQJXwq-1sB8
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1729
@@ -35,7 +47,7 @@ ht-degree: 0%
 >title="Parameter"
 >abstract="Definieren Sie die Parameter des Ereignisses, z. B. das Schema und die Payload-Felder. Verwenden Sie für regelbasierte Ereignisse das Feld **[!UICONTROL Ereignis-ID]**, um die Bedingung zu definieren, anhand derer das System die Ereignisse identifiziert, die den Journey-Trigger verursachen. Fügen Sie einen Identitätstyp und eine Profilkennung hinzu, die für das Ereignis verwendet werden soll."
 
-Unitäre Ereignisse sind mit einem bestimmten Profil verknüpft. Sie können regelbasiert oder systemgeneriert sein.  Weitere Informationen zu unitären Ereignissen [ Sie in diesem Abschnitt](../event/about-events.md).
+Unitäre Ereignisse sind mit einem bestimmten Profil verknüpft. Sie können regelbasiert oder systemgeneriert sein.  Weitere Informationen zu unitären Ereignissen [&#x200B; Sie in diesem Abschnitt](../event/about-events.md).
 
 Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereignisses:
 
@@ -57,7 +69,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
 
 1. Wählen Sie im Feld **[!UICONTROL Typ]** die Option **Unitär**.
 
-1. Wählen Sie im Feld **[!UICONTROL Ereignis-ID]** Typ den zu verwendenden Ereignistyp aus: **Regelbasiert** oder **Systemgeneriert**. Weitere Informationen zum Ereignis-ID-Typ finden Sie [ (diesem Abschnitt](../event/about-events.md#event-id-type).
+1. Wählen Sie im Feld **[!UICONTROL Ereignis-ID]** Typ den zu verwendenden Ereignistyp aus: **Regelbasiert** oder **Systemgeneriert**. Weitere Informationen zum Ereignis-ID-Typ finden Sie [&#x200B; (diesem Abschnitt](../event/about-events.md#event-id-type).
 
    ![](assets/jo-event4.png)
 
@@ -73,7 +85,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
 
 1. Klicken Sie bei regelbasierten Ereignissen in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Definieren Sie mithilfe des einfachen oder erweiterten Ausdruckseditors die Bedingung, anhand derer das System die Ereignisse identifiziert, durch die Ihr Journey Trigger wird.
 
-   In unserem Beispiel haben wir eine Bedingung basierend auf der Stadt des Profils geschrieben. Das bedeutet, dass das System jedes Mal, wenn es ein Ereignis empfängt, das dieser Bedingung entspricht (****-Feld und **[!UICONTROL Paris]**-Wert), dieses an Journey weiterleitet.
+   In unserem Beispiel haben wir eine Bedingung basierend auf der Stadt des Profils geschrieben. Das bedeutet, dass das System jedes Mal, wenn es ein Ereignis empfängt, das dieser Bedingung entspricht (**&#x200B;**-Feld und **[!UICONTROL Paris]**-Wert), dieses an Journey weiterleitet.
 
    >[!NOTE]
    >
@@ -81,9 +93,9 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
    >
    >Wenn Sie Ihr Schema nach dem Erstellen des Ereignisses durch neue Auflistungswerte ändern, müssen Sie die folgenden Schritte ausführen, um die Änderungen auf das vorhandene Ereignis anzuwenden: Deaktivieren Sie das Auflistungsfeld in den Ereignisfeldern, bestätigen Sie die Auswahl und wählen Sie das Auflistungsfeld erneut aus. Der neue Auflistungswert wird jetzt angezeigt.
 
-1. Fügen Sie einen Identitätstyp hinzu. Dieser Schritt ist optional, wird jedoch empfohlen, da Sie durch Hinzufügen eines Identitätstyps die im Echtzeit-Kundenprofil-Service gespeicherten Informationen nutzen können. Sie definiert den Typ des Schlüssels, den das Ereignis hat. Weitere Informationen finden Sie [ (diesem Abschnitt](../event/about-creating.md#select-the-namespace).
+1. Fügen Sie einen Identitätstyp hinzu. Dieser Schritt ist optional, wird jedoch empfohlen, da Sie durch Hinzufügen eines Identitätstyps die im Echtzeit-Kundenprofil-Service gespeicherten Informationen nutzen können. Sie definiert den Typ des Schlüssels, den das Ereignis hat. Weitere Informationen finden Sie [&#x200B; (diesem Abschnitt](../event/about-creating.md#select-the-namespace).
 
-1. Profilkennung definieren: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verknüpfte Person zu identifizieren. Dieser Schlüssel wird automatisch eingerichtet (kann jedoch weiterhin bearbeitet werden), wenn Sie einen Identitätstyp auswählen. Journey wählen den Schlüssel aus, der dem Identitätstyp entsprechen soll (wenn Sie beispielsweise einen E-Mail-Identitätstyp auswählen, wird der E-Mail-Schlüssel ausgewählt). Weitere Informationen finden Sie [ (diesem Abschnitt](../event/about-creating.md#define-the-event-key).
+1. Profilkennung definieren: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verknüpfte Person zu identifizieren. Dieser Schlüssel wird automatisch eingerichtet (kann jedoch weiterhin bearbeitet werden), wenn Sie einen Identitätstyp auswählen. Journey wählen den Schlüssel aus, der dem Identitätstyp entsprechen soll (wenn Sie beispielsweise einen E-Mail-Identitätstyp auswählen, wird der E-Mail-Schlüssel ausgewählt). Weitere Informationen finden Sie [&#x200B; (diesem Abschnitt](../event/about-creating.md#define-the-event-key).
 
 1. Klicken Sie **[!UICONTROL Speichern]**.
 
@@ -122,7 +134,7 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 >title="Identitätstyp"
 >abstract="Wählen Sie den Schlüssel aus, um das mit dem Ereignis verknüpfte Kundenprofil zu identifizieren."
 
-Mit dem Identitätstyp (früher als „Namespace“ bezeichnet) können Sie den Typ des Schlüssels definieren, mit dem die mit dem Ereignis verknüpfte Person identifiziert wird. Die Konfiguration ist optional. Sie ist erforderlich, wenn Sie in Ihren Journey zusätzliche Informationen aus dem [Echtzeit-Kundenprofil) ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} möchten. Die Identitätstypdefinition ist nicht erforderlich, wenn Sie nur Daten aus einem Drittanbietersystem über eine benutzerdefinierte Datenquelle verwenden.
+Mit dem Identitätstyp (früher als „Namespace“ bezeichnet) können Sie den Typ des Schlüssels definieren, mit dem die mit dem Ereignis verknüpfte Person identifiziert wird. Die Konfiguration ist optional. Sie ist erforderlich, wenn Sie in Ihren Journey zusätzliche Informationen aus dem [Echtzeit-Kundenprofil) &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} möchten. Die Identitätstypdefinition ist nicht erforderlich, wenn Sie nur Daten aus einem Drittanbietersystem über eine benutzerdefinierte Datenquelle verwenden.
 
 Sie können entweder einen vorhandenen Identitätstyp erstellen oder mithilfe des Adobe Experience Platform Identity Services einen neuen erstellen. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target="_blank"}.
 
@@ -146,7 +158,7 @@ Pro Journey ist nur ein Identitätstyp zulässig. Wenn Sie mehrere Ereignisse au
 
 Der Schlüssel ist das Feld oder die Feldkombination, die Teil der Ereignis-Payload-Daten ist und es dem System ermöglicht, die mit dem Ereignis verbundene Person zu identifizieren. Der Schlüssel kann beispielsweise die Experience Cloud-ID, eine CRM-ID oder eine E-Mail-Adresse sein.
 
-Um in der Echtzeit-Kundenprofildatenbank von Adobe gespeicherte Daten zu verwenden, muss der Ereignisschlüssel den Informationen entsprechen, die Sie im [Echtzeit-Kundenprofil-Service) als Profilidentität ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} haben.
+Um in der Echtzeit-Kundenprofildatenbank von Adobe gespeicherte Daten zu verwenden, muss der Ereignisschlüssel den Informationen entsprechen, die Sie im [Echtzeit-Kundenprofil-Service) als Profilidentität &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} haben.
 
 Mit der Profilkennung kann das System die Abstimmung zwischen dem Ereignis und dem Profil des Kontakts durchführen. Wenn Sie ein Schema mit einer Primäridentität auswählen, werden die Felder **[!UICONTROL Profilkennung]** und **[!UICONTROL Identitätstyp]** vorbelegt. Wenn keine Identität definiert ist, wird _identityMap > id_ als Primärschlüssel verwendet. Wählen Sie anschließend einen Identitätstyp aus und der Schlüssel wird automatisch mithilfe von „identityMap _id“_.
 

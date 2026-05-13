@@ -10,11 +10,19 @@ level: Experienced
 keywords: Subdomain, PTR, Einträge, DNS, Domain, E-Mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 TQID: https://experienceleague.adobe.com/sdx-XnJMWY5UAkd9-O2Rayjoww3CfeCAgGQgarO2TlY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 845
@@ -42,7 +50,7 @@ Mit PTR-Einträgen können E-Mail-Empfangs-Server die Authentizität der E-Mail-
 
 ## Zugreifen auf die PTR-Einträge Ihrer Subdomains {#access-ptr-records}
 
-Nachdem Sie [ erste Subdomain ](delegate-subdomain.md) Adobe in [!DNL Journey Optimizer] delegiert haben, werden automatisch PTR-Einträge für Ihre IPs erstellt. Sie können darauf über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL PTR-Einträge]** zugreifen.
+Nachdem Sie [&#x200B; erste Subdomain &#x200B;](delegate-subdomain.md) Adobe in [!DNL Journey Optimizer] delegiert haben, werden automatisch PTR-Einträge für Ihre IPs erstellt. Sie können darauf über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Einstellungen]** > **[!UICONTROL PTR-Einträge]** zugreifen.
 
 ![](assets/ptr-records.png)
 
@@ -56,7 +64,7 @@ Sie können einen PTR-Eintrag aus der Liste öffnen, um den zugehörigen Subdoma
 
 ## Bearbeiten eines PTR-Eintrags {#edit-ptr-record}
 
-In [!DNL Journey Optimizer] können PTR-Einträge nicht manuell erstellt werden. Stattdessen werden nach dem [ (Delegieren](delegate-subdomain.md) Ihrer ersten Subdomain an Adobe automatisch PTR-Einträge für Ihre IPs erstellt.
+In [!DNL Journey Optimizer] können PTR-Einträge nicht manuell erstellt werden. Stattdessen werden nach dem [&#x200B; (Delegieren](delegate-subdomain.md) Ihrer ersten Subdomain an Adobe automatisch PTR-Einträge für Ihre IPs erstellt.
 
 Jede Ihrer IPs erhält einen einzelnen PTR-Eintrag. Alle PTR-Einträge haben das folgende Format: „rxx.subdomain“, wobei „subdomain“ die erste Subdomain ist, die Sie in [!DNL Journey Optimizer] delegiert haben.
 
@@ -76,7 +84,7 @@ Gehen Sie wie folgt vor, um einen PTR[Eintrag mit einer Subdomain zu bearbeiten]
 
    ![](assets/ptr-record-select.png)
 
-1. Wählen Sie in [ Liste eine Subdomain aus](delegate-subdomain.md#set-up-subdomain) die vollständig an Adobe delegiert wurde.
+1. Wählen Sie in [&#x200B; Liste eine Subdomain aus](delegate-subdomain.md#set-up-subdomain) die vollständig an Adobe delegiert wurde.
 
    ![](assets/ptr-record-subdomain.png)
 
@@ -120,7 +128,7 @@ Nachdem Sie die Bearbeitung des PTR-Eintrags bestätigt haben **[!UICONTROL wird
 >
 >Die [Aktualisierungsverarbeitung](#processing) kann bis zu 3 Stunden dauern.
 
-Um die Details der PTR-Eintragsaktualisierung zu überprüfen, klicken Sie auf das Symbol daneben. Weitere Informationen zu den Status, die den verschiedenen Symbolen zugeordnet sind, finden [ in (diesem Abschnitt](#ptr-record-update-statuses).
+Um die Details der PTR-Eintragsaktualisierung zu überprüfen, klicken Sie auf das Symbol daneben. Weitere Informationen zu den Status, die den verschiedenen Symbolen zugeordnet sind, finden [&#x200B; in (diesem Abschnitt](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 

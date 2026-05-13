@@ -11,12 +11,22 @@ level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1692
@@ -78,7 +88,7 @@ Wählen Sie die **[!UICONTROL Orchestrierung]**, um auf die Liste der orchestrie
 
 ![Bild mit dem Inventar der orchestrierten Kampagnen](assets/inventory.png){zoomable="yes"}
 
-Jede orchestrierte Kampagne in der Liste zeigt Informationen wie den aktuellen (Status[ der Kampagne, ](#statuses) zugehörigen Kanal und Tags oder das letzte Mal, wann sie geändert wurde, an. Sie können die angezeigten Spalten anpassen, indem Sie auf die Schaltfläche ![Layout konfigurieren](assets/do-not-localize/inventory-configure-layout.svg) klicken.
+Jede orchestrierte Kampagne in der Liste zeigt Informationen wie den aktuellen (Status[&#x200B; der Kampagne, &#x200B;](#statuses) zugehörigen Kanal und Tags oder das letzte Mal, wann sie geändert wurde, an. Sie können die angezeigten Spalten anpassen, indem Sie auf die Schaltfläche ![Layout konfigurieren](assets/do-not-localize/inventory-configure-layout.svg) klicken.
 
 >[!ENDTABS]
 
@@ -124,7 +134,7 @@ Jede Kampagne durchläuft einen Lebenszyklus, der sich in ihrem Status in der Be
 | **[!UICONTROL Angehalten]** | ✅ | ✅ | ✅ | Manuell angehalten, kann nicht reaktiviert werden | [Duplizieren zur Wiederverwendung](#duplicate-a-campaign) |
 | **[!UICONTROL Abgeschlossen]** | ✅ | ✅ | ✅ | Ausführung abgeschlossen (wird 3 Tage nach Aktivierung automatisch zugewiesen oder endet bei wiederkehrender Ausführung am Enddatum) | [Anzeigen von Berichten](../reports/campaign-global-report-cja.md), [Archivieren](#archive-a-campaign) oder [Duplizieren](#duplicate-a-campaign) |
 | **[!UICONTROL fehlgeschlagen]** | ✅ | ✅ | — | Ausführung fehlgeschlagen | Überprüfen Sie Protokolle, beheben Sie Probleme [Duplizieren Sie es erneut](#duplicate-a-campaign) |
-| **[!UICONTROL Archiviert]** | ✅ | ✅ | ✅ | Archiviert (nach 30 Tagen automatisch gelöscht) | [Bei ](#access) mit Filter abrufen |
+| **[!UICONTROL Archiviert]** | ✅ | ✅ | ✅ | Archiviert (nach 30 Tagen automatisch gelöscht) | [Bei &#x200B;](#access) mit Filter abrufen |
 | **[!UICONTROL Geschlossen]** | — | — | ✅ | Wiederkehrende Kampagne geschlossen, keine neuen Einträge zulässig (wird fortgesetzt, bis alle Aktivitäten abgeschlossen sind) | Auf Abschluss warten |
 | **[!UICONTROL Veröffentlichen]** | — | — | ✅ | In Veröffentlichung | Warten, bis die Veröffentlichung abgeschlossen ist |
 
@@ -250,7 +260,7 @@ Archivierte Kampagnen können dann mithilfe des entsprechenden Filters in der Li
 
 ## Löschen einer Kampagne {#delete-a-campaign}
 
-Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit ![ Auslassungspunkten (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Löschen]**.
+Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit ![&#x200B; Auslassungspunkten (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Löschen]**.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -260,7 +270,7 @@ Um eine Kampagne zu löschen, verwenden Sie die Schaltfläche mit ![ Auslassungs
 
 ## Duplizieren einer Kampagne {#duplicate-a-campaign}
 
-Um eine Kampagne zu duplizieren (beispielsweise wenn sie gestoppt wurde), verwenden Sie die Schaltfläche mit den ![ (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Duplizieren]**.
+Um eine Kampagne zu duplizieren (beispielsweise wenn sie gestoppt wurde), verwenden Sie die Schaltfläche mit den ![&#x200B; (Bild mit der Schaltfläche Mehr Aktionen](assets/do-not-localize/rule-builder-icon-more.svg) und wählen Sie **[!UICONTROL Duplizieren]**.
 
 Geben Sie den Namen der Kampagne ein und bestätigen Sie.
 

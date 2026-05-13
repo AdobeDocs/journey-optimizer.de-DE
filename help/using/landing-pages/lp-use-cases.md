@@ -10,12 +10,24 @@ level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 TQID: https://experienceleague.adobe.com/2NYDW7eFKVVHVzD-GFZkylilJp6AvzEm0r2Conlecss
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1238
@@ -39,7 +51,7 @@ Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten 
 
 Um eine Landingpage für die Registrierung von Ereignissen einzurichten, erstellen Sie eine Abonnement-Liste, gestalten die Landingpage mit einem Registrierungsformular und konfigurieren die erforderlichen Seiten und Einstellungen. Führen Sie die folgenden Schritte aus:
 
-1. Erstellen Sie die Abonnement-Liste der Ereignisregistrierung, in der die registrierten Benutzer gespeichert werden. Erfahren Sie (hier), wie [ Abonnement-Liste ](subscription-list.md#define-subscription-list).
+1. Erstellen Sie die Abonnement-Liste der Ereignisregistrierung, in der die registrierten Benutzer gespeichert werden. Erfahren Sie (hier), wie [&#x200B; Abonnement-Liste &#x200B;](subscription-list.md#define-subscription-list).
 
    ![](assets/lp_subscription-uc-list.png)
 
@@ -53,7 +65,7 @@ Um eine Landingpage für die Registrierung von Ereignissen einzurichten, erstell
 
    ![](assets/lp_subscription-uc-lp-list.png)
 
-1. Erstellen Sie eine „Danke“-Seite, die Ihren Empfängern angezeigt wird, sobald sie das Registrierungsformular senden. Erfahren Sie (hier), wie Sie [ Unterseiten ](create-lp.md#configure-subpages).
+1. Erstellen Sie eine „Danke“-Seite, die Ihren Empfängern angezeigt wird, sobald sie das Registrierungsformular senden. Erfahren Sie (hier), wie Sie [&#x200B; Unterseiten &#x200B;](create-lp.md#configure-subpages).
 
    ![](assets/lp_subscription-uc-thanks.png)
 
@@ -71,7 +83,7 @@ Um eine Landingpage für die Registrierung von Ereignissen einzurichten, erstell
 
    >[!NOTE]
    >
-   >Um Ihre Nachricht senden zu können, stellen Sie sicher, dass die von Ihnen ausgewählte Landingpage noch nicht abgelaufen ist. Erfahren Sie (in diesem Abschnitt), wie [ Ablaufdatum ](create-lp.md#configure-primary-page).
+   >Um Ihre Nachricht senden zu können, stellen Sie sicher, dass die von Ihnen ausgewählte Landingpage noch nicht abgelaufen ist. Erfahren Sie (in diesem Abschnitt), wie [&#x200B; Ablaufdatum &#x200B;](create-lp.md#configure-primary-page).
 
    Wenn Ihre Empfänger nach Erhalt der E-Mail auf den Link zur Landingpage klicken, werden sie zur „Danke“-Seite weitergeleitet und auf die Abonnement-Liste gesetzt.
 
@@ -103,7 +115,7 @@ Damit sich Ihre Empfänger von Ihren Nachrichten abmelden können, können Sie i
 
 >[!NOTE]
 >
->Weitere Informationen zur Verwaltung des Einverständnisses Ihrer Empfänger und dazu, warum dies wichtig ist, finden Sie [ (in diesem Abschnitt](../privacy/opt-out.md).
+>Weitere Informationen zur Verwaltung des Einverständnisses Ihrer Empfänger und dazu, warum dies wichtig ist, finden Sie [&#x200B; (in diesem Abschnitt](../privacy/opt-out.md).
 
 ### Opt-out-Verwaltung {#opt-out-management}
 
@@ -128,7 +140,7 @@ Gehen Sie wie folgt vor, um Empfängern einer E-Mail zu ermöglichen, sich über
 
    <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
-1. Fügen Sie eine [ (Unterseite](create-lp.md#configure-subpages) hinzu, die den Benutzern angezeigt wird, die das Formular senden.
+1. Fügen Sie eine [&#x200B; (Unterseite](create-lp.md#configure-subpages) hinzu, die den Benutzern angezeigt wird, die das Formular senden.
 
    ![](assets/lp_opt-out-subpage.png)
 
@@ -136,7 +148,7 @@ Gehen Sie wie folgt vor, um Empfängern einer E-Mail zu ermöglichen, sich über
    >
    >Referenzieren Sie die Unterseite im Abschnitt **[!UICONTROL Call to action]** der Komponente **[!UICONTROL Formular]** der Primärseite. [Weitere Informationen](design-lp.md)
 
-1. Nachdem Sie den Inhalt Ihrer Seiten konfiguriert und definiert haben, [ Sie ](create-lp.md#publish-landing-page) Landingpage (veröffentlichen).
+1. Nachdem Sie den Inhalt Ihrer Seiten konfiguriert und definiert haben, [&#x200B; Sie &#x200B;](create-lp.md#publish-landing-page) Landingpage (veröffentlichen).
 
 1. [Erstellen einer E-Mail](../email/get-started-email-design.md)Nachricht in einer Journey.
 
@@ -148,7 +160,7 @@ Gehen Sie wie folgt vor, um Empfängern einer E-Mail zu ermöglichen, sich über
 
    >[!NOTE]
    >
-   >Um Ihre Nachricht senden zu können, stellen Sie sicher, dass die von Ihnen ausgewählte Landingpage noch nicht abgelaufen ist. Erfahren Sie (in diesem Abschnitt), wie [ Ablaufdatum ](create-lp.md#configure-primary-page).
+   >Um Ihre Nachricht senden zu können, stellen Sie sicher, dass die von Ihnen ausgewählte Landingpage noch nicht abgelaufen ist. Erfahren Sie (in diesem Abschnitt), wie [&#x200B; Ablaufdatum &#x200B;](create-lp.md#configure-primary-page).
 
 1. Veröffentlichen Sie und führen Sie die Journey aus. [Weitere Informationen](../building-journeys/journey.md).
 
@@ -203,7 +215,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 Sie können Informationen verwenden, die auf einer Landingpage gesendet wurden, um weitere Aktionen durchzuführen. Wenn ein Benutzer beispielsweise eine bestimmte Abonnement-Liste abonniert, können Sie diese Informationen nutzen, um diesem Benutzer eine E-Mail mit Empfehlungen für andere Abonnement-Listen zu senden.
 
-Dazu müssen Sie ein [regelbasiertes unitäres Ereignis“ auf ](../event/about-creating.md) Grundlage des **[!UICONTROL AJO E-Mail-Tracking-Erlebnisereignisschemas]** erstellen, das die Übermittlungsinformationen enthält, und [dieses Ereignis auf einer Journey verwenden](../building-journeys/general-events.md).
+Dazu müssen Sie ein [regelbasiertes unitäres Ereignis“ auf &#x200B;](../event/about-creating.md) Grundlage des **[!UICONTROL AJO E-Mail-Tracking-Erlebnisereignisschemas]** erstellen, das die Übermittlungsinformationen enthält, und [dieses Ereignis auf einer Journey verwenden](../building-journeys/general-events.md).
 
 >[!NOTE]
 >

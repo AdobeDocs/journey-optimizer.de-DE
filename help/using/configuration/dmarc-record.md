@@ -10,11 +10,24 @@ level: Experienced
 keywords: Subdomain, Domain, E-Mail, DMARC, Eintrag
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
 TQID: https://experienceleague.adobe.com/fsJdrJpxUvLKk4V-7aXmNaVTesjVc4tRxbEmxc-Qyiw
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1597
@@ -64,7 +77,7 @@ Wenn die DMARC-Authentifizierung einer E-Mail fehlschlägt, können Sie entschei
 
 >[!NOTE]
 >
->In diesem Abschnitt erfahren Sie, wie Sie die DMARC[Richtlinie mit [!DNL Journey Optimizer] ](#set-up-dmarc).
+>In diesem Abschnitt erfahren Sie, wie Sie die DMARC[Richtlinie mit [!DNL Journey Optimizer] &#x200B;](#set-up-dmarc).
 
 ## DMARC-Anforderungsaktualisierung {#dmarc-update}
 
@@ -98,7 +111,7 @@ Gehen Sie wie folgt vor, um sicherzustellen, dass für alle Subdomains, die Sie 
    >
    >Um die neuen Anforderungen von Gmail und Yahoo! zu erfüllen und Zustellbarkeitsprobleme bei Top-ISPs zu vermeiden, wird empfohlen, einen DMARC-Eintrag für alle delegierten Subdomains einzurichten. [Weitere Informationen](dmarc-record-update.md)
 
-1. Wählen Sie eine Subdomain ohne verknüpften DMARC-Eintrag aus und füllen Sie den Abschnitt **[!UICONTROL DMARC]** Eintrag} gemäß den Anforderungen Ihres Unternehmens aus. Die Schritte zum Ausfüllen der DMARC-Datensatzfelder werden in [diesem Abschnitt) ](#set-up-dmarc).
+1. Wählen Sie eine Subdomain ohne verknüpften DMARC-Eintrag aus und füllen Sie den Abschnitt **[!UICONTROL DMARC]** Eintrag&rbrace; gemäß den Anforderungen Ihres Unternehmens aus. Die Schritte zum Ausfüllen der DMARC-Datensatzfelder werden in [diesem Abschnitt) &#x200B;](#set-up-dmarc).
 
    <!--![](assets/dmarc-record-edit-full.png)-->
 
@@ -142,7 +155,7 @@ Beim Delegieren neuer Subdomains an Adobe in [!DNL Journey Optimizer] wird für 
 
      ![](assets/dmarc-record-found-own.png){width="80%"}
 
-1. Wenn in der übergeordneten Domain kein DMARC-Eintrag gefunden wird, ist nur die Option **[!UICONTROL Mit Adobe verwalten]** verfügbar. Gehen Sie wie [ vor](#manage-dmarc-with-adobe) um einen DMARC-Eintrag für Ihre Subdomain einzurichten.
+1. Wenn in der übergeordneten Domain kein DMARC-Eintrag gefunden wird, ist nur die Option **[!UICONTROL Mit Adobe verwalten]** verfügbar. Gehen Sie wie [&#x200B; vor](#manage-dmarc-with-adobe) um einen DMARC-Eintrag für Ihre Subdomain einzurichten.
 
    ![](assets/dmarc-record-not-found.png){width="80%"}
 
@@ -157,7 +170,7 @@ Damit Adobe den DMARC-Datensatz für Sie verwalten kann, wählen Sie die Option 
 
 ![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
 
-1. Definieren Sie die Aktion, die der Empfängerserver ausführen soll, wenn DMARC fehlschlägt. Wählen Sie je nach der ](#dmarc-policies) [DMARC-Richtlinie, die Sie anwenden möchten, eine der drei Optionen aus:
+1. Definieren Sie die Aktion, die der Empfängerserver ausführen soll, wenn DMARC fehlschlägt. Wählen Sie je nach der [&#128279;](#dmarc-policies) DMARC-Richtlinie, die Sie anwenden möchten, eine der drei Optionen aus:
 
    * **[!UICONTROL Keine]** (Standardwert): Weist den Empfänger an, keine Aktionen für Nachrichten durchzuführen, bei denen die DMARC-Authentifizierung fehlschlägt, aber dennoch E-Mail-Berichte an den Absender zu senden.
    * **[!UICONTROL Quarantäne]**: Weist den empfangenden E-Mail-Server an, E-Mails unter Quarantäne zu stellen, bei denen die DMARC-Authentifizierung fehlschlägt. Dies bedeutet im Allgemeinen, dass diese Nachrichten im Spam- oder Junk-Ordner der Empfängerin bzw. des Empfängers abgelegt werden.

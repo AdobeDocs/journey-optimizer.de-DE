@@ -10,11 +10,26 @@ level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 TQID: https://experienceleague.adobe.com/tdx7MWEI1dzl2d8XsgStZmt2ccngiRJapEF-yxfv5vw
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1898
@@ -40,7 +55,7 @@ Mit [!DNL Journey Optimizer] können Sie Kanalkonfigurationen (z. B. Nachrichten
 >
 > * Um Kanalkonfigurationen zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die Berechtigung [Nachrichtenvoreinstellungen verwalten](../administration/high-low-permissions.md#administration-permissions).
 >
-> * Sie müssen die Schritte [E](../email/get-started-email-config.md)Mail-Konfiguration[ Push-](../push/push-configuration.md), [SMS-](../sms/sms-configuration.md), [In-App-Konfiguration](../in-app/inapp-configuration.md), [Code-basierte Konfiguration](../code-based/code-based-configuration.md), [Web-Konfiguration](../web/web-configuration.md) und [Briefpost-Konfiguration](../direct-mail/direct-mail-configuration.md) ausführen, bevor Sie Kanalkonfigurationen erstellen.
+> * Sie müssen die Schritte [E](../email/get-started-email-config.md)Mail-Konfiguration[&#x200B; Push-](../push/push-configuration.md), [SMS-](../sms/sms-configuration.md), [In-App-Konfiguration](../in-app/inapp-configuration.md), [Code-basierte Konfiguration](../code-based/code-based-configuration.md), [Web-Konfiguration](../web/web-configuration.md) und [Briefpost-Konfiguration](../direct-mail/direct-mail-configuration.md) ausführen, bevor Sie Kanalkonfigurationen erstellen.
 
 Sobald die Kanalkonfigurationen abgeschlossen sind, können Sie sie beim Erstellen von Nachrichten von einer Journey oder einer Kampagne auswählen.
 
@@ -99,7 +114,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
    >[!NOTE]
    >
-   >Sie können nicht mit der Erstellung der E-Mail-Konfiguration fortfahren, während sich der ausgewählte IP[Pool in Bearbeitung ](ip-pools.md#edit-ip-pool) (**[!UICONTROL Verarbeitung]** Status) befindet und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](#subdomains-and-ip-pools)
+   >Sie können nicht mit der Erstellung der E-Mail-Konfiguration fortfahren, während sich der ausgewählte IP[Pool in Bearbeitung &#x200B;](ip-pools.md#edit-ip-pool) (**[!UICONTROL Verarbeitung]** Status) befindet und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](#subdomains-and-ip-pools)
    >
    >Speichern Sie die Konfiguration als Entwurf und warten Sie, bis der IP-Pool den Status **[!UICONTROL Erfolg]** aufweist, um mit der Konfigurationserstellung fortzufahren.
 
@@ -127,7 +142,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu erstellen:
 
    >[!NOTE]
    >
-   >Wenn die Prüfungen nicht erfolgreich sind, erfahren Sie in ([) mehr über die möglichen ](#monitor-channel-surfaces).
+   >Wenn die Prüfungen nicht erfolgreich sind, erfahren Sie in ([) mehr über die möglichen &#x200B;](#monitor-channel-surfaces).
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Kanalkonfiguration den Status **[!UICONTROL Aktiv]**. Sie kann jetzt zum Versand von Nachrichten verwendet werden.
 
@@ -173,7 +188,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu bearbeiten.
 >
 >Die Einstellungen für „Push **[!UICONTROL Benachrichtigungen“ können nicht bearbeitet]**. Wenn eine Kanalkonfiguration nur für den Kanal Push-Benachrichtigung konfiguriert ist, kann sie nicht bearbeitet werden.
 >
->Beim Bearbeiten einer E-Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ ](#create-channel-surface).
+>Beim Bearbeiten einer E-Mail-Konfiguration können Sie keine neuen [Profilattribute](../personalization/personalization-build-expressions.md#sources) zu Kopfzeilenparametern hinzufügen. Sie müssen eine [neue Kanalkonfiguration“ &#x200B;](#create-channel-surface).
 
 1. Klicken Sie in der Liste auf den Konfigurationsnamen eines Kanals, um ihn zu öffnen.
 
@@ -189,7 +204,7 @@ Gehen Sie wie folgt vor, um eine Kanalkonfiguration zu bearbeiten.
 
 1. Klicken Sie **[!UICONTROL Senden]**, um Ihre Änderungen zu bestätigen.
 
-Sobald die Änderungen übermittelt wurden, durchläuft die Kanalkonfiguration einen ähnlichen Validierungszyklus wie beim Erstellen [ Kanalkonfiguration](#create-channel-surface). Die Verarbeitungszeit nach dem Bearbeiten kann bis zu **3 Stunden**.
+Sobald die Änderungen übermittelt wurden, durchläuft die Kanalkonfiguration einen ähnlichen Validierungszyklus wie beim Erstellen [&#x200B; Kanalkonfiguration](#create-channel-surface). Die Verarbeitungszeit nach dem Bearbeiten kann bis zu **3 Stunden**.
 
 ### Details aktualisieren {#update-details}
 
@@ -223,7 +238,7 @@ Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um zu überprüf
 >
 >Wenn Sie nur die Felder **[!UICONTROL Beschreibung]**, **[!UICONTROL E-Mail-Typ]** und/oder **[!UICONTROL E-Mail-Wiederholungsparameter]** bearbeiten, erfolgt die Aktualisierung sofort.
 
-Die Verarbeitungszeit kann bis zu **3 Stunden dauern**. Weitere Informationen zu den während des Validierungszyklus durchgeführten Prüfungen finden Sie [ (diesem Abschnitt](#create-channel-surface).
+Die Verarbeitungszeit kann bis zu **3 Stunden dauern**. Weitere Informationen zu den während des Validierungszyklus durchgeführten Prüfungen finden Sie [&#x200B; (diesem Abschnitt](#create-channel-surface).
 
 Wenn Sie eine Konfiguration bearbeiten, die bereits aktiv war:
 
@@ -292,7 +307,7 @@ Eine deaktivierte Kanalkonfiguration kann nicht direkt bearbeitet werden. Sie k�
 
    ![](assets/config-edit-tags.png)
 
-1. Nachdem Sie Ihren Kanalkonfigurationen Tags zugewiesen haben, können [ sie nach ](../start/search-filter-categorize.md#filter-on-tags) filtern.
+1. Nachdem Sie Ihren Kanalkonfigurationen Tags zugewiesen haben, können [&#x200B; sie nach &#x200B;](../start/search-filter-categorize.md#filter-on-tags) filtern.
 
 ## Anleitungsvideo{#video-presets}
 

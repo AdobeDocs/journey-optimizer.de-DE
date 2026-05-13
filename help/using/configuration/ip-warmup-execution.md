@@ -10,11 +10,21 @@ level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 TQID: https://experienceleague.adobe.com/AF925ZJj5sJoiDs-8YnYAUMURi2y71R3vq8LGmIbMaI
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: c343082f-e963-4f57-a96b-b64d27f8118eid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c343082f-e963-4f57-a96b-b64d27f8118e
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2770
@@ -66,7 +76,7 @@ Um die Phasen Ihres IP-Aufwärmplans zu definieren, müssen Sie für jede Phase 
    >* Nur Kampagnen, die dieselbe Konfiguration wie der ausgewählte IP-Aufwärmplan verwenden, können ausgewählt werden.
    >* Eine Kampagne, die bereits in einem anderen IP-Aufwärmplan verwendet wird, kann nicht ausgewählt werden. Dieselbe Kampagne kann in mehreren Phasen desselben Plans verwendet werden.
 
-1. Nachdem eine Kampagne für die aktuelle Phase ausgewählt wurde, werden die Abschnitte zum Ausschließen von Profilen, Kampagnen-Audiences und Domain-Gruppen angezeigt. Beachten Sie, dass Ausschlüsse nach der Aktivierung eines Durchgangs nur noch geändert werden können, wenn [ den Durchgang in ](#split-phase) neue Phase aufteilen.
+1. Nachdem eine Kampagne für die aktuelle Phase ausgewählt wurde, werden die Abschnitte zum Ausschließen von Profilen, Kampagnen-Audiences und Domain-Gruppen angezeigt. Beachten Sie, dass Ausschlüsse nach der Aktivierung eines Durchgangs nur noch geändert werden können, wenn [&#x200B; den Durchgang in &#x200B;](#split-phase) neue Phase aufteilen.
 
    1. Wählen Sie im Abschnitt **[!UICONTROL Domain-Gruppen ausgeschlossen]** die Domains aus, die Sie aus dieser Phase ausschließen möchten.
 
@@ -107,7 +117,7 @@ Um die Phasen Ihres IP-Aufwärmplans zu definieren, müssen Sie für jede Phase 
 
    >[!NOTE]
    >
-   >Diese Aktion ist nur vor der Aktivierung des ersten Durchgangs der Phase möglich. Nachdem ein Durchgang aktiviert wurde, kann die Kampagne nicht mehr ersetzt werden, es sei denn, Sie [ den Durchgang ](#split-phase) einer neuen Phase aufgeteilt.
+   >Diese Aktion ist nur vor der Aktivierung des ersten Durchgangs der Phase möglich. Nachdem ein Durchgang aktiviert wurde, kann die Kampagne nicht mehr ersetzt werden, es sei denn, Sie [&#x200B; den Durchgang &#x200B;](#split-phase) einer neuen Phase aufgeteilt.
 
 1. Sie können bei Bedarf eine Phase hinzufügen. Er wird nach der letzten Phase hinzugefügt.
 
@@ -154,7 +164,7 @@ Nachdem Sie die Phasen Ihres IP-Aufwärmplans definiert haben, müssen Sie die e
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Optional können Sie ein Zeitfenster festlegen, in dem die IP-Aufwärmkampagne ausgeführt werden kann, falls es bei der (Zielgruppen[Auswertung zu Verzögerungen ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Klicken Sie dazu auf das Symbol Eigenschaften oben links neben dem Namen des Plans und verwenden Sie die **[!UICONTROL Laufzeit wiederholen]** Dropdown-Liste, um eine Dauer von bis zu 240 Minuten (4 Stunden) auszuwählen.
+1. Optional können Sie ein Zeitfenster festlegen, in dem die IP-Aufwärmkampagne ausgeführt werden kann, falls es bei der (Zielgruppen[Auswertung zu Verzögerungen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Klicken Sie dazu auf das Symbol Eigenschaften oben links neben dem Namen des Plans und verwenden Sie die **[!UICONTROL Laufzeit wiederholen]** Dropdown-Liste, um eine Dauer von bis zu 240 Minuten (4 Stunden) auszuwählen.
 
    >[!NOTE]
    >
@@ -188,7 +198,7 @@ Nachdem Sie die Phasen Ihres IP-Aufwärmplans definiert haben, müssen Sie die e
 
    >[!NOTE]
    >
-   >Die verschiedenen Ausführungsstatus werden in [diesem Abschnitt) ](#monitor-plan).
+   >Die verschiedenen Ausführungsstatus werden in [diesem Abschnitt) &#x200B;](#monitor-plan).
 
 1. Wenn die Kampagnenausführung noch nicht gestartet wurde, können Sie eine Live-Ausführung abbrechen. Mit dieser Aktion wird der Ausführungsplan abgebrochen und der Versand wird nicht angehalten.
 
@@ -216,7 +226,7 @@ Beim Aktivieren eines Laufs werden automatisch mehrere Zielgruppen erstellt.
 
 * Beim Aktivieren des ersten Durchgangs einer Phase:
 
-   * Für [ ausgeschlossenen Kampagnen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"}Audiences (sofern vorhanden) wird eine „Audience“ mit der folgenden Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
+   * Für [&#x200B; ausgeschlossenen Kampagnen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"}Audiences (sofern vorhanden) wird eine „Audience“ mit der folgenden Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
 
    * Für die ausgeschlossenen Domain-Gruppen (falls vorhanden) wird eine Zielgruppe mit der folgenden Namenskonvention erstellt: `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
@@ -276,7 +286,7 @@ Der IP-Aufwärmplan selbst dient als konsolidierter Bericht an einem einzigen Or
 
 Eine Ausführung kann die folgenden Status aufweisen:
 
-* **[!UICONTROL Entwurf]** : Jedes Mal, wenn ein Durchgang erstellt wird, sei [ beim Erstellen eines neuen Plans ](ip-warmup-plan.md) beim [Hinzufügen eines ](#define-runs) über die Benutzeroberfläche, wird der Status **[!UICONTROL Entwurf]** angenommen.
+* **[!UICONTROL Entwurf]** : Jedes Mal, wenn ein Durchgang erstellt wird, sei [&#x200B; beim Erstellen eines neuen Plans &#x200B;](ip-warmup-plan.md) beim [Hinzufügen eines &#x200B;](#define-runs) über die Benutzeroberfläche, wird der Status **[!UICONTROL Entwurf]** angenommen.
 * **[!UICONTROL Live]**: Jedes Mal, wenn Sie eine Ausführung aktivieren, wird der Status **[!UICONTROL Live]** angenommen. Das bedeutet, dass das System die Anforderung zum Planen des Durchgangs akzeptiert hat und nicht, dass der Versand gestartet wurde. In dieser Phase können Sie den Status des Live-Durchgangs sehen, indem Sie in der Tabelle auf **[!UICONTROL Status anzeigen]** klicken. Auf diese Weise können Sie verfolgen, wie viele Zielgruppenprofile sich tatsächlich qualifiziert haben.
 * **[!UICONTROL Abgeschlossen]**: Die Kampagnenausführung für diesen Durchgang ist abgeschlossen. Sie können auf einen detaillierten Ausführungsbericht zugreifen, indem Sie auf die Schaltfläche **[!UICONTROL Bericht anzeigen]** in der Tabelle klicken. Mit dieser Option können Sie den E-Mail-Versandstatus der Ausführung verfolgen, einschließlich Aufschlüsselungen speziell für Domain-Gruppen, um die Überwachung zu verbessern. Beachten Sie, dass die damit verknüpfte Kampagne als Gestoppt festgelegt wird[Weitere Informationen](#reports)
 * **[!UICONTROL Abgebrochen]**: Ein **[!UICONTROL Live]**-Durchlauf wurde mit der Schaltfläche **[!UICONTROL Abbrechen]** abgebrochen.[Weitere Informationen](#define-runs)
@@ -305,11 +315,11 @@ Für die verbleibenden Ausführungen der aktuellen Phase wird eine neue Phase er
 
 Wenn Sie diese Option beispielsweise für #4 auswählen, werden #4 bis #8 Ausführungen direkt nach der aktuellen Phase in eine neue Phase verschoben.
 
-Führen Sie die oben [ Schritte aus](#define-phases) um die neue Phase zu definieren.
+Führen Sie die oben [&#x200B; Schritte aus](#define-phases) um die neue Phase zu definieren.
 
 * Sie können die Optionen **[!UICONTROL Ersetzen]** oder **[!UICONTROL Löschen]** für diese neue Phase verwenden.
 
-* Sie können auch die vorherige Kampagne oder eine Domain ausschließen, die nicht gut funktioniert. Weitere Informationen hierzu finden [ in diesem Abschnitt](#define-phases).
+* Sie können auch die vorherige Kampagne oder eine Domain ausschließen, die nicht gut funktioniert. Weitere Informationen hierzu finden [&#x200B; in diesem Abschnitt](#define-phases).
 
 <!--
 You do not have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
@@ -325,7 +335,7 @@ Wenn Ihr IP-Aufwärmplan nicht die erwartete Leistung zeigt (z. B. wenn Sie fest
 
 Alle zuvor ausgeführten Ausführungen sind schreibgeschützt. Der neue Plan wird unter dem ersten Plan angezeigt.
 
-Gehen Sie wie [ vor](#define-phases) um die Phasen des neuen Plans zu definieren.
+Gehen Sie wie [&#x200B; vor](#define-phases) um die Phasen des neuen Plans zu definieren.
 
 >[!NOTE]
 >
@@ -351,5 +361,5 @@ Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Mehr]** oben rechts im IP-A
 
 Diese Option ist nur verfügbar, wenn alle Ausführungen im Plan den Status **[!UICONTROL Abgeschlossen]** oder **[!UICONTROL Entwurf]** aufweisen. Wenn ein Durchlauf **[!UICONTROL Live]** ist, ist die Option ausgegraut.
 
-Die verschiedenen Ausführungsstatus werden in [diesem Abschnitt) ](#monitor-plan).
+Die verschiedenen Ausführungsstatus werden in [diesem Abschnitt) &#x200B;](#monitor-plan).
 
