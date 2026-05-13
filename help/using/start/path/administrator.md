@@ -7,14 +7,21 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d712382d-29ef-487a-93a7-cbebdd2ef24aid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 89%
+source-wordcount: 1076
+ht-degree: 100%
 
 ---
 
-# Erste Schritte für Systemadministratoren {#get-started-sys-admins}
+# Erste Schritte für Systemadmins {#get-started-sys-admins}
 
 Als **Systemadmin** richten Sie die Journey Optimizer-Umgebung ein und verwalten den Zugriff, damit Ihre Teams effizient und sicher arbeiten können. Sie führen wichtige Konfigurationsschritte aus, damit [Dateningenieurinnen und -ingenieure](data-engineer.md), [Entwickelnde](developer.md) und [Marketing-Fachleute](marketer.md) mit [!DNL Adobe Journey Optimizer] arbeiten können.
 
@@ -50,11 +57,11 @@ Damit [Marketing-Fachleute](marketer.md) Nachrichten erstellen und senden könne
 
 Führen Sie folgende Schritte aus:
 
-1. **Richten Sie Kanalkonfigurationen ein**. Definieren Sie alle technischen Parameter, die für E-Mail, SMS, Push-Benachrichtigungen, Web-Push, Briefpost und andere Kanäle erforderlich sind:
+1. **Richten Sie Kanalkonfigurationen ein**. Definieren Sie alle technischen Parameter, die für E-Mail, SMS, Push-Benachrichtigungen, Web-Push, Direkt-Mail und andere Kanäle erforderlich sind:
 
    * Definieren Sie **Push-Benachrichtigungseinstellungen** sowohl in [!DNL Adobe Experience Platform] als auch in der Datenerfassung von Adobe Experience Platform. [Weitere Informationen](../../push/push-gs.md)
 
-   * Konfigurieren Sie **Web-Push** Benachrichtigungen), um Benachrichtigungen an mobile und Desktop-Browser zu senden. [Weitere Informationen](../../push/push-configuration-web.md)
+   * Konfigurieren Sie **Web-Push-Benachrichtigungen**, um Benachrichtigungen an Mobile- und Desktop-Browser zu senden. [Weitere Informationen](../../push/push-configuration-web.md)
 
    * Erstellen Sie **Kanalkonfigurationen**, um alle technischen Parameter zu konfigurieren, die für E-Mail, SMS, Push, In-App, Web und andere Kanäle erforderlich sind. [Weitere Informationen](../../configuration/channel-surfaces.md)
 
@@ -62,7 +69,7 @@ Führen Sie folgende Schritte aus:
 
    * Verwalten Sie die Anzahl der Tage, in denen **weitere Zustellversuche** unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](../../configuration/manage-suppression-list.md)
 
-   * Aktivieren Sie **Nachrichtenexport** auf der Ebene der Kanalkonfiguration, um gesendete E-Mail- und SMS-Inhalte bei Bedarf zu archivieren (Add-on-Angebot). [Weitere Informationen](../../configuration/message-export.md)
+   * Aktivieren Sie den **Nachrichtenexport** auf der Kanalkonfigurationsebene, um gesendete E-Mail- und SMS-Inhalte bei Bedarf zu archivieren (Add-on-Angebot). [Weitere Informationen](../../configuration/message-export.md)
 
 1. **Subdomains zuweisen**: Für jede neue Subdomain, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zuzuweisen. [Weitere Informationen](../../configuration/about-subdomain-delegation.md). Sie können bei Bedarf Subdomains von CNAME zu benutzerdefinierter Delegierung migrieren. [Weitere Informationen](../../configuration/custom-subdomain-migration.md)
 
@@ -92,7 +99,7 @@ Berücksichtigen Sie bei wachsenden Anforderungen Ihres Unternehmens die folgend
 
 * **IP-Aufwärmpläne**: Steigern Sie die Menge der E-Mail-Sendungen schrittweise, um die Reputation der Absendenden bei E-Mail-Anbietern aufzubauen. [Weitere Informationen](../../configuration/ip-warmup-gs.md)
 
-* **Ruhezeiten**: Konfigurieren von Regelsätzen für zeitbasierte Ausschlüsse, wenn Nachrichten während bestimmter Zeiträume nicht gesendet werden sollen. [Weitere Informationen](../../conflict-prioritization/quiet-hours.md)
+* **Ruhezeiten**: Konfigurieren Sie Regelsätze für zeitbasierte Ausschlüsse, wenn Nachrichten während bestimmter Zeiträume nicht gesendet werden sollen. [Weitere Informationen](../../conflict-prioritization/quiet-hours.md)
 
 ## Rollenübergreifendes Zusammenarbeiten
 
@@ -102,7 +109,7 @@ Ihre administrative Arbeit ermöglicht es allen Teams, erfolgreich zu sein:
 
 >[!TAB Unterstützen von Dateningenieurinnen und -ingenieuren]
 
-Zusammenarbeit mit [Dateningenieuren](data-engineer.md) bei der Verwaltung und dem Zugriff auf Daten. Lesen Sie die Übersicht [Erste Schritte mit dem Daten](../../data/gs-data.md), um die Schemata, Datensätze und Datenquellen zu verstehen, die Ihre Dateningenieure konfigurieren müssen.
+Arbeiten Sie mit [Dateningenieurinnen und -ingenieuren](data-engineer.md) bei Verwaltung und Zugriff auf Daten zusammen. Lesen Sie den Überblick [Erste Schritte mit dem Daten-Management](../../data/gs-data.md), um mehr über die Schemata, Datensätze und Datenquellen zu erfahren, die Ihre Dateningenieurinnen und -ingenieure konfigurieren müssen.
 
 * Erteilen von Berechtigungen für das Daten-Management und die Schemaerstellung
 * Genehmigen des Sandbox-Zugriffs für Entwicklung und Tests

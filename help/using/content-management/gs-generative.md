@@ -9,10 +9,17 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 5c1d6606524d2dd0105bcf746178b6bd98895aa7
+TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 92%
+source-wordcount: 999
+ht-degree: 100%
 
 ---
 
@@ -78,7 +85,7 @@ Sie können den KI-Assistenten in Adobe Journey Optimizer verwenden, um die Wirk
 
 >[!IMPORTANT]
 >
->* Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die entsprechenden [Leitplanken und Einschränkungen](#generative-guardrails).
+>* Bevor Sie diese Funktion verwenden, informieren Sie sich über die entsprechenden [Leitlinien und Einschränkungen](#generative-guardrails).
 >
 >
 >* Sie müssen einer [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} zustimmen, bevor Sie den KI-Assistenten in Adobe Journey Optimizer verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
@@ -119,7 +126,7 @@ Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des KI-Assistenten 
 
 * Der Assistent ist nur für den E-Mail-, Push- und SMS-Kanal verfügbar.
 
-### Inhaltsqualität, Eingabeaufforderungen und Feedback
+### Inhaltsqualität, Prompts und Feedback
 
 * Die Qualität des generierten Inhalts wird stark durch das von Ihnen definierte Marketing-Ziel bzw. den von Ihnen definierten Prompt beeinflusst. Verwenden Sie einen gut definierten Prompt, damit das GenAI-Modell diesen korrekt interpretieren kann. 
 * GenAI-Inhalte sind möglicherweise nicht immer genau: Bitte teilen Sie uns Ihr Feedback mit, damit unsere Ingenieurinnen und Ingenieure die Modelle verfeinern können.
@@ -142,12 +149,12 @@ Im Folgenden sind die allgemeinen Richtlinien zur Verwendung des KI-Assistenten 
 
 ### KI-Assistent für Personalisierungsausdrücke {#ai-assistant-personalization-editor-guardrails}
 
-Die folgenden Leitplanken gelten für den [KI-Assistenten für Personalisierungsausdrücke](generative-personalization-expressions.md) im [!UICONTROL Personalization-Editor] und in der E-Mail-Designer.
+Die folgenden Leitlinien gelten für den [KI-Assistenten für Personalisierungsausdrücke](generative-personalization-expressions.md) im [!UICONTROL Personalisierungseditor] und im E-Mail-Designer.
 
-* **Angebotsentscheidung und Erlebnisentscheidung** - Nicht unterstützt.
-* **Favoriten** — Nicht unterstützt.
-* **Gespeicherte Bedingungen** — Nicht unterstützt.
-* **Adobe Experience Manager-Inhaltsfragmente** — Nicht unterstützt.
+* **Angebots- und Erlebnis-Entscheidung**: Nicht unterstützt.
+* **Favoriten**: Nicht unterstützt.
+* **Gespeicherte Bedingungen**: Nicht unterstützt.
+* **Adobe Experience Manager-Inhaltsfragmente**: Nicht unterstützt.
 
 ## Funktionen des KI-Assistenten zur Inhaltserstellung {#generative-features}
 

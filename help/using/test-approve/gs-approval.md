@@ -5,10 +5,15 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 58d83c2d3c6c1d3b3c680e394323de33321eeb6e
+TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 53%
+source-wordcount: 984
+ht-degree: 100%
 
 ---
 
@@ -16,7 +21,7 @@ ht-degree: 53%
 
 ## Erste Schritte mit Genehmigungsrichtlinien {#gs}
 
-Mit [!DNL Journey Optimizer] können Sie einen Validierungsprozess einrichten, mit dem Marketing-Teams sicherstellen können, dass Kampagnen und Journey von den entsprechenden Stakeholdern geprüft und abgemeldet werden, bevor sie live geschaltet werden.
+Mit [!DNL Journey Optimizer] können Sie einen Genehmigungsprozess einrichten, mit dem Marketing-Teams sicherstellen können, dass Kampagnen und Journeys vor ihrer Live-Schaltung von den jeweiligen Stakeholderinnen und Stakeholdern geprüft und genehmigt werden.
 
 Genehmigungsrichtlinien führen einen strukturierten Workflow direkt in der Benutzeroberfläche ein. Dadurch entfällt die Notwendigkeit externer Medien wie E-Mail oder Aufgaben-Management-Tools und es wird sichergestellt, dass alle Genehmigungen zentral verwaltet und verfolgt werden.
 
@@ -26,9 +31,9 @@ Darüber hinaus bietet diese Funktion eine verbesserte Kontrolle über die Verö
 
 Bevor Sie beginnen, stellen Sie sicher, dass die folgenden Berechtigungen konfiguriert wurden.
 
-Um Journey und Kampagnen zu genehmigen und zu veröffentlichen, müssen Benutzenden die Berechtigungen **Genehmigen und veröffentlichen** und **Journey genehmigen und**) gewährt werden. [Weitere Informationen](../administration/permissions.md)
+Um auf Journeys und Kampagnen zugreifen sowie diese genehmigen und veröffentlichen zu können, müssen Benutzende über die Berechtigungen **Kampagnen genehmigen und veröffentlichen** und **Journeys genehmigen und veröffentlichen** verfügen. [Weitere Informationen](../administration/permissions.md)
 
-+++  Erfahren Sie, wie Sie genehmigungsbezogene Berechtigungen zuweisen
++++  Weitere Informationen zum Zuweisen von genehmigungsbezogenen Berechtigungen
 
 1. Gehen Sie im Produkt **Berechtigungen** zur Registerkarte **Rollen** und wählen Sie die gewünschte **Rolle** aus.
 
@@ -36,11 +41,11 @@ Um Journey und Kampagnen zu genehmigen und zu veröffentlichen, müssen Benutzen
 
 1. Fügen Sie die Ressource **Kampagnen** hinzu und wählen Sie dann **Kampagnen genehmigen und veröffentlichen** aus dem Dropdown-Menü aus.
 
-   ![Berechtigung zum Zuweisen, Genehmigen und Veröffentlichen &#x200B;](assets/permissions_approval.png){zoomable="yes"}
+   ![Zuweisen von Berechtigungen zum Genehmigen und Veröffentlichen von Kampagnen](assets/permissions_approval.png){zoomable="yes"}
 
 1. Fügen Sie die Ressource **Journey** hinzu und wählen Sie dann **Journeys genehmigen und veröffentlichen** aus dem Dropdown-Menü aus.
 
-   ![Berechtigung zum Zuweisen und Genehmigen von Journey](assets/permissions_approval_2.png){zoomable="yes"}
+   ![Zuweisen von Berechtigungen zum Genehmigen und Veröffentlichen von Journeys](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. Klicken Sie auf **Speichern**, um die Änderungen anzuwenden.
 
@@ -60,15 +65,15 @@ Die Benutzerin oder der Benutzer erhält eine E-Mail mit Anweisungen zum Zugriff
 
 Der globale Genehmigungsprozess sieht folgendermaßen aus:
 
-![Genehmigungsprozess](assets/approval-process.png){zoomable="yes"}
+![Genehmigungsprozessfluss](assets/approval-process.png){zoomable="yes"}
 
 1. **Einrichtung von Genehmigungsrichtlinien**
 
-   Ein Administrator erstellt eine Validierungsrichtlinie und definiert Bedingungen, unter denen die Richtlinie auf Journey oder Kampagnen angewendet werden soll. Sie können beispielsweise eine Validierungsrichtlinie erstellen, die erfordert, dass alle von einem bestimmten Benutzer erstellten geplanten Kampagnen vor der Aktivierung genehmigt werden. [Informationen zur Erstellung von Genehmigungsrichtlinien](approval-policies.md)
+   Eine bzw. ein Admin erstellt eine Genehmigungsrichtlinie, in der die Bedingungen definiert werden, unter denen die Richtlinie auf Journeys oder Kampagnen angewendet werden soll. Sie können beispielsweise eine Genehmigungsrichtlinie erstellen, die es erfordert, dass alle von einer bestimmten Person erstellten geplanten Kampagnen vor der Aktivierung genehmigt werden. [Informationen zur Erstellung von Genehmigungsrichtlinien](approval-policies.md)
 
 1. **Einreichung von Kampagnen/Journeys zur Genehmigung**
 
-   Die Kampagnen-/Journey-Ersteller erstellen eine Journey oder Kampagne und reichen sie zur Genehmigung ein. Die Kampagne/Journey wechselt in den Status „Wird überprüft“. In diesem Status können keine Änderungen vorgenommen werden, es sei denn, die Anfrage wird abgebrochen. [Informationen zum Anfordern einer Genehmigung](request-approval.md)
+   Die Erstellenden von Kampagnen/Journeys erstellen eine Journey oder Kampagne und reichen sie zur Genehmigung ein. Die Kampagne/Journey wechselt in den Status „Wird überprüft“. In diesem Status können keine Änderungen vorgenommen werden, es sei denn, die Anfrage wird abgebrochen. [Informationen zum Anfordern einer Genehmigung](request-approval.md)
 
    >[!NOTE]
    >
@@ -86,41 +91,41 @@ Sie können alle Genehmigungs- und Änderungsanfragen überwachen, die für eine
 
 ## Häufig gestellte Fragen {#faq}
 
-+++Muss ich für jede Kampagne oder Journey eine Validierungsrichtlinie erstellen?
++++Muss ich für jede Kampagne oder Journey eine Genehmigungsrichtlinie erstellen?
 
-Nein. Genehmigungsrichtlinien sind bedingt. Sie müssen nur eine Richtlinie erstellen, wenn Sie die Überprüfung für eine bestimmte Kampagnengruppe oder Journey erzwingen möchten (z. B. für alle geplanten Kampagnen, die von einem bestimmten Team erstellt wurden). Wenn für eine Kampagne oder Journey keine Richtlinie gilt, kann der Ersteller bzw. die Erstellerin direkt veröffentlichen, ohne die Genehmigung anzufordern.
+Nein. Genehmigungsrichtlinien sind bedingt. Sie müssen nur dann eine Richtlinie erstellen, wenn Sie die Überprüfung für eine bestimmte Gruppe an Kampagnen oder Journeys erzwingen möchten (z. B. für alle geplanten Kampagnen, die von einem bestimmten Team erstellt wurden). Wenn für eine Kampagne oder Journey keine Richtlinie gilt, können die Erstellenden sie direkt veröffentlichen, ohne eine Genehmigung anzufordern.
 
 +++
 
 +++Was passiert, wenn die genehmigende Person nicht verfügbar ist?
 
-Die Anfrage bleibt „In Prüfung“, bis eine genehmigende Person tätig wird. Sie können die Anfrage abbrechen (das Element an „Entwurf“ zurückgeben) und erneut senden, sobald die richtige genehmigende Person verfügbar ist. Administratoren können auch die Genehmigungsrichtlinie aktualisieren, um weitere genehmigende Personen hinzuzufügen.
+Die Anfrage bleibt im Status „Wird geprüft“, bis eine genehmigende Person tätig wird. Sie können die Anfrage abbrechen (das Element in den Status „Entwurf“ zurücksetzen) und erneut übermitteln, sobald die richtige genehmigende Person verfügbar ist. Admins können außerdem die Genehmigungsrichtlinie aktualisieren, um weitere genehmigende Personen hinzuzufügen.
 
 +++
 
 +++Kann ich eine Kampagne oder Journey bearbeiten, während die Genehmigung aussteht?
 
-Nein. Nach der Übermittlung zur Validierung befindet sich die Kampagne oder Journey in einem gesperrten Status „In Überprüfung“. Um Änderungen vorzunehmen, muss der Ersteller oder eine genehmigende Person die Anforderung zuerst abbrechen. Das Element kehrt zu „Entwurf“ zurück und kann vor dem erneuten Senden bearbeitet werden.
+Nein. Nach der Übermittlung zur Genehmigung befindet sich die Kampagne oder Journey im gesperrten Status „Wird geprüft“. Um Änderungen vorzunehmen, muss die erstellende oder eine genehmigende Person die Anfrage zuerst abbrechen. Das Element wird in den Status „Entwurf“ zurückgesetzt und kann vor dem erneuten Übermitteln bearbeitet werden.
 
 +++
 
-+++Ich sehe die Berechtigung Genehmigen und Veröffentlichen in der Dropdown-Liste nicht - was soll ich überprüfen?
++++Ich sehe die Berechtigung „Genehmigen und veröffentlichen“ in der Dropdown-Liste nicht. Was sollte ich überprüfen?
 
-Stellen Sie sicher, dass Sie zuerst die richtige Ressource hinzufügen. Für die Berechtigung **Kampagnen genehmigen und veröffentlichen** muss die Ressource **Kampagnen** zur Rolle hinzugefügt werden und **Journey genehmigen und veröffentlichen** ist die Ressource **Journey** erforderlich. Beide müssen separat hinzugefügt werden. [Erfahren Sie, wie Sie genehmigungsbezogene Berechtigungen zuweisen](#prerequisites)
+Stellen Sie zunächst sicher, dass Sie die richtige Ressource hinzufügen. Für die Berechtigung **Kampagnen genehmigen und veröffentlichen** muss die Ressource **Kampagnen** zur Rolle hinzugefügt werden und für **Journeys genehmigen und veröffentlichen** ist die Ressource **Journeys** erforderlich. Beide müssen separat hinzugefügt werden. [Weitere Informationen zum Zuweisen von genehmigungsbezogenen Berechtigungen](#prerequisites)
 
 +++
 
-+++Wie bestimmt [!DNL Journey Optimizer], welche Genehmigungsrichtlinie gilt, wenn mehr als eine Richtlinie übereinstimmen könnte?
++++Wie bestimmt [!DNL Journey Optimizer], welche Genehmigungsrichtlinie angewendet wird, wenn mehr als eine Richtlinie zutreffen könnte?
 
-Wenn mehrere aktive Genehmigungsrichtlinien auf dieselbe Journey oder Kampagne angewendet werden können, hat die Richtlinie, **zuletzt aktiviert wurde,**. Die in dieser Richtlinie definierten Benutzergruppen für genehmigende Personen sind diejenigen, die benachrichtigt werden und die Anfrage steuern.
+Wenn mehrere aktive Genehmigungsrichtlinien auf dieselbe Journey oder Kampagne angewendet werden können, hat die Richtlinie, die **zuletzt aktiviert wurde** Vorrang. Die in dieser Richtlinie definierten Benutzergruppen genehmigender Personen sind diejenigen, die benachrichtigt werden und die Anfrage verwalten.
 
 [Weitere Informationen](approval-policies.md#multiple-policies)
 
 +++
 
-+++Wenn ein Antragsteller mehreren Benutzergruppen angehört, kann er dann auswählen, an welche Gruppe die Genehmigungsanfrage gesendet werden soll?
++++Kann eine anfragende Person, die mehreren Benutzergruppen angehört, auswählen, welcher Gruppe die Genehmigungsanfrage gesendet wird?
 
-Nein. Anfordernde können nicht manuell auswählen, welche Benutzergruppe die Genehmigungsanfrage erhält oder weiterleitet. Die Benutzergruppen, die in der geltenden Genehmigungsrichtlinie angegeben sind, werden entsprechend [Richtlinienpriorität](approval-policies.md#multiple-policies) automatisch benachrichtigt.
+Nein. Anfragende Personen können nicht manuell auswählen, welche Benutzergruppe die Genehmigungsanfrage erhält oder weiterleitet. Die Benutzergruppen, die in der angewendeten Genehmigungsrichtlinie angegeben sind, werden entsprechend [Richtlinienpriorität](approval-policies.md#multiple-policies) automatisch benachrichtigt.
 
 +++
 

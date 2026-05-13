@@ -5,14 +5,20 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 90%
+source-wordcount: 2079
+ht-degree: 98%
 
 ---
 
-# Erste Schritte für Entwickler {#get-started-developers}
+# Erste Schritte für Entwickelnde {#get-started-developers}
 
 Als **Entwicklerin bzw. Entwickler** sind Sie für die Implementierung und Integration von [!DNL Adobe Journey Optimizer] in Ihre Anwendungen und Systeme verantwortlich. Sie können mit der Arbeit mit [!DNL Adobe Journey Optimizer] beginnen, sobald Ihnen [Systemadmin](administrator.md) und [Dateningenieurin bzw. -ingenieur](data-engineer.md) Zugriff auf Ihre Umgebung gewährt und diese vorbereitet haben.
 
@@ -85,7 +91,7 @@ Bei Web-basierten Implementierungen ist das Web SDK Ihr primärer Integrationspu
 
 1. **Konfigurieren von Datenströmen**: Erstellen und konfigurieren Sie einen Datenstrom in [!DNL Adobe Experience Platform Data Collection], während Journey Optimizer aktiviert ist. Erfahren Sie mehr in der [Dokumentation zu Datenströmen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de){target="_blank"}.
 
-1. **Web-Push-Benachrichtigungen aktivieren** (optional): Web-Push-Benachrichtigungen sind jetzt allgemein verfügbar. Konfigurieren Sie die [pushNotifications](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}Eigenschaft in Ihrer Web-SDK-Konfiguration und verwenden Sie den [sendPushSubscription-Befehl](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} zum Registrieren von Push-Abonnements. [Erfahren Sie mehr über die Web-Push-Konfiguration](../../push/push-configuration-web.md).
+1. **Aktivieren von Web-Push-Benachrichtigungen** (optional): Web-Push-Benachrichtigungen sind nun allgemein verfügbar. Konfigurieren Sie die [pushNotifications-Eigenschaft](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} in Ihrer Web-SDK-Konfiguration und verwenden Sie den [sendPushSubscription-Befehl](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} zum Registrieren von Push-Abonnements. [Erfahren Sie mehr zur Web-Push-Konfiguration](../../push/push-configuration-web.md).
 
 ### Implementieren von Code-basierten Erlebnissen (Web SDK)
 
@@ -163,11 +169,11 @@ Benutzerdefinierte Aktionen ermöglichen es Journeys, Ihre APIs aufzurufen. Als 
 
 1. **Grundlegendes zu den Funktionen von benutzerdefinierten Aktionen**: Benutzerdefinierte Aktionen können eine Verbindung zu Drittanbietersystemen wie Epsilon, Slack, Firebase oder Ihren eigenen Diensten herstellen. Weitere Informationen über [benutzerdefinierte Aktionen](../../action/action.md).
 
-1. **Arbeiten mit Aktionskonfigurationen**: [Ihre bzw. Ihr Admin](administrator.md) oder [Ihre Dateningenieurin bzw. Ihr Dateningenieur](data-engineer.md) konfiguriert die benutzerdefinierte Aktion in Journey Optimizer und definiert die API-Endpunkt-URL, Authentifizierungsmethode und Parameter. Sie geben ihnen Ihre API-Spezifikation. Erfahren Sie mehr über die [Konfiguration benutzerdefinierter Aktionen](../../action/about-custom-action-configuration.md). Sie können eine optionale **Fehlerantwort-Payload) für** Fallback-Logik in Verzweigungen mit Zeitüberschreitung/Fehler definieren.
+1. **Arbeiten mit Aktionskonfigurationen**: [Ihre bzw. Ihr Admin](administrator.md) oder [Ihre Dateningenieurin bzw. Ihr Dateningenieur](data-engineer.md) konfiguriert die benutzerdefinierte Aktion in Journey Optimizer und definiert die API-Endpunkt-URL, Authentifizierungsmethode und Parameter. Sie geben ihnen Ihre API-Spezifikation. Erfahren Sie mehr über die [Konfiguration benutzerdefinierter Aktionen](../../action/about-custom-action-configuration.md). Sie können eine optionale **Fehlerantwort-Payload** für eine umfassendere Fallback-Logik in Timeout-/Fehlerverzweigungen definieren.
 
 1. **Zurückgeben verwertbarer Daten**: Konzipieren Sie Ihre API so, dass sie Daten zurückgibt, die in nachfolgenden Journey-Schritten verwendet werden können. Erfahren Sie mehr über [Aktionsantworten](../../action/action-response.md).
 
-1. **Überwachen der Konsistenz benutzerdefinierter Aktionen**: Verwenden Sie das Dashboard zur Überwachung benutzerdefinierter Aktionen, um erfolgreiche Aufrufe, Fehler, Durchsatz, Antwortzeiten und Warteschlangen-Wartezeiten zu verfolgen. Erfahren Sie mehr über [Berichte für benutzerdefinierte Aktionen](../../action/reporting.md).
+1. **Überwachen des Zustands benutzerdefinierter Aktionen**: Verwenden Sie das Dashboard zur Überwachung benutzerdefinierter Aktionen, um erfolgreiche Aufrufe, Fehler, Durchsatz, Antwortzeiten und Warteschlangen-Wartezeiten zu verfolgen. Erfahren Sie mehr über das [Reporting von benutzerdefinierten Aktionen](../../action/reporting.md).
 
 1. **Implementieren einer Ratenbegrenzung**: Stellen Sie sicher, dass Ihre Endpunkte das erwartete Volumen verarbeiten können. Journey Optimizer begrenzt die Anzahl der Aufrufe pro Sekunde auf 5.000. Ihr System sollte jedoch resilient sein. Erfahren Sie mehr über [Begrenzung und Drosselung](../../configuration/external-systems.md).
 
@@ -187,7 +193,7 @@ Journey Optimizer bietet umfassende REST-APIs für den programmgesteuerten Zugri
 
 1. **Entscheidungs-Management-APIs**: Verwenden Sie spezielle APIs für Angebotsverwaltung und Entscheidungsfindung. Erfahren Sie mehr im [Handbuch zur Entscheidungs-Management-API](../../offers/api-reference/getting-started.md).
 
-1. **Decisioning-Migrations-APIs**: Programmgesteuerte Migration von Entscheidungs-Management-Entitäten zu Decisioning mit flexiblen Bereichen, automatisierter Validierung und Rollback-Unterstützung. Weitere Informationen finden Sie im [Handbuch zur Decisioning-API](../../experience-decisioning/decisioning-migration-api.md).
+1. **Entscheidungsfindungsmigrations-APIs**: Migrieren Sie Entscheidungs-Management-Entitäten programmgesteuert in die Entscheidungsfindung mit flexiblen Bereichen, automatisierter Validierung und Rollback-Unterstützung. Erfahren Sie mehr im [Handbuch zur Entscheidungsfindungsmigrations-API](../../experience-decisioning/decisioning-migration-api.md).
 
 1. **SMS-Webhooks**: Konfigurieren Sie eingehende Webhooks, um eingehende Nachrichten und Feedback-Webhooks zu erfassen, damit Versandbestätigungen und Statusaktualisierungen empfangen werden können. [Weitere Informationen](../../sms/sms-webhook.md).
 
@@ -279,9 +285,9 @@ Arbeiten Sie mit [Marketing-Fachleuten](marketer.md) bei Journey-Anforderungen u
 
 Bereit, mit dem Erstellen zu beginnen? Wählen Sie Ihren ersten Implementierungsbereich aus den obigen Abschnitten:
 
-1. **Mobile App?** Beginnen Sie mit [Mobile SDK-Integration](#mobile-integration)
-2. **Website?** Beginnen Sie mit [Einrichten von Web SDK](#web-implementation)
-3. **API-Integration?** Wechseln zu [Arbeiten mit APIs](#apis)
-4. **Benutzerdefiniertes System?** ([&#x200B; Aktionen](#custom-actions)
+1. **App?** Beginnen Sie mit der [Mobile-SDK-Integration](#mobile-integration)
+2. **Website?** Beginnen Sie mit der [Web-SDK-Einrichtung](#web-implementation)
+3. **API-Integration?** Wechseln Sie zu [Arbeiten mit APIs](#apis)
+4. **Benutzerdefiniertes System?** Wechseln Sie zu [Benutzerdefinierte Aktionen](#custom-actions)
 
 Jeder Abschnitt enthält Links zu detaillierter technischer Dokumentation, Code-Beispielen und Tutorials, die Sie bei der Implementierung unterstützen.
