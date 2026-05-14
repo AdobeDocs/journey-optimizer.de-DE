@@ -7,25 +7,26 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 9a63887c9bb55aac622c16f71130e8e2c9a6cb18
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: 994993397cf20a8eca514fad31ed3c9ece98dae2
 workflow-type: tm+mt
-source-wordcount: 1986
-ht-degree: 13%
+source-wordcount: 2054
+ht-degree: 10%
 
 ---
 
 
 ## Hinweise zur Vorabversion vom Mai 2026 {#may-26-rn}
 
-**Die nachfolgenden Vorab- Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentationen werden in den Versionshinweisen am Veröffentlichungsdatum veröffentlicht.
+**Die nachfolgenden Vorab- Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden**. Links, Bildschirme und aktualisierte Dokumentationen werden veröffentlicht, sobald Änderungen in der Produktion live sind. Die meisten Änderungen werden am Veröffentlichungsdatum bereitgestellt, einige werden jedoch möglicherweise später eingeführt. Weitere Informationen finden Sie unter Verfügbarkeitsdatum für jeden Eintrag.
 
 Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Veröffentlichungsdatum**: 19.-20. Mai 2026
 
 ### Neue Funktionen {#may-26-features}
+
+Diese Version umfasst die folgenden Funktionen.
 
 <table>
 <thead>
@@ -65,13 +66,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Automatisches Schließen des Journey für nicht wiederkehrende Zielgruppen</strong><br/></th>
+<th><strong>Automatischer Abschluss für nicht wiederkehrende Journey beim Lesen von Zielgruppen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Einmalige Journey <strong>Zielgruppe lesen</strong> werden jetzt automatisch geschlossen, sobald das letzte aktive Profil beendet wurde. Zuvor blieben diese Journey-<strong> bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit </strong>Live), selbst wenn keine Profile mehr durch sie hindurch strömten. Mit dieser Verbesserung wechseln diese Journey auf den Status <strong>Beendet</strong> sobald die Ausführung abgeschlossen ist, sodass Ihr Journey-Bestand ohne manuelles Eingreifen korrekt bleibt.</p>
+<p>Einmalige Journey <strong>Zielgruppe lesen</strong> werden jetzt automatisch geschlossen, sobald das letzte aktive Profil beendet wurde. Zuvor blieben diese Journey-<strong> bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit </strong>Live), selbst wenn keine Profile mehr durch sie hindurch strömten. Mit dieser Verbesserung spiegelt der Journey-Status den tatsächlichen Ausführungsstatus nach Abschluss wider, sodass der Journey-Bestand ohne manuelles Eingreifen stets korrekt ist.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
 <p>Verfügbarkeitsdatum: 19. Mai 2026</p>
 </td>
@@ -82,13 +83,14 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Vom Trigger über eine Endaktivität orchestrierte Kampagnen</strong><br/></th>
+<th><strong>Verknüpfte koordinierte Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt einen Trigger für eine orchestrierte Kampagne direkt über die Endaktivität einer anderen orchestrierten Kampagne durchführen. Sie können optional Parameter an die Zielkampagne übergeben.</p>
+<p>Orchestrierte Kampagnen können jetzt miteinander verknüpft werden, indem eine orchestrierte Kampagne direkt über die „Endaktivität“ einer anderen orchestrierten <strong> ausgelöst </strong>.</p>
+<p>Dies ermöglicht es, komplexe Orchestrierungslogik in kleinere, wiederverwendbare Flüsse zu unterteilen, die von mehreren übergeordneten Kampagnen aufgerufen werden können, anstatt jedes Mal neu aufgebaut zu werden. Die zur Laufzeit übergebene Payload ist für die Segmentierung und Personalisierung in der nachgelagerten Kampagne verfügbar, sodass jede verknüpfte Kampagne sich basierend auf dem empfangenen Kontext verhalten kann.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14116">DOCAC-14116</a></p>
 <p>Verfügbarkeitsdatum: 19. Mai 2026</p>
 </td>
@@ -188,13 +190,13 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 <table>
 <thead>
 <tr>
-<th><strong>Aus Datei auswählen in orchestrierten Kampagnen</strong><br/></th>
+<th><strong>Dateibasiertes Targeting für koordinierte Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt eine reduzierte Datei als Zielgruppenquelle für eine orchestrierte Kampagne verwenden, ohne die Datei zuerst in Adobe Experience Platform aufzunehmen. Die Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz beibehalten.</p>
+<p>Orchestrierte Kampagnen unterstützen jetzt das direkte Laden einer CSV- oder TXT-Datei in die Kampagnen-Arbeitsfläche als Zielgruppe, ohne die Datei zuerst in Adobe Experience Platform aufnehmen zu müssen. Die Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz beibehalten. Während der Dateieinrichtung können Sie Spaltenzuordnungen, Datentypen, die NULL-Verarbeitung und Fehlerrichtlinien pro Spalte definieren. Dies unterstützt Ad-hoc-Sendungen oder Partnerlisten-Kampagnen, bei denen der Aufbau einer vollständigen Aufnahme-Pipeline nicht praktisch ist. </p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Dokumentations-JIRA-Aufgabe: <a href="https://jira.corp.adobe.com/browse/DOCAC-14704">DOCAC-14704</a></p>
 <p>Verfügbarkeitsdatum: 28. Mai 2026</p>
@@ -223,17 +225,20 @@ Siehe auch [Vorab veröffentlichte Versionshinweise zu Adobe Experience Platform
 
 ### Verbesserungen {#may-26-improv}
 
-Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
+Die folgenden Verbesserungen sind für diese Version vorgesehen.
 
-#### KI
+<!--
+#### AI
 
-* **Journey Agent - Analysieren** - Journey Agent enthält jetzt neue Analysefähigkeiten. Beim Navigieren zum Journey-Startbildschirm wird auf der rechten Seite ein neues Bedienfeld KI-Empfehlungen angezeigt, in dem Karten mit umsetzbaren Einblicken angezeigt werden. Wenn Sie auf eine Karte klicken, gelangen Sie direkt zur entsprechenden Journey und öffnen das rechte Bedienfeld mit einer detaillierten Empfehlung zur Optimierung der Journey-Leistung.
+* **Journey Agent – Analyze** - Journey Agent now includes new Analyze skills. When navigating to the Journey home screen, a new AI recommendations panel appears on the right side, surfacing cards with actionable insights. Clicking a card takes you directly to the relevant journey and opens the right panel with a detailed recommendation to help optimize journey performance.
 
-  Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
+  This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.
 
-  Dokumentations-JIRA-Aufgabe: [DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
+  Documentation JIRA task: [DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
 
-  Verfügbarkeitsdatum: 19. Mai 2026
+  Availability date: May 19, 2026
+
+-->
 
 #### Kampagnen
 
@@ -245,7 +250,7 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
   Verfügbarkeitsdatum: 19. Mai 2026
 
-* **Kundenwarnungen für Kampagnen-Lebenszyklus-Ereignisse** - Neue Systemwarnungen benachrichtigen Sie jetzt über wichtige Lebenszyklus-Ereignisse für Aktionen und API-ausgelöste Kampagnen. Abonnieren Sie dies auf Sandbox-Ebene oder direkt für eine bestimmte Kampagne aus dem Kampagnen-Inventar.
+* **Kundenwarnungen für Kampagnen-Lebenszyklus-Ereignisse** - Neue Systemwarnungen benachrichtigen Sie jetzt über wichtige Lebenszyklus-Ereignisse für Aktionen und API-ausgelöste Kampagnen. Abonnieren Sie auf Sandbox-Ebene.
 
   Dokumentations-JIRA-Aufgabe: [DOCAC-14539](https://jira.corp.adobe.com/browse/DOCAC-14539)
 
@@ -331,11 +336,13 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 #### E-Mail
 
-* **Personalisierung des E-Mail-Headers mit Empfängern** - Sie können jetzt E-Mail-Header auf Kampagnenebene anpassen, indem Sie die globalen Kanalkonfigurationen mit Personalisierungsparametern überschreiben.
+**E-Mail-Absenderdetails nach Empfänger und Kampagne personalisieren** - Orchestrierte Kampagnen unterstützen jetzt die Personalisierung von E-Mail-Header-Feldern, einschließlich Absendername, Absenderadresse und Antwortadresse, mithilfe von Profilattributen oder relationalen Daten. Auf diese Weise können Absenderdetails den relevanten Berater, Standort oder die Zweigstelle für jeden Empfänger widerspiegeln, anstatt alle Sendungen über eine einzelne Unternehmensadresse weiterzuleiten.
 
-  Dokumentations-JIRA-Aufgabe: [DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)
+Header-Werte können auf Kanalebene festgelegt und pro Kampagne überschrieben werden, indem kontextuelle Daten verwendet werden, um die Kontrolle zu verbessern.
 
-  Verfügbarkeitsdatum: 29. Mai 2026
+Dokumentations-JIRA-Aufgabe: [DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)
+
+Verfügbarkeitsdatum: 29. Mai 2026
 
 #### Reporting
 
@@ -365,7 +372,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -757,7 +764,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -1048,7 +1055,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1301,7 +1308,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1478,7 +1485,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
