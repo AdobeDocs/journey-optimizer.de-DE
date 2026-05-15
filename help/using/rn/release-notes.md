@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
+source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
 workflow-type: tm+mt
-source-wordcount: 2578
-ht-degree: 82%
+source-wordcount: 2625
+ht-degree: 80%
 
 ---
 
@@ -50,8 +50,13 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
+>[!NOTE]
+>
+>Möchten Sie eine Vorschau auf das, was kommt? In den [Hinweise zur Vorabversion](e-release-notes.md) erhalten Sie einen ersten Blick auf bevorstehende Funktionen, bevor sie offiziell veröffentlicht werden.
+
 ## Updates vom Mai 2026 {#may-26-rn}
 
+Die folgenden Funktionen und Verbesserungen wurden im Mai 2026 veröffentlicht.
 
 <table>
 <thead>
@@ -72,7 +77,6 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -148,6 +152,8 @@ Aufgrund dieses Modells werden die Versionshinweise zwischen den monatlichen Ver
 
 ### Verbesserungen {#may-26-improv}
 
+Im Mai 2026 wurden auch die folgenden Verbesserungen veröffentlicht.
+
 #### Entscheidungsfindung
 
 * **Decisioning-Migrations-Workflow**-APIs - Der API-Vertrag zum Erstellen von Abhängigkeitsanalysen und Migrations-Workflows wurde aktualisiert: Übergeben Sie **`request-level`** als **Abfrageparameter** an die Anfrage-URL (`sandbox`, `offer` oder `decision`). Anfrageebene darf nicht mehr im JSON-Text gesendet werden. [Weitere Informationen](../experience-decisioning/decisioning-migration-api.md)
@@ -182,17 +188,12 @@ The following capabilities and enhancements are scheduled for release in the nex
 
 ## Versionshinweise April &#39;26 {#april-26-rn}
 
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-Neue Funktionen und Verbesserungen, die Anfang April veröffentlicht wurden, werden mit ihrem Verfügbarkeitsdatum aufgeführt.
 
 **Veröffentlichungsdatum**: 28.–29. April 2026
 
 ### Neue Funktionen {#april-26-features}
+
+Die folgenden Funktionen wurden im April 2026 veröffentlicht.
 
 <table>
 <thead>
@@ -418,6 +419,8 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 </table>
 
 ### Verbesserungen {#april-26-improv}
+
+Die folgenden Verbesserungen wurden ebenfalls im April 2026 veröffentlicht.
 
 #### KI
 
