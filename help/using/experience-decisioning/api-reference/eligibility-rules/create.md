@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 39c6e82e-c1b1-4dda-a941-3db6324cef37
 version: Journey Orchestration
 source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details der neu erstellten Eignungsregel einschließlich der ID zurückgegeben. Sie können die ID in späteren Schritten verwenden, um Ihre Eignungsregel zu aktualisieren oder zu löschen. 
+Bei einer erfolgreichen Antwort werden die Details der neu erstellten Eignungsregel einschließlich der ID zurückgegeben. Sie können die ID in späteren Schritten verwenden, um Ihre Eignungsregel zu aktualisieren oder zu löschen.
 
 ```json
 {

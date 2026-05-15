@@ -5,10 +5,11 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
+source-git-commit: e53edd0f6f17f5b764075f61600294b91a020421
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 44%
+source-wordcount: '288'
+ht-degree: 31%
 
 ---
 
@@ -24,7 +25,7 @@ Gehen Sie wie folgt vor, um über eine Kampagne einen Nachrichten-Posteingang zu
 
    * **[!UICONTROL Geplant – Marketing]**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Nachrichten des Typs **Marketing**. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
 
-   * **[!UICONTROL API-ausgelöst – Marketing/Transaktion]**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt.  API-ausgelöste Kampagnen zielen auf den Versand von Nachrichten des Typs **Marketing** oder **Transaktion** ab. Beim Typ „Transaktion“ handelt es sich um Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs auslösen](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL API-ausgelöst – Marketing/Transaktion]**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt. API-ausgelöste Kampagnen zielen auf den Versand von Nachrichten des Typs **Marketing** oder **Transaktion** ab. Beim Typ „Transaktion“ handelt es sich um Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs Trigger durchführen](../campaigns/api-triggered-campaigns.md)
 
 1. Geben **[!UICONTROL auf der Registerkarte]** Eigenschaften“ einen Namen und eine Beschreibung für die Kampagne an.
 
