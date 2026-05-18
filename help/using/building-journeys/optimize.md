@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 470
-ht-degree: 41%
+ht-degree: 45%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="Aktivität „Optimieren“"
->abstract="Mit der Aktivität **Optimieren** können Sie festlegen, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade auf der Grundlage spezifischer Kriterien erstellen, darunter Experimente, Targeting und bestimmte Bedingungen. Beachten Sie, dass **Aktivität „Optimieren** das neue Vehikel zum Erstellen bedingter Pfade in Journey ist. Sie ersetzt die frühere Aktivität **Bedingung**."
+>abstract="Mit der Aktivität **Optimieren** können Sie festlegen, wie Einzelpersonen Ihre Journey durchlaufen, indem Sie mehrere Pfade auf der Grundlage spezifischer Kriterien erstellen, darunter Experimente, Targeting und bestimmte Bedingungen. Beachten Sie, dass die Aktivität **Optimieren** die neue Funktion zum Erstellen bedingter Pfade in Journeys ist. Sie ersetzt die frühere Aktivität **Bedingung**."
 
 >[!IMPORTANT]
 >

@@ -40,7 +40,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1767
-ht-degree: 63%
+ht-degree: 70%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Zielgruppen-Qualifizierung"
->abstract="Trigger Journey Einstieg oder Fortsetzung, wenn ein Profil sich für eine [!DNL Adobe Experience Platform] Zielgruppe qualifiziert oder diese verlässt. Empfohlen für Streaming-Zielgruppen; Verwenden der Aktivität „Zielgruppe lesen“ für Batch-Szenarien."
+>abstract="Lösen Sie den Einstieg in oder die Fortsetzung einer Journey aus, wenn sich ein Profil für eine [!DNL Adobe Experience Platform]-Zielgruppe qualifiziert oder diese verlässt. Empfohlen für Streaming-Zielgruppen; Verwenden Sie die Aktivität „Zielgruppe lesen“ für Batch-Szenarien."
 
 ## Informationen zu Zielgruppen-Qualifizierungsereignissen{#about-segment-qualification}
 
@@ -74,17 +74,17 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Label"
->abstract="Fügen Sie eine optionale Bezeichnung hinzu, um diese Aktivität in Reporting- und Testmodusprotokollen zu identifizieren."
+>abstract="Fügen Sie ein optionales Label hinzu, um die Aktivität in den Reporting- und Testmodusprotokollen zu identifizieren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Zielgruppe"
->abstract="Wählen Sie die [!DNL Adobe Experience Platform] Zielgruppe aus, die genutzt werden soll. Die Journey überwacht Profileintritte und -austritte aus dieser Zielgruppe."
+>abstract="Wählen Sie die [!DNL Adobe Experience Platform]-Zielgruppe aus, die genutzt werden soll. Die Journey überwacht Profileintritte und -ausstiege für diese Zielgruppe."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Verhalten"
->abstract="Wählen Sie aus, ob Zielgruppeneintritte, -austritte oder beides überwacht werden sollen."
+>abstract="Wählen Sie aus, ob Zielgruppeneintritte, -ausstiege oder beides überwacht werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
@@ -94,7 +94,7 @@ Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Zielgruppen-Qualifizier
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="Zusammenführungsrichtlinie"
->abstract="Die Zusammenführungsrichtlinie wird automatisch von der ausgewählten Zielgruppe abgerufen und auf der gesamten Journey angewendet."
+>abstract="Die Zusammenführungsrichtlinie wird automatisch von der ausgewählten Zielgruppe abgerufen und auf die gesamte Journey angewendet."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Weitere Informationen zu Zusammenführungsrichtlinien"
 
 

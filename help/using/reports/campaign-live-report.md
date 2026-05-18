@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 3575
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -486,7 +486,7 @@ Das Widget **[!UICONTROL SMS – Leistung nach Datum]** bietet einen detailliert
 
 +++
 
-### SMS - Fehlergründe {#sms-error-reasons}
+### SMS – Fehlergründe {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -495,7 +495,7 @@ Das Widget **[!UICONTROL SMS – Leistung nach Datum]** bietet einen detailliert
 
 Die Graphen und die Tabelle **[!UICONTROL Ausschlussgründe]** ermöglichen es Ihnen, die spezifischen Fehler zu identifizieren, die beim Versand Ihrer SMS-Nachrichten in den letzten 24 Stunden aufgetreten sind, was eine gründliche Analyse der aufgetretenen Probleme erleichtert.
 
-### SMS - Gründe für Ausschluss {#sms-excluded-reasons}
+### SMS – Ausschlussgründe {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -572,7 +572,7 @@ Die Tabelle **[!UICONTROL Interaktionen nach Element]** enthält umfassende Info
 
 Im **[!UICONTROL Live-Bericht]** in Campaign werden auf der Registerkarte **[!UICONTROL Briefpost]** die wichtigsten Informationen zu Ihrer Briefpost aufgeführt.
 
-### Briefpost - Versandstatistiken {#direct-mail-sending}
+### Direkt-Mail – Versandstatistiken {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -595,7 +595,7 @@ Die Tabelle **[!UICONTROL Briefpost – Versandstatistiken]** bietet eine übers
 
 +++
 
-### Briefpost - Fehlergründe {#direct-mail-error-reasons}
+### Direkt-Mail – Fehlergründe {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -606,7 +606,7 @@ Die Tabelle **[!UICONTROL Briefpost – Versandstatistiken]** bietet eine übers
 
 Die Graphen und die Tabelle **[!UICONTROL Briefpost – Fehlergründe]** bieten die Möglichkeit, spezifische Fehler zu identifizieren, die während des Sendevorgangs Ihrer Briefpost aufgetreten sind. Dies ermöglicht eine detaillierte Analyse aller in den letzten 24 Stunden aufgetretenen Probleme.
 
-### Briefpost - Gründe für Ausschluss {#direct-mail-excluded-reasons}
+### Direkt-Mail – Ausschlussgründe {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

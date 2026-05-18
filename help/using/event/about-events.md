@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2152
-ht-degree: 65%
+ht-degree: 68%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Journey-Ereignisse"
->abstract="Journey Optimizer unterstützt in Journey drei Ereignistypen: unitäre Ereignisse, die mit dem Verhalten einer bestimmten Person verknüpft sind (z. B. ein Kauf oder ein Treuemeilenstein), Geschäftsereignisse, die durch ein globales Ereignis ausgelöst werden (z. B. eine Flugstornierung oder eine Stock-Aktualisierung), und Zielgruppen-Qualifizierungsereignisse, die ausgelöst werden, wenn ein Profil eine Zielgruppe betritt oder verlässt. Verwenden Sie -Ereignisse, um Journey in Triggern zusammenzustellen und die richtigen Aktionen für Ihre Profile zu orchestrieren."
+>abstract="Journey Optimizer unterstützt in Journeys drei Ereignistypen: unitäre Ereignisse, die mit dem Verhalten einer bestimmten Person verknüpft sind (z. B. ein Kauf oder ein Treuemeilenstein), Geschäftsereignisse, die durch ein globales Ereignis ausgelöst werden (z. B. eine Flugstornierung oder ein Aktien-Update), und Zielgruppen-Qualifizierungsereignisse, die ausgelöst werden, wenn ein Profil in eine Zielgruppe aufgenommen wird oder aus einer Zielgruppe aussteigt. Verwenden Sie Ereignisse, um Journeys auszulösen und die richtigen Aktionen für Ihre Profile zu orchestrieren."
 
 Ereignisse ermöglichen es, Journeys einzeln auszulösen und allen Benutzenden beim Eintritt in die Journey Nachrichten in Echtzeit zu senden.
 

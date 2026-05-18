@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2189
-ht-degree: 88%
+ht-degree: 91%
 
 ---
 
@@ -270,12 +270,12 @@ Nachdem Ihre Push-Anmeldedaten erstellt haben, müssen Sie eine Konfiguration er
 
 Sie können Ihre Konfiguration jetzt beim Erstellen Ihrer Push-Benachrichtigungen auswählen.
 
-### App-ID personalisieren (optional) {#app-id-personalization}
+### Personalisieren der App-ID (optional) {#app-id-personalization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_app_id"
->title="App-ID personalisieren"
->abstract="Wenn Sie mehrere Mobile Apps verwalten, speichern Sie jede App-ID im Profil und verwenden Sie eine einzige Push-Kanal-Konfiguration. Öffnen Sie den Personalisierungseditor neben dem Feld App-ID , um ein Profilattribut auszuwählen. Der Ausdruck wird zum Sendezeitpunkt für jede Empfängerin und jeden Empfänger ausgewertet. Stellen Sie sicher, dass für jede App-ID, die Ihr Ausdruck zurückgeben kann, Push-Anmeldeinformationen vorhanden sind."
+>title="Personalisieren der App-ID"
+>abstract="Wenn Sie mehrere Apps verwalten, speichern Sie jede App-ID im Profil und verwenden Sie eine einzige Push-Kanalkonfiguration. Öffnen Sie den Personalisierungseditor neben dem Feld „App-ID“, um ein Profilattribut auszuwählen. Der Ausdruck wird zum Sendezeitpunkt für jede Empfängerin und jeden Empfänger ausgewertet. Stellen Sie sicher, dass für jede App-ID, die Ihr Ausdruck zurückgeben kann, Push-Anmeldedaten vorhanden sind."
 
 Wenn Sie viele Marken oder Mandanten mit separaten Programmen haben, können Sie jede **[!UICONTROL App-ID]** im Profil speichern und über eine einzige Kanalkonfiguration für jeden Empfänger eine Push-Benachrichtigung an die richtige Mobile App senden.
 

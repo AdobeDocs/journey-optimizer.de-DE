@@ -8,10 +8,10 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: 4c306ef5dddca4917b6b964979023b9574f59a90
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery_history"
 >title="Verlauf in Tagen"
->abstract="Mit dieser Einstellung wird festgelegt, wie lange diese Liste beibehalten wird. Ein Wert von 0 bedeutet eine unbegrenzte Beibehaltung, es werden keine Datensätze entfernt."
+>abstract="Mit dieser Einstellung wird festgelegt, wie lange diese Liste beibehalten wird. Der Wert 0 bedeutet eine unbegrenzte Beibehaltung; es werden keine Einträge entfernt."
 
 Die Aktivität **[!UICONTROL Inkrementelle Abfrage]** ist eine **[!UICONTROL Targeting]**-Aktivität, die bei jeder Ausführung der orchestrierten Kampagne eine Datenbankabfrage ausführt. Wichtig ist, dass es immer nur **neue** Datensätze ausgibt. Alle Personen, die bereits in einer früheren Ausführung aufgenommen wurden, werden ausgeschlossen, sodass Sie nicht dieselben Personen erneut ansprechen oder dieselben Zeilen erneut exportieren müssen.
 

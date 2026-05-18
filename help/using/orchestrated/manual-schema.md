@@ -17,7 +17,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 932
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -157,7 +157,7 @@ Nachdem Sie Ihr Schema definiert haben, können Sie nun basierend darauf einen D
 
 Jetzt müssen Sie Ihren Datensatz für orchestrierte Kampagnen aktivieren.
 
-## Aktivieren eines Datensatzes für koordinierte Kampagnen {#enable}
+## Aktivieren eines Datensatzes für orchestrierte Kampagnen {#enable}
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"

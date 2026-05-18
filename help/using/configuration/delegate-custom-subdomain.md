@@ -138,7 +138,7 @@ Um eine benutzerdefinierte Subdomain einzurichten, führen Sie die folgenden Sch
 >Both Data and CDN subdomains must be included in the same certificate.
 -->
 
-## Schritte der Feedback-Schleife abschließen {#feedback-loop-steps}
+## Abschließen der Schritte der Feedback-Schleife {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"

@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1089
-ht-degree: 59%
+ht-degree: 64%
 
 ---
 
@@ -72,7 +72,7 @@ Geben Sie beim Konfigurieren einer neuen [E-Mail-Kanalkonfiguration](email-setti
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_sender_header"
 >title="Absender-Header"
->abstract="Verwenden Sie diese optionalen Felder, wenn sich die sendende Entität (der Absender) von der Authoring-Entität (von) unterscheidet: z. B. ein übergeordnetes Unternehmen, das Nachrichten für eine untergeordnete Marke sendet, oder eine Agentur, die Nachrichten für mehrere Kunden sendet. E-Mail-Clients, die dies unterstützen, rendern ihn normalerweise als „Absender im Namen von“ oder zeigen einen „via“-Indikator an."
+>abstract="Verwenden Sie diese optionalen Felder, wenn sich die sendende Entität (Absender) von der erstellenden Entität (Von) unterscheidet: z. B. ein übergeordnetes Unternehmen, das Nachrichten für eine untergeordnete Marke sendet, oder eine Agentur, die Nachrichten für mehrere Kundinnen bzw. Kunden sendet. E-Mail-Clients, die diese Funktion unterstützen, stellen dies in der Regel als „Absender im Namen von“ dar oder zeigen den Hinweis „über“ an."
 
 Bei einigen Anwendungsfällen muss sich das Postfach, das die Nachricht übermittelt, vom **Von**-Autor unterscheiden, z. B. eine übergeordnete Organisation, die im Namen einer Tochtergesellschaft sendet, ein gemeinsames Marketing-Team für mehrere Marken oder eine Agentur, die für mehrere Kunden sendet.
 

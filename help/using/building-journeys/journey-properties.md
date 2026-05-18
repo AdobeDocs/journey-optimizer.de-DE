@@ -42,7 +42,7 @@ topic_v2:
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -53,7 +53,7 @@ Verwenden Sie Journey-Eigenschaften, um globale Einstellungen für Ihren Journey
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Journey-Eigenschaften"
->abstract="Konfigurieren Sie globale Einstellungen für diese Journey, einschließlich Name, Tags, Eintrittsregeln, Zeitzone, Datumsangaben, Zeitüberschreitung und Konfliktmanagement. Schreibgeschützte Parameter sind standardmäßig ausgeblendet. Die verfügbaren Optionen variieren je nach Journey-Status, Berechtigungen und Produktkonfiguration."
+>abstract="Konfigurieren Sie globale Einstellungen für diese Journey, einschließlich Name, Tags, Eintrittsregeln, Zeitzone, Datumsangaben, Zeitüberschreitung und Konflikt-Management. Schreibgeschützte Parameter sind standardmäßig ausgeblendet. Die verfügbaren Optionen variieren je nach Journey-Status, Berechtigungen und Produktkonfiguration."
 
 ## Zugreifen auf die Eigenschaften einer Journey {#access-properties}
 
@@ -346,7 +346,7 @@ Ab [!DNL Adobe Journey Optimizer] Version Juni 2024 wurde die globale Zeitübers
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="Zusammenführungsrichtlinie"
->abstract="Die Zusammenführungsrichtlinie wird automatisch basierend auf Ihrem ausgewählten Ereignis oder Ihrer ausgewählten Zielgruppe abgerufen. Diese Zusammenführungsrichtlinie wird auf der gesamten Journey verwendet."
+>abstract="Die Zusammenführungsrichtlinie wird automatisch basierend auf Ihrem ausgewählten Ereignis oder Ihrer ausgewählten Zielgruppe abgerufen. Diese Zusammenführungsrichtlinie wird für die gesamte Journey verwendet."
 
 [!DNL Adobe Journey Optimizer] verwendet Zusammenführungsrichtlinien beim Abrufen von Profildaten aus [!DNL Adobe Experience Platform]. Je nach Journey-Typ werden unterschiedliche Zusammenführungsrichtlinien verwendet:
 

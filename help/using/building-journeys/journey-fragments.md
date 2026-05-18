@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -47,8 +47,8 @@ Sie können die Liste nach Fragmentname, Status, Erstellungsdatum, Ersteller, Da
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
->title="Als Journey-Fragment speichern"
->abstract="Geben Sie einen eindeutigen Namen für Ihr Fragment ein und klicken Sie auf Speichern . Die ausgewählten Knoten werden als wiederverwendbares Fragment gespeichert, das im Fragmentinventar verfügbar ist."
+>title="Speichern als Journey-Fragment"
+>abstract="Geben Sie einen eindeutigen Namen für Ihr Fragment ein und klicken Sie auf „Speichern“. Die ausgewählten Knoten werden als wiederverwendbares Fragment gespeichert, das im Fragmentinventar verfügbar ist."
 
 Sie können ein Journey-Fragment auf zwei Arten erstellen: direkt über die Journey-Arbeitsfläche (empfohlen) oder über das Fragmentinventar.
 
@@ -92,8 +92,8 @@ So erstellen Sie ein Fragment direkt aus dem Inventar:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
->title="Journey von Fragmenteigenschaften"
->abstract="Öffnen Sie ein Fragment aus dem Inventar, um seine Knoten, Eigenschaften, Tags oder Beschriftungen zu ändern. Aktive Fragmente müssen deaktiviert werden, bevor sie bearbeitet werden können."
+>title="Journey-Fragmenteigenschaften"
+>abstract="Öffnen Sie ein Fragment aus dem Inventar, um seine Knoten, Eigenschaften, Tags oder Label zu ändern. Aktive Fragmente müssen deaktiviert werden, bevor sie bearbeitet werden können."
 
 Um ein Fragment zu bearbeiten, öffnen Sie es über das **[!UICONTROL Fragmentinventar]** indem Sie auf seinen Namen klicken. In der Benutzeroberfläche zum Erstellen von Fragmenten haben Sie folgende Möglichkeiten:
 
@@ -145,8 +145,8 @@ Aus dem Fragmentinventar können Sie die folgenden Aktionen für ein Fragment au
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
->title="Journey-Fragment hinzufügen"
->abstract="In **[!UICONTROL Auswahl sind nur]** Fragmente verfügbar. Durch Einfügen eines Fragments wird eine **statische Kopie** seiner Knoten erstellt. Aktualisierungen am Originalfragment werden nicht auf der Journey widergespiegelt."
+>title="Hinzufügen eines Journey-Fragments"
+>abstract="Nur **[!UICONTROL aktive]** Fragmente sind in der Auswahl verfügbar. Durch Einfügen eines Fragments wird eine **statische Kopie** seiner Knoten erstellt. Aktualisierungen am Originalfragment werden nicht auf der Journey widergespiegelt."
 
 So fügen Sie ein Fragment in eine Journey ein:
 
@@ -156,7 +156,7 @@ So fügen Sie ein Fragment in eine Journey ein:
 1. Wählen Sie das Fragment aus. Seine Knoten werden am Ablagepunkt in die Arbeitsfläche kopiert.
 
 >[!NOTE]
->In **[!UICONTROL Auswahl sind nur]** Fragmente verfügbar. Durch Einfügen eines Fragments wird eine **statische Kopie** seiner Knoten erstellt - nachfolgende Aktualisierungen des Originalfragments werden nicht auf der Journey widergespiegelt.
+>Nur **[!UICONTROL aktive]** Fragmente sind in der Auswahl verfügbar. Durch Einfügen eines Fragments wird eine **statische Kopie** seiner Knoten erstellt – nachfolgende Aktualisierungen des Originalfragments werden in der Journey nicht widergespiegelt.
 >
 >Wenn Sie ein Fragment auf eine leere Arbeitsfläche ablegen, muss das Fragment mit einem **[!UICONTROL Zielgruppe lesen]**, **[!UICONTROL Zielgruppen-Qualifizierung]** oder **[!UICONTROL Ereignis]**-Knoten beginnen (dieselbe Regel wie beim Starten einer Journey).
 

@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1803
-ht-degree: 57%
+ht-degree: 61%
 
 ---
 
@@ -86,7 +86,7 @@ Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampag
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
 >title="Kategorie"
->abstract="Wählen Sie „Marketing“ oder „Transaktion“ für diese Kanalaktivität. Marketing-Nachrichten verwenden Marketing-Kanal-Konfigurationen und befolgen Ihre standardmäßigen Geschäftsregeln. Transaktionsnachrichten sind für die betriebliche Kommunikation bestimmt, die häufig durch die Aktion eines Kontakts ausgelöst wird (z. B. durch Zurücksetzen des Kennworts oder Kaufbestätigung), oder für zeitkritische Benachrichtigungen wie Unterbrechungen oder Stornierungen. Sie verwenden Konfigurationen für Transaktionskanäle, Geschäftsregeln werden umgangen und ein Opt-in ist nicht erforderlich."
+>abstract="Wählen Sie „Marketing“ oder „Transaktion“ für diese Kanalaktivität aus. Marketing-Nachrichten nutzen die Konfigurationen der Marketing-Kanäle und befolgen Ihre standardmäßigen Geschäftsregeln. Transaktionsnachrichten sind für die operative Kommunikation bestimmt – oft ausgelöst durch die Handlung einer Person (z. B. Zurücksetzen des Kennworts oder Kaufbestätigung) – oder für zeitkritische Benachrichtigungen wie Unterbrechungen oder Stornierungen. Sie nutzen transaktionsbezogene Kanalkonfigurationen, Geschäftsregeln werden umgangen, und es ist kein Opt-in erforderlich."
 
 >[!PREREQUISITES]
 >

@@ -11,10 +11,10 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1937'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
@@ -75,7 +75,7 @@ Definieren Sie auf **[!UICONTROL Registerkarte]** Struktur“, wie Ihre Herausfo
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
 >title="Challenge-Eigenschaften"
->abstract="Legen Sie im Bereich Challenge-Eigenschaften den Namen und die Beschreibung der Challenge fest und fügen Sie benutzerdefinierte Schlüssel/Wert-Metadaten für das Tracking oder externe Integrationen hinzu."
+>abstract="Legen Sie im Bereich „Challenge-Eigenschaften“ den Namen und die Beschreibung der Challenge fest und fügen Sie benutzerdefinierte Schlüssel/Wert-Metadaten für das Tracking oder externe Integrationen hinzu."
 
 1. Definieren Sie **[!UICONTROL Bereich &quot;]**&quot; globale Einstellungen für die Herausforderung:
 
@@ -91,7 +91,7 @@ Definieren Sie auf **[!UICONTROL Registerkarte]** Struktur“, wie Ihre Herausfo
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Challenge-Zeitplan"
->abstract="Verwenden Sie den Zeitplan, um festzulegen, wann die Challenge live ist: Legen Sie das Startdatum und die Startzeit fest, zu der die Challenge für Kunden verfügbar sein wird, sowie das Enddatum und die Endzeit, zu der die Akzeptanz von Abschlüssen endet. Wählen Sie eine Zeitzone aus und wählen Sie im Abschnitt **[!UICONTROL Fenster zum Abschluss von Aufgaben]**, wann Kunden Aufgaben abschließen können."
+>abstract="Verwenden Sie den Zeitplan, um festzulegen, wann die Challenge live ist: Legen Sie das Startdatum und die Startzeit fest, wann die Challenge für Kundinnen und Kunden verfügbar sein wird, sowie das Enddatum und die Endzeit, wann keine Abschlüsse mehr angenommen werden. Wählen Sie eine Zeitzone aus und wählen Sie im Abschnitt **[!UICONTROL Fenster zum Abschluss von Aufgaben]** aus, wann Kundinnen und Kunden Aufgaben abschließen können."
 
 Konfigurieren Sie, wann Ihre Challenge ausgeführt wird:
 
@@ -116,7 +116,7 @@ Der Zeitplan für die Challenge ist jetzt konfiguriert. Fügen Sie als Nächstes
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_tasks"
 >title="Aufgaben"
->abstract="Wählen Sie die Aufgaben aus, die ausgeführt werden sollen, um die Herausforderung abzuschließen. Konfigurieren Sie anschließend, wie die Herausforderung abgeschlossen wird. Die verfügbaren Optionen hängen von Ihrem Challenge-Typ ab (Standard, Streak oder Sequential)."
+>abstract="Wählen Sie die Aufgaben aus, die ausgeführt werden sollen, um die Challenge abzuschließen. Konfigurieren Sie anschließend, wie die Challenge abgeschlossen wird. Die verfügbaren Optionen hängen von Ihrem Challenge-Typ ab (Standard, Streak oder Sequenziell)."
 
 Aufgaben definieren die spezifischen Aktionen, die Kunden durchführen müssen, um Belohnungen zu erhalten. Sie können Aufgabentypen (Einkauf, Ausgaben), Mengen, Produktfilter und andere Attribute konfigurieren.
 
@@ -166,12 +166,12 @@ Gehen Sie wie folgt vor, um Ihrer Herausforderung Aufgaben hinzuzufügen:
 
 Nachdem Sie Aufgaben zu Ihrer Challenge hinzugefügt haben, konfigurieren Sie die Belohnungen, die Kunden für den Abschluss erhalten.
 
-### Konfigurieren von Belohnungen {#rewards}
+### Konfigurieren von Prämien {#rewards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_rewards"
->title="Belohnungen"
->abstract="Wählen Sie aus, wann Kunden Punkte sammeln: wenn sie die gesamte Challenge abgeschlossen haben, oder bei Aufgabenmeilensteinen, wenn sie voranschreiten. Wählen Sie Ihren Belohnungsanbieter aus (Ihre Treuelösung, mit der Punkte und Belohnungen verwaltet werden) und legen Sie dann Beträge fest: einen einzigen Gesamtbetrag für den vollständigen Abschluss oder Werte pro Aufgabe für Meilensteine, wobei Belohnungen nur für die Aufgaben aktiviert werden, die Sie auszahlen möchten."
+>title="Prämien"
+>abstract="Wählen Sie aus, wann Kundinnen und Kunden Punkte sammeln: wenn sie die gesamte Challenge abgeschlossen haben, oder bei einzelnen Meilensteinen im Verlauf der Aufgabe. Wählen Sie Ihren Prämienanbieter aus (Ihre Treuelösung, die Punkte und Prämien verwaltet) und legen Sie dann die Beträge fest: einen Gesamtbetrag für den vollständigen Abschluss oder Werte pro Aufgabe für Meilensteine, wobei Prämien nur für die Aufgaben aktiviert werden, für die Sie eine Auszahlung vornehmen möchten."
 
 Prämien sind die Treuepunkte oder Vorteile, die Kundinnen und Kunden bei der Bewältigung von Herausforderungen erhalten.
 
@@ -220,7 +220,7 @@ Gestalten Sie nach der Konfiguration der Challenge-Struktur mit Aufgaben und Bel
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Inhalt"
->abstract="Konfigurieren Sie die Inhaltskarte, die Ihre Herausforderung auf Kundengeräten darstellt und Challenge-Informationen, Fortschritt und Belohnungen anzeigt. Geben Sie einen Namen für die Karte ein, wählen Sie eine Kanalkonfiguration aus, damit der Versand die richtigen technischen Einstellungen verwendet (z. B. Kopfzeilen, Subdomain oder Mobile Apps), und wählen Sie dann Inhalt bearbeiten aus, um das Kartenerlebnis zu entwerfen und zu personalisieren."
+>abstract="Konfigurieren Sie die Inhaltskarte, die Ihre Challenge auf Kundengeräten darstellt und Informationen, Fortschritt und Prämien für die Challenge anzeigt. Geben Sie einen Namen für die Karte ein, wählen Sie eine Kanalkonfiguration aus, damit beim Versand die richtigen technischen Einstellungen verwendet werden (z. B. Header, Subdomain oder Apps), und wählen Sie dann „Inhalt bearbeiten“ aus, um das Kartenerlebnis zu entwerfen und zu personalisieren."
 
 Inhaltskarten stellen Ihre Herausforderung auf Kundengeräten visuell dar und zeigen Informationen zur Herausforderung, den Fortschritt und die Belohnungen an. [Weitere Informationen zu Inhaltskarten](../content-card/create-content-card.md).
 
@@ -241,7 +241,7 @@ Richten Sie nach der Konfiguration der Inhaltskarte Messaging ein, um Kunden wä
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="Messaging"
->abstract="Messaging unterstützt die Interaktion über den gesamten Challenge-Lebenszyklus hinweg. Fügen Sie auf der Registerkarte Messaging Nachrichten für jeden Schritt hinzu: Start (wenn die Herausforderung beginnt), In Bearbeitung (Erinnerungen und Fortschrittsaktualisierungen) und Abschluss (Erfolg feiern und Belohnungen bestätigen). Fügen Sie für jeden Schritt eine Nachricht hinzu, wählen Sie den Kanal aus, wählen Sie eine Kanalkonfiguration aus und klicken Sie dann auf Bearbeiten , um den Nachrichteninhalt zu entwerfen."
+>abstract="Messaging unterstützt die Interaktion über den gesamten Challenge-Lebenszyklus hinweg. Fügen Sie auf der Registerkarte „Messaging“ Nachrichten für jeden Schritt hinzu: „Start“ (wenn die Challenge beginnt), „In Bearbeitung“ (Erinnerungen und Fortschrittsaktualisierungen) und „Abschluss“ (Erfolg feiern und Prämien bestätigen). Fügen Sie für jeden Schritt eine Nachricht hinzu, wählen Sie den Kanal aus, wählen Sie eine Kanalkonfiguration aus und klicken Sie dann auf „Bearbeiten“, um den Nachrichteninhalt zu entwerfen."
 
 Richten Sie Multi-Channel-Nachrichten ein, um Kunden in wichtigen Phasen des Challenge-Lebenszyklus anzusprechen. Messaging ist optional, wird aber zur Maximierung der Kundeninteraktion empfohlen.
 
@@ -263,12 +263,12 @@ In diesen Abschnitten erfahren Sie, wie Sie Nachrichten für bestimmte Kanäle e
 
 Legen Sie nach Abschluss der Messaging-Konfiguration fest, welche Kunden für die Teilnahme an der Challenge infrage kommen.
 
-## Auswählen der Challenge-Audience {#audience}
+## Auswählen der Zielgruppe für die Challenge {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Zielgruppe"
->abstract="Wählen Sie auf der Registerkarte Zielgruppe aus den verfügbaren Adobe Experience Platform-Zielgruppen aus, wer an der Challenge teilnehmen kann."
+>abstract="Wählen Sie auf der Registerkarte „Zielgruppe“ aus den verfügbaren Adobe Experience Platform-Zielgruppen aus, wer an der Challenge teilnehmen kann."
 
 Definieren Sie, welche Kundinnen und Kunden an Ihrer Herausforderung der Treue teilnehmen können.
 
