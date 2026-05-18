@@ -8,10 +8,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: cc87e73fe1746e88a5baeefc0090c88ee9425389
+source-git-commit: 7eb22e0b12c01be0478ed15fa63a9818dc960626
 workflow-type: tm+mt
 source-wordcount: 1633
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -210,7 +210,7 @@ Diese Version umfasst die folgenden Funktionen.
 <tr>
 <td>
 <p>Sie können Ihre Journey jetzt auf <strong>Simulation</strong> setzen. In diesem Modus können Sie Ihre Logik mithilfe von <strong>simulierten Benutzenden</strong> überprüfen. Dies sind temporäre, speziell für die Simulation erstellte Profile, mit denen Sie frei testen können. So müssen Sie keine dauerhaften Testprofile in Adobe Experience Platform verwalten.</p>
-<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und ist jetzt für alle Umgebungen verfügbar (allgemeine Verfügbarkeit). Mit der allgemeinen Verfügbarkeit können Sie jetzt Journey Agent verwenden, um simulierte Benutzende und Ereignisse direkt im Simulationsmenü zu generieren.</p>
+<p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit). Mit der Version „Allgemeine Verfügbarkeit“ können Sie jetzt Journey Agent verwenden, um simulierte Benutzende und Ereignisse direkt im Simulationsmenü zu generieren.</p>
 <p>Verfügbarkeitsdatum: 28. Mai 2026</p>
 </td>
 </tr>
@@ -297,7 +297,7 @@ Die folgenden Verbesserungen sind für diese Version vorgesehen.
 
 #### E-Mail-Designer
 
-* **Rich-Text in bearbeitbaren Fragmentfeldern** - Sie können jetzt anpassbaren Fragmenten, die im E-Mail-Inhalt verwendet werden, Rich-Text hinzufügen. Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.
+* **Rich-Text in bearbeitbaren Fragmentfeldern** - Sie können jetzt anpassbaren Fragmenten, die in Ihrem E-Mail-Inhalt verwendet werden, Rich-Text hinzufügen. Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.
 
 
   Verfügbarkeitsdatum: 19. Mai 2026

@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
+source-git-commit: b76b3a00d97f28a622ef402c1c96292398b91b80
 workflow-type: tm+mt
-source-wordcount: 2625
-ht-degree: 80%
+source-wordcount: 2624
+ht-degree: 78%
 
 ---
 
@@ -369,7 +369,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <tbody>
 <tr>
 <td>
-<p>Verwenden Sie den neuen <strong>Optimierungsknoten</strong>, um A/B-Tests oder Multi-Armed-Bandit-Experimente durchzuführen und so den besten Pfad zum Erreichen Ihrer geschäftsbezogenen KPIs zu ermitteln. Mit diesem Tool können Sie Kommunikation, Sequenzierung und Timing testen und variieren sowie anpassen, um Ihre Kundschaft optimal zu erreichen.
+<p>Verwenden Sie den neuen <strong>Optimierungsknoten</strong>, um A/B-Tests oder Multi-Armed-Bandit-Experimente durchzuführen und so den besten Pfad zum Erreichen Ihrer geschäftsbezogenen KPIs zu ermitteln. Mit diesem Tool können Sie Kommunikation, Sequenzierung und Timing testen, variieren und anpassen, um Ihre Kunden optimal zu erreichen.
 </p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Diese Version macht die Auswahl des <strong>Experimenttyps</strong> (A/B oder Multi-Armed-Bandit) und die <strong>Skalierung des Gewinners</strong> für unitäre Journeys allgemein verfügbar.</p>
@@ -452,7 +452,7 @@ Die folgenden Verbesserungen wurden ebenfalls im April 2026 veröffentlicht.
 
 #### Adobe Experience Manager-Integrationen
 
-* **Unterstützung von Adobe Experience Manager-Inhaltsfragmentvarianten**: Sie können beim Einfügen von Adobe Experience Manager-Inhaltsfragmenten **Inhaltsfragmentvarianten** (z. B. Sprach- oder Kanalvarianten) auswählen. Die Handhabung von Gebietsschema und mehrsprachigen Szenarien wurde hierfür verbessert. [Weitere Informationen](../integrations/aem-fragments.md#aem-variations)
+* **Unterstützung von Adobe Experience Manager-Inhaltsfragmentvarianten** - Sie können beim Einfügen von Adobe Experience Manager **Inhaltsfragmenten (Inhaltsfragmentvarianten** (z. B. Sprach- oder Kanalvarianten) auswählen, um die Handhabung für Gebietsschema- und mehrsprachige Szenarien zu verbessern. [Weitere Informationen](../integrations/aem-fragments.md#aem-variations)
 
   Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).
 
