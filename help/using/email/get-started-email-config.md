@@ -26,16 +26,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ed540e9da2e6a7b70abe0e6548943c83fadd2c0c
 workflow-type: tm+mt
-source-wordcount: 229
-ht-degree: 84%
+source-wordcount: 531
+ht-degree: 78%
 
 ---
 
 # Erste Schritte bei der E-Mail-Konfiguration {#get-starte-email-config}
 
-Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] versendet werden zu können, müssen Sie eine Reihe von Konfigurationsschritten durchlaufen.
+Durch das Konfigurieren des E-Mail-Kanals in Adobe Journey Optimizer können Sie wirkungsvolle, personalisierte E-Mail-Erlebnisse schaffen, die Ihre Zielgruppe effektiv ansprechen.
+
+Dieser Abschnitt führt Sie durch die wichtigsten Konfigurationsschritte, die Sie ausführen müssen, um E-Mails über [!DNL Journey Optimizer] zu senden. Außerdem erfahren Sie, wie Sie E-Mail-Kopfzeilen einrichten, Einstellungen für mehrere Marken personalisieren, das URL-Tracking für Analysen aktivieren und sogar einen Link zur Abmeldung mit einem Klick hinzufügen, um das Abonnieren für den Benutzer zu vereinfachen. Jedes Thema baut auf dem vorherigen auf und gibt Ihnen die Tools an die Hand, mit denen Sie Ihre E-Mail-Strategie optimieren und gleichzeitig die Kontrolle behalten und Präzision sicherstellen können.
+
+Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] versendet werden zu können, müssen Sie eine Reihe von Konfigurationsschritten durchlaufen. Diese Schritte sind unten aufgeführt:
 
 1. Um eine optimale Zustellbarkeit zu gewährleisten und Ihre Reputation zu schützen, **delegieren Sie zunächst die Subdomains an Adobe**, die Sie für den Versand Ihrer E-Mails mit [!DNL Journey Optimizer] verwenden möchten. Diese Subdomains bestimmen Elemente wie etwa die zu verfolgenden Web-Seiten und die URLs von Mirrorseiten. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
 
@@ -60,6 +64,8 @@ Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] verse
 
    ![](assets/preset-header.png)
 
+1. Schließen Sie die Konfiguration des E-Mail-Kanals ab, indem Sie andere erweiterte Parameter einrichten, z. B. BCC aktivieren, URL-Tracking für Analytics definieren oder Links zum Abmelden mit einem Klick hinzufügen, um den Benutzenden das Arbeiten zu erleichtern. [Weitere Informationen](email-settings.md)
+
 1. Bestimmen Sie, welche **Ausführungsfelder** für Ihre Empfängerinnen und Empfänger vorrangig verwendet werden sollen, wenn in Adobe Experience Platform mehrere Adressen verfügbar sind. [Weitere Informationen](../configuration/primary-email-addresses.md)
 
    ![](../configuration/assets/primary-address-execution-fields.png)
@@ -67,3 +73,67 @@ Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] verse
 1. Verwalten Sie die Anzahl der Tage, in denen **weitere Zustellversuche** unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](../configuration/manage-suppression-list.md)
 
    ![](../configuration/assets/suppression-list-edit-retries.png)
+
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+
+Erste Schritte bei der E-Mail-Konfiguration
+
+Erfahren Sie mehr über die wichtigsten Schritte zur Konfiguration von E-Mail-Funktionen, einschließlich Subdomain-Delegierung, IP-Pools und Verwaltung von Unterdrückungslisten.
+
+[Mit der Konfiguration von E-Mails beginnen](get-started-email-config.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+
+Definieren von E-Mail-Konfigurationseinstellungen
+
+Richten Sie E-Mail-Konfigurationen für Zustellbarkeit, Compliance und Anpassung mit erweiterten Funktionen wie BCC, Unterdrückungsüberschreibungen und URL-Tracking ein.
+
+[Einstellungen konfigurieren](email-settings.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+
+Erstellen und Konfigurieren der Listen-Abmeldung
+
+Erfahren Sie, wie Sie die Funktion zur Listen-Abmeldung aktivieren, um für das Opt-out von Empfängerinnen und Empfängern URLs zum Abmelden mit einem Klick in E-Mail-Header einzufügen.
+
+[Listen-Abmeldung einrichten](list-unsubscribe.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+
+Konfigurieren von Header-Parametern für E-Mails
+
+Passen Sie Absender- und Antwort-E-Mail-Adressen an, behandeln Sie Fehler und leiten Sie E-Mails weiter, um eine effektive Kommunikation zu gewährleisten.
+
+[Header-Parameter einrichten](header-parameters.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+
+Konfigurieren des URL-Trackings für den E-Mail-Kanal
+
+Richten Sie URL-Tracking-Parameter ein, um die Effektivität von E-Mail-Kampagnen zu messen und sie in Analyse-Tools zu integrieren.
+
+[URL-Tracking einrichten](url-tracking.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+
+Personalisierte Einstellungen der E-Mail-Konfiguration
+
+Richten Sie dynamische Subdomains, personalisierte Header und URL-Tracking ein, um maßgeschneiderte E-Mail-Erlebnisse zu bieten.
+
+[Personalisierte E-Mails konfigurieren](surface-personalization.md)
+:::
+
+::::
