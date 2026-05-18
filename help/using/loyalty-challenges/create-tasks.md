@@ -11,10 +11,10 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
@@ -46,7 +46,7 @@ Jede Aufgabe stellt eine messbare Aktion dar, die zum Abschluss der Herausforder
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="Erstellen einer Aufgabe"
->abstract="Wählen Sie eine Kundenaktivität (Kauf oder Ausgaben) aus und konfigurieren Sie dann aktivitätsspezifische Attribute: Mengen oder Beträge, geeignete Artikel und Ausschlüsse sowie optionale Limits wie Mindestausgaben oder maximale Transaktionen. Legen Sie im Bereich Eigenschaften den Aufgabennamen und die Beschreibung fest."
+>abstract="Wählen Sie eine Kundenaktivität („Kauf“ oder „Ausgaben“) aus und konfigurieren Sie dann aktivitätsspezifische Attribute: Mengen oder Beträge, geeignete Artikel und Ausschlüsse sowie optionale Limits wie Mindestausgaben oder maximale Transaktionen. Legen Sie im Bereich „Eigenschaften“ den Namen und die Beschreibung der Aufgabe fest."
 
 Sie können Aufgaben aus zwei Einstiegspunkten erstellen. Der Konfigurationsprozess ist unabhängig davon, wo Sie beginnen, identisch.
 
@@ -105,16 +105,16 @@ Verfügbare Attribute für **Ausgaben**-Aktivitäten:
 
 >[!ENDTABS]
 
-## Definieren der zulässigen Elemente und Ausschlüsse {#eligible-items-exclusions}
+## Definieren der geeigneten Artikel und Ausschlüsse {#eligible-items-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
->title="Zulässige Elemente und Ausschlüsse"
->abstract="Sowohl für **Kauf** als auch für **Ausgaben** können Sie das Attribut **[!UICONTROL Mögliche Artikel und Ausschlüsse]** verwenden, um festzulegen, welche Artikel und Gruppen förderfähig und welche ausgeschlossen sind. Auf diese Weise können Sie bestimmte Produkte, Kategorien oder Standorte auswählen, um sie an Ihre Challenge-Ziele anzupassen. Sie können beispielsweise eine Ausgabenaufgabe auf bestimmte Produktkategorien beschränken oder Geschenkgutscheine oder Werbeartikel von der Zählung für die Aufgabenerledigung ausschließen."
+>title="Geeignete Artikel und Ausschlüsse"
+>abstract="Sowohl für die Aktivität **Kauf** als auch für die Aktivität **Ausgaben** können Sie das Attribut **[!UICONTROL Geeignete Artikel und Ausschlüsse]** verwenden, um festzulegen, welche Artikel und Gruppen zulässig und welche ausgeschlossen sind. Auf diese Weise können Sie bestimmte Produkte, Kategorien oder Standorte auswählen, um sie an Ihre Challenge-Ziele anzupassen. Sie können beispielsweise eine Aufgabe des Typs „Ausgaben“ auf bestimmte Produktkategorien beschränken oder Geschenkgutscheine oder Werbeartikel von der Anrechnung auf die Erledigung der Aufgabe ausschließen."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-Sowohl für **Kauf** als auch für **Ausgaben** können Sie das Attribut **[!UICONTROL Mögliche Artikel und Ausschlüsse]** verwenden, um festzulegen, welche Artikel und Gruppen förderfähig und welche ausgeschlossen sind. Auf diese Weise können Sie bestimmte Produkte, Kategorien oder Standorte auswählen, um sie an Ihre Challenge-Ziele anzupassen.
+Sowohl für die Aktivität **Kauf** als auch für die Aktivität **Ausgaben** können Sie das Attribut **[!UICONTROL Geeignete Artikel und Ausschlüsse]** verwenden, um festzulegen, welche Artikel und Gruppen zulässig und welche ausgeschlossen sind. Auf diese Weise können Sie bestimmte Produkte, Kategorien oder Standorte auswählen, um sie an Ihre Challenge-Ziele anzupassen.
 
 Sie können beispielsweise eine Aufgabe auf bestimmte Produktkategorien beschränken oder Geschenkgutscheine oder Werbeartikel von der Zählung für die Aufgabenfertigstellung ausschließen.
 

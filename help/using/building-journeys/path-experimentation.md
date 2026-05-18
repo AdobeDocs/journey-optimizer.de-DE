@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: Experimentieren, Experimentieren, Journey, Pfad, Optimierung, A/B-Tests, Multi-Armed Bandit, Skalieren Sie den Gewinner
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 77%
+source-wordcount: '1147'
+ht-degree: 78%
 
 ---
 
-# Pfadexperiment verwenden {#experimentation}
+# Verwenden von Pfadexperimenten {#experimentation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
@@ -153,7 +153,7 @@ Vergleichen Sie eine Wartezeit von 24 Stunden mit einer Wartezeit von 72 Stunden
 >
 >Bei Pfadexperimenten ist die Funktion Gewinner skalieren nur in unitären Journey verfügbar (ereignisausgelöst und Zielgruppenqualifikationen).
 >
->Sie ist nicht für Journey unter Zielgruppe lesen verfügbar.
+>Sie ist nicht für Journeys des Typs „Zielgruppe lesen“ verfügbar.
 
 Mit der Funktion zum Skalieren der erfolgreichsten Variante können Sie die erfolgreichste Variante eines Experiments automatisch oder manuell für Ihre gesamte Zielgruppe einführen. Diese Funktion stellt sicher, dass die Reichweite und Effektivität der erfolgreichsten Variante gesteigert wird, ohne das Experiment ständig überwachen zu müssen.
 

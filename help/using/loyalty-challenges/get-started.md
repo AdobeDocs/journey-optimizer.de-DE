@@ -11,10 +11,10 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: cfd307c78624486c9791f8d3821f9d24f409cdcc
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 4%
+ht-degree: 15%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="Treue-Challenges"
->abstract="Herausforderungen im Zusammenhang mit der Kundentreue ermöglichen es Ihnen, ansprechende, Gamified-Treueprogramme zu erstellen, die das Kundenverhalten fördern und die Markenbeziehungen vertiefen. Stellen Sie Herausforderungen auf, die Kunden für bestimmte Aktionen belohnen - von Käufen und dem Schreiben von Rezensionen bis hin zur Interaktion in sozialen Medien und der Vermittlung von Freunden."
+>abstract="Mit Treue-Challenges können Sie ansprechende, spielerisch gestaltete Treueprogramme entwickeln, die das Kundenverhalten positiv beeinflussen und die Markenbindung stärken. Entwickeln Sie Challenges, bei denen Kundinnen und Kunden Prämien für bestimmte Aktionen erhalten – von Einkäufen über das Verfassen von Rezensionen bis hin zu Interaktionen in Social Media und der Weiterempfehlung an Freundinnen und Freunde."
 
-Herausforderungen im Zusammenhang mit der Kundentreue ermöglichen es Ihnen, ansprechende, Gamified-Treueprogramme zu erstellen, die das Kundenverhalten fördern und die Markenbeziehungen vertiefen. Stellen Sie Herausforderungen auf, die Kunden für bestimmte Aktionen belohnen - von Käufen und dem Schreiben von Rezensionen bis hin zur Interaktion in sozialen Medien und der Vermittlung von Freunden.
+Mit Treue-Challenges können Sie ansprechende, spielerisch gestaltete Treueprogramme entwickeln, die das Kundenverhalten positiv beeinflussen und die Markenbindung stärken. Entwickeln Sie Challenges, bei denen Kundinnen und Kunden Prämien für bestimmte Aktionen erhalten – von Einkäufen über das Verfassen von Rezensionen bis hin zu Interaktionen in Social Media und der Weiterempfehlung an Freundinnen und Freunde.
 
 Herausforderungen im Zusammenhang mit der Kundentreue bieten Ihnen folgende Möglichkeiten:
 
@@ -74,7 +74,7 @@ Sie können die folgenden Arten von Challenge-Erlebnissen erstellen:
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
 
-1. **Herausforderung erstellen** - Definiert die grundlegenden Challenge-Eigenschaften, einschließlich Name, Typ (Standard, Streak, Sequential oder Bring Your Own Data, falls verfügbar) und Datumsbereich. [Erfahren Sie, wie Sie einen Challenge-Typ &#x200B;](create-challenges.md#create-the-challenge).
+1. **Herausforderung erstellen** - Definiert die grundlegenden Challenge-Eigenschaften, einschließlich Name, Typ (Standard, Streak, Sequential oder Bring Your Own Data, falls verfügbar) und Datumsbereich. [Erfahren Sie, wie Sie einen Challenge-Typ ](create-challenges.md#create-the-challenge).
 
 1. **Aufgaben hinzufügen** - Definiert die spezifischen Aktionen, die Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben), Mengen, Produktfiltern und Belohnungen.
 
@@ -136,7 +136,7 @@ Jetzt, da Sie wissen, was Herausforderungen im Zusammenhang mit der Treue sind u
       <img alt="Zugriff" src="assets/do-not-localize/icon-access.png" width="200"/>
     </a>
     <div>
-    <a href="access-loyalty-challenges.md"><strong>Zugriff und Verwaltung von Herausforderungen und Aufgaben</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>Zugreifen auf und Verwalten von Challenges und Aufgaben</strong></a>
     </div>
     <p>
     <em>Erfahren Sie, wie Sie auf das Inventar zugreifen und Herausforderungen und Aufgaben verwalten können</em>
@@ -147,7 +147,7 @@ Jetzt, da Sie wissen, was Herausforderungen im Zusammenhang mit der Treue sind u
       <img alt="Erstellen" src="assets/do-not-localize/icon-challenge.png" width="200"/>
     </a>
     <div>
-    <a href="create-challenges.md"><strong>Herausforderungen schaffen</strong></a>
+    <a href="create-challenges.md"><strong>Erstellen von Challenges</strong></a>
     </div>
     <p>
     <em>Erfahren Sie, wie Sie Ihre erste Herausforderung bezüglich der Treue aufbauen und konfigurieren</em>
@@ -158,7 +158,7 @@ Jetzt, da Sie wissen, was Herausforderungen im Zusammenhang mit der Treue sind u
       <img alt="Aufgaben" src="assets/do-not-localize/icon-task.png" width="200"/>
     </a>
     <div>
-    <a href="create-tasks.md"><strong>Aufgaben erstellen</strong></a>
+    <a href="create-tasks.md"><strong>Erstellen von Aufgaben</strong></a>
     </div>
     <p>
     <em>Erfahren Sie, wie Sie Aufgaben definieren, die Kundinnen und Kunden für Herausforderungen ausführen müssen</em>

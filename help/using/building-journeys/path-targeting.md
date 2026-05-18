@@ -10,14 +10,14 @@ level: Intermediate
 keywords: Zielgruppenbestimmung, Regeln, Journey, Pfad, Optimierung, Personalisierung
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: e61af5e3822440d5c71dfd56d86ef79f6ce2c6ca
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 88%
+source-wordcount: '812'
+ht-degree: 91%
 
 ---
 
-# Pfad-Targeting nutzen {#targeting}
+# Nutzen von Pfad-Targeting {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
@@ -100,7 +100,7 @@ Gehen Sie folgendermaßen vor, um das Targeting in einer Journey einzurichten.
 
 1. Verwenden Sie optional den **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** um eine alternative Aktion zu definieren, falls Probleme auftreten. [Weitere Informationen](using-the-journey-designer.md#paths)
 
-1. Entwerfen Sie geeignete Inhalte für jede Aktion, die jeder durch Ihre Zielgruppenregeleinstellungen definierten Gruppe entspricht.
+1. Gestalten Sie geeignete Inhalte für jede den einzelnen Gruppen entsprechende Aktion, durch die Einstellungen Ihrer Targeting-Regeln definiert werden.
 
    In diesem Beispiel entwerfen Sie eine E-Mail mit Sonderangeboten für Gold-Mitglieder und einer SMS-Erinnerung für die anderen Mitglieder.<!--You can seamlessly navigate between the different contents for each action. ![Content design panel for targeting rule actions](assets/journey-targeting-design.png)-->
 
