@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, bedingt, Regeln
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 100%
+source-wordcount: '635'
+ht-degree: 94%
 
 ---
 
@@ -63,7 +63,7 @@ Die Schritte zum Erstellen einer bedingten Regel sind:
    Attribute sind in drei Registerkarten unterteilt:
 
    * **[!UICONTROL Profil]**:
-      * **[!UICONTROL Zielgruppen]**: Listet alle Zielgruppenattribute (d. h. Status, Version) für den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} auf.
+      * **[!UICONTROL Zielgruppen]** listet alle Zielgruppenattribute (d. h. Status, Version usw.) für [Adobe Experience Platform-Segmentierungs-](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"},
       * **[!UICONTROL Individuelle XDM-Profile]** listet alle Profilattribute auf, die mit dem [Schema des Experience-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"} verknüpft sind, das in Adobe Experience Platform definiert ist.
    * **[!UICONTROL Kontextuell]**: Wenn die Nachricht in einer Journey verwendet wird, stehen auf dieser Registerkarte kontextuelle Journey-Felder zur Verfügung.
    * **[!UICONTROL Zielgruppen]**: Listet alle Zielgruppen auf, die aus Segmentdefinitionen generiert wurden, die im [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} erstellt wurden.
@@ -91,7 +91,7 @@ Wenn es Bedingungsregeln gibt, die Sie häufig wiederverwenden, können Sie sie 
 
 >[!CAUTION]
 >
->Verwenden Sie beim Benennen bedingter Inhaltsvarianten nur alphanumerische Zeichen (A–Z, a–z, 0–9). Die Verwendung von Sonderzeichen (z. B. `<`, `>`, `=`, `{`, `}` usw.) in Variantennamen kann dazu führen, dass der Vorlageneditor Komponenten umbricht oder ausblendet.
+>Verwenden Sie beim Benennen bedingter Inhaltsvarianten nur alphanumerische Zeichen (A–Z, a–z, 0–9). Die Verwendung von Sonderzeichen (wie `<`, `>`, `=`, `{`, `}` usw.) in Variantennamen können dazu führen, dass der Vorlageneditor Komponenten umbricht oder ausblendet.
 
 ## Bearbeiten und Löschen von gespeicherten bedingten Regeln {#edit-delete}
 

@@ -9,9 +9,9 @@ role: Admin, Developer
 level: Experienced
 keywords: Objekt, Ebene, Zugriff, Kontrolle, Labels, OLAC, Autorisierung
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '514'
 ht-degree: 100%
 
 ---
@@ -57,7 +57,7 @@ Sie können Labels im Produkt [!DNL Permissions] erstellen. Weitere Informatione
 
 Sie können **[!UICONTROL Labels]** auch direkt in Journey Optimizer erstellen. Gehen Sie wie folgt vor, um ein Label zu erzeugen:
 
-1. Klicken Sie in einem Objekt in Adobe Journey Optimizer wie z. B einer neu erstellten **[!UICONTROL Kampagne]** auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**.
+1. Klicken Sie in einem Objekt in Adobe Journey Optimizer wie z. B einer neu erstellten **[!UICONTROL Kampagne]** auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**.
 
    ![Schaltfläche „Zugriff verwalten“ in Adobe Journey Optimizer](assets/olac_1.png)
 

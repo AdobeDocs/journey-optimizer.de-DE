@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1485'
 ht-degree: 96%
 
 ---
@@ -53,7 +53,7 @@ In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer a
 
 ### Journey-Kalender {#calendar}
 
-Zusätzlich zur Journey-Liste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Journeys mit einer übersichtlichen Darstellung ihrer Zeitpläne. 
+Zusätzlich zur Journey-Liste bietet [!DNL Journey Optimizer] eine Kalenderansicht Ihrer Journeys mit einer übersichtlichen Darstellung ihrer Zeitpläne.
 
 Darstellung von Journeys:
 
@@ -144,7 +144,7 @@ Der Journey-Status hängt von ihrem Lebenszyklus ab. Es kann sich handeln um:
 * **Live**: Die Journey wurde mithilfe der Schaltfläche **Veröffentlichen** veröffentlicht. [Weitere Informationen](../building-journeys/publish-journey.md)
 * **Angehalten**: Die Live-Journey wurde mithilfe der Schaltfläche **Anhalten** angehalten. [Weitere Informationen](../building-journeys/journey-pause.md)
 * **Gestoppt**: Die Journey wurde mit der Schaltfläche **Stoppen** gestoppt. Alle Kontakte verlassen die Journey sofort. [Weitere Informationen](../building-journeys/end-journey.md#stop-journey)
-* **Geschlossen**: Die Journey wurde mithilfe der Schaltfläche **Für neue Eintritte schließen** geschlossen. Die Journey stoppt den Eintritt neuer Personen in die Journey.  Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden. [Weitere Informationen](../building-journeys/end-journey.md)
+* **Geschlossen**: Die Journey wurde mithilfe der Schaltfläche **Für neue Eintritte schließen** geschlossen. Die Journey stoppt den Eintritt neuer Personen in die Journey. Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden. [Weitere Informationen](../building-journeys/end-journey.md)
 
 >[!NOTE]
 >
