@@ -10,11 +10,16 @@ level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 TQID: https://experienceleague.adobe.com/kZEw2lITdt8SMWMe-UT2vPzdoiAjB2vbItmK9zt-WJo
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
 source-wordcount: 1299
@@ -26,7 +31,7 @@ ht-degree: 48%
 
 Personalization in [!DNL Journey Optimizer] verwendet zwei komplementäre Syntaxen, die im selben Ausdruck zusammenarbeiten:
 
-* **Handlebars** (`{{...}}`) - Wird zum Rendern von Profilattributen, zum Durchlaufen von Arrays und zum Aufrufen von Block-Helfern verwendet. Eine vollständige Referenz finden [ in der ](https://handlebarsjs.com/) zu HandlebarsJS .
+* **Handlebars** (`{{...}}`) - Wird zum Rendern von Profilattributen, zum Durchlaufen von Arrays und zum Aufrufen von Block-Helfern verwendet. Eine vollständige Referenz finden [&#x200B; in der &#x200B;](https://handlebarsjs.com/) zu HandlebarsJS .
 * **Profile Query Language (PQL)** (`{%= ... %}`) - Wird zum Aufrufen integrierter Funktionen (z. B. `upperCase()`, `formatDate()`, `dateDiff()`) und zum Auswerten bedingter Ausdrücke verwendet.
 
 Um Laufzeitfehler zu vermeiden, ist es von entscheidender Bedeutung zu verstehen, in welchem Kontext Sie sich befinden. Beispielsweise schlägt ein in `{{...}}` platzierter PQL-Funktionsaufruf fehl, weil Handlebars versucht, ihn als Helper aufzulösen, anstatt ihn als PQL-Ausdruck zu bewerten.

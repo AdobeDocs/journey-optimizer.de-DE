@@ -11,12 +11,25 @@ keywords: Aktivität, Entscheidungsfindung, Inhaltsentscheidung, Entscheidungsri
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/1tZd4-NYBxu1iuUZGMKQ6DIXFxRpX0FARTEPpWqxzjY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1262
@@ -116,7 +129,7 @@ Um die Ausgabe einer Inhaltsentscheidungsaktivität zu nutzen, fügen Sie eine *
 
    >[!NOTE]
    >
-   >Jede für ein Attribut definierte eingeschränkte Beschriftung kann zu einer Richtlinienverletzung bei DULE oder Einverständnis führen. Dies gilt für das Journey von Erlebnisereignissen, die in einer Entscheidungsregel verwendet werden, und für das [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema). Weitere Informationen zu Data-Governance-Richtlinien finden [ in diesem Abschnitt](../action/action-privacy.md).
+   >Jede für ein Attribut definierte eingeschränkte Beschriftung kann zu einer Richtlinienverletzung bei DULE oder Einverständnis führen. Dies gilt für das Journey von Erlebnisereignissen, die in einer Entscheidungsregel verwendet werden, und für das [Angebotsschema](../experience-decisioning/catalogs.md#access-catalog-schema). Weitere Informationen zu Data-Governance-Richtlinien finden [&#x200B; in diesem Abschnitt](../action/action-privacy.md).
 
 1. Um zu überprüfen, ob für die Profile, die in die Journey eintreten, ein Angebot zurückgegeben wurde, verwenden Sie die Funktion [listSize](functions/list-functions.md#listSize) mit der folgenden Syntax: `listSize(@decision{ContentdecisionName.items})>0`
 
