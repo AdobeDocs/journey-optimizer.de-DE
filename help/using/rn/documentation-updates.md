@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e2ec3d856f115befc34d435e26696c4cb4e13301
+source-git-commit: 8f23da537097fa514b19f9d6e8be025ba86f8a05
 workflow-type: tm+mt
-source-wordcount: '7859'
+source-wordcount: '7833'
 ht-degree: 91%
 
 ---
@@ -21,7 +21,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 ## Mai 2026 {#may-2026}
 
-* Die Seite **Schlüsselterminologie** wurde um eine neue **Wenn Begriffe ähnlich aussehen** erweitert. Sie enthält vier häufig verwirrte Begriffspaare: Entscheidungsfindung vs. Entscheidungs-Management (einschließlich des Legacy-Status von Entscheidungs-Management), die drei Kampagnentypen (Aktion, API-ausgelöst und orchestriert), Frequenzlimitierung vs. Journey-Schlichtung und Inhaltskarten vs. In-App-Nachrichten. Die **Campaign**-Definition und die Tabelle **Entscheidungs- und Angebotsbedingungen** wurden ebenfalls aktualisiert. Die Entscheidungsfindung wird jetzt neben dem Entscheidungs-Management aufgeführt, das explizit als veraltet markiert ist. [Weitere Informationen](../start/terminology.md#disambiguation)
+* Die Seite **Wichtige Terminologie** wurde überarbeitet: Sechs neue Begriffe wurden hinzugefügt, ein neuer Abschnitt **Konflikt- und Prioritätsbegriffe** wurde eingeführt und ein neuer **Wenn Begriffe ähnlich**, wurde ein Erläuterungsleitfaden für vier häufig verwirrende Begriffspaare hinzugefügt. Adobe Experience Platform-spezifische Begriffe wurden entfernt und durch einen Hinweis ersetzt, der auf das Adobe Experience Platform-Glossar verweist. [Weitere Informationen](../start/terminology.md)
 
 * Die **Deeplinks**-Dokumentation wurde um einen neuen Abschnitt **Authoring-Deeplinks** erweitert, in dem die beiden für E-Mail verfügbaren Optionen (E-Mail-Benutzeroberfläche von Designer und Personalization-Editor-Code) und die URL-Funktionssyntax für SMS beschrieben werden. Die **„SMS-Nachricht erstellen** enthält jetzt einen Deeplink-Schritt im Inhaltserstellungsfluss. [Weitere Informationen](../email/deeplinks.md)
 

@@ -29,10 +29,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b4ce14492d56e7121f827cf6a46abc5c222180e5
+source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
 workflow-type: tm+mt
-source-wordcount: 1760
-ht-degree: 43%
+source-wordcount: 1576
+ht-degree: 33%
 
 ---
 
@@ -42,20 +42,11 @@ In diesem Referenzhandbuch werden die wichtigsten Begriffe definiert, die bei de
 
 Für Paare ähnlich klingender Begriffe, die häufig verwechselt werden - z. B. **Entscheidungs- vs. Entscheidungs** Management oder **Inhaltskarten vs. In-App-Nachrichten** -, lesen Sie [Wenn Begriffe ähnlich &#x200B;](#disambiguation) unten auf dieser Seite.
 
->[!TIP]
+>[!NOTE]
 >
->Ausführliche Erläuterungen zu Funktionen und Workflows finden Sie in den spezifischen Dokumentationsabschnitten, auf die in diesem Leitfaden verwiesen wird.
+>Adobe Journey Optimizer basiert auf **Adobe Experience Platform**. Viele grundlegende Konzepte, auf die Sie stoßen werden - wie Echtzeit-Kundenprofile, Sandboxes, Schemata und Datensätze - sind Adobe Experience Platform-Konzepte, nicht Journey Optimizer-spezifische. Definitionen dieser Begriffe finden Sie im [Adobe Experience Platform-Glossar](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=de){target="_blank"}.
 
-## Wichtigste Plattform-Begriffe {#core-terms}
-
-| Begriff | Definition |
-|------|------------|
-| **Adobe Journey Optimizer** | Eine Anwendung zum Erstellen und Versenden personalisierter Nachrichten an Kundinnen und Kunden über verschiedene Kanäle (E-Mail, SMS, Push-Benachrichtigungen, Web). Sie können damit Customer Journeys entwerfen, die in Echtzeit auf Kundenaktionen reagieren. |
-| **Adobe Experience Platform** | Das Fundament von Adobe Journey Optimizer, das alle Kundendaten an einem Ort erfasst und organisiert. Damit werden einheitliche Kundenprofile erstellt, die Journey Optimizer für die Personalisierung verwendet. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target="_blank"} |
-| **Echtzeit-Kundenprofil** | Eine einheitliche Echtzeitansicht jeder Kundin und jedes Kunden, die Daten aus verschiedenen Kanälen kombiniert, einschließlich Online-, Offline-, CRM- und Drittanbieterdaten. Jedes Profil wird dynamisch aktualisiert, wenn Kundinnen und Kunden mit Ihrer Marke interagieren. [Weitere Informationen](../audience/get-started-profiles.md) |
-| **Sandbox** | Ein separater Arbeitsbereich, in dem Sie testen und experimentieren können, ohne die Live-Kundenkommunikation zu beeinträchtigen. Adobe Journey Optimizer bietet mehrere Sandboxes für Entwicklungs-, Test- und Produktionsumgebungen. [Weitere Informationen](../administration/sandboxes.md) |
-
-## Begriffe in Bezug auf Journeys und Kampagnen {#journey-campaign-terms}
+## Journey- und Kampagnenbedingungen {#journey-campaign-terms}
 
 | Begriff | Definition |
 |------|------------|
@@ -64,7 +55,7 @@ Für Paare ähnlich klingender Begriffe, die häufig verwechselt werden - z. B. 
 | **Ereignis** | Eine Aktion oder ein Auftreten, durch die bzw. das eine Journey ausgelöst oder fortgesetzt wird. Bei Ereignissen kann es sich um Kundenaktionen (einen Kauf tätigen, einen Warenkorb verlassen) oder Systemereignisse (Datum/Uhrzeit, Datenänderung) handeln. [Weitere Informationen](../event/about-events.md) |
 | **Kanal** | Die Methode, die zur Kommunikation mit Kundinnen und Kunden verwendet wird: E-Mail, SMS, Push-Benachrichtigungen, In-App-Nachrichten, Web oder Direkt-Mail. Jeder Kanal erfordert eine bestimmte Konfiguration. [Weitere Informationen](../configuration/get-started-configuration.md) |
 
-## Begriffe in Bezug auf Kundschaft und Zielgruppen {#customer-audience-terms}
+## Begriffe für Kunden und Zielgruppen {#customer-audience-terms}
 
 | Begriff | Definition |
 |------|------------|
@@ -97,8 +88,6 @@ Für Paare ähnlich klingender Begriffe, die häufig verwechselt werden - z. B. 
 
 | Begriff | Definition |
 |------|------------|
-| **Schema** | Die Struktur, die definiert, wie Daten in Adobe Experience Platform organisiert werden, einschließlich Feldnamen, Datentypen und Beziehungen. Schemata stellen die Konsistenz von Daten über Systeme hinweg sicher. [Weitere Informationen](../data/get-started-schemas.md) |
-| **Datensatz** | Eine Sammlung von Daten (normalerweise eine Tabelle), die einem bestimmten Schema folgt. Datensätze speichern Kundendaten, Interaktionsereignisse und andere für die Personalisierung verwendete Informationen. [Weitere Informationen](../data/get-started-datasets.md) |
 | **Kanalkonfiguration** | Die Einstellungen, die definieren, wie Nachrichten für einen bestimmten Kanal bereitgestellt werden - einschließlich Absenderdetails, Subdomain, IP-Pool und Nachrichtentyp (Marketing oder Transaktion). Zuvor in der älteren Dokumentation als „Oberfläche“ oder „Voreinstellung“ bezeichnet. [Weitere Informationen](../configuration/channel-surfaces.md) |
 | **Unterdrückungsliste** | Eine Liste der E-Mail-Adressen und Domains, die aufgrund von Hardbounces, Spam-Beschwerden oder manuellen Ergänzungen automatisch vom Nachrichtenversand ausgeschlossen werden. Das Senden an unterdrückte Adressen wird blockiert, um die Zustellbarkeit und die Reputation des Absenders zu schützen. [Weitere Informationen](../reports/suppression-list.md) |
 
@@ -108,10 +97,6 @@ Für Paare ähnlich klingender Begriffe, die häufig verwechselt werden - z. B. 
 |------|------------|
 | **Regelsatz** | Eine benannte Gruppe von Geschäftsregeln, die auf Journey und Kampagnen angewendet werden und das Verhalten von Nachrichten steuern. Ein Regelsatz kann Frequenzlimitierung, Journey-Eingabebeschränkungen und Ruhezeiten in einer einzigen wiederverwendbaren Richtlinie kombinieren. [Weitere Informationen](../conflict-prioritization/rule-sets.md) |
 | **Frequenzlimitierung** | Eine Regel innerhalb eines Regelsatzes, die begrenzt, wie viele Nachrichten ein Profil innerhalb eines bestimmten Zeitraums pro Kanal oder Kommunikationstyp (Verkauf, Werbung usw.) empfangen kann. Profile, die die Obergrenze überschreiten, werden automatisch vom Versand ausgeschlossen. [Weitere Informationen](../conflict-prioritization/channel-capping.md) |
-
->[!NOTE]
->
->Ein umfassendes Glossar zu Adobe Experience Platform-Begriffen finden Sie im [Adobe Experience Platform-Glossar](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=de){target="_blank"}.
 
 ## Wenn Begriffe ähnlich aussehen: Leitfaden für die Begriffsklärung {#disambiguation}
 
