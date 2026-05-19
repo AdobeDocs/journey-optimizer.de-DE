@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: Deeplink, Deep-Link, universelle Links, App-Links, E-Mail, SMS
-source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
+source-git-commit: d189ba524cdccaf0a220608680425d0a275c3ed9
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -334,4 +334,3 @@ Ja. UTM-Parameter, die Sie in [!DNL Journey Optimizer] konfigurieren, sind in de
 Der Link wird im Standard-Webbrowser des Geräts geöffnet (Standard-Klick-Tracking-Verhalten) und nicht wie ein App-Deep-Link durch den auf dieser Seite beschriebenen `mclick`-Fluss gehandhabt.
 
 +++
-
