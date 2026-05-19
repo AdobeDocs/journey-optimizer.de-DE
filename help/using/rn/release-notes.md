@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: afc31ee91979eacf9514fd483d2757c3b14442f0
+source-git-commit: 6e45f1930e70702b3f79449edbe1c73b9cffb8c1
 workflow-type: tm+mt
-source-wordcount: 1505
-ht-degree: 39%
+source-wordcount: 1566
+ht-degree: 38%
 
 ---
 
@@ -222,7 +222,7 @@ Im Mai 2026 wurden auch die folgenden Verbesserungen veröffentlicht.
 
 ## Demnächst {#coming-soon}
 
-Die Veröffentlichung der folgenden Funktionen und Verbesserungen ist für die nächsten Tage geplant. **Informationen können Änderungen unterliegen**. Aktualisierte Links, Bildschirme und Dokumentationen werden freigegeben, sobald diese Aktualisierungen live in der Produktion verfügbar sind.
+Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Informationen können Änderungen unterliegen**. Aktualisierte Links, Bildschirme und Dokumentationen werden freigegeben, sobald diese Aktualisierungen live in der Produktion verfügbar sind.
 
 ### Neue Funktionen {#coming-soon-features}
 
@@ -287,5 +287,11 @@ Die Veröffentlichung der folgenden Funktionen und Verbesserungen ist für die n
 
   Header-Werte können auf Kanalebene festgelegt und pro Kampagne überschrieben werden, indem kontextuelle Daten verwendet werden, um die Kontrolle zu verbessern.
 
+
+  Verfügbarkeitsdatum: 29. Mai 2026
+
+  &#x200B;#### Konfiguration
+
+* **Datensatz mit Nachrichten-Feedback-Ereignissen, der zur Batch-Aufnahme** wird`AJO Message Feedback Event Dataset` Der wechselt vom Streaming- in den Batch-Aufnahme-Modus. Durch diese Änderung wird sichergestellt, dass die Datenaufnahme die Streaming-Aufnahmebeschränkungen nicht überschreitet. Wenn Sie diesen Datensatz in Customer Journey Analytics-Berichten verwenden oder Abfragen dafür ausführen, erwarten Sie in Zukunft eine Zunahme der Datenlatenz von bis zu 2 Stunden.
 
   Verfügbarkeitsdatum: 29. Mai 2026

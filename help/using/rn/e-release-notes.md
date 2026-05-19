@@ -9,9 +9,9 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: db584aa8f95121d04a5fdb45b324a9677dbf123f
 workflow-type: tm+mt
-source-wordcount: 1194
+source-wordcount: 1131
 ht-degree: 6%
 
 ---
@@ -109,6 +109,7 @@ Diese Version umfasst die folgenden Funktionen.
 <tr>
 <td>
 <p>Sie können jetzt Entscheidungsrichtlinien zu Briefpost-Journey und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Decisioning-Engine nutzen, um dynamisch den besten Inhalt für jedes Zielgruppenmitglied zurückzugeben. Die Briefpost-Entscheidungsfindung unterstützt auch Anwendungsfälle für Batch-Entscheidungen, mit denen Sie die entsprechenden Angebotselemente für jedes Profil in einer bestimmten Adobe Experience Platform-Zielgruppe exportieren können.</p>
+<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
 <p>Verfügbarkeitsdatum: 19. Mai 2026</p>
 </td>
 </tr>
@@ -178,6 +179,7 @@ Diese Version umfasst die folgenden Funktionen.
 <td>
 <p>Der KI-Assistent arbeitet jetzt im erweiterten Ausdruckseditor von Journey, um Eingabeaufforderungen in natürliche Sprachen in gültige Ausdrücke und Bedingungslogik zu konvertieren. Beschreiben Sie den Ausdruck, den Sie erstellen möchten, und der KI-Assistent generiert einsatzbereiten Code, den Sie sofort anwenden oder durch Folgeaufforderungen verfeinern können.</p>
 <p>Diese Funktion steht allen Kunden von as a Public Beta zur Verfügung.</p>
+<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
 <p>Verfügbarkeitsdatum: 19. Mai 2026</p>
 </td>
 </tr>
@@ -223,11 +225,7 @@ Die folgenden Verbesserungen sind für diese Version vorgesehen.
   Availability date: May 19, 2026
 -->
 
-#### Konfiguration
 
-* **Datensatz mit Nachrichten-Feedback-Ereignissen, der zur Batch-Aufnahme** wird`AJO Message Feedback Event Dataset` Der wechselt vom Streaming- in den Batch-Aufnahme-Modus. Durch diese Änderung wird sichergestellt, dass die Datenaufnahme die Streaming-Aufnahmebeschränkungen nicht überschreitet. Wenn Sie diesen Datensatz in Customer Journey Analytics-Berichten verwenden oder Abfragen dafür ausführen, erwarten Sie in Zukunft eine Zunahme der Datenlatenz von bis zu 2 Stunden.
-
-  Verfügbarkeitsdatum: 19. Mai 2026
 
 #### Entscheidungsfindung
 
