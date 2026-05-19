@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Inhalte in Journey Optimizer von Grund auf gestalten
-description: Erfahren Sie, wie Sie Inhalte von Grund auf neu erstellen
+description: Erfahren Sie, wie Sie Ihre Inhalte von Grund auf neu gestalten
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: Inhalt, Editor, E-Mail, Starten
+keywords: Inhalt, Editor, E-Mail, Start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 TQID: https://experienceleague.adobe.com/mDgavy5F5CYnLmKBh84OSXFl-BHE82t-diUX6UXU27k
 product_v2:
@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 754
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="Hinzufügen von Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout der E-Mail. Ziehen Sie per Drag-and **Drop eine Komponente** Struktur“ auf die Arbeitsfläche, um mit der Gestaltung Ihres E-Mail-Inhalts zu beginnen."
+>abstract="Strukturkomponenten definieren das Layout der E-Mail. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres E-Mail-Inhalts zu beginnen."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
@@ -61,91 +61,91 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="Definieren von E-Mail-Spalten"
->abstract="Mit der E-Mail-Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur auswählen."
+>abstract="Mit dem E-Mail-Designer können Sie das Layout einer E-Mail einfach definieren, indem Sie die Spaltenstruktur auswählen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="Definieren der Spalten für die Landingpage"
->abstract="Mit der Designer können Sie das Layout Ihrer Landingpage einfach definieren, indem Sie die Spaltenstruktur auswählen."
+>abstract="Mit dem E-Mail-Designer können Sie das Layout Ihrer Landingpage einfach definieren, indem Sie die Spaltenstruktur auswählen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="Definieren von Fragmentspalten"
->abstract="Mit der Designer können Sie das Layout Ihres Fragments einfach definieren, indem Sie die Spaltenstruktur auswählen."
+>abstract="Mit dem E-Mail-Designer können Sie das Layout Ihres Fragments einfach definieren, indem Sie die Spaltenstruktur auswählen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="Definieren von Vorlagenspalten"
->abstract="Mit der Designer können Sie das Layout Ihrer Vorlage einfach definieren, indem Sie die Spaltenstruktur auswählen."
+>abstract="Mit dem E-Mail-Designer können Sie das Layout Ihrer Vorlage einfach definieren, indem Sie die Spaltenstruktur auswählen."
 
 
-Verwenden Sie die [!DNL Adobe Journey Optimizer] E-Mail-Designer , um die Struktur Ihrer Inhalte einfach zu definieren. Durch das Hinzufügen und Verschieben von strukturellen Elementen mit einfachem Drag-and-Drop können Sie die Form Ihrer Inhalte innerhalb von Sekunden entwerfen.
+Verwenden Sie den E-Mail-Designer von [!DNL Adobe Journey Optimizer], um die Struktur Ihrer Inhalte einfach zu definieren. Durch das Hinzufügen und Verschieben von strukturellen Elementen mit einfachem Drag-and-Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.
 
 >[!NOTE]
 >
->Der [European Accessibility Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Achten Sie beim Entwerfen von Inhalten in [!DNL Journey Optimizer] auf [dieser Seite](accessible-content.md) die spezifischen Richtlinien.
+>Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} legt fest, dass alle digitalen Kommunikationen zugänglich sein sollten. Beachten Sie beim Erstellen von Inhalten in [!DNL Journey Optimizer] die konkreten Richtlinien [auf dieser Seite](accessible-content.md).
 
-Gehen Sie wie folgt vor, um mit der Erstellung Ihres Inhalts zu beginnen:
+Gehen Sie wie folgt vor, um mit der Erstellung des Ihrers Inhalts zu beginnen:
 
-1. Wählen Sie auf der Designer-Startseite die Option **[!UICONTROL Erstellen von neuen]**) aus.
+1. Wählen Sie auf der Startseite von Designer die Option **[!UICONTROL Erstellen von neuen Inhalten]** aus.
 
    ![](assets/email_designer.png)
 
 
-1. Beschleunigen Sie die E-Mail-Erstellung mit dem KI-Assistenten und generieren Sie vollständige E-Mail-Inhalte mit Text und Bildern mit [KI-Assistenten für die vollständige Inhaltserstellung](../content-management/generative-full-content.md).
+1. Beschleunigen Sie die E-Mail-Erstellung mit dem KI-Assistenten und generieren Sie vollständige E-Mail-Inhalte mit Text und Bildern mit dem [KI-Assistenten für die vollständige Inhaltserstellung](../content-management/generative-full-content.md).
 
 1. Beginnen Sie mit der Gestaltung Ihres Inhalts, indem Sie **[!UICONTROL Strukturen]** per Drag-and-Drop auf die Arbeitsfläche ziehen, um das Layout Ihrer E-Mail zu definieren.
 
    >[!NOTE]
    >
-   >Das Stapeln von Spalten ist nicht mit allen E-Mail-Programmen kompatibel. Wenn dies nicht unterstützt wird, werden Spalten nicht gestapelt.
+   >Die Stapelung von Spalten ist nicht mit allen E-Mail-Programmen kompatibel. Wenn dies nicht unterstützt wird, werden Spalten nicht gestapelt.
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. Fügen Sie so viele **[!UICONTROL Strukturen]** wie nötig hinzu und bearbeiten Sie deren Einstellungen im entsprechenden Bereich auf der rechten Seite.
+1. Fügen Sie so viele **[!UICONTROL Strukturen]** hinzu, wie benötigt werden, und bearbeiten Sie deren Einstellungen im entsprechenden Bereich auf der rechten Seite.
 
    ![](assets/email_designer_structure_components.png)
 
-   Wählen Sie die Komponente **[!UICONTROL n:n Column]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte definieren, indem Sie die Pfeile am unteren Rand jeder Spalte verschieben.
+   Wählen Sie die Komponente **[!UICONTROL n:n-Spalte]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
 
    >[!NOTE]
    >
-   >Die Größe einer Spalte darf nicht kleiner als 10 % der Gesamtbreite der Strukturkomponente sein. Nicht leere Spalten können nicht entfernt werden.
+   >Die Größe einer Spalte muss immer mindestens 10 % der Gesamtbreite der Strukturkomponente betragen. Sie können nur leere Spalten entfernen.
 
-1. Erweitern Sie **[!UICONTROL Abschnitt]** Inhalte“ und fügen Sie beliebig viele Elemente zu einer oder mehreren Strukturkomponenten hinzu. [Erfahren Sie mehr über Inhaltskomponenten](content-components.md)
+1. Erweitern Sie den Abschnitt **[!UICONTROL Inhalte]** und fügen Sie beliebig viele Elemente zu einer oder mehreren Strukturkomponenten hinzu. [Weitere Informationen zu Inhaltskomponenten](content-components.md)
 
-1. Jede Komponente kann mithilfe der Registerkarten **[!UICONTROL Einstellungen]** oder **[!UICONTROL Stil]** im rechten Menü angepasst werden. Sie können beispielsweise den Textstil, den Abstand oder den Rand jeder Komponente ändern. [Weitere Informationen über Ausrichtung und Abstand](alignment-and-padding.md)
+1. Jede Komponente kann mithilfe der Registerkarten **[!UICONTROL Einstellungen]** oder **[!UICONTROL Stil]** im rechten Menü angepasst werden. Beispielsweise können Sie den Textstil, den Abstand oder den Rand jeder Komponente ändern. [Erfahren Sie mehr über Ausrichtung und Abstand](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
-1. Über die **[!UICONTROL Asset-Auswahl]** können Sie direkt Assets auswählen, die in der **[!UICONTROL Assets-Bibliothek gespeichert]**. [Erfahren Sie mehr über Asset-Management](../integrations/assets.md)
+1. Über die **[!UICONTROL Asset-Auswahl]** können Sie direkt Assets auswählen, die in der **[!UICONTROL Asset-Bibliothek]** gespeichert sind. [Weitere Informationen über Asset-Management](../integrations/assets.md)
 
-   Doppelklicken Sie auf den Ordner, der Ihre Assets enthält. Ziehen Sie sie per Drag-and-Drop in eine Strukturkomponente .
+   Klicken Sie doppelt auf den Ordner, der Ihre Assets enthält. Ziehen Sie sie per Drag-and-Drop in eine Strukturkomponente.
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Fügen Sie Personalisierungsfelder ein, um Ihren Inhalt aus Profilattributen, Zielgruppenzugehörigkeiten, kontextuellen Attributen und mehr anzupassen. [Erfahren Sie mehr über die Personalisierung von Inhalten](../personalization/personalize.md)
+1. Fügen Sie Personalisierungsfelder ein, um Ihren Inhalt aus Profilattributen, Zielgruppenzugehörigkeiten, Kontextattributen und mehr anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 
-1. Klicken Sie **[!UICONTROL Bedingten Inhalt aktivieren]**, um dynamischen Inhalt hinzuzufügen und den Inhalt auf der Grundlage von bedingten Regeln an die Zielprofile anzupassen. [Erste Schritte mit dynamischen Inhalten](../personalization/get-started-dynamic-content.md)
+1. Klicken Sie auf **[!UICONTROL Bedingten Inhalt aktivieren]**, um dynamischen Inhalt hinzuzufügen und den Inhalt auf der Grundlage von bedingten Regeln an die Zielprofile anzupassen. [Erste Schritte mit dynamischen Inhalten](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. Klicken Sie auf **[!UICONTROL Links]** im linken Bereich, um alle URLs Ihres Inhalts anzuzeigen, die verfolgt werden sollen. Sie können bei Bedarf deren **[!UICONTROL Tracking-Typ]** oder **[!UICONTROL Label]** ändern und **[!UICONTROL Tags]** hinzufügen. [Erfahren Sie mehr über Links und Tracking](message-tracking.md)
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Links]** im linken Bereich, um die Liste aller zu verfolgenden URLs Ihres Inhalts anzuzeigen. Sie können bei Bedarf deren **[!UICONTROL Tracking-Typ]** oder das **[!UICONTROL Label]** ändern und **[!UICONTROL Tags]** hinzufügen. [Erfahren Sie mehr über Links und Tracking](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 
-1. Bei Bedarf können Sie Ihre E-Mail weiter personalisieren, indem Sie **[!UICONTROL erweiterten Menü auf]** Zum Code-Editor wechseln“ klicken. Auf diese Weise können Sie den E-Mail-Quell-Code bearbeiten, z. B. um Tracking- oder benutzerdefinierte HTML-Tags hinzuzufügen. [Erfahren Sie mehr über den Code-Editor](code-content.md)
+1. Bei Bedarf können Sie Ihre E-Mail weiter personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. Auf diese Weise können Sie den E-Mail-Quell-Code bearbeiten, z. B. um Tracking- oder benutzerdefinierte HTML-Tags hinzuzufügen. [Erfahren Sie mehr über den Code-Editor](code-content.md)
 
    >[!CAUTION]
    >
    >Nach dem Wechsel zum Code-Editor können Sie für diese E-Mail nicht mehr zum visuellen Designer zurückkehren.
 
-1. Sobald Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen. Ausführliche Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
+1. Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendering zu überprüfen. Sie können zwischen der Desktop- oder der Mobile-Ansicht wählen. Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
    ![](assets/email_designer_simulate_content.png)
 
-1. Sie können auch die Qualität Ihrer Inhalte überprüfen, um Lesbarkeit, Effektivität und Inhaltskohärenz zu bewerten. [Erfahren Sie mehr über die Validierung der Inhaltsqualität](../content-management/brands-score.md#validate-quality)
+1. Sie können auch die Qualität Ihrer Inhalte überprüfen, um Lesbarkeit, Effektivität und Inhaltskohärenz zu bewerten. [Weitere Informationen zur Validierung der Inhaltsqualität](../content-management/brands-score.md#validate-quality)
 
-1. Wenn Ihr Inhalt fertig ist, klicken Sie auf **[!UICONTROL Speichern]**.
+1. Wenn Ihre Inhalte fertig sind, klicken Sie auf **[!UICONTROL Speichern]**.

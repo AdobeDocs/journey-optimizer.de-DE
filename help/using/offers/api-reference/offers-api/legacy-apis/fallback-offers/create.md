@@ -1,10 +1,10 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Fallback-Angebot erstellen
-description: Ein Fallback-Angebot wird an Kunden gesendet, wenn sie für andere Angebote nicht infrage kommen
+title: Erstellen eines Fallback-Angebots
+description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
 feature: Decision Management, API
-badge: label="Veraltet" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
@@ -23,27 +23,27 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 161
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Fallback-Angebot erstellen {#create-fallback-offer}
+# Erstellen eines Fallback-Angebots {#create-fallback-offer}
 
 >[!TIP]
 >
->Decisioning, [!DNL Adobe Journey Optimizer] neue Entscheidungsfunktion, ist jetzt über die Code-basierten Erlebnis- und E-Mail-Kanäle verfügbar! [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Sie können ein Fallback-Angebot erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 
-## Accept- und Content-Type-Kopfzeilen {#accept-and-content-type-headers}
+## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte der Felder *Content-Type* und *Accept* im Anfrage-Header:
+Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
 
 | Header-Name | Wert |
 | ----------- | ----- |
 | Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| content-type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
+| Inhaltstyp | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
 **API-Format**
 

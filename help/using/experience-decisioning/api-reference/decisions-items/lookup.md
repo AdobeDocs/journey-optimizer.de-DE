@@ -1,5 +1,5 @@
 ---
-title: Entscheidungselement nachschlagen
+title: Nachschlagen eines Entscheidungselements
 description: Entscheidungselemente sind Marketing-Angebote, die Sie erstellen und in Sammlungen und Katalogen organisieren können.
 feature: API, Collections, Decisioning
 topic: Integrations
@@ -17,13 +17,13 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 80
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Entscheidungselement nachschlagen {#lookup-decision-items}
+# Nachschlagen eines Entscheidungselements {#lookup-decision-items}
 
-Um bestimmte Entscheidungselemente zu suchen, stellen Sie eine GET-Anfrage an die Angebotsbibliotheks-API, die die ID im Anfragepfad enthält.
+Um nach bestimmten Entscheidungselementen zu suchen, stellen Sie eine GET-Anfrage an die Angebotsbibliothek-API, die die ID im Anfragepfad enthält.
 
 **API-Format**
 
@@ -33,8 +33,8 @@ GET /{ENDPOINT_PATH}/offer-items/{ID}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | Die ID der Entität, die Sie suchen möchten. | `offerItem1234` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{ID}` | Die ID der Identität, die Sie nachschlagen möchten. | `offerItem1234` |
 
 **Anfrage**
 
@@ -50,7 +50,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234' 
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details des Entscheidungselements zurück.
+Bei einer erfolgreichen Antwort werden die Details des Entscheidungselements zurückgegeben.
 
 ```json
 {

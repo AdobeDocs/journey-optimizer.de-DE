@@ -79,7 +79,7 @@ Konvertiert einen Argumentwert je nach Typ in einen booleschen Wert.
 * decimal
 * boolean
 * string
-* integer
+* Ganzzahl
 
 +++
 
@@ -214,7 +214,7 @@ Dadurch wird ein dateTime-Wert erstellt, indem eine Zeitzone mit einem reinen Da
 
 `toDateTime("UTC", toDateTimeOnly("2023-08-18T23:17:59.123"))`
 
-Gibt „2023-08-18T23:17:59.123Z“ zurück
+Gibt 2023-08-18T23:17:59.123Z zurück.
 
 Dadurch wird ein dateTime-Wert erstellt, indem eine Zeitzone auf einen dateTimeOnly-Wert angewendet wird (der keine Zeitzoneninformationen enthält).
 

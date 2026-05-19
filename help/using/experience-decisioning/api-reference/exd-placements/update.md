@@ -1,6 +1,6 @@
 ---
-title: Platzierung aktualisieren
-description: Die erweiterte Platzierung besteht aus Sammlungen, die mit Einschränkungen und Ranking-Methoden verknüpft sind, um Angebote zu bestimmen.
+title: Aktualisieren der ExD-Platzierung
+description: Die ExD-Platzierung besteht aus Sammlungen, die mit Begrenzungen und Rangfolgenmethoden zur Bestimmung von Angeboten verknüpft sind.
 feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
@@ -17,23 +17,23 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 151
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Aktualisieren einer erweiterten Platzierung {#update-exd-placement}
+# Aktualisieren einer ExD-Platzierung {#update-exd-placement}
 
-Sie können eine Platzierung ändern oder aktualisieren, indem Sie eine PUT-Anfrage an die Angebotsbibliotheks-API richten.
+Sie können eine Platzierung ändern oder aktualisieren, indem Sie eine PUT-Anfrage an die Angebotsbibliothek-API richten.
 
-Weitere Informationen zu JSON PUT, einschließlich verfügbarer Vorgänge, finden Sie in der offiziellen JSON-PUT-Dokumentation.
+Weitere Informationen zu JSON PUT, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen Dokumentation zu JSON PUT.
 
-**Accept- und Content-Type-Kopfzeilen**
+**Header „Akzeptieren“ und „Content-Typ“**
 
-In der folgenden Tabelle sind die gültigen Werte aus den Feldern des Inhaltstyps im Anfrage-Header aufgeführt:
+Folgende Tabelle zeigt die gültigen Werte mit den Feldern „Content-Typ“ im Anfrage-Header:
 
 | Parameter | Beschreibung |
 | --------- | ----------- |
-| content-type | `application/json` |
+| Inhaltstyp | `application/json` |
 
 **API-Format**
 
@@ -43,7 +43,7 @@ PUT /{ENDPOINT_PATH}/exd-placements/{ID}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | Die ID der Entität, die Sie aktualisieren möchten. | `placement1234` |
 
 **Anfrage**
@@ -66,11 +66,11 @@ curl --location --request PUT 'https://platform-stage.adobe.io/data/core/dps/exd
 | --------- | ----------- |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
-| `op` | Der Operationsaufruf, der verwendet wird, um die Aktion zu definieren, die zum Aktualisieren der Verbindung erforderlich ist. Operationen umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
+| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Vorgänge umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die aktualisierten Details der erweiterten Platzierung zurück, einschließlich der ID.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details der ExD-Platzierung einschließlich der ID zurückgegeben.
 
 ```json
 {

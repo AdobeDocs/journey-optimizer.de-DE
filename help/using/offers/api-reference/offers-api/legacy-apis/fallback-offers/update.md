@@ -1,10 +1,10 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Fallback-Angebot aktualisieren
-description: Ein Fallback-Angebot wird an Kunden gesendet, wenn sie für andere Angebote nicht infrage kommen
+title: Aktualisieren eines Fallback-Angebots
+description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
 feature: Decision Management, API
-badge: label="Veraltet" type="Informative"
+badge: label="Vorgängerversion" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
@@ -23,28 +23,28 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 186
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Fallback-Angebot aktualisieren {#update-fallback-offer}
+# Aktualisieren eines Fallback-Angebots {#update-fallback-offer}
 
 >[!TIP]
 >
->Decisioning, [!DNL Adobe Journey Optimizer] neue Entscheidungsfunktion, ist jetzt über die Code-basierten Erlebnis- und E-Mail-Kanäle verfügbar! [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>Die neue Entscheidungsfindungsfunktion in [!DNL Adobe Journey Optimizer] ist jetzt über den Code-basierten Erlebniskanal und den E-Mail-Kanal verfügbar. [Weitere Informationen](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Sie können ein Fallback-Angebot in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 
-Weitere Informationen zu JSON-Patch-Vorgängen, einschließlich verfügbarer Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](https://jsonpatch.com/).
+Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](https://jsonpatch.com/).
 
-## Accept- und Content-Type-Kopfzeilen {#accept-and-content-type-headers}
+## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte der Felder *Content-Type* und *Accept* im Anfrage-Header:
+Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
 
 | Header-Name | Wert |
 | ----------- | ----- |
-| content-type | `application/json` |
+| Inhaltstyp | `application/json` |
 
 **API-Format**
 
@@ -83,13 +83,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 | Parameter | Beschreibung |
 | --------- | ----------- |
-| `op` | Der Operationsaufruf, der verwendet wird, um die Aktion zu definieren, die zum Aktualisieren der Verbindung erforderlich ist. Operationen umfassen: `add`, `replace` und `remove`. |
+| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen `add`, `replace` und `remove`. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die aktualisierten Details des Fallback-Angebots zurück, einschließlich der eindeutigen `id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details des Fallback-Angebots zurückgegeben, einschließlich der eindeutigen Instanz-`id`.
 
 ```json
 {

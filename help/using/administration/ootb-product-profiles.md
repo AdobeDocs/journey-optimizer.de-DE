@@ -68,7 +68,7 @@ Die Rolle **[!DNL Campaign Approver]** ermöglicht es Benutzenden, Sendungen zu 
 |-|-|
 | Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li><li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li></ul> |
 | Kampagnen | <ul><li>**[!DNL Manage campaigns]**: Lesen, Erstellen, Bearbeiten und Löschen von Kampagnen.</li><li>**[!DNL Publish campaigns]**: Veröffentlichen von Kampagnen.</li><li>**[!DNL View campaigns report]**: Lesen und Bearbeiten von Kampagnenberichten.</li></ul> |
-| Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul> |
+| Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Schreibgeschützter Zugriff auf Nachrichtenvoreinstellungen.</li></ul> |
 | Entscheidungs-Management | <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsfindungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Nachrichtenberichten und Verwenden von Aktionsfunktionen.</li></ul> |
 
 
@@ -82,7 +82,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 |-|-|
 | Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li> **[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li><li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li></ul> |
 | Kampagnen | <ul><li>**[!DNL Manage campaigns]**: Lesen, Erstellen, Bearbeiten und Löschen von Kampagnen.</li><li>**[!DNL View campaigns report]**: Lesen und Bearbeiten von Journey-Berichten.</li></ul> |
-| Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul> |
+| Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Schreibgeschützter Zugriff auf Nachrichtenvoreinstellungen.</li></ul> |
 | Entscheidungs-Management | <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsfindungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Nachrichtenberichten und Verwenden von Aktionsfunktionen.</li></ul> |
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
@@ -201,7 +201,7 @@ Mit der Rolle **[!DNL Orchestrated Campaign Approver]** können Benutzende orche
 | Ressourcen | Berechtigungen |
 |-|-|
 | Adobe Experience Platform | <ul> <li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li> <li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li> <li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li> <li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li> <li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li> <li>**[!DNL Enable AI Assistant]**: Aktivieren oder Aufrufen KI-gestützter Kampagnen- und Zielgruppenfunktionen.</li>  <li>**[!DNL View operational insights]**: Schreibgeschützter Zugriff auf Erkenntnis- und Überwachungs-Dashboards auf Systemebene.</li></ul> |
-| Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li> <li>**[!DNL Manage custom dashboards]**: Erstellen, Bearbeiten und Löschen benutzerdefinierter Dashboards.</li></ul> |
+| Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Schreibgeschützter Zugriff auf Nachrichtenvoreinstellungen.</li> <li>**[!DNL Manage custom dashboards]**: Erstellen, Bearbeiten und Löschen benutzerdefinierter Dashboards.</li></ul> |
 | Dashboard | <ul> <li>**[!DNL Manage standard dashboard]**: Lesen, Erstellen, Bearbeiten und Löschen benutzerdefinierter Widgets und Widget-Schemata über die Widget-Bibliothek.</li> </ul> |
 | Data Governance | <ul> <li>**[!DNL View user activity log]**: Schreibgeschützter Zugriff zur Anzeige aufgezeichneter Auditprotokolle zu Experience Platform-Aktivitäten.</li> </ul> |
 | Entscheidungs-Management | <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsfindungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Nachrichtenberichten und Verwenden von Aktionsfunktionen.</li></ul> |

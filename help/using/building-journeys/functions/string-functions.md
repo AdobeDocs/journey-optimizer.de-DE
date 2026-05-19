@@ -59,7 +59,7 @@ Verkettet zwei Zeichenfolgenparameter oder eine Liste von Zeichenfolgen.
 | Parameter | Typ |
 |-----------|------------------|
 | Liste | listString |
-| string | string |
+| string | Zeichenfolge |
 
 +++
 
@@ -166,8 +166,8 @@ Gibt „true“ zurück, wenn der zweite Parameter ein Suffix des ersten Paramet
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | string |
-| suffix | string |
+| string | Zeichenfolge |
+| suffix | Zeichenfolge |
 
 +++
 
@@ -205,8 +205,8 @@ Gibt „false“ zurück.
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | string |
-| suffix | string |
+| string | Zeichenfolge |
+| suffix | Zeichenfolge |
 
 +++
 
@@ -238,7 +238,7 @@ Vergleicht die erste Argumentzeichenfolge mit der zweiten Argumentzeichenfolge u
 
 +++Parameter
 
-* string
+* Zeichenfolge
 
 +++
 
@@ -309,7 +309,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im Parameter keine Zeichen enthä
 
 +++Parameter
 
-* string
+* Zeichenfolge
 
 +++
 
@@ -349,7 +349,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im Parameter nicht leer ist.
 
 +++Parameter
 
-* string
+* Zeichenfolge
 
 +++
 
@@ -424,7 +424,7 @@ Gibt die Anzahl der Zeichen des Zeichenfolgenausdrucks im Parameter zurück.
 
 +++Parameter
 
-* string
+* Zeichenfolge
 
 +++
 
@@ -456,7 +456,7 @@ Gibt eine Version des Parameters in Kleinbuchstaben zurück.
 
 +++Parameter
 
-* string
+* Zeichenfolge
 
 +++
 
@@ -490,7 +490,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im ersten Parameter mit dem regul
 
 | Parameter | Typ |
 |--- |--- |
-| string | string |
+| string | Zeichenfolge |
 | regexp | Zeichenfolge |
 
 +++
@@ -733,8 +733,8 @@ Gibt „true“ zurück, wenn der zweite Parameter ein Präfix des ersten Parame
 
 | Parameter | Typ |
 |-------------|--------|
-| string | string |
-| prefix | string |
+| string | Zeichenfolge |
+| prefix | Zeichenfolge |
 
 +++
 
@@ -768,7 +768,7 @@ Gibt die Unterzeichenfolge des Zeichenfolgenausdrucks zwischen dem Anfangsindex 
 
 | Parameter | type |
 |-------------|----------|
-| string | string |
+| string | Zeichenfolge |
 | beginIndex | integer |
 | endIndex | integer |
 
@@ -810,7 +810,7 @@ Entfernt Leerzeichen am Anfang und Ende.
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | string |
+| string | Zeichenfolge |
 
 +++
 

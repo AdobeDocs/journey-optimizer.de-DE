@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
 workflow-type: tm+mt
 source-wordcount: 1461
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * Wählen Sie **[!UICONTROL Mirror-Seite]** aus, um der Mirror-Seite der E-Mail einen Link hinzuzufügen. [Weitere Informationen](#mirror-page)
 
-   * Wählen Sie **[!UICONTROL Deeplink]** aus, um einen Link zu einer Mobile App einzufügen. Dadurch wird sichergestellt, dass Benutzende direkt zu den richtigen In-App-Inhalten geleitet werden, anstatt zu Browsern oder App-Stores weitergeleitet zu werden, wodurch der Kontext und die Interaktion erhalten bleiben. [Weitere Informationen](deeplinks.md)
+   * Wählen Sie **[!UICONTROL Deeplink]** aus, um einen Link zu einer Mobile App einzufügen. Dadurch wird sichergestellt, dass Benutzende direkt zu den richtigen In-App-Inhalten weitergeleitet werden, anstatt zu Browsern oder App-Stores, wodurch der Kontext und die Interaktion erhalten bleiben. [Weitere Informationen](deeplinks.md)
 
      >[!IMPORTANT]
      >

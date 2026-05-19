@@ -16,13 +16,13 @@ topic_v2:
 source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
 source-wordcount: 742
-ht-degree: 0%
+ht-degree: 79%
 
 ---
 
-# Arrays und Listenfunktionen {#arrays}
+# Array- und Listenfunktionen {#arrays}
 
-Verwenden Sie diese Funktionen, um die Interaktion mit Arrays, Listen und Zeichenfolgen zu erleichtern.
+Verwenden Sie diese Funktionen, um die Interaktion mit Arrays, Listen und Zeichenfolgen zu vereinfachen.
 
 ## Nur Null zählen {#count-only-null}
 
@@ -60,7 +60,7 @@ Die Funktion `countWithNull` wird verwendet, um alle Elemente einer Liste einsch
 
 Gibt 6 zurück.
 
-## Unterschiedlich{#distinct}
+## Eindeutig{#distinct}
 
 Die Funktion `distinct` wird verwendet, um Werte aus einem Array oder einer Liste abzurufen, aus denen doppelte Werte entfernt wurden.
 
@@ -72,7 +72,7 @@ Die Funktion `distinct` wird verwendet, um Werte aus einem Array oder einer List
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen angegeben, die Bestellungen in mehr als einem Geschäft aufgegeben haben.
+Mit dem folgenden Vorgang werden Personen definiert, die Bestellungen in mehr als einem Geschäft aufgegeben haben.
 
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
@@ -108,13 +108,13 @@ Mit der Funktion `head` wird das erste Element im Array oder in der Liste zurüc
 
 **Beispiel**
 
-Mit dem folgenden Vorgang wird die erste der fünf häufigsten Bestellungen mit dem höchsten Preis zurückgegeben. Weitere Informationen zur Funktion `topN` finden Sie im Abschnitt [Erste `n` im Array](#first-n) .
+Mit dem folgenden Vorgang wird die erste der fünf häufigsten Bestellungen mit dem höchsten Preis zurückgegeben. Weiterführende Informationen zur Funktion `topN` finden Sie im Abschnitt [Erste `n` in Array](#first-n).
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## Sortieren und Abrufen der ersten N in Array {#first-n}
+## Sortieren und Abrufen der ersten N im Array {#first-n}
 
 Die Funktion `topN` sortiert ein Array in absteigender Reihenfolge basierend auf dem angegebenen numerischen Ausdruck und gibt die ersten `N` Elemente zurück. Wenn die Array-Größe kleiner als `N` ist, wird das gesamte sortierte Array zurückgegeben.
 
@@ -127,9 +127,9 @@ Diese Funktion
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{ARRAY}` | Das Array oder die Liste, das bzw. die sortiert werden soll. |
+| `{ARRAY}` | Das zu sortierende Array oder die zu sortierende Liste. |
 | `{VALUE}` | Die Eigenschaft, in der das Array oder die Liste sortiert werden soll. |
-| `{AMOUNT}` | Die Anzahl der zurückzugebenden Elemente. |
+| `{AMOUNT}` | Die Zahl der zurückzugebenden Elemente. |
 
 **Beispiel**
 
@@ -139,9 +139,9 @@ Mit dem folgenden Vorgang werden die ersten fünf Bestellungen mit dem niedrigst
 {%= topN(orders,price, 5) %}
 ```
 
-## in{#in}
+## Enthalten{#in}
 
-Mit der Funktion `in` wird bestimmt, ob ein Element Mitglied eines Arrays oder einer Liste ist.
+Mit der `in`-Funktion wird bestimmt, ob ein Element einem Array oder einer Liste angehört.
 
 **Syntax**
 
@@ -157,9 +157,9 @@ Mit dem folgenden Vorgang werden Personen definiert, die im März, Juni oder Sep
 {%= in (person.birthMonth, [3, 6, 9]) %}
 ```
 
-## Beinhaltet{#includes}
+## Umfasst{#includes}
 
-Mit der Funktion `includes` wird bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält.
+Mit der `includes`-Funktion wird bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält.
 
 **Syntax**
 
@@ -175,9 +175,9 @@ Mit dem folgenden Vorgang werden Personen definiert, zu deren Lieblingsfarben Ro
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## Überschneidet{#intersects}
+## Schnittmengen{#intersects}
 
-Mit der Funktion `intersects` wird bestimmt, ob zwei Arrays oder Listen mindestens ein gemeinsames Element aufweisen.
+Mit der `intersects`-Funktion wird bestimmt, ob zwei Arrays oder Listen mindestens ein gemeinsames Element aufweisen.
 
 **Syntax**
 
@@ -187,7 +187,7 @@ Mit der Funktion `intersects` wird bestimmt, ob zwei Arrays oder Listen mindeste
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen definiert, deren Lieblingsfarben mindestens eine der folgenden Farben umfassen: Rot, Blau oder Grün.
+Mit dem folgenden Vorgang werden Personen definiert, deren Lieblingsfarben mindestens eine der folgenden Farben beinhalten: Rot, Blau oder Grün.
 
 ```sql
 {%= intersects(person.favoriteColors,["red", "blue", "green"]) %}
@@ -214,7 +214,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Sortieren und Letzte N in Array abrufen {#last-n}
+## Sortieren und Abrufen der letzten N im Array {#last-n}
 
 Die Funktion `bottomN` sortiert ein Array in aufsteigender Reihenfolge basierend auf dem angegebenen numerischen Ausdruck und gibt die ersten `N` Elemente zurück. Wenn die Array-Größe kleiner als `N` ist, wird das gesamte sortierte Array zurückgegeben.
 
@@ -226,9 +226,9 @@ Die Funktion `bottomN` sortiert ein Array in aufsteigender Reihenfolge basierend
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{ARRAY}` | Das Array oder die Liste, das bzw. die sortiert werden soll. |
+| `{ARRAY}` | Das zu sortierende Array oder die zu sortierende Liste. |
 | `{VALUE}` | Die Eigenschaft, in der das Array oder die Liste sortiert werden soll. |
-| `{AMOUNT}` | Die Anzahl der zurückzugebenden Elemente. |
+| `{AMOUNT}` | Die Zahl der zurückzugebenden Elemente. |
 
 **Beispiel**
 
@@ -238,13 +238,13 @@ Mit dem folgenden Vorgang werden die letzten fünf Bestellungen mit dem höchste
 {%= bottomN(orders,price, 5) %}
 ```
 
-## Nicht in{#notin}
+## Nicht enthalten{#notin}
 
-Mit der Funktion `notIn` wird bestimmt, ob ein Element nicht Mitglied eines Arrays oder einer Liste ist.
+Mit der `notIn`-Funktion wird bestimmt, ob ein Element einem Array oder einer Liste nicht angehört.
 
 >[!NOTE]
 >
->Die `notIn`-Funktion *auch* stellt sicher, dass keiner der Werte null ist. Daher sind die Ergebnisse keine exakte Negation der `in`.
+>Die `notIn`-Funktion stellt *außerdem* sicher, dass keiner der Werte null ist. Daher sind die Ergebnisse keine exakte Negation der `in`-Funktion.
 
 **Syntax**
 
@@ -261,9 +261,9 @@ Mit dem folgenden Vorgang werden Personen definiert, die nicht im März, Juni od
 ```
 
 
-## Untergruppe von{#subset}
+## Teilmenge von{#subset}
 
-Mit der Funktion `subsetOf` wird bestimmt, ob ein bestimmtes Array (Array A) eine Teilmenge eines anderen Arrays (Array B) ist. Mit anderen Worten, dass alle Elemente in Array A Elemente von Array B sind.
+Mit der `subsetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) eine Teilmenge eines anderen Arrays (Array B) ist. Mit anderen Worten: ob alle Elemente in Array A Elemente von Array B sind.
 
 **Syntax**
 
@@ -273,15 +273,15 @@ Mit der Funktion `subsetOf` wird bestimmt, ob ein bestimmtes Array (Array A) ein
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen definiert, die alle ihre Lieblingsstädte besucht haben.
+Mit dem folgenden Vorgang werden Personen definiert, die alle ihrer Lieblingsstädte besucht haben.
 
 ```sql
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## Obermenge von{#superset}
+## Übergeordnete Gruppe von{#superset}
 
-Mit der Funktion `supersetOf` wird bestimmt, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist. Mit anderen Worten: Array A enthält alle Elemente in Array B.
+Mit der `supersetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist. Mit anderen Worten: ob Array A alle Elemente in Array B enthält.
 
 **Syntax**
 
@@ -291,7 +291,7 @@ Mit der Funktion `supersetOf` wird bestimmt, ob ein bestimmtes Array (Array A) e
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen definiert, die mindestens einmal Sushi und Pizza gegessen haben.
+Mit dem folgenden Vorgang werden Personen definiert, die mindestens einmal Sushi und mindestens einmal Pizza gegessen haben.
 
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}

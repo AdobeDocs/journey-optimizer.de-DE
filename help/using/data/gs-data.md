@@ -275,7 +275,7 @@ Erfahren Sie, wie Sie Nachrichten zur Laufzeit mit Referenz- oder Transaktionsda
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Erste Schritte mit Abfragen**
 

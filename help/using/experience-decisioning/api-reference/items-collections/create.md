@@ -1,6 +1,6 @@
 ---
-title: Erstellen einer Artikelsammlung
-description: Mit Sammlungen können Sie Entscheidungselemente entsprechend Ihren Voreinstellungen kategorisieren und gruppieren.
+title: Erstellen einer Elementsammlung
+description: Mit Sammlungen können Entscheidungselemente nach Ihren eigenen Vorstellungen kategorisiert und gruppiert werden.
 feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
@@ -17,13 +17,13 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 80
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Erstellen einer Artikelsammlung {#create-decision-items}
+# Erstellen einer Elementsammlung {#create-decision-items}
 
-Sie können eine Elementsammlung erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliotheks-API senden.
+Sie können eine Elementsammlung erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliothek-API richten.
 
 **API-Format**
 
@@ -33,7 +33,7 @@ POST /{ENDPOINT_PATH}/item-collections
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
 
 **Anfrage**
 
@@ -58,7 +58,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/item-collections' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details des neu erstellten Entscheidungselements zurück, einschließlich der ID. Sie können die ID in späteren Schritten verwenden, um Ihr Entscheidungselement zu aktualisieren oder zu löschen.
+Bei einer erfolgreichen Antwort werden die Details des neu erstellten Entscheidungselements zurückgegeben, einschließlich der ID. Sie können die ID in späteren Schritten verwenden, um Ihr Entscheidungselement zu aktualisieren oder zu löschen.
 
 ```json
 {
