@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Erstellen einer Briefpostnachricht
 description: Erfahren Sie, wie Sie in Journey Optimizer eine Direkt-Mail-Nachricht erstellen
 feature: Direct Mail
@@ -8,26 +10,16 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 975
-ht-degree: 92%
+source-wordcount: 1069
+ht-degree: 84%
 
 ---
 
@@ -66,17 +58,17 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Briefpostnachricht z
 
 1. Konfigurieren Sie die Extraktionsdatei, die an Ihren Direkt-Mail-Anbieter gesendet werden soll. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**.
 
-   ![](assets/direct-mail-add-journey.png)
+   ![Die Briefpost-Aktivität wurde einer Journey über die Palette „Aktionen“ hinzugefügt](assets/direct-mail-add-journey.png)
 
 1. Passen Sie die Eigenschaften der Extraktionsdatei an, z. B. den Dateinamen oder die anzuzeigenden Spalten. Weitere Informationen zum Konfigurieren der Eigenschaften der Extraktionsdatei finden Sie in diesem Abschnitt: [Erstellen einer Direkt-Mail-Nachricht](../direct-mail/create-direct-mail.md#extraction-file).
 
-   ![](assets/direct-mail-journey-content.png)
+   ![Inhaltseditor für die Extraktionsdatei für eine Briefpost-Journey-Aktivität](assets/direct-mail-journey-content.png)
 
 1. Sobald der Inhalt der Extraktionsdatei definiert wurde, können Sie Testprofile verwenden, um sie in der Vorschau anzuzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
    Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um zu prüfen, wie die Extraktionsdatei unter Verwendung der Testprofildaten gerendert wird. Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+   ![Inhaltsvorschau für eine Briefpost-Extraktionsdatei simulieren](assets/direct-mail-simulate.png){width="800" align="center"}
 
 Wenn Ihre Push-Benachrichtigung bereit ist, schließen Sie zum Versenden die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) ab.
 
@@ -100,7 +92,7 @@ Wenn Ihre Push-Benachrichtigung bereit ist, schließen Sie zum Versenden die Kon
 
 1. Wählen Sie eine **[!UICONTROL Direkt-Mail-Konfiguration]** aus oder erstellen Sie eine neue Konfiguration. [Erfahren Sie, wie Sie eine Direkt-Mail-Konfiguration erstellen](direct-mail-configuration.md#direct-mail-surface).
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   ![Briefpost-Aktion, die in einer geplanten Marketing-Kampagne konfiguriert ist](assets/direct-mail-campaign.png){width="800" align="center"}
 
    >[!AVAILABILITY]
    >
@@ -140,7 +132,7 @@ Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an 
 
    1. Hin und wieder müssen Sie vielleicht Informationen am Beginn oder am Ende der Extraktionsdatei hinzufügen. Verwenden Sie dazu das Feld **[!UICONTROL Hinweise]** und geben Sie an, ob der Hinweis als Kopf- oder Fußzeile eingefügt werden soll.
 
-      ![](assets/direct-mail-properties.png){width="800" align="center"}
+      ![Eigenschaften der Extraktionsdatei einschließlich Dateiname, Zeitstempel und Kopf- oder Fußzeilenhinweisen](assets/direct-mail-properties.png){width="800" align="center"}
 
 1. Konfigurieren Sie die Spalten und die Informationen, die in der Extraktionsdatei angezeigt werden sollen:
 
@@ -152,10 +144,19 @@ Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an 
 
    1. Um die Extraktionsdatei mithilfe einer Spalte zu sortieren, wählen Sie die Spalte aus und schalten Sie die Option **[!UICONTROL Sortieren nach]** ein. Das Symbol **[!UICONTROL Sortieren nach]** wird neben dem Spalten-Label im Abschnitt **[!UICONTROL Datenfelder]** angezeigt.
 
-      ![](assets/direct-mail-content.png){width="800" align="center"}
+      ![Datenfelder und Spaltenformatierung im Editor für die Briefpost-Extraktionsdatei](assets/direct-mail-content.png){width="800" align="center"}
 
    1. Wiederholen Sie diese Schritte, um so viele Spalten wie nötig hinzuzufügen, um Ihre Extraktionsdatei zu erstellen. Beachten Sie, dass Sie bis zu 50 Spalten hinzufügen können.
 
       Um die Position einer Spalte zu ändern, ziehen Sie sie an die gewünschte Position im Abschnitt **[!UICONTROL Datenfeld]**. Um eine Spalte zu löschen, wählen Sie sie aus und klicken Sie auf die Schaltfläche **[!UICONTROL Entfernen]** im Bereich **[!UICONTROL Formatierung]**.
 
 Jetzt können Sie Ihre Briefpost-Nachricht testen und an Ihre Zielgruppe senden. [Erfahren Sie, wie Sie Briefpost-Nachrichten testen und senden.](test-send-direct-mail.md)
+
+## Verwandte Themen {#related-topics}
+
+* [Erste Schritte mit Direkt-Mail](get-started-direct-mail.md)
+* [Konfigurieren des Briefpostkanals](direct-mail-configuration.md)
+* [Testen und Senden von Briefpost](test-send-direct-mail.md)
+* [Vorschau und Testinhalt](../content-management/preview-test.md)
+
+Häufige Fragen zu Briefpost finden Sie unter [Erste Schritte mit Briefpost](get-started-direct-mail.md).

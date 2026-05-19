@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Überprüfen und Senden einer Briefpostnachricht
 description: Erfahren Sie, wie Sie in Journey Optimizer eine Briefpostnachricht überprüfen und senden
 feature: Direct Mail, Test Profiles, Preview
@@ -8,31 +10,26 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 478
-ht-degree: 86%
+source-wordcount: 582
+ht-degree: 73%
 
 ---
 
 # Überprüfen und Senden einer Briefpostnachricht {#direct-mail-test-send}
+
+Erfahren Sie, wie Sie eine Vorschau der Extraktionsdatei anzeigen, Ihre Briefpostkampagne oder Journey validieren und aktivieren und das Einverständnis mit Postsendungen in Journey Optimizer verwalten.
+
+## Vorbereitung {#before-you-start}
+
+Bevor Sie eine Briefpostnachricht testen und senden, erstellen [ die Nachricht und konfigurieren Sie die Extraktionsdatei](create-direct-mail.md). Stellen Sie sicher, dass Sie auch [Konfiguration des Briefpostkanals](direct-mail-configuration.md) abgeschlossen haben.
 
 ## Anzeigen der Extraktionsdatei in der Vorschau {#preview-dm}
 
@@ -40,7 +37,7 @@ Sobald der Inhalt der Extraktionsdatei definiert wurde, können Sie Testprofile 
 
 Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um zu prüfen, wie die Extraktionsdatei unter Verwendung der Testprofildaten gerendert wird.
 
-![](assets/direct-mail-simulate.png){width="800" align="center"}
+![Inhaltsvorschau für eine Briefpost-Extraktionsdatei simulieren](assets/direct-mail-simulate.png){width="800" align="center"}
 
 Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
@@ -58,7 +55,7 @@ Stellen Sie vor der Aktivierung der Briefpostkampagne sicher, dass die Kampagne 
 
 * **Fehler** verhindern, dass Sie die Kampagne veröffentlichen können, solange diese nicht behoben sind. Eine Fehlermeldung warnt Sie zum Beispiel, wenn die Betreffzeile fehlt.
 
-![](assets/direct-mail-review.png){width="800" align="center"}
+![Überprüfungs- und Aktivierungsbildschirm mit Warnhinweisen zur Validierung von Briefpost-Kampagnen](assets/direct-mail-review.png){width="800" align="center"}
 
 Wenn Ihre Briefpostkampagne fertig ist, konfigurieren Sie Ihre [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md), um sie zu versenden.
 
@@ -81,3 +78,12 @@ Um es erneut zu aktivieren, muss das Profilattribut wieder in `consents.marketin
 Um die Attribute eines Profils zu verwalten, gehen Sie zu Experience Platform und greifen Sie auf das Profil zu, indem Sie einen Identity-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
 
 Weitere Informationen zur Verwaltung von Opt-outs in Journey Optimizer finden Sie in [diesem Abschnitt](../privacy/opt-out.md).
+
+## Verwandte Themen {#related-topics}
+
+* [Erste Schritte mit Direkt-Mail](get-started-direct-mail.md)
+* [Erstellen einer Briefpostnachricht](create-direct-mail.md)
+* [Konfigurieren des Briefpostkanals](direct-mail-configuration.md)
+* [Vorschau und Testinhalt](../content-management/preview-test.md)
+
+Häufige Fragen zu Briefpost finden Sie unter [Erste Schritte mit Briefpost](get-started-direct-mail.md).
