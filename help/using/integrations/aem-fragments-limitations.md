@@ -6,10 +6,11 @@ description: Überlegungen und häufige Probleme für AEM-Inhaltsfragmente in Jo
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+exl-id: de4f441e-c3a3-4759-a634-bc9029328ebb
+source-git-commit: 2402f60dbde4f79909ca8cc832a8d5de735c9c46
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 0%
+source-wordcount: '764'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +29,7 @@ Beachten Sie Folgendes bei der Verwendung von Inhaltsfragmenten aus [!DNL Adobe 
 
 * **Repository-Zugriff**
    * [!DNL Journey Optimizer] lässt sich nur mit der [!DNL Adobe Experience Manager] **Veröffentlichungsebene** integrieren (Sites, Inhaltsfragmente). Inhaltsfragmente sind über einen öffentlichen, nicht authentifizierten Endpunkt verfügbar.
-   * Autoren-Repositorys werden möglicherweise im Repository-Selektor angezeigt, aber in **können nur in** Publish[!DNL Journey Optimizer] veröffentlichte Fragmente verwendet werden.
+   * Autoren-Repositorys werden möglicherweise im Repository-Selektor angezeigt, aber in [!DNL Journey Optimizer] können nur in **Publish** veröffentlichte Fragmente verwendet werden.
 
 * **Inhaltsfragmentstatus**
    * Fragmente können den Status **[!UICONTROL Veröffentlicht]** oder **[!UICONTROL Geändert]** aufweisen. [!DNL Journey Optimizer] wird immer die **zuletzt veröffentlichte Version** verwendet.
@@ -45,7 +46,7 @@ Beachten Sie Folgendes bei der Verwendung von Inhaltsfragmenten aus [!DNL Adobe 
    * Nach einer erfolgreichen Aktualisierung sind Änderungen normalerweise innerhalb von etwa **5 Minuten** für unitäre Journey und im **nächsten Batch** für Batch-Anwendungsfälle verfügbar.
 
 * **Caching und Proofing**
-   * Wenn ein Fragment zum ersten Mal zu einer Kampagne oder einem Journey hinzugefügt wird, speichert [!DNL Journey Optimizer] es im Zwischenspeicher. Wenn Sie ein Fragment auswählen, das bereits an anderer Stelle über **[!UICONTROL Open AEM CF selector]** verwendet wurde, wird es aus dem [!DNL Journey Optimizer]-Cache geladen.
+   * Wenn ein Fragment zum ersten Mal zu einer Kampagne oder einem Journey hinzugefügt wird, speichert [!DNL Journey Optimizer] es im Zwischenspeicher. Wenn Sie ein Fragment auswählen, das bereits an anderer Stelle über **[!UICONTROL AEM Content Advisor öffnen]** verwendet wurde, wird es aus dem [!DNL Journey Optimizer] geladen.
    * Nachdem Sie ein geändertes Fragment in [!DNL Adobe Experience Manager] erneut veröffentlicht haben, überwacht [!DNL Journey Optimizer] das Ereignis und aktualisiert den Cache.
    * Korrekturabzüge spiegeln immer die **zuletzt veröffentlichte** Version wider. Für das Proofing kann keine historische Version gesperrt werden.
 

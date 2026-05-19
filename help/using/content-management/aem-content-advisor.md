@@ -5,22 +5,19 @@ title: Zugriff auf Adobe Experience Manager Content Advisor
 description: Erfahren Sie, wie Sie mithilfe der KI-gestützten semantischen Suche in Adobe Journey Optimizer auf Adobe Experience Manager Content Advisor zugreifen und diese verwenden können, um Assets und Inhaltsfragmente zu ermitteln.
 role: User
 level: Beginner, Intermediate
-hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 71c8f61c8d4d63ec07c08e1d5b4338b990fafde3
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
 
 # Arbeiten mit Adobe Experience Manager Content Advisor {#aem-content-advisor}
 
->[!AVAILABILITY]
->
->Adobe Experience Manager Content Advisor ist nur in Workflows zur Kanalbearbeitung verfügbar.
+Adobe Experience Manager Content Advisor ersetzt deterministische Erkennung durch standardisierte, absichtsgesteuerte Erkennung von einer einheitlichen Oberfläche. Es ermöglicht die einheitliche, KI-gestützte Erkennung von Assets, Dynamic Media und Inhaltsfragmenten direkt in Journey Optimizer-Authoring-Workflows und verbessert so die Marketer-Produktivität und die Kampagneneffizienz.
 
-Adobe Experience Manager Content Advisor ersetzt deterministische Erkennung durch standardisierte, absichtsgesteuerte Erkennung von einer einheitlichen Oberfläche. Es ermöglicht die einheitliche, KI-gestützte Erkennung von Assets und Inhaltsfragmenten direkt in Journey Optimizer-Authoring-Workflows und verbessert so die Marketer-Produktivität und die Kampagneneffizienz.
+➡️ [Weitere Informationen zu Adobe Experience Manager Content Advisor finden Sie in der Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)
 
 ## Verfügbare Funktionen
 
@@ -30,7 +27,7 @@ Adobe Experience Manager Content Advisor bietet die folgenden Asset-Funktionen:
 
 +++ KI-Semantische Suche
 
-Suchen Sie mithilfe natürlicher Sprache nach Assets anstelle exakter Keywords oder Dateinamen. Beschreiben Sie, was Sie benötigen, in einfacher Sprache, z. B. „Kaffee in den Bergen“. Die KI findet kontextuell relevante Assets basierend auf Bedeutung und Inhalt, nicht nur Textübereinstimmungen.
+Suchen Sie mithilfe natürlicher Sprache nach Assets anstelle exakter Keywords oder Dateinamen. Beschreiben Sie, was Sie benötigen, in einfacher Sprache, z. B. „Kaffee in den Bergen“, und die KI-Oberfläche zeigt kontextuell relevante Assets basierend auf Bedeutung und Inhalt, nicht nur Text-Übereinstimmungen. Die mehrsprachige Suche wird ebenfalls unterstützt, sodass Sie Abfragen in Ihrer bevorzugten Sprache durchführen und weiterhin die richtigen Assets finden können, unabhängig von der Sprache, in der sie getaggt oder benannt wurden.
 
 ![](assets/content-advisor-2.png){zoomable="yes"}
 
@@ -87,7 +84,7 @@ Die angezeigten Schaltflächen hängen von Ihrer Repository-Konfiguration ab:
 * **Beide Schaltflächen**: Das Repository verfügt über beide Konfigurationen und das Asset wird sowohl veröffentlicht als auch genehmigt.
 +++
 
-### Für Inhaltsfragment {#content-fragment-features}
+### für Inhaltsfragment {#content-fragment-features}
 
 Adobe Experience Manager Content Advisor bietet die folgenden Inhaltsfragment-Funktionen:
 

@@ -26,14 +26,24 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 2402f60dbde4f79909ca8cc832a8d5de735c9c46
 workflow-type: tm+mt
-source-wordcount: 1453
-ht-degree: 36%
+source-wordcount: 1534
+ht-degree: 33%
 
 ---
 
 # Arbeiten mit Adobe Experience Manager-Inhaltsfragmenten {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+Die vorhandenen **Asset** und **Inhaltsfragment-Selektor** Erlebnisse in Adobe Journey Optimizer-Workflows werden durch &quot;**&quot;**. Content Advisor bietet eine KI-gestützte, einheitliche Oberfläche zur Erkennung und Auswahl von Assets, Inhaltsfragmenten und Dynamic Media direkt in Ihren AJO-Authoring-Workflows. Bestehende Integrationen funktionieren während der Übergangszeit weiterhin.
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Diese Integration gilt nur für **Adobe Experience Manager as a Cloud Service Sites** für **Inhaltsfragmente**. Journey Optimizer liest Fragmente aus der **Veröffentlichungsebene** (nicht aus der Autorenebene).
 
 Die Integration zwischen Adobe Experience Manager und Journey Optimizer folgt diesem Datenfluss:
 
@@ -91,9 +101,9 @@ Nachdem Sie Ihre AEM-Inhaltsfragmente erstellt und personalisiert haben, können
 
    ![](assets/aem_campaign_2.png)
 
-1. Klicken Sie im Menü **[!UICONTROL AEM-Inhaltsfragment]** im linken Bereich auf **[!UICONTROL AEM-Inhaltsfragmentauswahl öffnen]**.
+1. Klicken Sie im Menü **[!UICONTROL AEM]** Inhaltsfragment im linken Fensterbereich auf **[!UICONTROL AEM-Inhaltsratgeber öffnen]**.
 
-   ![](assets/aem_campaign_3.png)
+   ![](assets/cf-variation-1.png)
 
 1. Durchsuchen Sie die Liste und wählen Sie ein **[!UICONTROL Inhaltsfragment]** aus, das Sie in Ihren Journey Optimizer-Inhalt importieren möchten.
 
@@ -171,13 +181,13 @@ Stellen Sie in diesem Fall mit der folgenden Syntax sicher, dass **_variableName
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Sie können nun den Inhalt Ihrer Nachricht testen und überprüfen, wie in [diesem Abschnitt](../content-management/preview.md) beschrieben.
 
-   Beachten Sie, dass das ausgewählte Inhaltsfragment für diese Nachricht aktiv bleibt. Wenn Sie den Personalization-Editor in einem anderen Feld oder Inhaltsblock öffnen, können Sie weiterhin mit demselben Fragment aus dem Abschnitt **[!UICONTROL AEM-Inhaltsfragment]** arbeiten und weitere Felder hinzufügen, ohne den **[!UICONTROL AEM CF-Selektor öffnen]** erneut zu öffnen.
+   Beachten Sie, dass das ausgewählte Inhaltsfragment für diese Nachricht aktiv bleibt. Wenn Sie den Personalization-Editor in einem anderen Feld oder Inhaltsblock öffnen, können Sie weiterhin mit demselben Fragment aus dem Abschnitt **[!UICONTROL AEM-Inhaltsfragment]** arbeiten und weitere Felder hinzufügen, ohne **[!UICONTROL AEM Content Advisor erneut öffnen]**.
 
 Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihrer Zielgruppe [Ihre Kampagne senden](../campaigns/review-activate-campaign.md) oder für sie [Ihre Journey veröffentlichen](../building-journeys/publish-journey.md).
 
 Mit Adobe Experience Manager können die Journey Optimizer-Kampagnen oder -Journeys identifiziert werden, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen hierzu sind in der [Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"} verfügbar.
 
-## Arbeiten mit Inhaltsfragmentvarianten {#aem-variations}
+## Arbeiten mit Varianten von Inhaltsfragmenten {#aem-variations}
 
 In Adobe Experience Manager besteht jedes Inhaltsfragment aus Folgendem:
 
@@ -200,9 +210,9 @@ So wählen Sie eine Variante aus:
 
 1. Klicken Sie auf das Symbol ![Personalization](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) in einem beliebigen Textfeld oder öffnen Sie die HTML-Quelle in einer HTML-Inhaltskomponente.
 
-1. Klicken Sie im **[!UICONTROL AEM]** Inhaltsfragment auf **[!UICONTROL Inhaltsfragmentauswahl öffnen]**.
+1. Klicken Sie im **[!UICONTROL AEM]** Inhaltsfragment auf **[!UICONTROL AEM-Inhaltsratgeber öffnen]**.
 
-   ![](assets/aem_campaign_3.png)
+   ![](assets/cf-variation-1.png)
 
 1. Um ein gebietsschemaspezifisches Adobe Experience Manager-Inhaltsfragment in der Tabellenansicht auszuwählen, verwenden Sie **[!UICONTROL Tabelle anpassen]**, um die Spalte **[!UICONTROL Sprache]** hinzuzufügen. Die Gebietsschemawerte werden in der Tabelle angezeigt, sodass Sie das entsprechende Fragment identifizieren und auswählen können.
 
