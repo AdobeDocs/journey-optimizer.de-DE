@@ -9,7 +9,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: db584aa8f95121d04a5fdb45b324a9677dbf123f
+source-git-commit: 94d84469a30e1e93b7e74a81d3ef19f588f521cc
 workflow-type: tm+mt
 source-wordcount: 1131
 ht-degree: 6%
@@ -48,7 +48,7 @@ Diese Version umfasst die folgenden Funktionen.
 <table>
 <thead>
 <tr>
-<th><strong>Verknüpfte koordinierte Kampagnen</strong><br/></th>
+<th><strong>Verkettete orchestrierte Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -56,6 +56,7 @@ Diese Version umfasst die folgenden Funktionen.
 <td>
 <p>Orchestrierte Kampagnen können jetzt miteinander verknüpft werden, indem eine orchestrierte Kampagne direkt über die „Endaktivität“ einer anderen orchestrierten <strong> ausgelöst </strong>.</p>
 <p>Dies ermöglicht es, komplexe Orchestrierungslogik in kleinere, wiederverwendbare Flüsse zu unterteilen, die von mehreren übergeordneten Kampagnen aufgerufen werden können, anstatt jedes Mal neu aufgebaut zu werden. Die zur Laufzeit übergebene Payload ist für die Segmentierung und Personalisierung in der nachgelagerten Kampagne verfügbar, sodass jede verknüpfte Kampagne sich basierend auf dem empfangenen Kontext verhalten kann.</p>
+<!--<p><img src="assets/do-not-localize/oc-trigger.gif"></p>-->
 <p>Verfügbarkeitsdatum: 19. Mai 2026</p>
 </td>
 </tr>
