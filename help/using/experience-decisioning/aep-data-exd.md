@@ -23,10 +23,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 297a00585ee98161bead7014cddfe394b73de778
 workflow-type: tm+mt
-source-wordcount: 1218
-ht-degree: 95%
+source-wordcount: 1215
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="Hinzufügen eines Datensatzes"
->abstract="Verwenden Sie Datensatzattribute aus [!DNL Adobe Experience Platform], um die Begrenzungskriterien basierend auf dynamischen, externen Attributen zu definieren. Klicken Sie auf **[!UICONTROL Datensatz hinzufügen]**, um den Adobe Experience Platform-Datensatz mit den erforderlichen Attributen auszuwählen. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert und eine Suchzuordnung für den Datensatz erstellt haben."
+>abstract="Verwenden Sie Datensatzattribute aus [!DNL Adobe Experience Platform], um die Begrenzungskriterien basierend auf dynamischen, externen Attributen zu definieren. Klicken Sie **[!UICONTROL Datensatz hinzufügen]**, um den Datensatz mit den benötigten Attributen auszuwählen. Wenn der Datensatz nicht in der Liste angezeigt wird, stellen Sie sicher, dass Sie ihn für die Suche aktiviert und eine Suchzuordnung für den Datensatz erstellt haben."
 
 [!DNL Journey Optimizer] ermöglicht die Nutzung von [!DNL Adobe Experience Platform]-Daten für die Entscheidungsfindung. So können Sie die Definition Ihrer Entscheidungsattribute auf zusätzliche Daten in Datensätzen erweitern, um sie bei sich regelmäßig ändernden Massen-Updates zu nutzen, ohne dass Sie die Attribute einzeln manuell aktualisieren müssen. Beispielsweise Verfügbarkeit, Wartezeiten usw.
 
