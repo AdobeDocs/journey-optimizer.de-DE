@@ -29,9 +29,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
+source-git-commit: d92b3c8475020b26a3f154b322374a05f7d41f29
 workflow-type: tm+mt
-source-wordcount: 1576
+source-wordcount: 1573
 ht-degree: 33%
 
 ---
@@ -109,7 +109,6 @@ Beide Funktionen wählen Angebote aus und stellen sie bereit, sie dienen jedoch 
 | | Entscheidungsfindung | Entscheidungs-Management |
 |---|---|---|
 | **Status** | Aktuell — Wird für alle neuen Implementierungen empfohlen | **Legacy** - wird weiterhin unterstützt, wird aber für neue Implementierungen nicht mehr empfohlen |
-| **Einführung** | 2024 | 2021 |
 | **Artikelkatalog** | Schemabasierte, flexible Metadaten | Zentralisierte Angebotsbibliothek |
 | **Unterstützte Kanäle** | Code-basiertes Erlebnis, Push, SMS, E-Mail (begrenzte Verfügbarkeit) | E-Mail, In-App, Push, SMS, Briefpost |
 | **Wichtigstes Unterscheidungsmerkmal** | Wiederverwendbare Entscheidungskomponenten, Experimentieren, umfassendere Kanal-Roadmap | Bewährte Einschränkungs-Engine; Migration zu Decisioning für neue Projekte |
