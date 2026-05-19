@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+source-git-commit: 6f5d3c09cb360cd0211b9f8db0aef926b8e2d9a2
 workflow-type: tm+mt
 source-wordcount: '3326'
 ht-degree: 97%
@@ -18,7 +18,7 @@ ht-degree: 97%
 + [Dokumentation zu Journey Optimizer](ajo-home.md)
 + Neue Funktionen {#whats-new}
    + [Versionszyklus](using/rn/releases.md)
-   + [Vorab veröffentlichte Versionshinweise](using/rn/e-release-notes.md)
+   + {hide-from-toc}[Vorab veröffentlichte Versionshinweise](using/rn/e-release-notes.md)
    + [Neueste Versionshinweise](using/rn/release-notes.md)
    + Frühere Versionshinweise {#previous-rn-new}
       + {hide-from-toc}[Frühere Versionshinweise](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -511,7 +511,7 @@ ht-degree: 97%
          + {hide-from-toc}[Konfigurieren des Repositorys für Inhaltsfragmente](using/integrations/aem-admin-settings.md)
          + [Arbeiten mit Experience Manager-Inhaltsfragmenten](using/integrations/aem-fragments.md)
          + [Überlegungen und Fehlerbehebung](using/integrations/aem-fragments-limitations.md)
-      + [Arbeiten mit Experience Manager Content Advisor](using/content-management/aem-content-advisor.md)
+      + [Arbeiten mit Experience Manager Content Advisor](using/integrations/aem-content-advisor.md)
       + [Arbeiten mit Dynamic Media](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[Einfügen eines Countdown-Timers](using/integrations/countdown.md)
       + [Arbeiten mit GenStudio for Performance Marketing](using/integrations/genstudio.md)
