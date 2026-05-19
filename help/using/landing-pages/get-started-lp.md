@@ -129,6 +129,6 @@ Das Erstellen und Bereitstellen einer Landingpage folgt dieser Reihenfolge:
 
 Im folgenden Video erfahren Sie, wie Sie eine Abonnement-Liste erstellen, Landingpages zum Opt-in oder Opt-out für einen Service einrichten, die Optionen zum Opt-in oder Opt-out in eine Nachricht integrieren und entsprechende Journeys konfigurieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3409511?captions=ger&quality=12&learn=on)
 
 ➡️ **In der Praxis:** Unter [Anwendungsfälle für Landingpages](lp-use-cases.md) finden Sie schrittweise Beispiele für die Abonnementverwaltung, Bestätigungs-E-Mails und Datenerfassungsszenarien.
