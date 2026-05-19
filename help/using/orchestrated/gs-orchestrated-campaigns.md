@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 100%
+source-wordcount: 963
+ht-degree: 94%
 
 ---
 
@@ -151,3 +151,6 @@ Jetzt, da Sie über Grundkenntnisse zu orchestrierten Kampagnen verfügen, ist e
 * **[Leitlinien und Einschränkungen](guardrails.md)** – Überprüfen Sie wichtige Leitlinien, Einschränkungen und Best Practices, um eine optimale Kampagnenleistung sicherzustellen.
 * **[Häufig gestellte Fragen](orchestrated-campaigns-faq.md)** – Hier finden Sie Antworten auf häufig gestellte Fragen zu den Funktionen und Anwendungsfällen von orchestrierten Kampagnen.
 * **[Tutorials zu orchestrierten Kampagnen](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** – Sehen Sie sich detaillierte Video-Tutorials zu Funktionen und Best Practices an.
+* **[Kundeninteraktion durch Durchsuchen von Aktivitäten](engage-customers-uc.md)** - Interagieren Sie mit einer mehrstufigen orchestrierten Kampagne erneut mit Profilen, die zwar Durchsuchen, aber keinen Kauf getätigt haben.
+* **[Benachrichtigen Sie die Benutzer über die Verfügbarkeit des Produkts](product-availability-uc.md)** - Benachrichtigen Sie die Kunden, wenn ein Produkt, an dem sie Interesse gezeigt haben, wieder auf Lager ist.
+* **[Artikel-Updates auf Wunschliste senden](wishlist-uc.md)** - Trigger personalisierte Nachrichten, wenn Wunschlistenartikel in den Verkauf gehen oder verfügbar werden.

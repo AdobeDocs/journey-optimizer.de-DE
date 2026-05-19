@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 1921
-ht-degree: 92%
+source-wordcount: 1941
+ht-degree: 91%
 
 ---
 
@@ -221,3 +221,5 @@ Gehen Sie wie folgt vor, um in einer Journey-Bedingung eine Zielgruppe zu verwen
    >[!NOTE]
    >
    >Hinweis: Nur Personen mit dem Zielgruppenzugehörigkeitsstatus **Realisiert** werden als Mitglieder der Zielgruppe angesehen. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results){target="_blank"}.
+
+➡️ **In der Praxis:** Erfahren Sie, wie Sie die Zeit und die Wochentage verwenden können, um [E-Mails nur an Wochentagen zu senden](weekday-email-uc.md).

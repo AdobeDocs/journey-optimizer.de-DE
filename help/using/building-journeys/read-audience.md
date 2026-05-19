@@ -36,10 +36,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 3612
-ht-degree: 63%
+source-wordcount: 3767
+ht-degree: 60%
 
 ---
 
@@ -426,13 +426,15 @@ Eine vollständige Liste der Leitplanken für „Zielgruppe lesen“ (einschlie�
 
 ## Verwandte Themen
 
-* [Erstellen von Zielgruppen](../audience/about-audiences.md)
-* [Aktivität des Typs „Zielgruppenqualifizierung“](audience-qualification-events.md)
-* [Verwenden zusätzlicher Kennungen in Journeys](supplemental-identifier.md)
-* [Leitlinien und Einschränkungen](../start/guardrails.md#read-segment-g)
-* [Journey-Verarbeitungsraten und Eingabemanagement](entry-management.md)
-* [Testen einer Journey](testing-the-journey.md)
-* [Veröffentlichen einer Journey](../building-journeys/publish-journey.md)
+* [Zielgruppen erstellen](../audience/about-audiences.md) - Erstellen und verwalten Sie die Zielgruppensegmente, die Sie in Ihren Journey mit der Option „Zielgruppe lesen“ ansprechen möchten.
+* [Aktivität zur Zielgruppenqualifizierung](audience-qualification-events.md) - Trigger-Journey in Echtzeit, wenn Profile in eine Zielgruppe eintreten oder diese verlassen, anstatt sie im Batch zu verarbeiten.
+* [Verwendung zusätzlicher IDs in Journey](supplemental-identifier.md) - Erweitern Sie die Journey der Zielgruppe lesen auf sekundäre Entitäten wie Buchungen, Verträge oder Abonnements, die mit einem Profil verknüpft sind.
+* [Leitplanken und Einschränkungen](../start/guardrails.md#read-segment-g) - Überprüfen Sie Durchsatzbeschränkungen, das Wiederholungsverhalten und die Schwellenwerte für die Zielgruppengröße, bevor Sie in großem Umfang starten.
+* [Journey-Verarbeitungsraten und Eintragsverwaltung](entry-management.md) - Erfahren Sie, wie Profile in die Journey eingespeist werden und was den Eintritt und den erneuten Eintritt steuert.
+* [Journey testen](testing-the-journey.md) - Validieren Sie Ihre Journey-Logik mithilfe von Testprofilen, bevor Sie live gehen.
+* [Journey veröffentlichen](../building-journeys/publish-journey.md) - Aktivieren Sie Ihren Journey und überwachen Sie die Erstausführung.
+* [Nachricht an Abonnenten senden](message-to-subscribers-uc.md) - End-to-End-Anwendungsfall: Eine Abonnement-Liste mit der Journey „Zielgruppe lesen“ vom Setup bis zum Versand ansprechen.
+* [Best Practices für Journey von Zielgruppen lesen](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=de){target="_blank"} - Community-Blog, der häufige Fallstricke, Diskrepanzen bei der Zählung und bewährte Best Practices behandelt.
 
 ## Anleitungsvideo {#video}
 

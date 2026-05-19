@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: e2ec3d856f115befc34d435e26696c4cb4e13301
 workflow-type: tm+mt
-source-wordcount: '7777'
-ht-degree: 92%
+source-wordcount: '7859'
+ht-degree: 91%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 92%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Mai 2026 {#may-2026}
+
+* Die Seite **Schlüsselterminologie** wurde um eine neue **Wenn Begriffe ähnlich aussehen** erweitert. Sie enthält vier häufig verwirrte Begriffspaare: Entscheidungsfindung vs. Entscheidungs-Management (einschließlich des Legacy-Status von Entscheidungs-Management), die drei Kampagnentypen (Aktion, API-ausgelöst und orchestriert), Frequenzlimitierung vs. Journey-Schlichtung und Inhaltskarten vs. In-App-Nachrichten. Die **Campaign**-Definition und die Tabelle **Entscheidungs- und Angebotsbedingungen** wurden ebenfalls aktualisiert. Die Entscheidungsfindung wird jetzt neben dem Entscheidungs-Management aufgeführt, das explizit als veraltet markiert ist. [Weitere Informationen](../start/terminology.md#disambiguation)
 
 * Die **Deeplinks**-Dokumentation wurde um einen neuen Abschnitt **Authoring-Deeplinks** erweitert, in dem die beiden für E-Mail verfügbaren Optionen (E-Mail-Benutzeroberfläche von Designer und Personalization-Editor-Code) und die URL-Funktionssyntax für SMS beschrieben werden. Die **„SMS-Nachricht erstellen** enthält jetzt einen Deeplink-Schritt im Inhaltserstellungsfluss. [Weitere Informationen](../email/deeplinks.md)
 
