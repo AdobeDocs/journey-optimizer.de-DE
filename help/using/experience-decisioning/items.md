@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: e13b870022fa168da4ee0643dbefad1f99f5f6fa
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2199'
 ht-degree: 87%
 
 ---
@@ -68,8 +68,8 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 >abstract="Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -113,7 +113,7 @@ Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden ka
 >
 >Die Aktualisierung des Begrenzungszählerwerts kann bis zu 3 Sekunden dauern. Angenommen, Sie zeigen auf Ihrer Website ein Webbanner an, in dem ein Angebot vorgestellt wird. Wenn eine bestimmte Person in weniger als 3 Sekunden zur nächsten Seite Ihrer Website navigiert, wird der Zählerwert für diese Person nicht erhöht.
 
-Beim Konfigurieren von Begrenzungsregeln können Sie auf Attribute verweisen, die in Adobe Experience Platform-Datensätzen gespeichert sind, um Schwellenwerte zu definieren. Um einen Datensatz zu verwenden, wählen Sie ihn im Abschnitt &quot;**[!UICONTROL &quot;]**. [Erfahren Sie, wie Sie Adobe Experience Platform-Daten für die Entscheidungsfindung verwenden](../experience-decisioning/aep-data-exd.md)
+Beim Konfigurieren von Begrenzungsregeln können Sie auf Attribute verweisen, die in Adobe Experience Platform-Datensätzen gespeichert sind, um Schwellenwerte zu definieren. Um einen Datensatz zu verwenden, wählen Sie ihn im Abschnitt **[!UICONTROL Datensatz]** aus. [Erfahren Sie, wie Sie Adobe Experience Platform-Daten für die Entscheidungsfindung verwenden](../experience-decisioning/aep-data-exd.md)
 
 ![](assets/exd-lookup-capping.png)
 
