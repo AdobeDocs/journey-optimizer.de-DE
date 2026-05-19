@@ -10,31 +10,12 @@ level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 TQID: https://experienceleague.adobe.com/LkOCFOSH-AzwWMoteNN-XI3R2yYkO5iBrVwMtobd4iI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2107
@@ -68,7 +49,7 @@ Die Rolle **[!DNL Campaign Approver]** ermöglicht es Benutzenden, Sendungen zu 
 |-|-|
 | Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li><li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li></ul> |
 | Kampagnen | <ul><li>**[!DNL Manage campaigns]**: Lesen, Erstellen, Bearbeiten und Löschen von Kampagnen.</li><li>**[!DNL Publish campaigns]**: Veröffentlichen von Kampagnen.</li><li>**[!DNL View campaigns report]**: Lesen und Bearbeiten von Kampagnenberichten.</li></ul> |
-| Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul> |
+| Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Schreibgeschützter Zugriff auf Nachrichtenvoreinstellungen.</li></ul> |
 | Entscheidungs-Management | <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsfindungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Nachrichtenberichten und Verwenden von Aktionsfunktionen.</li></ul> |
 
 
@@ -82,7 +63,7 @@ Diese Rolle umfasst die folgenden Berechtigungen:
 |-|-|
 | Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li> **[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li><li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li></ul> |
 | Kampagnen | <ul><li>**[!DNL Manage campaigns]**: Lesen, Erstellen, Bearbeiten und Löschen von Kampagnen.</li><li>**[!DNL View campaigns report]**: Lesen und Bearbeiten von Journey-Berichten.</li></ul> |
-| Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul> |
+| Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Schreibgeschützter Zugriff auf Nachrichtenvoreinstellungen.</li></ul> |
 | Entscheidungs-Management | <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsfindungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Nachrichtenberichten und Verwenden von Aktionsfunktionen.</li></ul> |
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
@@ -201,7 +182,7 @@ Mit der Rolle **[!DNL Orchestrated Campaign Approver]** können Benutzende orche
 | Ressourcen | Berechtigungen |
 |-|-|
 | Adobe Experience Platform | <ul> <li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmentdefinitionen.</li> <li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li> <li>**[!DNL View datasets]**: Nur-Lese-Zugriff auf Datensätze.</li> <li>**[!DNL View schemas]**: schreibgeschützter Zugriff auf Schemata.</li> <li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li> <li>**[!DNL Enable AI Assistant]**: Aktivieren oder Aufrufen KI-gestützter Kampagnen- und Zielgruppenfunktionen.</li>  <li>**[!DNL View operational insights]**: Schreibgeschützter Zugriff auf Erkenntnis- und Überwachungs-Dashboards auf Systemebene.</li></ul> |
-| Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li> <li>**[!DNL Manage custom dashboards]**: Erstellen, Bearbeiten und Löschen benutzerdefinierter Dashboards.</li></ul> |
+| Kanalkonfigurationen | <ul><li>**[!DNL View messages presets]**: Schreibgeschützter Zugriff auf Nachrichtenvoreinstellungen.</li> <li>**[!DNL Manage custom dashboards]**: Erstellen, Bearbeiten und Löschen benutzerdefinierter Dashboards.</li></ul> |
 | Dashboard | <ul> <li>**[!DNL Manage standard dashboard]**: Lesen, Erstellen, Bearbeiten und Löschen benutzerdefinierter Widgets und Widget-Schemata über die Widget-Bibliothek.</li> </ul> |
 | Data Governance | <ul> <li>**[!DNL View user activity log]**: Schreibgeschützter Zugriff zur Anzeige aufgezeichneter Auditprotokolle zu Experience Platform-Aktivitäten.</li> </ul> |
 | Entscheidungs-Management | <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsfindungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Nachrichtenberichten und Verwenden von Aktionsfunktionen.</li></ul> |

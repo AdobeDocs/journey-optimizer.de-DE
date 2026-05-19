@@ -9,15 +9,10 @@ keywords: Zeichenfolge, Funktionen, Ausdruck, Journey, Text, Manipulation
 version: Journey Orchestration
 exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
 TQID: https://experienceleague.adobe.com/wrP3c7l3uHzN6w3l-fXBQOSb5Tx2NuW-6iyogKpDPc8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1140
@@ -59,7 +54,7 @@ Verkettet zwei Zeichenfolgenparameter oder eine Liste von Zeichenfolgen.
 | Parameter | Typ |
 |-----------|------------------|
 | Liste | listString |
-| string | string |
+| string | Zeichenfolge |
 
 +++
 
@@ -166,8 +161,8 @@ Gibt „true“ zurück, wenn der zweite Parameter ein Suffix des ersten Paramet
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | string |
-| suffix | string |
+| string | Zeichenfolge |
+| suffix | Zeichenfolge |
 
 +++
 
@@ -205,8 +200,8 @@ Gibt „false“ zurück.
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | string |
-| suffix | string |
+| string | Zeichenfolge |
+| suffix | Zeichenfolge |
 
 +++
 
@@ -238,7 +233,7 @@ Vergleicht die erste Argumentzeichenfolge mit der zweiten Argumentzeichenfolge u
 
 +++Parameter
 
-* string
+* Zeichenfolge
 
 +++
 
@@ -309,7 +304,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im Parameter keine Zeichen enthä
 
 +++Parameter
 
-* string
+* Zeichenfolge
 
 +++
 
@@ -349,7 +344,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im Parameter nicht leer ist.
 
 +++Parameter
 
-* string
+* Zeichenfolge
 
 +++
 
@@ -424,7 +419,7 @@ Gibt die Anzahl der Zeichen des Zeichenfolgenausdrucks im Parameter zurück.
 
 +++Parameter
 
-* string
+* Zeichenfolge
 
 +++
 
@@ -456,7 +451,7 @@ Gibt eine Version des Parameters in Kleinbuchstaben zurück.
 
 +++Parameter
 
-* string
+* Zeichenfolge
 
 +++
 
@@ -490,7 +485,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im ersten Parameter mit dem regul
 
 | Parameter | Typ |
 |--- |--- |
-| string | string |
+| string | Zeichenfolge |
 | regexp | Zeichenfolge |
 
 +++
@@ -733,8 +728,8 @@ Gibt „true“ zurück, wenn der zweite Parameter ein Präfix des ersten Parame
 
 | Parameter | Typ |
 |-------------|--------|
-| string | string |
-| prefix | string |
+| string | Zeichenfolge |
+| prefix | Zeichenfolge |
 
 +++
 
@@ -768,7 +763,7 @@ Gibt die Unterzeichenfolge des Zeichenfolgenausdrucks zwischen dem Anfangsindex 
 
 | Parameter | type |
 |-------------|----------|
-| string | string |
+| string | Zeichenfolge |
 | beginIndex | integer |
 | endIndex | integer |
 
@@ -810,7 +805,7 @@ Entfernt Leerzeichen am Anfang und Ende.
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | string |
+| string | Zeichenfolge |
 
 +++
 

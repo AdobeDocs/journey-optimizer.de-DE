@@ -209,13 +209,13 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>High throughput messaging for API-triggered email campaigns</strong><br/></th>
+<th><strong>Messaging mit hohem Durchsatz für durch API ausgelöste E-Mail-Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A new high throughput transactional messaging mode is available in API-triggered campaigns. Dieser Modus ist für groß angelegtes Transaktions-Messaging in Echtzeit konzipiert und unterstützt bis zu 5.000 Transaktionen pro Sekunde mit einer höheren Verfügbarkeit. Dieser Modus unterstützt auch Transaktionsnachrichten ohne Verweis auf oder Erstellung von Kundenprofilen, wie z. B. Gast-Checkout, Bestellbestätigung, Zurücksetzen des Passworts, Sicherheitsbenachrichtigungen und andere Service-/Betriebsbenachrichtigungen.</p>
+<p>Für durch API ausgelöste Kampagnen ist ein neuer Transaktions-Messaging-Modus mit hohem Durchsatz verfügbar. Dieser Modus ist für groß angelegtes Transaktions-Messaging in Echtzeit konzipiert und unterstützt bis zu 5.000 Transaktionen pro Sekunde mit einer höheren Verfügbarkeit. Dieser Modus unterstützt auch Transaktionsnachrichten ohne Verweis auf oder Erstellung von Kundenprofilen, wie z. B. Gast-Checkout, Bestellbestätigung, Zurücksetzen des Passworts, Sicherheitsbenachrichtigungen und andere Service-/Betriebsbenachrichtigungen.</p>
 <p>Diese Funktion ist nur für den E-Mail-Kanal verfügbar und steht Unternehmen zur Verfügung, die das Adobe-Add-on für Transaktionsnachrichten mit hohem Durchsatz erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../campaigns/api-triggered-high-throughput.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 22. Oktober 2025</p>
@@ -581,13 +581,13 @@ You can now use AI models to optimize the best content in your email through the
 
 ### Verbesserungen {#sept-25-9-improvements}
 
-* **Webhook support for API-triggered campaigns**\
-  API-triggered campaigns now support webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen in Echtzeit für jede Nachricht zu erhalten. Dies verbessert die Beobachtbarkeit und ermöglicht nahtlose Überwachung und Automatisierung. [Weitere Informationen](../configuration/feedback-webhooks.md)
+* **Webhook-Unterstützung für durch API ausgelöste Kampagnen**\
+  Durch API ausgelöste Kampagnen unterstützen jetzt Webhooks. Konfigurieren Sie eine Webhook-URL, um Statusaktualisierungen in Echtzeit für jede Nachricht zu erhalten. Dies verbessert die Beobachtbarkeit und ermöglicht nahtlose Überwachung und Automatisierung. [Weitere Informationen](../configuration/feedback-webhooks.md)
 
   Verfügbarkeitsdatum: 29. September 2025
 
 * **mTLS-Unterstützung für SMS-Kanal**
-When setting up a custom SMS provider, you now have the option to enable mutual TLS (mTLS) authentication, which requires both the client and the server to confirm each other&#39;s identities before a secure connection is established. [Mehr zum Thema](../sms/sms-configuration-custom.md) – Verfügbarkeitsdatum: 23. September 2025
+Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Möglichkeit, die gegenseitige TLS-Authentifizierung (mTLS) zu aktivieren. Dazu müssen sowohl der Client als auch der Server die Identität des jeweils anderen bestätigen, bevor eine sichere Verbindung hergestellt wird. [Mehr zum Thema](../sms/sms-configuration-custom.md) – Verfügbarkeitsdatum: 23. September 2025
 
 * **Relationale Schemata**\
   Relationale Schemata können jetzt verwendet werden, um in orchestrierten Kampagnen Ihre Anforderungen an relationale Modellierung zu unterstützen. [Mehr zum Thema](../orchestrated/gs-schemas.md) – Verfügbarkeitsdatum: 23. September 2025

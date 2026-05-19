@@ -1,6 +1,6 @@
 ---
-title: Erstellen einer Artikelsammlung
-description: Mit Sammlungen können Sie Entscheidungselemente entsprechend Ihren Voreinstellungen kategorisieren und gruppieren.
+title: Erstellen einer Elementsammlung
+description: Mit Sammlungen können Entscheidungselemente nach Ihren eigenen Vorstellungen kategorisiert und gruppiert werden.
 feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
@@ -8,22 +8,19 @@ level: Experienced
 exl-id: e4f2ab34-2af2-49b5-9164-b129e922fe59
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Nfh8NOmID91zoGJ6sORLX5Ij4SDYnQ5S78ZsrGzqDzc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 80
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Erstellen einer Artikelsammlung {#create-decision-items}
+# Erstellen einer Elementsammlung {#create-decision-items}
 
-Sie können eine Elementsammlung erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliotheks-API senden.
+Sie können eine Elementsammlung erstellen, indem Sie eine POST-Anfrage an die Angebotsbibliothek-API richten.
 
 **API-Format**
 
@@ -33,7 +30,7 @@ POST /{ENDPOINT_PATH}/item-collections
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
 
 **Anfrage**
 
@@ -58,7 +55,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/item-collections' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details des neu erstellten Entscheidungselements zurück, einschließlich der ID. Sie können die ID in späteren Schritten verwenden, um Ihr Entscheidungselement zu aktualisieren oder zu löschen.
+Bei einer erfolgreichen Antwort werden die Details des neu erstellten Entscheidungselements zurückgegeben, einschließlich der ID. Sie können die ID in späteren Schritten verwenden, um Ihr Entscheidungselement zu aktualisieren oder zu löschen.
 
 ```json
 {

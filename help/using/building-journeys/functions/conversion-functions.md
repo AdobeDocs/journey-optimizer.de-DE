@@ -9,12 +9,9 @@ keywords: Konvertierung, Funktionen, Ausdruck, Journey, Typ, Umwandlung
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
 TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1271
@@ -79,7 +76,7 @@ Konvertiert einen Argumentwert je nach Typ in einen booleschen Wert.
 * decimal
 * boolean
 * string
-* integer
+* Ganzzahl
 
 +++
 
@@ -214,7 +211,7 @@ Dadurch wird ein dateTime-Wert erstellt, indem eine Zeitzone mit einem reinen Da
 
 `toDateTime("UTC", toDateTimeOnly("2023-08-18T23:17:59.123"))`
 
-Gibt „2023-08-18T23:17:59.123Z“ zurück
+Gibt 2023-08-18T23:17:59.123Z zurück.
 
 Dadurch wird ein dateTime-Wert erstellt, indem eine Zeitzone auf einen dateTimeOnly-Wert angewendet wird (der keine Zeitzoneninformationen enthält).
 
