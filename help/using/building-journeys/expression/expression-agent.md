@@ -33,7 +33,7 @@ ht-degree: 2%
 
 Der Ausdrucksassistent ist eine KI-gestützte Funktion, die in den erweiterten Ausdruckseditor von Journey integriert ist. Damit können Sie gültige Ausdrücke aus einfachen Eingabeaufforderungen generieren.
 
-Er ist überall dort verfügbar, wo die Journey **[!UICONTROL Erweiterter Ausdruckseditor]** geöffnet wird. Dies ist beispielsweise der Fall, wenn Sie Bedingungen und Routing innerhalb einer **[Aktivität „Optimieren](../optimize.md)** konfigurieren oder wenn Sie eine [**[!UICONTROL Warten ]**-Aktivität](../wait-activity.md) konfigurieren, die ein benutzerdefiniertes Datum verwendet und einen `dateTimeOnly`-Ausdruck benötigt.
+Er ist überall dort verfügbar, wo die Journey **[!UICONTROL Erweiterter Ausdruckseditor]** geöffnet wird. Dies ist beispielsweise der Fall, wenn Sie Bedingungen und Routing innerhalb einer **[Aktivität „Optimieren](../optimize.md)** konfigurieren oder wenn Sie eine [**[!UICONTROL Warten &#x200B;]**-Aktivität](../wait-activity.md) konfigurieren, die ein benutzerdefiniertes Datum verwendet und einen `dateTimeOnly`-Ausdruck benötigt.
 
 ## Ausdruck erzeugen {#generate}
 
@@ -48,7 +48,7 @@ So generieren Sie einen Ausdruck mit dem Ausdrucksassistenten:
    * *„Benutzer aus den USA und älter als 18“*
    * *„Kunden, die in den letzten 30 Tagen einen Kauf getätigt haben“*
 
-   Ideen [ Sie am ](#example-prompts) dieser Seite unter „Beispielaufforderungen“.
+   Ideen [&#x200B; Sie am &#x200B;](#example-prompts) dieser Seite unter „Beispielaufforderungen“.
 
 1. Klicken Sie auf **[!UICONTROL Generieren]**, um Ihre Eingabeaufforderung zu senden.
 
