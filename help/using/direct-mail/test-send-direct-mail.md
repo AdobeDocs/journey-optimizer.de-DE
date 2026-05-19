@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Überprüfen und Senden einer Briefpostnachricht
 description: Erfahren Sie, wie Sie in Journey Optimizer eine Briefpostnachricht überprüfen und senden
 feature: Direct Mail, Test Profiles, Preview
@@ -25,14 +27,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 478
-ht-degree: 86%
+source-wordcount: 582
+ht-degree: 73%
 
 ---
 
 # Überprüfen und Senden einer Briefpostnachricht {#direct-mail-test-send}
+
+Erfahren Sie, wie Sie eine Vorschau der Extraktionsdatei anzeigen, Ihre Briefpostkampagne oder Journey validieren und aktivieren und das Einverständnis mit Postsendungen in Journey Optimizer verwalten.
+
+## Vorbereitung {#before-you-start}
+
+Bevor Sie eine Briefpostnachricht testen und senden, erstellen [&#x200B; die Nachricht und konfigurieren Sie die Extraktionsdatei](create-direct-mail.md). Stellen Sie sicher, dass Sie auch [Konfiguration des Briefpostkanals](direct-mail-configuration.md) abgeschlossen haben.
 
 ## Anzeigen der Extraktionsdatei in der Vorschau {#preview-dm}
 
@@ -40,7 +48,7 @@ Sobald der Inhalt der Extraktionsdatei definiert wurde, können Sie Testprofile 
 
 Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um zu prüfen, wie die Extraktionsdatei unter Verwendung der Testprofildaten gerendert wird.
 
-![](assets/direct-mail-simulate.png){width="800" align="center"}
+![Inhaltsvorschau für eine Briefpost-Extraktionsdatei simulieren](assets/direct-mail-simulate.png){width="800" align="center"}
 
 Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
@@ -58,7 +66,7 @@ Stellen Sie vor der Aktivierung der Briefpostkampagne sicher, dass die Kampagne 
 
 * **Fehler** verhindern, dass Sie die Kampagne veröffentlichen können, solange diese nicht behoben sind. Eine Fehlermeldung warnt Sie zum Beispiel, wenn die Betreffzeile fehlt.
 
-![](assets/direct-mail-review.png){width="800" align="center"}
+![Überprüfungs- und Aktivierungsbildschirm mit Warnhinweisen zur Validierung von Briefpost-Kampagnen](assets/direct-mail-review.png){width="800" align="center"}
 
 Wenn Ihre Briefpostkampagne fertig ist, konfigurieren Sie Ihre [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md), um sie zu versenden.
 
@@ -81,3 +89,12 @@ Um es erneut zu aktivieren, muss das Profilattribut wieder in `consents.marketin
 Um die Attribute eines Profils zu verwalten, gehen Sie zu Experience Platform und greifen Sie auf das Profil zu, indem Sie einen Identity-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
 
 Weitere Informationen zur Verwaltung von Opt-outs in Journey Optimizer finden Sie in [diesem Abschnitt](../privacy/opt-out.md).
+
+## Verwandte Themen {#related-topics}
+
+* [Erste Schritte mit Direkt-Mail](get-started-direct-mail.md)
+* [Erstellen einer Briefpostnachricht](create-direct-mail.md)
+* [Konfigurieren des Briefpostkanals](direct-mail-configuration.md)
+* [Vorschau und Testinhalt](../content-management/preview-test.md)
+
+Häufige Fragen zu Briefpost finden Sie unter [Erste Schritte mit Briefpost](get-started-direct-mail.md).

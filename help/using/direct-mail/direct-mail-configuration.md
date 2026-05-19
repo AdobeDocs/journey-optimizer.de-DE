@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Konfigurieren von Direkt-Mail
 description: Erfahren Sie, wie Sie einen Briefpostkanal in Journey Optimizer konfigurieren
 feature: Direct Mail, Surface
@@ -25,10 +27,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 1820
-ht-degree: 98%
+source-wordcount: 1964
+ht-degree: 92%
 
 ---
 
@@ -96,15 +98,17 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Direkt-Mail-Einstellungen]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
 
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
+   ![Schaltfläche „Datei-Routing-Konfiguration erstellen“ in den Briefpost-Einstellungen](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Legen Sie einen Namen für Ihre Konfiguration fest.
 
 1. Wählen Sie den Server-Typ aus, der für den Export Ihrer Direkt-Mail-Dateien verwendet werden soll: Amazon S3, SFTP, Azure oder Data Landing Zone.
 
-   ![](assets/file-routing-config-type.png){width="800" align="center"}
+   ![Auswahl des Server-Typs für eine Briefpost-Datei-Routing-Konfiguration](assets/file-routing-config-type.png){width="800" align="center"}
 
 1. Füllen Sie die für jeden Server-Typ spezifischen Felder wie auf den folgenden Registerkarten beschrieben aus.
+
+### Servertyp auswählen {#server-type}
 
 >[!BEGINTABS]
 
@@ -120,7 +124,7 @@ Wenn Sie **[!UICONTROL Amazon S3]** als **[!UICONTROL Server-Typ]** ausgewählt 
 
 * **AWS-Region**: Wählen Sie die **[!UICONTROL AWS-Region]** in der sich die Server-Infrastruktur befinden wird. AWS-Regionen sind geografische Gebiete, die AWS zum Hosten seiner Cloud-Infrastrukturen verwendet. In der Regel empfIehlt es sich, die Region auszuwählen, die dem Standort Ihres Briefpostanbieters am nächsten liegt.
 
-![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+![Auswahl der AWS-Region für eine Amazon S3-Datei-Routing-Konfiguration](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
 >[!TAB SFTP]
 
@@ -136,7 +140,7 @@ Wenn Sie **[!UICONTROL SFTP]** als **[!UICONTROL Server-Typ]** ausgewählt haben
 
 * **[!UICONTROL Kennwort]**/**[!UICONTROL SSH-Schlüssel]**: Kennwort oder SSH-Schlüssel für die Verbindung mit dem SFTP-Server.
 
-![](assets/file-routing-config-sftp-detail.png)
+![SFTP-Server-Verbindungsdetails für die Datei-Routing-Konfiguration](assets/file-routing-config-sftp-detail.png)
 
 >[!TIP]
 >
@@ -164,13 +168,13 @@ Wenn Sie **[!UICONTROL Azure]** als **[!UICONTROL Server-Typ]** ausgewählt habe
   >
   >Um einen Pfad innerhalb des Containers zum Speichern der Datei anzugeben, aktualisieren Sie den **[!UICONTROL Dateinamen]** der Direkt-Mail-Kampagne, um den gewünschten Pfad einzuschließen. [Weitere Informationen](create-direct-mail.md#extraction-file)
 
-  ![](assets/file-routing-config-azure-detail.png)
+  ![Details zur Azure-Speicherverbindung für die Datei-Routing-Konfiguration](assets/file-routing-config-azure-detail.png)
 
 >[!TAB Data Landing Zone]
 
 Wenn Sie **[!UICONTROL Data Landing Zone]** als **[!UICONTROL Server-Typ]** ausgewählt haben, sind keine spezifischen Details erforderlich.
 
-![](assets/file-routing-config-dlz-detail.png)
+![Dateirouting-Konfiguration der Data Landing Zone ohne zusätzliche Server-Felder](assets/file-routing-config-dlz-detail.png)
 
 Alle Kundinnen und Kunden von [!DNL Adobe Experience Platform] erhalten einen Data Landing Zone-Container pro Sandbox. Weitere Informationen zur Data Landing Zone finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
@@ -180,7 +184,7 @@ Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in 
 
 Wenn Ihre Datei-Routing-Konfiguration mit Journeys gesendet wird, können Sie die Häufigkeit festlegen, mit der die Datei an den Server gesendet wird.
 
-![](assets/file-routing-journey.png)
+![Journey-Exportfrequenzeinstellungen für eine Datei-Routing-Konfiguration](assets/file-routing-journey.png)
 
 Nachdem Sie die Details für Ihren Server-Typ eingegeben haben, wählen Sie **[!UICONTROL Absenden]** aus. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Direkt-Mail-Konfiguration](#direct-mail-surface) verwendet werden.
 
@@ -242,7 +246,7 @@ Eine Direkt-Mail-Konfiguration muss auch die Datei-Routing-Konfiguration enthalt
 
 1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** und wählen Sie **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Kanalkonfigurationen]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Kanalkonfiguration erstellen]**. [Weitere Informationen](../configuration/channel-surfaces.md)
 
-   ![](assets/direct-mail-config-1.png)
+   ![Bildschirm zur Kanalkonfiguration in Administration erstellen](assets/direct-mail-config-1.png)
 
 1. Geben Sie einen Namen und eine Beschreibung (optional) für die Konfiguration ein und wählen Sie dann den zu konfigurierenden Kanal aus.
 
@@ -254,13 +258,13 @@ Eine Direkt-Mail-Konfiguration muss auch die Datei-Routing-Konfiguration enthalt
 
 1. Wählen Sie den Kanal **[!UICONTROL Direkt-Mail]** aus.
 
-   ![](assets/direct-mail-config-2.png)
+   ![Der Briefpostkanal wurde beim Erstellen einer Kanalkonfiguration ausgewählt](assets/direct-mail-config-2.png)
 
 1. Wählen Sie eine **[!UICONTROL Marketing-Aktion]** aus, um Einverständnisrichtlinien mit den Nachrichten zu verknüpfen, die diese Konfiguration verwenden. Es werden alle mit der Marketing-Aktion verknüpften Einverständnisrichtlinien genutzt, um die Präferenzen Ihrer Kundinnen und Kunden zu respektieren. [Weitere Informationen](../action/consent.md#surface-marketing-actions)
 
 1. Legen Sie die Direkt-Mail-Einstellungen im entsprechenden Abschnitt der Kanalkonfiguration fest.
 
-   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
+   ![Einstellungen der Briefpost-Oberfläche einschließlich Dateiformat und Routing](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -268,7 +272,7 @@ Eine Direkt-Mail-Konfiguration muss auch die Datei-Routing-Konfiguration enthalt
 
 1. Wenn Sie **[!UICONTROL Text mit Trennzeichen]** auswählen, definieren Sie das Spaltentrennzeichen Ihrer Wahl: Tabulator, Semikolon, senkrechter Strich oder kaufmännisches Und-Zeichen.
 
-   ![](assets/surface-direct-mail-column-separator.png)
+   ![Optionen für durch Text getrennte Spaltentrennzeichen für Briefpost-Exportdateien](assets/surface-direct-mail-column-separator.png)
 
 1. Wählen Sie abschließend die gewünschte **[!UICONTROL Datei-Routing-Konfiguration]** unter den von Ihnen erstellten Konfigurationen aus. Darin wird definiert, wohin die Datei für Ihren Direkt-Mail-Anbieter exportiert wird.
 
@@ -276,7 +280,7 @@ Eine Direkt-Mail-Konfiguration muss auch die Datei-Routing-Konfiguration enthalt
    >
    >Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Direkt-Mail-Konfiguration erstellen. [Weitere Informationen](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
+   ![Datei-Routing-Konfiguration in einer Briefpost-Kanal-Konfiguration ausgewählt](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
@@ -301,3 +305,12 @@ Sie können jetzt innerhalb einer Kampagne [Briefpostnachrichten erstellen](../d
     >
     >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
 -->
+
+## Verwandte Themen {#related-topics}
+
+* [Erste Schritte mit Direkt-Mail](get-started-direct-mail.md)
+* [Erstellen einer Briefpostnachricht](create-direct-mail.md)
+* [Testen und Senden von Briefpost](test-send-direct-mail.md)
+* [Kanalkonfigurationen](../configuration/channel-surfaces.md)
+
+Häufige Fragen zu Briefpost finden Sie unter [Erste Schritte mit Briefpost](get-started-direct-mail.md).
