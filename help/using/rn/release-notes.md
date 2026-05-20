@@ -30,9 +30,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: 5a6f276fe4d372a31b72429d50725cde64ff81c6
 workflow-type: tm+mt
-source-wordcount: 2076
+source-wordcount: 2084
 ht-degree: 30%
 
 ---
@@ -57,6 +57,23 @@ ht-degree: 30%
 ### Neue Funktionen {#may-26-features}
 
 Die folgenden Funktionen wurden im Mai 2026 veröffentlicht.
+
+<table>
+<thead>
+<tr>
+<th><strong>Neuer Mobile-Nachrichtenkanal und verbessertes RCS-Messaging</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>SMS, MMS und RCS sind jetzt in Adobe Journey Optimizer in einer einzigen <strong>Mobile Message</strong>-Aktion zusammengefasst, wodurch die Verwaltung aller Nachrichtentypen auf Mobilgeräten an einem Ort erleichtert wird. Im Rahmen dieses Updates können Sie jetzt Rich-Media-RCS-Nachrichten, einschließlich Bildern, Karussells und empfohlenen Aktionen, über ein neues natives Authoring-Erlebnis direkt in Journey Optimizer erstellen.</p>
+<p>Weitere Informationen finden Sie in der <a href="../mobile/get-started-mobile.md">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 20. Mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -261,22 +278,6 @@ Im Mai 2026 wurden auch die folgenden Verbesserungen veröffentlicht.
 Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Informationen können Änderungen unterliegen**. Aktualisierte Links, Bildschirme und Dokumentationen werden freigegeben, sobald diese Aktualisierungen live in der Produktion verfügbar sind.
 
 ### Neue Funktionen {#coming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Neuer Mobile-Nachrichtenkanal und verbessertes RCS-Messaging</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>SMS, MMS und RCS sind jetzt in Adobe Journey Optimizer in einer einzigen <strong>Mobile Message</strong>-Aktion zusammengefasst, wodurch die Verwaltung aller Nachrichtentypen auf Mobilgeräten an einem Ort erleichtert wird. Im Rahmen dieses Updates können Sie jetzt Rich-Media-RCS-Nachrichten, einschließlich Bildern, Karussells und empfohlenen Aktionen, über ein neues natives Authoring-Erlebnis direkt in Journey Optimizer erstellen.</p>
-<p>Verfügbarkeitsdatum: 20. Mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
