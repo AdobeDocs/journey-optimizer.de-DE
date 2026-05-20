@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Experimentieren, Experimentieren, Journey, Pfad, Optimierung, A/B-Tests, Multi-Armed Bandit, Skalieren Sie den Gewinner
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 78%
@@ -83,7 +83,7 @@ Angenommen, Sie möchten drei Pfade vergleichen:
 
    * Ziehen Sie eine Aktivität des Typs [Warten](wait-activity.md) von zwei Tagen auf die erste Verzweigung, gefolgt von einer Aktivität des Typs [E-Mail](../email/create-email.md) (**Abwandlung B**).
 
-   * Ziehen Sie eine Aktivität des Typs [E-Mail](../email/create-email.md) auf die dritte Verzweigung, gefolgt von einer Aktivität des Typs [SMS](../sms/create-sms.md) (**Abwandlung C**).
+   * Ziehen Sie eine Aktivität des Typs [E-Mail](../email/create-email.md) auf die dritte Verzweigung, gefolgt von einer Aktivität des Typs [SMS](../mobile/create-mobile-message.md) (**Abwandlung C**).
 
    ![Beispiel eines Pfadexperiments mit drei Behandlungspfaden](assets/journey-optimize-experiment-ex.png){width=100%}
 

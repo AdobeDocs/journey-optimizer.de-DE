@@ -41,7 +41,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 2177
 ht-degree: 70%
@@ -200,7 +200,7 @@ Der [Experimentation Agent](https://experienceleague.adobe.com/de/docs/experienc
 
 ## KI-gestützte Inhaltserstellung {#content-generation}
 
-Verwenden Sie generative KI, um Inhalte über mehrere Kanäle hinweg zu erstellen und zu personalisieren, und beschleunigen Sie so Ihren Inhaltserstellungsprozess bei gleichzeitiger Wahrung der Markenkonsistenz. Der KI-Assistent für die Inhaltserstellung ist für [E-Mail](../email/get-started-email.md)-, [Push](../push/get-started-push.md)-, [SMS](../sms/get-started-sms.md)- und [Web](../web/get-started-web.md)-Erlebnisse verfügbar, damit Sie Betreffzeilen, Textkörper, Bilder und vollständige Nachrichtenvarianten generieren können.
+Verwenden Sie generative KI, um Inhalte über mehrere Kanäle hinweg zu erstellen und zu personalisieren, und beschleunigen Sie so Ihren Inhaltserstellungsprozess bei gleichzeitiger Wahrung der Markenkonsistenz. Der KI-Assistent für die Inhaltserstellung ist für [E-Mail](../email/get-started-email.md)-, [Push](../push/get-started-push.md)-, [SMS](../mobile/get-started-mobile.md)- und [Web](../web/get-started-web.md)-Erlebnisse verfügbar, damit Sie Betreffzeilen, Textkörper, Bilder und vollständige Nachrichtenvarianten generieren können.
 
 ### Wichtigste Funktionen
 

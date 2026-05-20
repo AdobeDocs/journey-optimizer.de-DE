@@ -39,7 +39,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 45054647f14fdf4b073825b4db2715a323f2a7a0
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 4262
 ht-degree: 98%
@@ -111,7 +111,7 @@ Wenn die Veröffentlichung einer Journey aufgrund der Inhaltsgröße fehlschläg
 
 ### Leitlinien für SMS {#sms-guardrails}
 
-Für den [SMS-Kanal](../sms/get-started-sms.md) gelten die folgenden Schutzmechanismen:
+Für den [SMS-Kanal](../mobile/get-started-mobile.md) gelten die folgenden Schutzmechanismen:
 
 * Mediendateien für MMS können über eine unterstützte URL eingeschlossen werden. Bitte stellen Sie sicher, dass die Mediendatei separat hochgeladen wird.
 * Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.

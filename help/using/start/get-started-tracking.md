@@ -42,7 +42,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1962
 ht-degree: 97%
@@ -193,9 +193,9 @@ Für das SMS-Tracking ist eine minimale Einrichtung erforderlich: Journey Optimi
 
 **Funktionsweise:**
 
-* **Automatisches Linktracking** – Fügen Sie Ihrem SMS-Inhalt mithilfe der URL-Helper-Funktion beliebige URLs hinzu. Journey Optimizer verkürzt den Link automatisch und verfolgt Klicks ohne zusätzliche Konfiguration. Um die URL-Verkürzung zu verwenden, müssen Sie zunächst eine SMS-Subdomain konfigurieren. [Weitere Informationen](../sms/sms-subdomains.md)
+* **Automatisches Linktracking** – Fügen Sie Ihrem SMS-Inhalt mithilfe der URL-Helper-Funktion beliebige URLs hinzu. Journey Optimizer verkürzt den Link automatisch und verfolgt Klicks ohne zusätzliche Konfiguration. Um die URL-Verkürzung zu verwenden, müssen Sie zunächst eine SMS-Subdomain konfigurieren. [Weitere Informationen](../mobile/mobile-subdomains.md)
 
-* **Tracking eingehender Nachrichten** – Antworten von Empfangenden werden automatisch erfasst, sodass Sie bidirektionale Konversationen und Antwortmuster überwachen können. [Weitere Informationen](../sms/sms-opt-out.md#sms-native-keywords)
+* **Tracking eingehender Nachrichten** – Antworten von Empfangenden werden automatisch erfasst, sodass Sie bidirektionale Konversationen und Antwortmuster überwachen können. [Weitere Informationen](../mobile/mobile-opt-out.md#sms-native-keywords)
 
 **Anzeigen von Metriken:** Greifen Sie auf Link-Klickdaten, Volumina eingehender Nachrichten und Leistungstypen von Nachrichten in Berichten zu. [Kampagnenberichte](../reports/campaign-global-report-cja-sms.md) | [Journey-Berichte](../reports/journey-global-report-cja-sms.md)
 

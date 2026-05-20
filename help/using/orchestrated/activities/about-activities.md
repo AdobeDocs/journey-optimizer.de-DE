@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 100%
+source-wordcount: 471
+ht-degree: 78%
 
 ---
 
@@ -66,12 +66,12 @@ Erfahren Sie, wie Sie [in einer orchestrierten Kampagne eine Kanalaktion erstell
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Endaktivität"
->abstract="Mit der Aktivität **Ende** können Sie das Ende einer orchestrierten Kampagne grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional."
+>abstract="Die **Ende**-Aktivität markiert das Ende einer Verzweigung auf der Arbeitsfläche. Verwenden Sie optional **Externes Signal**, um eine nachgelagerte orchestrierte Kampagne zu starten und Parameter zu übergeben, wenn die Verzweigung abgeschlossen ist. [Weitere Informationen](../trigger-orchestrated-campaign.md#signal-end)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="Externes Signal"
->abstract="externes Signal"
+>abstract="Wählen Sie die nachgelagerte orchestrierte Kampagne aus, um zu beginnen, wenn diese Verzweigung endet, und ordnen Sie Parameternamen und -werte zu, die in das Signal gesendet werden sollen. Die nachgelagerte Kampagne muss auf **Ausgelöst durch ein Signal** eingestellt und veröffentlicht werden, bevor diese Kampagne die Endaktivität erreicht. [Weitere Informationen](../trigger-orchestrated-campaign.md#signal-end)"
 
 Die folgenden Aktivitäten dienen der Organisation und Ausführung von orchestrierten Kampagnen. Ihre Hauptaufgabe besteht darin, die anderen Aktivitäten zu koordinieren.
 
@@ -84,5 +84,4 @@ Verfügbare Flusssteuerungsaktivitäten sind:
 * [Warten](wait.md): Mit dieser Aktivität pausieren Sie die Ausführung eines Teils einer orchestrierten Kampagne vorübergehend.
   <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 
->[!NOTE]
->Mit der Aktivität **Ende** können Sie das Ende einer orchestrierten Kampagne grafisch markieren. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional.
+* **[!UICONTROL Ende]**: Markiert das Ende einer Verzweigung auf der Arbeitsfläche. Optional können Sie damit ein Signal an eine andere orchestrierte Kampagne senden, die mit einem Signal beginnt. [Weitere Informationen](../trigger-orchestrated-campaign.md#signal-end)

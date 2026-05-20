@@ -24,7 +24,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 100%
@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
    In den folgenden Abschnitten erfahren Sie, wie Sie Inhalte für die verschiedenen Kanäle erstellen:
    * [Definieren von E-Mail-Inhalten](../email/get-started-email-design.md)
    * [Definieren von Push-Inhalten](../push/design-push.md)
-   * [Definieren von SMS-Inhalten](../sms/create-sms.md#sms-content)
+   * [Definieren von SMS-Inhalten](../mobile/create-mobile-message.md#sms-content)
    * [Definieren von Briefpost-Inhalten](../direct-mail/create-direct-mail.md)
    * [Definieren von In-App-Inhalten](../in-app/design-in-app.md)
    * [Definieren von Web-Inhalten](../web/create-web.md#edit-web-content)

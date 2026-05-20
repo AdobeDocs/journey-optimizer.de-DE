@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1296
 ht-degree: 5%
@@ -91,7 +91,7 @@ Dashboard, das die Leistung von Entscheidungselementen und Auswahlstrategien geg
 
 * **Richtliniendurchsetzung**: Befähigung von Business-Anwendern zur Verwendung von Funktionen [Datennutzungskennzeichnung und -durchsetzung (DULE)](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview){target="_blank"} und [Einverständnis](../action/consent.md) innerhalb von Decisioning, wodurch der Datenschutz im gesamten Entscheidungs-Workflow gewährleistet wird. Dadurch wird sichergestellt, dass Entscheidungen automatisch die Datennutzungsrichtlinien und die Voreinstellungen für das Kundeneinverständnis berücksichtigen.
 
-* **Native Messaging-Kanal-**: Integriertes Messaging und Entscheidungsfindung innerhalb eines einzigen Frameworks über mehrere Kanäle hinweg: [Code-basiertes Erlebnis](../code-based/get-started-code-based.md), [E-Mail](../email/get-started-email.md) (eingeschränkte Verfügbarkeit), [SMS](../sms/get-started-sms.md) und [Push-Benachrichtigungen](../push/get-started-push.md). Dank der intuitiven Unterstützung der Benutzeroberfläche können Benutzer Entscheidungskomponenten direkt in Workflows zur Nachrichtenerstellung einfügen.
+* **Native Messaging-Kanal-**: Integriertes Messaging und Entscheidungsfindung innerhalb eines einzigen Frameworks über mehrere Kanäle hinweg: [Code-basiertes Erlebnis](../code-based/get-started-code-based.md), [E-Mail](../email/get-started-email.md) (eingeschränkte Verfügbarkeit), [SMS](../mobile/get-started-mobile.md) und [Push-Benachrichtigungen](../push/get-started-push.md). Dank der intuitiven Unterstützung der Benutzeroberfläche können Benutzer Entscheidungskomponenten direkt in Workflows zur Nachrichtenerstellung einfügen.
 
 * **Experience Platform-Datensatzsuche**: Möglichkeit zum Hochladen und Referenzieren von [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/overview){target="_blank"}Datensätzen direkt innerhalb der Angebotsauswahlregeln, der Rangfolge und des personalisierten Angebotsinhalts. Dies erhöht die Flexibilität bei Personalisierung und Targeting, da die Entscheidungslogik dynamische externe Datenquellen verwenden kann. [Weitere Informationen](../data/lookup-aep-data.md)
 

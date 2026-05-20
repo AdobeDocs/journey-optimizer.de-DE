@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8f23da537097fa514b19f9d6e8be025ba86f8a05
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '7833'
 ht-degree: 91%
@@ -141,7 +141,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Die Dokumentation zur Verwendung von Fragmenten in der Entscheidungsfindung wurde aktualisiert: in den Abschnitten „Fragmente“ und „Entscheidungen“ wurden Notizen hinzugefügt und die Seite „Fragmente in Entscheidungsrichtlinien“ wurde aktualisiert. [Weitere Informationen](../experience-decisioning/fragments-decision-policies.md)
 
-* Die SMS-Webhook-Dokumentation wurde aktualisiert: Twilio-Webhook-Inhalte wurden entfernt. [Weitere Informationen](../sms/sms-webhook.md)
+* Die SMS-Webhook-Dokumentation wurde aktualisiert: Twilio-Webhook-Inhalte wurden entfernt. [Weitere Informationen](../mobile/mobile-webhook.md)
 
 * Die Dokumentation **Konvertieren von Bildern in Inhaltsvorlagen** wurde um umfassendere Leitlinien und Empfehlungen, gängige Anwendungsfälle und klarere Anleitungen zum Konvertieren von Bild-Designs in bearbeitbare HTML-Inhaltsvorlagen erweitert. Außerdem wird erwähnt, dass Sie jetzt ein Design als Eingabe für die Konvertierung verwenden können. [Weitere Informationen](../content-management/image-to-html.md)
 
@@ -453,9 +453,9 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 * Es wurde ein Hinweis zur Direkt-Mail-Konfigurationsseite zum temporären Speichern der Ausgabedatei hinzugefügt. [Weitere Informationen](../direct-mail/direct-mail-configuration.md)
 * Im Abschnitt zum Editor für erweiterte Journey-Ausdrücke wurde ein Tipp zu den Richtlinien für Bedingungsformate hinzugefügt. [Weitere Informationen](../building-journeys/expression/expressionadvanced.md)
 * Im Abschnitt zur `inAudience`-Funktion wurde ein Warnhinweis zu Auswirkungen und Best Practices beim Umbenennen einer Zielgruppe hinzugefügt. [Weitere Informationen](../building-journeys/functions/functioninaudience.md)
-* Es wurde eine Empfehlung zur Verwendung nativer Keywords bei der Verwendung von bidirektionalen SMS hinzugefügt. [Weitere Informationen](../sms/sms-opt-out.md)
+* Es wurde eine Empfehlung zur Verwendung nativer Keywords bei der Verwendung von bidirektionalen SMS hinzugefügt. [Weitere Informationen](../mobile/mobile-opt-out.md)
 * Die Journey-Testseite wurde mit einem Hinweis auf die Notwendigkeit aktualisiert, einen Identity-Namespace in das verwendete Ereignis einzuschließen. [Weitere Informationen](../building-journeys/testing-the-journey.md)
-* Die Delegierung von Subdomains kann derzeit nicht über die Benutzeroberfläche von [!UICONTROL Journey Optimizer] aufgehoben werden. Sie müssen sich hierzu an den Adobe-Support wenden. Die Schritte zum Aufheben der Delegierung einer Subdomain werden jetzt für [E-Mails](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain), [Web-Erlebnisse](../web/web-delegated-subdomains.md#undelegate-subdomain) und [Landingpages](../landing-pages/lp-subdomains.md#undelegate-subdomain) beschrieben.<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+* Die Delegierung von Subdomains kann derzeit nicht über die Benutzeroberfläche von [!UICONTROL Journey Optimizer] aufgehoben werden. Sie müssen sich hierzu an den Adobe-Support wenden. Die Schritte zum Aufheben der Delegierung einer Subdomain werden jetzt für [E-Mails](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../mobile/mobile-subdomains.md#undelegate-subdomain), [Web-Erlebnisse](../web/web-delegated-subdomains.md#undelegate-subdomain) und [Landingpages](../landing-pages/lp-subdomains.md#undelegate-subdomain) beschrieben.<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 * Es wurde eine Klarstellung zum optionalen `maxHttpConnections`-Parameter im Journey-Begrenzungs-API hinzugefügt, einschließlich Anleitungen zu dessen Verwendung zusammen mit Drosselungskonfigurationen für denselben Endpunkt. [Weitere Informationen](../configuration/throttling.md)
 * Im Abschnitt „Entscheidungsfindung“ wurde ein Hinweis hinzugefügt, der erklärt, dass genehmigte Angebotselemente nicht gelöscht werden können, wenn sie in einer Sammlung oder Entscheidung verwendet werden. Es wurden Schritte zum Ändern ihres Status in „Entwurf“ mithilfe der Option **[!UICONTROL Genehmigung rückgängig machen]** eingeschlossen. [Weitere Informationen](../experience-decisioning/items.md#manage)
 * Informationen zu Sandboxes wurden in einem neuen Abschnitt zur Sandbox-Verwaltung zusammengefasst. Dieser neue Abschnitt enthält Informationen zur Verwendung und Zuweisung von Sandboxes und zur Verwendung der Paketexport- und -importfunktionen zum Kopieren von Objekten wie Journeys, Inhaltsvorlagen oder Fragmenten über mehrere Sandboxes hinweg. [Weitere Informationen](../administration/sandboxes.md)
@@ -764,7 +764,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
     * [Email channel](../email/get-started-email.md)
     * [Push notification channel](../../rp_landing_pages/push-landing-page.md)
-    * [SMS channel](../sms/get-started-sms.md)
+    * [SMS channel](../mobile/get-started-mobile.md)
 
 * The Configuration guide has been reorganized for improved readability. [Read more](../configuration/get-started-configuration.md)
 

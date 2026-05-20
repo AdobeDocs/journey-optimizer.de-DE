@@ -5,10 +5,10 @@ title: SMS-/MMS-/RCS-Kanal
 description: SMS-/MMS-/RCS-Kanal
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 79%
+source-wordcount: '282'
+ht-degree: 80%
 
 ---
 
@@ -26,7 +26,7 @@ Erste Schritte mit Textnachrichten
 
 Erfahren Sie, wie Sie SMS-, MMS- und RCS-Nachrichten in Adobe Journey Optimizer konfigurieren, erstellen und verwalten.
 
-[Jetzt beginnen](../using/sms/get-started-sms.md)
+[Jetzt beginnen](../using/mobile/get-started-mobile.md)
 :::
 
 :::
@@ -36,7 +36,7 @@ Erstellen von SMS-, MMS- und RCS-Nachrichten
 
 Schrittweise Anleitung zum Entwerfen, Konfigurieren und Senden personalisierter Textnachrichten als Teil von Journeys oder Kampagnen.
 
-[Weitere Informationen](../using/sms/create-sms.md)
+[Weitere Informationen](../using/mobile/create-mobile-message.md)
 :::
 
 :::
@@ -46,7 +46,7 @@ Schrittweise Anleitung zum Entwerfen, Konfigurieren und Senden personalisierter 
 
 Sie können Nachrichten in der Vorschau anzeigen, validieren und senden und dabei einen erfolgreichen Versand sowie die Einhaltung von Best Practices sicherstellen.
 
-[Details abrufen](../using/sms/send-sms.md)
+[Details abrufen](../using/mobile/send-mobile-message.md)
 :::
 
 :::
@@ -56,7 +56,7 @@ Verwalten des Opt-outs von Textnachrichten
 
 Stellen Sie die Einhaltung von Branchenstandards sicher, indem Sie Opt-out-Prozesse für SMS-, MMS- und RCS-Kommunikationen verwalten.
 
-[Handbuch lesen](../using/sms/sms-opt-out.md)
+[Handbuch lesen](../using/mobile/mobile-opt-out.md)
 :::
 
 :::
@@ -66,7 +66,7 @@ Einrichten von SMS-Subdomains
 
 Konfigurieren Sie SMS-Subdomains für den Nachrichtenversand, einschließlich Einrichtung, Delegierung und Verwaltung.
 
-[Jetzt konfigurieren](../using/sms/sms-subdomains.md)
+[Jetzt konfigurieren](../using/mobile/mobile-subdomains.md)
 :::
 
 :::
@@ -76,7 +76,7 @@ Konfigurieren des SMS-/MMS-/RCS-Kanals
 
 Umfassende Anleitungen zum Einrichten von Messaging-Kanälen mit unterstützten Anbietern, benutzerdefinierten Konfigurationen und maßgeschneiderten Optionen.
 
-[Konfigurationen erkunden](../using/sms/sms-configuration.md)
+[Konfigurationen erkunden](../using/mobile/mobile-configuration.md)
 :::
 
 ::::

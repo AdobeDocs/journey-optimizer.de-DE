@@ -52,7 +52,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 5499
 ht-degree: 87%
@@ -661,7 +661,7 @@ Ja. Verwenden Sie eine **[Aktivität „Optimieren](conditions.md)**, um Profile
 2. Erstellen Sie einen Pfad für jeden Kanal, indem Sie das Profilattribut des bevorzugten Kanals überprüfen (z. B. `profile.preferredChannel`).
 3. Konfigurieren von kanalspezifischen Pfaden:
    * **E-Mail-Pfad**: Fügen Sie eine [E-Mail-Aktion](../email/create-email.md) mit für E-Mails optimierten Inhalten hinzu
-   * **SMS-Pfad**: Fügen Sie eine [SMS-Aktion](../sms/create-sms.md) mit kurzem Nachrichteninhalt hinzu
+   * **SMS-Pfad**: Fügen Sie eine [SMS-Aktion](../mobile/create-mobile-message.md) mit kurzem Nachrichteninhalt hinzu
    * **Push-Pfad**: Fügen Sie eine [Push-Benachrichtigungsaktion](../push/create-push.md) mit kurzen, verwertbaren Inhalten hinzu
    * **In-App-Pfad**: Fügen Sie eine [In-App-Nachrichtenaktion](../in-app/create-in-app.md) für interaktive App-Benutzende hinzu
 4. Fügen Sie einen Standardpfad für Profile ohne Voreinstellung hinzu und leiten Sie sie an Ihren primären Kanal weiter.

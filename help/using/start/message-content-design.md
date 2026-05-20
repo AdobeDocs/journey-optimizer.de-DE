@@ -33,7 +33,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 618
 ht-degree: 100%
@@ -74,7 +74,7 @@ Gestalten von SMS- und MMS-Nachrichten
 
 Erstellen Sie personalisierte Textnachrichten mit SMS, verbessern Sie die Kommunikation mit Multimedia-Inhalten mithilfe von MMS und nutzen Sie dynamische Inhalte für zielgerichtetes Messaging.
 
-[Erstellen von Textnachrichten](../sms/create-sms.md)
+[Erstellen von Textnachrichten](../mobile/create-mobile-message.md)
 :::
 
 :::

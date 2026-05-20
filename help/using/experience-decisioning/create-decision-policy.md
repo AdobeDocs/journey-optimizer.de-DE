@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 2257
-ht-degree: 62%
+source-wordcount: 2285
+ht-degree: 61%
 
 ---
 
@@ -131,9 +131,13 @@ Bei Code-basierten Erlebnissen können Sie eine neue Entscheidungsrichtlinie ent
 
    +++
 
-Sie können Entscheidungsrichtlinien auch hinzufügen, wenn Sie den Modus **[!UICONTROL Eigenen Code erstellen]** in der E-Mail-Designer verwenden. Navigieren Sie dazu zu **[!UICONTROL Entscheidungsrichtlinien]**, um den Entscheidungsrichtlinien-Code einzufügen. [Erfahren Sie, wie Sie Ihren eigenen E-Mail-Inhalt codieren](../email/code-content.md).
+Sie können Entscheidungsrichtlinien auch hinzufügen, wenn Sie den Modus **[!UICONTROL Eigenen Code erstellen]** in der E-Mail-Designer verwenden. Navigieren Sie dazu zu **[!UICONTROL Entscheidungsrichtlinien]**, um den Entscheidungsrichtlinien-Code einzufügen. Die Benutzeroberfläche für die Platzierungsauswahl wird angezeigt, sodass Sie eine Platzierung für die Entscheidungsrichtlinie auswählen können. [Erfahren Sie, wie Sie Ihren eigenen E-Mail-Inhalt codieren](../email/code-content.md).
 
 ![](assets/decision-policy-add-code-your-own.png)
+
+>[!AVAILABILITY]
+>
+>Das Einfügen von Entscheidungsrichtlinien im **[!UICONTROL Code your own]**-Modus ist nur eingeschränkt verfügbar.
 
 >[!NOTE]
 >

@@ -35,7 +35,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 4714
 ht-degree: 48%
@@ -154,7 +154,7 @@ Siehe auch die [Dokumentation zur Konfiguration von Push-Kanälen](../push/push-
 
 Wenn eine Empfängerin bzw. ein Empfänger auf eine SMS mit **STOPP** antwortet, werden alle zukünftigen Nachrichten von dieser kurzen Nummer blockiert – einschließlich Transaktionsnachrichten. Um einen unterbrechungsfreien Versand von Transaktions-SMS zu gewährleisten, konfigurieren und senden Sie sie über eine **separate kurze Nummer**, von der sich die Empfängerinnen und Empfänger noch nicht abgemeldet haben.
 
-[Auf dieser Seite](../sms/sms-opt-out.md) erfahren Sie mehr über die Opt-out-Konfiguration für SMS-Nachrichten.
+[Auf dieser Seite](../mobile/mobile-opt-out.md) erfahren Sie mehr über die Opt-out-Konfiguration für SMS-Nachrichten.
 
 +++
 
@@ -162,7 +162,7 @@ Wenn eine Empfängerin bzw. ein Empfänger auf eine SMS mit **STOPP** antwortet,
 
 SMS-Versandfehler nach der Kanaleinrichtung werden meist durch falsche Provider-API-Anmeldeinformationen, eine fehlende Übereinstimmung zwischen der Absender-ID und dem, was der Provider registriert hat, oder Routing-Einschränkungen auf Provider-Ebene verursacht. Überprüfen Sie, ob der in Journey Optimizer eingegebene API-Schlüssel, das Passwort und die Absenderdetails genau mit dem übereinstimmen, was Ihr SMS-Anbieter bereitgestellt hat. Senden Sie dann eine Testnachricht, um die Verbindung zu bestätigen, bevor Sie eine Kampagne starten.
 
-Erfahren Sie auf dieser Seite , wie Sie [&#x200B; SMS-Anbieter &#x200B;](../sms/sms-configuration.md).
+Erfahren Sie auf dieser Seite , wie Sie [&#x200B; SMS-Anbieter &#x200B;](../mobile/mobile-configuration.md).
 
 +++
 
@@ -170,7 +170,7 @@ Erfahren Sie auf dieser Seite , wie Sie [&#x200B; SMS-Anbieter &#x200B;](../sms/
 
 Wenn ein Profil den Text STOP schreibt, aktualisiert Journey Optimizer das SMS-Einverständnisattribut des Profils. Um den aktuellen Opt-out-Status zu überprüfen, öffnen Sie das Profil in der Experience Platform-Benutzeroberfläche und überprüfen Sie die Einverständnisfelder unter **Datenschutz** > **Einverständnisse**. Überprüfen Sie zur Fehlerbehebung bei Campaign auch die Ausschlussgründe im Kampagnenbericht . Opt-out-Profile werden unter der **Ausgeschlossen** mit dem Grund „Opt-out“ angezeigt.
 
-Weitere Informationen zur Handhabung des SMS-Opt-outs [&#x200B; Sie auf dieser Seite](../sms/sms-opt-out.md).
+Weitere Informationen zur Handhabung des SMS-Opt-outs [&#x200B; Sie auf dieser Seite](../mobile/mobile-opt-out.md).
 
 +++
 

@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1898
 ht-degree: 94%
@@ -55,7 +55,7 @@ Mit [!DNL Journey Optimizer] können Sie Kanalkonfigurationen (z. B. Nachrichten
 >
 > * Um Kanalkonfigurationen zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die Berechtigung zur [Verwaltung von Nachrichtenvoreinstellungen](../administration/high-low-permissions.md#administration-permissions).
 >
-> * Bevor Sie Kanalkonfigurationen erstellen können, müssen Sie die Schritte zur [E-Mail-Konfiguration](../email/get-started-email-config.md), [Konfiguration von Push-Benachrichtigungen](../push/push-configuration.md), [SMS-Konfiguration](../sms/sms-configuration.md), [In-App-Konfiguration](../in-app/inapp-configuration.md), [Code-basierten Konfiguration](../code-based/code-based-configuration.md), [Web-Konfiguration](../web/web-configuration.md) und [Direkt-Mail-Konfiguration](../direct-mail/direct-mail-configuration.md) ausführen.
+> * Bevor Sie Kanalkonfigurationen erstellen können, müssen Sie die Schritte zur [E-Mail-Konfiguration](../email/get-started-email-config.md), [Konfiguration von Push-Benachrichtigungen](../push/push-configuration.md), [SMS-Konfiguration](../mobile/mobile-configuration.md), [In-App-Konfiguration](../in-app/inapp-configuration.md), [Code-basierten Konfiguration](../code-based/code-based-configuration.md), [Web-Konfiguration](../web/web-configuration.md) und [Direkt-Mail-Konfiguration](../direct-mail/direct-mail-configuration.md) ausführen.
 
 Sobald die Kanalkonfigurationen konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten in einer Journey oder einer Kampagne auswählen.
 

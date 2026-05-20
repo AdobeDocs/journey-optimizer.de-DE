@@ -27,7 +27,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1625
 ht-degree: 99%
@@ -145,13 +145,13 @@ Bevor Sie mit dem Generieren von Text mit dem KI-Assistenten für Mobile-Kanäle
 
 1. Erstellen und konfigurieren Sie die Mobile-Kampagne:
    * **Push-Benachrichtigungen:** Nachdem Sie Ihre Push-Benachrichtigungskampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../push/create-push.md)
-   * **SMS:** Nachdem Sie Ihre SMS-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../sms/create-sms.md)
+   * **SMS:** Nachdem Sie Ihre SMS-Kampagne erstellt und konfiguriert haben, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. [Weitere Informationen](../mobile/create-mobile-message.md)
 
 1. Füllen Sie die **[!UICONTROL grundlegenden Details]** für Ihre Kampagne aus. Klicken Sie abschließend auf **[!UICONTROL Inhalt bearbeiten]**.
 
 1. Personalisieren Sie Ihre Nachricht nach Bedarf:
    * **Push-Benachrichtigungen**: [Weitere Informationen](../push/design-push.md)
-   * **SMS**: [Weitere Informationen](../sms/create-sms.md)
+   * **SMS**: [Weitere Informationen](../mobile/create-mobile-message.md)
 
 1. Rufen Sie den KI-Assistenten auf:
    * **Für Push-Benachrichtigungen:** Klicken Sie neben dem Feld **[!UICONTROL Titel]** oder **[!UICONTROL Nachricht]** auf das Menü **[!UICONTROL Text mit KI-Assistent bearbeiten]**. Sie können auch direkt auf das Menü **KI-Assistent** zugreifen.

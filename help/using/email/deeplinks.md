@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: Deeplink, Deep-Link, universelle Links, App-Links, E-Mail, SMS
-source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Für E-Mail-Nachrichten haben Sie zwei Möglichkeiten, einen Deeplink einzufüge
 
 ### SMS {#authoring-sms}
 
-Für SMS werden Deeplinks mit der Hilfsfunktion **URL** im Personalisierungseditor erstellt. Weitere Informationen zum Hinzufügen von Links zu SMS-Inhalten finden Sie [&#x200B; diesem Abschnitt](../sms/create-sms.md#sms-content).
+Für SMS werden Deeplinks mit der Hilfsfunktion **URL** im Personalisierungseditor erstellt. Weitere Informationen zum Hinzufügen von Links zu SMS-Inhalten finden Sie [&#x200B; diesem Abschnitt](../mobile/create-mobile-message.md#sms-content).
 
 Verwenden Sie die folgende Syntax, um Deeplinks in SMS-Inhalte einzufügen:
 

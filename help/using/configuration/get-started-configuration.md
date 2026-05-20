@@ -33,7 +33,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 471
 ht-degree: 88%
@@ -56,8 +56,8 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../email/get-started-email-config.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a>
     <div align="center"><a href="../email/get-started-email-config.md"><strong>E-Mail</strong></a></div></td>
-    <td><a href="../sms/sms-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
-    <div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
+    <td><a href="../mobile/mobile-configuration.md"><img alt="sms" src="../channels/assets/do-not-localize/sms.png"></a>
+    <div align="center"><a href="../mobile/mobile-configuration.md"><strong>SMS</strong></a></div></td>
     <td><a href="../push/push-configuration.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
     <div align="center"><a href="../push/push-configuration.md"><strong>Push-Benachrichtigung</strong></a></div></td>
     <td><a href="../direct-mail/direct-mail-configuration.md"><img alt="Direkt-Mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
@@ -85,7 +85,7 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
 
 1. Je nach den verwendeten Kanälen, Umgebungen und Anforderungen müssen auch die folgenden Schritte ausgeführt werden:
 
-   * Nehmen sie Subdomain-Konfiguration und -Delegierung für Kanäle wie [E-Mails](about-subdomain-delegation.md), [SMS](../sms/sms-subdomains.md), [Landingpages](../landing-pages/lp-subdomains.md) und [Web-Erlebnisse](../web/web-delegated-subdomains.md) vor.
+   * Nehmen sie Subdomain-Konfiguration und -Delegierung für Kanäle wie [E-Mails](about-subdomain-delegation.md), [SMS](../mobile/mobile-subdomains.md), [Landingpages](../landing-pages/lp-subdomains.md) und [Web-Erlebnisse](../web/web-delegated-subdomains.md) vor.
 
    * Richten Sie IP-Aufwärmplänen für eine optimale Zustellbarkeit ein. [Weitere Informationen](ip-warmup-gs.md)
 

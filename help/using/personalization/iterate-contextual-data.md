@@ -33,7 +33,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 98%
@@ -46,7 +46,7 @@ Erfahren Sie, wie Sie mithilfe der Handlebars-Iterationssyntax dynamische Listen
 
 ## Überblick {#overview}
 
-Journey Optimizer bietet bei der [Nachrichtenpersonalisierung](personalize.md) Zugriff auf kontextuelle Daten aus mehreren Quellen. Sie können über Arrays aus diesen Quellen mithilfe der Handlebars-Syntax in nativen Kanälen ([E-Mail](../email/get-started-email-design.md), [Push](../push/create-push.md), [SMS](../sms/create-sms.md)) iterieren, um dynamische Inhalte wie Produktlisten, Empfehlungen oder andere sich wiederholende Elemente anzuzeigen.
+Journey Optimizer bietet bei der [Nachrichtenpersonalisierung](personalize.md) Zugriff auf kontextuelle Daten aus mehreren Quellen. Sie können über Arrays aus diesen Quellen mithilfe der Handlebars-Syntax in nativen Kanälen ([E-Mail](../email/get-started-email-design.md), [Push](../push/create-push.md), [SMS](../mobile/create-mobile-message.md)) iterieren, um dynamische Inhalte wie Produktlisten, Empfehlungen oder andere sich wiederholende Elemente anzuzeigen.
 
 **Verfügbare Kontextquellen:**
 
@@ -1072,4 +1072,4 @@ Verwenden Sie den [Journey-Testmodus](../building-journeys/testing-the-journey.m
 
 **Personalisierungs-Anwendungsfälle:** [E-Mail zu Warenkorbabbruch](personalization-use-case-helper-functions.md) | [Benachrichtigung zum Bestellstatus](personalization-use-case.md)
 
-**Nachrichten-Design:** [Erste Schritte beim E-Mail-Design](../email/get-started-email-design.md) | [Erstellen von Push-Benachrichtigungen](../push/create-push.md) | [Erstellen von SMS-Nachrichten](../sms/create-sms.md) | [Vorschau und Testen von Inhalten](../content-management/preview-test.md)
+**Nachrichten-Design:** [Erste Schritte beim E-Mail-Design](../email/get-started-email-design.md) | [Erstellen von Push-Benachrichtigungen](../push/create-push.md) | [Erstellen von SMS-Nachrichten](../mobile/create-mobile-message.md) | [Vorschau und Testen von Inhalten](../content-management/preview-test.md)

@@ -23,10 +23,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 771
-ht-degree: 11%
+source-wordcount: 853
+ht-degree: 10%
 
 ---
 
@@ -73,6 +73,16 @@ Nachdem Sie Ihrem Inhalt eine Entscheidungsrichtlinie hinzugefügt haben, könne
    >[!NOTE]
    >
    >Wenn Sie mehrere Entscheidungsrichtlinien in derselben E-Mail verwenden (z. B. eine für die Kopfzeile und eine für die Fußzeile), wird dasselbe Angebot für alle Platzierungen dedupliziert: es wird nicht zweimal gerendert. Die zweite Entscheidungsrichtlinie gibt keinen Inhalt zurück und zeigt eine Leerstelle an, es sei denn, Sie haben ein Fallback-Angebot konfiguriert. In diesem Fall wird stattdessen das Fallback angezeigt.
+
+Sie können den Entscheidungsrichtlinien-Code auch einfügen, wenn Sie den Modus **[!UICONTROL Eigenen Code erstellen]** in der E-Mail-Designer verwenden. Navigieren Sie zu **[!UICONTROL Entscheidungsrichtlinien]** und wählen Sie **[!UICONTROL Syntax einfügen]** - die Benutzeroberfläche für die Platzierungsauswahl wird angezeigt, damit Sie eine Platzierung direkt zuweisen können. [Erfahren Sie, wie Sie Ihren eigenen E-Mail-Inhalt codieren](../email/code-content.md).
+
+>[!AVAILABILITY]
+>
+>Das Einfügen von Entscheidungsrichtlinien im **[!UICONTROL Code your own]**-Modus ist nur eingeschränkt verfügbar.
+
+>[!NOTE]
+>
+>Im Modus **[!UICONTROL Eigenen Code erstellen]** kann pro Richtlinie nur ein Entscheidungselement zurückgegeben werden, da die Komponente **[!UICONTROL Raster wiederholen]** nicht verfügbar ist.
 
 >[!TAB SMS]
 

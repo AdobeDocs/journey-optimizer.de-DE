@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
-source-wordcount: '3326'
-ht-degree: 97%
+source-wordcount: '3318'
+ht-degree: 96%
 
 ---
 
@@ -339,23 +339,23 @@ ht-degree: 97%
          + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/push/push-configuration.md)
          + [Konfigurieren des Kanals für Web-Push-Benachrichtigungen](using/push/push-configuration-web.md)
          + [Schnellstart-Workflow für Mobile-Onboarding](using/push/mobile-onboarding-wf.md)
-   + SMS-/MMS-/RCS-Kanal {#sms}
-      + [SMS-/MMS-/RCS-Kanal](/help/rp_landing_pages/sms-landing-page.md)
-      + [Erste Schritte mit Textnachrichten](using/sms/get-started-sms.md)
-      + [Erstellen einer SMS-/MMS-/RCS-Nachricht](using/sms/create-sms.md)
-      + [Überprüfen und Senden Ihrer Textnachrichten](using/sms/send-sms.md)
-      + [Verwalten des Opt-outs von Textnachrichten](using/sms/sms-opt-out.md)
-      + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
-      + [Best Practices für Optimierung der SMS-Kosten](using/sms/sms-cost-optimization.md)
-      + Konfigurieren des SMS-/MMS-/RCS-Kanals {#configure-sms}
-         + [Erste Schritte bei der SMS-/MMS-/RCS-Konfiguration](using/sms/sms-configuration.md)
-         + [Konfigurieren des Sinch-Anbieters](using/sms/sms-configuration-sinch.md)
-         + [Konfigurieren des Infobip-Anbieters](using/sms/sms-configuration-infobip.md)
-         + [Konfigurieren des Twilio-Anbieters](using/sms/sms-configuration-twilio.md)
-         + [Konfigurieren eines benutzerdefinierten Anbieters](using/sms/sms-configuration-custom.md)
-         + [Erstellen eines Webhook](using/sms/sms-webhook.md)
-         + [Erstellen einer SMS/MMS/RCS-Konfiguration](using/sms/sms-configuration-surface.md)
-         + [Benutzerdefinierten Datensatz für eingehende Keywords verwenden](using/sms/custom-dataset-inbound-keywords.md)
+   + SMS-/MMS-/RCS-Kanal {#mobile}
+      + [Erste Schritte mit Mobile Messaging](using/mobile/get-started-mobile.md)
+      + [Erstellen einer Mobile-Nachricht](using/mobile/create-mobile-message.md)
+      + [Gestalten einer Mobile-Nachricht](using/mobile/design-mobile.md)
+      + [Mobiltelefon-Nachrichten überprüfen und senden](using/mobile/send-mobile-message.md)
+      + [Verwalten des Opt-outs für Mobile-Nachrichten](using/mobile/mobile-opt-out.md)
+      + [Einrichten von SMS-Subdomains](using/mobile/mobile-subdomains.md)
+      + [Best Practices für Optimierung der SMS-Kosten](using/mobile/mobile-cost-optimization.md)
+      + Mobile-Kanal konfigurieren {#configure-mobile}
+         + [Erste Schritte mit der Mobile-Konfiguration](using/mobile/mobile-configuration.md)
+         + [Konfigurieren des Sinch-Anbieters](using/mobile/mobile-configuration-sinch.md)
+         + [Konfigurieren des Infobip-Anbieters](using/mobile/mobile-configuration-infobip.md)
+         + [Konfigurieren des Twilio-Anbieters](using/mobile/mobile-configuration-twilio.md)
+         + [Konfigurieren eines benutzerdefinierten Anbieters](using/mobile/mobile-configuration-custom.md)
+         + [Erstellen eines Webhook](using/mobile/mobile-webhook.md)
+         + [Erstellen einer Mobile-Konfiguration](using/mobile/mobile-configuration-surface.md)
+         + [Benutzerdefinierten Datensatz für eingehende Keywords verwenden](using/mobile/custom-dataset-inbound-keywords.md)
    + Direkt-Mail {#direct-mail}
       + [Direkt-Mail](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [Erste Schritte mit Direkt-Mail](using/direct-mail/get-started-direct-mail.md)

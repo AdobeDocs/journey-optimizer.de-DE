@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 886
-ht-degree: 100%
+source-wordcount: 937
+ht-degree: 94%
 
 ---
 
@@ -110,6 +110,8 @@ Um dies zu bewerkstelligen, wurden die folgenden Aktivitäten hinzugefügt:
 * Eine Aktivität des Typs **[!UICONTROL Kombinieren]** gruppiert Kundinnen und Kunden mit einer E-Mail und Kundinnen und Kunden, die einen Kauf in der Höhe von mindestens 100 $ getätigt haben.
 * Eine Aktivität des Typs **[!UICONTROL Kombinieren]** schließt Kundinnen und Kunden mit weniger als 50 Treuepunkten aus.
 * Eine Aktivität des Typs **[!UICONTROL E-Mail-Versand]** sendet eine E-Mail an die resultierenden Kundinnen und Kunden.
+
+Wenn Sie das Ende einer Verzweigung erreichen, können Sie eine Aktivität **[!UICONTROL Ende]** hinzufügen, um den Abschluss auf der Arbeitsfläche zu markieren. Sie können diese Aktivität **[!UICONTROL Ende]** auch so konfigurieren, dass ein Signal an eine andere orchestrierte Kampagne gesendet wird, die auf **[!UICONTROL Ausgelöst durch ein Signal]** eingestellt ist, und Parameter in der Payload übergeben. [Weitere Informationen](trigger-orchestrated-campaign.md#signal-end).
 
 ## Nächste Schritte {#next}
 

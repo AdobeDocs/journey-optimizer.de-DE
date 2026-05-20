@@ -34,7 +34,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1076
 ht-degree: 100%
@@ -85,7 +85,7 @@ Führen Sie folgende Schritte aus:
 
    * Erstellen Sie **Kanalkonfigurationen**, um alle technischen Parameter zu konfigurieren, die für E-Mail, SMS, Push, In-App, Web und andere Kanäle erforderlich sind. [Weitere Informationen](../../configuration/channel-surfaces.md)
 
-   * Konfigurieren Sie den **SMS-Kanal**, um alle für SMS erforderlichen technischen Parameter einzurichten. [Weitere Informationen](../../sms/sms-configuration.md)
+   * Konfigurieren Sie den **SMS-Kanal**, um alle für SMS erforderlichen technischen Parameter einzurichten. [Weitere Informationen](../../mobile/mobile-configuration.md)
 
    * Verwalten Sie die Anzahl der Tage, in denen **weitere Zustellversuche** unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](../../configuration/manage-suppression-list.md)
 
