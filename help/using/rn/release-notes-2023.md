@@ -9,7 +9,7 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '4441'
 ht-degree: 99%
@@ -55,7 +55,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <td>
 <p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. Beachten Sie, dass diese Funktion derzeit nur mit Sinch verfügbar ist.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../sms/create-sms.md#mms-content">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../mobile/create-mobile-message.md#mms-content">ausführlichen Dokumentation</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -216,9 +216,9 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **SMS-Kanal**
 
-* Zwei neue Felder, **Opt-in-Nachricht** und **Hilfemeldung**, wurden zum API-Konfigurationsbildschirm hinzugefügt, sodass Benutzende Antworten für eingehende Keywords anpassen können. Beachten Sie, dass dies nur für den SMS-Anbieter Sinch verfügbar ist. [Weitere Informationen](../sms/sms-configuration.md)
+* Zwei neue Felder, **Opt-in-Nachricht** und **Hilfemeldung**, wurden zum API-Konfigurationsbildschirm hinzugefügt, sodass Benutzende Antworten für eingehende Keywords anpassen können. Beachten Sie, dass dies nur für den SMS-Anbieter Sinch verfügbar ist. [Weitere Informationen](../mobile/mobile-configuration.md)
 
-* Das Opt-out von SMS wird nicht mehr auf Kanalebene verwaltet. Es ist jetzt nummernspezifisch, d. h. wenn Profile sich von einer bestimmten Nummer oder Kurzwahlnummer abmelden, können Sie ihnen weiterhin Nachrichten von anderen Nummern senden, die Sie möglicherweise zum Versand von SMS-Nachrichten verwenden. Eine neue Option ermöglicht die Auswahl der **Opt-out-Nummer**, die Sie für eine bestimmte Oberfläche verwenden. [Weitere Informationen](../sms/sms-configuration.md)
+* Das Opt-out von SMS wird nicht mehr auf Kanalebene verwaltet. Es ist jetzt nummernspezifisch, d. h. wenn Profile sich von einer bestimmten Nummer oder Kurzwahlnummer abmelden, können Sie ihnen weiterhin Nachrichten von anderen Nummern senden, die Sie möglicherweise zum Versand von SMS-Nachrichten verwenden. Eine neue Option ermöglicht die Auswahl der **Opt-out-Nummer**, die Sie für eine bestimmte Oberfläche verwenden. [Weitere Informationen](../mobile/mobile-configuration.md)
 
 **Briefpost-Kanal**
 
@@ -624,8 +624,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **SMS-Kanal**
 
-* Beim Einrichten Ihrer SMS-Kanalkonfiguration wurde Infobip als Anbieterfirma hinzugefügt. [Weitere Informationen](../sms/sms-configuration.md)
-* Twillio – Die Einrichtung von API-Anmeldedaten bietet jetzt die Möglichkeit, die Messaging-Service-SID für eine nahtlose Integration in Ihr Twillio-Konto hinzuzufügen. [Weitere Informationen](../sms/sms-configuration.md)
+* Beim Einrichten Ihrer SMS-Kanalkonfiguration wurde Infobip als Anbieterfirma hinzugefügt. [Weitere Informationen](../mobile/mobile-configuration.md)
+* Twillio – Die Einrichtung von API-Anmeldedaten bietet jetzt die Möglichkeit, die Messaging-Service-SID für eine nahtlose Integration in Ihr Twillio-Konto hinzuzufügen. [Weitere Informationen](../mobile/mobile-configuration.md)
 
 **In-App-Kanal**
 
@@ -727,7 +727,7 @@ Information below is subject to change without prior notice until the release av
 * Auf der Journey-Arbeitsfläche wird nun die Aktivitäts-ID für Nachrichtenaktivitäten und End-Tags angezeigt. Dies verbessert das Reporting und die erneute Zielgruppenbestimmung.
 * Das Layout des Konfigurationsbereichs, der in Aktionen, Datenquellen, Ereignissen und Journeys angezeigt wird, wurde verbessert.
 * Neue Erkenntnisse zur Anzahl der Knoten auf der Arbeitsfläche mit Sicherheitsvorkehrungen zur Unterstützung des Wachstums: Halten Sie Journeys leserfreundlich und führen Sie Qualitätssicherung und Fehlerbehebung mit einer maximalen Anzahl von 50 Knoten pro Journey durch. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
-* Beim Hinzufügen einer [E-Mail](../email/create-email.md)-, [SMS](../sms/create-sms.md)- oder [Push](../push/create-push.md)-Aktion zu einer Journey ist die Oberfläche in der aktuellen Journey jetzt standardmäßig mit der zuletzt verwendeten Oberfläche für diesen Kanal vorausgefüllt.
+* Beim Hinzufügen einer [E-Mail](../email/create-email.md)-, [SMS](../mobile/create-mobile-message.md)- oder [Push](../push/create-push.md)-Aktion zu einer Journey ist die Oberfläche in der aktuellen Journey jetzt standardmäßig mit der zuletzt verwendeten Oberfläche für diesen Kanal vorausgefüllt.
 * Sie können jetzt in Ihren benutzerdefinierten Aktionen statische oder dynamische Abfrageparameter definieren. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
 
 **Reporting**
@@ -771,7 +771,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>Mit dem Klick-Tracking für SMS können Sie die Leistung Ihrer gekürzten URLs überwachen, feststellen, wer auf sie geklickt hat, und diese Daten verwenden, um Kundinnen und Kunden mit nachfolgenden Kampagnen erneut anzusprechen.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../sms/create-sms.md#sms-content">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../mobile/create-mobile-message.md#sms-content">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>

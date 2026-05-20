@@ -10,30 +10,13 @@ level: Intermediate
 keywords: Ausdruck, Editor, Handlebars, Iteration, Arrays, Kontext, Personalisierung
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 98%
@@ -46,7 +29,7 @@ Erfahren Sie, wie Sie mithilfe der Handlebars-Iterationssyntax dynamische Listen
 
 ## Überblick {#overview}
 
-Journey Optimizer bietet bei der [Nachrichtenpersonalisierung](personalize.md) Zugriff auf kontextuelle Daten aus mehreren Quellen. Sie können über Arrays aus diesen Quellen mithilfe der Handlebars-Syntax in nativen Kanälen ([E-Mail](../email/get-started-email-design.md), [Push](../push/create-push.md), [SMS](../sms/create-sms.md)) iterieren, um dynamische Inhalte wie Produktlisten, Empfehlungen oder andere sich wiederholende Elemente anzuzeigen.
+Journey Optimizer bietet bei der [Nachrichtenpersonalisierung](personalize.md) Zugriff auf kontextuelle Daten aus mehreren Quellen. Sie können über Arrays aus diesen Quellen mithilfe der Handlebars-Syntax in nativen Kanälen ([E-Mail](../email/get-started-email-design.md), [Push](../push/create-push.md), [SMS](../mobile/create-mobile-message.md)) iterieren, um dynamische Inhalte wie Produktlisten, Empfehlungen oder andere sich wiederholende Elemente anzuzeigen.
 
 **Verfügbare Kontextquellen:**
 
@@ -982,7 +965,7 @@ Handlebars bieten spezielle Variablen in Schleifen, die bei erweiterten Iteratio
 
 >[!NOTE]
 >
->Diese Handlebars-Variablen (`@index`, `@first`, `@last`) sind nur in `{{#each}}`-Schleifen bei der Nachrichtenpersonalisierung verfügbar. Verwenden Sie zum Arbeiten mit Arrays in Journey-Ausdrücken (z. B. Abrufen des ersten Elements aus einem Array vor der Übergabe an eine benutzerdefinierte Aktion) Array-Funktionen wie [`head`](../personalization/functions/arrays-list.md#head), [`first`](../building-journeys/expression/collection-management-functions.md) oder [`all`](../building-journeys/expression/collection-management-functions.md). Weitere Informationen finden Sie unter [&#x200B; Arbeiten mit Arrays in Journey-Ausdrücken](#arrays-in-journeys).
+>Diese Handlebars-Variablen (`@index`, `@first`, `@last`) sind nur in `{{#each}}`-Schleifen bei der Nachrichtenpersonalisierung verfügbar. Verwenden Sie zum Arbeiten mit Arrays in Journey-Ausdrücken (z. B. Abrufen des ersten Elements aus einem Array vor der Übergabe an eine benutzerdefinierte Aktion) Array-Funktionen wie [`head`](../personalization/functions/arrays-list.md#head), [`first`](../building-journeys/expression/collection-management-functions.md) oder [`all`](../building-journeys/expression/collection-management-functions.md). Weitere Informationen finden Sie unter [ Arbeiten mit Arrays in Journey-Ausdrücken](#arrays-in-journeys).
 
 ## Fehlerbehebung {#troubleshooting}
 
@@ -1072,4 +1055,4 @@ Verwenden Sie den [Journey-Testmodus](../building-journeys/testing-the-journey.m
 
 **Personalisierungs-Anwendungsfälle:** [E-Mail zu Warenkorbabbruch](personalization-use-case-helper-functions.md) | [Benachrichtigung zum Bestellstatus](personalization-use-case.md)
 
-**Nachrichten-Design:** [Erste Schritte beim E-Mail-Design](../email/get-started-email-design.md) | [Erstellen von Push-Benachrichtigungen](../push/create-push.md) | [Erstellen von SMS-Nachrichten](../sms/create-sms.md) | [Vorschau und Testen von Inhalten](../content-management/preview-test.md)
+**Nachrichten-Design:** [Erste Schritte beim E-Mail-Design](../email/get-started-email-design.md) | [Erstellen von Push-Benachrichtigungen](../push/create-push.md) | [Erstellen von SMS-Nachrichten](../mobile/create-mobile-message.md) | [Vorschau und Testen von Inhalten](../content-management/preview-test.md)

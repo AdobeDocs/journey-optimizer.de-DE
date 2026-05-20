@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '9308'
 ht-degree: 99%
@@ -587,7 +587,7 @@ You can now use AI models to optimize the best content in your email through the
   Verfügbarkeitsdatum: 29. September 2025
 
 * **mTLS-Unterstützung für SMS-Kanal**
-Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Möglichkeit, die gegenseitige TLS-Authentifizierung (mTLS) zu aktivieren. Dazu müssen sowohl der Client als auch der Server die Identität des jeweils anderen bestätigen, bevor eine sichere Verbindung hergestellt wird. [Mehr zum Thema](../sms/sms-configuration-custom.md) – Verfügbarkeitsdatum: 23. September 2025
+Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Möglichkeit, die gegenseitige TLS-Authentifizierung (mTLS) zu aktivieren. Dazu müssen sowohl der Client als auch der Server die Identität des jeweils anderen bestätigen, bevor eine sichere Verbindung hergestellt wird. [Mehr zum Thema](../mobile/mobile-configuration-custom.md) – Verfügbarkeitsdatum: 23. September 2025
 
 * **Relationale Schemata**\
   Relationale Schemata können jetzt verwendet werden, um in orchestrierten Kampagnen Ihre Anforderungen an relationale Modellierung zu unterstützen. [Mehr zum Thema](../orchestrated/gs-schemas.md) – Verfügbarkeitsdatum: 23. September 2025
@@ -620,13 +620,13 @@ Beim Einrichten eines benutzerdefinierten SMS-Anbieters haben Sie jetzt die Mög
 
 * **Webhooks**: Diese Version führt die folgenden Verbesserungen für Webhooks beim Konfigurieren eines benutzerdefinierten SMS-Anbieters ein:
 
-   * Sie können jetzt den Zweck Ihres Webhooks definieren, je nach dem Typ der Daten, die Sie erfassen möchten. Das kann entweder „Eingehend“ oder „Feedback“ sein. [Mehr zum Thema](../sms/sms-configuration-custom.md#webhook): Verfügbarkeitsdatum: 23. September 2025
+   * Sie können jetzt den Zweck Ihres Webhooks definieren, je nach dem Typ der Daten, die Sie erfassen möchten. Das kann entweder „Eingehend“ oder „Feedback“ sein. [Mehr zum Thema](../mobile/mobile-configuration-custom.md#webhook): Verfügbarkeitsdatum: 23. September 2025
 
-   * Die Oberfläche zur Konfiguration von Keywords wurde verbessert, um die Einrichtung zu vereinfachen. [Mehr zum Thema](../sms/sms-configuration-custom.md#webhook): Verfügbarkeitsdatum: 23. September 2025
+   * Die Oberfläche zur Konfiguration von Keywords wurde verbessert, um die Einrichtung zu vereinfachen. [Mehr zum Thema](../mobile/mobile-configuration-custom.md#webhook): Verfügbarkeitsdatum: 23. September 2025
 
 * **SMS**
 
-   * Beim Einrichten eines benutzerdefinierten SMS-Anbieters können Sie jetzt ein **Standard**-Keyword definieren, das verwendet wird, wenn eine eingehende SMS ein nicht erkanntes Keyword enthält. Sie können auch **benutzerdefinierte** Keywords für bestimmte Aktionen erstellen. [Mehr zum Thema](../sms/sms-configuration-custom.md): Verfügbarkeitsdatum: 23. September 2025
+   * Beim Einrichten eines benutzerdefinierten SMS-Anbieters können Sie jetzt ein **Standard**-Keyword definieren, das verwendet wird, wenn eine eingehende SMS ein nicht erkanntes Keyword enthält. Sie können auch **benutzerdefinierte** Keywords für bestimmte Aktionen erstellen. [Mehr zum Thema](../mobile/mobile-configuration-custom.md): Verfügbarkeitsdatum: 23. September 2025
 
    * Sie können jetzt auf undefinierte eingehende Keyword-Antworten zugreifen, die über eine SMS-Nachricht gesendet werden, einschließlich Tippfehlern, Wörtern oder Sätzen, die in der Konfiguration nicht explizit definiert sind. Sie werden im Datensatz **AJO Email Tracking Experience Event** unter **InboundMessage** für 13 Monate gespeichert. Nur bei Sinch, Infobip und benutzerdefinierten SMS-Anbietern verfügbar. – Verfügbarkeitsdatum: 23. September 2025
 
@@ -858,13 +858,13 @@ Im Folgenden sind die Verbesserungen dieser Version aufgeführt.
 
 * **Kanal – SMS**
 
-   * **Unpräzises Opt-out**: Wenn diese Option aktiviert ist, erkennt das **unpräzise Opt-out** eingehende Nachrichten, die definierten Opt-out-Schlüsselwörtern sehr ähnlich sind (z. B. „CANCIL“), und sendet automatisch eine Bestätigungsantwort, um die Abmeldeabsicht der Benutzenden zu überprüfen. Wenn die Benutzenden über den definierter Prompt bestätigen, wird das Abonnement gekündigt. [Weitere Informationen](../sms/sms-configuration-sinch.md)
+   * **Unpräzises Opt-out**: Wenn diese Option aktiviert ist, erkennt das **unpräzise Opt-out** eingehende Nachrichten, die definierten Opt-out-Schlüsselwörtern sehr ähnlich sind (z. B. „CANCIL“), und sendet automatisch eine Bestätigungsantwort, um die Abmeldeabsicht der Benutzenden zu überprüfen. Wenn die Benutzenden über den definierter Prompt bestätigen, wird das Abonnement gekündigt. [Weitere Informationen](../mobile/mobile-configuration-sinch.md)
 
      >[!NOTE]
      >
      >Beachten Sie, dass **Unpräzises Opt-out** nur mit Sinch und Infobip verfügbar ist.
 
-   * **SMS-Verbindung überprüfen** – Sie können nun Ihre SMS-API-Anmeldedaten ganz einfach in Adobe Journey Optimizer testen und überprüfen, indem Sie eine Beispielnachricht an ein bestimmtes Gerät senden. [Weitere Informationen](../sms/sms-configuration-sinch.md)
+   * **SMS-Verbindung überprüfen** – Sie können nun Ihre SMS-API-Anmeldedaten ganz einfach in Adobe Journey Optimizer testen und überprüfen, indem Sie eine Beispielnachricht an ein bestimmtes Gerät senden. [Weitere Informationen](../mobile/mobile-configuration-sinch.md)
 
 * **Konfiguration**
 
@@ -1155,7 +1155,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <tr>
 <td>
 <p>Sie können jetzt über einen Drittanbieter Nachrichten vom Typ Rich Communication Services (RCS) konfigurieren, anpassen und bereitstellen, indem Sie eine Integration mit einer benutzerdefinierten SMS-Anbieterlösung vornehmen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../sms/sms-configuration-custom.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../mobile/mobile-configuration-custom.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -1474,7 +1474,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tr>
 <td>
 <p>Mit Journey Optimizer können Sie nun zusätzliche SMS-Anbieter neben den Standardoptionen Sinch, Infobip und Twilio konfigurieren. Durch die Konfiguration benutzerdefinierter SMS-Anbieter können Sie Drittanbieter direkt integrieren, die erweiterte Payload-Anpassung für dynamisches Messaging nutzen und Einverständnisvoreinstellungen (Opt-in/Opt-out) verwalten, um Compliance sicherzustellen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../sms/sms-configuration-custom.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../mobile/mobile-configuration-custom.md">ausführlichen Dokumentation</a>.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Verfügbarkeitsdatum: 20. Mai 2025</p>
 </td>
@@ -1671,7 +1671,7 @@ table>
 <tr>
 <td>
 <p>Adobe Journey Optimizer now supports custom SMS providers, allowing you to integrate your preferred SMS services for enhanced communication flexibility.</p>
-<p>For more information, refer to the <a href="../sms/sms-configuration-custom.md">detailed documentation</a>.</p></td>
+<p>For more information, refer to the <a href="../mobile/mobile-configuration-custom.md">detailed documentation</a>.</p></td>
 </tr>
 </tbody>
 -->
@@ -2193,7 +2193,7 @@ Die folgenden Verbesserungen werden mit dem Februar-Update vorgenommen.
 
 * **Briefpost**: Ein neuer Server-Typ, Data Landing Zone, wird jetzt für das Datei-Routing in der Konfiguration des Direkt-Mail-Kanals unterstützt. [Weitere Informationen](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
-* **SMS**: Sie können jetzt den SMS-Nachrichtenversand über multiregionale Endpunkte verwalten, indem Sie Versand-, Feedback- und Callback-URLs sowie URLs eingehender Nachrichten überschreiben. Um dies zu unterstützen, wurde zur Konfiguration der API-Anmeldedaten das neue Feld „Überschreibungs-URL“ hinzugefügt. Diese Änderung ist nur beim Anbieter Sinch verfügbar. [Weitere Informationen](../sms/sms-configuration-sinch.md)
+* **SMS**: Sie können jetzt den SMS-Nachrichtenversand über multiregionale Endpunkte verwalten, indem Sie Versand-, Feedback- und Callback-URLs sowie URLs eingehender Nachrichten überschreiben. Um dies zu unterstützen, wurde zur Konfiguration der API-Anmeldedaten das neue Feld „Überschreibungs-URL“ hinzugefügt. Diese Änderung ist nur beim Anbieter Sinch verfügbar. [Weitere Informationen](../mobile/mobile-configuration-sinch.md)
 
 * **Personalisierung** (Verfügbarkeitsdatum: 29. Januar 2025): Es stehen neue Hilfsfunktionen für Datum/Uhrzeit zur Verwendung im Personalisierungseditor zur Verfügung. [Weitere Informationen](../personalization/functions/dates.md)
 

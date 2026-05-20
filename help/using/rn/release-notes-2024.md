@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '6916'
 ht-degree: 99%
@@ -277,7 +277,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **SMS-Kanal**
 
-* Sie können nun eine SMS-API-Kanalkonfiguration bearbeiten oder löschen. [Weitere Informationen](../sms/sms-configuration.md)
+* Sie können nun eine SMS-API-Kanalkonfiguration bearbeiten oder löschen. [Weitere Informationen](../mobile/mobile-configuration.md)
 
 * Die folgenden Verbesserungen wurden eingeführt, um Ihre SMS-Nachrichtenfunktionen mit Infobip und Sinch zu verbessern:
 
@@ -285,7 +285,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
    * Sie können eine standardmäßige SMS-Nachricht erstellen und senden, wenn ein Keyword nicht erkannt wird.
 
-  Weitere Informationen zu diesen Verbesserungen finden Sie in der Dokumentation zur SMS-Konfiguration für [Infobip](../sms/sms-configuration-infobip.md) und [Sinch](../sms/sms-configuration-sinch.md).
+  Weitere Informationen zu diesen Verbesserungen finden Sie in der Dokumentation zur SMS-Konfiguration für [Infobip](../mobile/mobile-configuration-infobip.md) und [Sinch](../mobile/mobile-configuration-sinch.md).
 
 
 <!--**Journeys**-->
@@ -674,7 +674,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <td>
 <p>Zusätzlich zu den Standardanbietern Sinch, Infobip und Twilio können Sie jetzt weitere SMS-Anbieter in Journey Optimizer konfigurieren.</p>
 <img src="assets/do-not-localize/byo_sms.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../sms/sms-configuration-custom.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../mobile/mobile-configuration-custom.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -864,7 +864,7 @@ Weitere Informationen finden Sie in der Dokumentation zu [Inhaltsfragmenten](../
 
 #### SMS-Kanal
 
-* Sie können jetzt mit einer einzigen API-Konfiguration eindeutige Kurzwahlnummern für jede Sandbox hinzufügen, was den Prozess effizienter und einfacher macht. [Weitere Informationen](../sms/sms-configuration.md)
+* Sie können jetzt mit einer einzigen API-Konfiguration eindeutige Kurzwahlnummern für jede Sandbox hinzufügen, was den Prozess effizienter und einfacher macht. [Weitere Informationen](../mobile/mobile-configuration.md)
 
 * Nach der Erstellung wird das Feld **API-Token** auf der Seite **Details zu API-Anmeldedaten** jetzt maskiert.
 
@@ -1272,7 +1272,7 @@ Die folgenden Verbesserungen, die bisher als Beta-Version verfügbar waren, steh
 
 **SMS-Kanal**
 
-* **Opt-in/Opt-out-Keywords**: Bei der Konfiguration Ihres SMS-Kanals können Sie jetzt die **Opt-in- und Opt-out-Keywords** nach Ihren Wünschen anpassen. Journey Optimizer löst die Antwort anhand dieser angegebenen Keywords aus. [Weitere Informationen](../sms/sms-configuration.md)
+* **Opt-in/Opt-out-Keywords**: Bei der Konfiguration Ihres SMS-Kanals können Sie jetzt die **Opt-in- und Opt-out-Keywords** nach Ihren Wünschen anpassen. Journey Optimizer löst die Antwort anhand dieser angegebenen Keywords aus. [Weitere Informationen](../mobile/mobile-configuration.md)
 
 **Kampagnen**
 
@@ -1340,7 +1340,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **SMS-Kanal**
 
-* **Double-Opt-in** – Der Workflow „Double-Opt-in“ für SMS garantiert, dass Benutzende sich explizit für den Empfang von Nachrichten anmelden, wenn die Anfrage von ihrem Gerät aus initiiert wird. Benutzende starten den Einverständnisprozess durch Senden einer eingehenden SMS. Nach der Bestätigung des Einverständnisses wird eine Folgenachricht gesendet, in der eine letzte Überprüfung angefordert wird. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. [Weitere Informationen](../sms/sms-configuration.md)
+* **Double-Opt-in** – Der Workflow „Double-Opt-in“ für SMS garantiert, dass Benutzende sich explizit für den Empfang von Nachrichten anmelden, wenn die Anfrage von ihrem Gerät aus initiiert wird. Benutzende starten den Einverständnisprozess durch Senden einer eingehenden SMS. Nach der Bestätigung des Einverständnisses wird eine Folgenachricht gesendet, in der eine letzte Überprüfung angefordert wird. Wenn kein Benutzerprofil vorhanden ist, wird es nach erfolgreicher Bestätigung erstellt. [Weitere Informationen](../mobile/mobile-configuration.md)
 
   Hinweis: Diese Funktion ist bei Sinch- und Infobip-SMS-Anbietern verfügbar.
 
