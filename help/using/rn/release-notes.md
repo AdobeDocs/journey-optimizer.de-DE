@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4e836dc988654ef5d529e4583e06592fb2e168a6
+source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
 workflow-type: tm+mt
-source-wordcount: 1810
-ht-degree: 32%
+source-wordcount: 1922
+ht-degree: 31%
 
 ---
 
@@ -67,8 +67,13 @@ Die folgenden Funktionen wurden im Mai 2026 veröffentlicht.
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer verwendet jetzt den <strong>Content Advisor-Selektor</strong>, ein einheitliches Modal zur Auswahl von Experience Manager Assets und Inhaltsfragmenten. Der neue Selektor unterstützt das Durchsuchen, Suchen und Filtern aller Assets, enthält Dynamic Media-Ausgabedarstellungen und verfügt über erweiterte Benutzeroberflächenfunktionen, mit denen Sie bei der Verwendung dynamischer Assets einfach Bildausgabedarstellungen hinzufügen können.</p>
-<p>Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p>Journey Optimizer verwendet jetzt den <strong>Content Advisor-Selektor</strong>, ein einheitliches Modal zur Auswahl von Experience Manager Assets und Inhaltsfragmenten. Der neue Selektor umfasst:</p>
+<ul>
+<li><strong>Durchsuchen, Suchen und Filtern</strong> aller Assets und Fragmente.</li>
+<li><strong>KI-Semantische Suche</strong> Beschreiben Sie, was Sie im Klartext benötigen, z. B. „Kaffee in den Bergen“, um kontextuell relevante Assets basierend auf Bedeutung und Inhalt zu präsentieren, nicht nur Textübereinstimmungen. Mehrsprachige Abfragen werden ebenfalls unterstützt.</li>
+<li><strong>Kurzer Upload</strong>: Laden Sie eine Marketing-Zusammenfassung hoch, um automatisch Assets zu präsentieren, die basierend auf ihrem Inhalt und ihren Anforderungen an Ihren Kampagnenkontext angepasst sind.</li>
+<li><strong>Dynamic Media-Ausgabedarstellungen</strong>: Wählen Sie Bildausgabeformate für dynamische Assets aus und wenden Sie sie an, ohne die Auswahl verlassen zu müssen.</li>
+</ul>
 <p>Weitere Informationen finden Sie in der <a href="../integrations/aem-content-advisor.md">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 19. Mai 2026</p>
 </td>
@@ -253,6 +258,24 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 <p>Journey, die nicht wiederkehrend <strong>Zielgruppe lesen</strong> sind, wechseln jetzt automatisch in den <strong>Stopped</strong>-Status, sobald das letzte aktive Profil beendet wurde. Zuvor blieben diese Journey-<strong> bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit </strong>Live), selbst wenn keine Profile mehr durch sie hindurch strömten. Mit dieser Verbesserung spiegelt der Journey-Status den tatsächlichen Ausführungsstatus nach Abschluss wider, sodass der Journey-Bestand ohne manuelles Eingreifen stets korrekt ist.</p>
 <p>Beachten Sie, dass dieses Verhalten nicht für Journey gilt, die Knoten enthalten, die Wartezeiten verursachen, z. B. Warteknoten, Reaktionsknoten oder ereignisausgelöste Transitionen. Diese Journey unterliegen weiterhin der standardmäßigen globalen 91-Tage-Zeitüberschreitung.</p>
 <p>Verfügbarkeitsdatum: 21. Mai 2026</p>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Unterstützung von Entscheidungen im Briefpost-Kanal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Entscheidungsrichtlinien zu Briefpost-Journey und -Kampagnen hinzufügen. Entscheidungsrichtlinien sind Container für Ihre Angebote, die die Decisioning-Engine nutzen, um dynamisch den besten Inhalt für jedes Zielgruppenmitglied zurückzugeben. Die Briefpost-Entscheidungsfindung unterstützt auch Anwendungsfälle für Batch-Entscheidungen, mit denen Sie die entsprechenden Angebotselemente für jedes Profil in einer bestimmten Adobe Experience Platform-Zielgruppe exportieren können.</p>
+<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
+<p>Verfügbarkeitsdatum: 21. Mai 2026</p>
+</td>
 </tr>
 </tbody>
 </table>
