@@ -30,9 +30,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a6f276fe4d372a31b72429d50725cde64ff81c6
+source-git-commit: 8098b219288d19fd3ed1c0350af34366c4efdeb2
 workflow-type: tm+mt
-source-wordcount: 2084
+source-wordcount: 2112
 ht-degree: 30%
 
 ---
@@ -232,6 +232,10 @@ Im Mai 2026 wurden auch die folgenden Verbesserungen veröffentlicht.
   Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
   Verfügbarkeitsdatum: 20. Mai 2026
+
+#### Integrationen
+
+* **Organisationsübergreifender Repository-Zugriff im Assets-Selektor** - Sie können jetzt Assets aus Repositorys über mehrere Organisationen hinweg direkt im Adobe Experience Manager-Asset-Selektor auswählen.
 
 #### SMS
 
