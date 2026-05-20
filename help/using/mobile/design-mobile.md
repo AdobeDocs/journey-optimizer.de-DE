@@ -7,7 +7,7 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 30%
@@ -127,7 +127,7 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
 
    ![](assets/sms-content.png)
 
-1. Erstellen Sie mit dem [KI-Assistenten für die Textgenerierung) ansprechende mobile Nachrichten, die auf Ihre Zielgruppe zugeschnitten &#x200B;](../content-management/generative-text.md).
+1. Erstellen Sie mit dem [KI-Assistenten für die Textgenerierung) ansprechende mobile Nachrichten, die auf Ihre Zielgruppe zugeschnitten ](../content-management/generative-text.md).
 
 1. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren und Personalisierung sowie dynamischen Inhalt hinzuzufügen. Sie können jedes Attribut verwenden, wie etwa Profilname oder Stadt. Sie können auch bedingte Regeln definieren. Auf den folgenden Seiten erfahren Sie mehr über [Personalisierung](../personalization/personalize.md) und [dynamische Inhalte](../personalization/get-started-dynamic-content.md) im Personalisierungseditor.
 
