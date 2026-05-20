@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '843'
 ht-degree: 15%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 15%
 * [Herausforderungen schaffen](create-challenges.md)
 * [Aufgaben erstellen](create-tasks.md)
 * [Überwachen der Leistung beim Treueprogramm](loyalty-reporting.md)
+<!-- * [Configure the loyalty program](loyalty-admin.md) -->
 * [API-Referenz für Herausforderungen im Treueprogramm](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -74,6 +75,8 @@ Sie können die folgenden Arten von Challenge-Erlebnissen erstellen:
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
 
+<!-- 1. **Configure the loyalty program** (administrators) - Set up your Adobe Experience Platform namespace, reward providers, and optionally event definitions and product inventory so rewards can be fulfilled when customers complete challenges. [Learn how to configure the loyalty program](loyalty-admin.md). -->
+
 1. **Herausforderung erstellen** - Definiert die grundlegenden Challenge-Eigenschaften, einschließlich Name, Typ (Standard, Streak, Sequential oder Bring Your Own Data, falls verfügbar) und Datumsbereich. [Erfahren Sie, wie Sie einen Challenge-Typ &#x200B;](create-challenges.md#create-the-challenge).
 
 1. **Aufgaben hinzufügen** - Definiert die spezifischen Aktionen, die Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben), Mengen, Produktfiltern und Belohnungen.
@@ -118,6 +121,18 @@ Um Herausforderungen im Zusammenhang mit der Treue nutzen zu können, benötigen
 Wenden Sie sich an Ihren Administrator, wenn Sie die Funktion nicht nutzen können oder zusätzliche Berechtigungen benötigen.
 
 +++
+
+<!--
+
++++Configure the loyalty program (administrators)
+
+To configure **[!UICONTROL Loyalty Admin]** (reward providers, event definitions, and global settings), you need administrator access to your Journey Optimizer organization. Marketers who only create challenges do not need access to this area. [Learn how to configure the loyalty program](loyalty-admin.md).
+
+Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in the left navigation.
+
++++
+
+-->
 
 +++Zielgruppe
 
@@ -175,6 +190,21 @@ Jetzt, da Sie wissen, was Herausforderungen im Zusammenhang mit der Treue sind u
     <em>Verfolgen Sie Programm-KPIs, Challenge-Ergebnisse und Aufgabenmetriken mit integrierten Dashboards</em>
     </p>
   </td>
+  &lt;!--
+
+<td>
+    <a href="loyalty-admin.md">
+      <img alt="Konfiguration" src="assets/do-not-localize/icon-access.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-admin.md"><strong>Konfigurieren des Treueprogramms</strong></a>
+    </div>
+    <p>
+    <em>Richten Sie Belohnungsanbieter, Ereignisdefinitionen und Organisationseinstellungen für die Erfüllung ein</em>
+    </p>
+  </td>
+
+-->
 </tr>
 </table>
 
