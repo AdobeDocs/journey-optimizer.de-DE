@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 94%
+source-wordcount: '1511'
+ht-degree: 93%
 
 ---
 
@@ -96,15 +96,13 @@ Nachdem Sie Bildvarianten generiert haben, können Sie die Ergebnisse anzeigen, 
    * Mit **[!UICONTROL Ähnliche generieren]** können Sie verwandte Bilder für diese Variante anzeigen.
    * Mit **[!UICONTROL In Adobe Express bearbeiten]** können Sie Ihr Asset weiter anpassen.
 
-[Weitere Informationen zur Adobe Express-Integration](../integrations/express.md)
+     [Weitere Informationen zur Adobe Express-Integration](../integrations/express.md)
 
    * Mit **[!UICONTROL Speichern]** können Sie die Assets für den späteren Zugriff speichern.
 
      ![Optionen zur Verfeinerung mit verfügbaren Aktionen](assets/image-genai-5.png){zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
-
-   Sie können auch ein Experiment für Ihren Inhalt aktivieren. [Weitere Informationen](generative-experimentation.md)
 
 1. Klicken Sie nach dem Definieren des Nachrichteninhalts auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendern zu kontrollieren und die Personalisierungseinstellungen mit Testprofilen zu überprüfen. [Weitere Informationen](../personalization/personalize.md)
 
@@ -162,7 +160,7 @@ Nachdem Sie auf den KI-Assistenten zugegriffen haben, können Sie die Generierun
 
    Zuvor hochgeladene Dateien sind in der Dropdown-Liste **[!UICONTROL Hochgeladener Referenzinhalt]** verfügbar. Wählen Sie einfach die Assets aus, die bei der Generierung berücksichtigt werden sollen.
 
-1. Wenn das Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
+1. Wenn der Prompt fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
 ### Verfeinern und Fertigstellen {#mobile-refine-finalize}
 
@@ -181,7 +179,5 @@ Nachdem Sie Bildvarianten für Ihre Push-Benachrichtigungen generiert haben, kö
 1. Öffnen Sie die Registerkarte **[!UICONTROL Markenausrichtung]**, um zu sehen, wie gut Ihr Inhalt mit Ihren [Markenrichtlinien](brands.md) abgestimmt ist.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**, sobald Sie den passenden Inhalt gefunden haben.
-
-   Sie können auch ein Experiment für Ihren Inhalt aktivieren. [Weitere Informationen](generative-experimentation.md)
 
 Wenn Sie Inhalt, Zielgruppe und Zeitplan definiert haben, können Sie Ihre Push-Benachrichtigungs-Kampagne vorbereiten. [Weitere Informationen](../campaigns/review-activate-campaign.md)
