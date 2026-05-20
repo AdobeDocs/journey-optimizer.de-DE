@@ -7,12 +7,11 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: d8fca628ab6f521f868ce26345126cc4245588a5
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 7%
+source-wordcount: 578
+ht-degree: 9%
 
 ---
 
@@ -119,23 +118,7 @@ Diese Version umfasst die folgenden Funktionen.
 </table>
 -->
 
-<table>
-<thead>
-<tr>
-<th><strong>KI-Assistent für Journey-Ausdrücke</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Der KI-Assistent arbeitet jetzt im erweiterten Ausdruckseditor von Journey, um Eingabeaufforderungen in natürliche Sprachen in gültige Ausdrücke und Bedingungslogik zu konvertieren. Beschreiben Sie den Ausdruck, den Sie erstellen möchten, und der KI-Assistent generiert einsatzbereiten Code, den Sie sofort anwenden oder durch Folgeaufforderungen verfeinern können.</p>
-<p>Diese Funktion steht allen Kunden von as a Public Beta zur Verfügung.</p>
-<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Verfügbarkeitsdatum: 19. Mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 
 
@@ -154,13 +137,6 @@ Die folgenden Verbesserungen sind für diese Version vorgesehen.
   Availability date: May 19, 2026
 
 -->
-
-#### Kampagnen
-
-* **Kundenwarnungen für Kampagnen-Lebenszyklus-Ereignisse** - Neue Systemwarnungen benachrichtigen Sie jetzt über wichtige Lebenszyklus-Ereignisse für Aktionen und API-ausgelöste Kampagnen. Abonnieren Sie auf Sandbox-Ebene.
-
-
-  Verfügbarkeitsdatum: 19. Mai 2026
 
 * **Standard-Ausführungsfeld in Kampagnen überschreiben** - Zuvor auf Journey-Ebene verfügbar, können Sie jetzt das Standard-Ausführungsfeld überschreiben, das in den Kampagnenparametern global für Ihre E-Mail-, SMS- und WhatsApp-Sendungen festgelegt ist.
 
@@ -205,12 +181,6 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
   Availability date: May 19, 2026
   -->
 
-#### Journeys
-
-* **Zusätzliche Kennungsunterstützung für externe Zielgruppen** - Zusätzliche Kennungen in Journey werden jetzt für externe Zielgruppen unterstützt, einschließlich Zielgruppen, die aus einer CSV-Datei importiert wurden, und Zielgruppen, die mit Federated Audience Composition erstellt wurden. Sie können ein beliebiges Nicht-Identitätsattribut oder ein beliebiges Identitätsattribut aus der Zielgruppe als zusätzliche ID festlegen. Es ist keine Schemakennzeichnung erforderlich.
-
-
-  Verfügbarkeitsdatum: 19. Mai 2026
 
 
 #### Reporting
@@ -243,7 +213,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -610,7 +580,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -876,7 +846,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1129,7 +1099,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1306,7 +1276,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
