@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: dfffbdc916a2ea6082d747927c28486e51fb381e
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: '2247'
-ht-degree: 86%
+source-wordcount: '2347'
+ht-degree: 82%
 
 ---
 
@@ -58,13 +58,19 @@ Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attri
 
 1. Das Feld **Tags** ermöglicht es Ihnen, Ihren Entscheidungselementen einheitliche Adobe Experience Platform-Tags zuzuweisen. Dies erleichtert die Klassifizierung und die Suche. [Weitere Informationen zum Arbeiten mit Tags](../start/search-filter-categorize.md#tags)
 
-1. Verwenden Sie [Fragmente](../content-management/fragments.md), um dem Entscheidungselement mehrere Inhalte hinzuzufügen - beispielsweise, wenn Sie unterschiedliche Inhalte für mehrere Mobilgerätemodelle anzeigen möchten. Sie können diese Fragmente dann in Ihren Entscheidungsrichtlinien nutzen. [Weitere Informationen](fragments-decision-policies.md)
+1. Fügen Sie Fragmente zu Ihrem Entscheidungselement hinzu, um dessen Inhalt anzureichern. Es werden zwei Arten von Fragmenten unterstützt:
 
-   >[!AVAILABILITY]
-   >
-   >Diese Funktion ist in begrenzter Verfügbarkeit für die Kanäle **Code-basiertes Erlebnis** und **E-Mail** verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern.
+   * **Journey Optimizer-Inhaltsfragmente** - Verwenden Sie wiederverwendbare Ausdrucksfragmente, die in Journey Optimizer erstellt wurden, um unterschiedliche Inhalte je nach Kontext anzuzeigen, z. B. über mehrere Mobilgerätemodelle hinweg. Sie können diese Fragmente in Ihren Entscheidungsrichtlinien auf allen Kanälen nutzen, auf denen Decisioning verfügbar ist (Code-basiertes Erlebnis, E-Mail, Push, SMS und Journey). [Weitere Informationen](fragments-decision-policies.md#ajo-fragments)
 
-   Wenn Sie diese Fragmente in Ihren Entscheidungsrichtlinien verwenden, können Sie ein Fragment optional machen, sodass es übersprungen wird, wenn es vorübergehend in Edge nicht verfügbar ist. [Weitere Informationen](fragments-decision-policies.md#optional-fragments)
+     Wenn Sie diese Fragmente in Ihren Entscheidungsrichtlinien verwenden, können Sie ein Fragment optional machen, sodass es übersprungen wird, wenn es vorübergehend in Edge nicht verfügbar ist. [Weitere Informationen](fragments-decision-policies.md#temporary-unavailable-fragments)
+
+   * **AEM-Inhaltsfragmente** - Ordnen Sie Adobe Experience Manager-Inhaltsfragmente direkt den Attributen Ihres Entscheidungselements zu. Füllen Sie das Feld **Fragmentverweisschlüssel** aus und wählen Sie das Fragment im Feld **Wert** aus. Nach der Zuordnung können die Inhaltsfragmentfelder in der Entscheidungsrichtlinie ausgewählt werden, und Journey Optimizer kann optimieren, welches Fragment jedem Profil bereitgestellt wird. [Weitere Informationen](fragments-decision-policies.md#aem-fragments-decisioning)
+
+     >[!AVAILABILITY]
+     >
+     >Diese Funktion ist nur in begrenztem Umfang für ausgehende Kanäle mit Entscheidungsunterstützung verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern.
+
+     Informationen zu Voraussetzungen und Leitplanken finden Sie unter [Verwenden von AEM-Inhaltsfragmenten mit Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
 
 1. Geben Sie benutzerdefinierte Attribute an (optional). Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente definiert. [Erfahren Sie, wie Sie mit Vorlagen arbeiten](catalogs.md)
 

@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 265
-ht-degree: 83%
+source-wordcount: 275
+ht-degree: 80%
 
 ---
 
@@ -44,6 +44,7 @@ Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey O
 | Entscheidungselemente insgesamt | 10.000 |
 | Maximale Größe von Elementen, einschließlich Attributen (1 KB), max. 30 Attribute | 1 KB |
 | Häufigkeitsregeln - Maximale Anzahl von Begrenzungsregeln pro Entscheidungselement | 10 |
+| Maximale Anzahl von AEM-Inhaltsfragmenten pro Entscheidungselement | 5 |
 
 ## Elementsammlung {#item-collections}
 

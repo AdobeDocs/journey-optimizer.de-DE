@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 1534
-ht-degree: 33%
+source-wordcount: 1722
+ht-degree: 29%
 
 ---
 
@@ -65,7 +65,7 @@ Wenn ein Inhaltsfragment in Adobe Experience Manager veröffentlicht wird, wird 
 >
 >Für Kundinnen und Kunden im Gesundheitswesen wird die Integration nur bei einer Lizenzierung der Add-on-Angebote Journey Optimizer Healthcare Shield und Adobe Experience Manager Extended Security for Healthcare aktiviert.
 
-## Erstellen und Zuweisen eines Tags in Experience Manager
+## Erstellen und Zuweisen eines Tags in Experience Manager {#create-tag}
 
 >[!IMPORTANT]
 >
@@ -187,7 +187,32 @@ Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie 
 
 Mit Adobe Experience Manager können die Journey Optimizer-Kampagnen oder -Journeys identifiziert werden, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen hierzu sind in der [Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"} verfügbar.
 
-## Arbeiten mit Varianten von Inhaltsfragmenten {#aem-variations}
+## Verwenden von AEM-Inhaltsfragmenten mit Experience Decisioning {#aem-decisioning}
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur in begrenztem Umfang für ausgehende Kanäle mit Entscheidungsunterstützung verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern.
+
+AEM-Inhaltsfragmente können auch als Angebotselementattribute in **Experience Decisioning“ verwendet**. Durch die Zuordnung von Inhaltsfragmentfeldern zu Entscheidungsattributen können Sie Journey Optimizer-Entscheidungsmodelle, -Formeln und -Rangfolgekriterien verwenden, um zu optimieren, welches Fragment den einzelnen Profilen bereitgestellt wird.
+
+### Voraussetzungen und Leitlinien
+
+* Inhaltsfragmente müssen in Adobe Experience Manager mit dem Tag `ajo-enabled:{OrgId}/{SandboxName}` versehen werden, bevor sie in der Entscheidungsauswahl angezeigt werden. [Erfahren Sie, wie Sie ein Tag erstellen und zuweisen](#create-tag)
+* Es sind nur Inhaltsfragmente mit **Status** veröffentlicht verfügbar.
+* Sie können bis zu **5** AEM-Inhaltsfragmente zu einem einzelnen Entscheidungselement hinzufügen.
+
+### Verwenden von AEM-Inhaltsfragmenten in Decisioning
+
+Nachdem das AEM-Inhaltsfragment erstellt und veröffentlicht wurde, müssen Sie Folgendes tun:
+
+1. Binden Sie es an ein Entscheidungselement, indem Sie es in den Attributen des Entscheidungselements auswählen.
+1. Nutzen Sie sie in einer Entscheidungsrichtlinie, um dem richtigen Kunden die richtigen Inhalte bereitzustellen.
+
+➡️ [Binden eines AEM-Inhaltsfragments an ein Entscheidungselement](../experience-decisioning/items.md#aem-fragments)
+
+➡️ [AEM-Inhaltsfragmente in einer Entscheidungsrichtlinie nutzen](../experience-decisioning/fragments-decision-policies.md#aem-fragments-decisioning)
+
+## Arbeiten mit Inhaltsfragmentvarianten {#aem-variations}
 
 In Adobe Experience Manager besteht jedes Inhaltsfragment aus Folgendem:
 
