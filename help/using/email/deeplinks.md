@@ -24,7 +24,7 @@ Wenn Ihre Empfänger auf den Deeplink klicken, werden sie direkt zum gewünschte
 
 * die [Konfigurationsschritte](#configuration) in Journey Optimizer;
 
-* Die [Implementierung von Mobile ](#mobile-implementation)) für iOS und Android in Ihrer Mobile App.
+* Die [Implementierung von Mobile &#x200B;](#mobile-implementation)) für iOS und Android in Ihrer Mobile App.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Wenn Ihre Empfänger auf den Deeplink klicken, werden sie direkt zum gewünschte
 
 Für E-Mail-Nachrichten haben Sie zwei Möglichkeiten, einen Deeplink einzufügen:
 
-* **E-Mail an Designer**: Stellen Sie sicher[ dass das Linktracking aktiviert ](message-tracking.md#enable-tracking). Wählen Sie das Element aus, das Sie verknüpfen möchten (Text, Schaltfläche oder Bild), klicken Sie **[!UICONTROL Link einfügen]** in der kontextuellen Symbolleiste und wählen Sie **[!UICONTROL Deeplink]** aus, um Ihre Deeplink-URL einzugeben. [Weitere Informationen zum Einfügen von Links](message-tracking.md#insert-links)
+* **E-Mail an Designer**: Stellen Sie sicher[&#x200B; dass das Linktracking aktiviert &#x200B;](message-tracking.md#enable-tracking). Wählen Sie das Element aus, das Sie verknüpfen möchten (Text, Schaltfläche oder Bild), klicken Sie **[!UICONTROL Link einfügen]** in der kontextuellen Symbolleiste und wählen Sie **[!UICONTROL Deeplink]** aus, um Ihre Deeplink-URL einzugeben. [Weitere Informationen zum Einfügen von Links](message-tracking.md#insert-links)
 
 * **Personalization-Editor (Code)**: Fügen Sie den Deeplink mithilfe des folgenden Snippets direkt in HTML ein:
 
@@ -48,7 +48,7 @@ Für E-Mail-Nachrichten haben Sie zwei Möglichkeiten, einen Deeplink einzufüge
 
 ### SMS {#authoring-sms}
 
-Für SMS werden Deeplinks mit der Hilfsfunktion **URL** im Personalisierungseditor erstellt. Weitere Informationen zum Hinzufügen von Links zu SMS-Inhalten finden Sie [ diesem Abschnitt](../mobile/create-mobile-message.md#sms-content).
+Für SMS werden Deeplinks mit der Hilfsfunktion **URL** im Personalisierungseditor erstellt. Weitere Informationen zum Hinzufügen von Links zu SMS-Inhalten finden Sie [&#x200B; diesem Abschnitt](../mobile/create-mobile-message.md#sms-content).
 
 Verwenden Sie die folgende Syntax, um Deeplinks in SMS-Inhalte einzufügen:
 
@@ -68,7 +68,7 @@ Um Deeplinks in E-Mails und SMS für Ihre Mobile Apps verwenden zu können, füh
 
 1. Delegieren Sie in Journey Optimizer die Subdomain, für die die Deeplinking-Funktion aktiviert ist. [Weitere Informationen](../configuration/delegate-subdomain.md)
 
-1. Hosten Sie die AASA-Datei für iOS und die assetLinks.json-Datei für Android in Ihrer Subdomain. Wenden Sie sich mit den folgenden Informationen an die ](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}-Kundenunterstützung von [Adobe oder Ihren Adobe-Support-Mitarbeiter:
+1. Hosten Sie die AASA-Datei für iOS und die assetLinks.json-Datei für Android in Ihrer Subdomain. Wenden Sie sich mit den folgenden Informationen an die [&#128279;](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}-Kundenunterstützung von Adobe oder Ihren Adobe-Support-Mitarbeiter:
 
    * **Für iOS (AASA)**:
       * Delegierte Subdomain
@@ -80,7 +80,7 @@ Um Deeplinks in E-Mails und SMS für Ihre Mobile Apps verwenden zu können, füh
 
 >[!IMPORTANT]
 >
->Deeplinking über die Adobe-Infrastruktur gilt, wenn das Linktracking für Ihre Nachricht in den E[Mail-Tracking-Einstellungen ](message-tracking.md#enable-tracking) im Abschnitt **[!UICONTROL Aktionstracking]** für SMS-Kampagnen aktiviert ist. Getrackte Deeplink-Klicks verwenden URLs unter `/ee/v1/mclick/*`, die von Adobe gehostet und aufgelöst werden.
+>Deeplinking über die Adobe-Infrastruktur gilt, wenn das Linktracking für Ihre Nachricht in den E[Mail-Tracking-Einstellungen &#x200B;](message-tracking.md#enable-tracking) im Abschnitt **[!UICONTROL Aktionstracking]** für SMS-Kampagnen aktiviert ist. Getrackte Deeplink-Klicks verwenden URLs unter `/ee/v1/mclick/*`, die von Adobe gehostet und aufgelöst werden.
 >
 >Bei **nicht getrackten** Links wird die URL nicht über Adobe-Systeme neu geschrieben. Sie müssen universelle Links oder App-Links auf Ihren eigenen Domains und beim Hosting konfigurieren, damit diese Links Ihre App wie vorgesehen öffnen.
 
