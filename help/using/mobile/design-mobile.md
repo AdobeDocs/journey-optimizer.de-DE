@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen einer SMS/MMS-Nachricht
-description: Erfahren Sie, wie Sie in Journey Optimizer eine SMS/MMS-Nachricht erstellen
+title: Erstellen einer SMS-/RCS-/MMS-Nachricht
+description: Erfahren Sie, wie Sie eine SMS-/RCS-/MMS-Nachricht in Journey Optimizer erstellen
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 30%
+source-wordcount: '1380'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 30%
 
 Mit Adobe Journey Optimizer können Sie Text- (SMS), Rich-Communication- (RCS) und Multimedia-Nachrichten (MMS) entwerfen und senden. Zunächst müssen Sie eine Aktion für Mobilnachrichten in einer Journey oder einer Kampagne hinzufügen und dann den Inhalt der Mobilnachricht definieren, wie unten beschrieben. Adobe Journey Optimizer bietet außerdem Funktionen zum Testen Ihrer Mobile-Nachrichten vor dem Senden, damit Sie das Rendering, die Personalisierungsattribute und alle anderen Einstellungen überprüfen können.
 
-In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-/MMS-Marketing-Nachrichten eine Möglichkeit enthalten, mit der sich die Profile einfach abmelden können. Dazu können SMS-Profile mit Keywords zum Opt-in oder Opt-out antworten. [Informationen über die Verwaltung des Opt-outs](../privacy/opt-out.md#opt-out-decision-management)
+In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-/RCS-/MMS-Marketing-Nachrichten eine Möglichkeit enthalten, mit der sich die Profile einfach abmelden können. Dazu können SMS-Profile mit Keywords zum Opt-in oder Opt-out antworten. [Informationen über die Verwaltung des Opt-outs](../privacy/opt-out.md#opt-out-decision-management)
 
 ## RCS-Inhalt definieren{#rcs-content}
 
@@ -127,7 +127,7 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
 
    ![](assets/sms-content.png)
 
-1. Erstellen Sie mit dem [KI-Assistenten für die Textgenerierung) ansprechende mobile Nachrichten, die auf Ihre Zielgruppe zugeschnitten &#x200B;](../content-management/generative-text.md).
+1. Erstellen Sie mit dem [KI-Assistenten für die Textgenerierung) ansprechende mobile Nachrichten, die auf Ihre Zielgruppe zugeschnitten ](../content-management/generative-text.md).
 
 1. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren und Personalisierung sowie dynamischen Inhalt hinzuzufügen. Sie können jedes Attribut verwenden, wie etwa Profilname oder Stadt. Sie können auch bedingte Regeln definieren. Auf den folgenden Seiten erfahren Sie mehr über [Personalisierung](../personalization/personalize.md) und [dynamische Inhalte](../personalization/get-started-dynamic-content.md) im Personalisierungseditor.
 

@@ -2,30 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Konfigurieren des SMS-Kanals
-description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Textnachrichten mit Journey Optimizer konfigurieren
+description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Nachrichten an Mobilgeräte mit Journey Optimizer konfigurieren
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 TQID: https://experienceleague.adobe.com/dO8HoRdGLuYVFN2YVjRCiFJQHmWHApROU8qz2-hKmTs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 85%
+source-wordcount: 432
+ht-degree: 60%
 
 ---
 
@@ -34,7 +26,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Konfigurieren eines SMS-Anbieters mit Journey Optimizer"
->abstract="Adobe Journey Optimizer versendet Textnachrichten über SMS-Dienstanbieter. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldedaten ein."
+>abstract="Adobe Journey Optimizer sendet Mobile-Nachrichten über SMS-Dienstleister. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldedaten ein."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -43,8 +35,8 @@ ht-degree: 85%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Konfigurieren eines SMS/MMS-Anbieters mit Journey Optimizer"
->abstract="Vor dem Versand von Textnachrichten (SMS/MMS) müssen die Anbietereinstellungen in Journey Optimizer integriert werden. Danach muss eine SMS/MMS-Konfiguration erstellt werden. Diese Schritte müssen von Adobe Journey Optimizer-System-Admins durchgeführt werden."
+>title="Konfigurieren des SMS-/RCS-/MMS-Anbieters mit Journey Optimizer"
+>abstract="Vor dem Versand von Nachrichten an Mobilgeräte (SMS/RCS/MMS) müssen Sie die Provider-Einstellungen in Journey Optimizer integrieren. Anschließend müssen Sie eine SMS-/RCS-/MMS-Konfiguration erstellen. Diese Schritte müssen von Adobe Journey Optimizer-System-Admins durchgeführt werden."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Erstellen einer SMS-Kanalkonfiguration"
 
 >[!CONTEXTUALHELP]
@@ -72,11 +64,11 @@ Diese Schritte müssen von Adobe Journey Optimizer-[Systemadmins](../start/path/
 
 ## Voraussetzungen{#sms-prerequisites}
 
-Adobe Journey Optimizer lässt sich derzeit mit Drittanbietern integrieren, die unabhängig von Adobe Journey Optimizer Textnachrichtendienste anbieten. Unterstützte Anbieter für Textnachrichten und MMS sind: **Sinch**, **Twilio** und **Infobip**. Beachten Sie, dass Sie mit der [benutzerdefinierten Anbieterkonfiguration](mobile-configuration-custom.md) zusätzliche Messaging-Anbieter konfigurieren können.
+Adobe Journey Optimizer lässt sich derzeit mit Drittanbietern integrieren, die unabhängig von Adobe Journey Optimizer mobile Messaging-Services anbieten. Unterstützte Anbieter für Mobile Messaging und MMS sind: **Sinch**, **Twilio** und **Infobip**. Beachten Sie, dass Sie mit der [benutzerdefinierten Anbieterkonfiguration](mobile-configuration-custom.md) zusätzliche Messaging-Anbieter konfigurieren können.
 
 Vor der Konfiguration des Mobile-Kanals müssen Sie bei einem dieser Anbieter ein Konto erstellen, um Ihr **API-Token** und Ihre **Service-ID** abzurufen, über die Sie die Verbindung zwischen Adobe Journey Optimizer und dem entsprechenden Anbieter konfigurieren müssen.
 
-Ihre Nutzung von Textnachrichten- und MMS-Diensten unterliegt zusätzlichen Bedingungen des jeweiligen Anbieters. Als Lösungen von Drittanbietern stehen den Benutzerinnen und Benutzern von Adobe Journey Optimizer Sinch, Twilio und Infobip über eine Integration zur Verfügung. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich. Wenden Sie sich bei Problemen oder Anfragen zur Unterstützung im Zusammenhang mit den Mobile-Messaging-Services an Ihren Provider.
+Ihre Nutzung von Mobile-Messaging- und MMS-Services unterliegt zusätzlichen Bedingungen des jeweiligen Anbieters. Als Lösungen von Drittanbietern stehen den Benutzerinnen und Benutzern von Adobe Journey Optimizer Sinch, Twilio und Infobip über eine Integration zur Verfügung. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich. Wenden Sie sich bei Problemen oder Anfragen zur Unterstützung im Zusammenhang mit den Mobile-Messaging-Services an Ihren Provider.
 
 >[!CAUTION]
 >

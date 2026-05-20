@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '2855'
 ht-degree: 9%
@@ -120,7 +120,7 @@ Erstellen Sie für Sinch und Sinch Conversational einen einzigen Webhook, der so
 
    +++ Opt-out
 
-   * Aktivieren Sie Schlüsselwörter, die Benutzer abmelden und die Zustimmung zum Senden von Textnachrichten entfernen. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer vom Erhalt von SMS-Nachrichten abgemeldet.
+   * Aktivieren Sie Schlüsselwörter, die Benutzer abmelden und die Zustimmung zum Senden von Nachrichten an Mobilgeräte entfernen. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer vom Erhalt von SMS-Nachrichten abgemeldet.
 
    * Standardmäßig sind die folgenden Keywords aktiviert: STOP, QUIT, CANCEL, END, UNSUBSCRIBE, NO. Entfernen Sie alle Standardschlüsselwörter, indem Sie auf ![](assets/do-not-localize/Smock_Close_18_N.svg) klicken.
 
@@ -221,7 +221,7 @@ Erstellen Sie für Infobip zwei separate Webhooks, einen für Feedback-Ereigniss
 
    +++ Opt-out
 
-   * Aktivieren Sie Schlüsselwörter, die Benutzer abmelden und die Zustimmung zum Senden von Textnachrichten entfernen. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer vom Erhalt von SMS-Nachrichten abgemeldet.
+   * Aktivieren Sie Schlüsselwörter, die Benutzer abmelden und die Zustimmung zum Senden von Nachrichten an Mobilgeräte entfernen. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer vom Erhalt von SMS-Nachrichten abgemeldet.
 
    * Standardmäßig sind die folgenden Keywords aktiviert: STOP, QUIT, CANCEL, END, UNSUBSCRIBE, NO. Entfernen Sie alle Standardschlüsselwörter, indem Sie auf ![](assets/do-not-localize/Smock_Close_18_N.svg) klicken.
 
@@ -329,7 +329,7 @@ Erstellen Sie für benutzerdefinierte SMS-Anbieter zwei separate Webhooks, einen
 
    +++ Opt-out
 
-   * Aktivieren Sie Schlüsselwörter, die Benutzer abmelden und die Zustimmung zum Senden von Textnachrichten entfernen. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer vom Erhalt von SMS-Nachrichten abgemeldet.
+   * Aktivieren Sie Schlüsselwörter, die Benutzer abmelden und die Zustimmung zum Senden von Nachrichten an Mobilgeräte entfernen. Wenn die Nachricht eines Benutzers mit einem konfigurierten Schlüsselwort übereinstimmt, wird seine Telefonnummer vom Erhalt von SMS-Nachrichten abgemeldet.
 
    * Standardmäßig sind die folgenden Keywords aktiviert: STOP, QUIT, CANCEL, END, UNSUBSCRIBE, NO. Entfernen Sie alle Standardschlüsselwörter, indem Sie auf ![](assets/do-not-localize/Smock_Close_18_N.svg) klicken.
 

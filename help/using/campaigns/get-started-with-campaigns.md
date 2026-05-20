@@ -11,37 +11,16 @@ mini-toc-levels: 1
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f7479fa1-474b-479d-8c98-f6cee5865a38id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1613
-ht-degree: 100%
+source-wordcount: 1614
+ht-degree: 99%
 
 ---
 
@@ -254,7 +233,7 @@ Erstellen Sie überzeugende Nachricht für Ihre Zielgruppe:
 
 * Verwenden Sie den **E-Mail-Designer** für hochwertige E-Mail-Erlebnisse
 * Konfigurieren Sie **Push-Benachrichtigungen** mit Bildern und Deep-Links
-* Gestalten Sie **SMS/MMS-Nachrichten** mit Personalisierung
+* Gestalten **SMS/RCS/MMS-Nachrichten** mit Personalisierung
 * Erstellen Sie **In-App-** und **Web-** Erlebnisse
 * Fügen Sie **Personalisierungen** mithilfe von Profilattributen und kontextuellen Daten hinzu
 
@@ -319,7 +298,7 @@ Sobald Sie mit Kampagnen vertrauter sind, erkunden Sie diese leistungsstarken Fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Planung und Timing**
 
@@ -329,7 +308,7 @@ Planen Sie Kampagnen für bestimmte Daten/Uhrzeiten, legen Sie wiederkehrende Se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Ratensteuerung**
 
@@ -339,7 +318,7 @@ Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Syst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Zielgruppen-Targeting**
 
@@ -349,7 +328,7 @@ Sprechen Sie bestimmte Adobe Experience Platform-Zielgruppen präzise an und ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Genehmigungs-Workflows**
 
@@ -359,7 +338,7 @@ Implementieren Sie Überprüfungs- und Genehmigungsprozesse, bevor Sie Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ruhezeiten**
 
@@ -369,7 +348,7 @@ Respektieren Sie Kundenpräferenzen, indem Sie den Versand von Nachrichten inner
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Optimierung**
 
