@@ -8,28 +8,16 @@ role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 TQID: https://experienceleague.adobe.com/QFZt5R2bGJMIwT9okjkcGWxN9cj56Mi77XdCgddCleU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 1534
-ht-degree: 33%
+source-wordcount: 1722
+ht-degree: 29%
 
 ---
 
@@ -49,11 +37,11 @@ Die Integration zwischen Adobe Experience Manager und Journey Optimizer folgt di
 
 1. **[Konfigurieren der Dispatcher](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}**: Damit Journey Optimizer über die Inhaltsfragmentverwaltungs-API auf Adobe Experience Manager-Inhaltsfragmente zugreifen kann, müssen Sie zunächst die Dispatcher konfigurieren. Dies ist eine Voraussetzung für die Integration.
 
-1. **[Erstellen und Verfassen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: Inhalte werden in Adobe Experience Manager als Inhaltsfragmente erstellt und konfiguriert.
+1. **[Erstellen und Verfassen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: Inhalte werden in Adobe Experience Manager als Inhaltsfragmente erstellt und konfiguriert.
 
-1. **[Tagging](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: Inhaltsfragmente müssen mit dem Journey Optimizer-spezifischen Tag (`ajo-enabled:{OrgId}/{SandboxName}`) getaggt werden.
+1. **[Tagging](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: Inhaltsfragmente müssen mit dem Journey Optimizer-spezifischen Tag (`ajo-enabled:{OrgId}/{SandboxName}`) getaggt werden.
 
-1. **[Veröffentlichen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: Inhaltsfragmente werden in Adobe Experience Manager veröffentlicht und stehen damit Journey Optimizer zur Verfügung.
+1. **[Veröffentlichen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: Inhaltsfragmente werden in Adobe Experience Manager veröffentlicht und stehen damit Journey Optimizer zur Verfügung.
 
 1. **[Zugriff](#aem-add)**: Journey Optimizer ruft verfügbare Inhaltsfragmente aus der Adobe Experience Manager-Veröffentlichungsinstanz in Echtzeit ab und zeigt sie an.
 
@@ -65,7 +53,7 @@ Wenn ein Inhaltsfragment in Adobe Experience Manager veröffentlicht wird, wird 
 >
 >Für Kundinnen und Kunden im Gesundheitswesen wird die Integration nur bei einer Lizenzierung der Add-on-Angebote Journey Optimizer Healthcare Shield und Adobe Experience Manager Extended Security for Healthcare aktiviert.
 
-## Erstellen und Zuweisen eines Tags in Experience Manager
+## Erstellen und Zuweisen eines Tags in Experience Manager {#create-tag}
 
 >[!IMPORTANT]
 >
@@ -187,7 +175,32 @@ Sobald Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie 
 
 Mit Adobe Experience Manager können die Journey Optimizer-Kampagnen oder -Journeys identifiziert werden, in denen ein Inhaltsfragment verwendet wird. Weitere Informationen hierzu sind in der [Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"} verfügbar.
 
-## Arbeiten mit Varianten von Inhaltsfragmenten {#aem-variations}
+## Verwenden von AEM-Inhaltsfragmenten mit Experience Decisioning {#aem-decisioning}
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist nur in begrenztem Umfang für ausgehende Kanäle mit Entscheidungsunterstützung verfügbar. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Zugriff anzufordern.
+
+AEM-Inhaltsfragmente können auch als Angebotselementattribute in **Experience Decisioning“ verwendet**. Durch die Zuordnung von Inhaltsfragmentfeldern zu Entscheidungsattributen können Sie Journey Optimizer-Entscheidungsmodelle, -Formeln und -Rangfolgekriterien verwenden, um zu optimieren, welches Fragment den einzelnen Profilen bereitgestellt wird.
+
+### Voraussetzungen und Leitlinien
+
+* Inhaltsfragmente müssen in Adobe Experience Manager mit dem Tag `ajo-enabled:{OrgId}/{SandboxName}` versehen werden, bevor sie in der Entscheidungsauswahl angezeigt werden. [Erfahren Sie, wie Sie ein Tag erstellen und zuweisen](#create-tag)
+* Es sind nur Inhaltsfragmente mit **Status** veröffentlicht verfügbar.
+* Sie können bis zu **5** AEM-Inhaltsfragmente zu einem einzelnen Entscheidungselement hinzufügen.
+
+### Verwenden von AEM-Inhaltsfragmenten in Decisioning
+
+Nachdem das AEM-Inhaltsfragment erstellt und veröffentlicht wurde, müssen Sie Folgendes tun:
+
+1. Binden Sie es an ein Entscheidungselement, indem Sie es in den Attributen des Entscheidungselements auswählen.
+1. Nutzen Sie sie in einer Entscheidungsrichtlinie, um dem richtigen Kunden die richtigen Inhalte bereitzustellen.
+
+➡️ [Binden eines AEM-Inhaltsfragments an ein Entscheidungselement](../experience-decisioning/items.md#aem-fragments)
+
+➡️ [AEM-Inhaltsfragmente in einer Entscheidungsrichtlinie nutzen](../experience-decisioning/fragments-decision-policies.md#aem-fragments-decisioning)
+
+## Arbeiten mit Inhaltsfragmentvarianten {#aem-variations}
 
 In Adobe Experience Manager besteht jedes Inhaltsfragment aus Folgendem:
 
@@ -200,7 +213,7 @@ Beispiele für Anwendungsfälle mit Varianten:
 * Regionale Tonanpassungen ohne Erstellen eines separaten Fragments.
 * Kanalspezifisches Messaging (z. B. Web im Vergleich zu Mobile).
 
-➡️ [Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)
+➡️ [Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)
 
 Mit Journey Optimizer können Sie auswählen, welche Variante beim Einfügen eines Fragments verwendet werden soll. So können verschiedene Kampagnen oder Journey auf verschiedene Ausgabedarstellungen desselben Quellinhalts in Adobe Experience Manager angewiesen sein, ohne Fragmente zu duplizieren.
 
