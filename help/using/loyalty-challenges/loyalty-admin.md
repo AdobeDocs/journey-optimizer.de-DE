@@ -11,7 +11,7 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: aea783bd8f2351d4a5d8aa6b84c24a713a6c0306
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >Diese Funktion befindet sich derzeit in der **privaten Betaversion**. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
 
-Im **[!UICONTROL Treueprogramm-]**) konfigurieren Administratoren, wie Journey Optimizer eine Verbindung zu Ihrem Treueprogramm-Backend herstellt. Marketing-Experten verwenden **[!UICONTROL Loyalty Challenges (Beta]**, um Herausforderungen, Aufgaben, Inhalte und Messaging zu entwerfen. „Loyalty Admin“ ist eine separate, einmalige Einrichtung für die Belohnungserfüllung und die Ereigniszuordnung.
+Im **[!UICONTROL Treueprogramm-]**) konfigurieren Sie, wie Journey Optimizer eine Verbindung zu Ihrem Treueprogramm-Backend herstellt. Marketing-Experten verwenden **[!UICONTROL Loyalty Challenges (Beta]**, um Herausforderungen, Aufgaben, Inhalte und Messaging zu entwerfen. „Loyalty Admin“ ist eine separate, einmalige Einrichtung für die Belohnungserfüllung und die Ereigniszuordnung.
 
 Wenn ein Kunde eine Challenge abschließt (oder einen Prämienmeilenstein erreicht), ruft Journey Optimizer den hier konfigurierten Prämienanbieter auf, um Punkte oder andere Prämien zu erhalten. Die Einstellungen **[!UICONTROL Herausforderung]** Inhalt **[!UICONTROL Nachrichten]** und **[!UICONTROL Zielgruppe]** sind von der Konfiguration der Treueprogramm-Admins nicht betroffen.
 
