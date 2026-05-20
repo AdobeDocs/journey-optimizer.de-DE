@@ -89,6 +89,6 @@ Alphanumerische Sender IDs sind nur für einseitige Nachrichten gedacht und kön
 
   +++ Video ansehen
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3440289/?captions=ger&learn=on)
 
   +++
