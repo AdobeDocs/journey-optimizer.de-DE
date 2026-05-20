@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 14ef040a093ce08b84ed4ed50a899bdac6881167
 workflow-type: tm+mt
-source-wordcount: 1922
-ht-degree: 31%
+source-wordcount: 2008
+ht-degree: 30%
 
 ---
 
@@ -57,6 +41,25 @@ ht-degree: 31%
 ### Neue Funktionen {#may-26-features}
 
 Die folgenden Funktionen wurden im Mai 2026 veröffentlicht.
+
+<table>
+<thead>
+<tr>
+<th><strong>Verkettete orchestrierte Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Orchestrierte Kampagnen können jetzt miteinander verknüpft werden, indem eine orchestrierte Kampagne direkt über die „Endaktivität“ einer anderen orchestrierten <strong> ausgelöst </strong>.</p>
+<p>Dies ermöglicht es, komplexe Orchestrierungslogik in kleinere, wiederverwendbare Flüsse zu unterteilen, die von mehreren übergeordneten Kampagnen aufgerufen werden können, anstatt jedes Mal neu aufgebaut zu werden. Die zur Laufzeit übergebene Payload ist für die Segmentierung und Personalisierung in der nachgelagerten Kampagne verfügbar, sodass jede verknüpfte Kampagne sich basierend auf dem empfangenen Kontext verhalten kann.</p>
+<p><img src="assets/do-not-localize/oc-trigger.gif"></p>
+<p>Weitere Informationen finden Sie in der <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">ausführlichen Dokumentation</a>.</p>
+<p>Verfügbarkeitsdatum: 20. Mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -91,7 +94,7 @@ Die folgenden Funktionen wurden im Mai 2026 veröffentlicht.
 <tr>
 <td>
 <p>Sie können jetzt <strong>Journey-Fragmente</strong> in Adobe Journey Optimizer erstellen. Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen.</p>
-<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente&rbrace; in </strong> Journey eingefügt werden.</p>
+<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente} in </strong> Journey eingefügt werden.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-fragments.md">ausführlichen Dokumentation</a>.</p>
@@ -178,6 +181,13 @@ Die folgenden Funktionen wurden im Mai 2026 veröffentlicht.
 
 Im Mai 2026 wurden auch die folgenden Verbesserungen veröffentlicht.
 
+#### Orchestrierte Kampagnen
+
+* **Links in Anreicherungsaktivität hinzufügen** - Die Funktion Link hinzufügen ist jetzt in der Anreicherungsaktivität für orchestrierte Kampagnen verfügbar. Auf diese Weise können Sie eine direkte Beziehung zwischen Ihren Arbeitstabellendaten und Ihren vorhandenen Datenbanktabellen erstellen.
+
+
+  Verfügbarkeitsdatum: 20. Mai 2026
+
 #### Entscheidungsfindung
 
 * **Decisioning-Migrations-Workflow**-APIs - Der API-Vertrag zum Erstellen von Abhängigkeitsanalysen und Migrations-Workflows wurde aktualisiert: Übergeben Sie **`request-level`** als **Abfrageparameter** an die Anfrage-URL (`sandbox`, `offer` oder `decision`). Anfrageebene darf nicht mehr im JSON-Text gesendet werden. [Weitere Informationen](../experience-decisioning/decisioning-migration-api.md)
@@ -189,14 +199,14 @@ Im Mai 2026 wurden auch die folgenden Verbesserungen veröffentlicht.
 <!--
 * **Opt-out and consent at phone number and sender** - For SMS, Journey Optimizer now records marketing consent and opt-out at the level of both the profile's phone number and short code. 
 
-  This capability is currently only available for Sinch SMS configurations. [Read more](../sms/sms-configuration-sinch.md)
+  This capability is currently only available for Sinch SMS configurations. [Read more](../mobile/mobile-configuration-sinch.md)
 -->
 
-* **Zeichenanzahl**: In Adobe Journey Optimizer können Sie jetzt die Zeichenanzahl verwenden, um die Länge Ihrer SMS-Nachrichten in Echtzeit zu überwachen. Auf diese Weise lässt sich erkennen, wann eine Nachricht in mehrere Segmente aufgeteilt wird. So kann die Formatierung besser verwaltet und ein unerwartetes Ansteigen der Versandkosten vermieden werden. [Weitere Informationen](../sms/create-sms.md)
+* **Zeichenanzahl**: In Adobe Journey Optimizer können Sie jetzt die Zeichenanzahl verwenden, um die Länge Ihrer SMS-Nachrichten in Echtzeit zu überwachen. Auf diese Weise lässt sich erkennen, wann eine Nachricht in mehrere Segmente aufgeteilt wird. So kann die Formatierung besser verwaltet und ein unerwartetes Ansteigen der Versandkosten vermieden werden. [Weitere Informationen](../mobile/create-mobile-message.md)
 
-* **SMS-Eingänge in einen benutzerdefinierten Datensatz**: Leiten Sie in **SMS-API-Anmeldedaten** **eingehende SMS** an einen ausgewählten **benutzerdefinierten, profilaktivierten Erlebnisereignisdatensatz** weiter, anstatt nur an den Standard-Tracking-Datensatz. [Weitere Informationen](../sms/sms-webhook.md)
+* **SMS-Eingänge in einen benutzerdefinierten Datensatz**: Leiten Sie in **SMS-API-Anmeldedaten** **eingehende SMS** an einen ausgewählten **benutzerdefinierten, profilaktivierten Erlebnisereignisdatensatz** weiter, anstatt nur an den Standard-Tracking-Datensatz. [Weitere Informationen](../mobile/mobile-webhook.md)
 
-* **Verbesserung der Webhook-Oberfläche**: Die Benutzeroberfläche zur Konfiguration von SMS-Webhooks enthält jetzt ein integriertes Einrichtungshandbuch mit praktischen Beispielen, das die Abstimmung von Anbieter-Payloads und die Fehlerbehebung erleichtert, da der Konfigurationsfluss nicht verlassen werden muss. [Weitere Informationen](../sms/sms-webhook.md)
+* **Verbesserung der Webhook-Oberfläche**: Die Benutzeroberfläche zur Konfiguration von SMS-Webhooks enthält jetzt ein integriertes Einrichtungshandbuch mit praktischen Beispielen, das die Abstimmung von Anbieter-Payloads und die Fehlerbehebung erleichtert, da der Konfigurationsfluss nicht verlassen werden muss. [Weitere Informationen](../mobile/mobile-webhook.md)
 
 #### WhatsApp
 
@@ -330,13 +340,6 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 
 
   Verfügbarkeitsdatum: 21. Mai 2026
-
-#### Orchestrierte Kampagnen
-
-* **Links in Anreicherungsaktivität hinzufügen** - Die Funktion Link hinzufügen ist jetzt in der Anreicherungsaktivität für orchestrierte Kampagnen verfügbar. Auf diese Weise können Sie eine direkte Beziehung zwischen Ihren Arbeitstabellendaten und Ihren vorhandenen Datenbanktabellen erstellen.
-
-
-  Verfügbarkeitsdatum: 26. Mai 2026
 
 * **Schleifenbasierte Personalisierung für relationale Daten** - Der Personalisierungseditor unterstützt jetzt einen Schleifenblock, der relationale Sammlungen wie Bestellungen, Konten oder Buchungen durchläuft und einen Inhaltsblock pro Datensatz in einer einzelnen E-Mail oder SMS rendert. Sammlungen werden über die Datenauswahl mithilfe von Personalisierungs-Token konfiguriert, ohne dass ein Ausdruck geschrieben werden muss.
 
