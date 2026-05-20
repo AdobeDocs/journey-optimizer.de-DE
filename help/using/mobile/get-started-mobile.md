@@ -1,0 +1,198 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Erste Schritte mit Mobile-Nachrichten
+description: Erfahren Sie, wie Sie in Journey Optimizer Textnachrichten erstellen, testen und veröffentlichen.
+feature: SMS
+topic: Content Management
+role: User
+level: Beginner
+exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
+TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c13ff12d-60f1-49cd-833a-d43359628223id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
+workflow-type: tm+mt
+source-wordcount: 1005
+ht-degree: 30%
+
+---
+
+# Erste Schritte mit Mobile-Nachrichten {#get-started-sms}
+
+>[!IMPORTANT]
+>
+>Wenn Sie zum ersten Mal Nachrichten für Mobilgeräte erstellen, stellen Sie sicher, dass der Mobile-Nachrichtenkanal konfiguriert wurde. [Weitere Informationen](mobile-configuration.md)
+
+Verwenden Sie [!DNL Journey Optimizer], um Mobile-Nachrichten über drei Kanäle (**SMS**, **MMS** und **RCS**) von einem einzigen SMS-/MMS-/RCS-Editor aus an Ihre Kunden zu senden, in dem Sie Inhalte erstellen, personalisieren und in der Vorschau anzeigen können.
+
+* **SMS (Short Message Service)**: Versand von Nur-Text-Nachrichten mit bis zu 160 Zeichen, unterstützt auf allen Mobilgeräten.
+* **MMS (Multimedia Message Service)**: Reichern Sie Ihre Nachrichten mit Bildern, Videos, Audioclips und GIFs sowie bis zu 1.600 Textzeichen an. [Informationen zu MMS-Einschränkungen](../start/guardrails.md#sms-guardrails)
+* **RCS (Rich Communication Services)**:Deliver markenspezifischer, interaktiver Inhalt direkt in der nativen Messaging-App Ihrer Kunden, ohne dass ein zusätzlicher App-Download erforderlich ist.
+
+Mobile Nachrichten können in einer Journey oder in einer Kampagne mithilfe der Mobile-Nachrichtenaktion erstellt und gesendet werden:
+
+* Auf einer **Journey**: Fügen Sie eine Mobile-Nachrichtenaktion zu Ihrem Journey hinzu, definieren Sie die Grundeinstellungen und erstellen Sie dann Ihren Inhalt im Bereich für Mobile-Nachrichtenaktionen auf der rechten Seite. [Erfahren Sie, wie Sie eine Journey erstellen](../building-journeys/journey-gs.md)
+
+* Wählen Sie in **Kampagne**:Create Kampagne die Aktion Mobile Nachricht aus, definieren Sie die Grundeinstellungen und bearbeiten Sie dann den Nachrichteninhalt. Erfahren Sie, wie Sie [eine Aktionskampagne](../campaigns/campaign-action.md#action-campaign-action) | [eine durch API ausgelöste Kampagne](../campaigns/api-triggered-campaigns.md) | [eine orchestrierte Kampagne](../orchestrated/create-orchestrated-campaign.md#create) erstellen können
+
+
+## Wichtigste Funktionen {#key-features}
+
+| Funktion | Beschreibung |
+|---|---|
+| **Personalisierung** | Passen Sie Nachrichten mit Profilattributen, bedingten Inhalten und dynamischen Daten mit dem Personalisierungseditor an. [Weitere Informationen](../personalization/personalize.md) |
+| **Provider-Support** | Verbinden Sie sich über [ API](mobile-configuration-sinch.md)Integration mit [Twilio](mobile-configuration-twilio.md), [Infobip](mobile-configuration-infobip.md) oder einem [benutzerdefinierten Anbieter](mobile-configuration-custom.md). |
+| **URL-Verkürzung** | Fügen Sie gekürzte, verfolgbare URLs hinzu, um die Interaktion zu überwachen. Subdomain-Konfiguration erforderlich. [Weitere Informationen](mobile-subdomains.md) |
+| **Opt-out-Verwaltung** | Integrierte Handhabung von Standard-Opt-out-Keywords (STOP, QUIT, CANCEL usw.) für Sinch und Infobip. [Weitere Informationen](mobile-opt-out.md) |
+| **Vorschau und Tests** | Validieren von Inhalten mit Testprofilen und Beispieldaten vor dem Senden. [Weitere Informationen](send-mobile-message.md) |
+| **Reporting** | Nachverfolgen der Kampagnen- und Journey-Performance mit [Kampagnenberichten](../reports/campaign-global-report-cja-sms.md) und [Journey-Berichten](../reports/journey-global-report-cja-sms.md). |
+
+## Konfigurationsanforderungen {#configuration-requirements}
+
+Bevor Sie Textnachrichten senden, müssen Sie Folgendes tun:
+
+1. **Wählen eines SMS-Anbieters**: Wählen Sie aus Sinch, Twilio, Infobip oder konfigurieren Sie einen benutzerdefinierten Anbieter
+2. **Einrichten von API-Anmeldeinformationen**: Integrieren Sie die API-Token und Service-IDs Ihres Anbieters in Journey Optimizer
+3. **Kanalkonfigurationen erstellen**: Einrichten von SMS-Konfigurationen für Marketing- und Transaktionsnachrichten
+4. **Subdomains konfigurieren (optional)**: Nur erforderlich, wenn in Ihren Nachrichten eine URL-Verkürzung vorgesehen ist
+
+Diese Konfigurationsschritte werden in der Regel von einer oder einem Systemadmin durchgeführt. [Erste Schritte mit der SMS-Konfiguration](mobile-configuration.md)
+
+### Anforderungen für RCS {#requirement-rcs}
+
+Für die Verwendung von RCS in Journey Optimizer sind folgende Voraussetzungen erforderlich:
+
+* **Sinch RCS API-Anmeldeinformationen**: Ein Administrator muss API-Anmeldeinformationen für den Sinch RCS-Anbieter konfigurieren (Projekt-ID, App-ID und API-Token). [Weitere Informationen](mobile-configuration-sinch.md)
+* **Konfiguration des mobilen Nachrichtenkanals** Ein Administrator muss eine Kanalkonfiguration mit aktivierten RCS-Anmeldeinformationen erstellen, damit Nachrichten als RCS und nicht als SMS gesendet werden. [Weitere Informationen](mobile-configuration.md)
+* **Fallback-SMS**: Dringend empfohlen. Empfänger, deren Geräte RCS nicht unterstützen, erhalten die Nachricht nur, wenn ein SMS-Fallback verfügbar ist. Kunden ohne vorhandenes SMS-Volumen sollten SMS und eine Kurzwahlnummer erwerben. [Weitere Informationen](design-mobile.md#rcs-content)
+* **Unterstützter Anbieter**: Für das native RCS-Authoring ist Sinch RCS (Adobe Resell oder Direct) erforderlich. Twilio, Infobip und andere Anbieter müssen eine benutzerdefinierte Anbieterintegration verwenden.
+* **Geräteunterstützung**: Die RCS-Bereitstellung wird auf Android- und iOS-Geräten unterstützt. Die Verfügbarkeit der Anbieter und der Regionen ist unterschiedlich, RCS ist weltweit nicht allgemein verfügbar.
+
+## Weitere Ressourcen {#additional-resources}
+
+Weitere Informationen zu Textnachrichten in Journey Optimizer finden Sie in den folgenden Themen.
+
++++Konfigurationshandbücher
+
+Erfahren Sie, wie Sie Ihre SMS-Umgebung einrichten und konfigurieren:
+
+* [Überblick über SMS-Kanalkonfiguration](mobile-configuration.md)
+* [Erstellen von SMS-Kanalkonfigurationen](mobile-configuration-surface.md)
+* [Konfigurieren von SMS-Subdomains für die URL-Verkürzung](mobile-subdomains.md)
+
++++
+
++++Handbücher zur Einrichtung von Anbietern
+
+Detaillierte Konfiguration für jeden SMS-Dienstleister:
+
+* [Konfigurieren des Sinch-Anbieters](mobile-configuration-sinch.md)
+* [Konfigurieren des Twilio-Anbieters](mobile-configuration-twilio.md)
+* [Konfigurieren des Infobip-Anbieters](mobile-configuration-infobip.md)
+* [Konfigurieren des benutzerdefinierten SMS-Anbieters](mobile-configuration-custom.md)
+
++++
+
++++Inhaltserstellung und -verwaltung
+
+Erstellen, personalisieren und verwalten Sie den Inhalt von Textnachrichten:
+
+* [Erstellen von SMS-/MMS-Nachrichten](create-mobile-message.md)
+* [Anzeigen einer Vorschau, Testen und Senden von Nachrichten](send-mobile-message.md)
+* [Personalisierung in Textnachrichten](../personalization/personalize.md)
+* [Dynamische Inhalte](../personalization/get-started-dynamic-content.md)
+* [Generieren von SMS-Inhalt mit dem KI-Assistenten](../content-management/generative-text.md)
+
++++
+
++++Compliance und Datenschutz
+
+Stellen Sie sicher, dass Ihre Textnachrichten den Vorschriften und Datenschutzstandards entsprechen:
+
+* [Opt-out-Verwaltung](mobile-opt-out.md)
+* [Datenschutz und Einverständniserklärung](../privacy/opt-out.md#opt-out-decision-management)
+
++++
+
++++Tracking der Leistung
+
+Überwachen und analysieren Sie Ihre SMS-Kampagnen und die Journey-Leistung:
+
+* [SMS-Kampagnenberichte](../reports/campaign-global-report-cja-sms.md)
+* [SMS-Journey-Berichte](../reports/journey-global-report-cja-sms.md)
+
++++
+
++++Journey- und Kampagnenintegration
+
+Erfahren Sie, wie Sie SMS in Ihre Kunden-Journeys und -Kampagnen integrieren:
+
+* [Hinzufügen von SMS-Nachrichten zu Journeys](../building-journeys/journey-action.md)
+* [Erstellen von SMS-Kampagnen](../campaigns/create-campaign.md)
+
++++
+
++++Häufig gestellte Fragen zu RCS
+
+**Ist das native RCS Messaging mit Twilio oder Infobip verfügbar?**
+
+Nein. Der native RCS-Designer in Journey Optimizer ist nicht verfügbar, wenn SMS-Drittanbieter wie Twilio oder Infobip verwendet werden. RCS-Nachrichten können jedoch über eine [benutzerdefinierte Provider-Integration) gesendet ](mobile-configuration-custom.md).
+
+**Warum sollte man SMS zusammen mit RCS kaufen?**
+
+Um das SMS-Fallback zu ermöglichen, sollten ein SMS-Volumen und eine Kurzwahlnummer erworben werden. Dies ist der empfohlene Pfad. Wenn SMS nicht konfiguriert ist, erhalten Profile, deren Gerät oder Provider RCS nicht unterstützt, die Nachricht überhaupt nicht.
+
+**Ist natives RCS-Messaging für Sinch-Direktkunden verfügbar?**
+
+Ja. Kunden, die die Conversational API von Sinch verwenden, haben Zugriff auf das native RCS-Authoring, einschließlich Adobe Resell- und Sinch Direct-Kunden.
+
+**Ist RCS überall verfügbar?**
+
+Nein. Die Akzeptanz von Betreibern nimmt weltweit weiter zu, aber RCS wird nicht überall in allen Betreibern und Regionen unterstützt. Bei der Planung von RCS-Kampagnen sollten regionale Verfügbarkeit und Carrier-Support untersucht werden.
+
+**Wo erscheinen RCS-Meldungen auf dem Gerät?**
+
+RCS-Nachrichten werden an derselben Stelle wie Standard-SMS-Nachrichten im nativen Messaging-Programm des Geräts angezeigt. Sie kommen von einem markierten, verifizierten Absender, der den Empfängern das Vertrauenssignal gibt, zu wissen, dass die Nachricht legitim ist.
+
+**Welche Zeichenbeschränkungen gibt es für eine RCS-Nachricht?**
+
+Rich-Media-Nachrichtentypen (einzelne) unterstützen bis zu 3.072 Zeichen, was deutlich mehr ist als die Beschränkung von 160 Zeichen für Standard-SMS. Die grundlegenden RCS-Nachrichtentypen sind auf 160 Zeichen beschränkt und entsprechen dem Standard-SMS-Limit.
+
++++
+
+## Anleitungsvideos {#videos}
+
+**Konfigurieren und Senden von SMS-Nachrichten**
+
+Erfahren Sie, wie Sie SMS-Nachrichten konfigurieren, erstellen und in Ihre Journey integrieren können.
+
++++Video ansehen
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++
+
+**Informationen zu Mobile-Messaging-Funktionen**
+
+Entdecken Sie die umfassenden Mobile-Messaging-Funktionen, die Adobe Journey Optimizer Marketing-Fachleuten bietet.
+
++++Video ansehen
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+
++++
+
+**Senden von an Marken angepassten RCS-Nachrichten**
+
+Finden Sie heraus, wie Sie in Adobe Journey Optimizer an Ihre Marke angepasste, interaktive RCS-Nachrichten mithilfe eines benutzerdefinierten SMS-Anbieters konfigurieren und senden können.
+
++++Video ansehen
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
+
++++
