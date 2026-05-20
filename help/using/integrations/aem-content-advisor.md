@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie mithilfe der KI-gestützten semantischen Such
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,12 @@ Laden Sie ein Marketing-Kurzdokument hoch, um automatisch Assets zu präsentiere
 Anzeigen detaillierter Metadaten und Eigenschaften für jedes Asset mithilfe des Symbols **Info**. Dazu gehören Asset-Dimensionen, Dateigröße, Erstellungsdatum, Tags und andere relevante Informationen, die Ihnen bei fundierten Entscheidungen helfen können.
 
 ![](assets/content-advisor-6.png){zoomable="yes"}
+
++++
+
++++ Zugriff auf unternehmensübergreifende Repositorys
+
+Suchen Sie nach Assets aus Repositorys in allen Organisationen, auf die Sie Zugriff haben, und wählen Sie sie aus. Mit dieser Funktion können Sie Assets durchsuchen und verwenden, die in Repositorys verschiedener Organisationen gespeichert sind, und so einen breiteren Zugriff auf Ihre verfügbare Asset-Bibliothek ermöglichen, ohne den Authoring-Workflow von Journey Optimizer verlassen zu müssen.
 
 +++
 
