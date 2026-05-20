@@ -41,10 +41,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 91%
+source-wordcount: 943
+ht-degree: 85%
 
 ---
 
@@ -94,7 +94,7 @@ Nutzen Sie **kontextuelle Daten** aus Ereignissen, Informationen aus [!DNL Adobe
 
 **Integrierte Aktionen**
 
-Verwenden Sie **integrierte Kanalaktionen**, um in [!DNL Journey Optimizer] entworfene Nachrichten per E-Mail, Push, SMS/MMS und mehr zu senden.
+Verwenden Sie **integrierten Kanalaktionen** um in [!DNL Journey Optimizer] entworfene Nachrichten per E-Mail, Push, SMS/RCS/MMS und mehr zu senden.
 
 [Senden von Nachrichten in Journeys](journey-action.md)
 :::
@@ -135,7 +135,7 @@ Testen Sie Ihre Journeys vor der Veröffentlichung, überwachen Sie deren Leistu
 
 Vom Journey-Designer aus können Marketing-Fachleute in Echtzeit ausgelöste 1:1-Nachrichten über jeden Kanal senden, wenn ein Ereignis auftritt. Wenn Kundinnen oder Kunden beispielsweise einen Service abonnieren, kann dies [das Versenden einer Begrüßungs-E-Mail auslösen](message-to-subscribers-uc.md), in der sie aufgefordert werden, sich zum ersten Mal bei der App anzumelden und ihre Voreinstellungen festzulegen. Aktionen wie der Abschluss des Kaufs, das Öffnen der E-Mail und die Anmeldung bei der App können verwendet werden, damit neue Kundinnen und Kunden in ihrer Journey fortfahren.
 
-Der [Journey-Designer](using-the-journey-designer.md) bietet [integrierte Kanalaktionen](journey-action.md), die ausgehende Nachrichten wie E-Mails, Push-Benachrichtigungen und SMS/MMS sowie eingehende Kanäle wie Apps, Websites und Code-basierte Erlebnisse unterstützen, die direkt in Journey Optimizer erstellt werden. Sie können auch Drittanbietersysteme verwenden, um Nachrichten zu senden. Journey Optimizer umfasst [benutzerdefinierte Aktionen](using-custom-actions.md), mit denen diese Systeme direkt über den Journey-Designer in Journeys integriert werden können.
+Der [Journey-Designer](using-the-journey-designer.md) bietet [integrierte Kanalaktionen](journey-action.md) die ausgehende Nachrichten wie E-Mails, Push-Benachrichtigungen und SMS/RCS/MMS sowie eingehende Kanäle unterstützen, einschließlich Mobile Apps, Websites und Code-basierte Erlebnisse, die direkt in Journey Optimizer erstellt wurden. Sie können auch Drittanbietersysteme verwenden, um Nachrichten zu senden. Journey Optimizer umfasst [benutzerdefinierte Aktionen](using-custom-actions.md), mit denen diese Systeme direkt über den Journey-Designer in Journeys integriert werden können.
 
 
 :::: landing-cards-container

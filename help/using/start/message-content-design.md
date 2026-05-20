@@ -33,10 +33,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 618
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ Erstellen Sie überzeugende Push-Benachrichtigungen für iOS und Android, konfig
 
 Gestalten von SMS- und MMS-Nachrichten
 
-Erstellen Sie personalisierte Textnachrichten mit SMS, verbessern Sie die Kommunikation mit Multimedia-Inhalten mithilfe von MMS und nutzen Sie dynamische Inhalte für zielgerichtetes Messaging.
+Erstellen Sie personalisierte mobile Nachrichten mit SMS, verbessern Sie die Kommunikation mit Multimedia-Inhalten mithilfe von MMS und nutzen Sie dynamische Inhalte für zielgerichtetes Messaging.
 
 [Erstellen von Textnachrichten](../mobile/create-mobile-message.md)
 :::

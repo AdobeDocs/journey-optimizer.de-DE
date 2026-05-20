@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Mobile-Nachrichten
-description: Erfahren Sie, wie Sie in Journey Optimizer Textnachrichten erstellen, testen und veröffentlichen.
+description: Erfahren Sie, wie Sie in Journey Optimizer Mobile-Nachrichten erstellen und senden
 feature: SMS
 topic: Content Management
 role: User
@@ -30,10 +30,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 30%
+source-wordcount: 1006
+ht-degree: 24%
 
 ---
 
@@ -69,7 +69,7 @@ Mobile Nachrichten können in einer Journey oder in einer Kampagne mithilfe der 
 
 ## Konfigurationsanforderungen {#configuration-requirements}
 
-Bevor Sie Textnachrichten senden, müssen Sie Folgendes tun:
+Bevor Sie Nachrichten an Mobilgeräte senden, müssen Sie Folgendes tun:
 
 1. **Wählen eines SMS-Anbieters**: Wählen Sie aus Sinch, Twilio, Infobip oder konfigurieren Sie einen benutzerdefinierten Anbieter
 2. **Einrichten von API-Anmeldeinformationen**: Integrieren Sie die API-Token und Service-IDs Ihres Anbieters in Journey Optimizer
@@ -90,7 +90,7 @@ Für die Verwendung von RCS in Journey Optimizer sind folgende Voraussetzungen e
 
 ## Weitere Ressourcen {#additional-resources}
 
-Weitere Informationen zu Textnachrichten in Journey Optimizer finden Sie in den folgenden Themen.
+Weitere Informationen zu Mobile Messaging in Journey Optimizer finden Sie in den folgenden Themen.
 
 +++Konfigurationshandbücher
 
@@ -115,11 +115,11 @@ Detaillierte Konfiguration für jeden SMS-Dienstleister:
 
 +++Inhaltserstellung und -verwaltung
 
-Erstellen, personalisieren und verwalten Sie den Inhalt von Textnachrichten:
+Erstellen, personalisieren und verwalten Sie Ihre Mobile-Nachrichteninhalte:
 
-* [Erstellen von SMS-/MMS-Nachrichten](create-mobile-message.md)
+* [SMS-/RCS-/MMS-Nachrichten erstellen](create-mobile-message.md)
 * [Anzeigen einer Vorschau, Testen und Senden von Nachrichten](send-mobile-message.md)
-* [Personalisierung in Textnachrichten](../personalization/personalize.md)
+* [Personalization in mobilen Nachrichten](../personalization/personalize.md)
 * [Dynamische Inhalte](../personalization/get-started-dynamic-content.md)
 * [Generieren von SMS-Inhalt mit dem KI-Assistenten](../content-management/generative-text.md)
 
@@ -127,7 +127,7 @@ Erstellen, personalisieren und verwalten Sie den Inhalt von Textnachrichten:
 
 +++Compliance und Datenschutz
 
-Stellen Sie sicher, dass Ihre Textnachrichten den Vorschriften und Datenschutzstandards entsprechen:
+Stellen Sie sicher, dass Ihre Mobile-Messaging-Richtlinie den Vorschriften und Datenschutzstandards entspricht:
 
 * [Opt-out-Verwaltung](mobile-opt-out.md)
 * [Datenschutz und Einverständniserklärung](../privacy/opt-out.md#opt-out-decision-management)

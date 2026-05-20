@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1035
-ht-degree: 93%
+source-wordcount: 1036
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 93%
 
 ## Erste Schritte mit SMS-Subdomains {#gs-sms-mms-subdomains}
 
-Um die URLs zu Ihren SMS/MMS-Nachrichten kürzen zu können, müssen Sie die Subdomain einrichten, die Sie beim [Erstellen einer SMS-Konfiguration](mobile-configuration.md#sms-prerequisites) auswählen.
+Um die URLs zu Ihren SMS-/RCS-/MMS-Nachrichten kürzen zu können, müssen Sie die Subdomain einrichten, die Sie auswählen, wenn Sie [eine SMS-Konfiguration erstellen](mobile-configuration.md#sms-prerequisites).
 
 Sie können entweder eine Subdomain verwenden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden Sie in [diesem Abschnitt](../configuration/delegate-subdomain.md).
 

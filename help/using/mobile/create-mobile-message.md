@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 747
-ht-degree: 49%
+source-wordcount: 748
+ht-degree: 36%
 
 ---
 
@@ -38,24 +38,24 @@ ht-degree: 49%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Erstellen einer Textnachricht"
+>title="Erstellen einer Mobile-Nachricht"
 >abstract="Um eine Nachricht für Mobilgeräte zu erstellen, fügen Sie eine SMS-Aktion in einer Journey oder einer Kampagne hinzu und beginnen Sie mit der Personalisierung mit dem Personalisierungseditor."
 
 >[!AVAILABILITY]
 >
 >RCS ist kein HIPAA-fähiger Service und darf nicht zur Erfassung, Speicherung oder Verarbeitung sensibler personenbezogener Daten verwendet werden, einschließlich zulässiger Gesundheitsdaten, z. B. persönlicher Gesundheitsinformationen, die Ihr Unternehmen ansonsten möglicherweise in Journey Optimizer verarbeiten darf.
 
-Mit Adobe Journey Optimizer können Sie Text- (SMS), Rich Communication- (RCS) und Multimedia-Nachrichten (MMS) entwerfen und versenden. Zunächst müssen Sie eine Aktion für Mobilnachrichten in einer Journey oder einer Kampagne hinzufügen und dann den Inhalt der Textnachricht definieren, wie unten beschrieben. Adobe Journey Optimizer bietet auch die Möglichkeit, Ihre Textnachrichten vor dem Versand zu testen, sodass Sie das Rendering, die Personalisierungsattribute und alle anderen Einstellungen überprüfen können.
+Mit Adobe Journey Optimizer können Sie Text- (SMS), Rich Communication- (RCS) und Multimedia-Nachrichten (MMS) entwerfen und versenden. Zunächst müssen Sie eine Aktion für Mobilnachrichten in einer Journey oder einer Kampagne hinzufügen und dann den Inhalt der Mobilnachricht definieren, wie unten beschrieben. Adobe Journey Optimizer bietet außerdem Funktionen zum Testen Ihrer Mobile-Nachrichten vor dem Senden, damit Sie das Rendering, die Personalisierungsattribute und alle anderen Einstellungen überprüfen können.
 
-In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS/MMS-Marketing-Nachrichten eine Möglichkeit für die Empfängerinnen und Empfänger enthalten, ihr Abo einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. [Informationen über die Verwaltung des Opt-outs](../privacy/opt-out.md#opt-out-decision-management)
+In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-/RCS-/MMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abonnement einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. [Informationen über die Verwaltung des Opt-outs](../privacy/opt-out.md#opt-out-decision-management)
 
-## Hinzufügen einer Textnachricht {#create-sms-journey-campaign}
+## Mobile-Nachricht hinzufügen {#create-sms-journey-campaign}
 
 Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Mobile-Nachricht zu einer Kampagne oder einer Journey hinzufügen.
 
 >[!BEGINTABS]
 
->[!TAB Hinzufügen einer Textnachricht zu einer Journey]
+>[!TAB Hinzufügen einer Mobile-Nachricht zu einer Journey]
 
 1. Öffnen Sie Ihren Journey und ziehen Sie eine **[!UICONTROL Aktion]**-Aktivität per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette. Weitere Informationen über die [Aktionsaktivität](../building-journeys/journey-action.md).
 
@@ -83,7 +83,7 @@ Auf den folgenden Registerkarten erfahren Sie, wie Sie eine Mobile-Nachricht zu 
 
 Weitere Informationen zum Erstellen, Konfigurieren und Veröffentlichen einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
->[!TAB Hinzufügen einer Textnachricht zu einer Kampagne]
+>[!TAB Hinzufügen einer Mobile-Nachricht zu einer Kampagne]
 
 1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
 
@@ -118,7 +118,7 @@ Weitere Informationen zum Erstellen, Konfigurieren und Veröffentlichen einer Jo
    * Wöchentlich
    * Monat
 
-Sie können jetzt mit der Erstellung des Inhalts Ihrer Textnachricht beginnen, indem Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** anklicken, wie unten beschrieben. [Weitere Informationen](design-mobile.md)
+Sie können jetzt mit der Erstellung des Inhalts Ihrer Mobile-Nachricht beginnen, indem Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** verwenden, wie unten beschrieben. [Weitere Informationen](design-mobile.md)
 
 Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [&#x200B; Seite](../campaigns/get-started-with-campaigns.md).
 
@@ -128,7 +128,7 @@ Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne
 
 * [Gestalten einer Mobile-Nachricht](design-mobile.md)
 * [Hinzufügen einer Nachricht in einer Kampagne](../campaigns/create-campaign.md)
-* [Vorschau, Test und Versand Ihrer Textnachricht](send-mobile-message.md)
+* [Vorschau, Testen und Senden Ihrer Mobile-Nachricht](send-mobile-message.md)
 * [Konfigurieren des mobilen Nachrichtenkanals](mobile-configuration.md)
 * [Mobile-Nachrichtenberichte](../reports/journey-global-report-cja-sms.md)
 

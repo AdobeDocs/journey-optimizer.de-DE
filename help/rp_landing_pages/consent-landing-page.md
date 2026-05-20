@@ -5,7 +5,7 @@ title: Einverständnisverwaltung
 description: Einverständnisverwaltung
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 31%
@@ -58,4 +58,4 @@ Erfahren Sie, wie Sie Abonnementthemen und Kanalvoreinstellungen mithilfe von Ei
 - **[Erste Schritte mit dem Datenschutz](../using/privacy/get-started-privacy.md)** - Überblick über die Datenschutzverwaltung in Journey Optimizer, einschließlich Datenanfragen und Auditprotokollen.
 - **[Data Governance](../using/action/action-privacy.md)** - Schützen Sie sensible Felder vor dem Export in Drittanbietersysteme durch benutzerdefinierte Aktionen.
 - **[E-Mail-Opt-out verwalten](../using/email/email-opt-out.md)** - Konfigurieren Sie das Opt-out- und die Abmeldungsverarbeitung für E-Mails.
-- **[Textnachrichten-Opt-out verwalten](../using/mobile/mobile-opt-out.md)** - Konfigurieren der Abmeldung und Abmeldung von SMS/MMS/RCS.
+- **[Opt-out für Mobilgeräte verwalten](../using/mobile/mobile-opt-out.md)** - Konfigurieren der Abmeldung und Abmeldung von SMS/MMS/RCS.
