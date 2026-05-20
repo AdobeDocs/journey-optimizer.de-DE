@@ -39,10 +39,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+source-git-commit: 45054647f14fdf4b073825b4db2715a323f2a7a0
 workflow-type: tm+mt
-source-wordcount: 4226
-ht-degree: 99%
+source-wordcount: 4262
+ht-degree: 98%
 
 ---
 
@@ -212,7 +212,10 @@ In diesem Abschnitt werden Leitlinien und Einschränkungen für Journeys beschri
 
 ### Allgemeine Limits für Journey {#journeys-guardrails-journeys}
 
-* Die Anzahl der Aktivitäten in einer Journey ist auf maximal 50 begrenzt. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt. Dies unterstützt Lesbarkeit, Qualitätssicherung und Fehlerbehebung.
+* Die Anzahl der Aktivitäten in einer Journey ist auf maximal 50 begrenzt. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt.
+
+  Da die Journey sich diesem Grenzwert nähern, kann die Bearbeitungs- und Veröffentlichungsleistung beeinträchtigt sein und es können Speicher- oder Validierungsfehler auftreten. Wenn dies eintritt, teilen Sie Ihren Journey mithilfe von „Sprungaktivitäten[&#x200B; in kleinere Unterversionen auf &#x200B;](../building-journeys/jump.md) erstellen Sie ihn in einer neuen Journey. Das Aktivitätslimit kann nicht erhöht werden.
+
 * Standardmäßig ist die Anzahl der Live-/Pausen-/Probelauf-Journeys jeweils auf 100 begrenzt.  Die aktuelle Anzahl der Journeys wird über der Journey-Arbeitsfläche angezeigt.
 * Während Sie Journeys veröffentlichen, skalieren und passen wir sie automatisch an, um maximalen Durchsatz und maximale Stabilität zu gewährleisten. Wenn Sie den Meilenstein von 100 Live-Journeys gleichzeitig erreichen, wird in der UI eine Benachrichtigung zu dieser Leistung angezeigt. Wenn Sie diese Benachrichtigung sehen, aber die Notwendigkeit besteht, Ihre Journey über 100 Live-Journeys hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung, und wir helfen Ihnen bei der Erreichung Ihrer Ziele.
 * Bei Verwendung einer Zielgruppenqualifizierung in einer Journey kann es bis zu 10 Minuten dauern, bis die Aktivität aktiv ist und die Profile überwacht, die in die Zielgruppe eintreten oder sie verlassen.
