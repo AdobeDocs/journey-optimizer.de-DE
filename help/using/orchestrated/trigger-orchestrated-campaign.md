@@ -113,13 +113,13 @@ Erstellen Sie Ihre Kampagne auf der Arbeitsfläche und testen Sie sie dann in **
 
 1. Klicken Sie **[!UICONTROL Starten]**, um die Kampagne zu starten.
 
-1. Senden Sie den Trigger-API-Aufruf mit der Beispielanfrage, die Sie aus der Planung kopiert haben. Details zu Anfragen und Antworten finden Sie unter [](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} API für orchestrierte Kampagnen in Trigger.
+1. Senden Sie den Trigger-API-Aufruf mit der Beispielanfrage, die Sie aus der Planung kopiert haben. Details zu Anfragen und Antworten finden Sie unter [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} API für orchestrierte Kampagnen in Trigger.
 
-Wenn Sie mit den Testergebnissen zufrieden sind, veröffentlichen [ die Kampagne](#publish).
+Wenn Sie mit den Testergebnissen zufrieden sind, veröffentlichen [&#x200B; die Kampagne](#publish).
 
 ## Veröffentlichen und Trigger der Kampagne {#publish}
 
-Nachdem Sie [ Kampagne getestet haben](#build-and-test) veröffentlichen Sie sie, damit sie ein Signal von Ihrer Anwendung oder der Aktivität **[!UICONTROL Ende]** einer anderen Kampagne empfangen kann. [Weitere Informationen zum Starten und Überwachen der Kampagne](start-monitor-campaigns.md#publish).
+Nachdem Sie [&#x200B; Kampagne getestet haben](#build-and-test) veröffentlichen Sie sie, damit sie ein Signal von Ihrer Anwendung oder der Aktivität **[!UICONTROL Ende]** einer anderen Kampagne empfangen kann. [Weitere Informationen zum Starten und Überwachen der Kampagne](start-monitor-campaigns.md#publish).
 
 Sie können ihn dann über die REST-API oder die Aktivität „Ende **[!UICONTROL einer anderen Kampagne]**. Siehe die folgenden Abschnitte.
 
@@ -133,7 +133,7 @@ Führen Sie nach der Veröffentlichung jedes Mal, wenn Sie die Kampagne aus Ihre
 
    ![Kopieren einer API-Anfrage in der Zeitplankonfiguration](assets/triggered-oc-copy.png)
 
-1. Rufen Sie die Trigger-API von Ihrem System aus auf. Siehe [API für orchestrierte Trigger ](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} für die Live-Endpunktspezifikation.
+1. Rufen Sie die Trigger-API von Ihrem System aus auf. Siehe [API für orchestrierte Trigger &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} für die Live-Endpunktspezifikation.
 
    >[!IMPORTANT]
    >
