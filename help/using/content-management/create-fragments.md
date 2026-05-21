@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 94%
+source-wordcount: 980
+ht-degree: 80%
 
 ---
 
@@ -116,6 +116,30 @@ Wenn Ihr Inhalt fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Spei
 >Visuelle Fragmente dürfen 100 KB nicht überschreiten. Ausdrucksfragmente dürfen 200 KB nicht überschreiten.
 
 Das Fragment wird erstellt und mit dem Status **[!UICONTROL Entwurf]** zur Fragmentliste hinzugefügt. Sie können eine Vorschau davon anzeigen und es veröffentlichen, um es in Journeys und Kampagnen verfügbar zu machen.
+
+### Sperren eines visuellen Fragments {#lock-visual-fragment}
+
+Wenn Sie ein visuelles Fragment erstellen oder bearbeiten, können Sie es sperren, damit die Bearbeiter es bei der Verwendung in E-Mails nicht ändern oder trennen können.
+
+Durch Auswahl dieser Option wird sichergestellt, dass das Fragment überall synchronisiert bleibt, wo es verwendet wird. Dies hilft bei der Durchsetzung der Marke, der Aufrechterhaltung der Konsistenz und der Einhaltung rechtlicher Anforderungen.
+
+Gehen Sie wie folgt vor, um ein visuelles Fragment zu sperren.
+
+1. Wechseln Sie im Bildschirm zur Inhaltsbearbeitung zur Registerkarte **[!UICONTROL Einstellungen]** .
+
+1. Standardmäßig ist das Fragment entsperrt. Wählen Sie **[!UICONTROL Unterbrechung der Vererbung verhindern]** aus, um das Fragment zu sperren.
+
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**.
+
+   >[!NOTE]
+   >
+   >Diese Einstellung kann jederzeit aktualisiert werden. Änderungen gelten jedoch nur für zukünftige Verwendungen. Vorhandene E-Mails, die dieses Fragment verwenden, werden nicht geändert.
+
+![](assets/fragment-lock.png){width="70%" align="center"}
+
+Wenn Sie dieses Fragment jetzt in einer E-Mail verwenden, ist es gesperrt und kann nicht vom ursprünglichen Fragment getrennt werden. [Weitere Informationen](../email/use-visual-fragments.md#locked-fragments)
+
+Neue Aktualisierungen des ursprünglich gesperrten Fragments werden automatisch auf alle E-Mails übertragen, in denen es verwendet wird.
 
 ## Erstellen einer Vorschau und Veröffentlichen des Fragments {#publish}
 

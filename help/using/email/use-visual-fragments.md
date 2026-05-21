@@ -33,10 +33,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 1029
-ht-degree: 93%
+source-wordcount: 1104
+ht-degree: 87%
 
 ---
 
@@ -169,3 +169,17 @@ Gehen Sie wie folgt vor, um die Vererbung zu unterbrechen:
    ![](assets/fragment-break-inheritance.png)
 
 1. Dieses Fragment wird dann zu einem eigenständigen Element, das nicht mehr mit dem ursprünglichen Fragment verknüpft ist. Bearbeiten Sie es wie jede andere Inhaltskomponente in Ihrem Inhalt. [Weitere Informationen](content-components.md)
+
+### Gesperrte Fragmente {#locked-fragments}
+
+Wenn das Fragment von seinem Autor gesperrt wurde, ist das Entsperrsymbol grau dargestellt und kann nicht zum Unterbrechen der Vererbung verwendet werden.
+
+![](assets/fragment-locked.png)
+
+Gesperrte Fragmente bleiben überall synchronisiert, wo sie angezeigt werden. Dadurch werden lokale Bearbeitungen verhindert, die Markenstandards oder Compliance-Anforderungen beeinträchtigen könnten.
+
+Erfahren Sie in ([&#x200B; Abschnitt), wie Sie ein Fragment &#x200B;](../content-management/create-fragments.md#lock-visual-fragment).
+
+>[!NOTE]
+>
+>Der Fragmentautor kann die Einstellung für zukünftige Verwendungen später ändern, indem er in den Fragmenteinstellungen sein Verhalten **[!UICONTROL Unterbrechung der Vererbung zulassen]** zurücksetzt.
