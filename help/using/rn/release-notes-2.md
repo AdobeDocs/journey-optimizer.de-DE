@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 hide: true
-source-git-commit: bd22257dbb42de3c1b180566b38f5cf406bf72bb
+source-git-commit: 6f67786674f995422a5add1600d7f0dbfe915067
 workflow-type: tm+mt
-source-wordcount: '2853'
+source-wordcount: '2835'
 ht-degree: 18%
 
 ---
@@ -217,8 +217,6 @@ Die folgende koordinierte Kampagnenfunktion wird in den kommenden Tagen oder Woc
 </table>
 
 ### Kampagnen {#may-26-campaigns}
-
-Die folgenden Verbesserungen bei Campaign werden in den kommenden Tagen oder Wochen erwartet - siehe Abschnitt [In Kürze verfügbar](#may-26-campaigns-coming-soon) unten.
 
 #### Demnächst {#may-26-campaigns-coming-soon}
 
