@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 hide: true
-source-git-commit: 44d4da2b621b108fa5828e70a77568ae59662d0e
+source-git-commit: d03638d47298503c0434bf26e97f244b09b1fb0e
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 20%
+source-wordcount: '2397'
+ht-degree: 21%
 
 ---
 
@@ -291,9 +291,9 @@ ht-degree: 20%
 
 **Bald verfügbar**
 
-* **E-Mail-Absenderdetails nach Empfänger und Kampagne personalisieren** - Orchestrierte Kampagnen unterstützen jetzt die Personalisierung von E-Mail-Header-Feldern, einschließlich Absendername, Absenderadresse und Antwortadresse, mithilfe von Profilattributen oder relationalen Daten. Auf diese Weise können Absenderdetails den relevanten Berater, Standort oder die Zweigstelle für jeden Empfänger widerspiegeln, anstatt alle Sendungen über eine einzelne Unternehmensadresse weiterzuleiten. Header-Werte können auf Kanalebene festgelegt und pro Kampagne mithilfe von kontextuellen Daten überschrieben werden.
+Header-Werte können auf Kanalebene festgelegt und pro Kampagne überschrieben werden, indem kontextuelle Daten verwendet werden, um die Kontrolle zu verbessern.
 
-  Verfügbarkeitsdatum: 1. Juni 2026
+Verfügbarkeitsdatum: 1. Juni 2026
 
 * **Rich-Text in bearbeitbaren Fragmentfeldern** - Sie können jetzt anpassbaren Fragmenten, die in Ihrem E-Mail-Inhalt verwendet werden, Rich-Text hinzufügen. Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.
 
