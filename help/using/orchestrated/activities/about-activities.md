@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 78%
+source-wordcount: 530
+ht-degree: 68%
 
 ---
 
@@ -31,13 +31,17 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 
 ![Liste der auf der Arbeitsfläche verfügbaren Aktivitäten](../assets/orchestrated-activities.png){width="80%" align="left"}
 
-
 >[!NOTE]
 >
->* Je nach Ihrem Lizenzmodell, Ihren Berechtigungen und Ihrer Implementierung können die verfügbaren Aktivitäten unterschiedlich sein.
->
->* Die Anzahl der Aktivitäten in einer orchestrierten Kampagne ist auf maximal 500 begrenzt.
+>Je nach Ihrem Lizenzmodell, Ihren Berechtigungen und Ihrer Implementierung können die verfügbaren Aktivitäten unterschiedlich sein.
 
+## Leitlinien und Einschränkungen {#activity-guardrails}
+
+* **Kanalaktivitätslimit** - Eine orchestrierte Kampagne unterstützt maximal 10 Kanalaktivitäten bei der Veröffentlichung (E-Mail, SMS, Push oder Briefpost). Zielgruppenbestimmungs- und Flusssteuerungsaktivitäten werden nicht auf diese Grenze angerechnet.
+
+* **Maximale Anzahl der** auf der Arbeitsfläche: Die Anzahl der Aktivitäten auf der Arbeitsfläche ist auf 500 begrenzt. Halten Sie Workflows aus Gründen der Wartbarkeit und Leistung in der Praxis unter 100 Aktivitäten.
+
+Siehe [Leitplanken und Einschränkungen](../guardrails.md) für alle Leitplanken und Einschränkungen für orchestrierte Kampagnen.
 
 ## Targeting-Aktivitäten {#targeting}
 

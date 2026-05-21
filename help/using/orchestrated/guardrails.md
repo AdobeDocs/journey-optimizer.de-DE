@@ -17,10 +17,10 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 94%
+source-wordcount: 734
+ht-degree: 12%
 
 ---
 
@@ -32,73 +32,79 @@ Unten finden Sie zusätzliche Leitlinien und Einschränkungen bei der Verwendung
 
 ### Datendesign und -speicherung
 
-* Der relationale Datenspeicher unterstützt **maximal 200 Tabellen** (Schemata).
+* **Maximale Tabellen** - Der relationale Datenspeicher unterstützt maximal 200 Tabellen (Schemata).
 
-* Bei orchestrierten Kampagnen darf die Gesamtgröße eines einzelnen Schemas **100 GB nicht überschreiten**.
+* **Schemagröße** - Bei orchestrierten Kampagnen darf die Gesamtgröße eines einzelnen Schemas 100 GB nicht überschreiten.
 
-* Tägliche Aktualisierungen eines Schemas sollten auf **weniger als 20 %** der Gesamtzahl der Einträge beschränkt werden, um Leistung und Stabilität zu gewährleisten.
+* **Tägliches Aktualisierungsvolumen** - Tägliche Aktualisierungen eines Schemas sollten auf weniger als 20 % der gesamten Datensatzanzahl beschränkt sein, um die Leistung und Stabilität zu gewährleisten.
 
-* Relationale Daten sind das primäre Modell, das für die Anwendungsszenarien Aufnahme, Datenmodellierung und Segmentierung unterstützt wird.
+* **Relationales Datenmodell** - Relationale Daten sind das primäre Modell, das für die Aufnahme, Datenmodellierung und Segmentierung von Anwendungsfällen unterstützt wird.
 
-* Schemata, die dem Targeting dienen, müssen mindestens **ein Identitätsfeld vom Typ`String`** enthalten, das einem definierten Identity-Namespace zugeordnet ist.
+* **Identitätsfeld** - Schemata, die für die Zielgruppenbestimmung verwendet werden, müssen mindestens ein Identitätsfeld vom Typ `String` enthalten, das einem definierten Identity-Namespace zugeordnet ist.
 
-* Die durchschnittliche Anzahl von Attributen pro Schema **sollte 50 Spalten nicht überschreiten**, um Verwaltbarkeit und Leistung zu gewährleisten.
+* **Attribute pro Schema** - Die durchschnittliche Anzahl von Attributen pro Schema sollte 50 Spalten nicht überschreiten, um Verwaltbarkeit und Leistung zu erhalten.
 
-* Relationale Schemata können nicht für Adobe Experience Platform-**Profile** aktiviert werden. Bei Adobe Experience Platform-**Profilen** werden nur standardmäßige XDM-Schemata unterstützt. Relationale Schemata können für orchestrierte Kampagnen oder Aktionskampagnen aktiviert werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **Profilaktivierung** - Relationale Schemata können nicht für Adobe Experience Platform-Profile aktiviert werden. Für Adobe Experience Platform-Profile werden nur standardmäßige XDM-Schemata unterstützt. Relationale Schemata können für orchestrierte Kampagnen oder Aktionskampagnen aktiviert werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Datenaufnahme {#data-ingestion}
 
-* Profil und relationale Datenaufnahme sind erforderlich.
+* **Profil- und relationale Aufnahme** - Die Aufnahme von Profil und relationalen Daten ist erforderlich.
 
-* Alle Aufnahmen müssen über **Change Data Capture**-Quellen erfolgen:
+* **Ändern von Datenerfassungsquellen** - Alle Aufnahmen müssen über eine Änderung der Datenerfassungsquellen erfolgen:
 
-   * Falls **dateibasiert**: Das Feld `_change_request_type` ist erforderlich. Unterstützte Werte sind `u` (upsert) oder `d` (delete). Diese Werte müssen kleingeschrieben sein (`u` und `d`), nicht großgeschrieben (`U` und `D`).
+   * **Dateibasierte Quellen** - Das `_change_request_type` Feld ist erforderlich. Unterstützte Werte sind `u` (upsert) oder `d` (delete). Diese Werte müssen kleingeschrieben sein (`u` und `d`), nicht großgeschrieben (`U` und `D`).
 
-   * Falls **Cloud-basiert**: Die Tabellenprotokollierung muss aktiviert sein.
+   * **Cloud-basierte Quellen** - Die Tabellenprotokollierung muss aktiviert sein.
 
-* **Teilaktualisierungen sind nicht zulässig**, sondern jede Zeile muss als vollständiger Eintrag angegeben werden.
+* **Nur vollständige Datensätze** - Teilweise Aktualisierungen von Datensätzen sind nicht zulässig; jede Zeile muss als vollständiger Datensatz bereitgestellt werden.
 
-* Die Batch-Aufnahme für die Kampagnenorchestrierung ist auf **einmal alle 15 Minuten** begrenzt.
+* **Batch-Aufnahme** - Die Batch-Aufnahme für die Kampagnenorchestrierung ist auf einmal alle 15 Minuten beschränkt.
 
-* Die Aufnahmelatenz im relationalen Speicher beträgt in der Regel **15 Minuten bis 2 Stunden**, abhängig von:
+* **Aufnahmelatenz** - Die Aufnahmelatenz im relationalen Speicher liegt in der Regel zwischen 15 Minuten und 2 Stunden, abhängig von:
 
    * Datenvolumen
 
    * System-Parallelität
 
-   * Art des Vorgangs (z. B. sind Einfügungen schneller als Aktualisierungen)
+   * Art des Vorgangs (z. B. sind Einfügungen schneller als Aktualisierungen)
 
-* **Beziehung Datenfluss zu Datensatz ist 1:1**. Dies bedeutet, dass jeweils nur eine Quelle einen Datensatz befüllen kann. Um die Quelle zu wechseln, muss der vorhandene Datenfluss gelöscht und ein neuer Datenfluss mit der neuen Quelle erstellt werden.
+* **Datenfluss-Datensatz-Beziehung** - Die Beziehung zwischen Datenfluss und Datensatz ist 1-1. Es kann jeweils nur eine Quelle für einen Datensatz verwendet werden. Um die Quelle zu wechseln, löschen Sie den vorhandenen Datenfluss und erstellen Sie einen neuen Datenfluss mit der neuen Quelle.
 
 ### Datenmodellierung
 
-* Alle Schemata, einschließlich Faktentabellen, müssen **einen Versionsdeskriptor** enthalten, um eine ordnungsgemäße Versionskontrolle und Rückverfolgbarkeit zu gewährleisten.
+* **Versionsdeskriptor** - Alle Schemata, einschließlich Faktentabellen, müssen einen Versionsdeskriptor enthalten, um eine ordnungsgemäße Versionskontrolle und Rückverfolgbarkeit sicherzustellen.
 
-* Jede Tabelle muss über einen definierten **Primärschlüssel** verfügen, um Datenintegrität und nachgelagerte Vorgänge zu unterstützen.
+* **Primärer Schlüssel** - Jede Tabelle muss über einen definierten Primärschlüssel verfügen, um die Datenintegrität und nachgelagerte Vorgänge zu unterstützen.
 
-* Der bei der Erstellung des Datensatzes zugewiesene `table_name` ist dauerhaft und wird in allen Segmentierungs- und Personalisierungsfunktionen verwendet.
+* **Dauerhafter Tabellenname** - Die während der Datensatzerstellung zugewiesene `table_name` ist dauerhaft und wird in allen Segmentierungs- und Personalisierungsfunktionen verwendet.
 
-* Im aktuellen Datenmodellierungs-Framework **werden Feldergruppen nicht unterstützt**.
+* **Feldergruppen** - Feldergruppen werden im aktuellen Datenmodellierungs-Framework nicht unterstützt.
 
-* Die Unterstützung für zusammengesetzte Primärschlüssel mit Datei-Upload-Flüssen ist derzeit nicht verfügbar.
+* **Zusammengesetzte Primärschlüssel** - Die Unterstützung für zusammengesetzte Primärschlüssel mit Datei-Upload-Flüssen ist derzeit nicht verfügbar.
 
-## Einschränkungen bei Aktivitäten
+## Einschränkungen bei Aktivitäten {#activities-limitations}
 
-* In Zielgruppendefinitionen werden nur **Skalarattribute unterstützt** (**Zuordnungen und Arrays sind nicht zulässig**).
+* **Kanalaktivitätslimit** - Eine orchestrierte Kampagne unterstützt maximal 10 Kanalaktivitäten (E-Mail, SMS, Push oder Briefpost). Für dieses Limit zählen nur Kanalaktivitäten. Zielgruppenbestimmungs- und Flusssteuerungsaktivitäten werden nicht gezählt (z. B. Zielgruppe aufbauen, Warten, Aufspaltung, Anreicherung, Abstimmung, Verzweigung, Ende oder Test).
 
-* **Segmentierungsaktivitäten basieren hauptsächlich auf relationalen Daten**. Es können zwar Profildaten enthalten sein, doch kann die Verwendung großer Profildatensätze die Leistung beeinträchtigen.
+  Wenn Sie das Limit beim Speichern oder Veröffentlichen überschreiten, schlägt der Vorgang fehl. Um innerhalb des Limits zu bleiben, reduzieren Sie die Anzahl der Kanalaktivitäten oder teilen Sie den Nachrichtenversand auf mehrere orchestrierte Kampagnen auf.
 
-* **Beschränkungen werden für die Anzahl der Profilattribute durchgesetzt**, die sowohl in Batch- als auch in Streaming-Zielgruppen verwendet werden können. Das dient der Wahrung der Systemeffizienz.
+* **Limit für Canvas** - Die Anzahl der Aktivitäten auf einer orchestrierten Kampagnen-Arbeitsfläche ist auf 500 begrenzt. Diese Beschränkung gilt für alle Aktivitätstypen auf der Arbeitsfläche. Dies ist vom Kanalaktivitätslimit, das bei der Veröffentlichung erzwungen wird, getrennt. Halten Sie Workflows aus Gründen der Wartbarkeit und Leistung in der Praxis unter 100 Aktivitäten.
 
-* **Auflistungen** werden vollständig unterstützt.
+* **Nur Skalarattribute** - In Zielgruppendefinitionen werden nur Skalarattribute unterstützt. Zuordnungen und Arrays sind nicht zulässig.
 
-* **Gelesene Zielgruppen werden nicht zwischengespeichert**, sondern bei jeder Kampagnenausführung wird eine vollständige Zielgruppenauswertung aus den zugrundeliegenden Daten ausgelöst.
+* **Relationale Daten für die Segmentierung** - Segmentierungsaktivitäten basieren hauptsächlich auf relationalen Daten. Es können zwar Profildaten enthalten sein, doch kann die Verwendung großer Profildatensätze die Leistung beeinträchtigen.
 
-* Eine **Optimierung wird dringend empfohlen**, wenn Sie mit Definitionen für große oder komplexe Zielgruppen arbeiten, um die Leistung zu wahren.
+* **Profilattributbeschränkungen** - Beschränkungen werden für die Anzahl der Profilattribute erzwungen, die sowohl in Batch- als auch in Streaming-Zielgruppen verwendet werden können, um die Systemeffizienz zu erhalten.
 
-* **Gespeicherte Zielgruppenaktivitäten sind statisch**. Sie spiegeln die zum Zeitpunkt der Kampagnenausführung verfügbaren Daten wider.
+* **Auflistungen** - Auflistungen werden vollständig unterstützt.
 
-* **Das Anhängen an eine Aktivität vom Typ „Gespeicherte Zielgruppe“ wird nicht unterstützt**. Jede Änderung erfordert eine vollständige Überschreibung der Zielgruppe.
+* **Zielgruppen lesen nicht zwischengespeichert** - Zielgruppen lesen werden nicht zwischengespeichert; bei jeder Kampagnenausführung wird eine vollständige Zielgruppenauswertung aus den zugrunde liegenden Daten Trigger.
+
+* **Zielgruppenoptimierung** - Eine Optimierung wird dringend empfohlen, wenn Sie mit großen oder komplexen Zielgruppendefinitionen arbeiten, um die Leistung sicherzustellen.
+
+* **Gespeicherte Zielgruppen sind statisch** - Gespeicherte Zielgruppenaktivitäten sind statisch und spiegeln die zum Zeitpunkt der Kampagnenausführung verfügbaren Daten wider.
+
+* **An gespeicherte Zielgruppe nicht anhängen** - Das Anfügen an eine Aktivität vom Typ „Gespeicherte Zielgruppe“ wird nicht unterstützt. Jede Änderung erfordert eine vollständige Überschreibung der Zielgruppe.
 
 ## Kanalbeschränkungen
 

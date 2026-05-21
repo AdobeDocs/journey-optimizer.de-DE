@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 61%
+source-wordcount: 1883
+ht-degree: 58%
 
 ---
 
@@ -77,9 +77,15 @@ Beispiel:
 
 Mithilfe von Kanalaktivitäten können Sie umfassende und personalisierte Kampagnen erstellen, die Kundinnen und Kunden über mehrere Touchpoints hinweg ansprechen, und Konversionen fördern.
 
->[!CAUTION]
->
->In orchestrierten Kampagnen werden nur die Kanäle SMS, Push, E-Mail und Briefpost unterstützt.
+## Leitlinien und Einschränkungen {#channel-guardrails}
+
+* **Unterstützte Kanäle** - In orchestrierten Kampagnen werden nur die Kanäle SMS, Push, E-Mail und Briefpost unterstützt.
+
+* **Kanalaktivitätslimit** - Eine orchestrierte Kampagne unterstützt maximal 10 Kanalaktivitäten (E-Mail, SMS, Push oder Briefpost). Nur Kanalaktivitäten zählen für dieses Limit; Targeting- und Flusssteuerungsaktivitäten nicht.
+
+  Wenn Sie das Limit beim Speichern oder Veröffentlichen überschreiten, schlägt der Vorgang fehl. Um innerhalb des Limits zu bleiben, reduzieren Sie die Anzahl der Kanalaktivitäten oder teilen Sie den Nachrichtenversand auf mehrere orchestrierte Kampagnen auf.
+
+Siehe [Leitplanken und Einschränkungen](../guardrails.md) für alle Leitplanken und Einschränkungen für orchestrierte Kampagnen.
 
 ## Hinzufügen einer Kanalaktivität und Definieren ihrer Eigenschaften {#add}
 
