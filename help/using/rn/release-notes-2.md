@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 hide: true
-source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
+source-git-commit: 1ae72bdc97d1c3b4663b5a24a8af8e1684b32235
 workflow-type: tm+mt
-source-wordcount: '2735'
-ht-degree: 19%
+source-wordcount: '2874'
+ht-degree: 18%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->Die in diesen Versionshinweisen aufgeführten Funktionen umfassen ein **Verfügbarkeitsdatum** das angibt, wann jede Änderung in Ihrer Umgebung verfügbar wird. Einträge mit **Demnächst** sind für die Veröffentlichung in den nächsten Tagen geplant. Informationen können sich ändern.
+>Die in diesen Versionshinweisen aufgeführten Funktionen umfassen ein **Verfügbarkeitsdatum** das angibt, wann jede Änderung in Ihrer Umgebung verfügbar wird. Einträge mit **Demnächst** sind für die Veröffentlichung in den nächsten Tagen oder Wochen geplant. Die Informationen in diesen Abschnitten können sich ändern.
 
 ## Mai &#39;26 - Versionshinweise {#may-26-rn}
 
 ### Journeys {#may-26-journeys}
 
-Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey hinzugefügt. Weitere Änderungen sind auch in diesem Monat geplant - siehe Abschnitt [In Kürze verfügbar](#may-26-journeys-coming-soon) weiter unten.
+Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey hinzugefügt. Weitere Änderungen werden auch in den kommenden Tagen oder Wochen erwartet - siehe Abschnitt [In Kürze verfügbar](#may-26-journeys-coming-soon) weiter unten.
 
 <table>
 <thead>
@@ -48,7 +48,7 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey 
 <tr>
 <td>
 <p>Sie können jetzt <strong>Journey-Fragmente</strong> in Adobe Journey Optimizer erstellen. Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen.</p>
-<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente&rbrace; in </strong> Journey eingefügt werden.</p>
+<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente} in </strong> Journey eingefügt werden.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-fragments.md">ausführlichen Dokumentation</a>.</p>
@@ -114,7 +114,7 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey 
 
 #### Demnächst {#may-26-journeys-coming-soon}
 
-Die folgenden Journey-Funktionen sollen noch in diesem Monat veröffentlicht werden. Informationen können sich ändern.
+Die folgenden Journey-Funktionen werden in den nächsten Tagen oder Wochen erwartet. Informationen können sich ändern.
 
 <table>
 <thead>
@@ -170,7 +170,7 @@ Die folgenden Journey-Funktionen sollen noch in diesem Monat veröffentlicht wer
 
 ### Orchestrierte Kampagnen {#may-26-oc}
 
-Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu orchestrierten Kampagnen hinzugefügt. Weitere Änderungen sind auch in diesem Monat geplant - siehe Abschnitt [In Kürze verfügbar](#may-26-oc-coming-soon) weiter unten.
+Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu orchestrierten Kampagnen hinzugefügt. Weitere Änderungen werden auch in den kommenden Tagen oder Wochen erwartet - siehe Abschnitt [In Kürze verfügbar](#may-26-oc-coming-soon) weiter unten.
 
 <table>
 <thead>
@@ -197,7 +197,7 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu orchestr
 
 #### Demnächst {#may-26-oc-coming-soon}
 
-Die Veröffentlichung der folgenden Funktion für koordinierte Kampagnen ist für Ende dieses Monats geplant. Informationen können sich ändern.
+Die folgende koordinierte Kampagnenfunktion wird in den kommenden Tagen oder Wochen erwartet. Informationen können sich ändern.
 
 <table>
 <thead>
@@ -218,11 +218,11 @@ Die Veröffentlichung der folgenden Funktion für koordinierte Kampagnen ist fü
 
 ### Kampagnen {#may-26-campaigns}
 
-Die folgenden Verbesserungen bei Campaign sollen noch in diesem Monat veröffentlicht werden — siehe Abschnitt [in Kürze verfügbar](#may-26-campaigns-coming-soon) weiter unten.
+Die folgenden Verbesserungen bei Campaign werden in den kommenden Tagen oder Wochen erwartet - siehe Abschnitt [In Kürze verfügbar](#may-26-campaigns-coming-soon) unten.
 
 #### Demnächst {#may-26-campaigns-coming-soon}
 
-Die folgenden Verbesserungen bei Campaign sind für die Veröffentlichung im Laufe dieses Monats geplant. Informationen können sich ändern.
+Die folgenden Verbesserungen bei Campaign werden in den kommenden Tagen oder Wochen erwartet. Informationen können sich ändern.
 
 * **Kundenwarnungen für Kampagnen-Lebenszyklus-Ereignisse** - Neue Systemwarnungen benachrichtigen Sie jetzt über wichtige Lebenszyklus-Ereignisse für Aktionen und API-ausgelöste Kampagnen. Abonnieren Sie auf Sandbox-Ebene.
 
@@ -234,7 +234,7 @@ Die folgenden Verbesserungen bei Campaign sind für die Veröffentlichung im Lau
 
 ### Entscheidungsfindung {#may-26-decisioning}
 
-In dieser Version wurden die folgenden Funktionen und Verbesserungen zu Decisioning hinzugefügt. Weitere Änderungen sind auch in diesem Monat geplant - siehe Abschnitt [In Kürze verfügbar](#may-26-decisioning-coming-soon) weiter unten.
+In dieser Version wurden die folgenden Funktionen und Verbesserungen zu Decisioning hinzugefügt. Weitere Änderungen werden auch in den kommenden Tagen oder Wochen erwartet - siehe Abschnitt [In Kürze verfügbar](#may-26-decisioning-coming-soon) weiter unten.
 
 <table>
 <thead>
@@ -266,7 +266,7 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zu Decision
 
 #### Demnächst {#may-26-decisioning-coming-soon}
 
-Die Veröffentlichung der folgenden Decisioning-Funktion ist für Ende dieses Monats geplant. Informationen können sich ändern.
+Die folgende Entscheidungsfunktion wird in den kommenden Tagen oder Wochen erwartet. Informationen können sich ändern.
 
 <table>
 <thead>
@@ -287,7 +287,7 @@ Die Veröffentlichung der folgenden Decisioning-Funktion ist für Ende dieses Mo
 
 ### E-Mail-Kanal {#may-26-email}
 
-In dieser Version wurden die folgenden Funktionen und Verbesserungen zum E-Mail-Kanal hinzugefügt. Weitere Änderungen sind auch in diesem Monat geplant - siehe Abschnitt [In Kürze verfügbar](#may-26-email-coming-soon) weiter unten.
+In dieser Version wurden die folgenden Funktionen und Verbesserungen zum E-Mail-Kanal hinzugefügt. Weitere Änderungen werden auch in den kommenden Tagen oder Wochen erwartet - siehe Abschnitt [In Kürze verfügbar](#may-26-email-coming-soon) weiter unten.
 
 <table>
 <thead>
@@ -309,7 +309,7 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum E-Mail-
 
 #### Demnächst {#may-26-email-coming-soon}
 
-Die folgenden Verbesserungen am E-Mail-Kanal sind für Ende dieses Monats geplant. Informationen können sich ändern.
+Die folgenden Verbesserungen am E-Mail-Kanal werden in den kommenden Tagen oder Wochen erwartet. Informationen können sich ändern.
 
 * **E-Mail-Absenderdetails nach Empfänger und Kampagne personalisieren** - Orchestrierte Kampagnen unterstützen jetzt die Personalisierung von E-Mail-Header-Feldern, einschließlich Absendername, Absenderadresse und Antwortadresse, mithilfe von Profilattributen oder relationalen Daten. Auf diese Weise können Absenderdetails den relevanten Berater, Standort oder die Zweigstelle für jeden Empfänger widerspiegeln, anstatt alle Sendungen über eine einzelne Unternehmensadresse weiterzuleiten.
 
@@ -323,7 +323,7 @@ Die folgenden Verbesserungen am E-Mail-Kanal sind für Ende dieses Monats geplan
 
 * **Einschränkung der Vererbung bei Fragmenten** - Beim Erstellen oder Bearbeiten eines Fragments können Sie jetzt auswählen, ob es bei der Verwendung in E-Mails geändert werden kann. Durch das Sperren eines Fragments wird sichergestellt, dass es überall synchronisiert bleibt, wo es angezeigt wird. Dadurch werden lokale Bearbeitungen verhindert, die Markenstandards oder Compliance-Anforderungen beschädigen könnten. Diese Einstellung kann später aktualisiert werden und auf zukünftige Verwendungen angewendet werden.
 
-  Verfügbarkeitsdatum: 1. Juni 2026
+  Verfügbarkeitsdatum: 21. Mai 2026
 
 ### Mobile Messaging (SMS, MMS und RCS) {#may-26-mobile}
 
@@ -428,16 +428,28 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content
 
 ### Administration {#may-26-admin}
 
-Die folgenden Verbesserungen bei der Anwendung sollen noch in diesem Monat veröffentlicht werden — siehe Abschnitt [In Kürze verfügbar](#may-26-admin-coming-soon) weiter unten.
+Die folgenden Verbesserungen bei der Anwendung werden in den nächsten Tagen oder Wochen erwartet - siehe Abschnitt [In Kürze verfügbar](#may-26-admin-coming-soon) weiter unten.
 
 #### Demnächst {#may-26-admin-coming-soon}
 
-Die folgenden Verbesserungen bei der Administration sollen noch in diesem Monat veröffentlicht werden. Informationen können sich ändern.
+Die folgenden Verbesserungen der Anwendung sind in den nächsten Tagen oder Wochen zu erwarten. Informationen können sich ändern.
 
 * **Ordner für Journey und Kampagnen** - Sie können Ihre Journey und Kampagnen jetzt in Ordnern organisieren, um die Navigation und Verwaltung in der Benutzeroberfläche zu verbessern.
 
   Verfügbarkeitsdatum: 21. Mai 2026
 
 * **Datensatz mit Nachrichten-Feedback-Ereignissen, der zur Batch-Aufnahme** wird`AJO Message Feedback Event Dataset` Der wechselt vom Streaming- in den Batch-Aufnahme-Modus. Durch diese Änderung wird sichergestellt, dass die Datenaufnahme die Streaming-Aufnahmebeschränkungen nicht überschreitet. Wenn Sie diesen Datensatz in Customer Journey Analytics-Berichten verwenden oder Abfragen dafür ausführen, erwarten Sie in Zukunft eine Zunahme der Datenlatenz von bis zu 2 Stunden.
+
+  Verfügbarkeitsdatum: 1. Juni 2026
+
+### Reporting {#may-26-reporting}
+
+Die folgende Verbesserung des Reportings ist in den kommenden Tagen oder Wochen zu erwarten - siehe Abschnitt [Demnächst verfügbar](#may-26-reporting-coming-soon) unten.
+
+#### Demnächst {#may-26-reporting-coming-soon}
+
+Die folgende Verbesserung des Reportings ist in den kommenden Tagen oder Wochen zu erwarten. Informationen können sich ändern.
+
+* **Bot-Klicks für E-Mail- und SMS-Reporting ausschließen** - Neue geschätzte Metriken sind jetzt verfügbar, mit denen Sie nicht menschliche (Bot-)Interaktionen aus E-Mail- und SMS-Berichten herausfiltern können. Dazu gehören geschätzte Klicks, Clickthrough-Raten (CTR) und Clickto-Open-Raten (CTOR), die eine genauere Darstellung der echten Kundeninteraktion bieten. Vorhandene Metriken bleiben unverändert, und diese neuen Metriken können zusammen mit dem aktuellen Reporting für eine verbesserte Analyse verwendet werden.
 
   Verfügbarkeitsdatum: 1. Juni 2026
