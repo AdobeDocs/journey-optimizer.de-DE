@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 hide: true
-source-git-commit: d03638d47298503c0434bf26e97f244b09b1fb0e
+source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 21%
+source-wordcount: '2735'
+ht-degree: 19%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 21%
 
 ### Journeys {#may-26-journeys}
 
+Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey hinzugefügt. Weitere Änderungen sind auch in diesem Monat geplant - siehe Abschnitt [In Kürze verfügbar](#may-26-journeys-coming-soon) weiter unten.
+
 <table>
 <thead>
 <tr>
@@ -46,7 +48,7 @@ ht-degree: 21%
 <tr>
 <td>
 <p>Sie können jetzt <strong>Journey-Fragmente</strong> in Adobe Journey Optimizer erstellen. Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen.</p>
-<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente&rbrace; in </strong> Journey eingefügt werden.</p>
+<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente} in </strong> Journey eingefügt werden.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-fragments.md">ausführlichen Dokumentation</a>.</p>
@@ -110,7 +112,9 @@ ht-degree: 21%
 </tbody>
 </table>
 
-**Bald verfügbar**
+#### Demnächst {#may-26-journeys-coming-soon}
+
+Die folgenden Journey-Funktionen sollen noch in diesem Monat veröffentlicht werden. Informationen können sich ändern.
 
 <table>
 <thead>
@@ -166,6 +170,8 @@ ht-degree: 21%
 
 ### Orchestrierte Kampagnen {#may-26-oc}
 
+Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu orchestrierten Kampagnen hinzugefügt. Weitere Änderungen sind auch in diesem Monat geplant - siehe Abschnitt [In Kürze verfügbar](#may-26-oc-coming-soon) weiter unten.
+
 <table>
 <thead>
 <tr>
@@ -189,7 +195,9 @@ ht-degree: 21%
 
   Verfügbarkeitsdatum: 20. Mai 2026
 
-**Bald verfügbar**
+#### Demnächst {#may-26-oc-coming-soon}
+
+Die Veröffentlichung der folgenden Funktion für koordinierte Kampagnen ist für Ende dieses Monats geplant. Informationen können sich ändern.
 
 <table>
 <thead>
@@ -210,7 +218,11 @@ ht-degree: 21%
 
 ### Kampagnen {#may-26-campaigns}
 
-**Bald verfügbar**
+Die folgenden Verbesserungen bei Campaign sollen noch in diesem Monat veröffentlicht werden — siehe Abschnitt [in Kürze verfügbar](#may-26-campaigns-coming-soon) weiter unten.
+
+#### Demnächst {#may-26-campaigns-coming-soon}
+
+Die folgenden Verbesserungen bei Campaign sind für die Veröffentlichung im Laufe dieses Monats geplant. Informationen können sich ändern.
 
 * **Kundenwarnungen für Kampagnen-Lebenszyklus-Ereignisse** - Neue Systemwarnungen benachrichtigen Sie jetzt über wichtige Lebenszyklus-Ereignisse für Aktionen und API-ausgelöste Kampagnen. Abonnieren Sie auf Sandbox-Ebene.
 
@@ -221,6 +233,8 @@ ht-degree: 21%
   Verfügbarkeitsdatum: 1. Juni 2026
 
 ### Entscheidungsfindung {#may-26-decisioning}
+
+In dieser Version wurden die folgenden Funktionen und Verbesserungen zu Decisioning hinzugefügt. Weitere Änderungen sind auch in diesem Monat geplant - siehe Abschnitt [In Kürze verfügbar](#may-26-decisioning-coming-soon) weiter unten.
 
 <table>
 <thead>
@@ -250,7 +264,9 @@ ht-degree: 21%
 
   Verfügbarkeitsdatum: 20. Mai 2026
 
-**Bald verfügbar**
+#### Demnächst {#may-26-decisioning-coming-soon}
+
+Die Veröffentlichung der folgenden Decisioning-Funktion ist für Ende dieses Monats geplant. Informationen können sich ändern.
 
 <table>
 <thead>
@@ -271,6 +287,8 @@ ht-degree: 21%
 
 ### E-Mail-Kanal {#may-26-email}
 
+In dieser Version wurden die folgenden Funktionen und Verbesserungen zum E-Mail-Kanal hinzugefügt. Weitere Änderungen sind auch in diesem Monat geplant - siehe Abschnitt [In Kürze verfügbar](#may-26-email-coming-soon) weiter unten.
+
 <table>
 <thead>
 <tr>
@@ -289,11 +307,15 @@ ht-degree: 21%
 </tbody>
 </table>
 
-**Bald verfügbar**
+#### Demnächst {#may-26-email-coming-soon}
 
-Header-Werte können auf Kanalebene festgelegt und pro Kampagne überschrieben werden, indem kontextuelle Daten verwendet werden, um die Kontrolle zu verbessern.
+Die folgenden Verbesserungen am E-Mail-Kanal sind für Ende dieses Monats geplant. Informationen können sich ändern.
 
-Verfügbarkeitsdatum: 1. Juni 2026
+* **E-Mail-Absenderdetails nach Empfänger und Kampagne personalisieren** - Orchestrierte Kampagnen unterstützen jetzt die Personalisierung von E-Mail-Header-Feldern, einschließlich Absendername, Absenderadresse und Antwortadresse, mithilfe von Profilattributen oder relationalen Daten. Auf diese Weise können Absenderdetails den relevanten Berater, Standort oder die Zweigstelle für jeden Empfänger widerspiegeln, anstatt alle Sendungen über eine einzelne Unternehmensadresse weiterzuleiten.
+
+  Header-Werte können auf Kanalebene festgelegt und pro Kampagne überschrieben werden, indem kontextuelle Daten verwendet werden, um die Kontrolle zu verbessern.
+
+  Verfügbarkeitsdatum: 1. Juni 2026
 
 * **Rich-Text in bearbeitbaren Fragmentfeldern** - Sie können jetzt anpassbaren Fragmenten, die in Ihrem E-Mail-Inhalt verwendet werden, Rich-Text hinzufügen. Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.
 
@@ -304,6 +326,8 @@ Verfügbarkeitsdatum: 1. Juni 2026
   Verfügbarkeitsdatum: 1. Juni 2026
 
 ### Mobile Messaging (SMS, MMS und RCS) {#may-26-mobile}
+
+In dieser Version wurden die folgenden Funktionen und Verbesserungen zu Mobile Messaging hinzugefügt.
 
 <table>
 <thead>
@@ -330,6 +354,8 @@ Verfügbarkeitsdatum: 1. Juni 2026
 
 ### WhatsApp-Kanal {#may-26-whatsapp}
 
+Die folgenden Verbesserungen wurden in dieser Version zum WhatsApp-Kanal hinzugefügt.
+
 * **Unterstützung und Tracking von WhatsApp-Schaltflächen** - WhatsApp-Vorlagen unterstützen jetzt **Schnellantwort**, **Call to action - URL** und **Call to action - Telefon**, **Code kopieren** wird nicht unterstützt. Journey Optimizer sendet unterstützte Schaltflächen und verfolgt Interaktionen zusammen mit Ihren anderen Kanalberichten.
 
 * **WhatsApp-Kanal-Kontextdaten** - Journey Optimizer erfasst jetzt zusätzliche Interaktionsdaten, die vom WhatsApp-Kanal zurückgegeben werden, und speichert sie im **AJO EmailTrackingExperienceEvent-** unter der `whatsAppChannelContext`.
@@ -354,6 +380,8 @@ Verfügbarkeitsdatum: 1. Juni 2026
   +++
 
 ### Inhalte und Integrationen {#may-26-content}
+
+In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content-Management und zu Integrationen hinzugefügt.
 
 <table>
 <thead>
@@ -400,7 +428,11 @@ Verfügbarkeitsdatum: 1. Juni 2026
 
 ### Administration {#may-26-admin}
 
-**Bald verfügbar**
+Die folgenden Verbesserungen bei der Anwendung sollen noch in diesem Monat veröffentlicht werden — siehe Abschnitt [In Kürze verfügbar](#may-26-admin-coming-soon) weiter unten.
+
+#### Demnächst {#may-26-admin-coming-soon}
+
+Die folgenden Verbesserungen bei der Administration sollen noch in diesem Monat veröffentlicht werden. Informationen können sich ändern.
 
 * **Ordner für Journey und Kampagnen** - Sie können Ihre Journey und Kampagnen jetzt in Ordnern organisieren, um die Navigation und Verwaltung in der Benutzeroberfläche zu verbessern.
 
