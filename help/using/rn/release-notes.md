@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46e1b1fa15586254383c41dc76a5c67a1b1373fa
+source-git-commit: 47ed60f4f8d9e45fa6e692335610537ec340c807
 workflow-type: tm+mt
 source-wordcount: 2771
 ht-degree: 23%
@@ -318,7 +318,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 <td>
 <p>Journey, die nicht wiederkehrend <strong>Zielgruppe lesen</strong> sind, wechseln jetzt automatisch in den <strong>Stopped</strong>-Status, sobald das letzte aktive Profil beendet wurde. Zuvor blieben diese Journey-<strong> bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit </strong>Live), selbst wenn keine Profile mehr durch sie hindurch strömten. Mit dieser Verbesserung spiegelt der Journey-Status den tatsächlichen Ausführungsstatus nach Abschluss wider, sodass der Journey-Bestand ohne manuelles Eingreifen stets korrekt ist.</p>
 <p>Beachten Sie, dass dieses Verhalten nicht für Journey gilt, die Knoten enthalten, die Wartezeiten verursachen, z. B. Warteknoten, Reaktionsknoten oder ereignisausgelöste Transitionen. Diese Journey unterliegen weiterhin der standardmäßigen globalen 91-Tage-Zeitüberschreitung.</p>
-<p>Verfügbarkeitsdatum: 21. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 22. Mai 2026</p>
 </tr>
 </tbody>
 </table>
@@ -353,7 +353,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 <p>Verwenden Sie den neuen <strong>Optimieren</strong>-Knoten, um bestimmte Zielgruppen anzusprechen und den besten Pfad zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln.</p>
 <p>Mit diesem Tool können Sie effektivere Marketing-Kampagnen entwickeln, die mit größerer Wahrscheinlichkeit auf 1:1-Ebene Resonanz finden, die Marketing-Personalisierungsbemühungen für Kunden verbessern und wichtige KPIs für die Kundeninteraktion wie Konversionen und Umsatz verbessern.</p>
 <p>Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p>Verfügbarkeitsdatum: 21. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 22. Mai 2026</p>
 </td>
 </tr>
 </tbody>
@@ -370,7 +370,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 <td>
 <p>Sie können jetzt Formeln verwenden, um anhand von Kundenprofilattributen und Kontextfaktoren automatisch die Journey-Prioritätswerte zu erhöhen und so sicherzustellen, dass Kunden in die relevantesten Journey eintreten.</p>
 <p>Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p>Verfügbarkeitsdatum: 21. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 22. Mai 2026</p>
 </td>
 </tr>
 </tbody>
@@ -422,7 +422,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 <p>Verwenden Sie den neuen <strong>Optimieren</strong>-Knoten, um bestimmte Zielgruppen anzusprechen und den besten Pfad zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln.</p>
 <p>Mit diesem Tool können Sie effektivere Marketing-Kampagnen entwickeln, die mit größerer Wahrscheinlichkeit auf 1:1-Ebene Resonanz finden, die Marketing-Personalisierungsbemühungen für Kunden verbessern und wichtige KPIs für die Kundeninteraktion wie Konversionen und Umsatz verbessern.</p>
 <p>Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p>Verfügbarkeitsdatum: 21. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 22. Mai 2026</p>
 </td>
 </tr>
 </tbody>
@@ -439,7 +439,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 <td>
 <p>Sie können jetzt Formeln verwenden, um anhand von Kundenprofilattributen und Kontextfaktoren automatisch die Journey-Prioritätswerte zu erhöhen und so sicherzustellen, dass Kunden in die relevantesten Journey eintreten.</p>
 <p>Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p>Verfügbarkeitsdatum: 21. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 22. Mai 2026</p>
 </td>
 </tr>
 </tbody>
@@ -458,7 +458,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 
 * **Zertifikatbasierte benutzerdefinierte Authentifizierung in benutzerdefinierten Aktionen** - Benutzerdefinierte Aktionen unterstützen jetzt die zertifikatbasierte benutzerdefinierte Authentifizierung. Durch Hinzufügen des Untertyps „certificateCredential“ zu einer benutzerdefinierten Autorisierungskonfiguration verwendet Journey Optimizer das verwaltete Zertifikat von Adobe, um eine JWT-Client-Bestätigung zu signieren und gegen ein Zugriffstoken einzutauschen - kein Client-Geheimnis erforderlich. Entwickelt für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Azure Entra ID.
 
-  Verfügbarkeitsdatum: 21. Mai 2026
+  Verfügbarkeitsdatum: 22. Mai 2026
 
 * **Zusätzliche Kennungsunterstützung für externe Zielgruppen** - Zusätzliche Kennungen in Journey werden jetzt für externe Zielgruppen unterstützt, einschließlich Zielgruppen, die aus einer CSV-Datei importiert wurden, und Zielgruppen, die mit Federated Audience Composition erstellt wurden. Sie können ein beliebiges Nicht-Identitätsattribut oder ein beliebiges Identitätsattribut aus der Zielgruppe als zusätzliche ID festlegen. Es ist keine Schemakennzeichnung erforderlich.
 
