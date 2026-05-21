@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 82bdcd9fdfbe947a45bf6b1f3be19e53b326727b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5f32fb17a6738f2be1e883484276f1fd7ffcd44a
 workflow-type: tm+mt
-source-wordcount: 2560
-ht-degree: 25%
+source-wordcount: 2883
+ht-degree: 22%
 
 ---
 
@@ -127,7 +111,7 @@ Die folgenden Funktionen wurden im Mai 2026 veröffentlicht.
 <tr>
 <td>
 <p>Sie können jetzt <strong>Journey-Fragmente</strong> in Adobe Journey Optimizer erstellen. Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen.</p>
-<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente&rbrace; in </strong> Journey eingefügt werden.</p>
+<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente} in </strong> Journey eingefügt werden.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-fragments.md">ausführlichen Dokumentation</a>.</p>
@@ -335,6 +319,40 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Journey-Pfadoptimierung - Targeting</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Verwenden Sie den neuen <strong>Optimieren</strong>-Knoten, um bestimmte Zielgruppen anzusprechen und den besten Pfad zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln.</p>
+<p>Mit diesem Tool können Sie effektivere Marketing-Kampagnen entwickeln, die mit größerer Wahrscheinlichkeit auf 1:1-Ebene Resonanz finden, die Marketing-Personalisierungsbemühungen für Kunden verbessern und wichtige KPIs für die Kundeninteraktion wie Konversionen und Umsatz verbessern.</p>
+<p>Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p>Verfügbarkeitsdatum: 21. Mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey-Schlichtung - Rangfolgeformeln</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Formeln verwenden, um anhand von Kundenprofilattributen und Kontextfaktoren automatisch die Journey-Prioritätswerte zu erhöhen und so sicherzustellen, dass Kunden in die relevantesten Journey eintreten.</p>
+<p>Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p>Verfügbarkeitsdatum: 21. Mai 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -406,7 +424,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 </table>
 
 
-### Verbesserungen  {#coming-soon-improvements}
+### Verbesserungen {#coming-soon-improvements}
 
 #### Navigation
 
@@ -447,6 +465,18 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 
   Verfügbarkeitsdatum: 1. Juni 2026
 
+#### E-Mail-Designer
+
+* **Einschränkung der Vererbung bei Fragmenten** - Beim Erstellen oder Bearbeiten eines Fragments können Sie jetzt auswählen, ob es bei der Verwendung in E-Mails geändert werden kann. Durch das Sperren eines Fragments wird sichergestellt, dass es überall synchronisiert bleibt, wo es angezeigt wird. Dadurch werden lokale Bearbeitungen verhindert, die Markenstandards oder Compliance-Anforderungen beschädigen könnten. Diese Einstellung kann später aktualisiert werden und auf zukünftige Verwendungen angewendet werden.
+
+
+  Verfügbarkeitsdatum: 1. Juni 2026
+
+* **Rich-Text in bearbeitbaren Fragmentfeldern** - Sie können jetzt anpassbaren Fragmenten, die in Ihrem E-Mail-Inhalt verwendet werden, Rich-Text hinzufügen. Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.
+
+
+  Verfügbarkeitsdatum: 1. Juni 2026
+
 #### Konfiguration
 
 * **Datensatz mit Nachrichten-Feedback-Ereignissen, der zur Batch-Aufnahme** wird`AJO Message Feedback Event Dataset` Der wechselt vom Streaming- in den Batch-Aufnahme-Modus. Durch diese Änderung wird sichergestellt, dass die Datenaufnahme die Streaming-Aufnahmebeschränkungen nicht überschreitet. Wenn Sie diesen Datensatz in Customer Journey Analytics-Berichten verwenden oder Abfragen dafür ausführen, erwarten Sie in Zukunft eine Zunahme der Datenlatenz von bis zu 2 Stunden.
@@ -461,6 +491,13 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
   Verfügbarkeitsdatum: 1. Juni 2026
 
 * **Einschränkung der Vererbung bei Fragmenten** - Beim Erstellen oder Bearbeiten eines Fragments können Sie jetzt auswählen, ob es bei der Verwendung in E-Mails geändert werden kann. Durch das Sperren eines Fragments wird sichergestellt, dass es überall synchronisiert bleibt, wo es angezeigt wird. Dadurch werden lokale Bearbeitungen verhindert, die Markenstandards oder Compliance-Anforderungen beschädigen könnten. Diese Einstellung kann später aktualisiert werden und auf zukünftige Verwendungen angewendet werden.
+
+
+  Verfügbarkeitsdatum: 1. Juni 2026
+
+#### Reporting
+
+* **Bot-Klicks für E-Mail- und SMS-Reporting ausschließen** - Neue geschätzte Metriken sind jetzt verfügbar, mit denen Sie nicht menschliche (Bot-)Interaktionen aus E-Mail- und SMS-Berichten herausfiltern können. Dazu gehören geschätzte Klicks, Clickthrough-Raten (CTR) und Clickto-Open-Raten (CTOR), die eine genauere Darstellung der echten Kundeninteraktion bieten. Vorhandene Metriken bleiben unverändert, und diese neuen Metriken können zusammen mit dem aktuellen Reporting für eine verbesserte Analyse verwendet werden.
 
 
   Verfügbarkeitsdatum: 1. Juni 2026
