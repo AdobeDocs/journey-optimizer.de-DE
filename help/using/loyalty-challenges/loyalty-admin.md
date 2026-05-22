@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Treueprogramm konfigurieren
-description: Erfahren Sie, wie Sie in Adobe Journey Optimizer Prämienanbieter, Ereignisdefinitionen und Einstellungen auf Organisationsebene für Ihr Treueprogramm konfigurieren.
+description: Erfahren Sie, wie Sie in Adobe Belohnungsanbieter, Ereignisdefinitionen und Einstellungen auf Unternehmensebene für Ihr Treueprogramm konfigurieren [!DNL Journey Optimizer].
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: a4ad533e54f3692eb0483138a8cfd1cee0e77ba1
+source-git-commit: e4ee70a9c918bffb372ab7cee567ae7422c3720c
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1456'
 ht-degree: 2%
 
 ---
@@ -36,146 +36,186 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->Diese Funktion befindet sich derzeit in der **privaten Betaversion**. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
+>Diese Funktion befindet sich derzeit in der **privaten Betaversion**. Umfassende Informationen über den Veröffentlichungszyklus und die Verfügbarkeitsphasen in [!DNL Journey Optimizer] finden Sie [Veröffentlichungszyklus](../rn/releases.md).
 
-Im **[!UICONTROL Treueprogramm-Admin]** konfigurieren Sie, wie Journey Optimizer eine Verbindung zu Ihren externen Treuesystemen herstellt. Marketer verwenden **[!UICONTROL Loyalty Challenges (Beta)]** um Herausforderungen, Aufgaben, Inhalte und Messaging zu entwerfen. **[!UICONTROL Treueprogramm-Administrator]** ist ein separater, Administratoren vorbehaltener Bereich für die Belohnungserfüllung, die Ereigniszuordnung und die Produktinventarisierung.
-
-Wenn eine Kundin oder ein Kunde eine Challenge abschließt oder einen Prämienmeilenstein erreicht, ruft Journey Optimizer den Prämienanbieter an, den Sie für die Vergabe von Punkten oder anderen Prämien konfiguriert haben. Die Konfiguration in **[!UICONTROL Treueprogramm-]**) wirkt sich nicht auf die Einstellungen **[!UICONTROL Inhalt]**, **[!UICONTROL Messaging]** oder **[!UICONTROL Zielgruppe]** aus, die weiterhin unter der Kontrolle des Marketing-Experten stehen.
-
-## Was Sie hier im Vergleich zu den Herausforderungen im Zusammenhang mit der Treue konfigurieren {#scope}
-
-| Bereich | Konfiguriert in Treue-Admin | Konfiguriert in Herausforderungen bezüglich der Treue |
-|------|----------------------------|----------------------------------|
-| Belohnungs-Erfüllungs-API | Ja — Belohnungsanbieter | Nein — nur Dienstleister und Beträge auswählen |
-| Ereignis-Mapping für benutzerdefinierte Aktivitäten | Ja - Ereignisdefinitionen | Nein - Ereignisnamen für benutzerdefinierte Ereignisaufgaben auswählen |
-| Produktgruppen-Zuordnungen | Ja — Produktbestand | Nein - Benutzen Sie Gruppen beim Erstellen von Kauf-/Ausgabenaufgaben. |
-| Challenge-Struktur, Inhalt, Audience | Nein | Ja |
-
-Adobe Journey Optimizer sendet Erfüllungsaufrufe an Ihren Belohnungsanbieter, wenn Kunden Belohnungen erhalten. Die Treueplattform ist für die Gutschrift auf dem Mitgliedskonto verantwortlich.
+Verwenden Sie die Konfiguration des Treueprogramms in [!DNL Journey Optimizer], um eine Verbindung zu Ihren externen Treuesystemen herzustellen. Marketer verwenden **[!UICONTROL Loyalty Challenges (Beta)]** um Herausforderungen, Aufgaben, Inhalte und Messaging zu entwerfen. Die Konfiguration des Treueprogramms ist ein separater, Administratoren vorbehaltener Bereich für Belohnungserfüllung, Ereigniszuordnung, Produktinventar und Ausschlüsse.
 
 ## Voraussetzungen {#prerequisites}
 
-**[!UICONTROL Loyalty Admin]** ist für eine geringe Anzahl von Administratoren pro Organisation vorgesehen. Zusätzlich zu den Berechtigungen, die für [Herausforderungen im Zusammenhang mit dem Treueprogramm](get-started.md#prerequisites) erforderlich sind, benötigen Sie Zugriff auf Administratorebene für Ihre Journey Optimizer-Instanz. Wenden Sie sich an Ihren Adobe-Administrator, um Zugriff anzufordern.
+Die Konfiguration des Treueprogramms ist für Administratoren gedacht. Zusätzlich zu den für Herausforderungen im Zusammenhang mit dem Treueprogramm erforderlichen Berechtigungen benötigen Sie Zugriff auf Ihre [!DNL Journey Optimizer]-Instanz auf Administratorebene. Wenden Sie sich an Ihren Adobe-Administrator, um Zugriff anzufordern.
 
-## Auf Treueprogramm-Administrator zugreifen {#access-loyalty-admin}
+## Konfiguration des Treueprogramms aufrufen {#access-loyalty-admin}
 
-Um **[!UICONTROL Treueprogramm-Administrator]** zu öffnen, wählen Sie es über die linke Navigationsleiste in Journey Optimizer aus.
+Navigieren Sie zu **[!UICONTROL Treue]** und wählen Sie **[!UICONTROL Treueprogramm-Administrator]** aus, um auf die Konfigurationsoberfläche für das Treueprogramm zuzugreifen.
 
-<!-- SCREENSHOT: Loyalty Admin entry in the left navigation -->
+Die Benutzeroberfläche ist in Registerkarten unterteilt:
 
-**[!UICONTROL Treue-Administrator]** ist in Registerkarten unterteilt: **[!UICONTROL Globale Einstellungen]**, **[!UICONTROL Belohnungsanbieter]**, **[!UICONTROL Ereignisdefinitionen]** und **[!UICONTROL Produktinventar]**. Die verfügbaren Registerkarten hängen von den Berechtigungen und der Funktionskonfiguration Ihres Unternehmens ab.
+* **Globale Einstellungen** - Den Identity-Namespace von Experience Platform festlegen. [Erfahren Sie, wie Sie globale Einstellungen konfigurieren](#global-settings)
+* **Belohnungsanbieter** - Verbinden Sie externe APIs, die Belohnungen erfüllen, einschließlich Belohnungstypen, Proxys und Authentifizierung. [Erfahren Sie, wie Sie Belohnungsanbieter konfigurieren](#reward-providers)
+* **Ereignisdefinitionen** - Ordnen Sie eingehende Erlebnisereignisse Aktivitäten zu, die Sie in Aufgaben mit **[!UICONTROL benutzerspezifischen Ereignissen]** verwenden können. [Erfahren Sie, wie Sie Ereignisdefinitionen konfigurieren](#event-definitions)
+* **Produktinventar** - Laden Sie Zuordnungen von Elementen zu Gruppen hoch, damit Sie Produktgruppen in den Eignungsregeln für Aufgaben verwenden können. [Erfahren Sie, wie Sie den Produktbestand konfigurieren](#product-inventory)
+* **Ausschlüsse** - Laden Sie organisationsweite Element- und Gruppenausschlüsse hoch, die gelten, wenn Marketer Aufgaben konfigurieren. [Erfahren Sie, wie Sie Ausschlüsse konfigurieren](#exclusions)
 
 ## Globale Einstellungen {#global-settings}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="Globale Einstellungen"
->abstract="Wählen Sie den Identity-Namespace von Adobe Experience Platform für Ihr Treueprogramm aus und kopieren Sie Ihre Konfigurations-ID. Diese Einstellungen auf Organisationsebene sind erforderlich, damit die Belohnungsanbieter die Belohnungen korrekt erfüllen können."
+>abstract="Wählen Sie den Identity-Namespace von Adobe Experience Platform für Ihr Treueprogramm aus."
 
-Verwenden Sie **[!UICONTROL Globale Einstellungen]** um organisationsweite Optionen für Herausforderungen im Zusammenhang mit der Treue zu konfigurieren.
+Öffnen Sie die **[!UICONTROL Globale Einstellungen]**. Vorerst besteht die Hauptkonfiguration, die auf dieser Registerkarte verfügbar ist, darin, den Identity-Namespace von Adobe Experience Platform auszuwählen, der von Ihrem Treueprogramm in der Dropdown-Liste **[!UICONTROL Namespace]** verwendet wird.
 
-1. Öffnen Sie die **[!UICONTROL Globale Einstellungen]**.
+![](assets/admin-global-settings.png)
 
-1. Wählen Sie in **[!UICONTROL Dropdown]** Namespace den [Identity-Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces) aus, der von Ihrem Treueprogramm verwendet wird.
-
-1. Wählen Sie **[!UICONTROL Speichern]**, um den Namespace auf Ihre Konfiguration der Herausforderungen im Treueprogramm anzuwenden.
-
-1. Kopieren Sie die **[!UICONTROL Konfigurations-ID]**, wenn Sie sie für Ihr Implementierungsteam oder externe Systeme freigeben müssen, z. B. bei der Konfiguration der Bereitstellung eingehender Ereignisse.
-
-<!-- SCREENSHOT: Global settings tab showing namespace drop-down, Save, and Configuration ID -->
+➡️ [Erfahren Sie, wie Sie mit Identity-Namespaces arbeiten](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"}
 
 ## Belohnungsanbieter {#reward-providers}
 
-Ein **Belohnungsanbieter** teilt Journey Optimizer mit, wohin Erfüllungsanrufe gesendet werden sollen, wenn der Challenge-Fortschritt aufgezeichnet oder eine Challenge abgeschlossen wird. Dies kann z. B. eine API sein, die einem Mitgliedskonto Treuepunkte oder Sterne gutschreibt.
+Ein **Belohnungsanbieter** teilt [!DNL Journey Optimizer] mit, wohin Erfüllungsaufrufe gesendet werden sollen, wenn der Challenge-Fortschritt aufgezeichnet oder eine Challenge abgeschlossen wird, z. B. eine API, die einem Mitgliedskonto Treuepunkte oder Sterne gutschreibt.
 
 Die Konfiguration eines Belohnungsanbieters umfasst:
 
-* Grundlegende Verbindungsdetails (Name, Beschreibung, API-URL, Kopfzeilen)
-* **[!UICONTROL Belohnungsdefinitionen]** - die Belohnungstypen, die dieser Anbieter ausgeben kann (z. B. Sterne oder Meilen)
-* **[!UICONTROL Belohnungs-Proxys]** (optional) - Ein zwischengeschalteter Proxy, über den Aufrufe anstelle direkt an Ihren Endpunkt geleitet werden
-* **[!UICONTROL Auth-Token-Generatoren]** - der Mechanismus, den Journey Optimizer verwendet, um Zugriffstoken abzurufen, bevor es Ihre API aufruft
+![](assets/admin-reward.png)
 
-### Belohnungsanbieter erstellen {#create-reward-provider}
+* Grundlegende Verbindungsdetails (Name, Beschreibung, URL, Kopfzeilen).
+* **[!UICONTROL Belohnungsdefinitionen]** - die Belohnungstypen, die dieser Anbieter ausgeben kann (z. B. Sterne oder Meilen).
+* **[!UICONTROL Belohnungs-Proxys]** - ein Proxy-Zwischenaufruf, der anstelle Ihres Endpunkts direkt weitergeleitet wird.
+* **[!UICONTROL Auth-Token-Generatoren]** - der Mechanismus, mit [!DNL Journey Optimizer] Zugriffs-Token abgerufen werden, bevor die API aufgerufen wird.
+
+Gehen Sie wie folgt vor, um einen Belohnungsanbieter zu erstellen:
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Belohnungsanbieter]** und wählen Sie **[!UICONTROL Belohnungsanbieter erstellen]** aus.
 
-1. Geben Sie **[!UICONTROL Name]**, **[!UICONTROL Beschreibung]** und die **[!UICONTROL API-URL]** ein, die Erfüllungsanfragen empfängt.
+1. Geben Sie einen **[!UICONTROL Namen]** und eine **[!UICONTROL Beschreibung]** ein.
+
+1. Geben Sie im Feld **[!UICONTROL URL]** die API-URL ein, die Erfüllungsanfragen empfängt.
 
 1. Fügen Sie **[!UICONTROL Kopfzeilen]** nach Bedarf für Ihre API hinzu (z. B. API-Schlüssel oder Inhaltstypen).
 
-1. Konfigurieren Sie **[!UICONTROL Belohnungsdefinitionen]** - einen Eintrag pro Belohnungstyp, den Ihr Anbieter unterstützt (z. B. Programmpunkte oder Sterne). Für jede Definition gilt:
+1. Konfigurieren Sie die folgenden Ressourcen, die mit Ihrem Belohnungsanbieter verknüpft sind. Erweitern Sie jeden Abschnitt, um weitere Informationen zu erhalten:
 
+   +++Prämiendefinitionen - Ein Eintrag pro Prämie, der von Ihrem Anbieter unterstützt wird (z. B. Programmpunkte oder Sterne, Geldguthaben)
+
+   Für jede Definition gilt:
+
+   * Geben Sie einen Namen und eine Beschreibung ein.
+   * Geben Sie an, ob die Definition **[!UICONTROL Aktiviert]** ist.
+   * Schalten Sie die Option **![!UICONTROL Default]** ein, um eine Definition als Standard für diesen Anbieter zu markieren.
    * Geben Sie die **Payload** an, die mit Erfüllungsaufrufen gesendet werden soll.
-   * Optional können Sie eine Definition als **Standard** für diesen Anbieter markieren.
 
-1. Konfigurieren Sie optional einen **[!UICONTROL Reward-Proxy]**, um Erfüllungsaufrufe über einen Zwischen-Server zu leiten:
+   ![](assets/admin-reward-definition.png)
 
-   * **[!UICONTROL Name]**, **[!UICONTROL Beschreibung]** und ob der Proxy **aktiviert**
-   * **[!UICONTROL Host]**, **[!UICONTROL Port]** und Anmeldeinformationen
+   +++
 
-1. Konfigurieren Sie einen **[!UICONTROL Auth-Token-Generator]** wenn Ihre API ein Bearer-Token für die Authentifizierung benötigt:
+   +++Reward Proxy - Leitet Erfüllungsanrufe über einen Zwischen-Server anstatt direkt an den Endpunkt weiter.
 
-   * Token-Endpunkt-URL und HTTP-Methode (z. B **„POST** für Flüsse im OAuth-Stil)
-   * **[!UICONTROL Token-Schlüssel]** in der Antwort (z. B. `access_token`)
-   * Für Ihren Token-Endpunkt erforderliche Kopfzeilen
+   * Geben Sie einen Namen und eine Beschreibung an.
+   * Geben Sie **[!UICONTROL host]**, **[!UICONTROL port]** Informationen ein.
+   * Geben Sie an, ob der Proxy **[!UICONTROL aktiviert]** ist.
+   * Fügen Sie den Proxy **[!UICONTROL Credential]** hinzu.
 
-   Journey Optimizer verwendet diese Konfiguration, um ein neues Token zu erhalten, bevor es Ihre Belohnungs-API aufruft.
+   ![](assets/admin-reward-proxies.png)
 
-1. Wählen Sie **[!UICONTROL Belohnungsanbieter erstellen]** aus. Der Anbieter und alle konfigurierten untergeordneten Ressourcen werden zusammen gespeichert.
+   +++
 
-<!-- SCREENSHOT: Reward provider creation form with definitions, proxy, and auth token sections -->
+   +++Auth-Token-Generator - Wenn Ihre API ein Bearer-Token für die Authentifizierung benötigt
 
-Nach dem Speichern wird der Anbieter in der Liste der Belohnungsanbieter angezeigt. Marketer wählen diesen Anbieter beim [Konfigurieren von Challenge-Belohnungen](create-challenges.md#rewards).
+   * Geben Sie einen Namen und eine Beschreibung ein.
+   * Geben Sie im Feld Authentifizierungstyp den Authentifizierungstyp ein (z. B. Bearer).
+   * Wählen Sie die zu verwendende HTTP-Methode aus (z. B. POST).
+   * Geben Sie die Token-Endpunkt-URL ein. und fügen Sie den **[!UICONTROL Token-Schlüssel]** in der Antwort hinzu (z. B. `access_token`).
+   * Geben Sie an, ob der Authentifizierungs-Token **[!UICONTROL Generator aktiviert]**.
+   * Fügen Sie bei Bedarf Kopfzeilen hinzu, die für Ihren Token-Endpunkt erforderlich sind.
+
+   [!DNL Journey Optimizer] verwendet diese Konfiguration, um ein neues Token zu erhalten, bevor Sie Ihre Belohnungs-API aufrufen.
+
+   ![](assets/admin-reward-auth.png)
+
+   +++
+
+1. Wählen Sie **[!UICONTROL Belohnungsanbieter erstellen]** aus. Der Anbieter und alle konfigurierten Ressourcen werden zusammen gespeichert.
+
+Nach dem Speichern wird der Anbieter in der Liste der Belohnungsanbieter angezeigt. Marketer können diesen Anbieter bei der Konfiguration von Challenge-Belohnungen auswählen. [Erfahren Sie, wie Sie Challenge Rewards konfigurieren](create-challenges.md#rewards)
 
 Um einen vorhandenen Belohnungsanbieter zu bearbeiten, öffnen Sie die Registerkarte **[!UICONTROL Belohnungsanbieter]**, wählen Sie den Anbieter aus und aktualisieren Sie die Felder an Ort und Stelle. Änderungen an untergeordneten Ressourcen (Belohnungsdefinitionen, Proxys, Authentifizierungs-Token-Generatoren) werden gespeichert, wenn Sie sie aktualisieren.
 
-<!-- SCREENSHOT: Reward provider detail view with child resource sections -->
-
 >[!NOTE]
 >
->**[!UICONTROL Bringen Sie Ihre eigenen Daten mit]** Herausforderungen erfüllen Belohnungen durch Ihre eigene Datenintegration. Die hier konfigurierten Belohnungsanbieter gelten nicht für diese Herausforderungen. [Erfahren Sie mehr über die Herausforderungen, vor denen Ihre eigenen Daten stehen](create-challenges.md#create-the-challenge).
+>**[!UICONTROL Bringen Sie Ihre eigenen Daten mit]** Herausforderungen erfüllen Belohnungen durch Ihre eigene Datenintegration. Die hier konfigurierten Belohnungsanbieter gelten nicht für diese Herausforderungen. [Erfahren Sie, wie Sie Ihre eigenen Herausforderungen an Daten stellen](create-challenges.md#create-the-challenge)
 
 ## Ereignisdefinitionen (optional) {#event-definitions}
 
-**[!UICONTROL Ereignisdefinitionen]** Ordnen Sie Erlebnisereignisse aus Ihren Systemen - in welchem JSON- oder XDM-Format auch immer Ihre Marke verwendet - Aktivitäten zu, auf die Treueprogramm-Herausforderungen reagieren können, insbesondere **[!UICONTROL benutzerspezifische Ereignisse]**-Aufgaben. Wenn Ereignisse eintreffen, verwendet Journey Optimizer diese Definitionen, um zu entscheiden, ob sie verarbeitet werden sollen. Ereignisse, die keiner Definition entsprechen, werden ignoriert.
+**[!UICONTROL Ereignisdefinitionen]** Ordnen Sie Erlebnisereignisse aus Ihren Systemen (z. B. Kauf, Hotel-Check-in) Aktivitäten zu, für die Treueprogramm-Herausforderungen eine Rolle spielen können, insbesondere Aufgaben **[!UICONTROL benutzerspezifische Ereignisse]**. Wenn Ereignisse eintreffen, verwendet [!DNL Journey Optimizer] diese Definitionen, um zu entscheiden, ob sie verarbeitet werden sollen. Ereignisse, die keiner Definition entsprechen, werden ignoriert.
 
 ### Erstellen einer Ereignisdefinition {#create-event-definition}
 
 1. Öffnen Sie die **[!UICONTROL Ereignisdefinitionen]** und erstellen Sie eine neue Definition.
 
+   ![](assets/admin-event-definition.png)
+
 1. Geben Sie einen **[!UICONTROL Namen]** für das Ereignis ein (z. B. `Coffee purchase`). Dies ist der Name, den Marketer beim Konfigurieren einer Aufgabe vom Typ **[!UICONTROL Benutzerdefiniertes Ereignis]** sehen.
 
-1. Angeben, wie das Ereignis in eingehenden Payloads identifiziert werden soll:
+1. Geben Sie an, wie [!DNL Journey Optimizer] das Ereignis in eingehenden Payloads erkennt. Geben Sie einen **[!UICONTROL Kennungspfad]** eine **[!UICONTROL XDM-Schema-ID]** oder beides an:
 
-   * **[!UICONTROL Kennungspfad]** - JSON-Pfad zum Feld, das das Ereignis oder Element identifiziert (z. B. `data.memberId`)
-   * **[!UICONTROL Kennungswerte]** - Werte, die vorhanden sein müssen, damit diese Definition übereinstimmt
+   * **[!UICONTROL Kennungspfad]** - Pfad zum Feld, das das Ereignis oder Element identifiziert (z. B. `data.memberId`). Verwenden Sie diese Option, wenn Sie Ereignisse anhand von Werten in der Payload abgleichen.
+   * **[!UICONTROL Kennungswerte]** - Werte im Kennungspfad, die vorhanden sein müssen, damit diese Definition übereinstimmt.
+   * **[!UICONTROL XDM-Schema-]**: ID des Experience Platform-XDM-Schemas für diesen Ereignistyp. Verwenden Sie diese Option, wenn Ereignisse für ein bekanntes Schema erfasst werden.
 
-1. Geben Sie optional eine **[!UICONTROL XDM-Schema-ID]** an, wenn Ihre Ereignis-Payloads einem Experience Platform-Schema entsprechen.
+1. Wenn Marken Ereignisse im eigenen JSON-Format senden, fügen Sie Zeichenfolgen in **[!UICONTROL Schema]** und **[!UICONTROL Transformer]** ein, damit [!DNL Journey Optimizer] die Daten identifizieren, analysieren und entscheiden können, ob sie nachverfolgt werden sollen.
 
-1. Verwenden Sie optional die Felder **[!UICONTROL Schema]** und **[!UICONTROL Transformer]** um benutzerdefinierte Schema- und Umwandlungszeichenfolgen zum Analysieren und Überprüfen eingehender JSON-Dateien bereitzustellen.
+   * **[!UICONTROL Schema]** - Validierungszeichenfolge für die eingehende Payload.
+   * **[!UICONTROL Transformer]** - Umwandlungsausdruck (z. B. JSONata), der Ihre Payload dem Format zuordnet, das die Herausforderungen im Zusammenhang mit dem Treueprogramm erwarten.
 
-   Je nach Strukturierung der Ereignisse können Sie eine XDM-Schema-ID, einen Kennungspfad oder beides angeben.
+1. Speichern Sie die Ereignisdefinition. Er wird in der Liste **[!UICONTROL Ereignisdefinitionen]** angezeigt. Sie können ihn jetzt in Challenges einsetzen. [Erfahren Sie, wie Sie Herausforderungen schaffen](create-challenges.md)
 
-1. Speichern Sie die Ereignisdefinition.
+## Produktinventar {#product-inventory}
 
-<!-- SCREENSHOT: Event definition form with identifier path, values, and schema fields -->
+Auf **[!UICONTROL Registerkarte]** Produktinventar“ können Sie Katalogelemente gruppieren, sodass Sie sie in Aufgaben auswählen können, ohne jede Element-ID aufzulisten. Sie laden eine **CSV-Datei** hoch, die jede Elementkennung einer oder mehreren **Produktgruppen** zuordnet (dasselbe Element kann in mehreren Gruppen angezeigt werden). Nach dem Import sind diese Gruppen verfügbar, wenn Sie die Aufgabeneignung konfigurieren. [Erfahren Sie, wie Sie Aufgaben erstellen](create-tasks.md)
 
-Die meisten Unternehmen erstellen mehrere Ereignisdefinitionen - eine pro Aktivität, die sie verfolgen möchten (z. B. Kauf, Check-in oder Site-Besuch). [Erfahren Sie, wie Sie in Challenges benutzerdefinierte Ereignisaufgaben verwenden](create-tasks.md#choose-activity).
+1. Bereiten Sie eine CSV-Datei vor, die jede Artikelkennung einer oder mehreren Produktgruppen zuordnet. Erweitern Sie den folgenden Abschnitt, um ein Beispiel zu sehen.
 
-## Produktbestand (optional) {#product-inventory}
+   +++CSV-Beispiel für Produktinventar
 
-Verwenden Sie die **[!UICONTROL Produktinventar]**, um eine CSV-Datei hochzuladen, die Produkt- oder Artikelkennungen (z. B. MPG-IDs) Produktgruppen zuordnet. Marketing-Experten können dann diese Gruppen in Regeln für die Aufgabeneignung referenzieren, anstatt einzelne SKUs einzugeben.
+   ![](assets/admin-inventory-csv.png)
+
+   +++
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Produktinventar]**.
 
-1. Laden Sie Ihre Zuordnungsdatei hoch.
+1. Klicken Sie auf **[!UICONTROL Hochladen]** und wählen Sie Ihre CSV-Datei aus.
 
-1. Überprüfen Sie die importierten Zuordnungen in der Inventarliste. Wählen Sie eine Produktgruppe aus, um alle Elemente in dieser Gruppe anzuzeigen, oder verwenden Sie die Suche, um Elemente nach Namen oder ID zu suchen.
+   ![](assets/admin-inventory-upload.png)
 
-1. Verwenden Sie **[!UICONTROL Upload-Verlauf]**, um frühere Uploads anzuzeigen.
+1. Überprüfen Sie die importierte Datei in der Inventarliste. Die Liste zeigt eine Zeile pro Element an. In **[!UICONTROL Spalte „Enthaltene Gruppen in]** wird jede Produktgruppe angezeigt, zu der dieses Element gehört. Jede Gruppe erscheint als eine Pille (mehrere Pillen, wenn das Element in mehreren Gruppen ist).
 
-<!-- SCREENSHOT: Product inventory list after CSV upload -->
+   ![](assets/admin-inventory-imported.png)
 
->[!NOTE]
->
->**[!UICONTROL Globale Ausschlüsse]** für den Produktbestand ist für eine zukünftige Version geplant und wird hier nicht dokumentiert.
+1. Um jedes Element in einer Produktgruppe anzuzeigen, wählen Sie die Pille dieser Gruppe in der Spalte **[!UICONTROL Gruppen enthalten in]** in einer beliebigen Zeile aus. Die Ansicht Gruppendetails listet alle Elemente in der Gruppe auf, nicht nur das Element in der ausgewählten Zeile.
+
+   ![](assets/admin-inventory-group.png)
+
+1. Verwenden **[!UICONTROL Upload-Verlauf]**, um frühere Uploads von CSV-Dateien anzuzeigen.
+
+## Ausschlüsse {#exclusions}
+
+Auf **[!UICONTROL Registerkarte]** Ausschlüsse“ können Sie Katalogelemente und Gruppen definieren, die über Ihr Treueprogramm hinweg ausgeschlossen sind, ohne jede Element-ID in jeder Aufgabe aufzulisten. Sie laden eine **CSV-Datei** hoch, die jede Elementkennung einer oder mehreren **Ausschlussgruppen** zuordnet (dasselbe Element kann in mehreren Gruppen angezeigt werden). Nach dem Import sind diese Elemente und Gruppen im Task Builder verfügbar: Ausgeschlossene Elemente werden automatisch markiert und können nicht in eine Aufgabe aufgenommen werden. Ausschlussgruppen können nur zur Ausschlussliste der Aufgabe hinzugefügt werden, nicht zur Einschlussliste. [Erfahren Sie, wie Sie geeignete Elemente und Ausschlüsse für Aufgaben definieren](create-tasks.md#eligible-items-exclusions)
+
+1. Bereiten Sie eine CSV-Datei vor, die jede Elementkennung einer oder mehreren Ausschlussgruppen zuordnet. Erweitern Sie den folgenden Abschnitt, um ein Beispiel zu sehen.
+
+   +++CSV-Beispiel für Ausschlüsse
+
+   ![](assets/admin-exclusions-csv.png)
+
+   +++
+
+1. Öffnen Sie die **[!UICONTROL Ausschlüsse]**.
+
+1. Klicken Sie auf **[!UICONTROL Hochladen]** und wählen Sie Ihre CSV-Datei aus.
+
+   ![](assets/admin-exclusions-upload.png)
+
+1. Überprüfen Sie die importierte Datei in der Ausschlussliste. Die Liste zeigt eine Zeile pro Element an. In der Spalte **[!UICONTROL Enthaltene Gruppen in]** wird jede Ausschlussgruppe angezeigt, zu der dieses Element gehört. Jede Gruppe erscheint als eine Pille (mehrere Pillen, wenn das Element in mehreren Gruppen ist).
+
+1. Um alle Elemente in einer Ausschlussgruppe anzuzeigen, wählen Sie die Pille dieser Gruppe in der Spalte **[!UICONTROL Gruppen enthalten in]** in einer beliebigen Zeile aus. Die Ansicht Gruppendetails listet alle Elemente in der Gruppe auf, nicht nur das Element in der ausgewählten Zeile.
+
+1. Verwenden **[!UICONTROL Upload-Verlauf]**, um frühere Uploads von CSV-Dateien anzuzeigen.
