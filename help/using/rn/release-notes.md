@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 47ed60f4f8d9e45fa6e692335610537ec340c807
+source-git-commit: f7524e295032c5ac4bb230a0f4c4965a764ee2c8
 workflow-type: tm+mt
-source-wordcount: 2771
-ht-degree: 23%
+source-wordcount: 2581
+ht-degree: 25%
 
 ---
 
@@ -353,7 +353,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 <p>Verwenden Sie den neuen <strong>Optimieren</strong>-Knoten, um bestimmte Zielgruppen anzusprechen und den besten Pfad zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln.</p>
 <p>Mit diesem Tool können Sie effektivere Marketing-Kampagnen entwickeln, die mit größerer Wahrscheinlichkeit auf 1:1-Ebene Resonanz finden, die Marketing-Personalisierungsbemühungen für Kunden verbessern und wichtige KPIs für die Kundeninteraktion wie Konversionen und Umsatz verbessern.</p>
 <p>Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p>Verfügbarkeitsdatum: 22. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 1. Juni 2026</p>
 </td>
 </tr>
 </tbody>
@@ -370,7 +370,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 <td>
 <p>Sie können jetzt Formeln verwenden, um anhand von Kundenprofilattributen und Kontextfaktoren automatisch die Journey-Prioritätswerte zu erhöhen und so sicherzustellen, dass Kunden in die relevantesten Journey eintreten.</p>
 <p>Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p>Verfügbarkeitsdatum: 22. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 1. Juni 2026</p>
 </td>
 </tr>
 </tbody>
@@ -410,41 +410,6 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Journey-Pfadoptimierung - Targeting</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Verwenden Sie den neuen <strong>Optimieren</strong>-Knoten, um bestimmte Zielgruppen anzusprechen und den besten Pfad zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln.</p>
-<p>Mit diesem Tool können Sie effektivere Marketing-Kampagnen entwickeln, die mit größerer Wahrscheinlichkeit auf 1:1-Ebene Resonanz finden, die Marketing-Personalisierungsbemühungen für Kunden verbessern und wichtige KPIs für die Kundeninteraktion wie Konversionen und Umsatz verbessern.</p>
-<p>Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p>Verfügbarkeitsdatum: 22. Mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey-Schlichtung - Rangfolgeformeln</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt Formeln verwenden, um anhand von Kundenprofilattributen und Kontextfaktoren automatisch die Journey-Prioritätswerte zu erhöhen und so sicherzustellen, dass Kunden in die relevantesten Journey eintreten.</p>
-<p>Diese Funktion war zuvor nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p>Verfügbarkeitsdatum: 22. Mai 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### Verbesserungen {#coming-soon-improvements}
 
@@ -470,11 +435,15 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 
   Verfügbarkeitsdatum: 1. Juni 2026
 
-#### E-Mail-Designer
+<!--
 
-* **Rich-Text in bearbeitbaren Fragmentfeldern** - Sie können jetzt anpassbaren Fragmenten, die in Ihrem E-Mail-Inhalt verwendet werden, Rich-Text hinzufügen. Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.
+#### Email Designer
 
-  Verfügbarkeitsdatum: 1. Juni 2026
+* **Rich text in editable fragment fields** - You can now add rich text to customizable fragments that are used in your email content. For example, when using the Text component as an editable field in the Email Designer, you can directly format the content (for example, bold and italics) and insert hyperlinks.
+
+  Availability date: June 1, 2026
+  
+-->
 
 #### Kampagnen
 
