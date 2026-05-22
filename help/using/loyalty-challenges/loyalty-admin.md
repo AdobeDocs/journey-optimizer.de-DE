@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: e4ee70a9c918bffb372ab7cee567ae7422c3720c
+source-git-commit: 3d894653dd2ac1ddd10a8772da8d5cee21af9bca
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1459'
 ht-degree: 2%
 
 ---
@@ -38,17 +38,15 @@ ht-degree: 2%
 >
 >Diese Funktion befindet sich derzeit in der **privaten Betaversion**. Umfassende Informationen über den Veröffentlichungszyklus und die Verfügbarkeitsphasen in [!DNL Journey Optimizer] finden Sie [Veröffentlichungszyklus](../rn/releases.md).
 
+## Überblick {#access-loyalty-admin}
+
 Verwenden Sie die Konfiguration des Treueprogramms in [!DNL Journey Optimizer], um eine Verbindung zu Ihren externen Treuesystemen herzustellen. Marketer verwenden **[!UICONTROL Loyalty Challenges (Beta)]** um Herausforderungen, Aufgaben, Inhalte und Messaging zu entwerfen. Die Konfiguration des Treueprogramms ist ein separater, Administratoren vorbehaltener Bereich für Belohnungserfüllung, Ereigniszuordnung, Produktinventar und Ausschlüsse.
 
-## Voraussetzungen {#prerequisites}
+>[!NOTE]
+>
+>Die Konfiguration des Treueprogramms ist für Administratoren gedacht. Zusätzlich zu den für Herausforderungen im Zusammenhang mit dem Treueprogramm erforderlichen Berechtigungen benötigen Sie Zugriff auf Ihre [!DNL Journey Optimizer]-Instanz auf Administratorebene. Wenden Sie sich an Ihren Adobe-Administrator, um Zugriff anzufordern.
 
-Die Konfiguration des Treueprogramms ist für Administratoren gedacht. Zusätzlich zu den für Herausforderungen im Zusammenhang mit dem Treueprogramm erforderlichen Berechtigungen benötigen Sie Zugriff auf Ihre [!DNL Journey Optimizer]-Instanz auf Administratorebene. Wenden Sie sich an Ihren Adobe-Administrator, um Zugriff anzufordern.
-
-## Konfiguration des Treueprogramms aufrufen {#access-loyalty-admin}
-
-Navigieren Sie zu **[!UICONTROL Treue]** und wählen Sie **[!UICONTROL Treueprogramm-Administrator]** aus, um auf die Konfigurationsoberfläche für das Treueprogramm zuzugreifen.
-
-Die Benutzeroberfläche ist in Registerkarten unterteilt:
+Navigieren Sie zum Öffnen der Konfigurationsoberfläche zu **[!UICONTROL Treue]** und wählen Sie **[!UICONTROL Treueprogramm-Administrator]** aus. Die Benutzeroberfläche ist in Registerkarten unterteilt:
 
 * **Globale Einstellungen** - Den Identity-Namespace von Experience Platform festlegen. [Erfahren Sie, wie Sie globale Einstellungen konfigurieren](#global-settings)
 * **Belohnungsanbieter** - Verbinden Sie externe APIs, die Belohnungen erfüllen, einschließlich Belohnungstypen, Proxys und Authentifizierung. [Erfahren Sie, wie Sie Belohnungsanbieter konfigurieren](#reward-providers)
@@ -72,12 +70,6 @@ Die Benutzeroberfläche ist in Registerkarten unterteilt:
 ## Belohnungsanbieter {#reward-providers}
 
 Ein **Belohnungsanbieter** teilt [!DNL Journey Optimizer] mit, wohin Erfüllungsaufrufe gesendet werden sollen, wenn der Challenge-Fortschritt aufgezeichnet oder eine Challenge abgeschlossen wird, z. B. eine API, die einem Mitgliedskonto Treuepunkte oder Sterne gutschreibt.
-
-Die Konfiguration eines Belohnungsanbieters umfasst:
-
-![](assets/admin-reward.png)
-
-* Grundlegende Verbindungsdetails (Name, Beschreibung, URL, Kopfzeilen).
 * **[!UICONTROL Belohnungsdefinitionen]** - die Belohnungstypen, die dieser Anbieter ausgeben kann (z. B. Sterne oder Meilen).
 * **[!UICONTROL Belohnungs-Proxys]** - ein Proxy-Zwischenaufruf, der anstelle Ihres Endpunkts direkt weitergeleitet wird.
 * **[!UICONTROL Auth-Token-Generatoren]** - der Mechanismus, mit [!DNL Journey Optimizer] Zugriffs-Token abgerufen werden, bevor die API aufgerufen wird.
@@ -85,6 +77,8 @@ Die Konfiguration eines Belohnungsanbieters umfasst:
 Gehen Sie wie folgt vor, um einen Belohnungsanbieter zu erstellen:
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Belohnungsanbieter]** und wählen Sie **[!UICONTROL Belohnungsanbieter erstellen]** aus.
+
+   ![](assets/admin-reward.png)
 
 1. Geben Sie einen **[!UICONTROL Namen]** und eine **[!UICONTROL Beschreibung]** ein.
 
@@ -94,9 +88,9 @@ Gehen Sie wie folgt vor, um einen Belohnungsanbieter zu erstellen:
 
 1. Konfigurieren Sie die folgenden Ressourcen, die mit Ihrem Belohnungsanbieter verknüpft sind. Erweitern Sie jeden Abschnitt, um weitere Informationen zu erhalten:
 
-   +++Prämiendefinitionen - Ein Eintrag pro Prämie, der von Ihrem Anbieter unterstützt wird (z. B. Programmpunkte oder Sterne, Geldguthaben)
+   +++Prämiendefinitionen
 
-   Für jede Definition gilt:
+   Ein Eintrag pro Prämie, die von Ihrem Anbieter unterstützt wird (z. B. Programmpunkte oder Sterne, Geldguthaben). Für jede Definition gilt:
 
    * Geben Sie einen Namen und eine Beschreibung ein.
    * Geben Sie an, ob die Definition **[!UICONTROL Aktiviert]** ist.
@@ -107,7 +101,9 @@ Gehen Sie wie folgt vor, um einen Belohnungsanbieter zu erstellen:
 
    +++
 
-   +++Reward Proxy - Leitet Erfüllungsanrufe über einen Zwischen-Server anstatt direkt an den Endpunkt weiter.
+   +++Belohnungs-Proxy
+
+   Leitet Erfüllungsaufrufe über einen Zwischenserver anstatt direkt an den Endpunkt weiter.
 
    * Geben Sie einen Namen und eine Beschreibung an.
    * Geben Sie **[!UICONTROL host]**, **[!UICONTROL port]** Informationen ein.
@@ -118,7 +114,9 @@ Gehen Sie wie folgt vor, um einen Belohnungsanbieter zu erstellen:
 
    +++
 
-   +++Auth-Token-Generator - Wenn Ihre API ein Bearer-Token für die Authentifizierung benötigt
+   +++Generator für Authentifizierungs-Token
+
+   Wenn Ihre API ein Bearer-Token für die Authentifizierung benötigt.
 
    * Geben Sie einen Namen und eine Beschreibung ein.
    * Geben Sie im Feld Authentifizierungstyp den Authentifizierungstyp ein (z. B. Bearer).
@@ -143,11 +141,11 @@ Um einen vorhandenen Belohnungsanbieter zu bearbeiten, öffnen Sie die Registerk
 >
 >**[!UICONTROL Bringen Sie Ihre eigenen Daten mit]** Herausforderungen erfüllen Belohnungen durch Ihre eigene Datenintegration. Die hier konfigurierten Belohnungsanbieter gelten nicht für diese Herausforderungen. [Erfahren Sie, wie Sie Ihre eigenen Herausforderungen an Daten stellen](create-challenges.md#create-the-challenge)
 
-## Ereignisdefinitionen (optional) {#event-definitions}
+## Ereignisdefinitionen {#event-definitions}
 
 **[!UICONTROL Ereignisdefinitionen]** Ordnen Sie Erlebnisereignisse aus Ihren Systemen (z. B. Kauf, Hotel-Check-in) Aktivitäten zu, für die Treueprogramm-Herausforderungen eine Rolle spielen können, insbesondere Aufgaben **[!UICONTROL benutzerspezifische Ereignisse]**. Wenn Ereignisse eintreffen, verwendet [!DNL Journey Optimizer] diese Definitionen, um zu entscheiden, ob sie verarbeitet werden sollen. Ereignisse, die keiner Definition entsprechen, werden ignoriert.
 
-### Erstellen einer Ereignisdefinition {#create-event-definition}
+Gehen Sie wie folgt vor, um eine Ereignisdefinition zu erstellen:
 
 1. Öffnen Sie die **[!UICONTROL Ereignisdefinitionen]** und erstellen Sie eine neue Definition.
 
@@ -171,6 +169,8 @@ Um einen vorhandenen Belohnungsanbieter zu bearbeiten, öffnen Sie die Registerk
 ## Produktinventar {#product-inventory}
 
 Auf **[!UICONTROL Registerkarte]** Produktinventar“ können Sie Katalogelemente gruppieren, sodass Sie sie in Aufgaben auswählen können, ohne jede Element-ID aufzulisten. Sie laden eine **CSV-Datei** hoch, die jede Elementkennung einer oder mehreren **Produktgruppen** zuordnet (dasselbe Element kann in mehreren Gruppen angezeigt werden). Nach dem Import sind diese Gruppen verfügbar, wenn Sie die Aufgabeneignung konfigurieren. [Erfahren Sie, wie Sie Aufgaben erstellen](create-tasks.md)
+
+Gehen Sie wie folgt vor, um eine Produktinventardatei hochzuladen:
 
 1. Bereiten Sie eine CSV-Datei vor, die jede Artikelkennung einer oder mehreren Produktgruppen zuordnet. Erweitern Sie den folgenden Abschnitt, um ein Beispiel zu sehen.
 
@@ -199,6 +199,8 @@ Auf **[!UICONTROL Registerkarte]** Produktinventar“ können Sie Katalogelement
 ## Ausschlüsse {#exclusions}
 
 Auf **[!UICONTROL Registerkarte]** Ausschlüsse“ können Sie Katalogelemente und Gruppen definieren, die über Ihr Treueprogramm hinweg ausgeschlossen sind, ohne jede Element-ID in jeder Aufgabe aufzulisten. Sie laden eine **CSV-Datei** hoch, die jede Elementkennung einer oder mehreren **Ausschlussgruppen** zuordnet (dasselbe Element kann in mehreren Gruppen angezeigt werden). Nach dem Import sind diese Elemente und Gruppen im Task Builder verfügbar: Ausgeschlossene Elemente werden automatisch markiert und können nicht in eine Aufgabe aufgenommen werden. Ausschlussgruppen können nur zur Ausschlussliste der Aufgabe hinzugefügt werden, nicht zur Einschlussliste. [Erfahren Sie, wie Sie geeignete Elemente und Ausschlüsse für Aufgaben definieren](create-tasks.md#eligible-items-exclusions)
+
+Gehen Sie wie folgt vor, um eine Produktausschlussdatei hochzuladen:
 
 1. Bereiten Sie eine CSV-Datei vor, die jede Elementkennung einer oder mehreren Ausschlussgruppen zuordnet. Erweitern Sie den folgenden Abschnitt, um ein Beispiel zu sehen.
 
