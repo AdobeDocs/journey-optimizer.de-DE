@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 3ed592e5a9a0671ddd09d648f7407a391cc9684f
+source-git-commit: 9383220dd57f6a3ebfe67d0d1081b8834b524293
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1349'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Navigieren Sie zum Öffnen der Konfigurationsoberfläche zu **[!UICONTROL Treue]
 
 * **Globale Einstellungen** - Wählen Sie den Identity-Namespace von Experience Platform für Ihr Programm aus. [Erfahren Sie, wie Sie globale Einstellungen konfigurieren](#global-settings)
 * **Belohnungsanbieter** - Verbinden Sie die APIs, die die Belohnungen erfüllen, wenn Kunden Fortschritte machen oder Herausforderungen meistern. [Erfahren Sie, wie Sie Belohnungsanbieter konfigurieren](#reward-providers)
-* **Ereignisdefinitionen** - Ordnen Sie eingehende Erlebnisereignisse Aktivitäten zu, die in Aufgaben **[!UICONTROL Benutzerspezifisches Ereignis“]** werden. [Erfahren Sie, wie Sie Ereignisdefinitionen konfigurieren](#event-definitions)
+* **Ereignisdefinitionen** - Ordnen Sie eingehende Erlebnisereignisse Aktivitäten zu, die in Aufgaben **[!UICONTROL Benutzerdefiniertes AEP-Ereignis]** verwendet werden. [Erfahren Sie, wie Sie Ereignisdefinitionen konfigurieren](#event-definitions)
 * **Produktinventar** - Laden Sie Zuordnungen von Elementen zu Gruppen hoch, um sie in Eignungsregeln für Aufgaben zu verwenden. [Erfahren Sie, wie Sie den Produktbestand konfigurieren](#product-inventory)
 * **Ausnahmen** - Laden Sie organisationsweite Element- und Gruppenausschlüsse für die Aufgabenkonfiguration hoch. [Erfahren Sie, wie Sie Ausschlüsse konfigurieren](#exclusions)
 
@@ -100,12 +100,16 @@ Gehen Sie wie folgt vor, um einen Belohnungsanbieter zu erstellen:
 
    +++Belohnungs-Proxy
 
-   Routet Erfüllungsaufrufe über einen Zwischenserver, anstatt sie direkt an Ihren Endpunkt zu senden.
+   Routet Erfüllungsaufrufe über einen Zwischenserver, anstatt sie direkt an Ihren Endpunkt zu senden. Verwenden Sie auf den Bildschirmen Belohnungsanbieter und **[!UICONTROL Proxy erstellen]** das Feld **[!UICONTROL Anmeldeinformationen]** für die Proxy-Authentifizierung.
 
    * Geben Sie **[!UICONTROL Name]** und **[!UICONTROL Beschreibung]** ein.
    * Geben Sie **[!UICONTROL Host]** und **[!UICONTROL Port]** ein.
    * Geben Sie an, ob der Proxy **[!UICONTROL aktiviert]** ist.
-   * Fügen Sie den Proxy **[!UICONTROL Credential]** hinzu.
+   * Geben **[!UICONTROL unter]** den Proxy-Benutzernamen und das Kennwort als JSON ein. Der Wert der Anmeldeinformationen sieht in der Regel wie folgt aus:
+
+     ```json
+     { "userName": "test", "password": "xxxx" }
+     ```
 
    ![](assets/admin-reward-proxies.png)
 
@@ -140,7 +144,7 @@ Um einen Belohnungsanbieter zu bearbeiten, öffnen Sie die Registerkarte **[!UIC
 
 ## Ereignisdefinitionen {#event-definitions}
 
-**[!UICONTROL Ereignisdefinitionen]** teilen [!DNL Journey Optimizer] mit, welche eingehenden Erlebnisereignisse verarbeitet werden sollen. Zum Beispiel ein Kauf oder ein Check-in im Hotel. Marketingexperten verweisen auf diese Definitionen in **[!UICONTROL Aufgaben für benutzerdefinierte Ereignisse]**. Ereignisse, die keiner Definition entsprechen, werden ignoriert.
+**[!UICONTROL Ereignisdefinitionen]** teilen [!DNL Journey Optimizer] mit, welche eingehenden Adobe Experience Platform-Erlebnisereignisse verarbeitet werden sollen. Zum Beispiel ein Kauf oder ein Check-in im Hotel. Marketing-Experten verweisen auf diese Definitionen, wenn sie **[!UICONTROL benutzerdefiniertes AEP-]**) erstellen. Ereignisse, die keiner Definition entsprechen, werden ignoriert.
 
 Wenn Ihr Unternehmen Ereignisse im eigenen JSON-Format sendet, helfen **[!UICONTROL Schema]** und **[!UICONTROL Transformer]** dabei, die Payload [!DNL Journey Optimizer] validieren, sie zu analysieren und zu entscheiden, ob die Aktivität verfolgt werden soll.
 
@@ -150,7 +154,7 @@ Gehen Sie wie folgt vor, um eine Ereignisdefinition zu erstellen:
 
    ![](assets/admin-event-definition.png)
 
-1. Geben Sie einen **[!UICONTROL Namen]** für das Ereignis ein (z. B. `Coffee purchase`). Marketing-Experten sehen diesen Namen beim Konfigurieren einer Aufgabe **[!UICONTROL Benutzerspezifisches Ereignis]**.
+1. Geben Sie einen **[!UICONTROL Namen]** für das Ereignis ein (z. B. `Coffee purchase`). Marketing-Experten sehen diesen Namen beim Konfigurieren einer Aufgabe **[!UICONTROL Benutzerdefiniertes AEP-]**).
 
 1. Geben Sie an, wie [!DNL Journey Optimizer] das Ereignis in eingehenden Payloads erkennt. Geben Sie einen **[!UICONTROL Kennungspfad]** eine **[!UICONTROL XDM-Schema-ID]** oder beides an:
 
@@ -163,7 +167,7 @@ Gehen Sie wie folgt vor, um eine Ereignisdefinition zu erstellen:
    * **[!UICONTROL Schema]** - Validierungszeichenfolge für die eingehende Payload.
    * **[!UICONTROL Transformer]** - Umwandlungsausdruck (z. B. JSONata), der Ihre Payload dem Format zuordnet, das die Herausforderungen im Zusammenhang mit dem Treueprogramm erwarten.
 
-1. Speichern Sie die Ereignisdefinition. Er wird in der Liste **[!UICONTROL Ereignisdefinitionen]** angezeigt und ist verfügbar, wenn Marketer Herausforderungen erstellen. [Erfahren Sie, wie Sie Herausforderungen schaffen](create-challenges.md)
+1. Speichern Sie die Ereignisdefinition. Er wird in der Liste **[!UICONTROL Ereignisdefinitionen]** angezeigt und ist verfügbar, wenn Marketer **[!UICONTROL benutzerdefiniertes AEP-Ereignis)]**. [Erfahren Sie, wie Sie Aufgaben erstellen](create-tasks.md#choose-activity)
 
 ## Produktinventar {#product-inventory}
 
