@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f7524e295032c5ac4bb230a0f4c4965a764ee2c8
+source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
 workflow-type: tm+mt
 source-wordcount: 2581
 ht-degree: 25%
@@ -87,7 +87,7 @@ Die folgenden Funktionen wurden im Mai 2026 veröffentlicht.
 <p>Orchestrierte Kampagnen können jetzt miteinander verknüpft werden, indem eine orchestrierte Kampagne direkt über die „Endaktivität“ einer anderen orchestrierten <strong> ausgelöst </strong>.</p>
 <p>Dies ermöglicht es, komplexe Orchestrierungslogik in kleinere, wiederverwendbare Flüsse zu unterteilen, die von mehreren übergeordneten Kampagnen aufgerufen werden können, anstatt jedes Mal neu aufgebaut zu werden. Die zur Laufzeit übergebene Payload ist für die Segmentierung und Personalisierung in der nachgelagerten Kampagne verfügbar, sodass jede verknüpfte Kampagne sich basierend auf dem empfangenen Kontext verhalten kann.</p>
 <p><img src="assets/do-not-localize/oc-trigger.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 20. Mai 2026</p>
 </td>
 </tr>
@@ -148,7 +148,7 @@ Die folgenden Funktionen wurden im Mai 2026 veröffentlicht.
 <td>
 <p>Es ist jetzt möglich, über eine dedizierte Option im E-Mail-Designer Deeplinks zu Ihren E-Mail-Inhalten hinzuzufügen.</p><p>Dadurch wird sichergestellt, dass Benutzende direkt zu den richtigen In-App-Inhalten weitergeleitet werden, anstatt zu Browsern oder App-Stores, wodurch der Kontext und die Interaktion erhalten bleiben.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../email/deeplinks.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../email/deeplinks.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 12. Mai 2026</p>
 </td>
 </tr>
@@ -167,7 +167,7 @@ Die folgenden Funktionen wurden im Mai 2026 veröffentlicht.
 <p>Sie können Ihre Journey jetzt auf <strong>Simulation</strong> setzen. In diesem Modus können Sie Ihre Logik mithilfe von <strong>simulierten Benutzenden</strong> überprüfen. Dies sind temporäre, speziell für die Simulation erstellte Profile, mit denen Sie frei testen können. So müssen Sie keine dauerhaften Testprofile in Adobe Experience Platform verwalten.</p>
 <p>Die Hauptfunktionen dieser Funktion sind derzeit eingeschränkt für alle Benutzenden verfügbar.</p>
 <p><img src="assets/do-not-localize/simulate-user.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/simulate-journey.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../building-journeys/simulate-journey.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 5. Mai 2026</p>
 </td>
 </tr>
@@ -185,7 +185,7 @@ Die folgenden Funktionen wurden im Mai 2026 veröffentlicht.
 <td>
 <p>[!DNL Adobe Journey Optimizer] verwendet jetzt KI, um Entscheidungsregeln und Rangfolgenformeln zu erkennen, die vereinfacht werden können. Im Bestand wird für jede Regel, für die die KI eine Optimierungsmöglichkeit identifiziert hat, ein roter Indikator angezeigt. Wenn Sie auf den Indikator klicken, wird der ursprüngliche Ausdruck zusammen mit der von KI vorgeschlagenen Version angezeigt. Dort können Sie eine Datei herunterladen, um zu überprüfen, wie simulierte Profile von jeder Version ausgewertet werden, und zu bestätigen, dass sie sich identisch verhalten, und dann den Ausdruck durch den optimierten Ausdruck ersetzen.</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../start/ai-features.md#decisioning-optimization">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../start/ai-features.md#decisioning-optimization">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 5. Mai 2026</p>
 </td>
 </tr>
@@ -301,7 +301,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 <p>Der KI-Assistent arbeitet jetzt im erweiterten Ausdruckseditor von Journey, um Eingabeaufforderungen in natürliche Sprachen in gültige Ausdrücke und Bedingungslogik zu konvertieren. Beschreiben Sie den Ausdruck, den Sie erstellen möchten, und der KI-Assistent generiert einsatzbereiten Code, den Sie sofort anwenden oder durch Folgeaufforderungen verfeinern können.</p>
 <p>Diese Funktion steht allen Kunden von as a Public Beta zur Verfügung.</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Verfügbarkeitsdatum: 22. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 2. Juni 2026</p>
 </td>
 </tr>
 </tbody>
@@ -318,7 +318,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 <td>
 <p>Journey, die nicht wiederkehrend <strong>Zielgruppe lesen</strong> sind, wechseln jetzt automatisch in den <strong>Stopped</strong>-Status, sobald das letzte aktive Profil beendet wurde. Zuvor blieben diese Journey-<strong> bis zum Ablauf der 91-tägigen globalen maximalen Wartezeit </strong>Live), selbst wenn keine Profile mehr durch sie hindurch strömten. Mit dieser Verbesserung spiegelt der Journey-Status den tatsächlichen Ausführungsstatus nach Abschluss wider, sodass der Journey-Bestand ohne manuelles Eingreifen stets korrekt ist.</p>
 <p>Beachten Sie, dass dieses Verhalten nicht für Journey gilt, die Knoten enthalten, die Wartezeiten verursachen, z. B. Warteknoten, Reaktionsknoten oder ereignisausgelöste Transitionen. Diese Journey unterliegen weiterhin der standardmäßigen globalen 91-Tage-Zeitüberschreitung.</p>
-<p>Verfügbarkeitsdatum: 22. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 2. Juni 2026</p>
 </tr>
 </tbody>
 </table>
@@ -423,7 +423,7 @@ Die folgenden Funktionen und Verbesserungen sind für Ende Mai geplant. **Inform
 
 * **Zertifikatbasierte benutzerdefinierte Authentifizierung in benutzerdefinierten Aktionen** - Benutzerdefinierte Aktionen unterstützen jetzt die zertifikatbasierte benutzerdefinierte Authentifizierung. Durch Hinzufügen des Untertyps „certificateCredential“ zu einer benutzerdefinierten Autorisierungskonfiguration verwendet Journey Optimizer das verwaltete Zertifikat von Adobe, um eine JWT-Client-Bestätigung zu signieren und gegen ein Zugriffstoken einzutauschen - kein Client-Geheimnis erforderlich. Entwickelt für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Azure Entra ID.
 
-  Verfügbarkeitsdatum: 22. Mai 2026
+  Verfügbarkeitsdatum: 2. Juni 2026
 
 * **Zusätzliche Kennungsunterstützung für externe Zielgruppen** - Zusätzliche Kennungen in Journey werden jetzt für externe Zielgruppen unterstützt, einschließlich Zielgruppen, die aus einer CSV-Datei importiert wurden, und Zielgruppen, die mit Federated Audience Composition erstellt wurden. Sie können ein beliebiges Nicht-Identitätsattribut oder ein beliebiges Identitätsattribut aus der Zielgruppe als zusätzliche ID festlegen. Es ist keine Schemakennzeichnung erforderlich.
 
