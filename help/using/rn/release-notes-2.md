@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 hide: true
-source-git-commit: 6f67786674f995422a5add1600d7f0dbfe915067
+source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
 workflow-type: tm+mt
-source-wordcount: '2835'
-ht-degree: 18%
+source-wordcount: '2786'
+ht-degree: 19%
 
 ---
 
@@ -48,7 +48,7 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey 
 <tr>
 <td>
 <p>Sie können jetzt <strong>Journey-Fragmente</strong> in Adobe Journey Optimizer erstellen. Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen.</p>
-<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente&rbrace; in </strong> Journey eingefügt werden.</p>
+<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente} in </strong> Journey eingefügt werden.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-fragments.md">ausführlichen Dokumentation</a>.</p>
@@ -70,12 +70,16 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey 
 <p>Sie können Ihre Journey jetzt auf <strong>Simulation</strong> setzen. In diesem Modus können Sie Ihre Logik mithilfe von <strong>simulierten Benutzenden</strong> überprüfen. Dies sind temporäre, speziell für die Simulation erstellte Profile, mit denen Sie frei testen können. So müssen Sie keine dauerhaften Testprofile in Adobe Experience Platform verwalten.</p>
 <p>Die Hauptfunktionen dieser Funktion sind derzeit eingeschränkt für alle Benutzenden verfügbar.</p>
 <p><img src="assets/do-not-localize/simulate-user.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/simulate-journey.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../building-journeys/simulate-journey.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 5. Mai 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+#### Demnächst {#may-26-journeys-coming-soon}
+
+Die folgenden Journey-Funktionen werden in den nächsten Tagen oder Wochen erwartet. **Die unten stehenden Informationen können sich ändern.**
 
 <table>
 <thead>
@@ -89,7 +93,7 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey 
 <p>Verwenden Sie den neuen <strong>Optimieren</strong>-Knoten, um bestimmte Zielgruppen anzusprechen und den besten Pfad zur Erfüllung Ihrer geschäftsorientierten KPIs zu ermitteln.</p>
 <p>Mit diesem Tool können Sie effektivere Marketing-Kampagnen entwickeln, die mit größerer Wahrscheinlichkeit auf 1:1-Ebene Resonanz finden, die Marketing-Personalisierungsbemühungen für Kunden verbessern und wichtige KPIs für die Kundeninteraktion wie Konversionen und Umsatz verbessern.</p>
 <p>Diese Funktion war bisher nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung.</p>
-<p>Verfügbarkeitsdatum: 21. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 1. Juni 2026</p>
 </td>
 </tr>
 </tbody>
@@ -106,15 +110,11 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey 
 <td>
 <p>Sie können jetzt Formeln verwenden, um anhand von Kundenprofilattributen und Kontextfaktoren automatisch die Journey-Prioritätswerte zu erhöhen und so sicherzustellen, dass Kunden in die relevantesten Journey eintreten.</p>
 <p>Diese Funktion war bisher nur in begrenzter Verfügbarkeit verfügbar und steht nun allen Umgebungen zur Verfügung.</p>
-<p>Verfügbarkeitsdatum: 21. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 1. Juni 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-#### Demnächst {#may-26-journeys-coming-soon}
-
-Die folgenden Journey-Funktionen werden in den nächsten Tagen oder Wochen erwartet. **Die unten stehenden Informationen können sich ändern.**
 
 <table>
 <thead>
@@ -128,7 +128,7 @@ Die folgenden Journey-Funktionen werden in den nächsten Tagen oder Wochen erwar
 <p>Der KI-Assistent arbeitet jetzt im erweiterten Ausdruckseditor von Journey, um Eingabeaufforderungen in natürliche Sprachen in gültige Ausdrücke und Bedingungslogik zu konvertieren. Beschreiben Sie den Ausdruck, den Sie erstellen möchten, und der KI-Assistent generiert einsatzbereiten Code, den Sie sofort anwenden oder durch Folgeaufforderungen verfeinern können.</p>
 <p>Diese Funktion steht allen Kunden von as a Public Beta zur Verfügung.</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Verfügbarkeitsdatum: 22. Mai 2026</p>
+<p>Verfügbarkeitsdatum: 2. Juni 2026</p>
 </td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ Die folgenden Journey-Funktionen werden in den nächsten Tagen oder Wochen erwar
 <tr>
 <td>
 <p>Journey Simulation wurde bisher nur in begrenztem Umfang veröffentlicht und ist jetzt für alle Umgebungen verfügbar. Mit dieser allgemeinen Verfügbarkeit können Sie jetzt Journey Agent verwenden, um simulierte Benutzende und Ereignisse direkt im Simulationsmenü zu generieren.</p>
-<p>Verfügbarkeitsdatum: 1. Juni 2026</p>
+<p>Verfügbarkeitsdatum: Anfang Juni 2026</p>
 </td>
 </tr>
 </tbody>
@@ -154,17 +154,13 @@ Die folgenden Journey-Funktionen werden in den nächsten Tagen oder Wochen erwar
 
   Beachten Sie, dass dieses Verhalten nicht für Journey gilt, die Knoten enthalten, die Wartezeiten verursachen, z. B. Warteknoten, Reaktionsknoten oder ereignisausgelöste Transitionen. Diese Journey unterliegen weiterhin der standardmäßigen globalen 91-Tage-Zeitüberschreitung.
 
-  Verfügbarkeitsdatum: 21. Mai 2026
+  Verfügbarkeitsdatum: 2. Juni 2026
 
 * **Zertifikatbasierte benutzerdefinierte Authentifizierung in benutzerdefinierten Aktionen** - Benutzerdefinierte Aktionen unterstützen jetzt die zertifikatbasierte benutzerdefinierte Authentifizierung. Durch das Hinzufügen von `subType: "certificateCredential"` zu einer benutzerdefinierten Autorisierungskonfiguration verwendet Journey Optimizer das verwaltete Zertifikat von Adobe, um eine JWT-Client-Bestätigung zu signieren und sie gegen ein Zugriffstoken einzutauschen - kein Client-Geheimnis erforderlich. Entwickelt für Unternehmens-APIs, die eine zertifikatbasierte Identitätsüberprüfung erzwingen, z. B. die Azure Entra ID.
 
-  Verfügbarkeitsdatum: 21. Mai 2026
+  Verfügbarkeitsdatum: 2. Juni 2026
 
-* **Schleifenbasierte Personalisierung für relationale Daten** - Der Personalisierungseditor unterstützt jetzt einen Schleifenblock, der relationale Sammlungen wie Bestellungen, Konten oder Buchungen durchläuft und einen Inhaltsblock pro Datensatz in einer einzelnen E-Mail oder SMS rendert. Sammlungen werden über die Datenauswahl mithilfe von Personalisierungs-Token konfiguriert, ohne dass ein Ausdruck geschrieben werden muss.
-
-  Verfügbarkeitsdatum: 1. Juni 2026
-
-* **Zusätzliche Kennungsunterstützung für externe Zielgruppen** - Zusätzliche Kennungen in Journey werden jetzt für externe Zielgruppen unterstützt, einschließlich Zielgruppen, die aus einer CSV-Datei importiert wurden, und Zielgruppen, die mit Federated Audience Composition erstellt wurden. Sie können ein beliebiges Nicht-Identitätsattribut oder ein beliebiges Identitätsattribut aus der Zielgruppe als zusätzliche ID festlegen, ohne dass eine Schemakennzeichnung erforderlich ist.
+* **Zusätzliche Kennungsunterstützung für externe Zielgruppen** - Zusätzliche Kennungen in Journey werden jetzt für externe Zielgruppen unterstützt, einschließlich Zielgruppen, die aus einer CSV-Datei importiert wurden, und Zielgruppen, die mit Federated Audience Composition erstellt wurden. Sie können ein beliebiges Nicht-Identitätsattribut oder ein beliebiges Identitätsattribut aus der Zielgruppe als zusätzliche ID festlegen. Es ist keine Schemakennzeichnung erforderlich.
 
   Verfügbarkeitsdatum: 1. Juni 2026
 
@@ -184,7 +180,7 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu orchestr
 <p>Orchestrierte Kampagnen können jetzt miteinander verknüpft werden, indem eine orchestrierte Kampagne direkt über die „Endaktivität“ einer anderen orchestrierten <strong> ausgelöst </strong>.</p>
 <p>Dies ermöglicht es, komplexe Orchestrierungslogik in kleinere, wiederverwendbare Flüsse zu unterteilen, die von mehreren übergeordneten Kampagnen aufgerufen werden können, anstatt jedes Mal neu aufgebaut zu werden. Die zur Laufzeit übergebene Payload ist für die Segmentierung und Personalisierung in der nachgelagerten Kampagne verfügbar, sodass jede verknüpfte Kampagne sich basierend auf dem empfangenen Kontext verhalten kann.</p>
 <p><img src="assets/do-not-localize/oc-trigger.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 20. Mai 2026</p>
 </td>
 </tr>
@@ -216,6 +212,10 @@ Die folgende koordinierte Kampagnenfunktion wird in den kommenden Tagen oder Woc
 </tbody>
 </table>
 
+* **Schleifenbasierte Personalisierung für relationale Daten** - Der Personalisierungseditor unterstützt jetzt einen Schleifenblock, der relationale Sammlungen wie Bestellungen, Konten oder Buchungen durchläuft und einen Inhaltsblock pro Datensatz in einer einzelnen E-Mail oder SMS rendert. Sammlungen werden über die Datenauswahl mithilfe von Personalisierungs-Token konfiguriert, ohne dass ein Ausdruck geschrieben werden muss.
+
+  Verfügbarkeitsdatum: 1. Juni 2026
+
 ### Kampagnen {#may-26-campaigns}
 
 #### Demnächst {#may-26-campaigns-coming-soon}
@@ -245,7 +245,7 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zu Decision
 <td>
 <p>[!DNL Adobe Journey Optimizer] verwendet jetzt KI, um Entscheidungsregeln und Rangfolgenformeln zu erkennen, die vereinfacht werden können. Im Bestand wird für jede Regel, für die die KI eine Optimierungsmöglichkeit identifiziert hat, ein roter Indikator angezeigt. Wenn Sie auf den Indikator klicken, wird der ursprüngliche Ausdruck zusammen mit der von KI vorgeschlagenen Version angezeigt. Dort können Sie eine Datei herunterladen, um zu überprüfen, wie simulierte Profile von jeder Version ausgewertet werden, und zu bestätigen, dass sie sich identisch verhalten, und dann den Ausdruck durch den optimierten Ausdruck ersetzen.</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../start/ai-features.md#decisioning-optimization">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../start/ai-features.md#decisioning-optimization">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 5. Mai 2026</p>
 </td>
 </tr>
@@ -298,12 +298,16 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum E-Mail-
 <td>
 <p>Es ist jetzt möglich, über eine dedizierte Option im E-Mail-Designer Deeplinks zu Ihren E-Mail-Inhalten hinzuzufügen. Dadurch wird sichergestellt, dass Benutzende direkt zu den richtigen In-App-Inhalten weitergeleitet werden, anstatt zu Browsern oder App-Stores, wodurch der Kontext und die Interaktion erhalten bleiben.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../email/deeplinks.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../email/deeplinks.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 12. Mai 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+* **Einschränkung der Vererbung bei Fragmenten** - Beim Erstellen oder Bearbeiten eines Fragments können Sie jetzt auswählen, ob es bei der Verwendung in E-Mails geändert werden kann. Durch das Sperren eines Fragments wird sichergestellt, dass es überall synchronisiert bleibt, wo es angezeigt wird. Dadurch werden lokale Bearbeitungen verhindert, die Markenstandards oder Compliance-Anforderungen beschädigen könnten. Diese Einstellung kann später aktualisiert werden und auf zukünftige Verwendungen angewendet werden. [Weitere Informationen](../content-management/create-fragments.md#lock-visual-fragment)
+
+  Verfügbarkeitsdatum: 21. Mai 2026
 
 #### Demnächst {#may-26-email-coming-soon}
 
@@ -314,14 +318,6 @@ Die folgenden Verbesserungen am E-Mail-Kanal werden in den kommenden Tagen oder 
   Header-Werte können auf Kanalebene festgelegt und pro Kampagne überschrieben werden, indem kontextuelle Daten verwendet werden, um die Kontrolle zu verbessern.
 
   Verfügbarkeitsdatum: 1. Juni 2026
-
-* **Rich-Text in bearbeitbaren Fragmentfeldern** - Sie können jetzt anpassbaren Fragmenten, die in Ihrem E-Mail-Inhalt verwendet werden, Rich-Text hinzufügen. Wenn Sie beispielsweise die Textkomponente als bearbeitbares Feld in der E-Mail-Designer verwenden, können Sie den Inhalt direkt formatieren (z. B. fett und kursiv) und Hyperlinks einfügen.
-
-  Verfügbarkeitsdatum: 1. Juni 2026
-
-* **Einschränkung der Vererbung bei Fragmenten** - Beim Erstellen oder Bearbeiten eines Fragments können Sie jetzt auswählen, ob es bei der Verwendung in E-Mails geändert werden kann. Durch das Sperren eines Fragments wird sichergestellt, dass es überall synchronisiert bleibt, wo es angezeigt wird. Dadurch werden lokale Bearbeitungen verhindert, die Markenstandards oder Compliance-Anforderungen beschädigen könnten. Diese Einstellung kann später aktualisiert werden und auf zukünftige Verwendungen angewendet werden.
-
-  Verfügbarkeitsdatum: 21. Mai 2026
 
 ### Mobile Messaging (SMS, MMS und RCS) {#may-26-mobile}
 
@@ -344,7 +340,7 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zu Mobile M
 </tbody>
 </table>
 
-* **Zeichenanzahl** - Sie können jetzt die Zeichenanzahl verwenden, um die Länge Ihrer SMS-Nachrichten in Echtzeit zu überwachen. Auf diese Weise lässt sich erkennen, wann eine Nachricht in mehrere Segmente aufgeteilt wird. So kann die Formatierung besser verwaltet und ein unerwartetes Ansteigen der Versandkosten vermieden werden. [Weitere Informationen](../mobile/create-mobile-message.md)
+* **Zeichenanzahl**: In Adobe Journey Optimizer können Sie jetzt die Zeichenanzahl verwenden, um die Länge Ihrer SMS-Nachrichten in Echtzeit zu überwachen. Auf diese Weise lässt sich erkennen, wann eine Nachricht in mehrere Segmente aufgeteilt wird. So kann die Formatierung besser verwaltet und ein unerwartetes Ansteigen der Versandkosten vermieden werden. [Weitere Informationen](../mobile/create-mobile-message.md)
 
 * **SMS-Eingänge in einen benutzerdefinierten Datensatz**: Leiten Sie in **SMS-API-Anmeldedaten** **eingehende SMS** an einen ausgewählten **benutzerdefinierten, profilaktivierten Erlebnisereignisdatensatz** weiter, anstatt nur an den Standard-Tracking-Datensatz. [Weitere Informationen](../mobile/mobile-webhook.md)
 
@@ -432,7 +428,7 @@ Die folgenden Verbesserungen der Anwendung sind in den nächsten Tagen oder Woch
 
 * **Ordner für Journey und Kampagnen** - Sie können Ihre Journey und Kampagnen jetzt in Ordnern organisieren, um die Navigation und Verwaltung in der Benutzeroberfläche zu verbessern.
 
-  Verfügbarkeitsdatum: 21. Mai 2026
+  Verfügbarkeitsdatum: 2. Juni 2026
 
 * **Datensatz mit Nachrichten-Feedback-Ereignissen, der zur Batch-Aufnahme** wird`AJO Message Feedback Event Dataset` Der wechselt vom Streaming- in den Batch-Aufnahme-Modus. Durch diese Änderung wird sichergestellt, dass die Datenaufnahme die Streaming-Aufnahmebeschränkungen nicht überschreitet. Wenn Sie diesen Datensatz in Customer Journey Analytics-Berichten verwenden oder Abfragen dafür ausführen, erwarten Sie in Zukunft eine Zunahme der Datenlatenz von bis zu 2 Stunden.
 
