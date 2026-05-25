@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 9383220dd57f6a3ebfe67d0d1081b8834b524293
+source-git-commit: 863c3405e5509938cb6b9180c16d5c89fb439814
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1631'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Navigieren Sie zum Öffnen der Konfigurationsoberfläche zu **[!UICONTROL Treue]
 
 * **Globale Einstellungen** - Wählen Sie den Identity-Namespace von Experience Platform für Ihr Programm aus. [Erfahren Sie, wie Sie globale Einstellungen konfigurieren](#global-settings)
 * **Belohnungsanbieter** - Verbinden Sie die APIs, die die Belohnungen erfüllen, wenn Kunden Fortschritte machen oder Herausforderungen meistern. [Erfahren Sie, wie Sie Belohnungsanbieter konfigurieren](#reward-providers)
-* **Ereignisdefinitionen** - Ordnen Sie eingehende Erlebnisereignisse Aktivitäten zu, die in Aufgaben **[!UICONTROL Benutzerdefiniertes AEP-Ereignis]** verwendet werden. [Erfahren Sie, wie Sie Ereignisdefinitionen konfigurieren](#event-definitions)
+* **Ereignisdefinitionen** - Ordnen Sie eingehende Erlebnisereignisse Aktivitäten zu, die in Aufgaben **[!UICONTROL Benutzerspezifisches Ereignis“]** werden. [Erfahren Sie, wie Sie Ereignisdefinitionen konfigurieren](#event-definitions)
 * **Produktinventar** - Laden Sie Zuordnungen von Elementen zu Gruppen hoch, um sie in Eignungsregeln für Aufgaben zu verwenden. [Erfahren Sie, wie Sie den Produktbestand konfigurieren](#product-inventory)
 * **Ausnahmen** - Laden Sie organisationsweite Element- und Gruppenausschlüsse für die Aufgabenkonfiguration hoch. [Erfahren Sie, wie Sie Ausschlüsse konfigurieren](#exclusions)
 
@@ -59,7 +59,7 @@ Navigieren Sie zum Öffnen der Konfigurationsoberfläche zu **[!UICONTROL Treue]
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="Globale Einstellungen"
->abstract="Wählen Sie den Identity-Namespace von Adobe Experience Platform für Ihr Treueprogramm aus."
+>abstract="Globale Einstellungen definieren die Konfiguration auf Organisationsebene für Ihr Treueprogramm, einschließlich des Identity-Namespace, mit dem Mitglieder über Ereignisse und Herausforderungen hinweg identifiziert werden."
 
 Öffnen Sie die **[!UICONTROL Globale Einstellungen]** und wählen Sie den Adobe Experience Platform [Identity-Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces) **[!UICONTROL für Ihr Treueprogramm in der Dropdown-]** Namespace“ aus. Dieser Namespace muss mit der Art und Weise übereinstimmen, wie Mitgliederprofile in Ihren Daten identifiziert werden.
 
@@ -68,6 +68,26 @@ Navigieren Sie zum Öffnen der Konfigurationsoberfläche zu **[!UICONTROL Treue]
 ➡️ [Erfahren Sie, wie Sie mit Identity-Namespaces arbeiten](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"}
 
 ## Belohnungsanbieter {#reward-providers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_reward_providers"
+>title="Belohnungsanbieter"
+>abstract="Ein Belohnungsanbieter definiert das externe System, das Aufrufe [!DNL Journey Optimizer], um Belohnungen zu erfüllen, wenn Kunden Herausforderungen bewältigen. Konfigurieren Sie den Provider-Endpunkt, Belohnungsdefinitionen, Proxy-Einstellungen und die Authentifizierung für jede Integration."
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_reward_providers_connection"
+>title="Belohnungsanbieter-Verbindung"
+>abstract="Konfigurieren Sie, wie [!DNL Journey Optimizer] eine Verbindung zu Ihrer Reward-API herstellt: Anbietername, Beschreibung, Endpunkt-URL und HTTP-Kopfzeilen, die für Erfüllungsaufrufe erforderlich sind."
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_reward_providers_details"
+>title="Prämiendefinitionen"
+>abstract="Belohnungsdefinitionen geben jeden Belohnungstyp an, den dieser Anbieter ausgeben kann (z. B. Punkte oder Sterne), sowie die Payload, die [!DNL Journey Optimizer] sendet, wenn Belohnungen erfüllt sind."
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_reward_providers_proxy"
+>title="Belohnungs-Proxy"
+>abstract="Optional können Sie Erfüllungsaufrufe über einen Proxy-Server leiten, anstatt sie direkt an Ihren Reward-API-Endpunkt zu senden. Konfigurieren Sie den Host, den Port, die Anmeldeinformationen und geben Sie an, ob der Proxy aktiviert ist. Der Wert der Anmeldeinformationen sieht in der Regel wie folgt aus: `{ "userName": "test", "password": "xxxx" }`"
 
 Ein **Belohnungsanbieter** teilt [!DNL Journey Optimizer] mit, wohin Erfüllungsanrufe gesendet werden sollen, wenn der Challenge-Fortschritt aufgezeichnet oder eine Challenge abgeschlossen ist. Beispielsweise eine API, die Treuepunkte oder Sterne einem Mitgliedskonto gutschreibt.
 
@@ -144,7 +164,22 @@ Um einen Belohnungsanbieter zu bearbeiten, öffnen Sie die Registerkarte **[!UIC
 
 ## Ereignisdefinitionen {#event-definitions}
 
-**[!UICONTROL Ereignisdefinitionen]** teilen [!DNL Journey Optimizer] mit, welche eingehenden Adobe Experience Platform-Erlebnisereignisse verarbeitet werden sollen. Zum Beispiel ein Kauf oder ein Check-in im Hotel. Marketing-Experten verweisen auf diese Definitionen, wenn sie **[!UICONTROL benutzerdefiniertes AEP-]**) erstellen. Ereignisse, die keiner Definition entsprechen, werden ignoriert.
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_event_definitions"
+>title="Ereignisdefinitionen"
+>abstract="Ereignisdefinitionen zeigen [!DNL Journey Optimizer], wie eingehende Ereignisdaten aus Ihren externen Quellen identifiziert und interpretiert werden. Jede Definition ordnet einen bestimmten Ereignistyp zu, z. B. einen Kauf oder einen Check-in, damit das System den Kundenfortschritt bei den Challenge-Aufgaben verfolgen kann."
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_event_schema"
+>title="Ereignisschema und Transformator"
+>abstract="Wenn Ihr Unternehmen Ereignisse im benutzerdefinierten JSON-Format sendet, verwenden Sie **[!UICONTROL Schema]**, um die Payload zu validieren, und **[!UICONTROL Transformer]** (z. B. ein JSONata-Ausdruck), um Felder dem Format zuzuordnen, das Loyalty Challenges erwartet."
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_event_identification"
+>title="Ereignisidentifizierung"
+>abstract="Geben Sie an, wie [!DNL Journey Optimizer] das Ereignis in eingehenden Payloads erkennt, indem Sie einen Kennungspfad, Kennungswerte, eine XDM-Schema-ID oder eine Kombination dieser Felder verwenden."
+
+**[!UICONTROL Ereignisdefinitionen]** teilen [!DNL Journey Optimizer] mit, welche eingehenden Adobe Experience Platform-Erlebnisereignisse verarbeitet werden sollen. Zum Beispiel ein Kauf oder ein Check-in im Hotel. Marketing-Experten verweisen auf diese Definitionen, wenn sie Aufgaben **[!UICONTROL benutzerdefiniertes Ereignis]** erstellen. Ereignisse, die keiner Definition entsprechen, werden ignoriert.
 
 Wenn Ihr Unternehmen Ereignisse im eigenen JSON-Format sendet, helfen **[!UICONTROL Schema]** und **[!UICONTROL Transformer]** dabei, die Payload [!DNL Journey Optimizer] validieren, sie zu analysieren und zu entscheiden, ob die Aktivität verfolgt werden soll.
 
@@ -154,7 +189,7 @@ Gehen Sie wie folgt vor, um eine Ereignisdefinition zu erstellen:
 
    ![](assets/admin-event-definition.png)
 
-1. Geben Sie einen **[!UICONTROL Namen]** für das Ereignis ein (z. B. `Coffee purchase`). Marketing-Experten sehen diesen Namen beim Konfigurieren einer Aufgabe **[!UICONTROL Benutzerdefiniertes AEP-]**).
+1. Geben Sie einen **[!UICONTROL Namen]** für das Ereignis ein (z. B. `Coffee purchase`). Marketing-Experten sehen diesen Namen beim Konfigurieren einer Aufgabe **[!UICONTROL Benutzerspezifisches Ereignis]**.
 
 1. Geben Sie an, wie [!DNL Journey Optimizer] das Ereignis in eingehenden Payloads erkennt. Geben Sie einen **[!UICONTROL Kennungspfad]** eine **[!UICONTROL XDM-Schema-ID]** oder beides an:
 
@@ -167,9 +202,14 @@ Gehen Sie wie folgt vor, um eine Ereignisdefinition zu erstellen:
    * **[!UICONTROL Schema]** - Validierungszeichenfolge für die eingehende Payload.
    * **[!UICONTROL Transformer]** - Umwandlungsausdruck (z. B. JSONata), der Ihre Payload dem Format zuordnet, das die Herausforderungen im Zusammenhang mit dem Treueprogramm erwarten.
 
-1. Speichern Sie die Ereignisdefinition. Er wird in der Liste **[!UICONTROL Ereignisdefinitionen]** angezeigt und ist verfügbar, wenn Marketer **[!UICONTROL benutzerdefiniertes AEP-Ereignis)]**. [Erfahren Sie, wie Sie Aufgaben erstellen](create-tasks.md#choose-activity)
+1. Speichern Sie die Ereignisdefinition. Er wird in der Liste **[!UICONTROL Ereignisdefinitionen]** angezeigt und ist verfügbar, wenn Marketer **[!UICONTROL benutzerspezifische Ereignisaufgaben]** erstellen. [Erfahren Sie, wie Sie Aufgaben erstellen](create-tasks.md#choose-activity)
 
 ## Produktinventar {#product-inventory}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_product_inventory"
+>title="Produktinventar"
+>abstract="Laden Sie eine CSV-Datei hoch, die Produktkennungen zuordnet. Marketer können diese Gruppen referenzieren, wenn sie geeignete Artikel für Kauf- und Ausgabenaufgaben konfigurieren, ohne jede Artikel-ID einzugeben."
 
 Die Registerkarte **[!UICONTROL Produktinventar]** gruppiert Katalogelemente, damit Marketing-Experten sie in Aufgaben auswählen können, ohne jede Element-ID einzugeben. Laden Sie eine **CSV-Datei** hoch, die jede Elementkennung einer oder mehreren **Produktgruppen** zuordnet (dasselbe Element kann mehreren Gruppen angehören). Importierte Gruppen sind bei der Konfiguration der Aufgabeneignung verfügbar. [Erfahren Sie, wie Sie Aufgaben erstellen](create-tasks.md)
 
@@ -200,6 +240,11 @@ Gehen Sie wie folgt vor, um eine Produktinventardatei hochzuladen:
 1. Öffnen Sie **[!UICONTROL Upload-Verlauf]**, um frühere CSV-Uploads anzuzeigen.
 
 ## Ausschlüsse {#exclusions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_exclusions"
+>title="Ausschlüsse"
+>abstract="Laden Sie eine CSV-Datei hoch, die programmweit ausgeschlossene Katalogelemente und Gruppen definiert. Importierte Ausschlussgruppen werden angezeigt, wenn Marketer geeignete Elemente und Ausschlüsse für Aufgaben konfigurieren."
 
 Die Registerkarte **[!UICONTROL Ausschlüsse]** definiert Katalogelemente und Gruppen, die programmweit ausgeschlossen sind, sodass Marketing-Experten nicht bei jeder Aufgabe dieselben Ausschlüsse auflisten müssen. Laden Sie eine **CSV-Datei** hoch, die jede Elementkennung einer oder mehreren **Ausschlussgruppen** zuordnet (dasselbe Element kann mehreren Gruppen angehören).
 
