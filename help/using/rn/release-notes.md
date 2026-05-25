@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b129e622e0172233b9513c580627530573ed8ee
+source-git-commit: 8fa02f51c6b9bb9c98b7f20264c677d065ef0b75
 workflow-type: tm+mt
-source-wordcount: 2958
+source-wordcount: 2937
 ht-degree: 18%
 
 ---
@@ -462,7 +462,7 @@ Die folgenden Verbesserungen der Benutzerfreundlichkeit wurden ebenfalls im Mai 
 
 #### Inhaltserstellung
 
-* **Inline-Bearbeitung von Profilattributen** - Sie können jetzt Profilattributausdrücke direkt in die E-Mail-Designer einfügen, ohne den vollständigen Personalisierungseditor zu öffnen. Geben Sie `{{` in ein beliebiges Textfeld ein, um ein Inline-Dropdown-Menü zur automatischen Vervollständigung zu öffnen, suchen Sie nach dem gewünschten Attribut und wählen Sie es aus. Es wird sofort an der Cursorposition eingefügt. Diese Funktion ist auch im Push-Kanal-Editor verfügbar. [Weitere Informationen](../personalization/personalize.md#inline-personalization)
+* **Inline-Bearbeitung von Profilattributen** - Die Inline-Bearbeitung von Profilattributen in der E-Mail-Designer wurde ursprünglich im April veröffentlicht. Im Rahmen der Mai-Version wurde diese Funktion vom KI-Assistenten entkoppelt und auf den Push-Kanal-Editor erweitert. [Weitere Informationen](../personalization/personalize.md#inline-personalization)
 
   ![](../personalization/assets/inline-profile-attributes.png)
 
