@@ -11,7 +11,7 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
-source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
+source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 6%
@@ -26,20 +26,29 @@ ht-degree: 6%
 
 [Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue](get-started.md)
 
-+++Herausforderungen erstellen und verwalten
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+<td style="vertical-align:top;">
+
+**Herausforderungen erstellen und verwalten**
 
 * [Zugriff und Verwaltung von Herausforderungen und Aufgaben](access-loyalty-challenges.md)
 * [Herausforderungen schaffen](create-challenges.md)
 * [Aufgaben erstellen](create-tasks.md)
 * [Überwachen der Leistung beim Treueprogramm](loyalty-reporting.md)
 
-+++
+</td>
+<td style="vertical-align:top;">
 
 **Konfigurieren und Integrieren**
 
 <!-- * [Configure loyalty challenges](loyalty-admin.md) -->
 * **Treuedaten und Datensätze** ◀︎ **Sie sind hier**
 * [API-Referenz für Herausforderungen im Treueprogramm](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
+</td>
+</tr>
+</table>
 
 >[!ENDSHADEBOX]
 
