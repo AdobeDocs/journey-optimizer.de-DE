@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '854'
 ht-degree: 15%
 
 ---
@@ -22,15 +22,26 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-**Dokumentation zu Herausforderungen im Zusammenhang mit der Treue:**
+**Dokumentation zu Herausforderungen im Zusammenhang mit Treue**
 
-* **Erste Schritte mit den Herausforderungen im Zusammenhang mit**◀︎ **Sie sind hier**
+**[Erste Schritte mit den Herausforderungen im Zusammenhang mit](get-started.md)**◀︎ **Sie sind hier**
+
++++Herausforderungen erstellen und verwalten
+
 * [Zugriff und Verwaltung von Herausforderungen und Aufgaben](access-loyalty-challenges.md)
 * [Herausforderungen schaffen](create-challenges.md)
 * [Aufgaben erstellen](create-tasks.md)
 * [Überwachen der Leistung beim Treueprogramm](loyalty-reporting.md)
-<!-- * [Configure the loyalty program](loyalty-admin.md) -->
+
++++
+
++++Konfigurieren und Integrieren
+
+<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Treuedaten und -datensätze](loyalty-data-and-datasets.md)
 * [API-Referenz für Herausforderungen im Treueprogramm](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
@@ -74,8 +85,6 @@ Sie können die folgenden Arten von Challenge-Erlebnissen erstellen:
 ## Funktionsweise {#how-it-works}
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
-
-<!-- 1. **Configure the loyalty program** (administrators) - Set up your Adobe Experience Platform namespace, reward providers, and optionally event definitions and product inventory so rewards can be fulfilled when customers complete challenges. [Learn how to configure the loyalty program](loyalty-admin.md). -->
 
 1. **Herausforderung erstellen** - Definiert die grundlegenden Challenge-Eigenschaften, einschließlich Name, Typ (Standard, Streak, Sequential oder Bring Your Own Data, falls verfügbar) und Datumsbereich. [Erfahren Sie, wie Sie einen Challenge-Typ &#x200B;](create-challenges.md#create-the-challenge).
 
