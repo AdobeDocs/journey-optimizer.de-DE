@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 hide: true
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 19%
+source-wordcount: '2734'
+ht-degree: 20%
 
 ---
 
@@ -222,8 +222,6 @@ Die folgende koordinierte Kampagnenfunktion wird in den kommenden Tagen oder Woc
 
 ### Kampagnen {#may-26-campaigns}
 
-Die folgenden Verbesserungen bei Campaign werden in den kommenden Tagen oder Wochen erwartet.
-
 +++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 
 * **Kundenwarnungen für Kampagnen-Lebenszyklus-Ereignisse** - Neue Systemwarnungen benachrichtigen Sie jetzt über wichtige Lebenszyklus-Ereignisse für Aktionen und API-ausgelöste Kampagnen. Abonnieren Sie auf Sandbox-Ebene.
@@ -432,8 +430,6 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content
 
 ### Administration {#may-26-admin}
 
-Die folgenden Verbesserungen der Anwendung sind in den nächsten Tagen oder Wochen zu erwarten.
-
 +++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 
 * **Ordner für Journey und Kampagnen** - Sie können Ihre Journey und Kampagnen jetzt in Ordnern organisieren, um die Navigation und Verwaltung in der Benutzeroberfläche zu verbessern.
@@ -447,8 +443,6 @@ Die folgenden Verbesserungen der Anwendung sind in den nächsten Tagen oder Woch
 +++
 
 ### Reporting {#may-26-reporting}
-
-Die folgende Verbesserung des Reportings ist in den kommenden Tagen oder Wochen zu erwarten.
 
 +++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 
