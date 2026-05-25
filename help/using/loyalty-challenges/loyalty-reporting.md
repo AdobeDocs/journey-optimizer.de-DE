@@ -11,7 +11,7 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 3%
@@ -22,18 +22,16 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-**Dokumentation zu Herausforderungen im Zusammenhang mit Treue**
+**Inhaltsverzeichnis**
 
 [Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue](get-started.md)
 
-+++Herausforderungen erstellen und verwalten
+**Herausforderungen erstellen und verwalten**
 
 * [Zugriff und Verwaltung von Herausforderungen und Aufgaben](access-loyalty-challenges.md)
 * [Herausforderungen schaffen](create-challenges.md)
 * [Aufgaben erstellen](create-tasks.md)
 * **Überwachen der Leistung** Treueprogramm◀ ︎ **Sie sind hier**
-
-+++
 
 +++Konfigurieren und Integrieren
 
