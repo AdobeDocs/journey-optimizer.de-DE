@@ -10,10 +10,10 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 8600c70ad6cd8db0322c17b3f255530a39bf56ed
+source-git-commit: b8e3b2cbda83edece62a32555068f8519271a3eb
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 4%
+source-wordcount: '1912'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
-> Diese Funktion steht allen Kunden als eingeschränkte Verfügbarkeit mit wichtigen Funktionen zur Verfügung.
+> Die Hauptfunktionen dieser Funktion sind derzeit eingeschränkt für alle Benutzenden verfügbar.
 
 Sie können die Journey auf **[!UICONTROL Simulation]** zusätzlich zu **Entwurf**, **Testmodus** und **Live** einstellen. In der Simulation testen Sie mit **simulierten Benutzern** temporären profilähnlichen Entitäten, die Sie hinzufügen, ohne persistente Testprofile in Adobe Experience Platform zu verwenden.
 
@@ -39,7 +39,7 @@ Beachten Sie, dass Journey Simulation in **Eingeschränkte Verfügbarkeit** ist.
 
 >[!IMPORTANT]
 >
->Sie benötigen die Berechtigung **Journey simulieren**, um auf die Funktion **[!UICONTROL Simulation]** zugreifen zu können. [Weitere Informationen](../administration/permissions.md)
+>Sie benötigen mindestens eine der folgenden Berechtigungen, um auf die Funktion **[!UICONTROL Simulation]** zuzugreifen: **Journey simulieren**, **Journey veröffentlichen** oder **Journey genehmigen und veröffentlichen**. [Weitere Informationen](../administration/permissions.md)
 
 Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot;**[!UICONTROL &quot;]**. In diesem Abschnitt wird beschrieben, wie Sie sie über die Benutzeroberfläche oder eine JSON-Datei erstellen, zur Wiederverwendung speichern, anpassen oder aus der Liste entfernen und an die Journey senden.
 
