@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 1692
-ht-degree: 95%
+source-wordcount: 1760
+ht-degree: 91%
 
 ---
 
@@ -96,6 +96,8 @@ Zu jeder orchestrierten Kampagne in der Liste werden Informationen angezeigt, be
 
 Darüber hinaus stehen eine Suchleiste und Filter zur Verfügung, um die Suche innerhalb der Liste zu erleichtern. Sie können die Kampagnen beispielsweise so filtern, dass nur die einem bestimmten Kanal oder Tag angehörenden oder nur die während eines bestimmten Datumsbereichs erstellten Kampagnen angezeigt werden.
 
+Sie können die Liste auch sortieren, indem Sie auf die meisten Spaltenüberschriften klicken. In der Ordneransicht werden Sortieren und Filtern nach **[!UICONTROL Priorität]** und **[!UICONTROL Kanalkonfiguration]** ebenfalls unterstützt.
+
 ## Kampagnenvorgänge {#operations}
 
 Die Schaltfläche ![Bild mit der Schaltfläche „Mehr Aktionen“](assets/do-not-localize/rule-builder-icon-more.svg) im Kampagneninventar ermöglicht die Durchführung unterschiedlicher Vorgänge.
@@ -120,6 +122,10 @@ Die Schaltfläche ![Bild mit der Schaltfläche „Mehr Aktionen“](assets/do-no
 **Nur für orchestrierte Kampagnen:**
 
 * **[!UICONTROL Zurück zum Entwurf]** - Rückgängigmachen der Veröffentlichung und Zurücksetzen einer Kampagne in den Entwurfsstatus zur Fehlerbehebung. Diese Aktion ist verfügbar, wenn eine geplante Kampagne noch nicht gestartet wurde oder wenn bei einer Live-Kampagne ein Fehler auftritt, bevor irgendwelche Ausführungen abgeschlossen sind. [Erfahren Sie mehr über das Zurücksetzen von Kampagnen →](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+
+### Massenaktionen {#bulk-actions-campaigns}
+
+Sie können mehrere Kampagnen gleichzeitig auswählen und Massenvorgänge auf alle anwenden. Zu den verfügbaren Vorgängen gehören das Hinzufügen von Elementen zu einem Paket, das Verschieben in einen Ordner, das Bearbeiten von Tags, das Verwalten des Zugriffs und das Löschen. [Erfahren Sie mehr über Massenaktionen →](../start/search-filter-categorize.md#bulk-actions)
 
 ## Grundlegendes zum Kampagnenstatus {#statuses}
 
@@ -276,7 +282,7 @@ Geben Sie den Namen der Kampagne ein und speichern Sie ihn.
 
 Die Kampagne wurde erstellt und ist nun in der Kampagnenliste sichtbar.
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * **Erste Schritte** – [Erste Schritte mit Kampagnen](get-started-with-campaigns.md) | [Erstellen der ersten Aktionskampagne](create-campaign.md) | [Leitfaden zu durch API ausgelösten Kampagnen](api-triggered-campaigns.md) | [Leitfaden zu orchestrierten Kampagnen](../orchestrated/gs-orchestrated-campaigns.md)
 

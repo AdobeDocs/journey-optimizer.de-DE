@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 1456
-ht-degree: 100%
+source-wordcount: 1523
+ht-degree: 95%
 
 ---
 
@@ -72,6 +72,12 @@ Sie können auch wählen, ob alle Fragmente angezeigt werden sollen oder nur die
 * Verschieben Sie das Fragment in einen Ordner. [Weitere Informationen](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### Massenaktionen {#bulk-actions-fragments}
+
+Sie können mehrere Fragmente gleichzeitig auswählen und Massenvorgänge auf alle anwenden. Zu den verfügbaren Vorgängen gehören das Hinzufügen von Elementen zu einem Paket, das Verschieben in einen Ordner, das Bearbeiten von Tags, das Verwalten des Zugriffs und die Archivierung. [Erfahren Sie mehr über Massenaktionen →](../start/search-filter-categorize.md#bulk-actions)
+
+Sie können die Fragmentliste auch sortieren, indem Sie auf eine beliebige Spaltenüberschrift klicken, und die Spaltengröße ändern, indem Sie den Spaltenrahmen an die gewünschten Daten ziehen.
 
 ## Verwalten von Fragmenten mithilfe von Ordnern {#folders}
 

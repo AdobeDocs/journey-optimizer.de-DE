@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6d62604f975fce76860eba000a09870806d54934
+source-git-commit: 124dbfa4f2798aa7839dd9215b96207f43fac3d6
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 91%
+source-wordcount: '681'
+ht-degree: 82%
 
 ---
 
@@ -58,6 +58,18 @@ Im **[!UICONTROL Personalization-Editor]** oder in der E-Mail-Designer-Symbollei
 ![](../content-management/assets/ai-perso-generate.png)
 
 ➡️ [Erfahren Sie, wie Sie mit dem KI-Assistenten für Personalization-Ausdrücke arbeiten](../content-management/generative-personalization-expressions.md)
+
+## Inline-Bearbeitung von Profilattributen {#inline-personalization}
+
+Sie können Profilattributausdrücke direkt beim Bearbeiten von Inhalten im **E-Mail-Designer** oder im **Push-Kanal** einfügen, ohne den vollständigen Personalisierungseditor zu öffnen.
+
+Gehen Sie dazu wie folgt vor:
+
+1. Geben Sie `{{` in ein Textfeld ein. Ein Inline-Dropdown-Menü mit automatischer Vervollständigung wird an der Cursorposition geöffnet.
+1. Tippen Sie, um verfügbare Profilattribute zu filtern.
+1. Wählen Sie das gewünschte Attribut aus - es wird als Personalisierungs-Token an der Cursorposition eingefügt.
+
+![](assets/inline-profile-attributes.png)
 
 ## Tauchen wir tiefer in die Materie ein
 

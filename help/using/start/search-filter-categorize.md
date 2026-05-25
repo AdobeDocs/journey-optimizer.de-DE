@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 100%
+source-wordcount: 798
+ht-degree: 84%
 
 ---
 
@@ -53,7 +53,7 @@ Drücken Sie die **Eingabetaste**, um auf alle Ergebnisse zuzugreifen und nach G
 
 ## Filterlisten {#filter-lists}
 
-In den meisten Listen können Sie die Suchleiste verwenden, um bestimmte Elemente zu finden und Filterkriterien zu definieren.
+In den meisten Listen können Sie die Suchleiste verwenden, um bestimmte Elemente zu finden und Filterkriterien zu definieren. Sie können auch eine beliebige Liste sortieren, indem Sie auf eine Spaltenüberschrift klicken. In der Ansicht Kampagnenordner wird auch die Sortierung nach **[!UICONTROL Priorität]** und **[!UICONTROL Kanalkonfiguration]** unterstützt.
 
 Sie können auf die Filter zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Im Filtermenü können Sie die angezeigten Elemente nach unterschiedlichen Kriterien filtern: Sie können etwa festlegen, dass nur Elemente eines bestimmten Typs oder Status, nur von Ihnen erstellte Elemente oder nur die in den letzten 30 Tagen geänderten Elemente angezeigt werden. Die Optionen unterscheiden sich je nach Kontext.
 
@@ -66,6 +66,21 @@ Darüber hinaus können Sie einheitliche Tags verwenden, um eine Liste nach den 
 In den Listen können Sie für jedes Element grundlegende Aktionen durchführen. Sie können ein Element beispielsweise duplizieren oder löschen.
 
 ![](assets/journey4.png)
+
+## Massenaktionen {#bulk-actions}
+
+In den **Kampagnen**, **Fragmente** und **Vorlagen** können Sie mithilfe der Kontrollkästchen mehrere Elemente gleichzeitig auswählen und Vorgänge auf alle anwenden. Dazu wird eine Massenaktionsleiste am unteren Bildschirmrand angezeigt.
+
+Die folgenden Vorgänge sind verfügbar:
+
+* **[!UICONTROL Zum Paket hinzufügen]** - Exportieren ausgewählter Elemente in eine andere Sandbox. [Weitere Informationen zum Exportieren von Objekten →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL In Ordner verschieben]** - Verschiebt ausgewählte Elemente in einen Ordner.
+* **[!UICONTROL Tags bearbeiten]** - Bearbeiten Sie die Tags, die ausgewählten Elementen zugewiesen sind. [Weitere Informationen zum Verwenden von Tags →](#add-tags)
+* **[!UICONTROL Zugriff verwalten]** - Zugriffsbeschriftungen auf ausgewählte Elemente anwenden. [Erfahren Sie mehr über die → der Zugriffssteuerung auf Objektebene](../administration/object-based-access.md)
+* **[!UICONTROL Archivieren]** - Archivieren ausgewählter Elemente. Verfügbar für Fragmente und Vorlagen.
+* **[!UICONTROL Löschen]** - Ausgewählte Elemente dauerhaft löschen. Nur für Kampagnen verfügbar.
+
+![](assets/bulk-actions-fragments.png)
 
 ## Arbeiten mit einheitlichen Tags {#tags}
 

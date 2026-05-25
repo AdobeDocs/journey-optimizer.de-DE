@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 19d13da26a9f1541fdc4f4a4e56db6276b9b8603
 workflow-type: tm+mt
-source-wordcount: 2122
-ht-degree: 63%
+source-wordcount: 2197
+ht-degree: 61%
 
 ---
 
@@ -45,6 +45,8 @@ Nachdem Sie eine Push-Benachrichtigung erstellt haben, können Sie ihren Inhalt 
 ![](assets/title-body.png)
 
 Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Hauptteil]**. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Erfahren Sie mehr zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md) im Personalisierungseditor.
+
+Sie können Profilattribute auch direkt in die Felder **[!UICONTROL Titel]** und **[!UICONTROL Hauptteil]** einfügen, indem Sie `{{` eingeben. Beim Cursor wird ein Dropdown-Menü mit automatischer Vervollständigung geöffnet. Wählen Sie ein beliebiges Attribut aus, um es als Personalisierungs-Token einzufügen, ohne den vollständigen Editor zu öffnen. [Weitere Informationen zur Inline-Bearbeitung →](../personalization/personalize.md#inline-personalization)
 
 Im Bereich für die Gerätevorschau sehen Sie, wie die Push-Benachrichtigung in iOS, Android und im Web dargestellt wird.
 
@@ -65,10 +67,14 @@ Konfigurieren Sie die Aktion, die ausgeführt wird, wenn Empfänger auf den Haup
 * **[!UICONTROL Deeplink]**: Leitet Benutzer zu bestimmten Inhalten in Ihrer App weiter, z. B. zu einer bestimmten Ansicht, einem Seitenabschnitt oder einer Registerkarte. Geben Sie die Deeplink-URL in das bereitgestellte Feld ein.
 * **[!UICONTROL Web-URL]**: Leitet Benutzer zu einer externen Web-Seite weiter. Geben Sie die Ziel-URL in das bereitgestellte Feld ein.
 
-  >[!NOTE]
-  >
-  >Wenn Ihre Push-Benachrichtigung eine URL enthält, die als universeller Link in iOS konfiguriert ist, öffnet die Push-Benachrichtigung die zugehörige App, falls installiert, unabhängig von der ausgewählten **[!UICONTROL Web-URL]**-Aktion. Um das Öffnen eines Browsers zu erzwingen, verwenden Sie eine Domain, die nicht für universelle Links konfiguriert ist, oder entfernen Sie die Registrierung für universelle Links für die Domain.
-  >Weitere Informationen dazu, wie Adobe SDK Deep-Links und universelle Links verarbeitet, finden Sie in der [Dokumentation zu Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
+Wenn eine URL in einem Link- oder Medienfeld zu lang ist, um sie anzuzeigen, ist immer ein QuickInfo-Symbol neben dem Feld sichtbar - Bewegen Sie den Mauszeiger darüber, um die vollständige URL anzuzeigen.
+
+![](assets/push-link-tooltip.png)
+
+>[!NOTE]
+>
+>Wenn Ihre Push-Benachrichtigung eine URL enthält, die als universeller Link in iOS konfiguriert ist, öffnet die Push-Benachrichtigung die zugehörige App, falls installiert, unabhängig von der ausgewählten **[!UICONTROL Web-URL]**-Aktion. Um das Öffnen eines Browsers zu erzwingen, verwenden Sie eine Domain, die nicht für universelle Links konfiguriert ist, oder entfernen Sie die Registrierung für universelle Links für die Domain.
+>Weitere Informationen dazu, wie Adobe SDK Deep-Links und universelle Links verarbeitet, finden Sie in der [Dokumentation zu Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
 
 ## Hinzufügen von Medien {#add-media-push}
 

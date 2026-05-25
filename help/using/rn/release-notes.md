@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
 workflow-type: tm+mt
-source-wordcount: 2581
-ht-degree: 25%
+source-wordcount: 2805
+ht-degree: 23%
 
 ---
 
@@ -282,6 +282,35 @@ Im Mai 2026 wurden auch die folgenden Verbesserungen veröffentlicht.
 
   +++
 
+### Verbesserungen der Benutzerfreundlichkeit {#may-26-usability}
+
+Die folgenden Verbesserungen der Benutzerfreundlichkeit wurden ebenfalls im Mai 2026 veröffentlicht.
+
+#### Listen
+
+* **Massenaktionen** - Sie können jetzt mehrere Elemente gleichzeitig in den **Kampagnen**, **Fragments** und **Vorlagen** auswählen und Massenvorgänge über eine einzelne Aktionsleiste durchführen, einschließlich des Hinzufügens von Elementen zu einem Paket, des Verschiebens in einen Ordner, des Bearbeitens von Tags, der Verwaltung des Zugriffs und der Archivierung oder des Löschens. [Weitere Informationen](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **Sortieren und Ändern der Spaltengröße** - Die **Kampagnen**, **Fragmente** und **Vorlagen** unterstützen jetzt die Sortierung durch Klicken auf eine beliebige Spaltenüberschrift. In der Ordneransicht von Kampagnen sind Sortieren und Filtern nach **[!UICONTROL Priorität]** und **[!UICONTROL Kanalkonfiguration]** ebenfalls verfügbar. Die Spaltenbreiten in den Listen **Fragmente** und **Vorlagen** können ebenfalls in der Größe angepasst werden. Ziehen Sie daher den Spaltenrand, um ihn an die Daten anzupassen, die Ihnen am wichtigsten sind. [Weitere Informationen](../start/search-filter-categorize.md#filter-lists)
+
+#### Inhaltserstellung
+
+* **Inline-Bearbeitung von Profilattributen** - Sie können jetzt Profilattributausdrücke direkt in die E-Mail-Designer einfügen, ohne den vollständigen Personalisierungseditor zu öffnen. Geben Sie `{{` in ein beliebiges Textfeld ein, um ein Inline-Dropdown-Menü zur automatischen Vervollständigung zu öffnen, suchen Sie nach dem gewünschten Attribut und wählen Sie es aus. Es wird sofort an der Cursorposition eingefügt. Diese Funktion ist auch im Push-Kanal-Editor verfügbar. [Weitere Informationen](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **Link-URL-QuickInfo im Push-Kanal-Editor** - Wenn eine URL in einem Link- oder Medienfeld zu lang ist, um angezeigt zu werden, ist immer ein QuickInfo-Symbol neben dem Feld sichtbar - Bewegen Sie den Mauszeiger darüber, um die vollständige URL anzuzeigen. [Weitere Informationen](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
+
+<!--
+#### Simulation & Preview
+
+* **Redesigned preview experience** - The content preview screen has been redesigned with a side-by-side layout that lets you compare how your content renders across multiple profiles at a glance, enabling quicker and more confident reviews before sending. [Learn more](../test-approve/simulate-sample-input.md#preview)
+
+  ![](../test-approve/assets/simulation-preview-redesign.png)
+-->
 
 ## Demnächst {#coming-soon}
 
