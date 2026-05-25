@@ -59,9 +59,9 @@ Wenden Sie sich zur Einrichtung des Journey Optimizer-Programms (Belohnungserfü
 
 Herausforderungen für Zielgruppen, Personalisierung und Reporting: Verwenden Sie Profile in der **[!DNL XDM Individual Profile]**. Passen Sie die Identität [Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"} die Sie für Herausforderungen im Zusammenhang mit der Treue verwenden, an die Art und Weise an, wie Mitglieder in Ihren Profildaten identifiziert werden.
 
-Verwenden Sie für Standardattribute vom Profil (Punkte, Ebene, Programm, Status und zugehörige Felder) die Schemafeldgruppe **[Treuedetails](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** von Experience Platform. Diese Feldergruppe definiert das `loyalty` und seine Eigenschaften (z. B. `points`, `tier`, `program` und `status`).
+Verwenden Sie für Standardattribute vom Profil (Punkte, Ebene, Programm, Status und zugehörige Felder) die Schemafeldgruppe **[Treuedetails](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** von Experience Platform. Diese Feldergruppe definiert das `loyalty` und seine Eigenschaften (z. B. `points`, `tier`, `program` und `status`).
 
-➡️ [Schemafeldgruppe Treuedetails](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [Schemafeldgruppe Treuedetails](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### Erlebnisereignisse {#experience-events}
 
