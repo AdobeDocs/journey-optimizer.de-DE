@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Adobe Journey Optimizer
 hide: true
-source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
+source-git-commit: e6a0079c3bdc9760bd149bb487520214f0a4e877
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 20%
+source-wordcount: '2957'
+ht-degree: 18%
 
 ---
 
@@ -48,7 +48,7 @@ Die folgenden Funktionen und Verbesserungen wurden in dieser Version zu Journey 
 <tr>
 <td>
 <p>Sie können jetzt <strong>Journey-Fragmente</strong> in Adobe Journey Optimizer erstellen. Journey-Fragmente sind wiederverwendbare Sets von Journey-Knoten, die Sie einmal erstellen und in einer beliebigen Journey in Ihrer Sandbox ablegen können. Unabhängig davon, ob es sich um eine Eignungsprüfung, eine bevorzugte Kanal-Routing-Logik oder eine Begrüßungssequenz handelt, helfen Fragmente Teams dabei, schneller und konsistent zu arbeiten - ohne jedes Mal dieselbe Logik von Grund auf neu zu erstellen.</p>
-<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente&rbrace; in </strong> Journey eingefügt werden.</p>
+<p>Nach der Erstellung werden Fragmente in einem dedizierten <strong>Fragmentinventar) </strong> können mithilfe der Aktivität <strong>Journey-Fragmente} in </strong> Journey eingefügt werden.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-fragments.md">ausführlichen Dokumentation</a>.</p>
@@ -427,6 +427,28 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum Content
 </table>
 
 * **Organisationsübergreifender Repository-Zugriff im Assets-Selektor** - Sie können jetzt Assets aus Repositorys über mehrere Organisationen hinweg direkt im Adobe Experience Manager-Asset-Selektor auswählen.
+
+### Benutzerfreundlichkeit {#may-26-usability}
+
+Die folgenden Verbesserungen der Benutzerfreundlichkeit wurden in dieser Version hinzugefügt.
+
+#### Listen
+
+* **Massenaktionen** - Sie können jetzt mehrere Elemente gleichzeitig in den **Kampagnen**, **Fragments** und **Vorlagen** auswählen und Massenvorgänge über eine einzelne Aktionsleiste durchführen, einschließlich des Hinzufügens von Elementen zu einem Paket, des Verschiebens in einen Ordner, des Bearbeitens von Tags, der Verwaltung des Zugriffs und der Archivierung oder des Löschens. [Weitere Informationen](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **Sortieren und Ändern der Spaltengröße** - Die **Kampagnen**, **Fragmente** und **Vorlagen** unterstützen jetzt die Sortierung durch Klicken auf eine beliebige Spaltenüberschrift. In der Ordneransicht von Kampagnen sind Sortieren und Filtern nach **[!UICONTROL Priorität]** und **[!UICONTROL Kanalkonfiguration]** ebenfalls verfügbar. Die Spaltenbreiten in den Listen **Fragmente** und **Vorlagen** können ebenfalls in der Größe angepasst werden. Ziehen Sie daher den Spaltenrand, um ihn an die Daten anzupassen, die Ihnen am wichtigsten sind. [Weitere Informationen](../start/search-filter-categorize.md#filter-lists)
+
+#### Inhaltserstellung
+
+* **Inline-Bearbeitung von Profilattributen** - Sie können jetzt Profilattributausdrücke direkt in die E-Mail-Designer einfügen, ohne den vollständigen Personalisierungseditor zu öffnen. Geben Sie `{{` in ein beliebiges Textfeld ein, um ein Inline-Dropdown-Menü zur automatischen Vervollständigung zu öffnen, suchen Sie nach dem gewünschten Attribut und wählen Sie es aus. Es wird sofort an der Cursorposition eingefügt. Diese Funktion ist auch im Push-Kanal-Editor verfügbar. [Weitere Informationen](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **Link-URL-QuickInfo im Push-Kanal-Editor** - Wenn eine URL in einem Link- oder Medienfeld zu lang ist, um angezeigt zu werden, ist immer ein QuickInfo-Symbol neben dem Feld sichtbar - Bewegen Sie den Mauszeiger darüber, um die vollständige URL anzuzeigen. [Weitere Informationen](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
 
 ### Administration {#may-26-admin}
 
