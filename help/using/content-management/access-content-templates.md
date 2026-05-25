@@ -8,23 +8,15 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 TQID: https://experienceleague.adobe.com/ForlM8q0qc7dVSLKtCdhHh7ZVEuprPYbqTLHuOUXo8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 833
-ht-degree: 70%
+source-wordcount: 900
+ht-degree: 65%
 
 ---
 
@@ -114,6 +106,12 @@ Verwenden Sie zum einfachen Navigieren in Ihren Inhaltsvorlagen Ordner, um die I
 >[!NOTE]
 >
 >Wenn eine Vorlage bearbeitet oder gelöscht wird, sind Kampagnen oder Journeys, einschließlich mit dieser Vorlage erstellter Inhalte, nicht betroffen.
+
+## Massenaktionen {#bulk-actions-templates}
+
+Sie können mehrere Vorlagen gleichzeitig auswählen und Massenvorgänge auf alle anwenden. Zu den verfügbaren Vorgängen gehören das Hinzufügen von Elementen zu einem Paket, das Verschieben in einen Ordner, das Bearbeiten von Tags, das Verwalten des Zugriffs und die Archivierung. [Erfahren Sie mehr über Massenaktionen →](../start/search-filter-categorize.md#bulk-actions)
+
+Sie können die Vorlagenliste auch sortieren, indem Sie auf die meisten Spaltenüberschriften klicken, und die Größe der Spalten ändern, indem Sie den Spaltenrahmen an die benötigten Daten anpassen.
 
 ## [!BADGE eingeschränkte Verfügbarkeit]{type=Informative} Anzeigen von Vorlagen als Miniaturen {#template-thumbnails}
 

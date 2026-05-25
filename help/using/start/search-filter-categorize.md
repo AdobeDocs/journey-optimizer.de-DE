@@ -9,29 +9,16 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 TQID: https://experienceleague.adobe.com/ViOHdq6ypY2xbYrPrEsYKF4-5CyQV9izbtzhGGOzsF0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 100%
+source-wordcount: 798
+ht-degree: 84%
 
 ---
 
@@ -53,7 +40,7 @@ Drücken Sie die **Eingabetaste**, um auf alle Ergebnisse zuzugreifen und nach G
 
 ## Filterlisten {#filter-lists}
 
-In den meisten Listen können Sie die Suchleiste verwenden, um bestimmte Elemente zu finden und Filterkriterien zu definieren.
+In den meisten Listen können Sie die Suchleiste verwenden, um bestimmte Elemente zu finden und Filterkriterien zu definieren. Sie können auch eine beliebige Liste sortieren, indem Sie auf eine Spaltenüberschrift klicken. In der Ansicht Kampagnenordner wird auch die Sortierung nach **[!UICONTROL Priorität]** und **[!UICONTROL Kanalkonfiguration]** unterstützt.
 
 Sie können auf die Filter zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Im Filtermenü können Sie die angezeigten Elemente nach unterschiedlichen Kriterien filtern: Sie können etwa festlegen, dass nur Elemente eines bestimmten Typs oder Status, nur von Ihnen erstellte Elemente oder nur die in den letzten 30 Tagen geänderten Elemente angezeigt werden. Die Optionen unterscheiden sich je nach Kontext.
 
@@ -66,6 +53,21 @@ Darüber hinaus können Sie einheitliche Tags verwenden, um eine Liste nach den 
 In den Listen können Sie für jedes Element grundlegende Aktionen durchführen. Sie können ein Element beispielsweise duplizieren oder löschen.
 
 ![](assets/journey4.png)
+
+## Massenaktionen {#bulk-actions}
+
+In den **Kampagnen**, **Fragmente** und **Vorlagen** können Sie mithilfe der Kontrollkästchen mehrere Elemente gleichzeitig auswählen und Vorgänge auf alle anwenden. Dazu wird eine Massenaktionsleiste am unteren Bildschirmrand angezeigt.
+
+Die folgenden Vorgänge sind verfügbar:
+
+* **[!UICONTROL Zum Paket hinzufügen]** - Exportieren ausgewählter Elemente in eine andere Sandbox. [Weitere Informationen zum Exportieren von Objekten →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL In Ordner verschieben]** - Verschiebt ausgewählte Elemente in einen Ordner.
+* **[!UICONTROL Tags bearbeiten]** - Bearbeiten Sie die Tags, die ausgewählten Elementen zugewiesen sind. [Weitere Informationen zum Verwenden von Tags →](#add-tags)
+* **[!UICONTROL Zugriff verwalten]** - Zugriffsbeschriftungen auf ausgewählte Elemente anwenden. [Erfahren Sie mehr über die → der Zugriffssteuerung auf Objektebene](../administration/object-based-access.md)
+* **[!UICONTROL Archivieren]** - Archivieren ausgewählter Elemente. Verfügbar für Fragmente und Vorlagen.
+* **[!UICONTROL Löschen]** - Ausgewählte Elemente dauerhaft löschen. Nur für Kampagnen verfügbar.
+
+![](assets/bulk-actions-fragments.png)
 
 ## Arbeiten mit einheitlichen Tags {#tags}
 
