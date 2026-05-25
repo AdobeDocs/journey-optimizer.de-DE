@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
 source-wordcount: '3330'
 ht-degree: 95%
@@ -144,7 +144,7 @@ ht-degree: 95%
    + {hide-from-toc}[Erstellen von Challenges](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[Erstellen von Aufgaben](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[Überwachen der Leistung beim Treueprogramm](using/loyalty-challenges/loyalty-reporting.md)
-   + {hide-from-toc}[Konfigurieren des Treueprogramms](using/loyalty-challenges/loyalty-admin.md)
+   + {hide-from-toc}[Treuedaten und -datensätze](using/loyalty-challenges/loyalty-data-and-datasets.md)
    + {hide-from-toc}[API-Referenz für Herausforderungen des Treueprogramms](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + Kampagnen {#campaigns}
    + {hide-from-toc}[Kampagnen](/help/rp_landing_pages/campaigns-landing-page.md)

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Treueprogramm konfigurieren
-description: Erfahren Sie, wie Sie in Adobe Belohnungsanbieter, Ereignisdefinitionen, das Produktinventar, Ausschlüsse und Einstellungen auf Unternehmensebene für Ihr Treueprogramm konfigurieren [!DNL Journey Optimizer].
+title: Herausforderungen bei der Treue konfigurieren
+description: Erfahren Sie, wie Sie in Adobe Belohnungsanbieter, Ereignisdefinitionen, das Produktinventar, Ausschlüsse und Einstellungen auf Unternehmensebene für Herausforderungen im Zusammenhang mit der Treue konfigurieren [!DNL Journey Optimizer].
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -11,26 +11,39 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 863c3405e5509938cb6b9180c16d5c89fb439814
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
 
-# Treueprogramm konfigurieren {#loyalty-admin}
+# Herausforderungen bei der Treue konfigurieren {#loyalty-admin}
+
+<!-- Unpublished draft: Loyalty Admin UI documentation is not validated for Experience League. This page uses hide: true until review. -->
 
 >[!BEGINSHADEBOX]
 
-**Dokumentation zu Herausforderungen im Zusammenhang mit der Treue:**
+**Dokumentation zu Herausforderungen im Zusammenhang mit Treue**
 
-* [Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue](get-started.md)
+[Erste Schritte mit Herausforderungen im Zusammenhang mit der Treue](get-started.md)
+
++++Herausforderungen erstellen und verwalten
+
 * [Zugriff und Verwaltung von Herausforderungen und Aufgaben](access-loyalty-challenges.md)
 * [Herausforderungen schaffen](create-challenges.md)
 * [Aufgaben erstellen](create-tasks.md)
 * [Überwachen der Leistung beim Treueprogramm](loyalty-reporting.md)
-* **Treueprogramm konfigurieren** ◀︎ **Sie sind hier**
+
++++
+
++++Konfigurieren und Integrieren
+
+* **Herausforderungen für die Treue konfigurieren** ◀︎ **Sie sind hier**
+* [Treuedaten und -datensätze](loyalty-data-and-datasets.md)
 * [API-Referenz für Herausforderungen im Treueprogramm](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +53,11 @@ ht-degree: 1%
 
 ## Überblick {#access-loyalty-admin}
 
-Die Konfiguration des Treueprogramms verbindet [!DNL Journey Optimizer] mit Ihren externen Treuesystemen, indem Belohnungserfüllung, Ereigniszuordnung, Produktinventar und Ausschlüsse eingerichtet werden, bevor Marketer Herausforderungen erstellen können.
+Die Konfiguration Herausforderungen im Zusammenhang mit dem Treueprogramm verbindet [!DNL Journey Optimizer] mit Ihren externen Treuesystemen, indem Belohnungserfüllung, Ereigniszuordnung, Produktinventar und Ausschlüsse eingerichtet werden, bevor Marketer Herausforderungen erstellen.
 
 >[!NOTE]
 >
->Die Konfiguration des Treueprogramms erfordert zusätzlich zu den für Herausforderungen im Zusammenhang mit dem Treueprogramm erforderlichen Berechtigungen Administratorzugriff auf Ihre [!DNL Journey Optimizer]. Wenden Sie sich an Ihren Adobe-Administrator, um Zugriff zu erhalten.
+>Die Konfiguration von Herausforderungen im Zusammenhang mit dem Treueprogramm erfordert zusätzlich zu den für Herausforderungen im Zusammenhang mit dem Treueprogramm erforderlichen Berechtigungen Administratorzugriff auf Ihre [!DNL Journey Optimizer]. Wenden Sie sich an Ihren Adobe-Administrator, um Zugriff zu erhalten.
 
 Navigieren Sie zum Öffnen der Konfigurationsoberfläche zu **[!UICONTROL Treue]** und wählen Sie **[!UICONTROL Treueprogramm-Administrator]** aus. Die Benutzeroberfläche ist in Registerkarten unterteilt:
 
@@ -59,9 +72,9 @@ Navigieren Sie zum Öffnen der Konfigurationsoberfläche zu **[!UICONTROL Treue]
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="Globale Einstellungen"
->abstract="Globale Einstellungen definieren die Konfiguration auf Organisationsebene für Ihr Treueprogramm, einschließlich des Identity-Namespace, mit dem Mitglieder über Ereignisse und Herausforderungen hinweg identifiziert werden."
+>abstract="Globale Einstellungen definieren die Konfiguration auf Organisationsebene für Herausforderungen im Zusammenhang mit der Treue, einschließlich des Identity-Namespace, mit dem Mitglieder über Ereignisse und Herausforderungen hinweg identifiziert werden."
 
-Öffnen Sie die **[!UICONTROL Globale Einstellungen]** und wählen Sie den Adobe Experience Platform [Identity-Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces) **[!UICONTROL für Ihr Treueprogramm in der Dropdown-]** Namespace“ aus. Dieser Namespace muss mit der Art und Weise übereinstimmen, wie Mitgliederprofile in Ihren Daten identifiziert werden.
+Öffnen Sie die Registerkarte **[!UICONTROL Globale Einstellungen]** und wählen Sie den Adobe Experience Platform [Identity-Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces) für Herausforderungen im Zusammenhang mit Treue in der Dropdown-Liste **[!UICONTROL Namespace]** aus. Dieser Namespace muss mit der Art und Weise übereinstimmen, wie Mitgliederprofile in Ihren Daten identifiziert werden.
 
 ![](assets/admin-global-settings.png)
 
