@@ -10,10 +10,10 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 8600c70ad6cd8db0322c17b3f255530a39bf56ed
+source-git-commit: b8e3b2cbda83edece62a32555068f8519271a3eb
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 4%
+source-wordcount: '1912'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
-> Diese Funktion steht allen Kunden als eingeschränkte Verfügbarkeit mit wichtigen Funktionen zur Verfügung.
+> Die Hauptfunktionen dieser Funktion sind derzeit eingeschränkt für alle Benutzenden verfügbar.
 
 Sie können die Journey auf **[!UICONTROL Simulation]** zusätzlich zu **Entwurf**, **Testmodus** und **Live** einstellen. In der Simulation testen Sie mit **simulierten Benutzern** temporären profilähnlichen Entitäten, die Sie hinzufügen, ohne persistente Testprofile in Adobe Experience Platform zu verwenden.
 
@@ -39,7 +39,7 @@ Beachten Sie, dass Journey Simulation in **Eingeschränkte Verfügbarkeit** ist.
 
 >[!IMPORTANT]
 >
->Sie benötigen die Berechtigung **Journey simulieren**, um auf die Funktion **[!UICONTROL Simulation]** zugreifen zu können. [Weitere Informationen](../administration/permissions.md)
+>Sie benötigen mindestens eine der folgenden Berechtigungen, um auf die Funktion **[!UICONTROL Simulation]** zuzugreifen: **Journey simulieren**, **Journey veröffentlichen** oder **Journey genehmigen und veröffentlichen**. [Weitere Informationen](../administration/permissions.md)
 
 Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot;**[!UICONTROL &quot;]**. In diesem Abschnitt wird beschrieben, wie Sie sie über die Benutzeroberfläche oder eine JSON-Datei erstellen, zur Wiederverwendung speichern, anpassen oder aus der Liste entfernen und an die Journey senden.
 
@@ -131,11 +131,11 @@ Wenn Ihr Journey ein oder mehrere Ereignisse enthält, können Sie diese mit ein
 
    ![Benutzeroberfläche für die Ereigniskonfiguration mit Feldern und Dropdown-Liste für die Ereignisauswahl](assets/simulate-10.png)
 
-1. Klicken Sie **[!UICONTROL Ereignisse konfigurieren]**, um den Editor zu öffnen und das Ereignis nach Bedarf anzupassen. Um die Payload nur für einen bestimmten simulierten Benutzer zu ändern, klicken Sie ![&#x200B; „Ereignis bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg) neben diesem Benutzer.
+1. Klicken Sie **[!UICONTROL Ereignisse konfigurieren]**, um den Editor zu öffnen und das Ereignis nach Bedarf anzupassen. Um die Payload nur für einen bestimmten simulierten Benutzer zu ändern, klicken Sie ![ „Ereignis bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg) neben diesem Benutzer.
 
    ![Benutzeroberfläche für die Ereigniskonfiguration mit Feldern und Dropdown-Liste für die Ereignisauswahl](assets/simulate-9.png)
 
-1. Geben Sie in der Ansicht **&#x200B;**&#x200B;Benutzerereignis“ an, welche simulierten Trigger in die Ausführung aufgenommen werden sollen. Die Ereigniskonfiguration gilt jeweils für ein einzelnes Ereignis. Durch Ändern des ausgewählten Ereignisses oder der Gruppe eingeschlossener Benutzer werden zuvor eingegebene Feldwerte zurückgesetzt. Vervollständigen Sie die aktuelle Konfiguration, bevor Sie eine der Auswahlmöglichkeiten ändern.
+1. Geben Sie in der Ansicht **** Benutzerereignis“ an, welche simulierten Trigger in die Ausführung aufgenommen werden sollen. Die Ereigniskonfiguration gilt jeweils für ein einzelnes Ereignis. Durch Ändern des ausgewählten Ereignisses oder der Gruppe eingeschlossener Benutzer werden zuvor eingegebene Feldwerte zurückgesetzt. Vervollständigen Sie die aktuelle Konfiguration, bevor Sie eine der Auswahlmöglichkeiten ändern.
 
    ![Ereigniskonfiguration mit Listen- und Ereignisfeldern von Testbenutzenden](assets/simulate-8.png)
 
