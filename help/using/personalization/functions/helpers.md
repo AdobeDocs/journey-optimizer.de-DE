@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 1f64b250a6bf7352d510b4097ee21fc395e11eec
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 55%
@@ -134,7 +134,7 @@ Some edu specific content
 ## Jeweils{#each}
 
 Der Helper `each` wird verwendet, um die Elemente eines Arrays zu verarbeiten.
-Die Syntax des Helpers lautet ```{{#each ArrayName}}``` YourContent `{{/each}}`
+Die Syntax des Helpers lautet `{{#each ArrayName}}` YourContent `{{/each}}`.
 Wir können auf die einzelnen Array-Elemente verweisen, indem wir das Keyword **this** innerhalb des Blocks verwenden. Der Index des Array-Elements kann mithilfe von `{{@index}}` gerendert werden.
 
 **Syntax**
