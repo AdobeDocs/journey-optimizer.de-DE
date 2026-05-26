@@ -42,7 +42,7 @@ topic_v2:
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -148,7 +148,7 @@ Um der Journey benutzerdefinierte Datennutzungs-Label zuzuweisen, klicken Sie au
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="Aktuelle Journey-Payload-Größe"
->abstract="Zeigt die aktuelle Größe der Journey-Payload im Vergleich zum konfigurierten Limit an. Verwenden Sie diesen Indikator, um die Journey-Komplexität vor der Veröffentlichung zu überwachen und Fehler zu vermeiden, die durch die Überschreitung der Payload-Größenbeschränkung verursacht werden."
+>abstract="Zeigt die aktuelle Größe der Journey-Payload im Vergleich zum konfigurierten Limit an. Verwenden Sie diesen Indikator, um die Journey-Komplexität vor dem Veröffentlichen zu überwachen und Fehler zu vermeiden, die durch eine Überschreitung des Limits der Payload-Größe verursacht werden."
 
 Das Feld **[!UICONTROL Aktuelle Journey-Payload]** im Bedienfeld Journey-Eigenschaften zeigt die aktuelle Payload-Größe Ihrer Journey im Verhältnis zum konfigurierten Limit an - z. B. *1,5 MB (von 2 MB)*. Dieser schreibgeschützte Indikator ist in jeder Phase des Journey-Authorings sichtbar.
 

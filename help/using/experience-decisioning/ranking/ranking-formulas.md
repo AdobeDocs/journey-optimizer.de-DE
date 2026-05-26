@@ -49,7 +49,7 @@ Beachten Sie vor dem Erstellen von Rangfolgeformeln die folgenden Einschränkung
 * Lookback-Zeiträume werden in Rangfolgeformeln (z. B. Erlebnisereignisse aus dem letzten Monat) nicht unterstützt. Beim Versuch, solche Formeln zu speichern, ist ein Trigger aufgetreten.
 * [KI-gestützte Formeloptimierung](#optimize) gilt nur für Rangfolgenformeln, deren codebasierter PQL-Ausdruck größer als **2 KB** in UTF-8-codierter Größe ist. Kleinere Formeln werden nicht analysiert.
 
-## Rangfolgenformel erstellen und Eigenschaften festlegen {#create-ranking-formula}
+## Erstellen der Rangfolgenformel und Festlegen von Eigenschaften {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"

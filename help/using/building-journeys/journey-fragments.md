@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -146,7 +146,7 @@ Aus dem Fragmentinventar können Sie die folgenden Aktionen für ein Fragment au
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="Hinzufügen eines Journey-Fragments"
->abstract="Nur **[!UICONTROL aktive]** Fragmente sind in der Auswahl verfügbar. Durch Einfügen eines Fragments wird eine **statische Kopie** seiner Knoten erstellt. Aktualisierungen am Originalfragment werden nicht auf der Journey widergespiegelt."
+>abstract="Nur **[!UICONTROL aktive]** Fragmente sind in der Auswahl verfügbar. Durch Einfügen eines Fragments wird eine **statische Kopie** seiner Knoten erstellt – Aktualisierungen des Originalfragments werden in der Journey nicht widergespiegelt."
 
 So fügen Sie ein Fragment in eine Journey ein:
 

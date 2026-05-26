@@ -54,7 +54,7 @@ topic_v2:
 source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
 source-wordcount: 1587
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
@@ -384,29 +384,29 @@ Der KI-Assistent bietet sofortige Hilfe und betriebliche Erkenntnisse. Klicken S
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="„Hilfe zur AEM-Konfiguration"
->abstract="Weitere Informationen über das Erstellen und Verwalten einer Konfiguration"
+>title="&quot;AEM-Konfiguration – Hilfe"
+>abstract="Weitere Informationen zum Erstellen und Verwalten einer Konfiguration"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
 >title="Instanzkonfiguration"
->abstract="Wählen Sie den entsprechenden Instanzkonfigurationstyp für Ihr Setup aus. </br>Nur Autoreneinrichtung: Verwenden Sie Inhaltsfragmente aus der AEM-Autoreninstanz. Konfiguration der Veröffentlichungsinstanz und Live-Aktualisierungen werden nicht unterstützt.</br>Einrichtung der Veröffentlichungsinstanz: Konfigurieren der Einstellungen der Veröffentlichungsinstanz. Aktivieren Sie optional „Token an Veröffentlichungsinstanz senden“, um Service-Anmeldeinformationen für die Authentifizierung bereitzustellen."
+>abstract="Wählen Sie den entsprechenden Instanzkonfigurationstyp für Ihr Setup aus. </br>Setup nur für Autoreninstanz: Verwenden Sie Inhaltsfragmente aus der AEM-Autoreninstanz. Eine Konfiguration der Veröffentlichungsinstanz und Live-Aktualisierungen werden nicht unterstützt.</br>Setup der Veröffentlichungsinstanz: Konfigurieren Sie die Einstellungen der Veröffentlichungsinstanz. Aktivieren Sie optional „Token an Veröffentlichungsinstanz senden“, um Service-Anmeldeinformationen für die Authentifizierung bereitzustellen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="Token an Veröffentlichungsinstanz senden"
->abstract="Wenn diese Option aktiviert ist, werden Service-Anmeldeinformationen gesendet, um Anforderungen an die Veröffentlichungsinstanz zu authentifizieren. Geben Sie unten eine gültige JSON für Dienstanmeldeinformationen an."
+>abstract="Wenn diese Option aktiviert ist, werden Service-Anmeldeinformationen gesendet, um Anfragen an die Veröffentlichungsinstanz zu authentifizieren. Geben Sie unten eine gültige JSON für Service-Anmeldeinformationen an."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
->title="Dienstanmeldeinformationen-JSON einfügen"
->abstract="Fügen Sie die JSON-Datei mit den AEM-Dienstanmeldeinformationen ein, nachdem Sie sie erstellt haben, indem Sie die öffentliche Dokumentation Technische Konten durchgehen. Es wird automatisch formatiert und validiert."
+>title="Einfügen einer JSON für Service-Anmeldeinformationen"
+>abstract="Fügen Sie nach ihrer Erstellung die JSON mit den AEM-Service-Anmeldeinformationen ein, indem Sie die Dokumentation für öffentliche technische Konten konsultieren. Sie wird automatisch formatiert und validiert."
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="Benutzerdefinierte Domain"
->abstract="Optional. Geben Sie eine benutzerdefinierte Domain an, wenn publish-p16552-e147195.adobeaemcloud.comis Inhalte für Ihre Organisation nicht abrufen kann"
+>abstract="Optional. Geben Sie eine benutzerdefinierte Domain ifpublish-p16552-e147195.adobeaemcloud.comis an, die keine Inhalte für Ihre Organisation abrufen kann"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
