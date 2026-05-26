@@ -7,10 +7,10 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
+source-git-commit: e9ef94bf9797c536a140be444b586a3dc0940e4e
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 29%
+source-wordcount: '1448'
+ht-degree: 24%
 
 ---
 
@@ -133,25 +133,31 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
 
 1. Nach dem Definieren Ihres Inhalts können Sie das Verfolgen von URLs für Ihre Nachricht aktivieren. Rufen Sie dazu das Menü **[!UICONTROL Hilfsfunktionen]** auf und wählen Sie **[!UICONTROL Helfer]** aus.
 
-   Um die Funktion der URL-Verkürzung zu verwenden, müssen Sie zunächst eine Subdomain konfigurieren, die dann mit Ihrer Konfiguration verknüpft wird. [Weitere Informationen](mobile-subdomains.md)
-
-   >[!NOTE]
-   >
-   > Um auf SMS-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von SMS-Subdomains]** für die Produktions-Sandbox. Weitere Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
-
    ![](assets/sms_tracking_1.png)
 
-1. Klicken Sie innerhalb des Menüs **[!UICONTROL Hilfsfunktionen]** auf **[!UICONTROL URL-Funktion]** und wählen Sie dann **[!UICONTROL URL hinzufügen]** aus.
+1. Wählen Sie **[!UICONTROL URL]** und klicken Sie auf **[!UICONTROL URL hinzufügen]**.
 
    ![](assets/sms_tracking_2.png)
 
-   <!--The URL shortening function cannot be used within a fragment. TBC-->
-
-1. Fügen Sie in das Feld `originalUrl` die URL ein, die gekürzt werden soll, und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Um die URL zu kürzen, fügen Sie sie in das Feld `originalUrl` ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
    >[!CAUTION]
    >
+   >Um die Funktion der URL-Verkürzung zu verwenden, müssen Sie zunächst eine Subdomain konfigurieren, die dann mit Ihrer Konfiguration verknüpft wird. [Weitere Informationen](mobile-subdomains.md)
+   >
    > Die Lebensdauer kurzer URLs ist auf 30 Tage festgelegt. Nach diesem Zeitraum sind diese kurzen URLs nicht mehr zugänglich und zeigen die folgende Meldung an: `404 short-code not found`.
+
+1. Um einen Deep-Link hinzuzufügen, der einen bestimmten Bildschirm in Ihrer Mobile App öffnet, verwenden Sie die Hilfsfunktion **[!UICONTROL URL]** mit dem `DEEPLINK`, wie im folgenden Beispiel gezeigt. [Erfahren Sie mehr über Deep-Links](../email/deeplinks.md)
+
+   ```
+   {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
+   ```
+
+   >[!IMPORTANT]
+   >
+   >Bevor Sie Deep-Linking verwenden, stellen Sie sicher, dass Sie die entsprechenden [Konfigurationsschritte](../email/deeplinks.md#configuration) in Journey Optimizer abgeschlossen und [Deep-Link-Handhabung](../email/deeplinks.md#mobile-implementation) in Ihrer Mobile App implementiert haben. Andernfalls leitet der Deep-Link die Benutzer nicht zum gewünschten In-App-Inhalt weiter.
+   >
+   >Stellen Sie außerdem sicher, dass das Linktracking im Abschnitt **[!UICONTROL Aktionen]** Ihrer Journey oder Kampagne aktiviert ist, sodass die URL über Adobe-Systeme neu geschrieben wird.
 
 1. Im Menü **[!UICONTROL Decisioning]** können Sie den Inhalt Ihrer Mobile-Nachrichten mit **Decisioning** personalisieren und optimieren. Mit dieser Funktion können Sie Prioritätswerte, Formeln oder KI-Modelle verwenden, um die besten Inhalte dynamisch auszuwählen und für Ihre Kunden anzuzeigen.
 

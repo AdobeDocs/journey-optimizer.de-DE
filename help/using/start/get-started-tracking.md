@@ -42,10 +42,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 1962
-ht-degree: 97%
+source-wordcount: 1964
+ht-degree: 95%
 
 ---
 
@@ -155,9 +155,9 @@ Das Push-Tracking ist automatisch aktiviert und erfasst Impressions (zugestellt)
 
 **Konfigurieren nachverfolgter Elemente:**
 
-* **Textkörper-Klickverhalten** – Legen Sie fest, was passiert, wenn Benutzende auf die Benachrichtigung tippen: App öffnen, zu einem Deeplink navigieren oder eine Web-URL öffnen. Jede Aktion wird automatisch nachverfolgt. [Weitere Informationen](../push/design-push.md#on-click-behavior)
+* **Textkörper-Klickverhalten** - Legen Sie fest, was passiert, wenn Benutzer auf die Benachrichtigung tippen: Programm öffnen, zu einem Deep-Link navigieren oder eine Web-URL öffnen. Jede Aktion wird automatisch nachverfolgt. [Weitere Informationen](../push/design-push.md#on-click-behavior)
 
-* **Hinzufügen von Aktionsschaltflächen** – Schließen Sie bis zu 3 Schaltflächen (Android) oder mehrere Schaltflächen (iOS) mit unabhängigem Tracking für jede Schaltflächenaktion ein (App, Deeplink, Web-URL öffnen). [Weitere Informationen](../push/design-push.md#add-buttons-push)
+* **Aktionsschaltflächen hinzufügen** - Schließen Sie bis zu 3 Schaltflächen (Android) oder mehrere Schaltflächen (iOS) mit unabhängigem Tracking für jede Schaltflächenaktion ein (offene App, Deep-Link, Web-URL). [Weitere Informationen](../push/design-push.md#add-buttons-push)
 
 * **Aktivieren von Tracking** – Prüfen Sie, ob das Tracking in Ihrer Push-Journey-Aktivität oder in den Kampagnen-Tracking-Einstellungen aktiviert ist. [Weitere Informationen](../push/create-push.md#create)
 

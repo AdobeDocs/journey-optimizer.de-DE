@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e9136cd715af3a80a485d67431eec7ada7697016
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 2924
+source-wordcount: 2973
 ht-degree: 18%
 
 ---
@@ -327,7 +327,7 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zum E-Mail-
 <tbody>
 <tr>
 <td>
-<p>Es ist jetzt möglich, über eine eigene Option in der E-Mail-Designer Deep-Links zu Ihren E-Mail-Inhalten hinzuzufügen.</p>
+<p>Es ist jetzt möglich, über eine dedizierte Option in der E-Mail-Designer Deep-Links zu Ihrem E-Mail-Inhalt hinzuzufügen.</p>
 <p>Dadurch wird sichergestellt, dass Benutzende direkt zu den richtigen In-App-Inhalten weitergeleitet werden, anstatt zu Browsern oder App-Stores, wodurch der Kontext und die Interaktion erhalten bleiben.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>Weitere Informationen finden Sie im <a href="../email/deeplinks.md">entsprechenden Handbuch</a>.</p>
@@ -367,6 +367,8 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zu Mobile M
 * **SMS-Eingänge in einen benutzerdefinierten Datensatz**: Leiten Sie in **SMS-API-Anmeldedaten** **eingehende SMS** an einen ausgewählten **benutzerdefinierten, profilaktivierten Erlebnisereignisdatensatz** weiter, anstatt nur an den Standard-Tracking-Datensatz. [Weitere Informationen](../mobile/mobile-webhook.md)
 
 * **Verbesserung der Webhook-Oberfläche**: Die Benutzeroberfläche zur Konfiguration von SMS-Webhooks enthält jetzt ein integriertes Einrichtungshandbuch mit praktischen Beispielen, das die Abstimmung von Anbieter-Payloads und die Fehlerbehebung erleichtert, da der Konfigurationsfluss nicht verlassen werden muss. [Weitere Informationen](../mobile/mobile-webhook.md)
+
+* **Deep-Links in SMS** Inhalten - Mit der URL-Hilfsfunktion können Sie jetzt Deep-Links zu Ihren SMS-Inhalten hinzufügen. Dadurch wird sichergestellt, dass die Empfänger direkt zu den gewünschten In-App-Inhalten geleitet werden, ohne sie über einen Webbrowser oder einen App Store weiterzuleiten. [Weitere Informationen](../email/deeplinks.md)
 
 ### WhatsApp-Kanal {#may-26-whatsapp}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '7894'
+source-wordcount: '7897'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,7 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 
 * Die Seite **Wichtige Terminologie** wurde überarbeitet: Sechs neue Begriffe wurden hinzugefügt, ein neuer Abschnitt **Konflikt- und Prioritätsbegriffe** wurde eingeführt und ein neuer **Wenn Begriffe ähnlich**, wurde ein Erläuterungsleitfaden für vier häufig verwirrende Begriffspaare hinzugefügt. Adobe Experience Platform-spezifische Begriffe wurden entfernt und durch einen Hinweis ersetzt, der auf das Adobe Experience Platform-Glossar verweist. [Weitere Informationen](../start/terminology.md)
 
-* Die **Deeplinks**-Dokumentation wurde um einen neuen Abschnitt **Authoring-Deeplinks** erweitert, in dem die beiden für E-Mail verfügbaren Optionen (E-Mail-Benutzeroberfläche von Designer und Personalization-Editor-Code) und die URL-Funktionssyntax für SMS beschrieben werden. Die **„SMS-Nachricht erstellen** enthält jetzt einen Deeplink-Schritt im Inhaltserstellungsfluss. [Weitere Informationen](../email/deeplinks.md)
+* Die **Deep-Links**-Dokumentation wurde um einen neuen Abschnitt **Authoring-Deep-Links** erweitert, in dem die beiden für E-Mail verfügbaren Optionen (Benutzeroberfläche von Email Designer und Code im Personalization-Editor) und die URL-Funktionssyntax für SMS beschrieben werden. Die **„SMS-Nachricht erstellen** enthält jetzt einen Deep-Link-Schritt im Inhaltserstellungsfluss. [Weitere Informationen](../email/deeplinks.md)
 
 * Die Hilfsreferenz **URL** wurde mit einem speziellen Abschnitt in der Personalization-Dokumentation aktualisiert. [Weitere Informationen](../personalization/functions/helpers.md#url)
 

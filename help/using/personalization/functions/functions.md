@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '2536'
+source-wordcount: '2537'
 ht-degree: 97%
 
 ---
@@ -464,7 +464,7 @@ Helper werden auf [dieser Seite](helpers.md) näher beschrieben.
         <td><a href="helpers.md#url-parameter-encryption-helper">Verschlüsseln</a></td><td>Verschlüsselt Ausdruckswerte für URL-Abfrageparameter zum Rendering-Zeitpunkt mithilfe eines aktiven Schlüssels aus der Sandbox-Registrierung </td>
     </tr>
     <tr>
-        <td><a href="helpers.md#url-function">URL</a></td><td>Diese Funktion verarbeitet URLs im SMS-Nachrichteninhalt. Verwenden Sie sie zusammen mit <code>originalUrl</code>, um URLs zu kürzen und Deeplinks <code>type='DEEPLINK'</code> einfügen</td>
+        <td><a href="helpers.md#url-function">URL</a></td><td>Diese Funktion verarbeitet URLs im SMS-Nachrichteninhalt. Verwenden Sie sie zusammen mit <code>originalUrl</code>, um URLs zu kürzen und Deep-Links <code>type='DEEPLINK'</code> einfügen</td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">Mit</a></td><td>Diese Funktion wird verwendet, um das Auswertungs-Token des Vorlagenteils zu ändern</td>

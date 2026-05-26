@@ -32,9 +32,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 1461
+source-wordcount: 1464
 ht-degree: 82%
 
 ---
@@ -117,7 +117,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
      >[!IMPORTANT]
      >
-     >Bevor Sie Deeplink verwenden, stellen Sie sicher, dass Sie die entsprechenden [Konfigurationsschritte](deeplinks.md#configuration) in Journey Optimizer ausgeführt und [Deeplink-Handhabung](deeplinks.md#mobile-implementation) in Ihrer Mobile App implementiert haben. Andernfalls leitet der Deeplink die Benutzer nicht zum gewünschten In-App-Inhalt weiter.
+     >Bevor Sie Deep-Linking verwenden, stellen Sie sicher, dass Sie die entsprechenden [Konfigurationsschritte](deeplinks.md#configuration) in Journey Optimizer abgeschlossen und [Deep-Link-Handhabung](deeplinks.md#mobile-implementation) in Ihrer Mobile App implementiert haben. Andernfalls leitet der Deep-Link die Benutzer nicht zum gewünschten In-App-Inhalt weiter.
      >
      >Stellen Sie außerdem sicher[&#x200B; dass das Linktracking für &#x200B;](#enable-tracking) Nachricht aktiviert ist, sodass die URL über Adobe-Systeme neu geschrieben wird.
 

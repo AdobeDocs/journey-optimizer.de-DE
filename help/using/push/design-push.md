@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 19d13da26a9f1541fdc4f4a4e56db6276b9b8603
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 2197
+source-wordcount: 2199
 ht-degree: 61%
 
 ---
@@ -64,7 +64,7 @@ Konfigurieren Sie die Aktion, die ausgeführt wird, wenn Empfänger auf den Haup
 ![](assets/title-body-push.png)
 
 * **[!UICONTROL Mobile App öffnen]**: Startet die Mobile App, die der Benachrichtigung zugeordnet ist. Die App wird in Ihrer [Kanalkonfiguration“ &#x200B;](../configuration/channel-surfaces.md)d. h. Nachrichtenvoreinstellung) angegeben.
-* **[!UICONTROL Deeplink]**: Leitet Benutzer zu bestimmten Inhalten in Ihrer App weiter, z. B. zu einer bestimmten Ansicht, einem Seitenabschnitt oder einer Registerkarte. Geben Sie die Deeplink-URL in das bereitgestellte Feld ein.
+* **[!UICONTROL Deeplink]**: Leitet Benutzer zu bestimmten Inhalten in Ihrer App weiter, z. B. zu einer bestimmten Ansicht, einem Seitenabschnitt oder einer Registerkarte. Geben Sie die Deep-Link-URL in das bereitgestellte Feld ein.
 * **[!UICONTROL Web-URL]**: Leitet Benutzer zu einer externen Web-Seite weiter. Geben Sie die Ziel-URL in das bereitgestellte Feld ein.
 
 Wenn eine URL in einem Link- oder Medienfeld zu lang ist, um sie anzuzeigen, ist immer ein QuickInfo-Symbol neben dem Feld sichtbar - Bewegen Sie den Mauszeiger darüber, um die vollständige URL anzuzeigen.
@@ -168,7 +168,7 @@ Für iOS wird eine Benachrichtigungskategorie-Kennung angegeben. Benachrichtigun
 
 Verwenden Sie die Option **[!UICONTROL Schaltfläche hinzufügen]**, um das Label jeder Schaltfläche und die zugehörige Aktion zu definieren, wie unten beschrieben:
 
-* **[!UICONTROL Deeplink]**: Leitet Benutzende zu einer bestimmten Ansicht, einem bestimmten Abschnitt oder einer bestimmten Registerkarte in Ihrer App weiter. Geben Sie die Deeplink-URL in das entsprechende Feld ein.
+* **[!UICONTROL Deeplink]**: Leitet Benutzende zu einer bestimmten Ansicht, einem bestimmten Abschnitt oder einer bestimmten Registerkarte in Ihrer App weiter. Geben Sie die Deep-Link-URL in das entsprechende Feld ein.
 
 * **[!UICONTROL Web-URL]**: Leitet Benutzende zu einer externen Web-Seite weiter. Fügen Sie die URL in das entsprechende Feld ein.
 
