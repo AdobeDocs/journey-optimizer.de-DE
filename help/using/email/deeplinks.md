@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: Deeplink, Deep-Link, universelle Links, App-Links, E-Mail, SMS
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1327'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,10 @@ Wenn Ihre Empfänger auf den Deep-Link klicken, werden sie direkt zum gewünscht
 >[!DNL Adobe Journey Optimizer] unterstützt Deep-Linking für iOS und Android mithilfe von getrackten URLs (`/ee/v1/mclick/*`), um Kompatibilität und Klick-Tracking sicherzustellen.
 
 ## Erstellen von Deep-Links {#authoring}
+
+>[!CAUTION]
+>
+>Deep-Links funktionieren nur, wenn Sie die Schritte [Konfiguration](#configuration) und [Mobile-App-](#mobile-implementation) auf dieser Seite abgeschlossen haben.
 
 ### E-Mail {#authoring-email}
 
