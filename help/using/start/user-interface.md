@@ -51,10 +51,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
-source-wordcount: 1524
-ht-degree: 90%
+source-wordcount: 1587
+ht-degree: 87%
 
 ---
 
@@ -414,3 +414,11 @@ Der KI-Assistent bietet sofortige Hilfe und betriebliche Erkenntnisse. Klicken S
 >id="journeyExpAI"
 >title="Ausdrucksassistent"
 >abstract="Verwenden Sie den Ausdrucksassistenten, um Ausdrücke in Journey Optimizer zu generieren und zu verfeinern."
+
+
+<!-- OC - LOAD FILE ACTIVITY -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_load_file"
+>title="Aktivität „Datei laden“"
+>abstract="Die Aktivität **Datei laden** ist eine Aktivität **Targeting**. Verwenden Sie diese Option, um eine CSV- oder TXT-Datei auf die orchestrierte Kampagnen-Arbeitsfläche hochzuladen und als Kampagnen-Audience zu verwenden. Dateidaten werden zur Ausführungszeit genutzt und nicht als Adobe Experience Platform-Datensatz beibehalten. Zeilen werden mithilfe einer Identitätsspalte und einer Zielgruppendimension mit vorhandenen Empfängern abgeglichen."
