@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 85%
+source-wordcount: '643'
+ht-degree: 78%
 
 ---
 
@@ -75,7 +75,7 @@ Fügen Sie Schaltflächen hinzu, über die Benutzerinnen und Benutzer mit Ihren 
 
 1. Wählen Sie ein **[!UICONTROL Interaktionsereignis]** aus, um festzulegen, welche Aktion ausgelöst werden soll, wenn Benutzende auf die Schaltfläche klicken oder mit ihr interagieren.
 
-1. Geben Sie in das Feld **[!UICONTROL Ziel]** die Web-URL oder den Deeplink ein, an den die Benutzenden nach der Interaktion mit der Schaltfläche weitergeleitet werden sollen.
+1. Geben Sie im Feld **[!UICONTROL Target]** die Web-URL oder den Deep-Link ein, zu der Benutzer nach der Interaktion mit der Schaltfläche weitergeleitet werden.
 
 <!--
 +++More options with advanced formatting
@@ -122,7 +122,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ![](assets/content-card-design-5.png)
 
-Geben Sie in das Feld **[!UICONTROL Ziel-URL]** die Web-URL oder den Deeplink ein, die bzw. der die Benutzenden nach der Interaktion mit Ihrer Inhaltskarte an das gewünschte Ziel weiterleitet. Dabei kann es sich um eine externe Website, eine bestimmte Seite innerhalb Ihrer App oder eine andere Stelle handeln, zu der die Benutzerinnen und Benutzer nach ihrer Interaktion weitergeleitet werden sollen.
+Geben Sie im Feld **[!UICONTROL Ziel-URL]** die Web-URL oder den Deep-Link ein, die Benutzer nach der Interaktion mit Ihrer Inhaltskarte zum gewünschten Ziel weiterleitet. Dabei kann es sich um eine externe Website, eine bestimmte Seite innerhalb Ihrer App oder eine andere Stelle handeln, zu der die Benutzerinnen und Benutzer nach ihrer Interaktion weitergeleitet werden sollen.
 
 ## Registerkarte „Daten“
 
