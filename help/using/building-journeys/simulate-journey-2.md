@@ -10,9 +10,9 @@ level: Intermediate
 keywords: testen, Journey, prüfen, Fehler, Fehlerbehebung
 version: Journey Orchestration
 hide: true
-source-git-commit: 1d63f476bb7f82d1c67a0d464afcc960edc5bc50
+source-git-commit: fa0145b495c840f9dd838672c5dfb7e5e52b6f0e
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1319'
 ht-degree: 4%
 
 ---
@@ -63,7 +63,7 @@ Fahren Sie mit [Erstellen und Verwalten simulierter Benutzer](#test-users), [Tri
 
 >[!IMPORTANT]
 >
->Sie benötigen die Berechtigung **Journey simulieren**, um auf die Funktion **[!UICONTROL Simulation]** zugreifen zu können. [Weitere Informationen](../administration/permissions.md)
+>Sie benötigen mindestens eine der folgenden Berechtigungen, um auf die Funktion **[!UICONTROL Simulation]** zuzugreifen: **Journey simulieren**, **Journey veröffentlichen** oder **Journey genehmigen und veröffentlichen**. [Weitere Informationen](../administration/permissions.md)
 
 Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot;**[!UICONTROL &quot;]**. In diesem Abschnitt wird beschrieben, wie Sie sie erstellen, zur Wiederverwendung speichern, anpassen oder aus der Liste entfernen und an die Journey senden.
 
@@ -115,7 +115,7 @@ Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot
 
    +++
 
-1. Die von Ihnen erstellten simulierten Benutzer werden in der Liste **[!UICONTROL Testbenutzer]** angezeigt. Öffnen Sie für jeden Eintrag das Optionsmenü und wählen Sie eine der folgenden Optionen aus:
+1. Die von Ihnen erstellten simulierten Benutzer werden in der Liste **[!UICONTROL Testbenutzer]** angezeigt. Wählen Sie für jeden Eintrag eine der folgenden Optionen aus:
 
    * ![Bearbeiten-Symbol](assets/do-not-localize/Smock_Edit_18_N.svg): Aktualisieren Sie die Details des simulierten Benutzers.
    * ![Senden-Symbol](assets/do-not-localize/Smock_Send_18_N.svg): Führen Sie die Simulation nur für diesen simulierten Benutzer aus.
@@ -129,7 +129,7 @@ Simulierte Benutzer sind temporäre profilähnliche Entitäten, die Sie in &quot
 
 1. Wenn Ihr Journey eine Aktivität **[!UICONTROL Warten]** enthält, öffnen Sie die Registerkarte **[!UICONTROL Testeinstellungen]**, um die Dauer dieser Wartezeit während der Simulation genau abzustimmen. Wenn die Live-Aktivität **[!UICONTROL Warten]** beispielsweise für mehrere Tage konfiguriert ist, können Sie sie auf 10 Sekunden überschreiben, sodass der simulierte Benutzer nur diese Zeit auf dem Knoten verbringt, bevor er zur nächsten Aktivität wechselt.
 
-1. Klicken Sie auf **[!UICONTROL Alle senden]**, um jeden simulierten Benutzer in der Liste auf die Journey zu senden, oder klicken Sie ![Senden-Symbol](assets/do-not-localize/Smock_Send_18_N.svg) in einer Zeile, um nur diesen Benutzer zu senden. Wenn die simulierten Benutzenden die Journey erfolgreich betreten haben, wird eine `Simulated users have been sent successfully.`-Bestätigungsmeldung angezeigt.
+1. Klicken Sie auf **[!UICONTROL Alle senden]**, um jeden simulierten Benutzer in der Liste auf die Journey zu senden, oder klicken Sie ![Senden-Symbol](assets/do-not-localize/Smock_Send_18_N.svg) in einer Zeile, um nur diesen Benutzer zu senden. Wenn die simulierten Benutzenden die Journey erfolgreich betreten haben, wird eine `Simulated users have entered the journey successfully.`-Bestätigungsmeldung angezeigt.
 
    ![Bedienfeld zur simulierten Benutzerauswahl](assets/simulate-5-2.png)
 
