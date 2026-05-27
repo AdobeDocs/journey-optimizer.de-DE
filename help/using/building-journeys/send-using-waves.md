@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Senden mit Schüben in Journey
+title: Versenden in Schüben in Journeys
 description: Planen Sie den Versand ausgehender Journey-Nachrichten in kontrollierten Batches (Schüben) im Zeitverlauf. Der Wave-Versand in den Journey-Modi für lesbare Zielgruppen hilft, Last zu verteilen und die Zustellbarkeit zu unterstützen.
 feature: Journeys, Activities, Audiences
 topic: Content Management
@@ -12,12 +12,12 @@ keywords: Schübe, Batches, Zeitplan, Journey, Zielgruppe lesen, Zustellbarkeit
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 1%
+source-wordcount: '868'
+ht-degree: 2%
 
 ---
 
-# Senden mit Schüben in Journey {#send-using-waves-journeys}
+# Versenden in Schüben in Journeys {#send-using-waves-journeys}
 
 Sie können ausgehende Nachrichten von einer Journey im Zeitverlauf stapelweise (in Schüben) statt alle gleichzeitig versenden. Der Wave-Versand trägt dazu bei, die Auslastung auszugleichen, überlastete nachgelagerte Systeme (wie Callcenter oder Landingpages) zu vermeiden und die Zustellbarkeit und die Reputation des Absenders zu unterstützen - insbesondere für Journey mit großen Lesemengen.
 
@@ -94,7 +94,7 @@ Wählen Sie **[!UICONTROL Planen jeder Welle]**, um ein spezifisches Startdatum 
 >
 >Der Mindestabstand zwischen dem Beginn zweier Schübe beträgt **30 Minuten**.
 
-## Anwendungsfälle {#use-cases}
+## Anwendungsszenarien {#use-cases}
 
 Mit dem Wave-Versand können Sie steuern, wann und wie viele Nachrichten gesendet werden. Dies kann die Zustellbarkeit verbessern, die Reputation des Absenders schützen und die Sendungen an Ihre betriebliche Kapazität anpassen. Erwägen Sie die Verwendung von Wellen in diesen Szenarien:
 

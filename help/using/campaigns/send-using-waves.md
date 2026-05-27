@@ -11,7 +11,7 @@ keywords: Schübe, Batches, Zeitplan, Kampagne, Journey, Zustellbarkeit
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '786'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ Wählen Sie **[!UICONTROL Planen jeder Welle]**, um ein spezifisches Startdatum 
 >
 >Der Mindestabstand zwischen dem Beginn zweier Schübe beträgt **30 Minuten**.
 
-## Anwendungsfälle {#use-cases}
+## Anwendungsszenarien {#use-cases}
 
 Mit dem Wave-Versand können Sie steuern, wann und wie viele Nachrichten gesendet werden. Dies kann die Zustellbarkeit verbessern, die Reputation des Absenders schützen und die Sendungen an Ihre betriebliche Kapazität anpassen. Erwägen Sie die Verwendung von Wellen in diesen Szenarien:
 
