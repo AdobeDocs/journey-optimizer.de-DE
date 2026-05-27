@@ -70,7 +70,7 @@ Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430275?captions=ger&quality=12)
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 In den folgenden Abschnitten erfahren Sie mehr über die Konfiguration und Verwendung Ihrer benutzerdefinierten Aktionen:
 

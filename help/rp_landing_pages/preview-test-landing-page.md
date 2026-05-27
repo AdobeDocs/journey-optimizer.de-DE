@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '690'
+ht-degree: 89%
 
 ---
 
@@ -123,13 +123,13 @@ Folgen Sie dieser Sequenz für eine umfassende Validierung:
 **Kontext:** Beispiele aus der Praxis, die zeigen, wie Test-Tools in typischen Anwendungsfällen eingesetzt werden.
 
 **Szenario 1: Testen personalisierter E-Mails für eine Kampagne mit mehreren Segmenten**
-→ Verwenden Sie [Beispieleingabedaten](../using/test-approve/simulate-sample-input.md), um 20–30 Varianten zu testen, ohne einzelne Testprofile erstellen zu müssen. Laden Sie eine CSV-Datei mit verschiedenen Kundenattributen hoch und lassen Sie sich die Vorschau für alle gleichzeitig anzeigen.
+→ Verwenden Sie [Beispieleingabedaten](../using/test-approve/simulate-sample-input.md) um 20-30 Varianten zu testen, ohne einzelne Testprofile zu erstellen. Laden Sie eine CSV-Datei mit verschiedenen Kundenattributen hoch und lassen Sie sich die Vorschau für alle gleichzeitig anzeigen.
 
 **Szenario 2: Validieren des E-Mail-Renderings vor einem größeren Versand**
-→ Führen Sie [Litmus-Tests](../using/content-management/rendering.md) durch, um die Anzeige in den wichtigsten E-Mail-Clients zu überprüfen. Überprüfen Sie anschließend den [Spam-Bericht](../using/content-management/spam-report.md), um die Platzierung im Posteingang sicherzustellen.
+→ Führen Sie [Litmus-Tests](../using/content-management/rendering.md) aus, um die Anzeige in Top-E-Mail-Clients zu überprüfen, und überprüfen Sie dann den [Spam-Bericht](../using/content-management/spam-report.md), um die Platzierung des Posteingangs sicherzustellen.
 
-**Szenario 3: Einholen der Genehmigung durch Stakeholder**
-→ [Senden Sie Testsendungen](../using/content-management/proofs.md) mit Testprofildaten an interne Prüfende, damit diese exakt sehen, was die Kundinnen und Kunden erhalten.
+**Szenario 3: Zustimmung der Stakeholder einholen**
+→ [Testsendungen](../using/content-management/proofs.md) an interne Prüfer mit Testprofildaten, damit diese genau sehen, was Kunden erhalten.
 
 ## Wichtige Erkenntnisse
 

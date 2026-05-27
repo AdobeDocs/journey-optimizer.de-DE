@@ -55,7 +55,7 @@ Sie können zwei Arten der Aktivität vom Typ **Warten** festlegen:
 * [Fixed date](#fixed_date) 
 -->
 
-## Empfehlungen {#wait-recommendations}
+## Recommendations {#wait-recommendations}
 
 Verwenden Sie diese Empfehlungen, um Wartezeiten vorhersehbar und sicher zu halten.
 

@@ -255,7 +255,7 @@ Antwort-Payload-Felder aus benutzerdefinierten Aktionen können in nativen Kanä
 
 Detaillierte Beispiele und Syntax für die Iteration über benutzerspezifische Aktionsantwortdaten in Nachrichten finden Sie unter [Iteration über kontextuelle Daten mit Handlebars](../personalization/iterate-contextual-data.md#custom-action-responses).
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 Weitere Informationen finden Sie auf folgenden Seiten:
 
