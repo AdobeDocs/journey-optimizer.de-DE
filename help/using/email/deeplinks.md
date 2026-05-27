@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: Deeplink, Deep-Link, universelle Links, App-Links, E-Mail, SMS
-source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
+source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -48,11 +48,14 @@ Für E-Mail-Nachrichten haben Sie zwei Möglichkeiten, einen Deep-Link einzufüg
   <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
   ```
 
-  Ersetzen Sie `<<deeplink_url>>` durch Ihre tatsächliche Deep-Link-URL und verwenden Sie zur Vermeidung von Konflikten für jeden Block eine eindeutige `id`.
+  >[!TIP]
+  >
+  >Ersetzen Sie `<<deeplink_url>>` durch Ihre tatsächliche Deep-Link-URL und verwenden Sie zur Vermeidung von Konflikten für jeden Block eine eindeutige `id`.
+
 
 ### SMS {#authoring-sms}
 
-Für SMS werden Deep-Links mit der Hilfsfunktion **URL** im Personalisierungseditor erstellt. Weitere Informationen zum Hinzufügen von Links zu SMS-Inhalten finden Sie [&#x200B; diesem Abschnitt](../mobile/design-mobile.md#sms-content).
+Für SMS werden Deep-Links mit der Hilfsfunktion [URL](../personalization/functions/helpers.md#url) im Personalisierungseditor erstellt. In (diesem Abschnitt) erfahren Sie[&#x200B; wie Sie Links zu SMS-Inhalten &#x200B;](../mobile/design-mobile.md#sms-content).
 
 Verwenden Sie die folgende Syntax, um Deep-Links in SMS-Inhalte einzufügen:
 
@@ -60,7 +63,9 @@ Verwenden Sie die folgende Syntax, um Deep-Links in SMS-Inhalte einzufügen:
 {{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
 ```
 
-Ersetzen Sie `<<url>>` durch Ihre tatsächliche Deep-Link-URL.
+>[!TIP]
+>
+>Ersetzen Sie `<<url>>` durch Ihre tatsächliche Deep-Link-URL.
 
 ## Konfiguration in Journey Optimizer {#configuration}
 
@@ -338,3 +343,4 @@ Ja. UTM-Parameter, die Sie in [!DNL Journey Optimizer] konfigurieren, sind in de
 Der Link wird im Standard-Webbrowser des Geräts geöffnet (Standard-Klick-Tracking-Verhalten) und nicht wie ein App-Deep-Link durch den auf dieser Seite beschriebenen `mclick`-Fluss gehandhabt.
 
 +++
+

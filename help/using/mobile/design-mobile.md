@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: e9ef94bf9797c536a140be444b586a3dc0940e4e
+source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1456'
 ht-degree: 24%
 
 ---
@@ -135,7 +135,7 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
 
    ![](assets/sms_tracking_1.png)
 
-1. Wählen Sie **[!UICONTROL URL]** und klicken Sie auf **[!UICONTROL URL hinzufügen]**.
+1. Wählen Sie **[!UICONTROL URL]** und klicken Sie auf **[!UICONTROL URL hinzufügen]**. Weitere Informationen zur `Url`-Hilfsfunktion finden Sie [&#x200B; (diesem Abschnitt](../personalization/functions/helpers.md#url).
 
    ![](assets/sms_tracking_2.png)
 
@@ -147,13 +147,13 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
    >
    > Die Lebensdauer kurzer URLs ist auf 30 Tage festgelegt. Nach diesem Zeitraum sind diese kurzen URLs nicht mehr zugänglich und zeigen die folgende Meldung an: `404 short-code not found`.
 
-1. Um einen Deep-Link hinzuzufügen, der einen bestimmten Bildschirm in Ihrer Mobile App öffnet, verwenden Sie die Hilfsfunktion **[!UICONTROL URL]** mit dem `DEEPLINK`, wie im folgenden Beispiel gezeigt. [Erfahren Sie mehr über Deep-Links](../email/deeplinks.md)
+1. Um einen Deep-Link hinzuzufügen, der einen bestimmten Bildschirm in Ihrer Mobile App öffnet, verwenden Sie die Hilfsfunktion `Url` mit dem `DEEPLINK` wie im folgenden Beispiel. [Erfahren Sie mehr über Deep-Links](../email/deeplinks.md)
 
    ```
    {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
    ```
 
-   >[!IMPORTANT]
+   >[!CAUTION]
    >
    >Bevor Sie Deep-Linking verwenden, stellen Sie sicher, dass Sie die entsprechenden [Konfigurationsschritte](../email/deeplinks.md#configuration) in Journey Optimizer abgeschlossen und [Deep-Link-Handhabung](../email/deeplinks.md#mobile-implementation) in Ihrer Mobile App implementiert haben. Andernfalls leitet der Deep-Link die Benutzer nicht zum gewünschten In-App-Inhalt weiter.
    >
@@ -192,3 +192,4 @@ Gehen Sie wie folgt vor, um MMS-Inhalte zu erstellen:
 1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. Sie können nun den Inhalt Ihrer Nachricht wie unten beschrieben testen und überprüfen.
 
 Nachdem Sie Ihre Tests durchgeführt und den Inhalt validiert haben, können Sie Ihre Mobile-Nachricht an Ihre Audience senden. Diese Schritte werden auf [dieser Seite](send-mobile-message.md) im Detail beschrieben.
+
