@@ -13,7 +13,7 @@ exl-id: c4df41a2-d740-437c-acc3-957508c4a1c0
 source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -77,7 +77,7 @@ Das Offer Decisioning-Backend unterstützt bei **Personalisierung nur eine** der
 | Länge | length |
 | MD5 | md5 |
 | SHA256 | SHA256 |
-| Ist wie | ist wie |
+| Ist wie | Gefällt mir |
 | Beginnt mit | startsWith |
 | Beginnt nicht mit | doesNotStartWith |
 | Endet mit | endet mit |
@@ -86,7 +86,7 @@ Das Offer Decisioning-Backend unterstützt bei **Personalisierung nur eine** der
 | Enthält nicht | doesNotContains |
 | Gleich | ist gleich |
 | Ungleich | notEqualTo |
-| Stimmt überein mit | „matches“ |
+| Stimmt überein mit | stimmt überein mit |
 | Gruppe regelmäßiger Ausdrücke | RegexGroup |
 | Zeichenfolge zu Zahl | stringToNumber |
 | Zeichenfolge zu Datum | stringToDate |

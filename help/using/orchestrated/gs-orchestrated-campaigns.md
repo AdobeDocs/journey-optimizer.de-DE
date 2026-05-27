@@ -142,7 +142,7 @@ Jetzt, da Sie über Grundkenntnisse zu orchestrierten Kampagnen verfügen, ist e
 <p></td>
 </tr></table>
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * **[Erstellen einer ersten Regel](build-query.md)** – Machen Sie sich mit dem Regel-Builder vertraut, um zielgerichtete Abfragen zu erstellen und Ihre Zielgruppen mithilfe relationaler Daten präzise zu segmentieren.
 * **[Erstellen relationaler Schemata](gs-schemas.md)** – Erfahren Sie, wie Sie relationale Schemata einrichten und konfigurieren können, um Daten mit mehreren Entitäten in Ihren Kampagnen zu nutzen.
