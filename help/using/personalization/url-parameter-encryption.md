@@ -12,8 +12,8 @@ keywords: Verschlüsselung, URL, Tracking, Landingpage, Schlüsselregistrierung,
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
 source-git-commit: 1039daee3b328828361976513cc4d1ba5ce1169a
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 4%
+source-wordcount: '695'
+ht-degree: 3%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+>Diese Funktion ist nur in begrenztem Umfang verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 >
 >Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar.
 
 ## Warum URL-Parameterverschlüsselung verwenden? {#why-url-parameter-encryption}
 
-Personalisierte Tracking-Links und Landingpage-URLs enthalten oft Profilattribute, Kennungen, Token oder andere Werte in der Abfragezeichenfolge. Diese Parameter sind in der Regel als Nur-Text in der E-Mail oder SMS sichtbar und bleiben lesbar, wenn jemand den Link kopiert, freigibt oder Lesezeichen hinzufügt. This can be a security and privacy risk when the values can include personally identifiable information (PII) or other sensitive data they must protect.
+Personalisierte Tracking-Links und Landingpage-URLs enthalten oft Profilattribute, Kennungen, Token oder andere Werte in der Abfragezeichenfolge. Diese Parameter sind in der Regel als Nur-Text in der E-Mail oder SMS sichtbar und bleiben lesbar, wenn jemand den Link kopiert, freigibt oder Lesezeichen hinzufügt. Dies kann ein Sicherheits- und Datenschutzrisiko darstellen, wenn die Werte personenbezogene Daten (PII) oder andere sensible Daten enthalten können, die sie schützen müssen.
 
-[!DNL Journey Optimizer] provides an encryption helper in the personalization editor so you can encrypt any expression value at render time (for example a profile attribute, a token, or a string you built from several fields). Die Verschlüsselung erfordert immer einen Schlüssel aus der Registrierung Ihres Unternehmens.
+[!DNL Journey Optimizer] bietet einen Verschlüsselungs-Helper im Personalisierungseditor, mit dem Sie jeden Ausdruckswert zum Rendern verschlüsseln können (z. B. ein Profilattribut, ein Token oder eine Zeichenfolge, die Sie aus mehreren Feldern erstellt haben). Die Verschlüsselung erfordert immer einen Schlüssel aus der Registrierung Ihres Unternehmens.
 
 Sie verschlüsseln nur die ausgewählten Abfrageparameter mithilfe von Schlüsseln, die Administratoren in einer Registrierung auf Sandbox-Ebene verwalten, sodass vertrauliche Werte nicht im Klartext offen gelegt werden, wenn der Link freigegeben oder überprüft wird.
 
@@ -40,13 +40,13 @@ Sie verschlüsseln nur die ausgewählten Abfrageparameter mithilfe von Schlüsse
 
 >[!IMPORTANT]
 >
->Decryption is your organization&#39;s responsibility. [!DNL Journey Optimizer] verschlüsselt Werte beim Rendern der Nachricht. Your website, app, or API must decrypt parameters using the same cryptographic material and processes you define—consistent with your security model.
+>Die Entschlüsselung liegt in der Verantwortung Ihres Unternehmens. [!DNL Journey Optimizer] verschlüsselt Werte beim Rendern der Nachricht. Ihre Website, Ihr Programm oder Ihre API muss Parameter mit demselben kryptografischen Material und denselben Prozessen entschlüsseln, die Sie definieren - im Einklang mit Ihrem Sicherheitsmodell.
 
 ### Beispiel
 
-Eine Landingpage-URL verwendet möglicherweise einen Abfrageparameter wie `token`, dessen Wert ein Zeichenfolgen-Token ist (z. B. eine JSON-Payload mit Angebots- oder Profilkennungen). Without encryption, that string token is visible as plain text in the link. Wenn dieser Wert mit dem Verschlüsselungs-Helper umschlossen wird, wird die sensible Payload durch Chiffretext in der URL ersetzt, während der Rest des Links unverändert bleibt.
+Eine Landingpage-URL verwendet möglicherweise einen Abfrageparameter wie `token`, dessen Wert ein Zeichenfolgen-Token ist (z. B. eine JSON-Payload mit Angebots- oder Profilkennungen). Ohne Verschlüsselung ist dieses Zeichenfolgen-Token als einfacher Text im Link sichtbar. Wenn dieser Wert mit dem Verschlüsselungs-Helper umschlossen wird, wird die sensible Payload durch Chiffretext in der URL ersetzt, während der Rest des Links unverändert bleibt.
 
-## Create keys {#create-keys}
+## Schlüssel erstellen {#create-keys}
 
 Bevor Sie den URL-Parameter-Verschlüsselungs-Helper verwenden können, müssen Sie einen Schlüssel erstellen. Gehen Sie dazu wie folgt vor.
 
@@ -62,7 +62,7 @@ Bevor Sie den URL-Parameter-Verschlüsselungs-Helper verwenden können, müssen 
 
 1. Navigieren Sie **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]**.
 
-1. Click the **[!UICONTROL Manage]** button to open the **[!UICONTROL Key registry]**.
+1. Klicken Sie auf **[!UICONTROL Verwalten]**, um die **[!UICONTROL Schlüsselregistrierung]** zu öffnen.
 
    ![Abschnitt „Schlüsselregistrierung“ im Menü Administration](assets/encryption-key-registry.png){width="80%"}
 
@@ -90,9 +90,9 @@ Gehen Sie wie folgt vor, um Schlüssel zu verwalten.
 
    ![Details zum aktiven Schlüssel](assets/encryption-key-active-details.png){width="80%"}
 
-1. Click the **[!UICONTROL Revoke]** button to permanently disable the key for new encryption.
+1. Klicken Sie auf **[!UICONTROL Widerrufen]**, um den Schlüssel für die neue Verschlüsselung dauerhaft zu deaktivieren.
 
-   Once a key is revoked, attempts to use it in the helper should fail at render time. Gesperrte Einträge bleiben für die Prüfung sichtbar. Ihre Teams benötigen möglicherweise weiterhin das entsprechende Material, um ältere Payloads auf Ihren eigenen Systemen zu entschlüsseln.
+   Sobald ein Schlüssel widerrufen wurde, sollte der Versuch, ihn im Helper zu verwenden, zum Zeitpunkt des Renderings fehlschlagen. Gesperrte Einträge bleiben für die Prüfung sichtbar. Ihre Teams benötigen möglicherweise weiterhin das entsprechende Material, um ältere Payloads auf Ihren eigenen Systemen zu entschlüsseln.
 
 1. Klicken Sie auf **[!UICONTROL Drehen]**, um neues Schlüsselmaterial bereitzustellen und gleichzeitig eine stabile Schlüsselkennung beizubehalten, auf die Ihre Journey und Kampagnen bereits verweisen.
 
