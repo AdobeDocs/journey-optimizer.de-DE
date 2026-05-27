@@ -24,7 +24,7 @@ Wenn Ihre Empfänger auf den Deep-Link klicken, werden sie direkt zum gewünscht
 
 * die [Konfigurationsschritte](#configuration) in Journey Optimizer;
 
-* Die [Implementierung von Mobile &#x200B;](#mobile-implementation)) für iOS und Android in Ihrer Mobile App.
+* Die [Implementierung von Mobile ](#mobile-implementation)) für iOS und Android in Ihrer Mobile App.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Wenn Ihre Empfänger auf den Deep-Link klicken, werden sie direkt zum gewünscht
 
 Für E-Mail-Nachrichten haben Sie zwei Möglichkeiten, einen Deep-Link einzufügen:
 
-* **E-Mail an Designer**: Stellen Sie sicher[&#x200B; dass das Linktracking aktiviert &#x200B;](message-tracking.md#enable-tracking). Wählen Sie das Element aus, das Sie verknüpfen möchten (Text, Schaltfläche oder Bild), klicken Sie **[!UICONTROL Link einfügen]** in der kontextuellen Symbolleiste und wählen Sie **[!UICONTROL Deeplink]** aus, um Ihre Deep-Link-URL einzugeben. [Weitere Informationen zum Einfügen von Links](message-tracking.md#insert-links)
+* **E-Mail an Designer**: Stellen Sie sicher[ dass das Linktracking aktiviert ](message-tracking.md#enable-tracking). Wählen Sie das Element aus, das Sie verknüpfen möchten (Text, Schaltfläche oder Bild), klicken Sie **[!UICONTROL Link einfügen]** in der kontextuellen Symbolleiste und wählen Sie **[!UICONTROL Deeplink]** aus, um Ihre Deep-Link-URL einzugeben. [Weitere Informationen zum Einfügen von Links](message-tracking.md#insert-links)
 
 * **Personalization-Editor (Code)**: Fügen Sie den Deep-Link mithilfe des folgenden Ausschnitts direkt in HTML ein:
 
@@ -55,7 +55,7 @@ Für E-Mail-Nachrichten haben Sie zwei Möglichkeiten, einen Deep-Link einzufüg
 
 ### SMS {#authoring-sms}
 
-Für SMS werden Deep-Links mit der Hilfsfunktion [URL](../personalization/functions/helpers.md#url) im Personalisierungseditor erstellt. In (diesem Abschnitt) erfahren Sie[&#x200B; wie Sie Links zu SMS-Inhalten &#x200B;](../mobile/design-mobile.md#sms-content).
+Für SMS werden Deep-Links mit der Hilfsfunktion [URL](../personalization/functions/helpers.md#url) im Personalisierungseditor erstellt. In (diesem Abschnitt) erfahren Sie[ wie Sie Links zu SMS-Inhalten ](../mobile/design-mobile.md#sms-content).
 
 Verwenden Sie die folgende Syntax, um Deep-Links in SMS-Inhalte einzufügen:
 
@@ -77,7 +77,7 @@ Um Deep-Links in E-Mails und SMS für Ihre Mobile Apps verwenden zu können, fü
 
 1. Delegieren Sie in Journey Optimizer die Subdomain, für die Deep-Linking aktiviert ist. [Weitere Informationen](../configuration/delegate-subdomain.md)
 
-1. Hosten Sie die AASA-Datei für iOS und die assetLinks.json-Datei für Android in Ihrer Subdomain. Wenden Sie sich mit den folgenden Informationen an die [&#128279;](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}-Kundenunterstützung von Adobe oder Ihren Adobe-Support-Mitarbeiter:
+1. Hosten Sie die AASA-Datei für iOS und die assetLinks.json-Datei für Android in Ihrer Subdomain. Wenden Sie sich mit den folgenden Informationen an die ](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}-Kundenunterstützung von [Adobe oder Ihren Adobe-Support-Mitarbeiter:
 
    * **Für iOS (AASA)**:
       * Delegierte Subdomain

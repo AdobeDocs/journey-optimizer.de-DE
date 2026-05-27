@@ -7,8 +7,8 @@ level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 source-git-commit: f874456748a8bd7fce69c7ad2a7e69380d5336a6
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 48%
+source-wordcount: '464'
+ht-degree: 98%
 
 ---
 
@@ -22,39 +22,39 @@ Ein Testversand dient der Validierung einer Nachricht, bevor sie an die wichtigs
 
 ## Wichtige Informationen {#must-read}
 
-**Regeln zur Frequenzlimitierung** - Alle vorhandenen Regeln zur Frequenzlimitierung gelten für Testsendungen. Wenn Sie [Regeln zur Frequenzlimitierung](../conflict-prioritization/channel-capping.md) festgelegt haben (z. B. maximale Sendungen pro Profil), gelten diese Einschränkungen auch für den Versand von Testsendungen. Wenn ein Testprofil bereits das Häufigkeitslimit erreicht hat, werden die Testsendungen als abgeschlossen angezeigt, es wird jedoch keine E-Mail gesendet. Für wiederholte Tests sollten Sie bei Bedarf eindeutige Testprofile verwenden oder Häufigkeitsbegrenzungen für Proofing-Szenarien anpassen.
+**Regeln zur Frequenzbegrenzung** – Alle vorhandenen Regeln zur Frequenzbegrenzung gelten für Testsendungen. Wenn Sie [Regeln zur Frequenzbegrenzung](../conflict-prioritization/channel-capping.md) festgelegt haben (z. B. maximale Sendungen pro Profil), gelten diese Einschränkungen auch für den Versand von Testsendungen. Wenn ein Testprofil bereits das Limit der Frequenzbegrenzung erreicht hat, werden die Testsendungen als abgeschlossen angezeigt, es wird jedoch keine E-Mail gesendet. Für wiederholte Tests sollten Sie bei Bedarf eindeutige Testprofile verwenden oder Frequenzbegrenzungen für Testversandszenarien anpassen.
 
-**Mirrorseite** - Im Testversand ist der Link zur Mirrorseite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
+**Mirror-Seite** – Bei Testsendungen ist der Link zur Mirror-Seite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
 
-**Assets** - Assets und Bilder verfügen über bestimmte Barrierefreiheitsregeln:
+**Assets** – Für Assets und Bilder gelten bestimmte Barrierefreiheitsregeln:
 
-* Assets/Images sind in bereitgestellten Inhalten oder Korrekturabzugsinhalten für bis zu 2 Jahre (730 Tage) seit ihrer ersten Veröffentlichung in einem Fragment/einer Inline-Nachricht verfügbar.
-* Nach Ablauf dieses Zeitraums (jederzeit nach 730 Tagen) ist eine erneute Veröffentlichung erforderlich, um sie für weitere 2 Jahre verfügbar zu halten.
-* Eine erneute Veröffentlichung innerhalb von 730 Tagen nach der ersten Veröffentlichung verlängert den Ablauf der Assets/Bilder nicht auf die nächsten 730 Tage.
+* Assets/Bilder sind in bereitgestellten Inhalten oder Testversandinhalten für bis zu 2 Jahre (730 Tage) ab ihrer ersten Veröffentlichung in einem Fragment/einer Inline-Nachricht verfügbar.
+* Nach Ablauf dieses Zeitraums (nach 730 Tagen) ist eine erneute Veröffentlichung erforderlich, um sie für weitere 2 Jahre verfügbar zu machen.
+* Eine erneute Veröffentlichung innerhalb von 730 Tagen nach der ersten Veröffentlichung verlängert den Ablauf der Assets/Bilder nicht um weitere 730 Tage.
 
-## Durchführen eines Testversands {#send-proofs-steps}
+## Durchführen von Testsendungen {#send-proofs-steps}
 
 Um E-Mail-Testsendungen mithilfe von Testprofildaten durchzuführen, müssen Sie zunächst [Testprofile](test-profiles.md) auswählen. Gehen Sie dann wie folgt vor:
 
-1. Klicken Sie im Bildschirm **[!UICONTROL Simulieren]** auf die Schaltfläche **[!UICONTROL Testversand durchführen]**.
+1. Klicken Sie im Bildschirm **[!UICONTROL Simulieren]** auf die Schaltfläche **[!UICONTROL Testversand senden]**.
 
-   ![Schaltfläche „Testversand durchführen“ im Bildschirm „Simulieren“](../email/assets/send-proof-button.png)
+   ![Schaltfläche „Testversand senden“ im Bildschirm „Simulieren“](../email/assets/send-proof-button.png)
 
-1. Geben Sie im Fenster **[!UICONTROL Testversand]** die E-Mail-Adresse Ihres Empfängers ein und klicken Sie auf **[!UICONTROL Hinzufügen]**, um den Testversand an sich selbst oder Mitglieder Ihrer Organisation zu senden.
+1. Geben Sie im Fenster **[!UICONTROL Testversand senden]** die Empfänger-E-Mail-Adresse ein und klicken Sie auf **[!UICONTROL Hinzufügen]**, um den Testversand an sich selbst oder Mitglieder Ihrer Organisation zu senden.
 
-   Beachten Sie, dass Sie bis zu zehn Empfänger für Ihren Testversand hinzufügen können.
+   Beachten Sie, dass Sie bis zu zehn Empfangende für Ihren Testversand hinzufügen können.
 
-   ![Empfänger zum Testversand hinzufügen](../email/assets/send-proof-add.png)
+   ![Hinzufügen von Empfangenden zum Testversand](../email/assets/send-proof-add.png)
 
 1. Wählen Sie die **Testprofile** aus, die zur Personalisierung des Nachrichteninhalts verwendet werden.
 
-   Die Anzahl der Testversandnachrichten, die jede Person erhält, entspricht der Anzahl der ausgewählten Testprofile. Wenn Sie beispielsweise fünf Empfänger-E-Mails hinzugefügt und zehn Testprofile ausgewählt haben, senden Sie fünfzig Testversandnachrichten. Jeder Empfänger erhält zehn davon.
+   Die Anzahl der Testversandnachrichten, die jede Person erhält, entspricht der Anzahl der ausgewählten Testprofile. Wenn Sie beispielsweise fünf Empfänger-E-Mails hinzugefügt und zehn Testprofile ausgewählt haben, senden Sie fünfzig Testversandnachrichten. Jede Empfängerin bzw. jeder Empfänger erhält zehn davon.
 
-1. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen. Nur alphanumerische Zeichen und Sonderzeichen, wie etwa . - _ ( ) [ ], sind als Präfix für die Betreffzeile zulässig.
+1. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen. Nur alphanumerische Zeichen und Sonderzeichen, wie z. B. . - _ ( ) [ ], sind als Präfix für die Betreffzeile zulässig.
 
 1. Klicken Sie auf **[!UICONTROL Testversand durchführen]**.
 
-   ![Testprofile auswählen und Testversand durchführen](../email/assets/send-proof-select.png)
+   ![Auswählen von Testprofilen und Durchführen des Testversands](../email/assets/send-proof-select.png)
 
 1. Um den Status zu prüfen, klicken Sie im Bildschirm **[!UICONTROL Simulieren]** auf die Schaltfläche **[!UICONTROL Testsendungen anzeigen]**.
 

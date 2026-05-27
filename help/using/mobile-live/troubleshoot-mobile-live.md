@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
 source-git-commit: e16888953e73ac04f366790117065489b12ae0c7
 workflow-type: tm+mt
-source-wordcount: '4523'
+source-wordcount: '4607'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Richten Sie eine **Assurance-** ein, um SDK-Ereignisse zu erfassen und die Berei
 * Push-Token-Registrierung
 * Live-Aktivitäts-Lebenszyklus-Ereignisse
 
-Wie Sie Assurance einrichten, erfahren Sie in der Dokumentation zu [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/de/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Wie Sie Assurance einrichten, erfahren Sie in der Dokumentation zu [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Hinweis**: Stellen Sie für iOS Live-Aktivitäten sicher, dass Ihre App auf einem physischen iOS-Gerät (iOS 16.1 oder höher) oder Xcode-Simulator (iOS 16.1 oder höher) ausgeführt wird.
 
@@ -72,7 +72,7 @@ Aus Ihrer API-Anfrage können Sie Folgendes abrufen:
 * Profil-Namespace, z. B. ECID, E-Mail, Kunden-ID
 * Im API-Aufruf verwendete Profil-ID
 
-Stellen Sie sicher, dass Sie dieses Profil in Adobe Experience Platform nachschlagen können. Erfahren Sie in [&#x200B; Dokumentation zu Experience Platform, wie Sie ein Profil &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html).
+Stellen Sie sicher, dass Sie dieses Profil in Adobe Experience Platform nachschlagen können. Erfahren Sie in [ Dokumentation zu Experience Platform, wie Sie ein Profil ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html).
 
 +++
 
@@ -106,7 +106,7 @@ Die API gibt HTTP 200 zurück, aber die Live-Aktivität wird nicht angezeigt. H�
 
 * Voraussetzungen für das iOS-Programm:
    * iOS 16.1+
-   * `NSSupportsLiveActivities` in `YES` auf `Info.plist` gesetzt
+   * `NSSupportsLiveActivities` in `Info.plist` auf `YES` gesetzt
    * `ActivityAttributes` ordnungsgemäß implementiert.
 * Mobile SDK-Integration:
    * Adobe Experience Platform Mobile SDK (Messaging SDK 5.11.0+)
@@ -142,7 +142,7 @@ Wenn keine Ereignisse gefunden werden, ruft Ihre Mobile App `Messaging.registerL
 
 +++
 
-+++ &#x200B;3. Überprüfen der Token-Details im Profil
++++ &#x200B;3. Token-Details im Profil validieren
 
 1. Rufen Sie von **Profil** aus die Registerkarte **Attribute** auf.
 1. Suchen Sie `liveActivityPushNotificationDetails`.
@@ -190,12 +190,12 @@ Profil ist mit gültigen Token vorhanden, aber die Live-Aktivität wird nicht an
 * `content-state` und `attributes` stimmen nicht mit der Implementierung der iOS-`ActivityAttributes` überein.
 * Veraltete `timestamp` (wichtig für Aktualisierung/Ende).
 
-**Hinweis für Broadcast-Anwendungsfälle**: Die Kampagne muss **API-ausgelöstes Marketing** (keine Transaktion) sein. Payload verwendet `audience` anstelle von einzelnen `profile`. Vollständige API[Spezifikationen finden Sie in diesem &#x200B;](#broadcast-config) für die Broadcast-spezifische Payload-Struktur und in der [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution) Dokumentation zu Adobe Developer.
+**Hinweis für Broadcast-Anwendungsfälle**: Die Kampagne muss **API-ausgelöstes Marketing** (keine Transaktion) sein. Payload verwendet `audience` anstelle von einzelnen `profile`. Vollständige API[Spezifikationen finden Sie in diesem ](#broadcast-config) für die Broadcast-spezifische Payload-Struktur und in der [](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution) Dokumentation zu Adobe Developer.
 
 #### Vorab-Prüfungen
 
 * Campaign ist **API-ausgelöste Transaktion** (unitäres) oder **API-ausgelöstes Marketing** (Broadcast) und **Hoher Durchsatz** Option muss **nicht** aktiviert sein, da sie mit Live-Aktivität nicht kompatibel ist.
-* Stellen Sie sicher, dass das Profil vorhanden ist und Token mit dem [&#x200B; Szenario korrekt synchronisiert &#x200B;](#profile-issue).
+* Stellen Sie sicher, dass das Profil vorhanden ist und Token mit dem [ Szenario korrekt synchronisiert ](#profile-issue).
 
 #### Debugging-Schritte
 
@@ -329,7 +329,7 @@ Stellen Sie sicher, dass Ihre API-Payload mit der `ActivityAttributes` Implement
 
 **Häufige Fehler:**
 
-| Problem | Wirkung | Fehlerbehebung |
+| Problem | Wirkung | Korrigieren |
 |-------|--------|-----|
 | Fehlende `liveActivityData` in Attributen | Live-Aktivität wird nicht gestartet | `liveActivityData` Objekt immer in Startereignis einschließen |
 | Erforderliches Feld im Startereignis fehlt | Live-Aktivität wird nicht gestartet | Alle Felder aus der iOS-Struktur hinzufügen |
@@ -339,7 +339,7 @@ Stellen Sie sicher, dass Ihre API-Payload mit der `ActivityAttributes` Implement
 | Einschließen von `attributes` in Aktualisierung/Ende | Unnötig, aber normalerweise ignoriert | Nur `attributes` in Startereignis einbeziehen |
 | Veralteter Zeitstempel bei Aktualisierung/Ende | Update/Ende vom Gerät ignoriert | Immer neuen Zeitstempel erzeugen |
 
-Weitere Beispiele finden Sie auf [&#x200B; Seite „Live-Aktivität erstellen](create-mobile-live.md).
+Weitere Beispiele finden Sie auf [ Seite „Live-Aktivität erstellen](create-mobile-live.md).
 
 +++
 
@@ -389,7 +389,7 @@ Die Live-Aktivität wird jedoch weiterhin nicht wie erwartet angezeigt, aktualis
 
 #### Debugging-Schritte
 
-+++ &#x200B;1. Überprüfen der Kampagnenberichte
++++ &#x200B;1. Kampagnenberichte überprüfen
 
 1. Navigieren Sie zu Ihrer **Live-Kampagnenaktivität**.
 1. Klicken Sie auf die **Berichte**.
@@ -500,7 +500,7 @@ Weitere Informationen finden Sie auf der [Seite Live-Kampagnenbericht](../report
 
 +++
 
-+++ &#x200B;5. Eskalation an den Adobe-Support
++++ &#x200B;5. Eskalation an den Adobe Support
 
 Wenn Sie alle Schritte ausgeführt haben und das Problem weiterhin nicht behoben ist, wenden Sie sich an die Adobe-Kundenunterstützung mit:
 
@@ -595,7 +595,7 @@ Damit Aktualisierungs- und End-Ereignisse funktionieren, muss Folgendes passiere
 
 +++
 
-+++ &#x200B;3. Überprüfen Sie die Versandereignisse der Live-Aktivität in Assurance
++++ &#x200B;3. Live-Aktivitäts-Versandereignisse in Assurance überprüfen
 
 1. Führen Sie in Ihrer Assurance-Sitzung einen Update- oder End-API-Aufruf aus.
 1. Suchen Sie in **Ereignisliste** nach Versandereignissen von Live-Aktivitäten (APNs und Push-Ereignisse).
@@ -633,7 +633,7 @@ Dieses Fehlerbehebungsszenario gilt für alle Live-Aktivitätsereignisse in Broa
 
 #### Debugging-Schritte
 
-+++ &#x200B;1. Überprüfen der Zielgruppenkonfiguration für Kampagnen
++++ &#x200B;1. Konfiguration der Campaign-Zielgruppe überprüfen
 
 1. Öffnen Sie Ihre **API-ausgelöste Marketing** Kampagne in Journey Optimizer.
 1. Navigieren Sie zum Abschnitt **Zielgruppe** und überprüfen Sie Folgendes:
@@ -689,7 +689,7 @@ Die Struktur der Broadcast-Payload unterscheidet sich von unitären Kampagnen. V
 
 **Kritische Broadcast-spezifische Felder:**
 
-* **`input-push-channel`**
+* **`input-push-channel`**:
    * Erforderlich für alle Broadcast-Live-Aktivitäten.
    * Fungiert als eindeutige Kennung für diese spezifische Broadcast-Instanz.
    * Alle Profile in der Zielgruppe erhalten Live-Aktivitäten, die mit diesem Kanal verknüpft sind.
@@ -697,7 +697,7 @@ Die Struktur der Broadcast-Payload unterscheidet sich von unitären Kampagnen. V
    * Muss vom Client für die `appID` im Apple-Entwicklerportal erstellt werden.
    * Nur Kanäle, die für das jeweilige `appID` erstellt wurden, können für die Übertragung der Live-Aktivität in diesem Programm verwendet werden.
 
-* **`audience.id`**
+* **`audience.id`**:
    * Muss auf ein in Adobe Experience Platform erstelltes gültiges Zielgruppensegment verweisen.
    * Alle Profile in dieser Zielgruppe sind für die Live-Aktivität angesprochen.
    * Die Zielgruppe muss aktiviert sein und Profile mit gültigen `liveActivityPushNotificationDetails` enthalten.
@@ -714,7 +714,7 @@ Die Struktur der Broadcast-Payload unterscheidet sich von unitären Kampagnen. V
 * `dismissal-date`: Unix-Epochenzeit für automatische Abweisung (nur relevant für `end` Ereignisse)
 * `alert`: Objekt mit `title` und `body` zur Benachrichtigung
 
-Vollständige API-Spezifikationen finden Sie in der [&#x200B; zur Adobe Journey Optimizer Messaging-API &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging).
+Vollständige API-Spezifikationen finden Sie in der ](https://developer.adobe.com/journey-optimizer-apis/references/messaging) zur Adobe Journey Optimizer Messaging-API [.
 
 +++
 
@@ -786,7 +786,7 @@ Schließen Sie für alle Ereignisse sowohl `attributes` als auch `content-state`
 
 **Häufige Fehler:**
 
-| Problem | Wirkung | Fehlerbehebung |
+| Problem | Wirkung | Korrigieren |
 |-|-|-|
 | Fehlende `input-push-channel` | Broadcast funktioniert nicht | Eindeutige Kanal-ID für jede Sendung hinzufügen |
 | `input-push-channel` stimmt nicht mit `channelID` überein | Live-Aktivität wird nicht gestartet | Stellen Sie sicher, dass beide Werte identisch sind |
