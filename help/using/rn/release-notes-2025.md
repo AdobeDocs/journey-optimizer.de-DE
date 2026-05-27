@@ -73,7 +73,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p>Erstellen, entwerfen und verwalten Sie benutzerdefinierte Formulare, die auf Ihre Anforderungen zugeschnitten sind und auf einem bestimmten Datensatz basieren. Sie können diese Formulare dann in Landingpages nutzen, um die Profilattribute Ihrer Wahl zu dem für jedes Formular definierten Datensatz hinzuzufügen.</p>
 <p>Diese Funktion ist derzeit nur für Kundschaft in den USA und Australien verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../landing-pages/lp-forms.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../landing-pages/lp-forms.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 23. Oktober 2025</p>
 </td>
 </tr>
@@ -316,7 +316,7 @@ table>
 </ul>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../email/pdf-attachments.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../email/pdf-attachments.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 30. September 2025</p>
 </td>
 </tr>
@@ -975,7 +975,7 @@ Im Folgenden werden die neuen Funktionen dieser Version beschrieben.
 <p>Sie können jetzt Ihre eigenen Marken erstellen und anpassen, um Ihre visuelle und verbale Identität in der gesamten Kommunikation klar zu definieren. Der Markenausrichtungswert liefert Ihnen Echtzeit-Feedback dazu, wie gut Ihr Inhalt den Ton, den Stil und die Richtlinien Ihrer Marke widerspiegelt. So wird sichergestellt, dass alle von Ihnen versendeten Nachrichten markenkonform sind.</p>
 <p>Diese Funktion wurde zuvor als Beta-Version veröffentlicht, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../content-management/brands.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../content-management/brands.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -1997,7 +1997,7 @@ table>
 <td>
 <p>Die flexible Zielgruppenauswertung, die zuvor nur für eine Reihe von Organisationen verfügbar war (LA), steht jetzt allen Benutzenden zur Verfügung (GA). Mit dieser Funktion können Sie nach Bedarf einen Segmentierungsauftrag für ausgewählte Zielgruppen ausführen, um sicherzustellen, dass Sie immer über die neuesten Zielgruppendaten verfügen, bevor Sie sie in Journey Optimizer-Journeys und -Kampagnen für das Targeting auswählen.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
-<p>Weitere Informationen finden Sie in der <a href="../audience/creating-a-segment-definition.md#flexible">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../audience/creating-a-segment-definition.md#flexible">entsprechenden Handbuch</a>.</p>
 </tr>
 </tbody>
 </table>

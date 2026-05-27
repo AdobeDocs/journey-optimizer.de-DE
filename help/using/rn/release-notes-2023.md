@@ -55,7 +55,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <td>
 <p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. Beachten Sie, dass diese Funktion derzeit nur mit Sinch verfügbar ist.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../mobile/create-mobile-message.md#mms-content">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../mobile/create-mobile-message.md#mms-content">entsprechenden Handbuch</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -272,7 +272,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <td>
 <p>Sie können in Journey Optimizer jetzt Testadressenlisten erstellen und verwalten. Eine Testadressenliste besteht aus internen Adressen, die zu Ihrer eigentlichen Zielgruppe hinzugefügt werden können und zum Zeitpunkt der Versandausführung genau die gleiche Nachricht wie die angesprochenen Profile erhalten. Mit dieser Funktion können Sie die gesendeten Kommunikationen überwachen und sicherstellen, dass alle Anzeigeformate, URLs, Bilder und Links korrekt sind.</p>
 <img src="../configuration/assets/seed-list-details.png">
-<p>Weitere Informationen finden Sie in der <a href="../configuration/seed-lists.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../configuration/seed-lists.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -595,7 +595,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>KI-Ranking-Modelle für personalisierte Optimierung sind jetzt allgemein im Entscheidungs-Management verfügbar. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Zielgruppen und der Angebots-Performance.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../offers/ranking/personalized-optimization-model.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../offers/ranking/personalized-optimization-model.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -714,7 +714,7 @@ Information below is subject to change without prior notice until the release av
 <li>Verwenden Sie die Registerkarte <strong>Durchsuchen</strong>, um auf die Liste aller Journeys zuzugreifen.</li></ul>
 <p>Diese Funktion ist in allen Journeys als öffentliche Beta-Version verfügbar.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-gs.md#journey-access">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../building-journeys/journey-gs.md#journey-access">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -871,7 +871,7 @@ Information below is subject to change without prior notice until the release av
 <p>Es kann jetzt eine Live-Verbindung mit Cloud-Speicherorten hergestellt werden, um den Inhalt der Datensätze zu exportieren. Verfügbare Ziele sind: Amazon S3-Cloud-Speicherziele, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
 <p><strong>Vorsicht</strong> – Diese Funktion befindet sich derzeit in der Beta-Phase und steht allen Adobe Journey Optimizer-Benutzenden zur Verfügung. Bitte wenden Sie sich an den Adobe-Support, um Zugang zu Zielen zu erhalten, falls Sie noch keinen Zugang haben.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../data/export-datasets.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../data/export-datasets.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
