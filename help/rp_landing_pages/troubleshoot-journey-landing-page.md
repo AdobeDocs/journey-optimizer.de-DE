@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 94%
+source-wordcount: '574'
+ht-degree: 95%
 
 ---
 
@@ -49,7 +49,7 @@ Greifen Sie auf wichtige Berichte zu, um die Journey-Leistung zu überwachen, Me
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Abrufen und Abonnieren von Systemwarnungen
 
@@ -59,7 +59,7 @@ Erfahren Sie, wie Sie auf Systemwarnungen zugreifen, Benachrichtigungen abonnier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referenz zu Fehler-Codes
 
@@ -69,7 +69,7 @@ Erfahren Sie mehr über häufige Fehler-Codes in Adobe Journey Optimizer und fin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Fehlerbehebung vor dem Testen oder Veröffentlichen der Journey
 
@@ -79,7 +79,7 @@ Identifizieren und beheben Sie Journey-weite Fehler und Aktivitätsprobleme und 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fehlerbehebung bei der Live-Journey-Ausführung
 
@@ -89,7 +89,7 @@ Diagnostizieren Sie Probleme mit der Ereignisvalidierung, dem Profileintrag, der
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Fehlerbehebung bei eingehenden Aktionen in Journeys
 
@@ -99,7 +99,7 @@ Beheben Sie mithilfe detaillierter Handbücher Probleme mit eingehenden Aktionen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Fehlerbehebung bei benutzerdefinierten Aktionen
 
@@ -109,7 +109,7 @@ Validieren und debuggen Sie benutzerdefinierte Aktionen mit der Funktion **Testa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Support-Ticket-Richtlinien
 
@@ -120,7 +120,7 @@ Erfahren Sie, was Sie bei der Kontaktaufnahme mit dem Adobe-Support einbeziehen 
 
 ::::
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * [Häufig gestellte Fragen zu Journeys](../using/building-journeys/journey-faq.md) – Umfassende Antworten auf häufige Fragen zu Journeys, einschließlich Journey-Typen, Ausführung, Konfiguration und Best Practices für die Fehlerbehebung.
 
