@@ -138,7 +138,7 @@ Im Folgenden finden Sie Definitionen, häufige Ursachen und Schritte zur Fehlerb
 
   Weitere Informationen zu diesen Ereignissen sowie zur Fehlerbehebung finden Sie im Abschnitt [Anhalten einer Journey](../building-journeys/journey-pause.md#discards-troubleshoot).
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * [Beispiele für Datensatzabfragen – Journey-Schrittereignis](../data/datasets-query-examples.md#journey-step-event).
 * [Beispiele für Abfragen – Ereignisbasierte Abfragen](query-examples.md#event-based-queries).
