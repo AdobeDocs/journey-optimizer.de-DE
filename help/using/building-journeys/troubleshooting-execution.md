@@ -11,12 +11,25 @@ keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2232
@@ -38,7 +51,7 @@ Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von
 
 Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Tatsächlich verlassen sich Journey auf die Streaming-Aufnahme-APIs von [!DNL Adobe Experience Platform]. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming[[!DNL Adobe Experience Platform] Aufnahme-APIs in der ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"}Dokumentation“ aufrufen.
+Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Tatsächlich verlassen sich Journey auf die Streaming-Aufnahme-APIs von [!DNL Adobe Experience Platform]. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming[[!DNL Adobe Experience Platform] Aufnahme-APIs in der &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"}Dokumentation“ aufrufen.
 
 Wenn Ihre Journey den Testmodus nicht aktivieren kann und dabei der Fehler `ERR_MODEL_RULES_16` ausgegeben wird, stellen Sie im Falle von Kanalaktionen sicher, dass das verwendete Ereignis einen [Identity-Namespace](../audience/get-started-identity.md) enthält.
 
@@ -64,18 +77,18 @@ Sie können die Fehlerbehebung mit den folgenden Fragen beginnen:
   Content-type - application/json
   ```
 
-* **Ereignisbedingung und Schemadatentypen** - Stellen Sie sicher, dass die in Ihrer Ereignisbedingung (Regel) verwendeten Datentypen mit dem Ereignisschema übereinstimmen. Nicht übereinstimmende Typen (z. B. Zeichenfolge vs. Ganzzahl) führen dazu, dass die Regelauswertung fehlschlägt und Ereignisse gelöscht werden. Siehe [Überprüfen der ](#verify-event-identity-and-rule-data-types).
+* **Ereignisbedingung und Schemadatentypen** - Stellen Sie sicher, dass die in Ihrer Ereignisbedingung (Regel) verwendeten Datentypen mit dem Ereignisschema übereinstimmen. Nicht übereinstimmende Typen (z. B. Zeichenfolge vs. Ganzzahl) führen dazu, dass die Regelauswertung fehlschlägt und Ereignisse gelöscht werden. Siehe [Überprüfen der &#x200B;](#verify-event-identity-and-rule-data-types).
 
 * **Ereignis verworfen - Qualifizierungsbedingung nicht erfüllt** - Bei regelbasierten Ereignissen wird das Ereignis **empfangen, aber verworfen** und das Journey wird nicht ausgelöst, wenn die **Qualifizierungsbedingung** von der Ereignis-Payload nicht erfüllt wird (z. B. wenn ein erforderliches Feld leer ist oder fehlt oder eine Bedingung wie &quot;`isNotEmpty` eines Felds fehlschlägt„). Protokolle und Splunk-Traces können zeigen, dass das Ereignis empfangen, aber verworfen wurde, weil es die Qualifizierungsbedingung nicht erfüllte, einschließlich Verwerfen-Codes wie `notSuitableInitialEvent`. Dies ist das erwartete Verhalten: Wenn die Qualifizierungsbedingung nicht erfüllt ist, wird das Ereignis verworfen und das Journey wird für dieses Profil nicht ausgelöst. Überprüfen Sie, ob die Ereignis-Payload die erwarteten Felder und Werte enthält und ob die Regel in der Ereigniskonfiguration mit den gesendeten Daten übereinstimmt. Wenn das Ereignis durch eine **benutzerdefinierte Aktion** einer anderen Journey ausgelöst wird, finden Sie weitere Informationen unter [Umgang mit Verwerfungsereignissen und Leerlauf-Timeouts](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts) in Fehlerbehebung bei benutzerdefinierten Aktionen.
 
->>
+&#x200B;>>
 **Für Journeys zur Zielgruppenqualifizierung mit Streaming-Zielgruppen**: Wenn Sie eine Aktivität zur Zielgruppenqualifizierung als Eintrittspunkt für die Journey verwenden, beachten Sie, dass nicht unbedingt alle für die Zielgruppe qualifizierten Profile auch in die Journey eintreten. Dies kann an Zeitfaktoren oder kurzfristigen Ausstiegen aus der Zielgruppe liegen oder daran, dass sich Profile bereits vor der Veröffentlichung in der Zielgruppe befanden. Erfahren Sie mehr zu [Überlegungen zum Timing bei der Qualifizierung von Streaming-Zielgruppen](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Überprüfen der Ereignisidentität {#verify-event-identity-and-rule-data-types}
 
-Stellen Sie beim Konfigurieren einer ereignisbasierten Journey sicher, dass das Identitätsfeld der Payload mit dem [im Ereignis ausgewählten Namespace) ](../event/about-creating.md#select-the-namespace). Wenn das Ereignis Felder zum Abgleichen von Profilen enthält, überprüfen Sie **ob** Groß-/Kleinschreibung) und **Datentyp** in der Ereignisbedingung genau mit den eingehenden Daten übereinstimmen. Wenn das Ereignisschema beispielsweise `roStatus` als Zeichenfolge definiert, muss die Journey-Regel sie auch als Zeichenfolge auswerten. Nicht übereinstimmende Datentypen (z. B. Zeichenfolge vs. Ganzzahl) führen dazu, dass die Regelauswertung fehlschlägt und gültige Ereignisse gelöscht werden. Wenn das Ereignis eine **Qualifizierungsbedingung“ aufweist** z. B. ein Feld darf nicht leer sein), werden Ereignisse, die diese Bedingung nicht erfüllen, **verworfen** und enthalten keinen Trigger zum Journey. In Protokollen können Verwerfungscodes wie `notSuitableInitialEvent` angezeigt werden.
+Stellen Sie beim Konfigurieren einer ereignisbasierten Journey sicher, dass das Identitätsfeld der Payload mit dem [im Ereignis ausgewählten Namespace) &#x200B;](../event/about-creating.md#select-the-namespace). Wenn das Ereignis Felder zum Abgleichen von Profilen enthält, überprüfen Sie **ob** Groß-/Kleinschreibung) und **Datentyp** in der Ereignisbedingung genau mit den eingehenden Daten übereinstimmen. Wenn das Ereignisschema beispielsweise `roStatus` als Zeichenfolge definiert, muss die Journey-Regel sie auch als Zeichenfolge auswerten. Nicht übereinstimmende Datentypen (z. B. Zeichenfolge vs. Ganzzahl) führen dazu, dass die Regelauswertung fehlschlägt und gültige Ereignisse gelöscht werden. Wenn das Ereignis eine **Qualifizierungsbedingung“ aufweist** z. B. ein Feld darf nicht leer sein), werden Ereignisse, die diese Bedingung nicht erfüllen, **verworfen** und enthalten keinen Trigger zum Journey. In Protokollen können Verwerfungscodes wie `notSuitableInitialEvent` angezeigt werden.
 
-Um Ihre Ereignisbedingung in [!DNL Journey Optimizer] zu überprüfen, verwenden Sie die Payload-Vorschau in der Ereigniskonfiguration und stellen Sie sicher, dass die Typen und Werte in der Regel mit der Payload-Struktur übereinstimmen. Erfahren Sie[ wie Sie die Payload ](../event/about-creating.md#preview-the-payload) und [regelbasierte Ereignisse konfigurieren](../event/about-creating.md).
+Um Ihre Ereignisbedingung in [!DNL Journey Optimizer] zu überprüfen, verwenden Sie die Payload-Vorschau in der Ereigniskonfiguration und stellen Sie sicher, dass die Typen und Werte in der Regel mit der Payload-Struktur übereinstimmen. Erfahren Sie[&#x200B; wie Sie die Payload &#x200B;](../event/about-creating.md#preview-the-payload) und [regelbasierte Ereignisse konfigurieren](../event/about-creating.md).
 
 ## Fehlerbehebung bei Transitionen im Testmodus {#troubleshooting-test-transitions}
 
@@ -230,7 +243,7 @@ Wenn die im Dashboard **Übersicht** angezeigten Metriken nicht mit der tatsäch
 * Vergewissern Sie sich, dass Sie über die entsprechenden Zugriffsberechtigungen verfügen, um alle Journeys in Ihrem Unternehmen anzuzeigen.
 * Nach Änderungen an Ihren Journeys kann es bis zu 30 Minuten dauern, bis die Metriken aktualisiert werden.
 
-Wenn Diskrepanzen bestehen bleiben, [ Sie sich an den Adobe-Support](../start/user-interface.md#support-ticket-guidelines) und sehen Sie sich die Screenshots der Registerkarten Übersicht und Durchsuchen an, um eine Untersuchung durchzuführen.
+Wenn Diskrepanzen bestehen bleiben, [&#x200B; Sie sich an den Adobe-Support](../start/user-interface.md#support-ticket-guidelines) und sehen Sie sich die Screenshots der Registerkarten Übersicht und Durchsuchen an, um eine Untersuchung durchzuführen.
 
 ## Tracking-Parameter mit leeren Platzhaltern in geschlossenen Journey {#tracking-parameters-closed-journeys}
 

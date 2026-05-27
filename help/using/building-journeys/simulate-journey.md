@@ -131,11 +131,11 @@ Wenn Ihr Journey ein oder mehrere Ereignisse enthält, können Sie diese mit ein
 
    ![Benutzeroberfläche für die Ereigniskonfiguration mit Feldern und Dropdown-Liste für die Ereignisauswahl](assets/simulate-10.png)
 
-1. Klicken Sie **[!UICONTROL Ereignisse konfigurieren]**, um den Editor zu öffnen und das Ereignis nach Bedarf anzupassen. Um die Payload nur für einen bestimmten simulierten Benutzer zu ändern, klicken Sie ![ „Ereignis bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg) neben diesem Benutzer.
+1. Klicken Sie **[!UICONTROL Ereignisse konfigurieren]**, um den Editor zu öffnen und das Ereignis nach Bedarf anzupassen. Um die Payload nur für einen bestimmten simulierten Benutzer zu ändern, klicken Sie ![&#x200B; „Ereignis bearbeiten](assets/do-not-localize/Smock_Edit_18_N.svg) neben diesem Benutzer.
 
    ![Benutzeroberfläche für die Ereigniskonfiguration mit Feldern und Dropdown-Liste für die Ereignisauswahl](assets/simulate-9.png)
 
-1. Geben Sie in der Ansicht **** Benutzerereignis“ an, welche simulierten Trigger in die Ausführung aufgenommen werden sollen. Die Ereigniskonfiguration gilt jeweils für ein einzelnes Ereignis. Durch Ändern des ausgewählten Ereignisses oder der Gruppe eingeschlossener Benutzer werden zuvor eingegebene Feldwerte zurückgesetzt. Vervollständigen Sie die aktuelle Konfiguration, bevor Sie eine der Auswahlmöglichkeiten ändern.
+1. Geben Sie in der Ansicht **&#x200B;**&#x200B;Benutzerereignis“ an, welche simulierten Trigger in die Ausführung aufgenommen werden sollen. Die Ereigniskonfiguration gilt jeweils für ein einzelnes Ereignis. Durch Ändern des ausgewählten Ereignisses oder der Gruppe eingeschlossener Benutzer werden zuvor eingegebene Feldwerte zurückgesetzt. Vervollständigen Sie die aktuelle Konfiguration, bevor Sie eine der Auswahlmöglichkeiten ändern.
 
    ![Ereigniskonfiguration mit Listen- und Ereignisfeldern von Testbenutzenden](assets/simulate-8.png)
 
