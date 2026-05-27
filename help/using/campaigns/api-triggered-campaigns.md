@@ -21,10 +21,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: 293
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 Durch API ausgelöste Kampagnen ermöglichen den Versand von Marketing-Nachrichten an eine Zielgruppe zum richtigen Zeitpunkt oder den Versand von Transaktions-/Betriebsnachrichten an einen Kontakt, z. B. zum Zurücksetzen des Passworts. Dabei kann eine Personalisierung erforderlich sein, bei der nicht nur Profilattribute, sondern auch Echtzeit-Kontextdaten im Trigger verwendet werden, der eine REST-API-Payload ist.
 
-Dazu müssen Sie zunächst in Journey Optimizer eine durch API ausgelöste Kampagne erstellen und deren Ausführung dann über einen API-Aufruf starten, der die [REST-API zur Ausführung interaktiver Nachrichten](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) verwendet.
+Dazu müssen Sie zunächst in Journey Optimizer eine durch API ausgelöste Kampagne erstellen und deren Ausführung dann über einen API-Aufruf starten, der die [REST-API zur Ausführung interaktiver Nachrichten](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution) verwendet.
 
 ➡️ [Funktion im Video kennenlernen](#video)
 
