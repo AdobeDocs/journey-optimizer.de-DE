@@ -127,7 +127,7 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
 
    ![](assets/sms-content.png)
 
-1. Erstellen Sie mit dem [KI-Assistenten für die Textgenerierung) ansprechende mobile Nachrichten, die auf Ihre Zielgruppe zugeschnitten &#x200B;](../content-management/generative-text.md).
+1. Erstellen Sie mit dem [KI-Assistenten für die Textgenerierung) ansprechende mobile Nachrichten, die auf Ihre Zielgruppe zugeschnitten ](../content-management/generative-text.md).
 
 1. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren und Personalisierung sowie dynamischen Inhalt hinzuzufügen. Sie können jedes Attribut verwenden, wie etwa Profilname oder Stadt. Sie können auch bedingte Regeln definieren. Auf den folgenden Seiten erfahren Sie mehr über [Personalisierung](../personalization/personalize.md) und [dynamische Inhalte](../personalization/get-started-dynamic-content.md) im Personalisierungseditor.
 
@@ -135,7 +135,7 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
 
    ![](assets/sms_tracking_1.png)
 
-1. Wählen Sie **[!UICONTROL URL]** und klicken Sie auf **[!UICONTROL URL hinzufügen]**. Weitere Informationen zur `Url`-Hilfsfunktion finden Sie [&#x200B; (diesem Abschnitt](../personalization/functions/helpers.md#url).
+1. Wählen Sie **[!UICONTROL URL]** und klicken Sie auf **[!UICONTROL URL hinzufügen]**. Weitere Informationen zur `Url`-Hilfsfunktion finden Sie [ (diesem Abschnitt](../personalization/functions/helpers.md#url).
 
    ![](assets/sms_tracking_2.png)
 
