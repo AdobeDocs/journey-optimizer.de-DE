@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Content Delivery API (CDA)-URL: `https://cdn.contentful.com/spaces/{space_id}/environments/{environment_id}/entries/{entry_id}`
 
-1. HTTP-Methode auswählen: **GET**.
+1. Wählen Sie die HTTP-Methode **GET**.
 
 1. Authentifizierung hinzufügen. Legen Sie den **`access_token`**-Parameter **query** auf Ihr Inhaltsbereitstellungs-API-Token fest, wie **folgenden Beispielintegrationsfelder** dargestellt. Contentful akzeptiert dasselbe Token auch in einer `Authorization: Bearer`-Kopfzeile; verwenden Sie dasjenige, das Ihre Integrationsfelder unterstützen.
 
@@ -152,7 +152,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** in Ihrem Download-Auftragspfad, legen Sie Autorisierungskopfzeilen pro Sitecore fest, ordnen Sie `id` aus dem Kontext zu, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu und stimmen Sie Zeitüberschreitungen für die Asset-Latenz ab.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** auf Ihrem Download-Auftragspfad, legen Sie Autorisierungskopfzeilen pro Sitecore fest, ordnen Sie `id` aus dem Kontext zu, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu und stimmen Sie Zeitüberschreitungen für die Asset-Latenz ab.
 
 1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
@@ -162,7 +162,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://xmapps-api.sitecorecloud.io/api/v1/downloadorders/{id}`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -251,7 +251,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://api.salsify.com/v1/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -341,7 +341,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://cdn.contentstack.io/v3/content_types/{content_type_uid}/entries/{entry_uid}`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -433,7 +433,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://{pim-host}/api/rest/v1/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -528,7 +528,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://{author-or-public}/.rest/delivery/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -615,7 +615,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://{cluster}.voucherify.io/`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -718,7 +718,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://{your-domain}.talon.one/v1/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -803,7 +803,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** mit der Authentifizierung des Anbieters (z. B. API-Schlüssel in der Abfrage), vermeiden Sie die Offenlegung von PII für Richtlinien, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** mit der Authentifizierung des Anbieters (z. B. API-Schlüssel in der Abfrage), vermeiden Sie das Offenlegen von PII für Richtlinien, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
@@ -811,7 +811,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Antavo Enterprise-API.
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -899,7 +899,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://{instance}.salesforce.com/services/data/vXX.X/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -917,7 +917,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Verwenden Sie den GET-Vorgang **Treueverwaltung** Mitgliederprofil), der für die API-Versionsnummer Ihrer Organisation dokumentiert ist. Pfade enthalten Programm- und Mitgliedskennungen. Siehe [Salesforce-Entwickler](https://developer.salesforce.com/){target="_blank"}.
+Verwenden Sie den GET **Vorgang des Treueverwaltungs-** (Mitgliederprofil) , der für die API-Version Ihrer Organisation dokumentiert ist. Pfade enthalten Programm- und Mitgliedskennungen. Siehe [Salesforce-Entwickler](https://developer.salesforce.com/){target="_blank"}.
 
 | Feld | Wert |
 | --- | --- |
@@ -995,7 +995,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Kapillaren-APIs.
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1133,7 +1133,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Marigold-REST-API.
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1226,7 +1226,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
 1. Konfigurieren Sie den Endpunkt mithilfe der Target Recommendations-/Bereitstellungs-APIs.
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1363,7 +1363,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** Sofern Ihr Abonnement nichts anderes erfordert, hängen Sie den `apiKey` Abfrageparameter an, ordnen Sie `locationKey` und andere Variablen aus dem Profil/Kontext zu, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu und testen Sie dann.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Verwenden Sie **GET** sofern Ihr Abonnement nichts anderes erfordert. Fügen Sie den `apiKey` Abfrageparameter hinzu, ordnen Sie `locationKey` und andere Variablen aus dem Profil/Kontext zu, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu und testen Sie dann.
 
 1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
@@ -1373,7 +1373,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://dataservice.accuweather.com/forecasts/v1/daily/{days}day/{locationKey}`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1470,7 +1470,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://ssapi.shipstation.com/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1555,7 +1555,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Rufen Sie den unten modellierten REST **GET** auf, authentifizieren Sie sich mit der Kopfzeile des geheimen Schlüssels, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Rufen Sie den unten **REST** GET) auf, authentifizieren Sie sich mit der Kopfzeile des geheimen Schlüssels, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
@@ -1565,7 +1565,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://api.revenuecat.com/v1/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1583,7 +1583,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispielmuster: Verwenden Sie die **Produkt abrufen** (oder eine entsprechende Produkt-/Berechtigungs-GET) von [RevenueCat-](https://docs.revenuecat.com/){target="_blank"} mit der Basis-URL und -Version Ihres Projekts.
+Beispielmuster: Verwenden Sie den „Produkt **&quot; von RevenueCat** oder einen entsprechenden Produkt-/Berechtigungs-GET) von [RevenueCat-](https://docs.revenuecat.com/){target="_blank"} mit der Basis-URL und Version Ihres Projekts.
 
 | Feld | Wert |
 | --- | --- |
@@ -1656,7 +1656,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://{workspace-host}/api/2.0/sql/statements/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1674,7 +1674,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++Beispiele für Integrationsfelder
 
-Das folgende Beispiel für einen **GET**-Auftrag ist anschaulich. Für eine SQL-gesteuerte Personalisierung sollten Sie das Muster [Anweisungsausführungs-API](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} verwenden, das Ihr Arbeitsbereich unterstützt.
+Das **GET**-Beispiel unten ist veranschaulichend. Für eine SQL-gesteuerte Personalisierung sollten Sie das von Ihrem [&#x200B; unterstützte Muster &#x200B;](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"}Anweisungsausführungs-API“ bevorzugen.
 
 | Feld | Wert |
 | --- | --- |
@@ -1730,7 +1730,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** für den ausgewählten Endpunkt (ein gängiges Muster ist eine Benutzerauflistung), schließen Sie OAuth pro [Bynder](https://developer.bynder.com/){target="_blank"} ab, vermeiden Sie das Abrufen unnötiger Datenseiten, ordnen Sie Felder zu, testen Sie und aktivieren Sie dann.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** für den ausgewählten Endpunkt (ein gängiges Muster ist eine Benutzerauflistung), vervollständigen Sie OAuth pro [Bynder](https://developer.bynder.com/){target="_blank"}, vermeiden Sie das Abrufen unnötiger Datenseiten, ordnen Sie Felder zu, testen Sie und aktivieren Sie dann.
 
 1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
@@ -1740,7 +1740,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://{your-bynder-domain}/api/v4/users/`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1885,7 +1885,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). **GET** mit der erforderlichen Abfrageauthentifizierung konfigurieren, Kennungen aus Profil oder Kontext zuordnen, Beispiel-JSON einfügen, Felder zuordnen, testen, aktivieren.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Konfigurieren Sie **GET** mit der erforderlichen Abfrageauthentifizierung, ordnen Sie Kennungen aus dem Profil oder Kontext zu, fügen Sie Beispiel-JSON ein, ordnen Sie Felder zu, testen Sie, aktivieren Sie.
 
 1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
@@ -1895,7 +1895,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://api.trustpilot.com/v1/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -1984,7 +1984,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://api.bazaarvoice.com/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -2073,7 +2073,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://{tenant}.my.onetrust.com/api/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -2153,7 +2153,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Diagrammaufrufe sind häufig **GET** mit einem versionierten Pfad; verarbeiten Token-Ablauf, fügen Beispiel-JSON ein, mappen Felder, testen, aktivieren.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Diagrammaufrufe sind häufig **GET** mit einem versionierten Pfad; Verarbeiten des Token-Ablaufs, Einfügen von Beispiel-JSON, Zuordnen von Feldern, Testen, Aktivieren.
 
 1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
@@ -2163,7 +2163,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://graph.facebook.com/vXX.X/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -2253,7 +2253,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://{tenant}.dam.aprimo.com/`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 
@@ -2339,7 +2339,7 @@ Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurie
 
    `https://{your-instance}.epsilon3.io/api/...`
 
-1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus. Normalerweise GET, sofern nicht anders angegeben.
+1. Wählen Sie die in der Konfigurationstabelle angezeigte HTTP-Methode aus, normalerweise GET, sofern nicht anders angegeben.
 
 1. Konfigurieren Sie die Authentifizierung (Kopfzeilen, Abfrageparameter oder OAuth) genau wie in der Tabelle und in der Anbieterdokumentation angegeben.
 

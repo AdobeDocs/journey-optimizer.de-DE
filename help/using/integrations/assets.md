@@ -136,7 +136,7 @@ Um Dateien in **[!DNL Assets Essentials]** oder **[!DNL Assets as a Cloud Serv
     Note that this option is available for licensed/unlicensed Stock images and images from your Assets folder. 
 
     ![](assets/media_library_14.png)
--->
+   -->
 
 
 ## Häufig gestellte Fragen {#faq-assets}

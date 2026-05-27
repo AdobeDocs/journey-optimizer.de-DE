@@ -104,7 +104,7 @@ Die wichtigsten Schritte für die Arbeit mit der Entscheidungsfindung sind:
    ➡️ [Erfahren Sie, wie Sie mit Entscheidungsrichtlinien arbeiten](create-decision.md)
 ➡️ Um das Angebot erfolgreich über den Code-basierten Erlebniskanal bereitzustellen, folgen Sie den Implementierungsschritten in [diesem Abschnitt](../code-based/code-based-implementation-samples.md).
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * **[Erstellen von Entscheidungselementen](items.md)**: Erfahren Sie, wie Sie Entscheidungselemente einschließlich Angebote, Inhaltsvarianten und Erlebnisse erstellen und verwalten.
 * **[Konfigurieren von Entscheidungskatalogen](catalogs.md)**: Erfahren Sie, wie Sie Entscheidungselemente zur Verbesserung der Verwaltung in Katalogen organisieren.
