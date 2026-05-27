@@ -11,8 +11,8 @@ keywords: E-Mail, Vorlage, Bild, HTML, KI, Design, Converter
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 19%
+source-wordcount: '2097'
+ht-degree: 22%
 
 ---
 
@@ -68,7 +68,7 @@ Um auf diese Funktion zugreifen zu können, muss Ihr Unternehmen das [!DNL Gener
 
 * Um auf Vorlagen zuzugreifen und sie zu erstellen, muss Ihre Rolle die Berechtigung **[!UICONTROL Inhaltsvorlagen verwalten]** (unter der Ressource **Content-Management** enthalten. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
 
-* Um den Konvertierer für das Bild in HTML verwenden zu können, muss Ihnen die Berechtigung **Inhalt generieren** gewährt werden. Erfahren Sie in [&#x200B; Abschnitt, wie Sie Berechtigungen zum Erstellen von Inhalten &#x200B;](../content-management/gs-generative.md#generative-access).
+* Um den Konvertierer für das Bild in HTML verwenden zu können, muss Ihnen die Berechtigung **Inhalt generieren** gewährt werden. Erfahren Sie in [ Abschnitt, wie Sie Berechtigungen zum Erstellen von Inhalten ](../content-management/gs-generative.md#generative-access).
 
 **Vereinbarung**
 
@@ -82,7 +82,7 @@ Beachten Sie die folgenden Einschränkungen und Empfehlungen beim Konvertieren v
 
 * **KI-Interpretation**: Die KI generiert statische HTML-Inhalte basierend auf der visuellen Interpretation Ihres Bildes. Sie bietet einen guten Ausgangspunkt für die E-Mail-Erstellung, sollte jedoch mithilfe der E-Mail-Designer überprüft und verfeinert werden, um sicherzustellen, dass sie genau Ihren Anforderungen entspricht. Sie müssen bei Bedarf Personalisierung, dynamische Inhalte und Tracking nach der Konversion manuell hinzufügen.
 
-* **Textgenauigkeit**: Während die KI versucht, Text genau zu erkennen und zu reproduzieren, sollten Textinhalte immer überprüft und nach Bedarf korrigiert werden. Lesen Sie die [Benutzerrichtlinien für die generative KI von Adobe](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+* **Textgenauigkeit**: Die KI versucht zwar, Text genau zu erkennen und zu reproduzieren, aber Sie sollten Textinhalte immer überprüfen und nach Bedarf korrigieren. Lesen Sie die [Benutzerrichtlinien für die generative KI von Adobe](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
 **Bildauswahl**
 
@@ -181,7 +181,7 @@ Ihre Vorlage ist jetzt in der Inhaltsvorlagenbibliothek verfügbar und kann beim
 
 Um beim Konvertieren von Bildern in E-Mail-Inhaltsvorlagen optimale Ergebnisse zu erzielen, befolgen Sie diese Empfehlungen.
 
-+++Bevor Sie beginnen
++++Vorbereitung
 
 * **Vorhandenen Inhalt speichern**: Das Konvertieren eines Bildes ersetzt alle vorhandenen Inhalte in Ihrer E-Mail-Vorlage. Speichern Sie Ihre aktuelle Arbeit immer, bevor Sie diese Funktion verwenden.
 * **Workflow planen**: Verwenden Sie diese Funktion zu Beginn Ihres E-Mail-Erstellungsprozesses oder stellen Sie sicher, dass Sie bereit sind, den gesamten aktuellen Inhalt zu ersetzen.
@@ -212,7 +212,7 @@ Um beim Konvertieren von Bildern in E-Mail-Inhaltsvorlagen optimale Ergebnisse z
 
 * **Aktualisieren, um Ergebnisse anzuzeigen**: Aktualisieren Sie die Seite nach etwa 5 Minuten (oder bis zu 10 Minuten bei sehr großen Bildern), sodass die vollständige Konvertierung angezeigt wird.
 * **Prüfen Sie den Entwurf**: Nach Abschluss der Konvertierung wird Ihre Vorlage automatisch als Entwurf gespeichert. Nehmen Sie sich Zeit, um den generierten Inhalt sorgfältig auf Korrektheit zu überprüfen.
-* **Gründlich testen**: Testen Sie die E-Mail über verschiedene E-Mail-Clients und Geräte hinweg. [Erfahren Sie, wie Sie Inhalte in der Vorschau anzeigen und testen können](preview-test.md).
+* **Gründlich testen**: Testen Sie die E-Mail über verschiedene E-Mail-Clients und Geräte hinweg. [Informationen zum Anzeigen von Inhalten in der Vorschau und Testen von Inhalten](preview-test.md).
 * **Manuell verfeinern**: Nehmen Sie die erforderlichen Anpassungen mit den [E-Mail-Designer](../email/get-started-email-design.md)Bearbeitungsfunktionen vor.
 * **Markenausrichtung**: Überprüfen Sie, ob Farben, Schriftarten und Stile Ihren Markenrichtlinien entsprechen, und verwenden Sie Designs, falls verfügbar. [Weitere Informationen zu E-Mail-Designs](../email/apply-email-themes.md).
 * **Personalization**: Fügen Sie nach Bedarf dynamische Inhalte und Personalisierungs-Token hinzu. [Weitere Informationen über Personalisierung](../personalization/personalize.md).
@@ -293,4 +293,4 @@ Ja. Der Bild-zu-HTML-Converter eignet sich ideal für die Migration von anderen 
 * [Erstellen von Inhaltsvorlagen](create-content-templates.md)
 * [Verwenden von E-Mail-Vorlagen](../email/use-email-templates.md)
 * [Nutzen von E-Mail-Designs](../email/apply-email-themes.md)
-* [Erste Schritte mit dem E-Mail-Design](../email/get-started-email-design.md)
+* [Erste Schritte mit E-Mail-Design](../email/get-started-email-design.md)
