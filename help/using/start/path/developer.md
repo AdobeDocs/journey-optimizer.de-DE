@@ -261,7 +261,7 @@ Implementieren von Data-Governance- und Einverständnisrichtlinien in Ihre Integ
 * **Journey-Optimierung**: Befolgen Sie die Best Practices für die [Journey-Optimierung](../../building-journeys/optimize.md).
 * **Fehlerbehandlung**: Implementieren Sie eine robuste Fehlerbehandlung. Sehen Sie sich [Fehler-Codes](../../building-journeys/error-codes-reference.md) und [Handbücher zur Fehlerbehebung](../../building-journeys/troubleshooting.md) an.
 
-## Weitere Ressourcen {#additional-resources}
+## Zusätzliche Ressourcen {#additional-resources}
 
 * **Developer Console**: Greifen Sie auf die [Adobe Developer Console](https://developer.adobe.com){target="_blank"} zu, um Integrationen zu erstellen und API-Anmeldedaten zu verwalten.
 * **Beispiel-Code**: Sehen Sie sich [Beispielimplementierungen auf GitHub](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} an.
