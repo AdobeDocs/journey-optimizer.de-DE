@@ -204,7 +204,7 @@ Nach der Durchführung eines Experiments gibt es mehrere mögliche Folgemaßnahm
   >
   >Je mehr Analysen durchgeführt werden, desto höher ist die Wahrscheinlichkeit, einen falschen oder falsch positiven Effekt zu erkennen.
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * **[Erstellen von Inhaltsexperimenten](content-experiment.md)**: Erfahren Sie, wie Sie A/B-Tests entwerfen und konfigurieren, um die Leistung Ihrer Nachricht zu optimieren.
 * **[Experimentberechnungen](experiment-calculations.md)**: Verstehen Sie die statistischen Methoden und Metriken, die in der Experimentanalyse verwendet werden.
