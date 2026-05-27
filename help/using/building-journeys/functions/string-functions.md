@@ -9,15 +9,10 @@ keywords: Zeichenfolge, Funktionen, Ausdruck, Journey, Text, Manipulation
 version: Journey Orchestration
 exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
 TQID: https://experienceleague.adobe.com/wrP3c7l3uHzN6w3l-fXBQOSb5Tx2NuW-6iyogKpDPc8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1140
@@ -97,7 +92,7 @@ Gibt „Hello World“ zurück.
 
 +++Parameter
 
-* Zeichenfolge
+* string
 
 +++
 
@@ -238,7 +233,7 @@ Vergleicht die erste Argumentzeichenfolge mit der zweiten Argumentzeichenfolge u
 
 +++Parameter
 
-* Zeichenfolge
+* string
 
 +++
 
@@ -272,7 +267,7 @@ Gibt die Position (im ersten Argument) des ersten Auftretens des zweiten Paramet
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | String |
+| string | Zeichenfolge |
 | angegebener Wert | String |
 
 +++
@@ -309,7 +304,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im Parameter keine Zeichen enthä
 
 +++Parameter
 
-* Zeichenfolge
+* string
 
 +++
 
@@ -349,7 +344,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im Parameter nicht leer ist.
 
 +++Parameter
 
-* Zeichenfolge
+* string
 
 +++
 
@@ -387,7 +382,7 @@ Gibt die Position (im ersten Argument) des letzten Auftretens des zweiten Parame
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | String |
+| string | Zeichenfolge |
 | angegebener Wert | String |
 
 +++
@@ -694,7 +689,7 @@ Gibt „true“ zurück, wenn der zweite Parameter ein Präfix des ersten Parame
 
 | Parameter | Typ |
 |-------------|--------|
-| string | string |
+| string | Zeichenfolge |
 | prefix | Zeichenfolge |
 
 +++
@@ -768,7 +763,7 @@ Gibt die Unterzeichenfolge des Zeichenfolgenausdrucks zwischen dem Anfangsindex 
 
 | Parameter | type |
 |-------------|----------|
-| string | Zeichenfolge |
+| string | string |
 | beginIndex | integer |
 | endIndex | integer |
 

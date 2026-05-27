@@ -8,7 +8,7 @@ exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '288'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Der Abschnitt „Konvertierung“ in Adobe Journey Optimizer ermöglicht es Ihne
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toBool“
 
@@ -31,7 +31,7 @@ Konvertieren Sie mithilfe der Funktion „toBool“ verschiedene Datentypen in b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDateOnly“
 
@@ -41,7 +41,7 @@ Konvertieren Sie mit der Funktion „toDateOnly“ Datumsdarstellungen in den Ty
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDateTime“
 
@@ -51,7 +51,7 @@ Konvertieren Sie mithilfe der Funktion „toDateTime“ verschiedene Eingaben in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDateTimeOnly“
 
@@ -61,7 +61,7 @@ Konvertieren Sie mithilfe der Funktion „toDateTimeOnly“ einen Wert ohne Zeit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDecimal“
 
@@ -71,13 +71,13 @@ Konvertieren Sie mithilfe der Funktion „toDecimal“ verschiedene Datentypen i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „toDuration“
 
 Konvertieren Sie mit der Funktion „toDuration“ Argumente mithilfe von Zeichenfolgen oder Millisekunden in Dauerwerte.
 
-[Informationen zur Verwendung der Funktion „toDuration“ ](../using/building-journeys/functions/conversion-functions.md#toDuration)
+[Informationen zur Verwendung der Funktion „toDuration“](../using/building-journeys/functions/conversion-functions.md#toDuration)
 :::
 
 ::::

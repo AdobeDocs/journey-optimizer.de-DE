@@ -8,7 +8,7 @@ exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Mit den Listenfunktionen in Adobe Journey Optimizer können Sie Daten in Ihren W
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „distinct“ in Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Erfahren Sie, wie Sie mit der Funktion „distinct“ Listen deduplizieren könn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „distinctWithNull“ – Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ Erfahren Sie, wie Sie „distinctWithNull” verwenden, um eindeutige Werte oder
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „filter“ in Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Erfahren Sie, wie Sie mithilfe der Funktion „filter“ Filter auf Objektlisten
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „getListItem“ in Adobe Journey Optimizer
 
@@ -61,7 +61,7 @@ Erfahren Sie, wie Sie mit der Funktion „getListItem“ ein Element mit einem b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „in“ in Adobe Journey Optimizer
 
@@ -71,7 +71,7 @@ Erfahren Sie, wie Sie mit der Funktion „in“ überprüfen können, ob ein Wer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „intersect“ in Adobe Journey Optimizer
 

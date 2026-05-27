@@ -8,7 +8,7 @@ exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Mit den Datumsfunktionen in Adobe Journey Optimizer können Sie nahtlos mit zeit
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Referenz zur Funktion „currentTimeInMillis“
 
@@ -31,7 +31,7 @@ Erfahren Sie, wie Sie mit der Funktion „currentTimeInMillis“ die aktuelle Ze
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „inLastDays“
 
@@ -41,7 +41,7 @@ Machen Sie sich mit der Funktion „inLastDays“ vertraut, die prüft, ob ein b
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „inLastHours“
 
@@ -51,7 +51,7 @@ Erkunden Sie die Funktion „inLastHours“, um festzustellen, ob eine Datums-/U
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „inLastMonths“
 
@@ -61,7 +61,7 @@ Mit „inLastMonths“ in Adobe Journey Optimizer können Sie überprüfen, ob e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden der Funktion „inLastYears“
 
@@ -71,7 +71,7 @@ Erfahren Sie, wie Sie mit der Funktion „inLastYears“ auswerten können, ob e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funktion „inNextDays“
 
