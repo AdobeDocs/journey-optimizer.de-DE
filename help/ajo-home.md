@@ -57,7 +57,7 @@ Journey Optimizer enthält jetzt die neue Funktion **Kampagnenorchestrierung**, 
 
 ::::landing-cards-container
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Neueste Versionshinweise
 
@@ -67,7 +67,7 @@ Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserun
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte
 
@@ -77,7 +77,7 @@ Lernen Sie die Grundlagen von Journey Optimizer kennen, einschließlich seiner F
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Umfassende Anleitung für Journeys
 
@@ -87,7 +87,7 @@ Entwerfen, orchestrieren, verwalten und optimieren Sie personalisierte Kunden-Jo
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=de)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Grundlagen und Verwalten von Kampagnen
 
@@ -97,7 +97,7 @@ Detaillierte Anleitungen zum Erstellen, Verwalten und Optimieren verschiedener K
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Kommunikationskanäle
 
@@ -107,7 +107,7 @@ Konfigurieren und verwalten Sie E-Mail, SMS, Push-Benachrichtigungen und andere 
 :::
 
 :::
-![Symbol](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=de)
+![Symbol](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Konflikt-Management und Priorisierung
 
@@ -132,7 +132,7 @@ Erfahren Sie, wie Sie Kommunikationskonflikte zwischen Kampagnen und Journeys ef
 - **[Verwalten der Zugriffssteuerung](./rp_landing_pages/access-control-landing-page.md)**: Steuern Sie Benutzerzugriff, Rollen und Berechtigungen zum Schutz von Daten und zur Sicherstellung von Governance.
 - **[Datenschutz, Einverständnis und Data Governance](./rp_landing_pages/privacy-landing-page.md)**: Verwalten Sie Datenschutz, Einverständnis und Governance, sodass Vorschriften eingehalten und vertrauliche Informationen geschützt werden.
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>

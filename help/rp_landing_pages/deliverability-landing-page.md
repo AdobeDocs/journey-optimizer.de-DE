@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-34-41
 exl-id: 1657152e-4a93-4664-a56f-3ea7f9e69098
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '191'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ Bei der Zustellbarkeit von E-Mails geht es darum sicherzustellen, dass Ihre E-Ma
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Einführung in die Zustellbarkeit von E-Mails
 
@@ -30,7 +30,7 @@ Lernen Sie die Konzepte, Best Practices und Tools zur Optimierung der E-Mail-Zus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Grundlegendes zu Unterdrückungslisten
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Unterdrückungslisten die Reputation des Absenders schützen u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Einhalten der neuen DMARC-Anforderungen
 

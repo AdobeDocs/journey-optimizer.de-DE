@@ -8,7 +8,7 @@ badge: label="Legacy" type="Informative"
 exl-id: fa55faae-1258-49c7-884f-83d1c33db969
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '230'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Durch das Erfassen von Ereignisdaten in Adobe Journey Optimizer können Sie wich
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Erste Schritte mit der Datenerfassung im Entscheidungs-Management
 
@@ -35,7 +35,7 @@ Lernen Sie die Grundlagen der Datenerfassung für das Entscheidungs-Management k
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erstellen eines Datensatzes zur Erfassung von Erlebnisereignissen
 
@@ -45,7 +45,7 @@ Folgen Sie den schrittweisen Anweisungen, um einen Datensatz und ein Schema für
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurieren der Ereignisdatenerfassung für das Entscheidungs-Management
 

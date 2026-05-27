@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 87%
+source-wordcount: '319'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ Beim Gestalten Ihrer Inhalte in Adobe Journey Optimizer geht es darum, personali
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Verwenden von Inhaltskomponenten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie Komponenten wie Text, Schaltflächen, Bilder und mehr hinz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 Nutzen von visuellen Fragmenten
 
@@ -40,7 +40,7 @@ Entdecken Sie, wie Sie wiederverwendbare Fragmente erstellen, um Ihr E-Mail-Desi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Hinzufügen von Links und Nachverfolgen von Nachrichten
 
@@ -50,7 +50,7 @@ Aktivieren Sie Tracking, fügen Sie Links ein und verwalten Sie das Erscheinungs
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Einfügen von personalisierten Angeboten
 
@@ -60,7 +60,7 @@ Verwenden Sie das Entscheidungs-Management zur dynamischen Anzeige personalisier
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 Generieren der Textversion
 
@@ -70,7 +70,7 @@ Erstellen und passen Sie die Nur-Text-Version Ihrer E-Mail für Empfängerinnen 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Optimieren von E-Mail-Text für KI-Posteingänge
 
@@ -80,7 +80,7 @@ Strukturieren Sie die Textebene Ihrer E-Mail, damit KI-unterstützte Posteingang
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Hinzufügen von Metadaten
 

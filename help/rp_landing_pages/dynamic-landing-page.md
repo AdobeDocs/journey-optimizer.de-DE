@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-12_00-40-11
 exl-id: 87d500e0-4a2c-4e22-a90c-611229b55d7c
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '204'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ Mit dynamischen Inhalten in Adobe Journey Optimizer können Sie personalisierte 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit dynamischen Inhalten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie bedingte Regeln und den Personalisierungseditor verwenden 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Verwalten von bedingten Regeln
 
@@ -40,7 +40,7 @@ Beherrschen Sie die Erstellung, Speicherung und Verwaltung von bedingten Regeln,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Erstellen dynamischer Inhalte in Adobe Journey Optimizer
 

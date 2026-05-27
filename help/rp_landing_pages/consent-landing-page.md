@@ -22,7 +22,7 @@ Sie können das Einverständnis auf drei Arten handhaben: **Opt-out-Voreinstellu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Verwalten des Opt-outs und des Einverständnisses mit Personalisierung
 
@@ -32,7 +32,7 @@ Erfahren Sie, wie Sie Opt-out-Voreinstellungen verwalten und das Personalisierun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Arbeiten mit Einverständnisrichtlinien
 
@@ -42,7 +42,7 @@ Erfahren Sie, wie Sie Einverständnisrichtlinien erstellen und anwenden, um die 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Kundeneinstellungen verwalten
 
@@ -53,7 +53,7 @@ Erfahren Sie, wie Sie Abonnementthemen und Kanalvoreinstellungen mithilfe von Ei
 
 ::::
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 - **[Erste Schritte mit dem Datenschutz](../using/privacy/get-started-privacy.md)** - Überblick über die Datenschutzverwaltung in Journey Optimizer, einschließlich Datenanfragen und Auditprotokollen.
 - **[Data Governance](../using/action/action-privacy.md)** - Schützen Sie sensible Felder vor dem Export in Drittanbietersysteme durch benutzerdefinierte Aktionen.
