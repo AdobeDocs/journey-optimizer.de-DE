@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_21-07-51
 exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
 source-git-commit: bb50d06e86f9399dfd295b8091aa637abcaea4a8
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 41%
+source-wordcount: '390'
+ht-degree: 46%
 
 ---
 
@@ -103,7 +103,7 @@ Gruppieren Sie IP-Adressen, um die Zustellbarkeit Ihrer E-Mails zu verbessern un
 
 ::::
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 - **[Konfigurieren von Landingpage-](../using/landing-pages/lp-subdomains.md)**: Einrichten von Subdomains für Landingpages und Abonnementformulare.
 - **[Konfigurieren von Web-](../using/web/web-delegated-subdomains.md)**: Delegieren von Subdomains für Web-Erlebnisse und Tracking.

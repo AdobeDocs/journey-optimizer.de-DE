@@ -53,7 +53,7 @@ Erfahren Sie, wie Sie Abonnementthemen und Kanalvoreinstellungen mithilfe von Ei
 
 ::::
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 - **[Erste Schritte mit dem Datenschutz](../using/privacy/get-started-privacy.md)** - Überblick über die Datenschutzverwaltung in Journey Optimizer, einschließlich Datenanfragen und Auditprotokollen.
 - **[Data Governance](../using/action/action-privacy.md)** - Schützen Sie sensible Felder vor dem Export in Drittanbietersysteme durch benutzerdefinierte Aktionen.

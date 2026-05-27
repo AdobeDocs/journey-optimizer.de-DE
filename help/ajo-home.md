@@ -132,7 +132,7 @@ Erfahren Sie, wie Sie Kommunikationskonflikte zwischen Kampagnen und Journeys ef
 - **[Verwalten der Zugriffssteuerung](./rp_landing_pages/access-control-landing-page.md)**: Steuern Sie Benutzerzugriff, Rollen und Berechtigungen zum Schutz von Daten und zur Sicherstellung von Governance.
 - **[Datenschutz, Einverständnis und Data Governance](./rp_landing_pages/privacy-landing-page.md)**: Verwalten Sie Datenschutz, Einverständnis und Governance, sodass Vorschriften eingehalten und vertrauliche Informationen geschützt werden.
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>

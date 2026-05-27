@@ -6,8 +6,8 @@ description: Entscheidungsfindung
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
-workflow-type: ht
-source-wordcount: '354'
+workflow-type: tm+mt
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ Erstellen von Entscheidungsregeln
 
 Definieren Sie Entscheidungsregeln, um Zielgruppen mithilfe von Einschränkungen und Segmentierungs-Tools präzise anzusprechen.
 
-[Entscheidungsregeln erstellen](../using/experience-decisioning/rules.md)
+[Erstellen von Entscheidungsregeln](../using/experience-decisioning/rules.md)
 :::
 
 :::

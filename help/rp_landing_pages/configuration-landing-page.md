@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 Die Kanalkonfiguration in Adobe Journey Optimizer ermöglicht es Ihnen, zu verwalten, wie Nachrichten über verschiedene Kanäle wie E-Mail, SMS, Push-Benachrichtigungen und Web bereitgestellt werden, um eine maßgeschneiderte und effektive Kommunikation zu gewährleisten.
 
-Unabhängig davon, ob Sie technische Parameter einrichten, Subdomains konfigurieren oder die Zustellbarkeit von E-Mails mit IP-Aufwärmplänen optimieren, dient jeder Schritt der Verbesserung der Nachrichtenleistung und der Einhaltung von Vorschriften.
+Ganz gleich, ob Sie technische Parameter einrichten, Subdomains konfigurieren oder die Zustellbarkeit von E-Mails mit IP-Aufwärmplänen optimieren – jeder Schritt dient dazu, die Leistung und Compliance Ihrer Nachrichten zu verbessern.
 
 Außerdem stehen Ihnen Tools zur Überwachung der E-Mail-Reputation, zur Verwaltung von Unterdrückungslisten und sogar zur Archivierung von Nachrichten zu Auditing-Zwecken zur Verfügung.
 
