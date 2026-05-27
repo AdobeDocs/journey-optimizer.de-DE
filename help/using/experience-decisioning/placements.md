@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 20246512-ab7e-451a-83de-49cc339c481a
 version: Journey Orchestration
 source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Die Liste der Platzierungen ist über das Menü **[!UICONTROL Strategie-Setup]**
 >
 >Derzeit sind Platzierungen nur für den E-Mail-Kanal verfügbar.
 
-## Erstellen einer Platzierung {#create}
+## Erstellen von Platzierungen {#create}
 
 Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
    * **[!UICONTROL Name]**: der Name der Platzierung. Achten Sie darauf, einen aussagekräftigen Namen zu wählen, um die Platzierung leichter abrufen zu können.
    * **[!UICONTROL Beschreibung]**: Eine Beschreibung der Platzierung (optional).
-   * **[!UICONTROL Tags]**: Weisen Sie der Platzierung einheitliche Adobe Experience Platform-Tags zu. Dies erleichtert die Klassifizierung und die Suche. [Erfahren Sie, wie Sie mit Tags arbeiten](../start/search-filter-categorize.md#tags)
+   * **[!UICONTROL Tags]**: Weisen Sie der Platzierung einheitliche Adobe Experience Platform-Tags zu. Dies erleichtert die Klassifizierung und die Suche. [Weitere Informationen zum Arbeiten mit Tags](../start/search-filter-categorize.md#tags)
    * **[!UICONTROL Kanal]**: Der Kanal, für den die Platzierung verwendet wird. Derzeit sind Platzierungen nur für E-Mails verfügbar.
    * **[!UICONTROL Kanalkonfiguration]**: Verknüpfen Sie die Platzierung mit einer Kanalkonfiguration. [Erfahren Sie, wie Sie die Kanalkonfiguration einrichten](../configuration/channel-surfaces.md).
 
