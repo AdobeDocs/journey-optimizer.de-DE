@@ -12,8 +12,8 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 18%
+source-wordcount: '1258'
+ht-degree: 20%
 
 ---
 
@@ -95,9 +95,9 @@ Unabhängig davon, ob Sie den Migrationsprozess bereits gestartet haben oder nic
 
    >[!NOTE]
    >
-   >Die Schlüssellänge kann nur 2.048 oder 4.096 Bit betragen. Sie kann nach dem Senden der Subdomain nicht mehr geändert werden.
+   >Die Schlüssellänge kann nur 2048 oder 4096 Bit betragen. Sie kann nach dem Senden der Subdomain nicht mehr geändert werden.
 
-1. Klicken Sie auf **[!UICONTROL CSR herunterladen]** und speichern Sie das Formular lokal auf Ihrem Computer. 
+1. Klicken Sie auf **[!UICONTROL CSR herunterladen]** und speichern Sie das Formular lokal auf Ihrem Computer.
 
 1. Senden Sie es an die Zertifizierungsstelle (CA), um Ihr SSL-Zertifikat zu erhalten. Bevor Sie diese CSR zur Signierung an Ihre Zertifizierungsstelle senden, sollten Sie einige wichtige Punkte beachten:
 
@@ -105,7 +105,7 @@ Unabhängig davon, ob Sie den Migrationsprozess bereits gestartet haben oder nic
 
    * Das Zertifikat sollte jedoch sowohl data.subdomain.com als auch cdn.subdomain.com als Subject Alternative Names (SAN)-Einträge in einem einzigen Zertifikat abdecken. Wenn Sie beispielsweise example.adobe.com delegieren, entspricht data.subdomain.com dem Eintrag data.example.adobe.com und cdn.subdomain.com entspricht cdn.example.adobe.com.
 
-   * Die Subdomains von Daten (data.example.adobe.com) und CDN (cdn.example.adobe.com) müssen als Peer-Einträge im selben Zertifikat hinzugefügt werden. Diesem Zertifikat sollten keine zusätzlichen Subdomains hinzugefügt werden.
+   * Die Subdomains „Data“ (data.example.adobe.com) und „CDN“ (cdn.example.adobe.com) müssen als Peer-Einträge im selben Zertifikat hinzugefügt werden. Diesem Zertifikat sollten keine zusätzlichen Subdomains hinzugefügt werden.
 
    * Die meisten Zertifizierungsstellen ermöglichen es Ihnen, während des Signiervorgangs zusätzliche SANs hinzuzufügen (z. B. die Subdomain „CDN“).
 
@@ -195,10 +195,10 @@ Sobald die Subdomain wieder aktiv ist, müssen keine Änderungen an vorhandenen 
 
 Wenn beim Senden Ihrer benutzerdefinierten Subdomain Fehler auftreten, führen Sie die unten aufgeführten Fehlerbehebungsaktionen durch.
 
-* _Ressource konnte nicht validiert werden. Der DNS existiert noch und muss gelöscht werden._ - Stellen Sie sicher, dass Sie alle Einträge aus Ihrer Hosting-Lösung löschen. [Weitere Informationen](#delete-dns)
-* _Ressource konnte nicht validiert werden. Bitte laden Sie Ihr SSL-Zertifikat hoch und versuchen Sie es erneut._ - Das SSL-Zertifikat wurde nicht hochgeladen. Stellen Sie sicher, dass Sie sie hochladen. [Weitere Informationen](#upload-ssl-certificate)
-* _Das Zertifikat enthält in seinen Subjekt-Alternativnamen (SAN) unerwartete Domains._ - Stellen Sie sicher, dass Sie das richtige SSL-Zertifikat hochladen. [Weitere Informationen](#upload-ssl-certificate)
-* _Dem Zertifikat fehlen die folgenden erforderlichen Domains in seinen Subjekt-Alternativnamen (SAN)._ - Stellen Sie sicher, dass Sie das richtige SSL-Zertifikat hochladen. [Weitere Informationen](#upload-ssl-certificate)
+* _Ressource konnte nicht validiert werden. Das DNS existiert noch und muss gelöscht werden._ — Stellen Sie sicher, dass Sie alle Einträge aus Ihrer Hosting-Lösung löschen. [Weitere Informationen](#delete-dns)
+* _Ressource konnte nicht validiert werden. Bitte laden Sie Ihr SSL-Zertifikat hoch und versuchen Sie es erneut._ — Das SSL-Zertifikat wurde nicht hochgeladen. Stellen Sie sicher, dass Sie sie hochladen. [Weitere Informationen](#upload-ssl-certificate)
+* _Das Zertifikat enthält in seinen Subjekt-Alternativnamen (SAN) unerwartete Domains._ — Stellen Sie sicher, dass Sie das richtige SSL-Zertifikat hochladen. [Weitere Informationen](#upload-ssl-certificate)
+* _Dem Zertifikat fehlen die folgenden erforderlichen Domains in seinen Subjekt-Alternativnamen (SAN)._ — Stellen Sie sicher, dass Sie das richtige SSL-Zertifikat hochladen. [Weitere Informationen](#upload-ssl-certificate)
 
 **Siehe auch**
 

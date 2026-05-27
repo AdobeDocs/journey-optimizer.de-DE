@@ -1,5 +1,5 @@
 ---
-title: Testen des E-Mail-Rendering
+title: Testen des E-Mail-Renderings
 description: Erfahren Sie, wie Sie das E-Mail-Rendering testen.
 feature: Preview
 role: User
@@ -7,12 +7,12 @@ level: Beginner
 exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '159'
 ht-degree: 100%
 
 ---
 
-# Testen des E-Mail-Rendering {#email-rendering}
+# Testen des E-Mail-Renderings {#email-rendering}
 
 Nutzen Sie Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um das **E-Mail-Rendering** in populären E-Mail-Clients zu überprüfen. Auf diese Weise stellen Sie sicher, dass Ihr E-Mail-Inhalt in jedem Posteingang ansprechend aussieht und korrekt funktioniert.
 

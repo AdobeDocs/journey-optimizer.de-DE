@@ -419,7 +419,7 @@ table>
 <p>Sie können jetzt personalisierte Optimierungsmodellsysteme im Entscheidungs-Management verwenden. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Zielgruppen und der Angebots-Performance.</p>
 <p>Die Verwendung personalisierter KI-Modelle zur Optimierung ist derzeit auf ausgewählte Benutzende beschränkt und wird in einer zukünftigen Version in allen Umgebungen bereitgestellt.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../offers/ranking/personalized-optimization-model.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../offers/ranking/personalized-optimization-model.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>

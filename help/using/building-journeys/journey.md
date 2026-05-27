@@ -449,7 +449,7 @@ Verwenden Sie diese Links, um Anleitungen, Fehlerbehebungen und Ressourcen zu fi
 
 Richten Sie **[Journey-Warnhinweise](../reports/alerts.md)** ein, um Echtzeitbenachrichtigungen zu erhalten, wenn in Journeys Fehler oder ungewöhnliche Muster auftreten.
 
-### Weitere Ressourcen
+### Zusätzliche Ressourcen
 
 * **[Journey-Management-Hub](../../rp_landing_pages/manage-journey-landing-page.md)** – Tools für Filterung, Optimierung und Profilverwaltung
 * **[Referenz für Journey-Aktivitäten](../../rp_landing_pages/about-journey-building-landing-page.md)** – Vollständige Anleitung zu allen Aktivitätstypen

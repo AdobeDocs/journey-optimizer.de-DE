@@ -200,7 +200,7 @@ Nicht sicher, wo man anfangen soll? Im Folgenden finden Sie drei typische Szenar
   </tr>
 </table>
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * **[Journey-Typen und Profileintrag](entry-management.md)** - Verstehen Sie alle Journey-Typen (unitäres Ereignis, Geschäftsereignis, Zielgruppe lesen, Zielgruppen-Qualifizierung) und wie Profile in Journey eintreten, erneut eintreten und durch sie fließen.
 * **[Journey-Designer – Überblick](using-the-journey-designer.md)**: Lernen Sie die Journey-Arbeitsfläche zum Entwerfen und Orchestrieren von Customer Journeys kennen.

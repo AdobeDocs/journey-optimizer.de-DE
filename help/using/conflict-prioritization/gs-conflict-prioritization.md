@@ -80,7 +80,7 @@ Mit Regelsätzen können Sie **mehrere Regeln gruppieren** und diese auf die Jou
 
 * **Gleichzeitige Aktivierungen in Journeys des Typs „Zielgruppenqualifizierung“**: Wenn mehrere Journeys des Typs „Zielgruppenqualifizierung“ durch dasselbe Zielgruppenqualifizierungsereignis aktiviert werden, ist die Anzahl für die Eintrittsbegrenzung nicht korrekt. Wenn die Anzahl unter der Begrenzung liegt, schlichtet die Journey weiterhin, aber sie ist nicht in der Lage, die aktuellste Anzahl mit den gleichzeitigen Aktivierungen zu ermitteln.
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * **[Identifizieren potenzieller Konflikte](conflicts.md)**: Erfahren Sie, wie Sie Konflikte zwischen überschneidenden Kampagnen und Journeys ermitteln und lösen.
 * **[Zuweisen von Prioritätswerten](priority-scores.md)**: Erfahren Sie, wie Sie Prioritätswerte zuweisen und verwenden, um die Vorrangigkeit des Nachrichtenversands zu steuern.

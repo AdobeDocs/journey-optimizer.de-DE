@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: KI-Assistent für Personalization Expressions
+title: KI-Assistent für Personalisierungsausdrücke
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten in Journey Optimizer Personalisierungsausdrücke aus natürlicher Sprache im Personalization-Editor generieren und wie das Steuerelement „Ausdruck hinzufügen“ in E-Mail-Designer funktioniert.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
@@ -10,8 +10,8 @@ level: Intermediate
 mini-toc-levels: 1
 source-git-commit: a71456af0d414ba435e307f29dd6dd70ba2737a8
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 4%
+source-wordcount: '1082'
+ht-degree: 6%
 
 ---
 
@@ -101,7 +101,7 @@ Sie können einen vorhandenen Personalisierungsausdruck auswählen und den KI-As
 
    ![](assets/ai-perso-edit.png)
 
-1. Wenn Sie **[!UICONTROL Beheben]** verwenden, klicken Sie in der **[!UICONTROL auf]** Fehlerbehebungsdetails anzeigen, um eine Erklärung der Fehlerbehebung und eine zeilenweise Anleitung vor und nach der Vorschau anzuzeigen.
+1. Wenn Sie **[!UICONTROL Beheben]** verwenden, klicken Sie in der **auf** Fehlerbehebungsdetails anzeigen, um eine Erklärung der Fehlerbehebung und eine zeilenweise Anleitung vor und nach der Vorschau anzuzeigen.
 
    ![](assets/ai-perso-fix.png)
 

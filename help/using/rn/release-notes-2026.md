@@ -58,7 +58,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <td>
 <p>Mit Journey Optimizer können Sie jetzt E-Mails senden, bei denen sich die sendende Entität (Absender) von der erstellenden Entität (Von) unterscheidet. Unterstützende E-Mail-Clients rendern dies normalerweise als „Absenderin bzw. Absender im Namen von Von“ oder zeigen einen „Über“-Hinweis an. Füllen Sie die optionalen Felder <strong>Absender-Header</strong> in den Einstellungen des E-Mail-Kanals aus, um diese Funktion zu konfigurieren.</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../email/header-parameters.md#sender-header">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../email/header-parameters.md#sender-header">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -77,7 +77,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <p>Auf diese Weise können Sie automatisch die richtige Stakeholderin bzw. den richtigen Stakeholder für jede Nachricht kopieren (z. B. eine Beziehungs-Managerin bzw. einen Beziehungs-Manager oder eine Kontoinhaberin bzw. einen Kontoinhaber) und gleichzeitig sicherstellen, dass die Kundschaft weiß, an wen sie sich zwecks weiterer Kommunikation wenden muss.</p>
 <p>Das CC-Feld unterstützt Personalisierung, sodass eine einzelne Konfiguration Kopien basierend auf Profildaten dynamisch weiterleiten kann und sie so ohne zusätzliche Einrichtung für mehrere Anwendungsfälle skalierbar ist.</p>
 <p><img src="../configuration/assets/email-config-cc.png"></p>
-<p>Weitere Informationen finden Sie in der <a href="../configuration/cc-email-field.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../configuration/cc-email-field.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -94,7 +94,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <td>
 <p>Die Sandbox-Tools unterstützen jetzt das Verpacken und Kopieren orchestrierter Kampagnen von einer Sandbox in eine andere. Dadurch entfällt die Notwendigkeit, Kampagnen in jeder Umgebung manuell neu zu erstellen. Wenn eine Kampagne in einem Paket zusammengefasst wird, werden ihre abhängigen Kernobjekte wie Zusammenführungsrichtlinien und Nachrichten automatisch einbezogen, sodass die importierte Kampagne bereit für die Konfiguration und Validierung ist. Zum Schutz der Produktionsumgebungen landen alle importierten Kampagnen im Entwurfsstatus in der Ziel-Sandbox, d. h. vor der Live-Schaltung der Kampagne durchlaufen Teams einen Prüfungs- und Genehmigungsschritt.</p>
 <p><img src="assets/do-not-localize/oc-sandbox.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../configuration/copy-objects-to-sandbox.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../configuration/copy-objects-to-sandbox.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -129,7 +129,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <p>Sie können jetzt <strong>KI-Modelle</strong> in Ihren Rangfolgeformeln verwenden, um die Journey-Prioritätswerte basierend auf Kundenprofilattributen und kontextuellen Faktoren automatisch zu erhöhen, sodass Kundinnen und Kunden in die relevantesten Journeys eintreten.</p>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p><img src="assets/do-not-localize/journey-arbitration-ai-models.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/journey-ai-models.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../conflict-prioritization/journey-ai-models.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -148,7 +148,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 </p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../integrations/express.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../integrations/express.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 23. April 2026</p>
 </td>
 </tr>
@@ -207,7 +207,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p>Diese Version macht die Auswahl des <strong>Experimenttyps</strong> (A/B oder Multi-Armed-Bandit) und die <strong>Skalierung des Gewinners</strong> für unitäre Journeys allgemein verfügbar.</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/path-experimentation.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../building-journeys/path-experimentation.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 7. April 2026</p>
 </td>
 </tr>
@@ -225,7 +225,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <td>
 <p>Der <strong>Posteingang</strong> ist eine Funktion für Mobilgeräte, die mit Inhaltskarten verfügbar ist und es Kundinnen und Kunden ermöglicht, einen zentralen Ort in ihrer App oder auf ihrer Website zum Anzeigen der an Benutzende gesendeten Nachrichten zu erstellen. Dies verlängert die Lebensdauer der Marketing-Kommunikation, da sichergestellt wird, dass der Zugriff auf Nachrichten bestehen bleibt, auch nachdem diese verworfen wurden.</p>
 <p><img src="assets/do-not-localize/inbox.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../inbox/inbox-gs.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../inbox/inbox-gs.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 7. April 2026</p>
 </td>
 </tr>
@@ -244,7 +244,7 @@ Dadurch bleiben wiederkehrende Kampagnen auf neue Zielgruppen ausgerichtet (neue
 <p>Sie können jetzt die Inhalte Ihrer E-Mail-Nachrichten mit <strong>Entscheidungsfindung</strong> personalisieren und optimieren. Nutzen Sie Prioritätswerte, Formeln oder KI-Modelle, um allen Empfangenden die relevantesten Angebote und Inhalte anzuzeigen.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit). Mit dieser allgemein verfügbaren Version werden nun Mirror-Seiten unterstützt.</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/create-decision-policy.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../experience-decisioning/create-decision-policy.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 6. April 2026</p>
 </td>
 </tr>
@@ -361,7 +361,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </ul>
 <p>Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../personalization/url-parameter-encryption.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../personalization/url-parameter-encryption.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 31. März 2026</p>
 </td>
 </tr>
@@ -380,7 +380,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Sie können jetzt Bilder direkt in Journey Optimizer in E-Mail-Inhaltsvorlagen konvertieren. Verwenden Sie die KI-gestützte Analyse, um automatisch strukturierte HTML-Vorlagen aus visuellen Referenzen zu generieren, wodurch die Zeit für die Gestaltung von E-Mails erheblich verkürzt wird.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../content-management/image-to-html.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../content-management/image-to-html.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 31. März 2026</p>
 </td>
 </tr>
@@ -400,7 +400,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Erstellen, entwerfen und verwalten Sie benutzerdefinierte Formulare, die auf Ihre Anforderungen zugeschnitten sind und auf einem bestimmten Datensatz basieren. Sie können diese Formulare dann in Landingpages nutzen, um die Profilattribute Ihrer Wahl zu dem für jedes Formular definierten Datensatz hinzuzufügen.</p>
 <p>Diese Funktion war zuvor für Kundinnen und Kunden in den USA und Australien eingeschränkt verfügbar und steht nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../landing-pages/lp-forms.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../landing-pages/lp-forms.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeit: 26. März 2026.</p>
 </td>
 </tr>
@@ -418,7 +418,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Die neue Aktivität <strong>Testen</strong> ist jetzt in orchestrierten Kampagnen verfügbar. Diese Aktivität leitet die Workflow-Ausführung basierend auf definierten Bedingungen an verschiedene Verzweigungen weiter, sodass Sie Kampagnenlogik und -konfigurationen vor der Aktivierung von Live-Sendungen validieren können.</p>
 <p><img src="../orchestrated/assets/test-1.png"></p>
-<p>Weitere Informationen finden Sie in der <a href="../orchestrated/activities/test.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../orchestrated/activities/test.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -436,7 +436,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Die neue Aktivität <strong>Datensatzsuche</strong> in Journeys ermöglicht das dynamische Abrufen von Daten aus Adobe Experience Platform-Eintragsdatensätzen zur Laufzeit. Dadurch erhalten Sie Zugriff auf Informationen, die nicht zur Profil- oder Ereignis-Payload gehören, sodass Kundeninteraktionen relevant und zeitnah bleiben.</p>
 <p>Die zuvor in eingeschränkter Verfügbarkeit für eine begrenzte Anzahl von Unternehmen veröffentlichte Aktivität „Datensatzsuche“ in Journeys ist jetzt für alle Kundinnen und Kunden verfügbar, die zur [Datensatzsuche](../data/lookup-aep-data.md) berechtigt sind, bleibt jedoch eingeschränkt verfügbar.</p>
 <p><img src="../building-journeys/assets/aep-data-activity.png"></p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/dataset-lookup.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../building-journeys/dataset-lookup.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -455,7 +455,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Sie müssen jetzt die Einzelaktivität „Aktion“ verwenden, um alle Kanalaktionen zu konfigurieren, was die Notwendigkeit für eigene kanalspezifische Knoten beseitigt.</p>
 <p>Vorhandene Journeys, die veraltete Kanalaktivitäten verwenden, funktionieren weiterhin, ohne dass Änderungen oder eine Migration erforderlich sind.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-action.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../building-journeys/journey-action.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -473,7 +473,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Im erweiterten HTML-Modus für E-Mail-Inhaltsvorlagen können Sie die HTML-Quelle Ihres Inhalts im E-Mail-Designer bearbeiten, erweiterte Ausdrücke (z. B. Bedingungen) in der Quelle hinzufügen und zwischen der HTML-Ansicht und der Desktop-Ansicht wechseln, ohne Ihre Änderungen zu verlieren.</p>
 <p>Diese Funktion steht nur in Inhaltsvorlagen für den E-Mail-Kanal zur Verfügung. Sie ist derzeit nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../email/email-expert-mode.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../email/email-expert-mode.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 10. März 2026</p>
 </td>
 </tr>
@@ -547,7 +547,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Mit Journey Optimizer können Sie jetzt den Gesamtstatus, den Trainings-Status und die Leistung Ihrer KI-Modelle für die Entscheidungsfindung überwachen. Auf diese Weise können Sie Trainings-Erfolg überprüfen, Fehler beheben und Auswirkungen auf Ihre Ergebnisse verstehen, um mithilfe von KI die besten Angebote für jede Kundin bzw. jeden Kunden auszuwählen. Beachten Sie, dass diese Funktion nur für die <strong>Entscheidungsfindung</strong> verfügbar ist (nicht für ältere Entscheidungs-Management-Modelle).</p>
 <p>Diese Funktion ist derzeit nur für Modelle für <strong>personalisierte Optimierung</strong> verfügbar (nicht für automatische Optimierung).</p>
 <p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../experience-decisioning/ranking/ai-model-observability.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../experience-decisioning/ranking/ai-model-observability.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 9. März 2026</p>
 </td>
 </tr>
@@ -565,7 +565,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Orchestrierte Kampagnen können jetzt über ein <strong>API-Signal</strong> ausgelöst werden. Um dies einzurichten, konfigurieren Sie die Zielkampagne als <strong>Ausgelöst durch ein Signal</strong>, veröffentlichen Sie sie und lösen Sie sie dann mithilfe eines API-Aufrufs aus. Alle im API-Aufruf enthaltenen Parameter sind als Variablen innerhalb der laufenden Kampagne verfügbar. Beachten Sie, dass durch Signal ausgelöste orchestrierte Kampagnen <strong>Batch</strong>-Kampagnen bleiben und sich von durch API ausgelösten Kampagnen unterscheiden.</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../orchestrated/trigger-orchestrated-campaign.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../orchestrated/trigger-orchestrated-campaign.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -582,7 +582,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>In orchestrierten Kampagnen können Sie jetzt die Kategorie <strong>Transaktion</strong> für eine Kanalaktivität festlegen. Dies wendet Transaktionskanalkonfigurationen auf diese Aktivität an und ist nützlich, wenn Geschäftsregeln nicht angewendet werden sollen oder wenn kein Opt-in von Kundinnen und Kunden erforderlich ist.</p>
 <p><img src="assets/do-not-localize/oc-transactional.gif"></p>
-<p>Weitere Informationen finden Sie in der <a href="../orchestrated/activities/channels.md#add">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../orchestrated/activities/channels.md#add">entsprechenden Handbuch</a>.</p>
 <p>Diese Funktion wird in den nächsten Tagen schrittweise in allen Regionen eingeführt.</p>
 </td>
 </tr>
@@ -800,7 +800,7 @@ WAITING RELEASE DATE CONFIRMATION
 <p>Eine neue <strong>Aktivität Inhaltsentscheidung</strong> ist jetzt auf der Journey-Arbeitsfläche verfügbar, um personalisierte Angebote direkt in die Journey Ihrer Kunden zu integrieren. Mit dieser Aktivität können Sie entscheidungsbasierte Inhalte bereitstellen und diese Angebote auf Ihrem gesamten Journey referenzieren - unter Bedingungen für die Erstellung von Verzweigungen auf der Grundlage der Eignung, bei benutzerdefinierten Aktionen zur Weitergabe von Angebotsdaten an externe Systeme und bei anderen Aktivitäten zur Erstellung vollständig personalisierter Kundenerlebnisse.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/content-decision.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../building-journeys/content-decision.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 10. Februar 2026</p>
 </td>
 </tr>
@@ -964,7 +964,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p>Der Kanal <strong>Direkt-Mail</strong> war bisher auf Kampagnen beschränkt und ist jetzt auf der Journey-Arbeitsfläche verfügbar, sodass Sie Direkt-Mail in Ihre Journeys integrieren können. Direkt-Mail kann jetzt sowohl in <strong>Batch- als auch in 1:1-Journey-Szenarien verwendet werden</strong>, mit Unterstützung für die Dateiextraktionskonfiguration und zeitbasierte Häufigkeitseinstellungen.</p>
 <p>Diese Funktion war zuvor nur eingeschränkt verfügbar, steht aber nun für alle Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
 <p><img src="assets/do-not-localize/dm-journey.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../direct-mail/get-started-direct-mail.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../direct-mail/get-started-direct-mail.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: Freitag, 29. Januar 2026</p>
 </td>
 </tr>
@@ -983,7 +983,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p>Mithilfe von <strong>Ruhezeiten</strong> können Sie zeitbasierte Ausschlüsse für den E-Mail-, SMS-, Push- und WhatsApp-Kanal definieren. Sie stellen sicher, dass während bestimmter Zeiträume keine Nachrichten gesendet werden, und helfen Ihnen so, Kundenpräferenzen und Compliance-Anforderungen zu erfüllen. Ruhezeiten können über <strong>Regelsätze</strong> angewendet werden, die zur präzisen Steuerung Einzelaktionen in Kampagnen oder Journeys zugewiesen werden können.</p>
 <p>Diese Funktion wurde zuvor mit eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung. Mit dieser allgemeinen Verfügbarkeit bietet die Funktion jetzt die Möglichkeit, dass Kundinnen und Kunden eine Kampagnenaktion bis zum Abschluss der Ruhezeiten in die Warteschlange stellen und die aktivierte Regel für Ruhezeiten in der Vorschau anzeigen können.</p>
 <p><img src="assets/do-not-localize/quiet-hour-ga.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../conflict-prioritization/quiet-hours.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../conflict-prioritization/quiet-hours.md">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: Freitag, 29. Januar 2026</p>
 </td>
 </tr>
@@ -1008,7 +1008,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p>Einträge werden nach der Aufnahme 7 Kalendertage lang im AJO-Nachrichtenexport-Datensatz aufbewahrt. Während dieses Aufbewahrungszeitraums können Sie sie über Experience Platform-Ziele in Ihren eigenen Speicher exportieren. Die Funktion wird auf der Ebene der Kanalkonfiguration aktiviert, sodass Sie <strong>granulare Kontrolle</strong> über die exportierten Nachrichten erhalten.</p>
 <p>Diese Funktion ist nur für den E-Mail- und SMS-Kanal verfügbar und steht Unternehmen zur Verfügung, die das Add-on für den Nachrichtenexport erworben haben. Weitere Informationen erhalten Sie beim Adobe-Support.</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../configuration/message-export.md#message-export">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../configuration/message-export.md#message-export">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 28. Januar 2026</p>
 </td>
 </tr>
@@ -1026,7 +1026,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <td>
 <p>Der Direkt-Mail-Kanal ist jetzt in orchestrierten Kampagnen verfügbar. Die <strong>Direkt-Mail-Aktivität</strong> erleichtert den Direkt-Mail-Versand innerhalb der orchestrierten Kampagne und ermöglicht sowohl einmalige als auch wiederkehrende Nachrichten. Sie dient dazu, das Generieren der von Direkt-Mail-Dienstleistern benötigten <strong>Extraktionsdatei</strong> zu automatisieren. Kanalaktivitäten können in der Arbeitsfläche für orchestrierte Kampagnen kombiniert werden, um kanalübergreifende Kampagnen zu erstellen, mit denen basierend auf Kundenverhalten und Daten Aktionen ausgelöst werden können.</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
-<p>Weitere Informationen finden Sie in der <a href="../orchestrated/activities/channels.md#channel">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../orchestrated/activities/channels.md#channel">entsprechenden Handbuch</a>.</p>
 <p>Verfügbarkeitsdatum: 28. Januar 2026</p>
 </td>
 </tr>

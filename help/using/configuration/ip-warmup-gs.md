@@ -80,7 +80,7 @@ Erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen.
 >
 >Im [Handbuch zu Best Practices bei der Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=de) finden sich Informationen dazu, wie Ihre E-Mail-Reputation mit einer IP-Aufwärmung verbessert werden kann.
 
-## Weitere Ressourcen {#additional-resources}
+## Zusätzliche Ressourcen {#additional-resources}
 
 In diesen hilfreichen Blog-Beiträgen erhalten Sie eine ausführlichere Anleitung zur IP-Aufwärmung:
 

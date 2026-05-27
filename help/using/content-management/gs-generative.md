@@ -196,7 +196,7 @@ Die folgenden Leitlinien gelten für den [KI-Assistenten für Personalisierungsa
 <p></td>
 </tr></table>
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * **[Anwendungsfälle für den KI-Assistenten](generative-uc.md)** – Erfahren Sie durch Anwendungsfälle, wie Sie den KI-Assistenten verwenden
 * **[Tutorials zum KI-Assistenten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** – Erkunden Sie die detaillierten Video-Tutorials mit Funktionen und Best Practices für den KI-Assistenten.

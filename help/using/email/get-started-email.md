@@ -132,7 +132,7 @@ E-Mail-Sendungen können erstellt werden:
 </td>
 </tr></table>
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * **[Erstellen einer E-Mail](create-email.md)** – Erfahren Sie anhand einer schrittweisen Anleitung, wie Sie E-Mail-Nachrichten in Kampagnen und Journeys erstellen.
 * **[Entwerfen von E-Mail-Inhalten](get-started-email-design.md)** – Entdecken Sie die verschiedenen Möglichkeiten, E-Mail-Inhalte von Grund auf neu zu erstellen oder Vorlagen zu verwenden.

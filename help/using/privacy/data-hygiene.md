@@ -43,7 +43,7 @@ Diese Aufgaben können mit dem Menü **[!UICONTROL Datenlebenszyklus]** durchgef
 ![](assets/data-hygiene.png)
 
 
-## Empfehlungen {#data-hygiene-recommendations}
+## Recommendations {#data-hygiene-recommendations}
 
 Beachten Sie bei der Durchführung von Datenhygienevorgängen (z. B. beim Löschen von Identitäten oder Datensätzen), dass historische Versandereignisse, die mit gelöschten Identitäten verknüpft sind, nicht mehr in standardmäßigen Reporting- oder DataLake-Abfragen angezeigt werden. Dies kann zu Diskrepanzen zwischen der Anzahl der als **Zugestellt** gemeldeten E-Mails und der Anzahl der **empfangenen** E-Mails in den Posteingängen der Empfangenden führen, insbesondere bei älteren Journeys.
 

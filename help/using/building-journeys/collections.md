@@ -240,7 +240,7 @@ Beispiel eines Arrays von Arrays:
 }
 ```
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 In den folgenden Abschnitten erfahren Sie mehr über die Konfiguration, Verwendung und Fehlerbehebung von benutzerdefinierten Aktionen:
 

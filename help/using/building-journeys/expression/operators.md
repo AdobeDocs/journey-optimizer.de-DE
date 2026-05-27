@@ -425,7 +425,7 @@ Beispiel:
 @ is decimal
 ```
 
-## String {#string}
+## Zeichenfolge {#string}
 
 ### +
 

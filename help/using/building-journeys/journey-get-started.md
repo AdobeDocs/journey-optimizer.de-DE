@@ -276,7 +276,7 @@ Entdecken Sie die Komponenten einer Journey und lernen Sie die Grundlagen des Er
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432378?captions=ger&quality=12)
 
-### Weitere Ressourcen
+### Zusätzliche Ressourcen
 
 * **[Referenz zu Fehler-Codes](error-codes-reference.md)** – Journey-Fehler-Codes und Schritte zur Fehlerbehebung
 * **[Warnhinweise](../reports/alerts.md)** – Richten Sie Warnhinweise für das Monitoring von Journeys ein

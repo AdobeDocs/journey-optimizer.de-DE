@@ -99,7 +99,7 @@ Um Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte du
 
    * Bestimmen Sie, welche E-Mail-Adresse und/oder Telefonnummer für Ihre Empfänger vorrangig verwendet werden soll, wenn in Adobe Experience Platform mehrere Adressen/Nummern verfügbar sind. [Weitere Informationen](primary-email-addresses.md)
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * **[Konfigurieren von Kanaloberflächen](channel-surfaces.md)**: Erfahren Sie, wie Sie Kanaloberflächen für E-Mail, Push, SMS und andere Kanäle einrichten und verwalten.
 * **[Subdomain-Delegierung](delegate-subdomain.md)**: Erfahren Sie, wie Sie Subdomains für E-Mail-Zustellbarkeit und Branding an Adobe delegieren.
