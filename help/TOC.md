@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abac7d8c49e2dc7af9fde91b0e8305ce10a406ce
+source-git-commit: 0abb8b2a9265155c27986c0a542ef5575c58343f
 workflow-type: tm+mt
-source-wordcount: '3344'
+source-wordcount: '3337'
 ht-degree: 95%
 
 ---
@@ -63,8 +63,6 @@ ht-degree: 95%
       + [Konfigurieren und Verfolgen der Journey-Metriken](using/building-journeys/success-metrics.md)
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Simulieren der Journey](using/building-journeys/simulate-journey.md)
-      + {hide-from-toc}[Erste Schritte mit der Journey-Simulation](using/building-journeys/simulate-journey-gs.md)
-      + {hide-from-toc}[Journey simulieren](using/building-journeys/simulate-journey-2.md)
       + [Journeys testen](using/building-journeys/testing-the-journey.md)
       + [Journey-Probelauf](using/building-journeys/journey-dry-run.md)
       + [Veröffentlichen Ihrer Journey](using/building-journeys/publish-journey.md)
@@ -220,6 +218,7 @@ ht-degree: 95%
          + [Abstimmung](using/orchestrated/activities/reconciliation.md)
          + [Speichern einer Zielgruppe](using/orchestrated/activities/save-audience.md)
          + [Aufspaltung](using/orchestrated/activities/split.md)
+         + [Datei laden](using/orchestrated/activities/load-file.md)
          + [Test](using/orchestrated/activities/test.md)
          + [Warten](using/orchestrated/activities/wait.md)
       + Lernen durch Anwendungsfälle {#use-cases}
@@ -323,7 +322,7 @@ ht-degree: 95%
          + [Header-Parameter](using/email/header-parameters.md)
          + [URL-Tracking](using/email/url-tracking.md)
          + [Personalisieren der E-Mail-Konfiguration](using/email/surface-personalization.md)
-      + [Verwenden und Konfigurieren von Deep-Links](using/email/deeplinks.md)
+      + [Verwenden und Konfigurieren von Deeplinks](using/email/deeplinks.md)
       + [Verwalten von E-Mail-Opt-outs](using/email/email-opt-out.md)
    + In-App-Kanal {#in-app}
       + [In-App-Kanal](/help/rp_landing_pages/in-app-landing-page.md)
