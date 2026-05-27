@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-51-07
 exl-id: 1feffdeb-2bdc-4197-8c04-e4ae48879401
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Journey-Berichte in Adobe Journey Optimizer bieten leistungsstarke Tools, um zu 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Analysieren von Journey-Berichten
 
@@ -30,7 +30,7 @@ Erfahren Sie, wie Sie die Leistung von Journeys mithilfe von Metriken, visuellen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Code-basierte Journey-Berichte
 
@@ -40,7 +40,7 @@ Verstehen und analysieren Sie Metriken für die Interaktion mit Code-basierten E
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Interaktion mit Inhaltskarten
 
@@ -50,7 +50,7 @@ Erfahren Sie, wie Sie die Benutzerinteraktion mit Inhaltskarten mithilfe detaill
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Metriken zu Direkt-Mail
 
@@ -60,7 +60,7 @@ Analysieren und interpretieren Sie wichtige Metriken für Direkt-Mail-Kampagnen,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
 Reporting zu E-Mail-Journeys
 
@@ -70,7 +70,7 @@ Gewinnen Sie Erkenntnisse zu E-Mail-Leistung, Interaktion und Versandmetriken f�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Erkenntnisse z um In-App-Messaging
 

@@ -20,7 +20,7 @@ In diesem Abschnitt finden Sie Anwendungsfälle, in denen Sie personalisierte Na
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Benachrichtigung zum Bestellstatus
 
@@ -30,7 +30,7 @@ Lesen Sie sich ein vollständiges Szenario durch, in dem Profilattribute, kontex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-Mail zum Warenkorbabbruch
 
@@ -40,7 +40,7 @@ Erfahren Sie, wie Sie mithilfe von Hilfsfunktionen eine E-Mail zum Warenkorbabbr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Warnung bei Verschreibung von Krankenversicherungen
 
@@ -50,7 +50,7 @@ Erstellen Sie eine einzelne personalisierte E-Mail, in der alle Rezepte eines Ab
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Personalization-Rezepte
 
