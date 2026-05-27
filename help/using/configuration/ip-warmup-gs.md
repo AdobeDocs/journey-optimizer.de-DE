@@ -10,23 +10,11 @@ level: Experienced
 keywords: IP, Zustellbarkeit
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 TQID: https://experienceleague.adobe.com/xjJKrCXUmQY5sZu2w-B09agQh-tb4qkSXM0Vh2-TDnc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c343082f-e963-4f57-a96b-b64d27f8118eid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 459
@@ -74,20 +62,20 @@ Die wichtigsten Schritte zur Implementierung eines IP-Aufwärmplans sind:
 
 Erfahren Sie, wie Sie einen IP-Aufwärmplan erstellen und ausführen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453849/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
 >Im [Handbuch zu Best Practices bei der Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=de) finden sich Informationen dazu, wie Ihre E-Mail-Reputation mit einer IP-Aufwärmung verbessert werden kann.
 
-## Weitere Ressourcen {#additional-resources}
+## Zusätzliche Ressourcen {#additional-resources}
 
 In diesen hilfreichen Blog-Beiträgen erhalten Sie eine ausführlichere Anleitung zur IP-Aufwärmung:
 
-* [Adobe Journey Optimizer Deliverability Guide: From Zero Reputation to Inbox Hero](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=de) – Umfassendes Handbuch zu den Grundlagen der Reputation, Aufwärmkalendern, Überwachung und Best Practices zur Fehlerbehebung.
+* [Adobe Journey Optimizer Deliverability Guide: From Zero Reputation to Inbox Hero](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) – Umfassendes Handbuch zu den Grundlagen der Reputation, Aufwärmkalendern, Überwachung und Best Practices zur Fehlerbehebung.
 
-* [Understanding how to set up the IP warmup](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=de) – Erfahren Sie mehr über die Grundlagen zum Einrichten von IP-Aufwärmplänen und Best Practices für eine erfolgreiche Implementierung.
+* [Understanding how to set up the IP warmup](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) – Erfahren Sie mehr über die Grundlagen zum Einrichten von IP-Aufwärmplänen und Best Practices für eine erfolgreiche Implementierung.
 
-* [Advanced features in IP warm-up plans](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=de) – Entdecken Sie erweiterte Funktionen und granulare Steuerelemente zur Optimierung Ihrer IP-Aufwärmstrategie.
+* [Advanced features in IP warm-up plans](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) – Entdecken Sie erweiterte Funktionen und granulare Steuerelemente zur Optimierung Ihrer IP-Aufwärmstrategie.
 
-* [IP warm-up troubleshooting](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=de) – Finden Sie Lösungen für häufige Probleme wie Zielgruppenverzögerungen und erfahren Sie mehr über intelligente Wiederholungsmechanismen.
+* [IP warm-up troubleshooting](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) – Finden Sie Lösungen für häufige Probleme wie Zielgruppenverzögerungen und erfahren Sie mehr über intelligente Wiederholungsmechanismen.
