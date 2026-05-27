@@ -8,7 +8,7 @@ badge: label="Legacy" type="Informative"
 exl-id: 09ba2a43-f7f3-4414-b7b3-64c9932ff6c7
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '247'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Kontextdaten ermöglichen es Adobe Journey Optimizer, intelligentere, stärker p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit Kontextdaten
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie Kontextdaten in der Adobe Journey Optimizer Decisioning-En
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Verwenden von Kontextdaten in Edge Decisioning-Anfragen
 
@@ -45,7 +45,7 @@ Erfahren Sie anhand von Beispielen und Konfigurationen, wie Sie Kontextdaten in 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verwenden von Kontextdaten in Entscheidungsanfragen und Eignungsregeln
 

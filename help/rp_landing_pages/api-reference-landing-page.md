@@ -8,8 +8,8 @@ badge: label="Legacy" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
 source-git-commit: 50667ff13e16344bbcc12d78e5ac31f3f8545f08
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 76%
+source-wordcount: '248'
+ht-degree: 78%
 
 ---
 
@@ -25,7 +25,7 @@ Der Abschnitt zur API-Referenz in Adobe Journey Optimizer bietet Ihnen die Tools
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte mit der Angebotsbibliothek-API
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie die Angebotsbibliotheks-API für das Entscheidungs-Managem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Unterbreiten von Angeboten mithilfe von Adobe Journey Optimizer-APIs
 
@@ -45,7 +45,7 @@ Erfahren Sie mehr über die Implementierung von der Decisioning, Edge Decisionin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Erstellen und Verwalten von Angeboten mithilfe von APIs
 
