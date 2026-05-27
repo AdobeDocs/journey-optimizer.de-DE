@@ -432,7 +432,7 @@ A comprehensive example integrating multiple concepts:
 >Field names in the payload cannot contain a dot `.` character, nor start with a `$` character. Ensure your JSON structure follows these naming conventions.
 -->
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 In den folgenden Abschnitten erfahren Sie mehr über die Konfiguration, Verwendung und Fehlerbehebung von benutzerdefinierten Aktionen:
 
