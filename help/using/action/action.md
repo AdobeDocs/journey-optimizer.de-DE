@@ -68,7 +68,7 @@ Erfahren Sie [auf dieser speziellen Seite](../action/troubleshoot-custom-action.
 
 Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430275?captions=ger&quality=12)
 
 ## Zusätzliche Ressourcen
 
