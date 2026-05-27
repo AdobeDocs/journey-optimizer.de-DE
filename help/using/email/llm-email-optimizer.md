@@ -1,5 +1,5 @@
 ---
-title: E-Mail für KI-Posteingänge optimieren
+title: Optimieren von E-Mails für KI-Posteingänge
 description: Erstellen und verfeinern Sie eine dedizierte Version Ihrer Nachrichten, damit KI-unterstützte Posteingangskunden Ihre Angebote und CTAs verwenden können, wenn sie E-Mails zusammenfassen oder Absichten extrahieren - in der E-Mail-Designer mit KI optimieren .
 feature: Email Design
 topic: Content Management, Artificial Intelligence
@@ -8,12 +8,12 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 1%
+source-wordcount: '1115'
+ht-degree: 3%
 
 ---
 
-# E-Mail für KI-Posteingänge optimieren {#email-text-optimizer}
+# Optimieren von E-Mails für KI-Posteingänge {#email-text-optimizer}
 
 [!DNL Adobe Journey Optimizer] verfügt über eine E-Mail-Kanal-Funktion, mit der Sie eine bestimmte Version Ihrer Nachrichten strukturieren können, um die KI-gestützten Posteingangserlebnisse zu verbessern - z. B. [!DNL Apple Intelligence] und [!DNL Google Gemini] in [!DNL Gmail] -, damit E-Mails anhand Ihres Inhalts präziser beantwortet und mit besseren Ergebnissen zusammengefasst werden können.
 
@@ -115,5 +115,5 @@ Mit der Funktion „E-Mail für KI-Posteingänge optimieren“ können Sie eine 
 
 ## Verwandte Themen {#related-topics}
 
-* [Erste Schritte mit dem E-Mail-Design](get-started-email-design.md)
+* [Erste Schritte mit E-Mail-Design](get-started-email-design.md)
 * Allgemeine Informationen zu Adobe-Funktionen finden Sie unter [Erste Schritte mit dem KI-Assistenten zum Erstellen von Inhalten](../content-management/gs-generative.md).
