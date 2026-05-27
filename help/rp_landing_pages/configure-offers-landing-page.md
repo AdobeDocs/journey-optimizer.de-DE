@@ -25,7 +25,7 @@ Der Abschnitt „Konfigurieren von Angeboten“ in Adobe Journey Optimizer ermö
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erstellen personalisierter Angebote
 
@@ -35,7 +35,7 @@ Erfahren Sie mit einer schrittweisen Anleitung, wie Sie personalisierte Angebote
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Hinzufügen von Darstellungen zu Angeboten
 
@@ -45,7 +45,7 @@ Definieren und konfigurieren Sie mithilfe von Darstellungen, wo Angebote angezei
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Hinzufügen von Einschränkungen zu Angeboten
 

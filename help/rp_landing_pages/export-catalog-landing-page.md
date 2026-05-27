@@ -25,7 +25,7 @@ Das Exportieren Ihres Angebotskatalogs in Adobe Journey Optimizer öffnet die T�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Handbuch zum Exportieren von Angebotskatalogen
 
@@ -35,7 +35,7 @@ Erfahren Sie, wie Sie Ihren Angebotskatalog als Datensatz nach Adobe Experience 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Zugreifen auf den exportierten Angebotskatalog
 
@@ -45,7 +45,7 @@ Erfahren Sie, wie Sie den exportierten Angebotskatalog in Adobe Experience Platf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Referenz zum Datensatz für personalisierte Angebote
 
@@ -55,7 +55,7 @@ Erkunden Sie die Felder und das hierarchische Schema des Datensatzes für person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Überblick über den Entscheidungsdatensatz
 
@@ -65,7 +65,7 @@ Machen Sie sich mit der hierarchischen Struktur, den Felddefinitionen und Metada
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Details des Platzierungsdatensatzes
 
@@ -75,7 +75,7 @@ Erfahren Sie mehr über die Felder, das Schema und die Metadaten des Platzierung
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
 
 Dokumentation zum Datensatz für Fallback-Angebote
 
