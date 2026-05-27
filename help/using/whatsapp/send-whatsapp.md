@@ -9,24 +9,15 @@ role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
 TQID: https://experienceleague.adobe.com/u2OevVu38fPdytpuTmHeSdEx3Wvpih7ifk-j88rhDFI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 100%
+source-wordcount: 420
+ht-degree: 58%
 
 ---
 
@@ -55,3 +46,28 @@ Sie müssen die Warnmeldungen im oberen Bereich des Editors überprüfen. Einige
 > Wenn Ihre Kampagne einer Genehmigungsrichtlinie unterliegt, müssen Sie eine Genehmigung anfordern, um Ihre Textnachrichten senden zu können. [Weitere Informationen](../test-approve/gs-approval.md)
 
 Wenn Ihre WhatsApp-Nachricht fertig ist, konfigurieren Sie Ihre [Journey](../building-journeys/publish-journey.md) oder [Kampagne](../campaigns/review-activate-campaign.md), um sie zu versenden.
+
+## WhatsApp-Interaktionen analysieren {#whatsapp-channel-context}
+
+Journey Optimizer erfasst zusätzliche Interaktionsdaten, die vom WhatsApp-Kanal zurückgegeben werden, und speichert sie im **Reporting - E-Mail-Tracking** Erlebnisereignis-Datensatz) unter der `whatsAppChannelContext` Feldergruppe. Verwenden Sie diese Felder, um [Zielgruppen](../audience/about-audiences.md) zu erstellen, [Abfragen](../data/get-started-queries.md) auszuführen und die WhatsApp-Interaktion zu analysieren. [Weitere Informationen zu Systemdatensätzen](../data/get-started-datasets.md#system-datasets).
+
+Die folgenden Felder werden erfasst:
+
+| Feld | Beschreibung |
+|-|-|
+| `messageType` | WhatsApp-Nachrichtentyp (z. B. `templateBased`, `response`). |
+| `inboundMessage` | Inhalt eingehender Antworten (z. B. `stop`, `start`, `subscribe`) |
+| `inboundNumber` | Absender-ID, bei der die eingehende Nachricht empfangen wurde. |
+| `channelType` | Kanal-Kategorie (`Utility`, `Marketing` oder `Promotional`). |
+| `profileNumber` | Telefonnummer, von der die eingehende Nachricht empfangen wurde. |
+| `origTimestamp` | Ursprünglicher Zeitstempel aus Meta/WhatsApp. |
+| `status` | Versandstatus einschließlich standardisiertem Provider-Feedback (`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` oder `unknown`) und der rohen Provider-Statusmeldung. |
+| `reactionEvent` | Inhalt der Benutzerantwort: Emoji für Reaktionen oder Nachrichtentext für Antworten auf eine bestimmte Nachricht. |
+| `reactionMessageID` | ID der ursprünglichen Nachricht, auf die geantwortet wird. |
+| `reactionActionName` | Typ der Antwortaktion (`react`, `unreact` oder `reply`). |
+| `interactiveSelectedTitle` | Vom Benutzer ausgewählter Titel aus einer interaktiven WhatsApp-Nachricht. |
+| `interactiveType` | Interaktiver Nachrichtentyp (`list reply`, `button reply` oder `button`). |
+| `interactiveSelectedDescription` | Beschreibung der ausgewählten interaktiven WhatsApp-Option. |
+| `interactiveSelectedID` | Kennung der gewählten Option aus WhatsApp. |
+
+Um diesen Datensatz abzufragen, verwenden Sie die `ajo_email_tracking_experience_event_dataset` im Abfrage-Service. Informationen zu Abfragemustern und zugehörigen Anwendungsfällen finden Sie unter [Beispiele für Datensatzabfragen](../data/datasets-query-examples.md).
