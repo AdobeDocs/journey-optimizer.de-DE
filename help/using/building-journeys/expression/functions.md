@@ -10,8 +10,8 @@ keywords: Funktion, Ausdrücke, Editor, Journey, Daten, Bearbeitung
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 source-git-commit: 99053c6c1327818645adc4ab9a5d3dd30eb96b87
-workflow-type: ht
-source-wordcount: '855'
+workflow-type: tm+mt
+source-wordcount: '874'
 ht-degree: 100%
 
 ---
@@ -79,7 +79,7 @@ Führen Sie Berechnungen für Sätze von Werten durch, um Erkenntnisse wie Durch
 
 [Alle Aggregationsfunktionen anzeigen →](../functions/aggregation-functions.md)
 
-### Konvertierungsfunktionen {#conversion-functions}
+### Konversionsfunktionen {#conversion-functions}
 
 **Datentyptransformation**
 
@@ -123,7 +123,7 @@ Arbeiten Sie mit Datumsangaben, Uhrzeiten und Zeitzonen, um zeitbasierte Bedingu
 
 [Alle Datumsfunktionen anzeigen →](../functions/date-functions.md)
 
-### Listenfunktionen {#list-functions}
+### Auflistungsfunktionen {#list-functions}
 
 **Sammlungsbearbeitung und -analyse**
 
@@ -157,7 +157,7 @@ Führen Sie numerische Berechnungen und Umwandlungen für die Datenverarbeitung 
 
 [Alle mathematischen Funktionen anzeigen →](../functions/math-functions.md)
 
-### Zeichenfolgenfunktionen {#string-functions}
+### Zeichenfolgen-Funktionen {#string-functions}
 
 **Textbearbeitung und -validierung**
 

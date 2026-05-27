@@ -97,7 +97,7 @@ Gibt „Hello World“ zurück.
 
 +++Parameter
 
-* Zeichenfolge
+* string
 
 +++
 
@@ -238,7 +238,7 @@ Vergleicht die erste Argumentzeichenfolge mit der zweiten Argumentzeichenfolge u
 
 +++Parameter
 
-* Zeichenfolge
+* string
 
 +++
 
@@ -272,7 +272,7 @@ Gibt die Position (im ersten Argument) des ersten Auftretens des zweiten Paramet
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | String |
+| string | Zeichenfolge |
 | angegebener Wert | String |
 
 +++
@@ -309,7 +309,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im Parameter keine Zeichen enthä
 
 +++Parameter
 
-* Zeichenfolge
+* string
 
 +++
 
@@ -349,7 +349,7 @@ Gibt „true“ zurück, wenn die Zeichenfolge im Parameter nicht leer ist.
 
 +++Parameter
 
-* Zeichenfolge
+* string
 
 +++
 
@@ -387,7 +387,7 @@ Gibt die Position (im ersten Argument) des letzten Auftretens des zweiten Parame
 
 | Parameter | Typ |
 |-----------|------------------|
-| string | String |
+| string | Zeichenfolge |
 | angegebener Wert | String |
 
 +++
@@ -694,7 +694,7 @@ Gibt „true“ zurück, wenn der zweite Parameter ein Präfix des ersten Parame
 
 | Parameter | Typ |
 |-------------|--------|
-| string | string |
+| string | Zeichenfolge |
 | prefix | Zeichenfolge |
 
 +++
@@ -768,7 +768,7 @@ Gibt die Unterzeichenfolge des Zeichenfolgenausdrucks zwischen dem Anfangsindex 
 
 | Parameter | type |
 |-------------|----------|
-| string | Zeichenfolge |
+| string | string |
 | beginIndex | integer |
 | endIndex | integer |
 
