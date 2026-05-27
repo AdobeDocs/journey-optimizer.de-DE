@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 55%
+source-wordcount: '1198'
+ht-degree: 54%
 
 ---
 
@@ -264,6 +264,11 @@ Informationen zur Aktivierung von Datensätzen, Parameterdetails, Beispiele und 
 
 Die Hilfsfunktion `executionMetadata` ermöglicht die dynamische Erfassung und Speicherung benutzerdefinierter Schlüssel-Wert-Paare im Ausführungskontext der Nachricht.
 
+>[!NOTE]
+>
+>* Die Funktion „Ausführungsmetadaten“ wird von [benutzerdefinierten Aktionen](../../action/action.md) und in eingehenden Kanälen (Web, Code-basiertes Erlebnis, In-App-Nachricht, Inhaltskarten) nicht unterstützt.
+>* Die Funktion „Ausführungsmetadaten“ ist nicht sichtbar, wenn der Inhalt selbst angezeigt wird.
+
 **Syntax**
 
 ```
@@ -275,11 +280,6 @@ In dieser Syntax bezieht sich `key` auf den Metadatennamen und `value` sind die 
 **Anwendungsfall**
 
 Mit dieser Funktion können Sie kontextuelle Informationen an beliebige native Aktionen Ihrer Kampagnen oder Journeys anhängen. Dadurch können Sie kontextuelle Versanddaten in Echtzeit für verschiedene Zwecke wie Tracking, Analyse, Personalisierung und nachgelagerte Verarbeitung in externe Systeme exportieren.
-
->[!NOTE]
->
->* Die Funktion „Ausführungsmetadaten“ wird von [benutzerdefinierten Aktionen](../../action/action.md) nicht unterstützt.
->* Die Funktion „Ausführungsmetadaten“ ist nicht sichtbar, wenn der Inhalt selbst angezeigt wird.
 
 Sie können beispielsweise die Hilfsfunktion „Ausführungsmetadaten“ verwenden, um eine bestimmte ID an jeden Versand anzuhängen, der an jedes Profil gesendet wird. Diese Informationen werden zur Laufzeit generiert und die angereicherten Ausführungsmetadaten können dann zur nachgelagerten Abstimmung mit einer externen Reporting-Plattform exportiert werden.
 
