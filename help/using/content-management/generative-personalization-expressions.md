@@ -85,7 +85,7 @@ Diese Schritte umfassen die Erstellung von Personalisierungsausdrücken von Grun
 
 1. Um die Ausgabe in Ihrem Personalisierungsausdruck zu implementieren, klicken Sie auf **[!UICONTROL Anwenden]**. Die Assistentenausgabe wird an der Cursorposition im Personalisierungseditor eingefügt. Um stattdessen bereits vorhandenen Code zu ersetzen, wählen Sie diesen Code zuerst im Editor aus und verwenden Sie dann **[!UICONTROL Bearbeiten mit dem KI-Assistenten]** (siehe [Bearbeiten, Korrigieren oder Erläutern von vorhandenem Code](#edit-existing)).
 
-   Sie können die Ausgabe auch kopieren und über das Symbol „Kopieren![ an der gewünschten ](../orchestrated/assets/do-not-localize/activity-copy.svg) einfügen.
+   Sie können die Ausgabe auch kopieren und über das Symbol „Kopieren![&#x200B; an der gewünschten &#x200B;](../orchestrated/assets/do-not-localize/activity-copy.svg) einfügen.
 
 ## Vorhandenen Code bearbeiten, korrigieren oder erklären {#edit-existing}
 
@@ -101,7 +101,7 @@ Sie können einen vorhandenen Personalisierungsausdruck auswählen und den KI-As
 
    ![](assets/ai-perso-edit.png)
 
-1. Wenn Sie **[!UICONTROL Beheben]** verwenden, klicken Sie in der ]**auf**[!UICONTROL  Fehlerbehebungsdetails anzeigen, um eine Erklärung der Fehlerbehebung und eine zeilenweise Anleitung vor und nach der Vorschau anzuzeigen.
+1. Wenn Sie **[!UICONTROL Beheben]** verwenden, klicken Sie in der **auf** Fehlerbehebungsdetails anzeigen, um eine Erklärung der Fehlerbehebung und eine zeilenweise Anleitung vor und nach der Vorschau anzuzeigen.
 
    ![](assets/ai-perso-fix.png)
 
@@ -113,7 +113,7 @@ Sie können einen vorhandenen Personalisierungsausdruck auswählen und den KI-As
 >
 >Dieser Abschnitt gilt nur, wenn Sie **E-Mail**-Inhalte in der E-Mail-Designer bearbeiten. Verwenden Sie für andere Kanäle den **[!UICONTROL Personalization-Editor]**.
 
-In der E-Mail-Designer können Sie den [!UICONTROL KI-Assistenten für Personalisierungsausdrücke] von der kontextuellen Symbolleiste aus verwenden, ohne zuerst den vollständigen [!UICONTROL Personalization-Editor ] öffnen.
+In der E-Mail-Designer können Sie den [!UICONTROL KI-Assistenten für Personalisierungsausdrücke] von der kontextuellen Symbolleiste aus verwenden, ohne zuerst den vollständigen [!UICONTROL Personalization-Editor &#x200B;] öffnen.
 
 1. Wählen Sie in der E-Mail-Designer die Komponente aus, die Sie personalisieren möchten, und klicken Sie an der Stelle, an der Sie den Ausdruck einfügen möchten.
 
