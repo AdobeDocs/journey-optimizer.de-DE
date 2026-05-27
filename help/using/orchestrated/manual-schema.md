@@ -6,18 +6,13 @@ description: Erfahren Sie, wie Sie direkt über die Benutzeroberfläche relation
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/vSXJMXYZECaVuB8PkrEB4Y9AXgJBHMq0bGd8Nb-BGh4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 901ecd19969ea7a79d1fad38c4e3140fea2e01ec
 workflow-type: tm+mt
 source-wordcount: 932
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -167,7 +162,7 @@ Jetzt müssen Sie Ihren Datensatz für orchestrierte Kampagnen aktivieren.
 
 Nachdem Sie Ihren Datensatz erstellt haben, müssen Sie ihn explizit für orchestrierte Kampagnen aktivieren. Dadurch wird sichergestellt, dass Ihr Datensatz in Adobe Journey Optimizer für Echtzeit-Orchestrierung und -Personalisierung verfügbar ist.
 
-Informationen zur Validierung oder Aktivierung der Erweiterung für orchestrierte Kampagnen im Datensatz finden Sie in der [Adobe Developer-Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement).
+Informationen zur Validierung oder Aktivierung der Erweiterung für orchestrierte Kampagnen im Datensatz finden Sie in der [Adobe Developer-Dokumentation](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset#tag/DatasetEnablement).
 
 1. Suchen Sie Ihren Datensatz in der Liste **[!UICONTROL Datensätze]**.
 
