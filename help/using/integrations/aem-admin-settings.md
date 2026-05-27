@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, Inhaltsfragmente, Administration, Repository, Authentifizierung, Autor, Veröffentlichung
-source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
+source-git-commit: 9da185872d2742799f1a2a2c85a840c84cb8b329
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ So konfigurieren Sie Ihr Repository:
 1. Klicken Sie **[!UICONTROL Integration erstellen]**.
 
    ![](assets/aem-admin-settings-1.png)
+
+1. Wenn Sie **[!DNL Adobe Experience Manager Managed Services]** verwenden, geben Sie einen Repository-Hostnamen, der mit `adobecqms.net` endet, in das Feld **[!UICONTROL Benutzerdefinierte AMS-Repo-ID]** ein.
+
+   ![](assets/aem-admin-settings-6.png)
 
 1. Wählen Sie das zu konfigurierende Repository aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
@@ -76,9 +80,19 @@ So konfigurieren Sie Ihr Repository:
 
    +++
 
+1. Nachdem Sie die Einrichtung der Instanz abgeschlossen haben, wählen Sie ein Inhaltsfragment aus, um zu bestätigen, dass die Integration funktioniert.
+
+   ![](assets/aem-admin-settings-7.png)
+
+1. Wählen **im Fenster &quot;**&quot; das Fragment aus, das Sie testen möchten, und klicken Sie dann auf **[!UICONTROL Auswählen]**.
+
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+1. Beim Speichern mit ausgewähltem Test-Inhaltsfragment wird die Validierung automatisch ausgeführt. Wenn die Validierung fehlschlägt, wird eine Fehlerliste angezeigt, damit Sie die Konfiguration beheben können.
+
+   ![](assets/aem-admin-settings-8.png)
 
 1. Um diese Repository-Integration zu bearbeiten oder zu deaktivieren, rufen Sie Ihre zuvor erstellte Konfiguration über das Menü **[!UICONTROL AEM-Integration]** auf.
 
-Beim Speichern verwendet diese Sandbox das Repository für den Inhaltsfragmentselektor und **Adobe Experience Manager Content Advisor**.
+Beim Speichern dieser Konfiguration speichert Journey Optimizer sie für dieses Repository in der aktuellen Sandbox. Sie können dieses Repository und seine Einstellungen dann verwenden, wenn Sie im Inhaltsratgeber-Selektor Inhalte **und**.
 

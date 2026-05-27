@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: 00834e22246c16b199b66449f45235e0e785a1ac
 workflow-type: tm+mt
-source-wordcount: 1722
-ht-degree: 29%
+source-wordcount: 1696
+ht-degree: 30%
 
 ---
 
@@ -40,10 +40,6 @@ ht-degree: 29%
 Die vorhandenen **Asset** und **Inhaltsfragment-Selektor** Erlebnisse in Adobe Journey Optimizer-Workflows werden durch &quot;**&quot;**. Content Advisor bietet eine KI-gestützte, einheitliche Oberfläche zur Erkennung und Auswahl von Assets, Inhaltsfragmenten und Dynamic Media direkt in Ihren AJO-Authoring-Workflows. Bestehende Integrationen funktionieren während der Übergangszeit weiterhin.
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Diese Integration gilt nur für **Adobe Experience Manager as a Cloud Service Sites** für **Inhaltsfragmente**. Journey Optimizer liest Fragmente aus der **Veröffentlichungsebene** (nicht aus der Autorenebene).
 
 Die Integration zwischen Adobe Experience Manager und Journey Optimizer folgt diesem Datenfluss:
 
