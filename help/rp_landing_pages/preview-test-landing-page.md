@@ -28,7 +28,7 @@ Gewährleisten Sie einen fehlerfreien Nachrichtenversand, indem Sie Fehler erken
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Erfahren Sie, wie Sie Ihre Inhalte in der Vorschau anzeigen und testen können
 
@@ -38,7 +38,7 @@ Erfahren Sie, wie Sie mit Testprofilen und Beispieleingabedaten Inhalte in der V
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Informationen zum Auswählen von Testprofilen
 
@@ -48,7 +48,7 @@ Hier erfahren Sie, wie Sie Testprofile auswählen und verwalten können, um pers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Anzeigen des Inhalts in der Vorschau mithilfe von Testprofilen
 
@@ -58,7 +58,7 @@ Schrittweise Anleitung zur Vorschau personalisierter Inhalte mithilfe von Testpr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
 
 Durchführen von Testsendungen mit Testprofildaten
 
@@ -68,7 +68,7 @@ Testen und validieren Sie Ihre E-Mail-Nachrichten, indem Sie Testsendungen mithi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=de)
 
 Informationen zum Testen des E-Mail-Renderings mit Litmus
 
@@ -78,7 +78,7 @@ Integrieren Sie Litmus, um das E-Mail-Rendering in gängigen E-Mail-Clients in d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Informationen zum Simulieren und Testen von Inhaltsvarianten
 
