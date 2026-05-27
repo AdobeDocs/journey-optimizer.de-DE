@@ -505,7 +505,7 @@ Boolesche Funktionen werden verwendet, um eine boolesche Logik auf verschiedene 
         <td><a href="operators.md#and">Und</a></td><td>Dieser Operator erstellt eine logische Konjunktion</td>
     </tr>
     <tr>
-        <td><a href="operators.md#or">Oder</a></td><td>Dieser Operator erstellt eine logische Disjunktion</td>
+        <td><a href="operators.md#or">Or</a></td><td>Dieser Operator erstellt eine logische Disjunktion</td>
     </tr>
 </table>
 
