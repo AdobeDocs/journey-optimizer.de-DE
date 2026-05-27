@@ -192,5 +192,5 @@ Gehen Sie folgendermaßen vor, wenn Sie auf anhaltende Fehler stoßen, die mit d
 
 **Verwandte Themen**
 
-* [Entmystifizierung [!DNL Adobe Journey Optimizer] Fehler-Codes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Entmystifizierung [!DNL Adobe Journey Optimizer] Fehler-Codes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de){target="_blank"}
 * [Entmystifizierung [!DNL Adobe Journey Optimizer] Fehler-Codes: Teil 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=de){target="_blank"}

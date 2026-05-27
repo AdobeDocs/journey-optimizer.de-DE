@@ -25,7 +25,7 @@ Mit dem Entscheidungs-Management von Adobe Journey Optimizer können Marketing-F
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
 
 Einführung in das Entscheidungs-Management
 
@@ -35,7 +35,7 @@ Erfahren Sie mehr über das Entscheidungs-Management in Adobe Journey Optimizer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 Leitlinien und Einschränkungen für das Entscheidungs-Management
 
@@ -45,7 +45,7 @@ Machen Sie sich mit den betrieblichen Einschränkungen und Leistungsschwellen de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 Handbuch zur Benutzeroberfläche der Angebotsbibliothek
 
@@ -55,7 +55,7 @@ Erkunden Sie die Benutzeroberfläche und Funktionen der Angebotsbibliothek, um A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
 
 Wichtigste Schritte bei der Angebotserstellung und -verwaltung
 
@@ -65,7 +65,7 @@ Folgen Sie einer schrittweisen Anleitung zum Erstellen, Verwalten und Konfigurie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 Nutzen benutzerdefinierter Upload-Zielgruppen zur Entscheidungsfindung
 
@@ -75,7 +75,7 @@ Erfahren Sie, wie Sie Eignungskriterien verfeinern und Angebote mithilfe von ben
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Verwenden personalisierter Angebote in einer E-Mail
 
