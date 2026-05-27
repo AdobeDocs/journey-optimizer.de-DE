@@ -37,7 +37,7 @@ Richten Sie eine **Assurance-** ein, um SDK-Ereignisse zu erfassen und die Berei
 * Push-Token-Registrierung
 * Live-Aktivitäts-Lebenszyklus-Ereignisse
 
-Wie Sie Assurance einrichten, erfahren Sie in der Dokumentation zu [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Wie Sie Assurance einrichten, erfahren Sie in der Dokumentation zu [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/de/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Hinweis**: Stellen Sie für iOS Live-Aktivitäten sicher, dass Ihre App auf einem physischen iOS-Gerät (iOS 16.1 oder höher) oder Xcode-Simulator (iOS 16.1 oder höher) ausgeführt wird.
 
