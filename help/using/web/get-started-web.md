@@ -85,7 +85,7 @@ Die detaillierten Schritte zum Erstellen einer Web-Kampagne finden Sie in [diese
 </td>
 </tr></table>
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * **[Erstellen von Web-Erlebnissen](create-web.md)** – Erfahren Sie, wie Sie Web-Kampagnen und -Journeys erstellen und konfigurieren, um Web-Inhalte zu ändern.
 * **[Voraussetzungen für den Web-Kanal](web-prerequisites.md)** – Machen Sie sich mit den technischen Anforderungen und der Einrichtung vertraut, die für die Implementierung des Web-Kanals erforderlich sind.

@@ -134,7 +134,7 @@ Nein. Anfragende Personen können nicht manuell auswählen, welche Benutzergrupp
 
 +++
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * **[Erstellen von Genehmigungsrichtlinien](approval-policies.md)** – Erfahren Sie, wie Sie Genehmigungsrichtlinien einrichten, um Überprüfungs-Workflows für Kampagnen und Journeys durchzusetzen.
 * **[Genehmigung von Anfragen](request-approval.md)** – Verstehen Sie, wie Sie Inhalte zur Genehmigung einreichen und den Genehmigungsstatus verfolgen.

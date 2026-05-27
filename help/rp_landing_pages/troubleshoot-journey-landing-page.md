@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 94%
+source-wordcount: '574'
+ht-degree: 95%
 
 ---
 
@@ -120,7 +120,7 @@ Erfahren Sie, was Sie bei der Kontaktaufnahme mit dem Adobe-Support einbeziehen 
 
 ::::
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * [Häufig gestellte Fragen zu Journeys](../using/building-journeys/journey-faq.md) – Umfassende Antworten auf häufige Fragen zu Journeys, einschließlich Journey-Typen, Ausführung, Konfiguration und Best Practices für die Fehlerbehebung.
 
