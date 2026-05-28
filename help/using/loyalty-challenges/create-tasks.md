@@ -11,10 +11,12 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 18%
+source-wordcount: 1145
+ht-degree: 11%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 18%
 
 **Konfigurieren und Integrieren**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Herausforderungen bei der Treue konfigurieren](loyalty-admin.md)
 * [Treuedaten und -datensätze](loyalty-data-and-datasets.md)
 * [API-Referenz für Herausforderungen im Treueprogramm](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -56,7 +58,7 @@ ht-degree: 18%
 >
 >Diese Funktion befindet sich derzeit in der **privaten Betaversion**. Ausführliche Informationen zum Veröffentlichungszyklus und zur Verfügbarkeitsphase finden Sie unter [Veröffentlichungszyklus für Journey Optimizer](../rn/releases.md).
 
-Aufgaben definieren die spezifischen Aktionen oder Meilensteine, die Kundinnen und Kunden abschließen müssen, um bei einer Herausforderung im Rahmen des Treueprogramms Belohnungen zu erhalten. Sie können Aufgabentypen, Mengen und Produktanforderungen konfigurieren, um ansprechende und personalisierte Treueerlebnisse zu schaffen.
+Aufgaben definieren die spezifischen Aktionen oder Meilensteine, die Kundinnen und Kunden abschließen müssen, um bei einer Herausforderung im Rahmen des Treueprogramms Belohnungen zu erhalten. Sie können Kauf- und Ausgabenaufgaben oder **[!UICONTROL Benutzerspezifische Ereignisse“-]** konfigurieren, mit denen Adobe Experience Platform-Erlebnisereignisse verfolgt werden, die Ihr Unternehmen bereits erfasst.
 
 Jede Aufgabe stellt eine messbare Aktion dar, die zum Abschluss der Herausforderung beiträgt. Aufgaben sind wiederverwendbare Komponenten, die unabhängig erstellt und dann zu einer oder mehreren Herausforderungen hinzugefügt oder direkt in einer Herausforderung erstellt werden können.
 
@@ -65,7 +67,7 @@ Jede Aufgabe stellt eine messbare Aktion dar, die zum Abschluss der Herausforder
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="Erstellen einer Aufgabe"
->abstract="Wählen Sie eine Kundenaktivität („Kauf“ oder „Ausgaben“) aus und konfigurieren Sie dann aktivitätsspezifische Attribute: Mengen oder Beträge, geeignete Artikel und Ausschlüsse sowie optionale Limits wie Mindestausgaben oder maximale Transaktionen. Legen Sie im Bereich „Eigenschaften“ den Namen und die Beschreibung der Aufgabe fest."
+>abstract="Wählen Sie eine Kundenaktivität aus (Kauf, Ausgaben oder benutzerspezifisches Ereignis) und konfigurieren Sie dann aktivitätsspezifische Attribute. Legen Sie im Bereich „Eigenschaften“ den Namen und die Beschreibung der Aufgabe fest."
 
 Sie können Aufgaben aus zwei Einstiegspunkten erstellen. Der Konfigurationsprozess ist unabhängig davon, wo Sie beginnen, identisch.
 
@@ -91,7 +93,7 @@ Wählen Sie den Aktivitätstyp aus, den Kunden ausführen müssen, um diese Aufg
 
 * **[!UICONTROL Kauf]**: Kunden müssen einen oder mehrere Artikel kaufen, um diese Aufgabe abzuschließen
 * **[!UICONTROL Ausgaben]**: Kunden müssen einen bestimmten Betrag ausgeben, um diese Aufgabe abzuschließen
-<!-- * **[!UICONTROL Custom event]**: Customers must perform an activity tracked as an Adobe Experience Platform event. The event must be defined in **[!UICONTROL Loyalty Admin]** before you can select it here. [Learn how to create event definitions](loyalty-admin.md#event-definitions) -->
+* **[!UICONTROL Benutzerspezifisches Ereignis]**: Kunden müssen eine Aktivität ausführen, die durch ein Adobe Experience Platform-Erlebnisereignis repräsentiert wird. Zum Beispiel ein Hotel-Check-in, eine Mobile-App-Aktion oder eine Überprüfung der Übermittlung. Das zugrunde liegende Ereignis muss bereits in Experience Platform erfasst und über eine Ereignisdefinition im Menü **[!UICONTROL Treueprogramm-Admin]** zugeordnet worden sein. [Erfahren Sie, wie Sie Ereignisdefinitionen konfigurieren](loyalty-admin.md#event-definitions)
 
 Um eine Aktivität auszuwählen, klicken Sie auf das Symbol **+** und wählen Sie die Kundenaktivität aus, die am besten zu Ihren Ergebniszielen passt. Jeder Aktivitätstyp verfügt über bestimmte konfigurierbare Attribute, um die Aufgabenanforderungen weiter zu definieren und zu gestalten.
 ![](assets/task-create-activity.png)
@@ -123,6 +125,14 @@ Verfügbare Attribute für **Ausgaben**-Aktivitäten:
 
 ![](assets/task-create-spend.png)
 
+>[!TAB Aktivität für benutzerspezifische Ereignisse]
+
+Verfügbare Attribute für Aktivitäten **[!UICONTROL benutzerdefiniertes Ereignis]**:
+
+* **[!UICONTROL Benutzerdefinierte Ereigniswerte]**: Geben Sie die Werte für das benutzerdefinierte Ereignis ein, das Kundinnen und Kunden abschließen müssen. Trennen Sie die Werte mit Kommas. Diese Werte müssen mit den Ereignisdefinitionen übereinstimmen, die im Menü **[!UICONTROL Treueprogramm-Admin]** konfiguriert sind. [Erfahren Sie, wie Sie Ereignisdefinitionen konfigurieren](loyalty-admin.md#event-definitions)
+
+![](assets/task-create-custom.png)
+
 >[!ENDTABS]
 
 ## Definieren der geeigneten Artikel und Ausschlüsse {#eligible-items-exclusions}
@@ -134,7 +144,9 @@ Verfügbare Attribute für **Ausgaben**-Aktivitäten:
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-Sowohl für die Aktivität **Kauf** als auch für die Aktivität **Ausgaben** können Sie das Attribut **[!UICONTROL Geeignete Artikel und Ausschlüsse]** verwenden, um festzulegen, welche Artikel und Gruppen zulässig und welche ausgeschlossen sind. Auf diese Weise können Sie bestimmte Produkte, Kategorien oder Standorte auswählen, um sie an Ihre Challenge-Ziele anzupassen.
+Für **Kauf** und **Ausgaben** können Sie das Attribut **[!UICONTROL Mögliche Artikel und Ausschlüsse]** verwenden, um festzulegen, welche Artikel und Gruppen förderfähig sind und welche ausgeschlossen werden. Auf diese Weise können Sie bestimmte Produkte, Kategorien oder Standorte auswählen, um sie an Ihre Challenge-Ziele anzupassen. Produktgruppen und Ausschlussgruppen, die im Menü **[!UICONTROL Treueprogramm-Admin]** hochgeladen wurden, sind verfügbar, wenn Sie dieses Attribut konfigurieren. [Erfahren Sie, wie Sie den Produktbestand und Ausschlüsse konfigurieren](loyalty-admin.md#product-inventory)
+
+**[!UICONTROL Benutzerspezifisches Ereignis]** Aufgaben verwenden keine zulässigen Elemente und Ausschlüsse. Der Abschluss wird durch die von Ihnen **[!UICONTROL benutzerdefinierten Ereigniswerte]** gesteuert.
 
 Sie können beispielsweise eine Aufgabe auf bestimmte Produktkategorien beschränken oder Geschenkgutscheine oder Werbeartikel von der Zählung für die Aufgabenfertigstellung ausschließen.
 
