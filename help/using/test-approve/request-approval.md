@@ -15,10 +15,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 477
-ht-degree: 90%
+source-wordcount: 431
+ht-degree: 77%
 
 ---
 
@@ -34,10 +34,10 @@ Der Zugriff auf den Genehmigungs-Workflow hängt vom jeweiligen Anwendungsfall a
 
 * **Aktive Genehmigungsrichtlinien vorhanden**
 
-   * **Kampagnen**: Wenn eine oder mehrere aktive Genehmigungsrichtlinien für das Kampagnenobjekt in einer Sandbox vorhanden sind, wird für alle Kampagnen in dieser Sandbox die Schaltfläche **[!UICONTROL Genehmigung anfordern]** angezeigt.
+   * **Kampagnen**: Wenn für das Kampagnenobjekt in einer Sandbox eine oder mehrere aktive Validierungsrichtlinien vorhanden sind, wird für alle Kampagnen in dieser Sandbox die Schaltfläche **[!UICONTROL Genehmigung anfordern]** angezeigt.
 Wenn beim Klicken auf die Schaltfläche **[!UICONTROL Genehmigung anfordern]** keine Genehmigungsrichtlinie für das ausgewählte Objekt gilt, wird der Workflow für die automatische Genehmigung ausgelöst.
 
-   * **Journeys**: Wenn eine oder mehrere aktive Genehmigungsrichtlinien für das Journey-Objekt in einer Sandbox vorhanden sind, wird für alle Journeys die Schaltfläche **[!UICONTROL Genehmigung anfordern]** angezeigt.
+   * **Journey**: Wenn für das Journey-Objekt in einer Sandbox eine oder mehrere aktive Genehmigungsrichtlinien vorhanden sind, wird für alle Journey die Schaltfläche **[!UICONTROL Genehmigung anfordern]** angezeigt.
 Wenn beim Klicken auf die Schaltfläche **[!UICONTROL Genehmigung anfordern]** keine Genehmigungsrichtlinie für das ausgewählte Objekt gilt, wird der Workflow für die automatische Genehmigung ausgelöst.
 
 ## Genehmigungsanforderung senden

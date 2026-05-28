@@ -15,10 +15,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 191
-ht-degree: 98%
+source-wordcount: 151
+ht-degree: 67%
 
 ---
 
@@ -35,14 +35,14 @@ Orchestrierte Kampagnen bieten Ihnen durch ihre zuverlässigen Reporting-Funktio
     <tr>
       <td><a href="../reports/live-report.md"><img alt="Live-Bericht" src="assets/last-24hours.png"></a></td>
       <td>
-        Verwenden Sie den <b>Live-Bericht</b>, um in einem integrierten Dashboard die Wirkung und Leistung Ihrer orchestrierten Kampagnen in Echtzeit zu messen und zu visualisieren. Die Daten sind im <b>Live-Bericht</b> über das Menü <b>Bericht für letzte 24 Stunden anzeigen</b> verfügbar, sobald Ihre orchestrierte Kampagne ausgeführt wird. Weitere Informationen zu Live-Berichten sind in <a href="../reports/live-report.md">diesem Abschnitt</a> verfügbar.
+        Verwenden Sie den <b>Live-</b>), um die Wirkung und Leistung Ihrer orchestrierten Kampagnen in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren. Die Daten sind im <b>Live-Bericht</b> verfügbar, sobald Ihre orchestrierte Kampagne im Menü <b>Letzte 24-Stunden-Bericht anzeigen</b> ausgeführt wird. Weitere Informationen zu Live-Berichten <a href="../reports/live-report.md">in diesem Abschnitt</a>.
       </td>
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Bericht für die gesamte Zeit" src="assets/all-time-report.png"></a></td>
       <td>
-        Der <b>Bericht für die gesamte Zeit</b> ist vollständig mit Customer Journey Analytics-Funktionen integriert, wodurch das Reporting plattformübergreifend standardisiert wird und Datenkonsistenz und -zuverlässigkeit verbessert werden. Weitere Informationen zu Berichten für die gesamte Zeit sind <a href="../reports/report-gs-cja.md">in diesem Abschnitt</a> verfügbar.
+        <b>All Time Report</b> ist vollständig in die Funktionen von Customer Journey Analytics integriert, wodurch das Reporting auf beiden Plattformen standardisiert und die Konsistenz und Zuverlässigkeit der Daten verbessert wird. Weitere Informationen zu allen Zeitberichten finden Sie <a href="../reports/report-gs-cja.md">in diesem Abschnitt</a>.
       </td>
     </tr>
   </tbody>

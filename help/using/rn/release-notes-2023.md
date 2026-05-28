@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
-source-wordcount: 4441
-ht-degree: 99%
+source-wordcount: 4372
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <td>
 <p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. Beachten Sie, dass diese Funktion derzeit nur mit Sinch verfügbar ist.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>Weitere Informationen finden Sie im <a href="../mobile/create-mobile-message.md#mms-content">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../mobile/create-mobile-message.md#mms-content">ausführlichen Dokumentation</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -125,8 +125,8 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Berechnete Attribute ermöglichen eine einfache Zusammenfassung von Ereignisdaten in Profilattributen über eine intuitive Benutzeroberfläche für eine verbesserte verhaltensbasierte Segmentierung, Personalisierung und Aktivierung. Mit dieser Funktion können Sie berechnete Attribute selbstständig erstellen, verwalten und in Segmentierung, Echtzeit-Kundenprofilzielen oder Journey Optimizer verwenden.<br/><br/>
-Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-Workflows vereinfacht, sodass Sie relevante Erlebnisse nahtlos bereitstellen können. Weitere Informationen finden Sie in der <a href="../audience/computed-attributes.md">detaillierten Dokumentation</a>.</p>
+<p>Berechnete Attribute ermöglichen es, Ereignisdaten über eine intuitive Benutzeroberfläche einfach in Profilattribute zusammenzufassen, was die verhaltensbasierte Segmentierung, Personalisierung und Aktivierung verbessert. Mit dieser Funktion können Sie berechnete Attribute im Self-Service erstellen, verwalten und in der Segmentierung, bei Echtzeit-Kundenprofilzielen oder in Journey Optimizer verwenden.<br/><br/>
+Darüber hinaus vereinfachen berechnete Attribute die Segmentierung und das Journey von Workflows, damit relevante Erlebnisse nahtlos bereitgestellt werden können. Weitere Informationen finden Sie in <a href="../audience/computed-attributes.md">ausführlichen Dokumentation</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -278,7 +278,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <td>
 <p>Sie können in Journey Optimizer jetzt Testadressenlisten erstellen und verwalten. Eine Testadressenliste besteht aus internen Adressen, die zu Ihrer eigentlichen Zielgruppe hinzugefügt werden können und zum Zeitpunkt der Versandausführung genau die gleiche Nachricht wie die angesprochenen Profile erhalten. Mit dieser Funktion können Sie die gesendeten Kommunikationen überwachen und sicherstellen, dass alle Anzeigeformate, URLs, Bilder und Links korrekt sind.</p>
 <img src="../configuration/assets/seed-list-details.png">
-<p>Weitere Informationen finden Sie im <a href="../configuration/seed-lists.md">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/seed-lists.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -324,7 +324,7 @@ A new option is available in the email surface settings to include email address
 **Journeys**
 
 * Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Diese Funktion ist derzeit als Betaversion verfügbar. [Weitere Informationen](../action/action-response.md).
-* Eine neue Art von Systemwarnung wurde eingeführt. Sie können sich jetzt benachrichtigen lassen, wenn eine benutzerdefinierte Aktion fehlschlägt. [Weitere Informationen](../reports/alerts.md).
+* Ein neuer Typ von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine benutzerdefinierte Aktion fehlschlägt. [Weitere Informationen](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
@@ -405,7 +405,7 @@ A new option is available in the email surface settings to include email address
 <td>
 <p>Zusätzlich zu Kampagnen und Journeys können Sie Ihren Landingpages, Inhaltsvorlagen, Fragmenten und Abonnement-Listen jetzt einheitliche Tags von Adobe Experience Platform zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie im <a href="../start/search-filter-categorize.md#tags">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -601,7 +601,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>KI-Ranking-Modelle für personalisierte Optimierung sind jetzt allgemein im Entscheidungs-Management verfügbar. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Zielgruppen und der Angebots-Performance.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>Weitere Informationen finden Sie im <a href="../offers/ranking/personalized-optimization-model.md">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../offers/ranking/personalized-optimization-model.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -720,7 +720,7 @@ Information below is subject to change without prior notice until the release av
 <li>Verwenden Sie die Registerkarte <strong>Durchsuchen</strong>, um auf die Liste aller Journeys zuzugreifen.</li></ul>
 <p>Diese Funktion ist in allen Journeys als öffentliche Beta-Version verfügbar.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>Weitere Informationen finden Sie im <a href="../building-journeys/journey-gs.md#journey-access">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-gs.md#journey-access">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -775,7 +775,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>Mit dem Klick-Tracking für SMS können Sie die Leistung Ihrer gekürzten URLs überwachen, feststellen, wer auf sie geklickt hat, und diese Daten verwenden, um Kundinnen und Kunden mit nachfolgenden Kampagnen erneut anzusprechen.</p>
+<p>Mit dem Klick-Tracking für SMS können Sie die Performance Ihrer gekürzten URLs überwachen, feststellen, wer auf sie geklickt hat, und diese Daten verwenden, um Kundinnen und Kunden mit nachfolgenden Kampagnen erneut anzusprechen.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../mobile/create-mobile-message.md#sms-content">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -877,7 +877,7 @@ Information below is subject to change without prior notice until the release av
 <p>Es kann jetzt eine Live-Verbindung mit Cloud-Speicherorten hergestellt werden, um den Inhalt der Datensätze zu exportieren. Verfügbare Ziele sind: Amazon S3-Cloud-Speicherziele, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
 <p><strong>Vorsicht</strong> – Diese Funktion befindet sich derzeit in der Beta-Phase und steht allen Adobe Journey Optimizer-Benutzenden zur Verfügung. Bitte wenden Sie sich an den Adobe-Support, um Zugang zu Zielen zu erhalten, falls Sie noch keinen Zugang haben.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-<p>Weitere Informationen finden Sie im <a href="../data/export-datasets.md">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../data/export-datasets.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -1001,7 +1001,7 @@ Note that each widget can be resized and deleted as needed.
 <p>Sie können jetzt eigenständige Inhaltsvorlagen erstellen, die schnell in Journeys und Kampagnen wiederverwendet werden können.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Wie Sie Inhaltsvorlagen erstellen, bearbeiten und verwenden, erfahren Sie in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=de">diesem Video</a>. Weitere Informationen finden Sie in der <a href="../content-management/content-templates.md">ausführlichen Dokumentation</a>.
+<p>In diesem Video erfahren Sie, wie Sie Inhaltsvorlagen erstellen<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=de"> bearbeiten und </a>. Weitere Informationen finden Sie im Abschnitt <a href="../content-management/content-templates.md">Detaillierte Dokumentation</a>.
 </p>
 </td>
 </tr>

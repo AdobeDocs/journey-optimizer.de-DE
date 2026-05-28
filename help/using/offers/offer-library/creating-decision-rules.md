@@ -24,10 +24,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 469
-ht-degree: 90%
+source-wordcount: 432
+ht-degree: 86%
 
 ---
 
@@ -50,7 +50,7 @@ Sie können beispielsweise angeben, dass ein „Angebot von Winterkleidung für 
 Im Folgenden finden Sie eine Liste der Einschränkungen, die bei der Arbeit mit Entscheidungsregeln zu beachten sind:
 
 * Bei der Edge-Entscheidung wird das Edge-Profil verwendet, in dem keine Ereignisse gespeichert werden. Daher sind alle in einer Edge-Entscheidung verwendeten Regeln ungültig.
-* Beim Erstellen einer Entscheidungsregel wird ein Rückblick in einen vorherigen Zeitraum nicht unterstützt. So kann es beispielsweise sein, dass Sie als Bestandteil der Regel ein Erlebnisereignis angeben, das innerhalb des letzten Monats stattgefunden hat. Bei jedem Versuch, einen Rückblick-Zeitraum während der Regelerstellung einzubeziehen, wird beim Speichern ein Fehler ausgelöst.
+* Beim Erstellen einer Entscheidungsregel wird der Rückblick auf einen früheren Zeitraum nicht unterstützt. Beispiel: Sie geben ein Erlebnisereignis, das innerhalb des letzten Monats aufgetreten ist, als Komponente der Regel an. Jeder Versuch, während der Regelerstellung eine Lookback-Periode einzuschließen, führt beim Speichern zu einem Trigger.
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## Erstellen einer Entscheidungsregel {#create}

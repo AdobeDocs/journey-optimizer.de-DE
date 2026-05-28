@@ -25,10 +25,10 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2352
-ht-degree: 82%
+source-wordcount: 2296
+ht-degree: 79%
 
 ---
 
@@ -39,8 +39,8 @@ ht-degree: 82%
 >title="Beispiele für Prompts"
 >abstract="In der Journey Optimizer-Dokumentation erfahren Sie, wie Sie effektive Prompts erstellen, die markenkonforme Marketing-Inhalte mit hoher Konversionsrate generieren."
 
-Dieser Leitfaden hilft Ihnen, Ihre Anfragen zu strukturieren, Ihre Absichten klar und deutlich zu kommunizieren und sicherzustellen, dass die KI Nachrichten generiert, die auf Ihre Markenrichtlinien, Zielgruppenanforderungen und Kampagnenziele abgestimmt sind.
-Erfahren Sie, wie Sie effektive Prompts schreiben, mit denen der KI-Assistent hochwertige markenkonforme Marketing-Inhalte generieren kann, die auf Ihre Ziele abgestimmt sind.
+Dieser Leitfaden hilft Ihnen, Ihre Anfragen zu strukturieren, den Zweck klar und deutlich zu kommunizieren und sicherzustellen, dass die KI Botschaften produziert, die mit Ihren Markenrichtlinien, Zielgruppenanforderungen und Kampagnenzielen übereinstimmen.
+Erfahren Sie, wie Sie effektive Eingabeaufforderungen schreiben, mit denen der KI-Assistent hochwertige markeninterne Marketing-Inhalte generieren kann, die auf Ihre Ziele zugeschnitten sind.
 
 ## Verwenden des Eingabeaufforderungs-Assistenten {#prompt-assistant}
 
@@ -208,8 +208,8 @@ Achten Sie bei der Formulierung von Marketing-Zielen darauf, dass diese klar, um
 
 ### Strukturieren des Ziels
 
-Geben Sie immer den Kontext und das Wertversprechen an, damit die KI relevante Inhalte generieren kann.
-Verwenden Sie diese Formel, um effektive Ziele zu formulieren: **Aktion + Produkt/Service + Wert/Nutzen + Dringlichkeit/Kontext**
+Geben Sie immer den Kontext und das Wertversprechen an, damit KI relevante Inhalte generieren kann.
+Verwenden Sie diese Formel, um effektive Ziele zu schreiben: **Aktion + Produkt/Service + Wert/Nutzen + Dringlichkeit/Kontext**
 
 **Beispiele für gute Ziele:**
 
@@ -321,7 +321,7 @@ In der folgenden Tabelle finden Sie Details zu jedem Ton sowie die geeigneten An
 >Wenn Sie bereits ein Marken-Asset über das Menü **Marken-Assets** hochgeladen haben, müssen Sie im Prompt nicht darauf verweisen. Das System verwendet automatisch alle ausgewählten Dokumente.
 
 Marken-Assets bieten sachliche Informationen, die Ihre generierten Inhalte mit spezifischen, genauen Details anreichern.
-Wenn Sie umfangreiche Dokumente wie Produktbroschüren hochladen, geben Sie in Ihrem Prompt an, welche Abschnitte im Vordergrund stehen:
+Wenn Sie umfangreiche Dokumente wie Produktbroschüren hochladen, fügen Sie Ihrer Eingabeaufforderung hinzu, auf welche Teile Sie sich konzentrieren müssen:
 
 * **Anstelle von** _„Verwende die Produktbroschüre“_ **sollten Sie** _„Lege den Fokus auf die erweiterten Sicherheitsfunktionen und Compliance-Zertifizierungen, insbesondere auf die SOC 2-Konformität und die Datenverschlüsselung“_ verwenden
 
