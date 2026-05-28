@@ -11,15 +11,18 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: d4ea4f32486c74b97e4a8d6ddd29e98c75fba060
 workflow-type: tm+mt
-source-wordcount: 275
-ht-degree: 80%
+source-wordcount: 281
+ht-degree: 79%
 
 ---
 
@@ -59,6 +62,7 @@ Die vollständige Liste der Leitlinien und Einschränkungen für [!DNL Journey O
 | ------- | ------- |
 | Anzahl der Auswahlstrategien und manuellen Elemente pro Entscheidungsrichtlinie | 10 |
 | Max. zurückgegebene Entscheidungselemente pro Entscheidungsrichtlinie | 30 |
+| Max. Entscheidungsrichtlinien pro E-Mail | 10 |
 
 ## Eignungsregeln {#eligibility-rules}
 
