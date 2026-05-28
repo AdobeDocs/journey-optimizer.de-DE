@@ -11,23 +11,13 @@ keywords: Journey, Anwendungsfall, Werktage, Bedingung, E-Mail, Planung
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
 TQID: https://experienceleague.adobe.com/qUt7t5LTYSQW278Pafx2-1t-DboRz9tU5IRpVhuEqLc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
 workflow-type: tm+mt
 source-wordcount: 1078
 ht-degree: 89%
@@ -72,7 +62,7 @@ Führen Sie diese Schritte aus, um den E-Mail-Fluss nur für Wochentage zu erste
 
 Fügen Sie direkt nach dem Start der Journey eine Aktivität des Typs **[!UICONTROL Bedingung]** hinzu, um zu prüfen, ob der aktuelle Tag ein Samstag oder Sonntag ist. Dadurch wird der Workflow entsprechend verzweigt.
 
-1. Ziehen Sie eine Aktivität [**[!UICONTROL Optimieren &#x200B;]**&#x200B;auf &#x200B;](optimize.md) Arbeitsfläche nach Ihrem Einstiegspunkt.
+1. Ziehen Sie eine Aktivität [**[!UICONTROL Optimieren ]**auf ](optimize.md) Arbeitsfläche nach Ihrem Einstiegspunkt.
 
 1. Klicken Sie auf die Aktivität des Typs **[!UICONTROL Bedingung]**, um das zugehörige Konfigurations-Panel zu öffnen.
 
