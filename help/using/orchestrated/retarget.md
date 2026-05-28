@@ -6,8 +6,10 @@ description: Erfahren Sie, wie Sie mit Adobe Journey Optimizer orchestrierte Kam
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 909
@@ -46,7 +48,7 @@ Mithilfe dieser Daten können Sie Regeln definieren, um Empfängerinnen und Empf
 
    1. Wählen Sie die Filterregel und anschließend das **[!UICONTROL Verhalten]** das Sie ansprechen möchten, z. B. **[!UICONTROL Nachricht gesendet]**.
 
-   1. Klicken Sie auf ![Ordnersymbol ](assets/do-not-localize/folder-search.svg) , um die spezifische Kampagne auszuwählen, die Sie neu ansprechen möchten. Sie haben zwei Möglichkeiten:
+   1. Klicken Sie auf ![Ordnersymbol &#x200B;](assets/do-not-localize/folder-search.svg) , um die spezifische Kampagne auszuwählen, die Sie neu ansprechen möchten. Sie haben zwei Möglichkeiten:
 
       * **[!UICONTROL Spezifische Kampagne auswählen]**: Wählen Sie eine bestimmte Kampagne aus Ihrer Liste aus, um Empfänger, die mit dieser Kampagne interagiert haben, erneut anzusprechen.
 
@@ -137,7 +139,7 @@ Um Empfängerinnen und Empfänger auf der Grundlage von Interaktionen mit Nachri
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. Klicken Sie auf ![Ordnersymbol ](assets/do-not-localize/folder-search.svg) , um die spezifische Kampagne auszuwählen, die Sie neu ansprechen möchten. Sie haben zwei Möglichkeiten:
+   1. Klicken Sie auf ![Ordnersymbol &#x200B;](assets/do-not-localize/folder-search.svg) , um die spezifische Kampagne auszuwählen, die Sie neu ansprechen möchten. Sie haben zwei Möglichkeiten:
 
       * **[!UICONTROL Spezifische Kampagne auswählen]**: Wählen Sie eine bestimmte Kampagne aus Ihrer Liste aus, um Empfänger, die mit dieser Kampagne interagiert haben, erneut anzusprechen.
 
