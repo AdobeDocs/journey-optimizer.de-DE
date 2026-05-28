@@ -6,9 +6,11 @@ description: Erfahren Sie, wie Sie mithilfe der KI-gestützten semantischen Such
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: 837
 ht-degree: 0%
 
 ---
@@ -77,7 +79,7 @@ Die Verfügbarkeit von Dynamic Media hängt von Ihrer Repository-Konfiguration a
 
 * **Scene7**: Verfügbar für veröffentlichte Assets (außer Video und PDF). [Weitere Informationen zu Dynamic Media Scene7-Modifikatoren](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**: Verfügbar für genehmigte Assets (außer Video). [Weitere Informationen zu Dynamic Media mit OpenAPI-Modifikatoren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=de){target="_blank"}
+* **OpenAPI**: Verfügbar für genehmigte Assets (außer Video). [Weitere Informationen zu Dynamic Media mit OpenAPI-Modifikatoren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Sowohl Scene7 als auch OpenAPI**: Verfügbar, wenn beide Konfigurationen vorhanden sind und das Asset die Kriterien erfüllt.
 

@@ -8,9 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Integration, Anbieter, Drittanbieter
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+subfeature_v2: []
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '10154'
+source-wordcount: 10154
 ht-degree: 6%
 
 ---
@@ -1192,7 +1194,7 @@ Basishost hängt von der Region ab (z. B. `https://{{customername}}.module.slgnt
 
 >[!IMPORTANT]
 >
->Diese Konfiguration ist ein anschauliches Muster, das vom Adobe Journey Optimizer-Team getestet wurde. Adobe Target Recommendations ist ein separates Adobe-Produkt mit einem eigenen Versionszyklus und einer eigenen API-Versionierung. Bestätigen Sie stets die aktuellen API-Details mit der [Adobe Target-Entwicklerdokumentation](https://experienceleague.adobe.com/de/docs/target-dev/developer/overview) bevor Sie sie in der Produktionsumgebung bereitstellen.
+>Diese Konfiguration ist ein anschauliches Muster, das vom Adobe Journey Optimizer-Team getestet wurde. Adobe Target Recommendations ist ein separates Adobe-Produkt mit einem eigenen Versionszyklus und einer eigenen API-Versionierung. Bestätigen Sie stets die aktuellen API-Details mit der [Adobe Target-Entwicklerdokumentation](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview) bevor Sie sie in der Produktionsumgebung bereitstellen.
 
 >[!BEGINSHADEBOX]
 
@@ -1218,7 +1220,7 @@ Die folgenden Einschränkungen und Ausschlüsse gelten:
 
 Gehen Sie wie folgt vor, um diese Integration in Journey Optimizer zu konfigurieren. Siehe **Beispiele für Integrationsfelder** z. B. Anfragedetails, und bestätigen Sie diese Werte mit der Anbieterdokumentation für Ihre Umgebung.
 
-1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Versandaufrufe erfolgen häufig **POST** mit einem JSON-Text. Konfigurieren Sie OAuth pro [Target-Authentifizierung](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/configure-authentication){target="_blank"} fügen Sie eine Beispielantwort ein, ordnen Sie Felder zu und testen Sie unter dem erwarteten Volumen.
+1. Folgen Sie [Arbeiten mit Integrationen](integrations.md). Versandaufrufe erfolgen häufig **POST** mit einem JSON-Text. Konfigurieren Sie OAuth pro [Target-Authentifizierung](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"} fügen Sie eine Beispielantwort ein, ordnen Sie Felder zu und testen Sie unter dem erwarteten Volumen.
 
 1. Gehen Sie in Journey Optimizer zu **[!UICONTROL Konfigurationen]** > **[!UICONTROL Verwalten]** und klicken Sie dann auf **[!UICONTROL Integration erstellen]**.
 
@@ -1271,7 +1273,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 **Authentifizierung**
 
-Siehe [Target-Authentifizierungskonfiguration](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/configure-authentication) und fügen Sie JSON zur Payload hinzu.
+Siehe [Target-Authentifizierungskonfiguration](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) und fügen Sie JSON zur Payload hinzu.
 
 **Anfrage-Payload**
 
@@ -1674,7 +1676,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++Beispiele für Integrationsfelder
 
-Das **GET**-Beispiel unten ist veranschaulichend. Für eine SQL-gesteuerte Personalisierung sollten Sie das von Ihrem [&#x200B; unterstützte Muster &#x200B;](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"}Anweisungsausführungs-API“ bevorzugen.
+Das **GET**-Beispiel unten ist veranschaulichend. Für eine SQL-gesteuerte Personalisierung sollten Sie das von Ihrem [ unterstützte Muster ](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"}Anweisungsausführungs-API“ bevorzugen.
 
 | Feld | Wert |
 | --- | --- |
@@ -1758,7 +1760,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispiele für Integrationsfelder. Weitere Informationen [&#x200B; OAuth 2.0-Payload finden Sie in der &#x200B;](https://developer.bynder.com/){target="_blank"} zur Bynder-API .
+Beispiele für Integrationsfelder. Weitere Informationen [ OAuth 2.0-Payload finden Sie in der ](https://developer.bynder.com/){target="_blank"} zur Bynder-API .
 
 | Feld | Wert |
 | --- | --- |
@@ -2181,7 +2183,7 @@ In der folgenden Tabelle sind Beispielwerte für diese Integrationsanfrage aufge
 
 +++ Beispiele für Integrationsfelder
 
-Beispiele für Integrationsfelder. Versionierung [&#x200B; Zugriffstoken finden Sie unter &#x200B;](https://developers.facebook.com/docs/graph-api){target="_blank"}Graph-API“.
+Beispiele für Integrationsfelder. Versionierung [ Zugriffstoken finden Sie unter ](https://developers.facebook.com/docs/graph-api){target="_blank"}Graph-API“.
 
 | Feld | Wert |
 | --- | --- |

@@ -8,9 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 keywords: URL, Link, Personalisierung, Tracking, Kodierung, geschweifte Klammern
-source-git-commit: 91b9ce5398bd62ff1969374be6e5c9f720fb4e31
+feature_v2: []
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 402
 ht-degree: 24%
 
 ---
@@ -25,7 +27,7 @@ Je nach den Profilattributen führen sie Empfänger zu bestimmten Seiten einer W
 
 Gehen Sie wie folgt vor, um eine URL zu personalisieren.
 
-1. Wählen Sie in der E-Mail-Designer ein Inhaltselement aus und [&#x200B; Sie mithilfe der kontextuellen Symbolleiste &#x200B;](message-tracking.md#insert-links)Link einfügen“.
+1. Wählen Sie in der E-Mail-Designer ein Inhaltselement aus und [ Sie mithilfe der kontextuellen Symbolleiste ](message-tracking.md#insert-links)Link einfügen“.
 
    >[!IMPORTANT]
    >
@@ -72,7 +74,7 @@ Journey Optimizer unterstützt auch die Personalisierung **gesamten** URL oder d
 
 [URL-Tracking](url-tracking.md) wird auf der Ebene der Kanalkonfiguration verwaltet und gilt für alle URLs, die im Nachrichteninhalt enthalten sind. Sie können auch URL-Tracking-Parameter für einen einzelnen Link in der E-Mail-Designer personalisieren. Auf diese Weise können Sie einen empfängerspezifischen Parameter an einen einzelnen Link anhängen (z. B. um eine Kennung an Ihre Web-Analyse-Tools zu übergeben).
 
-Wählen Sie dazu [Link einfügen](message-tracking.md#insert-links), klicken Sie auf das Personalisierungssymbol, fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im Personalisierungseditor [&#x200B; gewünschte Profilattribut &#x200B;](../personalization/personalization-build-expressions.md).
+Wählen Sie dazu [Link einfügen](message-tracking.md#insert-links), klicken Sie auf das Personalisierungssymbol, fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im Personalisierungseditor [ gewünschte Profilattribut ](../personalization/personalization-build-expressions.md).
 
 ![](assets/message-tracking-perso-parameter.png)
 

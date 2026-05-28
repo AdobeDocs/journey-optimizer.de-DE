@@ -7,9 +7,11 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: de4f441e-c3a3-4759-a634-bc9029328ebb
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: 764
 ht-degree: 3%
 
 ---
@@ -42,7 +44,7 @@ Beachten Sie Folgendes bei der Verwendung von Inhaltsfragmenten aus [!DNL Adobe 
 * **Aktualisierungen und Versionierung**
    * Für Aktualisierungen ist eine manuelle Neuveröffentlichung durch [!DNL Adobe Experience Manager] erforderlich. Es gibt keine automatische Versionsabstimmung.
    * Wenn ein Inhaltsfragment in [!DNL Adobe Experience Manager] veröffentlicht oder erneut veröffentlicht wird, aktualisiert [!DNL Journey Optimizer] dieses Fragment und aktualisiert **alle Varianten dieses Fragments, auf die verwiesen wird** in aktiven Kampagnen oder Journey.
-   * Die [!DNL Adobe Experience Manager] [Veröffentlichungsaktion](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) kann verzögert werden. Nach Abschluss des Vorgangs erhält [!DNL Journey Optimizer] ein Ereignis und aktualisiert den Inhalt.
+   * Die [!DNL Adobe Experience Manager] [Veröffentlichungsaktion](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) kann verzögert werden. Nach Abschluss des Vorgangs erhält [!DNL Journey Optimizer] ein Ereignis und aktualisiert den Inhalt.
    * Nach einer erfolgreichen Aktualisierung sind Änderungen normalerweise innerhalb von etwa **5 Minuten** für unitäre Journey und im **nächsten Batch** für Batch-Anwendungsfälle verfügbar.
 
 * **Caching und Proofing**
@@ -63,6 +65,6 @@ Wenn beim Arbeiten mit Adobe Experience Manager-Inhaltsfragmenten in Journey Opt
 | **Fehler: Zugriff verweigert (CPES)** | Benutzerrolle ist nicht berechtigt, auf bestimmte Attribute zuzugreifen | Wenden Sie sich an Ihren Systemadministrator, um sicherzustellen, dass Ihre Rolle über die entsprechenden Berechtigungen für das Profil oder die kontextuellen Attribute verfügt, die bei der Personalisierung verwendet werden. |
 | **Fragment zeigt leere oder fehlende Inhalte an** | Fehlende erforderliche Personalisierungsparameter oder Fallback-Werte | Stellen Sie sicher, dass alle erforderlichen Parameter bereitgestellt werden, und erwägen Sie, Fallback-Werte für optionale Attribute hinzuzufügen. |
 | **Bild wird nicht gerendert oder scheint beschädigt zu sein** | Bild-URL im Inhaltsfragment ist ein relativer Pfad oder vom Kanal nicht erreichbar | Verwenden Sie **absolute** URLs (`https://...`) für Bildfelder. Relative Pfade von Adobe Experience Manager werden nicht unterstützt. Bestätigen Sie die URL in einem Browser oder in der Nachrichtenvorschau. |
-| **Experience League AEM-Link gibt 404 zurück** | Veraltetes Lesezeichen, Vorschau-Build oder unveröffentlichte AEM-Hilfeseite | Öffnen Sie [&#x200B; Thema „Inhaltsfragmente mit Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in der Live Experience Manager-Dokumentation und navigieren Sie zum Inhaltsverzeichnis auf der Seite, oder suchen Sie nach dem Abschnittsnamen (z. B. **Dispatcher-Konfiguration**). |
+| **Experience League AEM-Link gibt 404 zurück** | Veraltetes Lesezeichen, Vorschau-Build oder unveröffentlichte AEM-Hilfeseite | Öffnen Sie [ Thema „Inhaltsfragmente mit Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} in der Live Experience Manager-Dokumentation und navigieren Sie zum Inhaltsverzeichnis auf der Seite, oder suchen Sie nach dem Abschnittsnamen (z. B. **Dispatcher-Konfiguration**). |
 
 Wenn das Problem weiterhin besteht, wenden Sie sich mit Details zu Ihrer Inhaltsfragment-ID, der Kampagnen- oder Journey-ID und allen angezeigten Fehlermeldungen an den Adobe-Support.

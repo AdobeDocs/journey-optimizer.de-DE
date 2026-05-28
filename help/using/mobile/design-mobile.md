@@ -7,9 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: 1456
 ht-degree: 24%
 
 ---
@@ -127,7 +129,7 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
 
    ![](assets/sms-content.png)
 
-1. Erstellen Sie mit dem [KI-Assistenten für die Textgenerierung) ansprechende mobile Nachrichten, die auf Ihre Zielgruppe zugeschnitten &#x200B;](../content-management/generative-text.md).
+1. Erstellen Sie mit dem [KI-Assistenten für die Textgenerierung) ansprechende mobile Nachrichten, die auf Ihre Zielgruppe zugeschnitten ](../content-management/generative-text.md).
 
 1. Verwenden Sie den Personalisierungseditor, um Inhalte zu definieren und Personalisierung sowie dynamischen Inhalt hinzuzufügen. Sie können jedes Attribut verwenden, wie etwa Profilname oder Stadt. Sie können auch bedingte Regeln definieren. Auf den folgenden Seiten erfahren Sie mehr über [Personalisierung](../personalization/personalize.md) und [dynamische Inhalte](../personalization/get-started-dynamic-content.md) im Personalisierungseditor.
 
@@ -135,7 +137,7 @@ Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einste
 
    ![](assets/sms_tracking_1.png)
 
-1. Wählen Sie **[!UICONTROL URL]** und klicken Sie auf **[!UICONTROL URL hinzufügen]**. Weitere Informationen zur `Url`-Hilfsfunktion finden Sie [&#x200B; (diesem Abschnitt](../personalization/functions/helpers.md#url).
+1. Wählen Sie **[!UICONTROL URL]** und klicken Sie auf **[!UICONTROL URL hinzufügen]**. Weitere Informationen zur `Url`-Hilfsfunktion finden Sie [ (diesem Abschnitt](../personalization/functions/helpers.md#url).
 
    ![](assets/sms_tracking_2.png)
 

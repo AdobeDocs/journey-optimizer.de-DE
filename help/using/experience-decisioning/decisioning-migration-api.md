@@ -1,19 +1,21 @@
 ---
-title: Decisioning-Migrations-API
+title: Entscheidungsfindungsmigrations-API
 description: Erfahren Sie, wie Sie mit der Decisioning Migration Service-API Entscheidungs-Management-Objekte zwischen Sandboxes mit automatisierter Unterstützung der Abhängigkeitsauflösung und Rollback migrieren können.
 feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: 1175
 ht-degree: 5%
 
 ---
 
-# Decisioning-Migrations-API {#decisioning-migration-api}
+# Entscheidungsfindungsmigrations-API {#decisioning-migration-api}
 
 Mit der Decisioning Migration Service-API können Sie Entscheidungs-Management-Objekte von einer Sandbox in eine andere migrieren. Der Migrationsprozess wird als asynchrone Workflows ausgeführt, die Funktionen zur Abhängigkeitsanalyse, Ausführung und optionales Rollback enthalten.
 
@@ -51,7 +53,7 @@ Zu den typischen Berechtigungen gehören:
 
 >[!NOTE]
 >
->Erfahren Sie in ([&#x200B; Abschnitt), wie Sie &#x200B;](gs-experience-decisioning.md#steps) zuweisen. Eine vollständige Liste der Berechtigungen finden Sie auf der Seite [Integrierte Berechtigungen](../administration/ootb-permissions.md#ootb-permissions) .
+>Erfahren Sie in ([ Abschnitt), wie Sie ](gs-experience-decisioning.md#steps) zuweisen. Eine vollständige Liste der Berechtigungen finden Sie auf der Seite [Integrierte Berechtigungen](../administration/ootb-permissions.md#ootb-permissions) .
 
 ### Vorbereiten der Ziel-Sandbox {#target-sandbox-preparation}
 
@@ -62,7 +64,7 @@ Bevor Sie eine Migration ausführen, stellen Sie sicher, dass Ihre Ziel-Sandbox 
 * **Datensatz** - Identifizieren Sie einen Datensatznamen, der für die Migration verwendet werden soll (`dependency.datasetName`).
 * **Datenstrom** - Festlegen, ob bei der Migration ein Datenstrom erstellt werden soll (`createDataStream`).
 
-Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [&#x200B; und Zuweisen von Sandboxes](../administration/sandboxes.md).
+Weitere Informationen zur Sandbox-Verwaltung finden Sie unter [ und Zuweisen von Sandboxes](../administration/sandboxes.md).
 
 ## API-Grundlagen {#api-basics}
 

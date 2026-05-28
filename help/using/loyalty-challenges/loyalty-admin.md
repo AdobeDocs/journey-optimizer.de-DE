@@ -11,9 +11,11 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: 1642
 ht-degree: 1%
 
 ---
@@ -66,7 +68,7 @@ Die Konfiguration Herausforderungen im Zusammenhang mit dem Treueprogramm verbin
 >
 >Die Konfiguration von Herausforderungen im Zusammenhang mit dem Treueprogramm erfordert zusätzlich zu den für Herausforderungen im Zusammenhang mit dem Treueprogramm erforderlichen Berechtigungen Administratorzugriff auf Ihre [!DNL Journey Optimizer]. Wenden Sie sich an Ihren Adobe-Administrator, um Zugriff zu erhalten.
 
-Navigieren Sie zum Öffnen der Konfigurationsoberfläche zu **[!UICONTROL Treue]** und wählen Sie **[!UICONTROL Treueprogramm-Administrator]** aus. Die Benutzeroberfläche ist in Registerkarten unterteilt:
+Um die Konfigurationsoberfläche zu öffnen, wählen Sie im linken Navigationsbereich das Menü **[!UICONTROL Treueprogramm]** Admin) aus. Die Benutzeroberfläche ist in Registerkarten unterteilt:
 
 * **Globale Einstellungen** - Wählen Sie den Identity-Namespace von Experience Platform für Ihr Programm aus. [Erfahren Sie, wie Sie globale Einstellungen konfigurieren](#global-settings)
 * **Belohnungsanbieter** - Verbinden Sie die APIs, die die Belohnungen erfüllen, wenn Kunden Fortschritte machen oder Herausforderungen meistern. [Erfahren Sie, wie Sie Belohnungsanbieter konfigurieren](#reward-providers)
@@ -199,7 +201,7 @@ Um einen Belohnungsanbieter zu bearbeiten, öffnen Sie die Registerkarte **[!UIC
 >title="Ereignisidentifizierung"
 >abstract="Geben Sie an, wie [!DNL Journey Optimizer] das Ereignis in eingehenden Payloads erkennt, indem Sie einen Kennungspfad, Kennungswerte, eine XDM-Schema-ID oder eine Kombination dieser Felder verwenden."
 
-**[!UICONTROL Ereignisdefinitionen]** teilen [!DNL Journey Optimizer] mit, welche eingehenden Adobe Experience Platform-Erlebnisereignisse verarbeitet werden sollen. Zum Beispiel ein Kauf oder ein Check-in im Hotel. Marketing-Experten verweisen auf diese Definitionen, wenn sie Aufgaben **[!UICONTROL benutzerdefiniertes Ereignis]** erstellen. Ereignisse, die keiner Definition entsprechen, werden ignoriert.
+**[!UICONTROL Ereignisdefinitionen]** teilen [!DNL Journey Optimizer] mit, welche eingehenden Adobe Experience Platform-Erlebnisereignisse verarbeitet werden sollen. Zum Beispiel ein Kauf oder ein Check-in im Hotel. Marketing-Experten verweisen auf diese Definitionen, wenn sie **[!UICONTROL benutzerdefiniertes Ereignis]** Aufgaben im Task Builder erstellen. Ereignisse, die keiner Definition entsprechen, werden ignoriert.
 
 Wenn Ihr Unternehmen Ereignisse im eigenen JSON-Format sendet, helfen **[!UICONTROL Schema]** und **[!UICONTROL Transformer]** dabei, die Payload [!DNL Journey Optimizer] validieren, sie zu analysieren und zu entscheiden, ob die Aktivität verfolgt werden soll.
 

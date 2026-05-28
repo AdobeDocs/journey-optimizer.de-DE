@@ -9,9 +9,11 @@ role: User
 level: Intermediate
 keywords: Fehler, Codes, Fehlerbehebung, Journey, Kampagne, Nachrichten
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: 2351
 ht-degree: 84%
 
 ---
@@ -192,5 +194,5 @@ Gehen Sie folgendermaßen vor, wenn Sie auf anhaltende Fehler stoßen, die mit d
 
 **Verwandte Themen**
 
-* [Entmystifizierung [!DNL Adobe Journey Optimizer] Fehler-Codes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=de){target="_blank"}
+* [Entmystifizierung [!DNL Adobe Journey Optimizer] Fehler-Codes: Teil 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
 * [Entmystifizierung [!DNL Adobe Journey Optimizer] Fehler-Codes: Teil 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=de){target="_blank"}

@@ -8,26 +8,13 @@ role: Admin
 level: Intermediate
 exl-id: d8de1524-9d71-4978-86f5-1cd46f2e265c
 TQID: https://experienceleague.adobe.com/OKMsihU81BssIhueGFaWZUzUFIh-FDuo6sCnB9iwnxE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1137
 ht-degree: 77%
@@ -138,9 +125,9 @@ Die folgenden Schemata und Datensätze sind über den Push-Benachrichtigungskana
 
 ### Konfigurieren der Eigenschaft „pushNotification“ {#push-property}
 
-Um **Web-Push-Benachrichtigungen** zu aktivieren, müssen Sie zunächst sicherstellen, dass die [pushNotifications-Eigenschaft](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/pushnotifications) in der Web-SDK ordnungsgemäß konfiguriert ist. Diese Eigenschaft steuert, wie Push-Benachrichtigungen von Ihrer Web-Anwendung verarbeitet werden.
+Um **Web-Push-Benachrichtigungen** zu aktivieren, müssen Sie zunächst sicherstellen, dass die [pushNotifications-Eigenschaft](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) in der Web-SDK ordnungsgemäß konfiguriert ist. Diese Eigenschaft steuert, wie Push-Benachrichtigungen von Ihrer Web-Anwendung verarbeitet werden.
 
-Darüber hinaus müssen Sie GÜLTIGE Schlüssel generieren, die zum Konfigurieren ([&#x200B; Push-Anmeldeinformationen für Ihre App](#push-credentials-launch) in Journey Optimizer erforderlich sind.
+Darüber hinaus müssen Sie GÜLTIGE Schlüssel generieren, die zum Konfigurieren ([ Push-Anmeldeinformationen für Ihre App](#push-credentials-launch) in Journey Optimizer erforderlich sind.
 
 ## Schritt 1: Hinzufügen von Push-Anmeldedaten für die App in Journey Optimizer {#push-credentials-launch}
 
@@ -195,7 +182,7 @@ Sie können Ihre Konfiguration jetzt beim Erstellen Ihrer Push-Benachrichtigunge
 
 ## Schritt 3: Konfigurieren der Eigenschaft „sendPushSubscription“ {#sendPushSubscription-property}
 
-Nachdem Sie Ihre Push-Anmeldeinformationen und die Kanalkonfiguration eingerichtet haben, müssen Sie [den Befehl sendPushSubscription](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/sendpushsubscription) in Ihrer Web-Anwendung implementieren. Dieser Befehl registriert Benutzer-Push-Abonnements bei Adobe Experience Platform, sodass das System verfolgen kann, welche Benutzer sich für den Empfang von Push-Benachrichtigungen entschieden haben, und ihren Abonnementstatus beibehalten kann. Diese Registrierung ist für Journey Optimizer unerlässlich, um gezielte Push-Benachrichtigungen an Ihre Benutzerinnen und Benutzer zu senden.
+Nachdem Sie Ihre Push-Anmeldeinformationen und die Kanalkonfiguration eingerichtet haben, müssen Sie [den Befehl sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) in Ihrer Web-Anwendung implementieren. Dieser Befehl registriert Benutzer-Push-Abonnements bei Adobe Experience Platform, sodass das System verfolgen kann, welche Benutzer sich für den Empfang von Push-Benachrichtigungen entschieden haben, und ihren Abonnementstatus beibehalten kann. Diese Registrierung ist für Journey Optimizer unerlässlich, um gezielte Push-Benachrichtigungen an Ihre Benutzerinnen und Benutzer zu senden.
 
 ## Schritt 4: Testen Sie Ihre Mobile App mit einem Ereignis {#mobile-app-test}
 

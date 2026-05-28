@@ -7,9 +7,11 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: 70a9be0c253bbed319510058f7f249f5919bf7b8
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: 661
 ht-degree: 16%
 
 ---
@@ -56,7 +58,7 @@ Gehen Sie wie folgt vor, um ein KI-Modell für das Journey-Ranking zu erstellen.
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
 -->
 
-1. Im Abschnitt **[!UICONTROL Optimierungsmetrik]** werden alle Metriken aus Ihrer [!DNL Customer Journey Analytics] ([) &#x200B;](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} Liste angezeigt. Wählen Sie die Metrik aus, für die Sie Ihr Modell optimieren möchten.
+1. Im Abschnitt **[!UICONTROL Optimierungsmetrik]** werden alle Metriken aus Ihrer [!DNL Customer Journey Analytics] ([) ](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} Liste angezeigt. Wählen Sie die Metrik aus, für die Sie Ihr Modell optimieren möchten.
 
    ![Dropdown-Liste Optimierungsmetrik mit Customer Journey Analytics-Metriken für das KI-Modell](assets/journey-model-metrics.png){width="70%"}
 
@@ -75,7 +77,7 @@ Gehen Sie wie folgt vor, um ein KI-Modell für das Journey-Ranking zu erstellen.
    >
    >In der Dropdown-Liste werden nur Datensätze angezeigt, die aus Schemata erstellt wurden **[!UICONTROL die mit der Feldergruppe]** Erlebnisereignis - Vorschlagsinteraktionen“ verknüpft sind. Sie können bis zu 5 Datensätze auswählen.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Wählen Sie die Segmente aus, die zum Trainieren des KI-Modells verwendet werden sollen.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Wählen Sie die Segmente aus, die zum Trainieren des KI-Modells verwendet werden sollen.
 
    >[!NOTE]
    >

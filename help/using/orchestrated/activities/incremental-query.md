@@ -8,9 +8,11 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: 518
 ht-degree: 23%
 
 ---
@@ -54,7 +56,7 @@ Legen Sie die Zielgruppendimension fest, erstellen Sie Ihre Abfrage und wählen 
 
    ![](../assets/incremental-query.png)
 
-1. Klicken Sie **[!UICONTROL Bedingung hinzufügen]**, um die Abfrage zu definieren. [Erfahren Sie, wie Sie den Regel-Builder &#x200B;](../orchestrated-rule-builder.md).
+1. Klicken Sie **[!UICONTROL Bedingung hinzufügen]**, um die Abfrage zu definieren. [Erfahren Sie, wie Sie den Regel-Builder ](../orchestrated-rule-builder.md).
 
    ![](../assets/incremental-query-2.png)
 

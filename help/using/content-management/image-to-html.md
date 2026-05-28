@@ -9,9 +9,11 @@ role: User
 level: Beginner
 keywords: E-Mail, Vorlage, Bild, HTML, KI, Design, Converter
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+feature_v2: []
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '2097'
+source-wordcount: 2097
 ht-degree: 22%
 
 ---
@@ -68,7 +70,7 @@ Um auf diese Funktion zugreifen zu können, muss Ihr Unternehmen das [!DNL Gener
 
 * Um auf Vorlagen zuzugreifen und sie zu erstellen, muss Ihre Rolle die Berechtigung **[!UICONTROL Inhaltsvorlagen verwalten]** (unter der Ressource **Content-Management** enthalten. [Weitere Informationen zu Berechtigungen](../administration/permissions.md)
 
-* Um den Konvertierer für das Bild in HTML verwenden zu können, muss Ihnen die Berechtigung **Inhalt generieren** gewährt werden. Erfahren Sie in [&#x200B; Abschnitt, wie Sie Berechtigungen zum Erstellen von Inhalten &#x200B;](../content-management/gs-generative.md#generative-access).
+* Um den Konvertierer für das Bild in HTML verwenden zu können, muss Ihnen die Berechtigung **Inhalt generieren** gewährt werden. Erfahren Sie in [ Abschnitt, wie Sie Berechtigungen zum Erstellen von Inhalten ](../content-management/gs-generative.md#generative-access).
 
 **Vereinbarung**
 

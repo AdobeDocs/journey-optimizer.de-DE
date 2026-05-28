@@ -8,9 +8,11 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 110c4c9b12b085f3febb83f799f5fd0ba8a8b1fb
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: 567
 ht-degree: 7%
 
 ---
@@ -49,7 +51,7 @@ Gehen Sie wie folgt vor, um den erweiterten HTML-Editor zu öffnen und Ihre HTML
 
 1. Öffnen Sie die E-Mail oder Vorlage, die Sie in der E-Mail-Designer bearbeiten möchten, z. B. [E-Mail erstellen oder bearbeiten](create-email.md) von einer Journey oder Kampagne oder öffnen Sie eine [E-Mail-Inhaltsvorlage](../content-management/create-content-templates.md) und bearbeiten Sie deren Textkörper in der [E-Mail-Designer](get-started-email-design.md).
 
-1. Klicken Sie oben rechts **Bildschirm auf die Schaltfläche** HTML.
+1. Klicken Sie oben rechts ]**Bildschirm auf die Schaltfläche**[!UICONTROL  HTML.
 
    ![Position der Schaltfläche HTML in der E-Mail-Symbolleiste von Designer](assets/email-template-expert-mode-button.png)
 

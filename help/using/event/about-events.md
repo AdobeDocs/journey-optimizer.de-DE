@@ -10,28 +10,13 @@ level: Intermediate, Experienced
 keywords: Ereignisse, Ereignis, Journey, Definition, Starten
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2152
 ht-degree: 68%
@@ -67,7 +52,7 @@ Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizi
 
 ## Geschäftsereignisse {#business-events}
 
-**Geschäftsereignisse** sind nicht mit einem bestimmten Profil verknüpft. Dabei kann es sich beispielsweise um eine Nachrichtenmeldung, Sportaktualisierung, eine Änderung oder Annullierung eines Fluges, eine Bestandsaktualisierung oder um Wetterereignisse handeln. Diese Ereignisse sind zwar nicht profilspezifisch, können aber für eine beliebige Anzahl von Profilen von Interesse sein: Personen, die bestimmte Nachrichtenthemen abonniert haben, Passagiere eines Fluges oder Kunden, die an einem nicht vorrätigen Produkt interessiert sind. Geschäftsereignisse sind immer regelbasiert. Wenn Sie ein Geschäftsereignis auf einer Journey ablegen, wird automatisch eine Aktivität **Zielgruppe lesen** unmittelbar danach hinzugefügt. Erfahren Sie (auf [&#x200B; Seite), wie Sie ein Geschäftsereignis &#x200B;](../event/about-creating-business.md).
+**Geschäftsereignisse** sind nicht mit einem bestimmten Profil verknüpft. Dabei kann es sich beispielsweise um eine Nachrichtenmeldung, Sportaktualisierung, eine Änderung oder Annullierung eines Fluges, eine Bestandsaktualisierung oder um Wetterereignisse handeln. Diese Ereignisse sind zwar nicht profilspezifisch, können aber für eine beliebige Anzahl von Profilen von Interesse sein: Personen, die bestimmte Nachrichtenthemen abonniert haben, Passagiere eines Fluges oder Kunden, die an einem nicht vorrätigen Produkt interessiert sind. Geschäftsereignisse sind immer regelbasiert. Wenn Sie ein Geschäftsereignis auf einer Journey ablegen, wird automatisch eine Aktivität **Zielgruppe lesen** unmittelbar danach hinzugefügt. Erfahren Sie (auf [ Seite), wie Sie ein Geschäftsereignis ](../event/about-creating-business.md).
 
 ## Zielgruppen-Qualifizierungsereignisse {#audience-qualification-events}
 
@@ -137,7 +122,7 @@ Systemgenerierte Ereignisse: Die Pipeline filtert Ereignisse mit einer Payload, 
 
 ## Über den Journey-Ereignisdurchsatz {#event-thoughput}
 
-Adobe Journey Optimizer unterstützt auf Organisationsebene ein Spitzenvolumen von 5.000 Journey-Ereignissen pro Sekunde über alle Sandboxes hinweg. Dieses Kontingent gilt für alle Ereignisse, die in aktiven Journeys genutzt werden, darunter in Journeys vom Typ **Live**, **Probelauf**, **Geschlossen** und **Angehalten**. Sobald dieses Kontingent erreicht wird, werden neue Ereignisse mit einer Verarbeitungsrate von 5.000 pro Sekunde in die Warteschlange gestellt. Die maximale Zeit, die ein Ereignis in der Warteschlange verbringen kann, beträgt **&#x200B; 24Stunden**.
+Adobe Journey Optimizer unterstützt auf Organisationsebene ein Spitzenvolumen von 5.000 Journey-Ereignissen pro Sekunde über alle Sandboxes hinweg. Dieses Kontingent gilt für alle Ereignisse, die in aktiven Journeys genutzt werden, darunter in Journeys vom Typ **Live**, **Probelauf**, **Geschlossen** und **Angehalten**. Sobald dieses Kontingent erreicht wird, werden neue Ereignisse mit einer Verarbeitungsrate von 5.000 pro Sekunde in die Warteschlange gestellt. Die maximale Zeit, die ein Ereignis in der Warteschlange verbringen kann, beträgt ** 24Stunden**.
 
 Weitere Informationen zu Journey-Verarbeitungsraten und dazu, wie sich verschiedene Journey-Typen auf den Durchsatz auswirken, finden Sie [diesem Abschnitt](../building-journeys/entry-management.md#journey-processing-rate).
 
@@ -184,7 +169,7 @@ Jedes Ereignis, das in **Live**-, **Entwurfs**- oder **geschlossenen** Journeys 
 
 Erfahren Sie, wie Sie ein Ereignis konfigurieren und den Streaming-Endpunkt und die Payload für ein Ereignis angeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431515?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Machen Sie sich mit den entsprechenden Anwendungsfällen für Geschäftsereignisse vertraut. Erfahren Sie, wie Sie mithilfe eines Geschäftsereignisses eine Journey erstellen und welche Best Practices anzuwenden sind.
 

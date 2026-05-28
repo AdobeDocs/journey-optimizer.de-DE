@@ -7,14 +7,16 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 20%
+source-wordcount: 1131
+ht-degree: 21%
 
 ---
 
-# Formeln verwenden, um Journey zu ordnen {#journey-ranking-formulas}
+# Verwenden von Formeln zum Anordnen von Journeys {#journey-ranking-formulas}
 
 >[!AVAILABILITY]
 >
@@ -186,7 +188,7 @@ Gehen Sie wie folgt vor, um den Regelsatz einer Journey zuzuweisen.
 
 Alle Journey, die diesen Regelsatz verwenden, werden bei der Anwendung der Begrenzung nach der ausgewählten Formel gereiht.
 
-Informationen zur Überwachung der Leistung Ihrer Regelsätze und Rangfolgenformeln finden Sie im Abschnitt [Journey-Begrenzung und &#x200B;](../reports/channel-report-cja.md#rule-sets)Konflikte“ im Übersichtsbericht. Verwenden Sie die in diesem Abschnitt verfügbaren Abfragen, um Verwerfungen auf Data-Lake-Ebene zu untersuchen und festzustellen, ob ein Profil aufgrund eines erreichten (`CAP_REACHED`) oder niedrigeren Prioritätswerts (`LOWER_PRIORITY`) [&#x200B; wurde](../reports/query-examples.md#business-rules-queries).
+Informationen zur Überwachung der Leistung Ihrer Regelsätze und Rangfolgenformeln finden Sie im Abschnitt [Journey-Begrenzung und ](../reports/channel-report-cja.md#rule-sets)Konflikte“ im Übersichtsbericht. Verwenden Sie die in diesem Abschnitt verfügbaren Abfragen, um Verwerfungen auf Data-Lake-Ebene zu untersuchen und festzustellen, ob ein Profil aufgrund eines erreichten (`CAP_REACHED`) oder niedrigeren Prioritätswerts (`LOWER_PRIORITY`) [ wurde](../reports/query-examples.md#business-rules-queries).
 
 <!--
 ## Reporting {#reporting}

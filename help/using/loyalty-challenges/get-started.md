@@ -11,10 +11,12 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 15%
+source-wordcount: 911
+ht-degree: 14%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 15%
 
 **Konfigurieren und Integrieren**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Herausforderungen bei der Treue konfigurieren](loyalty-admin.md)
 * [Treuedaten und -datensätze](loyalty-data-and-datasets.md)
 * [API-Referenz für Herausforderungen im Treueprogramm](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -93,9 +95,9 @@ Sie können die folgenden Arten von Challenge-Erlebnissen erstellen:
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
 
-1. **Herausforderung erstellen** - Definiert die grundlegenden Challenge-Eigenschaften, einschließlich Name, Typ (Standard, Streak, Sequential oder Bring Your Own Data, falls verfügbar) und Datumsbereich. [Erfahren Sie, wie Sie einen Challenge-Typ &#x200B;](create-challenges.md#create-the-challenge).
+1. **Herausforderung erstellen** - Definiert die grundlegenden Challenge-Eigenschaften, einschließlich Name, Typ (Standard, Streak, Sequential oder Bring Your Own Data, falls verfügbar) und Datumsbereich. [Erfahren Sie, wie Sie einen Challenge-Typ ](create-challenges.md#create-the-challenge).
 
-1. **Aufgaben hinzufügen** - Definiert die spezifischen Aktionen, die Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben), Mengen, Produktfiltern und Belohnungen.
+1. **Aufgaben hinzufügen** - Definiert die spezifischen Aktionen, die Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben oder benutzerdefiniertes Ereignis), Mengen, Produktfiltern und Belohnungen.
 
 1. **Erstellen von Inhaltskarten** - Erstellen Sie die visuelle Darstellung Ihrer Challenge mit Journey Optimizer-Inhaltskarten, die auf Kundengeräten angezeigt werden. Inhaltskarten zeigen Informationen zu Herausforderungen, Fortschritt und Belohnungen an.
 
@@ -138,17 +140,13 @@ Wenden Sie sich an Ihren Administrator, wenn Sie die Funktion nicht nutzen könn
 
 +++
 
-<!--
++++Konfigurieren des Treueprogramms (Administratoren)
 
-+++Configure the loyalty program (administrators)
+Administratoren konfigurieren im Menü „Treueprogramm-Admin **[!UICONTROL die Belohnungsanbieter, Ereignisdefinitionen, das Produktinventar, Ausschlüsse und globale]**. Marketing-Experten, die nur Herausforderungen erstellen, benötigen keinen Zugriff auf dieses Menü. [Erfahren Sie, wie Sie Herausforderungen im Zusammenhang mit der Treue konfigurieren](loyalty-admin.md)
 
-To configure **[!UICONTROL Loyalty Admin]** (reward providers, event definitions, and global settings), you need administrator access to your Journey Optimizer organization. Marketers who only create challenges do not need access to this area. [Learn how to configure the loyalty program](loyalty-admin.md).
-
-Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in the left navigation.
+Wenden Sie sich an Ihren Administrator **[!UICONTROL wenn das Menü]** Treueprogramm-Administrator“ im linken Navigationsbereich nicht angezeigt wird.
 
 +++
-
--->
 
 +++Zielgruppe
 
@@ -206,21 +204,20 @@ Jetzt, da Sie wissen, was Herausforderungen im Zusammenhang mit der Treue sind u
     <em>Verfolgen Sie Programm-KPIs, Challenge-Ergebnisse und Aufgabenmetriken mit integrierten Dashboards</em>
     </p>
   </td>
-  &lt;!--
-
-<td>
+  <!--
+    <a href="loyalty-admin.md"><strong>Configure the loyalty program</strong></a>
+  <td>
     <a href="loyalty-admin.md">
-      <img alt="Konfiguration" src="assets/do-not-localize/icon-access.png" width="200"/>
+    <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-    <a href="loyalty-admin.md"><strong>Konfigurieren des Treueprogramms</strong></a>
+-->
+    <a href="loyalty-admin.md"><strong>Herausforderungen im Zusammenhang mit der Treue konfigurieren</strong></a>
     </div>
     <p>
-    <em>Richten Sie Belohnungsanbieter, Ereignisdefinitionen und Organisationseinstellungen für die Erfüllung ein</em>
+    <em>Richten Sie Belohnungsanbieter, Ereignisdefinitionen und Organisationseinstellungen ein</em>
     </p>
   </td>
-
--->
 </tr>
 </table>
 
