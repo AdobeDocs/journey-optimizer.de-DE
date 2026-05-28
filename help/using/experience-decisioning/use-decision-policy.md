@@ -23,7 +23,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: c36f91b8e7afa80945f975828b7682a1a1cc296f
+source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
 workflow-type: tm+mt
 source-wordcount: 1164
 ht-degree: 7%
@@ -166,7 +166,7 @@ Wenn eine Aktion oder eine API-ausgelöste [Kampagne](../campaigns/get-started-w
 
 Sie können auch auf die technischen Details jeder Entscheidungsrichtlinie zugreifen und sie in die Zwischenablage kopieren, was bei der Fehlerbehebung beim Adobe-Support oder Ihrem Entwicklungsteam hilfreich sein kann.
 
-Gehen Sie wie folgt vor, um auf Details zur Entscheidungsrichtlinie und technische Informationen zuzugreifen.
++++ Gehen Sie wie folgt vor, um auf Details zur Entscheidungsrichtlinie und technische Informationen zuzugreifen.
 
 1. Öffnen Sie die Kampagnenzusammenfassung, indem Sie während der [Konfiguration“ auf **&#x200B;**&#x200B;Zum Aktivieren überprüfen](../campaigns/review-activate-campaign.md#action-campaign-review) klicken oder eine Kampagne aus der Liste **[!UICONTROL Kampagnen]** öffnen.
 
@@ -200,6 +200,8 @@ Gehen Sie wie folgt vor, um auf Details zur Entscheidungsrichtlinie und technisc
 1. Klicken Sie auf das **In Zwischenablage kopieren**, um eine JSON-Darstellung der Entscheidungsrichtlinie in die Zwischenablage zu kopieren.
 
    Die kopierte JSON-Datei enthält den Namen und die ID Ihrer Organisation, den Sandbox-Namen, die ID der Entscheidungsrichtlinie und die vollständige Struktur der Entscheidungsrichtlinie. Sie können diese Informationen an den Adobe-Support oder Ihr Engineering-Team weitergeben, um Entscheidungs-Policy-Probleme schneller zu beheben.
+
++++
 
 ## Reporting-Dashboards verwenden
 
