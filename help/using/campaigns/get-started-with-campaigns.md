@@ -313,7 +313,7 @@ Sobald Sie mit Kampagnen vertrauter sind, erkunden Sie diese leistungsstarken Fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=de)
 
 **Planung und Timing**
 
@@ -323,7 +323,7 @@ Planen Sie Kampagnen für bestimmte Daten/Uhrzeiten, legen Sie wiederkehrende Se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
 **Ratensteuerung**
 
@@ -333,7 +333,7 @@ Begrenzen Sie den Nachrichtendurchsatz, um eine Überlastung nachgelagerter Syst
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=de)
 
 **Zielgruppen-Targeting**
 
@@ -343,7 +343,7 @@ Sprechen Sie bestimmte Adobe Experience Platform-Zielgruppen präzise an und ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=de)
 
 **Genehmigungs-Workflows**
 
@@ -353,7 +353,7 @@ Implementieren Sie Überprüfungs- und Genehmigungsprozesse, bevor Sie Kampagnen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
 
 **Ruhezeiten**
 
@@ -363,7 +363,7 @@ Respektieren Sie Kundenpräferenzen, indem Sie den Versand von Nachrichten inner
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=de)
 
 **Optimierung**
 
