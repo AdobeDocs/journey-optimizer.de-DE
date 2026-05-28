@@ -11,13 +11,9 @@ TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgc
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
@@ -29,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: d92b3c8475020b26a3f154b322374a05f7d41f29
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: 1569
 ht-degree: 33%
 
 ---
@@ -79,7 +75,7 @@ Für Paare ähnlich klingender Begriffe, die häufig verwechselt werden - z. B. 
 
 | Begriff | Definition |
 |------|------------|
-| **Entscheidungsfindung** | Das Entscheidungsframework der aktuellen Generation in Journey Optimizer, das für neue Implementierungen empfohlen wird. Bietet eine schemabasierte Elementkatalogverwaltung, flexible Sammlungsregeln, wiederverwendbare Entscheidungskomponenten und Experimentierfunktionen. Verfügbar für Code-basiertes Erlebnis, Push, SMS und E-Mail (eingeschränkte Verfügbarkeit). [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md) |
+| **Entscheidungsfindung** | Das Entscheidungsframework der aktuellen Generation in Journey Optimizer, das für neue Implementierungen empfohlen wird. Bietet eine schemabasierte Elementkatalogverwaltung, flexible Sammlungsregeln, wiederverwendbare Entscheidungskomponenten und Experimentierfunktionen. Verfügbar für Code-basiertes Erlebnis, Push, SMS und E-Mail. [Weitere Informationen](../experience-decisioning/gs-experience-decisioning.md) |
 | **Entscheidungs-Management** | Die alte Offer Decisioning-Funktion in Journey Optimizer. Verwendet eine zentrale Bibliothek mit Marketing-Angeboten und eine regelbasierte Entscheidungs-Engine, die Einschränkungen auf Echtzeit-Kundenprofile anwendet. Wird weiterhin für bestehende Implementierungen unterstützt, aber neue Implementierungen sollten stattdessen Decisioning verwenden. Unterstützt E-Mail, In-App, Push, SMS und Briefpost. [Weitere Informationen](../offers/get-started/starting-offer-decisioning.md) |
 | **Angebot** | Eine Marketing-Nachricht, ein Rabatt oder eine Promotion, die bzw. der Kundinnen und Kunden präsentiert werden kann. Angebote beinhalten Eignungsregeln, die bestimmen, welche Personen sie erhalten können. [Weitere Informationen](../offers/offer-library/creating-personalized-offers.md) |
 | **Entscheidungsrichtlinie** | Eine Reihe von Regeln und Strategien, die basierend auf Einschränkungen wie Berechtigung, Priorität und Begrenzungsregeln bestimmen, welches Angebot welcher Person zu welchem Zeitpunkt angezeigt werden soll. [Weitere Informationen](../experience-decisioning/create-decision.md) |
@@ -110,7 +106,7 @@ Beide Funktionen wählen Angebote aus und stellen sie bereit, sie dienen jedoch 
 |---|---|---|
 | **Status** | Aktuell — Wird für alle neuen Implementierungen empfohlen | **Legacy** - wird weiterhin unterstützt, wird aber für neue Implementierungen nicht mehr empfohlen |
 | **Artikelkatalog** | Schemabasierte, flexible Metadaten | Zentralisierte Angebotsbibliothek |
-| **Unterstützte Kanäle** | Code-basiertes Erlebnis, Push, SMS, E-Mail (begrenzte Verfügbarkeit) | E-Mail, In-App, Push, SMS, Briefpost |
+| **Unterstützte Kanäle** | Code-basiertes Erlebnis, Push, SMS, E-Mail | E-Mail, In-App, Push, SMS, Briefpost |
 | **Wichtigstes Unterscheidungsmerkmal** | Wiederverwendbare Entscheidungskomponenten, Experimentieren, umfassendere Kanal-Roadmap | Bewährte Einschränkungs-Engine; Migration zu Decisioning für neue Projekte |
 | **Erste Schritte** | [Entscheidungsfindung](../experience-decisioning/gs-experience-decisioning.md) | [Entscheidungs-Management](../offers/get-started/starting-offer-decisioning.md) |
 
