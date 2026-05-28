@@ -7,23 +7,30 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: 161
+ht-degree: 31%
 
 ---
 
 
 # Erste Schritte mit Profilen und Zielgruppen {#gs-profiles-audiences}
 
-Mit Adobe Journey Optimizer können Marken Echtzeit-Kundenprofile und Zielgruppen erstellen und verwalten, um personalisierte Kundenerlebnisse bereitzustellen. Dieser Überblick liefert allgemeine Informationen zum Arbeiten mit Profilen und Zielgruppen in Journey Optimizer. Ausführliche Informationen finden Sie in den Abschnitten zu Profilen und Zielgruppen.
+Mit Adobe Journey Optimizer können Marken Echtzeit-Kundenprofile und Zielgruppen erstellen und verwalten, um personalisierte Kundenerlebnisse bereitzustellen. &#x200B; Dieser Überblick bietet allgemeine Informationen zum Arbeiten mit Profilen und Audiences in Journey Optimizer. Ausführliche Informationen finden Sie in den Abschnitten zu Profilen und Zielgruppen.
 
 **Profile**
-Adobe Journey Optimizer bietet eine Reihe von Funktionen für Echtzeit-Kundenprofile, mit denen Marken eine einheitliche 360-Grad-Ansicht ihrer Kundschaft erstellen können. Zu den wichtigsten Funktionen gehören die Echtzeit-Datenaufnahme, die Erstellung von Identitätsdiagrammen und Tools für die Kundeninteraktion. [Erste Schritte mit Profilen](get-started-profiles.md)
+Adobe Journey Optimizer bietet eine Reihe von Funktionen für die Arbeit mit Echtzeit-Kundenprofilen, mit denen Marken eine einheitliche 360-Grad-Ansicht ihrer Kunden erstellen können. &#x200B; wichtigsten Funktionen sind die Datenaufnahme in Echtzeit, die Erstellung von Identitätsdiagrammen und Tools für die Kundeninteraktion. [Erste Schritte mit Profilen](get-started-profiles.md)
 
 **Zielgruppen**
-Adobe Journey Optimizer bietet zuverlässige Tools zum Erstellen, Verwalten und Anreichern von Zielgruppen, um Marketing-Maßnahmen zu optimieren. Zu den wichtigsten Funktionen gehören die Zielgruppensegmentierung, die Anreicherung, die Verwaltung und Aktivierung sowie Governance- und Datenschutz-Tools. [Erste Schritte mit Zielgruppen](about-audiences.md)
+Adobe Journey Optimizer bietet stabile Tools zum Erstellen, Verwalten und Anreichern von Zielgruppen, um die Marketing-Maßnahmen zu verbessern. &#x200B;Zu den wichtigsten Funktionen gehören Zielgruppensegmentierung, Anreicherung, Verwaltung und Aktivierung sowie Governance- und Datenschutz-Tools. [Erste Schritte mit Zielgruppen](about-audiences.md)
 
 Mehr über einheitliche Kundenprofile und Zielgruppen in Journey Optimizer erfahren Sie in diesem Video:
 

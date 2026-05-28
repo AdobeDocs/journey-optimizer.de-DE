@@ -11,10 +11,12 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1948'
-ht-degree: 17%
+source-wordcount: 1973
+ht-degree: 16%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 17%
 
 **Konfigurieren und Integrieren**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Herausforderungen bei der Treue konfigurieren](loyalty-admin.md)
 * [Treuedaten und -datensätze](loyalty-data-and-datasets.md)
 * [API-Referenz für Herausforderungen im Treueprogramm](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -137,7 +139,7 @@ Der Zeitplan für die Challenge ist jetzt konfiguriert. Fügen Sie als Nächstes
 >title="Aufgaben"
 >abstract="Wählen Sie die Aufgaben aus, die ausgeführt werden sollen, um die Challenge abzuschließen. Konfigurieren Sie anschließend, wie die Challenge abgeschlossen wird. Die verfügbaren Optionen hängen von Ihrem Challenge-Typ ab (Standard, Streak oder Sequenziell)."
 
-Aufgaben definieren die spezifischen Aktionen, die Kunden durchführen müssen, um Belohnungen zu erhalten. Sie können Aufgabentypen (Einkauf, Ausgaben), Mengen, Produktfilter und andere Attribute konfigurieren.
+Aufgaben definieren die spezifischen Aktionen, die Kunden durchführen müssen, um Belohnungen zu erhalten. Sie können Aufgabentypen (Kauf, Ausgaben oder benutzerspezifisches Ereignis), Mengen, Produktfilter und andere Attribute konfigurieren.
 
 Gehen Sie wie folgt vor, um Ihrer Herausforderung Aufgaben hinzuzufügen:
 
@@ -204,9 +206,7 @@ So konfigurieren Sie, wann und wie Belohnungen bereitgestellt werden:
    * **[!UICONTROL Belohnungen bei Meilensteinen zum Abschluss von Aufgaben bereitstellen, sobald der Fortschritt der Herausforderung erreicht wird]**: Belohnungen werden schrittweise verliehen, sobald Kunden einzelne Aufgaben erledigen (nur für Herausforderungen, die mehr als eine Aufgabe erfordern).\
      *Beispiel: Vergabe von 10 Punkten nach Aufgabe 1, 20 Punkten nach Aufgabe 2 und 50 Punkten nach Aufgabe 3*
 
-1. Wählen Sie Ihren Belohnungsanbieter. Dies ist Ihre Treuelösung, mit der Kundenpunkte und -belohnungen verwaltet werden.
-
-   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
+1. Wählen Sie Ihren Belohnungsanbieter. Dies ist Ihre Treuelösung, mit der Kundenpunkte und -belohnungen verwaltet werden. Belohnungsanbieter werden im Menü **[!UICONTROL Treueprogramm-Administrator]** erstellt, bevor Sie Herausforderungen für Ihre Autoren erstellen. [Erfahren Sie, wie Sie Belohnungsanbieter konfigurieren](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 
