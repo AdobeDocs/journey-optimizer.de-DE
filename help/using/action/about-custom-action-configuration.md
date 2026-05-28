@@ -30,10 +30,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
 workflow-type: tm+mt
-source-wordcount: 2057
-ht-degree: 94%
+source-wordcount: 2200
+ht-degree: 88%
 
 ---
 
@@ -185,6 +185,15 @@ Adobe Journey Optimizer unterstützt für benutzerdefinierte Aktionen standardm�
 Sie können Mutual Transport Layer Security (mTLS) verwenden, um die Sicherheit bei ausgehenden Verbindungen zu benutzerdefinierten Aktionen von Adobe Journey Optimizer zu erhöhen. mTLS ist eine End-to-End-Sicherheitsmethode zur gegenseitigen Authentifizierung, die sicherstellt, dass beide Parteien, die Informationen austauschen, auch die sind, die sie vorgeben zu sein, bevor die Daten ausgetauscht werden. mTLS umfasst einen zusätzlichen Schritt im Vergleich zu TLS, bei dem der Server auch das Zertifikat der Kundin bzw. des Kunden anfordert und überprüft, ob es gültig ist.
 
 Die gegenseitige TLS-Authentifizierung (mTLS) wird in benutzerdefinierten Aktionen unterstützt. Es ist keine zusätzliche Konfiguration in der benutzerdefinierten Aktion oder Journey erforderlich, um mTLS zu aktivieren, sondern dies geschieht automatisch, wenn ein mTLS-fähiger Endpunkt erkannt wird. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+
+>[!IMPORTANT]
+>
+>Adobe rotiert regelmäßig das für benutzerdefinierte Aktionsverbindungen verwendete mTLS-Client-Zertifikat. Wenn ein neues Zertifikat ausgestellt wird, muss der Trust Store Ihres Endpunkts aktualisiert werden, um es zu akzeptieren. Andernfalls schlagen ausgehende Verbindungen von Journey Optimizer zu Ihrem Service mit einem Fehler wegen nicht übereinstimmender Zertifikate fehl. So vermeiden Sie Unterbrechungen:
+>
+>* Überprüfen Sie regelmäßig die [Adobe Public Certificate API](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate) auf aktualisierte Zertifikate, die mit Ihren Services verknüpft sind.
+>* Konfigurieren Sie Ihren Endpunkt so, dass **sich überschneidende Zertifikate** akzeptiert werden (das alte und das neue Zertifikat gleichzeitig), sodass während der Rotation keine Verbindungslücke besteht.
+>* Adobe sendet derzeit keine proaktiven Benachrichtigungen, wenn ein Zertifikat rotiert wird. Sie sind dafür verantwortlich, Zertifikataktualisierungen zu überwachen und Ihren Trust Store auf dem neuesten Stand zu halten.
+>* Die Vertrauensvalidierung sollte auf der Zertifikatskette bis zur Root CA (DigiCert) basieren, anstatt an einen bestimmten Fingerabdruck des Blattzertifikats anzuheften.
 
 ## Definieren der Payload-Parameter {#define-the-message-parameters}
 
