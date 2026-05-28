@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 087a4bd254486a4962d8338d1d35ffb5345341af
 workflow-type: tm+mt
-source-wordcount: 288
-ht-degree: 100%
+source-wordcount: 314
+ht-degree: 92%
 
 ---
 
@@ -46,6 +46,8 @@ Sobald Ihre API-ausgelöste Kampagne konfiguriert ist, müssen Sie deren Paramet
    Bei Fehlern können Sie die Kampagne nicht aktivieren. Beheben Sie die Fehler, bevor Sie fortfahren.
 
    ![](assets/create-campaign-alerts.png)
+
+1. Wenn eine Kampagne [Entscheidungsrichtlinien](../experience-decisioning/create-decision.md) im Inhalt verwendet, können Sie die Struktur jeder Richtlinie überprüfen und technische Details direkt aus der Kampagnenübersicht kopieren. [Weitere Informationen](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 1. Vergewissern Sie sich, dass Ihre Kampagne korrekt konfiguriert ist, und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
 

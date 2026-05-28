@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
 workflow-type: tm+mt
-source-wordcount: 853
-ht-degree: 10%
+source-wordcount: 1164
+ht-degree: 7%
 
 ---
 
@@ -159,6 +159,47 @@ Sobald Ihr Inhalt fertig ist, überprüfen und veröffentlichen Sie Ihre Kampagn
 * [Überprüfen und Aktivieren einer Kampagne](../campaigns/review-activate-campaign.md)
 
 Sobald Ihre Entwickelnden bei Code-basierten Erlebnissen einen API- oder SDK-Aufruf zum Abrufen von Inhalten für die in Ihrer Kanalkonfiguration definierte Oberfläche starten, werden die Änderungen auf Ihre Web-Seite oder App angewendet.
+
+## Details der Entscheidungsrichtlinie in der Kampagnenübersicht anzeigen {#decision-policy-summary}
+
+Wenn eine Aktion oder eine API-ausgelöste [Kampagne](../campaigns/get-started-with-campaigns.md) Entscheidungsrichtlinien in ihrem Inhalt verwendet, zeigt die Zusammenfassungsseite der Kampagne einen **[!UICONTROL Entscheidungsrichtlinien]** Abschnitt mit allen in der Kampagne verwendeten Richtlinien an.
+
+Sie können auch auf die technischen Details jeder Entscheidungsrichtlinie zugreifen und sie in die Zwischenablage kopieren, was bei der Fehlerbehebung beim Adobe-Support oder Ihrem Entwicklungsteam hilfreich sein kann.
+
+Gehen Sie wie folgt vor, um auf Details zur Entscheidungsrichtlinie und technische Informationen zuzugreifen.
+
+1. Öffnen Sie die Kampagnenzusammenfassung, indem Sie während der [Konfiguration“ auf **&#x200B;**&#x200B;Zum Aktivieren überprüfen](../campaigns/review-activate-campaign.md#action-campaign-review) klicken oder eine Kampagne aus der Liste **[!UICONTROL Kampagnen]** öffnen.
+
+1. Im Abschnitt **[!UICONTROL Entscheidungsrichtlinien]** werden alle in der Kampagne verwendeten Richtlinien aufgelistet.
+
+   ![](assets/campaign-summary-decision-policies.png)
+
+1. Wählen Sie eine Entscheidungsrichtlinie aus oder klicken Sie auf **[!UICONTROL Alle anzeigen]**. Sie können die Details für jede Richtlinie überprüfen, einschließlich:
+
+   * Die in der Entscheidungsrichtlinie verwendeten Strategien
+   * Die Anzahl der zurückzugebenden Elemente
+   * Die für jede Auswahlstrategie verwendeten Sammlungs-, Ranking- und Eignungsregeln
+   * Das Fallback-Angebot, das verwendet wird, wenn kein Entscheidungselement geeignet ist
+
+   ![](assets/campaign-decision-policy-details.png)
+
+1. Klicken Sie auf eine Sammlung, um alle darin enthaltenen Entscheidungselemente anzuzeigen.
+
+1. Klicken Sie auf ein Entscheidungselement, um auf seine Details zuzugreifen und es bei Bedarf zu bearbeiten. Es wird in einer neuen Browser-Registerkarte geöffnet. Klicken Sie alternativ auf **[!UICONTROL Element anzeigen]**, um Entscheidungselemente anzuzeigen, die sich nicht in einer Sammlung befinden.
+
+   ![](assets/campaign-decision-policy-collection.png)
+
+1. Sie können auch Informationen zu den Rangfolgenmethoden und Eignungsregeln anzeigen, die für die einzelnen Auswahlstrategien verwendet werden.
+
+   ![](assets/campaign-decision-policy-eligibility.png){width="80%"}
+
+1. Zurück in der Kampagnenzusammenfassung können Sie auch eine Entscheidungsrichtlinie im Abschnitt **[!UICONTROL Aktionen]** auswählen und auf das Symbol **Informationen** klicken, um auf die technischen Details der Entscheidungsrichtlinie zuzugreifen.
+
+   ![](assets/campaign-decision-policy-information.png)
+
+1. Klicken Sie auf das **In Zwischenablage kopieren**, um eine JSON-Darstellung der Entscheidungsrichtlinie in die Zwischenablage zu kopieren.
+
+   Die kopierte JSON-Datei enthält den Namen und die ID Ihrer Organisation, den Sandbox-Namen, die ID der Entscheidungsrichtlinie und die vollständige Struktur der Entscheidungsrichtlinie. Sie können diese Informationen an den Adobe-Support oder Ihr Engineering-Team weitergeben, um Entscheidungs-Policy-Probleme schneller zu beheben.
 
 ## Reporting-Dashboards verwenden
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 83d84795cd444615143554bb54d803c6afe7ca33
 workflow-type: tm+mt
-source-wordcount: 3012
+source-wordcount: 3073
 ht-degree: 17%
 
 ---
@@ -271,22 +271,26 @@ In dieser Version wurden die folgenden Funktionen und Verbesserungen zu Decision
 <td>
 <p>[!DNL Adobe Journey Optimizer] verwendet jetzt KI, um Entscheidungsregeln und Rangfolgenformeln zu erkennen, die vereinfacht werden können. Im Bestand wird für jede Regel, für die die KI eine Optimierungsmöglichkeit identifiziert hat, ein roter Indikator angezeigt. Wenn Sie auf den Indikator klicken, wird der ursprüngliche Ausdruck zusammen mit der von KI vorgeschlagenen Version angezeigt. Dort können Sie eine Datei herunterladen, um zu überprüfen, wie simulierte Profile von jeder Version ausgewertet werden, und zu bestätigen, dass sie sich identisch verhalten, und dann den Ausdruck durch den optimierten Ausdruck ersetzen.</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
-<p>Weitere Informationen finden Sie im <a href="../start/ai-features.md#decisioning-optimization">entsprechenden Handbuch</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../start/ai-features.md#decisioning-optimization">ausführlichen Dokumentation</a>.</p>
 <p>Verfügbarkeitsdatum: 5. Mai 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Decisioning-Migrations-Workflow**-APIs - Der API-Vertrag zum Erstellen von Abhängigkeitsanalysen und Migrations-Workflows wurde aktualisiert: Übergeben Sie **`request-level`** als **Abfrageparameter** an die Anfrage-URL (`sandbox`, `offer` oder `decision`). Anfrageebene darf nicht mehr im JSON-Text gesendet werden. [Weitere Informationen](../experience-decisioning/decisioning-migration-api.md)
-
-  Verfügbarkeitsdatum: 6. Mai 2026
-
 * **Adobe Experience Manager-Inhaltsfragmente in Decisioning** - Sie können jetzt Adobe Experience Manager-Inhaltsfragmente Entscheidungselementen in Decisioning zuordnen und sie innerhalb von Entscheidungsrichtlinien nutzen, um das richtige Fragment zum richtigen Zeitpunkt für den richtigen Kunden bereitzustellen. [Weitere Informationen](../integrations/aem-fragments.md#aem-decisioning)
 
   Diese Funktion ist nur für eine Gruppe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugriff zu erhalten, wenden Sie sich an den Adobe-Support.
 
   Verfügbarkeitsdatum: 20. Mai 2026
+
+* **Details zur Entscheidungsrichtlinie in der Kampagnenübersicht**: Auf der Seite mit der Kampagnenübersicht können Sie jetzt die vollständige Struktur jeder Entscheidungsrichtlinie überprüfen, einschließlich Auswahlstrategien, Entscheidungselemente und Fallback-Angebote, ohne die Kampagne zu duplizieren oder zu bearbeiten. Sie können auch eine JSON-Zusammenfassung in die Zwischenablage kopieren, um die Fehlerbehebung beim Adobe-Support oder Ihrem Entwicklungsteam durchzuführen. [Weitere Informationen](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+
+  Verfügbarkeitsdatum: 20. Mai 2026
+
+* **Decisioning-Migrations-Workflow**-APIs - Der API-Vertrag zum Erstellen von Abhängigkeitsanalysen und Migrations-Workflows wurde aktualisiert: Übergeben Sie **`request-level`** als **Abfrageparameter** an die Anfrage-URL (`sandbox`, `offer` oder `decision`). Anfrageebene darf nicht mehr im JSON-Text gesendet werden. [Weitere Informationen](../experience-decisioning/decisioning-migration-api.md)
+
+  Verfügbarkeitsdatum: 6. Mai 2026
 
 +++ Demnächst verfügbar - **Informationen unten können sich ändern.**
 

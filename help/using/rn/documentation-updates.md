@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a99544946642a625594f4c99eb869dd33299d583
+source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
 workflow-type: tm+mt
-source-wordcount: 7969
-ht-degree: 90%
+source-wordcount: 8005
+ht-degree: 89%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 90%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Mai 2026 {#may-2026}
+
+* In der **Verwenden von Entscheidungsrichtlinien in Nachrichten** wird jetzt beschrieben, wie Sie die vollständige Struktur einer Entscheidungsrichtlinie in der Kampagnenübersicht anzeigen und eine technische JSON-Zusammenfassung zur Fehlerbehebung in die Zwischenablage kopieren können. [Weitere Informationen](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 * Die **Versionshinweise** wurde durch ein themenbasiertes Layout neu strukturiert. Änderungen werden jetzt nach Produktbereich anstatt nach Änderungstyp gruppiert. Es wurde ein neuer Abschnitt mit **Verbesserungen der Benutzerfreundlichkeit** hinzugefügt. Bald erscheinende Einträge werden in jedem Thema als erweiterbare Akkordeons angezeigt. [Weitere Informationen](release-notes.md)
 
