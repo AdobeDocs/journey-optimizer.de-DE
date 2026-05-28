@@ -15,8 +15,6 @@ product_v2:
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
   - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
@@ -25,7 +23,6 @@ subfeature_v2:
   - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
   - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
@@ -36,10 +33,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2371
-ht-degree: 68%
+source-wordcount: 2418
+ht-degree: 67%
 
 ---
 
@@ -123,6 +120,10 @@ Stellen Sie beim Kopieren **(**- oder **API-ausgelösten)** sicher, dass das unt
 Sie können orchestrierte Kampagnen mithilfe von Package-Export und -Import zwischen Sandboxes kopieren. Orchestrierte Kampagnen folgen demselben Muster wie andere Objekte, aber was im Paket enthalten ist und was Sie in der Ziel-Sandbox vorbereiten müssen, unterscheidet sich von durch eine Aktion oder API ausgelösten Kampagnen.
 
 Um eine orchestrierte Kampagne zu exportieren, [&#x200B; Sie sie (einem Sandbox-Paket &#x200B;](#add-objects-as-a-package-export)) in der Quell-Sandbox (unabhängig vom Status) [veröffentlichen Sie das &#x200B;](#publish) und [importieren Sie dann das Paket](#import) in die Ziel-Sandbox.
+
+>[!IMPORTANT]
+>
+>Duplizieren Sie direkt nach [&#x200B; Import die orchestrierte Kampagne in &#x200B;](../campaigns/manage-campaigns.md#duplicate-a-campaign) Ziel-Sandbox und verwenden Sie dieses Duplikat für die Konfiguration, Tests und Ausführung. Wenn Sie stattdessen die importierte Kopie ausführen oder veröffentlichen, werden in den Kampagnenberichten möglicherweise keine Feedback- und Tracking-Daten angezeigt. Diese Einschränkung wird in einer zukünftigen Version entfernt.
 
 Beachten Sie beim Import in die Produktion das folgende Verhalten und die folgenden Einschränkungen:
 
