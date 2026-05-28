@@ -12,7 +12,8 @@ badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
 source-wordcount: 911
@@ -95,7 +96,7 @@ Sie können die folgenden Arten von Challenge-Erlebnissen erstellen:
 
 Dieser Workflow ermöglicht das Erstellen und Starten einer Herausforderung zum Treueprogramm:
 
-1. **Herausforderung erstellen** - Definiert die grundlegenden Challenge-Eigenschaften, einschließlich Name, Typ (Standard, Streak, Sequential oder Bring Your Own Data, falls verfügbar) und Datumsbereich. [Erfahren Sie, wie Sie einen Challenge-Typ ](create-challenges.md#create-the-challenge).
+1. **Herausforderung erstellen** - Definiert die grundlegenden Challenge-Eigenschaften, einschließlich Name, Typ (Standard, Streak, Sequential oder Bring Your Own Data, falls verfügbar) und Datumsbereich. [Erfahren Sie, wie Sie einen Challenge-Typ &#x200B;](create-challenges.md#create-the-challenge).
 
 1. **Aufgaben hinzufügen** - Definiert die spezifischen Aktionen, die Kunden durchführen müssen, einschließlich Aufgabentypen (Kauf, Ausgaben oder benutzerdefiniertes Ereignis), Mengen, Produktfiltern und Belohnungen.
 
@@ -211,7 +212,7 @@ Jetzt, da Sie wissen, was Herausforderungen im Zusammenhang mit der Treue sind u
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
--->
+  -->
     <a href="loyalty-admin.md"><strong>Herausforderungen im Zusammenhang mit der Treue konfigurieren</strong></a>
     </div>
     <p>

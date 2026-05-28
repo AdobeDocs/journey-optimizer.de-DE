@@ -10,11 +10,19 @@ level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DZ2NFuxDJRdZFLESrEwe-lfnt14vO93xxA-1U0zokPQ
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1561
@@ -81,7 +89,7 @@ Wenn ein Angebot (z. B. Angebot 1) ein eindeutiger Gewinner ist, wird seine A-po
 
 +++**Technische Details**
 
-Zur Berechnung/Aktualisierung der Verteilungen verwenden wir den **Satz von Bayes**. Für jedes Angebot ***i*** möchten wir sein ***P(𝛍i | Daten)*** berechnen, d. h. für jedes Angebot ***i*** möchten wir feststellen, wie wahrscheinlich der Belohnungswert**𝛍 i** auf Basis der bisher für dieses Angebot gesammelten Daten ist.
+Zur Berechnung/Aktualisierung der Verteilungen verwenden wir den **Satz von Bayes**. Für jedes Angebot ***i*** möchten wir sein ***P(𝛍i | Daten)*** berechnen, d. h. für jedes Angebot ***i*** möchten wir feststellen, wie wahrscheinlich der Belohnungswert&#x200B;**𝛍 i** auf Basis der bisher für dieses Angebot gesammelten Daten ist.
 
 Nach dem Satz von Bayes:
 

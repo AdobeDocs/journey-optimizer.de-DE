@@ -9,12 +9,21 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2:
+  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 4262
@@ -190,7 +199,7 @@ In diesem Abschnitt werden Leitlinien und Einschränkungen für Journeys beschri
 
 * Die Anzahl der Aktivitäten in einer Journey ist auf maximal 50 begrenzt. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt.
 
-  Da die Journey sich diesem Grenzwert nähern, kann die Bearbeitungs- und Veröffentlichungsleistung beeinträchtigt sein und es können Speicher- oder Validierungsfehler auftreten. Wenn dies eintritt, teilen Sie Ihren Journey mithilfe von „Sprungaktivitäten[ in kleinere Unterversionen auf ](../building-journeys/jump.md) erstellen Sie ihn in einer neuen Journey. Das Aktivitätslimit kann nicht erhöht werden.
+  Da die Journey sich diesem Grenzwert nähern, kann die Bearbeitungs- und Veröffentlichungsleistung beeinträchtigt sein und es können Speicher- oder Validierungsfehler auftreten. Wenn dies eintritt, teilen Sie Ihren Journey mithilfe von „Sprungaktivitäten[&#x200B; in kleinere Unterversionen auf &#x200B;](../building-journeys/jump.md) erstellen Sie ihn in einer neuen Journey. Das Aktivitätslimit kann nicht erhöht werden.
 
 * Standardmäßig ist die Anzahl der Live-/Pausen-/Probelauf-Journeys jeweils auf 100 begrenzt.  Die aktuelle Anzahl der Journeys wird über der Journey-Arbeitsfläche angezeigt.
 * Während Sie Journeys veröffentlichen, skalieren und passen wir sie automatisch an, um maximalen Durchsatz und maximale Stabilität zu gewährleisten. Wenn Sie den Meilenstein von 100 Live-Journeys gleichzeitig erreichen, wird in der UI eine Benachrichtigung zu dieser Leistung angezeigt. Wenn Sie diese Benachrichtigung sehen, aber die Notwendigkeit besteht, Ihre Journey über 100 Live-Journeys hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung, und wir helfen Ihnen bei der Erreichung Ihrer Ziele.

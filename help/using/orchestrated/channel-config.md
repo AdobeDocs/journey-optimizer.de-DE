@@ -6,10 +6,16 @@ description: Informationen zum Konfigurieren der Kanalkonfiguration
 version: Campaign Orchestration
 exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
 TQID: https://experienceleague.adobe.com/unthUbZA8ZMksa2MlgVDbuON-lpr70-v21JZVGyIc3U
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 467
@@ -93,4 +99,4 @@ Beispiel:
 www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}
 ```
 
-Weitere Informationen zu URL-Tracking-Parametern finden [ in diesem Abschnitt](../email/url-tracking.md).
+Weitere Informationen zu URL-Tracking-Parametern finden [&#x200B; in diesem Abschnitt](../email/url-tracking.md).

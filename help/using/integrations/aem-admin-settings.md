@@ -9,8 +9,10 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, Inhaltsfragmente, Administration, Repository, Authentifizierung, Autor, Veröffentlichung
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 430
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 # Konfigurieren des Adobe Experience Manager-Repository-Zugriffs {#aem-admin-settings}
 
-Adobe Journey Optimizer lässt sich mit **[!DNL Adobe Experience Manager as a Cloud Service]** integrieren, sodass Sie **Inhaltsfragmente** in Journey und Kampagnen verwenden können. **Inhaltsfragmente** werden standardmäßig aus dem Adobe Experience Manager-Veröffentlichungs-Repository gelesen. Administratoren können im Menü **[!UICONTROL AEM-Integration} auf den]** wechseln oder den Veröffentlichungszugriff anpassen.
+Adobe Journey Optimizer lässt sich mit **[!DNL Adobe Experience Manager as a Cloud Service]** integrieren, sodass Sie **Inhaltsfragmente** in Journey und Kampagnen verwenden können. **Inhaltsfragmente** werden standardmäßig aus dem Adobe Experience Manager-Veröffentlichungs-Repository gelesen. Administratoren können im Menü **[!UICONTROL AEM-Integration&rbrace; auf den]** wechseln oder den Veröffentlichungszugriff anpassen.
 
 ➡️ Wenn das Repository konfiguriert ist, fahren Sie mit [Arbeiten mit Experience Manager-Inhaltsfragmenten](../integrations/aem-fragments.md) für Authoring- und Auswahlaufgaben in Journey Optimizer fort.
 

@@ -10,12 +10,26 @@ level: Beginner
 keywords: Optimierung, Zielgruppenbestimmung, Experimentieren, A/B-Tests, Kampagnen, Journey, Personalisierung
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 TQID: https://experienceleague.adobe.com/zJTy0y-AhGMaFPzA379m4D9RxyzUfzCLZkr1B1ffuZM
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: f29a52db-c90c-4345-902e-b586d1406d8did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: f29a52db-c90c-4345-902e-b586d1406d8d
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 742
@@ -42,7 +56,7 @@ Mit der Inhaltsoptimierung in Journey Optimizer können Sie:
 
 * [Zielgruppenbestimmung verwenden](optimization-targeting.md) um personalisierte Inhalte für bestimmte Zielgruppensegmente basierend auf Profilattributen, Kontextdaten oder der Zielgruppenzugehörigkeit bereitzustellen.
 
-* [Führen Sie Experimente ](optimization-experimentation.md), um mehrere Inhaltsvarianten zu testen und anhand Ihrer Erfolgsmetriken zu ermitteln, welche am besten abschneidet.
+* [Führen Sie Experimente &#x200B;](optimization-experimentation.md), um mehrere Inhaltsvarianten zu testen und anhand Ihrer Erfolgsmetriken zu ermitteln, welche am besten abschneidet.
 
 * [Kombinieren Sie beide Ansätze](optimization-combination.md) um komplexe Optimierungsstrategien zu erstellen, mit denen Sie verschiedene Varianten für jedes Zielsegment testen können.
 
@@ -90,7 +104,7 @@ Kombination:
 
 So optimieren Sie Ihren Inhalt:
 
-1. **Erstellen einer Kampagne oder Journey**: Richten Sie Ihre [Kampagne](../campaigns/create-campaign.md) oder [Journey ein ](../building-journeys/journey-gs.md) fügen Sie mindestens eine Aktion hinzu.
+1. **Erstellen einer Kampagne oder Journey**: Richten Sie Ihre [Kampagne](../campaigns/create-campaign.md) oder [Journey ein &#x200B;](../building-journeys/journey-gs.md) fügen Sie mindestens eine Aktion hinzu.
 
 1. **Wählen Sie Ihren Optimierungsansatz**:
    * [Verwenden Sie Targeting](optimization-targeting.md) um Inhalte für bestimmte Segmente zu personalisieren.
