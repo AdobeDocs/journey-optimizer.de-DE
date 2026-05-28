@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
+source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
 workflow-type: tm+mt
-source-wordcount: 8005
+source-wordcount: 8040
 ht-degree: 89%
 
 ---
@@ -28,6 +28,8 @@ Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimize
 ## Mai 2026 {#may-2026}
 
 * In der **Verwenden von Entscheidungsrichtlinien in Nachrichten** wird jetzt beschrieben, wie Sie die vollständige Struktur einer Entscheidungsrichtlinie in der Kampagnenübersicht anzeigen und eine technische JSON-Zusammenfassung zur Fehlerbehebung in die Zwischenablage kopieren können. [Weitere Informationen](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+
+* Die veraltete Seite **Entscheidungs** Management[Modelle für die automatische Optimierung](../offers/ranking/auto-optimization-model.md) wurde umgeschrieben, um sie an die aktualisierte Dokumentation zu Decisioning anzupassen, einschließlich Übersicht über das Lernen zur Verstärkung, Anforderungen und Einschränkungen, Abwägung von Optimierung mit Lernen und Details zum Thompson-Stichprobenverfahren. [Weitere Informationen](../offers/ranking/auto-optimization-model.md)
 
 * Die **Versionshinweise** wurde durch ein themenbasiertes Layout neu strukturiert. Änderungen werden jetzt nach Produktbereich anstatt nach Änderungstyp gruppiert. Es wurde ein neuer Abschnitt mit **Verbesserungen der Benutzerfreundlichkeit** hinzugefügt. Bald erscheinende Einträge werden in jedem Thema als erweiterbare Akkordeons angezeigt. [Weitere Informationen](release-notes.md)
 
