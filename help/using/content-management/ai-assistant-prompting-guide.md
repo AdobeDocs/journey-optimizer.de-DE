@@ -8,27 +8,16 @@ role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
 TQID: https://experienceleague.adobe.com/SxuygPzpfRd-fvB9fOSZo6JR428cRzLukvbawfYwcFs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2352
-ht-degree: 82%
+source-wordcount: 2296
+ht-degree: 79%
 
 ---
 
@@ -39,8 +28,8 @@ ht-degree: 82%
 >title="Beispiele für Prompts"
 >abstract="In der Journey Optimizer-Dokumentation erfahren Sie, wie Sie effektive Prompts erstellen, die markenkonforme Marketing-Inhalte mit hoher Konversionsrate generieren."
 
-Dieser Leitfaden hilft Ihnen, Ihre Anfragen zu strukturieren, Ihre Absichten klar und deutlich zu kommunizieren und sicherzustellen, dass die KI Nachrichten generiert, die auf Ihre Markenrichtlinien, Zielgruppenanforderungen und Kampagnenziele abgestimmt sind.
-Erfahren Sie, wie Sie effektive Prompts schreiben, mit denen der KI-Assistent hochwertige markenkonforme Marketing-Inhalte generieren kann, die auf Ihre Ziele abgestimmt sind.
+Dieser Leitfaden hilft Ihnen, Ihre Anfragen zu strukturieren, den Zweck klar und deutlich zu kommunizieren und sicherzustellen, dass die KI Botschaften produziert, die mit Ihren Markenrichtlinien, Zielgruppenanforderungen und Kampagnenzielen übereinstimmen.
+Erfahren Sie, wie Sie effektive Eingabeaufforderungen schreiben, mit denen der KI-Assistent hochwertige markeninterne Marketing-Inhalte generieren kann, die auf Ihre Ziele zugeschnitten sind.
 
 ## Verwenden des Eingabeaufforderungs-Assistenten {#prompt-assistant}
 
@@ -170,19 +159,19 @@ Diese Anfragen werden nicht unterstützt und sollten über andere Tools verarbei
 
 Stellen Sie vor dem Generieren von Inhalten Folgendes sicher:
 
-&check; **Ziel löschen**: Gibt die Aktion, das Produkt/den Service, den Wert und den Kontext klar an.
+&amp;check; **Ziel löschen**: Gibt die Aktion, das Produkt/den Service, den Wert und den Kontext klar an.
 
-&check; **Zielgruppe definiert**: Gibt die demografische Zielgruppe, die Rolle oder das Segment an.
+&amp;check; **Zielgruppe definiert**: Gibt die demografische Zielgruppe, die Rolle oder das Segment an.
 
-&check; **Content type align**: Ziel entspricht dem ausgewählten Kanal oder Format.
+&amp;check; **Content type align**: Ziel entspricht dem ausgewählten Kanal oder Format.
 
-&check; **Dropdown-Auswahl konfiguriert**: Tonwert, Strategie und Gebietsschema ausgewählt sind, schließen Sie diese nicht in die Eingabeaufforderung ein.
+&amp;check; **Dropdown-Auswahl konfiguriert**: Tonwert, Strategie und Gebietsschema ausgewählt sind, schließen Sie diese nicht in die Eingabeaufforderung ein.
 
-&check; **Dokumentfokus angegeben**: Markiert die Inhalte oder Abschnitte, auf die verwiesen werden soll.
+&amp;check; **Dokumentfokus angegeben**: Markiert die Inhalte oder Abschnitte, auf die verwiesen werden soll.
 
-&check; **Marke angewendet**: Es werden die entsprechenden Markenrichtlinien ausgewählt.
+&amp;check; **Marke angewendet**: Es werden die entsprechenden Markenrichtlinien ausgewählt.
 
-&check; **Realistischer Umfang**: Vermeiden Sie Anforderungen an Layout-Änderungen, Stile oder strukturelle Bearbeitungen.
+&amp;check; **Realistischer Umfang**: Vermeiden Sie Anforderungen an Layout-Änderungen, Stile oder strukturelle Bearbeitungen.
 
 ## Formulieren effektiver Marketing-Ziele {#marketing-objectives}
 
@@ -192,11 +181,11 @@ Achten Sie bei der Formulierung von Marketing-Zielen darauf, dass diese klar, um
 
 **Beispiele für gute Ziele:**
 
-&check; „Fordern Sie die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards an“
+&amp;check; „Fordern Sie die Anmeldungen für unsere kostenlose 30-tägige Testversion des neuen KI-gestützten Analyse-Dashboards an“
 
-&check; „Generieren Sie Leads für unser B2B-Webinar zum Thema „Reduzierung der Cloud-Kosten um 40 %&quot;, das am 15. März stattfindet“
+&amp;check; „Generieren Sie Leads für unser B2B-Webinar zum Thema „Reduzierung der Cloud-Kosten um 40 %&quot;, das am 15. März stattfindet“
 
-&check; „Werben Sie für unseren zeitlich begrenzten 25-%-Urlaubsrabatt auf Premium-Abonnements, der am 25. Dezember endet“
+&amp;check; „Werben Sie für unseren zeitlich begrenzten 25-%-Urlaubsrabatt auf Premium-Abonnements, der am 25. Dezember endet“
 
 **Beispiele zu vermeidender Formulierungen:**
 
@@ -208,16 +197,16 @@ Achten Sie bei der Formulierung von Marketing-Zielen darauf, dass diese klar, um
 
 ### Strukturieren des Ziels
 
-Geben Sie immer den Kontext und das Wertversprechen an, damit die KI relevante Inhalte generieren kann.
-Verwenden Sie diese Formel, um effektive Ziele zu formulieren: **Aktion + Produkt/Service + Wert/Nutzen + Dringlichkeit/Kontext**
+Geben Sie immer den Kontext und das Wertversprechen an, damit KI relevante Inhalte generieren kann.
+Verwenden Sie diese Formel, um effektive Ziele zu schreiben: **Aktion + Produkt/Service + Wert/Nutzen + Dringlichkeit/Kontext**
 
 **Beispiele für gute Ziele:**
 
-&check; „Ermutigen Sie Downloads unserer neuen mobilen App, die Benutzern hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
+&amp;check; „Ermutigen Sie Downloads unserer neuen mobilen App, die Benutzern hilft, nachhaltige Lebensgewohnheiten mit personalisierten umweltfreundlichen Empfehlungen zu verfolgen“
 
-&check; „Registrierung für unseren exklusiven Workshop zu fortgeschrittenen Datenvisualisierungstechniken für Marketing-Experten fördern“
+&amp;check; „Registrierung für unseren exklusiven Workshop zu fortgeschrittenen Datenvisualisierungstechniken für Marketing-Experten fördern“
 
-&check; „Ermöglichen Sie die Teilnahme an unserer Produkteinführung, bei der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
+&amp;check; „Ermöglichen Sie die Teilnahme an unserer Produkteinführung, bei der der revolutionäre KI-Schreibassistent vorgestellt wird, der mehr als 5 Stunden pro Woche einspart“
 
 **Beispiele zu vermeidender Formulierungen:**
 
@@ -321,7 +310,7 @@ In der folgenden Tabelle finden Sie Details zu jedem Ton sowie die geeigneten An
 >Wenn Sie bereits ein Marken-Asset über das Menü **Marken-Assets** hochgeladen haben, müssen Sie im Prompt nicht darauf verweisen. Das System verwendet automatisch alle ausgewählten Dokumente.
 
 Marken-Assets bieten sachliche Informationen, die Ihre generierten Inhalte mit spezifischen, genauen Details anreichern.
-Wenn Sie umfangreiche Dokumente wie Produktbroschüren hochladen, geben Sie in Ihrem Prompt an, welche Abschnitte im Vordergrund stehen:
+Wenn Sie umfangreiche Dokumente wie Produktbroschüren hochladen, fügen Sie Ihrer Eingabeaufforderung hinzu, auf welche Teile Sie sich konzentrieren müssen:
 
 * **Anstelle von** _„Verwende die Produktbroschüre“_ **sollten Sie** _„Lege den Fokus auf die erweiterten Sicherheitsfunktionen und Compliance-Zertifizierungen, insbesondere auf die SOC 2-Konformität und die Datenverschlüsselung“_ verwenden
 

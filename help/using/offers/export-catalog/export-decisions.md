@@ -11,24 +11,15 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DTi8clyXof5lmdx0elOPHQGm0cwQuKwAm0KbQ-U-Fmo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 1574
+source-wordcount: 668
 ht-degree: 80%
 
 ---
@@ -56,9 +47,9 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 +++ Kennung
 
 **Feld:** _id
-**Titel:** Kennung
+**title:** Kennung
 **Beschreibung:** Eine eindeutige Kennung für den Datensatz.
-**Typ:** Zeichenfolge
+**Type:** String
 
 +++
 
@@ -89,8 +80,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** description
 **Titel:** Beschreibung
-**Beschreibung:** Kriterienbeschreibung. Wird verwendet, um für den Menschen lesbare Absichten zu vermitteln, wie oder warum dieses Kriterium konstruiert wurde und wie es sich auf die Entscheidung auswirkt.
-**Typ:** Zeichenfolge
+**Beschreibung:** Kriterienbeschreibung. Sie wird verwendet, um für den Menschen lesbare Absichten zu vermitteln, wie oder warum dieses Kriterium konstruiert wurde und wie es sich auf die Entscheidung auswirkt.
+**Type:** String
 
 +++
 
@@ -105,21 +96,21 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
   **Feld:** description
   **Titel:** Beschreibung
-  **Beschreibung:** Beschreibung der Optionsauswahl. Sie dient dazu, für Menschen lesbare Absichten darüber zu vermitteln, wie oder warum diese Optionsauswahl erstellt wurde und/oder welche Option passt.
+  **Beschreibung:Beschreibung** Optionsauswahl. Wird verwendet, um für den Menschen lesbare Absichten zu vermitteln, wie oder warum diese Optionsauswahl erstellt wurde und/oder welche Option passt.
   **Typ:** Zeichenfolge
 
 * Optionsfilter
 
   **Feld:** filter
   **Titel:** Optionsfilter
-  **Beschreibung:** Der Verweis auf einen auf einem Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) basierenden Filter, der Optionen aus einem Inventar entspricht, das deren angehängte Sammlungsqualifizierer verwendet. Der Wert ist die URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/filter.
+  **Beschreibung:** Der Verweis auf einen auf einem Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) basierenden Filter, der Optionen aus einem Inventar entspricht, das deren angehängte Sammlungsqualifizierer verwendet. Der Wert ist der URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/filter.
   **Typ:** Zeichenfolge
 
 * Profileinschränkungstyp
 
   **Feld:** optionSelectionType
   **Titel:** Profileinschränkungstyp
-  **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann über eine Filterabfrage oder durch die Zugehörigkeit zu einer oder mehreren Zielgruppen erfolgen.
+  **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann über eine Filterabfrage oder über eine oder mehrere Zielgruppenzugehörigkeiten erfolgen.
   **Typ:** Zeichenfolge
   **Mögliche Werte:** „none“ (Standard), „directList“, „filter“
 
@@ -127,7 +118,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
   **Feld:** options
   **Titel:** Optionsliste
-  **Beschreibung:** Eine Liste, die die Optionen direkt angibt, ohne eine Filterabfrage auszuwerten. Es kann entweder eine Optionsliste oder eine Optionsfilterregel angegeben werden.
+  **Beschreibung:** Eine Liste, die die Optionen direkt angibt, ohne eine Filterabfrage zu bewerten. Es kann entweder eine Optionsliste oder eine Optionsfilterregel angegeben werden.
   **Typ:** Array
 
 <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
@@ -138,7 +129,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** placements
 **title:** Platzierungsbeschränkungen
-**Beschreibung:** Die Platzierungsbeschränkung besagt, dass dieses Kriterium nur für die aufgelisteten Platzierungen gilt. Nur wenn sich die beabsichtigte Platzierung in der Liste `xdm:placements` befindet, wird die Option ausgewählt. Andernfalls werden die gesamten Entscheidungskriterien übersprungen. Wenn die Liste „xdm:placements“ ausgelassen wird oder leer ist, wird das Kriterium für jede Zielplatzierung berücksichtigt. Die hier aufgeführten Platzierungen erzwingen implizite Kriterien für die Optionsauswahl. Eine zu berücksichtigende Option muss für die Zielplatzierung repräsentativ sein.
+**Beschreibung:** Die Platzierungsbeschränkung besagt, dass dieses Kriterium nur für die aufgelisteten Platzierungen gilt. Nur wenn sich die Zielplatzierung in der `xdm:placements` befindet, wird die Optionsauswahl berücksichtigt. Andernfalls werden die gesamten Entscheidungskriterien übersprungen. Wenn die Liste „xdm:placements&quot; ausgelassen wird oder leer ist, wird das Kriterium für jede Zielplatzierung berücksichtigt. Die hier aufgeführten Platzierungen erzwingen implizite Kriterien für die Optionsauswahl. Eine zu berücksichtigende Option muss für die Zielplatzierung repräsentativ sein.
 **Typ:** Array
 
 * Platzierungskennung
@@ -153,7 +144,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** profileConstraints
 **title:** Profilbegrenzung
-**Beschreibung:** Die Profilbegrenzung entscheidet, ob eine Optionsauswahl zu diesem Zeitpunkt und in diesem Kontext für diese Profil-ID geeignet ist. Wenn die Profileinschränkung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie gegenüber den Optionen aus der Optionsauswahl invariant ist, hebt die als „false“ ausgewertete Profileinschränkung die gesamte Optionsauswahl auf. Dagegen wird eine Profileinschränkungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierte Option der Optionsauswahl ausgewertet.
+**Beschreibung:** Die Profilbegrenzung entscheidet, ob eine Optionsauswahl zu diesem Zeitpunkt und in diesem Kontext für diese Profil-ID geeignet ist. Wenn die Profilbegrenzung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie gegenüber den Optionen aus der Optionsauswahl invariant ist, hebt die als „false“ ausgewertete Profilbegrenzung die gesamte Optionsauswahl auf. Dagegen wird eine Profileinschränkungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierte Option der Optionsauswahl ausgewertet.
 **Typ:** Objekt
 
 +++
@@ -162,8 +153,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** description
 **Titel:** Beschreibung
-**Beschreibung:** Beschreibung der Profileinschränkung. Die Beschreibung soll in für Menschen verständlicher Form vermitteln, wie oder warum diese Profilbegrenzung erstellt wurde und/oder welche Option ein- oder ausgeschlossen wird.
-**Typ:** Zeichenfolge
+**Beschreibung:** Beschreibung der Profileinschränkung. Sie dient dazu, für Menschen lesbare Absichten darüber zu vermitteln, wie oder warum diese Profilbegrenzung erstellt wurde und/oder welche Option von ihr eingeschlossen oder ausgeschlossen wird.
+**Type:** String
 
 +++
 
@@ -171,17 +162,17 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** eligibilityRule
 **Titel:** Eignungsregel
-**Beschreibung:** Ein Verweis auf eine Entscheidungsregel, die für ein bestimmtes Profil und/oder andere kontextuelle XDM-Objekte als „true“ oder „false“ ausgewertet wird. Die Regel wird verwendet, um zu entscheiden, ob die Option für ein bestimmtes Profil geeignet ist. Der Wert ist die URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/rule.
-**Typ:** Zeichenfolge
+**Beschreibung:** Ein Verweis auf eine Entscheidungsregel, die für ein bestimmtes Profil und/oder andere kontextuelle XDM-Objekte als „true“ oder „false“ ausgewertet wird. Die Regel wird verwendet, um zu entscheiden, ob die Option für ein bestimmtes Profil geeignet ist. Der Wert ist der URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/rule.
+**Type:** String
 
 +++
 
 +++ _experience > decisioning > criteria > profileConstraints > Profile Constraint Type
 
 **Feld:** profileConstraintType
-**Titel:** Profileinschränkungstyp
-**Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann durch eine Regel oder durch die Zugehörigkeit zu einer oder mehreren Zielgruppen erfolgen.
-**Typ:** Zeichenfolge
+**title:** Profileinschränkungstyp
+**Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann durch eine Regel oder durch eine oder mehrere Zielgruppenzugehörigkeiten erfolgen.
+**Type:** String
 **Mögliche Werte:**
 
 * „none“ (Standard)
@@ -234,7 +225,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** ranking
 **title:** Ranking-Details
-**Beschreibung:** Rang (Priorität). Definiert, wie die „beste Option“ angesichts des Kontexts des Entscheidungskriteriums bestimmt wird. Unter allen ausgewählten Optionen, die den Profilbegrenzungen entsprechen, entscheidet die Rangfolge über die beste oder die besten n Optionen, die vorgeschlagen werden.
+**Beschreibung:** Rang (Priorität). Definiert, wie die \„beste Option\&quot; im Kontext des Entscheidungskriteriums bestimmt wird. Unter allen ausgewählten Optionen, die den Profilbegrenzungen entsprechen, entscheidet die Rangfolge über die vorzuschlagenden Top-Optionen (oder Top-N).
 **Typ:** Objekt
 
 +++ 
@@ -243,14 +234,14 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** order
 **Titel:** Evaluierung der Rangfolge
-**Beschreibung:** Bewertung einer relativen Reihenfolge für eine oder mehrere Entscheidungsoptionen. Optionen mit höheren Ordinalzahlen werden vor Optionen mit niedrigeren Ordinalzahlen ausgewählt. Die durch diese Methode ermittelten Werte können geordnet werden, die Entfernungen zwischen ihnen können jedoch nicht gemessen werden. Außerdem können weder Summen noch Produkte berechnet werden. Der Medianwert und der Modus sind als einzige Messgrößen der zentralen Tendenz für Ordinaldaten verfügbar.
+**Beschreibung:** Bewertung einer relativen Reihenfolge für eine oder mehrere Entscheidungsoptionen. Optionen mit höheren Ordinalzahlen werden vor Optionen mit niedrigeren Ordinalzahlen ausgewählt. Die durch diese Methode ermittelten Werte können sortiert werden, die Entfernungen zwischen ihnen können jedoch nicht gemessen werden, und es können weder Summen noch Produkte berechnet werden. Der Median und der Modus sind die einzigen Messwerte der zentralen Tendenz, die für ordinale Daten verwendet werden können.
 **Typ:** Objekt
 
 * Scoring-Funktion
 
   **Feld:** function
   **Titel:** Scoring-Funktion
-  **Beschreibung:** Ein Verweis auf eine Funktion, die einen numerischen Wert für diese Entscheidungsoption berechnet. Entscheidungsoptionen werden dann nach diesem Wert sortiert (nach Rang geordnet). Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/function.
+  **Beschreibung:** Ein Verweis auf eine Funktion, die einen numerischen Wert für diese Entscheidungsoption berechnet. Die Entscheidungsoptionen werden dann nach diesem Wert sortiert (nach Rang geordnet). Der Wert dieser Eigenschaft ist der URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/function.
   **Typ:** Zeichenfolge
 
 * Reihenfolgenauswertungstyp**
@@ -265,7 +256,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
   **Feld:** rankingStrategy
   **Titel:** Rangfolgestrategie
-  **Beschreibung:** Ein Verweis auf eine Strategie, die eine Liste von Entscheidungsoptionen in eine Reihenfolge bringt. Entscheidungsoptionen werden in einer geordneten Liste zurückgegeben. Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+  **Beschreibung:** Ein Verweis auf eine Strategie, die eine Liste von Entscheidungsoptionen in eine Reihenfolge bringt. Entscheidungsoptionen werden in einer sortierten Liste zurückgegeben. Der Wert dieser Eigenschaft ist der URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
   **Typ:** Zeichenfolge
 
 +++
@@ -274,7 +265,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** priority
 **Titel:** Priorität
-**Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption im Verhältnis zu allen anderen Optionen. Optionen, für die keine Reihenfolgefunktion angegeben ist, werden mithilfe dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine Option nach demselben Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
+**Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption im Verhältnis zu allen anderen Optionen. Optionen, für die keine Reihenfolgenfunktion angegeben ist, werden mithilfe dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine Option nach dem Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
 **type:** Integer
 **Mindestwert:** 0
 **Standardwert:** 0
@@ -285,8 +276,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** endTime
 **Titel:Enddatum und -zeit** Aktivität
-**Beschreibung:** Enddatum und Endzeit der Entscheidung (früher als Aktivität bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „endTime“ von schema.org, die auf http://schema.org/Action definiert ist.
-**Typ:** Zeichenfolge
+**Beschreibung:** Enddatum und Endzeit der Entscheidung (früher als Aktivität bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „endTime“ von schema.org, die auf https://schema.org/Action definiert ist.
+**Type:** String
 
 +++
 
@@ -295,7 +286,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Feld:** fallback
 **title:** Fallback-Option
 **Beschreibung:** Der Verweis auf eine Fallback-Option, die bei der Entscheidung im Kontext dieser Entscheidung verwendet wird, qualifiziert keine der regulären Optionen (dies geschieht typischerweise, wenn harte Begrenzungen angewendet werden). Der Wert ist die URI (@id) der Fallback-Option, auf die verwiesen wird.
-**Typ:** Zeichenfolge
+**Type:** String
 
 +++
 
@@ -304,7 +295,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Feld:** name
 **Titel:** Aktivitätsname
 **Beschreibung:** Name der Entscheidung (früher als Aktivität bezeichnet), der in verschiedenen Benutzeroberflächen angezeigt wird.
-**Typ:** Zeichenfolge
+**Type:** String
 
 +++
 
@@ -312,8 +303,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** startTime
 **Titel:** Startdatum und -zeit der Aktivität
-**Beschreibung:** Startdatum und Endzeit der Entscheidung (früher als Aktivität bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „startTime“ von schema.org, die auf http://schema.org/Action definiert ist.
-**Typ:** Zeichenfolge
+**Beschreibung:** Startdatum und Endzeit der Entscheidung (früher als Aktivität bezeichnet). Die Eigenschaft hat die Semantik der „startTime“-Eigenschaft von schema.org, die auf https://schema.org/Action definiert ist.
+**Type:** String
 
 +++
 
@@ -329,6 +320,6 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Feld:** eTag
 **Titel:** Aktivitäts-E-Tag
 **Beschreibung:** Die Überprüfung, bei der sich das Entscheidungsobjekt (früher als Aktivität bezeichnet) zum Zeitpunkt des Speicherauszugs befand.
-**Typ:** Zeichenfolge
+**Type:** String
 
 +++

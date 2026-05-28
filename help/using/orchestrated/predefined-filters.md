@@ -6,13 +6,10 @@ description: Erfahren Sie, wie Sie vordefinierte Filter in orchestrierten Kampag
 version: Campaign Orchestration
 exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
 TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 507
 ht-degree: 20%
@@ -96,6 +93,6 @@ Gehen Sie wie folgt vor, um vordefinierte Filter zu bearbeiten oder zu löschen:
 
 1. Öffnen Sie die vordefinierte Filterliste mithilfe der Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** im Regelaufbau.
 
-1. Klicken Sie auf ![&#x200B; Schaltfläche mit &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) Auslassungspunkten neben einem Filter und wählen Sie die gewünschte Aktion aus.
+1. Klicken Sie auf ![ Schaltfläche mit ](assets/do-not-localize/rule-builder-icon-more.svg) Auslassungspunkten neben einem Filter und wählen Sie die gewünschte Aktion aus.
 
 ![](assets/predefined-filters-edit.png)

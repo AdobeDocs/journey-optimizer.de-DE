@@ -11,25 +11,16 @@ level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/UFE7I-hQM4jKPpclDl3avrcE-q-vwRq-c91WOLdPBgo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 71%
+source-wordcount: 179
+ht-degree: 87%
 
 ---
 
@@ -43,7 +34,7 @@ Jedes Mal, wenn ein Angebot geändert wird, wird der automatisch erstellte Daten
 
 ![](../assets/dataset-placements.png)
 
-Der letzte erfolgreiche Batch im Datensatz wird rechts angezeigt. Die hierarchische Ansicht des Schemas für den Datensatz wird im linken Bereich angezeigt.
+Der zuletzt erfolgreiche Batch im Datensatz wird rechts angezeigt. Die hierarchische Ansicht des Schemas für den Datensatz wird im linken Bereich angezeigt.
 
 >[!NOTE]
 >
@@ -56,9 +47,9 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 +++ Kennung
 
 **Feld:** _id
-**Titel:** Kennung
+**title:** Kennung
 **Beschreibung:** Eine eindeutige Kennung für den Datensatz.
-**Typ:** Zeichenfolge
+**Type:** String
 
 +++
 
@@ -80,17 +71,17 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** channelID
 **title:** Kanalkennung der Platzierung
-**Beschreibung:** Der Kanal, in dem der Vorschlag gemacht wurde. Der Wert ist eine gültige Kanal-URI. Siehe https://ns.adobe.com/xdm/channels/channel.
-**Typ:** Zeichenfolge
+**Beschreibung:** Der Kanal, in dem der Vorschlag gemacht wurde. Der Wert ist ein gültiger Kanal-URI. Siehe https://ns.adobe.com/xdm/channels/channel.
+**Type:** String
 
 +++
 
 +++ _experience > decisioning > Content Component Type
 
 **Feld:** componentType
-**Titel:** Inhaltskomponententyp
-**Beschreibung:** Ein Aufzählungssatz von URIs, bei dem jeder Wert einem der Inhaltskomponente gegebenen Typ zugeordnet ist. Einige Verbraucher der Inhaltsdarstellungen erwarten, dass der @type-Wert ein Verweis auf das Schema ist, das zusätzliche Eigenschaften der Inhaltskomponente beschreibt.
-**Typ:** Zeichenfolge
+**Titel:** Inhalts-Komponententyp
+**Beschreibung:** Eine Auflistung von URIs, bei der jeder Wert einem Typ zugeordnet wird, der der Inhaltskomponente zugewiesen wurde. Einige Verbraucher der Inhaltsdarstellungen erwarten, dass der @type ein Verweis auf ein Schema ist, das zusätzliche Eigenschaften der Inhaltskomponente beschreibt.
+**Type:** String
 
 +++
 
@@ -105,7 +96,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **title:** MIME-Medientyp
 **Beschreibung:** Eine Begrenzung für den Medientyp der Komponenten, der an dieser Platzierung erwartet wird. Für eine Komponente kann es mehr als einen Medientyp geben, z. B. verschiedene Bildformate.
-**Typ:** Zeichenfolge
+**Type:** String
 
 +++
 
@@ -113,8 +104,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** description
 **title:** Platzierungsbeschreibung
-**Beschreibung:** Wird verwendet, um für den Menschen lesbare Absichten darüber zu vermitteln, wie dynamischer Inhalt im gesamten Nachrichtenversand verwendet wird. Die Tatsache, dass ein bestimmter Bereich auf einer Website ein \&quot;Banner\&quot; ist, wird oft über die Beschreibung und nicht über eine formale Methode vermittelt.
-**Typ:** Zeichenfolge
+**Beschreibung:** Wird verwendet, um für den Menschen lesbare Absichten darüber zu vermitteln, wie dynamischer Inhalt im gesamten Nachrichtenversand verwendet wird. Dass ein bestimmter Bereich ein \„Banner\&quot; auf einer Web-Seite ist, wird oft über die Beschreibung und nicht durch eine formale Methode übermittelt.
+**Type:** String
 
 +++
 
@@ -123,7 +114,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Feld:** name
 **title:** Platzierungsname
 **Beschreibung:** Ein zugewiesener Name für die Platzierung, auf den in menschlichen Interaktionen verwiesen werden kann.
-**Typ:** Zeichenfolge
+**Type:** String
 
 +++
 
@@ -139,6 +130,6 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Feld:** eTag
 **Titel:** ETag für Platzierung
 **Beschreibung:** Die Überprüfung, bei der sich das Entscheidungsoptionsobjekt zum Zeitpunkt des Speicherauszugs befand.
-**Typ:** Zeichenfolge
+**Type:** String
 
 +++

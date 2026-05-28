@@ -7,11 +7,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1131
 ht-degree: 21%
@@ -55,7 +53,7 @@ Gehen Sie wie folgt vor, um eine Rangfolgenformel für Ihre Journey zu erstellen
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+-->
 
 1. Klicken Sie optional auf **[!UICONTROL KI-Modell auswählen]**, um das Modell festzulegen, das als Referenz zur Erstellung der Rangfolgenformel verwendet wird. [Weitere Informationen](journey-ai-models.md)
 
@@ -190,7 +188,7 @@ Gehen Sie wie folgt vor, um den Regelsatz einer Journey zuzuweisen.
 
 Alle Journey, die diesen Regelsatz verwenden, werden bei der Anwendung der Begrenzung nach der ausgewählten Formel gereiht.
 
-Informationen zur Überwachung der Leistung Ihrer Regelsätze und Rangfolgenformeln finden Sie im Abschnitt [Journey-Begrenzung und &#x200B;](../reports/channel-report-cja.md#rule-sets)Konflikte“ im Übersichtsbericht. Verwenden Sie die in diesem Abschnitt verfügbaren Abfragen, um Verwerfungen auf Data-Lake-Ebene zu untersuchen und festzustellen, ob ein Profil aufgrund eines erreichten (`CAP_REACHED`) oder niedrigeren Prioritätswerts (`LOWER_PRIORITY`) [&#x200B; wurde](../reports/query-examples.md#business-rules-queries).
+Informationen zur Überwachung der Leistung Ihrer Regelsätze und Rangfolgenformeln finden Sie im Abschnitt [Journey-Begrenzung und ](../reports/channel-report-cja.md#rule-sets)Konflikte“ im Übersichtsbericht. Verwenden Sie die in diesem Abschnitt verfügbaren Abfragen, um Verwerfungen auf Data-Lake-Ebene zu untersuchen und festzustellen, ob ein Profil aufgrund eines erreichten (`CAP_REACHED`) oder niedrigeren Prioritätswerts (`LOWER_PRIORITY`) [ wurde](../reports/query-examples.md#business-rules-queries).
 
 <!--
 ## Reporting {#reporting}
