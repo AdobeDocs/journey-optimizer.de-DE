@@ -158,7 +158,7 @@ Erfahren Sie, wie Sie den Bericht für die gesamte Zeit in Adobe Journey Optimiz
 
 +++Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422692?captions=ger&learn=on)
 
 +++
 

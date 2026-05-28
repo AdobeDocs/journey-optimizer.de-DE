@@ -66,7 +66,7 @@ Erfahren Sie, wie Sie den Direkt-Mail-Kanal in Adobe Journey Optimizer nutzen, u
 
 +++ Video ansehen
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479171?captions=ger&quality=12)
 
 +++
 
