@@ -11,22 +11,13 @@ level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
 source-wordcount: 1760
 ht-degree: 91%
@@ -115,6 +106,10 @@ Die Schaltfläche ![Bild mit der Schaltfläche „Mehr Aktionen“](assets/do-no
 
 **Nur für von Aktionen und API ausgelöste Kampagnen:**
 
+<!--
+Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
+* **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
+-->
 * **[!UICONTROL Zu Paket hinzufügen]**: Fügt die Kampagne zu einem Paket hinzu, um sie in eine andere Sandbox zu exportieren. [Weitere Informationen zum Exportieren von Objekten →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL Entwurfsversion öffnen]**: Wenn eine neue Version der Kampagne erstellt und noch nicht aktiviert wurde, können Sie mit dieser Aktion auf ihre Entwurfsversion zugreifen.
 
@@ -135,19 +130,19 @@ Jede Kampagne durchläuft einen Lebenszyklus, der sich in ihrem Status in der Be
 | **[!UICONTROL Entwurf]** | ✅ | ✅ | ✅ | In Bearbeitung, nicht aktiviert | Bearbeitung fortsetzen oder [Kampagne aktivieren](review-activate-campaign.md) |
 | **[!UICONTROL Geplant]** | ✅ | ✅ | ✅ | Für bestimmtes Startdatum konfiguriert | Auf Launch warten, [bei Bedarf ändern](#modify) oder [im Kalender anzeigen](#calendar) |
 | **[!UICONTROL Live]** | ✅ | ✅ | ✅ | Aktiviert und in Ausführung | [Überwachen der Leistung](../reports/campaign-global-report-cja.md), [Erstellen einer neuen Version](#modify) falls erforderlich. Für orchestrierte Kampagnen: [Zurück zum Entwurf](../orchestrated/start-monitor-campaigns.md#back-to-draft) für geplante Kampagnen, die noch nicht gestartet wurden, oder für Kampagnen mit Ausführungsfehlern, bevor Nachrichten gesendet werden |
-| **[!UICONTROL Wird überprüft]** | ✅ | ✅ | — | Zur Genehmigung eingereicht | Auf [Genehmigung](../test-approve/gs-approval.md) warten oder ändern |
+| **[!UICONTROL Wird überprüft]** | ✅ | ✅ | – | Zur Genehmigung eingereicht | Auf [Genehmigung](../test-approve/gs-approval.md) warten oder ändern |
 | **[!UICONTROL Gestoppt]** | ✅ | ✅ | ✅ | Manuell gestoppt, kann nicht wieder aktiviert werden | [Zur Wiederverwendung duplizieren](#duplicate-a-campaign) |
 | **[!UICONTROL Abgeschlossen]** | ✅ | ✅ | ✅ | Ausführung abgeschlossen (wird 3 Tage nach Aktivierung automatisch zugewiesen oder bei wiederkehrender Ausführung am Enddatum) | [Berichte anzeigen](../reports/campaign-global-report-cja.md), [archivieren](#archive-a-campaign) oder [duplizieren](#duplicate-a-campaign) |
-| **[!UICONTROL Fehlgeschlagen]** | ✅ | ✅ | — | Ausführung fehlgeschlagen | Protokolle prüfen, Probleme beheben, [duplizieren und erneut versuchen](#duplicate-a-campaign) |
+| **[!UICONTROL Fehlgeschlagen]** | ✅ | ✅ | – | Ausführung fehlgeschlagen | Protokolle prüfen, Probleme beheben, [duplizieren und erneut versuchen](#duplicate-a-campaign) |
 | **[!UICONTROL Archiviert]** | ✅ | ✅ | ✅ | Archiviert (nach 30 Tagen automatisch gelöscht) | Bei Bedarf [mit Filter abrufen](#access) |
-| **[!UICONTROL Geschlossen]** | — | — | ✅ | Wiederkehrende Kampagne geschlossen, keine neuen Eintritte zulässig (wird fortgesetzt, bis alle Aktivitäten abgeschlossen sind) | Auf Abschluss warten |
-| **[!UICONTROL Wird veröffentlicht]** | — | — | ✅ | In Veröffentlichung | Auf Abschluss der Veröffentlichung warten |
+| **[!UICONTROL Geschlossen]** | — | – | ✅ | Wiederkehrende Kampagne geschlossen, keine neuen Eintritte zulässig (wird fortgesetzt, bis alle Aktivitäten abgeschlossen sind) | Auf Abschluss warten |
+| **[!UICONTROL Wird veröffentlicht]** | — | – | ✅ | In Veröffentlichung | Auf Abschluss der Veröffentlichung warten |
 
 >[!NOTE]
 >
 >Bei durch Aktionen oder API ausgelösten Kampagnen zeigt das Symbol „Entwurfsversion öffnen“ neben einem Status **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** an, dass eine neue Version erstellt und noch nicht aktiviert wurde.
 
-### Fehlerindikatoren
+### Fehlerindikatoren {#error-indicators}
 
 Tritt in einer Ihrer Kampagnen ein Fehler auf, wird neben dem Status der Kampagne ein Warnsymbol angezeigt. Klicken Sie darauf, um Informationen zum Warnhinweis anzuzeigen. Diese Warnhinweise können in verschiedenen Situationen auftreten, z. B. wenn die Kampagnennachricht nicht veröffentlicht wurde oder die gewählte Konfiguration falsch ist.
 
