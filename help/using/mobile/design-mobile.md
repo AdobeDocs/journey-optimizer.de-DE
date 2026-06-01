@@ -14,7 +14,7 @@ subfeature_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1456
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -121,7 +121,7 @@ Gehen Sie wie folgt vor, um den Inhalt Ihrer RCS-Nachricht festzulegen.
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definieren Ihres SMS-Inhalts"
->abstract="Passen Sie Ihre Mobile-Nachricht mit dem Personalisierungseditor an und personalisieren Sie sie, indem Sie den Inhalt definieren und dynamische Elemente integrieren."
+>abstract="Passen Sie Ihre Mobilnachrichten mithilfe des Personalisierungseditors an und personalisieren Sie sie, indem Sie den Inhalt definieren und dynamische Elemente einfügen."
 
 Gehen Sie wie folgt vor, um Ihren Nachrichteninhalt zu konfigurieren. Die Einstellungen für MMS-Nachrichten sind in [diesem Abschnitt](#mms-content) beschrieben.
 

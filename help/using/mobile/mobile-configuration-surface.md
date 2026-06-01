@@ -24,17 +24,17 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 522
-ht-degree: 44%
+ht-degree: 51%
 
 ---
 
-# Erstellen einer Mobile-Nachrichtenkonfiguration {#message-preset-sms}
+# Erstellen einer Mobilnachrichtenkonfiguration {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="Bestimmen der Nachrichtenkategorie"
->abstract="Wählen Sie mit dieser Konfiguration den Nachrichtentyp für Mobilgeräte aus: „Marketing“ für Werbenachrichten, für die das Einverständnis des Benutzers erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, wie das Zurücksetzen des Kennworts."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=de#sms-opt-out-management" text="Opt-out aus Marketing-Nachrichten für Mobilgeräte"
+>abstract="Wählen Sie über diese Konfiguration die Art der Mobilnachrichten aus: Marketing für Werbenachrichten, die die Zustimmung der Benutzenden erfordern, oder Transaktionsnachrichten für nicht-kommerzielle Nachrichten, wie z. B. das Zurücksetzen eines Passworts."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=de#sms-opt-out-management" text="Abmeldung von Marketing-Mobilnachrichten"
 
 Nachdem der Mobile-Nachrichtenkanal konfiguriert wurde, müssen Sie eine Kanalkonfiguration erstellen, um SMS-, RCS- und MMS-Nachrichten von **[!DNL Journey Optimizer]** aus senden zu können.
 

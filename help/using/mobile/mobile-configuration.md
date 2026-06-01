@@ -24,17 +24,17 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: 432
-ht-degree: 60%
+source-wordcount: 418
+ht-degree: 69%
 
 ---
 
-# Erste Schritte mit der Mobile-Konfiguration {#sms-configuration}
+# Erste Schritte bei der Konfiguration von Mobilnachrichten {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Konfigurieren eines SMS-Anbieters mit Journey Optimizer"
->abstract="Adobe Journey Optimizer sendet Mobile-Nachrichten über SMS-Dienstleister. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldedaten ein."
+>abstract="Adobe Journey Optimizer versendet Mobilnachrichten über SMS-Dienstanbieter. Wählen Sie Ihren Anbieter aus und geben Sie Ihre API-Anmeldedaten ein."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -43,8 +43,8 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Konfigurieren des SMS-/RCS-/MMS-Anbieters mit Journey Optimizer"
->abstract="Vor dem Versand von Nachrichten an Mobilgeräte (SMS/RCS/MMS) müssen Sie die Provider-Einstellungen in Journey Optimizer integrieren. Anschließend müssen Sie eine SMS-/RCS-/MMS-Konfiguration erstellen. Diese Schritte müssen von Adobe Journey Optimizer-System-Admins durchgeführt werden."
+>title="Konfigurieren Ihres SMS/RCS/MMS-Anbieters mit Journey Optimizer"
+>abstract="Vor dem Versand von Mobilnachrichten (SMS/RCS/MMS) müssen die Anbietereinstellungen in Journey Optimizer integriert werden. Danach muss eine SMS/RCS/MMS-Konfiguration erstellt werden. Diese Schritte müssen von Adobe Journey Optimizer-System-Admins durchgeführt werden."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Erstellen einer SMS-Kanalkonfiguration"
 
 >[!CONTEXTUALHELP]
@@ -59,8 +59,8 @@ ht-degree: 60%
 
 Bevor Sie SMS, MMS oder RCS versenden, müssen Sie Ihre Adobe Journey Optimizer-Umgebung konfigurieren. Gehen Sie hierfür wie folgt vor:
 
-1. Integrieren Sie die Anbietereinstellungen mit Journey Optimizer.
-Die Schritte hängen von Ihrem SMS-Anbieter ab. Durchsuchen Sie die nachfolgenden Links, um auf ausführliche Dokumentation zuzugreifen:
+1. Integrieren Sie die Provider-Einstellungen in Journey Optimizer.
+Die Schritte hängen von Ihrem SMS-Anbieter ab. Über die unten stehenden Links können Sie auf die detaillierte Dokumentation zugreifen:
    * [Infobip](mobile-configuration-infobip.md)
    * [Sinch](mobile-configuration-sinch.md)
    * [Twilio](mobile-configuration-twilio.md)

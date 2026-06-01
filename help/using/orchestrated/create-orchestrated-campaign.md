@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1227
-ht-degree: 85%
+ht-degree: 94%
 
 ---
 
@@ -63,17 +63,17 @@ Gehen Sie wie folgt vor, um eine orchestrierte Kampagne zu erstellen:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Planung"
->abstract="Als Kampagnen-Manager können Sie Kampagnen so planen, dass sie zu bestimmten Zeiten automatisch gestartet werden, oder sie auf **Ausgelöst durch ein Signal** setzen, sodass sie beginnen, wenn sie über die REST-API oder die Aktivität **Ende** einer anderen orchestrierten Kampagne aufgerufen werden. [Weitere Informationen](trigger-orchestrated-campaign.md)"
+>abstract="Als für Kampagnen verantwortliche Person können Sie Kampagnen so planen, dass sie zu bestimmten Zeiten automatisch gestartet werden, oder sie auf **Ausgelöst durch ein Signal** setzen, sodass sie beginnen, wenn sie über die REST-API oder die Aktivität **Ende** einer anderen orchestrierten Kampagne aufgerufen werden. [Weitere Informationen](trigger-orchestrated-campaign.md)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
 >title="Gültigkeit der Planung"
->abstract="Definieren Sie für geplante Kampagnen einen Gültigkeitszeitraum für die Planung. Er kann dauerhaft (Standard) oder bis zu einem bestimmten Datum gültig sein."
+>abstract="Definieren Sie für geplante Kampagnen einen Gültigkeitszeitraum für die Planung. Er kann dauerhaft sein (Standard) oder bis zu einem bestimmten Datum gültig sein."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="Planungsoptionen"
->abstract="Wählen Sie, wie die Kampagne gestartet werden soll: nach einem einmaligen oder wiederkehrenden Zeitplan (einmal, täglich, wöchentlich, monatlich usw.) oder **Ausgelöst durch ein Signal** damit auf einen API-Aufruf oder die **Ende**-Aktivität einer Upstream-Kampagne gewartet wird. Für signalgesteuerte Kampagnen können Sie Parameter definieren, die in der Payload übergeben werden sollen. [Weitere Informationen](trigger-orchestrated-campaign.md)"
+>abstract="Wählen Sie, wie die Kampagne gestartet werden soll: nach einem einmaligen oder wiederkehrenden Zeitplan (einmal, täglich, wöchentlich, monatlich usw.) oder **ausgelöst durch ein Signal**, damit auf einen API-Aufruf oder die Aktivität **Ende** einer Upstream-Kampagne gewartet wird. Bei signalgesteuerten Kampagnen können Sie Parameter definieren, die in der Payload übergeben werden sollen. [Weitere Informationen](trigger-orchestrated-campaign.md)"
 
 Standardmäßig starten orchestrierte Kampagnen, wenn sie manuell aktiviert werden, und enden, sobald die zugehörigen Aktivitäten ausgeführt worden sind. Wenn Sie es vorziehen, die Ausführung zu verzögern oder die Kampagne wiederkehrend ausführen möchten, können Sie einen Zeitplan für die Kampagne definieren.
 

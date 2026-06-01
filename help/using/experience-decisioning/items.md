@@ -15,7 +15,7 @@ subfeature_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 2347
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -41,13 +41,13 @@ Um ein Entscheidungselement zu erstellen, navigieren Sie zu **[!UICONTROL Entsch
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_ajo_fragment"
->title="Diesem Entscheidungselement ein Journey Optimizer-Inhaltsfragment zuordnen"
+>title="Hinzufügen eines Journey Optimizer-Inhaltsfragments zu diesem Entscheidungselement"
 >abstract="Fügen Sie ein Inhaltsfragment aus Ihrer Journey Optimizer-Fragmentbibliothek an."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_aem_fragment"
->title="Diesem Entscheidungselement ein AEM-Inhaltsfragment zuordnen"
->abstract="Durch Anhängen eines Inhaltsfragments an dieses Entscheidungselement können Sie Ihre Inhalte direkt von Adobe Experience Manager aus nutzen."
+>title="Zuordnen eines AEM-Inhaltsfragments zu diesem Entscheidungselement"
+>abstract="Durch Anfügen eines Inhaltsfragments an dieses Entscheidungselement können Sie Ihre Inhalte direkt von Adobe Experience Manager aus nutzen."
 
 Definieren Sie zunächst die standardmäßigen und die benutzerdefinierten Attribute des Entscheidungselements:
 

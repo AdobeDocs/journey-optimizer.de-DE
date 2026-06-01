@@ -18,7 +18,7 @@ subfeature_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 530
-ht-degree: 68%
+ht-degree: 81%
 
 ---
 
@@ -73,12 +73,12 @@ Erfahren Sie, wie Sie [in einer orchestrierten Kampagne eine Kanalaktion erstell
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Endaktivität"
->abstract="Die **Ende**-Aktivität markiert das Ende einer Verzweigung auf der Arbeitsfläche. Verwenden Sie optional **Externes Signal**, um eine nachgelagerte orchestrierte Kampagne zu starten und Parameter zu übergeben, wenn die Verzweigung abgeschlossen ist. [Weitere Informationen](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="Mit der Aktivität **Ende** können Sie das Ende einer Verzweigung auf der Arbeitsfläche markieren. Verwenden Sie optional **Externes Signal**, um eine nachgelagerte orchestrierte Kampagne zu starten und Parameter zu übergeben, wenn die Verzweigung abgeschlossen ist. [Weitere Informationen](../trigger-orchestrated-campaign.md#signal-end)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="Externes Signal"
->abstract="Wählen Sie die nachgelagerte orchestrierte Kampagne aus, um zu beginnen, wenn diese Verzweigung endet, und ordnen Sie Parameternamen und -werte zu, die in das Signal gesendet werden sollen. Die nachgelagerte Kampagne muss auf **Ausgelöst durch ein Signal** eingestellt und veröffentlicht werden, bevor diese Kampagne die Endaktivität erreicht. [Weitere Informationen](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="Wählen Sie die nachgelagerte orchestrierte Kampagne aus, um zu beginnen, wenn diese Verzweigung endet, und ordnen Sie die Parameternamen und -werte zu, die im Signal gesendet werden sollen. Die nachgelagerte Kampagne muss auf **Ausgelöst durch ein Signal** festgelegt und veröffentlicht werden, bevor diese Kampagne die Aktivität „Ende“ erreicht. [Weitere Informationen](../trigger-orchestrated-campaign.md#signal-end)"
 
 Die folgenden Aktivitäten dienen der Organisation und Ausführung von orchestrierten Kampagnen. Ihre Hauptaufgabe besteht darin, die anderen Aktivitäten zu koordinieren.
 

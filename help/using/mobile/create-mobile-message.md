@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen einer Mobile-Nachricht
+title: Erstellen einer Mobilnachricht
 description: Erfahren Sie, wie Sie in Journey Optimizer eine Nachricht für Mobilgeräte erstellen
 feature: SMS
 topic: Content Management
@@ -26,16 +26,16 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 748
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
-# Erstellen einer Mobile-Nachricht {#create-sms}
+# Erstellen einer Mobilnachricht {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Erstellen einer Mobile-Nachricht"
->abstract="Um eine Nachricht für Mobilgeräte zu erstellen, fügen Sie eine SMS-Aktion in einer Journey oder einer Kampagne hinzu und beginnen Sie mit der Personalisierung mit dem Personalisierungseditor."
+>title="Erstellen einer Mobilnachricht"
+>abstract="Um eine Mobilnachricht zu erstellen, fügen Sie eine SMS-Aktion in eine Journey oder eine Kampagne ein und beginnen Sie, diese mit dem Personalisierungseditor zu personalisieren."
 
 >[!AVAILABILITY]
 >

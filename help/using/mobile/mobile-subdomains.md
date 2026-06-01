@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
 workflow-type: tm+mt
 source-wordcount: 1036
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -37,18 +37,18 @@ ht-degree: 90%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="Delegieren einer Mobile-Nachrichten-Subdomain"
->abstract="Richten Sie Ihre Subdomain für mobile Nachrichten ein. Es kann eine Subdomain verwendet werden, die bereits an Adobe delegiert ist, oder eine neue Subdomain konfiguriert werden."
+>title="Delegieren einer Subdomain für Mobilnachrichten"
+>abstract="Richten Sie Ihre Subdomain für Mobilnachrichten ein. Es kann eine Subdomain verwendet werden, die bereits an Adobe delegiert ist, oder eine neue Subdomain konfiguriert werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="Delegieren einer Mobile-Nachrichten-Subdomain"
->abstract="Sie müssen eine Subdomain konfigurieren, die für Ihre mobilen Nachrichten verwendet werden soll, da diese Subdomain für die Erstellung einer SMS-Konfiguration benötigt wird. Sie können eine bereits an Adobe delegierte Subdomain verwenden oder eine neue Subdomain konfigurieren."
+>title="Delegieren einer Subdomain für Mobilnachrichten"
+>abstract="Sie müssen eine Subdomain konfigurieren, die für Ihre Mobilnachrichten verwendet wird, da diese Subdomain zum Erstellen einer SMS-Konfiguration benötigt wird. Sie können eine bereits an Adobe delegierte Subdomain verwenden oder eine neue Subdomain konfigurieren."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Erstellen einer SMS-Konfiguration"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="Auswählen einer Mobile-Nachrichten-Subdomain"
+>title="Auswählen einer Subdomain für Mobilnachrichten"
 >abstract="Um eine SMS-Konfiguration erstellen zu können, müssen Sie zuvor mindestens eine SMS-Subdomain konfiguriert haben, die aus der Liste der Subdomain-Namen ausgewählt werden kann."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Erstellen einer SMS-Konfiguration"
 
