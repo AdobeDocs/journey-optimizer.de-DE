@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d8be8fcb4fb36c583a3d0b4d57f127686d682866
 workflow-type: tm+mt
-source-wordcount: 1457
-ht-degree: 100%
+source-wordcount: 1516
+ht-degree: 96%
 
 ---
 
@@ -194,7 +194,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * experiments.read
       * experiments.write
       * experiments.delete
--->
+     -->
 
 +++
 
@@ -207,10 +207,10 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * campaign-read
       * campaign-publish
      <!--
-      * experiments.activate
--->
+      * experiments.activate    
+      -->
 
-+++
+  +++
 
 * Mit der Berechtigung **[!DNL View campaigns report]** auf hoher Ebene können Benutzende Kampagnenberichte lesen und bearbeiten.
 
@@ -222,9 +222,9 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
      <!--
       * experiments.read
       * experiments_report.read
--->
+      -->
 
-+++
+  +++
 
 ## Entscheidungs-Management-Ressource {#decisions-permissions}
 
@@ -352,6 +352,16 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
   +++
 
+* **[!DNL Manage key registry]** der Berechtigung auf hoher Ebene können Benutzende Schlüssel in der Schlüsselregistrierung anzeigen, erstellen, drehen und widerrufen.
+
+  +++ Diese Berechtigung beinhaltet die folgenden Berechtigungen auf niedriger Ebene:  
+
+   * Spezifisch für Journey Optimizer:
+      * key-registry.read
+      * key-registry.write
+
+  +++
+
 * Mit der Berechtigung **[!DNL Manage landing page settings]** auf hoher Ebene können Benutzende Landingpage-Subdomains und Voreinstellungen lesen, erstellen und bearbeiten.
 
   +++ Diese Berechtigung beinhaltet die folgenden Berechtigungen auf niedriger Ebene: 
@@ -408,7 +418,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
   +++
 
-* Die Berechtigung **[!DNL Manage Seedlist]** auf hoher Ebene erlaubt Benutzenden das Lesen, Erstellen, Bearbeiten und Löschen von Testadressenlisten.
+* **[!DNL Manage seed lists]** der Berechtigung auf hoher Ebene können Benutzende Testadressenlisten lesen, erstellen, bearbeiten und löschen.
 
   +++ Diese Berechtigung beinhaltet die folgenden Berechtigungen auf niedriger Ebene: 
 
@@ -459,6 +469,15 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
    * Spezifisch für Journey Optimizer:
 
       * file_routing.read
+
+  +++
+
+* **[!DNL View key registry]** der Berechtigung auf hoher Ebene können Benutzer die Schlüsselregistrierung sowie Schlüsseldetails anzeigen.
+
+  +++ Diese Berechtigung beinhaltet die folgenden Berechtigungen auf niedriger Ebene:  
+
+   * Spezifisch für Journey Optimizer:
+      * key-registry.read
 
   +++
 

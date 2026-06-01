@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
+source-git-commit: 11d7941699213e9a0f3172bea2f4f46f303741bc
 workflow-type: tm+mt
-source-wordcount: 8040
-ht-degree: 89%
+source-wordcount: 8083
+ht-degree: 88%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 89%
 Auf dieser Seite werden alle aktuellen Änderungen in der [!DNL Journey Optimizer] Dokumentation sowie die Aktualisierungen im Zusammenhang mit den Funktionen und Verbesserungen der monatlichen Versionen aufgeführt.
 
 ## Mai 2026 {#may-2026}
+
+* Es wurden zwei neue Berechtigungen auf hoher Ebene hinzugefügt: **Verwalten der Schlüsselregistrierung**, mit denen Benutzer Schlüssel in der Schlüsselregistrierung anzeigen, erstellen, drehen und widerrufen können, und **Anzeigen der Schlüsselregistrierung**, mit der Benutzer die Liste der Schlüsselregistrierung und Schlüsseldetails anzeigen können. [Weitere Informationen](../administration/high-low-permissions.md#administration-permissions)
 
 * In der **Verwenden von Entscheidungsrichtlinien in Nachrichten** wird jetzt beschrieben, wie Sie die vollständige Struktur einer Entscheidungsrichtlinie in der Kampagnenübersicht anzeigen und eine technische JSON-Zusammenfassung zur Fehlerbehebung in die Zwischenablage kopieren können. [Weitere Informationen](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 

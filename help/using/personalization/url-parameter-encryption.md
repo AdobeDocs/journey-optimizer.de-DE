@@ -7,25 +7,22 @@ feature: Personalization
 topic: Personalization
 role: Admin
 level: Intermediate
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 keywords: Verschlüsselung, URL, Tracking, Landingpage, Schlüsselregistrierung, Personalisierung, Sicherheit, Datenschutz, Sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0db9be747a60ae40c881227ce7b8da251abec042
 workflow-type: tm+mt
-source-wordcount: 695
-ht-degree: 3%
+source-wordcount: 663
+ht-degree: 2%
 
 ---
 
 # URL-Parameter verschlüsseln {#url-parameter-encryption}
 
 >[!AVAILABILITY]
->
->Diese Funktion ist nur in begrenztem Umfang verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 >
 >Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar.
 
@@ -54,15 +51,9 @@ Eine Landingpage-URL verwendet möglicherweise einen Abfrageparameter wie `token
 
 Bevor Sie den URL-Parameter-Verschlüsselungs-Helper verwenden können, müssen Sie einen Schlüssel erstellen. Gehen Sie dazu wie folgt vor.
 
->[!NOTE]
->
->Derzeit gibt es keine spezifischen Berechtigungen zum Zugreifen auf und Verwalten von Schlüsseln. Rollen, die Zugriff auf den Abschnitt **[!UICONTROL Konfigurationen]** unter **[!UICONTROL Administration]** gewähren, gewähren auch Zugriff auf die Schlüsselregistrierung. Spezifische Berechtigungen sind jedoch für eine zukünftige Version geplant.
-
-<!--
 >[!IMPORTANT]
 >
->To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)
--->
+>Um auf Schlüssel zuzugreifen und sie zu verwalten, benötigen Sie die Berechtigungen **Schlüsselregistrierung anzeigen** und **Schlüsselregistrierung verwalten**. [Weitere Informationen](../administration/high-low-permissions.md#administration-permissions)
 
 1. Navigieren Sie **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]**.
 
