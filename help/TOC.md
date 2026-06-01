@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfe268a55e099fa69ac8ccd6645faf65d4512460
+source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
 workflow-type: tm+mt
-source-wordcount: '3335'
+source-wordcount: '3343'
 ht-degree: 95%
 
 ---
@@ -63,6 +63,8 @@ ht-degree: 95%
       + [Konfigurieren und Verfolgen der Journey-Metriken](using/building-journeys/success-metrics.md)
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Simulieren der Journey](using/building-journeys/simulate-journey.md)
+      + {hide-from-toc}[Erste Schritte mit der Journey-Simulation](using/building-journeys/simulate-journey-gs.md)
+      + {hide-from-toc}[Journey simulieren](using/building-journeys/simulate-journey-2.md)
       + [Journeys testen](using/building-journeys/testing-the-journey.md)
       + [Journey-Probelauf](using/building-journeys/journey-dry-run.md)
       + [Veröffentlichen Ihrer Journey](using/building-journeys/publish-journey.md)
@@ -345,14 +347,14 @@ ht-degree: 95%
          + [Schnellstart-Workflow für Mobile-Onboarding](using/push/mobile-onboarding-wf.md)
    + SMS-/MMS-/RCS-Kanal {#mobile}
       + [Erste Schritte mit Mobile Messaging](using/mobile/get-started-mobile.md)
-      + [Erstellen einer Mobile-Nachricht](using/mobile/create-mobile-message.md)
+      + [Erstellen einer Mobilnachricht](using/mobile/create-mobile-message.md)
       + [Gestalten einer Mobile-Nachricht](using/mobile/design-mobile.md)
       + [Mobiltelefon-Nachrichten überprüfen und senden](using/mobile/send-mobile-message.md)
       + [Verwalten des Opt-outs für Mobile-Nachrichten](using/mobile/mobile-opt-out.md)
       + [Einrichten von SMS-Subdomains](using/mobile/mobile-subdomains.md)
       + [Best Practices für Optimierung der SMS-Kosten](using/mobile/mobile-cost-optimization.md)
       + Mobile-Kanal konfigurieren {#configure-mobile}
-         + [Erste Schritte mit der Mobile-Konfiguration](using/mobile/mobile-configuration.md)
+         + [Erste Schritte bei der Konfiguration von Mobilnachrichten](using/mobile/mobile-configuration.md)
          + [Konfigurieren des Sinch-Anbieters](using/mobile/mobile-configuration-sinch.md)
          + [Konfigurieren des Infobip-Anbieters](using/mobile/mobile-configuration-infobip.md)
          + [Konfigurieren des Twilio-Anbieters](using/mobile/mobile-configuration-twilio.md)
