@@ -32,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 99aa72f0a45e504b0a22ca171b2f96e90c28e1af
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1210
 ht-degree: 25%
@@ -73,4 +73,3 @@ Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der
 | Übersetzungsdienst | **[!DNL Manage translation in house]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungen intern.</br>**[!DNL Manage translation projects]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungsprojekten.</br> **[!DNL Manage translation reviews]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungsüberprüfungen.</br>**[!DNL Manage translation settings]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungseinstellungen.</br>**[!DNL Manage translation tasks]**: Lesen, Erstellen, Bearbeiten und Löschen von Übersetzungsaufgaben.</br>**[!DNL View translation in house]**: Nur-Lese-Zugriff für Übersetzungen intern.</br>**[!DNL View translation projects]**: Nur-Lese-Zugriff für Übersetzungsprojekte.</br>**[!DNL View translation reviews]**: Nur-Lese-Zugriff für Übersetzungsüberprüfungen.</br>**[!DNL View translation tasks]**: Nur-Lese-Zugriff für Übersetzungsaufgaben. |
 
 {style="table-layout:fixed"}
-
