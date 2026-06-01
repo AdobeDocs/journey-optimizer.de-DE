@@ -9,11 +9,9 @@ role: Admin
 level: Intermediate
 keywords: Verschlüsselung, URL, Tracking, Landingpage, Schlüsselregistrierung, Personalisierung, Sicherheit, Datenschutz, Sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0db9be747a60ae40c881227ce7b8da251abec042
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 663
 ht-degree: 2%
@@ -96,4 +94,3 @@ Gehen Sie wie folgt vor, um Schlüssel zu verwalten.
    >[!NOTE]
    >
    >Es sollten nur aktive Schlüssel ausgewählt werden, um neue Werte im Personalisierungseditor zu verschlüsseln. Verwenden Sie keine widerrufenen Schlüssel für neue Inhalte.
-
