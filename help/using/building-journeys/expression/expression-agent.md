@@ -15,7 +15,7 @@ subfeature_v2: []
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 660
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="Generieren von Ausdrücken mit dem Ausdrucksassistenten"
->abstract="Der Ausdrucksassistent verwendet generative KI, um Ausdrücke direkt im erweiterten Ausdruckseditor von Journey zu erstellen und zu generieren. Zum Beispiel in Bedingungen **Aktivitäten des Typs** Optimieren“ oder **Warten** Aktivitäten, die ein benutzerdefiniertes Datum verwenden. Beschreiben Sie, was Sie benötigen, und der Assistent generiert den entsprechenden Ausdruck für Sie."
+>abstract="Der Ausdrucksassistent verwendet generative KI, um Ausdrücke direkt im erweiterten Ausdruckseditor von Journey zu erstellen und zu generieren. Zum Beispiel in Bedingungen, Aktivitäten des Typs **Optimieren** oder **Warten**, bei denen ein benutzerdefiniertes Datum verwendet wird. Beschreiben Sie in einfacher Sprache, was Sie benötigen. Der Assistent generiert den entsprechenden Ausdruck für Sie."
 
 >[!AVAILABILITY]
 >
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 Der Ausdrucksassistent ist eine KI-gestützte Funktion, die in den erweiterten Ausdruckseditor von Journey integriert ist. Damit können Sie gültige Ausdrücke aus einfachen Eingabeaufforderungen generieren.
 
-Er ist überall dort verfügbar, wo die Journey **[!UICONTROL Erweiterter Ausdruckseditor]** geöffnet wird. Dies ist beispielsweise der Fall, wenn Sie Bedingungen und Routing innerhalb einer **[Aktivität „Optimieren](../optimize.md)** konfigurieren oder wenn Sie eine [**[!UICONTROL Warten &#x200B;]**-Aktivität](../wait-activity.md) konfigurieren, die ein benutzerdefiniertes Datum verwendet und einen `dateTimeOnly`-Ausdruck benötigt.
+Er ist überall dort verfügbar, wo die Journey **[!UICONTROL Erweiterter Ausdruckseditor]** geöffnet wird. Dies ist beispielsweise der Fall, wenn Sie Bedingungen und Routing innerhalb einer **[Aktivität „Optimieren](../optimize.md)** konfigurieren oder wenn Sie eine [**[!UICONTROL Warten ]**-Aktivität](../wait-activity.md) konfigurieren, die ein benutzerdefiniertes Datum verwendet und einen `dateTimeOnly`-Ausdruck benötigt.
 
 ## Ausdruck erzeugen {#generate}
 
@@ -50,7 +50,7 @@ So generieren Sie einen Ausdruck mit dem Ausdrucksassistenten:
    * *„Benutzer aus den USA und älter als 18“*
    * *„Kunden, die in den letzten 30 Tagen einen Kauf getätigt haben“*
 
-   Ideen [&#x200B; Sie am &#x200B;](#example-prompts) dieser Seite unter „Beispielaufforderungen“.
+   Ideen [ Sie am ](#example-prompts) dieser Seite unter „Beispielaufforderungen“.
 
 1. Klicken Sie auf **[!UICONTROL Generieren]**, um Ihre Eingabeaufforderung zu senden.
 

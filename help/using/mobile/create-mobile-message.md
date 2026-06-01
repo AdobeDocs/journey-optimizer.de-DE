@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen einer Mobile-Nachricht
+title: Erstellen einer Mobilnachricht
 description: Erfahren Sie, wie Sie in Journey Optimizer eine Nachricht für Mobilgeräte erstellen
 feature: SMS
 topic: Content Management
@@ -9,33 +9,25 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 TQID: https://experienceleague.adobe.com/xgPlWorA3lsIF8ZBPHdg2UAK8cLKUsJO-2ONc7ZG8AU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 748
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
-# Erstellen einer Mobile-Nachricht {#create-sms}
+# Erstellen einer Mobilnachricht {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Erstellen einer Mobile-Nachricht"
->abstract="Um eine Nachricht für Mobilgeräte zu erstellen, fügen Sie eine SMS-Aktion in einer Journey oder einer Kampagne hinzu und beginnen Sie mit der Personalisierung mit dem Personalisierungseditor."
+>title="Erstellen einer Mobilnachricht"
+>abstract="Um eine Mobilnachricht zu erstellen, fügen Sie eine SMS-Aktion in eine Journey oder eine Kampagne ein und beginnen Sie, diese mit dem Personalisierungseditor zu personalisieren."
 
 >[!AVAILABILITY]
 >
@@ -116,7 +108,7 @@ Weitere Informationen zum Erstellen, Konfigurieren und Veröffentlichen einer Jo
 
 Sie können jetzt mit der Erstellung des Inhalts Ihrer Mobile-Nachricht beginnen, indem Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** verwenden, wie unten beschrieben. [Weitere Informationen](design-mobile.md)
 
-Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [&#x200B; Seite](../campaigns/get-started-with-campaigns.md).
+Weitere Informationen zum Erstellen, Konfigurieren und Aktivieren einer Kampagne finden Sie auf [ Seite](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 

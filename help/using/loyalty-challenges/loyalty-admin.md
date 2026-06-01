@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
@@ -81,7 +81,7 @@ Um die Konfigurationsoberfläche zu öffnen, wählen Sie im linken Navigationsbe
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="Globale Einstellungen"
->abstract="Globale Einstellungen definieren die Konfiguration auf Organisationsebene für Herausforderungen im Zusammenhang mit der Treue, einschließlich des Identity-Namespace, mit dem Mitglieder über Ereignisse und Herausforderungen hinweg identifiziert werden."
+>abstract="Globale Einstellungen definieren die Konfiguration auf Organisationsebene für Treue-Challenges, einschließlich des Identity-Namespace, anhand dessen Mitglieder über Ereignisse und Challenges hinweg identifiziert werden."
 
 Öffnen Sie die Registerkarte **[!UICONTROL Globale Einstellungen]** und wählen Sie den Adobe Experience Platform [Identity-Namespace](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces) für Herausforderungen im Zusammenhang mit Treue in der Dropdown-Liste **[!UICONTROL Namespace]** aus. Dieser Namespace muss mit der Art und Weise übereinstimmen, wie Mitgliederprofile in Ihren Daten identifiziert werden.
 
@@ -89,27 +89,27 @@ Um die Konfigurationsoberfläche zu öffnen, wählen Sie im linken Navigationsbe
 
 ➡️ [Erfahren Sie, wie Sie mit Identity-Namespaces arbeiten](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"}
 
-## Belohnungsanbieter {#reward-providers}
+## Prämienanbieter {#reward-providers}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers"
->title="Belohnungsanbieter"
->abstract="Ein Belohnungsanbieter definiert das externe System, das Aufrufe [!DNL Journey Optimizer], um Belohnungen zu erfüllen, wenn Kunden Herausforderungen bewältigen. Konfigurieren Sie den Provider-Endpunkt, Belohnungsdefinitionen, Proxy-Einstellungen und die Authentifizierung für jede Integration."
+>title="Prämienanbieter"
+>abstract="Ein Prämienanbieter definiert das externe System, das [!DNL Journey Optimizer] aufruft, um Prämien zu vergeben, wenn Kundinnen und Kunden Challenges abschließen. Konfigurieren Sie den Anbieterendpunkt, Prämiendefinitionen, Proxy-Einstellungen und die Authentifizierung für jede Integration."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_connection"
->title="Belohnungsanbieter-Verbindung"
->abstract="Konfigurieren Sie, wie [!DNL Journey Optimizer] eine Verbindung zu Ihrer Reward-API herstellt: Anbietername, Beschreibung, Endpunkt-URL und HTTP-Kopfzeilen, die für Erfüllungsaufrufe erforderlich sind."
+>title="Verbindung zum Prämienanbieter"
+>abstract="Konfigurieren Sie, wie [!DNL Journey Optimizer] eine Verbindung zu Ihrer Reward-API herstellt: Anbietername, Beschreibung, Endpunkt-URL und HTTP-Header, die für Erfüllungsaufrufe erforderlich sind."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_details"
 >title="Prämiendefinitionen"
->abstract="Belohnungsdefinitionen geben jeden Belohnungstyp an, den dieser Anbieter ausgeben kann (z. B. Punkte oder Sterne), sowie die Payload, die [!DNL Journey Optimizer] sendet, wenn Belohnungen erfüllt sind."
+>abstract="Prämiendefinitionen geben jeden Prämientyp an, den dieser Anbieter ausgeben kann (z. B. Punkte oder Sterne), sowie die Payload, die [!DNL Journey Optimizer] sendet, wenn Prämien gewährt werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_proxy"
->title="Belohnungs-Proxy"
->abstract="Optional können Sie Erfüllungsaufrufe über einen Proxy-Server leiten, anstatt sie direkt an Ihren Reward-API-Endpunkt zu senden. Konfigurieren Sie den Host, den Port, die Anmeldeinformationen und geben Sie an, ob der Proxy aktiviert ist. Der Wert der Anmeldeinformationen sieht in der Regel wie folgt aus: `{ "userName": "test", "password": "xxxx" }`"
+>title="Prämien-Proxy"
+>abstract="Optional können Sie Erfüllungsaufrufe über einen Proxy-Server leiten, anstatt sie direkt an Ihren Prämien-API-Endpunkt zu senden. Konfigurieren Sie den Host, den Port, die Anmeldedaten und geben Sie an, ob der Proxy aktiviert ist. Der Wert der Anmeldedaten sieht in der Regel wie folgt aus: `{ "userName": "test", "password": "xxxx" }`"
 
 Ein **Belohnungsanbieter** teilt [!DNL Journey Optimizer] mit, wohin Erfüllungsanrufe gesendet werden sollen, wenn der Challenge-Fortschritt aufgezeichnet oder eine Challenge abgeschlossen ist. Beispielsweise eine API, die Treuepunkte oder Sterne einem Mitgliedskonto gutschreibt.
 
@@ -140,7 +140,7 @@ Gehen Sie wie folgt vor, um einen Belohnungsanbieter zu erstellen:
 
    +++
 
-   +++Belohnungs-Proxy
+   +++Prämien-Proxy
 
    Routet Erfüllungsaufrufe über einen Zwischenserver, anstatt sie direkt an Ihren Endpunkt zu senden. Verwenden Sie auf den Bildschirmen Belohnungsanbieter und **[!UICONTROL Proxy erstellen]** das Feld **[!UICONTROL Anmeldeinformationen]** für die Proxy-Authentifizierung.
 
@@ -189,12 +189,12 @@ Um einen Belohnungsanbieter zu bearbeiten, öffnen Sie die Registerkarte **[!UIC
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_definitions"
 >title="Ereignisdefinitionen"
->abstract="Ereignisdefinitionen zeigen [!DNL Journey Optimizer], wie eingehende Ereignisdaten aus Ihren externen Quellen identifiziert und interpretiert werden. Jede Definition ordnet einen bestimmten Ereignistyp zu, z. B. einen Kauf oder einen Check-in, damit das System den Kundenfortschritt bei den Challenge-Aufgaben verfolgen kann."
+>abstract="Ereignisdefinitionen zeigen [!DNL Journey Optimizer], wie eingehende Ereignisdaten aus Ihren externen Quellen identifiziert und interpretiert werden sollen. Jede Definition ordnet einen bestimmten Ereignistyp zu, z. B. einen Kauf oder einen Check-in, damit das System den Kundenfortschritt bei den Challenge-Aufgaben verfolgen kann."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
->title="Ereignisschema und Transformator"
->abstract="Wenn Ihr Unternehmen Ereignisse im benutzerdefinierten JSON-Format sendet, verwenden Sie **[!UICONTROL Schema]**, um die Payload zu validieren, und **[!UICONTROL Transformer]** (z. B. ein JSONata-Ausdruck), um Felder dem Format zuzuordnen, das Loyalty Challenges erwartet."
+>title="Ereignisschema und Transformer"
+>abstract="Wenn Ihre Organisation Ereignisse im benutzerdefinierten JSON-Format sendet, verwenden Sie **[!UICONTROL Schema]**, um die Payload zu validieren, und **[!UICONTROL Transformer]** (z. B. ein JSONata-Ausdruck), um Felder dem Format zuzuordnen, das Treue-Challenges erwartet."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
@@ -231,7 +231,7 @@ Gehen Sie wie folgt vor, um eine Ereignisdefinition zu erstellen:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_product_inventory"
 >title="Produktinventar"
->abstract="Laden Sie eine CSV-Datei hoch, die Produktkennungen zuordnet. Marketer können diese Gruppen referenzieren, wenn sie geeignete Artikel für Kauf- und Ausgabenaufgaben konfigurieren, ohne jede Artikel-ID einzugeben."
+>abstract="Laden Sie eine CSV-Datei hoch, die Artikelkennungen Produktgruppen zuordnet. Marketing-Fachleute können diese Gruppen referenzieren, wenn sie geeignete Artikel für Kauf- und Ausgabenaufgaben konfigurieren, ohne jede Artikel-ID einzugeben."
 
 Die Registerkarte **[!UICONTROL Produktinventar]** gruppiert Katalogelemente, damit Marketing-Experten sie in Aufgaben auswählen können, ohne jede Element-ID einzugeben. Laden Sie eine **CSV-Datei** hoch, die jede Elementkennung einer oder mehreren **Produktgruppen** zuordnet (dasselbe Element kann mehreren Gruppen angehören). Importierte Gruppen sind bei der Konfiguration der Aufgabeneignung verfügbar. [Erfahren Sie, wie Sie Aufgaben erstellen](create-tasks.md)
 
@@ -266,7 +266,7 @@ Gehen Sie wie folgt vor, um eine Produktinventardatei hochzuladen:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_exclusions"
 >title="Ausschlüsse"
->abstract="Laden Sie eine CSV-Datei hoch, die programmweit ausgeschlossene Katalogelemente und Gruppen definiert. Importierte Ausschlussgruppen werden angezeigt, wenn Marketer geeignete Elemente und Ausschlüsse für Aufgaben konfigurieren."
+>abstract="Laden Sie eine CSV-Datei hoch, die programmweit ausgeschlossene Katalogelemente und Gruppen definiert. Importierte Ausschlussgruppen werden angezeigt, wenn Marketing-Fachleute geeignete Elemente und Ausschlüsse für Aufgaben konfigurieren."
 
 Die Registerkarte **[!UICONTROL Ausschlüsse]** definiert Katalogelemente und Gruppen, die programmweit ausgeschlossen sind, sodass Marketing-Experten nicht bei jeder Aufgabe dieselben Ausschlüsse auflisten müssen. Laden Sie eine **CSV-Datei** hoch, die jede Elementkennung einer oder mehreren **Ausschlussgruppen** zuordnet (dasselbe Element kann mehreren Gruppen angehören).
 

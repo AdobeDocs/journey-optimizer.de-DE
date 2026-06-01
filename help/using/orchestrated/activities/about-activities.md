@@ -6,19 +6,14 @@ description: Informationen zu Aktivitäten orchestrierter Kampagnen
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 530
-ht-degree: 68%
+ht-degree: 81%
 
 ---
 
@@ -73,12 +68,12 @@ Erfahren Sie, wie Sie [in einer orchestrierten Kampagne eine Kanalaktion erstell
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Endaktivität"
->abstract="Die **Ende**-Aktivität markiert das Ende einer Verzweigung auf der Arbeitsfläche. Verwenden Sie optional **Externes Signal**, um eine nachgelagerte orchestrierte Kampagne zu starten und Parameter zu übergeben, wenn die Verzweigung abgeschlossen ist. [Weitere Informationen](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="Mit der Aktivität **Ende** können Sie das Ende einer Verzweigung auf der Arbeitsfläche markieren. Verwenden Sie optional **Externes Signal**, um eine nachgelagerte orchestrierte Kampagne zu starten und Parameter zu übergeben, wenn die Verzweigung abgeschlossen ist. [Weitere Informationen](../trigger-orchestrated-campaign.md#signal-end)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="Externes Signal"
->abstract="Wählen Sie die nachgelagerte orchestrierte Kampagne aus, um zu beginnen, wenn diese Verzweigung endet, und ordnen Sie Parameternamen und -werte zu, die in das Signal gesendet werden sollen. Die nachgelagerte Kampagne muss auf **Ausgelöst durch ein Signal** eingestellt und veröffentlicht werden, bevor diese Kampagne die Endaktivität erreicht. [Weitere Informationen](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="Wählen Sie die nachgelagerte orchestrierte Kampagne aus, um zu beginnen, wenn diese Verzweigung endet, und ordnen Sie die Parameternamen und -werte zu, die im Signal gesendet werden sollen. Die nachgelagerte Kampagne muss auf **Ausgelöst durch ein Signal** festgelegt und veröffentlicht werden, bevor diese Kampagne die Aktivität „Ende“ erreicht. [Weitere Informationen](../trigger-orchestrated-campaign.md#signal-end)"
 
 Die folgenden Aktivitäten dienen der Organisation und Ausführung von orchestrierten Kampagnen. Ihre Hauptaufgabe besteht darin, die anderen Aktivitäten zu koordinieren.
 
