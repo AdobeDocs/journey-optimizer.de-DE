@@ -10,19 +10,12 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 794
 ht-degree: 94%
@@ -132,7 +125,7 @@ Sie können sehen, dass `products` ein Array von zwei Objekten ist. Sie müssen 
 
 1. Definieren Sie für jedes Feld das Label, das auf der Journey-Arbeitsfläche angezeigt werden soll.
 
-   ![Funktion „Filtersammlung“ mit der Condition Builder-Oberfläche](assets/uc-collection-2.png){width="70%" align="left"}
+   ![Funktion „Filtersammlung“ mit der Condition Builder-Oberfläche](assets/uc-collection-2.png){width="70%"}
 
 1. Erstellen Sie Ihre Journey und fügen Sie die von Ihnen erstellte benutzerdefinierte Aktion hinzu. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/using-custom-actions.md).
 
@@ -142,7 +135,7 @@ Sie können sehen, dass `products` ein Array von zwei Objekten ist. Sie müssen 
 
 1. Geben Sie für jedes der folgenden Objektfelder den entsprechenden Feldnamen aus dem Quell-XDM-Schema ein. Wenn die Namen identisch sind, ist dies nicht erforderlich. In unserem Beispiel müssen wir nur `product id` und „color“ definieren.
 
-   ![Sortierfunktion für Sammlungen mit Sortierkonfiguration](assets/uc-collection-4.png){width="50%" align="left"}
+   ![Sortierfunktion für Sammlungen mit Sortierkonfiguration](assets/uc-collection-4.png){width="50%"}
 
 Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenbearbeitungen durchzuführen. Im folgenden Beispiel werden die Funktionen [Filtern](functions/list-functions.md#filter) und [Überschneidung](functions/list-functions.md#intersect) verwendet:
 
@@ -206,7 +199,7 @@ Sammlungen in benutzerdefinierten Aktionen bieten zwar Flexibilität bei der Üb
 
 Bei heterogenen Typen und Arrays von Arrays wird das Array mit dem Typ „listAny“ definiert. Sie können nur einzelne Elemente zuordnen, das Array jedoch nicht in eine Variable ändern.
 
-![Heterogene Sammlung mit gemischten Datentypen und Feldauswahl](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![Heterogene Sammlung mit gemischten Datentypen und Feldauswahl](assets/uc-collection-heterogeneous.png){width="70%"}
 
 Beispiel eines heterogenen Typs:
 
