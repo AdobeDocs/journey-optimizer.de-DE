@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2200
 ht-degree: 88%
@@ -126,7 +126,7 @@ In Journey Optimizer können Sie Data Governance- und Einverständnisrichtlinien
 
 Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **[!UICONTROL Endpunkt-Konfigurationsparameter]** definieren:
 
-![](assets/action-response1bis.png){width="70%" align="left"}
+![](assets/action-response1bis.png){width="70%"}
 
 1. Geben Sie im Feld **[!UICONTROL URL]** die URL des externen Services an:
 
@@ -203,15 +203,15 @@ Sie können den Payload-Parameter wie unten beschrieben definieren:
 
    Aktivieren Sie die Option **[!UICONTROL NULL-Werte zulassen]**, um Nullwerte im externen Aufruf beizubehalten. Beachten Sie, dass das Senden von Arrays von int, string usw. mit Null-Werten in nicht vollständig unterstützt wird. Zum Beispiel wird das folgende Array mit den Ganzzahlen `[1, null, 2, 3]` als `[1, 2, 3]` gesendet, auch wenn diese Option aktiviert ist. Wenn ein solches Array null ist, wird es außerdem als leeres Array gesendet.
 
-   ![](assets/null-values.png){width="70%" align="left"}
+   ![](assets/null-values.png){width="70%"}
 
 1. Fügen Sie im Abschnitt **[!UICONTROL Antwort]** ein Beispiel der Payload ein, die zurückgegeben wird, wenn der Aufruf erfolgreich ist. Dieses Feld ist optional und ist für alle Aufrufmethoden verfügbar. Ausführliche Informationen zur Verwendung von API-Aufrufantworten in benutzerdefinierten Aktionen finden Sie auf [dieser Seite](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 1. (Optional) Wählen Sie **[!UICONTROL Fehlerantwort-Payload definieren]** aus, um das Payload-Feld für die Fehlerantwort zu aktivieren. Wenn aktiviert, verwenden Sie den Abschnitt **[!UICONTROL Fehlerantwort]**, um ein Beispiel der Payload einzufügen, die zurückgegeben wird, wenn der Aufruf fehlschlägt. Es gelten dieselben Anforderungen wie für die Antwort-Payload (Feldtypen und -format). Erfahren Sie (hier), wie Sie die Payload für die Fehlerantwort [&#x200B; Journey &#x200B;](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 >[!NOTE]
 >

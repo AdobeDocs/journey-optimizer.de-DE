@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 1770
-ht-degree: 93%
+source-wordcount: 1675
+ht-degree: 90%
 
 ---
 
@@ -70,7 +70,7 @@ Die **Symbolleiste** oben rechts auf der Arbeitsfläche ermöglicht es Ihnen, da
 
 <!--and show/hide timeout and error paths-->
 
-![Journey-Symbolleiste mit Steuerelementen für Zoomen, Raster und Screenshots](assets/toolbar.png){width="70%" align="left"}
+![Journey-Symbolleiste mit Steuerelementen für Zoomen, Raster und Screenshots](assets/toolbar.png){width="70%"}
 
 Der **Konfigurationsbereich für die Aktivität** wird angezeigt, wenn Sie auf eine Aktivität in der Palette klicken. Füllen Sie die erforderlichen Felder aus. Klicken Sie auf das Symbol **[!UICONTROL Löschen]**, um die Aktivität zu löschen. Klicken Sie auf **[!UICONTROL Abbrechen]**, um die Änderungen zu ignorieren, oder auf **[!UICONTROL OK]**, um sie zu bestätigen. Um Aktivitäten zu löschen, können Sie auch eine Aktivität (oder mehrere) auswählen und die Rücktaste drücken. Durch Drücken der Esc-Taste wird der Konfigurationsbereich für die Aktivität geschlossen.
 
@@ -162,10 +162,10 @@ Sie können eine oder mehrere Aktivitäten einer Journey kopieren und entweder i
 Im Folgenden werden die Schritte zum Kopieren/Einfügen von Aktivitäten beschrieben:
 
 1. Öffnen Sie eine Journey.
-1. Wählen Sie die Aktivitäten aus, die Sie kopieren möchten, indem Sie die Maus darüber bewegen und klicken. Alternativ können Sie auf die einzelnen Aktivitäten klicken, während Sie die **Strg-/Befehlstaste** gedrückt halten. Verwenden Sie **Strg/Befehl + A**, wenn Sie alle Aktivitäten auswählen möchten.
+1. Wählen Sie die Aktivitäten aus, die Sie kopieren möchten, indem Sie die Maus darüber bewegen und klicken. Alternativ können Sie auf die einzelnen Aktivitäten klicken, während Sie die **Strg/Befehl** drücken. Verwenden Sie **Strg/Befehl + A**, wenn Sie alle Aktivitäten auswählen möchten.
    ![Auswählen mehrerer Aktivitäten in Journey zum Kopieren](assets/copy-paste1.png)
-1. Drücken Sie **Strg/Befehl+C**.
-Wenn Sie nur eine Aktivität kopieren möchten, können Sie darauf klicken und oben links im Konfigurationsbereich für die Aktivität das Symbol **Kopieren** verwenden.
+1. Drücken Sie **Strg/Befehl + C**.
+Wenn Sie nur eine Aktivität kopieren möchten, können Sie darauf klicken und oben links im Konfigurationsbereich für die Aktivität das **Kopieren**-Symbol verwenden.
    ![Symbol „Kopieren“ im Konfigurationsbereich für Aktivitäten](assets/copy-paste2.png)
-1. Drücken Sie in einer beliebigen Journey die **Strg-/Befehlstaste + V**, um die Aktivitäten einzufügen, ohne sie mit einem vorhandenen Knoten zu verknüpfen. Eingefügte Aktivitäten werden in derselben Reihenfolge angeordnet. Nach dem Einfügen bleiben Aktivitäten ausgewählt, damit Sie sie einfach verschieben können. Sie können den Cursor auch auf einen leeren Platzhalter setzen und **Strg/Befehl+V** drücken. Eingefügte Aktivitäten werden mit dem Knoten verknüpft.
+1. Drücken Sie auf einer beliebigen Journey **Strg/Befehl + V**, um die Aktivitäten einzufügen, ohne sie mit einem bestehenden Knoten zu verknüpfen. Eingefügte Aktivitäten werden in derselben Reihenfolge platziert. Nach dem Einfügen bleiben Aktivitäten ausgewählt, damit Sie sie einfach verschieben können. Sie können den Cursor auch auf einen leeren Platzhalter setzen und **Strg/Befehl + V** drücken. Eingefügte Aktivitäten werden mit dem Knoten verknüpft.
    ![Eingefügte Aktivitäten auf der Journey-Arbeitsfläche, die verbunden werden können](assets/copy-paste3.png)

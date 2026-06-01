@@ -12,7 +12,7 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 338
 ht-degree: 78%
@@ -63,4 +63,4 @@ Im Folgenden finden Sie ein Beispiel für eine orchestrierte Kampagne mit zwei A
 
 Im folgenden Beispiel verwendet die Aktivität **[!UICONTROL Zielgruppe aufbauen]** den Regel-Builder, um Profile nach ihrem Abonnementplan zu filtern. Für das `plan`-Attribut wird eine Bedingung festgelegt, die so festgelegt ist, dass nur Profile einbezogen werden, bei denen `plan = "basic"`, wodurch die Zielgruppe auf Abonnenten der untersten Ebene eingeschränkt wird, bevor sie an die nächste Aktivität übergeben wird.
 
-![](../assets/build-audience-plan.png){width="50%" align="left"}
+![](../assets/build-audience-plan.png){width="50%"}

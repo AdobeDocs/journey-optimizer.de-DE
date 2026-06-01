@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 2649
+source-wordcount: 2585
 ht-degree: 92%
 
 ---
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um Ihre Journey zu pausieren:
 
 1. Wählen Sie aus, wie Profile, die sich derzeit in der Journey befinden, verwaltet werden sollen.
 
-   ![Pausieren von Journey-Optionen](assets/pause-confirm.png){width="50%" align="left"}
+   ![Pausieren von Journey-Optionen](assets/pause-confirm.png){width="50%"}
 
    Sie haben folgende Möglichkeiten:
 
@@ -84,7 +84,7 @@ Gehen Sie wie folgt vor, um Ihre Journey zu pausieren:
 
 Die maximale Anzahl von Profilen, die in pausierten Journeys für Ihr Unternehmen enthalten sein können, ist im Journey-Inventar zu sehen. Sie wird nur angezeigt, wenn mindestens eine Journey pausiert wurde. Dieser Indikator zeigt auch die Gesamtzahl der pausierten Journeys an. Er wird alle 30 Minuten aktualisiert. Weitere Informationen finden Sie unter [Leitlinien und Einschränkungen](#guardrails-and-limitations).
 
-![Anzahl der derzeit angehaltenen Journeys und Profile](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+![Anzahl der derzeit angehaltenen Journeys und Profile](assets/profiles-in-paused-journeys.png){width="50%"}
 
 In der Liste der Journeys können eine oder mehrere **Live**-Journeys pausiert werden. Wählen Sie zum Pausieren einer Gruppe von Journeys (_Massenpause_) die Journeys in der Liste aus und klicken Sie auf die Schaltfläche **Anhalten** in der blauen Leiste am unteren Bildschirmrand. Die Schaltfläche **Anhalten** ist nur verfügbar, wenn **Live**-Journeys ausgewählt sind.
 
@@ -182,9 +182,9 @@ Beachten Sie, dass Profilausschlüsse für Profile, die sich derzeit in der Jour
 
 ## Leitlinien und Einschränkungen {#journey-pause-guardrails}
 
-* Eine Journey-Version kann bis zu **14 Tage** lang pausiert werden, wobei in pausierten Journeys in Ihrem Unternehmen insgesamt maximal **10 Millionen Profile** zulässig sind.
+* Eine Journey-Version kann bis zu **14 Tage lang angehalten werden** wobei in pausierten Journey in Ihrem Unternehmen maximal **10 Millionen** zulässig sind.
 Diese Begrenzung zählt die Gesamtzahl der Profile, die in allen pausierten Journey enthalten sind, nicht in den einzelnen Profilen. Wenn beispielsweise dieselben 5M-Profile in zwei pausierten Journey gespeichert werden, ist die 10M-Grenze erreicht.
-Dieses Limit wird alle 30 Minuten überprüft. Dies bedeutet, dass Sie den Schwellenwert von 10 Millionen möglicherweise vorübergehend überschreiten. Sobald das System dies jedoch erkennt, werden alle zusätzlichen Profile automatisch verworfen.
+Diese Begrenzung wird alle 30 Minuten überprüft. Dies bedeutet, dass Sie den Schwellenwert von 10 Millionen möglicherweise vorübergehend überschreiten. Sobald das System ihn jedoch erkennt, werden alle zusätzlichen Profile automatisch verworfen.
 
   Wenn Sie Journeys fortsetzen, um die Anzahl der zurückgehaltenen Profile wieder unter das Limit zu bringen, wird die jeweilige Journey sofort fortgesetzt. Es kann jedoch bis zu 30 Minuten dauern, bis die Profilanzahl aktualisiert wird. Während dieser Zeit betrachtet das System diese Profile möglicherweise immer noch als pausiert.
 

@@ -26,7 +26,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1523
 ht-degree: 95%
@@ -55,7 +55,7 @@ Fragmente können nach folgenden Kriterien gefiltert werden:
 * Status (archiviert oder nicht)
 * Tags
 
-![](assets/fragment-list-filters.png){width="90%" align="left"}
+![](assets/fragment-list-filters.png){width="90%"}
 
 Sie können auch wählen, ob alle Fragmente angezeigt werden sollen oder nur die Elemente, die von der Person, die aktuell daran arbeitet, erstellt oder geändert wurden.
 
@@ -159,7 +159,7 @@ Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten.
 
 1. Wenn das in Bearbeitung befindliche Fragment den Status **[!UICONTROL Live]** aufweist, klicken Sie auf die Schaltfläche **[!UICONTROL Ändern]**, um eine Entwurfsversion des Fragments zu erstellen. Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}
+   ![](assets/fragment-live-modify.png){width="70%"}
 
    >[!NOTE]
    >
@@ -169,7 +169,7 @@ Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten.
 
 1. Um den Fragmentinhalt zu bearbeiten, klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** und aktualisieren Sie dann den Inhalt wie beim Erstellen eines neuen Fragments. [Informationen zum Erstellen eines Fragments](create-fragments.md#content)
 
-   ![](assets/fragment-edit.png){width="70%" align="left"}
+   ![](assets/fragment-edit.png){width="70%"}
 
    >[!NOTE]
    >
@@ -195,13 +195,13 @@ Gehen Sie wie folgt vor, um zusätzliche Attribute in ein Live-Fragment einzubin
 
 1. Duplizieren Sie das vorhandene Fragment mithilfe der Schaltfläche **[!UICONTROL Weitere Aktionen]**.
 
-   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+   ![](assets/fragment-list-more-actions.png){width="70%"}
 
 1. Wählen Sie das duplizierte Fragment aus, um es zu öffnen, und klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]**.
 
 1. [Fügen Sie die neuen gewünschten Attribute zum duplizierten Fragment hinzu](../personalization/personalization-build-expressions.md#add), z. B. Personalisierungsfelder.
 
-   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
+   ![](assets/fragment-add-new-attribute.png){width="70%"}
 
 1. Speichern Sie Ihre Änderungen und veröffentlichen Sie das neue Fragment. [Weitere Informationen](create-fragments.md#publish)
 
@@ -214,11 +214,11 @@ Gehen Sie wie folgt vor, um zusätzliche Attribute in ein Live-Fragment einzubin
 
 Sie können die Liste aller Journeys, Kampagnen und Inhaltsvorlagen anzeigen, die derzeit ein Fragment verwenden. Wählen Sie dazu entweder über das Menü **[!UICONTROL Weitere Aktionen]** in der Fragmentliste oder im Bildschirm „Fragmenteigenschaften“ die Option **[!UICONTROL Verweise durchsuchen]** aus.
 
-![](assets/fragment-explore-references.png){width="70%" align="left"}
+![](assets/fragment-explore-references.png){width="70%"}
 
 Wählen Sie eine Registerkarte aus, um zwischen Journeys, Kampagnen und Vorlagen zu wechseln. Sie können ihren Status anzeigen und auf einen Namen klicken, um zum entsprechenden Element mit dem Fragmentverweis weitergeleitet zu werden.
 
-![](assets/fragment-usage-screen.png){width="70%" align="left"}
+![](assets/fragment-usage-screen.png){width="70%"}
 
 >[!NOTE]
 >
@@ -230,7 +230,7 @@ Sie können aus der Fragmentliste die Elemente löschen, die für Ihre Marke nic
 
 Klicken Sie dazu auf das Symbol **[!UICONTROL Weitere Aktionen]** neben dem gewünschten Fragment und dann auf **[!UICONTROL Archivieren]**. Es wird daraufhin nicht länger in der Fragmentliste angezeigt, sodass es in zukünftigen E-Mails oder Vorlagen nicht mehr von Benutzenden verwendet werden kann.
 
-![](assets/fragment-list-archive.png){width="70%" align="left"}
+![](assets/fragment-list-archive.png){width="70%"}
 
 >[!NOTE]
 >
@@ -238,7 +238,7 @@ Klicken Sie dazu auf das Symbol **[!UICONTROL Weitere Aktionen]** neben dem gew�
 
 Um die Archivierung eines Fragments aufzuheben, filtern Sie nach **[!UICONTROL archivierten]** Elementen und wählen Sie aus dem Menü **[!UICONTROL Mehr Aktionen]** die Option **[!UICONTROL Archivierung aufheben]** aus. Es ist nun wieder über die Fragmentliste zugänglich und kann in jeder E-Mail oder Vorlage verwendet werden.
 
-![](assets/fragment-list-unarchive.png){width="70%" align="left"}
+![](assets/fragment-list-unarchive.png){width="70%"}
 
 ## Exportieren von Fragmenten in eine andere Sandbox {#export}
 

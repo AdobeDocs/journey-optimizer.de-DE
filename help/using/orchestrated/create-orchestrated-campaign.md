@@ -12,7 +12,7 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1227
 ht-degree: 94%
@@ -163,7 +163,7 @@ Gehen Sie wie folgt vor, um den Zeitplan der Kampagne zu konfigurieren:
 
 Im folgenden Beispiel wird die Aktivität so konfiguriert, dass die orchestrierte Kampagne zweimal am Tag um 9:00 Uhr und 12:00 Uhr ausgeführt wird, und das jeden Wochentag vom 1. Oktober 2025 bis zum 1. Januar 2026.
 
-![Planung so konfiguriert, dass die Kampagne zweimal täglich um 9:00 Uhr und 12:00 Uhr ausgeführt wird](assets/scheduler-sample.png){width="50%" align="left"}
+![Planung so konfiguriert, dass die Kampagne zweimal täglich um 9:00 Uhr und 12:00 Uhr ausgeführt wird](assets/scheduler-sample.png){width="50%"}
 
 ## Nächste Schritte {#next}
 

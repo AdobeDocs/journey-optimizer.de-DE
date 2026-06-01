@@ -27,10 +27,10 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 326
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -56,16 +56,16 @@ In Journey Optimizer muss eine benutzerdefinierte Aktion für Marketo Engage kon
 
 1. Wählen SIe **[!UICONTROL Konfigurationen]** im Menüabschnitt ADMINISTRATION aus.
 1. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Aktion erstellen]**. Der Bereich für die Aktionskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
-1. Geben Sie Namen und Beschreibung ein und wählen Sie **Adobe Marketo Engage** als **Aktionstyp**
-   ![](assets/engage-customaction-creation.png){width="40%" align="left"}
+1. Geben Sie Name und Beschreibung ein und wählen Sie **Adobe Marketo Engage** als **Aktionstyp** aus.
+   ![](assets/engage-customaction-creation.png){width="40%"}
 1. Klicken Sie für die Payloads **Anfrage** und **Antwort** auf **Payload bearbeiten**.
 1. Erstellen Sie Ihre Payload für beide und fügen Sie sie in das entsprechende Popup ein.
-   ![](assets/engage-customaction-payload.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload.png){width="70%"}
 1. Überprüfen und Konfigurieren von Payload-Werten
 
    Hinweis: Um Werte dynamisch zu übergeben, ändern Sie für jedes Feld **Konstante** in **Variable**.
 
-   ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload-fields.png){width="70%"}
 
 1. Klicken Sie im Bildschirm „Feldkonfiguration“ auf **Speichern** und **speichern** Sie dann die benutzerdefinierte Aktion.
 
@@ -138,4 +138,4 @@ Gehen Sie wie folgt vor, um diese zu verwenden:
 
 1. Klicken Sie im Abschnitt **Anfrageparameter** für jeden Parameter auf das Symbol **Bearbeiten** und wählen Sie die dynamischen Werte aus, die in der Payload konfiguriert wurden.
 
-![](assets/engage-use-canvas.png){width="70%" align="left"}
+![](assets/engage-use-canvas.png){width="70%"}

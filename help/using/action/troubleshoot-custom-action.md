@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1051
 ht-degree: 61%
@@ -40,7 +40,7 @@ Sie können Ihre benutzerdefinierten Aktionen testen, indem Sie API-Aufrufe aus 
 
 Verwenden Sie als Admin die Funktion **[!UICONTROL Testanfrage senden]**, um die Konfigurationen der benutzerdefinierten Aktion zu validieren, indem Sie echte API-Aufrufe direkt von Adobe Journey Optimizer aus durchführen. Durch diese Funktion wird sichergestellt, dass Anfragestruktur, Header, Authentifizierung und Payload korrekt formatiert sind, bevor sie in einer Journey verwendet werden.
 
-![](assets/send-test-request.png){width="70%" align="left"}
+![](assets/send-test-request.png){width="70%"}
 
 Indem Sie diese Funktion verwenden, wird der Test- und Validierungsprozess optimiert, sodass benutzerdefinierte Aktionen in Live-Journeys ordnungsgemäß funktionieren.
 
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um eine benutzerdefinierte Aktion zu testen:
 
 1. Navigieren Sie zum Bildschirm **Aktionskonfiguration** und wählen Sie eine benutzerdefinierte Aktion aus.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Testanfrage senden]** unten am Bildschirm „Aktionskonfiguration“.
-   ![Schaltfläche „Testanfrage senden“ im Panel „Aktionskonfiguration“](assets/test-request.png){width="70%" align="left"}
+   ![Schaltfläche „Testanfrage senden“ im Panel „Aktionskonfiguration“](assets/test-request.png){width="70%"}
 1. Im Popup-Fenster können Sie Anfrageparameter angeben:
 
    * Wenn die **benutzerdefinierte Aktionsmethode GET ist**, ist keine Payload erforderlich.

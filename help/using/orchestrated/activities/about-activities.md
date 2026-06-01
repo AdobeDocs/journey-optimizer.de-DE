@@ -14,7 +14,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 530
 ht-degree: 81%
@@ -31,7 +31,7 @@ Alle Aktivitäten werden in den folgenden Abschnitten beschrieben:
 * [Kanalaktivitäten](#channel)
 * [Aktivitäten zur Flusssteuerung](#flow-control)
 
-![Liste der auf der Arbeitsfläche verfügbaren Aktivitäten](../assets/orchestrated-activities.png){width="80%" align="left"}
+![Liste der auf der Arbeitsfläche verfügbaren Aktivitäten](../assets/orchestrated-activities.png){width="80%"}
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Siehe [Leitplanken und Einschränkungen](../guardrails.md) für alle Leitplanken
 
 Diese Aktivitäten sind spezifisch für die Zielgruppenbestimmung. Sie ermöglichen es Ihnen, ein oder mehrere Ziele zu erstellen, indem Sie eine Zielgruppe definieren und diese Zielgruppen mithilfe von Schnittmenge, Vereinigung oder Ausschluss aufteilen oder kombinieren.
 
-![Liste der Targeting-Aktivitäten](../assets/targeting-activities.png){width="40%" align="left"}
+![Liste der Targeting-Aktivitäten](../assets/targeting-activities.png){width="40%"}
 
 Die verfügbaren Aktivitäten zur Zielgruppenbestimmung sind:
 
@@ -81,7 +81,7 @@ Erfahren Sie, wie Sie [in einer orchestrierten Kampagne eine Kanalaktion erstell
 
 Die folgenden Aktivitäten dienen der Organisation und Ausführung von orchestrierten Kampagnen. Ihre Hauptaufgabe besteht darin, die anderen Aktivitäten zu koordinieren.
 
-![Liste der Aktivitäten zur Flusskontrolle](../assets/flow-control-activities.png){width="20%" align="left"}
+![Liste der Aktivitäten zur Flusskontrolle](../assets/flow-control-activities.png){width="20%"}
 
 Verfügbare Flusssteuerungsaktivitäten sind:
 

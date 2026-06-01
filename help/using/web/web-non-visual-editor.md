@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 427
 ht-degree: 100%
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um Ihre Web-Erlebnisse mit dem nicht visuellen Editor z
 
    Klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben der Änderung und wählen Sie **[!UICONTROL Info]** aus, um die Details anzuzeigen. Sie können bei Bedarf auch **[!UICONTROL die Änderung löschen]**.
 
-   ![](assets/web-non-visual-editor-ex-more.png){width="50%" align="left"}
+   ![](assets/web-non-visual-editor-ex-more.png){width="50%"}
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um Ihre Web-Erlebnisse mit dem nicht visuellen Editor z
 
 1. Darüber hinaus können Sie ein beliebiges Element Ihrer Web-Seite auswählen und die Klicks auf dieses Element nachverfolgen. Um das Klick-Tracking zu aktivieren und die Aktionen zu definieren, die nachverfolgt werden sollen, klicken Sie auf das zweite Symbol in der linken Leiste, wie unten dargestellt:
 
-   ![](assets/web-campaign-click.png){width="50%" align="left"}
+   ![](assets/web-campaign-click.png){width="50%"}
 
    Verwenden Sie die Schaltfläche **Komponente hinzufügen**, um eine neue Aktion auszuwählen, die nachverfolgt werden soll. Weitere Informationen zum Klick-Tracking finden Sie in [diesem Abschnitt](monitor-web-experiences.md#use-click-tracking).
 

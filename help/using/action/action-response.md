@@ -25,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 849
-ht-degree: 77%
+source-wordcount: 843
+ht-degree: 75%
 
 ---
 
@@ -90,7 +90,7 @@ The **URL configuration** section has been renamed **Endpoint configuration**.
 
 In the **Method** drop-down, you can now select **GET**.
 
-![](assets/action-response1.png){width="70%" align="left"}
+![](assets/action-response1.png){width="70%"}
 
 ### Payloads {#payloads-new}
 
@@ -103,7 +103,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 > 
 >Both these fields are optional.
 
-![](assets/action-response2.png){width="70%" align="left"}
+![](assets/action-response2.png){width="70%"}
 -->
 
 ## Konfigurieren der benutzerdefinierten Aktion {#config-response}
@@ -112,7 +112,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Klicken Sie in das Feld **Antwort** (Erfolgsantwort).
 
-   ![](assets/action-response2.png){width="80%" align="left"}
+   ![](assets/action-response2.png){width="80%"}
 
 1. Fügen Sie ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Überprüfen Sie, ob die Feldtypen korrekt sind (Zeichenfolge, Ganzzahl usw.). Hier ist ein Beispiel für die Antwort-Payload, die während des Aufrufs erfasst wird. Unser lokaler Endpunkt sendet die Anzahl der Treuepunkte und den Status eines Profils.
 
@@ -123,7 +123,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    "points": 1290 }
    ```
 
-   ![](assets/action-response4.png){width="80%" align="left"}
+   ![](assets/action-response4.png){width="80%"}
 
    Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab.
 
@@ -139,7 +139,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Fügen Sie außerdem die customerID als Abfrageparameter hinzu.
 
-   ![](assets/action-response9.png){width="80%" align="left"}
+   ![](assets/action-response9.png){width="80%"}
 
 1. Klicken Sie auf **Speichern**.
 
@@ -171,7 +171,7 @@ Sie können beispielsweise eine Bedingung hinzufügen, um die Anzahl der Treuepu
    >
    >Jedes Profil, das die benutzerdefinierte Aktion durchführt, löst einen Aufruf aus. Auch wenn die Antwort immer gleich ist, führt die Journey immer noch einen Aufruf pro Profil durch.
 
-1. Fügen Sie in den Verzweigungen „Timeout“ und „Fehler“ eine Bedingung hinzu und nutzen Sie das integrierte Feld **jo_status_code**. In unserem Beispiel verwenden wir den Fehlertyp
+1. Fügen Sie in der Verzweigung für Zeitüberschreitung und Fehler eine Bedingung hinzu und nutzen Sie das integrierte Feld **jo_status_code**. In unserem Beispiel verwenden wir die
    **http_400**. Weitere Informationen finden Sie in [diesem Abschnitt](#error-status).
 
    ```

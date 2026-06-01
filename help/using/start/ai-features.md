@@ -29,7 +29,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2177
 ht-degree: 70%
@@ -80,7 +80,7 @@ Klicken Sie in der oberen Leiste auf das Symbol „KI-Assistent“, um das Panel
 4. Klicken Sie auf **Quellen anzeigen**, um auf die zugehörige Dokumentation zuzugreifen
 5. Bewerten Sie die Antwortqualität mit einem Daumen nach oben/unten
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="40%"}
 
 [Weitere Informationen zum KI-Assistenten in Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}
 

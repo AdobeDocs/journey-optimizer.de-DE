@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1490
 ht-degree: 96%
@@ -44,7 +44,7 @@ Zu Beginn der Erstellung einer E-Mail müssen Sie Konfigurationen für E-Mail-Ka
 
 Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanalkonfiguration fest, wie unten beschrieben.
 
-![](assets/surface-email-settings.png){width="50%" align="left"}
+![](assets/surface-email-settings.png){width="50%"}
 
 Die E-Mail-Konfiguration wird nach der folgenden Logik für das Senden von Nachrichten übernommen:
 
@@ -85,7 +85,7 @@ Um die Reputation Ihrer Domain zu wahren, den IP-Warming-Prozess zu beschleunige
 
 Wählen Sie den IP-Pool aus, der mit der Konfiguration verknüpft werden soll. [Weitere Informationen](../configuration/ip-pools.md)
 
-![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%"}
 
 Sie können nicht mit der Erstellung der Konfiguration fortfahren, während sich der ausgewählte IP-Pool in [Bearbeitung](../configuration/ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. In diesem Fall wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Wenn dies der Fall ist, speichern Sie die Konfiguration als Entwurf und versuchen Sie es erneut, sobald der IP-Pool den Status **[!UICONTROL Erfolg]** erreicht hat.
 

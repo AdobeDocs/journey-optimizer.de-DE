@@ -32,7 +32,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 90%
@@ -79,7 +79,7 @@ Während des Probelaufs wird die Journey im Simulationsmodus ausgeführt. Dabei 
 
   Zur besseren Lesbarkeit werden benutzerdefinierte Aktionen und Kanalaktivitäten während der Ausführung eines Probelaufs ausgegraut angezeigt.
 
-  ![Ausgegraute Aktionsaktivitäten im Probelauf einer Journey](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+  ![Ausgegraute Aktionsaktivitäten im Probelauf einer Journey](assets/dry-run-greyed-activities.png){width="80%"}
 
 * **Datenquellen**, einschließlich externer Datenquellen, und Aktivitäten des Typs **Warten** sind während des Probelaufs standardmäßig deaktiviert. Sie können dieses Verhalten jedoch [bei der Aktivierung des Probelaufmodus](#journey-dry-run-start) ändern.
 
@@ -107,7 +107,7 @@ Gehen Sie wie folgt vor, um einen Probelauf zu aktivieren:
 
 1. Wählen Sie dies aus, wenn Sie Aktivitäten des Typs **Warten** und Aufrufe von **externen Datenquellen** aktivieren oder deaktivieren möchten, und bestätigen Sie die Veröffentlichung des Probelaufs.
 
-   ![Bestätigen der Veröffentlichung des Journey- Probelaufs](assets/dry-run-publish.png){width="50%" align="left"}
+   ![Bestätigen der Veröffentlichung des Journey- Probelaufs](assets/dry-run-publish.png){width="50%"}
 
    Während des Übergangs wird die Statusmeldung **[!UICONTROL Probelauf wird aktiviert]** angezeigt.
 
@@ -141,7 +141,7 @@ Probelauf-Journeys können auch manuell gestoppt werden. Gehen Sie wie folgt vor
 1. Klicken Sie auf **[!UICONTROL Schließen]**, um den Test zu beenden.
 Links zu den letzten 24 Stunden und allen Zeitberichten sind im Bestätigungsbildschirm verfügbar.
 
-   ![Anhalten der Probelauf-Ausführung der Journey](assets/dry-run-stop.png){width="50%" align="left"}
+   ![Anhalten der Probelauf-Ausführung der Journey](assets/dry-run-stop.png){width="50%"}
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Zurück zum Entwurf]**.
 
