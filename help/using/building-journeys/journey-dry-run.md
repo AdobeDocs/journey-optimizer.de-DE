@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 92%
+source-wordcount: 1082
+ht-degree: 90%
 
 ---
 
@@ -84,6 +84,7 @@ Während des Probelaufs wird die Journey im Simulationsmodus ausgeführt. Dabei 
 * **Datenquellen**, einschließlich externer Datenquellen, und Aktivitäten des Typs **Warten** sind während des Probelaufs standardmäßig deaktiviert. Sie können dieses Verhalten jedoch [bei der Aktivierung des Probelaufmodus](#journey-dry-run-start) ändern.
 
 * **Reaktions**-Knoten werden nicht ausgeführt: Alle Profile, die diese erreichen, steigen erfolgreich aus. Es gelten jedoch die folgenden Prioritätsregeln:
+
    * Wenn ein **Reaktions**-Knoten mit einem oder mehreren Knoten vom Typ **unitäres Ereignis** parallel verwendet wird, durchlaufen die Profile immer das Reaktionsereignis.
    * Wenn ein **Reaktions**-Knoten parallel mit einem oder mehreren **Reaktionsereignis**-Knoten verwendet wird, durchlaufen die Profile immer den ersten (den obersten) Knoten auf der Arbeitsfläche.
 
@@ -137,8 +138,8 @@ Nach 14 Tagen wechseln Probelauf-Journeys automatisch in den Status **[!UICONTR
 Probelauf-Journeys können auch manuell gestoppt werden. Gehen Sie wie folgt vor, um den Probelaufmodus zu deaktivieren:
 
 1. Öffnen Sie die Probelauf-Journey, die Sie stoppen möchten.
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Schließen]**, um den Test zu beenden.
-Links zu den Berichten der letzten 24 Stunden und der gesamten Zeit sind im Bestätigungsbildschirm verfügbar.
+1. Klicken Sie auf **[!UICONTROL Schließen]**, um den Test zu beenden.
+Links zu den letzten 24 Stunden und allen Zeitberichten sind im Bestätigungsbildschirm verfügbar.
 
    ![Anhalten der Probelauf-Ausführung der Journey](assets/dry-run-stop.png){width="50%" align="left"}
 
@@ -151,8 +152,8 @@ Links zu den Berichten der letzten 24 Stunden und der gesamten Zeit sind im Bes
 * Journeys im Probelaufmodus werden auf das Live-Journey-Kontingent angerechnet.
 * Probelauf-Journeys wirken sich nicht auf Geschäftsregeln aus.
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* Aktionen des Typs **Sprung** sind im Probelauf nicht aktiviert.
-Wenn eine Quell-Journey ein **Sprung**-Ereignis zu einer Ziel-Journey auslöst, gilt dieses Sprung-Ereignis nicht für eine Probelaufversion der Journey. Wenn sich beispielsweise die neueste Journey-Version im Probelauf befindet und die vorherige Version **Live** ist, ignoriert das Sprung-Ereignis die Probelaufversion und betrifft nur die **Live**-Version.
+* **Sprung**-Aktionen sind in Probelauf nicht aktiviert.
+Wenn eine Quell-Journey ein **Jump**-Ereignis an eine Zielversion Trigger, wäre dieses Sprungereignis nicht auf eine Dry-Run-Journey-Version anwendbar. Wenn sich beispielsweise die neueste Journey-Version in Probelauf befindet und die vorherige Version **Live**, ignoriert das Sprungereignis die Probelauf-Version und gilt nur für die **Live**-Version.
 
 ## Journey-Schrittereignisse und Probelauf {#journey-step-events}
 
