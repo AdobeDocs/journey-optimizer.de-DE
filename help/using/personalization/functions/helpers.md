@@ -6,13 +6,12 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: aba0c6daa1f1f1258b424bc5b57fbca694dfabbf
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 54%
+source-wordcount: 1121
+ht-degree: 50%
 
 ---
 
@@ -33,7 +32,7 @@ In diesem Beispiel wird der Wert `there` angezeigt, wenn das Attribut `firstName
 ## Bedingungen{#if-function}
 
 Der Helper `if` wird zum Definieren eines bedingten Blocks verwendet.
-Wenn die Auswertung des Ausdrucks „true“ zurückgibt, wird der Block dargestellt, andernfalls wird er übersprungen.
+Wenn die Auswertung des Ausdrucks „true“ zurückgibt, wird der Block gerendert, andernfalls wird er übersprungen.
 
 **Syntax**
 
@@ -42,8 +41,8 @@ Wenn die Auswertung des Ausdrucks „true“ zurückgibt, wird der Block dargest
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Nach dem Helper `if` können Sie eine `else`-Anweisung einfügen, um einen Code-Block auszuführen, wenn die Auswertung „false“ zurückgibt.
-Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn die erste Anweisung „false“ zurückgibt.
+Nach dem Helper `if` können Sie eine `else` eingeben, um einen Code-Block auszuführen, wenn die Bedingung „false“ ist.
+Die `elseif`-Anweisung gibt eine neue Bedingung an, die geprüft wird, wenn die erste Anweisung „false“ zurückgibt.
 
 
 **Format**
@@ -136,9 +135,9 @@ Some edu specific content
 
 ## Jeweils{#each}
 
-Der Helper `each` wird verwendet, um die Elemente eines Arrays zu verarbeiten.
+Der `each` Helper wird verwendet, um die Elemente eines Arrays zu verarbeiten.
 Die Syntax des Helpers lautet `{{#each ArrayName}}` YourContent `{{/each}}`.
-Wir können auf die einzelnen Array-Elemente verweisen, indem wir das Keyword **this** innerhalb des Blocks verwenden. Der Index des Array-Elements kann mithilfe von `{{@index}}` gerendert werden.
+Wir können auf die einzelnen Array-Elemente verweisen, indem wir das Keyword **this** innerhalb des Blocks verwenden. Der Index des Array-Elements kann mithilfe von `{{@index}}` dargestellt werden.
 
 **Syntax**
 
@@ -333,8 +332,6 @@ In diesem Beispiel ist unter der Annahme `profile.person.name.firstName` = „Al
 ## Verschlüsseln {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
->
->Diese Funktion ist nur in begrenztem Umfang verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
 >
 >Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar.
 
